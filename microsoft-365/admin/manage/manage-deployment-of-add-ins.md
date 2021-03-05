@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Informatie over het implementeren van invoegingen voor gebruikers en groepen in uw organisatie met Gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: 5d17242d98f0e58ec4bfbcfd5b7014e6a6e0a6c5
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 4dc7552f2341097b95e763297d2f701f162f83ec
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114499"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454392"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Invoegtoepassingen implementeren in het beheercentrum
 
@@ -45,7 +45,7 @@ Zie Bepalen of Gecentraliseerde implementatie van invoeghulp voor uw organisatie
 Zie Invoegingen beheren in het beheercentrum voor meer informatie over het beheren van invoegingen na [de implementatie.](manage-addins-in-the-admin-center.md)
   
 > [!NOTE]
->  Voor Word, Excel en PowerPoint wordt een [SharePoint-app-catalogus](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) gebruikt om invoegingen te implementeren voor gebruikers in een on-premises omgeving zonder verbinding met Microsoft 365 en/of ondersteuning voor SharePoint-invoegingen vereist. Voor Outlook gebruikt u het Configuratiescherm van Exchange om te implementeren in een on-premises omgeving zonder verbinding met Microsoft 365.
+>  Voor Word gebruiken Excel en [](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) PowerPoint een SharePoint-app-catalogus om invoegingen te implementeren voor gebruikers in een on-premises omgeving zonder verbinding met Microsoft 365 en/of ondersteuning voor SharePoint-invoegvoegingen vereist. Voor Outlook gebruikt u het Configuratiescherm van Exchange om te implementeren in een on-premises omgeving zonder verbinding met Microsoft 365.
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Aanbevolen werkwijze voor de implementatie van Office-invoegtoepassingen
 
@@ -53,28 +53,28 @@ Als u invoegingen wilt uitrollen met behulp van een gefaseeerde aanpak, raden we
   
 1. Rol de invoeging uit naar een klein aantal belanghebbenden in het bedrijf en leden van de IT-afdeling. Als de implementatie is geslaagd, gaat u naar stap 2.
     
-2. Rol de invoeg toevoeg uit naar meer personen binnen het bedrijf. Evalueer opnieuw de resultaten en ga verder met de volledige implementatie als dit is gelukt.
+2. Rol de invoegrol uit naar meer personen binnen het bedrijf. Evalueer opnieuw de resultaten en ga verder met de volledige implementatie als dit lukt.
     
 3. Voer een volledige implementatie uit voor alle gebruikers.
     
 Afhankelijk van de grootte van de doelgroep, kunt u uitrolstappen toevoegen of verwijderen.
   
-## <a name="deploy-an-office-add-in-using-the-admin-center"></a>Een Office-invoegvoeging implementeren via het beheercentrum
+## <a name="deploy-an-office-add-in-using-the-admin-center"></a>Een Office-invoeg office implementeren via het beheercentrum
 
 Voordat u begint, bekijkt u Bepalen of Gecentraliseerde implementatie [van invoegingen voor uw organisatie werkt.](centralized-deployment-of-add-ins.md)
   
-1. Ga in het beheercentrum naar de **pagina** Instellingen \> **voor invoegingen.** Als u de pagina Voor **invoeg** toevoegen  niet ziet, gaat u naar de pagina Geïntegreerde \>  \> **apps-invoegingen in Instellingen.**
+1. Ga in het beheercentrum naar de **pagina** Instellingen \> **voor invoegingen.** Als u de pagina voor **invoeg** apps  niet ziet, gaat u naar de pagina Geïntegreerde \>  \> **apps-invoegingen in Instellingen.**
     
 2. Selecteer **Invoeg toevoegen implementeren** boven aan de pagina en selecteer vervolgens **Volgende.**
  
     > [!NOTE]
-    > Het beheercentrum wordt bijgewerkt naar de implementatie-ervaring met Geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie Gecentraliseerde implementatie via **Geïntegreerde**  >  **apps instellingen.** Kies invoegingen boven aan de pagina Geïntegreerde **apps.**
+    > Het beheercentrum wordt bijgewerkt naar de implementatie-ervaring met Geïntegreerde apps. Geïntegreerde apps zijn alleen zichtbaar voor globale beheerders, terwijl voor andere gebruikers de oude ervaring nog steeds bestaat. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie Gecentraliseerde implementatie via **Geïntegreerde**  >  **apps instellingen.** Kies invoegingen boven aan de pagina Geïntegreerde **apps.**
     
 3. Selecteer een optie en volg de instructies.
   
-4. Als u de optie hebt geselecteerd voor het toevoegen van een invoeg office store, maakt u de selectie van de invoeg graag. </br>
+4. Als u de optie hebt geselecteerd voor het toevoegen van een invoeg office store, selecteert u de invoeg graag. </br>
 
-    U kunt beschikbare invoegingen weergeven op basis van categorieën: **Voorgesteld voor u,** **Beoordeling** of **Naam.** In de Office Store zijn alleen gratis invoegingen beschikbaar. Betaalde invoegtoepassingen worden momenteel niet ondersteund. Nadat u een invoeg toevoegen hebt geselecteerd, accepteert u de voorwaarden om door te gaan. <br/> 
+    U kunt beschikbare invoegingen weergeven op basis van categorieën: **Voorgesteld voor u,** **Beoordeling** of **Naam.** In de Office Store zijn alleen gratis invoegingen beschikbaar. Betaalde invoegtoepassingen worden momenteel niet ondersteund. Nadat u een invoeg toevoeg hebt geselecteerd, accepteert u de voorwaarden om door te gaan. <br/> 
 
     > [!NOTE] 
     > Met de optie Office Store worden updates en verbeteringen automatisch geïmplementeerd voor gebruikers.
@@ -82,7 +82,7 @@ Voordat u begint, bekijkt u Bepalen of Gecentraliseerde implementatie [van invoe
 5. Selecteer op de volgende pagina **Iedereen,** **Specifieke gebruikers/groepen** of Alleen **ik** om op te geven voor wie de invoeg mail is geïmplementeerd. Gebruik het zoekvak om specifieke gebruikers of groepen te zoeken. <br/>
 
     > [!NOTE] 
-    > Zie de staten van invoegvoeg staten voor meer informatie over andere staten die van toepassing zijn op [een invoeg toevoeg.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center.md)
+    > Zie de staten van de invoeg graag zien als u meer wilt weten over andere staten die van toepassing zijn op [een invoeg toepassing.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center.md)
   
 6. Selecteer **Implementeren.**
   
@@ -93,23 +93,23 @@ Voordat u begint, bekijkt u Bepalen of Gecentraliseerde implementatie [van invoe
     
 8. Wanneer u klaar bent, selecteert u **Volgende.** Als u alleen voor uzelf hebt  geïmplementeerd, kunt u Wijzigen wie toegang heeft tot invoegvoeging om te implementeren voor meer gebruikers.
 
-    Als u de invoeg toepassing hebt geïmplementeerd voor andere leden van uw organisatie, volgt u de instructies om de implementatie van de invoeg toepassing aan te kondigen. <br/>
+    Als u de invoeg toepassing hebt geïmplementeerd in andere leden van uw organisatie, volgt u de instructies om de implementatie van de invoeg toepassing aan te kondigen. <br/>
   
-    Het is een goede gewoonte om gebruikers en groepen te laten weten dat de geïmplementeerde invoegvoeging beschikbaar is. Overweeg om een e-mailbericht te verzenden waarin wordt beschreven wanneer en hoe u de invoeg toevoeg kunt gebruiken. Voeg Help-inhoud of veelgestelde vragen toe of neem een koppeling naar help-inhoud op die gebruikers kan helpen bij problemen met de invoegverbinding.
+    Het is een goede gewoonte om gebruikers en groepen te laten weten dat de geïmplementeerde invoeg graag wordt gebruikt. Overweeg om een e-mailbericht te verzenden waarin wordt beschreven wanneer en hoe u de invoeg toevoeg kunt gebruiken. Neem help-inhoud of veelgestelde vragen op (of een koppeling hier naar) die gebruikers kunnen helpen bij problemen met de invoegverbinding.
   
 ### <a name="considerations-when-assigning-an-add-in-to-users-and-groups"></a>Overwegingen bij het toewijzen van een invoegtoepassing aan gebruikers en groepen
 
-Beheerders kunnen een invoegtoepassing aan iedereen of aan specifieke gebruikers en groepen toewijzen. Elke optie heeft gevolgen:
+Globale beheerders en Exchange-beheerders kunnen een invoeging aan iedereen of aan specifieke gebruikers en groepen toewijzen. Elke optie heeft gevolgen:
   
 - **Iedereen** Met deze optie wordt de invoegoptie toegewezen aan elke gebruiker in de organisatie. Gebruik deze optie niet te vaak en alleen voor invoegtoepassingen die echt universeel voor uw organisatie zijn. 
     
 - **Gebruikers** Als u een invoeg toevoegt aan een individuele gebruiker en u de invoeg toevoegt aan een nieuwe gebruiker, moet u eerst de nieuwe gebruiker toevoegen.
     
-- **Groepen** Als u een invoeg toevoegen aan een groep toewijst, wordt aan gebruikers die aan de groep worden toegevoegd, automatisch de invoeging toegewezen. Wanneer een gebruiker uit een groep wordt verwijderd, heeft de gebruiker geen toegang meer tot de invoegvoeging. In beide gevallen hoeft de beheerder geen extra actie uit te voeren. 
+- **Groepen** Als u een invoeg toevoegt aan een groep, wordt aan gebruikers die aan de groep worden toegevoegd, automatisch de invoeging toegewezen. Wanneer een gebruiker uit een groep wordt verwijderd, heeft de gebruiker geen toegang meer tot de invoegvoegvoeging. In beide gevallen hoeft de beheerder geen extra actie uit te voeren. 
 
-- **Alleen ik** Als u alleen aan uzelf een invoeg mailaccount toewijst, wordt de invoeg mail aan alleen uw account toegewezen. Dit is ideaal voor het testen van de invoegvoegfase.
+- **Alleen ik** Als u alleen aan uzelf een invoeg mailaccount toewijst, wordt de invoeg mail alleen aan uw account toegewezen. Dit is ideaal voor het testen van de invoeg mail.
     
-De juiste optie voor uw organisatie is afhankelijk van uw configuratie. Wij raden u echter aan opdrachten met behulp van groepen te maken. Als beheerder vindt u het mogelijk gemakkelijker om invoegingen te beheren door groepen te gebruiken en het lidmaatschap van deze groepen te beheren in plaats van steeds afzonderlijke gebruikers toe te wijzen. In sommige gevallen kunt u de toegang tot een kleine groep gebruikers beperken door toewijzingen aan specifieke gebruikers uit te brengen door gebruikers handmatig toe te wijzen.
+De juiste optie voor uw organisatie is afhankelijk van uw configuratie. Het is echter raadzaam opdrachten te maken met behulp van groepen. Als beheerder vindt u het mogelijk gemakkelijker om invoegingen te beheren door groepen te gebruiken en het lidmaatschap van deze groepen te beheren in plaats van steeds afzonderlijke gebruikers toe te wijzen. In sommige gevallen wilt u de toegang tot een kleine groep gebruikers beperken door toewijzingen aan specifieke gebruikers aan te brengen door gebruikers handmatig toe te wijzen.
   
 ## <a name="more-about-office-add-ins-security"></a>Meer informatie over beveiliging van Office-invoegingen
 
@@ -140,7 +140,7 @@ Updates voor invoegtoepassingen worden als volgt uitgevoerd:
 
 [Invoegtoepassingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md)
 
-[Uw eerste word-taakvenster-invoeging maken.](https://docs.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)
+[Uw eerste Word-taakvenster invoeging maken.](https://docs.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)
 
 [Minderjarigen en het verkrijgen van invoegingen in de store](minors-and-acquiring-addins-from-the-store.md)
   

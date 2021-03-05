@@ -1,5 +1,5 @@
 ---
-title: Installatie handleidingen voor Microsoft 365 en Office 365-Services
+title: Installatiehandleidingen voor Microsoft 365- en Office 365-services
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -20,199 +20,205 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
-description: U hebt een snellere planning en configuratie van Microsoft 365 of Office 365 met instel hulpmiddelen.
-ms.openlocfilehash: 9bddf24e4133dfac32a0175b754709ba0c840760
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Versnel uw planning en configuratie van Microsoft 365 of Office 365 met installatiehandleidingen.
+ms.openlocfilehash: 6ad00819b172d7cb0cfb5b63a93c0910df5517e6
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794422"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454145"
 ---
-# <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Installatie handleidingen voor Microsoft 365 en Office 365-Services
+# <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Installatiehandleidingen voor Microsoft 365- en Office 365-services
 
-Met behulp van de installatie handleidingen voor Microsoft 365 en Office 365 krijgt u informatie over richtlijnen en bronnen voor het plannen en implementeren van uw Tenant, apps en services. Deze gidsen worden gemaakt met behulp van de aanbevolen procedures voor het delen van [FastTrack van Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) met behulp van zelfstandige interacties en zijn beschikbaar voor alle beheerders in het microsoft 365-Beheercentrum. Hiermee geeft u informatie over de productinstallatie, het inschakelen van beveiligingsfuncties, het implementeren van samenwerkingsprogramma's en het verschaffen van scripts waarmee u geavanceerde implementaties kunt versnellen.
+Met installatiehandleidingen voor Microsoft 365 en Office 365 krijgt u richtlijnen en bronnen op maat voor het plannen en implementeren van uw tenant, apps en services. Deze handleidingen worden gemaakt op basis van dezelfde best practices die [microsoft 365 FastTrack-onboardingspecialisten](https://www.microsoft.com/fasttrack/microsoft-365) delen tijdens individuele interacties en ze zijn beschikbaar voor alle beheerders in het Microsoft 365-beheercentrum. Ze geven informatie over productconfiguratie, het inschakelen van beveiligingsfuncties, het implementeren van samenwerkingshulpmiddelen en het leveren van scripts om geavanceerde implementaties te versnellen.
 
-## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>Installatie handleidingen openen in het Microsoft 365-Beheercentrum
+## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>Installatiehandleidingen openen in het Microsoft 365-beheercentrum
 
-De installatie handleidingen zijn toegankelijk via de pagina [Setup-richt](https://aka.ms/setupguidance) lijnen in het microsoft 365-Beheercentrum. U kunt de status van uw voortgang bijhouden en u kunt op elk gewenst moment terugkeren naar een handleiding. U komt als volgt op de pagina met de **installatie-instructies** :
+De installatiehandleidingen zijn toegankelijk via de [pagina Installatiehulplijnen](https://aka.ms/setupguidance) in het Microsoft 365-beheercentrum. U kunt de voortgang bijhouden en u kunt op elk moment terugkeren om een handleiding te voltooien. Naar de pagina **Installatie-richtlijnen** gaan:
 
-1. Ga in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com/)naar de **Start** pagina.
+1. Ga in [het Microsoft 365-beheercentrum](https://admin.microsoft.com/)naar de **startpagina.**
 
-2. Zoek de kaart **& gids voor trainingen** . 
+2. Zoek de **trainingsgids & handleidingen.** 
 
-   ![Training & gids in het Microsoft 365-Beheercentrum](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
+   ![Training & handleidingenkaart in het Microsoft 365-beheercentrum](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
 
-3. Selecteer **aangepaste instellingsrichtlijnen**.
+3. Selecteer **Aangepaste installatie-richtlijnen.**
 
-   ![Schermafbeelding van de pagina met instellingen voor de installatie-instructies in het Microsoft 365-Beheercentrum](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
+   ![Schermafbeelding van de pagina Installatie-richtlijnen in het Microsoft 365-beheercentrum](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
 
 >[!NOTE]
->Beheerdersmachtigingen voor tenants zijn vereist voor toegang tot het Microsoft 365-Beheercentrum.
+>Machtigingen voor tenantbeheerders zijn vereist voor toegang tot het Microsoft 365-beheercentrum.
 
-## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>Hoe werken installatie gidsen in het Microsoft 365-Beheercentrum?
+## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>Hoe werken installatiehandleidingen in het Microsoft 365-beheercentrum?
 
-Elke handleiding biedt u stapsgewijze instructies, informatiebronnen, artikelen, en indien nodig kunt u scripts gebruiken om wijzigingen aan te brengen in de configuratie. Deze gidsen bieden u de keuzen die de specifieke behoeften van zowel kleine als grote organisaties weerspiegelt. Daarnaast biedt de richtlijnen ondersteuning voor zowel nieuwe als meer ervaren beheerders.
+Elke handleiding bevat stapsgewijs instructies, bronnen, artikelen en indien nodig scripts die u kunt gebruiken om configuratiewijzigingen aan te brengen. Deze handleidingen bieden u keuzemogelijkheden die de specifieke behoeften van zowel kleine als grote organisaties weerspiegelen. De richtlijnen omvatten ook hulp voor nieuwe en meer ervaren beheerders.
 
 ![Voorbeeld van een installatiehandleiding](../media/setup-guides-for-microsoft-365/m365-setupguide-example.png)
 
-U kunt de hulplijnen gebruiken om meer te weten te komen over specifieke functies van Microsoft 365 en Office 365 tijdens de planningsfase, tijdens de implementatie en implementatie, of om deze opnieuw te bekijken nadat u een implementatie hebt voltooid om een instelling te wijzigen.
+U kunt de handleidingen gebruiken voor meer informatie over specifieke functies van Microsoft 365 en Office 365 tijdens de planningsfase, tijdens de implementatie en implementatie, of als u ze opnieuw wilt gebruiken nadat u een implementatie hebt voltooid om een instelling te wijzigen.
 
 ## <a name="guides-for-initial-setup"></a>Handleidingen voor de eerste installatie
 
 ### <a name="prepare-your-environment"></a>Uw omgeving voorbereiden
 
-De handleiding de [omgeving voorbereiden](https://aka.ms/prepareyourenvironment) helpt bij het voorbereiden van uw organisatie omgeving voor microsoft 365 en Office 365-Services. Ongeacht uw doelstellingen, zijn er taken die u moet uitvoeren om ervoor te zorgen dat u een succesvolle implementatie uitvoert. Om fouten te voorkomen tijdens het voorbereiden van uw omgeving, kunt u stapsgewijze instructies volgen voor het verbinden van uw domein, het toevoegen van gebruikers, het toewijzen van licenties, het instellen van e-mail met Exchange Online en het installeren of implementeren van Office-apps. 
+Met [de handleiding Uw omgeving](https://aka.ms/prepareyourenvironment) voorbereiden kunt u de omgeving van uw organisatie voorbereiden op Microsoft 365- en Office 365-services. Ongeacht uw doelstellingen, zijn er taken die u moet uitvoeren om te zorgen voor een succesvolle implementatie. U kunt fouten voorkomen bij het voorbereiden van uw omgeving door stapsgewijs instructies te krijgen voor het verbinden van uw domein, het toevoegen van gebruikers, het toewijzen van licenties, het instellen van e-mail met Exchange Online en het installeren of implementeren van Office-apps. 
 
-### <a name="email-setup-advisor"></a>E-mail instellen adviseur
+### <a name="email-setup-advisor"></a>E-mailadviseur
 
-De [e-mailinstellingen adviseur](https://aka.ms/office365setup) biedt u de stapsgewijze instructies voor het configureren van Exchange Online voor uw organisatie. Dit omvat het instellen van nieuwe e-mailaccounts, het migreren van e-mailberichten en het configureren van e-mail beveiliging. Voor een geslaagde e-mail configuratie gebruikt u deze adviseur en ontvangt u de aanbevolen migratiemethode op basis van het huidige e-mailsysteem van uw organisatie, het aantal te migreren postvakken en de manier waarop u gebruikers en hun toegang wilt beheren.
+De [e-mailadviseur](https://aka.ms/office365setup) verstrekt u de stapsgewijs benodigde richtlijnen voor het configureren van Exchange Online voor uw organisatie. Dit geldt ook voor het instellen van nieuwe e-mailaccounts, het migreren van e-mail en het configureren van e-mailbeveiliging. Gebruik deze adviseur voor een geslaagde e-mailinstallatie en u krijgt de aanbevolen migratiemethode op basis van het huidige e-mailsysteem van uw organisatie, het aantal te migreren postvakken en hoe u gebruikers en hun toegang wilt beheren.
 
 ### <a name="migrate-gmail-contacts-and-calendar-items"></a>Gmail-contactpersonen en agenda-items migreren
 
-Wanneer u het postvak van een Gmail-gebruiker migreert naar Microsoft 365, worden e-mailberichten gemigreerd, maar niet de contacten en agenda-items. De [Gmail-contactpersonen en de agenda adviseur](https://aka.ms/gmailcontactscalendar) bevat stappen voor het importeren van Google-contactpersonen en Google agenda-items in microsoft 365 met behulp van de import-en exportmethoden van Outlook.com, de Outlook-client of PowerShell.
+Wanneer u het postvak van een Gmail-gebruiker migreert naar Microsoft 365, worden e-mailberichten wel gemigreerd, maar contactpersonen en agenda-items niet. De adviseur voor [gmail-contactpersonen](https://aka.ms/gmailcontactscalendar) en agenda biedt stappen voor het importeren van Google-contactpersonen en Google-agenda-items in Microsoft 365 met import- en exportmethoden met Outlook.com, de Outlook-client of PowerShell.
 
-### <a name="microsoft-365-deployment-advisor"></a>Microsoft 365 Deployment adviseur
+### <a name="microsoft-365-deployment-advisor"></a>Adviseur voor de implementatie van Microsoft 365
 
-De [Microsoft 365 Deployment adviseur](https://aka.ms/microsoft365setupguide) bevat richtlijnen voor het instellen van productiviteitsprogramma's, beveiligingsbeleid en mogelijkheden voor Apparaatbeheer. Met een Microsoft 365 Business Premium-of Microsoft 365 voor Enterprise-abonnement, kunt u deze adviseur gebruiken voor het instellen en configureren van de apparaten van uw organisatie. 
+De adviseur voor de implementatie van [Microsoft 365](https://aka.ms/microsoft365setupguide) begeleidt u bij het instellen van productiviteitshulpprogramma's, beveiligingsbeleid en apparaatbeheermogelijkheden. Met een abonnement op Microsoft 365 Business Premium of Microsoft 365 voor ondernemingen kunt u deze adviseur gebruiken om de apparaten van uw organisatie in te stellen en te configureren. 
 
-U ontvangt richtlijnen en toegang tot bronnen voor het inschakelen van de cloudservices, het bijwerken van apparaten naar de nieuwste ondersteunde versie van Windows 10 en het deelnemen aan Azure Active Directory (Azure AD), allemaal op één centrale locatie.
+U ontvangt richtlijnen en toegang tot bronnen voor het inschakelen van uw cloudservices, het bijwerken van apparaten naar de nieuwste ondersteunde versie van Windows 10 en het toevoegen van apparaten aan Azure Active Directory (Azure AD), allemaal op één centrale locatie.
 
 
-### <a name="remote-work-setup-guide"></a>Installatiehandleiding voor extern werken
+### <a name="remote-work-setup-guide"></a>Installatiehandleiding voor extern werk
 
-De [Installatiehandleiding voor extern werken](https://aka.ms/remoteworksetup) biedt organisaties de tips en bronnen die nodig zijn om ervoor te zorgen dat uw gebruikers extern kunnen werken, uw gegevens zijn beveiligd en de referenties van gebruikers worden beveiligd. 
+De [installatiehandleiding](https://aka.ms/remoteworksetup) voor extern werk biedt organisaties de tips en bronnen die nodig zijn om ervoor te zorgen dat uw gebruikers op afstand kunnen werken, uw gegevens veilig zijn en de referenties van gebruikers worden beschermd. 
 
-U ontvangt richtlijnen voor het optimaliseren van het verkeer van externe werknemers aan Microsoft 365-bronnen in de Cloud en het netwerk van uw organisatie, waardoor de naam van de RAS VPN-infrastructuur wordt beperkt. 
+U ontvangt richtlijnen om het apparaatverkeer van externe werknemers te optimaliseren naar zowel Microsoft 365-bronnen in de cloud als het netwerk van uw organisatie, waardoor de belasting van uw VPN-infrastructuur voor externe toegang wordt verminderen. 
 
-### <a name="windows-virtual-desktop-setup-guide"></a>Installatiehandleiding voor Windows virtueel bureaublad
+### <a name="windows-virtual-desktop-setup-guide"></a>Installatiehandleiding voor Het virtuele bureaublad van Windows
 
-Windows virtueel bureaublad is een uitgebreide bureaublad-en app-virtualisatiesoftware die wordt uitgevoerd in de Cloud. Het is de enige VDI (Virtual Desktop Infrastructure) voor eenvoudiger beheer, meervoudige Windows 10, optimalisering voor Microsoft 365-apps en ondersteuning voor RDS-omgevingen (Remote Desktop Services). Implementeer en schaal uw Windows-bureaubladen en-apps in een paar minuten en profiteer van de ingebouwde functies voor beveiliging en naleving. 
+Windows Virtual Desktop is een uitgebreide desktop- en app-virtualisatieservice die wordt uitgevoerd in de cloud. Dit is de enige virtuele bureaubladinfrastructuur (VDI) die vereenvoudigd beheer, Windows 10 met meerdere sessies, optimalisaties voor Microsoft 365-apps en ondersteuning voor RDS-omgevingen (Remote Desktop Services) biedt. Implementeer en schalen uw Windows-bureaubladen en -apps in enkele minuten naar Azure en krijg ingebouwde functies voor beveiliging en naleving. 
 
-De [Installatiehandleiding voor het Windows-bureaublad](https://aka.ms/wvdsetupguide) biedt beheerders ondersteuning voor het plannen van bronnen en de vereisten voor implementatie, installatie-instructies en aanvullende bronnen. 
+De [installatiehandleiding voor Windows Virtual Desktop](https://aka.ms/wvdsetupguide) biedt beheerders planningsbronnen en de vereisten voor implementatie, installatiehandleiding en aanvullende bronnen. 
 
 ### <a name="microsoft-edge-setup-guide"></a>Installatiehandleiding voor Microsoft Edge
 
-Microsoft Edge is opnieuw samengesteld op basis van de bodem, zodat u de compatibiliteit en prestaties van de wereld en de ervaring, de veilig en privacy en de beste functies waarmee u het beste van Internet kunt meenemen, kunt overgaan.
+Microsoft Edge is van de grond af aan opnieuw opgebouwd om u te voorzien van compatibiliteit en prestaties van wereldniveau, de beveiliging en privacy die u nodig hebt, en nieuwe functies die ontworpen zijn om u het beste van het web te bieden.
 
-De [Installatiehandleiding voor Microsoft Edge](https://aka.ms/edgeadvisor) helpt u bij het configureren van de zoekfunctie voor Enterprise site, zodat u kunt zien welke sites in uw organisatie de IE-modus gebruiken, belangrijke beveiligingsfuncties moeten configureren en extra beleidsregels willen gebruiken om te voldoen aan de vereisten van uw organisatie en om Web Access te beheren op uw apparaten. U kunt Microsoft Edge downloaden naar afzonderlijke apparaten, of we laten u zien hoe u een implementatie uitvoert naar meerdere gebruikers in uw organisatie met behulp van Configuration Manager of Microsoft intune. 
+In de installatiehandleiding voor [Microsoft Edge](https://aka.ms/edgeadvisor) kunt u Enterprise Site Discovery configureren om te zien welke sites die in uw organisatie worden gebruikt, de IE-modus moeten gebruiken, belangrijke beveiligingsfuncties moeten controleren en configureren, privacybeleid en extra beleidsregels moeten configureren om te voldoen aan de vereisten van uw organisatie en webtoegang op uw apparaten te beheren. U kunt Microsoft Edge downloaden naar afzonderlijke apparaten, of we laten u zien hoe u voor meerdere gebruikers in uw organisatie kunt implementeren met Configuration Manager of Microsoft Intune. 
 
 ### <a name="microsoft-search-setup-guide"></a>Installatiehandleiding voor Microsoft Search
 
-Met Microsoft Search helpt uw organisatie wat ze nodig hebben om te bepalen waar ze aan werken. Of het zoeken naar personen, bestanden, organigrammen, sites of antwoorden op veelgestelde vragen is, u kunt in uw organisatie Microsoft Search gebruiken om antwoorden te krijgen.
+Met Microsoft Search kan uw organisatie vinden wat ze nodig hebben om te voltooien waar ze aan werken. Of het nu gaat om het zoeken naar personen, bestanden, organigrammen, sites of antwoorden op veelvoorkomende vragen, uw organisatie kan Microsoft Search gedurende hun werkdag gebruiken om antwoorden te krijgen.
 
-Met de [Installatiehandleiding voor micro](https://aka.ms/MicrosoftSearchSetup) Soft kunt u Microsoft Search configureren, of u deze naar een groep gebruikers wilt piloten of deze wilt samenstellen aan iedereen in uw organisatie. U wijst Zoek beheerders en zoek editors toe en past vervolgens de zoekervaring voor uw gebruikers aan met antwoorden en aanvullende opties, zoals het toevoegen van de Bing-uitbreiding voor Chrome of het instellen van Bing als standaardzoekmachine.
+Met [de installatiehandleiding](https://aka.ms/MicrosoftSearchSetup) voor Microsoft Search kunt u Microsoft Search configureren, of u deze wilt piloten voor een groep gebruikers of deze wilt uitrollen naar iedereen in uw organisatie. U wijst zoekbeheerders en zoekeditors toe en past vervolgens de zoekervaring voor uw gebruikers aan met antwoorden en aanvullende opties, zoals het toevoegen van de Bing-extensie aan Chrome of het instellen van Bing als uw standaardzoekmachine.
 
-### <a name="intune-configuration-manager-co-management-setup-guide"></a>Installatiehandleiding voor cotune Configuration Manager
+### <a name="intune-configuration-manager-co-management-setup-guide"></a>Installatiehandleiding voor comanagement in Intune Configuration Manager
 
-Gebruik de [Installatiehandleiding voor het intune Configuration Manager-co-beheer](https://aka.ms/comanagementsetup) voor bestaande Configuration Manager-clientapparaten en nieuwe apparaten op Internet die uw organisatie wil samenstellen met zowel Microsoft intune als Configuration Manager. Met deze handleiding voor de implementatie van co-management kunt u Windows 10-apparaten beheren en nieuwe functionaliteit toevoegen aan de apparaten van uw organisatie, terwijl u de voordelen van beide oplossingen ontvangt.
+Gebruik de [intune Configuration Manager co-management](https://aka.ms/comanagementsetup) installatiehandleiding voor bestaande Configuration Manager-clientapparaten en nieuwe internetapparaten die uw organisatie samen wil beheren met Zowel Microsoft Intune als Configuration Manager. In deze handleiding voor comanagement-implementatie kunt u Windows 10-apparaten beheren en nieuwe functionaliteit toevoegen aan de apparaten van uw organisatie, terwijl u de voordelen van beide oplossingen ontvangt.
 
 ## <a name="guides-for-authentication-and-access"></a>Handleidingen voor verificatie en toegang
 
 ### <a name="azure-ad-setup-guide"></a>Installatiehandleiding voor Azure AD
 
-De [Installatiehandleiding voor Azure AD](https://aka.ms/aadpguidance) biedt informatie waarmee u ervoor kunt zorgen dat uw organisatie een sterke beveiligings basis heeft. In deze handleiding zet u de eerste functies, zoals Azure op rollen gebaseerd toegangsbeheer (Azure RBAC) voor beheerders, Azure AD Connect voor uw on-premises adreslijst en Azure AD Connect Health, zodat u de status van uw hybride identiteit tijdens automatische synchronisatie kunt controleren. 
+De [installatiehandleiding voor Azure AD](https://aka.ms/aadpguidance) biedt informatie om ervoor te zorgen dat uw organisatie over een goede beveiligingsinstelling beschikt. In deze handleiding stelt u eerste functies in, zoals toegangsbeheer op basis van Azure-rollen (Azure RBAC) voor beheerders, Azure AD Connect voor uw on-premises adreslijst en Azure AD Connect Health, zodat u de status van uw hybride identiteit kunt controleren tijdens automatische synchronisaties. 
 
-Dit omvat ook belangrijke informatie over het inschakelen van het instellen van selfservice wachtwoorden, voorwaardelijke toegang en geïntegreerde aanmelding van derden, waaronder optionele geavanceerde identiteitsbeveiliging en automatisering van gebruikers inrichten.
+Het bevat ook essentiële informatie over het inschakelen van selfservice voor wachtwoordresets, voorwaardelijke toegang en geïntegreerde aanmelding van derden, waaronder optionele geavanceerde identiteitsbeveiliging en automatisering van gebruikers.
 
 ### <a name="sync-users-from-your-orgs-directory"></a>Gebruikers synchroniseren vanuit de adreslijst van uw organisatie
 
-Met de [wizard gebruikers synchroniseren vanuit de adreslijst van uw organisatie](https://aka.ms/directorysyncsetup) begeleidt u door adreslijstsynchronisatie in te schakelen. Dit brengt uw on-premises-en Cloud identiteit samen voor eenvoudiger toegang en vereenvoudigd beheer. Ontgrendel nieuwe functies, zoals eenmalige aanmelding, selfservice opties, automatisch inrichten van accounts, voorwaardelijke toegangsregeling en nalevingsbeleid. Hierdoor weet u zeker dat uw gebruikers overal toegang hebben tot de bronnen die ze nodig hebben.
+U wordt door de wizard Gebruikers [synchroniseren van de adreslijst](https://aka.ms/directorysyncsetup) van uw organisatie helpen bij het in- en uitschakelen van adreslijstsynchronisatie. Dit brengt uw on-premises en cloud-identiteiten samen voor eenvoudigere toegang en eenvoudiger beheer. Ontgrendel nieuwe mogelijkheden, zoals een een aanmelding, selfservice-opties, automatische account inrichting, besturingselementen voor voorwaardelijke toegang en nalevingsbeleid. Dit zorgt ervoor dat uw gebruikers overal toegang hebben tot de resources die ze nodig hebben.
 
-### <a name="plan-your-passwordless-deployment"></a>Uw implementatie met een wachtwoord plannen
+### <a name="plan-your-passwordless-deployment"></a>Uw implementatie zonder wachtwoord plannen
 
-Upgrade naar een andere aanmeldingsprocedure waarmee gebruikers veilig toegang hebben tot hun apparaten via een van de volgende Authenticatiemethoden met een wachtwoord: 
+Upgrade naar een alternatieve aanmeldingsmethode waarmee gebruikers veilig toegang hebben tot hun apparaten met een van de volgende verificatiemethoden zonder wachtwoord: 
 
 - Windows Hello voor Bedrijven
 - De Microsoft Authenticator-app
 - Beveiligingssleutels 
 
-Gebruik de [wizard voor het instellen van uw wachtwoord](https://aka.ms/passwordlesssetup) om de meest geschikte verificatiemethoden te vinden voor het gebruik en de manier waarop u ze implementeert. 
+Gebruik de [wizard Uw implementatie](https://aka.ms/passwordlesssetup) zonder wachtwoord plannen voor de beste methoden voor wachtwoordloze verificatie om deze te gebruiken en om richtlijnen te ontvangen over hoe u deze kunt implementeren. 
 
-### <a name="plan-your-self-service-password-reset-sspr-deployment"></a>Uw selfservice voor het opnieuw instellen van wachtwoorden (SSPR) plannen
+### <a name="plan-your-self-service-password-reset-sspr-deployment"></a>De selfservice voor wachtwoordresets (SSPR) plannen
 
-Gebruikers de mogelijkheid bieden hun wachtwoord apart te wijzigen of opnieuw in te stellen, als hun account is vergrendeld, of ze het wachtwoord vergeten hebben, zonder dat ze contact hoeven op te nemen met een helpdesk Engineer. 
+Gebruikers de mogelijkheid geven hun wachtwoord onafhankelijk te wijzigen of opnieuw in te stellen, als hun account is vergrendeld of als ze hun wachtwoord vergeten zonder dat ze contact hoeven op te nemen met een helpdesktechnicus. 
 
-Gebruik de [wizard uw selfservice voor het zelf opnieuw instellen van wachtwoorden](https://aka.ms/SSPRSetupGuide) om relevante artikelen en instructies te ontvangen voor het configureren van de juiste opties voor Azure-Portal waarmee u SSPR kunt implementeren in uw omgeving.
+Gebruik de [selfservicewizard](https://aka.ms/SSPRSetupGuide) voor het opnieuw instellen van wachtwoorden om relevante artikelen en instructies te ontvangen voor het configureren van de juiste opties in de Azure Portal om U te helpen SSPR in uw omgeving te implementeren.
 
-### <a name="active-directory-federation-services-ad-fs-deployment-advisor"></a>Active Directory Federation Services (AD FS) Deployment adviseur
+### <a name="active-directory-federation-services-ad-fs-deployment-advisor"></a>Active Directory Federation Services -implementatieadviseur (AD FS)
 
-De [AD FS-implementatie adviseur](https://aka.ms/adfsguidance) biedt u stapsgewijze instructies voor het implementeren van een on-PREMISES AD FS-infrastructuur die gebruikers verifieert voor microsoft 365 en Office 365-Services. Met deze handleiding kan uw organisatie AD FS-onderdelen en-vereisten beoordelen, de SSL-certificaten verkrijgen en installeren die nodig zijn voor de implementatie, en de vereiste webtoepassingsproxy-server installeren. 
+De [AD FS-implementatieadviseur](https://aka.ms/adfsguidance) begeleidt u stapsgewijs bij het implementeren van een on-premises AD FS-infrastructuur voor het verifiëren van gebruikers voor Microsoft 365- en Office 365-services. Met deze handleiding kan uw organisatie AD FS-onderdelen en -vereisten bekijken, SSL-certificaten verkrijgen en installeren die nodig zijn voor implementatie, en een vereiste webtoepassingsproxyserver installeren. 
 
-## <a name="guides-for-security-and-compliance"></a>Handleidingen voor beveiliging en compliance
+## <a name="guides-for-security-and-compliance"></a>Handleidingen voor beveiliging en naleving
 
-### <a name="microsoft-intune-setup-guide"></a>Installatiehandleiding voor Microsoft intune 
+### <a name="microsoft-intune-setup-guide"></a>Installatiehandleiding voor Microsoft Intune 
 
-Configureer Microsoft intune om apparaten in uw organisatie te beheren. Voor volledig beheer van bedrijfsapparaten gebruikt u de MDM-functies (Mobile Device Management) van de intune. Als u de gegevens van uw organisatie op gedeelde en persoonlijke apparaten wilt beheren, kunt u de functies van de Mobile Application Management (MAM) van intune gebruiken. 
+Microsoft Intune instellen om apparaten in uw organisatie te beheren. Voor volledige controle over bedrijfsapparaten gebruikt u de MDM-functies (Mobile Device Management) van Intune. Als u de gegevens van uw organisatie op gedeelde en persoonlijke apparaten wilt beheren, kunt u de mam-functies (Mobile Application Management) van Intune gebruiken. 
 
-Met de [Microsoft intune-installatiehandleiding](https://aka.ms/intunesetupguide), stelt u het nalevingsbeleid voor apparaten en apps in, wijst u beleid voor app-beveiliging toe en controleert u de status van het apparaat en de app-beveiliging. 
+Met de [installatiehandleiding voor Microsoft Intune](https://aka.ms/intunesetupguide)stelt u beleidsregels voor apparaat- en app-naleving in, wijst u beveiligingsbeleid voor apps toe en controleert u de beveiligingsstatus van het apparaat en de app. 
 
-### <a name="microsoft-defender-for-endpoint-advisor"></a>Microsoft Defender voor eindpunten adviseur
+### <a name="microsoft-defender-for-endpoint-advisor"></a>Adviseur voor Microsoft Defender voor eindpunt
 
-De [Microsoft Defender voor eindpunten adviseur](https://aka.ms/mdatpsetup) biedt instructies waarmee uw Enterprise-netwerk een oplossing biedt voor geavanceerde bedreigingen en deze kan detecteren, onderzoeken en beantwoorden. Maak een weloverwogen beoordeling van het beveiligingslek van uw organisatie en bepaal welke implementatiepakket-en configuratiemethoden het best zijn. 
+De [adviseur van Microsoft Defender voor eindpunt](https://aka.ms/mdatpsetup) biedt instructies die uw bedrijfsnetwerk helpen geavanceerde bedreigingen te voorkomen, te detecteren, te onderzoeken en erop te reageren. Maak een weloverwogen beoordeling van het beveiligingsprobleem van uw organisatie en bepaal welk implementatiepakket en welke configuratiemethoden het beste zijn. 
 
 >[!NOTE]
->Een Microsoft-volume licentie is vereist voor Microsoft Defender voor eindpunt.
+>Er is een Microsoft-volumelicentie vereist voor Microsoft Defender voor het eindpunt.
 
 ### <a name="exchange-online-protection-setup-guide"></a>Installatiehandleiding voor Exchange Online Protection
 
-Microsoft Exchange Online Protection (EOP) is een op de cloud gebaseerde e-mail filterservice voor beveiliging tegen spam en malware, met functies om uw organisatie te beschermen tegen schendingen van het bericht beleid. 
+Microsoft Exchange Online Protection (EOP) is een cloud-e-mailfilterservice ter bescherming tegen spam en malware, met functies om uw organisatie te beschermen tegen schendingen van berichtenbeleid. 
 
-Gebruik de [Installatiehandleiding voor Exchange Online Protection](https://aka.ms/EOPguidance) om EOP in te stellen door te kiezen welke drie &mdash; on-premises on-premises postvakken, hybride (mix van on-premises en Cloud) postvakken, of alle Cloud postvakken &mdash; binnen uw organisatie passen. De handleiding biedt informatie en bronnen voor het instellen en controleren van de licenties van gebruikers, het toewijzen van machtigingen in het Microsoft 365-Beheercentrum en het beleid voor anti-malware en spam van uw organisatie in het beveiligings & nalevings centrum. 
+Gebruik de installatiehandleiding voor [Exchange Online Protection](https://aka.ms/EOPguidance) om EOP in te stellen door te selecteren welke van de drie implementatiescenario's voor &mdash; on-premises postvakken, hybride (combinatie van on-premises en cloud)-postvakken of alle postvakken in de cloud binnen uw organisatie &mdash; passen. De handleiding bevat informatie en bronnen voor het instellen en controleren van de licenties van de gebruiker, het toewijzen van machtigingen in het Microsoft 365-beheercentrum en het configureren van het beleid tegen malware en spam van uw organisatie in het beveiligings- & compliancecentrum. 
 
-### <a name="microsoft-defender-for-office-365-advisor"></a>Microsoft Defender voor Office 365 adviseur
+### <a name="microsoft-defender-for-office-365-advisor"></a>Adviseur voor Microsoft Defender voor Office 365
 
-De [Microsoft Defender voor Office 365-adviseur](https://aka.ms/oatpsetup) beveiligt uw organisatie tegen kwaadaardige bedreigingen die uw omgeving kan ondervinden via e-mailberichten, koppelingen en samenwerkingsprogramma's van derden. In deze handleiding vindt u informatie over het voorbereiden en identificeren van het programma voor Defender voor Office 365 op de behoeften van uw organisatie. 
+De [adviseur van Microsoft Defender voor Office 365](https://aka.ms/oatpsetup) beschermt uw organisatie tegen schadelijke bedreigingen die uw omgeving kan tegenkomen via e-mailberichten, koppelingen en samenwerkingshulpprogramma's van derden. Deze handleiding bevat informatie en informatie die u helpt bij de voorbereiding en het identificeren van het Defender voor Office 365-abonnement, op basis van de behoeften van uw organisatie. 
 
-### <a name="microsoft-information-protection-setup-guide"></a>Installatiehandleiding voor Microsoft Information Protection
+### <a name="microsoft-information-protection-setup-guide"></a>Installatiehandleiding voor Microsoft-gegevensbescherming
 
-Bekijk een overzicht van de mogelijkheden die u kunt toepassen op uw strategie voor informatiebeveiliging, zodat u zeker weet dat u vertrouwelijke informatie beschermt. Gebruik een cyclus van vier fasen waarbij u gevoelige informatie opsporen, classificeren, beveiligen en beheren. De [Installatiehandleiding voor Microsoft Information Protection](https://aka.ms/mipsetupguide) bevat richtlijnen voor het uitvoeren van deze stappen.
+Hier krijgt u een overzicht van de mogelijkheden die u kunt toepassen op uw strategie voor gegevensbescherming, zodat u erop kunt vertrouwen dat uw gevoelige informatie is beveiligd. Gebruik een levenscyclus van vier fases waarin u gevoelige informatie kunt ontdekken, classificeren, beveiligen en bewaken. De [installatiehandleiding voor Microsoft Information Protection bevat](https://aka.ms/mipsetupguide) richtlijnen voor het voltooien van elk van deze stadia.
 
-### <a name="microsoft-information-governance-setup-guide"></a>Installatiehandleiding voor Microsoft Information governance
+### <a name="microsoft-information-governance-setup-guide"></a>Installatiehandleiding voor Microsoft-informatiebeheer
 
-De [Installatiehandleiding voor Microsoft Information governance](https://aka.ms/migsetupguide) biedt de informatie die u nodig hebt om de beheer strategie van uw organisatie in te stellen en te beheren, om ervoor te zorgen dat uw gegevens worden geclassificeerd en beheerd overeenkomstig de specifieke levenscyclus richtlijnen die u hebt ingesteld. Met deze handleiding leert u hoe u etiketten, etiketten, beleidsregels en bewaarbeleid maakt, automatisch toepast of publiceert die gelden voor herbruikbare inhoud en compliance-records van uw organisatie. U krijgt ook informatie over het importeren van CSV-bestanden met een bestandsplan voor bulk scenario's of voor het handmatig toepassen op afzonderlijke documenten. 
+De installatiehandleiding voor [Microsoft](https://aka.ms/migsetupguide) Informatiebeheer bevat de informatie die u nodig hebt om de beheerstrategie van uw organisatie in te stellen en te beheren, om ervoor te zorgen dat uw gegevens worden geclassificeerd en beheerd volgens de specifieke richtlijnen voor de levenscyclus die u hebt ingesteld. In deze handleiding leert u hoe u labels, labelbeleidsregels en bewaarbeleidsregels kunt maken, automatisch toepassen of publiceren die worden toegepast op de records voor herbruikbare inhoud en naleving van uw organisatie. U krijgt ook informatie over het importeren van CSV-bestanden met een bestandsplan voor bulkscenario's of voor het handmatig toepassen ervan op afzonderlijke documenten. 
 
 ## <a name="guides-for-collaboration"></a>Handleidingen voor samenwerking
 
-### <a name="microsoft-365-apps-deployment-advisor"></a>Microsoft 365 apps Deployment adviseur
+### <a name="microsoft-365-apps-deployment-advisor"></a>Adviseur voor de implementatie van Microsoft 365 Apps
 
-Met de [Microsoft 365 apps Deployment adviseur](https://aka.ms/OPPquickstartguide) kunt u de apparaten van uw gebruikers de nieuwste versie van Office-producten zoals Word, Excel, PowerPoint en OneNote laten uitvoeren. U krijgt richtlijnen voor de verschillende implementatiemethoden, waaronder eenvoudig te installeren opties voor Enterprise-implementaties met beheerprogramma's. De instructies helpen u uw omgeving te beoordelen, uw specifieke implementatievereisten te achterhalen en de benodigde ondersteuningsprogramma's te implementeren om te zorgen voor een succesvolle installatie. 
+Met de adviseur voor de implementatie van [Microsoft 365-apps](https://aka.ms/OPPquickstartguide) kunt u de apparaten van uw gebruikers met de nieuwste versie van Office-producten, zoals Word, Excel, PowerPoint en OneNote, gebruiken. U krijgt hulp bij de verschillende implementatiemethoden, waaronder eenvoudige opties voor zelf installeren voor enterprise-implementaties met beheerhulpprogramma's. De instructies helpen u bij het beoordelen van uw omgeving, het bepalen van uw specifieke implementatievereisten en het implementeren van de benodigde ondersteuningshulpmiddelen om te zorgen voor een succesvolle installatie. 
 
 ### <a name="mobile-apps-setup-guide"></a>Installatiehandleiding voor mobiele apps
 
-De [Installatiehandleiding voor mobiele apps](https://aka.ms/officeappguidance) biedt instructies voor het downloaden en installeren van Office-apps op mobiele apparaten met Windows, Ios en Android. Deze handleiding bevat stapsgewijze informatie over het downloaden en installeren van Microsoft 365 en Office 365-apps op uw telefoon en Tablet apparaten.
+In [de installatiehandleiding voor mobiele](https://aka.ms/officeappguidance) apps vindt u instructies voor het downloaden en installeren van Office-apps op uw mobiele Windows-, iOS- en Android-apparaten. Deze handleiding bevat stapsgewijste informatie voor het downloaden en installeren van Microsoft 365- en Office 365-apps op uw telefoon- en tabletapparaten.
 
-### <a name="microsoft-teams-setup-guide"></a>Installatiehandleiding voor Microsoft teams
+### <a name="microsoft-teams-setup-guide"></a>Installatiehandleiding voor Microsoft Teams
 
-Met de [Installatiehandleiding voor Microsoft teams](https://aka.ms/teamsguidance) beschikt u over richtlijnen voor het instellen van team werkruimten waarmee u realtime-gesprekken kunt voeren via berichten, gesprekken en audio-of videovergaderingen voor zowel team als privécommunicatie. U ontvangt de instructies voor het bepalen van de netwerkvereisten van uw organisatie met behulp van het hulpprogramma netwerk planner en teams adviseur in het Beheercentrum van teams. Wanneer de implementatie is voltooid, bevat de gids nuttige bronnen om aan de slag te gaan met teams.
+De installatiehandleiding voor [Microsoft Teams](https://aka.ms/teamsguidance) biedt uw organisatie richtlijnen voor het instellen van teamwerkruimten voor het hosten van realtime gesprekken via berichten, gesprekken en audio- of videovergaderingen voor team- en privécommunicatie. U ontvangt de instructies om de netwerkvereisten van uw organisatie te bepalen met het hulpprogramma Network Planner en de Teams-adviseur in het Teams-beheercentrum. Wanneer de implementatie is voltooid, bevat de handleiding nuttige informatiebronnen om aan de slag te gaan met Teams.
 
 ### <a name="sharepoint-setup-guide"></a>Installatiehandleiding voor SharePoint
 
-De [Installatiehandleiding voor SharePoint](https://aka.ms/spoguidance) helpt u bij het instellen van uw opslag-en inhoudsbeheer voor SharePoint-documenten, het maken van sites, het configureren van extern delen, het migreren van gegevens en het configureren van gebruikers van de gebruikers binnen uw organisatie. U volgt stappen voor het configureren van uw machtigingsbeleid voor het delen van inhoud, kies de hulpmiddelen voor migratie synchronisatie, en schakel de beveiligingsinstellingen voor uw SharePoint-omgeving in. 
+De [installatiehandleiding](https://aka.ms/spoguidance) voor SharePoint helpt u bij het instellen van uw SharePoint-documentopslag en -inhoudsbeheer, het maken van sites, het configureren van extern delen, het migreren van gegevens en het configureren van geavanceerde instellingen, en het stimuleren van de betrokkenheid en communicatie van gebruikers binnen uw organisatie. U volgt stappen voor het configureren van uw machtigingsbeleid voor het delen van inhoud, kiest de hulpprogramma's voor migratiesynchronisatie en het inschakelen van de beveiligingsinstellingen voor uw SharePoint-omgeving. 
 
 ### <a name="onedrive-setup-guide"></a>Installatiehandleiding voor OneDrive
 
-Gebruik de [onedrive-installatiehandleiding](https://aka.ms/ODfBquickstartguide) om aan de slag te gaan met onedrive voor bestandsopslag, delen, samenwerken en synchroniseren. OneDrive biedt een centrale locatie waar gebruikers hun bestanden van Microsoft 365-apps kunnen synchroniseren, extern delen configureren, gebruikersgegevens migreren en geavanceerde instellingen voor de beveiliging en het openen van apparaten configureren. De Installatiehandleiding voor OneDrive kan worden geïmplementeerd met een OneDrive-abonnement of een standalone OneDrive-abonnement. 
+Gebruik de [installatiehandleiding voor OneDrive om](https://aka.ms/ODfBquickstartguide) aan de slag te gaan met de mogelijkheden voor bestandsopslag, delen, samenwerken en synchroniseren in OneDrive. OneDrive biedt een centrale locatie waar gebruikers hun Microsoft 365-apps-bestanden kunnen synchroniseren, extern delen kunnen configureren, gebruikersgegevens kunnen migreren en geavanceerde instellingen voor beveiliging en apparaattoegang kunnen configureren. De installatiehandleiding voor OneDrive kan worden geïmplementeerd met een OneDrive-abonnement of een zelfstandig OneDrive-abonnement. 
 
-### <a name="yammer-deployment-advisor"></a>Yammer-implementatie adviseur
+### <a name="yammer-deployment-advisor"></a>Adviseur voor de implementatie van Yammer
 
-Maak verbinding met Yammer en deel ze binnen uw organisatie. [Yammer Deployment adviseur](https://aka.ms/yammerdeploymentguide) bereidt uw Yammer-netwerk voor, door domeinen toe te voegen, beheerders te definiëren en Yammer-netwerken te combineren. U krijgt richtlijnen voor het implementeren van Yammer, het uiterlijk aanpassen, beveiliging en compliance configureren en de instellingen verfijnen.
+Maak verbinding en maak verbinding binnen uw organisatie met Yammer. De adviseur voor de implementatie van [Yammer](https://aka.ms/yammerdeploymentguide) bereidt uw Yammer-netwerk voor door domeinen toe te voegen, beheerders te definiëren en Yammer-netwerken te combineren. U krijgt richtlijnen voor het implementeren van Yammer, het aanpassen van het uiterlijk, het configureren van beveiliging en compliance, en het verfijnen van de instellingen.
 
 ## <a name="advanced-wizards"></a>Geavanceerde wizards
 
 ### <a name="in-place-upgrade-with-configuration-manager"></a>In-place upgrade met Configuration Manager
 
-Gebruik de [in-place upgrade met Configuration Manager-handleiding](https://aka.ms/win10upgradedemo) wanneer u een upgrade uitvoert van Windows 7 en Windows 8,1 naar de nieuwste versie van Windows 10. U gebruikt het script om de vereisten te controleren en een in-place upgrade automatisch te configureren.
+Gebruik de [in-place upgrade met Configuration Manager-handleiding](https://aka.ms/win10upgradedemo) bij het upgraden van Windows 7- en Windows 8.1-apparaten naar de nieuwste versie van Windows 10. U gebruikt het meegeleverde script om de vereisten te controleren en automatisch een in-place upgrade te configureren.
 
 ### <a name="deploy-office-to-your-users"></a>Office implementeren voor uw gebruikers
 
-Implementeer Office-apps vanuit de Cloud met de mogelijkheid om uw installatie aan te passen met behulp van het Office-implementatieprogramma. Met de [handleiding Office implementeren voor uw gebruikers ](https://aka.ms/proplusodt) kunt u een aangepaste Office-configuratie maken met geavanceerde instellingen, of u kunt een vooraf ingebouwde aanbevolen configuratie gebruiken. Of uw gebruikers zelf een zelfstandige installatie uitvoeren of u de gebruikers afzonderlijk of bulksgewijs implementeren, met deze geavanceerde wizard hebt u stapsgewijze instructies voor het geven van gebruikers een Office-installatie op maat.
+Implementeer Office-apps vanuit de cloud met de mogelijkheid om uw installatie aan te passen met het Office-implementatieprogramma. Met [de handleiding Office ](https://aka.ms/proplusodt) implementeren voor uw gebruikers kunt u een aangepaste Office-configuratie met geavanceerde instellingen maken of een vooraf ontworpen aanbevolen configuratie gebruiken. Of uw gebruikers nu een zelf-installatie leiden of u deze individueel of bulksgewijs bij uw gebruikers implementeert, deze geavanceerde wizard biedt u stapsgewijs instructies om gebruikers een Office-installatie te bieden die is afgestemd op uw organisatie.
 
 ### <a name="deploy-office-to-remote-users"></a>Office implementeren voor externe gebruikers
 
-Nu ze extern werken, moeten gebruikers de Office-instellingen van uw organisatie ontvangen wanneer ze geen verbinding hebben met het interne netwerk of wanneer ze hun eigen apparaten gebruiken. 
+Nu werken op afstand de norm is, moeten gebruikers de Office-instellingen van uw organisatie ontvangen wanneer ze niet zijn verbonden met uw interne netwerk of wanneer ze hun eigen apparaten gebruiken. 
 
-Met de [handleiding Office implementeren voor externe gebruikers](https://aka.ms/officeremoteinstall) een aangepaste Office-installatie maken en vervolgens gebruikers een gegenereerd PowerShell-script verzenden waarmee Office naadloos wordt geïnstalleerd met uw configuratie.
+Gebruik de handleiding [Office](https://aka.ms/officeremoteinstall) implementeren voor externe gebruikers om een aangepaste Office-installatie te maken en vervolgens een gegenereerd PowerShell-script te verzenden dat Office naadloos met uw configuratie installeert.
 
-### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Microsoft 365-Apps implementeren en bijwerken met Configuration Manager
+### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Microsoft 365-apps implementeren en bijwerken met Configuration Manager
 
-Voor organisaties die gebruikmaken van Configuration Manager, kunt u [Microsoft 365-Apps implementeren en bijwerken met behulp van Configuration Manager-adviseur](https://aka.ms/oppinstall) voor het genereren van een script waarmee u automatisch uw implementatie van microsoft 365-apps kunt configureren met behulp van aanbevolen procedures. Gebruik deze handleiding om uw implementatie groepen samen te stellen, uw Office-apps en-functies aan te passen, dynamische of Lean-installaties te configureren en vervolgens het script uit te voeren om de toepassingen, automatische implementatie regels en verzamelingen te maken waarop u de implementatie moet richten. 
+Organisaties die Configuration Manager gebruiken, kunnen [Microsoft 365-apps](https://aka.ms/oppinstall) implementeren en bijwerken met de adviseur van Configuration Manager om een script te genereren dat automatisch uw implementatie van Microsoft 365-apps configureert volgens aanbevolen aanbevolen fasttrack-technici. Gebruik deze handleiding om uw implementatiegroepen te maken, uw Office-apps en -functies aan te passen, dynamische installaties of lean installaties te configureren en vervolgens het script uit te voeren om de toepassingen, automatische implementatieregels en apparaatverzamelingen te maken die u nodig hebt om uw implementatie af te richten. 
+
+### <a name="integrate-a-third-party-cloud-app-with-azure-ad"></a>Een cloud-app van derden integreren met Azure AD
+
+Improve the user experience and provide an additional layer of security by integrating your third-party app with ‎Azure Active Directory (Azure AD). Met deze end-to-end ervaring kunt u de meeste configuratie rechtstreeks vanuit deze wizard uitvoeren. Waar van toepassing leiden we u om naar de bijbehorende configuratiepagina.
+
+Gebruik de wizard [Cloud-app van derden](https://admin.microsoft.com/Adminportal/Home?#/azureadappintegration) integreren om een cloud-app van derden te integreren met Azure AD.

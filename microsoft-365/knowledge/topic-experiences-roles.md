@@ -1,5 +1,5 @@
 ---
-title: Rollen voor Microsoft Viva-onderwerpen
+title: Microsoft Viva Onderwerpen-rollen
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -11,17 +11,17 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection:
 - enabler-strategic
-- m365initiative-topics
+- m365initiative-viva-topics
 localization_priority: None
 description: Meer informatie over gebruikersrollen in Viva-onderwerpen.
-ms.openlocfilehash: e2975201124045574c516aad49bc5059db969b76
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: d5b57e768a1de8bc0447492067371630b2d045f6
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107432"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453937"
 ---
-# <a name="microsoft-viva-topics-roles"></a>Rollen voor Microsoft Viva-onderwerpen 
+# <a name="microsoft-viva-topics-roles"></a>Microsoft Viva Onderwerpen-rollen 
 
 Wanneer u Viva-onderwerpen gebruikt in uw Microsoft 365-omgeving, kunnen uw gebruikers de volgende rollen hebben:
 -   Onderwerpviewer
@@ -35,7 +35,7 @@ Onderwerpweergaven zijn gebruikers in uw organisatie die onderwerpen kunnen beki
 
 De gebruiker moet het volgende doen om de belangrijkste punten en de onderwerppagina's zichtbaar te maken voor een onderwerpviewer:
 -   De Microsoft 365-beheerder kan een [licentie voor Viva-onderwerpen](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) toewijzen.
--   Het is toegestaan om zichtbaarheid van onderwerpen te hebben. Deze taak wordt uitgevoerd door de kennisbeheerder op de pagina met instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum.
+-   U mag de zichtbaarheid van onderwerpen hebben. Deze taak wordt uitgevoerd door de kennisbeheerder op de pagina met instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum.
 
 
 ## <a name="topic-contributors"></a>Onderwerpbijdragers
@@ -49,7 +49,7 @@ Een inzender van het onderwerp kan ook een nieuw onderwerp maken en publiceren v
 Als u een onderwerp wilt maken en bewerken, moet de gebruiker:
 
 -   De Microsoft 365-beheerder kan een [licentie voor Viva-onderwerpen](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) toewijzen.
--   [Machtigingen toegewezen krijgen voor het maken en bewerken van onderwerpen.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions#change-who-has-permissions-to-do-tasks-on-the-topic-center) Deze taak wordt uitgevoerd door de kennisbeheerder op de pagina met instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum.
+-   [U moet machtigingen krijgen om onderwerpen te maken en te bewerken.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions#change-who-has-permissions-to-do-tasks-on-the-topic-center) Deze taak wordt uitgevoerd door de kennisbeheerder op de pagina met instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum.
 
 ## <a name="knowledge-managers"></a>Kennisbeheerders
 
@@ -71,11 +71,11 @@ Gebruikers met een goede algemene kennis van uw bedrijf kunnen goede kandidaten 
 
 ## <a name="knowledge-admins"></a>Kennisbeheerders
 
-Kennisbeheerders zijn beheerders die Viva-onderwerpen instellen en configureren in uw Microsoft 365-omgeving. Ze beheren ook de instellingen van Viva-onderwerpen nadat de instelling is voltooid. De rol van kennisbeheerder vereist dat u een globale Microsoft 365- of SharePoint-beheerder bent, omdat het instellen en beheren wordt uitgevoerd in het Microsoft 365-beheercentrum.
+Kennisbeheerders zijn beheerders die Viva-onderwerpen instellen en configureren in uw Microsoft 365-omgeving. Ze beheren ook de instellingen van Viva-onderwerpen nadat de instelling is voltooid. De rol van kennisbeheerder vereist dat u een globale Microsoft 365- of SharePoint-beheerder bent, omdat de installatie en het beheer worden uitgevoerd in het Microsoft 365-beheercentrum.
 Kennisbeheerders kunnen tijdens de installatie Viva-onderwerpen configureren voor het volgende:
 
 -   Selecteer welke SharePoint-sites worden verkend voor onderwerpen.
--   Selecteer welke gelicentieerde gebruikers onderwerpen kunnen bekijken (onderwerpweergaven).
+-   Selecteer welke gelicentieerde gebruikers de onderwerpen kunnen bekijken (onderwerpweergaven).
 -   Selecteer welke onderwerpen niet kunnen worden geïdentificeerd.
 -   Selecteer welke gebruikers met een licentie onderwerpen kunnen maken en bewerken (onderwerpbijdragen).
 -   Selecteer welke gelicentieerde gebruikers onderwerpen kunnen beheren (knowledge managers).

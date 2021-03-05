@@ -11,33 +11,32 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ROBOTS: NOINDEX
-ms.openlocfilehash: 3548cb31f782052a3bd4da1802077a343b5da01f
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 28dc86bbc2d844110610cd8a884af5313b7d8cfa
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107528"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453979"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-viva-topics"></a>Aan de slag met het invoeren van Microsoft Viva-onderwerpen
 
-Voordat u aan de slag gaat met acceptatie, moet u de concepten kennisbeheer en Viva-onderwerpen begrijpen. In het volgende diagram ziet u wat er gebeurt tijdens het ontdekken en curation van een onderwerp:
+Voordat u aan de slag gaat met de acceptatie, moet u de concepten kennisbeheer en Viva-onderwerpen begrijpen. In het volgende diagram ziet u wat er gebeurt tijdens het ontdekken en curation van een onderwerp:
 
 ![Architectuur van Viva-onderwerpen](../media/knowledge-management/topic-management-architecture.png)
 
 - **Discovery:** gebruikers kunnen kennis ontdekken in de apps die ze elke dag gebruiken via onderwerpkaarten. Ze kunnen ook onderwerpen ontdekken in Microsoft Search.
 - **Curation:** deskundigen (SMEs) verfijnen onderwerpen via onderwerppagina's en AI leert van hun input. Het onderwerpcentrum bevat onderwerppagina's die gebruikers kunnen verkennen en die experts kunnen beheren.
-- **Identificatie:** Met Microsoft Graph en AI(Kunstmatige intelligentie) kennis en personen (onderwerpen, vaardigheden, e.d.) worden geïdentificeerd en automatisch ingedeeld in verwante onderwerpen. SharePoint-inhoud wordt geïndexeerd met beveiligingsinhoud.
-- **Extensie:** met Microsoft Graph-inhoudsconnectoren (binnenkort beschikbaar) kunt u kennis van externe services en gegevensinsitories opspat.
+- **Identificatie:** Met Microsoft Graph en AI(kunstmatige intelligentie) kennis en personen (onderwerpen, vaardigheden, e.d.) worden geïdentificeerd en automatisch ingedeeld in verwante onderwerpen. SharePoint-inhoud wordt geïndexeerd met beveiligingsinhoud.
+- **Extensie:** met Microsoft Graph-inhoudsconnectoren (binnenkort beschikbaar) kunt u kennis op doen van externe services en gegevensin opslagplaatsen.
 
-Bekijk het overzicht voor een inleiding [voor](topic-experiences-overview.md) meer informatie.
+Bekijk het overzicht voor [een](topic-experiences-overview.md) inleiding voor meer informatie.
 
 Houd er rekening mee dat:
 
 - Onderwerpdetectie wordt verbeterd wanneer er meer inhoud beschikbaar is.
 - De beveiliging, privacy en locatie van uw gegevens blijven behouden, ook al wordt de informatie in een nieuwe ervaring gepresenteerd.
 - Gebruikers hebben een licentie nodig om Viva-onderwerpen te kunnen bekijken.
-- Discovery wordt in eerste instantie op Engelstalige inhoud gebruikt.
+- Discovery gebruikt in eerste instantie Engelstalige inhoud.
 
 Denk na over de volgende vragen om u voor te bereiden:
 
@@ -55,30 +54,30 @@ Bekijk deze lijst met vereisten om het meeste uit Viva-onderwerpen te krijgen:
 
 ## <a name="plan-for-adoption"></a>Plannen voor acceptatie
 
-Als u de acceptatie van Viva-onderwerpen wilt plannen, moet u het volgende doen:
+Als u een planning wilt maken voor de acceptatie van Viva-onderwerpen, moet u het volgende doen:
 
 ![Stappen voor het plannen van acceptatie](../media/knowledge-management/km-adoption-plan-adoption.png)
 
 1. Plan uw benadering en doelscenario's:
     - Denk na over het definiëren en prioriteren van de [scenario's.](#target-scenarios)
-    - Denk na over de [belanghebbenden](#identify-stakeholders) en de leden van het projectteam die u hierbij moet betrekken.  
+    - Denk na over [de belanghebbenden](#identify-stakeholders) en de leden van het projectteam die u hierbij moet betrekken.  
     - Kijk welke zakelijke impact u wilt hebben en hoe u succes [wilt meten.](#create-a-success-plan)
 
 2. Betrek uw organisatie:
     - Identificeer de zakelijke groepen en zakelijke teams die moeten worden betrokken en lijn de zaken beter uit in die en de scenario's die u plant.
-    - Begin na te denken over hoe u early adopters moet betrekken om belangrijke, vroege feedback te krijgen, zodat u kunt itereren om de beste oplossing te vinden.
-    - Begin de community op te bouwen en denk na over hoe Viva-onderwerpen in uw organisatie kunnen worden gebruikt door deze verschillende groepen.
+    - Begin na te denken over hoe u een aantal early adopters moet betrekken om belangrijke, vroege feedback te krijgen, zodat u kunt itereren om de beste oplossing te vinden.
+    - Begin de community op te bouwen en bedenk hoe Viva-onderwerpen door deze verschillende groepen in uw organisatie kunnen worden gebruikt.
 
-3. Uw organisatie trainen: de meeste personen zullen intuïtief het concept van onderwerpen begrijpen en hoe relevante informatie wordt ge compileert op onderwerpkaarten, en de waarde begrijpen en bekijken. Maar misschien wilt u training maken die is afgestemd op uw eigen cultuur en organisatie, om te laten zien hoe u Viva-onderwerpen wilt gebruiken. Enkele trainingsbronnen:
+3. Uw organisatie trainen: de meeste personen zullen intuïtief het concept van onderwerpen begrijpen en hoe onderwerpkaarten relevante informatie verzamelen en de waarde begrijpen en bekijken. Maar misschien wilt u training maken die is afgestemd op uw eigen cultuur en organisatie, om te laten zien hoe u Viva-onderwerpen wilt gebruiken. Enkele trainingsbronnen:
     - [Project Resources Resources.](https://aka.ms/projectcortex) Bevat overzichten en informatie over functies, opgenomen video's en presentaties van kantooruurtjes, en informatie over partners en hun aanbiedingen.
     - Binnenkort beschikbaar: trainingsvideo's en hulp voor eindgebruikers.
 
 4. [Bouw een kampioensnetwerk:](#build-a-champion-network)
-    - Het is mogelijk dat er al community's of kampioensnetwerken zijn. Dit zijn geweldige manieren om elkaar te socialiseren en te onderscheuren en collega's bij het helpen van elkaar te betrekken. En ze kunnen succesvolle verhalen delen, die zeer waardevol kunnen zijn. Ze kunnen advies geven en enthousiasme genereren.
+    - Het is mogelijk dat er al community's of kampioensnetwerken zijn. Dit zijn geweldige manieren om elkaar te socialiseren en te onderscheuren en collega's bij het helpen van elkaar te betrekken. En ze kunnen succesvolle verhalen delen die zeer waardevol kunnen zijn. Ze kunnen advies geven en enthousiasme genereren.
 
 ### <a name="target-scenarios"></a>Doelscenario's
 
-U moet bepalen hoe u Viva-onderwerpen in uw organisatie wilt gebruiken voordat u succesvol kunt werken met onderwerpen. Hier zijn enkele scenario's waarin kennisbeheer en onderwerpen uw organisatie kunnen helpen:
+U moet bepalen hoe u Viva-onderwerpen in uw organisatie wilt gebruiken voordat u succesvol kunt werken met onderwerpen. Hier ziet u een paar scenario's waarin kennisbeheer en onderwerpen uw organisatie kunnen helpen:
 
 - Rollen onboarding & training: Het begrijpen van de terminologie, belangrijke projecten en cultuur van een nieuwe organisatie zijn belangrijke stappen bij onboarding. Eenvoudig onderzoek van onderwerpen kan nieuwe werknemers helpen om snel nieuwe functies, rollen of projecten te vinden.
 - Expertise zoeken en informatie delen: Wanneer onderwerpen worden beheerd en gedeeld, kunnen personen in uw organisatie gemakkelijker informatie en experts vinden om hen te helpen bij hun dagelijkse werkzaamheden.
@@ -86,19 +85,19 @@ U moet bepalen hoe u Viva-onderwerpen in uw organisatie wilt gebruiken voordat u
 
 Hier is bijvoorbeeld een scenario voor onboarding van rollen:
 
-- Een werknemer (Jordanië) krijgt een nieuwe functie, of is nieuw aangenomen en begint net met een rol. Jordanië wil zo snel mogelijk betrokken en productief zijn. Maar Jordanië heeft ook hulp nodig bij het vinden van een beginpunt.
-- Een collega (Kim) die als rol heeft verantwoordelijk was voordat Jordan onderwerppagina's maakte die nieuwe werknemers en anderen die op zoek waren naar deze informatie kunnen helpen.
-- Kim was een HAD en had machtigingen om onbevestigde onderwerppagina's te bekijken. Unconfirmed topic pages are great starting points for what the AI has discovered and created, and Kim was able to edit them to add expert resources, definitions, and pin other resources.
+- Een werknemer (Jordanië) krijgt een nieuwe functie, of is nieuw aangenomen en begint met een rol. Jordanië wil zo snel mogelijk betrokken en productief worden. Maar Ook Jordanië heeft hulp nodig bij het vinden van een beginpunt.
+- Een collega (Kim) die in de rol stond voordat Jordan onderwerppagina's maakte die nieuwe werknemers en anderen die op zoek waren naar deze informatie kunnen helpen.
+- Kim was een OFO en had machtigingen om niet-geconfirmeerde onderwerppagina's te bekijken. Unconfirmed topic pages are great starting points for what the AI has discovered and created, and Kim was able to edit them to add expert resources, definitions, and pin other resources.
 - Terwijl Jordanië een nieuwe post op SharePoint doorneert, zien ze een onderwerp markeren en bewegen ze de muisaanwijzer er over om snel een definitie van de term te krijgen en te zien met wie er contact kan worden opgenomen met meer vragen. Voorheen moest Jordanië mogelijk zoeken naar deze informatie en contact opnemen met collega's om te zien wie er iets moest vragen.
-- Het toegankelijk maken van deze informatie via onderwerpen kan krachtig zijn, want hoewel deze informatie mogelijk eerder beschikbaar was, kan het lastig zijn geweest om deze informatie te vinden terwijl het lastig was om deze te vinden. Door het op te nemen in de toepassingen die Jordanië gebruikt en hen te helpen deze experts te vinden, kan het ook zorgen voor een gemeenschapsgevoel. Het kan hen ook helpen om meer mogelijkheden te voelen bij het omgaan met de nieuwe rol.
+- Het toegankelijk maken van deze informatie via onderwerpen kan krachtig zijn, omdat deze informatie mogelijk eerder beschikbaar was, maar het kan lastig zijn om deze informatie te vinden in de silo's. Door het op te nemen in de toepassingen die Jordanië gebruikt en hen te helpen deze experts te vinden, kan het ook een gevoel van betrokkenheid en een gemeenschap bevorderen. Het kan hen ook helpen om meer mogelijkheden te voelen bij het omgaan met de nieuwe rol.
 
 Nadat u de scenario's hebt bekeken, kunt u prioriteit geven aan de scenario's:
 
-Eén manier om hieraan prioriteit te geven, is scenario's uit te tekenen in een raster met de impact en het gebruiksgemak. Zoek naar scenario's die veel impact hebben en die gemakkelijk kunnen worden geïmplementeerd en die de hoogste prioriteit geven. Scenario's met lage impact en moeilijk te implementeren scenario's hebben de laagste prioriteit. Als u snel een winnen hebt met een groot effect, eenvoudig te implementeren scenario, helpt het mensen enthousiast te worden en de mogelijkheden van het gebruik van onderwerpen te zien.
+Eén manier om hieraan prioriteit te geven, is scenario's uit te tekenen in een raster met de impact en het gebruiksgemak. Zoek naar scenario's die veel impact hebben en die eenvoudig kunnen worden geïmplementeerd en die de hoogste prioriteit geven. Scenario's met lage impact en moeilijk te implementeren scenario's hebben de laagste prioriteit. Als u snel een winnen hebt met een groot effect, eenvoudig te implementeren scenario, helpt het mensen enthousiast te worden en de mogelijkheden van het gebruik van onderwerpen te zien.
 
 ![Scenario's met hoge impact, eenvoudig te implementeren scenario's hebben een hoge prioriteit](../media/knowledge-management/topics-prioritize-scenarios.png)
 
-Kies een aantal belangrijke scenario's waar u zich in eerste instantie op moet concentreren, werk samen met early adopters om feedback te krijgen en rol deze vervolgens gefaseer uit. Op deze manier kunt u itereren, verbeteringen aanbrengen en feedback krijgen, zodat u de acceptatie in de tijd kunt laten groeien. 
+Kies een aantal belangrijke scenario's waar u zich in eerste instantie op moet concentreren, werk samen met early adopters om feedback te krijgen en rol deze vervolgens gefaseer uit. Op deze manier kunt u itereren, verbeteringen aanbrengen en feedback krijgen, zodat u in de tijd kunt groeien. 
 
 ### <a name="identify-stakeholders"></a>Belanghebbenden identificeren
 
@@ -106,18 +105,18 @@ Identificeer de belanghebbenden voor uw project. De belangrijkste rollen zijn de
 
 |Rol |Verantwoordelijkheden |Department |
 |:-------|:-------|:--------|
-| Executive sponsor(s)   | Een gezichtsvermogen en waarden op hoog niveau communiceren met het bedrijf   |  Leidinggevenden   |
+| Executive sponsor(s)   | Een goed gezichtsvermogen en hoge waarden communiceren met het bedrijf   |  Leidinggevenden   |
 | Project lead(s) | Toezicht houden op het volledige implementatie- en implementatieproces van de lancering | Projectmanagement |
 | Kennisbeheerders| Viva-onderwerpen instellen en configureren | IT-afdeling |
 | Kennisbeheerders | Onderwerpen beheren en toezicht houden op de taxonomie | Elke afdeling |
 | Taxonomiebeheerders | Toezicht houden op de taxonomie | Elke afdeling |
 | Deskundigen en bijdragers van onderwerpen | Onderwerpen en beschrijvingen genereren of bekijken | Elke afdeling |
-| Kampioenen | Helpt bij het onder de ander om aanstootgevende afhandeling te onder devangen en te beheren | Elke afdeling (personeel) |
+| Kampioenen | Helpt bij het onder de beter te onderscheden en beheren van afhandeling van aanstootgevende gegevens | Elke afdeling (personeel) |
 | Tenantbeheerder | Instellingen op tenantniveau configureren | IT-afdeling |
-| Beheerder van Power Platform| Veelvoorkomende omgeving voor gegevensservices configureren | IT-afdeling |
+| Beheerder van Power Platform| Veelgebruikte omgeving voor gegevensservices configureren | IT-afdeling |
 | Beheerder of manager zoeken | Zoekinstellingen configureren | IT-afdeling |
 
-In een grotere organisatie kunnen deze rollen ook door meerdere personen worden gebruikt, en moet u de coördinatie tussen deze personen aan te brengen. In een kleiner bedrijf kan één persoon meerdere van deze rollen uitvoeren. Verschillende rollen zijn mogelijk meer betrokken bij verschillende fasen van het project. Tenantbeheerders zijn bijvoorbeeld meer betrokken bij het instellen van de functies, terwijl deskundigen en kampioenen op onderwerp pas betrokken raken als u onderwerpen gaat definiëren.
+In een grotere organisatie kunnen deze rollen ook door meerdere personen worden gebruikt, en moet u de coördinatie tussen deze personen aan dus aan dus niet. In een kleiner bedrijf kan één persoon verschillende van deze rollen uitvoeren. Verschillende rollen zijn mogelijk meer betrokken bij verschillende fasen van het project. Tenantbeheerders zijn bijvoorbeeld meer betrokken bij het instellen van de functies, terwijl deskundigen en kampioenen op dit gebied pas worden betrokken wanneer u onderwerpen gaat definiëren.
  
 Hoewel we aanraden dat elk van deze rollen is uitgevoerd tijdens uw implementatie, kunnen u vinden dat u ze niet allemaal nodig hebt om aan de slag te gaan met uw geïdentificeerde oplossing.
 
@@ -126,14 +125,14 @@ Hoewel we aanraden dat elk van deze rollen is uitgevoerd tijdens uw implementati
 Gebruik deze indicatoren om het succes van Viva-onderwerpen in uw organisatie te meten. Bekijk:
 
 1. Gebruik van onderwerp:
-      - Onderwerpsinding
+      - Onderwerpinding
       - Aantal onderwerpen ( zowel bevestigd als niet bevestigd in de lijst met curated-onderwerpen.
       - Het aantal gepubliceerde onderwerppagina's.
 1. Feedback van eindgebruikers van onderwerpkaarten.
 1. Doe tevredenheidsenquêtes voor medewerkers. Viva-onderwerpen moeten de mogelijkheid van werknemers verbeteren om informatie te vinden, dus zoek manieren om hun input en feedback over die ervaring te verzamelen.
 1. Positieve impact op zoekanalyse. Omdat onderwerpen worden weergegeven in de zoekervaring, ziet u na een bepaalde periode mogelijk lagere tarieven voor verlaten zoekopdrachten, omdat personen de onderwerpen gemakkelijker kunnen vinden in zoekopdrachten. 
 
-### <a name="build-a-champion-network"></a>Bouw een kampioensnetwerk
+### <a name="build-a-champion-network"></a>Een kampioensnetwerk opbouwen
 
 Bouw een kampioensnetwerk in uw organisatie. Kampioenen zijn belangrijk omdat ze het volgende kunnen doen:
 
@@ -142,13 +141,13 @@ Bouw een kampioensnetwerk in uw organisatie. Kampioenen zijn belangrijk omdat ze
 
 U kunt managers van verschillende rollen aanwerven: Knowledge Managers en deskundigen op het gebied van onderwerpen.
 
-Veel kampioensnetwerken gebruiken Yammer als platform. In Yammer kunnen mensen vragen posten en antwoorden krijgen en succesverhalen delen. Het is moeilijk om alleen maar iets te zeggen, zodat u op het netwerk van personen in uw hele bedrijf kunt vertrouwen om hun collega's advies te geven en te laten zien hoe hun team gebruik maakt van Viva-onderwerpen, zodat andere teams hun eigen scenario's kunnen bespreken.
+Veel kampioensnetwerken gebruiken Yammer als platform. In Yammer kunnen mensen vragen posten en antwoorden krijgen en succesverhalen delen. Het is moeilijk om alleen maar het woord uit te spreken, zodat u op het netwerk van personen in uw hele bedrijf kunt vertrouwen om hun collega's advies te geven en te laten zien hoe hun team gebruik maakt van Viva-onderwerpen, zodat andere teams hun eigen scenario's kunnen bespreken.
 
-Sommige organisaties gebruiken hackamanten (formeel of informeel, virtueel of persoonlijk) om groepen mensen te verzamelen om aan een bepaald project te werken. U kunt bijvoorbeeld uw deskundigen verzamelen en hen samenbrengen om een reeks onderwerppagina's te beheren.
+Sommige organisaties gebruiken hackamanten (formeel of informeel, virtueel of persoonlijk) om groepen mensen te verzamelen om aan een bepaald project te werken. U kunt bijvoorbeeld uw deskundigen op het gebied van onderwerpen verzamelen en hen samenbrengen om een reeks onderwerppagina's te beheren.
 
 Bedenk hoe u uw kampioenen kunt herkennen. Beloon hun activiteiten, geef ze wat herkenning en genereer een zichtbaar community-gevoel en betrokkenheid, zodat ze het gevoel hebben dat ze iets bijdragen en dat ze ook iets terug krijgen van hun investeringen.
 
-Nu u klaar bent om uit te rollen, wilt u zeker weten dat u de continue betrokkenheid moedigt.
+Nu u klaar bent om te worden gerold, wilt u zeker weten dat u de continue betrokkenheid wilt stimuleren.
 
 - Behoud actieve Yammer-groepen voor uw kampioenen.
 - Deel succesvolle verhalen.
@@ -162,5 +161,5 @@ Wanneer u klaar bent om Viva-onderwerpen uit te rollen, moet u mensen erbij betr
 - Begin met het introduceren van de functieset en hen te laten nadenken over hun scenario's.
 - Verzamel de belanghebbenden en maak scenario's.
 - Drive the community and think about how you're going to engage them.
-- Voltooi daarna de voorbereidingsstappen. Sommige zijn technische gereedheid en enige zakelijke gereedheid.
+- Voltooi vervolgens de voorbereidingsstappen. Sommige zijn technische gereedheid en enige zakelijke gereedheid.
 - Ten slotte sociale netwerken en reclame maken.

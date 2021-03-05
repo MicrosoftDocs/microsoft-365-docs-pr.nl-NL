@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a6b5cbbcb2f48797130b080d9d1dd1e6427d4fb8
-ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
+ms.openlocfilehash: 90dee316ee5bdc99b6a2386260a3be38728e7282
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110049"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453715"
 ---
 # <a name="device-requirements"></a>Apparaatvereisten
 
-Microsoft Managed Desktop evalueert regelmatig de apparaatvereisten die moeten worden opgenomen in de service. In dit artikel worden de hardware- en softwarevereisten beschreven waar een apparaat aan moet voldoen om met het beheerde bureaublad van Microsoft te kunnen werken. U kunt een lijst bekijken met specifieke [apparaten die al zijn goedgekeurd voor](device-list.md) gebruik met de service op basis van deze vereisten.
+Microsoft Managed Desktop evalueert regelmatig apparaatvereisten die moeten worden opgenomen in de service. In dit artikel worden de hardware- en softwarevereisten beschreven waar een apparaat aan moet voldoen om te kunnen werken met Microsoft Managed Desktop. Op basis van deze [](device-list.md) vereisten kunt u een lijst bekijken met specifieke apparaten die al zijn goedgekeurd voor gebruik met de service.
 
 > [!NOTE]
 > Deze vereisten kunnen op elk moment worden gewijzigd, maar we zullen u 30 dagen van eventuele wijzigingen aan de hardwarevereisten op de kennisgeving laten zien. De vereisten die het meest recent zijn gewijzigd, zijn gemarkeerd met **\*** . 
@@ -62,12 +62,13 @@ Apparaten moeten de volgende mogelijkheden hebben:
 Zie Microsoft [Managed Desktop-technologieën](../intro/technologies.md)voor meer informatie over deze mogelijkheden en de technologieën die daaraan zijn gerelateerd door de service.
 
 > [!NOTE]
-> ARM-processors worden niet ondersteund.
+> ARM processors worden niet ondersteund.
 
 Apparaten moeten voldoen aan de volgende limieten voor opslag en geheugen of deze overschrijden:
 
-- De opstartstation moet een ander type dan een harde schijf zijn. SSD-, NVMe- en eMMC-stations zijn bijvoorbeeld allemaal geldige keuzen.
+- De opstartstation moet een ander type dan een harde schijf zijn. SSD-, NVMe- en eMMC-stations zijn bijvoorbeeld allemaal geldig.
 - Het opstartstation moet een capaciteit hebben van ten minste 128 GB.
+- Intern geheugen (RAM) moet gelijk zijn aan of groter zijn dan 8 GB.
 
 Als het apparaat is gemaakt na 1 juli 2020, moet het ook een IR-camera, vingerafdruklezer of beide hebben om [Windows Hello te ondersteunen.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365-apps voor ondernemingen
-description: Microsoft 365-Apps implementeren, hoe deze worden bijgewerkt en hoe instellingen worden beheerd
-keywords: wijzigingsoverzicht
+description: Microsoft 365-apps implementeren, hoe deze worden bijgewerkt en hoe instellingen worden beheerd
+keywords: wijzigingsgeschiedenis
 ms.service: m365-md
 ms.sitesec: library
 author: jaimeo
@@ -10,18 +10,18 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 98995084fb7de9ecb434b70b5d38793a20675f19
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 26e62d6e59f1f90e35d9e18e6eed917a66876645
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840340"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453919"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen
 
 ## <a name="initial-deployment"></a>Eerste implementatie
 
-Microsoft Managed Desktop zorgt ervoor dat Microsoft 365-apps voor Enterprise (64-bits) zijn geïnstalleerd als onderdeel van de afbeelding op alle [programma apparaten](../service-description/device-list.md). U kunt alle volgende toepassingen op het apparaat presenteren wanneer het wordt uitgebracht:
+Microsoft Managed Desktop zorgt ervoor dat Microsoft 365-apps voor ondernemingen (64 bits) als onderdeel van de afbeelding worden geïnstalleerd op alle [programmaapparaten.](../service-description/device-list.md) Alle volgende toepassingen moeten aanwezig zijn op het apparaat wanneer het wordt geleverd:
 
 - Word
 - Excel
@@ -32,135 +32,135 @@ Microsoft Managed Desktop zorgt ervoor dat Microsoft 365-apps voor Enterprise (6
 - Skype voor Bedrijven
 - OneNote
 
-Met deze aanpak wordt de invloed van het netwerk geminimaliseerd en wordt gegarandeerd dat gebruikers productief kunnen zijn zodra ze hun apparaat ontvangen. We implementeren vervolgens meer beleidsregels op beheerde apparaten om de toepassingen te configureren voor gebruik.
+Deze methode minimaliseert de invloed op het netwerk en zorgt ervoor dat gebruikers productief kunnen zijn zodra ze hun apparaat ontvangen. Vervolgens implementeren we meer beleidsregels op beheerde apparaten om de toepassingen in te stellen voor gebruik.
 
 > [!NOTE]
-> Microsoft teams is apart geïmplementeerd via Microsoft 365-apps voor Enterprise en is niet opgenomen in de basisafbeelding. 
+> Microsoft Teams wordt afzonderlijk van Microsoft 365 Apps voor ondernemingen geïmplementeerd en is niet opgenomen in de basisafbeelding. 
 
 ### <a name="available-deployment-to-users"></a>Beschikbare implementatie voor gebruikers
 
-Als een gebruiker om welke reden dan ook geen Microsoft 365-apps op hun apparaat heeft, kunt u een pakket gebruiken om de verwachte status van het apparaat te herstellen. Voeg de gebruiker toe aan de **moderne werkplek-Office-Office365_Install** groep en de apps komen voor hen beschikbaar in de bedrijfs portal.
+Als een gebruiker om welke reden dan ook geen Microsoft 365-apps op zijn apparaat heeft, kunt u een pakket gebruiken om het apparaat terug te keren naar de verwachte status. Voeg de gebruiker toe aan de **groep Modern Workplace-Office-Office365_Install** en de apps komen beschikbaar in de bedrijfsportal.
 
-### <a name="microsoft-365-apps-for-enterprise-32-bit"></a>Microsoft 365-apps voor Enterprise (32-bits)
+### <a name="microsoft-365-apps-for-enterprise-32-bit"></a>Microsoft 365-apps voor ondernemingen (32-bits)
 
-Microsoft Managed Desktop biedt geen ondersteuning voor de implementatie van de 32-bits versie van M365-apps voor Enterprise.
+Microsoft Beheerd bureaublad biedt geen ondersteuning voor de implementatie van de 32-bits versie van M365-apps voor ondernemingen.
 
 ## <a name="updates-to-microsoft-365-apps"></a>Updates voor Microsoft 365-apps
 
-Microsoft 365-apps zijn ingesteld op bijwerken op het [maandelijkse Enterprise-kanaal](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview). Deze oefening biedt gebruikers een maand lang nieuwe Office-functies, maar ontvangt per maand slechts één update per maand op een voorspelbare release planning. Updates worden uitgebracht op de tweede dinsdag van de maand; deze updates kunnen functies, beveiliging en kwaliteitsupdates bevatten. Deze updates worden automatisch uitgevoerd en worden direct opgehaald uit het Office CDN voor dat specifieke kanaal.
+Microsoft 365-apps zijn ingesteld voor update op [het Monthly Enterprise-kanaal.](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) Deze oefening biedt uw gebruikers elke maand nieuwe Office-functies, maar ze ontvangen slechts één update per maand volgens een voorspelbaar releaseschema. Updates worden uitgebracht op de tweede dinsdag van de maand. deze updates kunnen functie-, beveiligings- en kwaliteitsupdates bevatten. Deze updates worden automatisch uitgevoerd en worden rechtstreeks vanuit het Office-CDN voor dat specifieke kanaal gehaald.
 
-Microsoft Managed Desktop spreidt elke release om potentiële problemen in uw omgeving te identificeren. We voltooien de implementatie 28 dagen na de release van de productgroep Microsoft 365-app. Microsoft Managed Desktop plant updates voor verschillende groepen om te kunnen valideren en testen als volgt: 
+Microsoft Managed Desktop versprongen elke release om potentiële problemen in uw omgeving te identificeren. De implementatie is 28 dagen na de release van de Microsoft 365 App-productgroep voltooid. Met Microsoft Managed Desktop worden updatereleases voor verschillende groepen gepland, zodat u de validatie en tests als volgt kunt uitvoeren: 
 
-- Test: 0 dagen
-- Eerste: 0 dagen
-- Snel: zeven dagen
-- Algemeen: 21 dagen
+- Test: nul dagen
+- Eerste: nul dagen
+- Snel: 3 dagen
+- Ruim: 7 dagen
 
-Door Microsoft beheerde bureaublad sets wordt een [Update deadline](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) van zeven dagen voor apparaten ingesteld. Zodra de update beschikbaar is, moet deze binnen zeven dagen zijn geïnstalleerd. Gebruikers ontvangen een [melding](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) dat er updates zijn vereist op diverse locaties: de toepassing, in het systeemvak, 12 uur vóór de deadline, en ontvangt een waarschuwing van 15 minuten vóór de deadline. Alle Microsoft 365-apps moeten worden gesloten om de update te voltooien.
+Microsoft Managed Desktop stelt een updatedeadline van zeven dagen [in](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) voor apparaten. Wanneer de update beschikbaar is, moet deze binnen zeven dagen worden geïnstalleerd. Gebruikers krijgen [een](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) melding dat updates op verschillende locaties zijn vereist: de toepassing, in het systeemvak 12 uur voor de deadline, en ze ontvangen een waarschuwing van 15 minuten vóór de deadline. Alle Microsoft 365-apps moeten worden gesloten om de update te voltooien.
 
-### <a name="pausing-or-rolling-back-an-update"></a>Een update onderbreken of herstellen
+### <a name="pausing-or-rolling-back-an-update"></a>Een update onderbreken of terugrollen
 
-Als u de Microsoft 365-App-Update om welke reden dan ook moet onderbreken of opnieuw moet aanbrengen, dient u een [beheerders aanvraag voor beheerders](../working-with-managed-desktop/admin-support.md) via de Microsoft beheerde bureaublad Portal.
+Als u de microsoft 365-app-update om welke reden dan ook wilt onderbreken of terugdraaien, kunt u een aanvraag voor ondersteuning voor beheerders indienen [via](../working-with-managed-desktop/admin-support.md) de portal voor Microsoft Managed Desktop.
 
-In een uitgebrachte Microsoft-Desktop wordt de fout tarieven van alle Microsoft 365-apps gecontroleerd. Als we een aanzienlijk verschil van kwaliteit aangeven tussen de nieuwe release en de voorafgaande taak, kunnen we contact met u opnemen via de portal van de beheerde bureaublad beheerder van Microsoft. Afhankelijk van de ernst, vragen wij u of u de release wilt onderbreken of wilt u op de hoogte blijven van een probleem. 
+Tijdens een release houdt Microsoft Managed Desktop de fouttarieven van alle Microsoft 365-apps in de gaten. Als we een aanzienlijk verschil zien in kwaliteit tussen de nieuwe release en de voorafgaande versie, kunnen we contact met u opnemen via de portal voor beheerde bureaubladbeheerder van Microsoft. Afhankelijk van de ernst wordt u gevraagd of u de release wilt onderbreken of dat er actie is ondernomen om het probleem te beperken. 
 
-### <a name="delivery-optimization"></a>Delivery Optimization
+### <a name="delivery-optimization"></a>Verzendingsoptimalisatie
 
-Delivery Optimization is een peer-to-peer-distributie technologie beschikbaar in Windows 10. Apparaten kunnen inhoud, zoals updates, delen die de apparaten van Microsoft via internet hebben gedownload. Met behulp van deze functie kunt u de netwerkbandbreedte verlagen omdat een apparaat gedeelten van de update kan downloaden van een ander apparaat in het lokale netwerk, zodat u de update niet volledig van Microsoft hoeft te downloaden.
+Delivery Optimization is een peer-to-peer distributietechnologie die beschikbaar is in Windows 10. Hiermee kunnen apparaten inhoud delen, zoals updates, die de apparaten via internet van Microsoft hebben gedownload. Als u dit gebruikt, kunt u de netwerkbandbreedte verminderen omdat een apparaat delen van de update kan downloaden van een ander apparaat op het lokale netwerk in plaats van de update volledig bij Microsoft te moeten downloaden.
 
-[Delivery Optimization](https://docs.microsoft.com/deployoffice/delivery-optimization) is standaard ingeschakeld op apparaten met de edities Windows 10 Enterprise of Windows 10 education. 
+[Leveringsoptimalisatie](https://docs.microsoft.com/deployoffice/delivery-optimization) is standaard ingeschakeld op apparaten met de edities Windows 10 Enterprise of Windows 10 Education. 
 
-## <a name="settings-managed-by-microsoft-managed-desktop"></a>Instellingen die worden beheerd door Microsoft Managed Desktop
+## <a name="settings-managed-by-microsoft-managed-desktop"></a>Instellingen die worden beheerd door het beheerde bureaublad van Microsoft
 
-Microsoft beheert bepaalde instellingen als onderdeel van de service. Microsoft Managed Desktop beheert geen beveiligings basislijn van Office, maar u kunt er zelf een instellen door de instructies te volgen in de sectie [instellingen die u beheert](#settings-you-manage) .
+Microsoft beheert bepaalde instellingen als onderdeel van de service. Microsoft Beheerd bureaublad beheert geen basislijn voor Office-beveiliging, maar u kunt er zelf een instellen door de richtlijnen te volgen in de sectie Instellingen [die u](#settings-you-manage) beheert.
 
 ### <a name="update-settings"></a>Instellingen bijwerken
 
-Microsoft Managed Desktop onderhoudt alle [Update-instellingen](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) voor beheerde apparaten en u moet deze instellingen wijzigen.
+Microsoft Managed Desktop behoudt alle [update-instellingen](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) voor beheerde apparaten en u moet deze instellingen wijzigen.
 
-### <a name="set-updates-to-occur-automatically"></a>Automatisch aanstellen van updates
+### <a name="set-updates-to-occur-automatically"></a>Instellen dat updates automatisch worden uitgevoerd
 
-**Standaardwaarde**: ingeschakeld
+**Standaardwaarde:** ingeschakeld
 
-Dit beleid is zodanig geconfigureerd dat alle Office-apparaten up-to-date worden gehouden in de Cloud. 
+Dit beleid is geconfigureerd om ervoor te zorgen dat alle Office-apparaten up-to-date blijven vanuit de cloud. 
 
 ### <a name="set-a-deadline-when-updates-have-to-be-applied"></a>Een deadline instellen wanneer updates moeten worden toegepast
 
-**Standaardwaarde**: 7 dagen
+**Standaardwaarde:** 7 dagen
 
-Het **UpdateDeadline** -beleid wordt gebruikt voor het configureren van de respijtperiode die gebruikers hebben voordat een update wordt afgedwongen op het apparaat. Met dit deadline beleid worden ook [meldingen](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) aan de gebruiker ondergebracht om deze te informeren over de wijzigingen die op hun apparaat zijn vereist.  
+Het **beleid UpdateDeadline** wordt gebruikt om de respijtperiode te configureren die gebruikers hebben voordat een update wordt afgedwongen op het apparaat. Dit deadlinebeleid activeert de [gebruiker ook](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) om de gebruiker te informeren over de vereiste wijzigingen op het apparaat.  
 
-### <a name="defer-updates-on-a-device-for-a-period"></a>Updates op een apparaat uitstellen voor een punt
+### <a name="defer-updates-on-a-device-for-a-period"></a>Updates op een apparaat een bepaalde periode uitstellen
 
-Dit beleid is voor elke groep updatebeheer apparaat anders geconfigureerd en is vereist voor Microsoft Managed Desktop voor de update doelen:  
+Dit beleid is anders geconfigureerd voor elke apparaatgroep voor updatebeheer en is vereist om het beheerde bureaublad van Microsoft te laten voldoen aan de updatedoelen:  
 
-- Test: 0 dagen
-- Eerste: 0 dagen
-- Snel 7 dagen
-- Algemeen: 21 dagen
+- Test: nul dagen
+- Eerste: nul dagen
+- Zeven dagen snel
+- Ruim: 21 dagen
 
 ### <a name="update-notifications-settings"></a>Instellingen voor meldingen bijwerken
 
-**Standaardwaarde**: onwaar
+**Standaardwaarde:** Onwaar
 
-De instelling meldingen voor update verbergen is ingesteld op **Onwaar** op Microsoft Managed Desktop-apparaten om de beste update ervaring voor gebruikers te bieden door hen op de [hoogte](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) te stellen wanneer er updates zijn vereist.
+De instelling 'updatemeldingen verbergen'  is ingesteld op Onwaar op Microsoft Managed [](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) Desktop-apparaten voor de beste update-ervaring voor gebruikers door hen te laten weten wanneer updates vereist zijn.
 
-### <a name="specify-a-location-to-look-for-updates"></a>Een locatie opgeven waarnaar u wilt zoeken naar updates
+### <a name="specify-a-location-to-look-for-updates"></a>Een locatie opgeven om te zoeken naar updates
 
-**Standaardwaarde**: Monthly Enterprise-kanaal
+**Standaardwaarde:** Monthly Enterprise-kanaal
 
-Een combinatie van het **UpdatePath** -en **UpdateChannel** -beleid wordt zo nodig gebruikt om de updateplanning te bereiken. Dit beleid is ingesteld om ervoor te zorgen dat alle Office-apparaten updates rechtstreeks uit het CDN ontvangen voor het maandelijkse Enterprise-kanaal.
+Een combinatie van het **UpdatePath-** en **UpdateChannel-beleid** wordt zo nodig gebruikt om de updateplanning te bereiken. Dit beleid is ingesteld om ervoor te zorgen dat alle Office-apparaten updates rechtstreeks ontvangen van het CDN voor het Monthly Enterprise-kanaal.
 
 ### <a name="specify-the-target-version-of-microsoft-365-apps"></a>De doelversie van Microsoft 365-apps opgeven
 
-Het doelversie beleid wordt soms door Microsoft beheerd bureaublad gebruikt om een bepaalde versie van Office terug te draaien of vast te maken. 
+Het beleid doelversie wordt soms gebruikt door beheerd bureaublad van Microsoft om een specifieke versie van Office terug te draaien of vast te maken. 
 
 
-### <a name="hide-the-option-to-enable-or-disable-office-automatic-updates"></a>De optie voor het in-of uitschakelen van Office automatische updates verbergen
+### <a name="hide-the-option-to-enable-or-disable-office-automatic-updates"></a>De optie voor het in- of uitschakelen van automatische updates van Office verbergen
 
-**Standaardwaarde**: ingeschakeld
+**Standaardwaarde:** ingeschakeld
 
-Deze instelling is vereist voor Microsoft Managed Desktop om te voldoen aan de update doelen voor Microsoft 365-toepassingen. 
+Deze instelling is vereist om Beheerd bureaublad van Microsoft te laten voldoen aan de updatedoelen voor Microsoft 365-toepassingen. 
 
-### <a name="first-run-settings"></a>Instellingen voor First Run 
+### <a name="first-run-settings"></a>First run settings 
 
-Er zijn verschillende instellingen die van invloed zijn op het gedrag wanneer Office voor het eerst wordt uitgevoerd.
+Er zijn verschillende instellingen die van invloed zijn op het gedrag als Office voor het eerst wordt uitgevoerd.
 
 ### <a name="accept-the-license-terms-on-behalf-of-the-end-user"></a>De licentievoorwaarden namens de eindgebruiker accepteren
 
-**Standaardwaarde**: uitgeschakeld
+**Standaardwaarde:** uitgeschakeld
 
-Wanneer een gebruiker een Microsoft 365-app voor de eerste keer opent, wordt u gevraagd de gebruiksrechtovereenkomst te accepteren. Als u de licentievoorwaarden voor uw gebruikers wilt accepteren, dient u een serviceaanvraag te indienen bij het Microsoft-beheer team van het bureaublad dat u vraagt om deze instelling in te schakelen. 
+De eerste keer dat een gebruiker een Microsoft 365-app opent, wordt hem of haar gevraagd de licentievoorwaarden te accepteren. Als u de licentievoorwaarden namens uw gebruikers wilt accepteren, moet u een serviceaanvraag indienen bij het team van Microsoft Managed Desktop Operations waarin u vraagt of deze instelling is ingeschakeld. 
 
 ### <a name="suppress-outlook-mobile-check-box"></a>Selectievakje Outlook Mobile onderdrukken
 
-**Standaardwaarde**: uitgeschakeld
+**Standaardwaarde:** uitgeschakeld
 
-De eerste keer dat een gebruiker Outlook opent, wordt u gevraagd Outlook Mobile te installeren. Als u niet wilt dat gebruikers dit selectievakje zien, dient u een serviceaanvraag te indienen bij het Microsoft-beheerde bureaublad operationeel en vragen om deze instelling voor uw apparaten te kunnen inschakelen. 
+De eerste keer dat een gebruiker Outlook opent, wordt hem of haar gevraagd Outlook Mobile te installeren. Als u niet wilt dat uw gebruikers dit selectievakje zien, kunt u een serviceaanvraag indienen bij het team van Microsoft Managed Desktop Operations waarin u vraagt of deze instelling is ingeschakeld voor uw apparaten. 
 
-## <a name="other-settings"></a>Andere instellingen
+## <a name="other-settings"></a>Overige instellingen
 
-Er zijn andere Microsoft 365-app-instellingen die door Microsoft worden beheerd om namens u te configureren. 
+Er zijn andere microsoft 365 App-instellingen die desgewenst namens u kunnen worden geconfigureerd door Microsoft Managed Desktop. 
 
 ### <a name="disable-personal-onedrive"></a>Persoonlijke OneDrive uitschakelen
 
-**Standaardwaarde**: uitgeschakeld
+**Standaardwaarde:** uitgeschakeld
 
-Sommige organisaties zorgen voor gebruikers die toegang hebben tot zowel zakelijke als persoonlijke bestanden op hun eigen apparaat. U kunt een serviceaanvraag indienen bij het Microsoft-beheerbare bureaublad bewerkings team waarin u wordt gevraagd om deze instelling in te schakelen. 
+Sommige organisaties maken zich zorgen over het gebruik van bedrijfsbestanden en persoonlijke bestanden op hun apparaten. U kunt een serviceaanvraag indienen bij het team van Microsoft Managed Desktop Operations waarin u wordt gevraagd of deze instelling is ingeschakeld. 
 
 ## <a name="settings-you-manage"></a>Instellingen die u beheert
 
-Er zijn veel andere beleidsregels die door Microsoft worden beheerd de bureaubladversie nog niet is ingesteld als onderdeel van onze service. U kunt deze beleidsregels configureren met behulp van Microsoft intune, dat gebruikmaakt van de service [Cloud beleid van Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) . Voer de volgende stappen uit om deze beleidsregels in te stellen:
+Er zijn nog veel andere beleidsregels die nog niet zijn ingesteld als onderdeel van onze service. U kunt dit beleid configureren met behulp van Microsoft Intune, dat gebruikmaakt van de [Cloudbeleidsservice van Office.](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) Als u dit beleid wilt instellen, gaat u als volgt te werk:
 
-1.  Meld u aan bij het Beheercentrum van Microsoft Endpoint Manager.
-2.  Selecteer **Apps > beleid voor Office-Apps > maken**
-3.  Voer de volgende handelingen uit op de pagina **beleidsconfiguratie maken** :
+1.  Meld u aan bij het beheercentrum van Microsoft Eindpuntenbeheer.
+2.  Apps **en > voor Office-apps selecteren > maken**
+3.  Ga als **volgt te werk op** de pagina Beleidsconfiguratie maken:
     - Voer een naam in.
-    - Voer een beschrijving in (optioneel).
-    - Kies in **toewijzingen** of dit beleid van toepassing is op alle gebruikers van microsoft 365-apps voor ondernemingen of alleen voor gebruikers die anoniem toegang hebben tot documenten via Office voor het web.
-    - Selecteer de beveiligingsgroep op basis van AAD die is toegewezen aan de beleidsconfiguratie. U kunt alle beleidsconfiguraties slechts toewijzen aan één groep, en elke groep kan slechts één beleidsconfiguratie worden toegewezen.
-    - Configureer de beleidsinstellingen die moeten worden opgenomen in de beleidsconfiguratie. U kunt op de naam van de beleidsinstelling zoeken naar de beleidsinstelling die u wilt configureren. U kunt ook filteren op de toepassing, of het beleid een aanbevolen beveiligings basislijn is en of het beleid is geconfigureerd. De kolom platform geeft aan of het beleid wordt toegepast op Microsoft 365-apps voor Enterprise voor Windows-apparaten, Office voor het web of alle.
-4.  Nadat u uw selecties hebt gemaakt, kiest u **maken**.
+    - Geef een beschrijving op (optioneel).
+    - Kies **in toewijzingen** of dit beleid van toepassing is op alle gebruikers van Microsoft 365 Apps voor ondernemingen of alleen op gebruikers die anoniem documenten openen met de web app van Office.
+    - Selecteer de op AAD gebaseerde beveiligingsgroep die is toegewezen aan de beleidsconfiguratie. Elke beleidsconfiguratie kan slechts aan één groep worden toegewezen en aan elke groep kan slechts één beleidsconfiguratie worden toegewezen.
+    - Configureer de beleidsinstellingen die moeten worden opgenomen in de beleidsconfiguratie. U kunt zoeken op de naam van de beleidsinstelling om de beleidsinstelling te vinden die u wilt configureren. U kunt ook filteren op de toepassing, of het beleid een aanbevolen beveiligingsbasislijn is en of het beleid is geconfigureerd. De platformkolom geeft aan of het beleid wordt toegepast op Microsoft 365 Apps voor Ondernemingen voor Windows-apparaten, Office voor het web of alles.
+4.  Nadat u uw selecties hebt gemaakt, kiest u **Maken.**
 
 > [!NOTE]
-> Office-configuratie beleidsregels ondersteunen alleen op gebruikers gebaseerde implementatie
+> Office-configuratiebeleid biedt alleen ondersteuning voor implementatie op basis van gebruikers

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: microsoft-365-enterprise
 ms.collection:
 - enabler-strategic
-- m365initiative-topics
+- m365initiative-viva-topics
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: fbdd0e9b75e92d8080d9aaf43a2d1eaa8baacbc3
-ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
+ms.openlocfilehash: c3ba9ce6675e81a99309243db251b34a21a4b43f
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50279386"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454157"
 ---
 # <a name="create-a-new-topic"></a>Een nieuw onderwerp maken 
 
@@ -32,11 +32,11 @@ In Viva-onderwerpen kunt u een nieuw onderwerp maken als er niet bij het indexer
 ## <a name="requirements"></a>Vereisten
 
 Als u een nieuw onderwerp wilt maken, moet u het volgende doen:
-- U hebt een licentie voor Viva-onderwerpen.
+- U hebt een licentie voor Viva Topics.
 - Machtigingen hebben voor [**Wie kan onderwerpen maken of bewerken.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
 
 > [!Note] 
-> Gebruikers die zijn machtigingen om onderwerpen te beheren in het onderwerpcentrum (knowledge managers) zijn al over machtigingen voor het maken en bewerken van onderwerpen.
+> Gebruikers die zijn machtigingen voor het beheren van onderwerpen in het onderwerpcentrum (knowledge managers) hebben al machtigingen voor het maken en bewerken van onderwerpen.
 
 ## <a name="to-create-a-topic"></a>Een onderwerp maken
 
@@ -52,15 +52,17 @@ U kunt vanaf twee locaties een nieuw onderwerp maken:
 
 ### <a name="to-create-a-new-topic"></a>Een nieuw onderwerp maken:
 
-1. Typ in **de sectie Naam van** dit onderwerp de naam van het nieuwe onderwerp.
+1. Selecteer de optie voor het maken van een nieuwe onderwerppagina op het lint op de pagina Onderwerpen beheren.
+
+2.   Typ in **de sectie Naam van** dit onderwerp de naam van het nieuwe onderwerp.
 
     ![Dit onderwerp een naam geven](../media/knowledge-management/k-new-topic-page.png) </br> 
 
 
-2. Typ in <b>de sectie Alternatieve</b> namen andere namen waar mogelijk naar wordt verwezen in het onderwerp. 
+3. Typ in <b>de sectie Alternatieve</b> namen andere namen waar mogelijk naar wordt verwezen in het onderwerp. 
 
     ![Alternatieve namen](../media/knowledge-management/alt-names.png) </br> 
-3. Typ in <b>de</b> sectie Beschrijving een paar zinnen om het onderwerp te beschrijven. 
+4. Typ in <b>de</b> sectie Beschrijving een aantal zinnen om het onderwerp te beschrijven. 
 
     ![Beschrijving van het onderwerp](../media/knowledge-management/description.png)</br>
 
@@ -101,7 +103,7 @@ U kunt vanaf twee locaties een nieuw onderwerp maken:
 
    ![Verwante onderwerpen verbonden](../media/knowledge-management/related-topics-final.png)</br> 
 
-   Als u een gerelateerd onderwerp wilt verwijderen, selecteert u het onderwerp dat u wilt verwijderen en selecteert u vervolgens het <b>pictogram</b> Onderwerp verwijderen.</br>
+   Als u een gerelateerd onderwerp wilt verwijderen, selecteert u het onderwerp dat u wilt verwijderen en selecteert u vervolgens het <b>pictogram Onderwerp</b> verwijderen.</br>
  
    ![Gerelateerd onderwerp verwijderen](../media/knowledge-management/remove-related.png)</br>  
 

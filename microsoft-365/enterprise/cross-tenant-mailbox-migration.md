@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 237d47502d28ec43978cef2c16e049ac9e90d7b1
-ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
+ms.openlocfilehash: d81e272cfe50aa8379135406cbe538fbc8a18cb5
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040554"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454227"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van postvakken tussen tenants (preview)
 
@@ -27,9 +27,9 @@ Voorheen, wanneer een Exchange Online-tenant postvakken moest verplaatsen naar e
 
 Doorgaans moet u tijdens fusies of overnames gebruikers en inhoud naar een nieuwe tenant kunnen verplaatsen. Wanneer de beheerder van de doelten tenant de overstap uitvoert, heet dit een pull-move, vergelijkbaar met on-premises onboarding-migraties voor de cloud.
 
-Exchange-postvakken op meerdere tenants worden volledig zelf gebruikt door tenantbeheerders, met behulp van bekende interfaces die kunnen worden geschreven in de grotere werkstromen die nodig zijn om gebruikers over te brengen naar de nieuwe organisatie. Beheerders kunnen de cmdlet, beschikbaar via de beheerrol Postvakken verplaatsen, gebruiken om het verplaatsen tussen `New-MigrationBatch` tenants uit te voeren. Het overstapproces omvat tenantautorisatiecontroles tijdens het synchroniseren en voltooien van postvakken. 
+Exchange-postvakken op meerdere tenants worden volledig zelf gebruikt door tenantbeheerders, met behulp van bekende interfaces die kunnen worden geschreven in de grotere werkstromen die nodig zijn om gebruikers over te brengen naar de nieuwe organisatie. Beheerders kunnen de cmdlet, beschikbaar via de beheerrol Postvakken verplaatsen, gebruiken om het verplaatsen tussen `New-MigrationBatch` tenants uit te voeren. Het overstapproces omvat tenantautorisatiecontroles tijdens postvaksynchronisatie en -finalisatie. 
  
-Gebruikers die migreren, moeten in de doelten tenant Exchange Online aanwezig zijn als MailUsers, gemarkeerd met specifieke kenmerken om het migreren tussen tenants mogelijk te maken. Het systeem mislukt de bewegingen voor gebruikers die niet correct zijn ingesteld in de doel-tenant.  
+Gebruikers die migreren, moeten in de doelten tenant Exchange Online aanwezig zijn als MailUsers, gemarkeerd met specifieke kenmerken om het migreren tussen tenants mogelijk te maken. Het systeem mislukt voor gebruikers die niet correct zijn ingesteld in de doel-tenant.  
 
 Wanneer de bewegingen zijn voltooid, wordt het bronsysteempostvak geconverteerd naar MailUser en wordt het targetAddress (weergegeven als ExternalEmailAddress in Exchange) voorzien van een stempel met het routeringsadres naar de doelten tenant. Met deze procedure wordt de oudere MailUser in de bronten tenant verlaat en bestaat er een periode van co-aanwezigheid en e-mailroutering. Wanneer bedrijfsprocessen zijn toegestaan, kan de bronten tenant MailUser verwijderen of converteren naar een e-mailcontactcontact. 
 
@@ -39,7 +39,7 @@ In dit artikel wordt het proces voor het verplaatsen van postvakken tussen tenan
 
 ## <a name="preparing-source-and-target-tenants"></a>Bron- en doelten tenants voorbereiden
 
-Voor de migratiefunctie voor Exchange-postvakken tussen tenants zijn autorisatie en bereik voor migraties tussen tenants vereist. Met de Azure Enterprise-toepassing en Key Vault-opslagoplossingen kunnen tenantbeheerders nu zowel autorisatie als het beperken van migraties van Exchange Online-postvakken van de ene tenant naar de andere beheren. Bij het verplaatsen van postvakken tussen tenants wordt een uitnodiging en toestemmingsmodel ondersteund voor het maken van een Azure Active Directory-toepassing (Azure AD) die wordt gebruikt voor verificatie tussen een tenantpaar. Er zijn ook extra onderdelen vereist, zoals een organisatierelatie en een migratie-eindpunt.
+Voor de migratiefunctie voor Exchange-postvakken tussen tenants zijn autorisatie en bereik voor migraties tussen tenants vereist. Met de Azure Enterprise-toepassing en Key Vault-opslagoplossingen kunnen tenantbeheerders nu zowel autorisatie als het beperken van migraties van Exchange Online-postvakken van de ene tenant naar de andere beheren. Bij het verplaatsen van postvakken tussen tenants wordt een uitnodiging en toestemmingsmodel ondersteund voor het maken van een Azure Active Directory-toepassing (Azure AD) die wordt gebruikt voor verificatie tussen een tenantpaar. Extra onderdelen, zoals een organisatierelatie en een migratie-eindpunt, zijn ook vereist.
 
 Deze sectie bevat niet de specifieke stappen die nodig zijn voor het voorbereiden van de MailUser-gebruikersobjecten in de doelmap en bevat ook niet de voorbeeldopdracht om een migratiebatch in te dienen. Zie [Doelgebruikersobjecten voorbereiden voor migratie](#prepare-target-user-objects-for-migration) voor deze informatie.
 
@@ -47,9 +47,9 @@ Deze sectie bevat niet de specifieke stappen die nodig zijn voor het voorbereide
 
 Voor de functie voor het verplaatsen van postvakken tussen tenants moet [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts) een tenantpaarsspecifieke Azure-toepassing tot stand brengen om het certificaat/geheim dat wordt gebruikt voor verificatie en geautoriseerde postvakmigratie van de ene tenant naar de andere veilig op te slaan en te openen, waardoor alle vereisten voor het delen van certificaten/geheimen tussen tenants worden verwijderd. 
 
-Voordat u begint, moet u de benodigde machtigingen hebben om de implementatiescripts uit te voeren om Azure Key Vault, Move Mailbox-toepassing, EXO Migration Endpoint en de EXO-organisatierelatie te configureren. Doorgaans heeft een globale beheerder toestemming om alle configuratiestappen uit te voeren.
+Voordat u begint, moet u de benodigde machtigingen hebben om de implementatiescripts uit te voeren om Azure Key Vault, Move Mailbox-toepassing, EXO-migratie-eindpunt en de EXO-organisatierelatie te configureren. Doorgaans heeft een globale beheerder toestemming om alle configuratiestappen uit te voeren.
 
-Bovendien zijn beveiligingsgroepen met e-mail in de bron-tenant vereist voordat de installatie wordt uitgevoerd. Deze groepen worden gebruikt om een bereik op te geven in de lijst met postvakken die van de bronten tenant (of soms resourceten tenant genoemd) naar de doelten tenant kunnen worden verplaatst. Hierdoor kan de bronten tenantbeheerder de specifieke set postvakken beperken of een bereik instellen dat moet worden verplaatst, zodat onbedoelde gebruikers niet kunnen worden gemigreerd. Geneste groepen worden niet ondersteund.
+Bovendien zijn beveiligingsgroepen met e-mail in de bron tenant vereist voordat de installatie wordt uitgevoerd. Deze groepen worden gebruikt om een bereik op te geven in de lijst met postvakken die van de bronten tenant (of soms resourceten tenant genoemd) naar de doelten tenant kunnen worden verplaatst. Hierdoor kan de beheerder van de bronten tenant de specifieke set postvakken beperken of een bereik instellen dat moet worden verplaatst, zodat onbedoelde gebruikers niet kunnen worden gemigreerd. Geneste groepen worden niet ondersteund.
 
 U moet ook communiceren met uw vertrouwde partnerbedrijf (met wie u postvakken gaat verplaatsen) om hun Microsoft 365-tenant-id te verkrijgen. Deze tenant-id wordt gebruikt in het veld `DomainName` Organisatierelatie.
 
@@ -79,14 +79,14 @@ De doel tenant voorbereiden:
 6. Het certificaat/geheim wordt geüpload naar de migratietoepassing (SCRIPT).
 7. Machtigingen voor postvakmigratie worden toegewezen aan de toepassing (SCRIPT).
 8. Het implementatiescript wordt onderbroken totdat de doelbeheerder toestemming geeft voor de eigen toepassing (SCRIPT).
-9. De doelten tenantbeheerder gaat akkoord met de machtigingen die aan de toepassing zijn verleend (MANUAL).
+9. De doelten tenantbeheerder gaat akkoord met de machtigingen die aan de toepassing worden gegeven (MANUAL).
 10. Er wordt een organisatierelatie gemaakt met de doel-tenant (SCRIPT).
 11. Er wordt een migratie-eindpunt gemaakt om postvakken op te halen naar de doelten tenant (SCRIPT).
 
 De bron tenant voorbereiden:
 
 1. De bronten tenantbeheerder accepteert toestemming voor de uitnodiging voor de toepassing Postvakmigratie vanuit de doelten tenant (MANUAL).
-2. De bronten tenantbeheerder maakt een beveiligingsgroep met e-mail in de tenant voor de lijst met postvakken die door de migratietoepassing (MANUAL) mogen worden verplaatst.
+2. De bronten tenantbeheerder maakt een beveiligingsgroep met e-mail in de tenant voor de lijst met postvakken die mogen worden verplaatst door de migratietoepassing (MANUAL).
 3. Er wordt een organisatierelatie gemaakt met de doel tenant die opgeeft dat de postvakmigratietoepassing moet worden gebruikt voor OAuth-verificatie om de aanvraag voor verplaatsen (SCRIPT) te accepteren.
 
 #### <a name="step-by-step-instructions-for-the-target-tenant-admin"></a>Stapsgewijse instructies voor de doel tenantbeheerder
@@ -94,21 +94,21 @@ De bron tenant voorbereiden:
 1. Download het SetupCrossTenantRelationshipForTargetTenant.ps1 voor het instellen van de doel tenant vanuit de [GitHub-opslagplaats.](https://github.com/microsoft/cross-tenant/releases/tag/Preview) 
 2. Sla het script (SetupCrossTenantRelationshipForTargetTenant.ps1) op de computer op waaruit u het script wilt uitvoeren.
 3. Maak een externe PowerShell-verbinding met de Exchange Online-doel tenant. Zorg er nogmaals voor dat u de benodigde machtigingen hebt om de implementatiescripts uit te voeren om de Azure Key Vault-opslag en -certificaat, de toepassing Move Mailbox, EXO Migration Endpoint en de EXO-organisatierelatie te configureren.
-4. Wijzig de map met bestanden in de scriptlocatie of controleer of het script momenteel is opgeslagen op de locatie in uw externe PowerShell-sessie.
+4. Wijzig de map met bestanden naar de scriptlocatie of controleer of het script momenteel is opgeslagen op de locatie in uw externe PowerShell-sessie.
 5. Voer het script uit met de volgende parameters en waarden.
 
     | Parameter | Value | Vereist of Optioneel
     |---------------------------------------------|-----------------|--------------|
-    | -TargetTenantDomain                         | Doelten tenantdomein, zoals contoso \. onmicrosoft.com. | Vereist |
-    | -ResourceTenantDomain                       | Bron tenantdomein, zoals fabrikam \. onmicrosoft.com. | Vereist |
-    | -ResourceTenantAdminEmail                   | Het e-mailadres van de bron tenantbeheerder. Dit is de bronbeheerder van de tenant die instemt met het gebruik van de postvakmigratietoepassing die is verzonden door de doelbeheerder. Dit is de beheerder die de uitnodiging per e-mail voor de toepassing ontvangt. | Vereist |
-    | -ResourceTenantId                           | Id van bronten tenantorganisatie (GUID). | Vereist |
+    | -TargetTenantDomain                         | Doel tenantdomein, zoals fabrikam \. onmicrosoft.com. | Vereist |
+    | -ResourceTenantDomain                       | Bronten tenantdomein, zoals contoso \. onmicrosoft.com. | Vereist |
+    | -ResourceTenantAdminEmail                   | Het e-mailadres van de beheerder van de bron tenant. Dit is de bronbeheerder van de tenant die instemt met het gebruik van de postvakmigratietoepassing die is verzonden door de doelbeheerder. Dit is de beheerder die de uitnodiging per e-mail voor de toepassing ontvangt. | Vereist |
+    | -ResourceTenantId                           | Bron-tenant-organisatie-id (GUID). | Vereist |
     | -SubscriptionId                             | Het Azure-abonnement dat moet worden gebruikt voor het maken van bronnen. | Vereist |
     | -ResourceGroup                              | De naam van de Azure-resourcegroep die de Sleutel kluis bevat of deze bevat. | Vereist |
     | -KeyVaultName                               | Azure Key Vault-exemplaar dat het certificaat/geheim van uw postvakmigratietoepassing opgeslagen. | Vereist |
     | -CertificateName                            | De naam van het certificaat bij het genereren of zoeken naar certificaten in de Key Vault. | Vereist |
     | -CertificateSubject                         | Naam van het Azure Key Vault-certificaat, zoals CN=contoso_fabrikam. | Vereist |
-    | -ExistingApplicationId                      | De e-mailmigratietoepassing die moet worden gebruikt als er al een is gemaakt. | Optioneel |
+    | -ExistingApplicationId                      | Te gebruiken e-mailmigratietoepassing als er al een is gemaakt. | Optioneel |
     | -AzureAppPermissions                        | De benodigde machtigingen voor het verlenen van machtigingen aan de postvakmigratietoepassing, zoals Exchange of MSGraph (Exchange voor het verplaatsen van postvakken, MSGraph om met deze toepassing een uitnodiging voor een toestemmingskoppeling naar de resourceten tenant te verzenden). | Vereist |
     | -UseAppAndCertGeneratedForSendingInvitation | Parameter voor het gebruik van de toepassing die is gemaakt voor migratie en die moet worden gebruikt voor het verzenden van uitnodigingen voor toestemmingskoppelingen naar de bron tenantbeheerder. Als deze niet aanwezig is, wordt gevraagd om de referenties van de doelbeheerder om verbinding te maken met Azure Invitation Manager en de uitnodiging te verzenden als doelbeheerder. | Optioneel |
     | -KeyVaultAuditStorageAccountName            | Het opslagaccount waar de auditlogboeken van Key Vault worden opgeslagen. | Optioneel |
@@ -118,7 +118,7 @@ De bron tenant voorbereiden:
     >[!Note]
     > Zorg ervoor dat u de Azure AD PowerShell-module hebt geïnstalleerd voordat u de scripts gaat uitvoeren. Raadpleeg hier ![ voor ](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0) installatiestappen
 
-6. Het script wordt onderbroken en u wordt gevraagd de migratietoepassing voor Exchange-postvakken die tijdens dit proces is gemaakt, te accepteren of te accepteren. Hier volgt een voorbeeld.
+6. Het script wordt onderbroken en u wordt gevraagd de migratietoepassing voor Exchange-postvakken die tijdens dit proces is gemaakt, te accepteren of in te stemmen. Hier volgt een voorbeeld.
 
     ```powershell
     PS C:\PowerShell\> .\SetupCrossTenantRelationshipForTargetTenant.ps1 -ResourceTenantDomain contoso.onmicrosoft.com -ResourceTenantAdminEmail admin@contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ResourceTenantId ksagjid39-ede2-4d2c-98ae-874709325b00 -SubscriptionId e4ssd05d-a327-49ss-849a-sd0932439023 -ResourceGroup "Cross-TenantMoves" -KeyVaultName "Cross-TenantMovesVault" -CertificateName "Contoso-Fabrikam-cert" -CertificateSubject "CN=Contoso_Fabrikam" -AzureAppPermissions Exchange, MSGraph -UseAppAndCertGeneratedForSendingInvitation -KeyVaultAuditStorageAccountName "t2tstorageaccount" -KeyVaultAuditStorageResourceGroup "Demo"
@@ -187,9 +187,9 @@ De configuratie van de doelbeheerder is nu voltooid.
     | Parameter | Value |
     |-----|------|
     | -SourceMailboxMovePublishedScopes | Beveiligingsgroep met e-mail die door de bronten tenant is gemaakt voor de identiteiten/postvakken die binnen het migratiebereik vallen. |
-    | -ResourceTenantDomain | De domeinnaam van de bron tenant, zoals fabrikam \. onmicrosoft.com. |
-    | -ApplicationId | Azure-toepassings-id (GUID) van de toepassing die voor de migratie wordt gebruikt. Toepassings-id beschikbaar via je Azure Portal (Azure AD, Enterprise Applications, app-naam, toepassings-id) of opgenomen in je uitnodigingsmail.  |
-    | -TargetTenantDomain | De domeinnaam van de doelten tenant, zoals contoso \. onmicrosoft.com. |
+    | -ResourceTenantDomain | De domeinnaam van de bronten tenant, zoals contoso \. onmicrosoft.com. |
+    | -ApplicationId | Azure-toepassings-id (GUID) van de toepassing die voor de migratie wordt gebruikt. Toepassings-id beschikbaar via je Azure Portal (Azure AD, Enterprise-toepassingen, app-naam, toepassings-id) of opgenomen in je uitnodigingse-mail.  |
+    | -TargetTenantDomain | De domeinnaam van de doel tenant, zoals fabrikam \. onmicrosoft.com. |
     | -TargetTenantId | Tenant-id van de doel-tenant. Bijvoorbeeld: de tenant-id van Azure AD van contoso \. onmicrosoft.com tenant. |
     |||
 
@@ -271,7 +271,7 @@ MailboxMovePublishedScopes : {MigScope}
 OAuthApplicationId         : sd9890342-3243-3242-fe3w2-fsdade93m0
 ```
 
-#### <a name="verify-setup-script"></a>Installatiescript controleren
+#### <a name="verify-setup-script"></a>Setup-script controleren
 
 Als u fouten ziet tijdens de configuratie van de bron- of doelten tenants, kunt u het VerifySetup.ps1 uitvoeren in [GitHub](https://github.com/microsoft/cross-tenant/releases/tag/Preview) en de uitvoer controleren.
 
@@ -293,7 +293,7 @@ Als een postvak wordt terug verplaatst naar de oorspronkelijke bronten tenant is
 
 ## <a name="prepare-target-user-objects-for-migration"></a>Doelgebruikersobjecten voorbereiden voor migratie
 
-Gebruikers die migreren, moeten aanwezig zijn in de doelten tenant en het Exchange Online-systeem (als MailUsers) die zijn gemarkeerd met specifieke kenmerken om het migreren tussen tenants mogelijk te maken. Het systeem mislukt de bewegingen voor gebruikers die niet correct zijn ingesteld in de doel-tenant. In de volgende sectie worden de vereisten voor het MailUser-object voor de doelten tenant begegevens begegevens be voor gesteld.
+Gebruikers die migreren, moeten aanwezig zijn in de doelten tenant en het Exchange Online-systeem (als MailUsers) die zijn gemarkeerd met specifieke kenmerken om het migreren tussen tenants mogelijk te maken. Het systeem mislukt voor gebruikers die niet correct zijn ingesteld in de doel-tenant. In de volgende sectie worden de vereisten voor het MailUser-object voor de doelten tenant begegevens begegevens voor gesteld.
 
 ### <a name="prerequisites"></a>Vereisten
   
@@ -304,10 +304,10 @@ U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de 
    - De doel-mailgebruiker moet deze kenmerken hebben uit het bronpostvak of zijn toegewezen aan het nieuwe gebruikersobject:
       - ExchangeGUID (directe stroom van bron naar doel) - De postvak-GUID moet overeenkomen. Het verplaatsproces gaat niet door als dit niet aanwezig is in het doelobject. 
       - ArchiveGUID (directe stroom van bron naar doel) - De archief-GUID moet overeenkomen. Het verplaatsproces gaat niet door als dit niet aanwezig is in het doelobject. (Dit is alleen vereist als archief is ingeschakeld voor het bronpostvak). 
-      - LegacyExchangeDN (flow as proxyAddress, "x500: ") – LegacyExchangeDN moet aanwezig zijn op target <LegacyExchangeDN> MailUser als x500: proxyAddress. De verplaatsprocessen gaan niet door als dit niet aanwezig is in het doelobject. 
+      - LegacyExchangeDN (flow as proxyAddress, "x500: <LegacyExchangeDN> ") – The LegacyExchangeDN must be present on target MailUser as x500: proxyAddress. De overstapprocessen gaan niet door als dit niet aanwezig is in het doelobject. 
       - UserPrincipalName: de UPN komt overeen met de NIEUWE identiteit of het doelbedrijf van de gebruiker (bijvoorbeeld user@northwindtraders.onmicrosoft.com). 
       - Primair SMTP-adres: het primaire SMTP-adres wordt afgestemd op het NIEUWE bedrijf van de gebruiker (bijvoorbeeld user@northwind.com). 
-      - TargetAddress/ExternalEmailAddress: MailUser verwijst naar het huidige postvak van de gebruiker dat wordt gehost in de bronten tenant (bijvoorbeeld user@contoso.onmicrosoft.com). Wanneer u deze waarde toewijst, controleert u of u primarySMTPAddress hebt of toewijst, anders wordt met deze waarde het PrimarySMTPAddress ingesteld, waardoor fouten in de move optreden. 
+      - TargetAddress/ExternalEmailAddress: MailUser verwijst naar het huidige postvak van de gebruiker dat wordt gehost in de bronten tenant (bijvoorbeeld user@contoso.onmicrosoft.com). Wanneer u deze waarde toewijst, controleert u of u primarySMTPAddress hebt of toewijst, anders wordt met deze waarde het PrimarySMTPAddress ingesteld, waardoor fouten in het verplaatsen optreden. 
       - U kunt geen oudere SMTP-proxyadressen uit het bronpostvak toevoegen aan de e-mailuser. Zo kunt u bijvoorbeeld geen contoso.com in de fabrikam.onmicrosoft.com tenantobjecten). Domeinen zijn alleen gekoppeld aan één Azure AD- of Exchange Online-tenant.
  
      Voorbeeld **van een** MailUser-object:
@@ -345,10 +345,10 @@ U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de 
      |                       | SMTP:Lara.Newton@contoso.com          |
      |||
 
-   - Er kunnen al aanvullende kenmerken zijn opgenomen in de hybride versies van Exchange. Zo niet, dan moeten deze worden opgenomen. 
-   - msExchBlockedSendersHash: gegevens van veilige en geblokkeerde afzenders van clients naar on-premises Active Directory worden teruggeboekt.
+   - Er kunnen al aanvullende kenmerken zijn opgenomen in exchange hybrid write back. Zo niet, dan moeten deze worden opgenomen. 
+   - msExchBlockedSendersHash: gegevens van veilige en geblokkeerde afzenders van clients worden teruggeboekt naar on-premises Active Directory.
    - msExchSafeRecipientsHash: gegevens van veilige en geblokkeerde afzenders van clients worden teruggeboekt naar on-premises Active Directory.
-   - msExchSafeSendersHash: gegevens van veilige en geblokkeerde afzenders van clients naar on-premises Active Directory worden teruggeboekt.
+   - msExchSafeSendersHash: gegevens van veilige en geblokkeerde afzenders van clients worden teruggeboekt naar on-premises Active Directory.
 
 2. Als het bronpostvak litigationhold is en het bronpostvak Herstelbare items groter is dan de standaarddatabase (30 GB), worden de items niet verplaatst omdat het doelquotum kleiner is dan de grootte van het bronpostvak. U kunt het doelobject MailUser bijwerken om de ELC-postvakvlaggen van de bronomgeving over te brengen naar de doelomgeving, waardoor het doelsysteem het quotum voor MailUser uitbreidt naar 100 GB, zodat de gebruiker naar de doelomgeving kan worden verplaatst. Deze instructies werken alleen voor hybride identiteiten met Azure AD Connect, omdat de opdrachten om de ELC-vlaggen te stempelen niet worden getoond aan tenantbeheerders.
 
@@ -367,7 +367,7 @@ U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de 
     > [!Note]
     > Wanneer u een licentie op een Postvak- of MailUser-object aanvraagt, worden alle SMTP-proxyAddresses van het SMTP-type geconvergeerd, zodat alleen geverifieerde domeinen worden opgenomen in de matrix Exchange EmailAddresses. 
 
-5. U moet ervoor zorgen dat de doel-MailUser geen exchangeguid heeft die niet overeen komt met bron-ExchangeGuid. Dit kan gebeuren als de doel-mail-mail-gebruiker eerder een licentie voor Exchange Online had en een postvak heeft ingericht. Als de doel-MailUser eerder een licentie had voor of een ExchangeGuid had die niet overeen komt met de Source ExchangeGuid, moet u de cloud-e-mail opschonen. Voor deze cloud-me-meus kunt u `Set-User <identity> -PermanentlyClearPreviousMailboxInfo` .  
+5. U moet ervoor zorgen dat de doel-MailUser geen exchangeguid heeft die niet overeen komt met bron-ExchangeGuid. Dit kan gebeuren als de doel-mail-mail-gebruiker eerder een licentie voor Exchange Online had en een postvak heeft ingericht. Als de doel-MailUser eerder een licentie had voor of een ExchangeGuid had die niet overeen komt met bron-ExchangeGuid, moet u de cloud-e-mail opschonen. Voor deze cloud-me-meus kunt u `Set-User <identity> -PermanentlyClearPreviousMailboxInfo` .  
 
     > [!Caution]
     > Dit proces is onomkeerbaar. Als het object een softDeleted-postvak heeft, kan het na dit punt niet meer worden hersteld. Als ze zijn gewuit, kunt u de juiste ExchangeGuid echter synchroniseren met het doelobject, zodat MRS het bronpostvak verbindt met het nieuwe doelpostvak. (Reference EHLO blog on the new parameter.)  
@@ -422,17 +422,17 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 ```
 
 > [!Note]
-> Het e-mailadres in het CSV-bestand moet het e-mailadres zijn dat is opgegeven in de doel tenant, niet de bron-tenant.
+> Het e-mailadres in het CSV-bestand moet het adres zijn dat is opgegeven in de doel tenant, niet de bron-tenant.
 
 Het indienen van migratiebatch wordt ook ondersteund vanuit het nieuwe Exchange-beheercentrum bij het selecteren van de optie voor meerdere tenants.
 
 #### <a name="update-on-premises-mailusers"></a>On-premises MailUsers bijwerken
 
-Nadat het postvak is verplaatst van bron naar doel, moet u ervoor zorgen dat de on-premises e-mailgebruikers, zowel Bron als doel, worden bijgewerkt met het nieuwe targetAddress. In de voorbeelden wordt het targetDeliveryDomain dat in de move wordt **gebruikt, contoso.onmicrosoft.com.** Werk de e-mailgebruikers bij met dit targetAddress.
+Nadat het postvak is verplaatst van bron naar doel, moet u ervoor zorgen dat de on-premises e-mailgebruikers, zowel Bron als doel, worden bijgewerkt met het nieuwe targetAddress. In de voorbeelden wordt targetDeliveryDomain gebruikt in de move **contoso.onmicrosoft.com.** Werk de e-mailgebruikers bij met dit targetAddress.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
-**Moeten RemoteMailboxes in bron on-premises na de overstap worden bijgewerkt?**
+**Moeten RemoteMailboxes in de bron on-premises na de overstap worden bijgewerkt?**
 
 Ja, u moet het targetAddress (RemoteRoutingAddress/ExternalEmailAddress) van de on-premises brongebruikers bijwerken wanneer het brontenderpostvak wordt verplaatst naar de doelten tenant.  Hoewel e-mailroutering de verwijzingen kan volgen tussen meerdere e-mailgebruikers met verschillende targetAddresses, moeten de zoekactie voor vrij/bezet voor e-mailgebruikers zijn gericht op de locatie van de postvakgebruiker. Zoekactie voor vrij/bezet zit niet achter meerdere omleidingen. 
 
@@ -440,7 +440,7 @@ Ja, u moet het targetAddress (RemoteRoutingAddress/ExternalEmailAddress) van de 
 
 Nee, de inhoud van de Teams-chatmap migreert niet tussen tenants.  
 
-**Hoe kan ik alleen moves zien die zich tussen tenants bewegen, niet mijn onboarding- en overzetbewegingen?**
+**Hoe kan ik alleen moves zien die zich tussen tenants bewegen, niet mijn onboarding- en off-boarding moves?**
 
 Gebruik de `-flags` parameter. Hier volgt een voorbeeld.
 
@@ -513,11 +513,11 @@ Voor deze eerste implementatie moeten gebruikers hun profiel opnieuw opbouwen me
  
 Er is een matrix van rollen die zijn gebaseerd op aanname van gedelegeerde taken bij het uitvoeren van de overstap van een postvak. Op dit moment zijn twee rollen vereist:  
 
-- De eerste rol is voor een een tijdsinstellingstaak die de autorisatie voor het verplaatsen van inhoud in of uit de organisatiegrens van de tenant of organisatie tot leven brengt. Omdat het uit de organisatie halen van gegevens een zeer belangrijke taak is voor alle bedrijven, hebben we gekozen voor de meest toegewezen rol van Organisatiebeheerder (OrgAdmin). Deze rol moet een nieuwe OrganizationRelationship wijzigen of instellen die definieert -MailboxMoveCapability met de externe organisatie. Alleen OrgAdmin kan de instelling MailboxMoveCapability wijzigen, terwijl andere kenmerken van OrganizationRelationhip kunnen worden beheerd door de beheerder van Federatief delen. 
+- De eerste rol is voor een een tijdsinstellingstaak die de autorisatie bepaalt voor het verplaatsen van inhoud naar of buiten de organisatiegrens van de tenant of organisatie. Omdat het uit de organisatie halen van gegevens een zeer belangrijke taak is voor alle bedrijven, hebben we gekozen voor de meest toegewezen rol van Organisatiebeheerder (OrgAdmin). Deze rol moet een nieuwe OrganizationRelationship wijzigen of instellen die definieert -MailboxMoveCapability met de externe organisatie. Alleen OrgAdmin kan de instelling MailboxMoveCapability wijzigen, terwijl andere kenmerken van OrganizationRelationhip kunnen worden beheerd door de beheerder van Federatief delen. 
  
-- De rol van het uitvoeren van de werkelijke verplaatsopdrachten kan worden gedelegeerd aan een functie op lager niveau. De rol van Postvakken verplaatsen wordt toegewezen aan de mogelijkheid postvakken in of uit de organisatie te verplaatsen met behulp van de `-RemoteTenant` parameter.  
+- De rol van het uitvoeren van de feitelijke opdrachten voor verplaatsen kan worden gedelegeerd aan een functie op lager niveau. De rol van Postvakken verplaatsen wordt toegewezen aan de mogelijkheid postvakken in of uit de organisatie te verplaatsen met behulp van de `-RemoteTenant` parameter.  
 
-**Hoe richten we ons op het SMTP-adres dat is geselecteerd voor targetAddress (TargetDeliveryDomain) voor het geconverteerde postvak (naar mailuser-conversie)?**
+**Hoe richten we ons op het GESELECTEERDE SMTP-adres voor targetAddress (TargetDeliveryDomain) voor het geconverteerde postvak (naar mailuser-conversie)?**
  
 Exchange-postvak wordt verplaatst door gebruik te maken van MRS- het targetAddress voor het oorspronkelijke bronpostvak wanneer het wordt ge converteerd naar een MailUser door een e-mailadres (proxyAddress) op het doelobject te koppelen. Tijdens het proces wordt de waarde -TargetDeliveryDomain doorgegeven in de opdracht Verplaatsen en wordt vervolgens gecontroleerd op een overeenkomende proxy voor dat domein aan de doelzijde. Wanneer we een overeenkomst vinden, wordt het overeenkomende proxyAddress gebruikt om het object ExternalEmailAddress (targetAddress) in te stellen voor het geconverteerde postvak (nu MailUser).
  
@@ -525,9 +525,9 @@ Exchange-postvak wordt verplaatst door gebruik te maken van MRS- het targetAddre
 
 Postvakmachtigingen zijn Verzenden namens en Postvaktoegang: 
 
-- Met Verzenden namens (AD:publicDelegates) wordt de DN opgeslagen van geadresseerden die als gemachtigde toegang hebben tot het postvak van een gebruiker. Deze waarde wordt opgeslagen in Active Directory en wordt momenteel niet verplaatst als onderdeel van de postvakovergang. Als publicDelegates is ingesteld voor het bronpostvak, moet u de publicDelegates opnieuw over het doelpostvak nemen nadat de conversie van de gebruiker met gebruikers met een postvak in de doelomgeving is voltooid. `Set-Mailbox <principle> -GrantSendOnBehalfTo <delegate>` 
+- Met Verzenden namens (AD:publicDelegates) wordt de DN opgeslagen van geadresseerden die als gemachtigde toegang hebben tot het postvak van een gebruiker. Deze waarde wordt opgeslagen in Active Directory en wordt momenteel niet verplaatst als onderdeel van de postvakovergang. Als publicDelegates is ingesteld voor het bronpostvak, moet u de restamp van de publicDelegates op het doelpostvak opnieuw instellen nadat de conversie van de gebruiker met gebruikers met gebruikers met postvak is voltooid in de doelomgeving door de ingebouwde postvakconversie uit te `Set-Mailbox <principle> -GrantSendOnBehalfTo <delegate>` zetten. 
  
-- Postvakmachtigingen die zijn opgeslagen in het postvak worden samen met het postvak verplaatst wanneer zowel de principal als de gedelegeerde naar het doelsysteem worden verplaatst. Zo krijgt de gebruiker TestUser_7 FullAccess aan het postvak TestUser_8 in de tenant SourceCompany.onmicrosoft.com. Nadat het postvak is verplaatst naar TargetCompany.onmicrosoft.com, worden dezelfde machtigingen ingesteld in de doelmap. Voorbeelden waarin *Get-MailboxPermission wordt* gebruikt TestUser_7 in zowel de bron- als doelten tenants worden hieronder weergegeven. Exchange-cmdlets worden vooraf vooraf laten gaan door bron en doel. 
+- Postvakmachtigingen die zijn opgeslagen in het postvak worden samen met het postvak verplaatst wanneer zowel de principal als de gedelegeerde naar het doelsysteem worden verplaatst. Zo krijgt de gebruiker TestUser_7 FullAccess aan de postvakgegevens TestUser_8 in de tenant SourceCompany.onmicrosoft.com. Nadat het postvak is verplaatst naar TargetCompany.onmicrosoft.com, worden dezelfde machtigingen ingesteld in de doelmap. Voorbeelden waarin *Gebruik wordt gemaakt van Get-MailboxPermission* TestUser_7 in zowel de bron- als doelten tenants worden hieronder weergegeven. Exchange-cmdlets worden vooraf vooraf laten gaan door bron en doel. 
  
 Hier is een voorbeeld van de uitvoer van de postvakmachtiging voor een overstap. 
 
@@ -564,7 +564,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
 ```
 
 > [!Note]  
-> Naast deze X500-proxy moet u alle X500-proxy's uit het postvak in de bron kopiëren naar het postvak in het doel.  
+> Naast deze X500-proxy moet u alle X500-proxy's uit het postvak in de bron kopiëren naar het postvak in de doelserver.  
 
 **Waar kan ik problemen oplossen als het niet werkt?**  
 
@@ -586,7 +586,7 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
 
 Nee. De domeinnamen van de bron- en doel tenant moeten uniek zijn. Bijvoorbeeld een brondomein van contoso.com en het doeldomein van fourthcoffee.com.
 
-**Worden gedeelde postvakken verplaatst en werken ze nog?**
+**Worden gedeelde postvakken verplaatst en werken ze nog steeds?**
 
 Ja, maar we behouden alleen de store-machtigingen zoals beschreven in deze artikelen:
 
@@ -596,11 +596,11 @@ Ja, maar we behouden alleen de store-machtigingen zoals beschreven in deze artik
 
 **Is Azure Key Vault vereist en wanneer worden transacties uitgevoerd?**  
 
-Ja, een Azure-abonnement is vereist om Key Vault te gebruiken voor het opslaan van het certificaat om migratie te autor toestemming te geven. In tegenstelling tot onboarding-migraties, waarbij gebruikersnaam & voor verificatie bij de bron wordt gebruikt, maken migraties van postvakken tussen tenants gebruik van OAuth en dit certificaat als het geheim of de referenties. Toegang tot de Key Vault moet worden behouden in alle postvakmigraties, aangezien deze eenmaal aan het begin en het einde van de migratie wordt gebruikt, en ook eens in de 24 uur tijdens incrementele synchronisatietijden. U kunt de kostendetails van AKV hier [bekijken.]( https://azure.microsoft.com/en-us/pricing/details/key-vault/)  
+Ja, een Azure-abonnement is vereist om Key Vault te gebruiken voor het opslaan van het certificaat om migratie te autor toen dit werd geautoriseerd. In tegenstelling tot onboarding-migraties, waarbij gebruikersnaam & wachtwoord wordt gebruikt voor verificatie bij de bron, maken migraties van postvakken tussen tenants gebruik van OAuth en dit certificaat als het geheim of de referenties. Toegang tot de Key Vault moet worden behouden in alle postvakmigraties, aangezien deze eenmaal aan het begin en het einde van de migratie wordt gebruikt, en ook eenmaal per 24 uur tijdens incrementele synchronisatietijden. U kunt de kostendetails van AKV hier [bekijken.]( https://azure.microsoft.com/en-us/pricing/details/key-vault/)  
 
 **Hebt u aanbevelingen voor batches?**  
 
-Niet meer dan 2000 postvakken per batch. We raden u ten zeerste aan batches twee weken vóór de datum van de cut-over in te dienen, aangezien dit geen gevolgen heeft voor de eindgebruikers tijdens de synchronisatie. Als u richtlijnen nodig hebt voor postvakken met een hoeveelheid van meer dan 50.000, kunt u contact op met de distributielijst voor technische feedback op crosstenantmigrationpreview@service.microsoft.com.
+Niet meer dan 2000 postvakken per batch. We raden u ten zeerste aan batches twee weken vóór de cut-over datum in te dienen, aangezien dit geen gevolgen heeft voor de eindgebruikers tijdens de synchronisatie. Als u richtlijnen nodig hebt voor postvakken met een hoeveelheid van meer dan 50.000, kunt u contact op met de distributielijst voor technische feedback op crosstenantmigrationpreview@service.microsoft.com.
 
 **Wat moet ik doen als ik Serviceversleuteling gebruik met de klantsleutel?**
 
@@ -616,9 +616,9 @@ Houd er wel aan dat deze functie momenteel wordt weergegeven als preview en in d
 
 -  **Probleem: Automatisch uitvbreed archieven kunnen niet worden gemigreerd.** De migratiefunctie voor verschillende tenants ondersteunt migraties van het primaire postvak en archiefpostvak voor een specifieke gebruiker. Als de gebruiker in de bron echter een automatisch uit breiden archief heeft, dat wil zeggen meer dan één archiefpostvak, kan de functie de extra archieven niet migreren en mislukt deze.
 
-- **Probleem: Cloud MailUsers met smtp-proxyAddress zonder eigendom verplaatst de achtergrond van MRS.** Bij het maken van mailUser-objecten voor de doelten tenant moet u ervoor zorgen dat alle SMTP-proxyadressen deel uitmaken van de doelten tenantorganisatie. Als er een SMTP-proxyAddress bestaat voor de doel-e-mailgebruiker die geen deel uitmaken van de lokale tenant, is de conversie van MailUser naar Mailbox niet mogelijk. Dit komt doordat we er zeker van zijn dat postvakobjecten alleen e-mail kunnen verzenden van domeinen waarvoor de tenant gezaghebbend is (domeinen die door de tenant worden geclaimd): 
+- **Probleem: Cloud MailUsers met smtp-proxyAddress van niet-eigendom, blokkeren MRS verplaatst de achtergrond.** Bij het maken van mailUser-objecten voor de doelten tenant moet u ervoor zorgen dat alle SMTP-proxyadressen deel uitmaken van de doelten tenantorganisatie. Als er een SMTP-proxyAddress bestaat voor de doel-e-mailgebruiker die geen deel uitmaken van de lokale tenant, wordt de conversie van MailUser naar Mailbox voorkomen. Dit komt doordat we er zeker van zijn dat postvakobjecten alleen e-mail kunnen verzenden van domeinen waarvoor de tenant gezaghebbend is (domeinen die door de tenant worden geclaimd): 
 
-   - Wanneer u gebruikers synchroniseert on-premises met behulp van Azure AD Connect, inrichting van on-premises MailUser-objecten waarbij ExternalEmailAddress verwijst naar de bronten tenant waar het postvak bestaat (laran@contoso.onmicrosoft.com) en stempelt u het PrimarySMTPAddress als een domein dat zich in de doelten tenant bevindt (Lara.Newton@northwind.com). Deze waarden worden gesynchroniseerd naar de tenant en een geschikte e-mailgebruiker wordt ingericht en klaar voor migratie. Hier wordt een voorbeeldobject weergegeven.
+   - Wanneer u gebruikers synchroniseert vanuit een on-premises omgeving met behulp van Azure AD Connect, inrichting van on-premises MailUser-objecten waarbij ExternalEmailAddress verwijst naar de bronten tenant waarin het postvak bestaat (laran@contoso.onmicrosoft.com) en u het PrimarySMTPAddress stempelt als een domein dat zich in de doelten tenant (Lara.Newton@northwind.com) bevindt. Deze waarden worden gesynchroniseerd naar de tenant en een geschikte e-mailgebruiker wordt ingericht en klaar voor migratie. Hier wordt een voorbeeldobject weergegeven.
      ```powershell
      target/AADSynced user] PS C> Get-MailUser laran | select ExternalEmailAddress, EmailAddresses   
      ExternalEmailAddress               EmailAddresses 
@@ -631,9 +631,9 @@ Houd er wel aan dat deze functie momenteel wordt weergegeven als preview en in d
 
 - **Probleem: MailUser-objecten met 'externe' primaire SMTP-adressen worden gewijzigd/ opnieuw ingesteld op 'interne' geclaimde domeinen van het bedrijf**
 
-   MailUser-objecten zijn pointers naar niet-lokale postvakken. In het geval van migraties van postvakken tussen tenants gebruiken we MailUser-objecten om het bronpostvak (vanuit het perspectief van de doelorganisatie) of het doelpostvak (vanuit het perspectief van de bronorganisatie) voor te stellen. De MailUsers hebben een ExternalEmailAddress (targetAddress) die wijst naar het SMTP-adres van het werkelijke postvak (ProxyTest@fabrikam.onmicrosoft.com) en primarySMTP-adres dat het weergegeven SMTP-adres van de postvakgebruiker in de adreslijst vertegenwoordigt. Sommige organisaties kiezen ervoor om het primaire SMTP-adres weer te geven als een extern SMTP-adres, niet als een adres dat eigendom is van of is geverifieerd door de lokale tenant (zoals fabrikam.com in plaats van als contoso.com).  Wanneer een Exchange-serviceplanobject echter via licentiebewerkingen op MailUser wordt toegepast, wordt het primaire SMTP-adres gewijzigd en wordt dit als een domein dat is geverifieerd door de lokale organisatie (contoso.com). Er zijn twee mogelijke redenen:
+   MailUser-objecten zijn pointers naar niet-lokale postvakken. In het geval van migraties van postvakken tussen tenants gebruiken we MailUser-objecten om het bronpostvak (vanuit het perspectief van de doelorganisatie) of het doelpostvak (vanuit het perspectief van de bronorganisatie) voor te stellen. De MailUsers hebben een ExternalEmailAddress (targetAddress) die wijst naar het SMTP-adres van het werkelijke postvak (ProxyTest@fabrikam.onmicrosoft.com) en primarySMTP-adres dat het weergegeven SMTP-adres van de postvakgebruiker in de adreslijst vertegenwoordigt. Sommige organisaties kiezen ervoor om het primaire SMTP-adres weer te geven als een extern SMTP-adres, niet als een adres dat eigendom is van of is geverifieerd door de lokale tenant (zoals fabrikam.com in plaats van als contoso.com).  Wanneer echter een object van een Exchange-serviceplan is toegepast op MailUser via licentiebewerkingen, wordt het primaire SMTP-adres gewijzigd, zodat het wordt gebruikt als een domein dat is geverifieerd door de lokale organisatie (contoso.com). Er zijn twee mogelijke redenen:
    
-   - Wanneer een Exchange-serviceplan wordt toegepast op een MailUser, wordt tijdens het Azure AD-proces proxyvernieuwing gestart om ervoor te zorgen dat de lokale organisatie geen e-mail kan verzenden, spoofing of e-mail vanuit een andere tenant kan verzenden. SMTP-adressen op een object van een ontvanger met deze serviceplannen worden verwijderd als het adres niet wordt geverifieerd door de lokale organisatie. Zoals in het voorbeeld het geval is, wordt het Fabikam.com NIET geverifieerd door de contoso.onmicrosoft.com-tenant, dus wordt dat domein tijdens het beheren fabrikam.com verwijderd. Als u dit externe domein wilt blijven gebruiken in MailUser, vóór de migratie of na de migratie, moet u uw migratieprocessen wijzigen in het gebruik van licenties nadat de overstap is voltooid of vóór de overstap om ervoor te zorgen dat voor de gebruikers de verwachte externe huisstijl is toegepast. U moet ervoor zorgen dat het postvakobject juist is gelicentieerd, zodat dit geen gevolgen heeft voor de e-mailservice.<br/><br/>Hier wordt een voorbeeldscript weergegeven voor het verwijderen van de serviceplannen voor een MailUser in Contoso.onmicrosoft.com tenant.
+   - Wanneer een Exchange-serviceplan wordt toegepast op een MailUser, wordt tijdens het Azure AD-proces proxyvernieuwing gestart om ervoor te zorgen dat de lokale organisatie geen e-mail kan verzenden, spoofing of e-mail vanuit een andere tenant kan verzenden. SMTP-adressen op een object van een ontvanger met deze serviceplannen worden verwijderd als het adres niet wordt geverifieerd door de lokale organisatie. Zoals in het voorbeeld het geval is, wordt het Fabikam.com NIET geverifieerd door de contoso.onmicrosoft.com-tenant, dus wordt dat domein door de fabrikam.com verwijderd. Als u dit externe domein wilt blijven gebruiken in MailUser, vóór de migratie of na de migratie, moet u uw migratieprocessen wijzigen in het gebruik van licenties nadat de overstap is voltooid of vóór de overstap om ervoor te zorgen dat de verwachte externe huisstijl is toegepast op de gebruikers. U moet ervoor zorgen dat het postvakobject een juiste licentie heeft, zodat dit geen gevolgen heeft voor de e-mailservice.<br/><br/>Hier wordt een voorbeeldscript weergegeven voor het verwijderen van de serviceplannen voor een MailUser in Contoso.onmicrosoft.com tenant.
 
     ```powershell
     $LO = New-MsolLicenseOptions -AccountSkuId "contoso:ENTERPRISEPREMIUM" DisabledPlans 
@@ -699,7 +699,7 @@ Houd er wel aan dat deze functie momenteel wordt weergegeven als preview en in d
     proxytest@fabrikam.com    e2513482-1d5b-4066-936a-cbc7f8f6f817    SMTP:proxytest@fabrikam.com 
     ```
 
-   - Wanneer msExchRemoteRecipientType is ingesteld op 8 (DeprovisionMailbox), worden voor on-premises MailUsers die naar de doeltenant worden gemigreerd, door proxyverzendenlogica in Azure niet-eigen domeinen verwijderd en wordt het primarySMTP teruggezet naar een domein dat eigendom is. Door het wissen van msExchRemoteRecipientType in de on-premises MailUser, is de proxy scrub-logica niet meer van toepassing. <br/><br>Hieronder vindt u de volledige set mogelijke serviceplannen met Exchange Online.
+   - Als msExchRemoteRecipientType is ingesteld op 8 (DeprovisionMailbox), worden voor on-premises MailUsers die naar de doeltenant worden gemigreerd, door proxyverzendenlogica in Azure niet-eigen domeinen verwijderd en wordt het primarySMTP opnieuw ingesteld op een domein dat eigendom is. Door het wissen van msExchRemoteRecipientType in de on-premises MailUser, is de proxy scrub-logica niet meer van toepassing. <br/><br>Hieronder vindt u de volledige set mogelijke serviceplannen met Exchange Online.
 
    | Naam                                              |
    |---------------------------------------------------|

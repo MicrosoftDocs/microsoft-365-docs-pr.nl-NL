@@ -11,15 +11,15 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection:
 - enabler-strategic
-- m365initiative-topics
+- m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 9dfad7e179699c599d9320390aaefd2dac176fbb
-ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
+ms.openlocfilehash: ac8e4b8cdcdfd4d2de0c48a22500338c7a8480a8
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50279408"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454169"
 ---
 # <a name="edit-an-existing-topic"></a>Een bestaand onderwerp bewerken 
 
@@ -32,12 +32,12 @@ ms.locfileid: "50279408"
 In Viva-onderwerpen kunt u een bestaand onderwerp bewerken. Mogelijk moet u dit doen als u een bestaande onderwerppagina wilt corrigeren of er extra informatie aan wilt toevoegen. 
 
 > [!Note] 
-> Hoewel de informatie in een onderwerp dat door AI wordt verzameld, [is](topic-experiences-security-trimming.md)afgesleten, is de informatie over onderwerpbeschrijvingen en personen die u handmatig toevoegt bij het bewerken van een bestaand onderwerp zichtbaar voor alle gebruikers die machtigingen hebben om onderwerpen te bekijken. 
+> Hoewel de informatie in een onderwerp dat door AI wordt verzameld, [is](topic-experiences-security-trimming.md)ingekort tot beveiliging, is de informatie over onderwerpbeschrijvingen en personen die u handmatig toevoegt bij het bewerken van een bestaand onderwerp zichtbaar voor alle gebruikers die machtigingen hebben om onderwerpen te bekijken. 
 
 ## <a name="requirements"></a>Vereisten
 
 Als u een bestaand onderwerp wilt bewerken, moet u:
-- U hebt een licentie voor Viva-onderwerpen.
+- U hebt een licentie voor Viva Topics.
 - Machtigingen hebben voor [**Wie kan onderwerpen maken of bewerken.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
 
 > [!Note] 
@@ -55,7 +55,7 @@ Knowledge managers kunnen ook onderwerpen rechtstreeks bewerken vanaf de pagina 
 
 ### <a name="to-edit-a-topic-page"></a>Een onderwerppagina bewerken
 
-1. Selecteer Bewerken op de **onderwerppagina.** Op deze manier kunt u wijzigingen aanbrengen op de onderwerppagina.
+1. Selecteer Bewerken op de **onderwerppagina.** Hiermee kunt u naar behoefte wijzigingen aanbrengen op de onderwerppagina.
 
    ![Besturingselement bewerken](../media/knowledge-management/topic-page-edit.png) </br>  
 
@@ -67,11 +67,11 @@ Knowledge managers kunnen ook onderwerpen rechtstreeks bewerken vanaf de pagina 
 
     ![Beschrijvingssectie](../media/knowledge-management/description.png)</br>
 
-4. In de <b>sectie Vastgemaakte</b> personen kunt u een persoon vastmaken om deze weer te geven als een expert op het gebied van het onderwerp. Typ eerst de naam of <b></b> het e-mailadres in het vak Een nieuwe gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen uit <b>lijst</b> op de gebruikerskaart te selecteren.
+4. In de <b>sectie Vastgemaakte</b> personen kunt u een persoon vastmaken om deze weer te geven als een expert op het gebied van het onderwerp. Typ eerst een naam of <b></b> e-mailadres in het vak Een nieuwe gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen uit <b>lijst</b> op de gebruikerskaart te selecteren.
  
     ![Vastgemaakte personen toevoegen](../media/knowledge-management/pinned-people.png)</br>
 
-    De <b>sectie Voorgestelde</b> personen laat gebruikers zien dat AI denkt dat het onderwerp deskundigen over het onderwerp kunnen zijn, uit hun verband met bronnen over het onderwerp. U kunt de status wijzigen van Voorgesteld in Vastgemaakt door het speldpictogram op de gebruikerskaart te selecteren.
+    De <b>sectie Voorgestelde</b> personen laat gebruikers zien dat AI denkt dat het onderwerp deskundigen over het onderwerp kunnen zijn, uit hun verband met informatiebronnen over het onderwerp. U kunt de status wijzigen van Voorgesteld in Vastgemaakt door het speldpictogram op de gebruikerskaart te selecteren.
 
    ![Voorgestelde personen vastmaken](../media/knowledge-management/suggested-people.png)</br>
 
@@ -86,7 +86,7 @@ Knowledge managers kunnen ook onderwerpen rechtstreeks bewerken vanaf de pagina 
    > [!Note] 
    > Bestanden en pagina's die u toevoegt, moeten zich bevinden in dezelfde Microsoft 365-tenant. Als u een koppeling naar een externe resource in het onderwerp wilt toevoegen, kunt u deze toevoegen via het canvaspictogram in stap 9.
 
-6. De <b>sectie Voorgestelde bestanden en pagina's</b> bevat bestanden en pagina's die AI suggereert om aan het onderwerp te worden gekoppeld.
+6. De <b>sectie Voorgestelde bestanden en pagina's</b> bevat bestanden en pagina's die AI suggereert om te worden gekoppeld aan het onderwerp.
 
    ![Sectie Voorgestelde bestanden en pagina's](../media/knowledge-management/suggested-files-and-pages.png)</br>
 
@@ -96,7 +96,7 @@ Knowledge managers kunnen ook onderwerpen rechtstreeks bewerken vanaf de pagina 
 
     ![Sectie Gerelateerde sites](../media/knowledge-management/related-sites.png)</br>
 
-    U kunt een gerelateerde <b></b> site toevoegen door Toevoegen te selecteren en vervolgens naar de site te zoeken of door de site te selecteren in uw lijst met veelgebruikte of recente sites.</br>
+    U kunt een gerelateerde <b></b> site toevoegen door Toevoegen te selecteren en vervolgens de site te zoeken of door deze te selecteren in uw lijst met veelgebruikte of recente sites.</br>
     
     ![Een site selecteren](../media/knowledge-management/sites.png)</br>
 
@@ -104,7 +104,7 @@ Knowledge managers kunnen ook onderwerpen rechtstreeks bewerken vanaf de pagina 
 
    ![Sectie Verwante onderwerpen](../media/knowledge-management/related-topic.png)</br>  
 
-    Vervolgens kunt u een beschrijving geven van de verwante onderwerpen en <b>Bijwerken selecteren.</b></br>
+    Vervolgens kunt u een beschrijving geven van de onderwerpen en Bijwerken <b>selecteren.</b></br>
 
    ![Beschrijving van verwante onderwerpen](../media/knowledge-management/related-topics-update.png)</br> 
 

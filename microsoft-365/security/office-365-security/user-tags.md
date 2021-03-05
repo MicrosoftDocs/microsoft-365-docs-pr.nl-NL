@@ -13,15 +13,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen in Microsoft Defender voor Office 365 Abonnement 2 specifieke groepen gebruikers identificeren met gebruikerstags. Filteren van tags is beschikbaar voor waarschuwingen, rapporten en onderzoeken in Microsoft Defender voor Office 365 om snel de gelabelde gebruikers te identificeren.
+description: Beheerders kunnen in Microsoft Defender voor Office 365 Abonnement 2 specifieke groepen gebruikers identificeren met gebruikerslabels. Filteren van tags is beschikbaar voor waarschuwingen, rapporten en onderzoeken in Microsoft Defender voor Office 365 om snel de gelabelde gebruikers te identificeren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 62d858fe5962b94f536d4ccbd712e21bdd5caa57
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 6e5ddffad6405f48a9af55b5123729eb256064a7
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290127"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453643"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Gebruikerslabels in Microsoft Defender voor Office 365
 
@@ -47,7 +47,7 @@ In dit artikel wordt uitgelegd hoe u gebruikerstags configureert in het & compli
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Gebruikerstags wilt** gaan, opent u <https://protection.office.com/userTags> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Gebruikerstags wilt** gaan, opent u <https://protection.office.com/userTags> .
 
 - Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
   - Als u gebruikerstags wilt maken, wijzigen en verwijderen, moet  u lid zijn van de rollengroepen **Organisatiebeheer** of Beveiligingsbeheerder.
@@ -59,7 +59,7 @@ In dit artikel wordt uitgelegd hoe u gebruikerstags configureert in het & compli
   **Opmerkingen**:
 
   - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  - Het beheer van gebruikerstags wordt beheerd door de rollen **Taglezer,** **Tag-medewerker** en **Tagbeheer.**
+  - Het beheer van gebruikerstags wordt beheerd door de rollen **Labellezer** en **Tagbeheer.**
 
 - U kunt ook prioriteitsaccounts beheren en controleren in het Microsoft 365-beheercentrum. Zie Accounts met prioriteit [beheren en controleren voor instructies.](../../admin/setup/priority-accounts.md)
 
@@ -77,11 +77,11 @@ In dit artikel wordt uitgelegd hoe u gebruikerstags configureert in het & compli
 
 4. Ga op **de pagina Gebruikers** toewijzen op een van de volgende stappen te werk:
 
-   - Klik **op Gebruikers toevoegen.** In het fly-out dat verschijnt, gaat u op een van de volgende stappen te werk om afzonderlijke gebruikers of groepen toe te voegen:
+   - Klik **op Gebruikers toevoegen.** In de fly-out die verschijnt, gaat u op een van de volgende stappen te werk om afzonderlijke gebruikers of groepen toe te voegen:
      - Klik in het vak en blader door de lijst om een gebruiker of groep te selecteren.
      - Klik in het vak en begin te typen om de lijst te filteren en selecteer een gebruiker of groep.
      - Als u extra waarden wilt toevoegen, klikt u in een leeg gebied in het vak.
-     - Als u afzonderlijke items uit het vak wilt verwijderen, klikt u op **het** pictogram Verwijderen voor ![ de gebruiker of groep in het ](../../media/scc-remove-icon.png) vak.
+     - Als u afzonderlijke items uit het vak wilt verwijderen, klikt u op **het** pictogram Verwijderen voor de gebruiker of ![ groep in het ](../../media/scc-remove-icon.png) vak.
      - Als u bestaande items wilt verwijderen uit de lijst onder het vak, klikt u op **het** pictogram ![ Verwijderen van de ](../../media/scc-remove-icon.png) vermelding.
 
      Klik op Toevoegen wanneer u **klaar bent.**
@@ -98,7 +98,7 @@ In dit artikel wordt uitgelegd hoe u gebruikerstags configureert in het & compli
 
 1. Ga in het beveiligingscentrum naar **Gebruikerstags voor** \> **bedreigingsbeheer.**
 
-2. Selecteer op **de pagina Gebruikerstags** die wordt geopend, de gebruikerstag die u wilt bekijken (klik niet op het selectievakje).
+2. Selecteer op **de pagina Gebruikerstags** die wordt geopend, de gebruikerstag die u wilt weergeven (klik niet op het selectievakje).
 
 3. Bekijk de instellingen in de alleen-lezen details die worden weergegeven.
 
@@ -108,7 +108,7 @@ In dit artikel wordt uitgelegd hoe u gebruikerstags configureert in het & compli
 
 1. Ga in het beveiligingscentrum naar **Gebruikerstags voor** \> **bedreigingsbeheer.**
 
-2. Selecteer op **de pagina Gebruikerstags** die wordt geopend, de gebruikerstag die u wilt bekijken en klik op **Tag bewerken.**
+2. Selecteer op **de pagina Gebruikerstags** die wordt geopend, de gebruikerstag die u wilt bekijken en klik vervolgens op **Tag bewerken.**
 
 3. De wizard Beleid wordt geopend in **een fly-out label** bewerken. Klik **op Volgende** om de instellingen te controleren en te wijzigen.
 

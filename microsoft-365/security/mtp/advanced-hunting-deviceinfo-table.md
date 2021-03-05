@@ -1,5 +1,5 @@
 ---
-title: De tabel DeviceInfo in het geavanceerde schema voor zoeken
+title: DeviceInfo-tabel in het geavanceerde schema voor zoeken
 description: Meer informatie over het besturingssysteem, de computernaam en andere computergegevens vindt u in de tabel DeviceInfo van het geavanceerde schema voor zoeken
 keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, machineinfo, DeviceInfo, device, machine, OS, platform, users
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 6462096a6c1b44ee11299f652a54f261d0355523
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 53948f3d470fb85ddfda8dbcf5b64024755ca50e
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145365"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461614"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -37,7 +37,7 @@ ms.locfileid: "50145365"
 
 
 
-De `DeviceInfo` tabel in het geavanceerde [zoekschema](advanced-hunting-overview.md) bevat informatie over machines in de organisatie, zoals de versie van het besturingssysteem, actieve gebruikers en de naam van de computer. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De tabel in het geavanceerde zoekschema bevat informatie over apparaten in de organisatie, zoals de `DeviceInfo` besturingssysteemversie, actieve gebruikers en de naam van de computer. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
@@ -52,13 +52,24 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, inclusief variaties binnen dezelfde familie, zoals Windows 10 en Windows 7 |
 | `OSBuild` | tekenreeks | Buildversie van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `IsAzureADJoined` | boolean | Booleaanse indicator of de computer is verbonden met Azure Active Directory |
-| `DeviceObjectId` | tekenreeks | Unieke id voor het apparaat in Azure AD |
+| `AadObjectId` | tekenreeks | Unieke id voor het apparaat in Azure AD |
 | `LoggedOnUsers` | tekenreeks | Lijst met alle gebruikers die op de computer zijn aangemeld op het moment van de gebeurtenis in de JSON-matrixindeling |
 | `RegistryDeviceTag` | tekenreeks | Machinetag toegevoegd via het register |
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen Apparaatnaam en Tijdstempel |
 |`AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
 | `OSVersion` | tekenreeks | Versie van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `MachineGroup` | tekenreeks | De machinegroep van de computer. Deze groep wordt gebruikt door toegangsbeheer op basis van rollen om de toegang tot de computer te bepalen |
+
+De `DeviceInfo` tabel bevat apparaatinformatie op basis van heartbeats. Dit zijn periodieke rapporten of signalen van een apparaat. Elke vijftien minuten verzendt het apparaat een gedeeltelijke heartbeat die kenmerken bevat die vaak worden veranderd, zoals `LoggedOnUsers` . Eén keer per dag wordt een volledige heartbeat met de kenmerken van het apparaat verzonden.
+
+U kunt de volgende voorbeeldquery gebruiken om de meest recente status van een apparaat op te halen:
+
+```kusto
+// Get latest information on user/device
+DeviceInfo
+| where DeviceName == "example" and isnotempty(OSPlatform)
+| summarize arg_max(Timestamp, *) by DeviceId 
+```
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

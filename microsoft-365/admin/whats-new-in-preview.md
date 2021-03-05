@@ -1,10 +1,10 @@
 ---
-title: Nieuw in het Microsoft 365-Beheercentrum
+title: Wat is er nieuw in het Microsoft 365-beheercentrum?
 f1.keywords:
 - CSH
-ms.author: anfowler
-author: adefowler
-manager: shohara
+ms.author: kwekua
+author: kwekua
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -17,325 +17,339 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-description: 'Het Microsoft 365-Beheercentrum: Hier vindt u meer informatie over de functies die deze maand zijn toegevoegd.'
+description: 'Het Microsoft 365-beheercentrum : meer informatie over de functies die deze maand zijn toegevoegd.'
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 12b7dfd39a9cf8ac73e8f1c7f2297721c2d629bf
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.openlocfilehash: e8e743c0f3de0d7ac2eb8ebb9995596783d2d31a
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787877"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461828"
 ---
-# <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuw in het Microsoft 365-Beheercentrum
+# <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuw in het Microsoft 365-beheercentrum
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Sommige gegevens in dit artikel zijn mogelijk niet van toepassing op Office 365, dat wordt beheerd door 21Vianet.
+> Sommige informatie in dit artikel is mogelijk niet van toepassing op Office 365 beheerd door 21Vianet.
 
 ::: moniker-end
 
-We toevoegen voortdurend nieuwe functies aan [het Microsoft 365-Beheercentrum](microsoft-365-admin-center-preview.md), zorgen voor oplossing voor het oplossen van problemen en het aanbrengen van wijzigingen op basis van uw feedback. Bekijk hieronder wat voor u beschikbaar is. Sommige functies worden met een verschillend toerental uitgerold voor onze klanten. Als u nog geen functie ziet, [probeer dan uzelf toe te voegen aan de targeted release](manage/release-options-in-office-365.md).
+We zijn voortdurend bezig met het toevoegen van nieuwe functies aan het [Microsoft 365-beheercentrum,](microsoft-365-admin-center-preview.md)het oplossen van problemen die we leren en het aanbrengen van wijzigingen op basis van uw feedback. Kijk hieronder om te zien wat er op dit moment voor u beschikbaar is. Sommige functies worden op verschillende snelheden uitgerold voor onze klanten. Als u nog geen functie ziet, kunt u [uzelf toevoegen aan het Targeted Release-release-account.](manage/release-options-in-office-365.md)
 
-En als u meer wilt weten over de nieuwe functies in Microsoft-cloudservices, gaat u als volgt te werk:
+En als u wilt weten wat er nieuw is met andere Microsoft-cloudservices:
 
-- [Nieuw in azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/whats-new)
-- [Nieuwe functies in het Exchange-Beheercentrum](https://docs.microsoft.com/Exchange/whats-new)
-- [Nieuw in Microsoft intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
-- [Nieuw in het Microsoft 365 compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
+- [Nieuw in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/whats-new)
+- [Nieuw in het Exchange-beheercentrum](https://docs.microsoft.com/Exchange/whats-new)
+- [Nieuw in Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
+- [Nieuw in het Microsoft 365-compliancecentrum](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [Wat is er nieuw in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
-- [Nieuwe functies in het SharePoint-Beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+- [Nieuw in het SharePoint-beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office-updates](https://docs.microsoft.com/OfficeUpdates/)
+
+## <a name="ignite-2021-march"></a>Ignite 2021 (maart)
+
+Welkom bij Microsoft Ignite. We hopen dat u een aantal van onze sessies hebt kunnen bijwonen: [Microsoft Ignite 2021.](https://myignite.microsoft.com/sessions) Hier zijn een paar dingen waar we het over hebben gehad bij Ignite.
+> [!NOTE]
+> Niet alle functies zijn direct voor iedereen beschikbaar. Als u de nieuwe functies niet ziet, kunt u [deelnemen aan Targeted Release.](manage/release-options-in-office-365.md)
+
+### <a name="message-center"></a>Berichtencentrum
+
+We hebben het berichtencentrum vernieuwd om u te helpen relevante berichten te ontdekken en een flexibelere leeservaring toe te voegen. We hebben een nieuwe kolom **Service** toegevoegd om u te helpen scannen op welke Service een bericht van toepassing is en berichten te filteren op Service en andere metagegevens. U kunt een bericht als favoriet markeren voor opvolging, kiezen welke kolommen worden weergegeven in de berichtenlijst en tussen berichten navigeren met de knoppen Terug en Volgende. We hebben ook het proces verbeterd, om het gemakkelijker te maken feedback te geven over berichten in het berichtencentrum.
+
+:::image type="content" source="../media/message-center.png" alt-text="Schermafbeelding: Startpagina van berichtencentrum met Postvak IN en berichten":::
+
+Zie Berichten beheren in het [berichtencentrum](manage/manage-messages.md)voor meer informatie over de nieuwe functies.
 
 ## <a name="ignite-2020-august--september"></a>Ignite 2020 (augustus & september)
 
-Welkom bij Microsoft Ignite-onze eerste online-Ignite. We hopen dat we u kunnen zien in een van onze sessies: [Microsoft Ignite 2020 sessie catalogus](https://myignite.microsoft.com/sessions). Hier is slechts een paar van de dingen die we bespreken op Ignite. 
+Welkom bij Microsoft Ignite, onze eerste online-only Ignite. We hopen u te zien in een van onze sessies: [Microsoft Ignite 2020 Session Catalog.](https://myignite.microsoft.com/sessions) Hier zijn maar een paar dingen waar we het over hebben tijdens Ignite.
 > [!NOTE]
-> Niet alle functies zijn direct beschikbaar voor iedereen. Als u de nieuwe functies niet ziet, neemt u [deel aan de targeted release](manage/release-options-in-office-365.md).
+> Niet alle functies zijn direct voor iedereen beschikbaar. Als u de nieuwe functies niet ziet, kunt u [deelnemen aan Targeted Release.](manage/release-options-in-office-365.md)
 
 ### <a name="multi-tenant-management"></a>Beheer van meerdere tenants
 
-We hebben een reeks functies ontwikkeld voor beheerders van meerdere tenants, zoals u nodig hebt om uw werk sneller en efficiënter te doen. Zie [meerdere tenants beheren](multi-tenant/manage.md)voor meer informatie.
+We hebben een reeks functies ontwikkeld voor beheerders met meerdere tenants zoals u, om uw werk sneller en efficiënter uit te kunnen werken. Zie Meerdere [tenants beheren voor meer informatie.](multi-tenant/manage.md)
 
-- **Uw tenants**: snel schakelen tussen de tenants die u beheert.
-- **Alle tenants**: een nieuwe pagina waar u snel de status van de services van uw tenants, alle OpenService aanvragen, uw producten en facturering, aanbevolen configuratietaken en het aantal gebruikers in die Tenant kunt zien.
-- **Instelling**: de pagina voor het instellen van meerdere tenants biedt u een lijstweergave van de instellings pagina, maar u hebt veel tenants ingedeeld. U kunt zien welke functies niet zijn ingeschakeld, welke taken zijn voltooid voor alle tenants, welke taken moeten worden voltooid. In deze weergave kunt u de aanneming van functies bijhouden en ervoor zorgen dat de aanbevolen beveiligingstaken altijd worden uitgevoerd.
-- **Servicestatus**: in de weergave servicestatus ziet u of de tenants van invloed zijn op de tenants. U kunt zelfs aangeven hoeveel van uw beheerde tenants van invloed zijn. Selecteer een incident voor meer informatie op het tabblad Overzicht, ga naar het tabblad tenants waarmee wordt ingezoomd en de ondersteuning van de Tenant wordt weergegeven.
-- **Migraties van cross-tenants** zijn een nieuwe service, nu in de openbare preview-versie, waarmee u postvakken kunt verplaatsen tussen tenants, zonder dat u de verwijderen en vervolgens op een plaats hoeft te zetten. 
-- **Delen van domein voor domein**: binnenkort kunt u deelnemen aan een privé Preview voor de mogelijkheden die u kunt gebruiken om een domein te delen via meerdere tenants. Als contoso wervel wind Toys verwerft, kan contoso het domein delen met wervel wind Toys, zodat personen in beide tenants hun e-mailadressen kunnen ' contoso.com ' gebruiken.
+- **Uw tenants:** Snel schakelen tussen de tenants die u beheert.
+- **Alle tenants:** een nieuwe pagina waar u snel de status van de services van al uw tenants, open serviceaanvragen, uw producten en facturering, aanbevolen installatietaken en het aantal gebruikers in die tenant kunt zien.
+- **Setup:** de pagina voor het instellen van meerdere tenants bevat een lijstweergave van de pagina Setup, maar die is ingedeeld voor veel tenants. U kunt zien welke functies niet zijn ingeschakeld, welke taken voor alle tenants zijn voltooid en welke taken nog moeten worden uitgevoerd door tenants. Deze weergave helpt u de acceptatie van functies bij te houden en ervoor te zorgen dat de aanbevolen beveiligingsinstellingen altijd worden uitgevoerd.
+- **Service status:** in de weergave voor de service status ziet u of er incidenten of adviezen zijn die van invloed zijn op de tenants. U ziet zelfs hoeveel van uw beheerde tenants worden beïnvloed. Selecteer een incident voor meer informatie op het tabblad Overzicht en ga naar het betreffende tabblad Tenants om in te zoomen op die tenant en deze te ondersteunen.
+- **Migraties van postvakken** tussen tenants is een nieuwe service, nu in de openbare preview-versie, waarmee u postvakken kunt verplaatsen tussen tenants zonder dat u offboard- en onboard-postvakken hoeft te gebruiken. 
+- **Domein delen tussen tenants:** binnenkort kunt u deelnemen aan een persoonlijke preview voor functies waarmee u een domein kunt delen met meerdere tenants. Als Contoso bijvoorbeeld Wingtip Toys krijgt, kan Contoso het domein delen met Wingtip Toys, zodat personen in beide tenants 'contoso.com' als e-mailadres kunnen gebruiken.
 
-![De pagina service status voor meerdere tenants waarbij een incident is geselecteerd en het tabblad van invloed is op de tenants geopend. Het navigatiemenu bevat alle tenants, installatie en service status als enige optie.](../media/MAC-WN-MTinServiceHealth.png)
+![Service statuspagina voor meerdere tenants met een incident geselecteerd en het tabblad Tenants beïnvloed geopend. Het navigatiemenu bevat Alle tenants, Instellingen en Service status als de enige opties.](../media/MAC-WN-MTinServiceHealth.png)
 
-### <a name="monitor-your-most-important-accounts"></a>De belangrijkste accounts controleren
+### <a name="monitor-your-most-important-accounts"></a>Uw belangrijkste accounts controleren
 
-U kunt mislukte of uitgetraagde e-mailberichten die naar uw gebruikers worden verzonden, controleren en bijhouden, zoals de CEO. U kunt prioriteits accounts bijhouden door gebruikers toe te voegen aan uw lijst met prioriteits accounts in het Microsoft 365-Beheercentrum. U kunt leidinggevenden, leidinggevenden, beheerders en andere gebruikers toevoegen die toegang hebben tot gevoelige of High Priority Information.
+U kunt mislukte of vertraagde e-mailberichten controleren en volgen die naar uw gebruikers worden verzonden die een grote zakelijke impact hebben, zoals uw CEO. U houdt prioriteitsaccounts bij door gebruikers toe te voegen aan uw lijst met prioriteitsaccounts in het Microsoft 365-beheercentrum. Voeg leidinggevenden, leidinggevenden, managers of andere gebruikers toe die toegang hebben tot gevoelige informatie of informatie met hoge prioriteit.
 
-Prioriteit accounts zijn alleen beschikbaar voor organisaties die aan de volgende vereisten voldoen:
+Prioriteitsaccounts zijn alleen beschikbaar voor organisaties die aan beide van de volgende vereisten voldoen:
 
-- Office 365 E3 of Microsoft 365 E3 of Office 365 E5 of Microsoft 365 E5.
-- Minstens 10.000 licenties en minstens 50 maandelijkse actieve Exchange Online-gebruikers.
+- Office 365 E3 of Microsoft 365 E3, of Office 365 E5 of Microsoft 365 E5.
+- Minimaal 10.000 licenties en minimaal 50 maandelijkse actieve Exchange Online-gebruikers.
 
-![Installatiepagina voor de functie: de belangrijkste accounts bewaken](../media/MAC-WN-PriorityAccounts.png)
+![Installatiepagina voor de functie: Uw belangrijkste accounts controleren](../media/MAC-WN-PriorityAccounts.png)
 
-U kunt op twee manieren beginnen:
+U kunt op twee manieren aan de slag:
 
-- Ga naar **gebruikers** en selecteer vervolgens in het menu meer acties de optie **prioriteits accounts beheren** om gebruikers aan de lijst toe te voegen.
-- Ga naar **Setup**, ga naar de configuratie-taak **Monitor uw belangrijkste accounts** en selecteer aan de **slag**.
+- Ga naar **Gebruikers** en selecteer in het menu Meer acties de optie **Prioriteitsaccounts beheren om** gebruikers aan de lijst toe te voegen.
+- Ga naar **Setup,** zoek de configuratietaak **Controleer uw belangrijkste accounts** en selecteer vervolgens Aan de **slag.**
 
-Ga voor meer informatie over prioriteits accounts naar [controle prioriteit accounts](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts).
+Raadpleeg Prioriteitsaccounts controleren voor meer informatie over [prioriteitsaccounts.](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)
 
-### <a name="search-faster-and-get-better-results-from-any-page"></a>Sneller zoeken en betere resultaten van een pagina weergeven
+### <a name="search-faster-and-get-better-results-from-any-page"></a>Sneller zoeken en betere resultaten krijgen vanaf elke pagina
 
-We zijn bezig met het implementeren van een nieuwe zoekervaring voor het Beheercentrum en we kunnen u er niet voor proberen. ![Het zoekvak is verplaatst naar het gebied banner. Via een willekeurige pagina drukt u op ALT + S om te zoeken.](../media/MAC-WN-GlobalSearch.png)
+We zijn begonnen met het uitrollen van een nieuwe zoekfunctie voor het beheercentrum en we kunnen niet wachten tot u deze gaat uitproberen. ![Het zoekvak is verplaatst naar het bannergebied. Alt+S om te zoeken vanaf een pagina.](../media/MAC-WN-GlobalSearch.png)
 
-- Het zoekvak is verplaatst naar het gebied voor de koptekst, waar dit ' Microsoft 365-Beheercentrum ' staat, zodat u nu vanaf een willekeurige pagina op een willekeurige pagina op een willekeurige plek We hebben zelfs een sneltoets: **ALT + S**.
-- De zoekfunctie is slimmer en levert betere resultaten en levert nog sneller resultaten. Voer ' 2fa ' in om aan de slag te gaan.
-- De zoekresultaten worden ingedeeld op basis van het type item of de actie die u kunt uitvoeren.
-  - **Gebruikers**: Selecteer de naam van de gebruiker en u kunt de gebruiker daar bewerken. Als u het menu ' meer acties ' naast de naam selecteert, kunt u het wachtwoord opnieuw instellen. U kunt zoeken op weergavenaam, achternaam, voornaam, gebruikersnaam of primair e-mailadres en e-mail aliassen. Zoek op een primair e-mailadres of gebruikersnaam voor een exacte overeenkomst.
-  - **Groepen**: de groep vanaf een willekeurige pagina bewerken, leden toevoegen, eigenaren toewijzen.
-  - **Acties**: vergelijkbaar met de manier waarop u een gebruiker kunt zoeken en het wachtwoord opnieuw kunt instellen, kunt u ook ' wachtwoord opnieuw instellen ' op een willekeurige pagina zoeken en vervolgens een of meer wachtwoorden voor gebruikers opnieuw instellen.
-  - **Navigatie**: resultaten onder navigatie kunnen snel aan de slag met een pagina van het Beheercentrum. Als u bijvoorbeeld ' rollen ' zoekt, gaat u naar de pagina rollen voor de functies van Azure AD.
-  - **Instellingen**: zoek naar een instelling met betrekking tot uw organisatie, de services waarop u zich hebt geabonneerd, en beveiligings-en privacy-instellingen. 
-  - **Domeinen**: u kunt snelkoppelingen naar uw domeinen vinden, en vervolgens gaat u naar de pagina overzicht en status van het domein op de koppeling.
-  - **Documentatie**: als we een resultaat voor u niet kunnen vinden, vinden we een documentatie voor hulp. Het is een beetje langer voor de lijst met geplaatste artikelen om een treffer te vinden, dus wacht een tweede keer om de resultaten te zoeken. 
-  - **Feedback**: hebt u niet gevonden wat u zoekt? Stuur ons feedback van de zoekopdracht. We zullen zoekfunctionaliteit toevoegen voor meer pagina's en meer functies in het Beheercentrum.
+- Het zoekvak is verplaatst naar het koptekstgebied met de tekst 'Microsoft 365-beheercentrum', zodat u nu vanaf elke pagina kunt zoeken, niet alleen de startpagina. Er is zelfs een snelkoppeling: **Alt+S.**
+- Zoeken is slimmer en geeft u betere resultaten, nog sneller. Typ '2fa' om aan de slag te gaan.
+- Zoekresultaten worden ingedeeld op het type item of de actie die u kunt ondernemen.
+  - **Gebruikers:** selecteer de naam van de gebruiker en u kunt die gebruiker daar bewerken. Als u het menu 'Meer acties' naast de naam selecteert, kunt u het wachtwoord opnieuw instellen. U kunt zoeken op weergavenaam, achternaam, voornaam, gebruikersnaam of primair e-mailadres en e-mailaliassen. Maar om een exacte overeenkomst te krijgen, zoekt u op primair e-mailadres of gebruikersnaam.
+  - **Groepen:** bewerk de groep vanaf elke pagina, voeg leden toe en wijs eigenaren toe.
+  - **Acties:** Net zoals u een gebruiker kunt zoeken en vervolgens het wachtwoord opnieuw kunt instellen, kunt u ook zoeken naar 'wachtwoord opnieuw instellen' op een pagina en vervolgens een of meer wachtwoorden voor gebruikers opnieuw instellen.
+  - **Navigatie:** met resultaten onder Navigatie kunt u snel naar een pagina in het beheercentrum gaan. Als u bijvoorbeeld zoekt naar 'rollen', gaat u naar de pagina Rollen voor Azure AD-rollen.
+  - **Instellingen:** zoek naar alle instellingen die betrekking hebben op uw organisatie, de services op wie u bent geabonneerd, en beveiligings- en privacy-instellingen. 
+  - **Domeinen:** u vindt snelkoppelingen naar uw domeinen, waarna u via de koppeling naar de pagina Overzicht en status van dat domein gaat.
+  - **Documentatie:** als we geen resultaat voor u kunnen vinden, zoeken we naar documentatie die u kan helpen. Het duurt iets langer voordat in de samengestelde lijst met artikelen een overeenkomst is gevonden. Wacht dus even om Zoeken de resultaten te laten vinden. 
+  - **Feedback:** hebt u niet gevonden wat u zocht? Stuur ons feedback via Zoeken. We zullen zoekfunctionaliteit toevoegen voor meer pagina's en meer functies in het beheercentrum.
 
-### <a name="microsoft-365-admin-mobile-app"></a>Mobiele app Microsoft 365 admin
+### <a name="microsoft-365-admin-mobile-app"></a>Mobiele app Microsoft 365 Admin
 
-De [Microsoft 365 admin Mobile-App](https://www.microsoft.com/microsoft-365/business/manage-office-365-admin-app), die deel uitmaakt van uw abonnement, biedt u de mogelijkheid microsoft 365 van uw mobiele apparaat te beheren zodat u de taken van de dag voor elke dag kunt voorkomen. In feite zijn er meer dan 90 functies in de app, en daar hebben we nog een paar extra:
+Met de mobiele [Microsoft 365 Admin-app,](https://www.microsoft.com/microsoft-365/business/manage-office-365-admin-app)die is inbegrepen in uw abonnement, kunt u Microsoft 365 beheren vanaf uw mobiele apparaat, zodat u niet achter uw bureau hoeft te zitten en elke dag taken kunt uitvoeren. De app bevat meer dan 90 functies, en er zijn er nog een paar toegevoegd:
 
-- **Ondersteuning voor Mobile Application Management en beleid voor voorwaardelijke toegang van Microsoft intune**: u kunt nu uw persoonlijke apparaat gebruiken voor het beheren van microsoft 365, ook als uw organisatie het beheer van de mobiele toepassing van intune en het beleid voor voorwaardelijke toegang heeft ingeschakeld.
-- Berichten in het **berichtencentrum**: Schakel meldingen voor berichtencentrum in bij **instellingen**  >  **meldingen** als u een melding wilt krijgen over nieuwe berichten in het berichtencentrum. Via meldingen willen we ervoor zorgen dat u op de hoogte wordt gehouden van belangrijke informatie en gebeurtenissen in de Tenant.
-- **Facturerings waarschuwingen**: u kunt ook facturerings meldingen inschakelen bij **instellingen**  >  **meldingen** als u op uw apparaat facturerings meldingen wilt ontvangen wanneer een abonnement bijna is verlopen.
-- **Donkere modus**: Welkom bij de donkere kant van de mobiele app. Dit was een van de meest gevraagde functies. Ga naar **instellingen**  >  **Thema's** om deze functie in te schakelen.
-- **Een probleem melden**: u kunt nu een probleem melden in de app of problemen weergeven die worden gerapporteerd door andere beheerders. Ga naar **service status** om het uit te checken.
+- Ondersteuning voor het beleid voor Mobile Application Management en voorwaardelijke toegang van **Microsoft Intune:** u kunt nu uw persoonlijke apparaat gebruiken voor het beheren van Microsoft 365, zelfs als uw organisatie het beleid voor mobile-toepassingsbeheer en voorwaardelijke toegang van Intune heeft ingeschakeld.
+- **Meldingen in het berichtencentrum:** schakel meldingen in het berichtencentrum in bij Meldingen over instellingen als u wilt worden gewaarschuwd over nieuwe berichten  >   in het berichtencentrum. Via meldingen willen we ervoor zorgen dat u op de hoogte blijft van belangrijke informatie en gebeurtenissen in uw tenant.
+- **Factureringsmeldingen:** u kunt factureringsmeldingen ook in- of uitschakelen bij Instellingenmeldingen als u factuurmeldingen op uw apparaat wilt ontvangen als een abonnement   >   binnenkort verloopt.
+- **Donkere modus:** Welkom bij de donkere kant van de mobiele app. Dit was een van de meest aangevraagde functies. Ga naar  >  **Instellingenthema's** om deze in te schakel.
+- **Een probleem melden:** u kunt nu een probleem in de app melden of problemen weergeven die zijn gerapporteerd door andere beheerders. Ga **naar de service** status om het te controleren.
 
-![De pagina status in de beheer-app van Microsoft 365 met meldingen voor berichtencentrum, servicestatus, facturerings waarschuwingen.](../media/MAC-WN-AdminMobileApp.png)
+![De statuspagina in de Microsoft 365-beheer-app met meldingen voor het berichtencentrum, service status, factureringswaarschuwingen.](../media/MAC-WN-AdminMobileApp.png)
 
-### <a name="usage-recommendations-for-small-and-medium-businesses"></a>Aanbevelingen voor het gebruik van kleine en middelgrote bedrijven
+### <a name="usage-recommendations-for-small-and-medium-businesses"></a>Aanbevelingen voor gebruik voor kleine en middelgrote bedrijven
 
-Voor kleine en middelgrote bedrijven wordt mogelijk een aanbeveling weergegeven op de **Start** pagina, als sommige personen in de organisatie niet actief gebruikmaken van teams, OneDrive of Office-apps. Wanneer u de aanbeveling bekijkt, kunt u snel Microsoft-training voor inactieve gebruikers naar u helpen om aan de slag te gaan met de app en ervoor te zorgen dat u de volledige waarde krijgt van uw abonnementen.
+Kleine en middelgrote bedrijven krijgen  mogelijk een aanbeveling op de startpagina als sommige personen in de organisatie teams, OneDrive of Office-apps niet actief gebruiken. Wanneer u de aanbeveling bekijkt, kunt u Microsoft-training snel per e-mail verzenden naar inactieve gebruikers, zodat ze aan de slag kunnen met de app en ervoor zorgen dat u de volledige waarde uit uw abonnementen krijgt.
 
-### <a name="remote-work-collection"></a>Extern werk verzamelen
+### <a name="remote-work-collection"></a>Verzameling extern werk
 
-In oktober voegt u een externe werk verzameling toe om eigenaren van Small Business en hun personeel online te helpen en op afstand te werken.  Instellen van **extern werk Essentials** is een lijst met alle functies die Microsoft adviseert om extern werk veilig in te schakelen en effectief samen te werken. U kunt de app uitproberen via de **installatie** van  >  **extern werk** in een paar weken.
+In oktober voegen we een verzameling werken op afstand toe om eigenaren van kleine bedrijven en hun personeel te helpen online te gaan en op afstand te werken.  **De installatie van Essentials voor** extern werk is een lijst met alle functies die Microsoft aanbeveelt om veilig werken op afstand in te stellen en effectief samen te werken. In een paar weken kunt u het uitproberen in **Setup**  >  **Remote work essentials.**
 
-![De pagina voor externe werk beginselen in Setup met 7 taken die niet zijn gestart.](../media/MAC-WN-RemoteWork.png)
+![Pagina Met 7 taken die niet zijn gestart, is de pagina Extern werk essentieel.](../media/MAC-WN-RemoteWork.png)
 
-Ga naar [aka.MS/Remote-Business](https://aka.ms/remote-business)voor meer informatie over het veilig toestaan van externe werk en een handig webadres dat makkelijk is te onthouden en te delen.
+Voor meer informatie over het veilig toestaan van werken op afstand en een handig webadres dat gemakkelijk te onthouden en te delen is, gaat u [naar](https://aka.ms/remote-business)aka.ms/remote-business.
 
-### <a name="need-help-moving-to-more-admin-centers"></a>Hulp nodig? verplaatsen naar meer beheer centra
+### <a name="need-help-moving-to-more-admin-centers"></a>Hulp nodig? over te gaan naar meer beheercentra
 
-We bekijken voortdurend de inhoud en hulpmiddelen om deze bij te houden, zodat we u op de hoogte blijven van wijzigingen in het product. We hebben nu veel meer zelf diagnostische hulpprogramma's waarmee u snel en efficiënt problemen kunt oplossen. Hier zijn enkele onlangs toegevoegde:
+We zijn voortdurend bezig met het bekijken en bijwerken van de inhoud en hulpmiddelen om op de hoogte te blijven van wijzigingen in het product. We hebben nu veel meer zelfhulpmiddelen voor diagnostische hulpprogramma's waarmee u problemen snel en efficiënt kunt oplossen. Hier zijn er een paar die onlangs zijn toegevoegd:
 
-- Het beperkingsbeleid voor Exchange-webservice wijzigen
-- De status van teams controleren en valideren voor specifieke gebruikers
-- Problemen met de installatie van DKIM oplossen
-- Diagnostische fouten bij intune gebruikers registreren
+- Uw beperkingsbeleid voor Exchange-webservice wijzigen
+- De status controleren van het inrichten en valideren van Teams voor specifieke gebruikers
+- Problemen met DKIM-configuratie oplossen
+- Registratiefouten bij Intune-gebruikers opsporen
 
-We vouwen de nieuwe en verbeterde ondersteuningservaring die u al in het Microsoft 365-Beheercentrum ziet voor enkele andere beheer centra. Beheerderscentrum voor teams en beveiligings-en nalevings beheer centra hebben al deze nieuwe ervaring. En binnenkort wordt het Exchange-beheer **centrum**, het **SharePoint-Beheercentrum** en het **Office.com** bijgewerkt met deze nieuwe Help-ervaring voor beheerders.
+En we zijn de nieuwe en verbeterde ondersteuningservaring die u al in het Microsoft 365-beheercentrum ziet, uitgerold naar een aantal andere beheercentra. Teams-beheercentrum en beveiligings- en compliancecentrums hebben deze nieuwe ervaring al. Binnenkort worden **ook exchange-beheercentrum,** **SharePoint-beheercentrum** **en Office.com** bijgewerkt, samen met deze nieuwe Help-ervaring voor beheerders.
 
-### <a name="manage-changes-with-microsoft-planner"></a>Wijzigingen beheren met Microsoft planner
+### <a name="manage-changes-with-microsoft-planner"></a>Wijzigingen beheren met Microsoft Planner
 
-In mei werd u gewaarschuwd dat u berichten in het berichtencentrum snel kunt synchroniseren naar Microsoft planner en nu beschikbaar is voor iedereen.  U kunt nu een taak maken op basis van berichten, toewijzen en ze bijhouden om af te ronden. De eerste keer dat u **planner** selecteert, moet u verbinding maken met het juiste abonnement.
+In mei hebben we aangekondigd dat u berichten van het berichtencentrum binnenkort kunt synchroniseren met Microsoft Planner, en dat het nu voor iedereen beschikbaar is.  U kunt nu taken maken van berichten, deze toewijzen en bijhouden tot ze zijn voltooid. De eerste keer dat u **Planner synchroniseert,** moet u verbinding maken met het juiste plan.
 
-![Pagina berichtencentrum met ' synchroniseren van Planner ' gemarkeerd in de opdrachtbalk naast de knop Voorkeuren.](../media/MAC-WN-MCPlannerSync.png)
+![Pagina berichtencentrum met 'synchronisatie van planner' gemarkeerd in de opdrachtbalk naast de knop Voorkeuren.](../media/MAC-WN-MCPlannerSync.png)
 
-Voor meer informatie hierover raadpleegt u dit artikel en video om te zien hoe het werkt: berichten [in het berichtencentrum bijhouden in planner](https://docs.microsoft.com/Office365/Planner/track-message-center-tasks-planner)
+Bekijk dit artikel en de video om te zien hoe dit werkt: Berichten in het berichtencentrum bijhouden in Planner voor meer [informatie.](https://docs.microsoft.com/Office365/Planner/track-message-center-tasks-planner)
 
-### <a name="documentation-training-and-videos"></a>Documentatie, training en Video's
+### <a name="documentation-training-and-videos"></a>Documentatie, training en video's
 
-- Gloednieuw en even lang voor Microsoft Ignite--[de virtuele hub](https://adoption.microsoft.com/virtual-hub/). Diep de technische training van IT-professionals en ontwikkelaars. U kunt snel zoeken naar twintig nieuwe Video's als onderdeel van #SIDETRACKED, de naam van de Ignite-beheerder dit jaar bijhouden.
-- [Nieuw in Microsoft 365](https://www.youtube.com/watch?v=OVjb2lGJ4GU&t=2s) -VideoReeks: deze maand begeleidt nieuwe functies die beschikbaar zijn in whiteboard voor teams en op internet, hoe u het inrichten van gebruikers tot Azure AD, nieuwe kracht automatiseert en acties in teams en meer. En blijf de volgende maand afgestemd op, waar we een recap hebben van alle fantastische dingen op Ignite!
-- We hadden een nieuwe versie van de [documentatie pagina van Microsoft 365](https://docs.microsoft.com/microsoft-365) , waarop u eerst aandacht richten op oplossingen. We markeren nieuwe oplossingen wanneer deze beschikbaar komen op deze pagina, dus laat even de aandacht kijken.
+- Gloednieuw en precies op tijd voor Microsoft Ignite:[de Virtuele Hub.](https://adoption.microsoft.com/virtual-hub/) Diepgaande duik in de technische training voor IT-professionals en ontwikkelaars. Vind snel twintig nieuwe video's als onderdeel #SIDETRACKED, de naam van de Ignite-beheerder track dit jaar.
+- Wat is er nieuw in de [Microsoft 365-videoreeks:](https://www.youtube.com/watch?v=OVjb2lGJ4GU&t=2s) Deze maand komen nieuwe functies aan de beurt die beschikbaar zijn in Whiteboard voor Teams en op internet, hoe u gebruikers inrichting voor Azure AD kunt automatiseren, nieuwe Power Automate triggers en acties in Teams en meer. En houd de volgende maand in de gaten, waar we een overzicht krijgen van alle geweldige dingen die plaatsvinden op Ignite!
+- We hebben een nieuw ontwerp voor de [Microsoft 365-documentatiepagina](https://docs.microsoft.com/microsoft-365) gemaakt, met als eerste de focus op oplossingen. Nieuwe oplossingen worden belicht zodra deze beschikbaar zijn op deze pagina, dus houd de aandacht in de gaten.
 
-![Nieuwe openingspagina voor documentatie voor Microsoft 365-oplossingen met oplossingen zoals ' externe werknemers Empower '.](../media/MAC-WN-M365Docspage.png)
+![Nieuwe landingspagina voor Microsoft 365-oplossingendocumentatie met oplossingen zoals 'Ondersteuning voor externe medewerkers'.](../media/MAC-WN-M365Docspage.png)
 
 ## <a name="july-2020"></a>Juli 2020
 
-### <a name="getting-ready-for-ignite-2020"></a>Voorbereiden voor Ignite 2020
+### <a name="getting-ready-for-ignite-2020"></a>Voorbereiden op Ignite 2020
 
-Wanneer wij overstappen op het Ignite-seizoen van Microsoft, bieden we u niet een groot aantal functies, zodat we u gedurende onze sessies een heleboel te spreken.
+Aangezien we over gaan op Ignite season bij Microsoft, brengen we minder functies uit, dus we hebben veel te bespreken tijdens onze sessies.
 
-De volgende update voor dit artikel gaat over op een openingsdatum van onze eerste online-Ignite. Dit jaar is gratis. Uitchecken, Meld u aan: [Microsoft Ignite 2020](https://www.microsoft.com/ignite).
+De volgende update van dit artikel vindt plaats op de eerste dag van onze eerste online-only Ignite. En dit jaar kunt u gratis deelnemen. Bekijk het en krijg je aangemeld: [Microsoft Ignite 2020](https://www.microsoft.com/ignite).
 
 ### <a name="your-products"></a>Uw producten
 
-Er is veel werk gedaan in het abonnementen beheer om de pagina sneller te laden, zodat u sneller kunt vinden wat u zoekt en om te voldoen aan de standaarden voor Web Accessibility ([WCAG 2,1](http://www.w3.org/TR/WCAG21/)).
+Er is veel werk verricht in het abonnementsbeheer om de pagina sneller te laden, sneller te vinden wat u zoekt en om te voldoen aan de richtlijnen voor toegankelijkheid op het web (richtlijnen voor[WCAG 2.1).](http://www.w3.org/TR/WCAG21/)
 
-- Opnieuw **ontwerpen van tabel**: de tabel is opnieuw ontworpen, zodat u vergelijkbare abonnementen kunt groeperen. Ga naar de **facturering** van  >  **uw producten**.
-- **Product gegevens**: Ga voor meer informatie naar uw abonnementen en selecteer het product in de lijst.
-- **Alles van hieruit**: en u hoeft niet te navigeren rond meerdere pagina's om één product te kunnen beheren. Als u bijvoorbeeld een abonnement moet opzeggen, wordt het deelvenster geopend om daar actie te ondernemen.
+- **Tabelontwerp:** de tabel is opnieuw ontworpen zodat u vergelijkbare abonnementen kunt groepeert. Ga naar **Facturering**  >  **voor je producten.**
+- **Productdetails:** meer details over uw abonnementen krijgen door het product in de lijst te selecteren.
+- **Doe het allemaal vanaf hier:** En u hoeft niet heen en weer te springen om meerdere pagina's te gebruiken om één product te beheren. Als u bijvoorbeeld een abonnement wilt opzeggen, wordt het deelvenster geopend om de actie daar uit te voeren.
 
-![De pagina producten met het deelvenster abonnement annuleren geopend.](../media/MAC-WN-SubscrDetails.png)
+![De pagina Producten met het paneel Abonnement annuleren geopend.](../media/MAC-WN-SubscrDetails.png)
 
 ### <a name="domains"></a>Domeinen
 
-Domeinbeheer kan ingewikkeld zijn en we hebben een nieuwe functie uitgebracht om dit eenvoudiger te maken. Ga naar instellingen > domeinen en selecteer een domein om meer informatie over uw domein en de status van het domein te vinden.
+Domeinbeheer kan ingewikkeld zijn en we hebben een nieuwe functie uitgebracht om dit gemakkelijker te maken. Ga naar Instellingen > domeinen en selecteer vervolgens een domein voor meer informatie over uw domein en de status van het domein.
 
-:::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="Pagina Domain Details voor contoso.com":::
+:::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="Pagina met domeingegevens voor contoso.com":::
 
-### <a name="docs-training-and-videos-july-2020"></a>Documenten, cursussen en Video's (juli 2020)
+### <a name="docs-training-and-videos-july-2020"></a>Documenten, training en video's (juli 2020)
 
-[Nieuw in Microsoft 365](https://youtu.be/m1Nu8WJgCDY) -VideoReeks: deze maand bieden we de nieuwe Yammer-ervaring voor het web en mobiele telefoons, en leren hoe u de app Yammer Community's voor Microsoft teams, nieuwe beleids pakketten voor ondersteuning van Firstline Workers-werknemers en-managers, en meer.
+Nieuw in de [Microsoft 365-videoreeks:](https://youtu.be/m1Nu8WJgCDY) Deze maand wordt de nieuwe Yammer-ervaring voor het web en mobiele apparaten, de integratie van de app Yammer-community's voor Microsoft Teams, nieuwe beleidspakketten ter ondersteuning van eerstelijnsmedewerkers en managers bestrijken, en nog veel meer.
 
 ## <a name="june-2020"></a>Juni 2020
 
-### <a name="keeping-up-with-office-whats-new-management"></a>Bijhouden wat het nieuwe beheer is van Office
+### <a name="keeping-up-with-office-whats-new-management"></a>Up-up houden van het nieuwe Office-beheer
 
-Een paar maanden geleden, hebben we een instelling toegevoegd waarmee u de [nieuwe berichten kunt beheren die in de Office-apps van een gebruiker worden weergegeven](#office-whats-new-management). Deze maand heb een nieuwe kaart met een startpagina uitgebracht waarmee u snel aan de slag kunt gaan met de **nieuwe** berichten die u wilt laten zien aan de gebruikers in uw organisatie.
+Een paar maanden geleden hebben we een instelling toegevoegd waarmee u berichten met nieuwe functies kunt beheren die worden gebruikt [in De Office-apps van een gebruiker.](#office-whats-new-management) Deze maand hebben we een nieuwe startpaginakaart uitgebracht die u  helpt snel te handelen en bij te houden wat er nieuw is- berichten die u wilt laten zien aan de gebruikers in uw organisatie.
 
-### <a name="docs-training-and-videos-june"></a>Documenten, cursussen en Video's (juni)
+### <a name="docs-training-and-videos-june"></a>Documenten, training en video's (juni)
 
-- [Aan de slag met teams](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
+- [Aan de slag met Teams](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
 
 ## <a name="may-2020"></a>Mei 2020
 
-### <a name="new-update-channel-for-office"></a>Nieuw update kanaal voor Office
+### <a name="new-update-channel-for-office"></a>Nieuw updatekanaal voor Office
 
-Op 12 mei hebben we de beschikbaarheid van een nieuw update kanaal voor Office aangekondigd: Monthly Enterprise-kanaal. Dit update kanaal biedt gebruikers de nieuwe Office-functies één keer per maand op de tweede dinsdag van de maand.
+Op 12 mei hebben we de beschikbaarheid van een nieuw updatekanaal voor Office aangekondigd: Monthly Enterprise-kanaal. Dit updatekanaal biedt uw gebruikers eenmaal per maand nieuwe Office-functies op de tweede dinsdag van de maand.
 
-Als u gebruikers de mogelijkheid wilt bieden om Office te installeren via de portal, kunt u het maandelijkse Enterprise-kanaal voor de gebruikers selecteren. Hiervoor meldt u zich aan bij het Microsoft 365-Beheercentrum en gaat u naar **alle instellingen weergeven** instellingen voor de  >   >    >    >  **Office-software**. Als u **eenmaal per maand (Monthly Enterprise-kanaal)** selecteert, worden nieuwe zelf installaties van Office geconfigureerd voor het gebruik van het maandelijkse Enterprise-kanaal.
+Als u uw gebruikers toestaat om Office zelf te installeren via de portal, kunt u monthly Enterprise-kanaal voor hen selecteren. Hiervoor meld u zich aan bij het Microsoft 365-beheercentrum en gaat u naar Alle instellingen   >   >  **organisatie-instellingen**  >  **Services**  >  **Office-software downloadinstellingen.** Als u **Eenmaal per maand (Monthly Enterprise-kanaal)** selecteert, worden nieuwe zelf-installaties van Office geconfigureerd voor gebruik van het Monthly Enterprise-kanaal.
 
-In combinatie met het maandelijkse Enterprise-kanaal kunnen we ook de namen van de bestaande update kanalen wijzigen. De naam van het maandelijkse kanaal wordt bijvoorbeeld gewijzigd in huidig kanaal. De nieuwe namen worden toegepast op 9 juni 2020.
+In combinatie met de release van monthly Enterprise-kanaal worden ook de namen van de bestaande updatekanalen bijgewerkt. De naam van het Monthly-kanaal wordt bijvoorbeeld gewijzigd in het Current-kanaal. De nieuwe namen worden van kracht op 9 juni 2020.
 
-Zie de [Update kanalen voor Microsoft 365-apps voor](https://docs.microsoft.com/DeployOffice/update-channels-changes)meer informatie.
+Zie Wijzigingen in [updatekanalen voor Microsoft 365-apps](https://docs.microsoft.com/DeployOffice/update-channels-changes)voor meer informatie.
 
 ### <a name="new-admin-roles"></a>Nieuwe beheerdersrollen
 
-We hebben nieuwe Azure Active Directory-beheerdersrollen toegevoegd aan het Microsoft 365-Beheercentrum.
+We hebben enkele nieuwe Azure Active Directory-beheerdersrollen toegevoegd aan het Microsoft 365-beheercentrum.
 
-- Met de functie voor Hybrid Identity-beheerder kunt u gebruikers machtigen voor het beheren van Cloud provisioning en verificatieservices.
-- Met de rol netwerkbeheerder kunnen gebruikers netwerklocaties beheren en netwerk inzichten voor Microsoft 365-software als service-apps bekijken.
-- De rol van printer beheerder geeft machtigingen voor het beheer van alle aspecten van printers en printerverbindingen.
-- Printer technicus is een subset van de printer beheerder, waar gebruikers printers kunnen registreren en deregistreren, en de afdrukstatus bijwerken.
-Zie voor meer informatie over deze rollen [beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+- De rol hybride identiteitsbeheerder geeft gebruikers machtigingen voor het beheren van cloud-inrichting en verificatieservices.
+- Met de rol van netwerkbeheerder kunnen gebruikers netwerklocaties beheren en netwerkinzichten bekijken voor Microsoft 365 Software as a Service-apps.
+- Rol printerbeheerder verleent toestemming voor het beheren van alle aspecten van printers en printerverbindingen.
+- Printertechnicus is een subset van de rol Printerbeheerder, waarin deze gebruikers printers kunnen registreren en de registratie ongedaan kunnen maken, en de printerstatus kunnen bijwerken.
+Zie Informatie over beheerdersrollen voor meer informatie [over deze rollen.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
 
-### <a name="export-groups-list"></a>Lijst met export groepen
+### <a name="export-groups-list"></a>Lijst met groepen exporteren
 
-We horen van een heleboel beheerders die ze nodig hebben om informatie over groepen en hun gebruik te delen met personen die geen toegang hebben tot de beheer centra. U kunt de lijst met groepen nu exporteren naar een CSV-bestand om controledoeleinden te doen, wat betekent dat u dit oude PowerShell-script kunt weggooien. Als u dit wilt doen, gaat u naar **groepen**  >  **groepen** en selecteert u **groepen exporteren** op de opdrachtbalk.
+We hebben van veel beheerders gehoord dat ze informatie over groepen en hun gebruik moeten delen met personen die geen toegang hebben tot de beheercentra. U kunt de lijst met groepen nu exporteren naar een CSV-bestand voor controledoeleinden, wat betekent dat u dat oude PowerShell-script kunt verwijderen. Als u dit wilt uitproberen, gaat u naar **Groepen** en selecteert u Groepen exporteren  >  op de opdrachtbalk. 
 
 ### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossingen- en -architectuurcentrum
 
-Alleen deze maand hebben we een nieuwe site gepubliceerd op [https://docs.microsoft.com](https://docs.microsoft.com) de zogeheten [microsoft 365-oplossing en architectuur centrum](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center), waaronder de technische richtlijnen die u moet volgen, plannen en implementeren van geïntegreerde Microsoft 365-oplossingen voor veilig en compatibel samenwerken. In dit centrum vindt u:
+Deze maand hebben we een nieuwe site uitgebracht op de naam [https://docs.microsoft.com](https://docs.microsoft.com) [Microsoft 365-oplossing](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center)en -architectuurcentrum, die de technische richtlijnen samen brengt die u nodig hebt om te begrijpen, plannen en implementeren van geïntegreerde Microsoft 365-oplossingen voor veilige en compatibele samenwerking. In dit midden vindt u:
 
-- Ondersteuning voor Foundation-oplossingen
-- Technische oplossingen en scenario's
-- Afbeeldingen van oplossingen en architectuur (de poster!!!)
+- Basisoplossings richtlijnen
+- Werkbelastingsoplossingen en scenario-richtlijnen
+- Illustraties voor oplossingen en architectuur (de posters!!!)
 - Branchespecifieke richtlijnen
-- Ontwerp-principals voor Enterprise Architecture
+- Ontwerp-principals voor ondernemingsarchitectuur
 
-### <a name="docs-training-and-videos-may"></a>Documenten, cursussen en Video's (mei)
+### <a name="docs-training-and-videos-may"></a>Documenten, training en video's (mei)
 
-- **Nieuwe functies in Microsoft 365-VideoReeks**: deze maand bieden de nieuwe ondersteuningservaring in de teams-beheerder en beveiliging en compliance Centers, planner-integratie met het berichtencentrum en de nieuwe 3x3 video-indeling in Microsoft teams. 
-- De pagina Help-hub voor [Microsoft 365-Beheercentrum](https://docs.microsoft.com/microsoft-365/admin/) is bijgewerkt, zodat u gemakkelijker kunt vinden wat u zoekt. En als u nu naar deze pagina gaat, hebben we een kaart toegevoegd om u op de hoogte te stellen van belangrijke updates en wijzigingen.
+- Nieuw in de **Microsoft 365-videoreeks:** deze maand wordt de nieuwe ondersteuningservaring in de Teams-beheer- en beveiligings- en compliancecentra, integratie van Planner met het berichtencentrum en de nieuwe 3x3-video-indeling in Microsoft Teams bestrijken. 
+- De [Pagina Help-hub voor het Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/) is bijgewerkt, om sneller te vinden wat u nodig hebt. En als u nu naar die pagina kijkt, hebben we een kaart toegevoegd om u te informeren over belangrijke updates en wijzigingen.
 
 ## <a name="april-2020"></a>April 2020
 
-### <a name="intune-roles-management"></a>Beheer van intune-rollen
+### <a name="intune-roles-management"></a>Rollenbeheer in Intune
 
 [April 2020](#april-2020)
 
-Nou, dat is alles! De tweede stap voor een geïntegreerde rollen ervaring en u kunt nu intune-rollen beheren in het Microsoft 365-Beheercentrum. U kunt ook functies toepassen om rollen te zoeken en rolmachtigingen weer te geven. Dit betekent dat u niet over twee afzonderlijke hulpmiddelen beschikt om rollen voor Microsoft 365 en intune te beheren. Wanneer u zich aanmeldt bij het Microsoft 365-Beheercentrum, ziet u dat er twee draaitabellen zijn op de pagina rollen, een voor Azure AD en één voor intune.
+Nou, dat hebben we gedaan! We hebben de tweede stap op weg naar een geïntegreerde rollenervaring gemaakt en u kunt Nu Intune-rollen beheren in het Microsoft 365-beheercentrum. U kunt ook gebruikmaken van functies zoals de mogelijkheid om naar rollen te zoeken en rolmachtigingen weer te geven. Dit betekent dat u geen twee afzonderlijke hulpprogramma's nodig hebt voor het beheren van rollen voor Microsoft 365 en Intune. Wanneer u zich bij het Microsoft 365-beheercentrum meldt, ziet u dat er twee draaitavots op de pagina Rollen staan: een voor Azure AD en een voor Intune.
 
-![Pagina rollen met de intune-draaitabel geselecteerd](../media/MAC-WN-IntuneRoles.png)
+![Pagina Rollen met het Intune-draaipunt geselecteerd](../media/MAC-WN-IntuneRoles.png)
 
-### <a name="sync-message-center-posts-to-planner"></a>Berichten in het berichtencentrum synchroniseren met planner
+### <a name="sync-message-center-posts-to-planner"></a>Berichten in het berichtencentrum synchroniseren met Planner
 
-Als u begint met mei, wordt in het berichtencentrum de knop ' synchroniseren van Planner ' weergegeven. U kunt nu berichten die actie nodig hebben, bijhouden, het type berichten dat u wilt bijhouden, berichten toewijzen om op te volgen als taken, en berichten markeren voor toekomstige aandacht.
+Vanaf mei zien beheerders van de Targeted Release de knop 'Synchronisatie van Planner' in het berichtencentrum. U kunt nu berichten bijhouden die actie moeten ondernemen, het type berichten selecteren dat u wilt bijhouden, berichten toewijzen om als taken bij te houden en berichten taggen voor later aandacht.
 
-[Neem deel aan de targeted release](manage/release-options-in-office-365.md) om aan de slag te gaan.
+[Neem deel aan Targeted Release](manage/release-options-in-office-365.md) om aan de slag te gaan!
 
-### <a name="need-help-launched-in-teams-admin-center--security-and-compliance-centers"></a>' Hulp nodig? ' gestart in het team centrum voor beheerders & beveiligings-en compliance Centers
+### <a name="need-help-launched-in-teams-admin-center--security-and-compliance-centers"></a>'Hulp nodig?' gestart in het Teams-beheercentrum & beveiligings- en compliancecentra
 
-In het Beheercentrum voor teams, het Beveiligingscentrum en compliance Center wordt nu dezelfde informatie nodig? de functie die het Microsoft 365-Beheercentrum gebruikt voor het vinden van hulp en contact opnemen met de ondersteuning. We hebben veel feedback ontvangen van beheerders die u op hetzelfde niveau van hulp en ondersteuning hebben gehad, en we zijn blij dat u dat naar u gaat. Probeer het zelf en geef ons uw feedback.
+Het Teams-beheercentrum, het beveiligingscentrum en het compliancecentrum gebruiken nu hetzelfde 'Hulp nodig?' die het Microsoft 365-beheercentrum gebruikt om hulp te vinden en contact op te nemen met ondersteuning. We hebben veel feedback ontvangen van beheerders dat u dezelfde mate van hulp en ondersteuning wilt en dat we u dat graag willen bieden. Probeer het uit en geef ons uw feedback.
 
-#### <a name="need-chat"></a>Wilt u chatten?
+#### <a name="need-chat"></a>Chat nodig?
 
-Onze ondersteuningsmedewerkers werken thuis, terwijl ze nog steeds klant-en risico beperkingen opdoen met de Internet bandbreedte van de klant, terwijl de klant van start kan zijn. Om u verder te ondersteunen, hebben we de ondersteuningsoptie van live chat voor commerciële klanten gestart in het Microsoft 365-Beheercentrum.
+Onze ondersteuningsmedewerkers hebben thuis gewerkt terwijl ze nog steeds klantzaken en beperkingen op internetbandbreedte meeneemt terwijl we thuis werken, kunnen de gesprekskwaliteit van de klant beïnvloeden. Om je te blijven ondersteunen, hebben we de ondersteuningsoptie voor live chats voor commerciële klanten in het Microsoft 365-beheercentrum gestart.
 
-Wanneer u een serviceaanvraag maakt, ziet u nu de optie chatten als optie, naast telefoon en e-mailadres. Selecteer chatten als een voorkeurs kanaal van communicatie en maak de aanvraag. Wanneer u de aanvraag hebt gemaakt, kunt u de chat starten wanneer u klaar bent om met Microsoft-agenten te chatten.
+Tijdens het maken van een serviceaanvraag ziet u nu chatten als een optie, naast de telefoon en e-mail. Selecteer chat als voorkeurskanaal voor communicatie en maak de aanvraag. Nadat u de aanvraag hebt gemaakt, kunt u de chat starten wanneer u klaar bent om te chatten met Microsoft-agenten.
 
-### <a name="teams-updates"></a>Updates van teams
+### <a name="teams-updates"></a>Teams-updates
 
-Met het vergroten van teams hebben we een paar functies toegevoegd waarmee u ze kunt beheren.
+Door het toegenomen gebruik van Teams hebben we een aantal functies toegevoegd om u te helpen ze te beheren.
 
-- Een nieuwe kaart voor aanbevelingen op de startpagina van het Beheercentrum toont welke gebruikers eerder teams gedurende 30 dagen niet hebben gebruikt. U kunt deze gebruikers een e-mailbericht sturen om ze aan de slag te laten gaan met teams.
-- **Iedereen samen delen met teams**: Ga naar **Setup** om een nieuwe pagina te bekijken waarmee u teams voor gelicentieerde gebruikers kunt inschakelen en gasttoegang kunt toestaan, zodat u kunt werken met externe klanten in teams.
-- Een Microsoft teams-kaart wordt nu standaard vastgemaakt aan uw startpagina. Het geeft aan of teams is ingeschakeld en of gasttoegang is toegestaan. U kunt er ook voor instellen dat u de instellingsstatus van de gebruikers van de nieuwe gelicentieerde teams controleert en controleert of netwerkproblemen van invloed kunnen zijn op teams-gebruikers.
-- Tot slot maakt u in de eerste fase van de configuratie een stap voor het maken van een licentie die teams omvat.
+- Op een nieuwe aanbevelingskaart op de startpagina van het beheercentrum ziet u welke gebruikers Teams al 30 dagen niet actief hebben gebruikt. U kunt deze gebruikers een trainingse-mail sturen om ze aan de slag te laten gaan met Teams.
+- **Breng personen samen met**  teams samen: ga naar Setup om een nieuwe pagina te zien, zodat u Teams kunt inrichten voor gebruikers met een licentie en gasttoegang kunt toestaan, zodat u kunt werken met externe klanten in Teams.
+- Een Microsoft Teams-kaart is nu standaard vastgemaakt aan uw startpagina. Hier ziet u of Teams is ingeschakeld en of gasttoegang is toegestaan. U kunt ook de installatiestatus van nieuw gelicentieerde Teams-gebruikers controleren en controleren of netwerkproblemen van invloed kunnen zijn op Teams-gebruikers.
+- Ten slotte is Teams nu een stap in de initiële initideringsstroom als u een licentie hebt gekocht die Teams omvat.
 
-### <a name="productivity-score"></a>Productiviteits Score
+### <a name="productivity-score"></a>Productiviteitsscore
 
-Productiviteits score geeft inzicht in de manier waarop mensen Microsoft-cloudservices en de technologie ervaring ondersteunen die deze ondersteunen. De score toont de prestaties van uw organisatie aan de hand van maateenheden voor werknemers en technologieën en vergelijkt uw score met organisaties zoals uw eigen. Deze maand introduceren de volgende nieuwe concepten voor de preview-versie:
+Productiviteitsscore geeft inzicht in hoe mensen Microsoft-cloudservices gebruiken en de technologie-ervaringen die hen ondersteunen. De score geeft de prestaties van uw organisatie ten opzichte van de metingen voor werknemers en technologie weer en vergelijkt uw score met organisaties zoals die van u. Deze maand introduceren we de volgende nieuwe concepten in de preview-versie:
 
-- Trend weergave van primaire inzichten op de startpagina en de categorie detailpagina's: eindpuntige analyses en netwerk verbindings categorieën toegevoegd aan technologie ervaring
-- Relevante technologie ervaring voor inzicht in categorieën werknemers ervaring
-- Nieuwe communicatie categorie als onderdeel van de ervaring van een werknemer
-- Gebruikers details met metagegevens van de organisatie in categorieën voor werknemers
+- Trendweergave van primaire inzichten op startpagina en categoriedetailpagina's - Endpoint Analytics en Network Connectivity-categorieën toegevoegd aan Technology Experience
+- Relevant technology Experience insight shown in Employee Experience categories
+- Nieuwe communicatiecategorie als onderdeel van Werknemerservaring
+- Gebruikersdetails met metagegevens van de organisatie in categorieën Werknemerservaring
 
-Als u meer informatie wilt, raadpleegt u de blog: [de Microsoft 365-ervaring meten en verbeteren met Microsoft-productiviteits Score](https://techcommunity.microsoft.com/t5/microsoft-365-blog/measure-and-improve-the-microsoft-365-experience-with-microsoft/ba-p/1348618). De productiviteits Score is momenteel beschikbaar in de persoonlijke preview. [Neem deel aan de persoonlijke voorvertoning van de productiviteits Score](https://aka.ms/productivityscorepreview) om aan de slag te gaan.
+Als u meer wilt weten, bekijkt u de blog: De [Microsoft 365-ervaring](https://techcommunity.microsoft.com/t5/microsoft-365-blog/measure-and-improve-the-microsoft-365-experience-with-microsoft/ba-p/1348618)met Microsoft Productiviteitsscore meten en verbeteren. De productiviteitsscore staat momenteel in de persoonlijke preview.. [Neem deel aan de persoonlijke preview-versie van](https://aka.ms/productivityscorepreview) de productiviteitsscore om aan de slag te gaan.
 
-### <a name="groups-updates"></a>Groeps updates
+### <a name="groups-updates"></a>Updates voor groepen
 
-U hebt deze maand twee updates voor groepen:
+We hebben deze maand twee updates voor Groepen:
 
-- U kunt nu e-mailadressen voor Office 365-groepen (ook wel groepen genoemd in Outlook genoemd en binnenkort ook wel Microsoft 365 groepen genoemd) bewerken.
-- We hebben uw feedback gehoord en hebben een duidelijkere foutberichten opgezocht voor waarom u een groep niet kunt converteren naar een Microsoft-team.
+- U kunt nu e-mailadressen bewerken voor Office 365-groepen (ook wel bekend als Groepen in Outlook en binnenkort Microsoft 365-groepen genoemd).
+- We hebben uw feedback gehoord en we hebben duidelijkere foutberichten toegevoegd waarom u een groep niet kunt converteren naar een Microsoft-team.
 
-### <a name="docs-videos-and-training-april"></a>Documenten, Video's en training (april)
+### <a name="docs-videos-and-training-april"></a>Documenten, video's en training (april)
 
-**Wat is er nieuw in Microsoft 365-VideoReeks**: deze maand begeleidt tips en informatiebronnen voor kleine bedrijven die overstappen op externe werk, waaronder de implementatie van Microsoft teams, hulpbronnen voor extern werken om in contact te blijven met klanten en partners, en met het nieuwe microsoft 365 Business-spraakprogramma. [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
+Nieuw in de **Microsoft 365-videoreeks:** deze maand komen tips en bronnen aan de slag om kleine bedrijven te helpen bij de overstap naar werken op afstand, waaronder hoe u Microsoft Teams uitrolt, trainingsbronnen voor extern werk uitrolt om in contact te blijven met klanten en partners, en het nieuwe Microsoft 365 Business Voice-abonnement. [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
 
 #### <a name="for-your-users"></a>Voor uw gebruikers
 
 - [Een vergadering plannen](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
-- [Deelnemen aan een teamvergadering](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Deelnemen aan een Teams-vergadering](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
 - [Een team voor uw hele organisatie maken](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
 - [Een team met gasten maken](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
-- [Als gast lid worden van een team](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Als gast deelnemen aan een team](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [Een groepsmailadres maken](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
 
-#### <a name="for-admins-and-business-owners"></a>Voor beheerders en bedrijfseigenaren
+#### <a name="for-admins-and-business-owners"></a>Voor beheerders en eigenaars van bedrijven
 
-- [Uw kleine bedrijf stimuleren met extern werken](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
-- [Een extern klein bedrijf uitvoeren](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Uw kleine bedrijf in staat stellen met werken op afstand](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
+- [Een extern klein bedrijf runnen](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
 - [Registreren voor Microsoft Business Basic](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Tweeledige aanmelding instellen](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Twee factor-aanmelding instellen](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
 
 ## <a name="march-2020"></a>Maart 2020
 
-### <a name="featured-feedback-fix-improve-add-user-reliability-for-licensing"></a>Aanbevolen feedback oplossing: Verbeter het betrouwbaarheid van gebruikers toevoegen voor licenties
+### <a name="featured-feedback-fix-improve-add-user-reliability-for-licensing"></a>Aanbevolen feedback fix: De betrouwbaarheid van het toevoegen van gebruikers voor licenties verbeteren
 
-We hebben veel feedback ontvangen van beheerders over hoe moeilijk een licentie moet worden toegewezen bij het toevoegen van gebruikers. We hebben de eerste update voor deze correctie gemaakt en we hebben gemigreerd naar een betrouwbaardere, achter de scene-service om die aanvragen te verwerken. En als er iets mis is, krijgt u nu een foutbericht waarin u het opnieuw kunt proberen.
+We hebben veel feedback ontvangen van beheerders over hoe moeilijk het is om licenties toe te wijzen bij het toevoegen van gebruikers. We hebben de eerste update voor deze oplossing aangebracht en we zijn gemigreerd naar een betrouwbaardere service op de achtergrond om deze aanvragen te verwerken. En als er iets misgaat, wordt er nu een foutbericht weergegeven waarmee u het opnieuw kunt proberen.
 
-![Gebruikers bevestigingspagina toevoegen met de fout.](../media/MAC-WN-ImprovedLicensing.png)
+![Bevestigingspagina van gebruiker toevoegen met de fout.](../media/MAC-WN-ImprovedLicensing.png)
 
-### <a name="microsoft-teams-home-page-card"></a>Kaart voor Microsoft teams-Startpagina
+### <a name="microsoft-teams-home-page-card"></a>Startpaginakaart van Microsoft Teams
 
-Met de schuine streep in teams-gebruik worden sommige organisatiess vastgemaakt en wordt er een vastgemaakte dashboard kaart weergegeven waarmee teams op meer detectie kunnen vinden. De kaart bevat ook koppelingen naar trainingen en documenten waarmee u uw organisatie kunt overzetten naar een extern werk. Ga gewoon naar de **Start** pagina om de nieuwe kaart te zien.
+Met het uptick in Teams-gebruik, krijgen sommige organisaties een vastgemaakt dashboardkaart waardoor Teams beter vindbaar wordt. De kaart bevat ook koppelingen naar trainingen en documenten die u helpen bij de overstap van uw organisatie naar werken op afstand. Ga naar de **startpagina** om de nieuwe kaart te zien.
 
-![Kaart voor Microsoft teams-Startpagina](../media/MAC-WN-TeamsCard.PNG)
+![Startpaginakaart van Microsoft Teams](../media/MAC-WN-TeamsCard.PNG)
 
 ### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>Het thema van de mobiele SharePoint-app van uw organisatie aanpassen
 
-Met het Microsoft 365-Beheercentrum kunt u het thema van uw organisatie nu aanpassen in de mobiele SharePoint-app voor iOS en de mobiele SharePoint-app voor Android. Met deze functie kunt u op een handige manier een mobiele intranet-app-ervaring bieden voor uw werknemers aan de slag met SharePoint Online. Het aanpassen van het thema omvat de logoafbeelding, navigatiebalk kleur, tekst-en pictogram kleuren, en accentkleuren, zodat u deze gemakkelijk kunt herkennen.
+In het Microsoft 365-beheercentrum kunt u nu het thema van uw organisatie aanpassen in de mobiele SharePoint-app voor iOS en de mobiele SharePoint-app voor Android. Deze functie biedt een handige mobiele intranet-app die geschikt is voor uw SharePoint Online voor werknemers die onderweg zijn. Thema-aanpassingen omvatten uw logoafbeelding, navigatiebalkkleur, tekst- en pictogramkleuren en accentkleuren, waardoor u ze gemakkelijk kunt herkennen.
 
-![Diagram toewijzing van de instellingen voor het Beheercentrum voor de mobiele app.](../media/MAC-WN-CustThemeSP.png)
+![Diagram dat de instellingen van het beheercentrum toewijst aan de mobiele app.](../media/MAC-WN-CustThemeSP.png)
 
-### <a name="improvements-to-the-add-a-group-wizard"></a>Verbeteringen aan de wizard groep toevoegen
+### <a name="improvements-to-the-add-a-group-wizard"></a>Verbeteringen in de wizard Groep toevoegen
 
-Wanneer beheerders een nieuwe groep maken en deze tegelijkertijd een team hebben gemaakt, konden ze ook eigenaren toewijzen zonder een licentie voor teams. En dat maakt een paaren. We hebben de wizard laten bijwerken om te controleren of eigenaren een teams-licentie hebben en als ze de optie om de groep om te zetten in een team niet in te schakelen, worden uitgeschakeld.
+Wanneer beheerders een nieuwe groep hebben gemaakt en er tegelijkertijd een Team van maken, kunnen ze eigenaren toewijzen die geen licentie hebben die Teams omvat. En dat zorgde voor problemen. We hebben de stroom van de wizard bijgewerkt om te controleren of eigenaren een Teams-licentie hebben en als ze de optie om de groep om te zetten in een Team niet kunnen veranderen, is uitgeschakeld.
 
 ### <a name="microsoft-365-offerings-for-small-and-medium-businesses"></a>Microsoft 365-aanbiedingen voor kleine en middelgrote bedrijven
 
-We weten dat dit een aankondiging is voor de volgende maand, maar we willen wel weten dat u klaar bent.
+We weten dat dit een aankondiging is voor volgende maand, maar we willen zeker weten dat u zich hebt voorbereid.
 
-Vanaf 21 april brengen we wijzigingen aan met onze Office 365-abonnementen voor kleine en middelgrote bedrijven, en voor Office 365 ProPlus. Deze producten gebruiken nu het merk Microsoft 365.
+Vanaf 21 april gaan we wijzigingen aanbrengen voor onze Office 365-abonnementen voor kleine en middelgrote bedrijven en voor Office 365 ProPlus. Deze producten gaan nu gebruikmaken van het merk Microsoft 365.
 
-De nieuwe productnamen worden toegepast op 21 april 2020. Dit is alleen een wijziging van de productnaam en er zijn op dit moment geen prijzen of functies gewijzigd.
+De nieuwe productnamen gaan in op 21 april 2020. Dit is alleen een wijziging van de productnaam en er zijn op dit moment geen prijzen of functiewijzigingen.
 
 |Huidige naam |Nieuwe naam  |
 |---------|---------|
@@ -347,371 +361,76 @@ De nieuwe productnamen worden toegepast op 21 april 2020. Dit is alleen een wijz
 
 ### <a name="videos-training-and-docs"></a>Video's, training en documenten
 
-[Wat is er nieuw in Microsoft 365-webreeks](https://go.microsoft.com/fwlink/p/?linkid=2118096): in de loop van deze maand markeren we de driejarige jubileum van Microsoft teams en bieden ze nieuwe functies, waaronder de verbeterde audiokwaliteit in onlinevergaderingen, gerichte communicatie voor firstline Workers-managers met de dienst verwerkings-app, teams en Skype consumenten en meer.
+Nieuw [in Microsoft 365-webreeks:](https://go.microsoft.com/fwlink/p/?linkid=2118096)in de aflevering van deze maand wordt de 3-jaar jubileum van Microsoft Teams belicht en worden nieuwe functies besproken, waaronder verbeterde audiokwaliteit in onlinevergaderingen, Targeted Communications voor firstline-managers met de Diensten-app, Teams en consumenteninteroperabiliteit van Skype, en meer.
 
 ## <a name="february-2020"></a>Februari 2020
 
-### <a name="featured-feedback-fix-multi-organization-switcher"></a>Aanbevolen feedback oplossing: meervoudige overcentraleing
+### <a name="featured-feedback-fix-multi-organization-switcher"></a>Aanbevolen oplossing voor feedback: schakelaar voor meerdere organisaties
 
-We hebben veel feedback ontvangen van partners en beheerders over de uitdagingen voor het beheren van meerdere Microsoft Cloud organisaties. Een van de eerste managementfuncties voor meerdere organisatie is de **organisatie overcentrale**, waarmee u kunt schakelen tussen de organisaties die u in slechts twee klikken beheert.
+We hebben veel feedback ontvangen van partners en beheerders over de uitdagingen voor het beheren van meerdere Microsoft Cloud-organisaties. Een van onze eerste beheerfuncties voor meerdere organisaties is de organisatiewisselaar, waarmee u met slechts twee klikken kunt schakelen tussen de organisaties die u beheert.
 > [!TIP]
-> U hoeft niets te doen om te zorgen dat de organisatie overschakeling wordt weergegeven zolang u de partner bent van de record voor minstens één organisatie.
+> U hoeft niets te doen om de organisatiewisselaar weer te geven, zolang u de recordpartner van ten minste één organisatie bent.
 
-1. Selecteer in het Microsoft 365-Beheercentrum de naam van de organisatie.
-![Schermafbeelding: boven aan de startpagina met de naam van het organisatie pictogram met het pictogram van de schakelaar.](../media/MAC-Organization-switcher.png)
+1. Selecteer de naam van de organisatie in het Microsoft 365-beheercentrum.
+![Schermopname: boven aan de startpagina met de naam van het organisatieprofiel met het schakelpictogram.](../media/MAC-Organization-switcher.png)
 
-2. Selecteer in de centrale organisatie de naam van de organisatie die u wilt beheren.
-![Schermopname: mijn organisatie-wisselaar voor tenants met uitgelichte Messenger-Tenant gemarkeerd](../media/MAC-OrgSwitcherSelected.png)
+2. Selecteer in de organisatiewisselaar de organisatie die u wilt beheren.
+![Schermopname: Tenantwisselaar voor mijn organisatie met de Consolidated Messenger-tenant gemarkeerd](../media/MAC-OrgSwitcherSelected.png)
 
-Dat is er ook!!!
+Dat is letterlijk!!!
 
 ### <a name="groups"></a>Groepen
 
-Een aantal wijzigingen in het gebied groepen deze maand:
+Een aantal wijzigingen in het groepengebied deze maand:
 
-- **Sorteren op groepsnaam**: u kunt de lijst met groepen alfabetisch sorteren met behulp van de kolom **groepsnaam** .
-- **Verwijderde Microsoft 365-groepen herstellen**: u hoeft niet meer naar het Exchange-Beheercentrum te gaan om verwijderde microsoft 365-groepen te herstellen. Ga naar het **Microsoft 365-Beheercentrum** \> **groepen** \> **Verwijderde groepen** \> (Selecteer een groep in de lijst) \> **herstel groep herstellen**. De groep wordt teruggezet in de lijst met **groepen** en de e-mail, gesprekken, notitieblokken, bestanden en de agenda van de groep herstellen.
+- **Sorteren op groepsnaam:** u kunt de lijst met groepen alfabetisch sorteren door de kolom **Groepsnaam te** selecteren.
+- **Verwijderde Microsoft 365-groepen** herstellen: U hoeft niet meer naar het Exchange-beheercentrum te gaan om verwijderde Microsoft 365-groepen te herstellen. Ga naar Groepen verwijderde groepen in het **Microsoft 365-beheercentrum** (selecteer een groep in de \>  \>  \> lijst) \> **Groep herstellen.** Het herstelt de groep  terug naar de lijst Groepen en herstelt de e-mail, gesprekken, notitieblokken, bestanden en agenda van de groep.
 
 ### <a name="videos-training-and-docs-february"></a>Video's, training en documenten (februari)
 
-- **Wat is er nieuw in Microsoft 365-VideoReeks**: deze maand zijn er de functies voor aangepaste zoekfuncties voor SharePoint Online, de Office "wat is de nieuwe beheerfunctie waarmee u specifieke functies van eindgebruikers kunt weergeven of verbergen via het deelvenster in-app, de nieuwste updates voor beveiliging en compliance in Yammer en meer. Dit is de meest recente aflevering: [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
+- Wat is er nieuw **in de Microsoft 365-videoreeks:** Deze maand richten we ons op aangepaste zoekmogelijkheden voor SharePoint Online, de beheerfunctie van Office 'Nieuw' waarmee u specifieke functies voor eindgebruikers kunt weergeven of verbergen via het Help-venster in de app, de nieuwste beveiligings- en nalevingsupdates in Yammer en meer. Dit is de nieuwste aflevering: [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
 
-- **Documenten verplaatsen**: we hebben de Office 365 admin-webartikelen met de microsoft 365-inhoud gecombineerd en u hebt mogelijk de nieuwe URL opgemerkt. Dit artikel bevat bijvoorbeeld de volgende artikelen die worden gehost op: **docs.Microsoft.com/Office365/admin/whats-new-in-Preview**, maar de URL is nu: **docs.Microsoft.com/Microsoft-365/admin/whats-new-in-Preview**. Als u pagina's met bladwijzers hebt, moet u de koppelingen bijwerken. inhouds koppelingen worden echter omgeleid naar de nieuwe inhouds repo.
+- **Verplaatsen van documenten:** We hebben de webartikelen voor Office 365-beheerders gecombineerd met microsoft 365-inhoud en u hebt mogelijk de nieuwe URL gezien. Dit artikel was bijvoorbeeld gehost op: **docs.microsoft.com/Office365/Admin/whats-new-in-preview,** maar de URL is nu: **docs.microsoft.com/microsoft-365/admin/whats-new-in-preview.** Als u een bladwijzer hebt toegevoegd aan pagina's, moet u de koppelingen bijwerken. inhoudskoppelingen worden echter omgeleid naar de nieuwe inhoud die opnieuw wordt gebruikt.
 
-## <a name="january-2020---happy-new-year"></a>Januari 2020-gelukkig Nieuwjaar
+## <a name="january-2020---happy-new-year"></a>Januari 2020 - Gelukkig nieuwjaar
 
 > [!NOTE]
-> Wist u dat er een nieuwe versie van [Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096) -Video's op YouTube is. Dit markeert de nieuwste functies die we voor gebruikers hebben uitgerold. Elke maand beginnen met het koppelen van de nieuwste aflevering in de sectie [Video's, training en documenten](#videos-training-and-docs) . <br> <br> Dit is de meest recente aflevering: [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
+> Wist u dat er een videoreeks over Wat is er nieuw [is in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096) op YouTube? Hier worden de nieuwste functies belicht die we aan gebruikers hebben uitgerold. Elke maand gaan we een koppeling maken naar de meest recente aflevering in de sectie Video's, [training en documenten.](#videos-training-and-docs) <br> <br> Dit is de nieuwste aflevering: [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
 
 ### <a name="dark-mode"></a>Donkere modus
 
-Wanneer we de donkere modus voor het eerst uitrollen, was deze alleen beschikbaar op de startpagina. Donkere modus is nu niet te zien in het voorbeeld en wordt weergegeven op de meeste pagina's in het Beheercentrum.
+Toen we de donkere modus voor het eerst uitrolden, was deze alleen beschikbaar op de startpagina. De donkere modus is nu niet meer te zien in de preview-versie en is beschikbaar op de meeste pagina's in het beheercentrum.
 
-1. Eerst moet u targeted release inschakelen: Ga naar **instellingen** voor het inleveren van \>  \> **uw organisatieprofiel** \> .
-1. Als u de donkere modus wilt inschakelen, gaat u naar de **Start** pagina en selecteert u vervolgens de knop **donkere modus** . (Naast het **Zoek** veld en op dit artikel vindt u **nieuwe** koppelingen.)
-1. Voor pagina's waarop de donkere modus beschikbaar is, bevindt de knop zich boven aan de pagina, naast **de wisselknop nieuw Beheercentrum** .
+1. Schakel eerst Targeted Release in: Ga naar  Instellingen \> **Instellingen** \> **Organisatie profiel** \> **Release-voorkeuren.**
+1. Als u de donkere modus wilt inschakelen, gaat u naar de **startpagina** en selecteert u de **knop Donkere** modus. (Het staat naast het **zoekveld** en de koppeling **Nieuw in dit** artikel.)
+1. Voor elke pagina met de donkere modus is de knop boven aan de pagina, naast de schakelknop **van het nieuwe beheercentrum.**
 
-### <a name="office-whats-new-management"></a>Office nieuw beheer
+### <a name="office-whats-new-management"></a>Beheer van Nieuwe functies in Office
 
-Beheerders willen overstappen op de manier waarop Microsoft communiceert ' wat is nieuw ' voor hun gebruikers in de Office-apps en u hebt nu dat besturingselement. Ga naar **instellingen** \> **Office wat is nieuw voor beheer van Office**. Selecteer een functie om de details ervan weer te geven en klik vervolgens op de knop **verbergen voor gebruikers** als u niet wilt dat gebruikers een bepaald bericht ' wat is er nieuw ' zien. Uw organisatie kan bijvoorbeeld wachten, zodat gebruikers over een functie kunnen beschikken totdat iedereen in uw organisatie hieraan wordt opgeleid.
+Beheerders willen bepalen hoe Microsoft in de Office-apps 'Nieuw' aan hun gebruikers communiceert. U hebt nu die controle. Ga naar **De nieuwe** \> **beheervoorbeelden van Office-instellingen.** Selecteer een functie om de details ervan  weer te geven en selecteer vervolgens de knop Verbergen voor gebruikers als u niet wilt dat uw gebruikers een bepaald bericht 'wat is nieuw' zien. Uw organisatie wacht bijvoorbeeld op het geven van informatie aan gebruikers over een functie totdat iedereen in uw organisatie verantwoordelijk is voor deze functie.
 
-![Schermopname van Office nieuw voorbeeld met het detailvenster van een functie geopend.](../media/whatsnew-officemgmt-preview.png)
+![Schermopname van de preview-versie van Office What's New met het detailvenster van een functie geopend.](../media/whatsnew-officemgmt-preview.png)
 
-Deze functie is voor het eerst uitgebracht in november, maar er zijn een paar functie-updates die u moet weten: [Office-updates voor de nieuwe management preview zijn nu beschikbaar](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-preview/ba-p/1020438)
+Deze functie is in november voor het eerst uitgebracht als preview-versie, maar er zijn een paar functie-updates die u moet kennen: [Office Wat is er nieuw management preview-updates nu beschikbaar](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-preview/ba-p/1020438)
 
-### <a name="partners"></a>Relaties
+### <a name="partners"></a>Partners
 
-Hallo, partners! (Ik kan mij niet raadplegen.) We hebben deze maand ook bijgewerkt met een update. Er is een nieuwe functie waarmee partners cryptografie klanten de mogelijkheid bieden hun Microsoft Customer Agreement (MCA) te accepteren in de sectie **facturerings accounts** van het Beheercentrum. In deze nieuwe ervaring:
+Howdy, Partners! (Ik kon mijzelf niet verder helpen.) We hebben deze maand ook een update voor u ontvangen. Er is een nieuwe functie waarmee Partners CSP-klanten de mogelijkheid kunnen bieden om  hun Microsoft-klantovereenkomst (MCA) te accepteren in de sectie Factureringsaccounts van het beheercentrum. In deze nieuwe ervaring:
 
-1. De klant ontvangt een uitnodiging per e-mail met een koppeling om de partner relatie en de MCA te accepteren.
-2. Nadat de klant zich heeft aangemeld, kan ze de machtigingen voor MCA en partners weergeven en accepteren, rechtstreeks vanuit het Beheercentrum.
+1. De klant ontvangt per e-mail een uitnodiging met een koppeling om de partnerrelatie en de MCA te accepteren.
+2. Nadat de klant zich heeft aangegeven, kan deze de machtigingen voor MCA en de partner bekijken en accepteren, direct vanuit het beheercentrum.
 
-### <a name="resource-mailboxes"></a>Resource postvakken
+### <a name="resource-mailboxes"></a>Resourcepostvakken
 
-De lijst resource postvakken is bijgewerkt naar de nieuwe stijl. Ga in het Microsoft 365-Beheercentrum naar **resource** \> **ruimten & apparatuur**.
+De lijst met resourcepostvakken is bijgewerkt naar de nieuwe stijl. Ga in het Microsoft 365-beheercentrum naar **Resources&** \> **apparatuur.**
 
 ### <a name="videos-training-and-docs-january"></a>Video's, training en documenten (januari)
 
-Bekijk de training voor Office voor professionals en kleine bedrijven, uitgebracht in januari:
+Bekijk de training voor beheerders voor kleine bedrijven die in januari zijn uitgebracht:
 
-- [Uw zakelijke website maken](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
+- [Een bedrijfswebsite maken](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
 - [Antwoorden en hulp zoeken](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
 - [Help of ondersteuning krijgen](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
 - [Een gebruiker verwijderen](https://support.microsoft.com/office/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
-- [Kies een Microsoft-abonnement](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [Overzicht van de beveiliging van Microsoft 365 voor bedrijven](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)
-
-## <a name="november-and-december-2019"></a>November en december 2019
-
-We combineren de medewerkers van november en december, omdat ze een paar van de Ignite hebben. U ziet het nieuwe jaar.
-
-### <a name="change-from-credit-card-to-invoice-payment"></a>Wijzigen van creditcard naar factuur betaling
-
-We gaan nu de mogelijkheid om uw betalingswijze te wijzigen van creditcard naar een factuur. Ga naar de **facturering** van \> **uw producten**, selecteer een abonnement en selecteer vervolgens de **bewerkings** koppeling naast de creditcardbetaling.
-
-![Schermopname: het gedeelte Facturering van een abonnementskaart met een creditcard als betalingsmethode.](../media/MAC-BillingEditCreditCard.png)
-
-Wilt u meer weten? [Wijzigen van creditcard of bankrekening naar factuur](../commerce/billing-and-payments/change-payment-method.md)
-
-### <a name="global-reader"></a>Algemene lezer
-
-We hebben de rol van algemene lezer in de [Ignite-editie van oktober 2019-editie](#october-2019---ignite-edition)besproken, maar het is nog veel meer informatie over het algemeen.
-
-- De rol van algemene lezer is de alleen-lezen-functie voor de globale beheerdersrol. De algemene lezer kan alles zien dat de globale beheerder gemachtigd is.
-- Met een paar uitzonderingen, zoals bepaalde compliance-en beveiligingsfuncties, hebben globale lezerstoegang tot alle Microsoft Cloud beheer centra waarmee uw organisatie een licentie heeft.
-- Wijs de rol van algemene lezer toe aan gebruikers die het nodig hebben voor planning, audits en onderzoek.
-- U kunt de rol van algemene lezer ook combineren met een andere rol met minder machtigingen. De eigenaar van een klein bedrijf kan bijvoorbeeld de algemene **berekenings rollen van de factureringsbeheerder** toewijzen  +   , zodat ze de facturen kunnen betalen en de wijzigingen in hun Cloud indeling kunnen bijhouden.
-- Globale lezers kunnen naar een willekeurige pagina in het Microsoft 365-Beheercentrum gaan. Wanneer u een bewerkbaar pagina opent, wordt er een waarschuwing weergegeven met de mededeling dat ze geen machtiging hebben om wijzigingen op te slaan en de knop opslaan wordt uitgeschakeld.
-
-We willen graag uw feedback krijgen over de rol van de algemene lezer en de machtigingen die op rollen zijn gebaseerd en die u later wilt bekijken. [Feedback geven voor machtigingen op basis van rollen](https://office365.uservoice.com/forums/273493-office-365-admin/suggestions/10115430-have-a-consistent-experience-when-assigning-admin)
-
-### <a name="new-settings-page"></a>Pagina nieuwe instellingen
-
-Het **organisatieprofiel**, het **beveiligings & privacy** en de **Services & invoegtoepassingen** pagina's zijn samengevoegd tot één pagina met drie verticale tabbladen. En het beste deel, vanaf één locatie, kunt u nu alle instellingen zoeken.
-![Schermopname: pagina met instellingen waarbij het veld ' zoeken in alle instellingen ' gemarkeerd is bovenaan de pagina.](../media/MAC-SettingsMultiPivotSearch.png)
-
-### <a name="training--docs"></a>Training & documenten
-
-Dit gedeelte is een nieuwe functie van dit artikel, waar u kunt beginnen met het maken van een koppeling naar de nieuwe training en documentatie waarvan u denkt dat u interessant vindt.
-
-In november hebben we een paar leer paden voor [Microsoft Learn](https://docs.microsoft.com/learn/) -website gepubliceerd om IT-professionals te helpen over en om te leren werken met microsoft 365. Uitchecken:
-
-- [Basisprincipes van Microsoft 365](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
-- [Basisprincipes van Office uitbreiden](https://docs.microsoft.com/learn/paths/extend-office-fundamentals/)
-- [Microsoft 365-modernisering van uw Enterprise-implementatie met Windows 10 en Microsoft 365-apps voor Enterprise](https://docs.microsoft.com/learn/paths/m365-getmodern/)
-- [Uw Enterprise-implementatie beheren met Microsoft 365](https://docs.microsoft.com/learn/paths/manage-enterprise-deployment-m365/)
-- [Upgrade Microsoft Office voor IT-formaat](https://docs.microsoft.com/learn/paths/m365-office-for-it/)
-- [Externe bureaubladen en apps leveren vanuit Azure met Windows Virtual Desktop ](https://docs.microsoft.com/learn/paths/m365-wvd/)
-- [Uw werk met Microsoft 365 en Surface voor bedrijven moderniseren](https://docs.microsoft.com/learn/paths/modernize-workplace-with-m365-and-surface/)
-- [Identiteit en toegang met Microsoft 365 beveiligen](https://docs.microsoft.com/learn/paths/m365-identity/)
-- [Enterprise-informatie beschermen met Microsoft 365](https://docs.microsoft.com/learn/paths/m365-information-protection/)
-- [Beveiliging beheren met Microsoft 365](https://docs.microsoft.com/learn/paths/m365-security-management/)
-- [Het beschermen tegen bedreigingen met Microsoft 365 Defender](https://docs.microsoft.com/learn/paths/m365-security-threat-protection/)
-- [Samenwerking via een team beheren met Microsoft teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration/)
-- [Samenwerken met SharePoint in Microsoft 365](https://docs.microsoft.com/learn/paths/m365-teams-sharepoint/)
-
-## <a name="october-2019---ignite-edition"></a>Oktober 2019-Ignite Edition
-
-Welkom bij de Ignite-editie van de nieuwe versie van het Microsoft 365-Beheercentrum. Natuurlijk is dit geen volledige lijst met aankondigingen, maar hier zijn enkele aandachtspunten. Bekijk ook de Ignite-blogs voor meer fantastische informatie over releases:
-
-- [Beheerders beveiliging, productiviteit en netwerk uitbreidingen voor Microsoft 365](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/ADMIN-Security-Productivity-and-Network-Enhancements-for/ba-p/964019).
-- [Nieuw in Microsoft teams-Ignite 2020](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-New-in-Microsoft-Teams-Ignite-2019/ba-p/937025).
-
-### <a name="role-based-access-control"></a>Toegangsbeheer op basis van rollen
-
-Er zijn een groot aantal wijzigingen voor rollen in het Beheercentrum, aangezien we met de inleiding in juni werken:
-
-- **Rollen vergelijken** : u kunt maximaal 3 rollen selecteren om de machtigingen voor elk van deze te vergelijken. Dit helpt u bij het vinden van de minst strikte rol die u aan gebruikers wilt toewijzen. Ga naar **rollen**, gebruik het selectievakje meervoudige selectie in de eerste kolom om maximaal 3 rollen te kiezen en selecteer vervolgens **rollen vergelijken**.
-
-    ![Vergelijking van de Exchange-beheerder, de beheerders beheerder en de gebruikers beheerdersrollen.](../media/RBAC-CompareRoles.png)
-
-- **Favorieten** : u kunt een ster toevoegen aan uw favoriete of de meest gebruikte rollen, zodat u ze gemakkelijk kunt vinden door de kolom te sorteren of een filter te maken.
-- **Actieve gebruikers**  >  **Rollen beheren** : dit is bijgewerkt en uitgelijnd met de wijzigingen in rollen. Net als in de lijst met rollen hebben we de standaardlijst met rollen de meest nuttige manier bereiken, maar u kunt alle rollen weergeven door het gedeelte **AllesWeergeven op categorie** uit te vouwen.
-- **Rol van algemene lezer** : u hebt erom gevraagd! U hebt het! De rol van [algemene lezer](add-users/about-admin-roles.md) .
-
-### <a name="report-an-issue"></a>Een probleem melden
-
-De service status is bijgewerkt naar de nieuwe stijl en als u problemen ondervindt door een probleem dat niet wordt weergegeven op het dashboard voor de servicestatus, kunt u **een probleem melden** om Microsoft te laten weten. Ga naar **status**  >  **service status**.
-
-### <a name="viral-subscriptions"></a>"Virale"-abonnementen
-
-Zoals u weet, kunnen gebruikers gratis abonnementen inschakelen voor een talloze producten, zoals Power BI en app Connect. U kunt nu de ' virale abonnementen ' zien dat uw gebruikers hebben geprobeerd. Ga naar de **facturering** van  >  **uw producten**. Selecteer het filter **account type** op het tabblad abonnementen om de door de gebruiker gekochte abonnementen te zien. U kunt nu de volgende abonnementen van uw account verwijderen.
-
-### <a name="user-templates"></a>Gebruikerssjablonen
-
-Met sjablonen kunt u eenvoudig veel gebruikers toevoegen door de gedeelde instellingen op te slaan en opnieuw te gebruiken voor deze gebruikers. U kunt waarden opslaan voor rollen, toegewezen licenties, contactgegevens, locatie en meer. Wanneer u de sjabloon gebruikt om een nieuwe gebruiker te maken, krijgt deze automatisch de opgeslagen waarde voor deze instellingen. Ga naar **gebruikers van gebruikers**  >  en selecteer vervolgens de **gebruikerssjablonen** om de app uit te proberen.
-
-### <a name="office-whats-new-management-preview"></a>Office ' wat is er nieuw in het beheer? (preview)
-
-Wanneer een belangrijke Office-functie wordt uitgebracht voor een Office-app, krijgen gebruikers de kaart ' wat is nieuw ' om meer te weten te komen over de nieuwe functie. Als u niet wilt dat gebruikers de kaart zien, kunt u deze verbergen. U kunt ook kiezen wanneer gebruikers de kaart willen weergeven. Ga naar **instellingen**  >  **Office wat is er nieuw** om te bekijken.
-
-### <a name="sharepoint-url-change"></a>Wijziging van SharePoint-URL
-
-Technisch gesproken is dit niet het nieuws van het Microsoft 365-Beheercentrum om te zien, maar we zijn zo enthousiast dat we dit nieuws kunnen zien:
-> [!IMPORTANT]
-> U kunt nu toegang tot uw SharePoint-Beheercentrum met een gewone URL: [https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
-
-Zie [nieuwe functies in het SharePoint-Beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)voor meer informatie.
-
-## <a name="september-2019"></a>September 2019
-
-We zijn op de hoogte van enkele interessante functies bij Ignite 2019, dus we brengen u op de hoogte van enkele nieuwe functies die zijn uitgebracht in september. Maar blijf voor het artikel van de volgende maand op de eerste dag van Ignite.
-
-### <a name="featured-feedback-fix--the-option-to-convert-the-deleted-users-mailbox-to-a-shared-mailbox-is-back"></a>Aanbevolen feedback oplossing: de optie om het postvak van de verwijderde gebruiker te converteren naar een gedeeld postvak is weer
-
-We hebben uw feedback hardop gemaakt en wissen, en de mogelijkheid om iemand anders toegang te geven tot het postvak van een gebruiker door het te converteren naar een **gedeeld postvak**. Als u deze functie weer toevoegt aan de wizard gebruiker verwijderen, kunt u bepalen wat u wilt doen met de gegevens:
-
-- E-mail: laat iemand anders toegang geven tot het postvak van de verwijderde gebruiker door het te converteren naar een gedeeld postvak.
-- Bestanden: sla hun OneDrive-bestanden op en geef iemand anders toegang.
-- Machtigingen: Hiermee verwijdert u machtigingen als iemand toegang heeft tot dit postvak.
-- Aliassen: Verwijder e-mail aliassen zodat ze direct voor een andere gebruiker kunnen worden gebruikt.
-![Schermopname: de wizard gebruikers verwijderen met e-mail aliassen, machtigingen, OneDrive en e-mail opties weergegeven](../media/WhatsNew-DeleteUserWiz.png)
-
-### <a name="initial-setup"></a>Eerste instelling
-
-Er is een update voor een andere van onze oorspronkelijke installatiewizards: Microsoft 365 voor bedrijven. De stappen zijn gestroomlijnd en u hebt twee van de instellingen voor het instellen van de taken op de pagina instellen:
-
-- **Beveilig Windows 10-computers** : Stel beleidsregels in om uw Windows 10-apparaten beter te beschermen tegen virussen, malware en aanvallen door hackers.
-- **Office automatisch installeren** : wanneer u deze optie inschakelt en gebruikers de pc's hebben verbonden met microsoft 365 Business, worden hun computers automatisch bijgewerkt naar de nieuwste Office-apps en blijven ze up-to-date.
-
-## <a name="august-2019"></a>Augustus 2019
-
-### <a name="billing"></a>Facturering
-
-We hebben deze maand updates voor de facturering en abonnementen:
-
-- Op apparaten gebaseerde abonnementen: u kunt **Microsoft 365-apps voor education (Device)** -licenties toewijzen of intrekken voor apparaten in het microsoft 365-Beheercentrum. **Microsoft 365-apps voor onderwijs (apparaat)** is een licentie waarmee u een licentie kunt toewijzen aan een apparaat. Ga naar **facturering** van  >  **uw producten** om de licentie te vinden en te kopen.
-- Licentiebeheer op basis van gebruikers: we hebben de manier waarop u licenties toewijst aan **gebruikers** van  >  de **actieve gebruikers** aan de nieuwe stijl. Zie voor meer informatie:
-  - [Licenties toewijzen aan gebruikers](manage/assign-licenses-to-users.md)
-  - [Licenties van gebruikers verwijderen](manage/remove-licenses-from-users.md)
-
-### <a name="setup-page-updates"></a>Updates van de instellings pagina
-
-Setup bevat nu categorieën en secties, waaronder de **Aanbevolen sectie voor** het delen van de volgende stap in het inschakelen van functies en het instellen van uw organisatie. We hebben ook een nieuwe functie toegevoegd voor het instellen van:
-
-- **Microsoft Defender voor Office 365** -als u een licentie hebt voor het gebruik van Microsoft Defender voor Office 365 en u dit niet hebt geconfigureerd of het bestand nog niet hebt ingeschakeld, ziet u deze pagina. Ga naar **Setup** om het uit te proberen.
-
-### <a name="report-an-issue-august"></a>Een probleem melden (augustus)
-
-Als u problemen ondervindt door een probleem dat niet wordt weergegeven op het dashboard voor service status, kunt u met de functie **probleem melden** een snelle en eenvoudige manier om ons te laten weten. Ga naar **status**  >  **service status**.
-
-## <a name="july-2019"></a>Juli 2019
-
-### <a name="message-center"></a>Berichtencentrum
-
-Het berichtencentrum is bijgewerkt naar het nieuwe ontwerp en dit ziet er fantastisch uit.
-
-![Schermafbeelding: berichtencentrum bijgewerkt met het tabblad alle actieve berichten geselecteerd en het filter menu geopend.](../media/MAC-MessageCenterUpdated.png)
-
-- U kunt nu berichten weergeven **op status**. Selecteer gewoon een van de tabbladen: **alle actieve berichten**, **hoge urgentie**, **ongelezen berichten** en **genegeerde berichten**.
-- U kunt ook filteren op categorie **Data privacy**, een **wijziging plannen**, **problemen voorkomen of oplossen** en de categorieën voor de berichtbeveiliging **behouden** .
-- Selecteer een bericht in de lijst en u hebt een aantal opties op de opdrachtbalk: **negeren**, **markeren als gelezen** of **als ongelezen** markeren of **delen**.
-- Wanneer u een bericht opent, hebt u nog meer opties:
-  - Een koppeling van het bericht naar het Klembord kopiëren om het later op te slaan of te delen met collega's.
-  - Berichten markeren als **gelezen** of **Ongelezen**.
-  - Feedback over een bericht geven door **leuk** of niet- **leuk** te selecteren, wordt er in een deelvenster met feedback een bericht weergegeven met de vraag of u specifieke feedback wilt geven over wat u leuk vindt of niet bevalt over dit bericht.
-
-### <a name="navigation-pane-intelligence"></a>Intelligence van navigatiedeelvenster
-
- In het navigatiedeelvenster worden nu de laatste acties gewijzigd en het deelvenster wordt weergegeven in de laatste staat waar u het hebt achtergelaten. De items die u vaak gebruikt, worden ook standaard weergegeven.
-
-### <a name="initial-setup--the-setup-page"></a>Eerste instelling & de pagina instellen
-
-We hebben een aantal indrukwekkende wijzigingen om u te helpen bij het instellen van uw organisatie. Laten we eerst een bespreking maken van het verschil tussen de **instelling** en de **instellings pagina**. De **installatie** is bedoeld voor de wizard die u hebt gebruikt om de online services van Microsoft uit te brengen. Dit omvat meestal drie specifieke stappen: **een domein verbinden**, **gebruikers toevoegen** en **de Office-apps downloaden**. De **instellings pagina** is de pagina in het Beheercentrum met de aanbevolen instelling voor het instellen van taken, zodat u zeker weet dat u uw abonnement hebt gekocht, zoals het inschakelen van functies waarvoor u licenties hebt gekocht.
-
-- **Installatie** : de wizard initiële installatie is bijgewerkt voor **Microsoft 365 voor bedrijven** -abonnementen. Dit nieuwe ontwerp helpt nieuwe organisaties sneller en succesvol te doen.
-- **Pagina instellen** : met de **instellings** pagina kunt u de services instellen en beveiligen die bij uw abonnementen horen. U vindt ook eventuele genegeerde aanbevelingen op de **instellings** pagina. Als u wilt controleren of uw abonnement nog beschikbaar is voor uw abonnement, gaat u naar de installatie van het **Microsoft 365-Beheercentrum**  >  .
-
-### <a name="billing--subscriptions"></a>Facturering & abonnementen
-
-- Producttype van **Software** : u kunt nu software producten weergeven die zijn gekocht via een provider van cloud providers. Om uw downloads en sleutels te zien, gaat u naar het tabblad **facturering** van  >  **uw producten**  >  **Software** .
-- U kunt modern Azure-producten en-services bekijken via het Microsoft 365-Beheercentrum, ongeacht of u deze hebt aangeschaft bij Microsoft of een externe provider. Voorbeelden van moderne Azure-producten inbegrepen:
-  - Gereserveerde virtuele exemplaren van Azure
-  - Azure-ondersteunings abonnementen
-  - Azure Hybrid use Benefits (AHUB)
-  - Toepassingen beheren
-  - Apparaat-services
-  - Azure-abonnementen
-
-### <a name="simplify-multi-factor-authentication"></a>Multi-factor Authentication eenvoudiger
-
-Beheerders hebben toegang tot gevoelige informatie in uw organisatie. Vereisen dat alle beheerders meervoudige verificatie gebruiken bij het aanmelden. Met de wizard nieuwe wizard kunt u de functie met maar één stap uitvoeren. Als u dit wilt uitproberen, gaat u naar de **instelling**  >  **beveiliging voor aanmelding versterken**.
-
-### <a name="users"></a>Gebruikers
-
-De pagina's **Verwijderde gebruikers** en **gastgebruikers** zijn bijgewerkt naar de nieuwe stijl.
-
-- **Gastgebruikers**: u voegt gastgebruikers toe door deze te uitnodigen voor het weergeven of delen van bestanden in SharePoint of OneDrive. U kunt gastgebruikers van **gebruikers**  >  **gastgebruikers** weergeven.
-- **Verwijderde gebruikers**: op de pagina **Verwijderde gebruikers van verwijderde gebruikers** kunt u alle acties uitvoeren die u in het oudere Beheercentrum kon uitvoeren, maar nu voegt u kolommen toe en verwijdert u ze. U kunt kiezen uit een groot aantal opties voor kolommen. Eigenlijk zijn de kolommen die u kunt kiezen op de pagina **actieve gebruikers** .
-
-## <a name="june-2019"></a>Juni 2019
-
-### <a name="featured-feedback-request---dark-mode"></a>Aanbevolen feedback aanvraag: donkere modus
-
-Het weergeven van het Beheercentrum in de donkere modus is een voorbeeld. U kunt deze nu alleen op de **Start** pagina testen. Op de **Start** pagina bevindt de knop **donkere modus** zich op de opdrachtbalk naast de koppeling **Wat is er nieuw** .
-
-### <a name="roles-management"></a>Rollenbeheer
-
-Aan het einde van juni zijn de rollen voor het beheren van beheerdersrollen op een nieuwe manier geactiveerd. Wanneer de functie beschikbaar is, gaat u naar **rollen**  >  **rollen**. Kijk dan eens naar de naam van een meester.
-<br> ![Schermopname: lijst met beheerdersrollen met het deelvenster gegevens van gebruikersbeheerder gemarkeerd.](../media/MAC-AdminRoles-Featured.png) <br>
-
-Deze nieuwe ervaring maakt het eenvoudiger om te zien wie beheerdersmachtigingen heeft en rollen toe te wijzen die het juiste toegangsniveau voor uw beheerders verlenen. En we hebben ook meer rollen toegevoegd van Azure AD, zodat u niet hoeft te overgaan op meerdere beheer centra.
-Wat kunt u nog meer doen?
-
-- Exporteer een lijst met alle beheerders in uw organisatie die Azure Active Directory-rollen hebben toegewezen in Microsoft 365.  
-- Alle beheerders weergeven die zijn toegewezen aan een specifieke rol, beheerders toevoegen aan of verwijderen uit een specifieke rol, zoeken naar rollen op naam en trefwoord, en meer informatie over wat elke rol mag doen.
-- Snel zoeken naar een specifieke rol en filters maken.
-
-### <a name="payment-method"></a>Betaalwijze
-
-We hebben de manier waarop u betaalt voor uw abonnementen bijgewerkt. Ga naar **facturerings**  >  **&** betaal  >  **methoden** voor betalingen. U kunt uw betaalwijzen weergeven in een lijstweergave. Selecteer een item in de lijst om dit te verwijderen, bewerken en eenvoudig te zien aan welk abonnement de betalingsmethode is gekoppeld.
-
-## <a name="may-2019"></a>Mei 2019
-
-### <a name="mays-featured-fix---case-sensitivity"></a>Mogelijke oplossingen voor de productiviteit
-
-Wanneer u nu naar gedeelde postvakken, contactpersonen, resources en postvak machtigingen zoekt, hoeft u geen hoofdlettergevoelige zoektermen te vinden.
-
-**Gebruikers-en groepsbeheer** Deze maand, na het bijwerken van de **gebruiker blokkeren**, **wachtwoord opnieuw instellen**, lijstweergave van **contactpersonen** , **groepen** lijstweergave en de pagina **groeps** Details naar de nieuwe stijl voor het Beheercentrum.
-
-- Met de lijstweergave nieuwe **groepen** krijgt u meer informatie over uw groepen, en kunt u de manier aanpassen waarop u uw gegevens wilt weergeven en de groepen lijst waarvan u de gegevens wilt weergeven. U kunt nu bijvoorbeeld filteren op **groepen met teams** om te zien of de groepen onderdeel uitmaken van een team en u kunt de kolom **statussen voor teams** toevoegen.
-- De lijst met groepen biedt ook een overzicht van de verbeteringen die u in de lijst ervaring in het gebruikersbeheer aanbrengt, waaronder snelle acties en de contextuele Opdrachtenbalk.
-
-**Aanbevelen**<br>
-U ziet mogelijk een nieuwe aanbevelingen in uw Beheercentrum, net als u vier nieuwe gebruikers hebt toegevoegd. U ziet natuurlijk alleen aanbevelingen als we ervan overtuigd zijn dat uw organisatie uw organisatie zal profiteren. Maar wacht niet totdat we de aanbeveling tonen, dan kunt u deze toevoegen aan de kaart bibliotheek.
-
-- **Wachtwoord verloopt** omdat het wachtwoord zo is ingesteld dat het **nooit verloopt**. Als uw organisatie een andere instelling heeft, kunt u dit aanbeveling alleen zien.
-- **Te veel globale beheerders** , omdat er te veel globale beheerders zijn van een beveiligingsrisico, ziet u deze aanbeveling als u meer dan 4 globale beheerders hebt. We raden u aan om gebruikers alleen toegang te geven tot de toegang die ze nodig hebben om hun werkzaamheden uit te voeren.
-- **Intune-apparaat-bescherming** -als uw licenties intune bevatten en wij detecteren dat u het instellen van intune of het registreren van uw apparaten niet hebt voltooid, wordt u aangeraden een intune-beleid te maken om de bestanden van uw organisatie te beschermen wanneer gebruikers ze openen vanaf hun mobiele apparaat.
-- **Updates voor maandelijkse Office-functies** : we hebben ons vragen over onze zeer kleine klanten en wanneer ze maandelijkse updates van Office-functies ontvangen, zijn hun gebruikers ontzettend realistischer. Dus als u een zeer klein bedrijf bent en u momenteel uw Office-functie updates ter zes maanden ontvangt, ziet u deze aanbeveling.
-
-**Instellingen** <br>
-Ter instelling zijn er een paar wijzigingen. Meestal hoeft u alleen de bestaande instellingen bij te werken naar de nieuwe stijl voor het Beheercentrum. Wanneer we verdergaan en nieuwe instellingen toevoegen die u nog niet eerder hebt gezien, noemen we ze hier. En we hebben één instelling voor het aankondigen van een abonnement: **moderne verificatie**. Ja, er is een nieuwe instelling voor het inschakelen van **moderne verificatie**. Als u wilt uitchecken, gaat u naar **instellingen**  >  **Services &**  >  **moderne verificatie** voor invoegtoepassingen.
-
-## <a name="april-2019"></a>April 2019
-
-De dingen zijn geweldig voor het Beheercentrum. We hebben uw feedback en suggesties gelezen, beantwoorden met de meeste en alles wat u hoeft te zeggen. Natuurlijk doet u uiteraard nog steeds het werk om te controleren of alles aan de pariteit voldoet met het oude Beheercentrum. En onthoud dat we nieuwe functies willen invullen, maar u kunt het niet meteen bereiken.
-
-### <a name="featured-feature---add-users"></a>Aanbevolen functie: gebruikers toevoegen
-
-Voor april bieden we de wizard **gebruikers toevoegen** waarmee u door wordt geleid... Wacht even... gebruikers toevoegen. U kunt hier stapsgewijs de basisinformatie voor het toevoegen van de gebruiker, zoals e-mailadres en weergavenaam, het toewijzen van een licentie en een rol, het toevoegen van de bijbehorende contactgegevens en het uiterlijk van het account van de gebruiker controleren voordat u dit toewijst. **Waarom hebben we deze wijziging aangebracht?** We hebben uw feedback gehoord dat u niet tevreden bent over bijna oneindig schuiven om gebruikers in de vorige ervaring toe te voegen.
-<br> ![Schermafbeelding van de wizard gebruiker toevoegen.](../media/MAC-AddUserWizard.png) <br>
-
-U kunt er op twee manieren voor kijken: <br>
-
-1. Selecteer op de **Start** pagina **gebruiker toevoegen** op de kaart van de **Gebruikersbeheer** . De wizard wordt geopend, dus u hoeft niet te navigeren vanuit een werk dat u aan het doen bent op de **Start** pagina.
-2. Ga naar **gebruikers**  >  **actieve gebruikers** en selecteer vervolgens **gebruiker toevoegen** op de opdrachtbalk.
-<br><br>
-
-Gebruikers hebben nog een paar wijzigingen in de **Gebruikersbeheer**, maar hier is een korte lijst:
-
-- Het deelvenster **rollen beheren** is bijgewerkt naar de nieuwe stijl en is toegankelijk. We hebben de deelvensters voor het **blokkeren** van gebruikers en **gebruikers** van de nieuwe stijl ook bijgewerkt.
-- De positie van **productlicenties** in de opdrachtbalk beheren.
-- Het wijzigen van de foto van een gebruiker is nu eenvoudiger. Selecteer een gebruiker in **actieve gebruikers** en wijzig vervolgens de **foto** onder de foto.
-
-### <a name="but-wait-theres-more"></a>Maar even geduld! Dat is nog niet alles
-
-- Op de **Start** pagina ziet u een nieuwe banner om te zien of u de stappen voor het instellen van uw domein, zoals het toevoegen van een domein, het toevoegen van gebruikers en het downloaden van de Office-apps niet hebt voltooid.
-- De **groeps** lijst en het detailvenster zijn bijgewerkt naar de nieuwe stijl. Ga naar **groepen**  >  **groepen** om de wijzigingen te bekijken.
-  - Met spraakfunctie voor groepen hebben we ook een **Microsoft teams** -tabblad toegevoegd aan het groeps detaildeelvenster, waar u een microsoft 365-groep kunt omzetten in een team. Voor ' teamify ' een groep Selecteer een Microsoft 365-groep uit de lijst, selecteer het tabblad **Microsoft teams** en maak vervolgens een **team**. Als de groep al een team is, krijgt u een koppeling om deze te beheren vanuit het **Beheercentrum van teams**.
-  - Ten slotte kunt u de **Teamstatus** toevoegen aan de lijst met **groepen** . Selecteer in de kolomkop de optie **Columns** van  >  **teams kiezen status**  >  **Opslaan**.
-- **Nieuwe beperkte beheerdersrollen** : we hebben enkele nieuwe beheerdersrollen uitgebracht, zodat u alleen de toegang van de gebruikers kunt verlenen.
-  - **Kaizala-beheerder**: gebruikers van deze rol kunnen alle beheertaken in Microsoft Kaizala uitvoeren, zoals het maken en beheren van gebruikers in Kaizala Directory, het beheren van Kaizala groepen, het beheren van actie kaarten en connectors en serviceaanvragen maken.
-  - **Zoekbeheer**: gebruikers van deze rol hebben volledige toegang tot alle functies van het Microsoft-zoekbeheer in het microsoft 365-Beheercentrum. Zoek beheerders kunnen de rollen zoeken beheerder en zoek editor delegeren aan gebruikers, en inhoud maken en beheren, zoals bladwijzers, Q&van items en locaties. Daarnaast kunnen deze gebruikers het berichtencentrum bekijken, de servicestatus bewaken en serviceaanvragen maken.
-  - **Zoek editor**: gebruikers in deze rol kunnen inhoud voor Microsoft Search maken, beheren en verwijderen in het microsoft 365-Beheercentrum, waaronder bladwijzers, Q&een item en locaties.
-- Deze maand verandert de **facturering** Bonanza...
-  - U kunt nu de CVV voor bestaande creditcards bijwerken zonder deze te verwijderen en opnieuw toe te voegen. U kunt de CVV bijwerken met behulp van  >  **betaalmethoden** voor facturen.
-    - U kunt nu gemakkelijker uw **facturen** vinden en inzicht krijgen in de facturerings problemen die u mogelijk ondervindt. U kunt nu uw facturen zien in de browser in plaats van het PDF-bestand te downloaden. Ga naar   >  **facturen facturen**.
-    - Op de pagina **uw producten** zijn we de abonnementsgegevens samengevoegd als u meerdere abonnementen van hetzelfde type hebt.
-
-## <a name="march-2019---weve-officially-released-the-admin-center"></a>Maart 2019-we hebben het Beheercentrum officieel vrijgegeven
-
-Ook als u het leuke nieuws hebt gemist, hebben we het nieuwe en verbeterde Microsoft 365-Beheercentrum officieel uitgebracht. Hier is het blogbericht met de volgende informatie: [het nieuwe Microsoft 365-Beheercentrum is vandaag verkrijgbaar](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/The-new-Microsoft-365-admin-center-available-today/ba-p/377870). Voor maart gebruiken we de blogberichten voor u om de functies die werden uitgebracht te bekijken, maar u kunt ook het bericht lezen voor de functies die in de nabije toekomst worden uitgebracht, wat we niet mogen doen in de kern inhoud.
-<br> ![Schermopname van de startpagina van het Microsoft 365-Beheercentrum.](../media/M365AC-HomePage.png) <br>
-We gaan een wijziging aanbrengen in het gebied **facturering & abonnementen** dat we willen vermelden. Ik wil dat y'all niet denkt dat we hebben gewerkt, wist u het? Omdat we dit niet doen. In deze maand hebben we de mogelijkheid om uw partnerrelaties te beheren, toegevoegd aan de **facturerings**  >  **accounts**. Van hieruit kunt u uw partnerrelaties nakijken in de adviseur, CSP en indirecte resellers. U kunt ook nieuwe partner relatie aanvragen accepteren, waaronder gedelegeerde beheerdersmachtigingen.
-
-Op dit moment is uw feedback belangrijk voor ons, dus blijf de feedback. Op elke pagina van het Beheercentrum kunt u feedback geven door **feedback geven** in de rechterbenedenhoek te selecteren, naast **hulp nodig?**
-
-## <a name="february-2019---billing--subscriptions-edition"></a>Februari 2019-facturering & abonnements editie
-
-Deze maand richten we op alle verbeteringen die we hebben aangebracht in de gebieden ook wel fijntjes waarnaar wordt verwezen als facturering en abonnementen. In het verleden heeft u waarschijnlijk geen verwijzing naar die zaken ook wel fijntjes, maar denken u nu...
-
-- **Betaalmethoden** – we hebben uw feedback over het bijwerken van uw betalingsmethode niet moeilijk gemaakt en hebben nu veel wijzigingen aangebracht. Ga naar   >  **betalingsmethoden** voor facturering. U kunt eenvoudig uw betaalwijzen zien, zoals uw Visa Card, en aan elk abonnement. Selecteer in uw lijst met betaalwijzen het menu **meer** (drie puntjes naast de vervaldatum) en selecteer vervolgens **Abonnementen weergeven**. U kunt ook uw betaalwijzen bewerken en verwijderen via het menu **meer** .
-- **Factureringsaccount** -gerichte release klanten zien eerst de pagina nieuwe factureringsaccount en worden deze wereldwijd uitgevouwen. Wanneer deze beschikbaar is, gaat **u naar facturerings**  >  **rekening**. Wat kunt u doen op de pagina nieuwe factureringsaccount? Ik ben blij dat u het volgende hebt gevraagd:
-  - Het adres en andere contactgegevens in uw organisatieprofiel rechtstreeks op deze pagina bijwerken. U hoeft niet naar **instellingen**  >  **organisatieprofiel** te gaan, tenzij u dat wilt.
-  - En we gaan de levensduur van klanten met direct of Volume Licensing accepteren en controleren door de klant overeenkomsten van de **facturerings accounts** U kunt ook verbinding maken met andere organisaties, zodat u de organisaties gezamenlijk kunt koppelen om licenties en bronnen te delen.
-- We hebben ook een paar kleinere verbeteringen aangebracht en opgelost:
-  - Een abonnement met betaling per factuur opnieuw activeren
-  - Het adres voor service gebruik voor uw abonnementen bewerken
-  - Op de pagina met voorraad details hebben we wat meldingen uitbreiding toegevoegd, dan wordt u gelinkt naar de werkelijke pagina waar u het werk kunt doen, en zijn er meer acties op de kaart met de voorraadgegevens. Ga naar Details van factuur **facturerings**  >    >  **weergave** op een factuur.
-
-## <a name="january-2019---happy-new-year"></a>Januari 2019-gelukkig Nieuwjaar
-
-- Nog steeds toevoegen in **Services & invoegtoepassingen** -de **instellingen voor > Services & pagina's voor invoegtoepassingen** zijn bijgewerkt. Probeer geïntegreerde apps of rapporten om de laatste weer te geven.
-- **Zoekt u naar verbeteringen?** Kijk niet verder dan het **zoekvak** in de opdrachtbalk. De update is bijgewerkt, zodat u naar taken kunt zoeken. Probeer bijvoorbeeld wachtwoord opnieuw instellen of een gebruiker toevoegen.
-
-### <a name="featured-feedback-fix---licenses-and-apps"></a>Aanbevolen feedback reparatie-licenties en apps
-
-**Licenties en apps** in het deelvenster met gebruikersgegevens worden opnieuw gecombineerd op basis van uw feedback. We hebben de twee functies in eerste instantie gescheiden om ruimte te bieden voor de details van alle licenties en alle mogelijkheden van de app. We horen van u dat licenties en apps in twee deelvensters extra keren zijn toegevoegd. We hebben geluisterd en licenties en apps werden weer gebracht in één tabblad. U kunt nu ervoor zorgen dat een app is uitgeschakeld in alle licenties die aan een gebruiker zijn toegewezen in één deelvenster. Zuivel en cookies. Licenties en apps. Dit wordt nu weergeven.
-
-Uitchecken: **gebruikers > actieve gebruikers >** **licenties en apps voor > gebruikers** bewerken of toevoegen
+- [Een Microsoft-abonnement kiezen](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
+- [Overzicht van de beveiliging van Microsoft 365 voor Bedrijven](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)

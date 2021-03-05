@@ -15,12 +15,12 @@ appliesto:
 - Microsoft 365 Defender
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b32982298a368dc435dad8b6c09188321d099e2
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 6c5c94ce3994424a6d4b6f4a4ac587f5cc5e33ca
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289231"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454695"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Schadelijke e-mail herstellen die wordt bezorgd in Office 365
 
@@ -40,7 +40,7 @@ Beheerders kunnen vereiste acties uitvoeren op e-mailberichten, maar om die acti
 
 ## <a name="manual-and-automated-remediation"></a>Handmatige en geautomatiseerde herstel
 
-*Handmatig zoeken* vindt plaats wanneer beveiligingsteams bedreigingen handmatig identificeren met behulp van de zoek- en filtermogelijkheden in Bedreigingsverkenner. Handmatige e-mail remediation kan worden geactiveerd via elke e-mailweergave *(Malware,* *Phish* of *Alle* e-mail) nadat u een reeks e-mailberichten hebt gevonden die moeten worden ver verhelpen.
+*Handmatig zoeken* vindt plaats wanneer beveiligingsteams bedreigingen handmatig identificeren met behulp van de zoek- en filtermogelijkheden in Bedreigingsverkenner. Handmatige e-mail remediation kan worden geactiveerd via elke e-mailweergave *(Malware,* *Phish* of *Alle* e-mail) nadat u een reeks e-mailberichten hebt gevonden die moeten worden verankerd.
 
 > [!div class="mx-imgBorder"]
 > [![Handmatig zoeken in Office 365 Threat Explorer op datum.](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
@@ -53,7 +53,7 @@ Beveiligingsteams kunnen Bedreigingsverkenner gebruiken om e-mailberichten op ve
 
 - Selectie van query's met uitsluiting: Soms willen teams met beveiligingsbewerkingen e-mailberichten herstellen door een hele query te selecteren en bepaalde e-mailberichten handmatig uit de query uit te sluiten. Een beheerder kan dit doen  door het selectievakje Alles selecteren te gebruiken en omlaag te schuiven om e-mailberichten handmatig uit te sluiten. De query kan maximaal 1000 e-mailberichten lang zijn. Het maximum aantal uitsluitingen is 100.
 
-Nadat e-mailberichten zijn geselecteerd via Bedreigingsverkenner, kunt u beginnen met herstel door directe actie te ondernemen of door e-mailberichten in de wachtrij te zetten voor een actie:
+Nadat e-mailberichten zijn geselecteerd via Bedreigingsverkenner, kunt u beginnen met herstel door direct actie te ondernemen of door e-mailberichten in de wachtrij te zetten voor een actie:
 
 - Directe goedkeuring: wanneer acties zoals verplaatsen naar Postvak *IN,* Verplaatsen naar  ongewenste e-mail, Verplaatsen naar verwijderde *items,* zacht verwijderen of definitief verwijderen zijn geselecteerd door beveiligingsmedewerkers die over de juiste machtigingen machtigingen hebben, en de volgende stappen voor herstel worden gevolgd, begint het herstelproces met het uitvoeren van de geselecteerde actie.  Een tijdelijke flyout toont herstel in uitvoering.
 
@@ -62,7 +62,7 @@ Nadat e-mailberichten zijn geselecteerd via Bedreigingsverkenner, kunt u beginne
 **Geautomatiseerde onderzoeks- en antwoordacties** worden geactiveerd door waarschuwingen of door teams met beveiligingsbewerkingen van Bedreigingsverkenner. Dit kunnen aanbevolen herstelacties zijn die moeten worden goedgekeurd door een beveiligingsteam. Deze acties worden opgenomen op het **tabblad Actie** in het geautomatiseerde onderzoek.
 
 > [!div class="mx-imgBorder"]
-> [![E-mail met malware op de pagina 'Zapped' waarop het tijdstip van de uitvoering van Zap wordt getoond.](../../media/tp-RemediationArticle3.png)](../../media/tp-RemediationArticle3.png#lightbox)
+> [![E-mail met malware op de pagina 'Zapped' met de tijd waarop Zap is uitgevoerd.](../../media/tp-RemediationArticle3.png)](../../media/tp-RemediationArticle3.png#lightbox)
 
 Alle herstelacties (directe goedkeuring of goedkeuring in twee stappen) die zijn gemaakt in Bedreigingsverkenner en goedgekeurde acties die afkomstig zijn van geautomatiseerde onderzoeken, worden weergegeven in het Actiecentrum. U kunt deze openen  via het linkernavigatiedeelvenster onder \> **Actiecentrum controleren.**
 
@@ -73,12 +73,12 @@ In het Actiecentrum ziet u alle herstelacties van de afgelopen 30 dagen. Acties 
 
 Open een herstelitem om details ervan weer te geven, zoals de naam, aanmaakdatum, beschrijving, ernst van bedreiging en status. U ziet ook de volgende twee tabbladen.
 
-- **Tabblad** E-mailverzending: Hier wordt het aantal e-mailberichten weergegeven dat is verzonden via Bedreigingsverkenner of via geautomatiseerde onderzoeken die moeten worden vereenigd. Er kan al dan niet een actie worden ondernomen via deze e-mails.
+- **Tabblad** E-mailverzending: Hier wordt het aantal e-mailberichten weergegeven dat wordt ingediend via Bedreigingsverkenner of via geautomatiseerde onderzoeken die moeten worden vereenigd. Er kan al dan niet een actie worden ondernomen via deze e-mails.
 
   > [!div class="mx-imgBorder"]
-  > [![Het actiecentrum met bedreigingen die wel en niet kunnen worden actie ondernemen.](../../media/tp-RemediationArticle5.png)](../../media/tp-RemediationArticle5.png#lightbox)
+  > [![Het actiecentrum met bedreigingen die wel en niet onder acties kunnen worden ondernomen.](../../media/tp-RemediationArticle5.png)](../../media/tp-RemediationArticle5.png#lightbox)
 
-  - **Actie mogelijk:** E-mailberichten in de volgende postvaklocaties in de cloud kunnen worden geacteerd en verplaatst:
+  - **Actie mogelijk:** e-mailberichten in de volgende postvaklocaties in de cloud kunnen worden geacteerd en verplaatst:
     - Postvak IN
     - Ongewenste e-mail
     - Map verwijderd
@@ -89,17 +89,17 @@ Open een herstelitem om details ervan weer te geven, zoals de naam, aanmaakdatum
 
   - **Niet mogelijk:** E-mailberichten op de volgende locaties kunnen niet worden gebruikt om actie te ondernemen of te worden verplaatst met herstelacties:
     - Quarantaine
-    - Map met harde schijf
+    - Moeilijk verwijderde map
     - On-premises/extern
     - Mislukt/ingetrokken
 
-  Verdachte berichten worden gecategoriseerd als herstelbaar of niet herstelbaar. In de meeste gevallen is het totaal aantal verzonden berichten gelijk aan het totale aantal verzonden berichten door herstellende en niet-herstelbare berichten. Maar in zeldzame gevallen is dit mogelijk niet waar. Dit kan komen door systeemvertraingen, time-outs of verlopen berichten. Berichten verlopen op basis van de bewaarperiode van Bedreigingsverkenner voor uw organisatie.
+  Verdachte berichten worden gecategoriseerd als herstelbaar of niet herstelbaar. In de meeste gevallen is het totaal aantal verzonden berichten gelijk aan het totale aantal verzonden berichten door herstellende en niet-herstelbare berichten. Maar in zeldzame gevallen is dit niet waar. Dit kan komen door systeemvertraingen, time-outs of verlopen berichten. Berichten verlopen op basis van de bewaarperiode van Bedreigingsverkenner voor uw organisatie.
 
   Tenzij u oude berichten herstelt na de bewaarperiode van Bedreigingsverkenner van uw organisatie, is het aan te raden items opnieuw te herstellen als de inconsistenties in het aantal worden weergegeven. Voor systeemvertraging worden herstelupdates meestal binnen een paar uur vernieuwd.
 
-  Als de bewaarperiode van uw organisatie voor e-mail in Bedreigingsverkenner 30 dagen is en u herstelt e-mailberichten die 29-30 dagen terug gaan, worden de tellingen voor e-mailverzending mogelijk niet altijd bij elkaar opgetelde. Het is mogelijk dat de e-mailberichten al zijn begonnen met het afkwaren van de bewaarperiode.
+  Als de bewaarperiode van uw organisatie voor e-mail in Bedreigingsverkenner 30 dagen is en u herstelt e-mailberichten die 29-30 dagen terug gaan, worden de tellingen voor e-mailverzending mogelijk niet altijd bij elkaar opgetelde. De e-mailberichten zijn mogelijk al begonnen met het afkwaren van de bewaarperiode.
 
-  Als herstel een tijdje blijft hangen in de status 'Wordt uitgevoerd', wordt dit waarschijnlijk veroorzaakt door systeemvertraingen. Het kan enkele uren duren om de oplossing te herstellen. Mogelijk ziet u variaties in het aantal e-mailverzendingen, omdat de query aan het begin van de oplossing mogelijk niet is opgenomen in sommige e-mailberichten vanwege systeemvertragen. Het is een goed idee om in dergelijke gevallen opnieuw te proberen te herstellen.
+  Als herstel een tijdje blijft hangen in de status 'Wordt uitgevoerd', wordt dit waarschijnlijk veroorzaakt door systeemvertraingen. Het kan enkele uren duren om de oplossing te herstellen. Mogelijk ziet u variaties in het aantal e-mailinzendingen, omdat de query aan het begin van de herstelquery mogelijk niet is opgenomen vanwege systeemvertraging. Het is een goed idee om in dergelijke gevallen opnieuw te proberen te herstellen.
 
   > [!NOTE]
   > Voor de beste resultaten moet herstel worden uitgevoerd in batches van 50.000 of minder.
@@ -130,9 +130,11 @@ Open een herstelitem om details ervan weer te geven, zoals de naam, aanmaakdatum
   - **Succes:** De gewenste actie voor het herstellen van e-mailberichten is voltooid. Bijvoorbeeld: Een beheerder wil e-mailberichten verwijderen uit postvakken, dus de beheerder voert de actie uit om e-mailberichten te verwijderen. Als er geen herstelbare e-mail wordt gevonden in de oorspronkelijke map nadat de actie is ondernomen, wordt de status als geslaagd weergeven.
 
   - **Fout:** De gewenste actie bij het herstellen van e-mailberichten is mislukt. Bijvoorbeeld: Een beheerder wil e-mailberichten verwijderen uit postvakken, dus de beheerder voert de actie uit om e-mailberichten te verwijderen. Als er nog steeds een herstelbaar e-mailbericht in het postvak is gevonden nadat de actie is ondernomen, wordt de status als mislukt weergeven.
+  
+  - **Al in bestemming:** De gewenste actie is al ondernomen op het e-mailbericht OF het e-mailbericht bestaat al op de doellocatie. Bijvoorbeeld: Een e-mailbericht is op dag 1 door de beheerder in Verkenner zacht verwijderd. Vergelijkbare e-mailberichten worden dan op dag 2 we zien, die weer zacht worden verwijderd door de beheerder. Wanneer u deze e-mailberichten selecteert, worden sommige e-mailberichten van de eerste dag automatisch door de beheerder geselecteerd, die al zacht zijn verwijderd. Er wordt nu geen actie ondernomen op deze e-mailberichten, ze worden alleen maar als 'al in bestemming' gezien, omdat er geen actie is ondernomen op deze e-mailberichten zoals ze op de doellocatie aanwezig zijn.
 
   Selecteer een item in het actielogboek om hersteldetails weer te geven. Als de gegevens 'geslaagd' of 'niet gevonden in postvak' zeggen, is dat item al uit het postvak verwijderd. Soms is er een systeemfout tijdens herstel. In die gevallen is het een goed idee om herstel te proberen.
 
   Als u grote batches herstelt, kunt u ook de berichten exporteren die worden verzonden voor herstel via E-mailverzending en berichten die zijn herstellen via Actielogboeken. De exportlimiet is verhoogd tot 100.000 records.
 
-  Oplossing is een krachtig hulpmiddel om bedreigingen tegen te gaan en verdachte e-mails aan te pakken. Het helpt een organisatie veilig te houden.
+  Herstel is een krachtig hulpmiddel om bedreigingen tegen te gaan en verdachte e-mails aan te pakken. Het helpt een organisatie veilig te houden.

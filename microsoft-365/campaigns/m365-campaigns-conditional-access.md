@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Informatie over het verplicht stellen van MFA en het instellen van beleidsregels voor voorwaardelijke toegang voor Microsoft 365 voor Bedrijven.
-ms.openlocfilehash: b13ba9f8c948d9a1209655c44871ca62cb5354dd
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: e16b7f4ff7d215ee749435806be214a807cc60a4
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044498"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453667"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Meervoudige verificatie vereisen en beleidsregels voor voorwaardelijke toegang instellen
 
@@ -40,7 +40,7 @@ Voor dit beleid moeten beheerders en gebruikers onder bepaalde voorwaarden een t
 Op dit moment bevat het basislijnbeleid de volgende beleidsregels:
 
 - Instellen in het Microsoft 365-beheercentrum:
-  - **MFA vereisen voor beheerders:** meervoudige verificatie is vereist voor de meest bevoorrechte beheerdersrollen, inclusief globale beheerder.
+  - **MFA vereisen voor beheerders:** meervoudige verificatie is vereist voor de meest bevoegde beheerdersrollen, inclusief globale beheerder.
   - **Beveiliging voor eindgebruikers: meervoudige** verificatie is alleen vereist voor gebruikers wanneer een aanmelding riskant is. 
 - Instellen in Azure Active Directory-portal:
   - **Oude verificatie blokkeren:** oudere client-apps en sommige nieuwe apps maken geen gebruik van nieuwere, veiligere verificatieprotocollen. Met deze oudere apps kan beleid voor voorwaardelijke toegang worden overgeslagen en kan er ongeautoriseerde toegang tot uw omgeving worden verkrijgen. Dit beleid blokkeert toegang van clients die geen ondersteuning bieden voor voorwaardelijke toegang. 
@@ -64,13 +64,13 @@ Als u wilt dat alle gebruikers zich met een tweede id aanmelden:
 4. Schakel in het deelvenster **Aanmeldingsbeveiliging** versterken de selectievakjes naast Meervoudige verificatie vereisen voor beheerders in en gebruikers moeten zich registreren voor meervoudige verificatie en toegang blokkeren als er een risico **is** vastgesteld.
     Zorg ervoor dat u het beheerdersaccount [voor noodgevallen](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) of pauzes uitsluit van de MFA-vereiste in het **vak Gebruikers** zoeken.
 
-    ![Versterk de beveiligingspagina voor insing.](../media/requiremfa.png)
+    ![De beveiligingspagina voor insing verbeteren.](../media/requiremfa.png)
 
 5. Kies **Beleid maken** onder aan de pagina.
 
 ## <a name="set-up-baseline-policies"></a>Basislijnbeleidsregels instellen
 
-1. Ga naar de [Azure Portal](https://portal.azure.com)en ga naar **voorwaardelijke** toegang van Azure Active Directory \> **om** een nieuw **beleid te maken.**
+1. Ga naar de [Azure-portal](https://portal.azure.com)en ga naar voorwaardelijke toegang voor **Azure Active** \> **Directory-beveiliging** \> **om** een nieuw **beleid te maken.**
 
 Zie de volgende specifieke instructies voor elk beleid: <br>
     - [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>

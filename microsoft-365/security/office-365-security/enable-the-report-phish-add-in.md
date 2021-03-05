@@ -15,13 +15,13 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Informatie over het inschakelen van de invoegversie Phishing melden voor Outlook en de webversie van Outlook, voor individuele gebruikers of voor de hele organisatie.
-ms.openlocfilehash: 8242f3fcac27f8c76f7bef5a84c70960a204e3bd
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+description: Informatie over het inschakelen van de invoegversie Phishing-melding voor Outlook en de webversie van Outlook, voor individuele gebruikers of de hele organisatie.
+ms.openlocfilehash: 12543364943321689d0efa2c2942351b3d3ec6f9
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286655"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453763"
 ---
 # <a name="enable-the-report-phishing-add-in"></a>De invoegtoepassing Phishing rapporteren inschakelen
 
@@ -33,11 +33,11 @@ ms.locfileid: "50286655"
 
 Met de invoegversies Bericht rapporteren en Phishing melden voor Outlook en de webversie van Outlook (voorheen Outlook Web App) kunnen personen eenvoudig fout-positieven (goede e-mail gemarkeerd als slecht) of fout-negatieven (slechte e-mail toegestaan) rapporteren aan Microsoft en haar partners voor analyse.
 
-Microsoft gebruikt deze inzendingen om de effectiviteit van technologieën voor e-mailbeveiliging te verbeteren. Stel dat veel berichten worden verzonden via de invoeging Phishing melden. Deze informatie wordt beschikbaar in het [beveiligingsdashboard](security-dashboard.md) en andere rapporten. Het beveiligingsteam van uw organisatie kan deze informatie gebruiken om aan te geven dat het anti-phishingbeleid mogelijk moet worden bijgewerkt.
+Microsoft gebruikt deze inzendingen om de effectiviteit van technologieën voor e-mailbeveiliging te verbeteren. Stel bijvoorbeeld dat veel berichten worden verzonden via de invoeging Phishing-melding. Deze informatie wordt beschikbaar in het [beveiligingsdashboard](security-dashboard.md) en andere rapporten. Het beveiligingsteam van uw organisatie kan deze informatie gebruiken om aan te geven dat het anti-phishingbeleid mogelijk moet worden bijgewerkt.
 
 U kunt de invoegapp Bericht rapporteren of Phishing melden installeren. Als u wilt dat uw gebruikers zowel spam- als phishingberichten melden, implementeert u de invoegapp Bericht rapporteren in uw organisatie. Zie De [invoegapp Bericht rapporteren inschakelen voor meer informatie.](enable-the-report-message-add-in.md)
 
-De invoegvoegvoeging Phishing melden biedt de optie om alleen phishingberichten te melden. Beheerders kunnen de invoeg versie phishing melden inschakelen voor de organisatie en afzonderlijke gebruikers kunnen deze voor zichzelf installeren.
+De invoegvoegvoeging Phishing melden biedt de optie om alleen phishingberichten te melden. Beheerders kunnen de invoegvoeging Phishing melden inschakelen voor de organisatie en afzonderlijke gebruikers kunnen deze voor zichzelf installeren.
 
 Als u een individuele gebruiker bent, kunt u de invoeggebruiker [Phishing melden voor uzelf inschakelen.](#get-the-report-phishing-add-in-for-yourself)
 
@@ -49,11 +49,11 @@ Als u een globale beheerder of Een Exchange Online-beheerder bent en Exchange is
 
   - Webversie van Outlook
   - Outlook 2013 SP1 of hoger
-  - Outlook 2016 voor Mac
+  - Outlook 2016 voor Mac of hoger
   - Outlook inbegrepen in Microsoft 365-apps voor Enterprise
   - Outlook-app voor iOS en Android
 
-- De invoegbox Report Phishing is niet beschikbaar voor postvakken in on-premises Exchange-organisaties.
+- De invoegbox Phishing-melding is niet beschikbaar voor gedeelde postvakken of postvakken in on-premises Exchange-organisaties.
 
 - U kunt gerapporteerde berichten configureren om te worden gekopieerd of omgeleid naar een postvak dat u opgeeft. Zie Beleidsregels voor [gebruikersinzending voor meer informatie.](user-submission.md)
 
@@ -73,7 +73,7 @@ Als u een globale beheerder of Een Exchange Online-beheerder bent en Exchange is
 
 4. Meld u aan met uw werk- of schoolaccount (voor zakelijk gebruik) of uw Microsoft-account (voor persoonlijk gebruik).
 
-Nadat de invoeg toevoegen is geïnstalleerd en ingeschakeld, ziet u de volgende pictogrammen:
+Nadat de invoeg-invoeging is geïnstalleerd en ingeschakeld, ziet u de volgende pictogrammen:
 
 - In Outlook ziet het pictogram er zo uit:
 
@@ -115,14 +115,14 @@ Nadat de invoeg toevoegen is geïnstalleerd en ingeschakeld, ziet u de volgende 
    - **Implementatiemethode:** selecteer een van de volgende waarden:
 
      - **Opgelost (standaard)**: De invoeg toevoegen wordt automatisch geïmplementeerd voor de opgegeven gebruikers en ze kunnen deze niet verwijderen.
-     - **Beschikbaar:** gebruikers kunnen de invoeg invoeg mag installeren in **de Home** \> **Get-invoegvoegingen,** \> **beheerd door de beheerder.**
-     - **Optioneel:** De invoegvoeginstelling wordt automatisch geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen ervoor kiezen om deze te verwijderen.
+     - **Beschikbaar:** gebruikers kunnen de invoeg mag installeren op **de Home** \> **Get-invoegingen,** \> **beheerd door de beheerder.**
+     - **Optioneel:** De invoeg mag automatisch worden geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen ervoor kiezen om deze te verwijderen.
 
    Klik op Implementeren wanneer u klaar **bent.**
 
 8. Op de **phishing-pagina Rapport** implementeren die wordt weergegeven, ziet u een voortgangsrapport, gevolgd door een bevestiging dat de invoeg mail is geïmplementeerd. Nadat u de informatie hebt gelezen, klikt u op **Volgende.**
 
-9. Controleer de gegevens op de pagina Aankondiging van **de invoeging** die wordt weergegeven en klik op **Sluiten.**
+9. Controleer de gegevens op de pagina Aankondiging van **de invoegpagina** en klik op **Sluiten.**
 
 ## <a name="learn-how-to-use-the-report-phishing-add-in"></a>Informatie over het gebruik van de invoeg toepassing Phishing melden
 
@@ -140,14 +140,14 @@ Personen aan wie de invoeg toevoeg is toegewezen, zien de volgende pictogrammen:
 
 1. Ga in het Microsoft 365-beheercentrum  naar de pagina \> **Instellingen-invoegvoegingen** op . Als u de pagina Invoeg toevoegen niet ziet, gaat u naar de koppeling Geïntegreerde <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>   \>  \> **apps-invoeginstellingen**  instellingen boven aan de pagina Geïntegreerde apps.
 
-2. Zoek en selecteer de **invoegvoeg voor Phishing** melden.
+2. Zoek en selecteer de **invoegvoeging Phishing** melden.
 
-3. In de **Phishing-flyout Rapport** bewerken die wordt weergegeven, controleert en bewerkt, waar nodig voor uw organisatie. Klik op **Opslaan** wanneer u gereed bent.
+3. In de **Phishing-flyout Rapport** bewerken die wordt weergegeven, controleert en bewerkt, waar van toepassing is voor uw organisatie. Klik op **Opslaan** wanneer u gereed bent.
 
 ## <a name="view-and-review-reported-messages"></a>Gerapporteerde berichten weergeven en controleren
 
-Als u berichten wilt controleren die gebruikers rapporteren bij Microsoft, hebt u deze opties:
+Als u berichten wilt bekijken die gebruikers rapporteren bij Microsoft, hebt u deze opties:
 
 - Gebruik de portal Voor het indienen van beheerders. Zie Gebruikersinzendingen voor [Microsoft weergeven voor meer informatie.](admin-submission.md#view-user-submissions-to-microsoft)
 
-- Maak een e-mailstroomregel (ook wel transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels voor de [e-mailstroom gebruiken om te zien](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)wat uw gebruikers melden bij Microsoft.
+- Maak een e-mailstroomregel (ook wel transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels voor [e-mailstroom gebruiken om te zien wat uw gebruikers melden bij Microsoft.](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)

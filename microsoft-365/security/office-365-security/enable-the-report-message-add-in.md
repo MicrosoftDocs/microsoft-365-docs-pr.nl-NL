@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Informatie over het inschakelen van de invoegversie bericht rapporteren voor Outlook en de webversie van Outlook, voor individuele gebruikers of voor de hele organisatie.
+description: Informatie over het inschakelen van de invoegversie Bericht rapporteren voor Outlook en de webversie van Outlook, voor individuele gebruikers of voor de hele organisatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 08ad2f61cc5dcd2e59af89ca788319c81e2f6bdb
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 5eed0fc8905020ea12d3fa6a51c5c8051205b0da
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287363"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453751"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
@@ -40,11 +40,11 @@ Met de invoegversies Bericht rapporteren en Phishing rapporteren voor Outlook en
 
 Microsoft gebruikt deze inzendingen om de effectiviteit van technologieën voor e-mailbeveiliging te verbeteren. Als personen bijvoorbeeld een groot aantal berichten melden die zijn gemarkeerd als ongewenste [e-mail](configure-your-spam-filter-policies.md)door de invoeging Bericht rapporteren, moet het beveiligingsteam van uw organisatie mogelijk het antispambeleid aanpassen.
 
-U kunt de invoegapp Bericht rapporteren of Phishing melden installeren. Als u wilt dat uw gebruikers alleen phishing-berichten melden, implementeert u de invoeg procenten voor phishing in uw organisatie. Zie [Phishing-invoegvoeging melden inschakelen voor meer informatie.](enable-the-report-phish-add-in.md)
+U kunt de invoegapp Bericht rapporteren of Phishing melden installeren. Als u wilt dat uw gebruikers alleen phishing-berichten melden, implementeert u de invoeg procenten voor phishing in uw organisatie. Zie [Phishing-invoeging melden](enable-the-report-phish-add-in.md)inschakelen voor meer informatie.
 
 De invoegapp Bericht rapporteren biedt de optie om zowel spam- als phishingberichten te melden. Beheerders kunnen de invoegapp Bericht rapporteren voor de organisatie inschakelen en afzonderlijke gebruikers kunnen deze voor zichzelf installeren.
 
-Als u een individuele gebruiker bent, kunt u de [invoegapp Bericht rapporteren voor uzelf inschakelen.](#get-the-report-message-add-in-for-yourself)
+Als u een individuele gebruiker bent, kunt u [de invoegapp Bericht rapporteren voor uzelf inschakelen.](#get-the-report-message-add-in-for-yourself)
 
 Als u een globale beheerder of een beheerder van Exchange Online bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u de invoeginstelling Bericht rapporteren [inschakelen voor uw organisatie.](#get-and-enable-the-report-message-add-in-for-your-organization) De rapportmel Add-In dingsmelding is nu beschikbaar via [Gecentraliseerde implementatie.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
@@ -58,15 +58,15 @@ Als u een globale beheerder of een beheerder van Exchange Online bent en Exchang
   - Outlook inbegrepen in Microsoft 365-apps voor Enterprise
   - Outlook-app voor iOS en Android
 
-- De invoegapp Bericht rapporteren is niet beschikbaar voor postvakken in on-premises Exchange-organisaties.
+- De invoegapp Bericht rapporteren is niet beschikbaar voor gedeelde postvakken of postvakken in on-premises Exchange-organisaties.
 
 - U kunt gerapporteerde berichten configureren om te worden gekopieerd of omgeleid naar een postvak dat u opgeeft. Zie Beleidsregels voor [gebruikersinzending voor meer informatie.](user-submission.md)
 
 - Uw bestaande webbrowser moet werken met de invoegapp Bericht rapporteren. Maar als u merkt dat de invoeg mail niet beschikbaar is of niet werkt zoals verwacht, probeer dan een andere browser.
 
-- Voor installaties van de organisatie moet de organisatie worden geconfigureerd voor het gebruik van OAuth-verificatie. Zie Bepalen of [Gecentraliseerde implementatie van invoegingen voor uw organisatie](../../admin/manage/centralized-deployment-of-add-ins.md)werkt voor meer informatie.
+- Voor installaties van de organisatie moet de organisatie worden geconfigureerd voor het gebruik van OAuth-verificatie. Zie Bepalen of [Gecentraliseerde implementatie](../../admin/manage/centralized-deployment-of-add-ins.md)van invoegvoegingen voor uw organisatie werkt voor meer informatie.
 
-- Beheerders moeten lid zijn van de rollengroep voor globale beheerders. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+- Beheerders moeten lid zijn van de rollengroep globale beheerders. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
 ## <a name="get-the-report-message-add-in-for-yourself"></a>De invoegapp Bericht rapporteren voor uzelf op halen
 
@@ -80,7 +80,7 @@ Als u een globale beheerder of een beheerder van Exchange Online bent en Exchang
 
 4. Meld u aan met uw werk- of schoolaccount (voor zakelijk gebruik) of uw Microsoft-account (voor persoonlijk gebruik).
 
-Nadat de invoeg toevoegen is geïnstalleerd en ingeschakeld, ziet u de volgende pictogrammen:
+Nadat de invoeg-invoeging is geïnstalleerd en ingeschakeld, ziet u de volgende pictogrammen:
 
 - In Outlook ziet het pictogram er zo uit:
 
@@ -103,13 +103,13 @@ Zie De invoegapp Rapportbericht gebruiken voor meer informatie over het gebruik 
 
    ![Pagina Services en invoegingen in het Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-3. Bekijk **de informatie in de** flyout Een nieuwe invoeg toevoeg toevoegen implementeren die wordt weergegeven en klik op **Volgende.**
+3. Bekijk **de informatie in de** flyout Een nieuwe invoeg toevoegen implementeren die wordt weergegeven en klik op **Volgende.**
 
 4. Klik op de volgende pagina op **Kiezen uit de Store.**
 
    ![Een nieuwe invoegpagina implementeren](../../media/NewAddInScreen2.png)
 
-5. Klik op de **pagina Invoeg** toevoegen selecteren  die wordt weergegeven in het  zoekvak, voer **Rapportbericht** in en klik vervolgens op het ![ pictogram ](../../media/search-icon.png) Zoeken. Zoek in de lijst met resultaten **Rapportbericht en** klik op **Toevoegen.**
+5. Klik op de **pagina Invoeg** toevoegen selecteren  die wordt weergegeven in het  zoekvak, voer **Rapportbericht** in en klik vervolgens op het ![ pictogram ](../../media/search-icon.png) Zoeken. Zoek in de lijst met resultaten **Bericht rapporteren en** klik op **Toevoegen.**
 
    ![Zoekresultaten voor invoegingen selecteren](../../media/NewAddInScreen3.png)
 
@@ -127,7 +127,7 @@ Zie De invoegapp Rapportbericht gebruiken voor meer informatie over het gebruik 
 
      - **Opgelost (standaard)**: De invoeg toevoegen wordt automatisch geïmplementeerd voor de opgegeven gebruikers en ze kunnen deze niet verwijderen.
      - **Beschikbaar:** gebruikers kunnen de invoeg mag installeren op **de Home** \> **Get-invoegingen,** \> **beheerd door de beheerder.**
-     - **Optioneel:** De invoegvoeginstelling wordt automatisch geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen ervoor kiezen om deze te verwijderen.
+     - **Optioneel:** De invoeg mag automatisch worden geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen ervoor kiezen om deze te verwijderen.
 
    ![Pagina voor het configureren van invoeginstellingen](../../media/configure-add-in.png)
 
@@ -137,7 +137,7 @@ Zie De invoegapp Rapportbericht gebruiken voor meer informatie over het gebruik 
 
    ![Pagina Rapportbericht implementeren](../../media/deploy-report-message-page.png)
 
-9. Controleer de gegevens op de pagina Aankondiging van **de invoeging** die wordt weergegeven en klik op **Sluiten.**
+9. Controleer de gegevens op de pagina Aankondiging van **de invoegpagina** en klik op **Sluiten.**
 
    ![Pagina voor aankondigen van invoegvoeging](../../media/announce-add-in-page.png)
 
@@ -169,8 +169,8 @@ Wanneer u gebruikers op de hoogte stelt van de invoegapp Bericht rapporteren, vo
 
 ## <a name="view-and-review-reported-messages"></a>Gerapporteerde berichten weergeven en controleren
 
-Als u berichten wilt controleren die gebruikers rapporteren bij Microsoft, hebt u deze opties:
+Als u berichten wilt bekijken die gebruikers rapporteren bij Microsoft, hebt u deze opties:
 
 - Gebruik de portal Voor het indienen van beheerders. Zie Gebruikersinzendingen voor [Microsoft weergeven voor meer informatie.](admin-submission.md#view-user-submissions-to-microsoft)
 
-- Maak een e-mailstroomregel (ook wel transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels voor de [e-mailstroom gebruiken om te zien](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)wat uw gebruikers melden bij Microsoft.
+- Maak een e-mailstroomregel (ook wel transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels voor [e-mailstroom gebruiken om te zien wat uw gebruikers melden bij Microsoft.](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)

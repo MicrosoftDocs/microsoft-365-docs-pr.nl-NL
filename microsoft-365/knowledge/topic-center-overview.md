@@ -11,15 +11,15 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection:
 - enabler-strategic
-- m365initiative-topics
+- m365initiative-viva-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d9965c04335e77abc449cbc155ece63372869ee9
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 54e513fc12a42d2779ee5f35628781676adc0f48
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107742"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453991"
 ---
 # <a name="topic-center-overview"></a>Overzicht van het onderwerpcentrum
 
@@ -32,7 +32,7 @@ Alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, hebben toegang t
 
 ## <a name="where-is-my-topic-center"></a>Waar is mijn onderwerpcentrum
 
-Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. Nadat de installatie is voltooid, kan een beheerder de URL vinden op de [beheerpagina van het Onderwerpcentrum.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-administration#to-access-topics-management-settings)
+Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. Nadat de installatie is voltooid, kan een beheerder de URL vinden op de beheerpagina [van het Onderwerpcentrum.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-administration#to-access-topics-management-settings)
 
 
 1. Klik in het Microsoft 365-beheercentrum op **Instellingen** en vervolgens **op Organisatie-instellingen.**
@@ -57,11 +57,11 @@ Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. 
 
 Op de startpagina van het onderwerpcentrum ziet u de onderwerpen in uw organisatie waarmee u verbinding hebt.
 
-- Voorgestelde verbindingen: u ziet onderwerpen die worden weergegeven onder **We hebben u over deze onderwerpen vermeld. Is het juist?** Dit zijn onderwerpen waarin uw verbinding met het onderwerp via AI wordt voorgesteld. U bent bijvoorbeeld een auteur van een gerelateerd bestand of een site. U wordt gevraagd te bevestigen dat u in de lijst moet blijven staan als verwante persoon voor het onderwerp.
+- Voorgestelde verbindingen: u ziet onderwerpen die worden weergegeven onder **We hebben u over deze onderwerpen vermeld. Is het juist?** Dit zijn onderwerpen waarin uw verbinding met het onderwerp via AI is voorgesteld. U bent bijvoorbeeld een auteur van een gerelateerd bestand of een site. U wordt gevraagd te bevestigen dat u in de lijst moet blijven staan als verwante persoon voor het onderwerp.
 
    ![Voorgestelde verbindingen](../media/knowledge-management/my-topics.png) </br>
  
-- Bevestigd verbindingen: dit zijn onderwerpen waarin u bent vastgemaakt aan de onderwerppagina of waarvan u een voorgestelde verbinding met het onderwerp hebt bevestigd. Onderwerpen worden verplaatst van de voorgestelde naar de bevestigd sectie wanneer u een voorgestelde verbinding bevestigt.
+- Bevestigd verbindingen: dit zijn onderwerpen waaraan u bent vastgemaakt aan de onderwerppagina of waaraan u een voorgestelde verbinding met het onderwerp hebt bevestigd. Onderwerpen worden verplaatst van de voorgestelde naar de bevestigd sectie wanneer u een voorgestelde verbinding bevestigt.
  
    ![Bevestigd onderwerpen](../media/knowledge-management/my-topics-confirmed.png) </br>
 
@@ -70,10 +70,10 @@ Wanneer een gebruiker zijn of haar verbinding met een onderwerp bevestigt, kan d
 
 ## <a name="manage-topics-page"></a>Pagina Onderwerpen beheren
 
-Als u in de **sectie Onderwerpen beheren van** het  Onderwerpcentrum wilt werken, moet u de vereiste machtigingen voor het beheren van onderwerpen hebben die nodig zijn voor de functie Knowledge Manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) de installatie [van Knowledge Management,](set-up-topic-experiences.md)anders kunnen nieuwe gebruikers later door een beheerder worden toegevoegd via het Microsoft 365-beheercentrum.
+Als u wilt werken in **de sectie Onderwerpen** beheren  van het Onderwerpcentrum, moet u de vereiste machtigingen voor het beheren van onderwerpen hebben die nodig zijn voor de functie Knowledge Manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) de installatie [van Knowledge Management,](set-up-topic-experiences.md)anders kunnen nieuwe gebruikers later door een beheerder worden toegevoegd via het Microsoft 365-beheercentrum.
 
-Op de pagina Onderwerpen beheren worden in het onderwerpdashboard alle onderwerpen weergegeven die zijn geïdentificeerd vanaf de opgegeven bronlocaties. In elk onderwerp wordt de datum gevonden waarop het onderwerp is gevonden. Een gebruiker aan wie de machtiging **Onderwerpen** beheren is toegewezen, kan de niet-geconfirmeerde onderwerpen bekijken en het volgende kiezen:
-- Bevestig het onderwerp: markeert het onderwerp aan gebruikers die toegang hebben tot de bestanden en pagina's die betrekking hebben op het onderwerp, en laat hen de bijbehorende onderwerpkaart en onderwerppagina zien.
+Op de pagina Onderwerpen beheren worden in het onderwerpdashboard alle onderwerpen weergegeven die zijn geïdentificeerd vanaf de opgegeven bronlocaties. In elk onderwerp wordt de datum gevonden waarop het onderwerp is gevonden. Een gebruiker aan  wie de machtiging Onderwerpen beheren is toegewezen, kan de niet-geconfirmeerde onderwerpen bekijken en het volgende kiezen:
+- Bevestig het onderwerp: Markeert het onderwerp aan gebruikers die toegang hebben tot de bestanden en pagina's die betrekking hebben op het onderwerp, en laat hen de bijbehorende onderwerpkaart en onderwerppagina zien.
 - Het onderwerp publiceren: Bewerk de onderwerpgegevens om de kwaliteit te verbeteren van het onderwerp dat in eerste instantie is geïdentificeerd, en markeert het onderwerp aan alle gebruikers die weergavetoegang tot onderwerpen hebben. 
 - Het onderwerp weigeren: Maakt het onderwerp niet beschikbaar voor gebruikers. Het onderwerp wordt verplaatst naar het **tabblad Geweigerd** en kan later zo nodig worden bevestigd. 
 

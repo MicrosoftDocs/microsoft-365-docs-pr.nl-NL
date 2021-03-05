@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ee1777debdb91a6ac73737db2db48e434ed3e2e2
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: afa5cd42545eddafb1d0ec1a6d88eb0903e07820
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930088"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454549"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Vereisten voor Microsoft 365 Defender
 
@@ -50,9 +50,6 @@ Met elk van deze licenties hebt u zonder extra kosten toegang tot microsoft 365 
 - Microsoft Cloud App Security
 - Defender voor Office 365 (abonnement 2)
 
-> [!NOTE]
-> Proeflicenties voor Office 365 bieden op dit moment geen toegang tot Microsoft 365 Defender.
-
 Bekijk de Serviceplannen [voor Microsoft 365 Enterprise voor meer informatie.](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)
 
 > Hebt u nog geen licentie? [Koop een Microsoft 365-abonnement of probeer er een uit](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
@@ -64,7 +61,7 @@ Ga naar het Microsoft 365-beheercentrum[(admin.microsoft.com)](https://admin.mic
 > U moet de rol Factureringsbeheerder  **of** Globale lezer [hebben toegewezen in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) om licentiegegevens te kunnen zien. Als u toegangsproblemen ondervindt, neem dan contact op met een globale beheerder.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
-U moet een globale beheerder **of** beveiligingsbeheerder **in** Azure Active Directory zijn om Microsoft 365 Defender in te zetten. Lees de toegang tot Microsoft 365 Defender voor een lijst met de vereiste rollen voor het gebruik van [Microsoft 365 Defender](mtp-permissions.md)en informatie over hoe toegang tot gegevens is geregeld.
+U moet een globale beheerder **of** beveiligingsbeheerder **in** Azure Active Directory zijn om Microsoft 365 Defender in te zetten. Lees de toegang tot [Microsoft 365 Defender](mtp-permissions.md)voor een lijst met de vereiste rollen voor het gebruik van Microsoft 365 Defender en informatie over hoe toegang tot gegevens is geregeld.
 
 ## <a name="browser-requirements"></a>Browservereisten
 Gebruik Microsoft 365 Defender in het Microsoft 365-beveiligingscentrum met Microsoft Edge, Internet Explorer 11 of een webbrowser die compatibel is met HTML 5.

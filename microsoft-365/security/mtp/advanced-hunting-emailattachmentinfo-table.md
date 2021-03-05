@@ -20,12 +20,12 @@ mms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b810d7b15ef47a33a0675086219d2193cea00f2e
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: dd1af6e9ece8a3728db74eadc163ce277e6e84eb
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145017"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461613"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -53,8 +53,6 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `FileName` | tekenreeks | Naam van het bestand waar de opgenomen actie op is toegepast |
 | `FileType` | tekenreeks | Bestandsextensietype |
 | `SHA256` | tekenreeks | SHA-256 van het bestand waar de opgenomen actie op is toegepast. Dit veld wordt meestal niet ingevuld. Gebruik indien beschikbaar de kolom SHA1. |
-| `MalwareFilterVerdict` | tekenreeks | Door het gebruik van e-mailfilters wordt bepaald of de e-mail malware bevat: Malware, Geen malware |
-| `MalwareDetectionMethod` | tekenreeks | Methode die wordt gebruikt om malware in het e-mailbericht te detecteren: Antimalware-engine, Bestandsreputatie, Veilige bijlagen |
 | `ThreatTypes` | tekenreeks | Op basis van het gebruik van e-mailfilters wordt bepaald of de e-mail malware, phishing of andere bedreigingen bevat. |
 | `ThreatNames` | tekenreeks | Naam van detectie voor malware of andere bedreigingen gevonden |
 | `DetectionMethods` | tekenreeks | Methoden die worden gebruikt om malware, phishing of andere bedreigingen te detecteren die in de e-mail worden gevonden |

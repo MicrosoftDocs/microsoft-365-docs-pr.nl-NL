@@ -7,13 +7,13 @@ audience: Admin
 ms.topic: article
 ms.service: bookings
 localization_priority: Normal
-description: Microsoft Bookings Veelgestelde vragen.
-ms.openlocfilehash: 35e1b71fb7d87d40aa9a3a60d2e3cf108f36c2bf
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+description: Veelgestelde vragen over Microsoft Bookings.
+ms.openlocfilehash: a293bf86225731917068712c2887ea79c2540039
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751379"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454287"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft Bookings
 
@@ -21,60 +21,60 @@ ms.locfileid: "49751379"
 
 ### <a name="what-is-microsoft-bookings"></a>Wat is Microsoft Bookings?
 
-Microsoft Bookings is een Microsoft 365-app waarmee u afspraken eenvoudig kunt plannen en beheren. Bookings omvat een webformulier voor het reserveren van een webversie en wordt geïntegreerd met Outlook, zodat de agenda van uw personeel wordt geoptimaliseerd, zodat uw klanten een goede tijd kunnen vinden die voor hen het meest geschikt is. Geautomatiseerde e-mail e-mailberichten verminderen geen enkele weergave en uw organisatie bespaart tijd met een verlaging in terugkerende planningstaken. Met Bookings kunt u gemakkelijk virtuele afspraken organiseren via Skype of Microsoft teams, en kunt u de dagelijkse planning voor de dag van de dag beheren via de app boekingen in teams. Met de ingebouwde mogelijkheid om aan te passen, kunnen de reserveringen voldoen aan de behoeften van meerdere delen van een willekeurige organisatie.
+Microsoft Bookings is een Microsoft 365-app waarmee u eenvoudig afspraken kunt plannen en beheren. Bookings bevat een webboekingsagenda en is geïntegreerd met Outlook om de agenda van uw personeel te optimaliseren, zodat uw klanten de flexibiliteit hebben om een tijd te boeken die het beste voor hen werkt. Automatische e-mails met meldingen reduceren niet-voorstellingen en organisaties besparen tijd door steeds minder terugkerende planningstaken uit te voeren. Met Bookings kunt u eenvoudig virtuele afspraken maken via Skype of Microsoft Teams en kunt u de dagelijkse planning beheren via de Bookings-app in Teams. Met de ingebouwde mogelijkheid om aan te passen, is Bookings ontworpen om te voldoen aan de behoeften van meerdere onderdelen van een organisatie.
 
 ### <a name="how-do-i-use-microsoft-bookings"></a>Hoe gebruik ik Microsoft Bookings?
 
-Bookings is een online dienst, dus u hoeft niets te downloaden. Ga naar de app-kiezer binnen de webversie van Microsoft 365. Beheerders kunnen ook de app Bookings Companion gebruiken om op de hoogte te blijven van de meest recente informatie over klanten en hun afspraken.
+Bookings is een onlineservice, dus u hoeft niets te downloaden. Ga naar de app-kiezer in de Microsoft 365 Web Experience. Beheerders kunnen ook de app Bookings companion gebruiken om op de hoogte te blijven van de meest recente informatie over klanten en hun afspraken.
 
-### <a name="who-has-access-to-microsoft-bookings"></a>Wie heeft er toegang tot Microsoft Bookings?
+### <a name="who-has-access-to-microsoft-bookings"></a>Wie heeft toegang tot Microsoft Bookings?
 
-Bookings is standaard beschikbaar en actief voor Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, A5, E3 en E5-klanten wereldwijd. Bookings is ook beschikbaar in Office 365, beheerd door 21Vianet.
+Bookings is standaard beschikbaar en actief voor klanten met Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 en E5 over de hele wereld. Bookings is ook beschikbaar in Office 365 beheerd door 21Vianet.
 
 ### <a name="will-my-customers-see-my-personal-or-business-calendar"></a>Zien mijn klanten mijn persoonlijke of zakelijke agenda?
 
-Uw klanten zien alleen de boekings agenda die u online publiceert voor de services, tijden en personeel die u wilt registreren.
+Uw klanten zien alleen de Bookings-agenda die u online publiceert voor de services, tijden en personeel dat u wilt registreren.
 
-### <a name="how-do-i-change-a-bookable-attribute-under-manage-staff"></a>Hoe kan ik een bookable-kenmerk wijzigen onder personeel beheren?
+### <a name="how-do-i-change-a-bookable-attribute-under-manage-staff"></a>Hoe wijzig ik een boekbaar kenmerk onder Personeel beheren?
 
-Wanneer personeelsleden zijn toegevoegd, ontvangen ze een e-mail om het verzoek te accepteren of te weigeren. Ze kunnen hetzelfde e-mailbericht openen en ' negeren ' selecteren om ze niet-bookable te maken. U kunt dit op dit moment niet in de app wisselen.
+Wanneer personeelsleden werden toegevoegd, zouden ze een e-mail hebben ontvangen om de aanvraag te accepteren of te weigeren. Ze kunnen hetzelfde e-mailbericht openen en 'Weigeren' selecteren om ze niet-boekenbaar te maken. We hebben op dit moment geen manier om dit in de app te schakelen.
 
-### <a name="how-do-end-users-access-the-bookings-app"></a>Hoe opent eindgebruikers de app Bookings?
+### <a name="how-do-end-users-access-the-bookings-app"></a>Hoe krijgen eindgebruikers toegang tot de app Bookings?
 
-Iedereen die een licentie heeft voor Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, A5, E3, E5 of wordt toegevoegd als een personeelslid in de beheerder of de functie voor het openen van een book in de app-kiezer binnen de Microsoft 365-website. Er is ook een Companion-app beschikbaar voor iOS en Android.
+Iedereen die een licentie heeft voor Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3, E5 of als personeelslid is toegevoegd, heeft toegang tot Bookings in de app-kiezer in de Microsoft 365 Web experience. Er is ook een companion-app beschikbaar voor iOS en Android.
 
-### <a name="can-i-use-bookings-in-my-own-web-site"></a>Kan ik Bookings gebruiken in mijn eigen website?
+### <a name="can-i-use-bookings-in-my-own-web-site"></a>Kan ik Bookings gebruiken op mijn eigen website?
 
-Ja. We bieden u een manier om uw boekings agenda via een iFrame in te sluiten op uw site. Het insluiten van koppelingscode bevindt zich op het tabblad **Bookings pagina** van de app bookings.
+Ja. U kunt uw Bookings-agenda op uw site insluiten via een iFrame. De code voor het insluiten van een koppeling bevindt zich op het **tabblad Boekingspagina** in de app Bookings.
 
-### <a name="can-i-use-bookings-even-if-i-dont-have-a-web-page-for-my-business"></a>Kan ik Bookings zelfs gebruiken als ik geen webpagina heb voor mijn bedrijf?
+### <a name="can-i-use-bookings-even-if-i-dont-have-a-web-page-for-my-business"></a>Kan ik Bookings gebruiken, zelfs als ik geen webpagina voor mijn bedrijf heb?
 
-Ja. We bieden een koppeling naar de boekings pagina op het tabblad **reservering pagina** in de web-app. Een koppeling naar uw klanten of klanten hoeft alleen te worden opgegeven, en de nieuwste beschikbaarheidsinformatie voor uw bedrijf wordt weergegeven. U kunt ook de boekings pagina delen op sociale media of de functie insluiten gebruiken om de pagina in een iFrame te hosten. U kunt ook instellen wie toegang heeft tot de pagina door het indexeren van directe zoekprogramma's uit te schakelen en de toegang tot alleen de personen binnen uw organisatie te beperken.
+Ja. We geven een koppeling naar uw reserveringspagina op het **tabblad Boekingspagina** in de web-app. U hoeft alleen die koppeling naar uw klanten of klanten op te geven, zodat ze de meest recente beschikbaarheidsinformatie voor uw bedrijf zien. U kunt de reserveringspagina ook delen in sociale media of de insluitfunctie gebruiken om deze te hosten in een iFrame. U kunt ook bepalen wie toegang heeft tot de pagina door direct indexeren van zoekmachines uit te stellen en de toegang te beperken tot alleen personen binnen uw organisatie.
 
 ### <a name="can-our-it-department-control-whether-end-users-can-access-bookings"></a>Kan onze IT-afdeling bepalen of eindgebruikers toegang hebben tot Bookings?
 
-Bookings is beschikbaar in Microsoft 365 Business Premium, Microsoft 365 Business Standard, M365 a3/A5 en E3/E5-tenants, maar beheerders kunnen de optie uitschakelen in het Microsoft 365-Beheercentrum, indien van toepassing. Als u dit wilt doen, [volgt u deze instructies](turn-bookings-on-or-off.md).
+Bookings is standaard beschikbaar in tenants van Microsoft 365 Business Premium, Microsoft 365 Business Standard, M365 A3/A5 en E3/E5, maar beheerders kunnen dit uitschakelen in het Microsoft 365-beheercentrum als ze dat willen. Volg deze instructies [om dit te doen.](turn-bookings-on-or-off.md)
 
-Als een klant de toegang tot Bookings van bepaalde licenties in de Tenant wil blokkeren, kunnen ze een Groepsbeleid gebruiken om licenties te beperken of een beleid voor het OWA-postvak in te voeren waarmee wordt beperkt wie nieuwe boekings agenda's kunnen maken.
+Als een klant de toegang tot Bookings wil uitschakelen voor bepaalde in aanmerking komende licenties in de tenant, kan deze een groepsbeleid gebruiken om licenties te beperken of een OWA-postvakbeleid implementeren dat beperkt wie nieuwe Bookings-agenda's kan maken.
 
-Als u een OWA-postvak beleid gebruikt om de toegang tot Bookings te deactiveren, hebben alle gebruikers een licentie voor Bookings, maar wanneer ze toegang proberen te krijgen tot de app, worden deze alleen uitgevoerd als ze deel uitmaken van het beleid of als ze zijn toegevoegd aan een bestaande Bookings-agenda als medewerkers. [Hier vindt](turn-bookings-on-or-off.md) u meer informatie over de sectie ' alleen geselecteerde gebruikers toestaan om boekings agenda's te maken '.
+Als u OWA-postvakbeleid gebruikt om toegang tot Bookings uit te schakelen, hebben alle gebruikers een Bookings-licentie. Wanneer ze echter proberen de app te openen, zijn ze alleen succesvol als ze deel uitmaken van het beleid of als ze als personeel aan een bestaande Bookings-agenda zijn toegevoegd. Details [hier](turn-bookings-on-or-off.md) in de sectie 'Alleen geselecteerde gebruikers toestaan om Boekingsagenda's te maken'.
 
-### <a name="is-bookings-customizable"></a>Is reserveringen aanpasbaar?
+### <a name="is-bookings-customizable"></a>Kan Bookings worden aangepast?
 
-Ja, reserveringen zijn aanpasbaar en kunnen worden gebruikt voor diverse verschillende scenario's. Wanneer u een Bookings-agenda instelt, kunt u verschillende aspecten van de pagina voor het plannen van het web, uw bedrijfsgegevens, personeelsgegevens, servicetypen en het planningsbeleid aanpassen.
+Ja, Bookings kan worden aangepast en kan worden gebruikt voor verschillende scenario's. Wanneer u een Bookings-agenda instelt, kunnen veel aspecten van de planningspagina op het web, uw bedrijfsgegevens, personeelsgegevens, servicetypen en planningsbeleidsregels worden aangepast.
 
-### <a name="is-all-the-functionality-of-the-original-bookings-web-app-available-in-microsoft-teams"></a>Is alle functionaliteit van de oorspronkelijke Bookings-web-app die beschikbaar is in Microsoft teams?
+### <a name="is-all-the-functionality-of-the-original-bookings-web-app-available-in-microsoft-teams"></a>Is alle functionaliteit van de oorspronkelijke Bookings-web-app beschikbaar in Microsoft Teams?
 
-Een lichtgewicht versie van Bookings is nu beschikbaar als een app in teams. Ga naar de eerste aankondiging [hier](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/). Er is een uitgebreide koppelings functionaliteit om te pop-out in de web-app, en na het instellen, het dagelijks gebruik van Bookings kan plaatsvinden zonder dat u teams hoeft te verlaten. Informatiestromen op meerdere platforms.
+Een lichtgewicht versie van Bookings is nu beschikbaar als app in Teams. U kunt de eerste aankondiging hier [vinden.](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/) Er is een deep link-functionaliteit beschikbaar in de web-app en na de installatie kunt u Bookings dagelijks gebruiken zonder Teams te verlaten. Informatiestromen tussen platforms.
 
-### <a name="is-bookings-a-small-business-offering-or-an-enterprise-offering-or-both"></a>Is Bookings een klein bedrijf of een bedrijfs aanbieding of beide?
+### <a name="is-bookings-a-small-business-offering-or-an-enterprise-offering-or-both"></a>Is Bookings een klein bedrijf of een Enterprise-aanbieding of beide?
 
-Bookings is een ideale oplossing voor klanten met een bedrijfsbeheerder en een klein bedrijf, in diverse branches. Gebruik zaken zijn:
+Bookings is een ideale oplossing voor klanten met zowel ondernemingen als kleine bedrijven, in diverse bedrijfstakken. Enkele situaties:
 
 - Financiële dienstverlening
-    - geschied
-    - Bank-en verzekeringsdiensten
-    - belasting archiveringen
+    - overleg
+    - bank- en verzekeringsservices
+    - belastingaangiften
 
 - Personeelszaken (HR)
     - sollicitatiegesprekken
@@ -83,278 +83,278 @@ Bookings is een ideale oplossing voor klanten met een bedrijfsbeheerder en een k
     - training en seminars
 
 - Gezondheidszorg
-    - bezoeken van patiënten
-    - samenwerking tussen providers
-    - verzekeringen raadpleegt
+    - patiëntenbezoeken
+    - samenwerking tussen provider en provider
+    - insurance consults
 
-- Overheid & overheids sector
-    - rechterlijke hoor en proefversies
-    - openbare Services
-    - afspraken van de afdeling
+- Overheid & openbare sector
+    - rechtszaken en rechtszaken
+    - openbare services
+    - afdelingsafspraken
 
-- Opleiding-K-12
-    - bovenliggende en docenten vergaderingen
-    - Stadhuis school
-    - leerling-counselor bezoeken
+- Onderwijs -- K-12
+    - ouder-docent-vergaderingen
+    - raadszaal van school
+    - bezoeken aan leerlingen/studenten
 
-- Education--hoger Ed
+- Education -- Hoger Ed
     - kantooruren
-    - lesgeven
-    - leerlingen/studenten diensten
-    - Registreer u voor het examen
+    - 10:
+    - studentenservices
+    - aanmelding bij examen
 
 - Detailhandel
-    - Assisted Shop
-    - contractant planning
-    - Ontwerpservices
+    - assisted shopping
+    - planning aannemer
+    - ontwerpservices
 
-- Algemene Enterprise-en Small Business behoeften
-    - vergaderingen met klanten en cliënten
+- Algemene behoeften voor ondernemingen en kleine bedrijven
+    - klant- en klantvergaderingen
     - technische ondersteuning
     - juridische beoordelingen
-    - tolk
+    - faciliteiten
 
 ## <a name="pricing-and-licensing"></a>Prijzen en licenties
 
-### <a name="how-do-i-get-microsoft-bookings"></a>Hoe krijg ik Microsoft Bookings?
+### <a name="how-do-i-get-microsoft-bookings"></a>Hoe kom ik aan Microsoft Bookings?
 
-Bookings is beschikbaar in Microsoft 365 voor klanten met Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, A5, E3, en E5-app. Bookings is niet beschikbaar als zelfstandige app. Outlook Web app of de webversie van Outlook moeten zijn ingeschakeld voor het gebruik van reserveringen, aangezien hierin gegevens in Outlook worden opgeslagen.
+Bookings is beschikbaar in Microsoft 365 voor klanten met microsoft 365 Business Premium-, Microsoft 365 Business Standard-, A3-, A5-, E3- en E5-licenties, samen met een companion-app voor iOS en Android. Bookings is niet beschikbaar als zelfstandige app. Outlook Web App of de webversie van Outlook moet zijn ingeschakeld voor het gebruik van Bookings, omdat in Outlook gegevens worden opgeslagen.
 
-Een Bookings-licentie biedt volledige functionaliteit voor het product, waaronder het maken en beheren van agenda's. De mogelijkheid biedt gebruikers ook de mogelijkheid om bestaande agenda's weer te geven en te bewerken wanneer deze gebruikers als medewerkers worden toegevoegd aan de rol van een beheerder of lezer.
+Een Bookings-licentie biedt volledige functionaliteit voor het product, waaronder het maken en beheren van agenda's. Daarnaast kunnen gebruikers bestaande agenda's bekijken en bewerken wanneer deze gebruikers als personeelslid worden toegevoegd in de rol Beheerder of Viewer.
 
-### <a name="do-i-need-to-migrate-my-email-account-from-my-current-provider-to-microsoft-365"></a>Moet ik mijn e-mailaccount van mijn huidige provider migreren naar Microsoft 365?
+### <a name="do-i-need-to-migrate-my-email-account-from-my-current-provider-to-microsoft-365"></a>Moet ik mijn e-mailaccount migreren van mijn huidige provider naar Microsoft 365?
 
-U kunt uw huidige provider behouden, maar met Bookings worden alle meldingen verzonden naar het e-mailbericht dat wordt gebruikt in uw Microsoft 365-account.
+U kunt uw huidige provider behouden, maar Bookings stuurt alle meldingen naar het e-mailadres dat wordt gebruikt in uw Microsoft 365-account.
 
 ### <a name="can-my-employees-use-bookings-without-a-microsoft-365-account"></a>Kunnen mijn werknemers Bookings gebruiken zonder een Microsoft 365-account?
 
-Ja. U kunt uw personeelsleden toevoegen aan elk e-mailbericht en ze ontvangen nog steeds de e-mail en de uitnodiging van de agenda wanneer iemand een afspraak met ze opneemt.
+Ja. U kunt uw medewerkers toevoegen met elk e-mailadres en zij ontvangen nog steeds de e-mailbevestiging en de agenda-uitnodiging wanneer iemand een afspraak met hen maakt.
 
-### <a name="can-i-create-more-than-one-bookings-calendar-under-the-same-microsoft-365-account-and-switch-between-them"></a>Kan ik meer dan één Bookings-agenda maken onder hetzelfde Microsoft 365-account en ertussen schakelen?
+### <a name="can-i-create-more-than-one-bookings-calendar-under-the-same-microsoft-365-account-and-switch-between-them"></a>Kan ik meer dan één Bookings-agenda maken onder hetzelfde Microsoft 365-account en hiertussen schakelen?
 
-Ja. U kunt meerdere Bookings-agenda's maken en beheren met één rekening. U kunt schakelen tussen de invoegtoepassingen, naast de naam van het bedrijf in de web-app bookings.
+Ja. U kunt meer dan één Bookings-agenda met één account maken en beheren. U kunt hiertussen schakelen met het caret naast de bedrijfsnaam in de Web-app van Bookings.
 
-### <a name="what-if-my-organization-has-mixed-licenses-with-f1f3-e1-and-e3e5"></a>Wat moet ik doen als mijn organisatie gemengde licenties heeft met F1/F3, E1 en E3/E5?
+### <a name="what-if-my-organization-has-mixed-licenses-with-f1f3-e1-and-e3e5"></a>Wat gebeurt er als mijn organisatie gemengde licenties heeft met F1/F3, E1 en E3/E5?
 
-U wordt geadviseerd dat in meerdere organisaties een gemengde licentie voor Microsoft 365 is geïnstalleerd. Een klant heeft bijvoorbeeld M365 E3-licenties voor werknemers in hun Headquarters, maar M365 E1 (of F1 of F3)-licenties voor hun winkel medewerkers.
+Veel organisaties hebben een combinatie van Microsoft 365-licenties. Een klant kan bijvoorbeeld M365 E3-licenties hebben voor werknemers op het hoofdkantoor, maar M365 E1-licenties (of F1 of F3) voor hun winkelwerkmedewerkers.
 
-In dit voorbeeld hebben de hoofdkantoor medewerkers met een M365 E3-licentie volledige toegang tot Bookings, wat betekent dat ze nieuwe agenda's kunnen maken, instellingen kunnen bewerken, medewerkers toevoegen, een reserverings pagina publiceren, afspraken in de agenda maken en beheren en rapporten verzamelen.
+In dit voorbeeld hebben de werknemers van het hoofdkantoor met een M365 E3-licentie volledige toegang tot Bookings. Dit betekent dat ze nieuwe agenda's kunnen maken, instellingen kunnen bewerken, personeel kunnen toevoegen, een reserveringspagina kunnen publiceren, afspraken kunnen maken en beheren in de agenda en rapporten kunnen op halen.
 
-Deze winkel medewerkers met E1/F1/F3-licenties, of zonder licenties, kunnen nog steeds als medewerkers worden toegevoegd aan agenda's in een gast functie en vervolgens op afspraken worden vastgelegd, en ontvangen ze een e-mailbericht met een bevestiging wanneer ze worden geboekt. Ze kunnen nog steeds worden geboekt tijdens hun beschikbare/geplande uren, zoals vermeld op het tabblad personeel. Met de beschikbaarheid in de agenda van de Bookings-agenda bookable tijden op basis van hun ingestelde uren en service-uren.
+Die werknemers met een E1/F1/F3-licentie, of zonder licenties, kunnen nog steeds als personeel worden toegevoegd aan agenda's als gastrol en vervolgens worden geboekt voor afspraken, en ze ontvangen een bevestigingsbericht wanneer ze zijn geboekt. Ze kunnen nog steeds worden geboekt tijdens de beschikbare/geplande uren, zoals vermeld op het tabblad Personeel. De beschikbaarheid in de Bookings-agenda beperkt de boekbare tijden op de door hen in te stellen uren en serviceuren.
 
-De winkel medewerkers worden ook weergegeven als niet beschikbaar in Bookings als een afspraak al op dat moment is gepland via de Bookings-web-app. Afspraken die via Bookings worden geboekt, worden weergegeven als bezet in de agenda van een personeelslid binnen bookings. Medewerkers met een licentie voor niet-Bookings met een licentie kunnen de persoonlijke agenda van de e-mail beïnvloeden, op voorwaarde dat ze zich in dezelfde Tenant bevinden.
+De werknemers van de winkel worden ook als niet beschikbaar weergegeven in Bookings als er op dat moment al een afspraak is gepland via de web-app Bookings. Afspraken die zijn geboekt via Bookings, worden als bezet weergegeven in de agenda van een personeelslid in Bookings. Medewerkers met een licentie die niet voor Bookings is ingeschakeld, kunnen nog steeds hun persoonlijke agenda gebruiken voor hun beschikbaarheid in Bookings, mits ze zich binnen dezelfde tenant hebben.
 
-Personen in de rol gast kunnen alle informatie bekijken die de klant heeft opgegeven tijdens het maken van de eerste afspraak. Als een vertegenwoordiger van de winkel voor de afspraak de klant moet bellen voordat de afspraak de klant vóór de afspraak heeft gevraagd, hebben ze toegang tot de informatie die de klant tijdens het planningsproces levert. Het personeelslid dat wordt vastgelegd, heeft toegang tot alle informatie die wordt weergegeven in de bevestigings-e-mail, evenals de agendagebeurtenis van ICS (zoals het telefoonnummer van de klant, indien deze is ingevoerd).
+Personen in de rol Gasten kunnen alle informatie bekijken die de klant heeft verstrekt tijdens de eerste afspraak. Als bijvoorbeeld de vertegenwoordiger van de winkel die voor de afspraak is geboekt, de klant moet bellen vóór de afspraak, heeft deze toegang tot de informatie die de klant tijdens het planningsproces verstrekt. Het personeelslid dat is geboekt, heeft toegang tot alle informatie die wordt weergegeven in het bevestigingsbericht, evenals de ICS-agendagebeurtenis (zoals het telefoonnummer van de klant als dit is ingevoerd).
 
-Personen met de rol gast kunnen geen toegang krijgen tot de web-app Bookings om instellingen te wijzigen of afspraken te bekijken en te beheren (toevoegen, annuleren en opnieuw plannen). Ze kunnen echter wel afspraken maken namens klanten die de pagina selfservice gebruiken, op dezelfde manier als een klant een afspraak maakt.
+Personen met de rol Gast hebben geen toegang tot de Web-app van Bookings om instellingen te wijzigen of afspraken weer te geven en te beheren (toevoegen, annuleren en opnieuw plannen). Ze kunnen echter afspraken maken namens klanten via de selfservicepagina, op dezelfde manier als een klant een afspraak maakt.
 
-U wordt aangeraden een licentie voor Business Manager of beheerder van elke winkel aan te bevelen met een in aanmerking komende licentie voor het instellen en beheren van pagina's en afspraken. De rest van de medewerkers werkt vervolgens samen met de werknemers met een licentie voor bookings om een reservering opnieuw te plannen of te annuleren.
+U wordt aangeraden een business manager of beheerder van elke winkel een licentie te verlenen die in aanmerking komt voor Bookings om pagina's en afspraken in te stellen en te beheren. De rest van het personeel werkt dan samen met de werknemer met een licentie voor Bookings om een reservering opnieuw te plannen of te annuleren.
 
-## <a name="product-features"></a>Product functies
+## <a name="product-features"></a>Productfuncties
 
-### <a name="where-do-bookings-calendars-show-up-in-my-microsoft-365-tenant"></a>Waar worden boekings agenda's weergegeven in mijn Microsoft 365-Tenant? * *
+### <a name="where-do-bookings-calendars-show-up-in-my-microsoft-365-tenant"></a>Waar worden Bookings-agenda's in mijn Microsoft 365-tenant?**
 
-Bij elke nieuwe boekings agenda wordt in Exchange een bijbehorend postvak gemaakt en ook de bijbehorende vermeldingen in azure Active Directory (AAD), waarbij de vermelding wordt vermeld als een gebruiker zonder licentie.
+Elke nieuwe Bookings-agenda maakt een bijbehorend postvak in Exchange, evenals een gerelateerd item in Azure Active Directory (AAD), waarin het item wordt weergegeven als een gebruiker zonder een gelicenseerde gebruiker.
 
 ### <a name="can-i-delete-a-previously-created-bookings-calendar"></a>Kan ik een eerder gemaakte Bookings-agenda verwijderen?
 
-Als u een Bookings-agenda wilt verwijderen, moet u het bijbehorende postvak verwijderen uit Exchange.
+Als u een Bookings-agenda wilt verwijderen, moet u het gekoppelde postvak in Exchange verwijderen.
 
-### <a name="if-i-create-a-calendar-and-someone-else-has-access-to-bookings-would-they-be-able-to-see-my-calendar"></a>Als ik een agenda Maak en iemand anders toegang heeft tot Bookings, kunnen ze mijn agenda zien?
+### <a name="if-i-create-a-calendar-and-someone-else-has-access-to-bookings-would-they-be-able-to-see-my-calendar"></a>Kan iemand anders mijn agenda zien als ik een agenda maak en iemand anders toegang heeft tot Bookings?
 
-De enige personen die toegang hebben tot Bookings-agenda's die u maakt (via de web-app), is iedereen die als medewerker is toegevoegd, in een beheerder of een rol van de lezer. Tenant beheerders kunnen een lijst met alle Bookings postvakken zien in Exchange en AAD.
+De enige personen die toegang hebben tot Bookings-agenda's die u maakt (via de web-app), zijn personen die als personeelslid zijn toegevoegd, in de rol Beheerder of Viewer. Tenantbeheerders kunnen een lijst zien met alle Bookings-postvakken in Exchange en AAD.
 
-### <a name="are-video-conferencing-meetings-integrated-into-the-bookings-app"></a>Zijn vergaderingen met videovergaderingen geïntegreerd in de app bookings.
+### <a name="are-video-conferencing-meetings-integrated-into-the-bookings-app"></a>Zijn videovergaderingen geïntegreerd in de Bookings-app?
 
-Online vergaderingen zijn beschikbaar binnen Bookings wanneer u de Skype-of Microsoft teams-clients gebruikt. Online vergaderingen kunnen op serviceniveau worden ingeschakeld, en de gekozen client voor de vergadering (skype of teams) is standaard ingesteld voor een vastgelegd personeelslid. Als u wilt deelnemen aan de onlinevergaderingen, beschikt elke nieuwe afspraak over een unieke koppeling van de vergadering die aan de afspraak is gekoppeld, en daarnaast zijn de opties voor eenvoudige samenvoeging opgenomen in de gebeurtenis en in de bevestigings-e-mails.
+Onlinevergaderingen zijn beschikbaar in Bookings wanneer u de Skype- of Microsoft Teams-clients gebruikt. Onlinevergaderingen kunnen worden ingeschakeld op serviceniveau en de vergaderclient die u kiest (Skype of Teams) wordt standaard ingesteld voor een geboekt personeelslid. Als u wilt deelnemen aan de onlinevergaderingen, wordt aan elke nieuwe afspraak een unieke koppeling naar de vergadering gekoppeld. Daarnaast worden eenvoudige opties voor deelnemen opgenomen in de gebeurtenis en in bevestigingse-mailberichten.
 
-### <a name="how-does-scheduling-policy-work"></a>Hoe werkt het planningsbeleid?
+### <a name="how-does-scheduling-policy-work"></a>Hoe werkt planningsbeleid?
 
-Met een instelling die de **maximum tijd voor potentiële klanten** wordt genoemd, wordt het meest voorafgaande voorschot vastgesteld (gemeten in dagen) dat een reservering kan worden gemaakt. U moet ten minste 24 uur tussen de **minimale levertijd** (de minimale levertijd, in uren, voor boekingen en annuleringen) en maximale doorlooptijd minimaal 24 uur hebben. Maximum tijd voor potentiële klanten kan worden ingesteld op één dag als de minimale doorlooptijd is ingesteld op 0 uur, wat betekent dat een klant een reservering kan annuleren tot de tijd waarop de afspraak begint, en klanten alleen reserveringen kunnen plannen als de afspraak zich binnen de volgende dag bevindt.
+Een instelling met de **naam Maximale doorlooptijd** bepaalt het verste van tevoren (gemeten in dagen) dat een reservering kan worden gemaakt. Er moet ten minste 24 uur tussen de **minimale** doorlooptijd (de minimale doorlooptijd, in uren, voor reserveringen en annuleringen) en de maximale doorlooptijd zijn. De maximale doorlooptijd kan worden ingesteld op één dag als de minimumtijd voor de doorlooptijd is ingesteld op 0 uur. In dit geval betekent dit dat een klant een reservering kan annuleren tot het moment waarop deze begint en klanten alleen reserveringen kunnen plannen als de afspraak binnen de volgende dag valt.
 
 :::image type="content" source="media/bookings-faq-scheduling.png" alt-text="Plannen in Bookings":::
 
-### <a name="how-does-bookings-work-across-time-zones"></a>Hoe werken boekingen over tijdzones?
+### <a name="how-does-bookings-work-across-time-zones"></a>Hoe werken Bookings in verschillende tijdzones?
 
-Alle tijden bevinden zich standaard in de Business-tijdzone (de lokale tijdzone). Dit betekent dat elke instelling die u configureert voor een Bookings agenda, zoals werkuren, wordt weergegeven in deze tijdzone. De pagina selfservice is de mogelijkheid om alle tijden van de afspraak weer te geven in de tijdzone van de eindgebruiker, die desgewenst kunnen worden uitgeschakeld. Als **altijd tijds sleuven in de Business-tijdzone weergeven** worden uitgeschakeld op het tabblad Bookings pagina, zien de personen die de pagina bezoeken de tijd sleuven in hun eigen lokale tijdzones.
+Alle tijden staan standaard in de bedrijfstijdzone (uw lokale tijdzone). Dit betekent dat elke instelling die u configureert voor een Bookings-agenda, zoals werkuren, in deze tijdzone wordt weergegeven. De selfservicepagina heeft de mogelijkheid om alle afspraaktijden in de tijdzone van de eindgebruiker weer te geven, die desgewenst kunnen worden uitgeschakeld. Als **tijdvakken altijd worden weergegeven in** de bedrijfstijdzone niet is uitgeschakeld op het paginatabblad Bookings, zien personen die de pagina bezoeken, tijdvakken in hun eigen lokale tijdzones.
 
-:::image type="content" source="media/bookings-faq-region.png" alt-text="Instellingen voor boekings gebieden en tijdzone":::
+:::image type="content" source="media/bookings-faq-region.png" alt-text="Instellingen voor boekingsregio en tijdzone":::
 
-U kunt geen tijdzone instellen voor medewerkers in bookings. De tijdzone van de werknemers, dus ook kantooruren, worden in de Business Time zone weergegeven.
+Er is geen inrichting voor het instellen van de tijdzone voor personeel in Bookings. De tijdzone van het personeel, dus de uren van het bedrijf, bevindt zich in de bedrijfstijdzone.
 
-### <a name="can-email-notifications-be-sent-as-the-tenant-domain-name"></a>Kunnen er e-mail meldingen worden verzonden als de Tenant domeinnaam?
+### <a name="can-email-notifications-be-sent-as-the-tenant-domain-name"></a>Kunnen e-mailmeldingen worden verzonden als de domeinnaam van de tenant?
 
-De e-mailadressen worden gecontroleerd en beheerd op het niveau van Microsoft 365 en zijn afhankelijk van de instellingen van de domeinconfiguratie. Meer informatie vindt u [hier](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain).
+De e-mailadressen worden beheerd op het instellingenniveau van Microsoft 365 en zijn daar afhankelijk van de instellingen van de domeinconfiguratie. Meer informatie vindt u [hier.](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
 
-### <a name="is-the-ability-to-send-sms-messages-dependent-on-a-different-service-or-specific-configuration"></a>Is de mogelijkheid om SMS-berichten te verzenden die afhankelijk zijn van een andere service of een specifieke configuratie?
+### <a name="is-the-ability-to-send-sms-messages-dependent-on-a-different-service-or-specific-configuration"></a>Is de mogelijkheid om sms-berichten te verzenden afhankelijk van een andere service of specifieke configuratie?
 
-SMS-berichten zijn momenteel beschikbaar in Noord-Amerika en een Skype-of Twilio-account wordt gebruikt voor SMS-bezorging.
+Sms-berichten zijn momenteel beschikbaar in Noord-Amerika en een Skype- of Twilio-account wordt gebruikt voor sms-berichten.
 
-### <a name="how-can-bookings-appointments-show-up-on-a-persons-calendar"></a>Hoe kunnen Bookings afspraken worden weergegeven in de agenda van een persoon?
+### <a name="how-can-bookings-appointments-show-up-on-a-persons-calendar"></a>Hoe kunnen Bookings-afspraken worden toegevoegd aan de agenda van een persoon?
 
-De bevestiging van de reservering wordt verstuurd naar de postvakken van de service provider en de klant. De bevestigings-e-mail bevat de bijlage van een ICS-bestand en kan vervolgens worden toegevoegd aan de agenda van de gebruiker met alle relevante afspraak Details.
+De bevestiging van de reservering wordt verzonden naar zowel het Postvak IN van de serviceprovider als de klanten. Het bevestigingsbericht bevat een *.ics-bestandsbijlage, die vervolgens met alle relevante afspraakgegevens aan de agenda van de gebruiker kan worden toegevoegd.
 
-### <a name="what-triggers-service-provider-or-staff-and-customer-emails"></a>Welke Triggers-service provider of personeel en e-mails met klanten activeren?
+### <a name="what-triggers-service-provider-or-staff-and-customer-emails"></a>Welke triggers zijn de e-mails van de serviceprovider of het personeel en de klant?
 
-E-mailberichten worden geactiveerd op basis van instellingen op het tabblad Services in de web-app bookings. Met een reservering van de klant op de pagina selfservice, of op het tabblad agenda van de web-app Bookings, wordt een bevestiging en/of een herinneringen per e-mail geactiveerd. Dit gebeurt als iemand een wijziging aanbrengt in de boeking via de knop **reservering beheren** in de bevestigings-e-mail of in de web-app. Herinnerings-e-mailberichten worden verzonden naar een bepaalde periode vóór een afspraak, zoals in het tabblad Services in de web-app bookings.
+E-mailberichten worden geactiveerd op basis van instellingen op het tabblad Services in de Web-app van Bookings. Een reservering die is gemaakt door de klant op de selfservicepagina of op het tabblad Agenda in de Bookings Web-app, leidt tot een bevestiging en/of een herinneringsmail. Hetzelfde gebeurt wanneer iemand een wijziging aan de  reservering aan doet via de knop Reservering beheren in het bevestigingsbericht of in de web-app. E-mailberichten ter herinnering worden verzonden in een bepaalde periode vóór een afspraak, zoals beschreven op het tabblad Services in de Web-app voor Bookings.
 
-### <a name="can-i-book-classroom-style-appointments-that-are-1many-instead-of-11"></a>Kan ik de namen van de geklas volle afspraken in een klas met 1: veel in plaats van 1:1?
+### <a name="can-i-book-classroom-style-appointments-that-are-1many-instead-of-11"></a>Kan ik afspraken in de klas maken met de stijl 1:veel in plaats van 1:1?
 
-Ja, we hebben een functie voor groeps Booking waarmee meerdere personen dezelfde afspraak op hetzelfde moment kunnen boeken (bijvoorbeeld voor een fitness klasse). Deze functionaliteit wordt [hier](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)uitvoerig beschreven.
+Ja, we hebben een groepsboekingsfunctionaliteit waarmee meerdere personen tegelijk dezelfde afspraak kunnen boeken (bijvoorbeeld voor een fitnessklasse). Deze functionaliteit wordt hier in meer detail [beschreven.](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
 
-### <a name="can-calendars-remain-unpublished-not-public-facing-but-still-accessible-to-designated-users"></a>Kunnen agenda's niet worden gepubliceerd (niet openbaar gerichte), maar wel toegankelijk voor de aangewezen gebruikers?
+### <a name="can-calendars-remain-unpublished-not-public-facing-but-still-accessible-to-designated-users"></a>Kunnen agenda's niet-gepubliceerd blijven (niet openbaar), maar toch toegankelijk voor aangewezen gebruikers?
 
-Ja. Er is een selectievakje op het tabblad boekings pagina in de web-app: er is **een Microsoft 365-of Office 365-account van mijn organisatie om te boeken vereist**. Als u dit selectievakje inschakelt, wordt selfservice voor selfservice beperkt tot alleen de gebruikers die zich in de Tenant bevinden. De Bookings-agenda die zich in de web-app bevindt voor het maken en beheren van gegevens, kan alleen worden gebruikt door gebruikers die zijn toegevoegd als medewerkers aan de pagina met beheerders-of viewer rollen.
+Ja. Er is een selectievakje op het tabblad Boekingspagina in de web-app: Een **Microsoft 365- of Office 365-account** van mijn organisatie vereisen om een reservering te doen. Als u dit selectievakje incheckt, heeft de selfservicepagina alleen toegang tot pagina's binnen uw tenant. De Boekingsagenda die in de web-app voor het maken en beheren wordt weergegeven, kan alleen worden gebruikt door personen die als personeelslid aan de pagina zijn toegevoegd met beheerdersrollen of viewer-rollen.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Toegangsbeheer voor boekings pagina's in Bookings":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Toegangsbeheer boekingspagina in Bookings":::
 
 ### <a name="how-frequently-does-the-home-page-update"></a>Hoe vaak wordt de startpagina bijgewerkt?
 
-De meest recente gegevens die zijn gekoppeld aan de introductiepagina, worden opgehaald als de web-app wordt geladen. Zie het volgende [artikel](metrics-and-activity-tracking.md)voor meer informatie over het type informatie dat wordt bijgehouden door bookings.
+De meest recente gegevens die aan de startpagina zijn gekoppeld, worden opgehaald wanneer de web-app wordt geladen. Zie dit ondersteuningsartikel voor meer informatie over het type gegevens dat in Bookings [wordt bij te houden.](metrics-and-activity-tracking.md)
 
-### <a name="can-i-turn-off-the-email-notifications-for-time-off"></a>Kan ik de e-mail meldingen voor time-out uitschakelen?
+### <a name="can-i-turn-off-the-email-notifications-for-time-off"></a>Kan ik de e-mailmeldingen uitschakelen voor time-off?
 
-Tijdens het opnemen van een vrije tijd in de Bookings-web-app wordt altijd een e-mail melding met medewerkers geactiveerd. Als medewerkers van de melding niet te vinden zijn, raden wij u aan een extra detail toe te voegen in de notities of titel van de melding voor een vrije periode, zodat u beter medewerkers kunt informeren over wat er aan de beheerder zijde wordt weergegeven.
+Als u een time-off opneemt in de Web-app voor Bookings, wordt er altijd een e-mailmelding naar personeelsleden verzonden. Als personeelsleden niet op de hoogte zijn van de melding, raden we u aan meer details toe te voegen aan de notities of titel van de melding 'Vrijaf' om medewerkers beter te informeren over wat er gebeurt op beheerdersniveau.
 
-### <a name="can-bookings-calendars-be-cloned-or-duplicated-and-can-they-be-templatized-for-easy-scaling"></a>Kunnen Bookings-agenda's worden gekloond of gedupliceerd en kunnen ze worden templatized voor eenvoudige schaling?
+### <a name="can-bookings-calendars-be-cloned-or-duplicated-and-can-they-be-templatized-for-easy-scaling"></a>Kunnen Bookings-agenda's worden gekloond of gedupliceerd en kunnen ze worden templatized voor eenvoudige schaal?
 
-Met het proces werd de API van Graph gebruikt voor het weergeven van Postvak Details en gebruikt u deze gegevens om een nieuw postvak te maken. API-documentatie [hier](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta).
+Het zou gaan om het gebruik van Graph API om postvakgegevens op te halen en vervolgens die gegevens te gebruiken om een nieuw postvak te maken. HIER is [API-documentatie.](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta)
 
 ### <a name="what-reporting-is-available-in-bookings"></a>Welke rapportage is beschikbaar in Bookings?
 
-Alle Bookings-medewerkers die aan de beheerdersrol zijn toegewezen, kunnen een door tabs gescheiden waarden downloaden (. TSV-bestand met alle Bookings die de afgelopen 120 dagen zijn gemaakt. Bookings rapporten kunnen worden gedownload in. TSV-formulier vanaf het tabblad Start van de pagina bookings. De Bookings-API kan ook worden gebruikt voor het verzamelen van deze gegevens voor meer aangepaste en specifieke doeleinden.
+Alle Bookings-medewerkers die zijn toegewezen aan de rol Beheerder kunnen een door tabs gescheiden waarden downloaden (. TSV) met alle boekingen van de afgelopen 120 dagen. Bookings-rapporten kunnen worden gedownload in . TSV-formulier vanaf het tabblad Start van de pagina Boekingen. De Bookings-API kan ook worden gebruikt om deze gegevens te verzamelen voor meer aangepaste en specifieke doeleinden.
 
-### <a name="is-it-possible-to-share-only-one-service-on-the-self-service-page-at-a-time"></a>Kan ik slechts één service op de selfservice pagina tegelijk delen?
+### <a name="is-it-possible-to-share-only-one-service-on-the-self-service-page-at-a-time"></a>Is het mogelijk slechts één service tegelijk te delen op de selfservicepagina?
 
-Ja, u kunt afzonderlijke Bookings-agenda's maken voor elke service, of u kunt op het tabblad Services, een service bewerken en boven aan de pagina een optie selecteren om een URL alleen voor die specifieke service te delen.
+Ja, u kunt afzonderlijke Bookings-agenda's maken voor elke service of u kunt naar het tabblad Services gaan, een service bewerken. Boven aan de pagina ziet u een optie om alleen een URL voor die specifieke service te delen.
 
-### <a name="what-options-are-available-for-embedding-a-consent-form-or-disclosure-for-those-booking-an-appointment"></a>Welke opties zijn er beschikbaar voor het insluiten van een toestemming formulier of informatie over het reserveren van een afspraak?
+### <a name="what-options-are-available-for-embedding-a-consent-form-or-disclosure-for-those-booking-an-appointment"></a>Welke opties zijn beschikbaar voor het insluiten van een toestemmingsformulier of openbaarmaking voor het boeken van een afspraak?
 
-U wordt aangeraden het selectievakje **toestemming voor klantgegevens gebruik** op de reserverings pagina in te schakelen en de tekst zodanig aan te passen dat de vereisten voor informatie over informatie over de organisatie en de instemming ervan correct Een andere optie is om een aangepast veld toe te voegen aan de service met een koppeling naar het formulier voor toestemming en ervoor te zorgen dat ze het formulier voltooien voordat ze een afspraak kunnen maken. U kunt ook de URL van het toestemming formulier als extra notities toevoegen aan e-mailberichten met bevestiging en herinneringen, maar hierdoor wordt niet voorkomen dat gebruikers een afspraak reserveren.
+We raden u aan **het** selectievakje Toestemming voor dataverbruik van de klant op de boekingspagina in te stellen en de formulering aan te passen om de openbaarmakings- of toestemmingsvereisten van uw organisatie op de juiste manier over te brengen. Een andere mogelijkheid is om een aangepast veld aan de service toe te voegen dat een koppeling naar het toestemmingsformulier bevat en klanten te vragen te bevestigen dat ze het formulier hebben ingevuld voordat ze verder kunnen gaan met het maken van een afspraak. U kunt de URL van het toestemmingsformulier ook toevoegen als aanvullende notities in bevestigings- en herinneringsmails, maar hiermee voorkomt u niet dat gebruikers een afspraak kunnen boeken.
 
-### <a name="what-changes-can-be-made-to-the-staff-selection-capability-on-the-self-service-booking-page"></a>Welke wijzigingen kunnen worden aangebracht in de mogelijkheid voor de personeels selectie op de pagina zelf boeking?
+### <a name="what-changes-can-be-made-to-the-staff-selection-capability-on-the-self-service-booking-page"></a>Welke wijzigingen kunnen worden aangebracht in de functie voor personeelsselectie op de selfserviceboekingspagina?
 
-De mogelijkheid klanten te selecteren om specifieke medewerkers te selecteren wanneer u de boeking geheel kunt opheffen door het selecteren van de optie **klanten toestaan een bepaalde persoon te kiezen voor de reserverings** optie van de reserverings pagina of de sectie Services. Op basis van de beschikbaarheid van een werknemer wordt er automatisch een beschikbare personeelsleden aan de boeking toegewezen.
+De mogelijkheid voor klanten om specifieke personeelsleden te selecteren wanneer  een reservering volledig kan worden verwijderd door klanten toestaan om een bepaalde persoon voor de reserveringsoptie te kiezen op de boekingspagina of de sectie Services uit te stellen. In Bookings wordt automatisch een willekeurig beschikbaar personeelslid toegewezen aan de reservering, afhankelijk van de beschikbaarheid van het personeel.
 
-### <a name="can-bookings-support-many-concurrent-booking-requests-and-self-service-page-visits"></a>Kunnen Bookings-ondersteuning bieden voor een groot aantal gelijktijdige reserveringsaanvragen en de bezoekers van de selfservice pagina?
+### <a name="can-bookings-support-many-concurrent-booking-requests-and-self-service-page-visits"></a>Kunnen Bookings veel gelijktijdige reserveringsaanvragen en selfservicepaginabezoeken ondersteunen?
 
-Met de reservering kunt u een groot aantal bezoekers en Bookings op één moment ondersteunen. Als de pagina een zeer groot volume van het verkeer betoont, ontvangen gebruikers de fout ' server bezet '. De beschikbaarheid van afspraken wordt bijgewerkt wanneer de pagina wordt geladen, en wanneer er een reservering wordt gemaakt. Als meerdere personen dezelfde afspraak tegelijk proberen te boeken, mogen ze slechts één persoon in de loop van de tijd en een meldingsbericht voor de andere potentiële klanten maken en ze vragen een andere tijd te vinden.
+Boekingen kunnen een grote hoeveelheid bezoekers en reserveringen tegelijk ondersteunen. Als er een erg grote hoeveelheid verkeer op de pagina staat, krijgen gebruikers de foutmelding 'server bezet'. De beschikbaarheid van afspraken wordt bijgewerkt wanneer de pagina wordt geladen en wanneer een reservering wordt gemaakt. Als meerdere personen proberen dezelfde afspraak tegelijk te boeken, kan slechts één persoon die tijd boeken en een melding sturen naar de andere potentiële klanten en hen vragen een andere tijd te zoeken.
 
 ## <a name="privacy"></a>Privacy
 
-### <a name="where-is-bookings-data-stored"></a>Waar worden boekingsgegevens opgeslagen?
+### <a name="where-is-bookings-data-stored"></a>Waar worden Bookings-gegevens opgeslagen?
 
-Bookings is een Microsoft 365-app, wat betekent dat alle gegevens zijn opgeslagen in het Microsoft 365-platform en in Exchange. Bookings dit zijn alle beleidsregels die door Microsoft zijn ingesteld en dezelfde beleidsregels worden gevolgd door alle Office-apps. Voor bookings worden gedeelde postvakken gebruikt in Exchange voor het opslaan van klanten, medewerkers, services en Details van de afspraak. Nalevingsbeleid voor gedeelde postvakken in Exchange geldt ook voor bookings postvakken. Alle klantgegevens (waaronder informatie van klanten voor de reservering) worden vastgelegd in Bookings en worden opgeslagen in de app, zodat deze wordt opgeslagen in Exchange. Microsoft Bookings gebruikt dezelfde beleidsregels die worden gebruikt door Microsoft 365, die u hier kunt vinden [.](https://www.microsoft.com/online/legal/v2/?docid=22&langid=en-us)
+Bookings is een Microsoft 365-app, wat betekent dat alle gegevens worden opgeslagen in het Microsoft 365-platform en in Exchange. Bookings volgt alle beleidsregels voor gegevensopslag die zijn ingesteld door Microsoft. Dit zijn hetzelfde beleidsregels, gevolgd door alle Office-apps. In Bookings worden gedeelde postvakken in Exchange gebruikt voor de opslag van klant-, personeels-, service- en afspraakgegevens. Compliancebeleid voor gedeelde postvakken in Exchange is ook van toepassing op Bookings-postvakken. Alle klantgegevens (inclusief gegevens die klanten hebben opgegeven bij het boeken) worden vastgelegd in Bookings en in de app opgeslagen, dus in Exchange. Microsoft Bookings gebruikt dezelfde beleidsregels die worden gebruikt door Microsoft 365, die u hier [kunt vinden.](https://www.microsoft.com/online/legal/v2/?docid=22&langid=en-us)
 
-### <a name="is-there-a-way-to-centrally-manage-bookings-calendars-for-all-users"></a>Is er een manier om boekings agenda's centraal te beheren voor alle gebruikers?
+### <a name="is-there-a-way-to-centrally-manage-bookings-calendars-for-all-users"></a>Is er een manier om Boekingsagenda's centraal te beheren voor alle gebruikers?
 
-Elke boekings agenda wordt onafhankelijk bijgehouden. Er is geen samengevoegde weergave, anders dan de vervolgkeuzelijst zoeken, na het klikken op het caret op de startpagina.
+Elke Bookings-agenda wordt onafhankelijk bijgehouden. Er is geen samengevoegde weergave, anders dan de vervolgkeuzepagina voor zoeken nadat u op het caret op de startpagina hebt geklikt.
 
 ### <a name="how-are-users-authenticated"></a>Hoe worden gebruikers geverifieerd?
 
-Voor toegang tot de web-app Bookings is verificatie vereist via de reguliere verificatie van Azure Active Directory (AAD). De hand boekings pagina voor selfservice kan worden gemaakt voor iedereen met de koppeling naar de webpagina. Wanneer de instelling **een Microsoft 365-of Office 365-account van de instelling voor het boeken van mijn organisatie vereisen** is geselecteerd, is de pagina alleen toegestaan voor gebruik binnen de microsoft 365-Tenant (met authenticatie via Aad).
+Toegang tot de Bookings-web-app omvat verificatie via de gewone Azure Active Directory-verificatie (AAD). De selfserviceboekingspagina kan beschikbaar worden gemaakt voor iedereen met de koppeling naar de webpagina. Als echter de instelling Een **Microsoft 365- of Office 365-account** van mijn organisatie vereisen om een boek te boeken is geselecteerd, is de pagina beperkt voor gebruik binnen de Microsoft 365-tenant (met AAD-verificatie).
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Toegangsbeheer voor boekings pagina's in Bookings":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Toegangsbeheer boekingspagina in Bookings":::
 
-### <a name="does-customer-data-leave-the-production-system-for-any-reason"></a>Laat de klantgegevens om welke reden dan ook?
+### <a name="does-customer-data-leave-the-production-system-for-any-reason"></a>Verlaten klantgegevens het productiesysteem om welke reden dan ook?
 
-Ja, aangezien Bookings deel uitmaakt van Exchange, bieden de gebruikers van Graph APIs en Exchange Web Services (EWS) de klant de mogelijkheid hun eigen gegevens te downloaden waartoe ze toegang hebben.
+Ja, aangezien Bookings deel uitmaakt van Exchange, staat u toe dat Graph API's en EWS-API's (Exchange Web Services) voor klanten hun eigen gegevens kunnen downloaden waarvoor ze toegang hebben.
 
-### <a name="is-there-the-ability-to-customize-email-addresses-for-customer-replies"></a>Is er de mogelijkheid e-mailadressen voor antwoorden van klanten aan te passen?
+### <a name="is-there-the-ability-to-customize-email-addresses-for-customer-replies"></a>Is er de mogelijkheid om e-mailadressen voor antwoorden van klanten aan te passen?
 
-U kunt bepalen naar welke e-mailadres de klant antwoord stuurt. Deze instelling bevindt zich op het tabblad **Bedrijfsgegevens** . De adresboeknaam van een Bookings postvak kan ook worden gewijzigd in Exchange, via de naamgeving van de naam processen van het Exchange-postvak.
+Er is de mogelijkheid om te definiëren naar welk e-mailadres de klant antwoorden stuurt. Deze instelling staat op het **tabblad Bedrijfsgegevens.** De naam van het postvak Bookings zelf kan ook worden gewijzigd in Exchange, via de gebruikelijke Exchange-postvaknaamwijzigingsprocessen.
 
-### <a name="we-would-like-for-the-customer-to-accept-our-terms-and-conditions-during-the-booking-process-is-that-possible"></a>We willen dat de klant onze voorwaarden voor de boekingsprocedure aanvaardt. Is dat mogelijk?
+### <a name="we-would-like-for-the-customer-to-accept-our-terms-and-conditions-during-the-booking-process-is-that-possible"></a>We willen dat de klant onze voorwaarden accepteert tijdens het reserveringsproces. Is dat mogelijk?
 
-Deze functie bestaat al voor naleving van AVG. De boekings pagina bevat een veld voor aangepaste instemming, rechts onder de sectie publicatie Details. Schakel het selectievakje in en typ het bericht dat wordt weergegeven als een vereist veld op de pagina selfservice. De datum en tijd waarop de klant toestemming verleent, wordt opgenomen.
+Deze functie bestaat al voor avg-naleving. De boekingspagina heeft een veld voor aangepaste toestemming, direct onder de sectie met publicatiedetails. Als u dit selectievakje incheckt en uw eigen aangepaste toestemmingsbericht schrijft, wordt dit weergegeven als een verplicht veld op de selfservicepagina. De datum en tijd waarop de klant toestemming geeft, worden vastgelegd.
 
-In deze sectie wordt geen ondersteuning geboden voor tekst met opmaak, maar denk te weten dat u koppelingen kunt toevoegen onder de sectie bedrijfsgegevens en daarom direct onder het selectievakje toestemming wordt weergegeven.
+Deze sectie biedt geen ondersteuning voor tekst met uitgebreide tekst, maar denkt dat er koppelingen kunnen worden toegevoegd onder de sectie met bedrijfsgegevens en dat deze net onder het toestemmingsvak worden weergegeven.
 
-### <a name="how-can-bookings-associated-mailboxes-in-exchange-be-identified"></a>Hoe kunnen in Bookings gekoppelde postvakken van Exchange worden opgegeven?
+### <a name="how-can-bookings-associated-mailboxes-in-exchange-be-identified"></a>Hoe kunnen aan Bookings gekoppelde postvakken in Exchange worden geïdentificeerd?
 
-Met de volgende opdracht kunt u gegevens ophalen van alle Bookings-postvakken en gebruikers die toegang hebben.
+Met de volgende opdracht kunt u gegevens ophalen van alle postvakken van Bookings en gebruikers die hier toegang toe hebben.
 
-`Get-Mailbox -RecipientTypeDetails SchedulingMailbox -ResultSize:Unlimited | Get-MailboxPermission |Select-Object Identity,User,AccessRights | Where-Object {($\_.user -like '\*@\*')}`
+`Get-Mailbox -RecipientTypeDetails SchedulingMailbox -ResultSize:Unlimited | Get-MailboxPermission |Select-Object Identity,User,AccessRights | Where-Object {($_.user -like '@')}`
 
 ## <a name="technical-questions"></a>Technische vragen
 
-### <a name="if-a-user-schedules-an-appointment-for-a-service-consisting-of-an-online-meeting-how-do-they-receive-the-microsoft-teams-link-to-the-meeting-if-they-leave-the-optional-email-address-field-empty"></a>Als een gebruiker een afspraak plant voor een service die bestaat uit een onlinevergadering, hoe worden ze de koppeling Microsoft teams ontvangen naar de vergadering als ze het veld optioneel e-mailadres leeg laten?
+### <a name="if-a-user-schedules-an-appointment-for-a-service-consisting-of-an-online-meeting-how-do-they-receive-the-microsoft-teams-link-to-the-meeting-if-they-leave-the-optional-email-address-field-empty"></a>Als een gebruiker een afspraak inroostert voor een service die bestaat uit een onlinevergadering, hoe ontvangen ze dan de Microsoft Teams-koppeling naar de vergadering als ze het veld met het optionele e-mailadres leeg laten?
 
-Als het systeem geen e-mail gegevens over de klant bevat, is het niet mogelijk om e-mail te bevestigen bij de klant te bezorgen en zodat ze geen teams-koppeling ontvangen. De oplossing is het instellen van het e-mailadres als vereist veld, wat u kunt doen op het tabblad Services van bookings. Wanneer u in Bookings een nieuwe service maakt, wordt het veld klant-e-mail standaard ingesteld als een vereist veld.
+Als het systeem niet over de e-mailgegevens van de klant bevat, kan de bevestigingsmail niet worden bezorgd bij de klant en ontvangen zij dus geen Teams-koppeling. De oplossing is om het e-mailadres in te stellen als een verplicht veld, dat u kunt doen op het tabblad Services van Bookings. Telkens wanneer u een nieuwe service maakt in Bookings, wordt het e-mailveld van de klant standaard ingesteld als een verplicht veld.
 
-### <a name="how-are-staff-assigned-to-appointments-when-anyone-is-selected-or-when-customers-do-not-have-the-ability-to-choose-a-staff-member-for-the-appointment"></a>Hoe worden de medewerkers toegewezen aan afspraken wanneer ' iedereen ' is geselecteerd, of wanneer klanten de mogelijkheid niet hebben om een personeelslid voor de afspraak te kiezen?
+### <a name="how-are-staff-assigned-to-appointments-when-anyone-is-selected-or-when-customers-do-not-have-the-ability-to-choose-a-staff-member-for-the-appointment"></a>Hoe worden medewerkers toegewezen aan afspraken wanneer 'Iedereen' is geselecteerd of wanneer klanten niet de mogelijkheid hebben om een personeelslid voor de afspraak te kiezen?
 
-De werknemers krijgen op een willekeurige wijze een willekeurige afdeling in deze scenario's, van alle personeelsleden waarover de afspraak is opgenomen. Op dit moment is er geen manier om zeker te weten dat u willekeurige afspraken van alle leden van het personeel, of het aantal toegewezen afspraken aan elk personeelslid wilt hebben. Als er na een aantal willekeurige toewijzingen een taakverdelings taak moet worden uitgevoerd, kunt u dit handmatig doen op het tabblad agenda van de pagina bookings.
+Medewerkers worden willekeurig toegewezen in deze scenario's, van alle personeelsleden die beschikbaar zijn op het moment dat de afspraak wordt geboekt. Op dit moment is er geen manier om ervoor te zorgen dat willekeurig toegewezen afspraken op gelijke wijze worden verdeeld over alle personeelsleden of om het aantal toegewezen afspraken aan elk personeelslid te voorkomen. Als er taakverdeling moet worden uitgevoerd voor uw personeel na een aantal willekeurige toewijzingen, kan dit handmatig worden gedaan op het tabblad Agenda op de pagina Bookings.
 
-### <a name="how-can-users-opt-out-of-receiving-sms-messages-if-they-have-already-opted-in-previously"></a>Hoe kunnen gebruikers zich afmelden voor het ontvangen van SMS-berichten als ze al eerder zijn aangemeld?
+### <a name="how-can-users-opt-out-of-receiving-sms-messages-if-they-have-already-opted-in-previously"></a>Hoe kunnen gebruikers ervoor kiezen om geen sms-berichten te ontvangen als ze zich eerder al hebben gekozen?
 
-Wanneer u een afspraak met SMS-berichten via SMS-berichten verstuurt, wordt u gevraagd of u de selectievakjes in te schakelen telkens wanneer ze worden gebruikt. Klanten kunnen ook rechtstreeks reageren op het SMS-bericht (de SMS-dienst), om aan te geven dat hij of zij de berichten mag beëindigen, en geen verdere tekst wordt naar dat telefoonnummer verzonden. Als de klant een ontvangst van SMS-berichten van de provider wil afhandelen, niet uit Bookings, kunt u in de toekomst geen SMS-berichten meer ontvangen, zelfs niet als u ze aanmeldt op de pagina bookings.
+Wanneer u een afspraak met sms-berichten incheckt, wordt klanten gevraagd het selectievakje voor opt-in in te checken telkens wanneer ze boeken. Klanten kunnen ook rechtstreeks reageren op het sms-bericht (de sms-provider) om aan te geven dat ze willen dat de berichten niet meer worden verzonden. Daarna worden er geen sms-berichten meer naar dat telefoonnummer verzonden. Als de klant geen sms-berichten meer ontvangt van de provider en niet van Bookings zelf, ontvangt deze in de toekomst geen sms-berichten meer, zelfs niet wanneer ze zich voor de bookings-pagina hebben gekozen.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-### <a name="this-staff-members-calendar-cant-be-synced"></a>De agenda van deze leden kan niet worden gesynchroniseerd
+### <a name="this-staff-members-calendar-cant-be-synced"></a>De agenda van dit personeelslid kan niet worden gesynchroniseerd
 
-Als u de foutmelding krijgt: ' de agenda van dit personeelslid kan niet worden gesynchroniseerd ', dit gedeelte bevat diverse stappen om de fout op te lossen.
+Als het foutbericht 'De agenda van dit personeelslid kan niet worden gesynchroniseerd' wordt weergegeven, bevat deze sectie verschillende procedures voor het oplossen van de fout.
 
 > [!NOTE]
-> Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard Standard, Microsoft 365 a3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar het is standaard uitgeschakeld. Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
+> Bookings is standaard ingeschakeld voor klanten met een Microsoft 365 Business Standard-, Microsoft 365 A3- of Microsoft 365 A5-abonnement. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar dit is standaard uitgeschakeld. Zie Toegang krijgen tot Microsoft Bookings om aan de slag [te gaan.](get-access.md) Zie Bookings in- of uitschakelen voor uw organisatie als u Bookings wilt in- [of uitschakelen.](turn-bookings-on-or-off.md)
 
-Als u op zoek bent naar informatie over het synchroniseren van de agenda van uw personeel, raadpleegt u [medewerkers toevoegen aan Bookings](add-staff.md). Zorg dat op de pagina **Details van personeel** de optie **voor gebeurtenissen in de agenda invloed heeft op de beschikbaarheid** .
+Zie Personeel toevoegen aan Bookings als u informatie zoekt over het synchroniseren van de agenda van [uw personeel.](add-staff.md) Controleer of op de **pagina Personeelsgegevens** **Gebeurtenissen in de agenda van invloed** is op de beschikbaarheid is ingeschakeld.
 
-### <a name="the-staff-member-needs-to-change-their-calendar-permissions"></a>Het personeelslid moet hun Agendamachtigingen wijzigen
+### <a name="the-staff-member-needs-to-change-their-calendar-permissions"></a>Het personeelslid moet zijn of haar agendamachtigingen wijzigen
 
-Als u wilt dat de boekingen correct worden gesynchroniseerd met de agenda's van personeelsleden, moet elk personeelslid hun agenda delen. Elk personeelslid moet de volgende instructies volgen om hun eigen agenda te delen.
+Om Bookings correct te laten synchroniseren met de agenda's van uw personeelsleden, moet elk personeelslid zijn of haar agenda delen. Elk personeelslid moet deze instructies volgen om zijn of haar eigen agenda te delen.
 
-1. Meld u aan bij Microsoft 365 en selecteer **Outlook** in het startprogramma voor apps.
+1. Meld u aan bij Microsoft 365 en selecteer **Outlook** in het start programma voor apps.
 
    > [!div class="mx-imgBorder"]
-   > ![Afbeelding van Outlook in startprogramma voor apps](../media/bookings-applauncher-outlook.png)
+   > ![Afbeelding van Outlook in het start starten van apps](../media/bookings-applauncher-outlook.png)
 
-1. Selecteer agenda **delen** boven aan de pagina \> .
+1. Selecteer Agenda delen boven  aan de \> **pagina.**
 
-   ![Afbeelding van het menu agenda delen](../media/bookings-share-calendar.png)
+   ![Afbeelding van het menu Agenda delen](../media/bookings-share-calendar.png)
 
-1. Selecteer in de sectie **personen binnen uw organisatie** de vervolgkeuzelijst naast **Mijn organisatie** en selecteer vervolgens **kan weergeven wanneer ik bezet ben**.
+1. Selecteer in **de sectie** Personen binnen uw organisatie de vervolgkeuzevak naast Mijn organisatie en selecteer Kan weergeven wanneer **ik bezet ben.**
 
    > [!NOTE]
-   > Met deze instelling deelt u uw beschikbaarheidsinfo met Bookings en andere gebruikers in uw organisatie. Het bevat geen andere informatie, zoals het type afspraak dat u hebt gepland, waarvan u de afspraak hebt gepland, of de locatie.
+   > Deze instelling deelt uw vrij/bezet-informatie met Bookings en met andere gebruikers in uw organisatie. Deze bevat geen andere informatie, zoals welk type afspraak u hebt gepland, met wie u de afspraak hebt gepland of de locatie.
 
    > [!div class="mx-imgBorder"]
-   > ![Afbeelding van het scherm voor het delen van een agenda met kan weergeven wanneer ik bezet ben](../media/bookings-view-busy.png)
+   > ![Afbeelding van het scherm voor het delen van agenda's met Kan weergeven wanneer ik bezet ben](../media/bookings-view-busy.png)
 
 1. Selecteer **Gereed**.
 
-### <a name="we-cant-find-a-staff-member-in-our-organization"></a>We kunnen geen leden vinden in onze organisatie
+### <a name="we-cant-find-a-staff-member-in-our-organization"></a>We kunnen geen personeelslid in onze organisatie vinden
 
-Als een werknemer uw bedrijf heeft verlaten en u deze hebt verwijderd uit uw Microsoft 365-of Office 365-organisatie, moet u die gebruiker ook verwijderen uit Bookings zodat ze niet meer worden weergegeven in de agenda en om te voorkomen dat klanten afspraken met hen kunnen reserveren.
+Als een werknemer uw bedrijf heeft verlaten en u hem of haar hebt verwijderd uit uw Microsoft 365- of Office 365-organisatie, moet u die gebruiker nog steeds verwijderen uit Bookings, zodat deze niet in de agenda wordt toegevoegd en om te voorkomen dat klanten afspraken met hen maken.
 
-1. Meld u aan bij Microsoft 365 en ga naar de **boekings** \> **medewerkers**.
+1. Meld u aan bij Microsoft 365 en ga naar **Bookings** \> **Staff.**
 
-1. Beweeg de muisaanwijzer over de naam van het personeels onderdeel. Rechts van de **telefoon** kolom worden pictogrammen voor **bewerken** en **verwijderen** weergegeven.
+1. Plaats de muisaanwijzer op de naam van het personeelslid. **Pictogrammen** voor **bewerken** en verwijderen worden rechts van de kolom **Telefoon** weergegeven.
 
-1. Selecteer het pictogram **verwijderen** .
+1. Selecteer het **pictogram** Verwijderen.
 
-1. Selecteer **OK** in het bevestigingsvenster.
+1. Selecteer OK in het **bevestigingsvak.**
 
 > [!NOTE]
-> Als u meer dan één boekings agenda hebt, moet u deze van alle gebruikers verwijderen.
+> Als u meerdere boekingsagenda's hebt, moet u de gebruiker uit al deze agenda's verwijderen.
 
-Als u wilt controleren of u meer dan één agenda hebt, selecteert u de vervolgkeuzepijl naast de naam van uw bedrijf in het linkermenu en selecteert u vervolgens **openen**. Als u maar één agenda hebt, ziet u alleen de optie om een boekings agenda toe te voegen. In dit voorbeeld ziet u dat er een tweede agenda met de naam ' contoso co' is.
+Als u wilt controleren of u meerdere agenda's hebt, selecteert u in het linkermenu de vervolgkeuzepijl naast uw bedrijfsnaam en selecteert u **Openen.** Als u slechts één agenda hebt, ziet u alleen de optie om een boekingsagenda toe te voegen. In dit voorbeeld ziet u dat er een tweede agenda is met de naam Contoso CO.
 
-![Afbeelding van het scherm een agenda kiezen met een tweede agenda weergegeven](../media/bookings-choose-calendar.png)
+![Afbeelding van het scherm Een agenda kiezen met een tweede agenda weergegeven](../media/bookings-choose-calendar.png)
 
-### <a name="theres-a-syncing-error-we-cant-identify"></a>Er kan niet worden vastgesteld dat er een synchronisatiefout is opgetreden.
+### <a name="theres-a-syncing-error-we-cant-identify"></a>Er is een synchronisatiefout die we niet kunnen identificeren
 
-Dit is een tijdelijke fout en deze fout treedt meestal op vanwege een instabiel internetverbinding. Deze problemen worden meestal na een paar minuten opgelost.
+Dit is een tijdelijke fout die meestal optreedt vanwege een instabiele internetverbinding. Deze problemen worden meestal na een paar minuten vanzelf opgelost.
 
-Neem contact op met de ondersteuning als na een langere periode deze fout wordt weergegeven.
+Als u deze fout na langere tijd nog steeds ziet of als u deze vaak ziet, neem dan contact op met de ondersteuning.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 
-  - [Microsoft Bookings uitgebreid met beschikbaarheid in de blog van ondernemingen](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-expands-availability-in-enterprises/ba-p/1214065)
+  - [Microsoft Bookings vergroot de beschikbaarheid in de blog ondernemingen](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-expands-availability-in-enterprises/ba-p/1214065)
 
-  - [De werking van Microsoft Bookings video](https://support.office.com/article/microsoft-bookings-69c45b78-6de4-4f28-9449-cdcc18b7ae45)
+  - [Video Hoe Microsoft Bookings werkt](https://support.office.com/article/microsoft-bookings-69c45b78-6de4-4f28-9449-cdcc18b7ae45)
 
   - [Aan de slag met Microsoft Bookings](get-access.md)
 
@@ -364,20 +364,20 @@ Neem contact op met de ondersteuning als na een langere periode deze fout wordt 
 
   - [Medewerkers toevoegen aan Bookings](add-staff.md)
 
-  - [API-onderdelen om te automatiseren nadat de sjabloon is gedefinieerd](https://docs.microsoft.com/graph/api/bookingbusiness-post-bookingbusinesses)
+  - [API-onderdelen die moeten worden automatiseren nadat de sjabloon is gedefinieerd](https://docs.microsoft.com/graph/api/bookingbusiness-post-bookingbusinesses)
 
-  - [URL naar Bookings-agenda voor weergave](https://outlook.office.com/bookings/calendar)
+  - [URL naar Boekingsagenda voor weergave](https://outlook.office.com/bookings/calendar)
 
-  - [Nalevingsbeleid voor bookings](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365?view=o365-worldwide#bookings)
+  - [Nalevingsbeleid voor Bookings](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365?view=o365-worldwide#bookings)
 
   - [Uw reserveringspagina aanpassen en publiceren](customize-booking-page.md)
 
-  - [Configuratie van Tenant Postvak](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
+  - [Configuratie tenantpostvak](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
 
-  - [Groeps Bookings](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
+  - [Groepsboekingen](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
 
-  - [Metrische gegevens en bijhouden van activiteiten in Bookings](metrics-and-activity-tracking.md)
+  - [Meetgegevens over boekingen en het bijhouden van activiteiten](metrics-and-activity-tracking.md)
 
-  - [Openbare wegwijzer van M365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=bookings)
+  - [Openbare routekaart voor M365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=bookings)
 
-  - Feedback indienen via [UserVoice](https://outlook.uservoice.com/forums/314907-microsoft-bookings/suggestions/39505261-365-admins-should-have-full-access-to-all-bookings)
+  - Feedback verzenden via [UserVoice](https://outlook.uservoice.com/forums/314907-microsoft-bookings/suggestions/39505261-365-admins-should-have-full-access-to-all-bookings)
