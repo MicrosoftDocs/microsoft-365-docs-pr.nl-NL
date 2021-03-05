@@ -1,5 +1,5 @@
 ---
-title: Een boekings agenda verwijderen
+title: Een reserveringsagenda verwijderen
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -8,87 +8,86 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
-description: Gebruik het Microsoft 365-Beheercentrum of Windows PowerShell om boekings agenda's te verwijderen.
-ms.openlocfilehash: 2fcb92cee18d709ef0e1fa3faa0246e622a9f9db
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+description: Gebruik het Microsoft 365-beheercentrum of Windows PowerShell om boekingsagenda's te verwijderen.
+ms.openlocfilehash: 1f8df15eafac7867f7ae852e344e1c5730362598
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126647"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454203"
 ---
-# <a name="delete-a-booking-calendar-in-bookings"></a><span data-ttu-id="56454-103">Een boekings agenda verwijderen in Bookings</span><span class="sxs-lookup"><span data-stu-id="56454-103">Delete a booking calendar in Bookings</span></span>
+# <a name="delete-a-booking-calendar-in-bookings"></a><span data-ttu-id="c0111-103">Een boekingsagenda verwijderen in Bookings</span><span class="sxs-lookup"><span data-stu-id="c0111-103">Delete a booking calendar in Bookings</span></span>
 
-<span data-ttu-id="56454-104">In dit artikel wordt uitgelegd hoe u een ongewenste boekings agenda kunt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="56454-104">This article explains how you can delete an unwanted booking calendar.</span></span> <span data-ttu-id="56454-105">U kunt de boekings agenda verwijderen in het Microsoft 365-Beheercentrum of u kunt PowerShell gebruiken.</span><span class="sxs-lookup"><span data-stu-id="56454-105">You can delete the booking calendar in the Microsoft 365 admin center or you can use PowerShell.</span></span> <span data-ttu-id="56454-106">De Bookings-agenda is een postvak in Exchange Online, zodat u het bijbehorende gebruikersaccount verwijdert om de boekings agenda te verwijderen.</span><span class="sxs-lookup"><span data-stu-id="56454-106">The Bookings calendar is a mailbox in Exchange Online so you delete the corresponding user account to delete the booking calendar.</span></span>
+<span data-ttu-id="c0111-104">In dit artikel wordt uitgelegd hoe u een ongewenste boekingsagenda kunt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="c0111-104">This article explains how you can delete an unwanted booking calendar.</span></span> <span data-ttu-id="c0111-105">U kunt de boekingsagenda verwijderen in het Microsoft 365-beheercentrum of u kunt PowerShell gebruiken.</span><span class="sxs-lookup"><span data-stu-id="c0111-105">You can delete the booking calendar in the Microsoft 365 admin center or you can use PowerShell.</span></span> <span data-ttu-id="c0111-106">De Bookings-agenda is een postvak in Exchange Online, dus u verwijdert het bijbehorende gebruikersaccount om de boekingsagenda te verwijderen.</span><span class="sxs-lookup"><span data-stu-id="c0111-106">The Bookings calendar is a mailbox in Exchange Online so you delete the corresponding user account to delete the booking calendar.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="56454-107">Alle boekings agenda's die u hebt gemaakt in 2017 of eerder, moeten worden verwijderd met behulp van de PowerShell-instructies in dit onderwerp.</span><span class="sxs-lookup"><span data-stu-id="56454-107">All booking calendars that you created in 2017 or before must be deleted using the PowerShell instructions on this topic.</span></span> <span data-ttu-id="56454-108">Alle boekings agenda's die zijn gemaakt in 2018 of na kunnen worden verwijderd in het Microsoft 365-Beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="56454-108">All booking calendars created in 2018 or after can be deleted in the Microsoft 365 admin center.</span></span>
+> <span data-ttu-id="c0111-107">Alle boekingsagenda's die u in 2017 of eerder hebt gemaakt, moeten worden verwijderd volgens de PowerShell-instructies voor dit onderwerp.</span><span class="sxs-lookup"><span data-stu-id="c0111-107">All booking calendars that you created in 2017 or before must be deleted using the PowerShell instructions on this topic.</span></span> <span data-ttu-id="c0111-108">Alle boekingsagenda's die in 2018 of daarna zijn gemaakt, kunnen worden verwijderd in het Microsoft 365-beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="c0111-108">All booking calendars created in 2018 or after can be deleted in the Microsoft 365 admin center.</span></span>
 
-<span data-ttu-id="56454-109">De boekings agenda is de plaats waar alle relevante informatie over deze boekings agenda en gegevens zijn opgeslagen, waaronder:</span><span class="sxs-lookup"><span data-stu-id="56454-109">The booking calendar is where all relevant information about that booking calendar and data are stored, including:</span></span>
+<span data-ttu-id="c0111-109">In de boekingsagenda worden alle relevante informatie over de boekingsagenda en de gegevens opgeslagen, waaronder:</span><span class="sxs-lookup"><span data-stu-id="c0111-109">The booking calendar is where all relevant information about that booking calendar and data are stored, including:</span></span>
 
-- <span data-ttu-id="56454-110">Bedrijfsinformatie, logo en werkuren die zijn toegevoegd tijdens het maken van de boekings agenda</span><span class="sxs-lookup"><span data-stu-id="56454-110">Business information, logo, and working hours added when the booking calendar was created</span></span>
-- <span data-ttu-id="56454-111">Relevante medewerkers en services die zijn toegevoegd tijdens het maken van de boekings agenda</span><span class="sxs-lookup"><span data-stu-id="56454-111">Relevant staff and services added when the booking calendar was created</span></span>
-- <span data-ttu-id="56454-112">Alle Bookings-en time-out-afspraken worden toegevoegd aan de boekings agenda nadat deze is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="56454-112">All bookings and time off appointments added to the booking calendar once it was created.</span></span>
+- <span data-ttu-id="c0111-110">Bedrijfsgegevens, logo en werkuren die zijn toegevoegd toen de boekingsagenda werd gemaakt</span><span class="sxs-lookup"><span data-stu-id="c0111-110">Business information, logo, and working hours added when the booking calendar was created</span></span>
+- <span data-ttu-id="c0111-111">Relevante medewerkers en services die zijn toegevoegd toen de boekingsagenda werd gemaakt</span><span class="sxs-lookup"><span data-stu-id="c0111-111">Relevant staff and services added when the booking calendar was created</span></span>
+- <span data-ttu-id="c0111-112">Alle boekingen en afspraken met een time-off die zijn toegevoegd aan de boekingsagenda nadat deze is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="c0111-112">All bookings and time off appointments added to the booking calendar once it was created.</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="56454-113">Wanneer een boekings agenda wordt verwijderd, wordt deze aanvullende informatie ook permanent verwijderd en kan deze niet meer worden hersteld.</span><span class="sxs-lookup"><span data-stu-id="56454-113">Once a booking calendar is deleted, this additional information is also permanently deleted and can't be recovered.</span></span>
+> <span data-ttu-id="c0111-113">Wanneer een boekingsagenda is verwijderd, wordt deze aanvullende informatie ook definitief verwijderd en kan deze niet meer worden hersteld.</span><span class="sxs-lookup"><span data-stu-id="c0111-113">Once a booking calendar is deleted, this additional information is also permanently deleted and can't be recovered.</span></span>
 
-## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a><span data-ttu-id="56454-114">Een boekings agenda verwijderen in het Microsoft 365-Beheercentrum</span><span class="sxs-lookup"><span data-stu-id="56454-114">Delete a booking calendar in the Microsoft 365 admin center</span></span>
+## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a><span data-ttu-id="c0111-114">Een boekingsagenda verwijderen in het Microsoft 365-beheercentrum</span><span class="sxs-lookup"><span data-stu-id="c0111-114">Delete a booking calendar in the Microsoft 365 admin center</span></span>
 
-1. <span data-ttu-id="56454-115">Ga naar het Microsoft 365-beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="56454-115">Go to the Microsoft 365 admin center.</span></span>
+1. <span data-ttu-id="c0111-115">Ga naar het Microsoft 365-beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="c0111-115">Go to the Microsoft 365 admin center.</span></span>
 
-1. <span data-ttu-id="56454-116">Selecteer **Gebruikers** in het beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="56454-116">In the Admin center, select **Users**.</span></span>
+1. <span data-ttu-id="c0111-116">Selecteer **Gebruikers** in het beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="c0111-116">In the Admin center, select **Users**.</span></span>
 
-   ![Afbeelding van gebruikersinterface in Microsoft 365-Beheercentrum](../media/bookings-admin-center-users.png)
+   ![Afbeelding van de gebruikersinterface van gebruikers in het Microsoft 365-beheercentrum](../media/bookings-admin-center-users.png)
 
-1. <span data-ttu-id="56454-118">Kies op de pagina **Actieve gebruikers** de namen van de gebruikers die u wilt verwijderen. Selecteer vervolgens **Gebruiker verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="56454-118">On the **Active Users** page, choose the names of the users that you want to delete, and then select **Delete user**.</span></span>
+1. <span data-ttu-id="c0111-118">Kies op de pagina **Actieve gebruikers** de namen van de gebruikers die u wilt verwijderen. Selecteer vervolgens **Gebruiker verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="c0111-118">On the **Active Users** page, choose the names of the users that you want to delete, and then select **Delete user**.</span></span>
 
-   ![Afbeelding van de gebruikersinterface voor verwijderen van de gebruiker in Microsoft 365-Beheercentrum](../media/bookings-delete-user.png)
+   ![Afbeelding van de gebruikersinterface voor gebruikers verwijderen in het Microsoft 365-beheercentrum](../media/bookings-delete-user.png)
 
-## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a><span data-ttu-id="56454-120">Een boekings agenda verwijderen met Exchange Online PowerShell</span><span class="sxs-lookup"><span data-stu-id="56454-120">Delete a booking calendar using Exchange Online PowerShell</span></span>
+## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a><span data-ttu-id="c0111-120">Een boekingsagenda verwijderen met Exchange Online PowerShell</span><span class="sxs-lookup"><span data-stu-id="c0111-120">Delete a booking calendar using Exchange Online PowerShell</span></span>
 
-<span data-ttu-id="56454-121">Zie [verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) voor vereisten en richtlijnen voor het maken van verbinding met Exchange Online PowerShell.</span><span class="sxs-lookup"><span data-stu-id="56454-121">See [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) for prerequisites and guidance for connecting to Exchange Online PowerShell.</span></span>
+<span data-ttu-id="c0111-121">Zie Connect to Exchange Online PowerShell for prerequisites and guidance for connecting to Exchange Online PowerShell (Verbinding maken met [Exchange Online PowerShell)](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) voor vereisten en richtlijnen voor het maken van verbinding met Exchange Online PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c0111-121">See [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) for prerequisites and guidance for connecting to Exchange Online PowerShell.</span></span>
 
-<span data-ttu-id="56454-122">U kunt deze stappen alleen uitvoeren als u een actief Microsoft PowerShell-opdrachtvenster gebruikt dat u hebt uitgevoerd door de optie als beheerder uitvoeren te kiezen.</span><span class="sxs-lookup"><span data-stu-id="56454-122">To perform these steps, you must be using an active Microsoft PowerShell command window that you ran by choosing the “Run as administrator” option.</span></span>
+<span data-ttu-id="c0111-122">Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrachtvenster gebruiken dat u hebt uitgevoerd door de optie Als administrator uitvoeren te kiezen.</span><span class="sxs-lookup"><span data-stu-id="c0111-122">To perform these steps, you must be using an active Microsoft PowerShell command window that you ran by choosing the “Run as administrator” option.</span></span>
 
-1. <span data-ttu-id="56454-123">Voer de volgende opdracht in:</span><span class="sxs-lookup"><span data-stu-id="56454-123">Enter the following command:</span></span>
+1. <span data-ttu-id="c0111-123">Laad in een PowerShell-venster de EXO V2-module door de volgende opdracht uit te voeren:</span><span class="sxs-lookup"><span data-stu-id="c0111-123">In a PowerShell window, load the EXO V2 module by running the following command:</span></span>
 
-   ```PowerShell
-    $user = get-credential
+   ```powershell
+   Import-Module ExchangeOnlineManagement
    ```
 
-1. <span data-ttu-id="56454-124">Wanneer u hierom wordt gevraagd, meldt u zich aan met de referenties van de tenantbeheerder voor de Microsoft 365-Tenant die de boekings agenda host die u definitief wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="56454-124">When you are prompted, log on with tenant administrator credentials to the Microsoft 365 tenant that hosts the booking calendar you want to permanently delete.</span></span>
+   > [!NOTE]
+   > <span data-ttu-id="c0111-124">Als u de [EXO V2-module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module)al hebt geïnstalleerd, werkt de vorige opdracht zoals geschreven.</span><span class="sxs-lookup"><span data-stu-id="c0111-124">If you've already [installed the EXO V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module), the previous command will work as written.</span></span>
+   
+2. <span data-ttu-id="c0111-125">Voor de opdracht die u moet uitvoeren, wordt de volgende syntaxis gebruikt:</span><span class="sxs-lookup"><span data-stu-id="c0111-125">The command that you need to run uses the following syntax:</span></span>
 
-1. <span data-ttu-id="56454-125">Voer de volgende opdracht uit op de PowerShell-opdrachtprompt:</span><span class="sxs-lookup"><span data-stu-id="56454-125">At the PowerShell command prompt, enter this command:</span></span>
-
-   ```PowerShell
-    $s = New-Pssession -ConnectionUri https://outlook.office365.com/powershell-liveid -Credential $user -Authentication basic -AllowRedirection -ConfigurationName Microsoft.Exchange
+   ```powershell
+   Connect-ExchangeOnline -UserPrincipalName <UPN> 
    ```
 
-1. <span data-ttu-id="56454-126">Voer de volgende opdracht in:</span><span class="sxs-lookup"><span data-stu-id="56454-126">Enter the following command:</span></span>
+   - <span data-ttu-id="c0111-126">_\<UPN\>_ is uw account in de notatie User Principal Name `john@contoso.com` (bijvoorbeeld).</span><span class="sxs-lookup"><span data-stu-id="c0111-126">_\<UPN\>_ is your account in user principal name format (for example, `john@contoso.com`).</span></span>
 
-   ```PowerShell
-    Import-PSSession $s
+3. <span data-ttu-id="c0111-127">Meld u aan met de referenties van de tenantbeheerder bij de Microsoft 365-tenant die als host de boekingsagenda bevat die u definitief wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="c0111-127">When you are prompted, log on with tenant administrator credentials to the Microsoft 365 tenant that hosts the booking calendar you want to permanently delete.</span></span>
+
+4. <span data-ttu-id="c0111-128">Als deze opdracht is verwerkt, voert u de volgende opdracht in om een lijst te krijgen met de boekingspostvakken in de tenant:</span><span class="sxs-lookup"><span data-stu-id="c0111-128">Once this command is done processing, enter the following command to get a list of the booking mailboxes in your tenant:</span></span>
+
+   ```powershell
+   Get-EXOMailbox -RecipientTypeDetails Scheduling
    ```
 
-1. <span data-ttu-id="56454-127">Als deze opdracht is verwerkt, voert u de volgende opdracht in om een lijst te krijgen met de boekingspostvakken in de tenant:</span><span class="sxs-lookup"><span data-stu-id="56454-127">Once this command is done processing, enter the following command to get a list of the booking mailboxes in your tenant:</span></span>
+5. <span data-ttu-id="c0111-129">Typ de volgende opdracht:</span><span class="sxs-lookup"><span data-stu-id="c0111-129">Type the following command:</span></span>
 
-   ```PowerShell
-    get-mailbox -RecipientTypeDetails Scheduling
-   ```
-
-1. <span data-ttu-id="56454-128">Typ de volgende opdracht:</span><span class="sxs-lookup"><span data-stu-id="56454-128">Type the following command:</span></span>
-
-   ```PowerShell
+   ```powershell
    remove-mailbox [BookingCalendarToDelete]
    ```
 
    > [!IMPORTANT]
-   > <span data-ttu-id="56454-129">Let erop dat u de exacte naam opgeeft van de alias van het reserve-postvak dat u definitief wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="56454-129">Be careful to type the exact name of the booking mailbox alias that you want to permanently delete.</span></span>
+   > <span data-ttu-id="c0111-130">Let op dat u de exacte naam typt van de postvakalias van de reservering die u definitief wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="c0111-130">Be careful to type the exact name of the booking mailbox alias that you want to permanently delete.</span></span>
 
-1. <span data-ttu-id="56454-130">Voer de volgende opdracht uit om te controleren of de agenda is verwijderd:</span><span class="sxs-lookup"><span data-stu-id="56454-130">To verify that the calendar has been deleted, enter the following command:</span></span>
+6. <span data-ttu-id="c0111-131">Voer de volgende opdracht uit om te controleren of de agenda is verwijderd:</span><span class="sxs-lookup"><span data-stu-id="c0111-131">To verify that the calendar has been deleted, enter the following command:</span></span>
 
-   ```PowerShell
-    get-mailbox -RecipientTypeDetails Scheduling
+   ```powershell
+    Get-EXOMailbox -RecipientTypeDetails Scheduling
    ```
 
-   <span data-ttu-id="56454-131">De verwijderde agenda wordt niet weergegeven in de uitvoer.</span><span class="sxs-lookup"><span data-stu-id="56454-131">The deleted calendar will not appear in the output.</span></span>
+   <span data-ttu-id="c0111-132">De verwijderde agenda wordt niet weergegeven in de uitvoer.</span><span class="sxs-lookup"><span data-stu-id="c0111-132">The deleted calendar will not appear in the output.</span></span>
