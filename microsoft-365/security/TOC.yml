@@ -488,6 +488,8 @@
               href: ./office-365-security/attack-simulation-training-payloads.md
             - name: Meer inzicht krijgen middels aanvalssimulatietraining
               href: ./office-365-security/attack-simulation-training-insights.md
+            - name: Aanvalssimulatie traningimplementatieoverwegingen en veelgestelde vragen
+              href: ./office-365-security/attack-simulation-training-faq.md
             - name: Aanbevolen instellingen voor het configureren van EOP en Defender voor Office 365-beveiliging
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: Aanbevolen procedures voor het configureren van EOP
