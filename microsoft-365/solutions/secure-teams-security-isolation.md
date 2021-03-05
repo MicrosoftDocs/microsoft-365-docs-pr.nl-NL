@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: 439dee40d1501801fc09d570614a591259c6f09c
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.openlocfilehash: 5ddd42f9e2f2779ca6bf864554140a3f18d2cdea
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881703"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405700"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -44,6 +44,7 @@ De elementen van de configuratie van een team met beveiligingsisolatie zijn:
 
 Bekijk deze video voor een overzicht van het implementatieproces.
 <br>
+<br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
 <a name="poster"></a> Zie de [poster Microsoft Teams met beveiligingsisolatie](../downloads/team-security-isolation-poster.pdf) voor een samenvatting van één pagina van dit scenario.
@@ -51,6 +52,10 @@ Bekijk deze video voor een overzicht van het implementatieproces.
 [![Poster Microsoft Teams met beveiligingsisolatie](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
 U kunt deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) of [PowerPoint-](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) indeling en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
+
+Probeer deze configuratie in uw eigen testlabomgeving met [deze instructies](team-security-isolation-dev-test.md).
+
+Lees in [deze casestudy](contoso-team-for-top-secret-project.md) hoe Contoso Corporation een geïsoleerd team heeft gebruikt voor een uiterst geheim project.
 
 ## <a name="initial-protections"></a>Initiële bescherming
 
@@ -105,7 +110,7 @@ Als u een interne partner- of stakeholdergroep heeft die versleutelde documenten
 Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
 2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
-3. Klik op **een label maken**.
+3. Klik op **Een label maken**.
 4. Geef een naam op voor het label. We suggereren het te vernoemen naar het team waarmee je het zal gebruiken.
 5. Voeg een weergavenaam en een beschrijving toe en klik vervolgens op **Volgende**.
 6. Selecteer op de **pagina Het bereik voor dit label definiëren** de opties **Bestanden en e-mailberichten** en **Groepen en sites** en klik op **Volgende**.

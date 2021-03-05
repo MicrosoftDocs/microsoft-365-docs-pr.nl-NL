@@ -20,12 +20,12 @@ description: Beheerders kunnen meer informatie krijgen over het verwijderen van 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e08ed835a39fd687664b9325541c2a3f44644679
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 7ebc0cd1d6440673ec453322d3e4c3af2e88a028
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289183"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406710"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365
 
@@ -50,15 +50,15 @@ Beheerders kunnen gebruikers verwijderen uit de portal met beperkte verzenders i
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
-- Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
+- U moet over toegewezen machtigingen beschikken in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
   - Als je gebruikers wilt verwijderen uit de portal voor gebruikers met beperkte rechten, moet je lid zijn van de functiegroep **Organisatiebeheer** of **Beveiligingsbeheer**.
   - Voor alleen-lezentoegang tot de portal met beperkte gebruikers moet je lid zijn van de functiegroep **Global Reader** of **Beveiligingslezer**.
 
-  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+  Zie [Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
   > [!NOTE]
   >
-  > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   >
   > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
