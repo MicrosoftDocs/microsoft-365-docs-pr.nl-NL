@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen meer informatie krijgen over de ingebouwde opties voor het rapporteren van ongewenste e-mail, geen ongewenste e-mail en phishing-e-mail in Outlook voor iOS en Android.
+description: Beheerders kunnen meer informatie krijgen over de ingebouwde opties voor het melden van ongewenste e-mail en phishing in Outlook voor iOS en Android.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e3e3a2d77c978649e7496d09f78301add397fb9d
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: e6e63f534a9f9516c6e1a87ff82d5b0916d25778
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289171"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509324"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Ongewenste e-mail en phishing-e-mail melden in Outlook voor iOS en Android in Exchange Online
 
@@ -33,7 +33,7 @@ ms.locfileid: "50289171"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of on-premises postvakken die gebruikmaken van hybride [moderne](../../enterprise/hybrid-modern-auth-overview.md)verificatie, kunt u de ingebouwde rapportageopties in Outlook voor iOS en Android gebruiken om fout-positieven (goede e-mail gemarkeerd als spam), fout-negatieven (slechte e-mail toegestaan) en phishingberichten naar Exchange Online Protection (EOP) te verzenden.
+In Microsoft 365-organisaties met postvakken in Exchange Online of on-premises postvakken met hybride [moderne](../../enterprise/hybrid-modern-auth-overview.md)verificatie kunt u fout-positieven (goede e-mail die als spam is gemarkeerd), fout-negatieven (niet-toegestane e-mail) en phishingberichten verzenden naar Exchange Online Protection (EOP).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint
 

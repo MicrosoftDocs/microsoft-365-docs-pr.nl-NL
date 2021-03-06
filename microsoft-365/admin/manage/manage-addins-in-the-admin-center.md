@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
-description: Meer informatie over het gebruik van Gecentraliseerde invoegvoeg graag voor het implementeren van invoegingen voor gebruikers en groepen in uw organisatie.
-ms.openlocfilehash: 5366bd5be80559f23490aeb54f9417a189169e12
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+description: Meer informatie over het gebruik van Gecentraliseerde invoegvoegingen voor het implementeren van invoegingen voor gebruikers en groepen in uw organisatie.
+ms.openlocfilehash: b888c0f329e3f1f36f5aa566df7efbab07cd1f5f
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114199"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509132"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Invoegtoepassingen beheren in het beheercentrum
 
@@ -44,7 +44,7 @@ Zie Invoegingen implementeren in het beheercentrum voor meer informatie over het
   
 ## <a name="add-in-states"></a>Statussen van invoegtoepassingen
 
-Een invoeg mag de status **Aan of** **Uit** hebben.
+Een invoeg mag de status **Aan** of **Uit** hebben.
   
 |**Status**|**Hoe de status optreedt**|**Impact**|
 |:-----|:-----|:-----|
@@ -63,7 +63,7 @@ U kunt ook een geïmplementeerde invoeg procenten verwijderen.
      > [!NOTE]
     > Het beheercentrum wordt bijgewerkt naar de implementatie-ervaring met Geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie Gecentraliseerde implementatie via **Geïntegreerde**  >  **apps instellingen.** Kies invoegingen boven aan de pagina Geïntegreerde **apps.**
 
-2. Selecteer de geïmplementeerde invoegvoeging.
+2. Selecteer de geïmplementeerde invoegsoper.
 
 3. Klik op **Invoeg toevoegen verwijderen.** Verwijder de knop in de rechteronderhoek.
 
@@ -78,7 +78,7 @@ Na de implementatie kunnen beheerders ook de gebruikerstoegang tot invoegingen b
      > [!NOTE]
     > Het beheercentrum wordt bijgewerkt naar de implementatie-ervaring met Geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie Gecentraliseerde implementatie via **Geïntegreerde**  >  **apps instellingen.** Kies invoegingen boven aan de pagina Geïntegreerde **apps.**
 
-2. Selecteer de geïmplementeerde invoegvoeging.
+2. Selecteer de geïmplementeerde invoegsoper.
 
 3. Klik op **Bewerken** onder **Wie heeft Access.**
 
@@ -138,7 +138,7 @@ Om te voorkomen dat een gebruiker zich aanmeldt met een Microsoft-account, kunt 
 
 ## <a name="more-about-the-end-user-experience-with-add-ins"></a>Meer informatie over de ervaring van eindgebruikers met invoegingen
 
-Nadat u een invoegtoepassingen hebt geïmplementeerd, kunnen uw eindgebruikers deze gaan gebruiken in hun Office-toepassingen (zie Uw [Office-invoegtoepassingen gebruiken).](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862) De invoeg feit wordt weergegeven op alle platforms die door de invoegvoeg toevoeg worden ondersteund.
+Nadat u een invoegtoepassingen hebt geïmplementeerd, kunnen uw eindgebruikers deze gaan gebruiken in hun Office-toepassingen (zie [Uw Office-invoegtoepassingen gebruiken).](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862) De invoeg feit wordt weergegeven op alle platforms die door de invoegvoeg toevoeg worden ondersteund.
   
 Als de invoegtoepassing opdrachten van de invoegtoepassing ondersteunt, verschijnen de opdrachten in het Office-lint. In het volgende voorbeeld wordt de opdracht **Bronvermelding zoeken** weergegeven voor de invoegtoepassing **Bronvermeldingen**. 
 
@@ -158,7 +158,7 @@ Als de geïmplementeerde invoegtoepassing geen ondersteuning biedt voor opdracht
 
 1. Selecteer **Invoegingen** ophalen op het lint **Start.**<br/>![Knop Store in Outlook](../../media/getaddinsicon.png)
   
-2. Selecteer **beheerde beheerder** in het linkernavigatiebalkje. 
+2. Selecteer **beheerde beheerder** in de linkernavigatiebalk. 
 
 ## <a name="learn-more"></a>Meer informatie
 
@@ -166,7 +166,7 @@ Als de geïmplementeerde invoegtoepassing geen ondersteuning biedt voor opdracht
 
 Lees meer over het maken en bouwen van [Office-invoegtoepassingen](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).
   
-[PowerShell-cmdlets voor Gecentraliseerde implementatie gebruiken om invoegingen te beheren.](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
+[Gebruik PowerShell-cmdlets voor Gecentraliseerde implementatie om invoegingen te beheren.](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
   
 [Problemen oplossen: Gebruiker ziet geen invoegingen](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
 

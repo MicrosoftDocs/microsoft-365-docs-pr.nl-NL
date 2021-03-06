@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen in de beveiligingsportal meer informatie krijgen over het configureren van toegestane en geblokkeerde tenants in de lijst Met toegestane/geblokkeerde tenants.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 960fbf26b610485fb46c935b04aedcc593b85752
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 20e460f4e93f7b87faaead8b87ba561224e38938
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407248"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515206"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Tenant Toestaan/Blokkeren-lijst beheren
 
@@ -40,48 +40,52 @@ ms.locfileid: "50407248"
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken, bent u het mogelijk niet eens met de filtering van EOP. Een goed bericht kan bijvoorbeeld als slecht zijn gemarkeerd (een fout-positief) of een slecht bericht kan zijn toegestaan (een fout-negatief).
 
-Met de lijst met tenants toestaan/blokkeren in het & compliancecentrum kunt u het filterbeleid van Microsoft 365 handmatig overschrijven. De tenantlijst toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en tijdens het klikken door de gebruiker. U kunt URL's of bestanden opgeven die u altijd wilt blokkeren.
+Met de lijst met tenants toestaan/blokkeren in het & compliancecentrum voor beveiliging kunt u het filterbeleid van Microsoft 365 handmatig overschrijven. De tenantlijst toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en tijdens het klikken door de gebruiker. U kunt URL's of bestanden opgeven die u altijd wilt blokkeren.
 
 In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Toestaan/blokkeren van de tenant in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Tenant toestaan/blokkeren wilt** gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Tenant toestaan/blokkeren wilt** gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
 
 - U geeft bestanden op met behulp van de SHA256-hashwaarde van het bestand. U kunt de SHA256-hashwaarde van een bestand in Windows vinden door de volgende opdracht uit te voeren in een opdrachtprompt:
 
-  ```dos
+  ```console
   certutil.exe -hashfile "<Path>\<Filename>" SHA256
   ```
 
-  Een voorbeeldwaarde is `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a` . Perceptual hash (pHash) waarden worden niet ondersteund.
+  Een voorbeeldwaarde is `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a` . Perceptual hash -waarden (pHash) worden niet ondersteund.
 
-- De beschikbare URL-waarden worden beschreven in de [URL-syntaxis voor de sectie Toestaan/blokkeerlijst](#url-syntax-for-the-tenant-allowblock-list) voor tenants verderop in dit artikel.
+- De beschikbare URL-waarden worden beschreven in de URL-syntaxis voor de [sectie Toestaan/blokkeerlijst](#url-syntax-for-the-tenant-allowblock-list) voor tenants verderop in dit artikel.
 
 - De tenantlijst toestaan/blokkeren biedt maximaal 500 vermeldingen voor URL's en 500 vermeldingen voor bestand-hashes.
 
-- Een item moet binnen 15 minuten actief zijn.
+- Het maximum aantal tekens voor elke invoer is:
+  - Bestandshashes = 64
+  - URL = 250
+
+- Een item moet binnen 30 minuten actief zijn.
 
 - Standaard verlopen vermeldingen in de lijst met toegestane/geblokkeerde tenants na 30 dagen. U kunt een datum opgeven of instellen dat deze nooit verloopt.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- U moet machtigingen toegewezen krijgen in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
+- U moet over toegewezen machtigingen beschikken in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
   - Als u waarden wilt toevoegen aan en verwijderen uit de tenantlijst toestaan/blokkeren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
   - Voor alleen-lezen toegang tot de tenantlijst Toestaan/Blokkeren moet  u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
-  Zie Machtigingen [in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+  Zie [Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
-  **Opmerkingen**:
-
-  - Als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol  in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
+  > [!NOTE]
+  > 
+  > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om URL-vermeldingen te maken in de lijst Met toegestane/geblokkeerde tenants
 
 Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis voor URL-vermeldingen.
 
-1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
 
 2. Controleer op **de pagina Tenant toestaan/blokkeren** of het tabblad **URL's** is geselecteerd en klik vervolgens op **Blokkeren**
 
@@ -93,7 +97,7 @@ Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren]
 
      - Controleer of de instelling is uitgeschakeld (in-/uitschakelen) en gebruik het vak Verloopt in om de vervaldatum voor de items ![ ](../../media/scc-toggle-off.png) op te geven. 
 
-     of
+       of
 
      - Verplaats de schakelknop naar rechts om de vermeldingen zo te configureren dat ze nooit verlopen: ![Inschakelen](../../media/scc-toggle-on.png).
 
@@ -107,7 +111,7 @@ Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren]
 
 2. Selecteer op **de pagina Lijst met tenants toestaan/blokkeren** het tabblad Bestanden en klik op **Blokkeren.** 
 
-3. Configureer **de volgende instellingen in het dialoogvenster** Bestanden toevoegen om flyout te blokkeren die wordt weergegeven:
+3. Configureer **de volgende instellingen** in het dialoogvenster Bestanden toevoegen om de flyout te blokkeren die wordt weergegeven:
 
    - **Bestandshashes toevoegen:** voer één SHA256-hashwaarde per regel in, tot maximaal 20.
 
@@ -123,9 +127,9 @@ Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren]
 
 4. Klik op Toevoegen wanneer u **klaar bent.**
 
-## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om vermeldingen weer te geven in de lijst Met toegestane/geblokkeerde tenants
+## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om vermeldingen in de lijst Met toegestane/geblokkeerde tenants weer te geven
 
-1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
@@ -142,7 +146,7 @@ Klik **op Filter.** Configureer **een van** de volgende instellingen in de flyou
 
 - **Nooit verlopen:** uit- of ![ ](../../media/scc-toggle-off.png) uitschakelen: ![ In-/uitschakelen: In-/uitschakelen. ](../../media/scc-toggle-on.png)
 
-- **Laatst bijgewerkt:** selecteer een begindatum **(van),** een einddatum **(aan)** of beide.
+- **Laatst bijgewerkt:** Selecteer een begindatum **(Van),** een einddatum **(Aan)** of beide.
 
 - **Vervaldatum:** selecteer een begindatum **(van),** een einddatum **(aan)** of beide.
 
@@ -150,11 +154,11 @@ Klik op Toepassen wanneer u **klaar bent.**
 
 Als u bestaande filters wilt wissen, klikt u op **Filter** en klikt u in de **flyout** Filter die wordt weergegeven op **Filters wissen.**
 
-## <a name="use-the-security--compliance-center-to-modify-block-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & blokkeringsgegevens in de lijst met tenants toestaan/blokkeren te wijzigen
+## <a name="use-the-security--compliance-center-to-modify-block-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligingscentrum & blokkeringsgegevens in de lijst Met tenant toestaan/blokkeren te wijzigen
 
 U kunt de bestaande geblokkeerde URL of bestandswaarden in een vermelding niet wijzigen. Als u deze waarden wilt wijzigen, moet u de vermelding verwijderen en opnieuw maken.
 
-1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
@@ -166,17 +170,17 @@ U kunt de bestaande geblokkeerde URL of bestandswaarden in een vermelding niet w
 
      - Controleer of de instelling is uitgeschakeld (in-/uitschakelen) en gebruik het vak Verloopt in om de vervaldatum voor de vermelding ![ ](../../media/scc-toggle-off.png) op te geven. 
 
-     of
+       of
 
      - Verplaats de schakelknop naar rechts om de vermelding zo te configureren dat deze nooit verloopt: ![Inschakelen](../../media/scc-toggle-on.png).
 
-   - **Optionele opmerking:** voer beschrijvende tekst voor de invoer in.
+   - **Optionele opmerking:** voer een beschrijvende tekst voor de invoer in.
 
 5. Klik op **Opslaan** wanneer u gereed bent.
 
 ## <a name="use-the-security--compliance-center-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om geblokkeerde items uit de lijst Met toegestane/geblokkeerde tenants te verwijderen
 
-1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
@@ -197,13 +201,13 @@ New-TenantAllowBlockListItems -ListType <Url | FileHash> -Block -Entries <String
 In dit voorbeeld wordt een BLOK-URL-vermelding toegevoegd voor contoso.com en alle subdomeinen (bijvoorbeeld contoso.com, www.contoso.com en xyz.abc.contoso.com). Omdat we de parameters ExpirationDate of NoExpiration niet hebben gebruikt, verloopt de invoer na 30 dagen.
 
 ```powershell
-New-TenantAllowBlockListItem -ListType Url -Block -Entries ~contoso.com
+New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 ```
 
 In dit voorbeeld wordt een blokkeringsbestandsinvoer toegevoegd voor de opgegeven bestanden die nooit verlopen.
 
 ```powershell
-New-TenantAllowBlockListItem -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
+New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
 Zie [New-TenantAllowBlockListItems voor](https://docs.microsoft.com/powershell/module/exchange/new-tenantallowblocklistitems)gedetailleerde syntaxis- en parameterinformatie.
@@ -222,13 +226,13 @@ In dit voorbeeld worden alle geblokkeerde URL's als retourneert.
 Get-TenantAllowBlockListItems -ListType Url -Block
 ```
 
-In dit voorbeeld worden gegevens voor de opgegeven hash-waarde van het bestand als resultaat gegeven.
+In dit voorbeeld worden gegevens voor de opgegeven hash-waarde voor het bestand als resultaat gegeven.
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
 ```
 
-Zie [Get-TenantAllowBlockListItems voor](https://docs.microsoft.com/powershell/module/exchange/get-tenantallowblocklistitems)gedetailleerde syntaxis- en parameterinformatie.
+Zie [Get-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/get-tenantallowblocklistitems)voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="use-powershell-to-modify-block-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om geblokkeerde items in de lijst Met tenant toestaan/blokkeren te wijzigen
 
@@ -240,7 +244,7 @@ Gebruik de volgende syntaxis om geblokkeerde items in de tenantlijst toestaan/bl
 Set-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN"> [-Block] [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
 ```
 
-In dit voorbeeld wordt de vervaldatum van de opgegeven blokkeringsdatum gewijzigd.
+In dit voorbeeld wordt de vervaldatum van de opgegeven blokinvoer gewijzigd.
 
 ```powershell
 Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -ExpirationDate (Get-Date "5/30/2020 9:30 AM").ToUniversalTime()
@@ -293,7 +297,7 @@ Zie [Remove-TenantAllowBlockListItems voor gedetailleerde](https://docs.microsof
 
     Is bijvoorbeeld `contoso.com/*` toegestaan of `contoso.com*` niet `contoso.com/ab*` toegestaan.
 
-  - Alle subpathen worden niet geïmpliceerd door een rechter jokerteken.
+  - Alle subpaths worden niet geïmpliceerd door een rechter jokerteken.
 
     Bevat bijvoorbeeld `contoso.com/*` niet `contoso.com/a` .
 
@@ -345,7 +349,7 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
 
-- **Blok komt niet overeen met**: abc-contoso.com
+- **Blok komt niet overeen:** abc-contoso.com
 
 #### <a name="scenario-left-wildcard-subdomain"></a>Scenario: Linker-jokerteken (subdomein)
 

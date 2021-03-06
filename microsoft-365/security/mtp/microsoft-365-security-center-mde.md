@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 1fd32aa688256f1ac8e63eec902c3a18b2143f09
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 63f40ff12972695e391bd25973fd9a7195fab5b1
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242912"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515026"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft Defender voor eindpunt in het Microsoft 365-beveiligingscentrum
 
@@ -49,6 +49,9 @@ Microsoft Defender for Endpoint in het Microsoft 365-beveiligingscentrum onderst
 > [!IMPORTANT]
 > Wat u in het Microsoft 365-beveiligingscentrum ziet, is afhankelijk van uw huidige abonnementen. Als u bijvoorbeeld geen licentie voor Microsoft Defender voor Office 365 hebt, wordt de sectie E-mail & Samenwerking niet weergegeven.
 
+>[!Note]
+>De nieuwe geïntegreerde portal is niet beschikbaar voor: Amerikaanse Government Community Cloud (GCC) US Government Community Cloud High (GCC High) Amerikaanse department of Defense All Amerikaanse overheidsinstellingen met commerciële licenties
+
 Bekijk het verbeterde Microsoft 365-beveiligingscentrum: [https://security.microsoft.com](https://security.microsoft.com)
 
 Meer informatie over de voordelen: [Overzicht van het Microsoft 365-beveiligingscentrum](overview-security-center.md)
@@ -71,7 +74,7 @@ Deze tabel is een beknopt overzicht van de wijzigingen tussen het Microsoft Defe
 |**Gebied**  |**Beschrijving van wijziging**  |
 |---------|---------|
 |Zoeken   |  In plaats van in de kop te staan, wordt de zoekbalk van Microsoft Defender voor eindpunt verplaatst naar de sectie Eindpunten. U kunt nog steeds zoeken naar apparaten, bestanden, gebruikers, URL's, INTERNETproviders, beveiligingsproblemen, software en aanbevelingen.  |
-|[Dashboard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/security-operations-dashboard)   |  Dit is het dashboard voor beveiligingsbewerkingen. Bekijk een overzicht van het aantal actieve waarschuwingen dat is geactiveerd, welke apparaten risico lopen, welke gebruikers een risico lopen en wat het niveau van ernst is voor waarschuwingen, apparaten en gebruikers. U kunt ook zien of er apparaten zijn met sensorproblemen, uw algehele service status en hoe niet-om opgeloste waarschuwingen zijn gedetecteerd. |
+|[Dashboard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/security-operations-dashboard)   |  Dit is het dashboard voor beveiligingsbewerkingen. Bekijk een overzicht van het aantal actieve waarschuwingen dat is geactiveerd, welke apparaten risico lopen, welke gebruikers een risico lopen en wat het niveau van ernst is voor waarschuwingen, apparaten en gebruikers. U kunt ook zien of er apparaten zijn met sensorproblemen, uw algehele service status en hoe er niet-opgeloste waarschuwingen zijn gedetecteerd. |
 |Apparaatvoorraad | Geen wijzigingen. |
 |[Beveiligingsprobleembeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)    |    De naam is ingekort om in het navigatiedeelvenster te passen. Het is dezelfde als de sectie Risico- en beveiligingsprobleembeheer, met alle pagina's eronder.     |
 | Partners en API's | Geen wijzigingen. |
@@ -86,7 +89,7 @@ Deze tabel is een beknopt overzicht van de wijzigingen tussen het Microsoft Defe
 |**Gebied**  |**Beschrijving van wijziging**  |
 |---------|---------|
 | Rapporten  | Bekijk rapporten voor eindpunten en e-& samenwerking, waaronder bedreigingsbeveiliging, apparaat status en naleving en kwetsbaar apparaten. |
-| Gezondheid  |  Koppelingen naar de pagina Service status in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/) |
+| Gezondheid  |  Koppelingen naar de pagina 'Service status' in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/) |
 | Instellingen |  Beheer uw instellingen voor het Microsoft 365-beveiligingscentrum, Microsoft 365 Defender, Eindpunten, E-mail & samenwerking, Identiteiten en Apparaatdetectie.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Microsoft 365-beveiligingsnavigatie en -mogelijkheden
@@ -95,7 +98,7 @@ Het linkernavigatiedeelvenster of de werkbalk Snel starten ziet er vertrouwd uit
 
 ### <a name="incidents-and-alerts"></a>Incidenten en waarschuwingen
 
-Brengt incident- en waarschuwingsbeheer samen voor uw e-mail, apparaten en identiteiten. De waarschuwingspagina biedt volledige context voor de waarschuwing door het combineren van aanvallen om een gedetailleerd verhaal op te bouwen. Een nieuwe, geïntegreerde ervaring brengt nu een consistente weergave van waarschuwingen voor werkbelastingen samen. U kunt snel triage, onderzoek doen en effectieve actie ondernemen.
+Brengt incident- en waarschuwingsbeheer samen voor uw e-mail, apparaten en identiteiten. De waarschuwingspagina biedt volledige context voor de waarschuwing door het combineren van aanvallen om een gedetailleerd verhaal op te bouwen. Een nieuwe, geïntegreerde ervaring biedt nu een consistente weergave van waarschuwingen voor werkbelastingen. U kunt snel triage, onderzoek doen en effectieve acties ondernemen.
 
 - [Meer informatie over incidenten](incidents-overview.md)
 - [Meer informatie over het beheren van waarschuwingen](investigate-alerts.md)
@@ -121,15 +124,15 @@ Krijg bedreigingsinformatie van deskundige Microsoft-beveiligingsonderzoekers. M
 
 - E-maildetectie en risicobeperking van Microsoft Defender voor Office 365. Dit komt naast de eindpuntgegevens die al beschikbaar zijn van Microsoft Defender voor Eindpunt.
 - Weergave incidenten met betrekking tot de bedreigingen.
-- Verbeterde ervaring voor het snel identificeren en gebruiken van actie-informatie in de rapporten.
+- Verbeterde ervaring voor het snel identificeren en gebruiken van informatie die door een actie kan worden ondernomen in de rapporten.
 
 U kunt bedreigingsanalyse openen vanaf de navigatiebalk linksboven in het Microsoft 365-beveiligingscentrum of vanaf een speciale dashboardkaart met de belangrijkste bedreigingen voor uw organisatie.
 
-Meer informatie over het volgen en [reageren op nieuwe bedreigingen met bedreigingsanalyse](https://docs.microsoft.com/microsoft-365/security/mtp/threat-analytics)
+Meer informatie over het volgen [en reageren op nieuwe bedreigingen met bedreigingsanalyse](https://docs.microsoft.com/microsoft-365/security/mtp/threat-analytics)
 
 ### <a name="endpoints-section"></a>Sectie Eindpunten
 
-Bekijk en beheer de beveiliging van eindpunten in uw organisatie. Als u het Microsoft Defender-beveiligingscentrum hebt gebruikt, zal het u bekend voorkomen.
+Bekijk en beheer de beveiliging van eindpunten in uw organisatie. Als u het Microsoft Defender-beveiligingscentrum hebt gebruikt, zal dit u bekend voorkomen.
 
 ![De werkbalk Snel starten van eindpunten](../../media/converge-2-endpoints.png)
 
@@ -145,9 +148,9 @@ Als u de [DEFENDER for Endpoint SIEM-API](/windows/security/threat-protection/mi
 
 ### <a name="email-alerts"></a>E-mailwaarschuwingen
 
-U kunt e-mailwaarschuwingen blijven gebruiken voor Defender voor eindpunt. We hebben nieuwe koppelingen toegevoegd in de e-mailberichten die wijzen naar de waarschuwingspagina of de incidentpagina in het Microsoft 365-beveiligingscentrum. Zie Accounts van Microsoft Defender for [Endpoint omleiden naar het Microsoft 365-beveiligingscentrum](/microsoft-365/security/mtp/microsoft-365-security-mde-redirection.md)voor meer informatie.
+U kunt e-mailwaarschuwingen blijven gebruiken voor Defender voor eindpunt. We hebben nieuwe koppelingen toegevoegd in de e-mailberichten die wijzen naar de waarschuwingspagina of de pagina met incidenten in het Microsoft 365-beveiligingscentrum. Zie Accounts van Microsoft Defender for [Endpoint omleiden naar het Microsoft 365-beveiligingscentrum](/microsoft-365/security/mtp/microsoft-365-security-mde-redirection.md)voor meer informatie.
 
-## <a name="related-information"></a>Gerelateerde informatie
+## <a name="related-information"></a>Verwante informatie
 
 - [Microsoft 365-beveiligingscentrum](overview-security-center.md)
 - [Microsoft Defender voor eindpunt in het Microsoft 365-beveiligingscentrum](microsoft-365-security-center-mde.md)
