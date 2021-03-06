@@ -18,90 +18,90 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: 'Samenvatting: verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster.'
-ms.openlocfilehash: 390e2446737b4b85dfaba64974666fab4938a5dd
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: cd030018dabff628af18d173cf542a3d375b27d0
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084599"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515110"
 ---
-# <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a><span data-ttu-id="066a8-103">Verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster</span><span class="sxs-lookup"><span data-stu-id="066a8-103">Connect to all Microsoft 365 services in a single PowerShell window</span></span>
+# <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a><span data-ttu-id="cbd5e-103">Verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster</span><span class="sxs-lookup"><span data-stu-id="cbd5e-103">Connect to all Microsoft 365 services in a single PowerShell window</span></span>
 
-<span data-ttu-id="066a8-104">Wanneer u PowerShell gebruikt om Microsoft 365 te beheren, kunt u meerdere PowerShell-sessies tegelijk openen.</span><span class="sxs-lookup"><span data-stu-id="066a8-104">When you use PowerShell to manage Microsoft 365, you can have multiple PowerShell sessions open at the same time.</span></span> <span data-ttu-id="066a8-105">Mogelijk hebt u verschillende PowerShell-Vensters voor het beheren van gebruikersaccounts, SharePoint Online, Exchange Online, Skype voor Bedrijven Online, Microsoft Teams en het Beveiligings- &amp;en compliancecentrum.</span><span class="sxs-lookup"><span data-stu-id="066a8-105">You might have different PowerShell windows to manage user accounts, SharePoint Online, Exchange Online, Skype for Business Online, Microsoft Teams, and the Security &amp; Compliance center.</span></span>
+<span data-ttu-id="cbd5e-104">Wanneer u PowerShell gebruikt om Microsoft 365 te beheren, kunt u meerdere PowerShell-sessies tegelijk openen.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-104">When you use PowerShell to manage Microsoft 365, you can have multiple PowerShell sessions open at the same time.</span></span> <span data-ttu-id="cbd5e-105">Mogelijk hebt u verschillende PowerShell-Vensters voor het beheren van gebruikersaccounts, SharePoint Online, Exchange Online, Skype voor Bedrijven Online, Microsoft Teams en het Beveiligings- &amp;en compliancecentrum.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-105">You might have different PowerShell windows to manage user accounts, SharePoint Online, Exchange Online, Skype for Business Online, Microsoft Teams, and the Security &amp; Compliance center.</span></span>
   
-<span data-ttu-id="066a8-106">Dit is niet optimaal voor het beheer van Microsoft 365, omdat u geen gegevens kunt uitwisselen tussen deze vensters voor servicebeheer.</span><span class="sxs-lookup"><span data-stu-id="066a8-106">This scenario isn't optimal for managing Microsoft 365, because you can't exchange data among those windows for cross-service management.</span></span> <span data-ttu-id="066a8-107">In dit artikel wordt beschreven hoe u één exemplaar van Windows PowerShell kunt gebruiken waarmee u Microsoft 365-accounts, Skype voor Bedrijven Online, Exchange Online, SharePoint Online, Microsoft Teams en het Beveiligings- &amp;en compliancecentrum kunt beheren.</span><span class="sxs-lookup"><span data-stu-id="066a8-107">This article describes how to use a single instance of PowerShell to manage Microsoft 365 accounts, Skype for Business Online, Exchange Online, SharePoint Online, Microsoft Teams, and the Security &amp; Compliance Center.</span></span>
+<span data-ttu-id="cbd5e-106">Dit is niet optimaal voor het beheer van Microsoft 365, omdat u geen gegevens kunt uitwisselen tussen deze vensters voor servicebeheer.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-106">This scenario isn't optimal for managing Microsoft 365, because you can't exchange data among those windows for cross-service management.</span></span> <span data-ttu-id="cbd5e-107">In dit artikel wordt beschreven hoe u één exemplaar van Windows PowerShell kunt gebruiken waarmee u Microsoft 365-accounts, Skype voor Bedrijven Online, Exchange Online, SharePoint Online, Microsoft Teams en het Beveiligings- &amp;en compliancecentrum kunt beheren.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-107">This article describes how to use a single instance of PowerShell to manage Microsoft 365 accounts, Skype for Business Online, Exchange Online, SharePoint Online, Microsoft Teams, and the Security &amp; Compliance Center.</span></span>
 
 >[!Note]
-><span data-ttu-id="066a8-108">Dit artikel bevat momenteel alleen de opdrachten om verbinding te maken met de wereldwijde (+GCC) cloud.</span><span class="sxs-lookup"><span data-stu-id="066a8-108">This article currently only contains the commands to connect to the Worldwide (+GCC) cloud.</span></span> <span data-ttu-id="066a8-109">Notities bevatten koppelingen naar artikelen over het maken van verbinding met de andere Microsoft 365-clouds.</span><span class="sxs-lookup"><span data-stu-id="066a8-109">Notes provide links to articles about connecting to the other Microsoft 365 clouds.</span></span>
+><span data-ttu-id="cbd5e-108">Dit artikel bevat momenteel alleen de opdrachten om verbinding te maken met de wereldwijde (+GCC) cloud.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-108">This article currently only contains the commands to connect to the Worldwide (+GCC) cloud.</span></span> <span data-ttu-id="cbd5e-109">Notities bevatten koppelingen naar artikelen over het maken van verbinding met de andere Microsoft 365-clouds.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-109">Notes provide links to articles about connecting to the other Microsoft 365 clouds.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="066a8-110">Voordat u begint</span><span class="sxs-lookup"><span data-stu-id="066a8-110">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="cbd5e-110">Voordat u begint</span><span class="sxs-lookup"><span data-stu-id="cbd5e-110">Before you begin</span></span>
 
-<span data-ttu-id="066a8-111">Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beheren, moet u rekening houden met de volgende vereisten:</span><span class="sxs-lookup"><span data-stu-id="066a8-111">Before you can manage all of Microsoft 365 from a single instance of PowerShell, consider the following prerequisites:</span></span>
+<span data-ttu-id="cbd5e-111">Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beheren, moet u rekening houden met de volgende vereisten:</span><span class="sxs-lookup"><span data-stu-id="cbd5e-111">Before you can manage all of Microsoft 365 from a single instance of PowerShell, consider the following prerequisites:</span></span>
   
-- <span data-ttu-id="066a8-112">Het werk- of schoolaccount van Microsoft 365 dat u gebruikt, moet lid zijn van een Microsoft 365-beheerdersrol.</span><span class="sxs-lookup"><span data-stu-id="066a8-112">The Microsoft 365 work or school account that you use must be a member of a Microsoft 365 admin role.</span></span> <span data-ttu-id="066a8-113">Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="066a8-113">For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).</span></span> <span data-ttu-id="066a8-114">Dit is een vereiste voor PowerShell voor Microsoft 365, niet per se voor alle andere Microsoft 365-services.</span><span class="sxs-lookup"><span data-stu-id="066a8-114">This is a requirement for PowerShell for Microsoft 365, but not necessarily for all other Microsoft 365 services.</span></span>
+- <span data-ttu-id="cbd5e-112">Het werk- of schoolaccount van Microsoft 365 dat u gebruikt, moet lid zijn van een Microsoft 365-beheerdersrol.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-112">The Microsoft 365 work or school account that you use must be a member of a Microsoft 365 admin role.</span></span> <span data-ttu-id="cbd5e-113">Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-113">For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).</span></span> <span data-ttu-id="cbd5e-114">Dit is een vereiste voor PowerShell voor Microsoft 365, niet per se voor alle andere Microsoft 365-services.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-114">This is a requirement for PowerShell for Microsoft 365, but not necessarily for all other Microsoft 365 services.</span></span>
     
-- <span data-ttu-id="066a8-115">U kunt de volgende 64-bits versies van Windows gebruiken:</span><span class="sxs-lookup"><span data-stu-id="066a8-115">You can use the following 64-bit versions of Windows:</span></span>
+- <span data-ttu-id="cbd5e-115">U kunt de volgende 64-bits versies van Windows gebruiken:</span><span class="sxs-lookup"><span data-stu-id="cbd5e-115">You can use the following 64-bit versions of Windows:</span></span>
     
-  - <span data-ttu-id="066a8-116">Windows 10</span><span class="sxs-lookup"><span data-stu-id="066a8-116">Windows 10</span></span>
+  - <span data-ttu-id="cbd5e-116">Windows 10</span><span class="sxs-lookup"><span data-stu-id="cbd5e-116">Windows 10</span></span>
     
-  - <span data-ttu-id="066a8-117">Windows 8.1 of Windows 8</span><span class="sxs-lookup"><span data-stu-id="066a8-117">Windows 8.1 or Windows 8</span></span>
+  - <span data-ttu-id="cbd5e-117">Windows 8.1 of Windows 8</span><span class="sxs-lookup"><span data-stu-id="cbd5e-117">Windows 8.1 or Windows 8</span></span>
     
-  - <span data-ttu-id="066a8-118">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="066a8-118">Windows Server 2019</span></span>
+  - <span data-ttu-id="cbd5e-118">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="cbd5e-118">Windows Server 2019</span></span>
     
-  - <span data-ttu-id="066a8-119">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="066a8-119">Windows Server 2016</span></span>
+  - <span data-ttu-id="cbd5e-119">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="cbd5e-119">Windows Server 2016</span></span>
     
-  - <span data-ttu-id="066a8-120">Windows Server 2012 R2 of Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="066a8-120">Windows Server 2012 R2 or Windows Server 2012</span></span>
+  - <span data-ttu-id="cbd5e-120">Windows Server 2012 R2 of Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="cbd5e-120">Windows Server 2012 R2 or Windows Server 2012</span></span>
     
-  - <span data-ttu-id="066a8-121">Windows 7 Service Pack 1 (SP1)\*</span><span class="sxs-lookup"><span data-stu-id="066a8-121">Windows 7 Service Pack 1 (SP1)\*</span></span>
+  - <span data-ttu-id="cbd5e-121">Windows 7 Service Pack 1 (SP1)\*</span><span class="sxs-lookup"><span data-stu-id="cbd5e-121">Windows 7 Service Pack 1 (SP1)\*</span></span>
     
-  - <span data-ttu-id="066a8-122">Windows Server 2008 R2 SP1\*</span><span class="sxs-lookup"><span data-stu-id="066a8-122">Windows Server 2008 R2 SP1\*</span></span>
+  - <span data-ttu-id="cbd5e-122">Windows Server 2008 R2 SP1\*</span><span class="sxs-lookup"><span data-stu-id="cbd5e-122">Windows Server 2008 R2 SP1\*</span></span>
     
-    <span data-ttu-id="066a8-123">\* U moet Microsoft .NET Framework 4.5 *x* installeren en vervolgens Windows Management Framework 3.0 of 4.0.</span><span class="sxs-lookup"><span data-stu-id="066a8-123">\* You need to install Microsoft .NET Framework 4.5.*x* and then Windows Management Framework 3.0 or 4.0.</span></span> <span data-ttu-id="066a8-124">Zie [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview)voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="066a8-124">For more information, see [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview).</span></span>
+    <span data-ttu-id="cbd5e-123">\* U moet Microsoft .NET Framework 4.5 *x* installeren en vervolgens Windows Management Framework 3.0 of 4.0.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-123">\* You need to install Microsoft .NET Framework 4.5.*x* and then Windows Management Framework 3.0 or 4.0.</span></span> <span data-ttu-id="cbd5e-124">Zie [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview)voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-124">For more information, see [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview).</span></span>
     
-    <span data-ttu-id="066a8-125">U moet een 64-bits versie van Windows gebruiken vanwege de vereisten voor de module Skype voor Bedrijven Online en een van de Microsoft 365-modules.</span><span class="sxs-lookup"><span data-stu-id="066a8-125">You need to use a 64-bit version of Windows because of the requirements for the Skype for Business Online module and one of the Microsoft 365 modules.</span></span>
+    <span data-ttu-id="cbd5e-125">U moet een 64-bits versie van Windows gebruiken vanwege de vereisten voor de module Skype voor Bedrijven Online en een van de Microsoft 365-modules.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-125">You need to use a 64-bit version of Windows because of the requirements for the Skype for Business Online module and one of the Microsoft 365 modules.</span></span>
     
-- <span data-ttu-id="066a8-126">U moet de modules installeren die vereist zijn voor Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype voor Bedrijven Online en Teams:</span><span class="sxs-lookup"><span data-stu-id="066a8-126">You need to install the modules that are required for Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype for Business Online and Teams:</span></span>
+- <span data-ttu-id="cbd5e-126">U moet de modules installeren die vereist zijn voor Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype voor Bedrijven Online en Teams:</span><span class="sxs-lookup"><span data-stu-id="cbd5e-126">You need to install the modules that are required for Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype for Business Online and Teams:</span></span>
     
-  - [<span data-ttu-id="066a8-127">Azure Active Directory V2</span><span class="sxs-lookup"><span data-stu-id="066a8-127">Azure Active Directory V2</span></span>](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
-  - [<span data-ttu-id="066a8-128">SharePoint Online Management Shell</span><span class="sxs-lookup"><span data-stu-id="066a8-128">SharePoint Online Management Shell</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=255251)
-  - [<span data-ttu-id="066a8-129">Skype voor Bedrijven Online, Windows PowerShell-module</span><span class="sxs-lookup"><span data-stu-id="066a8-129">Skype for Business Online, PowerShell Module</span></span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
-  - [<span data-ttu-id="066a8-130">Exchange Online PowerShell V2</span><span class="sxs-lookup"><span data-stu-id="066a8-130">Exchange Online PowerShell V2</span></span>](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
-  - [<span data-ttu-id="066a8-131">Overzicht van PowerShell voor Teams</span><span class="sxs-lookup"><span data-stu-id="066a8-131">Teams PowerShell Overview</span></span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
+  - [<span data-ttu-id="cbd5e-127">Azure Active Directory V2</span><span class="sxs-lookup"><span data-stu-id="cbd5e-127">Azure Active Directory V2</span></span>](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+  - [<span data-ttu-id="cbd5e-128">SharePoint Online Management Shell</span><span class="sxs-lookup"><span data-stu-id="cbd5e-128">SharePoint Online Management Shell</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=255251)
+  - [<span data-ttu-id="cbd5e-129">Skype voor Bedrijven Online, Windows PowerShell-module</span><span class="sxs-lookup"><span data-stu-id="cbd5e-129">Skype for Business Online, PowerShell Module</span></span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
+  - [<span data-ttu-id="cbd5e-130">Exchange Online PowerShell V2</span><span class="sxs-lookup"><span data-stu-id="cbd5e-130">Exchange Online PowerShell V2</span></span>](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
+  - [<span data-ttu-id="cbd5e-131">Overzicht van PowerShell voor Teams</span><span class="sxs-lookup"><span data-stu-id="cbd5e-131">Teams PowerShell Overview</span></span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
     
--  <span data-ttu-id="066a8-132">Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en het Beveiligings- &amp; en compliancecentrum.</span><span class="sxs-lookup"><span data-stu-id="066a8-132">PowerShell must be configured to run signed scripts for Skype for Business Online and the Security &amp; Compliance Center.</span></span> <span data-ttu-id="066a8-133">Voer de volgende opdracht uit in een Windows PowerShell-sessie met een verhoogde bevoegdheid (een Windows PowerShell-sessie die u **Als beheerder uitvoert**).</span><span class="sxs-lookup"><span data-stu-id="066a8-133">Run the following command in an elevated PowerShell session (a PowerShell session that you **Run as administrator**).</span></span>
+-  <span data-ttu-id="cbd5e-132">Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en het Beveiligings- &amp; en compliancecentrum.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-132">PowerShell must be configured to run signed scripts for Skype for Business Online and the Security &amp; Compliance Center.</span></span> <span data-ttu-id="cbd5e-133">Voer de volgende opdracht uit in een Windows PowerShell-sessie met een verhoogde bevoegdheid (een Windows PowerShell-sessie die u **Als beheerder uitvoert**).</span><span class="sxs-lookup"><span data-stu-id="cbd5e-133">Run the following command in an elevated PowerShell session (a PowerShell session that you **Run as administrator**).</span></span>
     
    ```powershell
    Set-ExecutionPolicy RemoteSigned
    ```
 
-## <a name="connection-steps-when-using-just-a-password"></a><span data-ttu-id="066a8-134">Verbindingsstappen als u alleen een wachtwoord gebruikt</span><span class="sxs-lookup"><span data-stu-id="066a8-134">Connection steps when using just a password</span></span>
+## <a name="connection-steps-when-using-just-a-password"></a><span data-ttu-id="cbd5e-134">Verbindingsstappen als u alleen een wachtwoord gebruikt</span><span class="sxs-lookup"><span data-stu-id="cbd5e-134">Connection steps when using just a password</span></span>
 
-<span data-ttu-id="066a8-135">Hier volgen de stappen voor het maken van verbinding met alle services in één PowerShell-venster wanneer u alleen een wachtwoord gebruikt voor aanmelding.</span><span class="sxs-lookup"><span data-stu-id="066a8-135">Follow these steps to connect to all the services in a single PowerShell window when you're using just a password for sign-in.</span></span>
+<span data-ttu-id="cbd5e-135">Hier volgen de stappen voor het maken van verbinding met alle services in één PowerShell-venster wanneer u alleen een wachtwoord gebruikt voor aanmelding.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-135">Follow these steps to connect to all the services in a single PowerShell window when you're using just a password for sign-in.</span></span>
   
-1. <span data-ttu-id="066a8-136">Open Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="066a8-136">Open Windows PowerShell.</span></span>
+1. <span data-ttu-id="cbd5e-136">Open Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-136">Open Windows PowerShell.</span></span>
     
-2. <span data-ttu-id="066a8-137">Voer deze opdracht uit en voer de referenties voor uw werk- of schoolaccount van Microsoft 365 in.</span><span class="sxs-lookup"><span data-stu-id="066a8-137">Run this command and enter your Microsoft 365 work or school account credentials.</span></span>
+2. <span data-ttu-id="cbd5e-137">Voer deze opdracht uit en voer de referenties voor uw werk- of schoolaccount van Microsoft 365 in.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-137">Run this command and enter your Microsoft 365 work or school account credentials.</span></span>
     
    ```powershell
    $credential = Get-Credential
    ```
 
-3. <span data-ttu-id="066a8-138">Voer deze opdracht uit om verbinding te maken met Azure AD met behulp van de Azure Active Directory PowerShell voor Graph-module.</span><span class="sxs-lookup"><span data-stu-id="066a8-138">Run this command to connect to Azure AD by using the Azure Active Directory PowerShell for Graph module.</span></span>
+3. <span data-ttu-id="cbd5e-138">Voer deze opdracht uit om verbinding te maken met Azure AD met behulp van de Azure Active Directory PowerShell voor Graph-module.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-138">Run this command to connect to Azure AD by using the Azure Active Directory PowerShell for Graph module.</span></span>
     
    ```powershell
    Connect-AzureAD -Credential $credential
    ```
   
-   <span data-ttu-id="066a8-139">Als u de Microsoft Azure Active Directory-module voor Windows PowerShell gebruikt, voert u de volgende opdracht uit.</span><span class="sxs-lookup"><span data-stu-id="066a8-139">Or if you're using the Microsoft Azure Active Directory Module for Windows PowerShell module, run this command.</span></span>
+   <span data-ttu-id="cbd5e-139">Als u de Microsoft Azure Active Directory-module voor Windows PowerShell gebruikt, voert u de volgende opdracht uit.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-139">Or if you're using the Microsoft Azure Active Directory Module for Windows PowerShell module, run this command.</span></span>
       
    ```powershell
    Connect-MsolService -Credential $credential
    ```
 
    > [!Note]
-   > <span data-ttu-id="066a8-140">PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell en cmdlets met *Msol* in hun naam.</span><span class="sxs-lookup"><span data-stu-id="066a8-140">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="066a8-141">Voer deze cmdlets uit vanuit Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="066a8-141">You must run these cmdlets from PowerShell.</span></span>
+   > <span data-ttu-id="cbd5e-140">PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell en cmdlets met *Msol* in hun naam.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-140">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="cbd5e-141">Voer deze cmdlets uit vanuit Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-141">You must run these cmdlets from PowerShell.</span></span>
 
-4. <span data-ttu-id="066a8-142">Voer deze opdrachten uit om verbinding te maken met SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="066a8-142">Run these commands to connect to SharePoint Online.</span></span> <span data-ttu-id="066a8-143">Geef de naam van de organisatie op voor uw domein.</span><span class="sxs-lookup"><span data-stu-id="066a8-143">Specify the organization name for your domain.</span></span> <span data-ttu-id="066a8-144">Voor 'litwareinc\.onmicrosoft.com' is de waarde van de organisatienaam bijvoorbeeld 'litwareinc'.</span><span class="sxs-lookup"><span data-stu-id="066a8-144">For example, for "litwareinc\.onmicrosoft.com", the  organization name value is "litwareinc".</span></span>
+4. <span data-ttu-id="cbd5e-142">Voer deze opdrachten uit om verbinding te maken met SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-142">Run these commands to connect to SharePoint Online.</span></span> <span data-ttu-id="cbd5e-143">Geef de naam van de organisatie op voor uw domein.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-143">Specify the organization name for your domain.</span></span> <span data-ttu-id="cbd5e-144">Voor 'litwareinc\.onmicrosoft.com' is de waarde van de organisatienaam bijvoorbeeld 'litwareinc'.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-144">For example, for "litwareinc\.onmicrosoft.com", the  organization name value is "litwareinc".</span></span>
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -109,17 +109,18 @@ ms.locfileid: "50084599"
    Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $Credential
    ```
 
-5. <span data-ttu-id="066a8-145">Voer deze opdrachten uit om verbinding te maken met Skype voor Bedrijven Online.</span><span class="sxs-lookup"><span data-stu-id="066a8-145">Run these commands to connect to Skype for Business Online.</span></span> <span data-ttu-id="066a8-146">De eerste keer dat u verbinding maakt, wordt er een waarschuwing weergegeven over het vergroten van de `WSMan NetworkDelayms` waarde.</span><span class="sxs-lookup"><span data-stu-id="066a8-146">A warning about increasing the `WSMan NetworkDelayms` value will appear the first time that you connect.</span></span> <span data-ttu-id="066a8-147">U kunt dit negeren.</span><span class="sxs-lookup"><span data-stu-id="066a8-147">Ignore it.</span></span>
+5. <span data-ttu-id="cbd5e-145">Voer deze opdrachten uit om verbinding te maken met Skype voor Bedrijven Online.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-145">Run these commands to connect to Skype for Business Online.</span></span> <span data-ttu-id="cbd5e-146">De eerste keer dat u verbinding maakt, wordt er een waarschuwing weergegeven over het vergroten van de `WSMan NetworkDelayms` waarde.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-146">A warning about increasing the `WSMan NetworkDelayms` value will appear the first time that you connect.</span></span> <span data-ttu-id="cbd5e-147">U kunt dit negeren.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-147">Ignore it.</span></span>
      
    > [!Note]
-   > <span data-ttu-id="066a8-148">Skype voor Bedrijven Online-connector maakt momenteel deel uit van de nieuwste Teams PowerShell-module.</span><span class="sxs-lookup"><span data-stu-id="066a8-148">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span> <span data-ttu-id="066a8-149">Als u de meest recente openbare versie van Teams PowerShell gebruikt, hoeft u de Skype voor Bedrijven Online-connector niet te installeren.</span><span class="sxs-lookup"><span data-stu-id="066a8-149">If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.</span></span>
+   > <span data-ttu-id="cbd5e-148">Skype voor Bedrijven Online-connector maakt momenteel deel uit van de nieuwste Teams PowerShell-module.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-148">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span> <span data-ttu-id="cbd5e-149">Als u de meest recente openbare versie van Teams PowerShell gebruikt, hoeft u de Skype voor Bedrijven Online-connector niet te installeren.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-149">If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.</span></span>
    
    ```powershell
-   $sfboSession = New-CsOnlineSession -Credential $credential
-   Import-PSSession $sfboSession
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
-6. <span data-ttu-id="066a8-150">Voer deze opdrachten uit om verbinding te maken met Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="066a8-150">Run these commands to connect to Exchange Online.</span></span>
+6. <span data-ttu-id="cbd5e-150">Voer deze opdrachten uit om verbinding te maken met Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-150">Run these commands to connect to Exchange Online.</span></span>
     
    ```powershell
    Import-Module ExchangeOnlineManagement
@@ -127,9 +128,9 @@ ms.locfileid: "50084599"
    ```
 
    > [!Note]
-   > <span data-ttu-id="066a8-151">Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) om verbinding te maken met andere Exchange Online voor Microsoft 365-clouds dan wereldwijd.</span><span class="sxs-lookup"><span data-stu-id="066a8-151">To connect to Exchange Online for Microsoft 365 clouds other than Worldwide, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
+   > <span data-ttu-id="cbd5e-151">Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) om verbinding te maken met andere Exchange Online voor Microsoft 365-clouds dan wereldwijd.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-151">To connect to Exchange Online for Microsoft 365 clouds other than Worldwide, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
 
-7. <span data-ttu-id="066a8-152">Voer deze opdrachten uit om verbinding te maken met het Beveiligings- en compliancecentrum.</span><span class="sxs-lookup"><span data-stu-id="066a8-152">Run these commands to connect to the Security &amp; Compliance Center.</span></span>
+7. <span data-ttu-id="cbd5e-152">Voer deze opdrachten uit om verbinding te maken met het Beveiligings- en compliancecentrum.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-152">Run these commands to connect to the Security &amp; Compliance Center.</span></span>
     
    ```powershell
    $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -137,22 +138,25 @@ ms.locfileid: "50084599"
    ```
 
    > [!Note]
-   > <span data-ttu-id="066a8-153">Zie [Verbinding maken Beveiligings- en compliancecentrum Powershell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)om verbinding maken met andere Beveiligings-&amp; en compliancecentrum voor Microsoft 365-clouds dan wereldwijd.</span><span class="sxs-lookup"><span data-stu-id="066a8-153">To connect to the Security &amp; Compliance Center for Microsoft 365 clouds other than Worldwide, see [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
+   > <span data-ttu-id="cbd5e-153">Zie [Verbinding maken Beveiligings- en compliancecentrum Powershell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)om verbinding maken met andere Beveiligings-&amp; en compliancecentrum voor Microsoft 365-clouds dan wereldwijd.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-153">To connect to the Security &amp; Compliance Center for Microsoft 365 clouds other than Worldwide, see [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
 
-8. <span data-ttu-id="066a8-154">Voer deze opdrachten uit om verbinding te maken met PowerShell voor Teams.</span><span class="sxs-lookup"><span data-stu-id="066a8-154">Run these commands to connect to Teams PowerShell.</span></span>
+8. <span data-ttu-id="cbd5e-154">Voer deze opdrachten uit om verbinding te maken met PowerShell voor Teams.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-154">Run these commands to connect to Teams PowerShell.</span></span>
     
    ```powershell
    Import-Module MicrosoftTeams
-   Connect-MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
   
    > [!Note]
-   > <span data-ttu-id="066a8-155">Zie [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams) om verbinding te maken met andere Microsoft Teams-clouds dan *Worldwide*.</span><span class="sxs-lookup"><span data-stu-id="066a8-155">To connect to Microsoft Teams clouds other than *Worldwide*, see [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams).</span></span>
+   > <span data-ttu-id="cbd5e-155">Zie [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams) om verbinding te maken met andere Microsoft Teams-clouds dan *Worldwide*.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-155">To connect to Microsoft Teams clouds other than *Worldwide*, see [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams).</span></span>
+  
 
 
-### <a name="azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="066a8-156">Azure Active Directory PowerShell voor Graph-module</span><span class="sxs-lookup"><span data-stu-id="066a8-156">Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="066a8-157">Dit zijn de opdrachten voor alle services in één blok als u de Azure Active Directory PowerShell voor Graph-module gebruikt.</span><span class="sxs-lookup"><span data-stu-id="066a8-157">Here are the commands for all the services in a single block when you use the Azure Active Directory PowerShell for Graph module.</span></span> <span data-ttu-id="066a8-158">Geef de naam op van uw domeinhost en de UPN voor het aanmelden en voer ze allemaal tegelijk uit.</span><span class="sxs-lookup"><span data-stu-id="066a8-158">Specify the name of your domain host and the UPN for the sign-in and run them all at the same time.</span></span>
+### <a name="azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="cbd5e-156">Azure Active Directory PowerShell voor Graph-module</span><span class="sxs-lookup"><span data-stu-id="cbd5e-156">Azure Active Directory PowerShell for Graph module</span></span>
+
+<span data-ttu-id="cbd5e-157">Dit zijn de opdrachten voor alle services in één blok als u de Azure Active Directory PowerShell voor Graph-module gebruikt.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-157">Here are the commands for all the services in a single block when you use the Azure Active Directory PowerShell for Graph module.</span></span> <span data-ttu-id="cbd5e-158">Geef de naam op van uw domeinhost en de UPN voor het aanmelden en voer ze allemaal tegelijk uit.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-158">Specify the name of your domain host and the UPN for the sign-in and run them all at the same time.</span></span>
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -164,8 +168,8 @@ Connect-AzureAD -Credential $credential
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
 #Skype for Business Online
-$sfboSession = New-CsOnlineSession -Credential $credential
-Import-PSSession $sfboSession
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams -Credential $credential
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -ShowProgress $true
@@ -173,12 +177,12 @@ Connect-ExchangeOnline -ShowProgress $true
 Connect-IPPSSession -UserPrincipalName $acctName
 #Teams
 Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
+Connect-MicrosoftTeams -Credential $credential
 ```
 
-### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a><span data-ttu-id="066a8-159">Microsoft Azure Active Directory-module voor Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="066a8-159">Microsoft Azure Active Directory Module for Windows PowerShell module</span></span>
+### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a><span data-ttu-id="cbd5e-159">Microsoft Azure Active Directory-module voor Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="cbd5e-159">Microsoft Azure Active Directory Module for Windows PowerShell module</span></span>
 
-<span data-ttu-id="066a8-160">Dit zijn de opdrachten voor alle services in één blok als u de Microsoft Azure Active Directory-module voor Windows PowerShell gebruikt.</span><span class="sxs-lookup"><span data-stu-id="066a8-160">Here are the commands for all the services in a single block when you use the Microsoft Azure Active Directory Module for Windows PowerShell module.</span></span> <span data-ttu-id="066a8-161">Geef de naam op van uw domeinhost en de UPN voor het aanmelden en voer ze allemaal tegelijk uit.</span><span class="sxs-lookup"><span data-stu-id="066a8-161">Specify the name of your domain host and the UPN for the sign-in and run them all at one time.</span></span>
+<span data-ttu-id="cbd5e-160">Dit zijn de opdrachten voor alle services in één blok als u de Microsoft Azure Active Directory-module voor Windows PowerShell gebruikt.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-160">Here are the commands for all the services in a single block when you use the Microsoft Azure Active Directory Module for Windows PowerShell module.</span></span> <span data-ttu-id="cbd5e-161">Geef de naam op van uw domeinhost en de UPN voor het aanmelden en voer ze allemaal tegelijk uit.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-161">Specify the name of your domain host and the UPN for the sign-in and run them all at one time.</span></span>
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -190,8 +194,8 @@ Connect-MsolService -Credential $credential
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
 #Skype for Business Online
-$sfboSession = New-CsOnlineSession -Credential $credential
-Import-PSSession $sfboSession
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams -Credential $credential
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -ShowProgress $true
@@ -199,14 +203,14 @@ Connect-ExchangeOnline -ShowProgress $true
 Connect-IPPSSession -UserPrincipalName $acctName
 #Teams
 Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
+Connect-MicrosoftTeams -Credential $credential
 ```
 
-## <a name="connection-steps-when-using-multi-factor-authentication"></a><span data-ttu-id="066a8-162">Verbindingsstappen als u meervoudige verificatie gebruikt</span><span class="sxs-lookup"><span data-stu-id="066a8-162">Connection steps when using multi-factor authentication</span></span>
+## <a name="connection-steps-when-using-multi-factor-authentication"></a><span data-ttu-id="cbd5e-162">Verbindingsstappen als u meervoudige verificatie gebruikt</span><span class="sxs-lookup"><span data-stu-id="cbd5e-162">Connection steps when using multi-factor authentication</span></span>
 
-### <a name="azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="066a8-163">Azure Active Directory PowerShell voor Graph-module</span><span class="sxs-lookup"><span data-stu-id="066a8-163">Azure Active Directory PowerShell for Graph module</span></span>
+### <a name="azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="cbd5e-163">Azure Active Directory PowerShell voor Graph-module</span><span class="sxs-lookup"><span data-stu-id="cbd5e-163">Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="066a8-164">Dit zijn de opdrachten in één blok voor alle services om verbinding te maken met meerdere Microsoft 365-services met meervoudige verificatie als u de Azure Active Directory PowerShell voor Graph-module gebruikt.</span><span class="sxs-lookup"><span data-stu-id="066a8-164">Here are all the commands in a single block to connect to multiple Microsoft 365 services when you use multi-factor authentication with the Azure Active Directory PowerShell for Graph module.</span></span>
+<span data-ttu-id="cbd5e-164">Dit zijn de opdrachten in één blok voor alle services om verbinding te maken met meerdere Microsoft 365-services met meervoudige verificatie als u de Azure Active Directory PowerShell voor Graph-module gebruikt.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-164">Here are all the commands in a single block to connect to multiple Microsoft 365 services when you use multi-factor authentication with the Azure Active Directory PowerShell for Graph module.</span></span>
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -216,8 +220,8 @@ Connect-AzureAD
 #SharePoint Online
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
-$sfboSession = New-CsOnlineSession
-Import-PSSession $sfboSession
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
@@ -227,9 +231,9 @@ Connect-IPPSSession -UserPrincipalName $acctName
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a><span data-ttu-id="066a8-165">Microsoft Azure Active Directory-module voor Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="066a8-165">Microsoft Azure Active Directory Module for Windows PowerShell module</span></span>
+### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a><span data-ttu-id="cbd5e-165">Microsoft Azure Active Directory-module voor Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="cbd5e-165">Microsoft Azure Active Directory Module for Windows PowerShell module</span></span>
 
-<span data-ttu-id="066a8-166">Dit zijn de opdrachten in één blok voor alle services om verbinding te maken met meerdere Microsoft 365-services met meervoudige verificatie als u de Microsoft Azure Active Directory-module voor Windows PowerShell gebruikt.</span><span class="sxs-lookup"><span data-stu-id="066a8-166">Here are all the commands in a single block to connect to multiple Microsoft 365 services when you use multi-factor authentication with the Microsoft Azure Active Directory Module for Windows PowerShell module.</span></span>
+<span data-ttu-id="cbd5e-166">Dit zijn de opdrachten in één blok voor alle services om verbinding te maken met meerdere Microsoft 365-services met meervoudige verificatie als u de Microsoft Azure Active Directory-module voor Windows PowerShell gebruikt.</span><span class="sxs-lookup"><span data-stu-id="cbd5e-166">Here are all the commands in a single block to connect to multiple Microsoft 365 services when you use multi-factor authentication with the Microsoft Azure Active Directory Module for Windows PowerShell module.</span></span>
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -239,8 +243,8 @@ Connect-MsolService
 #SharePoint Online
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
-$sfboSession = New-CsOnlineSession
-Import-PSSession $sfboSession
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
@@ -251,16 +255,16 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
 
-## <a name="close-the-powershell-window"></a><span data-ttu-id="066a8-167">Powershell-venster sluiten</span><span class="sxs-lookup"><span data-stu-id="066a8-167">Close the PowerShell window</span></span>
+## <a name="close-the-powershell-window"></a><span data-ttu-id="cbd5e-167">Powershell-venster sluiten</span><span class="sxs-lookup"><span data-stu-id="cbd5e-167">Close the PowerShell window</span></span>
 
-<span data-ttu-id="066a8-168">Om het Windows PowerShell-venster te sluiten, voert u deze opdracht uit om de actieve sessies naar Skype voor Bedrijven Online, SharePoint Online en Teams te verwijderen:</span><span class="sxs-lookup"><span data-stu-id="066a8-168">To close down the PowerShell window, run this command to remove the active sessions to Skype for Business Online, SharePoint Online, and Teams:</span></span>
+<span data-ttu-id="cbd5e-168">Om het Windows PowerShell-venster te sluiten, voert u deze opdracht uit om de actieve sessies naar Skype voor Bedrijven Online, SharePoint Online en Teams te verwijderen:</span><span class="sxs-lookup"><span data-stu-id="cbd5e-168">To close down the PowerShell window, run this command to remove the active sessions to Skype for Business Online, SharePoint Online, and Teams:</span></span>
   
 ```powershell
 Remove-PSSession $sfboSession ; Disconnect-SPOService ; Disconnect-MicrosoftTeams 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="066a8-169">Zie ook</span><span class="sxs-lookup"><span data-stu-id="066a8-169">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cbd5e-169">Zie ook</span><span class="sxs-lookup"><span data-stu-id="cbd5e-169">See also</span></span>
 
-- [<span data-ttu-id="066a8-170">Verbinding maken met Microsoft 365 met PowerShell</span><span class="sxs-lookup"><span data-stu-id="066a8-170">Connect to Microsoft 365 with PowerShell</span></span>](connect-to-microsoft-365-powershell.md)
-- [<span data-ttu-id="066a8-171">SharePoint Online beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="066a8-171">Manage SharePoint Online with PowerShell</span></span>](manage-sharepoint-online-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="066a8-172">Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="066a8-172">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="cbd5e-170">Verbinding maken met Microsoft 365 met PowerShell</span><span class="sxs-lookup"><span data-stu-id="cbd5e-170">Connect to Microsoft 365 with PowerShell</span></span>](connect-to-microsoft-365-powershell.md)
+- [<span data-ttu-id="cbd5e-171">SharePoint Online beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="cbd5e-171">Manage SharePoint Online with PowerShell</span></span>](manage-sharepoint-online-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="cbd5e-172">Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="cbd5e-172">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
