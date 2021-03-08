@@ -87,6 +87,8 @@
       items:
         - name: Overzicht van Bookings
           href: overview-bookings.md
+        - name: Zakelijke gegevens bijhouden met Microsoft-lijsten
+          href: track-info-lists.md
         - name: Een evenement plannen
           href: plan-event.md
     - name: Services beheren
