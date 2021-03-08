@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Gebruik PowerShell voor Microsoft 365 om beleidsregels voor Skype voor Bedrijven Online, beleidsregels per gebruiker en vergaderingsinstellingen te beheren.
-ms.openlocfilehash: ff35463dc0c2e16106432c393b10e31e6bf0a5d2
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 1992edfb6d1c141c7ed4db22064960873b768865
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477099"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514954"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>Skype voor Bedrijven Online beheren met PowerShell
 
@@ -42,8 +42,7 @@ Installeer de [Teams PowerShell-module](https://docs.microsoft.com/microsoftteam
    ```powershell
    Import-Module MicrosoftTeams
    $userCredential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $userCredential
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams -Credential $userCredential
    ```
 
 2. Voer in het dialoogvenster **Referentieaanvraag voor Windows PowerShell** de naam en het wachtwoord van uw administrator-account en selecteer **OK**.
@@ -55,11 +54,10 @@ Installeer de [Teams PowerShell-module](https://docs.microsoft.com/microsoftteam
 
    ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams
    ```
 
-2. Voer uw administrator-accountnaam voor Skype voor Bedrijven Online in wanneer de **New-CsOnlineSession**-opdracht u hierom vraagt.
+2. Voer uw administrator-accountnaam voor Skype voor Bedrijven Online in wanneer u hierom wordt gevraagd.
 
 3. Voer in het dialoogvenster **Aanmelden bij uw account** uw administrator-wachtwoord voor Skype voor Bedrijven Online en klik op **Aanmelden**.
 

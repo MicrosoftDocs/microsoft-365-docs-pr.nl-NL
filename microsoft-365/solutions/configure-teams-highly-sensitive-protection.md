@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het implementeren van teams met bescherming voor zeer vertrouwelijke gegevens.
-ms.openlocfilehash: 2679a8a0bd8cf5cc3d35d517e8a44921fc4fdbc1
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 7e746ebc81d1ccd9aea2953fd42004715f8d7819
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921132"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509264"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 
@@ -79,7 +79,7 @@ Een gevoeligheidslabel maken
 17. Klik op **Volgende**.
 18. Selecteer op de pagina **Instellingen voor extern delen en instellingen voor toegang tot het apparaat definiëren** de optie **Extern delen beheren via gelabelde SharePoint-sites**.
 19. Onder **Inhoud kan worden gedeeld met** kies je **Nieuwe en bestaande gasten** als je gasttoegang wilt toestaan of **Alleen personen binnen uw organisatie** als je dat niet wilt.
-20. Kies onder **Toegang tot niet-beheerde apparaten** de optie **Toegang blokkeren**.
+20. Kies onder **Toegang tot niet-beheerde apparaten** de optie **Toegang blokkeren**. (Als u gasten toelaat die geen beheerde apparaten hebben, kan het een goed idee zijn om de optie **Beperkte toegang via het web toestaan** te kiezen.)
 21. Klik op **Volgende**.
 22. Klik op de pagina **Automatische labeling voor databasekolommen** op **Volgende**.
 23. Klik op **Label maken** en klik vervolgens op **Gereed**.

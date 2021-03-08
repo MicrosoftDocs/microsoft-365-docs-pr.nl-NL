@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 58496041004218b48b864fa725084cba8edd518b
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: a275b2ec14403e16651acb293f8598b453fd3739
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145473"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515014"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -42,6 +42,16 @@ Voordat u met het instellen begint, moet u plannen wat de beste manier is om inh
 > Je moet beschikken over de machtigingen van een globale beheerder of SharePoint-beheerder om toegang te krijgen tot het Microsoft 365-beheercentrum en SharePoint Syntex in te stellen.
 
 Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de geselecteerde instellingen en de beheerinstellingen voor inhoudsbegrip in het Microsoft 365-beheercentrum.
+
+### <a name="licensing"></a>Licentieverlening
+
+Als u SharePoint Syntex wilt gebruiken, moet uw organisatie een abonnement op SharePoint Syntex hebben en moeten aan elke gebruiker de volgende licenties zijn toegewezen:
+
+- SharePoint Syntex
+- SharePoint Syntex - SPO-type
+- Common Data Service voor SharePoint Syntex
+
+Als u uw SharePoint Syntex-abonnement in de toekomst opzegt (of als uw proefabonnement verloopt), kunnen gebruikers geen modellen voor documentbegrip of formulierverwerking meer maken of gebruiken en is de sjabloon voor het inhoudscentrum niet meer beschikbaar. Bovendien zijn rapporten voor het termopslag, SKOS-taxonomieimports en push-inhoudstype niet meer beschikbaar. Er wordt geen inhoud verwijderd en sitemachtigingen worden niet gewijzigd.
 
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 

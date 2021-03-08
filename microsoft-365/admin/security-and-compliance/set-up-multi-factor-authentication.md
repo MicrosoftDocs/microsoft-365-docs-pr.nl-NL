@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Instructies voor het instellen van meervoudige verificatie voor uw organisatie.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 5ea367e64108e80ee7429ec700cf2ac0551aeab2
-ms.sourcegitcommit: b88ffaf3409e02a9847f030f8468f96d36efa398
+ms.openlocfilehash: d08ef54c545809bbb2277f8d0a8471245400a3ac
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50105149"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514966"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
 
@@ -81,10 +81,11 @@ Voor meer informatie over de Azure AD P1 en P2, zie [Prijzen Azure Active Direct
 
 ### <a name="turn-on-modern-authentication-for-your-organization"></a>Moderne verificatie voor uw organisatie inschakelen
 
-Voor de meeste abonnementen wordt moderne verificatie automatisch ingeschakeld, maar als u uw abonnement lang geleden hebt aangeschaft, is dat mogelijk niet het geval. Dit moet worden ingeschakeld voordat MFA correct werkt met Office-apps.
+Voor de meeste abonnementen wordt moderne verificatie automatisch ingeschakeld, maar als u uw abonnement hebt gekocht vóór augustus 2017, moet u Moderne verificatie waarschijnlijk zelf inschakelen om functies zoals Meervoudige verificatie te gebruiken in Windows-clients zoals Outlook.
+
 
 1. In het Microsoft 365-beheercentrum kiest u in het linker navigatievenster **Instellingen** \> **Org-instellingen**.
-1. Kies op het tabblad **Services** **Moderne verificatie** en zorg dat in het deelvenster **Moderne verificatie** de optie **Moderne verificatie inschakelen** is geselecteerd. Kies **Wijzigingen opslaan**.
+2. Kies op het tabblad **Services** **Moderne verificatie** en zorg dat in het deelvenster **Moderne verificatie** de optie **Moderne verificatie inschakelen** is geselecteerd. Kies **Wijzigingen opslaan**.
 
 ### <a name="turn-off-legacy-per-user-mfa"></a>Verouderde per gebruiker-MFA uitschakelen
 

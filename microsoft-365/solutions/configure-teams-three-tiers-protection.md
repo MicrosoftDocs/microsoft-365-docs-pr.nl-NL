@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Meer informatie over hoe u Teams configureert voor een betere beveiliging bij het delen van bestanden met behulp van drie niveaus bescherming, waarbij beveiliging en eenvoudige samenwerking met elkaar in evenwicht zijn.
-ms.openlocfilehash: cb49c35cc1c485d45656b1716d385cf626322ce8
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: d41effb6db9f8995c3c878523babf200ab9af762
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602005"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509240"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 
@@ -114,6 +114,8 @@ Zie de volgende verwijzingen om een veilige en productieve omgeving voor het del
 ## <a name="access-from-unmanaged-devices"></a>Toegang vanaf niet-beheerde apparaten
 
 Voor de gevoelige en zeer gevoelige lagen beperken we toegang tot SharePoint-inhoud met gevoeligheidslabels. Met voorwaardelijke toegang van Azure AD kunt u op verschillende manieren vaststellen hoe gebruikers toegang hebben tot Microsoft 365, met inbegrip van beperkingen op basis van locatie, risico, apparaatcompatibiliteit en andere factoren. We raden u aan om [Wat is voorwaardelijke toegang?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) te lezen en na te denken over welke aanvullende beleidsregels mogelijk geschikt zijn voor uw organisatie.
+
+Houd er rekening mee dat gasten vaak geen apparaten hebben die door uw organisatie worden beheerd. Als u gasten in een van de lagen toestaat, dient u te overwegen wat voor apparaat ze gebruiken voor toegang tot teams en sites, zodat u uw beleid voor onbeheerde apparaten op basis daarvan in kunt stellen.
 
 ## <a name="next-step"></a>Volgende stap
 

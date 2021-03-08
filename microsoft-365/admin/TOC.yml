@@ -231,6 +231,8 @@
               href: productivity/meetings.md
             - name: Status van Microsoft 365-apps
               href: productivity/apps-health.md
+            - name: Endpoint-analyse
+              href: 'https://docs.microsoft.com/mem/analytics/productivity-score'
         - name: De contactgegevens van uw organisatie wijzigen
           href: manage/change-address-contact-and-more.md
         - name: De contactgegevens van uw beheerder bijwerken

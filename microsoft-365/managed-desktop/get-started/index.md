@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 02f12174ef3b8a55f9642bba41c845952b1c1c48
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 141eb16ae77c44c51358c07a74f5050eb07dc26f
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950542"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509276"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Aan de slag met Microsoft Managed Desktop
 
@@ -21,7 +21,7 @@ Nu u zich bij de service hebt geregistreerd, volgt u deze stappen om contactpers
 > Dit is de aanbevolen volgorde, maar er is wel enige flexibiliteit in de volgorde mogelijk.
 
 1. [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](add-admin-contacts.md)
-2. [Voorwaardelijke toegang aanpassen](conditional-access.md)
+2. [Instellingen aanpassen na inschrijving](conditional-access.md)
 3. [Licenties toewijzen](assign-licenses.md)
 4. [Intune Company Portal implementeren](company-portal.md)
 5. [Enterprise State Roaming inschakelen](enterprise-state-roaming.md)

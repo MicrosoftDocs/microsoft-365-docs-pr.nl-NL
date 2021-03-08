@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Informatie over formulierverwerking in Microsoft SharePoint Syntex
-ms.openlocfilehash: 4a6ecc9e6eaca6f0b61f8c04b67eabb29674f6bd
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 1dba8828a158a5163017ee5f37735f44e974274c
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242444"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515158"
 ---
 # <a name="form-processing-overview"></a>Overzicht formulierverwerking
 
@@ -45,6 +45,13 @@ Een Office 365-beheerder moet [formulierverwerking inschakelen](https://docs.mic
 ### <a name="file-limitations"></a>Bestandbeperkingen
 
 Als je formulierverwerkingsmodellen gebruikt, let dan op de [vereisten en beperkingen voor bestandgebruik](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
+
+### <a name="multi-geo-environments"></a>Multi-geo-omgevingen
+
+Bij het instellen van SharePoint Syntex in een [Microsoft 365 Multi-Geo-omgeving](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo), kunt u het alleen configureren voor het gebruik van formulierverwerking op de centrale locatie. Als u de formulierverwerking op een satellietlocatie wilt gebruiken, neem dan contact op met Microsoft-ondersteuning.
+
+
+
 
 
 
