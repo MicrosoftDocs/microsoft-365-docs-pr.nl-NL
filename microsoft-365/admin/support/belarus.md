@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Belarus
+title: Ondersteuningsinformatie voor Wit-Rusland
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,37 +9,36 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 307822bb952d968ff16bf1313a656dcc85dca451
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b590a1fee8b3ac556d472afe71ce1dc45b8158b4
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643929"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548702"
 ---
-# <a name="contact-support-for-belarus"></a><span data-ttu-id="e623b-103">Contact opnemen met ondersteuning voor Belarus</span><span class="sxs-lookup"><span data-stu-id="e623b-103">Contact support for Belarus</span></span>
+# <a name="contact-support-for-belarus"></a><span data-ttu-id="3345d-103">Contact opnemen met ondersteuning voor Wit-Rusland</span><span class="sxs-lookup"><span data-stu-id="3345d-103">Contact support for Belarus</span></span>
 
-<span data-ttu-id="e623b-104">[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="e623b-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="3345d-104">[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="3345d-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e623b-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="e623b-105">Phone number</span></span>
-<span data-ttu-id="e623b-106">8 820 0071 0003</span><span class="sxs-lookup"><span data-stu-id="e623b-106">8 820 0071 0003</span></span>
+## <a name="phone-number"></a><span data-ttu-id="3345d-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="3345d-105">Phone number</span></span>
+<span data-ttu-id="3345d-106">8 820 0071 0003</span><span class="sxs-lookup"><span data-stu-id="3345d-106">8 820 0071 0003</span></span>
 
-<span data-ttu-id="e623b-107">Optie 9 selecteren</span><span class="sxs-lookup"><span data-stu-id="e623b-107">Select option 9</span></span>
+<span data-ttu-id="3345d-107">Optie 9 selecteren</span><span class="sxs-lookup"><span data-stu-id="3345d-107">Select option 9</span></span>
 
-<span data-ttu-id="e623b-108">Voer code 7707 in</span><span class="sxs-lookup"><span data-stu-id="e623b-108">Enter code 7707</span></span>
+<span data-ttu-id="3345d-108">Code 7707 invoeren</span><span class="sxs-lookup"><span data-stu-id="3345d-108">Enter code 7707</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e623b-109">Uren</span><span class="sxs-lookup"><span data-stu-id="e623b-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e623b-110">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="e623b-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="3345d-109">Uren</span><span class="sxs-lookup"><span data-stu-id="3345d-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="3345d-110">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="3345d-110">Billing Support:</span></span>
 
-<span data-ttu-id="e623b-111">Russisch: Mon-Fri 10 uur-7 uur Moskou</span><span class="sxs-lookup"><span data-stu-id="e623b-111">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
+<span data-ttu-id="3345d-111">Russisch: Mon-Fri 10:00 tot 17:00 Moskou</span><span class="sxs-lookup"><span data-stu-id="3345d-111">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
 
-<span data-ttu-id="e623b-112">Engels: Mon-Fri 9 AM-5 uur Londen</span><span class="sxs-lookup"><span data-stu-id="e623b-112">English: Mon-Fri 9 AM-5 PM London</span></span>
+<span data-ttu-id="3345d-112">Engels: Mon-Fri 09:00 tot 17:00 uur Londen</span><span class="sxs-lookup"><span data-stu-id="3345d-112">English: Mon-Fri 9 AM-5 PM London</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e623b-113">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="e623b-113">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="3345d-113">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="3345d-113">Technical Support:</span></span>
 
-<span data-ttu-id="e623b-114">Russisch: Mon-Fri 7 uur-8 uur Moskou</span><span class="sxs-lookup"><span data-stu-id="e623b-114">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
+<span data-ttu-id="3345d-114">Russisch: Mon-Fri 07:00 tot 20:00 Moskou</span><span class="sxs-lookup"><span data-stu-id="3345d-114">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
 
-<span data-ttu-id="e623b-115">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="e623b-115">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="3345d-115">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="3345d-115">English: 24 hours a day, 7 days a week</span></span>
