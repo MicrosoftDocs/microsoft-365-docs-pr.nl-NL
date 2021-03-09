@@ -9,32 +9,31 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e5f0a168b29a7f60f8804519b3a87e41d3b300b7
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 06856070c083d55c9cd787eac693d21cee69f1eb
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641721"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546458"
 ---
-# <a name="contact-support-for-kenya"></a>Neem contact op met de ondersteuning voor Kenia
+# <a name="contact-support-for-kenya"></a>Contact opnemen met ondersteuning voor Kenia
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 020 286 8800
 
 Optie 9 selecteren
 
-Voer code 7704 in
+Code 7704 invoeren
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 10 uur-6 PM
+Engels: Mon-Fri 10:00 tot 18:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b651ad2a719a08ff5d6a7427cd3ccb268f043f13
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 742b49bcc9690f85cf8a5ea626bd948ce59eae04
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641985"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546722"
 ---
-# <a name="contact-support-for-indonesia"></a>Neem contact op met de ondersteuning voor Indonesië
+# <a name="contact-support-for-indonesia"></a>Contact opnemen met ondersteuning voor Indonesië
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 007 803 011 0882 (Telkom)
@@ -32,12 +31,12 @@ ms.locfileid: "48641985"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Bahasa Indonesië: Mon-Fri 8 uur-5 uur
+Bahasa Indonesia: Mon-Fri 08:00- 17:00
 
-Engels: Mon-Fri 9 uur-6,5 uur
+Engels: Mon-Fri 09:00- 18:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Bahasa Indonesië: Mon-Fri 8 uur-5 uur
+Bahasa Indonesia: Mon-Fri 08:00- 17:00
 
 Engels: 24 uur per dag, 7 dagen per week

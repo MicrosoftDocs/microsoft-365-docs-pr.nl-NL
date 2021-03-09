@@ -8,29 +8,28 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: AdminSurgePortfolio
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b5b5f2822501d51925f245bda7858e6292a6a1eb
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 564974f40d7093f9685a16a390a73eb5900f16c4
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642477"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547178"
 ---
-# <a name="contact-support-for-gibraltar"></a>Neem contact op met de ondersteuning voor Gibraltar
+# <a name="contact-support-for-gibraltar"></a>Contact opnemen met ondersteuning voor Gibraltar
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 1 312 843 5151
++1 312 843 5151
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 11 uur-7 uur
+Engels: Mon-Fri 11:00 tot 17:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

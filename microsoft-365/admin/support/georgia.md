@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Georgië
+title: Ondersteuningsinformatie voor Georgia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a6488eca054011707c1cf843cdf6f76fc6ae954e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e2cb2465575d2d65dbfe9d8580ed371fb985c92d
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642489"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547250"
 ---
-# <a name="contact-support-for-georgia"></a>Neem contact op met de ondersteuning voor Georgië
+# <a name="contact-support-for-georgia"></a>Contact opnemen met ondersteuning voor Georgia
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 032 297 0124
@@ -31,18 +30,18 @@ Optie 2 selecteren
 
 Optie 9 selecteren
 
-Voer code 7700 in
+Code 7700 invoeren
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Russisch: Mon-Fri 10 uur-7 uur Moskou
+Russisch: Mon-Fri 10:00 tot 17:00 Moskou
 
-Engels: Mon-Fri 9 AM-5 uur Londen
+Engels: Mon-Fri 09:00 tot 17:00 uur Londen
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Russisch: Mon-Fri 7 uur-8 uur Moskou
+Russisch: Mon-Fri 07:00 tot 20:00 Moskou
 
 Engels: 24 uur per dag, 7 dagen per week
 
