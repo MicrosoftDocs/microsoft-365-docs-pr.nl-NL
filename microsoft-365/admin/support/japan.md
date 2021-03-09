@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5b120ae4799ab13288abe71dd71dc570db412caa
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 95dcb4b707919d8f944282f433345bd51379203b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641901"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546602"
 ---
-# <a name="contact-support-for-japan"></a>Neem contact op met de ondersteuning voor Japan
+# <a name="contact-support-for-japan"></a>Contact opnemen met ondersteuning voor Japan
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 0120 996 680 (Office 365 Enterprise)
@@ -34,11 +33,11 @@ ms.locfileid: "48641901"
 
 Japans: Mon-Fri 9:00-17:00
 
-(In het weekend en op nationale feestdagen gesloten)
+(Gesloten in het weekend en op feestdagen)
 
 Engels: Mon-Fri 9:00-17:00
 
-(In het weekend en op nationale feestdagen gesloten)
+(Gesloten in het weekend en op feestdagen)
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
@@ -50,7 +49,7 @@ Engels: 24 uur per dag, 7 dagen per week
 
 **Andere abonnementen:**
 
-Technische ondersteuning telefonisch is beschikbaar in 9:00-17:30 op werkdagen. Voor High Severity-problemen is technische ondersteuning beschikbaar 24 uur per dag, 7 dagen per week.
+Technische ondersteuning via de telefoon is beschikbaar op weekdagen van 9:00-17:30. Voor hoge ernstproblemen is technische ondersteuning 24 uur per dag, 7 dagen per week beschikbaar.
 
 Alternatief telefoonnummer:
 

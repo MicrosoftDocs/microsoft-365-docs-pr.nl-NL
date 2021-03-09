@@ -9,34 +9,33 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7d5d1531e9f2aeda3e2f9198d56dd8f36bd9dd47
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2c61cc7b37ba40ef04c061a45b12e21f412ed061
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643641"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548342"
 ---
 # <a name="contact-support-for-burkina-faso"></a>Contact opnemen met ondersteuning voor Burkina Faso
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Frans: Mon-Fri 8.00 uur-4 PM
+Frans: Mon-Fri 8.00 tot 16.00 uur
 
-Engels: Mon-Fri 8 uur-4 PM
+Engels: Mon-Fri 08:00- 16:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: Mon-Fri 7,5 uur-8 PM
+Frans: Mon-Fri 07:00 tot 20:00 uur
 
 Engels: 24 uur per dag, 7 dagen per week
 

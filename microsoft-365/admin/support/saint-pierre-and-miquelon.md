@@ -9,34 +9,33 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d91c656459133e21b4e2c6fd032d582f520d1254
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b25fafc787b7995eff933082f00a0e9ce931c518
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640041"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544730"
 ---
-# <a name="contact-support-for-saint-pierre-and-miquelon"></a>Contact opnemen met de ondersteuning voor Saint-Pierre en Miquelon
+# <a name="contact-support-for-saint-pierre-and-miquelon"></a>Contact opnemen met ondersteuning voor Saint-Pierre en Miquelon
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Frans: Mon-Fri 6 uur-2 uur
+Frans: Mon-Fri 06:00 tot 14:00 uur
 
-Engels: Mon-Fri 6 uur-2 uur
+Engels: Mon-Fri van 06:00 tot 14:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: Mon-Fri 17.00 uur-6 PM
+Frans: Mon-Fri 17:00 uur
 
 Engels: 24 uur per dag, 7 dagen per week
 

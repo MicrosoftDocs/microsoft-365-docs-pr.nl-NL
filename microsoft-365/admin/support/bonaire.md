@@ -9,30 +9,29 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c9c4ece013eb6d59fad013f04f15e0f8684144da
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 86e638411bd62778cd20b99ef2edd90a56933ad5
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643845"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548558"
 ---
-# <a name="contact-support-for-bonaire"></a>Neem contact op met de ondersteuning voor Bonaire
+# <a name="contact-support-for-bonaire"></a>Contact opnemen met ondersteuning voor Bonaire
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 1 312 843 5146
++1 312 843 5146
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Nederlands: Mon-Fri 4 uur
+Nederlands: Mon-Fri 04:00 uur
 
-Engels: Mon-Fri 4 uur
+Engels: Mon-Fri 04:00 uur 's middags
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

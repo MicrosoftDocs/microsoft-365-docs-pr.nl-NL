@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Zuid-Georgië en zuidelijke Sandwich eilanden
+title: Ondersteuningsinformatie voor Zuid-Georgia en de Zuidelijke Sandwicheilanden
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a4e3ab28c307dc654f96c862492e36b36824213f
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 7da79d5cdd4766b1c0a6b3f0fc4010ec70cd955e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639573"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544274"
 ---
-# <a name="contact-support-for-south-georgia-and-south-sandwich-islands"></a>Contact opnemen met de ondersteuning voor Zuid-Georgië en de zuidelijke Sandwich eilanden
+# <a name="contact-support-for-south-georgia-and-south-sandwich-islands"></a>Contact opnemen met ondersteuning voor Zuid-Georgia en de Zuidelijke Sandwicheilanden
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 1 312 843 5145
++1 312 843 5145
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 11 uur-7 uur
+Engels: Mon-Fri 11:00 tot 17:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
