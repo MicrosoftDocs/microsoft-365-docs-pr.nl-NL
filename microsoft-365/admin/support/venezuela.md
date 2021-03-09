@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 302752c4ac550156ed4f8147398896ac8caeed9f
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2da2eb735d207776d9a095079c11676a071e7d8c
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638649"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543494"
 ---
-# <a name="contact-support-for-venezuela"></a>Neem contact op met de ondersteuning voor Venezuela
+# <a name="contact-support-for-venezuela"></a>Contact opnemen met ondersteuning voor Venezuela
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 0800 100 8763
@@ -30,7 +29,7 @@ ms.locfileid: "48638649"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Spaans: Mon-Fri 9 uur-5 uur
+Spaans: Mon-Fri 09:00- 17:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

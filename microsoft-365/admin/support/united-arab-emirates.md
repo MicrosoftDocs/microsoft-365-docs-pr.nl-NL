@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor UAE (Verenigde Arabische Emiraten)
+title: Ondersteuningsinformatie voor de VAE (Verenigde Arabische Emiraten)
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 07df79c2225cece94fc70c97565481f1b627bb5a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: da2150d14328de83648f84913cf5edbb89a57ccc
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638889"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543590"
 ---
-# <a name="contact-support-for-uae-united-arab-emirates"></a>Contact opnemen met ondersteuning voor UAE (Verenigde Arabische Emiraten)
+# <a name="contact-support-for-uae-united-arab-emirates"></a>Contact opnemen met ondersteuning voor de VAE (Verenigde Arabische Emiraten)
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 8000 444 1578
@@ -30,13 +29,13 @@ ms.locfileid: "48638889"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Arabisch: Sun-Thu 10 uur-6,5 PM
+Arabisch: Sun-Thu 10:00-18:00 uur
 
-Engels: Mon-Fri 10 uur-6 PM
+Engels: Mon-Fri 10:00 tot 18:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Arabisch: Sun-Thu 11 uur-8 PM
+Arabisch: Sun-Thu 23:00 uur
 
 Engels: 24 uur per dag, 7 dagen per week
 

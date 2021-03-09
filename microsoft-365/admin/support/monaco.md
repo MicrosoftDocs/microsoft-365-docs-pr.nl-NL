@@ -9,34 +9,33 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 878f6f50996d90b01b0dee30989871e73df18583
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 6448b6f76ea2883dc859f27083f6d192ac5cbbd7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641025"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545726"
 ---
-# <a name="contact-support-for-monaco"></a>Neem contact op met de ondersteuning voor Monaco
+# <a name="contact-support-for-monaco"></a>Contact opnemen met ondersteuning voor Monaco
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 33 1 57 32 42 97
++33 1 57 32 42 97
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Frans: Mon-Fri 9 uur-5 uur
+Frans: Mon-Fri 09:00- 17:00 uur
 
-Engels: Mon-Fri 9 uur-5 uur
+Engels: Mon-Fri 09:00- 17:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: Mon-Fri 8 uur-9 PM
+Frans: Mon-Fri 08:00- 21:00 uur
 
 Engels: 24 uur per dag, 7 dagen per week
 

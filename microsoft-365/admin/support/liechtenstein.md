@@ -9,37 +9,36 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad7439a8bb1fdfdfa96357f64fe0e0c476aad68a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b0d9b58db7ac8e71ad4c71fdd951418413679dd2
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641433"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546182"
 ---
-# <a name="contact-support-for-liechtenstein"></a>Neem contact op met de ondersteuning voor Liechtenstein
+# <a name="contact-support-for-liechtenstein"></a>Contact opnemen met ondersteuning voor Liechtenstein
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 41 800 000 300
++41 800 000 300
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Duits: Mon-Fri 9 uur-5 uur
+Duits: Mon-Fri 09:00- 17:00 uur
 
-Engels: Mon-Fri 9 uur-5 uur
+Engels: Mon-Fri 09:00- 17:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Duits: Mon-Fri 8 uur-9 PM
+Duits: Mon-Fri 08:00- 21:00 uur
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Alternatief telefoonnummer: + 41 22 76 141 14
+Alternatief telefoonnummer: +41 22 76 141 14
 
 Lokale gesprekskosten zijn van toepassing

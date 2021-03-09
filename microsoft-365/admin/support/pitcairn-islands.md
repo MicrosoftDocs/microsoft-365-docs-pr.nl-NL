@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor de Pitcairneilanden
+title: Ondersteuningsinformatie voor Pitcairneilanden
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b410b4452b462133e1217eb4c11c571964ab9ff4
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b13e310d08cc158ff70861c18c7ea47ac82fcfa7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640317"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545018"
 ---
-# <a name="contact-support-for-pitcairn-islands"></a>Contact opnemen met de ondersteuning voor de Pitcairneilanden
+# <a name="contact-support-for-pitcairn-islands"></a>Contact opnemen met ondersteuning voor Pitcairneilanden
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 1 312 843 5148
++1 312 843 5148
 
 ## <a name="hours"></a>Uren
 Ondersteuning bij facturering:
 
-Engels: Mon-Fri 9 uur-5 uur
+Engels: Mon-Fri 09:00- 17:00 uur
 
 Technische ondersteuning:
 

@@ -9,34 +9,33 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 456b96e21a4f18f882d8fd3d3bb4c2a5da679373
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: acff7dd180233fe4c7ff9ca76ee6c0d573d9e34f
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638913"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543758"
 ---
-# <a name="contact-support-for-turkmenistan"></a>Neem contact op met de ondersteuning voor Turkmenistan
+# <a name="contact-support-for-turkmenistan"></a>Contact opnemen met ondersteuning voor Turkmenistan
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 7 499 922 86 23
++7 499 922 86 23
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Russisch: Mon-Fri 10 uur-7 uur Moskou
+Russisch: Mon-Fri 10:00 tot 17:00 Moskou
 
-Engels: Mon-Fri 9 AM-5 uur Londen
+Engels: Mon-Fri 09:00 tot 17:00 uur Londen
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Russisch: Mon-Fri 7 uur-8 uur Moskou
+Russisch: Mon-Fri 07:00 tot 20:00 Moskou
 
 Engels: 24 uur per dag, 7 dagen per week
 

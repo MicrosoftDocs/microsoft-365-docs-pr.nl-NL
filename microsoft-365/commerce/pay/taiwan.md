@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 015ae550440db87215148e6d65b98f64fea54963
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 4b47325f466da829ff35af5f7354d19ccfc2129b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648369"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542476"
 ---
 # <a name="payment-information-for-taiwan"></a>Betalingsgegevens voor Taiwan
 
-[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md). 
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md) 
 
-Betaal in N.T. Alleen dollars en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
+Betaal in N.T. Alleen euro's en factuurnummer(s) na de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Begunstigde bank:** CITIBANK MET BEPERKTE TOEGANG  
-**Bank code en filiaal code:** 0210018  
+**Begunstigden bank:** CITIBANK TAIWAN LIMITED  
+**Bankcode en filiaalcode:** 0210018  
 **SWIFT-code:** CITITWTX  
 **Rekeningnummer:** 5038946139  
-**Account naam:** MICROSOFT TAIWAN CORPORATION    
+**Accountnaam:** MICROSOFT TAIWAN CORPORATION    

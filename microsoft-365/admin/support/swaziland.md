@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
+description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7acd05b8663b57caf971fce49e7b40d54425433f
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 57243c7415d2413c7c29b424435614cf44ed1db3
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639369"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544070"
 ---
-# <a name="contact-support-for-swaziland"></a>Neem contact op met de ondersteuning voor Swaziland
+# <a name="contact-support-for-swaziland"></a>Contact opnemen met ondersteuning voor Swaziland
 
-[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
+[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
-+ 1 312 843 5151
++1 312 843 5151
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 10 uur-6 PM
+Engels: Mon-Fri 10:00 tot 18:00 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
