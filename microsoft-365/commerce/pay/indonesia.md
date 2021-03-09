@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a17accaebc4dd64ad6baf0542382d70f67ff5ab2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2e62646e72394d37914ceacf95cc868111a6c85e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647205"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550838"
 ---
-# <a name="payment-information-for-indonesia"></a><span data-ttu-id="6ee50-103">Betalingsgegevens voor Indonesië</span><span class="sxs-lookup"><span data-stu-id="6ee50-103">Payment information for Indonesia</span></span>
+# <a name="payment-information-for-indonesia"></a><span data-ttu-id="294e5-103">Betalingsgegevens voor Indonesië</span><span class="sxs-lookup"><span data-stu-id="294e5-103">Payment information for Indonesia</span></span>
 
-<span data-ttu-id="6ee50-104">[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="6ee50-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span> 
+<span data-ttu-id="294e5-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="294e5-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span> 
 
-<span data-ttu-id="6ee50-105">Betaal alleen in IDR en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="6ee50-105">Please pay in IDR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="294e5-105">Betaal alleen in IDR en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="294e5-105">Please pay in IDR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="6ee50-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="6ee50-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="294e5-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="294e5-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="6ee50-107">**Bank:** Citibank, Indonesië</span><span class="sxs-lookup"><span data-stu-id="6ee50-107">**Bank:** Citibank, Indonesia</span></span>  
-<span data-ttu-id="6ee50-108">**Tak:** (Jakarta</span><span class="sxs-lookup"><span data-stu-id="6ee50-108">**Branch:** Jakarta</span></span>  
-<span data-ttu-id="6ee50-109">**SWIFT-code:** CITIIDJX</span><span class="sxs-lookup"><span data-stu-id="6ee50-109">**SWIFT Code:** CITIIDJX</span></span>  
-<span data-ttu-id="6ee50-110">**Rekeningnummer:** 104468055</span><span class="sxs-lookup"><span data-stu-id="6ee50-110">**Account Number:** 104468055</span></span>  
-<span data-ttu-id="6ee50-111">**Account naam:** PT Microsoft Indonesië</span><span class="sxs-lookup"><span data-stu-id="6ee50-111">**Account Name:** PT Microsoft Indonesia</span></span>  
+<span data-ttu-id="294e5-107">**Bank:** Citibank, Indonesia</span><span class="sxs-lookup"><span data-stu-id="294e5-107">**Bank:** Citibank, Indonesia</span></span>  
+<span data-ttu-id="294e5-108">**Filiaal:** Jakarta</span><span class="sxs-lookup"><span data-stu-id="294e5-108">**Branch:** Jakarta</span></span>  
+<span data-ttu-id="294e5-109">**SWIFT-code:** CITIIDJX</span><span class="sxs-lookup"><span data-stu-id="294e5-109">**SWIFT Code:** CITIIDJX</span></span>  
+<span data-ttu-id="294e5-110">**Rekeningnummer:** 104468055</span><span class="sxs-lookup"><span data-stu-id="294e5-110">**Account Number:** 104468055</span></span>  
+<span data-ttu-id="294e5-111">**Accountnaam:** PT Microsoft Indonesia</span><span class="sxs-lookup"><span data-stu-id="294e5-111">**Account Name:** PT Microsoft Indonesia</span></span>  
