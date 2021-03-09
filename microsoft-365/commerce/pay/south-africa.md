@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 41df7368460da2a15da8ffef97ad6de82c59b3d7
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f16abf043d3e6a78275c0ef0bbca9307e8f36a0e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648537"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550190"
 ---
 # <a name="payment-information-for-south-africa"></a>Betalingsgegevens voor Zuid-Afrika
 
-[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in ZAR en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
+Betaal alleen in ZAR en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank  
-**Tak:** Johannesburg  
+**Filiaal:** Johannesburg  
 **SWIFT-code:** CITIZAJ  
 **Rekeningnummer:** 0201419034  
-**Account naam:** Microsoft-betalingen  
+**Accountnaam:** Microsoft Payments  

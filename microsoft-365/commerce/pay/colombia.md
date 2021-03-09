@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: eea4dfce0bf0bb7d6dafc629c28d702f3f2a7586
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bdbce6512833c0ab9f17fde115d6ada0e42dd8c7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637449"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551714"
 ---
 # <a name="payment-information-for-colombia"></a>Betalingsgegevens voor Colombia
 
-[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in uitgezonderd landelijke peso. Voor de betaling om te worden verwerkt, moeten uw bedrijfsnaam en factuurnummer (s) worden verstrekt via een remise advies.
+Betaal alleen in Colombiaanse peso's. Uw bedrijfsnaam en factuurnummer(s) moeten bij de overboeking zijn vermeld om de betaling te kunnen verwerken.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank, Bogota;  
-**Bank code:** 09  
+**Bankcode:** 09  
 **SWIFT-code:** CITICOBB  
-**Nit:** 800.198.591-3  
+**NIT:** 800.198.591-3  
 **Rekeningnummer:** 0060534055  
-**Account naam:** Tak van Microsoft Colombia Inc.   
+**Accountnaam:** Onderdeel van Microsoft Colombia Inc.   

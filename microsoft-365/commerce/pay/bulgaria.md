@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 636f40ca39c7f1f45dbe304788f1b211c1f0a3ef
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 26abfcd3b5c90da469eb29da8b631e8f7c997ad1
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637653"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551822"
 ---
 # <a name="payment-information-for-bulgaria"></a>Betalingsgegevens voor Bulgarije
 
-[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in EUR en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
+Betaal alleen in EUR en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank, Londen  
-**Swift-Code/BIC:** CITIGB2L  
+**Bank:** Citibank, London  
+**Swift-code/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Sorteer code:** 185008  
+**SORTEERcode:** 185008  
 **Rekeningnummer:** 12207591  
-**Account naam:** MICROSOFT  
+**Accountnaam:** MICROSOFT  

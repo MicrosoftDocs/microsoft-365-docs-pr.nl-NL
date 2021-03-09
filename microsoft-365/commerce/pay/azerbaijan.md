@@ -8,28 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: AdminSurgePortfolio
 ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 589da08762a8c7a55dc521547d82c6506aece7d8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 14c480f9d7d6124e0a8dbd8dc042d1a276a55140
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637941"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549590"
 ---
 # <a name="payment-information-for-azerbaijan"></a>Betalingsgegevens voor Azerbeidzjan
 
-[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in USD en vermeld uw factuurnummer (s) bij de overboeking van het factuurbedrag.
+Betaal alleen in USD en vermeld uw factuurnummer(s) bij de overboeking van uw factuur.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank, Londen  
+**Bank:** Citibank, London  
 **SWIFT-code:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Rekeningnummer:** 12510049  
-**Account naam:** MICROSOFT  
+**Accountnaam:** MICROSOFT  

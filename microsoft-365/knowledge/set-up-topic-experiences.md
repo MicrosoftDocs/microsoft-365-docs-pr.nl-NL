@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Informatie over het instellen van Microsoft Viva-onderwerpen
-ms.openlocfilehash: a90e75330527992f8519d625f94fe0d5ecb3de6b
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: cc420a0631f5b861341116abcd50cfe90e15450e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261467"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551885"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva-onderwerpen instellen
 
@@ -64,11 +64,11 @@ Onderwerpen instellen
 
     ![Onderwerpen uitsluiten](../media/topics-excluded-by-name.png) 
 
-    (Knowledge Managers kunnen na detectie ook onderwerpen uitsluiten in het onderwerpcentrum.)
+    (Knowledge Managers kunnen na detectie ook onderwerpen in het onderwerpcentrum uitsluiten.)
 
     #### <a name="how-to-exclude-topics-by-name"></a>Onderwerpen uitsluiten op naam    
 
-    Als u onderwerpen wilt uitsluiten, selecteert u Onderwerpen uitsluiten op **naam,** downloadt u de CSV-sjabloon en werk u deze bij met de lijst met onderwerpen die u wilt uitsluiten van uw discovery-resultaten.
+    Als u onderwerpen wilt uitsluiten, moet u, nadat u Onderwerpen uitsluiten op naam hebt **geselecteerd,** de CSV-sjabloon downloaden en bijwerken met de lijst met onderwerpen die u wilt uitsluiten van uw discovery-resultaten.
 
     ![Onderwerpen uitsluiten in CSV-sjabloon](../media/exclude-topics-csv.png) 
 
@@ -76,7 +76,7 @@ Onderwerpen instellen
 
     - **Naam:** typ de naam van het onderwerp dat u wilt uitsluiten. U kunt dit op twee manieren doen:
         - Exacte overeenkomst: u kunt de exacte naam of het acroniem opnemen (bijvoorbeeld *Contoso* of *ATL).*
-        - Gedeeltelijke overeenkomst: U kunt alle onderwerpen met een bepaald woord uitsluiten.  Zo worden met *de boog* bijvoorbeeld alle onderwerpen met de *woordcirkel* uitgesloten, zoals Boogcirkel,  *Arc-boog* of *Trainingsbogen.* Onderwerpen waarin de tekst is opgenomen als onderdeel van een woord, zoals Architectuur, worden niet *uitgesloten.*
+        - Gedeeltelijke overeenkomst: U kunt alle onderwerpen met een specifiek woord uitsluiten.  Zo worden met *de boog* bijvoorbeeld alle onderwerpen met de *woordcirkel* uitgesloten, zoals Boogcirkel,  *Arc-boog* of *Trainingsbogen.* Onderwerpen waarin de tekst is opgenomen als onderdeel van een woord, zoals Architectuur, worden niet *uitgesloten.*
     - **Staat voor (optioneel:** als u een acroniem wilt uitsluiten, typt u de woorden waar het acroniem voor staat.
     - **MatchType-Exact/Gedeeltelijk:** typ of de naam die u hebt ingevoerd *een exact* of *gedeeltelijk* overeenkomsttype is.
 
@@ -109,7 +109,7 @@ Onderwerpen instellen
 
     Selecteer **Volgende**.
 
-9. Op de **pagina Onderwerpcentrum maken** kunt u uw onderwerpcentrumsite maken waarin onderwerppagina's kunnen worden bekeken en onderwerpen kunnen worden beheerd. Typ in **het vak Sitenaam** een naam voor het onderwerpcentrum. U kunt desgewenst een korte beschrijving typen in het **vak** Beschrijving. 
+9. Op de **pagina Onderwerpcentrum** maken kunt u uw onderwerpcentrumsite maken waarin onderwerppagina's kunnen worden bekeken en onderwerpen kunnen worden beheerd. Typ in **het vak Sitenaam** een naam voor het onderwerpcentrum. U kunt desgewenst een korte beschrijving typen in het **vak** Beschrijving. 
 
    Selecteer **Volgende**.
 
@@ -119,7 +119,7 @@ Onderwerpen instellen
 
 11. De **pagina van Viva-onderwerpen** die is geactiveerd, wordt weergegeven en bevestigt dat het systeem nu de geselecteerde sites gaat analyseren voor onderwerpen en de onderwerpcentrumsite gaat maken. Selecteer **Gereed**.
 
-12. U keert terug naar de **pagina Personen verbinden met kennis.** Op deze pagina kunt u **Beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
+12. U keert terug naar de **pagina Personen verbinden met** kennis. Op deze pagina kunt u **Beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
 
     ![Instellingen toegepast](../media/ksetup7.png)    
 
@@ -133,9 +133,13 @@ Licenties toewijzen:
 
 2. Selecteer de gebruikers die u een licentie wilt geven en klik op **Licenties en apps.**
 
-3. Zorg **ervoor** dat **Graph Connectors Zoeken met Index** en **Onderwerpervaringen** zijn geselecteerd onder Apps.
+3. Selecteer **onder Licenties** de optie **Viva-onderwerpen.**
 
-4. Klik op **Wijzigingen opslaan**.
+4. Zorg **ervoor** dat onder **Apps Graph Connectors Zoeken met Index (Viva-onderwerpen)** en **Viva-onderwerpen** beide zijn geselecteerd.
+
+    ![Licenties voor Microsoft Viva-onderwerpen in het Microsoft 365-beheercentrum](../media/topic-experiences-licenses.png)
+
+5. Klik op **Wijzigingen opslaan**.
 
 ## <a name="manage-topic-experiences"></a>Onderwerpervaringen beheren
 
