@@ -6,19 +6,21 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 141eb16ae77c44c51358c07a74f5050eb07dc26f
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 49cf658c7d146f75d54d1f74f0034db64c3cc5dc
+ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509276"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50572550"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Aan de slag met Microsoft Managed Desktop
 
-Nu u zich bij de service hebt geregistreerd, volgt u deze stappen om contactpersonen voor beheer te bevestigen, instellingen voor voorwaardelijke toegang aan te passen, licenties toe te wijzen aan gebruikers, Enterprise State Roaming in te schakelen, apparaten te verkrijgen en in te stellen, gebruikers voor te bereiden en apps op apparaten te implementeren.
+Nu u gereed bent om te registreren, opent u [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en gaat u naar **Tenantbeheer**. Selecteer **Tenantregistratie** onder de subsectie **Microsoft Managed Desktop** en volg de wizard om uw tenant te registreren bij Microsoft Managed Desktop.
 
 > [!NOTE]
-> Dit is de aanbevolen volgorde, maar er is wel enige flexibiliteit in de volgorde mogelijk.
+> U moet zijn aangemeld als globale beheerder om de registratie te voltooien. Zie voor meer informatie [de beheerportal openen](access-admin-portal.md).
+
+Nadat u de registratie hebt voltooid, volgt u de onderstaande stappen om de service te configureren. Dit is de aanbevolen volgorde, maar er is wel enige flexibiliteit in de volgorde mogelijk. 
 
 1. [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](add-admin-contacts.md)
 2. [Instellingen aanpassen na inschrijving](conditional-access.md)

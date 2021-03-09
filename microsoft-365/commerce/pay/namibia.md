@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1c6c59cc1e813c5562c964ae61cdd76d709635d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b92dd5020f6f9dbb6980f0309a774de88527b41b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649089"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550514"
 ---
 # <a name="payment-information-for-namibia"></a>Betalingsgegevens voor Namibië
 
-[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in USD en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
+Betaal alleen in USD en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank, Londen  
+**Bank:** Citibank, London  
 **SWIFT-code:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Rekeningnummer:** 12510049  
-**Account naam:** MICROSOFT  
+**Accountnaam:** MICROSOFT  

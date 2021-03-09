@@ -1,5 +1,5 @@
 ---
-title: Betalingsgegevens voor Faeröer
+title: Betalingsgegevens voor Faroe Islands
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f6d73996ce538b457067a1cfabd2440eaf4a2891
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3c8521dc2096e32cd80b5cafec07060a8c80bf2f
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647661"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551342"
 ---
-# <a name="payment-information-for-faroe-islands"></a>Betalingsgegevens voor Faeröer
+# <a name="payment-information-for-faroe-islands"></a>Betalingsgegevens voor Faroe Islands
 
-[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in EUR en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
+Betaal alleen in EUR en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank, Londen  
-**Swift-Code/BIC:** CITIGB2L  
+**Bank:** Citibank, London  
+**SWIFT-code/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Sorteer code:** 185008  
+**SORTEERcode:** 185008  
 **Rekeningnummer:** 12207591  
-**Account naam:** MICROSOFT  
+**Accountnaam:** MICROSOFT  
