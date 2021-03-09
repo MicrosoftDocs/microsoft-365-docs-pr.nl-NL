@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Lees hoe u rapporten kunt aanpassen in de browser en in Power BI Desktop.
-ms.openlocfilehash: 0375b61b6922c99acf927a4283571451deabaf14
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 3c662dfa91939c68f0aa0a85c19a1fab003064bf
+ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114295"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50572648"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Rapporten in Microsoft 365 Gebruiksanalyse naar voorkeur aanpassen
 
@@ -138,7 +138,7 @@ U kunt beginnen door rechtstreeks verbinding te maken met de ODATA-rapportage-AP
 
 U kunt ook het Power BI-sjabloonbestand dat hoort bij de rapporten van Microsoft 365 Gebruiksanalyse gebruiken als startpunt voor het maken van verbinding met de gegevens. Het voordeel van het gebruik van het PBIT-bestand is dat de verbindingstekenreeks al is vastgelegd. U kunt ook profiteren van alle aangepaste metingen die zijn gedaan ter aanvulling op de gegevens in het basisschema, en die verder uitbouwen.
   
-U kunt het Power BI-sjabloonbestand downloaden vanuit het Microsoft [Downloadcentrum.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) Nadat u het Power BI-sjabloonbestand hebt gedownload, gaat u als volgt te werk om aan de slag te gaan:
+U kunt het Power BI-sjabloonbestand downloaden in het [Microsoft Downloadcentrum.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) Nadat u het Power BI-sjabloonbestand hebt gedownload, volgt u deze stappen om aan de slag te gaan:
   
 1. Open het PBIT-bestand.
     
