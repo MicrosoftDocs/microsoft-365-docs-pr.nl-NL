@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 521b5fc2a8efee83b6a2931e7dbc1c713bd63cd2
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: 4d29f4f3df3d65ad72a19f059763523d7f7cba31
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094805"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50597001"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Geavanceerde zoekquery's migreren van Microsoft Defender for Endpoint
 
@@ -64,8 +64,11 @@ Het [Microsoft 365 Defender advanced hunting schema](advanced-hunting-schema-tab
 | [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md) | Verificatiegebeurtenissen in Active Directory en Microsoft-onlineservices |
 | [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md) | Query's voor Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
 
+>[!IMPORTANT]
+> Query's en aangepaste detecties waarin schematabellen worden gebruikt die alleen beschikbaar zijn in Microsoft 365 Defender, kunnen alleen worden weergegeven in Microsoft 365 Defender.
+
 ## <a name="map-devicealertevents-table"></a>Map DeviceAlertEvents table
-De tabel in het schema Microsoft Defender for Endpoint wordt vervangen door de `AlertInfo` `AlertEvidence` `DeviceAlertEvents` tabellen. Naast gegevens over apparaatwaarschuwingen bevatten deze twee tabellen gegevens over waarschuwingen voor identiteiten, apps en e-mailberichten.
+De `AlertInfo` tabel en tabellen vervangen de tabel in het schema van Microsoft Defender for `AlertEvidence` `DeviceAlertEvents` Endpoint. Naast gegevens over apparaatwaarschuwingen bevatten deze twee tabellen gegevens over waarschuwingen voor identiteiten, apps en e-mailberichten.
 
 Gebruik de volgende tabel om te controleren hoe `DeviceAlertEvents` kolommen worden toe te staan aan kolommen in de `AlertInfo` `AlertEvidence` tabellen.
 
@@ -86,7 +89,7 @@ Gebruik de volgende tabel om te controleren hoe `DeviceAlertEvents` kolommen wor
 | `RemoteUrl` | `AlertEvidence` tabel |
 | `RemoteIP` | `AlertEvidence` tabel |
 | `AttackTechniques` | `AlertInfo` tabel |
-| `ReportId` | Deze kolom wordt meestal gebruikt in Microsoft Defender voor eindpunt om gerelateerde records in andere tabellen te zoeken. In Microsoft 365 Defender kunt u gerelateerde gegevens rechtstreeks uit de tabel `AlertEvidence` halen. |
+| `ReportId` | Deze kolom wordt meestal gebruikt in Microsoft Defender voor eindpunt om gerelateerde records te zoeken in andere tabellen. In Microsoft 365 Defender kunt u gerelateerde gegevens rechtstreeks uit de tabel `AlertEvidence` halen. |
 | `Table` | Deze kolom wordt meestal gebruikt in Microsoft Defender voor het eindpunt voor aanvullende gebeurtenisgegevens in andere tabellen. In Microsoft 365 Defender kunt u gerelateerde gegevens rechtstreeks uit de tabel `AlertEvidence` halen. |
 
 ## <a name="adjust-existing-microsoft-defender-for-endpoint-queries"></a>Bestaande Microsoft Defender voor eindpuntquery's aanpassen
@@ -96,7 +99,7 @@ Microsoft Defender voor eindpuntquery's werkt zoals ze zijn, tenzij ze naar de t
 - Join the `AlertInfo` and the tables on to get equivalent `AlertEvidence` `AlertId` data.
 
 ### <a name="original-query"></a>Oorspronkelijke query
-De volgende query gebruikt `DeviceAlertEvents` Microsoft Defender for Endpoint __ om de waarschuwingen te ontvangen die betrekking hebben oppowershell.exe:
+De volgende query gebruikt microsoft Defender for Endpoint om de `DeviceAlertEvents` waarschuwingen te ontvangen die betrekking hebben oppowershell.exe: __
 
 ```kusto
 DeviceAlertEvents
@@ -114,7 +117,66 @@ AlertInfo
 | where FileName == "powershell.exe"
 ```
 
+## <a name="migrate-custom-detection-rules"></a>Aangepaste detectieregels migreren
 
+Wanneer regels van Microsoft Defender voor eindpunt worden bewerkt op Microsoft 365 Defender, blijven ze werken alsof de resulterende query alleen naar apparaattabellen kijkt. 
+
+Waarschuwingen die worden gegenereerd door aangepaste detectieregels die query's uitvoeren op alleen apparaattabellen, worden bijvoorbeeld nog steeds bezorgd in uw SIEM en genereren e-mailmeldingen, afhankelijk van hoe u deze hebt geconfigureerd in Microsoft Defender voor eindpunt. Bestaande onderdrukkende regels in Defender voor eindpunt blijven ook van toepassing.
+
+Zodra u een regel van Defender voor eindpunt bewerkt zodat identiteits- en e-mailtabellen worden opgevraagd, die alleen beschikbaar zijn in Microsoft 365 Defender, wordt de regel automatisch verplaatst naar Microsoft 365 Defender. 
+
+Waarschuwingen die worden gegenereerd door de gemigreerde regel:
+
+- Zijn niet meer zichtbaar in de portal Defender for Endpoint (Microsoft Defender-beveiligingscentrum)
+- Stop met afgeleverd te worden in uw SIEM of genereer e-mailmeldingen. U kunt deze wijziging omsdraaien door meldingen via Microsoft 365 Defender zo te configureren dat de waarschuwingen worden ontvangen. U kunt de [Microsoft 365 Defender-API](api-incident.md) gebruiken om meldingen te ontvangen voor waarschuwingen van klantendetectie of verwante incidenten.
+- Wordt niet onderdrukken door de regels voor het onderdrukken van eindpunten van Microsoft Defender voor Eindpunt. Als u wilt voorkomen dat waarschuwingen worden gegenereerd voor bepaalde gebruikers, apparaten of postvakken, wijzigt u de bijbehorende query's om deze entiteiten expliciet uit te sluiten.
+
+Als u een regel op deze manier bewerkt, wordt u om bevestiging gevraagd voordat dergelijke wijzigingen worden toegepast.
+
+Nieuwe waarschuwingen die worden gegenereerd door aangepaste detectieregels in de Microsoft 365 Defender-portal, worden weergegeven op een waarschuwingspagina met de volgende informatie:
+
+- Naam en beschrijving van waarschuwing 
+- Beïnvloede activa
+- Acties die zijn ondernomen in reactie op de waarschuwing
+- Queryresultaten die de waarschuwing hebben geactiveerd 
+- Informatie over de aangepaste detectieregel 
+ 
+![Afbeelding van de pagina Nieuwe waarschuwing](../../media/new-alert-page.png)
+
+## <a name="write-queries-without-devicealertevents"></a>Query's schrijven zonder DeviceAlertEvents
+
+In het Microsoft 365 Defender-schema worden de tabellen en de tabellen verstrekt voor de diverse reeks informatie die bij waarschuwingen `AlertInfo` `AlertEvidence` van verschillende bronnen past. 
+
+Als u dezelfde waarschuwingsgegevens uit de tabel in het schema Microsoft Defender for Endpoint hebt ontvangen, filtert u de tabel op en voegt u elke unieke id toe aan de tabel, die gedetailleerde informatie over gebeurtenissen en entiteiten `DeviceAlertEvents` `AlertInfo` `ServiceSource` `AlertEvidence` biedt. 
+
+Zie de voorbeeldquery hieronder:
+
+```kusto
+AlertInfo
+| where Timestamp > ago(7d)
+| where ServiceSource == "Microsoft Defender for Endpoint"
+| join AlertEvidence on AlertId
+```
+
+Deze query levert veel meer kolommen op dan `DeviceAlertEvents` in het schema van Microsoft Defender voor eindpunt. Gebruik alleen kolommen waarin u geïnteresseerd bent om de resultaten `project` beheersbaar te houden. In het onderstaande voorbeeld ziet u de kolommen waarin u mogelijk geïnteresseerd bent wanneer door het onderzoek PowerShell-activiteit is gedetecteerd:
+
+```kusto
+AlertInfo
+| where Timestamp > ago(7d)
+| where ServiceSource == "Microsoft Defender for Endpoint"
+    and AttackTechniques has "powershell"
+| join AlertEvidence on AlertId
+| project Timestamp, Title, AlertId, DeviceName, FileName, ProcessCommandLine 
+```
+
+Als u wilt filteren op specifieke entiteiten die betrokken zijn bij de waarschuwingen, kunt u dit doen door het entiteitstype op te geven en de waarde die u wilt `EntityType` filteren. In het volgende voorbeeld wordt naar een specifiek IP-adres zoekt:
+
+```kusto
+AlertInfo
+| where Title == "Insert_your_alert_title"
+| join AlertEvidence on AlertId 
+| where EntityType == "Ip" and RemoteIP == "192.88.99.01" 
+```
 
 ## <a name="see-also"></a>Zie ook
 - [Microsoft 365 Defender in te zetten](advanced-hunting-query-language.md)

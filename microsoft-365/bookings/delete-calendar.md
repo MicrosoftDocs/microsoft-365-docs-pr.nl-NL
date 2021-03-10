@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
-description: Gebruik het Microsoft 365-beheercentrum of Windows PowerShell om boekingsagenda's te verwijderen.
-ms.openlocfilehash: 1f8df15eafac7867f7ae852e344e1c5730362598
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+description: Gebruik het Microsoft 365-beheercentrum of Windows PowerShell om Boekingsagenda's te verwijderen.
+ms.openlocfilehash: 7407298adb402de79a1010b51544deee4b94cf5a
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454203"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50604018"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Een boekingsagenda verwijderen in Bookings
 
 In dit artikel wordt uitgelegd hoe u een ongewenste boekingsagenda kunt verwijderen. U kunt de boekingsagenda verwijderen in het Microsoft 365-beheercentrum of u kunt PowerShell gebruiken. De Bookings-agenda is een postvak in Exchange Online, dus u verwijdert het bijbehorende gebruikersaccount om de boekingsagenda te verwijderen.
 
 > [!IMPORTANT]
-> Alle boekingsagenda's die u in 2017 of eerder hebt gemaakt, moeten worden verwijderd volgens de PowerShell-instructies voor dit onderwerp. Alle boekingsagenda's die in 2018 of daarna zijn gemaakt, kunnen worden verwijderd in het Microsoft 365-beheercentrum.
+> Alle boekingsagenda's die u in 2017 of eerder hebt gemaakt, moeten worden verwijderd volgens de PowerShell-instructies voor dit onderwerp. Alle boekingsagenda's die in 2018 of later zijn gemaakt, kunnen worden verwijderd in het Microsoft 365-beheercentrum.
 
 In de boekingsagenda worden alle relevante informatie over de boekingsagenda en de gegevens opgeslagen, waaronder:
 
@@ -87,7 +87,7 @@ Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrac
 6. Voer de volgende opdracht uit om te controleren of de agenda is verwijderd:
 
    ```powershell
-    Get-EXOMailbox -RecipientTypeDetails Scheduling
+    Get-EXOMailbox -RecipientTypeDetails SchedulingMailbox
    ```
 
    De verwijderde agenda wordt niet weergegeven in de uitvoer.
