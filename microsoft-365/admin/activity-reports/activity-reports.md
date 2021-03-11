@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: 4ec7690e5300b2ac08a98fbec3f4c253e970738c
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: a71ced2dd0aa71179c1b26cec571f3025af1ce05
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921168"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50603850"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
@@ -85,6 +85,8 @@ Zie [Informatie over beheerdersrollen](../add-users/about-admin-roles.md) en [Be
 ## <a name="which-activity-reports-are-available-in-the-admin-center"></a>Welke activiteitenrapporten zijn er beschikbaar in het beheercentrum?
 
 Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
+
+- [Microsoft browsergebruik](browser-usage-report.md) 
   
 - [E-mailactiviteit](email-activity-ww.md)
 
@@ -125,8 +127,6 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 - [Gebruik van OneDrive voor Bedrijven voor de Amerikaanse overheid](onedrive-for-business-usage.md)
 
 - [Gebruik van Microsoft 365-apps](microsoft365-apps-usage-ww.md)
-
-- [Gebruik van Microsoft 365-apps voor de Amerikaanse overheid](microsoft365-apps-usage.md)
   
 - [SharePoint-sitegebruik](sharepoint-site-usage-ww.md)
 

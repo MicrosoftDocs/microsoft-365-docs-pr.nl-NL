@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Informatie over het instellen van een verloopbeleid voor wachtwoorden voor uw bedrijf in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 9470a73926327777055a321eb3a592ea3ddcf41e
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 4a7b544b6eded6f0cd6441ad7f6b02de790e5e44
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515038"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50603982"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen:
 
@@ -43,7 +43,7 @@ ms.locfileid: "50515038"
 
 Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md).
 
-U moet een [globale beheerder of wachtwoordbeheerder](../add-users/about-admin-roles.md) zijn om deze stappen uit te voeren.
+Je moet een [globale beheerder](../add-users/about-admin-roles.md) zijn om deze stappen uit te voeren.
 
 Als u een gebruiker bent, bent u niet gemachtigd om uw wachtwoord zo in te stellen dat het nooit verloopt. Vraag de technische ondersteuning van uw werk of school om de stappen in dit artikel voor u uit te voeren.
 
@@ -55,9 +55,7 @@ Als beheerder kunt u instellen dat gebruikerswachtwoorden na een bepaald aantal 
 > Wachtwoorden verlopen standaard na 90 dagen. Recent onderzoek geeft sterk aan dat verplichte wachtwoordwijzigingen meer kwaad dan goed doen. Gebruikers kiezen dan voor zwakkere wachtwoorden, hergebruik van wachtwoorden of ze werken oude wachtwoorden bij op een manier die eenvoudig te raden is voor hackers. Als u de wachtwoorden instelt om nooit te verlopen, raden we u aan [meervoudige verificatie](../security-and-compliance/set-up-multi-factor-authentication.md) in te schakelen.
 
 Volg onderstaande stappen als u wilt instellen dat gebruikerswachtwoorden na een bepaalde tijd verlopen.
-> [!IMPORTANT]
-> Alleen [globale beheerders](../add-users/about-admin-roles.md) kunnen deze stappen uitvoeren.
-  
+
 1. Ga in het beheercentrum naar **Instellingen** \> **Organisatie-instellingen**.
 
 2. Ga naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Beveiliging en privacy</a>.
