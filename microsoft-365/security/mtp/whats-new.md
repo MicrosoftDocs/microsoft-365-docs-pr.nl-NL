@@ -18,32 +18,34 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 72c6ec814c5f3317f582cb4bfb21858677fbb7e1
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 1f5fa231c371ca7a8d6a22ca0b4ff388fd89004c
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509120"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711914"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Wilt u ervaring met Microsoft 365 Defender? U kunt [dit evalueren in een testomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject in productie nemen.](https://aka.ms/m365d-pilotplaybook)
+> Wilt u ervaring met Microsoft 365 Defender? U kunt [het evalueren in een testomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject in productie nemen.](https://aka.ms/m365d-pilotplaybook)
 >
 
 De volgende functies zijn algemeen beschikbaar (GA) in de nieuwste versie van Microsoft 365 Defender.
 
-RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL te kopiëren en in uw feedlezer te kopiëren:
+RSS-feed: ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL te kopiëren en in uw feedlezer te kopiëren:
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
 
+## <a name="march-2021"></a>Maart 2021
+- [Tabel CloudAppEvents](advanced-hunting-cloudappevents-table.md) <br>Vind informatie over gebeurtenissen in verschillende cloud-apps en services die worden gedekt door Microsoft Cloud App Security. Deze tabel bevat ook informatie die eerder beschikbaar was in `AppFileEvents` .
 ## <a name="february-2021"></a>Februari 2021
-- (Preview) Het verbeterde [Microsoft 365-beveiligingscentrum ( https://security.microsoft.com) ](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor eindpunt en Defender voor Office 365 in het midden. [Meer informatie over wat er is gewijzigd.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
+- (Preview) Het verbeterde [Microsoft 365-beveiligingscentrum ( https://security.microsoft.com) ](https://security.microsoft.com) is nu beschikbaar in de openbare preview-versie. Deze nieuwe ervaring brengt Defender voor eindpunt en Defender voor Office 365 in het midden. [Meer informatie over wat er is gewijzigd.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
 
 ## <a name="september-2020"></a>September 2020
-- [Tabel IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) <br> Gebeurtenissen vinden waarbij een on-premises domeincontroller Active Directory (AD) wordt uitgevoerd. Deze [geavanceerde schematabel](advanced-hunting-overview.md) voor het zoeken naar informatie omvat een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller.
+- [IdentityDirectoryEvents-tabel](advanced-hunting-identitydirectoryevents-table.md) <br> Gebeurtenissen vinden waarbij een on-premises domeincontroller Active Directory (AD) wordt uitgevoerd. Deze [geavanceerde schematabel](advanced-hunting-overview.md) voor het zoeken naar informatie omvat een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller.
 - [AssignedIPAddresses() functie](advanced-hunting-assignedipaddresses-function.md) <br> Gebruik deze functie in uw geavanceerde zoekquery's om snel de meest recente IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen vanaf een bepaalde tijd.
 
 ## <a name="july-2020"></a>Juli 2020
@@ -66,5 +68,5 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 
 ## <a name="march-2019"></a>Maart 2019
 - Geavanceerd opsporen <br> De landingspagina voor diverse zoekmogelijkheden, zodat u proactief bedreigingen kunt vinden die van invloed zijn op e-mail en gegevens, apparaten en identiteiten.
-- [Microsoft Secure Score](microsoft-secure-score.md) <br> Het meten van de beveiligingsrisico's van een organisatie, met een hoger getal dat aangeeft dat er meer acties voor verbetering worden uitgevoerd. Door de aanbevelingen van beveiligingsscores te volgen, kunt u uw organisatie beschermen tegen bedreigingen. 
+- [Microsoft Secure Score](microsoft-secure-score.md) <br> Met een hogere maateenheid voor de beveiliging van een organisatie, met een hoger getal dat aangeeft dat er meer acties voor verbetering worden uitgevoerd. Door de aanbevelingen van de beveiligingsscore te volgen, kunt u uw organisatie beschermen tegen bedreigingen. 
 - [Rapporten](monitoring-and-reporting.md) <br>  Deze bevat een groot aantal kaarten voor verschillende gebieden die beveiligingsanalisten en beheerders bijhouden als onderdeel van hun dagelijkse werkzaamheden.

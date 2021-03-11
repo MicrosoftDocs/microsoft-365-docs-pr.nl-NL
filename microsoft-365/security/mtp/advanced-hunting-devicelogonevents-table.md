@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 60455c0a66548654da52544e3d7ece84aecb9cf3
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 4b47d27855876eaec8512ecaa060875ad8d52a80
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145437"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712436"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
@@ -40,9 +40,9 @@ ms.locfileid: "50145437"
 De `DeviceLogonEvents` tabel in het geavanceerde [zoekschema](advanced-hunting-overview.md) bevat informatie over gebruikerslogo's en andere verificatiegebeurtenissen op apparaten. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing in het beveiligingscentrum.
 
-Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
+Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
@@ -56,13 +56,13 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `Protocol` | tekenreeks | Protocol dat is gebruikt tijdens de communicatie |
 | `FailureReason` | tekenreeks | Informatie waarin wordt uitgelegd waarom de opgenomen actie is mislukt |
 | `LogonType` | tekenreeks | Het type aanmeldingssessie, met name:<br><br> - **Interactief:** de gebruiker werkt fysiek met de computer via het lokale toetsenbord en scherm<br><br> - **Externe interactieve aanmeldingsservices (RDP),** de gebruiker werkt op afstand met de computer via Extern bureaublad, Terminal Services, Hulp op afstand of andere RDP-clients<br><br> - **Netwerk:** de sessie wordt gestart wanneer de computer wordt gebruikt met PsExec of wanneer gedeelde bronnen op de computer, zoals printers en gedeelde mappen, worden gebruikt<br><br> - **Batch:** sessie gestart door geplande taken<br><br> - **Service:** een sessie gestart door services terwijl ze beginnen<br> |
-| `LogonId` | tekenreeks | Id voor een aanmeldingssessie. Deze id is alleen uniek op dezelfde computer tussen opnieuw opstarten |
+| `LogonId` | tekenreeks | Id voor een aanmeldingssessie. Deze id is alleen uniek op dezelfde computer als deze opnieuw wordt gestart |
 | `RemoteDeviceName` | tekenreeks | De naam van de computer die een externe bewerking heeft uitgevoerd op de betreffende computer. Afhankelijk van de gebeurtenis die wordt gerapporteerd, kan deze naam een FQDN (Fully Qualified Domain Name), een NetTICAS-naam of een hostnaam zonder domeingegevens zijn. |
 | `RemoteIP` | tekenreeks | IP-adres dat werd gekoppeld aan |
 | `RemoteIPType` | tekenreeks | Type IP-adres, bijvoorbeeld Openbaar, Privé, Gereserveerd, Loopback, Teredo, FourToSixMapping en Broadcast |
 | `RemotePort` | int | TCP-poort op het externe apparaat dat werd verbonden met |
 | `AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
-| `InitiatingProcessFileSize` | lang | Grootte van het bestand dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `InitiatingProcessFileSize` | lang | Grootte van het bestand met het proces dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessAccountDomain` | tekenreeks | Het domein van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountName` | tekenreeks | Gebruikersnaam van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountSid` | tekenreeks | Security Identifier (SID) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
@@ -83,7 +83,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `InitiatingProcessParentCreationTime` | datetime | Datum en tijd waarop de bovenliggende groep die verantwoordelijk is voor de gebeurtenis is gestart |
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen Apparaatnaam en Tijdstempel |
 | `AppGuardContainerId` | tekenreeks | Id voor de gevirtualiseerde container die door Application Guard wordt gebruikt om browseractiviteit te isoleren |
-| `IsLocalAdmin` | boolean | Booleaanse indicator of de gebruiker een lokale beheerder op de computer is |
+| `IsLocalAdmin` | booleaanse | Booleaanse indicator of de gebruiker een lokale beheerder op de computer is |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

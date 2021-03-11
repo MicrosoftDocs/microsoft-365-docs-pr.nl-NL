@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 6bd0e4fe3173fa899b0b9c86d6f85d724b52be3a
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 1102f16249841779fd5b7293f89fb0955f14a496
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145005"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712400"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
@@ -35,19 +35,19 @@ ms.locfileid: "50145005"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De tabel in het geavanceerde schema voor zoeken bevat informatie over het maken en `DeviceRegistryEvents` wijzigen van [](advanced-hunting-overview.md) registergegevens. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De `DeviceRegistryEvents` tabel in het geavanceerde [zoekschema](advanced-hunting-overview.md) bevat informatie over het maken en wijzigen van registergegevens. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing in het beveiligingscentrum.
 
-Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
+Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
 | `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
 | `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van de computer |
-| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal voor](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) meer informatie |
+| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor meer informatie |
 | `RegistryKey` | tekenreeks | Registersleutel waar de opgenomen actie op is toegepast |
 | `RegistryValueType` | tekenreeks | Het gegevenstype, zoals een binair getal of een tekenreeks, van de registerwaarde op welke actie is toegepast. |
 | `RegistryValueName` | tekenreeks | Naam van de registerwaarde waar de opgenomen actie op is toegepast |

@@ -1,6 +1,6 @@
 ---
 title: Tabel DeviceProcessEvents in het geavanceerde schema voor zoeken
-description: Meer informatie over de gebeurtenissen voor procesverkenningen of -creatie in de DeviceProcessEventstable van het geavanceerde schema voor zoeken
+description: Meer informatie over het proces van het organiseren of maken van gebeurtenissen in de DeviceProcessEventstable van het geavanceerde schema voor zoeken
 keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, processcreationevents, DeviceProcessEvents, process id, command line, DeviceProcessEvents
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 6f94b861aa73d01f9e906d41bc52a9724552cd33
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: e89f0443662257cba2c71cd0e501c39412c19ca3
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145509"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712412"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 
@@ -40,9 +40,9 @@ ms.locfileid: "50145509"
 De `DeviceProcessEvents` tabel in het geavanceerde [zoekschema](advanced-hunting-overview.md) bevat informatie over het maken van processen en gerelateerde gebeurtenissen. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing in het beveiligingscentrum.
 
-Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
+Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
@@ -57,7 +57,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `MD5` | tekenreeks | MD5-hash van het bestand waar de opgenomen actie op is toegepast |
 | `ProcessId` | int | Proces-id (PID) van het nieuwe proces |
 | `ProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt om het nieuwe proces te maken |
-| `ProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het nieuwe proces. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als deze zijn gestart vanaf een gedownload internet. Deze integriteitsniveaus hebben invloed op machtigingen voor resources |
+| `ProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het nieuwe proces. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart vanaf een gedownload internet. Deze integriteitsniveaus hebben invloed op machtigingen voor resources |
 | `ProcessTokenElevation` | tekenreeks | Geeft het type token aan dat is toegepast op het nieuwe proces. Mogelijke waarden: TokenElevationTypeLimited (beperkt), TokenElevationTypeDefault (standaard) en TokenElevationTypeFull (verhoogd) |
 | `ProcessCreationTime` | datetime | Datum en tijd waarop het proces is gemaakt |
 | `AccountDomain` | tekenreeks | Domein van het account |
@@ -72,7 +72,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `InitiatingProcessAccountUpn` | tekenreeks | UPN (User Principal Name) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountObjectId` | tekenreeks | Azure AD-object-id van het gebruikersaccount dat het proces heeft uitgevoerd dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessLogonId` | tekenreeks | Id voor een aanmeldingssessie van het proces dat de gebeurtenis heeft gestart. Deze id is alleen uniek op dezelfde computer tussen opnieuw opstarten. |
-| `InitiatingProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
+| `InitiatingProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus hebben invloed op machtigingen voor resources |
 | `InitiatingProcessTokenElevation` | tekenreeks | Tokentype dat de aanwezigheid of afwezigheid aangeeft van UAC-bevoegdheden (User Access Control) die zijn toegepast op het proces waarmee de gebeurtenis is gestart |
 | `InitiatingProcessSHA1` | tekenreeks | SHA-1 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessSHA256` | tekenreeks | SHA-256 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart. Dit veld wordt meestal niet ingevuld. Gebruik indien beschikbaar de kolom SHA1. |

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 021a8210bbe5886021e980b33ade0b9e2ded7b5b
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: a8ba1f94bc704a5fe99d54b77aa6570c5e43d3f7
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928451"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712484"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -35,13 +35,15 @@ ms.locfileid: "49928451"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-De tabel in het geavanceerde schema voor zoeken is momenteel beschikbaar in de preview-versie en bevat informatie over activiteiten in verschillende cloud-apps en -services, met name `CloudAppEvents` Microsoft Teams en Exchange Online. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
-Deze tabel wordt uitgebreid met meer activiteiten die worden gecontroleerd door Microsoft Cloud App Security. Uiteindelijk bevat deze tabel bestandsactiviteit die momenteel is opgeslagen in de [tabel AppFileEvents.](advanced-hunting-appfileevents-table.md) Microsoft begeleidt u wanneer er meer gegevens naar deze tabel worden verplaatst.
+De tabel in het geavanceerde zoekschema bevat informatie over activiteiten in verschillende cloud-apps en -services die worden gedekt door Microsoft Cloud App Security, met name `CloudAppEvents` Dropbox, Exchange Online, [](advanced-hunting-overview.md) OneDrive, Microsoft Teams en SharePoint. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
-Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
+>[!IMPORTANT]
+>Deze tabel bevat informatie die vroeger beschikbaar was in de `AppFileEvents` tabel. Vanaf 7 maart 2021 moeten gebruikers die op en na deze datum op zoek zijn naar activiteiten in verband met bestanden in cloudservices de tabel `CloudAppEvents` gebruiken. <br><br>Zoek naar query's en aangepaste detectieregels die nog steeds de tabel gebruiken en bewerk deze `AppFileEvents` om de tabel te `CloudAppEvents` gebruiken. Meer richtlijnen over het converteren van betrokken query's vindt u in Het zoeken naar [cloud-app-activiteiten met Microsoft 365 Defender geavanceerd zoeken.](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857)
+
+
+Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
@@ -56,7 +58,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat wordt uitgevoerd op het apparaat. Deze kolom geeft specifieke besturingssystemen aan, inclusief variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
 | `IPAddress` | tekenreeks | IP-adres dat aan het eindpunt is toegewezen en dat is gebruikt tijdens gerelateerde netwerkcommunicatie |
 | `IsAnonymousProxy` | tekenreeks | Geeft aan of het IP-adres behoort tot een bekende anonieme proxy |
-| `CountryCode` | tekenreeks | Tweeletterige code die het land aangeeft waar het IP-adres van de client geo-toegewezen is |
+| `CountryCode` | tekenreeks | Tweeletterige code die het land aangeeft waar het IP-adres van de client geolocatie is |
 | `City` | tekenreeks | Plaats waar het IP-adres van de client geolocatie is |
 | `Isp` | tekenreeks | Internetprovider (ISP) die is gekoppeld aan het IP-adres |
 | `UserAgent` | tekenreeks | Gegevens van de gebruikersagent vanuit de webbrowser of een andere clienttoepassing |
@@ -68,6 +70,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `ReportId` | tekenreeks | Unieke id voor de gebeurtenis |
 | `RawEventData` | tekenreeks | Onbewerkte gebeurtenisgegevens uit de brontoepassing of service in JSON-indeling |
 | `AdditionalFields` | tekenreeks | Aanvullende informatie over de entiteit of gebeurtenis |
+
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

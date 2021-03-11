@@ -15,16 +15,16 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.topic: article
+ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 89e72d703bd70647d6c2b00732315b8e5f015cc7
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 87149ab9c99168d62f5114555a46b8bfaee83ab2
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167199"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712100"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Overzicht van het geïntegreerde Microsoft 365-beveiligingscentrum
 
@@ -42,9 +42,9 @@ ms.locfileid: "50167199"
 
 In het **verbeterde Microsoft 365-beveiligingscentrum** () worden beveiliging, detectie, onderzoek en antwoorden op e-mail, samenwerking, identiteit en apparaatrisico's gecombineerd in een [https://security.microsoft.com](https://security.microsoft.com) centrale portal.   
 
-Het Microsoft 365-beveiligingscentrum brengt functionaliteit samen van bestaande Microsoft-beveiligingsportals, zoals het Microsoft Defender-beveiligingscentrum en het Office 365-& compliancecentrum. Het beveiligingscentrum legt de nadruk op snelle toegang tot informatie, eenvoudigere indelingen en het samenbrengen van gerelateerde informatie, voor eenvoudiger gebruik. Dit centrum bevat:
+In het Microsoft 365-beveiligingscentrum zijn functies uit bestaande Microsoft-beveiligingsportals, zoals het Microsoft Defender-beveiligingscentrum en het Office 365-& compliancecentrum, samenbrengen. Het beveiligingscentrum legt de nadruk op snelle toegang tot informatie, eenvoudigere indelingen en het samenbrengen van gerelateerde informatie, voor eenvoudiger gebruik. Dit centrum bevat:
 
-- **[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)** Microsoft Defender voor Office 365 helpt organisaties bij het beveiligen van hun bedrijf met een reeks functies voor preventie, detectie, onderzoek en zoeken om e-mail en Office 365-bronnen te beschermen.
+- **[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)** Microsoft Defender voor Office 365 helpt organisaties bij het beveiligen van hun bedrijf met een set functies voor preventie, detectie, onderzoek en zoeken om e-mail en Office 365-bronnen te beschermen.
 - **[Microsoft Defender for Endpoint levert](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)** preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoorden voor apparaten in uw organisatie.
 - **[Microsoft 365 Defender](microsoft-threat-protection.md)** maakt deel uit van XDR-oplossing *(Extended Detection and Response)* van Microsoft, dat gebruik maakt van de Microsoft 365-beveiligingsportfolio voor het automatisch analyseren van bedreigingsgegevens in domeinen en een afbeelding van een aanval op één dashboard bouwen.
 
@@ -64,7 +64,7 @@ Het Microsoft 365-beveiligingscentrum helpt beveiligingsteams om aanvallen te on
 - Actiecentrum
 - Dreigingsanalyse
 
-In het Microsoft 365-beveiligingscentrum ligt de nadruk op *eenheid,* helderheid en gemeenschappelijke doelstellingen bij het samenvoegen van Microsoft Defender voor Office 365 en Microsoft Defender voor eindpunt. De samenvoeging is gebaseerd op de hierna genoemde prioriteiten en heeft geen ten koste van de mogelijkheden die elke beveiligingssuite aan de combinatie heeft aangebracht:
+In het Microsoft 365-beveiligingscentrum ligt de nadruk op *eenheid,* helderheid en gemeenschappelijke doelstellingen bij het samenvoegen van Microsoft Defender voor Office 365 en Microsoft Defender voor Eindpunt. De samenvoeging is gebaseerd op de hierna genoemde prioriteiten en heeft geen ten koste van de mogelijkheden die elke beveiligingssuite aan de combinatie heeft aangebracht:
 
 - algemene bouwstenen
 - algemene terminologie
@@ -77,19 +77,19 @@ Bij het stroomlijnen van beveiligingscentra wordt één deelvenster gemaakt voor
 
 :::image type="content" source="../../media/converged-incidents-2.png.png" alt-text="De pagina Incidenten in MDO.":::
 
-Als u bijvoorbeeld dubbelklikt op een  incidentnaam met hoge ernst, komt u op een pagina waar het voordeel van convergerende centers wordt gedemonstreerd.
+Als u bijvoorbeeld dubbelklikt op een  incidentnaam met hoge ernst, komt u op een pagina die het voordeel van convergerende centers laat zien.
 
 ![Incident met meerdere fases waarbij sprake was van escalatie van bevoegdheden op meerdere eindpunten, waarbij 16 betrokken apparaten en 9 betrokken gebruikers werden weergegeven.](../../media/converged-incident-info-3.png)
 
 > [!TIP]
-> Het tabblad **Geconvergeerde** gebruikers is een goede plaats om uw vragen te starten. Op deze ene pagina worden gegevens weergegeven voor gebruikers van geconvergeerde werkbelastingen (Microsoft Defender voor eindpunt, Microsoft Defender for Identity en MCAS, als u deze gebruikt) en een reeks bronnen, zoals on-premises Active Directory, Azure Active Directory, gesynchroniseerde, lokale en externe gebruikers. Meer informatie over [de nieuwe gebruikerservaring.](investigate-users.md)
+> Het tabblad **Geconvergeerde** gebruikers is een goede plaats om uw vragen te starten. Op deze ene pagina worden gegevens weergegeven voor gebruikers van geconvergeerde werkbelastingen (Microsoft Defender for Endpoint, Microsoft Defender for Identity en MCAS, als u deze gebruikt) en een reeks bronnen, zoals on-premises Active Directory, Azure Active Directory, gesynchroniseerde, lokale en externe gebruikers. Meer informatie over [de nieuwe gebruikerservaring.](investigate-users.md)
 
-Incidentgegevens tonen specifieke gebruikers-/identiteitsgegevens en apparaten met een risico, naast de betreffende postvakken. Het heeft ook betrekking op **onderzoeksgegevens en** het verzamelen **van bewijs.** Hierdoor kunnen beheerders en beveiligingsteams eenvoudiger één waarschuwing met hoog risico gebruiken voor de betrokken gebruikers en postvakken. Als u naar **de tabbladen incident** boven aan deze pagina kijkt, zijn er andere belangrijke beveiligingspivots beschikbaar vanaf deze locatie.
+Incidentinformatie toont specifieke gebruikers-/identiteitsgegevens en apparaten met een risico, naast de betreffende postvakken. Het heeft ook betrekking op **onderzoeksgegevens en** verzamelde **bewijs.** Hierdoor kunnen beheerders en beveiligingsteams eenvoudiger één waarschuwing met hoog risico gebruiken voor de betrokken gebruikers en postvakken. Als u naar **de tabbladen incident** boven aan deze pagina kijkt, zijn er andere belangrijke beveiligingspivots beschikbaar vanaf deze locatie.
 
 > [!IMPORTANT]
 > Boven aan een pagina voor een specifiek incident ziet u de tabbladen **Samenvatting,** **Waarschuwingen,** **Apparaten,** **Gebruikers,** Postvakken, Onderzoeken en Bewijs.  
 
-Als **u Onderzoeken selecteert,** wordt een pagina geopend met een afbeelding van de analyse die wordt uitgevoerd en wordt een status (zoals goedkeuring in **behandeling)** weergegeven voor herstel. Neem de tijd om specifieke incidenten in uw omgeving te selecteren, in te zoomen op deze tabbladen en te oefenen met het maken van een profiel voor verschillende soorten bedreigingen. U kunt later bij nader onderzoek meer vertrouwd raken met het gebruik van vertrouwde informatie.
+Als **u Onderzoeken selecteert,** wordt een pagina geopend met een afbeelding van de analyse die wordt uitgevoerd en wordt een status (zoals goedkeuring in **behandeling)** weergegeven voor herstel. Neem de tijd om specifieke incidenten in uw omgeving te selecteren, in te zoomen op deze tabbladen en te oefenen met het maken van een profiel voor verschillende soorten bedreigingen. Ook later zal bekend zijn met onderzoeken.
 
 ## <a name="improved-processes"></a>Verbeterde processen
 
@@ -125,13 +125,13 @@ De kaarten vallen in deze categorieën:
 - **Apparaten:** actuele informatie over waarschuwingen, inbreukactiviteiten en andere bedreigingen op uw apparaten.
 - **Apps:** krijg inzicht in hoe cloud-apps worden gebruikt in uw organisatie. [Meer informatie over apps die door Cloud-app-beveiliging zijn gevonden.](https://docs.microsoft.com/cloud-app-security/discovered-apps)
 
-## <a name="threat-analytics-with-better-data-coverage"></a>Bedreigingsanalyse met betere dekking van gegevens
+## <a name="threat-analytics-with-better-data-coverage"></a>Bedreigingsanalyse met betere gegevensdekking
 Volg en reageer op nieuwe bedreigingen met de volgende geïntegreerde Microsoft 365 Defender Threat Analytics-ervaring:
 
-- Betere gegevensdekking tussen Microsoft Defender voor Eindpunt en Microsoft Defender voor Office 365, waardoor gecombineerd beheer van incidenten, automatisch onderzoek, herstel en proactieve of reactief zoeken naar een heel domein mogelijk wordt. 
-- Aan e-mail gerelateerde detecties en risicobeperking van Microsoft Defender voor Office 365, naast de eindpuntgegevens die al beschikbaar zijn van Microsoft Defender voor Eindpunt.
+- Betere gegevensdekking tussen Microsoft Defender voor Eindpunt en Microsoft Defender voor Office 365, waardoor gecombineerd beheer van incidenten, automatisch onderzoek, herstel en proactieve of reactief zoeken naar andere domeinen mogelijk wordt. 
+- Aan e-mail gerelateerde detecties en risicobeperking van Microsoft Defender voor Office 365, naast de eindpuntgegevens die al beschikbaar zijn van Microsoft Defender voor eindpunt.
 - Een weergave van risicogerelateerde incidenten die waarschuwingen samenvoegen in end-to-end-aanvalsverhalen over Microsoft Defender for Endpoint en Microsoft Defender voor Office 365 om de werkwachtrij te beperken en het onderzoek te vereenvoudigen en te versnellen.
-- Aanvalspogingen gedetecteerd en geblokkeerd door Microsoft 365 Defender-oplossingen. Er zijn ook gegevens die u kunt gebruiken om voorzorgsacties aan te brengen die het risico op verdere blootstelling beperken en de tolerantie verhogen. 
+- Aanvalspogingen gedetecteerd en geblokkeerd door Microsoft 365 Defender-oplossingen. Er zijn ook gegevens die u kunt gebruiken om voorzorgsacties aan te brengen die het risico op verdere blootstelling beperken en tolerantie verhogen. 
 - Verbeterd ontwerp dat actie-informatie onder de aandacht brengt om u te helpen snel gegevens te identificeren zodat u zich dringend kunt richten op, onderzoeken en gebruikmaken van de rapporten.
 
 ## <a name="a-centralized-learning-hub"></a>Een centrale leerhub
@@ -140,14 +140,14 @@ Het Microsoft 365-beveiligingscentrum bevat een leerhub die officiële richtlijn
 
 In de leerhub worden richtlijnen voor samenwerking via e-mail & (Microsoft Defender voor Office 365 of MDO) naast eindpunten (Microsoft Defender voor eindpunt of MDE) en Microsoft 365 Defender-leerbronnen naast elkaar.
 
-De onderwijshub wordt geopend met leerpaden rond onderwerpen zoals 'Hoe onderzoek doen met Microsoft 365 Defender?' en 'Best practices voor Microsoft Defender voor Office 365'. Dit gedeelte wordt momenteel samengesteld door de beveiligingsproductgroep binnen Microsoft. Elk leerpad weerspiegelt een geprojecteerde tijd die het kost om de concepten te door te nemen. Voorbeeld: 'Stappen die moeten worden ondernomen wanneer een Microsoft Defender voor Office 365-gebruikersaccount wordt gehackt', duurt naar project 8 minuten en is op dit moment zeer waardevol om te leren.
+De onderwijshub wordt geopend met leerpaden die zijn georganiseerd rond onderwerpen zoals 'Hoe onderzoek doen met Microsoft 365 Defender?' en 'Best practices voor Microsoft Defender voor Office 365'. Dit gedeelte wordt momenteel samengesteld door de beveiligingsproductgroep binnen Microsoft. Elk leerpad weerspiegelt een geprojecteerde tijd die het kost om de concepten te door te nemen. Voorbeeld: 'Stappen die moeten worden ondernomen wanneer een Microsoft Defender voor Office 365-gebruikersaccount wordt gehackt', duurt naar project 8 minuten en is op dit moment zeer waardevol om te leren.
 
 Nadat u naar de inhoud hebt geklikt, kan het handig zijn om een bladwijzer aan deze site toe te staan en bladwijzers te ordenen in de map Beveiliging of Kritiek. Als u alle leerpaden wilt zien, klikt u op de koppeling Alles tonen in het hoofdvenster.
 
 > [!NOTE]
 > Bovenaan de Microsoft 365-beveiligingscentrum-hub voor het leren zijn handige **filters** beschikbaar, zodat u kunt kiezen tussen producten (momenteel Microsoft 365 Defender, Microsoft Defender voor eindpunt en Microsoft Defender voor Office 365). U ziet dat het aantal leerbronnen voor elke sectie wordt weergegeven, zodat studenten kunnen bijhouden hoeveel trainings- en studiebronnen er beschikbaar zijn.
 >
-> Naast het productfilter worden de huidige onderwerpen, informatietypen (van video's tot webinars), het niveau van vertrouwdheid of ervaring met beveiligingsgebieden, beveiligingsrollen en productfuncties weergegeven.
+> Naast het productfilter worden de huidige onderwerpen, soorten informatiebronnen (van video's tot webinars), het niveau van vertrouwdheid of ervaring met beveiligingsgebieden, beveiligingsrollen en productfuncties weergegeven.
 
 ## <a name="send-us-your-feedback"></a>Stuur ons uw feedback
 
@@ -162,7 +162,7 @@ Gebruik de **knop Dit product** voor *productfeedback:*
 2. Hiermee navigeert u naar het **UserVoice-forum.**
 3. U hebt twee opties:
     1. Schuif omlaag naar het tekstvak Hoe kunnen we de naleving verbeteren of uw gebruikers beter beschermen *in Office 365?* en plakken in *het Microsoft 365-beveiligingscentrum.* U kunt in de resultaten zoeken naar een idee zoals dat van u en dit up-voten, of de knop gebruiken om een **nieuw idee te posten.**
-    1. Als u zeker weet dat dit probleem al is gerapporteerd en u het profiel wilt verhogen met een stem (of stemmen), gebruikt u het vak *Feedback* geven aan de rechterkant van UserVoice. Zoek naar *het Microsoft 365-beveiligingscentrum,* zoek het probleem en gebruik de stemknop om **de** status te verhogen.
+    1. Als u zeker weet dat dit probleem al is gerapporteerd en u het  profiel wilt verhogen met een stem (of stemmen), gebruikt u het vak Feedback geven aan de rechterkant van UserVoice. Zoek naar *het Microsoft 365-beveiligingscentrum,* zoek het probleem en gebruik de stemknop om **de** status te verhogen.
 
 Gebruik *Deze pagina voor* feedback over het artikel zelf. Bedankt voor uw feedback. Uw stem helpt ons producten te verbeteren.
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 462ba35f584b45bbfeb0d8a3de3b118ba1c9e17c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3481190a615cfa8914b3623f09d4079468bd431f
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932320"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712112"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Werken met geavanceerde queryresultaten
 
@@ -42,7 +42,7 @@ Hoewel u geavanceerde [](advanced-hunting-overview.md) zoekquery's kunt maken om
 - Resultaten weergeven als een tabel of grafiek
 - Tabellen en grafieken exporteren
 - Inzoomen op gedetailleerde informatie over de entiteit
-- Uw query's rechtstreeks aanpassen aan de hand van de resultaten of filters toepassen
+- Uw query's rechtstreeks aanpassen aan de resultaten of filters toepassen
 
 ## <a name="view-query-results-as-a-table-or-chart"></a>Queryresultaten weergeven als een tabel of grafiek
 Bij geavanceerd zoeken worden queryresultaten standaard weergegeven als tabelgegevens. U kunt dezelfde gegevens ook als een grafiek weergeven. Geavanceerd zoeken ondersteunt de volgende weergaven:
@@ -68,13 +68,13 @@ Gebruik de `summarize` operator om een numerieke telling te verkrijgen van de wa
 AlertInfo
 | summarize Total = count() by Severity
 ```
-Bij het weergeven van de resultaten wordt in een kolomdiagram elke ernstwaarde als een aparte kolom weergegeven:
+Bij het weergeven van de resultaten wordt in een kolomdiagram elke ernstwaarde weergegeven als een aparte kolom:
 
-![Afbeelding van geavanceerde queryresultaten in de query als kolomdiagram Queryresultaten voor waarschuwingen op ernst ](../../media/advanced-hunting-column-chart.jpg)
- *die als kolomdiagram worden weergegeven*
+![Afbeelding van geavanceerde queryresultaten in de query als kolomdiagram Queryresultaten voor waarschuwingen op ](../../media/advanced-hunting-column-chart.jpg)
+ *ernst die als kolomdiagram worden weergegeven*
 
 #### <a name="alert-severity-by-operating-system"></a>Ernst van waarschuwingen per besturingssysteem
-U kunt de operator ook gebruiken om de resultaten voor te bereiden voor het in kaart brengen `summarize` van waarden uit meerdere velden. U wilt bijvoorbeeld weten hoe ernst van waarschuwingen is verdeeld over het besturingssysteem. 
+U kunt de operator ook gebruiken om de resultaten voor te bereiden op het in kaart brengen `summarize` van waarden uit meerdere velden. U wilt bijvoorbeeld weten hoe ernst van waarschuwingen is verdeeld over het besturingssysteem. 
 
 De onderstaande query gebruikt een operator om OS-gegevens op te halen uit de tabel en wordt vervolgens gebruikt om waarden in zowel de tabel als de kolommen `join` `DeviceInfo` te `summarize` `OSPlatform` `Severity` tellen:
 
@@ -90,18 +90,18 @@ Deze resultaten worden het best gevisualiseerd met behulp van een gestapeld kolo
  *als een gestapelde grafiek*
 
 #### <a name="phishing-emails-across-top-ten-sender-domains"></a>Phishing-e-mailberichten in de tien belangrijkste afzenderdomeinen
-Als u te maken hebt met een lijst met waarden die niet is eindig, kunt u de operator gebruiken om alleen de waarden in een grafiek met `Top` de meeste gevallen weer te geven. Gebruik de onderstaande query om de tien topdomeinen met de meeste phishing-e-mailberichten op te halen:
+Als u te maken hebt met een lijst met waarden die niet is eindig, kunt u de operator gebruiken om alleen de waarden in een grafiek op te geven `Top` in de meeste gevallen. Gebruik de onderstaande query om de tien topdomeinen met de meeste phishing-e-mailberichten op te halen:
 
 ```kusto
 EmailEvents
-| where PhishFilterVerdict == "Phish"
-| summarize Count = count() by SenderFromDomain
+| where ThreatTypes has "Phish" 
+| summarize Count = count() by SenderFromDomain 
 | top 10 by Count
 ```
 Gebruik de weergave cirkeldiagram om effectief de verdeling over de belangrijkste domeinen weer te geven:
 
-![Afbeelding van geavanceerde queryresultaten in een cirkeldiagram waarin de distributie van phishing-e-mailberichten over de domeinen van de ](../../media/advanced-hunting-pie-chart.jpg)
- *belangrijkste afzender wordt weergegeven*
+![Afbeelding van geavanceerde queryresultaten die worden weergegeven als cirkeldiagram cirkeldiagram met de distributie van ](../../media/advanced-hunting-pie-chart.jpg)
+ *phishing-e-mailberichten over topdomeinen van afzenders*
 
 #### <a name="file-activities-over-time"></a>Bestandsactiviteiten in de tijd
 Met de operator voor de functie kunt u controleren op gebeurtenissen met `summarize` een bepaalde indicator in de `bin()` tijd. Met de onderstaande query worden gebeurtenissen met betrekking tot het bestand geteld met intervallen van 30 minuten om pieken weer te geven in activiteit die `invoice.doc` betrekking heeft op dat bestand:
@@ -114,7 +114,7 @@ AppFileEvents
 ```
 In het onderstaande lijndiagram worden perioden duidelijk aangegeven met meer activiteiten met betrekking `invoice.doc` tot: 
 
-![Afbeelding van geavanceerde queryresultaten in een lijndiagram met het aantal gebeurtenissen voor een bestand ](../../media/advanced-hunting-line-chart.jpg)
+![Afbeelding van geavanceerde queryresultaten die worden weergegeven als lijndiagram met het aantal gebeurtenissen voor een bestand ](../../media/advanced-hunting-line-chart.jpg)
  *in de tijd*
 
 
@@ -127,7 +127,7 @@ Nadat u een query hebt uitgevoerd, **selecteert u Exporteren om** de resultaten 
 ## <a name="drill-down-from-query-results"></a>Inzoomen op queryresultaten
 Als u snel een record in de queryresultaten wilt controleren, selecteert u de bijbehorende rij om het **deelvenster Record controleren te** openen. In het deelvenster wordt de volgende informatie weergegeven op basis van de geselecteerde record:
 
-- **Activa:** samengevatte weergave van de belangrijkste activa (postvakken, apparaten en gebruikers) die in de record zijn gevonden, die worden uitgebreid met beschikbare informatie, zoals risico- en blootstellingsniveaus
+- **Activa:** een samengevatte weergave van de belangrijkste activa (postvakken, apparaten en gebruikers) die in de record zijn gevonden en die worden uitgebreid met beschikbare informatie, zoals risico- en blootstellingsniveaus.
 - **Processtructuur:** gegenereerd voor records met procesinformatie en wordt gebruikt met behulp van beschikbare contextuele informatie; In het algemeen kunnen query's die meer kolommen retourneren resulteren in uitgebreidere procesbomen.
 - **Alle details:** alle waarden uit de kolommen in de record  
 
@@ -147,7 +147,7 @@ Klik met de rechtermuisknop op een waarde in de resultatenset om uw query snel t
 ## <a name="filter-the-query-results"></a>De queryresultaten filteren
 De rechts weergegeven filters geven een overzicht van de resultatenset. Elke kolom heeft een eigen sectie met de unieke waarden die voor die kolom zijn gevonden en het aantal exemplaren.
 
-Verfijn uw query door de (knoppen) te selecteren op de waarden die u wilt opnemen of uitsluiten en selecteer `+` `-` vervolgens Query **uitvoeren.**
+Verfijn uw query door de knoppen (of knoppen) te selecteren voor de waarden die u wilt opnemen of uitsluiten en selecteer `+` `-` vervolgens Query **uitvoeren.**
 
 ![Afbeelding van geavanceerd zoekfilter](../../media/advanced-hunting-filter.png)
 

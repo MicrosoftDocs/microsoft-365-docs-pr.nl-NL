@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Uitleg over het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
-ms.openlocfilehash: f57d220eb77a783de5ac352f3cf684364252a163
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 555dfa7d76335a3b943e860e5f41ed64c9d3e874
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975875"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50596978"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen 
 
@@ -66,7 +66,25 @@ U kunt documentbegripmodellen toepassen op SharePoint-documentbibliotheken waart
 
 Formulierverwerkingsmodellen kunnen momenteel alleen worden toegepast op de SharePoint-documentbibliotheek waarin u ze hebt gemaakt. Hierdoor krijgen gebruikers met een licentie toegang tot de site om een formulierverwerkingsmodel te maken. De beheerder moet de formulierverwerking inschakelen voor een SharePoint-documentbibliotheek, zodat deze functie beschikbaar is voor gebruikers met een licentie.
 
- ## <a name="see-also"></a>Zie ook
+## <a name="comparison-of-forms-processing-and-document-understanding"></a>Vergelijking van formulierverwerking en documentbegrip
+
+Gebruik de volgende tabel als u wilt weten wanneer u formulierverwerking moet gebruiken en wanneer u documentbegrip moet gebruiken:
+
+| Functie | Formulierverwerking | Documentbegrip |
+| ------- | ------- | ------- |
+| Modeltype: wanneer gebruikt u welk type | Wordt gebruikt voor gedeeltelijk gestructureerde bestandsindelingen, bijvoorbeeld Office-documenten met verschillen in de indeling, maar waaruit nog steeds vergelijkbare informatie moet worden geëxtraheerd. | Wordt gebruikt voor niet-gestructureerde bestandsindelingen, zoals pdf-bestanden voor formulierinhoud zoals facturen of inkooporders met een vergelijkbare indeling en opmaak. |
+| Het maken van het model | Het model wordt in AI Builder gemaakt met naadloze toegang vanuit de SharePoint-documentbibliotheek.| Het model wordt in de oorspronkelijke interface gemaakt en ingebouwd in het Inhoudscentrum van SharePoint.|
+| Classificatietype| Stel een classificatie in waarbij machinaal leren wordt gebruikt om aan het systeem aanwijzingen te geven over welke gegevens er moeten worden geëxtraheerd.| Te trainen classificatie met optionele extractoren die machinaal leren gebruiken om de documentlocatie toe te wijzen over te extraheren gegevens.|
+| Locaties | Beperkt tot één documentbibliotheek, tenzij u Power Platform gebruikt om uit CDS op te halen.| Kan worden toegepast op meerdere bibliotheken.|
+| Ondersteunde bestandstypen| Trainen op pdf-, JPG-, PNG-indeling, totaal 50 MB en 500 pagina's.| Trainen op 5 tot 10 pdf-, Office- of e-mailbestanden, inclusief negatieve voorbeelden.<br>Office-bestanden worden afgekapt bij 64.000 tekens. Gescande OCR-bestanden zijn beperkt tot 20 pagina's.|
+| Integreren met beheerde metagegevens | Nee | Ja, via instellingen voor kolommen in documentbibliotheek voorafgaand aan het trainingsmodel.|
+| Integratie van compliancefunctie wanneer Microsoft-gegevensbescherming is ingeschakeld | Bewaarlabels instellen.<br>Gevoeligheidslabels instellen komt nog. | Bewaarlabels instellen.<br>Gevoeligheidslabels instellen komt nog. |
+| Ondersteunde regio's| Formulierverwerking is afhankelijk van Power Platform. Raadpleeg voor meer informatie over wereldwijde beschikbaarheid van Power Platform en AI Builder [Beschikbaarheid van Power Platform](https://dynamics.microsoft.com/geographic-availability/). | Beschikbaar in alle regio's.|
+| Transactiekosten | Maakt gebruik van AI Builder-credits.<br>Tegoeden zijn te koop in partijen van 1 miljoen.<br>1 miljoen credits zijn inbegrepen wanneer u meer dan 300 SharePoint Syntex-licenties aanschaft.<br>Met 1 miljoen credits kunnen 2.000 bestandspagina's worden verwerkt.| N.v.t. |
+| Capaciteit | Ingericht voor de standaardomgeving van Common data service.| Geen capaciteitsbeperkingen.|
+| Ondersteunde talen| Engels <br>Later in 2021: Spaans, Duits, Frans, Italiaans| Modellen werken met alle talen met het Latijnse alfabet. Behalve Engels: Duits, Zweeds, Frans, Spaans, Italiaans en Portugees.|
+
+## <a name="see-also"></a>Zie ook
 [Training: zakelijke prestaties verbeteren met AI-Builder](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
 
 

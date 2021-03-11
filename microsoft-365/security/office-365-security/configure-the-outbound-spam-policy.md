@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van uitgaande spambeleidsregels in Exchange Online Protection (EOP).
+description: Beheerders kunnen in Exchange Online Protection (EOP) lezen hoe ze uitgaande spambeleidsregels kunnen weergeven, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b8c330e84716c455fa1f4759c82109ec59a3fc9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 748b274903590c5e28f34ce2fb4e65292d382cd2
+ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406490"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50717629"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaande spamfilters configureren in EOP
 
@@ -35,13 +35,13 @@ ms.locfileid: "50406490"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken worden uitgaande e-mailberichten die via EOP worden verzonden, automatisch gecontroleerd op spam en ongebruikelijke verzendingsactiviteiten.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken worden uitgaande e-mailberichten die via EOP worden verzonden, automatisch gecontroleerd op spam en ongebruikelijke verzendende activiteiten.
 
 Uitgaande spam van een gebruiker in uw organisatie duidt meestal op een gekromd account. Verdachte uitgaande berichten worden gemarkeerd als spam (ongeacht het betrouwbaarheidsniveau voor spam of SCL) en worden omgeleid via de bezorgingsgroep met hoog risico om de reputatie van de service te helpen beschermen (dat wil zeggen: zorg dat de bron-e-mailservers van Microsoft 365 niet op [ip-blokkeerlijsten](high-risk-delivery-pool-for-outbound-messages.md) staan). Beheerders worden automatisch op de hoogte gesteld van verdachte uitgaande e-mailactiviteit en geblokkeerde gebruikers via [waarschuwingsbeleid.](../../compliance/alert-policies.md)
 
 EOP maakt gebruik van uitgaand spambeleid als onderdeel van de algehele verdediging van spam in uw organisatie. Zie [Bescherming tegen antispam](anti-spam-protection.md) voor meer informatie.
 
-Beheerders kunnen het standaardbeleid voor uitgaande spam bekijken, bewerken en configureren (maar niet verwijderen). Voor een grotere granulatie kunt u ook aangepast beleid voor uitgaande spam maken dat van toepassing is op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
+Beheerders kunnen het standaardbeleid voor uitgaande spam weergeven, bewerken en configureren (maar niet verwijderen). Voor een grotere granulatie kunt u ook aangepast beleid voor uitgaande spam maken dat van toepassing is op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
 U kunt uitgaand spambeleid configureren in het beveiligings- &-compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
@@ -54,7 +54,7 @@ Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande sp
 
 - Wanneer u een beleid maakt, maakt u tegelijkertijd een uitgaande spamfilterregel en het bijbehorende beleid voor uitgaand spamfilter met dezelfde naam voor beide.
 - Wanneer u een beleid wijzigt, worden instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld, en de geadresseerdefilters de regel voor het uitgaande spamfilter gewijzigd. Alle andere instellingen wijzigen het bijbehorende uitgaande spamfilterbeleid.
-- Wanneer u een beleid verwijdert, worden de uitgaande spamfilterregel en het bijbehorende uitgaande spamfilterbeleid verwijderd.
+- Wanneer u een beleid verwijdert, worden de regel voor het filteren van uitgaande spam en het bijbehorende uitgaande spamfilterbeleid verwijderd.
 
 In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie Exchange Online PowerShell of de zelfstandige [EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) gebruiken om uitgaande spambeleidsregels verderop in dit artikel te configureren.
 
@@ -72,24 +72,24 @@ Als u uitgaande spamfilters effectiever wilt maken, kunt u aangepaste beleidsreg
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- U moet machtigingen toegewezen krijgen in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
-  - Als u uitgaande spambeleidsregels wilt toevoegen, wijzigen **en** verwijderen, moet u lid zijn van de rollengroepen **Organisatiebeheer** of Beveiligingsbeheerder.
+- U moet over toegewezen machtigingen beschikken in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
+  - Als u uitgaande spambeleidsregels wilt toevoegen, wijzigen en verwijderen, moet  u lid zijn van de rollengroepen **Organisatiebeheer** of Beveiligingsbeheerder.
   - Voor alleen-lezen toegang tot uitgaand spambeleid moet u  lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
-  Zie Machtigingen [in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+  Zie [Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
   **Opmerkingen**:
 
-  - Als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol  in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Zie de instellingen voor uitgaand spamfilterbeleid voor EOP voor de aanbevolen instellingen voor uitgaand [spambeleid.](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings)
 
-- Het [](../../compliance/alert-policies.md) standaardbeleid voor waarschuwingen met de naam Verzenden per  e-mail is **overschreden,** patronen voor verdachte e-mails verzenden gedetecteerd, en Gebruikers die het verzenden van e-mail beperken, verzenden van e-mailmeldingen al naar leden van de groep **TenantAdmins** **(globale** beheerders) over ongebruikelijke uitgaande e-mailactiviteit en geblokkeerde gebruikers vanwege uitgaande spam.  Zie De [waarschuwingsinstellingen voor gebruikers met beperkingen controleren voor meer informatie.](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users) U wordt aangeraden dit waarschuwingsbeleid te gebruiken in plaats van de meldingsopties voor uitgaande spam.
+- Het [](../../compliance/alert-policies.md) standaardbeleid voor waarschuwingen met de naam Verzenden per  e-mail is **overschreden,** patronen voor verdachte e-mails verzenden gedetecteerd en Gebruikers die het verzenden van e-mail beperken, verzenden van e-mailmeldingen al naar leden van de groep **TenantAdmins** **(globale** beheerders) over ongebruikelijke uitgaande e-mailactiviteit en geblokkeerde gebruikers vanwege uitgaande spam.  Zie De [waarschuwingsinstellingen voor gebruikers met beperkingen controleren voor meer informatie.](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users) U wordt aangeraden dit waarschuwingsbeleid te gebruiken in plaats van de meldingsopties voor uitgaande spam.
 
 ## <a name="use-the-security--compliance-center-to-create-outbound-spam-policies"></a>Het beveiligings- & voor het maken van uitgaand spambeleid
 
-Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancecentrum, worden de regel voor het filteren van ongewenste e-mail en het bijbehorende spamfilterbeleid op hetzelfde moment met dezelfde naam voor beide gemaakt.
+Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancecentrum, worden de spamfilterregel en het bijbehorende spamfilterbeleid op hetzelfde moment met dezelfde naam voor beide gemaakt.
 
 1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
 
@@ -120,7 +120,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancec
 
         Herhaal deze stappen zo vaak als nodig is.
 
-        De geadresseerden die u hebt toegevoegd, worden weergegeven in **de sectie Adressenlijst** in de flyout. Als u een geadresseerde wilt verwijderen, klikt ![ u op de knop ](../../media/scc-remove-icon.png) Verwijderen.
+        De geadresseerden die u hebt toegevoegd, worden weergegeven in **de sectie Adressenlijst** op de flyout. Als u een geadresseerde wilt verwijderen, klikt ![ u op de knop ](../../media/scc-remove-icon.png) Verwijderen.
 
      1. Klik op **Opslaan** wanneer u gereed bent.
 
@@ -141,7 +141,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancec
 
    - **Maximum aantal geadresseerden per gebruiker**
 
-     Een geldige waarde is 0 tot 10000. De standaardwaarde is 0, wat betekent dat de standaardinstellingen van de service worden gebruikt. Zie Limieten voor [verzenden voor meer informatie.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
+     Een geldige waarde is 0 tot 10.000. De standaardwaarde is 0, wat betekent dat de standaardinstellingen van de service worden gebruikt. Zie Limieten voor [verzenden voor meer informatie.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
 
      - **Externe uurlimiet:** het maximum aantal externe geadresseerden per uur.
 
@@ -149,7 +149,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancec
 
      - **Daglimiet:** het maximum aantal geadresseerden per dag.
 
-   - **Actie wanneer een gebruiker de bovenstaande limieten** overschrijdt: Configureer de actie die moet worden ondernomen wanneer een van de limieten voor **geadresseerden** wordt overschreden. Voor alle acties geldt dat de  geadresseerden die zijn opgegeven in de Gebruiker, geen e-mailwaarschuwingsbeleid kunnen verzenden (en in het nu redundante hiervan specifieke personen op de hoogte stellen als een afzender is geblokkeerd vanwege het verzenden van uitgaande spam in het uitgaande **spambeleid,** e-mailmeldingen ontvangen.
+   - **Actie wanneer een gebruiker de bovenstaande limieten** overschrijdt: Configureer de actie die moet worden ondernomen wanneer een van de limieten voor **geadresseerden** wordt overschreden. Voor alle acties geldt dat de  geadresseerden die zijn opgegeven in de Gebruiker, het beleid voor e-mailwaarschuwingen niet kunnen verzenden (en specifieke personen op de hoogte stellen als een afzender is geblokkeerd vanwege het verzenden van uitgaande spam in het beleid voor uitgaande **spam),** e-mailmeldingen ontvangen.
 
      - **De gebruiker beperken tot het verzenden van e-mail tot** de volgende dag: dit is de standaardwaarde. Er worden e-mailmeldingen verzonden en de gebruiker kan de volgende dag op basis van UTC-tijd geen berichten meer verzenden. De beheerder kan dit blok niet overschrijven.
 
@@ -159,11 +159,11 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancec
 
        - De gebruiker kan de volgende dag op basis van de tijd van UTC geen berichten meer verzenden. De beheerder kan dit blok niet overschrijven.
 
-     - De gebruiker beperken van het verzenden van e-mail: e-mailmeldingen worden verzonden, de gebruiker wordt toegevoegd aan de portal **[Beperkte gebruikers] <https://sip.protection.office.com/restrictedusers>** in het beveiligings- &-compliancecentrum en de gebruiker kan pas e-mail verzenden als de gebruiker door een beheerder uit de **portal** voor beperkte gebruikers is verwijderd. Nadat een beheerder de gebruiker uit de lijst heeft verwijderd, wordt de gebruiker die dag niet opnieuw beperkt. Zie Een gebruiker verwijderen uit de portal voor beperkte gebruikers na het verzenden [van ongewenste e-mail voor instructies.](removing-user-from-restricted-users-portal-after-spam.md)
+     - De gebruiker beperken van het verzenden van e-mail: e-mailmeldingen worden verzonden, de gebruiker wordt toegevoegd aan de portal **[Beperkte gebruikers] <https://sip.protection.office.com/restrictedusers>** in het beveiligings- &-compliancecentrum en de gebruiker kan pas e-mail verzenden als de gebruiker door een beheerder uit de **portal** voor beperkte gebruikers is verwijderd. Nadat een beheerder de gebruiker uit de lijst heeft verwijderd, wordt de gebruiker die dag niet opnieuw beperkt. Zie Een gebruiker verwijderen uit de portal voor beperkte gebruikers na het verzenden van [ongewenste e-mail voor instructies.](removing-user-from-restricted-users-portal-after-spam.md)
 
      - **Geen actie, alleen waarschuwing:** e-mailmeldingen worden verzonden.
 
-6. (Optioneel) Vouw **de sectie Automatisch doorsturen uit** om het automatisch doorsturen van e-mail door gebruikers naar externe afzenders te bepalen. Zie Automatische doorsturen van [externe e-mail instellen in Microsoft 365 voor meer informatie.](external-email-forwarding.md)
+6. (Optioneel) Vouw **de sectie Automatisch doorsturen uit** om het automatisch doorsturen van e-mail door gebruikers naar externe afzenders te bepalen. Zie Automatische doorsturen van [externe e-mail instellen in Microsoft 365](external-email-forwarding.md)voor meer informatie.
 
    > [!NOTE]
    >
@@ -171,7 +171,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancec
    >
    > - Deze instellingen gelden alleen voor postvakken in de cloud.
    >
-   > - Als automatisch doorsturen is uitgeschakeld, ontvangt de geadresseerde een rapport over niet-bezorging (ook wel een NDR of niet-bezorgdbericht genoemd) als externe afzenders e-mail verzenden naar een postvak waarin doorsturen is gemaakt. Als het bericht wordt verzonden door een interne afzender en de methode voor doorsturen postvak doorsturen [is](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (ook wel _SMTP-doorsturen_ genoemd), krijgt de interne afzender de NDR.  De interne afzender krijgt geen NDR als het doorsturen is veroorzaakt door een regel voor Postvak IN.
+   > - Als automatisch doorsturen is uitgeschakeld, ontvangt de geadresseerde een rapport over niet-bezorging (ook wel een NDR of niet-bezorgdbericht genoemd) als externe afzenders e-mail verzenden naar een postvak waarin doorsturen is gebruikt. Als het bericht wordt verzonden door een interne afzender en de doorsturenmethode bestaat uit het doorsturen van postvakken [(ook](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) wel _SMTP-doorsturen_ genoemd), krijgt de interne afzender de NDR.  De interne afzender krijgt geen NDR als het doorsturen is veroorzaakt door een regel voor Postvak IN.
 
    De beschikbare waarden zijn:
 
@@ -179,7 +179,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancec
    - **In:** automatisch extern doorsturen van e-mail wordt niet uitgeschakeld door het beleid.
    - **Uit:** alle automatische externe doorsturen van e-mail wordt uitgeschakeld door het beleid.
 
-7. (Vereist) Vouw de **sectie Toegepast op** uit om de interne afzenders te identificeren waar het beleid op van toepassing is.
+7. (Vereist) Vouw de **sectie Toegepast op** uit om de interne afzenders te identificeren op wie het beleid van toepassing is.
 
     U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<sender1\>_ of _\<sender2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<sender1\>_ en _\<member of group 1\>_).
 
@@ -195,7 +195,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancec
 
 8. Klik op **Opslaan** wanneer u gereed bent.
 
-## <a name="use-the-security--compliance-center-to-view-outbound-spam-policies"></a>Het beveiligings- & compliancecentrum gebruiken om uitgaand spambeleid weer te geven
+## <a name="use-the-security--compliance-center-to-view-outbound-spam-policies"></a>Het beveiligings- & voor het bekijken van uitgaand spambeleid
 
 1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
 
@@ -221,7 +221,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligings- & compliancec
 
 Voor aangepast uitgaand spambeleid zijn de beschikbare instellingen in de flyout die wordt weergegeven identiek aan de instellingen die worden beschreven in het [beveiligings- &-compliancecentrum](#use-the-security--compliance-center-to-create-outbound-spam-policies) om de sectie Uitgaand spambeleid te maken.
 
-Voor het standaard uitgaande spambeleid, het filterbeleid voor **uitgaande spam,** is de sectie Toegepast op niet beschikbaar (het beleid geldt voor iedereen) en kunt u de naam van het beleid niet wijzigen. 
+Voor het standaard beleid voor uitgaande spam,  het filterbeleid voor **uitgaande spam,** is de sectie Toegepast op niet beschikbaar (het beleid geldt voor iedereen) en kunt u de naam van het beleid niet wijzigen.
 
 Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van beleid te wijzigen of de quarantaine-meldingen van eindgebruiker configureren.
 
@@ -229,7 +229,7 @@ Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van bel
 
 1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
 
-2. Klik op **de pagina Antispaminstellingen** op het pictogram Uitviekken om een aangepast beleid dat u hebt gemaakt uit te vouwen (de waarde in de kolom Type is Aangepast ![ uitgaande ](../../media/scc-expand-icon.png) **spambeleid).** 
+2. Klik op **de pagina Antispaminstellingen** op het pictogram Uitviekken om een aangepast beleid dat u hebt gemaakt uit te vouwen (de waarde in de kolom Type is Aangepast ![ beleid voor uitgaande ](../../media/scc-expand-icon.png) **spam).** 
 
 3. Let op de waarde in de kolom **Aan** in de uitgebreide beleidsgegevens die worden weergegeven.
 
@@ -243,7 +243,7 @@ U kunt het standaardbeleid voor uitgaande spam niet uitschakelen.
 
 Standaard krijgen uitgaande spambeleidsregels een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Aangepaste uitgaande spambeleidsregels worden weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaardbeleid voor uitgaande spam met de naam **Uitgaand spamfilterbeleid** heeft de prioriteit laagste waarde **en** u kunt dit niet wijzigen.
+Aangepaste uitgaande spambeleidsregels worden weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid **heeft** de prioriteitswaarde 0). Het standaardbeleid voor uitgaande spam met de naam  **Uitgaand spamfilterbeleid** heeft de laagste prioriteit en u kunt dit niet wijzigen.
 
 Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden verplaatsen in de lijst (u kunt het **Prioriteit** snummer in het Beveiligings en compliancecentrum niet rechtstreeks wijzigen).
 
@@ -273,7 +273,7 @@ U kunt het standaardbeleid niet verwijderen.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om uitgaand spambeleid te configureren
 
-Zoals eerder beschreven bestaat een uitgaand spambeleid uit een uitgaand spamfilterbeleid en een regel voor het filteren van uitgaande spam.
+Zoals eerder is beschreven, bestaat een uitgaand spambeleid uit een beleid voor een uitgaande spamfilter en een regel voor het filteren van uitgaande spam.
 
 In Exchange Online PowerShell of zelfstandige EOP PowerShell is het verschil tussen beleidsregels voor uitgaande spamfilters en regels voor uitgaande spamfilters duidelijk. U beheert beleidsregels voor uitgaande spamfilters met behulp van de cmdlets **\* -HostedOutboundSpamFilterPolicy** en u beheert regels voor uitgaande spamfilters met behulp van de cmdlets **\* -HostedOutboundSpamFilterRule.**
 
@@ -295,7 +295,7 @@ Het maken van een uitgaand spambeleid in PowerShell bestaat uit twee stappen:
 - U kunt de volgende instellingen configureren voor nieuw beleid voor uitgaande spamfilters in PowerShell die pas beschikbaar zijn in het beveiligings- & compliancecentrum nadat u het beleid hebt gemaakt:
 
   - Het nieuwe beleid maken dat is uitgeschakeld _(ingeschakeld_ op de `$false` cmdlet **New-HostedOutboundSpamFilterRule).**
-  - De prioriteit van het beleid instellen tijdens het maken _(Prioriteit)_ _\<Number\>_ op de cmdlet **New-HostedOutboundSpamFilterRule).**
+  - De prioriteit van het beleid instellen tijdens het maken _(prioriteit)_ _\<Number\>_ op de cmdlet **New-HostedOutboundSpamFilterRule).**
 
 - Een nieuw uitgaand spamfilterbeleid dat u in PowerShell maakt, is pas zichtbaar in het beveiligings- & compliancecentrum wanneer u het beleid toewijst aan een spamfilterregel.
 
@@ -329,12 +329,11 @@ New-HostedOutboundSpamFilterRule -Name "<RuleName>" -HostedOutboundSpamFilterPol
 
 In dit voorbeeld wordt een nieuwe uitgaande spamfilterregel gemaakt met de naam Contoso-leidinggevenden met de volgende instellingen:
 
-- Het uitgaande spamfilterbeleid met de naam Contoso Leidinggevenden is aan de regel gekoppeld.
-
+- Het beleid van het uitgaande spamfilter met de naam Contoso Leidinggevenden wordt aan de regel gekoppeld.
 - De regel is van toepassing op leden van de groep met de naam Contoso Executives Group.
 
 ```PowerShell
-New-HostedOutboundSpamFilterRule -Name "Contoso Executives" -HostedOutboundSpamFilterPolicy "Contoso Executives" -SentToMemberOf "Contoso Executives Group"
+New-HostedOutboundSpamFilterRule -Name "Contoso Executives" -HostedOutboundSpamFilterPolicy "Contoso Executives" -FromMemberOf "Contoso Executives Group"
 ```
 
 Zie [New-HostedOutboundSpamFilterRule voor](https://docs.microsoft.com/powershell/module/exchange/new-hostedoutboundspamfilterrule)gedetailleerde syntaxis- en parameterinformatie.
@@ -347,7 +346,7 @@ Voer deze opdracht uit om een overzichtslijst met alle uitgaande spamfilterbelei
 Get-HostedOutboundSpamFilterPolicy
 ```
 
-Gebruik de volgende syntaxis om gedetailleerde informatie over een specifiek beleid voor een uitgaand spamfilter te retourneren:
+Gebruik de volgende syntaxis om gedetailleerde informatie over een specifiek beleid voor uitgaand spamfilter te retourneren:
 
 ```PowerShell
 Get-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" | Format-List [<Specific properties to view>]
@@ -385,7 +384,7 @@ Get-HostedOutboundSpamFilterRule -State Disabled
 Get-HostedOutboundSpamFilterRule -State Enabled
 ```
 
-Gebruik de volgende syntaxis om gedetailleerde informatie over een specifieke regel voor een uitgaand spamfilter te retourneren:
+Gebruik deze syntaxis als u gedetailleerde informatie wilt retourneren over een specifieke regel voor een uitgaand spamfilter:
 
 ```PowerShell
 Get-HostedOutboundSpamFilterRule -Identity "<RuleName>" | Format-List [<Specific properties to view>]
@@ -432,7 +431,7 @@ Zie [Set HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/mod
 
 Door een uitgaande spamfilterregel in PowerShell in of uit te schakelen, schakelt u het hele uitgaande spambeleid (de regel voor het uitgaande spamfilter en het toegewezen uitgaande spamfilterbeleid) in of uit. U kunt het standaardbeleid voor uitgaande spam niet in- of uitschakelen (dit wordt altijd toegepast op alle geadresseerden).
 
-Gebruik de volgende syntaxis om een uitgaande regel voor het filteren van ongewenste e-mail in PowerShell in of uit te schakelen:
+Gebruik de volgende syntaxis om een regel voor een uitgaand spamfilter in PowerShell in of uit te schakelen:
 
 ```PowerShell
 <Enable-HostedOutboundSpamFilterRule | Disable-HostedOutboundSpamFilterRule> -Identity "<RuleName>"
@@ -470,7 +469,7 @@ Set-HostedOutboundSpamFilterRule -Identity "Marketing Department" -Priority 2
 
 > [!NOTE]
 >
-> - Als u de prioriteit van een nieuwe regel wilt instellen wanneer u deze maakt, gebruikt u in plaats daarvan de parameter _Prioriteit_ op de cmdlet **New-HostedOutboundSpamFilterRule.**
+> - Als u de prioriteit van een nieuwe regel wilt instellen wanneer u deze maakt, gebruikt u in plaats daarvan de parameter _Prioriteit_ op de cmdlet **New HostedOutboundSpamFilterRule.**
 >
 > - Het uitgaande standaardfilterbeleid voor ongewenste e-mail heeft geen bijbehorende regel voor het filteren van ongewenste e-mail en heeft altijd de onmodifabele prioriteit **Laagste.**
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cccbd268c8f69d6623df1ef4c8208d20ead2e9f5
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: e54a6dce9765a8b87fcf2f63bbd1342beabdcf39
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145293"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712460"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -38,17 +38,17 @@ ms.locfileid: "50145293"
 De `DeviceFileEvents` tabel in het geavanceerde [zoekschema](advanced-hunting-overview.md) bevat informatie over het maken, wijzigen en andere gebeurtenissen in het bestandssysteem. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing in het beveiligingscentrum.
 
-Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
+Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
 | `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
 | `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van de computer |
-| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal voor](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) meer informatie |
-| `FileName` | tekenreeks | Naam van het bestand waar de opgenomen actie op is toegepast |
+| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor meer informatie |
+| `FileName` | tekenreeks | De naam van het bestand waar de opgenomen actie op is toegepast |
 | `FolderPath` | tekenreeks | Map met het bestand waar de opgenomen actie op is toegepast |
 | `SHA1` | tekenreeks | SHA-1 van het bestand waar de opgenomen actie op is toegepast |
 | `SHA256` | tekenreeks | SHA-256 van het bestand waar de opgenomen actie op is toegepast. Dit veld wordt meestal niet ingevuld. Gebruik indien beschikbaar de kolom SHA1. |
@@ -57,7 +57,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `FileOriginReferrerUrl` | tekenreeks | URL van de webpagina met een koppeling naar het gedownloade bestand |
 | `FileOriginIP` | tekenreeks | IP-adres waar het bestand is gedownload |
 | `PreviousFolderPath` | tekenreeks | Oorspronkelijke map met het bestand voordat de opgenomen actie werd toegepast |
-| `PreviousFileName` | tekenreeks | Oorspronkelijke naam van het bestand dat door de actie een andere naam heeft gegeven |
+| `PreviousFileName` | tekenreeks | Oorspronkelijke naam van het bestand dat is hernoemd als gevolg van de actie |
 | `FileSize` | lang | Grootte van het bestand in bytes |
 | `InitiatingProcessAccountDomain` | tekenreeks | Het domein van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountName` | tekenreeks | Gebruikersnaam van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
@@ -71,7 +71,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `InitiatingProcessId` | int | Proces-id (PID) van het proces dat de gebeurtenis heeft gestart |
 | `InitiatingProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt voor het uitvoeren van het proces waarmee de gebeurtenis is gestart |
 | `InitiatingProcessCreationTime` | datetime | Datum en tijd waarop het proces voor het starten van de gebeurtenis is gestart |
-| `InitiatingProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus hebben invloed op machtigingen voor resources |
+| `InitiatingProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
 | `InitiatingProcessTokenElevation` | tekenreeks | Tokentype dat de aanwezigheid of afwezigheid aangeeft van UAC-bevoegdheden (User Access Control) die zijn toegepast op het proces waarmee de gebeurtenis is gestart |
 | `InitiatingProcessParentId` | int | Proces-id (PID) van het bovenliggende proces dat het proces heeft geleid dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessParentFileName` | tekenreeks | Naam van het bovenliggende proces dat het proces heeft geleid dat verantwoordelijk is voor de gebeurtenis |
@@ -86,13 +86,13 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp. |
 | `AppGuardContainerId` | tekenreeks | Id voor de gevirtualiseerde container die door Application Guard wordt gebruikt om browseractiviteit te isoleren |
 | `AdditionalFields` | tekenreeks | Aanvullende informatie over de entiteit of gebeurtenis |
-| `InitiatingProcessFileSize` | lang | Grootte van het bestand dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `InitiatingProcessFileSize` | lang | Grootte van het bestand met het proces dat verantwoordelijk is voor de gebeurtenis |
 | `SensitivityLabel` | tekenreeks | Label dat wordt toegepast op een e-mailbericht, bestand of andere inhoud om deze te classificeren ter bescherming van gegevens |
 | `SensitivitySubLabel` | tekenreeks | Sublabel dat wordt toegepast op een e-mailbericht, bestand of andere inhoud om deze te classificeren ter bescherming van gegevens; gevoeligheidssublabels worden gegroepeerd onder gevoeligheidslabels, maar worden onafhankelijk behandeld |
-| `IsAzureInfoProtectionApplied` | boolean | Geeft aan of het bestand is versleuteld door Azure Information Protection |
+| `IsAzureInfoProtectionApplied` | booleaanse | Geeft aan of het bestand is versleuteld door Azure Information Protection |
 
 >[!NOTE]
-> Hash-gegevens van bestanden worden altijd weergegeven wanneer deze beschikbaar zijn. Er zijn echter verschillende mogelijke redenen waarom een SHA1, SHA256 of MD5 niet kan worden berekend. Het bestand kan zich bijvoorbeeld op afstand bevinden, zijn vergrendeld door een ander proces, gecomprimeerd of gemarkeerd als virtueel. In deze scenario's wordt de hash-informatie van het bestand leeg weergegeven.
+> Hash-gegevens van bestanden worden altijd weergegeven wanneer deze beschikbaar zijn. Er zijn echter verschillende mogelijke redenen waarom een SHA1, SHA256 of MD5 niet kan worden berekend. Het bestand kan zich bijvoorbeeld bevinden in externe opslag, vergrendeld door een ander proces, gecomprimeerd of gemarkeerd als virtueel. In deze scenario's wordt de hash-informatie van het bestand leeg weergegeven.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

@@ -5,7 +5,7 @@ author: msfttracyp
 manager: dansimp
 ms.date: 08/13/2020
 audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -13,15 +13,15 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties en meer. Begrijp wat u hebt en hoe u uw eigenschappen kunt beveiligen.
+description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties, en meer. Begrijp wat u hebt en hoe u uw eigenschappen kunt beveiligen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cbe95946ab7214efded8feca39578c364b948df0
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: e1c6e768098cd59892c2572fb52497c873aef1a3
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287899"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711938"
 ---
 # <a name="office-365-security-overview"></a>Beveiligingsoverzicht van Office 365
 
@@ -44,7 +44,7 @@ Elk Office 365-abonnement heeft beveiligingsmogelijkheden. De doelen en acties d
 1. Microsoft Defender voor Office 365 Abonnement 2 (Defender voor Office P2)
 
 > [!NOTE]
-> Als u uw abonnement hebt gekocht en nu beveiligingsfuncties moet uitrollen, gaat u verder met de stappen in het artikel [Beveiligen tegen](protect-against-threats.md) bedreigingen. Als u nog niet bekend bent met uw abonnement en uw licentie wilt weten voordat u begint, bladert u naar Facturering > Uw producten in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/AdminPortal/#/homepage)
+> Als u uw abonnement hebt gekocht en nu beveiligingsfuncties moet uitrollen, gaat u verder met de stappen in het artikel [Protect Against Threats.](protect-against-threats.md) Als u nog niet bekend bent met uw abonnement en uw licentie wilt weten voordat u begint, bladert u naar Facturering > Uw producten in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/AdminPortal/#/homepage)
 
 Office 365-beveiligings builds op basis van de basisbeveiligingen die door EOP worden aangeboden. EOP is aanwezig in elk abonnement waarin Exchange Online-postvakken kunnen worden gevonden (vergeet niet dat alle beveiligingsproducten die hier worden besproken, het Cloud-product zijn).
 
@@ -52,7 +52,7 @@ Mogelijk bent u gewend om deze drie onderdelen op deze manier te bespreken:
 
 |EOP|Microsoft Defender voor Office 365 P1|Microsoft Defender voor Office 365 P2|
 |---|---|---|
-|Hiermee voorkomt u algemene, volumegebaseerde, bekende aanvallen.|Beschermt e-mail en samenwerking tegen nuldags malware, phish en zakelijke e-mailcompromitteerd.|Voegt onderzoek na inbreuk, zoeken en antwoorden toe, evenals automatisering en automatisering (voor training).|
+|Voorkomt algemene, volumegebaseerde, bekende aanvallen.|Beschermt e-mail en samenwerking tegen nuldags malware, phish en zakelijke e-mailcompromitteerd.|Voegt onderzoek na inbreuken, zoeken en antwoorden toe, evenals automatisering en automatisering (voor training).|
 |
 
 Maar laten we wat betreft de architectuur eerst elk stukje als cumulatieve beveiligingslagen zien, met elk extra nadruk op de beveiliging. Meer:
@@ -61,11 +61,11 @@ Maar laten we wat betreft de architectuur eerst elk stukje als cumulatieve bevei
 
 :::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="EOP en Microsoft Defender voor Office 365 en hun relaties met elkaar benadrukken de service, waaronder een notitie voor e-mailverificatie.":::
 
-Hoewel elk van deze services een doel benadrukt tussen beveiligen, detecteren, onderzoeken en reageren,***** alle _ de services *_kunnen_* worden uitgevoerd _ elk * van de doelen voor beveiligen, detecteren, onderzoeken en beantwoorden.
+Hoewel elk van deze services een doel benadrukt tussen beveiligen, detecteren, onderzoeken en reageren,**kunnen*** alle _ de services *_alle_** van de doelen voor beveiligen, detecteren, onderzoeken en beantwoorden uitvoeren.
 
 De kern van de Office 365-beveiliging is EOP-beveiliging. Microsoft Defender voor Office 365 P1 bevat EOP. Defender voor Office 365 P2 bevat P1 en EOP. De structuur is cumulatief. Daarom moet u bij het configureren van dit product beginnen met EOP en werken met Defender voor Office 365.
 
-Hoewel de configuratie van e-mailverificatie plaatsvindt in openbare DNS, is het belangrijk dat u deze functie configureert om u te helpen beschermen tegen spoofing. *Als u EOP hebt,* ***moet u [e-mailverificatie configureren.](email-validation-and-authentication.md)***
+Hoewel de configuratie van e-mailverificatie plaatsvindt in openbare DNS, is het belangrijk dat u deze functie configureert om u te helpen beschermen tegen spoofing. *Als u EOP hebt, moet* ***u [e-mailverificatie configureren.](email-validation-and-authentication.md)***
 
 Als u een Office 365 E3 of lager hebt, hebt u EOP, maar kunt u een zelfstandige Defender voor Office 365 P1 kopen via de upgrade. Als u Office 365 E5 hebt, hebt u al Defender voor Office 365 P2.
 
@@ -117,7 +117,7 @@ Winsten met **Defender voor Office 365, Abonnement 2** (tot nu toe):
 
 Microsoft Defender voor Office 365 P2  breidt het onderzoek en de reactie van het huis uit en voegt een nieuwe zoeksterkte toe. Automatisering.
 
-In Microsoft Defender voor Office 365 P2  wordt het primaire hulpprogramma voor zoeken Bedreigingsverkenner genoemd in plaats van realtime detecties. Als u Bedreigingsverkenner ziet wanneer u naar het beveiligingscentrum navigeert, gebruikt u Microsoft Defender voor Office 365 P2.
+In Microsoft Defender voor Office 365 P2  wordt het primaire hulpprogramma voor zoeken Bedreigingsverkenner genoemd in plaats van realtime detecties. Als u Bedreigingsverkenner ziet wanneer u naar het beveiligingscentrum navigeert, werkt u in Microsoft Defender voor Office 365 P2.
 
 Ga naar dit artikel voor meer informatie over Microsoft Defender voor Office 365 P1 **[en](office-365-atp.md)** P2.
 
@@ -144,9 +144,9 @@ Deze snelzoekbalk helpt u inzicht te krijgen in de mogelijkheden die elk Microso
 - Als Microsoft Defender voor Office 365 niet is opgenomen in uw huidige abonnement en u dit wilt, neemt u [contact](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)op met Verkoop om een proefabonnement te starten en te ontdekken hoe Microsoft Defender voor Office 365 kan werken in uw organisatie.
 
 > [!TIP]
-> ***Insider-tip** _. U kunt de inhoudsopgave docs.microsoft.com informatie over EOP en Microsoft Defender voor Office 365. Ga terug naar deze pagina, [Office 365-beveiligingsoverzicht,](index.md)en u ziet dat de organisatie van de inhoudsopgave in de zijbalk staat. De toepassing begint met de implementatie (inclusief migratie) en gaat vervolgens verder met preventie, detectie, onderzoek en antwoorden. <p> Deze structuur is zo verdeeld dat onderwerpen over _ *Beveiligingsbeheer** worden gevolgd door **onderwerpen over** beveiligingsbewerkingen. Als u een nieuw lid van een functie bent, gebruikt u de koppeling in deze tip en uw kennis van de inhoudsopgave om de ruimte beter te leren leren. Vergeet niet om *feedbackkoppelingen en* *beoordeelartikelen te* gebruiken terwijl u al aan het werk bent. Feedback helpt ons bij het verbeteren van wat we u bieden.
+> ***Insider-tip** _. U kunt de inhoudsopgave docs.microsoft.com informatie over EOP en Microsoft Defender voor Office 365. Ga terug naar deze pagina, [Office 365-beveiligingsoverzicht,](index.md)en u ziet dat de organisatie van de inhoudsopgave in de zijbalk staat. De toepassing begint met de implementatie (inclusief migratie) en gaat vervolgens verder met preventie, detectie, onderzoek en antwoorden. <p> Deze structuur is zo verdeeld dat onderwerpen over _ *Beveiligingsbeheer** worden gevolgd door **onderwerpen over** beveiligingsbewerkingen. Als u een nieuw lid van een functie bent, gebruikt u de koppeling in deze tip en uw kennis van de inhoudsopgave om meer te weten te komen over de ruimte. Vergeet niet om *feedbackkoppelingen en* *beoordelen-artikelen* te gebruiken terwijl u er bent. Feedback helpt ons bij het verbeteren van wat we u bieden.
 
-## <a name="where-to-go-next"></a>Waar moet ik nu naartoe gaan
+## <a name="where-to-go-next"></a>Volgende waar u naartoe kunt gaan
 
 Als u een beveiligingsbeheerder bent, moet u mogelijk DKIM of DMARC configureren voor uw e-mail. Mogelijk wilt u strikte beveiligingsinstellingen voor uw prioriteitsgebruikers uitrollen of op zoek gaan naar nieuwe functies in het product. Als u met Security Ops werkt, kunt u gebruikmaken van realtime detecties of Bedreigingsverkenner om dit te onderzoeken en te beantwoorden, of de detectie voor eindgebruikers trainen met Attack Simulator. Hier volgen enkele aanvullende aanbevelingen voor de volgende stap.
 

@@ -1,7 +1,7 @@
 ---
 title: Tabel EmailPostDeliveryEvents in het geavanceerde schema voor zoeken
 description: Meer informatie over acties na de bezorging van Microsoft 365-e-mailberichten in de tabel EmailPostDeliveryEvents van het geavanceerde schema voor zoeken
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware phishing op basis van phishing, attachment attachment count, link count, url count
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware phishing op basis van phishing, attachment count, link count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 774676e15e9018b13674149b6a2e147a91000814
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 6e12ddfc402f1bd420f57369cc6d54f2e670d710
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145497"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712376"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -38,7 +38,7 @@ ms.locfileid: "50145497"
 De tabel in het geavanceerde schema voor zoeken bevat informatie over acties na bezorging die zijn uitgevoerd op e-mailberichten die worden `EmailPostDeliveryEvents` verwerkt door Microsoft 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing in het beveiligingscentrum.
 
 Voor meer informatie over afzonderlijke e-mailberichten kunt u ook de [`EmailEvents`](advanced-hunting-emailevents-table.md) tabellen en de tabellen [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md) [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) gebruiken. Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
@@ -49,7 +49,7 @@ Voor meer informatie over afzonderlijke e-mailberichten kunt u ook de [`EmailEve
 | `InternetMessageId` | tekenreeks | Openbare id voor de e-mail die wordt ingesteld door het verzendende e-mailsysteem |
 | `Action` | tekenreeks | Actie ondernomen op de entiteit |
 | `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd: Handmatige oplossing, Phish ZAP, Malware ZAP |
-| `ActionTrigger` | tekenreeks | Geeft aan of een actie is geactiveerd door een beheerder (handmatig of via goedkeuring van een geautomatiseerde actie in behandeling) of door een speciaal mechanisme, zoals ZAP of Dynamische levering |
+| `ActionTrigger` | tekenreeks | Geeft aan of een actie is geactiveerd door een beheerder (handmatig of via goedkeuring van een geautomatiseerde actie in behandeling) of door een speciaal mechanisme, zoals ZAP of Dynamic Delivery |
 | `ActionResult` | tekenreeks | Resultaat van de actie |
 | `RecipientEmailAddress` | tekenreeks | Het e-mailadres van de geadresseerde of het e-mailadres van de ontvanger na uitbreiding van de distributielijst |
 | `DeliveryLocation` | tekenreeks | Locatie waar de e-mail is bezorgd: Postvak IN/map, On-premises/Extern, Ongewenste e-mail, Quarantaine, Mislukt, Geplaatst, Verwijderde items |

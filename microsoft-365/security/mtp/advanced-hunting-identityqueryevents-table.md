@@ -1,5 +1,5 @@
 ---
-title: De tabel IdentityQueryEvents in het geavanceerde schema voor zoeken
+title: IdentityQueryEvents-tabel in het geavanceerde schema voor zoeken
 description: Meer informatie over Active Directory-querygebeurtenissen in de tabel IdentityQueryEvents van het geavanceerde schema voor zoeken
 keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, IdentityQueryEvents, Azure AD, Active Directory, Azure ATP, identities, LDAP queries
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 48a1520e9fc6239fd3105f01a32a03e5e58df174
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: eb1f408b61444771f5d450b46dbc9c2b4a009e4c
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145282"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712328"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -38,7 +38,7 @@ ms.locfileid: "50145282"
 De tabel in het geavanceerde zoekschema bevat informatie over query's die worden uitgevoerd op `IdentityQueryEvents` Active Directory-objecten, zoals gebruikers, groepen, apparaten [](advanced-hunting-overview.md) en domeinen. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing in het beveiligingscentrum.
 
 Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
@@ -62,7 +62,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `Port` | tekenreeks | TCP-poort gebruikt tijdens communicatie |
 | `DestinationDeviceName` | tekenreeks | Naam van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
 | `DestinationIPAddress` | tekenreeks | Het IP-adres van het apparaat met de servertoepassing dat de opgenomen actie heeft verwerkt |
-| `DestinationPort` | tekenreeks | Bestemmingspoort van gerelateerde netwerkcommunicatie |
+| `DestinationPort` | tekenreeks | Doelpoort van gerelateerde netwerkcommunicatie |
 | `TargetDeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van het apparaat waar de opgenomen actie op is toegepast |
 | `TargetAccountUpn` | tekenreeks | UPN (User Principal Name) van het account waar de opgenomen actie op is toegepast |
 | `TargetAccountDisplayName` | tekenreeks | Weergavenaam van het account waar de opgenomen actie op is toegepast |
