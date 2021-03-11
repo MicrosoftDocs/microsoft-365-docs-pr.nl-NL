@@ -48,12 +48,14 @@
       href: billing-and-payments/view-your-bill-or-invoice.md
     - name: Inzicht in uw rekening of factuur
       href: billing-and-payments/understand-your-invoice.md
+    - name: Betalen voor jouw abonnement
+      href: billing-and-payments/pay-for-your-subscription.md
     - name: Betalingswijzen beheren
       href: billing-and-payments/manage-payment-methods.md
-    - name: Betalen voor uw abonnement
-      href: billing-and-payments/pay-for-your-subscription.md
     - name: Factureringsfrequentie wijzigen
       href: billing-and-payments/change-payment-frequency.md
+    - name: Factureringsmeldingen en bijlagen voor facturen beheren
+      href: billing-and-payments/manage-billing-notifications.md
     - name: Inzicht in factureringsprofielen
       href: billing-and-payments/manage-billing-profiles.md
     - name: Uw factuuradressen wijzigen
