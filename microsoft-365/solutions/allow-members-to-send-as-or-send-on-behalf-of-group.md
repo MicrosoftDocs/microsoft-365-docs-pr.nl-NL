@@ -1,5 +1,5 @@
 ---
-title: Toestaan dat leden namens een groep verzenden of verzenden
+title: Toestaan dat leden verzenden als of verzenden namens een groep
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -16,69 +16,71 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
-description: Lees hoe u leden toestaat e-mail te verzenden als een Microsoft 365-groep of e-mail te verzenden namens een groep Microsoft 365.
-ms.openlocfilehash: 6dff559eceec1b719f31d577d7fff8f604636a47
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+description: Meer informatie over het toestaan dat groepsleden e-mail verzenden als een Microsoft 365-groep of e-mail verzenden namens een Microsoft 365-groep.
+ms.openlocfilehash: 44a0a7a690c8faa9fe00732e8154f36aa5a6fe6f
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663581"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727077"
 ---
-# <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Toestaan dat leden namens een groep verzenden of verzenden
+# <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Toestaan dat leden verzenden als of verzenden namens een groep
 
-Een lid van een Microsoft 365-groep aan wie de machtiging **verzenden als** of **Verzenden namens** is toegewezen, kan e-mail verzenden als de groep of namens de groep. In dit artikel wordt uitgelegd hoe u een globale beheerder of Exchange-beheerder deze machtigingen kunt instellen.
+Een lid van een Microsoft 365-groep  die machtigingen voor Verzenden **als** of Namens verzenden heeft gekregen, kan e-mail verzenden als de groep of namens de groep. (Gasten in de groep kunnen deze machtigingen niet krijgen.)
+
+In dit artikel wordt uitgelegd hoe een globale of Exchange-beheerder deze machtigingen kan instellen.
   
-Als Megan Bowen deel uitmaakt van de groep **training** microsoft 365 en als ze een e-mailbericht **verzendt als de** groep, ziet het er als volgt uit: de **trainings** groep stuurt de e-mail. 
+Als Megan Bowen bijvoorbeeld deel uitmaakt van de **groep** Training  Microsoft 365 en heeft verzenden als machtigingen voor de  groep, lijkt het erop dat de groep Training de e-mail heeft verzonden als ze een e-mailbericht verzendt als de groep. 
   
-Met de machtiging **Verzenden namens** kan een gebruiker e-mail verzenden namens een groep microsoft 365. Als Alex Wilber een onderdeel is van de groep **marketing** microsoft 365 en de machtiging **Verzenden namens** en een e-mailbericht verzendt als de groep, ziet de e-mail eruit alsof de E-mail is verzonden door **Alex Wilber namens marketing**.
+Met **de machtiging Namens verzenden** kan een gebruiker e-mail verzenden namens een Microsoft 365-groep. Als Alex Wilber bijvoorbeeld deel uitmaakt van de **groep Marketing** Microsoft  365 en machtigingen voor Verzenden namens heeft en een e-mailbericht als de groep verzendt, ziet het eruit alsof het e-mailbericht is verzonden door **Alex Wilber** namens Marketing.
 
 > [!IMPORTANT]
-> U kunt **verzenden als** of **Verzenden namens** configureren voor een bepaalde gebruiker, maar niet beide. Als u beide configureert, wordt het standaard **bericht verzonden als**.
+> U kunt Verzenden **als of** Verzenden namens een bepaalde gebruiker **configureren,** maar niet beide. Als u beide configureert, wordt deze standaard ingesteld op **Verzenden als**.
 
 > [!TIP]
 > Zie [E-mail verzenden vanuit of namens een Microsoft 365-groep](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) voor meer informatie over het gebruik van Outlook en de webversie van Outlook om e-mail te verzenden vanuit een groep.
     
-## <a name="allow-members-to-send-email-as-a-group"></a>Toestaan dat leden e-mail verzenden als groep
+## <a name="allow-members-to-send-email-as-a-group"></a>Toestaan dat leden e-mail verzenden als een groep
 
-In deze sectie wordt uitgelegd hoe u gebruikers kunt toestaan e-mail te verzenden als een groep in het [Exchange-Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2059104) in Exchange Online.
+In deze sectie wordt uitgelegd hoe gebruikers e-mail kunnen verzenden als een groep in het [Exchange-beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2059104) (EAC) in Exchange Online.
   
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange Admin Center</a>naar groepen met **geadresseerden** \> .
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">het Exchange-beheercentrum</a>naar **Geadresseerdengroepen.** \> 
     
-2. Selecteer **bewerkings** ![ pictogram bewerken ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) voor de groep die u wilt toestaan dat gebruikers verzenden als.   
+2. Selecteer **Groepspictogram** ![ Bewerken bewerken in de groep die u wilt toestaan dat gebruikers verzenden ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) als.   
     
 3. Selecteer **delegering van groepen**.
     
-4. Selecteer in de sectie **verzenden als** het **+** teken om de gebruikers toe te voegen die u als de groep wilt verzenden. 
+4. Selecteer in **de sectie Verzenden als** het teken om de gebruikers toe te voegen die u als groep wilt **+** verzenden. 
     
-    ![Schermafbeelding van het dialoogvenster verzenden als](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
+    ![Schermafbeelding van het dialoogvenster Verzenden als](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
-5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan**.
+5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan.**
     
-    ![Typ om te zoeken of selecteer een gebruiker in de lijst](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    ![Typ om een gebruiker in de lijst te zoeken of te kiezen](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
   
-## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>Toestaan dat leden e-mail verzenden namens een groep
+## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>Leden toestaan e-mail te verzenden namens een groep
 
-In deze sectie wordt uitgelegd hoe u gebruikers kunt toestaan e-mail te verzenden namens een groep in het Exchange-Beheercentrum in Exchange Online.
+In deze sectie wordt uitgelegd hoe gebruikers e-mail kunnen verzenden namens een groep in het Exchange-beheercentrum (EAC) in Exchange Online.
   
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange Admin Center</a>naar groepen met **geadresseerden** \> .
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">het Exchange-beheercentrum</a>naar **Geadresseerdengroepen.** \> 
     
-2. Selecteer **bewerkings** ![ pictogram bewerken ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) voor de groep die u wilt toestaan dat gebruikers verzenden als. 
+2. Selecteer **Groepspictogram** ![ Bewerken bewerken in de groep die u wilt toestaan dat gebruikers verzenden ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) als. 
     
 3. Selecteer **delegering van groepen**.
     
-4. Selecteer in de sectie verzenden namens het **+** teken om de gebruikers toe te voegen die u als de groep wilt verzenden. 
+4. Selecteer in de sectie Namens verzenden het teken om de gebruikers toe te voegen **+** die u als groep wilt verzenden. 
     
-    ![Schermafbeelding van het dialoogvenster Verzenden namens](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
+    ![Schermafbeelding van verzenden namens dialoogvenster](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
-5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan**.
+5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan.**
     
-    ![Typ om te zoeken of selecteer een gebruiker in de lijst](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    ![Typ om een gebruiker in de lijst te zoeken of te kiezen](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Uw plan voor samenwerking maken](collaboration-governance-first.md)
+[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
 [Meer informatie over Microsoft 365-groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
