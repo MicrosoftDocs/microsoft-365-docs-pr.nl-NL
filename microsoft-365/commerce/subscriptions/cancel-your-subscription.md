@@ -8,23 +8,24 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom:
+- AdminSurgePortfolio
 - commerce
-ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Lees hoe u uw proefabonnement op Microsoft 365 voor Bedrijven of een betaald abonnement opZegt.
+description: Lees hoe u uw proefabonnement of betaald abonnement op Microsoft 365 voor Bedrijven kunt opzeggen.
 ms.date: ''
-ms.openlocfilehash: 5d96b541030646668f636ee09cc3ccc4b43ef75a
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
-ms.translationtype: MT
+ms.openlocfilehash: 45e953fd415bb2d508554b47fb3226dcae74cb6b
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233338"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741399"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -35,110 +36,110 @@ ms.locfileid: "50233338"
 
 ::: moniker-end
 
-*Geschiktheid:* Als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement op elk moment online opzeggen in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties hebt toegewezen aan gebruikers, kunt u deze beperken tot minder dan 25 of bellen met ondersteuning om [uw abonnement te annuleren.](../../admin/contact-support-for-business-products.md)
+*Komt in aanmerking?:* als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement op elk moment online annuleren in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties hebt toegewezen aan gebruikers, kunt u dit beperken tot minder dan 25 of [kunt u de ondersteuning bellen om uw abonnement op te zeggen](../../admin/contact-support-for-business-products.md).
 
-*Terugbetaling:* Een tegoed naar rekening wordt aan u geretourneerd in de volgende factureringscyclus.
+*Restitutie:* een eventueel tegoed naar rato wordt aan u terugbetaald in de volgende factureringscyclus.
 
 > [!NOTE]
-> Als u meerdere abonnementen op hetzelfde product hebt, zoals Microsoft 365 Business Premium, heeft het annuleren van een van deze abonnementen geen invloed op de gekochte licenties of services binnen de andere abonnementen.
+> Als u meerdere abonnementen op hetzelfde product hebt, zoals Microsoft 365 Business Premium, heeft het annuleren van een van deze abonnementen geen gevolgen voor de gekochte licenties of services binnen de andere abonnementen.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit artikel uit te voeren. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-## <a name="steps-to-cancel-your-subscription"></a>Stappen voor het opzeggen van uw abonnement
+## <a name="steps-to-cancel-your-subscription"></a>Stappen om uw abonnement op te zeggen
 
-Als u uw eigen domeinnaam hebt toegevoegd voor gebruik met uw abonnement, moet u het domein verwijderen voordat u uw abonnement opzegt. Zie Een domein verwijderen [voor meer informatie.](../../admin/get-help-with-domains/remove-a-domain.md)
+Als u uw eigen domeinnaam hebt toegevoegd om te gebruiken met uw abonnement, moet u het domein verwijderen voordat u uw abonnement opzegt. Zie [Een domein verwijderen](../../admin/get-help-with-domains/remove-a-domain.md) voor meer informatie.
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de **pagina** Uw producten factureren \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"></a> en selecteer het **tabblad** Producten.
-2. Zoek het abonnement dat u wilt opzeggen. Selecteer **Meer acties** (drie puntjes) en selecteer Abonnement **annuleren.**
-3. Kies in **het deelvenster** Abonnement annuleren een reden waarom u wilt opzeggen. Geef desgewenst feedback.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Uw producten</a> en selecteer vervolgens het tabblad **Producten**.
+2. Kies het abonnement dat u wilt annuleren. Selecteer **Meer acties** (drie puntjes) en selecteer **Abonnement annuleren**.
+3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback.
 4. Kies **Opslaan**.
 
-Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op [Microsoft 365](what-if-my-subscription-expires.md) voor Bedrijven afloopt voor meer informatie over wat u kunt verwachten als een betaald abonnement op Microsoft 365 voor Bedrijven wordt geannuleerd?
+Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie over wat u kunt verwachten wanneer een betaald Microsoft 365 voor Bedrijven-abonnement is geannuleerd.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
 
-2. Selecteer een **abonnement op de** pagina Abonnementen.
+2. Selecteer een abonnement op de pagina **Abonnementen**.
 
-3. Selecteer Abonnement **annuleren in** het menu **Meer acties.**
+3. Kies in het menu **Meer acties** de optie **Abonnement annuleren**.
 
-    ![Close up of the More Actions menu.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![Close-up van het menu Meer acties.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
-4. Bekijk de belangrijke datums, geef feedback over waarom u wilt annuleren en selecteer **Vervolgens Abonnement annuleren.**
+4. Bekijk de belangrijke datums, geef aan waarom u wilt annuleren en kies vervolgens **Abonnement annuleren**.
 
-    Uw abonnement wordt nu weergegeven met **de status Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op [Microsoft 365](what-if-my-subscription-expires.md) voor Bedrijven afloopt voor meer informatie over wat u kunt verwachten als een betaald abonnement op Microsoft 365 voor Bedrijven wordt geannuleerd?
+    Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie over wat u kunt verwachten wanneer een betaald Microsoft 365 voor Bedrijven-abonnement is geannuleerd.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
 
-2. Selecteer een **abonnement op de** pagina Abonnementen.
+2. Selecteer een abonnement op de pagina **Abonnementen**.
 
-3. Selecteer Abonnement **annuleren in** het menu **Meer acties.**
+3. Kies in het menu **Meer acties** de optie **Abonnement annuleren**.
 
-    ![Close up of the More Actions menu.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![Close-up van het menu Meer acties.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
-4. Bekijk de belangrijke datums, geef feedback over waarom u wilt annuleren en selecteer **Vervolgens Abonnement annuleren.**
+4. Bekijk de belangrijke datums, geef aan waarom u wilt annuleren en kies vervolgens **Abonnement annuleren**.
 
-    Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op [Microsoft 365](what-if-my-subscription-expires.md) voor Bedrijven afloopt voor meer informatie over wat u kunt verwachten als een betaald abonnement op Microsoft 365 voor Bedrijven wordt geannuleerd?
+    Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie over wat u kunt verwachten wanneer een betaald Microsoft 365 voor Bedrijven-abonnement is geannuleerd.
 
 ::: moniker-end
 
-## <a name="what-happens-when-you-cancel-a-subscription"></a>Wat gebeurt er wanneer u een abonnement opzegt?
+## <a name="what-happens-when-you-cancel-a-subscription"></a>Wat gebeurt er wanneer u een abonnement annuleert
 
-Als u een abonnement opzegt vóór het einde van de periode, wordt de status van het abonnement direct overge stappen naar de status Uitgeschakeld. Voor de meeste abonnementen, in de meeste landen en regio's, duurt de status Uitgeschakeld negentig dagen. Beheerders kunnen nog steeds gegevens voor hun organisatie openen en er een back-up van maken terwijl het abonnement de status Uitgeschakeld heeft, maar het is raadzaam dat beheerders een [back-up](back-up-data-before-switching-plans.md) maken van hun gegevens voordat ze een abonnement opzeggen, vooral als dit hun enige abonnement is. Beheerders kunnen het abonnement ook opnieuw activeren terwijl het de status Uitgeschakeld heeft.
+Als u een abonnement voor het einde van de abonnementsperiode opzegt, krijgt het abonnement direct de status Uitgeschakeld. De status Uitgeschakeld duurt voor de meeste abonnementen en in de meeste landen en regio's 90 dagen. Beheerders hebben nog steeds toegang tot gegevens voor hun organisatie en kunnen er een back-up van maken terwijl het abonnement de status Uitgeschakeld heeft. We raden beheerders echter aan [een back-up te maken van hun gegevens](back-up-data-before-switching-plans.md) voordat ze een abonnement opzeggen, met name als dit hun enige abonnement is. Beheerders kunnen het abonnement ook opnieuw activeren als het de status Uitgeschakeld heeft.
 
-Na 90 procent wordt het abonnement overgehaald naar de status Verwijderd. Gegevens die u achterlaat, kunnen na deze 90 dagen worden verwijderd, niet later dan 180 dagen na de opzegging. U kunt een betalingswijze pas verwijderen uit een geannuleerd abonnement nadat deze de status Verwijderd heeft bereikt.
+Na 90 dagen krijgt het abonnement de status Verwijderd. Gegevens die u achterlaat kunnen na die 90 dagen worden verwijderd en zijn 180 dagen na de opzegging verwijderd. U kunt een betalingswijze pas verwijderen uit een geannuleerd abonnement nadat het de status Verwijderd heeft gekregen.
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>Wat u en uw gebruikers kunnen verwachten als u een abonnement opzegt
   
-- **Beheerderstoegang** Beheerders kunnen zich nog steeds aanmelden en toegang krijgen tot het beheercentrum en kunnen zo nodig andere abonnementen kopen. Als globale beheerder of factureringsbeheerder hebt u 90 dagen de tijd om [het abonnement opnieuw te activeren](reactivate-your-subscription.md) met behoud van alle gegevens.
+- **Beheerderstoegang** Beheerders kunnen zich nog steeds aanmelden bij en hebben nog toegang tot het beheercentrum en kunnen zo nodig andere abonnementen kopen. Als globale beheerder of factureringsbeheerder hebt u 90 dagen de tijd om [het abonnement opnieuw te activeren](reactivate-your-subscription.md) met behoud van alle gegevens.
 
-- **Gebruikerstoegang** Uw gebruikers kunnen services zoals OneDrive voor Bedrijven niet gebruiken en hebben geen toegang tot klantgegevens, zoals e-mail of documenten op teamsites. Office-toepassingen, zoals Word en Excel, worden na een tijdje ingesteld op een alleen-lezenmodus met beperkte functionaliteit en [Product zonder licentie-meldingen](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) worden weergegeven.
+- **Gebruikerstoegang** Uw gebruikers kunnen geen services, zoals OneDrive voor Bedrijven, gebruiken en hebben geen toegang meer tot klantgegevens, bijvoorbeeld e-mail of documenten op teamsites. Office-toepassingen, zoals Word en Excel, worden na een tijdje ingesteld op een alleen-lezenmodus met beperkte functionaliteit en [Product zonder licentie-meldingen](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) worden weergegeven.
 
-Zie Wat gebeurt er met mijn gegevens en toegang wanneer mijn [abonnement afloopt?](what-if-my-subscription-expires.md)
+Raadpleeg [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie.
 
 > [!IMPORTANT]
-> Als u uw abonnementsgegevens wilt verwijderen voordat de gebruikelijke uitgeschakelde periode voorbij is, kunt u [uw account sluiten.](../close-your-account.md)
+> Als u uw abonnementsgegevens wilt verwijderen voordat de gebruikelijke Uitgeschakeld-periode voorbij is, kunt u [uw account sluiten](../close-your-account.md).
 
-## <a name="other-steps-you-might-have-to-take"></a>Andere stappen die u mogelijk moet volgen
+## <a name="other-steps-you-might-have-to-take"></a>Andere stappen die u mogelijk moet nemen
 
-### <a name="change-custom-domain-settings"></a>Aangepaste domeininstellingen wijzigen
+### <a name="change-custom-domain-settings"></a>Instellingen voor een aangepast domein wijzigen
 
-Als u een aangepast domein gebruikt met uw abonnement, zijn er een paar extra stappen die u moet doen voordat u uw abonnement kunt opzeggen. Als u geen aangepast domein hebt, kunt u doorgaan met het opslaan [van uw gegevens.](#save-your-data)
+Als u een aangepast domein gebruikt met uw abonnement, moet u enkele extra stappen uitvoeren voordat u uw abonnement kunt opzeggen. Als u geen aangepast domein hebt, kunt u verdergaan met [Uw gegevens opslaan](#save-your-data).
 
-#### <a name="change-your-domain-nameserver-records-if-needed"></a>Uw domeinnaamserverrecords wijzigen (indien nodig)
+#### <a name="change-your-domain-nameserver-records-if-needed"></a>De naamserverrecords van uw domein wijzigen (indien nodig)
 
-Als u een aangepast domein hebt ingesteld, hebt u DNS-records toegevoegd zodat het domein zou werken met Microsoft 365-services. Voordat u uw domein verwijdert, moet u de DNS-records, zoals de MX-record voor uw domein, bijwerken bij uw DNS-host.
+Als u een aangepast domein hebt ingesteld, hebt u DNS-records toegevoegd, zodat het domein zou werken met Microsoft 365-services. Voordat u uw domein verwijdert, moet u de DNS-records, zoals de MX-record van uw domein, bijwerken bij uw DNS-host.
 
-Wijzig bijvoorbeeld de MX-record bij uw DNS-host. E-mail die naar uw domein wordt verzonden, wordt niet meer naar uw Microsoft-adres verzonden en gaat in plaats daarvan naar uw nieuwe e-mailprovider. (Door een MX-record wordt bepaald waarheen e-mail voor uw domein wordt verzonden.)
+Wijzig bijvoorbeeld de MX-record bij uw DNS-host. E-mail die naar uw domein wordt verzonden, komt niet meer naar uw Microsoft-adres en gaat in plaats daarvan naar uw nieuwe e-mailprovider. (Door een MX-record wordt bepaald waarheen e-mail voor uw domein wordt verzonden.)
 
-- Als uw naamserverrecords (NS-records) wijzen naar [Microsoft 365-naamservers,](../../admin/setup/add-domain.md)worden wijzigingen in uw MX-record pas doorgevoerd wanneer u uw NS-records zo wijzigt dat deze naar uw nieuwe DNS-host wijzen (zie stap 2).
+- Als uw naamserverrecords (NS-records) [wijzen naar Microsoft 365-naamservers](../../admin/setup/add-domain.md), worden wijzigingen van uw MX-record pas doorgevoerd nadat u uw NS-records zo hebt gewijzigd dat ze naar uw nieuwe DNS-host wijzen (zie stap 2).
 
-- Voordat u de MX-record bijschakelt, moet u uw gebruikers de datum laten weten waarop u hun e-mail wilt omzetten en de nieuwe e-mailprovider die u wilt gebruiken. Als uw gebruikers hun bestaande Microsoft-e-mail naar de nieuwe provider willen verplaatsen, moeten ze ook extra stappen ondernemen.
+- Voordat u de MX-record bijwerkt, kunt u uw gebruikers de datum laten weten waarop u hun e-mail omzet, en welke e-mailprovider u gaat gebruiken. Als uw gebruikers hun bestaande Microsoft-e-mail willen verplaatsen naar de nieuwe provider, moeten ze extra stappen ondernemen.
 
 - Op de dag dat u de MX-record wijzigt, voert u de rest van de stappen in dit artikel uit.
 
-#### <a name="update-your-domain-mx-and-other-dns-records-if-youre-using-a-custom-domain"></a>Werk uw domein MX en andere DNS-records bij (als u een aangepast domein gebruikt)
+#### <a name="update-your-domain-mx-and-other-dns-records-if-youre-using-a-custom-domain"></a>Werk de MX-record en andere DNS-records van uw domein bij (als u een aangepast domein gebruikt)
 
-Als u tijdens het instellen van uw domein uw naamserverrecords (NS-records) hebt overgezet naar Microsoft 365, moet u uw MX-record en andere DNS-records instellen of bijwerken bij de DNS-host die u wilt gebruiken en vervolgens uw NS-record wijzigen in die DNS-host.
+Als u uw naamserverrecords (NS-records) hebt overgezet naar Microsoft 365 bij het instellen van uw domein, moet u uw MX-record en andere DNS-records instellen of bijwerken bij de DNS-host die u gaat gebruiken en vervolgens uw NS-record wijzigen in die DNS-host.
 
-Als u geen NS-records hebt overschakeld tijdens het instellen van uw domein, gaat uw e-mail direct naar het nieuwe adres wanneer u de MX-record wijzigt.
+Als u geen NS-records hebt overgezet toen u uw domein instelde, wordt uw e-mail meteen naar het nieuwe adres verzonden wanneer u de MX-record wijzigt.
 
-Zie Een domein verwijderen als u uw NS-records [wilt wijzigen.](../../admin/get-help-with-domains/remove-a-domain.md)
+Zie [Domein verwijderen](../../admin/get-help-with-domains/remove-a-domain.md) als u uw NS-records wilt wijzigen.
 
 ### <a name="save-your-data"></a>Uw gegevens opslaan
 
-Wanneer de annulering van kracht wordt, hebben uw gebruikers geen toegang meer tot hun gegevens. Voordat u het abonnement opzegt, moeten ze hun OneDrive voor Bedrijven- of SharePoint Online-bestanden opslaan op een andere locatie. Klantgegevens die u achterlaat, kunnen na 30 dagen worden verwijderd en worden niet later dan 180 dagen na de opzegging verwijderd.
+Wanneer de opzegging van kracht wordt, hebben uw gebruikers geen toegang meer tot hun gegevens. Voordat u het abonnement opzegt, moeten ze hun OneDrive voor Bedrijven- of SharePoint Online-bestanden op een andere locatie opslaan. Klantgegevens die u achterlaat kunnen na 30 dagen worden verwijderd en zijn 180 dagen na de opzegging niet meer beschikbaar.
 
 - Als u e-mail, contactpersonen, taken en agendagegevens naar een ander account wilt verplaatsen, raadpleegt u [E-mail, contactpersonen of agenda exporteren of hiervan een back-up maken naar een PST-bestand van Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 
@@ -146,14 +147,14 @@ Wanneer de annulering van kracht wordt, hebben uw gebruikers geen toegang meer t
 
 ### <a name="uninstall-office-optional"></a>Office verwijderen (optioneel)
 
-Als u uw abonnement hebt geannuleerd [](move-users-different-subscription.md) en gebruikers niet hebt overge zetten naar een ander abonnement met Microsoft 365, wordt Microsoft 365 uitgevoerd in een modus met verminderde functionaliteit. Als dit gebeurt, kunnen gebruikers alleen documenten lezen en afdrukken, en in Microsoft 365-toepassingen worden product zonder [gelicenseerde meldingen weergegeven.](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) Laat uw gebruikers [Office verwijderen](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) van hun computer om verwarring te voorkomen.
+Als u uw abonnement hebt geannuleerd en [gebruikers niet hebt overgezet naar een ander abonnement](move-users-different-subscription.md) met Microsoft 365, wordt Microsoft 365 uitgevoerd in de modus met verminderde functionaliteit. Wanneer dit gebeurt, kunnen gebruikers alleen documenten lezen en afdrukken en worden in Microsoft 365 [Product zonder licentie-meldingen](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) weergegeven. Laat uw gebruikers [Office verwijderen](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) van hun computer om verwarring te voorkomen.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Zie Uw account sluiten als u uw account volledig wilt sluiten [bij](../close-your-account.md)Microsoft.
+Als u uw account bij Microsoft volledig wilt sluiten, gaat u naar [Uw account sluiten](../close-your-account.md).
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
 [Uw abonnement verlengen](renew-your-subscription.md) (artikel)\
 [Uw abonnement opnieuw activeren](reactivate-your-subscription.md) (artikel)\
-[Gebruikers verplaatsen naar een ander abonnement](move-users-different-subscription.md) (artikel)
+[Gebruikers naar een ander abonnement overzetten](move-users-different-subscription.md) (artikel)
