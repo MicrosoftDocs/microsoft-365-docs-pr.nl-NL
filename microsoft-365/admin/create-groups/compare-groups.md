@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Meer informatie over de typen groepen die u kunt gebruiken.
-ms.openlocfilehash: 4cbc7f15632026babec3640f021c09e901ad20b9
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: dfb726fadbfbcf69a8ff57fa3d9025cd8811e617
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925528"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727245"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
@@ -41,7 +41,7 @@ In de sectie **Groepen** van het Microsoft 365-beheercentrum kunt u de volgende 
 
 ## <a name="microsoft-365-groups"></a>Microsoft 365-groepen
 
-Microsoft 365-groepen worden gebruikt voor samenwerking tussen gebruikers, zowel binnen als buiten uw bedrijf. Met elke Microsoft 365-groep ontvangen leden een groeps-e-mail en een gedeelde werkruimte voor gesprekken, bestanden, agenda-items en een planner.
+Microsoft 365-groepen worden gebruikt voor samenwerking tussen gebruikers, zowel binnen als buiten uw bedrijf. Met elke Microsoft 365-groep ontvangen leden een groeps-e-mail en een gedeelde werkruimte voor gesprekken, bestanden, agenda-items, Stream en Planner.
 
 U kunt personen buiten uw organisatie toevoegen aan een groep zolang dit is [ingeschakeld door de beheerder](manage-guest-access-in-groups.md). U kunt ook externe afzenders toestemming geven e-mail te verzenden naar het groeps-e-mailadres.
 
