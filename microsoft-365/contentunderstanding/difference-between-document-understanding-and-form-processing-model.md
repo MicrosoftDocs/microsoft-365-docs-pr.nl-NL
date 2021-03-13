@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Uitleg over het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
-ms.openlocfilehash: 555dfa7d76335a3b943e860e5f41ed64c9d3e874
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: a50941ec117480be586ba828e7b49c4a88a310ab
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50596978"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712292"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen 
 
@@ -72,17 +72,17 @@ Gebruik de volgende tabel als u wilt weten wanneer u formulierverwerking moet ge
 
 | Functie | Formulierverwerking | Documentbegrip |
 | ------- | ------- | ------- |
-| Modeltype: wanneer gebruikt u welk type | Wordt gebruikt voor gedeeltelijk gestructureerde bestandsindelingen, bijvoorbeeld Office-documenten met verschillen in de indeling, maar waaruit nog steeds vergelijkbare informatie moet worden geëxtraheerd. | Wordt gebruikt voor niet-gestructureerde bestandsindelingen, zoals pdf-bestanden voor formulierinhoud zoals facturen of inkooporders met een vergelijkbare indeling en opmaak. |
-| Het maken van het model | Het model wordt in AI Builder gemaakt met naadloze toegang vanuit de SharePoint-documentbibliotheek.| Het model wordt in de oorspronkelijke interface gemaakt en ingebouwd in het Inhoudscentrum van SharePoint.|
-| Classificatietype| Stel een classificatie in waarbij machinaal leren wordt gebruikt om aan het systeem aanwijzingen te geven over welke gegevens er moeten worden geëxtraheerd.| Te trainen classificatie met optionele extractoren die machinaal leren gebruiken om de documentlocatie toe te wijzen over te extraheren gegevens.|
-| Locaties | Beperkt tot één documentbibliotheek, tenzij u Power Platform gebruikt om uit CDS op te halen.| Kan worden toegepast op meerdere bibliotheken.|
+| Modeltype: wanneer gebruikt u welk type | Wordt gebruikt voor niet-gestructureerde bestandsindelingen, zoals pdf-bestanden voor formulierinhoud, zoals facturen of inkooporders met een vergelijkbare indeling en opmaak.  | Wordt gebruikt voor gedeeltelijk gestructureerde bestandsindelingen, bijvoorbeeld Office-documenten met verschillen in de indeling, maar waaruit nog steeds vergelijkbare informatie moet worden geëxtraheerd. |
+| Het maken van het model | Het model wordt in AI Builder gemaakt met naadloze toegang vanuit de SharePoint-documentbibliotheek.| Model is gemaakt in SharePoint op een nieuwe site, het inhoudscentrum. |
+| Classificatietype| Instelbare classificatie wordt gebruikt om het systeem aanwijzingen te geven over welke gegevens er moeten worden geëxtraheerd.| Te trainen classificatie met optionele extractoren die machinaal leren gebruiken om de documentlocatie toe te wijzen over te extraheren gegevens.|
+| Locaties | Getraind voor één documentbibliotheek.| Kan worden toegepast op meerdere bibliotheken.|
 | Ondersteunde bestandstypen| Trainen op pdf-, JPG-, PNG-indeling, totaal 50 MB en 500 pagina's.| Trainen op 5 tot 10 pdf-, Office- of e-mailbestanden, inclusief negatieve voorbeelden.<br>Office-bestanden worden afgekapt bij 64.000 tekens. Gescande OCR-bestanden zijn beperkt tot 20 pagina's.|
-| Integreren met beheerde metagegevens | Nee | Ja, via instellingen voor kolommen in documentbibliotheek voorafgaand aan het trainingsmodel.|
-| Integratie van compliancefunctie wanneer Microsoft-gegevensbescherming is ingeschakeld | Bewaarlabels instellen.<br>Gevoeligheidslabels instellen komt nog. | Bewaarlabels instellen.<br>Gevoeligheidslabels instellen komt nog. |
+| Integreren met beheerde metagegevens | Nee | Ja, door de entiteitsextractor te trainen om te verwijzen naar een geconfigureerd veld met beheerde metagegevens.|
+| Integratie van compliancefunctie wanneer Microsoft-gegevensbescherming is ingeschakeld | Gepubliceerde labels voor retentie instellen.<br>Gevoeligheidslabels instellen komt nog. | Gepubliceerde labels voor retentie instellen.<br>Gevoeligheidslabels instellen komt nog. |
 | Ondersteunde regio's| Formulierverwerking is afhankelijk van Power Platform. Raadpleeg voor meer informatie over wereldwijde beschikbaarheid van Power Platform en AI Builder [Beschikbaarheid van Power Platform](https://dynamics.microsoft.com/geographic-availability/). | Beschikbaar in alle regio's.|
-| Transactiekosten | Maakt gebruik van AI Builder-credits.<br>Tegoeden zijn te koop in partijen van 1 miljoen.<br>1 miljoen credits zijn inbegrepen wanneer u meer dan 300 SharePoint Syntex-licenties aanschaft.<br>Met 1 miljoen credits kunnen 2.000 bestandspagina's worden verwerkt.| N.v.t. |
-| Capaciteit | Ingericht voor de standaardomgeving van Common data service.| Geen capaciteitsbeperkingen.|
-| Ondersteunde talen| Engels <br>Later in 2021: Spaans, Duits, Frans, Italiaans| Modellen werken met alle talen met het Latijnse alfabet. Behalve Engels: Duits, Zweeds, Frans, Spaans, Italiaans en Portugees.|
+| Transactiekosten | Maakt gebruik van AI Builder-credits.<br>Tegoeden zijn te koop in partijen van 1 miljoen.<br>1 miljoen credits zijn inbegrepen wanneer u meer dan 300 SharePoint Syntex-licenties aanschaft.<br>Met 1 miljoen credits kunnen 2.000 bestandspagina's worden verwerkt.<br>| N.v.t. |
+| Capaciteit | Gebruikt de standaard omgeving van Power-platform (aangepaste omgevingen waarin de Dataverse database wordt ondersteund). | Heeft geen capaciteitsbeperkingen.|
+| Ondersteunde talen| Engels <br>Later beschikbaar in 2021: Talen met Latijns alfabet | Modellen werken met alle talen met het Latijnse alfabet. Behalve Engels: Duits, Zweeds, Frans, Spaans, Italiaans en Portugees.|
 
 ## <a name="see-also"></a>Zie ook
 [Training: zakelijke prestaties verbeteren met AI-Builder](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
