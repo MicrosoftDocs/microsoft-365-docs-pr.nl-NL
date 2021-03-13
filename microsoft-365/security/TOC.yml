@@ -53,6 +53,8 @@
               href: mtp/microsoft-365-security-center-mdo.md
             - name: Defender voor Eindpunt omleiden naar Microsoft 365-beveiligingscentrum
               href: mtp/microsoft-365-security-mde-redirection.md
+            - name: Defender voor Office 365 omleiden naar Microsoft 365-beveiligingscentrum
+              href: mtp/microsoft-365-security-mdo-redirection.md
             - name: Preview-functies
               href: mtp/preview.md
             - name: Problemen oplossen
