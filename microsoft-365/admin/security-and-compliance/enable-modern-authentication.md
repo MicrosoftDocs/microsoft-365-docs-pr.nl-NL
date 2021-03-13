@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: Informatie over het instellen van registersleutels om moderne verificatie in te schakelen voor apparaten met Microsoft Office 2013.
-ms.openlocfilehash: 34078291fa237b63c391a7e90ba06ea0085c37cb
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Informatie over het instellen van registersleutels om moderne verificatie in te schakelen voor apparaten waar Microsoft Office 2013 is geïnstalleerd.
+ms.openlocfilehash: 2a4be82328d391db7808cb9197ce259275b567c6
+ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926556"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50758926"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten
 
@@ -45,7 +45,7 @@ Als u moderne verificatie wilt inschakelen voor Windows-apparaten, zoals laptops
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
    
-Nadat u de registersleutels hebt ingesteld, kunt u instellen dat office 2013-apps gebruikmaken van [Multi-Factor Authentication (MFA)](set-up-multi-factor-authentication.md) met Microsoft 365. 
+Nadat u de registersleutels hebt ingesteld, kunt u office 2013-apparaten-apps instellen op meervoudige verificatie [(MFA)](set-up-multi-factor-authentication.md) met Microsoft 365. 
   
 Als u momenteel bent aangemeld met een van de client-apps, moet u zich afmelden en opnieuw aanmelden om de wijziging te effectueren. Anders zijn de MRU- en roaminginstellingen niet beschikbaar tot de ADAL-identiteit is vastgesteld.
   
@@ -60,5 +60,6 @@ Als u moderne verificatie wilt uitschakelen op een apparaat, stelt u de volgende
 ## <a name="related-articles"></a>Verwante artikelen
 [Aanmelden bij Office 2013 met een tweede verificatiemethode](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
 
-  
+[Outlook vraagt om wachtwoord en gebruikt geen moderne verificatie om verbinding te maken met Office 365](https://docs.microsoft.com/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled)
 
+  
