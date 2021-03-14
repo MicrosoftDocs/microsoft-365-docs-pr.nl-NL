@@ -106,6 +106,8 @@
           href: sit-edm-wizard.md
         - name: Wijzig het exacte schema voor gegevensovereenkomst om een configureerbare overeenkomst te gebruiken
           href: sit-modify-edm-schema-configurable-match.md
+        - name: Meldingen maken voor activiteiten met exacte gegevensovereenkomst (preview)
+          href: sit-edm-notifications-activities.md
         - name: Een aangepast type gevoelige informatie maken in het beveiligings- en compliancecentrum
           href: create-a-custom-sensitive-information-type.md
         - name: Een aangepast type gevoelige informatie maken met Windows PowerShell
