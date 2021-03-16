@@ -44,16 +44,18 @@
           href: insider-risk-management.md
         - name: Intern risicobeheer plannen
           href: insider-risk-management-plan.md
-        - name: Aan de slag met instellingen voor interne risico's
-          href: insider-risk-management-settings.md
         - name: Aan de slag met intern risicobeheer
           href: insider-risk-management-configure.md
+        - name: Aan de slag met instellingen voor interne risico's
+          href: insider-risk-management-settings.md
         - name: Intern risicobeleid maken en beheren
           href: insider-risk-management-policies.md
         - name: Waarschuwingen voor insider-risico onderzoeken
           href: insider-risk-management-alerts.md
         - name: Actie ondernemen in het geval van insider-risico
           href: insider-risk-management-cases.md
+        - name: Activiteiten controleren met insider-risico auditlogboek.
+          href: insider-risk-management-audit-log.md
         - name: Gegevens controleren met de Verkenner voor inhoud met insider-risico
           href: insider-risk-management-content-explorer.md
         - name: De werkstroom beheren met het dashboard voor gebruikers
@@ -237,8 +239,12 @@
               href: data-loss-prevention-policies.md
             - name: Meer informatie over preventie van gegevensverlies van eindpunten
               href: endpoint-dlp-learn-about.md
-            - name: Meer informatie over Microsoft 365 preventie van gegevensverlies on-premises scanner (preview)
+            - name: Meer informatie over het standaard preventiebeleid voor gegevensverlies in Microsoft Teams (preview)
+              href: dlp-teams-default-policy.md
+            - name: Meer informatie over de on-premises scanner voor Microsoft 365 preventie van gegevensverlies (preview)
               href: dlp-on-premises-scanner-learn.md
+            - name: Meer informatie over Microsoft compliance-extensie (preview)
+              href: dlp-chrome-learn-about.md
         - name: Aan de slag met DLP
           items:
             - name: Aan de slag met het standaard DLP-beleid
@@ -253,6 +259,8 @@
               href: endpoint-dlp-getting-started.md
             - name: Apparaat-proxy en instellingen voor internetverbinding voor Eindpunt DLP configureren.
               href: endpoint-dlp-configure-proxy.md
+            - name: Aan de slag met Microsoft compliance-extensie (preview)
+              href: dlp-chrome-get-started.md
             - name: DLP-hulpmiddelen en methoden voor het eindpunt voor Windows 10-apparaten
               items:
                 - name: Onboarden hulpmiddelen en methoden voor Windows 10-apparaten
