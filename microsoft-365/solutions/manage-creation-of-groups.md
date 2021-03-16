@@ -1,5 +1,5 @@
 ---
-title: Beheren wie Microsoft 365-groepen kan maken
+title: Beheren wie Microsoft 365-groepen kunnen maken
 f1.keywords: NOCSH
 ms.author: mikeplum
 ms.reviewer: arvaradh
@@ -16,17 +16,17 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
-description: Lees hoe u kunt bepalen welke gebruikers Microsoft 365-groepen kunnen maken.
-ms.openlocfilehash: 3fa430e44c272e5ababbfb0e4befba707c72c1ba
-ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
+description: Lees hoe u kunt bepalen welke gebruikers Microsoft 365 Groepen kunnen maken.
+ms.openlocfilehash: f2d1a2062d43af750a84984aab66329ed6a4db22
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50122382"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50819700"
 ---
-# <a name="manage-who-can-create-microsoft-365-groups"></a>Beheren wie Microsoft 365-groepen kan maken
+# <a name="manage-who-can-create-microsoft-365-groups"></a>Beheren wie Microsoft 365-groepen kunnen maken
 
-Standaard kunnen alle gebruikers Microsoft 365-groepen maken. Dit is de aanbevolen aanpak, omdat gebruikers hierdoor kunnen gaan samenwerken zonder dat de IT-ondersteuning hiervoor nodig is.
+Standaard kunnen alle gebruikers Microsoft 365-groepen maken. Dit is de aanbevolen methode, omdat gebruikers hiermee kunnen samenwerken zonder hulp van IT nodig te hebben.
 
 Als uw bedrijf vereist dat u beperkt wie groepen kan maken, kunt u dit doen door de procedures in dit artikel te volgen. Wanneer u beperkt wie een groep kan maken, is dit van invloed op alle services die afhankelijk zijn van groepen voor toegang, waaronder:
 
@@ -37,25 +37,25 @@ Als uw bedrijf vereist dat u beperkt wie groepen kan maken, kunt u dit doen door
 - Microsoft Stream
 - Planner
 - Power BI (klassiek)
-- Project voor het web / Roadmap
+- Project voor het web / Routekaart
 
-U kunt het maken van Microsoft 365-groepen beperken tot de leden van een bepaalde Microsoft 365-groep of beveiligingsgroep. U kunt dit configureren met Windows PowerShell. In dit artikel worden de benodigde stappen beschreven.
+U kunt het maken van Microsoft 365-groepen beperken tot de leden van een bepaalde Microsoft 365-groep of beveiligingsgroep. Als u dit wilt configureren, gebruikt u Windows PowerShell. In dit artikel worden de benodigde stappen beschreven.
 
-Met de stappen in dit artikel wordt niet voorkomen dat leden met bepaalde rollen groepen kunnen maken. Globale beheerders van Office 365 kunnen groepen maken op elke manier, zoals het Microsoft 365-beheercentrum, Planner, Teams, Exchange en SharePoint Online. Andere rollen kunnen groepen maken via beperkte middelen, zoals hieronder wordt vermeld.
+De stappen in dit artikel voorkomen niet dat leden van bepaalde rollen groepen kunnen maken. Globale beheerders van Office 365 kunnen groepen maken op elke manier, zoals het Microsoft 365-beheercentrum, Planner, Teams, Exchange en SharePoint Online. Andere rollen kunnen Groepen maken via beperkte middelen, hieronder weergegeven.
 
 - Exchange-beheerder: Exchange-beheercentrum, Azure AD
-- Ondersteuning voor partnerlaag 1: Microsoft 365-beheercentrum, Exchange-beheercentrum, Azure AD
-- Ondersteuning voor partnerlaag 2: Microsoft 365-beheercentrum, Exchange-beheercentrum, Azure AD
-- Schrijvers van adreslijst: Azure AD
+- Ondersteuning voor partnerniveau 1: Microsoft 365-beheercentrum, Exchange-beheercentrum, Azure AD
+- Ondersteuning voor partnerniveau 2: Microsoft 365-beheercentrum, Exchange-beheercentrum, Azure AD
+- Adreslijst schrijvers: Azure AD
 - SharePoint-beheerder: SharePoint-beheercentrum, Azure AD
-- Teams-servicebeheerder: Teams-beheercentrum, Azure AD
-- Beheerder gebruikersbeheer: Microsoft 365-beheercentrum, Yammer, Azure AD
+- Teams Service Administrator: Teams Admin center, Azure AD
+- Gebruikerbeheerder: Microsoft 365-beheercentrum, Azure AD
 
-Als u lid bent van een van deze rollen, kunt u Microsoft 365-groepen maken voor beperkte gebruikers en de gebruiker vervolgens toewijzen als de eigenaar van de groep.
+Als u lid bent van een van deze rollen, kunt u Microsoft 365 Groepen maken voor beperkte gebruikers en de gebruiker vervolgens toewijzen als eigenaar van de groep.
 
 ## <a name="licensing-requirements"></a>Licentievereisten
 
-Om te beheren wie groepen maakt, moeten de volgende personen Azure AD Premium-licenties of Azure AD Basic EDU-licenties aan hen toegewezen hebben:
+Als u wilt beheren wie groepen maakt, hebben de volgende personen Azure AD Premium-licenties of Azure AD Basic EDU-licenties nodig die aan hen zijn toegewezen:
 
 - De beheerder die deze instellingen voor het maken van groepen configureert
 - De leden van de groep die groepen mogen maken
@@ -65,7 +65,7 @@ Om te beheren wie groepen maakt, moeten de volgende personen Azure AD Premium-li
 
 De volgende personen hebben geen Azure AD Premium- of Azure AD Basic EDU-licenties nodig die aan hen zijn toegewezen:
 
-- Personen die lid zijn van Microsoft 365-groepen en die niet in staat zijn om andere groepen te maken.
+- Personen die lid zijn van Microsoft 365-groepen en die niet de mogelijkheid hebben om andere groepen te maken.
 
 ## <a name="step-1-create-a-group-for-users-who-need-to-create-microsoft-365-groups"></a>Stap 1: Een groep maken voor gebruikers die Microsoft 365-groepen moeten maken
 
@@ -73,27 +73,27 @@ Slechts één groep in uw organisatie kan worden gebruikt om te bepalen wie groe
 
 Beheerders in de bovenstaande rollen hoeven geen lid te zijn van deze groep: ze behouden hun mogelijkheid om groepen te maken.
 
-1. Ga in het beheercentrum naar de [pagina Groepen.](https://admin.microsoft.com/adminportal/home#/groups)
+1. Ga in het beheercentrum naar de pagina [Groepen.](https://admin.microsoft.com/adminportal/home#/groups)
 
-2. Klik op **Groep toevoegen.**
+2. Klik op **Een groep toevoegen.**
 
-3. Kies het 3D-groepstype. Onthoud de naam van de groep goed. Deze hebt u later nodig.
+3. Kies het groeptype dat u wilt. Onthoud de naam van de groep goed. Deze hebt u later nodig.
 
-4. Rond het instellen van de groep af en voeg personen of andere groepen toe die u in uw organisatie wilt kunnen maken.
+4. Sluit het instellen van de groep af, voeg personen of andere groepen toe die u groepen in uw organisatie wilt kunnen maken.
 
 Zie Een beveiligingsgroep maken, bewerken of verwijderen in het [Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group)voor gedetailleerde instructies.
 
 ## <a name="step-2-run-powershell-commands"></a>Stap 2: PowerShell-opdrachten uitvoeren
 
-U moet de preview-versie van [Azure Active Directory PowerShell for Graph (AzureAD) (modulenaam](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) **AzureADPreview)** gebruiken om de instelling voor gasttoegang op groepsniveau te wijzigen:
+U moet de preview-versie van [Azure Active Directory PowerShell voor Graph (AzureAD) (modulenaam](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) **AzureADPreview)** gebruiken om de instelling voor gasttoegang op groepsniveau te wijzigen:
 
-- Als u nog geen versie van de Azure AD PowerShell-module hebt geïnstalleerd, gaat u naar De [Azure AD-module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true) installeren en volgt u de instructies om de openbare preview-versie te installeren.
+- Zie De [Azure AD-module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true) installeren als u nog geen versie van de Azure AD PowerShell-module hebt geïnstalleerd en volg de instructies voor het installeren van de openbare preview-release.
 
-- Als u de 2.0 algemene beschikbaarheidsversie van de Azure AD PowerShell-module (AzureAD) hebt geïnstalleerd, moet u deze verwijderen door deze uit te zetten in uw PowerShell-sessie en vervolgens de preview-versie te installeren. `Uninstall-Module AzureAD` `Install-Module AzureADPreview`
+- Als u de 2.0 algemene beschikbaarheidsversie van de Azure AD PowerShell-module (AzureAD) hebt geïnstalleerd, moet u deze verwijderen door deze uit te laten lopen in uw PowerShell-sessie en vervolgens de preview-versie te installeren door het uitvoeren `Uninstall-Module AzureAD` `Install-Module AzureADPreview` van .
 
-- Als u de preview-versie al hebt geïnstalleerd, moet u ervoor zorgen dat dit de nieuwste versie `Install-Module AzureADPreview` van deze module is.
+- Als u de preview-versie al hebt geïnstalleerd, moet u ervoor zorgen dat deze de `Install-Module AzureADPreview` nieuwste versie van deze module is.
 
-Kopieer het onderstaande script naar een teksteditor, zoals Kladblok of [de Windows PowerShell ISE.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
+Kopieer het script hieronder naar een teksteditor, zoals Kladblok of [windows PowerShell ISE.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
 Vervang *\<GroupName\>* door de naam van de groep die u hebt gemaakt. Bijvoorbeeld:
 
@@ -101,13 +101,13 @@ Vervang *\<GroupName\>* door de naam van de groep die u hebt gemaakt. Bijvoorbee
 
 Sla het bestand op als GroupCreators.ps1.
 
-Navigeer in het PowerShell-venster naar de locatie waar u het bestand hebt opgeslagen (typ <FileLocation> 'CD').
+Ga in het PowerShell-venster naar de locatie waar u het bestand hebt opgeslagen (typ <FileLocation> 'CD').
 
 Voer het script uit door te typen:
 
 `.\GroupCreators.ps1`
 
-en [meld u aan met uw beheerdersaccount](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) wanneer hier om wordt gevraagd.
+en [meld u aan met uw beheerdersaccount](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) wanneer u daarom wordt gevraagd.
 
 ```PowerShell
 $GroupName = "<GroupName>"
@@ -145,24 +145,24 @@ Op de laatste regel van het script worden de bijgewerkte instellingen weergegeve
 
 Als u in de toekomst wilt wijzigen welke groep wordt gebruikt, kunt u het script opnieuw uitvoeren met de naam van de nieuwe groep.
 
-Als u de beperking voor het maken van groepen wilt uitschakelen en weer wilt toestaan dat alle gebruikers groepen maken, stelt u $GroupName in op '' en $AllowGroupCreation op 'Waar' en voeren u het script opnieuw uit.
+Als u de beperking voor het maken van groepen wilt uitschakelen en alle gebruikers opnieuw groepen wilt toestaan, stelt u $GroupName in op '' en $AllowGroupCreation op 'Waar' en het script opnieuw uitvoeren.
 
 ## <a name="step-3-verify-that-it-works"></a>Stap 3: controleren of het werkt
 
-Het kan dertig minuten of meer duren voordat de wijzigingen van kracht worden. U kunt de nieuwe instellingen als volgt controleren:
+Wijzigingen kunnen dertig minuten of meer duren. U kunt de nieuwe instellingen als volgt controleren:
 
-1. Meld u aan bij Microsoft 365 met een gebruikersaccount van iemand die NIET in staat mag zijn om groepen te maken. Dat wil zeggen dat ze geen lid zijn van de groep die u hebt gemaakt of van een beheerder.
+1. Meld u aan bij Microsoft 365 met een gebruikersaccount van iemand die NIET de mogelijkheid mag hebben om groepen te maken. Dat wil zeggen dat ze geen lid zijn van de groep die u hebt gemaakt of een beheerder.
 
-2. Selecteer de **Planner-tegel.**
+2. Selecteer de **tegel Planner.**
 
-3. Selecteer in Planner **Nieuw plan** in het linkernavigatievenster om een plan te maken.
+3. Selecteer nieuw plan in **de** linkernavigatie om een plan te maken in Planner.
 
-4. Er wordt een bericht weergegeven dat plannen en het maken van groepen zijn uitgeschakeld.
+4. U krijgt een bericht dat het plannen en maken van groepen is uitgeschakeld.
 
 Probeer dezelfde procedure opnieuw met een lid van de groep.
 
 > [!NOTE]
-> Als leden van de groep geen groepen kunnen maken, controleert u of deze niet worden geblokkeerd door hun [OWA-postvakbeleid.](https://go.microsoft.com/fwlink/?linkid=852135)
+> Als leden van de groep geen groepen kunnen maken, controleert u of ze niet worden geblokkeerd via hun [OWA-postvakbeleid.](https://go.microsoft.com/fwlink/?linkid=852135)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -172,7 +172,7 @@ Probeer dezelfde procedure opnieuw met een lid van de groep.
 
 [Getting started with Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
 
-[Selfservice voor groepsbeheer instellen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-self-service-management)
+[Selfservicegroepsbeheer instellen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-self-service-management)
 
 [Set-ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)
 
