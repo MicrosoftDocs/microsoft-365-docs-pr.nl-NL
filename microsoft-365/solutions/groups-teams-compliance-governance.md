@@ -1,5 +1,5 @@
 ---
-title: Nalevings opties voor Microsoft 365 groepen, teams en de samenwerking via SharePoint
+title: Complianceopties voor Microsoft 365-groepen, Teams en SharePoint-samenwerking
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,69 +14,71 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Meer informatie over nalevings opties voor Microsoft 365 groepen, teams en de samenwerking via SharePoint.
-ms.openlocfilehash: e1ca6e638b2d44ae3b04e2a0f13222424e89714d
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+description: Meer informatie over complianceopties voor Microsoft 365-groepen, Teams en SharePoint-samenwerking.
+ms.openlocfilehash: f68381ab45e74b9b7c8f44465387add82bd4150a
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613628"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838649"
 ---
-# <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Nalevings opties voor Microsoft 365 groepen, teams en de samenwerking via SharePoint
+# <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Complianceopties voor Microsoft 365-groepen, Teams en SharePoint-samenwerking
 
-Microsoft 365 biedt een volledige suite met hulpmiddelen waarmee naleving kan worden bijgehouden wanneer gebruikers samenwerken. Bekijk deze opties en kijk hoe ze zijn toegewezen aan uw bedrijfsbehoeften, de gevoeligheid van uw gegevens en het bereik van personen waarmee uw gebruikers kunnen samenwerken.
+Microsoft 365 biedt een volledige reeks hulpprogramma's om naleving te behouden terwijl uw gebruikers samenwerken. Bekijk deze opties en bedenk hoe deze worden toe te schrijven aan uw zakelijke behoeften, de gevoeligheid van uw gegevens en het bereik van personen met wie uw gebruikers moeten samenwerken.
 
-De volgende tabel bevat een beknopt overzicht van de besturingselementen voor naleving die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
+De volgende tabel bevat een beknopt overzicht van de nalevingsbesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
 |Categorie|Beschrijving|Verwijzing|
 |:-------|:----------|:--------|
-|Informatie retentie|||
-||Groepen e-mail en SharePoint-inhoud bewaren|[Meer informatie over bewaarbeleid voor SharePoint en OneDrive](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)|
-||Chatberichten en berichten behouden|[Meer informatie over bewaarbeleid voor Microsoft teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)|
-|Informatie classificatie|||
-||Groepen en teams classificeren|[De beschikbaarheid van labels gebruiken om inhoud te beschermen in Microsoft teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)|
+|Bewaargegevens|||
+||Groepen e-mail en SharePoint-inhoud behouden|[Meer informatie over bewaarbeleid voor SharePoint en OneDrive](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)|
+||Chat en berichten behouden|[Meer informatie over bewaarbeleid voor Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)|
+|Informatieclassificatie|||
+||Groepen en teams classificeren|[Gevoeligheidslabels gebruiken om inhoud in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites te beveiligen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)|
 ||Gevoelige inhoud automatisch classificeren|[Een vertrouwelijkheidslabel automatisch toepassen op inhoud](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)|
 ||Gevoelige inhoud versleutelen|[Toegang tot inhoud beperken door versleuteling toe te passen met vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)|
 |Gegevensbescherming|||
-||Voorkomen dat vertrouwelijke informatie verloren gaat|[Overzicht van preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
-||Beveilig gevoelige informatie in chat.|[Preventie van gegevensverlies en Microsoft teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)|
+||Voorkomen dat gevoelige informatie verloren gaat|[Overzicht van preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
+||Bescherm gevoelige informatie in een chatgesprek.|[Preventie van gegevensverlies en Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)|
 ||De gevoelige informatie van uw organisatie definiëren|[Aangepaste gevoelige informatietypen](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)|
-|Gebruikers segmentatie|||
+|Gebruikerssegmentatie|||
 ||Communicatie tussen gebruikerssegmenten beperken|[Informatiebelemmeringen](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)|
 
-## <a name="information-retention"></a>Informatie retentie
+## <a name="information-retention"></a>Bewaargegevens
 
-Bewaarbeleid is beschikbaar voor het bewaren of verwijderen van items die worden gebruikt voor samenwerking in groepen en teams, inclusief bestanden, berichten en e-mailberichten. Beleidsregels kunnen worden ingesteld op bewaren en wissen, zodat u alleen maar wilt bewaren of verwijderen. Gegevens die betrekking hebben op het bewaarbeleid, zijn beveiligd in het geval dat de groep of het team vervalt of anderszins wordt verwijderd.
+Bewaarbeleid is beschikbaar voor het behouden of verwijderen van items die worden gebruikt voor samenwerking in groepen en teams, zoals bestanden, berichten en e-mail. Beleidsregels kunnen worden ingesteld op behouden en verwijderen, alleen behouden of alleen verwijderen. Gegevens die onder een bewaarbeleid vallen, worden beveiligd als de groep of het team verloopt of anderszins wordt verwijderd.
 
-Als u een bewaarbeleid configureert voor Microsoft 365-groepen, behandelt het postvak van de groep en de bijbehorende SharePoint-site en-bestanden.
+Het configureren van een bewaarbeleid voor Microsoft 365 Groepen heeft betrekking op het groepspostvak en de bijbehorende SharePoint-site en -bestanden.
 
 - [Meer informatie over bewaarbeleid voor SharePoint en OneDrive](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)
 
-Bewaarbeleid voor teams behoudt chat-en kanaalberichten. Wanneer chat-en kanaalberichten zijn opgeslagen in Exchange-postvakken, hebben ze geen invloed op het bewaarbeleid voor Exchange. U moet het bewaarbeleid instellen voor het toepassen van chatberichten en teams-kanaalberichten in teams:
+Bewaarbeleid voor Teams behoudt chat- en kanaalberichten. Hoewel chat- en kanaalberichten worden opgeslagen in Exchange-postvakken, worden deze niet beïnvloed door exchange-bewaarbeleid. U moet uw bewaarbeleid instellen voor Teams-chats en Teams-kanaalberichten. 
 
-- [Meer informatie over bewaarbeleid voor Microsoft teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
+Gebruikerschats worden voor onbepaalde tijd bewaard, zelfs als een gebruikersaccount wordt verwijderd. Als u deze gegevens niet voor onbepaalde tijd wilt bewaren, kunt u overwegen een bewaarbeleid te gebruiken om gebruikerschats na een bepaalde tijd te verwijderen of deze verwijdering op te nemen in het verwijderingsproces van de gebruiker.
 
-- [Bewaarbeleid in Microsoft teams](https://docs.microsoft.com/microsoftteams/retention-policies)
+- [Meer informatie over bewaarbeleid voor Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 
-U kunt één bewaarbeleid instellen voor toepassing op Microsoft 365 groepen, teams chatten en teams-kanaalberichten. 
+- [Bewaarbeleid in Microsoft Teams](https://docs.microsoft.com/microsoftteams/retention-policies)
+
+U kunt één bewaarbeleid instellen voor berichten van Microsoft 365 Groepen, Teams-chat en Teams-kanaalberichten. 
 
 Aanvullende informatiebronnen:
 
 - [Overzicht van bewaarbeleid](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
 
-- [Bewaar Tags en bewaarbeleid](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) in Exchange
+- [Bewaarlabels en bewaarbeleid](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) in Exchange
 
-## <a name="information-classification"></a>Informatie classificatie
+## <a name="information-classification"></a>Informatieclassificatie
 
-U kunt met behulp van behulp van palletlabels de toegang krijgen tot gasttoegang, de privacy van groepen en teams, en door niet-beheerde apparaten voor groepen en teams. Wanneer u het label toepast, worden deze instellingen automatisch geconfigureerd volgens de naam instellingen.
+U kunt gevoeligheidslabels gebruiken voor gasttoegang, groeps- en team privacy en toegang via niet-beheerde apparaten voor groepen en teams. Door het label toe te passen, worden deze instellingen automatisch geconfigureerd volgens de labelinstellingen.
 
-- [De beschikbaarheid van labels gebruiken om inhoud te beschermen in Microsoft teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [Gevoeligheidslabels gebruiken om inhoud in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites te beveiligen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-U kunt Microsoft 365 configureren voor het automatisch toepassen van gevoelige labels op bestanden en e-mailberichten op basis van de criteria die u opgeeft, waaronder het detecteren van gevoelige gegevenstypen of het vergelijken van patronen met Train bare classificaties.
+U kunt Microsoft 365 zo configureren dat gevoeligheidslabels automatisch worden toegepast op bestanden en e-mailberichten op basis van de criteria die u opgeeft, inclusief het detecteren van gevoelige informatietypen of patronen die overeenkomen met trainbare classificaties.
 
 - [Een vertrouwelijkheidslabel automatisch toepassen op inhoud](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)
 
-Met behulp van coderings labels kunt u bestanden versleutelen, zodat alleen personen met machtigingen kunnen worden ontsleuteld en gelezen.
+U kunt gevoeligheidslabels gebruiken om bestanden te versleutelen, zodat alleen personen met machtigingen ze kunnen ontsleutelen en lezen.
 
 - [Toegang tot inhoud beperken door versleuteling toe te passen met vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)
 
@@ -89,34 +91,34 @@ Aanvullende informatiebronnen:
 
 ## <a name="information-protection"></a>Gegevensbescherming
 
-DLP-beleidsregels kunnen voorkomen dat vertrouwelijke gegevens in SharePoint, Exchange en teams met onbedoeld delen worden gedeeld. U kunt beleidsregels maken om te bepalen welke acties worden uitgevoerd (zoals het blokkeren van toegang) op basis van een set regels.
+DLP-beleid kan voorkomen dat gevoelige informatie per ongeluk wordt gedeeld in SharePoint, Exchange en Teams. U kunt beleidsregels maken waarin acties worden opgegeven die moeten worden ondernomen (zoals het blokkeren van toegang) op basis van een set regels.
 
 - [Overzicht van preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
 
-DLP in teams kan u helpen gevoelige informatie in teams-chat en kanaalberichten te beschermen door berichten te verwijderen die gevoelige informatie bevatten.
+DLP in Teams kan helpen bij het beveiligen van gevoelige informatie in Teams-chat- en kanaalberichten door berichten te verwijderen die gevoelige informatie bevatten.
 
-- [Preventie van gegevensverlies en Microsoft teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)
+- [Preventie van gegevensverlies en Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)
 
-Als u gevoelige informatie hebt die uniek is voor uw organisatie, zoals projectcode namen, kunt u uw eigen gevoelige informatie typen maken en deze toepassen op DLP-beleidsregels om inhoud in groepen, teams en SharePoint te beveiligen.
+Als u gevoelige informatie hebt die uniek is voor uw organisatie, zoals projectcodenamen, kunt u uw eigen typen gevoelige informatie maken en deze toepassen op DLP-beleid om inhoud in groepen, teams en Sharepoint te beveiligen.
 
 - [Aangepaste gevoelige informatietypen](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)
 
-## <a name="user-segmentation"></a>Gebruikers segmentatie
+## <a name="user-segmentation"></a>Gebruikerssegmentatie
 
-Met informatie barrières kunt u uw gegevens en gebruikers segmenteren voor het beperken van ongewenste communicatie en samenwerking tussen groepen en de belangen van uw organisatie te voorkomen. Met informatie barrières kunt u beleidsregels maken voor het samenwerken, chatten, bellen of uitnodigingen voor vergaderingen tussen groepen personen binnen uw organisatie.
+Met informatiebarrières kunt u uw gegevens en gebruikers segmenteren om ongewenste communicatie en samenwerking tussen groepen te beperken en conflicten in uw organisatie te voorkomen. Met informatiebarrières kunt u beleidsregels maken om bestandssamenwerking, chatten, bellen of vergaderuitnodigingen tussen groepen personen in uw organisatie toe te staan of te voorkomen.
 
 - [Informatiebelemmeringen](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
 
-- [Informatie belemmeringen voor Microsoft teams](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams)
+- [Informatiebarrières in Microsoft Teams](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams)
 
-- [Informatie barrières met SharePoint gebruiken](https://docs.microsoft.com/sharepoint/information-barriers)
+- [Informatiebarrières gebruiken met SharePoint](https://docs.microsoft.com/sharepoint/information-barriers)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Uw plan voor samenwerking maken](collaboration-governance-first.md)
+[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
 [Beveiliging en naleving voor Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance)
 
-[Informatie beschermen](https://docs.microsoft.com/microsoft-365/compliance/protect-information)
+[Gegevens beveiligen](https://docs.microsoft.com/microsoft-365/compliance/protect-information)

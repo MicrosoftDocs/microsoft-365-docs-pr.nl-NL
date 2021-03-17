@@ -18,89 +18,114 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Ad FS-migratiestappen (Active Directory Federation Services) voor de migratie vanuit Microsoft Cloud Deutschland.'
-ms.openlocfilehash: 030515227f3abdae82736807a01d1691d2d45552
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 852fc8f93158d7b6080f1add5a05e7367539f889
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727465"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838411"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>AD FS-migratiestappen voor de migratie van Microsoft Cloud Deutschland
 
-Deze configuratiewijziging kan op elk moment worden toegepast voordat fase 4 begint.
-Wanneer fase 2 is voltooid, werkt de configuratiewijziging en kunt u zich aanmelden bij globale eindpunten van Office 365, zoals `https://portal.office.com` . Als u de configuratiewijziging implementeert vóór fase 2, werken  de globale eindpunten van Office 365 nog niet, maar maakt het vertrouwen van de nieuwe vertrouwensrelatie van de vertrouwenspartij nog steeds deel uit van uw AD FS-configuratie (Active Directory Federation Services).
+Deze configuratiewijziging moet op elk moment worden toegepast voordat fase 2 begint.
+Wanneer fase 2 is voltooid, werkt de configuratiewijziging en kunt u zich aanmelden via globale eindpunten van Office 365, zoals `https://portal.office.com` . Als u de configuratiewijziging implementeert vóór fase 2, werken  de globale eindpunten van Office 365 nog niet, maar maakt het vertrouwen van de nieuwe vertrouwensrelatie van de vertrouwenspartij nog steeds deel uit van uw AD FS-configuratie (Active Directory Federation Services).
 
-Als u uw AD FS-farm wilt migreren vanuit Microsoft Cloud Deutschland:
+Klanten die federatieverificatie met AD FS (Active Directory Federation Services) gebruiken, mogen tijdens de migratie geen wijzigingen aanbrengen in url's van uitgevende gebruikers die worden gebruikt voor alle verificaties met on-premises Active Directory Domain Services (AD DS). Als u url's voor uitgevende gebruikers verandert, kan dit leiden tot verificatiefouten voor gebruikers in het domein. Url's voor uitgevende uitgevende uri's kunnen  rechtstreeks worden gewijzigd in AD FS of wanneer een domein wordt geconverteerd van beheerd naar _federatief_ en omgekeerd. U wordt aangeraden een federatief domein niet toe te voegen, te verwijderen of te converteren in de Azure AD-tenant die is gemigreerd. U kunt URL's voor uitgevende uri's wijzigen nadat de migratie volledig is voltooid.
 
-1. Met deze stappen maakt u een back-up van uw AD FS-instellingen, inclusief [FF-vertrouwensgegevens.](#backup) Geef de back-up **van Microsoft Cloud Deutschland_Only** om aan te geven dat deze alleen de tenantgegevens van Microsoft Cloud Deutschland heeft.
-2. Test het herstellen met behulp van de Microsoft Cloud Deutschland_Only back-up, de AD FS-farm moet alleen blijven werken als Microsoft Cloud Deutschland.
+Voer de volgende stappen uit om uw AD FS-farm voor te bereiden op de migratie van Microsoft Cloud Deutschland:
+
+1. Een back-up maken van uw AD FS-instellingen, inclusief het bestaande vertrouwen van Microsoft Cloud Deutschland Relying Party, met [deze stappen.](#backup) Geef de back-up **van MicrosoftCloudDeutschlandOnly een** naam om aan te geven dat alleen de tenantgegevens van Microsoft Cloud Deutschland beschikbaar zijn.
+
+   > [!NOTE]
+   > De back-up bevat niet alleen de bestaande Vertrouwensrelatie van Office 365 Relying Party voor Microsoft Cloud Deutschland, maar ook alle andere Vertrouwensrelatie voor afhankelijke partijen die aanwezig zijn op de betreffende AD FS-farm.
+
+2. Test het herstel met behulp van de MicrosoftCloudDeutschlandOnly-back-up, de AD FS-farm moet alleen blijven werken als Microsoft Cloud Deutschland.
 
 Nadat u de AD FS-back-up hebt voltooid en getest, voert u de volgende stappen uit om een nieuwe vertrouwensrelatie van een vertrouwenspartij toe te voegen aan uw ADFS-configuratie:
 
-1. De AD FS-beheerconsole openen
-2. Vouw in het linkerdeelvenster van de ADFS-beheerconsole **ADFS** uit, vervolgens **Vertrouwensrelaties** en **vertrouwensrelaties van afhankelijke partijen**
+1. Open de AD FS-beheerconsole.
+
+2. Ga in het linkerdeelvenster van de ADFS-beheerconsole naar het menu **Vertrouwensrelatie van relying party.**
+
 3. Selecteer in het rechterdeelvenster **Vertrouwen van afhankelijke partij toevoegen...**
-4. Selecteer **Volgende** op de **welkomstpagina** van de wizard Vertrouwen van afhankelijke partijen toevoegen.
-5. Selecteer op **de pagina Gegevensbron** selecteren de optie Gegevens importeren over de afhankelijke partij die online of **op een lokaal netwerk is gepubliceerd.** De **waarde federatie metagegevens (hostnaam of URL)** moet zijn ingesteld op `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Klik vervolgens op **Volgende**.
-6. Typ op **de pagina Gegevensbron** selecteren de weergavenaam zoals **Microsoft Office 365 Identity Platform WorldWide**. Klik vervolgens op **Volgende**.
-7. Selecteer op de wizardpagina **Meervoudige verificatie nu configureren?** de juiste keuze op basis van uw verificatievereisten. Als u zich aan de standaardinstelling houdt, selecteert u Ik wil op dit moment geen instellingen voor meervoudige verificatie configureren voor dit vertrouwen van afhankelijke **partijen.** U kunt deze instelling later wijzigen als u dat wilt.
-8. Houd in **de kies autorisatieregels** voor uitgifte toestaan dat alle gebruikers toegang hebben tot deze **afhankelijke partij** geselecteerd op **Volgende**
+
+4. Selecteer **Start** op de **welkomstpagina** van de wizard Vertrouwen van afhankelijke partijen toevoegen.
+
+5. Selecteer op **de pagina Gegevensbron** selecteren de optie Gegevens importeren over de afhankelijke partij die online of **op een lokaal netwerk is gepubliceerd.** De **waarde federatie metagegevens (hostnaam of URL)** moet zijn ingesteld op `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Klik op **Volgende**.
+
+6. Typ op **de pagina Weergavenaam** opgeven de weergavenaam zoals **Microsoft Office 365 Identity Platform WorldWide**. Klik op **Volgende**.
+
+7. Als u ADFS gebruikt in Windows Server 2012, selecteert u op de wizardpagina Meervoudige verificatie **nu configureren?** de juiste keuze op basis van uw verificatievereisten. Als u zich aan de standaardinstelling houdt, selecteert u Ik wil op dit moment geen instellingen voor meervoudige verificatie configureren voor dit vertrouwen van afhankelijke **partijen.** U kunt deze instelling later wijzigen als u dat wilt.
+
+8. Voor AD FS 2012: In de autorisatieregels voor uitgifte kiezen blijven alle gebruikers toegang verlenen tot deze afhankelijke **partij** geselecteerd en klikt u op **Volgende.** 
+
+8. Voor AD FS 2016 en AD FS 2019: Selecteer op de pagina **Beleid** voor toegangsbeheer kiezen het juiste toegangsbeleid en klik op **Volgende**. Als er geen is gekozen, werkt het vertrouwen van de afhankelijke partij **NIET.**
+
 9. Klik **op Volgende** op de pagina Vertrouwen **toevoegen** om de wizard te voltooien.
+
 10. Klik **op Sluiten** op de **pagina** Voltooien.
 
-Door de wizard te sluiten, wordt het vertrouwen van afhankelijke partijen met de globale Office 365-services ingesteld. Er zijn echter nog geen regels voor uitgiftetransformator geconfigureerd.
+Als u de wizard sluit, wordt de vertrouwensrelatie van relying party met de globale office 365-service ingesteld. Er zijn echter nog geen regels voor uitgiftetransformator geconfigureerd.
 
 U kunt [AD FS Help gebruiken om](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) de juiste regels voor uitgiftetransformator te genereren. De gegenereerde claimregels die zijn gemaakt met AD FS Help, kunnen handmatig worden toegevoegd via de AD FS-beheerconsole of met PowerShell. Ad FS Help genereert de benodigde PowerShell-scripts die moeten worden uitgevoerd.  
 
-<!--
-    Question from ckinder
-    is step #3 true?
-    how to verify step 5? Need more information!
--->
-1. Voer **help bij het** genereren van claims op AD  FS uit en kopieer het PowerShell-claimtransformatiescript met de optie Kopiëren in de rechterbovenhoek van het script.
-2. Open de gewenste teksteditor en plak het PowerShell-script in een nieuw tekstvenster.
-3. De volgende PowerShell-regels toevoegen aan het einde van het geperste script uit stap 2
-    ```powershell
-    $authzRules = "=>issue(Type = `"http://schemas.microsoft.com/authorization/claims/permit`", Value = `"true`"); "
-    $RuleSet = New-AdfsClaimRuleSet -ClaimRule "<AD FS Help generated PSH>"
-    Set-AdfsRelyingPartyTrust -TargetName “Microsoft Office 365 Identity Platform WorldWide” -IssuanceTransformRules $RuleSet.ClaimRulesString -IssuanceAuthorizationRules $authzRules
-    ```
-4. Het PowerShell-script veilig en uitvoeren.
-5. Controleer of er twee vertrouwensrelaties van relying party aanwezig zijn. een voor de Microsoft Cloud Deutschland en een voor de Globale Office 365-service.
-6. Back-up maken van uw [vertrouwensrelatie met behulp van deze stappen.](#backup) Sla het op met de naam **FFAndWorldwide.**
-7. Voltooi de backend-migratie en controleer of AD FS nog steeds werkt tijdens het migratieproces.
+> [!NOTE]
+> [Ad FS Help](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) genereert de standaarduitgiftetransformatorregels die worden geleverd met het product. Als er echter aangepaste uitgiftetransformatorregels worden gebruikt in het vertrouwen van een vertrouwenspersoon in Microsoft Cloud Deutschland (bijvoorbeeld aangepaste URL's van uitgevende uitgevende e-mail, niet-standaardinmuteerbare ID's of andere aanpassingen), moeten de regels die door AD FS-help worden gegenereerd, worden gewijzigd op een manier die past bij de aangepaste logica die momenteel wordt gebruikt voor het vertrouwen van de vertrouwensrelatie van de vertrouwensrelatie van de microsoft Cloud Deutschland-afhankelijke partij. Als deze aanpassingen niet zijn geïntegreerd in de regels die worden gegenereerd via [AD FS Help,](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)werkt verificatie naar **Microsoft Office 365 Identity Platform WorldWide** waarschijnlijk niet voor uw federatief identiteiten. 
+
+1. Voer **De Help Voor** het genereren van claims  op [AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) uit en kopieer het PowerShell-script met de optie Kopiëren in de rechterbovenhoek van het script.
+
+2. Volg de stappen die worden beschreven bij [AD FS Help](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) over het uitvoeren van het PowerShell-script in uw AD FS-farm om het globale vertrouwen van afhankelijke partijen te genereren.
+
+3. Controleer of er twee Relying PartyTtrusts aanwezig zijn. een voor Microsoft Cloud Deutschland en een voor de Globale Office 365-service. De volgende opdracht kan worden gebruikt voor de controle. Het moet twee rijen en de respectievelijke namen en id's retourneren.
+
+   ```powershell
+   Get-AdfsRelyingPartyTrust | Where-Object {$_.Identifier -like 'urn:federation:MicrosoftOnline*'} | Select-Object Name, Identifier
+   ```
+
+4. Gebruik deze stappen om een back-up te maken van uw volledige migratieconfiguratie, inclusief beide vertrouwensrelatie van Relying [Party.](#backup) Sla het op met de naam **MicrosoftCloudDeutschlandAndWorldwide.**
+
+5. Terwijl uw tenant bezig is met migratie, controleert u regelmatig of AD FS-verificatie werkt met Microsoft Cloud Deutschland en Microsoft Global cloud in de verschillende ondersteunde migratiestappen.
+
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>AD FS Disaster Recovery (WID Database)
 
-Als u de AD FS-farm wilt herstellen in een [ramp, moet ad FS Rapid Restore Tool](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) worden gebruikt. Daarom moet het hulpprogramma worden gedownload en moet vóór het begin van de migratie een back-up worden gemaakt en veilig worden opgeslagen. In dit voorbeeld (TAT-omgevingen) zijn de volgende opdrachten uitgevoerd om een back-up van de farm te maken:
+Als u de AD FS-farm wilt herstellen in een [ramp, moet ad FS Rapid Restore Tool](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) worden gebruikt. Daarom moet het hulpprogramma worden gedownload en moet vóór het begin van de migratie een back-up worden gemaakt en veilig worden opgeslagen. In dit voorbeeld zijn de volgende opdrachten uitgevoerd om een back-up te maken van een farm die wordt uitgevoerd in een WID-database:
 
 <h2 id="backup"></h2>
 
 ### <a name="back-up-an-ad-fs-farm"></a>Een back-up maken van een AD FS-farm
 
 1. Installeer het HULPPROGRAMMA VOOR SNEL HERSTELLEN AD FS op de primaire AD FS-server.
+
 2. Importeer de module in een PowerShell-sessie met deze opdracht.
-    ```powershell
-    Import-Module "C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecreationTool.dll"
-    ```
+
+   ```powershell
+   Import-Module "C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecreationTool.dll"
+   ```
+
 3. Voer de back-upopdracht uit:
-    ```powershell
-    Backup-ADFS -StorageType "FileSystem" -storagePath "<Storage path of backup>" -EncryptionPassword "<password>" -BackupComment "Restore Doku" -BackupDKM
-    ```
+
+   ```powershell
+   Backup-ADFS -StorageType "FileSystem" -storagePath "<Storage path of backup>" -EncryptionPassword "<password>" -BackupComment "Restore Doku" -BackupDKM
+   ```
+
 4. Sla de back-up veilig op een gewenste bestemming op.
+
 
 ### <a name="restore-an-ad-fs-farm"></a>Een AD FS-farm herstellen
 
 Als uw farm volledig is mislukt en er geen manier is om terug te keren naar de oude farm, gaat u als volgt te werk. 
 
 1. Verplaats de eerder gegenereerde en opgeslagen back-up naar de nieuwe primaire AD FS-server.
+
 2. Voer de volgende `Restore-ADFS` PowerShell-opdracht uit. Importeer zo nodig het AD FS SSL-certificaat vooraf.
 
-    ```powershell
-    Restore-ADFS -StorageType "FileSystem" -StoragePath "<Path to Backup>" -DecryptionPassword "<password>" -GroupServiceAccountIdentifier "<gMSA>" -DBConnectionString "WID" -RestoreDKM
-    ```
+   ```powershell
+   Restore-ADFS -StorageType "FileSystem" -StoragePath "<Path to Backup>" -DecryptionPassword "<password>" -GroupServiceAccountIdentifier "<gMSA>" -DBConnectionString "WID" -RestoreDKM
+   ```
 
 3. Wijs uw nieuwe DNS-records of load balancer naar de nieuwe AD FS-servers.
+
 
 ## <a name="more-information"></a>Meer informatie
 

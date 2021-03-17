@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over het bepalen van gerelateerde functies in Microsoft 365-groepen, Teams, SharePoint en Yammer.
-ms.openlocfilehash: a9b4767c450ffc775fb84711e48b9f6c775419e5
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 01dea57504bf5d68c0bb13376379379f29044191
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741595"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838465"
 ---
 # <a name="what-is-collaboration-governance"></a>Wat is samenwerkingsbeheer?
 
@@ -40,6 +40,10 @@ In deze reeks artikelen krijgt u inzicht in de interactie tussen groepen, teams 
 ### <a name="setting-up-secure-collaboration-with-microsoft-365"></a>Veilige samenwerking met Microsoft 365 instellen
 
 Er zijn veel opties voor het implementeren van Microsoft 365 Groepen en Teams voor veilige samenwerking in uw organisatie. We raden u aan deze beheerinhoud te gebruiken naast Veilige samenwerking met [Microsoft 365](setup-secure-collaboration-with-teams.md) en de bijbehorende artikelen instellen om de beste samenwerkingsoplossing voor uw organisatie te maken.
+
+### <a name="data-residency"></a>Data-ingezetenschap
+
+Als uw organisatie multi-national is en u vereisten hebt voor gegevenslocatie voor verschillende regio's, kunt u [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo) opnemen als onderdeel van uw samenwerkingsplan.
 
 ## <a name="why-microsoft-365-groups-are-important"></a>Waarom Microsoft 365-groepen belangrijk zijn
 
@@ -109,6 +113,8 @@ Houd rekening met deze best practices wanneer u aan het beheerplanningsproces be
 - **Lijn af op zakelijke prioriteiten:** met zakelijke doelstellingen kunt u bepalen hoeveel tijd en energie u nodig hebt om te investeren in beheer.
 
 - **Beheerbeslissingen rechtstreeks insluiten in** de oplossingen die u maakt: veel beheerbeslissingen kunnen worden geïmplementeerd door functies in Microsoft 365 in of uit te schakelen.
+
+- **Een gefaseerd aanpak gebruiken:** rol samenwerkingsfuncties eerst uit naar een kleine groep gebruikers. Krijg feedback van hen, let op helpdesktickets en werk de benodigde instellingen of processen bij voordat u naar een grotere groep gaat.
 
 - **Versterken met training:** pas oplossingen aan zoals [Microsoft 365-leerpaden](https://docs.microsoft.com/office365/customlearning) om ervoor te zorgen dat uw organisatiespecifieke verwachtingen worden versterkt met door Microsoft verstrekte training.
 

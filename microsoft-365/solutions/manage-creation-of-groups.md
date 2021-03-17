@@ -17,18 +17,22 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Lees hoe u kunt bepalen welke gebruikers Microsoft 365 Groepen kunnen maken.
-ms.openlocfilehash: f2d1a2062d43af750a84984aab66329ed6a4db22
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 04c2b6e738ed41f8d4a2bf96716fb74b1d260497
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819700"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838637"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Beheren wie Microsoft 365-groepen kunnen maken
 
 Standaard kunnen alle gebruikers Microsoft 365-groepen maken. Dit is de aanbevolen methode, omdat gebruikers hiermee kunnen samenwerken zonder hulp van IT nodig te hebben.
 
-Als uw bedrijf vereist dat u beperkt wie groepen kan maken, kunt u dit doen door de procedures in dit artikel te volgen. Wanneer u beperkt wie een groep kan maken, is dit van invloed op alle services die afhankelijk zijn van groepen voor toegang, waaronder:
+Als uw bedrijf vereist dat u beperkt wie groepen kan maken, kunt u het maken van Microsoft 365-groepen beperken tot de leden van een bepaalde Microsoft 365-groep of beveiligingsgroep.
+
+Als u zich zorgen maakt over gebruikers die teams of groepen maken die niet voldoen aan uw bedrijfsstandaarden, kunt u overwegen om gebruikers te verplichten een trainingscursus te volgen en ze vervolgens toe te voegen aan de groep toegestane gebruikers.
+
+Wanneer u beperkt wie een groep kan maken, is dit van invloed op alle services die afhankelijk zijn van groepen voor toegang, waaronder:
 
 - Outlook
 - SharePoint
@@ -38,8 +42,6 @@ Als uw bedrijf vereist dat u beperkt wie groepen kan maken, kunt u dit doen door
 - Planner
 - Power BI (klassiek)
 - Project voor het web / Routekaart
-
-U kunt het maken van Microsoft 365-groepen beperken tot de leden van een bepaalde Microsoft 365-groep of beveiligingsgroep. Als u dit wilt configureren, gebruikt u Windows PowerShell. In dit artikel worden de benodigde stappen beschreven.
 
 De stappen in dit artikel voorkomen niet dat leden van bepaalde rollen groepen kunnen maken. Globale beheerders van Office 365 kunnen groepen maken op elke manier, zoals het Microsoft 365-beheercentrum, Planner, Teams, Exchange en SharePoint Online. Andere rollen kunnen Groepen maken via beperkte middelen, hieronder weergegeven.
 
@@ -141,7 +143,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 Op de laatste regel van het script worden de bijgewerkte instellingen weergegeven:
 
-![This is what your settings will look like when you're done.](../media/952cd982-5139-4080-9add-24bafca0830c.png)
+![Schermafbeelding van powershell-scriptuitvoer.](../media/952cd982-5139-4080-9add-24bafca0830c.png)
 
 Als u in de toekomst wilt wijzigen welke groep wordt gebruikt, kunt u het script opnieuw uitvoeren met de naam van de nieuwe groep.
 
