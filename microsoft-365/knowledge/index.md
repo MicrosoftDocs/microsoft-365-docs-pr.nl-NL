@@ -1,5 +1,5 @@
 ---
-title: Inleiding tot Microsoft Viva-Topics
+title: Inleiding tot Microsoft Viva Topics
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -20,7 +20,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/04/2021
 ms.locfileid: "50454121"
 ---
-# <a name="introduction-to-microsoft-viva-topics"></a>Inleiding tot Microsoft Viva-Topics
+# <a name="introduction-to-microsoft-viva-topics"></a>Inleiding tot Microsoft Viva Topics
 
 </br>
 

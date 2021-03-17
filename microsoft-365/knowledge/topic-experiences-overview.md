@@ -76,7 +76,7 @@ Als je Viva Topics gebruikt in je Microsoft 365-omgeving, dan hebben je gebruike
 
 - Inzenders: gebruikers die recht hebben op het bewerken of maken van nieuwe onderwerpen. Kennisbeheerders wijzen inzendermachtigingen toe aan gebruikers via Viva Topics-instellingen in het Microsoft 365-beheercentrum. Je kunt er ook voor kiezen om alle personen die onderwerpen bekijken toestemming te geven om onderwerpen te bewerken en te maken, zodat iedereen kan bijdragen aan onderwerpen die ze zien.
 
-- Kennisbeheerders: gebruikers die onderwerpen door de levenscyclus van onderwerpen leiden. Kennisbeheerders gebruiken de pagina **Onderwerpen beheren** in het Topic-center om AIO-voorgestelde onderwerpen te bevestigen, onderwerpen te verwijderen die niet meer relevant zijn, en om bestaande onderwerpen te bewerken of nieuwe te maken. Ze zijn ook de enige gebruikers die hier toegang toe hebben. Kennisbeheerders wijzen kennisbeheerders toe aan gebruikers via Viva Topics-beheerinstellingen in het Microsoft 365-beheercentrum. 
+- Kennisbeheerders: gebruikers die onderwerpen door de levenscyclus van onderwerpen leiden. Kennisbeheerders gebruiken de pagina **Onderwerpen beheren** in het Viva Topics-center om AIO-voorgestelde onderwerpen te bevestigen, onderwerpen te verwijderen die niet meer relevant zijn, en om bestaande onderwerpen te bewerken of nieuwe te maken. Ze zijn ook de enige gebruikers die hier toegang toe hebben. Kennisbeheerders wijzen kennisbeheerders toe aan gebruikers via Viva Topics-beheerinstellingen in het Microsoft 365-beheercentrum. 
 
 - Kennisbeheerders: kennisbeheerders stellen Viva Topics in en beheren het via de beheerinstellingen in het Microsoft 365-beheercentrum. Op dit moment kan een globale beheerder of SharePoint-beheerder van Microsoft 365 fungeren als een kennisbeheerder.
 
@@ -84,9 +84,9 @@ Zie [Viva Topics-rollen](topic-experiences-roles.md) voor meer informatie.
 
 ## <a name="topic-management"></a>Onderwerpbeheer
 
-Onderwerpbeheer wordt uitgevoerd op de pagina **Onderwerpen beheren** van het **Topic-center** van je bedrijf. Het onderwerpcentrum wordt gemaakt tijdens de installatie en fungeert als het kenniscentrum voor je organisatie. 
+Onderwerpbeheer wordt uitgevoerd op de pagina **Onderwerpen beheren** van het **Viva Topics-center** van je bedrijf. Het onderwerpcentrum wordt gemaakt tijdens de installatie en fungeert als het kenniscentrum voor je organisatie. 
 
-Alle gelicentieerde gebruikers kunnen in het Topic-center zien met wie ze zijn verbonden, maar alleen gebruikers met machtigingen voor *Onderwerpen beheren* (kennismanagers) kunnen de pagina Onderwerpen beheren bekijken en gebruiken.
+Alle gelicentieerde gebruikers kunnen in het Viva Topics-center zien met wie ze zijn verbonden, maar alleen gebruikers met machtigingen voor *Onderwerpen beheren* (kennismanagers) kunnen de pagina Onderwerpen beheren bekijken en gebruiken.
 
 Kennisbeheerders kunnen:
 
