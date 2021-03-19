@@ -540,6 +540,8 @@
               href: de-duplication-in-ediscovery-search-results.md
             - name: Verschillen tussen geschatte en werkelijke zoekresultaten
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
+            - name: Inhoud die is opgeslagen in postvakken voor eDiscovery
+              href: what-is-stored-in-exo-mailbox.md
             - name: Ontsleutelen in eDiscovery-hulpprogramma's
               href: ediscovery-decryption.md
         - name: PowerShell-scripts voor inhoud zoeken
@@ -570,6 +572,8 @@
               href: assign-ediscovery-permissions.md
             - name: Trefwoordquery's en zoekvoorwaarden
               href: keyword-queries-and-search-conditions.md
+            - name: Inhoud die is opgeslagen in postvakken voor eDiscovery
+              href: what-is-stored-in-exo-mailbox.md
             - name: Filtering van zoekmachtigingen configureren
               href: permissions-filtering-for-content-search.md
             - name: Compliancegrenzen instellen
@@ -635,14 +639,27 @@
         - name: Verwerkingsfouten beheren
           href: processing-data-for-case.md
           items:
-            - name: Geavanceerde indexering van beheerdersgegevens
+            - name: Geavanceerde indexering van beheerdersinhoud
               href: indexing-custodian-data.md
-            - name: Foutherstel bij het verwerken van gegevens
+            - name: Foutherstel bij het verwerken van inhoud
               href: error-remediation-when-processing-data-in-advanced-ediscovery.md
             - name: Foutherstel voor één item
               href: single-item-error-remediation.md
+        - name: Inhoud verzamelen voor een case (preview)
+          items:
+            - name: Meer informatie over verzamelingen (preview)
+              href: collections-overview.md
+            - name: Een conceptverzameling maken (preview)
+              href: create-draft-collection.md
+            - name: Een conceptverzameling toewijzen aan een beoordelingsset (preview)
+              href: commit-draft-collection.md
+            - name: Verzamelingsstatistieken en -rapporten(preview)
+              href: collection-statistics-reports.md
+            - name: Zoekquery's voor verzamelingen maken
+              href: building-search-queries.md
+            - name: Trefwoordquery's en zoekvoorwaarden
+              href: keyword-queries-and-search-conditions.md
         - name: Gegevens verzamelen voor een case
-          href: collecting-data-for-ediscovery.md
           items:
             - name: Een zoekactie maken
               href: create-search-to-collect-data.md
@@ -661,7 +678,7 @@
               href: load-non-Office-365-data-into-a-review-set.md
             - name: Gegevens toevoegen aan een andere controleset
               href: add-data-to-review-set-from-another-review-set.md
-        - name: Casegegevens controleren
+        - name: Inhoud van een case beoordelen
           items:
             - name: Het dashboard voor controlesets gebruiken
               href: advanced-ediscovery-dashboard.md
@@ -671,7 +688,7 @@
               href: review-set-search.md
             - name: Documenten taggen in een controleset
               href: tagging-documents.md
-        - name: Casegegevens analyseren
+        - name: Inhoud van een case analyseren
           href: analyzing-data-in-review-set.md
           items:
             - name: Detectie van bijna-duplicaten
@@ -680,11 +697,11 @@
               href: email-threading-in-advanced-ediscovery.md
             - name: Thema's
               href: themes-in-advanced-ediscovery.md
-            - name: De relevantiemodule gebruiken om gegevens te analyseren
+            - name: De relevantiemodule gebruiken om inhoud te analyseren
               href: using-relevance.md
             - name: Buitengebruikstelling van de relevantiemodule
               href: relevance-module-retirement.md
-        - name: Casegegevens exporteren
+        - name: Inhoud van een case exporteren
           href: exporting-data-ediscover20.md
           items:
             - name: Documenten downloaden vanuit een controleset
@@ -725,6 +742,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Compliancegrenzen instellen
               href: set-up-compliance-boundaries.md
+            - name: Inhoud die is opgeslagen in postvakken voor eDiscovery
+              href: what-is-stored-in-exo-mailbox.md
             - name: Ontsleutelen in eDiscovery-hulpprogramma's
               href: ediscovery-decryption.md
             - name: Diagnostische gegevens voor eDiscovery verzamelen

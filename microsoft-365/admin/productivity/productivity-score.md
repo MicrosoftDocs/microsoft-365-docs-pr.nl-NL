@@ -2,8 +2,8 @@
 title: Microsoft Productiviteitsscore
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: pebaum
+author: pebaum
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Overzicht van Microsoft productiviteitsscore.
-ms.openlocfilehash: 0ce25175b3307e986c079c1614e38e8d87828e04
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 72f9bcfb273912629744ec25ad9c0be720e76081
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509084"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838423"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 
@@ -72,7 +72,7 @@ De productiviteitsscore bevat gegevens van Exchange, SharePoint, OneDrive, Teams
 Je score wordt dagelijks bijgewerkt en weerspiegelt de acties die gebruikers voltooid hebben binnen de laatste 28 dagen (inclusief de huidige dag).
 
 
-## <a name="pre-requisites"></a>Vereisten 
+## <a name="prerequisites"></a>Vereisten 
 
 Voor gebruikerservaringengegevens heb je een abonnement op Microsoft 365 voor bedrijven of op Office 365 voor ondernemingen nodig. Voor eindpuntanalysegegevens voor je tenant moet je Microsoft Intune toevoegen aan je abonnement. Met Intune beveilig je de gegevens van je organisatie door apparaten en apps te beheren. Wanneer je Intune hebt, kan je eindpuntanalyses inschakelen in de Intune-ervaring. Meer informatie over [Microsoft Intune](https://docs.microsoft.com/mem/intune/). 
 > [!NOTE]
@@ -92,7 +92,7 @@ Productiviteitsscore is enkel beschikbaar in het Microsoft 365-beheercentrum en 
 > [!NOTE]
 > Alleen een IT-medewerker met de rol van globale beheerder kan zich registreren of zich aanmelden bij een tenant voor productiviteitsscore.
 
-Let op: Informatie is enkel bedoeld voor aanvullend gebruik van de digitale transformatie gebruik makend van Microsoft 365 en moet met discretie worden behandeld. 
+Het op rollen gebaseerde model voor toegangsbeheer voor Productiviteitsscore helpt organisaties bij de verdere digitale transformatie van activiteiten met Microsoft 365 door de flexibiliteit te bieden om rollen toe te wijzen aan IT-professionals in een organisatie.
 
 Microsoft zet zich in voor de bescherming van de individuele privacy. Dit [Privacydocument](privacy.md) verklaart de controle die we je bieden als IT-beheerder van je organisatie zodat we kunnen garanderen dat je acties kan uitvoeren op basis van de informatie zonder afbreuk te doen aan het vertrouwen dat je in Microsoft plaatst.
 

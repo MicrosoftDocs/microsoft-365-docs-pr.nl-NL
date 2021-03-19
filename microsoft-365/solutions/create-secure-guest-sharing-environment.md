@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Meer informatie over beschikbare opties in Microsoft 365 om een veilige omgeving voor delen met gasten te maken, waarin gasten toegang krijgen voor verbeterde samenwerking.
-ms.openlocfilehash: c52feeb8e5c85d38dfa1623ecdd7c2ee2a381fbd
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 28b2efba9f0c4ba17811a9871b05ab9f5a7a4839
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667703"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838671"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -45,7 +45,7 @@ Merk op dat we het in dit artikel niet hebben over het inschakelen van instellin
 
 ## <a name="set-up-multi-factor-authentication-for-guests"></a>Meervoudige verificatie instellen voor gasten
 
-Meervoudige verificatie vermindert de kans dat een account wordt aangetast aanzienlijk. Aangezien gastgebruikers mogelijk persoonlijke e-mailaccounts gebruiken die niet voldoen aan enig beleid of aanbevolen procedures, is het belangrijk dat u meervoudige verificatie van gasten vereist. Als de gebruikersnaam en het wachtwoord van een gastgebruiker worden gestolen, vermindert het vereisen van een tweede verificatiestap de kans dat onbekende partijen toegang krijgen tot uw sites en bestanden aanzienlijk.
+Meervoudige verificatie vermindert de kans dat een account wordt aangetast aanzienlijk. Aangezien gasten mogelijk persoonlijke e-mailaccounts gebruiken die niet voldoen aan enig beleid of aanbevolen procedures, is het belangrijk dat u meervoudige verificatie van gasten vereist. Als de gebruikersnaam en het wachtwoord van een gast worden gestolen, vermindert het vereisen van een tweede verificatiestap de kans dat onbekende partijen toegang krijgen tot uw sites en bestanden aanzienlijk.
 
 In dit voorbeeld wordt meervoudige verificatie voor gasten ingesteld met behulp van een beleid voor voorwaardelijke toegang in Azure Active Directory.
 
@@ -70,7 +70,7 @@ Nu moeten gasten zich eerst inschrijven voor meervoudige verificatie voordat ze 
 
 ## <a name="set-up-a-terms-of-use-for-guests"></a>Gebruiksvoorwaarden voor gasten instellen
 
-In sommige situaties hebben gastgebruikers mogelijk geen geheimhoudingsovereenkomsten of andere juridische overeenkomsten met uw organisatie ondertekend. U kunt instellen dat gasten een gebruiksrechtovereenkomst moeten accepteren, voordat ze toegang krijgen tot bestanden die met hen zijn gedeeld. De gebruiksvoorwaarden kunnen worden weergegeven wanneer ze de eerste keer proberen toegang te krijgen tot een gedeeld bestand of een gedeelde site.
+In sommige situaties hebben gasten mogelijk geen geheimhoudingsovereenkomsten of andere juridische overeenkomsten met uw organisatie ondertekend. U kunt instellen dat gasten een gebruiksrechtovereenkomst moeten accepteren, voordat ze toegang krijgen tot bestanden die met hen zijn gedeeld. De gebruiksvoorwaarden kunnen worden weergegeven wanneer ze de eerste keer proberen toegang te krijgen tot een gedeeld bestand of een gedeelde site.
 
 Als u gebruiksvoorwaarden wilt maken, moet u eerst het document maken in Word of een andere tekstverwerker en het vervolgens opslaan als een PDF-bestand. Dit bestand kan vervolgens worden geüpload naar Azure AD.
 
@@ -89,7 +89,7 @@ Gebruiksvoorwaarden voor Azure AD maken
 9. Kies onder **Voorwaardelijke toegang** in de lijst **Afdwingen met sjabloon voor voorwaardelijke toegang**, **Maak later een beleid voor voorwaardelijke toegang**.
 10. Klik op **Maken**.
 
-Als u de gebruiksvoorwaarden hebt gemaakt, is de volgende stap het maken van een beleid voor voorwaardelijke toegang waarin de gebruiksrechtovereenkomst voor gastgebruikers wordt weergegeven.
+Als u de gebruiksvoorwaarden hebt gemaakt, is de volgende stap het maken van een beleid voor voorwaardelijke toegang waarin de gebruiksrechtovereenkomst voor gasten wordt weergegeven.
 
 Een voorwaardelijk toegangsbeleid maken
 
@@ -105,7 +105,7 @@ Een voorwaardelijk toegangsbeleid maken
 10. Selecteer op de blade **Toewijzen** de optie **Gebruiksrechtovereenkomst voor gasten** en klik vervolgens op **Selecteren**.
 11. Klik op de blade **Nieuw** onder **Beleid inschakelen** op **Aan** en klik vervolgens op **Maken**.
 
-De eerste keer dat een gastgebruiker probeert toegang te krijgen tot inhoud of een team of site in uw organisatie, moeten ze de gebruiksvoorwaarden accepteren.
+De eerste keer dat een gast probeert toegang te krijgen tot inhoud of een team of site in uw organisatie, moeten ze de gebruiksvoorwaarden accepteren.
 
 > [!NOTE]
 > Het gebruik van voorwaardelijke toegang vereist een licentie voor Azure AD Premium P1. Raadpleeg [Wat is voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) voor meer informatie.
@@ -116,39 +116,32 @@ De eerste keer dat een gastgebruiker probeert toegang te krijgen tot inhoud of e
 
 ## <a name="set-up-guest-access-reviews"></a>Revisies voor gasttoegang instellen
 
-Met toegangscontroles in Azure AD kunt u een periodieke beoordeling van gebruikerstoegang tot verschillende teams en groepen automatiseren. Door specifiek een toegangscontrole voor gasten te vereisen, kunt u ervoor zorgen dat gastgebruikers niet langer toegang houden tot gevoelige informatie van uw organisatie dan nodig is.
+Met toegangscontroles in Azure AD kunt u een periodieke beoordeling van gebruikerstoegang tot verschillende teams en groepen automatiseren. Door specifiek een toegangscontrole voor gasten te vereisen, kunt u ervoor zorgen dat gasten niet langer toegang houden tot gevoelige informatie van uw organisatie dan nodig is.
 
-Toegangscontroles kunnen in programma's worden georganiseerd. Een programma is een groepering van vergelijkbare toegangscontroles die kunnen worden gebruikt om toegangscontroles te organiseren voor rapportage- en auditdoeleinden.
-
-Een programma maken
-
-1. Meld u aan bij de Azure-portal en open de pagina [identiteitsbeheer](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade).
-2. Klik in het linkermenu op **Programma's**
-3. Klik op **nieuw programma**.
-4. Typ een **Naam** en **Beschrijving**.
-5. Klik op **Maken**.
-
-Wanneer het programma is gemaakt, kunnen we toegangscontrole voor gasten maken en aan het programma koppelen.
-
-De controle van de toegang van een gastgebruiker instellen
+De controle van de toegang van een gast instellen
 
 1. Klik op de pagina [Identiteitsbeheer](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade) in het linkermenu op **Toegangscontroles**.
 2. Klik op **nieuwe toegangscontrole**.
+3. Kies de optie **Teams + Groepen**.
+4. Kies de optie **Alle Microsoft 365-groepen met gastgebruikers**. Klik **Groep(en) selecteren om uit te sluiten** als u groepen wilt uitsluiten.
+5. Kies de optie **Alleen gastgebruikers** en klik vervolgens op **Volgende: Beoordelingen**.
+6. Kies onder **Revisoren selecteren** de optie **Groepseigenaar(s)**.
+7. Klik **Revisoren voor terugval selecteren**, kies wie de revisoren voor de terugval moeten zijn en klik vervolgens op **Selecteren**.
+8. Kies onder **Terugkeerpatroon voor revisie specificeren** de optie **Elk kwartaal**.
+9. Selecteer een begindatum en duur.
+10. Kies voor **Einde** de optie **Nooit** en klik vervolgens op **Volgende: Instellingen**.
 
-   ![Schermafbeelding van de controle-instellingen in Azure Active Directory](../media/azure-ad-create-access-review.png)
+    ![Schermafbeelding van het tabblad Azure AD-toegangscontrole](../media/azure-ad-create-access-review.png)
 
-3. Typ een naam in het vak **Naam**.
-4. Voor **frequentie** kiest u **driemaandelijks**.
-5. Kies voor **beëindigen** de optie **nooit**.
-6. Kies **alleen gastgebruikers** voor **bereik**.
-7. Klik op **groep**, selecteer de groepen die u wilt opnemen in de toegangscontrole en klik vervolgens op **selecteren**.
-8. Klik onder **Programma's** op **koppeling naar programma**.
-9. Kies op de blade **Selecteer een programma** de optie **Programma gasttoegangscontrole**
-10. Klik op **Start**.
+11. Controleer op het tabblad **Instellingen** de instellingen voor naleving van uw bedrijfsregels.
 
-Voor elke groep die u opgeeft, wordt een afzonderlijke toegangscontrole gemaakt. Groepseigenaren van elke groep worden driemaandelijks gemaild om gasttoegang tot hun groepen goed te keuren of te weigeren.
+    ![Schermafbeelding van het tabblad instellingen Azure AD-toegangscontrole](../media/azure-ad-create-access-review-settings.png)
 
-Het is belangrijk op te merken dat gasten toegang kunnen krijgen tot teams of groepen, of tot individuele bestanden en mappen. Als u toegang tot bestanden en mappen hebt gegeven, worden gasten mogelijk niet aan een bepaalde groep toegevoegd. Als u toegangscontroles wilt uitvoeren op gastgebruikers die niet tot een team of groep behoren, kunt u een dynamische groep in Azure AD maken die alle gasten bevat en vervolgens een toegangscontrole voor die groep maken. Site-eigenaren kunnen ook de [vervaltijd van gasttoegang voor de site](https://support.microsoft.com/office/25bee24f-42ad-4ee8-8402-4186eed74dea) beheren
+12. Klik op **Volgendet: Controleren + Maken**.
+13. Typ een **Controlenaam** en controleer de instellingen.
+14. Klik op **Maken**.
+
+Het is belangrijk op te merken dat gasten toegang kunnen krijgen tot teams of groepen, of tot individuele bestanden en mappen. Als u toegang tot bestanden en mappen hebt gegeven, worden gasten mogelijk niet aan een bepaalde groep toegevoegd. Als u toegangscontroles wilt uitvoeren op gasten die niet tot een team of groep behoren, kunt u een dynamische groep in Azure AD maken die alle gasten bevat en vervolgens een toegangscontrole voor die groep maken. Site-eigenaren kunnen ook de [vervaltijd van gasttoegang voor de site](https://support.microsoft.com/office/25bee24f-42ad-4ee8-8402-4186eed74dea) beheren
 
 ### <a name="more-information"></a>Meer informatie
 
@@ -156,9 +149,9 @@ Het is belangrijk op te merken dat gasten toegang kunnen krijgen tot teams of gr
 
 [Een toegangscontrole maken voor groepen of toepassingen in Azure AD-toegangscontroles](https://docs.microsoft.com/azure/active-directory/governance/create-access-review)
 
-## <a name="set-up-web-only-access-for-guest-users"></a>Stel webtoegang in voor gastgebruikers
+## <a name="set-up-web-only-access-for-guests"></a>Stel webtoegang in voor gasten
 
-U kunt het risico op een aanval beperken en het beheer vereenvoudigen door gastgebruikers alleen toegang te verlenen tot uw teams, sites en bestanden via een webbrowser.
+U kunt het risico op een aanval beperken en het beheer vereenvoudigen door gasten alleen toegang te verlenen tot uw teams, sites en bestanden via een webbrowser.
 
 Voor Microsoft 365 en Teams wordt dit gedaan met beleid voor voorwaardelijke toegang van Azure AD. Voor SharePoint is dit geconfigureerd in het SharePoint-beheercentrum. (U kunt ook [vertrouwelijkheidslabels gebruiken om de toegang van gasten te beperken tot alleen webtoegang ](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).)
 
@@ -192,9 +185,9 @@ De toegang van gasten beperken tot alleen webtoegang voor SharePoint
 
 Met deze instelling in het SharePoint-beheercentrum wordt een bijbehorend beleid voor voorwaardelijke toegang in Azure Active Directory gemaakt.
 
-## <a name="configure-a-session-timeout-for-guest-users"></a>Een sessietime-out configureren voor gastgebruikers
+## <a name="configure-a-session-timeout-for-guests"></a>Configureer een beleid voor de time-out van een sessie voor gasten.
 
-Vereisen dat gasten regelmatig verifiëren, kan de kans verkleinen dat onbekende gebruikers toegang krijgen tot de inhoud van uw organisatie, als het apparaat van een gastgebruiker niet veilig is. U kunt een voorwaardelijk toegangsbeleid voor sessie time-outs configureren voor gastgebruikers in Azure AD.
+Vereisen dat gasten regelmatig verifiëren, kan de kans verkleinen dat onbekende gebruikers toegang krijgen tot de inhoud van uw organisatie, als het apparaat van een gast niet veilig is. U kunt een voorwaardelijk toegangsbeleid voor sessie time-outs configureren voor gasten in Azure AD.
 
 Een beleid voor de time-out van een gastsessie configureren
 
