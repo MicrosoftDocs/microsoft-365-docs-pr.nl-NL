@@ -1,5 +1,5 @@
 ---
-title: Pagina gewicht optimaliseren in pagina's van de moderne SharePoint Online-site
+title: Paginagewicht optimaliseren in moderne sitepagina's van SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,62 +20,62 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Meer informatie over het gebruik van het hulpprogramma pagina diagnose voor het optimaliseren van het pagina gewicht in de pagina's van de moderne SharePoint Online-site.
-ms.openlocfilehash: 64fb3c90db78a23c7f1c3fcfe604c8ef58703be0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Lees hoe u het hulpprogramma Paginadiagnose gebruikt om het paginagewicht te optimaliseren in moderne sitepagina's van SharePoint Online.
+ms.openlocfilehash: 780d8ca0debbc5efb834f8f3543b9a5a8d168108
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688999"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907442"
 ---
-# <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>Pagina gewicht optimaliseren in pagina's van de moderne SharePoint Online-site
+# <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>Paginagewicht optimaliseren in moderne sitepagina's van SharePoint Online
 
-Sitepagina's van SharePoint Online met een serienummer die is vereist voor het weergeven van pagina-inhoud op de pagina, waaronder afbeeldingen, tekst, objecten in het inhoudsgebied van de navigatie/opdrachtbalken en andere HTML-code die het Framework van de pagina vormt. Pagina gewicht is een afmeting van deze HTML-code en moet beperkt zijn voor optimale laadtijden voor pagina's.
+Moderne SharePoint Online-sitepagina's bevatten seriële code die is vereist om pagina-inhoud van de pagina weer te geven, inclusief afbeeldingen, tekst, objecten in het inhoudsgebied onder navigatie-/opdrachtbalken en andere HTML-code die het kader van de pagina vormt. Paginagewicht is een meting van deze HTML-code en moet worden beperkt om optimale laadtijden voor pagina's te garanderen.
 
-In dit artikel wordt uitgelegd hoe u het pagina gewicht kunt verkleinen op de pagina's van uw moderne site.
-
->[!NOTE]
->Zie [prestaties in de moderne SharePoint-ervaring](https://docs.microsoft.com/sharepoint/modern-experience-performance)voor meer informatie over prestaties in moderne portals voor SharePoint Online.
-
-## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-weight"></a>Het hulpprogramma pagina diagnose voor SharePoint gebruiken om het pagina gewicht te analyseren
-
-Het hulpprogramma pagina diagnose voor SharePoint is een browser extensie voor de nieuwe Microsoft Edge- https://www.microsoft.com/edge) en Chrome-browsers die zowel SharePoint Online modern portal als de klassieke publicatiesite pagina's analyseren. Het hulpmiddel biedt een rapport voor elke geanalyseerde pagina op basis van een gedefinieerde set prestatiecriteria. Ga voor meer informatie over het hulpprogramma pagina diagnose voor SharePoint naar [het hulpprogramma pagina diagnose voor SharePoint Online](page-diagnostics-for-spo.md).
+In dit artikel wordt beschreven hoe u het paginagewicht op uw moderne sitepagina's kunt verminderen.
 
 >[!NOTE]
->Het hulpmiddel voor het automatisch toevoegen van pagina's werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+>Zie Prestaties in de [moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)voor meer informatie over de prestaties in moderne SharePoint Online-portals.
 
-Wanneer u een SharePoint-sitepagina wilt analyseren met het hulpprogramma pagina diagnose voor SharePoint, kunt u informatie raadplegen over de pagina in het **pagina gewicht onder 500KB** resultaat van het deelvenster _diagnostische tests_ . Het resultaat wordt in groen weergegeven als het pagina gewicht onder de waarde van de basislijn valt en rood als het pagina gewicht de waarde van de basislijn overschrijdt.
+## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-weight"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om het paginagewicht te analyseren
 
-Mogelijke resultaten zijn onder meer:
-
-- **Aandacht vereist** (rood): pagina gewicht OVERSCHRIJDt 500KB
-- **Geen actie vereist** (groen): pagina gewicht staat onder 500KB
-
-Als het **pagina gewicht onder 500KB** resultaat wordt weergegeven in de sectie **aandacht vereist** , kunt u op het resultaat klikken voor meer informatie.
-
-![Aanvragen voor resultaten van SharePoint](../media/modern-portal-optimization/pagediag-page-weight.png)
-
-## <a name="remediate-page-weight-issues"></a>Problemen met het pagina gewicht herstellen
-
-Als het pagina gewicht groter is dan 500KB, kunt u de laadtijd van een pagina verbeteren door het aantal webonderdelen te verminderen en de inhoud van de pagina te beperken.
-
-Algemene richtlijnen voor het verkleinen van pagina gewicht omvat:
-
-- Beperk de inhoud van de pagina tot een redelijk bedrag en gebruik meerdere pagina's voor gerelateerde inhoud.
-- Minimaliseer het gebruik van webonderdelen met grote eigenschappen zakken.
-- Gebruik niet-interactieve samenvouw weergaven indien mogelijk.
-- U kunt de grootte van afbeeldingen optimaliseren door afbeeldingen passend te maken met de indelingen voor gecomprimeerde afbeeldingen en ervoor te zorgen dat ze worden gedownload van een CDN.
-
-In het volgende artikel vindt u meer informatie over het beperken van pagina gewicht:
-
-- [De prestaties van pagina's in SharePoint optimaliseren](https://docs.microsoft.com/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
-
-Voordat u de revisies van pagina's aanbrengt om prestatieproblemen te verhelpen, kunt u de laadtijd van de pagina in de analyseresultaten noteren. Voer het hulpprogramma opnieuw uit na de wijziging om te zien of het nieuwe resultaat binnen de basislijn standaard valt en de nieuwe laadtijd voor pagina's te controleren om te zien of er een verbetering was.
-
-![Resultaten van laadtijden voor pagina's](../media/modern-portal-optimization/pagediag-page-load-time.png)
+Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge - en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's worden geanalyseerd. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken voor SharePoint Online.](page-diagnostics-for-spo.md)
 
 >[!NOTE]
->De laadtijd van de pagina kan variëren, afhankelijk van diverse factoren, zoals netwerkbelasting, tijdstip van de dag en andere tijdelijke voorwaarden. U moet de laadtijd voor pagina's enkele keren vóór en na het aanbrengen van wijzigingen aanbrengen om de resultaten te berekenen.
+>Het hulpprogramma Paginadiagnose werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+
+Wanneer u een SharePoint-sitepagina analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie over de pagina in het pagina-gewicht onder **500 KB-resultaat** van het deelvenster _Diagnostische tests._ Het resultaat wordt groen weergegeven als het paginagewicht onder de basislijnwaarde valt en rood als het paginagewicht de basislijnwaarde overschrijdt.
+
+Mogelijke resultaten zijn:
+
+- **Aandacht vereist** (rood): Paginagewicht groter dan 500 KB
+- **Geen actie vereist** (groen): Paginagewicht is minder dan 500 KB
+
+Als het  **paginagewicht onder 500 KB** wordt weergegeven in de sectie Aandacht vereist, kunt u op het resultaat klikken voor meer informatie.
+
+![Aanvragen voor SharePoint-resultaten](../media/modern-portal-optimization/pagediag-page-weight.png)
+
+## <a name="remediate-page-weight-issues"></a>Problemen met het gewicht van pagina's oplossen
+
+Als het paginagewicht meer dan 500 KB bedraagt, kunt u de totale laadtijd van pagina's verbeteren door het aantal webonderdelen te verminderen en de pagina-inhoud in de juiste mate te beperken.
+
+Algemene richtlijnen voor het verminderen van het paginagewicht zijn:
+
+- Beperk de pagina-inhoud tot een redelijk bedrag en gebruik meerdere pagina's voor gerelateerde inhoud.
+- Minimaliseer het gebruik van webonderdelen met grote eigenschappentassen.
+- Gebruik indien mogelijk niet-interactieve rollupweergaven.
+- Optimaliseer de grootte van afbeeldingen door afbeeldingen op de juiste manier te formaatken, gecomprimeerde afbeeldingsindelingen te gebruiken en ervoor te zorgen dat ze worden gedownload van een CDN.
+
+In het volgende artikel vindt u aanvullende richtlijnen voor het beperken van het paginagewicht:
+
+- [Paginaprestaties optimaliseren in SharePoint](/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
+
+Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u de laadtijd van de pagina in de analyseresultaten. Voer het hulpprogramma na de revisie opnieuw uit om te zien of het nieuwe resultaat binnen de basislijnstandaard valt en controleer de laadtijd van de nieuwe pagina om te zien of er een verbetering is.
+
+![De laadtijd van pagina's](../media/modern-portal-optimization/pagediag-page-load-time.png)
+
+>[!NOTE]
+>De laadtijd van pagina's kan variëren op basis van verschillende factoren, zoals de netwerkbelasting, de tijd van de dag en andere tijdelijke omstandigheden. U moet de laadtijd van pagina's een paar keer voor en na het aanbrengen van wijzigingen testen, zodat u de resultaten kunt gemiddelden.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -83,8 +83,8 @@ Voordat u de revisies van pagina's aanbrengt om prestatieproblemen te verhelpen,
 
 [Prestaties van Office 365 afstemmen](tune-microsoft-365-performance.md)
 
-[Prestaties in de moderne SharePoint-ervaring](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Prestaties in de moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)
 
-[Netwerken voor content levering](content-delivery-networks.md)
+[Netwerken voor contentlevering](content-delivery-networks.md)
 
 [Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)

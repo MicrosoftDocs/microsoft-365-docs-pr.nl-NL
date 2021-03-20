@@ -24,83 +24,83 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
-description: Meer informatie over hoe u overstapt op een nieuw Microsoft 365 voor bedrijven-abonnement.
-ms.openlocfilehash: 1cbdcafc2ef337546f31d2d8f8fc9ef0bf7722f8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Lees hoe u overschakelt naar een nieuw Microsoft 365 voor Bedrijven-abonnement.
+ms.openlocfilehash: fb0ab9d26a7fe32796307d35af0ed1fc28735fa9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647745"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906226"
 ---
 # <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Overstappen op een ander Microsoft 365 voor Bedrijven-abonnement
 
-Wanneer uw bedrijf verandert of wanneer u meer functies nodig hebt, kunt u van abonnement veranderen.  
+Wanneer uw bedrijf verandert of als u meer functies nodig hebt, kunt u van plan veranderen.  
 
-U kunt het eenvoudigst van abonnement wisselen door op de knop **Veranderen van abonnement** in het beheercentrum te klikken. Het gebruik van de knop **veranderen** van abonnement wordt echter niet in alle gevallen ondersteund. In sommige gevallen kunt u mogelijk handmatig van abonnement veranderen.
+U kunt het eenvoudigst van abonnement wisselen door op de knop **Veranderen van abonnement** in het beheercentrum te klikken. Het gebruik van de **knop Overstappen** wordt echter niet in alle situaties ondersteund. In sommige gevallen kunt u mogelijk handmatig van plan wisselen.
 
 
 **Hebt u iets anders nodig?**
 - [Uw abonnement opzeggen](cancel-your-subscription.md)
-- [Microsoft 365 Family upgraden naar een abonnement voor bedrijven](https://support.microsoft.com/office/9322ffb8-a35d-4407-8ebe-ed6ea0859b9f.aspx)
-- [Neem contact op Microsoft ondersteuning](../../admin/contact-support-for-business-products.md)
+- [Microsoft 365 Family upgraden naar een zakelijk abonnement](https://support.microsoft.com/office/9322ffb8-a35d-4407-8ebe-ed6ea0859b9f.aspx)
+- [Microsoft-ondersteuning bellen](../../admin/contact-support-for-business-products.md)
 
-## <a name="use-the-switch-plans-button"></a>De knop veranderen van abonnement gebruiken
+## <a name="use-the-switch-plans-button"></a>De knop Overstappen gebruiken
 
-Als u de knop **veranderen** van abonnement gebruikt, krijgt u het proces van het kopen van een nieuw abonnement waarop u kunt overstappen van uw huidige abonnement, zodat alle gebruikers automatisch een licentie aan het nieuwe abonnement krijgen en uw oude abonnement wordt geannuleerd.
+Wanneer u  de knop Van abonnement wisselen gebruikt, wordt u geleid door het proces van het kopen van een nieuw abonnement waarop u uw huidige abonnement kunt overstappen, krijgen alle gebruikers automatisch licenties toegewezen in het nieuwe abonnement en wordt uw oude abonnement voor u geannuleerd.
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Abonnementen</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Facturering**><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Facturering**><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
 
 ::: moniker-end
 
-2. Selecteer **veranderen** van abonnement om de lijst weer te geven van nieuwe abonnementen die beschikbaar zijn.
+2. Selecteer **Van plan wisselen** om de lijst met nieuwe abonnementen te bekijken die beschikbaar zijn.
 
-    Er is geen [knop veranderen](#the-switch-plans-button-isnt-there)  |  van abonnement [Ik zie het gewenste abonnement niet](#i-dont-see-the-plan-i-want)
+    [De knop Van plan wisselen is er niet](#the-switch-plans-button-isnt-there)  |  [Ik zie het plan dat ik wil niet](#i-dont-see-the-plan-i-want)
 
-3. Selecteer een plan om de nieuwe totale kosten per maand weer te geven. Lees de **belangrijkste informatie**en selecteer **volgende** om te bekijken.
+3. Selecteer een abonnement om de nieuwe totale kosten per maand te bekijken. Zorg ervoor dat u de belangrijkste **informatie leest** en selecteer **vervolgens Volgende** om uit te checken.
 
-    [Help me een nieuw abonnement te kiezen](https://go.microsoft.com/fwlink/p/?linkid=842056).
+    [Help me een nieuw plan te kiezen.](https://go.microsoft.com/fwlink/p/?linkid=842056)
 
-4. Selecteer **Nu chatten** op de **afreken** pagina als u hulp nodig hebt.
+4. Selecteer **Nu chatten** op de pagina **Afrekenen** als u hulp nodig hebt.
 
-    Wanneer u klaar bent met uitchecken, duurt micro 365 Soft enkele minuten om de overstap te voltooien. U kunt meteen aan de slag gaan met uw nieuwe abonnement.
+    Wanneer u klaar bent met uitchecken, duurt het enkele minuten voordat microsoft 365 de overstap heeft voltooid. U kunt direct aan de slag met uw nieuwe abonnement.
 
-## <a name="the-switch-plans-button-isnt-there"></a>Er is geen knop veranderen van abonnement
+## <a name="the-switch-plans-button-isnt-there"></a>De knop Van plan wisselen is er niet
 
-Als de knop **veranderen** van abonnement niet beschikbaar is, kunt u proberen om [handmatig](switch-plans-manually.md) van abonnement te veranderen of [ondersteuning te bellen](../../admin/contact-support-for-business-products.md). Zie [Waarom kan ik niet overstappen](why-can-t-i-switch-plans.md) op een ander abonnement? voor meer informatie.
+Als de **knop Overstappen** niet beschikbaar is, kunt u handmatig van plan wisselen of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md) [](switch-plans-manually.md) Zie Waarom kan ik niet van [plan wisselen? voor meer informatie.](why-can-t-i-switch-plans.md)
   
-Dit kan het volgende gebeuren:
+Dit is de reden waarom dit kan gebeuren:
   
-- U gebruikt meer dan een abonnement van Microsoft 365. U kunt alleen de knop **veranderen** van abonnement gebruiken als alle gebruikers zich op hetzelfde abonnement hebben geabonneerd.
+- U gebruikt meer dan één Microsoft 365-abonnement. U kunt alleen de knop **Van abonnement wisselen** gebruiken als alle gebruikers zich abonneren op hetzelfde abonnement.
 
-- U gebruikt al Office 365 Enterprise E5, zodat u alle beschikbare functionaliteit in Office 365 al hebt.
+- U gebruikt Office 365 Enterprise E5 al, dus u hebt al alle functionaliteit beschikbaar in Office 365.
 
-## <a name="i-dont-see-the-plan-i-want"></a>Ik zie het gewenste abonnement niet
+## <a name="i-dont-see-the-plan-i-want"></a>Ik zie het plan dat ik wil niet
 
-Als u de knop **veranderen** van abonnement gebruikt, worden de abonnementen waarop u kunt overstappen weergegeven op basis van de services in uw huidige abonnement. U kunt alleen de knop **veranderen** van abonnement gebruiken om over te stappen naar een abonnement met dezelfde gegevensservices of een hogere versie. Dit zorgt ervoor dat gebruikers tijdens de overstap geen gegevens verliezen die aan die services zijn gerelateerd.
+Wanneer u de knop **Van abonnement** wisselen gebruikt, worden de abonnementen die u kunt overstappen, weergegeven op basis van de services in uw huidige abonnement. U kunt alleen de knop **Overstappen** gebruiken om over te schakelen naar een abonnement met dezelfde gegevensgerelateerde services of naar een hogere versie. Dit zorgt ervoor dat gebruikers tijdens de overstap geen gegevens verliezen die aan die services zijn gerelateerd.
   
-Als u abonnementen wilt vergelijken voordat u overstapt, raadpleegt u de pagina [voor product vergelijkings producten van Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=842056) . Zie [Microsoft 365 service beschrijvingen](https://go.microsoft.com/fwlink/p/?linkid=842275)voor technische specificaties.
+Als u abonnementen wilt vergelijken voordat u overschakelt, gaat u naar de pagina Productvergelijking van [Microsoft 365 voor](https://go.microsoft.com/fwlink/p/?linkid=842056) Bedrijven. Zie Servicebeschrijvingen [van Microsoft 365 voor technische specificaties.](/office365/servicedescriptions/office-365-service-descriptions-technet-library)
   
-Als u wilt overschakelen naar een abonnement met minder Services, kunt u [handmatig](switch-plans-manually.md)van abonnement veranderen of [contact opnemen met Microsoft ondersteuning](../../admin/contact-support-for-business-products.md) voor hulp.
+Als u wilt overschakelen naar een abonnement met [](switch-plans-manually.md)minder services, kunt u handmatig van abonnement wisselen of [Microsoft Ondersteuning bellen](../../admin/contact-support-for-business-products.md) voor hulp.
   
 ## <a name="why-some-switches-take-longer"></a>Waarom sommige schakelopties langer duren
 
- **Kredietcontroles bij het veranderen**van abonnement: als u per factuur betaalt of een bepaald kostenbedrag hebt, is er mogelijk een kredietcontrole vereist. Een kredietcontrole kan tot twee werkdagen duren. Gebruikers hebben toegang tot hun huidige abonnement totdat ze overstappen naar de nieuwe versie.
+ **Kredietcontroles bij het veranderen van abonnement:** Als u per factuur betaalt of een bepaald kostenniveau bereikt, is een kredietcontrole mogelijk vereist. Een kredietcontrole kan maximaal twee werkdagen duren. Gebruikers hebben volledige toegang tot hun huidige abonnement totdat u ze overschakelt naar het nieuwe abonnement.
   
- **Verificatie van non-profit status**: het duurt normaliter dertig dagen voordat het verificatieproces voor uw non-profit status is voltooid. Neem contact op met de ondersteuning als u meer dan 30 dagen hebt.
+ **Verificatie van de non-profitstatus:** het duurt normaal gesproken 30 dagen om het verificatieproces voor uw non-profitstatus te voltooien. Als het meer dan 30 dagen geleden is, neem dan contact op met de ondersteuning.
   
 ## <a name="call-support-to-help-you-switch-plans"></a>Neem contact op met ondersteuning om u te helpen bij het veranderen van abonnement
 

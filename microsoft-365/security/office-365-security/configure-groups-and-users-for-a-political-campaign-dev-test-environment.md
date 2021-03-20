@@ -19,12 +19,12 @@ description: 'Overzicht: maak proefabonnementen voor Office 365 en Enterprise Mo
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e600b3baf012d416a7b5de974b94111bb6cf90a2
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 54d2543313c1a031974876d7fd09b453cc2ec24d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287447"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906538"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
 
@@ -214,4 +214,4 @@ Maak de vier verschillende soorten SharePoint Online-teamsites in deze ontwikkel
 
 [Testlabrichtlijnen voor cloudacceptatie (TLG's)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
-[Cloud adoption and hybrid solutions](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[Cloud adoption and hybrid solutions](/office365/enterprise/cloud-adoption-and-hybrid-solutions)

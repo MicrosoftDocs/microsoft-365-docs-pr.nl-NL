@@ -16,12 +16,12 @@ ms.collection:
 description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, standaard- en strikte beveiligingsconfiguraties en meer. Begrijpen wat u hebt en hoe u uw eigendommen kunt beveiligen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e1c6e768098cd59892c2572fb52497c873aef1a3
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
-ms.translationtype: HT
+ms.openlocfilehash: f8e929fde2908ba0d436c71c2caeb1be94b1338f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711938"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907178"
 ---
 # <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
 
@@ -137,7 +137,7 @@ Deze beknopte informatie geeft inzicht in de mogelijkheden van elk Microsoft Def
 
 - Abonnement 1 voor Microsoft Defender voor Office 365 is inbegrepen in Microsoft 365 Business Premium.
 
-- Abonnement 1 voor Microsoft Defender voor Office 365 en abonnement 2 voor Microsoft Defender voor Office 365 zijn elk beschikbaar als een invoegtoepassing voor bepaalde abonnementen. Raadpleeg voor meer informatie [Beschikbaarheid van functies in Microsoft Defender voor Office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- Abonnement 1 voor Microsoft Defender voor Office 365 en abonnement 2 voor Microsoft Defender voor Office 365 zijn elk beschikbaar als een invoegtoepassing voor bepaalde abonnementen. Raadpleeg voor meer informatie [Beschikbaarheid van functies in Microsoft Defender voor Office 365-abonnementen](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - De functie [Veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met een Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in abonnementen voor Microsoft Defender voor Office 365).
 

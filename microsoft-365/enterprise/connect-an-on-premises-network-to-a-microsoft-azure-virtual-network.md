@@ -1,5 +1,5 @@
 ---
-title: Een on-premises netwerk verbinden met een Microsoft Azure Virtual Network
+title: Een on-premises netwerk verbinden met een virtueel Microsoft Azure-netwerk
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,100 +19,100 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 81190961-5454-4a5c-8b0e-6ae75b9fb035
-description: 'Overzicht: informatie over het configureren van een cross-premises Azure virtueel netwerk voor Office Server-werkbelasting met een VPN-verbinding (site-to-site).'
-ms.openlocfilehash: cddb9cfcff02f91ef76f989b87e9dda049cc1b08
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 'Overzicht: Informatie over het configureren van een cross-premises Azure-virtueel netwerk voor office-serverwerkbelastingen met een site-naar-site VPN-verbinding.'
+ms.openlocfilehash: 00fd1c2246e9e9ac3eb55ca5ece9d84ecf49a1d3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695698"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907706"
 ---
-# <a name="connect-an-on-premises-network-to-a-microsoft-azure-virtual-network"></a>Een on-premises netwerk verbinden met een Microsoft Azure Virtual Network
+# <a name="connect-an-on-premises-network-to-a-microsoft-azure-virtual-network"></a>Een on-premises netwerk verbinden met een virtueel Microsoft Azure-netwerk
 
-Er is een on-premises Azure virtueel netwerk verbonden met uw on-premises netwerk en breidt uw netwerk uit met subnetten en virtuele machines die worden gehost in azure-infrastructuurservices. Met deze verbinding kunnen computers op uw on-premises netwerk rechtstreeks toegang krijgen tot virtuele machines in Azure en omgekeerd. 
+Er is een cross-premises Azure-virtueel netwerk verbonden met uw on-premises netwerk, dat uw netwerk uitbreidt tot subnetten en virtuele machines die worden gehost in Azure-infrastructuurservices. Met deze verbinding hebben computers op uw on-premises netwerk rechtstreeks toegang tot virtuele machines in Azure en vice versa. 
 
-Wanneer een adreslijstsynchronisatie server wordt uitgevoerd op een virtuele server van Azure, moet u een query uitvoeren op uw on-premises domeincontrollers om wijzigingen aan accounts aan te brengen en deze wijzigingen te synchroniseren met uw Microsoft 365-abonnement. In dit artikel leest u hoe u een VPN-verbinding (Virtual on-premises) van Azure instelt met een VPN-verbinding (Virtual Private Network) die geschikt is voor het hosten van Azure virtuele machines.
+Een adreslijstsynchronisatieserver die op een virtuele Azure-computer wordt uitgevoerd, moet bijvoorbeeld uw on-premises domeincontrollers opvragen voor wijzigingen in accounts en deze wijzigingen synchroniseren met uw Microsoft 365-abonnement. In dit artikel wordt beschreven hoe u een lokaal virtueel Azure-netwerk kunt instellen met een VPN-verbinding (Virtual Private Network) van site naar site die klaar is om Azure-virtuele machines te hosten.
 
-## <a name="configure-a-cross-premises-azure-virtual-network"></a>Een cross-premises Azure virtueel netwerk configureren
+## <a name="configure-a-cross-premises-azure-virtual-network"></a>Een cross-premises Azure Virtual Network configureren
 
-Uw virtuele machines in azure hoeven niet te worden geïsoleerd van uw on-premises omgeving. Als u virtuele machines van Azure wilt verbinden met uw on-premises netwerkbronnen, moet u een cross-premises Azure virtueel netwerk configureren. In het volgende diagram ziet u de vereiste onderdelen voor het implementeren van een on-premises Azure virtueel netwerk met een virtuele machine in Azure.
+Uw virtuele machines in Azure hoeven niet te worden geïsoleerd van uw on-premises omgeving. Als u virtuele Azure-machines wilt verbinden met uw on-premises netwerkbronnen, moet u een lokaal virtueel Azure-netwerk configureren. In het volgende diagram ziet u de vereiste onderdelen voor het implementeren van een cross-premises Azure-virtueel netwerk met een virtuele computer in Azure.
   
-![On-premises netwerk verbonden met Microsoft Azure via een site-to-site VPN-verbinding](../media/86ab63a6-bfae-4f75-8470-bd40dff123ac.png)
+![On-premises netwerk dat is verbonden met Microsoft Azure via een SITE-naar-site VPN-verbinding](../media/86ab63a6-bfae-4f75-8470-bd40dff123ac.png)
  
-In het diagram zijn er twee netwerken verbonden via een VPN-verbinding (site-naar-site): het on-premises netwerk en het virtuele Azure-netwerk. De VPN-verbinding tussen sites is:
+In het diagram zijn er twee netwerken verbonden via een site-naar-site VPN-verbinding: het on-premises netwerk en het virtuele Azure-netwerk. De SITE-naar-site VPN-verbinding is:
 
-- Schakelen tussen twee eindpunten die zijn geadresseerd en zich op het openbare Internet bevinden.
-- Beëindigd door een VPN-apparaat in het on-premises netwerk en een Azure VPN-gateway op het virtuele Azure-netwerk.
+- Tussen twee eindpunten die adresseerbaar zijn en zich bevinden op het openbare internet.
+- Beëindigd door een VPN-apparaat op het on-premises netwerk en een Azure VPN-gateway op het virtuele Azure-netwerk.
 
-De virtuele machines van Azure virtueel netwerk. Netwerkverkeer dat afkomstig is van virtuele machines op het virtuele Azure-netwerk, wordt doorgestuurd naar de VPN-gateway, waarna het verkeer wordt doorgestuurd via de site-naar-site VPN-verbinding met het VPN-apparaat op het on-premises netwerk. De routeringsinfrastructuur van het on-premises netwerk stuurt het verkeer door naar de bestemming.
+Het virtuele Azure-netwerk host virtuele machines. Netwerkverkeer dat afkomstig is van virtuele machines op het virtuele Azure-netwerk, wordt doorgestuurd naar de VPN-gateway, die vervolgens het verkeer via de SITE-naar-site VPN-verbinding doorgestuurd naar het VPN-apparaat op het on-premises netwerk. De routeringsinfrastructuur van het on-premises netwerk wordt vervolgens doorgestuurd naar de bestemming.
 
 >[!Note]
->U kunt ook [ExpressRoute](https://azure.microsoft.com/services/expressroute/)gebruiken, een directe verbinding tussen uw organisatie en het Microsoft-netwerk. Verkeer via ExpressRoute verreist niet via het openbare Internet. In dit artikel wordt het gebruik van ExpressRoute niet beschreven.
+>U kunt ook [ExpressRoute](https://azure.microsoft.com/services/expressroute/)gebruiken, een directe verbinding tussen uw organisatie en het netwerk van Microsoft. Verkeer via ExpressRoute gaat niet via het openbare internet. In dit artikel wordt het gebruik van ExpressRoute niet beschreven.
 >
   
-Voer de volgende stappen uit om de VPN-verbinding in te stellen tussen uw virtuele en uw on-premises netwerk. 
+Als u de VPN-verbinding wilt instellen tussen uw virtuele Azure-netwerk en uw on-premises netwerk, gaat u als volgt te werk: 
   
-1. **On-premises:** Definieer en maak een on-premises netwerkroute voor de adresruimte van het virtuele Azure-netwerk dat verwijst naar uw on-premises VPN-apparaat.
+1. **On-premises:** Definieer en maak een on-premises netwerkroute voor de adresruimte van het virtuele Azure-netwerk die naar uw on-premises VPN-apparaat wijst.
     
-2. **Microsoft Azure:** Maak een virtueel Azure-netwerk met een VPN-verbinding tussen sites. 
+2. **Microsoft Azure:** Maak een virtueel Azure-netwerk met een SITE-naar-site VPN-verbinding. 
     
-3. **On-premises:** Configureer uw on-premises hardware-of software VPN-apparaat om de VPN-verbinding te beëindigen, dat gebruikmaakt van IPsec (Internet Protocol Security).
+3. **On-premises:** Configureer uw on-premises hardware- of software-VPN-apparaat om de VPN-verbinding te beëindigen, die gebruikmaakt van internetprotocolbeveiliging (IPsec).
     
-Wanneer u de site-tot-site VPN-verbinding tot stand hebt gebracht, voegt u virtuele machines van Azure toe aan de subnetten van het virtuele netwerk.
+Nadat u de SITE-to-site VPN-verbinding hebt gemaakt, voegt u Azure-virtuele machines toe aan de subnetten van het virtuele netwerk.
   
-## <a name="plan-your-azure-virtual-network"></a>Uw virtuele Azure-netwerk plannen
+## <a name="plan-your-azure-virtual-network"></a>Uw Virtuele Azure-netwerk plannen
 <a name="PlanningVirtual"></a>
 
 ### <a name="prerequisites"></a>Vereisten
 <a name="Prerequisites"></a>
 
-- Een Azure-abonnement. Ga naar de [pagina een Azure-pagina kopen](https://azure.microsoft.com/pricing/purchase-options/)voor meer informatie over Azure-abonnementen.
+- Een Azure-abonnement. Ga naar de pagina Azure kopen voor informatie over [Azure-abonnementen.](https://azure.microsoft.com/pricing/purchase-options/)
     
-- Een beschikbare, persoonlijke IPv4-adresruimte die moet worden toegewezen aan het virtuele netwerk en de subnetten, met voldoende ruimte voor groei, zodat het aantal benodigde virtuele machines nu en in de toekomst kan worden aangepast.
+- Een beschikbare privé-IPv4-adresruimte om toe te wijzen aan het virtuele netwerk en de subnetten, met voldoende ruimte voor groei om het aantal virtuele machines te kunnen gebruiken dat nu en in de toekomst nodig is.
     
-- Een beschikbaar VPN-apparaat in uw on-premises netwerk om de site-tot-site VPN-verbinding te beëindigen die de vereisten voor IPsec ondersteunt. Zie voor meer informatie [over VPN-apparaten voor site-to-site virtuele netwerkverbindingen](https://go.microsoft.com/fwlink/p/?LinkId=393093).
+- Een beschikbaar VPN-apparaat in uw on-premises netwerk om de SITE-to-site VPN-verbinding te beëindigen die de vereisten voor IPsec ondersteunt. Zie Over VPN-apparaten voor [virtuele netwerkverbindingen van site naar site voor meer informatie.](/azure/vpn-gateway/vpn-gateway-about-vpn-devices)
     
-- Wijzigingen in uw routeringsinfrastructuur, zodat het verkeer naar de adresruimte van het virtuele Azure-netwerk wordt doorgestuurd naar het VPN-apparaat waarop de site-to-site VPN-verbinding is gehost.
+- Wijzigingen in uw routeringsinfrastructuur, zodat verkeer dat wordt doorgestuurd naar de adresruimte van het virtuele Azure-netwerk, wordt doorgestuurd naar het VPN-apparaat dat de SITE-to-site VPN-verbinding host.
     
-- Een webproxy waarmee computers worden gebruikt die verbonden zijn met het on-premises netwerk en de toegang tot het Internet van Azure Virtual Network.
+- Een webproxy die computers biedt die zijn verbonden met het on-premises netwerk en de virtuele azure-netwerktoegang tot internet.
     
-### <a name="solution-architecture-design-assumptions"></a>Ontwerp hypothesen voor oplossingen van de architectuur
+### <a name="solution-architecture-design-assumptions"></a>Ontwerp-aannames voor oplossingsarchitectuur
 
-De volgende lijst bevat de ontwerp keuzes die zijn gemaakt voor deze oplossingsarchitectuur. 
+In de volgende lijst worden de ontwerpopties weergegeven die zijn gemaakt voor deze oplossingsarchitectuur. 
   
-- Deze oplossing maakt gebruik van één virtueel Azure-netwerk met een VPN-verbinding tussen sites. Het Azure Virtual Network host een enkelvoudig subnet dat meerdere virtuele machines kan bevatten. 
+- Deze oplossing maakt gebruik van één virtueel Azure-netwerk met een SITE-naar-site VPN-verbinding. Het virtuele Azure-netwerk host één subnet dat meerdere virtuele machines kan bevatten. 
     
-- U kunt de Routing and Remote Access-service (RRAS) in Windows Server 2016 of Windows Server 2012 gebruiken voor het maken van een IPsec-site-naar-site VPN-verbinding tussen het on-premises netwerk en het Azure virtueel netwerk. U kunt ook andere opties gebruiken, zoals Cisco of Juniper Networks VPN-apparaten.
+- U kunt de routerings- en externe toegangsservice (RRAS) in Windows Server 2016 of Windows Server 2012 gebruiken om een VPN-verbinding tussen het on-premises netwerk en het virtuele Azure-netwerk tot stand te brengen. U kunt ook andere opties gebruiken, zoals VPN-apparaten van Cisco of Juniper Networks.
     
-- Het on-premises netwerk heeft mogelijk nog steeds netwerkservices als Active Directory Domain Services (AD DS), Domain Name System (DNS) en proxyservers. Afhankelijk van de vereisten is het misschien handig om enkele van deze netwerkbronnen in het virtuele Azure-netwerk te plaatsen.
+- Het on-premises netwerk kan nog steeds netwerkservices hebben, zoals Ad DS (Active Directory Domain Services), Domain Name System (DNS) en proxyservers. Afhankelijk van uw vereisten kan het handig zijn om een aantal van deze netwerkbronnen in het virtuele Azure-netwerk te plaatsen.
     
-Voor een bestaand Azure virtueel netwerk met een of meer subnetten bepaalt u of er nog resterende adresruimte is voor een extra subnet waarop u de benodigde virtuele machines moet hosten, op basis van uw vereisten. Als u geen resterende adresruimte hebt voor een extra subnet, maakt u een extra virtueel netwerk met een eigen site-naar-site VPN-verbinding.
+Voor een bestaand virtueel Azure-netwerk met een of meer subnetten bepaalt u of er nog adresruimte is voor een extra subnet om uw benodigde virtuele machines te hosten, op basis van uw vereisten. Als u geen resterende adresruimte hebt voor een extra subnet, maakt u een extra virtueel netwerk met een eigen VPN-verbinding van site naar site.
   
-### <a name="plan-the-routing-infrastructure-changes-for-the-azure-virtual-network"></a>De wijzigingen in de routeringsinfrastructuur voor het virtuele Azure-netwerk plannen
+### <a name="plan-the-routing-infrastructure-changes-for-the-azure-virtual-network"></a>Wijzigingen in de routeringsinfrastructuur plannen voor het virtuele Azure-netwerk
 
-U moet uw on-premises routeringsinfrastructuur configureren voor het doorsturen van verkeer dat bestemd is voor de adresruimte van het virtuele Azure-netwerk naar het on-premises VPN-apparaat dat de site-to-site VPN-verbinding host.
+U moet uw on-premises routeringsinfrastructuur zo configureren dat verkeer dat bestemd is voor de adresruimte van het virtuele Azure-netwerk, wordt doorgestuurd naar het on-premises VPN-apparaat dat de VPN-verbinding van de site-naar-site host.
   
-Welke methode u moet gebruiken om de routeringsinfrastructuur bij te werken, is afhankelijk van de manier waarop u routeringsinformatie beheert, wat de volgende oorzaken hebben:
+De exacte methode voor het bijwerken van uw routeringsinfrastructuur is afhankelijk van de manier waarop u routeringsgegevens beheert:
   
-- Updates van routeringstabellen op basis van handmatige configuratie.
+- Routeringstabelupdates op basis van handmatige configuratie.
     
-- Updates van routeringstabellen op basis van routeringsprotocollen, zoals Routing Information Protocol (RIP) of Open Shortest Path First (OSPF).
+- Routeringstabelupdates op basis van routeringsprotocollen, zoals Routing Information Protocol (RIP) of Open Shortest Path First (OSPF).
     
-Neem contact op met de bewerkings medewerker om na te gaan of het verkeer dat bestemd is voor het virtuele Azure-netwerk, is doorgestuurd naar het on-premises VPN-apparaat.
+Neem contact op met uw routeringsspecialist om ervoor te zorgen dat verkeer dat bestemd is voor het virtuele Azure-netwerk, wordt doorgestuurd naar het on-premises VPN-apparaat.
   
-### <a name="plan-for-firewall-rules-for-traffic-to-and-from-the-on-premises-vpn-device"></a>Het plannen van firewallregels voor verkeer naar en vanaf het on-premises VPN-apparaat
+### <a name="plan-for-firewall-rules-for-traffic-to-and-from-the-on-premises-vpn-device"></a>Firewallregels plannen voor verkeer van en naar het on-premises VPN-apparaat
 
-Als uw VPN-apparaat gebruikmaakt van een perimeternetwerk met een firewall tussen het perimeternetwerk en Internet, moet u mogelijk de firewall voor de volgende regels configureren, zodat de VPN-verbinding tussen sites kan worden toegestaan.
+Als uw VPN-apparaat zich op een perimeternetwerk met een firewall tussen het perimeternetwerk en internet heeft, moet u mogelijk de firewall configureren voor de volgende regels om de VPN-verbinding van site-naar-site toe te staan.
   
-- Verkeer naar het VPN-apparaat (inkomend via internet):
+- Verkeer naar het VPN-apparaat (binnenkomend vanaf internet):
     
-  - Doelpad van IP-adres van het VPN-apparaat en IP-protocol 50
+  - Doel-IP-adres van het VPN-apparaat en IP-protocol 50
     
-  - Doelpad van IP-adres van het VPN-apparaat en UDP-doelpoort 500
+  - Doel-IP-adres van het VPN-apparaat en UDP-doelpoort 500
     
-  - Doelpad van IP-adres van het VPN-apparaat en UDP-doelpoort 4500
+  - Doel-IP-adres van het VPN-apparaat en UDP-doelpoort 4500
     
-- Verkeer van het VPN-apparaat (uitgaand op Internet):
+- Verkeer vanaf het VPN-apparaat (uitgaande naar internet):
     
   - Bron-IP-adres van het VPN-apparaat en IP-protocol 50
     
@@ -120,97 +120,97 @@ Als uw VPN-apparaat gebruikmaakt van een perimeternetwerk met een firewall tusse
     
   - Bron-IP-adres van het VPN-apparaat en UDP-bronpoort 4500
     
-### <a name="plan-for-the-private-ip-address-space-of-the-azure-virtual-network"></a>Plan voor de persoonlijke IP-adresruimte van het virtuele Azure-netwerk
+### <a name="plan-for-the-private-ip-address-space-of-the-azure-virtual-network"></a>Plannen voor de privé-IP-adresruimte van het virtuele Azure-netwerk
 
-De persoonlijke IP-adresruimte van het virtuele netwerk van Azure moet de adressen kunnen bevatten die door Azure worden gebruikt voor het hosten van het virtuele netwerk en met minimaal één subnet met voldoende adressen voor uw virtuele machines van Azure.
+De privé-IP-adresruimte van het virtuele Azure-netwerk moet geschikt zijn voor adressen die door Azure worden gebruikt om het virtuele netwerk te hosten en met ten minste één subnet dat voldoende adressen heeft voor uw Azure-virtuele machines.
   
-Als u het aantal adressen wilt bepalen dat nodig is voor het subnet, telt u het aantal virtuele machines dat u nodig hebt, moet u een schatting voor toekomstige groei en gebruikt u vervolgens de volgende tabel om de grootte van het subnet te bepalen.
+Als u het aantal adressen wilt bepalen dat nodig is voor het subnet, telt u het aantal virtuele machines dat u nu nodig hebt, schat u de toekomstige groei in en gebruikt u vervolgens de volgende tabel om de grootte van het subnet te bepalen.
   
-|**Aantal benodigde virtuele machines**|**Aantal benodigde host-bits**|**De grootte van het subnet**|
+|**Aantal virtuele machines dat nodig is**|**Aantal hostbits nodig**|**Grootte van het subnet**|
 |:-----|:-----|:-----|
-|1-3  <br/> |driefasig  <br/> |/29  <br/> |
-|4-11  <br/> |3  <br/> |/28  <br/> |
-|12-27  <br/> |vijf  <br/> |/27  <br/> |
-|28-59  <br/> |zes  <br/> |/26  <br/> |
-|60-123  <br/> |7,5  <br/> |/25  <br/> |
+|1-3  <br/> |3  <br/> |/29  <br/> |
+|4-11  <br/> |4  <br/> |/28  <br/> |
+|12-27  <br/> |5  <br/> |/27  <br/> |
+|28-59  <br/> |6  <br/> |/26  <br/> |
+|60-123  <br/> |7  <br/> |/25  <br/> |
    
-### <a name="planning-worksheet-for-configuring-your-azure-virtual-network"></a>Planningswerkblad voor het configureren van uw Azure Virtual Network
+### <a name="planning-worksheet-for-configuring-your-azure-virtual-network"></a>Werkblad plannen voor het configureren van uw Virtuele Azure-netwerk
 <a name="worksheet"> </a>
 
-Voordat u een virtueel virtueel netwerk van Azure maakt om virtuele machines te hosten, moet u de benodigde instellingen voor de volgende tabellen bepalen.
+Voordat u een virtueel Azure-netwerk maakt om virtuele machines te hosten, moet u de instellingen bepalen die nodig zijn in de volgende tabellen.
   
 Vul tabel V in voor de instellingen van het virtuele netwerk.
   
- **Tabel V: virtuele netwerkconfiguratie van cross-premises**
+ **Tabel V: Configuratie van een virtueel netwerk met een cross-premises locatie**
   
 |**Item**|**Configuratie-element**|**Beschrijving**|**Value**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |Naam van virtueel netwerk  <br/> |Een naam die moet worden toegewezen aan het virtuele Azure-netwerk (bijvoorbeeld DirSyncNet).  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png) |
-|2.  <br/> |Virtuele netwerklocatie  <br/> |Het Azure-datacenter dat het virtuele netwerk bevat (zoals westelijke Verenigde Staten).  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |IP-adres voor VPN-apparaat  <br/> |Het openbare IPv4-adres van de interface van uw VPN-apparaat op internet. Werk samen met uw IT-afdeling om dit adres te bepalen.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|4.  <br/> |Virtuele netwerkadres ruimte  <br/> |De adresruimte (gedefinieerd in één persoonlijke adresprefix) voor het virtuele netwerk. Werk samen met uw IT-afdeling om deze adresruimte te bepalen. De adresruimte moet in de bewerkings indeling van een Klasloze interdomein-indeling zijn, ook wel wel netwerkvoorvoegsel-indeling genoemd. Een voorbeeld is 10.24.64.0/20.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png) <br/> |
-|5.  <br/> |Gedeelde IPsec-sleutel  <br/> |32 een willekeurige alfanumerieke tekenreeks die wordt gebruikt voor de verificatie van beide zijden van de VPN-verbinding tussen sites. Werk samen met uw IT-of beveiligingsafdeling om deze sleutelwaarde te bepalen en op een veilige plaats op te slaan. U kunt ook [een willekeurige tekenreeks maken voor een met IPSec vooraf gedeelde sleutel](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx).  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png) <br/> |
+|1.  <br/> |Naam van virtueel netwerk  <br/> |Een naam die u wilt toewijzen aan het virtuele Azure-netwerk (bijvoorbeeld DirSyncNet).  <br/> |![regel](../media/Common-Images/TableLine.png) |
+|2.  <br/> |Virtuele netwerklocatie  <br/> |Het Azure-datacenter dat het virtuele netwerk (zoals West-VS) zal bevatten.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |IP-adres VPN-apparaat  <br/> |Het openbare IPv4-adres van de interface van uw VPN-apparaat op internet. Werk samen met uw IT-afdeling om dit adres te bepalen.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|4.  <br/> |Virtuele netwerkadresruimte  <br/> |De adresruimte (gedefinieerd in één privéadres voorvoegsel) voor het virtuele netwerk. Werk samen met uw IT-afdeling om deze adresruimte te bepalen. De adresruimte moet de indeling Classless Interdomain Routing (CIDR) hebben, ook wel netwerkprefix-indeling genoemd. Een voorbeeld is 10.24.64.0/20.  <br/> |![regel](../media/Common-Images/TableLine.png) <br/> |
+|5.  <br/> |Gedeelde IPsec-sleutel  <br/> |Een willekeurige, alfanumerieke tekenreeks van 32 tekens die wordt gebruikt om beide zijden van de SITE-naar-site VPN-verbinding te verifiëren. Werk samen met uw IT- of beveiligingsafdeling om deze sleutelwaarde te bepalen en bewaar deze vervolgens op een veilige locatie. Zie Een willekeurige tekenreeks maken voor een vooraf gedeelde [IPsec-toets.](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx)  <br/> |![regel](../media/Common-Images/TableLine.png) <br/> |
    
-Vul de tabel S in voor de subnetten van deze oplossing.
+Vul tabel S in voor de subnetten van deze oplossing.
   
-- Voor het eerste subnet: Bepaal een 28-bits adresruimte (met een/28 prefixlengte) voor het Azure gateway-subnet. Zie voor meer informatie over het bepalen van de adresruimte [van het gateway-subnet voor Azure VM-netwerken](https://blogs.technet.microsoft.com/solutions_advisory_board/2016/12/01/calculating-the-gateway-subnet-address-space-for-azure-virtual-networks/) .
+- Bepaal voor het eerste subnet een 28-bits adresruimte (met een lengte van /28) voor het Azure Gateway-subnet. Zie [De ruimte voor het gateway-subnet voor virtuele Azure-netwerken](/archive/blogs/solutions_advisory_board/calculating-the-gateway-subnet-address-space-for-azure-virtual-networks) berekenen voor informatie over het bepalen van deze adresruimte.
     
-- Geef voor het tweede subnet een beschrijvende naam op, een enkele IP-adresruimte op basis van de virtuele netwerkadres ruimte, en een omschrijvend doel.
+- Geef voor het tweede subnet een vriendelijke naam op, één IP-adresruimte op basis van de virtuele netwerkadresruimte en een beschrijvend doel.
     
-Werk samen met uw IT-afdeling om te bepalen welke adresruimten de virtuele netwerklocatie van het adres heeft. Beide adresruimten moeten in de CIDR-indeling staan.
+Werk samen met uw IT-afdeling om deze adresruimten te bepalen vanuit de virtuele netwerkadresruimte. Beide adressaties moeten cidr-indeling hebben.
   
- **Tabel S: subnetten in het virtuele netwerk**
+ **Tabel S: Subnetten in het virtuele netwerk**
   
-|**Item**|**Naam van subnet**|**Adresruimte van subnet**|**Doel**|
+|**Item**|**Subnetnaam**|**Subnetadresruimte**|**Doel**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |GatewaySubnet  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de Azure gateway.  <br/> |
-|2.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |GatewaySubnet  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat door de Azure-gateway wordt gebruikt.  <br/> |
+|2.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
    
-Voor de on-premises DNS-servers die u wilt gebruiken voor de virtuele machines in het virtuele netwerk, moet u de tabel D invullen. Geef elke DNS-server een beschrijvende naam en één IP-adres. Deze beschrijvende naam hoeft niet overeen te komen met de host name of computernaam van de DNS-server. Houd er rekening mee dat er twee lege vermeldingen worden weergegeven, maar u kunt meer toevoegen. Werk samen met uw IT-afdeling om deze lijst te bepalen.
+Voor de on-premises DNS-servers die u wilt gebruiken voor de virtuele machines in het virtuele netwerk, vult u Tabel D in. Geef elke DNS-server een vriendelijke naam en één IP-adres. Deze vriendelijke naam hoeft niet overeen te komen met de hostnaam of computernaam van de DNS-server. Houd er rekening mee dat er twee lege items worden weergegeven, maar u kunt er meer toevoegen. Werk samen met uw IT-afdeling om deze lijst te bepalen.
   
- **Tabel D: on-premises DNS-servers**
+ **Tabel D: On-premises DNS-servers**
   
-|**Item**|**Beschrijvende naam van de DNS-server**|**IP-adres van de DNS-server**|
+|**Item**|**NAAM VAN DNS-servervriendelijke naam**|**IP-adres dns-server**|
 |:-----|:-----|:-----|
-|1.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
    
-Als u pakketten van het virtuele virtuele netwerk van Azure naar het netwerk van uw organisatie wilt routeren via de site-to-site VPN-verbinding, moet u het virtuele netwerk configureren met een lokaal netwerk. Dit lokale netwerk bevat een lijst met de adresruimten (in de CIDR-indeling) voor alle locaties in het on-premises netwerk van uw organisatie waartoe de virtuele machines in het virtuele netwerk moeten zijn aangekomen. Dit kunnen alle locaties op het on-premises netwerk of een subset zijn. De lijst met adresruimten waarmee uw lokale netwerk wordt gedefinieerd, moet uniek zijn en mag niet overlappen met de adresruimten die worden gebruikt voor dit virtuele netwerk of de andere cross-premises virtuele netwerken.
+Als u pakketten van het virtuele Azure-netwerk wilt doorverplaatsen naar uw organisatienetwerk via de SITE-naar-site VPN-verbinding, moet u het virtuele netwerk configureren met een lokaal netwerk. Dit lokale netwerk heeft een lijst met adressaties (in CIDR-indeling) voor alle locaties in het on-premises netwerk van uw organisatie dat de virtuele machines in het virtuele netwerk moeten bereiken. Dit kunnen alle locaties in het on-premises netwerk of een subset zijn. De lijst met adresruimten die uw lokale netwerk definiëren, moet uniek zijn en mag niet overlappen met de adresruimten die worden gebruikt voor dit virtuele netwerk of uw andere cross-premises virtuele netwerken.
   
-Voor de set lokale netwerkadres ruimten, vult u tabel L in. Merk op dat er wel drie lege vermeldingen worden weergegeven, maar u hebt meestal meer nodig. Werk samen met uw IT-afdeling om deze lijst te bepalen.
+Vul tabel L in voor de set lokale netwerkadressen. Houd er rekening mee dat er drie lege items worden weergegeven, maar dat u meestal meer nodig hebt. Werk samen met uw IT-afdeling om deze lijst te bepalen.
   
- **Tabel L: adresprefixen voor het lokale netwerk**
+ **Tabel L: Adres voorvoegsels voor het lokale netwerk**
   
-|**Item**|**Lokale netwerkadres ruimte**|
+|**Item**|**Lokale netwerkadresruimte**|
 |:-----|:-----|
-|1.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
    
-## <a name="deployment-roadmap"></a>Implementatie routekaart
+## <a name="deployment-roadmap"></a>Routekaart voor implementatie
 <a name="DeploymentRoadmap"> </a>
 
-Het maken van het cross-premises virtuele netwerk en het toevoegen van virtuele machines in azure bestaat uit drie fasen:
+Het maken van het virtuele cross-premises netwerk en het toevoegen van virtuele machines in Azure bestaat uit drie fasen:
   
-- Fase 1: uw on-premises netwerk voorbereiden.
+- Fase 1: Uw on-premises netwerk voorbereiden.
     
-- Fase 2: Maak het cross-premises virtuele netwerk in Azure.
+- Fase 2: Het cross-premises virtuele netwerk maken in Azure.
     
-- Fase 3 (optioneel): virtuele machines toevoegen.
+- Fase 3 (optioneel): Virtuele machines toevoegen.
     
 ### <a name="phase-1-prepare-your-on-premises-network"></a>Fase 1: uw on-premises netwerk voorbereiden
 <a name="Phase1"></a>
 
-U moet uw on-premises netwerk configureren met een route die wijst naar en uiteindelijk verkeer begeleidt voor de adresruimte van het virtuele netwerk naar de router op de Edge van het on-premises netwerk. Neem contact op met uw netwerkbeheerder om te bepalen hoe u de route moet toevoegen aan de routeringsinfrastructuur van uw on-premises netwerk.
+U moet uw on-premises netwerk configureren met een route die naar het adres van het virtuele netwerk wijst en uiteindelijk verkeer levert dat bestemd is voor de router aan de rand van het on-premises netwerk. Neem contact op met de netwerkbeheerder om te bepalen hoe u de route toevoegt aan de routeringsinfrastructuur van uw on-premises netwerk.
   
 Dit is de resulterende configuratie.
   
-![Het on-premises netwerk moet een route hebben voor de adresruimte van het virtuele netwerk dat verwijst naar het VPN-apparaat.](../media/90bab36b-cb60-4ea5-81d5-4737b696d41c.png)
+![Het on-premises netwerk moet een route hebben voor de adresruimte van het virtuele netwerk die naar het VPN-apparaat wijst.](../media/90bab36b-cb60-4ea5-81d5-4737b696d41c.png)
   
-### <a name="phase-2-create-the-cross-premises-virtual-network-in-azure"></a>Fase 2: het cross-premises virtuele netwerk in azure maken
+### <a name="phase-2-create-the-cross-premises-virtual-network-in-azure"></a>Fase 2: het cross-premises virtuele netwerk maken in Azure
 <a name="Phase2"></a>
 
-Open eerst een Azure PowerShell-prompt. Als u Azure PowerShell niet hebt geïnstalleerd, raadpleegt u [aan de slag met Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).
+Open eerst een Azure PowerShell-prompt. Zie Aan de slag met [Azure PowerShell](/powershell/azure/get-started-azureps)als u Azure PowerShell niet hebt geïnstalleerd.
 
  
 Meld u vervolgens aan bij uw Azure-account met deze opdracht.
@@ -225,7 +225,7 @@ Haal de naam van uw abonnement op met de volgende opdracht.
 Get-AzSubscription | Sort SubscriptionName | Select SubscriptionName
 ```
 
-Stel uw Azure-abonnement in met deze opdrachten. Vervang alles binnen de aanhalingstekens, inclusief de < en > tekens, met de juiste naam van het abonnement.
+Stel uw Azure-abonnement in met deze opdrachten. Vervang alles in de aanhalingstekens, inclusief de < en > tekens, door de juiste abonnementsnaam.
   
 ```powershell
 $subscrName="<subscription name>"
@@ -274,9 +274,9 @@ $vnet | Set-AzVirtualNetwork
 
 Dit is de resulterende configuratie.
   
-![Het virtuele netwerk is nog geen verbinding met het on-premises netwerk.](../media/54a37782-a6cc-4d48-b38d-73e128b44a82.png)
+![Het virtuele netwerk is nog niet verbonden met het on-premises netwerk.](../media/54a37782-a6cc-4d48-b38d-73e128b44a82.png)
   
-Vervolgens kunt u deze opdrachten gebruiken om de gateways voor de site-to-site VPN-verbinding te maken.
+Gebruik vervolgens deze opdrachten om de gateways te maken voor de SITE-naar-site VPN-verbinding.
   
 ```powershell
 # Fill in the variables from previous values and from Tables V and L
@@ -306,29 +306,29 @@ Dit is de resulterende configuratie.
   
 ![Het virtuele netwerk heeft nu een gateway.](../media/82dd66b2-a4b7-48f6-a89b-cfdd94630980.png)
   
-Configureer vervolgens uw on-premises VPN-apparaat om verbinding te maken met de Azure VPN-gateway. Zie voor meer informatie [over VPN-apparaten voor site-to-site Azure virtuele netwerkverbindingen](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices).
+Configureer vervolgens uw on-premises VPN-apparaat om verbinding te maken met de Azure VPN-gateway. Zie Over VPN-apparaten voor [site-naar-site Azure Virtual Network-verbindingen voor meer informatie.](/azure/vpn-gateway/vpn-gateway-about-vpn-devices)
   
 Als u uw VPN-apparaat wilt configureren, hebt u het volgende nodig:
   
-- Het openbare IPv4-adres van de Azure VPN-gateway voor uw virtuele netwerk. Gebruik de opdracht **Get-AzPublicIpAddress-Name $vnetGatewayIpConfigName-ResourceGroupName $rgName** om dit adres weer te geven.
+- Het openbare IPv4-adres van de Azure VPN-gateway voor uw virtuele netwerk. Gebruik de **opdracht Get-AzPublicIpAddress -Name $vnetGatewayIpConfigName -ResourceGroupName $rgName** om dit adres weer te geven.
     
-- De vooraf gedeelde sleutel van IPsec voor de site-to-site VPN-verbinding (tabel V-artikel met een waarde van 5 kolommen).
+- De vooraf gedeelde IPsec-sleutel voor de VPN-verbinding van site naar site (tabel V- item 5 - kolom Waarde).
     
 Dit is de resulterende configuratie.
   
 ![Het virtuele netwerk is nu verbonden met het on-premises netwerk.](../media/6379c423-4f22-4453-941b-7ff32484a0a5.png)
   
-### <a name="phase-3-optional-add-virtual-machines"></a>Fase 3 (optioneel): virtuele machines toevoegen
+### <a name="phase-3-optional-add-virtual-machines"></a>Fase 3 (optioneel): Virtuele machines toevoegen
 
-Maak de virtuele machines die u nodig hebt in Azure. Zie voor meer informatie [een virtuele Windows-computer maken met de Azure-Portal](https://go.microsoft.com/fwlink/p/?LinkId=393098).
+Maak de virtuele machines die u nodig hebt in Azure. Zie Een virtuele Windows-computer maken met [de Azure-portal](https://go.microsoft.com/fwlink/p/?LinkId=393098)voor meer informatie.
   
 Gebruik de volgende instellingen:
   
-- Selecteer op het tabblad **basis** de optie hetzelfde abonnement en de resourcegroep als uw virtuele netwerk. U hebt deze later nodig om u aan te melden bij de virtuele machine. Kies in de sectie **Details van exemplaar** de juiste grootte van de virtuele computer. Neem de gebruikersnaam en het wachtwoord van het beheerdersaccount op een veilige locatie op. 
+- Selecteer op **het** tabblad Basisbeginselen hetzelfde abonnement en dezelfde resourcegroep als uw virtuele netwerk. U hebt deze later nodig om u aan te melden bij de virtuele machine. Kies in **de sectie Exemplaardetails** de juiste virtuele machinegrootte. Neem de gebruikersnaam en het wachtwoord van het beheerdersaccount op op een veilige locatie. 
     
-- Selecteer op het tabblad **netwerken** de naam van uw virtuele netwerk en het subnet voor het hosten van virtuele machines (niet de GatewaySubnet). Zorg dat u alle overige instellingen tegen hun standaardwaarden hoeft te wijzigen.
+- Selecteer op **het** tabblad Netwerken de naam van uw virtuele netwerk en het subnet voor het hosten van virtuele machines (niet het GatewaySubnet). Laat alle andere instellingen op hun standaardwaarden staan.
     
-Controleer of de virtuele machine correct DNS gebruikt door uw interne DNS te controleren om ervoor te zorgen dat adres-of record records zijn toegevoegd voor de nieuwe virtuele machine. Voor toegang tot het Internet moet uw virtuele machines van Azure zijn geconfigureerd voor gebruik van de proxyserver van het on-premises netwerk. Neem contact op met uw netwerkbeheerder voor aanvullende configuratiestappen voor de server.
+Controleer of uw virtuele computer DNS correct gebruikt door uw interne DNS te controleren om ervoor te zorgen dat adresrecords (A) voor u nieuwe virtuele machine zijn toegevoegd. Als u toegang wilt tot internet, moeten uw Azure-virtuele machines zijn geconfigureerd om de proxyserver van uw on-premises netwerk te gebruiken. Neem contact op met de netwerkbeheerder voor aanvullende configuratiestappen om uit te voeren op de server.
   
 Dit is de resulterende configuratie.
   

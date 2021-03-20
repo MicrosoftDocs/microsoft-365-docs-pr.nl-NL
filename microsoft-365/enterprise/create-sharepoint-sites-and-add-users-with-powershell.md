@@ -18,36 +18,36 @@ ms.custom:
 - SPO_Content
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: 'Overzicht: PowerShell gebruiken om nieuwe SharePoint Online-sites te maken en vervolgens gebruikers en groepen aan deze sites toe te voegen.'
-ms.openlocfilehash: 28a51cc39fe838f6c7f9c50e9d750d28e5d830c4
-ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
+description: 'Overzicht: Gebruik PowerShell om nieuwe SharePoint Online-sites te maken en vervolgens gebruikers en groepen aan die sites toe te voegen.'
+ms.openlocfilehash: eb6c2817c8760ca222da8a7c2b14cbfcda4eb4b8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48594916"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907616"
 ---
 # <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>SharePoint Online-sites maken en gebruikers toevoegen met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Wanneer u PowerShell voor Microsoft 365 gebruikt om SharePoint Online-sites te maken en gebruikers toe te voegen, kunt u snel en herhaaldelijk taken sneller uitvoeren dan in het Microsoft 365-Beheercentrum. Het is ook mogelijk om taken uit te voeren die niet beschikbaar zijn in het Microsoft 365-Beheercentrum. 
+Wanneer u PowerShell voor Microsoft 365 gebruikt om SharePoint Online-sites te maken en gebruikers toe te voegen, kunt u snel en herhaaldelijk taken veel sneller uitvoeren dan in het Microsoft 365-beheercentrum. U kunt ook taken uitvoeren die niet kunnen worden uitgevoerd in het Microsoft 365-beheercentrum. 
 
 ## <a name="connect-to-sharepoint-online"></a>Verbinding maken met SharePoint Online
 
-Voor de procedures in dit onderwerp moet u verbinding maken met SharePoint Online. Zie [verbinding maken met SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) voor instructies
+Voor de procedures in dit onderwerp moet u verbinding maken met SharePoint Online. Zie Verbinding maken [met SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) voor instructies
 
-## <a name="step-1-create-new-site-collections-using-powershell"></a>Stap 1: Maak nieuwe siteverzamelingen met behulp van PowerShell
+## <a name="step-1-create-new-site-collections-using-powershell"></a>Stap 1: Nieuwe siteverzamelingen maken met PowerShell
 
-Maak meerdere sites met behulp van PowerShell en een CSV-bestand dat u maakt met behulp van de voorbeeldcode en het Kladblok. Voor deze procedure vervangt u de informatie over de tijdelijke aanduiding tussen vierkante haken met uw eigen site-en Tenant informatie. Met deze procedure kunt u één bestand maken en één PowerShell-opdracht uitvoeren waarbij dat bestand wordt gebruikt. Dit zorgt ervoor dat de acties zowel herhalen als verplaatsbaar zijn en veel, indien niet allen, van invloed zijn op het typen van lange opdrachten in de SharePoint Online Management Shell. Deze procedure bestaat uit twee gedeelten. Eerst maakt u een CSV-bestand en gaat u naar het CSV-bestand met behulp van PowerShell, waarin de inhoud wordt gebruikt om de sites te maken.
+Maak meerdere sites met PowerShell en een CSV-bestand dat u maakt met de opgegeven voorbeeldcode en Kladblok. Voor deze procedure vervangt u de tijdelijke aanduidingen tussen haakjes door uw eigen site- en tenantspecifieke informatie. Met dit proces kunt u één bestand maken en één PowerShell-opdracht uitvoeren waarin dat bestand wordt gebruikt. Hierdoor kunnen de acties die worden ondernomen, zowel herhaalbaar als draagbaar zijn en worden veel, zo niet alle, fouten weggewerkt die kunnen ontstaan door het typen van lange opdrachten in de SharePoint Online-beheershell. Deze procedure bestaat uit twee onderdelen. Eerst maakt u een CSV-bestand en vervolgens verwijst u naar dat CSV-bestand met PowerShell, waarmee de inhoud ervan wordt gebruikt om de sites te maken.
 
-De PowerShell-cmdlet importeert het CSV-bestand en sluist in een lus binnen de accolades die de eerste regel van het bestand als kolomkoppen leest. De PowerShell-cmdlet belegt vervolgens de resterende records, maakt een nieuwe siteverzameling voor elke record en wijst eigenschappen van de siteverzameling toe op basis van de kolomkoppen.
+De PowerShell-cmdlet importeert het CSV-bestand en voert het naar een lus binnen de gekrulde haken die de eerste regel van het bestand als kolomkoppen leest. De PowerShell-cmdlet itereert vervolgens door de resterende records, maakt een nieuwe siteverzameling voor elke record en wijst eigenschappen van de siteverzameling toe op basis van de kolomkoppen.
 
 ### <a name="create-a-csv-file"></a>Een CSV-bestand maken
 
 > [!NOTE]
-> De parameter resource quotum werkt alleen op klassieke sites. Als u deze parameter op een moderne site gebruikt, ontvangt u mogelijk een waarschuwingsbericht dat is afgeschaft. 
+> De resourcequotaparameter werkt alleen op klassieke sites. Als u deze parameter op een moderne site gebruikt, ontvangt u mogelijk een waarschuwing dat deze is afgeschaft. 
 
-1. Open Kladblok en plak de volgende tekst blokkering erin:<br/>
+1. Open Kladblok en plak het volgende tekstblok erop:<br/>
 
 ```powershell
 Owner,StorageQuota,Url,ResourceQuota,Template,TimeZoneID,Name
@@ -56,43 +56,43 @@ owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/Blog01,25,B
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Project01,25,PROJECTSITE#0,10,Project Alpha
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01,25,COMMUNITY#0,10,Community Site
 ```
-<br/>Waarbij *Tenant* de naam van de Tenant is en *eigenaar* de gebruikersnaam is van de gebruiker in de Tenant waaraan u de rol van primaire beheerder van de siteverzameling wilt verlenen.<br/>(Druk op CTRL + H wanneer u Kladblok gebruikt om de bulk sneller te vervangen.)<br/>
+<br/>Waarbij *tenant* de naam van uw tenant *is* en de eigenaar de gebruikersnaam is van de gebruiker op uw tenant aan wie u de rol van primaire beheerder van de siteverzameling wilt verlenen.<br/>(U kunt op Ctrl+H drukken wanneer u Kladblok gebruikt om sneller bulksgewijs te vervangen.)<br/>
 
-2. Sla het bestand op uw bureaublad op als **SiteCollections.csv**.<br/>
+2. Sla het bestand op uw bureaublad op **alsSiteCollections.csv.**<br/>
 
 > [!TIP]
-> Voordat u dit of een ander. CSV-of Windows PowerShell-scriptbestand gebruikt, is het een goede gewoonte om ervoor te zorgen dat er geen overbodige of niet-afdrukbare tekens zijn. Open het bestand in Word en klik op het lint op het pictogram alinea om niet-afdrukbare tekens weer te geven. Er moeten geen overbodige niet-afdrukbare tekens zijn. Dit kan bijvoorbeeld geen alineamarkeringen buiten de laatste aan het einde van het bestand bevatten.
+> Voordat u dit of een ander CSV- of Windows PowerShell-scriptbestand gebruikt, is het een goede gewoonte om ervoor te zorgen dat er geen overbodige of niet-afdrukbare tekens zijn. Open het bestand in Word en klik op het lint op het alineapictogram om niet-afdrukbare tekens weer te geven. Er mogen geen overbodige niet-afdrukbare tekens zijn. Er mogen bijvoorbeeld geen alineamarkeringen achter de laatste alineamarkeringen aan het einde van het bestand staan.
 
-### <a name="run-the-windows-powershell-command"></a>De Windows PowerShell-opdracht uitvoeren
+### <a name="run-the-windows-powershell-command"></a>De opdracht Windows PowerShell uitvoeren
 
-1. Typ of kopieer en plak de volgende opdracht bij de Windows PowerShell-prompt en druk op ENTER:<br/>
+1. Typ of kopieer en plak de volgende opdracht bij de Windows PowerShell-prompt en druk op Enter:<br/>
 ```powershell
 Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -ResourceQuota $_.ResourceQuota -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
 ```
-<br/>Waarbij *Mijn alias* gelijk is aan uw alias voor uw gebruikers.<br/>
+<br/>Waarbij *MyAlias* gelijk is aan uw gebruikersalias.<br/>
 
-2. Wacht totdat de Windows PowerShell-prompt opnieuw wordt weergegeven. Het kan een paar minuten duren.<br/>
+2. Wacht totdat de Windows PowerShell-prompt opnieuw verschijnt. Het kan een paar minuten duren.<br/>
 
-3. Typ of kopieer en plak de volgende cmdlet achter de Windows PowerShell-prompt en druk op ENTER:<br/>
+3. Typ of kopieer en plak de volgende cmdlet bij de Windows PowerShell-prompt en druk op Enter:<br/>
 
 ```powershell
 Get-SPOSite -Detailed | Format-Table -AutoSize
 ```
 <br/>
 
-4. Let op de nieuwe siteverzamelingen in de lijst. Als u het CSV-voorbeeldbestand gebruikt, ziet u de volgende siteverzamelingen: **TeamSite01**, **Blog01**, **Project01**en **Community01**
+4. Let op de nieuwe siteverzamelingen in de lijst. Als u ons voorbeeld CSV-bestand gebruikt, ziet u de volgende siteverzamelingen: **TeamSite01,** **Blog01,** **Project01** en **Community01**
 
-Dat is alles. U hebt meerdere siteverzamelingen gemaakt met het. CSV-bestand dat u hebt gemaakt en één Windows PowerShell-opdracht. U bent nu klaar om gebruikers te maken en toe te wijzen aan deze sites.
+Dat is alles. U hebt meerdere siteverzamelingen gemaakt met het CSV-bestand dat u hebt gemaakt en één Windows PowerShell-opdracht. U bent nu klaar om gebruikers aan deze sites te maken en toe te wijzen.
 
-## <a name="step-2-add-users-and-groups"></a>Stap 2: gebruikers en groepen toevoegen
+## <a name="step-2-add-users-and-groups"></a>Stap 2: Gebruikers en groepen toevoegen
 
-U gaat nu gebruikers maken en deze toevoegen aan een siteverzamelingsgroep. Vervolgens gebruikt u een CSV-bestand om nieuwe groepen en gebruikers bulksgewijs te uploaden.
+U gaat nu gebruikers maken en toevoegen aan een groep siteverzamelingen. Vervolgens gebruikt u een CSV-bestand om nieuwe groepen en gebruikers bulksgewijs te uploaden.
 
-De volgende procedures gaan verder met de voorbeeld sites TeamSite01, Blog01, Project01 en Community01.
+In de volgende procedures worden de voorbeeldsites TeamSite01, Blog01, Project01 en Community01 gebruikt.
 
-### <a name="create-csv-and-ps1-files"></a>CSV-en ps1-bestanden maken
+### <a name="create-csv-and-ps1-files"></a>CSV- en PS1-bestanden maken
 
-1. Open Kladblok en plak de volgende tekst blokkering erin:<br/>
+1. Open Kladblok en plak het volgende tekstblok erop:<br/>
 
 ```powershell
 Site,Group,PermissionLevels
@@ -105,11 +105,11 @@ https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Designers,Design
 https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Editors,Edit
 https://tenant.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Control
 ```
-<br/>Dit *is de* naam van de Tenant en de naam van de Tenant.<br/>
+<br/>Waarbij *tenant* gelijk is aan uw tenantnaam.<br/>
 
-2. Sla het bestand op uw bureaublad op als **GroupsAndPermissions.csv**.<br/>
+2. Sla het bestand op uw bureaublad op **alsGroupsAndPermissions.csv.**<br/>
 
-3. Open een nieuw exemplaar van Kladblok en plak het volgende tekstblok in het Kladblok:<br/>
+3. Open een nieuw exemplaar van Kladblok en plak het volgende tekstblok erop:<br/>
 
 ```powershell
 Group,LoginName,Site
@@ -122,45 +122,45 @@ Contoso Blog Designers,username@tenant.onmicrosoft.com,https://tenant.sharepoint
 Contoso Blog Editors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Blog01
 Project Alpha Approvers,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Project01
 ```
-<br/>Dit *is de* naam van de Tenant en de *gebruikersnaam is gelijk aan* de gebruikersnaam van een bestaande gebruiker.<br/>
+<br/>Waarbij *tenant* gelijk is aan uw tenantnaam en *gebruikersnaam* gelijk is aan de gebruikersnaam van een bestaande gebruiker.<br/>
 
-4. Sla het bestand op uw bureaublad op als **Users.csv**.<br/>
+4. Sla het bestand op uw bureaublad op **alsUsers.csv.**<br/>
 
-5. Open een nieuw exemplaar van Kladblok en plak het volgende tekstblok in het Kladblok:<br/>
+5. Open een nieuw exemplaar van Kladblok en plak het volgende tekstblok erop:<br/>
 
 ```powershell
 Import-Csv C:\users\MyAlias\desktop\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGroup -Group $_.Group -PermissionLevels $_.PermissionLevels -Site $_.Site}
 Import-Csv C:\users\MyAlias\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
-<br/>Waarbij mijn alias gelijk is aan de gebruikersnaam van de gebruiker die op dat moment is aangemeld.<br/>
+<br/>Waarbij MyAlias gelijk is aan de gebruikersnaam van de gebruiker die momenteel is aangemeld.<br/>
 
-6. Sla het bestand op uw bureaublad op als **UsersAndGroups.ps1**. Dit is een eenvoudig Windows PowerShell-script.
+6. Sla het bestand op uw bureaublad op **alsUsersAndGroups.ps1.** Dit is een eenvoudig Windows PowerShell-script.
 
-U bent nu klaar om het UsersAndGroup.ps1 script uit te voeren om gebruikers en groepen toe te voegen aan meerdere siteverzamelingen.
+U kunt nu het script UsersAndGroup.ps1 om gebruikers en groepen toe te voegen aan meerdere siteverzamelingen.
 
-### <a name="run-usersandgroupsps1-script"></a>UsersAndGroups.ps1 script uitvoeren
+### <a name="run-usersandgroupsps1-script"></a>Voer UsersAndGroups.ps1 script uit
 
 1. Ga terug naar de SharePoint Online Management Shell.<br/>
-2. Typ of kopieer en plak de volgende regel in de Windows PowerShell-prompt en druk op ENTER:<br/>
+2. Typ of kopieer en plak de volgende regel bij de Windows PowerShell-prompt en druk op Enter:<br/>
 ```powershell
 Set-ExecutionPolicy Bypass
 ```
 <br/>
 
-3. Druk op **Y**wanneer u om een bevestiging wordt gevraagd.<br/>
+3. Druk bij de bevestigingsprompt op **Y**.<br/>
 
-4. Typ of kopieer en plak de volgende tekst bij de Windows PowerShell-prompt en druk op ENTER:<br/>
+4. Typ of kopieer en plak het volgende bij de Windows PowerShell-prompt en druk op Enter:<br/>
 
 ```powershell
 c:\users\MyAlias\desktop\UsersAndGroups.ps1
 ```
-<br/>Waarbij *Mijn alias* gelijk is aan uw gebruikersnaam.<br/>
+<br/>Waarbij *MyAlias* gelijk is aan uw gebruikersnaam.<br/>
 
-5. Wacht totdat de prompt wordt weergegeven voordat u verdergaat. U ziet eerst welke groepen worden weergegeven wanneer ze worden gemaakt. Vervolgens wordt de groepslijst herhaald wanneer gebruikers worden toegevoegd.
+5. Wacht totdat de prompt wordt terugkomt voordat u verder gaat. De groepen worden eerst weergegeven terwijl ze worden gemaakt. Vervolgens wordt de groepslijst herhaald wanneer gebruikers worden toegevoegd.
 
 ## <a name="see-also"></a>Zie ook
 
-[Verbinding maken met SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+[Verbinding maken met SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 [SharePoint Online-sitegroepen beheren met PowerShell](manage-sharepoint-site-groups-with-powershell.md)
 

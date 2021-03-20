@@ -1,5 +1,5 @@
 ---
-title: Beheer organisatie en levenscyclusbeheer voor Microsoft 365-groepen en Microsoft teams
+title: Organisatie en levenscyclusbeheer plannen voor Microsoft 365-groepen en Microsoft Teams
 ms.reviewer: arvaradh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,69 +14,69 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Opties voor het beheer van de levenscyclus van functies voor samenwerking in Microsoft 365
-ms.openlocfilehash: 4d779701d241fc7178ab759063be1b8cdf2e960c
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+description: Lean about lifecycle governance options for collaboration tools in Microsoft 365
+ms.openlocfilehash: ff3a3a60ce49c423410b51dc6fee2137ebf8952a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613018"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907926"
 ---
-# <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Beheer organisatie en levenscyclusbeheer voor Microsoft 365-groepen en Microsoft teams
+# <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Organisatie en levenscyclusbeheer plannen voor Microsoft 365-groepen en Microsoft Teams
 
-Microsoft 365-groepen heeft een uitgebreide set hulpmiddelen voor de implementatie van de beheermogelijkheden die uw organisatie nodig heeft. 
+Microsoft 365-groepen beschikt over een uitgebreide set hulpprogramma's voor het implementeren van de beheermogelijkheden die uw organisatie nodig heeft. 
 
-In de volgende sectie worden de mogelijkheden beschreven, aanbevolen procedures aanbevolen en richtlijnen om de juiste vragen te stellen voor het bepalen van de vereisten voor beheer en hoe u deze kunt gebruiken.
+In de volgende sectie worden de mogelijkheden beschreven, aanbevolen procedures en worden richtlijnen gegeven voor het stellen van de juiste vragen om de vereisten voor beheer te bepalen en hoe u aan deze vereisten kunt voldoen.
 
 ## <a name="control-who-can-create-microsoft-365-groups"></a>Bepalen wie Microsoft 365-groepen kan maken
 
-Groepen kunnen worden gemaakt door eindgebruikers van meerdere eindpunten, waaronder Outlook, SharePoint, teams en andere omgevingen.
+Groepen kunnen door eindgebruikers worden gemaakt vanuit meerdere eindpunten, waaronder Outlook, SharePoint, Teams en andere omgevingen.
 
-![Beschrijving van de afbeelding](../media/04.png)
+![afbeeldingssc](../media/04.png)
 
-We raden u ten zeerste aan om groepseigenaren te bieden en gebruikers te helpen gemakkelijker hun werk gedaan te krijgen. Wanneer u beperkingen voor groepen en teams beperkt, kunnen gebruikers de productiviteit van de gebruikers verminderen omdat voor veel services van Microsoft 365 de groepen die voor de service zijn gemaakt, moeten worden gemaakt.
+We raden selfservice ten zeerste aan om groepseigenaren in staat te stellen en gebruikers te helpen hun werk gemakkelijker te doen. Het beperken van het maken van groepen en het maken van teams kan de productiviteit van gebruikers vertragen, omdat voor veel Microsoft 365-services groepen moeten worden gemaakt om de service te laten functioneren.
 
-Houd rekening met de volgende beheeropties voor het maken van groepen:
+Overweeg de volgende beheeropties voor het maken van groepen:
 
-- Als u de groeps sprawl wilt beperken, gebruikt u [beleidsregels voor groepen](microsoft-365-groups-expiration-policy.md) waarmee u groepen die niet worden gebruikt, automatisch verwijderen.
-- Maak het maken van groepen beperkt tot leden van een [beveiligingsgroep met dynamisch lidmaatschap met een dynamisch lidmaatschap](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule) , bijvoorbeeld alle fulltime werknemers.
-- Maak het maken van groepen beperkt tot een beveiligingsgroep en vraag gebruikers training te voltooien in het beleid voor groepsgebruik van uw organisatie om lid te worden van de beveiligingsgroep.
+- Als u groepsuitbreiding wilt beperken, gebruikt u [verloopbeleid](microsoft-365-groups-expiration-policy.md) voor groepen om groepen die niet worden gebruikt, automatisch te verwijderen.
+- Beperk het maken van groepen tot leden van een [beveiligingsgroep met dynamisch](/azure/active-directory/users-groups-roles/groups-create-rule) lidmaatschap, bijvoorbeeld alle voltijdse werknemers.
+- Beperk het maken van groepen tot een beveiligingsgroep en vereist dat gebruikers de training in het groepsbeleid van uw organisatie voltooien om lid te worden van de beveiligingsgroep.
 
-Als u wilt beperken wie groepen kan maken, raadpleegt u [Manage wie Microsoft 365-groepen kunnen maken](manage-creation-of-groups.md) voor informatie over het configureren van dit.
+Zie Beheren wie [Microsoft 365-groepen](manage-creation-of-groups.md) kan maken voor informatie over het configureren van deze groepen als u wilt beperken wie groepen kan maken.
 
-## <a name="group-delete-restore-and-archiving"></a>Groep verwijderen, herstellen en archiveren
+## <a name="group-delete-restore-and-archiving"></a>Verwijderen, herstellen en archiveren groeperen
 
 Wanneer een Microsoft 365-groep wordt verwijderd, wordt deze standaard 30 dagen bewaard. Tijdens deze periode van 30 dagen kunt u de groep nog steeds herstellen. Na 30 dagen worden de groep en de bijbehorende inhoud definitief verwijderd en kunnen deze niet worden hersteld.
 
-Als u wilt dat het bewaarbeleid voor chatberichten, bestanden of e-mail bewaard blijft, blijven deze items behouden nadat de groep is verwijderd. Zie [meer informatie over bewaarbeleid](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) voor meer informatie.
+Als u bewaarbeleid hebt om chat, bestanden of e-mail te behouden, blijven deze items behouden nadat de groep is verwijderd. Zie [Meer informatie over bewaarbeleid](../compliance/retention.md) voor meer informatie.
 
-Als u een groep wilt verwijderen, maar de inhoud van een of meer met de groep verbonden services wilt behouden, raadpleegt u [Archief groepen, teams en Yammer](end-life-cycle-groups-teams-sites-yammer.md) voor informatie.
+Zie Groepen, teams en [Yammer](end-life-cycle-groups-teams-sites-yammer.md) archiveren voor informatie als u een groep wilt verwijderen, maar de inhoud wilt behouden van een of meer services die met de groep zijn verbonden.
 
-## <a name="group-naming-policy"></a>Naam beleid voor groepen
+## <a name="group-naming-policy"></a>Groepsbeleid voor naamgeving
 
-Met behulp van een Groepsbeleid kunt u op twee manieren groepen beheren:
+Met een naamgevingsbeleid voor groepen kunt u groepen op twee manieren besturen:
 
-- Met een naamgevingsbeleid voorvoegsels/achtervoegsels kunnen vaste tekenreeksen of Azure AD-kenmerken aan het begin of einde van de groepsnaam en het bijbehorende e-mailadres worden afgedwongen. Op deze manier kunt u ervoor zorgen dat de namen van de afdelings namen of regio's worden opgenomen in de namen van groepen.
-- Met het beleid voor geblokkeerde woorden kunt u ervoor zorgen dat bepaalde woorden, zoals de namen van leidinggevenden, niet worden gebruikt in groepsnamen.
+- Een naamgevingsbeleid voor voorvoegsels/achtervoegsels kan worden gebruikt om vaste tekenreeksen of Azure AD-kenmerken af te dwingen aan het begin of einde van een groepsnaam en het bijbehorende e-mailadres. Hierdoor kunt u ervoor zorgen dat bijvoorbeeld afdelingsnamen of regio's in groepsnamen worden opgenomen.
+- Een beleid voor geblokkeerde woorden kan ervoor zorgen dat bepaalde woorden, zoals de namen van leidinggevenden, niet worden gebruikt in groepsnamen.
 
-Het naamgevingsbeleid wordt toegepast wanneer groepen worden gemaakt op basis van een van de groepen verbonden services.
+Naamgevingsbeleid wordt toegepast wanneer groepen worden gemaakt op een van de met de groep verbonden services.
 
-Als u het naamgevingsbeleid voor groepen wilt gebruiken, raadpleegt u [Microsoft 365 groepen naam beleid](groups-naming-policy.md).
+Zie Naamgevingsbeleid voor [Microsoft 365 Groepen](groups-naming-policy.md)als u besluit naamgevingsbeleid voor groepen te gebruiken.
 
-## <a name="group-expiration-policy"></a>Verloopbeleid voor groepen
+## <a name="group-expiration-policy"></a>Verloopbeleid groep
 
-U kunt een vervalperiode en groepen opgeven waarmee het einde van de periode wordt bereikt, en de groep wordt niet vernieuwd. De verloopperiode begint wanneer de groep is gemaakt, of op de datum waarop deze het laatst is vernieuwd.
+U kunt een verloopperiode opgeven en elke groep die het einde van die periode bereikt en niet wordt verlengd, wordt verwijderd. De verloopperiode begint wanneer de groep wordt gemaakt of op de datum waarop de groep voor het laatst is verlengd.
 
-Wanneer u groepen hebt ingesteld op verloopt, doet u het volgende:
-- Eigenaren van de groep ontvangen een melding voor het verlengen van de groep als het verlopen van de groep.
+Nadat u groepen hebt ingesteld op verlopen:
+- Eigenaren van de groep krijgen een melding om de groep te verlengen zodra de vervaldatum nadert.
 - Actieve groepen worden automatisch verlengd.
-- Alle groepen die niet worden vernieuwd, worden verwijderd.
-- Een groep die wordt verwijderd, kan binnen 30 dagen worden teruggezet door de groepseigenaren of de beheerder.
+- Een groep die niet wordt verlengd, wordt verwijderd.
+- Elke groep die wordt verwijderd, kan binnen 30 dagen worden hersteld door de groepseigenaars of de beheerder.
 
-Verloopbeleid is een goede manier om de groeps sprawl te beperken door te zorgen dat groepen die niet meer worden gebruikt, worden verwijderd. Zie [verloopbeleid voor groepen Microsoft 365](microsoft-365-groups-expiration-policy.md)als u een verloopbeleid voor groepen wilt maken.
+Verloopbeleid is een goede manier om groepsuitbreiding te beperken door ervoor te zorgen dat groepen die niet meer worden gebruikt, worden verwijderd. Zie Microsoft [365 Group Expiration Policy](microsoft-365-groups-expiration-policy.md)(Verloopbeleid voor groepen) als u een verloopbeleid voor groepen wilt maken.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Uw plan voor samenwerking maken](collaboration-governance-first.md)
+[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)

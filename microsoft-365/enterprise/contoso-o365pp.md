@@ -14,46 +14,46 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek hoe Contoso Microsoft Endpoint Configuration Manager gebruikt om Microsoft 365-apps voor ondernemingen te implementeren.
-ms.openlocfilehash: 2c02c28ddba7c24592ce09d87bf6f5c9df700a2a
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 71958b2e87882e478a852db1f906f61207837854
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754348"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907672"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Implementatie van Microsoft 365-apps voor ondernemingen voor Contoso
 
-Contoso heeft hun pc's geüpgraded naar Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen om effectievere samenwerking, betere beveiliging en een modernere bureaubladervaring mogelijk te maken. Na beoordeling van de infrastructuur en de bedrijfsbehoeften heeft Contoso de volgende sleutel vereisten voor de implementatie aangegeven:
+Contoso heeft hun pc's geüpgraded naar Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen om effectievere samenwerking, betere beveiliging en een modernere bureaubladervaring mogelijk te maken. Nadat ze hun infrastructuur en zakelijke behoeften hebben beoordeeld, heeft Contoso deze belangrijke vereisten voor de implementatie geïdentificeerd:
 
-- Voor alle Pc's moet Microsoft 365-apps voor Enterprise worden uitgevoerd.
-- Implementatie dient indien mogelijk bestaande beheerprogramma's en infrastructuur te gebruiken.
-- Implementatie moet meerdere talen en bestaande architecturen op de apparaten van gebruikers ondersteunen.
-- Pc's moeten up-to-date blijven en veilig zijn met minimale IT-beheerkosten en de minimale impact voor gebruikers.
+- Op alle pc's moet Microsoft 365 Apps voor bedrijven worden uitgevoerd.
+- Implementatie moet indien mogelijk gebruikmaken van bestaande beheerhulpmiddelen en -infrastructuur.
+- Implementatie moet ondersteuning bieden voor meerdere talen en bestaande architecturen op apparaten van gebruikers.
+- Pc's moeten up-to-date en veilig blijven met minimale IT-beheerkosten en minimale gevolgen voor gebruikers.
 
 ## <a name="deployment-tools"></a>Implementatiehulpmiddelen
 
-Op basis van de vereisten is contoso besloten om Windows 10 Enterprise en Microsoft 365-apps voor Enterprise via Configuration Manager (huidige tak) te implementeren. Configuration Manager is schaalbaar voor grote omgevingen en biedt uitgebreide controle over installatie, updates en instellingen. Er zijn ook ingebouwde functies waarmee het eenvoudiger en efficiënter wordt om Office te implementeren en te beheren, waaronder:
+Op basis van hun vereisten heeft Contoso ervoor gekozen Windows 10 Enterprise en Microsoft 365 Apps voor ondernemingen te implementeren via Configuration Manager (Current Branch). Configuration Manager is schaalbaar voor grote omgevingen en biedt uitgebreide controle over installatie, updates en instellingen. Er zijn ook ingebouwde functies waarmee het eenvoudiger en efficiënter wordt om Office te implementeren en te beheren, waaronder:
 
-- Peer cache, waarmee kan worden gecommuniceerd met beperkte netwerkcapaciteit wanneer ze op externe locaties implementeren.
-- Het dashboard van Office-client, waarmee u eenvoudig Office kunt implementeren en bijwerken en beheerderstoegang kunt krijgen tot de meest recente functies voor het implementeren en beheren van functies.
-- Intelligent taalpakket implementeren, waaronder automatisch de taal van het besturingssysteem.
-- Een volledig ondersteunde en eenvoudig te gebruiken manier om bestaande versies van Office te verwijderen uit een client tijdens de implementatie.
+- Peercache, wat kan helpen bij beperkte netwerkcapaciteit bij het implementeren naar apparaten op externe locaties.
+- Het Office Client Management-dashboard, waarmee u eenvoudig Office kunt implementeren en updates kunt controleren en beheerders toegang geeft tot de nieuwste implementatie- en beheerfuncties.
+- Intelligente implementatie van taalpakket, inclusief het automatisch implementeren van dezelfde taal als het besturingssysteem.
+- Een volledig ondersteunde en eenvoudig te gebruiken methode voor het verwijderen van bestaande versies van Office uit een client tijdens de implementatie.
 
-Naast de Configuration Manager gebruikte Contoso de [Readiness Toolkit voor Office-invoegtoepassingen en VBA](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps), een gratis tool van Microsoft, om compatibiliteitsproblemen met hun Office-macro's en-invoegtoepassingen te beoordelen.
+Naast Configuration Manager heeft Contoso de Gereedheidshulpset voor [Office-invoegvoegingen](/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps)en VBA , een gratis hulpprogramma van Microsoft, gebruikt om compatibiliteitsproblemen met hun Office-macro's en -invoegvoegingen te beoordelen.
 
 ## <a name="managing-deployment-and-updates"></a>Implementatie en updates beheren
 
-Microsoft 365-apps voor ondernemingen heeft een nieuw releasemodel: Office-als-een-service. Met het servicemodel kunt u gemakkelijk up-to-date blijven met nieuwe functies. Maar de IT-afdelingen moeten vaak veranderen hoe ze nieuwe versies implementeren en testen. Om compatibiliteitsproblemen te minimaliseren en om ervoor te zorgen dat hun computers up-to-date blijven, door contoso geïmplementeerde Vensters en Office in twee fasen:
+Microsoft 365-apps voor ondernemingen heeft een nieuw releasemodel: Office-als-een-service. Met het servicemodel kunt u eenvoudig op de hoogte blijven van nieuwe functies. Maar it-afdelingen moeten vaak de manier wijzigen waarop ze nieuwe releases implementeren en testen. Om compatibiliteitsproblemen te minimaliseren en ervoor te zorgen dat hun computers up-to-date blijven, heeft Contoso Windows en Office in twee fasen geïmplementeerd:
 
-- Eerst hebben ze Microsoft 365-apps voor Enterprise geïmplementeerd voor een kleine groep representatieve apparaten in de gehele organisatie. Deze testgroep werd gebruikt voor het testen van apps, invoegtoepassingen en hardware met Microsoft 365-apps voor ondernemingen.
+- Eerst hebben ze Microsoft 365 Apps voor ondernemingen geïmplementeerd op een kleine set representatieve apparaten in de hele organisatie. Deze testgroep is gebruikt om apps, invoegprogramma's en hardware te testen met Microsoft 365 Apps voor bedrijven.
 - Vier maanden later, nadat alle kritieke problemen met apps, invoegtoepassingen en hardware in de pilotgroep waren verholpen, heeft Contoso Microsoft 365-apps voor ondernemingen toegepast op de rest van de apparaten in de organisatie (de brede groep).
 
-In plaats van updates voor Office te beheren via Configuration Manager, met Contoso geautomatiseerde updates van de Cloud. Voor de updates van de Cloud wordt de beheerskosten beperkt en zorg ervoor dat de apparaten up-to-date blijven.
+In plaats van updates voor Office te beheren met Configuration Manager, heeft Contoso automatische updates vanuit de cloud ingeschakeld. Cloud-updates beperken de administratieve overhead en zorgen ervoor dat apparaten up-to-date blijven.
 
-Contoso heeft dezelfde aanpak met twee fasen gevolgd voor de functie-updates die worden gebruikt voor de implementatie van Office: apparaten in de testgroep ontvangen vier maanden eerder de optie updates van de rest van de organisatie (de grote groep). Om dit in te schakelen voor Office, heeft Contoso twee aanbevolen [updatekanalen](https://docs.microsoft.com/DeployOffice/overview-update-channels) gebruikt:
+Contoso heeft dezelfde tweefasenbenadering gevolgd voor functie-updates als voor de implementatie van Office: Apparaten in de testgroep hebben vier maanden eerder functie-updates ontvangen dan apparaten in de rest van de organisatie (de brede groep). Om dit in te schakelen voor Office, heeft Contoso twee aanbevolen [updatekanalen](/DeployOffice/overview-update-channels) gebruikt:
 
 - Halfjaarlijks Enterprise-kanaal (voorbeeld) voor updates voor de pilotgroep
-- Semi-Annual Enterprise-kanaal voor updates voor de grote groep
+- Semi-Annual Enterprise-kanaal voor updates voor de brede groep
 
 Omdat het Halfjaarlijkse Enterprise-kanaal (voorbeeld) een versie van Microsoft 365-apps voor ondernemingen vier maanden eerder dan het Halfjaarlijkse Enterprise-kanaal uitgeeft, heeft Contoso de tijd om de updates te valideren zonder deze te moeten beheren.
 
@@ -61,28 +61,28 @@ Omdat het Halfjaarlijkse Enterprise-kanaal (voorbeeld) een versie van Microsoft 
 
 Contoso implementeerde het volgende proces, met de aanbevolen procedures van Microsoft om de implementatie van de Office te voltooien:
 
-1. Contoso gebruikt de Readiness Toolkit voor Office-invoegtoepassing en VBA om de apps en Office-invoegtoepassingen te testen om de compatibiliteit met Microsoft 365-apps voor Enterprise te beoordelen.
-1. In Configuration Manager hebben ze de peercache op hun clientapparaten ingeschakeld, wat helpt met beperkte netwerkcapaciteit wanneer ze op externe locaties worden geïmplementeerd op clientapparaten. 
-1. Contoso heeft twee implementatie groepen gedefinieerd als Apparaatsets in Configuration Manager: een testgroep en een grote groep. De testgroep, die een klein aantal representatieve apparatuur voor de hele organisatie omvat, werd gebruikt voor het extra testen van apps, invoegtoepassingen en hardware met Windows 10 Enterprise en Microsoft 365-apps voor Enterprise.
-1. Ze hebben implementatiepakketten voor Office gemaakt met behulp van het beheer dashboard voor Office-clients en de installatiewizard van Office 365, dat beide deel uitmaakt van de console van de Configuration Manager. Zij bouwden twee pakketten van Microsoft 365-apps voor ondernemingen, één voor de pilotgroep op het Halfjaarlijkse Enterprise-kanaal (voorbeeld) en één voor de brede groep op het Halfjaarlijkse Enterprise-kanaal.
-2. Voor elk Office-pakket zijn Engelse taalpakketten Engels, Frans en Duits inbegrepen. Als een apparaat vereist is voor een taal die niet is opgenomen in het Office-pakket, wordt dat taalpakket automatisch gedownload van het Office Content Delivery Network (CDN).
+1. Vóór de implementatie heeft Contoso de invoeghulpset Gereedheid voor Office en VBA gebruikt om hun apps en Office-invoegvoegingen te testen om de compatibiliteit met Microsoft 365-apps voor ondernemingen te beoordelen.
+1. In Configuration Manager hebben ze peercache ingeschakeld op hun clientapparaten, wat helpt bij beperkte netwerkcapaciteit bij het implementeren naar clientapparaten op externe locaties. 
+1. Contoso heeft twee implementatiegroepen gedefinieerd als apparaatverzamelingen in Configuration Manager: een testgroep en een brede groep. De testgroep, die een kleine set representatieve apparaten in de hele organisatie bevatte, is gebruikt voor aanvullende tests van apps, invoegapparaten en hardware met Windows 10 Enterprise en Microsoft 365 Apps voor ondernemingen.
+1. Ze hebben implementatiepakketten voor Office gemaakt met behulp van het Office Client Management-dashboard en de wizard Installatieprogramma van Office 365, die beide deel uitmaken van de configuratiebeheerconsole. Zij bouwden twee pakketten van Microsoft 365-apps voor ondernemingen, één voor de pilotgroep op het Halfjaarlijkse Enterprise-kanaal (voorbeeld) en één voor de brede groep op het Halfjaarlijkse Enterprise-kanaal.
+2. Elk Office-pakket bevat pakketten voor Engels, Frans en Duits. Als voor een apparaat een taal is vereist die niet is opgenomen in het Office-pakket, is dat taalpakket automatisch gedownload van het Office Content Delivery Network (CDN).
 3. Ze gebruikten de ingebouwde functie in het Office-pakket om alle bestaande MSI-versies van Office automatisch te verwijderen voordat Microsoft 365-apps voor ondernemingen werd geïnstalleerd.
-4. In Configuration Manager hebben ze de Windows-en Office-pakketten geïmplementeerd op distributiepunten in hun netwerk. Vervolgens hebben ze de takenreeksen voor de implementatie van Configuration Manager voor het implementeren van de prototype Microsoft 365 apps for Enterprise package voor de groep prototype.
-5. Nadat de persoon de compatibiliteitsproblemen met de testgroep heeft opgelost, heeft Contoso de takenreeksen uitgevoerd om de Microsoft 365-apps voor Enterprise pakket voor de grote groep te implementeren.
+4. In Configuration Manager hebben ze de Windows- en Office-pakketten geïmplementeerd op distributiepunten in hun netwerk. Vervolgens hebben ze de implementatietaakreeksen van Configuration Manager uitgevoerd om het testpakket van Microsoft 365 Apps voor onderneming te implementeren in de testgroep.
+5. Nadat ze compatibiliteitsproblemen met de testgroep hebben opgelost, heeft Contoso de taakreeksen uitgevoerd om het Microsoft 365 Apps for Enterprise-pakket te implementeren voor de brede groep.
 
-Contoso heeft ervoor gekozen om apparaten automatisch bij te werken vanuit de cloud. Het was niet nodig om het proces in Configuration Manager te beheren. De apparaten worden automatisch bijgewerkt vanuit de Cloud op basis van het update kanaal dat is gedefinieerd in de eerste implementatie.
+Contoso heeft ervoor gekozen om apparaten automatisch bij te werken vanuit de cloud. Het was niet nodig om het proces in Configuration Manager te beheren. Hun apparaten worden automatisch rechtstreeks vanuit de cloud bijgewerkt op basis van het updatekanaal dat is gedefinieerd in de eerste implementatie.
 
-Hier is de contoso Microsoft 365-apps for Enterprise Installation en continue update Deployment Architecture.
+Hier is de Contoso Microsoft 365 Apps voor installatie van ondernemingen en de implementatiearchitectuur voor doorlopende updates.
 
-![De implementatie-infrastructuur contoso voor Microsoft 365-apps voor ondernemingen](../media/contoso-o365pp/contoso-o365pp-fig1.png)
+![De Contoso-implementatie-infrastructuur voor Microsoft 365 Apps voor ondernemingen](../media/contoso-o365pp/contoso-o365pp-fig1.png)
  
 ## <a name="next-step"></a>Volgende stap
 
-Meer informatie over hoe contoso [gebruikmaakt van Microsoft intune](contoso-mdm.md) in microsoft 365 for Enterprise voor het beheren van de apparaten en de apps die ze binnen de organisatie uitvoeren.
+Meer informatie over hoe Contoso [Microsoft Intune in Microsoft](contoso-mdm.md) 365 voor bedrijven gebruikt om de apparaten en apps te beheren die ze in de hele organisatie uitvoeren.
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
+[Microsoft 365-apps voor ondernemingen](/deployoffice/deployment-guide-microsoft-365-apps)
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 

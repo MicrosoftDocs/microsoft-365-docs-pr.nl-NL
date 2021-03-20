@@ -15,18 +15,18 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen meer informatie krijgen over de e-mailstroomrapporten die beschikbaar zijn in het dashboard Rapporten in het & Compliancecentrum.
+description: Beheerders kunnen meer informatie krijgen over de e-mailstroomrapporten die beschikbaar zijn in het dashboard Rapporten in & Compliancecentrum.
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dbbec056203ad816d37f5451115d2c7d172eee92
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: d1fea50ff0eaa5ed7d671485483ecb297b404db9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286715"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906550"
 ---
-# <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>E-mailstroomrapporten weergeven in het dashboard Rapporten in & Compliancecentrum
+# <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>E-mailstroomrapporten weergeven in het dashboard Rapporten in & Compliance center
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,107 +35,107 @@ ms.locfileid: "50286715"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Naast de e-mailstroomrapporten die beschikbaar zijn in het [dashboard](mail-flow-insights-v2.md) E-mailstroom in het beveiligings- & Compliancecentrum, vindt u diverse aanvullende e-mailstroomrapporten in het dashboard Rapporten om u te helpen uw Microsoft 365-organisatie te bewaken.
+Naast de e-mailstroomrapporten die [](mail-flow-insights-v2.md) beschikbaar zijn in het e-mailstroomdashboard in het beveiligings- & compliancecentrum, zijn er diverse extra e-mailstroomrapporten beschikbaar in het dashboard Rapporten om u te helpen uw Microsoft 365-organisatie te controleren.
 
-Als u de [benodigde machtigingen hebt,](#what-permissions-are-needed-to-view-these-reports)kunt u deze rapporten bekijken in het beveiligings- [& compliancecentrum](https://protection.office.com) door naar het dashboard Rapporten **te** \> **gaan.** Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://protection.office.com/insightdashboard> .
+Als u de [benodigde machtigingen hebt,](#what-permissions-are-needed-to-view-these-reports)kunt u deze rapporten bekijken in het Beveiligings- & [compliancecentrum](https://protection.office.com) door naar **Rapportendashboard te** \> **gaan.** Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://protection.office.com/insightdashboard> .
 
-![Dashboard Rapporten in het beveiligings- & compliancecentrum](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Rapportendashboard in het beveiligings- & compliancecentrum](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
 ## <a name="connector-report"></a>Connectorrapport
 
-Het **rapport Connector toont** de activiteit van de e-mailstroom op de binnenkomende en uitgaande [connectors](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) die zijn geconfigureerd voor uw organisatie.
+Het **rapport Connector toont** e-mailstroomactiviteit op de binnenkomende en uitgaande [verbindingslijnen](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) die zijn geconfigureerd voor uw organisatie.
 
-Als u het rapport wilt bekijken, opent u het [beveiligings- & compliancecentrum,](https://protection.office.com)gaat u naar **het** \> **dashboard Rapporten** en **selecteert u het rapport Connector.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ConnectorReport> .
+Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar  \> **Rapportendashboard** en selecteert u **Connector-rapport.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ConnectorReport> .
 
 ![Connectorrapportwidget in het dashboard Rapporten](../../media/connector-report-widget.png)
 
-### <a name="report-view-for-the-connector-report"></a>Rapportweergave voor het rapport Connector
+### <a name="report-view-for-the-connector-report"></a>Rapportweergave voor het connectorrapport
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens weergeven op: E-mailstroom:** in deze grafiek ziet u het aantal inkomende en uitgaande berichten, ingedeeld in:
+- **Gegevens weergeven op: E-mailstroom:** In deze grafiek ziet u het aantal binnenkomende en uitgaande berichten dat is ingedeeld op:
 
   - **Totaal**
-  - **Van internet zonder een connector**
-  - **Naar internet zonder een connector**
-  - Een specifieke connector die u hebt geconfigureerd.
+  - **Van internet zonder verbindingslijn**
+  - **Naar internet zonder verbindingslijn**
+  - Een specifieke verbindingslijn die u hebt geconfigureerd.
 
-  Als u de gegevens in  de grafiek wilt isoleren, gebruikt u Gegevens voor besturingselementen tonen om een van deze opties of **Alle e-mailstroom te selecteren.**
+  Als u de gegevens in de grafiek wilt isoleren, gebruikt u gegevens **voor** besturingselementen tonen om een van deze opties of **Alle e-mailstroom te selecteren.**
 
-  ![Gegevens weergeven per e-mailstroom in het rapport Connector](../../media/connector-report-view-data-by-mail-flow.png)
+  ![Gegevens per e-mailstroom weergeven in het connectorrapport](../../media/connector-report-view-data-by-mail-flow.png)
 
-- **Gegevens weergeven met: TLS-gebruik:** in deze grafiek ziet u het percentage versiegebruik van TLS (Transport Layer Security) voor de e-mailstroom.
+- **Gegevens weergeven op: TLS-gebruik:** In deze grafiek wordt het percentage TLS-versiegebruik (Transport Layer Security) voor e-mailstroom weergegeven.
 
-  Als u de gegevens in de grafiek wilt isoleren, gebruikt u gegevens voor **besturingselementen** om een van de volgende opties te selecteren:
+  Als u de gegevens in de grafiek wilt isoleren, gebruikt u de optie Gegevens **voor besturingselementen** tonen om een van de volgende opties te selecteren:
 
-  - **Alle e-mailstromen**
-  - **Van internet zonder een connector**
-  - **Naar internet zonder een connector**
-  - Een specifieke connector die u hebt geconfigureerd.
+  - **Alle e-mailstroom**
+  - **Van internet zonder verbindingslijn**
+  - **Naar internet zonder verbindingslijn**
+  - Een specifieke verbindingslijn die u hebt geconfigureerd.
 
-  ![Gegevens weergeven op TLS-gebruik in het rapport Connector](../../media/connector-report-view-data-by-tls-usage.png)
+  ![Gegevens weergeven op TLS-gebruik in het connectorrapport](../../media/connector-report-view-data-by-tls-usage.png)
 
-Als u in **een rapportweergave** op Filters klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
+Als u in **een rapportweergave** op Filters klikt, kunt u een datumbereik opgeven met **Begindatum** en **Einddatum.**
 
-### <a name="details-table-view-for-the-connector-report"></a>Tabelweergave Details voor het rapport Connector
+### <a name="details-table-view-for-the-connector-report"></a>Detailtabelweergave voor het connectorrapport
 
-Als u in **een rapportweergave op Detailtabel** weergeven klikt, wordt de volgende informatie weergegeven:
+Als u in **een rapportweergave op Detailstabel** weergeven klikt, worden de volgende gegevens weergegeven:
 
 - **Datum**
 - **Richting en naam van verbindingslijn**
-- **Type verbindingslijn**
-- **Geforceerd TLS?**: De waarde **Waar** of **Onwaar.**
+- **Connectortype**
+- **Gedwongen TLS?**: De waarde **Waar** of **Onwaar**.
 - **Geen TLS** (percentage)
-- **TLS 1.0** (percentage)
-- **TLS 1.1** (percentage)
-- **TLS 1.2** (percentage)
-- **Volume:** het aantal berichten.
+- **TLS 1,0** (percentage)
+- **TLS 1,1** (percentage)
+- **TLS 1,2** (percentage)
+- **Volume:** Het aantal berichten.
 
-Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
+Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **Begindatum** en **Einddatum.**
 
-Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
-## <a name="exchange-transport-rule-report"></a>Exchange-transportregelrapport
+## <a name="exchange-transport-rule-report"></a>Rapport met exchange-transportregel
 
-Het **Exchange-transportregelrapport** toont het effect van regels voor de e-mailstroom (ook wel transportregels genoemd) op binnenkomende en uitgaande berichten in uw organisatie.
+Het **rapport Exchange-transportregel toont** het effect van regels voor de e-mailstroom (ook wel transportregels genoemd) op binnenkomende en uitgaande berichten in uw organisatie.
 
-Als u het rapport wilt bekijken, opent u het [beveiligings- & compliancecentrum,](https://protection.office.com)gaat u naar **het** \> **dashboard Rapporten** en selecteert u de **Exchange-transportregel.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ETRRuleReport> .
+Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar  \> **Rapportendashboard** en **selecteert u Exchange Transport-regel**. Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ETRRuleReport> .
 
 ![Exchange-transportregelwidget in het dashboard Rapporten](../../media/transport-rule-report-widget.png)
 
-### <a name="report-view-for-the-exchange-transport-rule-report"></a>Rapportweergave voor het Exchange-transportregelrapport
+### <a name="report-view-for-the-exchange-transport-rule-report"></a>Rapportweergave voor het rapport Exchange-transportregel
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens weergeven met: Exchange-transportregels** \> **Op te breken met: Richting:** in deze  grafiek ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door transportregels.
+- **Gegevens weergeven op: Exchange-transportregels** \> **Afbreed door: Richting:** In deze grafiek  ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door transportregels.
 
-- **Gegevens weergeven op: Exchange-transportregels** \> **Op te breken door: Ernst:** in  deze grafiek ziet u het aantal berichten met hoge ernst en gemiddelde ernst **en** berichten met een **lage ernst.** U stelt het niveau van ernst in als een actie in de regel (**Controleer** deze regel met ernstniveau of _SetAuditSeverity)._ Zie [E-mailstroomregelacties in Exchange Online voor meer informatie.](https://docs.microsoft.com//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
+- **Gegevens weergeven op: Exchange-transportregels** \> **Afbreed door: Ernst:** In deze  grafiek ziet u het aantal berichten met hoge ernst en gemiddelde ernst **en** berichten met een **lage ernst.** U stelt het ernstniveau in als een actie in de regel ( Controleer deze regel met **ernstniveau** of _SetAuditSeverity_). Zie Acties voor [e-mailstroomregelen in Exchange Online voor meer informatie.](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-- **Gegevens weergeven met: DLP Exchange-transportregels** \> **Op te delen met: Richting:** in deze  grafiek ziet u het aantal **inkomende** en uitgaande berichten dat is beïnvloed door DLP-transportregels (Data Loss Prevention). U kunt de grafiek verder verfijnen door een van de volgende opties te selecteren:
+- **Gegevens weergeven op: DLP Exchange-transportregels** \> **Afbreiding door: Richting:** In deze  grafiek ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door DLP-transportregels (Data Loss Prevention). U kunt de grafiek verder verfijnen door een van de volgende opties te selecteren:
 
-  - **Gegevens tonen voor: Alle DLP-transportregels**
-  - **Gegevens tonen voor: gecompromitteerde gebruikers**
-  - **Gegevens tonen voor: laag volume van gedetecteerde V.S. Act**
+  - **Gegevens voor: Alle DLP-transportregels**
+  - **Gegevens voor: Gecompromitteerd gebruikers**
+  - **Gegevens voor: Laag volume aan gedetecteerde Amerikaanse Patriot Act**
 
-- **Gegevens weergeven met: DLP Exchange-transportregels** \> **Op te breken met: Richting:** in deze weergave ziet u  het aantal berichten met hoge ernst en gemiddelde ernst en berichten met lage ernst die zijn beïnvloed door DLP-transportregels.  U kunt de grafiek verder verfijnen door een van de volgende opties te selecteren:
+- **Gegevens weergeven op: DLP Exchange-transportregels** \> **Afbreiding door: Richting:** In  deze weergave ziet u  het aantal berichten met hoge ernst en gemiddelde ernst **en** berichten met een lage ernst die zijn beïnvloed door DLP-transportregels. U kunt de grafiek verder verfijnen door een van de volgende opties te selecteren:
 
-  - **Gegevens tonen voor: Alle DLP-transportregels**
-  - **Gegevens tonen voor: gecompromitteerde gebruikers**
-  - **Gegevens tonen voor: laag volume van gedetecteerde V.S. Act**
+  - **Gegevens voor: Alle DLP-transportregels**
+  - **Gegevens voor: Gecompromitteerd gebruikers**
+  - **Gegevens voor: Laag volume aan gedetecteerde Amerikaanse Patriot Act**
 
-Als u in **een rapportweergave** op Filters klikt, kunt u de resultaten wijzigen met de volgende filters:
+Als u in **een rapportweergave** op Filters klikt, kunt u de resultaten wijzigen met de volgende filters::
 
-- **Begindatum** **en einddatum**
+- **Begindatum** en **einddatum**
 - Richtingswaarden
 - Ernstwaarden
 
-![Rapportweergave in het Exchange-transportregelrapport](../../media/transport-rule-report-report-view.png)
+![Rapportweergave in het rapport Exchange-transportregel](../../media/transport-rule-report-report-view.png)
 
-### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Detailtabelweergave voor het Exchange-transportregelrapport
+### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Tabelweergave Details voor het rapport Exchange-transportregel
 
-Als u op **de tabel Details weergeven klikt,** is de informatie die wordt weergegeven afhankelijk van de grafiek die u bekijkt:
+Als u op **Detailstabel weergeven klikt,** is de weergegeven informatie afhankelijk van de grafiek die u hebt bekeken:
 
-- **Gegevens weergeven op: Exchange-transportregels:**
+- **Gegevens weergeven door: Exchange-transportregels:**
 
   - **Datum**
   - **Transportregel**
@@ -145,7 +145,7 @@ Als u op **de tabel Details weergeven klikt,** is de informatie die wordt weerge
   - **Ernst**
   - **Richting**
 
-- **Gegevens weergeven met: DLP Exchange-transportregels:**
+- **Gegevens weergeven op: DLP Exchange-transportregels**:
 
   - **Datum**
   - **DLP-beleid**
@@ -156,81 +156,81 @@ Als u op **de tabel Details weergeven klikt,** is de informatie die wordt weerge
   - **Ernst**
   - **Richting**
 
-Als u in een detailtabelweergave op **Filters** klikt, kunt u de resultaten wijzigen met de volgende filters:
+Als u in een detailtabelweergave op **Filters** klikt, kunt u de resultaten met de volgende filters wijzigen:
 
-- **Begindatum** **en einddatum**
+- **Begindatum** en **einddatum**
 - Richtingswaarden
 - Ernstwaarden
 
-Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
-## <a name="forwarding-report"></a>Doorsturen-rapport
+## <a name="forwarding-report"></a>Doorsturen van rapport
 
-In **het rapport Doorsturen** worden de automatisch doorgestuurde berichten van uw organisatie naar externe domeinen vanuit Exchange Online-postvakken doorgestuurd. Doorgestuurde berichten kunnen een beveiligings- of nalevingsrisico vormen en kunnen een gekromd account aangeven.
+In **het rapport Doorsturen** ziet u de automatisch doorgestuurde berichten van uw organisatie naar externe domeinen vanuit Exchange Online-postvakken. Doorgestuurde berichten kunnen een beveiligings- of compliancerisico opleveren en kunnen een gekromd account aangeven.
 
-Als u het rapport wilt bekijken, opent u het beveiligings- [& compliancecentrum,](https://protection.office.com)gaat u naar **het** \> **dashboard Rapporten** en **selecteert u Rapport doorsturen.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=MailFlowForwarding> .
+Als u het rapport wilt bekijken, opent u  het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar \> **Rapportendashboard** en selecteert u **Rapport doorsturen.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=MailFlowForwarding> .
 
-![Widget Rapport doorsturen in het dashboard Rapporten](../../media/forwarding-report-widget.png)
+![Rapportwidget doorsturen in het dashboard Rapporten](../../media/forwarding-report-widget.png)
 
-### <a name="report-view-for-the-forwarding-report"></a>Rapportweergave voor het doorsturende rapport
+### <a name="report-view-for-the-forwarding-report"></a>Rapportweergave voor het rapport Doorsturen
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens tonen voor: Methoden voor doorsturen:** de volgende methoden worden weergegeven:
+- **Gegevens voor: Doorsturen methoden**: De volgende methoden worden weergegeven:
 
-  - **Transportregel:** ook wel [e-mailstroomregels genoemd.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
-  - **Postvakregel:** ook wel regels [voor Postvak IN genoemd.](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59)
+  - **Transportregel:** ook wel [e-mailstroomregels genoemd.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
+  - **Postvakregel:** Ook wel regels [voor Postvak IN genoemd.](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59)
 
-  ![Weergave doorsturenmethoden in het rapport Doorsturen](../../media/forwarding-report-forwarding-methods.png)
+  ![De weergave Doorsturen van methoden in het rapport Doorsturen](../../media/forwarding-report-forwarding-methods.png)
 
-- **Gegevens weergeven voor: Doorsturen-domeinen:** in deze weergave ziet u de geadresseerdedomeinen die de bestemmingen voor doorsturen zijn.
+- **Gegevens weergeven voor: Domeinen doorsturen:** in deze weergave ziet u de geadresseerdedomeinen die de bestemmingen zijn voor doorsturen.
 
-  ![De weergave Doorsturen van domeinen in het rapport Doorsturen](../../media/forwarding-report-forwarding-domains.png)
+  ![De weergave Domeinen doorsturen in het rapport Doorsturen](../../media/forwarding-report-forwarding-domains.png)
 
-- **Gegevens tonen voor: Doorgestuurde gebruikers:** de volgende doorgestuurde gebruikers worden weergegeven:
+- **Gegevens voor: Doorsturen:** De volgende doorsturen worden weergegeven:
 
   - **Transportregel**
-  - Het postvak met de regel voor Postvak IN doorsturen.
+  - Het postvak met de regel Postvak IN doorsturen.
 
   ![De weergave Doorsturen in het rapport Doorsturen](../../media/forwarding-report-forwarders.png)
 
-Als u in **een rapportweergave** op Filters klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
+Als u in **een rapportweergave** op Filters klikt, kunt u een datumbereik opgeven met **Begindatum** en **Einddatum.**
 
-### <a name="details-table-view-for-the-forwarding-report"></a>Detailtabelweergave voor het rapport Doorsturen
+### <a name="details-table-view-for-the-forwarding-report"></a>Tabelweergave Details voor het rapport Doorsturen
 
-Als u in **een rapportweergave op Detailtabel** weergeven klikt, wordt de volgende informatie weergegeven:
+Als u in **een rapportweergave op Detailstabel** weergeven klikt, worden de volgende gegevens weergegeven:
 
-- **Forwarders:** de waarde **transportregel of** het postvak dat de regel voor Postvak IN voor doorsturen bevat.
-- **Type doorsturen:** de waarde van **de regel Postvak of** **Transportregel.**
+- **Doorst:De** waarde **Transportregel** of het postvak met de regel Postvak IN doorsturen.
+- **Doorsturen:** De waarde **Regel Postvak** of **Transportregel**.
 - **Naam van geadresseerde**
-- **Domein van ontvanger**
-- **Details:** dit is de GUID-waarde van de regel voor de e-mailstroom, of de waarde RuleIdentity van de regel voor Postvak IN.
+- **Domein geadresseerde**
+- **Details:** dit is de GUID-waarde van de e-mailstroomregel of de waarde RuleIdentity van de regel Postvak IN.
 - **Aantal**
-- **First forward date**
+- **Eerste doorgestuurde datum**
 
-Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
+Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **Begindatum** en **Einddatum.**
 
-Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
-## <a name="mailflow-status-report"></a>Mailflow status report
+## <a name="mailflow-status-report"></a>E-mailflowstatusrapport
 
-Het **statusrapport Mailflow** is vergelijkbaar met het rapport Verzonden en ontvangen e-mail, [](#sent-and-received-email-report)met aanvullende informatie over e-mail die is toegestaan of geblokkeerd aan de rand. Dit is het enige rapport met informatie over randbeveiliging en laat zien hoeveel e-mail is geblokkeerd voordat deze wordt toegestaan in de service voor evaluatie door Exchange Online Protection (EOP). Het is belangrijk om te weten dat als een bericht naar vijf geadresseerden wordt verzonden, het als vijf verschillende berichten wordt geteld en niet als één bericht.
-Als u het rapport wilt bekijken, opent u het beveiligings- [& compliancecentrum,](https://protection.office.com)gaat u naar **het** dashboard Rapporten en selecteert u \>  **het Mailflow-statusrapport.** Als u rechtstreeks naar het statusrapport van de **e-mailstroom wilt gaan,** opent u <https://protection.office.com/mailflowStatusReport> .
+Het **rapport Mailflow-status** is vergelijkbaar met het e-mailrapport Verzonden en [ontvangen,](#sent-and-received-email-report)met aanvullende informatie over e-mail die aan de rand is toegestaan of geblokkeerd. Dit is het enige rapport dat informatie over randbeveiliging bevat en laat zien hoeveel e-mail wordt geblokkeerd voordat e-mail wordt toegestaan in de service voor evaluatie door Exchange Online Protection (EOP). Het is belangrijk om te begrijpen dat als een bericht naar vijf geadresseerden wordt verzonden, we het als vijf verschillende berichten tellen en niet één bericht.
+Als u het rapport wilt bekijken, opent u  het [beveiligingscentrum & compliancecentrum,](https://protection.office.com)gaat u naar Het dashboard Rapporten en selecteert u \>  **Mailflow-statusrapport.** Als u rechtstreeks naar het rapport **E-mailstroomstatus wilt gaan,** opent <https://protection.office.com/mailflowStatusReport> u .
 
-![Widget Mailflow-statusrapport in het dashboard Rapporten](../../media/mail-flow-status-report-widget.png)
+![Rapportwidget Mailflow-status in het dashboard Rapporten](../../media/mail-flow-status-report-widget.png)
 
-### <a name="type-view-for-the-mailflow-status-report"></a>Typeweergave voor het Mailflow-statusrapport
+### <a name="type-view-for-the-mailflow-status-report"></a>Typweergave voor het rapport Mailflow-status
 
-Wanneer u het rapport opent, is het **tabblad Type** standaard geselecteerd. Deze weergave bevat standaard een grafiek en een gegevenstabel die zijn geconfigureerd met de volgende filters:
+Wanneer u het rapport opent, is **het tabblad Type** standaard geselecteerd. Standaard bevat deze weergave een grafiek en een gegevenstabel die is geconfigureerd met de volgende filters:
 
 - **Datum:** De laatste 7 dagen.
-- **Richting:**
+- **Richting**:
 
   - **Binnenkomende**
-  - **Uitgaand**
-  - **Rente-organisatie:** dit aantal is voor berichten binnen een tenant, dat wil zeggen sender abc@domain.com verzendt naar ontvanger xyz@domain.com (afzonderlijk geteld van **binnenkomende** en **uitgaande**)
+  - **Uitgaande**
+  - **Intra-org:** dit aantal is voor berichten binnen een tenant, dat wil zeggen afzender abc@domain.com verzendt naar geadresseerde xyz@domain.com (afzonderlijk geteld van **Binnenkomende** en **Uitgaande**)
 
-- **Typt** u:
+- **Typ**:
 
   - **Goede e-mail**
   - **Malware**
@@ -239,9 +239,9 @@ Wanneer u het rapport opent, is het **tabblad Type** standaard geselecteerd. Dez
   - **Regelberichten**
   - **Phishing-e-mail**
 
-De grafiek is ingedeeld op basis van **de typewaarden.**
+De grafiek wordt ingedeeld op basis van **de waarden Type.**
 
-U kunt deze filters wijzigen door te klikken op **Filter** of door te klikken op een waarde in de grafieklegenda.
+U kunt deze filters wijzigen door op **Filter te klikken of** door te klikken op een waarde in de grafieklegenda.
 
 De gegevenstabel bevat de volgende informatie:
 
@@ -251,185 +251,185 @@ De gegevenstabel bevat de volgende informatie:
 - **3 dagen**
 - **7 dagen**
 - **15 dagen**
-- **30 dagen**
+- **30 dagen**
 
-Als u op **Een categorie kiezen klikt voor meer informatie,** kunt u een van de volgende waarden selecteren:
+Als u op **Een categorie kiezen klikt voor meer informatie,** kunt u kiezen uit de volgende waarden:
 
-- **Phishing-e-mail:** met deze selectie gaat u naar het [statusrapport Risicobeveiliging.](view-email-security-reports.md#threat-protection-status-report)
-- **Malware in e-mail:** met deze selectie gaat u naar het [statusrapport Risicobeveiliging.](view-email-security-reports.md#threat-protection-status-report)
-- **Spamdetecties:** met deze selectie gaat u naar het [rapport Spamdetectie.](view-email-security-reports.md#spam-detections-report)
-- **Geblokkeerde spam in Edge:** met deze selectie gaat u naar het [rapport Spamdetectie.](view-email-security-reports.md#spam-detections-report)
+- **Phishing-e-mail:** met deze selectie gaat u naar het [statusrapport Bedreigingsbeveiliging.](view-email-security-reports.md#threat-protection-status-report)
+- **Malware in e-mail:** met deze selectie gaat u naar het [statusrapport Bedreigingsbeveiliging.](view-email-security-reports.md#threat-protection-status-report)
+- **Spamdetecties:** Met deze selectie gaat u naar het [rapport Spamdetecties.](view-email-security-reports.md#spam-detections-report)
+- **Edge geblokkeerde spam:** Met deze selectie gaat u naar het [rapport Spamdetecties.](view-email-security-reports.md#spam-detections-report)
 
-**Exporteren:**
+**Exporteren**:
 
-Voor de detailweergave kunt u slechts gegevens voor één dag exporteren. Dus als u gegevens zeven dagen lang wilt exporteren, moet u 7 verschillende exportacties uitvoeren.
+Voor de detailweergave kunt u slechts één dag gegevens exporteren. Dus als u gegevens 7 dagen wilt exporteren, moet u 7 verschillende exportacties uitvoeren.
 
-Elk geëxporteerd CSV-bestand is beperkt tot 150.000 rijen. Als de gegevens voor die dag meer dan 150.000 rijen bevatten, worden meerdere CSV-bestanden gemaakt.
+Elk geëxporteerd CSV-bestand is beperkt tot 150.000 rijen. Als de gegevens voor die dag meer dan 150.000 rijen bevatten, worden er meerdere CSV-bestanden gemaakt.
 
-![Typeweergave in het Mailflow-statusrapport ](../../media/mail-flow-status-report-type-view.png)
+![Weergave typen in het rapport Mailflow-status ](../../media/mail-flow-status-report-type-view.png)
 
-### <a name="direction-view-for-the-mailflow-status-report"></a>Richtingsweergave voor het Mailflow-statusrapport
+### <a name="direction-view-for-the-mailflow-status-report"></a>Richtingsweergave voor het rapport Mailflow-status
 
-Als u op het **tabblad Richting** klikt, worden dezelfde standaardfilters uit de **weergave Type** gebruikt.
+Als u op het tabblad **Richting** klikt, worden dezelfde standaardfilters uit de **weergave Type** gebruikt.
 
 De grafiek is ingedeeld op **richtingswaarden.**
 
-U kunt deze filters wijzigen door te klikken op **Filter** of door te klikken op een waarde in de grafieklegenda. Dezelfde filters uit de **weergave Type** worden gebruikt.
+U kunt deze filters wijzigen door op **Filter te klikken of** door te klikken op een waarde in de grafieklegenda. Dezelfde filters uit de **weergave Type** worden gebruikt.
 
 De gegevenstabel bevat dezelfde informatie uit de **weergave Type.**
 
-De **optie Kies een categorie voor meer informatie** over beschikbare selecties en gedrag is hetzelfde als de weergave **Type.**
+De **categorie Kies een categorie voor meer informatie** beschikbare selecties en gedrag zijn hetzelfde als de **weergave** Type.
 
-**Exporteren:**
+**Exporteren**:
 
-Voor de detailweergave kunt u slechts gegevens voor één dag exporteren. Dus als u gegevens zeven dagen lang wilt exporteren, moet u 7 verschillende exportacties uitvoeren.
+Voor de detailweergave kunt u slechts één dag gegevens exporteren. Dus als u gegevens 7 dagen wilt exporteren, moet u 7 verschillende exportacties uitvoeren.
 
-Elk geëxporteerd CSV-bestand is beperkt tot 150.000 rijen. Als de gegevens voor die dag meer dan 150.000 rijen bevatten, worden meerdere CSV-bestanden gemaakt.
+Elk geëxporteerd CSV-bestand is beperkt tot 150.000 rijen. Als de gegevens voor die dag meer dan 150.000 rijen bevatten, worden er meerdere CSV-bestanden gemaakt.
 
-![Richtingsweergave in het statusrapport Mailflow ](../../media/mail-flow-status-report-direction-view.png)
+![Richtingsweergave in het rapport Mailflow-status ](../../media/mail-flow-status-report-direction-view.png)
 
-### <a name="funnel-view-for-the-mailflow-status-report"></a>Trechterweergave voor het Mailflow-statusrapport
+### <a name="funnel-view-for-the-mailflow-status-report"></a>Trechterweergave voor het rapport Mailflow-status
 
-In **de weergave** Trechter ziet u hoe met de beveiligingsfuncties voor e-mail van Microsoft binnenkomende en uitgaande e-mail in uw organisatie wordt gefilterd. Het bevat details over het totale aantal e-mails en hoe de geconfigureerde functies voor bedreigingsbeveiliging, waaronder randbeveiliging, anti-malware, anti-phishing, anti-spam en anti-spoofing van invloed zijn op dit aantal.
+In **de trechterweergave** ziet u hoe de beveiligingsfuncties voor e-mail van Microsoft inkomende en uitgaande e-mail in uw organisatie filteren. Het bevat informatie over het totale aantal e-mailberichten en hoe de geconfigureerde beveiligingsfuncties voor bedreigingen, zoals randbeveiliging, anti-malware, anti-phishing, antispam en anti-spoofing van invloed zijn op dit aantal.
 
-Als u op het **tabblad Trechter** klikt, bevat deze weergave standaard een grafiek en een gegevenstabel die zijn geconfigureerd met de volgende filters:
+Als u op **het** tabblad Trechter klikt, bevat deze weergave standaard een grafiek en een gegevenstabel die is geconfigureerd met de volgende filters:
 
 - **Datum:** De laatste 7 dagen.
 
-- **Richting:**
+- **Richting**:
 
   - **Binnenkomende**
-  - **Uitgaand**
-  - **Rente-organisatie:** dit aantal geldt voor berichten die binnen een tenant worden verzonden; Dat wil zeggen dat abc@domain.com berichten naar de ontvanger xyz@domain.com (geteld afzonderlijk van binnenkomende en uitgaande).
+  - **Uitgaande**
+  - **Intra-org:** Dit aantal is voor berichten die binnen een tenant worden verzonden; Dat wil zeggen dat afzenders abc@domain.com naar geadresseerden xyz@domain.com (afzonderlijk geteld van Binnenkomende en Uitgaande).
 
-Filteren kan in de statistische weergave en de gegevenstabelweergave 90 dagen duren.
+De statistische weergave en gegevenstabelweergave kunnen 90 dagen worden gefilterd.
 
 Als u op **Filteren klikt,** kunt u zowel de grafiek als de gegevenstabel filteren.
 
-In dit diagram ziet u het aantal e-mailberichten, georganiseerd op:
+In deze grafiek ziet u het aantal e-mailberichten dat is ingedeeld op:
 
-- **Totaal aantal e-mailberichten**
+- **Totaal aantal e-mail**
 - **E-mail na randbeveiliging**
-- **E-mail na anti-malware, bestandsreputatie, bestandstypeblokkering**
-- **E-mail na anti-phish, URL-reputatie, merk imitatie, anti-spoofing**
-- **E-mail na antispamfilters, bulkmailfilters**
-- **E-mail na gebruikers- en domein imitatie**<sup>1</sup>
-- **E-mail na bestands- en URL-detonatie**<sup>1</sup>
-- **E-mail die na de bezorgingsbeveiliging is gedetecteerd (URL-kliktijdbeveiliging)**
+- **E-mail na anti-malware, bestandsreputatie, bestandstypeblok**
+- **E-mail na anti-phish, URL-reputatie, merkremitatie, anti-spoofing**
+- **E-mail na antispam, bulkmailfilters**
+- **E-mail na gebruikers- en domein-imitatie**<sup>1</sup>
+- **E-mail na bestand en URL-detonatie**<sup>1</sup>
+- **E-mail die is gedetecteerd als goedaardig na de beveiliging na de bezorging (URL klik op tijdbeveiliging)**
 
 <sup>Alleen 1</sup> Defender voor Office 365
 
-Als u de e-mail die wordt gefilterd op EOP of Defender voor Office 365 afzonderlijk wilt bekijken, klikt u op de waarde in de grafieklegenda.
+Als u het e-mailbericht dat is gefilterd op EOP of Defender voor Office 365 afzonderlijk wilt weergeven, klikt u op de waarde in de grafieklegenda.
 
 De gegevenstabel bevat de volgende gegevens, weergegeven in aflopende datumvolgorde:
 
 - **Datum**
-- **Totaal aantal e-mailberichten**
+- **Totaal aantal e-mail**
 - **Randbeveiliging**
-- **Anti-malware, bestandsreputatie, bestandstypeblokkering:**
-  - **Bestandsreputatie:** berichten die zijn gefilterd vanwege de identificatie van een bijgevoegd bestand door andere Microsoft-klanten.
-  - **Bestandstypeblokkering:** berichten die zijn gefilterd vanwege het type schadelijk bestand dat is geïdentificeerd in het bericht.
+- **Anti-malware, bestandsreputatie, bestandstypeblok:**
+  - **Bestandsreputatie:** Berichten die zijn gefilterd vanwege de identificatie van een bijgevoegd bestand door andere Microsoft-klanten.
+  - **Bestandstypeblok:** Berichten die zijn gefilterd vanwege het type schadelijk bestand dat in het bericht is geïdentificeerd.
 - **Anti-phish, URL-reputatie, merk imitatie, anti-spoof:**
-  - **URL-reputatie:** berichten gefilterd vanwege de identificatie van de URL door andere Microsoft-klanten.
-  - **Merk imitatie:** berichten die zijn gefilterd vanwege het bericht dat afkomstig is van bekende afzenders die zich voordoen als afzenders.
-  - **Anti-spoofing:** berichten die zijn gefilterd omdat het bericht een domein probeert te vervalsen waar de geadresseerde deel van uit maakt, of een domein dat niet in bezit is van de afzender van het bericht.
-- **Antispamfilters, bulkmailfilters:**
-  - **Bulkmailfilter:** berichten die zijn gefilterd vanwege een poging om bulkmail af te leveren bij de geadresseerden.
-- **Imitatie van gebruikers en domeinen (Defender voor Office 365)**:
-  - **Gebruikers imitatie:** berichten gefilterd vanwege een poging om een gebruiker (afzender van bericht) te imiteren die is gedefinieerd in de instellingen voor imitatiebeveiliging van een anti-phishingbeleid.
-  - **Domein imitatie:** berichten gefilterd vanwege een poging om een domein te imiteren dat is gedefinieerd in de instellingen voor imitatiebeveiliging van een anti-phishingbeleid.
-- **Detonatie van bestanden en URL's (Defender voor Office 365)**:
-  - **Bestandsdetonatie:** berichten die zijn gefilterd op een beleid voor veilige bijlagen.
-  - **URL-detonatie:** bericht gefilterd op een beleid voor veilige koppelingen.
-- **Beveiliging na aflevering en ZAP (ATP) of ZAP (EOP)**: ZAP geeft automatisch purge van nul uur aan.
+  - **URL-reputatie:** Berichten die zijn gefilterd vanwege de identificatie van de URL door andere Microsoft-klanten.
+  - **Merkremitatie:** berichten die zijn gefilterd vanwege het bericht dat afkomstig is van bekende merkremiterende afzenders.
+  - **Anti-spoof:** Berichten die zijn gefilterd vanwege het bericht waarin wordt geprobeerd een domein te vervalsen dat de geadresseerde behoort, of een domein dat de afzender van het bericht niet bezit.
+- **Antispam, bulkmailfilters:**
+  - **Bulkmailfilters:** Berichten die zijn gefilterd als gevolg van een poging om bulkmail bij de geadresseerden te bezorgen.
+- **Gebruikers- en domein-imitatie (Defender voor Office 365)**:
+  - **Gebruikers-imitatie:** berichten die zijn gefilterd vanwege een poging om zich voor te doen als een gebruiker (afzender van een bericht) die is gedefinieerd in de instellingen voor imitatiebeveiliging van een anti-phishingbeleid.
+  - **Domein imitatie:** Berichten gefilterd vanwege een poging om een domein na te bootsen dat is gedefinieerd in de instellingen voor imitatiebeveiliging van een anti-phishingbeleid.
+- **Bestands- en URL-detonatie (Defender voor Office 365)**:
+  - **Bestandsdetonatie:** berichten gefilterd met een beleid voor veilige bijlagen.
+  - **URL-detonatie:** bericht gefilterd door een beleid voor veilige koppelingen.
+- **Beveiliging na aflevering en ZAP (ATP) of ZAP (EOP)**: ZAP geeft automatisch nul uur aan.
 
-Als u een rij in de gegevenstabel selecteert, worden de e-mailberichten in de flyout verder uitsplitsing weergegeven.
+Als u een rij in de gegevenstabel selecteert, wordt een verdere uitsplitsing van de e-mailtellingen weergegeven in de flyout.
 
-**Exporteren:**
+**Exporteren**:
 
 Nadat u onder **Opties op Exporteren** hebt geklikt, kunt u een van de volgende waarden selecteren: 
 
 - **Overzicht (met gegevens van de afgelopen 90 dagen)**
-- **Details (met gegevens voor de afgelopen 30 dagen)**
+- **Details (met gegevens van de afgelopen 30 dagen ten hoogst)**
 
-Kies **een** bereik onder Datum en klik op **Toepassen.** Gegevens voor de huidige filters worden geëxporteerd naar een CSV-bestand.
+Kies **onder Datum** een bereik en klik vervolgens op **Toepassen.** Gegevens voor de huidige filters worden geëxporteerd naar een CSV-bestand.
 
 Elk geëxporteerd CSV-bestand is beperkt tot 150.000 rijen. Als de gegevens meer dan 150.000 rijen bevatten, worden meerdere CSV-bestanden gemaakt.
 
- ![Trechterweergave in het statusrapport Mailflow ](../../media/mail-flow-status-report-funnel-view.png)
+ ![Trechterweergave in het rapport Mailflow-status ](../../media/mail-flow-status-report-funnel-view.png)
 
-### <a name="tech-view-for-the-mailflow-status-report"></a>Technische weergave voor het Mailflow-statusrapport
+### <a name="tech-view-for-the-mailflow-status-report"></a>Technische weergave voor het mailflowstatusrapport
 
-De **weergave Tech** is vergelijkbaar met de **trechterweergave,** met meer gedetailleerde details voor de geconfigureerde functies voor bedreigingsbeveiliging. In de grafiek kunt u zien hoe berichten zijn gecategoriseerd in de verschillende fasen van risicobeveiliging.
+De **techweergave** is vergelijkbaar met de **trechterweergave,** met meer gedetailleerde details voor de geconfigureerde functies voor bedreigingsbeveiliging. In de grafiek kunt u zien hoe berichten worden gecategoriseerd in de verschillende stadia van bedreigingsbeveiliging.
 
 Als u op het **tabblad Technische** weergave klikt, bevat deze weergave standaard een grafiek en een gegevenstabel die is geconfigureerd met de volgende filters:
 
 - **Datum:** De laatste 7 dagen.
 
-- **Richting:**
+- **Richting**:
 
   - **Binnenkomende**
-  - **Uitgaand**
-  - **Rente-organisatie:** dit aantal is voor berichten binnen een tenant, dat wil zeggen sender abc@domain.com verzendt naar ontvanger xyz@domain.com (afzonderlijk geteld van inkomende en uitgaande)
+  - **Uitgaande**
+  - **Intra-org:** dit aantal is voor berichten binnen een tenant, dat wil zeggen afzender abc@domain.com verzenden naar geadresseerde xyz@domain.com (afzonderlijk geteld van Binnenkomende en Uitgaande)
 
-Filteren kan in de statistische weergave en de gegevenstabelweergave 90 dagen duren.
+De statistische weergave en gegevenstabelweergave kunnen 90 dagen worden gefilterd.
 
 Als u op **Filteren klikt,** kunt u zowel de grafiek als de gegevenstabel filteren.
 
-In dit diagram worden berichten weergegeven die zijn ingedeeld in de volgende categorieën:
+In deze grafiek ziet u berichten die zijn ingedeeld in de volgende categorieën:
 
-- **Totaal aantal e-mailberichten**
-- **Edge toestaan** en **Edge gefilterd**
-- **Geen malware,** **detectie van veilige bijlagen,** <sup>\*</sup> detectie van **antimalware-engine en** **regelberichten**
-- **Not phish,** **DMARC failure,** **Impersonation detection,** **Spoof detection,** and **Phish detection**
+- **Totaal aantal e-mail**
+- **Rand toestaan** en **Edge gefilterd**
+- **Geen malware,** **detectie van veilige bijlagen,** <sup>\*</sup> detectie van **anti-malwareprogramma's** en **regelberichten**
+- **Geen phish,** **DMARC-fout,** **imitatiedetectie,** **spoofdetectie** en **Phish-detectie**
 - **Geen detectie met URL-detonatie en** **URL-detonatiedetectie**<sup>\*</sup>
 - **Geen spam en**  **spam**
-- **Niet-schadelijke e-mail,** **detectie van veilige koppelingen** en <sup>\*</sup> **ZAP**
+- **Niet-schadelijke e-mail,** **detectie van** veilige koppelingen <sup>\*</sup> en **ZAP**
 
 <sup>\*</sup> Defender voor Office 365
 
-Wanneer u de muisaanwijzer op een categorie in de grafiek beweegt, ziet u het aantal berichten in die categorie.
+Wanneer u de muisaanwijzer boven een categorie in de grafiek beweegt, kunt u het aantal berichten in die categorie zien.
 
 De gegevenstabel bevat de volgende gegevens, weergegeven in aflopende datumvolgorde:
 
 - **Datum**
-- **Totaal aantal e-mailberichten**
-- **Gefilterd op Edge**
-- **Antimalware-engine, veilige bijlagen, regel gefilterd:**
-  - **Regel gefilterd:** berichten die zijn gefilterd vanwege regels voor de e-mailstroom (ook wel transportregels genoemd).
-- **DMARC, imitatie, spoofing, phish gefilterd:**
-  - **DMARC: Berichten** gefilterd als gevolg van het bericht dat de DMARC-verificatiecontrole mislukt.
+- **Totaal aantal e-mail**
+- **Gefilterde rand**
+- **Anti-malware-engine, Veilige bijlagen, regel gefilterd:**
+  - **Regel gefilterd:** Berichten gefilterd vanwege regels voor e-mailstroom (ook wel transportregels genoemd).
+- **DMARC, imitatie, spoof, phish gefilterd:**
+  - **DMARC:** Berichten gefilterd vanwege het bericht dat de DMARC-verificatiecontrole mislukt.
 - **DETECTIE VAN URL-detonatie**
-- **Antispam gefilterd**
-- **ZAP is verwijderd**
-- **Detectie via veilige koppelingen**
+- **Gefilterde antispam**
+- **ZAP verwijderd**
+- **Detectie door veilige koppelingen**
 
-Als u een rij in de gegevenstabel selecteert, worden de e-mailberichten in de flyout verder uitsplitsing weergegeven.
+Als u een rij in de gegevenstabel selecteert, wordt een verdere uitsplitsing van de e-mailtellingen weergegeven in de flyout.
 
-**Exporteren:**
+**Exporteren**:
 
-Als u op **Exporteren klikt,** kunt u onder **Opties** een van de volgende waarden selecteren:
+Als u op **Exporteren** klikt, kunt u onder **Opties** een van de volgende waarden selecteren:
 
 - **Overzicht (met gegevens van de afgelopen 90 dagen)**
-- **Details (met gegevens voor de afgelopen 30 dagen)**
+- **Details (met gegevens van de afgelopen 30 dagen ten hoogst)**
 
-Kies **een** bereik onder Datum en klik op **Toepassen.** Gegevens voor de huidige filters worden geëxporteerd naar een CSV-bestand.
+Kies **onder Datum** een bereik en klik vervolgens op **Toepassen.** Gegevens voor de huidige filters worden geëxporteerd naar een CSV-bestand.
 
 Elk geëxporteerd CSV-bestand is beperkt tot 150.000 rijen. Als de gegevens meer dan 150.000 rijen bevatten, worden meerdere CSV-bestanden gemaakt.
 
- ![Technische weergave in het Mailflow-statusrapport ](../../media/mail-flow-status-report-Tech-view.png)
+ ![Technische weergave in het rapport Mailflow-status ](../../media/mail-flow-status-report-Tech-view.png)
 
-## <a name="sent-and-received-email-report"></a>Rapport verzonden en ontvangen e-mail
+## <a name="sent-and-received-email-report"></a>E-mailrapport verzonden en ontvangen
 
-Het **rapport Verzonden** en ontvangen e-mail is een slim rapport met informatie over binnenkomende en uitgaande e-mail, inclusief spamdetecties, malware en e-mail die wordt geïdentificeerd als 'goed'. Het verschil tussen dit rapport en het [Mailflow-statusrapport](#mailflow-status-report) is: dit rapport bevat geen gegevens over berichten die zijn geblokkeerd door randbeveiliging. Het is belangrijk om te weten dat als een bericht naar vijf geadresseerden wordt verzonden, dit als één bericht wordt geteld.
+Het **rapport Verzonden** en ontvangen e-mail is een slim rapport met informatie over inkomende en uitgaande e-mail, waaronder spamdetecties, malware en e-mail die als 'goed' zijn geïdentificeerd. Het verschil tussen dit rapport en het [mailflowstatusrapport](#mailflow-status-report) is: dit rapport bevat geen gegevens over berichten die zijn geblokkeerd door randbeveiliging. Het is belangrijk om te begrijpen dat als een bericht naar vijf geadresseerden wordt verzonden, we het als één bericht tellen.
 
-Filteren kan 90 dagen duren voor de statistische weergave en de detailweergave van het rapport.
+Met de statistische weergave en de detailweergave van het rapport kunt u 90 dagen filteren.
 
-Als u het rapport wilt bekijken, opent u  het beveiligings- [& compliancecentrum,](https://protection.office.com)gaat u naar het dashboard Rapporten en selecteert u \>  **Verzonden en ontvangen e-mail.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=SentAndReceivedMailATP> .
+Als u het rapport wilt bekijken, opent u  het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar \> **Rapportendashboard** en **selecteert u Verzonden en ontvangen e-mail.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=SentAndReceivedMailATP> .
 
-![De widget Verzonden en ontvangen e-mail in het dashboard Rapporten](../../media/sent-and-received-email-report-widget.png)
+![E-mailwidget verzonden en ontvangen in het dashboard Rapporten](../../media/sent-and-received-email-report-widget.png)
 
-### <a name="report-view-for-the-sent-and-received-email-report"></a>Rapportweergave voor het rapport Verzonden en ontvangen e-mail
+### <a name="report-view-for-the-sent-and-received-email-report"></a>Rapportweergave voor het e-mailrapport Verzonden en ontvangen
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
@@ -442,110 +442,110 @@ De volgende grafieken zijn beschikbaar in de rapportweergave:
   - **Regelberichten**
   - **Geavanceerde malware** (Microsoft Defender voor Office 365)
 
-  Wanneer u de muisaanwijzer over een dag (gegevenspunt) in de grafiek beweegt, ziet u de details voor die dag.
+  Wanneer u de muisaanwijzer boven een dag (gegevenspunt) in de grafiek beweegt, ziet u details voor die dag.
 
-  ![Weergave Typen in het rapport Verzonden en ontvangen e-mail](../../media/sent-and-received-email-report-type-view.png)
+  ![Weergave typen in het e-mailrapport Verzonden en ontvangen](../../media/sent-and-received-email-report-type-view.png)
 
-- **Op te delen met: Richting:** in de grafiek ziet u **het totaal,** **de** binnenkomende en **uitgaande** gegevens. Wanneer u de muisaanwijzer over een dag (gegevenspunt) in de grafiek beweegt, ziet u de details voor die dag.
+- **Af te breken op: Richting:** In de grafiek **worden totaal-,** **inkomende** en **uitgaande gegevens** weergegeven. Wanneer u de muisaanwijzer boven een dag (gegevenspunt) in de grafiek beweegt, ziet u details voor die dag.
 
-  ![Richtingsweergave in het rapport Verzonden en ontvangen e-mail](../../media/sent-and-received-email-report-direction-view.png)
+  ![Richtingsweergave in het e-mailrapport Verzonden en ontvangen](../../media/sent-and-received-email-report-direction-view.png)
 
-- **Inzoomen op** \> **Malware (anti-malware)**: met deze selectie gaat u naar de [malwaredetecties in het e-mailrapport.](view-email-security-reports.md#malware-detections-in-email-report)
+- **Inzoomen op** \> **Malware (anti-malware)**: Met deze selectie gaat u naar de detecties van [malware in het e-mailrapport.](view-email-security-reports.md#malware-detections-in-email-report)
 
-- **Inzoomen op** \> **Spamdetecties:** hiermee gaat u naar het [rapport Spamdetectie.](view-email-security-reports.md#spam-detections-report)
+- **Inzoomen op** \> **Spamdetecties)**: Met deze selectie gaat u naar het [rapport Spamdetecties.](view-email-security-reports.md#spam-detections-report)
 
-Als u in **een rapportweergave** op Filters klikt, kunt u de resultaten wijzigen met de volgende filters:
+Als u in **een rapportweergave** op Filters klikt, kunt u de resultaten met de volgende filters wijzigen:
 
-- **Begindatum** **en einddatum**
+- **Begindatum** en **einddatum**
 - Richtingswaarden
-- Typewaarden
+- Waarden typen
 
-Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
-### <a name="details-table-view-for-the-sent-and-received-email-report"></a>Tabelweergave Details voor het rapport Verzonden en ontvangen e-mail
+### <a name="details-table-view-for-the-sent-and-received-email-report"></a>Tabelweergave Details voor het e-mailrapport Verzonden en ontvangen
 
-Als u klikt **op de tabel Details weergeven** in Op delen **door:** Richting of Opbreken **door:** Richtingsweergave, wordt de volgende informatie weergegeven:
+Als u in **de tabel Details weergeven** klikt **op:** Richting of Afbreken **door:** Richtingsweergave, worden de volgende gegevens weergegeven:
 
 - **Datum (UTC)**
 - **Type**
 - **Richting**
 - **Aantal berichten**
 
-Als u in een detailtabelweergave op **Filters** klikt, kunt u de resultaten wijzigen met de volgende filters:
+Als u in een detailtabelweergave op **Filters** klikt, kunt u de resultaten met de volgende filters wijzigen:
 
-- **Begindatum** **en einddatum**
+- **Begindatum** en **einddatum**
 - Richtingswaarden
-- Typewaarden
+- Waarden typen
 
-Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
-## <a name="top-senders-and-recipients-report"></a>Top senders and recipients report
+## <a name="top-senders-and-recipients-report"></a>Rapport top afzenders en geadresseerden
 
-Het **rapport met de belangrijkste afzenders en geadresseerden** is een cirkeldiagram met de belangrijkste afzenders en geadresseerden van uw e-mail.
+Het **rapport Top senders and recipients** is a pie chart showing your top email senders and recipients.
 
-Als u het rapport wilt bekijken, opent u  het beveiligings- [& compliancecentrum,](https://protection.office.com)gaat u naar het dashboard Rapporten en selecteert u de belangrijkste \>  **afzenders en geadresseerden.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=TopSenderRecipientsATP> .
+Als u het rapport wilt bekijken, opent u  het [Beveiligingscentrum & Compliancecentrum,](https://protection.office.com)gaat u naar \> **Rapportendashboard** en selecteert u **Top senders and recipients**. Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=TopSenderRecipientsATP> .
 
-![De belangrijkste widget voor afzenders en geadresseerden in het dashboard Rapporten](../../media/top-senders-and-recipients-widget.png)
+![De widget Top senders and recipients in the Reports dashboard](../../media/top-senders-and-recipients-widget.png)
 
-### <a name="report-view-for-the-top-senders-and-recipient-report"></a>Rapportweergave voor het rapport met de belangrijkste afzenders en geadresseerden
+### <a name="report-view-for-the-top-senders-and-recipient-report"></a>Rapportweergave voor het rapport Top senders and recipient report
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens voor belangrijkste \> afzenders van e-mailberichten tonen**
-- **Gegevens voor belangrijkste \> e-mailontvangers tonen**
-- **Gegevens voor belangrijkste \> geadresseerden van ongewenste e-mail tonen**
-- **Gegevens tonen voor \> Belangrijkste ontvangers van malware** (EOP)
-- **Gegevens tonen voor \> belangrijkste malwareontvangers (Defender voor Office 365)**
+- **Gegevens voor \> de belangrijkste afzenders van e-mail tonen**
+- **Gegevens voor \> de belangrijkste geadresseerden van e-mail tonen**
+- **Gegevens voor \> beste spamontvangers tonen**
+- **Gegevens voor \> Belangrijkste ontvangers van malware** (EOP)
+- **Gegevens voor \> de beste ontvangers van malware (Defender voor Office 365)**
 
-De samenstelling van het cirkeldiagram verandert op basis van deze selecties.
+De samenstelling van het cirkeldiagram wordt gewijzigd op basis van deze selecties.
 
-Wanneer u de muisaanwijzer over een wig in het cirkeldiagram beweegt, ziet u het aantal verzonden of ontvangen berichten.
+Wanneer u de muisaanwijzer over een wig in het cirkeldiagram beweegt, ziet u een aantal verzonden of ontvangen berichten.
 
-Als u in **een rapportweergave** op Filters klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
+Als u in **een rapportweergave** op Filters klikt, kunt u een datumbereik opgeven met **Begindatum** en **Einddatum.**
 
-![Cirkeldiagram in rapportweergave in het rapport Met de belangrijkste afzenders en geadresseerden](../../media/top-senders-and-recipients-report-view.png)
+![Cirkeldiagram in rapportweergave in het rapport Belangrijkste afzenders en geadresseerden](../../media/top-senders-and-recipients-report-view.png)
 
-### <a name="details-table-view-for-the-top-senders-and-recipient-report"></a>Detailtabelweergave voor het rapport Met de belangrijkste afzenders en geadresseerden
+### <a name="details-table-view-for-the-top-senders-and-recipient-report"></a>Tabelweergave Details voor het rapport Met de beste afzenders en geadresseerden
 
-Als u op **de tabel Details weergeven klikt,** is de informatie die wordt weergegeven afhankelijk van de grafiek die u bekijkt:
+Als u op **Detailstabel weergeven klikt,** is de weergegeven informatie afhankelijk van de grafiek die u hebt bekeken:
 
-- **Gegevens voor belangrijkste \> afzenders van e-mailberichten tonen**
+- **Gegevens voor \> de belangrijkste afzenders van e-mail tonen**
 
   - **Belangrijkste afzenders van e-mail**
   - **Aantal**
 
-- **Gegevens voor belangrijkste \> e-mailontvangers tonen**
+- **Gegevens voor \> de belangrijkste geadresseerden van e-mail tonen**
 
-  - **Belangrijkste e-mailontvangers**
+  - **Belangrijkste geadresseerden van e-mail**
   - **Aantal**
 
-- **Gegevens voor belangrijkste \> geadresseerden van ongewenste e-mail tonen**
+- **Gegevens voor \> beste spamontvangers tonen**
 
-  - **Belangrijkste geadresseerden voor ongewenste e-mail**
+  - **Belangrijkste geadresseerden van spam**
   - **Aantal**
 
-- **Gegevens tonen voor \> Belangrijkste ontvangers van malware** (EOP)
+- **Gegevens voor \> Belangrijkste ontvangers van malware** (EOP)
 
   - **Belangrijkste ontvangers van malware**
   - **Aantal**
 
-- **Gegevens tonen voor \> belangrijkste malwareontvangers (Defender voor Office 365)**
+- **Gegevens voor \> de beste ontvangers van malware (Defender voor Office 365)**
 
   - **Belangrijkste ontvangers van malware (Defender voor Office 365)**
   - **Aantal**
 
-Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
+Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **Begindatum** en **Einddatum.**
 
-Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
+Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
-## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn nodig om deze rapporten te bekijken?
+## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn nodig om deze rapporten weer te geven?
 
-Als u de rapporten in dit artikel wilt bekijken en gebruiken, moet u lid zijn van een van de volgende rollengroepen in het beveiligings- & compliancecentrum:
+Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in het Compliancecentrum & Beveiliging:
 
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
 - **Beveiligingslezer**
-- **Globale lezer**
+- **Algemene lezer**
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
@@ -556,8 +556,8 @@ Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-s
 
 [Slimme rapporten en inzichten in het beveiligings- & compliancecentrum](reports-and-insights-in-security-and-compliance.md)
 
-[Inzichten in e-mailstroom in het & compliancecentrum](mail-flow-insights-v2.md)
+[Inzichten in e-mailstroom in het beveiligings- & compliancecentrum](mail-flow-insights-v2.md)
 
-[Beveiligingsrapporten voor e-mail weergeven in het & compliancecentrum](view-email-security-reports.md)
+[E-mailbeveiligingsrapporten weergeven in het beveiligings- & compliancecentrum](view-email-security-reports.md)
 
-[Rapporten voor Microsoft Defender voor Office 365 weergeven](view-reports-for-atp.md)
+[Rapporten weergeven voor Microsoft Defender voor Office 365](view-reports-for-atp.md)

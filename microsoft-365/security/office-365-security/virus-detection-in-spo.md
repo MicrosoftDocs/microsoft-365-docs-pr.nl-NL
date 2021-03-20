@@ -20,12 +20,12 @@ description: Meer informatie over hoe in SharePoint Online virussen worden gedet
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9ba3d19c6b04b93d9b1089540b7483d8b2e7246c
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: a651d198f441c26525cbfb5d7406ae350db8b79e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727497"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908080"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Ingebouwde virusbeveiliging in SharePoint Online, OneDrive en Microsoft Teams
 
@@ -62,7 +62,7 @@ Dit is wat er gebeurt:
 
 > [!NOTE]
 >
-> Beheerders kunnen de parameter *DisallowInfectedFileDownload* gebruiken op de cmdlet [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) in SharePoint Online PowerShell om te voorkomen dat gebruikers geïnfecteerde bestanden downloaden, zelfs in het waarschuwingsvenster voor virussen. Zie [SharePoint Online PowerShell](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)gebruiken om te voorkomen dat gebruikers schadelijke bestanden downloaden voor instructies.
+> Beheerders kunnen de parameter *DisallowInfectedFileDownload* gebruiken op de cmdlet [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) in SharePoint Online PowerShell om te voorkomen dat gebruikers geïnfecteerde bestanden downloaden, zelfs in het waarschuwingsvenster voor virussen. Zie [SharePoint Online PowerShell](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)gebruiken om te voorkomen dat gebruikers schadelijke bestanden downloaden voor instructies.
 >
 > Zodra u de parameter *DisallowInfectedFileDownload* inschakelen, wordt de toegang tot de gedetecteerde/geblokkeerde bestanden volledig geblokkeerd voor gebruikers en beheerders.
 
@@ -76,6 +76,6 @@ Microsoft 365-organisaties die Microsoft Defender voor [Office 365](office-365-a
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Beveiliging tegen malware en ransomware in Microsoft 365](https://docs.microsoft.com/compliance/assurance/assurance-malware-and-ransomware-protection)
+[Beveiliging tegen malware en ransomware in Microsoft 365](/compliance/assurance/assurance-malware-and-ransomware-protection)
 
 Zie Beschermen tegen bedreigingen en Veilige bijlagen voor [SharePoint, OneDrive](turn-on-atp-for-spo-odb-and-teams.md)en Microsoft Teams in te zetten voor meer informatie over antivirus in SharePoint Online, OneDrive en Microsoft Teams. [](protect-against-threats.md)

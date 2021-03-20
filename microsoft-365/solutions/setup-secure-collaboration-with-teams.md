@@ -15,76 +15,76 @@ ms.custom:
 - M365solutions
 - seo-marvel-jun2020
 f1.keywords: NOCSH
-description: Meer informatie over het instellen van veilige samenwerking aan inhoud in Teams om uw gegevens te beschermen op basis van de gevoeligheid.
-ms.openlocfilehash: c7881328da2ef78d043b12db29f50b961d79b2cb
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Informatie over het instellen van veilige samenwerking met inhoud in Teams om uw gegevens te beveiligen op basis van de gevoeligheid.
+ms.openlocfilehash: 88cb3557f1c150a9c9fd68ba362fcc9c424aa73a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423991"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906466"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Veilige samenwerking instellen met Microsoft 365
 
-Het gemakkelijk kunnen delen van informatie met de juiste personen en het voorkomen van te veel delen is belangrijk voor het succes van een organisatie. Dit houdt onder andere in dat u gevoelige gegevens veilig kunt delen met alleen personen die er toegang toe moeten hebben. Afhankelijk van het project kan dit het delen van gevoelige gegevens omvatten met personen buiten uw organisatie.
+Het is belangrijk om eenvoudig informatie te kunnen delen met de juiste personen en overbeharing te voorkomen. Dit geldt ook voor het veilig delen van gevoelige gegevens met alleen personen die toegang tot deze gegevens moeten hebben. Afhankelijk van het project kan dit het delen van gevoelige gegevens omvatten met personen buiten uw organisatie.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
-Deze richtlijnen voor samenwerkingsoplossing bevatten twee onderdelen die u kunnen helpen:
-- Microsoft Teams implementeren met het juiste beschermingsniveau voor elk project
+Deze richtlijnen voor samenwerkingsoplossing bevatten twee onderdelen om u te helpen:
+- Microsoft Teams implementeren met het juiste beveiligingsniveau voor elk project
 - Extern delen configureren met de juiste beveiligingsinstellingen voor elk project
 
 ![Teams implementeren met de juiste beveiliging en extern delen configureren met de juiste beveiligingsinstellingen](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
-Als er geen veelzijdige en eenvoudig te gebruiken hulpmiddelen voor samenwerking aan inhoud beschikbaar zijn, werken gebruikers vaak samen door documenten per e-mail te verzenden. Dit is een omslachtig en foutgevoelig methode voor samenwerking, die het risico op het delen van informatie kan vergroten. Als personen het delen van informatie te moeilijk vinden, kunnen ze weer consumentenproducten gebruiken die niet door IT worden beheerd. Dit kan een nog groter risico vormen.
+Als veelzijdige en eenvoudig te gebruiken hulpprogramma's voor samenwerking van inhoud niet beschikbaar zijn, werken gebruikers vaak samen door documenten te e-mailen. Dit is een vervelende en foutgevoelige methode voor samenwerking en kan het risico op ongepast delen van informatie vergroten. Als mensen het delen van informatie te moeilijk vinden, kunnen ze terugkeren naar het gebruik van consumentenproducten die niet onder IT vallen. Dit kan een nog groter risico opleveren.
 
-Met Microsoft 365 kunt u Teams implementeren met diverse configuraties die helpen:
+Met Microsoft 365 kunt u Teams implementeren met diverse configuraties die u helpen:
 
-- Uw intellectuele eigendom beveiligen
-- Eenvoudige samenwerking mogelijk maken
-- Een balans creëren tussen beveiliging en bruikbaarheid waardoor de tevredenheid van gebruikers wordt verhoogd en het risico op schaduw van IT wordt verkleind
+- Uw intellectuele eigendom beschermen
+- Eenvoudige samenwerking inschakelen
+- Een evenwicht creëren tussen beveiliging en bruikbaarheid, waardoor de tevredenheid van gebruikers toeneemt en het risico op schaduw-IT wordt verkleind
 
-De meeste organisaties hebben een verscheidenheid aan informatie, met verschillende mate van gevoeligheid en verschillende mate van zakelijke impact als de informatie ongepast wordt gedeeld. Afhankelijk van de gevoeligheid van een bepaald stukje informatie, kunt u delen toestaan met:
+De meeste organisaties hebben een verscheidenheid aan informatie, met verschillende mate van gevoeligheid en verschillende mate van bedrijfsimpact als de informatie ongepast wordt gedeeld. Afhankelijk van de gevoeligheid van een bepaald stukje informatie, kunt u delen toestaan met:
 
-- Iedereen (niet-geauteerd)
+- Iedereen (niet-genauteerd)
 - Personen binnen de organisatie
 - Specifieke personen binnen de organisatie
 - Specifieke personen binnen en buiten de organisatie
 
-Informatie zoals marketingbrochures is bedoeld voor een breed publiek buiten de organisatie. Informatie zoals menu's met menu's van het menu is niet bedoeld voor extern delen, maar heeft geen gevolgen voor het bedrijf als ze extern worden gedeeld. Dit soort informatie hoeft niet of niet te worden beschermd.
+Informatie zoals marketingbrochures zijn bedoeld voor delen in grote lijnen buiten de organisatie. Informatie zoals menu's voor cafetaria's zijn niet bedoeld voor extern delen, maar hebben geen zakelijke invloed als ze extern worden gedeeld. Deze soorten informatie hebben weinig of geen beveiliging nodig.
 
-Deze marketingbrochures worden, zolang ze in ontwikkeling zijn, mogelijk alleen gedeeld binnen de organisatie. In dit geval zijn de standaardinstellingen voor delen in Teams mogelijk voldoende.
+Dezelfde marketingbrochures, die nog in ontwikkeling zijn, worden mogelijk alleen gedeeld binnen de organisatie. In dit geval zijn de standaardinstellingen voor delen in Teams mogelijk voldoende.
 
-Informatie over een nieuw product dat in ontwikkeling is, wordt mogelijk beschouwd als gevoelig, zelfs binnen de organisatie. In dit geval is een betere bescherming mogelijk. U kunt bijvoorbeeld de toegang tot deze gegevens beperken tot leden van een specifiek team. Afhankelijk van het project moet u mogelijk samenwerken met personen buiten uw organisatie, zoals een leverancier of partnerorganisatie.
+Informatie over een nieuw product dat in ontwikkeling is, kan als gevoelig worden beschouwd, zelfs binnen de organisatie. In dit geval is een grotere mate van beveiliging mogelijk geschikt. U kunt bijvoorbeeld de toegang tot deze gegevens beperken tot leden van een specifiek team. Afhankelijk van het project moet u mogelijk samenwerken met personen buiten uw organisatie, zoals een leverancier of partnerorganisatie.
 
-Informatie die essentieel is voor het succes van uw organisatie of die strikte beveiligings- of nalevingsvereisten heeft, vereist mogelijk nog meer beschermingsniveaus.
+Informatie die essentieel is voor het succes van uw organisatie of die strenge beveiligings- of compliancevereisten heeft, vereist mogelijk nog meer beveiligingsniveaus.
 
 ![Risicoschaal van laag (uitgebrachte brochure) tot hoog (gevoelige zakelijke gegevens)](../media/solutions-architecture-center/SecureCollaboration-SensitivityAndBusinessImpactofSharing-fromVisio.png)
 
-Voor alle hierboven genoemde scenario's kunt u teams in Microsoft Teams gebruiken om de informatie op te slaan, te delen en er samen aan te werken. 
+Voor alle bovenstaande scenario's kunt u teams in Microsoft Teams gebruiken om de gegevens op te slaan, te delen en samen te werken. 
 
-Voor het configureren van veilige samenwerking gebruikt u deze Mogelijkheden en functies van Microsoft 365.
+Als u veilige samenwerking wilt configureren, gebruikt u deze Microsoft 365-mogelijkheden en -functies.
 
 | Product of onderdeel | Functie | Licentieverlening |
 |:-------|:-----|:-------|
 | Microsoft Defender voor Office 365 | Veilige bijlagen voor SPO, OneDrive en Teams; Veilige documenten; Veilige koppelingen voor Teams    | Microsoft 365 E1, E3 en E5 |
-| SharePoint    | Beleidsregels voor het delen van site en bestanden, machtigingen voor het delen van een site, koppelingen voor delen, toegangsaanvragen, instellingen voor het delen van gasten van de site | Microsoft 365 E1, E3 en E5 |
+| SharePoint    | Beleid voor het delen van site en bestanden, machtigingen voor het delen van site, Koppelingen delen, Access-aanvragen, instellingen voor het delen van sitegasten | Microsoft 365 E1, E3 en E5 |
 | Microsoft Teams   | Gasttoegang, privéteams, privékanalen | Microsoft 365 E1, E3 en E5 |
 | Microsoft 365-compliance  | Vertrouwelijkheidslabels    | Microsoft 365 E3 en E5 |
 
 ### <a name="collaboration-governance"></a>Samenwerkingsbeheer
 
-Microsoft 365 biedt vele opties voor het besturen van uw samenwerkingsoplossing. U wordt aangeraden deze implementatie-inhoud samen met de inhoud van [het](collaboration-governance-overview.md) samenwerkingsbeheer te gebruiken om de beste samenwerkingsoplossing voor uw organisatie te maken.
+Microsoft 365 biedt veel opties voor het besturen van uw samenwerkingsoplossing. We raden u aan deze implementatie-inhoud naast de inhoud van samenwerkingsbeheer te [gebruiken](collaboration-governance-overview.md) om de beste samenwerkingsoplossing voor uw organisatie te maken.
 
-### <a name="using-teams-for-all-kinds-of-data"></a>Teams gebruiken voor allerlei soorten gegevens
+### <a name="using-teams-for-all-kinds-of-data"></a>Teams gebruiken voor allerlei gegevens
 
-Om de toegang tot informatie met verschillende gevoeligheiden te beheren, hebben we drie verschillende [beschermingsniveaus](configure-teams-three-tiers-protection.md)ontwikkeld voor Teams. U kunt deze lagen aanpassen om beter aan de behoeften of uw bedrijf te voldoen. 
+Om toegang tot informatie met verschillende gevoeligheden te beheren, hebben we drie verschillende beveiligingslagen voor [Teams ontwikkeld.](configure-teams-three-tiers-protection.md) U kunt een van deze lagen aanpassen om beter aan de behoeften of uw bedrijf te voldoen. 
 
-![Afbeelding van drie beschermingsniveaus voor Teams](../media/solutions-architecture-center/Teams-tiers-of-protection-1.png)
+![Afbeelding van drie beveiligingsniveaus voor Teams](../media/solutions-architecture-center/Teams-tiers-of-protection-1.png)
 
 
-Deze lagen , *basislijn,* *gevoelig* en zeer *gevoelig,* verhogen geleidelijk de beveiligingen die helpen voorkomen dat gegevens worden te veel verstrekt en mogelijke informatielekken, zoals wordt weergegeven in de volgende tabel.
+Deze lagen - *basislijn* *,* gevoelig en zeer gevoelig *-* verhogen geleidelijk de beveiligingen die oversharing en mogelijke informatielekken helpen voorkomen, zoals wordt weergegeven in de volgende tabel.
 
-|-|**Basislijnlaag**|**Gevoelige laag**|**Zeer gevoelige laag**|
+|-|**Basislijnlaag**|**Gevoelige laag**|**Hooggevoelige laag**|
 |:--|:-----------|:------------|:-------------------|
 |Openbaar of privéteam|Een van beide|Privé|Privé|
 |Niet-geverifieerd delen|Geblokkeerd|Geblokkeerd|Geblokkeerd|
@@ -92,96 +92,96 @@ Deze lagen , *basislijn,* *gevoelig* en zeer *gevoelig,* verhogen geleidelijk de
 |Teamlidmaatschap|Iedereen kan deelnemen aan openbare teams.<br>Goedkeuring van teameigenaar vereist om deel te nemen aan privéteams.|Goedkeuring van teameigenaar vereist om deel te nemen.|Goedkeuring van teameigenaar vereist om deel te nemen.|
 |Documentversleuteling|||Beschikbaar met gevoeligheidslabel|
 |Gasten delen|Toegestaan|Kan worden toegestaan of geblokkeerd|Kan worden toegestaan of geblokkeerd|
-|Niet-beherende apparaten|Geen beperking|Toegang via alleen internet|Geblokkeerd|
+|Niet-bemande apparaten|Geen beperking|Web-only access|Geblokkeerd|
 
 Als u deze lagen configureert, moet u het volgende doen:
 
 - Instellingen configureren in Teams voor gasttoegang en privékanalen
 - Instellingen configureren op de gekoppelde SharePoint-site van een team voor interne en gastdeling, toegangsaanvragen en koppelingen voor delen
-- Voor de *gevoelige* en *zeer gevoelige* lagen, het configureren van gevoeligheidslabels om de teams te classificeren en het delen van gasten en de toegang van gasten vanaf onbeheerde apparaten te beheren
-- Voor de *zeer gevoelige* laag, configureert u een gevoeligheidslabel om de documenten te versleutelen waarop deze wordt toegepast
+- Voor de *gevoelige* en *zeer gevoelige* lagen, het configureren van gevoeligheidslabels om de teams te classificeren en gast delen en toegang te beheren vanaf niet-beheerbare apparaten
+- Voor de *zeer gevoelige* laag configureert u een gevoeligheidslabel om de documenten waarop deze wordt toegepast te versleutelen
 
-Begin met de basislijnlaag en voeg  vervolgens  teams toe die de gevoelige en zeer gevoelige lagen gebruiken om de informatie in uw organisatie te beschermen. Zie de volgende bronnen om aan de slag te gaan:
+Begin met de basislijnlaag en voeg  teams  toe die zo nodig de gevoelige en zeer gevoelige lagen gebruiken om de informatie in uw organisatie te beschermen. Bekijk deze bronnen om aan de slag te gaan:
 
 - [Teams met basisbescherming configureren](configure-teams-baseline-protection.md)
 - [Teams met bescherming voor vertrouwelijke gegevens configureren](configure-teams-sensitive-protection.md)
 - [Teams met bescherming voor zeer vertrouwelijke gegevens configureren](configure-teams-highly-sensitive-protection.md)
 
-Als u een zeer gevoelig project hebt dat extra beveiliging vereist tegen delen, zelfs binnen uw organisatie, kunt u een team configureren dat zijn eigen gevoeligheidslabel gebruikt om bestanden te versleutelen, zodat alleen teamleden deze kunnen lezen. Zie [Een team configureren met beveiligingsisolatie](secure-teams-security-isolation.md) voor meer informatie.
+Als u een zeer gevoelig project hebt dat extra beveiliging vereist voor delen, zelfs binnen uw organisatie, kunt u een team configureren dat een eigen gevoeligheidslabel gebruikt om bestanden te versleutelen, zodat alleen teamleden ze kunnen lezen. Zie [Een team configureren met beveiligingsisolatie](secure-teams-security-isolation.md) voor meer informatie.
 
 ### <a name="sharing-with-people-outside-your-organization"></a>Delen met personen buiten uw organisatie
 
-Mogelijk moet u [informatie over een eventuele gevoeligheid delen met personen buiten uw organisatie.](collaborate-with-people-outside-your-organization.md) Dit kan variëren van het delen van één document met één persoon tot het samenwerken aan een groot project met een grote partnerorganisatie of met iedereen over de hele wereld. In Microsoft 365 kunt u dit bereik van extern delen eenvoudig en met de juiste beveiliging gebruiken om uw gevoelige informatie te beschermen.
+Mogelijk moet u [gegevens met een gevoeligheid delen met personen buiten uw organisatie.](collaborate-with-people-outside-your-organization.md) Dit kan variëren van het delen van één document met één persoon tot het samenwerken aan een groot project met een grote partnerorganisatie of met freelancers van over de hele wereld. In Microsoft 365 kan dit bereik van extern delen eenvoudig en met de juiste beveiligingen worden uitgevoerd om uw gevoelige informatie te beschermen.
 
-Deze bronnen helpen u om aan de slag te gaan met het instellen van uw omgeving voor samenwerking met personen buiten uw organisatie:
+Met deze bronnen kunt u aan de slag met het instellen van uw omgeving voor samenwerking met personen buiten uw organisatie:
 
-- [Werk samen aan documenten](collaborate-on-documents.md) voor het delen van afzonderlijke bestanden van mappen.
-- [Werk samen op een site](collaborate-in-site.md) om samen te werken met gasten op een SharePoint-site.
-- [Werk samen als een team](collaborate-as-team.md) om samen te werken met gasten in een team.
+- [Samenwerken aan documenten voor](collaborate-on-documents.md) het delen van afzonderlijke bestanden van mappen.
+- [Samenwerken aan een site](collaborate-in-site.md) om samen te werken met gasten op een SharePoint-site.
+- [Samenwerken als een team om](collaborate-as-team.md) samen te werken met gasten in een team.
 
-Afhankelijk van de gevoeligheid van de informatie die wordt gedeeld, kunt u beveiligingen toevoegen om te voorkomen dat er te veel informatie wordt gedeeld. Deze bronnen helpen u bij het instellen van de beveiliging die u nodig hebt voor uw organisatie:
+Afhankelijk van de gevoeligheid van de gegevens die worden gedeeld, kunt u beveiligingen toevoegen om oversharing te voorkomen. Met deze bronnen kunt u de beveiliging instellen die u nodig hebt voor uw organisatie:
 
 - [Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers](best-practices-anonymous-sharing.md)
 - [Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen buiten uw organisatie](share-limit-accidental-exposure.md)
 - [Een beveiligde omgeving voor het delen met gasten maken](create-secure-guest-sharing-environment.md)
 
-Als u een belangrijk project hebt met een partnerorganisatie, kunt u Azure Rechtbeheer gebruiken om de gasten van die organisatie te beheren in een team dat u voor het project in stellen. Zie [Een B2B-extranet maken met beheerde gasten](b2b-extranet.md) voor meer informatie.
+Als u een belangrijk project hebt met een partnerorganisatie, kunt u Azure Entitlement Management gebruiken om de gasten van die organisatie te beheren in een team dat u voor het project hebt ingesteld. Zie [Een B2B-extranet maken met beheerde gasten voor](b2b-extranet.md) meer informatie.
 
 
 
 ## <a name="training-for-administrators"></a>Training voor beheerders
 
-Met deze trainingsmodules van Microsoft Learn leert u de functies voor samenwerking, beheer en identiteit in Teams en SharePoint.
+Deze trainingsmodules van Microsoft Learn kunnen u helpen bij het leren van de functies voor samenwerking, beheer en identiteit in Teams en SharePoint.
 
 #### <a name="teams"></a>Teams
 
-|Training:|Teamsamenwerking beheren met Microsoft Teams|
+|Training:|Teamsamenwerking met Microsoft Teams beheren|
 |:---|:---|
-|![Pictogram teamssamenwerkingstraining](../media/manage-team-collaboration-with-microsoft-teams.svg)|Manage team collaboration with Microsoft Teams introduces you to the features and capabilities of Microsoft Teams, the central hub for team collaboration in Microsoft 365. U leert hoe u Teams kunt gebruiken om teamwerk en communicatie binnen uw organisatie te vergemakkelijken, zowel on-premises als off-premises, op een groot aantal apparaten, van desktops tot tablets tot telefoons, terwijl u profiteert van alle uitgebreide functionaliteit van Office 365-toepassingen. U krijgt inzicht in de manier waarop Teams een uitgebreide en flexibele omgeving biedt voor samenwerking tussen toepassingen en apparaten. Dit leerpad kan u helpen bij de voorbereiding op de Microsoft 365 Certified: Teams Administrator Associate-certificering.<br><br>2 uur en 17 min . Leerpad - 5 modules|
+|![Pictogram Teams-samenwerkingstraining](../media/manage-team-collaboration-with-microsoft-teams.svg)|Als u teamsamenwerking met Microsoft Teams beheert, maakt u kennis met de functies en mogelijkheden van Microsoft Teams, de centrale hub voor teamsamenwerking in Microsoft 365. U leert hoe u Teams kunt gebruiken om teamwerk en communicatie binnen uw organisatie te vergemakkelijken, zowel on- als off-premises, op een breed scala aan apparaten, van desktops tot tablets tot telefoons, terwijl u gebruik kunt maken van alle uitgebreide functionaliteit van Office 365-toepassingen. U krijgt inzicht in de manier waarop Teams een uitgebreide en flexibele omgeving biedt voor samenwerking tussen toepassingen en apparaten. Met dit leerpad kunt u zich voorbereiden op de certificering microsoft 365 Gecertificeerd: Teams Administrator Associate.<br><br>2 uur 17 min - Leerpad - 5 modules|
 
 > [!div class="nextstepaction"]
-> [Start >](https://docs.microsoft.com/learn/modules/m365-teams-collab-prepare-deployment/introduction/)
+> [Start >](/learn/modules/m365-teams-collab-prepare-deployment/introduction/)
 
 #### <a name="sharepoint"></a>SharePoint
 
 |Training:|Samenwerken met SharePoint in Microsoft 365|
 |:---|:---|
-|![Pictogram training voor SharePoint](../media/collaborate-with-sharepoint-in-microsoft-365.svg)|Als u gedeelde inhoud met Microsoft SharePoint beheert, maakt u kennis met de functies en mogelijkheden van SharePoint en de manier waarop het werkt met Microsoft 365. U krijgt informatie over de verschillende typen SharePoint-sites, waaronder hubsites, en informatiebescherming, rapportage en controle. U leert ook hoe u SharePoint-bestanden en -mappen kunt gebruiken om samenwerking te optimaliseren, hoe u bestanden extern kunt delen en hoe u SharePoint-sites beheert in het SharePoint-beheercentrum. Dit leerpad kan u helpen bij de voorbereiding op de Microsoft 365 Certified: Teamwork Administrator Associate-certificering.<br><br>1 uur en 14 min. - Leerpad - 4 modules|
+|![SharePoint-trainingspictogram](../media/collaborate-with-sharepoint-in-microsoft-365.svg)|Gedeelde inhoud beheren met Microsoft SharePoint laat u kennismaken met de functies en mogelijkheden van SharePoint en hoe deze werkt met Microsoft 365. U leert over de verschillende typen SharePoint-sites, waaronder hubsites, evenals informatiebeveiliging, rapportage en monitoring. U leert ook hoe u SharePoint-bestanden en -mappen kunt gebruiken om de samenwerking te optimaliseren, hoe u bestanden extern deelt en hoe u SharePoint-sites beheert in het SharePoint-beheercentrum. Dit leerpad kan u helpen om u voor te bereiden op de microsoft 365 Certified: Teamwork Administrator Associate-certificering.<br><br>1 uur 14 min - Leerpad - 4 modules|
 
 > [!div class="nextstepaction"]
-> [Start >](https://docs.microsoft.com/learn/modules/m365-teams-sharepoint-plan-sharepoint/introduction/)
+> [Start >](/learn/modules/m365-teams-sharepoint-plan-sharepoint/introduction/)
 
 #### <a name="information-protection"></a>Gegevensbescherming
 
 |Training:|Bedrijfsgegevens beveiligen met Microsoft 365|
 |:---|:---|
-|![Pictogram training voor Teams-informatiebeveiliging](../media/protect-enterprise-information-microsoft-365.svg)|Het beschermen en beveiligen van de gegevens van uw organisatie is nu nog lastiger dan ooit. In het leerpad Microsoft 365 worden bedrijfsgegevens beschermd tegen onbedoelde overbelasting of misbruik, hoe u gegevens kunt vinden en classificeren, hoe u deze kunt beveiligen met gevoeligheidslabels en hoe u uw gevoelige informatie kunt bewaken en analyseren om te voorkomen dat deze verloren gaat. Dit leerpad kan u helpen bij de voorbereiding op de Microsoft 365 Certified: Security Administrator Associate en Microsoft 365 Certified: Enterprise Administration Expert-certificeringen.<br><br>1 uur - Leerpad - 5 modules|
+|![Pictogram Training voor Teams infobeveiliging](../media/protect-enterprise-information-microsoft-365.svg)|Het beveiligen en beveiligen van de gegevens van uw organisatie is lastiger dan ooit. In het leerpad Ondernemingsgegevens beveiligen met Microsoft 365 wordt besproken hoe u uw gevoelige informatie kunt beschermen tegen onbedoelde overbelasting of misbruik, hoe u gegevens kunt ontdekken en classificeren, hoe u deze kunt beschermen met gevoeligheidslabels en hoe u uw gevoelige gegevens kunt bewaken en analyseren om te beschermen tegen verlies. Met dit leerpad kunt u zich voorbereiden op de certificeringen Microsoft 365 Certified: Security Administrator Associate en Microsoft 365 Certified: Enterprise Administration Expert..<br><br>1 uur - Leerpad - 5 modules|
 
 > [!div class="nextstepaction"]
-> [Start >](https://docs.microsoft.com/learn/modules/m365-security-info-overview/introduction/)
+> [Start >](/learn/modules/m365-security-info-overview/introduction/)
 
 #### <a name="identity-and-access"></a>Identiteit en toegang
 
 |Training:|Identiteit en toegang beveiligen met Azure Active Directory|
 |:---|:---|
-|![Pictogram Identiteit en toegangstraining](../media/protect-identity-and-access-with-microsoft-365.svg)|Het leerpad Identiteit en Access omvat de nieuwste identiteits- en toegangstechnologieën, hulpmiddelen voor verificatie via verificatie en richtlijnen voor identiteitsbeveiliging binnen uw organisatie. Met Microsoft-toegangs- en identiteitstechnologieën kunt u de identiteit van uw organisatie beveiligen, on-premises of in de cloud, en stelt u uw gebruikers in staat veilig te werken vanaf elke locatie. Dit leerpad kan u helpen bij de voorbereiding op de Microsoft 365 Certified: Security Administrator Associate en Microsoft 365 Certified: Enterprise Administration Expert-certificeringen.<br><br>2 uur en 52 min . Leerpad - 6 modules|
+|![Pictogram Voor training voor identiteit en toegang](../media/protect-identity-and-access-with-microsoft-365.svg)|Het leerpad Identiteit en Access omvat de nieuwste identiteits- en toegangstechnologieën, hulpmiddelen voor het versterken van verificatie en richtlijnen voor identiteitsbeveiliging binnen uw organisatie. Met microsoft-toegangs- en identiteitstechnologieën kunt u de identiteit van uw organisatie beveiligen, ongeacht of deze on-premises of in de cloud is, en uw gebruikers in staat stellen veilig te werken vanaf elke locatie. Met dit leerpad kunt u zich voorbereiden op de certificeringen Microsoft 365 Certified: Security Administrator Associate en Microsoft 365 Certified: Enterprise Administration Expert.<br><br>2 uur 52 min - Leerpad - 6 modules|
 
 > [!div class="nextstepaction"]
-> [Start >](https://docs.microsoft.com/learn/modules/m365-identity-overview/introduction/)
+> [Start >](/learn/modules/m365-identity-overview/introduction/)
 
 ## <a name="training-for-end-users"></a>Training voor eindgebruikers
 
-Met deze trainingsmodules kunnen uw gebruikers Teams, groepen en SharePoint gebruiken om samen te werken in Microsoft 365.
+Met deze trainingsmodules kunnen uw gebruikers Teams, groepen en SharePoint gebruiken voor samenwerking in Microsoft 365.
 
 |Teams|SharePoint|
 |:---|:---|
-|![Pictogram voor het instellen en aanpassen van uw teamtraining](../media/set-up-customize-team-training.png)<br>**[Uw team instellen en aanpassen](https://support.microsoft.com/office/702a2977-e662-4038-bef5-bdf8ee47b17b)**|![Pictogram training delen en synchroniseren in SharePoint](../media/sharepoint-share-sync-training.png)<br>**[Delen en synchroniseren](https://support.microsoft.com/office/98cb2ff2-c27e-42ea-b055-c2d895f8a5de)**|
-|![Pictogram voor het uploaden en zoeken van teams voor het uploaden van bestanden](../media/smc-teams-upload-find-files-training.png)<br>**[Bestanden uploaden en zoeken](https://support.microsoft.com/office/57b669db-678e-424e-b0a0-15d19215cb12)**||
+|![Uw teamtrainingspictogram instellen en aanpassen](../media/set-up-customize-team-training.png)<br>**[Uw team instellen en aanpassen](https://support.microsoft.com/office/702a2977-e662-4038-bef5-bdf8ee47b17b)**|![SharePoint-pictogram voor training delen en synchroniseren](../media/sharepoint-share-sync-training.png)<br>**[Delen en synchroniseren](https://support.microsoft.com/office/98cb2ff2-c27e-42ea-b055-c2d895f8a5de)**|
+|![Pictogram Voor het uploaden en zoeken van bestanden in Teams](../media/smc-teams-upload-find-files-training.png)<br>**[Bestanden uploaden en zoeken](https://support.microsoft.com/office/57b669db-678e-424e-b0a0-15d19215cb12)**||
 |![Pictogram Samenwerken in teams en kanalen](../media/teams-collaborate-channels-training.png)<br>**[Samenwerken in teams en kanalen](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**|||
 
 ## <a name="illustrations"></a>Illustraties
 
-Deze afbeeldingen helpen u inzicht te krijgen in de interactie tussen groepen en teams met andere services in Microsoft 365 en welke beheer- en nalevingsfuncties beschikbaar zijn om u te helpen deze services in uw organisatie te beheren.
+Met deze illustraties krijgt u inzicht in de interactie tussen groepen en teams met andere services in Microsoft 365 en welke beheer- en compliancefuncties beschikbaar zijn om u te helpen bij het beheren van deze services in uw organisatie.
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>Groepen in Microsoft 365 voor IT-architecten
 Wat IT-architecten moeten weten over Microsoft 365-groepen
@@ -199,14 +199,14 @@ De logische architectuur van productiviteitsservices in Microsoft 365, geleid do
 
 ## <a name="deploy-the-secure-collaboration-solution"></a>De veilige samenwerkingsoplossing implementeren
 
-Wanneer u klaar bent om deze oplossing te implementeren, gaat u verder met deze stappen:
-1. Configureer [de drie verschillende beschermingsniveaus voor Teams.](configure-teams-three-tiers-protection.md)
-2. Configureer instellingen [voor het delen van informatie over gevoeligheid met personen buiten uw organisatie.](collaborate-with-people-outside-your-organization.md)
+Wanneer u klaar bent om deze oplossing te implementeren, gaat u verder met de volgende stappen:
+1. Configureer [de drie verschillende beveiligingslagen voor Teams.](configure-teams-three-tiers-protection.md)
+2. Configureer instellingen voor [het delen van informatie die gevoelig is voor personen buiten uw organisatie.](collaborate-with-people-outside-your-organization.md)
 
 ## <a name="see-also"></a>Zie ook
 
-[Documentatie over Microsoft 365-beveiliging](https://docs.microsoft.com/microsoft-365/security)
+[Documentatie over Microsoft 365-beveiliging](../security/index.yml)
 
-[Microsoft 365-compliancedocumentatie](https://docs.microsoft.com/microsoft-365/compliance)
+[Microsoft 365-compliancedocumentatie](../compliance/index.yml)
 
-[Welkom bij Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
+[Welkom bij Microsoft Teams](/MicrosoftTeams/Teams-overview)

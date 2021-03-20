@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. Zo kan de servicebeheerder bijvoorbeeld supporttickets openen via het Beheercentrum.
-ms.openlocfilehash: ddea8a06af2b529a369ea045913b639b84c6f9d4
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: cf628ffd05cb7f5d94c932d48bd4e8ae35a47db9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49867980"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906370"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -37,9 +37,9 @@ In het Microsoft 365-beheercentrum kunt u Azure AD- en Microsoft Intune-rollen b
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Zoekt u een volledige lijst met uitgebreide beschrijvingen van Azure AD-rollen die u kunt beheren in het Microsoft 365-Beheercentrum? Bekijk de machtigingen voor de beheerdersrol in Azure Active Directory. [Machtigingen voor de beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+Zoekt u een volledige lijst met uitgebreide beschrijvingen van Azure AD-rollen die u kunt beheren in het Microsoft 365-Beheercentrum? Bekijk de machtigingen voor de beheerdersrol in Azure Active Directory. [Machtigingen voor de beheerdersrol in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
-Zoekt u een volledige lijst met uitgebreide beschrijvingen van Intune-rollen die u kunt beheren in het Microsoft 365-Beheercentrum?  Bekijk [op rollen gebaseerd toegangsbeheer (RBAC) met Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
+Zoekt u een volledige lijst met uitgebreide beschrijvingen van Intune-rollen die u kunt beheren in het Microsoft 365-Beheercentrum?  Bekijk [op rollen gebaseerd toegangsbeheer (RBAC) met Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over het toewijzen van rollen in het Microsoft 365-beheercentrum.
 
@@ -67,7 +67,7 @@ In het Microsoft 365-beheercentrum kunt u naar **Rollen** gaan en vervolgens een
 
 ::: moniker-end
 
-Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen. Standaard tonen we eerst de rollen die de meeste organisaties gebruiken. Als u een rol niet kunt vinden, gaat u naar het einde van de lijst en selecteert u **Alles weergeven per categorie**. (Zie [machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)voor meer informatie, waaronder de cmdlets die zijn gekoppeld aan een rol.)
+Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen. Standaard tonen we eerst de rollen die de meeste organisaties gebruiken. Als u een rol niet kunt vinden, gaat u naar het einde van de lijst en selecteert u **Alles weergeven per categorie**. (Zie [machtigingen voor beheerdersrol in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)voor meer informatie, waaronder de cmdlets die zijn gekoppeld aan een rol.)
 
 |Beheerdersrol     |Aan wie moet deze rol worden toegewezen?  |
 |---------|---------|
@@ -92,7 +92,7 @@ Een partner kan deze rollen toewijzen:
 
 - **Helpdesk Agent** Bevoegdheden vergelijkbaar met die van een helpdesk-beheerder.
 
-Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)voor instructies.
+Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](../misc/add-partner.md)voor instructies.
   
 ## <a name="related-articles"></a>Verwante artikelen
 

@@ -1,5 +1,5 @@
 ---
-title: Eenvoudige mobiliteit en beveiliging instellen
+title: Basic Mobility en Security instellen
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,117 +17,117 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Configureer basis mobiliteit en beveiliging om de mobiele apparaten van uw gebruikers te beschermen en beheren.
-ms.openlocfilehash: 38f122141b370468bc591df49b3e1891a8a66a43
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: Stel Basismobiliteit en beveiliging in om de mobiele apparaten van uw gebruikers te beveiligen en te beheren.
+ms.openlocfilehash: 2f74307d41d83dd2e6fce2b68283ce0966e850e8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876862"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906238"
 ---
-# <a name="set-up-basic-mobility-and-security"></a>Eenvoudige mobiliteit en beveiliging instellen
+# <a name="set-up-basic-mobility-and-security"></a>Basic Mobility en Security instellen
 
-Met de ingebouwde basis mobiliteit en beveiliging voor Microsoft 365 kunt u mobiele apparaten zoals iPhones, iPads, Android-telefoons en Windows Phones beschermen en beheren. U kunt beveiligingsbeleid voor apparaten maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatprofielen weergeven.
+Met de ingebouwde basismobiliteit en beveiliging voor Microsoft 365 kunt u mobiele apparaten van gebruikers beveiligen en beheren, zoals iPhones, iPads, Androids en Windows-telefoons. U kunt beleidsregels voor apparaatbeveiliging maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatrapporten bekijken.
 
-Hebt u vragen? Zie [Veelgestelde vragen over mobiliteit en beveiliging](frequently-asked-questions.md)voor informatie over veelgestelde vragen over het oplossen van veelvoorkomende vragen. U kunt geen gedelegeerde beheerdersaccount gebruiken om eenvoudige mobiliteit en beveiliging te beheren. Zie voor meer informatie [partners: gedelegeerd beheer bieden](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e). 
+Hebt u vragen? Zie Veelgestelde vragen (Veelgestelde vragen over basismobiliteit en beveiliging) voor veelgestelde vragen om veelgestelde vragen [te beantwoorden.](frequently-asked-questions.md) U kunt geen gedelegeerd beheerdersaccount gebruiken om basismobiliteit en beveiliging te beheren. Zie Partners: Gedelegeerd beheer [aanbieden voor meer informatie.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
 
-Apparaatbeheer maakt deel uit van de beveiligings & nalevings centrum, zodat u dit moet doen om de configuratie van eenvoudige mobiliteit en beveiliging te starten.
+Apparaatbeheer maakt deel uit van het Beveiligings- & compliancecentrum, dus u moet daar naartoe gaan om basisinstellingen voor mobiliteit en beveiliging te starten.
 
-## <a name="activate-the-basic-mobility-and-security-service"></a>De basis-service voor mobiliteit en beveiliging activeren
+## <a name="activate-the-basic-mobility-and-security-service"></a>De basisservice voor mobiliteit en beveiliging activeren
 
 1. Meld u aan bij Microsoft 365 met uw globale beheerdersaccount.
 
-2. Ga naar [basis mobiliteit en beveiliging activeren](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx).
+2. Ga naar [Basismobiliteit en beveiliging activeren.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx)
 
-   Het kan enige tijd duren voor het activeren van basis mobiliteit en beveiliging. Wanneer u klaar bent, ontvangt u een e-mailbericht waarin de volgende stappen worden beschreven.
+   Het kan enige tijd duren om Basismobiliteit en Beveiliging te activeren. Wanneer het einde is bereikt, ontvangt u een e-mailbericht waarin de volgende stappen worden uitgelegd.
 
 ## <a name="set-up-mobile-device-management"></a>Mobile Device Management instellen
 
-Wanneer de service klaar is, voert u de volgende stappen uit om de installatie te voltooien.
+Wanneer de service gereed is, moet u de volgende stappen voltooien om de installatie te voltooien.
 
-### <a name="step-1-required-configure-domains-for-basic-mobility-and-security"></a>Stap 1: (vereist) domeinen configureren voor basis mobiliteit en beveiliging
+### <a name="step-1-required-configure-domains-for-basic-mobility-and-security"></a>Stap 1: (Vereist) Domeinen configureren voor basismobiliteit en beveiliging
 
-Als u geen aangepast domein hebt dat is gekoppeld aan Microsoft 365 of als u geen Windows-apparaten beheert, kunt u dit gedeelte overslaan. Anders moet u DNS-records voor het domein toevoegen aan uw DNS-host. Als u de records al hebt toegevoegd en u uw domein hebt ingesteld met Microsoft 365, bent u er helemaal klaar voor. Wanneer u de records hebt toegevoegd, worden Microsoft 365-gebruikers in uw organisatie die zich aanmelden op hun Windows-apparaat, met een e-mailadres dat gebruikmaakt van uw aangepaste domein, omgeleid om de schrijffunctie te registreren voor eenvoudige mobiliteit en beveiliging.
+Als u geen aangepast domein hebt dat is gekoppeld aan Microsoft 365 of als u Geen Windows-apparaten beheert, kunt u deze sectie overslaan. Anders moet u DNS-records toevoegen voor het domein bij uw DNS-host. Als u de records al hebt toegevoegd, als onderdeel van het instellen van uw domein met Microsoft 365, bent u klaar. Nadat u de records hebt toevoegen, worden Microsoft 365-gebruikers in uw organisatie die zich aanmelden op hun Windows-apparaat met een e-mailadres waarin uw aangepaste domein wordt gebruikt, omgeleid om zich in te schrijven voor Basismobiliteit en Beveiliging.
 
-Hulp nodig bij het instellen van de records? Zoek uw domeinregistratie functie en selecteer de naam van de bewaarder voor stapsgewijze instructies voor het maken van een DNS-record in de lijst die wordt weergegeven in [DNS-records toevoegen om uw domein te verbinden](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider). Gebruik deze instructies voor het maken van CNAME-records die worden beschreven in de [Windows-registratie vereenvoudigen zonder Azure AD Premium](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#simplify-windows-enrollment-without-azure-ad-premium).
+Hulp nodig bij het instellen van de records? Zoek uw domeinregistrar en selecteer de naam van de registrar om naar stapsgewijs help te gaan voor het maken van DNS-record in de lijst in [DNS-records](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)toevoegen om uw domein te verbinden. Gebruik deze instructies om CNAME-records te maken die worden beschreven in [Windows-registratie vereenvoudigen zonder Azure AD Premium.](/mem/intune/enrollment/windows-enroll#simplify-windows-enrollment-without-azure-ad-premium)
 
-Nadat u de twee CNAME-records hebt toegevoegd, gaat u terug naar de beveiligings & nalevings centrum en gaat u verder met  >  **Apparaatbeheer**   voorkomen dat u de volgende stap uitvoert.
+Nadat u de twee CNAME-records hebt toevoegen, gaat u terug naar het Beveiligings- & Compliancecentrum en gaat u naar **Preventie** van gegevensverlies Apparaatbeheer om de volgende stap  >     te voltooien.
 
-### <a name="step-2-required-configure-an-apns-certificate-for-ios-devices"></a>Stap 2: (vereist) een APNs-certificaat voor iOS-apparaten configureren
+### <a name="step-2-required-configure-an-apns-certificate-for-ios-devices"></a>Stap 2: (Vereist) Een APN-certificaat configureren voor iOS-apparaten
 
-Als u iOS-apparaten zoals iPad en iPhones wilt beheren, moet u een APNs-certificaat maken.
+Als u iOS-apparaten zoals iPad en iPhones wilt beheren, moet u een APN-certificaat maken.
 
 1. Meld u aan bij Microsoft 365 met uw globale beheerdersaccount.
 
 2. In uw browsertype:  [https://protection.office.com](https://protection.office.com/) .
 
-3. Selecteer  **preventie van gegevensverlies**   > in  **Apparaatbeheer** en kies **APNs-certificaat voor IOS-apparaten**.
+3. Selecteer  **Preventie van gegevensverlies**   >  **Apparaatbeheer** en kies **APN's-certificaat voor iOS-apparaten.**
 
-4. Kies **volgende** op de pagina Apple Push Notification Certificate Settings.
+4. Kies op de pagina Instellingen voor Apple Push Notification Certificate de optie **Volgende**.
 
-5. Selecteer **Download Your CSR file**   en sla de aanvraag voor certificaatondertekening op uw computer op een locatie op die u kunt onthouden. Selecteer **volgende**.
+5. Selecteer **Uw MVO-bestand downloaden** en sla de aanvraag voor het ondertekenen van certificaten op ergens op uw computer op die u zult   onthouden. Selecteer **Volgende**.
 
-6. Op de pagina Create a APNs Certificate:
+6. Op de pagina Een APN-certificaat maken:
 
-   - Selecteer Apple APNS-Portal om de Apple Push Certificate-portal te openen.
-   - Meld u aan met een Apple-ID.
+   - Selecteer Apple APNS Portal om de Apple Push Certificates Portal te openen.
+   - Meld u aan met een Apple ID.
 
      > [!IMPORTANT]
-     > Gebruik een netwerkapple-ID die is gekoppeld aan een e-mailaccount dat bij uw organisatie hoort, zelfs als de gebruiker die het account beheert de account blad houdt. Sla deze ID op omdat u de ID van het certificaat moet verlengen wanneer u dit tijdstip moet gebruiken.
+     > Gebruik een Apple-id van het bedrijf die is gekoppeld aan een e-mailaccount dat bij uw organisatie blijft, zelfs als de gebruiker die het account beheert, weggaat. Sla deze id op omdat u dezelfde id moet gebruiken wanneer het tijd is om het certificaat te verlengen.
 
-   - Selecteer een certificaat maken en accepteer de gebruiksvoorwaarden.
-   - Blader naar de aanvraag voor certificaatondertekening die u naar uw computer hebt gedownload vanuit Microsoft 365 en selectUpload.
-   - Download het APN-certificaat dat met de Apple Push Certificate-Portal is gemaakt naar uw computer.
+   - Selecteer Een certificaat maken en accepteer de gebruiksvoorwaarden.
+   - Blader naar het certificaat ondertekeningsverzoek dat u hebt gedownload naar uw computer van Microsoft 365 en selecteerUpload.
+   - Download het APN-certificaat dat is gemaakt door de Apple Push Certificate Portal naar uw computer.
 
      > [!TIP]
-     > Als u problemen ondervindt bij het downloaden van het certificaat, vernieuwt u de browser.
+     > Als u problemen hebt met het downloaden van het certificaat, vernieuwt u de browser.
 
-7. Ga terug naar Microsoft 365 en selecteer **volgende**.
+7. Ga terug naar Microsoft 365 en selecteer **Volgende**.
 
-8. Blader naar het APN-certificaat dat u hebt gedownload van de Apple Push Certificate-Portal.
+8. Blader naar het APN-certificaat dat u hebt gedownload van de Apple Push Certificates Portal.
 
 9. Selecteer  **Voltooien**.
 
-### <a name="step-3-recommended-set-up-multi-factor-authentication"></a>Stap 3: (aanbevolen) meervoudige verificatie instellen
+### <a name="step-3-recommended-set-up-multi-factor-authentication"></a>Stap 3: (Aanbevolen) Meervoudige verificatie instellen
 
-MFA helpt de aanmelding bij Microsoft 365 te beschermen voor de registratie van mobiele apparaten door een tweede vorm van verificatie te vereisen. Gebruikers moeten een telefoongesprek, een SMS-bericht of een app-melding op hun mobiele apparaat erkennen na het juiste wachtwoord voor het werkaccount invoeren. Ze kunnen hun apparaat alleen registreren na voltooiing van dit tweede formulierverificatie. Nadat gebruikers apparaten zijn ingeschreven voor basis mobiliteit en beveiliging, hebben gebruikers alleen toegang tot Microsoft 365-bronnen met hun werkaccount.
+MFA helpt de aanmelding bij Microsoft 365 voor registratie van mobiele apparaten te beveiligen door een tweede vorm van verificatie te vereisen. Gebruikers moeten een telefoongesprek, sms-bericht of app-melding op hun mobiele apparaat bevestigen nadat ze hun wachtwoord voor hun werkaccount correct hebben ingesteld. Ze kunnen hun apparaat pas registreren nadat deze tweede vorm van verificatie is voltooid. Nadat gebruikersapparaten zijn geregistreerd voor Basismobiliteit en Beveiliging, hebben gebruikers toegang tot Microsoft 365-resources met alleen hun werkaccount.
 
-Zie [Meervoudige verificatie instellen](https://go.microsoft.com/fwlink/p/?LinkId=519255)voor meer informatie over het inschakelen van MFA in de Azure AD-Portal.
+Zie Meervoudige verificatie instellen voor meer informatie over het inschakelen van MFA in de Azure [AD-portal.](../security-and-compliance/set-up-multi-factor-authentication.md)
 
-Nadat u MFA hebt ingesteld, gaat u terug naar het compliance-& Beveiligingscentrum en  **gaat u naar** het hulpmiddel voor   >  het beheer van **Apparaatbeheer**,   >  ****   zodat u de volgende stap kunt voltooien.
+Nadat u MFA hebt ingesteld, gaat u terug naar het Beveiligings- & Compliancecentrum en gaat u naar **Preventie** van gegevensverlies Apparaatbeheer Apparaatbeleid om de volgende stap   >     >  ****   te voltooien.
 
-### <a name="step-4-recommended-manage-device-security-policies"></a>Stap 4: (aanbevolen) beveiligingsbeleid voor apparaten beheren
+### <a name="step-4-recommended-manage-device-security-policies"></a>Stap 4: (Aanbevolen) Beveiligingsbeleid voor apparaten beheren
 
-De volgende stap is het maken en implementeren van beveiligingsbeleidsregels voor apparaten om uw Microsoft 365-organisatiegegevens te helpen beschermen. U kunt bijvoorbeeld verlies van gegevens voorkomen wanneer een gebruiker zijn of haar apparaat kwijtraakt door een beleid te maken om apparaten na vijf minuten inactiviteit te vergrendelen en apparaten te wissen na drie aanmeldfouten.
+De volgende stap is het maken en implementeren van beveiligingsbeleid voor apparaten om uw Microsoft 365-organisatiegegevens te beschermen. U kunt bijvoorbeeld gegevensverlies helpen voorkomen als een gebruiker zijn apparaat kwijt raakt door een beleid te maken om apparaten na vijf minuten inactiviteit te vergrendelen en apparaten te wissen na drie aanmeldingsfouten.
 
 1. Meld u aan bij Microsoft 365 met uw globale beheerdersaccount.
 
-2. Selecteer [Mobile Device Management activeren](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx). Als de service wordt geactiveerd, wordt in plaats van de activerings stappen een koppeling weergegeven voor het [beheren van apparaten](https://admin.microsoft.com/adminportal/home#/MifoDevices)   .
+2. Selecteer [Mobiel apparaatbeheer activeren.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx) Als de service is geactiveerd, ziet u in plaats daarvan de activeringsstappen een koppeling naar [Apparaten beheren.](https://admin.microsoft.com/adminportal/home#/MifoDevices)  
 
-3. Ga naar **apparaatbeleid**.
+3. Ga naar **Apparaatbeleid.**
 
-   :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="Basisinstellingen voor beveiliging en mobiliteits beleid":::
+   :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="Beleidsinstellingen voor basisbeveiliging en mobiliteit":::
 
-4. Maak en implementeer beveiligingsbeleid voor apparaten dat geschikt is voor uw organisatie aan de hand van de stappen in [beveiligingsbeleid voor apparaat maken in eenvoudige mobiliteit en beveiliging](create-device-security-policies.md).
+4. Maak en implementeer apparaatbeveiligingsbeleid dat geschikt is voor uw organisatie volgens de stappen in [Apparaatbeveiligingsbeleid maken in Basismobiliteit en Beveiliging.](create-device-security-policies.md)
 
 > [!TIP]
 >
-> - Wanneer u een nieuw beleid maakt, is het raadzaam om het beleid in te stellen op schending van toegangs-en rapport beleid waarbij een gebruikersapparaat niet voldoet aan het beleid. Hiermee kunt u zien hoeveel mobiele apparaten door het beleid worden beïnvloed zonder dat u de toegang tot Microsoft 365 blokkeert.
+> - Wanneer u een nieuw beleid maakt, kunt u het beleid zo instellen dat toegangs- en rapportbeleidsovertreding wordt toegestaan wanneer een gebruikersapparaat niet voldoet aan het beleid. Op deze manier kunt u zien hoeveel mobiele apparaten worden beïnvloed door het beleid zonder de toegang tot Microsoft 365 te blokkeren.
 >
-> - Voordat u een nieuw beleid implementeert voor iedereen in uw organisatie, is het raadzaam om dit te testen op de apparaten die door een klein aantal gebruikers worden gebruikt.
+> - Voordat u een nieuw beleid implementeert voor iedereen in uw organisatie, raden we u aan dit te testen op de apparaten die door een klein aantal gebruikers worden gebruikt.
 >
-> - Voordat u beleidsregels implementeert, kunt u ook de potentiële gevolgen van het registreren van een apparaat in basis mobiliteit en beveiliging weten. Afhankelijk van de manier waarop u beleidsregels hebt ingesteld, kunnen apparaten die niet voldoen aan beleidsregels (niet-compatibele apparaten), worden geblokkeerd voor het openen van Microsoft 365. Niet-compatibele apparaten kunnen ook apps hebben geïnstalleerd, Foto's en andere persoonlijke gegevens die, op een geregistreerd apparaat, kunnen worden verwijderd als het apparaat wordt gewist. Zie [een mobiel apparaat wissen in basis mobiliteit en beveiliging](wipe-mobile-device.md)voor meer informatie.
+> - Voordat u beleid implementeert, laat uw organisatie ook weten wat de mogelijke gevolgen zijn van het registreren van een apparaat in Basismobiliteit en Beveiliging. Afhankelijk van hoe u het beleid in stelt, kunnen apparaten die niet voldoen aan beleidsregels (niet-compatibele apparaten) worden geblokkeerd voor toegang tot Microsoft 365. Niet-compatibele apparaten kunnen ook apps, foto's en andere persoonlijke gegevens bevatten die op een geregistreerd apparaat kunnen worden verwijderd als het apparaat wordt gewist. Zie Een mobiel apparaat [wissen in Basismobiliteit en Beveiliging voor meer informatie.](wipe-mobile-device.md)
 
 ## <a name="make-sure-users-enroll-their-devices"></a>Zorg ervoor dat gebruikers hun apparaten registreren
 
-Nadat u een beleid voor mobiel Apparaatbeheer hebt gemaakt en geïmplementeerd, ontvangt u in de desbetreffende Microsoft 365-gebruiker in uw organisatie dat het apparaatbeleid van toepassing is, een inschrijvingsbericht wanneer u zich de volgende keer aanmeldt bij Microsoft 365 vanaf hun mobiele apparaat. De stappen voor het registreren en activeren moeten worden voltooid voordat ze toegang hebben tot Microsoft 365-e-mail en-documenten. Zie voor meer informatie [uw mobiele apparaat registreren met behulp van eenvoudige mobiliteit en beveiliging](enroll-your-mobile-device.md).
+Nadat u een beleid voor beheer van mobiele apparaten hebt gemaakt en geïmplementeerd, ontvangt elke gelicentieerde Microsoft 365-gebruiker in uw organisatie die het apparaatbeleid van toepassing is, een inschrijvingsbericht wanneer deze zich de volgende keer vanaf hun mobiele apparaat bij Microsoft 365 aanmeldt. Ze moeten de registratie- en activeringsstappen voltooien voordat ze toegang hebben tot e-mail en documenten van Microsoft 365. Zie Uw mobiele apparaat registreren met [basismobiliteit en beveiliging voor meer informatie.](enroll-your-mobile-device.md)
 
 > [!IMPORTANT]
-> Als de voorkeurstaal van een gebruiker niet wordt ondersteund door het registratieproces, ontvangen gebruikers mogelijk een melding voor de inschrijving en de stappen op hun mobiele apparaat in een andere taal. Niet alle talen die worden ondersteund in Microsoft 365 worden momenteel ondersteund voor het registratieproces op mobiele apparaten.
+> Als de voorkeurstaal van een gebruiker niet wordt ondersteund door het registratieproces, ontvangen gebruikers mogelijk een aanmeldingsmelding en stappen op hun mobiele apparaten in een andere taal. Niet alle talen die in Microsoft 365 worden ondersteund, worden momenteel ondersteund voor het registratieproces op mobiele apparaten.
 
-Gebruikers met Android-of iOS-apparaten moeten als onderdeel van het registratieproces de bedrijfs portal-app installeren.
+Gebruikers met Android- of iOS-apparaten zijn verplicht om de bedrijfsportal-app te installeren als onderdeel van het registratieproces.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Capaciteiten Basic Mobility en Security](capabilities.md)<br/>
-[Beveiligingsbeleid voor apparaten maken in eenvoudige mobiliteit en beveiliging](create-device-security-policies.md)
+[Apparaatbeveiligingsbeleid maken in Basismobiliteit en Beveiliging](create-device-security-policies.md)

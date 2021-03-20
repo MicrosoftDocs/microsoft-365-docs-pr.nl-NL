@@ -1,5 +1,5 @@
 ---
-title: Basis Veelgestelde vragen over de mobiliteit en beveiliging
+title: Veelgestelde vragen over basismobiliteit en beveiliging
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,76 +17,76 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Veelgestelde vragen over basis mobiliteit en beveiliging.
-ms.openlocfilehash: 5651b9f9742c45f1229e55b298cf78532c835c9a
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: Veelgestelde vragen over basismobiliteit en beveiliging.
+ms.openlocfilehash: a538c0b3f9fa6a4bf1861734fc9dea94030760a3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876874"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906262"
 ---
-# <a name="basic-mobility-and-security-frequently-asked-questions-faq"></a>Basis Veelgestelde vragen over de mobiliteit en beveiliging
+# <a name="basic-mobility-and-security-frequently-asked-questions-faq"></a>Veelgestelde vragen over basismobiliteit en beveiliging
 
-Dit artikel bevat veelgestelde vragen over basis mobiliteit en beveiliging, een functie waarmee u mobiele apparaten in Microsoft 365 kunt beheren en beveiligen. Als u geen antwoord kunt vinden op uw vraag, laat het ons weten door een opmerking op de pagina te plaatsen, zodat we uw vraag kunnen beantwoorden aan dit artikel.
+Dit artikel bevat veelgestelde vragen over basismobiliteit en beveiliging, een functie waarmee u mobiele apparaten kunt beheren en beveiligen in Microsoft 365. Als u geen antwoord op uw vraag kunt vinden, laat het ons dan weten door een opmerking op de pagina achter te laten, zodat we uw vraag kunnen toevoegen aan dit artikel.
 
-## <a name="how-can-i-get-basic-mobility-and-security-i-dont-see-it-in-the-microsoft-365-admin-center"></a>Hoe kan ik eenvoudige mobiliteit en beveiliging weergeven? Ik zie het niet in het Microsoft 365-Beheercentrum
+## <a name="how-can-i-get-basic-mobility-and-security-i-dont-see-it-in-the-microsoft-365-admin-center"></a>Hoe kan ik basismobiliteit en beveiliging krijgen? Ik zie het niet in het Microsoft 365-beheercentrum
 
-1.  Activeer basis mobiliteit en beveiliging door naar de pagina [Office 365 Security & compliance](https://protection.office.com/) te gaan.
+1.  Activeer Basismobiliteit en beveiliging door naar de [pagina Beveiligings- & Office 365 te](https://protection.office.com/) gaan.
 
-2.  Ga naar preventie van gegevensverlies > Apparaatbeheer.
+2.  Ga naar Preventie van gegevensverlies > Apparaatbeheer.
 
-## <a name="how-can-i-get-started-with-device-management-in-basic-mobility-and-security"></a>Hoe kan ik aan de slag met Apparaatbeheer in eenvoudige mobiliteit en beveiliging?
+## <a name="how-can-i-get-started-with-device-management-in-basic-mobility-and-security"></a>Hoe kan ik aan de slag met apparaatbeheer in Basismobiliteit en Beveiliging?
 
-U moet vier stappen uitvoeren om aan de slag te gaan met eenvoudige mobiliteit en beveiliging: 
+Er zijn vier stappen om aan de slag te gaan met Basismobiliteit en Beveiliging: 
 
-1. Activeer basis mobiliteit en beveiliging door naar het [Office 365-beveiligings & naleving](https://protection.office.com/)te gaan.
+1. Activeer Basismobiliteit en beveiliging door naar [de Office 365-beveiligings- & compliance te gaan.](https://protection.office.com/)
 
-2. Ga naar preventie van gegevensverlies > Apparaatbeheer > apparaatbeleid.
+2. Ga naar Preventie van gegevensverlies > apparaatbeheer > Apparaatbeleid.
     
-3. Maak beleidsregels voor Apparaatbeheer en pas deze toe voor groepen gebruikers die zijn ingesteld in beveiligingsgroepen. We raden u aan eerst het beleid te implementeren in een kleine testgroep. Zie voor meer informatie het artikel [beveiligingsbeleid voor apparaten maken voor eenvoudige mobiliteit en beveiliging](create-device-security-policies.md).
+3. Maak apparaatbeheerbeleid en pas deze toe op groepen gebruikers die zijn ingesteld in beveiligingsgroepen. U wordt aangeraden het beleid te implementeren in een kleine testgroep. Zie Apparaatbeveiligingsbeleid maken [in Basismobiliteit en Beveiliging voor meer informatie.](create-device-security-policies.md)
 
-4. Gebruikers voor wie een beleidsregel is toegepast, wordt gevraagd hun apparaat te registreren wanneer ze toegang proberen te krijgen tot gegevens van Microsoft 365. Zie voor meer informatie [uw mobiele apparaat registreren met behulp van eenvoudige mobiliteit en beveiliging](enroll-your-mobile-device.md).
+4. Gebruikers die een beleid hebben toegepast op hen, worden gevraagd hun apparaten in te schrijven wanneer ze toegang proberen te krijgen tot Microsoft 365-gegevens. Zie Uw mobiele apparaat registreren met [basismobiliteit en beveiliging voor meer informatie.](enroll-your-mobile-device.md)
 
-Zie [eenvoudige mobiliteit en beveiliging instellen](set-up.md)voor meer informatie.
+Zie Basismobiliteit en beveiliging instellen voor [meer informatie.](set-up.md)
 
-## <a name="im-trying-to-set-up-basic-mobility-and-security-but-it-seems-stuck-the-microsoft-365-service-health-has-been-showing-provisioning-for-a-while-what-can-i-do"></a>Ik probeer een eenvoudige mobiliteit en beveiliging in te stellen, maar het lijkt erop te zitten. Voor de Microsoft 365-service status is een tijdje ' inrichten ' weergegeven. Wat kan ik doen?
+## <a name="im-trying-to-set-up-basic-mobility-and-security-but-it-seems-stuck-the-microsoft-365-service-health-has-been-showing-provisioning-for-a-while-what-can-i-do"></a>Ik probeer basismobiliteit en beveiliging in te stellen, maar het lijkt vast te zitten. In de Microsoft 365-servicetoestand wordt al een tijdje 'inrichting' weergegeven. Wat kan ik doen?
 
-Het kan enige tijd duren voordat de dienst klaar is voor gebruik. Wanneer het inrichten is voltooid, ziet u de pagina basis mobiliteit en beveiliging. Neem contact op met de ondersteuning als u 24 uur hebt gewacht en de status nog steeds wordt ingericht. Zie [nog steeds hulp nodig?](https://support.microsoft.com/office/frequently-asked-questions-about-basic-mobility-and-security-3871f99c-c9db-4a23-86f9-902c1b02f58d#bkmk_needhelp)voor ondersteuningsopties.
+Het kan enige tijd duren om de service voor u klaar te maken. Wanneer de inrichting is voltooid, ziet u de pagina Basismobiliteit en beveiliging. Als u 24 uur hebt gewacht en de status nog steeds wordt ingericht, neem dan contact op met ondersteuning en we helpen u erachter te komen wat het probleem is. Zie Nog steeds hulp [nodig? voor ondersteuningsopties.](https://support.microsoft.com/office/frequently-asked-questions-about-basic-mobility-and-security-3871f99c-c9db-4a23-86f9-902c1b02f58d#bkmk_needhelp)
 
-## <a name="what-can-i-do-if-device-enrollment-fails"></a>Wat kan ik doen als apparaatregistratie mislukt?
+## <a name="what-can-i-do-if-device-enrollment-fails"></a>Wat kan ik doen als de registratie van apparaten mislukt?
 
-Als u problemen ondervindt bij het registreren van een apparaat dat is geregistreerd, controleert u eerst het volgende:
+Als u problemen hebt met het verkrijgen van een apparaat dat is geregistreerd, controleert u eerst het volgende:
 
-- Controleer of het apparaat niet al is geregistreerd bij een andere provider voor mobiel Apparaatbeheer, zoals intune.
+- Zorg ervoor dat het apparaat nog niet is geregistreerd bij een andere provider voor mobiel apparaatbeheer, zoals Intune.
 
-- Controleer of het apparaat is ingesteld op de juiste datum en tijd.
+- Zorg ervoor dat het apparaat is ingesteld op de juiste datum en tijd.
 
-- Overschakelen naar een ander WIFI-of mobiel netwerk op het apparaat.
+- Schakel over naar een ander WIFI- of mobiel netwerk op het apparaat.
 
-- Voor Android-of iOS-apparaten verwijdert u de app intune Company portal van het apparaat en installeert u deze opnieuw.
+- Voor Android- of iOS-apparaten verwijdert en installeert u de Intune Company Portal-app op het apparaat.
     
-Als de registratie nog steeds niet werkt, raadpleegt u [problemen met eenvoudige mobiliteit en beveiliging oplossen](troubleshoot.md).
+Zie Problemen met basismobiliteit en beveiliging oplossen als inschrijving nog steeds [niet werkt.](troubleshoot.md)
 
-## <a name="whats-the-difference-between-intune-and-basic-mobility-and-security"></a>Wat is het verschil tussen intune en basis mobiliteit en beveiliging?
+## <a name="whats-the-difference-between-intune-and-basic-mobility-and-security"></a>Wat is het verschil tussen Intune en Basismobiliteit en Beveiliging?
 
-Basis mobiliteit en beveiliging wordt gehost door de intune-service. Het is een subset van intune-Services, geleverd als een extra voordeel van Microsoft 365 en is een ingebouwde oplossing van de Cloud voor het beheren van apparaten in uw organisatie. Voor een vergelijking naast elkaar van de twee services die u kunt gebruiken om te bepalen of het gebruik van intune of basis mobiliteit en beveiliging voor Microsoft 365 het best geschikt voor u is, raadpleegt u [kiezen tussen basisbeveiliging en intune](choose-between-basic-mobility-and-security-and-intune.md).
+Basismobiliteit en beveiliging wordt gehost door de Intune-service. Het is een subset van Intune-services die worden geleverd als een extra voordeel voor Microsoft 365 en is een ingebouwde cloudoplossing voor het beheren van apparaten in uw organisatie. Zie Kiezen tussen Basismobiliteitsbeveiliging en [Intune](choose-between-basic-mobility-and-security-and-intune.md)voor een vergelijking van de twee services naast elkaar om te bepalen of het gebruik van Intune of Basismobiliteit en Beveiliging voor Microsoft 365 het beste bij u past.
 
-## <a name="how-do-policies-work-for-basic-mobility-and-security-how-do-i-set-them-up-disable-them"></a>Hoe werken beleidsregels voor basis mobiliteit en beveiliging? Hoe stel ik ze in? Wilt u ze uitschakelen?
+## <a name="how-do-policies-work-for-basic-mobility-and-security-how-do-i-set-them-up-disable-them"></a>Hoe werken beleidsregels voor basismobiliteit en beveiliging? Hoe stel ik ze in? Uitschakelen?
 
-Wanneer u de eerste configuratie voor mobiliteit en beveiliging hebt voltooid, maakt u beleidsregels en past u deze toe aan groepen gebruikers in het beveiligings & nalevings centrum. Voor beleidsregels moeten gebruikers van de beleidsregels de juiste mobiliteit en beveiliging gebruiken voordat het apparaat kan worden gebruikt voor toegang tot de gegevens van Microsoft 365. De beleidsregels die u instelt, bepalen hoe vaak wachtwoorden moeten opnieuw worden ingesteld of of gegevensversleuteling is vereist. Zie voor meer informatie het artikel [beveiligingsbeleid voor apparaten maken in Basisbeperkingen voor de mobiliteit en beveiliging](create-device-security-policies.md)   en [Microsoft 365-nalevings centrum](https://support.microsoft.com/office/7e696a40-b86b-4a20-afcc-559218b7b1b8).
+Nadat u de eerste installatie voor Basismobiliteit en Beveiliging hebt voltooid, maakt u beleidsregels en kunt u deze toepassen op groepen gebruikers in het Beveiligings- & Compliancecentrum. Voor beleidsregels moeten gebruikers van het beleid hun apparaten registreren in Basismobiliteit en Beveiliging voordat het apparaat kan worden gebruikt voor toegang tot Microsoft 365-gegevens. Het beleid dat u in stelt, bepaalt de instellingen voor mobiele apparaten, bijvoorbeeld hoe vaak wachtwoorden opnieuw moeten worden ingesteld of of gegevensversleuteling vereist is. Zie Beveiligingsbeleid voor apparaten maken [in basismobiliteit](create-device-security-policies.md)en beveiliging en   microsoft [365-compliancecentrum](https://support.microsoft.com/office/7e696a40-b86b-4a20-afcc-559218b7b1b8)voor meer informatie.
 
-Voor stapsgewijze instructies voor het maken en implementeren van apparaatprofielen, raadpleegt u [beveiligingsbeleid voor apparaten maken in eenvoudige mobiliteit en beveiliging](create-device-security-policies.md).
+Zie Apparaatbeveiligingsbeleid maken [in Basismobiliteit en Beveiliging](create-device-security-policies.md)voor stapsgewijse instructies voor het maken en implementeren van apparaatbeleid.
 
-Als u een bepaalde groep gebruikers wilt uitsluiten van invloed op beleidsregels, kunt u een groep toevoegen aan de groep uitzonderingen.
+Als u wilt uitsluiten dat een bepaalde groep gebruikers wordt beïnvloed door beleid, kunt u een groep toevoegen aan de uitsluitingsgroep.
 
-## <a name="can-i-switch-from-exchange-activesync-device-management-to-basic-mobility-and-security-for-microsoft-365"></a>Kan ik overstappen van Exchange ActiveSync-Apparaatbeheer op basis van mobiliteit en beveiliging voor Microsoft 365?
+## <a name="can-i-switch-from-exchange-activesync-device-management-to-basic-mobility-and-security-for-microsoft-365"></a>Kan ik overschakelen van Exchange ActiveSync-apparaatbeheer naar Basismobiliteit en beveiliging voor Microsoft 365?
 
-Als u al Exchange ActiveSync-beleidsregels gebruikt om mobiele apparaten te beheren, kunt u de basisstappen en beveiliging gebruiken door de stappen te volgen voor het instellen van basis mobiliteit en beveiliging. Zie [beveiliging van gebruikers en apparaten beschermen](https://go.microsoft.com/fwlink/?LinkId=615145) en [basis mobiliteit en beveiliging instellen](set-up.md)voor meer informatie.
+Als u al Exchange ActiveSync-beleid gebruikt voor het beheren van mobiele apparaten, kunt u basismobiliteit en beveiliging gaan gebruiken door de stappen voor het instellen van Basismobiliteit en Beveiliging in te stellen. Zie Gebruikers- en apparaattoegang [beveiligen](../../compliance/protect-access-to-data-and-services.md) en [Basismobiliteit](set-up.md)en beveiliging instellen voor meer informatie.
 
-Wanneer u de beleidsregels die u maakt, in basis van mobiliteit en beveiliging toepast voor groepen gebruikers, worden deze genegeerd door de beleidsregels voor het postvak voor mobiele apparaten en de regels voor Apparaattoegang die u eerder in het Exchange-Beheercentrum voor die gebruikers hebt gemaakt.
+Wanneer u het beleid dat u in Basismobiliteit en Beveiliging maakt, op groepen gebruikers gebruikt, worden met dit beleid beleidsregels voor postvakbeleid voor mobiele apparaten van Exchange ActiveSync en regels voor apparaattoegang overgenomen die u eerder hebt gemaakt in het Exchange-beheercentrum voor die gebruikers.
 
-Als een apparaat is ingeschreven voor basis mobiliteit en beveiliging, wordt het postvak beleid mobiele apparaten van Exchange ActiveSync of de regel voor het openen van apparaten op het apparaat genegeerd.
+Nadat een apparaat is geregistreerd voor Basismobiliteit en beveiliging, wordt elke exchange ActiveSync-postvakbeleid of apparaattoegangsregel die is toegepast op het apparaat, genegeerd.
 
-## <a name="i--set-up-basic-mobility-and-security-but-now-i-want-to-remove-it-what-are-the-steps"></a>Ik heb basis mobiliteit en beveiliging ingesteld, maar nu wil ik deze verwijderen. Wat zijn de stappen?
+## <a name="i--set-up-basic-mobility-and-security-but-now-i-want-to-remove-it-what-are-the-steps"></a>Ik heb Basismobiliteit en Beveiliging ingesteld, maar nu wil ik deze verwijderen. Wat zijn de stappen?
 
-Helaas kunt u de basis mobiliteit en beveiliging van basis van de burger en beveiliging van uw site helaas niet eenvoudig opzeggen. U kunt de groep gebruikers ook verwijderen door gebruikersbeveiligingsgroepen te verwijderen uit het apparaatbeleid dat u hebt gemaakt. U kunt ook de optie voor iedereen uitschakelen door het apparaatbeleid te verwijderen, zodat ze niet worden ingesteld. Zie [eenvoudige mobiliteit en beveiliging](turn-off.md)uitschakelen voor meer informatie.
+Het is helaas niet mogelijk om basismobiliteit en beveiliging te 'onteigenen' nadat u deze hebt ingesteld. U kunt deze echter voor groepen gebruikers verwijderen door gebruikersbeveiligingsgroepen te verwijderen uit het apparaatbeleid dat u hebt gemaakt. U kunt het ook voor iedereen uitschakelen door het apparaatbeleid te verwijderen, zodat ze niet op hun plaats zijn en niet worden afgedwongen. Zie Basismobiliteit en beveiliging uitschakelen voor [meer informatie.](turn-off.md)

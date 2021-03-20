@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 description: Informatie over het tegelijkertijd toevoegen van gebruikers en het toewijzen van licenties aan Microsoft 365.
 ms.date: 07/01/2020
-ms.openlocfilehash: 71695c47bbc34a94f0040c37dd0c0bb0ab72fbba
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 3c752bd12c0aeb3806ad7d5d90373aad13730944
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741411"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906298"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Tegelijkertijd gebruikers toevoegen en licenties toewijzen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -100,10 +100,10 @@ U moet een globale, licentie- of gebruikersbeheerder zijn om gebruikers toe te v
 
 U kunt een van de volgende methoden gebruiken om meerdere gebruikers tegelijk toe te voegen:
 
-- **Gebruik een spreadsheet om personen bulksgewijs toe te voegen.** Zie [Meerdere gebruikers tegelijk toevoegen](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time).
-- **Automatiseer het toevoegen van accounts en het toewijzen van licenties.** Zie [Gebruikersaccounts maken met Microsoft 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell). Kies deze methode als u al vertrouwd bent met het gebruik van Windows PowerShell-cmdlets.
-- **Gebruikt u ActiveDirectory?** [Adreslijstsynchronisatie voor Microsoft 365 instellen](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization). Gebruik het hulpprogramma Azure Active Directory Connect om Active Directory-gebruikersaccounts (en andere Active Directory-objecten) te repliceren in Microsoft 365. Tijdens de synchronisatie worden alleen de gebruikersaccounts toegevoegd. U moet licenties toewijzen aan de gesynchroniseerde gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken.
-- **Migreert u vanuit Exchange?** Zie [Manieren om meerdere e-mailaccounts naar Office 365 te migreren](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Wanneer u meerdere postvakken naar Microsoft 365 wilt migreren met behulp van een cutover-, gefaseerde of een hybride Exchange-methode, voegt u gebruikers automatisch als onderdeel van de migratie toe. Tijdens de migratie worden alleen de gebruikersaccounts toegevoegd. U moet licenties toewijzen aan de gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken. Als u geen licentie toewijst aan een gebruiker, wordt het postvak uitgeschakeld na een respijtperiode van 30 dagen. Ontdek hoe u [licenties aan gebruikers kunt toewijzen](../manage/assign-licenses-to-users.md) via het Microsoft 365-beheercentrum.
+- **Gebruik een spreadsheet om personen bulksgewijs toe te voegen.** Zie [Meerdere gebruikers tegelijk toevoegen](../../enterprise/add-several-users-at-the-same-time.md).
+- **Automatiseer het toevoegen van accounts en het toewijzen van licenties.** Zie [Gebruikersaccounts maken met Microsoft 365 PowerShell](../../enterprise/create-user-accounts-with-microsoft-365-powershell.md). Kies deze methode als u al vertrouwd bent met het gebruik van Windows PowerShell-cmdlets.
+- **Gebruikt u ActiveDirectory?** [Adreslijstsynchronisatie voor Microsoft 365 instellen](../../enterprise/set-up-directory-synchronization.md). Gebruik het hulpprogramma Azure Active Directory Connect om Active Directory-gebruikersaccounts (en andere Active Directory-objecten) te repliceren in Microsoft 365. Tijdens de synchronisatie worden alleen de gebruikersaccounts toegevoegd. U moet licenties toewijzen aan de gesynchroniseerde gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken.
+- **Migreert u vanuit Exchange?** Zie [Manieren om meerdere e-mailaccounts naar Office 365 te migreren](/Exchange/mailbox-migration/mailbox-migration). Wanneer u meerdere postvakken naar Microsoft 365 wilt migreren met behulp van een cutover-, gefaseerde of een hybride Exchange-methode, voegt u gebruikers automatisch als onderdeel van de migratie toe. Tijdens de migratie worden alleen de gebruikersaccounts toegevoegd. U moet licenties toewijzen aan de gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken. Als u geen licentie toewijst aan een gebruiker, wordt het postvak uitgeschakeld na een respijtperiode van 30 dagen. Ontdek hoe u [licenties aan gebruikers kunt toewijzen](../manage/assign-licenses-to-users.md) via het Microsoft 365-beheercentrum.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -112,7 +112,7 @@ Nadat u een gebruiker toevoegt, krijgt u een e-mailmelding van Microsoft. Het e-
 ## <a name="related-content"></a>Verwante onderwerpen
 
 [Een nieuwe werknemer toevoegen aan Microsoft 365](add-new-employee.md) (artikel)\
-[Meerdere gebruikers tegelijk toevoegen aan Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time) (artikel)\
+[Meerdere gebruikers tegelijk toevoegen aan Microsoft 365](../../enterprise/add-several-users-at-the-same-time.md) (artikel)\
 [Een gebruiker herstellen in Microsoft 365](restore-user.md) (artikel)\
 [Licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md) (artikel)\
 [Een gebruiker uit uw organisatie verwijderen](delete-a-user.md) (artikel)\

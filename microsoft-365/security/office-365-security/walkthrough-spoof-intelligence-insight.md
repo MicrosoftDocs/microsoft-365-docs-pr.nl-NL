@@ -15,18 +15,18 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen informatie krijgen over de manier waarop intelligence-inzicht in spoofing werkt. Ze kunnen snel bepalen welke afzenders e-mail legitiem naar hun organisatie verzenden vanuit domeinen die niet aan e-mailverificatiecontroles (SPF, DKIM of DMARC) kunnen deelnemen.
+description: Beheerders kunnen leren hoe het inzicht in spoofinformatie werkt. Ze kunnen snel bepalen welke afzenders e-mail naar hun organisatie verzenden vanuit domeinen die niet worden gecontroleerd op e-mailverificatie (SPF, DKIM of DMARC).
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8ca40e2cde08e5ea213d4c19366f038f1da19fa7
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: cc53d49401afe3a0d7871bf5f294126315aacfec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407214"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908092"
 ---
-# <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Walkthrough - Spoof intelligence insight in Microsoft Defender for Office 365
+# <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Walkthrough - Inzicht in spoofinformatie in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,101 +34,101 @@ ms.locfileid: "50407214"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-In Microsoft 365-organisaties met Defender voor Office 365 kunt u het inzicht in adresvervalsingsinformatie gebruiken om snel te kunnen bepalen welke externe afzenders u legitiem e-mail met een niet-geauteerde afzender sturen (berichten van domeinen die niet door SPF-, DKIM- of DMARC-controles komen).
+In Microsoft 365-organisaties met Defender voor Office 365 kunt u het inzicht in spoofinformatie gebruiken om snel te bepalen welke externe afzenders u legitiem niet-verwerkte e-mail verzenden (berichten van domeinen die niet door SPF-, DKIM- of DMARC-controles worden verzonden).
 
-Door bekende externe afzenders spoofing-berichten te laten verzenden vanaf bekende locaties, kunt u fout-positieven verminderen (goede e-mail gemarkeerd als slecht). Door de toegestane vervalste afzenders te controleren, biedt u een extra beveiligingslaag om te voorkomen dat onveilige berichten binnenkomt in uw organisatie.
+Door bekende externe afzenders toe te staan vervalste berichten te verzenden vanaf bekende locaties, kunt u fout-positieven verminderen (goede e-mail die als slecht is gemarkeerd). Door de toegestane vervalste afzenders te controleren, biedt u een extra beveiligingslaag om te voorkomen dat onveilige berichten in uw organisatie aankomen.
 
-Zie Rapporten en inzichten in het beveiligings- en compliancecentrum voor meer informatie [& inzichten.](reports-and-insights-in-security-and-compliance.md)
+Zie Rapporten en inzichten in het Beveiligings- en compliancecentrum & voor meer informatie over rapporten [en inzichten.](reports-and-insights-in-security-and-compliance.md)
 
-Dit overzicht is een van de verschillende scenario's voor het & compliancecentrum. Zie de scenario's in de sectie Verwante onderwerpen voor informatie over het navigeren in rapporten [en](#related-topics) inzichten.
+Deze walkthrough is een van de verschillende scenario's voor & compliancecentrum. Zie de overzichten in de sectie Gerelateerde [onderwerpen](#related-topics) voor informatie over het navigeren in rapporten en inzichten.
 
 > [!NOTE]
-> In de informatie over spoof intelligence worden gegevens van de afgelopen zeven dagen verzameld. Het [spoof intelligence-beleid](learn-about-spoof-intelligence.md) en de bijbehorende [cmdlet Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy) in Exchange Online PowerShell tonen gegevens van de afgelopen 30 dagen. In [het rapport Get-SpoofMailReport](https://docs.microsoft.com/powershell/module/exchange/get-spoofmailreport) worden gegevens voor maximaal 90 dagen weer te geven.
+> Het inzicht in spoof intelligence toont gegevens uit de afgelopen 7 dagen. Het [spoof intelligence-beleid](learn-about-spoof-intelligence.md) en de bijbehorende [Get-PhishFilterPolicy-cmdlet](/powershell/module/exchange/get-phishfilterpolicy) in Exchange Online PowerShell bevatten gegevens van de afgelopen 30 dagen. Het [Get-SpoofMailReport bevat](/powershell/module/exchange/get-spoofmailreport) gegevens die maximaal 90 dagen duren.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **beveiligingsdashboard** wilt gaan, gebruikt u <https://protection.office.com/searchandinvestigation/dashboard> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Beveiligingsdashboard wilt** gaan, gebruikt <https://protection.office.com/searchandinvestigation/dashboard> u .
 
-  In het beveiligings- en compliancecentrum kunt u informatie over spoofing bekijken op meer & dashboard. Ongeacht het dashboard waarmee u te maken hebt, biedt het inzicht dezelfde details en kunt u snel dezelfde taken uitvoeren.
+  U kunt het inzicht in spoofinformatie bekijken vanuit meer dan één dashboard in het beveiligings- & Compliancecentrum. Ongeacht het dashboard dat u ziet, biedt het inzicht dezelfde details en kunt u snel dezelfde taken uitvoeren.
 
 - Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
   - **Organisatiebeheer**
   - **Beveiligingsbeheerder**
   - **Beveiligingslezer**
-  - **Globale lezer**
+  - **Algemene lezer**
 
   Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-  **Opmerking:** als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen in het beveiligings- & compliancecentrum en machtigingen voor andere functies in Microsoft 365.  Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum biedt gebruikers de vereiste machtigingen in het Beveiligings- & _Compliancecentrum_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-- U schakelt spoof intelligence in en uit in anti-phishingbeleid in Microsoft Defender voor Office 365. Intelligence over adresvervalsing is standaard ingeschakeld. Zie [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365 voor meer informatie.](configure-atp-anti-phishing-policies.md)
+- U schakelt spoofinformatie in en uit in anti-phishingbeleid in Microsoft Defender voor Office 365. Spoofinformatie is standaard ingeschakeld. Zie [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)voor meer informatie.
 
-- Zie Spoof Intelligence configureren [in Microsoft 365](learn-about-spoof-intelligence.md)als u spoof intelligence wilt gebruiken om afzenders te controleren en te beheren die u niet-geauteerde berichten sturen.
+- Zie Spoof intelligence configureren [in Microsoft 365](learn-about-spoof-intelligence.md)als u spoof intelligence wilt gebruiken voor het bewaken en beheren van afzenders die u niet-verwerkte berichten sturen.
 
-## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Informatie over spoof intelligence openen in het & compliancecentrum
+## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Het inzicht in spoof intelligence openen in het beveiligings- & compliancecentrum
 
-1. Ga in het & Compliancecentrum naar dashboard **Bedreigingsbeheer.** \> 
+1. Ga in het & Compliancecentrum naar **Threat Management** \> **Dashboard.**
 
-2. Zoek in **de rij Inzichten** naar een van de volgende items:
+2. Zoek in **de rij** Inzichten naar een van de volgende items:
 
-   - **Waarschijnlijk is in de** afgelopen zeven dagen vervalste domeinen gebruikt: dit inzicht geeft aan dat intelligence voor adresvervalsing is ingeschakeld (dit is standaard ingeschakeld).
-   - **Spoof Protection inschakelen:** dit inzicht geeft aan dat spoof intelligence is uitgeschakeld en als u op het inzicht klikt, kunt u spoof intelligence inschakelen.
+   - **Waarschijnlijk vervalste domeinen in** de afgelopen zeven dagen: Dit inzicht geeft aan dat spoof intelligence is ingeschakeld (deze is standaard ingeschakeld).
+   - **Spoofbeveiliging inschakelen:** dit inzicht geeft aan dat spoofinformatie is uitgeschakeld en als u op het inzicht klikt, kunt u spoofinformatie inschakelen.
 
-3. Het inzicht in het dashboard geeft de volgende informatie weer:
+3. In het inzicht op het dashboard ziet u de volgende informatie:
 
-   ![Schermafbeelding van inzicht in adresvervalsingsinformatie](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
+   ![Schermafbeelding van inzicht in spoof intelligence](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
 
    Dit inzicht heeft twee modi:
 
-   - **Inzichtmodus:** als spoof intelligence is ingeschakeld, kunt u zien hoeveel berichten in de afgelopen zeven dagen zijn beïnvloed door onze mogelijkheden voor spoof intelligence.
-   - **Wat als de modus**: als spoof intelligence is  uitgeschakeld, laat het inzicht zien hoeveel berichten in de afgelopen zeven dagen zouden zijn beïnvloed door onze spoof intelligence-mogelijkheden.
+   - **Insight-modus:** als spoof intelligence is ingeschakeld, wordt in het inzicht duidelijk hoeveel berichten de afgelopen zeven dagen zijn beïnvloed door onze mogelijkheden voor spoof intelligence.
+   - **Wat als de modus**: Als spoof intelligence is  uitgeschakeld, wordt in het inzicht duidelijk hoeveel berichten de afgelopen zeven dagen zijn beïnvloed door onze mogelijkheden voor spoof intelligence.
 
-   In beide situaties zijn de in het inzicht weergegeven vervalste domeinen onderverdeeld in twee **categorieën:** Verdachte domeinen en **niet-verdachte domeinen.**
+   Hoe dan ook, de vervalste domeinen die in het inzicht worden weergegeven, zijn onderverdeeld in twee categorieën: **Verdachte** domeinen en **Niet-verdachte domeinen.**
 
    - **Verdachte domeinen zijn:**
 
-     - Adresvervalsing met hoge betrouwbaarheid: Op basis van de historische verzendende patronen en de reputatiescore van de domeinen, hebben we er veel vertrouwen in dat de domeinen spoofing gebruiken en dat berichten van deze domeinen waarschijnlijk schadelijk zijn.
+     - Spoof met veel vertrouwen: op basis van de historische verzendingspatronen en de reputatiescore van de domeinen, zijn we ervan overtuigd dat de domeinen spoofing zijn en dat berichten uit deze domeinen waarschijnlijk schadelijk zijn.
 
-     - Gemiddelde betrouwbaarheidsvervalsing: Op basis van historische verzendende patronen en de reputatiescore van de domeinen zijn we er met enige vertrouwen in dat de domeinen vervalst zijn en dat berichten die vanuit deze domeinen worden verzonden, legitiem zijn. Fout-positieven zijn in deze categorie waarschijnlijker dan adresvervalsing met hoge betrouwbaarheid.
+     - Matig vertrouwen spoof: Op basis van historische verzendende patronen en de reputatiescore van de domeinen, zijn we er redelijk zeker van dat de domeinen spoofing zijn en dat berichten die vanuit deze domeinen worden verzonden legitiem zijn. False positives zijn waarschijnlijker in deze categorie dan spoof met veel vertrouwen.
 
-   **Niet-verdachte domeinen:** met de expliciete e-mailverificatie voor het domein is [mislukt, worden SPF,](how-office-365-uses-spf-to-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)en [DMARC gecontroleerd.](use-dmarc-to-validate-email.md) Het domein is echter geslaagd voor de impliciete e-mailverificatiecontroles[(samengestelde verificatie).](email-validation-and-authentication.md#composite-authentication) Er is dus geen actie ondernomen tegen spoofing op het bericht.
+   **Niet-verdachte domeinen:** het domein is mislukt expliciete e-mailverificatie [controleert SPF,](how-office-365-uses-spf-to-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)). Het domein is echter geslaagd voor onze impliciete e-mailverificatiecontroles[(samengestelde verificatie).](email-validation-and-authentication.md#composite-authentication) Hierdoor is er geen anti-spoofing actie ondernomen op het bericht.
 
-### <a name="view-detailed-information-about-suspicious-domains-from-the-spoof-intelligence-insight"></a>Gedetailleerde informatie over verdachte domeinen weergeven vanuit het inzicht in spoof intelligence
+### <a name="view-detailed-information-about-suspicious-domains-from-the-spoof-intelligence-insight"></a>Gedetailleerde informatie over verdachte domeinen weergeven vanuit het inzicht in spoofinformatie
 
-1. Klik op Inzicht in spoof intelligence op **Verdachte** domeinen of **Niet-verdachte** domeinen om naar de **pagina Spoof Intelligence Insight te** gaan. De **pagina Intelligence-informatie over** spoofing bevat de volgende informatie:
+1. Klik op de informatie over spoofinformatie op **Verdachte domeinen** of **Niet-verdachte** domeinen om naar de pagina Inzicht in **spoofinformatie te** gaan. De **pagina Spoof Intelligence Insight** bevat de volgende informatie:
 
-   - **Spoofed domain:** the domain of the spoofed user that's displayed in the **From** box in email clients. Dit adres wordt ook wel het adres `5322.From` genoemd.
-   - **Infrastructuur:** ook wel de _verzendende infrastructuur genoemd._ Het domein dat is gevonden in een omgekeerde DNS-zoekactie (PTR-record) van het IP-adres van de bron-e-mailserver. Als het bron-IP-adres geen PTR-record heeft, wordt de verzendende infrastructuur geïdentificeerd als \<source IP\> /24 (bijvoorbeeld 192.168.100.100/24).
-   - **Aantal berichten:** het aantal berichten van de verzendende infrastructuur naar uw organisatie waarin het opgegeven vervalste domein is opgeslagen in de afgelopen zeven dagen.
-   - **Laatst gezien:** de laatste datum waarop een bericht is ontvangen van de verzendende infrastructuur die het vervalste domein bevat.
-   - **Type adresvervalsing:** deze waarde is **Extern.**
-   - **Mag worden vervalst?** De waarden die u hier ziet, zijn:
-     - **Ja:** berichten van de combinatie van vervalste gebruikersdomein en verzendende infrastructuur zijn toegestaan en worden niet behandeld als vervalste e-mail.
-     - **Nee:** berichten van de combinatie van vervalste gebruikersdomein en verzendende infrastructuur worden gemarkeerd als vervalst. De actie wordt bepaald door het standaard anti-phishingbeleid of aangepaste anti-phishingbeleidsregels (de standaardwaarde is Bericht verplaatsen naar map **Ongewenste e-mail).**
+   - **Vervalst domein:** het domein van de vervalste gebruiker die wordt weergegeven in het vak **Van** in e-mail clients. Dit adres wordt ook wel het adres `5322.From` genoemd.
+   - **Infrastructuur:** ook wel de _verzendende infrastructuur genoemd._ Het domein dat is gevonden in een REVERSE DNS lookup (PTR-record) van het IP-adres van de bron-e-mailserver. Als het bron-IP-adres geen PTR-record heeft, wordt de verzendende infrastructuur geïdentificeerd als \<source IP\> /24 (bijvoorbeeld 192.168.100.100/24).
+   - **Aantal berichten:** het aantal berichten van de verzendende infrastructuur naar uw organisatie dat het opgegeven vervalste domein bevat in de afgelopen 7 dagen.
+   - **Laatst gezien:** De laatste datum waarop een bericht is ontvangen van de verzendende infrastructuur met het vervalste domein.
+   - **Type spoof:** deze waarde is **Extern**.
+   - **Toegestaan om te vervalsen?**: De waarden die u hier ziet, zijn:
+     - **Ja:** Berichten uit de combinatie van het domein van de vervalste gebruiker en de verzendende infrastructuur zijn toegestaan en worden niet behandeld als vervalste e-mail.
+     - **Nee:** Berichten uit de combinatie van het domein van de vervalste gebruiker en de verzendende infrastructuur worden gemarkeerd als vervalst. De actie wordt bepaald door het standaard anti-phishingbeleid of aangepaste anti-phishingbeleid (de standaardwaarde is Bericht verplaatsen naar map **Ongewenste e-mail**).
 
-     Zie [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365 voor meer informatie.](configure-atp-anti-phishing-policies.md)
+     Zie [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)voor meer informatie.
 
-2. Selecteer een item in de lijst om de details van het domein/verzendende infrastructuurpaar in een flyout te bekijken. De informatie omvat:
-   - Waarom hebben we dit te zien krijgen.
+2. Selecteer een item in de lijst om details over het domein/verzendende infrastructuurpaar in een flyout weer te geven. De informatie omvat:
+   - Waarom we dit hebben gesnapt.
    - Wat u moet doen.
-   - Een domeinsamenvatting.
-   - WhoIs data about the sender.
-   - Vergelijkbare berichten die we in uw tenant van dezelfde afzender hebben gezien.
+   - Een domeinoverzicht.
+   - WhoIs-gegevens over de afzender.
+   - Soortgelijke berichten die we hebben gezien in uw tenant van dezelfde afzender.
 
-   Hier kunt u er ook voor kiezen om het domein/verzendende infrastructuurpaar toe te voegen aan of te verwijderen uit de lijst Met toegestane **afzenders** voor adresvervalsing. Stel de schakelknop dienovereenkomstig in.
+   Hier kunt u er ook voor kiezen om het domein-/verzendende infrastructuurpaar toe te voegen of te verwijderen uit de **lijst Toegestane** afzender voor spoofing. Stel de schakelaar dienovereenkomstig in.
 
-   ![Schermafbeelding van een domein in het detailvenster met informatie over adresvervalsing](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
+   ![Schermafbeelding van een domein in het deelvenster Informatie over spoofinformatie](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
 
-### <a name="adding-a-domain-to-the-allowed-to-spoof-list"></a>Een domein toevoegen aan de lijst met toegestane adresvervalsingen
+### <a name="adding-a-domain-to-the-allowed-to-spoof-list"></a>Een domein toevoegen aan de lijst Toegestane spoofing
 
-Als u een domein toevoegt aan de lijst met toegestane adresvervalsingen vanuit het inzicht in adresvervalsingsinformatie, wordt alleen de combinatie van het vervalste domein en *de* verzendende infrastructuur toegestaan. E-mail van het vervalste domein is niet toegestaan vanaf een bron en staat geen e-mail van de verzendende infrastructuur toe voor een domein.
+Als u een domein toevoegt aan de lijst Toegestane spoofing vanuit het inzicht in spoof intelligence, kunt u alleen het vervalste *domein* en de verzendende infrastructuur combineren. E-mail van het vervalste domein is niet toegestaan vanuit een bron en ook geen e-mail van de verzendende infrastructuur voor een domein.
 
-U staat bijvoorbeeld het volgende domein toe aan de lijst met toegestane adresvervalsings:
+U staat bijvoorbeeld het volgende domein toe aan de lijst Toegestane spoofing:
 
 - **Domein:** gmail.com
-- **Infrastructuur:** tms.mx.com
+- **Infrastructuur**: tms.mx.com
 
-Alleen e-mail van dat domein/verzendende infrastructuurpaar is toegestaan om te spoofen. Andere afzenders die e-gmail.com zijn niet toegestaan. Berichten in andere domeinen van tms.mx.com zijn gecontroleerd op spoof intelligence.
+Alleen e-mail van dat domein/verzendende infrastructuurpaar mag spoofen. Andere afzenders die proberen te spoofen gmail.com zijn niet toegestaan. Berichten in andere domeinen van tms.mx.com worden gecontroleerd door spoof intelligence.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

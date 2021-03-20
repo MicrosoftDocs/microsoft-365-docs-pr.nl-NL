@@ -1,7 +1,7 @@
 ---
 title: Microsoft Secure Score
-description: Beschrijving van Microsoft Secure Score in het Microsoft 365-Beveiligingscentrum, hoe u uw beveiligings Posture kunt verbeteren en welke beveiligingsbeheerders kunnen verwachten.
-keywords: Microsoft Secure Score, Secure Score, Office 365 Secure Score, Microsoft Security Score, Microsoft 365 Beveiligingscentrum, verbeteringen van verbetering
+description: Beschrijft Microsoft Secure Score in het Microsoft 365-beveiligingscentrum, hoe u uw beveiligingsbeleid kunt verbeteren en wat beveiligingsbeheerders kunnen verwachten.
+keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, microsoft 365 security center, improvement actions
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -21,61 +21,61 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 39abcbde82c2902b091b42db3dbc8e1ee2cbd924
-ms.sourcegitcommit: 8b3ff6e9f8931327b6f0541fd882107687cd123e
+ms.openlocfilehash: 236ac67c5a4efeb4d46f59f5fe283b396adb9aa5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49942788"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906732"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Secure Score van Microsoft is een afmeting van de beveiligings Posture van een organisatie, met een hoger nummer voor het uitvoeren van extra verbeterings acties. U vindt het https://security.microsoft.com/securescore in [microsoft 365 Beveiligingscentrum](overview-security-center.md).
+Microsoft Secure Score is een meting van de beveiligingsstatus van een organisatie, waarbij een hoger aantal aangeeft dat er meer verbeteracties zijn uitgevoerd. Deze is te vinden https://security.microsoft.com/securescore in het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)
 
-Door de aanbevelingen van de Secure score te volgen, kunt u uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-Beveiligingscentrum kunnen organisaties de beveiliging van hun identiteit, apps en apparaten met Microsoft 365 volgen en gebruiken.
+Als u de aanbevelingen voor secure score volgt, kunt u uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-beveiligingscentrum kunnen organisaties de beveiliging van hun Microsoft 365-identiteiten, apps en apparaten controleren en er aan werken.
 
 Secure Score helpt organisaties:  
 
-* Rapport over de huidige status van de beveiligings Posture van de organisatie.
-* Verbeter hun beveiliging Posture door te zorgen voor detectie, inzicht, richtlijnen en beheer.  
-* Vergelijken met benchenen en Key Performance Indicators (Kpi's) instellen.
+* Rapport over de huidige status van de beveiligingsstatus van de organisatie.
+* Verbeter hun beveiligingshouding door vindbaarheid, zichtbaarheid, richtlijnen en controle te bieden.  
+* Vergelijk dit met benchmarks en stel KPI's (Key Performance Indicators) vast.
 
-Organisaties hebben toegang tot krachtige visualisaties van metrische gegevens en trends, integratie met andere Microsoft-producten, vergelijking van Score overeenkomsten met vergelijkbare organisaties en nog veel meer. De score kan ook worden weergegeven wanneer oplossingen van derden een aanbevolen actie hebben aangegaan.
+Organisaties krijgen toegang tot krachtige visualisaties van meetgegevens en trends, integratie met andere Microsoft-producten, scorevergelijking met vergelijkbare organisaties en nog veel meer. De score kan ook worden weergegeven wanneer oplossingen van derden aanbevolen acties hebben aangepakt.
 
-![Startpagina beveiligde Score](../../media/secure-score/secure-score-homepage-new.png)
+![Startpagina van Secure Score](../../media/secure-score/secure-score-homepage-new.png)
 
 ## <a name="how-it-works"></a>Hoe het werkt
 
 U krijgt punten voor de volgende acties:
 
 - Aanbevolen beveiligingsfuncties configureren
-- Beveiligingstaken uitvoeren
-- De actie voor verbetering met een toepassing of software van derden of een afwisselend beperking
+- Beveiligingsgerelateerde taken uitvoeren
+- De verbeteringsactie aanpakken met een toepassing of software van derden, of een alternatieve beperking
 
-Bij sommige verbeterings acties worden alleen punten gegeven wanneer u klaar bent. Sommige bieden gedeeltelijke punten als ze voor sommige apparaten of gebruikers zijn voltooid. Als u een van de verbeterings acties niet of niet wilt aannemen, kunt u het risico of het resterende risico accepteren.
+Sommige verbeteracties geven alleen punten wanneer ze volledig zijn voltooid. Sommige geven gedeeltelijke punten als ze zijn voltooid voor sommige apparaten of gebruikers. Als u een van de verbeteracties niet of niet wilt uitvoeren, kunt u ervoor kiezen om het risico of het resterende risico te accepteren.
 
-Als u een licentie hebt voor een van de ondersteunde Microsoft-producten, ziet u aanbevelingen voor die producten. We laten u de volledige set mogelijke verbeteringen voor een product tonen, ongeacht of u licentie-editie, abonnement of abonnement hebt. Op deze manier kunt u de aanbevolen procedures voor beveiliging en de Score verhogen. Uw absolute beveiligings Posture, weergegeven door een veilige Score, blijft gelijk, ongeacht welke licenties uw organisatie bezit voor een specifiek product. Houd er rekening mee dat beveiliging moet worden verantwoord met behulp van bruikbaarheid, en niet elk aanbeveling kan werken met uw omgeving.
+Als u een licentie hebt voor een van de ondersteunde Microsoft-producten, ziet u aanbevelingen voor deze producten. We tonen u de volledige reeks mogelijke verbeteringen voor een product, ongeacht de licentieeditie, het abonnement of het abonnement. Op deze manier kunt u de best practices voor beveiliging begrijpen en uw score verbeteren. Uw absolute beveiligingsstatus, vertegenwoordigd door Secure Score, blijft hetzelfde, ongeacht welke licenties uw organisatie bezit voor een bepaald product. Houd er rekening mee dat beveiliging in balans moet zijn met bruikbaarheid en dat niet elke aanbeveling kan werken voor uw omgeving.
 
-Uw score wordt in realtime bijgewerkt om de informatie weer te geven die wordt weergegeven in de actie pagina's voor visualisaties en verbetering. Met Secure score wordt ook dagelijks een synchronisatie uitgevoerd voor het ontvangen van systeemgegevens over de bereikte punten voor elke actie.
+Uw score wordt in realtime bijgewerkt om de informatie weer te geven die wordt weergegeven op de actiepagina's visualisaties en verbetering. Secure Score wordt ook dagelijks gesynchroniseerd om systeemgegevens over uw behaalde punten voor elke actie te ontvangen.
 
 ### <a name="key-scenarios"></a>Belangrijke scenario's
 
-- [De huidige Score controleren](microsoft-secure-score-improvement-actions.md#check-your-current-score)
-- [Uw score vergelijken met organisaties zoals u](microsoft-secure-score-history-metrics-trends.md#compare-your-score-to-organizations-like-yours)
-- [Verbeterings acties weergeven en een actieplan kiezen](microsoft-secure-score-improvement-actions.md#take-action-to-improve-your-score)
-- [Een werkstroom initiëren om te onderzoeken of te implementeren](microsoft-secure-score-improvement-actions.md#view-improvement-action-details)
+- [Uw huidige score controleren](microsoft-secure-score-improvement-actions.md#check-your-current-score)
+- [Uw score vergelijken met organisaties zoals die van u](microsoft-secure-score-history-metrics-trends.md#compare-your-score-to-organizations-like-yours)
+- [Verbeteracties bekijken en een actieplan bepalen](microsoft-secure-score-improvement-actions.md#take-action-to-improve-your-score)
+- [Werkstromen starten om te onderzoeken of te implementeren](microsoft-secure-score-improvement-actions.md#view-improvement-action-details)
 
-### <a name="how-improvement-actions-are-scored"></a>Hoe verbeterings acties worden beoordeeld
+### <a name="how-improvement-actions-are-scored"></a>Hoe verbeteracties worden gescored
 
-Elke vergelijkings actie is 10 punten of minder, en de meeste wordt op een binaire manier gescoord. Als u de actie voor verbetering implementeert, zoals een nieuw beleid maken of een bepaalde instelling inschakelt, ontvangt u 100% van de punten. Voor andere verbeterings acties worden de punten uitgedrukt als percentage van de totale configuratie.
+Elke verbeteringsactie is 10 punten of minder waard en de meeste worden op een binaire manier gescored. Als u de verbeteringsactie implementeert, zoals een nieuw beleid maken of een specifieke instelling in te stellen, krijgt u 100% van de punten. Voor andere verbeteracties worden punten gegeven als een percentage van de totale configuratie.
 
-Met een verbeterings actie wordt u bijvoorbeeld 10 punten vrijmaken door al uw gebruikers te beschermen met meervoudige verificatie. U hebt maar 50 van 100 totale gebruikers, dus u krijgt een deel van 5 punten met een uitgaand bedrag (50/100 totale * 10 Max pts = 5 pts).
+Een verbeteringsactie geeft bijvoorbeeld aan dat u 10 punten krijgt door al uw gebruikers te beschermen met meervoudige verificatie. U hebt slechts 50 van de 100 totale gebruikers beveiligd, dus u krijgt een gedeeltelijke score van 5 punten (50 beveiligde / 100 totaal * 10 max pts = 5 pts).
 
-### <a name="products-included-in-secure-score"></a>Producten die deel uitmaken van Secure Score
+### <a name="products-included-in-secure-score"></a>Producten die zijn opgenomen in Secure Score
 
-Er gelden momenteel aanbevelingen voor de volgende producten:
+Momenteel zijn er aanbevelingen voor de volgende producten:
 
 - Microsoft 365 (inclusief Exchange Online)
 - Microsoft Azure Active Directory
@@ -84,57 +84,57 @@ Er gelden momenteel aanbevelingen voor de volgende producten:
 - Cloud App Security
 - Microsoft Teams
 
-Aanbevelingen voor andere beveiligingsproducten zijn binnenkort beschikbaar. De aanbevelingen bedekken geen enkele aanvals vlakken die zijn gekoppeld aan elk product, maar ze zijn een goede basislijn. U kunt ook de verduidelijkings acties markeren als bedoeld bij een derde persoon of een andere beperking.
+Aanbevelingen voor andere beveiligingsproducten worden binnenkort verwacht. De aanbevelingen hebben niet betrekking op alle aanvalsoppervlakken die aan elk product zijn gekoppeld, maar ze zijn wel een goede basislijn. U kunt de verbeteracties ook markeren als gedekt door een derde partij of alternatieve mitigatie.
 
 ### <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
 
-Secure Score van Microsoft heeft bijgewerkte vernieuwings acties voor de ondersteuning [van beveiligingsstandaarden in azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), zodat u uw organisatie eenvoudiger kunt beschermen met vooraf geconfigureerde beveiligingsinstellingen voor veelvoorkomende aanvallen.
+Microsoft Secure Score heeft verbeteracties bijgewerkt ter ondersteuning van beveiligings [defaults in Azure Active Directory,](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)waarmee u uw organisatie gemakkelijker kunt beschermen met vooraf geconfigureerde beveiligingsinstellingen voor veelvoorkomende aanvallen.
 
-Als u de standaardwaarden voor beveiliging uitschakelt, ontvangt u volledige punten voor de volgende verbeterings acties:
+Als u beveiligings defaults in ingeschakeld, krijgt u volledige punten voor de volgende verbeteringsacties:
 
-- Ervoor zorgen dat alle gebruikers meervoudige verificatie kunnen uitvoeren voor beveiligde toegang (9 punten)
+- Zorg ervoor dat alle gebruikers meervoudige verificatie kunnen voltooien voor veilige toegang (9 punten)
 - MFA vereisen voor beheerdersrollen (10 punten)
-- Beleid inschakelen voor het blokkeren van oudere verificatie (7 punten)
+- Beleid inschakelen om oudere verificatie te blokkeren (7 punten)
 
 >[!IMPORTANT]
->Beveiligingsinstellingen omvatten beveiligingsfuncties die soortgelijke beveiliging biedt voor de verbeteringen van het aanmeldings risico en de verbeteringen van gebruikers risico beleid. In plaats van deze beleidsregels boven de standaardinstellingen voor de beveiliging in te stellen, wordt u aangeraden hun status bij te werken met een afwijkende beperking.
+>Beveiligings defaults omvatten beveiligingsfuncties die vergelijkbare beveiliging bieden als het 'aanmeldingsbeleid' en 'user risk policy' verbeteracties. In plaats van dit beleid in te stellen boven op de beveiligings defaults, raden we aan hun statussen bij te werken naar 'Opgelost via alternatieve beperking'.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
 
-Als u gemachtigd bent om toegang te krijgen tot Microsoft Secure Score, moet u beschikken over een van de volgende rollen in azure Active Directory.
+Als u toestemming wilt hebben voor toegang tot Microsoft Secure Score, moet u een van de volgende rollen in Azure Active Directory toegewezen krijgen.
 
 ### <a name="read-and-write-roles"></a>Rollen lezen en schrijven
 
-Met lees-en schrijftoegang kunt u wijzigingen aanbrengen en rechtstreeks werken met Secure Score. U kunt ook alleen-lezen toegang toewijzen aan andere gebruikers.
+Met lees- en schrijftoegang kunt u wijzigingen aanbrengen en rechtstreeks werken met Secure Score. U kunt ook alleen-lezen toegang toewijzen aan andere gebruikers.
 
 * Globale beheerder
 * Beveiligingsbeheerder
 * Exchange-beheerder
 * SharePoint-beheerder
-* Account beheerder
+* Accountbeheerder
 
 ### <a name="read-only-roles"></a>Alleen-lezen rollen
 
-Met alleen-lezen toegang kunt u niet de status of notities voor een actie voor verbetering bewerken, Score zones bewerken of aangepaste vergelijkingen bewerken.
+Met alleen-lezen toegang kunt u de status of notities niet bewerken voor een verbeteringsactie, scorezones bewerken of aangepaste vergelijkingen bewerken.
 
-* Helpdesk beheerder
+* Helpdeskbeheerder
 * Gebruikersbeheerder
-* Service beheerder
+* Servicebeheerder
 * Beveiligingslezer
 * Beveiligingsoperator
 * Algemene lezer
 
-## <a name="risk-awareness"></a>Risico detectie
+## <a name="risk-awareness"></a>Risicobewustzijn
 
-Secure Score van Microsoft is een numerieke samenvatting van uw beveiligings Posture op basis van systeemconfiguraties, gebruikersgedrag en andere beveiligings maten. Het maakt niet uit hoe waarschijnlijk uw systeem of gegevens worden geschonden. In plaats daarvan wordt aangegeven in welke mate u beveiligings besturing in uw Microsoft-omgeving hebt aangenomen waarmee u het risico van schending kunt compenseren. Geen enkele online service is gekraakt tegen beveiligingsproblemen en de Secure Score mag niet worden geïnterpreteerd als garantie tegen beveiligingsproblemen.
+Microsoft Secure Score is een numerieke samenvatting van uw beveiligingsstatus op basis van systeemconfiguraties, gebruikersgedrag en andere beveiligingsgerelateerde metingen. Het is geen absolute meting van de kans dat uw systeem of gegevens worden geschonden. In plaats van de mate waarin u beveiligingsbesturingselementen hebt aangenomen in uw Microsoft-omgeving, kan dit helpen het risico op inbreuken te compenseren. Geen enkele onlineservice is niet gevrijwaard van beveiligingsinbreuken en een veilige score mag niet worden geïnterpreteerd als een garantie tegen inbreuk op de beveiliging op welke manier dan ook.
 
 ## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
-Als u problemen ondervindt, kunt u het ons laten weten dat u de community [beveiliging, Privacy & naleving](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . We volgen de community en bieden hulp.
+Als u problemen hebt, laat het ons weten door een bericht te plaatsen in de [beveiligings-, privacy- & Compliance-community.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) We houden de community in de gaten en bieden hulp.
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 
 - [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
-- [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
+- [Uw Microsoft Secure Score-geschiedenis bijhouden en doelstellingen behalen](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
 - [Wat is er nieuw](microsoft-secure-score-whats-new.md)

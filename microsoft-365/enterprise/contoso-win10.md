@@ -14,16 +14,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek hoe Contoso Microsoft Endpoint Configuration Manager gebruikte om in-place upgrades voor Windows 10 Enterprise te implementeren.
-ms.openlocfilehash: 0543f24665048d0679bc1b099fdd0a2d431c1e54
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 7907bf64acce3af8b21459202cb6f5cbc1e9f990
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754245"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907684"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Windows 10 Enterprise-implementatie voor Contoso
 
-Voor de grote implementatie van Microsoft 365 for Enterprise hadden contoso Windows-compatibele Pc's en apparaten met een menging van Windows 7 (10%), Windows 8,1 (65%) en Windows 10 (25%). Contoso wilde haar pc’s upgraden, omdat Windows 10 Enterprise gebruikmaakt van geavanceerde beveiliging en IT-overhead vermindert door automatische implementatie van updates. 
+Vóór de uitgebreide implementatie van Microsoft 365 voor bedrijven had Contoso windows-compatibele pc's en apparaten met een combinatie van Windows 7 (10%), Windows 8.1 (65%) en Windows 10 (25%). Contoso wilde haar pc’s upgraden, omdat Windows 10 Enterprise gebruikmaakt van geavanceerde beveiliging en IT-overhead vermindert door automatische implementatie van updates. 
 
 Na het evalueren van hun infrastructuur en bedrijfsbehoeften identificeerde Contoso deze belangrijke vereisten voor de implementatie:
 
@@ -54,7 +54,7 @@ Contoso heeft een bestaande Configuration Manager-infrastructuur (Current Branch
 
 ## <a name="planning-process"></a>Planningsproces
 
-Contoso heeft de upgrade gereedheids gebruikt in Windows Analytics om te bepalen welke set geïnstalleerde apps en de compatibiliteit met Windows 10 Enterprise.
+Contoso heeft de upgradebereidheid in Windows Analytics gebruikt om de set geïnstalleerde apps en de compatibiliteit met Windows 10 Enterprise te bepalen.
 
 ## <a name="deployment-process"></a>Implementatieproces
 
@@ -62,11 +62,11 @@ Contoso implementeerde het volgende proces, met de aanbevelingen van Microsoft v
 
 1. Peer-cache voor Configuration Manager werd ingeschakeld.
 2. Aangepaste Windows-pakketten werden gemaakt op basis van images van het Servicecentrum voor volumelicenties.
-3. Gebruik Configuration Manager om de Windows-pakketten te implementeren op distributiepunten voor distributiepunten in hun netwerk en geïmplementeerde versies van de drie groepen voor het testen van validatie en implementatie.
+3. Configuration Manager gebruikt om de Windows-pakketten te implementeren op distributiepunten in het netwerk en geïmplementeerde builds voor de drie validatie- en implementatiefaseringsgroepen.
 4. Evaluatie werd uitgevoerd voor het slagen van de implementatie op pc’s en apparaten in de drie ringen voor validatie- en implementatiefasen met de Windows Analytics-oplossingen Apparaatstatus en Naleving van updates.
-5. Op basis van de informatie over Windows Analytics heeft Contoso de versie van Windows 10 Enterprise vastgesteld voor de implementatie van de overkoepelende implementatiegroep.
-6. De stappen voor de implementatie van Configuration Manager uitvoeren om het geselecteerde Windows-pakket te implementeren voor de overkoepelende implementatiegroep.
-7. Gecontroleerde Pc's en apparaten in de uitgebreide implementatiegroep, met behulp van de apparaatcompatibiliteit en update de compliance-oplossingen om problemen op te lossen.
+5. Op basis van de Gegevens van Windows Analytics heeft Contoso de versie van Windows 10 Enterprise bepaald die moet worden geïmplementeerd in de brede implementatiegroep.
+6. De implementatietaakreeksen van Configuration Manager uitgevoerd om het geselecteerde Windows-pakket te implementeren in de brede implementatiegroep.
+7. Bewaakte pc's en apparaten in de brede implementatiegroep met de oplossingen Apparaattoestand en Compliance bijwerken om problemen op te lossen.
 
 Dit is de implementatie-architectuur van in-place upgrades en doorlopende updates van Contoso.
 
@@ -78,15 +78,15 @@ Deze infrastructuur bestaat uit:
   - images ophaalt voor Windows 10 Enterprise-pakketten van het Microsoft Servicecentrum voor volumelicenties in het Microsoft-netwerk.
   - het centrale beheerpunt is voor implementatiepakketten.
 - Regionale distributiepunten die zich normaliter in de regionale hub-kantoren van Contoso bevinden.
-- Windows-Pc's en-apparaten op diverse locaties waarop de implementatiepakketten worden ontvangen en geïnstalleerd voor de interne upgrade of voortdurende updates op basis van groepslidmaatschap.
+- Windows-pc's en apparaten op verschillende locaties die de implementatiepakketten ontvangen en installeren voor de in-place upgrade of lopende updates op basis van groepslidmaatschap.
 
 ## <a name="next-step"></a>Volgende stap
 
-Meer informatie over hoe Contoso de configuratie van een Configuration Manager-infrastructuur maakt om [actuele Microsoft 365-apps voor Enterprise binnen de organisatie te implementeren en te behouden](contoso-o365pp.md) . 
+Lees hoe Contoso gebruik maakt van de Configuration Manager-infrastructuur voor het implementeren en behouden van huidige [Microsoft 365-apps](contoso-o365pp.md) voor ondernemingen in de hele organisatie. 
 
 ## <a name="see-also"></a>Zie ook
 
-[Windows 10 Enterprise](https://docs.microsoft.com/windows/deployment/)
+[Windows 10 Enterprise](/windows/deployment/)
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 

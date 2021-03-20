@@ -1,6 +1,6 @@
 ---
-title: DeviceTvmSoftwareInventory table in the advanced hunting schema
-description: Meer informatie over de voorraad van software op uw apparaten kunt u vinden in de tabel DeviceTvmSoftwareInventory van het geavanceerde schema voor het zoeken.
+title: DeviceTvmSoftwareInventory-tabel in het geavanceerde schema voor de jacht
+description: Meer informatie over de inventaris van software op uw apparaten in de tabel DeviceTvmSoftwareInventory van het geavanceerde schema voor de jacht.
 keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, software, inventory, vulnerabilities, CVE ID, OS DeviceTvmSoftwareInventoryVulnerabilities
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 445e6f767cc2269315a0b280df2f4deefa2faa08
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 0bdd3b8564a01b36d1c21d0f49a29ce1afd98348
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423973"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907325"
 ---
 # <a name="devicetvmsoftwareinventory"></a>DeviceTvmSoftwareInventory
 
@@ -36,37 +36,37 @@ ms.locfileid: "50423973"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> Sommige informatie heeft betrekking op vooraf uitgebracht product dat aanzienlijk kan worden gewijzigd voordat het in de handel wordt gebracht. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt be gegeven.
+> Sommige informatie heeft betrekking op vooraf uitgebracht product dat mogelijk aanzienlijk wordt gewijzigd voordat het commercieel wordt uitgebracht. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt verstrekt.
 
 
-De tabel in het geavanceerde schema voor zoeken bevat de inventaris van & Beveiligingsprobleembeheer van software die momenteel is geïnstalleerd op apparaten in uw netwerk, inclusief informatie over het beëindigen van `DeviceTvmSoftwareInventory` de ondersteuning. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) U kunt bijvoorbeeld zoeken naar gebeurtenissen met apparaten die zijn geïnstalleerd met een momenteel kwetsbaar softwareversie. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
+De tabel in het geavanceerde schema bevat de inventaris & Threat & Vulnerability Management van software die momenteel is geïnstalleerd op apparaten in uw netwerk, inclusief informatie over het einde `DeviceTvmSoftwareInventory` van de ondersteuning. [](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) U kunt bijvoorbeeld zoeken naar gebeurtenissen met apparaten die zijn geïnstalleerd met een momenteel kwetsbare softwareversie. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 
 >[!NOTE]
-> De `DeviceTvmSoftwareInventory` tabel is vervangen door de `DeviceTvmSoftwareVulnerabilities` `DeviceTvmSoftwareInventoryVulnerabilities` tabellen. De eerste twee tabellen bevatten meer kolommen die u kunt gebruiken om uw activiteiten in het beheer van vulnerabliteit te informeren of te zoeken naar kwetsbaar apparaten.
+> De `DeviceTvmSoftwareInventory` tabel en de tabellen zijn `DeviceTvmSoftwareVulnerabilities` `DeviceTvmSoftwareInventoryVulnerabilities` vervangen. De eerste twee tabellen bevatten meer kolommen die u kunt gebruiken om uw vulnerablity-beheeractiviteiten te informeren of om te zoeken naar kwetsbare apparaten.
 
-Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
+Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
-| `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van de computer |
-| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, inclusief variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
+| `DeviceId` | tekenreeks | Unieke id voor de machine in de service |
+| `DeviceName` | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van de computer |
+| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
 | `OSVersion` | tekenreeks | Versie van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `OSArchitecture` | tekenreeks | Architectuur van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `SoftwareVendor` | tekenreeks | Naam van de softwareleverancier |
 | `SoftwareName` | tekenreeks | Naam van het softwareproduct |
 | `SoftwareVersion` | tekenreeks | Versienummer van het softwareproduct |
-| `EndOfSupportStatus` | tekenreeks | Geeft de levenscyclus van het softwareproduct aan ten opzichte van de opgegeven einddatum (EOS) of het einde van de levensduur (EOL) |
-| `EndOfSupportDate` | tekenreeks | Einde van ondersteuning (EOS) of einddatum (EOL) van het softwareproduct |
+| `EndOfSupportStatus` | tekenreeks | Geeft de levenscyclusfase van het softwareproduct aan ten opzichte van de opgegeven einddatum (EOS) of de einddatum van het softwareproduct (EOL) |
+| `EndOfSupportDate` | tekenreeks | End-of-support (EOS) of end-of-life (EOL) datum van het softwareproduct |
 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Proactief zoeken naar bedreigingen](advanced-hunting-overview.md)
+- [Proactief op bedreigingen zoeken](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
 - [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
-- [Overzicht van risicobeheer & beveiligingsprobleem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [Overzicht van threat & Vulnerability Management](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

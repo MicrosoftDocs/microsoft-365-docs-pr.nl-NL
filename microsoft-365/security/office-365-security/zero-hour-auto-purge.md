@@ -22,12 +22,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over hoe zap (Zero Hour Auto Purge) bezorgde berichten in een Exchange Online-postvak met terugwerkende kracht kan verplaatsen naar de map Ongewenste e-mail of quarantaine die met terugwerkende kracht spam of phishing zijn.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: be47d8dfda68bfb6819b6423542970c7768c6ffb
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b5744fdd4ce371f62fcb4b07a4cbcd003405c3db
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820256"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907974"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Auto Purge (ZAP) van nul uur in Exchange Online
 
@@ -121,4 +121,4 @@ ZAP werkt nog steeds zolang het bericht niet is verwijderd, of zolang dezelfde o
 
 ZAP zal geen berichten uit postvakken in quarantaine plaatsen in de wacht. ZAP kan berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie die is geconfigureerd voor spam of phishing in antispambeleid.
 
-Zie [In-Place Hold and Litigation Hold in Exchange Online (In-Place Hold and Litigation Hold in Exchange Online)](https://docs.microsoft.com/Exchange/security-and-compliance/in-place-and-litigation-holds)voor meer informatie over het houden van in exchange online.
+Zie [In-Place Hold and Litigation Hold in Exchange Online (In-Place Hold and Litigation Hold in Exchange Online)](/Exchange/security-and-compliance/in-place-and-litigation-holds)voor meer informatie over het houden van in exchange online.
