@@ -18,17 +18,17 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer informatie krijgen over de antispaminstellingen en -filters die spam helpen voorkomen in Exchange Online Protection (EOP).
+description: Beheerders kunnen meer informatie krijgen over de antispaminstellingen en filters die spam helpen voorkomen in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f82e3f36d00994a68ed579779bed314318c51f47
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 6eeecaccd95e11444807bedb142626ae2c0a0877
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288943"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917603"
 ---
-# <a name="anti-spam-protection-in-eop"></a>Bescherming tegen ongewenste e-mail in EOP
+# <a name="anti-spam-protection-in-eop"></a>Bescherming tegen spam in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -38,91 +38,91 @@ ms.locfileid: "50288943"
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
-> Dit onderwerp is bedoeld voor beheerders. Zie Overview of the [Junk Email Filter and](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) Learn about junk email and phishing (Overzicht van het filter voor ongewenste e-mail en over ongewenste e-mail en phishing) voor onderwerpen voor [eindgebruikers.](https://support.microsoft.com/office/86c1d76f-4d5a-4967-9647-35665dc17c31)
+> Dit onderwerp is bedoeld voor beheerders. Zie Overzicht van het filter voor [ongewenste](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) e-mail en Meer informatie over ongewenste [e-mail en phishing](https://support.microsoft.com/office/86c1d76f-4d5a-4967-9647-35665dc17c31)voor onderwerpen van eindgebruikers.
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken worden e-mailberichten automatisch beveiligd tegen spam (ongewenste e-mail) door EOP.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, worden e-mailberichten automatisch beschermd tegen spam (ongewenste e-mail) door EOP.
 
-De routekaart voor e-mailveiligheid van Microsoft omvat een niet-overeenkomende benadering voor productoverschrijdende producten. EOP antispam- en anti-phishingtechnologie wordt toegepast op onze e-mailplatforms om gebruikers de nieuwste antispam- en anti-phishinghulpprogramma's en innovaties in het hele netwerk te bieden. Het doel van EOP is een uitgebreide en gebruiksbare e-mailservice aan te bieden waarmee gebruikers worden gedetecteerd en beschermd tegen ongewenste e-mail, frauduleuze e-mailbedreigingen (phishing) en malware.
+De routekaart voor e-mailveiligheid van Microsoft omvat een niet-overeenkomende benadering voor cross-product. EOP-antispam- en anti-phishingtechnologie wordt toegepast op onze e-mailplatforms om gebruikers te voorzien van de nieuwste antispam- en anti-phishinghulpmiddelen en -innovaties in het hele netwerk. Het doel van EOP is om een uitgebreide en bruikbaar e-mailservice aan te bieden waarmee gebruikers kunnen worden gedetecteerd en beschermd tegen ongewenste e-mail, frauduleuze e-maildreigingen (phishing) en malware.
 
-Naarmate het gebruik van e-mail groter wordt, wordt ook misbruik van e-mail voorkomen. Ongemonitorde ongewenste e-mail kan postvak IN en netwerken in de gaten houden, tevredenheid van gebruikers beïnvloeden en de effectiviteit van legitieme communicatie via e-mail beperken. Daarom blijft Microsoft investeren in antispamtechnologieën. Eenvoudig gezegd begint het met het in- en filteren van ongewenste e-mail.
+Naarmate het gebruik van e-mail is toegenomen, is het misbruik van e-mail ook toegenomen. Ongemonitorde ongewenste e-mail kan postvak IN en netwerken in de weg staan, de tevredenheid van gebruikers beïnvloeden en de effectiviteit van legitieme e-mailcommunicatie belemmeren. Daarom blijft Microsoft investeren in antispamtechnologieën. Eenvoudig gezegd, het begint met het bevatten en filteren van ongewenste e-mail.
 
 > [!TIP]
-> De volgende antispamtechnologieën zijn nuttig wanneer u berichten wilt toestaan of blokkeren op basis van de berichtenvelop (bijvoorbeeld het domein van de afzender of het BRON-IP-adres van het bericht). Als u berichten wilt toestaan of blokkeren op basis van nettolading (bijvoorbeeld URL's in het bericht of bijgevoegde bestanden), gebruikt u de portal Tenant [toestaan/Lijst blokkeren.](tenant-allow-block-list.md)
+> De volgende antispamtechnologieën zijn handig als u berichten wilt toestaan of blokkeren op basis van de envelop met berichten (bijvoorbeeld het domein van de afzender of het bron-IP-adres van het bericht). Als u berichten wilt toestaan of blokkeren op basis van laadvermogen (bijvoorbeeld URL's in het bericht of bijgevoegde bestanden), moet u de [portal Tenant allow/Block List gebruiken.](tenant-allow-block-list.md)
 
 ## <a name="anti-spam-technologies-in-eop"></a>Antispamtechnologieën in EOP
 
-Om ongewenste e-mail te beperken, bevat EOP bescherming tegen ongewenste e-mail die gebruikmaakt van eigen spamfiltertechnologieën om ongewenste e-mail te identificeren en te scheiden van legitieme e-mail. EOP-spamfilters leren van bekende spam- en phishingbedreigingen en feedback van gebruikers van ons consumentenplatform, Outlook.com. Door continue feedback van EOP-gebruikers in het classificatieprogramma voor ongewenste e-mail zorgt u ervoor dat de EOP-technologieën voortdurend worden opgeleid en verbeterd.
+EOP bevat bescherming tegen ongewenste e-mail die gebruikmaakt van eigen spamfiltertechnologieën om ongewenste e-mail te identificeren en te scheiden van legitieme e-mail. EOP-spamfilters leren van bekende spam- en phishingrisico's en feedback van gebruikers van ons consumentenplatform, Outlook.com. Permanente feedback van EOP-gebruikers in het classificatieprogramma voor ongewenste e-mail helpt ervoor te zorgen dat de EOP-technologieën voortdurend worden opgeleid en verbeterd.
 
 De antispaminstellingen in EOP zijn gemaakt van de volgende technologieën:
 
-- Verbindingsfiltering: identificeert begin van de binnenkomende e-mailverbinding goede en slechte e-mailbronservers via de lijst met toegestane IP-adressen, de lijst met IP-blokkeringen en de veilige lijst *(een* dynamische, maar niet-bewerkbare lijst met vertrouwde afzenders die door Microsoft worden onderhouden). U configureert deze instellingen in het verbindingsfilterbeleid. Meer informatie op [Verbindingsfilter configureren.](configure-the-connection-filter-policy.md)
+- Verbindingsfilters: identificeert goede en slechte e-mailbronservers in het begin van de inkomende e-mailverbinding via de IP-lijst toestaan, ip-blokkeringslijst en de veilige lijst *(een* dynamische, maar niet-bewerkbare lijst met vertrouwde afzenders die door Microsoft worden onderhouden). U configureert deze instellingen in het verbindingsfilterbeleid. Meer informatie bij [Verbindingsfilters configureren.](configure-the-connection-filter-policy.md)
 
   > [!NOTE]
-  > Spoof intelligence maakt gebruik van verbindingsfilters om lijsten met toegestane en geblokkeerde afzenders te maken die uw e-maildomein vervalsen. Zie meer informatie over intelligence [voor adresvervalsing in Microsoft 365](learn-about-spoof-intelligence.md)voor meer informatie.
+  > Spoof intelligence gebruikt verbindingsfilters om lijsten met afzenders die uw e-maildomein spoofen, toe te staan en te blokkeren. Zie Meer informatie over [spoof intelligence in Microsoft 365](learn-about-spoof-intelligence.md)voor meer informatie.
 
-- **Spamfilters (inhoudsfilters)**: EOP gebruikt de spamfilters op **Spam,** Zeer vertrouwelijk **spam, bulk-e-mail,** Phishing-e-mail en zeer **betrouwbaarheidsmail voor phishing** om berichten te classificeren.  U kunt de acties configureren die moeten worden gedaan op basis van deze problemen en u kunt de meldingsopties voor eindgebruikers configureren voor berichten die in quarantaine zijn geplaatst in plaats van zijn bezorgd. Zie Antispambeleid configureren [in Microsoft 365](configure-your-spam-filter-policies.md)voor meer informatie.
+- **Spamfilters (inhoudsfiltering)**: EOP gebruikt de spamfilters **Spam,**  Spam met hoog **vertrouwen,** Bulk-e-mail, Phishing-e-mail en phishing-e-mail met veel vertrouwen om berichten te classificeren.  U kunt de acties configureren die u wilt uitvoeren op basis van deze uitspraken en u kunt de meldingsopties voor eindgebruikers configureren voor berichten die in quarantaine zijn geplaatst in plaats van bezorgd. Zie [Antispambeleid configureren in Microsoft 365](configure-your-spam-filter-policies.md)voor meer informatie.
 
   > [!NOTE]
-  > Het spamfilter is standaard zo geconfigureerd dat berichten die zijn gemarkeerd als spam, worden verzonden naar de map Ongewenste e-mail van de geadresseerde. In hybride omgevingen waarin EOP on-premises Exchange-postvakken beschermt, moet u echter twee regels voor de e-mailstroom (ook wel transportregels genoemd) configureren in uw on-premises Exchange-organisatie om de EOP-spamkoppen te herkennen die aan berichten zijn toegevoegd. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
+  > Spamfilters zijn standaard zo geconfigureerd dat berichten die als spam zijn gemarkeerd, worden verzonden naar de map Ongewenste e-mail van de geadresseerde. In hybride omgevingen waarin EOP on-premises Exchange-postvakken beschermt, moet u echter twee regels voor de e-mailstroom configureren (ook wel transportregels genoemd) in uw on-premises Exchange-organisatie om de EOP-spamkoppen te herkennen die aan berichten worden toegevoegd. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
 
-- **Filteren van uitgaande spam:** EOP controleert ook of uw gebruikers geen spam verzenden, hetzij in uitgaande berichtinhoud ofwel door de limieten voor uitgaande berichten te overschrijden. Zie Uitgaande [spamfilters configureren in Microsoft 365](configure-the-outbound-spam-policy.md)voor meer informatie.
+- **Uitgaande spamfilters:** EOP controleert ook of uw gebruikers geen spam verzenden, in uitgaande berichtinhoud of door de limieten voor uitgaande berichten te overschrijden. Zie Uitgaande spamfilters configureren [in Microsoft 365](configure-the-outbound-spam-policy.md)voor meer informatie.
 
-- **Spoof intelligence:** Zie meer informatie over intelligence voor [adresvervalsing in Microsoft 365 voor meer informatie.](learn-about-spoof-intelligence.md)
+- **Spoof intelligence**: Zie Meer informatie over [spoof intelligence in Microsoft 365](learn-about-spoof-intelligence.md)voor meer informatie.
 
 ## <a name="manage-errors-in-spam-filtering"></a>Fouten in spamfilters beheren
 
-Het is mogelijk dat goede berichten kunnen worden geïdentificeerd als spam (ook wel fout-positieven genoemd) of dat spam in het Postvak IN kan worden afgeleverd. U kunt de suggesties in de volgende secties gebruiken om erachter te komen wat er is gebeurd en om te voorkomen dat dit in de toekomst gebeurt.
+Het is mogelijk dat goede berichten kunnen worden geïdentificeerd als spam (ook wel false positives genoemd) of dat spam kan worden bezorgd in het Postvak IN. U kunt de suggesties in de volgende secties gebruiken om erachter te komen wat er is gebeurd en om te voorkomen dat dit in de toekomst gebeurt.
 
 Hier volgen enkele best practices die van toepassing zijn op beide scenario's:
 
 - Verzend altijd verkeerd geclassificeerde berichten naar Microsoft. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-- **Bekijk de berichtkoppen tegen ongewenste e-mail:** deze waarden geven aan waarom een bericht als spam is gemarkeerd of waarom het spamfilter is overgeslagen. Zie berichtkoppen tegen [ongewenste e-mail voor meer informatie.](anti-spam-message-headers.md)
+- **Bekijk de kopteksten van** het antispambericht: deze waarden geven aan waarom een bericht is gemarkeerd als spam of waarom spamfilters zijn overgeslagen. Zie Kopteksten [van antispamberichten voor meer informatie.](anti-spam-message-headers.md)
 
-- **Wijs uw MX-record op Microsoft 365:** om EOP de beste bescherming te bieden, wordt u altijd aangeraden eerst e-mail bij Microsoft 365 te laten bezorgen. Zie [DNS-records maken bij een DNS-hostingprovider voor Microsoft 365 voor instructies.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
+- **Wijs uw MX-record aan op Microsoft 365:** om EOP de beste beveiliging te bieden, raden we u altijd aan eerst e-mail te laten bezorgen bij Microsoft 365. Zie [DNS-records maken bij een DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor instructies.
 
-  Als de MX-record naar een andere locatie (bijvoorbeeld een antispamoplossing of apparaat van derden) wijst, is het moeilijk voor EOP om nauwkeurige spamfilters te bieden. In dit scenario moet u Enhanced Filtering for connectors (ook wel _vermelding overslaan genoemd) configureren._ Zie [Enhanced Filtering for Connectors in Exchange Online voor instructies.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+  Als de MX-record naar een andere locatie wijst (bijvoorbeeld een antispamoplossing of -apparaat van derden), is het moeilijk voor EOP om nauwkeurige spamfilters te bieden. In dit scenario moet u Enhanced Filtering configureren voor verbindingslijnen (ook wel _skip listing genoemd)._ Zie Verbeterde filtering [voor connectors in Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)voor instructies.
 
-- **E-mailverificatie** gebruiken: als u de eigenaar bent van een e-maildomein, kunt u DNS gebruiken om ervoor te zorgen dat berichten van afzenders in dat domein legitiem zijn. Gebruik de volgende methoden voor e-mailverificatie om spam en ongewenste spoofing in EOP te voorkomen:
+- **E-mailverificatie** gebruiken: als u eigenaar bent van een e-maildomein, kunt u DNS gebruiken om ervoor te zorgen dat berichten van afzenders in dat domein legitiem zijn. Gebruik alle volgende methoden voor e-mailverificatie om spam en ongewenste spoofing in EOP te voorkomen:
 
-  - **SPF:** Sender Policy Framework verifieert het BRON-IP-adres van het bericht aan de eigenaar van het verzendende domein. Zie SPF instellen om spoofing te helpen voorkomen, voor een korte inleiding tot SPF en om het snel te [configureren.](set-up-spf-in-office-365-to-help-prevent-spoofing.md) Voor een beter begrip van hoe Microsoft 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Microsoft 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
+  - **SPF:** Sender Policy Framework verifieert het bron-IP-adres van het bericht tegen de eigenaar van het verzendende domein. Zie SPF instellen om spoofing te voorkomen voor een snelle inleiding tot SPF en om deze snel te [configureren.](set-up-spf-in-office-365-to-help-prevent-spoofing.md) Voor een beter begrip van hoe Microsoft 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Microsoft 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
 
-  - **DKIM:** DomainKeys Identified Mail voegt een digitale handtekening toe aan de berichtkop van berichten die vanaf uw domein worden verzonden. Zie DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw aangepaste domein [in Microsoft 365.](use-dkim-to-validate-outbound-email.md)
+  - **DKIM:** DomainKeys Identified Mail voegt een digitale handtekening toe aan de berichtkop van berichten die vanuit uw domein zijn verzonden. Zie DKIM gebruiken om uitgaande e-mail te valideren die is verzonden vanuit uw [aangepaste domein in Microsoft 365](use-dkim-to-validate-outbound-email.md)voor meer informatie.
 
-  - **DMARC:** Met domeingebaseerde berichtverificatie, rapportage en conformance kunnen doel-e-mailsystemen bepalen wat er moet doen met berichten die niet voldoen aan SPF- of DKIM-controles en biedt u een ander vertrouwensniveau voor uw e-mailpartners. Zie DMARC gebruiken om e-mail te valideren [in Microsoft 365](use-dmarc-to-validate-email.md)voor meer informatie.
+  - **DMARC:** Op domein gebaseerde berichtverificatie, rapportage en conformatie helpt doel-e-mailsystemen te bepalen wat te doen met berichten die niet worden gecontroleerd door SPF of DKIM en biedt een ander niveau van vertrouwen voor uw e-mailpartners. Zie DMARC gebruiken om [e-mail te valideren in Microsoft 365](use-dmarc-to-validate-email.md)voor meer informatie.
 
-- **Controleer de instellingen voor** bulk-e-mail: de drempelwaarde voor bulksgewijs compatibele e-mail (BCL) die u configureert in antispambeleid, bepaalt of bulk-e-mail (ook wel grijze _e-mail_ genoemd) als spam wordt gemarkeerd. De instelling _MarkAsSpamBulkMail_ die standaard is ingeschakeld, draagt ook bij aan de resultaten. Zie Antispambeleid configureren [in Microsoft 365](configure-your-spam-filter-policies.md)voor meer informatie.
+- **Controleer de instellingen voor** bulksgewijs e-mail: de drempelwaarde voor bulksgewijs compatibel niveau (BCL) die u configureert in antispambeleid, bepaalt of bulk-e-mail (ook wel grijze e-mail _genoemd)_ is gemarkeerd als spam. De instelling Alleen-PowerShell _MarkAsSpamBulkMail_ die standaard is ingeschakeld, draagt ook bij aan de resultaten. Zie [Antispambeleid configureren in Microsoft 365](configure-your-spam-filter-policies.md)voor meer informatie.
 
 ### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>Voorkomen dat spam wordt bezorgd in het Postvak IN
 
-- **Controleer de instellingen van** uw organisatie: Let op de instellingen waarmee berichten geen spamfilters kunnen overslaan (bijvoorbeeld als u uw eigen domein toevoegt aan de lijst met toegestane domeinen in antispambeleid). Zie Aanbevolen instellingen voor de beveiliging van EOP en Microsoft Defender voor [Office 365](recommended-settings-for-eop-and-office365-atp.md) en Lijsten met veilige afzenders maken voor [onze aanbevolen instellingen.](create-safe-sender-lists-in-office-365.md)
+- **Uw organisatie-instellingen** controleren: Let op instellingen waarmee berichten spamfilters kunnen overslaan (bijvoorbeeld als u uw eigen domein toevoegt aan de lijst met toegestane domeinen in antispambeleid). Zie Aanbevolen instellingen voor EOP- en Microsoft Defender voor [Office 365-beveiliging](recommended-settings-for-eop-and-office365-atp.md) en Lijsten met veilige [afzenders maken](create-safe-sender-lists-in-office-365.md)voor onze aanbevolen instellingen.
 
-- **Controleer** of de regel voor ongewenste e-mail is ingeschakeld in het postvak van de gebruiker. Deze is standaard ingeschakeld, maar als deze is uitgeschakeld, kunnen berichten die als ongewenste e-mail zijn gemarkeerd, niet worden verplaatst naar de map Ongewenste e-mail. Zie Instellingen voor ongewenste [e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
+- **Controleer** of de regel voor ongewenste e-mail is ingeschakeld in het postvak van de gebruiker: Deze is standaard ingeschakeld, maar als deze is uitgeschakeld, kunnen berichten die als ongewenste e-mail zijn gemarkeerd, niet worden verplaatst naar de map Ongewenste e-mail. Zie Instellingen voor ongewenste [e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
 
-- **Gebruik de beschikbare lijsten met geblokkeerde afzenders:** zie Lijsten met geblokkeerde afzenders maken [voor meer informatie.](create-block-sender-lists-in-office-365.md)
+- **Gebruik de beschikbare lijsten met geblokkeerde afzenders**: Zie Lijsten met geblokkeerde afzenders maken voor [meer informatie.](create-block-sender-lists-in-office-365.md)
 
-- **Afmelden voor bulkmail** Als het bericht iets was waar de gebruiker zich voor heeft aangemeld (nieuwsbrieven, productaankondigingen, enzovoort) en een koppeling voor het afmelden van een betrouwbare bron bevat, kunt u de gebruiker vragen zich af te melden.
+- **Afmelden voor bulk-e-mail** Als het bericht iets is waar de gebruiker zich voor heeft aangemeld (nieuwsbrieven, productaankondigingen, enzovoort) en een afmeldkoppeling van een betrouwbare bron bevat, kunt u hen vragen zich gewoon af te melden.
 
-- Zelfstandig EOP: maak regels voor de **e-mailstroom in on-premises Exchange voor EOP-spamfilters:** In zelfstandige EOP-omgevingen waarin EOP on-premises Exchange-postvakken beschermt, moet u regels voor de e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de spamfilters van EOP te vertalen zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
+- Zelfstandige EOP: maak regels voor **e-mailstroom in on-premises Exchange voor EOP-spamfilters:** In zelfstandige EOP-omgevingen waarin EOP on-premises Exchange-postvakken beschermt, moet u regels voor de e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de uitspraak voor EOP-spamfilters te vertalen, zodat de regel voor ongewenste e-mail het bericht naar de map Ongewenste e-mail kan verplaatsen. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
 
 ### <a name="prevent-good-email-from-being-identified-as-spam"></a>Voorkomen dat goede e-mail wordt geïdentificeerd als spam
 
-Hier volgen enkele stappen die u kunt ondernemen om fout-positieven te voorkomen:
+Hier volgen enkele stappen die u kunt nemen om fout-positieven te voorkomen:
 
-- **Controleer de instellingen van het Outlook-filter voor ongewenste e-mail:**
+- **Controleer de instellingen van het Outlook-filter voor ongewenste e-mail** van de gebruiker:
 
-  - **Controleer** of het Filter voor ongewenste e-mail van Outlook is uitgeschakeld: wanneer het Outlook-filter voor ongewenste e-mail is ingesteld op de standaardwaarde Geen automatisch **filter,** probeert Outlook geen berichten als spam te classificeren.  Wanneer het is  ingesteld op Laag of **Hoog,** gebruikt het Outlook-filter voor ongewenste e-mail zijn eigen SmartScreen-filtertechnologie om spam te identificeren en naar de map Ongewenste e-mail te verplaatsen, zodat u fout-positieven kunt krijgen. Houd er rekening mee dat Microsoft in november 2016 is gestopt met het produceren van spamdefinitie-updates voor de SmartScreen-filters in Exchange en Outlook. De bestaande SmartScreen-spamdefinities blijven bestaan, maar de effectiviteit zal na verloop van tijd waarschijnlijk slechter werken.
+  - **Controleer of het Filter** voor ongewenste e-mail van Outlook is uitgeschakeld: Wanneer het Filter voor ongewenste e-mail van Outlook is ingesteld op de standaardwaarde Geen automatische **filtering,** wordt in Outlook niet geprobeerd om massages als spam te classificeren.  Wanneer het is ingesteld op **Laag** of **Hoog,** gebruikt het Filter voor ongewenste e-mail van Outlook een eigen SmartScreen-filtertechnologie om spam te identificeren en te verplaatsen naar de map Ongewenste e-mail, zodat u fout-positieven kunt krijgen. Houd er rekening mee dat Microsoft in november 2016 is gestopt met het produceren van spamdefinitie-updates voor de SmartScreen-filters in Exchange en Outlook. De bestaande SmartScreen-spamdefinities zijn op hun plaats gebleven, maar de effectiviteit ervan zal waarschijnlijk na verloop van tijd verslechteren.
 
-  - **Controleer** of alleen veilige lijsten van Outlook is uitgeschakeld: wanneer deze instelling is ingeschakeld, worden alleen berichten van afzenders in de lijst met veilige afzenders of veilige geadresseerden van de gebruiker bezorgd in het Postvak IN. E-mail van alle anderen wordt automatisch verplaatst naar de map Ongewenste e-mail.
+  - Controleer of de instelling 'Alleen veilige **lijsten'** van Outlook is uitgeschakeld: wanneer deze instelling is ingeschakeld, worden alleen berichten van afzenders in de lijst Veilige afzenders van de gebruiker of de lijst Veilige geadresseerden bezorgd in het Postvak IN. e-mail van alle anderen wordt automatisch verplaatst naar de map Ongewenste e-mail.
 
   Zie Instellingen voor ongewenste e-mail configureren in Exchange Online-postvakken [in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie over deze instellingen.
 
-- **Gebruik de beschikbare lijsten met veilige afzenders:** zie Lijsten met veilige [afzenders maken voor meer informatie.](create-safe-sender-lists-in-office-365.md)
+- **Gebruik de beschikbare lijsten met veilige afzenders**: Zie Lijsten met veilige afzenders maken voor [meer informatie.](create-safe-sender-lists-in-office-365.md)
 
-- **Controleer of gebruikers zich binnen de limieten** voor verzenden en ontvangen houden, zoals beschreven [in](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) de limieten voor ontvangen en verzenden in de beschrijving van de Exchange Online-service.
+- **Controleer of gebruikers zich binnen de limieten** voor verzenden en ontvangen houden, zoals beschreven in [Ontvangst- en verzendingslimieten](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) in de beschrijving van de Exchange Online-service.
 
-- **Zelfstandig EOP:** gebruik adreslijstsynchronisatie: als u zelfstandige EOP gebruikt ter bescherming van uw on-premises Exchange-organisatie, moet u gebruikersinstellingen synchroniseren met de service via adreslijstsynchronisatie. Op deze manier zorgt u ervoor dat de lijsten met veilige afzenders van uw gebruikers in EOP worden nageleefd. Zie Adreslijstsynchronisatie gebruiken [om e-mailgebruikers te beheren voor meer informatie.](manage-mail-users-in-eop.md#use-directory-synchronization-to-manage-mail-users)
+- **Zelfstandige EOP: gebruik adreslijstsynchronisatie:** als u zelfstandige EOP gebruikt om uw on-premises Exchange-organisatie te beschermen, moet u gebruikersinstellingen synchroniseren met de service met behulp van adreslijstsynchronisatie. Als u dit doet, worden de lijsten met veilige afzenders van uw gebruikers door EOP gerespecteerd. Zie Adreslijstsynchronisatie gebruiken om [e-mailgebruikers te beheren voor meer informatie.](manage-mail-users-in-eop.md#use-directory-synchronization-to-manage-mail-users)
 
 ## <a name="anti-spam-legislation"></a>Antispamwetgeving
 
-Bij Microsoft zijn wij van mening dat voor de ontwikkeling van nieuwe technologieën en zelfvoorschriften de ondersteuning van effectief overheidsbeleid en wettelijke kaders vereist is. De wereldwijde spamgroei heeft talloze overheden verspreid om commerciële e-mail te reguleren. Veel landen hebben nu wetten tegen ongewenste e-mail. De Verenigde Staten heeft zowel federale als staatswetten voor spam. Deze complementaire aanpak helpt spam te beperken en tegelijkertijd legitieme e-commerce mogelijk te maken. Met de CAN-SPAM Act worden de beschikbare hulpmiddelen voor het beteugelen van frauduleuze en misleidende e-mailberichten uitgebreid.
+Bij Microsoft zijn we van mening dat voor de ontwikkeling van nieuwe technologieën en zelfregulering effectieve overheidsbeleid en juridische kaders moeten worden ondersteund. De wereldwijde verspreiding van spam heeft tal van wetgevingsinstanties aangespoord om commerciële e-mail te reguleren. Veel landen hebben nu wetten voor spambestrijding. De Verenigde Staten hebben zowel federale als staatswetten die betrekking hebben op spam. Deze complementaire benadering helpt spam te beperken en tegelijkertijd legitieme e-commerce te laten slagen. De CAN-SPAM Act breidt de beschikbare hulpmiddelen uit voor het tegen gaan van frauduleuze en misleidende e-mailberichten.

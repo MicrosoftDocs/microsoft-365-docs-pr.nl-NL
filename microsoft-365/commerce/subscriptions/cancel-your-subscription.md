@@ -20,19 +20,19 @@ search.appverid:
 - MET150
 description: Lees hoe u uw proefabonnement of betaald abonnement op Microsoft 365 voor Bedrijven kunt opzeggen.
 ms.date: ''
-ms.openlocfilehash: 45e953fd415bb2d508554b47fb3226dcae74cb6b
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 7a2de2a261baeb4e64e12742810635f352217933
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741399"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916874"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -45,7 +45,7 @@ ms.locfileid: "50741399"
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een Globale of Factureringsbeheerder zijn om de stappen in dit artikel uit te voeren. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="steps-to-cancel-your-subscription"></a>Stappen om uw abonnement op te zeggen
 

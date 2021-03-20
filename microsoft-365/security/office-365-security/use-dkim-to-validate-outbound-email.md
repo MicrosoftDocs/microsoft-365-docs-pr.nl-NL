@@ -20,12 +20,12 @@ ms.custom:
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55a7bf612d121364ed64c159a450b6cf035d3837
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 7894375cf7dd7973a7c3dc0160dbaa084823e9d4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286427"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918640"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -88,7 +88,7 @@ Kortom: DKIM gebruikt een persoonlijke sleutel om een versleutelde handtekening 
 ## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Uw 1024-bits sleutels handmatig upgraden naar 2048-bits DKIM-versleutelingssleutels
 <a name="1024to2048DKIM"> </a>
 
-Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt in deze instructies uitgelegd hoe je de 1024-bits sleutel upgradet naar 2048-bits in [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). De onderstaande stappen zijn voor twee gebruikscases: kies de optie die het geschiktst is voor jouw configuratie.
+Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt in deze instructies uitgelegd hoe je de 1024-bits sleutel upgradet naar 2048-bits in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). De onderstaande stappen zijn voor twee gebruikscases: kies de optie die het geschiktst is voor jouw configuratie.
 
 - Wanneer je **DKIM al hebt geconfigureerd**, wijzig je de hoeveelheid bits als volgt:
 
@@ -115,7 +115,7 @@ Get-DkimSigningConfig -Identity <Domain for which the configuration was set> | F
 
 Als u de tweede kiezer wilt wijzigen, kunt u kiezen uit a) de Microsoft 365-service de kiezer laten wijzigen en upgraden naar 2048-bits binnen de komende zes maanden of b) na 4 dagen en bevestigen dat 2048-bits wordt gebruikt, de tweede kiezer handmatig wijzigen met gebruik van de geschikte hierboven vermelde cmdlet.
 
-Zie de volgende artikelen voor gedetailleerde syntaxis- en parameterinformatie: [Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/new-dkimsigningconfig) en [Get-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/get-dkimsigningconfig).
+Zie de volgende artikelen voor gedetailleerde syntaxis- en parameterinformatie: [Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](/powershell/module/exchange/new-dkimsigningconfig) en [Get-DkimSigningConfig](/powershell/module/exchange/get-dkimsigningconfig).
 
 ## <a name="steps-you-need-to-do-to-manually-set-up-dkim"></a>Stappen die u moet uitvoeren om DKIM handmatig in te stellen
 <a name="SetUpDKIMO365"> </a>
@@ -132,7 +132,7 @@ Als u DKIM wilt configureren, voert u de volgende stappen uit:
 U moet twee CNAME-records publiceren voor elk domein waarvoor u een DKIM-handtekening wilt toevoegen in DNS.
 
 > [!NOTE]
-> Als je nog niet het hele artikel hebt gelezen, heb je deze tijdbesparende PowerShell-verbindingsinformatie misschien gemist: [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+> Als je nog niet het hele artikel hebt gelezen, heb je deze tijdbesparende PowerShell-verbindingsinformatie misschien gemist: [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 Voer de volgende opdrachten uit in Exchange Online PowerShell om de selectorrecords te maken:
 
@@ -215,7 +215,7 @@ Als u de CNAME-records in DNS hebt gepubliceerd, kunt u DKIM-ondertekening insch
 >:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="De 'geen DKIM-sleutels opgeslagen voor dit domein'-fout.":::
 > Als je DKIM voor de eerste keer configureert en de fout 'Geen DKIM-sleutels opgeslagen voor dit domein.' ziet voltooi de opdracht in stap 2, zie hieronder (bijvoorbeeld, *Set-DkimSigningConfig -Identiteit contoso.com -Enabled $true*) voor de sleutel.
 
-1. [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Voer de volgende opdracht uit:
 
@@ -266,7 +266,7 @@ Als u het handtekeningenbeleid uitschakelt, wordt DKIM niet volledig uitgeschake
 
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Het DKIM-handtekeningenbeleid uitschakelen met behulp van Windows PowerShell
 
-1. [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Voer een van de volgende opdrachten uit voor elk domein waarvoor u DKIM-ondertekening wilt uitschakelen.
 
@@ -359,4 +359,4 @@ Hoewel DKIM is bedoeld om spoofing te voorkomen, werkt DKIM beter met SPF en DMA
 
 ## <a name="more-information"></a>Meer informatie
 
-Sleutelrotatie via PowerShell [Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig)
+Sleutelrotatie via PowerShell [Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig)

@@ -1,6 +1,6 @@
 ---
-title: Stappen voor het configureren van mogelijkheden voor risicobeveiliging in Microsoft 365
-description: Informatie over het implementeren van services en mogelijkheden voor bedreigingsbeveiliging in Microsoft 365 E5.
+title: Stappen voor het configureren van mogelijkheden voor bedreigingsbeveiliging in Microsoft 365
+description: Meer informatie over het implementeren van bedreigingsbeveiligingsservices en -mogelijkheden in Microsoft 365 E5.
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -16,185 +16,185 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 01f11ee16c45b171d04fb382f65fa95ff84bf980
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: f767b44b66fbc69f28a6514acc3936eb3074e70b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50424149"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918476"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Mogelijkheden voor bedreigingsbeveiliging configureren in Microsoft 365
 
-Volg deze stappen om bedreigingsbeveiliging te configureren in Microsoft 365.
+Volg deze stappen om bedreigingsbeveiliging in Microsoft 365 te configureren.
 
 
-## <a name="step-1-set-up-multi-factor-authentication-and-conditional-access-policies"></a>Stap 1: Meervoudige verificatie en beleidsregels voor voorwaardelijke toegang instellen
+## <a name="step-1-set-up-multi-factor-authentication-and-conditional-access-policies"></a>Stap 1: Meervoudige verificatie en beleid voor voorwaardelijke toegang instellen
 
-[Bij meervoudige verificatie](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) (MFA) moeten gebruikers hun identiteit verifiëren met een telefoonoproep- of verificatie-app. [Beleidsregels voor voorwaardelijke](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) toegang definiëren bepaalde vereisten die moeten worden voldaan om ervoor te zorgen dat gebruikers toegang hebben tot apps en gegevens in Microsoft 365. Beleidsregels voor MFA en voorwaardelijke toegang werken samen om uw organisatie te beschermen. Als iemand zich bijvoorbeeld probeert aan te melden vanaf een mobiel apparaat met een account dat niet is ingeschakeld voor MFA en voor een beleid voor voorwaardelijke toegang is vereist dat MFA van kracht is, kan die gebruiker zich niet aanmelden.  
+[Voor meervoudige verificatie](/azure/active-directory/authentication/concept-mfa-howitworks) (MFA) moeten gebruikers hun identiteit verifiëren met een telefoongesprek of authenticator-app. [Beleid voor voorwaardelijke](/azure/active-directory/conditional-access/overview) toegang definieert bepaalde vereisten die moeten worden voldaan om gebruikers toegang te geven tot apps en gegevens in Microsoft 365. MFA- en Conditional Access-beleid werken samen om uw organisatie te beschermen. Als iemand zich bijvoorbeeld probeert aan te melden vanaf een mobiel apparaat met een account dat niet is ingeschakeld voor MFA en een beleid voor Voorwaardelijke toegang vereist dat MFA van kracht is, kan deze gebruiker zich niet aanmelden.  
 
-Microsoft heeft een specifieke set voorwaardelijke toegang en verwante beleidsregels getest en aanbevolen voor de beveiliging van de toegang tot al uw SaaS-toepassingen, met name Microsoft 365. Beleid wordt aanbevolen voor basislijnbeveiliging, gevoelige en sterk reguleerde beveiliging. Implementeert eerst het beleid voor basislijnbeveiliging. 
+Microsoft heeft een specifieke set voorwaardelijke toegang en verwante beleidsregels getest en aanbevolen voor het beschermen van de toegang tot al uw SaaS-toepassingen, met name Microsoft 365. Beleid wordt aanbevolen voor basislijnbeveiliging, gevoelige en sterk gereguleerde beveiliging. Begin met het implementeren van het beleid voor basislijnbeveiliging. 
 
 
-[ ![ Algemene beleidsregels voor het configureren van identiteits- en apparaattoegang Zie](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
- [een grotere versie van deze afbeelding](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+[ ![ Algemeen beleid voor het configureren van identiteits-](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)en apparaattoegang 
+ [Zie een grotere versie van deze afbeelding](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
-### <a name="to-implement-baseline-protection-for-microsoft-365"></a>Basislijnbeveiliging implementeren voor Microsoft 365
+### <a name="to-implement-baseline-protection-for-microsoft-365"></a>Basislijnbeveiliging voor Microsoft 365 implementeren
 
 ![Proces voor het implementeren van basislijnbeveiliging](../media/deploy-threat-protection/deploy-threat-protection-identity-access-steps.png) 
 
-1. [Configureer vereisten, waaronder Azure AD Identity Protection.](../security/office-365-security/identity-access-prerequisites.md)
-2. [Configureer algemene beleidsregels voor identiteits- en apparaattoegang](../security/office-365-security/identity-access-policies.md) voor basislijnbeveiliging.
-3. Beleid configureren [voor gastgebruikers,](../security/office-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/office-365-security/teams-access-policies.md) [Exchange Online,](../security/office-365-security/secure-email-recommended-policies.md) [SharePoint Online en OneDrive.](../security/office-365-security/sharepoint-file-access-policies.md)
+1. [Vereisten configureren, waaronder Azure AD Identity Protection](../security/office-365-security/identity-access-prerequisites.md).
+2. [Algemene beleidsregels voor identiteits- en apparaattoegang configureren](../security/office-365-security/identity-access-policies.md) voor basislijnbeveiliging.
+3. Beleid configureren [voor gastgebruikers,](../security/office-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/office-365-security/teams-access-policies.md) [Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)en [SharePoint Online en OneDrive.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 ### <a name="more-information-about-protecting-identities"></a>Meer informatie over het beveiligen van identiteiten
 
 - [Configuratie van identiteiten en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md)
-- [Beveiligings richtlijnen voor Azure MFA](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
+- [Beveiligingsadvies voor Azure MFA](/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
 ## <a name="step-2-configure-microsoft-defender-for-identity"></a>Stap 2: Microsoft Defender configureren voor identiteit
 
-[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) is een cloud-gebaseerde beveiligingsoplossing die werkt met uw on-premises Active Directory Domain Services (AD DS) signalen voor het identificeren, detecteren en onderzoeken van geavanceerde bedreigingen, gekromde identiteiten en kwaadaardige insideracties die zijn gericht op uw organisatie.
+[Microsoft Defender voor](/azure-advanced-threat-protection/what-is-atp) identiteit is een cloudgebaseerde beveiligingsoplossing die werkt met uw on-premises Ad DS-signalen (Active Directory Domain Services) om geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadaardige insideracties die zijn gericht op uw organisatie te identificeren, te detecteren en te onderzoeken.
 
-Met Microsoft Defender for Identity worden beveiligingsbewerkingen (SecOps)-analisten en beveiligingsprofessionals die moeite hebben om geavanceerde aanvallen in hybride omgevingen te detecteren om het volgende te doen:
-- Houd gebruikers, gedrag van entiteiten en activiteiten in de gaten met op leer gebaseerde analyse.
+Met Microsoft Defender voor identiteit kunnen beveiligingsbewerkingen (SecOps)-analisten en beveiligingsprofessionals die problemen hebben met het opsporen van geavanceerde aanvallen in hybride omgevingen, het volgende doen:
+- Controleer gebruikers, gedrag van entiteiten en activiteiten met op leer gebaseerde analyses.
 - Gebruikersidentiteiten en -referenties beveiligen die zijn opgeslagen in Active Directory.
 - Verdachte gebruikersactiviteiten en geavanceerde aanvallen in de hele kill chain identificeren en onderzoeken.
 - Heldere incidentinformatie verstrekken op een eenvoudige tijdlijn voor snelle sortering.
 
-### <a name="to-set-up-microsoft-defender-for-identity"></a>Microsoft Defender instellen voor identiteit
+### <a name="to-set-up-microsoft-defender-for-identity"></a>Microsoft Defender voor identiteit instellen
 
 ![Proces voor het implementeren van Microsoft Defender voor identiteit](../media/deploy-threat-protection/deploy-azure-atp-steps.png) 
 
-1. [Stel Microsoft Defender voor identiteit in om](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) uw primaire omgevingen te beveiligen.
-2. Bescherm al uw [domeincontrollers](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) en [-forests.](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest)
-3. Integreer [microsoft Defender voor identiteitswaarschuwingen](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) in uw werkstroom voor beveiligingsbewerkingen (SecOps).
+1. [Microsoft Defender voor identiteit instellen om](/azure-advanced-threat-protection/install-atp-step1) uw primaire omgevingen te beschermen.
+2. Bescherm al uw [domeincontrollers](/azure-advanced-threat-protection/atp-sensor-monitoring) en [-bossen.](/azure-advanced-threat-protection/atp-multi-forest)
+3. Microsoft [Defender voor identiteitswaarschuwingen integreren](/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) in uw beveiligingsbewerkingen (SecOps)-werkstroom.
 
 ### <a name="more-information-about-microsoft-defender-for-identity"></a>Meer informatie over Microsoft Defender voor identiteit
 
-- [Wat is Microsoft Defender for Identity?](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
+- [Wat is Microsoft Defender for Identity?](/azure-advanced-threat-protection/what-is-atp)
 - [Video: Inleiding tot Microsoft Defender voor identiteit](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
-- [Microsoft Defender voor identiteitsimplementatie](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next)
+- [Microsoft Defender voor identiteitsimplementatie](/azure-advanced-threat-protection/what-is-atp#whats-next)
 
-## <a name="step-3-turn-on-microsoft-365-defender"></a>Stap 3: Microsoft 365 Defender in te zetten
+## <a name="step-3-turn-on-microsoft-365-defender"></a>Stap 3: Microsoft 365 Defender in-
 
-[Microsoft 365 Defender combineert](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) signalen en mogelijkheden om zo één oplossing te maken. Met de geïntegreerde Microsoft 365 Defender-oplossing kunnen beveiligingsprofessionals samenwerken aan de bedreigingssignalen dat elk van deze producten het volledige bereik en de impact van de bedreiging ontvangt en bepaalt. hoe de omgeving is ingevoerd, wat de gevolgen zijn en hoe deze op dit moment van invloed is op de organisatie. Microsoft 365 Defender voert automatische acties uit om de aanval en postvakken, eindpunten en gebruikersidentiteiten te voorkomen of te stoppen.
+[Microsoft 365 Defender](../security/mtp/microsoft-threat-protection.md) combineert signalen en orden mogelijkheden tot één oplossing. Met de geïntegreerde Microsoft 365 Defender-oplossing kunnen beveiligingsprofessionals de bedreigingssignalen die elk van deze producten ontvangen, samenbrengen en het volledige bereik en de impact van de bedreiging bepalen. de manier waarop de omgeving is ingevoerd, wat de gevolgen zijn en wat de invloed ervan is op de organisatie. Microsoft 365 Defender voert automatisch actie om de aanval te voorkomen of te stoppen en getroffen postvakken, eindpunten en gebruikersidentiteiten te voorkomen of te herstellen.
 
-Microsoft 365 Defender defificeert waarschuwingen, incidenten, geautomatiseerd onderzoek en reactie, en geavanceerd zoeken naar werkbelastingen (Microsoft Defender for Identity, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt en Microsoft Cloud App-beveiliging) in één deelvenster met een uitgebreide ervaring. Nadat u een of meer van uw Defender voor Office 365-services hebt geconfigureerd, kunt u Microsoft 365 Defender in bedrijf zetten. Nieuwe functies worden voortdurend toegevoegd aan Microsoft 365 Defender. overweeg om preview-functies te ontvangen.
+Microsoft 365 Defender maakt waarschuwingen, incidenten, geautomatiseerd onderzoek en antwoord en geavanceerde zoekwerkbelastingen (Microsoft Defender voor identiteit, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt en Microsoft Cloud App-beveiliging) in één deelvenster met glaservaring. Nadat u een of meer van uw Defender voor Office 365-services hebt geconfigureerd, schakelt u Microsoft 365 Defender in. Nieuwe functies worden voortdurend toegevoegd aan Microsoft 365 Defender; overwegen om in te kiezen om preview-functies te ontvangen.
 
 ### <a name="to-set-up-microsoft-365-defender"></a>Microsoft 365 Defender instellen
 
 ![Proces voor de implementatie van Microsoft 365 Defender](../media/deploy-threat-protection/deploy-mtp-steps.png) 
 
-1. [Controleer de vereisten.](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites)
-2. [Schakel Microsoft 365 Defender in.](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable)
-3. [Kies voor voorbeeldfuncties.](https://docs.microsoft.com/microsoft-365/security/mtp/preview)
+1. [Controleer de vereisten.](../security/mtp/prerequisites.md)
+2. [Schakel Microsoft 365 Defender in.](../security/mtp/mtp-enable.md)
+3. [Kies voor preview-functies.](../security/mtp/preview.md)
 
 ### <a name="more-information-about-microsoft-365-defender"></a>Meer informatie over Microsoft 365 Defender
 
-- [Wat is Microsoft 365 Defender?](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
-- [Wat is er nieuw in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
+- [Wat is Microsoft 365 Defender?](../security/mtp/microsoft-threat-protection.md)
+- [Wat is er nieuw in Microsoft 365 Defender](../security/mtp/whats-new.md)
 
-## <a name="step-4-configure-microsoft-defender-for-office-365"></a>Stap 4: Microsoft Defender voor Office 365 configureren
+## <a name="step-4-configure-microsoft-defender-for-office-365"></a>Stap 4: Microsoft Defender configureren voor Office 365
 
-[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) beschermt uw organisatie tegen schadelijke bedreigingen in e-mailberichten (bijlagen en URL's), Office-documenten en samenwerkingshulpmiddelen. De volgende tabel bevat de functies en mogelijkheden van Microsoft Defender voor Office 365 die deel uit maken van Microsoft 365 E5:
+[Microsoft Defender voor Office 365](../security/office-365-security/office-365-atp.md) beschermt uw organisatie tegen schadelijke bedreigingen in e-mailberichten (bijlagen en URL's), Office-documenten en samenwerkingshulpmiddelen. In de volgende tabel vindt u de functies en mogelijkheden van Microsoft Defender voor Office 365 die zijn opgenomen in Microsoft 365 E5:
 
-|Mogelijkheden voor configuratie, beveiliging en detectie|Automatiserings-, onderzoeks-, herstel- en onderwijsmogelijkheden|
+|Configuratie-, beveiligings- en detectiemogelijkheden|Automatiserings-, onderzoeks-, herstel- en onderwijsmogelijkheden|
 |---|---|
-|[Veilige bijlagen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Veilige documenten](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Bescherming tegen phishing in Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Bedreigingsoverzichten](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Bedreigingsverkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Aanvalssimulator](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
+|[Veilige bijlagen](../security/office-365-security/atp-safe-attachments.md)<br/>[Veilige koppelingen](../security/office-365-security/atp-safe-links.md)<br/>[Veilige documenten](../security/office-365-security/safe-docs.md)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](../security/office-365-security/atp-for-spo-odb-and-teams.md)<br/>[Bescherming tegen phishing in Defender voor Office 365](../security/office-365-security/set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)|[Bedreigingsoverzichten](../security/office-365-security/threat-trackers.md)<br/>[Bedreigingsverkenner](../security/office-365-security/threat-explorer.md)<br/>[Geautomatiseerd onderzoek en reactie](../security/office-365-security/office-365-air.md)<br/>[Aanvalssimulator](../security/office-365-security/attack-simulator.md)|
 |
 
-Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veiliger communiceren en samenwerken, met bedreigingsbeveiliging voor hun e-mailinhoud en Office-documenten.
+Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veiliger communiceren en samenwerken, met bescherming tegen bedreigingen voor hun e-mailinhoud en Office-documenten.
 
-### <a name="to-set-up-microsoft-defender-for-office-365"></a>Microsoft Defender instellen voor Office 365
+### <a name="to-set-up-microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365 instellen
 
 ![Proces voor de implementatie van Microsoft Defender voor Office 365](../media/deploy-threat-protection/deploy-office365-atp-steps.png) 
 
-1. [Stel uw beleidsregels van Microsoft Defender voor Office 365 in en configureer ze.](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)
-2. [Bekijk en gebruik uw Microsoft Defender voor Office 365-rapporten.](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp)
-3. [Gebruik bedreigingsonderzoek en reactiemogelijkheden.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
+1. [Uw Microsoft Defender voor Office 365-beleid instellen en configureren.](../security/office-365-security/protect-against-threats.md)
+2. [Bekijk en gebruik uw Microsoft Defender voor Office 365-rapporten.](../security/office-365-security/view-reports-for-atp.md)
+3. [Gebruik mogelijkheden voor bedreigingsonderzoek en -reactie.](../security/office-365-security/office-365-ti.md)
 
 ### <a name="more-information-about-microsoft-defender-for-office-365"></a>Meer informatie over Microsoft Defender voor Office 365
 
-- [Overzicht van Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
-- [Nieuw in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
+- [Overzicht van Microsoft Defender voor Office 365](../security/office-365-security/office-365-atp.md)
+- [Nieuwe functies in Microsoft Defender voor Office 365](../security/office-365-security/whats-new-in-office-365-atp.md)
 
-## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>Stap 5: Microsoft Defender configureren voor het eindpunt
+## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>Stap 5: Microsoft Defender configureren voor eindpunt
 
-[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection) beschermt de apparaten van uw organisatie (ook wel eindpunten genoemd) tegen cyberaanvallen, geavanceerde aanvallen en gegevensinbreuken. Beveiligingsteams kunnen efficiënter werken met het beheren van de beveiliging van hun eindpunten. Krachtige hulpprogramma's helpen organisaties op de hoogte te blijven van ongepatchte systemen met behulp van beveiligingsdetectie met het beheer [van bedreigingen en kwetsbaarheid.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Geautomatiseerde detectie- en herstelmogelijkheden, zoals het verminderen van het aanvallenoppervlak, volgende [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) [generatie-beveiliging,](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) [eindpuntdetectie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)en -reactie, en geautomatiseerd onderzoek en herstel helpen uw apparaten te beschermen tegen malware. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction) Klanten kunnen bovendien proactieve meldingen ontvangen en contact opnemen met Microsoft Threat Experts op aanvraag, als onderdeel van de opt-in beheerde zoekservice. 
+[Microsoft Defender voor Eindpunt](/windows/security/threat-protection) beschermt uw apparaten (ook wel eindpunten genoemd) tegen cyberaanvallen, geavanceerde aanvallen en datalekken. Beveiligingsteams kunnen efficiënter zijn in het beheren van de beveiliging van hun eindpunten. Krachtige hulpprogramma's helpen organisaties om op de hoogte te blijven van ongepatchte systemen met behulp van detectie van kwetsbaarheid [met bedreigings- en beveiligingsprobleembeheer.](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Geautomatiseerde detectie- en herstelmogelijkheden, zoals de beperking van het oppervlak [van](/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)de [](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) [aanval,](/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10)beveiliging van de volgende [generatie,](/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)eindpuntdetectie en -reactie, en geautomatiseerde onderzoek- en herstelmogelijkheden helpen uw apparaten te beschermen tegen malware. Naast deze mogelijkheden kunnen klanten proactieve meldingen ontvangen en op aanvraag contact opnemen met Microsoft Threat Experts, als onderdeel van de opt-in managed hunting service. 
 
 
-### <a name="set-up-microsoft-defender-for-endpoint"></a>Microsoft Defender instellen voor eindpunt
+### <a name="set-up-microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt instellen
 
-![Proces voor de implementatie van Microsoft Defender voor eindpunt](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
+![Proces voor de implementatie van Microsoft Defender voor Eindpunt](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
 
-1. [Bereid uw implementatie van Microsoft Defender voor eindpunt voor.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases)
-2. [Uw implementatie van Microsoft Defender voor eindpunt instellen](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
-3. [Onboard to the Microsoft Defender for Endpoint service.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboarding)
-4. [Voltooi uw belangrijkste beveiligingstaken.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation)
+1. [Bereid uw omgeving voor op Microsoft Defender voor de implementatie van eindpunten.](/windows/security/threat-protection/microsoft-defender-atp/deployment-phases)
+2. [Uw Microsoft Defender voor endpoint-implementatie instellen.](/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
+3. [Onboard to the Microsoft Defender for Endpoint service](/windows/security/threat-protection/microsoft-defender-atp/onboarding).
+4. [Voltooi uw belangrijkste beveiligingstaken.](/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation)
 
-### <a name="more-information-about-microsoft-defender-for-endpoint"></a>Meer informatie over Microsoft Defender voor eindpunt
+### <a name="more-information-about-microsoft-defender-for-endpoint"></a>Meer informatie over Microsoft Defender voor Eindpunt
 
-- [Meer informatie over Microsoft Defender voor eindpunt.](https://docs.microsoft.com/windows/security/threat-protection)
-- [Probeer de evaluatietest lab van Microsoft Defender for Endpoint.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab)
+- [Meer informatie over Microsoft Defender voor Eindpunt](/windows/security/threat-protection).
+- [Probeer het evaluatielaboratorium van Microsoft Defender voor eindpunten.](/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab)
 
-## <a name="step-6-configure-microsoft-cloud-app-security"></a>Stap 6: Beveiliging van Microsoft Cloud-apps configureren
+## <a name="step-6-configure-microsoft-cloud-app-security"></a>Stap 6: Beveiliging van Microsoft Cloud App configureren
 
-[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security) is een Cloud Access Security Connector die ondersteuning biedt voor logboekverzamelingen, API-connectors en reverse-proxy. Microsoft Cloud App Security biedt uitgebreide zichtbaarheid, controle over gegevensreizen en geavanceerde analyses om cyberaanvallen in al uw cloudservices te identificeren en te bestrijden. Met Microsoft Cloud App Security kunnen uw beveiligingsbewerkingen de gevoelige informatie van uw organisatie beschermen, beschermen tegen cyberaanvallen en -anales, apps vinden en bewaken die toegang krijgen tot de gegevens van uw organisatie en ervoor zorgen dat de cloud-apps van uw organisatie voldoen aan nalevingsvereisten.
+[Microsoft Cloud App Security](/cloud-app-security) is een Cloud Access Security Broker die ondersteuning biedt voor het verzamelen van logboeken, API-connectors en reverse proxy. Microsoft Cloud App Security biedt uitgebreide zichtbaarheid, controle over het reizen van gegevens en geavanceerde analyses om cyberaanvallen in al uw cloudservices te identificeren en te bestrijden. Met Microsoft Cloud App Security kunnen uw beveiligingsbewerkingen de gevoelige informatie van uw organisatie beschermen, beschermen tegen cyberaanvallen en afwijkingen, apps ontdekken en controleren die toegang hebben tot de gegevens van uw organisatie en ervoor zorgen dat de cloud-apps van uw organisatie voldoen aan de nalevingsvereisten.
 
-### <a name="set-up-microsoft-cloud-app-security"></a>Beveiliging van Microsoft Cloud-apps instellen
+### <a name="set-up-microsoft-cloud-app-security"></a>Microsoft Cloud App-beveiliging instellen
 
-![Proces voor het implementeren van Microsoft Cloud App-beveiliging](../media/deploy-threat-protection/deploy-mcas-steps.png) 
+![Proces voor het implementeren van Microsoft Cloud App Security](../media/deploy-threat-protection/deploy-mcas-steps.png) 
 
-1. [Stel de portal en andere basisvereisten in.](https://docs.microsoft.com/cloud-app-security/general-setup)
-2. [Clouddetectie instellen en](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) [apps verbinden.](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
-3. [Voorwaardelijke toegang tot app-besturingselementen implementeren voor aanbevolen apps.](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
-4. [Gebruik de onderzoekshulpprogramma's en dashboards.](https://docs.microsoft.com/cloud-app-security/investigate)
+1. [Stel de portal en andere basisvereisten in.](/cloud-app-security/general-setup)
+2. [Clouddetectie instellen en](/cloud-app-security/set-up-cloud-discovery) [apps verbinden.](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
+3. [Voorwaardelijke toegang app-beheer implementeren voor aanbevolen apps](/cloud-app-security/proxy-deployment-aad).
+4. [Gebruik de onderzoekshulpmiddelen en dashboards.](/cloud-app-security/investigate)
 
 ### <a name="more-information-about-microsoft-cloud-app-security"></a>Meer informatie over Microsoft Cloud App Security
 
-- [Bekijk de nieuwe functies en mogelijkheden.](https://docs.microsoft.com/cloud-app-security/release-notes)
-- [Meer informatie over Microsoft Cloud App Security.](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
+- [Bekijk nieuwe functies en mogelijkheden.](/cloud-app-security/release-notes)
+- [Meer informatie over Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security).
 
 ## <a name="step-7-monitor-status-and-take-actions"></a>Stap 7: Status controleren en acties uitvoeren
 
-Nadat u uw beveiligingsservices en -mogelijkheden hebt ingesteld en geïmplementeerd, is de volgende stap het controleren van bedreigingsdetectie en het uitvoeren van de juiste acties. Het beste uitgangspunt is het Microsoft 365-beveiligingscentrum, waar u de beveiliging in al uw [https://security.microsoft.com](https://security.microsoft.com) Microsoft-identiteiten, gegevens, apparaten, apps en infrastructuur kunt bewaken en beheren. 
+Nadat u uw services en mogelijkheden voor bedreigingsbeveiliging hebt ingesteld en geïmplementeerd, is het de volgende stap om de detectie van bedreigingen te controleren en de juiste acties uit te voeren. Het beste uitgangspunt is het Microsoft 365-beveiligingscentrum (), waar u de beveiliging in uw [https://security.microsoft.com](https://security.microsoft.com) Microsoft-identiteiten, gegevens, apparaten, apps en infrastructuur kunt bewaken en beheren. 
 
 ![Microsoft 365-beveiligingscentrum](../media/solutions-architecture-center/m365-security-center.png)
 
-Het Microsoft 365-beveiligingscentrum is speciaal bedoeld voor beveiligingsbeheerders en teams met beveiligingsbewerkingen. In het Microsoft 365-beveiligingscentrum kunt u:
-- Bekijk de algehele beveiligingstoestand van uw organisatie met [Secure Score.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)
-- [U kunt rapporten controleren](https://docs.microsoft.com/microsoft-365/security/mtp/monitoring-and-reporting) en weergeven over de status van uw identiteiten, gegevens, apparaten, apps en infrastructuur.
-- Verbind de puntjes op waarschuwingen via [incidenten.](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue)
-- Gebruik [geautomatiseerd onderzoek en herstel om bedreigingen](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir) aan te pakken.
-- [U kunt proactief zoeken naar bedreigingen,](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-overview)zoals inbreukpogingen of inbreuken op uw e-mail, gegevens, apparaten en identiteiten.
-- [Meer informatie over de nieuwste aanvalscampagnes](https://docs.microsoft.com/microsoft-365/security/mtp/latest-attack-campaigns) en -technieken met bedreigingsanalyse.
+Het Microsoft 365-beveiligingscentrum is speciaal bedoeld voor beveiligingsbeheerders en beveiligingsbewerkingsteams. In het Microsoft 365-beveiligingscentrum kunt u het volgende doen:
+- Bekijk de algehele beveiligingstoestand van uw organisatie met [Secure Score.](../security/mtp/microsoft-secure-score.md)
+- [Controleer en bekijk rapporten](../security/mtp/overview-security-center.md) over de status van uw identiteiten, gegevens, apparaten, apps en infrastructuur.
+- Verbind de puntjes op waarschuwingen via [incidenten.](../security/mtp/incident-queue.md)
+- Gebruik [automatisch onderzoek en herstel om bedreigingen](../security/mtp/mtp-autoir.md) aan te pakken.
+- [Ga proactief op zoek naar](../security/mtp/advanced-hunting-overview.md)bedreigingen, zoals inbraakpogingen of inbreukactiviteiten die van invloed zijn op uw e-mail, gegevens, apparaten en identiteiten.
+- [De nieuwste aanvalscampagnes en](../security/mtp/latest-attack-campaigns.md) -technieken begrijpen met bedreigingsanalyses.
 - ... en meer!
 
 ### <a name="more-information-about-the-microsoft-365-security-center"></a>Meer informatie over het Microsoft 365-beveiligingscentrum
 
-- [Aan de slag met het Microsoft 365-beveiligingscentrum.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
-- [Rapporten bewaken en weergeven.](https://docs.microsoft.com/microsoft-365/security/mtp/monitoring-and-reporting)
-- [Zie de beveiligingsportals in Microsoft 365.](https://docs.microsoft.com/microsoft-365/security/mtp/portals)
+- [Aan de slag met het Microsoft 365-beveiligingscentrum.](../security/mtp/overview-security-center.md)
+- [Rapporten bewaken en weergeven.](../security/mtp/overview-security-center.md)
+- [Zie de beveiligingsportalen in Microsoft 365](../security/mtp/portals.md).
 
 ## <a name="step-8-train-users"></a>Stap 8: Gebruikers trainen
 
-Trainingsgebruikers kunnen uw gebruikers en beveiligingsbewerkingsteam veel tijd en frustratie besparen. Slimme gebruikers openen minder snel bijlagen of klikken op koppelingen in twijfelachtige e-mailberichten en ze vermijden dan waarschijnlijk verdachte websites. 
+Trainingsgebruikers kunnen uw gebruikers en beveiligingsbewerkingen veel tijd en frustratie besparen. Slimme gebruikers openen minder snel bijlagen of klikken op koppelingen in twijfelachtige e-mailberichten en voorkomen eerder verdachte websites. 
 
-Het handboek Marketingcampagne van Harvard [School biedt](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) uitstekende richtlijnen voor het creëren van een sterke beveiligingscultuur binnen uw organisatie, waaronder training voor het identificeren van phishing-aanvallen. 
+Het Handboek [cyberbeveiligingscampagne](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) van de Harvard Kennedy School biedt uitstekende richtlijnen voor het tot stand brengen van een sterke cultuur van beveiligingsbewustzijn binnen uw organisatie, inclusief het trainen van gebruikers om phishingaanvallen te identificeren. 
 
-Microsoft 365 biedt de volgende informatiebronnen om gebruikers in uw organisatie op de hoogte te stellen:
+Microsoft 365 bevat de volgende bronnen om gebruikers in uw organisatie te informeren:
 
 |Concept  |Resources  |
 |---------|---------|
-|Microsoft 365     |[Aanpasbare leerroutes](https://docs.microsoft.com/office365/customlearning/) <p>Deze bronnen kunnen u helpen bij het organiseren van trainingen voor eindgebruikers in uw organisatie        |
-|Microsoft 365-beveiliging |[Leermodule: Uw organisatie beveiligen met ingebouwde, intelligente beveiliging van Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>Met deze module kunt u beschrijven hoe Microsoft 365-beveiligingsfuncties samenwerken en de voordelen van deze beveiligingsfuncties duidelijk maken. |
-|Meervoudige verificatie     | [Verificatie in twee stappen: Wat is de extra verificatiepagina?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Dit artikel helpt eindgebruikers te begrijpen wat meervoudige verificatie is en waarom deze in uw organisatie wordt gebruikt.    |
+|Microsoft 365     |[Aanpasbare leerpaden](/office365/customlearning/) <p>Deze bronnen kunnen u helpen bij het maken van trainingen voor eindgebruikers in uw organisatie        |
+|Microsoft 365-beveiliging |[Leermodule: Uw organisatie beveiligen met ingebouwde, intelligente beveiliging van Microsoft 365](/learn/modules/security-with-microsoft-365) <p>Met deze module kunt u beschrijven hoe beveiligingsfuncties van Microsoft 365 samenwerken en de voordelen van deze beveiligingsfuncties duidelijk maken. |
+|Meervoudige verificatie     | [Verificatie in twee stappen: Wat is de extra verificatiepagina?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>In dit artikel kunnen eindgebruikers begrijpen wat meervoudige verificatie is en waarom het wordt gebruikt in uw organisatie.    |
 
-Naast deze richtlijnen raadt Microsoft uw gebruikers aan de acties uit te voeren die in dit artikel worden beschreven: Bescherm uw account en apparaten [tegen hackers en malware.](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx) Dit zijn onder andere de volgende acties:
+Naast deze richtlijnen raadt Microsoft aan dat uw gebruikers de acties uitvoeren die in dit artikel worden beschreven: Bescherm uw account en [apparaten tegen hackers en malware.](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx) Deze acties omvatten:
 - Sterke wachtwoorden gebruiken
 - Apparaten beveiligen 
-- Beveiligingsfuncties inschakelen op Windows 10- en Mac-pc's (voor niet-beherende apparaten)
+- Beveiligingsfuncties inschakelen op Windows 10- en Mac-pc's (voor niet-verantwoordelijke apparaten)
     
-Microsoft raadt gebruikers ook aan hun persoonlijke e-mailaccounts te beveiligen door de acties uit te voeren die worden aanbevolen in de volgende artikelen:
-- [Uw e-mailaccount Outlook.com beveiligen](https://support.microsoft.com/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+Microsoft raadt gebruikers ook aan hun persoonlijke e-mailaccounts te beschermen door de acties uit te voeren die in de volgende artikelen worden aanbevolen:
+- [Uw e-mailaccount Outlook.com beschermen](https://support.microsoft.com/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 - [Uw Gmail-account beveiligen met verificatie in twee stappen](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)

@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over het bepalen van gerelateerde functies in Microsoft 365-groepen, Teams, SharePoint en Yammer.
-ms.openlocfilehash: 01dea57504bf5d68c0bb13376379379f29044191
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: b31e9bf1cd46f94343a489497fb5eb00e138ce60
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838465"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916440"
 ---
 # <a name="what-is-collaboration-governance"></a>Wat is samenwerkingsbeheer?
 
@@ -59,7 +59,7 @@ Microsoft 365-groepen bevatten een suite met gekoppelde resources die gebruikers
 |[Postvak IN](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22)|Voor e-mailgesprekken tussen groepsleden. Dit Postvak IN heeft een e-mailadres en kan worden ingesteld voor het accepteren van berichten van personen buiten de groep en zelfs van buiten uw organisatie, net als een traditionele distributielijst.|
 |[OneNote-notitieblok](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97)|Voor het verzamelen van ideeën, onderzoek en informatie|
 |[Planner](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc)|Voor het toewijzen en beheren van projecttaken onder uw groepsleden|
-|[Power BI Workspace](https://docs.microsoft.com/power-bi/collaborate-share/service-new-workspaces)|Een ruimte voor gegevenssamenwerking met dashboards en rapporten|
+|[Power BI Workspace](/power-bi/collaborate-share/service-new-workspaces)|Een ruimte voor gegevenssamenwerking met dashboards en rapporten|
 |[Project en routekaart](https://support.microsoft.com/project)|Webgebaseerde hulpprogramma's voor projectmanagement|
 |[SharePoint-teamsite](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e)|Een centrale opslagplaats voor informatie, koppelingen en inhoud met betrekking tot uw groep|
 |[Stream](https://support.microsoft.com/microsoft-stream)|Een videostreamingservice|
@@ -114,9 +114,10 @@ Houd rekening met deze best practices wanneer u aan het beheerplanningsproces be
 
 - **Beheerbeslissingen rechtstreeks insluiten in** de oplossingen die u maakt: veel beheerbeslissingen kunnen worden geïmplementeerd door functies in Microsoft 365 in of uit te schakelen.
 
+
 - **Een gefaseerd aanpak gebruiken:** rol samenwerkingsfuncties eerst uit naar een kleine groep gebruikers. Krijg feedback van hen, let op helpdesktickets en werk de benodigde instellingen of processen bij voordat u naar een grotere groep gaat.
 
-- **Versterken met training:** pas oplossingen aan zoals [Microsoft 365-leerpaden](https://docs.microsoft.com/office365/customlearning) om ervoor te zorgen dat uw organisatiespecifieke verwachtingen worden versterkt met door Microsoft verstrekte training.
+- **Versterken met training:** pas oplossingen aan zoals [Microsoft 365-leerpaden](/office365/customlearning) om ervoor te zorgen dat uw organisatiespecifieke verwachtingen worden versterkt met door Microsoft verstrekte training.
 
 - **Hebt u een strategie** voor het communiceren van beheerbeleid en -richtlijnen in uw organisatie: maak een Microsoft 365 Adoption Center op een SharePoint-communicatiesite om beleid en procedures te communiceren.
 
@@ -175,7 +176,7 @@ Deze trainingsmodules van Microsoft Learn kunnen u helpen bij het leren van de b
 |![Pictogram training voor informatiebeveiliging](../media/information-protection-governance.svg)|De hoeveelheid gegevens die vandaag wordt gegenereerd, groeit sneller dan ooit, werknemers willen overal aan het werk en het regelgevingslandschap verandert voortdurend. De oplossingen van Microsoft voor informatiebeveiliging en beheer helpen organisaties om de juiste balans te vinden tussen het beschermen van hun gegevens en hun mensen productief. Met dit leerpad kunt u zich voorbereiden op de certificeringen Microsoft 365 Certified: Security Administrator Associate en Microsoft 365 Certified: Enterprise Administration Expert.<br><br>5 uur 13 min - Leerpad - 7 modules|
 
 > [!div class="nextstepaction"]
-> [Start >](https://docs.microsoft.com/learn/modules/m365-compliance-information-governance/introduction/)
+> [Start >](/learn/modules/m365-compliance-information-governance/introduction/)
 
 <br><br>
 
@@ -184,16 +185,16 @@ Deze trainingsmodules van Microsoft Learn kunnen u helpen bij het leren van de b
 |![Pictogram Teams-training](../media/protect-enterprise-information-microsoft-365.svg)|Het beveiligen en beveiligen van de gegevens van uw organisatie is lastiger dan ooit. In het leerpad Ondernemingsgegevens beveiligen met Microsoft 365 wordt besproken hoe u uw gevoelige informatie kunt beschermen tegen onbedoelde overbelasting of misbruik, hoe u gegevens kunt ontdekken en classificeren, hoe u deze kunt beschermen met gevoeligheidslabels en hoe u uw gevoelige gegevens kunt bewaken en analyseren om te beschermen tegen verlies. Met dit leerpad kunt u zich voorbereiden op de certificeringen Microsoft 365 Certified: Security Administrator Associate en Microsoft 365 Certified: Enterprise Administration Expert..<br><br>1 uur - Leerpad - 5 modules|
 
 > [!div class="nextstepaction"]
-> [Start >](https://docs.microsoft.com/learn/modules/m365-security-info-overview/introduction/)
+> [Start >](/learn/modules/m365-security-info-overview/introduction/)
 
 #### <a name="security-and-compliance"></a>Beveiliging en compliance
 
 |Training:|Fundamentele kennis van de beveiligings- en compliancemogelijkheden van Microsoft 365 demonstreren|
 |:---|:---|
-|![Pictogram training voor beveiliging en naleving](../media/microsoft-365-security-and-compliance-capabilities.svg)|Meer informatie over de beveiligings- en complianceoplossingen van Microsoft 365 en de mogelijkheden die beschikbaar zijn om ondernemingen te helpen hun bedrijf te beveiligen en te voldoen aan wettelijke vereisten. Als u niet bekend bent met basisconcepten voor cloud computing, raden we u aan [cloudconcepten - Principes van cloud computing - te gebruiken.](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)<br><br>3 uur 11 min - Leerpad - 8 modules|
+|![Pictogram training voor beveiliging en naleving](../media/microsoft-365-security-and-compliance-capabilities.svg)|Meer informatie over de beveiligings- en complianceoplossingen van Microsoft 365 en de mogelijkheden die beschikbaar zijn om ondernemingen te helpen hun bedrijf te beveiligen en te voldoen aan wettelijke vereisten. Als u niet bekend bent met basisconcepten voor cloud computing, raden we u aan [cloudconcepten - Principes van cloud computing - te gebruiken.](/learn/modules/principles-cloud-computing/index)<br><br>3 uur 11 min - Leerpad - 8 modules|
 
 > [!div class="nextstepaction"]
-> [Start >](https://docs.microsoft.com/learn/modules/what-is-m365/1-introduction/)
+> [Start >](/learn/modules/what-is-m365/1-introduction/)
 
 ## <a name="illustrations"></a>Illustraties
 
@@ -248,6 +249,6 @@ Bekijk een voorbeeld achter de schermen van hoe Microsoft 365 Groepen, SharePoin
 
 ## <a name="see-also"></a>Zie ook
 
-[Documentatie over Microsoft 365-beveiliging](https://docs.microsoft.com/microsoft-365/security)
+[Documentatie over Microsoft 365-beveiliging](../security/index.yml)
 
-[Microsoft 365-compliancedocumentatie](https://docs.microsoft.com/microsoft-365/compliance)
+[Microsoft 365-compliancedocumentatie](../compliance/index.yml)

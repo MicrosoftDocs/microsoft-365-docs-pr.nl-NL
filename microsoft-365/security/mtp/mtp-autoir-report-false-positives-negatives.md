@@ -1,7 +1,7 @@
 ---
-title: Onwaar-positieven of fout-negatieven verwerken in AIR in Microsoft 365 Defender
-description: Is er iets gemist of ten onrechte gedetecteerd door AIR in Microsoft 365 Defender? Informatie over het indienen van fout-positieven of fout-negatieven bij Microsoft voor analyse.
-keywords: geautomatiseerd, onderzoek, waarschuwing, trigger, actie, herstel, fout-positief, fout-negatief
+title: Onwaar positieven of onwaar negatieven verwerken in AIR in Microsoft 365 Defender
+description: Is er iets gemist of ten onrechte gedetecteerd door AIR in Microsoft 365 Defender? Meer informatie over het indienen van fout-positieven of onwaar negatieven bij Microsoft voor analyse.
+keywords: geautomatiseerd, onderzoek, waarschuwing, herstel, onwaar positief, onwaar negatief
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -11,81 +11,67 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 09/16/2020
+ms.date: 01/29/2021
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: dbef240e28258d1ac4000c05538d0ce073a9d910
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ccfb2c8d9395d3f64b20980b156ed51545967101
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930352"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917068"
 ---
-# <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Fout-positieven/negatieven in geautomatiseerde onderzoeks- en antwoordmogelijkheden verwerken
+# <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>False positives/negatives verwerken in geautomatiseerde onderzoeks- en antwoordmogelijkheden
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Hebben [geautomatiseerde onderzoeks- en antwoordmogelijkheden](mtp-autoir.md) in Microsoft 365 Defender iets gemist of ten onrechte gedetecteerd? U kunt stappen ondernemen om dit op te lossen. U kunt:
+Onwaar positieven/negatieven kunnen af en toe optreden met een bedreigingsbeveiligingsoplossing. Als [geautomatiseerde onderzoeks- en antwoordmogelijkheden](mtp-autoir.md) in Microsoft 365 Defender iets hebben gemist of ten onrechte zijn gedetecteerd, zijn er stappen die uw beveiligingsteam kan uitvoeren:
 
-- [Een fout-positief/negatief melden bij Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);
+- [Een onwaar positief/negatief melden bij Microsoft;](#report-a-false-positivenegative-to-microsoft-for-analysis)
+- [Pas uw waarschuwingen (indien](#adjust-an-alert-to-prevent-false-positives-from-recurring) nodig) aan; en 
+- [Herstelacties ongedaan maken die zijn genomen op apparaten.](#undo-a-remediation-action-that-was-taken-on-a-device) 
 
-- [Pas uw waarschuwingen](#adjust-an-alert-to-prevent-false-positives-from-recurring) aan (indien nodig); en 
+In de volgende secties wordt beschreven hoe u deze taken uitvoert.
 
-- [Herstelacties ongedaan maken die zijn gemaakt op apparaten.](#undo-a-remediation-action-that-was-taken-on-a-device) 
-
-Gebruik dit artikel als richtlijn. 
-
-## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Een fout-positief/negatief rapporteren bij Microsoft voor analyse
+## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Een onwaar positief/negatief melden bij Microsoft voor analyse
 
 |Item gemist of ten onrechte gedetecteerd |Service  |Wat moet u doen?  |
 |---------|---------|---------|
-|- E-mailbericht <br/>- E-mailbijlage <br/>- URL in een e-mailbericht<br/>- URL in een Office-bestand      |[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[Verdachte spam, phish, URL's en bestanden indienen bij Microsoft voor scannen](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
-|Bestand of app op een apparaat    |[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection)         |[Een bestand bij Microsoft indienen voor malwareanalyse](https://www.microsoft.com/wdsi/filesubmission)         |
+|- E-mailbericht <br/>- E-mailbijlage <br/>- URL in een e-mailbericht<br/>- URL in een Office-bestand      |[Microsoft Defender voor Office 365](../office-365-security/office-365-atp.md)        |[Verdachte spam, phish, URL's en bestanden indienen bij Microsoft voor scannen](../office-365-security/admin-submission.md)         |
+|Bestand of app op een apparaat    |[Microsoft Defender for Endpoint](/windows/security/threat-protection)         |[Een bestand indienen bij Microsoft voor malwareanalyse](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Een waarschuwing aanpassen om te voorkomen dat fout-positieven terugkeren
 
 |Scenario |Service |Wat moet u doen? |
 |--------|--------|--------|
-|- Een waarschuwing wordt geactiveerd door legitiem gebruik <br/>- Een waarschuwing klopt niet    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> of <br/>[Azure Advanced Threat Detection](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Waarschuwingen beheren in de cloud-app-beveiligingsportal](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
-|Een bestand, IP-adres, URL of domein wordt op een apparaat beschouwd als malware, ook al is het veilig|[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection) |[Een aangepaste indicator maken met de actie Toestaan](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
-
+|- Een waarschuwing wordt geactiveerd door legitiem gebruik <br/>- Een waarschuwing is onjuist    |[Microsoft Cloud App Security](/cloud-app-security)<br/> of <br/>[Azure Advanced Threat Detection](/azure/security/fundamentals/threat-detection)         |[Waarschuwingen beheren in de cloud-app-beveiligingsportal](/cloud-app-security/managing-alerts)         |
+|Een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, ook al is het veilig|[Microsoft Defender for Endpoint](/windows/security/threat-protection) |[Een aangepaste indicator maken met de actie Toestaan](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Een herstelactie ongedaan maken die is ondernomen op een apparaat
 
-Als er een herstelactie is ondernomen op een apparaat (zoals een Windows 10-apparaat) en het item in feite geen bedreiging is, kan uw team voor beveiligingsbewerkingen de herstelactie ongedaan maken in het [Actiecentrum.](mtp-action-center.md)
-
-> [!IMPORTANT]
-> Zorg ervoor dat u de [benodigde machtigingen hebt voordat](mtp-action-center.md#required-permissions-for-action-center-tasks) u de volgende taak probeert uit te voeren.
+Als er een herstelactie is uitgevoerd op een entiteit (zoals een apparaat of een e-mailbericht) en de betreffende entiteit geen bedreiging is, kan uw beveiligingsteam de herstelactie ongedaan maken in het [Actiecentrum.](mtp-action-center.md)
 
 1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. 
+2. Kies actiecentrum in het **navigatiedeelvenster.** 
+3. Selecteer op **het** tabblad Geschiedenis een actie die u ongedaan wilt maken. Het deelvenster Flyout wordt geopend.
+4. Selecteer ongedaan maken in het deelvenster Flyout.
 
-2. Kies Actiecentrum in het **navigatiedeelvenster.** 
-
-3. Selecteer op **het** tabblad Geschiedenis een actie die u ongedaan wilt maken. Er wordt een flyout geopend.<br/>
-    > [!TIP]
-    > Gebruik filters om de lijst met resultaten te beperken. 
-
-4. Selecteer Onderzoek openen in de flyout voor **het** geselecteerde item.
-
-5. Selecteer in de detailweergave voor onderzoek het **tabblad** Acties.
-
-6. Selecteer een item met de status Voltooid en zoek naar een koppeling, zoals **Goedgekeurd,** in **de** kolom Beslissingen. Hiermee opent u een flyout met meer details over de actie.
-
-7. Als u de actie ongedaan wilt maken, **selecteert u Herstelactie verwijderen.**
+> [!TIP]
+> Zie [Voltooide acties ongedaan maken.](mtp-autoir-actions.md#undo-completed-actions)
 
 ## <a name="see-also"></a>Zie ook
 
 - [De details en resultaten van een geautomatiseerd onderzoek weergeven](mtp-autoir-results.md)
-- [Proactief zoeken naar bedreigingen met geavanceerd zoeken in Microsoft 365 Defender](advanced-hunting-overview.md)
+- [Proactief op bedreigingen zoeken met geavanceerde jacht in Microsoft 365 Defender](advanced-hunting-overview.md)
+- [False positives/negatives in Microsoft Defender for Endpoint adresseert](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)

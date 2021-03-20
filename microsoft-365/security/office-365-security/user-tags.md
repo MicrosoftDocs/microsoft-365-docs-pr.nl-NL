@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe u specifieke groepen gebruikers kunt identificeren met gebruikerslabels in Microsoft Defender voor Office 365-abonnement 2. Tagfiltering is beschikbaar in waarschuwingen, rapporten en onderzoeken in Microsoft Defender voor Office 365 om snel de gelabelde gebruikers te identificeren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 80bd360888be3aeea42da6f9b58a119a9752d382
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: e9bb6a233f21268df860974549ecffbfd7154045
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758890"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916404"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Gebruikerslabels in Microsoft Defender voor Office 365
 
@@ -41,7 +41,7 @@ Nadat u systeemlabels of aangepaste tags op gebruikers hebt toegepast, kunt u de
 - [Threat Explorer en realtime detecties](threat-explorer.md)
 - [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
 - [Campagneweergaven](campaigns.md)
-- Voor prioriteitsaccounts kunt u het rapport [E-mailproblemen voor prioriteitsaccounts](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) gebruiken in het Exchange-beheercentrum (EAC).
+- Voor prioriteitsaccounts kunt u het rapport [E-mailproblemen voor prioriteitsaccounts](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) gebruiken in het Exchange-beheercentrum (EAC).
 
 In dit artikel wordt uitgelegd hoe u gebruikerslabels configureert in & Compliancecentrum. Er zijn geen cmdlets in & compliancecentrum om gebruikerslabels te beheren.
 

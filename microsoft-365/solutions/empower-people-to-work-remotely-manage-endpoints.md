@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik Microsoft Endpoint Manager om uw apparaten, pc's en andere eindpunten te beheren.
-ms.openlocfilehash: bca3e8e79264a2218dd1036e50be1c9ab29d2b8a
-ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
+ms.openlocfilehash: db06c7d65da1939ffbb04db64ea901e211b074f6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749597"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918336"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Stap 4. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
 
 Als u externe medewerkers hebt, moet u steeds meer persoonlijke apparaten ondersteunen. Eindpuntbeheer biedt op beleid gebaseerde beveiliging waarbij apparaten moeten voldoen aan specifieke criteria voordat ze toegang krijgen tot bronnen. Microsoft Endpoint Manager biedt moderne beheermogelijkheden om uw gegevens in de cloud en on-premises veilig te houden. 
 
-[Microsoft Endpoint Manager](https://docs.microsoft.com/mem/endpoint-manager-overview) biedt services en hulpprogramma‘s voor het beheer van mobiele apparaten, desktopcomputers, virtuele machines, embedded apparaten en servers door enkele services te combineren die u mogelijk al kent en gebruikt.
+[Microsoft Endpoint Manager](/mem/endpoint-manager-overview) biedt services en hulpprogramma‘s voor het beheer van mobiele apparaten, desktopcomputers, virtuele machines, embedded apparaten en servers door enkele services te combineren die u mogelijk al kent en gebruikt.
 
 ![De onderdelen van endpoint Management voor Microsoft 365](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
@@ -40,13 +40,13 @@ Microsoft Intune is een cloudservice die gericht is op Mobile Device Management 
 
 - **MAM:** externe werknemers willen misschien niet dat u volledige controle hebt over hun persoonlijke apparaten, ook wel bekend als Bring-Your-Own-Device (BYOD). U kunt voor externe werknemers opties beschikbaar maken en toch uw organisatie beschermen. Zo kunnen externe werknemers hun apparaten registreren voor volledige toegang tot de resources van uw organisatie. Als deze gebruikers alleen toegang willen tot e-mail of Microsoft Teams, kunt u app-beveiligingsbeleid gebruiken waarvoor meervoudige verificatie (MFA) vereist is om deze apps te kunnen gebruiken.
 
-Zie voor meer informatie dit [overzicht van Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune).
+Zie voor meer informatie dit [overzicht van Microsoft Intune](/intune/fundamentals/what-is-intune).
 
 ## <a name="configuration-manager"></a>Configuration Manager
 
 Configuration Manager is een on-premises beheeroplossing voor het beheer van desktops, servers en laptops op uw netwerk of op internet. Gebruik Configuration Manager om apps, software-updates en besturingssystemen te implementeren. U kunt ook toezicht houden op naleving, clients in real time doorzoeken en hiermee communiceren, en nog veel meer. U kunt cloudtoegang inschakelen voor integratie met Intune, Azure AD, Microsoft Defender voor Eindpunt en andere cloudservices. 
 
-Zie voor meer informatie dit [overzicht van Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/understand/introduction).
+Zie voor meer informatie dit [overzicht van Configuration Manager](/mem/configmgr/core/understand/introduction).
 
 ## <a name="co-management"></a>Co-management
 
@@ -54,7 +54,7 @@ Met co-management wordt uw bestaande on-premises Configuration Manager gekoppeld
 
 Bij het gebruik van co-management worden cloudfuncties op basis van Intune gebruikt, waaronder voorwaardelijke toegang en het afdwingen van apparaatcompliance. U kunt bepaalde taken on-premises blijven doen terwijl u andere taken in de cloud uitvoert.
 
-Zie voor meer informatie dit [overzicht van co-management](https://docs.microsoft.com/mem/configmgr/comanage/overview).
+Zie voor meer informatie dit [overzicht van co-management](/mem/configmgr/comanage/overview).
 
 ## <a name="desktop-analytics"></a>Desktop Analytics
 
@@ -68,7 +68,7 @@ Met Desktop Analytics kunt u het volgende doen:
 - Testfasegroepen aanmaken die de gehele toepassing en stuurprogramma‘s op een minimale verzameling apparaten vertegenwoordigen.
 - Implementeer Windows 10 op testfase- en productieapparaten.
 
-Zie voor meer informatie dit [overzicht van Desktop Analytics](https://docs.microsoft.com/mem/configmgr/desktop-analytics/overview)
+Zie voor meer informatie dit [overzicht van Desktop Analytics](/mem/configmgr/desktop-analytics/overview)
 
 ## <a name="windows-autopilot"></a>Windows Autopilot
 
@@ -79,13 +79,13 @@ Met Windows Autopilot kan een IT-afdeling apparaten vooraf configureren via een 
 - De apparaten voor gebruikers kunnen met slechts enkele eenvoudige bewerkingen worden klaargemaakt voor gebruik. 
 - En IT-professionals hoeven er alleen maar voor te zorgen dat eindgebruikers verbinding kunnen maken met een netwerk door hun referenties te verifiëren.
 
-Voor meer informatie raadpleegt u dit [overzicht van Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot).
+Voor meer informatie raadpleegt u dit [overzicht van Windows Autopilot](/windows/deployment/windows-autopilot/windows-autopilot).
 
 ## <a name="admin-technical-resources-for-endpoint-management"></a>Technische bronnen voor eindpuntbeheerders
 
 - [Routekaart voor Apparaatbeheer voor Microsoft 365](../enterprise/device-management-roadmap-microsoft-365.md)
-- [Verschillende typen apparaten inschrijven voor het beheer van mobiele apparaten](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
-- [Uw eindgebruikers informeren over Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
+- [Verschillende typen apparaten inschrijven voor het beheer van mobiele apparaten](/mem/intune/enrollment/device-enrollment)
+- [Uw eindgebruikers informeren over Microsoft Intune](/mem/intune/fundamentals/end-user-educate)
  
 ## <a name="results-of-step-4"></a>Resultaten van stap 4
 

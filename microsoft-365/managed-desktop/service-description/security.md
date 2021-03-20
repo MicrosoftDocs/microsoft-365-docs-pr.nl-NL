@@ -1,6 +1,6 @@
 ---
 title: Beveiligingstechnologieën in Microsoft Managed Desktop
-description: Technologieën die worden gebruikt voor beveiliging van apparaten, identiteit en toegangsbeheer, netwerkbeveiliging en informatiebeveiliging
+description: Technologieën die worden gebruikt voor apparaatbeveiliging, identiteits- en toegangsbeheer, netwerkbeveiliging en informatiebeveiliging
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -8,51 +8,51 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5076ddca6053adc7cebb9599c8d82a42c7ab5a63
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: b1111f0867ff9a49ba670cdd8b48d10d158fd3ed
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840911"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917768"
 ---
 # <a name="security-technologies-in-microsoft-managed-desktop"></a>Beveiligingstechnologieën in Microsoft Managed Desktop
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
-Microsoft Managed Desktop gebruikt diverse Microsoft-technologieën om beheerde apparaten en gegevens te helpen beveiligen. Daarnaast gebruikt het Microsoft beheerde bureaublad beveiliging diverse [processen](security-operations.md) van deze technologieën.
+Microsoft Managed Desktop gebruikt verschillende Microsoft-technologieën om beheerde apparaten en gegevens te beveiligen. Daarnaast worden in het Microsoft Managed Desktop Security Operations Center verschillende [processen](security-operations.md) gebruikt in combinatie met deze technologieën.
 
-Precies 
+Met name: 
 
-- [Beveiliging van apparaten](#device-security) – beveiliging en bescherming op Microsoft beheerde bureaublad apparaten
-- [Identiteit en toegangsbeheer](#identity-and-access-management) : beheer veilig gebruik van apparaten via Azure Active Directory Identity Services
-- [Netwerkbeveiliging](#network-security) – VPN-informatie en door Microsoft beheerde bureaublad aanbevolen oplossing en instellingen
-- [Gegevensbeveiliging](#information-security) -optionele beschikbare services om gevoelige informatie verder te beschermen 
+- [Apparaatbeveiliging:](#device-security) beveiliging en beveiliging op Microsoft Managed Desktop-apparaten
+- [Identiteits- en Access-beheer:](#identity-and-access-management) veilig gebruik van apparaten beheren via Azure Active Directory-identiteitsservices
+- [Netwerkbeveiliging:](#network-security) VPN-informatie en aanbevolen oplossing en instellingen voor Microsoft Managed Desktop
+- [Informatiebeveiliging:](#information-security) optionele beschikbare services om gevoelige informatie verder te beveiligen 
 
-Zie voor meer informatie over het opslaan, gebruiken en beveiligingsprocedures voor gegevens die worden gebruikt door Microsoft Managed Desktop onze White papers op [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
+Zie ons whitepaper op [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
 
-## <a name="device-security"></a>Beveiliging van apparaten
+## <a name="device-security"></a>Apparaatbeveiliging
 
-Microsoft Managed Desktop zorgt ervoor dat alle beheerde apparaten veilig en beschermd zijn en detecteert zo vroeg mogelijk bedreigingen met behulp van de volgende services:
+Microsoft Managed Desktop zorgt ervoor dat alle beheerde apparaten worden beveiligd en beveiligd en dat bedreigingen zo vroeg mogelijk worden gedetecteerd met behulp van de volgende services:
 
 Service | Beschrijving
 --- | ---
-Antivirussoftware | Microsoft Defender AV is geïnstalleerd en geconfigureerd<br>Definities voor Microsoft Defender AV up-to-date
-Volledige volume versleuteling |    Windows BitLocker is de volume versleutelings oplossing voor Microsoft Managed Desktop devices.<br><br>Wanneer een organisatie is binnengebracht in de service, worden de apparaten versleuteld met behulp van Windows BitLocker met ingebouwde Trust platform module (TPM) om onbevoegde toegang tot lokale gegevens te voorkomen wanneer het apparaat in de slaapstand staat. 
-Uitoefenen |    Microsoft Defender voor eindpunt wordt gebruikt voor beveiliging van beveiligingsbedreigingen op alle door Microsoft beheerde bureaublad apparaten. Met eindpunten voor eindpunten kunnen Enterprise-klanten geavanceerde bedreigingen op hun bedrijfsnetwerk detecteren, onderzoeken en beantwoorden. Zie [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) voor meer informatie. 
-Updates voor besturingssystemen |  Door Microsoft beheerde bureaublad apparaten worden altijd de meest recente beveiligingsupdates beveiligd.
-Configuratie van beveiligde apparaten |   Microsoft Managed Desktop implementeert de Microsoft-beveiligings basis. Zie [Windows-beveiligings lijnen](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines) voor meer informatie.
+Antivirus | Microsoft Defender AV is geïnstalleerd en geconfigureerd<br>Microsoft Defender AV-definities zijn up-to-date
+Volledige volumeversleuteling |    Windows BitLocker is de oplossing voor volumeversleuteling voor Microsoft Managed Desktop-apparaten.<br><br>Zodra een organisatie is aan boord van de service, worden apparaten versleuteld met Windows BitLocker met ingebouwde Trust Platform Module (TPM) om te voorkomen dat onbevoegde toegang tot lokale gegevens wordt gebruikt wanneer het apparaat in de slaapstand staat of uit staat. 
+Monitoring |    Microsoft Defender voor Eindpunt wordt gebruikt voor beveiligingsrisicocontrole op alle beheerde bureaubladapparaten van Microsoft. Met Defender voor Eindpunt kunnen zakelijke klanten geavanceerde bedreigingen in hun bedrijfsnetwerk detecteren, onderzoeken en beantwoorden. Zie Microsoft Defender voor Eindpunt voor [meer informatie.](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
+Updates voor besturingssysteem |  Microsoft Managed Desktop-apparaten zijn altijd beveiligd met de meest recente beveiligingsupdates.
+Configuratie van beveiligde apparaten |   Microsoft Managed Desktop implementeert de Microsoft-beveiligingslijnlijn. Zie Windows-beveiligingslijnlijnen voor [meer informatie.](/windows/security/threat-protection/windows-security-baselines)
 
 
 
 ## <a name="identity-and-access-management"></a>Identiteits- en toegangsbeheer
 
-Identiteits-en toegangsbeheer beschermt bedrijfsmiddelen en bedrijfskritieke gegevens. Microsoft Managed Desktop configureert apparaten om te zorgen voor veilig gebruik met beheerde identiteiten van Azure Active Directory (Azure AD). Het is de verantwoordelijkheid van de klant om de juiste informatie in de Azure AD-Tenant te behouden. 
+Identiteits- en toegangsbeheer beschermt bedrijfsactiva en bedrijfskritische gegevens. Microsoft Managed Desktop configureert apparaten om veilig gebruik te garanderen met beheerde identiteiten van Azure Active Directory (Azure AD). Het is de verantwoordelijkheid van de klant om nauwkeurige informatie te behouden in de Azure AD-tenant. 
 
 Service | Beschrijving
 --- | ---
-Biometrische verificatie |  Windows hello biedt gebruikers de mogelijkheid zich aan te melden met behulp van een gezicht of een pincode, zodat wachtwoorden moeilijker te onthouden of te stelen zijn. Klanten zijn verantwoordelijk voor de implementatie van de vereiste vereisten voor hun on-premises Active Directory voor gebruik van deze service in een hybride configuratie. Zie [Windows hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) voor meer informatie. 
-Standaardgebruikersmachtigingen |  Om het systeem te beschermen en de beveiliging te verbeteren, worden aan de gebruiker standaardgebruikersmachtigingen toegewezen. Deze machtiging wordt ingesteld als onderdeel van de out-of-Box ervaring van Windows auto pilot.
+Biometrische verificatie |  Met Windows Hello kunnen gebruikers zich aanmelden met hun gezicht of pincode, waardoor wachtwoorden moeilijker te vergeten of te stelen zijn. Klanten zijn verantwoordelijk voor het implementeren van de vereiste vereisten voor hun on-premises Active Directory voor gebruik van deze service in een hybride configuratie. Zie Windows Hello voor [meer informatie.](/windows-hardware/design/device-experiences/windows-hello) 
+Standaardgebruiksmachtiging |  Als u het systeem wilt beveiligen en veiliger wilt maken, krijgt de gebruiker standaardgebruikersmachtigingen toegewezen. Deze machtiging wordt toegewezen als onderdeel van de kant-en-dooservaring van Windows Autopilot.
 
 
 
@@ -62,15 +62,14 @@ Klanten zijn verantwoordelijk voor netwerkbeveiliging.
 
 Service | Beschrijving
 --- | ---
-NETWERK | Klanten hebben hun eigen VPN-infrastructuur, om ervoor te zorgen dat ze niet meer kunnen worden weergegeven op het intranet.<br><br>Minimum vereiste: door Microsoft beheerde bureaubladtoepassing is een met Windows 10 compatibele en ondersteunde VPN-oplossing vereist. Als binnen uw organisatie een VPN-oplossing nodig is, moet deze Windows 10 ondersteunen en worden verpakt en geïmplementeerd via intune. Neem contact op met uw software uitgever voor meer informatie.<br><br>Raden<br>-Microsoft raadt een moderne VPN-oplossing aan die gemakkelijk kan worden geïmplementeerd via intune voor push VPN-profielen. Deze aanpak biedt een altijd, naadloos, betrouwbaar en veiligere manier om toegang te krijgen tot het bedrijfsnetwerk. Zie [[VPN-instellingen in intune]](https://docs.microsoft.com/intune/vpn-settings-configure)voor meer informatie.<br>-Dikke VPN-clients of oudere VPN-clients worden niet aanbevolen door Microsoft wanneer ze door Microsoft worden beheerd op de gebruikersomgeving.<br>-Microsoft raadt aan dat het uitgaande webverkeer rechtstreeks naar Internet gaat zonder het VPN te passeren om prestatieproblemen te voorkomen.<br>In het ideale geval raden Microsoft aan het gebruik van de app Azure Active Directory te gebruiken in plaats van een VPN.
+VPN | Klanten zijn eigenaar van hun VPN-infrastructuur, zodat beperkte bedrijfsresources buiten het intranet kunnen worden getoond.<br><br>Minimumvereiste: Voor Microsoft Managed Desktop is een compatibele en ondersteunde VPN-oplossing voor Windows 10 vereist. Als uw organisatie een VPN-oplossing nodig heeft, moet deze Windows 10 ondersteunen en worden verpakt en geïmplementeerd via Intune. Neem contact op met de uitgever van uw software voor meer informatie.<br><br>Aanbeveling:<br>- Microsoft raadt een moderne VPN-oplossing aan die eenvoudig via Intune kan worden geïmplementeerd om VPN-profielen te pushen. Deze benadering biedt een altijd-on, naadloze, betrouwbare en veilige manier om toegang te krijgen tot het bedrijfsnetwerk. Zie [[VPN-instellingen in Intune]](/intune/vpn-settings-configure)voor meer informatie.<br>- Dikke VPN-clients of oudere VPN-clients worden niet aanbevolen door Microsoft tijdens het gebruik van Microsoft Managed Desktop, omdat dit van invloed kan zijn op de gebruikersomgeving.<br>- Microsoft raadt aan dat het uitgaande webverkeer rechtstreeks naar internet gaat zonder de VPN te gebruiken om prestatieproblemen te voorkomen.<br>- In het ideale moment raadt Microsoft het gebruik van Azure Active Directory App Proxy aan in plaats van een VPN.
 
 
-## <a name="information-security"></a>Gegevensbeveiliging
+## <a name="information-security"></a>Informatiebeveiliging
 
-U kunt deze optionele services configureren om bedrijfsmiddelen met een hoge waarde te beschermen. 
+U kunt deze optionele services configureren om bedrijfsactiva met hoge waarde te beschermen. 
 
 Service | Beschrijving
 --- | ---
-Gegevens herstellen  | Gegevens die zijn opgeslagen in de belangrijkste mappen op het apparaat, worden met een back-up gemaakt van OneDrive voor bedrijven. Microsoft Managed Desktop is niet verantwoordelijk voor gegevens die niet zijn gesynchroniseerd met OneDrive voor bedrijven. 
-Windows-gegevensbescherming |    Voor bedrijven die een hoog niveau van gegevensbeveiliging vereisen, wordt u aangeraden [Windows Information Protection](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) en [Azure Information Protection](https://www.microsoft.com/cloud-platform/azure-information-protection)te adviseren. 
-
+Gegevensherstel  | Gegevens die zijn opgeslagen in belangrijke mappen op het apparaat, maken een back-up van OneDrive voor Bedrijven. Microsoft Managed Desktop is niet verantwoordelijk voor gegevens die niet worden gesynchroniseerd met OneDrive voor Bedrijven. 
+Windows-gegevensbescherming |    Voor bedrijven die hoge niveaus van informatiebeveiliging vereisen, raden we [Windows Information Protection](/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) en Azure Information Protection [aan.](https://www.microsoft.com/cloud-platform/azure-information-protection).

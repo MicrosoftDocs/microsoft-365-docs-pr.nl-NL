@@ -1,5 +1,5 @@
 ---
-title: Uw plan voor samenwerking maken
+title: Uw samenwerkingsbeheerplan maken
 ms.reviewer: mmclean
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,132 +14,132 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Leer hoe u uw samenwerkings abonnement maakt
-ms.openlocfilehash: c27ac401d06808d1a4337e9ec7ec0700bfba19ea
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+description: Meer informatie over het maken van uw samenwerkingsbeheerplan
+ms.openlocfilehash: 89b8ffc1359d79661e2b7cc30f195ea792e7a161
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613294"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916368"
 ---
-# <a name="create-your-collaboration-governance-plan"></a>Uw plan voor samenwerking maken
+# <a name="create-your-collaboration-governance-plan"></a>Uw samenwerkingsbeheerplan maken
 
-U kunt het beste uw overstap naar Microsoft 365 met een heldere visie maken:
+Het is altijd het beste om uw overstap naar Microsoft 365 met een duidelijke visie te starten:
 
-- Wat zijn belangrijke bedrijfsdoelstellingen?
+- Wat zijn uw belangrijkste zakelijke doelstellingen?
 
-- Hoe bieden de hulpmiddelen en functies waarden voor de gehele organisatie en voor individuele werknemers?
+- Hoe bieden de hulpmiddelen en mogelijkheden waarde voor de organisatie als geheel en voor individuele werknemers?
 
-- Hoe kunt u succes meten?
+- Hoe gaat u succes meten?
 
-Een duidelijke visie verklaring biedt kritieke richtlijnen voor de onvermijdelijke beslissings vorming, u dient u op de hoogte te stellen van uw beheer abonnement. De mate van formaliteit en de diepte waarop u het beheerschema moet documenteren, moeten worden uitgelijnd met de resultaten die u wilt bereiken. De visie, dus biedt een kader voor zowel de context als de investering in het beheer.
+Een duidelijke visieverklaring biedt essentiële richtlijnen voor de onvermijdelijke beslissingsafspraken die u moet maken bij het nadenken over uw beheerplan. De mate van formaliteit en de diepte waarop u het beheerplan moet documenteren, moeten aansluiten bij de resultaten die u wilt bereiken. De visie biedt dus een kader voor zowel de context als de investering in governance.
 
-Microsoft 365 maakt nieuwe modellen voor technologieën voor de ondersteuning van het bedrijf. Deze nieuwe modellen wijzigen de manier waarop deze technologieën worden goedgekeurd, beheerd en onderhevig. 
+Microsoft 365 maakt nieuwe paradigma's voor technologieën ter ondersteuning van het bedrijf. Deze nieuwe paradigma's veranderen de manier waarop deze technologieën worden overgenomen, beheerd en beheerd. 
 
-Microsoft 365 governance moet bestaan uit bestaande beleidsregels die on-premises omgevingen regelen. Aangezien de Cloud nieuwe verkoopkansen voor de ondersteuning van het bedrijf mogelijk maakt, is het belangrijk om inzicht te krijgen in deze verkoopkansen en te denken aan een beheer aanpak waarmee een juiste balans wordt gemaakt tussen gebruikers doelstellingen, bedrijfsrisico en de vereisten voor de branche en de regelgeving.
+Microsoft 365-beheer moet een aanvulling vormen op bestaand beleid dat van toepassing is op on-premises omgevingen. Aangezien de cloud echter nieuwe mogelijkheden biedt om het bedrijf te ondersteunen, is het belangrijk om deze mogelijkheden te begrijpen en na te denken over een governance-benadering die een passend evenwicht creëert tussen gebruikersdoelen, zakelijke risico's en industrie- en regelgevingsvereisten.
 
-Als u op het werkblad gaat werken, moet u eerst uw reis aan de Cloud beginnen met een aantal belangrijke beslissingen voor de beste plaats voor de algehele succesvolle. Een aantal van deze besluiten omvat:
+Als u eerst nadurt over beheer, begint u uw reis naar de cloud met enkele belangrijke beslissingen om de beste positie voor algehele succes te behalen. Enkele van deze beslissingen zijn:
 
-- Wordt extern delen ondersteund en in welke scenario's? Meer [informatie over extern delen](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization).
+- Wordt extern delen ondersteund en in welke scenario's? [Meer informatie over extern delen.](./collaborate-with-people-outside-your-organization.md)
 
-- Wie kan en hoe worden groepen, sites en teams ingericht? [Meer informatie over hoe u kunt bepalen wie een groep kan maken](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+- Wie kan en hoe worden groepen, sites en teams ingericht? [Meer informatie over hoe u kunt bepalen wie de mogelijkheid heeft om groepen te maken.](./manage-creation-of-groups.md)
 
-- Welk type inhoud kan worden gepubliceerd in elk type omgeving, en welke functies moeten worden ingeschakeld om te voorkomen dat gebruikers per ongeluk informatie op onjuiste locaties publiceren? [Meer informatie over gegevensbeveiliging in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/protect-information).
+- Welk type inhoud kan in elk type omgeving worden gepubliceerd en welke functies moeten worden ingeschakeld om te voorkomen dat gebruikers per ongeluk informatie publiceren op ongepaste locaties? [Meer informatie over informatiebeveiliging in Microsoft 365](../compliance/information-protection.md).
 
-Er is geen perfecte oplossing voor deze vragen – de juiste antwoorden zijn de accounts die het risico en voor de voordelen voor uw organisatie evenwichtig lopen.
+Er is geen perfect antwoord op deze vragen: de juiste antwoorden zijn de antwoorden die risico's en voordelen voor uw organisatie in evenwicht brengen.
 
-## <a name="what-does-governance-mean-for-microsoft-365"></a>Wat betekent het beheer voor Microsoft 365?
+## <a name="what-does-governance-mean-for-microsoft-365"></a>Wat betekent governance voor Microsoft 365?
 
-Het plannen van beheer voor Microsoft 365 is een goede bescherming van uw cruciale informatie-assets terwijl het risico wordt geminimaliseerd. Governance omvat diverse belangrijke gebieden, die elk moeten worden gepland, gecoördineerd en aangepast voor de aanpassing van de behoeften van de organisatie en voor de ontwikkeling van de technologie. 
+Bij beheerplanning voor Microsoft 365 moet u ervoor zorgen dat u uw kritieke informatieactiva beschermt en tegelijkertijd het risico minimaliseert. Governance omvat verschillende belangrijke gebieden, die elk moeten worden gepland, gecoördineerd en aangepast aan veranderende behoeften van de organisatie en de ontwikkeling van de technologie. 
 
-- **Operationeel verzekeringen** – het platform operationeel houden en zorgen voor betere prestaties. Dit is grotendeels een IT-taak met het grootste deel van het werk van Microsoft.
+- **Operational Assurance:** houd het platform operationeel, zodat de prestaties worden gewaarborgd. Dit is grotendeels een IT-taak met het grootste deel van het werk dat door Microsoft wordt geleverd.
 
-- **Information Assurance** – de inhoud gedurende de levenscyclus beheren, waarbij informatie wordt behandeld als een activum, met inbegrip van recordbeheer, compliance en beveiliging. Voor informatie controle is een uitleg nodig over de bedrijfsdoelstellingen en de wettelijke vereisten. In het ideale geval maakt u gebruik van geautomatiseerde beleidsregels waarmee gebruikers geen fouten kunnen maken of ze kunnen waarschuwen wanneer ze een weloverwogen beslissing willen nemen. Wanneer het beleid niet kan worden vastgelegd, moet u plannen voor het onderwijs en de opleiding.
+- **Information Assurance:** inhoud gedurende de hele levenscyclus beheren, informatie behandelen als een activum, inclusief recordbeheer, compliance en beveiliging. Informatiecontrole vereist inzicht in zowel zakelijke doelstellingen als wettelijke vereisten. In het ideale geval wilt u geautomatiseerde beleidsregels gebruiken die voorkomen dat gebruikers fouten maken of hen waarschuwen in scenario's waarin ze een weloverwogen beslissing moeten nemen. Als het niet mogelijk is om af te dwingen door beleid, moet u onderwijs en training plannen.
 
-- Resultaten van het leveren van een **gegarandeerde** uitkomst van de site of van team eigenaren in de juiste richting om bedrijfsresultaten te bereiken. Resultaten waarborgen is grotendeels bedoeld voor het leveren van richtlijnen aan auteurs van inhoud en sites, groeps-en team eigenaren, zodat u er zeker van bent dat de juiste training beschikbaar is om ervoor te zorgen dat ze goede keuzes maken om de gewenste resultaten te krijgen.
+- **Outcomes Assurance:** het sturen van gemachtigde site- of teameigenaren in de juiste richting om bedrijfsresultaten te bereiken. Resultatencontrole is grotendeels gericht op het bieden van richtlijnen aan auteurs van inhoud en site-, groeps- en teameigenaren, zodat de juiste training beschikbaar is om ervoor te zorgen dat ze weten hoe ze goede keuzes kunnen maken om gewenste resultaten te krijgen binnen de algemene organisatiestandaarden en -procedures.
 
-De planning van het beheer dient eerst te worden opgeleverd, maar het beheer moeten iets dat u continu opnieuw bezoekt in een iteratieve procedure. Aangezien uw gegevens in de loop van de tijd veranderen, kunt u het beste uw beheer besluiten bezoeken en de beschikbaarheid van functies aanpassen. U kunt er mogelijk voor zorgen dat u een betere toezicht nodig hebt om ervoor te zorgen voor overeenstemming. U zult merken dat u minder toezicht nodig hebt om meer creatieve toepassingen van kernfuncties te stimuleren. Het kan zijn dat rollen en verantwoordelijkheden moeten worden bijgewerkt om wijzigingen in de oplossing weer te geven of te wijzigen hoe gebruikers verschillende toepassingen gebruiken.
+Governanceplanning moet op de eerste plaats komen, maar governance moet iets zijn dat u voortdurend opnieuw in een iteratief proces bekijkt. Naarmate uw gegevens goed verandert in de tijd, wilt u uw beheerbeslissingen opnieuw controleren om u aan te passen aan veranderende zakelijke behoeften en beschikbaarheid van functies. Mogelijk vindt u dat u meer toezicht nodig hebt om de naleving te waarborgen. Mogelijk hebt u minder overzicht nodig om een creatievere toepassing van kernfuncties aan te moedigen. Mogelijk vindt u dat rollen en verantwoordelijkheden moeten worden bijgewerkt om wijzigingen in de oplossing of wijzigingen in de manier waarop gebruikers verschillende toepassingen gebruiken, weer te geven.
 
-Een van de belangrijkste mogelijkheden voor Microsoft 365 is de mogelijkheid om eenvoudig samen te werken met personen buiten uw organisatie. Sommige organisaties in sommige branches kiezen voor het blokkeren van extern delen. Anderen toestaan extern delen in bepaalde scenario's of met specifieke organisaties in te stellen. Er is geen juiste of verkeerde beheer beslissing wanneer dit bij extern delen gaat, en er zijn veel verschillende scenario's waarbij u verschillende instellingen in Microsoft 365 kunt inschakelen om delen in sommige gevallen toe te staan en te blokkeren in andere gevallen. Als u echter maar begint met een on-premises omgeving en de Cloud, is het belangrijk om te denken aan een extern deel van een beslissing en inzicht te krijgen in de voordelen en risico's die zijn gekoppeld aan de verschillende beschikbare opties.
+Een van de belangrijkste mogelijkheden voor het versterken van Microsoft 365 is bijvoorbeeld de mogelijkheid om eenvoudig samen te werken met personen buiten uw organisatie. Sommige organisaties in sommige bedrijfstakken kiezen ervoor om alle externe delen te blokkeren. Anderen maken extern delen mogelijk in specifieke scenario's of met specifieke organisaties. Er is geen goed of fout bestuursbesluit als het gaat om extern delen. Er zijn veel verschillende scenario's waarin u verschillende instellingen in Microsoft 365 kunt inschakelen om delen in sommige gevallen toe te staan en in andere te blokkeren. Als u echter net begint aan uw reis van een on-premises omgeving naar de cloud, is het belangrijk om na te denken over beslissingen voor extern delen en de voordelen en risico's te begrijpen die samenhangen met de verschillende beschikbare opties.
 
-## <a name="think-about-governance-first"></a>Houd eerst na alles over governance
+## <a name="think-about-governance-first"></a>Denk eerst na over beheer
 
-Uw investering in Microsoft 365 is alleen beschikbaar als de waarde van de inhoud en de ervaring die u mogelijk maakt, zodat u kunt controleren of het gaat om een beheer aan het begin van de rit, zodat u niet meer kunt vergrendelen. U kunt in het Microsoft 365-Beheercentrum en voor afzonderlijke sites en teams meerdere ' knoppen en-kiezers ' inschakelen. Een efficiënt beheer abonnement is essentieel voor het bereiken van zakelijke doelstellingen, maar het beheer van het evenwicht met de voordelen. Als we alles op de gewenste manier vergrendelen, vinden ze een manier om de regels te omzeilen, indien nodig om het werk gedaan te krijgen.
+Uw investering in Microsoft 365 is alleen zo goed als de waarde van de inhoud en ervaringen die u inschakelen. Daarom zorgt het nadenken over beheer aan het begin van uw reis ervoor dat u niet te veel vergrendelt of inschakelen voordat u de gevolgen van elke beslissing hebt kunnen begrijpen en evalueren. Er zijn meerdere knoppen en wijzerplaten die u kunt inbellen in het Microsoft 365-beheercentrum en voor afzonderlijke sites en teams. Een effectief beheerplan is essentieel om bedrijfsdoelen te bereiken, maar governance gaat over het in balans brengen van risico's met voordelen. Als we alles vergrendelen, vinden mensen een manier om met de regels te werken als ze dat nodig hebben om werk gedaan te krijgen.
 
-U kunt eerst het volgende doen:
+Als u eerst nadurt over beheer, kunt u het volgende doen:
 
-- **Risico's en voordelen sluiten**. Als u de beslissingen van een bedrijf zorgvuldig controleert, kunnen organisaties de volledige omgeving – zakelijk, wettelijk, juridisch, compliance en een oplossing plannen die voor alle resultaten worden geoptimaliseerd – af en toe om te voorkomen dat u het risico en andere tijden accepteert. Als u een weloverwogen beslissing van de voorgrond maakt, krijgt u betere resultaten zonder sprawl en onbeheerde inhoud.
+- **Balanceer risico's en voordelen**. Door governancebeslissingen zorgvuldig te bekijken in het begin van de implementatie, kunnen organisaties inzicht krijgen in de volledige omgeving ( business, regulatory, legal, compliance) en een oplossing plannen die voor alle resultaten optimaliseert, waarbij risico's worden afwegen tegen voordelen, soms het risico en andere keren worden geaccepteerd, waarbij ze ervoor kiezen om het risico niet te accepteren. Als u van te voren weloverwogen beslissingen neemt, krijgt u betere resultaten zonder uitbreiding en niet-gewenste inhoud.
 
-- **Aanpassen aan verschillende organisaties en verschillende soorten inhoud en scenario's**. Een beheer beslissing is een unieke beslissing voor elke organisatie: één formaat past niet allemaal. Niet alleen elke organisatie heeft een andere beheer behoeften, maar het is vaak niet mogelijk om te kiezen voor elk type inhoud in Microsoft 365. Voorbeeld van de inhoud van het team kan niet worden bepaald door beheer van de intranetinhoud en de individuele inhoud in OneDrive.
+- **Aanpassen aan verschillende organisaties en verschillende soorten inhoud en scenario's.** Governancebeslissingen zijn unieke beslissingen voor elke organisatie: één grootte past niet bij alle. Niet alleen heeft elke organisatie verschillende beheerbehoeften, maar beslissingen over beheer zijn vaak niet hetzelfde voor elk type inhoud in Microsoft 365. Beheer voor teaminhoud kan bijvoorbeeld verschillen van beheer voor intranetinhoud en van afzonderlijke inhoud in OneDrive.
 
-- **Uitlijnen op zakelijke prioriteiten**. De tijd om te beginnen met het beheer van het beheer is wanneer u de belangrijkste bedrijfsprioriteiten identificeert voor de oplossingen die u bouwt in Microsoft 365. Deze belangrijke bedrijfsresultaten definiëren de context voor het plannen van beheer. Dit is belangrijk, omdat uw bedrijfsdoelstellingen u helpen bij het definiëren van de hoeveelheid tijd en energie die u in het beheer moet investeren. Als u bijvoorbeeld de inhoud van de inhoud van de organisatie verbetert, hoeft u waarschijnlijk niet te veel tijd besteden aan het afdwingen of plannen van naamgevingsconventies voor bestanden. Als u, aan de andere kant, wilt voorkomen dat er meerdere versies van hetzelfde document in verschillende opslaglocaties in de onderneming worden verminderd, moeten uw beheer besluiten processen en beleidsregels en een training hebben om ervoor te zorgen dat auteurs van inhoud inzicht krijgen in de namen van bestanden en de manier waarop u een exemplaar van een document kunt volgen om te zorgen dat de inhoud op slechts één locatie wordt geplaatst U kunt er ook voor zorgen dat u niet per onecht meer dan één site of team hoeft te maken voor hetzelfde doel.
+- **Uitlijnen op zakelijke prioriteiten.** De tijd om na te denken over beheer is wanneer u de belangrijkste zakelijke prioriteiten identificeert voor de oplossingen die u in Microsoft 365 maakt. Met deze belangrijke bedrijfsresultaten wordt de context voor beheerplanning bepaald. Dit is belangrijk omdat uw bedrijfsdoelen u helpen bepalen hoeveel tijd en energie u nodig hebt om te investeren in beheer. Als het verbeteren van de vindbaarheid van inhoud in de hele organisatie bijvoorbeeld niet erg belangrijk is, hoeft u waarschijnlijk niet te veel tijd te besteden aan het afdwingen of plannen van conventies voor bestandsnaamgeving. Als u aan de andere kant wilt helpen bij het verminderen van exemplaren van meerdere versies van hetzelfde document in verschillende opslagplaatsen in de hele onderneming, hebben uw beheerbeslissingen processen en beleid en training nodig om ervoor te zorgen dat inhoudsauteurs begrijpen hoe ze bestanden een naam geven en 'één kopie van een document' volgen om ervoor te zorgen dat inhoud op slechts één locatie wordt geplaatst. Het betekent ook dat u een proces nodig hebt om ervoor te zorgen dat u niet onnodig meer dan één site of team maakt voor hetzelfde doel.
 
-## <a name="how-should-we-be-communicating-about-governance"></a>Hoe kunnen we communiceren over governance?
+## <a name="how-should-we-be-communicating-about-governance"></a>Hoe moeten we communiceren over governance?
 
-Tal van beschikbare beslissingen kunnen worden geïmplementeerd door functies in Microsoft 365 in of uit te schakelen. Dit kan u helpen bij het afdwingen van de standaarden voor het beheer, maar het is mogelijk dat de personen in uw organisatie niet op de hoogte zijn van de beschikbare functies en waarom (of waarom niet). 
+Veel beheerbeslissingen kunnen worden geïmplementeerd door functies in te schakelen of uit te schakelen in Microsoft 365. Dat kan helpen bij het afdwingen van uw beheerstandaarden, maar het helpt de mensen in uw organisatie mogelijk niet om te begrijpen wat er voor hen beschikbaar is en waarom (of waarom niet). 
 
-Normaalgesproken hebben teams met een overzicht van elke beheer beslissing lang documenten gemaakt. Helaas zijn deze lange documenten niet bijna leesbaar, wat bedoeld is voor de vereisten die het beheer van de werknemers op een niet-uitgevoerde ervaring beleggen. Zorg ervoor dat er geen lange documenten worden gemaakt die specifiek zijn bedoeld voor meerdere doelgroepen en wat u ervan vindt. In plaats daarvan kunt u het volgende doen:
+Vanouds hebben beheerteams lange documenten gemaakt waarin elke beheerbeslissing wordt belijnd. Helaas werden die lange documenten zelden gelezen, wat betekent dat beheervereisten die afhankelijk zijn van personen om af te dwingen, zelden hebben gewerkt. Probeer te voorkomen dat u lange documenten maakt die zijn gericht op meerdere doelgroepen terwijl u bedenkt hoe u uw belangrijke beslissingen over het beheer kunt communiceren. Denk in plaats daarvan na over deze alternatieven:
 
-- **Het rechtstreeks in de door u gemaakte oplossingen**. Als u er zeker van wilt zijn dat gevoelige informatie in Microsoft 365 wordt beschermd, moet u de vertrouwelijkheids labels implementeren, zodat u er zeker van bent dat uw gebruikers niet per ongeluk informatie weergeven. Blokkeer de toepassingen waarvoor u de juiste bescherming niet kunt verlenen. [Meer informatie over vertrouwelijkheids labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels).
+- **Beheerbeslissingen rechtstreeks insluiten in de oplossingen die u maakt.** Als u ervoor wilt zorgen dat gevoelige informatie wordt beveiligd in Microsoft 365, implementeert u gevoeligheidslabels om ervoor te zorgen dat uw gebruikers niet per ongeluk informatie openbaar maken die ze niet mogen gebruiken. Blokkeer de toepassingen waarin u de juiste beveiliging niet kunt bieden. [Meer informatie over gevoeligheidslabels.](../compliance/sensitivity-labels.md)
 
-- **Versterken met trainingen**. Pas oplossingen aan, zoals [Microsoft 365-leer routes](https://docs.microsoft.com/office365/customlearning) , om ervoor te zorgen dat uw organisatie-specifieke verwachtingen met behulp van Microsoft-training worden versterkt.
+- **Versterken met training.** Pas oplossingen aan zoals [Microsoft 365-leerpaden](/office365/customlearning) om ervoor te zorgen dat uw organisatiespecifieke verwachtingen worden versterkt met door Microsoft verstrekte training.
 
-- **Leveren als een site, geen document**. Maak uw eigen Microsoft 365-acceptatie centrum op een SharePoint-communicatiesite om ervoor te zorgen dat de auteurs van de inhoud en de site en het team hun eigenaren weten dat ze ze ook willen zien. Maak specifieke pagina's die verschillende bedrijfsscenario's bepakken, en aanbevolen procedures voor het gebruik van en best practices kunnen worden gebruikt in SharePoint en teams en andere toepassingen om bedrijfsresultaten te bereiken.
+- **Leveren als een site, niet als document.** Maak uw eigen Microsoft 365 Adoption Center op een SharePoint-communicatiesite om ervoor te zorgen dat uw inhoudsauteurs en site- en teameigenaren niet alleen 'how to' begrijpen, maar ook 'how should'. Maak onderwerpspecifieke pagina's waarin verschillende zakelijke scenario's worden besproken, zodat u zowel richtlijnen als goede praktijken kunt gebruiken om gebruik te maken van verschillende mogelijkheden in SharePoint en Teams en andere toepassingen om bedrijfsresultaten te bereiken.
 
-## <a name="what-are-the-key-success-factors"></a>Wat zijn de belangrijkste factoren wat succes?
+## <a name="what-are-the-key-success-factors"></a>Wat zijn de belangrijkste succesfactoren?
 
-Neem deze belangrijke succesfactoren om te zorgen voor succesvol beheer van het beheer van Microsoft 365.
+Neem deze belangrijke succesfactoren op om een succesvolle beheerplanning voor Microsoft 365 te garanderen.
 
-### <a name="identify-your-governance-core-team"></a>Het kern team van uw governance identificeren
+### <a name="identify-your-governance-core-team"></a>Uw kernteam voor beheer identificeren
 
-Governance is een team sport. Zorg dat het planningsteam voor kern beheer vertegenwoordigers van beide bedrijven en IT-medewerkers omvat. Uw team zal waarschijnlijk vaker aan het begin van uw implementatie moeten vergaderen en vervolgens regelmatig de nieuwe functies en de nieuwe zakelijke verwachtingen nakijken.
+Governance is een teamsport. Zorg ervoor dat uw kernbeheerplanningsteam vertegenwoordigers van zowel het bedrijf als de IT-organisatie bevat. Uw team moet waarschijnlijk vaker vergaderen aan het begin van de implementatie en vervolgens regelmatig nieuwe mogelijkheden en nieuwe zakelijke verwachtingen bekijken.
 
-Doorloop de beslissingen van belangrijke governance – maar probeer niet elke beslissing tegelijk te maken. Voer de kritieke beslissingen voor het inrichten en de naamgeving van de werkruimte en de externe toegang en werk de resterende beslissingen.
+Werk de belangrijkste beslissingen van het beheer af, maar probeer niet elke beslissing in één keer te nemen. Neem de kritieke beslissingen over inrichting, naamgeving en externe toegang en werk vervolgens door de resterende beslissingen.
 
-Naast extern delen, dat eerder is beschreven, is een andere belangrijke beslissing voor elke organisatie het inrichten van sites en groepen. U kunt bijvoorbeeld het volgende doen:
+Naast extern delen, dat eerder is besproken, is een andere belangrijke beslissing voor elke organisatie het inrichten van sites en groepen. Houd bijvoorbeeld rekening met het volgende:
 
-- Omdat gebruikers gebruikers ook Microsoft 365-groepen kunnen maken, kunt u het maken van groepen openen, zodat het niet overstroomd is met aanvragen voor het maken van namens andere personen. Om te voorkomen dat u ' groep sprawl ' kunt voorkomen, kunt u een aangepaste werkstroom maken waarmee een e-mailbericht wordt verzonden met beheer, training en andere informatie over het maken van een e-mailbericht met behulp van een beheerder, training (Bijvoorbeeld: ' u hebt zojuist een site/team, Community, etc.), de verantwoordelijkheden en koppelingen naar training... ') Afhankelijk van uw bedrijf, kunt u, afhankelijk van uw bedrijf, regelen wie de mogelijkheid heeft om groepen te maken.
+- Omdat het voor gebruikers zo eenvoudig is om Microsoft 365-groepen te maken, kunt u het maken van groepen openen, zodat de IT-instelling niet wordt overspoeld met verzoeken om ze namens andere personen te maken. Als u 'groepsuitbreiding' wilt voorkomen, kunt u een aangepaste werkstroom maken die een e-mail met beheer, training en andere informatie naar groepsmakers verzendt kort nadat de groep is gemaakt. (Bijvoorbeeld: 'U hebt zojuist een site/team, community, enzovoort gemaakt, hier zijn uw verantwoordelijkheden en koppelingen naar training...' Aan de andere kant, afhankelijk van uw bedrijf, wilt u misschien bepalen wie de mogelijkheid heeft om groepen te maken.
 
-- Als u wilt bepalen hoe SharePoint-sites worden gemaakt, kunt u de koppeling **site maken** verbergen op de startpagina van SharePoint. Maak een aangepast formulier, of maak een aangepast site-ontwerp en site script om het inrichten van nieuwe moderne SharePoint-sites te automatiseren met behulp van een vooraf gedefinieerde sitestructuur, waaronder koppelingen naar de aanbevolen procedures voor het beheer en de training kunnen bestaan.
+- Als u wilt bepalen hoe SharePoint-sites worden gemaakt, kunt u de **koppeling Site** maken verbergen op de startpagina van SharePoint. Maak een aangepast formulier of maak een aangepast site-ontwerp- en sitescript om het inrichten van nieuwe moderne SharePoint-sites te automatiseren met behulp van een vooraf gedefinieerde sitestructuur die koppelingen naar uw beheer en trainings best practices kan bevatten.
 
-### <a name="align-decisions-to-business-goals"></a>Beslissingen voor zakelijke doelstellingen uitlijnen
+### <a name="align-decisions-to-business-goals"></a>Beslissingen afstemmen op zakelijke doelstellingen
 
-Doelstellingen voor zakelijke resultaten dienen het belangrijkste stuurprogramma te zijn voor uw beheer besluiten:
+Bedrijfsresultaten moeten het belangrijkste stuurprogramma zijn voor uw beslissingen over het beheer:
 
-- Meer informatie over de wettelijke vereisten die van invloed zijn op uw organisatie. Sommige van de belangrijkste besluiten en de implementatievereisten moeten mogelijk worden afgestemd op de omgeving waarin u werkt.
+- Inzicht in de wettelijke vereisten die van invloed zijn op uw organisatie. Sommige belangrijke beslissingen en implementatievereisten moeten mogelijk worden afgestemd op de omgeving waarin u werkt.
 
-- Probeer niet te worden getrapt, wat we altijd doen. De Cloud en verhoging van de globalisering van een groot aantal organisaties introduceert nieuwe mogelijkheden. Uitdaging voor de uitdaging als ze niet zijn uitgelijnd met zakelijke doelstellingen. Kunt u de regels voor sommige scenario's of voor sommige personen soepeler maken? Krijgt u dezelfde zakelijke resultaten met behulp van de functies van Microsoft 365 in plaats van een activiteit helemaal te blokkeren?
+- Probeer niet vast te zitten in 'Dit is wat we altijd hebben gedaan'. De cloud en de toenemende globalisatie van veel organisaties bieden nieuwe mogelijkheden. Aannames uitdagen als ze niet worden uitgelijnd met zakelijke doelen. Kunt u de regels voor sommige scenario's of voor sommige personen ontspannen? Kunt u hetzelfde bedrijfsresultaat krijgen met de functies van Microsoft 365 in plaats van een activiteit volledig te blokkeren?
 
-- Als u alles op de gewenste positie vastmaakt, vindt u hier een werk. Leer inzicht krijgen in de belangrijke bedrijfsscenario's die uw gebruikers willen inschakelen en richtlijnen en training willen bieden. 
+- Als u alles vergrendelt, vinden mensen een work-around. Probeer de belangrijkste zakelijke scenario's te begrijpen die uw gebruikers zo nodig willen inschakelen en richtlijnen en training willen bieden. 
 
-- U kunt ook activiteiten opnemen om belangrijke sites en activiteiten te controleren om ervoor te zorgen dat site-en team eigenaren de richtlijnen voor het beheer volgen.
+- Overweeg activiteiten op te nemen om belangrijke sites en activiteiten te bekijken om ervoor te zorgen dat site- en teameigenaren uw beheeradvies volgen.
 
 ### <a name="define-roles-and-responsibilities"></a>Rollen en verantwoordelijkheden definiëren
 
-Naast uw beheer team, zijn er een aantal andere belangrijke rollen of teams die u moet nadenken over de succesvolle Microsoft 365. Sommige rollen kunnen worden gecombineerd of opgevuld met dezelfde persoon en voor andere organisaties is dit mogelijk niet van toepassing. De meeste organisaties hebben een executive sponsor voor Microsoft 365 als geheel en er is ook een stuurcomité of team voor Microsoft 365 als geheel of alleen voor het intranet. Meer [informatie over de uitgebreide beheerdersrollen en machtigingen die beschikbaar zijn in Microsoft 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
+Naast uw beheerteam zijn er verschillende andere belangrijke rollen of teams waar u aan wilt denken om succesvol te zijn met Microsoft 365. Sommige rollen kunnen worden gecombineerd of ingevuld door dezelfde persoon en andere rollen zijn mogelijk niet geschikt voor alle organisaties. De meeste organisaties hebben een executive sponsor voor Microsoft 365 als geheel en sommige organisaties hebben ook een stuurgroep of team voor Microsoft 365 als geheel of alleen voor het intranet. [Meer informatie over de uitgebreide beheerdersrollen en -machtigingen die beschikbaar zijn in Microsoft 365.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
-### <a name="revisit-as-business-and-technology-changes"></a>Bezoek opnieuw als bedrijfs-en technologiewijzigingen
+### <a name="revisit-as-business-and-technology-changes"></a>Opnieuw bezoeken wanneer zakelijke en technologische wijzigingen worden doorgevoerd
 
-Governance voor Microsoft 365 is niet eenmaal en gereed. Laat een plan op de hoogte blijven van wat er wordt gewijzigd in Microsoft 365 en pas zo nodig de richtlijnen voor het beheer aan. (Dit is een belangrijke reden waarom het maken van een lang beheer document een goed idee is. Bedrijven en technologieën veranderen. Een webpagina bijwerken is eenvoudig. Het bijwerken en opnieuw distribueren van een document is veel moeilijker.
+Beheer voor Microsoft 365 is niet 'eenmaal en klaar'. Heb een plan om op de hoogte te blijven van wat er verandert in Microsoft 365 en pas zo nodig uw beheerrichtlijnen aan. (Dit is een belangrijke reden waarom het maken van een lang beheerdocument geen goed idee is. Bedrijven en technologieën veranderen. Een webpagina bijwerken is eenvoudig. Het bijwerken en opnieuw distribueren van een document is veel moeilijker.)
 
-### <a name="have-a-strategy-for-communicating-governance-policies-and-guidelines"></a>Een strategie voor het communiceren van een beleidsregels en richtlijnen voor het communiceren
+### <a name="have-a-strategy-for-communicating-governance-policies-and-guidelines"></a>Een strategie voor het communiceren van beheerbeleid en -richtlijnen
 
-Uiteindelijk is het welslagen van uw beheeractiviteiten afhankelijk van de manier waarop u verwachtingen hebt gecommuniceerd aan de leden van uw organisatie. U kunt ook rekening houden met de suggesties die eerder worden beschreven:
+Uiteindelijk hangt het succes van uw planningsinspanningen af van hoe goed u verwachtingen hebt gecommuniceerd met de leden van uw organisatie. Naast de suggesties die eerder zijn beschreven, moet u ook rekening houden met het volgende:
 
-- U kunt ook ' Hoe moet ik ' meenemen? Met andere woorden kunt u een ' gebruikers resource centrum ' maken voor Microsoft 365 waarop u informatie kunt geven en oefenen om richtlijnen en training te bieden die gebruikers helpen bij het goedkeuren van Microsoft 365? De beste inhoud van het beheer bevat richtlijnen waarmee alle gebruikers de meeste waarden van Microsoft 365 kunnen aannemen en bereiken.
+- Kunt u 'hoe moet' worden opgenomen in uw 'how to'-training? Met andere woorden, kunt u een 'user resource center' maken voor Microsoft 365, waar u resources en training kunt bieden om richtlijnen en training te bieden die gebruikers helpen Microsoft 365 effectief te gebruiken? De beste beheerinhoud biedt richtlijnen waarmee alle gebruikers microsoft 365 gebruiken en de meeste waarde krijgen.
 
-- Maakt u een certificering en een nieuwe certificering voor site-en team eigenaren?
+- Moet u een certificering en hercertificering maken voor site- en teameigenaren?
 
-- U kunt een Microsoft 365 leiders-programma maken voor uw organisatie? Daarnaast kunt u zich ook aanmelden bij het wereldwijde [Microsoft 365-programma](https://aka.ms/O365Champions) voor het maken van ideeën en benaderingen voor uw eigen leiders-programma en om contact op te nemen met mensen die denken aan de aandacht van Microsoft.
+- Kunt u een Microsoft 365 Champions-programma voor uw organisatie maken? Overweeg bovendien om deel te nemen aan het wereldwijde [Microsoft 365-kampioensprogramma](https://aka.ms/O365Champions) om ideeën en benaderingen te krijgen voor uw eigen kampioenenprogramma en om contact te maken met gelijkgestemde personen en denkleiders van binnen en rond Microsoft.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Beheer in het Microsoft Cloud-acceptatie raamwerk voor Azure](https://docs.microsoft.com/azure/cloud-adoption-framework/govern)
+[Governance in het Microsoft Cloud Adoption Framework voor Azure](/azure/cloud-adoption-framework/govern)
 
-[Overzicht van SharePoint-beheer](https://docs.microsoft.com/sharepoint/governance-overview)
+[Overzicht van SharePoint-beheer](/sharepoint/governance-overview)
 
-[Beheer organisatie en levenscyclusbeheer voor groeps Services](plan-organization-lifecycle-governance.md)
+[Organisatie en levenscyclusbeheer plannen voor groepenservices](plan-organization-lifecycle-governance.md)
 
-[Samenwerken aan bestanden in SharePoint met Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)
+[Samenwerken aan bestanden in SharePoint met Microsoft 365](/sharepoint/deploy-file-collaboration)

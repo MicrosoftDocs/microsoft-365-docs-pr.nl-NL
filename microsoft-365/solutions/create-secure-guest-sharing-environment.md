@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Meer informatie over beschikbare opties in Microsoft 365 om een veilige omgeving voor delen met gasten te maken, waarin gasten toegang krijgen voor verbeterde samenwerking.
-ms.openlocfilehash: 28b2efba9f0c4ba17811a9871b05ab9f5a7a4839
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 0eb999d48bc0976d7c2bb32ff1bdba8d63409d81
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838671"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918464"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -39,7 +39,7 @@ Dit artikel bevat:
 - Automatisch een vertrouwelijkheidslabel toewijzen aan documenten die het type gevoelige informatie bevatten.
 - Gasttoegang automatisch verwijderen voor bestanden met een vertrouwelijkheidslabel.
 
-Voor een aantal van de opties die in dit artikel worden beschreven, moeten gasten een account hebben in Azure Active Directory. Als u er zeker van wilt zijn dat gasten worden opgenomen in de adreslijst wanneer u bestanden en mappen met hen deelt, gebruikt u de [SharePoint- en OneDrive-integratie met Azure AD B2B Preview](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
+Voor een aantal van de opties die in dit artikel worden beschreven, moeten gasten een account hebben in Azure Active Directory. Als u er zeker van wilt zijn dat gasten worden opgenomen in de adreslijst wanneer u bestanden en mappen met hen deelt, gebruikt u de [SharePoint- en OneDrive-integratie met Azure AD B2B Preview](/sharepoint/sharepoint-azureb2b-integration-preview).
 
 Merk op dat we het in dit artikel niet hebben over het inschakelen van instellingen voor het delen met gasten. Zie [Samenwerken met personen buiten uw organisatie](collaborate-with-people-outside-your-organization.md) voor meer informatie over het inschakelen van de functie voor het delen met gasten onder verschillende scenario's.
 
@@ -66,7 +66,7 @@ Nu moeten gasten zich eerst inschrijven voor meervoudige verificatie voordat ze 
 
 ### <a name="more-information"></a>Meer informatie
 
-[Een implementatie van meervoudige verificatie in Azure AD plannen](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+[Een implementatie van meervoudige verificatie in Azure AD plannen](/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## <a name="set-up-a-terms-of-use-for-guests"></a>Gebruiksvoorwaarden voor gasten instellen
 
@@ -108,11 +108,11 @@ Een voorwaardelijk toegangsbeleid maken
 De eerste keer dat een gast probeert toegang te krijgen tot inhoud of een team of site in uw organisatie, moeten ze de gebruiksvoorwaarden accepteren.
 
 > [!NOTE]
-> Het gebruik van voorwaardelijke toegang vereist een licentie voor Azure AD Premium P1. Raadpleeg [Wat is voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) voor meer informatie.
+> Het gebruik van voorwaardelijke toegang vereist een licentie voor Azure AD Premium P1. Raadpleeg [Wat is voorwaardelijke toegang](/azure/active-directory/conditional-access/overview) voor meer informatie.
 
 ### <a name="more-information"></a>Meer informatie
 
-[Gebruiksvoorwaarden voor Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)
+[Gebruiksvoorwaarden voor Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use)
 
 ## <a name="set-up-guest-access-reviews"></a>Revisies voor gasttoegang instellen
 
@@ -145,15 +145,15 @@ Het is belangrijk op te merken dat gasten toegang kunnen krijgen tot teams of gr
 
 ### <a name="more-information"></a>Meer informatie
 
-[Gasttoegang beheren met Azure AD-toegangscontroles](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)
+[Gasttoegang beheren met Azure AD-toegangscontroles](/azure/active-directory/governance/manage-guest-access-with-access-reviews)
 
-[Een toegangscontrole maken voor groepen of toepassingen in Azure AD-toegangscontroles](https://docs.microsoft.com/azure/active-directory/governance/create-access-review)
+[Een toegangscontrole maken voor groepen of toepassingen in Azure AD-toegangscontroles](/azure/active-directory/governance/create-access-review)
 
 ## <a name="set-up-web-only-access-for-guests"></a>Stel webtoegang in voor gasten
 
 U kunt het risico op een aanval beperken en het beheer vereenvoudigen door gasten alleen toegang te verlenen tot uw teams, sites en bestanden via een webbrowser.
 
-Voor Microsoft 365 en Teams wordt dit gedaan met beleid voor voorwaardelijke toegang van Azure AD. Voor SharePoint is dit geconfigureerd in het SharePoint-beheercentrum. (U kunt ook [vertrouwelijkheidslabels gebruiken om de toegang van gasten te beperken tot alleen webtoegang ](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).)
+Voor Microsoft 365 en Teams wordt dit gedaan met beleid voor voorwaardelijke toegang van Azure AD. Voor SharePoint is dit geconfigureerd in het SharePoint-beheercentrum. (U kunt ook [vertrouwelijkheidslabels gebruiken om de toegang van gasten te beperken tot alleen webtoegang ](../compliance/sensitivity-labels-teams-groups-sites.md).)
 
 De toegang van gasten beperken tot alleen webtoegang voor Groepen en Teams:
 
@@ -222,7 +222,7 @@ Een gevoelig informatietype maken
 
 ### <a name="more-information"></a>Meer informatie
 
-[Aangepaste gevoelige informatietypen](https://docs.microsoft.com/Office365/SecurityCompliance/custom-sensitive-info-types)
+[Aangepaste gevoelige informatietypen](/Office365/SecurityCompliance/custom-sensitive-info-types)
 
 ## <a name="create-an-auto-labeling-policy-to-assign-a-sensitivity-label-based-on-a-sensitive-information-type"></a>Een beleid voor automatisch labellen maken om een vertrouwelijkheidslabel toe te wijzen op basis van een type gevoelige informatie
 
@@ -252,11 +252,11 @@ Als het beleid van kracht is, zal het beleid voor automatisch labellen, wanneer 
 
 ### <a name="more-information"></a>Meer informatie
 
-[Een vertrouwelijkheidslabel automatisch toepassen op inhoud](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)
+[Een vertrouwelijkheidslabel automatisch toepassen op inhoud](../compliance/apply-sensitivity-label-automatically.md)
 
 ## <a name="create-a-dlp-policy-to-remove-guest-access-to-highly-sensitive-files"></a>Een DLP-beleid maken voor het verwijderen van gasttoegang tot zeer gevoelige bestanden
 
-U kunt [Preventie van gegevensverlies (DLP)](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) gebruiken om het ongewenst delen van gevoelige inhoud met gasten te voorkomen. Preventie van gegevensverlies kan actie ondernemen op basis van het vertrouwelijkheidslabel van een bestand en gasttoegang verwijderen.
+U kunt [Preventie van gegevensverlies (DLP)](../compliance/data-loss-prevention-policies.md) gebruiken om het ongewenst delen van gevoelige inhoud met gasten te voorkomen. Preventie van gegevensverlies kan actie ondernemen op basis van het vertrouwelijkheidslabel van een bestand en gasttoegang verwijderen.
 
 Een DLP-regel maken
 
@@ -287,9 +287,9 @@ Houd er rekening mee dat met dit beleid de toegang niet wordt ontzegd als de gas
 
 Er zijn enkele extra opties beschikbaar in Microsoft 365 en Azure Active Directory waarmee u uw omgeving voor het delen met gasten kunt beveiligen.
 
-- U kunt een lijst maken met toegestane of geweigerde domeinen om te beperken met wie gebruikers kunnen delen. Zie [Delen van SharePoint- en OneDrive-inhoud per domein beperken](https://docs.microsoft.com/sharepoint/restricted-domains-sharing) en [Uitnodigingen voor B2B-gebruikers van specifieke organisaties toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list) voor meer informatie.
-- U kunt bepalen met welke andere Azure Active Directory-tenants uw gebruikers verbinding kunnen maken. Zie [Tenant beperkingen gebruiken voor het beheren van de toegang tot SaaS-cloud-toepassingen](https://docs.microsoft.com/azure/active-directory/manage-apps/tenant-restrictions) voor meer informatie.
-- U kunt een beheerde omgeving maken waar partners kunnen helpen bij het beheren van gastaccounts. Zie [Een B2B-extranet maken met beheerde gasten](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet) voor meer informatie.
+- U kunt een lijst maken met toegestane of geweigerde domeinen om te beperken met wie gebruikers kunnen delen. Zie [Delen van SharePoint- en OneDrive-inhoud per domein beperken](/sharepoint/restricted-domains-sharing) en [Uitnodigingen voor B2B-gebruikers van specifieke organisaties toestaan of blokkeren](/azure/active-directory/b2b/allow-deny-list) voor meer informatie.
+- U kunt bepalen met welke andere Azure Active Directory-tenants uw gebruikers verbinding kunnen maken. Zie [Tenant beperkingen gebruiken voor het beheren van de toegang tot SaaS-cloud-toepassingen](/azure/active-directory/manage-apps/tenant-restrictions) voor meer informatie.
+- U kunt een beheerde omgeving maken waar partners kunnen helpen bij het beheren van gastaccounts. Zie [Een B2B-extranet maken met beheerde gasten](/Office365/Enterprise/b2b-extranet) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 

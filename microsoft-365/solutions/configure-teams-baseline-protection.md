@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Leer teams met een basisbescherming te implementeren.
-ms.openlocfilehash: 11554dbd7e33a77c9f6397ae9c5e91669f537081
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 4f38bf286b8ebd3edf6f7705299008566d2b7c8f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921868"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916332"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Teams met basisbescherming configureren
 
@@ -37,9 +37,9 @@ We raden u ook aan de basisfuncties van Defender voor Office 365 in te schakelen
 
 |Optie|Informatie|
 |:------|:-----------|
-|Veilige bijlagen voor SPO, OneDrive en Teams|[Veilige bijlagen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Defender voor Office 365 - SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
-|Veilige documenten|[Veilige documenten in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-|Veilige koppelingen voor Teams|[Veilige Office 365-koppelingen in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
+|Veilige bijlagen voor SPO, OneDrive en Teams|[Veilige bijlagen](../security/office-365-security/atp-safe-attachments.md)<br>[Defender voor Office 365 - SharePoint, OneDrive en Microsoft Teams](../security/office-365-security/atp-for-spo-odb-and-teams.md)|
+|Veilige documenten|[Veilige documenten in Microsoft Defender voor Office 365](../security/office-365-security/safe-docs.md)|
+|Veilige koppelingen voor Teams|[Veilige Office 365-koppelingen in Teams](../security/office-365-security/atp-safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[Veilige koppelingen](../security/office-365-security/atp-safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Delen met gasten in Teams
 
@@ -59,7 +59,7 @@ Instellingen voor gasttoegang in Teams instellen
 > [!NOTE]
 > Het kan 24 uur duren voordat de instelling voor gasten in Teams actief wordt nadat u deze hebt ingeschakeld.
 
-Delen met gasten is standaard ingeschakeld voor Office 365-groepen en SharePoint, maar als u eerder een van de instellingen voor het delen met gasten hebt gewijzigd voor uw organisatie, wordt u aangeraden [Samenwerken met gasten in een team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) te controleren om ervoor te zorgen dat de functie voor het delen met gasten beschikbaar is in Teams.
+Delen met gasten is standaard ingeschakeld voor Office 365-groepen en SharePoint, maar als u eerder een van de instellingen voor het delen met gasten hebt gewijzigd voor uw organisatie, wordt u aangeraden [Samenwerken met gasten in een team](./collaborate-as-team.md) te controleren om ervoor te zorgen dat de functie voor het delen met gasten beschikbaar is in Teams.
 
 ## <a name="site-and-file-sharing"></a>Sites en bestanden delen
 
@@ -71,7 +71,7 @@ De standaardkoppeling voor delen wijzigen
 3. Selecteer onder **Koppelingen naar bestanden en mappen** de optie **Alleen personen binnen uw organisatie**.
 4. Klik op **Opslaan**.
 
-Voor de beste ervaring voor het delen met gasten wordt u ook aangeraden om [SharePoint- en OneDrive-integratie met Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) in te schakelen.
+Voor de beste ervaring voor het delen met gasten wordt u ook aangeraden om [SharePoint- en OneDrive-integratie met Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration-preview) in te schakelen.
 
 ## <a name="create-a-team"></a>Een team maken
 
@@ -94,12 +94,12 @@ De instellingen voor het delen van een site bijwerken
 
 Microsoft 365 biedt aanvullende methoden voor het beveiligen van uw inhoud. Overweeg of de volgende opties de beveiliging van uw organisatie zouden kunnen verbeteren.
 
-- Laat uw gastgebruikers akkoord gaan met de [gebruiksrechtenovereenkomst](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
-- Configureer een [beleid voor de time-out van een sessie](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) voor gasten.
-- Maak [typen voor gevoelige informatie](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) en gebruik [gegevensverliesbeveiliging](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) om beleid in te stellen rond toegang tot gevoelige informatie.
+- Laat uw gastgebruikers akkoord gaan met de [gebruiksrechtenovereenkomst](/azure/active-directory/conditional-access/terms-of-use).
+- Configureer een [beleid voor de time-out van een sessie](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) voor gasten.
+- Maak [typen voor gevoelige informatie](../compliance/sensitive-information-type-learn-about.md) en gebruik [gegevensverliesbeveiliging](../compliance/data-loss-prevention-policies.md) om beleid in te stellen rond toegang tot gevoelige informatie.
 
 ## <a name="see-also"></a>Zie ook
 
-[Vergaderingsbeleid beheren in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
+[Vergaderingsbeleid beheren in Teams](/microsoftteams/meeting-policies-in-teams)
 
-[Aan de slag met insider-risicobeheer](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure)
+[Aan de slag met insider-risicobeheer](../compliance/insider-risk-management-configure.md)

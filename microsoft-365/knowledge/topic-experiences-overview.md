@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Overzicht van Viva Topics.
-ms.openlocfilehash: 91442ba12b3d5df1d9934022751f4bc381cd40e8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
-ms.translationtype: HT
+ms.openlocfilehash: 68a88e74a674a7bbc290ae0e8f88bfbe0277d910
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453967"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917378"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva Topics 
 
@@ -66,7 +66,7 @@ Wanneer een onderwerp wordt geïdentificeerd en AI bepaalt dat het voldoende inf
 
 Je kennisbeheerders kunnen ervoor kiezen om alle SharePoint-sites in je tenant te verkennen voor onderwerpen, of om alleen bepaalde sites te selecteren.
 
-Zie [Ontdekken en bewaren van onderwerpen](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery-curation)
+Zie [Ontdekken en bewaren van onderwerpen](./topic-experiences-discovery-curation.md)
 
 ## <a name="roles"></a>Rollen
 
@@ -108,7 +108,7 @@ Met beheerdersinstellingen in het Microsoft 365-beheercentrum kun je je kennisne
 - Bepalen welke gebruikers onderwerpen kunnen maken en bewerken.
 - Bepalen welke gebruikers onderwerpen kunnen bekijken.
 
-Zie [toewijzen van gebruikersmachtigingen](https://docs.microsoft.com/microsoft-365/knowledge/plan-topic-experiences#user-permissions), [beheren van zichtbaarheid van onderwerpen](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-knowledge-rules) en [beheren van verkennen van onderwerpen](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery) voor meer informatie over beheerdersinstellingen.
+Zie [toewijzen van gebruikersmachtigingen](./plan-topic-experiences.md#user-permissions), [beheren van zichtbaarheid van onderwerpen](./topic-experiences-knowledge-rules.md) en [beheren van verkennen van onderwerpen](./topic-experiences-discovery.md) voor meer informatie over beheerdersinstellingen.
 
 ## <a name="topic-curation--feedback"></a>Bewaren van onderwerpen en feedback
 
@@ -120,8 +120,7 @@ Gebruikers die je toegang geeft tot onderwerpen tijdens hun dagelijkse werkzaamh
 
 Daarnaast kunnen gebruikers met de juiste machtigingen items labelen, zoals een Yammer-gesprek dat relevant is voor een onderwerp, en ze toevoegen aan een specifiek onderwerp. 
 
-Zie [Ontdekken en bewaren van onderwerpen](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery-curation)
+Zie [Ontdekken en bewaren van onderwerpen](./topic-experiences-discovery-curation.md)
 
 
 ## <a name="see-also"></a>Zie ook
-

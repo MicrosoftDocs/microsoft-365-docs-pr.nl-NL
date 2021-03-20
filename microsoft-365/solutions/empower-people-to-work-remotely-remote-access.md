@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Zorg ervoor dat uw externe medewerkers toegang hebben tot on-premises informatiebronnen terwijl de toegang tot Microsoft 365-cloudservices wordt geoptimaliseerd.
-ms.openlocfilehash: 43000ce27fc24dbc6c2db3782b0ed40aa66b7fd2
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: ae86013ea1235c6dfd9929fd329cb0b2dba0fb93
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055529"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918348"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Stap 2. Externe toegang bieden tot on-premises apps en services
 
@@ -55,7 +55,7 @@ Microsoft 365-verkeer moet een indirecte route gebruiken binnen jouw organisatie
 
 Met split tunneling kunt u uw VPN-client zo configureren dat specifieke typen verkeer niet via de VPN-verbinding naar het bedrijfsnetwerk worden verzonden.
 
-Configureer uw split tunneling VPN-clients zodanig dat verkeer wordt uitgesloten naar de Microsoft 365-eindpuntcategorie **Optimaliseren** over de VPN-verbinding om toegang tot Microsoft 365-cloudresources te optimaliseren. Zie [Office 365-eindpuntcategorieën](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories) voor meer informatie.  Bekijk [de lijst](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) met eindpunten met categorie Optimaliseren.
+Configureer uw split tunneling VPN-clients zodanig dat verkeer wordt uitgesloten naar de Microsoft 365-eindpuntcategorie **Optimaliseren** over de VPN-verbinding om toegang tot Microsoft 365-cloudresources te optimaliseren. Zie [Office 365-eindpuntcategorieën](../enterprise/microsoft-365-network-connectivity-principles.md#new-office-365-endpoint-categories) voor meer informatie.  Bekijk [de lijst](../enterprise/urls-and-ip-address-ranges.md) met eindpunten met categorie Optimaliseren.
 
 Hier vindt u de stroom die het resultaat is van de gegevensoverdracht, waarin de meeste verkeer naar Cloud-apps voor Microsoft 365 de VPN-verbinding omzeilen.
 
@@ -63,7 +63,7 @@ Hier vindt u de stroom die het resultaat is van de gegevensoverdracht, waarin de
 
 Hiermee kan de VPN-client cruciaal Microsoft 365-cloudserviceverkeer direct over internet verzenden en ontvangen en via het dichtstbijzijnde ingangspunt in het Microsoft-netwerk.
 
-Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??) voor meer informatie en richtlijnen.
+Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](../enterprise/microsoft-365-vpn-split-tunnel.md) voor meer informatie en richtlijnen.
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Externe toegang implementeren wanneer al uw apps web-apps zijn en u een hybride identiteit hebt
 
@@ -73,7 +73,7 @@ Hier vindt u de onderdelen van Azure AD-toepassingsproxy.
 
 ![Onderdelen van Azure AD-toepassingsproxy](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-Zie dit [overzicht van Azure AD-toepassingsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)voor meer informatie.
+Zie dit [overzicht van Azure AD-toepassingsproxy](/azure/active-directory/manage-apps/application-proxy)voor meer informatie.
 
 >[!Note]
 >Azure AD-toepassingsproxy maakt geen deel uit van een Microsoft 365-abonnement. U moet betalen voor het gebruik met een afzonderlijk Azure-abonnement.
@@ -87,7 +87,7 @@ Een P2S VPN-verbinding maakt een beveiligde verbinding met uw bedrijfsnetwerk va
 
 ![Onderdelen van Azure P2S VPN](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-p2s-vpn.png)
 
-Zie dit [overzicht van P2S VPN](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about) voor meer informatie.
+Zie dit [overzicht van P2S VPN](/azure/vpn-gateway/point-to-site-about) voor meer informatie.
 
 >[!Note]
 >Azure P2S VPN maakt geen deel uit van een Microsoft 365-abonnement. U moet betalen voor het gebruik met een afzonderlijk Azure-abonnement.
@@ -99,7 +99,7 @@ Om externe medewerkers te ondersteunen die alleen hun persoonlijke en onbeheerde
 
 ![Onderdelen van Azure Windows Virtual Desktop](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-Voor meer informatie raadpleegt u dit [overzicht van Windows-virtueel bureaublad](https://docs.microsoft.com/azure/virtual-desktop/overview). 
+Voor meer informatie raadpleegt u dit [overzicht van Windows-virtueel bureaublad](/azure/virtual-desktop/overview). 
 
 >[!Note]
 >Windows Virtual Desktop maakt geen deel uit van een Microsoft 365-abonnement. U moet betalen voor het gebruik met een afzonderlijk Azure-abonnement.
@@ -116,7 +116,7 @@ Zie [dit artikel](https://www.microsoft.com/security/blog/2020/04/16/security-gu
 ## <a name="admin-technical-resources-for-remote-access"></a>Technische bronnen voor beheerders voor externe toegang
 
 - [Office 365-verkeer snel optimaliseren voor externe medewerkers en de belasting van uw infrastructuur verminderen](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
+- [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](../enterprise/microsoft-365-vpn-split-tunnel.md)
 
 ## <a name="results-of-step-2"></a>Resultaten van stap 2
 
@@ -136,4 +136,3 @@ Na de implementatie van een oplossing voor externe toegang voor uw externe medew
 [![Stap 3: Beveiligings- en complianceservices van Microsoft 365 implementeren](../media/empower-people-to-work-remotely/remote-workers-step-grid-3.png)](empower-people-to-work-remotely-security-compliance.md)
 
 Ga verder met [stap 3](empower-people-to-work-remotely-security-compliance.md) om beveiligings- en complianceservices van Microsoft 365 te implementeren om uw apps, gegevens en apparaten te beveiligen.
-

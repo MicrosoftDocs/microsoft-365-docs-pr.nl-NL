@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Gebruik PowerShell voor Microsoft 365 om beleidsregels voor Skype voor Bedrijven Online, beleidsregels per gebruiker en vergaderingsinstellingen te beheren.
-ms.openlocfilehash: 1992edfb6d1c141c7ed4db22064960873b768865
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 4477dadf0ea38a81ac0ae282da3f74fc12f3406f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50514954"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916678"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>Skype voor Bedrijven Online beheren met PowerShell
 
@@ -32,7 +32,7 @@ De beheerders van Skype voor Bedrijven Online zijn verantwoordelijk voor het bel
   > [!Note]
    > Skype voor Bedrijven Online-connector maakt momenteel deel uit van de nieuwste Teams PowerShell-module. Als u de meest recente openbare versie van Teams PowerShell gebruikt, hoeft u de Skype voor Bedrijven Online-connector niet te installeren.
    
-Installeer de [Teams PowerShell-module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+Installeer de [Teams PowerShell-module](/microsoftteams/teams-powershell-install).
 
 
 ## <a name="connect-using-admin-credentials"></a>Verbinding maken met beheerdersreferenties.
@@ -75,4 +75,4 @@ Zie voor meer informatie:
   
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)
 
-[PowerShell-cmdlet-verwijzingen voor Skype voor Bedrijven](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[PowerShell-cmdlet-verwijzingen voor Skype voor Bedrijven](/powershell/module/skype/?view=skype-ps)
