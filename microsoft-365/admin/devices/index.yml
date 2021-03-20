@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Apparaten en app-gegevens beveiligen en beheren
-summary: Raadpleeg deze informatiebronnen om beheerders te helpen bij het kiezen van de verschillende methoden voor apparaat-en app-gegevensbeheer.
+summary: Bekijk deze bronnen om beheerders te helpen kiezen tussen methoden voor apparaat- en app-gegevensbeheer.
 metadata:
   title: Apparaten en app-gegevens beveiligen en beheren
   description: Apparaten en app-gegevens beheren en beveiligen
@@ -11,58 +11,58 @@ metadata:
   ms.date: 09/09/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: a70d8471d8344f7bf479e050c59d6c6b3d97f5fe
-  ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+  ms.openlocfilehash: 2b15d19025f42db0b4f79adb6f4156f7a115f227
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 11/06/2020
-  ms.locfileid: "48930258"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50910436"
 landingContent:
-- title: Verschillende MDM-en MAM-methoden
+- title: Verschillende MDM- en MAM-methoden
   linkLists:
   - linkListType: overview
     links:
-    - text: Opties voor gegevensbeveiliging van apparaten controleren en apps
+    - text: Opties voor apparaat- en app-gegevensbeveiliging controleren
       url: choose-device-security.md
-- title: Apparaten en app-gegevens beheren met Microsoft intune
+- title: Apparaten en app-gegevens beheren met Microsoft Intune
   linkLists:
   - linkListType: overview
     links:
-    - text: Overzicht van apparaatregistratie
-      url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
+    - text: Overzicht van apparaatinschrijving
+      url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
     - text: Automatische inschrijving instellen voor Windows 10-apparaten
-      url: https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment
-    - text: Android-registratie instellen
-      url: https://docs.microsoft.com/mem/intune/enrollment/android-enroll
-    - text: IOS-iPadOS-registratie instellen
-      url: https://docs.microsoft.com/mem/intune/enrollment/ios-enroll
+      url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
+    - text: Android-inschrijving instellen
+      url: /mem/intune/enrollment/android-enroll
+    - text: IOS/iPadOS-inschrijving instellen
+      url: /mem/intune/enrollment/ios-enroll
 - title: Apparaten en app-gegevens beheren met Microsoft 365 Business Premium
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Beleid voor app-en Apparaatbeheer weergeven en beheren
+    - text: Beleidsregels voor app- en apparaatbeheer weergeven en beheren
       url: ../../business/view-policies-and-devices.md
     - text: Bedrijfsgegevens van apparaten verwijderen
       url: ../../business/remove-company-data.md
-    - text: Windows-apparaten terugzetten naar de fabrieksinstellingen
+    - text: Windows-apparaten opnieuw instellen op fabrieksinstellingen
       url: ../../business/reset-devices-to-factory-settings.md
-- title: Apparaten en app-gegevens beheren met Microsoft 365 for Enterprise
+- title: Apparaten en app-gegevens beheren met Microsoft 365 voor bedrijven
   linkLists:
   - linkListType: overview
     links:
-    - text: Overzicht van Microsoft 365 for Enterprise
+    - text: Overzicht van Microsoft 365 voor bedrijven
       url: ../../enterprise/microsoft-365-overview.md
-    - text: Mobiel beheer van Apparaatbeheer voor Microsoft 365 for Enterprise
+    - text: Routekaart apparaatbeheer voor Microsoft 365 voor bedrijven
       url: ../../enterprise/device-management-roadmap-microsoft-365.md
-- title: Apparaten en app-gegevens beheren met basis mobiliteit en beveiliging
+- title: Apparaten en app-gegevens beheren met basismobiliteit en beveiliging
   linkLists:
   - linkListType: overview
     links:
-    - text: Overzicht van eenvoudige mobiliteit en beveiliging
+    - text: Overzicht van de Basic Mobility en Security
       url: ../basic-mobility-security/overview.md
-    - text: Eenvoudige mobiliteit en beveiliging instellen
+    - text: Basismobiliteit en beveiliging instellen
       url: ../basic-mobility-security/set-up.md
-    - text: Mogelijkheden van eenvoudige mobiliteit en beveiliging
+    - text: Mogelijkheden van basismobiliteit en beveiliging
       url: ../basic-mobility-security/capabilities.md
