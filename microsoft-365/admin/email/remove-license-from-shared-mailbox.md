@@ -21,31 +21,31 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
-description: 'Licentie uit een gedeeld postvak verwijderen om het aan een andere gebruiker toe te wijzen. '
-ms.openlocfilehash: 11d5185cc3f79899a737ddccc0a93160acb380bc
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+description: 'Verwijder de licentie uit een gedeeld postvak om het toe te wijzen aan een andere gebruiker. '
+ms.openlocfilehash: 1acd549936212db7f722355ed1f2518ff6bbac18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698301"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915684"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Een licentie uit een gedeeld postvak verwijderen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
-Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies voor het verwijderen van een licentie uit een gedeeld postvak, zodat u deze kunt toewijzen aan een gebruiker of de licentie moet retourneren, zodat u niet betaalt voor een licentie die u niet nodig hebt.
+Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies om een licentie uit een gedeeld postvak te verwijderen, zodat u deze aan een gebruiker kunt toewijzen of de licentie kunt retourneren, zodat u niet betaalt voor een licentie die u niet nodig hebt.
 
 > [!NOTE]
-> Voor de volgende scenario's is een licentie vereist:
-> 1. Het gedeelde Postvak heeft meer dan 50 GB opslagruimte in gebruik.
-> 2. Het gedeelde Postvak gebruikt in-place archivering.
-> 3. Het gedeelde Postvak wordt in de wachtstand geplaatst.
-> 4. Voor het gedeelde Postvak is een Microsoft Defender-licentie toegewezen.
+> In de volgende scenario's is een licentie vereist:
+> 1. Het gedeelde postvak heeft meer dan 50 GB opslagruimte in gebruik.
+> 2. In het gedeelde postvak wordt archivering op de plaats gebruikt.
+> 3. Het gedeelde postvak wordt in de procedure geplaatst.
+> 4. Aan het gedeelde postvak is een Microsoft Defender-licentie toegewezen.
 
   
 ## <a name="remove-the-license"></a>De licentie verwijderen
@@ -55,17 +55,17 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
    > [!NOTE]
-   > U moet de licentie verwijderen van de pagina actieve gebruikers. U kunt de licentie niet verwijderen van de pagina gedeeld postvak omdat de licenties gebruikersinstellingen zijn. 
+   > U moet de licentie verwijderen van de pagina Actieve gebruikers. U kunt de licentie niet verwijderen van de pagina Gedeeld postvak, omdat licenties gebruikersinstellingen zijn. 
   
-2. Selecteer het gedeelde Postvak.
+2. Selecteer het gedeelde postvak.
 
-3. Selecteer op het tabblad **licenties en apps** de optie **licenties** en schakel het selectievakje uit van de licentie die u wilt verwijderen.
+3. Ga naar **het tabblad Licenties en apps,** vouw Licenties **uit** en het selectievakje uit voor de licentie die u wilt verwijderen.
 
 4. Selecteer **Wijzigingen opslaan**.
 
-5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie** gewijzigd.
+5. Wanneer u terugkeert naar de pagina **Actieve gebruikers,** is de status van het gedeelde postvak **niet-gelicenseerd.**
 
-6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md).
+6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement.](../../commerce/licenses/buy-licenses.md)
 
 ::: moniker-end
 
@@ -74,17 +74,17 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
  1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
     > [!NOTE]
-    > U moet de licentie verwijderen van de pagina actieve gebruikers. U kunt de licentie niet verwijderen van de pagina gedeeld postvak omdat de licenties gebruikersinstellingen zijn.
+    > U moet de licentie verwijderen van de pagina Actieve gebruikers. U kunt de licentie niet verwijderen van de pagina Gedeeld postvak, omdat licenties gebruikersinstellingen zijn.
 
-2. Selecteer het gedeelde Postvak en selecteer vervolgens **bewerken** naast **product licenties**.
+2. Selecteer het gedeelde postvak en selecteer **vervolgens Bewerken** naast **Productlicenties.**
 
-3. Stel op de pagina **product licenties** de wisselknop op **uit** voor de licentie die u wilt verwijderen.
+3. Ga naar **de pagina Productlicenties** en stel de schakelknop in **op Uit** voor de licentie die u wilt verwijderen.
 
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
-5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie** gewijzigd.
+5. Wanneer u terugkeert naar de pagina **Actieve gebruikers,** is de status van het gedeelde postvak **niet-gelicenseerd.**
 
-6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md).
+6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement.](../../commerce/licenses/buy-licenses.md)
 
 ::: moniker-end
 
@@ -93,17 +93,17 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
  1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
     > [!NOTE]
-    > U moet de licentie verwijderen van de pagina actieve gebruikers. U kunt de licentie niet verwijderen van de pagina gedeeld postvak omdat de licenties gebruikersinstellingen zijn.
+    > U moet de licentie verwijderen van de pagina Actieve gebruikers. U kunt de licentie niet verwijderen van de pagina Gedeeld postvak, omdat licenties gebruikersinstellingen zijn.
 
-2. Selecteer het gedeelde Postvak en selecteer vervolgens **bewerken** naast **product licenties**.
+2. Selecteer het gedeelde postvak en selecteer **vervolgens Bewerken** naast **Productlicenties.**
 
-3. Stel op de pagina **product licenties** de wisselknop op **uit** voor de licentie die u wilt verwijderen.
+3. Ga naar **de pagina Productlicenties** en stel de schakelknop in **op Uit** voor de licentie die u wilt verwijderen.
 
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
-5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie** gewijzigd.
+5. Wanneer u terugkeert naar de pagina **Actieve gebruikers,** is de status van het gedeelde postvak **niet-gelicenseerd.**
 
-6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md).
+6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement.](../../commerce/licenses/buy-licenses.md)
 
 ::: moniker-end 
 

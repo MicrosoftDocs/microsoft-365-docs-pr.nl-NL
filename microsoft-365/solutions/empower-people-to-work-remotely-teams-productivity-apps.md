@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: ce19085a358861238e9a7cd4d650246d08fd272d
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: 7b62191d08e5ff91e54bb16b06a0511e02f16b6d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055487"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916176"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
 
@@ -42,7 +42,7 @@ Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerk
 
 Met Teams kunt u op één plek chatten, vergaderen, bellen en samenwerken. Miljoenen mensen doen elke dag hun werk in Teams, omdat het alles wat u nodig hebt om extern te werken, samenbrengt in een hub voor teamwork. 
 
-Voor gedetailleerde informatie, zie[Externe medewerkers ondersteunen met Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams). 
+Voor gedetailleerde informatie, zie[Externe medewerkers ondersteunen met Microsoft Teams](/microsoftteams/support-remote-work-with-teams). 
 
 Bekijk de [webcasts Inschakelen van hybride werkzaamheden met Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/) voor hulp bij en demo's over het gebruik van Teams voor extern werk.
 
@@ -76,10 +76,10 @@ Bij het samenwerken aan inhoud kunnen externe medewerkers SharePoint- en OneDriv
 
 Mogelijk moet u uw documenten migreren naar SharePoint of OneDrive vanuit:
 
-- [SharePoint Server-teamsites](https://docs.microsoft.com/sharepointmigration/sp-teams-sites-migration-guide)
-- [MySites](https://docs.microsoft.com/sharepointmigration/mysites-to-onedrive-migration-guide)
-- [Bestandsshares](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide)
-- [Vak](https://docs.microsoft.com/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
+- [SharePoint Server-teamsites](/sharepointmigration/sp-teams-sites-migration-guide)
+- [MySites](/sharepointmigration/mysites-to-onedrive-migration-guide)
+- [Bestandsshares](/sharepointmigration/fileshare-to-odsp-migration-guide)
+- [Vak](/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
 
 Zie [dit artikel](../security/office-365-security/sharepoint-file-access-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om SharePoint en OneDrive te beveiligen.
 
@@ -87,15 +87,15 @@ Zie [dit artikel](../security/office-365-security/sharepoint-file-access-policie
 
 Microsoft 365-apps is de meest productieve en veiligste Office-ervaring voor ondernemingen, waarmee medewerkers naadloos samen kunnen werken vanaf elke locatie op elk moment. Externe medewerkers kunnen met meerdere personen tegelijk aan een document werken en in realtime bewerkingen en wijzigingen zien vanaf elk(e) laptop, pc of mobiel apparaat.
 
-Zie de [implementatiehandleiding voor Microsoft 365-apps](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps) voor meer informatie.
+Zie de [implementatiehandleiding voor Microsoft 365-apps](/deployoffice/deployment-guide-microsoft-365-apps) voor meer informatie.
 
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>Technische bronnen voor beheerders voor productiviteits-apps en -services
 
-- [Externe medewerkers ondersteunen met Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
+- [Externe medewerkers ondersteunen met Microsoft Teams](/microsoftteams/support-remote-work-with-teams)
 - [Webcasts Hybride werkzaamheden inschakelen met Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)
 - [Teams Customer Success Kit downloaden](https://www.microsoft.com/download/details.aspx?id=54244)
-- [Hulpmiddelen voor de acceptatie van Teams](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
-- [Een strategie voor veranderingsmanagement maken voor Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)
+- [Hulpmiddelen voor de acceptatie van Teams](/microsoftteams/adopt-tools-and-downloads) 
+- [Een strategie voor veranderingsmanagement maken voor Microsoft Teams](/MicrosoftTeams/change-management-strategy)
 - [Teams met drie beschermingsniveaus](configure-teams-three-tiers-protection.md)
 
 ## <a name="user-training-resources-for-productivity-apps-and-services"></a>Bronnen voor gebruikerstraining voor productiviteits-apps en -services

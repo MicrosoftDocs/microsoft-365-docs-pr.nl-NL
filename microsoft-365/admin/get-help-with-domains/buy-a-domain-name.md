@@ -22,42 +22,42 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
-description: Informatie over het kopen van een domeinnaam in Microsoft 365.
-ms.openlocfilehash: d7215db61577968bb2b21f708bda9d42acd7e675
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+description: Meer informatie over het kopen van een domeinnaam in Microsoft 365.
+ms.openlocfilehash: 24c6ac017cf25e1a40148e7a2c982e9d1068664b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126391"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915672"
 ---
 # <a name="buy-a-domain-name"></a>Een domeinnaam kopen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
- *Als u domeinen wilt toevoegen, wijzigen of verwijderen, **moet** u een globale **beheerder** van een bedrijfs- of [ondernemingsplan zijn.](https://products.office.com/business/office) Deze wijzigingen zijn van invloed op  de hele tenant, aangepaste *beheerders* of gewone gebruikers kunnen deze wijzigingen niet aanbrengen.*  
+ *Als u domeinen wilt toevoegen, wijzigen of verwijderen, **moet** u een **globale beheerder** van een bedrijfs- of [ondernemingsplan zijn.](https://products.office.com/business/office) Deze wijzigingen zijn van invloed op de hele tenant, *aangepaste beheerders* of *gewone* gebruikers kunnen deze wijzigingen niet aanbrengen.*  
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Meld u aan en ga naar Settings \> Domains \> Buy a domain
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Meld u aan en ga naar Instellingen \> Domeinen \> een domein kopen
 
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
     
-3. Selecteer Domein **kopen op de** pagina **Domeinen.**
+3. Selecteer domein **kopen op de pagina** **Domeinen.**
     
 U kunt kiezen uit de volgende topleveldomeinen voor uw domein.
   
 - .biz
     
-- .COM
+- .com
     
-- .INFO
+- .info
     
-- .ME
+- .me
     
 - .mobi
     
@@ -65,7 +65,7 @@ U kunt kiezen uit de volgende topleveldomeinen voor uw domein.
     
 - .org
     
-- .TV
+- .tv
     
 - .co.uk
     
@@ -73,13 +73,13 @@ U kunt kiezen uit de volgende topleveldomeinen voor uw domein.
     
 
 > [!NOTE]
-> Wanneer u Domein **kopen selecteert,** wordt u mogelijk omgeleid naar de website van uw Microsoft-partner als de tenant wordt gekocht of beheerd via een Microsoft-partner.
+> Wanneer u **Domein kopen selecteert,** wordt u mogelijk omgeleid naar de website van uw Microsoft-partner als de tenant wordt gekocht/beheerd via een Microsoft-partner.
 
 ### <a name="domain-privacy"></a>Domein privacy
-We bieden een gratis Domein Privacy-abonnement bij de aankoop van een domein. Hiermee blijven uw contactgegevens bij de registratie van uw domein bij ICANN privé. [Meer informatie.](https://whois.icann.org/en/privacy-and-proxy-services)
+We bieden een gratis domain privacy-abonnement bij de aankoop van een domein. Hierdoor blijven uw contactgegevens gekoppeld aan de registratie van uw domein met ICANN privé. [Meer informatie.](https://whois.icann.org/en/privacy-and-proxy-services)
   
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>Een domein kopen bij een andere domeinregistrar
-Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https://www.godaddy.com)is het raadzaam hieronder een domein te gebruiken dat ondersteuning biedt voor automatisch instellen (Domain Connect). 
+Als u een domein wilt kopen bij een andere domeinregistrar dan [GoDaddy,](https://www.godaddy.com)raden we u aan hieronder een domein te gebruiken dat automatische installatie ondersteunt (Domain Connect). 
   
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [WordPress](https://www.wordpress.com) 
@@ -101,17 +101,17 @@ Vraag de overdracht aan bij de registrar waarnaar u uw domein wilt verplaatsen. 
 
 Als u nog geen eigen domein hebt, kunt u gemakkelijk online een domein kopen bij een domeinnaamregistrar, een domeinverkoper, of zelfs bij uw huidige internetprovider. U krijgt een domeinnaam wanneer u zich registreert voor Office 365 beheerd door 21Vianet, bijvoorbeeld contoso.partner.onmschina.cn. Maar misschien wilt u een aangepaste domeinnaam gebruiken, zoals fourthcoffee.com.
   
-Als u een domein wilt instellen in Microsoft 365, moet u eigenaar zijn van een domein en enkele DNS-records voor uw domein wijzigen.
+Als u een domein wilt instellen in Microsoft 365, moet u eigenaar zijn van een domein en een aantal DNS-records voor uw domein wijzigen.
   
 > [!CAUTION]
-> Sommige domeinregistrars of DNS-hostingproviders staan niet toe dat alle DNS-records die zijn vereist voor Microsoft 365, worden gemaakt. De hostingproviders uit de volgende lijst bieden ondersteuning voor alle benodigde records. Als u overweegt een andere hostingprovider te gebruiken, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
+> Sommige domeinregistrars of DNS-hostingproviders staan niet toe dat alle DNS-records worden gemaakt die vereist zijn door Microsoft 365. De hostingproviders uit de volgende lijst bieden ondersteuning voor alle benodigde records. Als u overweegt een andere hostingprovider te gebruiken, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
   
-Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meld u zich aan als beheerder bij Microsoft 365 en stelt u uw domein in, zodat u het kunt gebruiken met uw e-mailadres en andere services.
+Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meld u zich als beheerder aan bij Microsoft 365 en stelt u uw domein in, zodat u het kunt gebruiken met uw e-mailadres en andere services.
   
 > [!NOTE]
-> De informatie over de openbare SharePoint Online-website in dit artikel is alleen van toepassing als uw organisatie Microsoft 365 heeft gekocht vóór 9 maart 2015. 
+> De informatie over openbare SharePoint Online-website in dit artikel is alleen van toepassing als uw organisatie Microsoft 365 heeft gekocht vóór 9 maart 2015. 
 
-## <a name="domain-registrars-that-support-all-dns-records-required-for-microsoft-365"></a>Domeinregistrars die ondersteuning bieden voor alle DNS-records die vereist zijn voor Microsoft 365
+## <a name="domain-registrars-that-support-all-dns-records-required-for-microsoft-365"></a>Domeinregistrars die alle DNS-records ondersteunen die vereist zijn voor Microsoft 365
 
 - [Oray](https://oray.com/)
     
@@ -129,4 +129,4 @@ Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meld u zich aan 
 
 [Veelgestelde vragen over domeinen](../setup/domains-faq.yml)
 
-[WERK DNS-records bij als u uw website bij uw huidige hostingprovider wilt houden.](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider)
+[Werk DNS-records bij om uw website bij uw huidige hostingprovider te houden.](../dns/update-dns-records-to-retain-current-hosting-provider.md)

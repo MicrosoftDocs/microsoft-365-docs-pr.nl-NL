@@ -24,17 +24,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
-description: Lees hoe u e-mailhandtekeningen beheert, inclusief juridische vrijwaringen of openbaarmakingsverklaringen voor alle e-mailberichten die uw organisatie binnenkomen of verlaten.
-ms.openlocfilehash: c8d63a11a75b9b53de9cabdf1f4baabc61cc3e42
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Informatie over het beheren van e-mailhandtekeningen, inclusief juridische vrijwaringen of openbaarmakingsverklaringen voor alle e-mailberichten die uw organisatie binnenkomen of verlaten.
+ms.openlocfilehash: b599ef8b6d0bb236b6111bae86c92409601e00d0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926916"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914232"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Handtekeningen en vrijwaringen voor de hele organisatie maken
 
- U kunt e-mailhandtekeningen beheren door een e-mailhandtekening, juridische vrijwaring of openbaarmakingsverklaring toe te voegen aan de e-mailberichten die uw organisatie binnenkomen of verlaten. U kunt dit toepassen op alle binnenkomende en uitgaande berichten zoals hieronder wordt weergegeven. Of u kunt dit toepassen op bepaalde berichten, zoals berichten met specifieke woorden of tekstpatronen.
+ U kunt e-mailhandtekeningen beheren door een e-mailhandtekening, wettelijke vrijwaring of openbaarmakingsverklaring toe te voegen aan de e-mailberichten die uw organisatie binnenkomen of verlaten. U kunt dit toepassen op alle binnenkomende en uitgaande berichten zoals hieronder wordt weergegeven. Of u kunt dit toepassen op bepaalde berichten, zoals berichten met specifieke woorden of tekstpatronen.
 
  Bekijk een korte video over het maken van een e-mailhandtekening voor het hele bedrijf. <br><br>
   
@@ -45,51 +45,51 @@ Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Een handtekening maken die van toepassing is op alle berichten
 
 > [!TIP]
-> Handtekeningen voor de hele organisatie worden vrijwaringen genoemd, ongeacht wat deze bevatten. Ze kunnen bijvoorbeeld alleen een handtekening zijn of uw adres, juridische vrijwaring of andere informatie bevatten.
+> Handtekeningen voor de hele organisatie worden 'vrijwaringen' genoemd, ongeacht wat ze bevatten. Ze kunnen bijvoorbeeld gewoon een handtekening zijn, of ook uw adres, wettelijke vrijwaring of andere informatie bevatten die u wilt.
     
 ::: moniker range="o365-worldwide"
 
-Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.
+Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a>.
+Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a>.
 
 ::: moniker-end
 
-1. Selecteer het startpictogram voor apps Het startpictogram voor apps ![ en selecteer vervolgens ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) **Beheerder.**
+1. Selecteer het startpictogram voor apps Het startpictogram voor ![ apps en selecteer vervolgens ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) **Beheerder.**
    
-    Kunt u de app die u zoekt niet vinden? Selecteer alle apps in het start programma voor **apps** om een alfabetische lijst weer te geven met apps die voor u beschikbaar zijn. Van daaruit kunt u zoeken naar een specifieke app. 
+    Kunt u de app die u zoekt niet vinden? Selecteer alle apps in het startlijst voor **apps** om een alfabetische lijst weer te geven met de apps die voor u beschikbaar zijn. Van daaruit kunt u zoeken naar een specifieke app. 
     
-2. Selecteer **beheercentra** en kies **Exchange.**
+2. Selecteer **Beheercentra** en kies vervolgens **Exchange.**
     
-3. Selecteer Regels onder **E-mailstroom.**
+3. Selecteer onder E-mailstroom de optie **Regels.**
     
 4. Selecteer het **+** pictogram (Toevoegen) en kies **Vrijwaringen toepassen.**
     
 5. Geef een naam op voor de regel.
     
-6. Selecteer **onder Deze regel toepassen** de optie **[Op alle berichten toepassen].**
+6. Selecteer **onder Deze regel toepassen** de optie **[Toepassen op alle berichten]**.
     
     > [!TIP]
-    > [Meer informatie](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) over het toepassen van voorwaarden als u niet wilt dat de vrijwaring wordt toegepast op alle berichten. (Dit artikel is bedoeld voor Exchange Server, maar is ook van toepassing op Microsoft 365.) 
+    > [Meer informatie](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) over het toepassen van voorwaarden als u niet wilt dat de vrijwaring wordt toegepast op alle berichten. (Dit scoping-artikel is bedoeld voor Exchange Server, maar is ook van toepassing op Microsoft 365.) 
   
 7. Laat onder Ga als volgt te werk de optie **De vrijwaring toevoegen** ingeschakeld. 
     
-8.  Selecteer **Tekst invoeren en** typ de vrijwaring. 
+8.  Selecteer **Tekst invoeren** en typ uw vrijwaring. 
     
     > [!TIP]
-    > [Meer informatie](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) over het opmaken van vrijwaringen. (Dit opmaakartikel is bedoeld voor Exchange Server, maar is ook van toepassing op Microsoft 365.) 
+    > [Meer informatie](/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) over het opmaken van vrijwaringen. (Dit opmaakartikel is bedoeld voor Exchange Server, maar is ook van toepassing op Microsoft 365.) 
 
-9. Selecteer **Er een selecteren** en kies **Terugloop** als terugvaloptie. Klik op **OK**. Dit betekent dat als de vrijwaring niet kan worden toegevoegd vanwege versleuteling of een andere e-mailinstelling, deze wordt ingesloten in een berichtenvelop.
+9. Selecteer **Selecteer een optie** en kies **Terugloop** als een terugvaloptie. Klik op **OK**. Dit betekent dat als de vrijwaring niet kan worden toegevoegd vanwege versleuteling of een andere e-mailinstelling, deze wordt ingesloten in een berichtenvelop.
     
 10. Laat **De regel controleren met niveau van ernst** ingeschakeld. Kies nu **Laag**, **Normaal** of **Hoog** voor gebruik in het berichtenlogboek. 
     
@@ -103,16 +103,16 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
 
 U kunt het volgende niet doen bij het beheren van e-mailhandtekeningen in Microsoft 365:
   
-- De handtekening rechtstreeks onder de meest recente e-mail beantwoorden of doorsturen
+- De handtekening rechtstreeks invoegen onder het meest recente e-mailbericht beantwoorden of doorsturen
     
 - E-mailhandtekeningen op de server weergeven in de mappen Verzonden items van gebruikers
     
 - Afbeeldingen insluiten in e-mailhandtekeningen
     
-- Regels overslaan die variabelen bevatten die niet konden worden bijgewerkt (bijvoorbeeld omdat de waarde niet is opgegeven voor een gebruiker)
+- Regels overslaan die variabelen bevatten die niet kunnen worden bijgewerkt (bijvoorbeeld omdat de waarde niet is opgegeven voor een gebruiker)
     
-Gebruik een hulpprogramma van derden om deze en andere mogelijkheden te verkrijgen voor het beheren van e-mailhandtekeningen. Voer een zoekopdracht op internet uit naar software **voor e-mailhandtekeningen.** Een aantal van deze providers zijn Microsoft Gold-partners en hun software biedt deze mogelijkheden. 
+Gebruik een hulpprogramma van derden om deze en andere mogelijkheden te verkrijgen voor het beheren van e-mailhandtekeningen. Zoek op internet naar software **voor e-mailhandtekeningen.** Een aantal van deze providers zijn Microsoft Gold Partners en hun software biedt deze mogelijkheden. 
   
 ## <a name="more-resources"></a>Meer informatie
 
-- Zie [vrijwaringen, handtekeningen,](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) voetteksten of kopteksten voor berichten in de hele organisatie in Exchange Online voor informatie over het gebruik van PowerShell.
+- Zie Bericht disclaimers voor de hele [organisatie, handtekeningen, voetteksten](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) of kopteksten in Exchange Online voor informatie over het gebruik van PowerShell.

@@ -23,17 +23,17 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Maak gedeelde postvakken zodat meerdere personen binnen uw bedrijf de verantwoordelijkheid kunnen delen voor het lezen en beantwoorden van e-mails die naar hetzelfde adres zijn gestuurd.
-ms.openlocfilehash: d71e33aa0a04bd52f707038ac31e98bef68f27b0
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 004473b329b14be9287f249b1d640c3b0803412a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287231"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915876"
 ---
 # <a name="create-a-shared-mailbox"></a>Een gedeeld postvak maken 
 
 > [!NOTE]
-> Als uw organisatie gebruikmaakt van een hybride Exchange-omgeving, moet u het on-premises Exchange-beheercentrum (EAC) gebruiken om gedeelde postvakken te maken en te beheren. [Gedeelde postvakken maken in het Exchange-beheercentrum](https://docs.microsoft.com/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?view=exchserver-2019&preserve-view=true.)<br><br>
+> Als uw organisatie gebruikmaakt van een hybride Exchange-omgeving, moet u het on-premises Exchange-beheercentrum (EAC) gebruiken om gedeelde postvakken te maken en te beheren. [Gedeelde postvakken maken in het Exchange-beheercentrum](/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?preserve-view=true.&view=exchserver-2019)<br><br>
 > Zie [Groepen vergelijken](../create-groups/compare-groups.md) als u niet zeker weet of u een gedeeld postvak of een Microsoft 365-groep voor Outlook moet maken. Momenteel is het niet mogelijk een gedeeld postvak te migreren naar een Microsoft 365-groep. Als dit iets is dat u zou willen, laat ons dat dan weten door [hier te stemmen](https://go.microsoft.com/fwlink/?linkid=871518).
 
 Het is eenvoudig om gedeelde postvakken te maken zodat een groep e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres zoals info@contoso.com. Wanneer een persoon in de groep een bericht beantwoordt dat naar het gedeelde postvak is verzonden, lijkt het e-mailbericht afkomstig te zijn van het gedeelde postvak, niet van de afzonderlijke gebruiker.
@@ -153,13 +153,13 @@ En als de beheerder het wachtwoord van het gebruikersaccount van het gedeelde po
 4. Controleer in het deelvenster **Aanmeldstatus bewerken** dat Voorkomen dat de gebruiker zich aanmeldt is geselecteerd, selecteer **Opslaan** en vervolgens **Sluiten**.
 ::: moniker-end
 
-Zie [Gebruikersaccounts blokkeren met Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/block-user-accounts-with-microsoft-365-powershell) voor meer informatie over het blokkeren van accounts met Azure AD PowerShell (met inbegrip van meerdere accounts tegelijk).
+Zie [Gebruikersaccounts blokkeren met Office 365 PowerShell](../../enterprise/block-user-accounts-with-microsoft-365-powershell.md) voor meer informatie over het blokkeren van accounts met Azure AD PowerShell (met inbegrip van meerdere accounts tegelijk).
 
 ## <a name="add-the-shared-mailbox-to-outlook"></a>Het gedeelde postvak toevoegen aan Outlook
 
 Als u automatisch toewijzen voor uw bedrijf hebt ingeschakeld (iets wat de meeste mensen doen), wordt het gedeelde postvak automatisch weergegeven in de Outlook-app van uw gebruikers nadat ze Outlook hebben gesloten en opnieuw gestart. 
 
-Automatisch toewijzen wordt ingesteld in het postvak van de gebruiker, niet het gedeelde postvak.   Dit betekent dat als u probeert een beveiligingsgroep te gebruiken om te beheren wie toegang heeft tot het gedeelde postvak, automatisch toewijzen niet werkt. Als u dus gebruik wilt maken van automatisch toewijzen, moet u de machtigingen expliciet toewijzen. Standaard is automatisch toewijzen ingeschakeld. Zie [Automatisch toewijzen verwijderen van een gedeeld postvak](https://docs.microsoft.com/office365/troubleshoot/administration/remove-automapping-for-shared-mailbox) voor informatie over het uitschakelen.
+Automatisch toewijzen wordt ingesteld in het postvak van de gebruiker, niet het gedeelde postvak.   Dit betekent dat als u probeert een beveiligingsgroep te gebruiken om te beheren wie toegang heeft tot het gedeelde postvak, automatisch toewijzen niet werkt. Als u dus gebruik wilt maken van automatisch toewijzen, moet u de machtigingen expliciet toewijzen. Standaard is automatisch toewijzen ingeschakeld. Zie [Automatisch toewijzen verwijderen van een gedeeld postvak](/office365/troubleshoot/administration/remove-automapping-for-shared-mailbox) voor informatie over het uitschakelen.
 
 Zie voor meer informatie over gedeelde postvakken maken in Outlook:
 
@@ -209,5 +209,3 @@ Wanneer u een gedeeld postvak maakt, maakt u automatisch een gedeelde agenda. We
 [Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md)
 
 [Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md)
-
-

@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Informatie over domeinen en de bijbehorende DNS-records om zo uw domeinen beter te beheren.
-ms.openlocfilehash: 093641a5c80c70264c1d64ee27cb7621e5f7b2cb
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f8d8171e306a0206facec1621bf2b1a9f8085757
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926412"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915660"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -69,7 +69,7 @@ Domeinnamen worden gebruikt in URL’s en e-mailadressen en hebben verschillende
     
 Waarom zou u een domein op het derde niveau gebruiken? Mogelijk wilt u verschillende domeinnamen voor marketingdoeleinden of een blog gebruiken. Bijvoorbeeld: blog.contoso.com. U voegt doorgaans een domein op het tweede niveau toe om te gebruiken met Microsoft, zoals contoso.com, maar als u wilt, kunt u ook domeinen op het derde niveau gebruiken.
   
-Bekijk de [Servicebeschrijving voor Microsoft 365- en Office 365-platformen](https://go.microsoft.com/fwlink/?LinkId=402693) voor meer informatie over wat u met domeinen kunt doen voor elk type aanbod.
+Bekijk de [Servicebeschrijving voor Microsoft 365- en Office 365-platformen](/office365/servicedescriptions/office-365-platform-service-description/domains) voor meer informatie over wat u met domeinen kunt doen voor elk type aanbod.
   
 ## <a name="understand-dns-record-types"></a>Meer informatie over DNS-recordtypen
 
@@ -150,14 +150,14 @@ Waarom kan het zonebestand van uw domein zich ergens buiten uw domeinregistrar b
 ## <a name="why-add-a-domain-in-microsoft-365"></a>Waarom zou ik een domein toevoegen in Microsoft 365?
 
 
-Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Microsoft 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein toegewezen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Microsoft 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Microsoft 365 voor e-mail willen gaan gebruiken. 
+Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Microsoft 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein toegewezen](../setup/domains-faq.yml) wanneer u zich aanmeldt voor een Microsoft 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Microsoft 365 voor e-mail willen gaan gebruiken. 
   
 > [!NOTE]
 > Als u alleen Microsoft-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
 U kunt uw domeinnaam in Microsoft 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
   
-- **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Microsoft 365) jan@contoso.com zijn. 
+- **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](../setup/domains-faq.yml) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Microsoft 365) jan@contoso.com zijn. 
     
 - **Website:** Als u een Microsoft 365-abonnement hebt dat een openbare SharePoint Online-website omvat (niet meer te koop), heeft deze openbare site in eerste instantie een adres zoals contoso-public.sharepoint.com. Als u een website voor uw bedrijf instelt, kunt u een aangepaste domeinnaam gebruiken om het websiteadres te wijzigen in bijvoorbeeld www.contoso.com. 
     
@@ -169,14 +169,14 @@ U kunt uw domeinnaam in Microsoft 365 gebruiken voor uw e-mailadres, het adres v
 ## <a name="why-add-a-domain-in-microsoft-365"></a>Waarom zou ik een domein toevoegen in Microsoft 365?
 
 
-Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Microsoft 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein toegewezen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) wanneer u zich aanmeldt voor een Microsoft 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Microsoft 365 voor e-mail willen gaan gebruiken. 
+Als u een aangepast domein, zoals fourthcoffee.com, toevoegt aan Microsoft 365, kunt u kortere, meer vertrouwde e-mailadressen en gebruikers-id's met de service gebruiken. U [krijgt een domein toegewezen](../setup/domains-faq.yml) wanneer u zich aanmeldt voor een Microsoft 365-account, maar dit bevat onmicrosoft.com. Veel mensen voegen liever het domein van hun organisatie of bedrijf toe als ze Microsoft 365 voor e-mail willen gaan gebruiken. 
   
 > [!NOTE]
 > Als u alleen Microsoft 365-apps wilt downloaden en gebruiken, zoals Outlook of Word, hoeft u geen domein toe te voegen: [Installeer Office op uw pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
 U kunt uw domeinnaam in Microsoft 365 gebruiken voor uw e-mailadres, het adres van uw openbare website en uw chatadres.
   
-- **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Microsoft 365) jan@contoso.com zijn. 
+- **E-mail:** Met uw domeinnaam kunt u uw e-mailadres aanpassen, zodat u een korter en gemakkelijker te onthouden adres kunt gebruiken dan [het eerste onmicrosoft.com-e-mailadres](../setup/domains-faq.yml) dat bij uw account wordt geleverd. Dus in plaats van jan@contoso.onmicrosoft.com kan het e-mailadres (dat ook het werkaccount is dat u gebruikt voor het aanmelden bij Microsoft 365) jan@contoso.com zijn. 
     
 - **Website:** Als u een abonnement hebt dat een openbare SharePoint Online-website omvat (niet meer te koop), heeft deze openbare site in eerste instantie een adres zoals contoso-public.sharepoint.com. Als u een website voor uw bedrijf instelt, kunt u een aangepaste domeinnaam gebruiken om het websiteadres te wijzigen in bijvoorbeeld www.contoso.com. 
     
@@ -190,7 +190,7 @@ Er zijn enkele DNS-records nodig om Microsoft 365 met uw domein te laten werken.
   
 U kunt [zoeken naar een lijst met waarden](information-for-dns-records.md) om uw domein in te stellen. .Deze zijn opgenomen in het Microsoft 365-beheercentrum. 
   
-Als u een implementatie plant, wilt u mogelijk een lijst bekijken met alle vereiste DNS-records voor Microsoft 365, de functie ervan en voorbeeldwaarden. Bekijk [Externe DNS-records voor Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records).
+Als u een implementatie plant, wilt u mogelijk een lijst bekijken met alle vereiste DNS-records voor Microsoft 365, de functie ervan en voorbeeldwaarden. Bekijk [Externe DNS-records voor Microsoft 365](../../enterprise/external-domain-name-system-records.md).
   
 ## <a name="how-can-i-learn-more"></a>Waar vind ik meer informatie?
 

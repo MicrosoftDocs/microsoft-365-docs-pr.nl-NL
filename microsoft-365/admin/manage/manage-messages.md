@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Meer informatie over het beheer van berichten in het berichtencentrum om te helpen bij wijzigingsbeheer.
-ms.openlocfilehash: 3f0a3c5fe20e76d0fff63cefe7e6eaa687696426
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
-ms.translationtype: HT
+ms.openlocfilehash: ee3df1b2f4855421dab4d6715add6503027b24bc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405955"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915276"
 ---
 # <a name="manage-messages-in-message-center"></a>Berichten in het berichtencentrum beheren
 
@@ -171,6 +171,6 @@ Wanneer u een bericht opent in een leesvenster, kunt u de pijlen **omhoog** en *
 
 ## <a name="track-your-message-center-tasks-in-planner"></a>Taken in het berichtencentrum bijhouden in Planner
 
-In het Microsoft 365-berichtencentrum komt veel informatie over wijzigingen aan Microsoft 365-services binnen waarvoor u actie kunt ondernemen. Het kan lastig zijn bij te houden voor welke wijzigingen taken moeten worden uitgevoerd en wanneer en door wie, en om bij te houden welke taken moeten worden voltooid. Het kan ook zijn dat u iets wilt noteren en dit later wilt controleren. U kunt dit alles en nog veel meer doen wanneer u uw berichten van het Microsoft 365-beheercentrum synchroniseert naar Microsoft Planner. Zie [Taken in het berichtencentrum bijhouden in Planner](https://docs.microsoft.com/office365/planner/track-message-center-tasks-planner) voor meer informatie.
+In het Microsoft 365-berichtencentrum komt veel informatie over wijzigingen aan Microsoft 365-services binnen waarvoor u actie kunt ondernemen. Het kan lastig zijn bij te houden voor welke wijzigingen taken moeten worden uitgevoerd en wanneer en door wie, en om bij te houden welke taken moeten worden voltooid. Het kan ook zijn dat u iets wilt noteren en dit later wilt controleren. U kunt dit alles en nog veel meer doen wanneer u uw berichten van het Microsoft 365-beheercentrum synchroniseert naar Microsoft Planner. Zie [Taken in het berichtencentrum bijhouden in Planner](/office365/planner/track-message-center-tasks-planner) voor meer informatie.
 
-Zie [Berichtencentrum in Microsoft 365](message-center.md) voor een overzicht van het berichtencentrum. Of lees in [Vertaalfunctie voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md) hoe u taalvoorkeuren instelt voor de vertaalfunctie voor posts in het berichtencentrum. Als u een andere manier wilt programmeren om informatie over de status van realtime-services en berichten uit het berichtencentrum te krijgen, raadpleegt u [Overzicht van Microsoft 365 Service Communications-API](https://go.microsoft.com/fwlink/p/?linkid=848507).
+Zie [Berichtencentrum in Microsoft 365](message-center.md) voor een overzicht van het berichtencentrum. Of lees in [Vertaalfunctie voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md) hoe u taalvoorkeuren instelt voor de vertaalfunctie voor posts in het berichtencentrum. Als u een andere manier wilt programmeren om informatie over de status van realtime-services en berichten uit het berichtencentrum te krijgen, raadpleegt u [Overzicht van Microsoft 365 Service Communications-API](/previous-versions/office/developer/o365-enterprise-developers/jj984343(v=office.15)).

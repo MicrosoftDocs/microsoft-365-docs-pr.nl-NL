@@ -20,12 +20,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt maken met Microsoft 365.
 ms.custom:
 - AdminSurgePortfolio
-ms.openlocfilehash: c5c33af8a5635d1092aec2f1bffdfc942f2e4851
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 506ee887edbc59956aee11059a7085bc4b22624e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126333"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914592"
 ---
 # <a name="connect-your-domain-to-microsoft-365"></a>Verbind uw domein met Microsoft 365
 
@@ -72,10 +72,10 @@ Zorg dat de velden zijn ingesteld op de volgende waarden:
 
 Sla de record op.
 
-Voor het valideren van uw SPF-record, gebruikt u een van deze [SPF-validatiehulpmiddelen](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
+Voor het valideren van uw SPF-record, gebruikt u een van deze [SPF-validatiehulpmiddelen](/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 
 SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren.
 
-Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx) en [DMARC gebruiken om e-mail te valideren in Microsoft 365](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx).
+Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) en [DMARC gebruiken om e-mail te valideren in Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
 
 Ga ten slotte terug naar de domeinconfiguratiewizard van het beheercentrum om uw installatie te voltooien.

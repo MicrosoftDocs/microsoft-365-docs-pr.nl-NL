@@ -20,24 +20,24 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
-description: Informatie over het oplossen van licentieconflicten met uw abonnement op Microsoft 365 voor Bedrijven.
-ms.openlocfilehash: 284a6b169c02314dd2bbd0e13c10c081cb50f58d
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+description: Meer informatie over het oplossen van licentieconflicten met uw Microsoft 365 voor Bedrijven-abonnement.
+ms.openlocfilehash: e2b5daa71164b41825282bd5652549347b8307c1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114451"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915180"
 ---
 # <a name="resolve-license-conflicts"></a>Licentieconflicten oplossen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
-We raden u aan de licenties te kopen die u nodig hebt voor uw abonnement voordat u nieuwe gebruikers maakt. Op die manier kan een licentie worden toegewezen aan nieuwe gebruikers zodra hun gebruikersaccount is gemaakt. Er ontstaan licentieconflicten als alle beschikbare licenties al zijn toegewezen aan gebruikers, maar enkele licenties zijn verlopen, of als u een licentie probeert te verwijderen die al aan een gebruiker is toegewezen. Zie Licenties verwijderen [uit uw abonnement voor meer informatie.](../../commerce/licenses/remove-licenses-from-subscription.md)
+Het is raadzaam om de licenties te kopen die u nodig hebt voor uw abonnement voordat u nieuwe gebruikers maakt. Op die manier kan een licentie worden toegewezen aan nieuwe gebruikers zodra hun gebruikersaccount is gemaakt. Er ontstaan licentieconflicten als alle beschikbare licenties al zijn toegewezen aan gebruikers, maar enkele licenties zijn verlopen, of als u een licentie probeert te verwijderen die al aan een gebruiker is toegewezen. Zie Licenties van [uw abonnement verwijderen voor meer informatie.](../../commerce/licenses/buy-licenses.md)
   
 ## <a name="how-do-i-view-license-conflicts"></a>Licentieconflicten weergeven
 
@@ -59,14 +59,14 @@ We raden u aan de licenties te kopen die u nodig hebt voor uw abonnement voordat
 
 ::: moniker-end
 
-2. Kijk in de kolom **Status** voor informatie over het conflict. Als er een conflict is ontstaan, ziet u een waarschuwingsbericht met de melding dat een of meer gebruikers een geldige licentie nodig hebben.
+2. Kijk in de kolom **Status** voor informatie over het conflict. Als er een conflict is, ziet u een waarschuwingsbericht met de melding dat een of meer gebruikers een geldige licentie nodig hebben.
 
     > [!NOTE]
     > De kolom **Status** wordt alleen weergegeven als er conflicten zijn.
 
 ## <a name="how-do-i-resolve-license-conflicts"></a>Licentieconflicten oplossen
 
-U kunt licentieconflicten oplossen door meer [licenties te kopen](../../commerce/licenses/buy-licenses.md) of licenties te verwijderen van gebruikers die deze niet meer nodig [hebben.](remove-licenses-from-users.md) U kunt optioneel [een gebruikersaccount verwijderen om een licentie vrij te geven](../add-users/delete-a-user.md).
+U kunt licentieconflicten oplossen door meer licenties [te kopen](../../commerce/licenses/buy-licenses.md) of door licenties te verwijderen van gebruikers die ze niet meer [nodig hebben.](remove-licenses-from-users.md) U kunt optioneel [een gebruikersaccount verwijderen om een licentie vrij te geven](../add-users/delete-a-user.md).
   
 ## <a name="related-articles"></a>Verwante artikelen
 

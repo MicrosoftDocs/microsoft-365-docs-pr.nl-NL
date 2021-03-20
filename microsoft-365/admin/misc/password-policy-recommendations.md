@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Lees hoe u uw organisatie beter kunt beveiligen tegen wachtwoordaanvallen en waarom u veelgebruikte wachtwoorden moet verbieden en op risico gebaseerde meervoudige verificatie moet inschakelen.
-ms.openlocfilehash: 66a4048ac1add3a0d47f256dc29519a91ae6cb11
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ca9a88b0bb154416837254d785cf9cfee8876ae6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926712"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914724"
 ---
 # <a name="password-policy-recommendations"></a>Aanbevelingen voor wachtwoordbeleid
 
@@ -136,10 +136,10 @@ Risicogebaseerde meervoudige verificatie verzekert dat wanneer ons systeem verda
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Wachtwoorden opnieuw instellen](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
+[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md)
 
-[Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire)
+[Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt](../add-users/set-password-to-never-expire.md)
 
-[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](https://docs.microsoft.com/microsoft-365/admin/add-users/let-users-reset-passwords)
+[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md)
 
-[Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders](https://docs.microsoft.com/microsoft-365/admin/add-users/resend-user-password)
+[Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders](../add-users/resend-user-password.md)

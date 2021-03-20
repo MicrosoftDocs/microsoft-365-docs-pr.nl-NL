@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Overzicht van Microsoft productiviteitsscore.
-ms.openlocfilehash: 72f9bcfb273912629744ec25ad9c0be720e76081
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: d818bd766f76f3df6c67a740d6ad1994a2be66de
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838423"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914580"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 
@@ -44,7 +44,7 @@ We bieden metrische gegevens, inzichten en aanbevelingen in twee gedeelten:
 
 - **Technologie-ervaringen:** Je organisatie is afhankelijk van betrouwbare en goed functionerende technologie, alsook efficiënt gebruik van Microsoft 365. [Eindpuntanalyse](https://aka.ms/endpointanalytics) helpt je begrijpen hoe de prestatie en gezondheidsproblemen van jouw hardware en software een impact hebben op gebruikersproductiviteit. Microsoft 365-apps health toont aan of apparaten in je organisatie de aanbevolen kanalen gebruiken voor Microsoft 365-apps.
 
-Zie [Wat zijn Eindpuntanalyses](https://docs.microsoft.com/mem/analytics/overview) voor een overzicht en informatie over vereisten. Voor meer informatie over Microsoft 365 netwerkverbindingsinzichten, lees [overzicht netwerkverbinding](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview).
+Zie [Wat zijn Eindpuntanalyses](/mem/analytics/overview) voor een overzicht en informatie over vereisten. Voor meer informatie over Microsoft 365 netwerkverbindingsinzichten, lees [overzicht netwerkverbinding](../../enterprise/microsoft-365-networking-overview.md).
   
 
 ## <a name="how-the-score-is-calculated"></a>Berekening van de score
@@ -74,7 +74,8 @@ Je score wordt dagelijks bijgewerkt en weerspiegelt de acties die gebruikers vol
 
 ## <a name="prerequisites"></a>Vereisten 
 
-Voor gebruikerservaringengegevens heb je een abonnement op Microsoft 365 voor bedrijven of op Office 365 voor ondernemingen nodig. Voor eindpuntanalysegegevens voor je tenant moet je Microsoft Intune toevoegen aan je abonnement. Met Intune beveilig je de gegevens van je organisatie door apparaten en apps te beheren. Wanneer je Intune hebt, kan je eindpuntanalyses inschakelen in de Intune-ervaring. Meer informatie over [Microsoft Intune](https://docs.microsoft.com/mem/intune/). 
+Voor gebruikerservaringengegevens heb je een abonnement op Microsoft 365 voor bedrijven of op Office 365 voor ondernemingen nodig. Voor eindpuntanalysegegevens voor je tenant moet je Microsoft Intune toevoegen aan je abonnement. Met Intune beveilig je de gegevens van je organisatie door apparaten en apps te beheren. Wanneer je Intune hebt, kan je eindpuntanalyses inschakelen in de Intune-ervaring. Meer informatie over [Microsoft Intune](/mem/intune/). 
+
 > [!NOTE]
 > Voor toegang tot de functies van de productiviteitsscore heb je geen licentie voor Workplace Analytics nodig.
 
@@ -129,7 +130,7 @@ De informatiepagina‘s zijn:
 - [Mobiliteit: gebruikerservaringen](mobility.md)
 - [Teamwork: gebruikerservaringen](teamwork.md)
 - [Gezondheid van Microsoft 365-apps: technologie-ervaringen](apps-health.md)
-- [Endpoint-analyse](https://docs.microsoft.com/mem/analytics/productivity-score)
+- [Endpoint-analyse](/mem/analytics/productivity-score)
 
 ## <a name="business-continuity-special-report"></a>Speciaal rapport voor bedrijfscontinuïteit
 
@@ -143,12 +144,12 @@ Dit rapport helpt organisaties het volgende begrijpen:
 
 - Of vergaderingen van op afstand effectieve besluitvorming ondersteunen.
 
-[Meer informatie over het rapport voor bedrijfscontinuïteit](https://aka.ms/bcrps)
+[Meer informatie over het rapport voor bedrijfscontinuïteit](/Workplace-Analytics/tutorials/bcrps)
 
-[Meer informatie over Microsoft Graph](https://docs.microsoft.com/graph/)
+[Meer informatie over Microsoft Graph](/graph/)
 
 > [!NOTE]
-> Gebruikers kunnen ook productiviteitsinzichten vanuit het [ MyAnalytics dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) ophalen.
+> Gebruikers kunnen ook productiviteitsinzichten vanuit het [ MyAnalytics dashboard](/workplace-analytics/myanalytics/use/dashboard-2) ophalen.
 
 
 ## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u

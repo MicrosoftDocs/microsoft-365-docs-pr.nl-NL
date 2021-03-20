@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 'Leer hoe u postvak IN met prioriteit configureert voor alle of specifieke gebruikers binnen uw organisatie. '
-ms.openlocfilehash: e6c77bdff00e7cd98f5034267699e19d8582db27
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 7059fbb886669af99c1471789cbbc623dc9719b8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551899"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914280"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Postvak IN met prioriteit configureren voor iedereen in uw organisatie
 
@@ -41,9 +41,9 @@ U kunt Windows PowerShell gebruiken om Postvak IN met prioriteit voor iedereen i
   
 Het volgende PowerShell-voorbeeld schakelt Postvak IN met prioriteit **uit** in uw organisatie. De functie blijft echter wel beschikbaar voor uw gebruikers, wat betekent dat ze Postvak IN met prioriteit desgewenst weer kunnen inschakelen in een e-mailclient. 
   
-1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Maak verbinding met Exchange Online via externe PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796) (Machtigingen voor berichtenbeleid en naleving).
+2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in [Messaging policy and compliance permissions](/exchange/messaging-policy-and-compliance-permissions-exchange-2013-help) (Machtigingen voor berichtenbeleid en naleving).
 
 3. Voer de cmdlet **Get-OrganizationConfig** uit. 
 
@@ -87,7 +87,7 @@ Wanneer een gebruiker besluit Postvak IN met prioriteit te gaan gebruiken, wordt
 
 In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matthews in de organisatie Contoso. De functie blijft echter wel beschikbaar voor hem. Als hij wil, kan hij Postvak IN met prioriteit weer inschakelen in elk van zijn clients. 
   
-1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Maak verbinding met Exchange Online via externe PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in het artikel Messaging policy and compliance permissions (Machtigingen voor berichtenbeleid en naleving).
 
@@ -130,9 +130,9 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
   
 ## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Windows PowerShell gebruiken om een transportregel te maken om e-mailberichten voor alle gebruikers met prioriteit weer te geven
 
-1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Maak verbinding met Exchange Online via externe PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796) (Machtigingen voor berichtenbeleid en naleving).
+2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in [Messaging policy and compliance permissions](/exchange/messaging-policy-and-compliance-permissions-exchange-2013-help) (Machtigingen voor berichtenbeleid en naleving).
 
 3. Voer de volgende opdracht uit om alle berichten van bijvoorbeeld 'Salarisadministratie' at te leveren in Postvak IN met prioriteit.
 
@@ -142,7 +142,7 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
 
 > [!IMPORTANT]
 > In dit voorbeeld zijn zowel 'X-MS-Exchange-Organization-BypassFocusedInbox' als 'true' hoofdlettergevoelig.
-> De functie Postvak IN met prioriteit ondersteunt X-header die Onbelangrijke e-mail vermijdt. Als u deze instelling gebruikt in Onbelangrijke e-mail, wordt deze ook gebruikt in Postvak IN met prioriteit. Zie [Nieuwe-Transportregel](https://go.microsoft.com/fwlink/p/?LinkId=830194) voor gedetailleerde syntaxis- en parameterinformatie.
+> De functie Postvak IN met prioriteit ondersteunt X-header die Onbelangrijke e-mail vermijdt. Als u deze instelling gebruikt in Onbelangrijke e-mail, wordt deze ook gebruikt in Postvak IN met prioriteit. Zie [Nieuwe-Transportregel](/powershell/module/exchange/new-transportrule) voor gedetailleerde syntaxis- en parameterinformatie.
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 

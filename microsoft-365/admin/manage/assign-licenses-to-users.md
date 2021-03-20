@@ -23,19 +23,19 @@ search.appverid:
 - MET150
 description: Handleiding over het toewijzen van licenties aan gebruikers.
 ms.date: 08/14/2020
-ms.openlocfilehash: b5179006da896dbadab10d43a43b094acedcb806
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 9f044f29cabf4976d5fbf17b22777da62e4414c5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50113983"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915492"
 ---
 # <a name="assign-licenses-to-users"></a>Licenties aan gebruikers toewijzen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -50,8 +50,8 @@ U kunt licenties toewijzen aan gebruikers op de pagina **Actieve gebruikers** of
 ## <a name="before-you-begin"></a>Voordat u begint
 
 - U moet algemeen, licentie-, of gebruikersbeheerder zijn om licenties toe te wijzen. Zie [Over beheerdersrollen in Microsoft 365](../add-users/about-admin-roles.md) voor meer informatie.
-- U kunt [licenties toewijzen aan gebruikersaccounts met Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410).
-- Voor groepslicenties, zie [Licenties toewijzen aan gebruikers op basis van groepslidmaatschap in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- U kunt [licenties toewijzen aan gebruikersaccounts met Office 365 PowerShell](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md).
+- Voor groepslicenties, zie [Licenties toewijzen aan gebruikers op basis van groepslidmaatschap in Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 - Sommige services, zoals Sway, worden automatisch aan gebruikers toegewezen.Het is niet nodig deze afzonderlijk toe te wijzen.
 
 ::: moniker range="o365-worldwide"
@@ -163,7 +163,7 @@ Wanneer u de pagina **Actieve gebruikers** gebruikt om licenties toe te wijzen, 
 
 ## <a name="assign-a-license-to-a-guest-user"></a>Een licentie toewijzen aan een gastgebruiker
 
-U kunt gastgebruikers uitnodigen om samen te werken met uw organisatie in het Azure Active Directory-beheercentrum. Raadpleeg [Wat is gastgebruikerstoegang in Azure Active Directory B2B?](https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b) voor meer informatie over gastgebruikers. Raadpleeg [Snelstart: Gastgebruikers toevoegen aan uw adreslijst in de Azure-portal](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal) als u geen gastgebruikers hebt.
+U kunt gastgebruikers uitnodigen om samen te werken met uw organisatie in het Azure Active Directory-beheercentrum. Raadpleeg [Wat is gastgebruikerstoegang in Azure Active Directory B2B?](/azure/active-directory/external-identities/what-is-b2b) voor meer informatie over gastgebruikers. Raadpleeg [Snelstart: Gastgebruikers toevoegen aan uw adreslijst in de Azure-portal](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal) als u geen gastgebruikers hebt.
 
 > [!IMPORTANT]
 > U moet een globale beheerder zijn om deze stappen uit te voeren.

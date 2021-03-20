@@ -20,26 +20,26 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
-description: Meer informatie over het routeren van verkeer naar een bestaande openbare website die buiten Microsoft wordt gehost, als u Microsoft de DNS-records voor uw aangepaste domein wilt laten beheren.
-ms.openlocfilehash: 5d2bf23d4052815fae210d0fdf6635288ff46b57
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Informatie over het door routen van verkeer naar een bestaande openbare website die buiten Microsoft wordt gehost, als u Microsoft hebt ingesteld voor het beheren van DNS-records voor uw aangepaste domein.
+ms.openlocfilehash: ceef82345e562e2aa4c291f416c454fb831ee45b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645561"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915972"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>DNS-records bijwerken als u uw website bij uw huidige hostingprovider wilt houden
 
- **Als u de Microsoft-records van uw domein beheert op uw DNS-hosting provider**, hoeft u zich geen zorgen te maken over de stappen in dit onderwerp. De website verandert niet van locatie en blijft gewoon bereikbaar. 
+ Als u de Microsoft-records van uw domein beheert bij uw **DNS-hostingprovider,** hoeft u zich geen zorgen te maken over de stappen in dit onderwerp. De website verandert niet van locatie en blijft gewoon bereikbaar. 
   
- **Als uw DNS-records door Microsoft worden beheerd**om verkeer naar een bestaande openbare website buiten Microsoft te routeren nadat u uw domein aan Microsoft hebt toegevoegd, gaat u als volgt te werk: 
+ Ga als volgt te werk als Microsoft uw **DNS-records** beheert, om verkeer door te laten gaan naar een bestaande openbare website die buiten Microsoft wordt gehost, nadat u uw domein hebt toevoegen aan Microsoft: 
   
-## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>DNS-records bijwerken in het Microsoft 365-Beheercentrum
+## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>DNS-records bijwerken in het Microsoft 365-beheercentrum
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
-2. Selecteer het domein op de pagina **domeinen** en kies vervolgens **DNS-records**.
+2. Selecteer op **de pagina** Domeinen het domein en kies vervolgens **DNS Records.**
 
-3. Selecteer **aangepaste records**onder **DNS-instellingen**.
+3. Selecteer **onder DNS-instellingen** de optie **Aangepaste records.**
 
 4. Selecteer **+ Nieuwe aangepaste record** en typ het volgende: 
     
@@ -67,7 +67,6 @@ U kunt eveneens een CNAME-record maken om klanten te helpen bij het zoeken van u
     
 Ga ten slotte als volgt te werk:
   
-[Werk de DNS-records van uw domein](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) voor zodat ze verwijzen naar Microsoft. 
+[Werk de NS-records van uw domein bij om](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) naar Microsoft te wijzen. 
   
-Wanneer de NS-records zijn bijgewerkt zodat ze verwijzen naar Microsoft, is uw domein allemaal ingesteld. E-mail wordt naar Microsoft gerouteerd en verkeer naar uw websiteadres gaat verder naar uw huidige website-host.
- 
+Wanneer de NS-records zijn bijgewerkt om naar Microsoft te wijzen, is uw domein helemaal ingesteld. E-mail wordt doorgeleid naar Microsoft en het verkeer naar uw websiteadres blijft naar uw huidige websitehost gaan.

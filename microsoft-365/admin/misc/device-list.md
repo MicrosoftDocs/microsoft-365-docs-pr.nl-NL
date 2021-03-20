@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: Meer informatie over het maken van een CSV-bestand voor AutoPilot in Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 030fb96e9e60c792fb685af57d34eacd6670645a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het maken van een CSV-bestand voor AutoPilot in Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: 78a9012bac054329bdb87b02757f49f30dd44f65
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399360"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914736"
 ---
 # <a name="device-list-csv-file"></a>CSV-bestand met apparatenlijst
 
@@ -40,7 +40,7 @@ De kolommen in het apparatenlijstbestand moeten de volgende kopteksten hebben, i
   
 - Kolom A: Serienummer van apparaat
 
-- Kolom B: laat leeg
+- Kolom B: leeg laten
 
 - Kolom C: Hardware-hash
 
@@ -50,9 +50,8 @@ Wanneer u apparaten toevoegt, moet u ze ook toevoegen aan een profiel. Een profi
   
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Microsoft 365 voor bedrijfsdocumentatie en -bronnen](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Microsoft 365 voor bedrijven-documentatie en -bronnen](../../business/index.yml)
   
-[Aan de slag met Microsoft 365 voor bedrijven](https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview)
+[Aan de slag met Microsoft 365 voor Bedrijven](../../business/microsoft-365-business-overview.md)
   
-[Microsoft 365 voor bedrijven beheren](https://docs.microsoft.com/microsoft-365/business/manage)
-  
+[Microsoft 365 voor Bedrijven beheren](../../business/manage.md)

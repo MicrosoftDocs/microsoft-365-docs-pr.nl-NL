@@ -1,5 +1,5 @@
 ---
-title: DNS-records voor Microsoft maken met Windows-DNS
+title: DNS-records voor Microsoft maken met windows-DNS
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,89 +20,89 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
-description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op basis van Windows-DNS voor Microsoft.
-ms.openlocfilehash: 8202ffe10b4a0ff9c94d863d92fc55c47ebb38d3
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij windows-DNS voor Microsoft.
+ms.openlocfilehash: 9e5e42f847e740571944ea3db205282ec9a7a0e6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656841"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916044"
 ---
-# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>DNS-records voor Microsoft maken met Windows-DNS
+# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>DNS-records voor Microsoft maken met windows-DNS
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
    
 Als u uw eigen DNS-records met Windows-DNS host, volgt u de stappen in dit artikel voor het instellen van uw records voor e-mail, Skype voor Bedrijven Online, enzovoort.
   
-Om aan de slag te gaan, moet u [de DNS-records vinden in Windows-DNS](#find-your-dns-records-in-windows-based-dns) , zodat u deze kunt bijwerken. Als u uw on-premises Active Directory met Microsoft wilt synchroniseren, raadpleegt u [niet-routeerbaar e-mailadres gebruikt als een UPN in de on-premises Active Directory](#non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory).
+Om aan de slag te gaan, moet u [uw DNS-records zoeken in windows-DNS,](#find-your-dns-records-in-windows-based-dns) zodat u ze kunt bijwerken. Als u van plan bent uw on-premises Active Directory te synchroniseren met Microsoft, zie Niet-routable email address used as a [UPN in your on-prem Active Directory](#non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory).
   
-Problemen met de e-mail stroom of andere problemen nadat u DNS-records hebt toegevoegd, raadpleegt [u problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
+Problemen met de e-mailstroom of andere problemen na het toevoegen van DNS-records, zie Problemen oplossen na het wijzigen van uw domeinnaam [of DNS-records.](../get-help-with-domains/find-and-fix-issues.md) 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Uw DNS-records vinden in Windows-DNS
-<a name="BKMK_find_your_dns_1"></a> Ga naar de pagina met de DNS-records voor uw domein. Als u met Windows Server 2008 werkt, gaat u naar **Start**  >  **Run**. Als u werkt met Windows Server 2012, drukt u op de Windows-toets en op **r**. Typ **dnsmgmnt. msc** en selecteer **OK**. Vouw in DNS-beheer de optie **\<DNS server name\> \> zones voor forward lookup** uit. Selecteer uw domein. Nu kunt u de DNS-records gaan maken.
+<a name="BKMK_find_your_dns_1"></a> Ga naar de pagina met de DNS-records voor uw domein. Als u in een Windows Server 2008 werkt, gaat u naar **Start**  >  **Run**. Als u werkt in Windows Server 2012, drukt u op de Windows-toets en **r**. Typ **dnsmgmnt.msc** en selecteer **OK.** Vouw in DNS Manager **\<DNS server name\> \> opzoekzones doorsturen uit.** Selecteer uw domein. Nu kunt u de DNS-records gaan maken.
    
 ## <a name="add-mx-record"></a>MX-record toevoegen
 <a name="BKMK_add_MX"> </a>
 
-Voeg een MX-record toe zodat e-mail voor uw domein bij Microsoft komt.
-- De MX-record die u toevoegt, bevat een waarde (de waarde **adres waarnaar wordt verwezen** ) die er ongeveer zo uitziet: \<MX token\> . mail.Protection.Outlook.com, waarin \<MX token\> een waarde is zoals MSxxxxxxx. 
-- Vanuit de rij MX in de sectie Exchange Online van de pagina DNS-records toevoegen in Microsoft kopieert u de waarde die wordt vermeld onder adres waarnaar wordt verwezen. U gebruikt deze waarde in de record die u in deze taak maakt. 
-- Ga op de pagina DNS-beheer voor het domein naar **Action**  >  **Mail Exchanger (MX)**. Zie [uw DNS-records vinden in Windows-DNS](#find-your-dns-records-in-windows-based-dns)om deze pagina voor het domein te vinden.  
-- Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden: 
+Voeg een MX-record toe, zodat e-mail voor uw domein naar Microsoft komt.
+- De MX-record die u toevoegt, bevat een waarde (de waarde Punten naar adres) die er zo uitziet: .mail.protection.outlook.com, waarbij een waarde is zoals  \<MX token\> \<MX token\> MSxxxxxxxxx. 
+- Kopieer in de rij MX in de sectie Exchange Online van de pagina DNS-records toevoegen in Microsoft de waarde die wordt vermeld onder Punten naar adres. U gebruikt deze waarde in de record die u in deze taak maakt. 
+- Ga op de pagina DNS Manager voor het domein naar **Action**  >  **Mail Exchanger (MX)**. Zie Uw [DNS-records zoeken in windows-DNS](#find-your-dns-records-in-windows-based-dns)als u deze pagina voor het domein wilt zoeken.  
+- Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden: 
     - Hostnaam:  
-    - @Address: plak de waarde van het adres waarnaar wordt verwezen die u zojuist uit Microsoft hebt gekopieerd.  
-    - Pref 
-- Selecteer **Save Changes**.
-- Verouderde MX-records verwijderen. Als u oude MX-records voor dit domein hebt waarmee e-mail naar een andere locatie wordt doorgestuurd **, schakelt u** het selectievakje naast elke verouderde record in en selecteert u vervolgens  >  **OK**. 
+    - @Address: Plak hier de waarde punten naar adres die u zojuist vanuit Microsoft hebt gekopieerd.  
+    - Pref: 
+- Selecteer **Wijzigingen opslaan.**
+- Verouderde MX-records verwijderen. Als u oude MX-records voor dit domein hebt die e-mail ergens anders naartoe sturen, schakel dan het selectievakje naast elke oude record in en selecteer **vervolgens**  >  **OK verwijderen.** 
    
 ## <a name="add-cname-records"></a>CNAME-records toevoegen
 <a name="BKMK_add_CNAME"> </a>
 
-Voeg de CNAME-records toe die voor Microsoft vereist zijn. Als er extra CNAME-records worden weergegeven in Microsoft, voegt u de volgende algemene stappen toe.
+Voeg de CNAME-records toe die vereist zijn voor Microsoft. Als er extra CNAME-records worden weergegeven in Microsoft, voegt u deze toe volgens dezelfde algemene stappen die hier worden weergegeven.
   
 > [!IMPORTANT]
-> Als u over MDM (Mobile Device Management) voor Microsoft beschikt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. (Als u geen MDM hebt, kunt u deze stap overslaan.) 
+> Als u Mobile Device Management (MDM) voor Microsoft hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. (Als u geen MDM hebt, kunt u deze stap overslaan.) 
 
-- Ga op de pagina DNS-beheer voor het domein naar **actie**  >  **CNAME (CNAME)**.
-- Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden:  
-    - Hostnaam: automatisch opsporen
-    - Typ 
+- Ga op de pagina DNS Manager voor het domein naar **Actie**  >  **CNAME (CNAME)**.
+- Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden:  
+    - Host name: autodiscover
+    - Typ: 
     - CNAMEAddress: autodiscover.outlook.com
 - Selecteer **O** K.
 
 Voeg de SIP CNAME-record toe. 
-- Ga op de pagina DNS-beheer voor het domein naar **actie** \> **CNAME (CNAME)**. 
-- Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden:  
-    - Host name: SIP
+- Ga op de pagina DNS Manager voor het domein naar **Actie** \> **CNAME (CNAME)**. 
+- Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden:  
+    - Hostnaam: sip
     - Type: CNAME
     - Adres: sipdir.online.lync.com
 - Selecteer **OK**.
 
 Voeg de Skype voor Bedrijven Online Autodiscover CNAME-record toe.  
-- Ga op de pagina DNS-beheer voor het domein naar **actie** \> **CNAME (CNAME)**. Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden:  
-    - Host name: lyncdiscover
+- Ga op de pagina DNS Manager voor het domein naar **Actie** \> **CNAME (CNAME)**. Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden:  
+    - Hostnaam: lyncdiscover
     - Type: CNAME
     - Adres: webdir.online.lync.com
 - Selecteer **OK**.
    
-### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Twee CNAME-records voor MDM (Mobile Device Management) voor Microsoft toevoegen
+### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Twee CNAME-records toevoegen voor Mobile Device Management (MDM) voor Microsoft
 
 > [!IMPORTANT]
-> Als u over MDM (Mobile Device Management) voor Microsoft beschikt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. > (als u geen MDM hebt, kunt u deze stap overslaan.) 
+> Als u Mobile Device Management (MDM) voor Microsoft hebt, moet u twee extra CNAME-records maken. Volg de stappen die u hebt gevolgd voor de andere vier CNAME-records, maar gebruik de waarden uit de volgende tabel. >(Als u geen MDM hebt, kunt u deze stap overslaan.) 
   
 
 Voeg de MDM Enterpriseregistration CNAME-record toe.  
-- Ga op de pagina DNS-beheer voor het domein naar **actie** \> **CNAME (CNAME)**. 
-- Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden:  
-- Host name: enterpriseregistration
+- Ga op de pagina DNS Manager voor het domein naar **Actie** \> **CNAME (CNAME)**. 
+- Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden:  
+- Hostnaam: enterpriseregistration
 - Type: CNAME
 - Adres: enterpriseregistration.windows.net
 - Selecteer **OK**. 
 
 Voeg de MDM Enterpriseenrollment CNAME-record toe. 
--  Ga op de pagina DNS-beheer voor het domein naar **actie** \> **CNAME (CNAME)**. 
--  Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden:  
-    - Host name: enterpriseenrollment
+-  Ga op de pagina DNS Manager voor het domein naar **Actie** \> **CNAME (CNAME)**. 
+-  Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden:  
+    - Hostnaam: enterpriseenrollment
     - Type: CNAME
     - Adres: enterpriseenrollment-s.manage.microsoft.com
 - Selecteer **OK**.
@@ -111,44 +111,44 @@ Voeg de MDM Enterpriseenrollment CNAME-record toe.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden  toe aan de huidige record, zodat u één SPF-record hebt met beide sets waarden. 
   
 Voeg de SPF TXT-record voor uw domein om spam te voorkomen.
   
 - Mogelijk hebt u al andere tekenreeksen in de TXT-waarde voor deze record (zoals tekenreeksen voor marketing-e-mail). Dit is geen probleem. Laat deze tekenreeksen staan en voeg deze toe, plaats dubbele aanhalingstekens rond elke tekenreeks om ze te scheiden. 
-- Ga op de pagina DNS-beheer voor uw domein naar **actie** \> **tekst (txt)**. 
--  Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden. 
+- Ga op de pagina DNS Manager  voor uw domein naar \> **Actietekst (TXT)**. 
+-  Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden. 
  > [!IMPORTANT]
-> In sommige versies van Windows DNS-beheer is het domein mogelijk ingesteld, zodat wanneer u een TXT-record maakt, de naam van het bovenliggende domein standaard wordt ingesteld op de naam van de basismap. Als u in deze situatie een TXT-record toevoegt, stelt u de hostnaam in op leeg (geen waarde) in plaats van op @ of de domeinnaam. 
+> In sommige versies van Windows DNS Manager is het domein mogelijk zo ingesteld dat wanneer u een txt-record maakt, de thuisnaam standaard wordt gebruikt voor het bovenliggende domein. Als u in deze situatie een TXT-record toevoegt, stelt u de hostnaam in op leeg (geen waarde) in plaats van op @ of de domeinnaam. 
 
--  Host type: @
--  Record type: TXT
--  Adres: v = spf1 include:SPF. Protection. Outlook. com-all 
+-  Hosttype: @
+-  Recordtype: TXT
+-  Adres: v=spf1 include:spf.protection.outlook.com -all 
          
 -  Selecteer **OK**.
    
 ## <a name="add-srv-records"></a>SRV-records toevoegen
 <a name="BKMK_add_SRV"> </a>
 
-Voeg de twee SRV-records toe die voor Microsoft vereist zijn.
+Voeg de twee SRV-records toe die vereist zijn voor Microsoft.
 
 Voeg de SIP SRV-record voor Skype voor Bedrijven Online-webconferenties toe.  <br/> 
--  Ga op de pagina DNS-beheer voor uw domein naar **actie** \> **andere nieuwe records**. 
--   Selecteer in het venster **type bron record** de optie **SRV (Service Location)** en selecteer vervolgens **record maken**. 
--   Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden:  
+-  Ga op de pagina DNS Manager voor uw domein naar **Actie** \> **andere nieuwe records.** 
+-   Selecteer in **het venster Resourcerecordtype** de optie **Servicelocatie (SRV)** en selecteer **vervolgens Record maken.** 
+-   Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden:  
     -  Service: _sip
     -  Protocol: _tls
     -  Prioriteit: 100
     -  Gewicht: 1
     -  Poort: 443
-    -  Doel (hostnaam): sipdir.online.lync.com
+    -  Doel (Hostnaam): sipdir.online.lync.com
 -  Selecteer **OK**. 
 
 
 Voeg de SIP SRV-record voor Skype voor Bedrijven Online-federatie toe.  
--  Ga op de pagina DNS-beheer voor uw domein naar **actie** \> **andere nieuwe records**.  
--  Selecteer in het venster **type bron record** de optie **SRV (Service Location)** en selecteer vervolgens **record maken**. 
--   Controleer in het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden:  
+-  Ga op de pagina DNS Manager voor uw domein naar **Actie** \> **andere nieuwe records.**  
+-  Selecteer in **het venster Resourcerecordtype** de optie **Servicelocatie (SRV)** en selecteer **vervolgens Record maken.** 
+-   Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden:  
     -  Service: _sipfederationtls
     -  Protocol: _tcp
     -  Prioriteit: 100
@@ -160,40 +160,40 @@ Voeg de SIP SRV-record voor Skype voor Bedrijven Online-federatie toe.
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Een record toevoegen om te verifiëren dat u eigenaar bent van het domein, als dit nog niet is gedaan
 <a name="BKMK_verify"> </a>
 
-Voordat u de DNS-records toevoegt voor het instellen van uw Microsoft-services, moet Microsoft bevestigen dat u de eigenaar bent van het domein dat u wilt toevoegen. Hiertoe voegt u een record toe aan de hand van onderstaande stappen.
+Voordat u de DNS-records toevoegt om uw Microsoft-services in te stellen, moet Microsoft bevestigen dat u de eigenaar bent van het domein dat u toevoegt. Hiertoe voegt u een record toe aan de hand van onderstaande stappen.
   
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. 
   
 
-1. Gegevens van Microsoft verzamelen.  <br/> 
+1. Verzamel informatie van Microsoft.  <br/> 
 2. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina. 
-3. Selecteer op de pagina **Domains** in de kolom **Actions** de optie **Setup starten** voor het domein dat u wilt verifiëren. 
-4. Selecteer op de pagina **een domein toevoegen aan Microsoft** de optie **begin met stap 1**. 
-5. Op de pagina **Bevestig dat u de eigenaar bent van uw domein** , in de vervolgkeuzelijst **Zie de instructies voor de uitvoering van deze stap met** , kiest u de optie **algemene instructies**. 
+3. Selecteer op **de pagina** Domeinen in de kolom **Acties** voor het domein dat u verifieert de optie **Installatie starten.** 
+4. Selecteer op **de pagina Een domein toevoegen aan Microsoft** stap **1 starten.** 
+5. Kies op **de pagina Bevestigen** dat  u de eigenaar bent van uw domein de optie Algemene instructies in de vervolgkeuzelijst Zie instructies voor het uitvoeren van **deze stap.** 
 6. Kopieer vanuit de tabel de waarde Doel of adres waarnaar wordt verwezen. Deze hebt u nodig voor de volgende stap. Het is raadzaam deze waarde te kopiëren en te plakken, zodat alle spatiëring ongewijzigd blijft.
 
 Voeg een TXT-record toe. 
--  Ga op de pagina DNS-beheer voor uw domein naar **actie** \> **tekst (txt)**. 
--   Selecteer in het dialoogvenster **nieuwe bron record** de optie **bewerken**.  
--  Controleer in het gebied **Custom host names** van het dialoogvenster **nieuwe bron record** of de velden zijn ingesteld op precies de volgende waarden. 
+-  Ga op de pagina DNS Manager  voor uw domein naar \> **Actietekst (TXT)**. 
+-   Selecteer bewerken **in het** dialoogvenster Nieuwe **resourcerecord.**  
+-  Zorg ervoor **dat de** velden in het gebied Aangepaste hostnamen van het dialoogvenster **Nieuwe resourcerecord** precies zijn ingesteld op de volgende waarden. 
 
 > [!IMPORTANT] 
-> In sommige versies van Windows DNS-beheer is het domein mogelijk ingesteld, zodat wanneer u een TXT-record maakt, de naam van het bovenliggende domein standaard wordt ingesteld op de naam van de basismap. Als u in deze situatie een TXT-record toevoegt, stelt u de hostnaam in op leeg (geen waarde) in plaats van op @ of de domeinnaam. 
+> In sommige versies van Windows DNS Manager is het domein mogelijk zo ingesteld dat wanneer u een txt-record maakt, de thuisnaam standaard wordt gebruikt voor het bovenliggende domein. Als u in deze situatie een TXT-record toevoegt, stelt u de hostnaam in op leeg (geen waarde) in plaats van op @ of de domeinnaam. 
 
-- Naam host: @
-- Typ: TXT
-- Adres: plak de waarde van bestemming of verwijzen naar adres die u zojuist uit Microsoft hebt gekopieerd.  
-- Selecteer **OK**  >  .
+- Hostnaam: @
+- Type: TXT
+- Adres: Plak hier de waarde Doel of Adres die u zojuist vanuit Microsoft hebt gekopieerd.  
+- Selecteer **OK**  >  **gedaan.**
 
-Uw domein in Microsoft verifiëren.  
+Controleer uw domein in Microsoft.  
 > [!IMPORTANT]
-> Wacht ongeveer 15 minuten voordat u dit doet, zodat de record die u zojuist hebt gemaakt op internet kan worden bijgewerkt.       
+> Wacht ongeveer 15 minuten voordat u dit doet, zodat de record die u zojuist hebt gemaakt, via internet kan worden bijgewerkt.       
 
 - Ga terug naar Microsoft en volg de onderstaande stappen om een verificatiecontrole aan te vragen. Er wordt gecontroleerd op de TXT-record die u in de vorige stap hebt toegevoegd. Wanneer de juiste TXT-record wordt gevonden, wordt het domein geverifieerd.  
-1. Ga in het Beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen</a> instellen.
-2. Selecteer op de pagina **Domains** in de kolom **Action** de optie **Setup starten** voor het domein dat u wilt verifiëren. 
-3. Selecteer **gedaan, nu controleren** op de pagina **Bevestig dat u eigenaar bent van uw domein** en selecteer **Voltooien** in het bevestigingsdialoogvenster. 
+1. Ga in het beheercentrum naar de **pagina Domeinen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"></a> instellen.
+2. Selecteer op **de pagina** Domeinen in de kolom **Actie** voor het domein dat u verifieert de optie **Setup starten.** 
+3. Selecteer op **de pagina Bevestigen** dat u de eigenaar bent van uw domein de optie **Klaar,** controleer nu en selecteer vervolgens in het bevestigingsdialoogvenster **Voltooien.** 
    
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
@@ -201,8 +201,7 @@ Uw domein in Microsoft verifiëren.
 ## <a name="non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory"></a>Niet-routeerbaar e-mailadres gebruikt als een UPN in de on-premises Active Directory
 <a name="BKMK_ADNote"> </a>
 
-Als u de synchronisatie van uw on-premises Active Directory met Microsoft wilt synchroniseren, moet u ervoor zorgen dat het achtervoegsel van de Active Directory User Principal Name (UPN) een geldig domeinachtervoegsel is en geen niet-ondersteund domeinachtervoegsel, zoals @contoso. local. Als u het UPN-achtervoegsel moet wijzigen, raadpleegt u [een niet-routeerbaar domein voorbereiden op adreslijstsynchronisatie](https://docs.microsoft.com/microsoft-365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization).
+Als u van plan bent uw on-premises Active Directory te synchroniseren met Microsoft, moet u ervoor zorgen dat het UPN-achtervoegsel (Active Directory user principal name) een geldig domeinachtervoegsel is en niet een niet-ondersteund domeinachtervoegsel, zoals @contoso.local. Zie Een [niet-routable domain](../../enterprise/prepare-a-non-routable-domain-for-directory-synchronization.md)voorbereiden voor adreslijstsynchronisatie als u het UPN-achtervoegsel wilt wijzigen.
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  

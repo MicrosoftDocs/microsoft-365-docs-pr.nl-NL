@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Meer informatie over het instellen van uw abonnement op Microsoft 365 Business Standard.
-ms.openlocfilehash: 7dce8fd4572e8434dd1396f98d94e3eaf0ddf7dc
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 51bd06a3ac23a794c71aa7d0ba682f65d48c913e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126115"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914016"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard installeren
 
@@ -53,15 +53,15 @@ Wanneer u Microsoft 365 Business Standard aanschaft, hebt u de mogelijkheid om e
     > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Ga in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
 
     
-4. Volg de stappen in de wizard om [DNS-records te maken bij een DNS-hostingprovider voor Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarmee wordt geverifieerd of u eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Volg de stappen in de wizard om [DNS-records te maken bij een DNS-hostingprovider voor Office 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarmee wordt geverifieerd of u eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Als uw hostingprovider GoDaddy of een andere host is die is ingeschakeld met [domeinverbinding](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en u namens Microsoft te laten verifiëren.
+    Als uw hostingprovider GoDaddy of een andere host is die is ingeschakeld met [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en u namens Microsoft te laten verifiëren.
 
     ![Selecteer Autoriseren op de pagina GoDaddy Toegang bevestigen.](../../media/godaddyauth.png)
 
 ## <a name="add-users-and-assign-licenses"></a>Gebruikers toevoegen en licenties toewijzen
 
-U kunt gebruikers toevoegen in de wizard, maar u kunt ook [gebruikers later toevoegen](../add-users/add-users.md) in het beheercentrum. Als u een lokale domeincontroller hebt, kunt u ook gebruikers toevoegen met [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
+U kunt gebruikers toevoegen in de wizard, maar u kunt ook [gebruikers later toevoegen](../add-users/add-users.md) in het beheercentrum. Als u een lokale domeincontroller hebt, kunt u ook gebruikers toevoegen met [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-install-express).
 
 ## <a name="add-users-in-the-wizard"></a>Gebruikers toevoegen in de wizard
 
@@ -78,10 +78,10 @@ Alle gebruikers die u toevoegt in de wizard krijgen automatisch een Microsoft 36
   
 Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinregistrar bijwerken.
   
-1. Meestal wordt uw registrar automatisch gedetecteerd met de wizard Setup, en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Zo niet, gaat u naar[Naamservers wijzigen voor het instellen van Office 365 bij een domeinregistrar](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
+1. Meestal wordt uw registrar automatisch gedetecteerd met de wizard Setup, en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Zo niet, gaat u naar[Naamservers wijzigen voor het instellen van Office 365 bij een domeinregistrar](../get-help-with-domains/change-nameservers-at-any-domain-registrar.md). 
 
-    - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinverbinding](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), kiest u **Records toevoegen voor mij**. Accepteer alle standaardinstellingen op de pagina **Uw online services kiezen**, kies **Volgende** en kies **Autoriseren** op de pagina van uw DNS-host.
-    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisprincipes van domeinen](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
+    - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), kiest u **Records toevoegen voor mij**. Accepteer alle standaardinstellingen op de pagina **Uw online services kiezen**, kies **Volgende** en kies **Autoriseren** op de pagina van uw DNS-host.
+    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisprincipes van domeinen](/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
 
 2. Volg de stappen in de wizard en e-mail en andere services worden voor u ingesteld.
 
@@ -127,7 +127,7 @@ Als u Outlook met een ander e-mailaccount hebt gebruikt, kunt u de e-mail, agend
   
 Meer informatie vindt u op [E-mails in Outlook importeren](https://support.microsoft.com/office/6a3771d4-4c1d-4a25-92a6-0b8e476335de).
 
-U kunt ook het Exchange-beheercentrum gebruiken om ieders e-mails te importeren. Voor meer informatie raadpleegt u [meerdere e-mailaccounts migreren](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration).
+U kunt ook het Exchange-beheercentrum gebruiken om ieders e-mails te importeren. Voor meer informatie raadpleegt u [meerdere e-mailaccounts migreren](/Exchange/mailbox-migration/mailbox-migration).
   
 ### <a name="use-a-public-website"></a>Een openbare website gebruiken
 

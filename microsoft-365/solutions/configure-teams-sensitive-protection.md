@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het implementeren van teams met bescherming voor vertrouwelijke gegevens.
-ms.openlocfilehash: 0f3f12867314fdd91dfb563f0377995807c0f63d
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 03f10c91461d440413ace418a3b6fdd84da1660a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921108"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916224"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Teams met bescherming voor vertrouwelijke gegevens configureren
 
@@ -39,8 +39,8 @@ Afhankelijk van de aard van uw bedrijf, wilt u het delen met gasten mogelijk nie
 
 Voor meer informatie over delen met gasten kunt u de volgende bronnen raadplegen:
 
-- [Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen buiten uw organisatie](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [Een beveiligde omgeving voor het delen met gasten maken](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen buiten uw organisatie](./share-limit-accidental-exposure.md)
+- [Een beveiligde omgeving voor het delen met gasten maken](./create-secure-guest-sharing-environment.md)
 
 Om delen met gasten toe te staan of te blokkeren, gebruiken we een combinatie van een gevoeligheidslabel voor het team en besturingselementen voor delen op siteniveau voor de bijbehorende SharePoint-site, die beide later worden besproken.
 
@@ -48,7 +48,7 @@ Om delen met gasten toe te staan of te blokkeren, gebruiken we een combinatie va
 
 Voor het gevoelige beveiligingsniveau wordt een gevoeligheidslabel gebruikt om het team te classificeren. Dit label kan ook worden gebruikt om afzonderlijke bestanden in deze of andere teams te classificeren, of in andere bestandslocaties zoals SharePoint of OneDrive. 
 
-Als eerste stap moet u gevoeligheidslabels voor Teams inschakelen. Zie [Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Office 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) voor meer informatie.
+Als eerste stap moet u gevoeligheidslabels voor Teams inschakelen. Zie [Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Office 365-groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md) voor meer informatie.
 
 Als u al gevoeligheidslabels in uw organisatie hebt geïmplementeerd, kunt u overwegen hoe dit label past in uw algemene labelstrategie. U kunt de naam of instellingen zo nodig wijzigen om tegemoet te komen aan de behoeften van uw organisatie.
 
@@ -65,7 +65,7 @@ Een gevoeligheidslabel maken
 8. Klik op de pagina *Automatische labeling voor bestanden en e-mailberichten* op **Volgende**.
 9. Selecteer op de pagina **Beveiligingsinstellingen voor groepen en sites definiëren** de opties **Instellingen voor privacy en toegang voor externe gebruikers** en **Instellingen voor toegang tot apparaten en instellingen voor extern delen** en klik op **Volgende**.
 10. Selecteer op de pagina **Instellingen voor privacy en toegang voor externe gebruikers definiëren** onder **Privacy** de optie **Privé**.
-11. Als u gasttoegang wilt toestaan, selecteert u onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-Groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
+11. Als je gasttoegang wilt toestaan, selecteer je onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
 12. Klik op **Volgende**.
 13. Selecteer op de pagina **Instellingen voor extern delen en instellingen voor toegang tot het apparaat definiëren** de optie **Extern delen beheren via gelabelde SharePoint-sites**.
 14. Onder **Inhoud kan worden gedeeld met** kiest u **Nieuwe en bestaande gasten** als u gasttoegang wilt toestaan of **Alleen personen van de organisatie** als u dat niet wilt.
@@ -74,7 +74,7 @@ Een gevoeligheidslabel maken
 17. Klik op de pagina **Automatische labeling voor databasekolommen** op **Volgende**.
 18. Klik op **Label maken** en klik vervolgens op **Gereed**.
 
-Nadat u het label heeft gemaakt, moet u het publiceren voor de gebruikers die het zullen gebruiken. Voor gevoelige bescherming maken we het label beschikbaar voor alle gebruikers. U kunt het label publiceren in het Microsoft 365-compliancecentrum, op het tabblad **Labelbeleid** op de pagina **Informatiebeveiliging**. Als u een bestaand beleid hebt dat van toepassing is op alle gebruikers, kunt u dit label toevoegen aan dat beleid. Als u een nieuw beleid wilt maken, raadpleegt u [Gevoeligheidslabels publiceren door een labelbeleid te maken](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
+Nadat u het label heeft gemaakt, moet u het publiceren voor de gebruikers die het zullen gebruiken. Voor gevoelige bescherming maken we het label beschikbaar voor alle gebruikers. U kunt het label publiceren in het Microsoft 365-compliancecentrum, op het tabblad **Labelbeleid** op de pagina **Informatiebeveiliging**. Als u een bestaand beleid hebt dat van toepassing is op alle gebruikers, kunt u dit label toevoegen aan dat beleid. Als u een nieuw beleid wilt maken, raadpleegt u [Gevoeligheidslabels publiceren door een labelbeleid te maken](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
 
 ## <a name="create-a-team"></a>Een team maken
 
@@ -98,7 +98,7 @@ Het maken van een persoonlijk kanaal beperken
 2. Vouw op het tabblad **Instellingen** de optie **Machtigingen voor leden** uit.
 3. Schakel het selectievakje **Leden toestaan privékanalen te maken** uit.
 
-U kunt ook [teambeleid](https://docs.microsoft.com/MicrosoftTeams/teams-policies) gebruiken om te bepalen wie persoonlijke kanalen kan maken.
+U kunt ook [teambeleid](/MicrosoftTeams/teams-policies) gebruiken om te bepalen wie persoonlijke kanalen kan maken.
 
 ## <a name="sharepoint-settings"></a>SharePoint-instellingen
 
@@ -125,7 +125,7 @@ Site-instellingen bijwerken
 6. Schakel onder Standaard koppelingstype voor delen het selectievakje **hetzelfde als instelling op organisatieniveau** uit en selecteer **specifieke personen (alleen de personen die door de gebruiker worden opgegeven)**.
 7. Klik op **Opslaan**.
 
-Als u dit wilt scripten als onderdeel van het proces voor het maken van een team, kunt u [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) gebruiken met de volgende parameters:
+Als u dit wilt scripten als onderdeel van het proces voor het maken van een team, kunt u [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) gebruiken met de volgende parameters:
 
 - `-SharingCapability Disabled` om delen met gasten uit te schakelen (deze is standaard ingeschakeld)
 - `-DefaultSharingLinkType Internal` om de standaard koppeling voor delen te wijzigen in *specifieke personen*
@@ -149,6 +149,4 @@ Om het delen van sites voor alleen-eigenaren te configureren
 
 ## <a name="see-also"></a>Zie ook
 
-[Gevoeligheidslabels en hun beleid maken en configureren](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels)
-
-
+[Gevoeligheidslabels en hun beleid maken en configureren](../compliance/create-sensitivity-labels.md)

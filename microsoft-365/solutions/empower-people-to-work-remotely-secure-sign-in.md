@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Vereis dat uw externe werknemers zich aanmelden met meervoudige verificatie (MFA).
-ms.openlocfilehash: 7df6b1335c0ca45c06eee98eeff89f59b6365807
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: d27268ac4c71e74afe6ef04cc61fb029b665c1a0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097138"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916200"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Stap 1. Aanmeldingsbeveiliging voor externe werknemers verbeteren met MFA
 
@@ -36,8 +36,8 @@ Er zijn drie manieren waarop u uw gebruikers kunt verplichten MFA te gebruiken o
 
 |Abonnement  |Aanbeveling  |
 |---------|---------|
-|Alle Microsoft 365-abonnementen (zonder Azure AD Premium P1- of P2-licenties)     |[Schakel standaardinstellingen voor beveiliging in Azure AD in](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). De standaardinstellingen voor beveiliging in Azure AD omvatten MFA voor gebruikers en beheerders.   |
-|Microsoft 365 E3 (bevat Azure AD Premium P1-licenties)     | Gebruik [algemeen beleid voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br>- [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Verouderde verificatie blokkeren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
+|Alle Microsoft 365-abonnementen (zonder Azure AD Premium P1- of P2-licenties)     |[Schakel standaardinstellingen voor beveiliging in Azure AD in](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). De standaardinstellingen voor beveiliging in Azure AD omvatten MFA voor gebruikers en beheerders.   |
+|Microsoft 365 E3 (bevat Azure AD Premium P1-licenties)     | Gebruik [algemeen beleid voor voorwaardelijke toegang](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br>- [MFA vereisen voor beheerders](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [MFA vereisen voor alle gebruikers](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Verouderde verificatie blokkeren](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
 |Microsoft 365 E5 (bevat Azure AD Premium P2-licenties)     | Als u gebruikmaakt van Azure AD Identity Protection, begint u het implementeren van de [aanbevolen set beleidsregels voor voorwaardelijke toegang en verwante beleidsregels](../security/office-365-security/identity-access-policies.md) van Microsoft door de volgende beleidsregels te maken:<br> - [MFA vereisen bij een normaal of hoog risico bij het aanmelden](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Clients blokkeren die moderne verificatie niet ondersteunen](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
@@ -49,7 +49,7 @@ Gebruikers hebben 14 dagen de tijd om zich te registreren voor MFA met de Micros
 
 De standaardinstellingen voor beveiliging bieden organisaties een basisbeveiligingsniveau voor gebruikersaanmeldingen dat standaard is ingeschakeld. U kunt de standaardinstellingen voor beveiliging uitschakelen ten gunste van MFA met voorwaardelijk toegangsbeleid of voor afzonderlijke accounts.
 
-Zie dit [overzicht van gevoeligheidslabels](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie.
+Zie dit [overzicht van gevoeligheidslabels](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie.
 
 ## <a name="conditional-access-policies"></a>Beleid voor voorwaardelijke toegang
 
@@ -63,7 +63,7 @@ U kunt beleidsregels voor voorwaardelijke toegang ook gebruiken voor meer geavan
 
 Voor voorwaardelijke toegang zijn Azure AD Premium P1-licenties vereist, die deel uitmaken van Microsoft 365 E3 en E5.
 
-Zie dit [overzicht van voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) voor meer informatie.
+Zie dit [overzicht van voorwaardelijke toegang](/azure/active-directory/conditional-access/overview) voor meer informatie.
 
 ## <a name="azure-ad-identity-protection-support"></a>Ondersteuning voor Azure AD Identity Protection
 
@@ -73,9 +73,9 @@ Met Azure AD Identity Protection kunt u een aanvullend beleid voor voorwaardelij
 
 Voor Azure AD Identity Protection zijn Azure AD Premium P2-licenties vereist, die deel uitmaken van Microsoft 365 E5.
 
-Zie [Risk-based Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users) (Op risico's gebaseerde voorwaardelijke toegang) voor meer informatie.
+Zie [Risk-based Conditional Access](/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users) (Op risico's gebaseerde voorwaardelijke toegang) voor meer informatie.
 
-Met Azure Active Directory Identity Protection kunt u ook een beleid maken om te vereisen dat uw gebruikers zich registreren voor MFA. Voor meer informatie, zie [Het beleid voor Azure AD Multi-Factor Authentication-registratie configureren](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+Met Azure Active Directory Identity Protection kunt u ook een beleid maken om te vereisen dat uw gebruikers zich registreren voor MFA. Voor meer informatie, zie [Het beleid voor Azure AD Multi-Factor Authentication-registratie configureren](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 
 
 ## <a name="using-these-methods-together"></a>Deze methoden samen gebruiken
@@ -97,11 +97,11 @@ In deze tabel ziet u de resultaten na het inschakelen van MFA met de standaardin
 
 ## <a name="let-your-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
-Met self-service voor wachtwoordherstel (SSPR) kunnen gebruikers hun eigen wachtwoord opnieuw instellen zonder de IT-medewerkers te belasten. Gebruikers kunnen hun wachtwoord op elk moment en vanaf elke locatie snel opnieuw instellen. Voor meer informatie, zie [Een implementatie voor self-service voor wachtwoordherstel van Azure AD plannen](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment).
+Met self-service voor wachtwoordherstel (SSPR) kunnen gebruikers hun eigen wachtwoord opnieuw instellen zonder de IT-medewerkers te belasten. Gebruikers kunnen hun wachtwoord op elk moment en vanaf elke locatie snel opnieuw instellen. Voor meer informatie, zie [Een implementatie voor self-service voor wachtwoordherstel van Azure AD plannen](/azure/active-directory/authentication/howto-sspr-deployment).
 
 ## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Aanmelden bij SaaS-apps met Azure AD
 
-Azure AD kan naast het bieden van cloudverificatie voor gebruikers ook worden gebruikt om al uw apps centraal te beveiligen, ongeacht of ze zich on-premises, in de Microsoft-cloud of in een andere cloud bevinden. Door het [integreren van apps in azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration), kunt u het externe medewerkers gemakkelijk maken om de toepassingen te vinden die ze nodig hebben en zich veilig hierop aan te melden.
+Azure AD kan naast het bieden van cloudverificatie voor gebruikers ook worden gebruikt om al uw apps centraal te beveiligen, ongeacht of ze zich on-premises, in de Microsoft-cloud of in een andere cloud bevinden. Door het [integreren van apps in azure AD](/azure/active-directory/manage-apps/plan-an-application-integration), kunt u het externe medewerkers gemakkelijk maken om de toepassingen te vinden die ze nodig hebben en zich veilig hierop aan te melden.
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>Technische informatiebronnen voor beheerders voor MFA en identiteit
 

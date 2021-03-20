@@ -1,5 +1,5 @@
 ---
-title: Is er een fout met een account uitgeschakeld in de webversie van Outlook?
+title: Krijgt u een foutmelding voor een account uitgeschakeld in de webversie van Outlook?
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -16,16 +16,16 @@ ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - MET150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
-description: Meer informatie over het toevoegen van een licentie aan gebruikers zonder licentie om de fout account uitgeschakeld te herstellen.
-ms.openlocfilehash: b05b19ceb3c4b173164d37f780fd558bdd2d8040
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+description: Lees hoe u een licentie toevoegt aan gebruikers zonder licentie om de fout met uitgeschakeld account op te lossen.
+ms.openlocfilehash: f44ab0811fa3be0642ca662da7fae8cb1d967369
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804859"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914940"
 ---
-# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>Een foutmelding krijgen als een account is uitgeschakeld in de webversie van Outlook
+# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>Fout bij het verwijderen van een account uitgeschakeld in de webversie van Outlook
 
-Als u het foutbericht krijgt dat **uw account is uitgeschakeld** met `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Wanneer u de webversie van Outlook (voorheen Outlook Web app) probeert te openen, heeft uw beheerder mogelijk uw toegang tot de webversie van Outlook uitgeschakeld.
+Als u de foutmelding krijgt Waarmee uw **account** is uitgeschakeld wanneer u de webversie van Outlook probeert te openen (voorheen Bekend als Outlook Web App), heeft uw beheerder mogelijk uw toegang tot de webversie van `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Outlook uitgeschakeld.
 
-Uw beheerder kan deze fout oplossen door de stappen te volgen in het onderwerp [Outlook Web app in of uit te schakelen voor een postvak](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
+Uw beheerder kan deze fout oplossen door de stappen in het onderwerp Outlook Web App voor een postvak in- of uit [te schakelen.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)

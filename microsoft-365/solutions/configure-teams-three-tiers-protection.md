@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Meer informatie over hoe u Teams configureert voor een betere beveiliging bij het delen van bestanden met behulp van drie niveaus bescherming, waarbij beveiliging en eenvoudige samenwerking met elkaar in evenwicht zijn.
-ms.openlocfilehash: d41effb6db9f8995c3c878523babf200ab9af762
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 37d59d968d3a8e83a5b42fcce4c0400940314a41
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509240"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916212"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 
@@ -42,7 +42,7 @@ De configuraties in dit artikel zijn in overeenstemming met de aanbevelingen van
 
 - Bescherming van zeer gevoelige gegevens
 
-Voor meer informatie over deze lagen en aanbevolen functionaliteiten voor elke afzonderlijke laag, gaat u naar [Illustraties voor Microsoft Cloud voor Enterprise Architects](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)
+Voor meer informatie over deze lagen en aanbevolen functionaliteiten voor elke afzonderlijke laag, gaat u naar [Illustraties voor Microsoft Cloud voor Enterprise Architects](./cloud-architecture-models.md)
 
 
 ## <a name="three-tiers-at-a-glance"></a>Drie lagen in een oogopslag
@@ -68,11 +68,11 @@ Teams met gevoelige en zeer gevoelige bescherming zijn privé-teams waarin het d
 
 ## <a name="sensitivity-labels"></a>Gevoeligheidslabels
 
-De gevoelige en zeer gevoelige lagen gebruiken gevoeligheidslabels om het team en de bijbehorende bestanden te beveiligen. Om deze lagen te implementeren, moet u [gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Office 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+De gevoelige en zeer gevoelige lagen gebruiken gevoeligheidslabels om het team en de bijbehorende bestanden te beveiligen. Om deze lagen te implementeren, moet u [gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Office 365-groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md).
 
 Hoewel de basislaag geen gevoeligheidslabels vereist, kunt u overwegen een algemeen label te maken en vervolgens te vereisen dat alle teams een label hebben. Dit zorgt ervoor dat gebruikers een bewuste keuze maken over de gevoeligheid van een team dat ze maken. Als u van plan bent de gevoelige of zeer gevoelige lagen te implementeren, raden we u aan een algemeen label te maken dat u kunt gebruiken voor basislijnteams en voor bestanden die niet gevoelig zijn.
 
-Als u nog geen ervaring hebt met het gebruiken van gevoeligheidslabels, raden we u aan [Aan de slag met gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels) te lezen. 
+Als u nog geen ervaring hebt met het gebruiken van gevoeligheidslabels, raden we u aan [Aan de slag met gevoeligheidslabels](../compliance/get-started-with-sensitivity-labels.md) te lezen. 
 
 Als u al eerder gevoeligheidslabels in uw organisatie hebt geïmplementeerd, dient u te overwegen hoe de labels die worden gebruikt in de gevoelige en zeer gevoelige passen in uw algemene labelstrategie. 
 
@@ -95,7 +95,7 @@ Zowel eigenaren en leden van het team kunnen standaard bestanden en mappen delen
 
 ## <a name="guest-sharing"></a>Gasten delen
 
-Als u wilt samenwerken met personen buiten uw organisatie, raden we u aan [SharePoint- en OneDrive-integratie met Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) te configureren voor de beste manier van delen en administratie.
+Als u wilt samenwerken met personen buiten uw organisatie, raden we u aan [SharePoint- en OneDrive-integratie met Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration-preview) te configureren voor de beste manier van delen en administratie.
 
 Delen met gasten is in Teams standaard uitgeschakeld, maar delen voor Office 365-groepen (waar het teamlidmaatschap wordt opgeslagen) en SharePoint is ingeschakeld. Wij schakelen delen in Teams in op de basislijnlaag en u kunt de functie indien nodig voor de gevoelige en zeer gevoelige lagen uitschakelen met behulp van een gevoeligheidslabel.
 
@@ -113,7 +113,7 @@ Zie de volgende verwijzingen om een veilige en productieve omgeving voor het del
 
 ## <a name="access-from-unmanaged-devices"></a>Toegang vanaf niet-beheerde apparaten
 
-Voor de gevoelige en zeer gevoelige lagen beperken we toegang tot SharePoint-inhoud met gevoeligheidslabels. Met voorwaardelijke toegang van Azure AD kunt u op verschillende manieren vaststellen hoe gebruikers toegang hebben tot Microsoft 365, met inbegrip van beperkingen op basis van locatie, risico, apparaatcompatibiliteit en andere factoren. We raden u aan om [Wat is voorwaardelijke toegang?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) te lezen en na te denken over welke aanvullende beleidsregels mogelijk geschikt zijn voor uw organisatie.
+Voor de gevoelige en zeer gevoelige lagen beperken we toegang tot SharePoint-inhoud met gevoeligheidslabels. Met voorwaardelijke toegang van Azure AD kunt u op verschillende manieren vaststellen hoe gebruikers toegang hebben tot Microsoft 365, met inbegrip van beperkingen op basis van locatie, risico, apparaatcompatibiliteit en andere factoren. We raden u aan om [Wat is voorwaardelijke toegang?](/azure/active-directory/conditional-access/overview) te lezen en na te denken over welke aanvullende beleidsregels mogelijk geschikt zijn voor uw organisatie.
 
 Houd er rekening mee dat gasten vaak geen apparaten hebben die door uw organisatie worden beheerd. Als u gasten in een van de lagen toestaat, dient u te overwegen wat voor apparaat ze gebruiken voor toegang tot teams en sites, zodat u uw beleid voor onbeheerde apparaten op basis daarvan in kunt stellen.
 
@@ -123,6 +123,6 @@ Begin door [het niveau van de basislijn voor bescherming](configure-teams-baseli
 
 ## <a name="see-also"></a>Zie ook
 
-[Beveiliging en compliance in Microsoft Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
+[Beveiliging en compliance in Microsoft Teams](/microsoftteams/security-compliance-overview)
 
-[Meldingsbeleid in het beveiligings- en compliancecentrum](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+[Meldingsbeleid in het beveiligings- en compliancecentrum](../compliance/alert-policies.md)

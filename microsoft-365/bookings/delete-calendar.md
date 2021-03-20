@@ -8,29 +8,29 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
-description: Gebruik het Microsoft 365-beheercentrum of Windows PowerShell om Boekingsagenda's te verwijderen.
-ms.openlocfilehash: 7407298adb402de79a1010b51544deee4b94cf5a
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+description: Gebruik het Microsoft 365-beheercentrum of Windows PowerShell om Bookings-agenda's te verwijderen.
+ms.openlocfilehash: 7b79628327797d2e315d31e1b1a2671f0b24e447
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50604018"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913776"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Een boekingsagenda verwijderen in Bookings
 
 In dit artikel wordt uitgelegd hoe u een ongewenste boekingsagenda kunt verwijderen. U kunt de boekingsagenda verwijderen in het Microsoft 365-beheercentrum of u kunt PowerShell gebruiken. De Bookings-agenda is een postvak in Exchange Online, dus u verwijdert het bijbehorende gebruikersaccount om de boekingsagenda te verwijderen.
 
 > [!IMPORTANT]
-> Alle boekingsagenda's die u in 2017 of eerder hebt gemaakt, moeten worden verwijderd volgens de PowerShell-instructies voor dit onderwerp. Alle boekingsagenda's die in 2018 of later zijn gemaakt, kunnen worden verwijderd in het Microsoft 365-beheercentrum.
+> Alle boekingsagenda's die u in 2017 of eerder hebt gemaakt, moeten worden verwijderd met de PowerShell-instructies over dit onderwerp. Alle boekingsagenda's die in 2018 of daarna zijn gemaakt, kunnen worden verwijderd in het Microsoft 365-beheercentrum.
 
-In de boekingsagenda worden alle relevante informatie over de boekingsagenda en de gegevens opgeslagen, waaronder:
+In de boekingskalender worden alle relevante informatie over die boekingsagenda en -gegevens opgeslagen, waaronder:
 
-- Bedrijfsgegevens, logo en werkuren die zijn toegevoegd toen de boekingsagenda werd gemaakt
-- Relevante medewerkers en services die zijn toegevoegd toen de boekingsagenda werd gemaakt
-- Alle boekingen en afspraken met een time-off die zijn toegevoegd aan de boekingsagenda nadat deze is gemaakt.
+- Zakelijke gegevens, logo's en werkuren toegevoegd wanneer de boekingsagenda is gemaakt
+- Relevante medewerkers en services toegevoegd bij het maken van de boekingsagenda
+- Alle boekingen en vrijafafspraken die zijn toegevoegd aan de boekingsagenda nadat deze zijn gemaakt.
 
 > [!WARNING]
-> Wanneer een boekingsagenda is verwijderd, wordt deze aanvullende informatie ook definitief verwijderd en kan deze niet meer worden hersteld.
+> Wanneer een boekingsagenda is verwijderd, worden deze aanvullende gegevens ook permanent verwijderd en kunnen ze niet meer worden hersteld.
 
 ## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a>Een boekingsagenda verwijderen in het Microsoft 365-beheercentrum
 
@@ -42,13 +42,13 @@ In de boekingsagenda worden alle relevante informatie over de boekingsagenda en 
 
 1. Kies op de pagina **Actieve gebruikers** de namen van de gebruikers die u wilt verwijderen. Selecteer vervolgens **Gebruiker verwijderen**.
 
-   ![Afbeelding van de gebruikersinterface voor gebruikers verwijderen in het Microsoft 365-beheercentrum](../media/bookings-delete-user.png)
+   ![Afbeelding van gebruikersgebruikersinterface verwijderen in microsoft 365-beheercentrum](../media/bookings-delete-user.png)
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Een boekingsagenda verwijderen met Exchange Online PowerShell
 
-Zie Connect to Exchange Online PowerShell for prerequisites and guidance for connecting to Exchange Online PowerShell (Verbinding maken met [Exchange Online PowerShell)](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) voor vereisten en richtlijnen voor het maken van verbinding met Exchange Online PowerShell.
+Zie [Verbinding maken met Exchange Online PowerShell voor](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) vereisten en richtlijnen voor het maken van verbinding met Exchange Online PowerShell.
 
-Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrachtvenster gebruiken dat u hebt uitgevoerd door de optie Als administrator uitvoeren te kiezen.
+Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrachtvenster gebruiken dat u hebt uitgevoerd door de optie Als beheerder uitvoeren te kiezen.
 
 1. Laad in een PowerShell-venster de EXO V2-module door de volgende opdracht uit te voeren:
 
@@ -57,17 +57,17 @@ Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrac
    ```
 
    > [!NOTE]
-   > Als u de [EXO V2-module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module)al hebt geïnstalleerd, werkt de vorige opdracht zoals geschreven.
+   > Als u de [EXO V2-module](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module)al hebt geïnstalleerd, werkt de vorige opdracht zoals geschreven.
    
-2. Voor de opdracht die u moet uitvoeren, wordt de volgende syntaxis gebruikt:
+2. De opdracht die u moet uitvoeren, gebruikt de volgende syntaxis:
 
    ```powershell
    Connect-ExchangeOnline -UserPrincipalName <UPN> 
    ```
 
-   - _\<UPN\>_ is uw account in de notatie User Principal Name `john@contoso.com` (bijvoorbeeld).
+   - _\<UPN\>_ is uw account in de notatie van de gebruikersnaam `john@contoso.com` (bijvoorbeeld).
 
-3. Meld u aan met de referenties van de tenantbeheerder bij de Microsoft 365-tenant die als host de boekingsagenda bevat die u definitief wilt verwijderen.
+3. Wanneer u wordt gevraagd, meld u zich aan met de tenantbeheerderreferenties bij de Microsoft 365-tenant die de reserveringsagenda host die u permanent wilt verwijderen.
 
 4. Als deze opdracht is verwerkt, voert u de volgende opdracht in om een lijst te krijgen met de boekingspostvakken in de tenant:
 
@@ -82,9 +82,9 @@ Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrac
    ```
 
    > [!IMPORTANT]
-   > Let op dat u de exacte naam typt van de postvakalias van de reservering die u definitief wilt verwijderen.
+   > Typ de exacte naam van de reserveringspostvakalias die u definitief wilt verwijderen.
 
-6. Voer de volgende opdracht uit om te controleren of de agenda is verwijderd:
+6. Als u wilt controleren of de agenda is verwijderd, voert u de volgende opdracht in:
 
    ```powershell
     Get-EXOMailbox -RecipientTypeDetails SchedulingMailbox

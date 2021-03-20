@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: 'Maak een postvak voor vergaderruimte of apparatuur, zodat iedereen binnen het bedrijf deze via Outlook reserveren voor vergaderingen of gebeurtenissen. '
-ms.openlocfilehash: ab48a0177acd212ff330a4a772ef84843406a3d5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6960f93e8c1978f94776f067dcd0f502f0665718
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399600"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915168"
 ---
 # <a name="room-and-equipment-mailboxes"></a>Postvakken voor vergaderruimten en apparatuur
 
@@ -88,7 +88,7 @@ Ga naar het Microsoft 365-beheercentrum om een postvak voor vergaderruimte of ap
 6. Als u wijzigingen hebt aangebracht, selecteert u **Opslaan** en dan **Sluiten**.
 
 > [!Note]
-> Om uw postvakken voor vergaderruimten en apparatuur te beveiligen, kunt u de aanmelding bij deze postvakken blokkeren. Zie [Aanmelding voor de account van het gedeelde postvak blokkeren](https://docs.microsoft.com/office365/admin/email/create-a-shared-mailbox?view=o365-worldwide#block-sign-in-for-the-shared-mailbox-account) voor meer informatie.
+> Om uw postvakken voor vergaderruimten en apparatuur te beveiligen, kunt u de aanmelding bij deze postvakken blokkeren. Zie [Aanmelding voor de account van het gedeelde postvak blokkeren](/office365/admin/email/create-a-shared-mailbox?view=o365-worldwide#block-sign-in-for-the-shared-mailbox-account) voor meer informatie.
 
 ## <a name="common-questions-about-room-and-equipment-mailboxes"></a>Algemene vragen over postvakken voor vergaderruimten en apparatuur
 
@@ -110,4 +110,4 @@ Nee. Hoewel de meeste personen in uw organisatie een licentie nodig hebben om Mi
   
 ### <a name="do-i-need-an-owner-in-charge-of-booking-the-rooms-or-equipment"></a>Heb ik een eigenaar nodig die verantwoordelijk is voor het boeken van de ruimte of apparatuur?
 
- Nee, u hebt niemand nodig die verantwoordelijk is voor het postvak voor vergaderruimte of apparatuur. 
+ Nee, u hebt niemand nodig die verantwoordelijk is voor het postvak voor vergaderruimte of apparatuur.

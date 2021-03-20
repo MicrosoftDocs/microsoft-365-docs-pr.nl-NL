@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Meer informatie over hoe gebruiksanalyse verbinding maakt met een API en de maandelijkse trend van het gebruik van verschillende Microsoft 365-services biedt.  '
-ms.openlocfilehash: 7d1e797fc388934f66ddc45d2e7f51566e89ad23
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: 1975fc0bdba279b281fb45c8aec22255579ef414
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758938"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913848"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 Gegevensmodel gebruiksanalyse
 
@@ -35,7 +35,7 @@ ms.locfileid: "50758938"
 Microsoft 365 Gebruiksanalyse maakt verbinding met een API die een multidimensionaal gegevensmodel blootstelt. De API's die door Microsoft 365 gebruiksanalyse worden gebruikt om de gegevens te genereren, zijn afkomstig van de verschillende, algemeen beschikbare, Graph-API's. De functie van de Microsoft 365 Usage Analytics API op zich is niet algemeen beschikbaar.
   
 > [!NOTE]
-> Zie Werken met [Gebruiksrapporten van Microsoft 365 in Microsoft Graph voor meer informatie.](https://go.microsoft.com/fwlink/p/?linkid=864336) 
+> Zie Werken met [Gebruiksrapporten van Microsoft 365 in Microsoft Graph voor meer informatie.](/graph/api/resources/report) 
   
 Deze API bevat informatie over de maandelijkse trend van het gebruik van de verschillende Microsoft 365-services. Raadpleeg de tabel in de volgende sectie voor de exacte gegevens die worden geretourneerd door de API.
   
@@ -295,5 +295,3 @@ De tabel bevat gegevens over het aantal activeringen van Office-abonnementen in 
 |WinRtCount  <br/> |Het aantal activeringen voor een Windows Mobile-apparaat per serviceplan aan het einde van de periode.  <br/> |
 |Timeframe  <br/> |Deze kolom bevat de datumwaarde. Wordt gebruikt als veel-op-een-relatie met tabel Calendar.  <br/> |
 |Content date  <br/> |Als het veld Timeframe de huidige maand bevat, geeft deze waarde de laatste datum in de huidige maand aan waarvoor gegevens beschikbaar zijn.  <br/> Als het veld Timeframe de vorige maand bevat, geeft deze waarde de laatste datum van die maand aan.  <br/> |
-   
-

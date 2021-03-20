@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 03083fdf-bc52-409a-b2ac-2a5f5c308fa0
 description: In dit artikel vindt u informatie over het beheren van instellingen voor uw gebruikers.
-ms.openlocfilehash: ca57d536794ffde4865ec86f34c8dc644ff3c1f1
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: db7a7f01fdd5a6bd657bb04f9aaf4491959e0558
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080001"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915720"
 ---
 # <a name="user-email-settings"></a>Gebruikerse-mailinstellingen
 
@@ -40,7 +40,7 @@ This table explains the various email settings you can change for a user in Micr
 |Weergeven in de algemene adreslijst| Met Weergeven in algemene adreslijst kunt u de zichtbaarheid van het postvak van de gebruiker in- of uitschakelen in de adreslijst van de organisatie. |
 |E-mail doorsturen|Met Doorsturen via e-mail kunt u een e-mailadres voor doorsturen aan een gebruiker toevoegen. U kunt dit doen als de persoon meerdere e-mailadressen heeft en u e-mails wilt ontvangen voor al hun e-mailadressen. Zie [Doorsturen van e‑mail configureren in Microsoft 365](configure-email-forwarding.md) voor meer informatie.|
 |Automatische antwoorden|Met Automatische antwoorden kunt u een automatisch antwoord instellen wanneer iemand een e-mailbericht stuurt naar het e-mailadres van de persoon. U kunt dit doen als een werknemer het bedrijf verlaat en u de afzender van het e-mailbericht dit wilt laten weten.|
-|Meer acties| Met **Converteren naar gedeeld postvak** kunt u het postvak van de gebruiker converteren naar een gedeeld postvak. U kunt dit doen als de persoon uw organisatie verlaat en u de postvakgegevens gedurende een tijdje wilt aanhouden. Bekijk [Een postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) en [Een gedeeld postvak openen en gebruiken](https://support.microsoft.com/office/d94a8e9e-21f1-4240-808b-de9c9c088afd).</br>Met **Eigenschappen voor Exchange bewerken** kunt u extra Exchange Online-taken beheren via het Exchange-beheercentrum. Lees meer over het [Beheren van postvakken van gebruikers in Exchange Online](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).|
+|Meer acties| Met **Converteren naar gedeeld postvak** kunt u het postvak van de gebruiker converteren naar een gedeeld postvak. U kunt dit doen als de persoon uw organisatie verlaat en u de postvakgegevens gedurende een tijdje wilt aanhouden. Bekijk [Een postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) en [Een gedeeld postvak openen en gebruiken](https://support.microsoft.com/office/d94a8e9e-21f1-4240-808b-de9c9c088afd).</br>Met **Eigenschappen voor Exchange bewerken** kunt u extra Exchange Online-taken beheren via het Exchange-beheercentrum. Lees meer over het [Beheren van postvakken van gebruikers in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).|
 
 > [!NOTE]
 >

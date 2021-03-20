@@ -24,21 +24,21 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Lees hoe u problemen kunt oplossen bij het instellen van een aangepast domein door ervoor te zorgen dat de DNS-records correct zijn ingesteld.
-ms.openlocfilehash: 786df75f3f8a514e9b3c2a7666d715c9abd082bd
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: dfb3c93c169a3d31c14d912ddd2cc94fb1e4ace1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926388"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915636"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
-Het kan lastig zijn om uw domein in te stellen voor gebruik met Microsoft 365. Bij het werken met het DNS-systeem is het belangrijk dat alle waarden correct worden ingevoerd, want de DNS-instellingen voor uw domein zijn van invloed op belangrijke zakelijke activiteiten, zoals e-mail.
+Het kan lastig zijn om uw domein te laten werken met Microsoft 365. Bij het werken met het DNS-systeem is het belangrijk dat alle waarden correct worden ingevoerd, want de DNS-instellingen voor uw domein zijn van invloed op belangrijke zakelijke activiteiten, zoals e-mail.
 
 > [!NOTE]
-> U kunt controleren op problemen met uw domein door de status ervan te controleren. Ga naar **Domeinen**  >  **instellen en** bekijk de meldingen in de kolom **Status.** Als u een probleem ziet, selecteert u Meer acties (drie puntjes) en kiest u **Status controleren.** In het deelvenster dat wordt geopend, worden eventuele problemen met uw domein beschreven.
+> U kunt controleren op problemen met uw domein door de status ervan te controleren. Ga naar **Domeinen**  >  **instellen** en bekijk de meldingen in de **kolom Status.** Als u een probleem ziet, selecteert u Meer acties (drie puntjes) en kiest u **Vervolgens Status controleren.** In het deelvenster dat wordt geopend, worden eventuele problemen met uw domein beschreven.
   
 ## <a name="whats-going-on"></a>Wat gebeurt er?
 
@@ -46,7 +46,7 @@ Het kan lastig zijn om uw domein in te stellen voor gebruik met Microsoft 365. B
     
 - [Werkt Outlook niet?](#outlook-isnt-working)
     
-- [Zijn alle e-mailberichten overgeschakeld naar Microsoft 365 en wilt u alleen uw e-mail laten overstappen?](#everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch)
+- [De e-mail van iedereen is overgeschakeld naar Microsoft 365 en u wilt alleen dat uw e-mail wordt overgeschakeld?](#everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch)
 
 - [Kunt u de status van het non-profit- of schoolaccount niet bevestigen?](#cant-confirm-non-profit-or-school-account-status)
 
@@ -63,46 +63,45 @@ Er zijn enkele veelvoorkomende redenen waarom de verificatie van een domein niet
     
 2. **De record is niet opgeslagen.** Bij sommige DNS-hosts moet u een extra stap nemen om het zonebestand (waarin de DNS-record wordt opgeslagen) op te slaan zodat dit overal op internet wordt bijgewerkt. Zorg ervoor dat u uw wijzigingen hebt opgeslagen, zodat Microsoft 365 de record kan zien en controleren. 
     
-3. **De record is nog niet overal op internet bijgewerkt.** Het duurt meestal slechts een paar minuten voordat we de nieuwe record kunnen zien, maar soms duurt het wel een paar uur. 
+3. **De record is niet bijgewerkt op internet.** Meestal duurt het slechts enkele minuten voordat we de nieuwe record kunnen zien, maar af en toe kan het enkele uren duren. 
     
 ## <a name="outlook-isnt-working"></a>Outlook werkt niet?
 <a name="BKMK_OutlookBroken"> </a>
 
-Als u uw MX-record en andere DNS-records correct hebt ingesteld voor uw domein, maar e-mail niet werkt, kunnen wij u helpen [uw Outlook-problemen op te lossen](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues).
+Als u uw MX-record en andere DNS-records correct hebt ingesteld voor uw domein, maar e-mail niet werkt, kunnen wij u helpen [uw Outlook-problemen op te lossen](/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues).
   
-## <a name="everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch"></a>Zijn alle e-mailberichten overgeschakeld naar Microsoft 365 en wilt u alleen uw e-mail laten overstappen?
+## <a name="everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch"></a>De e-mail van iedereen is overgeschakeld naar Microsoft 365 en u wilt alleen dat uw e-mail wordt overgeschakeld?
 <a name="BKMK_EmailSwitched"> </a>
 
-Wanneer u uw domein toevoegt aan Microsoft 365, wordt de MX-record van uw domein meestal bijgewerkt (door u of Microsoft 365) zodat deze naar Microsoft 365 wijst. ALLE e-mail die naar dat domein wordt verzonden, wordt nu verzonden naar Microsoft 365. Zorg ervoor dat u in Microsoft 365 postvakken hebt gemaakt voor iedereen die een e-mailaccount in uw domein heeft, VOORDAT u de MX-record wijzigt.
+Wanneer u uw domein toevoegt aan Microsoft 365, wordt de MX-record van uw domein meestal bijgewerkt (door u of Microsoft 365) om te wijzen naar Microsoft 365. Alle e-mail die naar dat domein wordt verzonden, wordt naar Microsoft 365 verzonden. Zorg ervoor dat u postvakken hebt gemaakt in Microsoft 365 voor iedereen die e-mail op uw domein heeft voordat u de MX-record wijzigt.
   
-Wat moet u doen als u niet voor iedereen in uw domein e-mail wilt verplaatsen naar Microsoft 365? In plaats daarvan kunt u stappen ondernemen [om Microsoft 365 met slechts een paar e-mailadressen te piloten.](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)
+Wat gebeurt er als u niet wilt dat e-mail voor iedereen in uw domein wordt verplaatst naar Microsoft 365? U kunt in plaats daarvan stappen ondernemen [om Microsoft 365 te piloten met slechts een paar e-mailadressen.](../setup/domains-faq.yml)
   
 ## <a name="cant-confirm-non-profit-or-school-account-status"></a>Kunt u de status van het non-profit- of schoolaccount niet bevestigen?
 <a name="BKMK_validateAcct"> </a>
 
-Er zijn een paar scenario's waarin u het domein van uw organisatie hoeft te verifiëren en geen services hoeft in te stellen. Bijvoorbeeld om te bewijzen voor Microsoft 365 dat uw organisatie in aanmerking komt voor een schoolabonnement.
+Er zijn een paar scenario's waarin u alleen het domein van uw organisatie hoeft te verifiëren en geen services hoeft in te stellen. Bijvoorbeeld om aan Microsoft 365 te bewijzen dat uw organisatie in aanmerking komt voor een schoolabonnement.
   
-Raadpleeg de richtlijnen in [Uw Microsoft 365-domein](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) verifiëren om te bewijzen dat u de eigenaar bent, de status van een non-profitorganisatie of onderwijsorganisatie, of om Yammer te activeren om te controleren of u alle vereiste stappen hebt uitgevoerd. Het verschilt per situatie. 
+Bekijk de richtlijnen in [Uw Microsoft 365-domein](../setup/domains-faq.yml) controleren om de eigendomsstatus, non-profitstatus of onderwijsstatus te bewijzen of om Yammer te activeren om ervoor te zorgen dat u alle vereiste stappen hebt voltooid. Het is een beetje anders voor elke situatie. 
   
 ## <a name="services-not-working-with-your-domain"></a>Zijn er services die niet werken met uw domein?
 <a name="BKMK_Test"> </a>
 
-We kunnen u helpen bij het oplossen van problemen met de DNS-instellingen van uw domein. De probleemoplosser voor domeinen in Microsoft 365 toont alle records die moeten worden opgelost en precies op welke records moet worden ingesteld. 
+We kunnen u helpen bij het vinden van problemen met de DNS-instelling van uw domein. In de probleemoplosser voor domeinen in Microsoft 365 ziet u alle records die moeten worden opgelost en precies waar de records op moeten worden ingesteld. 
 
 > [!TIP]
-> Hebt u uw DNS-correct ingesteld, maar werkt e-mail niet in Outlook op uw desktopcomputer? Bekijk de verschillende scenario's voor e-mailstroom die u kunt hebben met [Microsoft 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices) om er zeker van te zijn dat u alles correct hebt ingesteld voor uw bedrijf. Meer hulp bij het oplossen van problemen met e-mail vindt u hier: [Problemen met Outlook oplossen](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues). 
+> Hebt u uw DNS-correct ingesteld, maar werkt e-mail niet in Outlook op uw desktopcomputer? Bekijk de verschillende e-mailstroomscenario's die u met [Microsoft 365](/exchange/mail-flow-best-practices/mail-flow-best-practices) kunt hebben om ervoor te zorgen dat u de zaken correct hebt ingesteld voor uw bedrijf. Meer hulp bij het oplossen van problemen met e-mail vindt u hier: [Problemen met Outlook oplossen](/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues). 
   
 ## <a name="accessing-your-website-isnt-working"></a>U krijgt geen toegang tot uw website?
 <a name="BKMK_Website"> </a>
 
 Als u DNS-problemen hebt opgelost en nog steeds problemen ondervindt, probeer dan een van de volgende opties.
   
-- Personen kunnen uw website op www.mijndomein.com niet bereiken: [Websiteproblemen opsporen](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)
+- Personen kunnen uw website op www.mijndomein.com niet bereiken: [Websiteproblemen opsporen](../setup/add-domain.md)
     
-- U kunt uw A-record of CNAME-record niet bijwerken zodat deze naar uw website wijzen: Aangepaste [DNS-records bijwerken in Microsoft 365](../dns/add-or-edit-custom-dns-records.md)
+- U kunt uw A-record of CNAME-record niet bijwerken om naar uw website te wijzen: [Aangepaste DNS-records bijwerken in Microsoft 365](../setup/add-domain.md)
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Problemen oplossen: Gegevens voor gecontroleerde domeinwijziging controleren](https://docs.microsoft.com/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
+[Problemen oplossen: Controlegegevens over geverifieerde domeinwijziging](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
 
-    

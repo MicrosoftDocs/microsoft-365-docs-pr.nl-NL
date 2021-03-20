@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Train uw gebruikers en zorg ervoor dat problemen snel worden opgelost.
-ms.openlocfilehash: a987a08b2ebd27f7a9cc299e5c8fbae0376437a3
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 662b0d6d7a40a69b3e5c10f3aeea63c2e5237d6d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681382"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916164"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Stap 6: Externe werknemers trainen en reageren op feedback over gebruik
 
@@ -32,7 +32,7 @@ Geef uw externe werknemers training in:
 - Het gebruik van apparaten en hoe eindpuntbeheerbeleid kan worden gebruikt om toegang te blokkeren voor niet-compatibele of niet-beheerde apparaten.
 - Het gebruik van toegestane apps en hoe eindpuntbeheerbeleid voor apps kan worden gebruikt om het gebruik van sommige apps te blokkeren.
 - Beveiligingsfuncties van Windows 10 Enterprise.
-- Het gebruik van [Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) voor chatten, videovergaderingen, het delen van documenten en gesprekslijnen.
+- Het gebruik van [Teams](/microsoftteams/training-microsoft-teams-landing-page) voor chatten, videovergaderingen, het delen van documenten en gesprekslijnen.
 - Het gebruik van [Outlook](https://support.office.com/article/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) voor e-mail en planningen.
 - Het gebruik van [SharePoint](https://support.office.com/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23)-teamsites of -communicatiesites en [OneDrive](https://support.office.com/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132)-mappen om te bladeren in en samen te werken aan bestanden in de bibliotheek van een gebruiker of een groep.
 
@@ -50,4 +50,3 @@ School de gebruikers indien nodig bij.
 ## <a name="results-of-step-6"></a>Resultaten van stap 6
 
 Je externe werknemers zijn getraind en er is een responsief en open forum voor hen om feedback te geven en problemen te publiceren met betrekking tot externe toegang en productiviteits-apps.
-

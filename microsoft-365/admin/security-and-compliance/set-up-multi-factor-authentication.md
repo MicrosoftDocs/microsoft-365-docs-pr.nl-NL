@@ -23,30 +23,30 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Instructies voor het instellen van meervoudige verificatie voor uw organisatie.
 monikerRange: o365-worldwide
-ms.openlocfilehash: d08ef54c545809bbb2277f8d0a8471245400a3ac
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 54c862d8f7c25472d84557e177a9107d2c14d846
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50514966"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914460"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
 
 Gezien uw ervaring met [meervoudige verificatie (MFA) en de bijbehorende ondersteuning in Microsoft 365](multi-factor-authentication-microsoft-365.md), is het tijd om dit in te stellen en te implementeren in uw organisatie.
 
 > [!IMPORTANT]
-> Als u na 21 oktober 2019 uw abonnement of proefabonnement hebt afgesloten en u wordt gevraagd om aanvullende verificatie met MFA als u zich aanmeldt, zijn de [standaardinstellingen voor beveiliging](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) automatisch ingeschakeld voor uw abonnement.
+> Als u na 21 oktober 2019 uw abonnement of proefabonnement hebt afgesloten en u wordt gevraagd om aanvullende verificatie met MFA als u zich aanmeldt, zijn de [standaardinstellingen voor beveiliging](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) automatisch ingeschakeld voor uw abonnement.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
 - U moet een algemeen beheerder zijn om MFA te beheren. Raadpleeg [Over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie.
 - Als verouderde per persoon-MFA is ingeschakeld, [schakel dit dan uit](#turn-off-legacy-per-user-mfa).
-- Als u Office 2013-clients op Windows-apparaten hebt, moet u [Moderne verificatie voor Office 2013-clients inschakelen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication).
-- Geavanceerd: als u adreslijstservices van derden met Active Directory Federation Services (AD FS) hebt, moet u de Azure MFA-server instellen. Raadpleeg [geavanceerde scenario's met Azure AD Multi-Factor Authentication en VPN-oplossingen van derden](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
+- Als u Office 2013-clients op Windows-apparaten hebt, moet u [Moderne verificatie voor Office 2013-clients inschakelen](./enable-modern-authentication.md).
+- Geavanceerd: als u adreslijstservices van derden met Active Directory Federation Services (AD FS) hebt, moet u de Azure MFA-server instellen. Raadpleeg [geavanceerde scenario's met Azure AD Multi-Factor Authentication en VPN-oplossingen van derden](/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
 
 ## <a name="turn-security-defaults-on-or-off"></a>Standaardinstellingen voor beveiliging in- of uitschakelen
 
-Voor de meeste organisaties bieden standaardinstellingen voor beveiliging een goed niveau aanvullende aanmeldingsbeveiliging. Raadpleeg [Wat zijn standaardinstellingen voor beveiliging?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie
+Voor de meeste organisaties bieden standaardinstellingen voor beveiliging een goed niveau aanvullende aanmeldingsbeveiliging. Raadpleeg [Wat zijn standaardinstellingen voor beveiliging?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie
 
 Als uw abonnement nieuw is, zijn de standaardinstellingen voor beveiliging mogelijk al automatisch ingeschakeld.
 
@@ -58,7 +58,7 @@ U kunt standaardinstellingen voor beveiliging in- of uitschakelen vanuit het dee
 4. Kies onderaan de pagina de optie **Standaardinstellingen voor beveiliging beheren**.
 5. Kies **Ja** als u de standaardinstellingen voor beveiliging wilt inschakelen of **Nee** om deze uit te schakelen en kies vervolgens **Opslaan**.
 
-Als u [Beleid voor voorwaardelijke toegang volgens basislijn](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection) gebruikt, zal u gevraagd worden dit uit te schakelen alvorens standaardinstellingen voor beveiliging te gebruiken.
+Als u [Beleid voor voorwaardelijke toegang volgens basislijn](/azure/active-directory/conditional-access/concept-baseline-protection) gebruikt, zal u gevraagd worden dit uit te schakelen alvorens standaardinstellingen voor beveiliging te gebruiken.
 
 1. Ga naar de [pagina met beleidsregels voor voorwaardelijke toegang](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies).
 2. Kies elk basislijnbeleid dat **Aan** staat en zet **Beleid inschakelen** **Uit**.
@@ -73,9 +73,9 @@ Als uw organisatie gedetailleerdere beveiligingsbehoeften voor aanmelding heeft,
 > [!IMPORTANT]
 > Schakel zowel per gebruiker-MFA als Standaardinstellingen voor beveiliging uit voordat u Beleid voor voorwaardelijke toegang inschakelt.
 
-Voorwaardelijke toegang is beschikbaar voor klanten die Azure AD Premium P1 hebben aangeschaft of licenties hebben waarin dit is inbegrepen, zoals Microsoft 365 Business Premium en Microsoft 365 E3. Raadpleeg [Een regel voor voorwaardelijke toegang maken](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa) voor meer informatie.
+Voorwaardelijke toegang is beschikbaar voor klanten die Azure AD Premium P1 hebben aangeschaft of licenties hebben waarin dit is inbegrepen, zoals Microsoft 365 Business Premium en Microsoft 365 E3. Raadpleeg [Een regel voor voorwaardelijke toegang maken](/azure/active-directory/authentication/tutorial-enable-azure-mfa) voor meer informatie.
 
-Op risico's gebaseerde voorwaardelijke toegang is beschikbaar met de Azure AD Premium P2-licentie of licenties waarin dit is inbegrepen, zoals Microsoft 365 E5. Raadpleeg [Op risico's gebaseerde voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk) voor meer informatie.
+Op risico's gebaseerde voorwaardelijke toegang is beschikbaar met de Azure AD Premium P2-licentie of licenties waarin dit is inbegrepen, zoals Microsoft 365 E5. Raadpleeg [Op risico's gebaseerde voorwaardelijke toegang](/azure/active-directory/conditional-access/howto-conditional-access-policy-risk) voor meer informatie.
 
 Voor meer informatie over de Azure AD P1 en P2, zie [Prijzen Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
@@ -104,6 +104,6 @@ Als u eerder per gebruiker-MFA hebt ingeschakeld, moet u dit uitschakelen voorda
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Video: Meervoudige verificatie inschakelen](https://docs.microsoft.com/microsoft-365/business-video/turn-on-mfa)
+[Video: Meervoudige verificatie inschakelen](../../business-video/turn-on-mfa.md)
 
-[Video: Meervoudige verificatie inschakelen voor uw telefoon](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)
+[Video: Meervoudige verificatie inschakelen voor uw telefoon](../../business-video/set-up-mfa.md)
