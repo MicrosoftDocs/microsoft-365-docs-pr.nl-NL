@@ -1,5 +1,5 @@
 ---
-title: Bronnen om u te helpen bij het upgraden van Office 2007-servers en-clients
+title: Resources om u te helpen bij het upgraden van Office 2007-servers en -clients
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -22,51 +22,50 @@ search.appverid:
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
 f1.keywords:
 - NOCSH
-description: Dit artikel bevat informatiebronnen die u helpen bij het upgraden van Office 2007-servers en-clients, als de ondersteuning voor Office 2007 is beëindigd.
+description: Dit artikel bevat informatiebronnen om u te helpen bij het upgraden van Office 2007-servers en -clients, aangezien de ondersteuning voor Office 2007 is beëindigd.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28fa1d56ef66297eaf69d2d11b720e3de2d668f7
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 36ae7ab70b8a95a7762f426f5a0d463083e7bc71
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519778"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909284"
 ---
-# <a name="resources-to-help-you-upgrade-from-office-2007-servers-and-clients"></a>Bronnen om u te helpen bij het upgraden van Office 2007-servers en-clients
+# <a name="resources-to-help-you-upgrade-from-office-2007-servers-and-clients"></a>Resources om u te helpen bij het upgraden van Office 2007-servers en -clients
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Als u Office 2007-producten en-services gebruikt, moet u zich realiseren dat de ondersteuning van deze toepassingen is beëindigd. U kunt ook overstappen op de Microsoft-Cloud, vanaf Microsoft 365. Gebruik dit artikel als uitgangspunt om uw opties te bekijken en de upgrade te plannen.
+Als u Office 2007-producten en -services gebruikt, moet u er rekening mee houden dat de ondersteuning voor deze toepassingen is beëindigd. Overweeg om over te gaan naar de Microsoft-cloud, te beginnen met Microsoft 365. Gebruik dit artikel als uitgangspunt om uw opties te bekijken en de upgrade te plannen.
       
-## <a name="office-2007-planning-roadmaps"></a>Plannings schema's voor Office 2007
+## <a name="office-2007-planning-roadmaps"></a>Planningsplannen voor Office 2007
   
-Ondersteuning is beëindigd voor Office 2007-producten en-services. De volgende stappen kunnen u helpen bij het plannen van de upgrade.
+De ondersteuning voor Office 2007-producten en -services is beëindigd. Met de volgende routekaarten kunt u uw upgrade nu plannen.
 
-|**Inhoud organiseren**|**Datum waarop ondersteuning is beëindigd**|
+|**Inhoud plannen**|**Datumondersteuning beëindigd**|
 |:-----|:-----|
-|[Einde van ondersteunings schema van Office 2007](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap) <br/> |10 oktober 2017  <br/> |
-|[Roadmap voor einde van ondersteuning voor Exchange 2007](exchange-2007-end-of-support.md) <br/> |Donderdag 11 april 2017  <br/> |
+|[Routekaart voor het einde van ondersteuning van Office 2007](/DeployOffice/office-2007-end-support-roadmap) <br/> |10 oktober 2017  <br/> |
+|[Roadmap voor einde van ondersteuning voor Exchange 2007](exchange-2007-end-of-support.md) <br/> |11 april 2017  <br/> |
 |[Roadmap voor het einde van de levensduur van SharePoint Server 2007](sharepoint-2007-end-of-support.md) <br/> |10 oktober 2017  <br/> |
 |[Roadmap voor einde van ondersteuning voor Project Server 2007](project-server-2007-end-of-support.md) <br/> |10 oktober 2017  <br/> |
-|[Upgrade van Office Communications Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |Donderdag 8 januari 2018  <br/> |
-|[Roadmap voor einde van ondersteuning voor PerformancePoint Server 2007](pps-2007-end-of-support.md) <br/> |Woensdag 9 januari 2018  <br/> |
+|[Upgrade van Office Communications Server](/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |8 januari 2018  <br/> |
+|[Roadmap voor einde van ondersteuning voor PerformancePoint Server 2007](pps-2007-end-of-support.md) <br/> |9 januari 2018  <br/> |
    
-Wanneer de ondersteuning voor een Microsoft-product eindigt, zijn er niet meer:
+Nadat de ondersteuning voor een Microsoft-product is beëindigd, zijn er geen meer:
 - Nieuwe beveiligingsupdates
 - Nieuwe niet-beveiligingsupdates
-- Gratis of betaalde beschikbare ondersteuningsopties (inclusief aangepaste ondersteuningsovereenkomsten)
-- Nieuwe technische updates voor online-inhoud
+- Beschikbare gratis of betaalde ondersteuningsopties (inclusief aangepaste ondersteuningsovereenkomsten)
+- Nieuwe updates voor technische online-inhoud
 
-Of u nu een organisatie of een individuele thuisgebruiker bent, u kunt uit verschillende opties kiezen.
+Of u nu een ondernemingsorganisatie of een individuele thuisgebruiker bent, u hebt verschillende opties om rekening mee te houden.
 
 ## <a name="im-a-home-user-what-do-i-do"></a>Ik ben een thuisgebruiker. Wat moet ik doen?
 
-Als u Office 2007-producten en-toepassingen thuis gebruikt, kunt u [deze informatie](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do)raadplegen.
+Zie deze informatie als u Office 2007-producten en -toepassingen thuis [gebruikt.](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do)
      
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Video: wat is Microsoft 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
+[Video: Wat is Microsoft 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
   
-[Beleidsregels voor Microsoft Lifecycle](https://go.microsoft.com/fwlink/?linkid=865200)
+[Levenscyclusbeleid van Microsoft](/lifecycle/)
 
-[De upgrade van Office 2007 of Office 2010-servers en-clients plannen](plan-upgrade-previous-versions-office.md)
-  
+[Uw upgrade plannen vanaf office 2007- of Office 2010-servers en -clients](plan-upgrade-previous-versions-office.md)

@@ -1,5 +1,5 @@
 ---
-title: DNS-records bij GoDaddy maken voor Microsoft
+title: DNS-records maken bij GoDaddy voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,21 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
-description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij GoDaddy voor Microsoft.
-ms.openlocfilehash: 2b53985dc17f3d124ec2b37dbf0047bce229385c
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+description: Informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij GoDaddy voor Microsoft.
+ms.openlocfilehash: d0163447abdc7b9fe5afd4f471f24ee09de40d50
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126447"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910244"
 ---
-# <a name="create-dns-records-at-godaddy-for-microsoft"></a>DNS-records bij GoDaddy maken voor Microsoft
+# <a name="create-dns-records-at-godaddy-for-microsoft"></a>DNS-records maken bij GoDaddy voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt.
 
 Als GoDaddy uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online enzovoort in te stellen.
 
-Nadat u deze records bij GoDaddy hebt toevoegt, is uw domein ingesteld voor gebruik met Microsoft-services.
+Nadat u deze records bij GoDaddy hebt toevoegen, is uw domein ingesteld voor gebruik met Microsoft-services.
 
 > [!NOTE]
 > Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md).
@@ -54,7 +54,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Selecteer **dns onder** Domeinen onder het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen** de optie DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -105,7 +105,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Selecteer **dns onder** Domeinen onder het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen** de optie DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -123,7 +123,7 @@ Voer de onderstaande stappen uit:
 
     |**Recordtype**|**Host**|**Verwijst naar**|**Priority**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX (Mail Exchanger)  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Kom uit  *\<domain-key\>*  uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |1 uur  <br/> |
+    |MX (Mail Exchanger)  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Haal uw  *\<domain-key\>*  uit uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit.    <br/> |1 uur  <br/> |
 
 6. Kies **Opslaan**.
 
@@ -136,7 +136,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Selecteer **dns onder** Domeinen onder het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen** de optie DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -171,7 +171,7 @@ Voer de onderstaande stappen uit:
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u beschikt over één  SPF-record die beide sets met waarden bevat.
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden  toe aan de huidige record, zodat u één SPF-record hebt met beide sets waarden.
 
 Voer de onderstaande stappen uit:
 
@@ -179,7 +179,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Selecteer **dns onder** Domeinen onder het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen** de optie DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -213,7 +213,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Selecteer **dns onder** Domeinen onder het domein dat u wilt bewerken.
+2. Selecteer **onder Domeinen** de optie DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -229,7 +229,7 @@ Voer de onderstaande stappen uit:
 
     Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record.
 
-    (Kies in **de vervolgkeuzelijsten** het recordtype en de **TTL-waarden.)**
+    (Kies de **waarden Recordtype** en **TTL** in de vervolgkeuzelijsten.)
 
     |**Recordtype**|**Naam**|**Doel**|**Protocol**|**Service**|**Prioriteit**|**Gewicht**|**Poort**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

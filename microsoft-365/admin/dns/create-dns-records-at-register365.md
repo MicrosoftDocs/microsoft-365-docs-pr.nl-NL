@@ -1,5 +1,5 @@
 ---
-title: DNS-records bij Register365 maken voor Microsoft
+title: DNS-records maken bij Register365 voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 004030b4-10ad-4026-96e7-011b6afc7e73
-description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Register365 voor Microsoft.
-ms.openlocfilehash: 6cefdeff3da1256911d80066b55b00f5bef24055
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij Register365 voor Microsoft.
+ms.openlocfilehash: a0bf077a6e034add48e9745711fb37d59e2c8203
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656913"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910004"
 ---
-# <a name="create-dns-records-at-register365-for-microsoft"></a>DNS-records bij Register365 maken voor Microsoft
+# <a name="create-dns-records-at-register365-for-microsoft"></a>DNS-records maken bij Register365 voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
@@ -40,13 +40,13 @@ Dit zijn de belangrijkste records om toe te voegen.
     
 - [Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft wordt verzonden](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
     
-- [De zes CNAME-records toevoegen die vereist zijn voor Microsoft](#add-the-six-cname-records-that-are-required-for-microsoft)
+- [Voeg de zes CNAME-records toe die vereist zijn voor Microsoft](#add-the-six-cname-records-that-are-required-for-microsoft)
     
 - [Een TXT-record voor SPF toevoegen om spam tegen te gaan](#add-a-txt-record-for-spf-to-help-prevent-email-spam)
     
 - [De twee SRV-records toevoegen die zijn vereist voor Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Nadat u deze records bij Microsoft hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
+Nadat u deze records bij Microsoft hebt toevoegen, is uw domein ingesteld voor gebruik met Microsoft-services.
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
@@ -73,7 +73,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
-    (Als u een rij wilt toevoegen, selecteert u **add a/CNAME-records (+)**.)
+    (Als u een rij wilt toevoegen, selecteert u **ADD A/CNAME RECORDS (+)**.)
     
     (Mogelijk moet u omlaag schuiven.)
     
@@ -87,7 +87,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Selecteer opslaan.](../../media/157cfb98-d5d0-48a3-8dd1-c4e759c2f8a8.png)
+    ![Selecteer Opslaan](../../media/157cfb98-d5d0-48a3-8dd1-c4e759c2f8a8.png)
   
 5. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -131,7 +131,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Hostnaam**|**Priority**|**Result**|
     |:-----|:-----|:-----|
-    |(Laat dit veld leeg.)  <br/> |1  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     |
+    |(Laat dit veld leeg.)  <br/> |1  <br/> Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Haal uw  *\<domain-key\>*  uit uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)     |
    
     ![Waarden invoeren op de pagina DNS-zone toevoegen/wijzigen](../../media/2d3645a8-9cb8-435e-b895-5535b6b1fffd.png)
   
@@ -139,7 +139,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Selecteer opslaan.](../../media/0e565fb0-a126-4a48-8ff7-2c2d79d4af32.png)
+    ![Selecteer Opslaan](../../media/0e565fb0-a126-4a48-8ff7-2c2d79d4af32.png)
   
 5. Als er in de sectie **Mail exchange records** andere MX-records worden vermeld, verwijdert u elke record door deze te selecteren en vervolgens op het toetsenbord op de toets **Delete** te drukken. 
     
@@ -149,9 +149,9 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Selecteer opslaan.](../../media/1fb69bb5-b5df-4060-adf1-eb26cfaa6c4f.png)
+    ![Selecteer Opslaan](../../media/1fb69bb5-b5df-4060-adf1-eb26cfaa6c4f.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>De zes CNAME-records toevoegen die vereist zijn voor Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Voeg de zes CNAME-records toe die vereist zijn voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
 1. U gaat eerst naar uw domeinenpagina bij Register365 via [deze koppeling](https://admin.register365.com/dns/). U wordt gevraagd u eerst aan te melden.
@@ -168,7 +168,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
-    (Als u een rij wilt toevoegen, selecteert u **add a/CNAME-records (+)**.)
+    (Als u een rij wilt toevoegen, selecteert u **ADD A/CNAME RECORDS (+)**.)
     
     (Mogelijk moet u omlaag schuiven.)
     
@@ -184,13 +184,13 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 4. Kies **Opslaan**.
     
-    ![Selecteer opslaan.](../../media/8ded6428-af97-4fd8-9104-477fa22a5586.png)
+    ![Selecteer Opslaan](../../media/8ded6428-af97-4fd8-9104-477fa22a5586.png)
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden  toe aan de huidige record, zodat u één SPF-record hebt met beide sets waarden. 
   
 1. U gaat eerst naar uw domeinenpagina bij Register365 via [deze koppeling](https://admin.register365.com/dns/). U wordt gevraagd u eerst aan te melden.
     
@@ -206,7 +206,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
-    (Als u een rij wilt toevoegen, selecteert u **add a/CNAME-records (+)**.)
+    (Als u een rij wilt toevoegen, selecteert u **ADD A/CNAME RECORDS (+)**.)
     
     (Mogelijk moet u omlaag schuiven.)
     
@@ -220,7 +220,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Selecteer opslaan.](../../media/1d8da122-4861-4ca3-bc9b-d01f18557d4c.png)
+    ![Selecteer Opslaan](../../media/1d8da122-4861-4ca3-bc9b-d01f18557d4c.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>De twee SRV-records toevoegen die zijn vereist voor Microsoft
 <a name="BKMK_add_SRV"> </a>
@@ -241,17 +241,16 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Name**|**Prioriteit**|**Gewicht**|**Poort**|**Result**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip _sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls _sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
-    ![Waarden opgeven in de sectie service records](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
+    ![Waarden invoeren in de sectie Servicerecords](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
   
 4. Kies **Opslaan**.
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Selecteer opslaan.](../../media/3b80757c-01e1-492d-b2ce-f721d71f7235.png)
+    ![Selecteer Opslaan](../../media/3b80757c-01e1-492d-b2ce-f721d71f7235.png)
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  

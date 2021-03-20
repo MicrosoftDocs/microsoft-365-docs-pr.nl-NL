@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Gebruik de volgende testlabrichtlijnen voor het instellen van een demonstratie, testen van concept of ontwikkelomgevingen voor Microsoft 365 Enterprise.
-ms.openlocfilehash: fefbb18fd108dceba6f387fb8244619c4bb1c167
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: a006f549d0ac68562faee9c935df7f15161b2f12
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487468"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909596"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Microsoft 365 Enterprise-testlabrichtlijnen
 
@@ -31,23 +31,23 @@ ms.locfileid: "48487468"
 
 Met testlabrichtlijnen (TLG's) kunt u snel meer informatie krijgen over Microsoft-producten. Zij bieden instructies voor het configureren van vereenvoudigde maar representatieve testomgevingen. U kunt deze omgevingen gebruiken voor demonstratie, aanpassing of het maken van complexe testconcepten voor de duur van een proefabonnement of een betaald abonnement.
 
-TLG's zijn modulair ontworpen. Ze zijn op elkaar gebaseerd voor het maken van meerdere configuraties die beter aansluiten bij de behoeften van uw leer- en testconfiguratie. De "Ik heb het zelf opgebouwd en het werkt op een praktische manier, zodat u inzicht krijgt in de implementatievereisten van een nieuw product of scenario, zodat u beter kunt nagaan of het hosten van de productie verloopt.
+TLG's zijn modulair ontworpen. Ze zijn op elkaar gebaseerd voor het maken van meerdere configuraties die beter aansluiten bij de behoeften van uw leer- en testconfiguratie. De hands-on ervaring 'I built it out myself and it works' helpt u inzicht te krijgen in de implementatievereisten van een nieuw product of scenario, zodat u het beter kunt plannen voor het hosten ervan in productie.
 
-U kunt Tlg's ook gebruiken om representatieve omgevingen te maken om toepassingen te ontwikkelen en testen, ook wel bekend als ontwikkelomgevingen.
+U kunt ook TLGs gebruiken om representatieve omgevingen te maken voor het ontwikkelen en testen van toepassingen, ook wel dev-/testomgevingen genoemd.
   
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-Voor een visuele kaart voor alle artikelen in de Microsoft 365 for Enterprise test lab Guide, vouwt u de volgende afbeelding uit of gaat u naar de [stack Microsoft 365 voor Enterprise test lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf).
+Vouw de volgende afbeelding uit of ga naar Microsoft 365 for enterprise Test Lab Guide Stack voor een visuele kaart voor alle artikelen in de Stapel testlaboratoren voor [Microsoft 365 voor bedrijven.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 [![Microsoft 365 Enterprise-testlabrichtlijnen-stack](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="base-configuration"></a>Basisconfiguratie
 
-Maak eerst een testomgeving voor [Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/). U kunt twee soorten basisconfiguraties maken:
+Maak eerst een testomgeving voor [Microsoft 365 voor bedrijven.](/microsoft-365-enterprise/) U kunt twee soorten basisconfiguraties maken:
 
-- [Configuratie van lichtgewicht](lightweight-base-configuration-microsoft-365-enterprise.md) functies: gebruik deze als u microsoft 365 wilt configureren en demonstreren voor Enterprise-functies en mogelijkheden in een omgeving met Cloud only, dat geen on-premises onderdelen bevat.
+- [Lichtgewicht basisconfiguratie:](lightweight-base-configuration-microsoft-365-enterprise.md) gebruik deze configuratie wanneer u Microsoft 365 wilt configureren en demonstreren voor bedrijfsfuncties en -mogelijkheden in een cloudomgeving, die geen on-premises onderdelen bevat.
 
-- [Gesimuleerde Enterprise Base configuration](simulated-ent-base-configuration-microsoft-365-enterprise.md) : gebruik deze als u microsoft 365 wilt configureren en demonstreren voor Enterprise-functies en mogelijkheden in een hybride cloudomgeving, waarbij on-premises onderdelen worden gebruikt, zoals een AD DS-domein (Active Directory Domain Services).
+- [Gesimuleerde](simulated-ent-base-configuration-microsoft-365-enterprise.md) ondernemingsbasisconfiguratie: gebruik deze optie wanneer u Microsoft 365 wilt configureren en demonstreren voor bedrijfsfuncties en -mogelijkheden in een hybride cloudomgeving, waarin on-premises onderdelen worden gebruikt, zoals een AD DS-domein (Active Directory Domain Services).
 
 U kunt ook testomgevingen voor Office 365 E5 maken door niet de Microsoft 365 E5-licentie toe te voegen aan uw proefabonnement of productietestomgeving.
     
@@ -69,7 +69,7 @@ Zie voor meer informatie over identiteiten en functionaliteit:
 
 - [Microsoft Azure Active Directory naadloze SSO](single-sign-on-m365-ent-test-environment.md)
   
-   Azure AD naadloos eenmalige aanmelding (naadloze SSO) in-en testen met een AD DS-domeincontroller.
+   Azure AD Seamless Single Sign-on (Seamless SSO) inschakelen en testen met een AD DS-domeincontroller.
 
 - [Meervoudige verificatie](multi-factor-authentication-microsoft-365-test-environment.md)
   
@@ -85,7 +85,7 @@ Zie voor meer informatie over identiteiten en functionaliteit:
 
 - [Wachtwoordherstel](password-reset-m365-ent-test-environment.md)
 
-   Selfservice voor wachtwoordherstel gebruiken om uw wachtwoord opnieuw in te stellen.
+   Gebruik selfservicewachtwoord opnieuw instellen om uw wachtwoord opnieuw in te stellen.
 
 - [Automatische licentie en groepslidmaatschap](automate-licenses-group-membership-microsoft-365-test-environment.md)
 

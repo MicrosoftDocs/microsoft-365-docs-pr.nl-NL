@@ -17,41 +17,41 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 description: Meer informatie over het gebruik van PowerShell voor het beheren van beveiligingsgroepen.
-ms.openlocfilehash: a52fcf6a20598e92f9d5ac8d673a4b1c026030f8
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 64a02a1472fdeb0d61cfb4f380cbe61dd7b557b6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073205"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909500"
 ---
 # <a name="manage-security-groups-with-powershell"></a>Beveiligingsgroepen beheren met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt PowerShell voor Microsoft 365 als alternatief gebruiken voor het Beheercentrum van Microsoft 365 voor het beheren van beveiligingsgroepen. 
+U kunt PowerShell voor Microsoft 365 gebruiken als alternatief voor het Microsoft 365-beheercentrum om beveiligingsgroepen te beheren. 
 
-In dit artikel wordt beschreven hoe u de lijst, het maken, wijzigen van instellingen en beveiligingsgroepen verwijdert. 
+In dit artikel wordt beschreven hoe u beveiligingsgroepen kunt maken, maken, wijzigen en verwijderen. 
 
-Voer de volgende stappen uit als u in dit artikel de waarde van een variabele moet opgeven voor een opdracht blokkering in dit artikel.
+Als voor een opdrachtblok in dit artikel variabele waarden moeten worden opgegeven, gebruikt u deze stappen.
 
-1. Kopieer het opdracht blok naar het Klembord en plak dit in Kladblok of in de ISE (Integrated script Environment) van PowerShell.
-2. Vul de waarden voor de variabele in en verwijder de tekens "<" en ">".
-3. Voer de opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
+1. Kopieer het opdrachtblok naar het klembord en plak het in Kladblok of de Geïntegreerde scriptomgeving van PowerShell (ISE).
+2. Vul de variabele waarden in en verwijder de tekens '<' en '>'.
+3. Voer de opdrachten uit in het PowerShell-venster of de PowerShell-ise.
 
-Zie [lidmaatschap van beveiligingsgroepen onderhouden](maintain-group-membership-with-microsoft-365-powershell.md) om groepslidmaatschap te beheren met PowerShell.
+Zie [Lidmaatschap van beveiligingsgroep behouden om](maintain-group-membership-with-microsoft-365-powershell.md) het groepslidmaatschap met PowerShell te beheren.
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
 
-Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-### <a name="list-your-groups"></a>Uw groepen weergeven
+### <a name="list-your-groups"></a>Uw groepen op een lijst zetten
 
-Gebruik deze opdracht om alle groepen weer te geven.
+Gebruik deze opdracht om al uw groepen op te geven.
 
 ```powershell
 Get-AzureADGroup
 ```
-Met deze opdrachten kunt u de instellingen van een specifieke groep weergeven op basis van de weergavenaam.
+Gebruik deze opdrachten om de instellingen van een bepaalde groep weer te geven op de weergavenaam.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -66,20 +66,20 @@ Gebruik deze opdracht om een nieuwe beveiligingsgroep te maken.
 New-AzureADGroup -Description "<group purpose>" -DisplayName "<name>" -MailEnabled $false -SecurityEnabled $true -MailNickName "<email name>"
 ```
 
-### <a name="change-the-settings-on-a-group"></a>De instellingen van een groep wijzigen
+### <a name="change-the-settings-on-a-group"></a>De instellingen voor een groep wijzigen
 
-De instellingen van de groep met deze opdrachten weergeven.
+Geef de instellingen van de groep weer met deze opdrachten.
 
 ```powershell
 $groupName="<display name of the group>"
 Get-AzureADGroup | Where { $_.DisplayName -eq $groupName } | Select *
 ```
 
-Gebruik vervolgens het artikel [set-AzureADGroup](https://docs.microsoft.com/powershell/module/azuread/set-azureadgroup) om te bepalen hoe u een instelling kunt wijzigen.
+Gebruik vervolgens het artikel [Set-AzureADGroup](/powershell/module/azuread/set-azureadgroup) om te bepalen hoe u een instelling wijzigt.
 
 ### <a name="remove-a-security-group"></a>Een beveiligingsgroep verwijderen
 
-Met deze opdrachten kunt u een beveiligingsgroep verwijderen.
+Gebruik deze opdrachten om een beveiligingsgroep te verwijderen.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -88,27 +88,27 @@ Remove-AzureADGroup -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $gr
 
 ### <a name="manage-the-owners-of-a-security-group"></a>De eigenaren van een beveiligingsgroep beheren
 
-Met deze opdrachten kunt u de huidige eigenaren van een beveiligingsgroep weergeven.
+Gebruik deze opdrachten om de huidige eigenaren van een beveiligingsgroep weer te geven.
 
 ```powershell
 $groupName="<display name of the group>"
 Get-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId
 ```
-Met deze opdrachten kunt u een gebruikersaccount toevoegen door middel van de **UPN (User Principal Name)** van de huidige eigenaren van een beveiligingsgroep.
+Gebruik deze opdrachten om een gebruikersaccount op basis van de gebruikersnaam **(UPN)** toe te voegen aan de huidige eigenaren van een beveiligingsgroep.
 
 ```powershell
 $userUPN="<UPN of the user account to add>"
 $groupName="<display name of the group>"
 Add-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectId
 ```
-Gebruik deze opdrachten om een gebruikersaccount toe te voegen aan de **weergegeven naam** van de huidige eigenaren van een beveiligingsgroep.
+Gebruik deze opdrachten om een gebruikersaccount op de weergavenaam **toe te** voegen aan de huidige eigenaren van een beveiligingsgroep.
 
 ```powershell
 $userName="<Display name of the user account to add>"
 $groupName="<display name of the group>"
 Add-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $userName }).ObjectId
 ```
-Met deze opdrachten kunt u een gebruikersaccount door de **UPN** van de huidige eigenaren van een beveiligingsgroep verwijderen.
+Gebruik deze opdrachten om een gebruikersaccount van de **UPN** te verwijderen naar de huidige eigenaren van een beveiligingsgroep.
 
 ```powershell
 $userUPN="<UPN of the user account to remove>"
@@ -116,7 +116,7 @@ $groupName="<display name of the group>"
 Remove-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId -OwnerId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectId
 ```
 
-Met deze opdrachten kunt u een gebruikersaccount verwijderen met de **weergavenaam** van de huidige eigenaren van een beveiligingsgroep.
+Gebruik deze opdrachten om een gebruikersaccount met de **weergavenaam te verwijderen** voor de huidige eigenaren van een beveiligingsgroep.
 
 ```powershell
 $userName="<Display name of the user account to remove>"
@@ -126,16 +126,16 @@ Remove-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -e
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
 
-Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-### <a name="list-your-groups"></a>Uw groepen weergeven
+### <a name="list-your-groups"></a>Uw groepen op een lijst zetten
 
-Gebruik deze opdracht om alle groepen weer te geven.
+Gebruik deze opdracht om al uw groepen op te geven.
 
 ```powershell
 Get-MsolGroup
 ```
-Met deze opdrachten kunt u de instellingen van een specifieke groep weergeven op basis van de weergavenaam.
+Gebruik deze opdrachten om de instellingen van een bepaalde groep weer te geven op de weergavenaam.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -150,20 +150,20 @@ Gebruik deze opdracht om een nieuwe beveiligingsgroep te maken.
 New-MsolGroup -Description "<group purpose>" -DisplayName "<name>"
 ```
 
-### <a name="change-the-settings-on-a-group"></a>De instellingen van een groep wijzigen
+### <a name="change-the-settings-on-a-group"></a>De instellingen voor een groep wijzigen
 
-De instellingen van de groep met deze opdrachten weergeven.
+Geef de instellingen van de groep weer met deze opdrachten.
 
 ```powershell
 $groupName="<display name of the group>"
 Get-MsolGroup | Where { $_.DisplayName -eq $groupName } | Select *
 ```
 
-Gebruik vervolgens het artikel [set-Remove msolgroup](https://docs.microsoft.com/powershell/module/msonline/set-msolgroup) om te bepalen hoe u een instelling kunt wijzigen.
+Gebruik vervolgens het artikel [Set-MsolGroup](/powershell/module/msonline/set-msolgroup) om te bepalen hoe u een instelling wijzigt.
 
 ### <a name="remove-a-security-group"></a>Een beveiligingsgroep verwijderen
 
-Met deze opdrachten kunt u een beveiligingsgroep verwijderen.
+Gebruik deze opdrachten om een beveiligingsgroep te verwijderen.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -177,4 +177,3 @@ Remove-MsolGroup -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $group
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

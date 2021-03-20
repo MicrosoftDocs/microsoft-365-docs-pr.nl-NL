@@ -1,61 +1,61 @@
 ---
 title: Stappen voor partners om apparaten te registreren
-description: Hoe partners apparaten kunnen registreren zodat ze kunnen worden beheerd door Microsoft beheerde bureaubladversie
+description: Hoe Partners apparaten kunnen registreren zodat ze kunnen worden beheerd door Microsoft Managed Desktop
 ms.prod: w10
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 7e40a5eb7144fef3d330e0e8fc3c711af15d4c49
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+ms.openlocfilehash: be314b20573cecfdb020caf778e51a684a9b6df8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071441"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909068"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>Stappen voor partners om apparaten te registreren
 
 
-In dit onderwerp worden de stappen beschreven die partners volgen om apparaten te registreren. De procedure voor het registreren van apparaten wordt een beschrijving van de manier waarop u apparaten [registreert op de website van Microsoft Managed Desktop](register-devices-self.md).
+In dit onderwerp worden de stappen beschreven die partners moeten volgen om apparaten te registreren. Het proces voor het zelf registreren van apparaten wordt gedocumenteerd in [Apparaten registreren in Microsoft Managed Desktop zelf.](register-devices-self.md)
 
 
 
 ## <a name="prepare-for-registration"></a>Registratie voorbereiden 
-Voordat u de registratie voor een klant voltooit, moet u eerst een relatie tot stand brengen met ze in het [partner centrum](https://partner.microsoft.com/dashboard). Zie de [documentatie](https://docs.microsoft.com/windows/deployment/windows-autopilot/registration-auth#csp-authorization) bij de instemming voor meer informatie over dit proces. Elke CSP-partner kan apparaten toevoegen namens een klant, mits de klant dit kan verzenden. U kunt ook meer te weten komen over partnerrelaties en auto pilot-machtigingen op het [partner centrum](https://docs.microsoft.com/partner-center/customers_revoke_admin_privileges#windows-autopilot).
+Voordat u de registratie voor een klant voltooit, moet u eerst een relatie met de klant tot standbrengen in het [Partnercentrum.](https://partner.microsoft.com/dashboard) Zie de [toestemmingsdocumentatie](/windows/deployment/windows-autopilot/registration-auth#csp-authorization) voor meer informatie over dat proces. Elke CSP-partner kan apparaten toevoegen namens een klant, zolang de klant toestemming geeft. U kunt ook meer informatie krijgen over partnerrelaties en Autopilot-machtigingen bij [Help voor partnercentrum.](/partner-center/customers_revoke_admin_privileges#windows-autopilot)
 
 
 > [!NOTE]
-> Deze documentatie is alleen voor partners en Oem's. Het proces voor het zelf registreren van een beschrijving vindt u in [registreren van apparaten in Microsoft Managed Desktop](register-devices-self.md).
+> Deze documentatie is alleen voor Partners en OEM's. Het proces voor zelfregistratie wordt gedocumenteerd in [Register-apparaten in Microsoft Managed Desktop zelf.](register-devices-self.md)
 
 
-## <a name="register-devices-by-using-partner-center"></a>Apparaten registreren met behulp van partner centrum
+## <a name="register-devices-by-using-partner-center"></a>Apparaten registreren met partnercentrum
 
-Wanneer u de relatie met uw klanten tot stand hebt gebracht, kunt u de volgende stappen uitvoeren om apparaten toe te voegen aan auto pilot voor alle klanten met een relatie:
+Nadat u de relatie met uw klanten hebt vastgesteld, kunt u partnercentrum gebruiken om apparaten toe te voegen aan Autopilot voor alle klanten met wie u een relatie hebt door de volgende stappen uit te voeren:
 
-1. Navigeren naar [partner centrum](https://partner.microsoft.com/dashboard)
-2. Selecteer **klanten** in het partner centrum menu en selecteer vervolgens de klant van wie u de apparaten wilt beheren.
-3. Selecteer op de detailpagina van de klant de optie **apparaten**.
-4. Selecteer **apparaten toevoegen** onder **profielen op apparaten toepassen** .
-5. Voer **Microsoft365Managed_Autopilot** voor de groepsnaam in en selecteer vervolgens **Bladeren** om de lijst van de klant (in. CSV-bestandsindeling) naar het partner centrum te uploaden.
+1. Navigeren naar [Partnercentrum](https://partner.microsoft.com/dashboard)
+2. Selecteer **Klanten** in het menu Partnercentrum en selecteer vervolgens de klant van wie u de apparaten wilt beheren.
+3. Selecteer Apparaten op de detailpagina van **de klant.**
+4. Selecteer **onder Profielen toepassen** op apparaten de optie Apparaten **toevoegen.**
+5. Voer **Microsoft365Managed_Autopilot** voor de groepsnaam in en selecteer **Bladeren** om de lijst van de klant (in CSV-bestandsindeling) te uploaden naar partnercentrum.
 
 
 > [!IMPORTANT]
-> De naam van de groep moet overeenkomen met **Microsoft365Managed_Autopilot** exact, met inbegrip van lettertypen en speciale tekens. Hiermee kunt u de onlangs geregistreerde apparaten toewijzen met het Microsoft Managed Desktop Auto Pilot-profiel.
+> De groepsnaam moet exact **overeenkomen Microsoft365Managed_Autopilot,** inclusief hoofdletters en speciale tekens. Hierdoor kunnen de nieuw geregistreerde apparaten worden toegewezen aan het Microsoft Managed Desktop Autopilot-profiel.
 
 >[!NOTE]
-> U zou dit CSV-bestand moeten ontvangen bij de aankoop van uw apparaat. Als u een. CSV-bestand niet hebt ontvangen, kunt u er zelf een maken door de stappen uit [te voeren om apparaten toe te voegen aan de Windows auto pilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell). Het Windows PowerShell-script wijkt af van de naam die wordt gebruikt voor de [beheerde portal voor Microsoft-bureaubladbeheer](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/register-devices-self?view=o365-worldwide#obtain-the-hardware-hash). Partners moeten [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om apparaten te registreren voor Microsoft Managed Desktop devices in Partner Center.
+> U had dit CSV-bestand moeten ontvangen bij de aankoop van uw apparaat. Als u geen CSV-bestand hebt ontvangen, kunt u er zelf een maken door de stappen in Apparaten toevoegen [aan Windows Autopilot te volgen.](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell) Het Windows PowerShell-script verschilt van het script dat wordt gebruikt voor de [Microsoft Managed Desktop Admin portal.](./register-devices-self.md?view=o365-worldwide#obtain-the-hardware-hash) Partners moeten [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om apparaten te registreren voor Microsoft Managed Desktop-apparaten in partnercentrum.
 
-Als er een foutbericht wordt weergegeven wanneer u het CSV-bestand probeert te uploaden, controleert u de indeling van het bestand. Zorg ervoor dat de kolomvolgorde overeenkomt met wat u hier kunt doen in de [Windows auto pilot-profielen op nieuwe apparaten om de OOBE van een klant aan te passen](https://docs.microsoft.com/partner-center/autopilot#add-devices-to-a-customers-account). U kunt ook het voorbeeld van een CSV-bestand gebruiken dat wordt weergegeven op de koppeling naast **apparaten toevoegen** om een Apparaatlijst te maken. 
+Als u een foutbericht krijgt terwijl u het CSV-bestand probeert te uploaden, controleert u de opmaak van het bestand. Zorg ervoor dat de kolomorder overeenkomt met wat wordt beschreven in Windows Autopilot-profielen gebruiken op nieuwe apparaten om de [out-of-box-ervaring](/partner-center/autopilot#add-devices-to-a-customers-account)van een klant aan te passen. U kunt ook het csv-voorbeeldbestand van de koppeling naast **Apparaten toevoegen** gebruiken om een lijst met apparaten te maken. 
 
-Zie [apparaten toevoegen aan het account van een klant](https://docs.microsoft.com/partner-center/autopilot#add-devices-to-a-customers-account)voor meer informatie over auto pilot in partner scenario's.
+Zie Apparaten toevoegen aan het account van een klant voor meer informatie over Autopilot in [partnerscenario's.](/partner-center/autopilot#add-devices-to-a-customers-account)
 
 
-## <a name="register-devices-by-using-the-oem-api"></a>Apparaten registreren met behulp van de OEM-API
+## <a name="register-devices-by-using-the-oem-api"></a>Apparaten registreren met de OEM-API
 
-Voordat u de registratie voor een klant voltooit, moet u eerst een relatie tot stand brengen. U dient een unieke koppeling te hebben voor uw eigen klanten. Bekijk [hoe u OEM-relaties kunt instellen](https://docs.microsoft.com/windows/deployment/windows-autopilot/registration-auth#oem-authorization).
+Voordat u de registratie voor een klant voltooit, moet u eerst een relatie met de klant tot standbrengen. U moet een unieke koppeling hebben om aan uw respectieve klanten te leveren. Zie [Oem-relatie tot stand komen.](/windows/deployment/windows-autopilot/registration-auth#oem-authorization)
 
-Wanneer u de relatie hebt ingesteld, kunt u beginnen met het registreren van apparaten voor klanten met de Groepsmarkering **Microsoft365Managed_Autopilot**.
+Nadat u de relatie hebt vastgesteld, kunt u apparaten voor klanten registreren met behulp van de **Microsoft365Managed_Autopilot.**
 
 > [!IMPORTANT]
-> De naam van de groep moet overeenkomen met **Microsoft365Managed_Autopilot** exact, met inbegrip van lettertypen en speciale tekens. Hiermee kunt u de onlangs geregistreerde apparaten toewijzen met het Microsoft Managed Desktop Auto Pilot-profiel.
+> De groepsnaam moet exact **overeenkomen Microsoft365Managed_Autopilot,** inclusief hoofdletters en speciale tekens. Hierdoor kunnen de nieuw geregistreerde apparaten worden toegewezen aan het Microsoft Managed Desktop Autopilot-profiel.

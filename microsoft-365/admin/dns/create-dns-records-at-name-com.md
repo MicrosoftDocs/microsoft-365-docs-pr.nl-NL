@@ -1,5 +1,5 @@
 ---
-title: DNS-records bij name.com maken voor Microsoft
+title: DNS-records maken op name.com voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
-description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op name.com voor Microsoft.
-ms.openlocfilehash: 2330755412abfe262ac79c4acbfc12e33af76fe2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services op name.com voor Microsoft.
+ms.openlocfilehash: 97cc83fe060f8fbfe78decff584bded3102b09b5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657825"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910172"
 ---
-# <a name="create-dns-records-at-namecom-for-microsoft"></a>DNS-records bij name.com maken voor Microsoft
+# <a name="create-dns-records-at-namecom-for-microsoft"></a>DNS-records maken op name.com voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als name.com uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online enzovoort in te stellen.
   
-Nadat u deze records bij name.com hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
+Nadat u deze records hebt name.com, is uw domein ingesteld voor gebruik met Microsoft-services.
 
   
 > [!NOTE]
@@ -52,11 +52,11 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Selecteer onder **My Domains** de naam van het domein dat u wilt wijzigen.
+2. Selecteer **onder Mijn domeinen** de naam van het domein dat u wilt wijzigen.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Selecteer in de kolom **Details** de optie **DNS records**. 
+3. Selecteer dns-records in **de** kolom **Details.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -69,7 +69,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     |**Type** <br/> |**Host** <br/> |**Antwoord** <br/> |**TTL** <br/> |
     |TXT  <br/> |(Laat dit veld leeg.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik de standaardwaarde (300).  <br/> |
    
-    ![Voornaam gerichte verificatie-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
+    ![Name-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
   
 5. Selecteer **Record toevoegen**.
     
@@ -105,11 +105,11 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Selecteer onder **My Domains** de naam van het domein dat u wilt wijzigen.
+2. Selecteer **onder Mijn domeinen** de naam van het domein dat u wilt wijzigen.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Selecteer in de kolom **Details** de optie **DNS records**. 
+3. Selecteer dns-records in **de** kolom **Details.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -119,9 +119,9 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Type**|**Host**|**Antwoord**|**TTL**|**Prio**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(Laat dit veld leeg.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik de standaardwaarde (300).  <br/> |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> |
+    |MX  <br/> |(Laat dit veld leeg.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Haal uw  *\<domain-key\>*  uit uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik de standaardwaarde (300).  <br/> |0  <br/> Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit. <br/> |
    
-   ![Afbeelding van de groep 2-1 instellingen](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
+   ![Name-BP-Configure-2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   
 5. Selecteer **Record toevoegen**.
     
@@ -129,11 +129,11 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 6. Als er andere MX-records zijn, verwijdert u deze met behulp van de volgende tweestapsprocedure:
     
-    Selecteer voor elke andere MX-record de optie **Delete** in de kolom **Actions** . 
+    Selecteer Verwijderen in de  kolom **Acties** voor elke andere MX-record. 
     
     ![Name-BP-Configure-2-3](../../media/16734a98-31c4-4023-a2a5-10b7c95bc58e.png)
   
-    Als u elke verwijdering wilt bevestigen, selecteert u opnieuw **Delete** in de kolom **Actions** . 
+    Als u elke verwijdering wilt bevestigen, **selecteert u Opnieuw** Verwijderen in **de** kolom Acties. 
     
     ![Name-BP-Configure-2-4](../../media/409c21c5-51f4-4244-bb84-5d32084224b2.png)
   
@@ -146,11 +146,11 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Selecteer onder **My Domains** de naam van het domein dat u wilt wijzigen.
+2. Selecteer **onder Mijn domeinen** de naam van het domein dat u wilt wijzigen.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Selecteer in de kolom **Details** de optie **DNS records**. 
+3. Selecteer dns-records in **de** kolom **Details.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -168,15 +168,15 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |Gebruik de standaardwaarde (300).  <br/> |
     |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |Gebruik de standaardwaarde (300).  <br/> |
    
-   ![Afbeelding van de groep 3-1 instellingen](../../media/4e34caaf-b418-40ec-abfa-fe62175a87c2.png)
+   ![Name-BP-Configure-3-1](../../media/4e34caaf-b418-40ec-abfa-fe62175a87c2.png)
   
-5. Selecteer **add record** om de eerste record toe te voegen. 
+5. Selecteer **Record toevoegen om** de eerste record toe te voegen. 
     
     ![Name-BP-Configure-3-2](../../media/1053c2a7-07c3-4c1b-b54a-1c02881fb0ec.png)
   
 6. Voeg de tweede CNAME-record toe:
     
-    Gebruik de waarden uit de tweede rij van de bovenstaande tabel en selecteer vervolgens **add record** om de tweede record toe te voegen. 
+    Gebruik de waarden uit de tweede rij van de bovenstaande tabel en selecteer **Vervolgens Record toevoegen** om de tweede record toe te voegen. 
     
     Voeg de resterende records op dezelfde manier toe met behulp van de waarden uit de derde, vierde, vijfde en zesde rij van de tabel.
     
@@ -184,17 +184,17 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden  toe aan de huidige record, zodat u één SPF-record hebt met beide sets waarden. 
   
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij name.com via [deze koppeling](https://www.name.com/account/domain). U wordt gevraagd u eerst aan te melden.
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Selecteer onder **My Domains** de naam van het domein dat u wilt wijzigen.
+2. Selecteer **onder Mijn domeinen** de naam van het domein dat u wilt wijzigen.
 
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Selecteer in de kolom **Details** de optie **DNS records**. 
+3. Selecteer dns-records in **de** kolom **Details.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -206,7 +206,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(Laat dit veld leeg.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |Gebruik de standaardwaarde (300).  <br/> |
    
-   ![Afbeelding van de groep 4-1 instellingen](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
+   ![Name-BP-Configure-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
   
 5. Selecteer **Record toevoegen**.
     
@@ -219,11 +219,11 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Selecteer onder **My Domains** de naam van het domein dat u wilt wijzigen.
+2. Selecteer **onder Mijn domeinen** de naam van het domein dat u wilt wijzigen.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Selecteer in de kolom **Details** de optie **DNS records +**. 
+3. Selecteer in **de kolom** Details de optie **DNS Records+**. 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -238,7 +238,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |SRV|sip|1|Gebruik de standaardwaarde (300).|100|tls|443|sipdir.online.lync.com <br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
     |SRV|sipfederationtls|1|Gebruik de standaardwaarde (300).|100|tcp|5061|sipfed.online.lync.com <br>**Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
    
-   ![Afbeelding van de groep 5-1 instellingen](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
+   ![Name-BP-Configure-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
   
 5. Selecteer **Record toevoegen**.
 
@@ -246,7 +246,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 6. Voeg als volgt de tweede SRV-record toe:
 
-Gebruik de waarden uit de volgende rij van de bovenstaande tabel en selecteer vervolgens **add record** om de tweede record toe te voegen.
+Gebruik de waarden uit de volgende rij van de bovenstaande tabel en selecteer **Vervolgens Record toevoegen** om de tweede record toe te voegen.
 
 >[!NOTE]
 >Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md).

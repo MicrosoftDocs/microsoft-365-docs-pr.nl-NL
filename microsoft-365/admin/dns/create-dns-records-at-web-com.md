@@ -1,5 +1,5 @@
 ---
-title: DNS-records bij web.com maken voor Microsoft
+title: DNS-records maken op web.com voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
-description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op web.com voor Microsoft.
-ms.openlocfilehash: 943070f3790f532a0cc686270e0ecdea08f802fd
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services op web.com voor Microsoft.
+ms.openlocfilehash: b667b2e69822fcd69babda7790a6468b640b073b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656889"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909980"
 ---
-# <a name="create-dns-records-at-webcom-for-microsoft"></a>DNS-records bij web.com maken voor Microsoft
+# <a name="create-dns-records-at-webcom-for-microsoft"></a>DNS-records maken op web.com voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
-Als web.com uw DNS-hosting provider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records in te stellen voor e-mail, Skype voor bedrijven online, enzovoort.
+Als web.com uw DNS-hostingprovider is, volgt u de stappen in dit artikel om uw domein te verifiëren en DNS-records in te stellen voor e-mail, Skype voor Bedrijven Online, en meer.
   
-Nadat u deze records bij web.com hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
+Nadat u deze records hebt web.com, is uw domein ingesteld voor gebruik met Microsoft-services.
 
   
 > [!NOTE]
@@ -46,9 +46,9 @@ Nadat u deze records bij web.com hebt toegevoegd, is uw domein ingesteld voor ge
 > [!IMPORTANT]
 > U moet deze procedure uitvoeren bij de domeinregistrar waar u uw domein hebt gekocht en geregistreerd. 
   
-Toen u zich registreerde voor web.com, hebt u een domein toegevoegd door middel van het **installatie** proces van web.com. 
+Wanneer u zich hebt aangemeld voor web.com, hebt u een domein toegevoegd met behulp van web.com **installatieproces.** 
   
-Als u DNS-records voor uw domein wilt controleren en maken in Microsoft, moet u eerst de naamservers van uw domeinregistratie wijzigen, zodat ze de naamservers van web. com gebruiken.
+Als u DNS-records voor uw domein in Microsoft wilt verifiëren en maken, moet u eerst de naamservers bij uw domeinregistrar wijzigen, zodat ze de naamservers van web.com gebruiken.
   
 Als u de naamservers van het domein zelf wilt wijzigen op de website van de domeinregistrar, voert u de volgende stappen uit:
   
@@ -58,16 +58,16 @@ Als u de naamservers van het domein zelf wilt wijzigen op de website van de dome
     
     |||
     |:-----|:-----|
-    |Eerste naamserver  <br/> |Gebruik de naamserver-waarde van web.com.  <br/> |
-    |Tweede naamserver  <br/> |Gebruik de naamserver-waarde van web.com.  <br/> |
+    |Eerste naamserver  <br/> |Gebruik de naamserverwaarde die door de web.com.  <br/> |
+    |Tweede naamserver  <br/> |Gebruik de naamserverwaarde die door de web.com.  <br/> |
    
     > [!TIP]
-    > U dient ten minste twee naamserver records te gebruiken. Als er andere naamservers worden weergegeven, moet u deze verwijderen. 
+    > U moet ten minste twee naamserverrecords gebruiken. Als er andere naamservers worden vermeld, moet u deze verwijderen. 
   
 3. Sla uw wijzigingen op.
     
 > [!NOTE]
-> Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw Microsoft-e-mail en andere services allemaal ingesteld voor gebruik met uw domein. 
+> Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw e-mail en andere services van Microsoft ingesteld voor gebruik met uw domein. 
   
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
 <a name="BKMK_verify"> </a>
@@ -77,14 +77,14 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
   
-1. Als u wilt beginnen, gaat u naar uw domeinen pagina bij web.com met behulp van [deze koppeling](https://checkout.web.com/manage-it/index.jsp). Meld u eerst aan.
+1. Als u wilt beginnen, gaat u naar uw domeinenpagina op web.com via [deze koppeling.](https://checkout.web.com/manage-it/index.jsp) Meld u eerst aan.
   
-2. Selecteer op de pagina **account beheer** de optie **mijn domeinnamen**. 
+2. Selecteer op **de pagina Accountbeheer** de optie **Mijn domeinnamen.** 
   
-3. Selecteer onder * * beheren * mijn domein * * * de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Manage *my domain***de optie **Geavanceerde DNS-records bewerken.**
 
   
-4. Klik op de pagina **Domain names** onder **Text (TXT records)** op **Edit TXT records** en selecteer vervolgens de waarden uit de volgende tabel. 
+4. Klik op **de pagina Domeinnamen** onder Tekst **(TXT-records)** op **TXT-records bewerken** en selecteer vervolgens de waarden in de volgende tabel. 
     
     |**Host**|**TTL**|**Tekst**|
     |:-----|:-----|:----|
@@ -94,7 +94,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
 5. Selecteer **Doorgaan**.
   
   
-6. Wacht een paar minuten voordat u de nieuwe TXT-record verifieert, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
+6. Wacht enkele minuten voordat u de nieuwe TXT-record verifieert, zodat de record die u zojuist hebt gemaakt, via internet kan worden bijgewerkt.
     
 Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Microsoft en vraagt u de record aan.
   
@@ -121,38 +121,38 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft wordt verzonden
 <a name="BKMK_add_MX"> </a>
 
-1. Als u wilt beginnen, gaat u naar uw domeinen pagina bij web.com met behulp van [deze koppeling](https://checkout.web.com/manage-it/index.jsp). Meld u eerst aan.
+1. Als u wilt beginnen, gaat u naar uw domeinenpagina op web.com via [deze koppeling.](https://checkout.web.com/manage-it/index.jsp) Meld u eerst aan.
   
-2. Selecteer op de pagina **account beheer** de optie **mijn domeinnamen**. 
+2. Selecteer op **de pagina Accountbeheer** de optie **Mijn domeinnamen.** 
   
-3. Selecteer onder * * beheren * mijn domein * * * de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Manage *my domain***de optie **Geavanceerde DNS-records bewerken.**
 
-4. Klik onder **e-mail servers (MX records)** op **Edit MX records** en selecteer vervolgens de waarden uit de volgende tabel. 
+4. Klik **onder Mail Servers (MX Records)** op **MX-records bewerken** en selecteer vervolgens de waarden uit de volgende tabel. 
     
     |**Priority**|**TTL**|**Mail server**|
     |:-----|:-----|:-----|
-    |1  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |3600  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |
+    |1  <br/> Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit.    <br/> |3600  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Haal uw  *\<domain-key\>*  uit uw Microsoft-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |
    
 
 5. Kies **Opslaan**.
   
-6. Als er andere MX-records worden vermeld in de sectie **MX records** , selecteert u het selectievakje naast de record onder **verwijderen** en selecteert u **Opslaan**. 
+6. Als er andere MX-records worden weergegeven in de sectie **MX Records,** selecteert u het selectievakje naast de record onder Verwijderen **en** selecteert u **Opslaan.** 
   
-7. Selecteer in het bevestigingsvenster de optie **Save Changes**. 
+7. Selecteer wijzigingen opslaan in het **bevestigingsscherm.** 
 
   
 ## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>De zes CNAME-records toevoegen die vereist zijn voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
-1. Als u wilt beginnen, gaat u naar uw domeinen pagina bij web.com met behulp van [deze koppeling](https://checkout.web.com/manage-it/index.jsp). U wordt gevraagd u eerst aan te melden.
+1. Als u wilt beginnen, gaat u naar uw domeinenpagina op web.com via [deze koppeling.](https://checkout.web.com/manage-it/index.jsp) U wordt gevraagd u eerst aan te melden.
      
-2. Selecteer op de pagina **account beheer** de optie **mijn domeinnamen**. 
+2. Selecteer op **de pagina Accountbeheer** de optie **Mijn domeinnamen.** 
   
-3. Selecteer onder * * beheren * mijn domein * * * de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Manage *my domain***de optie **Geavanceerde DNS-records bewerken.**
 
 4. Voeg de eerste van de zes CNAME-records toe.
     
-    Klik onder **Host Aliases (CNAME records)** op **Edit CNAME records** en selecteer vervolgens de waarden uit de volgende tabel.
+    Klik **onder Host Aliases (CNAME Records)** op **CNAME-records bewerken** en selecteer vervolgens de waarden in de volgende tabel.
     
     
     |**Alias**|**TTL**|**Refers to Host Name**|**Andere host**|
@@ -174,17 +174,17 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden  toe aan de huidige record, zodat u één SPF-record hebt met beide sets waarden. 
   
-1. Als u wilt beginnen, gaat u naar uw domeinen pagina bij web.com met behulp van [deze koppeling](https://checkout.web.com/manage-it/index.jsp). Meld u eerst aan.
+1. Als u wilt beginnen, gaat u naar uw domeinenpagina op web.com via [deze koppeling.](https://checkout.web.com/manage-it/index.jsp) Meld u eerst aan.
     
   
-2. Selecteer op de pagina **account beheer** de optie **mijn domeinnamen**. 
+2. Selecteer op **de pagina Accountbeheer** de optie **Mijn domeinnamen.** 
   
-3. Selecteer onder * * beheren * mijn domein * * * de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Manage *my domain***de optie **Geavanceerde DNS-records bewerken.**
 
   
-4. Klik op de pagina **Domain names** onder **Text (TXT records)** op **Edit TXT records** en selecteer vervolgens de waarden uit de volgende tabel.   
+4. Klik op **de pagina Domeinnamen** onder Tekst **(TXT-records)** op **TXT-records bewerken** en selecteer vervolgens de waarden in de volgende tabel.   
     
     |**Host**|**TTL**|**Tekst**|
     |:-----|:-----|:-----|
@@ -201,17 +201,17 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="BKMK_add_SRV"> </a>
 
 > [!IMPORTANT]
-> Houd er rekening mee dat web.com verantwoordelijk is voor het beschikbaar stellen van deze functionaliteit. In het geval van verschillen tussen de onderstaande stappen en de huidige web.com-GUI (Graphical User Interface), kunt u de [Web.com-community](https://community.web.com.com/)inzetten. 
+> Houd er rekening mee dat web.com verantwoordelijk is voor het beschikbaar maken van deze functionaliteit. Als u verschillen ziet tussen de onderstaande stappen en de huidige web.com GUI(Grafische gebruikersinterface), gebruikt u de [web.com Community.](https://community.web.com.com/) 
 
-1. Als u wilt beginnen, gaat u naar uw domeinen pagina bij web.com met behulp van [deze koppeling](https://checkout.web.com/manage-it/index.jsp). Meld u eerst aan.
+1. Als u wilt beginnen, gaat u naar uw domeinenpagina op web.com via [deze koppeling.](https://checkout.web.com/manage-it/index.jsp) Meld u eerst aan.
       
-2. Selecteer op de pagina **account beheer** de optie **mijn domeinnamen**. 
+2. Selecteer op **de pagina Accountbeheer** de optie **Mijn domeinnamen.** 
   
-3. Selecteer onder * * beheren * mijn domein * * * de optie **Geavanceerde DNS-records bewerken**.
+3. Selecteer onder **Manage *my domain***de optie **Geavanceerde DNS-records bewerken.**
   
 4. Voeg de eerste van de twee SRV-records toe.
 
-    Klik onder **service (SRV records)** op **Edit SRV records** en selecteer vervolgens de waarden uit de volgende tabel. 
+    Klik **onder Service (SRV Records)** op **SRV-records bewerken** en selecteer vervolgens de waarden uit de volgende tabel. 
         
     |**Service**|**Protocol**|**TTL**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -219,7 +219,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |_sipfederationtls |_tcp |3600 |100 |1 |5061 | sipfed.online.lync.com |
 
   
-5. Als u de andere SRV-record wilt toevoegen, kiest u de waarden uit de tweede rij van de tabel. 
+5. Voeg de andere SRV-record toe door de waarden uit de tweede rij van de tabel te kiezen. 
   
 6. Selecteer **Doorgaan**.
 
@@ -228,4 +228,3 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  

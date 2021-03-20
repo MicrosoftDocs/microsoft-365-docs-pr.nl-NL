@@ -1,5 +1,5 @@
 ---
-title: Federatieve authenticatiefase van hoge beschikbaarheid 3 AD FS-servers configureren
+title: Federatief hoge beschikbaarheid fase 3 Ad FS-servers configureren
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,45 +15,45 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
-description: Leer hoe u de AD FS-servers maakt en configureert voor uw federatieve authenticatie van hoge beschikbaarheid voor Microsoft 365 in Microsoft Azure.
-ms.openlocfilehash: bf8b52f4cd0dead0c264b71363fd5248397ae88d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Meer informatie over het maken en configureren van de AD FS-servers voor federatieverificatie met hoge beschikbaarheid voor Microsoft 365 in Microsoft Azure.
+ms.openlocfilehash: 388a99aa496c4ecd9145759d4dfb1b9441b4fb2c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689564"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909796"
 ---
-# <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a>Federatieve authenticatiefase van hoge beschikbaarheid 3: AD FS-servers configureren
+# <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a>Federatief hoge beschikbaarheid fase 3: AD FS-servers configureren
 
-In deze fase van het implementeren van hoge beschikbaarheid voor Microsoft 365 federatieve authenticatie in azure-infrastructuurservices, maakt u een interne Load Balancer en twee AD FS-servers.
+In deze fase van het implementeren van hoge beschikbaarheid voor Microsoft 365 federatieve verificatie in Azure-infrastructuurservices, maakt u een interne load balancer en twee AD FS-servers.
   
-U moet deze fase voltooien voordat u overstapt naar [fase 4: proxy's voor webtoepassingen configureren](high-availability-federated-authentication-phase-4-configure-web-application-pro.md). Zie [federatieve authenticatie van hoge beschikbaarheid implementeren voor Microsoft 365 in azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) voor alle fasen.
+U moet deze fase voltooien voordat u verder gaat [met fase 4: Webtoepassingsproxies configureren.](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) Zie [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) voor alle fasen.
   
-## <a name="create-the-ad-fs-server-virtual-machines-in-azure"></a>De virtuele machines voor de AD FS-server in azure maken
+## <a name="create-the-ad-fs-server-virtual-machines-in-azure"></a>Virtuele machines voor AD FS-server maken in Azure
 
-Gebruik de volgende PowerShell-opdrachten om de virtuele machines voor de twee AD FS-servers te maken. In deze PowerShell-opdrachtset worden waarden uit de volgende tabellen gebruikt:
+Gebruik het volgende blok met PowerShell-opdrachten om de virtuele machines voor de twee AD FS-servers te maken. In deze PowerShell-opdrachtset worden waarden uit de volgende tabellen gebruikt:
   
-- Tabel M voor uw virtuele machines
+- Tabel M, voor uw virtuele machines
     
-- Tabel R voor de resourcegroepen
+- Tabel R, voor uw resourcegroepen
     
-- Tabel V voor de instellingen van uw virtuele netwerk
+- Tabel V, voor uw virtuele netwerkinstellingen
     
-- Tabel S voor de subnetten
+- Tabel S, voor uw subnetten
     
-- Tabel I voor uw vaste IP-adressen
+- Tabel I, voor uw statische IP-adressen
     
-- Tabel A voor uw beschikbaarheidssets
+- Tabel A, voor uw beschikbaarheidssets
     
-Het intrekken van tabel M in [fase 2: configureer domeincontrollers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) en tabel R, V, S, I en A in [fase 1: Azure configureren](high-availability-federated-authentication-phase-1-configure-azure.md).
+U hebt tabel M gedefinieerd in [fase 2: Domeincontrollers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) en tabellen R, V, S, I en A configureren in [fase 1: Azure configureren.](high-availability-federated-authentication-phase-1-configure-azure.md)
   
 > [!NOTE]
-> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [aan de slag met Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps). 
+> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [Aan de slag met Azure PowerShell](/powershell/azure/get-started-azureps). 
   
-U maakt eerst een Azure Internal Load Balancer voor de twee AD FS-servers. Geef de waarden voor de variabelen op en verwijder de \< and > tekens. Wanneer u alle juiste waarden hebt opgegeven, voert u het resultaat uit op de Azure PowerShell-opdrachtprompt of in het PowerShell-ISE.
+Eerst maakt u een Azure Internal Load Balancer voor de twee AD FS-servers. Geef de waarden op voor de variabelen en verwijder de \< and > tekens. Wanneer u alle juiste waarden hebt opgegeven, kunt u het resulterende blok uitvoeren op de opdrachtprompt van Azure PowerShell of in de PowerShell-ise.
   
 > [!TIP]
-> Als u kant-en-klare PowerShell-opdrachten blokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u deze [Microsoft Excel-configuratie werkmap](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
+> Als u kant-en-klaar PowerShell-opdrachtblokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u deze [Configuratiewerkboek van Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up key variables
@@ -74,9 +74,9 @@ $lbrule=New-AzLoadBalancerRuleConfig -Name "HTTPSTraffic" -FrontendIpConfigurati
 New-AzLoadBalancer -ResourceGroupName $rgName -Name "ADFSServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
 ```
 
-Vervolgens maakt u de virtuele machines van de AD FS-server.
+Maak vervolgens de virtuele machines van de AD FS-server.
   
-Wanneer u alle juiste waarden hebt opgegeven, voert u het resultaat uit op de Azure PowerShell-opdrachtprompt of in het PowerShell-ISE.
+Wanneer u alle juiste waarden hebt opgegeven, kunt u het resulterende blok uitvoeren op de opdrachtprompt van Azure PowerShell of in de PowerShell-ise.
   
 ```powershell
 # Set up variables common to both virtual machines
@@ -131,11 +131,11 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 > [!NOTE]
-> Omdat deze virtuele machines zijn bedoeld voor een intranet toepassing, worden er geen openbaar IP-adres of een DNS-domeinnaamlabel toegewezen en op internet weergegeven. Dit houdt in dat u dit echter ook kunt verbinden met de Azure-Portal. De optie **verbinding** is niet beschikbaar wanneer u de eigenschappen van de virtuele computer bekijkt. Gebruik de accessor van het extern bureaublad of een ander hulpprogramma voor extern bureaublad om verbinding te maken met de virtuele machine met behulp van de bijbehorende persoonlijke IP-adressen of intranet namen.
+> Omdat deze virtuele machines voor een intranettoepassing zijn, krijgen ze geen openbaar IP-adres of een DNS-domeinnaamlabel toegewezen en worden ze blootgesteld aan internet. Dit betekent echter ook dat u geen verbinding met ze kunt maken vanuit de Azure-portal. De **optie** Verbinding maken is niet beschikbaar wanneer u de eigenschappen van de virtuele computer bekijkt. Gebruik het accessoire Extern bureaublad-verbinding of een ander hulpprogramma voor extern bureaublad om verbinding te maken met de virtuele computer met de dns-naam van het privé-IP-adres of intranet.
   
-Voor elke virtuele machine gebruikt u de externe bureaubladclient van uw keuze en maakt u een verbinding met extern bureaublad. Gebruik de intranet-of computernaam van het intranet en de referenties van het lokale beheerdersaccount.
+Gebruik voor elke virtuele computer de externe bureaubladclient van uw keuze en maak een externe bureaubladverbinding. Gebruik de intranet DNS- of computernaam en de referenties van het lokale beheerdersaccount.
   
-Voor elke virtuele machine voegt u de volgende opdrachten toe aan het juiste AD DS-domein (Active Directory Domain Services) met deze opdrachten op de Windows PowerShell-prompt.
+Neem voor elke virtuele machine deel aan het juiste AD DS-domein (Active Directory Domain Services) met deze opdrachten in de Windows PowerShell-prompt.
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -144,20 +144,18 @@ Add-Computer -DomainName $domName -Credential $cred
 Restart-Computer
 ```
 
-Dit is de configuratie die het resultaat is van de succesvolle voltooiing van deze fase, met tijdelijke aanduidingen voor de computernamen.
+Hier is de configuratie die het resultaat is van de succesvolle voltooiing van deze fase, met computernamen van tijdelijke aanduidingen.
   
-**Fase 3: de AD FS-servers en interne Load Balancer voor de federatieve authenticatie-infrastructuur van hoge beschikbaarheid in azure**
+**Fase 3: De AD FS-servers en interne load balancer voor uw federatieve verificatieinfrastructuur met hoge beschikbaarheid in Azure**
 
-![Fase 3 van de ' hoge beschikbaarheid Microsoft 365 federatieve verificatie-infrastructuur in azure met de AD FS-servers](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
+![Fase 3 van de hoge beschikbaarheid van Microsoft 365 federatief verificatie-infrastructuur in Azure met de AD FS-servers](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
   
 ## <a name="next-step"></a>Volgende stap
 
-Gebruik [fase 4: proxy's voor webtoepassingen configureren](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) om door te gaan met het configureren van deze werkbelasting.
+Fase [4: Webtoepassingsproxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) configureren om deze werkbelasting te blijven configureren.
   
 ## <a name="see-also"></a>Zie ook
 
-[Federatieve authenticatie van hoge beschikbaarheid implementeren voor Microsoft 365 in azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
+[Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Federatieve identiteit voor uw Microsoft 365 dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
-
-
+[Federatief identiteit voor uw Microsoft 365-dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)

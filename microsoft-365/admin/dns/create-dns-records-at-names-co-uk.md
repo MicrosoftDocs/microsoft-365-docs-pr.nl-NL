@@ -1,5 +1,5 @@
 ---
-title: DNS-records bij Names.co.uk maken voor Microsoft
+title: DNS-records maken op Names.co.uk voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b6c15128-b456-49b4-8b5e-5b823c700f26
-description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Names.co.uk voor Microsoft.
-ms.openlocfilehash: 51dc9b3271468d42e82f98a1b85de5104416b015
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services op Names.co.uk voor Microsoft.
+ms.openlocfilehash: ddd7286d983a0f180c9aefdbf5218eb9765c8669
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657813"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910040"
 ---
-# <a name="create-dns-records-at-namescouk-for-microsoft"></a>DNS-records bij Names.co.uk maken voor Microsoft
+# <a name="create-dns-records-at-namescouk-for-microsoft"></a>DNS-records maken op Names.co.uk voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als Names.co.uk uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online enzovoort in te stellen.
     
-Nadat u deze records bij Names.co.uk hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
+Nadat u deze records hebt Names.co.uk, is uw domein ingesteld voor gebruik met Microsoft-services.
   
 
   
@@ -51,19 +51,19 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
   
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Names.co.uk via [deze koppeling](https://account.names.co.uk/dashboard#/). U wordt gevraagd u eerst aan te melden.
     
-    ![Gebeurtenis ondblclick voor 1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. Zoek op de pagina **Dashboard** de naam van het domein dat u bijwerkt, en kies vervolgens **DNS-instellingen** in de vervolgkeuzelijst. 
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
 3. Typ of kopieer en plak op de pagina **Add/Modify DNS Zone**, in de sectie **A-, CNAME-, AAAA-, TXT- en NS-records**, de waarden uit de volgende tabel in de vakken voor de nieuwe record. 
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
-    (Als u een rij wilt toevoegen, selecteert u **add a/CNAME-records (+)**.)
+    (Als u een rij wilt toevoegen, selecteert u **ADD A/CNAME RECORDS (+)**.)
     
     (Mogelijk moet u omlaag schuiven.)
         
@@ -71,13 +71,13 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     |:-----|:-----|:-----|
     |(Laat dit veld leeg.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)    |
        
-    ![Gebeurtenis ondblclick voor 1-1](../../media/91ed1f22-a796-418d-bbb0-345e2cd99bde.png)
+    ![NamesUK-BP-Verify-1-1](../../media/91ed1f22-a796-418d-bbb0-345e2cd99bde.png)
   
 4. Kies **Opslaan**.
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 1-2](../../media/40e991f9-2209-4210-8762-981cca670d70.png)
+    ![NamesUK-BP-Verify-1-2](../../media/40e991f9-2209-4210-8762-981cca670d70.png)
   
 5. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -107,13 +107,13 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Names.co.uk via [deze koppeling](https://account.names.co.uk/dashboard#/). U wordt gevraagd u eerst aan te melden.
     
-    ![Gebeurtenis ondblclick voor 1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. Zoek op de pagina **Dashboard** de naam van het domein dat u bijwerkt, en kies vervolgens **DNS-instellingen** in de vervolgkeuzelijst. 
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
 3. Typ of kopieer en plak op de pagina **Add/Modify DNS Zone**, in de sectie **Mail Exchange records**, de waarden uit de volgende tabel in de vakken voor de nieuwe record. 
     
@@ -121,44 +121,44 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Hostnaam**|**Priority**|**Result**|
     |:-----|:-----|:-----|
-    |(Laat dit veld leeg.)  <br/> |1  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]> uw  *\<domain-key\>*  van uw Microsoft-account achterhalen.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Laat dit veld leeg.)  <br/> |1  <br/> Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]> Je van  *\<domain-key\>*  je Microsoft-account halen.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
        
-    ![Gebeurtenis ondblclick voor 2-1](../../media/e211d73d-864f-4114-864b-8e636c69f595.png)
+    ![NamesUK-BP-Configure-2-1](../../media/e211d73d-864f-4114-864b-8e636c69f595.png)
   
 4. Kies **Opslaan**.
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 2-2](../../media/01e6c801-daa2-40ca-84f9-dcac6422257c.png)
+    ![NamesUK-BP-Configure-2-2](../../media/01e6c801-daa2-40ca-84f9-dcac6422257c.png)
   
 5. Als er in de sectie **Mail Exchange records** andere MX-records worden vermeld, verwijdert u elke record door deze te selecteren en vervolgens op het toetsenbord op de toets **Delete** te drukken. 
     
-    ![Gebeurtenis ondblclick voor 2-3](../../media/f8e43926-b724-4690-94e7-ec4b8d7a8da5.png)
+    ![NamesUK-BP-Configure-2-3](../../media/f8e43926-b724-4690-94e7-ec4b8d7a8da5.png)
   
 6. Kies **Opslaan**.
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 2-4](../../media/cd705919-d0bd-408f-82be-b54e732cb05c.png)
+    ![NamesUK-BP-Configure-2-4](../../media/cd705919-d0bd-408f-82be-b54e732cb05c.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>De zes CNAME-records toevoegen die vereist zijn voor Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Voeg de zes CNAME-records toe die vereist zijn voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Names.co.uk via [deze koppeling](https://account.names.co.uk/dashboard#/). U wordt gevraagd u eerst aan te melden.
     
-    ![Gebeurtenis ondblclick voor 1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. Zoek op de pagina **Dashboard** de naam van het domein dat u bijwerkt, en kies vervolgens **DNS-instellingen** in de vervolgkeuzelijst. 
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
 3. Typ of kopieer en plak op de pagina **Add/Modify DNS Zone**, in de sectie **A-, CNAME-, AAAA-, TXT- en NS-records**, de waarden uit de volgende tabel in de vakken voor de nieuwe record. 
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
-    (Als u een rij wilt toevoegen, selecteert u **add a/CNAME-records (+)**.)
+    (Als u een rij wilt toevoegen, selecteert u **ADD A/CNAME RECORDS (+)**.)
     
     (Mogelijk moet u omlaag schuiven.)
     
@@ -170,37 +170,37 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net  <br/> |
     |enterpriseenrollment  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
        
-    ![Gebeurtenis ondblclick voor 3-1](../../media/392772bf-2ed3-4959-9a9a-bb1611905e86.png)
+    ![NamesUK-BP-Configure-3-1](../../media/392772bf-2ed3-4959-9a9a-bb1611905e86.png)
   
 4. Kies **Opslaan**.
     
-    ![Gebeurtenis ondblclick voor 3-2](../../media/c009795e-7eef-4804-bf23-556f498306cc.png)
+    ![NamesUK-BP-Configure-3-2](../../media/c009795e-7eef-4804-bf23-556f498306cc.png)
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat.
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden  toe aan de huidige record, zodat u één SPF-record hebt met beide sets waarden.
   
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Names.co.uk via [deze koppeling](https://account.names.co.uk/dashboard#/). U wordt gevraagd u eerst aan te melden.
     
-    ![Gebeurtenis ondblclick voor 1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. Zoek op de pagina **Dashboard** de naam van het domein dat u bijwerkt, en kies vervolgens **DNS-instellingen** in de vervolgkeuzelijst. 
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
-3. Selecteer op de pagina **DNS zones on account** in de kolom **domain name** de naam van het domein dat u wilt bijwerken. 
+3. Selecteer op **de pagina DNS Zones on Account** in de kolom **Domeinnaam** de naam van het domein dat u bij wilt werken. 
     
-    ![Gebeurtenis ondblclick voor 1-2-1](../../media/20254eec-6952-47ba-b12b-da32860ee7ef.png)
+    ![NamesUK-BP-Configure-1-2-1](../../media/20254eec-6952-47ba-b12b-da32860ee7ef.png)
   
 4. Typ of kopieer en plak op de pagina **Add/Modify DNS Zone**, in de sectie **A-, CNAME-, AAAA-, TXT- en NS-records**, de waarden uit de volgende tabel in de vakken voor de nieuwe record. 
     
     (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
-    (Als u een rij wilt toevoegen, selecteert u **add a/CNAME-records (+)**.)
+    (Als u een rij wilt toevoegen, selecteert u **ADD A/CNAME RECORDS (+)**.)
     
     (Mogelijk moet u omlaag schuiven.)
     
@@ -208,26 +208,26 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |:-----|:-----|:-----|
     |(Laat dit veld leeg.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
        
-    ![Gebeurtenis ondblclick voor 4-1](../../media/cfc61387-630e-4aa0-8762-ef36eaeda44a.png)
+    ![NamesUK-BP-Configure-4-1](../../media/cfc61387-630e-4aa0-8762-ef36eaeda44a.png)
   
 5. Kies **Opslaan**.
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 4-2](../../media/b4d445a1-09c0-46c3-8141-672cc2831a9b.png)
+    ![NamesUK-BP-Configure-4-2](../../media/b4d445a1-09c0-46c3-8141-672cc2831a9b.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>De twee SRV-records toevoegen die zijn vereist voor Microsoft
 <a name="BKMK_add_SRV"> </a>
 
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Names.co.uk via [deze koppeling](https://account.names.co.uk/dashboard#/). U wordt gevraagd u eerst aan te melden.
     
-    ![Gebeurtenis ondblclick voor 1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. Zoek op de pagina **Dashboard** de naam van het domein dat u bijwerkt, en kies vervolgens **DNS-instellingen** in de vervolgkeuzelijst. 
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
 3. Typ of kopieer en plak op de pagina **Add/Modify DNS Zone**, in de sectie **Service records**, de waarden uit de volgende tabel in de vakken voor de nieuwe record. 
     
@@ -235,17 +235,16 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Name**|**Prioriteit**|**Gewicht**|**Poort**|**Result**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip _sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls _sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
-    ![Gebeurtenis ondblclick voor 5-1](../../media/97a96523-005a-4058-9e12-19f6c3bf9b3b.png)
+    ![NamesUK-BP-Configure-5-1](../../media/97a96523-005a-4058-9e12-19f6c3bf9b3b.png)
   
 4. Kies **Opslaan**.
     
     (Mogelijk moet u omlaag schuiven.)
     
-    ![Gebeurtenis ondblclick voor 5-2](../../media/bb617a5f-14f9-44b7-9256-bdef34d22d6b.png)
+    ![NamesUK-BP-Configure-5-2](../../media/bb617a5f-14f9-44b7-9256-bdef34d22d6b.png)
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
-  

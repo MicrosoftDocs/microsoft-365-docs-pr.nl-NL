@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ce17f413b23ef9ef6abf79a2710a5cec9b05206c
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 1151cddbad2f5b8633b0e0f19a24c470f85d7614
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838529"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908976"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365 evalueren
 
@@ -44,7 +44,7 @@ Defender voor Office 365 maakt in de evaluatiemodus Defender voor Office 365-e-m
 
 In de evaluatiemodus [worden namens](atp-safe-attachments.md)u [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) veilige bijlagen, veilige [koppelingen](atp-safe-links.md)en op postvakintelligentie gebaseerd imitatiebeleid ingesteld. Alle Defender voor Office 365-beleidsregels worden gemaakt in de niet-afdwingingsmodus op de achtergrond en zijn niet zichtbaar voor u.
 
-Als onderdeel van de installatie configureert de evaluatiemodus ook [Verbeterde filtering voor verbindingslijnen.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) De filternauwkeurigheid wordt verbeterd door ip-adres- en afzendergegevens te behouden, die anders verloren gaan wanneer e-mail door een e-mailbeveiligingsgateway (ESG) loopt voor Defender voor Office 365. Verbeterde filtering voor connectors verbetert ook de filternauwkeurigheid voor uw bestaande EOP-beleid (Exchange Online Protection) tegen spam en anti-phishing.
+Als onderdeel van de installatie configureert de evaluatiemodus ook [Verbeterde filtering voor verbindingslijnen.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) De filternauwkeurigheid wordt verbeterd door ip-adres- en afzendergegevens te behouden, die anders verloren gaan wanneer e-mail door een e-mailbeveiligingsgateway (ESG) loopt voor Defender voor Office 365. Verbeterde filtering voor connectors verbetert ook de filternauwkeurigheid voor uw bestaande EOP-beleid (Exchange Online Protection) tegen spam en anti-phishing.
 
 Het ingeschakelde verbeterde filteren voor connectors verbetert de filternauwkeurigheid, maar kan de bezorging van bepaalde berichten wijzigen als u een ESG hebt voor Defender voor Office 365 en op dit moment EOP-filtering niet overbrugt. Het effect is beperkt tot EOP-beleid. MDO-beleidsregels die zijn ingesteld als onderdeel van de evaluatie, worden gemaakt in de modus niet-afdwingen. Als u de potentiële productie-impact wilt minimaliseren, kunt u alle EOP-filtering omzeilen door een transportregel te maken om het betrouwbaarheidsniveau voor spam (SCL) in te stellen op -1. Zie [De EAC gebruiken om een e-mailstroomregel te maken die](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)de SCL van een bericht in stelt voor meer   informatie.
 
@@ -72,7 +72,7 @@ Als u geen van deze licenties hebt, moet u een proeflicentie verkrijgen.
 
 #### <a name="trial"></a>Proefversie
 
-Als u een proeflicentie wilt verkrijgen voor Microsoft Defender voor Office 365, moet u de rol **factureringsbeheerder** of **globale beheerder hebben.** Vraag machtiging aan van iemand met de rol globale beheerder. [Meer informatie over abonnementen en licenties](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
+Als u een proeflicentie wilt verkrijgen voor Microsoft Defender voor Office 365, moet u de rol **factureringsbeheerder** of **globale beheerder hebben.** Vraag machtiging aan van iemand met de rol globale beheerder. [Meer informatie over abonnementen en licenties](../../commerce/licenses/subscriptions-and-licenses.md)
 
 Zodra u de juiste rol hebt, is het aanbevolen pad om een proeflicentie te verkrijgen voor Microsoft Defender voor Office 365 (Abonnement 2) in het Microsoft 365-beheercentrum door naar Facturering > Services kopen te gaan. De proefversie bevat een gratis proefversie van 30 dagen voor 25 licenties. [Een proefabonnement voor Microsoft Defender voor Office 365 (Abonnement 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)krijgen.
 
@@ -80,14 +80,14 @@ U hebt een venster van 30 dagen met de evaluatie om geavanceerde bedreigingen te
 
 ### <a name="roles"></a>Rollen
 
-Exchange Online-rollen zijn vereist voor het instellen van Defender voor Office 365 in de evaluatiemodus.
+**Exchange Online-rollen zijn vereist voor** het instellen van Defender voor Office 365 in de evaluatiemodus. Het toewijzen van een microsoft 365-compliance- of beveiligingsbeheerderrol werkt niet.
 
-- [Meer informatie over machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+- [Meer informatie over machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo)
 - [Meer informatie over het toewijzen van beheerdersrollen](../../admin/add-users/assign-admin-roles.md)
 
 De volgende rollen zijn nodig:
 
-|Taak|Rol|
+|Taak|Rol (in Exchange Online)|
 |---|---|
 |Krijg een gratis proefversie of koop Microsoft Defender voor Office 365 (Abonnement 2)|Rol van factureringsbeheerder OF globale beheerder|
 |Evaluatiebeleid maken|Rol externe en geaccepteerde domeinen; Rol van beveiligingsbeheerder|
@@ -95,7 +95,6 @@ De volgende rollen zijn nodig:
 |Evaluatiebeleid verwijderen|Rol externe en geaccepteerde domeinen; Rol van beveiligingsbeheerder |
 |Evaluatierapport weergeven|Rol beveiligingsbeheerder OF beveiligingslezerrol|
 |
-
 
 ### <a name="enhanced-filtering"></a>Verbeterde filtering
 
@@ -111,7 +110,7 @@ URL-koppelingen in de e-mailberichten worden niet terugloop, om de impact van de
 
 ### <a name="email-routing"></a>E-mailroutering
 
-Bereid de bijbehorende details voor die u nodig hebt om in te stellen hoe uw e-mail momenteel wordt gerouteerd, inclusief de naam van de inkomende verbindingslijn die uw e-mail routeert. Als u alleen Exchange Online Protection gebruikt, hebt u geen verbindingslijn.  [Meer informatie over e-mailstroom en e-mailroutering](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
+Bereid de bijbehorende details voor die u nodig hebt om in te stellen hoe uw e-mail momenteel wordt gerouteerd, inclusief de naam van de inkomende verbindingslijn die uw e-mail routeert. Als u alleen Exchange Online Protection gebruikt, hebt u geen verbindingslijn.  [Meer informatie over e-mailstroom en e-mailroutering](/office365/servicedescriptions/exchange-online-service-description/mail-flow)
 
 Ondersteunde e-mailrouteringsscenario's zijn:
 

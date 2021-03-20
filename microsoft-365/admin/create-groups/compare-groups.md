@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Meer informatie over de typen groepen die u kunt gebruiken.
-ms.openlocfilehash: dfb726fadbfbcf69a8ff57fa3d9025cd8811e617
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 8565b567706a70bb014fab42b23e9c55fb0efc45
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727245"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908744"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
@@ -45,19 +45,19 @@ Microsoft 365-groepen worden gebruikt voor samenwerking tussen gebruikers, zowel
 
 U kunt personen buiten uw organisatie toevoegen aan een groep zolang dit is [ingeschakeld door de beheerder](manage-guest-access-in-groups.md). U kunt ook externe afzenders toestemming geven e-mail te verzenden naar het groeps-e-mailadres.
 
-Microsoft 365-groepen kunnen worden [geconfigureerd voor dynamisch lidmaatschap van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type), zodat groepsleden automatisch kunnen worden toegevoegd of verwijderd op basis van gebruikerskenmerken zoals afdeling, locatie, titel, enzovoort.
+Microsoft 365-groepen kunnen worden [geconfigureerd voor dynamisch lidmaatschap van Azure Active Directory](/azure/active-directory/users-groups-roles/groups-change-type), zodat groepsleden automatisch kunnen worden toegevoegd of verwijderd op basis van gebruikerskenmerken zoals afdeling, locatie, titel, enzovoort.
 
 Microsoft 365-groepen kunnen worden geopend via mobiele apps zoals Outlook voor iOS en Outlook voor Android.
 
-Groepsleden kunnen verzenden als of verzenden namens het e-mailadres van de groep als dit is [ingeschakeld door de beheerder](allow-members-to-send-as-or-send-on-behalf-of-group.md).
+Groepsleden kunnen verzenden als of verzenden namens het e-mailadres van de groep als dit is [ingeschakeld door de beheerder](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md).
 
 ## <a name="distribution-groups"></a>Distributiegroepen
 
-[Distributiegroepen](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) worden gebruikt voor het verzenden van meldingen aan een groep personen. Deze groepen kunnen externe e-mail ontvangen als dit is ingeschakeld door de beheerder.
+[Distributiegroepen](/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) worden gebruikt voor het verzenden van meldingen aan een groep personen. Deze groepen kunnen externe e-mail ontvangen als dit is ingeschakeld door de beheerder.
 
 Distributiegroepen zijn het meest geschikt voor situaties waarin u informatie wilt publiceren aan een bepaalde groep personen, zoals 'Medewerkers in gebouw A' of 'Iedereen bij Contoso'.
 
-Distributiegroepen kunnen worden [bijgewerkt naar Microsoft 365-groepen](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists).
+Distributiegroepen kunnen worden [bijgewerkt naar Microsoft 365-groepen](../manage/upgrade-distribution-lists.md).
 
 ## <a name="security-groups"></a>Beveiligingsgroepen
 
@@ -65,7 +65,7 @@ Distributiegroepen kunnen worden [bijgewerkt naar Microsoft 365-groepen](https:/
 
 Beveiligingsgroepen kunnen gebruikers of apparaten bevatten. Het maken van een beveiligingsgroep kan worden gebruikt voor services voor het beheer van mobiele apparaten, zoals Intune.
 
-Beveiligingsgroepen kunnen worden [geconfigureerd voor dynamisch lidmaatschap van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type), zodat groepsleden of apparaten automatisch kunnen worden toegevoegd of verwijderd op basis van gebruikerskenmerken zoals afdeling, locatie of titel of apparaatkenmerken zoals de versie van het besturingssystem.
+Beveiligingsgroepen kunnen worden [geconfigureerd voor dynamisch lidmaatschap van Azure Active Directory](/azure/active-directory/users-groups-roles/groups-change-type), zodat groepsleden of apparaten automatisch kunnen worden toegevoegd of verwijderd op basis van gebruikerskenmerken zoals afdeling, locatie of titel of apparaatkenmerken zoals de versie van het besturingssystem.
 
 ## <a name="mail-enabled-security-groups"></a>Beveiligingsgroepen met e-mail
 

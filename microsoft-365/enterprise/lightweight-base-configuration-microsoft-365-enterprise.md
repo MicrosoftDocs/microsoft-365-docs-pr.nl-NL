@@ -17,47 +17,47 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: Gebruik deze test lab-gids voor het maken van een lichte test omgeving voor het testen van Microsoft 365 for Enterprise.
-ms.openlocfilehash: 2b8505e142c3c1b87578db7342ed299b95d8c049
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+description: Gebruik deze Test Lab Guide om een lichtgewicht testomgeving te maken voor het testen van Microsoft 365 voor bedrijven.
+ms.openlocfilehash: 2de0760cef7339f62229575b1e0a54b3c67a4e9f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487386"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909704"
 ---
 # <a name="the-lightweight-base-configuration"></a>De lichtgewicht basisconfiguratie
 
-*U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*
+*Deze testlaborator kan worden gebruikt voor testomgevingen van Microsoft 365 voor bedrijven en Office 365 Enterprise.*
 
-In dit artikel wordt uitgelegd hoe u een eenvoudige omgeving maakt met een Microsoft 365 E5-abonnement en een computer met Windows 10 Enterprise.
+In dit artikel wordt beschreven hoe u een vereenvoudigde omgeving kunt maken met een Microsoft 365 E5-abonnement en een computer met Windows 10 Enterprise.
 
 ![De lichtgewicht Microsoft 365 Enterprise-testomgeving](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-Het maken van een lichtgewicht testomgeving omvat vijf fasen:
-- [Fase 1: uw abonnement op Microsoft 365 E5 maken](#phase-1-create-your-microsoft-365-e5-subscription)
+Het maken van een lichtgewicht testomgeving bestaat uit vijf fasen:
+- [Fase 1: Uw Microsoft 365 E5-abonnement maken](#phase-1-create-your-microsoft-365-e5-subscription)
 - [Fase 2: uw proefabonnement voor Office 365 configureren](#phase-2-configure-your-office-365-trial-subscription)
 - [Fase 3: een Microsoft 365 E5-proefabonnement toevoegen](#phase-3-add-a-microsoft-365-e5-trial-subscription)
 - [Fase 4: een Windows 10 Enterprise-computer maken](#phase-4-create-a-windows-10-enterprise-computer)
 - [Fase 5: uw Windows 10-computer verbinden met Azure Active Directory](#phase-5-join-your-windows-10-computer-to-azure-ad)
 
-U kunt de functies en functionaliteit van [Microsoft 365 for Enterprise](https://www.microsoft.com/microsoft-365/enterprise)testen met behulp van de geresulteerde omgeving.
+Gebruik de resulterende omgeving om de functies en functionaliteit van [Microsoft 365 voor bedrijven te testen.](https://www.microsoft.com/microsoft-365/enterprise)
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> Zie [Microsoft 365 for Enterprise test lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)voor een visuele kaart voor alle artikelen in de stack microsoft 365 for Enterprise test lab Guide.
+> Zie [Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf)voor een visuele kaart van alle artikelen in de Microsoft 365 voor Enterprise Test Lab Guide Stack.
 
 >[!NOTE]
 >Mogelijk wilt u dit artikel afdrukken voor het vastleggen van de specifieke informatie die u nodig hebt voor deze omgeving gedurende de 30 dagen van het proefabonnement voor Office 365. U kunt het proefabonnement eenvoudig verlengen met nog eens 30 dagen. Voor een permanente testomgeving kunt u een nieuw betaald abonnement maken met een afzonderlijke Azure Active Directory-tenant en een klein aantal licenties.
 
-## <a name="phase-1-create-your-microsoft-365-e5-subscription"></a>Fase 1: uw abonnement op Microsoft 365 E5 maken
+## <a name="phase-1-create-your-microsoft-365-e5-subscription"></a>Fase 1: Uw Microsoft 365 E5-abonnement maken
 
-We beginnen met een proefabonnement voor Microsoft 365 E5 en vervolgens het Microsoft 365 E5-abonnement hieraan toevoegen.
+We beginnen met een proefabonnement op Microsoft 365 E5 en voegen het Microsoft 365 E5-abonnement hieraan toe.
 
 >[!NOTE]
->We raden u aan een proefabonnement te maken van Office 365, zodat de testomgeving een afzonderlijke Azure AD-Tenant heeft van alle betaalde abonnementen die u momenteel gebruikt. Met deze scheiding kunt u gebruikers en groepen toevoegen aan of verwijderen uit de Tenant testen, zonder dat dit invloed heeft op de productie abonnementen.
+>U wordt aangeraden een proefabonnement op Office 365 te maken, zodat uw testomgeving een aparte Azure AD-tenant heeft dan alle betaalde abonnementen die u momenteel hebt. Deze scheiding betekent dat u gebruikers en groepen in de testten tenant kunt toevoegen en verwijderen zonder dat dit gevolgen heeft voor uw productieabonnementen.
 
-Als u uw Microsoft 365 E5-proefabonnement wilt starten, hebt u eerst een fictieve bedrijfsnaam en een nieuw Microsoft-account nodig.
+Als u uw proefabonnement op Microsoft 365 E5 wilt starten, hebt u eerst een fictieve bedrijfsnaam en een nieuw Microsoft-account nodig.
   
 1. Het is raadzaam dat u een variant op de bedrijfsnaam Contoso gebruikt voor uw bedrijfsnaam. Dit is een fictief bedrijf dat wordt gebruikt in de voorbeeldinhoud van Microsoft, maar dit is niet vereist. Noteer hier uw fictieve bedrijfsnaam: ![Lijn](../media/Common-Images/TableLine.png)
     
@@ -71,15 +71,15 @@ Als u uw Microsoft 365 E5-proefabonnement wilt starten, hebt u eerst een fictiev
 
 1. Ga in uw browser naar [https://aka.ms/e5trial](https://aka.ms/e5trial) .
     
-2. Voer in stap 1 van de pagina **Bedankt voor het kiezen van Office 365 E5** uw nieuwe e-mailaccount adres in.
-3. Voer in stap 2 van het proces voor het volgen van de volgen de gevraagde gegevens in en voer de verificatie uit.
-4. Voer in stap 3 de naam van een organisatie in en klik vervolgens op de naam van een account die de globale beheerder voor het abonnement wordt.
+2. Voer in stap 1 van de pagina Bedankt voor het kiezen van **Office 365 E5** uw nieuwe e-mailadres in.
+3. Voer in stap 2 van het trailabonnement de gevraagde gegevens in en voer de verificatie uit.
+4. Voer in stap 3 een organisatienaam in en vervolgens een accountnaam die de globale beheerder van het abonnement wordt.
 5. In stap 4, leg hier de aanmeldingspagina vast (selecteren en kopiëren): ![Lijn](../media/Common-Images/TableLine.png)
 6. Noteer hier de gebruikers-ID: ![Lijn](../media/Common-Images/TableLine.png). onmicrosoft.com  
-   Noteer het wachtwoord dat u hebt ingevoerd op een veilige locatie.
+   Neem het wachtwoord op dat u hebt ingevoerd op een veilige locatie.
    Deze waarde wordt beschouwd als de **naam van de globale beheerder**.
-7. Selecteer **Ga naar Setup**.
-8. Selecteer in Office 365 E5 instellen **de optie doorgaan met *uw organisatie*. onmicrosoft.com voor e-mail en aanmelden**, en selecteer vervolgens **afsluiten en later doorgaan**.
+7. Selecteer **Ga naar Setup.**
+8. Selecteer in Office 365 E5 Setup de optie Doorgaan met het gebruik van uw organisatie **.onmicrosoft.com voor** e-mail en aanmelden en selecteer vervolgens Afsluiten en **later doorgaan.**
 
 Nu ziet u het Microsoft 365-beheercentrum.
     
@@ -87,11 +87,11 @@ Nu ziet u het Microsoft 365-beheercentrum.
 
 In deze fase configureert u uw abonnement met aanvullende gebruikers en wijst u Office 365 E5-licenties aan ze toe.
   
-Als u vanuit uw computer verbinding wilt maken met uw abonnement met de Azure Active Directory PowerShell voor Graph module, volgt u de instructies in [verbinding maken met Microsoft 365 met PowerShell](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Als u vanaf uw computer verbinding wilt maken met uw abonnement met de Azure Active Directory PowerShell voor Graph-module, gebruikt u de instructies in Verbinding maken met [Microsoft 365 met PowerShell.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
     
-Voer in het dialoogvenster **referentie aanvraag voor Windows PowerShell** de naam van de globale beheerder in (bijvoorbeeld *jdoe@contosotoycompany.onmicrosoft.com*) en wachtwoord.
+Voer in het dialoogvenster Aanmeldingsaanvraag voor **Windows PowerShell** de naam van de globale beheerder in (bijvoorbeeld jdoe@contosotoycompany.onmicrosoft.com *)* en wachtwoord.
   
-Vul de naam van uw organisatie in (bijvoorbeeld *contosotoycompany*), het landnummer van twee tekens voor uw locatie, een veelvoorkomend accountwachtwoord en voer de volgende opdrachten uit op de PowerShell-prompt:
+Vul de naam van uw organisatie in (bijvoorbeeld *contosotoycompany),* de landcode met twee tekens voor uw locatie, een gemeenschappelijk accountwachtwoord en voer de volgende opdrachten uit vanuit de PowerShell-prompt:
 
 ```powershell
 $orgName="<organization name>"
@@ -131,7 +131,7 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 Als u deze waarden nog niet hebt opgenomen, kunt u deze nu opnemen:
   
-- Naam van globale beheerder: ![Lijn](../media/Common-Images/TableLine.png).onmicrosoft.com (uit stap 6 van fase 1)
+- Naam globale beheerder: ![Lijn](../media/Common-Images/TableLine.png).onmicrosoft.com (uit stap 6 van fase 1)
     
     Noteer ook het wachtwoord voor dit account op een veilige locatie.
     
@@ -159,7 +159,7 @@ Als u deze waarden nog niet hebt opgenomen, kunt u deze nu opnemen:
 
 Als u alleen een Office 365-testomgeving nodig hebt, hoeft u de rest van dit artikel niet te lezen.
 
-Zie [Microsoft 365 voor Enterprise test lab-handleidingen](m365-enterprise-test-lab-guides.md)voor extra test lab-gidsen die van toepassing zijn op zowel Office 365 als microsoft 365.
+Zie Microsoft [365 for enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md)voor aanvullende Test Lab Guides die van toepassing zijn op zowel Office 365 als Microsoft 365.
   
 ## <a name="phase-3-add-a-microsoft-365-e5-trial-subscription"></a>Fase 3: een Microsoft 365 E5-proefabonnement toevoegen
 
@@ -167,39 +167,39 @@ In deze fase meld u zich aan voor het Microsoft 365 E5-proefabonnement en voegt 
   
 Voeg eerst het Microsoft 365 E5-proefabonnement toe en wijs de nieuwe Microsoft 365-licentie toe aan uw globale-beheerdersaccount.
   
-1. Gebruik in een privé venster van internetbrowser uw globale beheerdersaccount referenties om u aan te melden bij het Microsoft 365-Beheercentrum [https://admin.microsoft.com](https://admin.microsoft.com) .
+1. Gebruik in een privévenster van een internetbrowser uw globale beheerdersaccountreferenties om u aan te melden bij het Microsoft 365-beheercentrum op [https://admin.microsoft.com](https://admin.microsoft.com) .
     
-2. Selecteer op de pagina **Microsoft 365-Beheercentrum** in het linker navigatievenster **facturering > Services aanschaffen**.
+2. Selecteer op **de pagina Microsoft 365-beheercentrum** in de linkernavigatie de optie **Facturering > Services aanschaffen.**
     
-3. Selecteer op de pagina **Services aanschaffen** de optie **Microsoft 365 E5**en selecteer vervolgens **gratis proefversie downloaden**.
+3. Selecteer op **de pagina Services** aanschaffen de optie Microsoft **365 E5** en selecteer **vervolgens Gratis proefversie downloaden.**
 
-4. Selecteer op de pagina **Microsoft 365 E5-proefversie** voor het ontvangen van een SMS-bericht of een telefoongesprek, voer uw telefoonnummer in en selecteer vervolgens **SMS** **bellen of mij bellen**. Voer de verificatie uit.
+4. Op de **proefversiepagina van Microsoft 365 E5** besluit u een sms-bericht of een telefoongesprek te ontvangen, voert u uw telefoonnummer in en selecteert u Vervolgens **Sms mij** of **Bel mij**. Voer de verificatie uit.
 
-5. Selecteer op de pagina **uw bestelling bevestigen** de optie **nu proberen**.
+5. Selecteer op **de pagina Uw bestelling bevestigen** de optie Nu **proberen.**
 
-6. Selecteer op de pagina **ontvangst van bestelling** de optie **Doorgaan**.
+6. Selecteer op de pagina Orderbevestiging de **optie Doorgaan.** 
 
-7. Selecteer **gebruikers > actieve gebruikers**in het microsoft 365-Beheercentrum.
+7. Selecteer in het Microsoft 365-beheercentrum **Gebruikers > Actieve gebruikers**.
 
-8. Selecteer in **actieve gebruikers**uw beheerdersaccount.
+8. Selecteer **in Actieve gebruikers** uw beheerdersaccount.
 
-9. Selecteer **licenties en apps**.
+9. Selecteer **Licenties en apps.**
 
 10. Schakel de licentie voor Office 365 Enterprise E5 uit en activeer de licentie voor Microsoft 365 E5.
 
-11. Selecteer **Save Changes**en sluit vervolgens het deelvenster met de gegevens van het gebruikersaccount.
+11. Selecteer **Wijzigingen opslaan** en sluit het informatievenster voor gebruikersaccounts.
 
 Herhaal vervolgens stap 8 tot en met 11 van de vorige procedure voor al uw andere accounts (gebruiker 2, gebruiker 3, gebruiker 4 en gebruiker 5).
   
 > [!NOTE]
-> De lengte van het proefabonnement van Microsoft 365 E5 is 30 dagen. Voor een permanente testomgeving kunt u het omzetten naar een betaald abonnement met een klein aantal licenties.
+> De duur van het proefabonnement op Microsoft 365 E5 is 30 dagen. Voor een permanente testomgeving kunt u het omzetten naar een betaald abonnement met een klein aantal licenties.
   
 Uw testomgeving heeft nu:
   
 - Een Microsoft 365 E5-proefabonnement.
 - Al uw toepasselijke gebruikersaccounts (alleen de globale beheerder of alle vijf gebruikersaccounts) zijn geschikt voor het gebruik van Microsoft 365 E5.
     
-De nieuwe configuratie, waarmee Microsoft 365 E5 wordt toegevoegd, ziet er als volgt uit:
+De resulterende configuratie, waarmee Microsoft 365 E5 wordt toegevoegd, ziet er als volgende uit:
   
 ![Fase 3 van de Microsoft 365 Enterprise-testomgeving](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
@@ -209,18 +209,18 @@ In deze fase maakt u een zelfstandige computer met Windows 10 Enterprise als een
   
 ### <a name="physical-computer"></a>Fysieke computer
 
-Installeer Windows 10 Enterprise op een personal computer. U kunt de proefversie voor Windows 10 Enterprise [hier](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)downloaden.
+Installeer Windows 10 Enterprise op een persoonlijke computer. U kunt de proefversie voor Windows 10 Enterprise [hier](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)downloaden.
   
 ### <a name="virtual-machine"></a>Virtuele machine
 
-Gebruik de hypervisor van uw keuze om een virtuele machine te maken en vervolgens Windows 10 Enterprise te installeren. U kunt de proefversie voor Windows 10 Enterprise [hier](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)downloaden.
+Gebruik de hypervisor van uw keuze om een virtuele machine te maken en installeer vervolgens Windows 10 Enterprise. U kunt de proefversie voor Windows 10 Enterprise [hier](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)downloaden.
   
 ### <a name="virtual-machine-in-azure"></a>Virtuele machine in Azure
 
-Als u een virtuele Windows 10-machine in Microsoft Azure wilt maken, ***heeft u een abonnement nodig dat is gebaseerd op Visual Studio***, dat toegang biedt tot de afbeelding voor Windows 10 Enterprise. Andere typen Azure-abonnementen, zoals proefabonnementen en betaalde abonnementen, hebben geen toegang tot deze afbeelding. Zie [Windows-client in Azure gebruiken voor dev/test-scenario's](https://docs.microsoft.com/azure/virtual-machines/windows/client-images)voor de meest recente informatie.
+Als u een virtuele Windows 10-machine in Microsoft Azure wilt maken, ***heeft u een abonnement nodig dat is gebaseerd op Visual Studio***, dat toegang biedt tot de afbeelding voor Windows 10 Enterprise. Andere typen Azure-abonnementen, zoals proefabonnementen en betaalde abonnementen, hebben geen toegang tot deze afbeelding. Zie [Windows-client in Azure gebruiken voor dev/test-scenario's](/azure/virtual-machines/windows/client-images)voor de meest recente informatie.
   
 > [!NOTE]
-> De volgende opdrachtsets gebruiken de nieuwste versie van Azure PowerShell. Zie [Aan de slag met Azure PowerShell-cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). Met deze opdracht bouwt u een virtuele machine voor Windows 10 Enterprise genaamd WIN10 en alle benodigde infrastructuur, inclusief een resourcegroep, een opslagaccount en een virtueel netwerk. Als u al bekend bent met de Azure-infrastructuurservices, past u deze instructies aan bij uw momenteel geïmplementeerde infrastructuur.
+> De volgende opdrachtsets gebruiken de nieuwste versie van Azure PowerShell. Zie [Aan de slag met Azure PowerShell-cmdlets](/powershell/azureps-cmdlets-docs/). Met deze opdracht bouwt u een virtuele machine voor Windows 10 Enterprise genaamd WIN10 en alle benodigde infrastructuur, inclusief een resourcegroep, een opslagaccount en een virtueel netwerk. Als u al bekend bent met Azure-infrastructuurservices, past u deze instructies aan aan uw momenteel geïmplementeerde infrastructuur.
   
 Start eerst een Microsoft PowerShell-prompt.
   
@@ -230,13 +230,13 @@ Meld u aan bij uw Azure-account met behulp van de volgende opdracht.
 Connect-AzAccount
 ```
 
-Neem de naam van uw abonnement op met deze opdracht.
+Gebruik deze opdracht om de naam van uw abonnement op te halen.
   
 ```powershell
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-Stel uw Azure-abonnement in. Vervang alles tussen de aanhalingstekens, inclusief de \< and > tekens, met de juiste naam.
+Stel uw Azure-abonnement in. Vervang alles in de aanhalingstekens, inclusief \< and > de tekens, door de juiste naam.
   
 ```powershell
 $subscr="<subscription name>"
@@ -249,7 +249,7 @@ Vervolgens maakt u een nieuwe resourcegroep aan. Als u de naam van een unieke re
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
-Maak uw nieuwe resourcegroep aan met deze opdrachten. Vervang alles tussen de aanhalingstekens, inclusief de \< and > tekens, met de juiste namen.
+Maak uw nieuwe resourcegroep aan met deze opdrachten. Vervang alles in de aanhalingstekens, inclusief \< and > de tekens, door de juiste namen.
   
 ```powershell
 $rgName="<resource group name>"
@@ -257,7 +257,7 @@ $locName="<location name, such as West US>"
 New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
-Vervolgens maakt u een nieuw virtueel netwerk en de virtuele machine WIN10 met deze opdrachten. Geef desgevraagd de naam en het wachtwoord op van het lokale beheerdersaccount voor WIN10 en bewaar deze op een veilige locatie.
+Maak vervolgens een nieuw virtueel netwerk en de win10-virtuele machine met deze opdrachten. Geef desgevraagd de naam en het wachtwoord op van het lokale beheerdersaccount voor WIN10 en bewaar deze op een veilige locatie.
   
 ```powershell
 $corpnetSubnet=New-AzVirtualNetworkSubnetConfig -Name Corpnet -AddressPrefix 10.0.0.0/24
@@ -284,33 +284,33 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 Zodra de fysieke of virtuele computer met Windows 10 Enterprise is gemaakt, meldt u zich aan met een lokaal beheerdersaccount.
   
 > [!NOTE]
-> Voor een virtuele machine in azure gebruikt u  [deze instructies](https://docs.microsoft.com/azure/virtual-machines/windows/connect-logon) om verbinding te maken.
+> Gebruik deze instructies voor een virtuele computer in Azure  [om](/azure/virtual-machines/windows/connect-logon) er verbinding mee te maken.
   
 Vervolgens verbindt u de WIN10-computer met de Azure Active Directory-tenant van uw Microsoft 365 E5-abonnement.
   
-1. Selecteer op de desktopcomputer van de WIN10-computer de optie **> instellingen > Accounts > toegang tot het werk of school > verbinding maken**.
+1. Selecteer op het bureaublad van de WIN10-computer **Start > Instellingen > Accounts > Toegang** tot werk of school > Connect .
     
-2. Selecteer in het dialoogvenster **een werk-of schoolaccount instellen** de optie **Dit apparaat toevoegen aan Azure Active Directory**.
+2. Selecteer in **het dialoogvenster Een werk-** of schoolaccount instellen de optie Deelnemen aan dit apparaat bij Azure Active **Directory.**
     
-3. Voer in het **werk-of schoolaccount**de naam van het globale beheerdersaccount van uw microsoft 365 E5-abonnement in en selecteer **volgende**.
+3. Voer **in werk-** of schoolaccount de naam van het globale beheerdersaccount van uw Microsoft 365 E5-abonnement in en selecteer **Volgende.**
     
-4. Voer bij **wachtwoord invoeren**het wachtwoord voor uw globale beheerdersaccount in en selecteer **Aanmelden**.
+4. Voer **in Wachtwoord** invoeren het wachtwoord in voor uw globale beheerdersaccount en selecteer vervolgens **Aanmelden.**
     
-5. Wanneer u wordt gevraagd of u zeker weet dat dit uw organisatie is, selecteert u **deelnemen**en selecteert u **gereed**.
+5. Wanneer u wordt gevraagd of dit uw organisatie is, **selecteert** u Deelnemen en selecteert u **vervolgens Klaar**.
     
 6. Sluit het Instellingenvenster.
     
-Vervolgens installeert u Microsoft 365-apps voor Enterprise op de WIN10-computer:
+Installeer vervolgens Microsoft 365 Apps voor ondernemingen op de WIN10-computer:
   
-1. Open de Microsoft Edge-browser en meld u aan bij het [Microsoft 365-Beheercentrum](https://admin.microsoft.com) met de referenties van uw globale beheerdersaccount.
+1. Open de Microsoft Edge-browser en meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met uw globale beheerdersaccountreferenties.
     
-2. Selecteer op het tabblad **Start van Microsoft Office** de optie **Office installeren**.
+2. Selecteer office installeren op het tabblad **Microsoft Office** Home. 
     
-3. Wanneer u wordt gevraagd wat u wilt doen, selecteert u **uitvoeren**en selecteert u **Ja** voor **Gebruikersaccountbeheer**.
+3. Wanneer u wordt gevraagd wat u moet doen, **selecteert** u Uitvoeren en selecteert u **Vervolgens Ja** voor **gebruikersaccountbeheer.**
     
-4. Wacht totdat de installatie van Office is voltooid. Selecteer twee keer **sluiten** wanneer u **klaar bent**.
+4. Wacht totdat de installatie van Office is voltooid. Wanneer u Ziet **Dat u klaar bent!**, selecteert u **tweemaal** sluiten.
     
-Uw nieuwe omgeving ziet er als volgt uit:
+De resulterende omgeving ziet er als volgende uit:
 
 ![Fase 5 van de Microsoft 365 Enterprise-testomgeving](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
@@ -318,9 +318,9 @@ Dit geldt ook voor de WIN10-computer die:
 
 - Verbonden is met de Azure Active Directory-tenant van uw Microsoft 365 E5-abonnement.
 - Geregistreerd is als een Azure Active Directory-apparaat in Microsoft Intune (EMS).
-- Microsoft 365-apps voor Enterprise geïnstalleerd.
+- Microsoft 365 Apps voor ondernemingen geïnstalleerd.
   
-U bent nu klaar om te experimenteren met de extra functies van [Microsoft 365 for Enterprise](https://www.microsoft.com/microsoft-365/enterprise).
+U bent nu klaar om te experimenteren met extra functies van [Microsoft 365 voor bedrijven.](https://www.microsoft.com/microsoft-365/enterprise)
   
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -337,4 +337,4 @@ Verken de volgende extra sets testlabrichtlijnen:
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 enterprise-documentatie](/microsoft-365-enterprise/)

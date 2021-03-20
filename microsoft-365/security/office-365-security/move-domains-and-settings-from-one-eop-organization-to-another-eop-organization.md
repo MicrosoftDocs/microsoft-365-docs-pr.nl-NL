@@ -12,60 +12,60 @@ localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe u domeinen en instellingen kunt verplaatsen van de ene Microsoft Exchange Online Protection (EOP)-organisatie (tenant) naar de andere.
+description: In dit artikel leert u hoe u domeinen en instellingen van de ene EOP-organisatie (tenant) van Microsoft Exchange Online Protection (tenant) naar een andere kunt verplaatsen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 42a212c1826f63f9e7ed8395fe1d6b6564625b7b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 4a9209f71905a858bb631a3c2901b7bfa62551d7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287771"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909056"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
+-  [Zelfstandige Exchange Online Protection](exchange-online-protection-overview.md)
 
-Als de bedrijfsvereisten veranderen, kan het soms nodig zijn om één Microsoft Exchange Online Protection (EOP)-organisatie (tenant) te splitsen in twee afzonderlijke organisaties, twee organisaties samen te voegen tot één organisatie of uw domeinen en EOP-instellingen van de ene organisatie te verplaatsen naar een andere organisatie. Een overstap van de ene EOP-organisatie naar een tweede EOP-organisatie kan lastig zijn, maar met een paar eenvoudige externe Windows PowerShell-scripts en een kleine voorbereiding kan dit worden bereikt met een relatief klein onderhoudsvenster.
+Als u de bedrijfsvereisten wilt wijzigen, moet u soms één EOP-organisatie (Microsoft Exchange Online Protection) splitsen in twee afzonderlijke organisaties, twee organisaties samenvoegen in één organisatie of uw domeinen en EOP-instellingen van de ene organisatie naar een andere organisatie verplaatsen. De overstap van de ene EOP-organisatie naar een tweede EOP-organisatie kan lastig zijn, maar met een paar eenvoudige externe Windows PowerShell-scripts en een kleine hoeveelheid voorbereiding kan dit worden bereikt met een relatief klein onderhoudsvenster.
 
 > [!NOTE]
 >
-> - Instellingen kunnen betrouwbaar worden verplaatst van een zelfstandige EOP-organisatie (Standard) naar een andere EOP Standard- of Exchange Enterprise CAL met Services-organisatie (EOP Premium), of van een EOP Premium-organisatie naar een andere EOP Premium-organisatie. Omdat sommige premiumfuncties niet worden ondersteund in EOP Standard-organisaties, is de overstap van een EOP Premium-organisatie naar een EOP Standard-organisatie mogelijk niet gelukt.
+> - Instellingen kunnen alleen betrouwbaar worden verplaatst van een zelfstandige EOP-organisatie (Standard) naar een andere EOP Standard of een Exchange Enterprise CAL with Services-organisatie (EOP Premium) of van een EOP Premium-organisatie naar een andere EOP Premium-organisatie. Omdat sommige premiumfuncties niet worden ondersteund in EOP Standard-organisaties, is de overstap van een EOP Premium-organisatie naar een EOP Standard-organisatie mogelijk niet gelukt.
 >
-> - Deze instructies zijn alleen beschikbaar voor organisaties die uitsluitend EOP-filters gebruiken. Er zijn extra overwegingen om over te gaan van de ene Exchange Online-organisatie naar een andere Exchange Online-organisatie. Exchange Online-organisaties vallen buiten het bereik voor deze instructies.
+> - Deze instructies zijn voor organisaties met alleen EOP-filtering. Er zijn extra aandachtspunten bij het over te zetten van de ene Exchange Online-organisatie naar een andere Exchange Online-organisatie. Exchange Online-organisaties kunnen deze instructies niet volgen.
 
-In het volgende voorbeeld is Contoso, Ltd. samengevoegd met Contoso Suites. In de volgende afbeelding ziet u het proces voor het verplaatsen van domeinen, e-mailgebruikers en groepen en instellingen van de bron-EOP-organisatie (contoso.onmicrosoft.com) naar de doel-EOP-organisatie (contososuites.onmicrosoft.com):
+In het volgende voorbeeld is Contoso, Ltd. samengevoegd met Contoso Suites. In de volgende afbeelding ziet u het proces van het verplaatsen van domeinen, e-mailgebruikers en groepen en instellingen van de bron-EOP-organisatie (contoso.onmicrosoft.com) naar de doel-EOP-organisatie (contososuites.onmicrosoft.com):
 
 ![EOP-domeinen en -instellingen verplaatsen](../../media/EOP-Move-domains-and-settings.jpg)
 
-De uitdaging bij het verplaatsen van domeinen van de ene organisatie naar de andere is dat een geverifieerd domein niet kan bestaan in twee organisaties tegelijk. De volgende stappen helpen u om dit te doen.
+De uitdaging bij het verplaatsen van domeinen van de ene organisatie naar de andere is dat een geverifieerd domein niet in twee organisaties tegelijk kan bestaan. De volgende stappen helpen u om dit uit te voeren.
 
-## <a name="step-1-collect-data-from-the-source-organization"></a>Stap 1: Gegevens verzamelen van de bronorganisatie
+## <a name="step-1-collect-data-from-the-source-organization"></a>Stap 1: Gegevens verzamelen uit de bronorganisatie
 
-Als u de bronorganisatie in de doelorganisatie opnieuw wilt maken, moet u de volgende gegevens over de bronorganisatie verzamelen en opslaan:
+Als u de bronorganisatie in de doelorganisatie opnieuw wilt maken, moet u de volgende informatie over de bronorganisatie verzamelen en opslaan:
 
 - Domeinen
 - E-mailgebruikers
 - Groepen
 - Antispam
   - Antispambeleid (ook wel inhoudsfilterbeleid genoemd)
-  - Beleid voor uitgaande spamfilters
+  - Beleid voor uitgaand spamfilter
   - Verbindingsfilterbeleid
 - Anti-malwarebeleid
 - Verbindingslijnen
-- E-mailstroomregels (ook wel transportregels genoemd)
+- Regels voor e-mailstroom (ook wel transportregels genoemd)
 
   > [!NOTE]
-  > Ondersteuning voor cmdlet's voor het exporteren en importeren van de verzameling regels voor de e-mailstroom wordt momenteel alleen ondersteund voor EOP Premium-abonnementen.
+  > Cmdlet-ondersteuning voor het exporteren en importeren van de verzameling e-mailstroomregel wordt momenteel alleen ondersteund voor EOP Premium-abonnementsabonnementen.
 
-De eenvoudigste manier om al uw instellingen te verzamelen is met PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
+De eenvoudigste manier om al uw instellingen te verzamelen, is door PowerShell te gebruiken. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-Vervolgens kunt u alle instellingen verzamelen en deze exporteren naar een XML-bestand dat u in de doelten tenant wilt importeren. In het algemeen kunt u voor elke instelling de **uitvoer** van de cmdlet Get doorvergeven naar de cmdlet **Export-Clixml** om de instellingen op te slaan in XML-bestanden, zoals wordt weergegeven in het volgende codevoorbeeld.
+Vervolgens kunt u al uw instellingen verzamelen en exporteren naar een XML-bestand dat moet worden geïmporteerd in de doelten tenant. In het algemeen kunt u de **uitvoer** van de cmdlet Downloaden voor elke instelling naar de cmdlet **Exporteren-Clixml** doorvervolgen om de instellingen op te slaan in XML-bestanden, zoals wordt weergegeven in het volgende codevoorbeeld.
 
-Maak in zelfstandige EOP PowerShell een adreslijst met de naam Exporteren op een locatie die u eenvoudig kunt vinden en wijzigen in die adreslijst. Bijvoorbeeld:
+Maak in zelfstandige EOP PowerShell een adreslijst met de naam Exporteren op een locatie die u gemakkelijk kunt vinden en wijzigen in die adreslijst. Bijvoorbeeld:
 
 ```PowerShell
 mkdir C:\EOP\Export
@@ -75,7 +75,7 @@ mkdir C:\EOP\Export
 cd C:\EOP\Export
 ```
 
-Het volgende script kan worden gebruikt om alle e-mailgebruikers, groepen, antispaminstellingen, antimalware-instellingen, connectors en regels voor de e-mailstroom in de bronorganisatie te verzamelen. Kopieer en plak de volgende tekst in een teksteditor zoals Kladblok, sla het bestand op als Source_EOP_Settings.ps1 in de map Exporteren die u zojuist hebt gemaakt en voer de volgende opdracht uit:
+Het volgende script kan worden gebruikt om alle e-mailgebruikers, groepen, antispaminstellingen, anti-malwareinstellingen, verbindingslijnen en regels voor e-mailstroom in de bronorganisatie te verzamelen. Kopieer en plak de volgende tekst in een teksteditor zoals Kladblok, sla het bestand op als Source_EOP_Settings.ps1 in de map Exporteren die u zojuist hebt gemaakt en voer de volgende opdracht uit:
 
 ```PowerShell
 & "C:\EOP\Export\Source_EOP_Settings.ps1"
@@ -162,7 +162,7 @@ Voeg domeinen toe aan de doelorganisatie met behulp van het volgende script. Kop
 & "C:\EOP\Export\Add_Domains.ps1"
 ```
 
-Deze domeinen worden niet geverifieerd en kunnen niet worden gebruikt om e-mail te routen, maar nadat de domeinen zijn toegevoegd, kunt u de benodigde gegevens verzamelen om de domeinen te verifiëren en uiteindelijk uw MX-records voor de nieuwe tenant bijwerken.
+Deze domeinen worden niet geverifieerd en kunnen niet worden gebruikt om e-mail door te sturen, maar nadat de domeinen zijn toegevoegd, kunt u de benodigde gegevens verzamelen om de domeinen te verifiëren en uw MX-records uiteindelijk bijwerken voor de nieuwe tenant.
 
 ```PowerShell
 #***********************************************************************
@@ -179,38 +179,38 @@ Foreach ($domain in $Domains) {
 }
 ```
 
-U kunt de gegevens nu bekijken en verzamelen in het Microsoft 365-beheercentrum van uw doelorganisatie, zodat u snel uw domeinen kunt verifiëren wanneer het tijd is:
+U kunt nu de gegevens bekijken en verzamelen vanuit het Microsoft 365-beheercentrum van uw doelorganisatie, zodat u uw domeinen snel kunt verifiëren wanneer het tijd is:
 
-1. Meld u aan bij het Microsoft 365-beheercentrum op <https://portal.office.com> .
+1. Meld u aan bij het Microsoft 365-beheercentrum bij <https://portal.office.com> .
 
 2. Klik **op Domeinen.**
 
    Als u geen domeinen ziet, klikt u op Navigatie **aanpassen,** **selecteert** u Setup en klikt u vervolgens op **Opslaan.**
 
-3. Klik op **elke koppeling voor het** instellen van start en ga door met de installatiewizard.
+3. Klik op **elke koppeling Start-instelling** en ga vervolgens door de installatiewizard.
 
-4. Selecteer algemene instructies **op** de pagina Eigendom bevestigen voor stapsgewijs instructies voor het uitvoeren van deze  **stap.**
+4. Selecteer op **de pagina** Eigendom bevestigen de optie Algemene instructies voor Stapsgewijs instructies voor het uitvoeren van deze **stap** met . 
 
-5. Neem de MX-record of TXT-record op die u gebruikt om uw domein te verifiëren en sluit de installatiewizard af.
+5. Neem de MX-record of TXT-record op die u gebruikt om uw domein te verifiëren en maak de installatiewizard af.
 
-6. Voeg de verificatie-TXT-records toe aan uw DNS-records. Hierdoor kunt u sneller de domeinen in de bronorganisatie verifiëren nadat deze zijn verwijderd uit de doelorganisatie. Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het configureren van DNS.
+6. Voeg de verificatie-TXT-records toe aan uw DNS-records. Hierdoor kunt u de domeinen in de bronorganisatie sneller verifiëren nadat ze zijn verwijderd uit de doelorganisatie. Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het configureren van DNS.
 
 ## <a name="step-3-force-senders-to-queue-mail"></a>Stap 3: Afzenders dwingen om e-mail in de wachtrij te zetten
 
-Wanneer u uw domeinen van de ene tenant naar de andere verplaatst, moet u de domeinen uit de bronorganisatie verwijderen en vervolgens in uw doelorganisatie verifiëren. Tijdens deze periode kunt u geen e-mail door sturen via EOP.
+Wanneer u uw domeinen van de ene tenant naar de andere verplaatst, moet u de domeinen verwijderen uit de bronorganisatie en deze vervolgens verifiëren in uw doelorganisatie. Gedurende deze periode kunt u geen e-mail door e-mail sturen via EOP.
 
-Een optie om afzenders te dwingen e-mail in de wachtrij te zetten, is door uw MX-records bij te werken, die rechtstreeks naar de on-premises e-mailserver wijzen.
+Een optie om afzenders te dwingen e-mail in de wachtrij te zetten, is door uw MX-records bij te werken om rechtstreeks naar uw on-premises e-mailserver te wijzen.
 
-U kunt ook een ongeldige MX-record opnemen in elk domein waar de DNS-records voor uw domein worden bewaard (ook wel uw DNS-hostingservice genoemd). Hierdoor wordt uw e-mail in de wachtrij geplaatst en opnieuw geprobeerd (de standaardpogingen voor opnieuw proberen zijn 48 uur, maar dit kan per provider verschillen). U kunt een invalid.outlook.com gebruiken als ongeldig MX-doel. Door de TTL-waarde (Time to Live) te verlagen tot vijf minuten in de MX-record, kan de wijziging sneller worden doorgegeven aan DNS-providers.
+Een andere optie is om een ongeldige MX-record in elk domein te plaatsen waar de DNS-records voor uw domein worden bewaard (ook wel uw DNS-hostingservice genoemd). Dit zorgt ervoor dat de afzender uw e-mail in de wachtrij moet staan en opnieuw moet proberen (normale pogingen tot opnieuw proberen duren 48 uur, maar dit kan per provider verschillen). U kunt de invalid.outlook.com als ongeldig MX-doel gebruiken. Als u de TTL-waarde (Time to Live) verlaagt tot vijf minuten op de MX-record, kan de wijziging sneller worden doorgegeven aan DNS-providers.
 
 Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het configureren van DNS.
 
 > [!IMPORTANT]
-> E-mail van verschillende providers wordt gedurende verschillende perioden in de wachtrij geplaatst. U moet uw nieuwe tenant snel instellen en uw DNS-instellingen herstellen om te voorkomen dat rapporten over niet-levering (NDR's) naar de afzender worden verzonden als de wachtrijtijd verloopt.
+> Verschillende providers staan in de wachtrij voor verschillende perioden. U moet uw nieuwe tenant snel instellen en uw DNS-instellingen herstellen om te voorkomen dat niet-bezorgingsrapporten (NR's) naar de afzender worden verzonden als de wachtrijtijd verloopt.
 
 ## <a name="step-4-remove-users-groups-and-domains-from-the-source-organization"></a>Stap 4: Gebruikers, groepen en domeinen verwijderen uit de bronorganisatie
 
-Met het volgende script worden gebruikers, groepen en domeinen verwijderd uit de bronten tenant met behulp van Azure Active Directory PowerShell. Kopieer en plak de volgende tekst in een teksteditor zoals Kladblok, sla het bestand op als C:\EOP\Export\Remove_Users_and_Groups.ps1 en voer de volgende opdracht uit:
+Met het volgende script worden gebruikers, groepen en domeinen uit de bronten tenant verwijderd met Behulp van Azure Active Directory PowerShell. Kopieer en plak de volgende tekst in een teksteditor zoals Kladblok, sla het bestand op als C:\EOP\Export\Remove_Users_and_Groups.ps1 en voer de volgende opdracht uit:
 
 ```PowerShell
 & "C:\EOP\Export\Remove_Users_and_Groups.ps1"
@@ -255,13 +255,13 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 
 2. Klik **op Domeinen.**
 
-3. Klik op **elke koppeling voor het** instellen van het doeldomein starten en ga door met de installatiewizard.
+3. Klik op **elke koppeling Start-instelling** voor het doeldomein en ga door de installatiewizard.
 
 ## <a name="step-6-add-mail-users-and-groups-to-the-target-organization"></a>Stap 6: E-mailgebruikers en groepen toevoegen aan de doelorganisatie
 
-Een goede gewoonte voor EOP is om Azure Active Directory te gebruiken om uw on-premises Active Directory te synchroniseren met uw doel-tenant. Zie 'Adreslijstsynchronisatie gebruiken om e-mailgebruikers te beheren' in [EOP e-mailgebruikers beheren voor](manage-mail-users-in-eop.md)meer informatie over hoe u dit doet. U kunt ook het volgende script gebruiken om uw gebruikers en groepen opnieuw te maken vanuit uw bron-tenant. Opmerking: Gebruikerswachtwoorden kunnen niet worden verplaatst. Nieuwe gebruikerswachtwoorden worden gemaakt en opgeslagen in het bestand met de UsersAndGroups.ps1.
+Een goede gewoonte voor EOP is om Azure Active Directory te gebruiken om uw on-premises Active Directory te synchroniseren met uw doel tenant. Zie 'Adreslijstsynchronisatie gebruiken om e-mailgebruikers te beheren' in EOP e-mailgebruikers beheren voor meer informatie over hoe u dit [doet.](manage-mail-users-in-eop.md) U kunt ook het volgende script gebruiken om uw gebruikers en groepen opnieuw te maken vanuit uw bron tenant. Opmerking: Gebruikerswachtwoorden kunnen niet worden verplaatst. Nieuwe gebruikerswachtwoorden worden gemaakt en opgeslagen in het bestand met de UsersAndGroups.ps1.
 
-Als u het script wilt gebruiken, kopieert en plakt u de volgende tekst in een teksteditor zoals Kladblok, sla het bestand op als C:\EOP\Export\Add_Users_and_Groups.ps1 en voer u de volgende opdracht uit:
+Als u het script wilt gebruiken, kopieert en plakt u de volgende tekst in een teksteditor, zoals Kladblok, sla het bestand op als C:\EOP\Export\Add_Users_and_Groups.ps1 en voer u de volgende opdracht uit:
 
 ```PowerShell
 & "C:\EOP\Export\Add_Users_and_Groups.ps1"
@@ -611,7 +611,7 @@ if($MailContactsCount -gt 0){
 
 ## <a name="step-7-add-protection-settings-to-the-target-organization"></a>Stap 7: Beveiligingsinstellingen toevoegen aan de doelorganisatie
 
-U kunt het volgende script uitvoeren vanuit de map Exporteren terwijl u bent aangemeld bij de doelorganisatie om de instellingen te recreëren die eerder vanuit de bronorganisatie naar XML-bestanden zijn geëxporteerd.
+U kunt het volgende script uitvoeren vanuit de map Exporteren terwijl u bent aangemeld bij uw doelorganisatie om de instellingen te maken die eerder vanuit de bronorganisatie naar XML-bestanden zijn geëxporteerd.
 
 Kopieer en plak de scripttekst in een teksteditor zoals Kladblok, sla het bestand op als C:\EOP\Export\Import_Settings.ps1 en voer de volgende opdracht uit:
 
@@ -619,7 +619,7 @@ Kopieer en plak de scripttekst in een teksteditor zoals Kladblok, sla het bestan
 & "C:\EOP\Export\Import_Settings.ps1"
 ```
 
-Dit script importeert de XML-bestanden en maakt een Windows PowerShell-scriptbestand met de naam Settings.ps1 dat u kunt bekijken, bewerken en vervolgens opnieuw kunt uitvoeren om uw beveiligings- en e-mailstroominstellingen opnieuw te maken.
+Met dit script worden de XML-bestanden geïmporteerd en wordt een Windows PowerShell-scriptbestand gemaakt met de naam Settings.ps1 dat u kunt controleren, bewerken en vervolgens kunt uitvoeren om uw beveiligings- en e-mailstroominstellingen opnieuw te maken.
 
 ```PowerShell
 #***********************************************************************
@@ -931,6 +931,6 @@ if($HostedContentFilterPolicyCount -gt 0){
  }
 ```
 
-## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>Stap 8: De DNS-instellingen herstellen om de wachtrij voor e-mail te stoppen
+## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>Stap 8: Uw DNS-instellingen terugdraaien om e-mail te stoppen
 
-Als u ervoor kiest om uw MX-records in te stellen op een ongeldig adres, om ervoor te zorgen dat [](https://admin.microsoft.com)de afzenders e-mail in de wachtrij zetten tijdens de overgang, moet u deze terug instellen op de juiste waarde, zoals is opgegeven in het beheercentrum. Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het configureren van DNS.
+Als u ervoor kiest om uw MX-records in te stellen op een ongeldig adres om ervoor te zorgen dat de afzenders e-mail in de wachtrij zetten tijdens de overgang, moet u deze opnieuw instellen op de juiste waarde, zoals is opgegeven in het [beheercentrum.](https://admin.microsoft.com) Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het configureren van DNS.

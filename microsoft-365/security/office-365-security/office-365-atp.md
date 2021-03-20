@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 741b00a55ee73d16c82abd4806d06660d49be65b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1a2cb40184de170263a52e52b704b30b0731c868
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287663"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909032"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "50287663"
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
+> Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
 
 Microsoft Defender voor Office 365 beschermt je organisatie tegen kwaadwillende bedreigingen afkomstig van e-mailberichten, koppelingen (URL’s) en hulpmiddelen voor samenwerking. Defender voor Office 365 omvat:
 
@@ -88,7 +88,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 - Abonnement 1 voor Microsoft Defender voor Office 365 is inbegrepen in Microsoft 365 Business Premium.
 
-- Abonnement 1 voor Microsoft Defender voor Office 365 en abonnement 2 voor Microsoft Defender voor Office 365 zijn elk beschikbaar als een invoegtoepassing voor bepaalde abonnementen. Raadpleeg voor meer informatie [Beschikbaarheid van functies in Microsoft Defender voor Office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- Abonnement 1 voor Microsoft Defender voor Office 365 en abonnement 2 voor Microsoft Defender voor Office 365 zijn elk beschikbaar als een invoegtoepassing voor bepaalde abonnementen. Raadpleeg voor meer informatie [Beschikbaarheid van functies in Microsoft Defender voor Office 365-abonnementen](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - De functie [Veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met een Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in abonnementen voor Microsoft Defender voor Office 365).
 
@@ -150,8 +150,8 @@ U moet een passende rol zijn toegewezen om toegang te krijgen tot Microsoft Defe
 |Rol of rollengroep|Informatiebronnen|
 |---|---|
 |Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Over Microsoft 365-beheersrollen](../../admin/add-users/about-admin-roles.md)|
-|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
-|Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
+|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Machtigingen voor beheerdersrollen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
+|Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)|
 |Zoeken en opschonen (die wordt alleen toegewezen in het beveiligings- en compliancecentrum)|[Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
@@ -160,9 +160,9 @@ Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-s
 
 Microsoft Defender voor Office 365 is inbegrepen in bepaalde abonnementen, zoals Microsoft 365 E5, Office 365 E5, Office 365 A5 en Microsoft 365 Business Premium. Als je abonnement geen Defender voor Office 365 bevat, kun je abonnement 1 voor Defender voor Office 365 of abonnement 2 voor Defender voor Office 365 aanschaffen als een invoegtoepassing voor bepaalde abonnementen. Zie de volgende bronnen voor meer informatie:
 
-- [Beschikbaarheid van Microsoft Defender voor Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) voor een lijst met abonnementen waarin een abonnement voor Defender voor Office 365 is opgenomen.
+- [Beschikbaarheid van Microsoft Defender voor Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) voor een lijst met abonnementen waarin een abonnement voor Defender voor Office 365 is opgenomen.
 
-- [De beschikbaarheid van functies in Microsoft Defender voor Office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) voor een lijst met functies in abonnement 1 en 2.
+- [De beschikbaarheid van functies in Microsoft Defender voor Office 365-abonnementen](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) voor een lijst met functies in abonnement 1 en 2.
 
 - [De juiste Microsoft Defender voor Office 365 kiezen](https://products.office.com/exchange/advance-threat-protection#pmg-allup-content) voor het vergelijken van abonnementen en het aanschaffen van Defender voor Office 365.
 
@@ -174,7 +174,7 @@ Er worden doorlopend nieuwe functies aan Microsoft Defender voor Office 365 toeg
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection) biedt een lijst met nieuwe functies die in ontwikkeling zijn en worden geïmplementeerd.
 
-- [Beschrijving van de service Microsoft Defender voor Office 365 ](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) beschrijft de functies en beschikbaarheid in de verschillende abonnementen voor Defender voor Office 365.
+- [Beschrijving van de service Microsoft Defender voor Office 365 ](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) beschrijft de functies en beschikbaarheid in de verschillende abonnementen voor Defender voor Office 365.
 
 ## <a name="see-also"></a>Zie ook
 

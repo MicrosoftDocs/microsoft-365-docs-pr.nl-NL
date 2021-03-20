@@ -20,12 +20,12 @@ search.appverid:
 description: Lees hoe u een gehackt e-mailaccount kunt herkennen en hierop kunt reageren met behulp van de hulpmiddelen die beschikbaar zijn in Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5dfb40c195cb9df9c8f2ac5d1cfbacdda022d416
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 774d96fb22bb13d4b4edcfab45f27ca9e52c5e88
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406722"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908828"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Reageren op een gehackt e-mailaccount
 
@@ -102,7 +102,7 @@ Volg de procedures in [Een zakelijk wachtwoord opnieuw instellen voor iemand](..
 >
 > - Als uw identiteit op locatie federatief is met Microsoft 365, moet u uw wachtwoord op locatie wijzigen en uw beheerder op de hoogte stellen van de aanval.
 >
-> - Vergeet niet om app-wachtwoorden bij te werken. App-wachtwoorden worden niet automatisch ingetrokken bij het opnieuw instellen van een wachtwoord voor een gebruikersaccount. De gebruiker moet bestaande app-wachtwoorden verwijderen en nieuwe app-wachtwoorden maken. Voor meer informatie, zie [App-wachtwoorden maken en verwijderen op de pagina Aanvullende beveiligingsverificatie](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
+> - Vergeet niet om app-wachtwoorden bij te werken. App-wachtwoorden worden niet automatisch ingetrokken bij het opnieuw instellen van een wachtwoord voor een gebruikersaccount. De gebruiker moet bestaande app-wachtwoorden verwijderen en nieuwe app-wachtwoorden maken. Voor meer informatie, zie [App-wachtwoorden maken en verwijderen op de pagina Aanvullende beveiligingsverificatie](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
 >
 > - We raden u ten zeerste aan om meervoudige verificatie in te schakelen om een inbreuk te voorkomen, met name voor accounts met beheerdersbevoegdheden. Voor meer informatie over MFA gaat u naar [Meervoudige verificatie instellen](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 

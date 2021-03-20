@@ -1,6 +1,6 @@
 ---
-title: Geavanceerde zoekquota's en gebruiksparameters in Microsoft 365 Defender
-description: Inzicht krijgen in verschillende quota's en gebruiksparameters (servicelimieten) die ervoor zorgen dat de geavanceerde zoekservice snel reageert
+title: Geavanceerde jachtquota en gebruiksparameters in Microsoft 365 Defender
+description: Inzicht in verschillende quota en gebruiksparameters (servicelimieten) die ervoor zorgen dat de geavanceerde huntingservice reageert
 keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema, kusto, CPU limit, query limit, resources, maximum results, quota, parameters, allocation
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3d3b1055408b51e8d217f2abcb0e83ef7dd74949
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 862d295739f952a6a5db06f5cfdfbc5aa481de9b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929788"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909020"
 ---
-# <a name="advanced-hunting-quotas-and-usage-parameters"></a>Geavanceerde zoekquota's en gebruiksparameters
+# <a name="advanced-hunting-quotas-and-usage-parameters"></a>Geavanceerde jachtquota en gebruiksparameters
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,23 +35,23 @@ ms.locfileid: "49929788"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Om de service snel en snel te houden, stelt geavanceerd zoeken verschillende quota's en gebruiksparameters in (ook wel 'servicelimieten' genoemd). Deze quota en parameters zijn van toepassing op query's die handmatig en volgens aangepaste [detectieregels worden uitgevoerd.](custom-detection-rules.md) Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden en optimalisatieprocedures toepassen [om](advanced-hunting-best-practices.md) onderbrekingen tot een minimum te beperken.
+Als u de service performant en responsief wilt houden, stelt geavanceerd zoeken verschillende quota's en gebruiksparameters in (ook wel 'servicelimieten' genoemd). Deze quota's en parameters zijn van toepassing op query's die handmatig en volgens [aangepaste detectieregels worden uitgevoerd.](custom-detection-rules.md) Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden en [optimalisatie-best practices](advanced-hunting-best-practices.md) toepassen om onderbrekingen te minimaliseren.
 
-Raadpleeg de volgende tabel om inzicht te krijgen in bestaande quota's en gebruiksparameters.
+Raadpleeg de volgende tabel om inzicht te krijgen in bestaande quota en gebruiksparameters.
 
 | Quotum of parameter | Grootte | Vernieuwingscyclus | Beschrijving |
 |--|--|--|--|
-| Gegevensbereik | 30 dagen | Elke query | Met elke query kunnen gegevens van de afgelopen 30 dagen worden opgevraagd. |
-| Resultaatset | 10.000 rijen | Elke query | Elke query kan maximaal 10.000 records retourneren. |
-| Timeout | 10 minuten | Elke query | Elke query kan maximaal 10 minuten worden uitgevoerd. Als de taak niet binnen 10 minuten wordt voltooid, wordt er een foutbericht weergegeven.
-| CPU-bronnen | Op basis van de grootte van de tenant | - Op het uur en vervolgens elke 15 minuten<br>- Dagelijks om 12 middernacht | De service dwingt de dagelijkse limiet en het quotum van 15 minuten afzonderlijk af. Voor elk quotum wordt [in de portal](advanced-hunting-errors.md) een fout weergegeven wanneer een query wordt uitgevoerd en de tenant meer dan 10% van de toegewezen resources heeft verbruikt. Query's worden geblokkeerd als de tenant 100% heeft bereikt tot na de volgende dagelijkse cyclus of 15 minuten. |
+| Gegevensbereik | 30 dagen | Elke query | Elke query kan gegevens opvragen van maximaal de afgelopen 30 dagen. |
+| Resultatenset | 10.000 rijen | Elke query | Elke query kan maximaal 10.000 records retourneren. |
+| Time-out | 10 minuten | Elke query | Elke query kan maximaal 10 minuten duren. Als de service niet binnen 10 minuten is voltooid, wordt er een fout weergegeven in de service.
+| CPU-resources | Op basis van tenantgrootte | - Op het uur en vervolgens om de 15 minuten<br>- Dagelijks om 12:00 uur | De service dwingt het dagelijkse quotum en het quotum van 15 minuten afzonderlijk af. Voor elk quotum wordt in [de portal](advanced-hunting-errors.md) een fout weergegeven wanneer een query wordt uitgevoerd en de tenant meer dan 10% van de toegewezen resources heeft verbruikt. Query's worden geblokkeerd als de tenant 100% heeft bereikt tot na de volgende dagelijkse cyclus of 15 minuten. |
 
 >[!NOTE] 
->Er is een afzonderlijke set quota's en parameters van toepassing op geavanceerde zoekquery's die worden uitgevoerd via de API. [Meer informatie over geavanceerde api's voor zoeken](https://docs.microsoft.com/microsoft-365/security/mtp/api-advanced-hunting)
+>Er is een aparte set quota's en parameters van toepassing op geavanceerde query's die via de API worden uitgevoerd. [Meer informatie over geavanceerde api's voor jagen](./api-advanced-hunting.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Geavanceerde best practices voor zoeken](advanced-hunting-best-practices.md)
+- [Geavanceerde best practices voor jagen](advanced-hunting-best-practices.md)
 - [Geavanceerde zoekfouten verwerken](advanced-hunting-errors.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [Overzicht van aangepaste detectie](custom-detections-overview.md)

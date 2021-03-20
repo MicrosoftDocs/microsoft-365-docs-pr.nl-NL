@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Identity governance beheren
+title: Microsoft 365-identiteitsbeheer beheren
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,23 +21,23 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Lees meer over het gebruik van functies voor Microsoft 365 Identity governance.
-ms.openlocfilehash: e4c537e7fa3ac099caf8b7dbc44327308751c8f5
-ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
+description: Meer informatie over het gebruik van microsoft 365-functies voor identiteitsbeheer.
+ms.openlocfilehash: 6a97ca24c609724a2cab93feec9e90f25d3361e3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48370344"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910952"
 ---
-# <a name="manage-microsoft-365-identity-governance"></a>Microsoft 365 Identity governance beheren
+# <a name="manage-microsoft-365-identity-governance"></a>Microsoft 365-identiteitsbeheer beheren
 
 Identiteitsbeheer draait om het beschermen, bewaken en controleren van toegang tot kritieke bedrijfsmiddelen en tegelijkertijd de productiviteit van medewerkers waarborgen. Met identiteitsbeheer kunt u er bijvoorbeeld voor zorgen dat de juiste gebruikers toegang hebben tot de juiste resources en bepalen of de toegang mettertijd wordt aangepast.
 
-Zie dit artikel voor meer informatie over [Identity governance voor Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview).
+Zie dit overzicht van identiteitsbeheer voor [Azure Active Directory (Azure AD) voor meer informatie.](/azure/active-directory/governance/identity-governance-overview)
 
 ## <a name="set-up-azure-ad-access-reviews"></a>Azure Active Directory toegangsbeoordelingen instellen
 
-Via Azure AD Access kunt u de toegang van een gebruiker controleren om ervoor te zorgen dat alleen de juiste personen toegang hebben. Bijvoorbeeld:
+Met azure AD-toegangsbeoordelingen kunt u de toegang van een gebruiker controleren om ervoor te zorgen dat alleen de juiste personen verdere toegang hebben. Bijvoorbeeld:
 
 - Wanneer een nieuwe medewerker aan uw organisatie wordt toegevoegd, moet u er zeker van zijn dat ze over de juiste machtiging beschikken om productief te zijn.
 - Als deze werknemer naar andere teams, locaties of afdelingen gaat, moet u ervoor zorgen dat de toegang tot vorige teams, locaties of afdelingen zo nodig wordt verwijderd.
@@ -45,20 +45,20 @@ Via Azure AD Access kunt u de toegang van een gebruiker controleren om ervoor te
 
 Dit is met name belangrijk als uw organisatie afhankelijk is van beveiligingscontroles om te bepalen of gebruikersaccounts te veel toegang hebben. Dit kan leiden tot geldboeten in strijd met de bedrijfstak of regionale voorschriften.
 
-Zie het [overzicht van beoordelingen over Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)voor meer informatie.
+Zie het overzicht van [toegangsbeoordelingen voor meer informatie.](/azure/active-directory/governance/access-reviews-overview)
 
 Zie de volgende artikelen voor meer informatie over het configureren van toegangsbeoordelingen:
 
-- [Groepen en apps](https://docs.microsoft.com/azure/active-directory/governance/create-access-review)
-- [Azure AD-rollen](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-start-security-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
-- [Azure-resourcerollen](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
+- [Groepen en apps](/azure/active-directory/governance/create-access-review)
+- [Azure AD-rollen](/azure/active-directory/privileged-identity-management/pim-how-to-start-security-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
+- [Azure-resourcerollen](/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
 
-## <a name="set-up-azure-ad-entitlement-management"></a>Rechtenbeheer voor Azure AD instellen
+## <a name="set-up-azure-ad-entitlement-management"></a>Azure AD-rechtbeheer instellen
 
-Wiht Azure AD beleggings beheer kunt u de identiteit en de toegang tot uw identiteit beheren via de werkstroom voor toegangsaanvragen, Access-opdrachten, recensies en verloop.
+Wiht Azure AD entitlement management, you can manage the identity and access lifecycle at scale by automating access request workflows, access assignments, reviews, and expiration.
 
-Uw werknemers moeten toegang hebben tot diverse groepen, toepassingen en sites om hun taak uit te voeren. Het beheren van deze toegang kan lastig zijn omdat de vereisten zijn gewijzigd, nieuwe toepassingen worden toegevoegd of gebruikers hebben extra toegangsrechten nodig. Wanneer u samenwerkt met andere organisaties, weet u mogelijk niet welke personen in de andere organisatie toegang nodig hebben tot de bronnen van uw organisatie en kunnen gebruikers van buiten gebruikers weten welke toepassingen, groepen of sites door uw organisatie worden gebruikt.
+Uw werknemers hebben toegang nodig tot verschillende groepen, toepassingen en sites om hun taak uit te voeren. Het beheren van deze toegang kan lastig zijn omdat vereisten veranderen, nieuwe toepassingen worden toegevoegd of gebruikers extra toegangsrechten nodig hebben. Wanneer u samenwerkt met andere organisaties, weet u mogelijk niet wie in de andere organisatie toegang nodig heeft tot de resources van uw organisatie en weten externe gebruikers niet welke toepassingen, groepen of sites uw organisatie gebruikt.
 
-Azure AD begrenzend beheer kan u helpen om de toegang tot groepen, toepassingen en SharePoint-sites efficiënt te beheren voor interne en externe gebruikers.
+Azure AD entitlement management kan u helpen om de toegang tot groepen, toepassingen en SharePoint-sites efficiënter te beheren voor interne en externe gebruikers.
  
-Voor meer informatie raadpleegt u het [overzicht van het beheer van rechten van Azure AD](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview).
+Zie het overzicht van azure [AD-rechtbeheer](/azure/active-directory/governance/entitlement-management-overview)voor meer informatie.

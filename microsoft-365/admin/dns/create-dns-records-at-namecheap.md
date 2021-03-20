@@ -1,5 +1,5 @@
 ---
-title: DNS-records bij namecheap maken voor Microsoft
+title: DNS-records maken bij Namecheap voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 54ae2002-b38e-43a1-82fa-3e49d78fda56
-description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op NameCheap voor Microsoft.
-ms.openlocfilehash: 1e0fa8839e4ceae5074059d6ae05e3c7456611c2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij Namecheap voor Microsoft.
+ms.openlocfilehash: 3de8c4fb7809423848564590193e00537362c034
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657837"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910148"
 ---
-# <a name="create-dns-records-at-namecheap-for-microsoft"></a>DNS-records bij namecheap maken voor Microsoft
+# <a name="create-dns-records-at-namecheap-for-microsoft"></a>DNS-records maken bij Namecheap voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als Namecheap uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
   
-Nadat u deze records bij namecheap hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
+Nadat u deze records bij Namecheap hebt toevoegen, is uw domein ingesteld voor gebruik met Microsoft-services.
   
 > [!NOTE]
 > Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
@@ -53,11 +53,11 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op **de landingspagina** onder **Account** de optie **Domeinlijst** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Manage**.
+3. Zoek op **de pagina Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Beheren.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
@@ -65,28 +65,28 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. Selecteer in de sectie **host records** de optie **add new record**.
+5. Selecteer nieuwe record toevoegen in de sectie **HOST RECORDS.** 
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **TXT Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert. 
+    > De  vervolgkeuzekeuzegroep Type wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN selecteert.** 
   
     ![Namecheap-BP-Verify-1-1](../../media/a5b40973-19b5-4c32-8e1b-1521aa971836.png)
   
 7. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    (Kies de waarde **TTL** in de vervolgkeuzelijst.) 
+    (Kies de **TTL-waarde** in de vervolgkeuzelijst.) 
     
     |**Type**|**Host**|**Waarde**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |@  <br/> |MS=ms *XXXXXXXX*  <br/>**Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |30 min  <br/> |
        
-    ![NameCheap voor 1-2](../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
+    ![Namecheap-BP-Verify-1-2](../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
   
-8. Selecteer het besturingselement **wijzigingen opslaan** (vinkje). 
+8. Selecteer het **besturingselement Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Verify-1-3](../../media/b48d2c67-66b5-4aa4-8e59-0c764f236fac.png)
   
@@ -123,11 +123,11 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op **de landingspagina** onder **Account** de optie **Domeinlijst** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Manage**.
+3. Zoek op **de pagina Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Beheren.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
@@ -141,38 +141,38 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-2-1](../../media/40199e2c-42cf-4c3f-9936-3cbe5d4e81a4.png)
   
-6. Selecteer **add new record**.
+6. Selecteer **Nieuwe record toevoegen.**
     
-    ![NameCheap voor 2-2-1](../../media/8d169b81-ba48-4d51-84ea-a08fa1616457.png)
+    ![Namecheap-BP-Configure-2-2-1](../../media/8d169b81-ba48-4d51-84ea-a08fa1616457.png)
   
 7. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    (Het vak **Priority** is het naamloze vak rechts van het vak **Value**. Kies de waarde **TTL** in de vervolgkeuzelijst.) 
+    (Het vak **Priority** is het naamloze vak rechts van het vak **Value**. Kies de **TTL-waarde** in de vervolgkeuzelijst.) 
     
     |**Type**|**Host**|**Value**|**Priority**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX Record  <br/> |@  <br/> |\<*domain-key*\>. mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |0  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> |30 min  <br/> |
+    |MX Record  <br/> |@  <br/> |\<*domain-key*\>.mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> **Opmerking:** Haal uw  *\<domain-key\>*  uit uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |0  <br/> Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit. <br/> |30 min  <br/> |
        
-    ![NameCheap voor 2-2-2](../../media/f3b76d62-5022-48c1-901b-8615a8571309.png)
+    ![Namecheap-BP-Configure-2-2-2](../../media/f3b76d62-5022-48c1-901b-8615a8571309.png)
   
-8. Selecteer het besturingselement **wijzigingen opslaan** (vinkje). 
+8. Selecteer het **besturingselement Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Configure-2-3](../../media/ef4e3112-36d2-47c8-a478-136a565dd71d.png)
   
 9. Als er andere MX-records zijn, verwijdert u deze met behulp van de volgende tweestapsprocedure:
     
-    Selecteer eerst het **pictogram verwijderen** (Prullenbak) voor de record die u wilt verwijderen. 
+    Selecteer eerst het **pictogram Verwijderen** (prullenbak) voor de record die u wilt verwijderen. 
     
     ![Namecheap-BP-Configure-2-4](../../media/7a7a751f-29c2-495f-8f55-98ca37ce555a.png)
   
-    Klik vervolgens op **Ja** om het verwijderen te bevestigen. 
+    Selecteer vervolgens **Ja om** de verwijdering te bevestigen. 
     
     ![Namecheap-BP-Configure-2-5](../../media/85ebc0c7-8787-43ee-9e7b-647375b3345c.png)
   
     Verwijder alle MX-records, behalve die welke u eerder in deze procedure hebt toegevoegd.
 
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>De zes CNAME-records toevoegen die vereist zijn voor Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Voeg de zes CNAME-records toe die vereist zijn voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
 Voer de onderstaande stappen uit:
@@ -181,11 +181,11 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op **de landingspagina** onder **Account** de optie **Domeinlijst** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Manage**.
+3. Zoek op **de pagina Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Beheren.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
@@ -193,14 +193,14 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. Selecteer in de sectie **host records** de optie **add new record**.
+5. Selecteer nieuwe record toevoegen in de sectie **HOST RECORDS.** 
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **CNAME Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert. 
+    > De  vervolgkeuzekeuzegroep Type wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN selecteert.** 
   
     ![Namecheap-BP-Configure-3-1](../../media/0898f3b2-06ab-4364-a86a-a603a25b39f4.png)
   
@@ -214,30 +214,30 @@ Voer de onderstaande stappen uit:
     |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |
     |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |3600  <br/> |
        
-    ![NameCheap voor 3-2](../../media/f79c5679-34eb-4544-8517-caa2e8a4111a.png)
+    ![Namecheap-BP-Configure-3-2](../../media/f79c5679-34eb-4544-8517-caa2e8a4111a.png)
   
-8. Selecteer het besturingselement **wijzigingen opslaan** (vinkje). 
+8. Selecteer het **besturingselement Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Configure-3-3](../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png)
   
-9. Met de voorgaande vier stappen en de waarden uit de andere vijf rijen in de tabel voegt u de andere vijf CNAME-records toe.
+9. Voeg met de voorafgaande vier stappen en de waarden uit de andere vijf rijen in de tabel elk van de andere vijf CNAME-records toe.
 
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden  toe aan de huidige record, zodat u één SPF-record hebt met beide sets waarden. 
 
 Voer de onderstaande stappen uit:
   
 1. Ga eerst naar de domeinenpagina bij Namecheap via [deze koppeling](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). U wordt gevraagd u aan te melden en verder te gaan.
     
-2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op **de landingspagina** onder **Account** de optie **Domeinlijst** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Manage**.
+3. Zoek op **de pagina Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Beheren.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
@@ -245,28 +245,28 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. Selecteer in de sectie **host records** de optie **add new record**.
+5. Selecteer nieuwe record toevoegen in de sectie **HOST RECORDS.** 
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **TXT Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert. 
+    > De  vervolgkeuzekeuzegroep Type wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN selecteert.** 
   
     ![Namecheap-BP-Configure-4-1](../../media/c5d1fddb-28b5-48ec-91c9-3e5d3955ac80.png)
   
 7. Typ of kopieer en plak de volgende waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    (Kies de waarde **TTL** in de vervolgkeuzelijst.) 
+    (Kies de **TTL-waarde** in de vervolgkeuzelijst.) 
     
     |**Type**|**Host**|**Waarde**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |30 min  <br/> |
        
-    ![NameCheap voor 4-2](../../media/ea0829f1-990b-424b-b26e-9859468318dd.png)
+    ![Namecheap-BP-Configure-4-2](../../media/ea0829f1-990b-424b-b26e-9859468318dd.png)
   
-8. Selecteer het besturingselement **wijzigingen opslaan** (vinkje). 
+8. Selecteer het **besturingselement Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Configure-4-3](../../media/f2846c36-ace3-43d8-be5d-a65e2c267619.png)
   
@@ -277,11 +277,11 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op **de landingspagina** onder **Account** de optie **Domeinlijst** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. Zoek op de pagina **Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Manage**.
+3. Zoek op **de pagina Domain List** de naam van het domein dat u wilt bewerken en selecteer vervolgens **Beheren.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
@@ -289,14 +289,14 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. Selecteer in de sectie **host records** de optie **add new record**.
+5. Selecteer nieuwe record toevoegen in de sectie **HOST RECORDS.** 
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **SRV Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert. 
+    > De  vervolgkeuzekeuzegroep Type wordt automatisch weergegeven wanneer u **NIEUWE RECORD TOEVOEGEN selecteert.** 
   
     ![Namecheap-BP-Configure-5-1](../../media/fd55cd7c-2243-4de1-8d39-2c3f7ea3ae51.png)
   
@@ -307,9 +307,9 @@ Voer de onderstaande stappen uit:
     |_sip  <br/> |_tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |30 min  <br/> |
     |_sipfederationtls  <br/> |_tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |30 min  <br/> |
        
-    ![NameCheap voor 5-2](../../media/ff9566ea-0096-4b7f-873c-027080a23b56.png)
+    ![Namecheap-BP-Configure-5-2](../../media/ff9566ea-0096-4b7f-873c-027080a23b56.png)
   
-8. Selecteer het besturingselement **wijzigingen opslaan** (vinkje). 
+8. Selecteer het **besturingselement Wijzigingen opslaan** (vinkje). 
     
     ![Namecheap-BP-Configure-5-3](../../media/48a8dee4-c66d-449d-8759-9e9784c82b13.png)
   
@@ -319,4 +319,3 @@ Voer de onderstaande stappen uit:
 > Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
 
-  
