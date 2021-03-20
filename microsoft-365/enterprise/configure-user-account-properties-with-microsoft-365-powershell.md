@@ -1,5 +1,5 @@
 ---
-title: Eigenschappen van Microsoft 365-gebruikersaccounts configureren met PowerShell
+title: Eigenschappen van microsoft 365-gebruikersaccounts configureren met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,99 +17,99 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
-description: Gebruik PowerShell voor Microsoft 365 om eigenschappen van afzonderlijke of meerdere gebruikersaccounts in uw Microsoft 365-Tenant te configureren.
-ms.openlocfilehash: 830cede93a6c14db2dcc5626d41d0dd296b9ac29
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+description: Gebruik PowerShell voor Microsoft 365 om eigenschappen van afzonderlijke of meerdere gebruikersaccounts in uw Microsoft 365-tenant te configureren.
+ms.openlocfilehash: 6b674641842f89fd8c8e22dc26350cdd53734b9e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754326"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911082"
 ---
-# <a name="configure-microsoft-365-user-account-properties-with-powershell"></a><span data-ttu-id="9e629-103">Eigenschappen van Microsoft 365-gebruikersaccounts configureren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="9e629-103">Configure Microsoft 365 user account properties with PowerShell</span></span>
+# <a name="configure-microsoft-365-user-account-properties-with-powershell"></a><span data-ttu-id="904ed-103">Eigenschappen van microsoft 365-gebruikersaccounts configureren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="904ed-103">Configure Microsoft 365 user account properties with PowerShell</span></span>
 
-<span data-ttu-id="9e629-104">*Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*</span><span class="sxs-lookup"><span data-stu-id="9e629-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="904ed-104">*Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*</span><span class="sxs-lookup"><span data-stu-id="904ed-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="9e629-105">Met het Microsoft 365-Beheercentrum kunt u de eigenschappen van de gebruikersaccounts van uw Microsoft 365-Tenant configureren.</span><span class="sxs-lookup"><span data-stu-id="9e629-105">You can use the Microsoft 365 admin center to configure properties for the user accounts of your Microsoft 365 tenant.</span></span> <span data-ttu-id="9e629-106">In PowerShell kunt u dit ook doen, en wel wat andere dingen die u niet kunt doen in het Beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="9e629-106">In PowerShell, you can also do this, plus some other things you can't do in the admin center.</span></span>
+<span data-ttu-id="904ed-105">U kunt het Microsoft 365-beheercentrum gebruiken om eigenschappen te configureren voor de gebruikersaccounts van uw Microsoft 365-tenant.</span><span class="sxs-lookup"><span data-stu-id="904ed-105">You can use the Microsoft 365 admin center to configure properties for the user accounts of your Microsoft 365 tenant.</span></span> <span data-ttu-id="904ed-106">In PowerShell kunt u dit ook doen, plus enkele andere dingen die u niet kunt doen in het beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="904ed-106">In PowerShell, you can also do this, plus some other things you can't do in the admin center.</span></span>
   
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="9e629-107">Azure Active Directory PowerShell voor Graph module gebruiken</span><span class="sxs-lookup"><span data-stu-id="9e629-107">Use the Azure Active Directory PowerShell for Graph module</span></span>
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="904ed-107">De Azure Active Directory PowerShell voor Graph-module gebruiken</span><span class="sxs-lookup"><span data-stu-id="904ed-107">Use the Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="9e629-108">Als u de eigenschappen van gebruikersaccounts in de module Azure Active Directory PowerShell voor Graph wilt configureren, gebruikt u de cmdlet [**set-AzureADUser**](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) en geeft u de eigenschappen op die u wilt instellen of wijzigen.</span><span class="sxs-lookup"><span data-stu-id="9e629-108">To configure properties for user accounts in the Azure Active Directory PowerShell for Graph module, use the [**Set-AzureADUser**](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) cmdlet and specify the properties to set or change.</span></span>
+<span data-ttu-id="904ed-108">Als u eigenschappen wilt configureren voor gebruikersaccounts in de Azure Active Directory PowerShell voor Graph-module, gebruikt u de cmdlet [**Set-AzureADUser**](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) en geeft u de eigenschappen op die u wilt instellen of wijzigen.</span><span class="sxs-lookup"><span data-stu-id="904ed-108">To configure properties for user accounts in the Azure Active Directory PowerShell for Graph module, use the [**Set-AzureADUser**](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) cmdlet and specify the properties to set or change.</span></span>
 
-<span data-ttu-id="9e629-109">Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span><span class="sxs-lookup"><span data-stu-id="9e629-109">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
+<span data-ttu-id="904ed-109">Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)</span><span class="sxs-lookup"><span data-stu-id="904ed-109">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
    
-### <a name="change-properties-for-a-specific-user-account"></a><span data-ttu-id="9e629-110">Eigenschappen van een specifiek gebruikersaccount wijzigen</span><span class="sxs-lookup"><span data-stu-id="9e629-110">Change properties for a specific user account</span></span>
+### <a name="change-properties-for-a-specific-user-account"></a><span data-ttu-id="904ed-110">Eigenschappen wijzigen voor een specifiek gebruikersaccount</span><span class="sxs-lookup"><span data-stu-id="904ed-110">Change properties for a specific user account</span></span>
 
-<span data-ttu-id="9e629-111">U identificeert het account met de parameter *-ObjectID* en stelt of wijzigt specifieke eigenschappen met behulp van aanvullende parameters.</span><span class="sxs-lookup"><span data-stu-id="9e629-111">You identify the account with the *-ObjectID* parameter and set or change specific properties by using additional parameters.</span></span> <span data-ttu-id="9e629-112">Hier volgt een lijst met de meest voorkomende parameters:</span><span class="sxs-lookup"><span data-stu-id="9e629-112">Here's a list of the most common parameters:</span></span>
+<span data-ttu-id="904ed-111">U identificeert het account met de *parameter -ObjectID* en stelt of wijzigt specifieke eigenschappen met behulp van extra parameters.</span><span class="sxs-lookup"><span data-stu-id="904ed-111">You identify the account with the *-ObjectID* parameter and set or change specific properties by using additional parameters.</span></span> <span data-ttu-id="904ed-112">Hier is een lijst met de meest voorkomende parameters:</span><span class="sxs-lookup"><span data-stu-id="904ed-112">Here's a list of the most common parameters:</span></span>
   
-- <span data-ttu-id="9e629-113">-Afdeling " \<department name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-113">-Department "\<department name>"</span></span>
+- <span data-ttu-id="904ed-113">-Department " \<department name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-113">-Department "\<department name>"</span></span>
     
-- <span data-ttu-id="9e629-114">Naam van een \<full user name> '</span><span class="sxs-lookup"><span data-stu-id="9e629-114">-DisplayName "\<full user name>"</span></span>
+- <span data-ttu-id="904ed-114">-DisplayName " \<full user name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-114">-DisplayName "\<full user name>"</span></span>
     
-- <span data-ttu-id="9e629-115">-FacsimilieTelephoneNumber " \<fax number> "</span><span class="sxs-lookup"><span data-stu-id="9e629-115">-FacsimilieTelephoneNumber "\<fax number>"</span></span>
+- <span data-ttu-id="904ed-115">-FacsimilieTelephoneNumber " \<fax number> "</span><span class="sxs-lookup"><span data-stu-id="904ed-115">-FacsimilieTelephoneNumber "\<fax number>"</span></span>
     
-- <span data-ttu-id="9e629-116">-Benaming " \<user first name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-116">-GivenName "\<user first name>"</span></span>
+- <span data-ttu-id="904ed-116">-GivenName " \<user first name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-116">-GivenName "\<user first name>"</span></span>
     
-- <span data-ttu-id="9e629-117">-Achternaam " \<user last name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-117">-Surname "\<user last name>"</span></span>
+- <span data-ttu-id="904ed-117">-Achternaam \<user last name> " "</span><span class="sxs-lookup"><span data-stu-id="904ed-117">-Surname "\<user last name>"</span></span>
     
-- <span data-ttu-id="9e629-118">-Mobiel " \<mobile phone number> "</span><span class="sxs-lookup"><span data-stu-id="9e629-118">-Mobile "\<mobile phone number>"</span></span>
+- <span data-ttu-id="904ed-118">-Mobile " \<mobile phone number> "</span><span class="sxs-lookup"><span data-stu-id="904ed-118">-Mobile "\<mobile phone number>"</span></span>
     
-- <span data-ttu-id="9e629-119">-JobTitle \<job title></span><span class="sxs-lookup"><span data-stu-id="9e629-119">-JobTitle "\<job title>"</span></span>
+- <span data-ttu-id="904ed-119">-JobTitle " \<job title> "</span><span class="sxs-lookup"><span data-stu-id="904ed-119">-JobTitle "\<job title>"</span></span>
     
-- <span data-ttu-id="9e629-120">-PreferredLanguage " \<language> "</span><span class="sxs-lookup"><span data-stu-id="9e629-120">-PreferredLanguage "\<language>"</span></span>
+- <span data-ttu-id="904ed-120">-PreferredLanguage " \<language> "</span><span class="sxs-lookup"><span data-stu-id="904ed-120">-PreferredLanguage "\<language>"</span></span>
     
-- <span data-ttu-id="9e629-121">-StreetAddress " \<street address> "</span><span class="sxs-lookup"><span data-stu-id="9e629-121">-StreetAddress "\<street address>"</span></span>
+- <span data-ttu-id="904ed-121">-StreetAddress \<street address> " "</span><span class="sxs-lookup"><span data-stu-id="904ed-121">-StreetAddress "\<street address>"</span></span>
     
-- <span data-ttu-id="9e629-122">-Plaats " \<city name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-122">-City "\<city name>"</span></span>
+- <span data-ttu-id="904ed-122">-City " \<city name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-122">-City "\<city name>"</span></span>
     
-- <span data-ttu-id="9e629-123">-Status " \<state name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-123">-State "\<state name>"</span></span>
+- <span data-ttu-id="904ed-123">-State " \<state name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-123">-State "\<state name>"</span></span>
     
-- <span data-ttu-id="9e629-124">-Postcode " \<postal code> "</span><span class="sxs-lookup"><span data-stu-id="9e629-124">-PostalCode "\<postal code>"</span></span>
+- <span data-ttu-id="904ed-124">-Postcode " \<postal code> "</span><span class="sxs-lookup"><span data-stu-id="904ed-124">-PostalCode "\<postal code>"</span></span>
     
-- <span data-ttu-id="9e629-125">-Land " \<country name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-125">-Country "\<country name>"</span></span>
+- <span data-ttu-id="904ed-125">-Country " \<country name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-125">-Country "\<country name>"</span></span>
     
-- <span data-ttu-id="9e629-126">-TelephoneNumber " \<office phone number> "</span><span class="sxs-lookup"><span data-stu-id="9e629-126">-TelephoneNumber "\<office phone number>"</span></span>
+- <span data-ttu-id="904ed-126">-TelephoneNumber " \<office phone number> "</span><span class="sxs-lookup"><span data-stu-id="904ed-126">-TelephoneNumber "\<office phone number>"</span></span>
     
-- <span data-ttu-id="9e629-127">-UsageLocation " \<2-character country or region code> "</span><span class="sxs-lookup"><span data-stu-id="9e629-127">-UsageLocation "\<2-character country or region code>"</span></span>
+- <span data-ttu-id="904ed-127">-UsageLocation " \<2-character country or region code> "</span><span class="sxs-lookup"><span data-stu-id="904ed-127">-UsageLocation "\<2-character country or region code>"</span></span>
     
-    <span data-ttu-id="9e629-128">Dit is de ISO 3166-1 alfa-2 (a2) land-of regiocode van twee letters.</span><span class="sxs-lookup"><span data-stu-id="9e629-128">This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.</span></span>
+    <span data-ttu-id="904ed-128">Dit is de ISO 3166-1 alfa-2 (A2) land- of regiocode met twee letters.</span><span class="sxs-lookup"><span data-stu-id="904ed-128">This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.</span></span>
     
-<span data-ttu-id="9e629-129">Zie [set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) voor aanvullende parameters.</span><span class="sxs-lookup"><span data-stu-id="9e629-129">For additional parameters, see [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) .</span></span>
+<span data-ttu-id="904ed-129">Zie [Set-AzureADUser voor meer parameters.](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0)</span><span class="sxs-lookup"><span data-stu-id="904ed-129">For additional parameters, see [Set-AzureADUser](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) .</span></span>
 
 >[!Note]
-><span data-ttu-id="9e629-130">Voordat u licenties kunt toewijzen aan een gebruikersaccount, moet u een gebruikslocatie toewijzen.</span><span class="sxs-lookup"><span data-stu-id="9e629-130">Before you can assign licenses to a user account, you must assign a usage location.</span></span>
+><span data-ttu-id="904ed-130">Voordat u licenties kunt toewijzen aan een gebruikersaccount, moet u een gebruikslocatie toewijzen.</span><span class="sxs-lookup"><span data-stu-id="904ed-130">Before you can assign licenses to a user account, you must assign a usage location.</span></span>
 >
 
-<span data-ttu-id="9e629-131">Voer de volgende opdracht uit om de User Principal-naam van uw gebruikersaccounts weer te geven.</span><span class="sxs-lookup"><span data-stu-id="9e629-131">To display the User Principal Name for your user accounts, run the following command.</span></span>
+<span data-ttu-id="904ed-131">Voer de volgende opdracht uit om de gebruikersnaam voor uw gebruikersaccounts weer te geven.</span><span class="sxs-lookup"><span data-stu-id="904ed-131">To display the User Principal Name for your user accounts, run the following command.</span></span>
   
 ```powershell
 Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName | More
 ```
 
-<span data-ttu-id="9e629-132">Met deze opdracht wordt PowerShell overgeïnstrueerd:</span><span class="sxs-lookup"><span data-stu-id="9e629-132">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="904ed-132">Met deze opdracht wordt PowerShell instructies gegeven voor:</span><span class="sxs-lookup"><span data-stu-id="904ed-132">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="9e629-133">U ontvangt alle informatie in de gebruikersaccounts (**Get-AzureADUser**) en stuurt u deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-133">Get all the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-133">Ontvang alle informatie over de gebruikersaccounts **(Get-AzureADUser)** en stuur deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-133">Get all the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-134">De lijst met gebruikersnamen alfabetisch sorteren (**Sorteer de userPrincipalName**) en verzenden naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-134">Sort the list of User Principal Names alphabetically (**Sort UserPrincipalName**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-134">Sorteer de lijst met gebruikershoofdnamen alfabetisch **(Sorteer UserPrincipalName)** en verzend deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-134">Sort the list of User Principal Names alphabetically (**Sort UserPrincipalName**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-135">Alleen de eigenschap voor de User Principal name weergeven voor elk account (**Selecteer userPrincipalName**).</span><span class="sxs-lookup"><span data-stu-id="9e629-135">Display just the User Principal Name property for each account (**Select UserPrincipalName**).</span></span>
+1. <span data-ttu-id="904ed-135">Geef alleen de eigenschap User Principal Name weer voor elk account **(Selecteer UserPrincipalName).**</span><span class="sxs-lookup"><span data-stu-id="904ed-135">Display just the User Principal Name property for each account (**Select UserPrincipalName**).</span></span>
 
-1. <span data-ttu-id="9e629-136">Toon ze één scherm voor één keer (**meer**).</span><span class="sxs-lookup"><span data-stu-id="9e629-136">Display them one screen at a time (**More**).</span></span>
+1. <span data-ttu-id="904ed-136">Geef ze één scherm tegelijk weer **(Meer).**</span><span class="sxs-lookup"><span data-stu-id="904ed-136">Display them one screen at a time (**More**).</span></span>
     
-<span data-ttu-id="9e629-137">Voer de volgende opdrachten uit om de User Principal-naam van een account weer te geven op basis van de weergavenaam (voornaam en achternaam).</span><span class="sxs-lookup"><span data-stu-id="9e629-137">To display the User Principal Name for an account based on its display name (first and last name), run the following commands.</span></span> <span data-ttu-id="9e629-138">Voer de *$username* variabele in en verwijder de \< and > tekens:</span><span class="sxs-lookup"><span data-stu-id="9e629-138">Fill in the *$userName* variable, and remove the \< and > characters:</span></span>
+<span data-ttu-id="904ed-137">Als u de gebruikersnaam voor een account wilt weergeven op basis van de weergavenaam (voor- en achternaam), voert u de volgende opdrachten uit.</span><span class="sxs-lookup"><span data-stu-id="904ed-137">To display the User Principal Name for an account based on its display name (first and last name), run the following commands.</span></span> <span data-ttu-id="904ed-138">Vul de variabele *$userName* en verwijder de \< and > tekens:</span><span class="sxs-lookup"><span data-stu-id="904ed-138">Fill in the *$userName* variable, and remove the \< and > characters:</span></span>
   
 ```powershell
 $userName="<Display name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-<span data-ttu-id="9e629-139">In dit voorbeeld wordt de User Principal name weergegeven voor het gebruikersaccount met de weergavenaam *Caleb Sills*.</span><span class="sxs-lookup"><span data-stu-id="9e629-139">This example displays the User Principal Name for the user account that has the display name *Caleb Sills*.</span></span>
+<span data-ttu-id="904ed-139">In dit voorbeeld wordt de gebruikersnaam weergegeven voor het gebruikersaccount met de weergavenaam *Caleb Sills.*</span><span class="sxs-lookup"><span data-stu-id="904ed-139">This example displays the User Principal Name for the user account that has the display name *Caleb Sills*.</span></span>
   
 ```powershell
 $userName="Caleb Sills"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-<span data-ttu-id="9e629-140">Met behulp van een *$UPN* -variabele kunt u wijzigingen aanbrengen in afzonderlijke accounts op basis van de weergavenaam.</span><span class="sxs-lookup"><span data-stu-id="9e629-140">By using a *$upn* variable, you can make changes to individual accounts based on their display name.</span></span> <span data-ttu-id="9e629-141">Hier ziet u een voorbeeld waarin de gebruikslocatie van *Belinda Newman*wordt ingesteld op Frankrijk.</span><span class="sxs-lookup"><span data-stu-id="9e629-141">Here's an example that sets *Belinda Newman*'s usage location to France.</span></span> <span data-ttu-id="9e629-142">Maar geeft de naam van de gebruikersnaam in plaats van de UPN van de gebruikersnaam aan.</span><span class="sxs-lookup"><span data-stu-id="9e629-142">But it specifies her display name rather than her User Principal Name:</span></span>
+<span data-ttu-id="904ed-140">Met behulp van *$upn* variabele kunt u wijzigingen aanbrengen in afzonderlijke accounts op basis van de weergavenaam.</span><span class="sxs-lookup"><span data-stu-id="904ed-140">By using a *$upn* variable, you can make changes to individual accounts based on their display name.</span></span> <span data-ttu-id="904ed-141">Hier is een voorbeeld dat de gebruikslocatie van *Belinda Newman* in stelt op Frankrijk.</span><span class="sxs-lookup"><span data-stu-id="904ed-141">Here's an example that sets *Belinda Newman*'s usage location to France.</span></span> <span data-ttu-id="904ed-142">Maar hiermee wordt de weergavenaam opgegeven in plaats van de naam van de hoofdgebruiker:</span><span class="sxs-lookup"><span data-stu-id="904ed-142">But it specifies her display name rather than her User Principal Name:</span></span>
   
 ```powershell
 $userName="Belinda Newman"
@@ -117,119 +117,119 @@ $upn=(Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 Set-AzureADUser -ObjectID $upn -UsageLocation "FR"
 ```
 
-### <a name="change-properties-for-all-user-accounts"></a><span data-ttu-id="9e629-143">Eigenschappen wijzigen voor alle gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="9e629-143">Change properties for all user accounts</span></span>
+### <a name="change-properties-for-all-user-accounts"></a><span data-ttu-id="904ed-143">Eigenschappen wijzigen voor alle gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="904ed-143">Change properties for all user accounts</span></span>
 
-<span data-ttu-id="9e629-144">Als u de eigenschappen van alle gebruikers wilt wijzigen, kunt u een combinatie van de cmdlet **Get-AzureADUser** en **set-AzureADUser** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="9e629-144">To change properties for all users, you can use a combination of the **Get-AzureADUser** and **Set-AzureADUser** cmdlets.</span></span> <span data-ttu-id="9e629-145">In het volgende voorbeeld wordt de gebruikslocatie voor alle gebruikers gewijzigd in *Frankrijk*:</span><span class="sxs-lookup"><span data-stu-id="9e629-145">The following example changes the usage location for all users to *France*:</span></span>
+<span data-ttu-id="904ed-144">Als u eigenschappen voor alle gebruikers wilt wijzigen, kunt u een combinatie van **de get-AzureADUser-** en **Set-AzureADUser-cmdlets** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="904ed-144">To change properties for all users, you can use a combination of the **Get-AzureADUser** and **Set-AzureADUser** cmdlets.</span></span> <span data-ttu-id="904ed-145">In het volgende voorbeeld wordt de gebruikslocatie voor alle gebruikers gewijzigd in *Frankrijk:*</span><span class="sxs-lookup"><span data-stu-id="904ed-145">The following example changes the usage location for all users to *France*:</span></span>
   
 ```powershell
 Get-AzureADUser | Set-AzureADUser -UsageLocation "FR"
 ```
 
-<span data-ttu-id="9e629-146">Met deze opdracht wordt PowerShell overgeïnstrueerd:</span><span class="sxs-lookup"><span data-stu-id="9e629-146">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="904ed-146">Met deze opdracht wordt PowerShell instructies gegeven voor:</span><span class="sxs-lookup"><span data-stu-id="904ed-146">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="9e629-147">Alle informatie over de gebruikersaccounts (**Get-AzureADUser**) vinden en verzenden naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-147">Get all of the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-147">Ontvang alle informatie over de gebruikersaccounts **(Get-AzureADUser)** en stuur deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-147">Get all of the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-148">Stel de locatie van de gebruiker in op Frankrijk (**set-AzureADUser-UsageLocation "FR"**).</span><span class="sxs-lookup"><span data-stu-id="9e629-148">Set the user location to France (**Set-AzureADUser -UsageLocation "FR"**).</span></span>
+1. <span data-ttu-id="904ed-148">Stel de gebruikerslocatie in op Frankrijk (**Set-AzureADUser -UsageLocation "FR"**).</span><span class="sxs-lookup"><span data-stu-id="904ed-148">Set the user location to France (**Set-AzureADUser -UsageLocation "FR"**).</span></span>
     
-### <a name="change-properties-for-a-specific-set-of-user-accounts"></a><span data-ttu-id="9e629-149">Eigenschappen wijzigen voor een bepaalde groep gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="9e629-149">Change properties for a specific set of user accounts</span></span>
+### <a name="change-properties-for-a-specific-set-of-user-accounts"></a><span data-ttu-id="904ed-149">Eigenschappen wijzigen voor een specifieke set gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="904ed-149">Change properties for a specific set of user accounts</span></span>
 
-<span data-ttu-id="9e629-150">Als u de eigenschappen van een bepaalde groep gebruikersaccounts wilt wijzigen, kunt u een combinatie van de cmdlet **Get-AzureADUser**, **where**en **set-AzureADUser** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="9e629-150">To change properties for a specific set of user accounts, you can use a combination of the **Get-AzureADUser**, **Where**, and **Set-AzureADUser** cmdlets.</span></span> <span data-ttu-id="9e629-151">In het volgende voorbeeld wordt de gebruikslocatie van alle gebruikers in de afdeling financieel medewerkers gewijzigd in *Frankrijk*:</span><span class="sxs-lookup"><span data-stu-id="9e629-151">The following example changes the usage location for all the users in the Accounting department to *France*:</span></span>
+<span data-ttu-id="904ed-150">Als u eigenschappen voor een specifieke set gebruikersaccounts wilt wijzigen, kunt u een combinatie van de **cmdlets Get-AzureADUser**, **Where** en **Set-AzureADUser** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="904ed-150">To change properties for a specific set of user accounts, you can use a combination of the **Get-AzureADUser**, **Where**, and **Set-AzureADUser** cmdlets.</span></span> <span data-ttu-id="904ed-151">In het volgende voorbeeld wordt de gebruikslocatie voor alle gebruikers van de afdeling Accounting gewijzigd in *Frankrijk:*</span><span class="sxs-lookup"><span data-stu-id="904ed-151">The following example changes the usage location for all the users in the Accounting department to *France*:</span></span>
   
 ```powershell
 Get-AzureADUser | Where {$_.Department -eq "Accounting"} | Set-AzureADUser -UsageLocation "FR"
 ```
 
-<span data-ttu-id="9e629-152">Met deze opdracht wordt PowerShell overgeïnstrueerd:</span><span class="sxs-lookup"><span data-stu-id="9e629-152">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="904ed-152">Met deze opdracht wordt PowerShell instructies gegeven voor:</span><span class="sxs-lookup"><span data-stu-id="904ed-152">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="9e629-153">Alle informatie over de gebruikersaccounts (**Get-AzureADUser**) vinden en verzenden naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-153">Get all the information on the user accounts (**Get-AzureADUser**), and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-153">Ontvang alle informatie over de gebruikersaccounts **(Get-AzureADUser)** en stuur deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-153">Get all the information on the user accounts (**Get-AzureADUser**), and send it to the next command (**|**).</span></span>
     
-1.  <span data-ttu-id="9e629-154">Zoek alle gebruikersaccounts waarvan de *afdelings* eigenschap is ingesteld op ' Accounting ' (**waarbij {$ _. Afdeling-EQ "accounting"}**), en stuurt de daaruit verlichte informatie naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-154">Find all the user accounts that have their *Department* property set to "Accounting" (**Where {$_.Department -eq "Accounting"}**), and send the resulting information to the next command (**|**).</span></span>
+1.  <span data-ttu-id="904ed-154">Zoek alle gebruikersaccounts waarop de *eigenschap Afdeling* is ingesteld op 'Accounting' (**Where {$_. Department -eq "Accounting"} ) en** stuur de resulterende informatie naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-154">Find all the user accounts that have their *Department* property set to "Accounting" (**Where {$_.Department -eq "Accounting"}**), and send the resulting information to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-155">Stel de locatie van de gebruiker in op Frankrijk (**set-AzureADUser-UsageLocation "FR"**).</span><span class="sxs-lookup"><span data-stu-id="9e629-155">Set the user location to France (**Set-AzureADUser -UsageLocation "FR"**).</span></span>
+1. <span data-ttu-id="904ed-155">Stel de gebruikerslocatie in op Frankrijk (**Set-AzureADUser -UsageLocation "FR"**).</span><span class="sxs-lookup"><span data-stu-id="904ed-155">Set the user location to France (**Set-AzureADUser -UsageLocation "FR"**).</span></span>
     
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="9e629-156">De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken</span><span class="sxs-lookup"><span data-stu-id="9e629-156">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="904ed-156">De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken</span><span class="sxs-lookup"><span data-stu-id="904ed-156">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
 
-<span data-ttu-id="9e629-157">Als u de eigenschappen van gebruikersaccounts met de Microsoft Azure Active Directory-module voor Windows PowerShell wilt configureren, gebruikt u de cmdlet **set-MsolUser** en geeft u de eigenschappen op die u wilt instellen of wijzigen.</span><span class="sxs-lookup"><span data-stu-id="9e629-157">To configure properties for user accounts with the Microsoft Azure Active Directory Module for Windows PowerShell, use the **Set-MsolUser** cmdlet and specify the properties to set or change.</span></span>
+<span data-ttu-id="904ed-157">Als u eigenschappen voor gebruikersaccounts wilt configureren met de Microsoft Azure Active Directory-module voor Windows PowerShell, gebruikt u de cmdlet **Set-MsolUser** en geeft u de eigenschappen op die u wilt instellen of wijzigen.</span><span class="sxs-lookup"><span data-stu-id="904ed-157">To configure properties for user accounts with the Microsoft Azure Active Directory Module for Windows PowerShell, use the **Set-MsolUser** cmdlet and specify the properties to set or change.</span></span>
 
-<span data-ttu-id="9e629-158">Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="9e629-158">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+<span data-ttu-id="904ed-158">Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)</span><span class="sxs-lookup"><span data-stu-id="904ed-158">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
   
 >[!Note]
-><span data-ttu-id="9e629-159">PowerShell core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met *MSOL* in de naam.</span><span class="sxs-lookup"><span data-stu-id="9e629-159">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="9e629-160">Voer de volgende cmdlets uit vanuit Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="9e629-160">Run these cmdlets from Windows PowerShell.</span></span>
+><span data-ttu-id="904ed-159">PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell en cmdlets met *Msol* in hun naam.</span><span class="sxs-lookup"><span data-stu-id="904ed-159">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="904ed-160">Voer deze cmdlets uit vanuit Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="904ed-160">Run these cmdlets from Windows PowerShell.</span></span>
 >
 
-### <a name="change-properties-for-a-specific-user-account"></a><span data-ttu-id="9e629-161">Eigenschappen van een specifiek gebruikersaccount wijzigen</span><span class="sxs-lookup"><span data-stu-id="9e629-161">Change properties for a specific user account</span></span>
+### <a name="change-properties-for-a-specific-user-account"></a><span data-ttu-id="904ed-161">Eigenschappen wijzigen voor een specifiek gebruikersaccount</span><span class="sxs-lookup"><span data-stu-id="904ed-161">Change properties for a specific user account</span></span>
 
-<span data-ttu-id="9e629-162">Als u de eigenschappen voor een specifiek gebruikersaccount wilt configureren, gebruikt u de cmdlet [**set-MsolUser**](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)) en geeft u de eigenschappen op die u wilt instellen of wijzigen.</span><span class="sxs-lookup"><span data-stu-id="9e629-162">To configure properties for a specific user account, use the [**Set-MsolUser**](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)) cmdlet and specify the properties to set or change.</span></span> 
+<span data-ttu-id="904ed-162">Als u eigenschappen voor een specifiek gebruikersaccount wilt configureren, gebruikt u de cmdlet [**Set-MsolUser**](/previous-versions/azure/dn194136(v=azure.100)) en geeft u de eigenschappen op die u wilt instellen of wijzigen.</span><span class="sxs-lookup"><span data-stu-id="904ed-162">To configure properties for a specific user account, use the [**Set-MsolUser**](/previous-versions/azure/dn194136(v=azure.100)) cmdlet and specify the properties to set or change.</span></span> 
 
-<span data-ttu-id="9e629-163">U identificeert het account met de parameter *-userPrincipalName* en stelt of wijzigt specifieke eigenschappen met behulp van aanvullende parameters.</span><span class="sxs-lookup"><span data-stu-id="9e629-163">You identify the account with the *-UserPrincipalName* parameter and set or change specific properties by using additional parameters.</span></span> <span data-ttu-id="9e629-164">Hier volgt een lijst met de meest voorkomende parameters.</span><span class="sxs-lookup"><span data-stu-id="9e629-164">Here's a list of the most common parameters.</span></span>
+<span data-ttu-id="904ed-163">U identificeert het account met *de parameter -UserPrincipalName* en stelt specifieke eigenschappen in of wijzigt deze met behulp van extra parameters.</span><span class="sxs-lookup"><span data-stu-id="904ed-163">You identify the account with the *-UserPrincipalName* parameter and set or change specific properties by using additional parameters.</span></span> <span data-ttu-id="904ed-164">Hier is een lijst met de meest voorkomende parameters.</span><span class="sxs-lookup"><span data-stu-id="904ed-164">Here's a list of the most common parameters.</span></span>
   
-- <span data-ttu-id="9e629-165">-Plaats " \<city name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-165">-City "\<city name>"</span></span>
+- <span data-ttu-id="904ed-165">-City " \<city name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-165">-City "\<city name>"</span></span>
     
-- <span data-ttu-id="9e629-166">-Land " \<country name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-166">-Country "\<country name>"</span></span>
+- <span data-ttu-id="904ed-166">-Country " \<country name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-166">-Country "\<country name>"</span></span>
     
-- <span data-ttu-id="9e629-167">-Afdeling " \<department name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-167">-Department "\<department name>"</span></span>
+- <span data-ttu-id="904ed-167">-Department " \<department name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-167">-Department "\<department name>"</span></span>
     
-- <span data-ttu-id="9e629-168">Naam van een \<full user name> '</span><span class="sxs-lookup"><span data-stu-id="9e629-168">-DisplayName "\<full user name>"</span></span>
+- <span data-ttu-id="904ed-168">-DisplayName " \<full user name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-168">-DisplayName "\<full user name>"</span></span>
     
-- <span data-ttu-id="9e629-169">-Fax " \<fax number> "</span><span class="sxs-lookup"><span data-stu-id="9e629-169">-Fax "\<fax number>"</span></span>
+- <span data-ttu-id="904ed-169">-Fax " \<fax number> "</span><span class="sxs-lookup"><span data-stu-id="904ed-169">-Fax "\<fax number>"</span></span>
     
-- <span data-ttu-id="9e629-170">-Voornaam " \<user first name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-170">-FirstName "\<user first name>"</span></span>
+- <span data-ttu-id="904ed-170">-FirstName " \<user first name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-170">-FirstName "\<user first name>"</span></span>
     
-- <span data-ttu-id="9e629-171">-Achternaam " \<user last name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-171">-LastName "\<user last name>"</span></span>
+- <span data-ttu-id="904ed-171">-LastName " \<user last name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-171">-LastName "\<user last name>"</span></span>
     
-- <span data-ttu-id="9e629-172">-MobilePhone " \<mobile phone number> "</span><span class="sxs-lookup"><span data-stu-id="9e629-172">-MobilePhone "\<mobile phone number>"</span></span>
+- <span data-ttu-id="904ed-172">-MobilePhone " \<mobile phone number> "</span><span class="sxs-lookup"><span data-stu-id="904ed-172">-MobilePhone "\<mobile phone number>"</span></span>
     
-- <span data-ttu-id="9e629-173">-Office " \<office location> "</span><span class="sxs-lookup"><span data-stu-id="9e629-173">-Office "\<office location>"</span></span>
+- <span data-ttu-id="904ed-173">-Office " \<office location> "</span><span class="sxs-lookup"><span data-stu-id="904ed-173">-Office "\<office location>"</span></span>
     
-- <span data-ttu-id="9e629-174">-PhoneNumber " \<office phone number> "</span><span class="sxs-lookup"><span data-stu-id="9e629-174">-PhoneNumber "\<office phone number>"</span></span>
+- <span data-ttu-id="904ed-174">-PhoneNumber " \<office phone number> "</span><span class="sxs-lookup"><span data-stu-id="904ed-174">-PhoneNumber "\<office phone number>"</span></span>
     
-- <span data-ttu-id="9e629-175">-Postcode " \<postal code> "</span><span class="sxs-lookup"><span data-stu-id="9e629-175">-PostalCode "\<postal code>"</span></span>
+- <span data-ttu-id="904ed-175">-Postcode " \<postal code> "</span><span class="sxs-lookup"><span data-stu-id="904ed-175">-PostalCode "\<postal code>"</span></span>
     
-- <span data-ttu-id="9e629-176">-PreferredLanguage " \<language> "</span><span class="sxs-lookup"><span data-stu-id="9e629-176">-PreferredLanguage "\<language>"</span></span>
+- <span data-ttu-id="904ed-176">-PreferredLanguage " \<language> "</span><span class="sxs-lookup"><span data-stu-id="904ed-176">-PreferredLanguage "\<language>"</span></span>
     
-- <span data-ttu-id="9e629-177">-Status " \<state name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-177">-State "\<state name>"</span></span>
+- <span data-ttu-id="904ed-177">-State " \<state name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-177">-State "\<state name>"</span></span>
     
-- <span data-ttu-id="9e629-178">-StreetAddress " \<street address> "</span><span class="sxs-lookup"><span data-stu-id="9e629-178">-StreetAddress "\<street address>"</span></span>
+- <span data-ttu-id="904ed-178">-StreetAddress \<street address> " "</span><span class="sxs-lookup"><span data-stu-id="904ed-178">-StreetAddress "\<street address>"</span></span>
     
-- <span data-ttu-id="9e629-179">-Titel " \<title name> "</span><span class="sxs-lookup"><span data-stu-id="9e629-179">-Title "\<title name>"</span></span>
+- <span data-ttu-id="904ed-179">-Titel " \<title name> "</span><span class="sxs-lookup"><span data-stu-id="904ed-179">-Title "\<title name>"</span></span>
     
-- <span data-ttu-id="9e629-180">-UsageLocation " \<2-character country or region code> "</span><span class="sxs-lookup"><span data-stu-id="9e629-180">-UsageLocation "\<2-character country or region code>"</span></span>
+- <span data-ttu-id="904ed-180">-UsageLocation " \<2-character country or region code> "</span><span class="sxs-lookup"><span data-stu-id="904ed-180">-UsageLocation "\<2-character country or region code>"</span></span>
     
-    <span data-ttu-id="9e629-181">Dit is de ISO 3166-1 alfa-2 (a2) land-of regiocode van twee letters.</span><span class="sxs-lookup"><span data-stu-id="9e629-181">This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.</span></span>
+    <span data-ttu-id="904ed-181">Dit is de ISO 3166-1 alfa-2 (A2) land- of regiocode met twee letters.</span><span class="sxs-lookup"><span data-stu-id="904ed-181">This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.</span></span>
     
-<span data-ttu-id="9e629-182">Zie [set-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100))voor aanvullende parameters.</span><span class="sxs-lookup"><span data-stu-id="9e629-182">For additional parameters, see [Set-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)).</span></span>
+<span data-ttu-id="904ed-182">Zie [Set-MsolUser voor meer parameters.](/previous-versions/azure/dn194136(v=azure.100))</span><span class="sxs-lookup"><span data-stu-id="904ed-182">For additional parameters, see [Set-MsolUser](/previous-versions/azure/dn194136(v=azure.100)).</span></span>
 
-<span data-ttu-id="9e629-183">Voer de volgende opdracht uit om de hoofdnamen van gebruikers van alle gebruikers weer te geven:</span><span class="sxs-lookup"><span data-stu-id="9e629-183">To see the User Principal Names of all your users, run the following command:</span></span>
+<span data-ttu-id="904ed-183">Voer de volgende opdracht uit om de gebruikersnamen van al uw gebruikers te zien:</span><span class="sxs-lookup"><span data-stu-id="904ed-183">To see the User Principal Names of all your users, run the following command:</span></span>
   
 ```powershell
 Get-MSolUser | Sort UserPrincipalName | Select UserPrincipalName | More
 ```
 
-<span data-ttu-id="9e629-184">Met deze opdracht wordt PowerShell overgeïnstrueerd:</span><span class="sxs-lookup"><span data-stu-id="9e629-184">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="904ed-184">Met deze opdracht wordt PowerShell instructies gegeven voor:</span><span class="sxs-lookup"><span data-stu-id="904ed-184">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="9e629-185">Alle informatie voor de gebruikersaccounts (**Get-MsolUser**) weergeven en verzenden naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-185">Get all of information for the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-185">Haal alle informatie op voor de gebruikersaccounts **(Get-MsolUser)** en stuur deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-185">Get all of information for the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-186">De lijst met gebruikersnamen alfabetisch sorteren (**Sorteer de userPrincipalName**) en verzenden naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-186">Sort the list of User Principal Names alphabetically (**Sort UserPrincipalName**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-186">Sorteer de lijst met gebruikershoofdnamen alfabetisch **(Sorteer UserPrincipalName)** en verzend deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-186">Sort the list of User Principal Names alphabetically (**Sort UserPrincipalName**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-187">Alleen de eigenschap voor de User Principal name weergeven voor elk account (**Selecteer userPrincipalName**).</span><span class="sxs-lookup"><span data-stu-id="9e629-187">Display just the User Principal Name property for each account (**Select UserPrincipalName**).</span></span>
+1. <span data-ttu-id="904ed-187">Geef alleen de eigenschap User Principal Name weer voor elk account **(Selecteer UserPrincipalName).**</span><span class="sxs-lookup"><span data-stu-id="904ed-187">Display just the User Principal Name property for each account (**Select UserPrincipalName**).</span></span>
     
-1. <span data-ttu-id="9e629-188">Toon ze één scherm voor één keer (**meer**).</span><span class="sxs-lookup"><span data-stu-id="9e629-188">Display them one screen at a time (**More**).</span></span>
+1. <span data-ttu-id="904ed-188">Geef ze één scherm tegelijk weer **(Meer).**</span><span class="sxs-lookup"><span data-stu-id="904ed-188">Display them one screen at a time (**More**).</span></span>
     
-<span data-ttu-id="9e629-189">Voer de volgende opdrachten uit om de User Principal-naam van een account weer te geven op basis van de weergavenaam (voornaam en achternaam).</span><span class="sxs-lookup"><span data-stu-id="9e629-189">To display the User Principal Name for an account based on its display name (first and last name), run the following commands.</span></span> <span data-ttu-id="9e629-190">Voer de *$username* variabele in en verwijder de \< and > tekens.</span><span class="sxs-lookup"><span data-stu-id="9e629-190">Fill in the *$userName* variable, and remove the \< and > characters.</span></span>
+<span data-ttu-id="904ed-189">Als u de gebruikersnaam voor een account wilt weergeven op basis van de weergavenaam (voor- en achternaam), voert u de volgende opdrachten uit.</span><span class="sxs-lookup"><span data-stu-id="904ed-189">To display the User Principal Name for an account based on its display name (first and last name), run the following commands.</span></span> <span data-ttu-id="904ed-190">Vul de variabele *$userName* en verwijder de \< and > tekens.</span><span class="sxs-lookup"><span data-stu-id="904ed-190">Fill in the *$userName* variable, and remove the \< and > characters.</span></span>
   
 ```powershell
 $userName="<Display name>"
 Write-Host (Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-<span data-ttu-id="9e629-191">In dit voorbeeld wordt de User Principal name van de gebruiker met de naam Caleb Sills:</span><span class="sxs-lookup"><span data-stu-id="9e629-191">This example displays the User Principal Name for the user named Caleb Sills:</span></span>
+<span data-ttu-id="904ed-191">In dit voorbeeld wordt de gebruikersnaam weergegeven voor de gebruiker met de naam Caleb Sills:</span><span class="sxs-lookup"><span data-stu-id="904ed-191">This example displays the User Principal Name for the user named Caleb Sills:</span></span>
   
 ```powershell
 $userName="Caleb Sills"
 Write-Host (Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-<span data-ttu-id="9e629-192">Met behulp van een *$UPN* -variabele kunt u wijzigingen aanbrengen in afzonderlijke accounts op basis van de weergavenaam.</span><span class="sxs-lookup"><span data-stu-id="9e629-192">By using a *$upn* variable, you can make changes to individual accounts based on their display name.</span></span> <span data-ttu-id="9e629-193">Hier ziet u een voorbeeld waarin de gebruikslocatie van *Belinda Newman*wordt ingesteld op *Frankrijk*, maar geeft de naam van de gebruikersnaam in plaats van de UPN van de gebruikersnaam aan:</span><span class="sxs-lookup"><span data-stu-id="9e629-193">Here's an example that sets *Belinda Newman*'s usage location to *France*, but specifies her display name rather than her User Principal Name:</span></span>
+<span data-ttu-id="904ed-192">Met behulp van *$upn* variabele kunt u wijzigingen aanbrengen in afzonderlijke accounts op basis van de weergavenaam.</span><span class="sxs-lookup"><span data-stu-id="904ed-192">By using a *$upn* variable, you can make changes to individual accounts based on their display name.</span></span> <span data-ttu-id="904ed-193">Hier is een voorbeeld dat de gebruikslocatie van *Belinda Newman* in frankrijk in *stelt,* maar dat de weergavenaam wordt opgegeven in plaats van de naam van de hoofdgebruiker:</span><span class="sxs-lookup"><span data-stu-id="904ed-193">Here's an example that sets *Belinda Newman*'s usage location to *France*, but specifies her display name rather than her User Principal Name:</span></span>
   
 ```powershell
 $userName="<display name>"
@@ -237,40 +237,40 @@ $upn=(Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 Set-MsolUser -UserPrincipalName $upn -UsageLocation "FR"
 ```
 
-### <a name="change-properties-for-all-user-accounts"></a><span data-ttu-id="9e629-194">Eigenschappen wijzigen voor alle gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="9e629-194">Change properties for all user accounts</span></span>
+### <a name="change-properties-for-all-user-accounts"></a><span data-ttu-id="904ed-194">Eigenschappen wijzigen voor alle gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="904ed-194">Change properties for all user accounts</span></span>
 
-<span data-ttu-id="9e629-195">Als u de eigenschappen van alle gebruikers wilt wijzigen, gebruikt u een combinatie van de cmdlet **Get-MsolUser** en **set-MsolUser** .</span><span class="sxs-lookup"><span data-stu-id="9e629-195">To change properties for all users,  use a combination of the **Get-MsolUser** and **Set-MsolUser** cmdlets.</span></span> <span data-ttu-id="9e629-196">In het volgende voorbeeld wordt de gebruikslocatie voor alle gebruikers gewijzigd in *Frankrijk*:</span><span class="sxs-lookup"><span data-stu-id="9e629-196">The following example changes the usage location for all users to *France*:</span></span>
+<span data-ttu-id="904ed-195">Als u eigenschappen voor alle gebruikers wilt wijzigen, gebruikt u een combinatie van **de cmdlets Get-MsolUser** en **Set-MsolUser.**</span><span class="sxs-lookup"><span data-stu-id="904ed-195">To change properties for all users,  use a combination of the **Get-MsolUser** and **Set-MsolUser** cmdlets.</span></span> <span data-ttu-id="904ed-196">In het volgende voorbeeld wordt de gebruikslocatie voor alle gebruikers gewijzigd in *Frankrijk:*</span><span class="sxs-lookup"><span data-stu-id="904ed-196">The following example changes the usage location for all users to *France*:</span></span>
   
 ```powershell
 Get-MsolUser | Set-MsolUser -UsageLocation "FR"
 ```
 
-<span data-ttu-id="9e629-197">Met deze opdracht wordt PowerShell overgeïnstrueerd:</span><span class="sxs-lookup"><span data-stu-id="9e629-197">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="904ed-197">Met deze opdracht wordt PowerShell instructies gegeven voor:</span><span class="sxs-lookup"><span data-stu-id="904ed-197">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="9e629-198">Alle informatie voor de gebruikersaccounts (**Get-MsolUser**) vinden en verzenden naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-198">Get all the information for the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-198">Haal alle informatie op voor de gebruikersaccounts **(Get-MsolUser)** en stuur deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-198">Get all the information for the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-199">Stel de locatie van de gebruiker in op Frankrijk (**set-MsolUser-UsageLocation "FR"**).</span><span class="sxs-lookup"><span data-stu-id="9e629-199">Set the user location to France (**Set-MsolUser -UsageLocation "FR"**).</span></span>
+1. <span data-ttu-id="904ed-199">Stel de gebruikerslocatie in op Frankrijk (**Set-MsolUser -UsageLocation "FR"**).</span><span class="sxs-lookup"><span data-stu-id="904ed-199">Set the user location to France (**Set-MsolUser -UsageLocation "FR"**).</span></span>
     
-### <a name="change-properties-for-a-specific-set-of-user-accounts"></a><span data-ttu-id="9e629-200">Eigenschappen wijzigen voor een bepaalde groep gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="9e629-200">Change properties for a specific set of user accounts</span></span>
+### <a name="change-properties-for-a-specific-set-of-user-accounts"></a><span data-ttu-id="904ed-200">Eigenschappen wijzigen voor een specifieke set gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="904ed-200">Change properties for a specific set of user accounts</span></span>
 
-<span data-ttu-id="9e629-201">Als u de eigenschappen van een bepaalde groep gebruikersaccounts wilt wijzigen, kunt u een combinatie van de cmdlet **Get-MsolUser**, **where**en **set-MsolUser** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="9e629-201">To change properties for a specific set of user accounts, you can use a combination of the **Get-MsolUser**, **Where**, and **Set-MsolUser** cmdlets.</span></span> <span data-ttu-id="9e629-202">In het volgende voorbeeld wordt de gebruikslocatie van alle gebruikers in de afdeling financieel medewerkers gewijzigd in *Frankrijk*:</span><span class="sxs-lookup"><span data-stu-id="9e629-202">The following example changes the usage location for all the users in the Accounting department to *France*:</span></span>
+<span data-ttu-id="904ed-201">Als u eigenschappen voor een specifieke set gebruikersaccounts wilt wijzigen, kunt u een combinatie van de **cmdlets Get-MsolUser,** **Where** en **Set-MsolUser** gebruiken.</span><span class="sxs-lookup"><span data-stu-id="904ed-201">To change properties for a specific set of user accounts, you can use a combination of the **Get-MsolUser**, **Where**, and **Set-MsolUser** cmdlets.</span></span> <span data-ttu-id="904ed-202">In het volgende voorbeeld wordt de gebruikslocatie voor alle gebruikers van de afdeling Accounting gewijzigd in *Frankrijk:*</span><span class="sxs-lookup"><span data-stu-id="904ed-202">The following example changes the usage location for all the users in the Accounting department to *France*:</span></span>
   
 ```powershell
 Get-MsolUser | Where {$_.Department -eq "Accounting"} | Set-MsolUser -UsageLocation "FR"
 ```
 
-<span data-ttu-id="9e629-203">Met deze opdracht wordt PowerShell overgeïnstrueerd:</span><span class="sxs-lookup"><span data-stu-id="9e629-203">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="904ed-203">Met deze opdracht wordt PowerShell instructies gegeven voor:</span><span class="sxs-lookup"><span data-stu-id="904ed-203">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="9e629-204">Alle informatie voor de gebruikersaccounts (**Get-MsolUser**) vinden en verzenden naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-204">Get all the information for the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-204">Haal alle informatie op voor de gebruikersaccounts **(Get-MsolUser)** en stuur deze naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-204">Get all the information for the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-205">Zoek alle gebruikersaccounts waarvan de *afdelings* eigenschap is ingesteld op ' Accounting ' (**waarbij {$ _. Afdeling-EQ "accounting"}**) en stuurt de resultaten naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="9e629-205">Find all user accounts that have their *Department* property set to "Accounting" (**Where {$_.Department -eq "Accounting"}**) and send the resulting information to the next command (**|**).</span></span>
+1. <span data-ttu-id="904ed-205">Zoek alle gebruikersaccounts waarop de *eigenschap Afdeling* is ingesteld op 'Accounting' (**Where {$_. Department -eq "Accounting"}**) en stuur de resulterende informatie naar de volgende opdracht ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="904ed-205">Find all user accounts that have their *Department* property set to "Accounting" (**Where {$_.Department -eq "Accounting"}**) and send the resulting information to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="9e629-206">Stel de locatie van de gebruiker in op Frankrijk (**set-MsolUser-UsageLocation "FR"**).</span><span class="sxs-lookup"><span data-stu-id="9e629-206">Set the user location to France (**Set-MsolUser -UsageLocation "FR"**).</span></span>
+1. <span data-ttu-id="904ed-206">Stel de gebruikerslocatie in op Frankrijk (**Set-MsolUser -UsageLocation "FR"**).</span><span class="sxs-lookup"><span data-stu-id="904ed-206">Set the user location to France (**Set-MsolUser -UsageLocation "FR"**).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9e629-207">Zie ook</span><span class="sxs-lookup"><span data-stu-id="9e629-207">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="904ed-207">Zie ook</span><span class="sxs-lookup"><span data-stu-id="904ed-207">See also</span></span>
 
-[<span data-ttu-id="9e629-208">Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="9e629-208">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[<span data-ttu-id="904ed-208">Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="904ed-208">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="9e629-209">Microsoft 365 beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="9e629-209">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="904ed-209">Microsoft 365 beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="904ed-209">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="9e629-210">Aan de slag met PowerShell voor Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9e629-210">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+[<span data-ttu-id="904ed-210">Aan de slag met PowerShell voor Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="904ed-210">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
