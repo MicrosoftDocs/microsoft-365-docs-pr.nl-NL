@@ -1,5 +1,5 @@
 ---
-title: Ontdekte bedreigingen controleren en actie ondernemen
+title: Gedetecteerde bedreigingen bekijken en actie ondernemen
 f1.keywords: NOCSH
 ms.author: sharik
 author: SKjerland
@@ -14,103 +14,103 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
-description: Meer informatie over het controleren en beheren van bedreigingen die zijn gedetecteerd door Microsoft Defender antivirus op uw Windows 10-apparaten.
-ms.openlocfilehash: 41465cb81850415a7b490b6af7f0ec66c724ca68
-ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
+description: Informatie over het controleren en beheren van bedreigingen die zijn gedetecteerd door Microsoft Defender Antivirus op uw Windows 10-apparaten.
+ms.openlocfilehash: 15e99fb75e4a3ac1af842ca7d0b900e02cbc6bd4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588515"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912784"
 ---
-# <a name="review-detected-threats-and-take-action"></a>Ontdekte bedreigingen controleren en actie ondernemen
+# <a name="review-detected-threats-and-take-action"></a>Gedetecteerde bedreigingen bekijken en actie ondernemen
 
-Zodra een schadelijk bestand of software is gedetecteerd, blokkeert Microsoft Defender antivirus het en zorgt u ervoor dat de toepassing niet wordt uitgevoerd. En met de ingeschakelde bescherming van de cloud worden de nieuw ontdekte bedreigingen toegevoegd aan de antivirus-en antimalware-engine, zodat uw andere apparaten en gebruikers ook worden beveiligd.
+Zodra een schadelijk bestand of software wordt gedetecteerd, blokkeert Microsoft Defender Antivirus het bestand en voorkomt u dat het wordt uitgevoerd. En als beveiliging in de cloud is ingeschakeld, worden nieuw gedetecteerde bedreigingen toegevoegd aan de antivirus- en antimalware-engine, zodat uw andere apparaten en gebruikers ook worden beveiligd.
 
-Microsoft Defender Antivirus detecteert en beveiligt de volgende soorten bedreigingen:
+Microsoft Defender Antivirus detecteert en beschermt tegen de volgende soorten bedreigingen:
 
-- Virussen, malware en internetbedreigingen op apparaten
-- Phishing-pogingen
+- Virussen, malware en op het web gebaseerde bedreigingen op apparaten
+- Phishingpogingen
 - Pogingen tot gegevensdiefstal
 
-Als IT-medewerker/beheerder kunt u informatie weergeven over de detectie van bedreiging op [Windows 10-apparaten die zijn ingeschreven in intune](/mem/intune/enrollment/device-enrollment) in het microsoft 365-Beheercentrum. U ziet samenvattingsgegevens, zoals:
+Als IT-professional/beheerder kunt u informatie bekijken over bedreigingsdetecties op [Windows 10-apparaten](/mem/intune/enrollment/device-enrollment) die zijn geregistreerd in Intune in het Microsoft 365-beheercentrum. U ziet overzichtsgegevens, zoals:
 
-- Hoeveel apparaten moet antivirusbeveiliging hebben
-- Hoeveel apparaten niet voldoen aan beveiligingsbeleid
-- Hoeveel bedreigingen zijn momenteel actief, verminderd of opgelost
+- Hoeveel apparaten hebben antivirusbeveiliging nodig
+- Hoeveel apparaten voldoen niet aan het beveiligingsbeleid
+- Hoeveel bedreigingen momenteel actief, beperkt of opgelost zijn
 
-U hebt verschillende opties voor het weergeven van specifieke informatie over de detectie van bedreigingen en apparaten:
+U hebt verschillende opties om specifieke informatie over bedreigingsdetecties en -apparaten weer te geven:
 
-- De pagina **actieve apparaten** in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>. Zie [bedreigings detectie van de pagina actieve apparaten](#manage-threat-detections-on-the-active-devices-page) in dit artikel beheren.
-- De pagina **actieve bedreigingen** in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>. Zie [bedreigings detectie van de pagina actieve bedreigingen](#manage-threat-detections-on-the-active-threats-page) in dit artikel beheren.
-- De pagina met **antivirus software** in <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">Microsoft Endpoint Manager</a>. Zie [bedreigings detectie in Microsoft Endpoint Manager beheren](#manage-threat-detections-in-microsoft-endpoint-manager) in dit artikel.
+- De **pagina Actieve apparaten** in het Microsoft <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">365-beheercentrum</a>. Zie [Bedreigingsdetecties beheren op de pagina Actieve apparaten](#manage-threat-detections-on-the-active-devices-page) in dit artikel.
+- De **pagina Actieve bedreigingen** in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum.</a> Zie [Bedreigingsdetecties beheren op de pagina Actieve bedreigingen](#manage-threat-detections-on-the-active-threats-page) in dit artikel.
+- De **pagina Antivirus** in Microsoft <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">Endpoint Manager.</a> Zie [Bedreigingsdetecties beheren in Microsoft Endpoint Manager](#manage-threat-detections-in-microsoft-endpoint-manager) in dit artikel.
 
-Zie [bedreigingen gedetecteerd door Microsoft Defender antivirus](threats-detected-defender-av.md)voor meer informatie.
+Zie Bedreigingen gedetecteerd door Microsoft Defender Antivirus voor [meer informatie.](threats-detected-defender-av.md)
 
-## <a name="manage-threat-detections-on-the-active-devices-page"></a>Detectie van bedreigings informatie op de pagina met **actieve apparaten** beheren
+## <a name="manage-threat-detections-on-the-active-devices-page"></a>Bedreigingsdetecties beheren op de pagina **Actieve apparaten**
 
 De volgende procedure is van toepassing op klanten met Microsoft 365 Business Premium.
 
-1. Ga naar het Microsoft 365-Beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> en meld u aan.
+1. Ga naar het Microsoft 365-beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> en meld u aan.
 
-2. **Selecteer op** de navigatiepagina de optie  >  **actieve apparaten**. U ziet een lijst met actieve apparaten en Details, zoals de beveiligingsstatus, de antivirus status beveiliging en het aantal actieve bedreigingen dat wordt gedetecteerd.
+2. Selecteer apparaten met actieve apparaten **op** de  >  **navigatiepagina.** U ziet een lijst met actieve apparaten en details, zoals de beveiligingsstatus, de antivirusstatus en het aantal gedetecteerde actieve bedreigingen.
 
-3. Selecteer een apparaat om meer informatie over dat apparaat en de beschikbare acties weer te geven. Er verschijnt een flyout met aanbevelingen en de beschikbare acties, zoals **updatebeleid**, het **bijwerken van antivirussoftware**, het **uitvoeren van snelle scan** en het **uitvoeren van volledige scans** en meer.
+3. Selecteer een apparaat om meer informatie over dat apparaat en beschikbare acties weer te geven. Er wordt een flyout geopend met aanbevelingen en beschikbare acties, zoals **Updatebeleid,** **Antivirus bijwerken,** Snelle **scan** uitvoeren, Volledige **scan** uitvoeren en meer.
 
-## <a name="manage-threat-detections-on-the-active-threats-page"></a>Detectie van bedreigings informatie op de pagina **actieve bedreigingen** beheren
+## <a name="manage-threat-detections-on-the-active-threats-page"></a>Bedreigingsdetecties beheren op de pagina **Actieve bedreigingen**
 
-De volgende procedure is van toepassing op klanten met Microsoft 365 Business Premium. [Windows 10-apparaten moeten worden beveiligd](/microsoft-365/business/secure-win-10-pcs) en [ingeschreven in intune](/mem/intune/enrollment/windows-enrollment-methods).
+De volgende procedure is van toepassing op klanten met Microsoft 365 Business Premium. [Windows 10-apparaten moeten zijn beveiligd en](./secure-win-10-pcs.md) geregistreerd in [Intune.](/mem/intune/enrollment/windows-enrollment-methods)
 
 > [!NOTE]
-> De pagina's **Microsoft Defender antivirus** en **Active Threat** worden in fasen uitgerold, zodat u deze mogelijk niet direct kunt openen.
+> De **microsoft Defender Antiviruskaart** en **de pagina Actieve** bedreigingen worden gefaseerd uitgerold, zodat u mogelijk niet direct toegang tot de kaart hebt.
 
-1. Ga naar het Microsoft 365-Beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> en meld u aan.
+1. Ga naar het Microsoft 365-beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> en meld u aan.
 
-2. Selecteer **actieve bedreigingen weergeven** op de kaart **Microsoft Defender antivirus** . (U kunt ook in het navigatiedeelvenster **status**  >  selecteren **Bedreigingen & antivirussoftware**.)
+2. Selecteer actieve **bedreigingen** weergeven op de Microsoft Defender **Antivirus-kaart.** (U kunt ook in het navigatiedeelvenster Status **selecteren**  >  **Bedreigingen & antivirus**.)
 
-3. Selecteer op de pagina **actieve bedreigingen** een bedreiging voor meer informatie. Er wordt een flyout geopend met meer informatie over die bedreiging, waaronder de apparaten waarop dit van invloed is.
+3. Selecteer op **de** pagina Actieve bedreigingen een gedetecteerde bedreiging voor meer informatie. Er wordt een flyout geopend met details over die bedreiging, waaronder welke apparaten worden beïnvloed.
 
-4. Selecteer in het vervolgmenu een apparaat om beschikbare acties weer te geven, zoals **updatebeleid**, **antivirussoftware bijwerken**, **snelle scan uitvoeren** en meer.
+4. Selecteer in de flyout een apparaat om beschikbare acties weer te geven, zoals **Updatebeleid,** **Antivirus bijwerken,** **Snel scannen** uitvoeren en meer.
 
-## <a name="actions-you-can-take"></a>Acties die u kunt ondernemen
+## <a name="actions-you-can-take"></a>Acties die u kunt uitvoeren
 
-Wanneer u details weergeeft van bepaalde bedreigingen of apparaten, ziet u aanbevelingen en een of meer acties die u kunt uitvoeren. In de volgende tabel worden de acties beschreven die u kunt zien.<br><br>
+Wanneer u details over specifieke bedreigingen of apparaten bekijkt, ziet u aanbevelingen en een of meer acties die u kunt uitvoeren. In de volgende tabel worden acties beschreven die u mogelijk ziet.<br><br>
 
-| Actierij | Beschrijving |
+| Actie | Beschrijving |
 |--|--|
-| Beveiliging configureren | Uw beveiligingsbeleid moet zijn geconfigureerd. Selecteer de koppeling om naar de pagina beleid configureren te gaan.<br><br>Hulp nodig? Zie [beveiliging van apparaten beheren met controlepunt beveiligingsbeleid in Microsoft intune](/mem/intune/protect/endpoint-security-policy). |
-| Beleidsregels bijwerken | Uw antivirussoftware en het realtime beveiligingsbeleid moeten worden bijgewerkt of geconfigureerd. Selecteer de koppeling om naar de pagina beleid configureren te gaan.<br><br>Hulp nodig? Zie [beveiliging van apparaten beheren met controlepunt beveiligingsbeleid in Microsoft intune](/mem/intune/protect/endpoint-security-policy). |
-| Snelle scan uitvoeren | Hiermee start u een snelle antivirus scan op het apparaat om zich te richten op populaire locaties waarop malware kan worden geregistreerd, zoals registersleutels en bekende Windows-opstartmappen. |
-| Volledige scan uitvoeren | Hiermee start u een volledige antivirus scan op het apparaat, benadrukt op veelgebruikte locaties waar de malware kan worden geregistreerd, en waaronder elk bestand en elke map op het apparaat. Resultaten worden verzonden naar [Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager). |
-| Antivirussoftware bijwerken | Het apparaat vereist updates van [Beveiligingsinformatie](https://go.microsoft.com/fwlink/?linkid=2149926) voor antivirussoftware en beveiliging tegen anti malware. |
-| Apparaat opnieuw opstarten | Hiermee zorgt u ervoor dat een Windows 10-apparaat binnen vijf minuten opnieuw wordt gestart.<br><br>**Belangrijk:** De eigenaar van het apparaat of de gebruiker wordt niet automatisch op de hoogte gesteld van het opnieuw opstarten en kan niet-opgeslagen werk verliezen. |
+| Beveiliging configureren | Uw beleid voor bedreigingsbeveiliging moet worden geconfigureerd. Selecteer de koppeling om naar uw beleidsconfiguratiepagina te gaan.<br><br>Hulp nodig? Zie [Apparaatbeveiliging beheren met endpoint-beveiligingsbeleid in Microsoft Intune](/mem/intune/protect/endpoint-security-policy). |
+| Updatebeleid | Uw antivirus- en realtimebeveiligingsbeleid moet worden bijgewerkt of geconfigureerd. Selecteer de koppeling om naar de pagina beleidsconfiguratie te gaan.<br><br>Hulp nodig? Zie [Apparaatbeveiliging beheren met endpoint-beveiligingsbeleid in Microsoft Intune](/mem/intune/protect/endpoint-security-policy). |
+| Snelle scan uitvoeren | Start een snelle antivirusscan op het apparaat, met de focus op veelgebruikte locaties waar malware kan worden geregistreerd, zoals registersleutels en bekende opstartmappen van Windows. |
+| Volledige scan uitvoeren | Start een volledige antivirusscan op het apparaat, met de focus op veelgebruikte locaties waar malware kan worden geregistreerd, en met inbegrip van elk bestand en elke map op het apparaat. Resultaten worden verzonden [naar Microsoft Endpoint Manager.](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) |
+| Antivirusprogramma's bijwerken | Vereist dat het apparaat [beveiligingsinformatie-updates ontvangt](https://go.microsoft.com/fwlink/?linkid=2149926) voor antivirus- en antimalwarebeveiliging. |
+| Apparaat opnieuw starten | Een Windows 10-apparaat moet binnen vijf minuten opnieuw worden gestart.<br><br>**BELANGRIJK:** De eigenaar of gebruiker van het apparaat wordt niet automatisch op de hoogte gesteld van het opnieuw opstarten en kan niet-opgeslagen werk verliezen. |
 
-## <a name="manage-threat-detections-in-microsoft-endpoint-manager"></a>Detectie van bedreigings informatie in Microsoft Endpoint Manager beheren
+## <a name="manage-threat-detections-in-microsoft-endpoint-manager"></a>Bedreigingsdetecties beheren in Microsoft Endpoint Manager
 
-U kunt Microsoft Endpoint Manager gebruiken voor het beheren van bedreigings detectie. Windows 10-apparaten moeten zijn [ingeschreven voor intune](/mem/intune/enrollment/windows-enrollment-methods) (onderdeel van Microsoft Endpoint Manager).
+U kunt Microsoft Endpoint Manager gebruiken om detecties van bedreigingen te beheren. Windows 10-apparaten moeten [zijn geregistreerd in Intune](/mem/intune/enrollment/windows-enrollment-methods) (onderdeel van Microsoft Endpoint Manager).
 
-1. Ga naar het Microsoft-Beheercentrum voor eindpunten <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">https://endpoint.microsoft.com</a> en meld u aan.
+1. Ga naar het Microsoft Endpoint Manager-beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">https://endpoint.microsoft.com</a> en meld u aan.
 
-2. Selecteer in het navigatiedeelvenster de optie **Endpoint beveiliging**.
+2. Selecteer in het navigatiedeelvenster **Endpoint-beveiliging**.
 
-3. Selecteer onder **beheren** de optie **antivirus software**. U ziet meerdere tabbladen, zoals **Samenvatting**, **beschadigde eindpunten voor Windows 10**, en **Windows 10 heeft malware gedetecteerd**.
+3. Selecteer **onder** Beheren de optie **Antivirus.** U ziet verschillende tabbladen, zoals **Samenvatting,** **Windows 10** ongezonde eindpunten en **Windows 10 gedetecteerde malware.**
 
-4. Controleer de gegevens op de beschikbare tabbladen en onderneem de gewenste actie.
+4. Controleer de informatie op de beschikbare tabbladen en onderneemt vervolgens de benodigde actie.
 
-Stel dat apparaten worden weergegeven op het tabblad **malware van Windows 10** . Wanneer u een apparaat selecteert, hebt u de beschikking over bepaalde acties, zoals **opnieuw opstarten**, **snel scannen**, **volledig scannen**, **synchroniseren** of **handtekeningen bijwerken**. Selecteer een actie voor dat apparaat.
+Stel dat apparaten worden vermeld op het tabblad Gedetecteerde malware in **Windows 10.** Wanneer u een apparaat selecteert, zijn er bepaalde acties beschikbaar, zoals Opnieuw **starten,** Snel **scannen,** Volledig **scannen,** Synchroniseren **of** Handtekeningen **bijwerken.** Selecteer een actie voor dat apparaat.
 
 In de volgende tabel worden de acties beschreven die u mogelijk ziet in Microsoft Endpoint Manager.<br><br>
 
-| Actierij | Beschrijving |
+| Actie | Beschrijving |
 |--|--|
-| Hervatten | Hiermee zorgt u ervoor dat een Windows 10-apparaat binnen vijf minuten opnieuw wordt gestart.<br><br>**Belangrijk:** De eigenaar van het apparaat of de gebruiker wordt niet automatisch op de hoogte gesteld van het opnieuw opstarten en kan niet-opgeslagen werk verliezen. |
-| Snelle scan | Hiermee start u een snelle antivirus scan op het apparaat om zich te richten op populaire locaties waarop malware kan worden geregistreerd, zoals registersleutels en bekende Windows-opstartmappen. Resultaten worden verzonden naar [Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager). |
-| Volledige scan | Hiermee start u een volledige antivirus scan op het apparaat, benadrukt op veelgebruikte locaties waar de malware kan worden geregistreerd, en waaronder elk bestand en elke map op het apparaat. Resultaten worden verzonden naar [Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager). |
-| Synchroniseren | Hiervoor moet een apparaat worden ingecheckt met intune (onderdeel van Microsoft Endpoint Manager). Wanneer het apparaat wordt gecontroleerd, ontvangt het apparaat alle in behandeling zijnde acties of beleidsregels die aan het apparaat zijn toegewezen. |
-| Handtekeningen bijwerken | Het apparaat vereist updates van [Beveiligingsinformatie](https://go.microsoft.com/fwlink/?linkid=2149926) voor antivirussoftware en beveiliging tegen anti malware. |
+| Opnieuw starten | Een Windows 10-apparaat moet binnen vijf minuten opnieuw worden gestart.<br><br>**BELANGRIJK:** De eigenaar of gebruiker van het apparaat wordt niet automatisch op de hoogte gesteld van het opnieuw opstarten en kan niet-opgeslagen werk verliezen. |
+| Snel scannen | Start een snelle antivirusscan op het apparaat, met de focus op veelgebruikte locaties waar malware kan worden geregistreerd, zoals registersleutels en bekende opstartmappen van Windows. Resultaten worden verzonden [naar Microsoft Endpoint Manager.](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) |
+| Volledige scan | Start een volledige antivirusscan op het apparaat, met de focus op veelgebruikte locaties waar malware kan worden geregistreerd, en met inbegrip van elk bestand en elke map op het apparaat. Resultaten worden verzonden [naar Microsoft Endpoint Manager.](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) |
+| Synchroniseren | Vereist een apparaat om in te checken met Intune (onderdeel van Microsoft Endpoint Manager). Wanneer het apparaat wordt incheckt, ontvangt het apparaat alle acties of beleid in behandeling die aan het apparaat zijn toegewezen. |
+| Handtekeningen bijwerken | Vereist dat het apparaat [beveiligingsinformatie-updates ontvangt](https://go.microsoft.com/fwlink/?linkid=2149926) voor antivirus- en antimalwarebeveiliging. |
 
 > [!TIP]
-> Zie [externe acties voor apparaten](/mem/intune/protect/endpoint-security-manage-devices#remote-actions-for-devices)voor meer informatie.
+> Zie Externe acties voor apparaten voor meer [informatie.](/mem/intune/protect/endpoint-security-manage-devices#remote-actions-for-devices)
 
-## <a name="how-to-submit-a-file-for-malware-analysis"></a>Een bestand verzenden voor het analyseren van schadelijke software
+## <a name="how-to-submit-a-file-for-malware-analysis"></a>Een bestand indienen voor malwareanalyse
 
-Als u een bestand hebt dat u beschouwt als malware, kunt u dat bestand in Microsoft indienen voor de analyse van malware. Gebruikers en IT-beheerders kunnen een bestand voor analyse indienen. Ga naar [https://www.microsoft.com/wdsi/filesubmission](https://www.microsoft.com/wdsi/filesubmission) .
+Als u een bestand hebt dat volgens u is gemist of ten onrechte als malware is geclassificeerd, kunt u dat bestand voor malwareanalyse indienen bij Microsoft. Gebruikers en IT-beheerders kunnen een bestand voor analyse indienen. Ga [https://www.microsoft.com/wdsi/filesubmission](https://www.microsoft.com/wdsi/filesubmission) naar .

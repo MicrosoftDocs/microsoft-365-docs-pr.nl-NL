@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 description: Informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
 ms.date: ''
-ms.openlocfilehash: a6866a9691e42928a5712c3069704f11fac0546f
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 2a53ae0bfb4806a85e03f293f58e1b575e8bcf90
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741387"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911840"
 ---
 # <a name="manage-payment-methods"></a>Betalingsmethoden beheren
 
 ::: moniker range="o365-21vianet"
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 ::: moniker-end
 
 Wanneer u zakelijke producten of services van Microsoft koopt, kunt u een bestaande betalingsmethode gebruiken of een nieuwe toevoegen. U kunt een creditcard, betaalkaart of bankrekening gebruiken om te betalen voor de dingen die u koopt.

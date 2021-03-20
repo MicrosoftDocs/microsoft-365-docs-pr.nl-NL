@@ -14,79 +14,79 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
-description: Ontdek hoe Microsoft Defender antivirus uw Windows-apparaten beschermt tegen software bedreigingen, zoals virussen, malware en spyware.
-ms.openlocfilehash: 1653aef6967cdf76e6e19acda158fb29758280a8
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+description: Lees hoe Microsoft Defender Antivirus uw Windows-apparaten beschermt tegen softwaredreigingen, zoals virussen, malware en spyware.
+ms.openlocfilehash: ce88e4f7b1caf3a98ebd6dc56d66f0d0fc99a9ad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870897"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912428"
 ---
 # <a name="threats-detected-by-microsoft-defender-antivirus"></a>Bedreigingen gedetecteerd door Microsoft Defender Antivirus
 
-Microsoft Defender antivirus beschermt uw Windows-apparaten tegen software bedreigingen, zoals virussen, malware en spyware.
+Microsoft Defender Antivirus beschermt uw Windows-apparaten tegen softwaredreigingen, zoals virussen, malware en spyware.
 
-- Virussen worden gewoonlijk verspreid door hun code aan andere bestanden op uw apparaat of netwerk te koppelen en kunnen schadelijke Programma's niet juist werken.
-- Malware omvat schadelijke bestanden, toepassingen en code die schade kunnen veroorzaken en de normale toepassing van apparaten kunnen verstoren. Daarnaast kunnen malware toegang krijgen tot onbevoegden, systeembronnen, wachtwoorden en accountgegevens stelen, vergrendelen en vragen voor Ransom en meer.
-- Spyware verzamelt gegevens, zoals webbrowse activiteiten, en stuurt de gegevens naar externe servers.
+- Virussen worden meestal verspreid door hun code toe te koppelen aan andere bestanden op uw apparaat of netwerk en kunnen ertoe leiden dat geïnfecteerde programma's onjuist werken.
+- Malware bevat schadelijke bestanden, toepassingen en code die schade kunnen veroorzaken en het normale gebruik van apparaten kunnen verstoren. Malware kan ook onbevoegde toegang toestaan, systeembronnen gebruiken, wachtwoorden en accountgegevens stelen, u van uw computer vergrendelen en om geld vragen, en meer.
+- Spyware verzamelt gegevens, zoals webnavigatieactiviteit, en verzendt de gegevens naar externe servers.
  
-Microsoft Defender Antivirus gebruikt diverse methoden om bedreigingsbeveiliging te geven. Deze methoden zijn beschikbaar voor cloudbeveiliging, realtime bescherming en gespecialiseerde beveiligingsupdates.
+Microsoft Defender Antivirus gebruikt verschillende methoden om bedreigingen te beschermen. Deze methoden omvatten beveiliging in de cloud, realtime beveiliging en speciale beveiligingsupdates.
 
-- Door de Cloud geleverde bescherming biedt u de nabije direct detectie en blokkering van nieuwe en opkomende bedreigingen.
-- Bij gebruik van de functie voor het scannen van bestands-en proces gedrag en andere technieken (ook wel *bescherming van realtime* genoemd).
-- Gespecialiseerde updates worden bijgewerkt op basis van machines Learning, menselijk en geautomatiseerde analyse van grote gegevens, en uitgebreid onderzoek naar de bedreigings vastheid. 
+- Beveiliging die in de cloud wordt geleverd, helpt bij het detecteren en blokkeren van nieuwe en nieuwe bedreigingen.
+- Bij altijd scannen worden bestands- en procesgedragscontrole en andere technieken (ook wel *realtimebeveiliging genoemd) gebruikt.*
+- Speciale beveiligingsupdates zijn gebaseerd op machine learning, menselijke en geautomatiseerde analyse van big data en uitgebreid onderzoek naar bedreigingsresistentie. 
 
-Zie de volgende artikelen voor meer informatie over malware en Microsoft Defender antivirus: 
+Zie de volgende artikelen voor meer informatie over malware en Microsoft Defender Antivirus: 
 
-- [Meer informatie over malware & andere bedreigingen](/windows/security/threat-protection/intelligence/understanding-malware)
-- [Hoe Microsoft Malware en mogelijk ongewenste toepassingen identificeert](/windows/security/threat-protection/intelligence/criteria)
-- [Volgende generatie beveiliging in Windows 10](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
+- [Inzicht in malware & andere bedreigingen](/windows/security/threat-protection/intelligence/understanding-malware)
+- [Hoe Microsoft malware en potentieel ongewenste toepassingen identificeert](/windows/security/threat-protection/intelligence/criteria)
+- [Beveiliging van de volgende generatie in Windows 10](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
 
 ## <a name="what-happens-when-a-non-microsoft-antivirus-solution-is-used"></a>Wat gebeurt er wanneer een niet-Microsoft-antivirusoplossing wordt gebruikt? 
 
-Microsoft Defender antivirus maakt deel uit van het besturingssysteem en is ingeschakeld op apparaten met Windows 10. Als u echter een niet-Microsoft-antivirusoplossing gebruikt en u Microsoft [Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)niet gebruikt, wordt Microsoft Defender antivirus automatisch geactiveerd in de modus uitgeschakeld.  
+Microsoft Defender Antivirus maakt deel uit van het besturingssysteem en is ingeschakeld op apparaten met Windows 10. Als u echter een niet-Microsoft-antivirusoplossing gebruikt en [microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)voor eindpunt niet gebruikt, gaat Microsoft Defender Antivirus automatisch in de uitgeschakelde modus.  
 
-In de modus uitgeschakeld kunnen gebruikers en klanten nog steeds Microsoft Defender antivirus gebruiken voor geplande of op aanvraag scans om bedreigingen te identificeren; Microsoft Defender antivirus bevat echter niet langer:
+Wanneer de modus is uitgeschakeld, kunnen gebruikers en klanten Microsoft Defender Antivirus nog steeds gebruiken voor geplande of on-demand scans om bedreigingen te identificeren. Microsoft Defender Antivirus is echter niet meer beschikbaar:
 
-- Gebruik de standaard antivirus-app.
-- scant niet op bestanden met bedreigingen.
-- verholpen, of oplossen, bedreigingen.
+- worden gebruikt als de standaard antivirus-app.
+- bestanden actief scannen op bedreigingen.
+- om bedreigingen te corrigeren of op te lossen.
 
-Als u de niet-Microsoft antivirusoplossing verwijdert, wordt Microsoft Defender antivirus automatisch geopend in de modus actief om uw Windows-apparaten te beschermen tegen bedreigingen.
+Als u de antivirusoplossing van niet-Microsoft verwijdert, gaat Microsoft Defender Antivirus automatisch naar de actieve modus om uw Windows-apparaten te beschermen tegen bedreigingen.
 
 > [!TIP]
-> - Als u Microsoft 365 gebruikt, kunt u Microsoft Defender antivirus gebruiken als uw belangrijkste antivirus oplossing. Integratie biedt betere bescherming. Zie [beter samen: Microsoft Defender antivirus en Office 365](/windows/security/threat-protection/microsoft-defender-antivirus/office-365-microsoft-defender-antivirus).
-> - Zorg ervoor dat u Microsoft Defender antivirus up-to-date laat, ook als u een niet-Microsoft-antivirus oplossing gebruikt.
+> - Als u Microsoft 365 gebruikt, kunt u Microsoft Defender Antivirus gebruiken als uw primaire antivirusoplossing. Integratie kan betere bescherming bieden. Zie [Beter samen: Microsoft Defender Antivirus en Office 365](/windows/security/threat-protection/microsoft-defender-antivirus/office-365-microsoft-defender-antivirus).
+> - Zorg ervoor dat Microsoft Defender Antivirus up-to-date blijft, zelfs als u een niet-Microsoft-antivirusoplossing gebruikt.
 
 ## <a name="what-to-expect-when-threats-are-detected"></a>Wat u kunt verwachten wanneer bedreigingen worden gedetecteerd
 
-Wanneer bedreigingen worden gedetecteerd met Microsoft Defender antivirus, gebeurt het volgende:
+Wanneer bedreigingen worden gedetecteerd door Microsoft Defender Antivirus, gebeuren de volgende dingen:
 
-- Gebruikers ontvangen [meldingen in Windows](https://support.microsoft.com/windows/8942c744-6198-fe56-4639-34320cf9444e). 
-- Detecties worden vermeld in de [Windows-beveiligingstoepassing](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) op de pagina **beveiligings geschiedenis** .  
-- Als u [uw Windows 10-apparaten hebt beveiligd](secure-win-10-pcs.md) en ze hebt [ingeschreven in intune](/mem/intune/enrollment/windows-enrollment-methods)en uw organisatie 800 of minder apparaten heeft geregistreerd, ziet u de bedreiging voor detectie en inzichten in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a> op de pagina **bedreigingen en antivirus** software, dat u kunt openen via de **Microsoft Defender** -kaart op de **Start** pagina (of in het navigatiedeelvenster door **gezondheids**  >  **bedreigingen** te selecteren &
+- Gebruikers ontvangen [meldingen in Windows.](https://support.microsoft.com/windows/8942c744-6198-fe56-4639-34320cf9444e) 
+- Detecties worden weergegeven in de [Windows Security-app](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) op de **pagina Beveiligingsgeschiedenis.**  
+- Als u uw Windows [10-apparaten](secure-win-10-pcs.md) hebt beveiligd en deze hebt geregistreerd in [Intune](/mem/intune/enrollment/windows-enrollment-methods)en uw organisatie 800 of minder apparaten hebt geregistreerd, ziet u detecties en inzichten van bedreigingen in het  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum</a> op de pagina Bedreigingen en antivirusprogramma's, die u kunt openen vanaf de **Microsoft Defender Antivirus-kaart** op de startpagina (of vanuit het navigatiedeelvenster door Gezondheidsrisico's &   >  **antivirusprogramma** te selecteren).
 
-    Als uw organisatie meer dan 800 apparaten heeft geregistreerd voor intune, wordt u gevraagd of u de detectie van bedreigingen en inzichten van [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) wilt weergeven in plaats van de **bedreigingen en de antivirus** pagina.
+    Als uw organisatie meer dan 800 apparaten heeft die zijn geregistreerd in Intune, wordt u gevraagd om bedreigingsdetecties en inzichten van [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) weer te geven in plaats van vanaf de pagina Bedreigingen en **antivirus.**
  
     > [!NOTE]
-    > De pagina's **Microsoft Defender antivirus** en **Threats and antivirus** worden in fasen uitgerold, zodat u deze mogelijk niet direct kunt openen.
+    > De **Microsoft Defender-antiviruskaart** en de pagina Bedreigingen en **antivirusprogramma's** worden gefaseerd uitgerold, zodat u mogelijk niet direct toegang hebt tot de kaart.
 
-In de meeste gevallen hoeven gebruikers geen verdere actie te ondernemen. Zodra een schadelijk bestand of programma op een apparaat wordt gedetecteerd, blokkeert Microsoft Defender antivirus het zodat het niet kan worden uitgevoerd. Daarnaast worden nieuwe bedreigingen toegevoegd aan de antivirus-en antimalware-engine, zodat andere apparaten en gebruikers ook worden beveiligd.  
+In de meeste gevallen hoeven gebruikers geen verdere actie te ondernemen. Zodra een schadelijk bestand of programma wordt gedetecteerd op een apparaat, blokkeert Microsoft Defender Antivirus het bestand en voorkomt u dat het wordt uitgevoerd. Bovendien worden nieuw gedetecteerde bedreigingen toegevoegd aan de antivirus- en antimalware-engine, zodat ook andere apparaten en gebruikers worden beveiligd.  
 
-Als een gebruiker een actie moet ondernemen, zoals het goedkeuren van de verwijdering van een beschadigd bestand, ziet u dat ze in de melding ontvangen. Als u meer wilt weten over acties die in Microsoft Defender antivirus van gebruikers worden uitgevoerd, of acties die gebruikers kunnen uitvoeren, raadpleegt u de [beveiligings geschiedenis](https://support.microsoft.com/office/f1e5fd95-09b4-46d1-b8c7-1059a1e09708). Als u wilt weten hoe u de detectie van bedreigingen als IT-medewerker en beheerder beheert, raadpleegt u [ontdekte bedreigingen controleren en actie ondernemen](review-threats-take-action.md).
+Als er een actie is die een gebruiker moet ondernemen, zoals het goedkeuren van het verwijderen van een schadelijk bestand, zien ze dat in de melding die ze ontvangen. Zie Beschermingsgeschiedenis voor meer informatie over acties die Microsoft Defender Antivirus namens een gebruiker ondernomen heeft of acties die gebruikers mogelijk moeten [uitvoeren.](https://support.microsoft.com/office/f1e5fd95-09b4-46d1-b8c7-1059a1e09708) Zie Gedetecteerde bedreigingen controleren en actie [ondernemen](review-threats-take-action.md)voor informatie over het beheren van bedreigingsdetecties als IT-professional/beheerder.
 
-Ga voor meer informatie over verschillende bedreigingen naar de <a href="https://www.microsoft.com/wdsi/threats" target="_blank">website Microsoft Security Intelligence Threats</a>, waar u de volgende acties kunt uitvoeren: 
+Voor meer informatie over verschillende bedreigingen gaat u naar de <a href="https://www.microsoft.com/wdsi/threats" target="_blank">microsoft-site beveiligingsintelligentiebedreigingen,</a>waar u de volgende acties kunt uitvoeren: 
 
-- Actuele informatie weergeven over de belangrijkste bedreigingen.
-- Bekijk de nieuwste bedreigingen voor een bepaalde regio.
-- Doorzoek de Threat Encyclopedia voor informatie over een specifieke bedreiging.
+- Bekijk de huidige informatie over topbedreigingen.
+- Bekijk de meest recente bedreigingen voor een bepaalde regio.
+- Zoek in de bedreigingsencyclopedie naar details over een specifieke bedreiging.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Windows 10-apparaten beveiligen](secure-windows-10-devices.md) (artikel) \
-[Evalueer Microsoft Defender antivirus](/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus) (artikel) \
-De [realtime-en cloudbeveiliging van antivirusprogramma's inschakelen](/mem/intune/user-help/turn-on-defender-windows#turn-on-real-time-and-cloud-delivered-protection) (artikel) \
-[Microsoft Defender antivirus inschakelen en gebruiken vanuit de Windows-beveiligingstoepassing](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus) (artikel) \
-[Microsoft Defender antivirus inschakelen met behulp van Groepsbeleid](/mem/intune/user-help/turn-on-defender-windows#turn-on-windows-defender) (artikel) \
-[Uw antivirusdefinities bijwerken](/mem/intune/user-help/turn-on-defender-windows#update-your-antivirus-definitions) (artikel) \
-[Malware en niet-malware verzenden naar Microsoft for Analysis](/microsoft-365/security/office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis) (artikel)
+[Windows 10-apparaten beveiligen](secure-windows-10-devices.md) (artikel)\
+[Microsoft Defender Antivirus](/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus) evalueren (artikel)\
+Realtime en door de cloud geleverde [antivirusbeveiliging in-schakelen](/mem/intune/user-help/turn-on-defender-windows#turn-on-real-time-and-cloud-delivered-protection) (artikel)\
+[Microsoft Defender Antivirus in- en gebruiken vanuit de Windows Security-app](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus) (artikel)\
+[Microsoft Defender Antivirus in schakelen met groepsbeleid](/mem/intune/user-help/turn-on-defender-windows#turn-on-windows-defender) (artikel)\
+[Uw antivirusdefinities bijwerken](/mem/intune/user-help/turn-on-defender-windows#update-your-antivirus-definitions) (artikel)\
+[Malware en niet-malware indienen bij Microsoft voor analyse](../security/office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md) (artikel)

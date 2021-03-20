@@ -21,67 +21,67 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Informatie over het instellen en beveiligen van uw beheerdersaccounts.
-ms.openlocfilehash: 73e4b69571b1e1d0a4d1585224fe256ff135c40a
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+description: Meer informatie over het instellen en beveiligen van uw beheerdersaccounts.
+ms.openlocfilehash: ec5b971ba4f1fdc8834e10ddf90ff219f763f805
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044486"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912172"
 ---
 # <a name="protect-your-administrator-accounts"></a>Uw beheerdersaccounts beveiligen
 
-Omdat beheerdersaccounts worden met verhoogde bevoegdheden, zijn ze waardevolle doelen voor hackers en cybercriminelen. In dit artikel worden de volgende artikelen beschreven:
+Aangezien beheerdersaccounts met verhoogde bevoegdheden worden gebruikt, zijn ze waardevolle doelen voor hackers en cybercriminelen. In dit artikel wordt het volgende beschreven:
 
-- Het instellen van een extra beheerdersaccount voor noodgevallen.
+- Een extra beheerdersaccount instellen voor noodgevallen.
 - Deze accounts beveiligen.
 
-Wanneer u zich voor Microsoft 365 registreert en uw gegevens in voert, wordt u automatisch de globale beheerder. Een globale beheerder heeft de ultieme controle over gebruikersaccounts en alle andere instellingen in het Microsoft-beheercentrum, maar er zijn veel verschillende soorten beheerdersaccounts met verschillende toegangsgraden. Meer [informatie over beheerdersrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) vindt u in de verschillende toegangsniveaus voor elk type beheerdersrol.
+Wanneer u zich registreert voor Microsoft 365 en uw gegevens in typt, wordt u automatisch de globale beheerder. Een globale beheerder heeft de ultieme controle over gebruikersaccounts en alle andere instellingen in het Microsoft-beheercentrum, maar er zijn veel verschillende soorten beheerdersaccounts met verschillende toegangsgraden. Zie [beheerdersrollen voor](/office365/admin/add-users/about-admin-roles) informatie over de verschillende toegangsniveaus voor elk type beheerdersrol.
 
 ## <a name="create-additional-admin-accounts"></a>Extra beheerdersaccounts maken
 
-Gebruik alleen beheerdersaccounts voor beheer. Beheerders moeten een afzonderlijk gebruikersaccount hebben voor normaal gebruik van Office-apps en hun beheeraccount alleen gebruiken wanneer dat nodig is voor het beheren van accounts en apparaten, en terwijl ze aan andere beheerfuncties werken. Het is ook een goed idee om de Microsoft 365-licentie te verwijderen uit de beheerdersaccounts, zodat u er niet voor hoeft te betalen.
+Beheeraccounts alleen gebruiken voor beheer. Beheerders moeten een afzonderlijk gebruikersaccount hebben voor regelmatig gebruik van Office-apps en hun beheeraccount alleen gebruiken wanneer dat nodig is voor het beheren van accounts en apparaten en tijdens het werken aan andere beheerfuncties. Het is ook een goed idee om de Microsoft 365-licentie te verwijderen uit de beheerdersaccounts, zodat u er niet voor hoeft te betalen.
 
-U moet ten minste één extra globale beheerdersaccount instellen om beheerderstoegang te verlenen aan een andere vertrouwde werknemer. U kunt ook afzonderlijke beheerdersaccounts maken voor gebruikersbeheer (deze rol wordt **beheerder Gebruikersbeheer genoemd).** Zie voor meer informatie [over beheerdersrollen.](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
+U wilt ten minste één extra globale beheerdersaccount instellen om beheerder toegang te geven tot een andere vertrouwde werknemer. U kunt ook afzonderlijke beheerdersaccounts maken voor gebruikersbeheer (deze rol wordt **beheerder gebruikersbeheer genoemd).** Zie beheerdersrollen [voor meer informatie.](/office365/admin/add-users/about-admin-roles)
 
 Extra beheerdersaccounts maken:
 
- 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">beheercentrum</a> en kies **Gebruikers** \> **actieve gebruikers** in het linkernavigatienavigatiebalkje.
+ 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">beheercentrum en</a> kies **gebruikers actieve** \> **gebruikers** in het linkernavigatienavigatiepunt.
 
-    ![Kies Gebruikers en vervolgens Actieve gebruikers in het linkernavigatienavigatiebalkje](../media/Activeusers.png)
+    ![Kies Gebruikers en vervolgens Actieve gebruikers in de linkernavigatiebalk](../media/Activeusers.png)
 
- 2. Selecteer op **de** pagina  Actieve gebruikers een gebruiker toevoegen boven  aan de pagina en voer in het deelvenster Nieuwe gebruiker de naam en andere gegevens in.
+ 2. Selecteer op **de pagina** Actieve gebruikers de optie Een gebruiker  **toevoegen** boven aan de pagina en voer in het deelvenster Nieuwe gebruiker de naam en andere informatie in.
  3. Vouw de **sectie Rollen** uit en kies Globale **beheerder om** deze gebruiker globale beheerderstoegang te geven. U kunt ook **Aangepaste beheerder kiezen** en een van de rollen kiezen die worden weergegeven.
 
-    Voer een alternatief e-mailadres in het **tekstvak Alternatieve e-mailadres** in. U kunt dit adres gebruiken om uw wachtwoordgegevens te herstellen als u geen toegang hebt. Voor globale beheerders wordt ook een factuuroverzicht naar dit adres verzonden.
+    Voer een alternatief e-mailbericht in het **tekstvak Alternatief e-mailadres** in. U kunt dit adres gebruiken om uw wachtwoordgegevens te herstellen als u wordt vergrendeld. Voor globale beheerders wordt ook een factuuroverzicht naar dit adres verzonden.
 
     ![De beheerdersrol kiezen](../media/adminroles.png)
 
- 4. Verplaats in de **sectie Productlicenties** de selector  voor **Microsoft 365 Business** naar Uit en Gebruiker maken zonder **productlicentie** naar **Aan.**
+ 4. Verplaats in **de sectie Productlicenties** de selector voor **Microsoft 365 Business** naar **Uit** en de gebruiker **zonder productlicentie** maken naar **Aan.**
 
-    ![Kies de productlicentie](../media/productlicense.png)
+    ![De productlicentie kiezen](../media/productlicense.png)
 
-## <a name="create-an-emergency-admin-account"></a>Een beheerdersaccount voor noodgevallen maken
+## <a name="create-an-emergency-admin-account"></a>Een account voor noodgevallenbeheerder maken
 
-U moet ook een back-upaccount maken dat niet is ingesteld met meervoudige verificatie (MFA), zodat u uzelf niet per ongeluk vergrendelt (bijvoorbeeld als u uw telefoon verliest die u als tweede verificatiemethode gebruikt). Zorg ervoor dat het wachtwoord voor dit account bestaat uit een woordgroep of minimaal 16 tekens. Dit wordt vaak een 'break-glass-account' genoemd.
+U moet ook een back-upaccount maken dat niet is ingesteld met meervoudige verificatie (MFA), zodat u uzelf niet per ongeluk vergrendelt (bijvoorbeeld als u uw telefoon verliest die u gebruikt als een tweede verificatieformulier). Zorg ervoor dat het wachtwoord voor dit account een woordgroep of ten minste 16 tekens lang is. Dit wordt vaak een 'break-glass account' genoemd.
 
 ## <a name="create-a-user-account-for-yourself"></a>Een gebruikersaccount voor uzelf maken
 
-Gebruik uw gebruikersaccount om deel te nemen aan samenwerking met uw organisatie, waaronder het controleren van e-mail. Dit betekent dat uw beheerdersreferenties kunnen lijken op *Moeten.Chavez <span></span> @Contoso.org* en dat uw normale gebruikersaccount mogelijk lijkt op *<span></span> @Contoso.com.*
+Gebruik uw gebruikersaccount om deel te nemen aan samenwerking met uw organisatie, inclusief het controleren van e-mail. Dit betekent dat uw beheerdersreferenties vergelijkbaar kunnen zijn met *De <span></span> @Contoso.org van Alice.Chavez* en dat uw gewone gebruikersaccount vergelijkbaar kan zijn met *De <span></span> @Contoso.com.*
 
 Een nieuw gebruikersaccount maken:
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">beheercentrum en</a> kies **Gebruikers** \> **actieve gebruikers** in het linkernavigatienavigatiebalkje.
-2. Selecteer op **de** pagina  Actieve gebruikers een gebruiker toevoegen boven  aan de pagina en voer in het deelvenster Nieuwe gebruiker de naam en andere gegevens in.
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">beheercentrum en</a> kies **gebruikers actieve** \> **gebruikers** in het linkernavigatienavigatiepunt.
+2. Selecteer op **de pagina** Actieve gebruikers de optie Een gebruiker  **toevoegen** boven aan de pagina en voer in het deelvenster Nieuwe gebruiker de naam en andere informatie in.
 3. Vouw de **sectie Rollen** uit en kies **Gebruiker (geen beheerderstoegang).**
 4. Verplaats in **de sectie Productlicenties** de selector voor **Microsoft 365 Business** naar **Aan.**
 
 ## <a name="register-each-of-these-accounts-for-multi-factor-authentication"></a>Elk van deze accounts registreren voor meervoudige verificatie
 
-Zorg ervoor dat voor deze accounts [meervoudige verificatie wordt gebruikt.](m365-campaigns-multifactor-authenication.md)
+Zorg ervoor dat deze accounts meervoudige [verificatie gebruiken.](m365-campaigns-multifactor-authenication.md)
 
 ## <a name="additional-recommendations"></a>Aanvullende aanbevelingen
 
-- Zorg ervoor dat beheerdersaccounts ook zijn ingesteld voor meervoudige verificatie. U ziet hoe u dit doet in Beleid [voor voorwaardelijke toegang configureren.](m365-campaigns-conditional-access.md)
-- Sluit voordat u beheerdersaccounts gebruikt, alle niet-gerelateerde browsersessies en -apps, inclusief persoonlijke e-mailaccounts. U kunt ook privé- of incognito browservensters gebruiken.
-- Nadat u beheertaken heeft uitgevoerd, moet u zich afloggen bij de browsersessie.
+- Zorg ervoor dat beheerdersaccounts ook zijn ingesteld voor meervoudige verificatie. We laten u zien hoe u dit doet in [Beleid voor voorwaardelijke toegang configureren.](m365-campaigns-conditional-access.md)
+- Sluit alle niet-gerelateerde browsersessies en -apps, inclusief persoonlijke e-mailaccounts, voordat u beheerdersaccounts gebruikt. U kunt ook in privé- of incognitobrowservensters gebruiken.
+- Nadat u beheerderstaken heeft uitgevoerd, moet u zich af melden bij de browsersessie.

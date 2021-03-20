@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Ontdek hoe je de kosten, facturering en betalingsgegevens op je factuur voor Office 365 voor bedrijven interpreteert en hoe je het inkoopordernummer wijzigt.
-ms.openlocfilehash: 3d71bab82be3fd9e4c633885dccaf357ccabb551
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
-ms.translationtype: HT
+ms.openlocfilehash: 99b52928d458e7883919ee46aaafaa7a66278447
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638397"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911684"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Je rekening of factuur voor Microsoft 365 voor bedrijven bekijken
 
@@ -141,4 +141,4 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 [Je Office 365 voor Bedrijven-abonnement betalen](pay-for-your-subscription.md)
 
-[Betalingsopties voor Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)
+[Betalingsopties voor Minecraft: Education Edition](/education/windows/school-get-minecraft)

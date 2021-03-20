@@ -22,26 +22,26 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Meld u aan bij Microsoft 365. Bescherm uw bedrijf, oefening of campagne tegen bedreigingen voor e-mail, gegevens en communicatie.
-ms.openlocfilehash: d2bc0ddbfbc839f1b389b844544f33c444012fb4
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+description: Meld u aan bij Microsoft 365. Bescherm uw bedrijf, praktijk of campagne tegen cyberbeveiligingsdreigingen voor e-mail, gegevens en communicatie.
+ms.openlocfilehash: e115ec9fab8270f1b9dddcc33b2d20a5554e4f2e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044202"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912148"
 ---
 # <a name="sign-in-to-microsoft-365"></a>Aanmelden bij Microsoft 365
 
-## <a name="for-business-or-campaign-admins"></a>Voor beheerders van bedrijven of campagne
+## <a name="for-business-or-campaign-admins"></a>Voor bedrijfs- of campagnebeheerders
 
-Als u zich hebt aangemeld voor Microsoft 365, bent u de Microsoft 365-beheerder. U meldt u als volgende aan:
+Als u zich hebt aangemeld voor Microsoft 365, bent u de Microsoft 365-beheerder. Meld u als volgende aan:
 
-1. Zoek de gebruikersnaam en het wachtwoord die we hebben verzonden naar het e-mailadres dat u ons in stap 2 van de stappen hebt gegeven om [u aan te melden.](m365-campaigns-sign-up.md#steps-to-sign-up)
+1. Zoek de gebruikersnaam en het wachtwoord dat we naar het e-mailadres hebben gestuurd dat u ons hebt gegeven in stap 2 van [Stappen om u aan te melden.](m365-campaigns-sign-up.md#steps-to-sign-up)
 2. Ga in de browser naar het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 3. Typ uw gebruikersnaam en wachtwoord. Selecteer **Aanmelden.**
-4. Zoek rechtsboven op de pagina het voorbeeld **op het besturingselement.** Selecteer **Voorbeeld op zodat** u alle besturingselementen kunt gebruiken die worden beschreven in Beveiliging tegen gaan voor uw [campagne.](m365-campaigns-security-overview.md)
+4. Zoek rechtsboven op de pagina het besturingselement **Voorbeeld.** Selecteer **Voorbeeld op,** zodat u alle besturingselementen kunt gebruiken die worden beschreven in [Bump up protection voor uw campagne.](m365-campaigns-security-overview.md)
 
 ## <a name="for-staff"></a>Voor personeel
 
-Stel medewerkers in zoals wordt beschreven in [Gebruikers toevoegen.](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) U kunt ook wachtwoorden opnieuw instellen en opnieuw instellen op de pagina **Gebruikers** toevoegen.
+Personeel instellen zoals beschreven in [Gebruikers toevoegen](../admin/add-users/add-users.md?toc=%2fmicrosoft-365%2fcampaigns%2ftoc.json) U kunt wachtwoorden ook opnieuw instellen en opnieuw instellen op de pagina **Gebruikers** toevoegen.
 Alle personeelsleden kunnen zich aanmelden bij <a href="https://office.com" target="_blank">https://Office.com</a> .

@@ -25,48 +25,46 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Lees hoe u controleren of de instellingen voor de beveiliging van microsoft 365 voor bedrijven-apps van kracht zijn geworden op de Windows 10-apparaten van uw gebruikers.
-ms.openlocfilehash: 39aee3bc811cb0090d58f9a282de7a8162c097b3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u kunt controleren of de beveiligingsinstellingen van Microsoft 365 voor Bedrijven-apps van kracht zijn op de Windows 10-apparaten van uw gebruikers.
+ms.openlocfilehash: ff99b3a4fce49aebdb5c72f51e46678a7821e186
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403585"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912409"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging controleren op Windows 10-pc's
 
 ## <a name="verify-that-windows-10-device-policies-are-set"></a>Controleren of Windows 10-apparaatbeleid is ingesteld
 
-Nadat u [apparaatbeleid hebt ingesteld](protection-settings-for-windows-10-pcs.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. U kunt controleren of het beleid van kracht is door verschillende schermen met Windows-instellingen te bekijken op de apparaten van gebruikers. Omdat de gebruikers de instellingen voor Windows Update en Windows Defender Antivirus op hun Windows 10-apparaten niet kunnen wijzigen, worden veel opties grijs weergegeven.
+Nadat u [apparaatbeleid hebt ingesteld](protection-settings-for-windows-10-pcs.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. U kunt controleren of het beleid van kracht is door verschillende schermen met Windows-instellingen te bekijken op de apparaten van gebruikers. Omdat de gebruikers de instellingen Windows Update en Windows Defender Antivirus niet kunnen wijzigen op hun Windows 10-apparaten, worden veel opties grijs weergegeven.
   
-1. Ga **Settings** naar \> **Instellingen &amp; Update-beveiligingsupdate** \> **Windows Update** \> **Startopties opnieuw op** en controleer of alle instellingen grijs zijn. 
+1. Ga naar **Instellingen** \> **&amp; Beveiligingsupdate Windows** \> **Update** \> **Herstartopties** en controleer of alle instellingen grijs worden weergegeven. 
     
     ![Alle opties voor opnieuw opstarten worden grijs weergegeven.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
-2. Ga naar **Instellingen** \> **Update &amp; beveiligingsupdate** De geavanceerde opties voor Windows \> **Update** en controleer of alle instellingen grijs \> **Advanced options** zijn weergegeven. 
+2. Ga naar **Instellingen** \> **&amp; Beveiligingsupdate Windows** \> **Update** \> **Advanced-opties** en controleer of alle instellingen grijs worden weergegeven. 
     
-    ![Windows Advanced-updatesopties zijn allemaal grijs weergegeven.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
+    ![De opties voor Windows Advanced-updates zijn allemaal grijs weergegeven.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
 3. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.
     
-    Controleer of u het bericht (in het rood) zien dat sommige instellingen door uw organisatie worden verborgen of beheerd en dat alle opties grijs worden weergegeven.
+    Controleer of u het bericht (rood) kunt zien dat sommige instellingen zijn verborgen of beheerd door uw organisatie en dat alle opties grijs worden weergegeven.
     
     ![Choose how updates are delivered page indicates settings are hidden or managed by your organization.](../media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
 4. To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**. 
     
-5. Controleer of alle opties grijs zijn weergegeven. 
+5. Controleer of alle opties grijs worden weergegeven. 
     
     ![De instellingen voor virus- en bedreigingsbeveiliging worden grijs weergegeven.](../media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Microsoft 365 voor bedrijfsdocumentatie en -bronnen](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Microsoft 365 voor bedrijven-documentatie en -bronnen](./index.yml)
   
-[Aan de slag met Microsoft 365 voor bedrijven](microsoft-365-business-overview.md)
+[Aan de slag met Microsoft 365 voor Bedrijven](microsoft-365-business-overview.md)
   
-[Microsoft 365 voor bedrijven beheren](manage.md)
+[Microsoft 365 voor Bedrijven beheren](manage.md)
   
 [Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc's](protection-settings-for-windows-10-pcs.md)
-  
-

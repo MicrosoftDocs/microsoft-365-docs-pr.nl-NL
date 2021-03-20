@@ -20,12 +20,12 @@ search.appverid:
 description: Meer informatie over de functies van Microsoft 365 Business Premium.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 2183c3c865b618d71e15b366f7eaed091101bbc7
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: b92e3790e83c5da62d65e6c98bf448d33862df54
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421621"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913536"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
@@ -46,4 +46,4 @@ Wanneer je je registreert voor Microsoft 365 Business Premium, krijg je dezelfde
 | Je apparaten beveiligen | Je kan je werkbestanden beveiligen op je apparaten door mobiele toegang te beperken, zoals kopiëren en plakken. Je kan ook selectief zakelijke gegevens wissen van ingeschreven mobiele apparaten als ze gestolen of verloren zijn. |
 | Aanvullende beveiligingsfuncties | De geavanceerde functies zijn beschikbaar in Microsoft 365 Business Premium voor de beveiliging van je business tegen cyber-dreigingen en de bescherming van gevoelige informatie. De mogelijkheden bevatten Office 365 Advanced Threat Protection, Beleid ter preventie van gegevensverlies (DLP), Exchange Online Archiving, Azure Information Protection en Intune. |
 
-Zie [Microsoft 365 Business-inhoud](https://docs.microsoft.com/microsoft-365/business/) voor alle details.
+Zie [Microsoft 365 Business-inhoud](../business/index.yml) voor alle details.

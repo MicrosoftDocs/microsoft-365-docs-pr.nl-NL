@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: a275b2ec14403e16651acb293f8598b453fd3739
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: db6340e8bf4dc23163b67e749f60567f7841a943
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515014"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911184"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -123,6 +123,6 @@ Ga naar het [Power platform-beheercentrum](https://admin.powerplatform.microsoft
 
 ## <a name="see-also"></a>Zie ook
 
-[Overzicht van het formulierverwerkingsmodel](https://docs.microsoft.com/ai-builder/form-processing-model-overview)
+[Overzicht van het formulierverwerkingsmodel](/ai-builder/form-processing-model-overview)
 
 [Stap voor stap: een documentbegripmodel maken (video)](https://www.youtube.com/watch?v=DymSHObD-bg)

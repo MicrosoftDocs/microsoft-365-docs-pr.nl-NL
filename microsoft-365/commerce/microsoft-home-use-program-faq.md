@@ -1,5 +1,5 @@
 ---
-title: Veelgestelde vragen over Microsoft Home Use Program
+title: Veelgestelde vragen (Veelgestelde vragen) voor Microsoft Home Use Program
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
@@ -14,97 +14,97 @@ ms.collection:
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-description: Veelgestelde vragen (FAQ) over het Microsoft Home Use Program.
-ms.openlocfilehash: f4848e5f84081152fb42e41887b581d7290dfe2f
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+description: Veelgestelde vragen (veelgestelde vragen) over het Microsoft Home Use Program.
+ms.openlocfilehash: 68abc62e7d8daf3122ce646223eee0f772ce572d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47294684"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911384"
 ---
-# <a name="microsoft-home-use-program-frequently-asked-questions-faq"></a>Veelgestelde vragen over Microsoft Home Use Program
+# <a name="microsoft-home-use-program-frequently-asked-questions-faq"></a>Veelgestelde vragen (Veelgestelde vragen) voor Microsoft Home Use Program
 
-Gebruikers van volume licenties gebruiken het Microsoft Home Use Program (HUP) op de [website van Microsoft Store for Business](https://go.microsoft.com/fwlink/?linkid=2139192). 
+Klanten met volumelicenties gebruiken het Microsoft Home Use Program (HUP) op de [website van de Microsoft Store voor Bedrijven.](https://go.microsoft.com/fwlink/?linkid=2139192) 
 
-Alle andere klanten hebben toegang tot HUP door deze stap te gebruiken:
+Alle andere klanten hebben toegang tot HUP met behulp van deze stap:
 
-- Ga in het Microsoft-Beheercentrum naar **Billing**de  >  [pagina**uw producten** ](https://go.microsoft.com/fwlink/p/?linkid=842054)factureren, selecteer het tabblad **voordelen** en selecteer het tabblad **HUP** .
+- Ga in het Microsoft-beheercentrum naar de pagina **Facturering** van uw  >  [**producten,**](https://go.microsoft.com/fwlink/p/?linkid=842054)selecteer het tabblad Voordelen en selecteer vervolgens het **tabblad HUP.** 
 
-## <a name="what-is-the-microsoft-home-use-program"></a>Wat is het Microsoft-programma voor thuisgebruik?
+## <a name="what-is-the-microsoft-home-use-program"></a>Wat is het Microsoft Home Use Program?
 
-Met het Microsoft Home Use Program (HUP) kunnen werknemers die in aanmerking komen om Microsoft-consumentenproducten te kopen tegen korting. U kunt de huidige kortingen voor elk product dat u wilt controleren op de [productpagina van het Home Use Program](https://www.microsoft.com/home-use-program)kijken.
+Met het Microsoft Home Use Program (HUP) kunnen werknemers bij in aanmerking komende bedrijven Consumentenproducten van Microsoft met korting kopen. U kunt de huidige kortingen voor elk productaanbod controleren door naar de [productpagina home use program te gaan.](https://www.microsoft.com/home-use-program)
 
-## <a name="in-which-markets-is-the-home-use-program-offered"></a>In welke markten is het Home Use Program verkrijgbaar?
+## <a name="in-which-markets-is-the-home-use-program-offered"></a>In welke markten wordt het Home Use Program aangeboden?
 
-Kortingen voor Microsoft 365-serie en persoonlijke abonnementen worden voor in aanmerking komende bedrijven wereldwijd aangeboden met de volgende uitzonderingen:
+Kortingen op Microsoft 365 Family- en Personal-abonnementen worden aangeboden aan in aanmerking komende bedrijven over de hele wereld, met deze uitzonderingen:
 
-- Macau, Rusland en Venezuela: deze aanbieding is niet beschikbaar op deze markten.
-- China en Hongkong: een abonnement voor één jaar is verkrijgbaar op deze markten. Voor China bezoekt u [Microsoft 365 in China](https://www.microsoftstore.com.cn/home-use-program/invite). Voor Hongkong Ga naar [Microsoft 365 kopen tegen een gereduceerde prijs](https://www.microsoftestore.com.hk/partner/hup?locale=en_HK).
-- Japan: Microsoft 365-serie is niet beschikbaar.
+- Macao, Rusland en Venezuela: Deze aanbieding is niet beschikbaar in deze markten.
+- China en Hongkong: op deze markten is een abonnement van één jaar beschikbaar. Voor China gaat u naar [Microsoft 365 in China.](https://www.microsoftstore.com.cn/home-use-program/invite) Voor Hongkong gaat u naar [Microsoft 365 kopen tegen een gereduceerde prijs.](https://www.microsoftestore.com.hk/partner/hup?locale=en_HK)
+- Japan: Microsoft 365 Family is niet beschikbaar.
 
-## <a name="how-does-an-organization-qualify-for-hup-discounts"></a>Hoe komt een organisatie in aanmerking voor HUP kortingen?
+## <a name="how-does-an-organization-qualify-for-hup-discounts"></a>Hoe komt een organisatie in aanmerking voor HUP-kortingen?
 
-Voor werknemers die gebruikmaken van de korting van het Microsoft Home Use Program, hebben ze een geldig zakelijk e-mailadres en een actief Microsoft-account nodig en moet uw organisatie aan een van de volgende criteria voldoen:
+Als werknemers kunnen profiteren van de korting op het Microsoft Home Use Program, hebben ze een geldig zakelijk e-mailadres en een actief Microsoft-account nodig en moet uw organisatie aan een van de volgende criteria voldoen:
 
 - Klanten met actieve Software Assurance voor in aanmerking komende Office-toepassingen 
 
-- Gebruikers van Microsoft 365 of Microsoft 365 E3/E5 van Software Assurance
+- Klanten met Microsoft 365/Microsoft 365 E3/E5 van Software Assurance
 
-- Klanten van commercieel en Government met een of meer Microsoft 365 E3/E5 hebben 2.000 aangeschaft
+- Commerciële en overheidsklanten die een ≥ 2.000 licenties van een of een combinatie van Microsoft 365 E3/E5
 
-- Klanten met een opleiding en non-profit organisaties
+- Onderwijs- en non-profitklanten
 
-## <a name="why-do-i-have-to-create-an-azure-active-directory-aad-account-to-use-the-home-use-program-microsoft-store-for-business"></a>Waarom moet ik een Azure Active Directory-account (AAD) maken om het Home Use Program of Microsoft Store for Business te gebruiken?
+## <a name="why-do-i-have-to-create-an-azure-active-directory-aad-account-to-use-the-home-use-program-microsoft-store-for-business"></a>Waarom moet ik een AAD-account (Azure Active Directory) maken om het Home Use Program/Microsoft Store voor Bedrijven te gebruiken?
 
-Voor het bijwerken en moderniseren van het Home Use Program voor een bredere reeks licentie-en product voordelen is het raadzaam de manier te wijzigen waarop we HUP. Microsoft Store for Business wordt gebruikt voor de geschiktheid van de validering en om HUP-voordelen toe te wijzen, en voor de verbinding van gegevens vanuit VSLC, en om de e-mail domeinen te valideren waarop de werknemers van uw organisatie zich bevinden. Zie voor meer informatie [registreren voor Azure AD-accounts via Office 365 voor bedrijven](https://docs.microsoft.com/microsoft-store/sign-up-microsoft-store-for-business#o365-welcome).
+Om het Home Use Program bij te werken en te moderniseren naar een breder scala aan licentie- en productvoordelen, moesten we de manier wijzigen waarop we HUP uitvoeren. Microsoft Store voor Bedrijven wordt gebruikt voor geschiktheidsvalidatie en voor het toewijzen van HUP-voordelen, en is afhankelijk van AAD om gegevens van VSLC te verbinden en om de e-maildomeinen te valideren die de werknemers van uw organisatie hebben. Zie Aanmelden voor [Azure AD-accounts via Office 365 voor Bedrijven](/microsoft-store/sign-up-microsoft-store-for-business#o365-welcome)voor meer informatie.
 
-## <a name="how-do-i-become-the-assigned-it-admin-of-a-managed-tenant"></a>Hoe word ik de toegewezen IT-beheerder van een beheerde Tenant?
+## <a name="how-do-i-become-the-assigned-it-admin-of-a-managed-tenant"></a>Hoe word ik de toegewezen IT-beheerder van een beheerde tenant?
 
-U moet een speciale record in DNS maken om bewijzen dat u de eigenaar bent van uw bedrijfsdomein, bijvoorbeeld ex:contoso. com.
+U moet een speciale record maken in DNS om te bewijzen dat u eigenaar bent van uw bedrijfsdomein, ex:contoso.com.
 
-Zie een niet- [beheerde Directory overnemen van een beheerder in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)voor een stapsgewijs proces voor het maken van een beheerde Tenant.
+Zie Een niet-beheerde adreslijst overnemen als beheerder in Azure Active voor een stapsgewijs proces om een beheerde tenant [te worden.](/azure/active-directory/users-groups-roles/domains-admin-takeover)
 
-## <a name="what-resources-are-available-to-help-promote-the-home-use-program-benefit-to-employees"></a>Welke bronnen zijn er beschikbaar om het Home Use Program te helpen promoten voor medewerkers?
+## <a name="what-resources-are-available-to-help-promote-the-home-use-program-benefit-to-employees"></a>Welke bronnen zijn beschikbaar om het voordeel van het Home Use Program voor werknemers te bevorderen?
 
-Gebruik de bronnen op de startpagina van het [Home Use Program](https://www.microsoft.com/home-use-program/resources) , zodat u het programma kunt promoten voor uw werknemers. U vindt digitale en afdrukbare folders, verbiage voor gebruik in e-mailberichten en nieuwsbrieven, en richtlijnen voor het beste niveau van het Home Use Program.
+Gebruik de bronnen op de [startpagina](https://www.microsoft.com/home-use-program/resources) van het Home Use Program om u te helpen het programma te promoveren naar uw werknemers. U vindt digitale en afdrukbare folders, reclame voor gebruik in e-mailberichten en nieuwsbrieven en richtlijnen voor het beste promoten van het Home Use Program.
 
-U kunt in diverse talen producten van [HUP materiaal voor klanten](https://microsofteur.sharepoint.com/teams/HUPMaterial)openen. Selecteer een taal om te beginnen met het downloaden van de bestanden. Het bestand bevat activa die u kunt gebruiken om uw medewerkers over het programma te promoten en intern te promoten in uw bedrijf.
+U hebt toegang tot onboarding-materialen in verschillende talen bij [HUP-materiaal voor klanten.](https://microsofteur.sharepoint.com/teams/HUPMaterial) Selecteer een taal om de bestanden te downloaden. Het bestand bevat activa die u kunt gebruiken om uw werknemers te informeren over het programma en het intern te promoten in uw bedrijf.
 
-## <a name="what-are-the-steps-for-an-eligible-employee-to-make-a-microsoft-home-use-program-purchase"></a>Wat zijn de stappen voor een subsidiabele werknemer om een Microsoft Home use-programma te kopen?
+## <a name="what-are-the-steps-for-an-eligible-employee-to-make-a-microsoft-home-use-program-purchase"></a>Wat zijn de stappen voor een in aanmerking komende werknemer om een aankoop van het Microsoft Home Use Program te doen?
 
-1. **Registreren** Ga naar de [pagina Microsoft Home Use Program](https://www.microsoft.com/home-use-program)en selecteer de knop aan de slag. Werknemers voeren hun zakelijke e-mailadres in.
+1. **Registreren** Ga naar de [pagina Home Use Program van Microsoft](https://www.microsoft.com/home-use-program)en selecteer de knop Aan de slag. Werknemers voeren hun zakelijke e-mailadres in.
 
-2. **Ga na**  Er wordt een e-mailbericht verzonden naar het postvak in van het e-mailadres van het bedrijf met een koppeling waarmee de juiste geschiktheid voor het programma wordt geverifieerd.
+2. **Bevestigen**  Er wordt een e-mailbericht verzonden naar het postvak IN van het zakelijke e-mailadres met een koppeling die bevestigt dat ze in aanmerking komen voor het programma.
 
-3. **Aanmelden** Nadat ze zijn geverifieerd, beginnen ze het aankoopproces door het Microsoft-account dat is gekoppeld aan zijn of haar persoonlijke e-mailadres in te leveren, zodat ze de kortingen kunnen zien op producten die beschikbaar zijn op basis van de Home Use Program van de organisatie. Zie aan-of [Afmelden bij uw Microsoft-account](https://support.microsoft.com/help/4028195/microsoft-account-sign-in)voor meer informatie.
+3. **Aanmelden** Nadat ze zijn geverifieerd, beginnen ze het aankoopproces door het Microsoft-account op te geven dat is gekoppeld aan hun persoonlijke e-mailadres, zodat ze de kortingen kunnen bekijken op producten die voor hen beschikbaar zijn op basis van het home use program-voordeel van de organisatie. Zie Aanmelden bij uw [Microsoft-account](https://support.microsoft.com/help/4028195/microsoft-account-sign-in)voor meer informatie.
 
-4. **Winkel** De aankoop wordt verwerkt en voltooid in de Microsoft Store.
+4. **Winkelen** De aankoop wordt verwerkt en voltooid in de Microsoft Store.
 
-## <a name="if-an-employee-subscribes-to-microsoft-365-through-the-microsoft-home-use-program-how-does-this-impact-our-organizations-microsoft-365-business-subscription-and-device-limit"></a>Als een werknemer een abonnement heeft op Microsoft 365 via het Microsoft Home Use Program, wat betekent dit dat dit van invloed is op het Microsoft 365 Business-abonnement en de limiet van het apparaat van de organisatie?
+## <a name="if-an-employee-subscribes-to-microsoft-365-through-the-microsoft-home-use-program-how-does-this-impact-our-organizations-microsoft-365-business-subscription-and-device-limit"></a>Als een werknemer zich via het Microsoft Home Use Program abonneert op Microsoft 365, wat is dit dan van invloed op het microsoft 365-abonnement en de apparaatlimiet van onze organisatie?
 
-De installatie via het Home Use Program is niet van invloed op het Microsoft 365 Business-abonnement van uw organisatie. Wanneer medewerkers Microsoft 365 activeren op hun persoonlijke apparaten, gebruiken ze hun persoonlijke Microsoft-account, niet hun werkaccount. De IT-beheerder van uw organisatie beheert of biedt geen ondersteuning voor aankopen die zijn gemaakt via het Home Use Program.
+Installaties via het Home Use Program hebben geen invloed op het Microsoft 365 business-abonnement van uw organisatie. Wanneer werknemers Microsoft 365 activeren op hun persoonlijke apparaten, gebruiken ze hun persoonlijke Microsoft-account, niet hun werkaccount. De IT-beheerders van uw organisatie beheren of ondersteunen geen aankopen die zijn gedaan via het Home Use Program.
 
-## <a name="im-having-trouble-managing-my-organizations-microsoft-home-use-program-benefit-where-can-i-get-support"></a>Ik ondervind problemen bij het beheren van het Microsoft Home Use Program van het Microsoft-programma voor thuisgebruik. Waar kan ik ondersteuning vinden?
+## <a name="im-having-trouble-managing-my-organizations-microsoft-home-use-program-benefit-where-can-i-get-support"></a>Ik heb problemen met het beheer van het Microsoft Home Use Program-voordeel van mijn organisatie. Waar kan ik ondersteuning krijgen?
 
-Zie [VLSC ondersteuning](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0)voor ondersteuning bij het migreren van het Volume Licensing service center of het gebruik van Microsoft Store voor bedrijven.
+Zie [VLSC-ondersteuning](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0)voor ondersteuning voor problemen bij het migreren van het Volume Licensing Service Center of voor toegang tot de Microsoft Store voor Bedrijven.
 
-Voor problemen bij het weergeven van de vergoeding nadat u Microsoft Store voor bedrijven al hebt geopend, raadpleegt u [Store for Business admin support](https://docs.microsoft.com/microsoft-store/) .
+Zie Ondersteuning voor [Store voor Bedrijven-beheerders](/microsoft-store/) voor problemen met het weergeven van het voordeel nadat u al toegang hebt tot de Microsoft Store voor Bedrijven
 
 ## <a name="why-am-i-not-seeing-an-option-to-purchase-visio-professional-2019-andor-project-professional-2019"></a>Waarom zie ik geen optie om Visio Professional 2019 en/of Project Professional 2019 te kopen?
 
-Als een van uw werknemers voor het vorige programma profiteert van het vorige programma en u op zoek bent naar kortingen op Visio Professional 2019 en/of Project Professional 2019, gaat u door met het validatieproces voor de subsidiabiliteit en gaat u na aanmelding met uw persoonlijke Microsoft-account naar **andere Office-producten** om deze producten te kopen. Als u verwachte kortingen niet ziet, neemt u contact op met de programmabeheerder van uw werkgever voor een extra voordeel.
+Als een van uw werknemers gebruikmaakte van het vorige programma en op zoek is naar kortingen op Visio Professional 2019 en/of Project Professional 2019, gaat u door het validatieproces voor geschiktheid en gaat u, nadat u zich hebt aangemeld met uw persoonlijke Microsoft-account, naar Andere **Office-producten** om deze producten te kopen. Als u verwachte kortingen niet ziet worden toegepast, neem dan contact op met de beheerder van het Home Use Program van uw werkgever om te vragen naar deze extra voordelen.
 
-## <a name="what-if-my-employees-have-questions-about-this-program-or-need-support-with-purchasing-and-installation"></a>Wat moet ik doen als mijn medewerkers vragen hebben over dit programma of ondersteuning hebben voor kopen en installeren?
+## <a name="what-if-my-employees-have-questions-about-this-program-or-need-support-with-purchasing-and-installation"></a>Wat gebeurt er als mijn werknemers vragen hebben over dit programma of ondersteuning nodig hebben bij de aankoop en installatie?
 
-Als werknemers vragen hebben, raadpleegt u de volgende bronnen:
+Als werknemers vragen hebben, verwijst u deze naar de volgende bronnen:
 
-- [Veelgestelde vragen over kopen en installeren](https://products.office.com/microsoft-office-for-home-and-school-faq)
+- [Veelgestelde vragen over aankoop en installatie na de aankoop](https://products.office.com/microsoft-office-for-home-and-school-faq)
 
-- [Veelgestelde vragen over een programma voor thuisgebruik](https://www.microsoft.com/home-use-program/frequently-asked-questions)
+- [Veelgestelde vragen over Home Use Program Employee](https://www.microsoft.com/home-use-program/frequently-asked-questions)
 
- Zie [Microsoft ondersteuning](https://support.microsoft.com/)voor hulp bij technische problemen. U vindt hulp voor:
+ Zie Microsoft Support voor hulp bij [technische problemen.](https://support.microsoft.com/) U vindt hier hulp voor:
 
-- Order status
+- Orderstatus
 
 - Facturering
 
@@ -112,16 +112,16 @@ Als werknemers vragen hebben, raadpleegt u de volgende bronnen:
 
 - Aanmelden bij Office
 
-## <a name="frequently-viewed-content"></a>Veelgebruikte inhoud
+## <a name="frequently-viewed-content"></a>Veel bekeken inhoud
 
-[Microsoft 365-abonnementen](https://www.microsoft.com/home-use-program/). (koppelings pagina)
+[Microsoft 365-abonnementen](https://www.microsoft.com/home-use-program/). (koppelingspagina)
 
-[Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0) (koppelings pagina)
+[Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0) (koppelingspagina)
 
-[Beheerders ondersteuning voor Microsoft Store voor bedrijven](https://docs.microsoft.com/microsoft-store/) (koppelings pagina)
+[Ondersteuning voor Microsoft Store voor Bedrijven-beheerders](/microsoft-store/) (koppelingspagina)
 
-[Microsoft Store voor bedrijven](https://go.microsoft.com/fwlink/?linkid=2139192) (koppelings pagina)
+[Microsoft Store voor Bedrijven](https://go.microsoft.com/fwlink/?linkid=2139192) (koppelingspagina)
 
-[Startprogramma voor Program ma's voor thuisgebruik](https://www.microsoft.com/home-use-program) (koppelings pagina)
+[Home Use Program Employee Store](https://www.microsoft.com/home-use-program) (koppelingspagina)
 
-[Microsoft Licensing: overzicht van programma voor thuisgebruik](https://www.microsoft.com/licensing/licensing-programs/software-assurance-by-benefits?activetab=software-assurance-by-benefits-tab:primaryr4) (koppelings pagina)
+[Microsoft Licensing: Overzicht home use program](https://www.microsoft.com/licensing/licensing-programs/software-assurance-by-benefits?activetab=software-assurance-by-benefits-tab:primaryr4) (koppelingspagina)

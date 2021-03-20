@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lees meer over Microsoft 365 Business Premium, een abonnementsservice met Office-productiviteitsapps en geavanceerde bescherming voor uw bedrijf tegen cyberdreigingen.
-ms.openlocfilehash: e67ae036bf3ce7811f19c8745838bb51dde073ea
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: aa6e313f0f3db1c3401836c3e1737c219fcf6c3a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842175"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912997"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Overzicht van Microsoft 365 Business Premium
 
@@ -48,9 +48,9 @@ Bekijk deze video voor een kort overzicht van Microsoft 365 Business Premium.<br
   
 Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
-Microsoft 365 Business Premium is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) voor meer informatie.
+Microsoft 365 Business Premium is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](../enterprise/index.yml) voor meer informatie.
 
-Zie de servicebeschrijving van [Microsoft 365 Business Premium](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) voor de volledige lijst met functies.
+Zie de servicebeschrijving van [Microsoft 365 Business Premium](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) voor de volledige lijst met functies.
   
 ## <a name="small-business-security-needs"></a>Beveiligingsbehoeften voor kleine bedrijven
 
@@ -71,11 +71,11 @@ Microsoft 365 Business Premium helpt in elk van deze gevallen bij het beschermen
 
 Microsoft 365 Business Premium biedt **bescherming tegen bedreigingen** door:
 
-- In realtime scan koppelingen in e-mailberichten en documenten om onveilige websites te blokkeren (veilige koppelingen).
+- Koppelingen in e-mailberichten en documenten in realtime scannen om onveilige websites te blokkeren (veilige koppelingen).
 
-- Het uitvoeren van een geavanceerde analyse van e-mailbijlagen in een sandbox-omgeving voor het detecteren van nieuwe malware (veilige bijlagen). 
+- Geavanceerde analyse van e-mailbijlagen uitvoeren in een sandbox-omgeving om nieuw ontwikkelde malware (Veilige bijlagen) te detecteren. 
 
-- Een anti-phishings beleid in te schakelen voor het gebruik van machine leer modellen en imitatie detectie om beveiliging te bieden tegen geavanceerde aanvallen (anti phishing in Defender voor Office 365 Intelligence). 
+- Anti-phishingbeleid inschakelen waarin machine learning-modellen en imitatiedetectie worden gebruikt om bescherming te bieden tegen geavanceerde aanvallen (Anti-phishing in Defender voor Office 365-intelligentie). 
 
 - Het instellen van geavanceerde beleidsregels voor het uitschakelen van de toegang tot niet-vertrouwde locaties of het omzeilen van meervoudige factorverificatie van vertrouwde locaties zoals uw bedrijfsnetwerk (Azure MFA met vertrouwde IPs en voorwaardelijke toegang). 
 
@@ -103,7 +103,7 @@ Uw **apparaten zijn beveiligd** door:
 
 - Vereenvoudigde besturingselementen gebruiken om het beleid voor alle Windows 10-pc's in uw bedrijf te beheren, BitLocker-codering af te dwingen en automatisch essentiële Windows-updates te installeren (Windows-updatebeleid afdwingen).
 
-Zie [beveiligingsfuncties van Microsoft 365 Business Premium](security-features.md)voor de volledige lijst met beveiligingsfuncties. Nadat u [Microsoft 365 Business Premium hebt ingesteld](set-up.md), raadpleegt u [de bescherming tegen bedreigingen verhogen](increase-threat-protection.md) en [nalevingsfuncties instellen](set-up-compliance.md) om aan de slag te gaan met de beveiligingsfuncties die niet zijn opgenomen als onderdeel van de begeleide installatie. Lees ook [de tien beste manieren om Office 365-en Microsoft 365 Business Premium-abonnementen te beveiligen](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht van het instellen van beveiliging tegen cybercriminelen en hackers.
+Zie [beveiligingsfuncties van Microsoft 365 Business Premium](security-features.md)voor de volledige lijst met beveiligingsfuncties. Nadat u [Microsoft 365 Business Premium hebt ingesteld](set-up.md), raadpleegt u [de bescherming tegen bedreigingen verhogen](increase-threat-protection.md) en [nalevingsfuncties instellen](set-up-compliance.md) om aan de slag te gaan met de beveiligingsfuncties die niet zijn opgenomen als onderdeel van de begeleide installatie. Lees ook [de tien beste manieren om Office 365-en Microsoft 365 Business Premium-abonnementen te beveiligen](/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht van het instellen van beveiliging tegen cybercriminelen en hackers.
 
 ## <a name="get-microsoft-365-business-premium"></a>Microsoft 365 Business Premium downloaden
 

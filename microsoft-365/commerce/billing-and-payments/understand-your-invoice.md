@@ -19,19 +19,19 @@ search.appverid:
 - MET150
 description: Ontdek hier hoe je je factuur of rekening voor zakelijke Microsoft-producten kunt lezen en begrijpen.
 keywords: factureringsaccounts, organisatie info, facturen
-ms.openlocfilehash: 521ef49e7f2292f8ea09210fb0edcce0d56e1b76
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 2b11cca810b17ae2dacc3ddab723725608ffceb5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126571"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911696"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Inzicht in je rekening of factuur
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat je gewend bent, raadpleeg je [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat je gewend bent, raadpleeg je [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -60,13 +60,13 @@ In het **Factuuroverzicht** wordt een kostenoverzicht sinds de vorige facturerin
 | --- | --- |
 | Kosten|Het totale aantal producten dat is gekocht tijdens deze factureringsperiode en de bijbehorende kosten en belastingen. Aankopen worden samengevoegd voor een beknopte weergave van de factuur. |
 | Tegoeden |Tegoeden die je hebt ontvangen voor retouren |
-| Toegepaste Azure-tegoeden |De Azure-tegoeden die elke factureringsperiode automatisch worden toegepast op de Azure-kosten. Als je geen Azure-tegoeden hebt, is dit veld verborgen. Raadpleeg voor meer informatie over Azure-tegoeden het artikel [Saldo van Azure-tegoed voor Microsoft-klantovereenkomst bijhouden](https://docs.microsoft.com/azure/billing/billing-mca-check-azure-credits-balance). |
+| Toegepaste Azure-tegoeden |De Azure-tegoeden die elke factureringsperiode automatisch worden toegepast op de Azure-kosten. Als je geen Azure-tegoeden hebt, is dit veld verborgen. Raadpleeg voor meer informatie over Azure-tegoeden het artikel [Saldo van Azure-tegoed voor Microsoft-klantovereenkomst bijhouden](/azure/billing/billing-mca-check-azure-credits-balance). |
 | Subtotaal |Het verschuldigde bedrag vóór belastingen |
 | Belasting |Het type en het bedrag aan belasting dat je betaalt, afhankelijk van het land van je factureringsprofiel. Als je geen belasting hoeft te betalen, wordt er geen belasting op de factuur weergegeven. |
 
 ### <a name="understand-your-charges"></a>Inzicht in je kosten
 
-Op de kostenpagina worden de kosten per product weergegeven. Voor Azure-klanten zijn de kosten mogelijk gerangschikt op factuursectie. Voor meer informatie over de manier waarop factuursecties bij Azure-producten worden gebruikt, raadpleeg je [factuursecties](https://docs.microsoft.com/azure/billing/billing-mca-overview#invoice-sections) in [Aan de slag met je factureringsaccount voor Microsoft-klantovereenkomst](https://docs.microsoft.com/azure/billing/billing-mca-overview). Binnen elke productorder worden kosten uitgesplitst per servicepakket.
+Op de kostenpagina worden de kosten per product weergegeven. Voor Azure-klanten zijn de kosten mogelijk gerangschikt op factuursectie. Voor meer informatie over de manier waarop factuursecties bij Azure-producten worden gebruikt, raadpleeg je [factuursecties](/azure/billing/billing-mca-overview#invoice-sections) in [Aan de slag met je factureringsaccount voor Microsoft-klantovereenkomst](/azure/billing/billing-mca-overview). Binnen elke productorder worden kosten uitgesplitst per servicepakket.
 
 | Term |Beschrijving |
 | --- | --- |
@@ -86,7 +86,7 @@ Het totale verschuldigde bedrag voor elk servicepakket wordt berekend door Azure
 
 > Totaal = kosten/tegoeden - Azure-tegoed + belasting
 
-Als er Azure-kosten op de factuur staan waarover je meer informatie wilt, raadpleeg je [Je factuur voor je Microsoft-klantovereenkomst controleren](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill).
+Als er Azure-kosten op de factuur staan waarover je meer informatie wilt, raadpleeg je [Je factuur voor je Microsoft-klantovereenkomst controleren](/azure/cost-management-billing/understand/review-customer-agreement-bill).
 
 ## <a name="understand-the-last-invoice-page"></a>Inzicht in de laatste factuurpagina
 

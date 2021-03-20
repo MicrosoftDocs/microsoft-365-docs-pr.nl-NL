@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Premium ophalen vanuit partnercentrum
+title: Microsoft 365 Business Premium in het partnercentrum krijgen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,39 +24,36 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Ontdek uw opties voor de aankoop van Microsoft 365 Business Premium en stapsgewijze instructies voor de aankoop ervan bij Microsoft Partner Center.
-ms.openlocfilehash: 550ab62b46ffc09f8c4822a2e1741ee51b4579ca
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Ontdek uw opties voor de aankoop van Microsoft 365 Business Premium en stapsgewijs instructies voor de aankoop van microsoft-partnercentrum.
+ms.openlocfilehash: 9f29846a7017259340b2125b09bc9fa5f935501b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400936"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913321"
 ---
 # <a name="get-microsoft-365-business-premium"></a>Microsoft 365 Business Premium downloaden
 
-## <a name="get-microsoft-365-business-premium-from-microsoft"></a>Microsoft 365 Business Premium van Microsoft ophalen
+## <a name="get-microsoft-365-business-premium-from-microsoft"></a>Microsoft 365 Business Premium bij Microsoft
 
-Als u geen partner hebt en Microsoft 365 Business Premium wilt kopen, u [deze hier kopen.](https://www.microsoft.com/en-US/microsoft-365/business)
+Als u geen partner hebt en Microsoft 365 Business Premium wilt kopen, kunt u [deze hier kopen.](https://www.microsoft.com/en-US/microsoft-365/business)
 
-Zie [aanmelden voor Microsoft 365 Business Premium](sign-up.md) voor gedetailleerde instructies.
+Zie [Registreren voor Microsoft 365 Business Premium voor](sign-up.md) gedetailleerde instructies.
 
-U ook naar een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) gaan om Microsoft 365 Business Premium te kopen en hulp bij het instellen te krijgen.
+U kunt ook naar een [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) gaan om Microsoft 365 Business Premium te kopen en hulp bij het instellen te krijgen.
   
-## <a name="get-microsoft-365-business-premium-from-microsoft-partner-center"></a>Microsoft 365 Business Premium ophalen bij Microsoft Partner Center
+## <a name="get-microsoft-365-business-premium-from-microsoft-partner-center"></a>Microsoft 365 Business Premium in microsoft-partnercentrum krijgen
 
 1. Meld u aan bij [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) met de referenties die u hebt gemaakt tijdens uw inschrijving bij het CSP-programma (cloudserviceprovider). 
     
-2. Kies op het partnerdashboard **klanten**en selecteer vervolgens uw klant of voeg een nieuwe klant toe voordat u Microsoft 365 Business Premium krijgt.
+2. Kies klanten op het partnerdashboard **en** selecteer vervolgens uw klant of voeg een nieuwe klant toe voordat u Microsoft 365 Business Premium krijgt.
     
-    ![Voeg in het Microsoft Partner-centrum een klant toe.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![Voeg in het Microsoft Partnercentrum een klant toe.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. Selecteer op de pagina **Abonnement** van de klant de optie **Abonnement toevoegen,** kies de optie Kleine bedrijven onder Catalogus en kies **vervolgens Microsoft 365 Business Premium**.
+3. Selecteer op de pagina Abonnement **van** de klant **De** optie Abonnement toevoegen, kies de optie Voor Kleine bedrijven onder Catalogus en kies **vervolgens Microsoft 365 Business Premium.**
     
-    Selecteer het aantal licenties dat u nodig hebt (maximaal 300). Als u meer dan 300 gebruikers hebt, raadpleeg dan [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316). 
+    Selecteer het aantal licenties dat u nodig hebt (maximaal 300). Als u meer dan 300 gebruikers hebt, raadpleeg dan [Microsoft 365 Enterprise](../enterprise/index.yml). 
     
-    ![Kies op de pagina Nieuw abonnement voor kleine bedrijven.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
+    ![Kies op de pagina Nieuw abonnement de optie voor kleine bedrijven.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
     Voltooi de rest van de stappen voor het toevoegen van een nieuwe klant, inclusief de bedrijfsnaam.
-    
-
-

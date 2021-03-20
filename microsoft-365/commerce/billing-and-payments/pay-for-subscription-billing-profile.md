@@ -1,5 +1,5 @@
 ---
-title: Uw abonnement betalen met een factureringsprofiel
+title: Betalen voor uw abonnement met een factureringsprofiel
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,62 +14,62 @@ ms.collection:
 - Adm_O365
 search.appverid:
 - MET150
-description: Lees welke betalingsopties beschikbaar zijn om voor uw abonnement te betalen met een factureringsprofiel.
+description: Lees welke betalingsopties beschikbaar zijn om uw abonnement te betalen met een factureringsprofiel.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 15feb1b806b46d147d427256ce2416ea75b48bbe
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 750420b6fac8fff16130710ef96a9ceb6345a87a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50143092"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911828"
 ---
-# <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>Uw abonnement betalen met een factureringsprofiel
+# <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>Betalen voor uw abonnement met een factureringsprofiel
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
-Wanneer u een abonnement koopt, betaalt u ervoor met een factureringsprofiel. Het factureringsprofiel is gekoppeld aan een specifieke betalingswijze en kan een creditcard, betaalkaart of factuur zijn, maar geen bankrekening.
+Wanneer u een abonnement koopt, betaalt u ervoor met een factureringsprofiel. Het factureringsprofiel is gekoppeld aan een specifieke betalingswijze en kan een creditcard of betaalkaart of een factuur zijn, maar geen bankrekening.
 
-Zie Factureringsprofielen als u niet zeker weet of uw account een [factureringsprofiel heeft.](manage-billing-profiles.md) Als u geen factureringsprofiel hebt, bekijkt u [Hoe u uw abonnement betaalt.](pay-for-your-subscription.md)
+Als u niet zeker weet of uw account een factureringsprofiel heeft, raadpleegt u [Factureringsprofielen begrijpen](manage-billing-profiles.md). Zie Betalen voor uw abonnement als u geen factureringsprofiel [hebt.](pay-for-your-subscription.md)
 
-## <a name="paying-with-recurring-billing-turned-on-or-off"></a>Betalen met terugkerende facturering in- of uitgeschakeld
+## <a name="paying-with-recurring-billing-turned-on-or-off"></a>Betalen met terugkerende facturering ingeschakeld of uitgeschakeld
 
-Terugkerende facturering wordt standaard automatisch ingeschakeld voor alle betaalde abonnementen die gebruikmaken van terugkerende facturering. Elke factureringsperiode wordt automatisch de betalingswijze die aan het factureringsprofiel is gekoppeld, in rekening gebracht om te betalen voor abonnementen die dat factureringsprofiel gebruiken. Als uw betalingswijze wordt geweigerd,  kunt u de knop Nu betalen op uw factuur gebruiken om een eenbetaling te doen voor uw abonnement.
+Terugkerende facturering wordt standaard automatisch ingeschakeld voor alle betaalde abonnementen die gebruikmaken van terugkerende facturering. Elke factureringsperiode brengen we automatisch de betalingswijze in rekening die is gekoppeld aan het factureringsprofiel om te betalen voor abonnementen die gebruikmaken van dat factureringsprofiel. Als uw betalingswijze wordt geweigerd,  kunt u de knop Nu betalen op uw factuur gebruiken om eenjarige betaling voor uw abonnement te doen.
 
-Als terugkerende facturering is uitgeschakeld voor een factureringsprofiel, kunt u de knop Nu betalen op uw factuur gebruiken om elke factureringsperiode te betalen, ongeacht de betalingswijze die aan het factureringsprofiel is gekoppeld.  U kunt ook betalen per cheque of via elektronische betaling. Instructies voor hoe u dit doet, worden opgenomen in de PDF-versie van uw factuur.
+Als terugkerende facturering is uitgeschakeld voor een factureringsprofiel, kunt u de knop Nu betalen op uw factuur gebruiken om elke factureringsperiode te betalen, ongeacht welke betalingswijze is gekoppeld aan het factureringsprofiel.  U kunt ook betalen via cheque of elektronische overboeking (EFT). Instructies voor hoe u dat doet, worden opgenomen in de PDF-kopie van uw factuur.
 
 ## <a name="paying-by-invoice"></a>Betalen per factuur
 
-Als u een factureringsprofiel hebt dat is ingesteld om te worden betaald per factuur, kunt u uw abonnement betalen met een cheque of eft. U kunt ook een creditcard gebruiken om online te betalen met de **knop** Nu betalen op uw factuur.
+Als u een factureringsprofiel hebt dat is ingesteld om per factuur te worden betaald, kunt u uw abonnement betalen met een cheque of EFT. U kunt ook een creditcard gebruiken om online te betalen met behulp van de knop **Nu** betalen op uw factuur.
 
-Als je in aanmerking wilt komen om per factuur te betalen, moet je:
+Als u per factuur wilt betalen, moet u het volgende doen:
 
-- Wees een vaste klant
+- Een bestaande klant zijn
 - Abonnementskosten hebben die een bepaald bedrag overschrijden (dit bedrag verschilt per servicelocatie)
-- Een kredietcontrole door te geven
+- Voor een kredietcontrole slagen
 
-Als een kredietcontrole vereist is, wordt u gewaarschuwd wanneer u uw abonnement koopt. Als u ermee akkoord gaat dat er contact met u wordt opgenomen, ontvangt u een e-mailbericht met meer informatie over het aanvragen van kredietgoedkeuring. Kredietcontroles worden doorgaans binnen twee werkdagen afgehandeld.
+Als een kredietcontrole vereist is, wordt dit aangegeven wanneer je je abonnement koopt. Als je ermee akkoord gaat dat er contact met je wordt opgenomen, krijg je een e-mail met meer informatie over het aanvragen van kredietgoedkeuring. Kredietcontroles worden doorgaans binnen twee werkdagen voltooid.
 
-Als uw factureringsprofiel wordt gebacked door een factuur, ontvangt u een e-mail wanneer uw factuuroverzicht klaar is om te bekijken. Dit e-mailbericht bevat geen kopie van uw factuuroverzicht. U kunt er echter voor kiezen om per e-mail een kopie van [uw factuuroverzicht te ontvangen.](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email) Uw factuuroverzicht bevat informatie over uw betalingsopties en waar u het kunt verzenden. Als u een IO-nummer (inkooporder) in uw factureringsprofiel opstelt, wordt het nummer weergegeven op uw factuuroverzicht. Ga naar [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) voor informatie over hoe u factuuroverzichten kunt bekijken.
+Als uw factureringsprofiel wordt gebacked door een factuur, ontvangt u een e-mail wanneer uw factureringsoverzicht klaar is om te bekijken. Deze e-mail bevat geen kopie van je factuuroverzicht. Je kunt er ook voor kiezen om [een kopie van je factuuroverzicht per e-mail te ontvangen](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email). Het factuuroverzicht bevat details over je betalingsopties en over waarheen je het geld moet overmaken. Als u een aankoopordernummer (PO) in uw factureringsprofiel instelt, wordt het nummer weergegeven in uw factuuroverzicht. Ga naar [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) voor informatie over hoe u factuuroverzichten kunt bekijken.
 
-## <a name="where-do-i-send-my-check-or-eft-payment"></a>Waarheen verstuur ik mijn betaling per cheque of EFT?
+## <a name="where-do-i-send-my-check-or-eft-payment"></a>Waar verstuur ik mijn betaling per cheque of EFT naartoe?
 
-[Controleer uw factuur voor](view-your-bill-or-invoice.md) betalingsinstructies. U kunt ook de onderstaande vervolgkeuzekeuze gebruiken om betalingsinstructies voor uw land te vinden. Als u niet zeker weet hoeveel u moet betalen, kunt u  uw factuur en factureringsgeschiedenis online bekijken op het tabblad Facturen van de pagina Facturen <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalen.</a>
+[Raadpleeg uw factuur](view-your-bill-or-invoice.md) voor betalingsinstructies. U kunt de onderstaande vervolgkeuzekeuze ook gebruiken om betalingsinstructies voor uw land te vinden. Als u niet zeker weet hoeveel u moet betalen, kunt u uw factuur en factureringsgeschiedenis online bekijken in het tabblad **Facturen** van de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.
 
 > [!NOTE]
-> Betalen met een cheque is slechts in een paar landen mogelijk.
+> Betalen met een cheque is slechts in enkele landen mogelijk.
 
- **Kies uw factuurland of -regio in de onderstaande vervolgkeuzelijst.**
+ **Kies in het vervolgkeuzemenu hieronder het factuurland of de factuurregio.**
 
 > [!div class="op_single_selector"]
-> - **Uw land of regio kiezen**
+> - **Uw land of regio selecteren**
 > - [Afghanistan](../pay/afghanistan.md)
 > - [Albanië](../pay/albania.md)
 > - [Algerije](../pay/algeria.md)
@@ -224,18 +224,18 @@ Als uw factureringsprofiel wordt gebacked door een factuur, ontvangt u een e-mai
 
 ## <a name="can-i-pay-my-invoice-online"></a>Kan ik mijn factuur online betalen?
 
-Als terugkerende facturering is uitgeschakeld voor uw factureringsprofiel, kunt u een creditcard gebruiken om uw factuur online te betalen. Als u wilt betalen, gebruikt u **de knop Nu** betalen op uw factuur in het Microsoft 365-beheercentrum. Zie Uw rekening of factuur bekijken om [uw factuur te zoeken.](view-your-bill-or-invoice.md)
+Als terugkerende facturering is uitgeschakeld voor uw factureringsprofiel, kunt u een creditcard gebruiken om uw factuur online te betalen. Als u een betaling wilt doen, gebruikt **u de knop Nu** betalen op uw factuur in het Microsoft 365-beheercentrum. Zie Uw factuur of factuur weergeven om [uw factuur te vinden.](view-your-bill-or-invoice.md)
 
-## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Kan ik de betalingswijze wijzigen in betalen per factuur?
+## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Kan ik mijn huidige betalingsmethode veranderen naar betalen per factuur?
 
-Als uw factureringsprofiel wordt betaald met een creditcard of betaalkaart, kunt u de betalingswijze alleen wijzigen in een andere creditcard of betaalkaart. U kunt niet wijzigen in betalen per factuur.
+Als uw factureringsprofiel wordt gebacked met een creditcard of betaalkaart, kunt u de betalingswijze alleen wijzigen in een andere creditcard of betaalkaart. U kunt niet veranderen in betalen per factuur.
 
-## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>Kan ik de betalingswijze wijzigen van factuur naar andere betalingswijze?
+## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>Kan ik overstappen van betalen per factuur naar een andere betalingsmethode?
 
-Als uw factureringsprofiel wordt betaald met factuurbetalingen, kunt u de betalingswijze niet wijzigen. U kunt de **knop Nu betalen** op uw factuur gebruiken om te betalen met een creditcard of betaalkaart, of via een cheque of eft.
+Als uw factureringsprofiel wordt gebacked door factuurbetalingen, kunt u de betalingswijze niet wijzigen. U kunt de knop **Nu betalen op** uw factuur gebruiken om te betalen met een creditcard of betaalkaart, of via cheque of EFT.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
 [Betalingsmethoden beheren](manage-payment-methods.md) (artikel)\
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
-[Uw rekening of factuur begrijpen](understand-your-invoice.md) (artikel)
+[Inzicht in uw rekening of factuur](understand-your-invoice.md) (artikel)

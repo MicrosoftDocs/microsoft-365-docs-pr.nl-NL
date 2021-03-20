@@ -1,5 +1,5 @@
 ---
-title: Instellingen voor toepassingsbeveiliging bewerken of instellen voor Windows 10-apparaten
+title: Instellingen voor toepassingsbeveiliging voor Windows 10-apparaten bewerken of instellen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -28,46 +28,46 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Leer hoe u beleidsregels voor app-beheer maakt of bewerkt en hoe u werkbestanden op de persoonlijke Windows 10-apparaten van uw gebruikers beschermt.
-ms.openlocfilehash: f85a59649e43c141b62091337b842a490d411833
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+description: Meer informatie over het maken of bewerken van app-beheerbeleid en het beveiligen van werkbestanden op de persoonlijke Windows 10-apparaten van uw gebruikers.
+ms.openlocfilehash: 64c6aa620171a373cd7564c7de3abbf4a4546c4e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289194"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912817"
 ---
 # <a name="set-or-edit-application-protection-settings-for-windows-10-devices"></a>Instellingen voor toepassingsbeveiliging instellen of bewerken voor Windows 10-apparaten
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
-## <a name="edit-an-app-management-policy-for-windows-10"></a>Beleid voor app-beheer voor Windows 10 bewerken
+## <a name="edit-an-app-management-policy-for-windows-10"></a>Een app-beheerbeleid voor Windows 10 bewerken
 
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.     
-2. Kies in het linkernavigatievenster de optie **apparaten** \> **beleid** .
-1. Kies een bestaand beleid van Windows-apps en klik vervolgens op **bewerken**.
-1. Kies **bewerken** naast een instelling die u wilt wijzigen en klik vervolgens op **Opslaan**.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.     
+2. Kies in de  linkernavigatienavigatie de optie \> **Apparatenbeleid.**
+1. Kies een bestaand Windows-appbeleid en vervolgens **Bewerken.**
+1. Kies **Bewerken** naast een instelling die u wilt wijzigen en klik vervolgens op **Opslaan.**
 
 ## <a name="create-an-app-management-policy-for-windows-10"></a>Beleid voor app-beheer maken voor Windows 10
 
 Als uw gebruikers persoonlijke Windows 10-apparaten gebruiken voor hun werk, kunt u de gegevens op die apparaten ook beschermen.
   
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-2. Kies in het linkernavigatievenster de optie **apparaten** \> **beleid** \> **toevoegen**.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+2. Kies in de  linkernavigatienavigatie de optie \> **Apparatenbeleid** \> **toevoegen.**
 3. Voer in het deelvenster **Beleid toevoegen** een unieke naam in voor dit beleid. 
 4. Kies onder **Type beleid** de optie **Toepassingsbeheer voor Windows 10**.
-5. Kies onder **Apparaattype**de optie **persoonlijk** of **bedrijfseigendom**.
+5. Kies **onder Apparaattype** de optie **Persoonlijk** of Eigendom **van bedrijf.**
 6. De optie **Werkbestanden versleutelen** is automatisch ingeschakeld. 
 7. Stel **Voorkomen dat gebruikers bedrijfsgegevens kopiëren naar persoonlijke bestanden en afdwingen dat werkbestanden worden opgeslagen in OneDrive voor Bedrijven** in op **Aan** als u niet wilt dat de gebruikers werkbestanden opslaan op hun pc. 
-9. Vouw **gegevens herstellen op Windows-apparaten**uit. U wordt aangeraden deze **in**te schakelen.
-    Voordat u naar de locatie van het certificaat voor de gegevensherstelagent kunt bladeren, moet u deze eerst maken. Zie [een EFS-certificaat (Encrypting File System) maken en controleren](https://go.microsoft.com/fwlink/p/?linkid=853700)voor meer informatie.
+9. Vouw **Gegevens herstellen op Windows-apparaten uit.** U wordt aangeraden deze in te **zetten.**
+    Voordat u naar de locatie van het certificaat voor de gegevensherstelagent kunt bladeren, moet u deze eerst maken. Zie Een [CERTIFICAAT voor versleutelingsbestandssysteem (EFS) Data Recovery Agent (DRA)](/windows/security/information-protection/windows-information-protection/create-and-verify-an-efs-dra-certificate)maken en verifiëren voor instructies.
     
-    Werkbestanden worden standaard versleuteld met een geheime code die wordt opgeslagen op het apparaat en die gekoppeld is aan het profiel van de gebruiker. Alleen de gebruiker kan het bestand openen en ontsleutelen. Als een apparaat zoekraakt of als een gebruiker wordt verwijderd, kan een bestand echter blijven steken in versleutelde toestand. Een beheerder kan het bestand gebruiken om het bestand te versleutelen met het Data Recovery-certificaat (DRA).
+    Werkbestanden worden standaard versleuteld met een geheime code die wordt opgeslagen op het apparaat en die gekoppeld is aan het profiel van de gebruiker. Alleen de gebruiker kan het bestand openen en ontsleutelen. Als een apparaat zoekraakt of als een gebruiker wordt verwijderd, kan een bestand echter blijven steken in versleutelde toestand. Een beheerder kan het certificaat Data Recovery Agent (DRA) gebruiken om het bestand te ontsleutelen.
     
     ![Browse to Data Recovery Agent certificate.](../media/7d7d664f-b72f-4293-a3e7-d0fa7371366c.png)
   
-10. Vouw **extra netwerk-en Cloud locaties beveiligen** als u extra domeinen of SharePoint Online-locaties wilt toevoegen om ervoor te zorgen dat de bestanden in alle vermelde apps worden beveiligd. Als u meerdere items moet opgeven voor een veld, gebruikt u een puntkomma (;) tussen de items.
+10. Vouw **Extra netwerk-** en cloudlocaties beveiligen uit als u extra domeinen of SharePoint Online-locaties wilt toevoegen om ervoor te zorgen dat bestanden in alle vermelde apps zijn beveiligd. Als u meerdere items moet opgeven voor een veld, gebruikt u een puntkomma (;) tussen de items.
     
     ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](../media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
   
 11. Bepaal nu **Voor wie zijn deze instellingen?** Als u niet de standaardbeveiligingsgroep **Alle gebruikers** wilt gebruiken, kiest u **Wijzigen**, zoekt u de beveiligingsgroep die deze instellingen krijgt \> **Selecteren**.
-12. Kies ten slotte **Toevoegen** om het beleid op te slaan en dit toe te wijzen aan apparaten. 
+12. Kies ten slotte **Toevoegen** om het beleid op te slaan en dit toe te wijzen aan apparaten.

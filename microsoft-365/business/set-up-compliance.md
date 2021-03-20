@@ -1,5 +1,5 @@
 ---
-title: Bedreigingsbeveiliging voor Microsoft 365 Business Premium verbeteren
+title: Bedreigingsbeveiliging voor Microsoft 365 Business Premium verhogen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,57 +21,57 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: U kunt nalevings functies instellen om verlies van gegevens te voorkomen en de gevoelige informatie van uw klanten veilig te houden.
-ms.openlocfilehash: 2c95ad3f36df28af2c68cd11192bcfe92dfe29e3
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+description: Stel compliancefuncties in om gegevensverlies te voorkomen en om de gevoelige informatie van uw en uw klanten veilig te houden.
+ms.openlocfilehash: e210787718025c5df29af8d4a2283291dcecc2a8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841168"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912525"
 ---
 # <a name="set-up-compliance-features"></a>Compliancefuncties instellen
 
-Uw Microsoft 365 Business Premium biedt functies om uw gegevens en apparaten te beschermen en u te helpen de gevoelige informatie van uw klanten veilig te houden.
+Uw Microsoft 365 Business Premium bevat functies om uw gegevens en apparaten te beschermen en u te helpen de gevoelige informatie van uw en uw klanten veilig te houden.
 
 ## <a name="set-up-dlp-features"></a>DLP-functies instellen
 
-Zie [een DLP-beleid maken op basis van een sjabloon](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template) voor een voorbeeld over het instellen van een beleid ter bescherming tegen het beschermen van persoonlijke gegevens. 
+Zie [Een DLP-beleid maken op basis](../compliance/create-a-dlp-policy-from-a-template.md) van een sjabloon voor een voorbeeld van het instellen van een beleid ter bescherming tegen verlies van persoonlijke gegevens. 
   
-DLP biedt een groot aantal kant-en-klare beleidssjablonen voor veel verschillende landinstellingen. Bijvoorbeeld financiële gegevens voor Australië, persoonlijke gegevens van Canada, Amerikaanse financiële gegevens, enzovoort. Bekijk [wat de DLP-beleidssjablonen zijn](https://docs.microsoft.com/microsoft-365/compliance/what-the-dlp-policy-templates-include) voor een volledige lijst. Al deze sjablonen kunnen worden ingeschakeld, vergelijkbaar met het voorbeeld van de PII-sjabloon. 
+DLP wordt geleverd met veel kant-en-klare beleidssjablonen voor veel verschillende locales. Bijvoorbeeld: Australia Financial Data, Canada Personal Information Act, U.S. Financial Data, en meer. Zie [Wat de DLP-beleidsjablonen bevatten voor](../compliance/what-the-dlp-policy-templates-include.md) een volledige lijst. Al deze sjablonen kunnen worden ingeschakeld, vergelijkbaar met het voorbeeld van de PII-sjabloon. 
   
-## <a name="set-up-email-retention-with-exchange-online-archiving"></a>E-mail behoud instellen met Exchange Online Archiving
+## <a name="set-up-email-retention-with-exchange-online-archiving"></a>E-mailretentie instellen met Archivering van Exchange Online
 
- **Exchange Online Archiving** -licentie functies helpen bij de naleving van compliance en regelgevings normen door e-mail inhoud voor eDiscovery te behouden. Dit levert ook minder Risico's op als er een nakomend en een manier is om gegevens te herstellen na een schending van de beveiliging of wanneer u verwijderde items moet herstellen. U kunt met behulp van de procedure voor het bewaren van inhoud de inhoud van een gebruiker behouden of het bewaarbeleid gebruiken om de inhoud van de inhoud aan te passen.
+ **Exchange Online Archiving-licentiefuncties** helpen bij het handhaven van nalevings- en regelgevingsstandaarden door e-mailinhoud voor eDiscovery te behouden. Het helpt ook uw risico te beperken als er een proces is en biedt een manier om gegevens te herstellen na een beveiligingsinbreuk of wanneer u verwijderde items moet herstellen. U kunt de bewaring van rechtszaken gebruiken om alle inhoud van een gebruiker te behouden of bewaarbeleid gebruiken om aan te passen wat u wilt behouden.
   
-**Bewaring voor rechtszaken:** U kunt alle inhoud van het postvak met de verwijderde items bewaren door het hele postvak van een gebruiker in te stellen. 
+**Procesrecht in de wacht:** U kunt alle postvakinhoud, inclusief verwijderde items, behouden door het hele postvak van een gebruiker in de wacht te zetten. 
     
-In het Beheercentrum kunt u een postvak op het geschil bewaren.
+Als u een postvak in de wacht wilt zetten voor rechtszaken, gaat u naar het beheercentrum:
     
-1. Ga in het linkernavigatievenster naar gebruikers van **gebruikers** met de \> **actieve gebruikers** .
+1. Ga in de linkernavigatiebalk naar **Gebruikers** \> **Actieve gebruikers.**
     
-2. Selecteer de gebruiker van wie u het postvak wilt plaatsen. Vouw in het deelvenster gebruiker **e-mail instellingen** uit en kies naast **meer instellingen** de optie **Exchange-eigenschappen bewerken** .
+2. Selecteer een gebruiker van wie u het postvak in de wacht wilt zetten. Vouw in het gebruikersvenster **E-mailinstellingen** uit en kies naast **Meer instellingen** de optie **Exchange-eigenschappen bewerken.**
     
-3. Ga naar de pagina Postvak voor de gebruiker en kies * * Mailbox features * * aan de linkerkant en kies vervolgens de koppeling **inschakelen** onder voor de bewaring van de **geschil** .
+3. Kies op de postvakpagina voor de gebruiker ** postvakfuncties ** aan de linkerkant en kies vervolgens de **koppeling** Inschakelen onder **Procesvoering.**
     
-4. In het dialoogvenster ter ter ter ter plaatse **bekleedt** u de wachtstand van de gewenste aanbieding in het veld duur van de **geschil** . Laat het veld leeg als u het oneindig in de wacht wilt plaatsen. U kunt ook aantekeningen toevoegen en de eigenaar van het postvak direct naar een website gaan als u meer wilt weten over het bewaren van de geschillen. \>**Save** .
+4. In het **dialoogvenster Procesrecht** kunt u de duur van de procesduur opgeven in het veld Duur van de duur van **de procesduur.** Laat het veld leeg als u een oneindige greep wilt plaatsen. U kunt ook notities toevoegen en de eigenaar van het postvak naar een website leiden die u mogelijk meer moet uitleggen over de procedure. \>**Opslaan**.
     
-**Bewaren:** U kunt een aangepast bewaarbeleid inschakelen, bijvoorbeeld om gedurende een bepaalde periode te behouden of om inhoud permanent te verwijderen aan het einde van de bewaarperiode. Voor meer informatie raadpleegt u [overzicht van bewaarbeleid](https://docs.microsoft.com/microsoft-365/compliance/retention-policies).
+**Bewaring:** U kunt aangepaste bewaarbeleidsregels inschakelen, bijvoorbeeld om inhoud voor een bepaalde periode te bewaren of inhoud permanent te verwijderen aan het einde van de bewaarperiode. Zie Overzicht van [bewaarbeleid voor](../compliance/retention.md)meer informatie.
 
-## <a name="set-up-sensitivity-labels"></a>Gevoeligheids labels instellen
+## <a name="set-up-sensitivity-labels"></a>Gevoeligheidslabels instellen
 
-Vertrouwelijkheids etiketten komen voor Azure Information Protection (beheerders abonnement 1) en helpen u bij het classificeren van uw documenten en e-mailberichten, door labels toe te passen. Labels kunnen automatisch worden toegepast door beheerders die regels en voorwaarden definiëren, handmatig door gebruikers of met behulp van een combinatie waarbij gebruikers aanbevelingen doen.
+Gevoeligheidslabels worden bij Azure Information Protection (AIP) Plan 1 gebruikt, en u kunt uw documenten en e-mailberichten classificeren en desgewenst beveiligen door etiketten toe te passen. Labels kunnen automatisch worden toegepast door beheerders die regels en voorwaarden definiëren, handmatig door gebruikers, of door een combinatie te gebruiken waarin gebruikers aanbevelingen krijgen.
 
-Voor het instellen van laag tekstlabels, bekijkt u de video voor het [maken en beheren van gevoeligheids labels](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
+Als u Gevoeligheidslabels wilt instellen, bekijkt u video over het maken en beheren [van gevoeligheidslabels.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
 
 
 
 ### <a name="install-the-azure-information-protection-client-manually"></a>De Azure Information Protection-client handmatig installeren
 
-De beheerders client handmatig installeren:
+De AIP-client handmatig installeren:
 
-1. Download **AzinfoProtection_UL.exe** van het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53018).
+1. Download **AzinfoProtection_UL.exe** downloadcentrum [van Microsoft.](https://www.microsoft.com/download/details.aspx?id=53018)
  
-2. U kunt controleren of de installatie heeft gewerkt door een Word-document te bekijken en ervoor te zorgen dat de optie **gevoeligheid** beschikbaar is op het tabblad **Start** .
-<br/>![Vervolgkeuzelijst beveiliging in een Word-document.](../media/word-sensitivity.png)
+2. U kunt controleren of de installatie heeft gewerkt door  een Word-document weer te geven en ervoor te zorgen dat de optie Gevoeligheid beschikbaar is op het **tabblad** Start.
+<br/>![Vervolgkeuzevenster Beveiliging in een Word-document.](../media/word-sensitivity.png)
 
-Zie voor meer informatie [de client installeren](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).
+Zie De [client installeren voor meer informatie.](/azure/information-protection/infoprotect-tutorial-step3)

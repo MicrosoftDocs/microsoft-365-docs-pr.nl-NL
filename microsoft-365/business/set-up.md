@@ -30,22 +30,22 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Ontdek de installatiestappen voor Microsoft 365 Business Premium, waaronder het toevoegen van een domein en gebruikers, het instellen van beveiligingsbeleid en meer.
-ms.openlocfilehash: e7ebe179c67077dc71ae4873b0711d0e810c701a
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 5b082e78f3dc4067dcce4a96a8088b2347bc3af4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044725"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912565"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Microsoft 365 Business Premium instellen in de installatiewizard
 
-Bekijk deze video voor een overzicht van de configuratie van Microsoft 365 Business Premium.<br><br>
+Bekijk deze video voor een overzicht van de installatie van Microsoft 365 Business Premium.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-## <a name="add-your-domain-users-and-set-up-policies"></a>Uw domein en gebruikers toevoegen en beleidsregels instellen
+## <a name="add-your-domain-users-and-set-up-policies"></a>Uw domein, gebruikers toevoegen en beleidsregels instellen
 
-Wanneer u Microsoft 365 Business Premium koopt, hebt u de mogelijkheid om een domein te gebruiken waar u eigenaar van bent, of om er een te kopen tijdens [de aanmelding.](sign-up.md)
+Wanneer u Microsoft 365 Business Premium aanschaft, kunt u een domein gebruiken dat u bezit of een domein kopen tijdens [de aanmelding.](sign-up.md)
 
 - Als u tijdens de registratie een nieuw domein hebt gekocht, is uw domein helemaal ingesteld en kunt u doorgaan met [Gebruikers toevoegen en licenties toewijzen](#add-users-and-assign-licenses).
 
@@ -64,26 +64,26 @@ Wanneer u Microsoft 365 Business Premium koopt, hebt u de mogelijkheid om een do
     > [!IMPORTANT]
     > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Ga in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
 
-    ![Schermafbeelding van de aanmeldingspagina Personaliseren.](../media/adddomain.png)
+    ![Schermafbeelding van de pagina Uw aanmelding aan uw persoonlijke voorkeur personaliseren.](../media/adddomain.png)
 
     
-4. Volg de stappen in de wizard om DNS-records te maken bij een [DNS-hostingprovider voor Microsoft 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarbij wordt geverifieerd dat u eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Volg de stappen in de wizard om DNS-records te maken bij een [DNS-hostingprovider voor Microsoft 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) die controleert of u de eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Als uw hostingprovider GoDaddy of een andere host is die is ingeschakeld met [domeinverbinding](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en u namens Microsoft te laten verifiëren.
+    Als uw hostingprovider GoDaddy of een andere host is die is ingeschakeld met [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en u namens Microsoft te laten verifiëren.
 
     ![Selecteer Autoriseren op de pagina GoDaddy Toegang bevestigen.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Gebruikers toevoegen en licenties toewijzen
 
-U kunt gebruikers toevoegen in de wizard, maar u kunt ook [gebruikers later toevoegen](add-users-m365b.md) in het beheercentrum. Als u een lokale domeincontroller hebt, kunt u ook gebruikers toevoegen met [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
+U kunt gebruikers toevoegen in de wizard, maar u kunt ook [gebruikers later toevoegen](../admin/add-users/add-users.md) in het beheercentrum. Als u een lokale domeincontroller hebt, kunt u ook gebruikers toevoegen met [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-install-express).
 
 #### <a name="add-users-in-the-wizard"></a>Gebruikers toevoegen in de wizard
 
-Aan alle gebruikers die u in de wizard toevoegt, wordt automatisch een Licentie voor Microsoft 365 Business Premium toegewezen.
+Gebruikers die u in de wizard toevoegt, krijgen automatisch een Microsoft 365 Business Premium-licentie toegewezen.
 
 ![Schermafbeelding van de pagina Nieuwe gebruikers toevoegen in de wizard](../media/addnewuserspage.png)
 
-1. Als uw Microsoft 365 Business Premium-abonnement bestaande gebruikers heeft (bijvoorbeeld als u Azure AD Connect hebt gebruikt), krijgt u de optie om nu licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
+1. Als uw Microsoft 365 Business Premium-abonnement bestaande gebruikers heeft (bijvoorbeeld als u Azure AD Connect hebt gebruikt), krijgt u nu een optie om licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
 
 2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van referenties met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
 
@@ -94,40 +94,40 @@ Aan alle gebruikers die u in de wizard toevoegt, wordt automatisch een Licentie 
   
 Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinregistrar bijwerken.
   
-1. Meestal wordt uw registrar automatisch gedetecteerd met de wizard Setup, en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dit niet het geval is, wijzigt u naamservers voor het instellen van [Microsoft 365 bij een domeinregistrar.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar) 
+1. Meestal wordt uw registrar automatisch gedetecteerd met de wizard Setup, en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dit niet het geval is, [wijzigt u naamservers om Microsoft 365 in](../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md)te stellen bij een domeinregistrar. 
 
-    - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinverbinding](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), kiest u **Records toevoegen voor mij**. Accepteer alle standaardinstellingen op de pagina **Uw online services kiezen**, kies **Volgende** en kies **Autoriseren** op de pagina van uw DNS-host.
-    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisprincipes van domeinen](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
+    - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), kiest u **Records toevoegen voor mij**. Accepteer alle standaardinstellingen op de pagina **Uw online services kiezen**, kies **Volgende** en kies **Autoriseren** op de pagina van uw DNS-host.
+    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisprincipes van domeinen](/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
 
         ![Pagina Records activeren.](../media/activaterecords.png)
 
 2. Volg de stappen in de wizard en e-mail en andere services worden voor u ingesteld.
 
-### <a name="protect-your-organization"></a>Uw organisatie beschermen 
+### <a name="protect-your-organization"></a>Uw organisatie beveiligen 
 
-Het beleid dat u in de wizard in stellen, wordt automatisch toegepast op een beveiligingsgroep [met de naam](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) Alle *gebruikers.* U kunt ook extra groepen maken voor het toewijzen van beleidsregels in het beheercentrum.
+Het beleid dat u in de wizard hebt ingesteld, wordt automatisch toegepast op een [beveiligingsgroep](/office365/admin/create-groups/compare-groups#security-groups) met de naam *Alle gebruikers.* U kunt ook extra groepen maken om beleid toe te wijzen in het beheercentrum.
 
-1. Als u de bescherming tegen geavanceerde **cyberaanvallen** wilt verhogen, wordt u aangeraden de standaardinstellingen te accepteren om Bestanden en koppelingen van [Office 365 Advance Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) te scannen in Office-apps.
+1. Bij Het **vergroten van de** beveiliging tegen geavanceerde cyberdreigingen wordt aanbevolen dat u de standaardinstellingen accepteert om [Office 365 Advance Threat Protection](../security/office-365-security/office-365-atp.md) bestanden en koppelingen in Office-apps te laten scannen.
 
     ![Schermafbeelding van de pagina Beveiliging verhogen.](../media/increasetreatprotection.png)
 
 
-2. Accepteer  op de pagina Voorkom het lekken van gevoelige gegevens de standaardinstellingen om Office 365 Preventie van gegevensverlies (DLP) in te stellen om gevoelige gegevens in Office-apps bij te houden en te voorkomen dat deze per ongeluk worden gedeeld buiten uw organisatie.
+2. Accepteer  op de pagina Lekken van gevoelige gegevens voorkomen de standaardinstellingen om Office 365 Data Loss Prevention (DLP) in te stellen om gevoelige gegevens in Office-apps bij te houden en te voorkomen dat deze per ongeluk buiten uw organisatie worden gedeeld.
 
-3. Op de **pagina Gegevens beveiligen in Office** voor mobiele apparaten laat u het beheer van mobiele apps aan, vouwt u de instellingen uit en controleert u deze en selecteert u Beleid voor het beheer van mobiele apps **maken.**
+3. Laat op de pagina **Gegevens beveiligen in Office** voor mobiel het beheer van mobiele apps aan, vouw de instellingen uit en bekijk ze en selecteer vervolgens Beleid voor mobiel **app-beheer maken.**
 
-    ![Schermafbeelding van de pagina Gegevens beveiligen in Office voor mobiele apparaten.](../media/protectdatainmobile.png)
+    ![Schermafbeelding van de pagina Gegevens beveiligen in Office voor mobiel.](../media/protectdatainmobile.png)
 
 
 ## <a name="secure-windows-10-pcs"></a>Windows 10-pc's beveiligen
 
-Selecteer in het linkernavigatievenster **Setup** en kies vervolgens onder Aanmelden en beveiliging de optie **Uw Windows 10-computers beveiligen.**  Kies **Weergeven om** aan de slag te gaan. Zie [uw Windows 10-computers beveiligen voor](secure-win-10-pcs.md) volledige instructies.
+Selecteer in het linkernavigatievenster **Setup** en kies vervolgens onder Aanmelden en beveiliging **de** optie Uw Windows **10-computers beveiligen.** Kies **Weergeven om** aan de slag te gaan. Zie [Uw Windows 10-computers beveiligen voor](secure-win-10-pcs.md) volledige instructies.
 
-## <a name="deploy-office-365-client-apps"></a>Office 365-clientapps implementeren
+## <a name="deploy-office-365-client-apps"></a>Office 365-client-apps implementeren
 
-Als u ervoor kiest om Office-apps automatisch te installeren tijdens de installatie, worden de apps geïnstalleerd op de Windows 10-apparaten nadat de gebruikers zich met hun Windows-apparaten hebben aangemeld bij Azure AD, met hun werkreferenties.
+Als u ervoor kiest om Office-apps automatisch te installeren tijdens de installatie, worden de apps geïnstalleerd op de Windows 10-apparaten zodra de gebruikers zich hebben aangemeld bij Azure AD vanaf hun Windows-apparaten, met hun werkreferenties.
 
-Zie Mobiele apparaten instellen voor gebruikers van [Microsoft 365 Business Premium](set-up-mobile-devices.md)als u Office wilt installeren op mobiele iOS- of Android-apparaten.
+Zie Mobiele apparaten instellen voor Microsoft [365 Business Premium-gebruikers](set-up-mobile-devices.md)als u Office wilt installeren op mobiele iOS- of Android-apparaten.
 
 U kunt Office ook afzonderlijk installeren. Zie [Office installeren op een pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) voor instructies.
 

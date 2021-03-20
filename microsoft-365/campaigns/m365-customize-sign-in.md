@@ -1,5 +1,5 @@
 ---
-title: Aanmeldingspagina aanpassen met een privacy- en toestemmingsbericht
+title: Aanmeldingspagina aanpassen met een privacy- en toestemmingsverklaring
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,29 +21,29 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Pas uw aanmeldingspagina aan met een privacy- en toestemmingsbericht voor Microsoft 365.
-ms.openlocfilehash: 894686ac785e979b8491cd5943c9a071d3be9ee9
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+description: Pas uw aanmeldingspagina aan met een privacy- en toestemmingsverklaring voor Microsoft 365.
+ms.openlocfilehash: cb6e7f91c31e1a8bbacb9904a5aad7a76af8ffcb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044552"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912116"
 ---
-# <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a>Uw aanmeldingspagina aanpassen met een privacy- en toestemmingsbericht
+# <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a>Uw aanmeldingspagina aanpassen met een privacy- en toestemmingsverklaring
 
-Uw bedrijf of campagne maakt het voor advocatenkantoorsinstanties gemakkelijker om juridische kosten in te dienen tegen online criminelen door een privacy- en toestemmingsbericht toe te voegen aan uw aanmeldingspagina.
+Uw bedrijf of campagne kan het voor wetshandhavers gemakkelijker maken om juridische kosten in te dienen tegen onlinecriminelen door een privacy- en toestemmingsverklaring toe te voegen aan uw aanmeldingspagina.
 
-U kunt uw aanmeldingspagina aanpassen met uw huisstijl. U kunt ook tekst toevoegen om uw gebruikers te helpen zich aan te melden of om juridische vereisten of beperkingen aan te wijzen voor het verkrijgen van toegang tot Microsoft 365-bronnen.
+U kunt uw aanmeldingspagina aanpassen met uw huisstijl. U kunt ook tekst toevoegen om uw gebruikers te helpen zich aan te melden of om juridische vereisten of beperkingen aan te wijzen voor het verkrijgen van toegang tot Microsoft 365-resources.
 
 ## <a name="design-customization-the-text-on-your-sign-in-page"></a>De tekst op de aanmeldingspagina aanpassen
 
-Als u de aanpasbare elementen op de aanmeldingspagina wilt bijwerken, moet u een globale beheerder zijn. Zie het artikel Huisstijl toevoegen [voor specifieke](https://docs.microsoft.com/azure/active-directory/fundamentals/customize-branding) instructies.
+Als u de aanpasbare elementen op de aanmeldingspagina wilt bijwerken, moet u een globale beheerder zijn. Zie het artikel [Bedrijfsbranding](/azure/active-directory/fundamentals/customize-branding) toevoegen voor specifieke instructies.
 
-U kunt de volgende elementen bijwerken:
+De elementen die u kunt bijwerken zijn:
 
-- **Tekst op aanmeldingspagina** Een eenvoudige plaats om de privacy- en toestemmingsverklaring toe te voegen.
+- **Tekst van aanmeldingspagina** Een eenvoudige plek om de privacy- en toestemmingsverklaring toe te voegen.
 - Achtergrondafbeelding van aanmeldingspagina
 - Bannerlogo
-- Hint voor gebruikersnaam
+- Gebruikersnaamhint
 
-Zie bijlage A bij het zoeken en van het formaat van computers en het verkrijgen van elektronisch bewijs in strafrechtelijke onderzoeken voor voorbeelden van privacy- en [toestemmingsverklaringen.](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf)
+Zie Bijlage A in Computers zoeken en seizing zoeken en elektronisch bewijs verkrijgen in strafrechtelijke onderzoeken voor voorbeelden van privacy- en [toestemmingsverklaringen.](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf)

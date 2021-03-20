@@ -1,5 +1,5 @@
 ---
-title: Basisinformatie over de toewijzing
+title: Basisprincipes van toewijzing
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -13,40 +13,40 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
 ms.custom: AdminSurgePortfolio
-description: Meer informatie over de nieuwe functieservice-eenheden.
-ms.openlocfilehash: 2ab8efd637bb278faf6065559cab26cb7016975b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Meer informatie over de nieuwe toewijzingsfunctie.
+ms.openlocfilehash: 62df346def3fd2577568916d2d668ca50542bdbd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638229"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911612"
 ---
-# <a name="allotment-basics"></a>Basisinformatie over de toewijzing
+# <a name="allotment-basics"></a>Basisprincipes van toewijzing
 
-Met licentie-eenheden kunt u licentie limieten instellen en het beheer van een licentie delegeren aan alleen de producten en de door u geselecteerde licentie limieten.
+Met licentietoewijzingen kunt u licentielimieten en gedelegeerdenbeheer van licentietoewijzingen instellen voor alleen de producten en licentielimieten die u selecteert.
 
-Toewijs service voor groeps licenties gebruiken voor het toewijzen van licenties aan uw gebruikers. Licentie limieten zorgen voor extra controle over het aantal licenties dat is toegewezen aan de gebruikers in uw groepen. U kunt er ook voor zorgen dat u binnen de toegestane licentielimiet blijft, zelfs als het aantal gebruikers in uw groepen toeneemt.
+Toewijzingen gebruiken groepslicenties om licenties toe te wijzen aan uw gebruikers. Licentielimieten bieden extra controle over het aantal licenties dat aan de gebruikers in uw groepen wordt toegewezen. Dus zelfs als het aantal gebruikers in uw groepen toeneemt, kunt u ervoor zorgen dat u binnen de licentielimiet blijft die u hebt ingesteld voor uw toewijzing.
 
-U kunt ook het beheer van uw service-eenheden delegeren. Gedelegeerde service-eigenaren krijgen toegang tot het Beheercentrum, maar kunnen de licenties alleen weergeven en beheren in de toegewezen toewijzingen. Dit biedt een meer granulaire overdracht van Licentiebeheer binnen uw organisatie.
+U kunt ook het beheer van uw toewijzingen delegeren. Gedelegeerde toewijzingseigenaren krijgen toegang tot het beheercentrum, maar kunnen de licenties alleen zien en beheren in de toewijzingen die ze bezitten. Dit biedt een gedetailleerdere delegatie van licentiebeheer binnen uw organisatie.
 
 ## <a name="prerequisites"></a>Vereisten
 
-U moet voldoen aan de licentievereisten voor [op groepen gebaseerde licenties](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).
+U moet voldoen aan de licentievereisten voor [groepslicenties.](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements)
 
-U kunt de toewijzingsservice gebruiken voor alle producten die beschikbaar zijn voor gebruikers:
+U kunt toewijzingen gebruiken met elk product dat beschikbaar is voor gebruikers:
 
 - Office-suites en zelfstandige producten
-- Enterprise-en mobiliteits producten
+- Ondernemings- en mobiliteitsproducten
 - Dynamics 365-producten
 
 De volgende producten kunnen niet worden gebruikt met toewijzingen:
 
 - Microsoft Store-apps
-- Permanente software, of software die rechtstreeks aan een gebruiker is toegewezen als er geen licentie is vereist.
-- Azure-informatiebronnen
+- Eeuwigdurende software of software die rechtstreeks aan een gebruiker is toegewezen als er geen licentie bij betrokken is.
+- Azure-resources
 
-U moet een globale beheerder of een licentiebeheerder zijn om aan de slag te gaan met een toewijzing.
+U moet een globale beheerder of licentiebeheerder zijn om aan de slag te gaan met een toewijzing.
 
 ## <a name="getting-started"></a>Aan de slag
 
-De functieservice-eenheden is alleen beschikbaar in een persoonlijke preview-versie van slechts een klein aantal klanten. Als u wilt deelnemen, vult u dit formulier in: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) .
+De toewijzingsfunctie is beschikbaar in een privévoorbeeld voor slechts een klein aantal klanten. Als u wilt deelnemen, vult u dit formulier in: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) .

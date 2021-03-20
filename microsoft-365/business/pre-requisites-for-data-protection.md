@@ -1,5 +1,5 @@
 ---
-title: Voorwaarden voor het beveiligen van gegevens op apparaten met Microsoft 365 voor bedrijven
+title: Vereisten voor het beveiligen van gegevens op apparaten met Microsoft 365 voor Bedrijven
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,32 +21,32 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Meer informatie over de vereisten voor het instellen van uw organisatie met Microsoft 365 voor bedrijven en het beschermen van werkgegevens op de apparaten van uw gebruikers.
-ms.openlocfilehash: 237825d2c2683bb6e71ae2fd31f8a25b1aa85ff7
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Meer informatie over de vereisten voor het instellen van uw organisatie met Microsoft 365 voor Bedrijven en het beveiligen van werkgegevens op de apparaten van uw gebruikers.
+ms.openlocfilehash: c0fca0e038d15b19cb2a37eb5705296ed3da3746
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785887"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912897"
 ---
-# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Voorwaarden voor het beveiligen van gegevens op apparaten met Microsoft 365 voor bedrijven
+# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Vereisten voor het beveiligen van gegevens op apparaten met Microsoft 365 voor Bedrijven
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
-De eerste stap bij het opzetten van uw organisatie met Microsoft 365 voor bedrijven is ervoor te zorgen dat u aan de vereisten voldoen.
+De eerste stap bij het instellen van uw organisatie met Microsoft 365 voor Bedrijven is ervoor te zorgen dat u aan de vereisten kunt voldoen.
   
-## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Vereisten voor het instellen van uw organisatie met Microsoft 365 voor bedrijven
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Vereisten voor het instellen van uw organisatie met Microsoft 365 voor Bedrijven
 
 - Op Windows-apparaten moet Windows 7 Professional, Windows 8 Pro of Windows 8.1 Pro worden uitgevoerd.
     
     [Upgrade Windows devices to Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md) (Windows-apparaten bijwerken naar de Windows Pro-makersupdate
     
-    Als u Windows 10 Home uitvoert, moet u Windows 10 Pro **aanschaffen.** Zie [Upgrade Windows 10 Home naar Windows 10 Pro](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) voor instructies. 
+    Als u Windows 10 Home gebruikt, moet **u** Windows 10 Pro kopen. Zie [Windows 10 Home upgraden naar Windows 10 Pro voor](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) instructies. 
     
-- Verwijder apparaten uit oplossingen voor mobiel beheer (Mobile Iron, AirWatch, enzovoort). U schrijft alle mensen in uw organisatie in microsoft 365 in voor mobiel bedrijfsbeheer.
+- Apparaten verwijderen uit mobiele beheeroplossingen (Mobile Iron, AirWatch, etc.). U kunt alle personen in uw organisatie registreren in microsoft 365 voor mobiel beheer voor bedrijven.
     
 - Apple iOS 8.0 en hoger.
     
-    Google Android 4.0 en hoger (inclusief Samsung KNOX Standard 4.0 en hoger). Zie [Intune ondersteunde apparaten](https://go.microsoft.com/fwlink/p/?linkid=852307)voor meer informatie.
+    Google Android 4.0 en hoger (inclusief Samsung KNOX Standard 4.0 en hoger). Zie [Ondersteunde apparaten in Intune voor meer informatie.](/mem/intune/fundamentals/supported-devices-browsers)
     
-- Als u bestaande Office-toepassingen op gebruikerscomputers hebt, leest [u de installatie van Office-clients voor](prepare-for-office-client-deployment.md) om inzicht te krijgen in de stappen die u mogelijk moet nemen voordat u Microsoft 365 voor Bedrijven instellen om Office 2016 op gebruikerscomputers te installeren. 
+- Als u bestaande Office-toepassingen op gebruikerscomputers hebt, leest u Voorbereidingen treffen voor de installatie van [office-client](prepare-for-office-client-deployment.md) om te begrijpen welke stappen u moet ondernemen voordat u Microsoft 365 voor Bedrijven kunt instellen voor het installeren van Office 2016 op gebruikerscomputers.

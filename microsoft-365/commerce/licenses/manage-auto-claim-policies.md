@@ -18,12 +18,12 @@ ms.custom:
 - commerce
 search.appverid:
 - MET150
-ms.openlocfilehash: c1715d2420315c6e645303c959512a45d47fddfe
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: bf3f79e425b3f7cd86f1a5ab95a337ef5127e345
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50759204"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911468"
 ---
 # <a name="manage-auto-claim-policies"></a>Beleidsregels voor automatisch claimen beheren
 
@@ -43,7 +43,7 @@ Nadat u een beleid voor automatisch claimen hebt uitgevoerd, kunt u de volgende 
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale, facturerings- of gebruikersbeheerder zijn om beleidsregels voor automatisch claimen te maken en te beheren. Zie [Over beheerdersrollen in Microsoft 365](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder zijn om beleidsregels voor automatisch claimen te maken en te beheren. Zie [Over beheerdersrollen in Microsoft 365](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="turn-the-auto-claim-policy-feature-on-or-off"></a>De functie beleid voor automatisch claimen in- of uitschakelen
 

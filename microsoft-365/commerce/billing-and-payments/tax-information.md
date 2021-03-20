@@ -16,22 +16,22 @@ ms.collection:
 - commerce
 search.appverid:
 - MET150
-description: "Bekijk hoeveel belasting u betaalt voor uw abonnement op Microsoft 365 voor bedrijven in verschillende regio's. "
+description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Microsoft 365 voor Bedrijven-abonnement in verschillende regio's. "
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: d3654dd307e15e58acdd06277cf7338da537e5c6
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: 11a7aa1e1825e41f463de17eebd676d8168a56d8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806598"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911708"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
-Wanneer u Microsoft 365-producten en-diensten koopt, worden de BTW die u betaalt, bepaald door twee zaken: uw bedrijfsadres of uw verzendadres, als dit verschilt. Als uw organisatie zich in de Verenigde Staten bevindt, moet u een nationale werkgevers identificatienummer (FEIN) invoeren.
+Wanneer u Microsoft 365-producten en -services koopt, worden de belastingen die u betaalt bepaald door een van de twee dingen: uw zakelijke adres of uw verzendadres, als dit anders is. Als uw organisatie in de Verenigde Staten is, moet u een FEIN (Federal Employer Identification Number) geven.
 
-Bedrijven in de volgende landen kunnen hun BTW-nummer of een plaatselijk equivalent invoeren:
+Bedrijven in de volgende landen kunnen hun btw-nummer of lokale equivalent verstrekken:
 
 :::row:::
     :::column:::
@@ -42,7 +42,7 @@ Bedrijven in de volgende landen kunnen hun BTW-nummer of een plaatselijk equival
 - Bangladesh
 - Belarus
 - België
-- Brazilië
+- Brazilië*
 - Bulgarije
 - Chili
 - Colombia
@@ -56,14 +56,14 @@ Bedrijven in de volgende landen kunnen hun BTW-nummer of een plaatselijk equival
 - Duitsland
 - Griekenland
 - Hongarije
-- Indische
+- India*
 - Indonesië
 - Ierland
 - Isle of Man
 - Italië
     :::column-end:::
     :::column:::
-- Korea
+- Korea 
 - Letland
 - Liechtenstein
 - Litouwen
@@ -92,82 +92,82 @@ Bedrijven in de volgende landen kunnen hun BTW-nummer of een plaatselijk equival
     :::column-end:::
 :::row-end:::
 
-* Voor de meeste van de landen die worden vermeld, inclusief een BTW-nummer of een plaatselijk equivalent is optioneel. Voor Brazilië en India is het BTW-identificatienummer vereist.
+*Voor de meeste vermelde landen is het optioneel om een btw-nummer of een lokaal equivalent op te geven. Voor Brazilië en India is het nummer van de belastingaanduiding vereist.
 
 > [!Note]
-> Als u contact wilt opnemen met de ondersteuning, moet u uw FEIN, BTW-nummer of een lokaal contact laten doen om aan de ondersteuningsmedewerker te kunnen geven.
+> Als u contact wilt opnemen met de ondersteuning, moet u uw FEIN-, btw-nummer of lokale equivalent aan de ondersteuningsagent geven.
 
 ## <a name="europe-the-middle-east-and-africa-emea"></a>Europa, het Midden-Oosten en Afrika (EMEA)
 
-Wanneer u Microsoft 365-Services aanschaft in de EMEA-regio, kon deze aankoop Value-Added BTW onderhevig zijn.
+Wanneer u Microsoft 365-services koopt in de EMEA-regio, kan voor deze aankoop Value-Added btw worden betaald.
   
-- Als u zich bevindt in een lidstaat van de Europese Unie, Armenië, Belarus, Noorwegen, Turkije of Verenigde Arabische Emiraten, en u uw geldige lokale BTW-nummer niet opgeeft, wordt het huidige lokale BTW-tarief toegepast op basis van het Factuurland waarnaar uw account is ingesteld.
+- Als u zich in een lidstaat van de Europese Unie, Armenië, Wit-Rusland, Noorwegen, Turkije of de Verenigde Arabische Emiraten bevindt en u uw geldige lokale btw-id niet verstrekt, wordt het huidige lokale btw-tarief toegepast op basis van het factureringsland waarin uw account is ingesteld.
 
-- Als u zich bevindt in Liechtenstein, Rusland, Servië, Zuid-Afrika of Zwitserland, wordt de BTW toegepast, ongeacht of u uw BTW-nummer opgeeft of niet.
+- Als u zich in Liechtenstein, Rusland, Servië, Zuid-Afrika of Zwitserland bevindt, wordt de btw toegepast, ongeacht of u uw btw-id op geeft of niet.
 
-- Voor Europese klanten moet het BTW-nummer in het BTW-systeem (INTRACOMM. Exchange System) zijn voor verificatie voordat we uw BTW-nummer kunnen valideren. Neem contact op met uw belastingdienst als uw BTW-nummer niet kan worden gecontroleerd.
+- Voordat we uw btw-id kunnen valideren voor EU-klanten, moet deze beschikbaar zijn voor verificatie in het BTW-informatieuitwisselingssysteem (VIES). Als uw btw-id niet kan worden geverifieerd, neem dan contact op met uw lokale belastingdienst.
 
-U komt mogelijk in aanmerking voor BTW-tarief:
+U komt mogelijk in aanmerking voor btw-nul als:
   
-- **U bevindt zich in een lidstaat van de Europese Unie, buiten Ierland:** U kunt uw geldige lokale BTW-nummer geven. Dit kan Microsoft Ireland Operations Ltd. BTW-tarief voor de transactie. Misschien hebt u echter een lokale BTW-boekings verplichting. Als u problemen ondervindt, neemt u contact op met uw belastingadviseur. Voor instructies raadpleegt [u uw BTW-nummer toevoegen](#add-your-vat-id).
+- **U bent in een lidstaat van de Europese Unie buiten Ierland:** U kunt uw geldige lokale btw-id verstrekken. Hierdoor kan Microsoft Ireland Operations Ltd. de transactie zonder btw betalen. Het is echter mogelijk dat u een lokale btw-verplichting hebt. Neem contact op met uw belastingadviseurs als u zich zorgen maakt. Zie Uw btw-id toevoegen [voor instructies.](#add-your-vat-id)
 
-- **U bent in Ierland en hebt de toepasselijke geldig BTW-vrijstellings certificering:** Microsoft Ireland Operations Ltd. mei mag de transactie van BTW uitsluiten. Als u dat niet doet, past Microsoft Ireland Operations Ltd. het huidige Ierse BTW-tarief toe, ongeacht of u een BTW-nummer opgeeft of niet.
+- U bent in Ierland en hebt de relevante **geldige certificering voor btw-vrijstelling:** Microsoft Ireland Operations Ltd. kan het recht hebben om de transactie vrij te stellen van btw. Als dat niet het geval is, past Microsoft Ireland Operations Ltd. het huidige Ierse btw-tarief toe, ongeacht of u een btw-nummer op geeft of niet.
 
-- **U bent in Armenië, Belarus, Noorwegen, Turkije of Verenigde Arabische Emiraten:** U kunt uw lokale BTW-nummer geven. Dit geeft recht op Microsoft Ireland Operations Ltd. voor BTW met een tarief voor de transactie. Mogelijk hebt u een lokale BTW-boekings verplichting, dus neem contact op met uw belastingadviseur als u problemen hebt. Voor instructies raadpleegt [u uw BTW-nummer toevoegen](#add-your-vat-id).
+- **U bent in Armenië, Wit-Rusland, Noorwegen, Turkije of de Verenigde Arabische Emiraten:** U kunt uw lokale btw-id verstrekken. Hierdoor heeft Microsoft Ireland Operations Ltd. recht op btw-tarief voor de transactie. U hebt echter mogelijk een lokale btw-verplichting, dus neem contact op met uw belastingadviseurs als u problemen hebt. Zie Uw btw-id toevoegen [voor instructies.](#add-your-vat-id)
 
 ## <a name="asia-pacific-countries-apac"></a>Azië en Stille Oceaan (APAC)
 
-Als u factureert door het Microsoft Regional Sales Office, ' Microsoft Regional Sales Pte. Ltd. wordt op de factuur weergegeven en u wordt mogelijk kosten in rekening gebracht voor eventuele toegevoegde toegevoegde waarden, verkoop of soortgelijke belastingen.
+Als u wordt gefactureerd door het Microsoft Regional Sales-kantoor, 'Microsoft Regional Sales Pte. Ltd.' wordt weergegeven op uw factuur en mogelijk worden er kosten in rekening gebracht voor eventuele toepasselijke belastingen op toegevoegde waarde, verkopen of soortgelijke belastingen.
   
-Als u een van de volgende locaties factureert, wordt de huidige BTW toegepast. De locatie wordt [op uw factuur](view-your-bill-or-invoice.md)opgenomen:
+Als u wordt gefactureerd vanaf een van de volgende locaties, wordt de huidige lokale belasting toegepast. De locatie wordt op [uw factuur opgenomen:](view-your-bill-or-invoice.md)
   
 - India
 - Japan 
-- Korea
+- Korea 
 - Singapore
 - Taiwan
 
 ## <a name="north-central-and-south-america"></a>Noord-, Centraal- en Zuid-Amerika
 
-In de Verenigde Staten, Canada, Mexico, Chili en Colombia gelden diverse BTW-tarieven, afhankelijk van de aard van het product en uw locatie.
+In de Verenigde Staten, Canada, Mexico, Chili en Colombia gelden verschillende belastingtarieven, afhankelijk van het product en uw locatie.
   
-Als uw factuur wordt uitgevoerd door Microsoft Corporation ([Zie uw factuur](view-your-bill-or-invoice.md)) en u zich hebt geregistreerd voor microsoft 365 buiten de Verenigde Staten, Canada, Puerto Rico, Chili en Colombia, dan wordt er doorgaans geen BTW geheven.
+Als uw facturering wordt uitgevoerd door Microsoft Corporation[(zie](view-your-bill-or-invoice.md)uw factuur) en u zich hebt aangemeld voor Microsoft 365 buiten de Verenigde Staten, Canada, Puerto Rico, Chili en Colombia, wordt er over het algemeen geen belasting in rekening gebracht.
 
-## <a name="add-your-vat-id"></a>Uw BTW-nummer toevoegen
+## <a name="add-your-vat-id"></a>Uw BTW-id toevoegen
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Selecteer op het tabblad **Products** het abonnement dat u wilt bijwerken.
-3. Selecteer op de pagina Details van abonnement in de sectie **adres voor service gebruik** de optie **adres voor service gebruik bewerken** .
-4. Voer in het deelvenster **adres voor service gebruik bewerken** , in het vak **BTW-nummer** , uw BTW-nummer in, inclusief het voorvoegsel, en zonder spaties.
-5. Kies **Opslaan** .
+2. Zoek op het tabblad **Producten** het abonnement dat u wilt bijwerken.
+3. Selecteer op de pagina abonnementsgegevens in de sectie **Servicegebruiksadres** de optie **Adres van servicegebruik bewerken.**
+4. Voer in **het deelvenster Servicegebruiksadres** bewerken in het vak BTW-nummer uw btw-id in, inclusief het voorvoegsel, en zonder spaties. 
+5. Kies **Opslaan**.
 
-## <a name="how-taxes-are-calculated"></a>Hoe BTW wordt berekend
+## <a name="how-taxes-are-calculated"></a>Berekening van belastingen
 
-BTW wordt berekend op de prijs per eenheid en vervolgens geaggregeerd.
+Omzetbelastingen worden berekend op basis van de prijs per eenheid en vervolgens samengevoegd.
 
 Bijvoorbeeld:
 
->*(eenheidsprijs X BTW-tarief) X hoeveelheid = totale BTW*
+>*(eenheidsprijs X belastingtarief) X aantal = totale btw*
 
 -of-
 
->($1,29 X 0,095) X 100 = $12,25
+>($ 1,29 X 0,095) X 100 = $ 12,25
 
-## <a name="apply-for-tax-exempt-status"></a>Aangifte van belastingvrijstelling aanvragen
+## <a name="apply-for-tax-exempt-status"></a>Belastingvrijstelling aanvragen
 
-Als u in aanmerking komt voor belastingvrijstelling in uw markt, [start u een serviceaanvraag](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) voor het vrijmaken van belastingvrijstelling voor uw organisatie.
+Als u in aanmerking komt voor belastingvrijstelling in uw markt, start u een [serviceaanvraag](/office365/admin/contact-support-for-business-products) om de belastingvrijstellingsstatus voor uw organisatie vast te stellen.
 
-|Land of landinstelling | Documentatie |
+|Land of land | Documentatie |
 |------------------|----------------|
-| Canada | Certificaat van uitsluiting (of gelijkwaardige verklaring van autorisatie) |
-| Chili | IVA status-RUT (Registro Unico Tributario) |
-| Colombia | IVA status-RUT (Registro Unico Tributario) |
-| Internationale organisaties met belastingvrijstelling | Certificering/brief bevestiging van lokale belastingdienst |
+| Canada | Certificaat van vrijstelling (of een equivalente machtigingsbrief) |
+| Chili | IVA-status/RUT (Registro Unico Tributario) |
+| Colombia | IVA-status/RUT (Registro Unico Tributario) |
+| Internationale organisaties met belastingvrijstelling | Certificering /briefbevestiging van lokale belastingdiensten |
 | Ierland | 13B/56A Tax Exemption Certificate|
-| Verenigde Staten | BTW-vrijstellings certificaat |
-| Puerto Rico | Certificado de compras Exentas |
+| Verenigde Staten | Btw-vrijstellingscertificaat |
+| Puerto Rico | Certificado de Compras Exentas |
   
 ## <a name="related-content"></a>Verwante onderwerpen
   
-[Uw rekening of factuur weergeven](view-your-bill-or-invoice.md) (artikel) \
-Meer [informatie over uw rekening of factuur](understand-your-invoice.md) (artikel)
+[Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
+[Inzicht in uw rekening of factuur](understand-your-invoice.md) (artikel)
