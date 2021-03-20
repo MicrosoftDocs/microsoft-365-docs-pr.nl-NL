@@ -1,6 +1,6 @@
 ---
-title: Gedeelde query's gebruiken in de geavanceerde zoekopdracht van Microsoft 365 Defender
-description: Start onmiddellijk risicozoeken met vooraf gedefinieerde en gedeelde query's. Deel uw query's met het publiek of met uw organisatie.
+title: Gedeelde query's gebruiken in geavanceerde microsoft 365 Defender-zoekopdrachten
+description: Begin onmiddellijk met het zoeken naar bedreigingen met vooraf gedefinieerde en gedeelde query's. Deel uw query's met het publiek of met uw organisatie.
 keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, custom detections, schema, kusto, github repo, my queries, shared queries
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7dcf446b5e1014d411fc8af08dd15506a2b04e49
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ccf2b52c744e2ae8e7ccfc631268d79a375c91d4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932188"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904040"
 ---
-# <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken bij geavanceerd zoeken
+# <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken in geavanceerde zoekopdrachten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "49932188"
 
 
 
-[Geavanceerde](advanced-hunting-overview.md) zoekquery's kunnen worden gedeeld tussen gebruikers in dezelfde organisatie. U kunt query's die openbaar zijn gedeeld ook vinden in GitHub. Met deze query's kunt u snel specifieke scenario's voor het zoeken naar bedreigingen uitvoeren zonder dat u zelf query's moet schrijven.
+[Geavanceerde](advanced-hunting-overview.md) zoekquery's kunnen worden gedeeld tussen gebruikers in dezelfde organisatie. U kunt ook query's vinden die openbaar zijn gedeeld op GitHub. Met deze query's kunt u snel specifieke scenario's voor het zoeken naar bedreigingen uitvoeren zonder dat u zelf query's moet schrijven.
 
 ![Afbeelding van gedeelde query's](../../media/advanced-hunting-shared-queries.png)
 
@@ -46,33 +46,33 @@ U kunt een nieuwe of bestaande query opslaan, zodat deze alleen toegankelijk is 
 
 1. Een query maken of wijzigen. 
 
-2. Klik op **de vervolgkeuzeknop Query** opslaan en selecteer Opslaan **als.**
+2. Klik op **de vervolgkeuzeknop** Query opslaan en selecteer **Opslaan als**.
     
 3. Voer een naam in voor de query. 
 
    ![Afbeelding van het opslaan van een query](../../media/advanced-hunting-save-query.png)
 
 4. Selecteer de map waarin u de query wilt opslaan.
-    - **Gedeelde query's:** gedeeld met alle gebruikers in uw organisatie
+    - **Gedeelde query's:** gedeeld met alle gebruikers van uw organisatie
     - **Mijn query's,** die alleen voor u toegankelijk zijn
     
-5. Klik op **Opslaan**. 
+5. Kies **Opslaan**. 
 
-## <a name="delete-or-rename-a-query"></a>Een query verwijderen of de naam van een query wijzigen
-1. Klik met de rechtermuisknop op een query die u een andere naam wilt geven of die u wilt verwijderen.
+## <a name="delete-or-rename-a-query"></a>Een query verwijderen of de naam wijzigen
+1. Klik met de rechtermuisknop op een query die u wilt wijzigen of verwijderen.
 
-    ![Afbeelding van verwijderquery](../../media/advanced_hunting_delete_rename.png)
+    ![Afbeelding van de verwijderquery](../../media/advanced_hunting_delete_rename.png)
 
-2. Selecteer **Verwijderen en** bevestig het verwijderen. Of selecteer **Naam wijzigen** en geef een nieuwe naam op voor de query.
+2. Selecteer **Verwijderen** en bevestig verwijdering. Of selecteer **Naam wijzigen** en geef een nieuwe naam op voor de query.
 
 ## <a name="create-a-direct-link-to-a-query"></a>Een directe koppeling naar een query maken
-Als u een koppeling wilt genereren om uw query rechtstreeks in de geavanceerde queryeditor te openen, rondt u de query af en selecteert u **Koppeling delen.**
+Als u een koppeling wilt genereren die uw query rechtstreeks opent in de geavanceerde queryeditor, rondt u de query af en selecteert u **Koppeling delen.**
 
 ## <a name="access-queries-in-the-github-repository"></a>Access-query's in de GitHub-opslagplaats  
-Beveiligingsonderzoek van Microsoft deelt regelmatig geavanceerde zoekquery's in een aangewezen [openbare opslagplaats op GitHub.](https://aka.ms/hunting-queries) Deze opslagplaats is toegankelijk voor bijdragen. Als u wilt bijdragen, [kunt u gratis deelnemen aan GitHub.](https://github.com/)
+Microsoft-beveiligingsonderzoekers delen regelmatig geavanceerde zoekquery's in een aangewezen [openbare opslagplaats op GitHub.](https://aka.ms/hunting-queries) Deze opslagplaats staat open voor bijdragen. Als u wilt bijdragen, [kunt u gratis deelnemen aan GitHub.](https://github.com/)
 
 >[!tip]
->Microsoft-beveiligingsonderzoek biedt ook geavanceerde zoekquery's die u kunt gebruiken om activiteiten en indicatoren te vinden die zijn gekoppeld aan nieuwe bedreigingen. Deze query's worden geleverd als onderdeel van de [bedreigingsanalyserapporten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) in het Microsoft Defender-beveiligingscentrum.
+>Beveiligingsonderzoekers van Microsoft bieden ook geavanceerde zoekquery's die u kunt gebruiken om activiteiten en indicatoren te vinden die zijn gekoppeld aan nieuwe bedreigingen. Deze query's worden geleverd als onderdeel van de [bedreigingsanalyserapporten](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) in het Microsoft Defender-beveiligingscentrum.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

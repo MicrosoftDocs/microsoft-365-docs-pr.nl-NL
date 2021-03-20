@@ -1,5 +1,5 @@
 ---
-title: Exchange Online-postvakken beheren in een multige geo-omgeving
+title: Exchange Online-postvakken beheren in een multi-geo-omgeving
 ms.reviewer: adwood
 ms.author: chrisda
 author: chrisda
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
-description: Informatie over het beheren van multige geo-instellingen van Exchange Online in uw Microsoft 365-omgeving met PowerShell.
-ms.openlocfilehash: 83889b4582d2e305b2cb9f07a64307e85d30be77
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+description: Meer informatie over het beheren van multi-geo-instellingen van Exchange Online in uw Microsoft 365-omgeving met PowerShell.
+ms.openlocfilehash: c8f06318313c4192fc2b3a289727933c5a54f3ad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406040"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905582"
 ---
-# <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Exchange Online-postvakken beheren in een multige geo-omgeving
+# <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Exchange Online-postvakken beheren in een multi-geo-omgeving
 
-Exchange Online PowerShell is vereist voor het weergeven en configureren van meerdere geografische eigenschappen in uw Microsoft 365-omgeving. Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
+Exchange Online PowerShell is vereist voor het weergeven en configureren van multigeo-eigenschappen in uw Microsoft 365-omgeving. Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-U hebt de [Microsoft Azure Active Directory PowerShell-module](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) v1.1.166.0 of hoger in v1.x nodig om de eigenschap **PreferredDataLocation** op gebruikersobjecten te zien. Gebruikersobjecten die via AAD Connect in AAD zijn gesynchroniseerd, kunnen hun **PreferredDataLocation-waarde** niet rechtstreeks wijzigen via AAD PowerShell. Gebruikersobjecten in de cloud kunnen worden gewijzigd via AAD PowerShell. Zie Connect to PowerShell (Verbinding maken met PowerShell) als u verbinding wilt maken met Azure AD [PowerShell.](connect-to-microsoft-365-powershell.md)
+U hebt de [Microsoft Azure Active Directory PowerShell-module](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) v1.1.166.0 of hoger in v1.x nodig om de eigenschap **PreferredDataLocation** op gebruikersobjecten te zien. Gebruikersobjecten die via AAD Connect zijn gesynchroniseerd met AAD, kunnen hun **PreferredDataLocation-waarde** niet rechtstreeks wijzigen via AAD PowerShell. Gebruikersobjecten in de cloud kunnen worden gewijzigd via AAD PowerShell. Zie Verbinding maken met PowerShell als u verbinding wilt maken met Azure AD [PowerShell.](connect-to-microsoft-365-powershell.md)
 
-In Exchange Online-omgevingen met meerdere geografische omgevingen hoeft u geen handmatige stappen uit te voeren om geo's toe te voegen aan uw tenant. Nadat u het bericht in het berichtencentrum hebt ontvangen dat multige geo gereed is voor Exchange Online, zijn alle beschikbare geo's gereed en geconfigureerd voor gebruik.
+In Multi-Geo-omgevingen van Exchange Online hoeft u geen handmatige stappen uit te voeren om geo's toe te voegen aan uw tenant. Nadat u het Berichtcentrumbericht hebt ontvangen met de melding dat multi-geo gereed is voor Exchange Online, zijn alle beschikbare geo's gereed en geconfigureerd voor gebruik.
 
 ## <a name="connect-directly-to-a-geo-location-using-exchange-online-powershell"></a>Rechtstreeks verbinding maken met een geografische locatie met Exchange Online PowerShell
 
-Normaal gesproken maakt Exchange Online PowerShell verbinding met de centrale geografische locatie. Maar u kunt ook rechtstreeks verbinding maken met geografische satellietlocaties. Vanwege prestatieverbeteringen is het raadzaam om rechtstreeks verbinding te maken met de geografische satellietlocatie als u alleen gebruikers op die locatie beheert.
+Exchange Online PowerShell maakt meestal verbinding met de centrale geolocatie. Maar u kunt ook rechtstreeks verbinding maken met satellietlocatielocaties. Vanwege prestatieverbeteringen raden we u aan rechtstreeks verbinding te maken met de satellietlocatie als u alleen gebruikers op die locatie beheert.
 
-De vereisten voor het installeren en gebruiken van de EXO V2-module worden beschreven in [de EXO V2-module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)installeren en onderhouden.
+De vereisten voor het installeren en gebruiken van de EXO V2-module worden beschreven in [De EXO V2-module installeren](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)en onderhouden.
 
-Als u Exchange Online PowerShell wilt verbinden met een specifieke geografische locatie, is de *ConnectionUri-parameter* anders dan de normale verbindingsinstructies. De rest van de opdrachten en waarden zijn hetzelfde.
+Als u Exchange Online PowerShell wilt verbinden met een specifieke geografische locatie, is de *parameter ConnectionUri* anders dan de normale verbindingsinstructies. De rest van de opdrachten en waarden zijn hetzelfde.
 
-U moet de waarde toevoegen aan het einde `?email=<emailaddress>` van de _ConnectionUri-waarde._ `<emailaddress>` is het e-mailadres van **een postvak** op de doellocatie. Uw machtigingen voor dat postvak of de relatie met uw referenties zijn geen factor. Met het e-mailadres wordt aan Exchange Online PowerShell alleen verteld waar verbinding moet worden gemaakt.
+U moet met name de waarde toevoegen `?email=<emailaddress>` aan het einde van de _ConnectionUri-waarde._ `<emailaddress>` is het e-mailadres van **een postvak** in de doellocatie. Uw machtigingen voor dat postvak of de relatie met uw referenties zijn geen factor. het e-mailadres vertelt Exchange Online PowerShell waar u verbinding kunt maken.
 
-Klanten van Microsoft 365 of Microsoft 365 GCC hoeven meestal de _ConnectionUri-parameter_ niet te gebruiken om verbinding te maken met Exchange Online PowerShell. Maar als u verbinding wilt maken met een specifieke geografische locatie, moet u de _ConnectionUri-parameter_ gebruiken zodat u deze in de waarde `?email=<emailaddress>` kunt gebruiken.
+Microsoft 365- of Microsoft 365 GCC-klanten hoeven de _parameter ConnectionUri_ meestal niet te gebruiken om verbinding te maken met Exchange Online PowerShell. Maar als u verbinding wilt maken met een specifieke geografische locatie, moet u _de parameter ConnectionUri_ gebruiken, zodat u deze `?email=<emailaddress>` in de waarde kunt gebruiken.
 
 ### <a name="connect-to-a-geo-location-in-exchange-online-powershell"></a>Verbinding maken met een geografische locatie in Exchange Online PowerShell
 
-De volgende verbindingsinstructies werken voor accounts die al dan niet zijn geconfigureerd voor meervoudige verificatie (MFA).
+De volgende verbindingsinstructies werken voor accounts die wel of niet zijn geconfigureerd voor meervoudige verificatie (MFA).
 
 1. Laad in een Windows PowerShell-venster de EXO V2-module door de volgende opdracht uit te voeren:
 
@@ -49,7 +49,7 @@ De volgende verbindingsinstructies werken voor accounts die al dan niet zijn gec
    Import-Module ExchangeOnlineManagement
    ```
 
-2. In het volgende voorbeeld admin@contoso.onmicrosoft.com het beheerdersaccount en is de doellocatie de locatie olga@contoso.onmicrosoft.com postvak.
+2. In het volgende voorbeeld admin@contoso.onmicrosoft.com het beheerdersaccount en de doellocatie is de locatie waar het postvak olga@contoso.onmicrosoft.com zich bevindt.
 
    ```powershell
    Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
@@ -57,9 +57,9 @@ De volgende verbindingsinstructies werken voor accounts die al dan niet zijn gec
 
 3. Voer het wachtwoord voor de admin@contoso.onmicrosoft.com in de prompt die wordt weergegeven. Als het account is geconfigureerd voor MFA, moet u ook de beveiligingscode invoeren.
 
-## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>De beschikbare geografische locaties bekijken die zijn geconfigureerd in uw Exchange Online-organisatie
+## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>De beschikbare geografische locaties weergeven die zijn geconfigureerd in uw Exchange Online-organisatie
 
-Voer de volgende opdracht uit in Exchange Online PowerShell om de lijst met geconfigureerde geografische locaties in Microsoft 365 Multi-Geo weer te geven:
+Voer de volgende opdracht uit in Exchange Online PowerShell om de lijst met geconfigureerde geografische locaties in Microsoft 365 Multi-Geo te bekijken:
 
 ```powershell
 Get-OrganizationConfig | Select -ExpandProperty AllowedMailboxRegions | Format-Table
@@ -67,7 +67,7 @@ Get-OrganizationConfig | Select -ExpandProperty AllowedMailboxRegions | Format-T
 
 ## <a name="view-the-central-geo-location-for-your-exchange-online-organization"></a>De centrale geografische locatie voor uw Exchange Online-organisatie weergeven
 
-Voer de volgende opdracht uit in Exchange Online PowerShell om de centrale geografische locatie van uw tenant weer te geven:
+Voer de volgende opdracht uit in Exchange Online PowerShell om de centrale geografische locatie van uw tenant te bekijken:
 
 ```powershell
 Get-OrganizationConfig | Select DefaultMailboxRegion
@@ -75,27 +75,27 @@ Get-OrganizationConfig | Select DefaultMailboxRegion
 
 ## <a name="find-the-geo-location-of-a-mailbox"></a>De geografische locatie van een postvak zoeken
 
-Met de cmdlet **Get-Mailbox** in Exchange Online PowerShell worden de volgende multi geo-gerelateerde eigenschappen voor postvakken weergegeven:
+De **cmdlet Postvak** in Exchange Online PowerShell bevat de volgende multi-geogerelateerde eigenschappen voor postvakken:
 
-- **Database:** de eerste drie letters van de databasenaam komen overeen met de geografische code, die u vertelt waar het postvak zich momenteel bevindt. Voor onlinearchiefpostvakken moet de **eigenschap ArchiveDatabase** worden gebruikt.
+- **Database:** de eerste 3 letters van de databasenaam komen overeen met de geocode, die u vertelt waar het postvak zich momenteel bevindt. Voor Postvakken voor onlinearchiveren moet de eigenschap **ArchiveDatabase** worden gebruikt.
 
-- **MailboxRegion:** geeft de geografische locatiecode aan die is ingesteld door de beheerder (gesynchroniseerd vanuit **PreferredDataLocation** in Azure AD).
+- **Postvakregio:** geeft de geolocatiecode op die is ingesteld door de beheerder (gesynchroniseerd vanuit **PreferredDataLocation** in Azure AD).
 
-- **MailboxRegionLastUpdateTime:** geeft aan wanneer MailboxRegion voor het laatst is bijgewerkt (automatisch of handmatig).
+- **PostvakRegionLastUpdateTime:** geeft aan wanneer PostvakRegio voor het laatst is bijgewerkt (automatisch of handmatig).
 
-Gebruik de volgende syntaxis om deze eigenschappen voor een postvak weer te geven:
+Als u deze eigenschappen voor een postvak wilt zien, gebruikt u de volgende syntaxis:
 
 ```powershell
 Get-Mailbox -Identity <MailboxIdentity> | Format-List Database,MailboxRegion*
 ```
 
-Als u bijvoorbeeld de geografische locatiegegevens voor de postvakgegevens chris@contoso.onmicrosoft.com, moet u de volgende opdracht uitvoeren:
+Als u bijvoorbeeld de geografische locatiegegevens voor het postvak wilt chris@contoso.onmicrosoft.com, voer dan de volgende opdracht uit:
 
 ```powershell
 Get-Mailbox -Identity chris@contoso.onmicrosoft.com | Format-List Database, MailboxRegion*
 ```
 
-De uitvoer van de opdracht ziet er zo uit:
+De uitvoer van de opdracht ziet er als volgende uit:
 
 ```powershell
 Database                    : EURPR03DG077-db007
@@ -104,31 +104,31 @@ MailboxRegionLastUpdateTime : 2/6/2018 8:21:01 PM
 ```
 
 > [!NOTE]
-> Als de geografische locatiecode in de databasenaam niet overeenkomen met de waarde voor **MailboxRegion,** wordt het postvak automatisch in een wachtrij geplaatst en verplaatst naar de geografische locatie die wordt opgegeven door de waarde voor **PostvakRegio** (Exchange Online zoekt naar een niet-overeenkomende waarde tussen deze eigenschapswaarden).
+> Als de geolocatiecode in de databasenaam niet overeenkomen met de waarde **PostvakRegio,** wordt het postvak automatisch in een verplaatsingswachtrij geplaatst en verplaatst naar de geografische locatie die is opgegeven met de waarde **Postvakregio** (Exchange Online zoekt naar een onjuiste overeenkomst tussen deze eigenschapswaarden).
 
 ## <a name="move-an-existing-cloud-only-mailbox-to-a-specific-geo-location"></a>Een bestaand postvak in de cloud verplaatsen naar een specifieke geografische locatie
 
-Een gebruiker die alleen in de cloud werkt, is een gebruiker die niet wordt gesynchroniseerd met de tenant via AAD Connect. Deze gebruiker is rechtstreeks in Azure AD gemaakt. Gebruik de cmdlets **Get-MsolUser** en **Set-MsolUser** in de Azure AD-module voor Windows PowerShell om de geografische locatie weer te geven waar het postvak van een gebruiker die alleen in de cloud wordt opgeslagen, wordt opgeslagen.
+Een cloudgebruiker is een gebruiker die niet is gesynchroniseerd met de tenant via AAD Connect. Deze gebruiker is rechtstreeks gemaakt in Azure AD. Gebruik de **cmdlets Get-MsolUser** en **Set-MsolUser** in de Azure AD-module voor Windows PowerShell om de geografische locatie te bekijken of op te geven waar het postvak van een cloudgebruiker wordt opgeslagen.
 
-Als u de **PreferredDataLocation-waarde voor** een gebruiker wilt bekijken, gebruikt u deze syntaxis in Azure AD PowerShell:
+Als u de **waarde PreferredDataLocation** voor een gebruiker wilt weergeven, gebruikt u deze syntaxis in Azure AD PowerShell:
 
 ```powershell
 Get-MsolUser -UserPrincipalName <UserPrincipalName> | Format-List UserPrincipalName,PreferredDataLocation
 ```
 
-Als u bijvoorbeeld de **waarde PreferredDataLocation** voor de michelle@contoso.onmicrosoft.com gebruiker wilt zien, moet u de volgende opdracht uitvoeren:
+Als u bijvoorbeeld de **waarde PreferredDataLocation** voor de gebruiker michelle@contoso.onmicrosoft.com, voer dan de volgende opdracht uit:
 
 ```powershell
 Get-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com | Format-List
 ```
 
-Gebruik de volgende syntaxis in Azure AD PowerShell om de **waarde PreferredDataLocation** te wijzigen voor een gebruikersobject in de cloud:
+Gebruik de volgende syntaxis in Azure AD PowerShell om de **waarde PreferredDataLocation** voor een gebruikersobject in de cloud te wijzigen:
 
 ```powershell
 Set-MsolUser -UserPrincipalName <UserPrincipalName> -PreferredDataLocation <GeoLocationCode>
 ```
 
-Als u bijvoorbeeld de **waarde PreferredDataLocation** wilt instellen op de geografische waarde van de Europese Unie (EUR) voor de michelle@contoso.onmicrosoft.com gebruiker, moet u de volgende opdracht uitvoeren:
+Voer bijvoorbeeld de volgende opdracht uit als u de **waarde PreferredDataLocation** wilt instellen op de geo van de Europese Unie (EUR) voor de michelle@contoso.onmicrosoft.com gebruiker:
 
 ```powershell
 Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataLocation EUR
@@ -136,49 +136,49 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 
 > [!NOTE]
 >
-> - Zoals eerder vermeld, kunt u deze procedure niet gebruiken voor gesynchroniseerde gebruikersobjecten vanuit on-premises Active Directory. U moet de waarde **van PreferredDataLocation** in Active Directory wijzigen en synchroniseren met AAD Connect. Zie Azure [Active Directory Connect-synchronisatie: Voorkeursgegevenslocatie configureren voor Microsoft 365-bronnen](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation)voor meer informatie.
+> - Zoals eerder vermeld, kunt u deze procedure niet gebruiken voor gesynchroniseerde gebruikersobjecten van on-premises Active Directory. U moet de waarde **PreferredDataLocation** wijzigen in Active Directory en deze synchroniseren met AAD Connect. Zie Synchronisatie van Azure Active Directory Connect voor meer [informatie: Gewenste gegevenslocatie configureren voor Microsoft 365-resources.](/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation)
 >
-> - Hoe lang het duurt om een postvak een nieuwe geografische locatie te geven, hangt af van verschillende factoren:
+> - Hoe lang het duurt om een postvak te verplaatsen naar een nieuwe geografische locatie, hangt af van verschillende factoren:
 >
->   - De grootte en het type van het postvak.
+>   - De grootte en het type postvak.
 >   - Het aantal postvakken dat wordt verplaatst.
 >   - De beschikbaarheid van resources verplaatsen.
 
-### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>Een inactief postvak verplaatsen naar een specifieke geografische locatie
+### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>Een inactief postvak naar een specifiek geo verplaatsen
 
-U kunt inactieve postvakken die blijven behouden voor nalevingsdoeleinden (bijvoorbeeld postvakken bij het bewaren van postvakken met een juridische procedure) niet verplaatsen door de **PreferredDataLocation-waarde te** wijzigen. Als u een inactief postvak wilt verplaatsen naar een ander geografisch gebied, gaat u als volgt te werk:
+U kunt niet inactieve postvakken verplaatsen die zijn bewaard voor nalevingsdoeleinden (bijvoorbeeld postvakken in De bewaarplaats voor rechtszaken) door de **PreferredDataLocation-waarde te** wijzigen. Als u een inactief postvak naar een ander geo wilt verplaatsen, gaat u als volgt te werk:
 
-1. Herstel het inactieve postvak. Zie Een [inactief postvak herstellen voor instructies.](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox)
+1. Herstel het inactieve postvak. Zie Een [inactief postvak](../compliance/recover-an-inactive-mailbox.md)herstellen voor instructies.
 
-2. Voorkom dat beheerde mapassistent het herstelde postvak verwerkt door het te vervangen door de naam, alias, het account of het e-mailadres van het postvak en de volgende opdracht uit te voeren \<MailboxIdentity\> in [Exchange Online PowerShell:](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+2. Voorkom dat de beheerde mapassistent het herstelde postvak verwerkt door de naam, alias, account of e-mailadres van het postvak te vervangen en de volgende opdracht uit te voeren \<MailboxIdentity\> in [Exchange Online PowerShell:](/powershell/exchange/connect-to-exchange-online-powershell)
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $true
     ```
 
-3. Wijs een **licentie voor Exchange Online Abonnement 2** toe aan het herstelde postvak. Deze stap is vereist om het postvak weer in de wacht te zetten bij juridische procedure. Zie Licenties toewijzen [aan gebruikers voor instructies.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+3. Wijs een **Exchange Online Plan 2-licentie** toe aan het herstelde postvak. Deze stap is vereist om het postvak weer in de wacht te zetten voor rechtszaken. Zie Licenties [toewijzen aan gebruikers](../admin/manage/assign-licenses-to-users.md)voor instructies.
 
-4. Configureer de **PreferredDataLocation-waarde** voor het postvak, zoals beschreven in de vorige sectie.
+4. Configureer **de waarde PreferredDataLocation** in het postvak zoals beschreven in de vorige sectie.
 
-5. Nadat u hebt bevestigd dat het postvak is verplaatst naar de nieuwe geografische locatie, zet u het herstelde postvak weer in de postvak in de juridische procedure. Zie Postvak in de wacht zetten [voor juridische procedures voor instructies.](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold)
+5. Nadat u hebt bevestigd dat het postvak is verplaatst naar de nieuwe geografische locatie, zet u het herstelde postvak weer in de procesvoering. Zie Een postvak in de wacht houden [voor rechtszaken voor instructies.](../compliance/create-a-litigation-hold.md#place-a-mailbox-on-litigation-hold)
 
-6. Nadat u hebt gecontroleerd of de Postvak IN van postvakgegevens is geplaatst, laat u de Beheerde mapassistent het postvak opnieuw verwerken door het postvak te vervangen door de naam, alias, het account of het e-mailadres van het postvak en de volgende opdracht uit te voeren \<MailboxIdentity\> in [Exchange Online PowerShell:](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+6. Nadat u hebt gecontroleerd of de procesverplaatsing is uitgevoerd, kunt u toestaan dat de assistent voor beheerde mappen het postvak opnieuw verwerkt door de naam, alias, account of e-mailadres van het postvak te vervangen en de volgende opdracht uit te voeren \<MailboxIdentity\> in [Exchange Online PowerShell:](/powershell/exchange/connect-to-exchange-online-powershell)
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $false
     ```
 
-7. Maak het postvak opnieuw inactief door het gebruikersaccount te verwijderen dat aan het postvak is gekoppeld. Zie Een gebruiker [uit uw organisatie verwijderen voor instructies.](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user) Met deze stap wordt ook de licentie voor Exchange Online (Abonnement 2) voor ander gebruik uitgebracht.
+7. Maak het postvak opnieuw inactief door het gebruikersaccount te verwijderen dat aan het postvak is gekoppeld. Zie Een gebruiker [uit uw organisatie verwijderen voor instructies.](../admin/add-users/delete-a-user.md) Met deze stap wordt ook de exchange online abonnement 2-licentie uitgebracht voor andere toepassingen.
 
-**Opmerking:** wanneer u een inactief postvak naar een andere geografische locatie verplaatst, kan dit van invloed zijn op zoekresultaten voor inhoud of de mogelijkheid om in het postvak te zoeken vanaf de voormalige geografische locatie. Zie Zoeken en exporteren [van inhoud in Multi-Geo-omgevingen](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)voor meer informatie.
+**Opmerking:** Wanneer u een inactief postvak naar een andere geografische locatie verplaatst, kan dit van invloed zijn op de zoekresultaten van inhoud of op de mogelijkheid om het postvak te doorzoeken vanaf de voormalige geografische locatie. Zie Inhoud zoeken en [exporteren in Multi-Geo-omgevingen](../compliance/set-up-compliance-boundaries.md#searching-and-exporting-content-in-multi-geo-environments)voor meer informatie.
 
-## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>Nieuwe postvakken in de cloud maken op een specifieke geografische locatie
+## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>Nieuwe cloudpostvakken maken op een specifieke geografische locatie
 
-Als u een nieuw postvak wilt maken op een specifieke geografische locatie, moet u een van de volgende stappen volgen:
+Als u een nieuw postvak wilt maken op een specifieke geografische locatie, moet u een van de volgende stappen doen:
 
-- Configureer de **waarde PreferredDataLocation** zoals is beschreven in de vorige  sectie Een bestaand [postvak](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) in de cloud verplaatsen naar een specifieke geografische locatie voordat u het postvak in Exchange Online maakt. Configureer bijvoorbeeld de **waarde PreferredDataLocation** voor een gebruiker voordat u een licentie toewijst.
+- Configureer **de PreferredDataLocation-waarde** zoals beschreven in het vorige Een  bestaand [postvak](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) alleen in de cloud verplaatsen naar een specifieke sectie voor geografische locatie voordat u het postvak in Exchange Online maakt. Configureer bijvoorbeeld de **waarde PreferredDataLocation** op een gebruiker voordat u een licentie toewijst.
 
-- Wijs een licentie toe op het moment dat u de **waarde van PreferredDataLocation in** stelt.
+- Wijs een licentie toe op hetzelfde moment dat u de **waarde PreferredDataLocation** in stelt.
 
 Als u een nieuwe gebruiker met een cloudlicentie wilt maken (niet gesynchroniseerd met AAD Connect) op een specifieke geografische locatie, gebruikt u de volgende syntaxis in Azure AD PowerShell:
 
@@ -186,56 +186,56 @@ Als u een nieuwe gebruiker met een cloudlicentie wilt maken (niet gesynchronisee
 New-MsolUser -UserPrincipalName <UserPrincipalName> -DisplayName "<Display Name>" [-FirstName <FirstName>] [-LastName <LastName>] [-Password <Password>] [-LicenseAssignment <AccountSkuId>] -PreferredDataLocation <GeoLocationCode>
 ```
 
-In dit voorbeeld wordt een nieuw gebruikersaccount voor Elizabeth Bwaarden aangemaakt met de volgende waarden:
+In dit voorbeeld maakt u een nieuw gebruikersaccount voor Elizabeth Brunner met de volgende waarden:
 
-- User principal name: ebrunner@contoso.onmicrosoft.com
+- Gebruikersnaam: ebrunner@contoso.onmicrosoft.com
 - Voornaam: Elizabeth
-- Achternaam: B goed
-- Weergavenaam: Elizabeth Bweergave
-- Wachtwoord: willekeurig gegenereerd en weergegeven in de resultaten van de opdracht (omdat we de parameter *Password niet* gebruiken)
+- Achternaam: Brunner
+- Weergavenaam: Elizabeth Brunner
+- Wachtwoord: willekeurig gegenereerd en weergegeven in de resultaten van de opdracht (omdat we de parameter *Wachtwoord* niet gebruiken)
 - Licentie: `contoso:ENTERPRISEPREMIUM` (E5)
-- Locatie: Australië (Australië)
+- Locatie: Australië (AUS)
 
 ```powershell
 New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "Elizabeth Brunner" -FirstName Elizabeth -LastName Brunner -LicenseAssignment contoso:ENTERPRISEPREMIUM -PreferredDataLocation AUS
 ```
 
-Zie Gebruikersaccounts maken met [PowerShell](create-user-accounts-with-microsoft-365-powershell.md) en licenties en services weergeven met PowerShell voor meer informatie over het maken van nieuwe gebruikersaccounts en het zoeken naar de waarden voor LicenseAssignment in Azure AD [PowerShell.](view-licenses-and-services-with-microsoft-365-powershell.md)
+Zie Gebruikersaccounts maken met [PowerShell](create-user-accounts-with-microsoft-365-powershell.md) en Licenties en services weergeven met PowerShell voor meer informatie over het maken van nieuwe gebruikersaccounts en het vinden van LicenseAssignment-waarden in Azure AD [PowerShell.](view-licenses-and-services-with-microsoft-365-powershell.md)
 
 > [!NOTE]
-> Als u Exchange Online PowerShell gebruikt om een postvak in teschakelen en u het postvak rechtstreeks wilt maken op de geografische locatie die is opgegeven in **PreferredDataLocation,** moet u een Exchange Online-cmdlet zoals **Enable-Mailbox** of **New-Mailbox** rechtstreeks gebruiken voor de cloudservice. Als u de cmdlet **Enable-RemoteMailbox** gebruikt in on-premises Exchange PowerShell, wordt het postvak gemaakt op de centrale geografische locatie.
+> Als u Exchange Online PowerShell gebruikt om een postvak in te stellen en het postvak rechtstreeks wilt maken op de geolocatie die is opgegeven in **PreferredDataLocation,** moet u een Exchange Online-cmdlet, zoals **Inschakelen-Postvak** of **Nieuw-postvak,** rechtstreeks tegen de cloudservice gebruiken. Als u de **cmdlet Enable-RemoteMailbox** gebruikt in on-premises Exchange PowerShell, wordt het postvak gemaakt op de centrale geografische locatie.
 
 ## <a name="onboard-existing-on-premises-mailboxes-in-a-specific-geo-location"></a>Bestaande on-premises postvakken in een specifieke geografische locatie onboarden
 
-U kunt de standaard-onboarding-hulpprogramma's en -processen gebruiken om een postvak te migreren van een on-premises Exchange-organisatie naar Exchange Online, inclusief het migratiedashboard in het Exchange-exchange-programma en de cmdlet [New-MigrationBatch](https://docs.microsoft.com/powershell/module/exchange/new-migrationbatch) in Exchange Online PowerShell. [](https://support.office.com/article/d164b35c-f624-4f83-ac58-b7cae96ab331)
+U kunt de standaardhulpmiddelen en -processen gebruiken om een postvak te migreren van een on-premises Exchange-organisatie naar Exchange Online, inclusief het migratiedashboard in de [EAC](https://support.office.com/article/d164b35c-f624-4f83-ac58-b7cae96ab331)en de cmdlet [New-MigrationBatch](/powershell/module/exchange/new-migrationbatch) in Exchange Online PowerShell.
 
-De eerste stap bestaat uit het controleren van een gebruikersobject voor elk postvak dat moet worden onboarded en controleren of de juiste **PreferredDataLocation-waarde** is geconfigureerd in Azure AD. De onboarding-hulpprogramma's houden zich aan de **waarde preferredDataLocation** en migreren de postvakken rechtstreeks naar de opgegeven geografische locatie.
+De eerste stap is om te controleren of er een gebruikersobject bestaat voor elk postvak dat moet worden onboarded en of de juiste **PreferredDataLocation-waarde** is geconfigureerd in Azure AD. De onboarding-hulpprogramma's respecteren de **PreferredDataLocation-waarde** en migreren de postvakken rechtstreeks naar de opgegeven geografische locatie.
 
-U kunt ook de volgende stappen gebruiken om postvakken rechtstreeks in een specifieke geografische locatie in te voeren met de cmdlet [New-MoveRequest](https://docs.microsoft.com/powershell/module/exchange/new-moverequest) in Exchange Online PowerShell.
+U kunt ook de volgende stappen gebruiken om postvakken rechtstreeks op een specifieke geografische locatie aan te nemen met de [cmdlet New-MoveRequest](/powershell/module/exchange/new-moverequest) in Exchange Online PowerShell.
 
-1. Controleer of het gebruikersobject bestaat voor elk postvak dat moet worden onboarded en of **PreferredDataLocation** is ingesteld op de gewenste waarde in Azure AD. De waarde van **PreferredDataLocation** wordt gesynchroniseerd met het kenmerk **MailboxRegion** van het bijbehorende e-mailgebruikersobject in Exchange Online.
+1. Controleer of het gebruikersobject bestaat voor elk postvak dat moet worden onboarded en of **PreferredDataLocation** is ingesteld op de gewenste waarde in Azure AD. De waarde van **PreferredDataLocation** wordt gesynchroniseerd met het **kenmerk Postvakregio van** het bijbehorende e-mailgebruikersobject in Exchange Online.
 
-2. Maak rechtstreeks verbinding met de specifieke geografische satellietlocatie aan de hand van de verbindingsinstructies eerder in dit onderwerp.
+2. Maak rechtstreeks verbinding met de specifieke satellietlocatie via de verbindingsinstructies van eerder in dit onderwerp.
 
-3. Sla in Exchange Online PowerShell de lokale beheerdersreferenties op die worden gebruikt voor het uitvoeren van een postvakmigratie in een variabele door de volgende opdracht uit te voeren:
+3. Sla in Exchange Online PowerShell de on-premises beheerdersreferenties op die worden gebruikt om een postvakmigratie uit te voeren in een variabele door de volgende opdracht uit te voeren:
 
    ```powershell
    $RC = Get-Credential
    ```
 
-4. Maak in Exchange Online PowerShell een nieuwe **New-MoveRequest** zoals in het volgende voorbeeld:
+4. Maak in Exchange Online PowerShell een nieuwe **new-moveRequest** die lijkt op het volgende voorbeeld:
 
    ```powershell
    New-MoveRequest -Remote -RemoteHostName mail.contoso.com -RemoteCredential $RC -Identity user@contoso.com -TargetDeliveryDomain <YourAppropriateDomain>
    ```
 
-5. Herhaal stap #4 voor elk postvak dat u wilt migreren van on-premises Exchange naar de geografische satellietlocatie die u momenteel hebt verbonden.
+5. Herhaal stap #4 voor elk postvak dat u wilt migreren van on-premises Exchange naar de satellietlocatie met wie u momenteel verbonden bent.
 
-6. Als u extra postvakken wilt migreren naar verschillende geografische satellietlocaties, herhaalt u stap 2 tot en met 4 voor elke specifieke locatie.
+6. Als u extra postvakken wilt migreren naar verschillende satellietlocaties, herhaalt u stap 2 tot en met 4 voor elke specifieke locatie.
 
-## <a name="multi-geo-reporting"></a>Multi-geo reporting
+## <a name="multi-geo-reporting"></a>Multi-georapportage
 
-**Rapporten over multige geoverbruik** in het Microsoft 365-beheercentrum geven het aantal gebruikers per geografische locatie weer. In het rapport wordt de gebruikersdistributie voor de huidige maand weergegeven en worden historische gegevens voor de afgelopen zes maanden weergegeven.
+**Met rapporten voor multi-geogebruik** in het Microsoft 365-beheercentrum wordt het aantal gebruikers weergegeven op geografische locatie. In het rapport wordt de distributie van gebruikers voor de huidige maand weergegeven en worden historische gegevens voor de afgelopen 6 maanden weergegeven.
 
 ## <a name="see-also"></a>Zie ook
 

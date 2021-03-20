@@ -16,16 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Deze Azure-beheerdersrollen beheren in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 7a4e28667bc16d6619fe87451cd48ea77d89c81d
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: b07174763384150a7ae8cda6709f5d0ec5cb40ec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126103"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904490"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Azure Activity Directory-rollen in het Microsoft 365-beheercentrum
 
-In het Microsoft 365-beheercentrum kunt u meer dan 30 Azure AD-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal. Als u een groot bedrijf hebt, kunnen er rollen zijn in de Azure-portal die beantwoorden aan de behoeften van uw organisatie. Op zoek naar de gedetailleerde rolbeschrijvingen voor Azure AD? Bekijk [machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+In het Microsoft 365-beheercentrum kunt u meer dan 30 Azure AD-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal. Als u een groot bedrijf hebt, kunnen er rollen zijn in de Azure-portal die beantwoorden aan de behoeften van uw organisatie. Op zoek naar de gedetailleerde rolbeschrijvingen voor Azure AD? Bekijk [machtigingen voor beheerdersrollen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
 Een gebruiker aan wie een beheerdersrol is toegewezen, heeft dezelfde toegangsrechten voor alle cloudservices waarop de organisatie zich heeft geabonneerd. Dit is onafhankelijk van het feit of u de rol toewijst in het Microsoft 365-beheercentrum, in het Azure Portal of door de Azure AD-module voor Windows PowerShell te gebruiken.
 
@@ -37,7 +37,7 @@ In het Microsoft 365-beheercentrum kunt u naar **Rollen** gaan en vervolgens een
 
 ## <a name="all-azure-ad-roles"></a>Alle Azure AD-rollen
 
-Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het Microsoft 365-beheercentrum. Op zoek naar de gedetailleerde rolbeschrijvingen van Microsoft 365-beheerdersrollen? Bekijk [Informatie over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het Microsoft 365-beheercentrum. Op zoek naar de gedetailleerde rolbeschrijvingen van Microsoft 365-beheerdersrollen? Bekijk [Informatie over beheerdersrollen](./about-admin-roles.md?view=o365-worldwide).
 
 |Beheerdersrol     |Beschrijving  |
 |---------|---------|
@@ -57,7 +57,7 @@ Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het
 |Exchange-beheerder     |  Volledige toegang tot Exchange Online, kan groepen maken en beheren, serviceaanvragen beheren en de servicestatus controleren.    |
 |Externe identiteitsprovider beheerder    |     Configureer identiteitsproviders voor gebruik in directe federatie.    |
 |Algemene beheerder     |    Heeft onbeperkte toegang tot alle beheerfuncties en de meeste gegevens in alle beheerdcentra.     |
-|Algemene lezer     |    Heeft alleen-lezen toegang tot alle beheerfuncties en de meeste gegevens in alle beheerdcentra. Zie [Machtigingen voor beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) voor een gedetailleerde beschrijving van de toegangsrechten en beperkingen van deze rol.    |
+|Algemene lezer     |    Heeft alleen-lezen toegang tot alle beheerfuncties en de meeste gegevens in alle beheerdcentra. Zie [Machtigingen voor beheerdersrol in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) voor een gedetailleerde beschrijving van de toegangsrechten en beperkingen van deze rol.    |
 |Groepsbeheerder   |Maakt groepen en beheert alle groepsinstellingen in beheercentra.|
 |Gast invite     |    Beheert uitnodigingen voor Azure Active Directory B2B-gastgebruikers.     |
 |Helpdesk-beheerder     | Stelt wachtwoorden opnieuw in en verifieert opnieuw voor alle niet-beheerders en sommige beheerdersrollen, beheert serviceaanvragen en bewaakt de servicestatus.      |
@@ -99,7 +99,7 @@ Een partner kan deze rollen toewijzen:
 
 - Beperkt beheer: de bevoegdheden van deze rol zijn te vergelijken met die van een helpdesk-beheerder.
 
-Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)voor instructies.
+Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](../misc/add-partner.md)voor instructies.
   
 ## <a name="related-articles"></a>Verwante artikelen
 

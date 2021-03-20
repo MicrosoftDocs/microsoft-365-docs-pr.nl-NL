@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Uitleg over het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
-ms.openlocfilehash: a50941ec117480be586ba828e7b49c4a88a310ab
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 9640b028e4b5a9cbd914b183e61de9b8a7ba00bc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712292"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905788"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen 
 
@@ -34,7 +34,7 @@ Er zijn twee modeltypen die u kunt gebruiken:
 Beide modellen worden in het algemeen gebruikt voor dezelfde doeleinden, maar de hieronder vermelde verschillen bepalen welke je kunt gebruiken.
 
 > [!NOTE]
-> Zie [Ingebruikname van SharePoint Syntex: introductiehandleiding](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted#form-processing-scenario-example) voor meer informatie over formulierverwerking scenariovoorbeelden voor documentbegrip.
+> Zie [Ingebruikname van SharePoint Syntex: introductiehandleiding](./adoption-getstarted.md#form-processing-scenario-example) voor meer informatie over formulierverwerking scenariovoorbeelden voor documentbegrip.
 
 
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Gestructureerde versus niet-gestructureerde en gedeeltelijk gestructureerde inhoud
@@ -52,9 +52,9 @@ Gebruik formulierverwerkingsmodellen om bestanden te identificeren en gegevens t
 Documentbegripmodellen worden gemaakt en beheerd in een SharePoint-inhoudscentrumsite. 
 
 > [!NOTE]
-> Zie voor meer informatie over invoerdocumenten [Vereisten voor en beperkingen van formulierverwerkingsmodellen](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
+> Zie voor meer informatie over invoerdocumenten [Vereisten voor en beperkingen van formulierverwerkingsmodellen](/ai-builder/form-processing-model-requirements). 
 
-Formulierverwerkingsmodellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van de modellen wordt rechtstreeks vanuit een SharePoint-documentbibliotheek gestart. Voor een documentbibliotheek moet het maken van formulierverwerkingsmodellen zijn ingeschakeld om te zorgen dat gebruikers er een formulierverwerkingsmodel voor kunnen maken. Beheerders kunnen het maken van een formulierverwerkingsmodel inschakelen in de beheerinstellingen voor inhoudsbegrip. Formulierverwerkingsmodellen gebruiken Power Automate-stromen om bestanden te verwerken wanneer die worden geüpload naar de documentbibliotheek.
+Formulierverwerkingsmodellen worden gemaakt in PowerApps [AI Builder](/ai-builder/overview), maar het maken van de modellen wordt rechtstreeks vanuit een SharePoint-documentbibliotheek gestart. Voor een documentbibliotheek moet het maken van formulierverwerkingsmodellen zijn ingeschakeld om te zorgen dat gebruikers er een formulierverwerkingsmodel voor kunnen maken. Beheerders kunnen het maken van een formulierverwerkingsmodel inschakelen in de beheerinstellingen voor inhoudsbegrip. Formulierverwerkingsmodellen gebruiken Power Automate-stromen om bestanden te verwerken wanneer die worden geüpload naar de documentbibliotheek.
 
 Wanneer u een documentbegripmodel maakt, maakt u een nieuw [SharePoint-inhoudstype](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978) dat wordt opgeslagen in de SharePoint-inhoudstypengalerie. U kunt ook bestaande inhoudstypen gebruiken om het model te definiëren.
 
@@ -85,7 +85,7 @@ Gebruik de volgende tabel als u wilt weten wanneer u formulierverwerking moet ge
 | Ondersteunde talen| Engels <br>Later beschikbaar in 2021: Talen met Latijns alfabet | Modellen werken met alle talen met het Latijnse alfabet. Behalve Engels: Duits, Zweeds, Frans, Spaans, Italiaans en Portugees.|
 
 ## <a name="see-also"></a>Zie ook
-[Training: zakelijke prestaties verbeteren met AI-Builder](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
+[Training: zakelijke prestaties verbeteren met AI-Builder](/learn/paths/improve-business-performance-ai-builder/?source=learn)
 
 
 

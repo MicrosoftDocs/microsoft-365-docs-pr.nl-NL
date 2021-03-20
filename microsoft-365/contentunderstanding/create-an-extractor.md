@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Lees hoe je een Extractor kunt maken in Microsoft SharePoint Syntex.
-ms.openlocfilehash: b0b03d0e8804097f34f9cd5b17504263097d8696
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 8218d04d2f5cb4e8f8f67bdcd744b7f1a4a4d18a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242498"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905810"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Maak een Extractor in Microsoft SharePoint Syntex.
 
@@ -86,12 +86,12 @@ Als je de *begindatum van de service* wilt identificeren kun je een uitleg bij h
 4. Kies **Opslaan**.
 
 > [!NOTE]
-> Zie [Uitlegtypen](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview)voor meer informatie over uitlegtypen.  
+> Zie [Uitlegtypen](./explanation-types-overview.md)voor meer informatie over uitlegtypen.  
 
 
 ### <a name="use-the-explanation-library"></a>De Uitlegbibliotheek gebruiken
 
-Voor het maken van toelichtingen voor items als datums, is het eenvoudiger om [de uitlegbibliotheek te gebruiken](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-the-explanation-library) dan om alle variaties handmatig in te voeren. De uitlegbibliotheek is een set vooraf gedefinieerde frasen en patroonverklaringen. De bibliotheek biedt alle indelingen voor veelgebruikte woordenlijsten of patroonlijsten, zoals datums, telefoonnummers en postcodes. 
+Voor het maken van toelichtingen voor items als datums, is het eenvoudiger om [de uitlegbibliotheek te gebruiken](./explanation-types-overview.md#use-the-explanation-library) dan om alle variaties handmatig in te voeren. De uitlegbibliotheek is een set vooraf gedefinieerde frasen en patroonverklaringen. De bibliotheek biedt alle indelingen voor veelgebruikte woordenlijsten of patroonlijsten, zoals datums, telefoonnummers en postcodes. 
 
 Voor het voorbeeld *Begindatum van de service* is het efficiënter om de vooraf gedefinieerde uitleg voor *Datum* te gebruiken in de uitlegbibliotheek:
 

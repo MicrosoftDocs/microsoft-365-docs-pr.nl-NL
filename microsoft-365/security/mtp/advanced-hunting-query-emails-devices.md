@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a12b2dcf2de472f43e782e2064944ec774bdb9e1
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 1149d8fa614854bdbbd2c154f0e92f6a9c28ce00
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727257"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904065"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Op bedreigingen zoeken op verschillende apparaten, e-mailberichten, apps en identiteiten
 
@@ -50,7 +50,7 @@ Gebruik deze query's om te leren hoe u snel informatie kunt krijgen over gebruik
 ### <a name="obtain-user-accounts-from-email-addresses"></a>Gebruikersaccounts verkrijgen van e-mailadressen
 Bij het maken van query's in tabellen die betrekking hebben op [apparaten](advanced-hunting-schema-tables.md)en e-mailberichten, moet u waarschijnlijk gebruikersaccountnamen verkrijgen van e-mailadressen van afzenders of geadresseerden. U kunt dit in het algemeen doen voor geadresseerde of afzender met behulp van de lokale host vanaf het *e-mailadres.*
 
-In het onderstaande fragment gebruiken we de [functie tostring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) Kusto om de lokale host direct vóór de e-mailadressen van geadresseerden in de kolom `@` op te `RecipientEmailAddress` halen.
+In het onderstaande fragment gebruiken we de [functie tostring()](/azure/data-explorer/kusto/query/tostringfunction) Kusto om de lokale host direct vóór de e-mailadressen van geadresseerden in de kolom `@` op te `RecipientEmailAddress` halen.
 
 ```kusto
 //Query snippet showing how to extract the account name from an email address
@@ -86,7 +86,7 @@ Department, City, Country
 Het [geavanceerde schema voor jagen](advanced-hunting-schema-tables.md) bevat uitgebreide apparaatinformatie in verschillende tabellen. De tabel [DeviceInfo](advanced-hunting-deviceinfo-table.md) bevat bijvoorbeeld uitgebreide apparaatgegevens op basis van gebeurtenisgegevens die regelmatig worden samengevoegd. In deze query wordt de tabel gebruikt om te controleren of een mogelijk gecompromitteerde gebruiker () zich heeft aangemeld bij apparaten en worden vervolgens de waarschuwingen vermeld die op die apparaten `DeviceInfo` `<account-name>` zijn geactiveerd.
 
 >[!Tip]
-> Deze query wordt `kind=inner` gebruikt om een [inner-join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)op te geven, waarmee deduplicatie van waarden aan de linkerkant voor wordt `DeviceId` voorkomen.
+> Deze query wordt `kind=inner` gebruikt om een [inner-join](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)op te geven, waarmee deduplicatie van waarden aan de linkerkant voor wordt `DeviceId` voorkomen.
 
 ```kusto
 DeviceInfo

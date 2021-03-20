@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 7db9b9762830384370a4bedf220d7a52112ab1ea
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 43e341111ad1cb9b64ac257903d0e79bf24df5bd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727209"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903880"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Het overzicht van het geïntegreerde Microsoft 365-beveiligingscentrum
 
@@ -34,18 +34,18 @@ ms.locfileid: "50727209"
 
 **Van toepassing op:**
 
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Microsoft 365 Defender](./microsoft-threat-protection.md)
 - [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
-- [Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft Defender voor Office 365](../office-365-security/office-365-atp.md)
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject uitvoeren in productie.](https://aka.ms/m365d-pilotplaybook)
+> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](./mtp-pilot.md?ocid=cx-evalpilot)
 
 Het verbeterde **Microsoft 365-beveiligingscentrum** () combineert beveiliging, detectie, onderzoek en antwoord op e-mail, [https://security.microsoft.com](https://security.microsoft.com) *samenwerking,* identiteit *en* *apparaatrisico's* in een centrale portal. 
 
 Microsoft 365-beveiligingscentrum brengt functionaliteit samen van bestaande Microsoft-beveiligingsportalen, zoals Microsoft Defender-beveiligingscentrum en het Office 365-beveiligingscentrum & Compliancecentrum. Het beveiligingscentrum benadrukt snelle toegang tot informatie, eenvoudigere indelingen en het samenbrengen van gerelateerde informatie voor eenvoudiger gebruik. Dit centrum bevat:
 
-- **[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)** Microsoft Defender voor Office 365 helpt organisaties hun bedrijf te beveiligen met een reeks preventie-, detectie-, onderzoeks- en zoekfuncties om e-mail en Office 365-bronnen te beschermen.
-- **[Microsoft Defender voor Eindpunt biedt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)** preventieve beveiliging, detectie na inbreuk, geautomatiseerd onderzoek en antwoord voor apparaten in uw organisatie.
+- **[Microsoft Defender voor Office 365](../office-365-security/office-365-atp.md)** Microsoft Defender voor Office 365 helpt organisaties hun bedrijf te beveiligen met een reeks preventie-, detectie-, onderzoeks- en zoekfuncties om e-mail en Office 365-bronnen te beschermen.
+- **[Microsoft Defender voor Eindpunt biedt](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)** preventieve beveiliging, detectie na inbreuk, geautomatiseerd onderzoek en antwoord voor apparaten in uw organisatie.
 - **[Microsoft 365 Defender](microsoft-threat-protection.md)** maakt deel uit van de XDR-oplossing *(Extended Detection and Response)* van Microsoft, die gebruik maakt van de Microsoft 365-beveiligingsportfolio om bedreigingsgegevens in domeinen automatisch te analyseren en een afbeelding te maken van een aanval op één dashboard.
 
 Zie het volgende als u informatie nodig hebt over wat er is gewijzigd in het Office 365-beveiligingscentrum & compliancecentrum of het Microsoft Defender-beveiligingscentrum:
@@ -103,13 +103,13 @@ Veelgebruikte besturingselementen en inhoud worden op dezelfde plaats weergegeve
 
 ![Machtigingen & pagina Rollen met eindpunten & groepen, rollen en apparaatgroepen.](../../media/converged-roles-5.png)
 
- Access het Microsoft 365-beveiligingscentrum is geconfigureerd met globale azure Active Directory-rollen of met aangepaste rollen. Zie Gebruikerstoegang toewijzen aan [het Microsoft Defender-beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/assign-portal-access)voor Defender voor Eindpunt. Zie Machtigingen in het [Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum voor Defender voor Office 365.](../office-365-security/permissions-microsoft-365-compliance-security.md)
+ Access het Microsoft 365-beveiligingscentrum is geconfigureerd met globale azure Active Directory-rollen of met aangepaste rollen. Zie Gebruikerstoegang toewijzen aan [het Microsoft Defender-beveiligingscentrum](/windows/security/threat-protection/microsoft-defender-atp/assign-portal-access)voor Defender voor Eindpunt. Zie Machtigingen in het [Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum voor Defender voor Office 365.](../office-365-security/permissions-microsoft-365-compliance-security.md)
 
 - Meer informatie over het beheren [van toegang tot Microsoft 365 Defender](mtp-permissions.md)
 - Meer informatie over het maken [van aangepaste rollen](custom-roles.md) in het Microsoft 365-beveiligingscentrum
 
 > [!NOTE]
-> Microsoft Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum ondersteunt het verlenen van toegang tot beheerde beveiligingsserviceproviders [(MSSP's)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) op dezelfde manier als toegang wordt verleend in het [Microsoft Defender-beveiligingscentrum.](https://docs.microsoft.com/microsoft-365/security/mtp/mssp-access)
+> Microsoft Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum ondersteunt het verlenen van toegang tot beheerde beveiligingsserviceproviders [(MSSP's)](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) op dezelfde manier als toegang wordt verleend in het [Microsoft Defender-beveiligingscentrum.](./mssp-access.md)
 
 ### <a name="integrated-reports"></a>Geïntegreerde rapporten
 
@@ -123,10 +123,10 @@ Met deze in één oogopslag informatie kunt u op de hoogte blijven van de nieuws
 
 De kaarten vallen in deze categorieën:
 
-- **Identiteiten:** controleer de identiteiten in uw organisatie en houd verdachte of riskante gedragingen bij. [Meer informatie over identiteitsbeveiliging.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
+- **Identiteiten:** controleer de identiteiten in uw organisatie en houd verdachte of riskante gedragingen bij. [Meer informatie over identiteitsbeveiliging.](/azure/active-directory/identity-protection/overview-identity-protection)
 - **Gegevens:** help gebruikersactiviteiten bij te houden die kunnen leiden tot het vrijgeven van ongeautoriseerde gegevens.
 - **Apparaten:** up-to-date informatie over waarschuwingen, activiteiten voor inbreuken en andere bedreigingen op uw apparaten.
-- **Apps:** krijg inzicht in hoe cloud-apps worden gebruikt in uw organisatie. [Meer informatie over apps die door Cloud App Security zijn gevonden.](https://docs.microsoft.com/cloud-app-security/discovered-apps)
+- **Apps:** krijg inzicht in hoe cloud-apps worden gebruikt in uw organisatie. [Meer informatie over apps die door Cloud App Security zijn gevonden.](/cloud-app-security/discovered-apps)
 
 ## <a name="threat-analytics-with-better-data-coverage"></a>Bedreigingsanalyse met betere gegevensdekking
 Volg en reageer op nieuwe bedreigingen met de volgende geïntegreerde microsoft 365 Defender Threat Analytics-ervaring:
@@ -175,11 +175,11 @@ Blijf de functies en mogelijkheden in het Microsoft 365-beveiligingscentrum verk
 
 - [Incidenten en waarschuwingen beheren](manage-incidents.md)
 - [Nieuwe bedreigingen bijhouden en beantwoorden met bedreigingsanalyse](threat-analytics.md)
-- [Het Actiecentrum](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
-- [Op bedreigingen zoeken op verschillende apparaten, e-mailberichten, apps en identiteiten](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-query-emails-devices)
-- [Aangepaste detectieregels](https://docs.microsoft.com/microsoft-365/security/mtp/custom-detection-rules)
-- [Waarschuwingen voor & e-mail](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies)
-- [Maak een phishing-aanvalssimulatie](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training) [en maak een payload voor het trainen van uw teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training-payloads)
+- [Het Actiecentrum](./mtp-action-center.md)
+- [Op bedreigingen zoeken op verschillende apparaten, e-mailberichten, apps en identiteiten](./advanced-hunting-query-emails-devices.md)
+- [Aangepaste detectieregels](./custom-detection-rules.md)
+- [Waarschuwingen voor & e-mail](../../compliance/alert-policies.md#default-alert-policies)
+- [Maak een phishing-aanvalssimulatie](../office-365-security/attack-simulation-training.md) [en maak een payload voor het trainen van uw teams](../office-365-security/attack-simulation-training-payloads.md)
  
 ### <a name="related-information"></a>Gerelateerde informatie
 - [Microsoft 365-beveiligingscentrum](overview-security-center.md)

@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: a71ced2dd0aa71179c1b26cec571f3025af1ce05
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: 9b58c6fa51fbca5d78680b4b13cbbc2129d9c393
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50603850"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903722"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
@@ -136,13 +136,13 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 
 - [SharePoint-activiteit voor de Amerikaanse overheid](sharepoint-activity.md)
   
-- [Skype voor Bedrijven Online-activiteit](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
+- [Skype voor Bedrijven Online-activiteit](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
   
-- [Activiteit van georganiseerde vergaderingen in Skype voor Bedrijven Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)
+- [Activiteit van georganiseerde vergaderingen in Skype voor Bedrijven Online](/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)
   
-- [Activiteit van deelnemers aan vergaderingen in Skype voor Bedrijven Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)
+- [Activiteit van deelnemers aan vergaderingen in Skype voor Bedrijven Online](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)
   
-- [Peer-to-peeractiviteit in Skype voor Bedrijven Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)
+- [Peer-to-peeractiviteit in Skype voor Bedrijven Online](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)
   
 ::: moniker range="o365-worldwide"
 
@@ -242,5 +242,4 @@ Als u echter een bepaalde dag selecteert (bijvoorbeeld nummer 3), wordt in het r
   
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Rapporten in het beveiligings- &amp; compliancecentrum](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
-  
+[Rapporten in het beveiligings- &amp; compliancecentrum](../../compliance/reports-in-security-and-compliance.md)

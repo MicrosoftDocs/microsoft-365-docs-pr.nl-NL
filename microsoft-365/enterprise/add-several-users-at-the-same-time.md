@@ -1,5 +1,5 @@
 ---
-title: Meerdere gebruikers tegelijk toevoegen aan Microsoft 365-Help voor beheerders
+title: Meerdere gebruikers tegelijk toevoegen aan Microsoft 365 - Help voor beheerders
 ms.author: kwekua
 author: kwekua
 manager: scotv
@@ -23,32 +23,32 @@ search.appverid:
 - MBS150
 - GEA150
 - BCS160
-description: 'Meer informatie over het toevoegen van meerdere gebruikers aan Microsoft 365 voor bedrijven vanuit een lijst in een spreadsheet of een ander bestand met een CSV-indeling. Bekijk een video op YouTube waarin wordt uitgelegd hoe u accounts toevoegt aan Microsoft 365. Aan het einde van dit proces is elke gebruiker met een account een Microsoft 365-postvak. '
-ms.openlocfilehash: 7629879990facbce57a6fbca1aa543471ad1b05b
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: 'Meer informatie over het toevoegen van meerdere gebruikers aan Microsoft 365 voor Bedrijven vanuit een lijst in een spreadsheet of ander CSV-opgemaakt bestand. Bekijk een video op YouTube waarin wordt uitgelegd hoe u accounts toevoegt aan Microsoft 365. Aan het einde van dit proces heeft elke gebruiker met een account een Microsoft 365-postvak. '
+ms.openlocfilehash: 6b3e8d885466e44a4aa23427a54cfc98b2eebdf3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877210"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905618"
 ---
-# <a name="add-several-users-at-the-same-time-to-microsoft-365---admin-help"></a>Meerdere gebruikers tegelijk toevoegen aan Microsoft 365-Help voor beheerders
+# <a name="add-several-users-at-the-same-time-to-microsoft-365---admin-help"></a>Meerdere gebruikers tegelijk toevoegen aan Microsoft 365 - Help voor beheerders
 
-Elke medewerker van uw team moet een gebruikersaccount hebben voordat ze zich kunnen aanmelden en toegang krijgen tot Microsoft 365-Services, zoals e-mail en Office. Als u veel medewerkers hebt, kunt u hun accounts allemaal tegelijk toevoegen vanuit een Excel-spreadsheet of een ander bestand dat is opgeslagen in CSV-indeling. [Weet u niet precies wat een CSV-indeling is](add-several-users-at-the-same-time.md#not-sure-what-csv-format-is)?
+Elke persoon in uw team heeft een gebruikersaccount nodig voordat hij of zij zich kan aanmelden en toegang kan krijgen tot Microsoft 365-services, zoals e-mail en Office. Als u veel medewerkers hebt, kunt u hun accounts allemaal tegelijk toevoegen vanuit een Excel-spreadsheet of een ander bestand dat is opgeslagen in CSV-indeling. [Weet u niet zeker wat CSV-indeling is?](add-several-users-at-the-same-time.md#not-sure-what-csv-format-is)
   
 > [!NOTE]
 > Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren.
 
-## <a name="add-multiple-users-in-the-microsoft-365-admin-center"></a>Meerdere gebruikers toevoegen in het Microsoft 365-Beheercentrum
+## <a name="add-multiple-users-in-the-microsoft-365-admin-center"></a>Meerdere gebruikers toevoegen in het Microsoft 365-beheercentrum
 
 1. Meld u aan bij Microsoft 365 met uw werk- of schoolaccount.
 
 2. Kies **Gebruikers** \> **Actieve gebruikers** in het beheercentrum.
 
-3. Selecteer **meerdere gebruikers toevoegen**.
+3. Selecteer **Meerdere gebruikers toevoegen.**
 
 4. In het paneel **Meerder gebruikers importeren** kunt u eventueel een voorbeeld van een CSV-bestand met of zonder voorbeeldgegevens downloaden.
 
-    De kolomkoppen in uw spreadsheet moeten **exact dezelfde kolomkoppen** bevatten als voorbeeld één (gebruikersnaam, voornaam, enzovoort). Als u de sjabloon gebruikt, opent u deze in een hulpmiddel voor tekstbewerking, zoals Kladblok, en kunt u overwegen om alle gegevens in rij 1 te laten staan en alleen gegevens in rij 2 en lager in te voeren.
+    Uw spreadsheet moet exact dezelfde **kolomkoppen** bevatten als de voorbeeldkoppen (gebruikersnaam, voornaam, etc.). Als u de sjabloon gebruikt, opent u deze in een hulpmiddel voor tekstbewerking, zoals Kladblok, en overweegt u alle gegevens in rij 1 alleen te laten en alleen gegevens in te voegen in rijen 2 en lager.
 
     De spreadsheet dient voor elke gebruiker ook waarden te bevatten voor de gebruikersnaam (zoals jimmy@contoso.com) en een weergavenaam (zoals Jimmy de Graaf).
 
@@ -72,11 +72,11 @@ Elke medewerker van uw team moet een gebruikersaccount hebben voordat ze zich ku
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- Nu deze personen accounts hebben, moeten ze [Microsoft 365 of Office 2016 op een PC of Mac downloaden en installeren of opnieuw installeren](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658). Elke medewerker van uw team kan Microsoft 365 installeren op maximaal 5 Pc's of Macs.
+- Nu deze personen accounts hebben, moeten ze [Microsoft 365 of Office 2016](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658)downloaden en installeren of opnieuw installeren op een pc of Mac. Elke persoon in uw team kan Microsoft 365 installeren op maximaal 5 pc's of Macs.
 
-- Iedereen kan ook [Office-apps en E-mail instellen op een mobiel apparaat met een](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f) maximum van 5 Tablets en 5 telefoons, zoals iPhones, IPads en Android-telefoons en-tablets. Op deze manier kunnen ze Office-bestanden vanaf elke locatie bewerken.
+- Elke persoon kan ook [Office-apps](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f) en e-mail instellen op een mobiel apparaat op maximaal 5 tablets en 5 telefoons, zoals iPhones, iPads en Android-telefoons en -tablets. Op deze manier kunnen ze Office-bestanden vanaf elke locatie bewerken.
 
-    Zie [Microsoft 365 voor bedrijven instellen](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa) voor een end-to-end-lijst van de instellingsstappen.
+    Zie [Microsoft 365 voor](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa) Bedrijven instellen voor een end-to-endlijst met de installatiestappen.
 
 ## <a name="more-information-about-how-to-add-users-to-microsoft-365"></a>Meer informatie over het toevoegen van gebruikers aan Microsoft 365
 
@@ -84,7 +84,7 @@ Elke medewerker van uw team moet een gebruikersaccount hebben voordat ze zich ku
 
 Een CSV-bestand is een bestand met door komma's gescheiden waarden. U kunt een bestand zoals dit maken of bewerken met elke teksteditor of elk spreadsheetprogramma, zoals Excel.
   
-U kunt [Dit voorbeeldwerkblad](https://www.microsoft.com/download/details.aspx?id=45485) als uitgangspunt downloaden. Houd er rekening mee dat in Microsoft 365 kolomkoppen in de eerste rij zijn vereist, dus vervang deze niet door iets anders. 
+U kunt dit [voorbeeldblad downloaden](https://www.microsoft.com/download/details.aspx?id=45485) als uitgangspunt. Microsoft 365 vereist kolomkoppen in de eerste rij, dus vervang ze niet door iets anders. 
   
 Sla het bestand op onder een nieuwe naam en geef de CSV-indeling op.
   
@@ -96,13 +96,13 @@ Wanneer u het bestand opslaat, krijgt u waarschijnlijk een melding dat sommige f
   
 ### <a name="tips-for-formatting-your-spreadsheet"></a>Tips voor het opmaken van uw spreadsheet
 
-- **Heb ik dezelfde kolomkoppen nodig als in de voorbeeldspreadsheet?** Ja. De voorbeeldspreadsheet bevat kolomkoppen in de eerste rij. Deze koppen zijn vereist. Voor elke gebruiker die u wilt toevoegen aan Microsoft 365, maakt u een rij onder de kop. Als u een kolomkoppen toevoegt, wijzigt of verwijdert, is het mogelijk dat Microsoft 365 geen gebruikers kan maken van de gegevens in het bestand.
+- **Heb ik dezelfde kolomkoppen nodig als in de voorbeeldspreadsheet?** Ja. De voorbeeldspreadsheet bevat kolomkoppen in de eerste rij. Deze koppen zijn vereist. Voor elke gebruiker die u wilt toevoegen aan Microsoft 365, maakt u een rij onder de kop. Als u een kolomkoppen toevoegt, wijzigt of verwijdert, kan Microsoft 365 mogelijk geen gebruikers maken op de gegevens in het bestand.
 
 - **Wat moet ik doen als ik niet alle benodigde gebruikersgegevens heb?** De gebruikersnaam en weergavenaam zijn vereist en u kunt zonder deze gegevens geen nieuwe gebruiker toevoegen. Als u een deel van de andere gegevens niet hebt, zoals een faxnummer, kunt u een spatie plus een komma gebruiken om aan te geven dat het veld leeg moet blijven.
 
-- **Hoe klein of groot kan het spreadsheet zijn?** De spreadsheet moet minimaal twee rijen hebben. One is for the column headings (the user data column label) and one for the user. You cannot have more than 251 rows. If you need to import more than 250 users, you can create more than one spreadsheet.
+- **Hoe klein of groot kan de spreadsheet zijn?** Het werkblad moet ten minste twee rijen hebben. One is for the column headings (the user data column label) and one for the user. You cannot have more than 251 rows. If you need to import more than 250 users, you can create more than one spreadsheet.
 
-- **Welke talen kan ik gebruiken?** Wanneer u een spreadsheet maakt, kunt u kolomlabels van gebruikersgegevens in elke taal of tekens invoeren, maar u moet de volgorde van de etiketten niet wijzigen, zoals in het voorbeeld wordt weergegeven. You can then make entries into the fields, using any language or characters, and save your file in a Unicode or UTF-8 format.
+- **Welke talen kan ik gebruiken?** Wanneer u uw spreadsheet maakt, kunt u kolomlabels voor gebruikersgegevens invoeren in elke taal of tekens, maar u mag de volgorde van de etiketten niet wijzigen, zoals wordt weergegeven in het voorbeeld. You can then make entries into the fields, using any language or characters, and save your file in a Unicode or UTF-8 format.
 
 - **Wat moet ik doen als ik gebruikers toevoeg uit andere landen of regio's?** Maak een aparte spreadsheet voor elk gebied. U moet de wizard Gebruikers bulksgewijs toevoegen doorlopen voor elke spreadsheet en één locatie opgeven voor alle gebruikers in het bestand waarmee u werkt.
 
@@ -110,7 +110,7 @@ Wanneer u het bestand opslaat, krijgt u waarschijnlijk een melding dat sommige f
 
 |**Kolomlabel met gebruikersgegevens**|**Maximum aantal tekens**|
 |:-----|:-----|
-|Gebruikersnaam (verplicht)  <br/> |79, inclusief het apenstaartje (@), in de name@domain opmaken. \<extension\> .. De alias van de gebruiker mag niet langer zijn dan 50 tekens, en de domeinnaam mag niet langer zijn dan 48 tekens.  <br/> |
+|Gebruikersnaam (verplicht)  <br/> |79 inclusief het bijteken (@), in de name@domain. \<extension\> . De alias van de gebruiker mag niet meer dan 50 tekens bevatten en de domeinnaam mag niet groter zijn dan 48 tekens.  <br/> |
 |Voornaam  <br/> |64  <br/> |
 |Achternaam  <br/> |64  <br/> |
 |Weergavenaam (verplicht)  <br/> |256  <br/> |
@@ -126,12 +126,12 @@ Wanneer u het bestand opslaat, krijgt u waarschijnlijk een melding dat sommige f
 |Postcode  <br/> |40  <br/> |
 |Land of regio  <br/> |128  <br/> |
 
-### <a name="still-having-problems-when-adding-users-to-microsoft-365"></a>Nog steeds problemen bij het toevoegen van gebruikers aan Microsoft 365?
+### <a name="still-having-problems-when-adding-users-to-microsoft-365"></a>Hebt u nog steeds problemen bij het toevoegen van gebruikers aan Microsoft 365?
 
 - **Controleer goed of de spreadsheet juist is ingedeeld.** Controleer of de kolomkoppen overeenkomen met de koppen in het voorbeeldbestand. Controleer of u de regels volgt voor het aantal tekens en of de velden met komma's zijn gescheiden.
 
-- **Als u de nieuwe gebruikers niet meteen ziet in Microsoft 365, wacht u enkele minuten.** Het kan even duren voordat wijzigingen worden doorgevoerd in alle services in Microsoft 365. 
+- **Als u de nieuwe gebruikers niet meteen in Microsoft 365 ziet, wacht u een paar minuten.** Het kan even duren voordat wijzigingen worden doorgevoerd in alle services in Microsoft 365. 
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Gebruikers afzonderlijk of bulksgewijs toevoegen aan Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
+[Gebruikers afzonderlijk of bulksgewijs toevoegen aan Microsoft 365](/office365/admin/add-users/add-users)

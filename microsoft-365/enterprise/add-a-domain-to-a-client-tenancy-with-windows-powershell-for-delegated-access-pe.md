@@ -1,5 +1,5 @@
 ---
-title: Een domein toevoegen aan een client, pacht met Windows PowerShell voor DAP partners
+title: Een domein toevoegen aan een client tenancy met Windows PowerShell voor DAP-partners
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,65 +16,65 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: f49b4d24-9aa0-48a6-95dd-6bae9cf53d2c
-description: 'Overzicht: gebruik PowerShell voor Microsoft 365 om een alternatieve domeinnaam toe te voegen aan een bestaande Tenant van de klant.'
-ms.openlocfilehash: 23137d2e2461e75a22d0403f9b8246a29e48019f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 'Overzicht: Gebruik PowerShell voor Microsoft 365 om een alternatieve domeinnaam toe te voegen aan een bestaande klant tenant.'
+ms.openlocfilehash: b6a40f387f9fc7e513137cda4253a62be2455aad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689527"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905570"
 ---
-# <a name="add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-permission-dap-partners"></a>Een domein toevoegen aan een client, pacht met Windows PowerShell voor gedelegeerde toegangsrechten (DAP)-partners
+# <a name="add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-permission-dap-partners"></a>Een domein toevoegen aan een client tenancy met Windows PowerShell voor DAP-partners (Gedelegeerde toegangsmachtiging)
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt nieuwe domeinen maken en aan de pacht van de klant koppelen met behulp van PowerShell voor Microsoft 365, dan via het Microsoft 365-Beheercentrum.
+U kunt sneller nieuwe domeinen maken en koppelen aan de huurovereenkomst van uw klant met PowerShell voor Microsoft 365 dan met het Microsoft 365-beheercentrum.
   
-De partners van de gedelegeerde toegang (machtigingen) zijn syndicaties en partners van een Cloud solution provider. Vaak zijn ze netwerk-of telecommunicatie providers van andere bedrijven. Ze bundelt Microsoft 365-abonnementen in hun serviceaanbiedingen voor hun klanten. Wanneer iemand een Microsoft 365-abonnement verkoopt, worden er automatisch beheermachtigingen verleend namens (AOBO) aan de klant tenancies zodat ze de klant tenancies kunnen beheren en rapporteren.
+DAP-partners (Gedelegeerde Access Permission) zijn Syndication- en Cloud Solution Providers (CSP)-partners. Ze zijn vaak netwerk- of telecomproviders voor andere bedrijven. Ze bundelen Microsoft 365-abonnementen in hun serviceaanbiedingen voor hun klanten. Wanneer ze een Microsoft 365-abonnement verkopen, krijgen ze automatisch machtigingen voor beheer namens (AOBO) aan de klanten, zodat ze de klantentenancies kunnen beheren en rapporteren.
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-Voor de procedures in dit onderwerp moet u verbinding kunnen maken met [Microsoft 365 met PowerShell](connect-to-microsoft-365-powershell.md).
+Voor de procedures in dit onderwerp moet u verbinding maken met [Microsoft 365 met PowerShell.](connect-to-microsoft-365-powershell.md)
   
-U hebt ook uw Tenant-beheerderreferenties voor uw partners nodig.
+U hebt ook de referenties van de partnertenatiebeheerder nodig.
   
-Ook hebt u de volgende gegevens nodig:
+U hebt ook de volgende informatie nodig:
   
-- U hebt de FQDN-naam (Fully Qualified Domain Name) nodig die de klant wil.
+- U hebt de volledig gekwalificeerde domeinnaam (FQDN) nodig die uw klant wil.
     
-- U hebt de **TenantId**van de klant nodig.
+- U hebt de **TenantId** van de klant nodig.
     
-- U moet de FQDN registreren bij een DNS-registratie (Internet Domain Name Service), zoals GoDaddy. Zie [een domeinnaam kopen](https://go.microsoft.com/fwlink/p/?LinkId=532541)voor meer informatie over het openbaar registreren van een domeinnaam.
+- De FQDN moet zijn geregistreerd bij een DNS-registrar (Internet Domain Name Service), zoals GoDaddy. Zie Een domeinnaam kopen voor meer informatie over het openbaar registreren van [een domeinnaam.](../admin/get-help-with-domains/buy-a-domain-name.md)
     
-- U wilt weten hoe u een TXT-record kunt toevoegen aan de geregistreerde DNS-zone voor uw DNS-registratie. Zie [DNS-records toevoegen om uw domein te koppelen](https://go.microsoft.com/fwlink/p/?LinkId=532542)voor meer informatie over het toevoegen van een TXT-record. Als deze procedures niet voor u werken, moet u de procedures voor uw DNS-registratieservice vinden.
+- U moet weten hoe u een TXT-record toevoegt aan de geregistreerde DNS-zone voor uw DNS-registrar. Zie [DNS-records](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)toevoegen om uw domein te verbinden voor meer informatie over het toevoegen van een TXT-record. Als deze procedures niet voor u werken, moet u de procedures voor uw DNS-registrar vinden.
     
 ## <a name="create-domains"></a>Domeinen maken
 
- Uw klanten vragen u waarschijnlijk om extra domeinen te maken die u wilt koppelen aan hun pacht, omdat ze het standaarddomein van de <domain> onmicrosoft.com niet als primaire domein voor hun bedrijfsidentiteit voor de wereld vertegenwoordigen. In deze procedure wordt u begeleid bij het maken van een nieuw domein dat is gekoppeld aan de pacht van uw klant.
+ Uw klanten zullen u waarschijnlijk vragen om extra domeinen te maken om te koppelen aan hun huurovereenkomst, omdat ze niet willen dat het standaard .onmicrosoft.com-domein het primaire domein is dat hun bedrijfsidentiteiten aan de wereld <domain> vertegenwoordigt. Met deze procedure maakt u een nieuw domein dat is gekoppeld aan de huurovereenkomst van uw klant.
   
 > [!NOTE]
-> Voor het uitvoeren van enkele van deze bewerkingen moet het partner beheerdersaccount waarmee u zich aanmeldt, worden ingesteld op **volledig beheer** van de instelling **beheerderstoegang verlenen tot bedrijven die u** kunt instellen in de details van het beheerdersaccount in het Microsoft 365-Beheercentrum. Voor meer informatie over het beheren van partner beheerdersrollen raadpleegt u [partners: gedelegeerd beheer bieden](https://go.microsoft.com/fwlink/p/?LinkId=532435). 
+> Als u een aantal van deze bewerkingen wilt uitvoeren,  moet het  account van de partnerbeheerder bij wie u zich aanlogt, zijn ingesteld op Volledig beheer voor de instelling Beheerderstoegang toewijzen aan bedrijven die u ondersteunt in de details van het beheerdersaccount in het Microsoft 365-beheercentrum. Zie Partners: Gedelegeerd beheer aanbieden voor meer informatie over het beheren van rollen van [partnerbeheerders.](https://go.microsoft.com/fwlink/p/?LinkId=532435) 
   
-### <a name="create-the-domain-in-azure-active-directory"></a>Het domein maken in azure Active Directory
+### <a name="create-the-domain-in-azure-active-directory"></a>Het domein maken in Azure Active Directory
 
-Met deze opdracht maakt u het domein in azure Active Directory, maar wordt het niet gekoppeld aan het openbaar geregistreerde domein. Dit wordt geleverd wanneer u bewijzen dat u de eigenaar bent van het domein dat u de eigenaar bent van het domein voor Microsoft 365 voor ondernemingen.
+Met deze opdracht wordt het domein gemaakt in Azure Active Directory, maar wordt het niet aan het openbaar geregistreerde domein koppelen. Dat komt wanneer u bewijst dat u eigenaar bent van het openbaar geregistreerde domein bij Microsoft Microsoft 365 voor ondernemingen.
   
 ```powershell
 New-MsolDomain -TenantId <customer TenantId> -Name <FQDN of new domain>
 ```
 
 >[!Note]
->De PowerShell-core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met **MSOL** in de naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 >
 
-### <a name="get-the-data-for-the-dns-txt-verification-record"></a>De gegevens voor de DNS TXT-verificatie record weergeven
+### <a name="get-the-data-for-the-dns-txt-verification-record"></a>De gegevens voor de DNS TXT-verificatierecord
 
- In Microsoft 365 worden de specifieke gegevens gegenereerd die u in de DNS-TXT-verificatie record moet plaatsen. Als u de gegevens wilt weergeven, voert u deze opdracht uit.
+ Microsoft 365 genereert de specifieke gegevens die u in de DNS TXT-verificatierecord moet plaatsen. Voer deze opdracht uit om de gegevens op te halen.
   
 ```powershell
 Get-MsolDomainVerificationDNS -TenantId <customer TenantId> -DomainName <FQDN of new domain> -Mode DnsTxtRecord
 ```
 
-U krijgt dan de volgende uitvoer:
+Hierdoor krijgt u de volgende uitvoer:
   
  `Label: domainname.com`
   
@@ -83,19 +83,19 @@ U krijgt dan de volgende uitvoer:
  `Ttl: 3600`
   
 > [!NOTE]
-> U hebt deze tekst nodig voor het maken van de TXT-record in de algemeen geregistreerde DNS-zone. Zorg ervoor dat u het bestand kopieert en opslaat. 
+> U hebt deze tekst nodig om de TXT-record te maken in de openbaar geregistreerde DNS-zone. Kopieer en sla het op. 
   
-### <a name="add-a-txt-record-to-the-publically-registered-dns-zone"></a>Een TXT-record toevoegen aan de algemeen geregistreerde DNS-zone
+### <a name="add-a-txt-record-to-the-publically-registered-dns-zone"></a>Een TXT-record toevoegen aan de openbaar geregistreerde DNS-zone
 
-Voordat Microsoft 365 het verkeer voor de naam van de algemeen geregistreerde domeinnaam accepteert, moet u bewijzen dat u de eigenaar bent van het domein en dat u beschikt over beheerdersmachtigingen voor het domein. U bewijzen dat u de eigenaar bent van het domein door een TXT-record in het domein te maken. Een TXT-record doet niets in uw domein en kan worden verwijderd nadat het eigendom van het domein is ingesteld. U maakt de TXT-records door de procedures te volgen bij [DNS-records toevoegen om uw domein te verbinden](https://go.microsoft.com/fwlink/p/?LinkId=532542). Als deze procedures niet voor u werken, moet u de procedures voor uw DNS-registratieservice vinden.
+Voordat Microsoft 365 verkeer accepteert dat is doorgestuurd naar de openbaar geregistreerde domeinnaam, moet u aantonen dat u de eigenaar bent van het domein en dat u beheerdersmachtigingen voor het domein hebt. U bewijst dat u de eigenaar bent van het domein door een TXT-record in het domein te maken. Een TXT-record doet niets in uw domein en kan worden verwijderd nadat u eigenaar bent van het domein. Als u de TXT-records wilt maken, volgt u de procedures bij [DNS-records toevoegen om uw domein te verbinden.](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) Als deze procedures niet voor u werken, moet u de procedures voor uw DNS-registrar vinden.
   
-Bevestig dat het maken van de TXT-record via nslookup is gelukt. Volg deze syntaxis.
+Bevestig de succesvolle creatie van de TXT-record via nslookup. Volg deze syntaxis.
   
 ```console
 nslookup -type=TXT <FQDN of registered domain>
 ```
 
-U krijgt dan de volgende uitvoer:
+Hierdoor krijgt u de volgende uitvoer:
   
  `Non-authoritative answer:`
   
@@ -103,21 +103,21 @@ U krijgt dan de volgende uitvoer:
   
  `text=MS=ms########`
   
-### <a name="validate-domain-ownership-in-microsoft-365"></a>Domein eigendom valideren in Microsoft 365
+### <a name="validate-domain-ownership-in-microsoft-365"></a>Domeineigendom valideren in Microsoft 365
 
-In deze laatste stap valideert u met Microsoft 365 dat u de eigenaar bent van het algemeen geregistreerde domein. Na deze stap gaat Microsoft 365 met het accepteren van verkeer naar de nieuwe domeinnaam. Voer deze opdracht uit om het maken en registreren van het domein te voltooien. 
+In deze laatste stap valideert u bij Microsoft 365 dat u eigenaar bent van het openbaar geregistreerde domein. Na deze stap accepteert Microsoft 365 verkeer dat is doorgeleid naar de nieuwe domeinnaam. Voer deze opdracht uit om het proces voor het maken en registreren van domeinen te voltooien. 
   
 ```powershell
 Confirm-MsolDomain -TenantId <customer TenantId> -DomainName <FQDN of new domain>
 ```
 
-Met deze opdracht worden geen uitvoer geretourneerd, zodat u kunt controleren of dit heeft gewerkt, en voer deze opdracht uit.
+Met deze opdracht wordt geen uitvoer als resultaat gegeven, dus voer deze opdracht uit om te bevestigen dat dit heeft gewerkt.
   
 ```powershell
 Get-MsolDomain -TenantId <customer TenantId> -DomainName <FQDN of new domain>
 ```
 
-Dit retourneert iets zoals dit
+Dit zal zoiets als dit retourneren
 
 ```console
 Name                   Status      Authentication
@@ -131,4 +131,3 @@ FQDN of new domain     Verified    Managed
 #### 
 
 [Help voor partners](https://go.microsoft.com/fwlink/p/?LinkID=533477)
-

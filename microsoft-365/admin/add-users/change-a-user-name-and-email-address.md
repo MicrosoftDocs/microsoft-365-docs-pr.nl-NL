@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: 7f894af3778964dfa6c696c1f467bc0dd8313f32
-ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
+ms.openlocfilehash: 6a5498f4e480802f8770f7b7adde55fe7c996dc8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49585292"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904478"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -221,7 +221,7 @@ Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorg
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>'Een parameter die overeenkomt met de parameternaam EmailAddresses kan niet worden gevonden'
 
-Als het foutbericht **Een parameter die overeenkomt met de parameternaam 'EmailAddresses' kan niet worden gevonden** wordt weergegeven, betekent dit dat nog wat tijd nodig is om uw tenant of uw aangepaste domein in te stellen, als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even zodat de instellingsprocedure kan worden voltooid, en probeer het vervolgens opnieuw. Als het probleem aanhoudt, belt u de [ondersteuning](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Zij voeren dan een volledige synchronisatie voor u uit.
+Als het foutbericht **Een parameter die overeenkomt met de parameternaam 'EmailAddresses' kan niet worden gevonden** wordt weergegeven, betekent dit dat nog wat tijd nodig is om uw tenant of uw aangepaste domein in te stellen, als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even zodat de instellingsprocedure kan worden voltooid, en probeer het vervolgens opnieuw. Als het probleem aanhoudt, belt u de [ondersteuning](../contact-support-for-business-products.md). Zij voeren dan een volledige synchronisatie voor u uit.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>'De gebruiker kan niet worden bewerkt. Controleer de gebruiker en probeer het opnieuw'
 
@@ -249,7 +249,7 @@ Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.co
 > [!TIP]
 > Hiermee wordt het kenmerk **userPrincipalName** van de gebruiker gewijzigd, wat geen gevolgen heeft voor het MOERA-e-mailadres (Microsoft Online Email Routing Address) van de gebruiker. De aanbevolen procedure is echter dat de aanmeldings-UPN van de gebruiker overeenkomt met het primaire SMTP-adres. 
   
-Zie [De naam van een gebruikersaccount wijzigen](https://go.microsoft.com/fwlink/?LinkId=809091) voor meer informatie over hoe u een gebruikersnaam kunt wijzigen in Active Directory in Windows Server 2003 en eerdere versies.
+Zie [De naam van een gebruikersaccount wijzigen](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10)) voor meer informatie over hoe u een gebruikersnaam kunt wijzigen in Active Directory in Windows Server 2003 en eerdere versies.
   
 ## <a name="related-articles"></a>Verwante artikelen
 

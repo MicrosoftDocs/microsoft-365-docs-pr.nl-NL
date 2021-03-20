@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Lees meer over de Microsoft 365-configuratiestappen die nodig zijn om een team in te stellen voor samenwerking aan taken, gesprekken en documentatie met gasten in Teams.
-ms.openlocfilehash: 986f9c1f343c8ccc3d76557291938d170923c89b
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 4e734af198563d0bc4599b4476b3823384989212
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712316"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904658"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Samenwerken met gasten in een team
 
@@ -38,7 +38,7 @@ In deze video ziet u de configuratiestappen die in dit document worden beschreve
 
 ## <a name="azure-external-collaboration-settings"></a>Azure External-samenwerkingsinstellingen
 
-Delen in Microsoft 365 wordt op het hoogste niveau bepaald door de [B2B-instellingen voor externe samenwerking in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als delen met gasten is uitgeschakeld of wordt beperkt in Azure AD, overschrijft deze instelling alle instellingen voor delen die u configureert in Microsoft 365.
+Delen in Microsoft 365 wordt op het hoogste niveau bepaald door de [B2B-instellingen voor externe samenwerking in Azure Active Directory](/azure/active-directory/external-identities/delegate-invitations). Als delen met gasten is uitgeschakeld of wordt beperkt in Azure AD, overschrijft deze instelling alle instellingen voor delen die u configureert in Microsoft 365.
 
 Controleer de B2B-instellingen voor externe samenwerking om ervoor te zorgen dat delen met gasten niet wordt geblokkeerd.
 
@@ -74,7 +74,7 @@ Instellingen voor gasttoegang in Teams instellen
 5. Zorg ervoor dat **Gasttoegang in Teams toestaan** is ingesteld op **Aan**.
 6. Breng de gewenste wijzigingen aan in de extra gastinstellingen en klik vervolgens op **Opslaan**.
 
-Wanneer gasttoegang in Teams is ingeschakeld, kunt u desgewenst gasttoegang tot afzonderlijke teams en de bijbehorende SharePoint-sites bepalen met behulp van gevoeligheidslabels. Zie [Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) voor meer informatie.
+Wanneer gasttoegang in Teams is ingeschakeld, kunt u desgewenst gasttoegang tot afzonderlijke teams en de bijbehorende SharePoint-sites bepalen met behulp van gevoeligheidslabels. Zie [Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md) voor meer informatie.
 
 > [!NOTE]
 > Het kan 24 uur duren voordat de instellingen voor gasten in Teams actief worden nadat u deze hebt ingeschakeld.
@@ -187,6 +187,6 @@ Gasten uitnodigen voor een team
 
 [Een B2B-extranet maken met beheerde gasten](b2b-extranet.md)
 
-[Integratie van SharePoint en OneDrive met Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+[Integratie van SharePoint en OneDrive met Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration-preview)
 
-[Opties voor delen worden grijs wanneer u deelt vanuit SharePoint of OneDrive](https://docs.microsoft.com/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)
+[Opties voor delen worden grijs wanneer u deelt vanuit SharePoint of OneDrive](/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)

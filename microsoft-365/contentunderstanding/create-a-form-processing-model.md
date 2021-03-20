@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Maak een formulierverwerkingmodel in Microsoft SharePoint Syntex.
-ms.openlocfilehash: c025317a5eb88199b849f90b51fac9779e1c97a2
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: d71273e416bf7922627e44d9423eaa8903411689
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976007"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905844"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Maak een formulierverwerkingmodel in Microsoft SharePoint Syntex
 
@@ -27,7 +27,7 @@ ms.locfileid: "49976007"
 
 </br>
 
-Met [AI-Builder](https://docs.microsoft.com/ai-builder/overview) - een functie in Microsoft PowerApps - SharePoint-gebruikers kunnen een [formulierverwerkingsmodel](form-processing-overview.md) rechtstreeks vanuit een SharePoint-documentbibliotheek. 
+Met [AI-Builder](/ai-builder/overview) - een functie in Microsoft PowerApps - SharePoint-gebruikers kunnen een [formulierverwerkingsmodel](form-processing-overview.md) rechtstreeks vanuit een SharePoint-documentbibliotheek. 
 
 Het maken van een formulierverwerkingsmodel omvat het volgende:
  - Stap 1: maak het formulierverwerkingsmodel om het inhoudstype te maken
@@ -68,7 +68,7 @@ De eerste stap bij het maken van een formulierverwerkingsmodel is het maken van 
 Wanneer je een nieuw formulierverwerkingsmodel hebt gemaakt, wordt in je browser een nieuwe pagina PowerApps AI Builder formulierverwerkingsmodel geopend. Op deze pagina kun je voorbeelddocumenten toevoegen en analyseren. </br>
 
 > [!NOTE]
-> Als je voorbeeldbestanden zoekt die je wilt gebruiken, raadpleeg je de [ vereisten voor formulierverwerkingseisen en optimaliseringstips](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
+> Als je voorbeeldbestanden zoekt die je wilt gebruiken, raadpleeg je de [ vereisten voor formulierverwerkingseisen en optimaliseringstips](/ai-builder/form-processing-model-requirements). 
 
    ![Power Apps AI Builder](../media/content-understanding/powerapps.png)</br> 
  
@@ -148,6 +148,6 @@ Na het publiceren van je model en het maken van de PowerAutomate-stroom, kun je 
 
 ## <a name="see-also"></a>Zie ook
   
-[Power Automate-documentatie](https://docs.microsoft.com/power-automate/)
+[Power Automate-documentatie](/power-automate/)
 
-[Training: zakelijke prestaties verbeteren met AI-Builder](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
+[Training: zakelijke prestaties verbeteren met AI-Builder](/learn/paths/improve-business-performance-ai-builder/?source=learn)

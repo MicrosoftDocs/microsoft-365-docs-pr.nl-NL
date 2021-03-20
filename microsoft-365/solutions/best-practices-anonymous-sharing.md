@@ -17,16 +17,16 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: In dit artikel vindt u informatie over de aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers.
-ms.openlocfilehash: eeee1ca0ddbb37525c86f44a3d02ab95de20e9fc
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 3fbe48159dab7fd9ebb072feab7724c3186f7847
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030063"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904802"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers
 
-Niet-geverifieerd delen ( *iedereen* -koppelingen) kunnen handig zijn en bruikbaar in verschillende scenario's. *Iedereen* -koppelingen zijn de gemakkelijkste manier om te delen: personen kunnen de koppeling zonder verificatie openen en deze aan anderen doorsturen.
+Niet-geverifieerd delen (*iedereen*-koppelingen) kunnen handig zijn en bruikbaar in verschillende scenario's. *Iedereen*-koppelingen zijn de gemakkelijkste manier om te delen: personen kunnen de koppeling zonder verificatie openen en deze aan anderen doorsturen.
 
 Meestal is niet alle inhoud van een organisatie geschikt voor niet-geverifieerd delen. Dit artikel behandelt de beschikbare opties om u te helpen een omgeving te creëren waarin uw gebruikers niet-geverifieerd delen van bestanden en mappen kunnen gebruiken, maar waar er waarborgen zijn om de inhoud van uw organisatie te helpen beschermen.
 
@@ -35,9 +35,9 @@ Meestal is niet alle inhoud van een organisatie geschikt voor niet-geverifieerd 
 
 ## <a name="set-an-expiration-date-for-anyone-links"></a>Een vervaldatum instellen voor koppelingen voor iedereen
 
-Bestanden worden vaak gedurende lange perioden opgeslagen in sites, groepen en teams. Af en toe zijn er beleidsregels voor het bewaren van gegevens die vereisen dat bestanden jaren worden bewaard. Als dergelijke bestanden worden gedeeld met niet-geverifieerde personen, kan dit leiden tot onverwachte toegang en wijzigingen in bestanden in de toekomst. Om deze mogelijkheid te beperken, kunt u een vervaltijd configureren voor *iedereen* -koppelingen.
+Bestanden worden vaak gedurende lange perioden opgeslagen in sites, groepen en teams. Af en toe zijn er beleidsregels voor het bewaren van gegevens die vereisen dat bestanden jaren worden bewaard. Als dergelijke bestanden worden gedeeld met niet-geverifieerde personen, kan dit leiden tot onverwachte toegang en wijzigingen in bestanden in de toekomst. Om deze mogelijkheid te beperken, kunt u een vervaltijd configureren voor *iedereen*-koppelingen.
 
-Wanneer een *iedereen* -koppeling verloopt, kan deze niet meer worden gebruikt voor toegang tot inhoud.
+Wanneer een *iedereen*-koppeling verloopt, kan deze niet meer worden gebruikt voor toegang tot inhoud.
 
 Een vervaldatum instellen voor iedereen-koppelingen voor de gehele organisatie
 
@@ -57,13 +57,13 @@ Een vervaldatum instellen voor iedereen-koppelingen op een specifieke site
 5. Selecteer de optie **Deze koppelingen moeten verlopen binnen dit aantal dagen** en typ het aantal dagen in het vak.
 6. Klik op **Opslaan**.
 
-Wanneer een *Iedereen* -koppeling verloopt, kan het bestand of de map opnieuw worden gedeeld met een nieuwe *Iedereen* -koppeling.
+Wanneer een *Iedereen*-koppeling verloopt, kan het bestand of de map opnieuw worden gedeeld met een nieuwe *Iedereen*-koppeling.
 
-U kunt de vervaldatum van een *Iedereen* koppeling voor een bepaalde OneDrive instellen door [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) te gebruiken.
+U kunt de vervaldatum van een *Iedereen* koppeling voor een bepaalde OneDrive instellen door [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) te gebruiken.
 
 ## <a name="set-link-permissions"></a>Koppelingsmachtigingen instellen
 
-Met *Iedereen* -koppelingen naar een bestand kunnen mensen het bestand bewerken en met *Iedereen* -koppelingen naar een map kunnen mensen bestanden bewerken en bekijken en nieuwe bestanden naar de map uploaden. U kunt deze machtigingen voor bestanden en mappen afzonderlijk wijzigen in alleen-weergeven.
+Met *Iedereen*-koppelingen naar een bestand kunnen mensen het bestand bewerken en met *Iedereen*-koppelingen naar een map kunnen mensen bestanden bewerken en bekijken en nieuwe bestanden naar de map uploaden. U kunt deze machtigingen voor bestanden en mappen afzonderlijk wijzigen in alleen-weergeven.
 
 Als u niet-geverifieerd delen wilt inschakelen, maar zich zorgen maakt over niet-geverifieerde personen die de inhoud van uw organisatie wijzigen, kunt u overwegen om de bestands- en mapmachtigingen in te stellen op **weergave**.
 
@@ -74,7 +74,7 @@ Machtigingen instellen voor iedereen-koppelingen voor de gehele organisatie
 3. Selecteer onder **Geavanceerde instellingen voor iedereen-koppelingen** de bestands- en mapmachtigingen die u wilt gebruiken.</br>
    ![Schermafbeelding van de instellingen van de koppelingsmachtigingen op organisatieniveau in SharePoint](../media/sharepoint-organization-anyone-link-permissions.png)
 
-Met *iedereen* -koppelingen die zijn ingesteld op **weergeven** , kunnen gebruikers nog steeds bestanden en mappen met gasten delen en hen machtigingen geven door koppelingen voor *specifieke personen* te gebruiken. Deze koppelingen vereisen dat mensen buiten uw organisatie zich als gasten verifiëren, en u kunt gastactiviteiten volgen en controleren voor bestanden en mappen die met deze links worden gedeeld.
+Met *iedereen*-koppelingen die zijn ingesteld op **weergeven**, kunnen gebruikers nog steeds bestanden en mappen met gasten delen en hen machtigingen geven door koppelingen voor *specifieke personen* te gebruiken. Deze koppelingen vereisen dat mensen buiten uw organisatie zich als gasten verifiëren, en u kunt gastactiviteiten volgen en controleren voor bestanden en mappen die met deze links worden gedeeld.
 
 ## <a name="set-default-link-type-to-only-work-for-people-in-your-organization"></a>Standaardkoppelingstype instellen op alleen-werk voor personen in uw organisatie
 
@@ -103,7 +103,7 @@ De standaardkoppeling voor het delen van bestanden en mappen instellen voor een 
 
 ## <a name="prevent-unauthenticated-sharing-of-sensitive-content"></a>Niet-geverifieerd delen van gevoelige inhoud voorkomen
 
-U kunt [Preventie van gegevensverlies (DLP)](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) gebruiken om het niet-geverifieerd delen van gevoelige inhoud te voorkomen. Preventie van gegevensverlies kan actie ondernemen op basis van het vertrouwelijkheidslabel of retentielabel van het bestand of van de gevoelige informatie in het bestand zelf.
+U kunt [Preventie van gegevensverlies (DLP)](../compliance/data-loss-prevention-policies.md) gebruiken om het niet-geverifieerd delen van gevoelige inhoud te voorkomen. Preventie van gegevensverlies kan actie ondernemen op basis van het vertrouwelijkheidslabel of retentielabel van het bestand of van de gevoelige informatie in het bestand zelf.
 
 Een DLP-regel maken
 1. Ga in het Microsoft 365-compliancecentrum naar de pagina [Preventie van gegevensverlies](https://compliance.microsoft.com/datalossprevention).
@@ -140,7 +140,7 @@ Veilige bijlagen inschakelen
 
 4. Desgewenst kunt u ook Veilige documenten inschakelen en vervolgens op **Opslaan** klikken.
 
-Raadpleeg [ATP voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) en [ATP voor SharePoint, OneDrive en Microsoft teams inschakelen](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams) voor meer hulp.
+Raadpleeg [ATP voor SharePoint, OneDrive en Microsoft Teams](../security/office-365-security/atp-for-spo-odb-and-teams.md) en [ATP voor SharePoint, OneDrive en Microsoft teams inschakelen](../security/office-365-security/turn-on-atp-for-spo-odb-and-teams.md) voor meer hulp.
 
 ## <a name="add-copyright-information-to-your-files"></a>Copyrightgegevens toevoegen aan uw bestanden
 
@@ -161,7 +161,7 @@ Als inhoudsmarkering voor het label is ingeschakeld, wordt de tekst die u hebt o
 
 ## <a name="see-also"></a>Zie ook
 
-[Overzicht van gevoeligheidslabels](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)
+[Overzicht van gevoeligheidslabels](/Office365/SecurityCompliance/sensitivity-labels)
 
 [Accidentele blootstelling aan bestanden beperken tijdens het delen met gasten](share-limit-accidental-exposure.md)
 

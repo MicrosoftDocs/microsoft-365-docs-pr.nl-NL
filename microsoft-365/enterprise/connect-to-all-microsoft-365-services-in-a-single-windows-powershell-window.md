@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: 'Samenvatting: verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster.'
-ms.openlocfilehash: cd030018dabff628af18d173cf542a3d375b27d0
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 18ff8e1789242b4dde3b4b31aaccf2462e4c5d74
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515110"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905126"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster
 
@@ -38,7 +38,7 @@ Dit is niet optimaal voor het beheer van Microsoft 365, omdat u geen gegevens ku
 
 Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beheren, moet u rekening houden met de volgende vereisten:
   
-- Het werk- of schoolaccount van Microsoft 365 dat u gebruikt, moet lid zijn van een Microsoft 365-beheerdersrol. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie. Dit is een vereiste voor PowerShell voor Microsoft 365, niet per se voor alle andere Microsoft 365-services.
+- Het werk- of schoolaccount van Microsoft 365 dat u gebruikt, moet lid zijn van een Microsoft 365-beheerdersrol. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie. Dit is een vereiste voor PowerShell voor Microsoft 365, niet per se voor alle andere Microsoft 365-services.
     
 - U kunt de volgende 64-bits versies van Windows gebruiken:
     
@@ -56,7 +56,7 @@ Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beher
     
   - Windows Server 2008 R2 SP1*
     
-    \* U moet Microsoft .NET Framework 4.5 *x* installeren en vervolgens Windows Management Framework 3.0 of 4.0. Zie [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview)voor meer informatie.
+    \* U moet Microsoft .NET Framework 4.5 *x* installeren en vervolgens Windows Management Framework 3.0 of 4.0. Zie [Windows Management Framework](/powershell/scripting/windows-powershell/wmf/overview)voor meer informatie.
     
     U moet een 64-bits versie van Windows gebruiken vanwege de vereisten voor de module Skype voor Bedrijven Online en een van de Microsoft 365-modules.
     
@@ -64,9 +64,9 @@ Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beher
     
   - [Azure Active Directory V2](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   - [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251)
-  - [Skype voor Bedrijven Online, Windows PowerShell-module](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
-  - [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
-  - [Overzicht van PowerShell voor Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
+  - [Skype voor Bedrijven Online, Windows PowerShell-module](/microsoftteams/teams-powershell-overview)
+  - [Exchange Online PowerShell V2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
+  - [Overzicht van PowerShell voor Teams](/microsoftteams/teams-powershell-overview)
     
 -  Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en het Beveiligings- &amp; en compliancecentrum. Voer de volgende opdracht uit in een Windows PowerShell-sessie met een verhoogde bevoegdheid (een Windows PowerShell-sessie die u **Als beheerder uitvoert**).
     
@@ -128,7 +128,7 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
    ```
 
    > [!Note]
-   > Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) om verbinding te maken met andere Exchange Online voor Microsoft 365-clouds dan wereldwijd.
+   > Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) om verbinding te maken met andere Exchange Online voor Microsoft 365-clouds dan wereldwijd.
 
 7. Voer deze opdrachten uit om verbinding te maken met het Beveiligings- en compliancecentrum.
     
@@ -138,7 +138,7 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
    ```
 
    > [!Note]
-   > Zie [Verbinding maken Beveiligings- en compliancecentrum Powershell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)om verbinding maken met andere Beveiligings-&amp; en compliancecentrum voor Microsoft 365-clouds dan wereldwijd.
+   > Zie [Verbinding maken Beveiligings- en compliancecentrum Powershell](/powershell/exchange/connect-to-scc-powershell)om verbinding maken met andere Beveiligings-&amp; en compliancecentrum voor Microsoft 365-clouds dan wereldwijd.
 
 8. Voer deze opdrachten uit om verbinding te maken met PowerShell voor Teams.
     
@@ -149,7 +149,7 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
    ```
   
    > [!Note]
-   > Zie [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams) om verbinding te maken met andere Microsoft Teams-clouds dan *Worldwide*.
+   > Zie [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams) om verbinding te maken met andere Microsoft Teams-clouds dan *Worldwide*.
   
 
 
