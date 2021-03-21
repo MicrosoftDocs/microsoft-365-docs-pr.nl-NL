@@ -1,5 +1,5 @@
 ---
-title: Voorbeeldscript voor EOP-instellingen - meerdere tenants
+title: 'Voorbeeldscript voor EOP-instellingen : meerdere tenants'
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,35 +12,35 @@ localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe u PowerShell gebruikt om configuratie-instellingen toe te passen op uw tenants in Microsoft Exchange Online Protection (EOP).
+description: In dit artikel leert u hoe u PowerShell kunt gebruiken om configuratie-instellingen toe te passen op uw tenants in Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4823ed09cd8a9d72aef21df3d51213cb4512b4f9
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 77a1dce25901845628f8148c44a0d0783088255e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288535"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928506"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
+-  [Zelfstandige Exchange Online Protection](exchange-online-protection-overview.md)
 
-Met het volgende voorbeeldscript kunnen EOP-beheerders (Microsoft Exchange Online Protection) die meerdere tenants (bedrijven) beheren, Gebruikmaken van Exchange Online PowerShell om configuratie-instellingen te bekijken en/of toe te passen op hun tenants.
+Met het volgende voorbeeldscript kunnen EOP-beheerders (Microsoft Exchange Online Protection) die meerdere tenants (bedrijven) beheren, Exchange Online PowerShell gebruiken om configuratie-instellingen te bekijken en/of toe te passen op hun tenants.
 
 ## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a>Een script of cmdlet uitvoeren op meerdere tenants
 
-1. Als u dat nog niet hebt gedaan, [installeert u de Exchange Online V2-module.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)
+1. Als u dat nog niet hebt gedaan, [installeert u de Exchange Online V2-module](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module).
 
 2. Met een spreadsheet-app (bijvoorbeeld Excel) maakt u een CSV-bestand met de volgende details:
 
-   - UserName column: Het account dat u gebruikt om verbinding te maken `admin@contoso.onmicrosoft.com` (bijvoorbeeld).
-   - Cmdlet column: The cmdlet or command to run (example, `Get-AcceptedDomain` or `Get-AcceptedDomain | FT Name` ).
+   - UserName-kolom: het account dat u gebruikt om verbinding te maken `admin@contoso.onmicrosoft.com` (bijvoorbeeld).
+   - Cmdletkolom: de cmdlet of opdracht die u wilt uitvoeren (bijvoorbeeld `Get-AcceptedDomain` of `Get-AcceptedDomain | FT Name` ).
 
-   Het bestand ziet er zo uit:
+   Het bestand ziet er als volgende uit:
 
    ```text
    UserName,Cmdlet
@@ -48,11 +48,11 @@ Met het volgende voorbeeldscript kunnen EOP-beheerders (Microsoft Exchange Onlin
    admin@fabrikam.onmicrosoft.com,Get-AcceptedDomain | FT Name
    ```
 
-3. Sla het CSV-bestand op een locatie op die u eenvoudig kunt vinden (bijvoorbeeld c:\scripts\inputfile.csv).
+3. Sla het CSV-bestand op een locatie op die gemakkelijk te vinden is (bijvoorbeeld c:\scripts\inputfile.csv).
 
-4. Kopieer het [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script in Kladblok en sla het bestand op een locatie op die u eenvoudig kunt vinden (bijvoorbeeld c:\scripts).
+4. Kopieer het [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script naar Kladblok en sla het bestand op een locatie op die gemakkelijk te vinden is (bijvoorbeeld c:\scripts).
 
-5. Voer het script uit met behulp van de volgende syntaxis:
+5. Voer het script uit met de volgende syntaxis:
 
    ```powershell
    & "<file path>\RunCmdletOnMultipleTenants.ps1" "<file path>\inputfile.csv"
@@ -69,7 +69,7 @@ Met het volgende voorbeeldscript kunnen EOP-beheerders (Microsoft Exchange Onlin
 ## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants.ps1
 
 > [!NOTE]
-> Mogelijk moet u de regel `Connect-IPPSSession` in het script aanpassen aan uw omgeving. Voor Office 365 Germany is bijvoorbeeld een andere _ConnectionUri-waarde_ vereist dan de huidige waarde in een script. Zie Connect to Exchange Online Powershell (Verbinding maken met [Exchange Online Powershell) voor meer informatie.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)
+> Mogelijk moet u de regel `Connect-IPPSSession` in het script aanpassen aan uw omgeving. Office 365 Germany vereist bijvoorbeeld een andere _ConnectionUri-waarde_ dan de huidige waarde in een script. Zie Verbinding maken met [Exchange Online Powershell](/powershell/exchange/connect-to-exchange-online-protection-powershell)voor meer informatie.
 
 ```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.

@@ -19,12 +19,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Overzicht: Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c12970fb3ff6d5616201ff153085d411068d11c
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: a8a7002b7d482c987f77907787c5233dcb8d11e9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288393"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929382"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
 
@@ -370,7 +370,7 @@ Configureer vervolgens een beleid voor de preventie van gegevensverlies dat gebr
 
 20. Klik in het deelvenster **Uw instellingen controleren** op **Maken** en klik vervolgens op **Afsluiten**.
 
-Gebruik de instructies in [Azure RMS activeren met het Microsoft 365-beheercentrum](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
+Gebruik de instructies in [Azure RMS activeren met het Microsoft 365-beheercentrum](/information-protection/deploy-use/activate-office365).
 
 Configureer vervolgens Azure Information Protection met een nieuw beleid en een sublabel voor bescherming en machtigingen met de volgende stappen:
 
@@ -416,7 +416,7 @@ Configureer vervolgens Azure Information Protection met een nieuw beleid en een 
 
 U bent nu klaar om te beginnen met het maken van documenten op deze vier sites en het testen van de toegang hiertoe met verschillende gebruikersaccounts.
 
-Als u een document met Azure Information Protection en dit nieuwe label wilt beveiligen, moet u [de Azure Information Protection-client installeren](https://docs.microsoft.com/information-protection/rms-client/install-client-app) op een testcomputer, Office installeren vanuit het beheercentrum en u vervolgens aanmelden bij Microsoft Word met een account uit de groep **Senior en strategisch personeel** van uw proefabonnement.
+Als u een document met Azure Information Protection en dit nieuwe label wilt beveiligen, moet u [de Azure Information Protection-client installeren](/information-protection/rms-client/install-client-app) op een testcomputer, Office installeren vanuit het beheercentrum en u vervolgens aanmelden bij Microsoft Word met een account uit de groep **Senior en strategisch personeel** van uw proefabonnement.
 
 ## <a name="see-also"></a>Zie ook
 

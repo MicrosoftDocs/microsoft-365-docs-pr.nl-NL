@@ -1,5 +1,5 @@
 ---
-title: Uw globale beheerdersaccounts in Microsoft 365 beveiligen
+title: Uw globale beheerdersaccounts van Microsoft 365 beveiligen
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -22,134 +22,134 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: Dit artikel bevat informatie over het beschermen van globale beheerderstoegang tot uw Microsoft 365-abonnement.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f84ca33a620c3ea3c24f46eb29c1a39c28840e7
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 4ade5fd8070a656f976caa75c16ab92cadb7b64a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289637"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929046"
 ---
-# <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Uw globale beheerdersaccounts in Microsoft 365 beveiligen
+# <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Uw globale beheerdersaccounts van Microsoft 365 beveiligen
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Beveiligingsinbreuken van een Microsoft 365-abonnement, waaronder phishingaanvallen en het verzamelen van gegevens, worden meestal uitgevoerd door de referenties van een globale beheerdersaccount van Microsoft 365 te onderzenden. Beveiliging in de cloud is een partnerschap tussen u en Microsoft:
+Beveiligingsinbreuken van een Microsoft 365-abonnement, inclusief het verzamelen van gegevens en phishingaanvallen, worden meestal uitgevoerd door de referenties van een globale beheerdersaccount van Microsoft 365 in gevaar te brengen. Beveiliging in de cloud is een partnerschap tussen u en Microsoft:
   
-- Microsoft-cloudservices zijn gebouwd op basis van vertrouwen en beveiliging. Microsoft biedt u besturingselementen voor beveiliging en mogelijkheden om u te helpen uw gegevens en toepassingen te beschermen.
+- Microsoft-cloudservices zijn gebaseerd op een fundament van vertrouwen en beveiliging. Microsoft biedt u beveiligingsbesturingselementen en -mogelijkheden om u te helpen uw gegevens en toepassingen te beveiligen.
     
-- U bent de eigenaar van uw gegevens en identiteiten en bent verantwoordelijk voor de beveiliging ervan, de beveiliging van uw on-premises resources en de beveiliging van cloudonderdelen die u controleert.
+- U bent eigenaar van uw gegevens en identiteiten en bent verantwoordelijk voor het beschermen van deze gegevens, de beveiliging van uw on-premises resources en de beveiliging van cloudonderdelen die u controleert.
     
-Microsoft biedt mogelijkheden om uw organisatie te helpen beschermen, maar deze zijn alleen effectief als u ze gebruikt. Als u ze niet gebruikt, bent u mogelijk kwetsbaar voor een aanval. Om uw globale beheerdersaccounts te beschermen, is Microsoft er om u te helpen met gedetailleerde instructies voor:
+Microsoft biedt mogelijkheden om uw organisatie te beschermen, maar ze zijn alleen effectief als u ze gebruikt. Als u deze niet gebruikt, kunt u mogelijk kwetsbaar zijn voor aanvallen. Om uw globale beheerdersaccounts te beschermen, is Microsoft hier om u te helpen met gedetailleerde instructies voor:
   
-1. Maak toegewezen globale beheerdersaccounts in Microsoft 365 en gebruik ze alleen wanneer dat nodig is.
+1. Maak speciale globale beheerdersaccounts van Microsoft 365 en gebruik deze alleen wanneer dat nodig is.
     
-2. Configureer meervoudige verificatie voor uw toegewezen globale beheerdersaccounts in Microsoft 365 en gebruik de strongste vorm van secundaire verificatie.
+2. Configureer meervoudige verificatie voor uw toegewezen globale beheerdersaccounts van Microsoft 365 en gebruik de sterkste vorm van secundaire verificatie.
     
 > [!Note]
-> Hoewel dit artikel is gericht op globale beheerdersaccounts, moet u overwegen of extra accounts met uitgebreide machtigingen voor toegang tot de gegevens in uw abonnement, zoals eDiscovery-beheerdersaccounts of beveiligings- of nalevingsbeheerdersaccounts, op dezelfde manier moeten worden beveiligd. <br > Een globale beheerdersaccount kan worden gemaakt zonder licenties toe te voegen.
+> Hoewel dit artikel is gericht op globale beheerdersaccounts, moet u overwegen of extra accounts met uitgebreide machtigingen voor toegang tot de gegevens in uw abonnement, zoals eDiscovery-beheerders- of beveiligings- of compliancebeheerdersaccounts, op dezelfde manier moeten worden beveiligd. <br > Er kan een globaal beheerdersaccount worden gemaakt zonder licenties toe te voegen.
   
-## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>Stap 1. Toegewezen globale beheerdersaccounts in Microsoft 365 maken en alleen gebruiken indien nodig
+## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>Stap 1. Speciale globale beheerdersaccounts van Microsoft 365 maken en deze alleen gebruiken wanneer dat nodig is
 
-Er zijn relatief weinig beheertaken, zoals het toewijzen van rollen aan gebruikersaccounts, waarvoor globale beheerdersbevoegdheden zijn vereist. Ga daarom als volgende stappen te werk in plaats van gebruik te maken van gewone gebruikersaccounts aan welke de globale beheerdersrol is toegewezen:
+Er zijn relatief weinig beheertaken, zoals het toewijzen van rollen aan gebruikersaccounts, waarvoor globale beheerdersbevoegdheden zijn vereist. Ga daarom als volgende stappen te werk in plaats van dagelijkse gebruikersaccounts te gebruiken die aan de globale beheerdersrol zijn toegewezen:
   
-1. Bepaal de set gebruikersaccounts aan wie de globale beheerdersrol is toegewezen. U kunt dit doen in het Microsoft 365-beheercentrum of met de volgende Azure Active (Azure AD) Directory PowerShell for Graph-opdracht:
+1. Bepaal de set gebruikersaccounts aan wie de globale beheerdersrol is toegewezen. U kunt dit doen in het Microsoft 365-beheercentrum of met de volgende opdracht Azure Active (Azure AD) Directory PowerShell voor Graph:
   
   ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Global Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 
-2. Meld u aan bij uw Microsoft 365-abonnement met een gebruikersaccount aan welke de globale beheerdersrol is toegewezen.
+2. Meld u aan bij uw Microsoft 365-abonnement met een gebruikersaccount dat is toegewezen aan de globale beheerdersrol.
     
-3. Maak maximaal vier toegewezen globale beheerdersaccounts. **Gebruik sterke wachtwoorden van minstens 12 tekens.** Zie [Een sterk wachtwoord maken](https://support.microsoft.com/help/4026406/microsoft-account-create-a-strong-password) voor meer informatie. Bewaar de wachtwoorden voor de nieuwe accounts op een veilige locatie. 
+3. Maak maximaal vier toegewezen globale beheerdersaccounts. **Gebruik sterke wachtwoorden van ten minste 12 tekens lang.** Zie [Een sterk wachtwoord maken](https://support.microsoft.com/help/4026406/microsoft-account-create-a-strong-password) voor meer informatie. Sla de wachtwoorden voor de nieuwe accounts op een veilige locatie op. 
     
-4. Wijs de globale beheerdersrol toe aan elk nieuw toegewezen globale beheerdersaccount.
+4. Wijs de rol van globale beheerder toe aan elk van de nieuwe toegewezen globale beheerdersaccounts.
     
 5. Meld u af bij Microsoft 365.
     
 6. Meld u aan met een van de nieuwe toegewezen globale beheerdersaccounts.
     
-7. Voor elk bestaand gebruikersaccount aan welke de globale beheerdersrol uit stap 1 is toegewezen:
+7. Voor elk bestaand gebruikersaccount dat de globale beheerdersrol van stap 1 heeft gekregen:
     
-  - Verwijder de globale beheerdersrol.
+  - Verwijder de rol van globale beheerder.
     
-  - Wijs beheerdersrollen toe aan het account die geschikt zijn voor de functie en verantwoordelijkheid voor de functie van die gebruiker. Zie Over beheerdersrollen voor meer informatie over [](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)verschillende beheerdersrollen in Microsoft 365.
+  - Wijs beheerdersrollen toe aan het account dat geschikt is voor de functie en verantwoordelijkheid van die gebruiker. Zie Over [beheerdersrollen](/office365/admin/add-users/about-admin-roles)voor meer informatie over verschillende beheerdersrollen in Microsoft 365.
     
 8. Meld u af bij Microsoft 365.
     
 De resultaten moeten zijn:
   
-- De enige gebruikersaccounts in uw abonnement met de globale beheerdersrol zijn de nieuwe toegewezen globale beheerdersaccounts. Controleer dit met de volgende PowerShell-opdracht:
+- De enige gebruikersaccounts in uw abonnement die de rol van globale beheerder hebben, zijn de nieuwe set toegewezen globale beheerdersaccounts. Controleer dit met de volgende PowerShell-opdracht:
     
   ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 
-- Aan alle andere gewone gebruikersaccounts die uw abonnement beheren, zijn beheerdersrollen toegewezen die zijn gekoppeld aan hun taakverantwoordelijkheden.
+- Alle andere dagelijkse gebruikersaccounts die uw abonnement beheren, hebben beheerdersrollen toegewezen die zijn gekoppeld aan hun taakverantwoordelijkheden.
     
-Vanaf dit moment kunt u zich alleen met de toegewezen globale beheerdersaccounts aanmelden voor taken waarvoor globale beheerdersbevoegdheden zijn vereist. Alle andere Microsoft 365-beheerfuncties moeten worden uitgevoerd door andere beheerdersrollen toe te wijzen aan gebruikersaccounts.
+Vanaf dit moment kunt u zich alleen aanmelden met de toegewezen globale beheerdersaccounts voor taken waarvoor globale beheerdersbevoegdheden zijn vereist. Alle andere beheerfuncties van Microsoft 365 moeten worden uitgevoerd door andere beheerrollen toe te wijzen aan gebruikersaccounts.
   
 > [!NOTE]
-> Hiervoor zijn wel extra stappen nodig om u af te melden bij uw gewone gebruikersaccount en u aan te melden met een toegewezen globale beheerdersaccount. Maar dit hoeft u slechts af en toe te doen bij bewerkingen die globale beheerders uitvoeren. Houd er rekening mee dat voor het herstellen van uw Microsoft 365-abonnement na een schending van een globale beheerdersaccount veel meer stappen zijn vereist.
+> Hiervoor zijn extra stappen nodig om u af te melden als uw dagelijkse gebruikersaccount en u aan te melden met een toegewezen globale beheerdersaccount. Maar dit hoeft alleen af en toe te gebeuren voor globale beheerdersbewerkingen. Houd er rekening mee dat het herstellen van uw Microsoft 365-abonnement na een schending van een globale beheerdersaccount veel meer stappen vereist.
   
-## <a name="step-2-configure-multi-factor-authentication-for-your-dedicated-microsoft-365-global-administrator-accounts"></a>Stap 2. Meervoudige verificatie configureren voor uw toegewezen globale beheerdersaccounts in Microsoft 365
+## <a name="step-2-configure-multi-factor-authentication-for-your-dedicated-microsoft-365-global-administrator-accounts"></a>Stap 2. Meervoudige verificatie configureren voor uw toegewezen globale beheerdersaccounts van Microsoft 365
 
-Voor meervoudige verificatie (Multi-Factor Authentication, MFA) zijn aanvullende gegevens vereist, naast de accountnaam en het wachtwoord. Microsoft 365 ondersteunt deze aanvullende verificatiemethoden:
+Voor meervoudige verificatie (MFA) is meer informatie nodig dan de accountnaam en het wachtwoord. Microsoft 365 ondersteunt deze aanvullende verificatiemethoden:
   
 - De Microsoft Authenticator-app
 
 - Een telefonische oproep
     
-- Een willekeurig gegenereerde verificatiecode verzonden via een sms-bericht
+- Een willekeurig gegenereerde verificatiecode die via een sms-bericht wordt verzonden
     
 - Een smartcard (al dan niet virtueel)
     
 - Een biometrisch apparaat
     
 >[!Note]
->Voor organisaties die moeten voldoen aan de NIST-standaarden (National Institute of Standards and Technology), wordt het gebruik van aanvullende verificatiemethoden via telefoon of sms beperkt. Klik [hier](https://pages.nist.gov/800-63-FAQ/#q-b01) voor meer informatie.
+>Voor organisaties die zich moeten houden aan de NIST-standaarden (National Institute of Standards and Technology) is het gebruik van aanvullende verificatiemethoden voor telefoongesprekken of sms-berichten beperkt. Klik [hier](https://pages.nist.gov/800-63-FAQ/#q-b01) voor de details.
 >
 
-Als u een klein bedrijf bent dat gebruik maakt van gebruikersaccounts die alleen zijn opgeslagen in de cloud (het identiteitsmodel voor alleen de cloud), stelt u MFA in om [MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) te configureren via een telefonische oproep of een verificatiecode voor sms-berichten die voor elk toegewezen globale beheerdersaccount naar een smartphone wordt verzonden.
+Als u een klein bedrijf bent dat gebruik maakt van gebruikersaccounts die alleen zijn opgeslagen in de cloud (het cloudidentiteitsmodel), stelt u MFA in om [MFA](/office365/admin/security-and-compliance/set-up-multi-factor-authentication) te configureren met behulp van een telefoongesprek of een verificatiecode voor sms-berichten die naar een smartphone is verzonden voor elk toegewezen globale beheerdersaccount.
     
-Als u een grotere organisatie bent die gebruik maakt van een hybride identiteitsmodel voor Microsoft 365, hebt u meer verificatieopties. Als u de beveiligingsinfrastructuur al hebt ingesteld voor een sterkere secundaire verificatiemethode, stelt u [MFA](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) in en configureert u elk toegewezen globale beheerdersaccount voor de juiste verificatiemethode.
+Als u een grotere organisatie bent die een hybride microsoft 365-identiteitsmodel gebruikt, hebt u meer verificatieopties. Als u de beveiligingsinfrastructuur al hebt ingesteld voor een sterkere secundaire verificatiemethode, stelt u [MFA](../admin/security-and-compliance/set-up-multi-factor-authentication.md) in en configureert u elk toegewezen globale beheerdersaccount voor de juiste verificatiemethode.
   
-Als de beveiligingsinfrastructuur voor de gewenste krachtigere verificatiemethode niet ingesteld en functionerend is voor Microsoft 365 MFA, raden we u ten zeerste aan om globale beheerdersaccounts met MFA te configureren met behulp van de Microsoft Authenticator-app, een telefoongesprek of een verificatiecode voor sms-berichten die als tussentijdse beveiligingsmaatregel naar een smartphone is verzonden voor uw globale beheerdersaccounts. Verlaat uw toegewezen globale beheerdersaccounts niet zonder de extra beveiliging die door MFA wordt geboden.
+Als de beveiligingsinfrastructuur voor de gewenste sterkere verificatiemethode niet beschikbaar is en niet werkt voor Microsoft 365 MFA, raden we u ten zeerste aan om speciale globale beheerdersaccounts met MFA te configureren met de Microsoft Authenticator-app, een telefoongesprek of een verificatiecode voor sms-berichten die naar een smartphone voor uw globale beheerdersaccounts is verzonden als tussentijdse beveiligingsmaatregel. Verlaat uw toegewezen globale beheerdersaccounts niet zonder de extra beveiliging die door MFA wordt geboden.
   
-Zie MFA voor [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)voor meer informatie.
+Zie [MFA voor Microsoft 365](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)voor meer informatie.
   
-Zie de volgende artikelen als u verbinding wilt maken met Microsoft 365-services met MFA en PowerShell:
+Zie deze artikelen als u verbinding wilt maken met Microsoft 365-services met MFA en PowerShell:
 
 - [PowerShell voor Microsoft 365 voor gebruikersaccounts, groepen en licenties](connect-to-microsoft-365-powershell.md)
-- [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
-- [Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa)
-- [SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-multifactor-authentication-mfa)
+- [Microsoft Teams](/microsoftteams/teams-powershell-install)
+- [Exchange Online](/powershell/exchange/mfa-connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa)
+- [SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-multifactor-authentication-mfa)
 - [Skype voor Bedrijven Online](manage-skype-for-business-online-with-microsoft-365-powershell.md#connect-using-an-admin-account-with-multi-factor-authentication)
 
-## <a name="additional-protections-for-enterprise-organizations"></a>Aanvullende beveiliging voor ondernemingen
+## <a name="additional-protections-for-enterprise-organizations"></a>Aanvullende beveiligingen voor ondernemingsorganisaties
 
-Gebruik deze aanvullende methoden om ervoor te zorgen dat uw globale beheerdersaccount en de configuratie die u op deze manier gebruikt, zo veilig mogelijk zijn.
+Gebruik deze aanvullende methoden om ervoor te zorgen dat uw globale beheerdersaccount en de configuratie die u erop gebruikt, zo veilig mogelijk zijn.
   
 ### <a name="privileged-access-workstation"></a>Bevoorrechte toegangswerkstation
 
-Gebruik een bevoorrecht werkstation VOOR TOEGANG (PRIVILEGED) om ervoor te zorgen dat de uitvoering van taken met veel bevoegdheden zo veilig mogelijk is. Een WELT.A. is een speciale computer die alleen wordt gebruikt voor gevoelige configuratietaken, zoals een Microsoft 365-configuratie die een globale beheerdersaccount vereist. Omdat deze computer niet dagelijks wordt gebruikt voor browsen of e-mail op internet, is de computer beter beveiligd tegen internetaanvallen en -bedreigingen.
+Gebruik een bevoorrecht toegangswerkstation (PAW) om ervoor te zorgen dat de uitvoering van zeer bevoorrechte taken zo veilig mogelijk is. Een PAW is een speciale computer die alleen wordt gebruikt voor gevoelige configuratietaken, zoals Microsoft 365-configuratie die een globale beheerdersaccount vereist. Omdat deze computer niet dagelijks wordt gebruikt voor surfen op internet of e-mail, is deze beter beveiligd tegen internetaanvallen en bedreigingen.
   
-Zie voor instructies over het instellen van een [https://aka.ms/cyberpaw](https://aka.ms/cyberpaw) WAS.IN.
+Zie voor instructies over het instellen van een [https://aka.ms/cyberpaw](/security/compass/privileged-access-devices) PAW.
 
-Als u Azure PIM wilt inschakelen voor uw Azure Active Directory tenant -en beheerdersaccounts, raadpleegt u de [stappen voor het configureren van PIM](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure).
+Als u Azure PIM wilt inschakelen voor uw Azure Active Directory tenant -en beheerdersaccounts, raadpleegt u de [stappen voor het configureren van PIM](/azure/active-directory/active-directory-privileged-identity-management-configure).
 
-U kunt een uitgebreide roadmap ontwikkelen om bevoegde toegang te beveiligen tegen cyberaanvallers, zie [Bevoegde toegang voor hybride en cloudimplementaties in Azure Active Directory beveiligen](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices).
+U kunt een uitgebreide roadmap ontwikkelen om bevoegde toegang te beveiligen tegen cyberaanvallers, zie [Bevoegde toegang voor hybride en cloudimplementaties in Azure Active Directory beveiligen](/azure/active-directory/admin-roles-best-practices).
 
 ### <a name="azure-ad-privileged-identity-management"></a>Azure AD Privileged Identity Management
 
-In plaats van dat de globale beheerdersaccounts permanent worden toegewezen, kunt u Azure AD Privileged Identity Management (PIM) gebruiken om op aanvraag just-in-time de globale beheerdersrol toe te staan wanneer deze nodig is.
+In plaats van dat uw globale beheerdersaccounts permanent de rol van globale beheerder worden toegewezen, kunt u Azure AD Privileged Identity Management (PIM) gebruiken om op aanvraag, just-in-time toewijzing van de globale beheerdersrol in te stellen wanneer dit nodig is.
   
-Uw globale beheerdersaccounts worden permanente beheerders en beheerders die hiervoor in aanmerking komen. De globale beheerdersrol is inactief totdat iemand deze nodig heeft. Vervolgens voltooit u een activeringsproces om de globale beheerdersrol voor een vooraf bepaalde tijd toe te voegen aan het globale beheerdersaccount. Als de tijd is verstreken, verwijdert PIM de globale beheerdersrol uit het globale beheerdersaccount.
+Uw globale beheerdersaccounts gaan van permanente beheerders naar in aanmerking komende beheerders. De globale beheerdersrol is inactief totdat iemand deze nodig heeft. Vervolgens voltooit u een activeringsproces om de rol van globale beheerder voor een vooraf bepaalde tijd toe te voegen aan het globale beheerdersaccount. Als de tijd is verstreken, verwijdert PIM de globale beheerdersrol uit het globale beheerdersaccount.
   
-Door PIM te gebruiken en dit proces te gebruiken, wordt de tijd die uw globale beheerdersaccounts kwetsbaar zijn voor aanvallen en gebruik door kwaadwillende gebruikers aanzienlijk verminderd.
+Met behulp van PIM en dit proces wordt de tijd die uw globale beheerdersaccounts kwetsbaar zijn voor aanvallen en gebruik door kwaadwillende gebruikers aanzienlijk verminderd.
 
 PIM is beschikbaar met Azure Active Directory Premium P2, dat inbegrepen is bij Microsoft 365 E5. U kunt ook afzonderlijke Azure Active Directory Premium P2-licenties aanschaffen voor uw beheerdersaccounts.
   
-Zie Azure [AD Privileged Identity Management voor meer informatie.](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)
+Zie Azure [AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure)voor meer informatie.
   
 
 ### <a name="privileged-access-management"></a>Privileged Access Management
@@ -162,24 +162,24 @@ In deze stap schakelt u geprivilegieerd toegangsbeheer in uw tenant in en config
 - Geprivilegieerde toegang inschakelen
 - Goedkeuringsbeleid maken
 
-Met bevoorrechte toegangsbeheer kan uw organisatie zonder machtigingen werken en een verdediging bieden tegen beveiligingslekken die ontstaan vanwege dergelijke staande administratieve toegang. Geprivilegieerde toegang vereist goedkeuring voor het uitvoeren van taken met een bijbehorend goedkeuringsbeleid. Gebruikers die taken moeten uitvoeren die zijn opgenomen in het goedkeuringsbeleid, moeten goedkeuring aanvragen en krijgen.
+Met bevoorrecht toegangsbeheer kan uw organisatie werken met nul staande bevoegdheden en een beschermingslaag bieden tegen beveiligingsproblemen die ontstaan als gevolg van dergelijke permanente beheerderstoegang. Geprivilegieerde toegang vereist goedkeuring voor het uitvoeren van taken met een bijbehorend goedkeuringsbeleid. Gebruikers die taken moeten uitvoeren die zijn opgenomen in het goedkeuringsbeleid, moeten om toegangsgoedkeuring vragen en deze toestemming krijgen.
 
-Zie Bevoorrechte toegangsbeheer configureren om bevoorrechte [toegangsbeheer in te stellen.](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration)
+Zie Bevoorrecht toegangsbeheer configureren als u het beheer van [geprivilegieerde toegang wilt inschakelen.](/office365/securitycompliance/privileged-access-management-configuration)
 
-Zie Privileged [access management (Bevoorrechte toegangsbeheer) voor meer informatie.](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview)
+Zie Privileged access management (Bevoorrecht [toegangsbeheer)](/office365/securitycompliance/privileged-access-management-overview)voor meer informatie.
 
-### <a name="security-information-and-event-management-siem-software-for-microsoft-365-logging"></a>SIEM-software (Security Information and Event Management) voor Microsoft 365-logboekregistratie
+### <a name="security-information-and-event-management-siem-software-for-microsoft-365-logging"></a>SiEM-software (Security Information and Event Management) voor Microsoft 365-logboekregistratie
 
-SIEM-software die op een server wordt uitgevoerd, voert een realtime-analyse uit van beveiligingswaarschuwingen en -gebeurtenissen die zijn gemaakt door toepassingen en netwerkhardware. Als u wilt dat uw SIEM-server beveiligingswaarschuwingen en -gebeurtenissen van Microsoft 365 kan opnemen in de analyse- en rapportagefuncties, integreert u Azure AD in uw SEIM. Zie [Inleiding tot de integratie van Azure Log.](https://docs.microsoft.com/azure/security/security-azure-log-integration-overview)
+SIEM-software die wordt uitgevoerd op een server, voert realtime analyse uit van beveiligingswaarschuwingen en gebeurtenissen die zijn gemaakt door toepassingen en netwerkhardware. Als u wilt toestaan dat uw SIEM-server Beveiligingswaarschuwingen en gebeurtenissen van Microsoft 365 in de analyse- en rapportagefuncties op kan nemen, integreert u Azure AD in uw SEIM. Zie [Inleiding tot Azure Log Integration](/azure/security/security-azure-log-integration-overview).
 
 ## <a name="next-step"></a>Volgende stap
 
-Als u identiteit instelt voor uw Microsoft 365-abonnement, gaat u naar:
+Als u een identiteit voor uw Microsoft 365-abonnement instelt, gaat u als volgende te werk:
 
-- [Alleen cloudidentiteiten](cloud-only-identities.md) als u identiteiten in de cloud gebruikt
-- [Voorbereiden op adreslijstsynchronisatie](prepare-for-directory-synchronization.md) als u hybride identiteit gebruikt
+- [Alleen-cloudidentiteiten](cloud-only-identities.md) als u cloud-only-identiteit gebruikt
+- [Voorbereidingen treffen voor adreslijstsynchronisatie](prepare-for-directory-synchronization.md) als u hybride identiteit gebruikt
 
   
 ## <a name="see-also"></a>Zie ook
 
-[Roadmap voor microsoft 365-beveiliging](https://docs.microsoft.com/office365/securitycompliance/security-roadmap)
+[Microsoft 365-beveiligings roadmap](/office365/securitycompliance/security-roadmap)

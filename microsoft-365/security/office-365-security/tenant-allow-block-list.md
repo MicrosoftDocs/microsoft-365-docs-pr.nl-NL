@@ -1,5 +1,5 @@
 ---
-title: Uw sta- en blokkeringen beheren in de tenantlijst toestaan/blokkeren
+title: Uw toegestane en geblokkeerde blokken beheren in de lijst Toestaan/blokkeren van tenant
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,15 +13,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen in de beveiligingsportal meer informatie krijgen over het configureren van toegestane en geblokkeerde tenants in de lijst Met toegestane/geblokkeerde tenants.
+description: Beheerders kunnen informatie krijgen over het configureren van toestaan en blokkeren in de lijst Tenant toestaan/blokkeren in de beveiligingsportal.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 20e460f4e93f7b87faaead8b87ba561224e38938
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 2f97308bfc3600e4e85f5ac92d951b12d9a50f24
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515206"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928530"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Tenant Toestaan/Blokkeren-lijst beheren
 
@@ -34,187 +34,187 @@ ms.locfileid: "50515206"
 
 > [!NOTE]
 >
-> De functies die in dit artikel worden beschreven, zijn in preview beschikbaar, kunnen worden gewijzigd en zijn niet in alle organisaties beschikbaar.
+> De functies die in dit artikel worden beschreven, zijn in Preview, kunnen worden gewijzigd en zijn niet beschikbaar in alle organisaties.
 >
-> U kunt momenteel geen **toegestane** items in de tenantlijst Toestaan/Blokkeren configureren.
+> U kunt op dit **moment geen toegestane** items configureren in de lijst Tenant toestaan/blokkeren.
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken, bent u het mogelijk niet eens met de filtering van EOP. Een goed bericht kan bijvoorbeeld als slecht zijn gemarkeerd (een fout-positief) of een slecht bericht kan zijn toegestaan (een fout-negatief).
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, bent u het mogelijk niet eens met de uitspraak over EOP-filtering. Een goed bericht kan bijvoorbeeld worden gemarkeerd als slecht (een onwaar positief) of een slecht bericht kan worden toegestaan (een onwaar negatief).
 
-Met de lijst met tenants toestaan/blokkeren in het & compliancecentrum voor beveiliging kunt u het filterbeleid van Microsoft 365 handmatig overschrijven. De tenantlijst toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en tijdens het klikken door de gebruiker. U kunt URL's of bestanden opgeven die u altijd wilt blokkeren.
+Met de tenantlijst Toestaan/blokkeren in het Beveiligings- & Compliancecentrum kunt u handmatig de filterinspraken van Microsoft 365 overschrijven. De lijst Tenant toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en op het moment dat de gebruiker klikt. U kunt URL's of bestanden opgeven die u altijd wilt blokkeren.
 
-In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Toestaan/blokkeren van de tenant in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tenant toestaan/blokkeren in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Tenant toestaan/blokkeren wilt** gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Lijst met tenants toestaan/blokkeren wilt** gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
 
-- U geeft bestanden op met behulp van de SHA256-hashwaarde van het bestand. U kunt de SHA256-hashwaarde van een bestand in Windows vinden door de volgende opdracht uit te voeren in een opdrachtprompt:
+- U geeft bestanden op met de hashwaarde SHA256 van het bestand. Als u de hashwaarde SHA256 van een bestand in Windows wilt zoeken, voer u de volgende opdracht uit in een opdrachtprompt:
 
   ```console
   certutil.exe -hashfile "<Path>\<Filename>" SHA256
   ```
 
-  Een voorbeeldwaarde is `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a` . Perceptual hash -waarden (pHash) worden niet ondersteund.
+  Een voorbeeldwaarde is `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a` . Perceptuele hashwaarden (pHash) worden niet ondersteund.
 
-- De beschikbare URL-waarden worden beschreven in de URL-syntaxis voor de [sectie Toestaan/blokkeerlijst](#url-syntax-for-the-tenant-allowblock-list) voor tenants verderop in dit artikel.
+- De beschikbare URL-waarden worden beschreven in de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel.
 
-- De tenantlijst toestaan/blokkeren biedt maximaal 500 vermeldingen voor URL's en 500 vermeldingen voor bestand-hashes.
+- De lijst Tenant toestaan/blokkeren staat maximaal 500 vermeldingen voor URL's en 500 vermeldingen voor bestandshashes toe.
 
-- Het maximum aantal tekens voor elke invoer is:
+- Het maximum aantal tekens voor elke vermelding is:
   - Bestandshashes = 64
   - URL = 250
 
 - Een item moet binnen 30 minuten actief zijn.
 
-- Standaard verlopen vermeldingen in de lijst met toegestane/geblokkeerde tenants na 30 dagen. U kunt een datum opgeven of instellen dat deze nooit verloopt.
+- Standaard verlopen vermeldingen in de lijst Tenant toestaan/blokkeren na 30 dagen. U kunt een datum opgeven of instellen dat deze nooit verloopt.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - U moet over toegewezen machtigingen beschikken in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
-  - Als u waarden wilt toevoegen aan en verwijderen uit de tenantlijst toestaan/blokkeren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
-  - Voor alleen-lezen toegang tot de tenantlijst Toestaan/Blokkeren moet  u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
+  - Als u waarden wilt toevoegen en verwijderen uit de lijst Tenant toestaan/blokkeren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
+  - Voor alleen-lezen toegang tot de tenantlijst toestaan/blokkeren moet  u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
-  Zie [Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) voor meer informatie.
+  Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
   > [!NOTE]
   > 
   > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
+  > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
-## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om URL-vermeldingen te maken in de lijst Met toegestane/geblokkeerde tenants
+## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om URL-vermeldingen te maken in de lijst Tenant toestaan/blokkeren
 
-Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis voor URL-vermeldingen.
+Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis van URL-vermeldingen.
 
-1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
-2. Controleer op **de pagina Tenant toestaan/blokkeren** of het tabblad **URL's** is geselecteerd en klik vervolgens op **Blokkeren**
+2. Controleer op de pagina Lijst met **tenants toestaan/blokkeren** of het tabblad **URL's** is geselecteerd en klik vervolgens op **Blokkeren**
 
-3. Configureer **de volgende** instellingen in de flyout Blok-URL's die wordt weergegeven:
+3. Configureer **de volgende** instellingen in het flyout URL's blokkeren dat wordt weergegeven:
 
-   - **Url's toevoegen die u wilt blokkeren:** voer één URL per regel in, maximaal 20.
+   - **URL's toevoegen om te blokkeren:** Voer één URL per regel in, maximaal 20.
 
-   - **Verloopt nooit:** ga op een van de volgende stappen te werk:
+   - **Nooit verlopen:** Ga op een van de volgende stappen te werk:
 
-     - Controleer of de instelling is uitgeschakeld (in-/uitschakelen) en gebruik het vak Verloopt in om de vervaldatum voor de items ![ ](../../media/scc-toggle-off.png) op te geven. 
+     - Controleer of de instelling is uitgeschakeld (schakel uit) en gebruik het vak Verloopt aan om de vervaldatum voor de ![ ](../../media/scc-toggle-off.png) vermeldingen op te geven. 
 
        of
 
-     - Verplaats de schakelknop naar rechts om de vermeldingen zo te configureren dat ze nooit verlopen: ![Inschakelen](../../media/scc-toggle-on.png).
+     - Verplaats de schakelknop naar rechts om de items zo te configureren dat ze nooit verlopen: ![Inschakelen](../../media/scc-toggle-on.png).
 
-   - **Optionele opmerking:** voer beschrijvende tekst in voor de vermeldingen.
+   - **Optionele opmerking:** Voer beschrijvende tekst in voor de vermeldingen.
 
-4. Klik op Toevoegen wanneer u **klaar bent.**
+4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
-## <a name="use-the-security--compliance-center-to-create-file-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om bestandsgegevens te maken in de lijst Met toegestane/geblokkeerde tenants
+## <a name="use-the-security--compliance-center-to-create-file-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om bestandsgegevens te maken in de lijst Tenant toestaan/blokkeren
 
-1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
-2. Selecteer op **de pagina Lijst met tenants toestaan/blokkeren** het tabblad Bestanden en klik op **Blokkeren.** 
+2. Selecteer op de pagina Lijst met **tenants toestaan/blokkeren** de optie **Tabblad** Bestanden en klik vervolgens op **Blokkeren.**
 
-3. Configureer **de volgende instellingen** in het dialoogvenster Bestanden toevoegen om de flyout te blokkeren die wordt weergegeven:
+3. Configureer **de volgende instellingen in het flyout** add files to block flyout that appears:
 
-   - **Bestandshashes toevoegen:** voer één SHA256-hashwaarde per regel in, tot maximaal 20.
+   - **Bestandshashes toevoegen:** Voer één SHA256-hashwaarde per regel in, maximaal 20.
 
-   - **Verloopt nooit:** ga op een van de volgende stappen te werk:
+   - **Nooit verlopen:** Ga op een van de volgende stappen te werk:
 
-     - Controleer of de instelling is uitgeschakeld (in-/uitschakelen) en gebruik het vak Verloopt in om de vervaldatum voor de items ![ ](../../media/scc-toggle-off.png) op te geven. 
+     - Controleer of de instelling is uitgeschakeld (schakel uit) en gebruik het vak Verloopt aan om de vervaldatum voor de ![ ](../../media/scc-toggle-off.png) vermeldingen op te geven. 
 
      of
 
-     - Verplaats de schakelknop naar rechts om de vermeldingen zo te configureren dat ze nooit verlopen: ![Inschakelen](../../media/scc-toggle-on.png).
+     - Verplaats de schakelknop naar rechts om de items zo te configureren dat ze nooit verlopen: ![Inschakelen](../../media/scc-toggle-on.png).
 
-   - **Optionele opmerking:** voer beschrijvende tekst in voor de vermeldingen.
+   - **Optionele opmerking:** Voer beschrijvende tekst in voor de vermeldingen.
 
-4. Klik op Toevoegen wanneer u **klaar bent.**
+4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
-## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om vermeldingen in de lijst Met toegestane/geblokkeerde tenants weer te geven
+## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om items in de lijst Tenant toestaan/blokkeren weer te geven
 
-1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
 Klik op de volgende kolomkoppen om in oplopende of aflopende volgorde te sorteren:
 
-- **Waarde:** de URL of de bestandshash.
+- **Waarde:** De URL of de bestandshash.
 - **Laatst bijgewerkte datum**
 - **Vervaldatum**
 - **Opmerking**
 
-Klik **op** Zoeken, voer een waarde in (een deel ervan) en druk op Enter om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u op **het pictogram Zoeken** ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) verwijderen.
+Klik **op Zoeken,** voer een hele of een deel van een waarde in en druk vervolgens op Enter om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u op **Zoek verwijderen Zoekpictogram** ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) verwijderen.
 
-Klik **op Filter.** Configureer **een van** de volgende instellingen in de flyout Filter die wordt weergegeven:
+Klik **op Filteren.** Configureer **een van** de volgende instellingen in het flyout Filter dat wordt weergegeven:
 
-- **Nooit verlopen:** uit- of ![ ](../../media/scc-toggle-off.png) uitschakelen: ![ In-/uitschakelen: In-/uitschakelen. ](../../media/scc-toggle-on.png)
+- **Nooit verlopen:** Uit- of ![ ](../../media/scc-toggle-off.png) uitschakelen: ![ In- of uitschakelen: In- of ](../../media/scc-toggle-on.png) uitschakelen.
 
 - **Laatst bijgewerkt:** Selecteer een begindatum **(Van),** een einddatum **(Aan)** of beide.
 
-- **Vervaldatum:** selecteer een begindatum **(van),** een einddatum **(aan)** of beide.
+- **Vervaldatum:** Selecteer een begindatum (**Van**), een einddatum (**Aan**) of beide.
 
-Klik op Toepassen wanneer u **klaar bent.**
+Wanneer u klaar bent, klikt u op **Toepassen.**
 
-Als u bestaande filters wilt wissen, klikt u op **Filter** en klikt u in de **flyout** Filter die wordt weergegeven op **Filters wissen.**
+Als u bestaande filters wilt wissen, klikt u **op Filter** en klikt u in het **fly-out** Filter dat wordt weergegeven op Filters **wissen.**
 
-## <a name="use-the-security--compliance-center-to-modify-block-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligingscentrum & blokkeringsgegevens in de lijst Met tenant toestaan/blokkeren te wijzigen
+## <a name="use-the-security--compliance-center-to-modify-block-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om blokinzendingen in de lijst Tenant toestaan/blokkeren te wijzigen
 
-U kunt de bestaande geblokkeerde URL of bestandswaarden in een vermelding niet wijzigen. Als u deze waarden wilt wijzigen, moet u de vermelding verwijderen en opnieuw maken.
+U kunt de bestaande geblokkeerde URL of bestandswaarden in een item niet wijzigen. Als u deze waarden wilt wijzigen, moet u de vermelding verwijderen en opnieuw maken.
 
-1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
-3. Selecteer het blok dat u wilt wijzigen en klik op **het pictogram** ![ ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) Bewerken.
+3. Selecteer de blokinvoer die u wilt wijzigen en klik vervolgens op **Pictogram** ![ Bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) bewerken.
 
-4. Configureer de volgende instellingen in de flyout die wordt weergegeven:
+4. Configureer de volgende instellingen in het flyout dat wordt weergegeven:
 
-   - **Verloopt nooit:** ga op een van de volgende stappen te werk:
+   - **Nooit verlopen:** Ga op een van de volgende stappen te werk:
 
-     - Controleer of de instelling is uitgeschakeld (in-/uitschakelen) en gebruik het vak Verloopt in om de vervaldatum voor de vermelding ![ ](../../media/scc-toggle-off.png) op te geven. 
+     - Controleer of de instelling is uitgeschakeld (schakelknop uit) en gebruik het vak Verloopt op om de vervaldatum voor ![ de vermelding op te ](../../media/scc-toggle-off.png) geven. 
 
        of
 
      - Verplaats de schakelknop naar rechts om de vermelding zo te configureren dat deze nooit verloopt: ![Inschakelen](../../media/scc-toggle-on.png).
 
-   - **Optionele opmerking:** voer een beschrijvende tekst voor de invoer in.
+   - **Optionele opmerking:** Voer beschrijvende tekst in voor de vermelding.
 
 5. Klik op **Opslaan** wanneer u gereed bent.
 
-## <a name="use-the-security--compliance-center-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om geblokkeerde items uit de lijst Met toegestane/geblokkeerde tenants te verwijderen
+## <a name="use-the-security--compliance-center-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om blokinzendingen uit de lijst Met tenant toestaan/blokkeren te verwijderen
 
-1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
-3. Selecteer het blok dat u wilt verwijderen en klik op **het pictogram** ![ ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) Verwijderen.
+3. Selecteer de blokinvoer die u wilt verwijderen en klik vervolgens op **Pictogram** ![ Verwijderen ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) verwijderen.
 
 4. Klik in het waarschuwingsvenster dat wordt weergegeven op **Verwijderen.**
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a>Exchange Online PowerShell of een zelfstandige EOP PowerShell gebruiken om de lijst met tenants toestaan/blokkeren te configureren
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a>Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om de tenantlijst toestaan/blokkeren te configureren
 
-### <a name="use-powershell-to-add-block-entries-to-the-tenant-allowblock-list"></a>PowerShell gebruiken om geblokkeerde items toe te voegen aan de lijst Met toegestane/geblokkeerde tenants
+### <a name="use-powershell-to-add-block-entries-to-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokgegevens toe te voegen aan de lijst Tenant toestaan/blokkeren
 
-Gebruik de volgende syntaxis om geblokkeerde items toe te voegen aan de tenantlijst Toestaan/Blokkeren:
+Gebruik de volgende syntaxis om blokgegevens toe te voegen in de lijst Tenant Allow/Block:
 
 ```powershell
 New-TenantAllowBlockListItems -ListType <Url | FileHash> -Block -Entries <String[]> [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
 ```
 
-In dit voorbeeld wordt een BLOK-URL-vermelding toegevoegd voor contoso.com en alle subdomeinen (bijvoorbeeld contoso.com, www.contoso.com en xyz.abc.contoso.com). Omdat we de parameters ExpirationDate of NoExpiration niet hebben gebruikt, verloopt de invoer na 30 dagen.
+In dit voorbeeld wordt een blok-URL-vermelding voor contoso.com en alle subdomeinen (bijvoorbeeld contoso.com, www.contoso.com en xyz.abc.contoso.com). Omdat we de parameters Vervaldatum of NoExpiration niet hebben gebruikt, verloopt de vermelding na 30 dagen.
 
 ```powershell
 New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 ```
 
-In dit voorbeeld wordt een blokkeringsbestandsinvoer toegevoegd voor de opgegeven bestanden die nooit verlopen.
+In dit voorbeeld wordt een blokbestandsinvoer toegevoegd voor de opgegeven bestanden die nooit verlopen.
 
 ```powershell
 New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
-Zie [New-TenantAllowBlockListItems voor](https://docs.microsoft.com/powershell/module/exchange/new-tenantallowblocklistitems)gedetailleerde syntaxis- en parameterinformatie.
+Zie [New-TenantAllowBlockListItems voor](/powershell/module/exchange/new-tenantallowblocklistitems)gedetailleerde syntaxis en parametergegevens.
 
-### <a name="use-powershell-to-view-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om vermeldingen in de lijst Toestaan/blokkeren van tenants weer te geven
+### <a name="use-powershell-to-view-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om items in de lijst Tenant toestaan/blokkeren weer te geven
 
-Gebruik de volgende syntaxis om vermeldingen weer te geven in de lijst Met toegestane/geblokkeerde tenants:
+Gebruik de volgende syntaxis om vermeldingen in de lijst Tenant toestaan/blokkeren weer te geven:
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType <Url | FileHash> [-Entry <URLValue | FileHashValue>] [-Block] [-ExpirationDate <DateTime>] [-NoExpiration]
@@ -226,19 +226,19 @@ In dit voorbeeld worden alle geblokkeerde URL's als retourneert.
 Get-TenantAllowBlockListItems -ListType Url -Block
 ```
 
-In dit voorbeeld worden gegevens voor de opgegeven hash-waarde voor het bestand als resultaat gegeven.
+In dit voorbeeld worden gegevens voor de opgegeven waarde voor bestandshash als resultaat gegeven.
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
 ```
 
-Zie [Get-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/get-tenantallowblocklistitems)voor gedetailleerde syntaxis- en parameterinformatie.
+Zie [Get-TenantAllowBlockListItems voor](/powershell/module/exchange/get-tenantallowblocklistitems)gedetailleerde syntaxis en parametergegevens.
 
-### <a name="use-powershell-to-modify-block-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om geblokkeerde items in de lijst Met tenant toestaan/blokkeren te wijzigen
+### <a name="use-powershell-to-modify-block-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokgegevens in de lijst Tenant toestaan/blokkeren te wijzigen
 
 U kunt de bestaande URL- of bestandswaarden in een blokinvoer niet wijzigen. Als u deze waarden wilt wijzigen, moet u de vermelding verwijderen en opnieuw maken.
 
-Gebruik de volgende syntaxis om geblokkeerde items in de tenantlijst toestaan/blokkeren te wijzigen:
+Gebruik de volgende syntaxis om blokgegevens in de lijst Tenant toestaan/blokkeren te wijzigen:
 
 ```powershell
 Set-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN"> [-Block] [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
@@ -250,70 +250,70 @@ In dit voorbeeld wordt de vervaldatum van de opgegeven blokinvoer gewijzigd.
 Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -ExpirationDate (Get-Date "5/30/2020 9:30 AM").ToUniversalTime()
 ```
 
-Zie [Set-TenantAllowBlockListItems voor](https://docs.microsoft.com/powershell/module/exchange/set-tenantallowblocklistitems)gedetailleerde syntaxis- en parameterinformatie.
+Zie [Set-TenantAllowBlockListItems (Set-TenantAllowBlockListItems)](/powershell/module/exchange/set-tenantallowblocklistitems)voor gedetailleerde syntaxis- en parametergegevens.
 
-### <a name="use-powershell-to-remove-block-entries-from-the-tenant-allowblock-list"></a>PowerShell gebruiken om geblokkeerde items uit de lijst Met toegestane/geblokkeerde tenants te verwijderen
+### <a name="use-powershell-to-remove-block-entries-from-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokgegevens te verwijderen uit de lijst Tenant toestaan/blokkeren
 
-Gebruik de volgende syntaxis om geblokkeerde items uit de lijst Met tenant toestaan/blokkeren te verwijderen:
+Als u blokinzendingen wilt verwijderen uit de lijst Tenant toestaan/blokkeren, gebruikt u de volgende syntaxis:
 
 ```powershell
 Remove-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN">
 ```
 
-In dit voorbeeld wordt het opgegeven blok url-item verwijderd uit de lijst met toegestane/geblokkeerde tenants.
+In dit voorbeeld wordt de opgegeven blok-URL-vermelding verwijderd uit de lijst Tenant toestaan/blokkeren.
 
 ```powershell
 Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSPAAAA0"
 ```
 
-Zie [Remove-TenantAllowBlockListItems voor gedetailleerde](https://docs.microsoft.com/powershell/module/exchange/remove-tenantallowblocklistitems)syntaxis- en parameterinformatie.
+Zie [Remove-TenantAllowBlockListItems (Verwijderen-TenantAllowBlockListItems)](/powershell/module/exchange/remove-tenantallowblocklistitems)voor gedetailleerde syntaxis- en parametergegevens.
 
-## <a name="url-syntax-for-the-tenant-allowblock-list"></a>Url-syntaxis voor de lijst met tenants toestaan/blokkeren
+## <a name="url-syntax-for-the-tenant-allowblock-list"></a>URL-syntaxis voor de lijst Toestaan/blokkeren van tenant
 
 - IP4v- en IPv6-adressen zijn toegestaan, maar TCP/UDP-poorten niet.
 
-- Bestandsextensies zijn niet toegestaan (bijvoorbeeld test.pdf).
+- Bestandsnaamextensies zijn niet toegestaan (bijvoorbeeld test.pdf).
 
 - Unicode wordt niet ondersteund, maar Punycode wel.
 
 - Hostnamen zijn toegestaan als alle volgende instructies waar zijn:
   - De hostnaam bevat een punt.
-  - Er staat ten minste één teken links van de punt.
-  - Er staan ten minste twee tekens rechts van de punt.
+  - Er is ten minste één teken links van de periode.
+  - Er zijn ten minste twee tekens rechts van de periode.
 
   Is bijvoorbeeld `t.co` toegestaan of `.com` niet `contoso.` toegestaan.
 
-- Subpaths worden niet geïmpliceerd.
+- Subpathen worden niet geïmpliceerd.
 
-  Bevat bijvoorbeeld `contoso.com` niet `contoso.com/a` .
+  Bevat bijvoorbeeld `contoso.com` geen `contoso.com/a` .
 
 - Jokertekens (*) zijn toegestaan in de volgende scenario's:
 
-  - Een linker-jokerteken moet worden gevolgd door een punt om een subdomein op te geven.
+  - Een linker jokerteken moet worden gevolgd door een punt om een subdomein op te geven.
 
     Is bijvoorbeeld `*.contoso.com` toegestaan; `*contoso.com` is niet toegestaan.
 
-  - Een rechter-jokerteken moet een slash (/) volgen om een pad op te geven.
+  - Een jokerteken rechts moet een slash (/) volgen om een pad op te geven.
 
     Is bijvoorbeeld `contoso.com/*` toegestaan of `contoso.com*` niet `contoso.com/ab*` toegestaan.
 
-  - Alle subpaths worden niet geïmpliceerd door een rechter jokerteken.
+  - Alle subpathen worden niet geïmpliceerd door een rechter jokerteken.
 
-    Bevat bijvoorbeeld `contoso.com/*` niet `contoso.com/a` .
+    Bevat bijvoorbeeld `contoso.com/*` geen `contoso.com/a` .
 
-  - `*.com*` ongeldig is (geen omsloten domein en het rechter jokerteken volgt geen slash).
+  - `*.com*` ongeldig is (geen op te lossen domein en het jokerteken rechts volgt geen slash voor vooruit).
 
   - Jokertekens zijn niet toegestaan in IP-adressen.
 
 - Het tildeteken (~) is beschikbaar in de volgende scenario's:
 
-  - Een linker tilde betekent een domein en alle subdomeinen.
+  - Een linker tilde houdt een domein en alle subdomeinen in.
 
     Bijvoorbeeld inclusief `~contoso.com` `contoso.com` en `*.contoso.com` .
 
 - URL-vermeldingen die protocollen bevatten (bijvoorbeeld , of ) mislukken, omdat URL-vermeldingen van toepassing zijn `http://` `https://` op alle `ftp://` protocollen.
 
-- Een gebruikersnaam of wachtwoord wordt niet ondersteund of is niet vereist.
+- Een gebruikersnaam of wachtwoord wordt niet ondersteund of vereist.
 
 - Aanhalingstekens (' of ") zijn ongeldige tekens.
 
@@ -321,15 +321,15 @@ Zie [Remove-TenantAllowBlockListItems voor gedetailleerde](https://docs.microsof
 
 ### <a name="url-entry-scenarios"></a>Scenario's voor URL-invoer
 
-Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschreven.
+Geldige URL-vermeldingen en de resultaten worden beschreven in de volgende secties.
 
 #### <a name="scenario-no-wildcards"></a>Scenario: Geen jokertekens
 
-**Invoer:**`contoso.com`
+**Vermelding**: `contoso.com`
 
 - **Overeenkomst toestaan**: contoso.com
 
-- **Geen overeenkomst toestaan:**
+- **Niet-overeenkomende toestaan:**
 
   - abc-contoso.com
   - contoso.com/a
@@ -339,7 +339,7 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
 
-- **Overeenkomst blokkeren:**
+- **Blok overeenkomst**:
 
   - contoso.com
   - contoso.com/a
@@ -349,27 +349,27 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
 
-- **Blok komt niet overeen:** abc-contoso.com
+- **Blok niet overeenkomend**: abc-contoso.com
 
-#### <a name="scenario-left-wildcard-subdomain"></a>Scenario: Linker-jokerteken (subdomein)
+#### <a name="scenario-left-wildcard-subdomain"></a>Scenario: Jokerteken links (subdomein)
 
-**Invoer:**`*.contoso.com`
+**Vermelding**: `*.contoso.com`
 
 - **Overeenkomst en** **overeenkomst blokkeren toestaan:**
 
   - www.contoso.com
   - xyz.abc.contoso.com
 
-- **Geen overeenkomst van overeenkomst toestaan** en Blokkeren niet **overeen:**
+- **Niet-overeenkomende en** **niet-overeenkomende blokkering toestaan:**
 
   - 123contoso.com
   - contoso.com
   - test.com/contoso.com
   - www.contoso.com/abc
 
-#### <a name="scenario-right-wildcard-at-top-of-path"></a>Scenario: Rechts-jokerteken boven aan pad
+#### <a name="scenario-right-wildcard-at-top-of-path"></a>Scenario: Jokerteken rechts boven aan pad
 
-**Invoer:**`contoso.com/a/*`
+**Vermelding**: `contoso.com/a/*`
 
 - **Overeenkomst en** **overeenkomst blokkeren toestaan:**
 
@@ -377,16 +377,16 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - contoso.com/a/b/c
   - contoso.com/a/?q=joe@t.com
 
-- **Geen overeenkomst van overeenkomst toestaan** en Blokkeren niet **overeen:**
+- **Niet-overeenkomende en** **niet-overeenkomende blokkering toestaan:**
 
   - contoso.com
   - contoso.com/a
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
 
-#### <a name="scenario-left-tilde"></a>Scenario: Linker tilde
+#### <a name="scenario-left-tilde"></a>Scenario: Tilde links
 
-**Invoer:**`~contoso.com`
+**Vermelding**: `~contoso.com`
 
 - **Overeenkomst en** **overeenkomst blokkeren toestaan:**
 
@@ -394,15 +394,15 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - www.contoso.com
   - xyz.abc.contoso.com
 
-- **Geen overeenkomst van overeenkomst toestaan** en Blokkeren niet **overeen:**
+- **Niet-overeenkomende en** **niet-overeenkomende blokkering toestaan:**
 
   - 123contoso.com
   - contoso.com/abc
   - www.contoso.com/abc
 
-#### <a name="scenario-right-wildcard-suffix"></a>Scenario: Rechts jokertekenachtervoegsel
+#### <a name="scenario-right-wildcard-suffix"></a>Scenario: Het achtervoegsel van het jokerteken rechts
 
-**Invoer:**`contoso.com/*`
+**Vermelding**: `contoso.com/*`
 
 - **Overeenkomst en** **overeenkomst blokkeren toestaan:**
 
@@ -414,11 +414,11 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - contoso.com/b/a/c
   - contoso.com/ba
 
-- **Geen overeenkomst toestaan en** **Blokkeren niet overeen:** contoso.com
+- **Niet-overeenkomende en** **niet-overeenkomende** blokkering toestaan: contoso.com
 
-#### <a name="scenario-left-wildcard-subdomain-and-right-wildcard-suffix"></a>Scenario: Linker-jokertekensubdomein en rechterachtervoegsel met jokerteken
+#### <a name="scenario-left-wildcard-subdomain-and-right-wildcard-suffix"></a>Scenario: Linker jokertekensubdomein en rechterachtervoegsel jokerteken
 
-**Invoer:**`*.contoso.com/*`
+**Vermelding**: `*.contoso.com/*`
 
 - **Overeenkomst en** **overeenkomst blokkeren toestaan:**
 
@@ -428,11 +428,11 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - www.contoso.com/b/a/c
   - xyz.contoso.com/ba
 
-- **Geen overeenkomst toestaan en** **Blokkeren niet overeen:** contoso.com/b
+- **Niet-overeenkomende en** **niet-overeenkomende** blokkering toestaan : contoso.com/b
 
-#### <a name="scenario-left-and-right-tilde"></a>Scenario: Linker- en rechtert tilde
+#### <a name="scenario-left-and-right-tilde"></a>Scenario: Tilde links en rechts
 
-**Invoer:**`~contoso.com~`
+**Vermelding**: `~contoso.com~`
 
 - **Overeenkomst en** **overeenkomst blokkeren toestaan:**
 
@@ -442,25 +442,25 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - www.contoso.com/b
   - xyz.abc.contoso.com
 
-- **Geen overeenkomst van overeenkomst toestaan** en Blokkeren niet **overeen:**
+- **Niet-overeenkomende en** **niet-overeenkomende blokkering toestaan:**
 
   - 123contoso.com
   - contoso.org
 
 #### <a name="scenario-ip-address"></a>Scenario: IP-adres
 
-**Invoer:**`1.2.3.4`
+**Vermelding**: `1.2.3.4`
 
-- **Overeenkomst en** **overeenkomst blokkeren toestaan:** 1.2.3.4
+- **Overeenkomst toestaan** **en overeenkomst blokkeren**: 1.2.3.4
 
-- **Geen overeenkomst van overeenkomst toestaan** en Blokkeren niet **overeen:**
+- **Niet-overeenkomende en** **niet-overeenkomende blokkering toestaan:**
 
   - 1.2.3.4/a
   - 11.2.3.4/a
 
-#### <a name="ip-address-with-right-wildcard"></a>IP-adres met rechter jokerteken
+#### <a name="ip-address-with-right-wildcard"></a>IP-adres met jokerteken rechts
 
-**Invoer:**`1.2.3.4/*`
+**Vermelding**: `1.2.3.4/*`
 
 - **Overeenkomst en** **overeenkomst blokkeren toestaan:**
 
@@ -475,10 +475,10 @@ De volgende vermeldingen zijn ongeldig:
 
   - contoso
   - \*.contoso.\*
-  - \*.COM
-  - \*.PDF
+  - \*.com
+  - \*.pdf
 
-- **Jokertekens in tekst of zonder spatiëringstekens:**
+- **Jokerteken op tekst of zonder spatiëringstekens:**
 
   - \*contoso.com
   - contoso.com\*

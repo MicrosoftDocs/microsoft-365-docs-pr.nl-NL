@@ -1,5 +1,5 @@
 ---
-title: Federatieve authenticatiefase 1 voor hoge beschikbaarheid 1 Azure configureren
+title: Federatieverificatie met hoge beschikbaarheid Fase 1 Azure configureren
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,103 +13,103 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
-description: 'Overzicht: Configureer de Microsoft Azure-infrastructuur voor het hosten van hoge beschikbaarheid federatieve authenticatie voor Microsoft 365.'
-ms.openlocfilehash: d2a9fe3c31468cd53576a82639e0e61901192d8e
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+description: 'Overzicht: Configureer de Microsoft Azure-infrastructuur om federatief hoge beschikbaarheid te hosten voor Microsoft 365.'
+ms.openlocfilehash: 7f9a935648fedd2c6235c443f7398f97c0a06e06
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332338"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929106"
 ---
-# <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>Federatieve authenticatiefase van hoge beschikbaarheid 1: Azure configureren
+# <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>Federatief hoge beschikbaarheid fase 1: Azure configureren
 
-In deze fase maakt u de resourcegroepen, virtuele netwerk (VNet) en beschikbaarheidssets in azure waarmee de virtuele machines worden gehost in de fasen 2, 3 en 4. U moet deze fase voltooien voordat u overstapt op [fase 2: domeincontrollers configureren](high-availability-federated-authentication-phase-2-configure-domain-controllers.md). Zie [federatieve authenticatie van hoge beschikbaarheid implementeren voor Microsoft 365 in azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) voor alle fasen.
+In deze fase maakt u de resourcegroepen, virtuele netwerken (VNet) en beschikbaarheidssets in Azure die de virtuele machines hosten in fasen 2, 3 en 4. U moet deze fase voltooien voordat u verder gaat [met fase 2: Domeincontrollers configureren.](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) Zie [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) voor alle fasen.
   
-Azure moet worden ingericht met de volgende basiscomponenten:
+Azure moet zijn ingericht met deze basisonderdelen:
   
-- Resource groepen
+- Resourcegroepen
     
-- Een cross-premises Azure Virtual Network (VNet) met subnetten voor het hosten van de virtuele machines van Azure
+- Een cross-premises Azure Virtual Network (VNet) met subnetten voor het hosten van de Virtuele Azure-machines
     
-- Netwerkbeveiligingsgroepen voor het uitvoeren van subnet-isolatie
+- Netwerkbeveiligingsgroepen voor het uitvoeren van subnetisolatie
     
 - Beschikbaarheidssets
     
 ## <a name="configure-azure-components"></a>Azure-onderdelen configureren
 
-Vul de volgende tabellen in voordat u de onderdelen van Azure gaat configureren. Om u te helpen bij het configureren van Azure, moet u dit gedeelte afdrukken en de benodigde informatie noteren of de benodigde informatie naar een document kopiëren en deze sectie invullen. Voor de instellingen van het VNet vult u tabel V in.
+Voordat u Begint met het configureren van Azure-onderdelen, vult u de volgende tabellen in. Als u wilt helpen bij de procedures voor het configureren van Azure, print u deze sectie af en noteert u de benodigde informatie of kopieert u deze sectie naar een document en vult u deze in. Vul tabel V in voor de instellingen van het VNet.
   
 |**Item**|**Configuratie-instelling**|**Beschrijving**|**Value**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |VNet-naam  <br/> |Een naam die moet worden toegewezen aan de VNet (bijvoorbeeld FedAuthNet).  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |VNet-locatie  <br/> |Het regionale Azure-datacenter dat het virtuele netwerk omvat.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |IP-adres voor VPN-apparaat  <br/> |Het openbare IPv4-adres van de interface van uw VPN-apparaat op internet.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|4.  <br/> |VNet-adresruimte  <br/> |De adresruimte voor het virtuele netwerk. Werk samen met uw IT-afdeling om deze adresruimte te bepalen.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|5.  <br/> |Gedeelde IPsec-sleutel  <br/> |32 een willekeurige alfanumerieke tekenreeks die wordt gebruikt voor de verificatie van beide zijden van de VPN-verbinding tussen sites. Werk samen met uw IT-of beveiligingsafdeling om deze sleutelwaarde te bepalen. U kunt ook [een willekeurige tekenreeks maken voor een met IPSec vooraf gedeelde sleutel](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx).  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |VNet-naam  <br/> |Een naam die u wilt toewijzen aan het VNet (bijvoorbeeld FedAuthNet).  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |VNet-locatie  <br/> |Het regionale Azure-datacenter dat het virtuele netwerk zal bevatten.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |IP-adres VPN-apparaat  <br/> |Het openbare IPv4-adres van de interface van uw VPN-apparaat op internet.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|4.  <br/> |VNet-adresruimte  <br/> |De adresruimte voor het virtuele netwerk. Werk samen met uw IT-afdeling om deze adresruimte te bepalen.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|5.  <br/> |Gedeelde IPsec-sleutel  <br/> |Een willekeurige, alfanumerieke tekenreeks van 32 tekens die wordt gebruikt om beide zijden van de SITE-naar-site VPN-verbinding te verifiëren. Werk samen met uw IT- of beveiligingsafdeling om deze sleutelwaarde te bepalen. Zie Een willekeurige tekenreeks maken voor een vooraf gedeelde [IPsec-toets.](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
    
- **Tabel V: virtuele netwerkconfiguratie van cross-premises**
+ **Tabel V: Configuratie van een virtueel netwerk met een cross-premises locatie**
   
-Vul vervolgens tabel S in voor de subnetten van deze oplossing. Alle adresruimten moeten in de bewerkings indeling van een Klasloze interdomein-indeling staan, ook wel wel netwerkvoorvoegsel-indeling genoemd. Een voorbeeld is 10.24.64.0/20.
+Vul vervolgens tabel S in voor de subnetten van deze oplossing. Alle adressaties moeten de indeling Classless Interdomain Routing (CIDR) hebben, ook wel bekend als netwerkprefixnotatie. Een voorbeeld is 10.24.64.0/20.
   
-Voor de eerste drie subnetten geeft u een naam en een enkele IP-adresruimte op op basis van de adresruimte van het virtuele netwerk. Voor het gateway-subnet bepaalt u de 27-bits adresruimte (met een/27 prefixlengte) voor het Azure gateway-subnet met de volgende opties:
+Geef voor de eerste drie subnetten een naam en één IP-adresruimte op op basis van de virtuele netwerkadresruimte. Voor het gateway-subnet bepaalt u de 27-bits adresruimte (met een lengte van /27) voor het Azure Gateway-subnet met de volgende opties:
   
-1. Stel de variabele bits in de adresruimte van de VNet in op 1, tot de gebruikte bits in de gateway-subnet en stel de resterende bits in op 0.
+1. Stel de variabele bits in de adresruimte van het VNet in op 1, tot de bits die worden gebruikt door het gateway subnet en stel vervolgens de resterende bits in op 0.
     
-2. Zet de resultaten van de omliggende bits om in decimalen en druk deze als een adresruimte met de lengte van het voorvoegsel in op de grootte van het gateway subnet.
+2. Converteert de resulterende bits naar decimaal en druk deze uit als een adresruimte met de lengte van het voorvoegsel ingesteld op de grootte van het gateway-subnet.
     
-Zie de Adresboek tijdtoren [voor Azure gateway-subnetten](address-space-calculator-for-azure-gateway-subnets.md) voor een PowerShell-opdrachten blok en C#-of python-consoletoepassing waarmee deze berekening wordt uitgevoerd.
+Zie [Adresruimteberekening voor Azure Gateway-subnetten](address-space-calculator-for-azure-gateway-subnets.md) voor een PowerShell-opdrachtblok en C# of Python-consoletoepassing die deze berekening voor u uitvoert.
   
-Werk samen met uw IT-afdeling om te bepalen welke adresruimten de virtuele netwerklocatie van het adres heeft.
+Werk samen met uw IT-afdeling om deze adresruimten te bepalen vanuit de virtuele netwerkadresruimte.
   
-|**Item**|**Naam van subnet**|**Adresruimte van subnet**|**Doel**|
+|**Item**|**Subnetnaam**|**Subnetadresruimte**|**Doel**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de domeincontroller voor Active Directory Domain Services (AD DS) van Active Directory Domain Services en adreslijstsynchronisatie servers (VMs).  <br/> |
-|2.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de AD FS-Vm's.  <br/> |
-|3.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de Vm's van webtoepassingsproxy.  <br/> |
-|4.  <br/> |GatewaySubnet  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de Azure gateway-VMs.  <br/> |
+|1.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de Ad DS-domeincontroller (Active Directory Domain Services) en virtuele adreslijstsynchronisatieserver virtuele machines (VM's).  <br/> |
+|2.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de AD FS-VM's.  <br/> |
+|3.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de proxy-VM's van de webtoepassing.  <br/> |
+|4.  <br/> |GatewaySubnet  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |Het subnet dat wordt gebruikt door de Azure Gateway VM's.  <br/> |
    
- **Tabel S: subnetten in het virtuele netwerk**
+ **Tabel S: Subnetten in het virtuele netwerk**
   
-Vul vervolgens tabel I in voor de statische IP-adressen die zijn toegewezen aan virtuele machines en Load Balancer-exemplaren.
+Vul vervolgens tabel I in voor de statische IP-adressen die zijn toegewezen aan virtuele machines en load balancer-exemplaren.
   
-|**Item**|**Doel**|**IP-adres in het subnet**|**Value**|
+|**Item**|**Doel**|**IP-adres op het subnet**|**Value**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |Statisch IP-adres van de eerste domeincontroller  <br/> |Het vierde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 1 van tabel S.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |Statisch IP-adres van de tweede domeincontroller  <br/> |Het vijfde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 1 van tabel S.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |Statisch IP-adres van de adreslijstsynchronisatie server  <br/> |Het zesde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 1 van tabel S.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|4.  <br/> |Statisch IP-adres van de interne Load Balancer voor de AD FS-servers  <br/> |Het vierde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 2 van tabel S.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|5.  <br/> |Statisch IP-adres van de eerste AD FS-server  <br/> |Het vijfde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 2 van tabel S.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|zes.  <br/> |Statisch IP-adres van de tweede AD FS-server  <br/> |Het zesde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 2 van tabel S.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|7,5.  <br/> |Statisch IP-adres van de eerste proxyserver voor webtoepassingen  <br/> |Het vierde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in artikel 3 van tabel S.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|8:00.  <br/> |Statisch IP-adres van de tweede server van de webtoepassingsproxy  <br/> |Het vijfde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in artikel 3 van tabel S.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |Statisch IP-adres van de eerste domeincontroller  <br/> |Het vierde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 1 van tabel S.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |Statisch IP-adres van de tweede domeincontroller  <br/> |Het vijfde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 1 van tabel S.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |Statisch IP-adres van de adreslijstsynchronisatieserver  <br/> |Het zesde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 1 van tabel S.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|4.  <br/> |Statisch IP-adres van de interne load balancer voor de AD FS-servers  <br/> |Het vierde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 2 van tabel S.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|5.  <br/> |Statisch IP-adres van de eerste AD FS-server  <br/> |Het vijfde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 2 van tabel S.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|6.  <br/> |Statisch IP-adres van de tweede AD FS-server  <br/> |Het zesde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 2 van tabel S.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|7.  <br/> |Statisch IP-adres van de eerste proxyserver voor webtoepassing  <br/> |Het vierde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 3 van tabel S.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|8.  <br/> |Statisch IP-adres van de tweede proxyserver voor webtoepassing  <br/> |Het vijfde mogelijke IP-adres voor de adresruimte van het subnet dat is gedefinieerd in item 3 van tabel S.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
    
- **Table I: statische IP-adressen in het virtuele netwerk**
+ **Tabel I: Statische IP-adressen in het virtuele netwerk**
   
-Voor twee DNS-servers (Domain Name System) in het on-premises netwerk dat u wilt gebruiken bij het instellen van de domeincontrollers in uw virtuele netwerk, vult u de tabel D in en werkt u met uw IT-afdeling voor het bepalen van deze lijst.
+Voor twee DNS-servers (Domain Name System) in uw on-premises netwerk die u wilt gebruiken bij het instellen van de domeincontrollers in uw virtuele netwerk, vult u tabel D in. Werk samen met uw IT-afdeling om deze lijst te bepalen.
   
-|**Item**|**Beschrijvende naam van de DNS-server**|**IP-adres van de DNS-server**|
+|**Item**|**NAAM VAN DNS-servervriendelijke naam**|**IP-adres dns-server**|
 |:-----|:-----|:-----|
-|1.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
    
- **Tabel D: on-premises DNS-servers**
+ **Tabel D: On-premises DNS-servers**
   
-Als u pakketten van het cross-premises netwerk naar het netwerk van uw organisatie wilt routeren tussen de site-to-site VPN-verbinding, moet u het virtuele netwerk configureren met een lokaal netwerk met een lijst met de adresruimten (in CIDR-notatie) voor alle bereikbare locaties in het on-premises netwerk van uw organisatie. De lijst met adresruimten die uw lokale netwerk definiëren, moet uniek zijn en mag niet overlappen met de adresruimte die wordt gebruikt voor andere virtuele netwerken of andere lokale netwerken.
+Als u pakketten van het cross-premises netwerk naar uw organisatienetwerk wilt doorverplaatsen via de SITE-naar-site VPN-verbinding, moet u het virtuele netwerk configureren met een lokaal netwerk met een lijst met de adressaties (in CIDR-notatie) voor alle bereikbare locaties in het on-premises netwerk van uw organisatie. De lijst met adresruimten die uw lokale netwerk definiëren, moet uniek zijn en mag niet overlappen met de adresruimte die wordt gebruikt voor andere virtuele netwerken of andere lokale netwerken.
   
-Voor de set lokale netwerkadres ruimten, vult u tabel L in. Merk op dat er wel drie lege vermeldingen worden weergegeven, maar u hebt meestal meer nodig. Werk samen met uw IT-afdeling om deze lijst met adresruimten te bepalen.
+Vul tabel L in voor de set lokale netwerkadressen. Houd er rekening mee dat er drie lege items worden weergegeven, maar dat u meestal meer nodig hebt. Werk samen met uw IT-afdeling om deze lijst met adressruimten te bepalen.
   
-|**Item**|**Lokale netwerkadres ruimte**|
+|**Item**|**Lokale netwerkadresruimte**|
 |:-----|:-----|
-|1.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
    
- **Tabel L: adresprefixen voor het lokale netwerk**
+ **Tabel L: Adres voorvoegsels voor het lokale netwerk**
   
-We gaan nu beginnen met de totstandbrenging van de Azure-infrastructuur om uw federatieve verificatie voor Microsoft 365 te hosten.
+Laten we nu beginnen met het bouwen van de Azure-infrastructuur om uw federatiele verificatie voor Microsoft 365 te hosten.
   
 > [!NOTE]
-> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [aan de slag met Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps). 
+> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [Aan de slag met Azure PowerShell](/powershell/azure/get-started-azureps). 
   
 Start eerst een Azure PowerShell-prompt en meld u aan bij uw account.
   
@@ -118,7 +118,7 @@ Connect-AzAccount
 ```
 
 > [!TIP]
-> Als u kant-en-klare PowerShell-opdrachten blokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u deze [Microsoft Excel-configuratie werkmap](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
+> Als u kant-en-klaar PowerShell-opdrachtblokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u deze [Configuratiewerkboek van Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 Haal de naam van uw abonnement op met de volgende opdracht.
   
@@ -126,7 +126,7 @@ Haal de naam van uw abonnement op met de volgende opdracht.
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-Voor oudere versies van Azure PowerShell gebruikt u deze opdracht.
+Gebruik deze opdracht voor oudere versies van Azure PowerShell.
   
 ```powershell
 Get-AzSubscription | Sort Name | Select SubscriptionName
@@ -139,22 +139,22 @@ $subscrName="<subscription name>"
 Select-AzSubscription -SubscriptionName $subscrName
 ```
 
-Vervolgens maakt u de nieuwe resourcegroepen. Als u een unieke reeksnamen voor de resourcegroepen wilt bepalen, gebruikt u deze opdracht om een lijst met de bestaande resourcegroepen weer te geven.
+Maak vervolgens de nieuwe resourcegroepen. Als u een unieke set namen van resourcegroepen wilt bepalen, gebruikt u deze opdracht om uw bestaande resourcegroepen op te geven.
   
 ```powershell
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
-Vul de volgende tabel in voor de namen van de afzonderlijke resourcegroepen.
+Vul de volgende tabel in voor de set unieke resourcegroepnamen.
   
-|**Item**|**Naam van resource groep**|**Doel**|
+|**Item**|**Naam van resourcegroep**|**Doel**|
 |:-----|:-----|:-----|
-|1.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |Domeincontrollers  <br/> |
-|2.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |AD FS-servers  <br/> |
-|3.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |Webtoepassingsproxy-servers  <br/> |
-|4.  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |Infrastructuur elementen  <br/> |
+|1.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |Domeincontrollers  <br/> |
+|2.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |AD FS-servers  <br/> |
+|3.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |Proxyservers voor webtoepassing  <br/> |
+|4.  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |Infrastructuurelementen  <br/> |
    
- **Tabel R: resource groepen**
+ **Tabel R: Resourcegroepen**
   
 Maak uw nieuwe resourcegroepen met deze opdrachten.
   
@@ -170,7 +170,7 @@ $rgName="<Table R - Item 4 - Name column>"
 New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
-Vervolgens maakt u het virtuele virtuele netwerk van Azure en de subnetten hiervan.
+Vervolgens maakt u het virtuele Azure-netwerk en de subnetten.
   
 ```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
@@ -199,7 +199,7 @@ New-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName -Location $locNa
 
 ```
 
-Vervolgens maakt u netwerkbeveiligingsgroepen voor elk subnet met virtuele machines. Als u de isolatie van subnet wilt uitvoeren, kunt u regels toevoegen voor de specifieke typen verkeer die zijn toegestaan of geweigerd voor de netwerkbeveiligingsgroep van een subnet.
+Vervolgens maakt u netwerkbeveiligingsgroepen voor elk subnet dat virtuele machines heeft. Als u subnetisolatie wilt uitvoeren, kunt u regels toevoegen voor de specifieke typen verkeer die zijn toegestaan of geweigerd aan de netwerkbeveiligingsgroep van een subnet.
   
 ```powershell
 # Create network security groups
@@ -219,7 +219,7 @@ Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnet3Name -Addre
 $vnet | Set-AzVirtualNetwork
 ```
 
-Vervolgens kunt u deze opdrachten gebruiken om de gateways voor de site-to-site VPN-verbinding te maken.
+Gebruik vervolgens deze opdrachten om de gateways te maken voor de SITE-naar-site VPN-verbinding.
   
 ```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
@@ -253,37 +253,37 @@ $vnetConnection=New-AzVirtualNetworkGatewayConnection -Name $vnetConnectionName 
 ```
 
 > [!NOTE]
-> Federatieve verificatie van afzonderlijke gebruikers is niet afhankelijk van lokale on-premises resources. Als deze site-naar-site-VPN-verbinding echter niet beschikbaar is, ontvangen de domeincontrollers in de VNet geen updates voor gebruikersaccounts en groepen die zijn gemaakt in de on-premises Active Directory Domain Services. U kunt dit voorkomen door de hoge beschikbaarheid van uw site-tot-site VPN-verbinding te configureren. Zie [uiterst beschikbare cross-premises en vnet-to-VNet-verbinding](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable) voor meer informatie.
+> Federatief verificatie van afzonderlijke gebruikers is niet afhankelijk van on-premises bronnen. Als deze SITE-naar-site VPN-verbinding echter niet beschikbaar wordt, ontvangen de domeincontrollers in het VNet geen updates voor gebruikersaccounts en groepen die zijn gemaakt in de on-premises Active Directory Domain Services. Om ervoor te zorgen dat dit niet gebeurt, kunt u een hoge beschikbaarheid configureren voor uw SITE-naar-site VPN-verbinding. Zie Zeer beschikbare [cross-premises en VNet-to-VNet-connectiviteit](/azure/vpn-gateway/vpn-gateway-highlyavailable) voor meer informatie.
   
-Neem vervolgens de openbare IPv4-adressen van de Azure VPN-gateway voor uw virtuele netwerk op bij de weergave van deze opdracht:
+Neem vervolgens het openbare IPv4-adres van de Azure VPN-gateway voor uw virtuele netwerk op via de weergave van deze opdracht:
   
 ```powershell
 Get-AzPublicIpAddress -Name $publicGatewayVipName -ResourceGroupName $rgName
 ```
 
-Configureer vervolgens uw on-premises VPN-apparaat om verbinding te maken met de Azure VPN-gateway. Zie [uw VPN-apparaat configureren](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices)voor meer informatie.
+Configureer vervolgens uw on-premises VPN-apparaat om verbinding te maken met de Azure VPN-gateway. Zie Uw [VPN-apparaat configureren voor meer informatie.](/azure/vpn-gateway/vpn-gateway-about-vpn-devices)
   
 Als u uw on-premises VPN-apparaat wilt configureren, hebt u het volgende nodig:
   
 - Het openbare IPv4-adres van de Azure VPN-gateway.
     
-- De vooraf gedeelde sleutel van IPsec voor de site-to-site VPN-verbinding (tabel V-artikel met een waarde van 5 kolommen).
+- De vooraf gedeelde IPsec-sleutel voor de SITE-naar-site VPN-verbinding (Tabel V - Item 5 - kolom Waarde).
     
-Zorg er vervolgens voor dat de adresruimte van het virtuele netwerk bereikbaar is vanaf uw on-premises netwerk. Dit gebeurt meestal door een route die correspondeert met de adresruimte van het virtuele netwerk, toe te voegen aan uw VPN-apparaat en vervolgens aan te kondigen dat routering naar de rest van de routeringsinfrastructuur van het netwerk van uw organisatie. Werk samen met uw IT-afdeling om te bepalen hoe u dit moet doen.
+Controleer vervolgens of de adresruimte van het virtuele netwerk bereikbaar is vanuit uw on-premises netwerk. Dit wordt meestal gedaan door een route toe te voegen die overeenkomt met de virtuele netwerkadresruimte aan uw VPN-apparaat en vervolgens reclame te maken voor die route naar de rest van de routeringsinfrastructuur van uw organisatienetwerk. Werk samen met uw IT-afdeling om te bepalen hoe u dit doet.
   
-Vervolgens definieert u de namen van drie beschikbare sets. Vul tabel A in. 
+Definieer vervolgens de namen van drie beschikbaarheidssets. Vul tabel A in. 
   
 |**Item**|**Doel**|**Naam van beschikbaarheidsset**|
 |:-----|:-----|:-----|
-|1.  <br/> |Domeincontrollers  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |AD FS-servers  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |Webtoepassingsproxy-servers  <br/> |![Bovenlijn](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |Domeincontrollers  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |AD FS-servers  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |Proxyservers voor webtoepassing  <br/> |![regel](../media/Common-Images/TableLine.png)  <br/> |
    
- **Tabel A: beschikbaarheidssets**
+ **Tabel A: Beschikbaarheidssets**
   
-U hebt deze namen nodig wanneer u de virtuele machines maakt in de fasen 2, 3 en 4.
+U hebt deze namen nodig wanneer u de virtuele machines maakt in fasen 2, 3 en 4.
   
-Maak de nieuwe beschikbaarheidssets met deze opdrachten van Azure PowerShell.
+Maak de nieuwe beschikbaarheidssets met deze Azure PowerShell-opdrachten.
   
 ```powershell
 $locName="<the Azure location for your new resource group>"
@@ -300,22 +300,20 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
 
 Dit is de configuratie die het resultaat is van de succesvolle voltooiing van deze fase.
   
-**Fase 1: de Azure-infrastructuur voor federatieve authenticatie van hoge beschikbaarheid voor Microsoft 365**
+**Fase 1: De Azure-infrastructuur voor federatief hoge beschikbaarheid voor Microsoft 365**
 
-![Fase 1 van de High Availability Microsoft 365 federatieve authenticatie in azure met de Azure-infrastructuur](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
+![Fase 1 van de hoge beschikbaarheid van Microsoft 365 federatieverificatie in Azure met de Azure-infrastructuur](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
   
 ## <a name="next-step"></a>Volgende stap
 
-Gebruik [fase 2: configureer domeincontrollers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) om door te gaan met de configuratie van deze werkbelasting.
+Fase [2 gebruiken: Domeincontrollers configureren](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) om door te gaan met de configuratie van deze werkbelasting.
   
 ## <a name="see-also"></a>Zie ook
 
-[Federatieve authenticatie van hoge beschikbaarheid implementeren voor Microsoft 365 in azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
+[Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Federatieve identiteit voor uw Microsoft 365 dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Federatief identiteit voor uw Microsoft 365-dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
-[Microsoft 365-oplossings- en architectuurcentrum](../solutions/solution-architecture-center.md)
+[Microsoft 365-oplossings- en -architectuurcentrum](../solutions/index.yml)
 
-[Informatie over Microsoft 365 identiteit en Azure Active Directory](about-microsoft-365-identity.md)
-
-
+[Microsoft 365-identiteit en Azure Active Directory begrijpen](about-microsoft-365-identity.md)

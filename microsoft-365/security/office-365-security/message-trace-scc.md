@@ -14,12 +14,12 @@ ms.custom:
 description: Beheerders kunnen bericht traceren gebruiken in het beveiligings- & compliancecentrum om erachter te komen wat er met berichten is gebeurd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9c3f7e4bc9624b9fae48074203da525d7a504a12
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 587e111a71b321c131d0e63a0510ec7e1afa289a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741573"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929394"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Berichttracering in het Beveiligings- en compliancecentrum
 
@@ -40,7 +40,7 @@ Berichtspoor in het Beveiligings- & compliancecentrum verbetert de oorspronkelij
 >
 > - Als u een bericht wilt traceren, moet u lid zijn van de rollengroepen Organisatiebeheer, Compliancebeheer of Helpdesk. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 >
-> - Het maximum aantal berichten dat in de resultaten wordt weergegeven, is afhankelijk van het rapporttype dat u hebt geselecteerd (zie de sectie [Rapporttype](#choose-report-type) kiezen voor meer informatie). De [cmdlet Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) in Exchange Online PowerShell of zelfstandige EOP PowerShell retourneert alle berichten in de resultaten.
+> - Het maximum aantal berichten dat in de resultaten wordt weergegeven, is afhankelijk van het rapporttype dat u hebt geselecteerd (zie de sectie [Rapporttype](#choose-report-type) kiezen voor meer informatie). De [cmdlet Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) in Exchange Online PowerShell of zelfstandige EOP PowerShell retourneert alle berichten in de resultaten.
 
 ## <a name="open-message-trace"></a>Bericht traceren openen
 
@@ -231,7 +231,7 @@ De details van de berichtspoorgegevens bevatten de volgende aanvullende informat
   > 
   > - Een onregelmatig bericht dat is bezorgd, genereert meerdere **gebeurtenisgegevens** in de berichtspoor.
   > 
-  > - Deze lijst is niet bedoeld om volledig te zijn. Zie Gebeurtenistypen in het logboek voor het bijhouden [van berichten voor beschrijvingen van meer gebeurtenissen.](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) Houd er rekening mee dat deze koppeling een Exchange Server-onderwerp (on-premises Exchange) is.
+  > - Deze lijst is niet bedoeld om volledig te zijn. Zie Gebeurtenistypen in het logboek voor het bijhouden [van berichten voor beschrijvingen van meer gebeurtenissen.](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) Houd er rekening mee dat deze koppeling een Exchange Server-onderwerp (on-premises Exchange) is.
 
 - **Meer informatie:** Deze sectie bevat de volgende details:
 
@@ -271,7 +271,7 @@ Beschikbare (voltooide) Uitgebreide overzichtsrapporten zijn beschikbaar in de s
 
 - **directionaliteit:** geeft aan of het bericht binnenkomende (1) naar uw organisatie is verzonden of dat het uitgaande bericht (2) vanuit uw organisatie is verzonden.
 
-- **connector_id:** De naam van de bron- of doelconnector. Zie E-mailstroom configureren met [connectors in Office 365](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)voor meer informatie over verbindingslijnen in Exchange Online.
+- **connector_id:** De naam van de bron- of doelconnector. Zie E-mailstroom configureren met [connectors in Office 365](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)voor meer informatie over verbindingslijnen in Exchange Online.
 
 - **delivery_priority:** <sup>*</sup> Of het bericht is verzonden met **hoge,** **lage** of **normale** prioriteit.
 
@@ -413,7 +413,7 @@ Een **custom_data** waarde die begint met is afkomstig van de `S:TRA` transportr
 |---|---|
 |`ETR|ruleId=<guid>`|De regel-id die is overeenkomen.|
 |`St=<datetime>`|De datum en tijd in UTC wanneer de regel overeenkomst heeft plaatsgevonden.|
-|`Action=<ActionDefinition>`|De actie die is toegepast. Zie Acties voor [e-mailstroomregelen in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)voor een lijst met beschikbare acties.|
+|`Action=<ActionDefinition>`|De actie die is toegepast. Zie Acties voor [e-mailstroomregelen in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)voor een lijst met beschikbare acties.|
 |`Mode=<Mode>`|De modus van de regel. Geldige waarden zijn:<ul><li>**Afdwingen:** Alle acties op de regel worden afgedwongen.</li><li>**Test met beleidstips:** Alle acties voor beleidstips worden verzonden, maar andere handhavingsacties worden niet uitgevoerd.</li><li>**Test zonder beleidstips:** acties worden weergegeven in een logboekbestand, maar afzenders worden op geen enkele manier op de hoogte gesteld en er wordt geen actie ondernomen.</li></ul>|
 |
 

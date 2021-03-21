@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Lees hoe u kunt bepalen welke gebruikers Microsoft 365 Groepen kunnen maken.
-ms.openlocfilehash: 04c2b6e738ed41f8d4a2bf96716fb74b1d260497
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 9c3edf335ce09f04e9b0b538e69fa607a9c34044
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838637"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929154"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Beheren wie Microsoft 365-groepen kunnen maken
 
@@ -63,7 +63,7 @@ Als u wilt beheren wie groepen maakt, hebben de volgende personen Azure AD Premi
 - De leden van de groep die groepen mogen maken
 
 > [!NOTE]
-> Zie [Licenties toewijzen of verwijderen in de Azure Active Directory-portal](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups) voor meer informatie over het toewijzen van Azure-licenties.
+> Zie [Licenties toewijzen of verwijderen in de Azure Active Directory-portal](/azure/active-directory/fundamentals/license-users-groups) voor meer informatie over het toewijzen van Azure-licenties.
 
 De volgende personen hebben geen Azure AD Premium- of Azure AD Basic EDU-licenties nodig die aan hen zijn toegewezen:
 
@@ -83,19 +83,19 @@ Beheerders in de bovenstaande rollen hoeven geen lid te zijn van deze groep: ze 
 
 4. Sluit het instellen van de groep af, voeg personen of andere groepen toe die u groepen in uw organisatie wilt kunnen maken.
 
-Zie Een beveiligingsgroep maken, bewerken of verwijderen in het [Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group)voor gedetailleerde instructies.
+Zie Een beveiligingsgroep maken, bewerken of verwijderen in het [Microsoft 365-beheercentrum](../admin/email/create-edit-or-delete-a-security-group.md)voor gedetailleerde instructies.
 
 ## <a name="step-2-run-powershell-commands"></a>Stap 2: PowerShell-opdrachten uitvoeren
 
-U moet de preview-versie van [Azure Active Directory PowerShell voor Graph (AzureAD) (modulenaam](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) **AzureADPreview)** gebruiken om de instelling voor gasttoegang op groepsniveau te wijzigen:
+U moet de preview-versie van [Azure Active Directory PowerShell voor Graph (AzureAD) (modulenaam](/powershell/azure/active-directory/install-adv2) **AzureADPreview)** gebruiken om de instelling voor gasttoegang op groepsniveau te wijzigen:
 
-- Zie De [Azure AD-module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true) installeren als u nog geen versie van de Azure AD PowerShell-module hebt geïnstalleerd en volg de instructies voor het installeren van de openbare preview-release.
+- Zie De [Azure AD-module](/powershell/azure/active-directory/install-adv2?preserve-view=true&view=azureadps-2.0-preview) installeren als u nog geen versie van de Azure AD PowerShell-module hebt geïnstalleerd en volg de instructies voor het installeren van de openbare preview-release.
 
 - Als u de 2.0 algemene beschikbaarheidsversie van de Azure AD PowerShell-module (AzureAD) hebt geïnstalleerd, moet u deze verwijderen door deze uit te laten lopen in uw PowerShell-sessie en vervolgens de preview-versie te installeren door het uitvoeren `Uninstall-Module AzureAD` `Install-Module AzureADPreview` van .
 
 - Als u de preview-versie al hebt geïnstalleerd, moet u ervoor zorgen dat deze de `Install-Module AzureADPreview` nieuwste versie van deze module is.
 
-Kopieer het script hieronder naar een teksteditor, zoals Kladblok of [windows PowerShell ISE.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
+Kopieer het script hieronder naar een teksteditor, zoals Kladblok of [windows PowerShell ISE.](/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
 Vervang *\<GroupName\>* door de naam van de groep die u hebt gemaakt. Bijvoorbeeld:
 
@@ -109,7 +109,7 @@ Voer het script uit door te typen:
 
 `.\GroupCreators.ps1`
 
-en [meld u aan met uw beheerdersaccount](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) wanneer u daarom wordt gevraagd.
+en [meld u aan met uw beheerdersaccount](../enterprise/connect-to-microsoft-365-powershell.md#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) wanneer u daarom wordt gevraagd.
 
 ```PowerShell
 $GroupName = "<GroupName>"
@@ -164,7 +164,7 @@ Wijzigingen kunnen dertig minuten of meer duren. U kunt de nieuwe instellingen a
 Probeer dezelfde procedure opnieuw met een lid van de groep.
 
 > [!NOTE]
-> Als leden van de groep geen groepen kunnen maken, controleert u of ze niet worden geblokkeerd via hun [OWA-postvakbeleid.](https://go.microsoft.com/fwlink/?linkid=852135)
+> Als leden van de groep geen groepen kunnen maken, controleert u of ze niet worden geblokkeerd via hun [OWA-postvakbeleid.](/powershell/module/exchange/set-owamailboxpolicy)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -172,10 +172,10 @@ Probeer dezelfde procedure opnieuw met een lid van de groep.
 
 [Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
-[Getting started with Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
+[Getting started with Office 365 PowerShell](../enterprise/getting-started-with-microsoft-365-powershell.md)
 
-[Selfservicegroepsbeheer instellen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-self-service-management)
+[Selfservicegroepsbeheer instellen in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-self-service-management)
 
-[Set-ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)
+[Set-ExecutionPolicy](/powershell/module/microsoft.powershell.security/set-executionpolicy)
 
-[Azure Active Directory-cmdlets voor het configureren van groepsinstellingen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+[Azure Active Directory-cmdlets voor het configureren van groepsinstellingen](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)

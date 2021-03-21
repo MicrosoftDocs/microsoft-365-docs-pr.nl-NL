@@ -1,7 +1,7 @@
 ---
-title: Een testmelding van Microsoft 365 Defender genereren
-description: Genereer een testwaarschuwing om te proberen hoe uw Microsoft 365 Defender-labomgeving werkt
-keywords: Microsoft Threat Protection-ulatie, probeer Microsoft Threat Protection, genereer testwaarschuwing in Microsoft Threat Protection, testwaarschuwing in Microsoft Threat Protection-evaluatietest lab
+title: Een testwaarschuwing voor Microsoft 365 Defender genereren
+description: Een testwaarschuwing genereren om te proberen hoe uw Microsoft 365 Defender-labomgeving werkt
+keywords: Microsoft Threat Protection-simulatie, Microsoft Threat Protection proberen, testwaarschuwing genereren in Microsoft Threat Protection, testwaarschuwing in microsoft Threat Protection evaluatielaboratorium
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,14 +20,14 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 10d4a0af9c3ae766e95b34187d2ba3c9958db28f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 258a210fe875d0399d1a97ba77cdf340dcc1670e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929478"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928818"
 ---
-# <a name="generate-a-test-alert-in-your-microsoft-365-defender-evaluation-lab"></a>Een testwaarschuwing genereren in uw Microsoft 365 Defender-evaluatietest lab  
+# <a name="generate-a-test-alert-in-your-microsoft-365-defender-evaluation-lab"></a>Een testwaarschuwing genereren in uw evaluatielaboratorium van Microsoft 365 Defender  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,13 +35,12 @@ ms.locfileid: "49929478"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Nu u klaar bent met de installatie en configuratie van de Microsoft 365 Defender-evaluatietesttest en -configuratie, kunt u de analyse van een bedreigings-aanval uitvoeren om de detectie, correlatie met waarschuwingen en zelfherstelmogelijkheden van de geïntegreerde beveiligingsoplossing te ervaren.  
+Nu u klaar bent met de installatie en configuratie van het Evaluatielaboratorium van Microsoft 365 Defender, kunt u een bedreigingssimulatie uitvoeren om de detectie-, waarschuwingscorrelatie en zelfherstellende herstelmogelijkheden van de geïntegreerde beveiligingsoplossing te ervaren.  
 
-1. Meld u aan bij https://security.microsoft.com
-2. Zoek op de startpagina naar een tegel met de naam **Voorspel.**  Bekijk de handleiding voor de stappen voor het maken van een testincident in Microsoft 365 Defender.
-<br>![Afbeelding van een grafische kaart in het Microsoft 365-beveiligingsdashboard](../../media/mtp-eval-73.png) <br>
+1. Aanmelden bij https://security.microsoft.com
+2. Zoek op de startpagina naar een tegel met de naam **Simulatie**.  Bekijk de doorloophandleiding voor stappen om een testincident te maken in Microsoft 365 Defender.
+<br>![Afbeelding van een simulatiekaart in het Microsoft 365-beveiligingsdashboard](../../media/mtp-eval-73.png) <br>
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Blader door het [Microsoft 365-oplossings-](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) en architectuurcentrum om te begrijpen hoe u de oplossing en architectuur ontwerpt die voor uw organisatie het beste is.
-
+Blader door het [Microsoft 365-oplossings-](../../solutions/index.yml) en architectuurcentrum om te begrijpen hoe u de oplossing en architectuur ontwerpt die voor uw organisatie het beste is.

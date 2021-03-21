@@ -9,17 +9,17 @@ audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
 ms.assetid: ''
-description: Beheerders kunnen in het dashboard E-mailstroom in het beveiligings- &-compliancecentrum informatie vinden over het gebruik van de nieuwe domeinen die e-mailinzichten worden doorgestuurd om te onderzoeken wanneer hun gebruikers berichten doorsturen naar externe domeinen die nooit zijn doorgestuurd.
+description: Beheerders kunnen leren hoe ze het inzicht van de nieuwe domeinen die per e-mail worden doorgestuurd, kunnen gebruiken in het e-mailstroomdashboard in het beveiligings- & compliancecentrum om te onderzoeken wanneer hun gebruikers berichten doorsturen naar externe domeinen die nog nooit zijn doorgestuurd naar.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fd026b31b7cb678ff1f091579c67a3958b159c09
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1310350bd4ff6b43d321f5888c9436ac71debb82
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289459"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929346"
 ---
-# <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Nieuwe domeinen die e-mailinzichten worden doorgestuurd in het beveiligings- & compliancecentrum
+# <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Nieuwe domeinen die inzicht krijgen in e-mail doorgestuurd in het Beveiligings- & Compliance center
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -28,24 +28,24 @@ ms.locfileid: "50289459"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Er zijn geldige zakelijke redenen om e-mailberichten door te sturen naar externe geadresseerden in bepaalde domeinen. Het is echter verdacht als gebruikers in uw organisatie plotseling beginnen met het doorsturen van berichten naar een domein waar niemand in uw organisatie ooit berichten naar heeft doorgestuurd (een nieuw domein).
+Er zijn geldige zakelijke redenen om e-mailberichten door te sturen naar externe geadresseerden in specifieke domeinen. Het is echter verdacht wanneer gebruikers in uw organisatie plotseling berichten doorsturen naar een domein waar niemand in uw organisatie ooit berichten heeft doorgestuurd naar (een nieuw domein).
 
-Deze voorwaarde kan aangeven dat de gebruikersaccounts zijn gehackt. Als u vermoedt dat de accounts zijn gehackt, bekijkt u Hoe u [reageert op een gekromd e-mailaccount.](responding-to-a-compromised-email-account.md)
+Deze voorwaarde kan aangeven dat de gebruikersaccounts zijn gehackt. Zie Reageren op een gekromd [e-mailaccount](responding-to-a-compromised-email-account.md)als u vermoedt dat de accounts zijn gehackt.
 
-De **nieuwe domeinen die e-mailinzichten** worden doorgestuurd in het [beveiligings- & compliancecentrum](https://protection.office.com) melden u wanneer gebruikers in uw organisatie berichten doorsturen naar nieuwe domeinen.
+De **nieuwe domeinen die e-mailinzicht** worden doorgestuurd in het beveiligings- & [compliancecentrum,](https://protection.office.com) worden u op de hoogte gehouden wanneer gebruikers in uw organisatie berichten doorsturen naar nieuwe domeinen.
 
-Dit inzicht wordt alleen weergegeven wanneer het probleem is gedetecteerd en wordt weergegeven op de [pagina Doorsturen-rapport.](view-mail-flow-reports.md#forwarding-report)
+Dit inzicht wordt alleen weergegeven wanneer het probleem wordt gedetecteerd en wordt weergegeven op de pagina [Rapport](view-mail-flow-reports.md#forwarding-report) doorsturen.
 
 ![Inzicht in nieuwe domeinen waarnaar e-mails worden doorgestuurd](../../media/mfi-new-domains-being-forwarded.png)
 
-Wanneer u op de widget klikt, wordt er een flyout weergegeven waar u meer informatie over de doorgestuurde berichten kunt vinden, inclusief een koppeling naar het [rapport Doorsturen.](view-mail-flow-reports.md#forwarding-report)
+Wanneer u op de widget klikt, wordt er een flyout weergegeven waar u meer informatie over de doorgestuurde berichten kunt vinden, waaronder een koppeling naar [het rapport Doorsturen.](view-mail-flow-reports.md#forwarding-report)
 
-![Flyout details die wordt weergegeven nadat u op de nieuwe domeinen hebt geklikt die e-mailinzicht worden doorgestuurd](../../media/mfi-new-domains-being-forwarded-details.png)
+![Details flyout that appears after clicking on the New domains being forwarded email insight (Details flyout that appears after clicking on the New domains being forwarded email insight](../../media/mfi-new-domains-being-forwarded-details.png)
 
-U komt ook op deze detailpagina wanneer u het inzicht selecteert nadat u op Alles weergeven **hebt** geklikt in het gebied topinzichten **&** gebied met aanbevelingen op (**Dashboard** Rapporten of \>  <https://protection.office.com/insightdashboard> ).
+U kunt ook naar deze detailspagina gaan wanneer u het inzicht selecteert nadat u op Alles weergeven hebt geklikt **in** het gebied Top **insights & aanbevelingen** op ( \> **Rapportendashboard** of <https://protection.office.com/insightdashboard> ).
 
-Als u wilt voorkomen dat berichten automatisch worden doorgestuurd naar externe domeinen, configureert u een extern domein voor bepaalde of alle externe domeinen. Zie Externe domeinen beheren [in Exchange Online voor meer informatie.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains)
+Als u wilt voorkomen dat berichten automatisch worden doorgestuurd naar externe domeinen, configureert u een extern domein voor sommige of alle externe domeinen. Zie Externe domeinen beheren in Exchange Online voor [meer informatie.](/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie inzichten in de e-mailstroom in het beveiligings- en compliancecentrum voor meer informatie & [inzichten in het dashboard E-mailstroom.](mail-flow-insights-v2.md)
+Zie E-mailstroominzichten in het Beveiligings- & compliancecentrum voor meer informatie over andere inzichten [in het e-mailstroomdashboard.](mail-flow-insights-v2.md)

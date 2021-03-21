@@ -1,7 +1,7 @@
 ---
-title: Schakel Microsoft 365 Defender in in het Microsoft 365-beveiligingscentrum
-description: Meer informatie over het inschakelen van Microsoft 365 Defender en het integreren van uw beveiligingsincident en -reactie.
-keywords: aan de slag, schakel MTP, Microsoft Threat Protection, M365, beveiliging, gegevenslocatie, vereiste machtigingen, geschiktheid voor licenties, instellingenpagina
+title: Microsoft 365 Defender in het Microsoft 365-beveiligingscentrum in-
+description: Meer informatie over het inschakelen van Microsoft 365 Defender en het integreren van uw beveiligingsincident en antwoord.
+keywords: aan de slag, MTP inschakelen, Microsoft Threat Protection, M365, beveiliging, gegevenslocatie, vereiste machtigingen, licentie in aanmerking komen, instellingenpagina
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 19f035a271626077911b05082a4aba6d67355cdb
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: e7910866c494cf599022c17c29e3577e55cdba51
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930220"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928650"
 ---
-# <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender in te zetten
+# <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender in-
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,69 +35,59 @@ ms.locfileid: "49930220"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-[Microsoft 365 Defender](microsoft-threat-protection.md) defificeert uw incidentreactieproces door belangrijke mogelijkheden te integreren tussen Microsoft Defender voor eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App-beveiliging en Microsoft Defender voor identiteit. Deze geïntegreerde ervaring biedt krachtige functies die u kunt openen in het Microsoft 365-beveiligingscentrum.
+[Microsoft 365 Defender](microsoft-threat-protection.md) maakt het reactieproces voor incidenten los door belangrijke mogelijkheden te integreren in Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit. Deze geïntegreerde ervaring voegt krachtige functies toe die u kunt openen in het Microsoft 365-beveiligingscentrum.
 
-Microsoft 365 Defender wordt automatisch in schakelt wanneer in aanmerking komende klanten met de vereiste machtigingen naar het Microsoft 365-beveiligingscentrum gaan. Lees dit artikel voor meer informatie over verschillende vereisten en hoe Microsoft 365 Defender wordt ingericht.
+Microsoft 365 Defender schakelt automatisch in wanneer in aanmerking komende klanten met de vereiste machtigingen naar het Microsoft 365-beveiligingscentrum gaan. Lees dit artikel voor meer informatie over verschillende vereisten en hoe Microsoft 365 Defender is ingericht.
 
-## <a name="check-license-eligibility-and-required-permissions"></a>Controleer of de licentie in aanmerking komt en de vereiste machtigingen
+## <a name="check-license-eligibility-and-required-permissions"></a>Controleer de geschiktheid van licenties en vereiste machtigingen
 
-Een licentie voor een Microsoft 365-beveiligingsproduct biedt u in het algemeen een recht om Microsoft 365 Defender te gebruiken in het Microsoft 365-beveiligingscentrum zonder extra licentiekosten. We raden u aan een beveiligingslicentie voor Microsoft 365 E5, E5, A5 of A5 te verkrijgen of een geldige combinatie van licenties die toegang biedt tot alle ondersteunde services.
+Een licentie voor een Microsoft 365-beveiligingsproduct geeft u over het algemeen het recht microsoft 365 Defender te gebruiken in het Microsoft 365-beveiligingscentrum zonder extra licentiekosten. We raden u aan een microsoft 365 E5-, E5-beveiligings-, A5- of A5-beveiligingslicentie te krijgen of een geldige combinatie van licenties die toegang biedt tot alle ondersteunde services.
 
-Lees de licentievereisten voor [meer informatie over licenties.](prerequisites.md#licensing-requirements)
+Lees de licentievereisten voor [gedetailleerde licentiegegevens.](prerequisites.md#licensing-requirements)
 
-### <a name="check-your-role"></a>Controleer uw rol
+### <a name="check-your-role"></a>Uw rol controleren
 
-U moet een globale beheerder **of** beveiligingsbeheerder **in** Azure Active Directory zijn om Microsoft 365 Defender in te zetten. [Uw rollen weergeven in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)
+U moet een globale beheerder **of** beveiligingsbeheerder **zijn** in Azure Active Directory om Microsoft 365 Defender in te zetten. [Uw rollen weergeven in Azure AD](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)
 
 ## <a name="supported-services"></a>Ondersteunde services
 
-Microsoft 365 Defender verzamelt gegevens uit de verschillende ondersteunde services die u al hebt geïmplementeerd. Gegevens worden centraal verwerkt en opgeslagen om nieuwe inzichten te identificeren en gecentraliseerde antwoordwerkstromen mogelijk te maken. Dit gebeurt zonder dat dit van invloed is op bestaande implementaties, instellingen of gegevens die zijn gekoppeld aan de geïntegreerde services.
+Microsoft 365 Defender verzamelt gegevens van de verschillende ondersteunde services die u al hebt geïmplementeerd. Er worden gegevens centraal verwerkt en opgeslagen om nieuwe inzichten te identificeren en gecentraliseerde antwoordwerkstromen mogelijk te maken. Dit doet het zonder dat dit gevolgen heeft voor bestaande implementaties, instellingen of gegevens die zijn gekoppeld aan de geïntegreerde services.
 
-Voor de beste bescherming en optimaliseren van Microsoft 365 Defender, raden we u aan alle toepasselijke ondersteunde services op uw netwerk te implementeren. Lees meer over het [implementeren van ondersteunde services.](deploy-supported-services.md)
+Voor de beste beveiliging en het optimaliseren van Microsoft 365 Defender raden we u aan alle van toepassing zijnde ondersteunde services op uw netwerk te implementeren. Lees voor meer informatie [over het implementeren van ondersteunde services.](deploy-supported-services.md)
 
-## <a name="before-starting-the-service"></a>Voordat u de service start
-
-Voordat u de service in dienst gaat, wordt in het Microsoft 365-beveiligingscentrum [(security.microsoft.com)](https://security.microsoft.com)de pagina met  Microsoft 365 Defender-instellingen weergegeven wanneer u **Incidenten,** Actiecentrum of Zoeken selecteert in het navigatiedeelvenster. Deze navigatie-items worden niet weergegeven als u niet in aanmerking komt voor het gebruik van Microsoft 365 Defender.
-
-![Afbeelding van de pagina met microsoft 365 Defender-instellingen die wordt weergegeven als Microsoft 365 Defender geen Microsoft 365 Defender-instellingen heeft ingeschakeld in het ](../../media/mtp-enable/mtp-settings.png)
- *Microsoft 365-beveiligingscentrum*
-
-## <a name="starting-the-service"></a>De service starten
-
-Als u Microsoft 365 Defender wilt in turnen, selecteert u **Microsoft 365 Defender** in te zetten en de wijziging toe te passen. U kunt deze optie ook openen door **Instellingen** [(security.microsoft.com/settings)](https://security.microsoft.com/settings)te selecteren in het navigatiedeelvenster en vervolgens **Microsoft 365 Defender te selecteren.**
-
-> [!NOTE]
-> Als u Instellingen niet ziet in **het** navigatiedeelvenster of als u de pagina niet kunt openen, controleert u uw machtigingen en licenties.
+## <a name="onboard-to-the-service"></a>Aan boord van de service
+Onboarding naar Microsoft 365 Defender is eenvoudig. Selecteer in het navigatiemenu een item onder de sectie Eindpunten, zoals Incidenten, Jagen, Actiecentrum of Bedreigingsanalyse om het onboardingproces te starten. 
 
 ### <a name="data-center-location"></a>Locatie van datacenter
 
-Microsoft 365 Defender zal gegevens opslaan en verwerken op dezelfde locatie die door [Microsoft Defender voor Eindpunt wordt gebruikt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy) Als u microsoft Defender voor eindpunt niet hebt, wordt automatisch een nieuwe locatie van het datacenter geselecteerd op basis van de locatie van actieve beveiligingsservices van Microsoft 365. De geselecteerde locatie van het datacenter wordt weergegeven op het scherm.
+Microsoft 365 Defender zal gegevens opslaan en verwerken op dezelfde locatie die [door Microsoft Defender voor Eindpunt wordt gebruikt.](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy) Als u geen Microsoft Defender voor Eindpunt hebt, wordt automatisch een nieuwe datacenterlocatie geselecteerd op basis van de locatie van actieve Microsoft 365-beveiligingsservices. De geselecteerde locatie van het datacenter wordt weergegeven in het scherm.
 
-Selecteer **Hulp nodig?** In het Microsoft 365-beveiligingscentrum kunt u contact opnemen met Microsoft Ondersteuning over de inrichting van Microsoft 365 Defender op een andere locatie in het datacenter.
+Selecteer **Hulp nodig?** in het Microsoft 365-beveiligingscentrum om contact op te nemen met microsoft-ondersteuning over het inrichten van Microsoft 365 Defender op een andere datacenterlocatie.
 
 > [!NOTE]
-> Microsoft Defender voor eindpunt richt automatisch voorzieningen in datacenters van de Europese Unie (EU) indien ingeschakeld via Azure Defender. Microsoft 365 Defender wordt automatisch ingericht in hetzelfde EU-datacenter voor klanten die Defender voor eindpunt op deze manier hebben ingericht.
+> Microsoft Defender voor Eindpunt biedt automatisch voorzieningen in datacenters van de Europese Unie (EU) wanneer deze zijn ingeschakeld via Azure Defender. Microsoft 365 Defender wordt automatisch ingericht in hetzelfde EU-datacenter voor klanten die Defender op deze manier voor Eindpunt hebben ingericht.
 
-### <a name="confirm-that-the-service-is-on"></a>Controleer of de service is
+### <a name="confirm-that-the-service-is-on"></a>Controleren of de service is aan
 
-Nadat de service is ingericht, wordt het volgende toegevoegd:
+Wanneer de service is ingericht, wordt het volgende toegevoegd:
 
 - [Incidentenbeheer](incidents-overview.md)
-- Een actiecentrum voor het beheren [van automatisch onderzoek en antwoorden](mtp-autoir.md)
-- [Geavanceerde mogelijkheden voor](advanced-hunting-overview.md) zoeken
+- [Waarschuwingenwachtrij](investigate-alerts.md)
+- Een actiecentrum voor het beheren [van geautomatiseerd onderzoek en antwoord](mtp-autoir.md)
+- [Geavanceerde mogelijkheden voor](advanced-hunting-overview.md) jagen
+- Dreigingsanalyse
 
-![Afbeelding van navigatiedeelvenster van het Microsoft 365-beveiligingscentrum met Microsoft 365 Defender-functies Microsoft 365-beveiligingscentrum met beheer van incidenten en andere mogelijkheden van ](../../media/mtp-enable/mtp-on.png)
- *Microsoft 365 Defender*
+![Afbeelding van het navigatiedeelvenster van het Microsoft 365-beveiligingscentrum met Microsoft 365 Defender bevat Microsoft 365-beveiligingscentrum met incidentenbeheer en andere ](../../media/mtp-enable/mtp-on.png)
+ *Microsoft 365 Defender-mogelijkheden*
 
-### <a name="getting-microsoft-defender-for-identity-data"></a>Microsoft Defender voor identiteitsgegevens verkrijgen
+### <a name="getting-microsoft-defender-for-identity-data"></a>Microsoft Defender voor identiteitsgegevens verkrijgen 
+Als u de integratie met Microsoft Cloud App Security wilt inschakelen, moet u zich ten minste eenmaal aanmelden bij de Microsoft Cloud App Security.
 
-Als u Microsoft Defender voor identiteitsgegevens wilt delen met Microsoft 365 Defender, moet Microsoft Cloud App Security en Microsoft Defender voor identiteitsintegratie zijn ingeschakeld. [Meer informatie over deze integratie.](https://docs.microsoft.com/cloud-app-security/mdi-integration)
+## <a name="get-assistance"></a>Hulp krijgen
 
-## <a name="get-assistance"></a>Ondersteuning krijgen
+Als u antwoorden wilt op de meestgestelde vragen over het in- en uitschakelen van Microsoft 365 Defender, leest u [de veelgestelde vragen.](mtp-enable-faq.md)
 
-Lees de veelgestelde vragen voor antwoorden op de meest gestelde vragen over het in- en uitschakelen [van](mtp-enable-faq.md)Microsoft 365 Defender.
-
-Microsoft-ondersteuningsmedewerkers kunnen u helpen bij het inrichten of de inrichting van de service en gerelateerde resources in uw tenant. Selecteer Hulp nodig in **het** Microsoft 365-beveiligingscentrum voor hulp. Als u contact op kunt nemen met ondersteuning, vermeldt u Microsoft 365 Defender.
+Microsoft-ondersteuningsmedewerkers kunnen helpen bij het inrichten of deprovisie van de service en gerelateerde resources op uw tenant. Selecteer Hulp nodig **in** het Microsoft 365-beveiligingscentrum voor hulp. Vermeld Microsoft 365 Defender wanneer u contact op gaat met de ondersteuning.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -105,8 +95,8 @@ Microsoft-ondersteuningsmedewerkers kunnen u helpen bij het inrichten of de inri
 - [Licentievereisten en andere vereisten](prerequisites.md)
 - [Ondersteunde services implementeren](deploy-supported-services.md)
 - [Overzicht van Microsoft 365 Defender](microsoft-threat-protection.md)
-- [Overzicht van Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Overzicht van Microsoft Defender voor eindpunt](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - [Overzicht van Defender voor Office 365](../office-365-security/office-365-atp.md)
-- [Overzicht van beveiliging van Microsoft Cloud-apps](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
-- [Overzicht van Microsoft Defender voor identiteit](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
-- [Gegevensopslag met Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [Overzicht van Microsoft Cloud App-beveiliging](/cloud-app-security/what-is-cloud-app-security)
+- [Overzicht van Microsoft Defender voor identiteit](/azure-advanced-threat-protection/what-is-atp)
+- [Microsoft Defender voor endpoint-gegevensopslag](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
