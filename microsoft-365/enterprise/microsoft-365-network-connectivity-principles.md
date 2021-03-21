@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Dit artikel biedt de meest recente richtlijnen om Microsoft 365-netwerkverbindingen veilig te optimaliseren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6f104f53abd0a9aa2376b09c93af96d7f8178e8
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: e0391133721270c0fdfb288b5d26ab23f301a844
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519737"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923288"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Beginselen voor Microsoft 365-netwerkverbindingen
 
@@ -226,9 +226,9 @@ Een holistische aanpak voor een betere beveiliging moet rekening houden met het 
   - Verlaag de netwerkbeveiligingsvereisten van de zakelijke WAN-rand
   - Sommige apparaten voor netwerkperimeterbeveiliging, zoals firewalls, zijn nog steeds vereist, maar de belasting wordt verminderd
   - Zorgt voor lokaal uitgaand verkeer voor Microsoft 365-verkeer
-- Verbeteringen kunnen incrementeel worden aangepakt, zoals beschreven in de sectie [Incrementele optimalisering](microsoft-365-network-connectivity-principles.md#BKMK_IncOpt). Sommige optimaliseringstechnieken bieden een betere kosten-batenratio, afhankelijk van uw netwerkarchitectuur. U moet optimalisaties kiezen die het meest geschikt zijn voor uw organisatie.
+- Verbeteringen kunnen incrementeel worden aangepakt, zoals beschreven in de sectie [Incrementele optimalisering](microsoft-365-network-connectivity-principles.md#BKMK_IncOpt). Sommige optimaliseringstechnieken bieden een betere kosten-baten ratio, afhankelijk van uw netwerkarchitectuur. U moet optimalisaties kiezen die het meest geschikt zijn voor uw organisatie.
 
-Zie het artikel [Microsoft 365-beveiliging](https://docs.microsoft.com/microsoft-365/security) en [Microsoft 365-compliance](https://docs.microsoft.com/microsoft-365/compliance) voor meer informatie over beveiliging en compliance in Microsoft 365.
+Zie het artikel [Microsoft 365-beveiliging](../security/index.yml) en [Microsoft 365-compliance](../compliance/index.yml) voor meer informatie over beveiliging en compliance in Microsoft 365.
   
 ## <a name="incremental-optimization"></a>Incrementele optimalisering
 <a name="BKMK_IncOpt"> </a>

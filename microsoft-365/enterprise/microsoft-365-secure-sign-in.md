@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: Vereisen dat uw gebruikers zich veilig aanmelden met meervoudige verificatie (MFA) en andere functies.
-ms.openlocfilehash: 8426d902ff8be8541b5d770af6d34cdf71868047
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: c470a8bb1e67925ced929225796ac30191db247e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558524"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923134"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Gebruikersaanmeldingen bij uw Microsoft 365-Tenant beveiligen
 
@@ -37,14 +37,14 @@ Om de beveiliging van gebruikersaanmeldingen te vergroten:
 
 Windows Hello voor Bedrijven in Windows 10 Enterprise vervangt wachtwoorden met sterke tweeledige verificatie bij het ondertekenen op een Windows-apparaat. De twee factoren zijn een nieuw type gebruikersreferentie dat is gekoppeld aan een apparaat en een biometrisch kenmerk of een pincode.
 
-Zie [Overzicht Windows Hello voor Bedrijven](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview)voor meer informatie.
+Zie [Overzicht Windows Hello voor Bedrijven](/windows/security/identity-protection/hello-for-business/hello-overview)voor meer informatie.
 
 
 ## <a name="azure-ad-password-protection"></a>Azure AD-wachtwoordbeveiliging
 
 Azure AD-wachtwoordbeveiliging detecteert en blokkeert bekende zwakke wachtwoorden en hun varianten, en kan ook aanvullende zwakke termen blokkeren die specifiek zijn voor uw organisatie. Standaardlijsten met verboden wachtwoorden worden automatisch toegepast op alle gebruikers in een Azure AD-tenant. U kunt aanvullende vermeldingen definiëren in een aangepaste lijst met geblokkeerde wachtwoorden. Als gebruikers hun wachtwoord wijzigen of opnieuw instellen, worden deze verboden wachtwoordlijsten ingeschakeld om het gebruik van sterke wachtwoorden af te dwingen.
 
-Zie [Azure AD-wachtwoordbeveiliging configureren](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad)voor meer informatie.
+Zie [Azure AD-wachtwoordbeveiliging configureren](/azure/active-directory/authentication/concept-password-ban-bad)voor meer informatie.
 
 ## <a name="mfa"></a>MFA
 
@@ -52,7 +52,7 @@ Bij MFA is er voor gebruikersaanmeldingen extra verificatie naast het wachtwoord
 
 ![Het juiste wachtwoord plus een extra verificatie resulteert in een geslaagde aanmelding](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
-De eerste stap voor het gebruik van MFA is ***om het voor alle beheerdersaccounts te vereisen** _, ook wel geprivilegieerde accounts genoemd.
+De eerste stap voor het gebruik van MFA is ***om het voor alle beheerdersaccounts*** te gebruiken, ook wel geprivilegieerde accounts genoemd.
 
 Daarnaast raadt Microsoft MFA aan voor alle gebruikers.
 
@@ -60,20 +60,20 @@ Er zijn drie manieren waarop u uw gebruikers kunt verplichten MFA te gebruiken o
 
 | Abonnement | Aanbeveling |
 |---------|---------|
-|Alle Microsoft 365-abonnementen (zonder Azure AD Premium P1- of P2-licenties)     |[Schakel standaardinstellingen voor beveiliging in Azure AD in](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). De standaardinstellingen voor beveiliging in Azure AD omvatten MFA voor gebruikers en beheerders.   |
-|Microsoft 365 E3 (bevat Azure AD Premium P1-licenties)     | Gebruik [algemeen beleid voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br>- [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Verouderde verificatie blokkeren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
+|Alle Microsoft 365-abonnementen (zonder Azure AD Premium P1- of P2-licenties)     |[Schakel standaardinstellingen voor beveiliging in Azure AD in](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). De standaardinstellingen voor beveiliging in Azure AD omvatten MFA voor gebruikers en beheerders.   |
+|Microsoft 365 E3 (bevat Azure AD Premium P1-licenties)     | Gebruik [algemeen beleid voor voorwaardelijke toegang](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br>- [MFA vereisen voor beheerders](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [MFA vereisen voor alle gebruikers](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Verouderde verificatie blokkeren](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
 |Microsoft 365 E5 (bevat Azure AD Premium P2-licenties)     | Als u gebruikmaakt van Azure AD Identity Protection, begint u het implementeren van de [aanbevolen set beleidsregels voor voorwaardelijke toegang en verwante beleidsregels](../security/office-365-security/identity-access-policies.md) van Microsoft door de volgende twee beleidsregels te maken:<br> - [MFA vereisen bij een normaal of hoog risico bij het aanmelden](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ### <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
 
-De standaardinstellingen voor beveiliging zijn een nieuwe functie voor betaalde Microsoft 365- en Office 365-abonnementen en proefabonnementen van Microsoft 365 en Office 365 die zijn gemaakt na 21 oktober 2019. Bij deze abonnementen zijn de standaardinstellingen voor beveiliging ingeschakeld waarmee _*_al uw gebruikers MFA met de Microsoft Authenticator-app moeten gebruiken_*_.
+De standaardinstellingen voor beveiliging zijn een nieuwe functie voor betaalde Microsoft 365- en Office 365-abonnementen en proefabonnementen van Microsoft 365 en Office 365 die zijn gemaakt na 21 oktober 2019. Bij deze abonnementen zijn de standaardinstellingen voor beveiliging ingeschakeld waarmee ***al uw gebruikers MFA met de Microsoft Authenticator-app moeten gebruiken***.
  
 Gebruikers hebben 14 dagen de tijd om zich te registreren voor MFA met de Microsoft Authenticator-app vanaf hun smartphone. Deze periode gaat in bij de eerste aanmelding nadat de standaardinstellingen voor beveiliging zijn ingeschakeld. Na 14 dagen kunnen gebruikers zich alleen aanmelden als de MFA-registratie is voltooid.
 
 De standaardinstellingen voor beveiliging bieden organisaties een basisbeveiligingsniveau voor gebruikersaanmeldingen dat standaard is ingeschakeld. U kunt de standaardinstellingen voor beveiliging uitschakelen ten gunste van MFA met voorwaardelijk toegangsbeleid of voor afzonderlijke accounts.
 
-Zie het [overzicht van standaardinstellingen voor beveiliging](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie.
+Zie het [overzicht van standaardinstellingen voor beveiliging](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie.
 
 ### <a name="conditional-access-policies"></a>Beleidsregels voor voorwaardelijke toegang
 
@@ -87,7 +87,7 @@ U kunt beleidsregels voor voorwaardelijke toegang ook gebruiken voor meer geavan
 
 Voor voorwaardelijke toegang zijn Azure AD Premium P1-licenties vereist, die deel uitmaken van Microsoft 365 E3 en E5.
 
-Zie het [overzicht van voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) voor meer informatie.
+Zie het [overzicht van voorwaardelijke toegang](/azure/active-directory/conditional-access/overview) voor meer informatie.
 
 ### <a name="using-these-methods-together"></a>Deze methoden samen gebruiken
 
@@ -102,7 +102,7 @@ In deze tabel ziet u de resultaten na het inschakelen van MFA met de standaardin
 
 | Methode | Ingeschakeld | Uitgeschakeld | Extra verificatiemethode |
 |:-------|:-----|:-------|:-------|
-| _ *Standaardinstellingen voor beveiliging**  | Kan geen beleid voor voorwaardelijke toegang gebruiken | Kan beleid voor voorwaardelijke toegang gebruiken | De Microsoft Authenticator-app |
+| **Standaardinstellingen voor beveiliging**  | Kan geen beleid voor voorwaardelijke toegang gebruiken | Kan beleid voor voorwaardelijke toegang gebruiken | De Microsoft Authenticator-app |
 | **Beleidsregels voor voorwaardelijke toegang** | Als er een of meer zijn ingeschakeld, kunt u de standaardinstellingen voor beveiliging niet inschakelen | Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen  | Opgeven door gebruiker tijdens MFA-registratie  |
 ||||
 
@@ -137,16 +137,16 @@ Met Azure AD Identity Protection kunt u:
 | Verdachte incidenten onderzoeken en deze oplossen met beheertaken | U kunt risico gebeurtenissen onderzoeken door informatie over het beveiligingsincident te gebruiken. Er zijn eenvoudige werkstromen beschikbaar om onderzoek bij te houden en herstelbewerkingen uit te voeren, zoals het opnieuw instellen van wachtwoorden. |
 |||
 
-Zie [meer informatie over Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection).
+Zie [meer informatie over Azure AD Identity Protection](/azure/active-directory/active-directory-identityprotection).
 
-Zie de [stappen voor het inschakelen van de Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).
+Zie de [stappen voor het inschakelen van de Azure AD Identity Protection](/azure/active-directory/active-directory-identityprotection-enable).
 
 ## <a name="admin-technical-resources-for-mfa-and-secure-sign-ins"></a>Technische informatiebronnen voor beheerders voor MFA en beveiligde aanmeldingen
 
 - [MFA voor Microsoft 365](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)
 - [Identiteitsroadmap voor Microsoft 365](identity-roadmap-microsoft-365.md)
 - [Azure Academy Azure AD-trainingsvideo's](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
-- [Het beleid voor Azure AD Multi-Factor Authentication-registratie configureren](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+- [Het beleid voor Azure AD Multi-Factor Authentication-registratie configureren](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Configuratie van identiteiten en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md)
 
 ## <a name="next-step"></a>Volgende stap

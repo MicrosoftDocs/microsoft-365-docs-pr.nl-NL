@@ -17,15 +17,15 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen informatie krijgen over het gebruik van de Attack Simulator om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun organisaties met Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2.
+description: Beheerders kunnen leren hoe ze Attack Simulator kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c88a5df6fae61e1ffe70214ad4a73deef4b380e
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: 105ca66cdfacaab3b73d8bf89c3a05207b673a3c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717613"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921358"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Attack Simulator in Microsoft Defender voor Office 365
 
@@ -33,82 +33,82 @@ ms.locfileid: "50717613"
 
 **Van toepassing op** [Microsoft Defender voor Office 365-abonnement 2](office-365-atp.md)
 
-Als uw organisatie beschikt over Microsoft Defender voor Office 365 Plan 2, dat functies voor bedreigingsonderzoek en antwoord [bevat,](office-365-ti.md)kunt u de Attack Simulator in het beveiligings- &-compliancecentrum gebruiken om realistische scenario's voor aanvallen in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen om kwetsbaar gebruikers te identificeren en te vinden voordat een echte aanval uw bottom line beïnvloedt. Lees dit artikel voor meer informatie.
+Als uw organisatie Microsoft Defender voor Office 365 Plan 2 heeft, met mogelijkheden voor bedreigingsonderzoek en [antwoord,](office-365-ti.md)kunt u Attack Simulator gebruiken in het Beveiligings- & Compliancecentrum om realistische aanvalsscenario's in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen bij het identificeren en vinden van kwetsbare gebruikers voordat een echte aanval van invloed is op uw bottom line. Lees dit artikel voor meer informatie.
 
 > [!NOTE]
 >
-> Attack Simulator, zoals beschreven in dit artikel, is nu alleen-lezen en is vervangen door de training voor de aanvalstraining **in** het samenwerkings knooppunt e-mail **&** samenwerking in het [Microsoft 365-beveiligingscentrum.](https://security.microsoft.com) Zie Aan de slag met de trainingstraining [voor de aanvalstraining](attack-simulation-training-get-started.md)voor meer informatie.
+> Attack Simulator, zoals beschreven in dit artikel, is nu alleen-lezen en is vervangen door **attack-simulatietraining** in het e-mail-&-samenwerkings knooppunt in het [Microsoft 365-beveiligingscentrum.](https://security.microsoft.com)  Zie Aan de slag [met de trainingstraining Aanvalssimulatie voor meer informatie.](attack-simulation-training-get-started.md)
 >
-> De mogelijkheid om nieuwe versies van deze versie van Attack Simulator te starten is uitgeschakeld. Vanaf 24 januari 2021 hebt u echter nog steeds toegang tot rapporten die nog maximaal 90 dagen duren.
+> De mogelijkheid om nieuwe simulaties te starten vanuit deze versie van Attack Simulator is uitgeschakeld. Vanaf 24 januari 2021 hebt u echter nog steeds toegang tot rapporten voor maximaal 90 dagen.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Ga naar <https://protection.office.com/> om het Beveiligings- en compliancecentrum te openen. De attack simulator is beschikbaar op **Threat Management** \> **Attack simulator.** Ga rechtstreeks naar de attack simulator, open <https://protection.office.com/attacksimulator> .
+- Ga naar <https://protection.office.com/> om het Beveiligings- en compliancecentrum te openen. Attack simulator is beschikbaar op **Threat management** \> **Attack simulator**. Ga rechtstreeks naar de aanvalssimulator, open <https://protection.office.com/attacksimulator> .
 
-- Zie de servicebeschrijving van Microsoft Defender voor Office 365 voor meer informatie over de beschikbaarheid van Attack Simulator in verschillende Microsoft [365-abonnementen.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+- Zie Microsoft [Defender voor Office 365-servicebeschrijving](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van Attack Simulator in verschillende Microsoft 365-abonnementen.
 
 - U moet lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
-- Uw account moet worden geconfigureerd voor meervoudige verificatie (MFA) voor het maken en beheren van campagnes in Attack Simulator. Zie Meervoudige verificatie instellen voor [instructies.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)
+- Uw account moet zijn geconfigureerd voor meervoudige verificatie (MFA) om campagnes te maken en te beheren in Attack Simulator. Zie Meervoudige verificatie instellen voor [instructies.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)
 
-- Attack Simulator werkt alleen voor postvakken in de cloud.
+- Attack Simulator werkt alleen in postvakken in de cloud.
 
-- Phishing-campagnes verzamelen en verwerken gebeurtenissen voor 30 dagen. Historische campagnegegevens zijn beschikbaar tot 90 dagen nadat u de campagne hebt gestart.
+- Phishingcampagnes verzamelen en verwerken gebeurtenissen voor 30 dagen. Historische campagnegegevens zijn beschikbaar tot 90 dagen nadat u de campagne hebt gestart.
 
-- Het analyseren van aanvallen en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365-services. Zie Microsoft [365-gegevenslocaties voor meer informatie.](/microsoft-365/enterprise/o365-data-locations)
+- Aanvalssimulatie en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365-services. Zie Microsoft [365-gegevenslocaties](../../enterprise/o365-data-locations.md)voor meer informatie.
 
 - Er zijn geen bijbehorende PowerShell-cmdlets voor Attack Simulator.
 
-## <a name="spear-phishing-campaigns"></a>Phishingcampagnes
+## <a name="spear-phishing-campaigns"></a>Phishingcampagnes voor speer
 
-*Phishing* is een algemene term voor e-mailaanvallen die proberen gevoelige informatie te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. *Phishing is* een gerichte phishing-aanval die gerichte en aangepaste inhoud gebruikt die specifiek is afgestemd op de specifieke ontvangers (meestal na een aanval op de ontvangers door de aanvaller).
+*Phishing* is een algemene term voor e-mailaanvallen die gevoelige informatie proberen te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. *Phishing via phishing* is een gerichte phishing-aanval die gerichte en aangepaste inhoud gebruikt die specifiek is afgestemd op de geadresseerden (meestal na verkenning van de geadresseerden door de aanvaller).
 
 In Attack Simulator zijn twee verschillende typen phishingcampagnes beschikbaar:
 
-- **Phishing onder de aandacht brengen (referentiegegevens)**: de aanval probeert de ontvangers ervan te overtuigen op een URL in het bericht te klikken. Als de gebruiker op de koppeling klikt, wordt hem of haar gevraagd zijn of haar referenties in te voeren. Als ze dit doen, gaan ze naar een van de volgende locaties:
+- **Phishing van de speer (referenties oogst)**: De aanval probeert de geadresseerden te overtuigen om op een URL in het bericht te klikken. Als ze op de koppeling klikken, wordt hen gevraagd hun referenties in te voeren. Als ze dat doen, worden ze naar een van de volgende locaties overgebracht:
 
-  - Een standaardpagina waarin wordt uitgelegd dat dit slechts een test was, en tips voor het herkennen van phishing-berichten.
+  - Een standaardpagina waarin wordt uitgelegd dat dit slechts een test was en tips geeft voor het herkennen van phishingberichten.
 
-    ![Wat gebruikers zien als ze op de phishing-koppeling klikken en hun referenties invoeren](../../media/attack-simulator-phishing-result.png)
+    ![Wat gebruikers zien als ze op de phishingkoppeling klikken en hun referenties invoeren](../../media/attack-simulator-phishing-result.png)
 
   - Een aangepaste pagina (URL) die u opgeeft.
 
-- **Phishing (bijlage)**- De aanval probeert de ontvangers ervan te overtuigen dat ze een DOCX- of PDF-bijlage in het bericht moeten openen. De bijlage bevat dezelfde inhoud van de standaard phishing-koppeling, maar de eerste zin begint met " , u ziet dit bericht als een recent e-mailbericht dat u \<Display Name\> hebt geopend...".
+- **Phishing van de speer (bijlage)**: De aanval probeert de geadresseerden te overtuigen om een .docx- of .pdf-bijlage in het bericht te openen. De bijlage bevat dezelfde inhoud van de standaardkoppeling phishing, maar de eerste zin begint met " , u ziet dit bericht als een recent e-mailbericht \<Display Name\> dat u hebt geopend...".
 
 > [!NOTE]
 > Momenteel verlopen phishingcampagnes in Attack Simulator niet.
 
-### <a name="create-a-spear-phishing-campaign"></a>Een phishingcampagne maken
+### <a name="create-a-spear-phishing-campaign"></a>Een phishingcampagne voor een speer maken
 
 Een belangrijk onderdeel van een phishingcampagne is het uiterlijk van het e-mailbericht dat naar de geadresseerden wordt verzonden. Als u het e-mailbericht wilt maken en configureren, hebt u de volgende opties:
 
-- **Gebruik een ingebouwde e-mailsjabloon:** Er zijn twee ingebouwde sjablonen beschikbaar: **Giveaway** voor prijzen en **Salarisadministratie Update.** U kunt nog enkele, alle of geen e-maileigenschappen van de sjabloon aanpassen wanneer u de campagne maakt en start.
+- **Gebruik een ingebouwde e-mailsjabloon:** Er zijn twee ingebouwde sjablonen beschikbaar: **Prijs giveaway** en **Salarisupdate.** U kunt sommige, alle of geen e-maileigenschappen van de sjabloon verder aanpassen wanneer u de campagne maakt en start.
 
-- **Maak een herbruikbare e-mailsjabloon:** nadat u de e-mailsjabloon hebt gemaakt en opgeslagen, kunt u deze opnieuw gebruiken in toekomstige phishingcampagnes. U kunt nog enkele, alle of geen e-maileigenschappen van de sjabloon aanpassen wanneer u de campagne maakt en start.
+- **Een herbruikbare e-mailsjabloon** maken: nadat u de e-mailsjabloon hebt gemaakt en opgeslagen, kunt u deze opnieuw gebruiken in toekomstige phishingcampagnes. U kunt sommige, alle of geen e-maileigenschappen van de sjabloon verder aanpassen wanneer u de campagne maakt en start.
 
-- **Maak het e-mailbericht in de wizard:** u kunt het e-mailbericht rechtstreeks in de wizard maken tijdens het maken en starten van de phishingcampagne.
+- **Maak het e-mailbericht in de wizard:** U kunt het e-mailbericht rechtstreeks in de wizard maken terwijl u de phishingcampagne voor de speer maakt en start.
 
-#### <a name="step-1-optional-create-a-custom-email-template"></a>Stap 1 (optioneel): Een aangepaste e-mailsjabloon maken
+#### <a name="step-1-optional-create-a-custom-email-template"></a>Stap 1 (optioneel): een aangepaste e-mailsjabloon maken
 
-Als u een van de ingebouwde sjablonen wilt gebruiken of het e-mailbericht rechtstreeks in de wizard wilt maken, kunt u deze stap overslaan.
+Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechtstreeks in de wizard wilt maken, kunt u deze stap overslaan.
 
-1. Ga in het & Compliancecentrum naar **de threat management** Attack \> **simulator.**
+1. Ga in het & Compliance center naar **Threat management** \> **Attack simulator**.
 
-2. Klik op **de pagina** Aanvallen nabootsen in de **secties Phishing (Referenties** worden ontvangen) of Phishing via phishing **(bijlage)** op **Details van aanval.**
+2. Klik op **de pagina** Aanvallen simuleren in de secties Phishing van **de speer (Referenties oogst)** of **In** bijlage op Details van aanvallen **.**
 
-   Het maakt niet uit waar u de sjabloon maakt. De beschikbare opties in de sjabloon zijn hetzelfde voor beide soorten phishing-aanvallen.
+   Het maakt niet uit waar u de sjabloon maakt. De beschikbare opties in de sjabloon zijn hetzelfde voor beide typen phishing-aanvallen.
 
-3. Klik op **de pagina Details** van aanval die wordt geopend in de sectie **Phishing-sjablonen** in het gebied **Sjablonen** maken op Nieuwe **sjabloon.**
+3. Klik op de pagina Aanvalsdetails die wordt geopend in de sectie **Phishingsjablonen** in het gebied **Sjablonen** maken op **Nieuwe sjabloon.** 
 
-4. De **wizard Phishingsjabloon** configureren wordt gestart in een nieuwe flyout. Voer in **de stap** Start een unieke weergavenaam voor de sjabloon in en klik op **Volgende.**
+4. De **wizard Phishingsjabloon** configureren wordt gestart in een nieuwe flyout. Voer in **de stap** Start een unieke weergavenaam voor de sjabloon in en klik vervolgens op **Volgende.**
 
-5. Configureer **de volgende instellingen** in de stap E-maildetails configureren:
+5. Configureer **in de stap E-maildetails** configureren de volgende instellingen:
 
    - **Van (Naam)**: De weergavenaam die wordt gebruikt voor de afzender van het bericht.
 
-   - **Van (E-mail)**: Het e-mailadres van de afzender.
+   - **Van (e-mail)**: het e-mailadres van de afzender.
 
-   - **URL van phishing-aanmeldingsserver:** klik op de vervolgkeuzelijst en selecteer een van de beschikbare URL's in de lijst. Dit is de URL waar gebruikers op kunnen klikken. U hebt de volgende mogelijkheden:
+   - **URL van de phishing-aanmeldingsserver:** Klik op de vervolgkeuzelijst en selecteer een van de beschikbare URL's in de lijst. Dit is de URL waar gebruikers op zullen klikken. De keuzen zijn:
 
      - <http://portal.docdeliveryapp.com>
      - <http://portal.docdeliveryapp.net>
@@ -125,66 +125,66 @@ Als u een van de ingebouwde sjablonen wilt gebruiken of het e-mailbericht rechts
 
      > [!NOTE]
      >
-     > Een URL-reputatieservice kan een of meer van deze URL's als onveilig identificeren. Controleer de beschikbaarheid van de URL in de ondersteunde webbrowsers voordat u de URL gebruikt in een phishing-campagne.
+     > Een URL-reputatieservice kan een of meer van deze URL's als onveilig identificeren. Controleer de beschikbaarheid van de URL in uw ondersteunde webbrowsers voordat u de URL gebruikt in een phishingcampagne.
 
-   - **Aangepaste landingspagina-URL:** voer een optionele landingspagina in waar gebruikers worden geplaatst als ze op de phishing-koppeling klikken en hun referenties invoeren. Deze koppeling vervangt de standaardlandingspagina. Als u bijvoorbeeld een interne informatietraining hebt, kunt u deze URL hier opgeven.
+   - **Aangepaste landingspagina-URL:** Voer een optionele landingspagina in waarin gebruikers worden meegenomen als ze op de phishingkoppeling klikken en hun referenties invoeren. Deze koppeling vervangt de standaard landingspagina. Als u bijvoorbeeld training voor interne bewustmaking hebt, kunt u deze URL hier opgeven.
 
-   - **Categorie:** deze instelling wordt momenteel niet gebruikt (alles wat u optreedt, wordt genegeerd).
+   - **Categorie:** Deze instelling wordt momenteel niet gebruikt (alles wat u in typt, wordt genegeerd).
 
-   - **Onderwerp:** het **veld Onderwerp** van het e-mailbericht.
+   - **Onderwerp:** Het **veld Onderwerp** van het e-mailbericht.
 
-   Klik op Volgende wanneer u klaar **bent.**
+   Wanneer u klaar bent, klikt u op **Volgende.**
 
-6. Maak in **de stap E-mailbericht opstellen** de bericht zelf van het e-mailbericht. U kunt het tabblad **E-mail** (een uitgebreide HTML-editor) of het **tabblad** Bron (onbewerkte HTML-code) gebruiken.
+6. Maak in **de stap E-mail** opstellen de berichtin body van het e-mailbericht. U kunt het tabblad **E-mail** (een uitgebreide HTML-editor) of het **tabblad Bron** (onbewerkte HTML-code) gebruiken.
 
-   De HTML-opmaak kan zo eenvoudig of complex zijn als nodig is. U kunt afbeeldingen en tekst invoegen om de betrouwbaarheid van het bericht te vergroten in de e-mailclient van de geadresseerde.
+   De HTML-opmaak kan zo eenvoudig of complex zijn als u dat nodig hebt. U kunt afbeeldingen en tekst invoegen om de geloofwaardigheid van het bericht in de e-mailclient van de geadresseerde te verbeteren.
 
-   - `${username}` voegt de naam van de geadresseerde in.
+   - `${username}` hiermee voegt u de naam van de geadresseerde in.
 
-   - `${loginserverurl}` voegt de **URL-waarde voor Phishing Login Server** uit de vorige stap in.
+   - `${loginserverurl}` hiermee voegt u de **URL-waarde phishing-aanmeldingsserver** in van de vorige stap.
 
-   Klik op Volgende wanneer u klaar **bent.**
+   Wanneer u klaar bent, klikt u op **Volgende.**
 
 7. Klik in **de stap** Bevestigen op **Voltooien.**
 
-#### <a name="step-2-create-and-launch-the-spear-phishing-campaign"></a>Stap 2: De phishingcampagne maken en starten
+#### <a name="step-2-create-and-launch-the-spear-phishing-campaign"></a>Stap 2: De phishingcampagne voor de speer maken en starten
 
-1. Ga in het & Compliancecentrum naar **de threat management** Attack \> **simulator.**
+1. Ga in het & Compliance center naar **Threat management** \> **Attack simulator**.
 
-2. Maak op **de pagina** Simuleren aanvallen een van de volgende selecties op basis van het type campagne dat u wilt maken:
+2. Maak op **de** pagina Aanvallen simuleren een van de volgende selecties op basis van het type campagne dat u wilt maken:
 
-   - Klik in **de sectie Phishing phishing (credentials er wordt gestolen)** op Aanval **starten** of klik op **Aanvalsdetails starten.** \> 
+   - Klik in de sectie Speer phishing **(referenties oogst)** op **Aanval starten** of klik **op Aanvalsdetails** \> **starten aanval.**
 
-   - Klik in **de sectie Phishing (bijlage) op** Aanval starten **of** klik op **Aanvalsdetails starten.** \> 
+   - Klik in de sectie Phishing van de speer **(bijlage)** op **Aanval starten of** klik op **Aanvalsdetails** \> **starten.**
 
-3. De **wizard Phishing-aanval** configureren wordt gestart in een nieuwe flyout. Ga in **de stap** Start op een van de volgende stappen te werk:
+3. De **wizard Phishing-aanval** configureren begint in een nieuwe flyout. Ga in **de stap** Start op een van de volgende stappen te werk:
 
-   - Voer in **het** vak Naam een unieke weergavenaam voor de campagne in. Klik niet op **Sjabloon gebruiken,** want u maakt het e-mailbericht later in de wizard.
+   - Voer in **het** vak Naam een unieke weergavenaam voor de campagne in. Klik niet op Sjabloon **gebruiken,** omdat u het e-mailbericht later in de wizard maakt.
 
-   - Klik **op Sjabloon gebruiken** en selecteer een ingebouwde of aangepaste e-mailsjabloon. Nadat u de sjabloon hebt geselecteerd, wordt **het** vak Naam automatisch ingevuld op basis van de sjabloon, maar u kunt de naam wijzigen.
+   - Klik **op Sjabloon gebruiken** en selecteer een ingebouwde of aangepaste e-mailsjabloon. Nadat u de sjabloon hebt geselecteerd, wordt het vak **Naam** automatisch opgevuld op basis van de sjabloon, maar u kunt de naam wijzigen.
 
    > [!div class="mx-imgBorder"]
    > ![Startpagina phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
-   Klik op Volgende wanneer u klaar **bent.**
+   Wanneer u klaar bent, klikt u op **Volgende.**
 
-4. Ga in **de stap Geadresseerden van** het doel op een van de volgende stappen te werk:
+4. Ga in **de stap Doel geadresseerden** op een van de volgende stappen te werk:
 
-   - Klik **op Adresboek** om de geadresseerden (gebruikers of groepen) voor de campagne te selecteren. Elke beoogde geadresseerde moet een Postvak IN van Exchange Online hebben. Als u op **Filteren en** **Toepassen** klikt zonder zoekcriteria in te voeren, worden alle geadresseerden geretourneerd en toegevoegd aan de campagne.
+   - Klik **op Adresboek** om de geadresseerden (gebruikers of groepen) voor de campagne te selecteren. Elke geadresseerde moet een Exchange Online-postvak hebben. Als u op **Filteren en** **Toepassen klikt** zonder een zoekcriteria in te voeren, worden alle geadresseerden geretourneerd en toegevoegd aan de campagne.
 
-   - Klik **op Importeren** en Vervolgens Bestand **importeren** om een bestand met door komma's gescheiden waarden (CSV) of een bestand met e-mailadressen met door komma's gescheiden waarden te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
+   - Klik **op Importeren** en vervolgens **bestand** importeren om een door komma's gescheiden waarde (CSV) of een door regel gescheiden bestand met e-mailadressen te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
 
-   Klik op Volgende wanneer u klaar **bent.**
+   Wanneer u klaar bent, klikt u op **Volgende.**
 
-5. Configureer **de volgende instellingen** in de stap E-maildetails configureren:
+5. Configureer **in de stap E-maildetails** configureren de volgende instellingen:
 
-   Als u in de stap Begin een sjabloon **hebt** geselecteerd, zijn de meeste van deze waarden al geconfigureerd, maar u kunt deze wijzigen.
+   Als u een sjabloon hebt geselecteerd in de **stap Start,** zijn de meeste van deze waarden al geconfigureerd, maar u kunt deze wijzigen.
 
    - **Van (Naam)**: De weergavenaam die wordt gebruikt voor de afzender van het bericht.
 
-   - **Van (E-mail)**: Het e-mailadres van de afzender. U kunt een echt of vervalst e-mailadres invoeren vanuit het e-maildomein van uw organisatie of u kunt een echt of vervalst extern e-mailadres invoeren. Een geldig e-mailadres van de afzender van uw organisatie wordt daadwerkelijk opgelost in de e-mailclient van de geadresseerde.
+   - **Van (e-mail)**: het e-mailadres van de afzender. U kunt een echt of nep-e-mailadres invoeren vanuit het e-maildomein van uw organisatie, of u kunt een echt of nep extern e-mailadres invoeren. Een geldig e-mailadres van de afzender van uw organisatie wordt daadwerkelijk opgelost in de e-mailclient van de geadresseerde.
 
-   - **URL van phishing-aanmeldingsserver:** klik op de vervolgkeuzelijst en selecteer een van de beschikbare URL's in de lijst. Dit is de URL waar gebruikers op kunnen klikken. U hebt de volgende mogelijkheden:
+   - **URL van de phishing-aanmeldingsserver:** Klik op de vervolgkeuzelijst en selecteer een van de beschikbare URL's in de lijst. Dit is de URL waar gebruikers op zullen klikken. De keuzen zijn:
 
      - <http://portal.docdeliveryapp.com>
      - <http://portal.docdeliveryapp.net>
@@ -203,131 +203,131 @@ Als u een van de ingebouwde sjablonen wilt gebruiken of het e-mailbericht rechts
      >
      > - Alle URL's zijn opzettelijk http, niet https.
      >
-     > - Een URL-reputatieservice kan een of meer van deze URL's als onveilig identificeren. Controleer de beschikbaarheid van de URL in de ondersteunde webbrowsers voordat u de URL gebruikt in een phishing-campagne.
+     > - Een URL-reputatieservice kan een of meer van deze URL's als onveilig identificeren. Controleer de beschikbaarheid van de URL in uw ondersteunde webbrowsers voordat u de URL gebruikt in een phishingcampagne.
      >
-     > - U moet een URL selecteren. Voor **Phishing-campagnes (bijlage)** kunt u in de volgende stap de koppeling verwijderen uit de hoofd tekst van het bericht (anders bevat het bericht zowel een koppeling als **een** bijlage).
+     > - U moet een URL selecteren. Voor **phishingcampagnes (bijlage)** kunt u de koppeling in de volgende stap uit de hoofdbeslag van het bericht verwijderen (anders bevat het bericht zowel een **koppeling** als een bijlage).
 
-   - **Type bijlage:** deze instelling is alleen beschikbaar in **Phishing-campagnes (bijlage).** Klik op de vervolgkeuzepagina en selecteer **. DOCX** of **. PDF** uit de lijst.
+   - **Type bijlage:** deze instelling is alleen beschikbaar in **campagnes met Phishing-e-mail (Bijlage).** Klik op de vervolgkeuzekeuze en selecteer **. DOCX** of **. PDF** uit de lijst.
 
-   - **Bijlagenaam:** deze instelling is alleen beschikbaar in **Phishing-campagnes (bijlage).** Voer een bestandsnaam in voor de .docx- of .pdf-bijlage.
+   - **Naam van bijlage:** deze instelling is alleen beschikbaar in **Campagnes voor Phishing van de e-mail (Bijlage).** Voer een bestandsnaam in voor de .docx- of PDF-bijlage.
 
-   - **Aangepaste landingspagina-URL:** voer een optionele landingspagina in waar gebruikers worden geplaatst als ze op de phishing-koppeling klikken en hun referenties invoeren. Deze koppeling vervangt de standaardlandingspagina. Als u bijvoorbeeld een interne informatietraining hebt, kunt u deze URL hier opgeven.
+   - **Aangepaste landingspagina-URL:** Voer een optionele landingspagina in waarin gebruikers worden meegenomen als ze op de phishingkoppeling klikken en hun referenties invoeren. Deze koppeling vervangt de standaard landingspagina. Als u bijvoorbeeld training voor interne bewustmaking hebt, kunt u deze URL hier opgeven.
 
-   - **Onderwerp:** het **veld Onderwerp** van het e-mailbericht.
+   - **Onderwerp:** Het **veld Onderwerp** van het e-mailbericht.
 
-   Klik op Volgende wanneer u klaar **bent.**
+   Wanneer u klaar bent, klikt u op **Volgende.**
 
-6. Maak in **de stap E-mailbericht opstellen** de bericht zelf van het e-mailbericht. Als u in de beginstap een sjabloon **hebt** geselecteerd, is de bericht zelf al geconfigureerd, maar u kunt deze aanpassen. U kunt het tabblad **E-mail** (een uitgebreide HTML-editor) of het **tabblad** Bron (onbewerkte HTML-code) gebruiken.
+6. Maak in **de stap E-mail** opstellen de berichtin body van het e-mailbericht. Als u een sjabloon hebt geselecteerd in de **stap Start,** is de berichtinstelling al geconfigureerd, maar u kunt deze aanpassen. U kunt het tabblad **E-mail** (een uitgebreide HTML-editor) of het **tabblad Bron** (onbewerkte HTML-code) gebruiken.
 
-   De HTML-opmaak kan zo eenvoudig of complex zijn als nodig is. U kunt afbeeldingen en tekst invoegen om de betrouwbaarheid van het bericht te vergroten in de e-mailclient van de geadresseerde.
+   De HTML-opmaak kan zo eenvoudig of complex zijn als u dat nodig hebt. U kunt afbeeldingen en tekst invoegen om de geloofwaardigheid van het bericht in de e-mailclient van de geadresseerde te verbeteren.
 
-   - `${username}` voegt de naam van de geadresseerde in.
+   - `${username}` hiermee voegt u de naam van de geadresseerde in.
 
-   - `${loginserverurl}`de **URL-waarde voor phishing-aanmeldingsserver.**
+   - `${loginserverurl}` hiermee voegt u de **URL-waarde phishing-aanmeldingsserver** in.
 
-   Voor **Phishing-campagnes (bijlage)** moet u de koppeling verwijderen uit de hoofd tekst van  het bericht (anders bevat het bericht zowel een koppeling als een bijlage, en worden klikken op een koppeling niet bij te houden in een bijlagecampagne).
+   Voor **Phishing-campagnes (Bijlage)** moet u de koppeling verwijderen uit de hoofdbeslag van het bericht (anders bevat het bericht zowel een **koppeling** als een bijlage, en worden klikken op koppeling niet bijgeplagd in een bijlagecampagne).
 
    > [!div class="mx-imgBorder"]
-   > ![Bericht zelf opstellen](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
+   > ![E-mail op te stellen](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
 
-   Klik op Volgende wanneer u klaar **bent.**
+   Wanneer u klaar bent, klikt u op **Volgende.**
 
-7. Klik in **de stap** Bevestigen op **Voltooien om** de campagne te starten. Het phishingbericht wordt bezorgd bij de geadresseerden.
+7. Klik in **de stap** Bevestigen op **Voltooien om** de campagne te starten. Het phishingbericht wordt bezorgd bij de beoogde geadresseerden.
 
-## <a name="password-attack-campaigns"></a>Wachtwoord-aanvalcampagnes
+## <a name="password-attack-campaigns"></a>Wachtwoord aanvalscampagnes
 
-Bij *een wachtwoord-aanval* wordt geprobeerd wachtwoorden te raden voor gebruikersaccounts in een organisatie, meestal nadat de aanvaller een of meer geldige gebruikersaccounts heeft geïdentificeerd.
+Met *een wachtwoordaanval* wordt geprobeerd wachtwoorden te raden voor gebruikersaccounts in een organisatie, meestal nadat de aanvaller een of meer geldige gebruikersaccounts heeft geïdentificeerd.
 
-In de Attack Simulator zijn twee verschillende typen campagnes voor wachtwoord-aanvallen beschikbaar om de complexiteit van de wachtwoorden van uw gebruikers te testen:
+In Attack Simulator zijn er twee verschillende typen wachtwoord aanvalscampagnes beschikbaar om de complexiteit van de wachtwoorden van uw gebruikers te testen:
 
-- **Wachtwoord voor een** 1000-wachtwoord  (aanval van woordenlijsten) - Een force of een aanval van een *woordenlijst* maakt gebruik van een groot woordenlijstbestand met wachtwoorden op een gebruikersaccount, in de hoop dat een van deze wachtwoorden zal werken (veel wachtwoorden voor één account). Onjuiste wachtwoordvergrendeling helpt forceer wachtwoordaanvallen.
+- **Brute force password (dictionary attack)**  : Bij een aanval met een brute kracht of woordenlijst wordt een groot woordenlijstbestand met wachtwoorden op een gebruikersaccount gebruikt in de hoop dat een van deze wachtwoorden werkt (veel wachtwoorden voor één account).  Onjuiste wachtwoordvergrendelingen helpen bij het voorkomen van brute force wachtwoordaanvallen.
 
-  Voor de aanval van de woordenlijst kunt u een of meer wachtwoorden opgeven (handmatig ingevoerd of in een geüpload bestand) en u kunt een of meer gebruikers opgeven.
+  Voor de woordenlijst-aanval kunt u een of meer wachtwoorden opgeven om te proberen (handmatig ingevoerd of in een geüpload bestand) en kunt u een of meer gebruikers opgeven.
 
-- **Wachtwoord-aanval:** bij een *wachtwoord-aanval* wordt hetzelfde wachtwoord gebruikt dat zorgvuldig wordt overwogen voor een lijst met gebruikersaccounts (één wachtwoord voor veel accounts). Wachtwoordaanvallen zijn moeilijker te detecteren dan forceer wachtwoordaanvallen (de kans op succes neemt toe wanneer een aanvaller een wachtwoord probeert te doen via tientallen of honderden accounts zonder het risico dat de verkeerde wachtwoordvergrendeling van de gebruiker struikelen).
+- **Wachtwoordinfarct**: Bij een *wachtwoordinfarct* wordt hetzelfde zorgvuldig overwogen wachtwoord gebruikt voor een lijst met gebruikersaccounts (één wachtwoord voor veel accounts). Wachtwoordsproeiaanvallen zijn moeilijker te detecteren dan brute force wachtwoordaanvallen (de kans op succes neemt toe wanneer een aanvaller één wachtwoord probeert op tientallen of honderden accounts zonder dat het risico bestaat dat de gebruiker het onjuiste wachtwoord wordt vergrendeld).
 
-  Voor de wachtwoord-aanval kunt u slechts één wachtwoord opgeven en u kunt een of meer gebruikers opgeven.
+  Voor de wachtwoordinfarct kunt u slechts één wachtwoord opgeven om te proberen en kunt u een of meer gebruikers opgeven.
 
 > [!NOTE]
-> De wachtwoordaanvallen in Attack Simulator geven gebruikersnaam en wachtwoord basic-verificatie door aan een eindpunt, zodat ze ook werken met andere verificatiemethoden (AD FS, wachtwoordhashsynchronisatie, pass-through, PingFederate, enzovoort). Voor gebruikers die MFA hebben ingeschakeld, wordt de poging altijd als een fout geregistreerd, zelfs als de wachtwoord-aanval  het werkelijke wachtwoord probeert uit te voeren (met andere woorden: MFA-gebruikers worden nooit weergegeven in het aantal succesvolle pogingen van de campagne). Dit is het verwachte resultaat. MFA is een primaire methode om u te beschermen tegen wachtwoordaanvallen.
+> De wachtwoordaanvallen in Attack Simulator geven gebruikersnaam en wachtwoord eenvoudige auth-aanvragen door aan een eindpunt, zodat ze ook werken met andere verificatiemethoden (AD FS, wachtwoordhashsynchronisatie, pass-through, PingFederate, enzovoort). Voor gebruikers die MFA hebben ingeschakeld, zelfs als met de wachtwoordaanval het werkelijke wachtwoord wordt geprobeerd, wordt de  poging altijd geregistreerd als een fout (met andere woorden: MFA-gebruikers worden nooit weergegeven in het aantal geslaagde pogingen van de campagne). Dit is het verwachte resultaat. MFA is een primaire methode om u te beschermen tegen wachtwoordaanvallen.
 
-### <a name="create-and-launch-a-password-attack-campaign"></a>Een wachtwoord-aanvalscampagne maken en starten
+### <a name="create-and-launch-a-password-attack-campaign"></a>Een wachtwoord aanvalscampagne maken en starten
 
-1. Ga in het & Compliancecentrum naar **de threat management** Attack \> **simulator.**
+1. Ga in het & Compliance center naar **Threat management** \> **Attack simulator**.
 
-2. Maak op **de pagina** Simuleren aanvallen een van de volgende selecties op basis van het type campagne dat u wilt maken:
+2. Maak op **de** pagina Aanvallen simuleren een van de volgende selecties op basis van het type campagne dat u wilt maken:
 
-   - Klik in **de sectie Force Password (Dictionary Attack)** op Aanval **starten** of klik op **Aanvalsdetails starten.** \> 
+   - Klik in **de sectie Brute Force Password (Dictionary Attack)** op Aanval **starten** of klik op **Aanvalsdetails** \> **starten**.
 
-   - klik in **de sectie Wachtwoord voor een** aanval op Aanval starten **of** klik op **Aanvalsdetails** \> **starten.**
+   - klik in **de sectie Password spray attack** op Aanval starten **of** klik **op Aanvalsdetails** \> **starten.**
 
-3. De **wizard Wachtwoord aanval** configureren wordt gestart in een nieuwe flyout. Voer in **de stap** Start een unieke weergavenaam voor de campagne in en klik op **Volgende.**
+3. De **wizard Wachtwoordinfarct** configureren wordt gestart in een nieuw flyout. Voer in **de stap** Start een unieke weergavenaam voor de campagne in en klik vervolgens op **Volgende.**
 
-4. Ga in de stap **Doelgebruikers** op een van de volgende stappen te werk:
+4. Ga in **de stap Doelgebruikers** op een van de volgende stappen te werk:
 
-   - Klik **op Adresboek** om de geadresseerden (gebruikers of groepen) voor de campagne te selecteren. Elke beoogde geadresseerde moet een Postvak IN van Exchange Online hebben. Als u op **Filteren en** **Toepassen** klikt zonder zoekcriteria in te voeren, worden alle geadresseerden geretourneerd en toegevoegd aan de campagne.
+   - Klik **op Adresboek** om de geadresseerden (gebruikers of groepen) voor de campagne te selecteren. Elke geadresseerde moet een Exchange Online-postvak hebben. Als u op **Filteren en** **Toepassen klikt** zonder een zoekcriteria in te voeren, worden alle geadresseerden geretourneerd en toegevoegd aan de campagne.
 
-   - Klik **op Importeren** en Vervolgens Bestand **importeren** om een bestand met door komma's gescheiden waarden (CSV) of een bestand met e-mailadressen met door komma's gescheiden waarden te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
+   - Klik **op Importeren** en vervolgens **bestand** importeren om een door komma's gescheiden waarde (CSV) of een door regel gescheiden bestand met e-mailadressen te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
 
-   Klik op Volgende wanneer u klaar **bent.**
+   Wanneer u klaar bent, klikt u op **Volgende.**
 
-5. Kies in **de stap Aanvalsinstellingen** kiezen wat u wilt doen op basis van het campagnetype:
+5. Kies in **de stap Aanvalsinstellingen** kiezen wat u moet doen op basis van het campagnetype:
 
-   - **ForceEr wachtwoord (aanval van woordenlijst)**: Ga op een van de volgende stappen te werk:
+   - **Brute Force Password (Dictionary Attack)**: Ga op een van de volgende stappen te werk:
 
-     - **Wachtwoorden handmatig invoeren:** typ een wachtwoord in het vak Druk op **Enter** om een wachtwoord toe te voegen en druk op Enter. Herhaal deze stap zo vaak als nodig is.
+     - **Wachtwoorden handmatig invoeren:** Typ in het vak Druk op **Enter** om een wachtwoord toe te voegen een wachtwoord en druk vervolgens op Enter. Herhaal deze stap zo vaak als nodig is.
 
-     - **Upload wachtwoorden uit een woordenlijstbestand:** klik op Uploaden om een bestaand tekstbestand te importeren dat één wachtwoord op elke regel en een lege laatste regel bevat.  Het tekstbestand mag niet groter zijn dan 10 MB en mag niet meer dan 30.000 wachtwoorden bevatten.
+     - **Wachtwoorden uploaden uit een woordenlijstbestand:** Klik op **Uploaden** om een bestaand tekstbestand te importeren dat één wachtwoord op elke regel en een lege laatste regel bevat. Het tekstbestand moet 10 MB of kleiner zijn en mag niet meer dan 30000 wachtwoorden bevatten.
 
-   - **Wachtwoord-aanval:** voer één wachtwoord **in het wachtwoord(en) in het aanvalsvak** dat moet worden gebruikt.
+   - **Wachtwoordinfarct**: Voer in **Het wachtwoord(en)** dat u wilt gebruiken in het aanvalsvak één wachtwoord in.
 
-   Klik op Volgende wanneer u klaar **bent.**
+   Wanneer u klaar bent, klikt u op **Volgende.**
 
-6. Klik in **de stap** Bevestigen op **Voltooien om** de campagne te starten. De wachtwoorden die u hebt opgegeven, worden beschreven bij gebruikers die u hebt opgegeven.
+6. Klik in **de stap** Bevestigen op **Voltooien om** de campagne te starten. De wachtwoorden die u hebt opgegeven, worden beproefd voor gebruikers die u hebt opgegeven.
 
 ## <a name="view-campaign-results"></a>Campagneresultaten weergeven
 
-Nadat u een campagne hebt gestart, kunt u de voortgang en resultaten controleren op de hoofdpagina **voor het simuleren van** aanvallen.
+Nadat u een campagne hebt gestart, kunt u de voortgang en resultaten controleren op de **hoofdpagina Aanvallen simuleren.**
 
-Actieve campagnes tonen een statusbalk, een voltooid percentage en het aantal (voltooide gebruikers) van (totaal aantal gebruikers). Als u op **de knop** Vernieuwen klikt, wordt de voortgang van alle actieve campagnes bijgewerkt. U kunt ook op **Beëindigen klikken om** een actieve campagne te stoppen.
+In actieve campagnes worden een statusbalk, een voltooid percentage en '(voltooide gebruikers) van (totaal aantal gebruikers)' geteld. Als u op **de knop** Vernieuwen klikt, wordt de voortgang van actieve campagnes bijgewerkt. U kunt ook op **Beëindigen klikken om** een actieve campagne te stoppen.
 
-Wanneer de campagne is voltooid, wordt de status gewijzigd in **Aanval voltooid.** U kunt de resultaten van de campagne weergeven door een van de volgende acties uit te voeren:
+Wanneer de campagne is voltooid, wordt de status gewijzigd in **Aanval voltooid.** U kunt de resultaten van de campagne bekijken door een van de volgende acties uit te voeren:
 
-- Klik op de **hoofdpagina voor** het simuleren van aanvallen op **Rapport** weergeven onder de naam van de campagne.
+- Klik op de **hoofdpagina Aanvallen simuleren** op **Rapport weergeven** onder de naam van de campagne.
 
-- Klik op de **hoofdpagina voor het** simuleren van aanvallen op **Details** van aanvallen in de sectie voor het type aanval. Op de **pagina Details van aanval** die wordt geopend, selecteert u de campagne in de sectie **Aanvalsgeschiedenis.**
+- Klik op de **hoofdpagina Aanvallen simuleren** op **Details van** aanvallen in de sectie voor het type aanval. Selecteer op de pagina Aanvalsdetails die wordt geopend de campagne in **de sectie Aanvalsgeschiedenis.** 
 
-Met een van de vorige acties gaat u naar een pagina met de naam **Details van aanval.** De informatie die beschikbaar is op deze pagina voor elk type campagne, wordt beschreven in de volgende secties.
+Met een van de vorige acties gaat u naar een pagina met de naam **Details van de aanval.** De informatie die beschikbaar is op deze pagina voor elk type campagne, wordt beschreven in de volgende secties.
 
-### <a name="spear-phishing-credentials-harvest-campaign-results"></a>Phishing-campagneresultaten (referenties, campagneresultaten)
+### <a name="spear-phishing-credentials-harvest-campaign-results"></a>Campagneresultaten van De phishing van de speer (Referenties oogst)
 
-De volgende informatie is beschikbaar op de **pagina met details over** aanvallen voor elke campagne:
+De volgende informatie is beschikbaar op de **pagina Details van de aanval** voor elke campagne:
 
-- De duur (begindatum/-tijd en einddatum/-tijd) van de campagne.
+- De duur (begindatum/tijd en einddatum/tijd) van de campagne.
 
-- **Totaal aantal gerichte gebruikers**
+- **Totaal aantal gebruikers dat is gericht**
 
-- **Geslaagde pogingen:** het aantal gebruikers dat  op de koppeling heeft geklikt en hun referenties *(elke* gebruikersnaam en wachtwoordwaarde) heeft ingevoerd.
+- **Geslaagde pogingen:** het aantal gebruikers dat op de koppeling heeft geklikt **en** hun referenties heeft ingevoerd *(elke* gebruikersnaam en wachtwoordwaarde).
 
-- **Overall Success Rate:** A percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
+- **Algehele slagingspercentage:** een percentage dat wordt berekend door **Succesvolle pogingen** Totaal aantal  /  **beoogde gebruikers.**
 
-- **Snelste klik:** de eerste gebruiker heeft na het starten van de campagne op de koppeling geklikt.
+- **Snelste klik:** hoe lang het duurde voordat de eerste gebruiker op de koppeling klikt nadat u de campagne hebt gestart.
 
-- **Gemiddelde klikken:** de som van de tijd die iedereen heeft genomen om op de koppeling te klikken, gedeeld door het aantal gebruikers dat op de koppeling heeft geklikt.
+- **Gemiddelde klik:** de som van hoe lang het duurde voordat iedereen op de koppeling klikt, gedeeld door het aantal gebruikers dat op de koppeling heeft geklikt.
 
-- **Klik op Succespercentage:** een percentage dat wordt berekend door (het aantal gebruikers dat op de koppeling heeft geklikt) / het totale aantal gebruikers dat op de koppeling **heeft geklikt.**
+- **Klik op Slagingspercentage:** een percentage dat wordt berekend op basis van (het aantal gebruikers dat op de koppeling heeft geklikt) / **Totaal aantal gebruikers dat is getarget.**
 
-- **Snelste referenties:** hoe lang het de eerste gebruiker heeft nodig om zijn of haar referenties in te voeren na het starten van de campagne.
+- **Snelste referenties:** Hoe lang het duurde voordat de eerste gebruiker zijn of haar referenties invoerde nadat u de campagne hebt gestart.
 
-- **Gemiddelde referenties:** de som van de tijd die iedereen nodig had om zijn of haar referenties in te voeren, gedeeld door het aantal gebruikers dat de referenties heeft ingevoerd.
+- **Gemiddelde referenties:** de som van de tijd die iedereen nodig heeft om zijn of haar referenties in te voeren, gedeeld door het aantal gebruikers dat zijn of haar referenties heeft ingevoerd.
 
-- **Referentiepercentage:** een percentage dat wordt berekend door (het aantal gebruikers dat hun referenties heeft ingevoerd) / **Totaal aantal gebruikers dat is gericht.**
+- **Succespercentage referenties:** een percentage dat wordt berekend op basis van (het aantal gebruikers dat hun referenties heeft ingevoerd) / **Totaal aantal gebruikers dat is getarget.**
 
-- A bar graph that shows the **Link clicked** and **Credential supplie numbers** per day.
+- Een staafdiagram met de **door koppeling geklikte** en **opgegeven** referenties per dag.
 
-- Een cirkeldiagram met de koppeling **klik** **op** de opgegeven referenties en geen **percentages** voor de campagne.
+- Een cirkeldiagram met de **gekoppelde** klik , **opgegeven** referenties en **Geen** percentages voor de campagne.
 
-- In **de sectie Gekromde** gebruikers worden de details vermeld van de gebruikers die op de koppeling hebben geklikt:
+- De **sectie Gecompromitteerde** gebruikers bevat de details van de gebruikers die op de koppeling hebben geklikt:
 
   - Het e-mailadres van de gebruiker
 
@@ -335,50 +335,50 @@ De volgende informatie is beschikbaar op de **pagina met details over** aanvalle
 
   - Het IP-adres van de client.
 
-  - Meer informatie over de versie van de gebruiker van Windows en de webbrowser.
+  - Details over de versie van Windows en de webbrowser van de gebruiker.
 
-  U kunt op **Exporteren klikken** om de resultaten te exporteren naar een CSV-bestand.
+  U kunt op **Exporteren klikken** om de resultaten naar een CSV-bestand te exporteren.
 
-### <a name="spear-phishing-attachment-campaign-results"></a>Phishing-campagneresultaten (bijlage)
+### <a name="spear-phishing-attachment-campaign-results"></a>Campagneresultaten van De phishing-campagne (Bijlage) van De speer
 
-De volgende informatie is beschikbaar op de **pagina met details over** aanvallen voor elke campagne:
+De volgende informatie is beschikbaar op de **pagina Details van de aanval** voor elke campagne:
 
-- De duur (begindatum/-tijd en einddatum/-tijd) van de campagne.
+- De duur (begindatum/tijd en einddatum/tijd) van de campagne.
 
-- **Totaal aantal gerichte gebruikers**
+- **Totaal aantal gebruikers dat is gericht**
 
-- **Geslaagde pogingen:** het aantal gebruikers dat de bijlage heeft geopend of gedownload en geopend (preview telt niet).
+- **Geslaagde pogingen:** het aantal gebruikers dat de bijlage heeft geopend of gedownload en geopend (voorbeeld telt niet).
 
-- **Overall Success Rate:** A percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
+- **Algehele slagingspercentage:** een percentage dat wordt berekend door **Succesvolle pogingen** Totaal aantal  /  **beoogde gebruikers.**
 
-- **Snelste tijd bij het openen van** bijlagen: hoe lang het de eerste gebruiker duurde om de bijlage te openen na het starten van de campagne.
+- **Snelste geopende bijlage:** Hoe lang het duurde voordat de eerste gebruiker de bijlage heeft geopend nadat u de campagne hebt gestart.
 
-- **Gemiddelde open tijd voor bijlagen:** de som van de tijd die iedereen nodig had om de bijlage te openen, gedeeld door het aantal gebruikers dat de bijlage heeft geopend.
+- **Gemiddelde opentijd van bijlage:** de som van de tijd die iedereen nodig had om de bijlage te openen, gedeeld door het aantal gebruikers dat de bijlage heeft geopend.
 
-- **Succespercentage van geopende bijlage:** een percentage dat wordt berekend door (het aantal gebruikers dat de bijlage heeft geopend) / Het totale aantal gebruikers dat de bijlage **heeft geopend.**
+- **Aantal geopende bijlagen:** een percentage dat wordt berekend op basis van (het aantal gebruikers dat de bijlage heeft geopend) / **Het totale aantal gebruikers dat is getarget.**
 
-### <a name="brute-force-password-dictionary-attack-campaign-results"></a>Campagneresultaten voor Het wachtwoord voor een forceer woordenlijst
+### <a name="brute-force-password-dictionary-attack-campaign-results"></a>Campagneresultaten van Brute Force Password (Dictionary Attack)
 
-De volgende informatie is beschikbaar op de **pagina met details over** aanvallen voor elke campagne:
+De volgende informatie is beschikbaar op de **pagina Details van de aanval** voor elke campagne:
 
-- De duur (begindatum/-tijd en einddatum/-tijd) van de campagne.
+- De duur (begindatum/tijd en einddatum/tijd) van de campagne.
 
-- **Totaal aantal gerichte gebruikers**
+- **Totaal aantal gebruikers dat is gericht**
 
 - **Geslaagde pogingen:** het aantal gebruikers dat een van de opgegeven wachtwoorden heeft gebruikt.
 
-- **Overall Success Rate:** A percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
+- **Algehele slagingspercentage:** een percentage dat wordt berekend door **Succesvolle pogingen** Totaal aantal  /  **beoogde gebruikers.**
 
-- In **de sectie Gekromde** gebruikers worden de e-mailadressen van de betrokken gebruikers vermeld. U kunt op **Exporteren klikken** om de resultaten te exporteren naar een CSV-bestand.
+- De **sectie Gecompromitteerde** gebruikers bevat de e-mailadressen van de getroffen gebruikers. U kunt op **Exporteren klikken** om de resultaten naar een CSV-bestand te exporteren.
 
-### <a name="password-spray-attack-campaign-results"></a>Resultaten van wachtwoord-aanvalscampagne
+### <a name="password-spray-attack-campaign-results"></a>Campagneresultaten met wachtwoordsproeiactie
 
-De volgende informatie is beschikbaar op de **pagina met details over** aanvallen voor elke campagne:
+De volgende informatie is beschikbaar op de **pagina Details van de aanval** voor elke campagne:
 
-- De duur (begindatum/-tijd en einddatum/-tijd) van de campagne.
+- De duur (begindatum/tijd en einddatum/tijd) van de campagne.
 
-- **Totaal aantal gerichte gebruikers**
+- **Totaal aantal gebruikers dat is gericht**
 
 - **Geslaagde pogingen:** het aantal gebruikers dat het opgegeven wachtwoord heeft gebruikt.
 
-- **Overall Success Rate:** A percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
+- **Algehele slagingspercentage:** een percentage dat wordt berekend door **Succesvolle pogingen** Totaal aantal  /  **beoogde gebruikers.**

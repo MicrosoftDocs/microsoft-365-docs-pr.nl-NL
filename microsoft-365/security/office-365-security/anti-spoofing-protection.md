@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2b20ae766ee308e9c59ed0d495df7c5a97c79b00
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1d048a65b34bc97a619855216945d1cc988bf9e2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287063"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921382"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -94,7 +94,7 @@ Microsoft maakt onderscheid tussen twee verschillende typen adresvervalsingberic
   - De afzender en de ontvanger bevinden zich in de subdomeinen van hetzelfde domein:
     > Van: laura@marketing.fabrikam.com <br> Aan: julia@engineering.fabrikam.com
 
-  - De afzender en de ontvanger bevinden zich in verschillende domeinen van dezelfde organisatie (dat wil zeggen: beide domeinen zijn geconfigureerd als [geaccepteerde domeinen](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) in dezelfde organisatie):
+  - De afzender en de ontvanger bevinden zich in verschillende domeinen van dezelfde organisatie (dat wil zeggen: beide domeinen zijn geconfigureerd als [geaccepteerde domeinen](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) in dezelfde organisatie):
     > Van: sender @ microsoft.com <br> Aan: geadresseerde @ bing.com
 
     In de e-mailadressen worden spaties gebruikt om kopiëren door spambots te voorkomen.
@@ -150,7 +150,7 @@ Voer de volgende stappen uit, afhankelijk van of u de mailinglijst beheert, om e
 
   - Bekijk de veelgestelde vragen op DMARC.org: [Ik heb een adressenlijst en ik wil samenwerken met DMARC, wat moet ik doen?](https://dmarc.org/wiki/FAQ#I_operate_a_mailing_list_and_I_want_to_interoperate_with_DMARC.2C_what_should_I_do.3F)
 
-  - Lees de instructies in dit blogbericht: [Een tip voor adressenlijstbeheerders om samen te werken met DMARC om fouten te voorkomen](https://blogs.msdn.microsoft.com/tzink/2017/03/22/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures/).
+  - Lees de instructies in dit blogbericht: [Een tip voor adressenlijstbeheerders om samen te werken met DMARC om fouten te voorkomen](/archive/blogs/tzink/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures).
 
   - Als u updates op de adressenlijstserver wilt installeren om ARC te ondersteunen, raadpleegt u <http://arc-spec.org>.
 

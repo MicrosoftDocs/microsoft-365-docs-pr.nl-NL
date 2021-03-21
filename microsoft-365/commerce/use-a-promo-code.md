@@ -23,33 +23,33 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
-description: Leer hoe u een promotiecode toepast op uw Microsoft 365-abonnement, zodat u de prijs kunt verlagen en de promotiecode kunt oplossen als u een foutmelding krijgt.
-ms.openlocfilehash: 09f39b6f82153c6b23525ab41cfb94e77437d062
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Lees hoe u een promotiecode kunt toepassen op uw Microsoft 365-abonnement om de prijs te verlagen en hoe u problemen kunt oplossen met promotiecode in geval van een fout.
+ms.openlocfilehash: c526d5fd44db5e653f79c4987a35c72cdd6fdcad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646737"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921754"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>Uw promotiecode gebruiken om de prijs te verlagen
 
-Wanneer u een abonnement koopt, kunt u een promotiecode gebruiken om de prijs te verlagen. Lees dit artikel voor meer informatie over het toepassen van een promotiecode op uw abonnement, voor meer informatie over de [voorwaarden van de promotiecode](#promo-code-terms)en het [oplossen van promotie codes](#troubleshooting-promo-codes).
+Wanneer u een abonnement koopt, kunt u een promotiecode gebruiken om de prijs te verlagen. Lees dit artikel voor meer informatie over het toepassen van een promotiecode op uw abonnement, voor meer informatie over de [voorwaarden](#promo-code-terms)voor promotiecodes en voor Problemen met [promotiecodes](#troubleshooting-promo-codes)oplossen.
   
 ## <a name="apply-a-promo-code-to-your-subscription"></a>Een promotiecode toepassen op een abonnement
 
-1. Begin uw aankoop door een nieuw abonnement aan te schaffen of door services toe te voegen aan een bestaand abonnement.
+1. Begin uw aankoop door een nieuw abonnement te kopen of door services toe te voegen aan een bestaand abonnement.
     
-2. Wanneer u uitcheckt, kiest u * * een actie-of kortingscode? en voert u de code in het vak in. 
+2. Wanneer u uitcheckt, kiest u **Hebt u een promotie- of kortingscode? en typt u de code in het vak. 
   
-3. Selecteer **promotiecode toepassen**. U ziet een bevestiging dat de toepassing is uitgevoerd. Als een ander bericht wordt weergegeven, raadpleegt u [Problemen met promotiecodes oplossen](#troubleshooting-promo-codes) om de reden daarvoor te achterhalen. 
+3. Selecteer **Promotiecode toepassen.** U ziet een bevestiging dat het is toegepast. Als een ander bericht wordt weergegeven, raadpleegt u [Problemen met promotiecodes oplossen](#troubleshooting-promo-codes) om de reden daarvoor te achterhalen. 
     
-4. Doorgaan met uitchecken. Op de pagina orderbevestiging ziet u de kortingscode die bij het bedrag is inbegrepen. 
+4. Ga door met uitchecken. Op de pagina orderbevestiging ziet u de kortingscode die bij het bedrag is inbegrepen. 
     
-Wanneer de aankoop is voltooid, wordt de korting van uw promotiecode op de factuur weergegeven. Zie [uw weergeven](billing-and-payments/view-your-bill-or-invoice.md)voor meer informatie.
+Wanneer de aankoop is voltooid, wordt de korting van uw promotiecode op de factuur weergegeven. Zie Uw [.](billing-and-payments/view-your-bill-or-invoice.md)
   
 ## <a name="promo-code-terms"></a>Voorwaarden van promotiecodes
 
-De volgende richtlijnen zijn van toepassing op promotie codes voor Microsoft 365 voor bedrijven-abonnementen.
+De volgende richtlijnen zijn van toepassing op promotiecodes voor Microsoft 365 voor Bedrijven-abonnementen.
   
 - **Aantal promotiecodes per abonnement** U kunt een promotiecode gebruiken voor meerdere abonnementen in dezelfde bestelling, maar het is niet mogelijk om meerdere promotiecodes voor hetzelfde abonnement te gebruiken. 
     
@@ -73,8 +73,8 @@ Als er na het invoeren van een promotiecode een foutbericht wordt weergegeven, k
   
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Een abonnement kopen vanuit uw gratis proefversie](buy-a-subscription-from-your-free-trial.md)
+[Een abonnement kopen vanuit uw gratis proefversie](./try-or-buy-microsoft-365.md)
   
-[Nog een abonnement kopen](buy-another-subscription.md)
+[Nog een abonnement kopen](./try-or-buy-microsoft-365.md)
   
 [Een invoegtoepassing kopen of bewerken](buy-or-edit-an-add-on.md)

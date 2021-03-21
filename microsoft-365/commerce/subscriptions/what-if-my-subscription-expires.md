@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Lees wat er gebeurt met uw gegevens als uw abonnement op Microsoft 365 voor Bedrijven verloopt of is uitgeschakeld of als u het abonnement opzegt.
-ms.openlocfilehash: a9e2e68c0eee119126af93552a50f1859f708c1f
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 7560e715a9b1951915866f96c8df3bd1f884a475
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741355"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921814"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?
 
 Als uw abonnement stopt, omdat dit verloopt of omdat u dit opzegt, doorlopen uw klantgegevens en uw toegang tot Microsoft 365-services en -toepassingen meerdere fasen voordat het abonnement volledig wordt beëindigd, of *verwijderd*. Als u zich hiervan bewust bent, kunt u uw abonnement weer op tijd activeren voordat u alles kwijt bent of, als u Microsoft 365 niet meer wilt gebruiken, een back-up maken van uw gegevens voordat deze uiteindelijk worden verwijderd.
 
-Lees deze belangrijke informatie voordat u contact opneemt met [ondersteuning van Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
+Lees deze belangrijke informatie voordat u contact opneemt met [ondersteuning van Microsoft 365](../../admin/contact-support-for-business-products.md).
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>Wat gebeurt er met gegevens wanneer een abonnement verloopt?
 
@@ -51,7 +51,7 @@ In de volgende tabel ziet u wat u kunt verwachten als een betaald abonnement op 
 *Voor de meeste aanbiedingen, in de meeste landen en regio's.
   
 > [!NOTE]
-> **Wat zijn 'klantgegevens'?** Klantgegevens, zoals gedefinieerd in de [voorwaarden voor Microsoft-onlineservices](https://go.microsoft.com/fwlink/p/?LinkId=613649), verwijst naar alle gegevens, inclusief alle tekst-, geluid- of afbeeldingsbestanden, die aan Microsoft worden geleverd door of namens een klant door het gebruik van de klant van de Microsoft 365-services. Meer informatie over de bescherming van klantgegevens kunt u vinden in [Aan de slag met de Microsoft Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal).
+> **Wat zijn 'klantgegevens'?** Klantgegevens, zoals gedefinieerd in de [voorwaarden voor Microsoft-onlineservices](https://go.microsoft.com/fwlink/p/?LinkId=613649), verwijst naar alle gegevens, inclusief alle tekst-, geluid- of afbeeldingsbestanden, die aan Microsoft worden geleverd door of namens een klant door het gebruik van de klant van de Microsoft 365-services. Meer informatie over de bescherming van klantgegevens kunt u vinden in [Aan de slag met de Microsoft Service Trust Portal](../../compliance/get-started-with-service-trust-portal.md).
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>Wat gebeurt er als ik een abonnement opzeg?
 
@@ -210,13 +210,13 @@ Wanneer uw proefabonnement afloopt, kunt u Microsoft 365 niet meer gratis gebrui
 
 ::: moniker range="o365-worldwide"
 
-- **Microsoft 365 kopen.** Als uw proefabonnement verloopt, wordt een respijtperiode gestart, waardoor u nog 30 dagen (voor de meeste proefabonnementen en in de meeste landen en regio's) de tijd hebt om Microsoft 365 te kopen. Zie [De proefversie van Microsoft 365 voor Bedrijven kopen](../buy-a-subscription-from-your-free-trial.md) voor meer informatie over het omzetten van een proefabonnement in een betaald abonnement.
+- **Microsoft 365 kopen.** Als uw proefabonnement verloopt, wordt een respijtperiode gestart, waardoor u nog 30 dagen (voor de meeste proefabonnementen en in de meeste landen en regio's) de tijd hebt om Microsoft 365 te kopen. Zie [De proefversie van Microsoft 365 voor Bedrijven kopen](../try-or-buy-microsoft-365.md) voor meer informatie over het omzetten van een proefabonnement in een betaald abonnement.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-- **Microsoft 365 kopen.** Als uw proefabonnement verloopt, wordt een respijtperiode gestart, waardoor u nog 30 dagen (voor de meeste proefabonnementen en in de meeste landen en regio's) de tijd hebt om Microsoft 365 te kopen. Zie [De proefversie van Microsoft 365 voor Bedrijven kopen](../buy-a-subscription-from-your-free-trial.md) voor meer informatie over het omzetten van een proefabonnement in een betaald abonnement.
+- **Microsoft 365 kopen.** Als uw proefabonnement verloopt, wordt een respijtperiode gestart, waardoor u nog 30 dagen (voor de meeste proefabonnementen en in de meeste landen en regio's) de tijd hebt om Microsoft 365 te kopen. Zie [De proefversie van Microsoft 365 voor Bedrijven kopen](../try-or-buy-microsoft-365.md) voor meer informatie over het omzetten van een proefabonnement in een betaald abonnement.
 
 ::: moniker-end
 
@@ -235,7 +235,6 @@ Wanneer uw proefabonnement afloopt, kunt u Microsoft 365 niet meer gratis gebrui
 
 ## <a name="related-content"></a>Verwante onderwerpen 
 
-[Uw abonnement opzeggen](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription) (artikel)\
-[Microsoft 365 voor bedrijven verlengen](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription) (artikel)\
-[Uw abonnement opnieuw activeren](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription) (artikel)
-
+[Uw abonnement opzeggen](./cancel-your-subscription.md) (artikel)\
+[Microsoft 365 voor bedrijven verlengen](./renew-your-subscription.md) (artikel)\
+[Uw abonnement opnieuw activeren](./reactivate-your-subscription.md) (artikel)

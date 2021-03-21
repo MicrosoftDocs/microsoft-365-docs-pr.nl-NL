@@ -1,5 +1,5 @@
 ---
-title: Wereldwijd optimaliseren van Microsoft 365 voor gebruikers van China
+title: Microsoft 365 global tenant performance optimization for China users
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -12,66 +12,65 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - remotework
-- m365initiative-coredeploy
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Dit artikel bevat richtlijnen voor het optimaliseren van de prestaties van het netwerk voor Chinese gebruikers van globale Microsoft 365-tenants.
-ms.openlocfilehash: 9b397e60b4a3b80563ed31731a6f7aa8e0bdab7f
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+description: Dit artikel bevat richtlijnen voor het optimaliseren van netwerkprestaties voor China-gebruikers van globale Microsoft 365-tenants.
+ms.openlocfilehash: 2ba0509425b60aec35d29b23b84e3b6346d2f5cb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456361"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923192"
 ---
-# <a name="microsoft-365-global-tenant-performance-optimization-for-china-users"></a>Wereldwijd optimaliseren van Microsoft 365 voor gebruikers van China
+# <a name="microsoft-365-global-tenant-performance-optimization-for-china-users"></a>Microsoft 365 global tenant performance optimization for China users
 
 >[!IMPORTANT]
->Deze instructies zijn specifiek voor gebruiksscenario's waarin **Microsoft 365-gebruikers in China in China** verbinding maken met een **globale Microsoft 365-Tenant**. Deze richtlijnen gelden **niet** voor tenants in Office 365, beheerd door 21vianet.
+>Deze richtlijnen zijn specifiek voor gebruiksscenario's waarin zakelijke **Microsoft 365-gebruikers in China** verbinding maken met een globale Microsoft **365-tenant.** Deze richtlijn is **niet van** toepassing op tenants in Office 365 beheerd door 21Vianet.
 
-Voor ondernemingen met een wereldwijde Microsoft 365-Tenant en een bedrijfs aanwezigheid in China kunnen de client prestaties van Microsoft 365 voor gebruikers met China ingewikkeld zijn met unieke factoren voor de Internet architectuur van China telco.
+Voor ondernemingen met globale Microsoft 365-tenants en een aanwezigheid van bedrijven in China kunnen de prestaties van microsoft 365-client voor gebruikers in China worden bemoeilijkt door factoren die uniek zijn voor de internetarchitectuur van China Telco.
 
-China-aanbieders hebben gereglementeerde verbindingen met het wereldwijde openbare Internet doorlopen via verbindings systemen die gevoelig zijn voor zeer grote hoeveelheden netwerkcongestie. Met deze congestie wordt pakketverlies en latentie gemaakt voor alle Internet verkeer dat naar en uit China overgaat.
+China ISP's hebben offshoreverbindingen met het wereldwijde openbare internet geregeld die door perimeterapparaten gaan die gevoelig zijn voor hoge niveaus van congestie van het grensoverschrijdende netwerk. Deze congestie zorgt voor pakketverlies en latentie voor al het internetverkeer dat china binnen en buiten gaat.
 
-![Microsoft 365-verkeer-niet geoptimaliseerd](../media/O365-networking/China-O365-unoptimized.png)
+![Microsoft 365-verkeer - niet-geoptimiseerd](../media/O365-networking/China-O365-unoptimized.png)
 
-Pakketverlies en latentie zijn nadelig voor de prestaties van netwerkservices, met name services waarvoor grote Data Exchange (zoals grote bestandsoverdracht) of de nabije realtime-prestaties (audio-en videotoepassingen) is vereist.
+Pakketverlies en latentie zijn nadelig voor de prestaties van netwerkservices, met name services waarvoor grote gegevensuitwisselingen nodig zijn (zoals grote bestandsoverdrachten) of die bijna realtime prestaties vereisen (audio- en videotoepassingen).
 
-Het doel van dit onderwerp is het verschaffen van aanbevolen procedures voor het beperken van de impact van het grensoverschrijdende netwerk van China met congestie van Microsoft 365-Services. Dit onderwerp verhelpt niet bij veelvoorkomende problemen met de laatste kilometer, zoals problemen met een hoge pakket latentie vanwege ingewikkelde routering binnen China-vervoerders.
+Het doel van dit onderwerp is om best practices te bieden voor het beperken van de gevolgen van grensoverschrijdende netwerkcongestie in China voor Microsoft 365-services. Dit onderwerp heeft geen betrekking op andere veelvoorkomende prestatieproblemen op de laatste kilometer, zoals problemen met hoge pakketlatentie als gevolg van complexe routering binnen Chinese providers.
 
 ## <a name="corporate-network-best-practices"></a>Best practices voor bedrijfsnetwerk
 
-In het algemeen is een groot aantal ondernemingen met algemene Microsoft 365-tenants en gebruikers in China in China persoonlijke netwerken met een zakelijk netwerkverkeer tussen de kantoorruimten en offshore-locaties in China ter wereld. Deze ondernemingen kunnen de netwerkinfrastructuur benutten om te voorkomen dat er grensoverschrijdende netwerkcongestie overgaat en de prestaties van de Microsoft 365-service in China optimaliseren.
+Veel ondernemingen met globale Microsoft 365-tenants en gebruikers in China hebben privénetwerken geïmplementeerd die bedrijfsnetwerkverkeer tussen China-kantoorlocaties en offshorelocaties over de hele wereld uitvoeren. Deze ondernemingen kunnen gebruikmaken van deze netwerkinfrastructuur om grensoverschrijdende netwerkcongestie te voorkomen en de prestaties van de Microsoft 365-service in China te optimaliseren.
 
 >[!IMPORTANT]
->Net als met alle persoonlijke WAN-implementaties moet u altijd de wettelijke vereisten voor uw land en/of regio raadplegen om ervoor te zorgen dat uw netwerkconfiguratie wordt nageleefd.
+>Net als bij alle private WAN-implementaties, moet u altijd de wettelijke vereisten voor uw land en/of regio raadplegen om ervoor te zorgen dat de netwerkconfiguratie voldoet.
 
-Als eerste stap is het van essentieel belang dat u de richtlijnen [voor netwerk planning en prestaties optimaliseren voor Microsoft 365](https://aka.ms/tune). Het belangrijkste doel is om te voorkomen dat u toegang krijgt tot de wereldwijde Microsoft 365-services van Internet in China, indien mogelijk.
+Als eerste stap is het van essentieel belang dat u onze benchmarknetwerk richtlijnen volgt voor netwerkplanning en [prestatieafstemming voor Microsoft 365.](./network-planning-and-performance.md) Het primaire doel moet zijn om zo mogelijk geen toegang te krijgen tot globale Microsoft 365-services vanaf internet in China.
 
-- Gebruik uw bestaande, persoonlijke netwerk voor het gebruik van Microsoft 365-netwerkverkeer tussen Office-netwerken en offshore-locaties die worden uitgevoerd op het openbare Internet buiten China. Bijna elke locatie buiten China biedt een duidelijk voordeel. Netwerkbeheerders kunnen egressing in gebieden met een lage latentie-verbinding met het [Microsoft Global-netwerk](https://docs.microsoft.com/azure/networking/microsoft-global-network)verder optimaliseren. Hong Kong, Japan en Zuid-Korea zijn voorbeelden.
-- Configureer gebruikers apparaten om toegang te krijgen tot het bedrijfsnetwerk via een VPN-verbinding om Microsoft 365-verkeer toe te staan voor het doorgeven van de privé offshore-koppeling van het bedrijfsnetwerk. Zorg ervoor dat VPN-clients niet zijn geconfigureerd voor het gebruik van gesplitste tunneling of dat gebruikers apparaten zodanig zijn geconfigureerd dat gesplitste tunneling voor Microsoft 365-verkeer wordt genegeerd.
-- Configureer uw netwerk voor het routeren van alle Microsoft 365-verkeer via de persoonlijke offshore-koppeling. Als u het volume van het verkeer op uw persoonlijke koppeling moet minimaliseren, kunt u ervoor kiezen om eindpunten alleen te routeren in de categorie **optimaliseren** , zodat aanvragen en **standaard** eindpunten alleen op **Internet kunnen worden** getransporteerd. Hiermee kunt u de prestaties verbeteren en het bandbreedteverbruik minimaliseren door geoptimaliseerd verkeer te beperken tot kritieke services die het meest gevoelig zijn voor hoge latentie en pakketverlies.
-- Gebruik, indien mogelijk, UDP in plaats van TCP voor Live Media Streaming Traffic, zoals voor teams. UDP biedt betere prestaties voor de mediastreaming van live media dan TCP.
+- Maak gebruik van uw bestaande privénetwerk om Microsoft 365-netwerkverkeer te voeren tussen Office-netwerken in China en offshorelocaties die buiten China op het openbare internet komen. Vrijwel elke locatie buiten China biedt een duidelijk voordeel. Netwerkbeheerders kunnen verder optimaliseren door uit te gaan in gebieden met een lage latentie interconnect met het [globale Microsoft-netwerk.](/azure/networking/microsoft-global-network) Hongkong, Japan en Zuid-Korea zijn voorbeelden.
+- Configureer gebruikersapparaten om via een VPN-verbinding toegang te krijgen tot het bedrijfsnetwerk, zodat Microsoft 365-verkeer de private offshore-koppeling van het bedrijfsnetwerk kan doorvoeren. Zorg ervoor dat VPN-clients niet zijn geconfigureerd voor het gebruik van gesplitste tunneling of dat gebruikersapparaten zijn geconfigureerd om gesplitste tunneling voor Microsoft 365-verkeer te negeren.
+- Configureer uw netwerk om al het Microsoft 365-verkeer via uw privé-offshorekoppeling te laten lopen. Als u het volume van het verkeer op uw privékoppeling moet minimaliseren, kunt u ervoor  kiezen  om alleen eindpunten te routen in de categorie Optimaliseren en toestaan dat aanvragen voor Toegestane en Standaard-eindpunten via internet worden doorgeleid.  Dit verbetert de prestaties en minimaliseert het bandbreedteverbruik door geoptimaliseerd verkeer te beperken tot kritieke services die het meest gevoelig zijn voor hoge latentie en pakketverlies.
+- Gebruik indien mogelijk UDP in plaats van TCP voor live mediastreamingverkeer, zoals voor Teams. UDP biedt betere live mediastreamingprestaties dan TCP.
 
-Zie [Office 365-eindpunten beheren](managing-office-365-endpoints.md)voor informatie over het selectief routeren van microsoft 365. Zie [url's en IP-](urls-and-ip-address-ranges.md)adresbereiken voor Office 365 voor een lijst met alle wereldwijde Office 365-url's en IP-adressen.
+Zie Office 365-eindpunten beheren voor informatie over het selectief doorsturen van Microsoft [365-verkeer.](managing-office-365-endpoints.md) Zie URL's en IP-adresbereiken van [Office 365](urls-and-ip-address-ranges.md)voor een lijst met alle url's en IP-adressen over de hele wereld.
 
-![Microsoft 365-verkeer-geoptimaliseerd](../media/O365-networking/China-O365-optimized.png)
+![Microsoft 365-verkeer - geoptimaliseerd](../media/O365-networking/China-O365-optimized.png)
 
-## <a name="user-best-practices"></a>Aanbevolen procedures voor gebruikers
+## <a name="user-best-practices"></a>Best practices voor gebruikers
 
-Gebruikers in China die via externe locaties, zoals woningen, cafés, hotels, hotels en filialen, geen verbinding kunnen 365 maken met Enterprise-netwerken, kunnen de prestaties van het netwerk nadelig beïnvloeden omdat verkeer tussen hun apparaten en Microsoft 365 de getransporteerde cross-border van China mag passeren.
+Gebruikers in China die verbinding maken met globale Microsoft 365-tenants vanaf externe locaties, zoals huizen, coffeeshops, hotels en filialen zonder verbinding met bedrijfsnetwerken, kunnen slechte netwerkprestaties ervaren, omdat het verkeer tussen hun apparaten en Microsoft 365 de overbelaste grensoverschrijdende netwerkcircuits van China moet doorvoeren.
 
-Als u geen gebruik kunt maken van persoonlijke netwerken van het soort VPN en/of VPN-verbinding in het bedrijfsnetwerk, kunt u nog steeds problemen met de prestaties van de gebruikers op basis van uw op China gebaseerde gebruikers ondervinden om deze aanbevolen procedures te volgen.
+Als grensoverschrijdende privénetwerken en/of VPN-toegang tot het bedrijfsnetwerk geen optie zijn, kunnen prestatieproblemen per gebruiker nog steeds worden beperkt door uw in China gevestigde gebruikers op te trainen om deze best practices te volgen.
 
-- Gebruik uitgebreide Office-clients die ondersteuning bieden voor cache (zoals Outlook, teams, OneDrive, etc.), en Vermijd het gebruik van webclients. Functies voor het in-en uitschakelen van Office-clients kunnen de gevolgen van netwerkcongestie en latentie enorm verminderen.
-- Als uw Microsoft 365-Tenant is geconfigureerd met de functie voor _Audio vergaderingen_ , kunnen teams-gebruikers deelnemen aan vergaderingen via het PSTN (Public Switched Telephone Network). Zie [Audio vergaderingen in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)voor meer informatie.
-- Als gebruikers problemen ondervinden met de prestaties van het netwerk, moeten ze hun IT-afdeling rapporteren voor het oplossen van problemen, en naar Microsoft-ondersteuning overkomen als er problemen zijn met Microsoft 365-Services. Niet alle problemen worden veroorzaakt door grensoverschrijdende netwerkprestaties.
+- Gebruik uitgebreide Office-clients die caching ondersteunen (bijvoorbeeld Outlook, Teams, OneDrive, enzovoort) en vermijd webcl clients. Office-client caching- en offlinetoegangsfuncties kunnen de impact van netwerkcongestie en latentie aanzienlijk verminderen.
+- Als uw Microsoft 365-tenant is geconfigureerd met de functie _Audiovergadering,_ kunnen Teams-gebruikers deelnemen aan vergaderingen via het openbare telefoonnetwerk (PSTN). Zie [Audiovergaderingen in Office 365](/microsoftteams/audio-conferencing-in-office-365)voor meer informatie.
+- Als gebruikers problemen met de netwerkprestaties ervaren, moeten ze zich melden bij hun IT-afdeling voor probleemoplossing en escaleren naar Microsoft-ondersteuning als er problemen met Microsoft 365-services worden vermoed. Niet alle problemen worden veroorzaakt door grensoverschrijdende netwerkprestaties.
 
-Microsoft doet voortdurend aan de werking van de Microsoft 365-gebruikerservaring en de prestaties van clients met een groot aantal mogelijke netwerk architecturen en-kenmerken. Ga naar de [tech Office 365 tech Community](https://techcommunity.microsoft.com/t5/office-365/bd-p/Office365General) om een gesprek te starten of hieraan deel te nemen, resources te zoeken en functie aanvragen en suggesties in te dienen.
+Microsoft werkt voortdurend aan het verbeteren van de gebruikerservaring van Microsoft 365 en de prestaties van clients over een zo breed mogelijk bereik van netwerkarchitectuur en -kenmerken. Ga naar [de Office 365 Tech Community om](https://techcommunity.microsoft.com/t5/office-365/bd-p/Office365General) een gesprek te starten of deel te nemen, bronnen te zoeken en functieaanvragen en suggesties in te dienen.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Netwerkplanning en prestaties optimaliseren voor Microsoft 365](https://aka.ms/tune)
+[Netwerkplanning en prestaties optimaliseren voor Microsoft 365](./network-planning-and-performance.md)
 
 [Beginselen voor Microsoft 365-netwerkverbindingen](microsoft-365-network-connectivity-principles.md)
 
@@ -79,4 +78,4 @@ Microsoft doet voortdurend aan de werking van de Microsoft 365-gebruikerservarin
 
 [URL's en IP-adresbereiken voor Office 365](urls-and-ip-address-ranges.md)
 
-[Globaal Microsoft-netwerk](https://docs.microsoft.com/azure/networking/microsoft-global-network)
+[Microsoft Global Network](/azure/networking/microsoft-global-network)

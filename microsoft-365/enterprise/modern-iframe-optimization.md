@@ -1,5 +1,5 @@
 ---
-title: IFrames optimaliseren in SharePoint Online-pagina's van de publicerende site
+title: IFrames optimaliseren in moderne en klassieke publicatiesitepagina's van SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,61 +18,61 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Meer informatie over het optimaliseren van de prestaties van iFrames in SharePoint Online-pagina's van de modern en de klassieke publicatiesite.
-ms.openlocfilehash: 8985eb1038bbdfc53dc3c6a8ea9350fa6df33556
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Meer informatie over het optimaliseren van de prestaties van iFrames in moderne en klassieke publicatiesitepagina's van SharePoint Online.
+ms.openlocfilehash: d6e9aefa23972589c752540959b17f5d20ed0889
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689557"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923054"
 ---
-# <a name="optimize-iframes-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>IFrames optimaliseren in SharePoint Online-pagina's van de publicerende site
+# <a name="optimize-iframes-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>IFrames optimaliseren in moderne en klassieke publicatiesitepagina's van SharePoint Online
 
-iFrames kunnen handig zijn voor het weergeven van inhouds rijke inhoud, zoals Video's of andere media. Aangezien iFrames wel een aparte pagina op de pagina van de SharePoint-site laadt, kan de inhoud die in het iFrame wordt geladen grote afbeeldingen, Video's of andere elementen bevatten die kunnen bijdragen aan de totale laadtijden van pagina's en die u niet kunt beheren op de pagina. In dit artikel vindt u informatie over hoe u kunt bepalen hoe iFrames in uw pagina's van invloed zijn op de beschikbare latentie en hoe u veelvoorkomende problemen kunt oplossen.
-
->[!NOTE]
->Ga voor meer informatie over de prestaties van moderne SharePoint Online-sites naar [prestaties in de moderne SharePoint-ervaring](https://docs.microsoft.com/sharepoint/modern-experience-performance).
-
-## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts-using-iframes"></a>Het hulpprogramma voor het analyseren van webonderdelen met behulp van het hulpprogramma pagina diagnose voor SharePoint gebruiken
-
-Het hulpprogramma pagina diagnose voor SharePoint is een browser extensie voor de nieuwe Microsoft Edge- https://www.microsoft.com/edge) en Chrome-browsers die zowel SharePoint Online modern portal als de klassieke publicatiesite pagina's analyseren. Het hulpmiddel biedt een rapport voor elke geanalyseerde pagina op basis van een gedefinieerde set prestatiecriteria. Ga voor meer informatie over het hulpprogramma pagina diagnose voor SharePoint naar [het hulpprogramma pagina diagnose voor SharePoint Online](page-diagnostics-for-spo.md).
+iFrames kunnen handig zijn voor het bekijken van uitgebreide inhoud, zoals video's of andere media. Omdat iFrames echter een afzonderlijke pagina laden op de SharePoint-sitepagina, kan inhoud die in het iFrame wordt geladen, grote afbeeldingen, video's of andere elementen bevatten die kunnen bijdragen aan de totale laadtijden van pagina's en die u niet kunt bepalen op de pagina. In dit artikel wordt beschreven hoe u kunt bepalen hoe iFrames op uw pagina's van invloed zijn op de waargenomen latentie van de gebruiker en hoe u veelvoorkomende problemen kunt oplossen.
 
 >[!NOTE]
->Het hulpmiddel voor het automatisch toevoegen van pagina's werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+>Zie Prestaties in de moderne SharePoint-ervaring voor meer informatie over prestaties in moderne [SharePoint Online-sites.](/sharepoint/modern-experience-performance)
 
-Wanneer u een SharePoint-sitepagina wilt analyseren met het hulpprogramma pagina diagnose voor SharePoint, kunt u informatie weergeven over webonderdelen met iFrames in het deelvenster _diagnostische tests_ . De metric van basislijn is hetzelfde voor moderne en klassieke pagina's.
+## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts-using-iframes"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om webonderdelen te analyseren met iFrames
 
-Mogelijke resultaten zijn onder meer:
-
-- **Aandacht vereist** (rood): de pagina bevat **drie of meer** webonderdelen met IFRAME-instellingen
-- **Verbeterings mogelijkheden** (geel): de pagina bevat **een of twee** webonderdelen met behulp van iframes
-- **Geen actie vereist** (groen): de pagina bevat geen webonderdelen die gebruikmaken van iframe-instellingen
-
-Als het resultaat van de **webonderdelen die gebruikmaken van iframe-detectie** worden weergegeven in de sectie **verbeterings mogelijkheden** of **aandacht vereist)** , kunt u op het resultaat klikken om de webonderdelen te zien die iframes bevatten.
-
-![Resultaten van het hulpmiddel pagina diagnose](../media/modern-portal-optimization/pagediag-iframe-yellow.png)
-
-## <a name="remediate-iframe-performance-issues"></a>Prestatieproblemen met iFrame oplossen
-
-Het resultaat van de **webonderdelen met iframes gedetecteerd** in het hulpprogramma voor het controleren van pagina's gebruiken om te bepalen welke webonderdelen iframes bevatten en mogelijk worden gelaadd voor trage pagina's.
-
-iFrames zijn inherent aan een traag feit omdat ze een afzonderlijke externe pagina laden, waaronder alle bijbehorende inhoud, zoals JavaScript, CSS-en Framework-elementen, waardoor de overhead van de sitepagina door een factor van twee of meer kan toenemen.
-
-Volg de onderstaande richtlijnen om te zorgen voor optimaal gebruik van iFrames.
-
-- Gebruik afbeeldingen in plaats van iFrames, indien mogelijk, en als het voorbeeld klein is om te beginnen met of niet-interactief.
-- Als iFrames moeten worden gebruikt, minimaliseert u het nummer en/of verplaatst u ze uit de viewport.
-- Ingesloten Office-bestanden zoals Word, Excel en PowerPoint zijn interactief, maar zijn langzaam te laden. Afbeeldingen met miniaturen met een koppeling naar het volledige document worden vaak beter.
-- Ingesloten YouTube-Video's en Twitter-feeds worden meestal beter in iFrames opgenomen, maar u kunt wel gebruikmaken van deze soorten ingesloten bestanden.
-- Geïsoleerde webonderdelen vormen een redelijke uitzondering, maar beperken hun nummer en plaats in de viewport View.
-- Als een iFrame zich in de viewport bevindt, kunt u een _IntersectionObserver_ gebruiken om de weergave van de iframe te vertragen totdat deze in beeld komt.
-
-Voordat u de revisies van pagina's aanbrengt om prestatieproblemen te verhelpen, kunt u de laadtijd van de pagina in de analyseresultaten noteren. Voer het hulpprogramma opnieuw uit na de wijziging om te zien of het nieuwe resultaat binnen de basislijn standaard valt en de nieuwe laadtijd voor pagina's te controleren om te zien of er een verbetering was.
-
-![Resultaten van laadtijden voor pagina's](../media/modern-portal-optimization/pagediag-page-load-time.png)
+Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge - en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's worden geanalyseerd. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken voor SharePoint Online.](page-diagnostics-for-spo.md)
 
 >[!NOTE]
->De laadtijd van de pagina kan variëren, afhankelijk van diverse factoren, zoals netwerkbelasting, tijdstip van de dag en andere tijdelijke voorwaarden. U moet de laadtijd voor pagina's enkele keren vóór en na het aanbrengen van wijzigingen aanbrengen om de resultaten te berekenen.
+>Het hulpprogramma Paginadiagnose werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+
+Wanneer u een SharePoint-sitepagina analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie over webonderdelen met iFrames in het deelvenster _Diagnostische_ tests. De basislijnmetriek is hetzelfde voor moderne en klassieke pagina's.
+
+Mogelijke resultaten zijn:
+
+- **Aandacht vereist** (rood): de pagina bevat **drie of meer** webonderdelen met iFrames
+- **Verbeterkansen** (geel): De pagina bevat **een of twee** webonderdelen met iFrames
+- **Geen actie vereist** (groen): de pagina bevat geen webonderdelen met iFrames
+
+Als de webonderdelen met **iFrames** gedetecteerd resultaat  worden  weergegeven in de sectie Verbeterkansen of Aandacht vereist) van de resultaten, kunt u op het resultaat klikken om de webonderdelen te zien die iFrames bevatten.
+
+![Resultaten van het hulpprogramma Paginadiagnose](../media/modern-portal-optimization/pagediag-iframe-yellow.png)
+
+## <a name="remediate-iframe-performance-issues"></a>Problemen met de prestaties van iFrame oplossen
+
+Gebruik de webonderdelen met **iFrames** gedetecteerd resultaat in het hulpprogramma Paginadiagnose om te bepalen welke webonderdelen iFrames bevatten en kunnen bijdragen aan trage laadtijden voor pagina's.
+
+iFrames zijn inherent traag omdat ze een afzonderlijke externe pagina laden, inclusief alle bijbehorende inhoud, zoals javascript, CSS en framework-elementen, waardoor de overhead van de sitepagina mogelijk met twee of meer wordt verhogen.
+
+Volg de onderstaande richtlijnen om ervoor te zorgen dat iFrames optimaal worden gebruikt.
+
+- Gebruik indien mogelijk afbeeldingen in plaats van iFrames als de preview klein is om te beginnen of niet interactief is.
+- Als iFrames moeten worden gebruikt, minimaliseert u het aantal en/of verplaatst u deze uit de viewport.
+- Ingesloten Office-bestanden zoals Word, Excel en PowerPoint zijn interactief, maar worden traag geladen. Miniatuurafbeeldingen met een koppeling naar het volledige document presteren vaak beter.
+- Ingesloten YouTube-video's en Twitter-feeds presteren meestal beter in iFrames, maar gebruiken dit soort insluitingen op een verstandige manier.
+- Geïsoleerde webonderdelen vormen een redelijke uitzondering, maar minimaliseren het aantal en de plaatsing ervan in de viewport.
+- Als een iFrame zich buiten de viewport bevindt, kunt u overwegen een _IntersectionObserver_ te gebruiken om de weergave van het iFrame uit te stellen totdat deze in beeld komt.
+
+Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u de laadtijd van de pagina in de analyseresultaten. Voer het hulpprogramma na de revisie opnieuw uit om te zien of het nieuwe resultaat binnen de basislijnstandaard valt en controleer de laadtijd van de nieuwe pagina om te zien of er een verbetering is.
+
+![De laadtijd van pagina's](../media/modern-portal-optimization/pagediag-page-load-time.png)
+
+>[!NOTE]
+>De laadtijd van pagina's kan variëren op basis van verschillende factoren, zoals de netwerkbelasting, de tijd van de dag en andere tijdelijke omstandigheden. U moet de laadtijd van pagina's een paar keer voor en na het aanbrengen van wijzigingen testen, zodat u de resultaten kunt gemiddelden.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -80,4 +80,4 @@ Voordat u de revisies van pagina's aanbrengt om prestatieproblemen te verhelpen,
 
 [Prestaties van Office 365 afstemmen](tune-microsoft-365-performance.md)
 
-[Prestaties in de moderne SharePoint-ervaring](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Prestaties in de moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)

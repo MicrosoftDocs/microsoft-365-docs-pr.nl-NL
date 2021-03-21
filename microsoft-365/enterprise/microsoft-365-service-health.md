@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: 'Status van Microsoft 365-service '
-ms.openlocfilehash: f7bb310452f841c04eabdd683d3ec82b4ad2b57a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d0e32fb34cf1d14a5da8c10a07551cee00e2421a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686600"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923110"
 ---
 # <a name="microsoft-365-network-health-status"></a>Status van Microsoft 365-netwerk
 
@@ -44,5 +44,5 @@ Wanneer we belangrijke problemen in het wereldwijde netwerk van Microsoft vastst
 Gebruik deze bronnen om uw netwerkgebruik voor Microsoft-services te verbeteren.
 
 - [Microsoft 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](microsoft-365-vpn-split-tunnel.md)
-- [Microsoft 365-principes van netwerkconnectiviteit](https://aka.ms/pnc)
-- [Extern werken met Azure-netwerkservices](https://docs.microsoft.com/azure/networking/working-remotely-support)
+- [Microsoft 365-principes van netwerkconnectiviteit](./microsoft-365-network-connectivity-principles.md)
+- [Extern werken met Azure-netwerkservices](/azure/networking/working-remotely-support)

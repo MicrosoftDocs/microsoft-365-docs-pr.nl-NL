@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, abonnementen en implementatie paden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 324e5166dd722f9fcd682db7e536a4b864365025
-ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
+ms.openlocfilehash: 19bc4763f60fae1db914ab7c1f10354e7904cb50
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50068969"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923168"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -87,7 +87,7 @@ Deze poster van twee pagina‘s is een snelle manier om de bestaande infrastruct
 
 Voor deze producten wordt de ondersteuning beëindigd op **13 oktober 2020**:
 
-- [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
+- [Office 2010](/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](exchange-2010-end-of-support.md)
 
 [SharePoint Server 2010](upgrade-from-sharepoint-2010.md) bereikt het einde van ondersteuning op **13 april 2021**.
@@ -120,11 +120,11 @@ Bekijk als voorbeeld hoe de [Contoso Corporation](contoso-overview.md), een fict
 
 ## <a name="additional-microsoft-365-products"></a>Meer Microsoft 365-producten
 
-- [Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/)
+- [Microsoft 365 Business Premium](../business/index.yml)
 
   Breng de allerbeste productiviteits- en samenwerkingsmogelijkheden samen met apparaatbeheer- en beveiligingsoplossingen om bedrijfsgegevens voor kleine en middelgrote bedrijven te beschermen.
 
-- [Microsoft 365 Education](https://docs.microsoft.com/education)
+- [Microsoft 365 Education](/education)
 
   Ontworpen voor docenten voor meer creativiteit, het bevorderen van teamwork en het bieden van een eenvoudige en veilige ervaring in één betaalbare oplossing die is ontwikkeld voor het onderwijs.
 
@@ -154,7 +154,7 @@ Voor meer informatie en een configuratievoorbeeld voor het MKB en onderwijsinste
 
 ![Training voor Microsoft 365 Fundamentals](../media/microsoft-365-overview/m365-fundamentals.svg)
 
-Om meer te weten te komen over Microsoft 365 en toe te werken naar een Microsoft 365-certificering, kunt u beginnen met [Microsoft 365 Certified: Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
+Om meer te weten te komen over Microsoft 365 en toe te werken naar een Microsoft 365-certificering, kunt u beginnen met [Microsoft 365 Certified: Fundamentals](/learn/paths/m365-fundamentals/).
 
 ## <a name="see-also"></a>Zie ook
 

@@ -20,12 +20,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze training voor de aanvalssimulatie kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5- of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 38e16ecd8185b9e8542f58613790585b5aab73ee
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 6e344153ef433bc13b16136e584ec4da73fcef6a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820232"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921346"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Aan de slag met aanvalssimulatietraining
 
@@ -40,7 +40,7 @@ Als uw organisatie Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2
 
 - Als u het Microsoft-beveiligingscentrum wilt openen, gaat u naar <https://security.microsoft.com/> . Training voor aanvalssimulaties is beschikbaar op **training voor e-mail en** \> **samenwerkingssimulaties** voor aanvallen. Als u rechtstreeks naar de training Aanvalssimulatie wilt gaan, opent u <https://security.microsoft.com/attacksimulator> .
 
-- Zie Microsoft [Defender voor Office 365-servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van training voor aanvalssimulaties in verschillende Microsoft 365-abonnementen.
+- Zie Microsoft [Defender voor Office 365-servicebeschrijving](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van training voor aanvalssimulaties in verschillende Microsoft 365-abonnementen.
 
 - U moet machtigingen krijgen toegewezen in het Beveiligings- & Compliancecentrum of in Azure Active Directory voordat u de procedures in dit artikel kunt uitvoeren. U moet lid zijn van **Organisatiebeheer,** **Beveiligingsbeheerder** of een van de volgende rollen:
   - **Aanvalssimulatorbeheerders:** maak en beheerd alle aspecten van aanvalssimulatiecampagnes.

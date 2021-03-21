@@ -1,5 +1,5 @@
 ---
-title: Afbeeldingen in pagina's van de modern SharePoint Online-site optimaliseren
+title: Afbeeldingen optimaliseren op moderne sitepagina's van SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,51 +20,51 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Meer informatie over het gebruik van de hulpmiddelen in SharePoint Online voor het optimaliseren van afbeeldingen in pagina's van de modern SharePoint Online-site.
-ms.openlocfilehash: 09122dfd0bc832cf9a09cfb05bf0540e323797d9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Lees hoe u de hulpmiddelen in SharePoint Online kunt gebruiken om afbeeldingen te optimaliseren op moderne sitepagina's van SharePoint Online.
+ms.openlocfilehash: a4f2def86e1378a9fb76ae9ecbe6a55da75ecffc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689440"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923014"
 ---
-# <a name="optimize-images-in-sharepoint-online-modern-site-pages"></a>Afbeeldingen in pagina's van de modern SharePoint Online-site optimaliseren
+# <a name="optimize-images-in-sharepoint-online-modern-site-pages"></a>Afbeeldingen optimaliseren op moderne sitepagina's van SharePoint Online
 
-In dit artikel vindt u informatie over het optimaliseren van afbeeldingen op pagina's van de modern SharePoint Online-site.
+In dit artikel vindt u meer informatie over het optimaliseren van afbeeldingen op moderne sitepagina's van SharePoint Online.
 
-Zie afbeeldingen [optimaliseren voor SharePoint Online](image-optimization-for-sharepoint-online.md)voor meer informatie over het optimaliseren van afbeeldingen op klassieke publicerende sites.
-
->[!NOTE]
->Zie [prestaties in de moderne SharePoint-ervaring](https://docs.microsoft.com/sharepoint/modern-experience-performance)voor meer informatie over prestaties in moderne portals voor SharePoint Online.
-
-## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-image-optimization"></a>Het hulpprogramma pagina diagnose voor SharePoint gebruiken voor het analyseren van afbeeldingen optimaliseren
-
-Het hulpprogramma pagina diagnose voor SharePoint is een browser extensie voor de nieuwe Microsoft Edge- https://www.microsoft.com/edge) en Chrome-browsers die zowel SharePoint Online modern portal als de klassieke publicatiesite pagina's analyseren. Het hulpmiddel biedt een rapport voor elke geanalyseerde pagina op basis van een gedefinieerde set prestatiecriteria. Ga voor meer informatie over het hulpprogramma pagina diagnose voor SharePoint naar [het hulpprogramma pagina diagnose voor SharePoint Online](page-diagnostics-for-spo.md).
+Zie Afbeeldingsoptimalisatie voor [SharePoint Online](image-optimization-for-sharepoint-online.md)voor informatie over het optimaliseren van afbeeldingen in klassieke publicatiesites.
 
 >[!NOTE]
->Het hulpmiddel voor het automatisch toevoegen van pagina's werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+>Zie Prestaties in de [moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)voor meer informatie over de prestaties in moderne SharePoint Online-portals.
 
-Wanneer u een moderne SharePoint-site met behulp van het hulpprogramma pagina diagnose voor SharePoint Analyseer, kunt u informatie over grote afbeeldingen bekijken in het deelvenster _diagnostische tests_ .
+## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-image-optimization"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om afbeeldingsoptimalisatie te analyseren
 
-Mogelijke resultaten zijn onder meer:
-
-- **Aandacht vereist** (rood): de pagina bevat **een of meer** afbeeldingen met een grootte van 300KB
-- **Geen actie vereist** (groen): de pagina bevat geen afbeeldingen met een grootte van 300KB
-
-Als het resultaat van de **grote afbeeldingen** wordt weergegeven in de sectie **aandacht vereist** van de resultaten, klikt u op het resultaat om aanvullende details weer te geven.
-
-![Resultaten van het hulpmiddel pagina diagnose](../media/modern-portal-optimization/pagediag-large-images.png)
-
-## <a name="remediate-large-image-issues"></a>Problemen met grote afbeeldingen oplossen
-
-Als een pagina afbeeldingen met afbeeldingen van 300KB bevat, selecteert u het resultaat voor de **grote afbeeldingen** om te zien welke afbeeldingen te groot zijn. Op de moderne SharePoint Online-pagina's worden weergaven van afbeeldingen binnen de grootte van het browservenster en de resolutie van de client monitor automatisch aangegeven en gewijzigd. U moet altijd afbeeldingen voor webgebruik optimaliseren voordat u ze uploadt naar SharePoint Online. Zeer grote afbeeldingen worden automatisch kleiner in grootte en resolutie, wat kan leiden tot onverwachte weergavekenmerken.
-
-Voordat u de revisies van pagina's aanbrengt om prestatieproblemen te verhelpen, kunt u de laadtijd van de pagina in de analyseresultaten noteren. Voer het hulpprogramma opnieuw uit na de wijziging om te zien of het nieuwe resultaat binnen de basislijn standaard valt en de nieuwe laadtijd voor pagina's te controleren om te zien of er een verbetering was.
-
-![Resultaten van laadtijden voor pagina's](../media/modern-portal-optimization/pagediag-page-load-time.png)
+Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge - en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's worden geanalyseerd. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken voor SharePoint Online.](page-diagnostics-for-spo.md)
 
 >[!NOTE]
->De laadtijd van de pagina kan variëren, afhankelijk van diverse factoren, zoals netwerkbelasting, tijdstip van de dag en andere tijdelijke voorwaarden. U moet de laadtijd voor pagina's enkele keren vóór en na het aanbrengen van wijzigingen aanbrengen om de resultaten te berekenen.
+>Het hulpprogramma Paginadiagnose werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+
+Wanneer u een moderne SharePoint-site analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie over grote afbeeldingen in het deelvenster _Diagnostische tests._
+
+Mogelijke resultaten zijn:
+
+- **Aandacht vereist** (rood): De pagina bevat **een of meer** afbeeldingen van meer dan 300 KB in grootte
+- **Geen actie vereist** (groen): De pagina bevat geen afbeeldingen van meer dan 300 KB in grootte
+
+Als het **gedetecteerde resultaat Grote**  afbeeldingen wordt weergegeven in de sectie Aandacht vereist van de resultaten, kunt u op het resultaat klikken om meer informatie te zien.
+
+![Resultaten van het hulpprogramma Paginadiagnose](../media/modern-portal-optimization/pagediag-large-images.png)
+
+## <a name="remediate-large-image-issues"></a>Grote problemen met afbeeldingen oplossen
+
+Als een pagina afbeeldingen van meer dan 300 KB groot bevat, selecteert u het resultaat Grote afbeeldingen gedetecteerd om te zien welke afbeeldingen te groot zijn.  Op moderne SharePoint Online-pagina's worden afbeeldingen automatisch weergegeven en de grootte is afhankelijk van de grootte van het browservenster en de resolutie van de clientmonitor. U moet afbeeldingen altijd optimaliseren voor webgebruik voordat u ze uploadt naar SharePoint Online. Zeer grote afbeeldingen worden automatisch verkleind in grootte en resolutie, wat kan leiden tot onverwachte weergavekenmerken.
+
+Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u de laadtijd van de pagina in de analyseresultaten. Voer het hulpprogramma na de revisie opnieuw uit om te zien of het nieuwe resultaat binnen de basislijnstandaard valt en controleer de laadtijd van de nieuwe pagina om te zien of er een verbetering is.
+
+![De laadtijd van pagina's](../media/modern-portal-optimization/pagediag-page-load-time.png)
+
+>[!NOTE]
+>De laadtijd van pagina's kan variëren op basis van verschillende factoren, zoals de netwerkbelasting, de tijd van de dag en andere tijdelijke omstandigheden. U moet de laadtijd van pagina's een paar keer voor en na het aanbrengen van wijzigingen testen, zodat u de resultaten kunt gemiddelden.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -72,8 +72,8 @@ Voordat u de revisies van pagina's aanbrengt om prestatieproblemen te verhelpen,
 
 [Prestaties van Office 365 afstemmen](tune-microsoft-365-performance.md)
 
-[Prestaties in de moderne SharePoint-ervaring](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Prestaties in de moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)
 
-[Netwerken voor content levering](content-delivery-networks.md)
+[Netwerken voor contentlevering](content-delivery-networks.md)
 
 [Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)

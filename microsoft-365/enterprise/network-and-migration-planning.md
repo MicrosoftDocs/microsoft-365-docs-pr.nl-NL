@@ -1,5 +1,5 @@
 ---
-title: Netwerk-en migratieplanning voor Office 365
+title: Netwerk- en migratieplanning voor Office 365
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,79 +20,79 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
-description: Dit artikel bevat koppelingen naar informatie over netwerk planning, tests en migratie naar Office 365.
-ms.openlocfilehash: 2b08b05b8863fd9351510878f9438264bb2999f5
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+description: Dit artikel bevat koppelingen naar informatie over netwerkplanning, testen en migratie naar Office 365.
+ms.openlocfilehash: 99bcc1bd0447b192860fc0bcc67fc18d87c2d5fc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948446"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923586"
 ---
-# <a name="network-and-migration-planning-for-office-365"></a>Netwerk-en migratieplanning voor Office 365
+# <a name="network-and-migration-planning-for-office-365"></a>Netwerk- en migratieplanning voor Office 365
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Dit artikel bevat koppelingen naar informatie over netwerk planning en testen, en migratie naar Office 365.
+Dit artikel bevat koppelingen naar informatie over netwerkplanning en -testen en migratie naar Office 365.
   
-Voordat u de eerste keer implementeert of migreert naar Office 365, kunt u de informatie in deze onderwerpen gebruiken om de bandbreedte die u nodig hebt te ramen en vervolgens te testen en te controleren of u voldoende bandbreedte hebt voor de implementatie of migratie naar Office 365.
+Voordat u de implementatie voor het eerst implementeert of migreert naar Office 365, kunt u de informatie in deze onderwerpen gebruiken om de bandbreedte te schatten die u nodig hebt en vervolgens te testen en te controleren of u voldoende bandbreedte hebt om te implementeren of te migreren naar Office 365.
 
-Dit artikel maakt onderdeel uit van [netwerk planning en prestaties optimaliseren voor Office 365](https://aka.ms/tune).
+Dit artikel maakt deel uit van [netwerkplanning en prestatieafstemming voor Office 365.](./network-planning-and-performance.md)
 
-Voor de stappen voor het optimaliseren van uw netwerk voor Microsoft 365 en andere Microsoft Cloud-platformen en-services raadpleegt u de poster [Microsoft Cloud Networking for Enterprise Architects](https://aka.ms/cloudarchnetworking) .
+Zie de poster [Microsoft Cloud Networking for Enterprise Architects](../solutions/cloud-architecture-models.md) voor de stappen voor het optimaliseren van uw netwerk voor Microsoft 365 en andere Microsoft-cloudplatforms en -services.
    
-## <a name="estimate-network-bandwidth-requirements"></a>Vereisten voor netwerkbandbreedte schatten
+## <a name="estimate-network-bandwidth-requirements"></a>Netwerkbandbreedtevereisten schatten
 <a name="EstimateBandwidthRequirements"> </a>
 
-Als u Office 365 gebruikt, is het mogelijk dat het Internet circuit van uw organisatie groter wordt. Het is belangrijk om te bepalen of de bandbreedte die op dat moment beschikbaar is, voldoende is voor het verwerken van de geschatte toename nadat Office 365 volledig is geïmplementeerd, terwijl de meeste activiteit bovenaan van de dag minstens 20% uitvalt.
+Het gebruik van Office 365 kan het gebruik van het internetcircuit van uw organisatie vergroten. Het is belangrijk om te bepalen of de bandbreedte die momenteel beschikbaar is, voldoende is om de geschatte toename aan te kunnen nadat Office 365 volledig is geïmplementeerd en ten minste 20% capaciteit heeft om de drukste dagen af te handelen.
   
-Gebruik de volgende stappen om de bandbreedte te ramen:
+Als u de bandbreedte wilt schatten, gebruikt u de volgende stappen:
   
-1. Het aantal clients beoordelen dat elke Internet-uituitgang moet gebruiken. Laat onze multi-Terabit netwerk-handle zo veel mogelijk zijn. 
+1. Beoordeel het aantal clients dat elk internetgebruik zal gebruiken. Laat ons multi-terabit-netwerk zo veel mogelijk van de verbinding verwerken. 
     
-2. Bepalen welke Office 365-Services en-functies beschikbaar zijn voor gebruik door clients. U zult waarschijnlijk groepen mensen met verschillende services of gebruiks profielen hebben.
+2. Bepaal welke Office 365-services en -functies beschikbaar zijn voor clients om te gebruiken. U hebt waarschijnlijk groepen personen met verschillende services of gebruiksprofielen.
     
-3. Meet het netwerk gebruik voor een testgroep clients. Zorg ervoor dat de pilot cliënten representatief zijn voor de verschillende profielen van personen in de organisatie en van de verschillende geografische locaties. U kunt uw resultaten interkijken tegen onze oude rekenmachines voor [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) -en [Microsoft teams](https://docs.microsoft.com/microsoftteams/prepare-network) of [voor de casestudy](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) die we hebben uitgevoerd op ons eigen netwerk. 
+3. Meet het netwerkgebruik voor een pilotgroep clients. Zorg ervoor dat de pilot-clients representatief zijn voor de verschillende profielen van personen in de organisatie en de verschillende geografische locaties. U kunt uw resultaten kruisen met onze oude rekenmachines voor [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) en [Microsoft Teams](/microsoftteams/prepare-network) of de case [study](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) die we hebben uitgevoerd op ons eigen netwerk. 
     
-4. Gebruik de meetwaarden van de testgroep om de behoeften van de gehele organisatie te extrapoleren, en voer de test opnieuw uit om de schattingen te valideren voordat u wijzigingen aanbrengt in uw netwerk.
+4. Gebruik de metingen van de testgroep om de behoeften van de hele organisatie te extrapoleren en opnieuw te testen om de schattingen te valideren voordat u wijzigingen aan uw netwerk aan gaat brengen.
     
 ## <a name="test-your-existing-network"></a>Uw bestaande netwerk testen
 <a name="calculators"> </a>
 
- **Netwerkhulpprogramma's.** Test de Internet bandbreedte en valideer deze om de beperkingen voor downloaden, uploaden en latentie te bepalen. Met deze hulpmiddelen kunt u bepalen welke mogelijkheden van uw netwerk voor migratie en wanneer u volledig bent geïmplementeerd. 
+ **Netwerkhulpmiddelen.** Test en valideer uw internetbandbreedte om de beperkingen voor downloaden, uploaden en latentie te bepalen. Met deze hulpprogramma's kunt u de mogelijkheden van uw netwerk voor migratie bepalen, evenals nadat u volledig bent geïmplementeerd. 
     
-- [Microsoft Remote Connectivity Analyzer](https://go.microsoft.com/fwlink/p/?LinkId=517243): Hiermee wordt de verbinding naar uw Exchange Online-omgeving getest.
+- [Microsoft Remote Connectivity Analyzer:](https://go.microsoft.com/fwlink/p/?LinkId=517243)Test connectiviteit in uw Exchange Online-omgeving.
     
-- Gebruik [Microsoft ondersteuning en herstel ondersteuning voor Office 365](https://diagnostics.office.com/#/Download?env=SOC) voor het oplossen van problemen met Outlook en Office 365. 
+- Gebruik de [Microsoft-ondersteunings- en herstelassistent voor Office 365](https://diagnostics.office.com/#/Download?env=SOC) om Problemen met Outlook en Office 365 op te lossen. 
     
-## <a name="best-practices-for-network-planning-and-improving-migration-performance-for-office-365"></a>Aanbevolen procedures voor de netwerk planning en het verbeteren van de migratie prestaties voor Office 365
+## <a name="best-practices-for-network-planning-and-improving-migration-performance-for-office-365"></a>Best practices voor netwerkplanning en het verbeteren van de migratieprestaties voor Office 365
 <a name="BestPractices"> </a>
 
-U vindt meer informatie over het verbeteren van de volgende aanbevolen procedures voor meer informatie over het verbeteren van uw Office 365-ervaring.
+Verdiept u in deze best practices voor meer informatie over het verbeteren van uw Office 365-ervaring.
   
-1. Wilt u uw gebruikers direct laten helpen? Zie [Aanbevolen procedures voor het gebruik van office 365 op een traag netwerk](https://support.office.com/article/fd16c8d2-4799-4c39-8fd7-045f06640166) voor tips over het gebruik van Office 365, waaronder SharePoint Online, Exchange Online en Lync online, wanneer uw netwerk gewoon niet werkt. Dit artikel bevat informatie over de inhoud van TechNet en Support.office.com voor het optimaliseren van uw Office 365-ervaring en bevat informatie over eenvoudige manieren om uw webpagina's aan te passen en over het instellen van de Internet Explorer-instellingen voor de beste Office 365-ervaring. 
+1. Wilt u meteen aan de slag met het helpen van uw gebruikers? Zie Best practices voor het gebruik van [Office 365](https://support.office.com/article/fd16c8d2-4799-4c39-8fd7-045f06640166) op een traag netwerk voor tips over het gebruik van Office 365, waaronder SharePoint Online, Exchange Online en Lync Online, wanneer uw netwerk gewoon niet samenwerkt. In dit artikel vindt u koppelingen naar tal van inhoud op TechNet en Support.office.com voor het optimaliseren van uw Office 365-ervaring en bevat informatie over eenvoudige manieren om uw webpagina's aan te passen en hoe u uw Internet Explorer-instellingen in kunt stellen voor de beste Office 365-ervaring. 
     
-2. Lees de beginselen van de [netwerkverbinding van office 365](https://aka.ms/o365networkingprinciples) als u inzicht wilt krijgen in de verbindings principes voor het veilig beheren van Office 365-verkeer en de best mogelijke prestaties te verkrijgen. In dit artikel vindt u informatie over de meest recente richtlijnen voor het veilig optimaliseren van Office 365-netwerkverbindingen. 
+2. Lees [De beginselen van Office 365-netwerkconnectiviteit](./microsoft-365-network-connectivity-principles.md) om inzicht te krijgen in de connectiviteitsprincipes voor het veilig beheren van Office 365-verkeer en het verkrijgen van de best mogelijke prestaties. In dit artikel vindt u meer informatie over de meest recente richtlijnen voor het veilig optimaliseren van office 365-netwerkconnectiviteit. 
     
-3. Verbeter de prestaties van de afdruk migratie door de planning voor Windows-updates nauwkeurig te beheren. U kunt de clientcomputers in batches bijwerken en ervoor zorgen dat alle clientcomputers worden bijgewerkt voordat u naar Office 365 migreert en het gebruik van de netwerkbandbreedte bepaalt. Zie voor meer informatie [het artikel bureaublad versies van Office 365 handmatig bijwerken en configureren voor de meest recente updates](https://support.microsoft.com/gp/office-2013-365-update).
+3. Verbeter de prestaties van e-mailmigratie door de planning voor Windows-updates zorgvuldig te beheren. U kunt uw clientcomputers in batches bijwerken en ervoor zorgen dat alle clientcomputers worden bijgewerkt voordat u migreert naar Office 365 om het gebruik van netwerkbandbreedte te reguleren. Zie [Desktops voor Office 365](https://support.microsoft.com/gp/office-2013-365-update)handmatig bijwerken en configureren voor de meest recente updates voor meer informatie.
     
-4. Het netwerkverkeer van Office 365 presteert het best wanneer het wordt behandeld als een vertrouwde Internet service en dat het is toegestaan om het traditionele filteren te omzeilen en om te controleren of sommige organisaties het netwerkverkeer op niet-vertrouwde Internet Services plaatsen. Dit omvat meestal het verwijderen van uitgaande verwerking, zoals proxy gebruikersverificatie en pakket controle, en om lokale uitputting van Internet te garanderen met de juiste NAT (Network Address Translation) en voldoende bandbreedte voor het verwerken van de toegenomen netwerkaanvragen. Raadpleeg [office 365-eindpunten beheren](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)voor meer informatie over het configureren van uw netwerk voor het verwerken van Office 365 als een vertrouwde Internet service op uw netwerk.
+4. Office 365-netwerkverkeer presteert het beste wanneer het wordt beschouwd als een vertrouwde internetservice en veel van de traditionele filtering en scannen die sommige organisaties op netwerkverkeer plaatsen, kunnen omzeilen voor niet-vertrouwde internetservices. Dit omvat meestal het verwijderen van uitgaande verwerking, zoals verificatie van proxygebruikers en pakketcontrole, en het waarborgen van lokale uitstap naar internet met de juiste NAT (Network Address Translation) en voldoende bandbreedtecapaciteit om de toegenomen netwerkaanvragen af te handelen. Raadpleeg Office [365-eindpunten](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)beheren voor aanvullende richtlijnen voor het configureren van uw netwerk voor het verwerken van Office 365 als vertrouwde internetservice in uw netwerk.
     
-1. Zorg ervoor dat u [Office 365-eindpunten beheert](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a). Het extra verkeer naar Office 365 resulteert in een toename van uitgaande proxyverbindingen en een toename van veilig verkeer via TLS/SSL.
+1. Zorg [ervoor dat u Office 365-eindpunten beheert.](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a) Het extra verkeer naar Office 365 resulteert in een toename van uitgaande proxyverbindingen en een toename van veilig verkeer via TLS/SSL.
     
-2. Als voor uw uitgaande proxy's Gebruikersauthenticatie is vereist, kunt u trage verbinding of een verlies van functionaliteit ondervinden. Als u de authenticatie vereiste voor de Office 365-domeinen overslaat, kan dit leiden tot minder overhead.
+2. Als uw uitgaande proxies gebruikersverificatie vereisen, kan er een trage verbinding of een verlies van functionaliteit zijn. Als u de verificatievereiste voor de Office 365-domeinen overbrugt, kan deze overhead worden beperkt.
     
-3. Als u een groot aantal gedeelde agenda's en postvakken hebt, ziet u mogelijk een grotere hoeveelheid verbindingen van Outlook naar Exchange. De Outlook-client kan bijvoorbeeld tot twee extra verbindingen openen voor elke gedeelde agenda die wordt gebruikt. In deze situatie zorgt u ervoor dat de oplossings proxy de verbindingen aankan of de proxy voor verbindingen met Office 365 voor Outlook overslaan.
+3. Als u een groot aantal gedeelde agenda's en postvakken hebt, ziet u mogelijk een toename van het aantal verbindingen van Outlook naar Exchange. De Outlook-client kan bijvoorbeeld maximaal twee extra verbindingen openen voor elke gedeelde agenda die wordt gebruikt. In dit geval moet u ervoor zorgen dat de uitgangsproxy de verbindingen kan verwerken of de proxy voor verbindingen met Office 365 voor Outlook kan omzeilen.
     
-4. Het maximum aantal ondersteunde apparaten voor een openbaar IP-adres bepalen en de balans tussen meerdere IP-adressen verdelen. Zie [ondersteuning voor nat met Office 365](nat-support-with-microsoft-365.md)voor meer informatie.
+4. Bepaal het maximum aantal ondersteunde apparaten voor een openbaar IP-adres en hoe u de balans tussen meerdere IP-adressen kunt laden. Zie NAT-ondersteuning [met Office 365](nat-support-with-microsoft-365.md)voor meer informatie.
     
-5. Als u uitgaande verbindingen vanaf computers in uw netwerk inspecteert, is 365 het niet mogelijk om de verbinding en de prestaties van dit filter te negeren. Daarnaast verwijdert vaak ook uitgaande inspectie de noodzaak voor een enkele Internet verbinding en schakelt lokale Internet-uitsluitingen voor Office 365 met netwerkaanvragen.
+5. Als u uitgaande verbindingen van computers in uw netwerk controleert, verbetert u de connectiviteit en prestaties door deze filtering te omzeilen naar de Office 365-domeinen. Als u uitgaande controles overbrugt, hoeft er vaak niet meer één internetverwijdering te worden uitgevoerd en kunnen lokale internetverwijderingsverzoeken voor office 365-netwerkaanvragen worden gebruikt.
     
-6. Sommige klanten kunnen de prestaties van de interne netwerkinstellingen bepalen. Instellingen zoals maximale grootte van Transmission Unit (MTU), automatische onderhandeling van netwerk of automatische detectie, en de meeste optimale routering van Internet zijn algemene locaties waar u kunt zoeken.
+6. Sommige klanten vinden dat interne netwerkinstellingen van invloed kunnen zijn op de prestaties. Instellingen zoals maximale overdrachtseenheid (MTU), automatische netwerkonderhandeling of automatische detectie en sub-optimale routes naar internet zijn veelvoorkomende locaties om te zoeken.
     
-## <a name="network-planning-reference-for-office-365"></a>Naslagwerk voor netwerk planning voor Office 365
+## <a name="network-planning-reference-for-office-365"></a>Verwijzing naar netwerkplanning voor Office 365
 <a name="NetReference"> </a>
 
-Deze onderwerpen bevatten gedetailleerde informatie over de netwerk informatie voor Office 365.
+Deze onderwerpen bevatten gedetailleerde informatie over office 365-netwerkverwijzingen.
   
 - [Office 365-eindpunten beheren](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
     
@@ -102,13 +102,13 @@ Deze onderwerpen bevatten gedetailleerde informatie over de netwerk informatie v
     
 - [IPv6-ondersteuning in Office 365-services](ipv6-support.md)
     
-- [Beginselen voor Office 365-netwerkverbinding](https://aka.ms/o365networkingprinciples)
+- [Beginselen voor Office 365-netwerkverbinding](./microsoft-365-network-connectivity-principles.md)
     
-- [Veelgestelde vragen over Office 365 video-netwerken](office-365-video-networking-faq.md)
+- [Veelgestelde vragen over Office 365-videonetwerken](office-365-video-networking-faq.md)
     
-- [Plan voor netwerkapparaten die verbinding maken met Office 365-Services](plan-for-network-devices.md)
+- [Plannen voor netwerkapparaten die verbinding maken met Office 365-services](plan-for-network-devices.md)
     
-- [Installatie handleidingen voor Office 365-Services](setup-guides-for-microsoft-365.md)
+- [Installatiehandleidingen voor Office 365-services](setup-guides-for-microsoft-365.md)
  
 ## <a name="see-also"></a>Zie ook
 

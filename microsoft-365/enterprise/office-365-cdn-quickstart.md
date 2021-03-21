@@ -1,5 +1,5 @@
 ---
-title: Snelstartgids voor Office 365 Content Delivery Network (CDN)
+title: Office 365 Content Delivery Network (CDN) Quickstart
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,76 +18,76 @@ ms.custom: Adm_O365
 search.appverid:
 - MET150
 - SPO160
-description: Snelstartgids voor Office 365 Content Delivery Network (CDN)
-ms.openlocfilehash: e541b2ea63a69644de22329c45bd6963749964f7
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+description: Office 365 Content Delivery Network (CDN) Quickstart
+ms.openlocfilehash: 3539ad1f11b27c60b5641976ae66a1480ef4be98
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456409"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921592"
 ---
-# <a name="office-365-content-delivery-network-cdn-quickstart"></a>Snelstartgids voor Office 365 Content Delivery Network (CDN)
+# <a name="office-365-content-delivery-network-cdn-quickstart"></a>Office 365 Content Delivery Network (CDN) Quickstart
 
-U kunt het ingebouwde **Office 365 Content Delivery Network (CDN)** gebruiken voor het hosten van statische activa (afbeeldingen, JavaScript, opmaakmodellen en WOFF-bestanden) voor betere prestaties voor de SharePoint Online-pagina's. Het CDN van Office 365 verbetert de prestaties omdat statische activa dichter bij de door u gevraagde browsers worden opgevolgd, zodat downloads sneller kunnen worden en de latentie minder kost. Daarnaast wordt in Office 365 CDN het Protocol HTTP/2 gebruikt voor verbeterde compressie en HTTP-pipeline. De Office 365 CDN-service maakt deel uit van uw SharePoint Online-abonnement.
+U kunt het ingebouwde **Office 365 Content Delivery Network (CDN)** gebruiken om statische assets (afbeeldingen, JavaScript, Stylesheets, WOFF-bestanden) te hosten om betere prestaties te bieden voor uw SharePoint Online-pagina's. Het Office 365-CDN verbetert de prestaties door statische assets dichter bij de browsers te houden die hier om vragen, wat helpt om downloads te versnellen en de latentie te verminderen. Het OFFICE 365-CDN gebruikt ook het HTTP/2-protocol voor verbeterde compressie en HTTP-pipelining. De Office 365 CDN-service is opgenomen als onderdeel van uw SharePoint Online-abonnement.
 
-Zie [het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)voor uitgebreidere informatie.
-
->[!NOTE]
->Het Office 365 CDN is alleen beschikbaar voor tenants in de productie-Cloud (wereldwijd). Tenants in de Verenigde Staten voor de overheid, China en Duitsland ondersteunen momenteel het Office 365 CDN.
-
-## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-identify-items-not-in-cdn"></a>Het hulpprogramma pagina diagnose voor SharePoint gebruiken om te zoeken naar items die niet in het CDN staan
-
-U kunt de browser extensie voor de browser **van SharePoint voor SharePoint** gebruiken om eenvoudig de assets van de SharePoint Online-pagina's weer te geven die kunnen worden toegevoegd aan een CDN-oorsprong.
-
-Het **hulpprogramma pagina diagnose voor SharePoint** is een browser extensie voor de nieuwe Microsoft Edge- https://www.microsoft.com/edge) en Chrome-browsers die zowel SharePoint Online modern portal als de klassieke publicatiesite pagina's analyseren. Het hulpmiddel biedt een rapport voor elke geanalyseerde pagina op basis van een gedefinieerde set prestatiecriteria. Ga voor meer informatie over het hulpprogramma pagina diagnose voor SharePoint naar [het hulpprogramma pagina diagnose voor SharePoint Online](https://aka.ms/perftool).
-
-Wanneer u het hulpprogramma pagina diagnose voor SharePoint op een SharePoint Online-pagina uitvoert, kunt u op het tabblad **diagnostische tests** klikken om een lijst weer te geven met assets die niet worden gehost op de CDN. Deze assets worden weergegeven onder het **selectievakje header Content Delivery Network (CDN)** , zoals wordt weergegeven in de onderstaande schermafbeelding.
-
-![Diagnostische gegevens voor pagina's](../media/page-diagnostics-for-spo/pagediag-results-general.PNG)
+Zie Het Office [365 Content Delivery Network (CDN) gebruiken met SharePoint Online voor meer informatie.](use-microsoft-365-cdn-with-spo.md)
 
 >[!NOTE]
->Het hulpmiddel voor het automatisch toevoegen van pagina's werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+>Het Office 365-CDN is alleen beschikbaar voor tenants in de productiecloud (wereldwijd). Tenants in de cloud van de Amerikaanse overheid, China en Duitsland ondersteunen momenteel geen Office 365-CDN.
+
+## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-identify-items-not-in-cdn"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om items te identificeren die niet in CDN staan
+
+U kunt de **browserextensie Paginadiagnose** voor SharePoint gebruiken om eenvoudig activa op uw SharePoint Online-pagina's weer te geven die kunnen worden toegevoegd aan een CDN-origin.
+
+Het **hulpprogramma Paginadiagnose** voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge - en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's worden geanalyseerd. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken voor SharePoint Online.](./page-diagnostics-for-spo.md)
+
+Wanneer u het hulpprogramma Paginadiagnose voor SharePoint op een  SharePoint Online-pagina uit te voeren, kunt u op het tabblad Diagnostische tests klikken om een lijst weer te geven met assets die niet worden gehost door het CDN. Deze assets worden weergegeven onder de kop **Content Delivery Network (CDN) zoals** wordt weergegeven in de onderstaande schermafbeelding.
+
+![Paginadiagnose](../media/page-diagnostics-for-spo/pagediag-results-general.PNG)
+
+>[!NOTE]
+>Het hulpprogramma Paginadiagnose werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
 
 ## <a name="cdn-overview"></a>CDN-overzicht
 
-Het Office 365 CDN is ontworpen om de prestaties van gebruikers te optimaliseren door regelmatig toegankelijke objecten zoals afbeeldingen en JavaScript-bestanden te distribueren via een hogesnelheidsnet globaal netwerk, de laadtijd van pagina's te beperken en toegang tot gehoste objecten zo dicht mogelijk te bieden. De CDN haalt de assets op van de locatie die een _oorsprong_wordt genoemd. Een oorsprong kan een SharePoint-site, documentbibliotheek of map zijn die toegankelijk is voor een URL.
+Het Office 365-CDN is ontworpen om de prestaties voor gebruikers te optimaliseren door veelgebruikte objecten, zoals afbeeldingen en javascript-bestanden, te distribueren via een snel globaal netwerk, de laadtijd van pagina's te verminderen en door de gebruiker zo dicht mogelijk toegang te bieden tot gehoste objecten. Het CDN haalt uw activa op vanaf een locatie die origin _wordt genoemd._ Een origin kan een SharePoint-site, documentbibliotheek of map zijn die toegankelijk is via een URL.
 
-Het CDN van Office 365 is onderverdeeld in twee basistypen:
+Het Office 365-CDN is gescheiden in twee basistypen:
 
-- Het **openbare CDN** is bedoeld voor JS (JavaScript), CSS (Style Sheets), Web lettertypebestand (WOFF, WOFF2) en niet-eigen afbeeldingen zoals bedrijfslogo's.
-- **Persoonlijk CDN** is bedoeld voor afbeeldingen (PNG, JPG, JPEG, enzovoort).
+- **Openbare CDN** is ontworpen voor JS (JavaScript), CSS (StyleSheets), Web Font File (WOFF, WOFF2) en niet-eigendomsafbeeldingen, zoals bedrijfslogo's.
+- **Private CDN** is ontworpen om te worden gebruikt voor afbeeldingen (PNG, JPG, JPEG, enzovoort).
 
-U kunt ervoor kiezen om zowel openbare als persoonlijke oorsprong te hebben voor uw organisatie. De meeste organisaties kiezen om een combinatie van beide te implementeren. Zowel de openbare als de persoonlijke opties bieden soortgelijke prestatieverbeteringen, maar elk heeft unieke kenmerken en voordelen. Zie voor meer informatie over openbare en persoonlijke CDN-oorsprong [de optie voor het maken van een openbare of persoonlijke oorsprong](use-microsoft-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate).
+U kunt ervoor kiezen om zowel openbare als persoonlijke origins voor uw organisatie te hebben. De meeste organisaties kiezen ervoor om een combinatie van de twee te implementeren. Openbare en private opties bieden vergelijkbare prestatieverbeteringen, maar elk heeft unieke kenmerken en voordelen. Zie Kiezen of elke origin openbaar of privé moet zijn voor meer informatie over openbare en private [CDN-origins.](use-microsoft-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate)
 
-## <a name="how-to-enable-public-and-private-cdn-with-the-default-configuration"></a>Public en private CDN inschakelen met de standaardconfiguratie
-Voordat u wijzigingen aanbrengt in de CDN-instellingen van de Tenant, dient u te controleren of deze voldoet aan naleving, beveiliging en privacybeleid van uw organisatie.
+## <a name="how-to-enable-public-and-private-cdn-with-the-default-configuration"></a>Openbare en privé-cdn inschakelen met de standaardconfiguratie
+Voordat u de tenant-CDN-instellingen wijzigt, moet u controleren of het voldoet aan het compliance-, beveiligings- en privacybeleid van uw organisatie.
 
-Zie het gedeelte [Office 365 CDN instellen en configureren met behulp van de SharePoint Online Management Shell](use-microsoft-365-cdn-with-spo.md#set-up-and-configure-the-office-365-cdn-by-using-the-sharepoint-online-management-shell) voor meer informatie over de configuratie-instellingen of voor het toevoegen van een ander CDN en het toevoegen van extra locaties (oorsprong).
+Zie de sectie [Office 365 CDN](use-microsoft-365-cdn-with-spo.md#set-up-and-configure-the-office-365-cdn-by-using-the-sharepoint-online-management-shell) instellen en configureren met de SharePoint Online Management Shell voor meer gedetailleerde configuratie-instellingen of als u CDN al hebt ingeschakeld en extra locaties (origins) wilt toevoegen.
 
-Maak verbinding met de Tenant met behulp van SharePoint Online Management Shell:
+Maak verbinding met uw tenant met behulp van de SharePoint Online Management Shell:
 
 ```PowerShell
 Connect-SPOService -Url https://<YourTenantName>-admin.sharepoint.com
 ```
 
-Als u wilt dat uw organisatie zowel openbare als persoonlijke Origins gebruikt met de standaardconfiguratie, typt u de volgende opdracht:
+Als u wilt dat uw organisatie zowel openbare als persoonlijke origins met de standaardconfiguratie kan gebruiken, typt u de volgende opdracht:
 
 ```PowerShell
 Set-SPOTenantCdnEnabled -CdnType Both -Enable $true
 ```
 
-De uitvoer van de volgende cmdlets ziet er als volgt uit:
+De uitvoer van deze cmdlets ziet er als volgt uit:
 
 ![Uitvoer van Set-SPOTenantCdnEnabled](../media/O365-CDN/o365-cdn-enable-output.png)
 
 ## <a name="see-also"></a>Zie ook
 
-[Het hulpprogramma pagina diagnose voor SharePoint Online gebruiken](https://aka.ms/perftool)
+[Het hulpprogramma Paginadiagnose gebruiken voor SharePoint Online](./page-diagnostics-for-spo.md)
 
 [Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
 
-[Netwerken voor contentlevering](https://aka.ms/o365cdns)
+[Netwerken voor contentlevering](./content-delivery-networks.md)
 
-[Network planning and performance tuning for Office 365](https://aka.ms/tune)
+[Network planning and performance tuning for Office 365](./network-planning-and-performance.md)
 
-[SharePoint-prestatie serie-Office 365 CDN-VideoReeks](https://www.youtube.com/playlist?list=PLR9nK3mnD-OWMfr1BA9mr5oCw2aJXw4WA)
+[SharePoint Performance Series - Office 365 CDN-videoreeks](https://www.youtube.com/playlist?list=PLR9nK3mnD-OWMfr1BA9mr5oCw2aJXw4WA)

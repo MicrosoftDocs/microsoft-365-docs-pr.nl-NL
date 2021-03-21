@@ -20,116 +20,116 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
-description: In dit artikel worden de Navigatieopties beschreven die beschikbaar zijn voor SharePoint-sites met SharePoint Online.
-ms.openlocfilehash: 86cefc60a26687835fd6a88de7f249143811de4f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: In dit artikel worden sites met navigatieopties beschreven waarin SharePoint Publishing is ingeschakeld in SharePoint Online.
+ms.openlocfilehash: b5989bf26ebf7bb1452f983af89a6e6739821d53
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695712"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923622"
 ---
 # <a name="navigation-options-for-sharepoint-online"></a>Navigatieopties voor SharePoint Online
 
-In dit artikel worden de Navigatieopties beschreven die beschikbaar zijn voor SharePoint-sites met SharePoint Online. De keuze en configuratie van de navigatie zijn sterk van invloed op de prestaties en schaalbaarheid van sites in SharePoint Online. De sjabloon voor de publicerende site van SharePoint mag alleen worden gebruikt als dit vereist is voor een gecentraliseerde Portal en de publicatiefunctie mag alleen worden ingeschakeld op specifieke sites en alleen wanneer de prestaties van invloed kunnen zijn op de prestaties die onjuist worden gebruikt.
+In dit artikel worden sites met navigatieopties beschreven waarin SharePoint Publishing is ingeschakeld in SharePoint Online. De keuze en configuratie van navigatie zijn aanzienlijk van invloed op de prestaties en schaalbaarheid van sites in SharePoint Online. De SharePoint Publishing-sitesjabloon mag alleen worden gebruikt als dit vereist is voor een gecentraliseerde portal en de publicatiefunctie mag alleen worden ingeschakeld op specifieke sites en alleen wanneer dit absoluut vereist is, omdat deze van invloed kan zijn op de prestaties wanneer deze onjuist worden gebruikt.
 
 >[!NOTE]
->Dit artikel is niet van toepassing op uw site als u moderne Navigatieopties voor SharePoint gebruikt, zoals het menu Mega wind, Cascading Navigation of hub Navigation. Moderne SharePoint-site architecturen profiteren van een meer afvlakkige sitehiërarchie en een hub-en-spoke-model. U kunt zo veel scenario's bereiken waarbij de publicatiefunctie van SharePoint niet is vereist.
+>Als u moderne SharePoint-navigatieopties gebruikt, zoals megamenu, trapsgevatte navigatie of hubnavigatie, is dit artikel niet van toepassing op uw site. Moderne SharePoint-sitearchitectuur maakt gebruik van een meer afgeplatte sitehiërarchie en een hub-and-spoke-model. Hierdoor kunnen veel scenario's worden bereikt waarvoor geen gebruik hoeft te worden gemaakt van de SharePoint-publicatiefunctie.
 
-## <a name="overview-of-navigation-options"></a>Overzicht van Navigatieopties
+## <a name="overview-of-navigation-options"></a>Overzicht van navigatieopties
 
-Configuratie van navigatie provider kan een aanzienlijke invloed hebben op de prestaties van de hele site, en zorgvuldige overweging voor het kiezen van een navigatie provider en-configuratie die effectiever schaalt voor de vereisten van een SharePoint-site. Er zijn twee kant-en-klare navigatie providers en aangepaste navigatie-implementaties.
+De configuratie van navigatieproviders kan aanzienlijk van invloed zijn op de prestaties van de hele site en er moet zorgvuldig rekening mee worden gehouden om een navigatieprovider en configuratie te kiezen die effectief schaalt voor de vereisten van een SharePoint-site. Er zijn twee out-of-the-box navigatieproviders, evenals aangepaste navigatie-implementaties.
 
-De eerste optie, [**structurele navigatie**](#using-structural-navigation-in-sharepoint-online), is de aanbevolen optie voor navigatie in SharePoint Online voor klassieke SharePoint-sites, **Als u structurele navigatie in cache voor uw site inschakelt**. Deze navigatie provider toont de navigatie-items onder de huidige site en optioneel de huidige site en de onderliggende items. Het biedt extra mogelijkheden, zoals beveiligingsbeperkingen en inventarisatie van site structuren. Als caching is uitgeschakeld, heeft dit een negatieve invloed op de prestaties en schaalbaarheid, en kan de beperking gelden.
+De eerste optie, [**Structurele navigatie,**](#using-structural-navigation-in-sharepoint-online)is de aanbevolen navigatieoptie in SharePoint Online voor klassieke Sharepoint-sites, als u structurele **navigatie-caching voor uw site in- of uitkeert.** Deze navigatieprovider geeft de navigatie-items weer onder de huidige site, en eventueel de huidige site en de huidige locatie. Het biedt extra mogelijkheden, zoals beveiliging bijsnijden en het opsnoemen van sitestructuur. Als caching is uitgeschakeld, heeft dit een negatieve invloed op de prestaties en schaalbaarheid en kan de beperking van de caching van invloed zijn.
 
-Met de tweede optie, [**beheerde metagegevens (metagegevens)**](#using-managed-navigation-and-metadata-in-sharepoint-online), stelt u navigatie-items met behulp van een Termenset beheerde metagegevens. U wordt aangeraden beveiligingsbeperkingen uit te schakelen, tenzij nodig. Beveiligingsbeperking is ingeschakeld als een veilig-standaardinstelling voor deze navigatie provider. voor veel sites is de overhead van beveiligingsbeperkingen niet vereist omdat navigatie-elementen vaak consistent zijn voor alle gebruikers van de site. Met de aanbevolen configuratie voor het uitschakelen van beveiligingsbeperkingen, moet u de sitestructuur niet met een inventarisatie van de sitestructuur en is deze met een acceptabele gevolgen voor de prestaties zeer uitgebreid.
+De tweede optie, [**Beheerde navigatie (metagegevens),**](#using-managed-navigation-and-metadata-in-sharepoint-online)vertegenwoordigt navigatie-items met behulp van een termset beheerde metagegevens. U wordt aangeraden beveiligingssnijding uit te staan, tenzij dit vereist is. Beveiligingssnijding is ingeschakeld als een standaardinstelling voor deze navigatieprovider. Voor veel sites hoeft echter niet de beveiliging te worden bijgesneden, omdat navigatie-elementen vaak consistent zijn voor alle gebruikers van de site. Met de aanbevolen configuratie om beveiligingsscheiding uit te schakelen, hoeft deze navigatieprovider geen sitestructuur op te geven en is deze zeer schaalbaar met acceptabele prestatie-effecten.
 
-Naast de kant-en-klare navigatie providers hebben veel klanten een alternatieve aangepaste navigatie-implementatie geïmplementeerd. Zie [scripts op basis van de zoekopdracht aan de clientzijde](#using-search-driven-client-side-scripting) van dit artikel.
+Naast de out-of-the-box navigatieproviders hebben veel klanten ook alternatieve aangepaste navigatie-implementaties geïmplementeerd. Zie [Op zoek gebaseerde clientscripting](#using-search-driven-client-side-scripting) in dit artikel.
   
-## <a name="pros-and-cons-of-sharepoint-online-navigation-options"></a>Voor-en nadelen van Navigatieopties voor SharePoint Online
+## <a name="pros-and-cons-of-sharepoint-online-navigation-options"></a>Voor- en nadelen van navigatieopties voor SharePoint Online
 
-De volgende tabel bevat een overzicht van de voor-en nadelen van elke optie.
+In de volgende tabel worden de voor- en nadelen van elke optie samengevat.
 
-|Structurele navigatie  |Beheerde navigatie  |Navigatie met zoekopdrachten  |Aangepaste operator voor navigatie  |
+|Structurele navigatie  |Beheerde navigatie  |Navigatie op zoek  |Provider voor aangepaste navigatie  |
 |---------|---------|---------|---------|
-|-Professionals<br/><br/>Gemakkelijk te onderhouden<br/>Beveiligingsbeperking<br/>Automatisch updates binnen 24 uur wanneer inhoud wordt gewijzigd<br/>     |-Professionals<br/><br/>Gemakkelijk te onderhouden<br/>|-Professionals<br/><br/>Beveiligingsbeperking<br/>Wordt automatisch bijgewerkt wanneer sites worden toegevoegd<br/>Snel laadtijd en navigatiestructuur in de lokale cache<br/>|-Professionals<br/><br/>Uitgebreide optie voor beschikbare opties<br/>Snel laden wanneer cache correct wordt gebruikt<br/>Een groot aantal opties werken goed met een reactie pagina-ontwerp<br/>|
-|Nadelen<br/><br/>**Beïnvloedt de prestaties als het opslaan van de cache is uitgeschakeld**<br/>Onderworpen aan beperking<br/>|Nadelen<br/><br/>Niet automatisch bijgewerkt overeenkomstig de sitestructuur<br/>**Beïnvloedt de prestaties als beveiligingsbeperkingen zijn ingeschakeld** of als de navigatiestructuur complex is<br/>|Nadelen<br/><br/>Geen mogelijkheid om sites eenvoudig te rangschikken<br/>Aanpassing van de basispagina vereist (technische vaardigheden vereist)<br/>|Nadelen<br/><br/>Aangepaste ontwikkeling is vereist<br/>Extern gegevensbron/cache opslaan is vereist, zoals Azure<br/>|
+|Professionals:<br/><br/>Eenvoudig te onderhouden<br/>Beveiliging bijgesneden<br/>Automatisch updates binnen 24 uur wanneer inhoud wordt gewijzigd<br/>     |Professionals:<br/><br/>Eenvoudig te onderhouden<br/>|Professionals:<br/><br/>Beveiliging bijgesneden<br/>Automatisch updates wanneer sites worden toegevoegd<br/>Snelle laadtijd en navigatiestructuur met lokaal cachegeheugen<br/>|Professionals:<br/><br/>Bredere keuze aan beschikbare opties<br/>Snel laden wanneer caching correct wordt gebruikt<br/>Veel opties werken goed met het snel reagerende paginaontwerp<br/>|
+|Nadelen:<br/><br/>**Invloed op de prestaties als caching is uitgeschakeld**<br/>Afhankelijk van beperking<br/>|Nadelen:<br/><br/>Niet automatisch bijgewerkt om de sitestructuur weer te geven<br/>**Beïnvloedt de prestaties als beveiligingsmaatregelen zijn ingeschakeld of** als de navigatiestructuur complex is<br/>|Nadelen:<br/><br/>Geen mogelijkheid om eenvoudig sites te bestellen<br/>Vereist aanpassing van de basispagina (technische vaardigheden vereist)<br/>|Nadelen:<br/><br/>Aangepaste ontwikkeling is vereist<br/>Externe gegevensbron/cache die is opgeslagen, is nodig, bijvoorbeeld Azure<br/>|
 
-De meest geschikte optie voor uw site is afhankelijk van de vereisten van uw site en over de technische mogelijkheden. Als u een eenvoudig te configureren navigatie provider wilt die automatisch wordt bijgewerkt wanneer de inhoud wordt gewijzigd, kunt u het beste de structurele navigatie met de optie [voor het opslaan van een cache](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43) .
+De meest geschikte optie voor uw site is afhankelijk van uw sitevereisten en van uw technische mogelijkheden. Als u een eenvoudig te configureren navigatieprovider wilt die automatisch wordt bijgewerkt wanneer inhoud wordt gewijzigd, is structurele navigatie met [ingeschakelde caching](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43) een goede optie.
 
 >[!NOTE]
->Hetzelfde beginsel toepassen als moderne SharePoint-sites door de structuur van de hele site te vereenvoudigen tot een flatter, een niet-hiërarchische structuur verbetert de prestaties en vergemakkelijkt de overstap naar moderne SharePoint-sites. Wat betekent dit? in plaats van dat u één siteverzameling met honderden sites (subwebs) hebt, is het een betere manier om veel siteverzamelingen met een groot aantal subsites (subwebs) te gebruiken.
+>Het toepassen van hetzelfde principe als moderne SharePoint-sites door de algehele sitestructuur te vereenvoudigen naar een vlakkere, niet-hiërarchische structuur, verbetert de prestaties en vereenvoudigt de overstap naar moderne SharePoint-sites. Dit betekent dat in plaats van één siteverzameling met honderden sites (subwebs) veel siteverzamelingen met zeer weinig subsites (subwebs) te hebben.
 
 ## <a name="analyzing-navigation-performance-in-sharepoint-online"></a>Navigatieprestaties analyseren in SharePoint Online
 
-Het [hulpprogramma pagina diagnose voor SharePoint](https://aka.ms/perftool) is een browser extensie voor browsers van Microsoft Edge en Chrome waarmee de pagina's van SharePoint Online voor de moderne Portal en de klassieke publicatiesite worden geanalyseerd. Dit hulpprogramma werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+Het [hulpprogramma Paginadiagnose](./page-diagnostics-for-spo.md) voor SharePoint is een browserextensie voor Microsoft Edge- en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke publicerende sitepagina's worden geanalyseerd. Dit hulpprogramma werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
 
-Met het hulpprogramma wordt een rapport gegenereerd voor elke geanalyseerde pagina op basis van de manier waarop de pagina wordt uitgevoerd met een vooraf gedefinieerde set regels en gedetailleerde informatie wordt weergegeven wanneer resultaten van een test buiten de waarde van de basislijn vallen. Beheerders van SharePoint Online kunnen het hulpprogramma gebruiken voor het oplossen van prestatieproblemen om ervoor te zorgen dat nieuwe pagina's worden geoptimaliseerd voordat ze worden gepubliceerd.
+Het hulpprogramma genereert een rapport voor elke geanalyseerde pagina waarin wordt weergegeven hoe de pagina presteert ten opzichte van een vooraf gedefinieerde set regels en gedetailleerde informatie wekt wanneer de resultaten voor een test buiten de basislijnwaarde vallen. Beheerders en ontwerpers van SharePoint Online kunnen het hulpprogramma gebruiken om prestatieproblemen op te lossen om ervoor te zorgen dat nieuwe pagina's worden geoptimaliseerd voordat ze worden gepubliceerd.
 
-**SPRequestDuration** met name is de tijd die het voor de verwerking van de pagina in SharePoint duurt. Dikke navigatie (zoals pagina's in navigatie), complexe site hiërarchieën en andere configuratie-en topologie opties kunnen alle grote bijdrage leveren aan langere duur.
+**SPRequestDuration** is met name de tijd die nodig is om de pagina te verwerken in SharePoint. Zware navigatie (zoals pagina's in navigatie), complexe sitehiërarchieën en andere configuratie- en topologieopties kunnen allemaal aanzienlijk bijdragen aan langere duur.
 
-## <a name="using-structural-navigation-in-sharepoint-online"></a>Structurele navigatie in SharePoint Online gebruiken
+## <a name="using-structural-navigation-in-sharepoint-online"></a>Structurele navigatie gebruiken in SharePoint Online
 
-Dit is de kant-en-klare navigatie die standaard wordt gebruikt voor de meest eenvoudige oplossing. Het is niet verplicht om wijzigingen aan te brengen en een niet-technische gebruiker hoeft ook snel items toe te voegen, items te verbergen en de navigatie op de pagina instellingen te beheren. U wordt aangeraden [cache in te schakelen](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43), anders is er een duurder voor de prestaties.
+Dit is de standaard gebruikte standaardnavigatie en is de meest eenvoudige oplossing. Er is geen aanpassing vereist en een niet-technische gebruiker kan ook eenvoudig items toevoegen, items verbergen en de navigatie beheren vanaf de pagina Instellingen. Het is [raadzaam om caching in te](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43)schakelen, anders is er sprake van een dure prestatie-trade-off.
 
-### <a name="how-to-implement-structural-navigation-caching"></a>Structurele navigatie in cache implementeren
+### <a name="how-to-implement-structural-navigation-caching"></a>Structurele navigatie caching implementeren
 
-In **Site Settings**  >  **Look and Feel**  >  **Navigation**het uiterlijk van site-instellingen kunt u controleren of structurele navigatie is geselecteerd voor globale navigatie of de huidige navigatie. Het selecteren van **pagina's weergeven** heeft een negatieve impact op de prestaties.
+Onder **Site-instellingen** Navigatie zoeken en voelen kunt u valideren of structurele navigatie is geselecteerd voor globale navigatie  >    >  of huidige navigatie. Als **u Pagina's** tonen selecteert, heeft dit een negatief effect op de prestaties.
 
-![Structurele navigatie met subsites weergeven geselecteerd](../media/SPONavOptionsStructuredShowSubsites.png)
+![Structurele navigatie met Subsites weergeven geselecteerd](../media/SPONavOptionsStructuredShowSubsites.png)
 
-U kunt in-en uitschakelen op siteverzamelingsniveau en op siteniveau, en is standaard ingeschakeld voor beide. Als u het niveau van de siteverzameling wilt inschakelen, schakelt u onder **site-instellingen**siteverzameling  >  **beheren**  >  **Site Collection Navigation**de optie **cache inschakelen**in.
+Caching kan worden ingeschakeld of uitgeschakeld op siteverzamelingsniveau en op siteniveau en is standaard ingeschakeld voor beide. Als u op het niveau van de siteverzameling wilt inschakelen, schakel u onder  >  **Site-instellingen Siteverzamelingsbeheer** siteverzamelingsnavigatie  >  het selectievakje **Caching inschakelen in.**
 
-![Cache inschakelen op siteniveau](../media/structural-nav/structural-nav-caching-site-coll.png)
+![Caching op siteniveau inschakelen](../media/structural-nav/structural-nav-caching-site-coll.png)
 
-Als u het siteniveau wilt inschakelen, **Site Settings**schakelt u onder  >  **Navigatie**van site-instellingen het selectievakje **cache inschakelen**in.
+Als u op siteniveau wilt inschakelen, schakel onder **Navigatie site-instellingen**  >  het selectievakje **Caching inschakelen in.**
 
-![Cache inschakelen op siteniveau](../media/structural-nav/structural-nav-caching-site.png)
+![Caching op siteniveau inschakelen](../media/structural-nav/structural-nav-caching-site.png)
 
 ## <a name="using-managed-navigation-and-metadata-in-sharepoint-online"></a>Beheerde navigatie en metagegevens gebruiken in SharePoint Online
 
-Beheerde navigatie is een andere gebruiksklare optie die u kunt gebruiken om dezelfde functionaliteit als de structurele navigatie opnieuw te maken. Beheerde metagegevens kunnen worden geconfigureerd om beveiligingsbeperkingen in of uit te schakelen. Wanneer de configuratie is uitgeschakeld met beveiligingsbeperkingen uitgeschakeld, is beheerde navigatie tamelijk efficiënt omdat alle navigatiekoppelingen met een constant aantal Server oproepen worden geladen. Door beveiligingsbeperkingen in te schakelen, worden echter wel enkele prestatievoordelen van beheerde navigatie genegeerd.
+Beheerde navigatie is een andere out-of-the-box-optie die u kunt gebruiken om de meeste van dezelfde functionaliteit opnieuw te maken als structurele navigatie. Beheerde metagegevens kunnen zo worden geconfigureerd dat beveiligingssnijding is ingeschakeld of uitgeschakeld. Wanneer het beveiligingsbeheer is uitgeschakeld, is beheerde navigatie redelijk efficiënt omdat alle navigatiekoppelingen worden geladen met een constant aantal serveroproepen. Als u beveiligingsmaatregelen inschakelen, worden enkele prestatievoordelen van beheerde navigatie echter niet bespreekbaar.
 
-Als u beveiligingsbeperkingen moet inschakelen, is het raadzaam om het volgende te doen:
+Als u beveiliging wilt inschakelen, raden we u aan het volgende te doen:
 
-- Alle beschrijvende URL-koppelingen naar eenvoudige koppelingen bijwerken
-- Vereiste beveiligingsbeperkingen toevoegen knooppunten als beschrijvende Url's
-- Beperk het aantal navigatie-items tot maximaal 100 en mag niet groter zijn dan 3 niveaus.
+- Alle vriendelijke URL-koppelingen naar eenvoudige koppelingen bijwerken
+- Vereiste beveiligingsknooppunten toevoegen als vriendelijke URL's
+- Het aantal navigatie-items beperken tot maximaal 100 en maximaal 3 niveaus diep
 
-Voor veel sites is geen beveiliging van beveiligingsbeperkingen vereist, aangezien de navigatiestructuur vaak consistent is voor alle gebruikers van de site. Als beveiligingsbeperkingen zijn uitgeschakeld en een koppeling wordt toegevoegd aan een navigatie die niet door alle gebruikers is geopend, wordt de koppeling weergegeven maar wordt er een bericht weergegeven dat toegang is geweigerd. Er is geen risico dat onopzettelijk toegang heeft tot de inhoud.
+Voor veel sites is geen beveiliging nodig, omdat de navigatiestructuur vaak consistent is voor alle gebruikers van de site. Als beveiligingsbeveiligingsbeveiliging is uitgeschakeld en er een koppeling wordt toegevoegd aan navigatie waar niet alle gebruikers toegang toe hebben, wordt de koppeling nog steeds weergegeven, maar wordt een bericht met toegang geweigerd weergegeven. Er bestaat geen risico op onbedoelde toegang tot de inhoud.
 
-### <a name="how-to-implement-managed-navigation-and-the-results"></a>Het implementeren van beheerde navigatie en de resultaten
+### <a name="how-to-implement-managed-navigation-and-the-results"></a>Beheerde navigatie en de resultaten implementeren
 
-Er zijn verschillende artikelen over docs.microsoft.com over de details van beheerde navigatie. Zie [overzicht van beheerde navigatie in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/overview-of-managed-navigation)voor meer informatie.
+Er zijn verschillende artikelen over docs.microsoft.com over de details van beheerde navigatie. Zie Bijvoorbeeld Overzicht [van beheerde navigatie in SharePoint Server.](/sharepoint/administration/overview-of-managed-navigation)
 
-Als u beheerde navigatie wilt implementeren, stelt u termen in met Url's die overeenkomen met de navigatiestructuur van de site. Beheerde navigatie kan zelfs handmatig worden gecurator om structurele navigatie in veel gevallen te vervangen. Bijvoorbeeld:
+Als u beheerde navigatie wilt implementeren, stelt u voorwaarden in met URL's die overeenkomen met de navigatiestructuur van de site. Beheerde navigatie kan zelfs handmatig worden samengesteld om structurele navigatie in veel gevallen te vervangen. Bijvoorbeeld:
 
 ![SharePoint Online-sitestructuur](../media/SPONavOptionsListOfSites.png))
 
-## <a name="using-search-driven-client-side-scripting"></a>Het gebruik van scripts met zoekopdrachten aan de clientzijde
+## <a name="using-search-driven-client-side-scripting"></a>Scripting op basis van zoekgestuurde client
 
-Eén veelgebruikte klasse van aangepaste navigatie-implementaties omvat een client weergave van de client weergave die een lokale cache van navigatieknooppunten opslaat.
+Een veelgebruikte klasse van aangepaste navigatie-implementaties omvat door de client gerenderde ontwerppatronen die een lokale cache met navigatieknooppunten opslaan.
 
-Deze navigatie providers bieden een aantal belangrijke voordelen:
+Deze navigatieproviders hebben een paar belangrijke voordelen:
 
-- Algemeen werken ze prima met beantwoordings pagina ontwerpen.
-- Ze zijn zeer schaalbaar en presteert, omdat ze zonder resourcekosten kunnen weergeven (en de achtergrond na een time-out vernieuwen).
-- Met behulp van de volgende navigatie providers kunt u navigatie gegevens ophalen met behulp van verschillende strategieën, variërend van eenvoudige statische configuraties tot diverse dynamische gegevensproviders.
+- Ze werken over het algemeen goed met snel reagerende paginaontwerpen.
+- Ze zijn zeer schaalbaar en performant omdat ze zonder resourcekosten kunnen worden weergegeven (en vernieuwen op de achtergrond na een time-out).
+- Deze navigatieproviders kunnen navigatiegegevens ophalen met behulp van verschillende strategieën, variërend van eenvoudige statische configuraties tot verschillende dynamische gegevensproviders.
 
-Een voorbeeld van een gegevensprovider is het gebruik van een **zoekopdracht met een zoekopdracht**, wat flexibiliteit biedt voor het inkorten van navigatieknooppunten en de verwerking van beveiligingsbeperkingen.
+Een voorbeeld van een gegevensprovider is het gebruik van een op zoeken gebaseerde **navigatie,** waarmee u flexibel navigatieknooppunten kunt opsnoemen en beveiliging efficiënt kunt inkorten.
 
-Er zijn andere populaire opties om **aangepaste navigatie providers**te maken. Controleer de [Navigatie oplossingen voor SharePoint Online-portals](https://docs.microsoft.com/sharepoint/dev/solution-guidance/portal-navigation) voor meer informatie over het maken van een aangepaste navigatie provider.
+Er zijn andere populaire opties voor het maken **van aangepaste navigatieproviders.** Bekijk [navigatieoplossingen voor SharePoint Online-portals](/sharepoint/dev/solution-guidance/portal-navigation) voor meer informatie over het bouwen van een aangepaste navigatieprovider.
 
-Met de functie zoeken kunt u de indexen gebruiken die op de achtergrond zijn opgebouwd via continue crawl. De zoekresultaten worden vanuit de zoekindex getrokken en de resultaten worden ingekort. Dit is doorgaans sneller dan de kant-en-klare navigatie providers wanneer beveiligingsbeperkingen vereist zijn. Met de zoekfunctie van structurele navigatie, met name als u een complexe sitestructuur hebt, wordt de laadtijd van de pagina aanzienlijk sneller weergegeven. Het voordeel van dit object via beheerde navigatie is dat u profiteert van beveiligingsbeperkingen.
+Met behulp van zoeken kunt u gebruikmaken van de indexen die op de achtergrond zijn opgebouwd met behulp van continue verkenning. De zoekresultaten worden uit de zoekindex gehaald en de resultaten worden met beveiliging bijgesneden. Dit is over het algemeen sneller dan out-of-the-box navigatieproviders wanneer beveiliging moet worden bijgesneden. Als u zoekt naar structurele navigatie, met name als u een complexe sitestructuur hebt, wordt het laden van pagina's aanzienlijk sneller. Het belangrijkste voordeel hiervan ten opzichte van beheerde navigatie is dat u profiteert van beveiliging.
 
-Voor deze manier moet u een aangepaste basispagina maken en de niet-geminimaliseerde navigatie code vervangen door aangepaste HTML. Voer de volgende stappen uit in het volgende voorbeeld om de navigatie code in het bestand te vervangen `seattle.html` . In dit voorbeeld opent u het `seattle.html` bestand en vervangt u het hele element door een `id="DeltaTopNavigation"` aangepaste HTML-code.
+Bij deze benadering moet u een aangepaste basispagina maken en de out-of-the-box-navigatiecode vervangen door aangepaste HTML. Volg deze procedure die in het volgende voorbeeld wordt beschreven om de navigatiecode in het bestand te `seattle.html` vervangen. In dit voorbeeld opent u het `seattle.html` bestand en vervangt u het hele element door aangepaste `id="DeltaTopNavigation"` HTML-code.
 
-### <a name="example-replace-the-out-of-the-box-navigation-code-in-a-master-page"></a>Voorbeeld: de niet-gegroepeerde navigatie code op een basispagina vervangen
+### <a name="example-replace-the-out-of-the-box-navigation-code-in-a-master-page"></a>Voorbeeld: De out-of-the-box-navigatiecode op een basispagina vervangen
 
 1. Ga naar de pagina Site-instellingen.
-2. Open de galerie met basispagina's door op **basispagina's**te klikken.
-3. Van hieruit kunt u door de bibliotheek navigeren en het bestand downloaden `seattle.master` .
-4. Bewerk de code met een teksteditor en verwijder het codeblok dat in de volgende schermafbeelding wordt weergegeven.<br/>![Het weergegeven codeblok verwijderen](../media/SPONavOptionsDeleteCodeBlock.png)<br/>
-5. Verwijder de code tussen de `<SharePoint:AjaxDelta id="DeltaTopNavigation">` `<\SharePoint:AjaxDelta>` labels en en vervang deze door het volgende fragment:<br/>
+2. Open de galerie met basispagina's door op **Basispagina's te klikken.**
+3. Vanaf hier kunt u door de bibliotheek navigeren en het bestand `seattle.master` downloaden.
+4. Bewerk de code met een teksteditor en verwijder het codeblok in de volgende schermafbeelding.<br/>![Het weergegeven codeblok verwijderen](../media/SPONavOptionsDeleteCodeBlock.png)<br/>
+5. Verwijder de code tussen de `<SharePoint:AjaxDelta id="DeltaTopNavigation">` tags en vervang deze door het volgende `<\SharePoint:AjaxDelta>` fragment:<br/>
 
 ```javascript
 <div id="loading">
@@ -200,30 +200,30 @@ Voor deze manier moet u een aangepaste basispagina maken en de niet-geminimalise
 ```
 
 <br/>
-6. Vervang de URL in de afbeeldings ankerpunt die aan het begin wordt geladen, met een koppeling naar een laadafbeelding in de siteverzameling. Nadat u de wijzigingen hebt aangebracht, wijzigt u de naam van het bestand en uploadt u het naar de galerie met basispagina's. Hiermee wordt een nieuw modelbestand gegenereerd.<br/>
-7. Dit HTML-bestand bevat de basis markeringen die worden gevuld met de zoekresultaten die worden opgehaald uit een JavaScript-code. U moet de code bewerken voor het wijzigen van de waarde voor de ' var root = ' siteverzameling-URL ' zoals wordt aangetoond in het volgende fragment:<br/>
+6. Vervang de URL in het ankerlabel voor het laden van de afbeelding aan het begin, door een koppeling naar een laadafbeelding in uw siteverzameling. Nadat u de wijzigingen hebt aangebracht, wijzigt u de naam van het bestand en uploadt u het naar de galerie met basispagina's. Hiermee wordt een nieuw .master-bestand gegenereerd.<br/>
+7. Deze HTML is de basisopmerking die wordt ingevuld door de zoekresultaten die worden geretourneerd uit JavaScript-code. U moet de code bewerken om de waarde voor var-hoofdmap = 'URL van de siteverzameling' te wijzigen, zoals wordt gedemonstreerd in het volgende fragment:<br/>
 
 ```javascript
 var root = "https://spperformance.sharepoint.com/sites/NavigationBySearch";
 ```
 
 <br/>
-8. De resultaten worden toegewezen aan de matrix Self. nodes en er wordt een hiërarchie opgebouwd op basis van de objecten die linq.js de uitvoer toewijzen aan een matrix Self. Hierarchy. Deze matrix is het object dat is gekoppeld aan de HTML. Dit gebeurt in de toggleView ()-functie door het selfservice object te geven aan de functie ko. applyBinding ().<br/>Hierdoor wordt de hiërarchie matrix gebonden aan de volgende HTML:<br/>
+8. De resultaten worden toegewezen aan de matrix self.nodes en een hiërarchie is opgebouwd uit de objecten met behulp van linq.js de uitvoer toe te wijzen aan een zelfhiërarchie van een matrix. Deze matrix is het object dat is gebonden aan de HTML. Dit gebeurt in de functie Beeld() door het zelfobject door te geven aan de functie ko.applyBinding().<br/>Hierdoor wordt de hiërarchiearray gebonden aan de volgende HTML:<br/>
 
 ```javascript
 <div data-bind="foreach: hierarchy" class="noindex ms-core-listMenu-horizontalBox">
 ```
 
-De gebeurtenis-handlers voor `mouseenter` en `mouseexit` worden toegevoegd aan de navigatie op het hoogste niveau voor het verwerken van de vervolgkeuzelijsten van subsites die in de functie worden uitgevoerd `addEventsToElements()` .
+De gebeurtenis handlers voor en worden toegevoegd aan de navigatie op het hoogste niveau om de vervolgkeuzemenu's van de subsite te verwerken die `mouseenter` in de functie worden `mouseexit` `addEventsToElements()` uitgevoerd.
 
-In het voorbeeld van complexe navigatie wordt een nieuwe pagina geladen zonder de lokale cache weergegeven de tijd die aan de server is besteed en die een vergelijkbaar resultaat oplevert als de beheerde navigatie aanpak.
+In ons complexe navigatievoorbeeld wordt met een nieuwe paginabelasting zonder de lokale caching de tijd die aan de server is besteed, afgesneden van de structurele navigatie voor benchmarks om een vergelijkbaar resultaat te krijgen als de beheerde navigatieaanpak.
 
-### <a name="about-the-javascript-file"></a>Info over het JavaScript-bestand...
+### <a name="about-the-javascript-file"></a>Over het JavaScript-bestand...
 
 >[!NOTE]
->Als u aangepaste JavaScript gebruikt, moet u ervoor zorgen dat openbare CDN is ingeschakeld en dat het bestand zich op een CDN-locatie bevindt.
+>Als u aangepaste JavaScript gebruikt, controleert u of openbaar CDN is ingeschakeld en dat het bestand zich op een CDN-locatie bevindt.
 
-Het volledige JavaScript-bestand is als volgt:
+Het hele JavaScript-bestand is als volgt:
 
 ```javascript
 //Models and Namespaces
@@ -458,27 +458,27 @@ function addEventsToElements() {
 
 ```
 
-Als u de code wilt samenvatten die hierboven wordt weergegeven, wordt de functie `jQuery $(document).ready` `viewModel object` gemaakt en wordt de `loadNavigationNodes()` functie van dat object aangeroepen. Met deze functie wordt de eerder gemaakte navigatiehiërarchie geladen die is opgeslagen in de lokale HTML5-opslag van de client van de client of wordt de functie aangeroepen `queryRemoteInterface()` .
+Als u de code wilt samenvatten die hierboven wordt weergegeven in de functie, wordt er een gemaakt en wordt de `jQuery $(document).ready` functie op dat object `viewModel object` `loadNavigationNodes()` aangeroepen. Met deze functie wordt de eerder gebouwde navigatiehiërarchie geladen die is opgeslagen in de lokale HTML5-opslag van de clientbrowser of wordt de functie `queryRemoteInterface()` aanroepen.
 
-`QueryRemoteInterface()` maakt een aanvraag met de `getRequest()` functie met de queryparameter eerder gedefinieerd in het script en retourneert vervolgens gegevens van de server. Deze gegevens zijn in feite een array van alle sites in de siteverzameling die wordt voorgesteld als objecten voor gegevensoverdracht met diverse eigenschappen.
+`QueryRemoteInterface()` maakt een aanvraag met behulp van de functie met de queryparameter die eerder in het script is gedefinieerd en retourneert vervolgens `getRequest()` gegevens van de server. Deze gegevens zijn in feite een matrix van alle sites in de siteverzameling die worden weergegeven als objecten voor gegevensoverdracht met verschillende eigenschappen.
 
-Deze gegevens worden vervolgens geparseerd naar de eerder gedefinieerde `SPO.Models.NavigationNode` objecten die `Knockout.js` de waarden voor het gebruik van de gegevens in de opgegeven HTML moeten worden gebruikt voor het maken van waarneembare eigenschappen.
+Deze gegevens worden vervolgens geparseerd in de eerder gedefinieerde objecten die worden gebruikt om waarneembare eigenschappen te maken voor gebruik door gegevens die de waarden binden aan de HTML die we eerder `SPO.Models.NavigationNode` `Knockout.js` hebben gedefinieerd.
 
-De objecten worden vervolgens opgenomen in een resultatenmatrix. Deze matrix wordt in JSON geparseerd met behulp van afdek kracht en opgeslagen in de lokale browser opslag voor betere prestaties op toekomstige pagina's.
+De objecten worden vervolgens in een resultatenarray gezet. Deze matrix wordt geparseerd in JSON met Behulp van Knockout en opgeslagen in de lokale browseropslag voor verbeterde prestaties bij toekomstige paginabelastingen.
 
-### <a name="benefits-of-this-approach"></a>Voordelen van deze aanpak
+### <a name="benefits-of-this-approach"></a>Voordelen van deze benadering
 
-Een belangrijk voordeel van [deze methode](#example-replace-the-out-of-the-box-navigation-code-in-a-master-page) is dat met behulp van de lokale HTML5-opslag de navigatie voor de gebruiker lokaal wordt opgeslagen wanneer deze de pagina een volgende keer laadt. We gaan belangrijke prestatieverbeteringen in het gebruik van de zoek-API voor structurele navigatie. het kan echter wel enkele technische mogelijkheden voor het uitvoeren van deze functionaliteit en het aanpassen van deze functionaliteit.
+Een belangrijk voordeel van [deze benadering](#example-replace-the-out-of-the-box-navigation-code-in-a-master-page) is dat de navigatie lokaal wordt opgeslagen door html5-opslag, zodat de gebruiker de volgende keer dat de pagina wordt geladen, lokaal wordt opgeslagen. We krijgen belangrijke prestatieverbeteringen van het gebruik van de zoek-API voor structurele navigatie. Er is echter enige technische mogelijkheid nodig om deze functionaliteit uit te voeren en aan te passen.
 
-In de [Voorbeeldimplementatie](#example-replace-the-out-of-the-box-navigation-code-in-a-master-page)worden de sites op dezelfde manier geordend als de kant-en-klare structurele navigatie. alfabetische volgorde. Als u wilt afwijken van deze volgorde, is het ingewikkelder om te ontwikkelen en te onderhouden. Voor deze methode moet u ook afwijken van de ondersteunde basispagina's. Als de aangepaste basispagina niet wordt bijgehouden, mist de site updates en verbeteringen die door Microsoft worden aangebracht in de basispagina's.
+In de [voorbeelduitvoering](#example-replace-the-out-of-the-box-navigation-code-in-a-master-page)worden de sites op dezelfde manier geordend als de kant-en-zover structurele navigatie. alfabetische volgorde. Als u van deze volgorde wilt afwijken, is het ingewikkelder om deze te ontwikkelen en te onderhouden. Voor deze benadering moet u ook afwijken van de ondersteunde basispagina's. Als de aangepaste basispagina niet wordt onderhouden, mist uw site updates en verbeteringen die Microsoft aan de basispagina's aanbreed.
 
 De [bovenstaande code](#about-the-javascript-file) heeft de volgende afhankelijkheden:
 
-- jQuery https://jquery.com/
-- KnockoutJS https://knockoutjs.com/
-- Linq.js- https://linqjs.codeplex.com/ of github.com/neuecc/linq.js
+- jQuery - https://jquery.com/
+- KnockoutJS - https://knockoutjs.com/
+- Linq.js - https://linqjs.codeplex.com/ of github.com/neuecc/linq.js
 
-De huidige versie van LinqJS bevat niet de methode ByHierarchy die in de bovenstaande code is gebruikt en verbreekt de navigatie code. U kunt dit oplossen door de volgende methode toe te voegen aan het Linq.js-bestand vóór de regel `Flatten: function ()` .
+De huidige versie van LinqJS bevat niet de methode ByHierarchy die in de bovenstaande code wordt gebruikt en zal de navigatiecode breken. Als u dit wilt oplossen, voegt u de volgende methode toe aan het Linq.js vóór de `Flatten: function ()` regel.
 
 ```javascript
 ByHierarchy: function(firstLevel, connectBy, orderBy, ascending, parent) {
@@ -545,6 +545,6 @@ ByHierarchy: function(firstLevel, connectBy, orderBy, ascending, parent) {
   
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Overzicht van beheerde navigatie in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/overview-of-managed-navigation)
+[Overzicht van beheerde navigatie in SharePoint Server](/sharepoint/administration/overview-of-managed-navigation)
 
-[Opslag en prestaties van structurele navigatie](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43)
+[Structurele navigatie caching en prestaties](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43)

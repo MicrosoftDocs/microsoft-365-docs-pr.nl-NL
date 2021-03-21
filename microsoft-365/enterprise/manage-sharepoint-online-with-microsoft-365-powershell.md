@@ -20,24 +20,24 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: Meer informatie over het gebruik van PowerShell voor Microsoft 365 voor het beheren van gebruikers, groepen en sitegroepen.
-ms.openlocfilehash: dd3ae1ee27d0a3e7c46eb4b62b42165279656aeb
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: bb7c48a5a44bc82aa0a16e0d38c7ea5036358ee7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429804"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923265"
 ---
 # <a name="manage-sharepoint-with-powershell"></a>SharePoint beheren met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-SharePoint-beheerders moeten sites, sitegroepen en gebruikers beheren. Hoewel u enkele van deze taken kunt uitvoeren in het Microsoft 365-Beheercentrum, zijn anderen eenvoudiger in PowerShell. Zie de volgende artikelen voor meer informatie:
+SharePoint-beheerders moeten sites, sitegroepen en gebruikers beheren. Hoewel u sommige van deze taken kunt uitvoeren in het Microsoft 365-beheercentrum, zijn andere taken eenvoudiger in PowerShell. Zie de volgende artikelen voor meer informatie:
 
-- [Aan de slag met SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+- [Aan de slag met SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
   
-- [SharePoint Online-sites maken en gebruikers toevoegen met PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
+- [SharePoint-onlinesites maken en gebruikers toevoegen met PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
     
-- [Gebruikers en groepen van SharePoint Online beheren met PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
+- [SharePoint Online-gebruikers en -groepen beheren met PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
     
 - [SharePoint Online-sitegroepen beheren met PowerShell](manage-sharepoint-site-groups-with-powershell.md)
     
