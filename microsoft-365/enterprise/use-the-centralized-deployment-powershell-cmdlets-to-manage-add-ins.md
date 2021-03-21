@@ -19,39 +19,39 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: Gebruik de PowerShell-cmdlets voor gecentraliseerde implementatie om Office-invoegtoepassingen te implementeren en beheren voor uw Microsoft 365-organisatie.
-ms.openlocfilehash: 659f12d2533601c4b2165a95ddbf59ea521945b8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Gebruik de Centralized Deployment PowerShell-cmdlets om u te helpen bij het implementeren en beheren van Office-invoegingen voor uw Microsoft 365-organisatie.
+ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689437"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924670"
 ---
-# <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a><span data-ttu-id="15355-103">Use the Centralized Deployment PowerShell cmdlets to manage add-ins</span><span class="sxs-lookup"><span data-stu-id="15355-103">Use the Centralized Deployment PowerShell cmdlets to manage add-ins</span></span>
+# <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a><span data-ttu-id="a434e-103">Use the Centralized Deployment PowerShell cmdlets to manage add-ins</span><span class="sxs-lookup"><span data-stu-id="a434e-103">Use the Centralized Deployment PowerShell cmdlets to manage add-ins</span></span>
 
-<span data-ttu-id="15355-104">Als globale beheerder van Microsoft 365 kunt u Office-invoegtoepassingen implementeren voor gebruikers via de gecentraliseerde implementatie functie (Zie [Office-invoegtoepassingen implementeren in het Beheercentrum](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)).</span><span class="sxs-lookup"><span data-stu-id="15355-104">As a Microsoft 365 global admin, you can deploy Office add-ins to users via the Centralized Deployment feature (see [Deploy Office Add-ins in the admin center](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)).</span></span> <span data-ttu-id="15355-105">Naast de distributie van Office-invoegtoepassingen via het Microsoft 365-Beheercentrum, kunt u ook Microsoft PowerShell gebruiken.</span><span class="sxs-lookup"><span data-stu-id="15355-105">In addition to deploying Office add-ins via the Microsoft 365 admin center, you can also use Microsoft PowerShell.</span></span> <span data-ttu-id="15355-106">Installeer de [invoegtoepassing O365 Central Deployment module voor Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment).</span><span class="sxs-lookup"><span data-stu-id="15355-106">Install the [O365 Centralized Add-In Deployment Module for Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment).</span></span> 
+<span data-ttu-id="a434e-104">Als globale beheerder van Microsoft 365 kunt u Office-invoegvoegingen implementeren voor gebruikers via de functie Gecentraliseerde implementatie (zie [Office-invoegvoegingen implementeren in het beheercentrum).](../admin/manage/manage-deployment-of-add-ins.md)</span><span class="sxs-lookup"><span data-stu-id="a434e-104">As a Microsoft 365 global admin, you can deploy Office add-ins to users via the Centralized Deployment feature (see [Deploy Office Add-ins in the admin center](../admin/manage/manage-deployment-of-add-ins.md)).</span></span> <span data-ttu-id="a434e-105">Naast het implementeren van Office-invoegvoegingen via het Microsoft 365-beheercentrum, kunt u ook Microsoft PowerShell gebruiken.</span><span class="sxs-lookup"><span data-stu-id="a434e-105">In addition to deploying Office add-ins via the Microsoft 365 admin center, you can also use Microsoft PowerShell.</span></span> <span data-ttu-id="a434e-106">Installeer de [O365 Centralized Add-In Deployment Module voor Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment)</span><span class="sxs-lookup"><span data-stu-id="a434e-106">Install the [O365 Centralized Add-In Deployment Module for Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment).</span></span> 
 
-<span data-ttu-id="15355-107">Wanneer u de module hebt gedownload, opent u een normaal Windows PowerShell-venster en voert u de volgende cmdlet uit:</span><span class="sxs-lookup"><span data-stu-id="15355-107">After you download the module, open a regular Windows PowerShell window and run the following cmdlet:</span></span>
+<span data-ttu-id="a434e-107">Nadat u de module hebt gedownload, opent u een gewoon Windows PowerShell-venster en voer u de volgende cmdlet uit:</span><span class="sxs-lookup"><span data-stu-id="a434e-107">After you download the module, open a regular Windows PowerShell window and run the following cmdlet:</span></span>
 
 ```powershell
  Import-Module -Name O365CentralizedAddInDeployment
 ```
     
-## <a name="connect-using-your-admin-credentials"></a><span data-ttu-id="15355-108">Verbinding maken met behulp van uw beheerdersreferenties</span><span class="sxs-lookup"><span data-stu-id="15355-108">Connect using your admin credentials</span></span>
+## <a name="connect-using-your-admin-credentials"></a><span data-ttu-id="a434e-108">Verbinding maken met uw beheerdersreferenties</span><span class="sxs-lookup"><span data-stu-id="a434e-108">Connect using your admin credentials</span></span>
 
-<span data-ttu-id="15355-109">Voordat u de cmdlets voor gecentraliseerde implementatie kunt gebruiken, moet u zich aanmelden.</span><span class="sxs-lookup"><span data-stu-id="15355-109">Before you can use the Centralized Deployment cmdlets, you need to sign in.</span></span>
+<span data-ttu-id="a434e-109">Voordat u de cmdlets gecentraliseerde implementatie kunt gebruiken, moet u zich aanmelden.</span><span class="sxs-lookup"><span data-stu-id="a434e-109">Before you can use the Centralized Deployment cmdlets, you need to sign in.</span></span>
   
-1. <span data-ttu-id="15355-110">Start PowerShell.</span><span class="sxs-lookup"><span data-stu-id="15355-110">Start PowerShell.</span></span>
+1. <span data-ttu-id="a434e-110">Start PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a434e-110">Start PowerShell.</span></span>
     
-2. <span data-ttu-id="15355-111">Maak verbinding met PowerShell met behulp van uw beheerdersreferenties voor uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="15355-111">Connect to PowerShell by using your company admin credentials.</span></span> <span data-ttu-id="15355-112">Voer de volgende cmdlet uit.</span><span class="sxs-lookup"><span data-stu-id="15355-112">Run the following cmdlet.</span></span>
+2. <span data-ttu-id="a434e-111">Maak verbinding met PowerShell met behulp van uw bedrijfsbeheerdersreferenties.</span><span class="sxs-lookup"><span data-stu-id="a434e-111">Connect to PowerShell by using your company admin credentials.</span></span> <span data-ttu-id="a434e-112">Voer de volgende cmdlet uit.</span><span class="sxs-lookup"><span data-stu-id="a434e-112">Run the following cmdlet.</span></span>
     
   ```powershell
   Connect-OrganizationAddInService
   ```
 
-3. <span data-ttu-id="15355-113">Voer op de pagina **referenties invoeren** uw globale beheerdersreferenties voor microsoft 365 in.</span><span class="sxs-lookup"><span data-stu-id="15355-113">In the **Enter Credentials** page, enter your Microsoft 365 global admin credentials.</span></span> <span data-ttu-id="15355-114">U kunt ook uw referenties rechtstreeks invoeren in de cmdlet.</span><span class="sxs-lookup"><span data-stu-id="15355-114">Alternately, you can enter your credentials directly into the cmdlet.</span></span> 
+3. <span data-ttu-id="a434e-113">Voer op **de pagina Referenties** invoeren uw globale beheerdersreferenties van Microsoft 365 in.</span><span class="sxs-lookup"><span data-stu-id="a434e-113">In the **Enter Credentials** page, enter your Microsoft 365 global admin credentials.</span></span> <span data-ttu-id="a434e-114">U kunt ook uw referenties rechtstreeks in de cmdlet invoeren.</span><span class="sxs-lookup"><span data-stu-id="a434e-114">Alternately, you can enter your credentials directly into the cmdlet.</span></span> 
     
-    <span data-ttu-id="15355-115">Voer de volgende cmdlet uit om de beheerdersreferenties voor uw bedrijf op te geven als een PSCredential-object.</span><span class="sxs-lookup"><span data-stu-id="15355-115">Run the following cmdlet specifying your company admin credentials as a PSCredential object.</span></span>
+    <span data-ttu-id="a434e-115">Voer de volgende cmdlet uit die uw bedrijfsbeheerdersreferenties opgeeft als een PSCredential-object.</span><span class="sxs-lookup"><span data-stu-id="a434e-115">Run the following cmdlet specifying your company admin credentials as a PSCredential object.</span></span>
     
   ```powershell
   $secpasswd = ConvertTo-SecureString "MyPassword" -AsPlainText -Force
@@ -60,113 +60,113 @@ ms.locfileid: "46689437"
   ```
 
 > [!NOTE]
-> <span data-ttu-id="15355-116">Zie [verbinding maken met Microsoft 365 met PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585)voor meer informatie over het gebruik van PowerShell.</span><span class="sxs-lookup"><span data-stu-id="15355-116">For more information about using PowerShell, see [Connect to Microsoft 365 with PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585).</span></span> 
+> <span data-ttu-id="a434e-116">Zie Verbinding maken met [Microsoft 365 met PowerShell](./connect-to-microsoft-365-powershell.md)voor meer informatie over het gebruik van PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a434e-116">For more information about using PowerShell, see [Connect to Microsoft 365 with PowerShell](./connect-to-microsoft-365-powershell.md).</span></span> 
   
-## <a name="upload-an-add-in-manifest"></a><span data-ttu-id="15355-117">Een manifest van de invoegtoepassing uploaden</span><span class="sxs-lookup"><span data-stu-id="15355-117">Upload an add-in manifest</span></span>
+## <a name="upload-an-add-in-manifest"></a><span data-ttu-id="a434e-117">Een invoegingsmanifest uploaden</span><span class="sxs-lookup"><span data-stu-id="a434e-117">Upload an add-in manifest</span></span>
 
-<span data-ttu-id="15355-118">Voer de cmdlet **New-verwijdereneen toevoegen** uit om een invoeg toepassingsmanifest te uploaden vanuit een pad, dat een bestandslocatie of URL kan zijn.</span><span class="sxs-lookup"><span data-stu-id="15355-118">Run the **New-OrganizationAdd-In** cmdlet to upload an add-in manifest from a path, which can be either a file location or URL.</span></span> <span data-ttu-id="15355-119">In het volgende voorbeeld ziet u een bestandslocatie voor de waarde van de  _ManifestPath_ -parameter.</span><span class="sxs-lookup"><span data-stu-id="15355-119">The following example shows a file location for the value of the  _ManifestPath_ parameter.</span></span> 
+<span data-ttu-id="a434e-118">Voer de **cmdlet New-OrganizationAdd-In** uit om een invoegingsmanifest te uploaden vanaf een pad, dat een bestandslocatie of URL kan zijn.</span><span class="sxs-lookup"><span data-stu-id="a434e-118">Run the **New-OrganizationAdd-In** cmdlet to upload an add-in manifest from a path, which can be either a file location or URL.</span></span> <span data-ttu-id="a434e-119">In het volgende voorbeeld ziet u een bestandslocatie voor de waarde van de _parameter ManifestPath._</span><span class="sxs-lookup"><span data-stu-id="a434e-119">The following example shows a file location for the value of the  _ManifestPath_ parameter.</span></span> 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
 ```
 
-<span data-ttu-id="15355-120">U kunt ook de **New-verwijdereneen toevoegen-in-** cmdlet uitvoeren om een invoegtoepassing te uploaden en deze toe te wijzen aan gebruikers of groepen rechtstreeks met behulp van de parameters van de  _leden_ , zoals in het volgende voorbeeld wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="15355-120">You can also run the **New-OrganizationAdd-In** cmdlet to upload an add-in and assign it to users or groups directly by using the  _Members_ parameter, as shown in the following example.</span></span> <span data-ttu-id="15355-121">Scheid de e-mailadressen van leden met een komma.</span><span class="sxs-lookup"><span data-stu-id="15355-121">Separate the email addresses of members with a comma.</span></span> 
+<span data-ttu-id="a434e-120">U kunt ook de **cmdlet New-OrganizationAdd-In** uitvoeren om een invoegvoeging te uploaden en deze rechtstreeks aan gebruikers of groepen toe te wijzen met behulp van de parameter  _Leden,_ zoals wordt weergegeven in het volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="a434e-120">You can also run the **New-OrganizationAdd-In** cmdlet to upload an add-in and assign it to users or groups directly by using the  _Members_ parameter, as shown in the following example.</span></span> <span data-ttu-id="a434e-121">Scheid de e-mailadressen van leden met een komma.</span><span class="sxs-lookup"><span data-stu-id="a434e-121">Separate the email addresses of members with a comma.</span></span> 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
 ```
 
-## <a name="upload-an-add-in-from-the-office-store"></a><span data-ttu-id="15355-122">Een invoegtoepassing uploaden vanuit de Office Store</span><span class="sxs-lookup"><span data-stu-id="15355-122">Upload an add-in from the Office Store</span></span>
+## <a name="upload-an-add-in-from-the-office-store"></a><span data-ttu-id="a434e-122">Een invoegvoeging uploaden vanuit de Office Store</span><span class="sxs-lookup"><span data-stu-id="a434e-122">Upload an add-in from the Office Store</span></span>
 
-<span data-ttu-id="15355-123">Voer de **New-Get organizationaddin-** cmdlet uit om een manifest te uploaden vanuit de Office Store.</span><span class="sxs-lookup"><span data-stu-id="15355-123">Run the **New-OrganizationAddIn** cmdlet to upload a manifest from the Office Store.</span></span>
+<span data-ttu-id="a434e-123">Voer de **cmdlet New-OrganizationAddIn** uit om een manifest te uploaden vanuit de Office Store.</span><span class="sxs-lookup"><span data-stu-id="a434e-123">Run the **New-OrganizationAddIn** cmdlet to upload a manifest from the Office Store.</span></span>
   
-<span data-ttu-id="15355-124">In het volgende voorbeeld wordt met de **New-Get organizationaddin** -cmdlet de omkt voor een invoegtoepassing opgegeven voor de vestiging en de inhoud van de Verenigde Staten.</span><span class="sxs-lookup"><span data-stu-id="15355-124">In the following example, the **New-OrganizationAddIn** cmdlet specifies the AssetId for an add-in for a United States location and content market.</span></span>
+<span data-ttu-id="a434e-124">In het volgende voorbeeld geeft de **cmdlet New-OrganizationAddIn** de AssetId op voor een invoegvoeging voor een Amerikaanse locatie en inhoudsmarkt.</span><span class="sxs-lookup"><span data-stu-id="a434e-124">In the following example, the **New-OrganizationAddIn** cmdlet specifies the AssetId for an add-in for a United States location and content market.</span></span>
   
 ```powershell
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-<span data-ttu-id="15355-125">Om de waarde van de parameter  _omkt_ te bepalen, kunt u deze kopiëren van de URL van de Office Store-webpagina voor de invoegtoepassing.</span><span class="sxs-lookup"><span data-stu-id="15355-125">To determine the value for the  _AssetId_ parameter, you can copy it from the URL of the Office Store webpage for the add-in.</span></span> <span data-ttu-id="15355-126">AssetIds begint altijd met "WA", gevolgd door een cijfer.</span><span class="sxs-lookup"><span data-stu-id="15355-126">AssetIds always begin with "WA" followed by a number.</span></span> <span data-ttu-id="15355-127">In het voorgaande voorbeeld is de bron voor de Omkt waarde van WA104099688 de URL van de Office Store-webpagina voor de invoegtoepassing: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .</span><span class="sxs-lookup"><span data-stu-id="15355-127">For example, in the previous example, the source for the AssetId value of WA104099688 is the Office Store webpage URL for the add-in: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688).</span></span>
+<span data-ttu-id="a434e-125">Als u de waarde voor de  _parameter AssetId_ wilt bepalen, kunt u deze kopiëren vanuit de URL van de Office Store-webpagina voor de invoeg.</span><span class="sxs-lookup"><span data-stu-id="a434e-125">To determine the value for the  _AssetId_ parameter, you can copy it from the URL of the Office Store webpage for the add-in.</span></span> <span data-ttu-id="a434e-126">AssetIds beginnen altijd met 'WA' gevolgd door een getal.</span><span class="sxs-lookup"><span data-stu-id="a434e-126">AssetIds always begin with "WA" followed by a number.</span></span> <span data-ttu-id="a434e-127">In het vorige voorbeeld is de bron voor de AssetId-waarde van WA104099688 bijvoorbeeld de URL van de Office Store-webpagina voor de invoegvoegzaak: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .</span><span class="sxs-lookup"><span data-stu-id="a434e-127">For example, in the previous example, the source for the AssetId value of WA104099688 is the Office Store webpage URL for the add-in: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688).</span></span>
   
-<span data-ttu-id="15355-128">De waarden voor de parameter  _locale_ en de parameter  _ContentMarket_ zijn identiek en geven het land of de regio waarin u de invoegtoepassing wilt installeren.</span><span class="sxs-lookup"><span data-stu-id="15355-128">The values for the  _Locale_ parameter and the  _ContentMarket_ parameter are identical and indicate the country/region you're trying to install the add-in from.</span></span> <span data-ttu-id="15355-129">De indeling is en-US, fr-FR.</span><span class="sxs-lookup"><span data-stu-id="15355-129">The format is en-US, fr-FR.</span></span> <span data-ttu-id="15355-130">etc.</span><span class="sxs-lookup"><span data-stu-id="15355-130">and so forth.</span></span> 
+<span data-ttu-id="a434e-128">De waarden voor de parameter  _Locale_ en de parameter  _ContentMarket_ zijn identiek en geven het land/de regio aan waaruit u de invoegvoeging wilt installeren.</span><span class="sxs-lookup"><span data-stu-id="a434e-128">The values for the  _Locale_ parameter and the  _ContentMarket_ parameter are identical and indicate the country/region you're trying to install the add-in from.</span></span> <span data-ttu-id="a434e-129">De notatie is nl-NL, fr-FR.</span><span class="sxs-lookup"><span data-stu-id="a434e-129">The format is en-US, fr-FR.</span></span> <span data-ttu-id="a434e-130">enzovoort.</span><span class="sxs-lookup"><span data-stu-id="a434e-130">and so forth.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="15355-131">Invoegtoepassingen die u uit de Office Store hebt geüpload, worden automatisch bijgewerkt binnen enkele dagen na de laatste update die beschikbaar is in de Office Store.</span><span class="sxs-lookup"><span data-stu-id="15355-131">Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.</span></span> 
+> <span data-ttu-id="a434e-131">Invoegingen die vanuit de Office Store zijn geüpload, worden automatisch bijgewerkt binnen enkele dagen na de nieuwste update die beschikbaar is in de Office Store.</span><span class="sxs-lookup"><span data-stu-id="a434e-131">Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.</span></span> 
   
-## <a name="get-details-of-an-add-in"></a><span data-ttu-id="15355-132">Details van een invoegtoepassing weergeven</span><span class="sxs-lookup"><span data-stu-id="15355-132">Get details of an add-in</span></span>
+## <a name="get-details-of-an-add-in"></a><span data-ttu-id="a434e-132">Meer informatie over een invoegvoegvoeging</span><span class="sxs-lookup"><span data-stu-id="a434e-132">Get details of an add-in</span></span>
 
-<span data-ttu-id="15355-133">Voer de cmdlet **Get-Get organizationaddin** uit, zoals hieronder wordt weergegeven voor informatie over alle invoegtoepassingen die zijn geüpload naar de Tenant, inclusief product-id van invoegtoepassing.</span><span class="sxs-lookup"><span data-stu-id="15355-133">Run the **Get-OrganizationAddIn** cmdlet as shown below to get details of all add-ins uploaded to the tenant, included an add-in's product ID.</span></span>
+<span data-ttu-id="a434e-133">Voer de **Get-OrganizationAddIn-cmdlet** uit zoals hieronder wordt weergegeven voor meer informatie over alle invoegingen die naar de tenant zijn geüpload, inclusief de product-id van een invoegvoeginvoeging.</span><span class="sxs-lookup"><span data-stu-id="a434e-133">Run the **Get-OrganizationAddIn** cmdlet as shown below to get details of all add-ins uploaded to the tenant, included an add-in's product ID.</span></span>
   
 ```powershell
 Get-OrganizationAddIn
 ```
 
-<span data-ttu-id="15355-134">Voer de cmdlet **Get-Get organizationaddin** uit met een waarde voor de parameter  _ProductID_ om op te geven welke invoegtoepassing u gegevens wilt ophalen.</span><span class="sxs-lookup"><span data-stu-id="15355-134">Run the **Get-OrganizationAddIn** cmdlet with a value for the  _ProductId_ parameter to specify which add-in you want to retrieve details for.</span></span> 
+<span data-ttu-id="a434e-134">Voer de **Get-OrganizationAddIn-cmdlet** uit met een waarde voor de  _parameter ProductId_ om op te geven voor welke invoeginvoeging u details wilt ophalen.</span><span class="sxs-lookup"><span data-stu-id="a434e-134">Run the **Get-OrganizationAddIn** cmdlet with a value for the  _ProductId_ parameter to specify which add-in you want to retrieve details for.</span></span> 
   
 ```powershell
 Get-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 ```
 
-<span data-ttu-id="15355-135">Als u meer wilt weten over alle invoegtoepassingen plus de toegewezen gebruikers en groepen, pipet u de uitvoer van de cmdlet **Get-Get organizationaddin** naar de cmdlet List List, zoals in het volgende voorbeeld wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="15355-135">To get full details of all the add-ins plus the assigned users and groups, pipe the output of the **Get-OrganizationAddIn** cmdlet to the Format-List cmdlet, as shown in the following example.</span></span>
+<span data-ttu-id="a434e-135">Als u alle details van alle invoegvoegingen plus de toegewezen gebruikers en groepen wilt bekijken, geeft u de uitvoer van de **cmdlet Get-OrganizationAddIn** door naar de cmdlet Format-List, zoals wordt weergegeven in het volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="a434e-135">To get full details of all the add-ins plus the assigned users and groups, pipe the output of the **Get-OrganizationAddIn** cmdlet to the Format-List cmdlet, as shown in the following example.</span></span>
   
 ```powershell
 foreach($G in (Get-organizationAddIn)){Get-OrganizationAddIn -ProductId $G.ProductId | Format-List}
 ```
 
-## <a name="turn-on-or-turn-off-an-add-in"></a><span data-ttu-id="15355-136">Een invoegtoepassing in-of uitschakelen</span><span class="sxs-lookup"><span data-stu-id="15355-136">Turn on or turn off an add-in</span></span>
+## <a name="turn-on-or-turn-off-an-add-in"></a><span data-ttu-id="a434e-136">Een invoeging in- of uitschakelen</span><span class="sxs-lookup"><span data-stu-id="a434e-136">Turn on or turn off an add-in</span></span>
 
-<span data-ttu-id="15355-137">Als u een invoegtoepassing wilt uitschakelen, zodat gebruikers en groepen die hieraan zijn toegewezen, niet langer toegang hebben, voert u de cmdlet **set-Get organizationaddin** uit met de parameter  _ProductID_ en de  _ingeschakelde_ parameter ingesteld op  `$false` , zoals u kunt zien in het volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="15355-137">To turn off an add-in so users and groups that are assigned to it will no longer have access, run the **Set-OrganizationAddIn** cmdlet with the  _ProductId_ parameter and the  _Enabled_ parameter set to  `$false`, as shown in the following example.</span></span>
+<span data-ttu-id="a434e-137">Als u een invoegvoeginvoeging wilt uitschakelen, zodat gebruikers en groepen die hieraan zijn toegewezen, geen toegang meer hebben, kunt u de **cmdlet Set-OrganizationAddIn** uitvoeren met de  _parameter ProductId_ en de parameter  _Enabled_ ingesteld op , zoals wordt weergegeven in het  `$false` volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="a434e-137">To turn off an add-in so users and groups that are assigned to it will no longer have access, run the **Set-OrganizationAddIn** cmdlet with the  _ProductId_ parameter and the  _Enabled_ parameter set to  `$false`, as shown in the following example.</span></span>
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $false
 ```
 
-<span data-ttu-id="15355-138">Als u een invoegtoepassing weer wilt inschakelen, voert u dezelfde cmdlet uit, waarbij de parameter  _enabled_ is ingesteld op  `$true` .</span><span class="sxs-lookup"><span data-stu-id="15355-138">To turn an add-in back on, run the same cmdlet with the  _Enabled_ parameter set to  `$true`.</span></span>
+<span data-ttu-id="a434e-138">Als u een invoegvoeginvoeging weer wilt inschakelen, moet u dezelfde cmdlet uitvoeren met de parameter  _Enabled_ ingesteld op  `$true` .</span><span class="sxs-lookup"><span data-stu-id="a434e-138">To turn an add-in back on, run the same cmdlet with the  _Enabled_ parameter set to  `$true`.</span></span>
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $true
 ```
 
-## <a name="add-or-remove-users-from-an-add-in"></a><span data-ttu-id="15355-139">Gebruikers aan een invoegtoepassing toevoegen of eruit verwijderen</span><span class="sxs-lookup"><span data-stu-id="15355-139">Add or remove users from an add-in</span></span>
+## <a name="add-or-remove-users-from-an-add-in"></a><span data-ttu-id="a434e-139">Gebruikers toevoegen aan of verwijderen uit een invoegvoegvoeging</span><span class="sxs-lookup"><span data-stu-id="a434e-139">Add or remove users from an add-in</span></span>
 
-<span data-ttu-id="15355-140">Als u gebruikers en groepen wilt toevoegen aan een bepaalde invoegtoepassing, voert u de cmdlet **set-OrganizationAddInAssignments** uit met de parameters  _product_-id,  _toevoegen_en  _leden_ .</span><span class="sxs-lookup"><span data-stu-id="15355-140">To add users and groups to a specific add-in, run the **Set-OrganizationAddInAssignments** cmdlet with the  _ProductId_,  _Add_, and  _Members_ parameters.</span></span> <span data-ttu-id="15355-141">Scheid de e-mailadressen van leden met een komma.</span><span class="sxs-lookup"><span data-stu-id="15355-141">Separate the email addresses of members with a comma.</span></span> 
+<span data-ttu-id="a434e-140">Als u gebruikers en groepen wilt toevoegen aan een specifieke invoegvoeging, kunt u de **cmdlet Set-OrganizationAddInAssignments** uitvoeren met de parameters _ProductId,_ _Toevoegen_ en _Leden._</span><span class="sxs-lookup"><span data-stu-id="a434e-140">To add users and groups to a specific add-in, run the **Set-OrganizationAddInAssignments** cmdlet with the  _ProductId_,  _Add_, and  _Members_ parameters.</span></span> <span data-ttu-id="a434e-141">Scheid de e-mailadressen van leden met een komma.</span><span class="sxs-lookup"><span data-stu-id="a434e-141">Separate the email addresses of members with a comma.</span></span> 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Add -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-<span data-ttu-id="15355-142">Als u gebruikers en groepen wilt verwijderen, voert u dezelfde cmdlet uit met de parameter  _Remove_ .</span><span class="sxs-lookup"><span data-stu-id="15355-142">To remove users and groups, run the same cmdlet using the  _Remove_ parameter.</span></span> 
+<span data-ttu-id="a434e-142">Als u gebruikers en groepen wilt verwijderen, moet u dezelfde cmdlet uitvoeren met de parameter _Verwijderen._</span><span class="sxs-lookup"><span data-stu-id="a434e-142">To remove users and groups, run the same cmdlet using the  _Remove_ parameter.</span></span> 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Remove -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-<span data-ttu-id="15355-143">Als u een invoegtoepassing wilt toewijzen aan alle gebruikers in de Tenant, voert u dezelfde cmdlet uit met de parameter  _para assigntoeveryone_ waarbij de waarde is ingesteld op  `$true` .</span><span class="sxs-lookup"><span data-stu-id="15355-143">To assign an add-in to all users on the tenant, run the same cmdlet using the  _AssignToEveryone_ parameter with the value set to  `$true`.</span></span>
+<span data-ttu-id="a434e-143">Als u een invoegvoeging wilt toewijzen aan alle gebruikers in de tenant, moet u dezelfde cmdlet uitvoeren met de parameter  _AssignToEveryone_ met de waarde die is ingesteld op  `$true` .</span><span class="sxs-lookup"><span data-stu-id="a434e-143">To assign an add-in to all users on the tenant, run the same cmdlet using the  _AssignToEveryone_ parameter with the value set to  `$true`.</span></span>
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $true
 ```
 
-<span data-ttu-id="15355-144">Als u een invoegtoepassing niet aan iedereen wilt toewijzen en eerder toegewezen gebruikers en groepen wilt herstellen, voert u dezelfde cmdlet uit en schakelt u de parameter  _para assigntoeveryone_ uit door de waarde in te stellen  `$false` .</span><span class="sxs-lookup"><span data-stu-id="15355-144">To not assign an add-in to everyone and revert to the previously assigned users and groups, you can run the same cmdlet and turn off the  _AssignToEveryone_ parameter by setting its value to  `$false`.</span></span>
+<span data-ttu-id="a434e-144">Als u geen invoegvoeging aan iedereen wilt toewijzen en wilt terugkeren naar de eerder toegewezen gebruikers en groepen, kunt u dezelfde cmdlet uitvoeren en de parameter  _AssignToEveryone_ uitschakelen door de waarde in te stellen op  `$false` .</span><span class="sxs-lookup"><span data-stu-id="a434e-144">To not assign an add-in to everyone and revert to the previously assigned users and groups, you can run the same cmdlet and turn off the  _AssignToEveryone_ parameter by setting its value to  `$false`.</span></span>
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $false
 ```
 
-## <a name="update-an-add-in"></a><span data-ttu-id="15355-145">Een invoegtoepassing bijwerken</span><span class="sxs-lookup"><span data-stu-id="15355-145">Update an add-in</span></span>
+## <a name="update-an-add-in"></a><span data-ttu-id="a434e-145">Een invoeging bijwerken</span><span class="sxs-lookup"><span data-stu-id="a434e-145">Update an add-in</span></span>
 
-<span data-ttu-id="15355-146">Als u een invoegtoepassing wilt bijwerken vanuit een manifest, voert u de cmdlet **set-Get organizationaddin** uit met de parameters  _ProductID_,  _ManifestPath_en  _locale_ , zoals weergegeven in het volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="15355-146">To update an add-in from a manifest, run the **Set-OrganizationAddIn** cmdlet with the  _ProductId_,  _ManifestPath_, and  _Locale_ parameters, as shown in the following example.</span></span> 
+<span data-ttu-id="a434e-146">Als u een invoegvoeging wilt bijwerken vanuit een manifest, gebruikt u de **cmdlet Set-OrganizationAddIn** met de  _parameters ProductId,_  _ManifestPath_ en  _Locale,_ zoals wordt weergegeven in het volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="a434e-146">To update an add-in from a manifest, run the **Set-OrganizationAddIn** cmdlet with the  _ProductId_,  _ManifestPath_, and  _Locale_ parameters, as shown in the following example.</span></span> 
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
 ```
 
 > [!NOTE]
-> <span data-ttu-id="15355-147">Invoegtoepassingen die u uit de Office Store hebt geüpload, worden automatisch bijgewerkt binnen enkele dagen na de laatste update die beschikbaar is in de Office Store.</span><span class="sxs-lookup"><span data-stu-id="15355-147">Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.</span></span> 
+> <span data-ttu-id="a434e-147">Invoegingen die vanuit de Office Store zijn geüpload, worden automatisch bijgewerkt binnen enkele dagen na de nieuwste update die beschikbaar is in de Office Store.</span><span class="sxs-lookup"><span data-stu-id="a434e-147">Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.</span></span> 
   
-## <a name="delete-an-add-in"></a><span data-ttu-id="15355-148">Een invoegtoepassing verwijderen</span><span class="sxs-lookup"><span data-stu-id="15355-148">Delete an add-in</span></span>
+## <a name="delete-an-add-in"></a><span data-ttu-id="a434e-148">Een invoeging verwijderen</span><span class="sxs-lookup"><span data-stu-id="a434e-148">Delete an add-in</span></span>
 
-<span data-ttu-id="15355-149">Als u een invoegtoepassing wilt verwijderen, voert u de cmdlet **Remove-Get organizationaddin** uit met de parameter  _Productnummer_ , zoals wordt weergegeven in het volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="15355-149">To delete an add-in, run the **Remove-OrganizationAddIn** cmdlet with the  _ProductId_ parameter, as shown in the following example.</span></span> 
+<span data-ttu-id="a434e-149">Als u een invoeging wilt verwijderen, moet u de **cmdlet Remove-OrganizationAddIn** uitvoeren met de  _parameter ProductId,_ zoals wordt weergegeven in het volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="a434e-149">To delete an add-in, run the **Remove-OrganizationAddIn** cmdlet with the  _ProductId_ parameter, as shown in the following example.</span></span> 
   
 ```powershell
 Remove-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
@@ -270,12 +270,10 @@ If an add-in has been deployed, it has to be removed from the cache in each comp
 
 -->
 
-## <a name="get-detailed-help-for-each-cmdlet"></a><span data-ttu-id="15355-150">Uitgebreide hulp voor elke cmdlet</span><span class="sxs-lookup"><span data-stu-id="15355-150">Get detailed help for each cmdlet</span></span>
+## <a name="get-detailed-help-for-each-cmdlet"></a><span data-ttu-id="a434e-150">Gedetailleerde hulp voor elke cmdlet</span><span class="sxs-lookup"><span data-stu-id="a434e-150">Get detailed help for each cmdlet</span></span>
 
-<span data-ttu-id="15355-151">Met de cmdlet Get-Help kunt u gedetailleerde Help-informatie raadplegen voor elke cmdlet.</span><span class="sxs-lookup"><span data-stu-id="15355-151">You can look at detailed help for each cmdlet by using the Get-help cmdlet.</span></span> <span data-ttu-id="15355-152">De volgende cmdlet bevat bijvoorbeeld gedetailleerde informatie over de Remove-Get organizationaddin-cmdlet.</span><span class="sxs-lookup"><span data-stu-id="15355-152">For example, the following cmdlet provides detailed information about the Remove-OrganizationAddIn cmdlet.</span></span>
+<span data-ttu-id="a434e-151">U kunt gedetailleerde help voor elke cmdlet bekijken met behulp van de get-help-cmdlet.</span><span class="sxs-lookup"><span data-stu-id="a434e-151">You can look at detailed help for each cmdlet by using the Get-help cmdlet.</span></span> <span data-ttu-id="a434e-152">De volgende cmdlet bevat bijvoorbeeld gedetailleerde informatie over de Remove-OrganizationAddIn cmdlet.</span><span class="sxs-lookup"><span data-stu-id="a434e-152">For example, the following cmdlet provides detailed information about the Remove-OrganizationAddIn cmdlet.</span></span>
   
 ```powershell
 Get-help Remove-OrganizationAddIn -Full
 ```
-
-
