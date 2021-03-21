@@ -40,6 +40,8 @@
       href: ../admin/manage/remove-licenses-from-users.md
     - name: Gebruikers naar een ander abonnement overzetten
       href: subscriptions/move-users-different-subscription.md
+    - name: Auto-claimbeleid beheren
+      href: licenses/manage-auto-claim-policies.md
     - name: Inzicht in abonnementen en licenties
       href: licenses/subscriptions-and-licenses.md
 - name: Facturen en betalingen
@@ -67,7 +69,7 @@
     - name: Factureringsaccounts beheren
       href: manage-billing-accounts.md
     - name: Een tenant koppelen aan uw factureringsaccount
-      href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
+      href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business
 - name: Relaties met uw partners beheren
   href: manage-partners.md
 - name: Uw account sluiten

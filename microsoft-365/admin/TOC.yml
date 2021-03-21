@@ -35,7 +35,7 @@
         - name: Gegevens migreren naar Microsoft 365
           href: setup/migrate-email-and-contacts-admin.md
         - name: Teams implementeren
-          href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
+          href: /microsoftteams/how-to-roll-out-teams?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json
         - name: App-training voor iedereen
           href: 'https://support.microsoft.com/training'
         - name: Welk abonnement heb ik?
@@ -232,7 +232,7 @@
             - name: Status van Microsoft 365-apps
               href: productivity/apps-health.md
             - name: Endpoint-analyse
-              href: 'https://docs.microsoft.com/mem/analytics/productivity-score'
+              href: /mem/analytics/productivity-score
         - name: De contactgegevens van uw organisatie wijzigen
           href: manage/change-address-contact-and-more.md
         - name: De contactgegevens van uw beheerder bijwerken
@@ -259,6 +259,8 @@
           href: manage/manage-office-scripts-settings.md
         - name: Een partner of wederverkoper zoeken
           href: manage/find-your-partner-or-reseller.md
+        - name: Microsoft Rewards beheren
+          href: manage/manage-microsoft-rewards.md
         - name: Berichten in het berichtencentrum beheren
           href: manage/manage-messages.md
         - name: Releaseopties instellen
@@ -312,7 +314,7 @@
             - name: Compliancefuncties instellen
               href: ../business/set-up-compliance.md
         - name: Veiligheidsscore
-          href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
+          href: ../security/mtp/microsoft-secure-score.md
         - name: Een handleiding voor AVG-naleving
           href: security-and-compliance/gdpr-compliance.md
     - name: Apparaten en app-gegevens beheren
@@ -321,7 +323,7 @@
         - name: Methoden voor het beveiligen van apparaat- en app-gegevens
           href: devices/choose-device-security.md
         - name: Microsoft Intune-documentatie
-          href: 'https://docs.microsoft.com/mem/intune/'
+          href: /mem/intune/
         - name: Microsoft 365 Business Premium
           items:
             - name: Beleid en apparaten bekijken en bewerken
@@ -404,6 +406,6 @@
         - name: Deelnemen aan een Teams-vergadering met gastgebruikers
           href: 'https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8'
     - name: Problemen oplossen
-      href: 'https://docs.microsoft.com/office/troubleshoot/'
+      href: /office/troubleshoot/
     - name: Contact opnemen met de ondersteuning
       href: contact-support-for-business-products.md

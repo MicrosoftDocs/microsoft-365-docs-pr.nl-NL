@@ -108,6 +108,8 @@
           href: get-started/get-started-devices.md
         - name: First-Run-ervaring met de pagina AutoPilot en Inschrijvingsstatus
           href: get-started/esp-first-run.md
+        - name: Windows 10 locatieservice
+          href: get-started/device-location.md
         - name: Aan de slag met App-beheer
           href: get-started/get-started-app-control.md
         - name: Apps implementeren
