@@ -8,18 +8,18 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 729e9dc9ab512a7e93bc291a9a52222c15a42b79
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: b0aa619f09f2d6b32289e037283a0dc6578d0150
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727419"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920502"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop-apparaten 
 
 Microsoft Managed Desktop evalueert regelmatig apparaten die moeten worden opgenomen in de service. In dit artikel worden de specifieke apparaten vermeld die momenteel worden ondersteund. Zie Apparaatvereisten voor een algemenere overzicht van [apparaatvereisten.](device-requirements.md)
 
-Zie Documentatie en bronnen van Microsoft Managed Desktop voor meer informatie over [Microsoft Managed Desktop.](https://docs.microsoft.com/microsoft-365/managed-desktop/) 
+Zie Documentatie en bronnen van Microsoft Managed Desktop voor meer informatie over [Microsoft Managed Desktop.](../index.yml) 
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
@@ -78,11 +78,11 @@ Bovendien moet het apparaat ook aan deze criteria voldoen:
 
 - Als een specifieke SKU wordt vermeld in de apparaatvereisten, moet u ervoor zorgen dat u deze gebruikt wanneer u bestelt. Dit zorgt ervoor dat apparaten voldoen aan de softwarevereisten van Microsoft Managed Desktop. 
 - De windows first-run-ervaring is nog niet voltooid.
-- Geregistreerd zijn bij Microsoft Managed Desktop met de [functie Apparaatregistratie](https://aka.ms/mmddrhelp)
+- Geregistreerd zijn bij Microsoft Managed Desktop met de [functie Apparaatregistratie](../get-started/register-devices-self.md)
 
 >[!NOTE]
 >Apparaten met een 2,0 GHz of snellere processor bieden een veel betere ervaring voor gebruikers die betrokken zijn bij deze activiteiten:
->- Videovergaderingen gebruiken met Teams. Zie [Hardwarevereisten voor Microsoft Teams](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) voor meer informatie.
+>- Videovergaderingen gebruiken met Teams. Zie [Hardwarevereisten voor Microsoft Teams](/microsoftteams/hardware-requirements-for-the-teams-app) voor meer informatie.
 >-  Eén apparaat gebruiken voor verschillende werkbelastingen.
 >- Meerdere beeldschermen gebruiken.
 
@@ -93,8 +93,3 @@ Deze bronnen kunnen helpen bij het beantwoorden van vragen die u mogelijk hebt o
 - Voor meer vragen over Dell-apparaten kunt u contact <a href="mailto:MMD_at_dell@dell.com">opnemen met MMD_at_dell@dell.com.</a>
 
 - Voor meer vragen over HP-apparaten en instructies voor het bestellen van apparaten, kunt u contact opnemen met: Amerika<a href="mailto:mmd-americas@hp.com">(mmd-americas@hp.com);</a> Europa/Midden-Oosten/Afrika<a href="mailto:mmd-emea@hp.com">(mmd-emea@hp.com);</a> Asia Pacific/Japan<a href="mailto:mmd-apj@hp.com">(mmd-apj@hp.com</a>); Globaal (<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
-
-
-
-
-

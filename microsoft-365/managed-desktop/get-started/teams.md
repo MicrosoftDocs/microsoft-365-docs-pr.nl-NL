@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams
-description: Hoe teams op apparaten wordt geïnstalleerd en daarna later worden bijgewerkt
-keywords: Microsoft Managed Desktop, Microsoft 365, service, Documentatie, apps, line-of-Business-Apps, LOB-apps
+description: Hoe Teams is geïnstalleerd op apparaten en daarna wordt bijgewerkt
+keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie, apps, line-of-business-apps, LOB-apps
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
@@ -10,38 +10,38 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: ITPro
-ms.openlocfilehash: ea2ef7637a8d360e3b598aec4852425d977ae4ec
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 01a3adc7829bbb94f36649f69ba6ef15dbe6b3c2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950915"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920654"
 ---
 # <a name="microsoft-teams"></a>Microsoft Teams
 
-[Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) is een [Berichten-app](https://support.microsoft.com/office/microsoft-teams-basics-6d5f52e6-5306-4096-ac24-c3082b79eaf0) voor uw organisatie die ook een werkruimte biedt voor samenwerking in realtime en communicatie, vergaderingen en het delen van bestanden en apps.
+[Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) is een [berichten-app](https://support.microsoft.com/office/microsoft-teams-basics-6d5f52e6-5306-4096-ac24-c3082b79eaf0) voor uw organisatie die ook een werkruimte biedt voor realtime samenwerking en communicatie, vergaderingen en het delen van bestanden en apps.
 
 ## <a name="initial-deployment"></a>Eerste implementatie
 
-Voor de meeste hardwareleveranciers zijn er nog geen teams opgenomen als onderdeel van hun afbeeldingen, zodat Microsoft Managed Desktop teams implementeert op uw apparaten via Microsoft intune. Voor alle beheerde apparaten is het [pakket teams. msi](https://docs.microsoft.com/MicrosoftTeams/msi-deployment#how-the-microsoft-teams-msi-package-works) geïnstalleerd, zodat alle gebruikers die zich aanmelden bij een apparaat, al Microsoft teams kunnen gebruiken. Wanneer het pakket eerst is geïnstalleerd, wordt in teams automatisch een snelkoppeling naar het bureaublad toegevoegd.
+De meeste hardwareleveranciers bevatten Teams nog niet als onderdeel van hun afbeeldingen, dus Microsoft Managed Desktop implementeert Teams op uw apparaten met Microsoft Intune. Op alle beheerde apparaten is [het Teams .msi-pakket](/MicrosoftTeams/msi-deployment#how-the-microsoft-teams-msi-package-works) geïnstalleerd, zodat alle gebruikers die zich aanmelden bij een apparaat, Microsoft Teams klaar hebben voor gebruik. Wanneer het pakket voor het eerst is geïnstalleerd, wordt Teams automatisch gestart en wordt er een snelkoppeling toegevoegd aan het bureaublad.
 
-### <a name="microsoft-intune-changes"></a>Microsoft intune-wijzigingen
+### <a name="microsoft-intune-changes"></a>Wijzigingen in Microsoft Intune
 
-Microsoft Managed Desktop voegt twee toepassingen toe aan uw Azure AD-organisatie voor Microsoft teams. Ze worden gedistribueerd naar 64-bits-of 32-bits-clients, wat van toepassing is op het apparaat:  
+Microsoft Managed Desktop voegt twee toepassingen toe aan uw Azure AD-organisatie voor Microsoft Teams. Ze worden geïmplementeerd voor 64-bits of 32-bits clients, zoals geschikt voor het apparaat:  
 
-- Modern Workplace-teams machine Wide Installer x64  
-- Modern Workplace: teams-hele Installer x32
+- Moderne werkplek : Teams Machine Wide Installer x64  
+- Moderne werkplek : Teams Machine Wide Installer x32
 
 ## <a name="updates"></a>Updates
 
-Teams volgt een apart update traject in Microsoft 365-apps voor Enterprise en de bureaublad client werkt automatisch. Teams controleert om de paar uur een update voor updates, downloadt ze en vervalt de computer totdat de computer inactief is voordat de update is geïnstalleerd.  
+Teams volgt een afzonderlijk updatepad van Microsoft 365 Apps voor bedrijven en de desktopclient wordt automatisch bijgewerkt. Teams controleert om de paar uur op updates, downloadt ze en wacht totdat de computer inactief is voordat u de update in stilte installeert.  
 
-Met de productgroep teams kunnen beheerders geen updates beheren, zodat Microsoft Managed Desktop gebruikmaakt van het [standaardkanaal voor automatische updates](https://docs.microsoft.com/microsoftteams/teams-client-update#can-admins-deploy-updates-instead-of-teams-auto-updating).
+De Teams-productgroep staat beheerders niet toe updates te beheren, dus Microsoft Managed Desktop gebruikt het [standaardkanaal voor automatische update.](/microsoftteams/teams-client-update#can-admins-deploy-updates-instead-of-teams-auto-updating)
 
 ### <a name="manually-updating-teams"></a>Teams handmatig bijwerken
 
-Individuele gebruikers kunnen ook updates downloaden door **controleren op updates**te selecteren   in de vervolgkeuzelijst **profiel**rechtsboven in   de app. Als er een update beschikbaar is, wordt deze gedownload en op de achtergrond geïnstalleerd wanneer de computer inactief is.
+Afzonderlijke gebruikers kunnen ook updates downloaden door **Controleren op updates** te selecteren in de    ****   vervolgkeuzelijst Profiel rechtsboven in de app. Als er een update beschikbaar is, wordt deze gedownload en geruisloos geïnstalleerd wanneer de computer inactief is.
 
-## <a name="delivery-optimization-of-updates"></a>Delivery Optimization-updates
+## <a name="delivery-optimization-of-updates"></a>Leveringsoptimalisatie van updates
 
-Delivery Optimizing voor team updates is standaard ingeschakeld en is geen actie van beheerders of gebruikers vereist. 
+Leveringsoptimalisatie voor Teams-updates is standaard ingeschakeld en vereist geen actie van beheerders of gebruikers.

@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c82b0a84582d18f8b08b369ff76ba34046c40eba
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 96a4a8ae902f0b8e4767ea3fd42079322d661208
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727113"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918808"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Het analistrapport in bedreigingsanalyses begrijpen
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727113"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject uitvoeren in productie.](https://aka.ms/m365d-pilotplaybook)
+> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](./mtp-pilot.md?ocid=cx-evalpilot)
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -68,7 +68,7 @@ Naast deze bij te houden risicobeperking, worden in het analyserapport ook risic
 - E-mailberichten blokkeren _met LNK-bijlagen_ of andere verdachte bestandstypen
 - Wachtwoorden voor lokale beheerders willekeurig maken
 - Eindgebruikers informeren over phishing-e-mail en andere bedreigingsvectoren
-- Specifieke regels voor [het verlagen van het oppervlak voor aanvallen in- en uit te stellen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
+- Specifieke regels voor [het verlagen van het oppervlak voor aanvallen in- en uit te stellen](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
 
 Hoewel u het tabblad **Mitigaties** kunt gebruiken om uw beveiligingshouding tegen een bedreiging te beoordelen, kunt u met deze aanbevelingen extra stappen ondernemen om uw beveiligingshouding te verbeteren. Lees alle mitigatie-richtlijnen in het analistenrapport zorgvuldig en pas deze waar mogelijk toe.
 
@@ -76,13 +76,13 @@ Hoewel u het tabblad **Mitigaties** kunt gebruiken om uw beveiligingshouding teg
 Het analistrapport bevat ook de detecties van Microsoft Defender voor endpoint-antivirus- en _eindpuntdetectie-_ en antwoordmogelijkheden (EDR).
 
 ### <a name="antivirus-detections"></a>Antivirusdetecties
-Deze detecties zijn beschikbaar op apparaten met [Microsoft Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ingeschakeld. Wanneer deze detecties plaatsvinden op apparaten die zijn onboarded bij Microsoft Defender voor Eindpunt, worden er ook waarschuwingen uitgevoerd die de grafieken in het rapport aanlichten.
+Deze detecties zijn beschikbaar op apparaten met [Microsoft Defender Antivirus](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ingeschakeld. Wanneer deze detecties plaatsvinden op apparaten die zijn onboarded bij Microsoft Defender voor Eindpunt, worden er ook waarschuwingen uitgevoerd die de grafieken in het rapport aanlichten.
 
 >[!NOTE]
 >Het analistrapport bevat ook **algemene detecties** die een breed scala aan bedreigingen kunnen identificeren, naast onderdelen of gedragingen die specifiek zijn voor de bijgespoorde bedreiging. Deze algemene detecties worden niet weergegeven in de grafieken.
 
 ### <a name="endpoint-detection-and-response-edr-alerts"></a>EDR-waarschuwingen (Endpoint Detection and Response)
-EDR-waarschuwingen worden verhoogd voor [apparaten die zijn aan boord van Microsoft Defender voor Eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure). Deze waarschuwingen zijn in het algemeen afhankelijk van beveiligingssignalen die zijn verzameld door de Microsoft Defender voor eindpunten-sensor en andere mogelijkheden voor eindpunten, zoals antivirusprogramma's, netwerkbeveiliging, tamperbeveiliging, die fungeren als krachtige signaalbronnen.
+EDR-waarschuwingen worden verhoogd voor [apparaten die zijn aan boord van Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure). Deze waarschuwingen zijn in het algemeen afhankelijk van beveiligingssignalen die zijn verzameld door de Microsoft Defender voor eindpunten-sensor en andere mogelijkheden voor eindpunten, zoals antivirusprogramma's, netwerkbeveiliging, tamperbeveiliging, die fungeren als krachtige signaalbronnen.
 
 Net als de lijst met antivirusdetecties zijn sommige EDR-waarschuwingen ontworpen om een algemene vlag te geven voor verdacht gedrag dat mogelijk niet is gekoppeld aan de bijgespoorde bedreiging. In dergelijke gevallen wordt in het rapport duidelijk aangegeven dat de waarschuwing 'algemeen' is en dat dit geen invloed heeft op een van de grafieken in het rapport.
 
@@ -100,7 +100,7 @@ Geavanceerde zoekquery's in de analistenrapporten zijn door Microsoft-analisten 
 
 
 >[!NOTE]
-> Bedreigingsanalyse is ook beschikbaar in [Microsoft Defender voor Eindpunt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) Het beschikt echter niet over de gegevensintegratie tussen Microsoft Defender voor Office en Microsoft Defender voor Eindpunt die microsoft 365 Defender threat analytics heeft.
+> Bedreigingsanalyse is ook beschikbaar in [Microsoft Defender voor Eindpunt.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) Het beschikt echter niet over de gegevensintegratie tussen Microsoft Defender voor Office en Microsoft Defender voor Eindpunt die microsoft 365 Defender threat analytics heeft.
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen

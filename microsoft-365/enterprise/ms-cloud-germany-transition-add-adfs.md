@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Ad FS-migratiestappen (Active Directory Federation Services) voor de migratie vanuit Microsoft Cloud Deutschland.'
-ms.openlocfilehash: 852fc8f93158d7b6080f1add5a05e7367539f889
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 146f476a43e46925d87763a800467bf52adc73e5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838411"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918904"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>AD FS-migratiestappen voor de migratie van Microsoft Cloud Deutschland
 
@@ -89,7 +89,8 @@ U kunt [AD FS Help gebruiken om](https://adfshelp.microsoft.com/AadTrustClaims/C
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>AD FS Disaster Recovery (WID Database)
 
-Als u de AD FS-farm wilt herstellen in een [ramp, moet ad FS Rapid Restore Tool](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) worden gebruikt. Daarom moet het hulpprogramma worden gedownload en moet vóór het begin van de migratie een back-up worden gemaakt en veilig worden opgeslagen. In dit voorbeeld zijn de volgende opdrachten uitgevoerd om een back-up te maken van een farm die wordt uitgevoerd in een WID-database:
+
+Als u de AD FS-farm wilt herstellen in een [ramp, moet ad FS Rapid Restore Tool](/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) worden gebruikt. Daarom moet het hulpprogramma worden gedownload en moet vóór het begin van de migratie een back-up worden gemaakt en veilig worden opgeslagen. In dit voorbeeld zijn de volgende opdrachten uitgevoerd om een back-up te maken van een farm die wordt uitgevoerd in een WID-database:
 
 <h2 id="backup"></h2>
 
@@ -144,6 +145,6 @@ Door de overgang lopen:
 
 Cloud-apps:
 
-- [Dynamics 365-migratieprogrammagegevens](https://aka.ms/d365ceoptin)
-- [Informatie over power bi-migratieprogramma's](https://aka.ms/pbioptin)
-- [Aan de slag met uw Microsoft Teams-upgrade](https://aka.ms/SkypeToTeams-Home)
+- [Dynamics 365-migratieprogrammagegevens](/dynamics365/get-started/migrate-data-german-region)
+- [Informatie over power bi-migratieprogramma's](/power-bi/admin/service-admin-migrate-data-germany)
+- [Aan de slag met uw Microsoft Teams-upgrade](/microsoftteams/upgrade-start-here)

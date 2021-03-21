@@ -19,12 +19,12 @@ search.appverid:
 description: Meer informatie over drie hulpprogramma's die u kunt gebruiken om te controleren op lekkage van persoonlijke gegevens.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a8fb8557d6cd2677aeb6dcda75d34e86ada8f68c
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: b51bc5d5d3cbfa8951392f88edc6e178778206df
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290667"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921250"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Controleer op lekken van persoonlijke gegevens
 
@@ -83,7 +83,7 @@ Teams voor informatiebeveiliging en compliance kunnen deze hulpmiddelen gebruike
 
 Informatiebeveiligingsteams kunnen ook in het auditlogboek zoeken om vermoedelijke datalekken te onderzoeken en zowel de oorzaak als de omvang van de inbreuk te bepalen. Deze ingebouwde mogelijkheid vergemakkelijkt de naleving van artikel 33 en 34 van de AVG, die vereisen dat binnen een bepaalde periode meldingen worden gedaan aan de toezichthoudende autoriteit en aan de betrokkenen zelf van een datalek. Vermeldingen in het auditlogboek worden binnen de service slechts 90 dagen bewaard. Het wordt vaak aanbevolen en veel organisaties vereisen dat deze logboeken voor langere tijd worden bewaard.
 
-Er zijn oplossingen beschikbaar die zich via de Microsoft Management Activity API abonneren op de Unified Audit Logs en die zowel logboekvermeldingen kunnen opslaan als geavanceerde dashboards en waarschuwingen kunnen bieden. Een voorbeeld is [Microsoft Operations Management Suite (OMS)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365).
+Er zijn oplossingen beschikbaar die zich via de Microsoft Management Activity API abonneren op de Unified Audit Logs en die zowel logboekvermeldingen kunnen opslaan als geavanceerde dashboards en waarschuwingen kunnen bieden. Een voorbeeld is [Microsoft Operations Management Suite (OMS)](/azure/operations-management-suite/oms-solution-office-365).
 
 Meer informatie over het waarschuwingsbeleid en het doorzoeken van het auditlogboek:
 
@@ -95,7 +95,7 @@ Meer informatie over het waarschuwingsbeleid en het doorzoeken van het auditlogb
 
 - [Zoeken in het auditlogboek](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
-- [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) (cmdlet)
+- [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) (cmdlet)
 
 - [Gedetailleerde eigenschappen in het auditlogboek](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
@@ -130,11 +130,11 @@ Opmerking: zorg ervoor dat u 'Bestanden automatisch scannen naar classificatiela
 
 Meer informatie:
 
-- [Cloud App Security implementeren](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
+- [Cloud App Security implementeren](/cloud-app-security/getting-started-with-cloud-app-security)
 
 - [Meer informatie over Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
-- [Blokkeer downloads van gevoelige informatie met behulp van de Microsoft Cloud App Security-proxy](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
+- [Blokkeer downloads van gevoelige informatie met behulp van de Microsoft Cloud App Security-proxy](/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Voorbeeld van bestands- en activiteitenbeleid om het delen van persoonlijke gegevens te detecteren
 

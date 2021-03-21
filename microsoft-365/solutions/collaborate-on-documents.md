@@ -17,16 +17,16 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: In dit artikel leert u hoe u kunt samenwerken met gasten aan een document in SharePoint en OneDrive.
-ms.openlocfilehash: 1b2fe003902b69e4c0c58852af67862ce6f2eb34
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 9158ec7692ef90eb2e270242472fceb10d0e60b7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663509"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920226"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Samenwerken met gasten aan een document
 
-Als u met personen buiten uw organisatie moet samenwerken aan documenten in SharePoint of OneDrive, kunt u een koppeling naar het document verzenden. In dit artikel worden de stappen beschreven die u moet uitvoeren om delen van SharePoint en OneDrive in te stellen voor de behoeften van uw organisatie in Microsoft 365.
+Als u met personen buiten uw organisatie wilt samenwerken aan documenten in SharePoint of OneDrive, kunt u ze een koppeling voor delen naar het document sturen. In dit artikel volgen we de configuratiestappen van Microsoft 365 die nodig zijn om share-koppelingen voor SharePoint en OneDrive in te stellen voor de behoeften van uw organisatie.
 
 ## <a name="video-demonstration"></a>Videodemonstratie
 
@@ -34,104 +34,104 @@ In deze video ziet u de configuratiestappen die in dit document worden beschreve
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE450Vt?autoplay=false]
 
-## <a name="azure-external-collaboration-settings"></a>Instellingen voor externe samenwerking van Azure
+## <a name="azure-external-collaboration-settings"></a>Externe samenwerkingsinstellingen voor Azure
 
-Delen in Microsoft 365 wordt bepaald door de [instellingen voor B2B External collaboration in azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als gasten delen is uitgeschakeld of niet beschikbaar is in azure AD, worden de instellingen voordelen overschreven die u configureert in Microsoft 365.
+Delen in Microsoft 365 wordt op het hoogste niveau bepaald door de [B2B-instellingen voor externe samenwerking in Azure Active Directory](/azure/active-directory/external-identities/delegate-invitations). Als gast delen is uitgeschakeld of beperkt in Azure AD, worden met deze instelling alle instellingen voor delen overgenomen die u configureert in Microsoft 365.
 
-Controleer de instellingen voor B2B externe samenwerking om ervoor te zorgen dat delen met gasten niet is geblokkeerd.
+Controleer de B2B-instellingen voor externe samenwerking om ervoor te zorgen dat delen met gasten niet wordt geblokkeerd.
 
-![Schermafbeelding van de instellingenpagina voor organisatierelaties in Microsoft Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
+![Schermafbeelding van de instellingenpagina voor organisatierelaties in Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
-Externe samenwerkings instellingen instellen
+Instellingen voor externe samenwerking instellen
 
-1. Meld u aan bij Azure Active Directory [https://aad.portal.azure.com](https://aad.portal.azure.com) .
-2. Klik in het linker navigatiedeelvenster op **Azure Active Directory**.
-3. Klik op **externe identiteiten**.
-4. Klik in het scherm aan de **slag** in het linker navigatiedeelvenster op **instellingen voor externe samenwerking**.
-5. Zorg ervoor dat **beheerders en gebruikers in de rol gast uitnodiging kunnen uitnodigen** en dat **leden kunnen uitnodigen** zijn ingesteld op **Ja**.
+1. Meld u aan bij Azure Active Directory op [https://aad.portal.azure.com](https://aad.portal.azure.com).
+2. Klik in het linkernavigatiedeelvenster op **Azure Active Directory**.
+3. Klik **Externe identiteiten**.
+4. Klik in het linkernavigatiedeelvenster **Aan de slag** op **Instellingen voor externe samenwerking**.
+5. Zorg ervoor dat **Beheerders en gebruikers in de rol van Afzender van gastuitnodigingen kunnen uitnodigingen verzenden** en **Leden kunnen uitnodigingen verzenden** beide zijn ingesteld op **Ja**.
 6. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
-Let op de instellingen in de sectie **samenwerkings beperkingen** . Zorg ervoor dat de domeinen van de gasten waarmee u wilt samenwerken, niet zijn geblokkeerd.
+Let op de instellingen in de sectie **Samenwerkingsbeperkingen**. Zorg ervoor dat de domeinen van de gasten met wie u wilt samenwerken, niet worden geblokkeerd.
 
-Als u met gasten in meerdere organisaties werkt, is het raadzaam om de toegang van Directory-gegevens te beperken. Hiermee kunt u voorkomen dat ze zien welke iemand anders een gast is in de adreslijst. Als u dit wilt doen, selecteert u onder **toegangsbeperkingen** voor gastgebruikers de optie **gastgebruikers beperkte toegang tot eigenschappen en lidmaatschap van adreslijst objecten** of **toegang voor gastgebruikers is beperkt tot eigenschappen en lidmaatschap van eigen directoryobjecten**.
+Als u met gasten van meerdere organisaties werkt, wilt u mogelijk hun toegang tot adreslijstgegevens beperken. Hiermee voorkomt u dat ze kunnen zien wie er nog meer een gast is in de adreslijst. Hiervoor selecteert u onder **Toegangsbeperkingen voor gastgebruikers** de optie **Gastgebruikers hebben beperkte toegang tot eigenschappen en lidmaatschap van instellingen voor adreslijstobjecten** of **Toegang van gastgebruikers is beperkt tot eigenschappen en lidmaatschappen van hun eigen adreslijstobjecten**.
 
-## <a name="sharepoint-organization-level-sharing-settings"></a>Instellingen voordelen op SharePoint-organisatieniveau
+## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint-instellingen voor delen op organisatieniveau
 
-Als u wilt dat personen van buiten uw organisatie toegang hebben tot een document in SharePoint of OneDrive, moeten de instellingen voordelen van SharePoint en OneDrive delen toestaan voordelen met personen buiten uw organisatie.
+Als u wilt dat personen buiten uw organisatie toegang hebben tot een document in SharePoint of OneDrive, moeten de instellingen voor delen op sharePoint- en OneDrive-organisatieniveau toestaan dat ze kunnen delen met personen buiten uw organisatie.
 
-De instellingen op organisatieniveau voor SharePoint bepalen de instellingen die beschikbaar zijn voor afzonderlijke SharePoint-sites. Site-instellingen kunnen niet hoger zijn dan de instellingen op organisatieniveau. Met de instelling op organisatieniveau voor OneDrive bepaalt u het niveau van delen dat beschikbaar is in de OneDrive-bibliotheken van de gebruikers.
+De instellingen op organisatieniveau voor SharePoint bepalen de instellingen die beschikbaar zijn voor afzonderlijke SharePoint-sites. Site-instellingen mogen niet meer toestaan dan de instellingen op organisatieniveau. De instelling op organisatieniveau voor OneDrive bepaalt het niveau van delen dat beschikbaar is in de OneDrive-bibliotheken van gebruikers.
 
-Voor SharePoint en OneDrive, als u niet-geverifieerde bestanden en mappen wilt delen, kiest u **iedereen**. Als u er zeker van wilt zijn dat mensen van buiten uw organisatie verificatie hebben, kiest u **nieuwe en bestaande gasten**. *Iedereen* is de eenvoudigste manier om te delen: personen buiten uw organisatie kunnen de koppeling openen zonder verificatie en kunnen ze ook aan anderen doorgeven.
+Als u voor SharePoint en OneDrive het delen van bestanden en mappen wilt toestaan, kiest u **Iedereen**. Als u ervoor wilt zorgen dat personen buiten uw organisatie zich moeten verifiëren, kiest u **Nieuwe en bestaande gasten.** *Iedereen* met koppelingen is de eenvoudigste manier om te delen: personen buiten uw organisatie kunnen de koppeling zonder verificatie openen en kunnen deze aan anderen doorgeven.
 
-Voor SharePoint kiest u de meest strikte instelling die moet worden gebruikt door alle sites in uw organisatie.
+Kies voor SharePoint de meest permissieve instelling die nodig is voor elke site in uw organisatie.
 
 ![Schermafbeelding van de instellingen voor delen op organisatieniveau van SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
 
 
-Instellingen voordelen van SharePoint op organisatieniveau instellen
+Instellingen voor delen op organisatieniveau van SharePoint instellen
 
-1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra** op **SharePoint**.
-2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid**, op **delen**.
-3. Zorg ervoor dat extern delen voor SharePoint of OneDrive is ingesteld op **iedereen** of **nieuwe en bestaande gasten**. (Houd er rekening mee dat de instelling OneDrive niet hoger is dan de instelling van SharePoint).
+1. In het Microsoft 365-beheercentrum klikt u onder **Beheercentra** op **SharePoint**.
+2. Klik in het SharePoint-beheercentrum in het linkernavigatiedeelvenster onder **Beleid** op **Delen.**
+3. Zorg ervoor dat extern delen voor SharePoint of OneDrive is ingesteld op **Iedereen** of **Nieuwe en bestaande gasten.** (Houd er rekening mee dat de instelling OneDrive niet meer mag worden gebruikt dan de SharePoint-instelling.)
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
-## <a name="sharepoint-organization-level-default-link-settings"></a>Standaard koppelingsinstellingen op SharePoint-organisatieniveau
+## <a name="sharepoint-organization-level-default-link-settings"></a>Standaardkoppelingsinstellingen op organisatieniveau van SharePoint
 
-De standaardinstellingen voor het koppelen van bestanden en mappen bepalen de koppelingsoptie die standaard wordt getoond aan gebruikers wanneer ze een bestand of map delen. Gebruikers kunnen het koppelingstype wijzigen in een van de andere opties voordat u het deelt.
+De standaardkoppelingsinstellingen voor bestanden en mappen bepalen de koppelingsoptie die standaard voor gebruikers wordt weergegeven wanneer ze een bestand of map delen. Gebruikers kunnen voor het delen desgewenst het koppelingstype wijzigen in een van de andere opties.
 
-Houd er rekening mee dat deze instelling van invloed is op SharePoint-sites in uw organisatie en in OneDrive.
+Houd er rekening mee dat deze instelling van invloed is op SharePoint-sites in uw organisatie en op OneDrive.
 
-Kies een koppeling uit een van de volgende typen die standaard wordt geselecteerd wanneer gebruikers bestanden en mappen delen:
+Kies een koppeling uit een van de volgende typen die vervolgens standaard wordt geselecteerd wanneer gebruikers bestanden en mappen delen:
 
-- **Iedereen met de koppeling** : Kies deze optie als u verwacht dat u een groot aantal niet-geverifieerde bestanden en mappen wilt delen. Als u iedereen wilt toestaan die wel of niet is gemachtigd voor het delen van *onbevoegd* delen, kunt u het beste een van de andere opties als standaard instellen. Dit koppelingstype is alleen beschikbaar als **iedereen** het delen heeft toegestaan.
-- **Alleen personen in uw organisatie** : Kies deze optie als u verwacht dat u de meeste bestanden en mappen wilt delen met personen binnen uw organisatie.
-- **Specifieke personen** : Houd deze optie ingedrukt als u verwacht dat u een groot aantal bestanden en mappen deelt met gasten. Dit type koppeling werkt met gasten en vereist ze voor verificatie.
+- **Iedereen met de koppeling:** kies deze optie als u veel niet-genautenteerde bestanden en mappen wilt delen. Als u *Iedereen*-koppelingen wilt toestaan, maar u zich zorgen maakt over onbedoeld niet-geverifieerd delen, kunt u een van de andere opties als standaardoptie gebruiken. Dit koppelingstype is alleen beschikbaar als u **Iedereen** hebt ingeschakeld.
+- **Alleen personen in uw organisatie**: kies deze optie als u verwacht dat de meeste bestanden en mappen worden gedeeld met personen binnen uw organisatie.
+- **Specifieke personen** - overweeg deze optie als u verwacht veel bestanden en mappen te delen met gasten. Dit type koppeling werkt met gasten en vereist verificatie.
  
 ![Schermafbeelding van de instellingen voor delen van bestanden en mappen op organisatieniveau van SharePoint](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
 
-De instellingen voor de standaardkoppeling van SharePoint en OneDrive instellen op organisatieniveau
+De standaardkoppelingsinstellingen voor SharePoint en OneDrive op organisatieniveau instellen
 
-1. Ga naar de pagina delen in het SharePoint-Beheercentrum.
-2. Selecteer onder **koppelingen voor bestanden en mappen** de standaardkoppeling voordelen die u wilt gebruiken.
+1. Navigeer naar de pagina Delen in het SharePoint-beheercentrum.
+2. Selecteer onder **Koppelingen naar bestanden en mappen** de standaardkoppeling voor delen die u wilt gebruiken.
 3. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
-Als u de machtiging voor de koppeling voordelen wilt instellen, klikt u onder **Kies de machtiging die standaard wordt geselecteerd voor koppelingen voordelen.**
+Als u de machtiging voor de koppeling voor delen wilt instellen, gaat u naar Kies de machtiging die standaard is **geselecteerd voor koppelingen voor delen.**
 
-1. Selecteer **weergeven** als u niet wilt dat niet-geverifieerde gebruikers wijzigingen aanbrengen in de bestanden en mappen.
-2. Selecteer **bewerken** als u wilt dat niet-geverifieerde gebruikers wijzigingen kunnen aanbrengen in de bestanden en mappen.
+1. Selecteer **Beeld** als u niet wilt dat niet-nautische gebruikers wijzigingen aanbrengen in de bestanden en mappen.
+2. Selecteer **Bewerken** als u niet-nautische gebruikers wilt toestaan wijzigingen aan te brengen in de bestanden en mappen.
 
-Houd er rekening mee dat de twee bemissieings opties niet alleen voor gasten en externe gebruikers maar ook voor interne gebruikers kunnen worden toegepast. De optie voor de machtiging die u kiest, wordt bepaald door de eigen goeddunken.
+Houd er rekening mee dat de bovenstaande twee premission-opties niet alleen kunnen worden toegepast voor gasten/externe gebruikers, maar ook voor interne gebruikers. De machtigingsoptie die u kiest, wordt bepaald door zelfre discretionaire bevoegdheid.
 
-Machtigingen instellen voor koppelingen waarmee u met iedereen kunt delen
+Machtigingen instellen voor koppelingen waarmee delen met iedereen kan worden toegestaan
 
-1. In het deelvenster **deze koppelingen kunnen deze machtigingen geven:** subvenster 
-    1. In de vervolgkeuzelijst **bestanden** , 
-        - Selecteer **weergeven en bewerken** als u niet-geverifieerde gebruikers wilt toestaan om wijzigingen aan te brengen in de bestanden.
-        - Selecteer **weergeven** als u niet wilt dat niet-geverifieerde gebruikers wijzigingen in de bestanden aanbrengen.
-    2. In de vervolgkeuzelijst **mappen** ,
-        - Selecteer **weergeven, bewerken en uploaden** als u niet-geverifieerde gebruikers wilt toestaan om wijzigingen aan te brengen in de mappen.
-        - Selecteer **weergeven** als u niet wilt dat niet-geverifieerde gebruikers wijzigingen in de mappen aanbrengen.
+1. Onder deze **koppelingen kunnen deze machtigingen worden gegeven:** subdeelvenster, 
+    1. In de **vervolgkeuzelijst** Bestanden 
+        - Selecteer **Weergeven en bewerken** als u wilt toestaan dat niet-genautische gebruikers wijzigingen in de bestanden aanbrengen.
+        - Selecteer **Beeld** als u niet wilt dat niet-genauteerde gebruikers wijzigingen aanbrengen in de bestanden.
+    2. In de **vervolgkeuzelijst** Mappen
+        - Selecteer **Weergeven, bewerken en uploaden** als u niet-nautische gebruikers wilt toestaan wijzigingen aan te brengen in de mappen.
+        - Selecteer **Beeld** als u niet wilt dat niet-genauteerde gebruikers wijzigingen aanbrengen in de mappen.
 
-## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voordelen op SharePoint-siteniveau
+## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voor het delen op siteniveau in SharePoint
 
-Als u bestanden en mappen deelt die zich op een SharePoint-site bevinden, moet u ook de instellingen voordelen op siteniveau voor die site controleren.
+Als u bestanden en mappen deelt op een SharePoint-site, moet u ook de instellingen voor delen op siteniveau voor die site controleren.
 
 ![Schermafbeelding van de instellingen voor extern delen van SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
-Instellingen voordelen op siteniveau instellen
+Instellingen voor delen op siteniveau instellen
 
-1. Vouw in het SharePoint-Beheercentrum in het linker navigatievenster **sites** uit en klik op **actieve sites**.
-2. Selecteer de site waarop u bestanden en mappen wilt delen met gasten.
-3. Schuif naar rechts om de rij (waarin de geselecteerde site wordt weergegeven) en klik op een willekeurige plaats in de kolom **extern delen** .
-4. Op de pagina die verschijnt, klikt u op het tabblad **beleidsregels** .
-5. Klik onder het deelvenster **extern delen** op **bewerken**.
-6. Zorg ervoor dat delen is ingesteld op **iedereen** of **nieuwe en bestaande gasten**.
+1. Vouw in het SharePoint-beheercentrum **Sites** uit in het navigatievenster aan de linkerkant en klik op **Actieve sites**.
+2. Selecteer de site waarop u bestanden en mappen met gasten wilt delen.
+3. Schuif naar rechts over de rij (waarin de geselecteerde site aanwezig is) en klik ergens in **de kolom Extern** delen.
+4. Klik op de pagina die wordt weergegeven op **het tabblad** Beleid.
+5. Klik onder **het deelvenster** Extern delen op **Bewerken.**
+6. Zorg ervoor dat delen is ingesteld op **Iedereen** of **Nieuwe en bestaande gasten**.
 7. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
 ## <a name="invite-users"></a>Gebruikers uitnodigen
 
-Instellingen voor het delen van gasten zijn nu geconfigureerd; gebruikers kunnen nu bestanden en mappen delen met personen buiten uw organisatie. Zie [bestanden en mappen in OneDrive delen](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) en [SharePoint-bestanden of-mappen delen](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) voor meer informatie.
+Instellingen voor het delen van gasten zijn nu geconfigureerd. zodat gebruikers nu bestanden en mappen kunnen delen met personen buiten uw organisatie. Zie [OneDrive-bestanden en -mappen delen](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) en [SharePoint-bestanden of -mappen](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) delen voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -139,4 +139,4 @@ Instellingen voor het delen van gasten zijn nu geconfigureerd; gebruikers kunnen
 
 [Accidentele blootstelling aan bestanden beperken tijdens het delen met gasten](share-limit-accidental-exposure.md)
 
-[Integratie van SharePoint en OneDrive met Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+[Integratie van SharePoint en OneDrive met Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration-preview)

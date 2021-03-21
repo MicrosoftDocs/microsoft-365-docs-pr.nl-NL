@@ -1,5 +1,5 @@
 ---
-title: Laden van afbeeldingen en JavaScript vertragen in SharePoint Online
+title: Vertraging bij het laden van afbeeldingen en JavaScript in SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,33 +20,33 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 74d327e5-755f-4135-b9a5-7b79578c1bf9
-description: Meer informatie over hoe u de laadtijd voor SharePoint Online-pagina's kunt verkleinen met behulp van JavaScript om het laden van afbeeldingen en niet-basisscripts te uitstellen.
-ms.openlocfilehash: ee86ae0813c11fbfd836d7d38ea124c1e3f277d0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Lees hoe u de laadtijd voor SharePoint Online-pagina's kunt verminderen door JavaScript te gebruiken om het laden van afbeeldingen en niet-essentiële JavaScript uit te stellen.
+ms.openlocfilehash: 86b93c4e1e102132bb0c1bfb9a413233529adecb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689319"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919162"
 ---
-# <a name="delay-loading-images-and-javascript-in-sharepoint-online"></a>Laden van afbeeldingen en JavaScript vertragen in SharePoint Online
+# <a name="delay-loading-images-and-javascript-in-sharepoint-online"></a>Vertraging bij het laden van afbeeldingen en JavaScript in SharePoint Online
 
-In dit artikel wordt beschreven hoe u de laadtijd voor SharePoint Online-pagina's kunt verkleinen met behulp van JavaScript om het laden van afbeeldingen te vertraagen, en het niet mogelijk is om niet-essentieel JavaScript te laden totdat de pagina wordt geladen.
+In dit artikel wordt beschreven hoe u de laadtijd voor SharePoint Online-pagina's kunt verminderen door JavaScript te gebruiken om het laden van afbeeldingen uit te stellen en ook door te wachten op het laden van niet-essentiële JavaScript tot nadat de pagina is geladen.
   
-Afbeeldingen kunnen een negatieve invloed hebben op de laad snelheid van pagina's in SharePoint Online. Standaardafbeeldingen van de nieuwste Internet browsers voorafgaand aan het ophalen van afbeeldingen bij het laden van een HTML-pagina. Dit kan tot gevolg hebben dat de pagina langzaam wordt geladen als de afbeeldingen niet zichtbaar zijn op het scherm totdat de gebruiker omlaag schuift. De afbeeldingen kunnen verhinderen dat de browser het zichtbare gedeelte van de pagina laadt. U kunt dit probleem omzeilen door JavaScript te gebruiken om de afbeeldingen eerst over te slaan. Daarnaast kunt u de downloads van niet-belangrijkste JavaScript ook trager downloaden op uw SharePoint-pagina's. In dit onderwerp worden enkele methoden beschreven die u kunt gebruiken om de laadtijden van pagina's te verbeteren met JavaScript in SharePoint Online.
+Afbeeldingen kunnen een negatieve invloed hebben op de laadsnelheid van pagina's in SharePoint Online. Standaard worden in de meeste moderne internetbrowsers afbeeldingen vooraf opgehaald bij het laden van een HTML-pagina. Hierdoor kan de pagina onnodig traag worden geladen als de afbeeldingen niet zichtbaar zijn op het scherm totdat de gebruiker omlaag schuift. De afbeeldingen kunnen blokkeren dat de browser het zichtbare deel van de pagina laadt. Als u dit probleem wilt oplossen, kunt u JavaScript gebruiken om het laden van de afbeeldingen eerst over te slaan. Bovendien kan het laden van niet-essentiële JavaScript ook de downloadtijden op uw SharePoint-pagina's vertragen. In dit onderwerp worden enkele methoden beschreven die u kunt gebruiken om de laadtijden van pagina's te verbeteren met JavaScript in SharePoint Online.
   
-## <a name="improve-page-load-times-by-delaying-image-loading-in-sharepoint-online-pages-by-using-javascript"></a>Het laden van pagina's verbeteren door het laden van afbeeldingen op SharePoint Online-pagina's te vertragen met behulp van JavaScript
+## <a name="improve-page-load-times-by-delaying-image-loading-in-sharepoint-online-pages-by-using-javascript"></a>Laadtijden van pagina's verbeteren door het laden van afbeeldingen in SharePoint Online-pagina's uit te stellen met JavaScript
 
-U kunt JavaScript gebruiken om te voorkomen dat een webbrowser afbeeldingen vooraf ophalen. Hiermee wordt de algehele rendering van documenten versneld. Als u dit wilt doen, verwijdert u de waarde van het SRC-kenmerk van de \<img\> tag en vervangt u deze door het pad naar een bestand in een gegevenskenmerk zoals: data-src. Bijvoorbeeld:
+U kunt JavaScript gebruiken om te voorkomen dat afbeeldingen vooraf worden opgehaald door een webbrowser. Dit versnelt de algehele weergave van documenten. Hiervoor verwijdert u de waarde van het src-kenmerk uit de tag en vervangt u het door het pad naar een bestand in een gegevenskenmerk, \<img\> zoals: gegevens-src. Bijvoorbeeld:
   
 ```html
 <img src="" data-src="/sites/NavigationBySearch/_catalogs/masterpage/media/microsoft-white-8.jpg" />
 ```
 
-Met deze methode kunt u de afbeeldingen niet meteen downloaden via de browser. Als de afbeelding zich al in de viewport bevindt, krijgt de browser de URL van het gegevenskenmerk en voegt u deze in als de waarde voor het kenmerk src. De afbeelding wordt alleen geladen wanneer de gebruiker in beeld schuift.
+Met deze methode worden de afbeeldingen niet direct gedownload in de browser. Als de afbeelding al in de viewport staat, wordt in JavaScript de browser opgevraagd om de URL op te halen uit het gegevenskenmerk en deze in te voegen als de waarde voor het src-kenmerk. De afbeelding wordt alleen geladen wanneer de gebruiker schuift en deze in beeld komt.
   
-Om dit te doen, moet u JavaScript gebruiken.
+Als u dit allemaal wilt doen, moet u JavaScript gebruiken.
   
-Definieer in een tekstbestand de functie **functie iselementinviewport ()** om te controleren of een element zich in een deel van de browser bevindt dat zichtbaar is voor de gebruiker.
+Definieer in een tekstbestand de functie **isElementInViewport()** om te controleren of een element zich in het gedeelte van de browser dat zichtbaar is voor de gebruiker.
   
 ```javascript
 function isElementInViewport(el) {
@@ -62,7 +62,7 @@ function isElementInViewport(el) {
 }
 ```
 
-Gebruik vervolgens **functie iselementinviewport ()** in de **loadItemsInView-functie ()** . Met de functie **loadItemsInView ()** worden alle afbeeldingen met een waarde voor het data-SRC-kenmerk geladen, indien deze deel uitmaken van de browser die zichtbaar is voor de gebruiker. Voeg de volgende functie toe aan het tekstbestand:
+Gebruik **vervolgensElementInViewport()** in de **functie loadItemsInView().** Met de functie **loadItemsInView()** worden alle afbeeldingen geladen die een waarde hebben voor het gegevens-src-kenmerk als ze zich in het gedeelte van de browser hebben dat zichtbaar is voor de gebruiker. Voeg de volgende functie toe aan het tekstbestand:
   
 ```javascript
 function loadItemsInView() {
@@ -78,7 +78,7 @@ function loadItemsInView() {
 }
 ```
 
-Bel tot slot **loadItemsInView ()** vanuit **Window. onscroll ()** , zoals wordt weergegeven in het volgende voorbeeld. Dit zorgt ervoor dat alle afbeeldingen in de viewport worden geladen terwijl de gebruiker ze nodig hebben, maar niet eerder. Voeg het volgende toe aan het tekstbestand:
+Tot slot: **oproep loadItemsInView()** vanuit **window.onscroll()** zoals weergegeven in het volgende voorbeeld. Dit zorgt ervoor dat afbeeldingen in de viewport worden geladen zoals de gebruiker ze nodig heeft, maar niet eerder. Voeg het volgende toe aan het tekstbestand:
   
 ```javascript
 //Example of calling loadItemsInView() from within window.onscroll()
@@ -88,7 +88,7 @@ $(window).on("scroll", function () {
 
 ```
 
-Voor SharePoint Online dient u de volgende functie toe te voegen aan de scroll-gebeurtenis in de tag #s4-Workspace \<div\> . Dit komt doordat de venster gebeurtenissen worden overschreven om ervoor te zorgen dat het lint boven aan de pagina blijft.
+Voor SharePoint Online moet u de volgende functie toevoegen aan de schuifgebeurtenis op de \<div\> #s4-workspace-tag. Dit komt omdat de venstergebeurtenissen worden overgenomen om ervoor te zorgen dat het lint boven aan de pagina blijft staan.
   
 ```javascript
 //Keep the ribbon at the top of the page
@@ -97,34 +97,34 @@ $('#s4-workspace').on("scroll", function () {
 });
 ```
 
-Sla het tekstbestand op als een JavaScript-bestand met de extensie. js, bijvoorbeeld delayLoadImages.js.
+Sla het tekstbestand op als een JavaScript-bestand met de extensie .js, bijvoorbeeld delayLoadImages.js.
   
-Wanneer u klaar bent met het schrijven van delayLoadImages.js, kunt u de inhoud van het bestand toevoegen aan een basispagina in SharePoint Online. U doet dit door een scriptkoppeling toe te voegen aan de koptekst op de basispagina. Wanneer de afbeelding op de basispagina staat, wordt deze op alle pagina's van de SharePoint Online-site toegepast die de basispagina-indeling gebruiken. Als u dit alleen op één pagina van uw site wilt gebruiken, gebruikt u het webonderdeel script editor om JavaScript op de pagina in te sluiten. Zie de volgende onderwerpen voor meer informatie:
+Wanneer u klaar bent met het schrijven delayLoadImages.js, kunt u de inhoud van het bestand toevoegen aan een basispagina in SharePoint Online. U doet dit door een scriptkoppeling toe te voegen aan de koptekst op de basispagina. Zodra het op een basispagina staat, wordt JavaScript toegepast op alle pagina's op uw SharePoint Online-site die gebruikmaken van die basispagina-indeling. Als u dit alleen op één pagina van uw site wilt gebruiken, gebruikt u het webonderdeel scripteditor om JavaScript in tesluiten in de pagina. Zie deze onderwerpen voor meer informatie:
   
-- [Procedure: een basispagina toepassen op een site in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=525627)
+- [How to: Een basispagina toepassen op een site in SharePoint 2013](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)
 
-- [Procedure: een pagina-indeling maken in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=525628)
+- [How to: Een pagina-indeling maken in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
 
-### <a name="example-referencing-the-javascript-delayloadimagesjs-file-from-a-master-page-in-sharepoint-online"></a>Voorbeeld: verwijzen naar het JavaScript-delayLoadImages.js bestand van een basispagina in SharePoint Online
+### <a name="example-referencing-the-javascript-delayloadimagesjs-file-from-a-master-page-in-sharepoint-online"></a>Voorbeeld: Het JavaScript-delayLoadImages.js verwijzen vanaf een basispagina in SharePoint Online
   
-Om dit te kunnen werken, moet u ook verwijzen naar jQuery op de basispagina. In het volgende voorbeeld ziet u dat er op de eerste pagina wordt gelaadd, maar er is een aantal afbeeldingen geladen, maar er zijn nog meer op de pagina.
+Om dit te laten werken, moet u ook verwijzen naar jQuery op de basispagina. In het volgende voorbeeld ziet u in de eerste paginabelasting dat er slechts één afbeelding is geladen, maar er zijn er meerdere op de pagina.
   
-![Schermafbeelding van één afbeelding die wordt weergegeven op de pagina](../media/3d177ddb-67e5-43a7-b327-c9f9566ca937.png)
+![Schermafbeelding met één afbeelding die op de pagina is geladen](../media/3d177ddb-67e5-43a7-b327-c9f9566ca937.png)
   
-In de volgende schermafbeelding wordt de rest van de afbeeldingen weergegeven die worden gedownload wanneer ze in beeld schuiven.
+In de volgende schermafbeelding ziet u de rest van de afbeeldingen die zijn gedownload nadat ze in de weergave zijn gescrold.
   
-![Schermafbeelding van diverse afbeeldingen die op de pagina zijn geladen](../media/95eb2b14-f6a1-4eac-a5cb-96097e49514c.png)
+![Schermafbeelding met verschillende afbeeldingen die op de pagina zijn geladen](../media/95eb2b14-f6a1-4eac-a5cb-96097e49514c.png)
   
-Als u het laden van afbeeldingen met behulp van JavaScript vertraagt, kan de prestaties van de afbeelding toenemen. Als de methode op een openbare website wordt toegepast, kunnen de afbeeldingen niet worden verkend met behulp van zoekprogramma's, op dezelfde manier als de afbeeldingen een regelmatig opgestelde afbeelding verkennen. Dit kan van invloed zijn op de invloed op de zoekmachines, aangezien de metagegevens van de afbeelding zelf niet echt zijn totdat de pagina wordt geladen. In crawlers voor zoekmachines wordt alleen de HTML gelezen en worden de afbeeldingen daarom niet weergegeven als inhoud op de pagina. Afbeeldingen vormen een van de factoren die worden gebruikt voor het rangschikken van pagina's in zoekresultaten. Eén manier om dit te omzeilen is door in te LEIDENE tekst voor uw afbeeldingen te gebruiken.
+Het uitstellen van het laden van afbeeldingen met Behulp van JavaScript kan een effectieve techniek zijn om de prestaties te verbeteren. Als de techniek echter wordt toegepast op een openbare website, kunnen zoekmachines de afbeeldingen niet op dezelfde manier crawlen als een regelmatig gevormde afbeelding. Dit kan van invloed zijn op de classificaties in zoekmachines, omdat metagegevens op de afbeelding zelf er pas staan als de pagina wordt geladen. Zoekmachinecrawlers lezen alleen de HTML en zien de afbeeldingen daarom niet als inhoud op de pagina. Afbeeldingen zijn een van de factoren die worden gebruikt om pagina's in zoekresultaten te rangschikken. U kunt hier onder andere omheen werken door inleidende tekst voor uw afbeeldingen te gebruiken.
   
-## <a name="github-code-sample-injecting-javascript-to-improve-performance"></a>Voorbeeld van een GitHub-code: JavaScript invoegen om de prestaties te verbeteren
+## <a name="github-code-sample-injecting-javascript-to-improve-performance"></a>Voorbeeld van GitHub-code: JavaScript injecteren om de prestaties te verbeteren
 
-U hoeft het artikel en het codevoorbeeld niet te missen op een [JavaScript-injectie](https://go.microsoft.com/fwlink/p/?LinkId=524759) op github.
+Mis het artikel en het codevoorbeeld over [JavaScript-injectie](https://go.microsoft.com/fwlink/p/?LinkId=524759) op GitHub niet.
   
 ## <a name="see-also"></a>Zie ook
 
-[Ondersteunde browsers in Office 2013 en Microsoft 365-apps voor Enterprise](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
+[Ondersteunde browsers in Office 2013 en Microsoft 365 Apps voor bedrijven](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
   
-[Procedure: een basispagina toepassen op een site in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=525627)
+[How to: Een basispagina toepassen op een site in SharePoint 2013](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)
   
-[Procedure: een pagina-indeling maken in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=525628)
+[How to: Een pagina-indeling maken in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)

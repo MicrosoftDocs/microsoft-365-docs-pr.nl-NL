@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: 5ddd42f9e2f2779ca6bf864554140a3f18d2cdea
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 2ecd8e0458f6ebef9ebd1b0c3724195cc70f6378
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405700"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920926"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -40,7 +40,7 @@ De elementen van de configuratie van een team met beveiligingsisolatie zijn:
     - Versleutelt documenten waarop het label wordt toegepast
 
 > [!IMPORTANT]
-> Zorg ervoor dat u [gevoeligheidslabels hebt ingeschakeld om de inhoud van Microsoft teams, Office 365-groepen en SharePoint-sites te beveiligen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), voordat u verder gaat met de stappen in dit artikel.
+> Zorg ervoor dat u [gevoeligheidslabels hebt ingeschakeld om de inhoud van Microsoft teams, Office 365-groepen en SharePoint-sites te beveiligen](../compliance/sensitivity-labels-teams-groups-sites.md), voordat u verder gaat met de stappen in dit artikel.
 
 Bekijk deze video voor een overzicht van het implementatieproces.
 <br>
@@ -70,8 +70,8 @@ Afhankelijk van de aard van uw bedrijf, is het mogelijk dat u delen met gasten n
 
 Voor meer informatie over delen met gasten kunt u de volgende bronnen raadplegen:
 
-- [Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen buiten uw organisatie](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [Een beveiligde omgeving voor het delen met gasten maken](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen buiten uw organisatie](./share-limit-accidental-exposure.md)
+- [Een beveiligde omgeving voor het delen met gasten maken](./create-secure-guest-sharing-environment.md)
 
 Om delen met gasten toe te staan of te blokkeren, gebruiken we een combinatie van een gevoeligheidslabel voor het team en besturingselementen voor delen op siteniveau voor de bijbehorende SharePoint-site, die beide later worden besproken.
 
@@ -98,7 +98,7 @@ Het maken van een persoonlijk kanaal beperken
 2. Vouw op het tabblad **Instellingen** de optie **Machtigingen voor leden** uit.
 3. Schakel het selectievakje **Leden toestaan privékanalen te maken** uit.
 
-U kunt ook [teambeleid](https://docs.microsoft.com/MicrosoftTeams/teams-policies) gebruiken om te bepalen wie persoonlijke kanalen kan maken.
+U kunt ook [teambeleid](/MicrosoftTeams/teams-policies) gebruiken om te bepalen wie persoonlijke kanalen kan maken.
 
 ## <a name="create-a-sensitivity-label"></a>Een gevoeligheidslabel maken
 
@@ -194,7 +194,7 @@ Site-instellingen bijwerken
 
 #### <a name="private-channels"></a>Privékanalen
 
-Als u privékanalen aan het team toevoegt, maakt elk privékanaal een nieuwe SharePoint-site met de standaardinstellingen voor delen. Deze sites zijn niet zichtbaar in het SharePoint-beheercentrum, dus u moet de [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) PowerShell-cmdlet gebruiken met de volgende parameters om de instellingen voor het delen van gasten bij te werken:
+Als u privékanalen aan het team toevoegt, maakt elk privékanaal een nieuwe SharePoint-site met de standaardinstellingen voor delen. Deze sites zijn niet zichtbaar in het SharePoint-beheercentrum, dus u moet de [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell-cmdlet gebruiken met de volgende parameters om de instellingen voor het delen van gasten bij te werken:
 
 - `-SharingCapability Disabled` om delen met gasten uit te schakelen (deze is standaard ingeschakeld)
 - `-DefaultSharingLinkType Internal` om de standaard koppeling voor delen te wijzigen in *specifieke personen*
@@ -229,10 +229,10 @@ Gebruikers toevoegen aan de site
 
 Microsoft 365 biedt aanvullende methoden voor het beveiligen van uw inhoud. Overweeg of de volgende opties de beveiliging van uw organisatie zouden kunnen verbeteren.
 
-- Laat je gastgebruikers akkoord gaan met de [gebruiksrechtovereenkomst](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
-- Configureer een [beleid voor de time-out van een sessie](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) voor gasten.
-- Maak [gevoelige informatietypen](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) en gebruik [gegevensverliesbeveiliging](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) om beleid in te stellen rond toegang tot gevoelige informatie.
-- Gebruik [Azure Active Directory-toegangsbeoordelingen](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) om periodiek teamtoegang en lidmaatschap te controleren.
+- Laat je gastgebruikers akkoord gaan met de [gebruiksrechtovereenkomst](/azure/active-directory/conditional-access/terms-of-use).
+- Configureer een [beleid voor de time-out van een sessie](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) voor gasten.
+- Maak [gevoelige informatietypen](../compliance/sensitive-information-type-learn-about.md) en gebruik [gegevensverliesbeveiliging](../compliance/data-loss-prevention-policies.md) om beleid in te stellen rond toegang tot gevoelige informatie.
+- Gebruik [Azure Active Directory-toegangsbeoordelingen](/azure/active-directory/governance/access-reviews-overview) om periodiek teamtoegang en lidmaatschap te controleren.
 
 ## <a name="drive-user-adoption-for-team-members"></a>Ingebruikname door teamleden bevorderen
 
@@ -266,4 +266,4 @@ School de gebruikers indien nodig bij.
 
 ## <a name="see-also"></a>Zie ook
 
-[Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)
+[Azure AD Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-configure)

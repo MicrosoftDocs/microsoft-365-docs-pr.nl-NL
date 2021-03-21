@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Informatie over het gebruik van het IP-adres en de URL-webservice van Office 365 om u te helpen bij het beter identificeren en onderscheiden van het netwerkverkeer van Office 365.
-ms.openlocfilehash: 03e6eac86e66db6f9e94c3f98e6d7b565ffa0f14
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+ms.openlocfilehash: 1948491e1d3db724e7b7b6a5275234acab4be08a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456457"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918952"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>IP-adres en URL-webservice van Office 365
 
@@ -66,7 +66,7 @@ De volgende parameters worden veel gebruikt in alle webservicemethoden:
 - **format=<JSON | CSV>** — De standaardindeling van de geretourneerde gegevens is JSON. Gebruik deze optionele parameter als u de gegevens in een indeling met door komma's gescheiden waarden wilt hebben.
 - **ClientRequestId=\<guid>** — Een verplichte GUID die u genereert voor clientkoppeling. Genereer een unieke GUID voor elke computer waarmee de webservice wordt aangeroepen (de scripts op deze pagina genereren een GUID voor u). Gebruik niet de GUID's uit het volgende voorbeeld. Deze kunnen in de toekomst door de webservice worden geblokkeerd. De indeling van de GUID is _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, waarin de x voor een hexadecimaal getal staat.
 
-  Als u een GUID wilt genereren, kunt u gebruikmaken van de opdracht [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell of een online service zoals [Online GUID Generator](https://www.guidgenerator.com/).
+  Als u een GUID wilt genereren, kunt u gebruikmaken van de opdracht [New-GUID](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell of een online service zoals [Online GUID Generator](https://www.guidgenerator.com/).
 
 ## <a name="version-web-method"></a>Versiewebmethode
 
@@ -250,7 +250,7 @@ De belangrijkste wijzigingen in de gegevens van eindpunten zijn nieuwe URL's en 
 
 De vereiste parameter voor de wijzigingenwebmethode is:
 
-- **Version=\<YYYYMMDDNN>** — Verplichte URL-routeparameter. Deze waarde is de versie die u momenteel hebt geïmplementeerd. De webservice retourneert de wijzigingen sinds die versie. De indeling is _JJJJMMDDNN_, waarbij _NN_ een natuurlijk getal is, dat is verhoogd als er meerdere versies op één dag moeten worden gepubliceerd en _00_ de eerste update voor een bepaalde dag voorstelt. Voor de webservice moet de _versie_parameter precies 10 cijfers bevatten.
+- **Version=\<YYYYMMDDNN>** — Verplichte URL-routeparameter. Deze waarde is de versie die u momenteel hebt geïmplementeerd. De webservice retourneert de wijzigingen sinds die versie. De indeling is _JJJJMMDDNN_, waarbij _NN_ een natuurlijk getal is, dat is verhoogd als er meerdere versies op één dag moeten worden gepubliceerd en _00_ de eerste update voor een bepaalde dag voorstelt. Voor de webservice moet de _versie_ parameter precies 10 cijfers bevatten.
 
 De wijzigingenwebmethode is op dezelfde manier beperkt als de eindpuntenwebmethode. Als u een 429 HTTP-antwoordcode krijgt, wacht u 1 uur voordat u de aanvraag herhaalt of genereert u een nieuwe GUID voor de aanvraag.
 
@@ -607,7 +607,7 @@ U kunt een paar verschillende methoden gebruiken om e-mailmeldingen te ontvangen
 
 - Als u een Microsoft Flow-oplossing wilt gebruiken, raadpleegt u [Microsoft Flow gebruiken om een e-mail te ontvangen over wijzigingen aan Office 365-IP-adressen en URL's](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651).
 - Als u een Azure Logic-app wilt implementeren met een ARM-sjabloon, raadpleegt u [Office 365 updatemelding (v 1.1)](https://aka.ms/ipurlws-updates-template).
-- Als u uw eigen meldingenscript wilt schrijven met PowerShell, raadpleegt u [Send-MailMessage](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage).
+- Als u uw eigen meldingenscript wilt schrijven met PowerShell, raadpleegt u [Send-MailMessage](/powershell/module/microsoft.powershell.utility/send-mailmessage).
 
 ## <a name="exporting-a-proxy-pac-file"></a>Een PAC-bestand voor een proxy exporteren
 

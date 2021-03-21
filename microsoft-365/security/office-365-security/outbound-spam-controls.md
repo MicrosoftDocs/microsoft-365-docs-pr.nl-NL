@@ -17,15 +17,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer te weten komen over de besturingselementen voor uitgaande spam in Exchange Online Protection (EOP) en wat ze moeten doen als u massamailings moet verzenden.
+description: Beheerders kunnen meer informatie krijgen over de besturingselementen voor uitgaande spam in Exchange Online Protection (EOP) en wat u moet doen als u massamailings wilt verzenden.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f9d434c858f7c66f82dd4f551bac99458b9e5c8c
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 8e87f4625e48024cd217ba5c33d345c2422f109c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287627"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920322"
 ---
 # <a name="outbound-spam-protection-in-eop"></a>Beveiliging tegen uitgaande spam in EOP
 
@@ -36,36 +36,36 @@ ms.locfileid: "50287627"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken nemen we het beheren van uitgaande spam serieus. Een klant die opzettelijk of per ongeluk spam van zijn organisatie verzendt, kan de reputatie van de hele service verslechteren en kan de bezorging van e-mail voor andere klanten beïnvloeden.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken nemen we het beheren van uitgaande spam serieus. Eén klant die opzettelijk of per ongeluk spam verzendt vanuit zijn organisatie, kan de reputatie van de hele service verslechteren en kan van invloed zijn op de bezorging van e-mail voor andere klanten.
 
-In dit onderwerp worden besturingselementen en meldingen beschreven die zijn ontworpen om uitgaande spam te helpen voorkomen en wat u kunt doen als u massamailings moet verzenden.
+In dit onderwerp worden de besturingselementen en meldingen beschreven die zijn ontworpen om uitgaande spam te voorkomen en wat u kunt doen als u massamailings wilt verzenden.
 
-## <a name="what-admins-can-do-to-control-outbound-spam"></a>Wat beheerders kunnen doen om uitgaande spam tegen te gaan
+## <a name="what-admins-can-do-to-control-outbound-spam"></a>Wat beheerders kunnen doen om uitgaande spam te beheren
 
-- Gebruik ingebouwde meldingen: als een gebruiker de limieten voor het verzenden van [de service](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) of het  uitgaande [spambeleid](configure-the-outbound-spam-policy.md) overschrijdt en geen e-mail meer kan verzenden, verzendt het standaardbeleid voor waarschuwingen met de naam Gebruiker dat geen e-mail kan verzenden **e-mailmeldingen** naar leden van de groep **TenantAdmins** **(globale** beheerders). Zie De instellingen voor meldingen controleren voor beperkte gebruikers als u wilt configureren wie deze meldingen [nog meer ontvangt.](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users) Bovendien zijn de standaardwaarschuwingsbeleidsregels met  de naam Verzenden per e-mail overschreden en patronen voor het verzenden van verdachte e-mailberichten gedetecteerd om e-mailmeldingen te verzenden naar leden van de groep **TenantAdmins** **(globale** beheerders).  Zie voor meer informatie over waarschuwingsbeleid, [Waarschuwingsbeleid in het beveiligings- en compliancecentrum](../../compliance/alert-policies.md).
+- Ingebouwde meldingen gebruiken: wanneer een gebruiker de limieten voor het verzenden van de [service](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) of het  uitgaande [spambeleid](configure-the-outbound-spam-policy.md) overschrijdt en geen **e-mail** mag verzenden, wordt het standaardmeldingsbeleid met de naam Gebruiker beperkt tot het verzenden van e-mailmeldingen verzonden naar leden van de **groep TenantAdmins** **(Globale** beheerders). Zie De waarschuwingsinstellingen voor beperkte gebruikers controleren als u wilt configureren wie deze meldingen [nog meer ontvangt.](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users) Ook is de standaardwaarschuwingsbeleid met de  naam E-mail verzenden limiet overschreden en verdachte e-mail verzenden patronen gedetecteerd e-mailmeldingen verzenden naar leden van de **TenantAdmins** (**Globale beheerders**) groep.  Zie voor meer informatie over waarschuwingsbeleid, [Waarschuwingsbeleid in het beveiligings- en compliancecentrum](../../compliance/alert-policies.md).
 
-- **Spam-klachten** van e-mailproviders van derden bekijken: Veel e-mailservices zoals Outlook.com, Yahoo en AOL geven een feedbacklus door wanneer een gebruiker in de service een e-mail van Microsoft 365 markeert als spam, wordt het bericht verpakt en voor revisie naar ons verzonden. Voor meer informatie over ondersteuning voor afzenders Outlook.com, gaat u naar <https://sendersupport.olc.protection.outlook.com/pm/services.aspx> .
+- **Spam klachten** van externe e-mailproviders controleren: Veel e-mailservices zoals Outlook.com, Yahoo en AOL geven een feedbacklus waarin als een gebruiker in de service een e-mail van Microsoft 365 markeert als spam, het bericht wordt verpakt en naar ons wordt verzonden voor controle. Voor meer informatie over de ondersteuning van afzenders voor Outlook.com, gaat u naar <https://sendersupport.olc.protection.outlook.com/pm/services.aspx> .
 
-## <a name="how-eop-controls-outbound-spam"></a>Hoe uitgaande spam door EOP wordt gecontroleerd
+## <a name="how-eop-controls-outbound-spam"></a>Hoe EOP uitgaande spam controleert
 
-- **Scheiding van uitgaand e-mailverkeer:** elk uitgaand bericht dat via de service wordt verzonden, wordt gescand op spam. Als het bericht als spam wordt beschouwd, wordt het bezorgd via een secundaire, minder betrouwbare IP-adresgroep, de bezorgingsgroep met _hoog risico._ Zie de [bezorgingsgroep met hoog risico voor uitgaande berichten voor meer informatie.](high-risk-delivery-pool-for-outbound-messages.md)
+- **Segregatie van uitgaand e-mailverkeer:** elk uitgaande bericht dat via de service wordt verzonden, wordt gescand op spam. Als wordt vastgesteld dat het bericht spam is, wordt het bezorgd vanuit een secundaire, minder betrouwbare _IP-adresgroep_ met de naam van de groep met een hoog risico. Zie Risicovolle [bezorgingsgroep voor](high-risk-delivery-pool-for-outbound-messages.md)uitgaande berichten voor meer informatie.
 
-- **Monitoring our source IP address reputation:** Microsoft 365 query's various third party IP block lists. Er wordt een waarschuwing gegenereerd als een van de IP-adressen die we gebruiken voor uitgaande e-mail in deze lijsten wordt weergegeven. Hierdoor kunnen we snel reageren wanneer spam onze reputatie heeft verslechtert. Wanneer een waarschuwing wordt gegenereerd, hebben we interne documentatie waarin wordt beschreven hoe u ervoor kunt zorgen dat IP-adressen worden verwijderd (verwijderd) uit blokkeringslijsten.
+- **Controle van de bron-IP-adresreputatie:** Microsoft 365 bevraagt verschillende IP-bloklijsten van derden. Er wordt een waarschuwing gegenereerd als een van de IP-adressen die we gebruiken voor uitgaande e-mail in deze lijsten wordt weergegeven. Hierdoor kunnen we snel reageren wanneer spam onze reputatie heeft doen verslechteren. Wanneer een waarschuwing wordt gegenereerd, hebben we interne documentatie waarin wordt beschreven hoe we onze IP-adressen kunnen verwijderen (verwijderd) uit bloklijsten.
 
-- Schakel accounts uit die te veel **spam** verzenden. Hoewel uitgaande spam wordt gefilterd in de bezorgingsgroep met hoog risico, kunnen we een account (vaak een gekromd account) niet toestaan spam voor onbepaalde tijd te <sup>\*</sup> verzenden. We controleren accounts die spam verzenden en als deze een niet-openbaar wordende limiet overschrijden, is het account geblokkeerd voor het verzenden van e-mail. Er zijn verschillende drempelwaarden voor afzonderlijke gebruikers en voor de hele tenant.
+- Accounts die te veel **spam** verzenden uitschakelen: Hoewel we uitgaande spam scheiden in de groep met hoge risico's, kunnen we niet toestaan dat een account (vaak een gekromd account) spam voor onbepaalde tijd <sup>\*</sup> verzendt. We controleren accounts die spam verzenden en wanneer ze een niet-bekendgemaakte limiet overschrijden, wordt het account geblokkeerd voor het verzenden van e-mail. Er zijn verschillende drempelwaarden voor afzonderlijke gebruikers en de hele tenant.
 
-- Accounts die te snel te veel e-mailberichten verzenden uitschakelen: Naast de limieten voor berichten die als spam zijn gemarkeerd, zijn er ook limieten die accounts blokkeren wanneer ze een algehele limiet voor uitgaande berichten bereiken, ongeacht de spamfiltering voor de uitgaande <sup>\*</sup> berichten. Een gekromd account kan nuldagse (voorheen niet-herkende) spam verzenden die wordt gemist door het spamfilter. Omdat het moeilijk kan zijn om een legitieme grootschalige mailingcampagne te identificeren versus een spamcampagne, helpen deze limieten om potentiële schade tot een minimum te beperken.
+- Accounts die te snel te veel e-mail verzenden uitschakelen: Naast de limieten voor berichten die zijn gemarkeerd als spam, zijn er ook limieten die accounts blokkeren wanneer ze een algemene limiet voor uitgaande berichten bereiken, ongeacht de uitspraak over spamfilters op de uitgaande <sup>\*</sup> berichten. Een gekromd account kan zero-day (voorheen niet-herkende) spam verzenden die wordt gemist door het spamfilter. Omdat het lastig kan zijn om een legitieme massamailingcampagne versus een spamcampagne te identificeren, helpen deze limieten eventuele schade te minimaliseren.
 
-<sup>\*</sup> We adverteren de exacte limieten niet, dus spammers kunnen het systeem niet gamen en daarom kunnen we de limieten zo nodig verhogen of verlagen. De limieten zijn hoog genoeg om te voorkomen dat een gemiddelde zakelijke gebruiker deze ooit overschrijdt en zo laag dat de schade die door een spammer wordt veroorzaakt, wordt beperkt.
+<sup>\*</sup> We maken geen reclame voor de exacte limieten, zodat spammers het systeem niet kunnen gamen, zodat we de limieten zo nodig kunnen verhogen of verlagen. De limieten zijn hoog genoeg om te voorkomen dat een gemiddelde zakelijke gebruiker deze ooit overschrijdt en laag genoeg om de schade te beperken die wordt veroorzaakt door een spammer.
 
-## <a name="recommendations-for-customers-who-want-to-send-mass-mailings-through-eop"></a>Aanbevelingen voor klanten die grote mailings willen verzenden via EOP
+## <a name="recommendations-for-customers-who-want-to-send-mass-mailings-through-eop"></a>Aanbevelingen voor klanten die massamailings willen verzenden via EOP
 
-Het is moeilijk om een balans te vinden tussen klanten die een grote hoeveelheid e-mail willen verzenden en het beveiligen van de service tegen gekromde accounts en bulksgewijs verzenden van e-mail met slechte aankooppraktijken voor geadresseerden. De kosten van een Microsoft 365-e-mailbron die op een lijst met IP-blokkeringen van derden wordt geplaatst, zijn hoger dan de kosten die een gebruiker blokkeren die te veel e-mail verstuurt.
+Het is moeilijk om een evenwicht te vinden tussen klanten die een groot aantal e-mail willen verzenden versus het beschermen van de service tegen gecompromitteerde accounts en bulk-afzenders van e-mail met slechte aankooppraktijken voor geadresseerden. De kosten van een Microsoft 365-e-mailbron die op een IP-bloklijst van derden wordt geplaatst, zijn groter dan het blokkeren van een gebruiker die te veel e-mail verstuurt.
 
-Zoals wordt beschreven in de beschrijving van de [Exchange Online-service,](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)wordt het gebruik van EOP voor het verzenden van bulkmail geen ondersteund gebruik van de service en is dit alleen toegestaan op basis van 'best effort'. Voor klanten die wel bulk-e-mail willen verzenden, raden we de volgende oplossingen aan:
+Zoals wordt beschreven in de [Beschrijving van de Exchange Online-service,](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)is het gebruik van EOP voor het verzenden van bulk-e-mail geen ondersteund gebruik van de service en is deze alleen toegestaan op basis van 'best-effort'. Voor klanten die bulk-e-mail willen verzenden, raden we de volgende oplossingen aan:
 
-- **Verzend bulk-e-mail via on-premises e-mailservers:** dit betekent dat klanten hun eigen e-mailinfrastructuur voor massamailings moeten onderhouden.
+- **Bulk-e-mail verzenden via on-premises e-mailservers:** Dit betekent dat klanten hun eigen e-mailinfrastructuur moeten onderhouden voor massamailings.
 
-- **Gebruik een externe provider voor bulk-e-mail:** er zijn verschillende providers van bulk-e-mailoplossing van derden die u kunt gebruiken voor het verzenden van massamailings. Deze bedrijven hebben er alle belang bij om samen te werken met klanten om ervoor te zorgen dat e-mail goed wordt verzonden.
+- **Een bulk-e-mailprovider** van derden gebruiken: er zijn verschillende leveranciers van bulk-e-mailoplossing van derden die u kunt gebruiken om massamailings te verzenden. Deze bedrijven hebben er belang bij om samen te werken met klanten om ervoor te zorgen dat e-mail goed wordt verzonden.
 
-De groep Messaging, Mobile, Malware Anti Abuse Working Group (WGWG) publiceert het lidmaatschapsschema op <https://www.maawg.org/about/roster> . Verschillende grote e-mailproviders staan op de lijst en staan bekend als verantwoordelijke internet-burgers.
+De werkgroep Messaging, Mobile, Malware Anti-Abuse (MAAWG) publiceert het lidmaatschapsrooster op <https://www.maawg.org/about/roster> . Verschillende bulk-e-mailproviders staan in de lijst en staan bekend als verantwoordelijke internetburgers.

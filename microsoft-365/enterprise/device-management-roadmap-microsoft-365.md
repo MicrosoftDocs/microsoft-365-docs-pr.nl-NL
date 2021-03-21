@@ -1,6 +1,6 @@
 ---
-title: Wegwijzer voor Apparaatbeheer voor Microsoft 365
-keywords: Microsoft 365, Microsoft 365 voor Enterprise, Microsoft 365-documentatie, beheer van mobiele apparaten, intune
+title: Routekaart voor Apparaatbeheer voor Microsoft 365
+keywords: Microsoft 365, Microsoft 365 voor ondernemingen, Microsoft 365-documentatie, beheer van mobiele apparaten, Intune
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
@@ -14,51 +14,51 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-description: De routekaart voor het instellen van Apparaatbeheer voor Microsoft 365.
-ms.openlocfilehash: 79be47d6bc83c124f2203866986e06181a1f7f3d
-ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
+description: De roadmap voor het instellen van apparaatbeheer voor Microsoft 365.
+ms.openlocfilehash: 4c37033898865372fea19ddbb53ec9c8586f27b1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749537"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918964"
 ---
-# <a name="device-management-roadmap-for-microsoft-365"></a>Wegwijzer voor Apparaatbeheer voor Microsoft 365
+# <a name="device-management-roadmap-for-microsoft-365"></a>Routekaart voor Apparaatbeheer voor Microsoft 365
 
-Microsoft 365 voor Enterprise bevat functies waarmee u apparaten en hun apps binnen uw organisatie kunt beheren. Door mobiele apparaten te beheren, kunt u de bronnen van uw organisatie beschermen en beschermen.
+Microsoft 365 voor bedrijven bevat functies voor het beheren van apparaten en hun apps binnen uw organisatie. Met het beheren van mobiele apparaten kunt u de resources van uw organisatie beveiligen en beveiligen.
 
-Er zijn twee opties voor Apparaatbeheer:
+Er zijn twee opties voor apparaatbeheer:
 
 - [Microsoft Intune](#microsoft-intune)
 - [Basic Mobility en Security](#basic-mobility-and-security)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
-U kunt Microsoft intune gebruiken voor het beheren van de toegang tot uw organisatie met behulp van het beheer van mobiele apparaten of mobiele toepassingen. Het beheer van mobiele apparaten is wanneer gebruikers de optie hun apparaten registreren in intune. Als een apparaat is ingeschreven, is het een beheerd apparaat; Dit kan daarom de beleidsregels, regels en instellingen van uw organisatie ontvangen. U kunt bijvoorbeeld bepaalde apps installeren, een wachtwoordbeleid maken, een VPN-verbinding installeren en nog veel meer.
+U kunt Microsoft Intune gebruiken om toegang tot uw organisatie te beheren met behulp van mobile device management of mobile application management. Mobile device management is when users 'enroll' their devices in Intune. Nadat een apparaat is geregistreerd, is het een beheerd apparaat. daarom kan het beleid, de regels en instellingen van uw organisatie worden ontvangen. U kunt bijvoorbeeld specifieke apps installeren, een wachtwoordbeleid maken, een VPN-verbinding installeren en meer.
 
-Gebruikers met hun eigen persoonlijke apparaten willen hun apparaten mogelijk niet registreren of worden beheerd door intune en het beleid van uw organisatie. U moet de bronnen en gegevens van uw organisatie nog altijd beschermen. In dit scenario kunt u uw apps beschermen via Mobile Application Management. U kunt bijvoorbeeld een Mobile Application Management-beleid gebruiken waarbij een gebruiker een pincode moet invoeren bij het openen van SharePoint Online op het apparaat.
+Gebruikers met hun eigen persoonlijke apparaten willen hun apparaten mogelijk niet registreren of worden beheerd door Intune en het beleid van uw organisatie. Maar u moet nog steeds de resources en gegevens van uw organisatie beschermen. In dit scenario kunt u uw apps beveiligen met mobiele toepassingsbeheer. U kunt bijvoorbeeld een beleid voor mobiel toepassingsbeheer gebruiken dat vereist dat een gebruiker een pincode in moet voeren bij toegang tot SharePoint Online op het apparaat.
 
-U kunt ook bepalen hoe u persoonlijke apparaten en apparaten met de eigen organisatie gaat beheren. U kunt apparaten anders behandelen, afhankelijk van hun gebruik.
+U bepaalt ook hoe u persoonlijke apparaten en apparaten van de organisatie gaat beheren. Mogelijk wilt u apparaten anders behandelen, afhankelijk van hun gebruik.
 
 ## <a name="basic-mobility-and-security"></a>Basic Mobility en Security
 
-Dit is ingebouwd in Microsoft 365 en helpt u bij het beveiligen en beheren van mobiele apparaten van gebruikers, zoals iPhones, iPads, Android-en Windows phones. U kunt beveiligingsbeleid voor apparaten maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatprofielen weergeven.
+Dit is ingebouwd in Microsoft 365 en helpt u bij het beveiligen en beheren van mobiele apparaten van uw gebruikers, zoals iPhones, iPads, Androids en Windows-telefoons. U kunt beleidsregels voor apparaatbeveiliging maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatrapporten bekijken.
 
 ## <a name="choose-between-the-two-options"></a>Kiezen tussen de twee opties
 
-Voor een betere beoordeling van de optie Apparaatbeheer raadpleegt u [kiezen tussen basisbeveiliging en intune](https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune).
+Zie Kiezen [tussen Basismobiliteitsbeveiliging en Intune](/office365/securitycompliance/choose-between-mdm-and-intune)om beter te kunnen beoordelen welke optie voor apparaatbeheer het beste voor u is.
 
-Op basis van uw beoordeling gaat u aan de slag met het beheren van uw apparaten met:
+Op basis van uw beoordeling kunt u aan de slag met het beheren van uw apparaten met:
 
-- [Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide)
+- [Intune](/mem/intune/fundamentals/planning-guide)
 - [Basic Mobility en Security](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd)
  
 ## <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 
-Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor toegang tot apparaten de aanbevelingen en instellingen in deze artikelen:
+Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik de aanbevelingen en instellingen in deze artikelen voor toegang tot apparaten:
 
 - [Vereisten](../security/office-365-security/identity-access-prerequisites.md)
 - [Algemeen beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
 
-## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Hoe contoso Apparaatbeheer voor Microsoft 365
+## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Hoe Contoso apparaatbeheer voor Microsoft 365 heeft gedaan
 
-Voor informatie over hoe een fictief maar representatief, maar representatieve Business-service infrastructuur met Microsoft 365 cloudservices wordt gebruikt, raadpleegt u [Mobile Device Management voor contoso](contoso-mdm.md).
+Zie Mobile device management for Contoso (Mobiel apparaatbeheer voor [Contoso)](contoso-mdm.md)voor informatie over hoe een fictieve, maar representatieve multinationale onderneming zijn mobiele apparaatbeheerinfrastructuur heeft geïmplementeerd met Microsoft 365-cloudservices.

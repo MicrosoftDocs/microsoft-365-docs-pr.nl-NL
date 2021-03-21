@@ -1,5 +1,5 @@
 ---
-title: Naam beleid voor Microsoft 365-groepen
+title: Naamgevingsbeleid voor Microsoft 365-groepen
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -16,46 +16,46 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
-description: Leer hoe u een naamgevingsbeleid maakt voor Microsoft 365-groepen.
-ms.openlocfilehash: acf660375508760bd2e9874a07454709849929b0
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+description: Meer informatie over het maken van een naamgevingsbeleid voor Microsoft 365-groepen.
+ms.openlocfilehash: 7fd2ea36b536924d85c7ca09b55593161a24dbe4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49759822"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921046"
 ---
-# <a name="microsoft-365-groups-naming-policy"></a>Naam beleid voor Microsoft 365-groepen
+# <a name="microsoft-365-groups-naming-policy"></a>Naamgevingsbeleid voor Microsoft 365-groepen
 
-U kunt een Groepsbeleid gebruiken om een consistente naam strategie af te dwingen voor groepen die zijn gemaakt door gebruikers in uw organisatie. Met behulp van een naamgevingsbeleid kunt u en uw gebruikers de functie van de groep, het lidmaatschap, de geografische regio of de groep die de groep heeft gemaakt, identificeren. Met behulp van het naamgevingsbeleid kunt u groepen in het adresboek ook categoriseren. U kunt het beleid gebruiken om te voorkomen dat bepaalde woorden worden gebruikt in namen en aliassen van groepen.
+U kunt een naamgevingsbeleid voor groepen gebruiken om een consistente naamgevingsstrategie af te dwingen voor groepen die zijn gemaakt door gebruikers in uw organisatie. Een naamgevingsbeleid kan u en uw gebruikers helpen bij het identificeren van de functie van de groep, het lidmaatschap, de geografische regio of de persoon die de groep heeft gemaakt. Het naamgevingsbeleid kan ook helpen bij het categoriseren van groepen in het adresboek. U kunt het beleid gebruiken om te blokkeren dat specifieke woorden worden gebruikt in groepsnamen en aliassen.
 
-De naamgevings beleidsregels worden toegepast op groepen die zijn gemaakt in alle groepen belastingen (zoals Outlook, Microsoft teams, SharePoint, planner, Yammer, enzovoort). De app wordt toegepast op de groepsnaam en de alias van de groep. Dit wordt ook toegepast wanneer een gebruiker een groep maakt en de groepsnaam, alias, beschrijving of avatar voor een bestaande groep wordt bewerkt.
+Het naamgevingsbeleid wordt toegepast op groepen die in alle groepen werkbelastingen worden gemaakt (zoals Outlook, Microsoft Teams, SharePoint, Planner, Yammer, enzovoort). Deze wordt toegepast op zowel de groepsnaam als de groepsalias. Het wordt ook toegepast wanneer een gebruiker een groep maakt en wanneer de groepsnaam, alias, beschrijving of avatar wordt bewerkt voor een bestaande groep.
 
 > [!TIP]
-> Een Microsoft 365-naamgevingsbeleid voor groepen geldt alleen voor Microsoft 365-groepen. Deze functie is niet van toepassing op distributiegroepen die zijn gemaakt in Exchange Online. Zie [een naam beleid voor distributiegroepen maken](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)voor informatie over het maken van een naamgevingsbeleid voor distributiegroepen.
+> Een naamgevingsbeleid voor Microsoft 365-groepen is alleen van toepassing op Microsoft 365-groepen. Het is niet van toepassing op distributiegroepen die zijn gemaakt in Exchange Online. Zie Een naamgevingsbeleid voor distributiegroepen maken als u een [naamgevingsbeleid voor](/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)distributiegroepen wilt maken.
 
 Het groepsnaambeleid bestaat uit de volgende functie:
 
-- **Naamgeving van voorvoegsels/achtervoegsels**: u kunt voorvoegsels of achtervoegsels gebruiken om de naamgevingsconventie van de groepen te definiëren (bijvoorbeeld: ' US \_ My Group \_ engineering '). De voorvoegsels/achtervoegsels kunnen bestaan uit vaste tekenreeksen of gebruikerskenmerken (zoals [Department]) die worden vervangen op basis van de gebruiker die de groep maakt.
+- **Naamgevingsbeleid** voor voorvoegsel: u kunt voorvoegsels of achtervoegsels gebruiken om de naamgevingsconventie van groepen te definiëren (bijvoorbeeld: 'US \_ My Group \_ Engineering'). De voorvoegsels/achtervoegsels kunnen bestaan uit vaste tekenreeksen of gebruikerskenmerken (zoals [Department]) die worden vervangen op basis van de gebruiker die de groep maakt.
 
-- **Aangepaste, geblokkeerde woorden**: u kunt een set geblokkeerde woorden die specifiek zijn voor uw organisatie uploaden naar een groep die wordt geblokkeerd in groepen die door gebruikers zijn gemaakt. (Bijvoorbeeld: "CEO, Payroll, HR").
+- **Aangepaste geblokkeerde woorden:** u kunt een set geblokkeerde woorden uploaden die specifiek zijn voor uw organisatie en die worden geblokkeerd in groepen die door gebruikers zijn gemaakt. (Bijvoorbeeld: 'CEO, Salarisadministratie, HR').
 
 ## <a name="licensing-requirements"></a>Licentievereisten
 
-Als u Azure AD namebeleid voor Microsoft 365-groepen gebruikt, moet u beschikken over een licentie voor Azure Active Directory Premium P1 of een Azure AD Basic EDU-licentie voor elke unieke gebruiker (met inbegrip van gasten) die lid is van een of meer Microsoft 365-groepen.
+Voor het gebruik van Azure AD-naamgevingsbeleid voor Microsoft 365 Groepen moet u een Azure Active Directory Premium P1-licentie of Azure AD Basic EDU-licentie toewijzen voor elke unieke gebruiker (inclusief gasten) die lid is van een of meer Microsoft 365-groepen.
 
 Dit is ook vereist voor de beheerder die het naamgevingsbeleid voor groepen maakt.
 
-## <a name="prefix-suffix-naming-policy"></a>Naam beleid Prefix-Suffix
+## <a name="prefix-suffix-naming-policy"></a>Prefix-Suffix naamgevingsbeleid
 
 Voorvoegsels en achtervoegsels kunnen vaste tekenreeksen of gebruikerskenmerken zijn.
 
 ### <a name="fixed-strings"></a>Vaste tekenreeksen
 
-U kunt gebruik maken van korte tekenreeksen die u kunnen helpen om onderscheid te maken tussen groepen in de algemene GAL-en linkermenubalk van de groepswerk. Enkele van de veelvoorkomende achtervoegsels voor updates zijn trefwoorden zoals ' GRP \_ name ', ' \# name ', ' \_ name '
+U kunt korte tekenreeksen gebruiken om groepen te onderscheiden in de gal en linkernavigatie van de groepswerkbelastingen. Enkele algemene voorvoegsels zijn trefwoorden zoals 'Grp \_ Name', \# 'Name', ' Name' en \_ 'Name'
 
 ### <a name="attributes"></a>Kenmerken
 
-U kunt kenmerken gebruiken waarmee u kunt vaststellen wie de groep heeft gemaakt, bijvoorbeeld [Department], en waar de groep is gemaakt, bijvoorbeeld [Country].
+U kunt kenmerken gebruiken om te bepalen wie de groep heeft gemaakt, zoals [Afdeling] en waar deze is gemaakt, zoals [Land].
 
 Voorbeelden:
 
@@ -63,38 +63,38 @@ Voorbeelden:
 - Afdeling van de gebruiker = Engineering
 - Gemaakte groepsnaam = "GRP My Group Engineering"
 
-Ondersteunde Azure Active Directory (Azure AD)-kenmerken zijn [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion] en [title].
+Ondersteunde Azure Active Directory-kenmerken (Azure AD) zijn [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion] en [Title].
 
-- Niet-ondersteunde gebruikerskenmerken worden beschouwd als vaste tekenreeksen, bijvoorbeeld [Postcode].
+- Niet-ondersteunde gebruikerskenmerken worden beschouwd als vaste tekenreeksen, bijvoorbeeld [postcode].
 
 - Extensiekenmerken en aangepaste kenmerken worden niet ondersteund.
 
 Het wordt aangeraden kenmerken te gebruiken met waarden die voor alle gebruikers in uw organisatie zijn ingevuld en geen kenmerken met lange waarden te gebruiken.
 
-### <a name="things-to-look-out-for"></a>Wat u moet nakijken voor
+### <a name="things-to-look-out-for"></a>Dingen om op te kijken
 
 - Bij het maken van beleid mag de totale tekenreekslengte van voor- en achtervoegsel niet langer zijn dan 53 tekens.
 
-- Voor- en achtervoegsels kunnen speciale tekens bevatten die voor de groepsnaam en de groepsalias worden ondersteund. Wanneer de voorvoegsels en achtervoegsels speciale tekens bevatten die niet zijn toegestaan in de groepsalias, worden deze alleen toegepast op de naam van de groep. In dit geval zouden de voor- en achtervoegsels die op de groepsnaam worden toegepast verschillen van degene die op de groepsalias worden toegepast.
+- Voor- en achtervoegsels kunnen speciale tekens bevatten die voor de groepsnaam en de groepsalias worden ondersteund. Wanneer de voor- en achtervoegsels speciale tekens bevatten die niet zijn toegestaan in de groepsalias, worden ze alleen toegepast op de groepsnaam. In dit geval zouden de voor- en achtervoegsels die op de groepsnaam worden toegepast verschillen van degene die op de groepsalias worden toegepast.
 
   > [!NOTE]
-  > Een punt (.) of een afbreekstreepje (-) is toegestaan op een willekeurige plaats in de naam van de groep, behalve aan het begin of einde van de naam. Een onderstrepingsteken (_) is op een willekeurige plaats in de naam van de groep toegestaan, waaronder aan het begin of einde van de naam.
+  > Een punt (.) of een afbreekstreester (-) is overal in de groepsnaam toegestaan, behalve aan het begin of einde van de naam. Een onderstrepingsteken (_) is overal in de groepsnaam toegestaan, ook aan het begin of einde van de naam.
 
-- Als u gebruikmaakt van met Yammer Office 365 gekoppelde groepen, vermijdt u de volgende tekens in uw naamgevingsbeleid: @, \# , \[ , \] , \<, and \> . Als u de tekens in het naamgevingsbeleid gebruikt, kunnen reguliere Yammer-gebruikers geen groepen maken.
+- Als u verbonden yammer Office 365-groepen gebruikt, vermijdt u het gebruik van de volgende tekens in uw naamgevingsbeleid: @, \# , \[ , , \] \<, and \> . Als deze tekens in het naamgevingsbeleid staan, kunnen gewone Yammer-gebruikers geen groepen maken.
 
 > [!Tip]
-> - Gebruik korte tekenreeksen als suffix.
+> - Gebruik korte tekenreeksen als achtervoegsel.
 > - Gebruik kenmerken met waarden.
-> - Te niet te veel niet, maar de lengte van de totale naam mag maximaal 264 tekens bevatten.
-> - Upload uw organisatie specifiek geblokkeerde woorden om het gebruik te beperken.
+> - Wees niet te creatief, de totale naamlengte heeft een maximum van 264 tekens.
+> - Upload uw organisatie specifieke geblokkeerde woorden om het gebruik te beperken.
 
-## <a name="custom-blocked-words"></a>Aangepaste, geblokkeerde woorden
+## <a name="custom-blocked-words"></a>Aangepaste geblokkeerde woorden
 
 U kunt een door komma's gescheiden lijst met geblokkeerde woorden invoeren die worden geblokkeerd in groepsnamen en aliassen.
 
-Er worden geen zoekresultaten van subtekenreeksen uitgevoerd; met name een exacte overeenkomst tussen de ingevoerde naam van de gebruiker en de aangepaste, geblokkeerde woorden is vereist om een fout te activeren.
+Er worden geen subreekszoekingen uitgevoerd. een exacte overeenkomst tussen de ingevoerde naam van de gebruiker en de aangepaste geblokkeerde woorden is vereist om een fout te activeren.
 
-**Let op**:
+**Dingen om op te kijken:**
 
 - De geblokkeerde woorden zijn hoofdlettergevoelig.
 
@@ -102,11 +102,11 @@ Er worden geen zoekresultaten van subtekenreeksen uitgevoerd; met name een exact
 
 - Er bestaan geen restricties op tekens in het gebruikte geblokkeerde woord.
 
-- Het aantal woorden in 5000 kan worden ingesteld op geblokkeerde woorden.
+- Er is een limiet van 5000 woorden die kunnen worden ingesteld als geblokkeerde woorden.
 
 ## <a name="admin-override"></a>Overschrijven door beheerder
 
-Sommige beheerders worden vrijgemaakt van deze polissen voor alle bewerkings-en eindpunten van de groep, zodat ze groepen met deze geblokkeerde woorden en met hun naamconventies kunnen maken. Hierna volgt een lijst van beheerdersrollen die zijn vrijgesteld van het groepsnaambeleid.
+Sommige beheerders zijn vrijgesteld van dit beleid, voor alle groepswerkbelastingen en eindpunten, zodat ze groepen kunnen maken met deze geblokkeerde woorden en met de gewenste naamgevingsconventies. Hierna volgt een lijst van beheerdersrollen die zijn vrijgesteld van het groepsnaambeleid.
 
 - Globale beheerder
 
@@ -120,19 +120,19 @@ Sommige beheerders worden vrijgemaakt van deze polissen voor alle bewerkings-en 
 
 Een naamgevingsbeleid instellen:
 
-1. Klik in [Azure Active Directory](https://aad.portal.azure.com)onder **beheren** op **groepen**.
-2. Klik onder **instellingen** op **naam beleid**.
-3. Kies het tabblad **naam beleid voor groepen** .
-4. Kies onder **huidig beleid**, als u een voor-of achtervoegsel of beide wilt vereisen, en schakel de gewenste selectievakjes in.
-5. Kies voor elke regel een van de **kenmerken** en de **tekenreeks** en geef vervolgens het kenmerk of de tekenreeks op.
-6. Wanneer u de voorvoegsels en achtervoegsels hebt toegevoegd die u nodig hebt, klikt u op **Opslaan**.
+1. Klik [in Azure Active Directory](https://aad.portal.azure.com), onder **Beheren,** op **Groepen.**
+2. Klik **onder Instellingen** op **Naamgevingsbeleid.**
+3. Kies het **tabblad Groepnaamgevingsbeleid.**
+4. Kies **onder Huidig** beleid of u een voorvoegsel of achtervoegsel of beide wilt vereisen en schakel de juiste selectievakjes in.
+5. Kies tussen **Kenmerk** en **Tekenreeks** voor elke regel en geef vervolgens het kenmerk of de tekenreeks op.
+6. Wanneer u de voor- en achtervoegsels hebt toegevoegd die u nodig hebt, klikt u op **Opslaan.**
 
-![Schermafbeelding van de instellingen voor het wijzigen van de naam van een Groepsbeleid in azure Active Directory](../media/groups-naming-policy-azure.png)
+![Schermafbeelding van de instellingen voor het naamgevingsbeleid van groepen in Azure Active Directory](../media/groups-naming-policy-azure.png)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Uw plan voor samenwerking maken](collaboration-governance-first.md)
+[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
-[Azure Active Directory-cmdlets voor het configureren van instellingen voor groepen](https://go.microsoft.com/fwlink/?linkid=868341)
+[Azure Active Directory-cmdlets voor het configureren van groepsinstellingen](/azure/active-directory/enterprise-users/groups-settings-cmdlets)

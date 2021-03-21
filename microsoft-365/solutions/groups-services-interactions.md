@@ -1,5 +1,5 @@
 ---
-title: Interacties tussen groepen Services
+title: Services-interacties groepeert
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,174 +14,174 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Interacties tussen groepen Services
-ms.openlocfilehash: 6d5681b11cdbd837f784b6c8364cce23f964b167
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+description: Services-interacties groepeert
+ms.openlocfilehash: 331c30c86481b1729251c685de2d663fb14f390b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613224"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921022"
 ---
-# <a name="groups-services-interactions"></a>Interacties tussen groepen Services
+# <a name="groups-services-interactions"></a>Services-interacties groepeert
 
-Microsoft 365 groepen biedt een gemeenschappelijke Fabric voor een aantal services en werkbelasting in het Microsoft 365-platform om een verbinding te kunnen voeren voor eindgebruikers. In de kern is een Microsoft 365-groep beschikbaar voor de volgende bewerkingen:
+Microsoft 365 Groups biedt een veelgebruikte structuur voor een aantal services en werkbelastingen binnen het Microsoft 365-platform om eindgebruikers een verbonden ervaring te bieden. In de kern bestaat er een Microsoft 365-groep voor het volgende:
 
-- Een manier om het lidmaatschap (Azure AD) te beheren
-- Een plaats waar berichten en gesprekken plaatsvinden (Exchange-postvak, Microsoft teams, Yammer)
-- Een locatie voor het opslaan van bestanden (SharePoint)
+- Een manier om het lidmaatschap te beheren (Azure AD)
+- Een plek waar berichten en gesprekken kunnen plaatsvinden (Exchange-postvak, Microsoft Teams, Yammer)
+- Een plek waar bestanden moeten worden opgeslagen (SharePoint)
 - Een agenda voor planning (Exchange)
 - Een notitieblok voor het vastleggen van notities (OneNote)
 
-Wanneer u groepen maakt, worden er ook een aantal andere resources ingericht, maar deze zijn pas zichtbaar wanneer ze voor het eerst worden geopend voor de eerste keer van de service:
+Op het moment van het maken van groepen worden ook een aantal andere resources ingericht, maar ze zijn pas zichtbaar wanneer ze voor het eerst worden gebruikt vanuit de service:
 
-- Een bord voor het beheren van groeps taken (planner)
+- Een bord voor het beheren van groepstaken (Planner)
 - Een werkruimte voor rapportage (Power BI)
-- Een gebied voor gedeelde Video's (Microsoft stream)
-- Een gebied voor gedeelde formulieren (formulieren)
+- Een gebied voor gedeelde video's (Microsoft Stream)
+- Een gebied voor gedeelde formulieren (Formulieren)
 
-In Microsoft 365 kunnen andere services communiceren met Microsoft 365-groepen om extra functies en mogelijkheden voor groepsleden te bieden.
+In Microsoft 365 kunnen andere services werken met Microsoft 365-groepen om extra functionaliteit en mogelijkheden te bieden aan groepsleden.
 Voorbeelden hiervan zijn:
 
-- Power-apps voor apps
-- Automatisch aan de werkstroom voor werkstromen
-- Project op het web en routekaart voor het waterval van Project Management
-- Teams voor kanaal gesprekken
-- Yammer voor community's van belang
+- Power Apps voor apps
+- Power Automate voor werkstromen
+- Project op het web en Roadmap voor projectmanagement op basis van waterval
+- Teams voor gesprekken op basis van kanalen
+- Yammer voor gemeenschappen van belang
 
 ## <a name="user-interactions-with-groups"></a>Gebruikersinteracties met groepen
 
-Microsoft 365-groepen kunnen worden gemaakt en beheerd vanuit diverse interfaces, zowel beheerders als eindgebruikers. 
+Microsoft 365 Groepen kunnen worden gemaakt en beheerd op verschillende interfaces, zowel door beheerders als eindgebruikers. 
 
-### <a name="administrative-experiences"></a>Beheer ervaring
+### <a name="administrative-experiences"></a>Beheerervaringen
 
-Beheerders kunnen Microsoft 365-groepen maken en beheren vanuit diverse beheer centra, opdrachtregel interfaces die ondersteuning bieden voor het uitvoeren van scripts en aangepaste apps die met de Graph-API werken. De enige uitzondering hierop is Yammer-groepen die moeten worden gemaakt binnen de Yammer-website.
+Beheerders kunnen Microsoft 365-groepen maken en beheren vanuit verschillende workload-beheercentra, opdrachtregelinterfaces die scripting ondersteunen, evenals aangepaste apps die werken met de Graph-API. De enige uitzondering hierop zijn Yammer-groepen, die moeten worden gemaakt vanuit de webinterface van Yammer.
 
 **Gerelateerde instellingen**
 
-In de verschillende beheerinterfaces die de groepsinstellingen kunnen beheren, bestaan diverse overlappingen waarvan u op de hoogte moet zijn.
+In de verschillende beheerinterfaces die groepsinstellingen kunnen beheren, bestaan verschillende overlappingen waarvan u op de hoogte moet zijn.
 
 **Microsoft 365-beheercentrum**
 
-In het Microsoft 365-Beheercentrum is gasttoegang voor groepen standaard ingeschakeld, en is de mogelijkheid om eigenaren toe te voegen om gasten toe te voegen. Er zijn geen besturingselementen voor organisatieniveau beschikbaar voor groepen uit dit Beheercentrum.
+In het Microsoft 365-beheercentrum is gasttoegang tot Groepen standaard ingeschakeld, evenals de mogelijkheid om eigenaren toe te staan gasten toe te voegen. Er zijn geen andere besturingselementen op organisatieniveau beschikbaar voor Groepen in dit beheercentrum.
 
-**Azure AD-Beheercentrum**
+**Azure AD-beheercentrum**
 
-Het Azure AD-Beheercentrum bevat besturingselementen om te bepalen of gebruikersgroepen kunnen maken of eigenaren kunnen toewijzen in azure-portals, evenals de beleidsinstellingen voor de vervaldatum en de naamgeving.
+Het Azure AD-beheercentrum biedt besturingselementen voor het maken van groepen of het toewijzen van eigenaren in Azure-portals, evenals beleidsinstellingen voor verloop en naamgeving.
 
-Het Beheercentrum biedt ook een aantal opties voor de uitnodigingen van een gast, die verder gaan dan het aantal van het Microsoft 365-Beheercentrum, bijvoorbeeld de mogelijkheid om te beperken of niet-eigenaren ook gasten kunnen uitnodigen
+Het beheercentrum biedt ook een aantal controlemaatregelen voor gastuitnodiging die verder gaan dan die van het Microsoft 365-beheercentrum, zoals de mogelijkheid om te beperken of niet-eigenaren ook gasten kunnen uitnodigen
 
 **SharePoint**
 
-SharePoint-sites worden gemaakt met de beveiligingsgroepen eigenaar, lid en bezoekers, en de eerste twee stemmen overeen met hun Microsoft 365-groep tegenhangers. Hoewel lidmaatschap van SharePoint Online-sites meestal wordt beheerd door de bijbehorende Microsoft 365-groep, is het geen bidirectioneelere relatie. Wijzigingen aan het lidmaatschap van het Microsoft 365-groepsniveau worden weergegeven in SharePoint, maar als lidmaatschap in de SharePoint-groep is gewijzigd, wordt dit niet weergegeven in de groep Microsoft 365.
+SharePoint-sites worden gemaakt met beveiligingsgroepen eigenaar, lid en bezoeker, met de eerste twee die overeenkomen met de tegenhangers van de Microsoft 365-groep. Hoewel lidmaatschap voor SharePoint Online-sites over het algemeen wordt beheerd door de bijbehorende Microsoft 365-groep, is het geen bidirectionele relatie. Wijzigingen in het lidmaatschap op groepsniveau van Microsoft 365 worden doorgevoerd in SharePoint, maar als het lidmaatschap in de SharePoint-groep wordt gewijzigd, wordt dit niet doorgevoerd in de Microsoft 365-groep.
 
-### <a name="user-experiences"></a>Gebruikerservaring
+### <a name="user-experiences"></a>Gebruikerservaringen
 
-Eindgebruikers kunnen groepen maken op basis van diverse services binnen Microsoft 365 en in anderen die ze alleen met een groep kunnen delen.
+Eindgebruikers kunnen groepen maken van verschillende services in Microsoft 365, en in andere kunnen ze alleen delen met een groep.
 
-Met de volgende services kan het maken van groepen door eindgebruikers:
+Met de volgende services kunt u groepen maken door eindgebruikers:
                          
-Outlook planner project voor de webshare Point stream Microsoft teams Yammer
+Outlook Planner Project voor het web SharePoint Stream Microsoft Teams Yammer
 
 **Beperking van het maken van groepen**
 
-Een veelgebruikte aanpak voor het beheren van sprawl van teams is beperkt welke gebruikers ze kunnen maken. Dit kan alleen worden gedaan door het maken van groepen te beperken. Dit heeft gevolgen voor de mogelijkheid om groepen te maken van andere services, indien dit voor eindgebruikers mogelijk noodzakelijk is. Microsoft 365-groepen biedt geen ondersteuning voor de mogelijkheid om het maken van groepen van bepaalde apps of services te beperken, terwijl u de groepen van derden toestaat.
+Een veelgebruikte methode om de wildgroei van teams te beperken, is het beperken van de gebruikers die ze kunnen maken. Dit kan alleen door het maken van groepen te beperken. Dit is van invloed op de mogelijkheid om groepen te maken van andere services waar dit mogelijk nodig is voor eindgebruikers. Microsoft 365 Groepen biedt geen ondersteuning voor de mogelijkheid om het maken van groepen van bepaalde apps of services te beperken, terwijl deze door anderen worden toe te staan.
 
-De ervaring voor het maken van groepen is afhankelijk van apps en services:
+De ervaring met beperkingen voor het maken van groepen verschilt per apps en services:
 
 
 |App of service|Ervaring|
 |:-------------|:---------|
-|Outlook|De optie **nieuwe groep** wordt verwijderd uit het menu Nieuw op de pagina personen|
-|Planner|**Nieuw plan** geeft aan dat het maken van groepen is uitgeschakeld en dat u aanbiedingen wilt toevoegen aan een bestaande groep|
-|Project voor het web en routekaart|Menu **groep maken** geeft uitleg dat het maken van groepen is beperkt en dat een bestaande groep wordt voorgesteld.|
-|SharePoint|U kunt nog steeds een team site maken die niet is gekoppeld aan een groep.|
-|Stream|De optie **groep** wordt niet weergegeven in het **menu maken**.|
-|Teams|Gebruiker kan geen team maken met een nieuwe groep, maar u kunt nog wel een team maken dat gebruikmaakt van een bestaande groep.<br><br>U **maakt een team** knop door **team maken van een groep** te vervangen.|
-|Yammer|**De optie een groep maken** wordt verwijderd uit hoofdgroepen/community's-navigatie.|
+|Outlook|**De optie** Nieuwe groep wordt verwijderd uit het menu Nieuw op de pagina Personen|
+|Planner|**Nieuw plan** legt uit dat het maken van groepen is uitgeschakeld en biedt om het plan toe te voegen aan een bestaande groep|
+|Project voor het web en Routekaart|**In het groepsmenu** wordt uitgelegd dat het maken van groepen is beperkt en wordt gesuggereerd dat u een bestaande groep gebruikt.|
+|SharePoint|U kunt nog steeds een teamsite maken die niet is verbonden met een groep.|
+|Stream|**Groepsoptie** wordt niet weergegeven onder het **menu Maken.**|
+|Teams|Gebruiker kan geen team maken met een nieuwe groep, maar kan wel een team maken dat een bestaande groep gebruikt.<br><br>**Een teamknop** maken wordt vervangen door **Team maken vanuit een groep.**|
+|Yammer|**Een groepsoptie** maken wordt verwijderd uit de hoofdnavigatie van Groepen/Community's.|
 
-## <a name="services-interactions-with-groups"></a>Service interacties met groepen
+## <a name="services-interactions-with-groups"></a>Services-interacties met groepen
 
-Zie de groepen in Microsoft 365-poster voor informatie over de verschillende soorten groepen, hoe deze worden gemaakt en beheerd en wat de aanbevelingen zijn.
+Zie de poster Groepen in Microsoft 365 voor informatie over verschillende typen groepen, hoe deze worden gemaakt en beheerd, en een paar aanbevelingen voor het beheer.
 
 [![Miniatuurafbeelding van de infographic voor groepen](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf)
 
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
 
-De volgende tabel bevat een overzicht van Microsoft 365 groepen interacties met verschillende services:
+In de volgende tabel vindt u een overzicht van interacties tussen Microsoft 365 Groepen en verschillende services:
 
-|Product|Functies|Gaat de service<br>bestaan zonder een groep?|Kan de service<br>een groep maken?|Verwijdert de<br>exemplaar verwijderen van de groep?|
+|Product|Functies|Doet de service<br>bestaan zonder een groep?|Kan de service<br>een groep maken?|Wordt het verwijderen van de<br>exemplaar verwijdert u de groep?|
 |:---|:---|:---|:---|:---|
-|Azure AD|Lidmaatschap, besturingselementen voor groepen, gasten|Ja|Ja|Ja|
-|Exchange|Agenda, Postvak|Ja|Ja|Ja|
-|Forms|Trans|Ja|Nee|Nee|
-|OneNote|Terechtkom|Ja|Nee|Nee|
-|Planner|Takenbord|Nee|Ja|Ja|
-|Power apps-app|App|Ja|Nee|Nee|
-|Automatisch aan de macht|Workflowregels|Ja|Nee|Nee|
+|Azure AD|Lidmaatschap, groepsbesturingselementen, Gasten|Ja|Ja|Ja|
+|Exchange|Agenda, postvak|Ja|Ja|Ja|
+|Forms|Formulier|Ja|Nee|Nee|
+|OneNote|Notitieblok|Ja|Nee|Nee|
+|Planner|Taakbord|Nee|Ja|Ja|
+|Power Apps-app|App|Ja|Nee|Nee|
+|Power Automate|Werkstroom|Ja|Nee|Nee|
 |Power BI (klassiek)|Workspace|Nee|Ja|Ja|
 |Power BI (nieuw)|Workspace|Ja|Nee|Ja|
-|Project voor het web|Project plan|Ja|Ja|Nee|
+|Project voor het web|Projectplan|Ja|Ja|Nee|
 |Roadmap|Roadmap|Ja|Ja|Nee|
 |SharePoint|Site|Ja|Ja|Ja|
 |Stream|Kanaal, video|Ja|Ja|Ja|
-|Teams|Ondersteuning|Nee|Ja|Ja|
+|Teams|Team|Nee|Ja|Ja|
 |Yammer|Groep|Ja|Ja|Ja|
 
-Hoewel de bovenstaande tabel een algemeen overzicht biedt van groeps interacties met Microsoft 365-Services, zijn er een aantal nuances en intricacies die u moet begrijpen. In de volgende secties vindt u meer gedetailleerde informatie over de specifieke werkbelastingen en hun interacties met groepen.
+Hoewel de bovenstaande tabel een overzicht op hoog niveau biedt van groepsinteracties met Microsoft 365-services, zijn er een aantal nuances en fijne kneepjes die u moet begrijpen. In de volgende secties wordt uitgebreider gereviewd naar de specifieke werkbelastingen en de interacties met groepen.
 
 ## <a name="azure-ad"></a>Azure AD
 
-Azure AD biedt de onderliggende functies voor Identiteitsbeheer in Microsoft 365.
+Azure AD biedt de onderliggende mogelijkheden voor identiteitsbeheer in Microsoft 365.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies die aan Groepen worden geleverd**
 
 - Groepslidmaatschap
-- Naam beleid
+- Naamgevingsbeleid
 - Vervalbeleid
-- Gast
+- Gasten
 - Beperking van het maken van groepen
 
 **Kan Azure AD een groep maken?**
 
-Ja, Microsoft 365-groepen kunnen worden gemaakt op basis van Azure AD via de webportal van beheer, via PowerShell of graph API.
+Ja, Microsoft 365 Groepen kunnen worden gemaakt vanuit Azure AD via de beheerwebportal, via PowerShell of Graph API.
 
 **Bestaat Azure AD zonder een groep?**
 
-Ja, Azure AD voert een geweldig aantal services uit die geen relatie hebben met Microsoft 365-groepen. Elke groep Microsoft 365 wordt weergegeven als een object in azure AD.
+Ja, Azure AD voert een groot aantal services uit die geen relatie hebben met Microsoft 365 Groepen. Elke Microsoft 365-groep wordt weergegeven als een object in Azure AD.
 
 **Kunnen er meerdere exemplaren van Azure AD per groep zijn?**
 
-Nee, er is maar één exemplaar van Azure AD.
+Nee, er is slechts één exemplaar van Azure AD.
 
 **Kan Azure AD worden gekoppeld aan meerdere groepen?**
 
-Ja, omdat Azure AD het onderliggende platform is dat de service voor groeps lidmaatschap biedt.
+Ja, omdat Azure AD het onderliggende platform is dat de groepslidmaatschapsservice biedt.
 
-**Kan de koppeling van Azure AD met een groep worden gewijzigd?**
+**Kan de associatie van Azure AD met een groep veranderen?**
 
 Nee, Azure AD is het onderliggende platform waar groepen bestaan.
 
-**Verwijdert het exemplaar van de groep?**
+**Wordt de groep verwijderd als u het exemplaar verwijdert?**
 
-Als u de groep in azure AD verwijdert, worden de bijbehorende services en inhoud van de groep verwijderd.
+Als u de groep verwijdert in Azure AD, worden relevante aan de groep gekoppelde services en inhoud verwijderd.
 
 ## <a name="teams"></a>Teams
 
-Teams is een werkruimte met chat centrum voor een betere samenwerking door een enkelvoudige interface te bieden voor de interactie met diverse Microsoft-services en services van derden.
+Teams is een chatwerkruimte die is gericht op het verbeteren van de samenwerking door een unieke interface te bieden voor interactie met diverse microsoft- en externe services.
 
-Wanneer een team wordt gemaakt, worden standaard de e-mail en de agenda die zijn gekoppeld aan de Microsoft 365-groep, verborgen in de algemene adreslijst in Exchange, en in Outlook. Dit kan handmatig worden overschreven door een beheerder als de gebruiker Outlook en teams wil gebruiken in dezelfde Microsoft 365-groep.
+Wanneer een team wordt gemaakt, zijn het postvak en de agenda die zijn gekoppeld aan de Microsoft 365-groep standaard verborgen in zowel de algemene adreslijst in Exchange als Outlook. Dit kan handmatig worden overgenomen door een beheerder als de gebruiker zowel Outlook als Teams in dezelfde Microsoft 365-groep wil gebruiken.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies die aan Groepen worden geleverd**
 
-- Communicatie
-- & tabbladen kanalen
-- Rekken
+- Gesprekken
+- Kanalen & tabbladen
+- Vergaderingen
 
-**Kunnen teams een groep maken?**
+**Kan Teams een groep maken?**
 
-Ja, als u een nieuw team wilt maken, maakt u een nieuwe groep Microsoft 365. U kunt ook een team maken voor een bestaande groep die momenteel geen abonnement heeft.
+Ja, als u een nieuw team maakt, maakt u een nieuwe Microsoft 365-groep. Het is ook mogelijk om een team te maken voor een bestaande groep die momenteel geen team heeft.
 
-**Bestaan teams zonder een groep?**
+**Bestaan teams zonder groep?**
 
 Nee, het is niet mogelijk dat een team bestaat zonder een groep.
 
@@ -189,235 +189,235 @@ Nee, het is niet mogelijk dat een team bestaat zonder een groep.
 
 Nee, de relatie tussen een team en een groep is 1:1.
 
-**Kan een team worden gekoppeld aan meerdere groepen?**
+**Kan een team aan meerdere groepen worden gekoppeld?**
 
-Nee, het team zelf kan maar aan één groep worden gekoppeld.
+Nee, het team zelf kan alleen aan één groep worden gekoppeld.
 
-**Kan de koppeling van een team met een groep worden gewijzigd?**
+**Kan de samenwerking van een team met een groep veranderen?**
 
-Nee, het team kan maar ooit worden gekoppeld aan de groep waaraan het oorspronkelijk is gekoppeld.
+Nee, het team kan alleen worden gekoppeld aan de groep waaraan het oorspronkelijk is gekoppeld.
 
-**Verwijdert het team de groep?**
+**Wordt de groep verwijderd als u het team verwijdert?**
 
-Ja, als u het team verwijdert in Microsoft teams, wordt de groep, de gekoppelde services en de inhoud verwijderd.
+Ja, als u het team in Microsoft Teams verwijdert, worden de groep, de aan de groep gekoppelde services en de inhoud verwijderd.
 
 ## <a name="exchange"></a>Exchange
 
-Exchange Online levert functies voor berichten, agenda's, contactpersonen en bijbehorende functionaliteit. In de context van een groep is slechts één resource gekoppeld, in plaats van een volledig service-exemplaar.
+Exchange Online biedt berichten, agenda' s, contactpersonen en bijbehorende functionaliteit. In de context van een groep is slechts één resource gekoppeld, in tegenstelling tot een heel service-exemplaar.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies die aan Groepen worden geleverd**
 
 - Postvak en agenda
-- Mogelijkheid om alle groepsleden te e-mailen
-- Opslag van teams-kanaal gesprekken voor eDiscovery-doeleinden, planner-opmerkingen
+- Mogelijkheid om alle groepsleden een e-mail te sturen
+- Opslag van Teams-kanaalgesprekken voor eDiscovery-doeleinden, opmerkingen van Planner
 
 **Kan Exchange een groep maken?**
 
-Ja, u kunt een groep maken vanuit het Exchange Online-Beheercentrum en vanuit Outlook. U kunt distributielijsten van Exchange ook converteren naar Microsoft 365 groepen.
+Ja, het is mogelijk om een groep te maken vanuit het Exchange Online-beheercentrum en vanuit Outlook. U kunt ook Exchange-distributielijsten converteren naar Microsoft 365-groepen.
 
-**Maakt Exchange geen groep?**
+**Bestaat Exchange zonder groep?**
 
-Ja, Exchange Online biedt een aantal services, inclusief gedeelde postvakken en agenda's, zonder groeps koppeling.
+Ja, Exchange Online biedt een aantal services, waaronder gedeelde postvakken en agenda's, zonder enige groepsorganisatie.
 
-**Kunnen er meerdere exemplaren van Exchange-postvakken of-agenda's per groep zijn?**
+**Kunnen er meerdere exemplaren van Exchange-postvakken of agenda's per groep zijn?**
 
-Nee, er kunnen maar één postvak van Exchange Online zijn en agenda voor een groep.
+Nee, er kan slechts één Exchange Online-postvak en een agenda voor een groep zijn.
 
-**Kunnen Exchange-postvakken en-agenda's worden gekoppeld aan meerdere groepen?**
+**Kunnen Exchange-postvakken en agenda's aan meerdere groepen worden gekoppeld?**
 
-Nee, het postvak en de agenda hebben een 1:1-relatie met de groep. Het is mogelijk dat u het postvak met andere gebruikers of groepen deelt, maar dit is niet van invloed op een vorm van Service Association.
+Nee, het postvak en de agenda hebben een 1:1-relatie met de groep. Het is mogelijk om het postvak te delen met andere gebruikers of groepen, maar hiermee wordt geen enkele vorm van service-associatie tot stand brengen.
 
-**Kunnen de koppeling van het Exchange-postvak of de agenda van een groep worden gewijzigd?**
+**Kan de associatie van het Exchange-postvak of de agenda met een groep worden gewijzigd?**
 
-Nee, het postvak en de agenda kunnen niet worden gewijzigd in een andere groep. U kunt echter de inhoud van het ene Postvak verplaatsen naar het andere in Outlook of met behulp van een programma van derden.
+Nee, het postvak en de agenda kunnen niet worden gewijzigd in een andere groep. De inhoud kan echter van het ene postvak naar het andere worden verplaatst in Outlook of met behulp van een hulpprogramma van derden.
 
-**Verwijdert het postvak van de groep?**
+**Wordt de groep verwijderd als u het postvak verwijdert?**
 
-Ja, als u het postvak in Exchange verwijdert, wordt de groep verwijderd en worden ook services en inhoud die aan de groep zijn gekoppeld.
+Ja, als u het postvak in Exchange verwijdert, worden de groep en de aan de groep gekoppelde services en inhoud verwijderd.
 
 ## <a name="forms"></a>Forms
 
-Forms biedt enquêtes en toetsen voor het web.
+Forms bevat webenquêtes en toetsvragen.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies voor groepen**
 
 - Eigendom van formulieren
 
-**Kan formulieren groepen maken?**
+**Kan Formulieren een groep maken?**
 
 Nee, formulieren kunnen geen groep maken.
 
-**Bestaan er formulieren zonder een groep?**
+**Bestaan formulieren zonder groep?**
 
-Ja, enquêtes en toetsen kunnen rechtstreeks worden gemaakt in het account van een eindgebruiker.
+Ja, enquêtes en toetsvragen kunnen rechtstreeks in het account van een eindgebruiker worden gemaakt.
 
-**Kunnen er meerdere formulieren per groep worden?**
+**Kunnen er meerdere formulieren per groep zijn?**
 
-Ja, er kunnen meerdere formulieren zijn die aan een groep zijn gekoppeld.
+Ja, er kunnen meerdere formulieren zijn gekoppeld aan een groep.
 
 **Kunnen formulieren aan meerdere groepen worden gekoppeld?**
 
-Nee, een formulier kan slechts aan één groep worden gekoppeld.
+Nee, een formulier kan alleen aan één groep worden gekoppeld.
 
-**Kan de koppeling van een formulier met een groep worden gewijzigd?**
+**Kan de associatie van een formulier met een groep veranderen?**
 
-Nee, nadat een formulier is gekoppeld aan een groep (rechtstreeks binnen of eigenaar van een persoon die is overgebracht van een individu), kan het formulier niet worden verplaatst naar een andere groep.
+Nee, wanneer een formulier is gekoppeld aan een groep (rechtstreeks gemaakt binnen of eigendom overgedragen van een persoon), kan het niet worden verplaatst naar een andere groep.
 
-**Verwijdert het formulier de groep?**
+**Wordt de groep verwijderd als u het formulier verwijdert?**
 
-Nee, het is niet mogelijk om een groep uit de formulier interface te verwijderen, maar alleen afzonderlijke formulieren.
+Nee, het is niet mogelijk om een groep te verwijderen uit de interface Formulieren, alleen afzonderlijke formulieren.
 
 ## <a name="onenote"></a>OneNote
 
-OneNote is een toepassing voor digitale notitieblokken. Het OneNote-notitieblok dat is gemaakt met een groep, is een bestand in de bijbehorende SharePoint-site, in plaats van een service met een groep.
+OneNote is een digitale notitiebloktoepassing. Het OneNote-notitieblok dat met een groep is gemaakt, is een bestand op de bijbehorende SharePoint-site in plaats van een service met een groep.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies voor groepen**
 
-- Gedeeld notitieblok (opgeslagen in de door de groep gekoppelde SharePoint-bibliotheek)
+- Gedeeld notitieblok (opgeslagen in de Aan de groep gekoppelde SharePoint-bibliotheek)
 
 **Kan OneNote een groep maken?**
 
-Nee, u kunt geen groep maken met de OneNote-toepassing.
+Nee, de OneNote-toepassing kan geen groep maken.
 
-**Bestaan er OneNote-notitieblokken zonder een groep?**
+**Bestaan OneNote-notitieblokken zonder groep?**
 
 Ja, notitieblokken kunnen rechtstreeks worden gemaakt in OneDrive of op andere gedeelde locaties.
 
 **Kunnen er meerdere OneNote-notitieblokken per groep zijn?**
 
-Ja, er is standaard een notitieblok gemaakt en anderen kunnen toevoegen, maar een koppeling naar OneNote uit met de groep gekoppelde services wordt altijd naar het standaardnotitieblok verzonden.
+Ja, een notitieblok wordt standaard gemaakt en anderen kunnen worden toegevoegd, maar elke koppeling naar OneNote vanuit aan de groep gekoppelde services gaat altijd naar het standaardnotitieblok.
 
-**Kan een OneNote-notitieblok worden gekoppeld aan meerdere groepen?**
+**Kan een OneNote-notitieblok aan meerdere groepen worden gekoppeld?**
 
-Nee, het notitieblok wordt opgeslagen in de door de groep gekoppelde SharePoint-site bibliotheek en gekoppeld aan diverse interfaces. Dit kan wel op dezelfde manier worden gedeeld met andere groepen, op dezelfde manier als met personen.
+Nee, het notitieblok wordt opgeslagen in de aan de groep gekoppelde SharePoint-sitebibliotheek en gekoppeld vanuit verschillende interfaces. Het kan echter op dezelfde manier worden gedeeld met andere groepen als met personen.
 
-**Kan de koppeling van het notitieblok met een groep worden gewijzigd?**
+**Kan de band tussen het notitieblok en een groep worden gewijzigd?**
 
-Nee, het notitieblok zelf is gekoppeld aan de groep en kan rechtstreeks worden geopend vanuit andere services die met een groep verbonden zijn, maar de inhoud kan worden verplaatst van het ene notitieblok naar het andere binnen de OneNote-toepassing.
+Nee, het notitieblok zelf is gekoppeld aan de groep en kan rechtstreeks worden gebruikt vanuit andere services die met de groep zijn verbonden, maar de inhoud kan worden verplaatst van het ene notitieblok naar het andere in de OneNote-toepassing.
 
-**Verwijdert de groep als u het notitieblok verwijdert.**
+**Wordt de groep verwijderd als u het notitieblok verwijdert?**
 
-Nee, maar als het OneNote-notitieblok wordt verwijderd, zijn er mogelijk verbroken koppelingen in enkele van de door de groep gekoppelde services.
+Nee, maar als het OneNote-notitieblok wordt verwijderd, zijn er mogelijk verbroken koppelingen in sommige aan de groep gekoppelde services.
 
 ## <a name="planner"></a>Planner
 
-Planner is een lichtgewicht service voor groepsbeheer.
+Planner is een lichtgewicht groepstaakbeheerservice.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies voor groepen**
 
-- Bord voor het beheren van groeps taken
+- Bord voor het beheren van groepstaken
 
-**Kan planner een groep maken?**
+**Kan Planner een groep maken?**
 
-Ja, het maken van een plan maakt een nieuwe groep.
+Ja, als u een plan maakt, wordt er een nieuwe groep gemaakt.
 
-**Bestaat er een planner-bord zonder een groep?**
+**Bestaat een Planner-bord zonder groep?**
 
-Nee, een plan moet zijn gekoppeld aan een groep.
+Nee, een plan moet aan een groep zijn gekoppeld.
 
 **Kunnen er meerdere abonnementen per groep zijn?**
 
 Ja, er kunnen meerdere abonnementen per groep zijn.
 
-**Kan een plan worden gekoppeld aan meerdere groepen?**
+**Kan een abonnement aan meerdere groepen worden gekoppeld?**
 
-Nee, op basis van het groepslidmaatschap moet het groepslidmaatschap de toegang bepalen.
+Nee, een plan is alleen afhankelijk van het groepslidmaatschap om de toegang te bepalen.
 
-**Kan de koppeling van een plan met een groep worden gewijzigd?**
+**Kan de samenwerking tussen een plan en een groep worden gewijzigd?**
 
-Nee, als u een plan kopieert, wordt een nieuwe groep gemaakt.
+Nee, maar als u een plan kopieert, wordt er een nieuwe groep gemaakt.
 
 > [!NOTE]
-> Een groep die door een andere toepassing is gemaakt, wordt niet automatisch weergegeven in planner voor een gebruiker. Om het bord in eerste instantie te openen, moeten ze dit openen vanuit een andere op de groep gebaseerde interface, zoals Outlook.
+> Een groep die door een andere toepassing is gemaakt, wordt niet automatisch in Planner voor een gebruiker gebruikt. Als ze het bord in eerste instantie willen openen, moeten ze het openen vanuit een andere op groep gebaseerde interface, zoals Outlook.
 
-**Wordt de groep verwijderd wanneer u het abonnement verwijdert?**
+**Wordt de groep verwijderd als u het plan verwijdert?**
 
-Ja, als u een plan verwijdert, worden de services en inhoud van de groep en groep verwijderd.
+Ja, als u het plan verwijdert, worden de aan de groep gekoppelde services en inhoud verwijderd.
 
 ## <a name="power-apps"></a>Power Apps
 
-Power-apps bieden een canvas voor het ontwikkelen van apps zonder code.
+Power Apps biedt een canvas voor app-ontwikkeling zonder code.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies die aan Groepen worden geleverd**
 
 - Apps kunnen worden gedeeld met een groep die moet worden uitgevoerd en gewijzigd
 
-**Kunnen Power-apps groepen maken?**
+**Kan Power Apps een groep maken?**
 
-Nee, Power-apps kunnen geen Microsoft 365-groep maken.
+Nee, Power Apps kan geen Microsoft 365-groep maken.
 
-**Bestaan er Power-apps zonder een groep?**
+**Bestaan Power Apps zonder groep?**
 
-Ja, apps kunnen worden gemaakt binnen Power-apps en opgeslagen in het account Creators totdat ze worden gedeeld of gepubliceerd.
+Ja, apps kunnen worden gemaakt in Power Apps en zich binnen het makersaccount bevinden totdat ze worden gedeeld of gepubliceerd.
 
 **Kunnen er meerdere apps per groep zijn?**
 
 Ja, er kunnen meerdere apps met een groep worden gedeeld.
 
-**Kunnen apps worden gekoppeld aan meerdere groepen?**
+**Kunnen apps aan meerdere groepen worden gekoppeld?**
 
 Ja, een app kan worden gedeeld met meerdere groepen.
 
-**Kan de koppeling van een app met een groep worden gewijzigd?**
+**Kan de associatie van een app met een groep veranderen?**
 
-Ja, aangezien de koppeling tussen Power-apps en een Microsoft 365-groep alleen delen is, is de app nog steeds bij de maker.
+Ja, omdat de relatie tussen Power Apps en een Microsoft 365-groep alleen wordt gedeeld: de app bevindt zich nog steeds bij de maker.
 
 > [!IMPORTANT]
-> [Voor groepen moet beveiliging zijn ingeschakeld voordat apps kunnen worden gedeeld](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app#share-an-app-with-office-365-groups).
+> [Groepen moeten beveiligings ingeschakeld zijn voordat apps met hen kunnen worden gedeeld.](/powerapps/maker/canvas-apps/share-app#share-an-app-with-office-365-groups)
 
-**Verwijdert de app in de groep?**
+**Wordt de groep verwijderd als u de app verwijdert?**
 
-Nee, de apps zijn niet verbonden met de groep die u met hen deelt.
+Nee, de apps zijn niet verbonden met de groep, anders dan dat ze met hen worden gedeeld.
 
-## <a name="power-automate"></a>Automatisch aan de macht
+## <a name="power-automate"></a>Power Automate
 
-Automatisch automatiseren (voorheen bekend als Microsoft flow) levert werkstromen en automatiserings Services.
+Power Automate (voorheen Bekend als Microsoft Flow) biedt werkstromen en automatiseringsservices.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies voor groepen**
 
-- U kunt werkstromen delen met een groep om deze uit te voeren en te wijzigen.
+- Werkstromen kunnen worden gedeeld met een groep die moet worden uitgevoerd en gewijzigd.
 
-**Kan de groep een groep maken?**
+**Kan Power Automate een groep maken?**
 
-Nee, automatisch automatiseren kan geen Microsoft 365-groep maken in de context van het bestand dat is gekoppeld aan een groep.
+Nee, Power Automate kan geen Microsoft 365-groep maken in de context van het gekoppeld zijn aan een groep.
 
-Het is ook mogelijk om een stroom te creëren waarmee verschillende bewerkingen worden uitgevoerd, zoals het maken van een Azure AD-beveiligingsgroep of het bijwerken van lidmaatschap van een groep van Microsoft 365.
+Het is echter mogelijk om een stroom te maken die verschillende bewerkingen uitvoert, zoals het maken van een Azure AD-beveiligingsgroep of het bijwerken van het lidmaatschap van een Microsoft 365-groep.
 
-**Bestaan er stromen zonder een groep?**
+**Bestaan er stromen zonder groep?**
 
-Ja, stromen kunnen worden gemaakt binnen het automatiseren van de toepassing en bevinden zich in het account Creators totdat ze worden gedeeld of gepubliceerd.
+Ja, stromen kunnen worden gemaakt in Power Automate en zich binnen het makersaccount bevinden totdat ze worden gedeeld of gepubliceerd.
 
 **Kunnen er meerdere stromen per groep zijn?**
 
-Ja, er kunnen meerdere stromen met een groep worden gedeeld.
+Ja, er kunnen meerdere stromen worden gedeeld met een groep.
 
-**Kan een stroom worden gekoppeld aan meerdere groepen?**
+**Kan een stroom aan meerdere groepen worden gekoppeld?**
 
 Ja, een stroom kan worden gedeeld met meerdere groepen.
 
-**Kan een stroom koppeling met een groep worden gewijzigd?**
+**Kan de band tussen een stroom en een groep worden gewijzigd?**
 
-Ja, aangezien de koppeling tussen het automatiseren van de werkstroom en een Microsoft 365-groep alleen delen is, is de stroom nog niet inbegrepen bij de auteur.
+Ja, omdat de relatie tussen Power Automate en een Microsoft 365-groep alleen wordt gedeeld: de stroom bevindt zich nog steeds bij de maker.
 
-**Verwijdert de groep verwijderen als u een stroom verwijdert.**
+**Wordt de groep verwijderd door een stroom te verwijderen?**
 
-Nee, zoals Power-apps, zijn de stromen niet verbonden met de groep die u met hen deelt.
+Nee, net als Power Apps zijn de stromen niet verbonden met de groep, anders dan dat ze met hen worden gedeeld.
 
 ## <a name="power-bi-classic"></a>Power BI (klassiek)
 
-Power BI biedt interactieve dashboards en rapporten van gegevensgestuurde gegevens.
+Power BI biedt interactieve dashboards en rapporten op gegevens gebaseerde.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies voor groepen**
 
 - Gegevensrapportage
 
 **Kan Power BI een groep maken?**
 
-Ja, als u een klassieke werkruimte maakt, wordt een Microsoft 365-groep gemaakt.
+Ja, als u een klassieke werkruimte maakt, maakt u een Microsoft 365-groep.
 
-**Bestaat er een klassieke werkruimte van Power BI zonder een groep?**
+**Bestaat een klassieke Power BI-werkruimte zonder een groep?**
 
-Nee, [in Power bi een klassieke werkruimte moet zijn gekoppeld aan een groep](https://docs.microsoft.com/power-bi/collaborate-share/service-collaborate-power-bi-workspace).
+Nee, [een klassieke werkruimte in Power BI moet zijn gekoppeld aan een groep.](/power-bi/collaborate-share/service-collaborate-power-bi-workspace)
 
 **Kunnen er meerdere Power BI-werkruimten per groep zijn?**
 
@@ -425,206 +425,206 @@ Nee, de relatie tussen een klassieke werkruimte en een groep is 1:1.
 
 **Kan een werkruimte aan meerdere groepen worden gekoppeld?**
 
-Technisch Nee, terwijl de klassieke werkruimte met de groep wordt gemaakt, kan de inhoud buiten de groep worden gedeeld met gebruikers en beveiligingsgroepen.
+Technisch nee, terwijl de klassieke werkruimte met de groep wordt gemaakt, kan de inhoud buiten de groep worden gedeeld met gebruikers en beveiligingsgroepen.
 
-**Kan de koppeling van de werkruimte met een groep worden gewijzigd?**
+**Kan de samenwerking tussen de werkruimte en een groep worden gewijzigd?**
 
-Nee, de klassieke werkruimte zelf is niet gekoppeld aan de groep, maar de inhoud kan worden verplaatst van de ene naar de andere werkruimte in de Power BI-interface of door de inhoud lokaal te exporteren.
+Nee, de klassieke werkruimte zelf is gekoppeld aan de groep, maar de inhoud kan van de ene werkruimte naar de andere worden verplaatst binnen de Power BI-interface of door inhoud lokaal te exporteren.
 
-**Verwijdert de groep uit de werkruimte?**
+**Wordt de groep verwijderd als u de werkruimte verwijdert?**
 
-Ja, als u de werkruimte in Power BI verwijdert, wordt de groep en de gekoppelde services en inhoud verwijderd.
+Ja, als u de werkruimte in Power BI verwijdert, worden aan de groep gekoppelde services en inhoud verwijderd.
 
 ## <a name="power-bi-new"></a>Power BI (nieuw)
 
-Power BI biedt interactieve dashboards en rapporten van gegevensgestuurde gegevens.
+Power BI biedt interactieve dashboards en rapporten op gegevens gebaseerde.
 
-Tijdens het maken van een nieuwe werkruimte in Power BI is geen Microsoft 365-groep gemaakt, wat betekent dat een groep op andere manieren een nieuwe (niet Classic) werkruimte in Power BI maakt.
+Als u een nieuwe werkruimte maakt in Power BI, wordt er geen Microsoft 365-groep gemaakt, maar maakt u op een andere manier een nieuwe (niet klassieke) werkruimte in Power BI.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies voor groepen**
 
 - Gegevensrapportage
 
 **Kan Power BI een groep maken?**
 
-Nee, het is niet mogelijk om een Microsoft 365-groep te maken op basis van de nieuwe Power BI-interface.
+Nee, het is niet mogelijk om een Microsoft 365-groep te maken vanuit de nieuwe Power BI-interface.
 
 **Bestaat de nieuwe Power BI-werkruimte zonder een groep?**
 
-Ja, het is mogelijk dat u rapporten en werkruimten die zijn gemaakt in Power BI, hebt gemaakt die niet zijn gekoppeld aan Microsoft 365-groepen.
+Ja, het is mogelijk om rapporten en werkruimten te maken in Power BI die niet zijn gekoppeld aan Microsoft 365-groepen.
 
 **Kunnen er meerdere werkruimten per groep zijn?**
 
-Ja, u [kunt meerdere werkruimten die zijn gemaakt met Power bi, delen met een enkele groep](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace).
+Ja, meerdere werkruimten die door Power BI zijn [gemaakt, kunnen met één groep worden gedeeld.](/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace)
 
 **Kan een werkruimte aan meerdere groepen worden gekoppeld?**
 
-Nee, een werkruimte die u hebt gemaakt met Power BI, kan slechts aan één groep worden gekoppeld.
+Nee, een werkruimte die is gemaakt door Power BI, kan slechts aan één groep worden gekoppeld.
 
-**Kan de koppeling van een werkruimte met een groep worden gewijzigd?**
+**Kan de samenwerking tussen een werkruimte en een groep worden gewijzigd?**
 
-Ja en Nee. Een werkruimte die u hebt gemaakt met Power BI, kan slechts aan één groep tegelijk worden gekoppeld, maar de koppeling kan op elk moment worden gewijzigd. Een werkruimte die is gemaakt in Power BI door een groep, wordt permanent aan die groep gekoppeld.
+Ja en nee. Een werkruimte die door Power BI is gemaakt, kan slechts aan één groep tegelijk worden gekoppeld, maar kan de vereniging op elk moment wijzigen. Een werkruimte die door een groep in Power BI is gemaakt, is permanent aan die groep gekoppeld.
 
-**Verwijdert de groep uit de werkruimte?**
+**Wordt de groep verwijderd als u de werkruimte verwijdert?**
 
-Ja, als u de werkruimte in Power BI verwijdert, worden de services en inhoud die aan de groep zijn gekoppeld, verwijderd.
+Ja, als u de werkruimte in Power BI verwijdert, worden de aan de groep gekoppelde services en inhoud verwijderd.
 
 ## <a name="project-for-the-web"></a>Project voor het web
 
-Project voor het web biedt de mogelijkheid om project plannen, Gantt-diagrammen en routekaarten te maken.
-Belangrijkste functies van groepen.
+Project voor het web biedt de mogelijkheid om projectplannen, Gantt-diagrammen en routekaarten te maken.
+Belangrijke functies die aan groepen worden geleverd.
 
-- Project plannen
+- Projectplannen
 
-**Kan project een groep maken voor het web?**
+**Kan Project voor het web een groep maken?**
 
-Ja, het is mogelijk om rechtstreeks vanuit project voor het web een nieuwe Microsoft 365-groep te maken.
+Ja, het is mogelijk om rechtstreeks vanuit Project voor het web een nieuwe Microsoft 365-groep te maken.
 
-**Bestaan er projecten zonder een groep?**
+**Bestaan projecten zonder groep?**
 
-Ja, projecten kunnen bestaan zonder dat ze zijn gekoppeld aan een Microsoft 365-groep, maar de toewijzing van taken vereist groeps koppeling.
+Ja, projecten kunnen bestaan zonder dat ze zijn gekoppeld aan een Microsoft 365-groep, maar voor taaktoewijzing is groepsorganisatie vereist.
 
 **Kunnen er meerdere projecten per groep zijn?**
 
 Ja, het is mogelijk om meerdere projecten in één groep te verbinden.
 
-**Kan project worden gekoppeld aan meerdere groepen?**
+**Kan project aan meerdere groepen worden gekoppeld?**
 
-Nee, een project kan slechts aan één groep worden gekoppeld.
+Nee, een project kan alleen aan één groep worden gekoppeld.
 
-**Kan de koppeling van een project met een groep worden gewijzigd?**
+**Kan de samenwerking tussen een project en een groep worden gewijzigd?**
 
-Nee, als de koppeling met een groep is gemaakt, kan deze niet worden gewijzigd.
+Nee, wanneer de associatie met een groep tot stand is gebracht, kan deze niet meer worden gewijzigd.
 
-**Verwijdert het project de groep?**
+**Wordt de groep verwijderd als u het project verwijdert?**
 
 Nee, als u het project verwijdert in project voor het web, wordt de groep niet verwijderd.
 
 ## <a name="roadmap"></a>Roadmap
 
-Routekaart biedt de mogelijkheid project plannen te maken met project voor Internet en project online.
+Roadmap biedt de mogelijkheid om project roadmaps te maken met Project voor het web en Project Online.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies die aan Groepen worden geleverd**
 
-- Project plannen
+- Routekaarten voor projecten
 
-**Kan een routekaart een groep maken?**
+**Kan Roadmap een groep maken?**
 
-Ja, het is mogelijk om rechtstreeks vanuit een routekaart een nieuwe Microsoft 365-groep te maken.
+Ja, het is mogelijk om rechtstreeks vanuit roadmap een nieuwe Microsoft 365-groep te maken.
 
-**Bestaat zonder een groep?**
+**Bestaat Roadmap zonder groep?**
 
-Ja, route plannen kunnen bestaan zonder dat ze zijn gekoppeld aan een groep van Microsoft 365, maar het delen van de routekaart vereist groeps koppeling.
+Ja, routekaarten kunnen bestaan zonder dat ze zijn gekoppeld aan een Microsoft 365-groep, maar voor het delen van de routekaart is groepsorganisatie vereist.
 
-**Kunnen er meerdere route plannen per groep zijn?**
+**Kunnen er meerdere routekaarten per groep zijn?**
 
-Ja, het is mogelijk om meerdere route plannen te verbinden met een enkele groep.
+Ja, het is mogelijk om meerdere routekaarten aan één groep te koppelen.
 
-**Kan een routekaart worden gekoppeld aan meerdere groepen?**
+**Kan een routekaart aan meerdere groepen worden gekoppeld?**
 
-Nee, een routekaart kan maar aan één groep worden gekoppeld.
+Nee, een routekaart kan alleen aan één groep worden gekoppeld.
 
-**Kan ik de koppeling van een routekaart met een groep wijzigen?**
+**Kan de samenwerking tussen een routekaart en een groep veranderen?**
 
-Nee, als de koppeling met een groep is gemaakt, kan deze niet worden gewijzigd.
+Nee, wanneer de associatie met een groep tot stand is gebracht, kan deze niet meer worden gewijzigd.
 
-**Verwijdert de groep als u het wegwijzer verwijdert.**
+**Wordt de groep verwijderd als u de routekaart verwijdert?**
 
-Nee, als u het routekaart verwijdert, wordt de groep niet verwijderd.
+Nee, als u de routekaart verwijdert, wordt de groep niet verwijderd.
 
 ## <a name="sharepoint"></a>SharePoint
 
-SharePoint is een systeem voor inhoudsbeheer op basis van andere zaken, opslagservices voor een aantal Microsoft 365-Services.
+SharePoint is een webplatform voor inhoudsbeheer dat onder andere opslagservices levert voor een aantal Microsoft 365-services.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies die aan Groepen worden geleverd**
 
-- Document bibliotheek
-- Bibliotheek voor het opslaan van OneNote-notitieblokken
-- Opslag van teams-wiki-bestanden
+- Documentbibliotheek
+- Bibliotheek voor opslag van OneNote-notitieblok
+- Opslag van Teams-wikibestanden
 
-**Kan een groep worden gemaakt in SharePoint?**
+**Kan SharePoint een groep maken?**
 
-Ja, als u een team site maakt in SharePoint, wordt standaard een Microsoft 365-groep gemaakt. Het is ook mogelijk om een groep te maken en desgewenst een team voor een bestaande site te maken.
+Ja, als u een teamsite maakt in SharePoint, wordt standaard een Microsoft 365-groep gemaakt. Het is ook mogelijk om een groep en eventueel een team voor een bestaande site te maken.
 
-**Bestaan er SharePoint-sites zonder een groep?**
+**Bestaan SharePoint-sites zonder een groep?**
 
-Ja, SharePoint biedt een aantal niet-door de groep gekoppelde services en sites zoals communicatie-en hub-sites. 
+Ja, SharePoint biedt een aantal services en sites die niet aan de groep zijn gekoppeld, zoals communicatie- en hubsites. 
 
-**Kunnen er meerdere sites per groep worden?**
+**Kunnen er meerdere sites per groep zijn?**
 
-Nee, u kunt maar één site per groep hebben. Persoonlijke kanalen in teams gebruiken andere sites die niet zijn verbonden met de groep.
+Nee, er kan slechts één site per groep zijn. Privékanalen in Teams gebruiken extra sites die niet zijn verbonden met de groep.
 
 **Kunnen sites aan meerdere groepen worden gekoppeld?**
 
-Technisch Nee, maar wanneer een site met een groep wordt gemaakt, kan de inhoud met andere groepen worden gedeeld.
+Technisch niet, maar terwijl een site met een groep wordt gemaakt, kan de inhoud worden gedeeld met andere groepen.
 
-**Kan de koppeling van een site met een groep worden gewijzigd?**
+**Kan de associatie van een site met een groep veranderen?**
 
-Nee, de site zelf is niet gekoppeld aan de groep, maar de inhoud kan worden verplaatst van de ene site naar de andere in de SharePoint-interface, door inhoud lokaal te exporteren of door middel van een programma van derden.
+Nee, de site zelf is gekoppeld aan de groep, maar de inhoud kan van de ene site naar de andere worden verplaatst binnen de SharePoint-interface, door inhoud lokaal te exporteren of door een hulpprogramma van derden te gebruiken.
 
-**Verwijdert de groep uit de site?**
+**Wordt de groep verwijderd als u de site verwijdert?**
 
-Ja, als u de site in SharePoint verwijdert, worden de services en de gekoppelde services en de bijbehorende groepen verwijderd.
+Ja, als u de site in SharePoint verwijdert, worden aan de groep gekoppelde services en inhoud verwijderd.
 
 ## <a name="stream"></a>Stream
 
-Microsoft stream is een video-hosting en deel platform.
+Microsoft Stream is een platform voor het hosten en delen van video's.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies die aan Groepen worden geleverd**
 
-- Video-opslag
-- Opname van teams-vergadering
-- Video kanalen
+- Videoopslag
+- Opname van Teams-vergadering
+- Videokanalen
 
-**Kan stream maken van een groep?**
+**Kan Stream een groep maken?**
 
-Ja, het is mogelijk om rechtstreeks vanuit de stroom een nieuwe Microsoft 365-groep te maken.
+Ja, het is mogelijk om rechtstreeks vanuit Stream een nieuwe Microsoft 365-groep te maken.
 
-**Bestaat de stream zonder een groep?**
+**Bestaat Stream zonder groep?**
 
-Ja, videokanalen en Video's kunnen bestaan in stream zonder dat ze aan een groep zijn gekoppeld.
+Ja, videokanalen en video's kunnen aanwezig zijn in Stream zonder aan een groep te zijn gekoppeld.
 
-**Kunnen er meerdere Video's en kanalen per groep worden toegevoegd?**
+**Kunnen er meerdere video's en kanalen per groep zijn?**
 
-Ja, er kunnen meerdere Video's en kanalen in elke groep worden toegevoegd.
+Ja, er kunnen meerdere video's en kanalen in elke groep zijn.
 
-**Kan een video of kanaal worden gekoppeld aan meerdere groepen?**
+**Kan een video of kanaal aan meerdere groepen worden gekoppeld?**
 
-Ja, terwijl een video of kanaal wordt gemaakt met een groep, kunt u het bestanddelen met andere groepen.
+Ja, terwijl een video of kanaal wordt gemaakt met een groep, kan deze worden gedeeld met andere groepen.
 
-**Kan de koppeling met een groep worden gewijzigd?**
+**Kan de associatie met een groep worden gewijzigd?**
 
-Ja en Nee; Video's in de stroom zijn eigendom van de oorspronkelijke Uploader of vergaderings recorder, en kunnen dus aan een willekeurige groep worden gekoppeld, maar u kunt alleen videokanalen koppelen aan de groep waarin ze oorspronkelijk zijn gemaakt.
+Ja en nee; video's in Stream zijn eigendom van de oorspronkelijke uploader of vergaderingsrecorder en kunnen dus aan elke groep worden gekoppeld, maar videokanalen kunnen alleen worden gekoppeld aan de groep waarin ze oorspronkelijk zijn gemaakt.
 
-**Verwijdert de groep als u Video's of kanalen verwijdert?**
+**Wordt de groep verwijderd door video's of kanalen te verwijderen?**
 
-Nee, Video's of kanalen verwijderen niet de groep. Als u echter de groep zelf verwijdert, worden de services en inhoud van de groep verwijderd, met uitzondering van de feitelijke Video's.
+Nee, als u video's of kanalen verwijdert, wordt de groep niet verwijderd. Als u de groep echter zelf verwijdert in Stream, worden aan de groep gekoppelde services en inhoud verwijderd, met uitzondering van de werkelijke video's.
 
 ## <a name="yammer"></a>Yammer
 
-Yammer is een sociaal platform dat is ontworpen voor de bevordering van de betrokkenheid van community's binnen en tussen organisaties.
+Yammer is een sociaal platform voor ondernemingen dat is ontworpen om betrokkenheid van de community binnen en tussen organisaties te bevorderen.
 
-Door een community te maken (voorheen bekend als ' groep ') in Yammer wordt een postvak gemaakt, maar dit wordt niet in de huidige weergave gebruikt.
+Als u een community (voorheen 'groep' genoemd) maakt in Yammer, wordt een postvak gemaakt, maar op dit moment wordt dit niet gebruikt.
 
-Een Microsoft 365-groep die is gekoppeld aan Yammer, kan niet worden gebruikt met een team in Microsoft teams.
+Een Microsoft 365-groep die is gekoppeld aan Yammer, kan niet worden gebruikt met een team in Microsoft Teams.
 
-**Belangrijkste functies die beschikbaar zijn voor groepen**
+**Belangrijke functies die aan Groepen worden geleverd**
 
-- Gespreks gebied
+- Gespreksgebied
 
-**Kan Yammer een groep Microsoft 365 maken?**
+**Kan Yammer een Microsoft 365-groep maken?**
 
-Ja, als u een nieuwe groep maakt in Yammer, maakt u een nieuwe groep Microsoft 365, als de platforms verbonden zijn en de gebruiker de mogelijkheid heeft om een groep te maken.
+Ja, als de platforms zijn verbonden en de gebruiker de mogelijkheid heeft om een groep te maken, wordt er een nieuwe Microsoft 365-groep in Yammer aan het maken.
 
-Een Yammer-groep met gekoppelde Microsoft 365-groep kan niet worden gemaakt in een andere interface of service dan Yammer zelf.
+Een Yammer-groep met de bijbehorende Microsoft 365-groep kan niet worden gemaakt in een andere interface of service dan Yammer zelf.
 
-**Bestaat er een Yammer-groep zonder een Microsoft 365-groep?**
+**Bestaat een Yammer-groep zonder een Microsoft 365-groep?**
 
 Ja, het is mogelijk om een Yammer-groep te maken zonder een Microsoft 365-groep.
 
-Als het Yammer-platform niet is verbonden met Microsoft 365-groepen of gebruikers geen toegang hebben tot de groep Microsoft 365, worden Yammer-groepen gemaakt zonder een Microsoft 365-groeps koppeling.
+Als het Yammer-platform niet is verbonden met Microsoft 365-groepen of als gebruikers niet de mogelijkheid hebben om een Microsoft 365-groep te maken, worden Yammer-groepen gemaakt zonder een Microsoft 365-groepsorganisatie.
 
-**Kunnen er meerdere Yammer-groepen per Microsoft 365-groep worden?**
+**Kunnen er meerdere Yammer-groepen per Microsoft 365-groep zijn?**
 
 Nee, de relatie tussen een Yammer-groep en een Microsoft 365-groep is 1:1.
 
@@ -632,17 +632,16 @@ Nee, de relatie tussen een Yammer-groep en een Microsoft 365-groep is 1:1.
 
 Nee, de Yammer-groep kan alleen worden gekoppeld aan één Microsoft 365-groep. Het is mogelijk dat berichten worden gedeeld met of verplaatst naar andere Yammer-groepen.
 
-**Kan de koppeling van een Yammer-groep met een Microsoft 365-groep worden gewijzigd?**
+**Kan de samenwerking van een Yammer-groep met een Microsoft 365-groep worden gewijzigd?**
 
-Nee, de Yammer-groep kan maar ooit worden gekoppeld aan de Microsoft 365-groep waaraan deze oorspronkelijk is gekoppeld.
+Nee, de Yammer-groep kan alleen worden gekoppeld aan de Microsoft 365-groep waaraan de groep oorspronkelijk is gekoppeld.
 
-**Verwijdert de Yammer-groep de groep Microsoft 365.**
+**Wordt de Microsoft 365-groep verwijderd als u de Yammer-groep verwijdert?**
 
-Ja, als u de groep in Yammer verwijdert, worden verwante Microsoft-groepen en door groepen gekoppelde services en inhoud verwijderd.
+Ja, als u de groep in Yammer verwijdert, worden gerelateerde Microsoft-groep en aan de groep gekoppelde services en inhoud verwijderd.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Uw plan voor samenwerking maken](collaboration-governance-first.md)
-
+[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)

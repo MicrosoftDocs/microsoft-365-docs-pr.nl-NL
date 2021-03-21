@@ -1,6 +1,6 @@
 ---
 title: Problemen met de Microsoft 365 Defender-service oplossen
-description: Oplossingen en oplossingen vinden voor bekende problemen met Microsoft 365 Defender
+description: Oplossingen zoeken en een oplossing zoeken voor bekende Problemen met Microsoft 365 Defender
 keywords: Microsoft Threat Protection oplossen, problemen oplossen, Azure ATP, problemen, invoegoplossing, instellingenpagina
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 414743fa5ba25b9d2714c1dd08dd38e34ec94372
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d01912532ad2a00abbecee0d0a337be7baf87017
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925716"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918664"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Problemen met de Microsoft 365 Defender-service oplossen
 
@@ -35,20 +35,20 @@ ms.locfileid: "49925716"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Deze sectie gaat in op problemen die zich kunnen voordoen wanneer u de Microsoft 365 Defender-service gebruikt.
+In deze sectie worden problemen opgelost die zich kunnen voordoen wanneer u de Microsoft 365 Defender-service gebruikt.
 
 ## <a name="i-dont-see-microsoft-365-defender-content"></a>Ik zie geen Microsoft 365 Defender-inhoud
 
-Als u geen mogelijkheden ziet in het navigatiedeelvenster, zoals incidenten, actiecentrum of zoeken in uw portal, moet u controleren of uw tenant de juiste licenties heeft.
+Als u geen mogelijkheden ziet in het navigatiedeelvenster, zoals incidenten, actiecentrum of Jagen in uw portal, moet u controleren of uw tenant over de juiste licenties beschikt.
 
 Zie Vereisten voor [meer informatie.](prerequisites.md)
 
-## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Waarschuwingen van Microsoft Defender voor identiteit worden niet weergegeven in de Microsoft 365 Defender-incidenten
+## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Microsoft Defender voor identiteitswaarschuwingen worden niet weergegeven in de Microsoft 365 Defender-incidenten
 
-Als Microsoft Defender voor identiteit is geïmplementeerd in uw omgeving, maar u geen meldingen van Defender voor identiteit ziet als onderdeel van Microsoft 365 Defender-incidenten, moet u ervoor zorgen dat de integratie van Microsoft Cloud App en Defender voor identiteit is ingeschakeld.
+Als Microsoft Defender voor identiteit is geïmplementeerd in uw omgeving, maar u geen defender voor identiteitswaarschuwingen ziet als onderdeel van Microsoft 365 Defender-incidenten, moet u ervoor zorgen dat de Microsoft Cloud App Security en Defender voor identiteitsintegratie is ingeschakeld.
 
-Zie Microsoft [Defender for Identity Integration voor meer informatie.](https://docs.microsoft.com/cloud-app-security/mdi-integration)
+Zie Microsoft [Defender voor identiteitsintegratie](/cloud-app-security/mdi-integration)voor meer informatie.
 
-## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de instellingenpagina voor het in- en uitschakelen van de service?
+## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de pagina met instellingen voor het in- en uitschakelen van de service?
 
-Als u Microsoft 365 Defender wilt in uitschakelen, gebruikt u **Instellingen** vanuit het navigatiedeelvenster in het Microsoft 365-beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u de vereiste [machtigingen en licenties hebt.](mtp-enable.md#check-license-eligibility-and-required-permissions)
+Als u Microsoft 365 Defender wilt in- of uitschakelen, hebt u toegang tot Instellingen **vanuit** het navigatiedeelvenster in het Microsoft 365-beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u de vereiste [machtigingen en licenties hebt.](mtp-enable.md#check-license-eligibility-and-required-permissions)

@@ -19,23 +19,23 @@ ms.custom:
 - LIL_Placement
 - O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
-description: In dit artikel wordt uitgelegd hoe u PowerShell kunt gebruiken om Microsoft 365-licenties te verwijderen die eerder zijn toegewezen aan gebruikers.
-ms.openlocfilehash: 8ae7ca1013e26a60f16177f2dab7ced4cc8b97a8
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+description: Hier wordt uitgelegd hoe u PowerShell gebruikt om Microsoft 365-licenties te verwijderen die eerder aan gebruikers zijn toegewezen.
+ms.openlocfilehash: 9944d1ab056d109b6bf71a44fe01acef78ce1f14
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289591"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920666"
 ---
 # <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a>Microsoft 365-licenties verwijderen uit gebruikersaccounts met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
 >[!Note]
->[Lees hoe u licenties verwijdert uit gebruikersaccounts](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) met het Microsoft 365-beheercentrum. Zie Gebruikers en groepen beheren voor een lijst [met aanvullende bronnen.](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+>[Meer informatie over het verwijderen van licenties uit gebruikersaccounts](../admin/manage/remove-licenses-from-users.md) met het Microsoft 365-beheercentrum. Zie Gebruikers en groepen beheren voor een lijst met [aanvullende bronnen.](../admin/add-users/index.yml)
 >
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell for Graph-module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
 
 Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
@@ -45,9 +45,9 @@ Vermeld vervolgens de licentieplannen voor uw tenant met deze opdracht.
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-Zoek vervolgens de aanmeldingsnaam van het account waarvoor u een licentie wilt verwijderen, ook wel de UPN (User Principal Name) genoemd.
+Vervolgens krijgt u de aanmeldingsnaam van het account waarvoor u een licentie wilt verwijderen, ook wel de gebruikersnaam (UPN) genoemd.
 
-Geef ten slotte de namen van gebruikersaccounts en licenties op, verwijder de tekens '<' en '>' en voer deze opdrachten uit.
+Geef ten slotte de namen van de aanmeldings- en licentieplannen van de gebruiker op, verwijder de tekens '<' en '>' en voer deze opdrachten uit.
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -93,7 +93,7 @@ Als u de **get-MsolUser-cmdlet** gebruikt zonder de parameter _-All_ te gebruike
     
 ### <a name="removing-licenses-from-user-accounts"></a>Licenties verwijderen uit gebruikersaccounts
 
-Gebruik de volgende syntaxis om licenties te verwijderen uit een bestaand gebruikersaccount:
+Als u licenties wilt verwijderen uit een bestaand gebruikersaccount, gebruikt u de volgende syntaxis:
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName <Account> -RemoveLicenses "<AccountSkuId1>", "<AccountSkuId2>"...
@@ -103,17 +103,17 @@ Set-MsolUserLicense -UserPrincipalName <Account> -RemoveLicenses "<AccountSkuId1
 >PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 >
 
-In dit voorbeeld wordt de **licentie litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) verwijderd uit de licentie voor BelindaN@litwareinc.com.
+In dit voorbeeld wordt de **licentie litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) verwijderd uit het gebruikersaccount BelindaN@litwareinc.com.
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
 >[!Note]
->U kunt de `Set-MsolUserLicense` cmdlet niet gebruiken om de licentie voor gebruikers *van geannuleerde licenties in* te verwijderen. U moet dit afzonderlijk doen voor elk gebruikersaccount in het Microsoft 365-beheercentrum.
+>U kunt de `Set-MsolUserLicense` cmdlet niet gebruiken om gebruikers te ontzeggen van *geannuleerde* licenties. U moet dit afzonderlijk doen voor elk gebruikersaccount in het Microsoft 365-beheercentrum.
 >
 
-Als u alle licenties wilt verwijderen van een groep bestaande gebruikers met een licentie, gebruikt u een van de volgende methoden:
+Als u alle licenties wilt verwijderen uit een groep bestaande gebruikers met een licentie, gebruikt u een van de volgende methoden:
   
 - **De accounts filteren op basis van een bestaand accountkenmerk** Gebruik hiervoor de volgende syntaxis:
     
@@ -125,7 +125,7 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-In dit voorbeeld worden alle licenties verwijderd van alle gebruikersaccounts in de afdeling Verkoop in de Verenigde Staten.
+In dit voorbeeld worden alle licenties verwijderd uit alle gebruikersaccounts van de afdeling Verkoop in de Verenigde Staten.
     
 ```powershell
 $userArray = Get-MsolUser -All -Department "Sales" -UsageLocation "US" | where {$_.isLicensed -eq $true}
@@ -137,7 +137,7 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 
 - **Een lijst met specifieke accounts gebruiken voor een specifieke licentie** Voer hiervoor de volgende stappen uit:
     
-1. Maak en sla op elke regel een tekstbestand op dat één account bevat:
+1. Maak en sla een tekstbestand op met één account op elke regel als dit:
     
   ```powershell
 akol@contoso.com
@@ -154,7 +154,7 @@ kakers@contoso.com
   Set-MsolUserLicense -UserPrincipalName $x[$i] -RemoveLicenses "<AccountSkuId1>","<AccountSkuId2>"...
   }
   ```
-In dit voorbeeld wordt de **licentie litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) verwijderd uit de gebruikersaccounts die zijn gedefinieerd in het tekstbestand C:\My Documents\Accounts.txt.
+In dit voorbeeld wordt de **licentie litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) verwijderd uit de gebruikersaccounts die zijn gedefinieerd in het tekstbestand C:\Mijn Documents\Accounts.txt.
     
   ```powershell
   $x=Get-Content "C:\My Documents\Accounts.txt"
@@ -164,7 +164,7 @@ In dit voorbeeld wordt de **licentie litwareinc:ENTERPRISEPACK** (Office 365 Ent
   }
   ```
 
-Als u alle licenties van alle bestaande gebruikersaccounts wilt verwijderen, gebruikt u de volgende syntaxis:
+Als u alle licenties wilt verwijderen uit alle bestaande gebruikersaccounts, gebruikt u de volgende syntaxis:
   
 ```powershell
 $userArray = Get-MsolUser -All | where {$_.isLicensed -eq $true}
@@ -174,7 +174,7 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-Een andere manier om een licentie vrij te maken, is door het gebruikersaccount te verwijderen. Zie Gebruikersaccounts verwijderen en herstellen met [PowerShell voor meer informatie.](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)
+Een andere manier om een licentie vrij te maken is door het gebruikersaccount te verwijderen. Zie Gebruikersaccounts verwijderen [en herstellen met PowerShell voor meer informatie.](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)
   
 ## <a name="see-also"></a>Zie ook
 
@@ -183,4 +183,3 @@ Een andere manier om een licentie vrij te maken, is door het gebruikersaccount t
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Hoe een organisatie die de meest recente release implementeert, kanalen gebruikt voor Windows 10- en Microsoft 365-apps.
-ms.openlocfilehash: fd1d8ddd342b2781470378c879ef70d2ba304316
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 29bda1651a83f0e043cf8a0d2a102c6c2e461bfd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686164"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919072"
 ---
 # <a name="example-of-broad-deployment-for-the-latest-releases"></a>Voorbeeld van een brede implementatie voor de meest recente releases
 
@@ -61,7 +61,7 @@ Deze voorbeeldorganisatie maakt gebruik van een tweetraps implementatieproces, u
 
 Het algehele doel is om een brede implementatie van de meest recente release van het Semi-Annual-kanaal uit te voeren. Dit gebeurt na validatie van de wijzigingen aan het Release-preview-kanaal door een groep representatieve gebruikers en hun apparaten.
 
-Zie [Windows 10 deployment](https://docs.microsoft.com/windows/deployment/) (Windows 10-implementatie) voor meer informatie over de implementatiemethoden en -strategieën van Windows 10.
+Zie [Windows 10 deployment](/windows/deployment/) (Windows 10-implementatie) voor meer informatie over de implementatiemethoden en -strategieën van Windows 10.
 
 | Fase | Kanaal | Implementatiegroep |
 |:-------|:-------|:-----|
@@ -85,7 +85,7 @@ Doorlopend updateproces:
 
 Het algehele doel is om een brede implementatie van de meest recente release van het huidige kanaal uit te voeren. Dit gebeurt na validatie van de wijzigingen aan het Huidig kanaal (voorbeeld) door een groep representatieve gebruikers.
 
-Zie [Microsoft 365 Apps deployment](https://docs.microsoft.com/deployoffice/plan-office-365-proplus) (Implementatie van Microsoft 365-apps) voor meer informatie over de implementatiemethoden en -strategieën van Microsoft 365-apps.
+Zie [Microsoft 365 Apps deployment](/deployoffice/plan-office-365-proplus) (Implementatie van Microsoft 365-apps) voor meer informatie over de implementatiemethoden en -strategieën van Microsoft 365-apps.
 
 | Fase | Kanaal | Implementatiegroep |
 |:-------|:-------|:-----|

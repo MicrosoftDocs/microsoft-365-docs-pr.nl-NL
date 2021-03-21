@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-isolatie besturingselementen
+title: Isolatiebesturingselementen voor Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,30 +14,30 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: Meer informatie over de manier waarop de isolatie besturingselementen werken binnen Microsoft 365, zodat services onder de juiste plaats kunnen blijven.
+description: Lees hoe isolatiebesturingselementen werken binnen Microsoft 365, zodat services zo nodig kunnen samenwerken of zelfstandig kunnen blijven.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb0989f19002267ab92bf184a12a4076f753580e
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 514b12e44d9e81a18b691ebf3196a3d21157e71b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332374"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918940"
 ---
-# <a name="microsoft-365-isolation-controls"></a>Microsoft 365-isolatie besturingselementen 
+# <a name="microsoft-365-isolation-controls"></a>Isolatiebesturingselementen voor Microsoft 365 
 
-Microsoft werkt continu, zodat de architectuur met meerdere tenants van Microsoft 365 ondersteuning biedt voor beveiliging, vertrouwelijkheid, privacy, integriteit, lokale, internationale en beschikbaarheids [normen](https://www.microsoft.com/TrustCenter/Compliance?service=Office#Icons). De schaal en het servicebereik van Microsoft maken het moeilijk en niet-rendabel om Microsoft 365 te beheren met aanzienlijke menselijke interactie. Microsoft 365-services worden geleverd via meerdere algemeen gedistribueerde gegevenscentra, elk met een geautomatiseerd aantal bewerkingen waarbij een menselijk aanraak niveau of toegang tot de inhoud van de klant is vereist. Onze medewerkers ondersteunen deze services en datacenters met behulp van geautomatiseerde hulpprogramma's en zeer veilige externe toegang. 
+Microsoft werkt voortdurend om ervoor te zorgen dat de architectuur met meerdere tenants van Microsoft 365 ondersteuning biedt voor beveiliging, vertrouwelijkheid, privacy, integriteit, lokale, internationale en beschikbaarheidsstandaarden op [ondernemingsniveau.](https://www.microsoft.com/TrustCenter/Compliance?service=Office#Icons) De schaal en het bereik van services die door Microsoft worden geleverd, maken het moeilijk en niet-voordelig om Microsoft 365 te beheren met een aanzienlijke menselijke interactie. Microsoft 365-services worden geleverd via meerdere wereldwijd gedistribueerde datacenters, elk zeer geautomatiseerd met weinig bewerkingen waarvoor een menselijke aanraking of toegang tot klantinhoud vereist is. Ons personeel ondersteunt deze services en datacenters met behulp van geautomatiseerde hulpprogramma's en zeer veilige toegang op afstand. 
 
-Microsoft 365 is samengesteld uit meerdere services die belangrijke bedrijfsfunctionaliteit bieden en bijdragen aan de volledige Microsoft 365-ervaring. Deze services zijn zelf en ontworpen voor integratie met elkaar.
+Microsoft 365 bestaat uit meerdere services die belangrijke bedrijfsfunctionaliteit bieden en bijdragen aan de volledige Microsoft 365-ervaring. Elk van deze services is op zichzelf staand en ontworpen om met elkaar te integreren.
 
-Microsoft 365 is ontworpen met de volgende beginselen:
+Microsoft 365 is ontworpen met de volgende principes:
 
- - ** [Service gerichte architectuur](https://docs.microsoft.com/previous-versions/aa480021(v=msdn.10)):** het ontwerpen en ontwikkelen van software in de vorm van interoperabele diensten die goed gedefinieerde bedrijfsfunctionaliteit bieden.
- - **[Operationele beveiligings zekerheid](https://www.microsoft.com/download/details.aspx?id=40872):** een kader dat de kennis vormt van diverse mogelijkheden die uniek zijn voor Microsoft, waaronder de Microsoft [Security Development Lifecycle](https://www.microsoft.com/sdl/default.aspx), het [Microsoft Security Response Center](https://technet.microsoft.com/library/dn440717.aspx)en de grondige bewustmaking van de Cyber Security-Threat liggend.
+ - **[Servicegeoriënteerde architectuur:](/previous-versions/aa480021(v=msdn.10))** software ontwerpen en ontwikkelen in de vorm van interoperabele services die goed gedefinieerde bedrijfsfunctionaliteit bieden.
+ - **[Operational Security Assurance:](https://www.microsoft.com/download/details.aspx?id=40872)** een framework met de kennis die is opgedane via verschillende mogelijkheden die uniek zijn voor Microsoft, waaronder de levenscyclus van Microsoft [Security Development,](https://www.microsoft.com/sdl/default.aspx)het [Microsoft Security Response Center](https://technet.microsoft.com/library/dn440717.aspx)en een uitgebreide kennis van het landschap van cyberbeveiligingsdreigingen.
 
-Microsoft 365-services die onderling samenwerken, maar zijn ontworpen en geïmplementeerd, zodat ze kunnen worden geïmplementeerd en geëxploiteerd als autonome Services, ongeacht elkaar. Microsoft scheidt bevoegdheden en verantwoordelijkheidsgebieden voor Microsoft 365 om de verkoopkansen te verminderen voor ongeoorloofde of onbedoelde wijzigingen of misbruik van de assets van de organisatie. Microsoft 365 teams heeft rollen gedefinieerd als onderdeel van een uitgebreid toegangsbeheer mechanisme op basis van rollen.
+Microsoft 365-services werken onderling, maar zijn ontworpen en geïmplementeerd, zodat ze onafhankelijk van elkaar kunnen worden geïmplementeerd en beheerd als zelfstandige services. Microsoft segregates duties and areas of responsibility for Microsoft 365 to reduce opportunities for unauthorized or unintentional modification or misuse of the organization's assets. Microsoft 365-teams hebben rollen gedefinieerd als onderdeel van een uitgebreid toegangsbeheermechanisme op basis van rollen.
 
-## <a name="customer-content-isolation"></a>Inhouds isolatie van klanten
+## <a name="customer-content-isolation"></a>Isolatie van klantinhoud
 
-Alle inhoud van de klant in een Tenant is geïsoleerd van andere tenants en van operations-en systeemgegevens die worden gebruikt in het beheer van Microsoft 365. Er worden meerdere vormen van bescherming geïmplementeerd in Microsoft 365, zodat u het risico voor compromissen met een Microsoft 365-service of-toepassing beperkt. Meerdere vormen van bescherming verhinderen ook onbevoegde toegang tot de gegevens van tenants of het Microsoft 365-systeem zelf.
+Alle klantinhoud in een tenant is geïsoleerd van andere tenants en van bewerkingen en systeemgegevens die worden gebruikt in het beheer van Microsoft 365. Er worden meerdere vormen van beveiliging geïmplementeerd in Microsoft 365 om het risico op compromitteerd gebruik van een Microsoft 365-service of -toepassing tot een minimum te beperken. Meerdere vormen van beveiliging voorkomen ook dat onbevoegden toegang hebben tot de gegevens van tenants of het Microsoft 365-systeem zelf.
 
-Zie [Tenant isolatie in Microsoft 365](microsoft-365-tenant-isolation-overview.md)voor informatie over hoe Microsoft logische isolatie van Tenant gegevens implementeert in microsoft 365.
+Zie Tenant Isolation in Microsoft 365 voor informatie over hoe Microsoft logische isolatie van tenantgegevens implementeert in Microsoft [365.](microsoft-365-tenant-isolation-overview.md)

@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Bepalen waar uw Microsoft 365-klantgegevens wereldwijd worden opgeslagen
-ms.openlocfilehash: dc74393eadbd5f1abc62efe7411434d0b919e5fe
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: a93f83e7efafa06aa65675342471c26f1b197864
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988102"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920786"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -58,11 +58,11 @@ Microsoft biedt geen informatie over de exacte adressen van de datacentra. We he
 
 ### <a name="does-the-location-of-your-customer-data-have-a-direct-impact-on-your-end-users-experience"></a>Heeft de locatie van uw klantgegevens een directe invloed op de ervaring van uw gebruikers?
 
-De prestaties van Microsoft 365 zijn niet alleen afhankelijk van de afstand tussen een gebruiker en een datacentrum. De voortdurende investeringen van Microsoft in het wereldwijde cloudnetwerk, de wereldwijde cloudinfrastructuur en de architectuur van de Microsoft 365-services bieden gebruikers een enkelvoudige, consistente ervaring, ongeacht waar de data-at-rest is opgeslagen. Als uw gebruikers prestatieproblemen ondervinden, moet u deze diepgaand onderzoeken. Microsoft heeft voor Microsoft 365-klanten hulp gepubliceerd om de eindgebruikersprestaties te plannen en te optimaliseren op de [website Office-ondersteuning](https://go.microsoft.com/fwlink/p/?linkid=862645).
+De prestaties van Microsoft 365 zijn niet alleen afhankelijk van de afstand tussen een gebruiker en een datacentrum. De voortdurende investeringen van Microsoft in het wereldwijde cloudnetwerk, de wereldwijde cloudinfrastructuur en de architectuur van de Microsoft 365-services bieden gebruikers een enkelvoudige, consistente ervaring, ongeacht waar de data-at-rest is opgeslagen. Als uw gebruikers prestatieproblemen ondervinden, moet u deze diepgaand onderzoeken. Microsoft heeft voor Microsoft 365-klanten hulp gepubliceerd om de eindgebruikersprestaties te plannen en te optimaliseren op de [website Office-ondersteuning](./network-planning-and-performance.md).
 
 ### <a name="how-does-microsoft-help-me-comply-with-my-national-regional-and-industry-specific-regulations"></a>Hoe helpt Microsoft mij met de naleving van mijn nationale, regionale en branchespecifieke voorschriften?
 
-Om u te helpen de nationale, regionale en branchespecifieke vereisten na te leven voor het beheren van de verzameling en het gebruik van persoonlijke gegevens, biedt Microsoft 365 de meest uitgebreide reeks nalevingsmogelijkheden van alle wereldwijde providers van cloudproductiviteit.  Bekijk [ons nalevingsaanbod](https://go.microsoft.com/fwlink/p/?linkid=864391) en meer informatie in het gedeelte [Microsoft 365-compliance](https://go.microsoft.com/fwlink/p/?linkid=862317) in het Microsoft-vertrouwenscentrum. Ook bieden sommige Microsoft 365-abonnementen verdere nalevingsoplossingen om u te helpen uw gegevens te beheren, te voldoen aan wettelijke en reglementaire vereisten en acties te bewaken die worden uitgevoerd op uw gegevens.
+Om u te helpen de nationale, regionale en branchespecifieke vereisten na te leven voor het beheren van de verzameling en het gebruik van persoonlijke gegevens, biedt Microsoft 365 de meest uitgebreide reeks nalevingsmogelijkheden van alle wereldwijde providers van cloudproductiviteit.  Bekijk [ons nalevingsaanbod](/compliance/regulatory/offering-home) en meer informatie in het gedeelte [Microsoft 365-compliance](https://go.microsoft.com/fwlink/p/?linkid=862317) in het Microsoft-vertrouwenscentrum. Ook bieden sommige Microsoft 365-abonnementen verdere nalevingsoplossingen om u te helpen uw gegevens te beheren, te voldoen aan wettelijke en reglementaire vereisten en acties te bewaken die worden uitgevoerd op uw gegevens.
 
 ### <a name="who-can-access-your-data-and-according-to-what-rules"></a>Wie heeft toegang tot uw gegevens en op basis van welke regels?
 

@@ -1,5 +1,5 @@
 ---
-title: Voorbeeldfuncties in Microsoft 365 Defender
+title: Preview-functies in Microsoft 365 Defender
 description: Meer informatie over nieuwe functies in Microsoft 365-beveiliging
 keywords: voorbeeld, nieuw, m365-beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
@@ -20,32 +20,32 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1636b1deb5f35d8286b33238a8f4bbfff0b33521
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 2f5b1a289f55b7237606782afb8e8f5acf6788a2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288123"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918856"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Preview-functies van Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 > [!IMPORTANT]
-> De preview-versies worden geleverd zonder serviceovereenkomst en worden niet aanbevolen voor werkbelasting van de productie. Bepaalde functies worden mogelijk niet ondersteund of hebben beperkte mogelijkheden.
+> De preview-versies worden geleverd zonder serviceovereenkomst en worden niet aanbevolen voor productiebelastingen. Bepaalde functies worden mogelijk niet ondersteund of hebben mogelijk beperkte mogelijkheden.
 
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De Microsoft 365 Defender-service wordt voortdurend bijgewerkt met nieuwe functieverbeteringen en mogelijkheden.
+De Microsoft 365 Defender-service wordt voortdurend bijgewerkt met nieuwe functies en mogelijkheden.
 
-Lees meer over nieuwe functies in de preview-versie van Microsoft 365 Defender en probeer als een van de eersten komende functies door de preview-versie in te spelen.
+Lees meer over nieuwe functies in de preview-release van Microsoft 365 Defender en probeer als een van de eersten toekomstige functies door de preview-ervaring in te dagen.
 
-Zie Wat is er nieuw [in Microsoft 365 Defender](whats-new.md)voor meer informatie over nieuwe mogelijkheden die algemeen beschikbaar zijn.
+Zie Nieuw [in Microsoft 365 Defender](whats-new.md)voor meer informatie over nieuwe mogelijkheden die algemeen beschikbaar zijn.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
 
-Accounts die zijn toegewezen aan de volgende Azure Active Directory-rollen (Azure AD), kunnen functies van Microsoft 365 Defender Preview in bedrijf nemen:
+Accounts die de volgende Azure Active Directory-rollen (Azure AD) hebben toegewezen, kunnen Microsoft 365 Defender Preview-functies in- en uit- zetten:
 
 - Globale beheerder
 - Beveiligingsbeheerder
@@ -53,12 +53,12 @@ Accounts die zijn toegewezen aan de volgende Azure Active Directory-rollen (Azur
 
 ## <a name="turn-on-preview-features"></a>Preview-functies inschakelen
 
-U hebt toegang tot toekomstige functies die u kunt voorzien van feedback om de algehele ervaring te verbeteren voordat functies algemeen beschikbaar zijn.
+U hebt toegang tot toekomstige functies waar u feedback over kunt geven om de algehele ervaring te verbeteren voordat functies algemeen beschikbaar zijn.
 
 Schakel de preview-ervaringsinstelling in om een van de eersten te zijn om nieuwe functies uit te proberen.
 
 1. Kies **Instellingen** in het navigatiedeelvenster.
-2. Selecteer **Microsoft 365 Defender.**
+2. Selecteer **Microsoft 365 Defender**.
 3. Kies **Preview-functies** > **Preview-functies inschakelen**. 
 4. Kies **Opslaan**.
 
@@ -69,10 +69,10 @@ U weet dat u preview-functies hebt ingeschakeld wanneer u ziet dat het selectiev
 De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-versie:
 
 ### <a name="improved-microsoft-365-security-center"></a>Verbeterd Microsoft 365-beveiligingscentrum
-Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Dit is de nieuwe thuisbasis voor het beheren van uw besturingselementen voor beveiliging. [Ontdek wat er nieuw is](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center).
+Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Dit is de nieuwe thuisbasis voor het beheren van uw beveiligingsbesturingselementen. [Ontdek wat er nieuw is](./overview-security-center.md).
 
-- **[Microsoft 365 Defender threat analytics report](threat-analytics.md)** - Bedreigingsanalyse helpt u om te reageren op en de impact van actieve aanvallen te minimaliseren. U kunt ook meer te weten komen over aanvallen die worden geblokkeerd door Microsoft 365 Defender-oplossingen en voor het nemen van voorzorgsacties die het risico op verdere blootstelling beperken en tolerantie verhogen. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor licentiehouders van Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5.
-- **[Microsoft 365 Defender API's](api-overview.md)** - de Microsoft 365 Defender API's op het hoogste niveau stelt u in staat werkstromen te automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen. 
-- **[Onderneemt actie bij geavanceerd zoeken:](advanced-hunting-take-action.md)** snel bedreigingen bevatten of gecompromitteerde assets vinden in [geavanceerd zoeken.](advanced-hunting-overview.md)
-- **[In-portal schema reference](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**—Get information about advanced hunting schema tables directly in the security center. Naast tabel- en kolombeschrijvingen bevat deze verwijzing ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.
-- **[DeviceFromIP(),](advanced-hunting-devicefromip-function.md)** functie — Informatie krijgen over welke apparaten in een bepaald tijdsbereik een specifiek IP-adres of specifieke adressen zijn toegewezen.
+- **[Microsoft 365 Defender threat analytics report](threat-analytics.md)** - Threat Analytics helpt u bij het reageren op en minimaliseren van de impact van actieve aanvallen. U kunt ook meer informatie krijgen over aanvalspogingen die zijn geblokkeerd door Microsoft 365 Defender-oplossingen en preventief optreden om het risico op verdere blootstelling te beperken en de tolerantie te vergroten. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor licentiehouders van Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5.
+- **[Microsoft 365 Defender API's](api-overview.md)** : met de api's op het hoogste niveau van Microsoft 365 Defender kunt u werkstromen automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen. 
+- **[Actie ondernemen in geavanceerde jacht](advanced-hunting-take-action.md)**: snel bedreigingen bevatten of gecompromitteerde activa die u vindt in geavanceerde [jacht.](advanced-hunting-overview.md)
+- **[In-portal schemaverwijzing:](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** informatie over geavanceerde schematabellen voor jagen rechtstreeks in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze verwijzing ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.
+- **[DeviceFromIP(), functie:](advanced-hunting-devicefromip-function.md)** informatie over welke apparaten een specifiek IP-adres of een specifiek IP-adres op een bepaald tijdstip hebben gekregen.

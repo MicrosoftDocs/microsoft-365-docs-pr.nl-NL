@@ -1,7 +1,7 @@
 ---
-title: Uw testresultaten van het Microsoft 365 Defender-project samenvatten
-description: Sluit uw pilot met Microsoft 365 Defender af door uw scorecard te voltooien, de resultaten van uw rapport te analyseren en te bepalen hoe u verder wilt gaan.
-keywords: Microsoft Threat Protection-pilot, bepaal wat er moet gebeuren na de pilot van het Microsoft Threat Protection-project, wat er moet gebeuren na de evaluatie van Microsoft Threat Protection in productie, overstappen van Microsoft Threat Protection-pilot naar implementatie, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, apparaten, apparaat, identiteit, gebruikers, gegevens, toepassingen, incidenten, geautomatiseerd onderzoek en herstel, geavanceerd zoeken
+title: Uw testresultaten van Microsoft 365 Defender samenvatten
+description: Sluit uw testproject microsoft 365 Defender af door uw scorecard te voltooien, uw rapport te analyseren en te bepalen hoe u verder wilt gaan.
+keywords: Microsoft Threat Protection pilot, decide what to do after pilot Microsoft Threat Protection project, what to do after evaluating Microsoft Threat Protection in production, transition from Microsoft Threat Protection pilot to deployment, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c8608568301f11a20c940a5ff9f1c205ce6e48f1
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f646fe7061fb0793fd9922068c9037be21a236cb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930160"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920394"
 ---
-# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Uw Microsoft 365 Defender-testfase sluiten en samenvatten  
+# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Uw Microsoft 365 Defender-pilot sluiten en samenvatten  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,28 +40,28 @@ ms.locfileid: "49930160"
 
 |[![Planning](../../media/phase-diagrams/1-planning.png)](mtp-pilot-plan.md)<br/>[Planning](mtp-pilot-plan.md) |[![Voorbereiden](../../media/phase-diagrams/2-prepare.png)](prepare-mtpeval.md)<br/>[Voorbereiding](prepare-mtpeval.md) | [![Een aanval simuleren](../../media/phase-diagrams/3-simluate.png)](mtp-pilot-simulate.md)<br/>[Een aanval simuleren](mtp-pilot-simulate.md) | ![Sluiten en samenvatten](../../media/phase-diagrams/4-summary.png)<br/>Sluiten en samenvatten|
 |--|--|--|--|
-|| | |*U bent hier!*|
+|| | |*U bent er!*|
 
 
-U bent nu bezig met het afsluiten en samenvatten van de fase.
+U bent momenteel bezig met het sluiten en samenvatten van de fase.
 
-U hebt zojuist een geavanceerde, alleen geheugen-aanval-aanval uitgevoerd die code op afstand op een domeincontroller heeft uitgevoerd. U hebt gezien hoe Microsoft Defender for Endpoint en Microsoft Defender for Identity waarschuwingen detecteren en maken voor schadelijke activiteiten. U hebt ook gezien hoe waarschuwingen van verschillende bronnen samen met andere contextuele informatie worden bezorgd bij één incident in de portal van het Microsoft 365-beveiligingscentrum. Als deze integratie wordt ervaren, kunnen SOC-analisten onderzoek doen en de benodigde actie ondernemen. U hebt ook een geavanceerde zoekquery gemaakt die inkomende e-mailberichten identificeert waar de gebruiker de bijlage heeft geopend of opgeslagen en detectie heeft gemaakt op basis van die query.
+U hebt zojuist een geavanceerde geheugen-alleen-aanvalssimulatie uitgevoerd die code op afstand heeft uitgevoerd op een domeincontroller. U hebt gezien hoe Microsoft Defender voor Eindpunt en Microsoft Defender voor identiteit waarschuwingen detecteren en maken voor verborgen schadelijke activiteiten. U hebt ook gezien hoe waarschuwingen uit verschillende bronnen samen met andere contextuele informatie worden bezorgd in één incident in de microsoft 365-beveiligingscentrumportal. Als u dergelijke integratie ondervindt, kunnen SOC-analisten de benodigde actie onderzoeken en ondernemen. U hebt ook een geavanceerde query gemaakt om inkomende e-mailberichten te identificeren waarin de gebruiker de bijlage heeft geopend of opgeslagen en detectie heeft gemaakt op basis van die query.
 
-U hebt het einde van het proces bereikt nadat alle tests zijn afgelopen.
+U hebt het einde van het proces bereikt nadat alle tests zijn afgerond.
 
 De uiteindelijke uitvoer moet zijn:
 
 - Een voltooide scorecard
 - Een gedetailleerd rapport van de resultaten van de pilot
-- Een beslissing over hoe u verder wilt gaan
+- Een beslissing over hoe u verder kunt gaan
 
-Presenteert de rapporten van uw uiteindelijke uitvoer aan interne belanghebbenden (die u hebt geïdentificeerd tijdens de [voorbereidingsfase)](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) en contactpersonen van Microsoft. Een dergelijke inspanning zorgt ervoor dat elke feedback kan worden gebruikt om producten en documentatie te verbeteren.
+Presenteert de rapporten van uw uiteindelijke uitvoer aan interne [](./prepare-mtpeval.md) belanghebbenden (die u hebt geïdentificeerd tijdens de voorbereidingsfase) en Microsoft-contactpersonen. Een dergelijke inspanning zorgt ervoor dat feedback kan worden gebruikt om producten en documentatie te verbeteren.
 
-We hopen dat u plezier hebt gemaakt van deze gesimuleerde omgeving. Implementer wat u op grotere schaal hebt geleerd in uw organisatie om de geïntegreerde beveiligingsoplossing zo goed mogelijk te kunnen implementeren.
+We hopen dat u genoten hebt van deze simulatie. Begin met het implementeren van wat u op grotere schaal in uw organisatie hebt geleerd om het beste uit de geïntegreerde beveiligingsoplossing te halen.
 
 ## <a name="next-step"></a>Volgende stap
-Meer informatie over de pilaren van Microsoft 365 Defender via de volgende interactieve handleidingen:
-- [Uw organisatie beschermen met Microsoft Defender voor Office 365](https://aka.ms/O365ATP-Interactive-Guide)
-- [Verdachte activiteiten en potentiële aanvallen detecteren met Microsoft Defender for Identity](https://aka.ms/AATP-Interactive-Guide)
-- [Beveiligingsrisico's detecteren en waarschuwingen beheren met Microsoft Cloud-app-beveiliging](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
-- [Bedreigingen onderzoeken en herstellen met Microsoft Defender voor Eindpunt](https://aka.ms/MDATP-IR-Interactive-Guide)
+Meer informatie over de Microsoft 365 Defender-pilaren via de volgende interactieve handleidingen:
+- [Uw organisatie beveiligen met Microsoft Defender voor Office 365](https://aka.ms/O365ATP-Interactive-Guide)
+- [Verdachte activiteiten en mogelijke aanvallen detecteren met Microsoft Defender voor identiteit](https://aka.ms/AATP-Interactive-Guide)
+- [Bedreigingen detecteren en waarschuwingen beheren met Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
+- [Bedreigingen onderzoeken en corrigeren met Microsoft Defender voor Eindpunt](https://aka.ms/MDATP-IR-Interactive-Guide)

@@ -1,5 +1,5 @@
 ---
-title: Instellingen interacties tussen Microsoft 365 groepen en SharePoint
+title: Interacties tussen Microsoft 365 Groepen en SharePoint
 ms.reviewer: mmclean
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,45 +14,45 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Meer informatie over instellingen interacties tussen Microsoft 365 groepen en SharePoint
-ms.openlocfilehash: a00e863fead8e74cf0f169471ebb36f9539ed103
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+description: Meer informatie over instellingeninteracties tussen Microsoft 365 Groepen en SharePoint
+ms.openlocfilehash: e1aeaca792fb551de503bd4c68256ccf14f45022
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613488"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921034"
 ---
-# <a name="settings-interactions-between-microsoft-365-groups-and-sharepoint"></a>Instellingen interacties tussen Microsoft 365 groepen en SharePoint
+# <a name="settings-interactions-between-microsoft-365-groups-and-sharepoint"></a>Interacties tussen Microsoft 365 Groepen en SharePoint
 
-Bepaalde instellingen voor Microsoft 365-groepen en SharePoint in Microsoft 365, met name met het maken van delen en het maken van groepen en team sites, overlappen elkaar onderling. In dit artikel vindt u beschrijvingen van deze interacties en aanbevolen procedures voor het werken met deze instellingen.
+Sommige instellingen voor Microsoft 365 Groepen en SharePoint in Microsoft 365, met name met betrekking tot delen en het maken van groepen en teamsite's, overlappen elkaar. In dit artikel vindt u beschrijvingen van deze interacties en aanbevolen procedures voor het werken met deze instellingen.
 
-![Venn-diagram van functies van SharePoint, Yammer en groepen](../media/groups-sharepoint-venn.png)
+![Venn-diagram met SharePoint-, Yammer- en groepenfuncties](../media/groups-sharepoint-venn.png)
 
-## <a name="the-effects-of-sharepoint-settings-on-microsoft-365-groups"></a>De effecten van SharePoint-instellingen voor Microsoft 365-groepen
+## <a name="the-effects-of-sharepoint-settings-on-microsoft-365-groups"></a>De effecten van SharePoint-instellingen op Microsoft 365-groepen
 
-|SharePoint-instelling|Beschrijving|Effect voor Microsoft 365-groepen|Aanbeveling|
+|SharePoint-instelling|Beschrijving|Effect op Microsoft 365-groepen|Aanbeveling|
 |:-----------------|:----------|:-----------------------------|:-------------|
-|Extern delen voor organisatie en site|Hiermee bepaalt u of sites, bestanden en mappen kunnen worden gedeeld met personen buiten de organisatie.|Als de instellingen voor SharePoint en groepen niet overeenkomen, is het mogelijk dat gasten in de groep zijn geblokkeerd voor het openen van de site of omdat externe toegang beschikbaar is op de site, maar niet op de groep.|Wanneer u instellingen voordelen wijzigt, schakelt u de optie beide groepen en de instellingen van de SharePoint-site in voor team sites die met groepen zijn verbonden.<br><br>Zie [samenwerken met gasten op een site](https://docs.microsoft.com/microsoft-365/solutions/collaborate-in-site).|
-|Domein toestaan/blokkeren|Maakt of verhindert dat inhoud met opgegeven domeinen wordt gedeeld.|Groepen worden niet door SharePoint toegestaan of geblokkeerd lijsten herkend. Gebruikers van domeinen die niet zijn toegestaan in SharePoint kunnen toegang krijgen tot SharePoint via een groep.|De weergave van domein toestaan/blokkeren voor Azure AD en SharePoint samen beheren. Maak een beheerproces voor hele organisatie voor het toestaan en blokkeren van domeinen.<br><br>Zie [SharePoint-Domeininstellingen](https://docs.microsoft.com/sharepoint/restricted-domains-sharing) en [Azure AD-Domeininstellingen](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)|
-|Toestaan dat alleen gebruikers in bepaalde beveiligingsgroepen extern delen|Hiermee geeft u beveiligingsgroepen op die sites, mappen en bestanden extern kunnen delen.|Deze instelling geldt niet voor groepseigenaren die extern groepen delen. Groeps gasten hebben toegang tot de bijbehorende SharePoint-site.||
-|Instellingen voordelen van SharePoint-sites|Bepaalt wie de site direct kan delen buiten het groepslidmaatschap. Dit is de naam van de groep of site-eigenaar.|Deze instelling is niet rechtstreeks van invloed op de groep, maar het is ook mogelijk dat gebruikers worden toegevoegd aan een site en geen toegang hebben tot andere groeps resources.|U kunt deze instelling gebruiken om het delen van de site direct te beperken en de site toegang via de groep te beheren.|
-|Gebruikers sites laten maken vanaf de startpagina van SharePoint en OneDrive|Hiermee geeft u op of gebruikers nieuwe SharePoint-sites kunnen maken.|Als deze instelling is uitgeschakeld, kunnen gebruikers wel team sites met groepen maken door een groep te maken.||
+|Extern delen voor organisatie en site|Hiermee wordt bepaald of sites, bestanden en mappen kunnen worden gedeeld met personen buiten de organisatie.|Als de instellingen voor SharePoint en groepen niet overeenkomen, kunnen gasten in de groep worden geblokkeerd voor toegang tot de site of is externe toegang mogelijk beschikbaar op de site, maar niet in de groep.|Wanneer u de instellingen voor delen verandert, controleert u zowel de instellingen voor groepen als de SharePoint-site-instellingen voor teamsites die met de groep zijn verbonden.<br><br>Zie [Samenwerken met gasten op een site.](./collaborate-in-site.md)|
+|Domein toestaan/blokkeren|Hiermee kunt u voorkomen dat inhoud wordt gedeeld met opgegeven domeinen.|Groepen herkennen geen SharePoint-lijsten toestaan of blokkeren. Gebruikers van domeinen die niet zijn toegestaan in SharePoint, kunnen toegang krijgen tot SharePoint via een groep.|Beheer lijsten met domein toestaan/blokkeren voor Azure AD en SharePoint samen. Maak een organisatiebreed beheerproces voor het toestaan en blokkeren van domeinen.<br><br>Zie [SharePoint-domeininstellingen en](/sharepoint/restricted-domains-sharing) [Azure AD-domeininstellingen](/azure/active-directory/b2b/allow-deny-list)|
+|Alleen gebruikers in specifieke beveiligingsgroepen toestaan extern te delen|Hiermee geeft u beveiligingsgroepen op die sites, mappen en bestanden extern kunnen delen.|Deze instelling heeft geen invloed op groepseigenaren die groepen extern delen. Groepsgasten hebben toegang tot de bijbehorende SharePoint-site.||
+|Instellingen voor delen van SharePoint-site|Hiermee bepaalt u wie de site rechtstreeks buiten het groepslidmaatschap kan delen. Dit is geconfigureerd door de eigenaar van de groep of site.|Deze instelling is niet rechtstreeks van invloed op de groep, maar kan wel toestaan dat gebruikers worden toegevoegd aan een site en geen toegang hebben tot andere groepsbronnen|U kunt deze instelling gebruiken om het delen van de site rechtstreeks te beperken en de sitetoegang via de groep te beheren.|
+|Gebruikers sites laten maken vanaf de Startpagina van SharePoint en OneDrive|Hiermee geeft u op of gebruikers nieuwe SharePoint-sites kunnen maken.|Als deze instelling is uitgeschakeld, kunnen gebruikers nog steeds teamsites met een groep maken door een groep te maken.||
 
-## <a name="the-effects-of-microsoft-365-groups-setting-on-sharepoint"></a>De effecten van de instelling Microsoft 365 groepen in SharePoint
+## <a name="the-effects-of-microsoft-365-groups-setting-on-sharepoint"></a>De effecten van de instelling voor Microsoft 365-groepen in SharePoint
 
 |Instelling voor Microsoft 365-groepen|Beschrijving|Effect op SharePoint|Aanbeveling|
 |:---------------------------|:----------|:-------------------|:-------------|
-|Beleid voor naamgeving|Hiermee geeft u de naam van de groepsnaam en achtervoegsels en de geblokkeerde woorden voor het maken van een groep op|Beleidsregels worden afgedwongen voor gebruikers die met een groep verbonden team sites maken, maar geen Communicatiesites of sites met andere sjablonen.|Maak indien nodig aparte instructies voor de naamgeving van Communicatiesites.|
-|Gasttoegang voor groepen|Hiermee geeft u op of personen buiten de organisatie kunnen worden toegevoegd aan groepen.|Als de instellingen voor SharePoint en groepen niet overeenkomen, is het mogelijk dat gasten in de groep zijn geblokkeerd voor het openen van de site of omdat externe toegang beschikbaar is op de site, maar niet op de groep.|Wanneer u instellingen voordelen wijzigt, schakelt u de optie beide groepen en de instellingen van de SharePoint-site in voor team sites die met groepen zijn verbonden.<br><br>Zie [samenwerken met gasten op een site](https://docs.microsoft.com/microsoft-365/solutions/collaborate-in-site)|
-|Groepen maken op basis van beveiligingsgroep|Groepen kunnen alleen worden gemaakt door leden van een bepaalde beveiligingsgroep.|Gebruikers die geen lid zijn van de beveiligingsgroep, kunnen geen team site met een groep maken.|Zorg ervoor dat uw proces voor het aanvragen van een groep de instructies bevat voor het aanvragen van een site.|
-|Verloopbeleid voor groepen|Hiermee wordt een periode opgegeven waarna groepen die niet actief worden gebruikt, automatisch worden verwijderd.|Wanneer de groep is verwijderd, wordt de gekoppelde SharePoint-site ook verwijderd. Inhoud die is beveiligd met een bewaarbeleid blijft behouden.|Gebruik verloopbeleid om sprawl van ongebruikte groepen en sites te voorkomen.|
+|Beleid voor naamgeving|Hiermee geeft u groepsnaamvoorvoegsels en achtervoegsels op en geblokkeerde woorden voor het maken van groepen|Beleidsregels worden afgedwongen voor gebruikers die teamsites met een groep maken, maar niet communicatiesites of sites met andere sjablonen.|Maak indien nodig afzonderlijke naamgevingslijnen voor communicatiesites.|
+|Groepstoegang voor gasten|Hiermee geeft u aan of personen buiten de organisatie kunnen worden toegevoegd aan groepen.|Als de instellingen voor SharePoint en groepen niet overeenkomen, kunnen gasten in de groep worden geblokkeerd voor toegang tot de site of is externe toegang mogelijk beschikbaar op de site, maar niet in de groep.|Wanneer u de instellingen voor delen verandert, controleert u zowel de instellingen voor groepen als de SharePoint-site-instellingen voor teamsites die met de groep zijn verbonden.<br><br>Zie [Samenwerken met gasten op een site](./collaborate-in-site.md)|
+|Groep maken per beveiligingsgroep|Groepen kunnen alleen worden gemaakt door leden van een specifieke beveiligingsgroep.|Gebruikers die geen lid zijn van de beveiligingsgroep, kunnen geen teamsite met een groep maken.|Zorg ervoor dat uw proces voor het aanvragen van een groep instructies bevat voor het aanvragen van een site.|
+|Verloopbeleid groep|Hiermee geeft u een periode op waarna groepen die niet actief worden gebruikt, automatisch worden verwijderd.|Wanneer de groep wordt verwijderd, wordt ook de bijbehorende SharePoint-site verwijderd. Inhoud die is beveiligd met bewaarbeleid, blijft behouden.|Gebruik verloopbeleid om te voorkomen dat ongebruikte groepen en sites worden overgeslagen.|
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Uw plan voor samenwerking maken](collaboration-governance-first.md)
+[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
-[Samenwerken met personen buiten uw organisatie](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
+[Samenwerken met personen buiten uw organisatie](./collaborate-with-people-outside-your-organization.md)
 
-[Sites maken in SharePoint beheren](https://docs.microsoft.com/sharepoint/manage-site-creation)
+[Gebruikers hun eigen sites laten maken in SharePoint](/sharepoint/manage-site-creation)

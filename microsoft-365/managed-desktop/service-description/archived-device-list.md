@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bbb3814a973bec53a877bc70d0299ce7b2eb87b5
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: f3e4b434f1ca267d5bbfbc7e67cb20c7e2b9dbbb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727551"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920562"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Gearchiveerde apparaten van Microsoft Managed Desktop
 
@@ -75,7 +75,7 @@ Daarnaast moet het apparaat ook:
 
 - Een afbeelding laten goedkeuren door Microsoft Managed Desktop. Wanneer u apparaten bestelt, moet u opgeven dat ze worden gebruikt met Microsoft Managed Desktop.
 - De windows first-run-ervaring is nog niet voltooid.
-- Geregistreerd zijn bij Microsoft Managed Desktop met de [functie Apparaatregistratie](https://aka.ms/mmddrhelp)
+- Geregistreerd zijn bij Microsoft Managed Desktop met de [functie Apparaatregistratie](../get-started/register-devices-self.md)
 
 #### <a name="more-help"></a>Meer hulp
 

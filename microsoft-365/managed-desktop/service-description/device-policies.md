@@ -1,6 +1,6 @@
 ---
 title: Apparaatconfiguratie
-description: Meer informatie over de standaard beleidsregels die worden toegepast op Microsoft beheerde bureaublad apparaten.
+description: Meer informatie over het standaardbeleid dat is toegepast op Beheerde bureaubladapparaten van Microsoft.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7086774c046ac28ffa467168e3b5b1affb508ec8
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: e4f07adb051dde24d374055d206955ad61df432a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840323"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920490"
 ---
 # <a name="device-configuration"></a>Apparaatconfiguratie
 
@@ -23,35 +23,35 @@ ms.locfileid: "49840323"
 
 <!-- Device configuration and Security Addendum-->
 
-Wanneer u een nieuw Microsoft-beheerd bureaublad instelt, garanderen we dat het de juiste configuratie heeft voor Microsoft Managed Desktop. Deze configuratie bevat een set standaard beleidsregels die zijn ingesteld als onderdeel van het onboarding-proces. U kunt deze beleidsregels zo nodig afleveren met behulp van MDM (Mobile Device Management). Voor meer informatie raadpleegt u [Mobile Device Management](https://docs.microsoft.com/windows/client-management/mdm/). 
+Wanneer er een nieuw Microsoft Managed Desktop-apparaat wordt ingesteld, zorgen we ervoor dat de juiste configuratie is geoptimaliseerd voor Microsoft Managed Desktop. Deze configuratie bevat een set standaardbeleidsregels die zijn ingesteld als onderdeel van het onboardingproces. Dit beleid wordt zo mogelijk geleverd met MDM (Mobile Device Management). Zie Mobile Device Management voor [meer informatie.](/windows/client-management/mdm/) 
 
 >[!NOTE]
->Om conflicten te voorkomen, moet u deze beleidsregels niet aanpassen.
+>Als u conflicten wilt voorkomen, wijzigt u dit beleid niet.
 
-De apparaten worden geleverd met een Handtekeningafbeelding en vervolgens aan het Azure Active Directory-domein wanneer de eerste gebruiker zich aanmeldt. Het apparaat moet automatisch beleidsregels en toepassingen installeren zonder interventie van uw IT-personeel.
+Apparaten krijgen een handtekeningafbeelding en worden vervolgens lid van het Azure Active Directory-domein wanneer de eerste gebruiker zich aan meldt. Het apparaat installeert automatisch vereiste beleidsregels en toepassingen zonder tussenkomst van uw IT-personeel.
 
 ## <a name="default-policies"></a>Standaardbeleid
 
-In deze tabel vindt u een overzicht van de standaard beleidsregels die worden toegepast op alle door Microsoft beheerde bureaublad apparaten tijdens het inrichten van apparatuur. Alle gedetecteerde wijzigingen die niet door Microsoft beheerde bureaublad activiteiten zijn goedgekeurd en objecten die door Microsoft worden beheerd bureaublad worden beheerd, worden hersteld.
+In deze tabel worden de standaardbeleidsregels belicht die worden toegepast op alle beheerde bureaubladapparaten van Microsoft tijdens het inrichten van apparaten. Alle gedetecteerde wijzigingen die niet zijn goedgekeurd door het Microsoft Managed Desktop Operations Team voor objecten die worden beheerd door Microsoft Managed Desktop, worden terugverdiend.
 
 Beleid | Beschrijving
 --- | ---
-Beveiligings basislijn | [Microsoft Security Baseline](https://docs.microsoft.com/windows/device-security/windows-security-baselines) voor MDM is geconfigureerd voor alle door Microsoft beheerde bureaublad apparaten. Deze basislijn is de industriestandaard configuratie. Het is openbaar, goed getest en is gecontroleerd door Microsoft Security experts, zodat Microsoft beheerde bureaublad apparaten en apps veilig blijven in de moderne werkplek. <br><br>Om bedreigingen te beperken in de voortdurende beveiligings bedreiging liggend, wordt de Microsoft-beveiligings basis met de onderdelenupdate van Windows 10 bijgewerkt en geïmplementeerd op Microsoft beheerde bureaublad apparaten.<br><br>Zie [Windows-beveiligings lijnen](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)voor meer informatie.
-Door Microsoft beheerde bureaublad beveiligingssjabloon | Een set aanbevolen wijzigingen in de beveiligings basis die de gebruikerservaring optimaliseert.  Deze wijzigingen worden beschreven in [de beveiligings addendum](#security-addendum). Updates van de beleidsregels voor het beleid worden naar wens gelangd.  
-Implementatie bijwerken | Gebruik Windows Update voor bedrijven voor het uitvoeren van geleidelijke implementatie van software-updates. IT-beheerders kunnen de instellingen voor het implementatie Groepsbeleid niet wijzigen. Zie de [manier waarop updates worden afgehandeld in Microsoft beheerde bureaubladversie](updates.md)voor meer informatie over implementatie op basis van groepen.
-Verbindingen met datalimiet | Standaard worden updates via verbindingen met een datalimiet (zoals LTE-netwerken) uitgeschakeld, hoewel elke gebruiker deze functie onafhankelijk kan inschakelen bij **instellingen > updates > geavanceerde opties**. Als u wilt toestaan dat alle gebruikers updates kunnen inschakelen via verbindingen met een datalimiet, [dient u een wijzigingsaanvraag](../working-with-managed-desktop/admin-support.md)in te dienen, zodat deze instelling voor alle apparaten wordt ingeschakeld.
-| Apparaatcompatibiliteit | Deze beleidsregels zijn geconfigureerd voor alle beheerde bureaublad apparaten van Microsoft. Een apparaat wordt gemeld als niet-compatibel wanneer het afkomstig is van onze benodigde beveiligingsconfiguratie.
+Beveiligingslijn | [Microsoft-beveiligingslijn](/windows/device-security/windows-security-baselines) voor MDM is geconfigureerd voor alle beheerde bureaubladapparaten van Microsoft. Deze basislijn is de industriestandaardconfiguratie. De app wordt openbaar uitgebracht, goed getest en is beoordeeld door beveiligingsexperts van Microsoft om Microsoft Managed Desktop-apparaten en -apps veilig te houden op de moderne werkplek. <br><br>Als u bedreigingen wilt beperken in het voortdurend veranderende landschap van beveiligingsrisico's, wordt de Microsoft-beveiligingslijn bijgewerkt en geïmplementeerd op Microsoft Managed Desktop-apparaten met elke Windows 10-functieupdate.<br><br>Zie Windows-beveiligingslijnlijnen voor meer [informatie.](/windows/security/threat-protection/windows-security-baselines)
+Aanbevolen beveiligingssjabloon voor Microsoft Managed Desktop | Een reeks aanbevolen wijzigingen in de beveiligingslijn die de gebruikerservaring optimaliseren.  Deze wijzigingen worden gedocumenteerd in [het beveiligings-addendum.](#security-addendum) Updates voor het beleids-addendum vinden zo nodig plaats.  
+Implementatie bijwerken | Gebruik Windows Update voor Bedrijven om een geleidelijke implementatie van software-updates uit te voeren. IT-beheerders kunnen de instellingen voor het beleid van de implementatiegroep niet wijzigen. Zie Hoe updates worden verwerkt in Microsoft Managed Desktop voor meer informatie over de implementatie op [basis van groepen.](updates.md)
+Verbindingen met een meter | Updates via verbindingen met een datameter (zoals LTE-netwerken) zijn standaard uitgeschakeld, maar elke gebruiker kan deze functie onafhankelijk in schakelen in Instellingen **> Updates > Geavanceerde opties.** Als u wilt toestaan dat alle gebruikers updates [](../working-with-managed-desktop/admin-support.md)kunnen inschakelen via verbindingen met een datameter, dient u een wijzigingsaanvraag in, waarmee deze instelling voor alle apparaten wordt ingeschakeld.
+| Apparaat compliance | Dit beleid is geconfigureerd voor alle beheerde bureaubladapparaten van Microsoft. Een apparaat wordt gerapporteerd als niet-compatibel wanneer het afdrijft van de vereiste beveiligingsconfiguratie.
 
-## <a name="windows-diagnostic-data"></a>Diagnostische gegevens voor Windows
+## <a name="windows-diagnostic-data"></a>Diagnostische gegevens van Windows
 
- Apparaten worden ingesteld om uitgebreide diagnostische gegevens aan Microsoft onder een bekende commerciële identificatie te geven. Als onderdeel van Microsoft Managed Desktop kunnen IT-beheerders deze instellingen niet wijzigen. Voor klanten in de algemene verordening gegevensbescherming (AVG), kunnen gebruikers het niveau van diagnostische gegevens verlagen, maar er is een minder service voor minder informatie. De gegevens die nodig zijn voor het nalopen van de instellingen en het beleid, kunnen niet door Microsoft worden beheerd. Zie [Windows diagnostische gegevens in uw organisatie configureren](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level) voor meer informatie.
+ Apparaten worden ingesteld voor het verstrekken van uitgebreide diagnostische gegevens aan Microsoft onder een bekende commerciële id. It-beheerders kunnen deze instellingen niet wijzigen als onderdeel van Microsoft Managed Desktop. Voor klanten in GDPR-regio's (General Data Protection Regulation) kunnen gebruikers het niveau van de verstrekte diagnostische gegevens verlagen, maar de service wordt beperkt. Microsoft Managed Desktop kan bijvoorbeeld niet de gegevens verzamelen die nodig zijn om itereren op instellingen en beleidsregels om optimaal te voldoen aan de prestaties en beveiligingsbehoeften. Zie Diagnostische gegevens van Windows configureren [in uw organisatie voor meer informatie.](/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 
-## <a name="security-addendum"></a>Beveiligings addendum
+## <a name="security-addendum"></a>Beveiligings-addendum
 
- In deze sectie wordt een overzicht gegeven van de beleidsregels die worden geïmplementeerd naast het standaardbeleid voor het Microsoft-beheer dat wordt weergegeven in [standaardbeleid](#default-policies). Deze configuratie is bedoeld voor financiële services en best gereguleerde industrieën waarmee u rekening moet houden bij de beste beveiliging voor het behoud van gebruikers productiviteit.
+ In deze sectie worden de beleidsregels beschreven die worden geïmplementeerd naast het standaardbeleid voor beheerd bureaublad van Microsoft dat wordt vermeld in [standaardbeleid.](#default-policies) Deze configuratie is ontworpen met financiële services en sterk gereguleerde bedrijfstakken in gedachten, met optimalisatie voor de hoogste beveiliging en met behoud van de productiviteit van de gebruiker.
 
  ### <a name="additional-security-policies"></a>Extra beveiligingsbeleid
 
- Deze beleidsregels worden toegevoegd om de beveiliging voor zeer gereguleerde industrieën te bevorderen. 
- - **Beveiligings monitoring**: Microsoft controleert apparaten met behulp [van Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Als een bedreiging wordt gedetecteerd, waarschuwt Microsoft de klant, isoleert het apparaat en corrigeert het probleem extern. 
- - **PowerShell V2 uitschakelen**: Microsoft verwijdert PowerShell v2 in augustus 2017. Deze functie is uitgeschakeld op alle Microsoft beheerde bureaublad apparaten. Zie voor meer informatie over deze wijziging [Windows PowerShell 2,0 afschaffing](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).
+ Deze beleidsregels worden toegevoegd om de beveiliging voor sterk gereguleerde bedrijfstakken te verhogen. 
+ - **Beveiligingscontrole:** Microsoft controleert apparaten met [Microsoft Defender voor Eindpunt.](/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) Als er een bedreiging wordt gedetecteerd, zal Microsoft de klant op de hoogte stellen, het apparaat isoleren en het probleem op afstand verhelpen. 
+ - **PowerShell V2 uitschakelen:** Microsoft heeft PowerShell V2 in augustus 2017 verwijderd. Deze functie is uitgeschakeld op alle beheerde bureaubladapparaten van Microsoft. Zie [Windows PowerShell 2.0 Deprecation](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/)voor meer informatie over deze wijziging.

@@ -9,17 +9,17 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8e95eb0fd0e03dc718affa7e7cf044beb654bb56
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 07d3d50f012b2d93e9f7a75f47b0c35514b51350
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840933"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920618"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
 
-Microsoft Managed Desktop is een cloudservice die [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (inclusief [Windows 10](https://docs.microsoft.com/windows/windows-10/) Enterprise en [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) samenbrengt en deze functies toevoegt:
+Microsoft Managed Desktop is een cloudservice die [Microsoft 365 Enterprise](../../enterprise/microsoft-365-overview.md) (inclusief [Windows 10](/windows/windows-10/) Enterprise en [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) samenbrengt en deze functies toevoegt:
 
 - Implementatie van gebruikersapparaten
 - IT-servicebeheer en -activiteiten
@@ -44,7 +44,7 @@ Ons beleid en onze beveiligingsbasislijn bieden uw gebruikers deze voordelen:
 - Opstarttijden voor Microsoft Managed Desktop-apparaten nemen ongeveer een kwart van de tijd in beslag.
 - Ten minste tweemaal de batterijduur
 - Ongeveer een derde van het aantal apparaatcrashes per jaar
-- Apparaatmobiliteit via [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), waarmee gebruikers dezelfde ervaring kunnen hebben, ongeacht op welk apparaat ze zich aanmelden
+- Apparaatmobiliteit via [Enterprise State Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview), waarmee gebruikers dezelfde ervaring kunnen hebben, ongeacht op welk apparaat ze zich aanmelden
 
 Uw IT-beheerders profiteren van de volgende functies:
 
@@ -58,7 +58,7 @@ Microsoft Managed Desktop neemt de last op zich van het beheren van geregistreer
 
 - **Hardware:** in plaats van dat uw IT-afdeling apparaten (en hun stuurprogramma's) moet onderzoeken en testen, worden specifieke apparaten zorgvuldig getest door Microsoft Managed Desktop, wat resulteert in een samengestelde [lijst van apparaten](../service-description/device-list.md) die voldoen aan de prestatievereisten op bedrijfsniveau en die gegarandeerd werken met de service. U kunt apparaten zelf aanschaffen (of met een partner samenwerken), of apparaten die u al heeft opnieuw gebruiken, op voorwaarde dat ze op de goedgekeurde lijst staan. Apparaten registreren is eenvoudig en duidelijk. Voordat ze worden geïmplementeerd, kunt u ook bepaalde aspecten van de apparaatervaring [aanpassen](../working-with-managed-desktop/config-setting-overview.md) voor uw gebruikers.
 - **Updates:** Microsoft Managed Desktop stelt alle aspecten van [implementatiegroepen](../service-description/updates.md) in en beheert deze voor kwaliteits- en functie-updates van Windows 10, stuurprogramma's, firmware, antivirusdefinities en updates van Microsoft 365 Apps voor Ondernemingen. Dit omvat uitgebreide testen en verificatie van alle updates, om ervoor te zorgen dat geregistreerde apparaten altijd up-to-date zijn en om verstoringen te minimaliseren, waardoor uw IT-afdeling van die doorlopende taak wordt bevrijd.
-- **Apps:** als onderdeel van Microsoft 365 Enterprise biedt (en beheert) Microsoft verschillende belangrijke Microsoft-apps voor u. Maar er zijn waarschijnlijk ook andere apps die u nodig heeft voor uw bedrijf. In plaats van dat uw IT-afdeling die apps moet testen, verpakken en implementeren, helpt Microsoft u bij het implementeren ervan en kan indien nodig helpen met [Desktop App Assure](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure). Meer informatie vindt u op [Apps in Microsoft Managed Desktop](../get-ready/apps.md).
+- **Apps:** als onderdeel van Microsoft 365 Enterprise biedt (en beheert) Microsoft verschillende belangrijke Microsoft-apps voor u. Maar er zijn waarschijnlijk ook andere apps die u nodig heeft voor uw bedrijf. In plaats van dat uw IT-afdeling die apps moet testen, verpakken en implementeren, helpt Microsoft u bij het implementeren ervan en kan indien nodig helpen met [Desktop App Assure](/fasttrack/win-10-desktop-app-assure). Meer informatie vindt u op [Apps in Microsoft Managed Desktop](../get-ready/apps.md).
 
 
 ## <a name="device-monitoring"></a>Controle van apparaten
@@ -79,7 +79,7 @@ Als Microsoft Managed Desktop geschikt lijkt voor jouw organisatie, kan je jezel
 - [Technologieën in Microsoft Managed Desktop](technologies.md)
 - [Microsoft Managed Desktop en ITIL](../MMD-and-ITSM.md)
 - [Compliance](compliance.md)
-- [Servicebeschrijving van Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
+- [Servicebeschrijving van Microsoft Managed Desktop](../service-description/index.md)
 
 **Bereid u voor op inschrijving** Deze onderwerpen beschrijven de stappen die u in uw organisatie moet nemen om u voor te bereiden op inschrijving, inclusief het controleren of uw omgeving aan de belangrijkste vereisten voldoet, netwerken configureren, certificaten instellen en uw apps voorbereiden.
 
@@ -114,4 +114,3 @@ Als Microsoft Managed Desktop geschikt lijkt voor jouw organisatie, kan je jezel
 <!--When you enroll in Microsoft Managed Desktop, Microsoft provides you with devices that are configured to join your Azure Active Directory tenant. Windows 10, Office 365, and some apps and features associated with [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) are installed (by Microsoft) on your devices. When your employees who are using these devices need help, they contact Microsoft Managed Desktop support (provided by Microsoft) through a custom chat app.--> 
 
 <!--With Microsoft Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more).--> 
- 

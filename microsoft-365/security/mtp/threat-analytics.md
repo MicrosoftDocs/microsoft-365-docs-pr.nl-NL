@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e27659517f8c7b5cbc7936b825ac867a2888e251
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 288be30aa9592ba7feed92b9ad49955406f59f10
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727146"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918796"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>Nieuwe bedreigingen bijhouden en beantwoorden met bedreigingsanalyse 
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727146"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject uitvoeren in productie.](https://aka.ms/m365d-pilotplaybook)
+> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](./mtp-pilot.md?ocid=cx-evalpilot)
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -155,7 +155,7 @@ Bekijk in **de sectie Mitigaties** de lijst met specifieke actie-aanbevelingen d
   - Potentieel ongewenste toepassingsbeveiliging (PUA)
   - Realtime beveiliging
  
-Mitigatiegegevens in deze [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)sectie bevatten gegevens van bedreigings- en kwetsbaarheidsbeheer, die ook gedetailleerde inzoomgegevens bevatten van verschillende koppelingen in het rapport.
+Mitigatiegegevens in deze [](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)sectie bevatten gegevens van bedreigings- en kwetsbaarheidsbeheer, die ook gedetailleerde inzoomgegevens bevatten van verschillende koppelingen in het rapport.
 
 ![Afbeelding van de sectie risicobeperking van een bedreigingsanalyserapport met veilige configuratiegegevens Afbeelding van de sectie risicobeperking van een rapport met ](../../media/threat-analytics/ta_mitigations_mtp.png)
  ![ beveiligingsdetails](../../media/threat-analytics/ta_mitigations_mtp2.png)
@@ -181,4 +181,4 @@ Houd rekening met de volgende factoren bij het bekijken van de bedreigingsanalys
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Proactief bedreigingen zoeken met geavanceerde jacht](advanced-hunting-overview.md) 
 - [De sectie Analistrapport begrijpen](threat-analytics-analyst-reports.md)
-- [Beveiligingszwakheden en blootstellingen beoordelen en oplossen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [Beveiligingszwakheden en blootstellingen beoordelen en oplossen](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

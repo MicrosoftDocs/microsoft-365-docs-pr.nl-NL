@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: 997ce1375660f1a0e87d0babe647caada09e9e93
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: c87f1d0ea8a35d7685f91c1b20a709c58ec4d040
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663653"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920214"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -35,7 +35,7 @@ In dit artikel vindt u een overzicht van de verschillende instellingen die van i
 Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door Microsoft 365. De instellingen voor organisatierelaties van de Microsoft Azure Active Directory zijn rechtstreeks van invloed op het delen in Teams, Microsoft 365 Groepen, SharePoint en OneDrive.
 
 > [!NOTE]
-> Deze instellingen zijn alleen van invloed op SharePoint wanneer [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (Voorbeeld)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) is geconfigureerd. In de onderstaande tabel wordt ervan uitgegaan dat dit is geconfigureerd.
+> Deze instellingen zijn alleen van invloed op SharePoint wanneer [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (Voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) is geconfigureerd. In de onderstaande tabel wordt ervan uitgegaan dat dit is geconfigureerd.
 
 ### <a name="organizational-relationships-settings"></a>Instellingen voor organisatierelaties
 
@@ -49,7 +49,7 @@ Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door 
 |Beheerders en gebruikers in de rol van gastuitnodiger kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen beheerders gasten uitnodigen via Microsoft Azure AD en via het deelopties van Microsoft 365, zoals Teams en SharePoint. Wanneer ingesteld op **Nee** is dat niet mogelijk.|
 |Leden kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Gebruikers toestaan nieuwe gasten aan de organisatie toe te voegen** in Beveiliging & privacy van Microsoft 365.|
 |Gasten kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen gasten in de Directory andere gasten uitnodigen om samen te werken aan Microsoft Azure AD-resources en aan bestanden en mappen in SharePoint en OneDrive. Wanneer ingesteld op **Nee** is dat niet mogelijk. <br><br>Merk op dat **Externe gebruikers toestaan om gebruikersaccounts te zoeken in de adreslijst door exacte e-mail adressen te typen** in het SharePoint Online-beheercentrum moet zijn ingeschakeld voordat gasten bestanden en mappen met andere gasten kunnen delen.|
-|Eenmalige e-mailwachtwoordcode voor gasten inschakelen (voorbeeld)|Nee|Wanneer ingesteld op **Ja** kunnen gasten zonder een MSA of een werk- of schoolaccount [verifiëren met Azure AD middels een eenmalige wachtwoordcode](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode); wanneer ingesteld op **Nee** moeten gebruikers een Microsoft-account maken om te verifiëren. Deze instelling moet zijn ingesteld op **Ja** om [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) te laten werken.|
+|Eenmalige e-mailwachtwoordcode voor gasten inschakelen (voorbeeld)|Nee|Wanneer ingesteld op **Ja** kunnen gasten zonder een MSA of een werk- of schoolaccount [verifiëren met Azure AD middels een eenmalige wachtwoordcode](/azure/active-directory/b2b/one-time-passcode); wanneer ingesteld op **Nee** moeten gebruikers een Microsoft-account maken om te verifiëren. Deze instelling moet zijn ingesteld op **Ja** om [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) te laten werken.|
 |Samenwerkingsbeperkingen|Uitnodigingen verzenden naar ieder domein toestaan|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint. U kunt domeinen nauwkeuriger toestaan of blokkeren door domeinfilters in SharePoint of Teams te gebruiken.|
 
 Deze instellingen hebben invloed op de manier waarop gebruikers worden uitgenodigd voor de directory. Ze hebben geen invloed op het delen met gasten die al aanwezig zijn in de directory.
@@ -81,7 +81,7 @@ Het Microsoft 365-beheercentrum heeft instellingen op organisatieniveau voor del
 |Groepsleden buiten uw organisatie toegang geven tot groepsinhoud|Aan|Wanneer ingesteld op **Aan** hebben gasten toegang tot groepsinhoud. Wanneer ingesteld op **Uit** hebben ze geen toegang. Deze instelling moet **Aan** zijn voor elk scenario waarin gasten werken met Microsoft 365 Groepen of Teams.|
 |Groepseigenaren toestaan personen van buiten de organisatie aan groepen toe te voegen|Aan|Wanneer **Aan** kunnen eigenaren van Microsoft 365 Groepen of Teams nieuwe gasten uitnodigen voor de groep. Wanneer **Uit** kunnen eigenaren gasten alleen uitnodigen als deze zich al in de directory bevinden.|
 
-Deze instellingen bevinden zich op organisatieniveau. Zie [Instellingen voor een specifieke groep maken](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#create-settings-for-a-specific-group) voor informatie over hoe u deze instellingen op groepsniveau kunt wijzigen met Windows PowerShell.
+Deze instellingen bevinden zich op organisatieniveau. Zie [Instellingen voor een specifieke groep maken](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#create-settings-for-a-specific-group) voor informatie over hoe u deze instellingen op groepsniveau kunt wijzigen met Windows PowerShell.
 
 ## <a name="teams"></a>Teams
 
@@ -166,7 +166,7 @@ Omdat OneDrive een hiërarchie van sites binnen SharePoint is, hebben de instell
 |**Instelling**|**Standaard**|**Beschrijving**|
 |:-----|:-----|:-----|
 |Extern delen per domein beperken|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op alle SharePoint-en OneDrive-sites in de organisatie.|
-|Gasten moeten zich aanmelden met behulp van hetzelfde account waarnaar de uitnodigingen voor delen worden verzenden|Uit|Hiermee voorkomt u dat gasten uitnodigingen voor het delen van sites benutten met een ander e-mailadres dan waarnaar de uitnodiging werd verzonden.<br><br>Bij [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) wordt deze instelling niet gebruikt, omdat alle gasten worden toegevoegd aan de directory op basis van het e-mailadres waarnaar de uitnodiging werd verzonden. Alternatieve e-mailadressen kunnen niet worden gebruikt voor sitetoegang.|
+|Gasten moeten zich aanmelden met behulp van hetzelfde account waarnaar de uitnodigingen voor delen worden verzenden|Uit|Hiermee voorkomt u dat gasten uitnodigingen voor het delen van sites benutten met een ander e-mailadres dan waarnaar de uitnodiging werd verzonden.<br><br>Bij [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) wordt deze instelling niet gebruikt, omdat alle gasten worden toegevoegd aan de directory op basis van het e-mailadres waarnaar de uitnodiging werd verzonden. Alternatieve e-mailadressen kunnen niet worden gebruikt voor sitetoegang.|
 |Gasten toestaan items te delen waarvan ze niet de eigenaar zijn|Aan|Wanneer **Aan** kunnen gasten items waarvan ze niet de eigenaar zijn, delen met andere gebruikers of gasten. Wanneer **Uit** is dit niet mogelijk. Gasten kunnen altijd items delen waarover ze het volledige beheer hebben.|
 
 ### <a name="sharepoint-and-onedrive-file-and-folder-link-settings"></a>Instellingen voor koppelingen naar bestanden en mappen in SharePoint en OneDrive
@@ -209,7 +209,7 @@ Aangezien deze instellingen afhankelijk zijn van de organisatiebrede instellinge
 
 U kunt voor elke site in SharePoint machtigingen voor het delen met gasten instellen. Deze instelling geldt voor zowel het delen van sites als het delen van bestanden en mappen. (Met *Iedereen* delen is niet beschikbaar voor het delen van een site. Als u **Iedereen** kiest, kunnen gebruikers bestanden en mappen delen met *Iedereen*-koppelingen en de site zelf met nieuwe en bestaande gasten.)
 
-Als op de site een gevoeligheidslabel is toegepast, kan dat label de instellingen voor extern delen beheren. Zie [Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) voor meer informatie.
+Als op de site een gevoeligheidslabel is toegepast, kan dat label de instellingen voor extern delen beheren. Zie [Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md) voor meer informatie.
 
 **Navigatie:** SharePoint Online-beheercentrum > Actieve sites > Selecteer de site > tabblad Beleid > Extern delen bewerken
 
@@ -251,8 +251,8 @@ In de onderstaande tabel ziet u de standaardinstelling voor delen voor elk type 
 
 ## <a name="see-also"></a>Zie ook
 
-[Overzicht van extern delen in SharePoint en OneDrive](https://docs.microsoft.com/sharepoint/external-sharing-overview)
+[Overzicht van extern delen in SharePoint en OneDrive](/sharepoint/external-sharing-overview)
 
-[Gasttoegang in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/guest-access)
+[Gasttoegang in Microsoft Teams](/MicrosoftTeams/guest-access)
 
 [Gasten toevoegen aan Microsoft 365 Groepen](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)

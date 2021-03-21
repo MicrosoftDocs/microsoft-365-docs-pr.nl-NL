@@ -19,12 +19,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Leer meer over de mogelijkheden om delen in Microsoft 365 te beperken of uit te schakelen.
-ms.openlocfilehash: 388d354886805f593b1c7815f16d1e0156e12fe0
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 46cef1aac6d3387366a5e8ce9f9c1129f6c83e61
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233528"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920202"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Delen beperken in Microsoft 365
 
@@ -45,9 +45,9 @@ De methoden voor het delen van bestanden worden weergegeven in de onderstaande t
 
 U kunt ook de voorwaarden beperken waaronder anderen toegang hebben tot gedeelde inhoud. Zie [voorwaardelijke toegang](#conditional-access) verderop in dit artikel voor meer informatie.
 
-U kunt de beheerdersbesturingselementen die in dit artikel worden beschreven, gebruiken om het delen binnen uw organisatie te beperken. U wordt ten zeerste aangeraden de beveiligings- en compliance-functies in Microsoft 365 te gebruiken om een veilige deelomgeving te creëren. Zie [Samenwerken aan bestanden in SharePoint met Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration) en [Configureer een team met beveiligingsisolatie](secure-teams-security-isolation.md) voor meer informatie.
+U kunt de beheerdersbesturingselementen die in dit artikel worden beschreven, gebruiken om het delen binnen uw organisatie te beperken. U wordt ten zeerste aangeraden de beveiligings- en compliance-functies in Microsoft 365 te gebruiken om een veilige deelomgeving te creëren. Zie [Samenwerken aan bestanden in SharePoint met Microsoft 365](/sharepoint/deploy-file-collaboration) en [Configureer een team met beveiligingsisolatie](secure-teams-security-isolation.md) voor meer informatie.
 
-Als u wilt weten hoe delen wordt gebruikt binnen uw organisatie, [laat u een rapport opstellen over het delen van bestanden en mappen](https://docs.microsoft.com/sharepoint/sharing-reports).
+Als u wilt weten hoe delen wordt gebruikt binnen uw organisatie, [laat u een rapport opstellen over het delen van bestanden en mappen](/sharepoint/sharing-reports).
 
 ## <a name="microsoft-365-group-or-team"></a>Microsoft 365-groep of -team
 
@@ -73,9 +73,9 @@ Het delen met gasten uitschakelen in Microsoft 365-groepen
     ![Schermopname van gastinstellingen van Microsoft 365-groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings-off.png)
 
 > [!NOTE]
-> Als u het delen met gasten voor een bepaalde groep of een bepaald team wilt voorkomen, kunt u dit doen met behulp van [Microsoft PowerShell](per-group-guest-access.md) or [gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+> Als u het delen met gasten voor een bepaalde groep of een bepaald team wilt voorkomen, kunt u dit doen met behulp van [Microsoft PowerShell](per-group-guest-access.md) or [gevoeligheidslabels](../compliance/sensitivity-labels-teams-groups-sites.md).
 
-U kunt het delen met gasten beperken voor gebruikers van specifieke domeinen door domeinen toe te staan of te blokkeren in Azure Active Directory. Dit is ook van invloed op het delen met gasten in SharePoint, als u [SharePoint-en OneDrive-integratie met Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)hebt ingeschakeld.
+U kunt het delen met gasten beperken voor gebruikers van specifieke domeinen door domeinen toe te staan of te blokkeren in Azure Active Directory. Dit is ook van invloed op het delen met gasten in SharePoint, als u [SharePoint-en OneDrive-integratie met Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration-preview)hebt ingeschakeld.
 
 Uitnodigingen voor delen alleen bij specifieke domeinen toestaan
 1. Klik in Azure Active Directory op de Overzichtspagina op **Organisatierelaties**.
@@ -118,11 +118,11 @@ Het delen van een site beperken
 
 ### <a name="block-access-to-a-site"></a>Toegang tot een site blokkeren
 
-U kunt de toegang tot een site blokkeren of een site het kenmerk alleen-lezen geven door de vergrendelingsstatus van de site te wijzigen. Zie voor meer informatie [Sites vergrendelen en ontgrendelen](https://docs.microsoft.com/sharepoint/manage-lock-status).
+U kunt de toegang tot een site blokkeren of een site het kenmerk alleen-lezen geven door de vergrendelingsstatus van de site te wijzigen. Zie voor meer informatie [Sites vergrendelen en ontgrendelen](/sharepoint/manage-lock-status).
 
 ### <a name="permissions-inheritance"></a>Overname van machtigingen
 
-Hoewel niet aanbevolen kunt u de [Overname van machtigingen in SharePoint](https://docs.microsoft.com/sharepoint/what-is-permissions-inheritance) gebruiken voor het aanpassen van toegangsniveaus tot sites en subsites.
+Hoewel niet aanbevolen kunt u de [Overname van machtigingen in SharePoint](/sharepoint/what-is-permissions-inheritance) gebruiken voor het aanpassen van toegangsniveaus tot sites en subsites.
 
 ## <a name="sharing-with-specific-people"></a>Delen met specifieke personen
 
@@ -193,15 +193,15 @@ Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingL
 
 Standaard kunnen gebruikers nieuwe sites, groepen en teams maken waaruit inhoud kan worden gedeeld (afhankelijk van de instellingen voor delen). U kunt beperken wie sites, groepen en teams kan maken. Zie de volgende referenties:
 
-- [Gebruikers hun eigen sites laten maken in SharePoint](https://docs.microsoft.com/sharepoint/manage-site-creation)
-- [Beheren wie Microsoft 365-groepen kunnen maken](https://docs.microsoft.com/microsoft-365/solutions/manage-creation-of-groups)
+- [Gebruikers hun eigen sites laten maken in SharePoint](/sharepoint/manage-site-creation)
+- [Beheren wie Microsoft 365-groepen kunnen maken](./manage-creation-of-groups.md)
 
 > [!NOTE]
 > Het beperken van het maken van een groep beperkt het maken van een team.
 
 ## <a name="email"></a>E-mail
 
-U kunt ongewenste e-mailberichten voorkomen door versleuteling te gebruiken. Dit voorkomt dat e-mails worden doorgestuurd of op een andere manier worden gedeeld met niet-geautoriseerde gebruikers. U kunt e-mailversleuteling inschakelen met behulp van gevoeligheidslabels. Zie [Toegang tot inhoud beperken door versleuteling te gebruiken met gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) voor meer informatie.
+U kunt ongewenste e-mailberichten voorkomen door versleuteling te gebruiken. Dit voorkomt dat e-mails worden doorgestuurd of op een andere manier worden gedeeld met niet-geautoriseerde gebruikers. U kunt e-mailversleuteling inschakelen met behulp van gevoeligheidslabels. Zie [Toegang tot inhoud beperken door versleuteling te gebruiken met gevoeligheidslabels](../compliance/encryption-sensitivity-labels.md) voor meer informatie.
 
 ## <a name="download-or-file-copy"></a>Bestanden downloaden of kopiëren
 
@@ -209,12 +209,12 @@ Gebruikers die toegang hebben tot bestanden en mappen in Microsoft 365, kunnen b
 
 ## <a name="conditional-access"></a>Voorwaardelijke toegang
 
-Voorwaardelijke toegang in Azure Active Directory biedt opties om delen met personen te beperken of te voorkomen op basis van de netwerklocatie, de status van het apparaat, het risico voor aanmelding en andere factoren. Zie [Wat is voorwaardelijke toegang?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
+Voorwaardelijke toegang in Azure Active Directory biedt opties om delen met personen te beperken of te voorkomen op basis van de netwerklocatie, de status van het apparaat, het risico voor aanmelding en andere factoren. Zie [Wat is voorwaardelijke toegang?](/azure/active-directory/conditional-access/overview)
 
 SharePoint biedt rechtstreekse integratie met voorwaardelijke toegang tot Azure Active Directory voor zowel niet-beheerde apparaten als netwerklocaties. Zie de volgende referenties voor details:
 
-- [Toegang beheren vanaf niet-beheerde apparaten](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
-- [Toegang tot SharePoint en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
+- [Toegang beheren vanaf niet-beheerde apparaten](/sharepoint/control-access-from-unmanaged-devices)
+- [Toegang tot SharePoint en OneDrive-gegevens regelen op basis van netwerklocatie](/sharepoint/control-access-based-on-network-location)
 
 ## <a name="see-also"></a>Zie ook
 

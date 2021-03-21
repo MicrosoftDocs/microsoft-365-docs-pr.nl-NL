@@ -1,5 +1,5 @@
 ---
-title: Federatieve authenticatie van hoge beschikbaarheid implementeren voor Microsoft 365 in azure
+title: Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,47 +18,47 @@ f1.keywords:
 ms.custom:
 - Ent_Solutions
 ms.assetid: 34b1ab9c-814c-434d-8fd0-e5a82cd9bff6
-description: 'Overzicht: Configureer federatieve authenticatie van hoge beschikbaarheid voor uw Microsoft 365-abonnement in Microsoft Azure.'
-ms.openlocfilehash: abe01445b8963dcdc5693b45a680e273f5084446
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 'Overzicht: Configureer federatief hoge beschikbaarheidsverificatie voor uw Microsoft 365-abonnement in Microsoft Azure.'
+ms.openlocfilehash: 3989ebb06b4ac5dfa1cded5e07c086c4778f94e7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689315"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919150"
 ---
-# <a name="deploy-high-availability-federated-authentication-for-microsoft-365-in-azure"></a>Federatieve authenticatie van hoge beschikbaarheid implementeren voor Microsoft 365 in azure
+# <a name="deploy-high-availability-federated-authentication-for-microsoft-365-in-azure"></a>Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure
 
-Dit artikel bevat koppelingen naar de stapsgewijze instructies voor de implementatie van federatieve authenticatie van hoge beschikbaarheid voor Microsoft Microsoft 365 in azure-infrastructuurservices met deze virtuele machines:
+Dit artikel bevat koppelingen naar de stapsgewijs instructies voor het implementeren van federatieverificatie met hoge beschikbaarheid voor Microsoft Microsoft 365 in Azure-infrastructuurservices met deze virtuele machines:
   
-- Twee toepassingen voor webtoepassingsproxy
+- Twee proxyservers voor webtoepassing
     
-- Twee servers met Active Directory Federation Services (AD FS)
+- Twee Ad FS-servers (Active Directory Federation Services)
     
-- Twee replica domeincontrollers
+- Twee replicadomeincontrollers
     
-- Eén adreslijstsynchronisatie server met Azure AD Connect
+- Eén adreslijstsynchronisatieserver met Azure AD Connect
     
-De configuratie bevat de naam van een tijdelijke aanduiding voor elke server.
+Hier is de configuratie, met namen van tijdelijke aanduidingen voor elke server.
   
-**Een federatieve authenticatie van hoge beschikbaarheid voor Microsoft 365-infrastructuur in azure**
+**Een federatief hoge beschikbaarheid voor Microsoft 365-infrastructuur in Azure**
 
-![De laatste configuratie van de High Availability Microsoft 365 federatieve verificatie-infrastructuur in azure](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
+![De uiteindelijke configuratie van de microsoft 365 federatie-infrastructuur voor federatieverificatie met hoge beschikbaarheid in Azure](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
   
-Alle virtuele machines bevinden zich in één cross-premises Azure Virtual Network (VNet). 
+Alle virtuele machines maken deel uit van één lokaal virtueel Azure-netwerk (VNet). 
   
 > [!NOTE]
-> Federatieve verificatie van afzonderlijke gebruikers is niet afhankelijk van lokale on-premises resources. Als de cross-premises verbinding echter niet meer beschikbaar is, ontvangen de domeincontrollers in de VNet geen updates voor gebruikersaccounts en groepen die zijn opgenomen in de on-premises Active Directory Domain Services (AD DS). U kunt ervoor zorgen dat dit niet gebeurt door de hoge beschikbaarheid van uw cross-premises verbinding te configureren. Zie [uiterst beschikbare cross-premises en vnet-to-VNet-verbinding](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable) voor meer informatie.
+> Federatief verificatie van afzonderlijke gebruikers is niet afhankelijk van on-premises bronnen. Als de cross-premises verbinding echter niet beschikbaar wordt, ontvangen de domeincontrollers in het VNet geen updates voor gebruikersaccounts en groepen die zijn gemaakt in de on-premises Active Directory Domain Services (AD DS). Om ervoor te zorgen dat dit niet gebeurt, kunt u een hoge beschikbaarheid configureren voor uw cross-premises verbinding. Zie Zeer beschikbare [cross-premises en VNet-to-VNet-connectiviteit](/azure/vpn-gateway/vpn-gateway-highlyavailable) voor meer informatie.
   
-Elke reeks virtuele machines voor een bepaalde rol bevindt zich in zijn eigen subnet en de beschikbaarheid.
+Elk paar virtuele machines voor een specifieke rol heeft een eigen subnet en beschikbaarheidsset.
   
 > [!NOTE]
-> Aangezien dit VNet is verbonden met het on-premises netwerk, bevat deze configuratie geen JumpBox of virtuele machines op een management subnet. Zie [Windows Vm's uitvoeren voor een architectuur met een N-tier](https://docs.microsoft.com/azure/guidance/guidance-compute-n-tier-vm)voor meer informatie. 
+> Omdat dit VNet is verbonden met het on-premises netwerk, bevat deze configuratie geen jumpbox of het bewaken van virtuele machines op een beheerssubnet. Zie Windows [VM's uitvoeren voor een N-tier-architectuur](/azure/guidance/guidance-compute-n-tier-vm)voor meer informatie. 
   
-Het resultaat van deze configuratie is dat u Federatie authenticatie onderneemt voor alle Microsoft 365-gebruikers, waarbij ze hun AD DS-referenties kunnen gebruiken om zich aan te melden in plaats van hun Microsoft 365-account. De federatieve verificatie-infrastructuur gebruikt een redundante set servers die eenvoudiger in azure-infrastructuurservices kunnen worden geïmplementeerd, in plaats van in het on-premises Edge-netwerk.
+Het resultaat van deze configuratie is dat u federatief verificatie hebt voor al uw Microsoft 365-gebruikers, waarin ze hun AD DS-referenties kunnen gebruiken om zich aan te melden in plaats van hun Microsoft 365-account. De federatief verificatie-infrastructuur maakt gebruik van een redundante set servers die gemakkelijker kunnen worden geïmplementeerd in Azure-infrastructuurservices, in plaats van in uw on-premises edge-netwerk.
   
-## <a name="bill-of-materials"></a>Stuklijsten
+## <a name="bill-of-materials"></a>Factuur van materialen
 
-Voor deze basislijn configuratie is de volgende set Azure-Services en-onderdelen vereist:
+Voor deze basislijnconfiguratie is de volgende set Azure-services en -onderdelen vereist:
   
 - Zeven virtuele machines
     
@@ -66,47 +66,46 @@ Voor deze basislijn configuratie is de volgende set Azure-Services en-onderdelen
     
 - Vier resourcegroepen
     
-- Drie beschikbare sets
+- Drie beschikbaarheidssets
     
 - Eén Azure-abonnement
     
-Dit zijn de virtuele machines en de standaardformaten voor deze configuratie.
+Hier zijn de virtuele machines en de standaardgrootten voor deze configuratie.
   
-|**Item**|**Beschrijving van virtuele machine**|**Afbeelding van Azure-galerie**|**Standaardgrootte**|
+|**Item**|**Beschrijving van virtuele machine**|**Afbeelding van azuregalerie**|**Standaardgrootte**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |Eerste domeincontroller  <br/> |Windows Server 2016 datacenter  <br/> |Hetzelfde  <br/> |
-|2.  <br/> |Tweede domeincontroller  <br/> |Windows Server 2016 datacenter  <br/> |Hetzelfde  <br/> |
-|3.  <br/> |Azure AD Connect-server  <br/> |Windows Server 2016 datacenter  <br/> |Hetzelfde  <br/> |
-|4.  <br/> |Eerste AD FS-server  <br/> |Windows Server 2016 datacenter  <br/> |Hetzelfde  <br/> |
-|5.  <br/> |Tweede AD FS-server  <br/> |Windows Server 2016 datacenter  <br/> |Hetzelfde  <br/> |
-|zes.  <br/> |Eerste proxyserver voor webtoepassingen  <br/> |Windows Server 2016 datacenter  <br/> |Hetzelfde  <br/> |
-|7,5.  <br/> |Tweede toepassing voor webtoepassingsproxy  <br/> |Windows Server 2016 datacenter  <br/> |Hetzelfde  <br/> |
+|1.  <br/> |Eerste domeincontroller  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
+|2.  <br/> |Tweede domeincontroller  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
+|3.  <br/> |Azure AD Connect-server  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
+|4.  <br/> |Eerste AD FS-server  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
+|5.  <br/> |Tweede AD FS-server  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
+|6.  <br/> |Eerste proxyserver voor webtoepassing  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
+|7.  <br/> |Tweede proxyserver voor webtoepassing  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
    
-Als u de geraamde kosten voor deze configuratie wilt berekenen, raadpleegt u de [Azure tarief berekening](https://azure.microsoft.com/pricing/calculator/)
+Als u de geschatte kosten voor deze configuratie wilt berekenen, bekijkt u de [Azure-prijsberekening](https://azure.microsoft.com/pricing/calculator/)
   
 ## <a name="phases-of-deployment"></a>Implementatiefasen
 
-U voert de volgende stappen uit om deze werkbelasting te implementeren:
+U implementeert deze werkbelasting in de volgende fasen:
   
-- [Fase 1: Azure configureren](high-availability-federated-authentication-phase-1-configure-azure.md). Maak bronnengroepen, opslagaccounts, beschikbaarheidssets en een virtueel netwerk voor cross-premises.
+- [Fase 1: Azure configureren.](high-availability-federated-authentication-phase-1-configure-azure.md) Maak resourcegroepen, opslagaccounts, beschikbaarheidssets en een cross-premises virtueel netwerk.
     
-- [Fase 2: configureer domeincontrollers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md). Maak en configureer domeincontrollers voor de AD DS van de replica en de adreslijstsynchronisatie server.
+- [Fase 2: Domeincontrollers configureren.](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) Maak en configureer replica AD DS-domeincontrollers en de adreslijstsynchronisatieserver.
     
-- [Fase 3: AD FS-servers configureren](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md). De twee AD FS-servers maken en configureren.
+- [Fase 3: AD FS-servers configureren.](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) Maak en configureer de twee AD FS-servers.
     
-- [Fase 4: proxy's voor webtoepassingen configureren](high-availability-federated-authentication-phase-4-configure-web-application-pro.md). Maak en configureer de twee webtoepassings proxyservers.
+- [Fase 4: Webtoepassingsproxies configureren.](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) De twee proxyservers voor webtoepassing maken en configureren.
     
-- [Fase 5: federatieve verificatie voor Microsoft 365 configureren](high-availability-federated-authentication-phase-5-configure-federated-authentic.md). Configureer federatieve verificatie voor uw Microsoft 365-abonnement.
+- [Fase 5: Federatief verificatie configureren voor Microsoft 365](high-availability-federated-authentication-phase-5-configure-federated-authentic.md). Federatief verificatie configureren voor uw Microsoft 365-abonnement.
     
-In deze artikelen vindt u een uitgebreide, fase-phase handleiding voor een vooraf gedefinieerde architectuur voor het maken van een functionele, federatieve authenticatie van hoge beschikbaarheid voor Microsoft 365 in azure-infrastructuurservices. Houd het volgende in gedachten:
+Deze artikelen bevatten een prescriptieve, fase-voor-fase-handleiding voor een vooraf gedefinieerde architectuur om een functionele federatieve verificatie met hoge beschikbaarheid te maken voor Microsoft 365 in Azure-infrastructuurservices. Houd het volgende in gedachten:
   
-- Als u een ervaring hebt met de implementatie van AD FS, kunt u de instructies in de fasen 3 en 4 aanpassen en de sets servers maken die het beste aansluit bij uw behoeften.
+- Als u een ervaren AD FS-implementer bent, kunt u de instructies in fasen 3 en 4 aanpassen en de set servers maken die het beste bij uw behoeften passen.
     
-- Als u al een Azure Hybrid Cloud-implementatie met een bestaand cross-premises virtueel netwerk hebt, kunt u de instructies in de fase 1 en 2 overslaan en overslaan en de proxyservers voor de AD FS-en webtoepassingsproxy-toepassing op de juiste subnetten plaatsen.
+- Als u al een bestaande hybride Azure-cloudimplementatie met een bestaand cross-premises virtueel netwerk hebt, kunt u de instructies in fasen 1 en 2 aanpassen of overslaan en de proxyservers voor AD FS en webtoepassing op de juiste subnetten plaatsen.
     
-Zie [federatieve identiteit voor uw Microsoft 365 dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)als u een ontwikkelaar/testomgeving of een controle van het concept van deze configuratie wilt maken.
+Zie Federatief identiteit voor uw [Microsoft 365-dev-/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)voor het bouwen van een dev/testomgeving of een proof-of-concept van deze configuratie.
   
 ## <a name="next-step"></a>Volgende stap
 
-Start de configuratie van deze werkbelasting met [fase 1: Azure configureren](high-availability-federated-authentication-phase-1-configure-azure.md). 
-  
+Start de configuratie van deze werkbelasting met [Fase 1: Azure configureren.](high-availability-federated-authentication-phase-1-configure-azure.md) 

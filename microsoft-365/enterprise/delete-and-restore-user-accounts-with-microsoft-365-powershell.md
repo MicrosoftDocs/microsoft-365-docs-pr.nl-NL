@@ -20,41 +20,41 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
 description: Meer informatie over het gebruik van verschillende modules in PowerShell om Microsoft 365-gebruikersaccounts te verwijderen.
-ms.openlocfilehash: 39bf57fe7e7aad1bdc9915e503107ad799515030
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 32081d1ce0cbc7aac89b337cf8b5d08bc8e43dfa
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754538"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919138"
 ---
 # <a name="delete-microsoft-365-user-accounts-with-powershell"></a>Microsoft 365-gebruikersaccounts verwijderen met PowerShell
 
-Met PowerShell voor Microsoft 365 kunt u gebruikersaccounts verwijderen en herstellen.
+U kunt PowerShell voor Microsoft 365 gebruiken om gebruikersaccounts te verwijderen en te herstellen.
 
 >[!Note]
->Informatie over het [herstellen van een gebruikersaccount](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user) met behulp van het microsoft 365-Beheercentrum.
+>Meer informatie over het [herstellen van een gebruikersaccount](../admin/add-users/restore-user.md) via het Microsoft 365-beheercentrum.
 >
->Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.
+>Zie Gebruikers en groepen beheren voor een lijst met [aanvullende bronnen.](../admin/add-users/index.yml)
 >   
    
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
 
-Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-Nadat u verbinding hebt gemaakt, gebruikt u de volgende syntaxis om een afzonderlijke gebruikersaccount te verwijderen:
+Nadat u verbinding hebt gemaakt, gebruikt u de volgende syntaxis om een afzonderlijk gebruikersaccount te verwijderen:
   
 ```powershell
 Remove-AzureADUser -ObjectID <sign-in name>
 ```
 
-In dit voorbeeld wordt de gebruikersaccount *fabricec \@ litwareinc.com*.
+In dit voorbeeld wordt de fabricec van het *\@ gebruikersaccount litwareinc.com.*
   
 ```powershell
 Remove-AzureADUser -ObjectID fabricec@litwareinc.com
 ```
 
 > [!NOTE]
-> Met de parameter *-ObjectID* in de **Remove-AzureADUser** wordt de aanmeldingsnaam van de account geaccepteerd, ook wel bekend als de User Principal name of de object-id van de account.
+> De *parameter -ObjectID* in de cmdlet **Remove-AzureADUser** accepteert de aanmeldingsnaam van het account, ook wel de gebruikersnaam of de object-id van het account genoemd.
   
 Gebruik de volgende opdrachten om de accountnaam weer te geven op basis van de naam van de gebruiker:
   
@@ -63,7 +63,7 @@ $userName="<User name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-In dit voorbeeld wordt de accountnaam weergegeven voor de gebruiker *Caleb Sills*.
+In dit voorbeeld wordt de accountnaam voor de gebruiker *Caleb Sills weergegeven.*
   
 ```powershell
 $userName="Caleb Sills"
@@ -79,9 +79,9 @@ Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userN
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
 
-Wanneer u een gebruikersaccount verwijdert via Microsoft Azure Active Directory-module voor Windows PowerShell, wordt het account niet permanent verwijderd. U kunt de verwijderde gebruikersaccount binnen 30 dagen herstellen.
+Wanneer u een gebruikersaccount verwijdert via de Microsoft Azure Active Directory-module voor Windows PowerShell, wordt het account niet definitief verwijderd. U kunt het verwijderde gebruikersaccount binnen 30 dagen herstellen.
 
-Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 Als u een gebruikersaccount wilt verwijderen, gebruikt u de volgende syntaxis:
   
@@ -90,35 +90,35 @@ Remove-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 >[!Note]
->PowerShell core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met *MSOL* in de naam. Voer de volgende cmdlets uit vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell en cmdlets met *Msol* in hun naam. Voer deze cmdlets uit vanuit Windows PowerShell.
 >
 
-In dit voorbeeld wordt de *BelindaN@litwareinc.com*van het gebruikersaccount verwijderd.
+In dit voorbeeld wordt het gebruikersaccount *BelindaN@litwareinc.com.*
   
 ```powershell
 Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
 ```
 
-Wanneer u een verwijderd gebruikersaccount binnen de termijn van 30 dagen wilt herstellen, gebruikt u de volgende syntaxis:
+Als u een verwijderd gebruikersaccount binnen de respijtperiode van 30 dagen wilt herstellen, gebruikt u de volgende syntaxis:
   
 ```powershell
 Restore-MsolUser -UserPrincipalName <sign-in name>
 ```
 
-In dit voorbeeld worden de verwijderde account *BelindaN \@ litwareinc.com*hersteld.
+In dit voorbeeld wordt het verwijderde account *BelindaN \@ litwareinc.com.*
   
 ```powershell
 Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 ```
 
 >[!Note]
-> Voer de volgende opdracht uit om de lijst weer te geven met verwijderde gebruikers die u kunt herstellen:
+> Voer de volgende opdracht uit om de lijst met verwijderde gebruikers weer te geven die kunnen worden hersteld:
 >    
 > ```powershell
 > Get-MsolUser -All -ReturnDeletedUsers
 > ```
 >
-> Als de oorspronkelijke User Principal name van de gebruikersaccount wordt gebruikt door een ander account, gebruikt u de _NewUserPrincipalName_ -parameter in plaats van _userPrincipalName_ om een andere Principal-naam van de gebruiker op te geven wanneer u het gebruikersaccount terugzet.
+> Als de oorspronkelijke gebruikersnaam van het gebruikersaccount door een ander account wordt gebruikt, gebruikt u de parameter _NewUserPrincipalName_ in plaats van _UserPrincipalName_ om een andere gebruikersnaam op te geven wanneer u het gebruikersaccount herstelt.
 
 
 ## <a name="see-also"></a>Zie ook

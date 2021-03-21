@@ -15,63 +15,63 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over samenwerkingsscenario's voor communicatiebeheer.
-ms.openlocfilehash: 4b60f0be3cde23330880d652bc62110cf4e55175
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 5386b127ead11f27dad94207383b7a5afddfde6f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613676"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920902"
 ---
 # <a name="communications-governance-for-collaboration-scenarios"></a>Communicatiebeheer voor samenwerkingsscenario's
 
-Microsoft 365 biedt een aantal besturingselementen waarmee u de communicatie in uw organisatie kunt beheren, inclusief instellingen voor berichten en vergaderingen. Bekijk deze opties en kijk hoe ze zijn toegewezen aan uw bedrijfsbehoeften, de gevoeligheid van uw gegevens en het bereik van personen waarmee uw gebruikers kunnen samenwerken.
+Microsoft 365 biedt een aantal besturingselementen om de communicatie in uw organisatie te regelen, inclusief instellingen voor berichten en vergaderingen. Bekijk deze opties en bedenk hoe deze worden toe te schrijven aan uw zakelijke behoeften, de gevoeligheid van uw gegevens en het bereik van personen met wie uw gebruikers moeten samenwerken.
 
-De volgende tabel bevat een beknopt overzicht van de communicatie besturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
+De volgende tabel bevat een beknopt overzicht van de communicatiebesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
 |Categorie|Beschrijving|Verwijzing|
 |:-------|:----------|:--------|
 |Berichten|||
-||Beheer wat gebruikers kunnen doen wanneer berichten verzenden in teams.|[Berichten beleid beheren in teams](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)|
-||Bepalen wie berichten kan starten en beantwoorden in een kanaal.|[Kanaal toezicht instellen en beheren in Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-channel-moderation-in-teams)|
-|Rekken|||
-||Beheer wat deelnemers aan de vergadering kunnen doen.|[Vergaderingsbeleid beheren in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)|
-||Voorkomen dat anonieme gebruikers deelnemen aan vergaderingen.|[Anonieme gebruikers toestaan deel te nemen aan vergaderingen](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)|
+||Beheren wat gebruikers kunnen doen tijdens berichten in Teams.|[Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams)|
+||Bepalen wie berichten in een kanaal kan starten en beantwoorden.|[Kanaalbeheer instellen en beheren in Microsoft Teams](/microsoftteams/manage-channel-moderation-in-teams)|
+|Vergaderingen|||
+||Beheren wat deelnemers aan de vergadering kunnen doen.|[Vergaderingsbeleid beheren in Teams](/microsoftteams/meeting-policies-in-teams)|
+||Anonieme gebruikers toestaan of voorkomen die deelnemen aan vergaderingen.|[Anonieme gebruikers toestaan deel te nemen aan vergaderingen](/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)|
 |Communicatiecompliance|||
-||Oppervlak en reageren op een opvallende en nalatige communicatie|[Communicatie naleving in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)|
+||Surface en reageren op onzorgvuldige en nalatige communicatie|[Naleving van communicatie in Microsoft 365](../compliance/communication-compliance.md)|
 
 ## <a name="messaging"></a>Berichten
 
-U kunt bepalen welke functies voor chatten en kanaalberichten, bijvoorbeeld berichten bewerken of verwijderen, beschikbaar zijn voor gebruikers in Microsoft teams met behulp van berichten beleid. U kunt verschillende beleidsregels maken voor verschillende gebruikers en groepen.
+U kunt bepalen welke chat- en kanaalberichtenfuncties, zoals het bewerken of verwijderen van berichten, beschikbaar zijn voor gebruikers in Microsoft Teams met behulp van berichtenbeleid. U kunt verschillende beleidsregels maken voor verschillende gebruikers en groepen.
 
-[Berichten beleid beheren in teams](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)
+[Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams)
 
-U kunt instellen wie nieuwe berichten mag starten en beantwoorden in een team kanaal door kanaal toezicht te configureren.
+U kunt bepalen wie nieuwe berichten kan starten en berichten in een Teams-kanaal kan beantwoorden door kanaalbeheer te configureren.
 
-[Kanaal toezicht instellen en beheren in Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-channel-moderation-in-teams)
+[Kanaalbeheer instellen en beheren in Microsoft Teams](/microsoftteams/manage-channel-moderation-in-teams)
 
-## <a name="meetings"></a>Rekken
+## <a name="meetings"></a>Vergaderingen
 
-U kunt bepalen welke functies beschikbaar zijn voordeel nemers aan de vergadering, zoals planning, delen van inhoud, deelnemers en audio-en video-instellingen.
+U kunt de functies bepalen die beschikbaar zijn voor deelnemers aan Teams-vergaderingen, zoals planning, delen van inhoud, deelnemers en audio- en videobeleid.
 
-[Vergaderingsbeleid beheren in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
+[Vergaderingsbeleid beheren in Teams](/microsoftteams/meeting-policies-in-teams)
 
-U kunt anoniem deelnemen aan vergaderingen in teams zodat iedereen met een koppeling naar de vergadering kan deelnemen.
+U kunt anonieme deelnemen aan Teams-vergaderingen bepalen, zodat iedereen met een koppeling naar de vergadering kan deelnemen.
 
-[Anonieme gebruikers toestaan deel te nemen aan vergaderingen](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
+[Anonieme gebruikers toestaan deel te nemen aan vergaderingen](/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
 
 
 ## <a name="communication-compliance"></a>Communicatiecompliance
 
-Met communicatie naleving in Microsoft 365 kunt u de communicatie voor aanstootgevende taal, gevoelige informatie en informatie over interne en reglementaire standaarden onderzoeken. Chat berichten, postvakken en Yammer-berichten kunnen allemaal worden gecontroleerd en waarschuwingen worden gegenereerd. Met beheerprogramma's kunt u berichten snel identificeren en actie ondernemen met beleids overeenkomsten.
+Met communicatie compliance in Microsoft 365 kunt u de communicatie onderzoeken op aanstootgevende taal, gevoelige informatie en informatie met betrekking tot interne en regelgevende standaarden. Chatcommunicatie, postvakken en Yammer-berichten kunnen allemaal worden gecontroleerd, waardoor waarschuwingen worden gegenereerd. Met beheerhulpmiddelen kunt u snel berichten identificeren en actie ondernemen met beleidswedstrijden.
 
-[Communicatie naleving in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
+[Naleving van communicatie in Microsoft 365](../compliance/communication-compliance.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Uw plan voor samenwerking maken](collaboration-governance-first.md)
+[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
-[Instellingen voor Microsoft teams beheren voor uw organisatie](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
+[Microsoft Teams-instellingen voor uw organisatie beheren](/microsoftteams/enable-features-office-365)
 
-[Naleving van Yammer-gegevens beheren](https://docs.microsoft.com/yammer/manage-security-and-compliance/manage-data-compliance)
+[Yammer-gegevens compliance beheren](/yammer/manage-security-and-compliance/manage-data-compliance)
