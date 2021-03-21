@@ -604,11 +604,11 @@
               href: search-for-ediscovery-activities-in-the-audit-log.md
     - name: Advanced eDiscovery
       items:
-        - name: Overzicht van Advanced eDiscovery
+        - name: Overzicht
           href: overview-ediscovery-20.md
         - name: Advanced eDiscovery instellen
           href: get-started-with-advanced-ediscovery.md
-        - name: Een Advanced eDiscovery-case aanmaken
+        - name: Een case maken en beheren
           href: create-and-manage-advanced-ediscoveryv2-case.md
         - name: Beheerders en niet-beheerde gegevensbronnen beheren
           href: managing-custodians.md
@@ -720,8 +720,6 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: Advanced eDiscovery-verwijzing
           items:
-            - name: Uitlijning Advanced eDiscovery met EDRM
-              href: advanced-ediscovery-edrm.md
             - name: Limieten voor Advanced eDiscovery
               href: limits-ediscovery20.md
             - name: Ondersteunde bestandstypen
@@ -787,11 +785,11 @@
         - name: Office 365 Management Activity-API
           items:
             - name: Office 365 Management Activity-API-referentie
-              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference'
+              href: /office/office-365-management-api/office-365-management-activity-api-reference
             - name: Office 365 Management Activity-API-schema
-              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema'
+              href: /office/office-365-management-api/office-365-management-activity-api-schema
             - name: Veelgestelde vragen over en problemen oplossen met Office 365 Management Activity API
-              href: 'https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api'
+              href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
     - name: Postvakcontrole
       href: enable-mailbox-auditing.md
     - name: Geavanceerde controle
@@ -846,8 +844,8 @@
         - name: IRM configureren voor gebruik van een on-premises AD RMS-server
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
 - name: Microsoft 365 Enterprise
-  href: 'https://docs.microsoft.com/microsoft-365/enterprise/'
+  href: ../enterprise/index.yml
 - name: Microsoft 365-beveiliging
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
+  href: ../security/index.yml
 - name: Microsoft 365-apps voor bedrijven
-  href: 'https://docs.microsoft.com/office365/admin/admin-home'
+  href: /office365/admin/admin-home

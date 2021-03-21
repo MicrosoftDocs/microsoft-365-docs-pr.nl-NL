@@ -3,7 +3,6 @@ title: Abonnementen, licenties, accounts en tenants voor cloudaanbiedingen van M
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/25/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Begrijp de relaties tussen organisaties, abonnementen, licenties, gebruikersaccounts en tenants in cloudaanbiedingen van Microsoft.
-ms.openlocfilehash: c48e2ecc321f4b6e06ced13f029e344faf12650b
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: eaf1c2399b5d44ea8d6000042b3258d0e8b5a7de
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446029"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909512"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Abonnementen, licenties, accounts en tenants voor cloudaanbiedingen van Microsoft
 
@@ -66,7 +65,11 @@ Voor Microsoft SaaS-cloudaanbiedingen kan een licentie een specifiek gebruikersa
 **Afbeelding 2: licenties in de op SaaS gebaseerde abonnementen voor een organisatie**
 
 ![Een voorbeeld van meerdere licenties binnen abonnementen voor de op SaaS gebaseerde cloudaanbiedingen van Microsoft.](../media/Subscriptions/Subscriptions-Fig2.png)
-  
+
+>[!Note]
+>Volgens goed beveiligingsgebruik worden aparte gebruikersaccounts gebruikt die elk specifieke rollen toegewezen krijgen voor administratieve functies. Deze toegewezen beheerdersaccounts hoeven geen licentie toegewezen krijgen voor de cloudservices die ze beheren. Een SharePoint-servicebeheerdersaccount hoeft bijvoorbeeld niet toegewezen zijn aan een Microsoft 365-licentie.
+>
+
 Voor Azure PaaS-cloudservices zijn softwarelicenties ingebouwd in de serviceprijzen.
   
 Voor Azure IaaS-virtuele machines zijn er mogelijk extra licenties vereist voor het gebruik van de software of toepassing die op een virtuele machine-afbeelding zijn geïnstalleerd. Voor sommige virtuele-machine beelden zijn gelicentieerde versies van software geïnstalleerd en de kosten worden opgenomen in de prijs per minuut voor de server. Voorbeelden zijn de virtuele machines voor SQL Server 2014 en SQL Server 2016. 
@@ -139,7 +142,7 @@ Een eenvoudige manier om abonnementen toe te voegen aan uw organisatie voor op M
   
 1. Meld u aan in het Microsoft 365-beheercentrum ([https://admin.microsoft.com](https://admin.microsoft.com)) met uw globale beheerdersaccount.
     
-2. Klik vanaf de linkernavigatiebalk van de startpagina van het **Beheercentrum** op **Facturering **, en vervolgens op **Diensten aanschaffen**.
+2. Klik vanaf de linkernavigatiebalk van de startpagina van het **Beheercentrum** op **Facturering**, en vervolgens op **Diensten aanschaffen**.
     
 3. Koop de nieuwe abonnementen op de pagina **aanschaffen Services**.
     
@@ -153,7 +156,7 @@ Om een Azure-abonnement met dezelfde organisatie en Azure AD tenant toe te voege
     
 3. Selecteer op de pagina **Abonnement toevoegen** een aanbieding en voltooi de betalingsgegevens en de overeenkomst.
     
-Als u de abonnementen Azure en Microsoft 365 afzonderlijk hebt aangeschaft en u de Microsoft 365 Azure AD-tenant wilt openen vanuit uw Azure-abonnement, raadpleeg dan de instructies in[Een bestaand Azure-abonnement aan uw Azure Active Directory-tenant toevoegen](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
+Als u de abonnementen Azure en Microsoft 365 afzonderlijk hebt aangeschaft en u de Microsoft 365 Azure AD-tenant wilt openen vanuit uw Azure-abonnement, raadpleeg dan de instructies in[Een bestaand Azure-abonnement aan uw Azure Active Directory-tenant toevoegen](/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
  
 ## <a name="see-also"></a>Zie ook
 
@@ -166,4 +169,3 @@ Als u de abonnementen Azure en Microsoft 365 afzonderlijk hebt aangeschaft en u 
 ## <a name="next-step"></a>Volgende stap
 
 [Microsoft 365-netwerkverbindingen evalueren](assessing-network-connectivity.md)
-  

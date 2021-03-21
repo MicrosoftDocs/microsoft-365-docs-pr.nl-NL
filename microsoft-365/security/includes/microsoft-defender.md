@@ -4,13 +4,12 @@ ms.author: dansimp
 author: dansimp
 ms.prod: m365-security
 ms.topic: include
-ms.openlocfilehash: 7924a91f8ee9cc004d196a4d17bf4dae015464c6
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
-ms.translationtype: MT
+ms.openlocfilehash: 822a841294e263edc1f961b7c00dfc97f55c176e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50151304"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903885"
 ---
 > [!IMPORTANT]
-> Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview-versie. Deze nieuwe ervaring brengt Defender voor eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Beveiligingsteams kunnen nu alle eindpunten, e-mail en verschillende productonderzoeken, configuratie en herstel beheren zonder dat u naar afzonderlijke productportals hoeft te navigeren. [Meer informatie over wat er is gewijzigd.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
-
+> Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Beveiligingsteams kunnen nu alle onderzoeken, configuraties en herstellingen voor eindpunt, e-mail en verschillende producten beheren zonder de nood om te navigeren tussen individuele productportalen. [Meer informatie over wat er gewijzigd is](../mtp/overview-security-center.md).

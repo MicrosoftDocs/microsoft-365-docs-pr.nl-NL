@@ -11,8 +11,9 @@
         - name: Beveiligingsaanbevelingen voor prioriteitsaccounts
           href: ./office-365-security/security-recommendations-for-priority-accounts.md
     - name: Configuratie van identiteiten en apparaattoegang
-      href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
+        - name: Overzicht
+          href: ./office-365-security/microsoft-365-policies-configurations.md
         - name: Vereiste werkzaamheden
           href: ./office-365-security/identity-access-prerequisites.md
         - name: Algemeen beleid voor identiteiten en apparaattoegang
@@ -360,6 +361,8 @@
               href: ./mtp/overview-security-center.md
             - name: Bedreigingsverkenner (en realtime detecties)
               href: ./office-365-security/threat-explorer.md
+            - name: Entiteitspagina van e-mail
+              href: ./office-365-security/mdo-email-entity-page.md
             - name: AIR-overzicht
               href: ./office-365-security/office-365-air.md
             - name: Hoe geautomatiseerd onderzoek en reactie werkt
@@ -702,8 +705,8 @@
                 - name: Rollengroepen beheren in standalone EOP
                   href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
     - name: Microsoft 365 voor bedrijven
-      href: 'https://docs.microsoft.com/microsoft-365/enterprise'
+      href: ../enterprise/index.yml
     - name: Microsoft 365 voor bedrijven
-      href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
+      href: ./index.yml
     - name: Microsoft 365-compliance
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+      href: ../compliance/index.yml
