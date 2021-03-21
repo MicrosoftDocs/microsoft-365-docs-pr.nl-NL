@@ -13,241 +13,241 @@ ms.assetid: c3024358-326b-404e-9fe6-b618e54d977d
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-description: Meer informatie over de opties na Exchange Server 2007 einde van de ondersteuning en de plannings migratie met Microsoft 365, Office 365 of Exchange 2016 te starten.
-ms.openlocfilehash: 3f0a5c8ef9765a184358b932548eaa2ae7c59adc
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+description: Lees meer over uw opties na het einde van de ondersteuning van Exchange Server 2007 en begin met het plannen van migratie naar Microsoft 365, Office 365 of Exchange 2016.
+ms.openlocfilehash: d7e8f50118dab6fcb618273f5c28497c80d4a549
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519843"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924198"
 ---
 # <a name="exchange-2007-end-of-support-roadmap"></a>Roadmap voor einde van ondersteuning voor Exchange 2007
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Exchange Server 2007 bereikte einde van de ondersteuning in april 2017. Als u de migratie van Exchange 2007 naar Microsoft 365, Office 365 of Exchange 2016 nog niet hebt gestart, is het tijd om te beginnen met plannen.
+Exchange Server 2007 heeft in april 2017 het einde van de ondersteuning bereikt. Als u de migratie van Exchange 2007 naar Microsoft 365, Office 365 of Exchange 2016 nog niet hebt gestart, is het nu tijd om te beginnen met plannen.
   
-## <a name="what-does-end-of-support-mean"></a>Wat betekent *einde van ondersteuning* ?
+## <a name="what-does-end-of-support-mean"></a>Wat betekent *het einde van de ondersteuning?*
 
-De Exchange-Server, zoals bijna alle Microsoft-producten, heeft een ondersteuningscyclus waarbij nieuwe functies, foutoplossingen, beveiligingsfixes en dergelijke worden geboden. Deze levenscyclus duurt doorgaans tien jaar lang uit de eerste versie van het product. Het einde van de levenscyclus is bekend als het einde van de ondersteuning van het product. Aangezien Exchange 2007 het einde van de ondersteuning voor 11 april 2017 bereikt, biedt Microsoft niet langer:
+Exchange Server heeft, net als bijna alle Microsoft-producten, een ondersteuningslevenscyclus waarin we nieuwe functies, bugfixes, beveiligingsfixes, en meer bieden. Deze levenscyclus duurt meestal tien jaar vanaf de eerste release van het product. Het einde van deze levenscyclus wordt het einde van de ondersteuning van het product genoemd. Sinds Exchange 2007 op 11 april 2017 het einde van de ondersteuning heeft bereikt, biedt Microsoft niet meer:
   
 - Technische ondersteuning voor problemen die kunnen optreden.
     
-- Oplossingen voor problemen die gevolgen kunnen hebben voor de stabiliteit en bruikbaarheid van de server.
+- Oplossingen voor problemen die van invloed kunnen zijn op de stabiliteit en bruikbaarheid van de server.
     
-- Beveiligingscorrecties voor beveiligingsproblemen die de server kwetsbaar kunnen maken voor beveiligingsproblemen.
+- Beveiligingsfixes voor beveiligingsproblemen die de server kwetsbaar kunnen maken voor beveiligingsinbreuken.
     
 - Tijdzone-updates.
     
-De installatie van Exchange 2007 wordt voortgezet na de ondersteuning van het einde van de dag. Maar omdat er geen nieuwe updates of ondersteuning zijn, raden wij u ten zeerste aan dat u zo snel mogelijk migreert van Exchange 2007.
+De installatie van Exchange 2007 blijft na de einddatum van de ondersteuning worden uitgevoerd. Maar omdat er geen nieuwe updates of ondersteuning zijn, raden we u ten zeerste aan zo snel mogelijk te migreren van Exchange 2007.
   
-Zie [de upgrade van office 2007-servers en-producten plannen](upgrade-from-office-2007-servers-and-products.md)voor meer informatie over Office 2007-servers die binnenkort niet meer worden ondersteund.
+Zie Uw upgrade plannen van Office [2007-servers en -producten](upgrade-from-office-2007-servers-and-products.md)voor meer informatie over Office 2007-servers die het einde van de ondersteuning nadert.
   
-## <a name="what-are-my-options"></a>Wat zijn mijn mogelijkheden?
+## <a name="what-are-my-options"></a>Wat zijn mijn opties?
 
 U kunt:
   
-- Migreren naar Microsoft 365 met behulp van cutover, gefaseerde of hybride migratie.
+- Migreren naar Microsoft 365 met behulp van cutover-, gefaseerd of hybride migratie.
     
-- Migreer uw Exchange 2007-servers naar een nieuwere versie van Exchange op uw on-premises servers.
+- Migreert uw Exchange 2007-servers naar een nieuwere versie van Exchange op uw on-premises servers.
     
-In de volgende secties wordt elke optie uitvoerig besproken.
+In de volgende secties wordt elke optie uitgebreider verkend.
   
 ### <a name="migrate-to-microsoft-365"></a>Migreren naar Microsoft 365
 
-Het migreren van uw e-mailbericht naar Microsoft 365 is de beste en eenvoudigste optie om uw implementatie van Exchange 2007 buiten te trekken. Met een migratie naar Microsoft 365 kunt u één hop maken van 10-jaar-oude technologie en de functies van de geavanceerde functies, waaronder:
+Het migreren van uw e-mail naar Microsoft 365 is de beste en eenvoudigste optie om uw Exchange 2007-implementatie te stoppen. Met een migratie naar Microsoft 365 kunt u één hop maken van 10 jaar oude technologie naar state-of-the-art functies, waaronder:
   
-- Nalevings mogelijkheden zoals bewaarbeleid, In-Place en de bewaring in-place eDiscovery en meer
+- Compliancemogelijkheden, zoals bewaarbeleid, In-Place en bewaring van rechtszaken, in-place eDiscovery en meer
     
 - Microsoft 365 Groepen
     
-- Postvak in met prioriteit
+- Postvak IN met focus
     
 - MyAnalytics
     
-- REST-Api's voor programmatische toegang tot e-mail, agenda's, contactpersonen, enzovoort
+- REST-API's voor programmatische toegang tot e-mail, agenda's, contactpersonen, en meer
     
-Microsoft 365 ontvangt ook nieuwe functies en ervaring, zodat u en uw gebruikers ze meestal direct kunnen gebruiken. U hoeft zich geen zorgen te maken over:
+Microsoft 365 krijgt ook eerst nieuwe functies en ervaringen, zodat u en uw gebruikers ze meestal meteen kunnen gaan gebruiken. En u hoeft zich geen zorgen te maken over:
   
-- Kopen en onderhouden van hardware.
+- Hardware aanschaffen en onderhouden.
     
-- Betaalde systemen en coole servers.
+- Betalen om uw servers te warmen en af te koelen.
     
-- Up-to-date houden van oplossingen voor beveiliging, producten en tijdzone.
+- Up-to-date blijven op het gebied van beveiligings-, product- en tijdzone-oplossingen.
     
-- Opslag en softwareonderhoud ter ondersteuning van nalevingsvereisten.
+- Opslag en software onderhouden ter ondersteuning van nalevingsvereisten.
     
-- Een upgrade uitvoeren naar een nieuwe versie van Exchange. Met Microsoft 365 gaat u altijd op de nieuwste versie van Exchange.
+- Een upgrade uitvoeren naar een nieuwe versie van Exchange. Met Microsoft 365 bent u altijd op de nieuwste versie van Exchange.
     
 #### <a name="how-should-i-migrate-to-microsoft-365"></a>Hoe moet ik migreren naar Microsoft 365?
 
-U hebt een paar migratie opties. U dient enkele zaken te bespreken, waaronder:
+U hebt een paar migratieopties. U moet rekening houden met een paar dingen, waaronder:
 
-- Het aantal stoelen of postvakken dat u wilt verplaatsen.
-- Hoelang u de migratie wilt laten duren.
-- Of u de migratie met de on-premises installatie en Microsoft 365 naadloos wilt integreren.
+- Het aantal stoelen of postvakken dat u moet verplaatsen.
+- Hoe lang wilt u de migratie laten duren?
+- Of u tijdens de migratie een naadloze integratie tussen uw on-premises installatie en Microsoft 365 nodig hebt.
 
-In deze tabel worden de migratie opties en de belangrijkste factoren weergegeven om te bepalen welke methode moet worden gebruikt:
+In deze tabel ziet u de migratieopties en de belangrijkste factoren die bepalen welke methode moet worden gebruikt:
   
 
-|**Migratieoptie**|**Organisatie formaat**|**Peri**|
+|**Migratieoptie**|**Grootte van organisatie**|**Duur**|
 |:-----|:-----|:-----|
-|Cutover-migratie  <br/> |Minder dan 150 stoelen  <br/> |Een week of minder  <br/> |
-|Gefaseerde migratie  <br/> |Meer dan 150 stoelen  <br/> |Een paar weken  <br/> |
-|Volledig hybride migratie  <br/> |Honderd tot duizenden seats  <br/> |Een paar maanden of meer  <br/> |
+|Cutover-migratie  <br/> |Minder dan 150 zitplaatsen  <br/> |Een week of minder  <br/> |
+|Gefaseerde migratie  <br/> |Meer dan 150 zitplaatsen  <br/> |Een paar weken  <br/> |
+|Volledige hybride migratie  <br/> |Enkele honderden tot duizenden zitplaatsen  <br/> |Een paar maanden of meer  <br/> |
    
-In de volgende secties vindt u een overzicht van deze methoden. Zie voor meer informatie [een pad voor de migratie kiezen](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27). 
+In de volgende secties wordt een overzicht gegeven van deze methoden. Zie Beslissen over een migratiepad voor [meer informatie.](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27) 
   
 #### <a name="cutover-migration"></a>Cutover-migratie
 
-In een cutover-migratie migreert u alle postvakken, distributiegroepen, contactpersonen, enzovoort, naar Microsoft 365 op een voorgeselecteerde datum en tijd. Wanneer de migratie is voltooid, sluit u uw on-premises Exchange-servers af en gaat u verder met Microsoft 365.
+In een cutover-migratie migreert u al uw postvakken, distributiegroepen, contactpersonen, en ga zo maar door naar Microsoft 365 op een vooraf gekozen datum en tijd. Nadat de migratie is voltooid, sluit u uw on-premises Exchange-servers af en gebruikt u Microsoft 365 uitsluitend.
   
-Cutover-migratie is ideaal voor kleine organisaties die niet veel postvakken hebben, willen snel aan de slag met Microsoft 365 en willen geen enkele complexe zaken van de andere methoden behandelen. Maar het moet binnen een week of minder lang zijn en moet gebruikers hun Outlook-profielen opnieuw configureren. Cutover-migratie kan worden verwerkt tot 2.000-postvakken, maar wij raden u het beste aan om maximaal 150-postvakken te migreren. Als u meer probeert te migreren, kon u niet langer gebruikmaken van alle postvakken vóór de deadline en kunnen uw IT-ondersteuningsmedewerkers worden overspoeld met aanvragen om gebruikers te helpen opnieuw de configuratie van Outlook te helpen.
+Cutover-migratie is zeer belangrijk voor kleine organisaties die niet veel postvakken hebben, snel naar Microsoft 365 willen gaan en niet willen omgaan met enkele van de complexiteiten van de andere methoden. Maar het moet over een week of minder zijn voltooid en gebruikers moeten hun Outlook-profielen opnieuw configureren. Cutover-migratie kan maximaal 2.000 postvakken verwerken, maar we raden u ten zeerste aan deze te gebruiken om maximaal 150 postvakken te migreren. Als u meer probeert te migreren, hebt u mogelijk geen tijd meer om alle postvakken vóór de deadline over te dragen. Uw IT-ondersteuningsmedewerkers worden mogelijk overstelpt met verzoeken om gebruikers te helpen Outlook opnieuw te configureren.
   
-Als u overweegt om een cutover-migratie uit te voeren, kunt u het volgende doen:
+Als u overweegt een cutover-migratie uit te gaan, zijn hier de volgende zaken waar u rekening mee moet houden:
   
-- Microsoft 365 moet verbinding maken met uw Exchange 2007-servers via Outlook Anywhere en TCP-poort 443.
+- Microsoft 365 moet verbinding maken met uw Exchange 2007-servers via Outlook Anywhere via TCP-poort 443.
     
 - Alle on-premises postvakken worden verplaatst naar Microsoft 365.
     
-- U hebt een on-premises Administrator-account nodig met leestoegang tot de postvakken van uw gebruikers.
+- U hebt een on-premises beheerdersaccount nodig dat toegang heeft tot de postvakken van uw gebruikers.
     
-- De geaccepteerde domeinen van Exchange 2007 die u wilt gebruiken in Microsoft 365 moeten als geverifieerde domeinen worden toegevoegd aan de service.
+- De geaccepteerde domeinen van Exchange 2007 die u wilt gebruiken in Microsoft 365, moeten worden toegevoegd als geverifieerde domeinen in de service.
     
-- Tussen het moment dat u de migratie begint en wanneer u de voltooiings fase begint, worden in Microsoft 365 regelmatig de postvakken van Microsoft 365 en on-premises gesynchroniseerd. Hiermee kunt u de migratie voltooien, zonder dat u zich zorgen hoeft te maken over e-mail achter uw on-premises postvakken.
+- Tussen de tijd dat u de migratie start en wanneer u de voltooiingsfase start, worden de Microsoft 365- en on-premises postvakken regelmatig gesynchroniseerd met Microsoft 365. Hiermee kunt u de migratie voltooien zonder dat u zich zorgen hoeft te maken dat e-mail achterblijft in uw on-premises postvakken.
     
-- Gebruikers ontvangen nieuwe tijdelijke wachtwoorden voor hun Microsoft 365-accounts. De persoon moet hun wachtwoord wijzigen wanneer ze zich voor de eerste keer aanmelden bij hun postvak.
+- Gebruikers ontvangen nieuwe tijdelijke wachtwoorden voor hun Microsoft 365-accounts. Ze moeten hun wachtwoord wijzigen wanneer ze zich voor de eerste keer aanmelden bij hun postvak.
     
-- Voor elk gebruikerspostvak dat u migreert, moet u een licentie voor Microsoft 365 met Exchange Online hebben.
+- U hebt een Microsoft 365-licentie nodig die Exchange Online bevat voor elk gebruikerspostvak dat u migreert.
     
-- Gebruikers moeten een nieuw Outlook-profiel op elk van hun apparaten instellen en hun e-mail opnieuw downloaden. De hoeveelheid e-mail die in Outlook wordt gedownload, kan variëren. Zie de hoeveelheid offline beschikbare [E-mail wijzigen](https://support.office.com/article/Change-how-much-mail-to-keep-offline-f3a1251c-6dd5-4208-aef9-7c8c9522d633?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)voor meer informatie.
+- Gebruikers moeten een nieuw Outlook-profiel instellen op elk van hun apparaten en hun e-mail opnieuw downloaden. De hoeveelheid e-mail die Outlook downloadt, kan variëren. Zie Hoeveel e-mail u offline wilt houden voor [meer informatie.](https://support.office.com/article/Change-how-much-mail-to-keep-offline-f3a1251c-6dd5-4208-aef9-7c8c9522d633?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)
     
 Zie voor meer informatie over cutover-migratie:
   
-- [Wat u moet weten over een cutover-e-mail migratie](https://support.office.com/article/What-you-need-to-know-about-a-cutover-email-migration-to-Office-365-961978ef-f434-472d-a811-1801733869da)
+- [Wat u moet weten over een cutover-e-mailmigratie](https://support.office.com/article/What-you-need-to-know-about-a-cutover-email-migration-to-Office-365-961978ef-f434-472d-a811-1801733869da)
     
 - [Een cutover-migratie van e-mail uitvoeren](https://support.office.com/article/Perform-a-cutover-migration-of-email-to-Office-365-9496e93c-1e59-41a8-9bb3-6e8df0cd81b4)
     
 #### <a name="staged-migration"></a>Gefaseerde migratie
 
-In een gefaseerde migratie hebt u een paar honderden of een paar duizenden postvakken die u wilt migreren naar Microsoft 365, moet u een week of langer nodig hebben om de migratie te voltooien en hebt u geen geavanceerde functies voor hybride migratie, zoals gedeelde beschikbaarheidsinfo-agendagegevens, nodig.
+In een gefaseerd migratie hebt u een paar honderd of een paar duizend postvakken die u wilt migreren naar Microsoft 365, moet u een week of meer duren om de migratie te voltooien en hebt u geen geavanceerde hybride migratiefuncties nodig, zoals gedeelde informatie over de vrije/bezet-agenda.
   
-Gefaseerde migratie is ideaal voor organisaties die meer tijd nodig hebben om hun postvakken te migreren naar Microsoft 365, maar wel de migratie binnen een paar weken voltooien. U kunt postvakken in batches migreren. U bepaalt het aantal en welke postvakken op een bepaald moment worden gemigreerd. U kunt ook batch postvakken van gebruikers in dezelfde afdeling, bijvoorbeeld, om ervoor te zorgen dat ze allen tegelijk worden verplaatst. U kunt ook de postvakken van Executive blijven bewaren voor de laatste batch. Net als met cutover-migraties moeten uw gebruikers hun Outlook-profielen opnieuw maken.
+Gefaseerd migreren is geweldig voor organisaties die meer tijd nodig hebben om hun postvakken te migreren naar Microsoft 365, maar nog steeds van plan zijn om de migratie binnen enkele weken te voltooien. U kunt postvakken in batches migreren. U kunt bepalen hoeveel postvakken en welke postvakken op een bepaald moment worden gemigreerd. U kunt postvakken van gebruikers op dezelfde afdeling batchen, bijvoorbeeld om ervoor te zorgen dat ze allemaal tegelijk worden verplaatst. Of u kunt postvakken van leidinggevenden verlaten tot de laatste batch. Net als bij cutover-migraties moeten uw gebruikers hun Outlook-profielen opnieuw maken.
   
-Als u overweegt om een gefaseerde migratie uit te voeren, kunt u het volgende doen:
+Als u een gefaseerd migratie wilt doen, moet u hier rekening mee houden:
   
-- Microsoft 365 moet verbinding maken met uw Exchange 2007-servers via Outlook Anywhere en TCP-poort 443.
+- Microsoft 365 moet verbinding maken met uw Exchange 2007-servers via Outlook Anywhere via TCP-poort 443.
     
-- U hebt een on-premises Administrator-account nodig met leestoegang tot de postvakken van uw gebruikers.
+- U hebt een on-premises beheerdersaccount nodig dat toegang heeft tot de postvakken van uw gebruikers.
     
-- De geaccepteerde domeinen van Exchange 2007 die u wilt gebruiken in Microsoft 365 moeten als geverifieerde domeinen worden toegevoegd aan de service.
+- De geaccepteerde domeinen van Exchange 2007 die u in Microsoft 365 wilt gebruiken, moeten worden toegevoegd als geverifieerde domeinen in de service.
     
-- U moet een CSV-bestand maken met de volledige naam en het e-mailadres van elk postvak dat u wilt migreren in een batch. U moet ook een nieuw wachtwoord opnemen voor elk postvak dat u migreert, en het wachtwoord naar iedere gebruiker verzenden. De gebruiker wordt gevraagd het wachtwoord te wijzigen voor de eerste keer dat hij of zij zich aanmeldt bij het nieuwe Microsoft 365-postvak.
+- U moet een CSV-bestand maken met de volledige naam en het e-mailadres van elk postvak dat u in een batch wilt migreren. U moet ook een nieuw wachtwoord opnemen voor elk postvak dat u migreert en dat wachtwoord naar elke gebruiker verzenden. De gebruiker wordt gevraagd het wachtwoord te wijzigen wanneer hij of zij zich de eerste keer bij het nieuwe Microsoft 365-postvak aan melden.
     
-- Tussen het moment dat u de migratie batch start en wanneer u de voltooiings fase begint, zal Microsoft 365 periodiek de Microsoft 365-en on-premises postvakken in de batch synchroniseren. Hiermee kunt u de migratie voltooien, zonder dat u zich zorgen hoeft te maken over e-mail achter uw on-premises postvakken.
+- Vanaf het moment dat u de migratiebatch start en wanneer u de voltooiingsfase start, worden de Microsoft 365- en on-premises postvakken die in de batch zijn opgenomen, regelmatig gesynchroniseerd met Microsoft 365. Hiermee kunt u de migratie voltooien zonder dat u zich zorgen hoeft te maken dat e-mail achterblijft in uw on-premises postvakken.
     
-- Voor elk gebruikerspostvak dat u migreert, moet u een licentie voor Microsoft 365 met Exchange Online hebben.
+- U hebt een Microsoft 365-licentie nodig die Exchange Online bevat voor elk gebruikerspostvak dat u migreert.
     
-- Gebruikers moeten een nieuw Outlook-profiel op elk van hun apparaten instellen en hun e-mail opnieuw downloaden. De hoeveelheid e-mail die in Outlook wordt gedownload, kan variëren. Zie de hoeveelheid offline beschikbare [E-mail wijzigen](https://support.office.com/article/Change-how-much-mail-to-keep-offline-f3a1251c-6dd5-4208-aef9-7c8c9522d633?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)voor meer informatie.
+- Gebruikers moeten een nieuw Outlook-profiel instellen op elk van hun apparaten en hun e-mail opnieuw downloaden. De hoeveelheid e-mail die Outlook downloadt, kan variëren. Zie Hoeveel e-mail u offline wilt houden voor [meer informatie.](https://support.office.com/article/Change-how-much-mail-to-keep-offline-f3a1251c-6dd5-4208-aef9-7c8c9522d633?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)
     
-Zie voor meer informatie over gefaseerde migratie:
+Zie voor meer informatie over gefaseerd migratie:
   
-- [Wat u moet weten over een gefaseerde e-mail migratie](https://support.office.com/article/What-you-need-to-know-about-a-staged-email-migration-to-Office-365-7e2c82be-5f3d-4e36-bc6b-e5b4d411e207)
+- [Wat u moet weten over een gefaseerd e-mailmigratie](https://support.office.com/article/What-you-need-to-know-about-a-staged-email-migration-to-Office-365-7e2c82be-5f3d-4e36-bc6b-e5b4d411e207)
     
-- [Een gefaseerde migratie van e-mail uitvoeren](https://support.office.com/article/Perform-a-staged-migration-of-email-to-Office-365-83bc0b69-de47-4cc4-a57d-47e478e4894e)
+- [Een gefaseerd migratie van e-mail uitvoeren](https://support.office.com/article/Perform-a-staged-migration-of-email-to-Office-365-83bc0b69-de47-4cc4-a57d-47e478e4894e)
     
-#### <a name="full-hybrid"></a>Volledige hybride
+#### <a name="full-hybrid"></a>Volledig hybride
 
-In een volledige hybride migratie heeft uw organisatie veel honderden, tot tientallen duizenden, van postvakken, en u wilt enkele of alle andere items verplaatsen naar Microsoft 365. Omdat deze migraties doorgaans langer lang zijn, kunt u het volgende doen met hybride migraties:
+In een volledige hybride migratie heeft uw organisatie vele honderden, tot tienduizenden postvakken en wilt u sommige of alle postvakken verplaatsen naar Microsoft 365. Omdat deze migraties meestal op langere termijn zijn, kunnen hybride migraties het volgende doen:
   
-- On-premises gebruikers van de beschikbaarheidsinfo weergeven voor gebruikers in Microsoft 365 en omgekeerd.
+- On-premises gebruikers de agendagegevens voor vrije/drukke agenda's voor gebruikers in Microsoft 365 en vice versa.
     
-- Een geïntegreerde algemene adreslijst weergeven met geadresseerden in zowel on-premises als in Microsoft 365.
+- Zie een geïntegreerde algemene adreslijst met geadresseerden in zowel on-premises als Microsoft 365.
     
-- Alle Outlook-instellingen voor geadresseerden weergeven voor alle gebruikers, ongeacht of ze on-premises of in Microsoft 365.
+- Bekijk de volledige eigenschappen van outlook-geadresseerden voor alle gebruikers, ongeacht of ze on-premises of in Microsoft 365 zijn.
     
-- Beveilig e-mail communicatie tussen on-premises Exchange-servers en Microsoft 365 met behulp van TLS en certificaten.
+- Beveilig e-mailcommunicatie tussen on-premises Exchange-servers en Microsoft 365 met TLS en certificaten.
     
-- Berichten behandelen die zijn verzonden tussen on-premises Exchange-servers en Microsoft 365 als intern, zodat ze het volgende kunnen doen:
+- Berichten die tussen on-premises Exchange-servers en Microsoft 365 worden verzonden, behandelen als intern, zodat ze het volgende kunnen doen:
     
-  - U wordt op de juiste wijze geëvalueerd en verwerkt door agents en compliance-medewerkers die interne berichten richten.
+  - Correct worden geëvalueerd en verwerkt door transport- en complianceagenten die zich richten op interne berichten.
     
-  - Negeer antispam filters.
+  - Antispamfilters omzeilen.
     
-De volledige hybride migratie is geschikt voor organisaties die verwacht te blijven in een hybride configuratie van een groot aantal maanden. U krijgt de functies die eerder in deze sectie worden vermeld, plus Directory-synchronisatie, betere geïntegreerde functies voor naleving en de mogelijkheid om postvakken te verplaatsen naar en naar Microsoft 365 via Online postvak wordt verplaatst. Microsoft 365 wordt een uitbreiding van uw on-premises organisatie.
+Volledige hybride migratie is het beste voor organisaties die verwachten dat ze maanden of langer in een hybride configuratie blijven. U krijgt de functies die eerder in deze sectie worden vermeld, plus adreslijstsynchronisatie, betere geïntegreerde compliancefuncties en de mogelijkheid om postvakken van en naar Microsoft 365 te verplaatsen met behulp van onlinepostvakken. Microsoft 365 wordt een uitbreiding van uw on-premises organisatie.
   
-Als u overweegt om een volledig hybride migratie uit te voeren, kunt u het volgende doen:
+Als u overweegt om een volledige hybride migratie uit te gaan, zijn hier de volgende zaken waar u rekening mee moet houden:
   
-- De volledige hybride migratie is niet geschikt voor alle organisatietypen. Als gevolg van de complexiteit van de hybride migraties zijn organisaties met minder dan een paar honderd postvakken meestal voordelen die de inspanning en de kosten voor het eerst instellen. Als dit klinkt zoals uw organisatie, raden we u aan om een cutover of gefaseerde migratie uit te voeren.
+- Volledige hybride migratie is niet geschikt voor alle soorten organisaties. Vanwege de complexiteit van volledig hybride migraties zien organisaties met minder dan een paar honderd postvakken meestal geen voordelen die de inspanning en kosten rechtvaardigen die nodig zijn om een postvak in te stellen. Als dit klinkt als uw organisatie, raden we u aan in plaats daarvan een cutover of gefaseerd migratie te overwegen.
     
-- U moet ten minste één Exchange 2013-server in uw Exchange 2007-organisatie implementeren om als een ' hybride server ' te fungeren. Deze server communiceert met Microsoft 365 namens uw Exchange 2007-servers.
+- U moet ten minste één Exchange 2013-server implementeren in uw Exchange 2007-organisatie om op te treden als een 'hybride server'. Deze server communiceert met Microsoft 365 namens uw Exchange 2007-servers.
     
-- Microsoft 365 moet verbinding maken met de ' hybride server ' via Outlook Anywhere via TCP-poort 443.
+- Microsoft 365 moet verbinding maken met de 'hybride server' via Outlook Anywhere via TCP-poort 443.
     
-- U moet adreslijstsynchronisatie instellen met Azure Active Directory (Azure AD) verbinding maken tussen uw on-premises Active Directory-servers en Microsoft 365.
+- U moet adreslijstsynchronisatie instellen met Azure Active Directory (Azure AD) Verbinding maken tussen uw on-premises Active Directory-servers en Microsoft 365.
     
-- Gebruikers kunnen zich aanmelden bij hun Microsoft 365-postvak met dezelfde gebruikersnaam en hetzelfde wachtwoord als wanneer ze zich aanmelden bij het lokale netwerk. Voor deze functionaliteit is Azure AD Connect met Wachtwoordsynchronisatie en/of Active Directory Federation Services vereist.
+- Gebruikers kunnen zich aanmelden bij hun Microsoft 365-postvak met dezelfde gebruikersnaam en hetzelfde wachtwoord als wanneer ze zich aanmelden bij het lokale netwerk. (Voor deze functionaliteit is Azure AD Connect vereist met wachtwoordsynchronisatie en/of Active Directory Federation Services.)
     
-- Voor elk gebruikerspostvak dat u migreert, moet u een licentie voor Microsoft 365 met Exchange Online hebben.
+- U hebt een Microsoft 365-licentie nodig die Exchange Online bevat voor elk gebruikerspostvak dat u migreert.
     
-- Gebruikers hoeven geen nieuw Outlook-profiel in te stellen op de meeste apparaten, hoewel voor sommige oudere Android-telefoons mogelijk een nieuw profiel is vereist. Gebruikers hoeven hun e-mail niet opnieuw te downloaden.
+- Gebruikers hoeven op de meeste apparaten geen nieuw Outlook-profiel in te stellen, hoewel sommige oudere Android-telefoons mogelijk een nieuw profiel nodig hebben. Gebruikers moeten hun e-mail niet opnieuw downloaden.
     
-Raadpleeg de volgende bronnen voor hulp bij de migratie als u de volledige hybride migratie voor u hebt.
+Als volledige hybride migratie voor u goed klinkt, bekijkt u de volgende bronnen om te helpen bij uw migratie:
   
-- [Exchange Deployment Assistant](https://aka.ms/exdeploy)
+- [Exchange-implementatieassistent](/exchange/exchange-deployment-assistant)
     
-- [Hybride implementaties van Exchange Server](https://technet.microsoft.com/library/jj200581%28v=exchg.150%29.aspx)
+- [Hybride implementaties van Exchange Server](/exchange/exchange-hybrid)
     
-- [Wizard hybride configuratie](https://technet.microsoft.com/library/hh529921%28v=exchg.150%29.aspx)
+- [Wizard Hybride configuratie](/exchange/hybrid-configuration-wizard)
     
-- [Veelgestelde vragen over de wizard hybride configuratie](https://technet.microsoft.com/library/mt488940%28v=exchg.150%29.aspx)
+- [Veelgestelde vragen over de wizard Hybride configuratie](/exchange/hybrid-configuration-wizard-faqs)
     
-- [Vereisten voor hybride implementatie](https://technet.microsoft.com/library/hh534377%28v=exchg.150%29.aspx)
+- [Vereisten voor hybride implementatie](/exchange/hybrid-deployment-prerequisites)
     
 ### <a name="migrate-to-a-newer-version-of-exchange-server"></a>Migreren naar een nieuwere versie van Exchange Server
 
-We geloven dat u de beste waarde en gebruikerservaring kunt verkrijgen door te migreren naar Microsoft 365. Maar we begrijpen ook dat sommige organisaties hun on-premises e-mailadres moeten bewaren. Dit kan ten gevolge van wettelijke vereisten gelden voor garanties die niet zijn opgeslagen in een datacenter dat zich in een ander land bevindt, of vergelijkbaar. Als u ervoor kiest om uw e-mails on-premises te houden, kunt u uw Exchange 2007-omgeving migreren naar Exchange 2010, Exchange 2013 of Exchange 2016.
+We zijn ervan overtuigd dat u de beste waarde en gebruikerservaring kunt bereiken door te migreren naar Microsoft 365. Maar we begrijpen ook dat sommige organisaties hun e-mail on-premises moeten houden. Dit kan komen door wettelijke vereisten, om te garanderen dat gegevens niet worden opgeslagen in een datacenter in een ander land of iets dergelijks. Als u ervoor kiest om uw e-mail on-premises te houden, kunt u uw Exchange 2007-omgeving migreren naar Exchange 2010, Exchange 2013 of Exchange 2016.
   
-Als u niet kunt migreren naar Microsoft 365, is het raadzaam om te migreren naar Exchange 2016. Exchange 2016 omvat alle functies van vorige releases van Exchange. Dit komt ook overeen met de beschikbare ervaring met Microsoft 365, maar sommige functies zijn alleen beschikbaar in Microsoft 365. Bekijk slechts een paar van de dingen die u missen:
+Als u niet kunt migreren naar Microsoft 365, raden we u aan te migreren naar Exchange 2016. Exchange 2016 bevat alle functies van eerdere versies van Exchange. Het komt ook het meest overeen met de ervaring die beschikbaar is met Microsoft 365, hoewel sommige functies alleen beschikbaar zijn in Microsoft 365. Bekijk een paar dingen die u hebt gemist:
   
-|**Exchange-versie**|**Functies**|
+|**Exchange-release**|**Functies**|
 |:-----|:-----|
-|Exchange Server 2010  <br/> | Toegangsbeheer Role-Based (machtigingen zonder Acl's)  <br/>  Beleidsregels voor Postvak in in Outlook Web app  <br/>  Mogelijkheid om beschikbaarheidsinfo te delen tussen organisaties en agenda's te delegeren  <br/> |
-|Exchange 2013  <br/> | *Functies van Exchange 2010 en...*  <br/>  Vereenvoudigde architectuur waarmee het aantal serverrollen wordt verlaagd tot drie (Postvak, client toegang en Edge-transport)  <br/>  Beleidsregels voor preventie van gegevensverlies (DLP) om te voorkomen dat gevoelige informatie wordt lekt  <br/>  Verbeterde Outlook Web app-ervaring  <br/> |
-|Exchange 2016  <br/> | *Functies van Exchange 2013 en...*  <br/>  Uitgebreide serverfuncties uitsluitend voor postvak en Edge-transport  <br/>  Verbeterde DLP, naast integratie met SharePoint  <br/>  Verbeterde database tolerantie  <br/>  Online samenwerken aan documenten |
+|Exchange Server 2010  <br/> | Role-Based Access Control (machtigingen zonder ACL's)  <br/>  Postvakbeleid voor Outlook Web App  <br/>  Mogelijkheid om agenda's gratis/bezet en gedelegeerden te delen tussen organisaties  <br/> |
+|Exchange 2013  <br/> | *Functies van Exchange 2010 en ...*  <br/>  Vereenvoudigde architectuur die het aantal serverrollen heeft teruggebracht tot drie (Postvak, Clienttoegang, Edge Transport)  <br/>  Beleid voor preventie van gegevensverlies (DLP) om te voorkomen dat gevoelige informatie lekt  <br/>  Verbeterde Outlook Web App-ervaring  <br/> |
+|Exchange 2016  <br/> | *Functies van Exchange 2013 en ...*  <br/>  Verder vereenvoudigde serverrollen naar alleen Postvak en Edge Transport  <br/>  Verbeterde DLP samen met integratie met SharePoint  <br/>  Verbeterde databaseweerbaarheid  <br/>  Online documentsamenwerking |
    
 #### <a name="which-version-should-i-migrate-to"></a>Naar welke versie moet ik migreren?
 
-U wordt aangeraden dat u eerst migreert naar Exchange 2016. Vervolgens gaat u op de volgende informatie om uw hypothese of de regel Exchange 2016 te bevestigen. Als u om wat voor reden dan ook niet kunt migreren naar Exchange 2016, doet u hetzelfde proces met Exchange 2013, enzovoort.
+Het is raadzaam om in eerste instantie te gaan ervan uit dat u naar Exchange 2016 gaat migreren. Gebruik vervolgens de volgende informatie om uw aanname te bevestigen of om Exchange 2016 uit te sluiten. Als u om de een of andere reden niet kunt migreren naar Exchange 2016, doet u hetzelfde proces met Exchange 2013, en ga zo maar door.
   
-|**Aanmerking**|**Meer informatie**|
+|**Overweging**|**Meer informatie**|
 |:-----|:-----|
-|Einde van ondersteunings datums  <br/> | Net als Exchange 2007, heeft elke versie van Exchange een eigen datum voor de einde-en ondersteunings datum:  <br/> *Exchange 2010* -januari 2020  <br/> *Exchange 2013* -april 2023  <br/> *Exchange 2016* -oktober 2025  <br/>  Het einde van de ondersteuning, hoe sneller u een andere migratie moet uitvoeren.<br/> |
-|Configuratiepad voor Exchange 2010 en 2013.  <br/> |Dit zijn de algemene fasen voor de migratie naar Exchange 2010 of Exchange 2013:  <br/> -Exchange 2010 of 2013 installeren in uw bestaande Exchange 2007-organisatie. <br/>-Services en andere infrastructuur overbrengen naar Exchange 2010 of 2013.<br/>-Postvakken en openbare mappen verplaatsen naar Exchange 2010 of 2013.<br/>-Overige Exchange 2007-servers buiten bedrijf stellen. |
-|Configuratiepad voor Exchange 2016  <br/> |Dit zijn de algemene fasen voor de migratie naar Exchange 2016:  <br/> -Exchange 2013 installeren in uw bestaande Exchange 2007-organisatie.<br/>-Services en andere infrastructuur overbrengen naar Exchange 2013.<br/>-Postvakken en openbare mappen verplaatsen naar Exchange 2013.<br/>-Overige Exchange 2007-servers buiten bedrijf stellen.<br/>-Exchange 2016 installeren in uw bestaande Exchange 2013-organisatie.<br/>-Postvakken, openbare mappen, services en andere infrastructuur verplaatsen naar Exchange 2016 (de volgorde is niet belangrijk). Overige Exchange 2013-servers buiten bedrijf stellen.<br/><br/> **Opmerking:** Migreren van Exchange 2013 naar Exchange 2016 is eenvoudig. De twee versies hebben bijna dezelfde hardwarevereisten, en deze versies zijn zeer compatibel. U kunt een server die u hebt gekocht voor Exchange 2013 opnieuw opbouwen en Exchange 2016 installeren. Voor de overstap van een Online postvak melden de meeste gebruikers niet dat hun postvak van de server werd verplaatst en daarna weer terug nadat u het postvak opnieuw hebt samengesteld met Exchange 2016.           |
-|Versies naast elkaar  <br/> | Wanneer u migreert naar...  <br/> **Exchange 2016:** Exchange 2016 kan niet worden geïnstalleerd in een organisatie die een Exchange 2007-server bevat. U dient eerst te migreren naar Exchange 2010 of 2013 (wij raden u ten zeerste aan Exchange 2013), alle Exchange 2007-servers te verwijderen en vervolgens te migreren naar Exchange-2016.  <br/> **Exchange 2010 of exchange 2013:** U kunt Exchange 2010 of Exchange 2013 installeren in een bestaande Exchange 2007-organisatie. Hiermee kunt u een of meer Exchange 2010-of 2013-servers installeren en uw migratie uitvoeren.  <br/> |
-|Serverhardware  <br/> | De hardwarevereisten voor de server zijn gewijzigd in Exchange 2007. Zorg dat de hardware compatibel is. Zie voor meer informatie:  <br/> [Systeemvereisten voor Exchange 2016](https://technet.microsoft.com/library/aa996719%28v=exchg.160%29.aspx) <br/> [Systeemvereisten voor Exchange 2013](https://technet.microsoft.com/library/aa996719%28v=exchg.150%29.aspx) <br/> [Systeemvereisten voor Exchange 2010](https://technet.microsoft.com/library/aa996719%28v=exchg.141%29.aspx) <br/>  U zult merken dat belangrijke verbeteringen in de prestaties van de Exchange-prestaties en de betere computerkracht en-opslagcapaciteit in nieuwere servers betekenen dat u waarschijnlijk minder servers moet ondersteunen voor hetzelfde aantal postvakken.  <br/> |
-|Versie van besturingssysteem  <br/> | De minimaal ondersteunde besturingssysteemversies voor elke versie zijn:  <br/> **Exchange 2016** -Windows Server 2012  <br/> **Exchange 2013** -Windows Server 2008 R2 SP1  <br/> **Exchange 2010** -Windows Server 2008 SP2  <br/>  Ga voor meer informatie over de ondersteuning van besturingssystemen naar de [Exchange-ondersteunings matrix](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).  <br/> |
-|Functioneel niveau van Active Directory-forest  <br/> | De minimaal ondersteunde functies voor Active Directory-forests voor elke versie zijn:  <br/> **Exchange 2016** Windows Server 2008 R2 SP1  <br/> **Exchange 2013** Windows Server 2003  <br/> **Exchange 2010** Windows Server 2003  <br/>  Meer informatie over het functionele niveau van de forest is te vinden in de [Exchange-ondersteunings matrix](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).  <br/> |
-|Versies van Office-clients  <br/> | De minimaal ondersteunde versies van Office-clients voor elke versie zijn:  <br/> **Exchange 2016** -Office 2010 (met de nieuwste updates)  <br/> **Exchange 2013** -Office 2007 SP3  <br/> **Exchange 2010** -Office 2003  <br/>  Ga voor meer informatie over de ondersteuning van Office-clients naar de [Exchange-ondersteunings matrix](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).  <br/> |
+|Einde van ondersteuningsdatums  <br/> | Net als in Exchange 2007 heeft elke versie van Exchange een eigen einddatum voor ondersteuning:  <br/> *Exchange 2010* - januari 2020  <br/> *Exchange 2013* - april 2023  <br/> *Exchange 2016* - oktober 2025  <br/>  Hoe eerder het einde van de ondersteuning, hoe eerder u een andere migratie moet uitvoeren.<br/> |
+|Migratiepad naar Exchange 2010 en 2013.  <br/> |Hier zijn de algemene fasen voor het migreren naar Exchange 2010 of Exchange 2013:  <br/> - Installeer Exchange 2010 of 2013 in uw bestaande Exchange 2007-organisatie. <br/>- Services en andere infrastructuur verplaatsen naar Exchange 2010 of 2013.<br/>- Postvakken en openbare mappen verplaatsen naar Exchange 2010 of 2013.<br/>- Resterende Exchange 2007-servers buiten bedrijf stellen. |
+|Migratiepad naar Exchange 2016  <br/> |Hier zijn de algemene fasen voor het migreren naar Exchange 2016:  <br/> - Installeer Exchange 2013 in uw bestaande Exchange 2007-organisatie.<br/>- Services en andere infrastructuur verplaatsen naar Exchange 2013.<br/>- Postvakken en openbare mappen verplaatsen naar Exchange 2013.<br/>- Resterende Exchange 2007-servers buiten bedrijf stellen.<br/>- Installeer Exchange 2016 in uw bestaande Exchange 2013-organisatie.<br/>- Postvakken, openbare mappen, services en andere infrastructuur verplaatsen naar Exchange 2016 (order maakt niet uit). Resterende Exchange 2013-servers buiten bedrijf stellen.<br/><br/> **Opmerking:** Migreren van Exchange 2013 naar Exchange 2016 is eenvoudig. De twee versies hebben bijna dezelfde hardwarevereisten en deze versies zijn zeer compatibel. U kunt dus een server die u hebt gekocht voor Exchange 2013 opnieuw opbouwen en Exchange 2016 op deze server installeren. Voor onlinepostvakbewegingen merken de meeste gebruikers niet eens dat hun postvak van de server is verplaatst en vervolgens terug nadat u het hebt opgebouwd met Exchange 2016.           |
+|Coëxistentie van versie  <br/> | Wanneer u migreert naar ...  <br/> **Exchange 2016:** Exchange 2016 kan niet worden geïnstalleerd in een organisatie die een Exchange 2007-server bevat. U moet eerst migreren naar Exchange 2010 of 2013 (we raden Ten zeerste Exchange 2013 aan), verwijder alle Exchange 2007-servers en migreert vervolgens naar Exchange 2016.  <br/> **Exchange 2010 of Exchange 2013:** U kunt Exchange 2010 of Exchange 2013 installeren in een bestaande Exchange 2007-organisatie. Hiermee kunt u een of meer Exchange 2010- of 2013-servers installeren en uw migratie uitvoeren.  <br/> |
+|Serverhardware  <br/> | Serverhardwarevereisten zijn gewijzigd in Exchange 2007. Zorg ervoor dat uw hardware compatibel is. Zie voor meer informatie:  <br/> [Systeemvereisten voor Exchange 2016](/Exchange/plan-and-deploy/system-requirements) <br/> [Systeemvereisten voor Exchange 2013](/exchange/exchange-2013-system-requirements-exchange-2013-help) <br/> [Systeemvereisten voor Exchange 2010](/previous-versions/office/exchange-server-2010/aa996719(v=exchg.141)) <br/>  U zult merken dat de aanzienlijke verbeteringen in de prestaties van Exchange en de toegenomen rekenkracht en opslagcapaciteit in nieuwere servers ervoor zorgen dat u waarschijnlijk minder servers nodig hebt om hetzelfde aantal postvakken te ondersteunen.  <br/> |
+|Versie van besturingssysteem  <br/> | De minimaal ondersteunde besturingssysteemversies voor elke versie zijn:  <br/> **Exchange 2016** - Windows Server 2012  <br/> **Exchange 2013** - Windows Server 2008 R2 SP1  <br/> **Exchange 2010** - Windows Server 2008 SP2  <br/>  Meer informatie over ondersteuning van besturingssysteem vindt u in [Exchange Supportability Matrix](/Exchange/plan-and-deploy/supportability-matrix).  <br/> |
+|Active Directory-forestfunctionaliteitsniveau  <br/> | De minimaal ondersteunde active directory-forestfunctionaliteitsniveaus voor elke versie zijn:  <br/> **Exchange 2016** Windows Server 2008 R2 SP1  <br/> **Exchange 2013** Windows Server 2003  <br/> **Exchange 2010** Windows Server 2003  <br/>  Meer informatie over ondersteuning voor forestfunctionaliteit vindt u in [Exchange Supportability Matrix.](/Exchange/plan-and-deploy/supportability-matrix)  <br/> |
+|Office-clientversies  <br/> | De minimaal ondersteunde Office-clientversies voor elke versie zijn:  <br/> **Exchange 2016** - Office 2010 (met de meest recente updates)  <br/> **Exchange 2013** - Office 2007 SP3  <br/> **Exchange 2010** - Office 2003  <br/>  Meer informatie over ondersteuning voor Office-client vindt u [bij Exchange Supportability Matrix](/Exchange/plan-and-deploy/supportability-matrix).  <br/> |
    
-#### <a name="how-do-i-migrate"></a>Hoe migreer ik?
+#### <a name="how-do-i-migrate"></a>Hoe kan ik migreren?
 
-Als u besluit uw e-mailberichten on-premises te houden, kunt u de volgende bronnen gebruiken om de migratie te vereenvoudigen:
+Als u hebt besloten uw e-mail on-premises te houden, gebruikt u de volgende bronnen om te helpen bij uw migratie:
   
-- [Exchange Deployment Assistant](https://aka.ms/exdeploy)
+- [Exchange-implementatieassistent](/exchange/exchange-deployment-assistant)
     
-- Wijzigingen van Active Directory-schema voor Exchange [2016](https://technet.microsoft.com/library/bb738144%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/bb738144%28v=exchg.150%29.aspx), [2010](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=5401)
+- Wijzigingen in Active Directory-schema voor Exchange [2016](/Exchange/plan-and-deploy/active-directory/ad-schema-changes), [2013](/exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help), [2010](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=5401)
     
-- Systeemvereisten voor Exchange [2016](https://technet.microsoft.com/library/aa996719%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/aa996719%28v=exchg.150%29.aspx), [2010](https://technet.microsoft.com/library/aa996719%28v=exchg.141%29.aspx)
+- Systeemvereisten voor Exchange [2016](/Exchange/plan-and-deploy/system-requirements), [2013](/exchange/exchange-2013-system-requirements-exchange-2013-help), [2010](/previous-versions/office/exchange-server-2010/aa996719(v=exchg.141))
     
-- Vereisten voor Exchange [2016](https://technet.microsoft.com/library/bb691354%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/bb691354%28v=exchg.150%29.aspx), [2010](https://technet.microsoft.com/library/bb691354%28v=exchg.141%29.aspx)
+- Vereisten voor Exchange [2016](/Exchange/plan-and-deploy/prerequisites), [2013](/exchange/exchange-2013-prerequisites-exchange-2013-help), [2010](/previous-versions/office/exchange-server-2010/bb691354(v=exchg.141))
     
 ## <a name="get-help"></a>Help opvragen
 
-Als u migreert naar Microsoft 365, komt u mogelijk in aanmerking voor de service van Microsoft FastTrack. FastTrack biedt aanbevolen procedures, hulpprogramma's en informatiebronnen om de migratie naar Microsoft 365 zo eenvoudig mogelijk te maken. De beste van een ondersteuningstechnicus helpt u bij de migratie, van het plannen en ontwerpen van de overstap naar het laatste postvak. Zie [Microsoft FastTrack](https://fasttrack.microsoft.com/)voor meer informatie over FastTrack.
+Als u migreert naar Microsoft 365, komt u mogelijk in aanmerking voor het gebruik van onze Microsoft FastTrack-service. FastTrack biedt best practices, hulpprogramma's en resources om uw migratie naar Microsoft 365 zo naadloos mogelijk te maken. Het beste van alles is dat een ondersteuningstechnicus u door uw migratie zal helpen, van het plannen en ontwerpen tot het migreren van uw laatste postvak. Zie Microsoft FastTrack voor meer informatie [over FastTrack.](https://fasttrack.microsoft.com/)
   
-Als u problemen ondervindt tijdens de migratie naar Microsoft 365 en u geen gebruikmaakt van FastTrack of de migratie naar een nieuwere versie van Exchange Server, dan kunnen we u helpen. Hier volgen enkele bronnen die u kunt gebruiken:
+Als u problemen hebt tijdens uw migratie naar Microsoft 365 en u geen FastTrack gebruikt of uw migratie naar een nieuwere versie van Exchange Server, zijn we hier om u te helpen. Hier zijn enkele bronnen die u kunt gebruiken:
   
 - [Technische community](https://social.technet.microsoft.com/Forums/office/home?category=exchangeserver)
     
@@ -255,4 +255,4 @@ Als u problemen ondervindt tijdens de migratie naar Microsoft 365 en u geen gebr
     
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Bronnen om u te helpen bij het upgraden van uw Office 2007-servers en-clients](upgrade-from-office-2007-servers-and-products.md)
+[Resources om u te helpen bij het upgraden van uw Office 2007-servers en -clients](upgrade-from-office-2007-servers-and-products.md)

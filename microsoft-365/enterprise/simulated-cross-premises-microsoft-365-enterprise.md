@@ -17,16 +17,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: 'Samenvatting: maak een gesimuleerd cross-premises virtueel netwerk in Microsoft Azure als een Microsoft 365-testomgeving.'
-ms.openlocfilehash: ce8b1963e97decc58820bff7b563bb835a843772
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 545cce668df66b594de6b45ddd506b87afcf44ac
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487646"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926030"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Gesimuleerd cross-premises virtueel netwerk in een Microsoft 365-testomgeving
 
-*U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*
+*Deze testlaborator kan worden gebruikt voor testomgevingen van Microsoft 365 voor bedrijven en Office 365 Enterprise.*
 
 In dit artikel wordt stapsgewijs uitgelegd hoe u een gesimuleerde hybride cloudomgeving met Microsoft Azure maakt met behulp van twee virtuele Azure-netwerken. Dit is de resulterende configuratie. 
   
@@ -59,12 +59,12 @@ Er zijn drie belangrijke fasen om deze testomgeving in te stellen:
 > [!NOTE]
 > Voor deze configuratie is een betaald Azure-abonnement vereist. 
 
-U kunt de beschikbare omgeving gebruiken om de functies en functionaliteit van [Microsoft 365 te testen voor Enterprise](https://www.microsoft.com/microsoft-365/enterprise) met extra testlab- [handleidingen](m365-enterprise-test-lab-guides.md) of zelf een eigen omgeving.
+U kunt de resulterende omgeving gebruiken om de functies en functionaliteit van [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) voor bedrijven te testen met extra [Test Lab Guides](m365-enterprise-test-lab-guides.md) of alleen.
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Ga naar [Microsoft 365 for Enterprise test lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf) for a Visual Maps to the the the microsoft 365 for Enterprise test lab Guide.
+> Ga naar [Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>Fase 1: het virtuele TestLab-netwerk configureren.
 
@@ -81,7 +81,7 @@ In deze fase maakt en configureert u het nieuwe virtuele netwerk XPrem en verbin
 Start eerst een Azure PowerShell-prompt op uw lokale computer.
   
 > [!NOTE]
-> De volgende opdrachtsets gebruiken de nieuwste versie van Azure PowerShell. Zie [Aan de slag met Azure PowerShell-cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
+> De volgende opdrachtsets gebruiken de nieuwste versie van Azure PowerShell. Zie [Aan de slag met Azure PowerShell-cmdlets](/powershell/azureps-cmdlets-docs/). 
   
 Meld u aan bij uw Azure-account met behulp van de volgende opdracht.
   
@@ -205,7 +205,7 @@ Dit is de huidige configuratie.
   
 De gesimuleerde Azure hybride cloudomgeving is nu gereed om getest te worden.
   
-U bent nu klaar om te experimenteren met de extra functies van [Microsoft 365 for Enterprise](https://www.microsoft.com/microsoft-365/enterprise).
+U bent nu klaar om te experimenteren met extra functies van [Microsoft 365 voor bedrijven.](https://www.microsoft.com/microsoft-365/enterprise)
   
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -221,4 +221,4 @@ Verken de volgende extra sets testlabrichtlijnen:
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 enterprise-documentatie](/microsoft-365-enterprise/)

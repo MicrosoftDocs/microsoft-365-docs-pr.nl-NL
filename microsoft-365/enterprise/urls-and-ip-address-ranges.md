@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: 'Overzicht: Office 365 vereist verbinding met internet. De volgende eindpunten moeten bereikbaar zijn voor klanten die gebruikmaken van Office 365-abonnementen, waaronder Government Community Cloud (GCC).'
 hideEdit: true
-ms.openlocfilehash: 826da75ea4f6991a3291e8b1e36d644fb19a7704
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 1c0a2a486bf6964edc9b94fd670c96ade161cacd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50596954"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925266"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365-URL's en IP-adresbereiken
 
@@ -69,9 +69,9 @@ De getoonde gegevenskolommen zijn:
 
 [Office 365-eindpunten beheren](managing-office-365-endpoints.md)
 
-[Algemene Microsoft Stream-eindpunten](https://docs.microsoft.com/stream/network-overview#general-microsoft-stream-endpoints)
+[Algemene Microsoft Stream-eindpunten](/stream/network-overview#general-microsoft-stream-endpoints)
   
-[Microsoft 365-connectiviteit controleren](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity)
+[Microsoft 365-connectiviteit controleren](./monitor-connectivity.md)
 
 [De basis- en gemiddelde CA-bundel op het toepassingssysteem van derden](../compliance/encryption-office-365-certificate-chains.md)
   

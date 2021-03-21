@@ -1,5 +1,5 @@
 ---
-title: Gebruik Lean popouts om geheugen te verminderen voor het lezen van e-mailberichten
+title: Lean pop-outs gebruiken om het geheugen te verminderen dat wordt gebruikt bij het lezen van e-mailberichten
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,47 +13,47 @@ search.appverid:
 ms.assetid: a6d6ba01-2562-4c3d-a8f1-78748dd506cf
 f1.keywords:
 - NOCSH
-description: Dit artikel bevat informatie over het gebruik van Lean popouts voor het verbeteren van de prestaties van het downloaden van berichten in de webversie van Outlook.
+description: Dit artikel bevat informatie over het gebruik van lean pop-outs om de downloadprestaties van berichten in de webversie van Outlook te verbeteren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bf53464ac6b2783fbbfc335fd4ff73dbe4435fb
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0fec3e0267b7299e34de541a184cf92e99e260f1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689438"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925254"
 ---
-# <a name="use-lean-popouts-to-reduce-memory-used-when-reading-mail-messages"></a>Gebruik Lean popouts om geheugen te verminderen voor het lezen van e-mailberichten
+# <a name="use-lean-popouts-to-reduce-memory-used-when-reading-mail-messages"></a>Lean pop-outs gebruiken om het geheugen te verminderen dat wordt gebruikt bij het lezen van e-mailberichten
 
-Dit artikel bevat informatie over het verbeteren van de downloadprestaties van berichten in de webversie van Outlook. Dit artikel maakt deel uit van het project [netwerk planning en prestaties optimaliseren voor Office 365](https://aka.ms/tune) .
+Dit artikel bevat informatie over het verbeteren van de prestaties van het downloaden van berichten in de webversie van Outlook. Dit artikel maakt deel uit van [de netwerkplanning en prestatieafstemming voor Office 365-project.](./network-planning-and-performance.md)
   
-Als globale beheerder van Office 365 kunt u de webversie van Outlook configureren voor het leveren van _Lean popouts_, een kleinere en minder geheugenintensief versie van bepaalde e-mailberichten in Microsoft Edge of Internet Explorer. Wanneer Lean popouts is geconfigureerd voor de webversie van Outlook, worden op de server gegenereerde onderdelen geladen die de prestaties optimaliseren.
+Als globale beheerder van Office 365 kunt u de webversie van Outlook zo configureren dat er lean _pop-outs_ worden weergegeven, een kleinere, minder geheugenintensieve versie van bepaalde e-mailberichten in Microsoft Edge of Internet Explorer. Wanneer lean pop-outs zijn geconfigureerd voor de webversie van Outlook, worden weergegeven onderdelen aan de server geladen die de prestaties optimaliseren.
   
 > [!NOTE]
-> Met ingang van maart 2018 zijn Lean popouts niet beschikbaar voor berichten waarin beperkingen gelden voor gebruiksrechten, zoals Information Rights Management (IRM).
+> Vanaf maart 2018 zijn lean pop-outs niet beschikbaar voor berichten waarin gebruiksrechtenbeperkingen worden opgegeven, zoals IRM (Information Rights Management).
   
-Deze functies werken nog steeds in het hoofdvenster, maar zijn niet beschikbaar in Lean popouts:
+Deze functies blijven werken in het hoofdvenster, maar zijn niet beschikbaar in lean pop-outs:
   
-- Outlook-invoegtoepassingen
+- Outlook-invoegvoegingen
   
-- Aanwezigheidsgegevens voor Skype voor bedrijven
+- Aanwezigheid in Skype voor Bedrijven
   
-## <a name="to-configure-lean-popouts-for-all-users-within-your-office-365-organization"></a>De kanbanschemagroepen van de popouts configureren voor alle gebruikers binnen uw Office 365-organisatie
+## <a name="to-configure-lean-popouts-for-all-users-within-your-office-365-organization"></a>Lean pop-outs configureren voor alle gebruikers binnen uw Office 365-organisatie
   
-1. [Maak verbinding met Exchange Online via externe PowerShell](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx ).
+1. [Maak verbinding met Exchange Online met externe PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
   
-2. Voer de cmdlet [set-OrganizationConfig](https://technet.microsoft.com/library/aa997443%28v=exchg.160%29.aspx) uit met de parameter LeanPopoutEnabled als volgt:
+2. Voer de [cmdlet Set-OrganizationConfig](/powershell/module/exchange/set-organizationconfig) uit met de parameter LeanPopoutEnabled als volgt:
 
   ```powershell
   Set-OrganizationConfig -LeanPopoutEnabled <$true |$false >
   ```
 
-  Als u bijvoorbeeld de popouts voor alle gebruikers in uw organisatie wilt inschakelen:
+  Als u bijvoorbeeld lean pop-outs wilt inschakelen voor alle gebruikers in uw organisatie:
   
   ```powershell
   Set-OrganizationConfig -LeanPopoutEnabled $true
   ```
 
-  U schakelt de popouts voor alle gebruikers in uw organisatie als volgt uit:
+  Lean-pop-outs uitschakelen voor alle gebruikers in uw organisatie:
 
   ```powershell
   Set-OrganizationConfig -LeanPopoutEnabled $false

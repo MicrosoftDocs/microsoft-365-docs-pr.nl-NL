@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen in het beveiligings- &-compliancecentrum weten hoe ze niet-efficiënt of niet-efficiënt werkende regels voor de e-mailstroom (ook wel transportregels genoemd) in hun organisatie kunnen vaststellen en oplossen.
+description: Beheerders kunnen leren hoe ze het inzicht in regels voor trage e-mailstroom oplossen in het beveiligings- & compliancecentrum gebruiken om inefficiënte of gebroken regels voor e-mailstroom (ook wel transportregels genoemd) in hun organisatie te identificeren en op te lossen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a50fa0d36cb025f5d0627a2212254b9d08dc5d9c
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 22ce3549077ad9b358165245159393d3e25e61c8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290691"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924104"
 ---
-# <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Inzicht in regels voor trage e-mailstroom oplossen in het & compliancecentrum
+# <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Inzicht in regels voor trage e-mailstroom oplossen in het beveiligings- & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -31,31 +31,31 @@ ms.locfileid: "50290691"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Niet-efficiënt e-mailstroomregels (ook wel transportregels genoemd) kunnen leiden tot vertragingen in de e-mailstroom voor uw organisatie. Dit inzicht rapporteert regels voor de e-mailstroom die van invloed zijn op de e-mailstroom van uw organisatie. Voorbeelden van deze soorten regels zijn:
+Inefficiënte regels voor e-mailstroom (ook wel transportregels genoemd) kunnen leiden tot vertragingen in de e-mailstroom voor uw organisatie. In dit inzicht worden regels voor e-mailstroomrapporten berapportage die van invloed zijn op de e-mailstroom van uw organisatie. Voorbeelden van deze typen regels zijn:
 
-- Voorwaarden die gebruikmaken **van Is lid van** grote groepen.
-- Voorwaarden die gebruikmaken van complexe reguliere expressies (regex)-patroonmatching.
-- Voorwaarden die gebruikmaken van het controleren van inhoud in bijlagen.
+- Voorwaarden die gebruik maken **van Is lid van** voor grote groepen.
+- Voorwaarden die gebruikmaken van complexe regulier expressiepatroon (regex).
+- Voorwaarden voor het inchecken van bijlagen met inhoud.
 
-Informatie over regels voor trage  **e-mailstroom** oplossen in het gebied Aanbevolen voor u in het [dashboard](mail-flow-insights-v2.md) E-mailstroom in het [beveiligings- & Compliancecentrum](https://protection.office.com) laat u weten wanneer het te lang duurt voordat een e-mailstroomregel is voltooid.
+Het **inzicht** in regels voor  trage e-mailstroom oplossen in het gebied Aanbevolen voor u van het e-mailstroomdashboard [in](mail-flow-insights-v2.md) het Compliancecentrum voor beveiliging [&](https://protection.office.com) meldt u wanneer het te lang duurt voordat een regel voor een e-mailstroom wordt voltooid.
 
-Dit inzicht wordt pas weergegeven nadat de voorwaarde is gedetecteerd (als u geen e-maillussen hebt, ziet u het inzicht niet).
+Dit inzicht wordt alleen weergegeven nadat de voorwaarde is gedetecteerd (als u geen e-mailluss hebt, ziet u het inzicht niet).
 
-U kunt deze melding gebruiken om regels voor de e-mailstroom te identificeren en aan te passen om de vertraging van de e-mailstroom te beperken.
+U kunt deze melding gebruiken om e-mailstroomregels te identificeren en aan te passen om vertragingen in de e-mailstroom te verminderen.
 
-![Inzicht in regels voor langzame e-mailstroom oplossen in het gebied Aanbevolen voor u in het dashboard E-mailstroom](../../media/mfi-fix-slow-mail-flow-rules.png)
+![Inzicht in regels voor trage e-mailstroom oplossen in het gebied Aanbevolen voor u van het e-mailstroomdashboard](../../media/mfi-fix-slow-mail-flow-rules.png)
 
-Wanneer u op **Details weergeven** in de widget klikt, verschijnt er een flyout met meer informatie:
+Wanneer u op **Details weergeven** op de widget klikt, wordt er een flyout weergegeven met meer informatie:
 
-- **Regel:** u kunt de muisaanwijzer op het overzicht houden om alle voorwaarden, uitzonderingen en acties van de regel te bekijken. U kunt op de samenvatting klikken om de regel te bewerken in het Exchange-beheercentrum (EAC).
-- **Aantal geëvalueerde** berichten:  U kunt op [](message-trace-scc.md) Voorbeeldberichten weergeven klikken om de resultaten van bericht traceren te bekijken voor een voorbeeld van de berichten die door de regel zijn beïnvloed.
+- **Regel:** U kunt de muisaanwijzer boven de samenvatting houden om alle voorwaarden, uitzonderingen en acties van de regel weer te geven. U kunt op de samenvatting klikken om de regel te bewerken in het Exchange-beheercentrum (EAC).
+- **Aantal geëvalueerde berichten:** U kunt op [](message-trace-scc.md) **Voorbeeldberichten** weergeven klikken om de resultaten van bericht trace te bekijken voor een voorbeeld van de berichten die door de regel zijn beïnvloed.
 - **Gemiddelde tijd besteed aan elk bericht**
-- **Mediaantijd besteed aan een bericht:** de middelste waarde die de bovenste helft scheidt van de onderste helft van de tijdgegevens.
+- **Mediaan tijd besteed aan een bericht:** de middelste waarde die de bovenste helft scheidt van de onderste helft van de tijdsgegevens.
 
-![Flyout details die wordt weergegeven nadat u op Details weergeven hebt geklikt op het inzicht in regels voor vertraagde e-mailstroom herstellen](../../media/mfi-fix-slow-mail-flow-rules-details.png)
+![Details flyout that appears after clicking View details on the Fix slow mail flow rules insight](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-Zie voorwaarden en uitzonderingen voor e-mailstroomregels en uitzonderingen (predicaten) in Exchange Online voor meer informatie over voorwaarden en [uitzonderingen in regels voor de e-mailstroom.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
+Zie Voorwaarden en uitzonderingen voor e-mailstroomregelen (predicaten) in Exchange Online voor meer informatie over voorwaarden en [uitzonderingen in regels voor e-mailstroom.](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
 ## <a name="see-also"></a>Zie ook
 
-Zie inzichten in de e-mailstroom in het beveiligings- en compliancecentrum voor meer informatie & [inzichten in het dashboard E-mailstroom.](mail-flow-insights-v2.md)
+Zie E-mailstroominzichten in het Beveiligings- & compliancecentrum voor meer informatie over andere inzichten [in het e-mailstroomdashboard.](mail-flow-insights-v2.md)

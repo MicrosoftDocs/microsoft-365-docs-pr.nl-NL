@@ -1,5 +1,5 @@
 ---
-title: Wat is er gewijzigd voor de migratie naar Office 365-Services in de nieuwe Duitse datacenter gebieden
+title: Wat is er veranderd voor de migratie naar Office 365-services in de nieuwe Duitse datacenterregio's
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -18,101 +18,101 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: 'Overzicht: informatie over wat er is gewijzigd voor overstap van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter.'
-ms.openlocfilehash: 0415f7b95cb9a9f2625798311946dac0f1f7c2c0
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+description: 'Samenvatting: Meer informatie over wat er is veranderd voor de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
+ms.openlocfilehash: cadad596011bbcde02b61f01e949c93a5a62a1c3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688610"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923824"
 ---
-# <a name="what-has-changed-for-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Wat is er gewijzigd voor de migratie naar Office 365-Services in de nieuwe Duitse datacenter gebieden
+# <a name="what-has-changed-for-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Wat is er veranderd voor de migratie naar Office 365-services in de nieuwe Duitse datacenterregio's
 
-Tenant migraties zijn ontworpen om beheerders en gebruikers het minimum te bieden. Er zijn echter wel enkele aandachtspunten voor elke werkbelasting. Lees de volgende secties voor een beter begrip van de migratie ervaring voor de werkbelasting.
+Tenantmigraties zijn zo ontworpen dat ze minimale gevolgen hebben voor beheerders en gebruikers. Er zijn echter overwegingen voor elke werkbelasting. Bekijk de volgende secties om meer inzicht te krijgen in de migratie-ervaring voor de werkbelastingen.
 
-Hieronder staan de belangrijkste verschillen tussen Microsoft Cloud Deutschland en Office 365-Services in de nieuwe Duitse datacenter-regio's.
+Hieronder volgen de belangrijkste verschillen tussen Microsoft Cloud Deutschland en Office 365-services in de nieuwe Duitse datacenterregio's.
 
-| Categorie | Microsoft Cloud Deutschland (Microsoft Cloud Deutschland) | Office 365-Services in de nieuwe Duitse datacenter regio's |
+| Categorie | Microsoft Cloud Deutschland (Microsoft Cloud Deutschland) | Office 365-services in de nieuwe Duitse datacenterregio's |
 |:-------|:-----|:-------|
-| Microsoft 365-services beschikbaar voor abonnementen met maar één Office 365-Tenant | 15 Services | 29 Services <br><br> Voor meer informatie raadpleegt u de [beschikbaarheid van de service voor de verschillende Office 365-cloudservice aanbiedingen?](ms-cloud-germany-transition.md#serv-avail). |
-| Nieuwe functies | Er zijn geen nieuwe functies beschikbaar. | De nieuwe functies zijn consistent met Office 365-Services. |
+| Microsoft 365-services beschikbaar voor abonnement met slechts één Office 365-tenant | 15 services | 29 services <br><br> Zie Wat is de beschikbaarheid van de service tussen de [verschillende Office 365-cloudserviceaanbiedingen?](ms-cloud-germany-transition.md#serv-avail)voor meer informatie. |
+| Nieuwe functies | Er zijn geen nieuwe functies beschikbaar. | Nieuwe functies zijn beschikbaar in overeenstemming met Office 365-services. |
 | Gegevensbeheerder | Ja | Nee |
-| Samenwerking tussen tenants en wereldwijde Office 365-tenants | Nee | Ja |
-| Woonplaats voor klantgegevens | Klantgegevens worden uitsluitend opgeslagen in een Duitse datacenter. | Microsoft zal de volgende gegevens van de klant bewaren, exclusief de rest van Duitsland: <ul><li> Postvak inhoud van Exchange Online (e-mail tekst, agenda-items en de inhoud van e-mailbijlagen) </li><li> Site-inhoud van SharePoint Online en de bestanden die zijn opgeslagen op deze site, en bestanden die zijn geüpload naar OneDrive voor bedrijven </li></ul> |
-| Toepasselijke voorwaarden | [Online Servicevoorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) met deze [aanvulling](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=64) | [Online Servicevoorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
+| Samenwerking tussen verschillende tenants met globale Office 365-tenants | Nee | Ja |
+| Klantgegevens ingezetenschap | Klantgegevens worden uitsluitend opgeslagen in Duitse datacenters. | Microsoft zal de volgende klantgegevens uitsluitend in Duitsland opslaan: <ul><li> Inhoud van Exchange Online-postvak (e-mail, agenda-items en de inhoud van e-mailbijlagen) </li><li> SharePoint Online-site-inhoud en de bestanden die zijn opgeslagen op die site en bestanden die zijn geüpload naar OneDrive voor Bedrijven </li></ul> |
+| Toepasselijke voorwaarden | [Voorwaarden voor onlineservices](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) met deze [aanvulling](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=64) | [Voorwaarden voor onlineservices](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
 ||||
 
 ## <a name="azure-active-directory"></a>Microsoft Azure Active Directory
 
-Niets wijzigen:
+Wat verandert er niet:
 
-- Het eerste domein van de Tenant (zoals `contoso.onmicrosoft.de` ) met Tenant-id (GUID) en aangepaste domeinen blijven na de migratie behouden. 
+- Het eerste domein van tenant (zoals ) met tenant-id (GUID) en aangepaste domeinen blijft `contoso.onmicrosoft.de` bestaan na de migratie. 
 
-- Verificatieaanvragen voor bronnen die worden gemigreerd naar Office 365-Services, worden verleend door de service Office 365 service Azure Authentication Service ( `login.microsoftonline.com` ). De resources die nog steeds in Office 365 Duitsland blijven, worden tijdens de migratie geverifieerd door de bestaande Duitsland Azure-service ( `login.microsoftonline.de` ).
+- Verificatieaanvragen voor resources die zijn gemigreerd naar Office 365-services worden verleend door de Azure Authentication-service voor Office 365-services ( `login.microsoftonline.com` ). Tijdens de migratie worden resources die nog steeds in Office 365 Duitsland staan, geverifieerd door de bestaande Azure-service van Duitsland ( `login.microsoftonline.de` ).
 
 Aandachtspunten:
 
-- Wanneer de eerste Azure Active Directory (Azure AD)-Tenant is gekopieerd, wordt de account gewijzigd in het dialoog programma Office 365 Services Azure AD service, wordt het wachtwoord gewijzigd en worden de instellingen voor het zelf opnieuw instellen van wachtwoorden (SSPR) van de Office 365-service portals uitgevoerd. Aanvragen voor het bijwerken van wachtwoorden van de Duitse service zijn op dit moment niet mogelijk, omdat de Azure AD-Tenant is gemigreerd naar Office 365-Services. Het opnieuw instellen van federatieve domeinwachtwoorden heeft geen gevolgen omdat deze zijn voltooid in de on-premises adreslijst.
+- Voor beheerde domeinaccounts is het kopiëren van de eerste Azure Active Directory-tenant (Azure AD) voltooid (de eerste stap van Azure AD-migratie naar de Azure 365-services Azure AD-service), wachtwoordwijzigingen, wijzigingen in selfservicewachtwoord opnieuw instellen (SSPR) en wachtwoordresets door beheerders moeten worden uitgevoerd vanuit de Office 365-serviceportals. Aanvragen om wachtwoorden van de Duitsland-service bij te werken, slagen op dit moment niet, omdat de Azure AD-tenant is gemigreerd naar Office 365-services. Resets van federatief domeinwachtwoorden worden niet beïnvloed, omdat deze worden voltooid in de on-premises adreslijst.
 
-- Azure-aanmeld invoegtoepassingen worden weergegeven in de portal waartoe de gebruiker toegang wil hebben. Controlelogboeken zijn beschikbaar vanaf het Office 365 service-eindpunt na overgang. Voordat u na migratie verdergaat, moet u zich aanmelden en auditlogboeken opslaan via de portal van Microsoft Cloud Deutschland.
+- Azure-aanmeldingen worden weergegeven in de portal waar de gebruiker toegang probeert te krijgen. Auditlogboeken zijn alleen beschikbaar in het Office 365-services-eindpunt na de overgang. Voordat u de migratie doormaakt naar de voltooiing van de migratie, moet u aanmeldings- en auditlogboeken opslaan vanuit de Microsoft Cloud Deutschland-portal.
 
-- Wachtwoorden opnieuw instellen, wachtwoorden wijzigen, wachtwoorden opnieuw instellen door een beheerder voor beheerde organisaties (die geen gebruikmaakt van Active Directory Federation Services) moet worden uitgevoerd via de Office 365 Services-portal. Pogingen van gebruikers die toegang hebben tot de Microsoft Cloud Deutschland portals kunnen geen wachtwoorden opnieuw instellen.
+- Wachtwoordinstellingen, wachtwoordwijzigingen, wachtwoordresets door een beheerder voor beheerde organisaties (die geen Active Directory Federation Services gebruiken) moeten worden uitgevoerd via de Office 365-servicesportal. Pogingen van gebruikers die toegang hebben tot Microsoft Cloud Deutschland-portals om wachtwoorden opnieuw in te stellen, mislukken.
 
-- De algemene verordening gegevensbescherming (AVG) data subject requests (DSRs) worden uitgevoerd vanuit de Office 365 Services Azure-beheerportal voor toekomstige aanvragen. Verouderde of niet-klant diagnostische gegevens die ingezetene zijn van Microsoft Cloud Deutschland, worden op of vóór 30 dagen verwijderd.
+- Algemene verordening gegevensbescherming (AVG) Verzoeken om gegevensonderwerpen (DSR's) worden uitgevoerd vanuit de Azure-beheerportal van Office 365-services voor toekomstige aanvragen. Oudere of niet-klant diagnostische gegevens die in Microsoft Cloud Deutschland zijn opgeslagen, worden na of vóór 30 dagen verwijderd.
 
 ## <a name="subscriptions--licenses"></a>Abonnementen & licenties
 
-- Office 365 en Dynamics-abonnementen van Microsoft Cloud Deutschland worden overgezet naar de Duitse regio met de Azure AD-herplaatste. Vervolgens worden de nieuwe Office 365-service-abonnementen weergegeven. Bij een kort proces voor het verzenden van een abonnement worden wijzigingen in abonnementen geblokkeerd.
+- Office 365- en Dynamics-abonnementen van Microsoft Cloud Deutschland worden overgeplaatst naar de Duitse regio met de Azure AD-verplaatsing. De organisatie wordt vervolgens bijgewerkt om nieuwe Office 365-servicesabonnementen weer te geven. Tijdens het korte abonnementsoverdrachtsproces worden wijzigingen in abonnementen geblokkeerd.
 
-- Aangezien de Tenant wordt overgezet naar Office 365-Services, zijn de bijbehorende Duitsland-specifieke abonnementen en licenties standaard genormaliseerd met nieuwe aanbiedingen van Office 365-Services. Corresponderende Office 365-service-abonnementen worden aangeschaft voor de overgezete Duitsland-abonnementen. Gebruikers met een Duitsland-licentie worden de licenties voor Office 365-services toegewezen. Na voltooiing worden oudere Duitsland-abonnementen opgezegd en verwijderd van de huidige Office 365 Services-Tenant.
+- Wanneer de tenant wordt overgeleverd aan Office 365-services, worden de Duitsland-specifieke abonnementen en licenties gestandaardiseerd met nieuwe Office 365-services. Corresponderende Office 365-servicesabonnementen worden gekocht voor de overgedragen Duitsland-abonnementen. Gebruikers met Duitsland-licenties krijgen office 365-serviceslicenties toegewezen. Na voltooiing worden oudere Duitsland-abonnementen geannuleerd en verwijderd uit de huidige Office 365-servicesten tenant.
 
-- Na de migratie van de afzonderlijke belastingen wordt er extra functionaliteit beschikbaar via de Office 365-Services (zoals Microsoft planner en Microsoft flow) vanwege de nieuwe Office 365-Services-abonnementen. Als dit van toepassing is op uw organisatie, kan de beheerder van de Tenant of de licentieverlening nieuwe serviceplannen uitschakelen wanneer u gaat wijzigen voor wijzigingsbeheer om de nieuwe services te introduceren. Voor informatie over het uitschakelen van service-abonnementen die aan gebruikerslicenties zijn toegewezen, raadpleegt [u de toegang tot Microsoft 365-Services uitschakelen terwijl u gebruikerslicenties toewijst](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses).
+- Na de migratie van de afzonderlijke werkbelastingen wordt extra functionaliteit beschikbaar gesteld via de Office 365-services (zoals Microsoft Planner en Microsoft Flow) vanwege de nieuwe Office 365-servicesabonnementen. Indien van toepassing voor uw organisatie, kan de tenant of licentiebeheerder nieuwe serviceplannen uitschakelen terwijl u van plan bent het wijzigingsbeheer in te voeren voor de nieuwe services. Zie Toegang tot [Microsoft 365-services](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)uitschakelen tijdens het toewijzen van gebruikerslicenties voor informatie over het uitschakelen van serviceplannen die zijn toegewezen aan gebruikerslicenties.
 
 ## <a name="exchange-online"></a>Exchange Online
 
-- Exchange Resource-Url's overstappen van het oude Duitsland-eindpunt `outlook.office.de` naar het Office 365 service-eindpunt `outlook.office365.com` na de migratie. Uw gebruikers hebben toegang tot hun gemigreerde postvak via de oudere URL totdat de migratie is voltooid. Klanten moeten gebruikers zo snel mogelijk overzetten na een Exchange-migratie, zodat dit geen invloed heeft op de beëindiging van de Duitse omgeving. De Url's van Office 365-Services voor Outlook services worden pas beschikbaar nadat Exchange-migratie is gestart.
+- Exchange-resource-URL's gaan na de migratie over van het oude Eindpunt duitsland naar het `outlook.office.de` Office 365-services-eindpunt. `outlook.office365.com` Uw gebruikers kunnen hun gemigreerde postvak openen met behulp van de oudere URL totdat de migratie is voltooid. Klanten moeten gebruikers zo snel mogelijk overstappen op de nieuwe URL nadat exchange-migratie is gestart om te voorkomen dat de uittreding van de Duitse omgeving wordt beïnvloed. De URL's voor Office 365-services voor Outlook-services zijn alleen beschikbaar nadat de Exchange-migratie is gestart.
 
-- Postvakken worden gemigreerd als een back-upproces. Gebruikers in uw organisatie kunnen zich mogelijk in Microsoft Cloud Deutschland of in het Duitse gebied tijdens de overgang bevinden en maken deel uit van dezelfde Exchange-organisatie (in dezelfde algemene adreslijst).
+- Postvakken worden gemigreerd als back-mailproces. Gebruikers in uw organisatie kunnen tijdens de overgang in Microsoft Cloud Deutschland of de Duitse regio zijn en maken deel uit van dezelfde Exchange-organisatie (in dezelfde algemene adreslijst).
 
-- Gebruikers van de Outlook Web app die toegang krijgen tot de service via een URL waar hun postvak niet wordt weergegeven, zien een extra verificatie prompt. Als het postvak van de gebruiker bijvoorbeeld in Office 365-Services is en de Outlook Web App-verbinding van de gebruiker gebruikmaakt van het oude eindpunt `outlook.office.de` , wordt de gebruiker eerst geverifieerd `login.microsoftonline.de` en vervolgens aan `login.microsoftonline.com` . Wanneer de migratie is voltooid, heeft de gebruiker toegang tot de nieuwe URL ( `https://outlook.office365.com` ) en worden alleen de aanmeldingsaanvraag voor één keer weergegeven. 
+- Gebruikers van de Outlook Web App die toegang hebben tot de service met behulp van een URL waar hun postvak zich niet bevindt, krijgen een extra verificatieprompt te zien. Als het postvak van de gebruiker zich bijvoorbeeld in de Office 365-services en de Outlook Web App-verbinding van de gebruiker het oudere eindpunt gebruikt, wordt de gebruiker eerst geverifieerd bij en vervolgens bij `outlook.office.de` `login.microsoftonline.de` `login.microsoftonline.com` . Wanneer de migratie is voltooid, heeft de gebruiker toegang tot de nieuwe URL ( ) en ziet hij of zij alleen de enige, verwachte `https://outlook.office365.com` aanmeldingsaanvraag. 
 
-## <a name="office-services"></a>Office-services
+## <a name="office-services"></a>Office Services
 
-Office Online-Services zijn beschikbaar via `office.de` voor en tijdens de overgang. Wanneer gebruikerspostvakken overstappen naar Office 365-Services, moeten gebruikers hun Url's van Office 365 Services gaan gebruiken. Wanneer volgende belastingen worden gemigreerd naar Office 365-Services, begint de interface van de portal van office.com naar werken.
+Office Online-services zijn toegankelijk via `office.de` voor en tijdens de overgang. Nadat de postvakken van gebruikers zijn overgestappen naar de Office 365-services, moeten gebruikers URL's voor Office 365-services gaan gebruiken. Wanneer de volgende werkbelastingen worden gemigreerd naar Office 365-services, werkt de interface van de office.com portal.
 
 ## <a name="exchange-online-protection"></a>Exchange Online Protection
 
-- De back-end Exchange Online Protection (EOP)-functies worden gekopieerd naar de nieuwe Duitse regio.
-- Gebruikers van Office 365 beveiliging en compliance Center moeten gebruikers overstappen op het gebruik van globale Url's, `https://protection.office.com` als onderdeel van de migratie.
+- Back-end EOP-functies (Exchange Online Protection) worden gekopieerd naar de nieuwe regio Duitsland.
+- Gebruikers van het Office 365-beveiligings- en compliancecentrum moeten overstappen op het gebruik van algemene URL's, als onderdeel `https://protection.office.com` van de migratie.
 
 ## <a name="skype-for-business-online"></a>Skype voor Bedrijven Online
 
-Bestaande Skype voor bedrijven online-klanten zullen overstappen op Microsoft teams. Zie voor meer informatie [https://aka.ms/SkypeToTeams-Home](https://aka.ms/SkypeToTeams-Home) .
+Bestaande klanten van Skype voor Bedrijven Online gaan overstappen op Microsoft Teams. Zie [https://aka.ms/SkypeToTeams-Home](/microsoftteams/upgrade-start-here) .
 
 ## <a name="office-365-video"></a>Office 365 Video
 
-Video van Office 365 wordt buiten de kant 1, 2021 en de video van Office 365 buiten gebruik gesteld na de migratie van SharePoint Online naar de nieuwe Duitse datacenter regio's. Inhoud van Office 365 video wordt gemigreerd als onderdeel van het migreren van SharePoint Online. Video's in Office 365 video worden echter niet afgespeeld in de GEBRUIKERSINTERFACE van Office 365 voor Video's na de SharePoint-migratie. Meer informatie over de migratie tijdlijn van [Office 365 video overgang naar Microsoft stream (klassiek)-overzicht](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline).
+Office 365 Video wordt op 1 maart 2021 buiten gebruik genomen en Office 365 Video wordt niet ondersteund nadat de migratie van SharePoint Online naar de nieuwe Duitse datacenterregio's is voltooid. Inhoud van Office 365 Video wordt gemigreerd als onderdeel van de migratie van SharePoint Online. Video's in Office 365 Video worden echter niet meer afspelen in de Gebruikersinterface van Office 365 Video na de SharePoint-migratie. Meer informatie over de migratietijdlijn in [De overgang van Office 365 Video naar Microsoft Stream (klassiek) overzicht.](/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline)
 
 ## <a name="next-step"></a>Volgende stap
 
-[Meer informatie over de acties en effecten voor migratie fasen](ms-cloud-germany-transition-phases.md)
+[Acties en effecten van migratiefasen begrijpen](ms-cloud-germany-transition-phases.md)
 
 ## <a name="more-information"></a>Meer informatie
 
 Aan de slag:
 
-- [Migratie van Microsoft Cloud Deutschland naar Office 365-Services in de nieuwe Duitse datacenter gebieden](ms-cloud-germany-transition.md)
-- [Migratie ondersteuning voor Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
-- [Hoe kan ik me aanmelden voor migratie?](ms-cloud-germany-migration-opt-in.md)
+- [Migratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
+- [Microsoft Cloud Deutschland-migratiehulp](https://aka.ms/germanymigrateassist)
+- [Opt-in voor migratie](ms-cloud-germany-migration-opt-in.md)
 
-Door de overgang navigeren:
+Door de overgang lopen:
 
 - [Acties en effecten voor de migratiefasen](ms-cloud-germany-transition-phases.md)
-- [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
-- Aanvullende informatie over [Azure AD](ms-cloud-germany-transition-azure-ad.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- [Extra pre-work](ms-cloud-germany-transition-add-pre-work.md)
+- Aanvullende informatie voor [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [apparaten,](ms-cloud-germany-transition-add-devices.md) [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS.](ms-cloud-germany-transition-add-adfs.md)
 
 Cloud-apps:
 
-- [Dynamics 365-migratieprogramma gegevens](https://aka.ms/d365ceoptin)
-- [Informatie over migratieprogramma's voor Power BI](https://aka.ms/pbioptin)
-- [Aan de slag met uw upgrade naar Microsoft teams](https://aka.ms/SkypeToTeams-Home)
+- [Dynamics 365-migratieprogrammagegevens](/dynamics365/get-started/migrate-data-german-region)
+- [Informatie over power bi-migratieprogramma's](/power-bi/admin/service-admin-migrate-data-germany)
+- [Aan de slag met uw Microsoft Teams-upgrade](/microsoftteams/upgrade-start-here)

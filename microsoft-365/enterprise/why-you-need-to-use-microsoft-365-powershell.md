@@ -13,75 +13,75 @@ f1.keywords:
 - CSH
 ms.custom: ''
 ms.assetid: b3209b1a-40c7-4ede-8e78-8a88bb2adc8a
-description: 'Overzicht: begrijpen waarom u PowerShell moet gebruiken voor het beheren van Microsoft 365, in sommige gevallen efficiënter en in andere gevallen.'
-ms.openlocfilehash: d56a2cc47a06be911f1fd38aea3a557c631d2db0
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+description: 'Samenvatting: Begrijp waarom u PowerShell moet gebruiken om Microsoft 365 te beheren, in sommige gevallen efficiënter en in andere gevallen door noodzaak.'
+ms.openlocfilehash: a60220001a148b3a24a996bb6e0154f80214b019
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754104"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924586"
 ---
 # <a name="why-you-need-to-use-powershell-for-microsoft-365"></a>Waarom u PowerShell voor Microsoft 365 moet gebruiken
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Met het Microsoft 365-Beheercentrum kunt u uw gebruikersaccounts en licenties voor Microsoft 365 beheren. U kunt ook uw Microsoft 365-Services beheren, zoals Exchange Online, teams en SharePoint Online. Als u in plaats hiervan PowerShell gebruikt voor het beheren van deze services, kunt u gebruikmaken van de taal omgeving voor de opdrachtprompt en de scripts voor snelheid, automatisering en extra mogelijkheden.
+Met het Microsoft 365-beheercentrum kunt u uw Microsoft 365-gebruikersaccounts en -licenties beheren. U kunt ook uw Microsoft 365-services beheren, zoals Exchange Online, Teams en SharePoint Online. Als u in plaats daarvan PowerShell gebruikt om deze services te beheren, kunt u gebruikmaken van de taalomgeving voor opdrachtregel en scripting voor snelheid, automatisering en extra mogelijkheden.
   
-In dit artikel wordt uitgelegd hoe u PowerShell kunt gebruiken voor het beheren van Microsoft 365 voor:
+In dit artikel wordt beschreven hoe u PowerShell gebruikt om Microsoft 365 te beheren om:
   
-- Extra informatie weergeven die u niet kunt zien in het Microsoft 365-Beheercentrum
+- Meer informatie die u niet kunt zien in het Microsoft 365-beheercentrum
     
-- Configureer functies en instellingen alleen mogelijk met PowerShell
+- Functies en instellingen configureren alleen mogelijk met PowerShell
     
-- Bulk activiteiten uitvoeren
+- Bulkbewerkingen uitvoeren
     
 - Gegevens filteren
     
 - Gegevens afdrukken of opslaan
     
-- Meerdere services beheren
+- Beheren in verschillende services
     
-Houd er rekening mee dat PowerShell voor Microsoft 365 een set modules voor Windows PowerShell is, een opdrachtregelomgeving voor Windows-Services en platformen. In deze omgeving wordt een opdrachtshell taal gemaakt die kan worden uitgebreid met extra modules. U kunt eenvoudige of complexe opdrachten of scripts uitvoeren. Wanneer u bijvoorbeeld de modules PowerShell voor Microsoft 365 installeert en verbinding maakt met uw Microsoft 365-abonnement, kunt u de volgende opdracht uitvoeren om alle gebruikerspostvakken voor Microsoft Exchange Online weer te geven:
+Houd er rekening mee dat PowerShell voor Microsoft 365 een set modules is voor Windows PowerShell, een opdrachtregelomgeving voor Windows-services en -platforms. In deze omgeving wordt een opdrachtshelltaal gemaakt die kan worden uitgebreid met extra modules. Het biedt een manier om eenvoudige of complexe opdrachten of scripts uit te voeren. Nadat u bijvoorbeeld de PowerShell voor Microsoft 365-modules hebt geïnstalleerd en verbinding hebt gemaakt met uw Microsoft 365-abonnement, kunt u de volgende opdracht uitvoeren om alle gebruikerspostvakken voor Microsoft Exchange Online weer te geven:
   
 ```powershell
 Get-Mailbox
 ```
 
-U kunt ook de lijst met postvakken downloaden met behulp van het Microsoft 365-Beheercentrum, maar u kunt wel de items in alle lijsten tellen voor alle sites voor al uw web apps.
+U kunt ook de lijst met postvakken krijgen via het Microsoft 365-beheercentrum, maar het tellen van de items in alle lijsten voor alle sites voor al uw web-apps is niet eenvoudig.
   
-PowerShell voor Microsoft 365 is bedoeld voor hulp bij het beheren van Microsoft 365, het niet vervangen van het Microsoft 365-Beheercentrum. Beheerders moeten PowerShell voor Microsoft 365 kunnen gebruiken, omdat er enkele configuratieprocedures zijn die alleen kunnen worden uitgevoerd via de PowerShell-opdrachten voor Microsoft 365. Voor deze gevallen moet u weten hoe u het volgende kunt doen:
+PowerShell voor Microsoft 365 is ontworpen om u te helpen Microsoft 365 te beheren, niet om het Microsoft 365-beheercentrum te vervangen. Beheerders moeten PowerShell voor Microsoft 365 kunnen gebruiken, omdat er enkele configuratieprocedures zijn die alleen kunnen worden uitgevoerd via PowerShell voor Microsoft 365-opdrachten. Voor deze gevallen moet u weten hoe u:
   
-- Installeer de PowerShell voor Microsoft 365-modules (slechts één keer uitgevoerd voor elke beheerders computer).
+- Installeer de PowerShell voor Microsoft 365-modules (slechts één keer uitgevoerd voor elke beheerderscomputer).
     
 - Maak verbinding met uw Microsoft 365-abonnement (één keer voor elke PowerShell-sessie).
     
-- Verzamel de gegevens die u nodig hebt om de vereiste PowerShell voor Microsoft 365-opdrachten uit te voeren.
+- Verzamel de gegevens die nodig zijn om de vereiste PowerShell-opdrachten voor Microsoft 365 uit te voeren.
     
-- Voer PowerShell voor Microsoft 365-opdrachten uit.
+- PowerShell voor Microsoft 365-opdrachten uitvoeren.
     
-Wanneer u deze basisvaardigheden hebt leren, hoeft u uw postvak gebruikers niet te vermelden met de opdracht **Get-postvak** . U hoeft ook niet te leren hoe u een nieuwe opdracht kunt maken, zoals met de opdracht eerder is vermeld voor het tellen van alle items in alle lijsten voor alle sites van alle webapps. Microsoft en de community van beheerders kunnen u helpen bij het uitvoeren van dergelijke taken.
+Nadat u deze basisvaardigheden hebt geleerd, hoeft u uw postvakgebruikers niet op te geven met behulp van de **opdracht Postvak** krijgen. U hoeft ook niet te begrijpen hoe u een nieuwe opdracht maakt, zoals de opdracht die eerder is geciteerd om alle items in alle lijsten voor alle sites voor al uw web-apps te tellen. Microsoft en de community van beheerders kunnen u zo nodig helpen met dergelijke taken.
   
-## <a name="powershell-for-microsoft-365-can-reveal-information-that-you-cant-see-with-the-microsoft-365-admin-center"></a>PowerShell voor Microsoft 365 kan informatie onthullen die u niet kunt zien in het Microsoft 365-Beheercentrum
+## <a name="powershell-for-microsoft-365-can-reveal-information-that-you-cant-see-with-the-microsoft-365-admin-center"></a>PowerShell voor Microsoft 365 kan informatie onthullen die u niet kunt zien met het Microsoft 365-beheercentrum
 
-In het Microsoft 365-Beheercentrum wordt veel nuttige informatie weergegeven. In deze weergave worden niet alle mogelijke informatie weergegeven die Microsoft 365 biedt over gebruikers, licenties, postvakken en sites. Hier ziet u een voorbeeld van *gebruikers en groepen* in het microsoft 365-Beheercentrum:
+Het Microsoft 365-beheercentrum bevat veel nuttige informatie. Er worden echter niet alle mogelijke gegevens weergegeven die microsoft 365 op slaat over gebruikers, licenties, postvakken en sites. Hier is een voorbeeld voor *gebruikers en groepen* in het Microsoft 365-beheercentrum:
   
-![Voorbeeld van de weergave van gebruikers en groepen in het Microsoft 365-Beheercentrum.](../media/o365-powershell-users-and-groups.png)
+![Voorbeeld van de weergave van gebruikers en groepen in het Microsoft 365-beheercentrum.](../media/o365-powershell-users-and-groups.png)
   
-Deze weergave bevat de informatie die u nodig hebt in een groot aantal gevallen. Er zijn echter situaties waarin u meer nodig hebt. Microsoft 365 Licensing (en de Microsoft 365-functies die beschikbaar zijn voor een gebruiker), is bijvoorbeeld afhankelijk van de geografische locatie van de gebruiker. De beleidsregels en functies die u kunt verlengen naar een gebruiker die niet in de Verenigde Staten woont, zijn mogelijk niet hetzelfde als de gebruikers die u in India of in België kunt uitbreiden. Voer de volgende stappen uit in het Microsoft 365-Beheercentrum om de geografische locatie van een gebruiker te bepalen:
+Deze weergave bevat de informatie die u in veel gevallen nodig hebt. Er zijn echter momenten waarop u meer nodig hebt. Microsoft 365-licenties (en de Microsoft 365-functies die beschikbaar zijn voor een gebruiker) zijn bijvoorbeeld deels afhankelijk van de geografische locatie van de gebruiker. Het beleid en de functies die u kunt uitbreiden naar een gebruiker die in de Verenigde Staten woont, zijn mogelijk niet hetzelfde als het beleid dat u kunt uitbreiden naar een gebruiker in India of België. Volg deze stappen in het Microsoft 365-beheercentrum om de geografische locatie van een gebruiker te bepalen:
   
-1. Dubbelklik op de **weergavenaam**van de gebruiker.
+1. Dubbelklik op de weergavenaam **van de gebruiker.**
     
-2. Selecteer in het deelvenster weergave van de gebruikerseigenschappen de optie **Details**.
+2. Selecteer details in het weergavevenster **gebruikerseigenschappen.**
     
-3. Selecteer **extra details**in het detail scherm.
+3. Selecteer in de detailweergave **aanvullende details.**
     
-4. Schuif totdat u het **land of de regio**van de kop vindt:
+4. Scroll totdat u de kop **Land of regio hebt gevonden:**
     
-     ![Voorbeeld van de regiogegevens voor een gebruiker in het Microsoft 365-Beheercentrum.](../media/o365-powershell-usage-location.png)
+     ![Voorbeeld van de regiogegevens voor een gebruiker in het Microsoft 365-beheercentrum.](../media/o365-powershell-usage-location.png)
   
-5. Schrijf de weergavenaam en locatie van de gebruiker op een vel papier, of kopieer en plak deze in Kladblok.
+5. Schrijf de weergavenaam en locatie van de gebruiker op een stuk papier of kopieer en plak deze in Kladblok.
     
-Voor elke gebruiker moet u deze procedure herhalen. Als u veel gebruikers hebt, kan dit een zeer vervelend proces zijn. Met PowerShell voor Microsoft 365 kunt u deze informatie voor al uw gebruikers weergeven met behulp van de volgende opdracht:
+U moet deze procedure voor elke gebruiker herhalen. Als u veel gebruikers hebt, kan dit proces vervelend zijn. Met PowerShell voor Microsoft 365 kunt u deze informatie voor al uw gebruikers weergeven met de volgende opdracht:
   
 ```powershell
 Get-AzureADUser | Select DisplayName, UsageLocation
@@ -89,10 +89,10 @@ Get-AzureADUser | Select DisplayName, UsageLocation
 
 
 >[!Note]
->PowerShell core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met *MSOL* in de naam. U dient deze cmdlets uit te voeren vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory Module voor Windows PowerShell-module en cmdlets met *Msol* in hun naam. U moet deze cmdlets uitvoeren vanuit Windows PowerShell.
 >
 
-Hier ziet u een voorbeeld van de resultaten:
+Hier volgen een voorbeeld van de resultaten:
   
 ```powershell
 DisplayName                               UsageLocation
@@ -105,15 +105,15 @@ Alex Darrow                               US
 David Longmuir                            BR
 ```
 
-De uitleg van deze PowerShell-opdracht is: alle gebruikers in het huidige Microsoft 365-abonnement (**Get-AzureADUser**) krijgen, maar alleen de naam en de locatie weergeven voor elke gebruiker (**Select DisplayName, UsageLocation**).
+De interpretatie van deze PowerShell-opdracht is: Alle gebruikers in het huidige Microsoft 365-abonnement **(Get-AzureADUser)** krijgen, maar alleen de naam en locatie voor elke gebruiker weergeven **(Selecteer DisplayName, UsageLocation).**
   
-Aangezien PowerShell voor Microsoft 365 ondersteuning biedt voor een schakeloptie voor de shell, kunt u de gegevens die zijn verkregen met de opdracht **Get-AzureADUser** , verder bewerken. Bijvoorbeeld: u wilt deze gebruikers sorteren op hun locatie, met alle Braziliaanse gebruikers samen, alle gebruikers van de Verenigde Staten, enzovoort. Dit is de opdracht:
+Omdat PowerShell voor Microsoft 365 een opdrachtshelltaal ondersteunt, kunt u de gegevens die zijn verkregen met de **opdracht Get-AzureADUser verder** bewerken. Misschien wilt u deze gebruikers bijvoorbeeld sorteren op hun locatie, alle Braziliaanse gebruikers groeperen, alle Amerikaanse gebruikers bij elkaar, en ga zo maar door. Hier is de opdracht:
   
 ```powershell
 Get-AzureADUser | Select DisplayName, UsageLocation | Sort UsageLocation, DisplayName
 ```
 
-Hier ziet u een voorbeeld van de resultaten:
+Hier volgen een voorbeeld van de resultaten:
   
 ```powershell
 DisplayName                                 UsageLocation
@@ -126,15 +126,15 @@ Anne Wallace                                US
 Brian Johnson (TAILSPIN)                    US
 ```
 
-De uitleg van deze PowerShell-opdracht luidt als volgt: alle gebruikers in het huidige Microsoft 365-abonnement krijgen, maar alleen de naam en de locatie weergeven voor elke gebruiker en ze eerst sorteren op hun locatie en vervolgens de naam van een gebruiker (**sorteren UsageLocation, DisplayName**).
+De interpretatie van deze PowerShell-opdracht is: Alle gebruikers in het huidige Microsoft 365-abonnement krijgen, maar alleen de naam en locatie voor elke gebruiker weergeven en eerst sorteren op hun locatie en vervolgens op hun naam **(Sort UsageLocation, DisplayName).**
   
-U kunt ook extra filters gebruiken. Als u bijvoorbeeld alleen informatie wilt weergeven over gebruikers die op basis van Brazilië werken, gebruikt u deze opdracht:
+U kunt ook extra filteren gebruiken. Als u bijvoorbeeld alleen informatie wilt zien over gebruikers die in Brazilië zijn gevestigd, gebruikt u deze opdracht:
   
 ```powershell
 Get-AzureADUser | Where {$_.UsageLocation -eq "BR"} | Select DisplayName, UsageLocation 
 ```
 
-Hier ziet u een voorbeeld van de resultaten:
+Hier volgen een voorbeeld van de resultaten:
   
 ```powershell
 DisplayName                                           UsageLocation
@@ -143,130 +143,130 @@ David Longmuir                                        BR
 Fabrice Canel                                         BR
 ```
 
-De uitleg van deze PowerShell-opdracht luidt als volgt: Hiermee krijgt u alle gebruikers in het huidige Microsoft 365-abonnement te zien, waarvan de locatie Brazilië is (**waarbij {$ \_ . UsageLocation-EQ "BR"}**) en geef vervolgens de naam en de locatie voor elke gebruiker weer.
+De interpretatie van deze PowerShell-opdracht is: Alle gebruikers in het huidige Microsoft 365-abonnement krijgen waarvan de locatie Brazilië is (**Where {$ \_ . UsageLocation -eq "BR"}**) en geef vervolgens de naam en locatie weer voor elke gebruiker.
   
- **Een opmerking over grote domeinen**
+ **Een notitie over grote domeinen**
   
-Als u een groot domein hebt met tientallen gebruikers, kunt u een aantal voorbeelden van de voorbeelden in dit artikel weergeven als u wilt beperken. Op basis van factoren zoals computervermogen en de beschikbare bandbreedte van het netwerk kunt u te veel tegelijk doen. Grote organisaties willen wellicht sommige van deze PowerShell-bewerkingen in twee opdrachten verdelen.
+Als u een groot domein met tienduizenden gebruikers hebt, kan het proberen van enkele voorbeelden in dit artikel leiden tot beperking. Op basis van factoren zoals rekenkracht en beschikbare netwerkbandbreedte probeert u mogelijk te veel tegelijk te doen. Grote organisaties willen sommige van deze PowerShell-bewerkingen mogelijk splitsen in twee opdrachten.
 
-Met de volgende opdracht worden bijvoorbeeld alle gebruikersaccounts weergegeven en worden voor elke gebruiker de naam en de locatie weergegeven:
+De volgende opdracht retourneert bijvoorbeeld alle gebruikersaccounts en geeft de naam en locatie voor elk account weer:
   
 ```powershell
 Get-AzureADUser | Select DisplayName, UsageLocation
 ```
 
-Dit werkt prima voor kleinere domeinen. Maar in een grote organisatie wilt u de werking mogelijk in twee opdrachten verdelen: één opdracht voor het opslaan van de informatie over de gebruikersaccounts in een variabele en een andere opdracht voor het weergeven van de benodigde informatie. Hier ziet u een voorbeeld:
+Dat werkt prima voor kleinere domeinen. Maar in een grote organisatie kunt u deze bewerking opsplitsen in twee opdrachten: één opdracht om de gebruikersaccountgegevens op te slaan in een variabele en een andere opdracht om de benodigde informatie weer te geven. Hier is een voorbeeld:
   
 ```powershell
 $x = Get-AzureADUser
 $x | Select DisplayName, UsageLocation
 ```
 
-De uitleg van deze reeks PowerShell-opdrachten luidt als volgt:
-1. Alle gebruikers in het huidige Microsoft 365-abonnement krijgen en de informatie opslaan in een variabele met de naam $x (**$x = Get-AzureADUser**).
-1.  De inhoud van de variabele *$x*weergeven, maar alleen de naam en de locatie opnemen voor elke gebruiker (**$x | Selecteer DisplayName, UsageLocation**).
+De interpretatie van deze set PowerShell-opdrachten is:
+1. Alle gebruikers in het huidige Microsoft 365-abonnement downloaden en de gegevens opslaan in een variabele met de naam $x (**$x = Get-AzureADUser**).
+1.  De inhoud van de variabele $x *weergeven,* maar alleen de naam en locatie voor elke gebruiker (**$x | Selecteer DisplayName, UsageLocation**).
   
-## <a name="microsoft-365-has-features-that-you-can-only-configure-with-powershell-for-microsoft-365"></a>Microsoft 365 bevat functies die alleen kunnen worden geconfigureerd met PowerShell voor Microsoft 365
+## <a name="microsoft-365-has-features-that-you-can-only-configure-with-powershell-for-microsoft-365"></a>Microsoft 365 heeft functies die u alleen kunt configureren met PowerShell voor Microsoft 365
 
-Het Microsoft 365-Beheercentrum is bedoeld om toegang te bieden tot veelvoorkomende, nuttige beheertaken die op de meeste omgevingen van toepassing zijn. Met andere woorden: het Microsoft 365-Beheercentrum is zo ontworpen dat de typische beheerder de meest voorkomende beheertaken kan uitvoeren. Er zijn echter wel enkele taken die niet in het Beheercentrum kunnen worden uitgevoerd.
+Het Microsoft 365-beheercentrum is bedoeld om toegang te bieden tot algemene, nuttige beheertaken die van toepassing zijn op de meeste omgevingen. Met andere woorden, het Microsoft 365-beheercentrum is zo ontworpen dat de gewone beheerder de meest voorkomende beheertaken kan uitvoeren. Er zijn echter enkele taken die niet kunnen worden uitgevoerd in het beheercentrum.
   
-Het Skype voor bedrijven online-Beheercentrum biedt bijvoorbeeld een paar opties voor het maken van aangepaste uitnodigingen voor vergaderingen:
+Het beheercentrum van Skype voor Bedrijven Online biedt bijvoorbeeld een aantal opties voor het maken van aangepaste uitnodigingen voor een vergadering:
   
-![Voorbeeld van de weergave van aangepaste uitnodigingen voor vergaderingen in het Skype voor bedrijven online-Beheercentrum.](../media/o365-powershell-meeting-invitation.png)
+![Voorbeeld van de weergave van aangepaste uitnodigingen voor een vergadering in het Skype voor Bedrijven Online-beheercentrum.](../media/o365-powershell-meeting-invitation.png)
   
-Met deze instellingen kunt u een aanraakscherm voor uitnodigingen voor vergaderingen toevoegen. Er zijn echter meer instellingen voor de configuratie van de vergadering, maar u kunt alleen aangepaste uitnodigingen voor vergaderingen maken. In het volgende voorbeeld is het bijvoorbeeld mogelijk dat vergaderingen:
+Met deze instellingen kunt u een vleugje persoonlijke instellingen en professionaliteit toevoegen aan uitnodigingen voor een vergadering. Maar er is meer aan instellingen voor vergaderingsconfiguraties dan alleen het maken van aangepaste uitnodigingen voor een vergadering. Vergaderingen staan bijvoorbeeld standaard het volgende toe:
   
-- Anonieme gebruikers om automatisch toegang tot elke vergadering te krijgen.
+- Anonieme gebruikers om automatisch toegang te krijgen tot elke vergadering.
     
-- Deelnemers kunnen de vergadering opnemen.
+- Deelnemers om de vergadering op te nemen.
     
-- Alle gebruikers in uw organisatie die als presentator worden aangewezen wanneer ze deelnemen aan de vergadering.
+- Alle gebruikers van uw organisatie die als presentator moeten worden aangewezen wanneer ze deelnemen aan de vergadering.
     
-Deze instellingen zijn niet beschikbaar in het Skype voor bedrijven online-Beheercentrum. U kunt ze beheren via PowerShell voor Microsoft 365. Dit is een opdracht waarmee u deze drie instellingen uitschakelt:
+Deze instellingen zijn niet beschikbaar in het Skype voor Bedrijven Online-beheercentrum. U kunt ze bedienen vanuit PowerShell voor Microsoft 365. Hier is een opdracht die deze drie instellingen uit schakelt:
   
 ```powershell
 Set-CsMeetingConfiguration -AdmitAnonymousUsersByDefault $False -AllowConferenceRecording $False -DesignateAsPresenter "None"
 ```
 
 > [!NOTE]
-> Om deze opdracht uit te voeren, moet u de [PowerShell-module voor Skype voor bedrijven online ](https://www.microsoft.com/download/details.aspx?id=39366)installeren.
+> Als u deze opdracht wilt uitvoeren, moet u de [Skype voor Bedrijven Online PowerShell-module installeren. ](https://www.microsoft.com/download/details.aspx?id=39366)
   
-De uitleg van deze PowerShell-opdracht luidt als volgt:
+De interpretatie van deze PowerShell-opdracht is:
  
-1. Via de instellingen voor nieuwe vergaderingen in Skype voor bedrijven online (**set-CsMeetingConfiguration**) kunt u instellen dat anonieme gebruikers automatische toegang hebben tot vergaderingen (**-AdmitAnonymousUsersByDefault $False**).
-2.  De mogelijkheid voordeel nemers uitschakelen voor het opnemen van vergaderingen (**-AllowConferenceRecording $False**).
-3. Wijs niet alle gebruikers in uw organisatie aan als presentatoren (**-DesignateAsPresenter "geen"**).
+1. Schakel in de instellingen voor nieuwe Skype voor Bedrijven **Online-vergaderingen (Set-CsMeetingConfiguration)** uit dat anonieme gebruikers automatisch toegang krijgen tot vergaderingen (**-AdmitAnonymousUsersByDefault $False).**
+2.  De mogelijkheid uitschakelen voor deelnemers om vergaderingen op te nemen (**-AllowConferenceRecording $False).**
+3. Wijs niet alle gebruikers uit uw organisatie aan als presentatoren (**-DesignateAsPresenter "None"**).
   
-Voer de volgende opdracht uit om deze standaardinstellingen te herstellen (opties in te schakelen):
+Als u deze standaardinstellingen wilt herstellen (de opties inschakelen), gaat u als volgende opdracht te werk:
   
 ```powershell
 Set-CsMeetingConfiguration -AdmitAnonymousUsersByDefault $True -AllowConferenceRecording $True -DesignateAsPresenter "Company"
 ```
 
-Daarnaast zijn er andere soortgelijke scenario's, wat wil zeggen dat beheerders weten dat de PowerShell voor Microsoft 365-opdrachten moet worden uitgevoerd.
+Er zijn ook andere soortgelijke scenario's. Daarom moeten beheerders weten hoe ze PowerShell voor Microsoft 365-opdrachten moeten uitvoeren.
   
-## <a name="powershell-for-microsoft-365-is-great-for-bulk-operations"></a>PowerShell voor Microsoft 365 is ideaal voor bulkbewerkingen
+## <a name="powershell-for-microsoft-365-is-great-for-bulk-operations"></a>PowerShell voor Microsoft 365 is zeer goed voor bulkbewerkingen
 
-Voorbeeld van een visuele interface, zoals het Microsoft 365-Beheercentrum, zijn zeer waardevol wanneer u één bewerking moet uitvoeren. Als u bijvoorbeeld één gebruikersaccount moet uitschakelen, kunt u het Beheercentrum gebruiken om snel een selectievakje te zoeken en uit te schakelen. Dit kan eenvoudiger zijn dan een soortgelijke bewerking uitvoeren in PowerShell.
+Visuele interfaces, zoals het Microsoft 365-beheercentrum, zijn het meest waardevol wanneer u één bewerking moet uitvoeren. Als u bijvoorbeeld één gebruikersaccount wilt uitschakelen, kunt u het beheercentrum gebruiken om snel een selectievakje te zoeken en uit te schakelen. Dit kan eenvoudiger zijn dan het uitvoeren van een soortgelijke bewerking in PowerShell.
   
-Als u een groot aantal zaken of bepaalde items binnen een groot aantal andere zaken moet wijzigen, is het mogelijk dat het Microsoft 365-Beheercentrum niet de beste functie is. Stel dat u het voorvoegsel van duizenden telefoonnummers moet wijzigen of dat u de specifieke gebruikers van *Myer* wilt verwijderen van al uw SharePoint Online-sites. Hoe doet u dat in het Microsoft 365-Beheercentrum?
+Maar als u veel dingen of bepaalde geselecteerde dingen binnen een grote reeks andere dingen moet wijzigen, is het Microsoft 365-beheercentrum mogelijk niet het beste hulpmiddel. Stel dat u het voorvoegsel voor duizenden telefoonnummers moet wijzigen of de specifieke gebruiker *Ken Myer* moet verwijderen van al uw SharePoint Online-sites. Hoe zou u dat doen in het Microsoft 365-beheercentrum?
   
-Stel dat u in het laatste voorbeeld meerdere honderd SharePoint Online-sites hebt en weet u niet welke Meyer lid is van de SharePoint Online-sites. U moet eerst beginnen bij het Beheercentrum van Microsoft 365 en vervolgens deze procedure uitvoeren voor elke site:
+In het laatste voorbeeld zegt u dat u enkele honderden SharePoint Online-sites hebt en u niet weet waar Ken Meyer lid van is. U moet beginnen bij het Microsoft 365-beheercentrum en vervolgens deze procedure voor elke site uitvoeren:
   
 1. Selecteer de **URL** van de site.
     
-2. Selecteer in het vak Eigenschappen van de **siteverzameling** de koppeling naar het **adres** van de website om de site te openen.
+2. Selecteer in **het vak Eigenschappen van** de siteverzameling de koppeling Adres van **website** om de site te openen.
     
-3. Selecteer **delen**op de site.
+3. Selecteer delen op **de** site.
     
-4. Selecteer in het dialoogvenster **delen** de koppeling met alle gebruikers die de juiste machtigingen hebben voor de site:
+4. Selecteer in **het** dialoogvenster Delen de koppeling met alle gebruikers met machtigingen voor de site:
     
-     ![Voorbeeld van het weergeven van de leden van een SharePoint Online-site in het SharePoint Online-Beheercentrum.](../media/o365-powershell-view-permissions.png)
+     ![Voorbeeld van het weergeven van de leden van een SharePoint Online-site in het SharePoint Online-beheercentrum.](../media/o365-powershell-view-permissions.png)
   
-5. Selecteer in het dialoogvenster **gedeeld met** de optie **Geavanceerd**.
+5. Selecteer geavanceerd **in het** dialoogvenster Gedeeld **met.**
     
-6. Blader omlaag in de lijst met gebruikers, zoek en selecteer Ken Myer (ervan uitgaand dat hij of zij machtigingen heeft voor de site), en selecteer **Gebruikersmachtigingen verwijderen**.
+6. Schuif omlaag in de lijst met gebruikers, zoek en selecteer Ken Myer (ervan uitgaande dat hij machtigingen voor de site heeft) en selecteer **gebruikersmachtigingen verwijderen.**
     
-Dit kan *veel* tijd in beslag nemen voor honderden sites.
+Dit duurt lang *voor* enkele honderden sites.
   
-U kunt ook de volgende opdracht uitvoeren in PowerShell voor Microsoft 365 om ken Myer van al uw sites te verwijderen:
+Het alternatief is om de volgende opdracht uit te voeren in PowerShell voor Microsoft 365 om Ken Myer van al uw sites te verwijderen:
   
 ```powershell
 Get-SPOSite | ForEach {Remove-SPOUser -Site $_.Url -LoginName "kenmyer@litwareinc.com"}
 ```
 
 > [!NOTE]
-> Voor deze opdracht moet u de [PowerShell-module van SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)installeren. 
+> Voor deze opdracht moet u de [SharePoint Online PowerShell-module installeren.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) 
   
-De uitleg van deze PowerShell-opdracht luidt als volgt: alle SharePoint-sites in het huidige Microsoft 365-abonnement (**Get-SPOSite**) krijgen en voor elke site Verwijder ken de Meyer uit de lijst met gebruikers die toegang hebben tot de PowerShell **-site $ \_ . URL-login "kenmyer \@ litwareinc.com"}**).
+De interpretatie van deze PowerShell-opdracht is: Haal alle SharePoint-sites in het huidige Microsoft 365-abonnement **(Get-SPOSite)** op en verwijder Ken Meyer voor elke site uit de lijst met gebruikers die er toegang toe hebben (**ForEach {Remove-SPOUser -Site $ \_ . Url -LoginName "kenmyer \@ litwareinc.com"}**).
   
-Microsoft 365 vertelt Microsoft het verwijderen van Ken Meyer van elke site, met inbegrip van de personen aan wie hij of zij geen toegang hebben. Daarom geven de resultaten fouten weer voor de sites waartoe hij geen toegang heeft. We kunnen op deze opdracht een extra voorwaarde gebruiken om Ken Meyer alleen te verwijderen van de sites die deze persoon hebben op hun aanmeldingslijst. Maar de fouten die worden geretourneerd, veroorzaken geen schade voor de sites zelf. Het kan een paar minuten duren voordat de opdracht is uitgevoerd op honderden sites, in plaats van uren via het Microsoft 365-Beheercentrum.
+We vertellen Microsoft 365 om Ken Meyer van elke site te verwijderen, inclusief de site waar hij geen toegang toe heeft. In de resultaten worden dus fouten voor die sites weer te geven die hij niet kan gebruiken. We kunnen een aanvullende voorwaarde voor deze opdracht gebruiken om Ken Meyer alleen te verwijderen van de sites met hem in hun aanmeldingslijst. Maar de fouten die worden geretourneerd, veroorzaken geen schade aan de sites zelf. Het kan enkele minuten duren voordat deze opdracht wordt uitgevoerd op honderden sites, in plaats van uren te werken via het Microsoft 365-beheercentrum.
   
-Hier is nog een voorbeeld van een bulkbewerking. Gebruik deze opdracht om *Bonnie Kearney*, een nieuwe SharePoint-beheerder, toe te voegen aan alle sites in de organisatie:
+Hier is nog een voorbeeld van bulkbewerking. Gebruik deze opdracht om *Bonnie Kearney*, een nieuwe SharePoint-beheerder, toe te voegen aan alle sites in de organisatie:
   
 ```powershell
 Get-SPOSite | ForEach {Add-SPOUser -Site $_.Url -LoginName "bkearney@litwareinc.com" -Group "Members"}
 ```
 
-De uitleg van deze PowerShell-opdracht is: alle SharePoint-sites in het huidige Microsoft 365-abonnement verkrijgen en voor elke site toestaan dat Bonnie Kearney toegang is door de naam van de gebruiker toe te voegen aan de groep leden van de site (**foreach {add-partner-site $ \_ . URL-login "bkearney \@ litwareinc.com"-groep "leden"}**).
+De interpretatie van deze PowerShell-opdracht is: Haal alle SharePoint-sites in het huidige Microsoft 365-abonnement op en sta bonnie Kearney voor elke site toegang toe door haar aanmeldingsnaam toe te voegen aan de groep Leden van de site (**ForEach {Add-SPOUser -Site $ \_ . Url -LoginName "bkearney \@ litwareinc.com" -Group "Members"}**).
   
-## <a name="powershell-for-microsoft-365-is-great-at-filtering-data"></a>PowerShell voor Microsoft 365 is geweldig bij het filteren van gegevens
+## <a name="powershell-for-microsoft-365-is-great-at-filtering-data"></a>PowerShell voor Microsoft 365 is zeer goed in het filteren van gegevens
 
-Met het Microsoft 365-Beheercentrum kunt u de gegevens op verschillende manieren filteren, zodat u gemakkelijk een gerichte subset met gegevens kunt vinden. Met Exchange kunt u bijvoorbeeld eenvoudig filteren op vrijwel elke eigenschap van een gebruikerspostvak. Hier ziet u bijvoorbeeld de lijst met postvakken voor alle gebruikers die in de stad van Bloomington wonen:
+Het Microsoft 365-beheercentrum biedt verschillende manieren om uw gegevens te filteren om eenvoudig een gerichte subset met informatie te vinden. Met Exchange kunt u bijvoorbeeld eenvoudig filteren op vrijwel elke eigenschap van een gebruikerspostvak. Hier is bijvoorbeeld de lijst met postvakken voor alle gebruikers die in de stad Bloomington wonen:
   
-![Voorbeeld van het gebruik van Geavanceerd zoeken in het Microsoft 365-Beheercentrum voor de lijst met postvakken voor alle gebruikers die in de Bloomington van de stad wonen.](../media/o365-powershell-advanced-search.png)
+![Voorbeeld van een geavanceerde zoekopdracht in het Microsoft 365-beheercentrum voor de lijst met postvakken voor alle gebruikers die in de stad Bloomington wonen.](../media/o365-powershell-advanced-search.png)
   
-In het Exchange-Beheercentrum kunt u ook filtercriteria combineren. U vindt bijvoorbeeld de postvakken voor alle personen die in Bloomington wonen en werken op de afdeling Financiën.
+In het Exchange-beheercentrum kunt u ook filtercriteria combineren. U kunt bijvoorbeeld de postvakken vinden voor alle personen die in Bloomington wonen en op de afdeling Financiën werken.
   
-Maar er zijn beperkingen voor wat u kunt doen in het Exchange-Beheercentrum. U kunt bijvoorbeeld niet snel de postvakken vinden van personen die in Bloomington *of* San Diego, of naar de postvakken van alle personen die niet in Bloomington wonen.
+Maar er zijn beperkingen voor wat u kunt doen in het Exchange-beheercentrum. U kunt bijvoorbeeld niet zo gemakkelijk de postvakken vinden van personen die in *Bloomington* of San Diego wonen, of de postvakken voor alle personen die niet in Bloomington wonen.
   
-U kunt de volgende PowerShell voor Microsoft 365-opdracht gebruiken voor het weergeven van een lijst met postvakken voor alle personen die in Bloomington of San Diego wonen:
+U kunt de volgende PowerShell voor Microsoft 365-opdracht gebruiken om een lijst met postvakken te krijgen voor alle personen die in Bloomington of San Diego wonen:
   
 ```powershell
 Get-User | Where {$_.RecipientTypeDetails -eq "UserMailbox" -and ($_.City -eq "San Diego" -or $_.City -eq "Bloomington")} | Select DisplayName, City
 ```
 
-Hier ziet u een voorbeeld van de resultaten:
+Hier volgen een voorbeeld van de resultaten:
   
 ```powershell
 DisplayName                              City
@@ -277,15 +277,15 @@ Julian Isla                              Bloomington
 Rob Young                                Bloomington
 ```
 
-De uitleg van deze PowerShell-opdracht luidt als volgt: alle gebruikers in het huidige Microsoft 365-abonnement met een postvak in de stad van San Diego of Bloomington (**waarbij {$ \_ . RecipientTypeDetails-EQ "User Mailbox"-en ($ \_ . City-EQ "San Diego"-of $ \_ . Plaats-EQ "Bloomington")}**) en geef vervolgens de naam en plaats voor elk (**Selecteer DisplayName, plaats**).
+De interpretatie van deze PowerShell-opdracht is: Alle gebruikers in het huidige Microsoft 365-abonnement krijgen die een postvak hebben in de stad San Diego of Bloomington (**Where {$ \_ . RecipientTypeDetails -eq "UserMailbox" -and ($ \_ ). City -eq "San Diego" -of $ \_ . Plaats -eq "Bloomington")} )** en geef vervolgens de naam en de plaats weer voor elk **(Selecteer DisplayName, Plaats).**
   
-Dit is de opdracht voor het weergeven van alle postvakken voor personen die overal wonen, met uitzondering van Bloomington:
+En hier is de opdracht om alle postvakken weer te geven voor mensen die ergens wonen, behalve Bloomington:
   
 ```powershell
 Get-User | Where {$_.RecipientTypeDetails -eq "UserMailbox" -and $_.City -ne "Bloomington"} | Select DisplayName, City
 ```
 
-Hier ziet u een voorbeeld van de resultaten:
+Hier volgen een voorbeeld van de resultaten:
   
 ```powershell
 DisplayName                               City
@@ -304,71 +304,71 @@ Garth Fort                                Tulsa
 Janet Schorr                              Bellevue
 ```
 
-De uitleg van deze PowerShell-opdracht luidt als volgt: alle gebruikers in het huidige Microsoft 365-abonnement krijgen die een postvak hebben dat zich niet in de plaats van Bloomington bevindt (**waarbij {$ \_ . RecipientTypeDetails-EQ "User Mailbox"-en $ \_ . Plaats-ne "Bloomington"}**) en geef vervolgens de naam en plaats op voor elk.
+De interpretatie van deze PowerShell-opdracht is: Alle gebruikers in het huidige Microsoft 365-abonnement krijgen die een postvak hebben dat zich niet in de stad Bloomington bevindt (**Where {$ \_ . RecipientTypeDetails -eq "UserMailbox" -and $ \_ . Plaats -ne "Bloomington"} )** en geef vervolgens de naam en de plaats weer voor elk.
   
 ### <a name="use-wildcards"></a>Jokertekens gebruiken
 
-U kunt ook jokertekens in uw PowerShell-filters gebruiken om een deel van een naam te vinden. Stel dat u op zoek bent naar een gebruikersaccount. U kunt ook onthouden dat de achternaam van de gebruiker *Anderson* of misschien *Henderson* of *Jorgenson*.
+U kunt ook jokertekens in uw PowerShell-filters gebruiken om een deel van een naam aan te passen. Stel dat u een gebruikersaccount zoekt. Alles wat u zich kunt herinneren is dat de achternaam van de gebruiker *Was Anderson* of misschien *Henderson* of *Jorgenson.*
   
-U kunt deze gebruiker in het Microsoft 365-Beheercentrum bijhouden met behulp van het hulpprogramma zoeken en drie verschillende zoekopdrachten uitvoeren:
+U kunt die gebruiker in het Microsoft 365-beheercentrum vinden met behulp van het zoekprogramma en drie verschillende zoekopdrachten uitvoeren:
   
-- Eén voor  *Anderson* 
+- Een voor  *Anderson* 
     
-- Eén voor  *Henderson* 
+- Een voor  *Henderson* 
     
-- Eén voor  *Jorgenson* 
+- Een voor  *Jorgenson* 
     
-Aangezien alle drie deze namen eindigen op ' zoon ', kunt u aangeven dat PowerShell alle gebruikers waarvan de naam eindigt op ' zoon ' weergeven. Dit is de opdracht:
+Omdat alle drie deze namen eindigen op 'zoon', kunt u PowerShell vertellen dat alle gebruikers van wie de naam eindigt op 'zoon' moeten weergeven. Hier is de opdracht:
   
 ```powershell
 Get-User -Filter '{LastName -like "*son"}'
 ```
 
-De uitleg van deze PowerShell-opdracht luidt als volgt: alle gebruikers in het huidige Microsoft 365-abonnement krijgen, maar u kunt een filter alleen weergeven voor de gebruikers van wie de achternaam eindigt op ' zoon ' (**-filter ' {LastName-like ' \* zoon '} '**). De \* tekenreeks voor een willekeurige willekeurige tekenreeks, zoals de namen van de achternaam van de gebruiker.
+De interpretatie van deze PowerShell-opdracht is: Alle gebruikers in het huidige Microsoft 365-abonnement krijgen, maar gebruik een filter waarin alleen de gebruikers worden vermeld waarvan de achternamen eindigen op 'zoon' (**-Filter '{LastName -like " \* son"}'**). De \* staat voor elke set tekens, die letters zijn in de achternaam van de gebruiker.
   
 ## <a name="powershell-for-microsoft-365-makes-it-easy-to-print-or-save-data"></a>Met PowerShell voor Microsoft 365 kunt u eenvoudig gegevens afdrukken of opslaan
 
-Met het Microsoft 365-Beheercentrum kunt u lijsten met gegevens weergeven. Hier is een voorbeeld van het Beheercentrum van Skype voor bedrijven online met een lijst met gebruikers die zijn ingeschakeld voor Skype voor bedrijven online:
+In het Microsoft 365-beheercentrum kunt u lijsten met gegevens weergeven. Hier is een voorbeeld van het Skype voor Bedrijven Online-beheercentrum met een lijst met gebruikers die zijn ingeschakeld voor Skype voor Bedrijven Online:
   
-![Voorbeeld van het Skype voor bedrijven online-Beheercentrum met een lijst met gebruikers die zijn ingeschakeld voor Skype voor bedrijven online.](../media/o365-powershell-lync-users.png)
+![Voorbeeld van het Skype voor Bedrijven Online-beheercentrum met een lijst met gebruikers die zijn ingeschakeld voor Skype voor Bedrijven Online.](../media/o365-powershell-lync-users.png)
   
-Als u deze gegevens wilt opslaan in een bestand, moet u deze in een document of Microsoft Excel-werkblad plakken. Voor beide gevallen is extra opmaak nodig. Daarnaast biedt het Microsoft 365-Beheercentrum geen manier om de weergegeven lijst rechtstreeks af te drukken.
+Als u deze gegevens wilt opslaan in een bestand, moet u deze in een document of Een Microsoft Excel-werkblad plakken. Voor beide gevallen is mogelijk extra opmaak vereist. Bovendien biedt het Microsoft 365-beheercentrum geen manier om de weergegeven lijst rechtstreeks af te drukken.
   
-Gelukkig kunt u PowerShell gebruiken om de lijst niet alleen weer te geven, maar om deze op te slaan in een bestand dat gemakkelijk kan worden geïmporteerd in Excel. Hier ziet u een voorbeeld van een knop om Skype voor bedrijven online-gebruikersgegevens op te slaan in een CSV-bestand (door komma's gescheiden waarden), dat vervolgens eenvoudig kan worden geïmporteerd als een tabel in een Excel-werkblad:
+Gelukkig kunt u PowerShell gebruiken om niet alleen de lijst weer te geven, maar ook om deze op te slaan in een bestand dat eenvoudig in Excel kan worden geïmporteerd. Hier ziet u een voorbeeldopdracht om gebruikersgegevens van Skype voor Bedrijven Online op te slaan in een CSV-bestand (door komma's gescheiden waarden), dat vervolgens eenvoudig kan worden geïmporteerd als een tabel in een Excel-werkblad:
   
 ```powershell
 Get-CsOnlineUser | Select DisplayName, UserPrincipalName, UsageLocation | Export-Csv -Path "C:\Logs\SfBUsers.csv" -NoTypeInformation
 ```
 
-Hier ziet u een voorbeeld van de resultaten:
+Hier volgen een voorbeeld van de resultaten:
   
-![Voorbeeld van een tabel die in een Excel-werkblad is geïmporteerd voor gebruikersgegevens van Skype voor bedrijven online die zijn opgeslagen in een bestand met door komma's gescheiden waarden.](../media/o365-powershell-data-in-excel.png)
+![Voorbeeld van een tabel die is geïmporteerd in een Excel-werkblad voor Gebruikersgegevens van Skype voor Bedrijven Online die zijn opgeslagen in een door komma's gescheiden waardenbestand.](../media/o365-powershell-data-in-excel.png)
   
-De uitleg van deze PowerShell-opdracht luidt als volgt: alle gebruikers van Skype voor bedrijven online in het huidige Microsoft 365-abonnement (**Get-CsOnlineUser**); Download alleen de gebruikersnaam, UPN en locatie (**Selecteer DisplayName, userPrincipalName, UsageLocation**). en sla deze informatie op in een CSV-bestand met de naam C: \\ logboeken \\SfBUsers.csv (**export-csv-pad "C: \\ logs \\SfBUsers.csv"-NoTypeInformation**).
+De interpretatie van deze PowerShell-opdracht is: Alle Skype voor Bedrijven Online-gebruikers downloaden in het huidige Microsoft 365-abonnement (**Get-CsOnlineUser**); alleen de gebruikersnaam, UPN en locatie verkrijgen (**Selecteer DisplayName, UserPrincipalName, UsageLocation**); en sla deze informatie vervolgens op in een CSV-bestand met de naam C: \\ Logs \\SfBUsers.csv (**Export-Csv -Path "C: \\ Logs \\SfBUsers.csv" -NoTypeInformation).**
   
-U kunt de lijst met opties ook opslaan als een XML-bestand of een HTML-pagina. Met extra PowerShell-opdrachten kunt u de functie rechtstreeks opslaan als een Excel-bestand, met de gewenste aangepaste opmaak.
+U kunt ook opties gebruiken om deze lijst op te slaan als een XML-bestand of een HTML-pagina. Met extra PowerShell-opdrachten kunt u het rechtstreeks opslaan als een Excel-bestand, met elke gewenste aangepaste opmaak.
   
-U kunt ook de uitvoer van een PowerShell-opdracht verzenden waarmee een lijst rechtstreeks wordt weergegeven naar de standaardprinter in Windows. Hier ziet u een voorbeeld van een opdracht:
+U kunt ook de uitvoer van een PowerShell-opdracht verzenden waarin een lijst rechtstreeks wordt weergegeven naar de standaardprinter in Windows. Hier is een voorbeeldopdracht:
   
 ```powershell
 Get-CsOnlineUser | Select DisplayName, UserPrincipalName, UsageLocation | Out-Printer
 ```
 
-Het afgedrukte document ziet er als volgt uit:
+Het afgedrukte document ziet er als volgende uit:
   
-![Voorbeeld van een afgedrukt document met de uitvoer van een PowerShell-opdracht die rechtstreeks naar de standaardprinter in Windows is verzonden.](../media/o365-powershell-printed-data.png)
+![Voorbeeld van een afgedrukt document dat de uitvoer was van een PowerShell-opdracht die rechtstreeks naar de standaardprinter in Windows is verzonden.](../media/o365-powershell-printed-data.png)
   
-De uitleg van deze PowerShell-opdracht luidt als volgt: alle Skype voor bedrijven online-gebruikers in het huidige abonnement van Microsoft 365. alleen de gebruikersnaam, UPN en locatie verkrijgen; en deze informatie vervolgens naar de standaardprinter van Windows (**out-printer**) verzenden.
+De interpretatie van deze PowerShell-opdracht is: Alle Skype voor Bedrijven Online-gebruikers downloaden in het huidige Microsoft 365-abonnement; alleen de gebruikersnaam, UPN en locatie verkrijgen; en stuur die informatie vervolgens naar de standaardPrinter van Windows **(Out-Printer).**
   
-Het afgedrukte document heeft dezelfde eenvoudige opmaak als de weergave in het PowerShell-opdrachtvenster. Als u een harde kopie wilt toevoegen, hoeft u alleen maar iets toe te voegen ** Out-printer** naar het einde van de opdracht.
+Het afgedrukte document heeft dezelfde eenvoudige opmaak als de weergave in het PowerShell-opdrachtvenster. Als u een kopie wilt downloaden, voegt u een | **Out-Printer** tot het einde van de opdracht.
   
-## <a name="powershell-for-microsoft-365-lets-you-manage-across-server-products"></a>Met PowerShell voor Microsoft 365 kunt u verschillende server producten beheren
+## <a name="powershell-for-microsoft-365-lets-you-manage-across-server-products"></a>Met PowerShell voor Microsoft 365 kunt u alle serverproducten beheren
 
-De onderdelen die Microsoft 365 vormen, zijn ontworpen om samen te werken. U kunt bijvoorbeeld een nieuwe gebruiker toevoegen aan Microsoft 365 en u kunt deze gegevens opgeven als de afdelings-en telefoonnummers van de gebruiker. Deze informatie is dan beschikbaar als u de gegevens van de gebruiker opent in een van de 365-services van Microsoft: Skype voor bedrijven online, Exchange of SharePoint.
+De onderdelen van Microsoft 365 zijn ontworpen om samen te werken. Stel dat u een nieuwe gebruiker toevoegt aan Microsoft 365 en u dergelijke gegevens opgeeft, zoals de afdeling van de gebruiker en het telefoonnummer. Deze informatie is dan beschikbaar als u toegang hebt tot de gegevens van de gebruiker in een van de Microsoft 365-services: Skype voor Bedrijven Online, Exchange of SharePoint.
   
-Dat is voor algemene informatie die de producten Suite beslaat. Productspecifieke informatie, zoals informatie over het Exchange-postvak van een gebruiker, is doorgaans niet beschikbaar in de hele suite. Zo is informatie over of het postvak van een gebruiker is ingeschakeld of niet beschikbaar is in het Exchange-Beheercentrum.
+Maar dat is voor algemene informatie over de suite met producten. Productspecifieke informatie, zoals informatie over het Exchange-postvak van een gebruiker, is meestal niet beschikbaar in de suite. Informatie over het al dan niet inschakelen van het postvak van een gebruiker is bijvoorbeeld alleen beschikbaar in het Exchange-beheercentrum.
   
-Stel dat u een rapport wilt maken waarin de volgende informatie voor alle gebruikers wordt weergegeven:
+Stel dat u een rapport wilt maken met de volgende informatie voor al uw gebruikers:
   
 - De weergavenaam van de gebruiker
     
@@ -376,13 +376,13 @@ Stel dat u een rapport wilt maken waarin de volgende informatie voor alle gebrui
     
 - Of het Exchange-postvak van de gebruiker is ingeschakeld
     
-- Of de gebruiker is ingeschakeld voor Skype voor bedrijven online
+- Of de gebruiker is ingeschakeld voor Skype voor Bedrijven Online
     
-U kunt een dergelijk rapport niet gemakkelijk maken in het Microsoft 365-Beheercentrum. In plaats daarvan moet u een apart document maken om de gegevens op te slaan, zoals een Excel-werkblad. Ga vervolgens naar alle gebruikersnamen en licentiëringsinformatie via het Microsoft 365-Beheercentrum, ga naar postvakgegevens van het Exchange-Beheercentrum, ga naar informatie over Skype voor bedrijven online via het Skype voor bedrijven online-Beheercentrum en combineer deze informatie.
+U kunt een dergelijk rapport niet eenvoudig maken in het Microsoft 365-beheercentrum. In plaats daarvan moet u een afzonderlijk document maken om de gegevens op te slaan, zoals een Excel-werkblad. Vervolgens krijgt u alle gebruikersnamen en licentiegegevens van het Microsoft 365-beheercentrum, krijgt u postvakgegevens van het Exchange-beheercentrum, krijgt u Skype voor Bedrijven Online-informatie in het Skype voor Bedrijven Online-beheercentrum en combineert u die informatie.
   
-Het alternatief is een PowerShell-script gebruiken om het rapport voor u samen te stellen.
+Het alternatief is om een PowerShell-script te gebruiken om het rapport voor u samen te stellen.
   
-Het volgende voorbeeldscript is ingewikkelder dan de opdrachten die u tot nu toe hebt gezien in dit artikel. Maar het is mogelijk dat u PowerShell gebruikt om informatie weergaven te maken die moeilijk te vinden zijn. Dit is het script voor de compilatie en de lijst weer te geven die u nodig hebt:
+Het volgende voorbeeldscript is ingewikkelder dan de opdrachten die u tot nu toe in dit artikel hebt gezien. Maar het toont het potentieel van het gebruik van PowerShell om informatieweergaven te maken die anders moeilijk te verkrijgen zijn. Hier ziet u het script om de lijst te compileren en weer te geven die u nodig hebt:
   
 ```powershell
 $x = Get-AzureADUser
@@ -399,7 +399,7 @@ foreach ($i in $x)
 $x | Select DisplayName, IsLicensed, IsMailboxEnabled, EnabledforSfB
 ```
 
-Hier ziet u een voorbeeld van de resultaten:
+Hier volgen een voorbeeld van de resultaten:
   
 ```powershell
 DisplayName             IsLicensed   IsMailboxEnabled   EnabledForSfB
@@ -414,15 +414,15 @@ Katy Jordan             False        True               False
 Molly Dempsey           False        True               False
 ```
 
-De uitleg van dit PowerShell-script luidt als volgt:  
+De interpretatie van dit PowerShell-script is:  
 
-1. Alle gebruikers in het huidige Microsoft 365-abonnement krijgen en de gegevens opslaan in een variabele met de naam *$x* (**$x = Get-AzureADUser**).
-1. Een lus starten die wordt uitgevoerd op alle gebruikers in de variabele $x (**foreach ($i in $x)**).  
-1. Definieer een variabele met de naam *$y* en sla de informatie over de Postvak in van de gebruiker op (**$y = Get-Mailbox-Identity $i. userPrincipalName**).
-1. Voeg een nieuwe eigenschap toe aan de gebruikersgegevens met de naam *IsMailBoxEnabled*. Stel deze in op de waarde van de eigenschap IsMailBoxEnabled van het postvak van de gebruiker (**$i | Add-Member-MemberType NoteProperty-name IsMailBoxEnabled-value $y. IsMailBoxEnabled**).
-1. Definieer een variabele met de naam *$y*en sla de informatie over de Skype voor bedrijven online-gegevens van de gebruiker op (**$y = Get-CsOnlineUser-Identity $i. userPrincipalName**).
-1. Voeg een nieuwe eigenschap toe aan de gebruikersgegevens met de naam *EnabledForSfB*. Stel deze in op de waarde van de eigenschap ingeschakeld van de Skype voor bedrijven online-gegevens van de gebruiker (**$i | Add-Member-MemberType NoteProperty-name EnabledForSfB-value $y. enabled**).
-1. U kunt de lijst met gebruikers weergeven, maar alleen de naam ervan opnemen, ongeacht of ze een licentie hebben en de twee nieuwe eigenschappen om aan te geven of hun postvak is ingeschakeld en of ze zijn ingeschakeld voor Skype voor bedrijven online (**$x | Selecteer DisplayName, IsLicensed, IsMailboxEnabled, EnabledforSfB**).
+1. Alle gebruikers in het huidige Microsoft 365-abonnement downloaden en de gegevens opslaan in een variabele met de naam *$x* (**$x = Get-AzureADUser**).
+1. Start een lus die wordt uitgevoerd over alle gebruikers in de variabele $x (**foreach ($i in $x)**).  
+1. Definieer een *variabele $y* en sla de postvakgegevens van de gebruiker in op ( $y =**Get-Mailbox -Identity $i.UserPrincipalName).**
+1. Voeg een nieuwe eigenschap toe aan de gebruikersgegevens met de naam *IsMailBoxEnabled.* Stel deze in op de waarde van de eigenschap IsMailBoxEnabled van het postvak van de gebruiker **($i | Add-Member -MemberType NoteProperty -Name IsMailboxEnabled -Value $y.IsMailboxEnabled**).
+1. Definieer een *variabele met* de naam $y en sla de Skype voor Bedrijven Online-gegevens van de gebruiker in op ( $y =**Get-CsOnlineUser -Identity $i.UserPrincipalName).**
+1. Voeg een nieuwe eigenschap toe aan de gebruikersgegevens met de naam *EnabledForSfB.* Stel deze in op de waarde van de eigenschap Enabled van de Skype voor Bedrijven Online-gegevens van de gebruiker **( $i | Add-Member -MemberType NoteProperty -Name EnabledForSfB -Value $y.Enabled**).
+1. De lijst met gebruikers weergeven, maar alleen de naam, of ze een licentie hebben, en de twee nieuwe eigenschappen die aangeven of hun postvak is ingeschakeld en of ze zijn ingeschakeld voor Skype voor Bedrijven Online **($x | Selecteer DisplayName, IsLicensed, IsMailboxEnabled, EnabledforSfB**).
   
 ## <a name="see-also"></a>Zie ook
 

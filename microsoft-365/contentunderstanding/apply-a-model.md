@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Informatie over het toepassen van een gepubliceerd model op een SharePoint-documentbibliotheek.
-ms.openlocfilehash: 17da1e37f72504ac5e0e26c0dd190efced08d285
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 42168537c8d449a075b5e29ef9905b6b98b8d714
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080770"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925398"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Een documentbegripmodel toepassen in Microsoft SharePoint Syntex
 
@@ -94,7 +94,7 @@ Wanneer een SharePoint Syntex-model voor inhoudsbegrip of een formulierverwerkin
 
    ![De kolom Classificatiedatum](../media/content-understanding/class-date-column.png)</br> 
 
-Het veld Classificatiedatum wordt gebruikt door het [<b>Wanneer een bestand wordt geclassificeerd door een model voor inhoudsbegrip,</b> activeert u ](https://docs.microsoft.com/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model) om een Power Automate-workflow uit te voeren nadat een Syntex-model voor inhoudsbegrip klaar is met het verwerken van een bestand en het veld Classificatiedatum is bijgewerkt.
+Het veld Classificatiedatum wordt gebruikt door het [<b>Wanneer een bestand wordt geclassificeerd door een model voor inhoudsbegrip,</b> activeert u ](/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model) om een Power Automate-workflow uit te voeren nadat een Syntex-model voor inhoudsbegrip klaar is met het verwerken van een bestand en het veld Classificatiedatum is bijgewerkt.
 
    ![Trigger voor workflow](../media/content-understanding/trigger.png)</br>
 
@@ -108,5 +108,3 @@ De trigger <b>Wanneer een bestand wordt geclassificeerd door een model voor inho
 [Een extractor maken](create-an-extractor.md)
 
 [Overzicht van documentbegrip](document-understanding-overview.md)
-
-

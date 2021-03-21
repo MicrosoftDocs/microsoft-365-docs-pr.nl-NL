@@ -1,6 +1,6 @@
 ---
-title: InTune-bedrijfs portal installeren op apparaten
-description: Info over het installeren van de bedrijfsportal-app op Microsoft beheerde bureaublad apparaten
+title: Intune Company Portal installeren op apparaten
+description: Informatie over het installeren van de bedrijfsportal-app op Microsoft Managed Desktop-apparaten
 keywords: Microsoft Managed Desktop, Microsoft 365, Company Portal
 ms.service: m365-md
 author: jaimeo
@@ -9,48 +9,48 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bddf46e451408e4f17e58cc62186b7cd6cefb382
-ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
+ms.openlocfilehash: f4c5d20529a210207e225d4a2b46d5935ae112c8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49939282"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925772"
 ---
-# <a name="install-intune-company-portal-on-devices"></a>InTune-bedrijfs portal installeren op apparaten
+# <a name="install-intune-company-portal-on-devices"></a>Intune Company Portal installeren op apparaten
 
-Voor Microsoft Managed Desktop moet de IT-beheerder intune Company Portal installeren voor hun gebruikers met Microsoft beheerde bureaublad apparaten. Hier volgen enkele voordelen voor uw organisatie:
-- Gebruikers hebben één locatie om de beschikbare toepassingen te zoeken en te installeren. 
-- IT-beheerders kunnen toepassingen organiseren op basis van categorieën voor hun gebruikers.  
-- Voor sommige toepassingen (zoals Microsoft Project en Microsoft Visio) is bedrijfs portal vereist voor de implementatie met Microsoft Managed Desktop.
-- IT-beheerders kunnen de bedrijfs portal voor hun organisatie aanpassen. Dit omvat merk afbeelding, toevoegen in lokale ondersteunings contactpersonen, en meer. Zie [de Microsoft intune Company Portal-app configureren](https://docs.microsoft.com/intune/company-portal-app)voor meer informatie.   
+Microsoft Managed Desktop vereist dat IT-beheerders Intune Company Portal installeren voor hun gebruikers met Microsoft Managed Desktop-apparaten. Hier zijn enkele voordelen voor uw organisatie:
+- Gebruikers hebben één plek om te bladeren en beschikbare toepassingen te installeren. 
+- IT-beheerders kunnen toepassingen organiseren op categorieën voor hun gebruikers.  
+- Voor sommige toepassingen (zoals Microsoft Project en Microsoft Visio) moet company portal worden geïmplementeerd met Microsoft Managed Desktop.
+- IT-beheerders kunnen bedrijfsportal aanpassen voor hun organisatie. Dit omvat merkweergave, het toevoegen van lokale ondersteuningscontactcontacten en meer. Zie De [Microsoft Intune Company Portal-app configureren](/intune/company-portal-app)voor meer informatie.   
 
-In dit onderwerp worden de stappen beschreven voor de implementatie van de intune-bedrijfs portal naar Microsoft beheerde bureaubladgebruikers. Het algehele proces ziet er als volgt uit:
-1. Bedrijfs portal in Microsoft Store voor bedrijven kopen en synchroniseren met intune
-2. Bedrijfs portal aan uw gebruikers toewijzen
-3. Wijziging communiceren met uw gebruikers
+In dit onderwerp wordt het proces voor de implementatie van de Intune Company Portal voor uw Microsoft Managed Desktop-gebruikers bedocumenten. Het totale proces ziet er als volgende uit:
+1. Bedrijfsportal kopen in de Microsoft Store voor Bedrijven en synchroniseren met Intune
+2. Bedrijfsportal toewijzen aan uw gebruikers
+3. Wijziging communiceren naar uw gebruikers
 
-## <a name="step-1---purchase-company-portal-from-microsoft-store-for-business-and-sync-with-intune"></a>Stap 1: de bedrijfs portal van Microsoft Store voor bedrijven kopen en synchroniseren met intune
-Voor informatie over het aanschaffen van de apps en het synchroniseren met intune raadpleegt u [Microsoft Store for Business-Apps](deploy-apps.md#msfb-apps) in *apps implementeren voor Microsoft Managed Desktop devices*.
+## <a name="step-1---purchase-company-portal-from-microsoft-store-for-business-and-sync-with-intune"></a>Stap 1 - Bedrijfsportal kopen in de Microsoft Store voor Bedrijven en synchroniseren met Intune
+Zie [Microsoft Store voor Bedrijven-apps](deploy-apps.md#msfb-apps) in Apps implementeren op Microsoft *Managed Desktop-apparaten* voor meer informatie over het aanschaffen van de apps en het synchroniseren met Intune.
 
-Dit onderwerp bevat informatie over het volgende: 
-- Bedrijfs portal kopen via Microsoft Store voor bedrijven 
-- Synchronisatie tussen intune en Microsoft Store voor bedrijven afdwingen
-- Actieve synchronisatie tussen intune en Microsoft Store voor bedrijven controleren 
+In dit onderwerp vindt u informatie over het volgende: 
+- Bedrijfsportal kopen in de Microsoft Store voor Bedrijven 
+- Synchronisatie tussen Intune en Microsoft Store voor Bedrijven forceer
+- Actieve synchronisatie tussen Intune en Microsoft Store voor Bedrijven controleren 
 
-## <a name="step-2---assign-company-portal-to-your-users"></a>Stap 2-de bedrijfs portal aan uw gebruikers toewijzen
-Als u de registratie volgt in Microsoft Managed Desktop, wordt de bedrijfs portal automatisch geïmplementeerd voor uw Tenant en installeert u de app op Microsoft beheerde bureaublad apparaten in uw organisatie.
+## <a name="step-2---assign-company-portal-to-your-users"></a>Stap 2 - Bedrijfsportal toewijzen aan uw gebruikers
+Nadat u zich hebt ingeschreven bij Microsoft Managed Desktop, implementeert Microsoft Managed Desktop Operations automatisch bedrijfsportal naar uw tenant en installeert u de app op Microsoft Managed Desktop-apparaten in uw organisatie.
 
-## <a name="step-3---communicate-change-to-your-users"></a>Stap 3: de wijziging doorgeven aan uw gebruikers
-Als IT-beheerder voor uw organisatie, is het belangrijk om uw gebruikers te laten weten hoe ze de bedrijfs portal in uw organisatie kunnen gebruiken. Microsoft Managed Desktop adviseert:
-- Stappen voor het installeren van toepassingen vanuit de bedrijfs portal. Zie [apps op uw apparaat installeren en delen](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows)voor meer informatie.
-- Hoe u aanvragen naar IT-beheerders verzendt voor toepassingen die momenteel niet beschikbaar zijn. Zie [een app voor werk of school aanvragen](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows#request-an-app-for-work-or-school)voor meer informatie.  
+## <a name="step-3---communicate-change-to-your-users"></a>Stap 3 - Wijziging communiceren naar uw gebruikers
+Als IT-beheerder voor uw organisatie is het belangrijk om uw gebruikers te laten weten hoe ze bedrijfsportal in uw organisatie kunnen gebruiken. Microsoft Managed Desktop raadt het volgende aan:
+- Stappen voor het installeren van toepassingen vanuit de bedrijfsportal. Zie Apps installeren en delen op uw apparaat voor [meer informatie.](/intune-user-help/install-apps-cpapp-windows)
+- Aanvragen verzenden naar IT-beheerders voor toepassingen die momenteel niet beschikbaar zijn. Zie Een app aanvragen voor werk of school voor [meer informatie.](/intune-user-help/install-apps-cpapp-windows#request-an-app-for-work-or-school)  
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Stappen om aan de slag te gaan met Microsoft Managed Desktop
 
 1. [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](add-admin-contacts.md)
 2. [Voorwaardelijke toegang aanpassen](conditional-access.md)
 3. [Licenties toewijzen](assign-licenses.md)
-4. InTune Company Portal (dit onderwerp) implementeren
+4. Intune Company Portal implementeren (dit onderwerp)
 5. [Enterprise State Roaming inschakelen](enterprise-state-roaming.md)
 6. [Apparaten instellen](set-up-devices.md)
 7. [Uw gebruikers voorbereiden om apparaten te gebruiken](get-started-devices.md)

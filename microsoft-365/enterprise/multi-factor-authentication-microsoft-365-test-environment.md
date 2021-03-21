@@ -1,5 +1,5 @@
 ---
-title: Multi-factor Authentication voor Microsoft 365 voor Enterprise testomgeving
+title: Microsoft 365 voor ondernemingstestomgeving meervoudige verificatie
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,123 +15,123 @@ ms.custom:
 - TLG
 - Ent_TLGs
 - seo-marvel-apr2020
-description: Configureer multi-factor Authentication met behulp van SMS-berichten die zijn verzonden naar een smartphone in uw Microsoft 365 voor Enterprise test environment.
-ms.openlocfilehash: 4c59405c1ce59cafaf0309e2314e5cbfa4eb080a
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+description: Configureer meervoudige verificatie met tekstberichten die zijn verzonden naar een smartphone in uw Microsoft 365 voor ondernemingstestomgeving.
+ms.openlocfilehash: aeb8940a9499909b8c568d1230f9aa45aee07b3d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558440"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923754"
 ---
-# <a name="multi-factor-authentication-for-your-microsoft-365-for-enterprise-test-environment"></a>Meervoudige verificatie voor uw Microsoft 365 voor Enterprise testomgeving
+# <a name="multi-factor-authentication-for-your-microsoft-365-for-enterprise-test-environment"></a>Meervoudige verificatie voor uw microsoft 365 voor ondernemingstestomgeving
 
-*U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*
+*Deze testlaborator kan worden gebruikt voor testomgevingen van Microsoft 365 voor bedrijven en Office 365 Enterprise.*
 
-Voor een extra beveiligingsniveau voor het aanmelden bij Microsoft 365 of een willekeurige service of toepassing die de Azure AD-Tenant voor uw abonnement gebruikt, kunt u de multi-factor Authentication van Azure AD inschakelen, waarvoor meer dan alleen een gebruikersnaam en wachtwoord vereist zijn
+Voor een extra beveiligingsniveau voor het aanmelden bij Microsoft 365 of een service of toepassing die gebruikmaakt van de Azure AD-tenant voor uw abonnement, kunt u Meervoudige verificatie van Azure AD inschakelen, waarvoor meer dan alleen een gebruikersnaam en wachtwoord nodig zijn om een account te verifiëren.
 
-Met authenticatie via meerdere factoren zijn gebruikers verplicht een telefoongesprek te erkennen, typt u een verificatiecode die u in een SMS-bericht ontvangt, of controleert u de verificatie met een app op de smartphone nadat de juiste wachtwoorden zijn ingevoerd. Ze kunnen zich alleen aanmelden nadat aan deze tweede verificatie factor is voldaan.
+Bij meervoudige verificatie moeten gebruikers een telefoongesprek bevestigen, een verificatiecode typen die in een sms-bericht is verzonden of de verificatie verifiëren met een app op hun smartphone nadat ze hun wachtwoorden correct hebben invoeren. Ze kunnen zich alleen aanmelden nadat deze tweede verificatiefactor is voldaan.
   
-In dit artikel wordt beschreven hoe u op tekst gebaseerde verificatie voor een specifiek gebruikersaccount kunt inschakelen en testen.
+In dit artikel wordt beschreven hoe u verificatie op basis van tekstberichten in- en test voor een specifiek gebruikersaccount.
   
-Het instellen van multi-factor Authentication voor een account in uw Microsoft 365 voor Enterprise-testomgeving bestaat uit twee fasen en een derde optionele fase:
-- [Fase 1: uw Microsoft 365-omgeving voor Enterprise testomgeving maken](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
-- [Fase 2: meervoudige verificatie inschakelen en testen voor de account van de gebruiker 2](#phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account)
-- [Fase 3: multi-factor Authentication inschakelen en testen met een voorwaardelijk toegangsbeleid](#phase-3-enable-and-test-multi-factor-authentication-with-a-conditional-access-policy)
+Het instellen van meervoudige verificatie voor een account in uw microsoft 365 voor ondernemingstestomgeving omvat twee fasen en een derde optionele fase:
+- [Fase 1: Uw Microsoft 365 voor ondernemingstestomgeving opbouwen](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+- [Fase 2: Meervoudige verificatie in- en testen voor het Gebruikers 2-account](#phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account)
+- [Fase 3: Meervoudige verificatie inschakelen en testen met een beleid voor voorwaardelijke toegang](#phase-3-enable-and-test-multi-factor-authentication-with-a-conditional-access-policy)
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Ga naar [Microsoft 365 for Enterprise test lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)van een visuele kaart voor alle artikelen in de stack microsoft 365 for Enterprise test lab Guide.
+> Ga naar [Microsoft 365 for enterprise Test Lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)Stack voor een visuele kaart voor alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide Stack.
   
-## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: uw Microsoft 365-omgeving voor Enterprise testomgeving maken
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 voor ondernemingstestomgeving opbouwen
 
-Als u de verificatie met meerdere factoren op een lichte manier wilt testen met de minimumvereisten, volgt u de instructies in de [Lightweight Base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).
+Als u alleen meervoudige verificatie op een lichtgewicht manier wilt testen met de minimumvereisten, volgt u de instructies in [de lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
-Als u multi-factor Authentication wilt testen in een gesimuleerde onderneming, volgt u de instructies in [Pass-Through-verificatie](pass-through-auth-m365-ent-test-environment.md).
+Als u meervoudige verificatie wilt testen in een gesimuleerde onderneming, volgt u de instructies in [Pass-through-verificatie.](pass-through-auth-m365-ent-test-environment.md)
   
 > [!NOTE]
-> Bij het testen van meervoudige verificatie is de gesimuleerde Enterprise testomgeving niet vereist, dat een gesimuleerd intranet bevat dat verbonden is met internet en adreslijstsynchronisatie van een Active Directory Domain Services (AD DS)-forest. U kunt dit als optie gebruiken, zodat u meervoudige verificatie kunt testen en een proef kunt uitvoeren in een omgeving die een typische organisatie voorstelt.
+> Voor het testen van meervoudige verificatie is geen gesimuleerde bedrijfstestomgeving vereist, waaronder een gesimuleerd intranet dat is verbonden met internet en adreslijstsynchronisatie voor een AD DS-forest (Active Directory Domain Services). Het is hier beschikbaar als een optie, zodat u meervoudige verificatie kunt testen en erop kunt experimenteren in een omgeving die een normale organisatie vertegenwoordigt.
   
-## <a name="phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account"></a>Fase 2: meervoudige verificatie inschakelen en testen voor de account van de gebruiker 2
+## <a name="phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account"></a>Fase 2: Meervoudige verificatie in- en testen voor het Gebruikers 2-account
 
-Schakel meervoudige verificatie in voor de gebruiker 2-account door deze stappen uit te voeren:
+Schakel meervoudige verificatie in voor het Gebruikers 2-account met de volgende stappen:
   
-1. Open een afzonderlijke, persoonlijke versie van uw browser, ga naar het Microsoft 365-Beheercentrum ( [https://portal.microsoft.com](https://portal.microsoft.com) ) en meld u aan met uw globale beheerdersaccount.
+1. Open een afzonderlijk, privé-exemplaar van uw browser, ga naar het Microsoft 365-beheercentrum () en meld u aan [https://portal.microsoft.com](https://portal.microsoft.com) met uw globale beheerdersaccount.
     
-2. Selecteer **gebruikers**  >  **actieve gebruikers** in het linker navigatie.
+2. Selecteer in de linkernavigatie de optie **Gebruikers**  >  **Actieve gebruikers.**
     
-3. Selecteer in het deelvenster actieve gebruikers **Meervoudige verificatie**.
+3. Selecteer in het deelvenster Actieve gebruikers de optie **Meervoudige verificatie**.
     
-4. Selecteer in de lijst de account **gebruiker 2** .
+4. Selecteer in de lijst het **account Gebruiker 2.**
     
-5. Selecteer in de sectie **User 2** onder **snelle stappen** de optie **inschakelen**.
+5. Selecteer in de sectie Gebruiker **2** onder **Snelle stappen** de optie **Inschakelen.**
     
-6. Selecteer in het dialoogvenster **voor het inschakelen van multi-factor Authentication** de optie **multi-factor Authentication inschakelen**.
+6. Selecteer in het dialoogvenster Over het inschakelen van **multi-factor auth** de optie **Multi-factor auth inschakelen.**
     
-7. Selecteer **sluiten** in het dialoogvenster **updates voltooid** .
+7. Selecteer sluiten **in het** dialoogvenster Updates **succesvol.**
     
-8. Selecteer op het tabblad **Microsoft 365-Beheercentrum** het pictogram voor het gebruikersaccount in de rechterbovenhoek en selecteer **Afmelden**.
+8. Selecteer op het tabblad Beheercentrum van **Microsoft 365** het pictogram gebruikersaccount in de rechterbovenhoek en selecteer **vervolgens Afloggen.**
     
-9. Sluit uw browser exemplaar.
+9. Sluit het browserexe instance.
    
-Voltooi de configuratie van de gebruiker 2-account om een tekstbericht te valideren en te testen met behulp van de volgende stappen:
+Voltooi de configuratie voor het Gebruikers 2-account om een tekstbericht te gebruiken voor validatie en test dit met de volgende stappen:
   
-1. Open een nieuwe, persoonlijke instantie van uw browser.
+1. Open een nieuw, privé-exemplaar van uw browser.
     
-2. Ga naar het [Microsoft 365-Beheercentrum](https://admin.microsoft.com) en meld u aan met de accountnaam en het wachtwoord van de gebruiker.
+2. Ga naar het [Microsoft 365-beheercentrum](https://admin.microsoft.com) en meld u aan met de naam en het wachtwoord van het account gebruiker 2.
     
-3. Nadat u zich hebt aangemeld, wordt u gevraagd of u het account wilt instellen voor meer informatie. Selecteer **Volgende**.
+3. Nadat u zich hebt aanmelden, wordt u gevraagd het account in te stellen voor meer informatie. Selecteer **Volgende**.
     
-4. Op de pagina **extra beveiligingsverificatie** :
+4. Op de **pagina Extra beveiligingsverificatie:**
     
    - Selecteer uw land of regio.
     
-   - Voer het telefoonnummer in van de smartphone waarop SMS-berichten worden ontvangen.
+   - Voer het telefoonnummer in van de smartphone die sms-berichten ontvangt.
     
-   - Selecteer bij **methode** **een code per SMS-bericht verzenden**.
+   - Selecteer **in Methode** de optie Een code per sms **verzenden.**
     
 5. Selecteer **Volgende**.
     
-6. Voer de verificatiecode in van het SMS-bericht dat op uw smartphone is ontvangen en selecteer vervolgens **verifiëren**.
+6. Voer de verificatiecode in van het sms-bericht dat u op uw smartphone hebt ontvangen en selecteer **controleren.**
     
-7. Selecteer **gereed** op de pagina **stap 3: de bestaande toepassingen bewaren** .
+7. Selecteer op **de pagina Stap 3: Uw bestaande toepassingen** behouden de optie **Klaar.**
     
-8. Als dit de eerste keer is dat u zich aanmeldt met het account van de gebruiker 2, wordt u gevraagd het wachtwoord te wijzigen. Voer het oorspronkelijke wachtwoord en een nieuw wachtwoord twee keer in en selecteer vervolgens **wachtwoord bijwerken en meld u aan**. Neem het nieuwe wachtwoord op een veilige locatie op.
+8. Als dit de eerste keer is dat u zich hebt aangemeld met het account Gebruiker 2, wordt u gevraagd het wachtwoord te wijzigen. Voer tweemaal het oorspronkelijke wachtwoord en een nieuw wachtwoord in en selecteer **vervolgens Wachtwoord bijwerken en meld u aan.** Neem het nieuwe wachtwoord op een veilige locatie op.
     
-    U ziet nu de Office-portal voor gebruiker 2 op het tabblad **Start van Microsoft Office** in uw browser.
+    U ziet de Office-portal voor gebruiker 2 op het **tabblad Microsoft Office Start** van uw browser.
 
-## <a name="phase-3-enable-and-test-multi-factor-authentication-with-a-conditional-access-policy"></a>Fase 3: multi-factor Authentication inschakelen en testen met een voorwaardelijk toegangsbeleid
+## <a name="phase-3-enable-and-test-multi-factor-authentication-with-a-conditional-access-policy"></a>Fase 3: Meervoudige verificatie inschakelen en testen met een beleid voor voorwaardelijke toegang
 
-*Deze fase kan alleen worden gebruikt voor een testomgeving van Microsoft 365 voor bedrijven.*
+*Deze fase kan alleen worden gebruikt voor een Testomgeving van Microsoft 365 voor ondernemingen.*
 
-In deze fase schakelt u meervoudige verificatie in voor het account van de gebruiker 3 met behulp van een groep en een beleid voor voorwaardelijke toegang.
+In deze fase kunt u meervoudige verificatie voor het Gebruikers 3-account inschakelen met behulp van een groep en een beleid voor voorwaardelijke toegang.
 
-Vervolgens maakt u een nieuwe groep met de naam MFAUsers en voegt u de gebruikers 3-account toe aan de groep.
+Maak vervolgens een nieuwe groep met de naam MFAUsers en voeg het account Gebruiker 3 hieraan toe.
 
-1. Ga naar het tabblad **Microsoft 365-Beheercentrum** , selecteer **groepen** in het linker navigatieonderdeel en selecteer **groepen**.
-2. Selecteer **een groep toevoegen**.
-3. Selecteer in het deelvenster **een groepstype kiezen** de optie **beveiliging** en selecteer vervolgens **volgende**.
-4. Selecteer **groep maken** in het deelvenster **basisbeginselen instellen** en selecteer vervolgens **sluiten**.
-5. Voer in het deelvenster **groep toevoegen en voltooien** **MFAUsers** in en selecteer vervolgens **volgende**.
-6. Selecteer in de lijst met groepen de groep **MFAUsers** .
-7. Selecteer **leden** in het **MFAUsers** -deelvenster en selecteer vervolgens **AllesWeergeven en leden beheren**.
-8. Selecteer **leden toevoegen** in het deelvenster **MFAUsers** , selecteer het account van de **gebruiker 3** **en selecteer vervolgens sluiten**  >  **sluiten**  >  **Close**.
+1. Selecteer Op **het tabblad Microsoft 365-beheercentrum** de optie **Groepen** in de linkernavigatie en selecteer vervolgens **Groepen**.
+2. Selecteer **Een groep toevoegen.**
+3. Selecteer in **het deelvenster Een groeptype** kiezen de optie **Beveiliging** en selecteer vervolgens **Volgende.**
+4. Selecteer in **het deelvenster De basisbeginselen** instellen de optie Groep **maken** en selecteer vervolgens **Sluiten.**
+5. Voer in **het deelvenster Controleren en** voltooien groep toevoegen **MFAUsers** in en selecteer **volgende**.
+6. Selecteer in de lijst met groepen de **groep MFAUsers.**
+7. Selecteer leden in het deelvenster **MFAUsers** **en** selecteer vervolgens Alle leden weergeven **en beheren.**
+8. Selecteer leden toevoegen in het deelvenster **MFAUsers,** selecteer het account **Gebruiker 3** en selecteer **sluiten**  >  **sluiten**  >  **opslaan.**
 
-Vervolgens maakt u een voorwaardelijk toegangsbeleid voor de verificatie van meervoudige authenticatie voor leden van de groep MFAUsers.
+Maak vervolgens een beleid voor voorwaardelijke toegang om meervoudige verificatie voor leden van de groep MFAUsers te vereisen.
 
 1. Ga op een nieuw tabblad van uw browser naar [https://portal.azure.com](https://portal.azure.com) .
-2. Selecteer voorwaardelijke toegang van **Azure Active Directory**-  >  **beveiliging**  >  **Conditional Access**.
-3. Selecteer in het deelvenster **voorwaardelijke toegang – beleidsregels** de optie **nieuwe beleids** optie.
-4. Voer in het **nieuwe** deelvenster **MFA in voor gebruikersaccounts** in het vak **naam** .
-5. Selecteer in de sectie **opdrachten** de optie **gebruikers en groepen**.
-6. Selecteer op het tabblad **opnemen** van het deelvenster **gebruikers en groepen** de optie **gebruikers en groepen**  >  **gebruikers en groepen**  >  **selecteren**.
-7. In het **selectie** deelvenster selecteert u de groep **MFAUsers** **en selecteert u** vervolgens  >  **gereed**.
-8. Selecteer in de sectie **Access-besturingselementen** van het **nieuwe** deelvenster de optie **verlenen**.
-9. Selecteer in het deelvenster **verlenen** de optie **Meervoudige verificatie vereisen** en selecteer vervolgens **selecteren**.
-10. Selecteer **in het** deelvenster **Nieuw** de optie inschakelen voor **beleidsinstelling** en selecteer **maken**.
-11. Sluit de tabbladen **Azure Portal** en **Microsoft 365-Beheercentrum** .
+2. Selecteer **Azure Active Directory**  >  **Security** Conditional  >  **Access**.
+3. Selecteer in **het deelvenster Voorwaardelijke** toegang – Beleid de optie **Nieuw beleid.**
+4. Typ in **het** deelvenster Nieuw **MFA voor gebruikersaccounts** in **het vak Naam.**
+5. Selecteer gebruikers en groepen in **de** sectie **Opdrachten.**
+6. Selecteer op **het** tabblad Opnemen van het deelvenster Gebruikers **en groepen** de optie Gebruikers en **groepen** selecteren Gebruikers  >  **en groepen**  >  **Selecteren**.
+7. Selecteer in **het** deelvenster Selecteren de **groep MFAUsers** en selecteer **vervolgens Done**  >  **selecteren.**
+8. Selecteer in **de sectie Besturingselementen** van Access **van het** deelvenster Nieuw de optie **Grant**.
+9. Selecteer in **het** deelvenster Verlenen de optie **Meervoudige verificatie vereisen** en selecteer vervolgens **Selecteren**.
+10. Selecteer in **het** deelvenster Nieuw **de optie Aan** voor Beleid **inschakelen** en selecteer vervolgens **Maken.**
+11. Sluit de **tabbladen Azure Portal** en **Microsoft 365-beheercentrum.**
 
-Als u dit beleid wilt testen, meldt u zich af en meldt u zich aan met het account van de gebruiker 3. U wordt gevraagd MFA te configureren. Dit demonstreert het toepassen van het MFAUsers-beleid.
+Als u dit beleid wilt testen, meld u zich af en meld u aan met het account Gebruiker 3. U moet worden gevraagd om MFA te configureren. Dit toont aan dat het MFAUsers-beleid wordt toegepast.
 
 ## <a name="next-step"></a>Volgende stap
 
@@ -139,10 +139,10 @@ Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)fun
 
 ## <a name="see-also"></a>Zie ook
 
-[Identiteitskaart](identity-roadmap-microsoft-365.md)
+[Routekaart voor identiteit](identity-roadmap-microsoft-365.md)
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 enterprise-documentatie](/microsoft-365-enterprise/)

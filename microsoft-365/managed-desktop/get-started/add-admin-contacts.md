@@ -1,6 +1,6 @@
 ---
 title: Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal
-description: Vertel ons wie u contact moet opnemen voor elk gebied van de focus.
+description: Laat ons weten met wie we contact moeten opnemen voor elk focusgebied.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,67 +9,67 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8b287200b1c94ff350f7ba00cf0c4e6bc1b4a71f
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 18823db8ca8d4bfa82b8ab6265ee8a0902a13e79
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289259"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925890"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal
 
-U kunt op verschillende manieren communiceren met klanten via Microsoft beheerde bureaublad service. Voor het stroomlijnen van de communicatie en zorg ervoor dat u de juiste personen controleert, moet u een reeks beheerders contacten opgeven. DOOR Microsoft beheerde bureaublad activiteiten wordt contact opgenomen met deze personen voor hulp bij het oplossen van problemen met de Tenant.
+Microsoft Managed Desktop-service communiceert op verschillende manieren met klanten. Om de communicatie te stroomlijnen en ervoor te zorgen dat we contact hebben met de juiste personen, moet u een set beheerderscontacten verstrekken. Microsoft Managed Desktop IT Operations neemt contact op met deze personen voor hulp bij het oplossen van problemen met uw tenant.
 
 > [!IMPORTANT]
-> U hebt deze contactpersonen al toegevoegd aan de beheerportal. Als dit het geval is, kunt u nu even kijken of de lijst met contactpersonen nauwkeurig is, omdat Microsoft Managed Desktop de verbinding **moet** kunnen bereiken als er een ernstig incident plaatsvindt.
+> Mogelijk hebt u deze contactpersonen al toegevoegd aan de beheerportal. Als dat het geval is, kunt u nu even controleren of de lijst met contactpersonen juist is, omdat Microsoft Managed **Desktop** deze moet kunnen bereiken als er een ernstig incident optreedt.
 
-## <a name="azure-active-directory-access-for-microsoft-managed-desktop-admin-portal"></a>Azure Active Directory Access voor de beheerde portal voor Microsoft-bureaubladbeheer
+## <a name="azure-active-directory-access-for-microsoft-managed-desktop-admin-portal"></a>Azure Active Directory access for Microsoft Managed Desktop Admin portal
 
-De portal van de beheerde bureaublad beheerder van Microsoft wordt vereist dat personen die toegang hebben tot de portal een van deze Azure Active Directory (AD) rollen hebben.
+Microsoft Managed Desktop Admin portal vereist dat personen die toegang hebben tot de portal een van deze Azure Active Directory (AD) rollen hebben:
 - Globale beheerder
-- InTune-service beheerder
+- Intune-servicebeheerder
 - Algemene lezer
-- Service ondersteuningsbeheerder
+- Serviceondersteuningsbeheerder
 
-De hoofdbeheerder moet de naam van de globale beheerder zijn om uw organisatie in te schrijven op Microsoft Managed Desktop. Alle vijf rollen hebben dezelfde toegang binnen de beheerportal om taken te initiëren en weer te geven. Zie [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)voor meer informatie over het toewijzen van deze rollen in azure AD. 
+De globale beheerder moet degene zijn die uw organisatie inschrijft voor Microsoft Managed Desktop. Alle vijf rollen hebben dezelfde toegang binnen de beheerportal om taken te starten en weer te geven. Zie Beheerdersrolmachtigingen in Azure Active Directory voor meer informatie over het toewijzen van [deze rollen in Azure](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)AD. 
 
-## <a name="admin-contact-areas-of-focus"></a>Beheerders bereiken van focus
+## <a name="admin-contact-areas-of-focus"></a>Contactgebieden van beheerder met focus
 
-Contactpersonen beheerder moeten de beste persoon of groep zijn die vragen kan beantwoorden en besluiten te nemen voor verschillende gebieden van de focus. **Door Microsoft beheerde bureaublad activiteiten wordt contact opgenomen met deze beheerders contactpersonen voor vragen met ondersteuningsverzoeken die door de klant zijn ingediend.** Deze beheerders contactpersonen ontvangen een melding voor updates van ondersteuningsaanvragen en nieuwe berichten. Dit gebied omvat:
+Beheerderscontacten moeten de beste persoon of groep zijn die vragen kan beantwoorden en beslissingen kunnen nemen voor verschillende aandachtsgebieden. **Microsoft Managed Desktop Operations neemt contact op met deze beheerderscontactcontacten voor vragen over ondersteuningsaanvragen die door de klant zijn ingediend.** Deze beheerderscontacten ontvangen meldingen voor ondersteuningsverzoekupdates en nieuwe berichten. Deze gebieden zijn:
 
-Gebied met focus | Voor vragen over
+Focusgebied | Voor vragen over
 --- | ---
 App-verpakking | App-verpakking oplossen
-Apparaten | Apparaatstatusverklaring, probleemoplossing met door Microsoft beheerde bureaublad apparaten
-Beveiliging | Beveiligingsproblemen met door Microsoft beheerde bureaublad apparaten oplossen
-IT-helpdesk | Wanneer onze ondersteuningsmedewerkers de afdeling ondersteunings gebieden van gebruikers buiten Microsoft beheerde bureaublad ondersteuning bevinden 
-Overige | Voor problemen die niet worden bedekt door andere gebieden
+Apparaten | Apparaattoestand, probleemoplossing met Microsoft Managed Desktop-apparaten
+Beveiliging | Beveiligingsproblemen oplossen met beheerde bureaubladapparaten van Microsoft
+IT-helpdesk | in gevallen waarin onze ondersteuningsmedewerkers gebruikerstickets buiten microsoft Managed Desktop-ondersteuningsgebieden overhanden 
+Overige | Voor problemen die niet onder andere gebieden vallen
 
-**Degene die u voor deze contactpersonen kiest, moet de kennis en bevoegdheid hebben om beslissingen te kunnen nemen voor de Microsoft-beheerde bureaubladomgeving.** Wanneer u de beheerde bureaubladomgeving van Microsoft ophaalt, wordt u gevraagd contactpersonen voor uw lokale helpdesk en beveiliging toe te voegen. 
+**Wie u ook kiest voor deze contactpersonen, moet de kennis en de bevoegdheid hebben om beslissingen te nemen voor uw Microsoft Managed Desktop-omgeving.** Wanneer u uw Microsoft Managed Desktop-omgeving aan boord neemt, wordt u gevraagd contactpersonen toe te voegen voor uw lokale helpdesk en beveiliging. 
 
-Beheerders contactpersonen zijn vereist wanneer u [een ondersteuningsaanvraag indient](../service-description/support.md). U moet een beheerders contact hebben voor het focus gebied van het ondersteuningsverzoek. 
+Beheerderscontacten zijn vereist wanneer u [een ondersteuningsaanvraag indient.](../service-description/support.md) U moet een beheerdercontactcontact hebben voor het focusgebied van de ondersteuningsaanvraag. 
 
-**Beheerders contactpersonen toevoegen**
+**Beheerderscontacten toevoegen**
 
-1.  Meld u aan bij de [Portal van Microsoft beheerde bureaubladbeheer](https://aka.ms/mwaasportal). 
+1.  Meld u aan bij [microsoft Managed Desktop Admin Portal](https://aka.ms/mwaasportal). 
 
-2.  Selecteer onder **ondersteuning**de optie **beheerder contactpersonen**. 
+2.  Selecteer **onder Ondersteuning** de optie Contactpersonen **beheren.** 
 
-    ![Ondersteunings menu, contactpersonen van beheerder, bijna bovenaan geselecteerd](../../media/admincontacts.png)
+    ![Ondersteuningsmenu, Contactpersonen beheren in de buurt van de bovenste geselecteerde](../../media/admincontacts.png)
 
 3. Kies **Toevoegen**.
 
-    ![Beheerportal, knop toevoegen links van exporteren en vernieuwen](../../media/adminadd.png)
+    ![Beheerportal, knop Toevoegen, links van Exporteren en vernieuwen](../../media/adminadd.png)
 
-4.  Selecteer een **gebied met de focus** en voer de gegevens voor de contactpersoon in. 
+4.  Selecteer een **gebied met focus** en voer de gegevens voor de contactpersoon in. 
 
-    ![de lijst met de focus gebieden, zoals andere, apps en beveiliging](../../media/areaoffocus.png)
+    ![de lijst met focusgebieden, zoals Overige, Apps en Beveiliging](../../media/areaoffocus.png)
 
-5. Herhaal dit voor elk gebied van de focus. 
+5. Herhaal dit voor elk focusgebied. 
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Stappen om aan de slag te gaan met Microsoft Managed Desktop
 
-1. Beheerders contactpersonen toevoegen en controleren in de beheerportal (dit onderwerp)
+1. Beheerderscontacten toevoegen en verifiëren in de beheerportal (dit onderwerp)
 2. [Voorwaardelijke toegang aanpassen](conditional-access.md)
 3. [Licenties toewijzen](assign-licenses.md)
 4. [InTune-bedrijfsportal installeren op apparaten](company-portal.md)

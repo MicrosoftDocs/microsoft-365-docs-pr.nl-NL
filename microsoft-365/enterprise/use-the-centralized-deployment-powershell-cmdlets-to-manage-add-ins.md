@@ -19,39 +19,39 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: Gebruik de PowerShell-cmdlets voor gecentraliseerde implementatie om Office-invoegtoepassingen te implementeren en beheren voor uw Microsoft 365-organisatie.
-ms.openlocfilehash: 659f12d2533601c4b2165a95ddbf59ea521945b8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Gebruik de Centralized Deployment PowerShell-cmdlets om u te helpen bij het implementeren en beheren van Office-invoegingen voor uw Microsoft 365-organisatie.
+ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689437"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924670"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>Use the Centralized Deployment PowerShell cmdlets to manage add-ins
 
-Als globale beheerder van Microsoft 365 kunt u Office-invoegtoepassingen implementeren voor gebruikers via de gecentraliseerde implementatie functie (Zie [Office-invoegtoepassingen implementeren in het Beheercentrum](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)). Naast de distributie van Office-invoegtoepassingen via het Microsoft 365-Beheercentrum, kunt u ook Microsoft PowerShell gebruiken. Installeer de [invoegtoepassing O365 Central Deployment module voor Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment). 
+Als globale beheerder van Microsoft 365 kunt u Office-invoegvoegingen implementeren voor gebruikers via de functie Gecentraliseerde implementatie (zie [Office-invoegvoegingen implementeren in het beheercentrum).](../admin/manage/manage-deployment-of-add-ins.md) Naast het implementeren van Office-invoegvoegingen via het Microsoft 365-beheercentrum, kunt u ook Microsoft PowerShell gebruiken. Installeer de [O365 Centralized Add-In Deployment Module voor Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment) 
 
-Wanneer u de module hebt gedownload, opent u een normaal Windows PowerShell-venster en voert u de volgende cmdlet uit:
+Nadat u de module hebt gedownload, opent u een gewoon Windows PowerShell-venster en voer u de volgende cmdlet uit:
 
 ```powershell
  Import-Module -Name O365CentralizedAddInDeployment
 ```
     
-## <a name="connect-using-your-admin-credentials"></a>Verbinding maken met behulp van uw beheerdersreferenties
+## <a name="connect-using-your-admin-credentials"></a>Verbinding maken met uw beheerdersreferenties
 
-Voordat u de cmdlets voor gecentraliseerde implementatie kunt gebruiken, moet u zich aanmelden.
+Voordat u de cmdlets gecentraliseerde implementatie kunt gebruiken, moet u zich aanmelden.
   
 1. Start PowerShell.
     
-2. Maak verbinding met PowerShell met behulp van uw beheerdersreferenties voor uw bedrijf. Voer de volgende cmdlet uit.
+2. Maak verbinding met PowerShell met behulp van uw bedrijfsbeheerdersreferenties. Voer de volgende cmdlet uit.
     
   ```powershell
   Connect-OrganizationAddInService
   ```
 
-3. Voer op de pagina **referenties invoeren** uw globale beheerdersreferenties voor microsoft 365 in. U kunt ook uw referenties rechtstreeks invoeren in de cmdlet. 
+3. Voer op **de pagina Referenties** invoeren uw globale beheerdersreferenties van Microsoft 365 in. U kunt ook uw referenties rechtstreeks in de cmdlet invoeren. 
     
-    Voer de volgende cmdlet uit om de beheerdersreferenties voor uw bedrijf op te geven als een PSCredential-object.
+    Voer de volgende cmdlet uit die uw bedrijfsbeheerdersreferenties opgeeft als een PSCredential-object.
     
   ```powershell
   $secpasswd = ConvertTo-SecureString "MyPassword" -AsPlainText -Force
@@ -60,113 +60,113 @@ Voordat u de cmdlets voor gecentraliseerde implementatie kunt gebruiken, moet u 
   ```
 
 > [!NOTE]
-> Zie [verbinding maken met Microsoft 365 met PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585)voor meer informatie over het gebruik van PowerShell. 
+> Zie Verbinding maken met [Microsoft 365 met PowerShell](./connect-to-microsoft-365-powershell.md)voor meer informatie over het gebruik van PowerShell. 
   
-## <a name="upload-an-add-in-manifest"></a>Een manifest van de invoegtoepassing uploaden
+## <a name="upload-an-add-in-manifest"></a>Een invoegingsmanifest uploaden
 
-Voer de cmdlet **New-verwijdereneen toevoegen** uit om een invoeg toepassingsmanifest te uploaden vanuit een pad, dat een bestandslocatie of URL kan zijn. In het volgende voorbeeld ziet u een bestandslocatie voor de waarde van de  _ManifestPath_ -parameter. 
+Voer de **cmdlet New-OrganizationAdd-In** uit om een invoegingsmanifest te uploaden vanaf een pad, dat een bestandslocatie of URL kan zijn. In het volgende voorbeeld ziet u een bestandslocatie voor de waarde van de _parameter ManifestPath._ 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
 ```
 
-U kunt ook de **New-verwijdereneen toevoegen-in-** cmdlet uitvoeren om een invoegtoepassing te uploaden en deze toe te wijzen aan gebruikers of groepen rechtstreeks met behulp van de parameters van de  _leden_ , zoals in het volgende voorbeeld wordt weergegeven. Scheid de e-mailadressen van leden met een komma. 
+U kunt ook de **cmdlet New-OrganizationAdd-In** uitvoeren om een invoegvoeging te uploaden en deze rechtstreeks aan gebruikers of groepen toe te wijzen met behulp van de parameter  _Leden,_ zoals wordt weergegeven in het volgende voorbeeld. Scheid de e-mailadressen van leden met een komma. 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
 ```
 
-## <a name="upload-an-add-in-from-the-office-store"></a>Een invoegtoepassing uploaden vanuit de Office Store
+## <a name="upload-an-add-in-from-the-office-store"></a>Een invoegvoeging uploaden vanuit de Office Store
 
-Voer de **New-Get organizationaddin-** cmdlet uit om een manifest te uploaden vanuit de Office Store.
+Voer de **cmdlet New-OrganizationAddIn** uit om een manifest te uploaden vanuit de Office Store.
   
-In het volgende voorbeeld wordt met de **New-Get organizationaddin** -cmdlet de omkt voor een invoegtoepassing opgegeven voor de vestiging en de inhoud van de Verenigde Staten.
+In het volgende voorbeeld geeft de **cmdlet New-OrganizationAddIn** de AssetId op voor een invoegvoeging voor een Amerikaanse locatie en inhoudsmarkt.
   
 ```powershell
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-Om de waarde van de parameter  _omkt_ te bepalen, kunt u deze kopiëren van de URL van de Office Store-webpagina voor de invoegtoepassing. AssetIds begint altijd met "WA", gevolgd door een cijfer. In het voorgaande voorbeeld is de bron voor de Omkt waarde van WA104099688 de URL van de Office Store-webpagina voor de invoegtoepassing: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
+Als u de waarde voor de  _parameter AssetId_ wilt bepalen, kunt u deze kopiëren vanuit de URL van de Office Store-webpagina voor de invoeg. AssetIds beginnen altijd met 'WA' gevolgd door een getal. In het vorige voorbeeld is de bron voor de AssetId-waarde van WA104099688 bijvoorbeeld de URL van de Office Store-webpagina voor de invoegvoegzaak: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
   
-De waarden voor de parameter  _locale_ en de parameter  _ContentMarket_ zijn identiek en geven het land of de regio waarin u de invoegtoepassing wilt installeren. De indeling is en-US, fr-FR. etc. 
+De waarden voor de parameter  _Locale_ en de parameter  _ContentMarket_ zijn identiek en geven het land/de regio aan waaruit u de invoegvoeging wilt installeren. De notatie is nl-NL, fr-FR. enzovoort. 
   
 > [!NOTE]
-> Invoegtoepassingen die u uit de Office Store hebt geüpload, worden automatisch bijgewerkt binnen enkele dagen na de laatste update die beschikbaar is in de Office Store. 
+> Invoegingen die vanuit de Office Store zijn geüpload, worden automatisch bijgewerkt binnen enkele dagen na de nieuwste update die beschikbaar is in de Office Store. 
   
-## <a name="get-details-of-an-add-in"></a>Details van een invoegtoepassing weergeven
+## <a name="get-details-of-an-add-in"></a>Meer informatie over een invoegvoegvoeging
 
-Voer de cmdlet **Get-Get organizationaddin** uit, zoals hieronder wordt weergegeven voor informatie over alle invoegtoepassingen die zijn geüpload naar de Tenant, inclusief product-id van invoegtoepassing.
+Voer de **Get-OrganizationAddIn-cmdlet** uit zoals hieronder wordt weergegeven voor meer informatie over alle invoegingen die naar de tenant zijn geüpload, inclusief de product-id van een invoegvoeginvoeging.
   
 ```powershell
 Get-OrganizationAddIn
 ```
 
-Voer de cmdlet **Get-Get organizationaddin** uit met een waarde voor de parameter  _ProductID_ om op te geven welke invoegtoepassing u gegevens wilt ophalen. 
+Voer de **Get-OrganizationAddIn-cmdlet** uit met een waarde voor de  _parameter ProductId_ om op te geven voor welke invoeginvoeging u details wilt ophalen. 
   
 ```powershell
 Get-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 ```
 
-Als u meer wilt weten over alle invoegtoepassingen plus de toegewezen gebruikers en groepen, pipet u de uitvoer van de cmdlet **Get-Get organizationaddin** naar de cmdlet List List, zoals in het volgende voorbeeld wordt weergegeven.
+Als u alle details van alle invoegvoegingen plus de toegewezen gebruikers en groepen wilt bekijken, geeft u de uitvoer van de **cmdlet Get-OrganizationAddIn** door naar de cmdlet Format-List, zoals wordt weergegeven in het volgende voorbeeld.
   
 ```powershell
 foreach($G in (Get-organizationAddIn)){Get-OrganizationAddIn -ProductId $G.ProductId | Format-List}
 ```
 
-## <a name="turn-on-or-turn-off-an-add-in"></a>Een invoegtoepassing in-of uitschakelen
+## <a name="turn-on-or-turn-off-an-add-in"></a>Een invoeging in- of uitschakelen
 
-Als u een invoegtoepassing wilt uitschakelen, zodat gebruikers en groepen die hieraan zijn toegewezen, niet langer toegang hebben, voert u de cmdlet **set-Get organizationaddin** uit met de parameter  _ProductID_ en de  _ingeschakelde_ parameter ingesteld op  `$false` , zoals u kunt zien in het volgende voorbeeld.
+Als u een invoegvoeginvoeging wilt uitschakelen, zodat gebruikers en groepen die hieraan zijn toegewezen, geen toegang meer hebben, kunt u de **cmdlet Set-OrganizationAddIn** uitvoeren met de  _parameter ProductId_ en de parameter  _Enabled_ ingesteld op , zoals wordt weergegeven in het  `$false` volgende voorbeeld.
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $false
 ```
 
-Als u een invoegtoepassing weer wilt inschakelen, voert u dezelfde cmdlet uit, waarbij de parameter  _enabled_ is ingesteld op  `$true` .
+Als u een invoegvoeginvoeging weer wilt inschakelen, moet u dezelfde cmdlet uitvoeren met de parameter  _Enabled_ ingesteld op  `$true` .
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $true
 ```
 
-## <a name="add-or-remove-users-from-an-add-in"></a>Gebruikers aan een invoegtoepassing toevoegen of eruit verwijderen
+## <a name="add-or-remove-users-from-an-add-in"></a>Gebruikers toevoegen aan of verwijderen uit een invoegvoegvoeging
 
-Als u gebruikers en groepen wilt toevoegen aan een bepaalde invoegtoepassing, voert u de cmdlet **set-OrganizationAddInAssignments** uit met de parameters  _product_-id,  _toevoegen_en  _leden_ . Scheid de e-mailadressen van leden met een komma. 
+Als u gebruikers en groepen wilt toevoegen aan een specifieke invoegvoeging, kunt u de **cmdlet Set-OrganizationAddInAssignments** uitvoeren met de parameters _ProductId,_ _Toevoegen_ en _Leden._ Scheid de e-mailadressen van leden met een komma. 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Add -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-Als u gebruikers en groepen wilt verwijderen, voert u dezelfde cmdlet uit met de parameter  _Remove_ . 
+Als u gebruikers en groepen wilt verwijderen, moet u dezelfde cmdlet uitvoeren met de parameter _Verwijderen._ 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Remove -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-Als u een invoegtoepassing wilt toewijzen aan alle gebruikers in de Tenant, voert u dezelfde cmdlet uit met de parameter  _para assigntoeveryone_ waarbij de waarde is ingesteld op  `$true` .
+Als u een invoegvoeging wilt toewijzen aan alle gebruikers in de tenant, moet u dezelfde cmdlet uitvoeren met de parameter  _AssignToEveryone_ met de waarde die is ingesteld op  `$true` .
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $true
 ```
 
-Als u een invoegtoepassing niet aan iedereen wilt toewijzen en eerder toegewezen gebruikers en groepen wilt herstellen, voert u dezelfde cmdlet uit en schakelt u de parameter  _para assigntoeveryone_ uit door de waarde in te stellen  `$false` .
+Als u geen invoegvoeging aan iedereen wilt toewijzen en wilt terugkeren naar de eerder toegewezen gebruikers en groepen, kunt u dezelfde cmdlet uitvoeren en de parameter  _AssignToEveryone_ uitschakelen door de waarde in te stellen op  `$false` .
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $false
 ```
 
-## <a name="update-an-add-in"></a>Een invoegtoepassing bijwerken
+## <a name="update-an-add-in"></a>Een invoeging bijwerken
 
-Als u een invoegtoepassing wilt bijwerken vanuit een manifest, voert u de cmdlet **set-Get organizationaddin** uit met de parameters  _ProductID_,  _ManifestPath_en  _locale_ , zoals weergegeven in het volgende voorbeeld. 
+Als u een invoegvoeging wilt bijwerken vanuit een manifest, gebruikt u de **cmdlet Set-OrganizationAddIn** met de  _parameters ProductId,_  _ManifestPath_ en  _Locale,_ zoals wordt weergegeven in het volgende voorbeeld. 
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
 ```
 
 > [!NOTE]
-> Invoegtoepassingen die u uit de Office Store hebt geüpload, worden automatisch bijgewerkt binnen enkele dagen na de laatste update die beschikbaar is in de Office Store. 
+> Invoegingen die vanuit de Office Store zijn geüpload, worden automatisch bijgewerkt binnen enkele dagen na de nieuwste update die beschikbaar is in de Office Store. 
   
-## <a name="delete-an-add-in"></a>Een invoegtoepassing verwijderen
+## <a name="delete-an-add-in"></a>Een invoeging verwijderen
 
-Als u een invoegtoepassing wilt verwijderen, voert u de cmdlet **Remove-Get organizationaddin** uit met de parameter  _Productnummer_ , zoals wordt weergegeven in het volgende voorbeeld. 
+Als u een invoeging wilt verwijderen, moet u de **cmdlet Remove-OrganizationAddIn** uitvoeren met de  _parameter ProductId,_ zoals wordt weergegeven in het volgende voorbeeld. 
   
 ```powershell
 Remove-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
@@ -270,12 +270,10 @@ If an add-in has been deployed, it has to be removed from the cache in each comp
 
 -->
 
-## <a name="get-detailed-help-for-each-cmdlet"></a>Uitgebreide hulp voor elke cmdlet
+## <a name="get-detailed-help-for-each-cmdlet"></a>Gedetailleerde hulp voor elke cmdlet
 
-Met de cmdlet Get-Help kunt u gedetailleerde Help-informatie raadplegen voor elke cmdlet. De volgende cmdlet bevat bijvoorbeeld gedetailleerde informatie over de Remove-Get organizationaddin-cmdlet.
+U kunt gedetailleerde help voor elke cmdlet bekijken met behulp van de get-help-cmdlet. De volgende cmdlet bevat bijvoorbeeld gedetailleerde informatie over de Remove-OrganizationAddIn cmdlet.
   
 ```powershell
 Get-help Remove-OrganizationAddIn -Full
 ```
-
-

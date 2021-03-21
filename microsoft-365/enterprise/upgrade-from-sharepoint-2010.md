@@ -1,5 +1,5 @@
 ---
-title: Een upgrade uitvoeren van SharePoint 2010
+title: Upgraden van SharePoint 2010
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -18,265 +18,265 @@ search.appverid:
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c
 f1.keywords:
 - NOCSH
-description: Informatie en resources zoeken voor een upgrade van SharePoint 2010 en SharePoint Server 2010. Ondersteuning voor beide uiteinden van 13 april 2021.
+description: Informatie en bronnen zoeken voor een upgrade van SharePoint 2010 en Sharepoint Server 2010. Ondersteuning voor beide eindigt op 13 april 2021.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fba095a15164f8a09ce1e0a1cbd5ee9cd298aa74
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 4fa82fb0e382a244cdc126609ac62d17280b9702
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519761"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925330"
 ---
-# <a name="upgrading-from-sharepoint-2010"></a>Een upgrade uitvoeren van SharePoint 2010
+# <a name="upgrading-from-sharepoint-2010"></a>Upgraden van SharePoint 2010
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Microsoft SharePoint 2010 en SharePoint Server 2010 wordt beëindigd met de ondersteuning op **13 April 2021**. Dit artikel bevat informatiebronnen die u helpen bij het migreren van uw bestaande SharePoint Server 2010-gegevens naar SharePoint Online in Microsoft 365 of om uw on-premises SharePoint Server 2010-omgeving bij te werken.
+Microsoft SharePoint 2010 en SharePoint Server 2010 eindigen op **13 april 2021** op het einde van de ondersteuning. In dit artikel vindt u informatiebronnen om uw bestaande SharePoint Server 2010-gegevens te migreren naar SharePoint Online in Microsoft 365 of om uw on-premises SharePoint Server 2010-omgeving te upgraden.
 
-## <a name="what-is-end-of-support"></a>Wat is het *einde van de ondersteuning*?
+## <a name="what-is-end-of-support"></a>Wat is *het einde van de ondersteuning?*
 
-De meeste Microsoft-producten hebben een ondersteunings levensduur, waaronder nieuwe functies, foutoplossingen, beveiligingsoplossingen, enzovoort. Na de einddatum van de ondersteuning werkt het product niet meer, maar Microsoft biedt niet langer:
+De meeste Microsoft-producten hebben een ondersteuningslevenscyclus, waarin ze nieuwe functies, bugfixes, beveiligingsfixes, en ga zo maar door krijgen. Na het einde van de ondersteuningsdatum werkt het product niet meer, maar Microsoft biedt niet meer:
 
 - Technische ondersteuning voor problemen die kunnen optreden.
 
-- Oplossingen voor problemen die gevolgen kunnen hebben voor de stabiliteit en bruikbaarheid van de server.
+- Oplossingen voor problemen die van invloed kunnen zijn op de stabiliteit en bruikbaarheid van de server.
 
-- Beveiligingscorrecties voor beveiligingsproblemen die de server kwetsbaar kunnen maken voor beveiligingsproblemen.
+- Beveiligingsfixes voor beveiligingsproblemen die de server kwetsbaar kunnen maken voor beveiligingsinbreuken.
 
 - Tijdzone-updates.
 
-Dit betekent dat er geen updates, patches of oplossingen voor het product zijn, waaronder beveiligingspatches en fixes. Microsoft Support heeft de ondersteuning voor de ondersteuning van alle recente versies volledig verschoven.
+Dit betekent dat er geen verdere updates, patches of fixes voor het product zijn (inclusief beveiligingspatches/fixes). Microsoft-ondersteuning heeft de ondersteuningsinspanningen volledig verplaatst naar recentere versies.
 
-Als het einde van de ondersteuning van SharePoint Server 2010 aanpakt, verwijdert u de gegevens die u niet meer nodig hebt voordat u het product upgradet en uw belangrijke gegevens migreert.
+Als het einde van de ondersteuning van SharePoint Server 2010 nadert, verwijdert u gegevens die u niet meer nodig hebt voordat u het product upgradet en uw belangrijke gegevens migreert.
 
 > [!NOTE]
-> Een software levensduur duurt doorgaans tien jaar vanaf de eerste release. [Microsoft Solution Providers](https://go.microsoft.com/fwlink/?linkid=841249) kunnen u helpen bij een upgrade naar de volgende versie van de software of naar microsoft 365-migratie (of beide) migreren. Zorg ervoor dat u zich bewust bent van end-of-ondersteunings datums voor kritieke, onderliggende technologieën, met name voor de versie van Microsoft SQL Server die u met SharePoint gebruikt. Voor meer informatie raadpleegt u het [beleid voor vaste levens regels](https://support.microsoft.com/help/14085).
+> Een levenscyclus van een software duurt meestal tien jaar vanaf de eerste release. [Microsoft-oplossingsproviders](https://go.microsoft.com/fwlink/?linkid=841249) kunnen u helpen bij het upgraden naar de volgende versie van de software of migreren naar Microsoft 365-migratie (of beide). Zorg ervoor dat u ook op de hoogte bent van einddatums van ondersteuning voor kritieke onderliggende technologieën, met name voor de versie van Microsoft SQL Server die u gebruikt met SharePoint. Zie Beleid voor vaste levenscyclus [voor meer informatie.](https://support.microsoft.com/help/14085)
 
-## <a name="plan-ahead"></a>Voorspringen
+## <a name="plan-ahead"></a>Vooruit plannen
 
-Controleer de datums die de ondersteuning voor de [product levenscyclus site](https://support.microsoft.com/lifecycle/search?alpha=SharePoint%20Server%202010)ondersteunen. Plan de upgrades of migraties met deze datums in gedachten. Houd er rekening mee dat uw product *niet meer werkt* op de vermeldings datum. Aangezien de installatie na deze datum niet meer wordt hersteld, moet u een soepele overgang naar de volgende versie van het productplannen.
+Controleer de datums die ondersteuning bieden eindigt op de [productlevenscyclussite.](https://support.microsoft.com/lifecycle/search?alpha=SharePoint%20Server%202010) Plan uw upgrades of migraties met deze datums in gedachten. Vergeet niet dat uw product *niet stopt met werken op* de vermelde datum. Maar omdat de installatie na die datum niet meer wordt gepatcht, wilt u een soepele overgang naar de volgende versie van het product plannen.
 
-Met deze matrix kunt u een cursus uitzetten onder migratie opties:
+Met deze matrix kunt u een cursus tussen migratieopties plannen:
 
-|Einde van ondersteunings product|Uitstekend |Doen|
+|Einde van ondersteuningsproduct|Goed |Beste|
 |---|---|---|
 |SharePoint Server 2010|SharePoint Server 2013 (on-premises)|SharePoint Online|
-||SharePoint Server 2013 Hybrid met SharePoint Online|SharePoint Server 2016 (on-premises)|
-|||Hybride zoeken voor de SharePoint-Cloud|
+||Hybride SharePoint Server 2013 met SharePoint Online|SharePoint Server 2016 (on-premises)|
+|||Hybride zoeken in SharePoint Cloud|
 
-Als u een optie op het lage einde van de schaal kiest (goed), moet u eerst plannen voor een andere upgrade, binnenkort na de migratie van SharePoint Server 2010.
+Als u een optie kiest aan de lage kant van de schaal (goed), moet u snel na de migratie van SharePoint Server 2010 beginnen met het plannen van een nieuwe upgrade.
 
-Dit zijn de drie paden die u kunt nemen om te voorkomen dat de ondersteuning van SharePoint Server 2010 wordt beëindigd.
+Hier volgen de drie paden die u kunt volgen om het einde van de ondersteuning voor SharePoint Server 2010 te voorkomen.
 
-![Upgradepaden van SharePoint Server 2010](../media/upgrade-from-sharepoint-2010/upgrade-from-sharepoint-2010-paths.png)
+![Upgradepaden voor SharePoint Server 2010](../media/upgrade-from-sharepoint-2010/upgrade-from-sharepoint-2010-paths.png)
 
 > [!NOTE]
-> Het einde van de ondersteuning voor SharePoint Server 2010 en SharePoint Foundation 2010 is op dit moment gepland voor 13 april 2021. Zorg er wel voor dat u de [product levenscyclus site](https://support.microsoft.com/lifecycle) controleert op de meest recente datums.
+> Het einde van de ondersteuning voor SharePoint Server 2010 en SharePoint Foundation 2010 is momenteel gepland voor 13 april 2021. Maar controleer de [productlevenscyclussite op](https://support.microsoft.com/lifecycle) de meest recente datums.
 
 ## <a name="whats-next"></a>En nu?
 
-SharePoint Server 2013 en SharePoint Foundation 2013 kunnen on-premises worden geïnstalleerd op uw eigen servers. U kunt ook SharePoint Online gebruiken, een online service die onderdeel is van Microsoft 365. U kunt kiezen voor:
+SharePoint Server 2013 en SharePoint Foundation 2013 kunnen on-premises worden geïnstalleerd op uw eigen servers. U kunt ook SharePoint Online gebruiken, een onlineservice die deel uitmaakt van Microsoft 365. U kunt kiezen uit:
 
 - Migreren naar SharePoint Online.
 
-- Voer on-premises een upgrade van SharePoint Server of SharePoint Foundation uit.
+- Upgrade SharePoint Server of SharePoint Foundation on-premises.
 
-- Voer beide bovenstaande handelingen uit.
+- Doe beide van het bovenstaande.
 
-- Implementeer een [hybride SharePoint-](https://docs.microsoft.com/sharepoint/hybrid/hybrid) oplossing.
+- Een [hybride SharePoint-oplossing](/sharepoint/hybrid/hybrid) implementeren.
 
-Let op de verborgen kosten voor het onderhoud van een serverfarm, waaronder het onderhoud of migreren van aanpassingen en het bijwerken van hardware. Als u de rekening hebt gehouden met deze factoren, is het eenvoudiger om on-premises on-premises te upgraden. Als u de farm uitvoert op oudere SharePoint-servers zonder een zware aanpassing, kunt u gebruikmaken van een geplande migratie naar SharePoint Online. Als u een on-premises SharePoint Server-omgeving gebruikt, kunt u overwegen om bepaalde gegevens te verplaatsen in SharePoint Online om de overhead van hardware management te beperken.
+Houd rekening met de verborgen kosten voor het onderhouden van een serverfarm, zoals het onderhouden of migreren van aanpassingen en het upgraden van hardware. Als u rekening hebt gehouden met deze factoren, is het gemakkelijker om on-premises een upgrade uit te voeren. Als u uw farm zonder grote aanpassingen op oudere SharePoint-servers runt, kunt u profiteren van een geplande migratie naar SharePoint Online. Voor een on-premises SharePoint Server-omgeving kunt u ook overwegen bepaalde gegevens in SharePoint Online te verplaatsen om de overhead van hardwarebeheer te beperken.
 
 > [!NOTE]
-> SharePoint-beheerders kunnen een abonnement op Microsoft 365 maken, nieuwe SharePoint Online-sites installeren en vervolgens op de site van SharePoint Server 2010 wissen, zodat ze alleen essentiële documenten met de nieuwe sites worden gemaakt. Vervolgens kunnen de resterende gegevens van de SharePoint Server 2010-site worden verwaterd in on-premises archieven.
+> SharePoint-beheerders kunnen een Microsoft 365-abonnement maken, nieuwe SharePoint Online-sites instellen en vervolgens op een schone manier afstand nemen van SharePoint Server 2010, waarbij alleen essentiële documenten naar de nieuwe sites worden verwijderd. Vervolgens kunnen alle resterende gegevens van de SharePoint Server 2010-site worden gedraineerd naar on-premises archieven.
 
-|SharePoint Online|SharePoint Server on-premises|
+|SharePoint Online|On-premises SharePoint Server|
 |---|---|
-|Hoge kosten voor tijd (planning/uitvoering/verificatie)|Hoge kosten voor tijd (planning/uitvoering/verificatie)|
-|Lagere kosten voor financiële middelen (geen hardware aankopen)|Hogere kosten in fondsen (hardware aankopen)|
-|Eenmalige kosten in migratie|Eenmalige kosten die worden herhaald per toekomstige migratie|
-|Lage totale eigendomskosten/onderhoud|Grote totale eigendomskosten/onderhoud|
+|Hoge kosten in de tijd (plan/uitvoering/verificatie)|Hoge kosten in de tijd (plan/uitvoering/verificatie)|
+|Lagere kosten in fondsen (geen hardwareaankopen)|Hogere kosten in fondsen (hardwareaankopen)|
+|Een een time cost in migration|Een een time cost repeated per future migration|
+|Lage totale eigendomskosten/onderhoud|Hoge totale eigendomskosten/onderhoud|
 
-Een eenmalige overstap naar Microsoft 365 kost een hogere kosten wanneer u gegevens organiseert en opgeeft wat u wilt doen met de Cloud en wat u achter moet laten. Wanneer uw gegevens zijn gemigreerd, worden toekomstige upgrades automatisch gewijzigd, omdat u niet langer de hardware-en software-updates hoeft te beheren. En de hoeveelheid tijd van uw farm wordt ondersteund door een [Microsoft Service Level Agreement (Sla)](https://go.microsoft.com/fwlink/?linkid=843153).
+Een een-time overstap naar Microsoft 365 heeft hogere kosten terwijl u gegevens organiseert en bepaalt wat u naar de cloud wilt verplaatsen en wat u moet achterlaten. Maar nadat uw gegevens zijn gemigreerd, worden toekomstige upgrades automatisch geïnstalleerd, omdat u geen hardware- en software-updates meer hoeft te beheren. En de up time van uw farm wordt gebacked door een [Microsoft Service Level Agreement (SLA)](/office365/servicedescriptions/office-365-platform-service-description/service-level-agreement).
 
 ### <a name="migrate-to-sharepoint-online"></a>Migreren naar SharePoint Online
 
-Zorg ervoor dat SharePoint Online alle benodigde functies biedt. Zie de beschrijving van de [SharePoint-Service](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description).
+Zorg ervoor dat SharePoint Online alle functies biedt die u nodig hebt. Zie [Beschrijving van SharePoint-service](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description).
 
-U kunt geen rechtstreekse migratie van SharePoint Server 2010 (of SharePoint Foundation 2010) naar SharePoint Online. Zo veel migratie werken handmatig. Maar in deze stap kunt u gegevens en sites die u niet meer nodig hebt voor de verhuizing, weghalen via de verkoopkans. U kunt andere gegevens in de opslag archivering. 
+U kunt niet rechtstreeks migreren van SharePoint Server 2010 (of SharePoint Foundation 2010) naar SharePoint Online. Een groot deel van het migratiewerk is handmatig. Maar in deze fase kunt u gegevens en sites die niet meer nodig zijn vóór de verhuizing, snoeien. U kunt andere gegevens archiveren naar opslag. 
 
-Houd er rekening mee dat de ondersteuning van SharePoint Server 2010 en SharePoint Foundation 2010 helemaal niet wordt beëindigd. Beheerders kunnen beheerders een punt hebben wanneer SharePoint nog steeds wordt uitgevoerd als hun klanten vergeten bepaalde gegevens te verplaatsen.
+Vergeet niet dat SharePoint Server 2010 en SharePoint Foundation 2010 niet stoppen met werken aan het einde van de ondersteuning. Beheerders kunnen dus een periode hebben waarin SharePoint nog steeds actief is als hun klanten vergeten een deel van hun gegevens te verplaatsen.
 
-Als u een upgrade uitvoert naar SharePoint Server 2013 of SharePoint Server 2016 en ervoor kiest om gegevens op te slaan in SharePoint Online, kunt u de [SharePoint MIGRATION API](https://support.office.com/article/Upload-on-premises-content-to-SharePoint-Online-using-PowerShell-cmdlets-555049c6-15ef-45a6-9a1f-a1ef673b867c?ui=en-US&amp;rs=en-US&amp;ad=US) gebruiken om gegevens te migreren naar OneDrive voor bedrijven.
+Als u een upgrade naar SharePoint Server 2013 of SharePoint Server 2016 hebt uitgevoerd en besluit gegevens in SharePoint Online te zetten, kunt u de [SharePoint-migratie-API](https://support.office.com/article/Upload-on-premises-content-to-SharePoint-Online-using-PowerShell-cmdlets-555049c6-15ef-45a6-9a1f-a1ef673b867c?ui=en-US&amp;rs=en-US&amp;ad=US) gebruiken om gegevens te migreren naar OneDrive voor Bedrijven.
 
-|SharePoint Online-voordeel|Nadeel voor SharePoint Online|
+|SharePoint Online-voordeel|SharePoint Online-nadeel|
 |---|---|
-|Microsoft levert SPO-hardware en al het beheer van de hardware.|De beschikbare functies kunnen verschillen van SharePoint Server on-premises en SPO.|
-|U bent de globale beheerder van uw abonnement en u kunt beheerders aan SPO-sites toewijzen.|Sommige acties die voor een farmbeheerder in SharePoint Server on-premises beschikbaar zijn, bestaan niet (of zijn niet nodig) in de SharePoint-beheerdersrol in Microsoft 365. Maar SharePoint-beheer, beheer van de siteverzameling en site eigendom zijn lokale voor uw organisatie.|
-|Patches, oplossingen en updates in onderliggende hardware en software worden door Microsoft toegepast, waaronder SQL-servers waarop SharePoint Online wordt uitgevoerd.|Aangezien u geen toegang hebt tot het onderliggende bestandssysteem in de service, is aanpassing beperkt.|
-|Microsoft publiceert [Service Level Agreements](https://go.microsoft.com/fwlink/?linkid=843153) en zet snel de serviceniveau van een abonnement.|Back-up-en herstelopties en andere opties voor herstellen worden automatisch door de service in SharePoint Online. Back-ups worden overschreven indien niet gebruikt.|
-|Het testen van de beveiliging en het afstemmen van de serverprestaties worden in de service doorlopend uitgevoerd door Microsoft.|Wijzigingen in de gebruikersinterface en andere SharePoint-functies worden geïnstalleerd door de service en moeten mogelijk worden in-of uitgeschakeld.|
-|Microsoft 365 voldoet aan een groot aantal industriestandaarden: [Microsoft compliance-aanbiedingen](https://go.microsoft.com/fwlink/?linkid=843165).|[FastTrack](https://go.microsoft.com/fwlink/?linkid=518597) hulp voor migratie is beperkt.  <br/> Veel van de upgrade is de handleiding of via de SPO-migratie-API die wordt beschreven in de [SharePoint Online-en OneDrive Migration content-wegwijzer](https://go.microsoft.com/fwlink/?linkid=843184).|
-|Microsoft-ondersteuningstechnici en Datacenter medewerkers hebben geen beperkte beheerderstoegang tot uw abonnement.|Er kunnen extra kosten zijn als de hardware-infrastructuur moet worden bijgewerkt voor de ondersteuning van de nieuwere versie van SharePoint, of als een secundaire Farm is vereist voor de upgrade.|
-|Solution Providers kunnen helpen met de eenmalige taak van het migreren van uw gegevens naar SharePoint Online.|Niet alle wijzigingen in SharePoint Online zijn binnen uw besturingselement. Na de migratie kunnen ontwerp verschillen in menu's, Bibliotheken en andere functies tijdelijk van invloed zijn op de bruikbaarheid.|
-|Online producten worden automatisch bijgewerkt in de service. Functies die kunnen worden weergegeven, maar er zijn geen echt ondersteunings levensduur.|Er is een einde-ondersteunings levensduur voor SharePoint Server of SharePoint Foundation en onderliggende SQL servers.|
+|Microsoft levert SPO-hardware en alle hardwarebeheer.|Beschikbare functies kunnen verschillen tussen on-premises en SPO van SharePoint Server.|
+|U bent de globale beheerder van uw abonnement en kunt beheerders toewijzen aan SPO-sites.|Sommige acties die beschikbaar zijn voor een farmbeheerder in on-premises SharePoint Server, bestaan niet (of zijn niet nodig) in de rol SharePoint-beheerder in Microsoft 365. SharePoint-beheer, beheer van siteverzamelingen en sitebezit zijn echter lokaal voor uw organisatie.|
+|Microsoft past patches, fixes en updates toe op onderliggende hardware en software, waaronder SQL-servers waarop SharePoint Online wordt uitgevoerd.|Omdat er geen toegang is tot het onderliggende bestandssysteem in de service, is de aanpassing beperkt.|
+|Microsoft publiceert [serviceovereenkomsten en](/office365/servicedescriptions/office-365-platform-service-description/service-level-agreement) gaat snel om incidenten op serviceniveau op te lossen.|Back-up en herstel en andere herstelopties worden geautomatiseerd door de service in SharePoint Online. Back-ups worden overschreven als ze niet worden gebruikt.|
+|Beveiligingstests en prestatieafstemming op de server worden continu uitgevoerd in de service door Microsoft.|Wijzigingen in de gebruikersinterface en andere SharePoint-functies worden door de service geïnstalleerd en moeten mogelijk worden in- of uitgeschakeld.|
+|Microsoft 365 voldoet aan veel industriestandaarden: [Microsoft-complianceaanbiedingen.](/compliance/regulatory/offering-home)|[FastTrack-ondersteuning](https://go.microsoft.com/fwlink/?linkid=518597) voor migratie is beperkt.  <br/> Een groot deel van de upgrade is handmatig of via de SPO-migratie-API die wordt beschreven in de Roadmap voor [SharePoint Online- en OneDrive-migratie-inhoud.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)|
+|Microsoft Support-technici en datacentermedewerkers hebben geen onbeperkte beheerderstoegang tot uw abonnement.|Er kunnen extra kosten zijn als de hardwareinfrastructuur moet worden bijgewerkt ter ondersteuning van de nieuwere versie van SharePoint of als een secundaire farm vereist is voor een upgrade.|
+|Oplossingsproviders kunnen u helpen bij de een-time taak om uw gegevens te migreren naar SharePoint Online.|Niet alle wijzigingen in SharePoint Online zijn binnen uw beheer. Na de migratie kunnen ontwerpverschillen in menu's, bibliotheken en andere functies tijdelijk van invloed zijn op de bruikbaarheid.|
+|Onlineproducten worden automatisch bijgewerkt in de service. Functies kunnen worden afgeschaft, maar er is geen echt einde van de ondersteuningscyclus.|Er is een levenscyclus voor end-of-support voor SharePoint Server of SharePoint Foundation, evenals onderliggende SQL-servers.|
 
-Als u hebt besloten een nieuwe Microsoft 365-site te maken en deze zo nodig handmatig te migreren, controleert u de [Opties van Microsoft 365](https://www.microsoft.com/microsoft-365/).
+Als u hebt besloten een nieuwe Microsoft 365-site te maken en gegevens naar deze site handmatig migreert, controleert u uw [Microsoft 365-opties.](https://www.microsoft.com/microsoft-365/)
 
-### <a name="upgrade-sharepoint-server-on-premises"></a>SharePoint Server on-premises upgraden
+### <a name="upgrade-sharepoint-server-on-premises"></a>On-premises upgrade van SharePoint Server uitvoeren
 
-Vanaf SharePoint Server 2019 moeten de upgrades  *serieel* zijn. Er is geen manier om een upgrade van SharePoint Server 2010 naar SharePoint Server 2016 of SharePoint 2019 rechtstreeks uit te voeren. Serieel upgrade traject:
+Vanaf SharePoint Server 2019 moeten upgrades *serieel worden uitgevoerd.* U kunt niet rechtstreeks upgraden van SharePoint Server 2010 naar SharePoint Server 2016 of naar SharePoint 2019. Serieel upgradepad:
 
-- SharePoint Server 2010 \> SharePoint server 2013 \> SharePoint Server 2016
+- SharePoint Server 2010 \> SharePoint Server 2013 \> SharePoint Server 2016
 
-Het duurt langer voordat u het volledige pad van SharePoint 2010 naar SharePoint Server 2016 volgt. Voor de upgrades gelden de kosten voor hardware (SQL servers moet ook worden bijgewerkt), software en beheer. Het kan ook zijn dat aanpassingen moeten worden bijgewerkt of zelfs moeten worden afgebroken. Als u een upgrade van uw SharePoint server-farm uitvoert, moet u ervoor zorgen dat u belangrijke aanpassingen documenteert.
+Het duurt even om het hele pad van SharePoint 2010 naar SharePoint Server 2016 te volgen. Upgrades brengen kosten met zich mee voor hardware (SQL-servers moeten ook worden bijgewerkt), software en beheer. Het kan ook nodig zijn om aanpassingen te upgraden of zelfs te verlaten. Zorg ervoor dat u belangrijke aanpassingen documenteert voordat u uw SharePoint Server-farm upgradet.
 
 > [!NOTE]
-> Het is mogelijk om uw end-to-support SharePoint 2010-Farm te behouden, een SharePoint Server 2016-Farm te installeren op nieuwe hardware (zodat de afzonderlijke Farms gelijktijdig worden uitgevoerd) en vervolgens een handmatige migratie van inhoud plannen en uitvoeren (bijvoorbeeld om de inhoud te downloaden en opnieuw te uploaden). Deze handmatig verplaatsingen zijn mogelijk niet beschikbaar voor deze handmatige verplaatsingen, zoals documenten die afkomstig zijn van 2010 en die een recent gewijzigde account hebben met de alias van het account dat het handmatig vernieuwt. Daarnaast moet een deel van het werk, zoals het opnieuw maken van sites, subsites, machtigingen en lijst structuren, op een later tijdstip plaatsvinden. Zorg ervoor dat u de omgeving opschoont voordat u een upgrade uitvoert. U kunt ook rekening houden met de gegevens die u in de opslagruimte kunt zetten of niet langer nodig hebt. Dit kan de gevolgen van de migratie verminderen. Zorg ervoor dat uw bestaande farm functioneel is voordat u een upgrade uitvoert, en (zeker) voordat u met de Commissie verdergaat.
+> Het is mogelijk om uw SharePoint 2010-farm te onderhouden, een SharePoint Server 2016-farm te installeren op nieuwe hardware (zodat de afzonderlijke farms naast elkaar worden uitgevoerd) en vervolgens een handmatige migratie van inhoud plannen en uitvoeren (bijvoorbeeld voor het downloaden en opnieuw uploaden van inhoud). Maar er zijn mogelijke valkuilen voor deze handmatige bewegingen, zoals documenten die afkomstig zijn uit 2010 met een huidig, laatst gewijzigd account met de alias van het account dat de handmatige beweging doet. En sommige werkzaamheden moeten van tevoren worden uitgevoerd, zoals het opnieuw maken van sites, subsites, machtigingen en lijststructuren. Zorg ervoor dat u uw omgeving reinigt vóór de upgrade. Overweeg welke gegevens u in opslag kunt verplaatsen of niet meer nodig hebt. Dit kan de impact van migratie verminderen. Zorg ervoor dat uw bestaande farm functioneel is voordat u een upgrade gaat uitvoeren, en (zeker) voordat u de farm buiten bedrijf gaat stellen.
 
-Vergeet niet de *ondersteunde en niet-ondersteunde upgradepaden* te controleren:
+Vergeet niet om de *ondersteunde en niet-ondersteunde upgradepaden te bekijken:*
 
-- [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843156)
+- [SharePoint Server 2010](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262747(v=office.12))
 
-- [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843157)
+- [SharePoint Server 2013](/SharePoint/upgrade-and-update/review-supported-editions-and-products-for-upgrading-to-sharepoint-2013)
 
-Als u *aanpassingen* hebt, is het essentieel dat u voor elke stap in het migratie traject de volgende stappen plant:
+Als u aanpassingen *hebt,* is het essentieel dat u voor elke stap in het migratiepad van plan bent:
 
-- [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843160)
+- [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc263203(v=office.14))
 
-- [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843162)
+- [SharePoint Server 2013](/SharePoint/upgrade-and-update/create-a-communication-plan-for-the-upgrade-to-sharepoint-2013)
 
-|On-premises voordeel|Nadeel van on-premises|
+|On-premises voordeel|On-premises nadeel|
 |---|---|
-|Volledig beheer van alle aspecten van uw SharePoint-farm (en de bijbehorende SQL), van de serverhardware.|Alle onderbrekingen en fixes vormen de verantwoordelijkheid van uw bedrijf. U kunt ook Microsoft ondersteuning bieden voor ondersteuning als uw product niet meer aan de kant van de ondersteuning valt.|
-|Volledige functieset van SharePoint Server on-premises met de mogelijkheid om via hybride verbinding te maken tussen uw on-premises Farm en een SharePoint Online-abonnement.|Upgrades, patches, beveiligingsoplossingen, hardware-upgrades en het onderhoud van SharePoint Server en de SQL-farm worden on-premises beheerd.|
-|Volledige toegang voor betere aanpassingsopties dan met SharePoint Online.|[Microsoft compliance-aanbiedingen](https://go.microsoft.com/fwlink/?linkid=843165) moeten handmatig on-premises worden geconfigureerd.|
-|Het testen van de beveiliging en het afstemmen van de serverprestaties worden uitgevoerd onder uw besturingselement.|In Microsoft 365 kunnen functies voor SharePoint Online beschikbaar worden gemaakt die niet compatibel zijn met SharePoint Server on-premises.|
-|Solution Providers kunnen helpen bij het migreren van gegevens naar de volgende versie van SharePoint Server (en daarbuiten).|Op uw SharePoint Server-sites worden niet automatisch [SSL/TLS-](https://go.microsoft.com/fwlink/?linkid=843167) certificaten gebruikt zoals deze worden weergegeven in SharePoint Online.|
-|Volledig beheer van de naamgevingsconventies, back-up en herstel en andere herstelopties in SharePoint Server on-premises.|SharePoint Server on-premises is gevoelig voor productlevenscyclus.|
+|Volledige controle over alle aspecten van uw SharePoint Farm (en de SQL) vanaf de serverhardware.|Alle onderbrekingen en fixes zijn de verantwoordelijkheid van uw bedrijf. Maar u kunt betaalde Microsoft-ondersteuning gebruiken als uw product nog niet is afgelopen met de ondersteuning.|
+|Volledige functieset van SharePoint Server on-premises met de optie om uw on-premises farm via hybride verbinding te maken met een SharePoint Online-abonnement.|Upgrade, patches, beveiligingsverbeteringen, hardware-upgrades en al het onderhoud van SharePoint Server en de SQL-farm worden on-premises beheerd.|
+|Volledige toegang voor meer aanpassingsopties dan met SharePoint Online.|[Microsoft-complianceaanbiedingen](/compliance/regulatory/offering-home) moeten handmatig on-premises zijn geconfigureerd.|
+|Beveiligingstests en het afstemmen van de prestaties van de server worden uitgevoerd op uw locatie onder uw beheer.|Microsoft 365 kan functies beschikbaar stellen voor SharePoint Online die niet interopereren met on-premises SharePoint Server.|
+|Oplossingsproviders kunnen helpen bij het migreren van gegevens naar de volgende versie van SharePoint Server (en daarbuiten).|Uw SharePoint Server-sites gebruiken niet automatisch [SSL/TLS-certificaten,](/SharePoint/security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016) zoals wordt gezien in SharePoint Online.|
+|Volledige controle over naamgevingsconvents en back-up- en herstelopties en andere herstelopties in on-premises SharePoint Server.|SharePoint Server on-premises is gevoelig voor productlevenscyclussen.|
 
-### <a name="upgrade-resources"></a>Bronnen voor upgraden
+### <a name="upgrade-resources"></a>Resources upgraden
 
-Begin met het vergelijken van hardware-en softwarevereisten. Als uw huidige omgeving niet aan de basisvereisten voldoet, moet u mogelijk eerst de hardware upgraden naar de farm of SQL servers. 
+Begin met het vergelijken van hardware- en softwarevereisten. Als uw huidige omgeving niet voldoet aan basisvereisten, moet u mogelijk eerst de hardware in de farm of de SQL-servers upgraden. 
 
-U kunt ervoor kiezen om een aantal van uw sites te verplaatsen naar de hardware van SharePoint Online groen. Wanneer u de beoordeling hebt uitgevoerd, kunt u de ondersteunde upgradepaden en-methoden volgen.
+U kunt besluiten sommige van uw sites te verplaatsen naar de 'groenblijvende' hardware van SharePoint Online. Nadat u de evaluatie hebt uitgevoerd, volgt u ondersteunde upgradepaden en -methoden.
 
-- *Hardware-en softwarevereisten voor:*
+- *Hardware-/softwarevereisten voor:*
 
-    [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843204)  |  [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843206)  |  [SharePoint Server 2016](https://go.microsoft.com/fwlink/?linkid=843207)
+    [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc262485(v=office.14))  |  [SharePoint Server 2013](/SharePoint/install/hardware-and-software-requirements-0)  |  [SharePoint Server 2016](/SharePoint/install/hardware-and-software-requirements)
 
-- *Software grenzen en-limieten voor:*
+- *Softwaregrenzen en -limieten voor:*
 
-    [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843247)  |  [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843248)  |  [SharePoint Server 2016](https://go.microsoft.com/fwlink/?linkid=843249)
+    [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc262787(v=office.14))  |  [SharePoint Server 2013](/SharePoint/install/software-boundaries-and-limits)  |  [SharePoint Server 2016](/SharePoint/install/software-boundaries-and-limits-0)
 
-- *Overzicht van het upgradeproces voor:*
+- *Het overzicht van het upgradeproces voor:*
 
-    [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843251)  |  [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843252)  |  [SharePoint Server 2016](https://go.microsoft.com/fwlink/?linkid=843359)
+    [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc303420(v=office.14))  |  [SharePoint Server 2013](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016)  |  [SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016)
 
-### <a name="create-a-hybrid-solution-with-sharepoint-online-and-sharepoint-server-on-premises"></a>Een hybride oplossing maken met SharePoint Online en SharePoint Server on-premises
+### <a name="create-a-hybrid-solution-with-sharepoint-online-and-sharepoint-server-on-premises"></a>Een hybride oplossing maken met On-premises SharePoint Online en SharePoint Server
 
-Een hybride installatie biedt de beste online on-premises en online voor sommige migratie behoeften. U kunt SharePoint Server 2013, 2016 of 2019 Farms met SharePoint Online verbinden met SharePoint Online voor het maken van een hybride versie van SharePoint: [meer informatie over hybride SharePoint-oplossingen](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx).
+Een hybride installatie biedt het beste van zowel on-premises als online voor bepaalde migratiebehoeften. U kunt SharePoint Server 2013-, 2016- of 2019-farms verbinden met SharePoint Online om een Hybride SharePoint-hybride te maken: Meer informatie over [hybride SharePoint-oplossingen.](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx)
 
-Als een hybride SharePoint-server farm uw migratie doelstelling is, moet u bepalen welke sites en gebruikers online overstappen en welke on-premises moeten blijven staan. Rangschikking van de inhoud van de SharePoint-server farm als hoog, normaal of laag risico voor uw bedrijf kan helpen met deze beslissing. U moet mogelijk alleen gebruikersaccounts voor aanmelding en de SharePoint Server-zoekindex delen met SharePoint Online. Dit kan echter niet helder zijn voordat u bespreekt met de manier waarop uw sites worden gebruikt. Als uw bedrijf later besluit om al uw inhoud te migreren naar SharePoint Online, kunt u alle resterende accounts en gegevens online verplaatsen en uw on-premises Farm ontmantelen. Beheer/beheer van de SharePoint-farm wordt vanaf dat moment uitgevoerd via Microsoft 365-consoles.
+Als een hybride SharePoint Server-farm uw migratiedoel is, kunt u zien welke sites en gebruikers online moeten worden verplaatst en welke on-premises moeten blijven. Door uw SharePoint Server-farminhoud te rangschikken als hoge, gemiddelde of lage impact voor uw bedrijf, kan dit helpen bij deze beslissing. Mogelijk hoeft u alleen gebruikersaccounts te delen om u aan te melden en de zoekindex van SharePoint Server met SharePoint Online. Maar deze factor is mogelijk pas duidelijk wanneer u bekijkt hoe uw sites worden gebruikt. Als uw bedrijf later besluit om al uw inhoud te migreren naar SharePoint Online, kunt u alle resterende accounts en gegevens online verplaatsen en uw on-premises farm buiten bedrijf stellen. Het beheer/beheer van de SharePoint-farm wordt vanaf dat moment uitgevoerd via Microsoft 365-consoles.
 
-Zorg ervoor dat u vertrouwd bent met de bestaande soorten Hybrids en hoe u de verbinding configureert tussen uw on-premises SharePoint-farm en uw Microsoft 365-abonnement.
+Zorg ervoor dat u vertrouwd bent met de bestaande typen hybriden en hoe u de verbinding configureert tussen uw on-premises SharePoint-farm en uw Microsoft 365-abonnement.
 
 |Optie|Beschrijving|
 |---|---|
-|[Microsoft compliance-aanbiedingen](https://go.microsoft.com/fwlink/?linkid=843165).|[FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) hulp voor migratie is beperkt.<br/><br/> Veel van de upgrade is de handleiding of via de SPO-migratie-API die wordt beschreven in de [SharePoint Online-en OneDrive Migration content-wegwijzer](https://go.microsoft.com/fwlink/?linkid=843184).|
-|Microsoft-ondersteuningstechnici en Datacenter medewerkers hebben geen beperkte beheerderstoegang tot uw abonnement.|Er kunnen extra kosten in rekening worden gehouden als de hardware-infrastructuur moet worden bijgewerkt voor de ondersteuning van de nieuwere versie van SharePoint, of als een secundaire Farm is vereist.|
-|Partners kunnen helpen met de eenmalige taak van het migreren van uw gegevens naar SharePoint Online.||
-|Online producten worden automatisch bijgewerkt in de service. Functies die kunnen worden weergegeven, maar het einde van de ondersteuning is niet waar.||
+|[Microsoft-complianceaanbiedingen](/compliance/regulatory/offering-home).|[FastTrack-ondersteuning](https://www.microsoft.com/fasttrack/microsoft-365) voor migratie is beperkt.<br/><br/> Een groot deel van de upgrade is handmatig of via de SPO-migratie-API die wordt beschreven in de Roadmap voor [SharePoint Online- en OneDrive-migratie-inhoud.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)|
+|Microsoft Support-technici en datacentermedewerkers hebben geen onbeperkte beheerderstoegang tot uw abonnement.|Er kunnen extra kosten zijn als de hardwareinfrastructuur moet worden bijgewerkt ter ondersteuning van de nieuwere versie van SharePoint of als een secundaire farm vereist is.|
+|Partners kunnen u helpen bij de een-time taak om uw gegevens te migreren naar SharePoint Online.||
+|Onlineproducten worden automatisch bijgewerkt in de service. Functies kunnen worden afgeschaft, maar er is geen echt einde van de ondersteuning.||
 
-Als u hebt besloten een nieuwe Microsoft 365-site te maken en deze zo nodig handmatig te migreren, controleert u de [Opties van Microsoft 365](https://www.microsoft.com/microsoft-365/).
+Als u hebt besloten een nieuwe Microsoft 365-site te maken en handmatig gegevens naar deze site te migreren, controleert u uw [Microsoft 365-opties.](https://www.microsoft.com/microsoft-365/)
 
-### <a name="upgrade-sharepoint-server-on-premises"></a>SharePoint Server on-premises upgraden
+### <a name="upgrade-sharepoint-server-on-premises"></a>On-premises upgrade van SharePoint Server uitvoeren
 
-U kunt geen versies van SharePoint-upgrades overslaan. Dit betekent dat als upgrades serieel gaat:
+Er is geen manier om versies over te slaan in SharePoint-upgrades. Dat betekent dat upgrades serieel worden gebruikt:
 
-- SharePoint 2007 \> SharePoint server 2010 \> SharePoint Server 2013 \> sharepoint server 2016
+- SharePoint 2007 \> SharePoint Server 2010 \> SharePoint Server 2013 \> SharePoint Server 2016
 
-U kunt als volgt het volledige pad van SharePoint 2007 naar SharePoint Server 2016 betekenen een belangrijke investering van tijd en de hardware (SQL servers moet ook worden geüpgraded), software en administratiekosten. Aanpassingen moeten worden bijgewerkt of gestaakt, op basis van de ernst van de functie.
+Als u het hele pad van SharePoint 2007 naar SharePoint Server 2016 wilt volgen, betekent dit een aanzienlijke tijdsinvestering en gaat het om hardware (SQL-servers moeten ook worden bijgewerkt), software en beheerkosten. Aanpassingen moeten worden bijgewerkt of verlaten, afhankelijk van de kritiek van de functie.
 
 > [!NOTE]
-> Het is mogelijk om de einde-van de SharePoint-versie van SharePoint 2007 te behouden, een SharePoint Server 2016-Farm te installeren op nieuwe hardware (zodat de afzonderlijke Farms gelijktijdig worden weergegeven) en vervolgens een handmatige migratie van inhoud plannen en uitvoeren (bijvoorbeeld om de inhoud te downloaden en opnieuw te uploaden). Maar er zijn enkele nadelen voor deze handmatige verplaatsingen, zoals het verplaatsen van documenten die het laatst gewijzigde account vervangen door de alias van het account dat het handmatig verschuift. En veel werk moet eerder plaatsvinden, zoals het opnieuw maken van sites, subsites, machtigingen en lijst structuren. Houd in een willekeurige zaak rekening met welke gegevens u kunt overstappen of niet langer hoeft te zijn de gevolgen van de migratie te verminderen.
+> Het is mogelijk om uw SharePoint 2007-farm te onderhouden, een SharePoint Server 2016-farm te installeren op nieuwe hardware (zodat de afzonderlijke farms naast elkaar worden uitgevoerd) en vervolgens een handmatige migratie van inhoud plannen en uitvoeren (bijvoorbeeld voor het downloaden en opnieuw uploaden van inhoud). Maar er zijn enkele nadelen aan deze handmatige bewegingen, zoals het verplaatsen van documenten die het laatste gewijzigde account vervangen door de alias van het account dat handmatig wordt verplaatst. En er moet van tevoren veel werk worden gedaan, zoals het opnieuw maken van sites, subsites, machtigingen en lijststructuren. Bedenk in elk geval welke gegevens u in opslag kunt verplaatsen of niet meer nodig hebt om de impact van migratie te beperken.
 
-Zorg ervoor dat u de omgeving opschoont voordat u de upgrade uitvoert. Voordat u een upgrade uitvoert, moet u ervoor zorgen dat uw bestaande farm functioneel is voordat u de upgrade uitvoert.
+Zorg ervoor dat u uw omgeving reinigt vóór de upgrade. Zorg ervoor dat uw bestaande farm functioneel is voordat u een upgrade gaat uitvoeren, en zeker voordat u de farm buiten bedrijf gaat stellen.
 
-Vergeet niet de *ondersteunde en niet-ondersteunde upgradepaden* te controleren:
+Vergeet niet om de *ondersteunde en niet-ondersteunde upgradepaden te bekijken:*
 
-- [SharePoint Server 2007](https://go.microsoft.com/fwlink/?linkid=843156)
+- [SharePoint Server 2007](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262747(v=office.12))
 
-- [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843156)
+- [SharePoint Server 2010](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262747(v=office.12))
 
-- [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843157)
+- [SharePoint Server 2013](/SharePoint/upgrade-and-update/review-supported-editions-and-products-for-upgrading-to-sharepoint-2013)
 
-Als u *aanpassingen* hebt, is het belangrijk om de upgrade voor elke stap in het migratie traject te plannen:
+Als u aanpassingen *hebt,* is het essentieel om de upgrade voor elke stap in het migratiepad te plannen:
 
-- [SharePoint 2007](https://go.microsoft.com/fwlink/?linkid=843158)
+- [SharePoint 2007](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263203(v=office.12))
 
-- [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843160)
+- [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc263203(v=office.14))
 
-- [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843162)
+- [SharePoint Server 2013](/SharePoint/upgrade-and-update/create-a-communication-plan-for-the-upgrade-to-sharepoint-2013)
 
-|On-premises Pro|On-premises con|
+|On-premises pro|On-premises con|
 |---|---|
-|Volledig beheer van alle aspecten van uw SharePoint-farm, vanaf de serverhardware.|Alle onderbrekingen en fixes vormen de verantwoordelijkheid van uw bedrijf. (Maar neem contact op met de ondersteuning van Microsoft als uw product niet meer aan de kant van de ondersteuning valt.)|
-|Volledige functieset van SharePoint Server on-premises met de mogelijkheid om via hybride verbinding te maken tussen uw on-premises Farm en een SharePoint Online-abonnement.|Upgrades, patches, beveiligingsoplossingen en alles onderhoud van SharePoint Server worden on-premises beheerd.|
-|Volledige toegang voor betere aanpassingen.|[Microsoft compliance-aanbiedingen](https://go.microsoft.com/fwlink/?linkid=843165) moeten handmatig on-premises worden geconfigureerd.|
-|Het testen van de beveiliging en het afstemmen van de serverprestaties worden via uw besturingselement op uw bedrijf uitgevoerd.|In Microsoft 365 kunnen functies voor SharePoint Online beschikbaar worden gemaakt die niet compatibel zijn met SharePoint Server on-premises.|
-|Partners kunnen helpen met het migreren van gegevens naar de volgende versie van SharePoint Server (en daarbuiten).|Op uw SharePoint Server-sites worden niet automatisch [SSL/TLS-](https://go.microsoft.com/fwlink/?linkid=843167) certificaten gebruikt zoals deze worden weergegeven in SharePoint Online.|
-|Volledig beheer van de naamgevingsconventies, back-up en herstel en andere herstelopties in SharePoint Server on-premises.|SharePoint Server on-premises is gevoelig voor productlevenscyclus.|
+|Volledige controle over alle aspecten van uw SharePoint Farm, vanaf de serverhardware up.|Alle onderbrekingen en fixes zijn de verantwoordelijkheid van uw bedrijf. (Maar u kunt betaalde Microsoft-ondersteuning gebruiken als uw product niet achter het einde van de ondersteuning ligt.)|
+|Volledige functieset van SharePoint Server on-premises met de optie om uw on-premises farm via hybride verbinding te maken met een SharePoint Online-abonnement.|Upgrade, patches, beveiligingsfixes en al het onderhoud van SharePoint Server dat on-premises wordt beheerd.|
+|Volledige toegang voor meer aanpassing.|[Microsoft-complianceaanbiedingen](/compliance/regulatory/offering-home) moeten handmatig on-premises zijn geconfigureerd.|
+|Beveiligingstests en het afstemmen van de prestaties van de server worden uitgevoerd op uw locatie onder uw beheer.|Microsoft 365 kan functies beschikbaar stellen voor SharePoint Online die niet on-premises interopereren met SharePoint Server.|
+|Partners kunnen helpen bij het migreren van gegevens naar de volgende versie van SharePoint Server (en daarbuiten).|Uw SharePoint Server-sites gebruiken niet automatisch [SSL/TLS-certificaten,](/SharePoint/security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016) zoals wordt gezien in SharePoint Online.|
+|Volledige controle over naamgevingsconvents en back-up- en herstelopties en andere herstelopties in on-premises SharePoint Server.|SharePoint Server on-premises is gevoelig voor productlevenscyclussen.|
 
-### <a name="upgrade-resources"></a>Bronnen voor upgraden
+### <a name="upgrade-resources"></a>Resources upgraden
 
-U moet eerst weten dat u aan de hardware-en softwarevereisten voldoet en vervolgens de ondersteunde upgrademethoden kunt volgen.
+Begin met te weten dat u voldoet aan de hardware- en softwarevereisten en volg vervolgens ondersteunde upgrademethoden.
 
-- *Hardware-en softwarevereisten voor*:
+- *Hardware-/softwarevereisten voor:*
 
-    [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843204)  |  [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843204)  |  [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843206)  |  [SharePoint Server 2016](https://go.microsoft.com/fwlink/?linkid=843207)
+    [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc262485(v=office.14))  |  [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc262485(v=office.14))  |  [SharePoint Server 2013](/SharePoint/install/hardware-and-software-requirements-0)  |  [SharePoint Server 2016](/SharePoint/install/hardware-and-software-requirements)
 
-- *Software grenzen en-limieten voor*:
+- *Softwaregrenzen en -limieten voor:*
 
-    [SharePoint Server 2007](https://go.microsoft.com/fwlink/?linkid=843245)  |  [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843247)  |  [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843248)  |  [SharePoint Server 2016](https://go.microsoft.com/fwlink/?linkid=843249)
+    [SharePoint Server 2007](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262787(v=office.12))  |  [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc262787(v=office.14))  |  [SharePoint Server 2013](/SharePoint/install/software-boundaries-and-limits)  |  [SharePoint Server 2016](/SharePoint/install/software-boundaries-and-limits-0)
 
-- *Overzicht van het upgradeproces voor*:
+- *Het overzicht van het upgradeproces voor*:
 
-    [SharePoint Server 2007](https://go.microsoft.com/fwlink/?linkid=843250)  |  [SharePoint Server 2010](https://go.microsoft.com/fwlink/?linkid=843251)  |  [SharePoint Server 2013](https://go.microsoft.com/fwlink/?linkid=843252)  |  [SharePoint Server 2016](https://go.microsoft.com/fwlink/?linkid=843359)
+    [SharePoint Server 2007](/previous-versions/office/sharepoint-2007-products-and-technologies/cc303420(v=office.12))  |  [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc303420(v=office.14))  |  [SharePoint Server 2013](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016)  |  [SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016)
 
 ### <a name="create-a-sharepoint-hybrid-solution-between-sharepoint-online-and-on-premises"></a>Een hybride SharePoint-oplossing maken tussen SharePoint Online en on-premises
 
-Als het antwoord op uw migratie behoefte zich bevindt op een ander besturingselement dan de on-premises plaats en de lagere eigendomskosten van SharePoint Online, kunt u SharePoint Server 2013 of 2016 Farms met SharePoint Online verbinden via hybride. [Meer informatie over hybride SharePoint-oplossingen](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx)
+Als het antwoord op uw migratiebehoeften zich ergens tussen het besturingselement van on-premises en de lagere eigendomskosten van SharePoint Online belandt, kunt u SharePoint Server 2013- of 2016-farms via hybriden verbinden met SharePoint Online. [Meer informatie over hybride SharePoint-oplossingen](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx)
 
-Als u besluit dat een hybride SharePoint-server farm uw bedrijf zal voorstellen, kunt u vertrouwd raken met de bestaande soorten hybriden en de verbinding configureren tussen uw on-premises SharePoint-farm en uw Microsoft 365-abonnement.
+Als u besluit dat een hybride SharePoint Server-farm ten goede komt aan uw bedrijf, moet u vertrouwd raken met de bestaande typen hybriden en hoe u de verbinding configureert tussen uw on-premises SharePoint-farm en uw Microsoft 365-abonnement.
 
-U kunt een Microsoft 365-ontwikkel-en testomgeving maken die u kunt instellen met [testlab-handleidingen](m365-enterprise-test-lab-guides.md). Nadat u een proefabonnement hebt aangeschaft of Microsoft 365 hebt aangeschaft, kunt u de siteverzamelingen, webs en documentbibliotheken maken in SharePoint Online, waar u gegevens kunt migreren. U kunt handmatig migreren, met behulp van de migratie-API, of, als u mijn site-inhoud wilt migreren naar OneDrive voor bedrijven, via de hybride wizard.
+Mogelijk wilt u een Microsoft 365-dev/testomgeving maken, die u kunt instellen met [Test Lab Guides.](m365-enterprise-test-lab-guides.md) Nadat u een proefabonnement hebt of een Microsoft 365-abonnement hebt gekocht, kunt u de siteverzamelingen, webs en documentbibliotheken maken in SharePoint Online waar u gegevens kunt migreren. U kunt handmatig migreren met de migratie-API of, als u Mijn site-inhoud wilt migreren naar OneDrive voor Bedrijven, via de hybride wizard.
 
 > [!NOTE]
-> Als u de hybride optie wilt gebruiken, moet u eerst on-premises 2010 een upgrade uitvoeren naar SharePoint Server 2013 of 2016. SharePoint Foundation 2010 en SharePoint Foundation 2013 biedt geen ondersteuning voor hybride verbindingen met SharePoint Online.
+> Als u de hybride optie wilt gebruiken, moet uw SharePoint Server 2010-farm eerst on-premises worden bijgewerkt naar SharePoint Server 2013 of 2016. SharePoint Foundation 2010 en SharePoint Foundation 2013 ondersteunen geen hybride verbindingen met SharePoint Online.
 
-## <a name="summary-of-options-for-office-2010-client-and-servers-and-windows-7"></a>Overzicht van opties voor Office 2010-client en-servers en Windows 7
+## <a name="summary-of-options-for-office-2010-client-and-servers-and-windows-7"></a>Overzicht van opties voor Office 2010-client en -servers en Windows 7
 
-Voor een visueel overzicht van de opties voor de upgrade, migratie en verplaatsen van een upgrade, migratie en migratie van Office 2010-clients en-servers en Windows 7, raadpleegt u het [einde van de ondersteunings poster](../downloads/Office2010Windows7EndOfSupport.pdf).
+Zie het einde van de ondersteuningsposter voor een visueel overzicht van de upgrade,migreren en verplaatsen naar [](../downloads/Office2010Windows7EndOfSupport.pdf)de cloudopties voor Office 2010-clients en -servers en Windows 7.
 
-[![Einde van de ondersteuning voor Office 2010-clients en-servers en Windows 7-poster](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![Einde van ondersteuning voor Office 2010-clients en -servers en Windows 7-poster](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
-Deze poster toont de verschillende paden die u kunt nemen om Office 2010-client-en Server producten en Windows 7 einde van de ondersteuning te voorkomen, waarbij de gewenste paden en optie worden ondersteund in Microsoft 365 Enterprise gemarkeerd.
+Deze poster illustreert de verschillende paden die u kunt volgen om te voorkomen dat Office 2010-client- en serverproducten en Windows 7-ondersteuningsondersteuning worden verwijderd, met voorkeurspaden en optieondersteuning in Microsoft 365 Enterprise gemarkeerd.
 
-U kunt deze poster ook [downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) en afdrukken met de indeling letter, juridisch of tabloid (11 x 17).
+U kunt deze [poster ook](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) downloaden en afdrukken in de notatie letter, legal of tabloid (11 x 17).
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Bronnen om u te helpen bij het upgraden van Office 2007 of 2010-servers en-clients](upgrade-from-office-2010-servers-and-products.md)
+[Resources om u te helpen bij het upgraden van Office 2007- of 2010-servers en -clients](upgrade-from-office-2010-servers-and-products.md)
 
-[Overzicht van het upgradeproces van SharePoint 2010 naar SharePoint 2013](https://technet.microsoft.com/library/mt493301%28v=office.16%29.aspx)
+[Overzicht van het upgradeproces van SharePoint 2010 naar SharePoint 2013](/SharePoint/upgrade-and-update/overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013)
 
-[Aanbevolen procedures voor het uitvoeren van een upgrade van SharePoint 2010 naar SharePoint 2013](https://technet.microsoft.com/library/mt493305%28v=office.16%29.aspx)
+[Best practices voor het upgraden van SharePoint 2010 naar SharePoint 2013](/SharePoint/upgrade-and-update/best-practices-for-upgrading-from-sharepoint-2010-to-sharepoint-2013)
 
-[Problemen met het upgraden van een database in SharePoint 2013](https://go.microsoft.com/fwlink/?linkid=843195)
+[Problemen met database-upgrade oplossen in SharePoint 2013](/SharePoint/upgrade-and-update/troubleshoot-database-upgrade-issues-in-sharepoint-2013)
 
-[Zoek naar Microsoft Solution Providers om u te helpen bij de upgrade](https://go.microsoft.com/fwlink/?linkid=841249)
+[Zoeken naar Microsoft-oplossingsproviders om te helpen met uw upgrade](https://go.microsoft.com/fwlink/?linkid=841249)
 
-[Bijgewerkt product onderhoudsbeleid voor SharePoint 2013](https://technet.microsoft.com/library/mt493253%28v=office.16%29.aspx)
+[Bijgewerkt productservicebeleid voor SharePoint 2013](/SharePoint/product-servicing-policy/updated-product-servicing-policy-for-sharepoint-2013)
 
-[Bijgewerkt product onderhoudsbeleid voor SharePoint Server 2016](https://technet.microsoft.com/library/mt782882%28v=office.16%29.aspx)
+[Bijgewerkt productservicebeleid voor SharePoint Server 2016](/SharePoint/product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-2016)

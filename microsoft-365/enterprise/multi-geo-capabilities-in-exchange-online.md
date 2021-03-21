@@ -1,5 +1,5 @@
 ---
-title: Multi-geografische Exchange
+title: Exchange Multi-Geo
 ms.reviewer: adwood
 ms.author: chrisda
 author: chrisda
@@ -11,52 +11,52 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
-description: Meer informatie over mogelijkheden voor meervoudige geo in Exchange Online, zoals beperkingen van functies en Postvak plaatsing.
-ms.openlocfilehash: ca7203c72f23fd03512bf23eaa5a4687e4bac1b5
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Meer informatie over multi-geo-mogelijkheden in Exchange Online, zoals functiebeperkingen en postvakpositie.
+ms.openlocfilehash: bf1c3c8f510c57f47cbfc7b2609d97f5932e05d3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689266"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923730"
 ---
-# <a name="multi-geo-capabilities-in-exchange-online"></a>Mogelijkheden voor meervoudige geo in Exchange Online
+# <a name="multi-geo-capabilities-in-exchange-online"></a>Multi-Geo-mogelijkheden in Exchange Online
 
-In een omgeving met meerdere geografische locaties kunt u de locatie van de inhoud van het postvak van Exchange Online (gegevens in de rest) per gebruiker selecteren.
+In een multi-geo-omgeving kunt u per gebruiker de locatie van exchange Online-postvakinhoud (gegevens in rust) selecteren.
 
-U kunt postvakken op geografische geografische locaties plaatsen door het volgende te doen:
+U kunt postvakken op satellietlocaties plaatsen op:
 
-- U maakt een nieuw postvak van Exchange Online rechtstreeks op een geografische locatie.
+- Een nieuw Exchange Online-postvak rechtstreeks op een satellietlocatie maken.
 
-- Wanneer u een bestaand Exchange Online-postvak naar een satelliet locatie verplaatst, wijzigt u de gewenste gegevenslocatie van de gebruiker.
+- Een bestaand Exchange Online-postvak verplaatsen naar een satellietlocatie door de gewenste gegevenslocatie van de gebruiker te wijzigen.
 
-- Een postvak van een on-premises Exchange-organisatie rechtstreeks op de geografische locatie van een satelliet te plaatsen.
+- Een postvak van een on-premises Exchange-organisatie rechtstreeks in een satellietlocatie onboarden.
 
-## <a name="mailbox-placement-and-moves"></a>Postvak plaatsing en verhuizing
+## <a name="mailbox-placement-and-moves"></a>Postvak plaatsen en verplaatst
 
-Nadat Microsoft de stappen voor meervoudige geo-configuratie heeft voltooid, voldoet Exchange Online met het **PreferredDataLocation** -kenmerk voor gebruikersobjecten in azure AD.
+Nadat Microsoft de vereiste stappen voor multi-geoconfiguratie heeft voltooid, wordt in Exchange Online het **kenmerk PreferredDataLocation** op gebruikersobjecten in Azure AD in ere gehouden.
 
-Met Exchange Online wordt de eigenschap **PreferredDataLocation** van Azure AD gesynchroniseerd met de eigenschap **MailboxRegion** in de Exchange Online-adreslijstservice. Met de waarde van **MailboxRegion** wordt de geografische locatie bepaald waar gebruikerspostvakken en bijbehorende archief postvakken worden geplaatst. Het is niet mogelijk om het primaire postvak van een gebruiker en de archief postvakken te configureren zodat ze zich in verschillende geografische locaties bevinden. Per gebruikersobject kan slechts één geo-locatie worden geconfigureerd.
+Exchange Online synchroniseert de **eigenschap PreferredDataLocation** van Azure AD naar de **eigenschap MailboxRegion** in de Exchange Online-adreslijstservice. De waarde van **PostvakRegio bepaalt** de geografische locatie waar gebruikerspostvakken en bijbehorende archiefpostvakken worden geplaatst. Het is niet mogelijk om het primaire postvak en archiefpostvakken van een gebruiker zo te configureren dat deze zich op verschillende geografische locaties bevinden. Er kan slechts één geografische locatie worden geconfigureerd per gebruikersobject.
 
-- Wanneer **PreferredDataLocation** is geconfigureerd voor een gebruiker met een bestaand postvak, wordt het postvak in een wachtrij voor herverdeling opgeslagen en wordt automatisch naar de opgegeven geografische locatie verplaatst.
+- Wanneer **PreferredDataLocation** is geconfigureerd op een gebruiker met een bestaand postvak, wordt het postvak in een relocatiewachtrij geplaatst en automatisch verplaatst naar de opgegeven geografische locatie.
 
-- Wanneer **PreferredDataLocation** is geconfigureerd voor een gebruiker zonder een bestaand postvak, wordt dit bij het inrichten van het postvak ingericht in de opgegeven geografische locatie.
+- Wanneer **PreferredDataLocation** is geconfigureerd voor een gebruiker zonder een bestaand postvak, wordt het postvak ingesteld op de opgegeven geografische locatie.
 
-- Wanneer u **PreferredDataLocation** niet opgeeft voor een gebruiker, wordt deze bij het inrichten van het postvak op de centrale geo-locatie ingericht.
+- Wanneer **PreferredDataLocation** niet is opgegeven voor een gebruiker, wordt het postvak ingericht op de centrale geolocatie wanneer u het inrichten.
 
-- Als de **PreferredDataLocation** -code onjuist is (bijvoorbeeld een type nan in plaats van de waarde), wordt het postvak ingericht op de locatie van de centrale geografische locatie.
+- Als de **PreferredDataLocation-code** onjuist is (bijvoorbeeld een type NAN in plaats van NAM), wordt het postvak ingericht op de centrale geolocatie.
 
-**Opmerking**: met de functie voor meervoudige geo-en Skype voor bedrijven online ondergebrachte vergaderingen gebruikt u de **PreferredDataLocation** -eigenschap op gebruikersobjecten om services te zoeken. Als u **PreferredDataLocation** -waarden configureert voor gebruikersobjecten voor het hosten van vergaderingen, worden het postvak voor die gebruikers automatisch verplaatst naar de opgegeven geo-locatie nadat meerdere geo-geo is ingeschakeld op de microsoft 365-Tenant.
+**Opmerking:** Multi-geo-mogelijkheden en regionaal gehoste vergaderingen van Skype voor Bedrijven Online gebruiken beide de eigenschap **PreferredDataLocation** op gebruikersobjecten om services te zoeken. Als u **PreferredDataLocation-waarden** configureert op gebruikersobjecten voor regionaal gehoste vergaderingen, wordt het postvak voor deze gebruikers automatisch verplaatst naar de opgegeven geografische locatie nadat multi-geo is ingeschakeld op de Microsoft 365-tenant.
 
-## <a name="feature-limitations-for-multi-geo-in-exchange-online"></a>Functie beperkingen voor meerdere geografische functies in Exchange Online
+## <a name="feature-limitations-for-multi-geo-in-exchange-online"></a>Functiebeperkingen voor multi-geo in Exchange Online
 
-- Functies voor beveiliging en naleving (bijvoorbeeld controle en eDiscovery) die beschikbaar zijn in het Exchange-Beheercentrum (SBV) zijn niet beschikbaar in meerdere geo-organisaties. In plaats daarvan moet u het [Microsoft 365-beveiligings & compliance](https://support.office.com/article/7e696a40-b86b-4a20-afcc-559218b7b1b8) gebruiken om functies voor beveiliging en compliance te configureren.
+- Beveiligings- en compliancefuncties (bijvoorbeeld auditing en eDiscovery) die beschikbaar zijn in het Exchange-beheercentrum (EAC) zijn niet beschikbaar in multi-geo-organisaties. In plaats daarvan moet u het [Microsoft 365-beveiligingscentrum & gebruiken](https://support.office.com/article/7e696a40-b86b-4a20-afcc-559218b7b1b8) om beveiligings- en compliancefuncties te configureren.
 
-- Outlook voor Mac-gebruikers ondervinden mogelijk een tijdelijk verlies van toegang tot zijn of haar online archiefmap wanneer u hun postvak naar een andere geografische locatie verplaatst. Deze voorwaarde doet zich voor als de primaire en de archief postvakken van de gebruiker zich in verschillende geografische locaties bevinden, aangezien het verplaatsen van een e-mailbericht op verschillende momenten mogelijk is.
+- Outlook voor Mac-gebruikers hebben mogelijk tijdelijk geen toegang meer tot de map Onlinearchief terwijl u hun postvak verplaatst naar een nieuwe geografische locatie. Deze voorwaarde treedt op wanneer de primaire postvakken en archiefpostvakken van de gebruiker zich op verschillende geografische locaties bevinden, omdat het cross-geopostvak op verschillende tijdstippen kan worden verplaatst.
 
-- Gebruikers kunnen geen *postvakmappen* delen op geografische locaties in de webversie van Outlook (voorheen Outlook Web app of OWA). Een gebruiker in de Europese Unie kan bijvoorbeeld de webversie van Outlook niet gebruiken voor het openen van een gedeelde map in een postvak dat zich in de Verenigde Staten bevindt. De gebruikers van de webversie van Outlook kunnen echter wel *andere postvakken* openen in verschillende geografische locaties via een apart browservenster, zoals wordt beschreven in [het postvak van een andere gebruiker openen in een afzonderlijk browservenster in Outlook Web app](https://support.office.com/article/A909AD30-E413-40B5-A487-0EA70B763081#__toc372210362).
+- Gebruikers kunnen postvakmappen *niet* delen op geografische locaties in de webversie van Outlook (voorheen bekend als Outlook Web App of OWA). Een gebruiker in de Europese Unie kan bijvoorbeeld de webversie van Outlook niet gebruiken om een gedeelde map te openen in een postvak in de Verenigde Staten. Gebruikers van De webversie  van Outlook kunnen echter andere postvakken op verschillende geografische locaties openen met behulp van een afzonderlijk browservenster, zoals beschreven in Het postvak van een andere persoon openen in een afzonderlijk [browservenster in Outlook Web App.](https://support.office.com/article/A909AD30-E413-40B5-A487-0EA70B763081#__toc372210362)
 
-  **Opmerking**: het delen van een postvak in in de geo-map wordt ondersteund in Outlook voor Windows.
+  **Opmerking:** Het delen van mappen met verschillende geografische postvakken wordt ondersteund in Outlook voor Windows.
 
-- Openbare mappen worden ondersteund in meerdere geo-organisaties. De openbare mappen moeten echter wel op de centrale geografische locatie staan. U kunt geen openbare mappen verplaatsen naar satelliet locaties.
+- Openbare mappen worden ondersteund in multi-geo-organisaties. De openbare mappen moeten echter op de centrale geografische locatie blijven staan. U kunt geen openbare mappen verplaatsen naar satellietlocatielocaties.
 
-- In een omgeving met meerdere geografische omgevingen wordt de controle van de postvakken van cross geo niet ondersteund. Als een gebruiker bijvoorbeeld machtigingen toewijst voor toegang tot een gedeeld postvak op een andere geografische locatie, worden postvak acties die door die gebruiker zijn uitgevoerd, niet aangemeld in het auditlogboek van het postvak van het gedeelde Postvak. Zie voor meer informatie [Postvak controle beheren](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing?view=o365-worldwide).
+- In een multi-geo-omgeving wordt cross-geopostvakcontrole niet ondersteund. Als een gebruiker bijvoorbeeld machtigingen krijgt toegewezen voor toegang tot een gedeeld postvak op een andere geografische locatie, worden postvakacties die door die gebruiker worden uitgevoerd, niet aangemeld in het postvakauditlogboek van het gedeelde postvak. Zie Postvakcontrole beheren voor [meer informatie.](../compliance/enable-mailbox-auditing.md?view=o365-worldwide)

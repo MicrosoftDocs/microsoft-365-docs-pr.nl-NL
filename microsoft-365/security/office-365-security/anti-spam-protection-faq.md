@@ -16,15 +16,15 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen veelgestelde vragen en antwoorden over beveiliging tegen spam bekijken in Exchange Online Protection (EOP).
+description: Beheerders kunnen veelgestelde vragen en antwoorden over bescherming tegen spam bekijken in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8abccdac73877c3f24114afaa78c13143e156868
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: cc1aa26832830dce4f529566a589cb8bf3e1df01
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288967"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925218"
 ---
 # <a name="anti-spam-protection-faq"></a>Veelgestelde vragen over beveiliging tegen ongewenste e-mail
 
@@ -35,171 +35,171 @@ ms.locfileid: "50288967"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Dit onderwerp bevat veelgestelde vragen en antwoorden over beveiliging tegen malware voor Microsoft 365-organisaties met postvakken in Exchange Online, of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken.
+Dit onderwerp bevat veelgestelde vragen en antwoorden over bescherming tegen malware voor Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken.
 
-Zie Veelgestelde vragen over quarantaine voor vragen en [antwoorden over de quarantaine.](quarantine-faq.md)
+Zie Veelgestelde vragen over quarantaine voor vragen en antwoorden over de [quarantaine.](quarantine-faq.md)
 
-Zie veelgestelde vragen en antwoorden [](anti-malware-protection-faq-eop.md)over bescherming tegen malware.
+Zie Veelgestelde vragen en antwoorden [](anti-malware-protection-faq-eop.md)over anti-malwarebeveiliging.
 
-Zie Veelgestelde vragen en antwoorden over bescherming tegen [spoofing.](anti-spoofing-protection-faq.md)
+Zie Veelgestelde vragen over bescherming tegen spoofing voor vragen en antwoorden over bescherming tegen [spoofing.](anti-spoofing-protection-faq.md)
 
 ## <a name="by-default-what-happens-to-a-spam-detected-message"></a>Wat gebeurt er standaard met een door spam gedetecteerd bericht?
 
-**Voor inkomende berichten:** Het grootste deel van de spam wordt verwijderd via verbindingsfilters, die zijn gebaseerd op het IP-adres van de bron-e-mailserver. Antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) controleert en classificeert berichten als spam, bulksgewijs of phishing. Standaard worden berichten die zijn geclassificeerd als spam of bulksgewijs, bezorgd in de map Ongewenste e-mail van de geadresseerde, terwijl berichten die als phishing zijn geclassificeerd in quarantaine worden geplaatst. U kunt het standaardbeleid tegen ongewenste e-mail wijzigen (geldt voor alle geadresseerden) of u kunt een aangepast antispambeleid maken met striktere instellingen voor specifieke groepen gebruikers (u kunt bijvoorbeeld spam in quarantaine plaatsen die naar leidinggevenden wordt verzonden). Zie Antispambeleid [](configure-your-spam-filter-policies.md) configureren en Instellingen voor aanbevolen [antispambeleid configureren voor meer informatie.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
+**Voor binnenkomende berichten:** De meeste spam wordt verwijderd via verbindingsfilters, die is gebaseerd op het IP-adres van de bron-e-mailserver. Antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) controleert en classificeert berichten als spam, bulk of phishing. Berichten die zijn geclassificeerd als spam of bulksgewijs worden standaard bezorgd in de map Ongewenste e-mail van de geadresseerde, terwijl berichten die als phishing zijn geclassificeerd, in quarantaine worden geplaatst. U kunt het standaard antispambeleid wijzigen (van toepassing op alle geadresseerden) of u kunt aangepaste antispambeleidsregels maken met striktere instellingen voor specifieke groepen gebruikers (u kunt bijvoorbeeld spam in quarantaine plaatsen die naar leidinggevenden wordt verzonden). Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) en Aanbevolen [antispambeleidsinstellingen configureren voor meer informatie.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
 
 > [!IMPORTANT]
-> In hybride implementaties waarin EOP on-premises postvakken beschermt, moet u twee Exchange-regels voor de e-mailstroom (ook wel transportregels genoemd) configureren in uw on-premises Exchange-organisatie om de EOP-spamfilterkoppen te detecteren die aan berichten zijn toegevoegd. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
+> In hybride implementaties waarin EOP on-premises postvakken beschermt, moet u twee Exchange-regels voor e-mailstroom (ook wel transportregels genoemd) configureren in uw on-premises Exchange-organisatie om de EOP-spamfilterkoppen te detecteren die aan berichten worden toegevoegd. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
 
- **Voor uitgaande berichten:** Het bericht wordt omgeleid [](high-risk-delivery-pool-for-outbound-messages.md) via de bezorgingsgroep met hoog risico of wordt geretourneerd aan de afzender in een rapport over niet-bezorging (ook wel een NDR- of niet-bezorgdbericht genoemd). Zie de besturingselementen voor uitgaande spam voor meer informatie over de beveiliging van [uitgaande spam.](outbound-spam-controls.md)
+ **Voor uitgaande berichten:** Het bericht wordt gerouteerd via de groep met een hoog risico of wordt geretourneerd aan de afzender in een rapport over niet-bezorging (ook wel een NDR- of bouncebericht genoemd). [](high-risk-delivery-pool-for-outbound-messages.md) Zie Besturingselementen voor uitgaande spam voor meer informatie over uitgaande [spambeveiliging.](outbound-spam-controls.md)
 
-## <a name="whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>Wat is een gratis spamvariant en hoe wordt deze door de service verwerkt?
+## <a name="whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>Wat is een zero-day spamvariant en hoe wordt dit verwerkt door de service?
 
-Een spamvariant van nul dagen is een eerste generatie, voorheen onbekende variant van spam die nooit is vastgelegd of geanalyseerd, dus onze antispamfilters bevatten nog geen informatie die kan worden gedetecteerd. Nadat een 0-daagse spamsamplist is vastgelegd en geanalyseerd door onze spamanalisten, worden onze antispamfilters bijgewerkt om het te detecteren en wordt het niet meer beschouwd als 'nuldag'.
+Een zero-day spamvariant is een eerste generatie, voorheen onbekende variant van spam die nooit is vastgelegd of geanalyseerd, zodat onze antispamfilters nog geen informatie beschikbaar hebben om deze te detecteren. Nadat een steekproef van nul dagen spam is vastgelegd en geanalyseerd door onze spamanalisten, worden onze antispamfilters bijgewerkt om deze te detecteren en wordt het niet meer beschouwd als 'zero-day'.
 
-**Opmerking:** Als u een bericht ontvangt dat een 0-daagse spamvariant kan zijn, kunt u ons helpen de service te verbeteren door het bericht naar Microsoft te verzenden met een van de methoden die in Rapportberichten en bestanden worden beschreven bij [Microsoft.](report-junk-email-messages-to-microsoft.md)
+**Opmerking:** Als u een bericht ontvangt dat een zero-day spamvariant kan zijn, kunt u het bericht naar Microsoft verzenden met behulp van een van de methoden die in Berichten en bestanden rapporteren worden beschreven bij [Microsoft.](report-junk-email-messages-to-microsoft.md)
 
-## <a name="do-i-need-to-configure-the-service-to-provide-anti-spam-protection"></a>Moet ik de service zo configureren dat deze bescherming tegen spam biedt?
+## <a name="do-i-need-to-configure-the-service-to-provide-anti-spam-protection"></a>Moet ik de service zo configureren dat ik antispambeveiliging kan bieden?
 
-Nadat u zich hebt registreren voor de service en uw domein hebt toevoegen, wordt spamfilter automatisch ingeschakeld. Standaard is spamfilters aangepast om u te beschermen zonder dat er extra configuratie nodig is (afgezien van de eerder aangekondigde uitzondering voor zelfstandige klanten van EOP in hybride omgevingen). Als beheerder kunt u de standaardinstellingen voor het filteren van ongewenste e-mail aanpassen aan de behoeften van uw organisatie. Voor een grotere granulatie kunt u ook antispambeleid en uitgaand antispambeleid maken dat wordt toegepast op opgegeven gebruikers, groepen of domeinen in uw organisatie. Aangepaste beleidsregels hebben altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (dat wil zeggen de volgorde van de regels) van uw aangepaste beleidsregels wijzigen.
+Nadat u zich hebt registreren voor de service en uw domein hebt toevoegen, wordt spamfilters automatisch ingeschakeld. Spamfilters zijn standaard afgestemd om u te beschermen zonder extra configuratie nodig te hebben (afgezien van de eerder bekende uitzondering voor zelfstandige EOP-zelfstandige klanten in hybride omgevingen). Als beheerder kunt u de standaardinstellingen voor spamfilters bewerken om het beste aan de behoeften van uw organisatie te voldoen. Voor meer granulariteit kunt u ook antispambeleid en uitgaand antispambeleid maken dat wordt toegepast op opgegeven gebruikers, groepen of domeinen in uw organisatie. Aangepaste beleidsregels hebben altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (dat wil zeggen de lopende volgorde) van uw aangepaste beleid wijzigen.
 
 Zie de volgende onderwerpen voor meer informatie:
 
-[Aanbevolen instellingen voor EOP- en Microsoft Defender voor Office 365-beveiliging](recommended-settings-for-eop-and-office365-atp.md)
+[Aanbevolen instellingen voor EOP- en Microsoft Defender-beveiliging voor Office 365](recommended-settings-for-eop-and-office365-atp.md)
 
-[Verbindingsfiltering configureren in EOP](configure-the-connection-filter-policy.md)
+[Verbindingsfilters configureren in EOP](configure-the-connection-filter-policy.md)
 
 [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)
 
 [Het uitgaande spambeleid configureren](configure-the-outbound-spam-policy.md)
 
-## <a name="if-i-make-a-change-to-an-anti-spam-policy-how-long-does-it-take-after-i-save-my-changes-for-them-to-take-effect"></a>Als ik een wijziging aan een antispambeleid maak, hoe lang duurt het dan nadat ik mijn wijzigingen heb op slaan, voordat deze van kracht worden?
+## <a name="if-i-make-a-change-to-an-anti-spam-policy-how-long-does-it-take-after-i-save-my-changes-for-them-to-take-effect"></a>Als ik een wijziging aan een antispambeleid maak, hoe lang duurt het nadat ik mijn wijzigingen heb op slaan voordat deze van kracht worden?
 
-Het kan maximaal één uur duren voordat de wijzigingen zijn doorgevoerd.
+Het kan maximaal 1 uur duren voordat de wijzigingen van kracht worden.
 
-## <a name="is-bulk-email-filtering-automatically-enabled"></a>Is bulkmailfilter automatisch ingeschakeld?
+## <a name="is-bulk-email-filtering-automatically-enabled"></a>Is bulksgewijs filteren van e-mail automatisch ingeschakeld?
 
-Ja. Zie wat het verschil is tussen ongewenste e-mail en bulk-e-mail voor meer informatie over [bulk-e-mail.](what-s-the-difference-between-junk-email-and-bulk-email.md)
+Ja. Zie Wat is het verschil tussen ongewenste e-mail en bulk-e-mail? voor meer informatie over [bulksgewijs e-mail.](what-s-the-difference-between-junk-email-and-bulk-email.md)
 
 ## <a name="does-the-service-provide-url-filtering"></a>Biedt de service URL-filtering?
 
 Ja, de service heeft een URL-filter dat controleert op URL's in berichten. Als URL's die zijn gekoppeld aan bekende spam of schadelijke inhoud worden gedetecteerd, wordt het bericht gemarkeerd als spam.
 
-## <a name="how-can-customers-using-the-service-send-false-negative-spam-and-false-positive-non-spam-messages-to-microsoft"></a>Hoe kunnen klanten die de service gebruiken fout-negatieve (spam) en fout-positieve (niet-spam) berichten naar Microsoft verzenden?
+## <a name="how-can-customers-using-the-service-send-false-negative-spam-and-false-positive-non-spam-messages-to-microsoft"></a>Hoe kunnen klanten die de service gebruiken, fout-negatieve (spam) en onwaar positieve (niet-spam) berichten naar Microsoft verzenden?
 
-Spam en niet-spamberichten kunnen op verschillende manieren bij Microsoft worden ingediend voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
+Spam- en niet-spamberichten kunnen op verschillende manieren worden ingediend bij Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="can-i-get-spam-reports"></a>Kan ik spamrapporten krijgen?
 
-Ja, u kunt bijvoorbeeld een spamdetectierapport krijgen in het Microsoft 365-beheercentrum. Dit rapport toont het aantal ongewenste e-mail als het aantal unieke berichten. Zie de volgende koppelingen voor meer informatie over rapporten:
+Ja, u kunt bijvoorbeeld een spamdetectierapport krijgen in het Microsoft 365-beheercentrum. In dit rapport ziet u het spamvolume als een aantal unieke berichten. Zie de volgende koppelingen voor meer informatie over rapportage:
 
-Klanten met Exchange Online: controle, rapportage en [berichttracering in Exchange Online](https://docs.microsoft.com/exchange/monitoring/monitoring)
+Exchange Online-klanten: [Monitoring, Reporting en Message Tracing in Exchange Online](/exchange/monitoring/monitoring)
 
 Zelfstandige EOP-klanten: [Rapportage en bericht traceren in Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md)
 
-## <a name="someone-sent-me-a-message-and-i-cant-find-it-i-suspect-that-it-may-have-been-detected-as-spam-is-there-a-tool-that-i-can-use-to-find-out"></a>Iemand heeft me een bericht gestuurd en ik kan het niet vinden. Ik vermoed dat het als spam is gedetecteerd. Is er een hulpprogramma dat ik kan gebruiken om erachter te komen?
+## <a name="someone-sent-me-a-message-and-i-cant-find-it-i-suspect-that-it-may-have-been-detected-as-spam-is-there-a-tool-that-i-can-use-to-find-out"></a>Iemand heeft me een bericht gestuurd en ik kan het niet vinden. Ik vermoed dat het mogelijk is gedetecteerd als spam. Is er een hulpmiddel dat ik kan gebruiken om erachter te komen?
 
-Ja, met het hulpprogramma bericht traceren kunt u e-mailberichten volgen terwijl ze door de service worden verzonden om erachter te komen wat er met de berichten is gebeurd. Zie Een bericht gemarkeerd als spam voor meer informatie over het gebruik van het hulpprogramma bericht traceren om erachter te komen waarom een bericht als spam [is gemarkeerd?](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/message-trace-faq#was-a-message-marked-as-spam)
+Ja, met het hulpprogramma bericht traceren kunt u e-mailberichten volgen terwijl ze door de service lopen, om erachter te komen wat er met hen is gebeurd. Zie Was een bericht gemarkeerd als spam voor meer informatie over het gebruik van het hulpprogramma voor het traceren van berichten om erachter te komen waarom een bericht is gemarkeerd als [spam?](/exchange/monitoring/trace-an-email-message/message-trace-faq#was-a-message-marked-as-spam)
 
-## <a name="will-the-service-throttle-rate-limit-my-mail-if-my-users-send-outbound-spam"></a>Beperkt de service (snelheidslimiet) mijn e-mail als mijn gebruikers uitgaande spam verzenden?
+## <a name="will-the-service-throttle-rate-limit-my-mail-if-my-users-send-outbound-spam"></a>Wordt mijn e-mail beperkt door de service (tarieflimiet) als mijn gebruikers uitgaande spam verzenden?
 
-Als meer dan de helft van de e-mail die via de service via de service wordt verzonden binnen een bepaalde periode (bijvoorbeeld per uur) door EOP wordt vastgesteld als spam, wordt de gebruiker geblokkeerd voor het verzenden van berichten. In de meeste gevallen wordt een uitgaand bericht dat als spam wordt beschouwd, gerouteerd via de bezorgingsgroep met hoog risico, waardoor de kans wordt verkleind dat de normale uitgaande IP-groep wordt toegevoegd aan een blokkeringslijst.
+Als meer dan de helft van de e-mail die binnen een bepaald tijdsbestek (bijvoorbeeld per uur) van een gebruiker via de service wordt verzonden, door EOP als spam wordt beschouwd, wordt de gebruiker geblokkeerd voor het verzenden van berichten. In de meeste gevallen wordt een uitgaande e-mail door de groep met hoog risico's gerouteerd, waardoor de kans wordt verkleind dat de normale uitgaande IP-groep wordt toegevoegd aan een bloklijst.
 
-U kunt een melding verzenden naar een opgegeven e-mailadres wanneer het verzenden van uitgaande spam wordt geblokkeerd. Zie Het beleid voor uitgaande spam configureren voor meer [informatie over deze instelling.](configure-the-outbound-spam-policy.md)
+U kunt een melding verzenden naar een opgegeven e-mailadres wanneer een afzender wordt geblokkeerd bij het verzenden van uitgaande spam. Zie Het uitgaande [spambeleid configureren](configure-the-outbound-spam-policy.md)voor meer informatie over deze instelling.
 
-## <a name="can-i-use-a-third-party-anti-spam-and-anti-malware-provider-in-conjunction-with-exchange-online"></a>Kan ik een externe provider tegen spam en malware gebruiken in combinatie met Exchange Online?
+## <a name="can-i-use-a-third-party-anti-spam-and-anti-malware-provider-in-conjunction-with-exchange-online"></a>Kan ik een externe antispam- en anti-malwareprovider gebruiken in combinatie met Exchange Online?
 
-Ja. Hoewel we u aanraden uw MX-record naar Microsoft te laten wijzen, komen we tot de hoogte dat er betrouwbare zakelijke redenen zijn om uw e-mail naar een andere plaats dan eerst Naar Microsoft te door te sturen.
+Ja. Hoewel het raadzaam is om uw MX-record aan te wijzen op Microsoft, realiseren we ons dat er legitieme zakelijke redenen zijn om uw e-mail eerst naar een andere plaats te sturen dan Microsoft.
 
-- **Binnenkomende:** wijzig uw MX-records zo dat deze naar de externe provider wijzen en leiden de berichten om naar EOP voor aanvullende verwerking. Zie Uitgebreide filters voor [connectors in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+- **Binnenkomende:** Wijzig uw MX-records om naar de externe provider te wijzen en omleiden de berichten vervolgens naar EOP voor aanvullende verwerking. Zie Verbeterde filtering [voor verbindingslijnen in Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)voor meer informatie.
 
-- **Uitgaand:** configureer slimme hostroutering vanuit Microsoft 365 naar de externe provider.
+- **Uitgaande:** Configureer slimme hostroutering van Microsoft 365 naar de doelprovider van derden.
 
-## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Bevat Microsoft documentatie over hoe ik mijzelf kan beschermen tegen phishingpraktijken?
+## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Heeft Microsoft documentatie over hoe ik mijzelf kan beschermen tegen phishing?
 
-Ja. Zie Uw privacy beschermen [op internet voor meer informatie](https://support.microsoft.com/help/4091455)
+Ja. Zie Uw privacy op internet beschermen voor [meer informatie.](https://support.microsoft.com/help/4091455)
 
-## <a name="are-spam-and-malware-messages-being-investigated-as-to-who-sent-them-or-being-transferred-to-law-enforcement-entities"></a>Worden spam- en malwareberichten onderzocht door wie ze hebben verzonden of worden ze overgebracht naar entiteiten van de advocatenkantoor?
+## <a name="are-spam-and-malware-messages-being-investigated-as-to-who-sent-them-or-being-transferred-to-law-enforcement-entities"></a>Worden spam- en malwareberichten onderzocht over wie ze heeft verzonden of worden ze overgebracht naar rechtshandhavingsinstanties?
 
-De service richt zich op het detecteren en verwijderen van spam en malware, maar soms onderzoeken we soms vooral gevaarlijke of schadelijke spam- of aanvalscampagnes en voeren we de aandacht op. Hiervoor kan het nodig zijn om samen te werken met onze juridische en digitale eenheden voor digitale criminelen om een spammer-botnet op te pakken, de spammer te blokkeren voor het gebruik van de service (als deze deze gebruikt voor het verzenden van uitgaande e-mail) en het doorgeven van de informatie aan de advocatenkantoor voor strafrechtelijke activiteiten.
+De service richt zich op het opsporen en verwijderen van spam en malware, hoewel we af en toe vooral gevaarlijke of schadelijke spam- of aanvalscampagnes kunnen onderzoeken en de daders kunnen achtervolgen. Dit kan betrekking hebben op het werken met onze juridische en digitale criminaliteitseenheden om een spammer botnet neer te zetten, de spammer te blokkeren van het gebruik van de service (als ze deze gebruiken voor het verzenden van uitgaande e-mail) en het doorgeven van de informatie aan de ordehandhavers voor strafrechtelijke vervolging.
 
-## <a name="what-are-a-set-of-best-outbound-mailing-practices-that-will-ensure-that-my-mail-is-delivered"></a>Wat zijn de beste uitgaande mailingprocedures die ervoor zorgen dat mijn e-mail wordt bezorgd?
+## <a name="what-are-a-set-of-best-outbound-mailing-practices-that-will-ensure-that-my-mail-is-delivered"></a>Wat zijn de beste uitgaande verzendpraktijken om ervoor te zorgen dat mijn e-mail wordt bezorgd?
 
-De onderstaande richtlijnen zijn de beste procedures voor het verzenden van uitgaande e-mailberichten.
+De onderstaande richtlijnen zijn best practices voor het verzenden van uitgaande e-mailberichten.
 
 - **Het bron-e-maildomein moet worden opgelost in DNS.**
 
-  Als de afzender bijvoorbeeld user@fabrikam, wordt door het domein fabrikam het IP-adres 192.0.43.10 opgelost.
+  Als de afzender bijvoorbeeld een user@fabrikam, wordt het domein fabrikam verplaatst naar het IP-adres 192.0.43.10.
 
-  Als een verzendend domein geen A-record en geen MX-record in DNS heeft, routeert de service het bericht via de bezorgingsgroep met hoog risico, ongeacht of de inhoud van het bericht spam is. Zie de bezorgingsgroep met hoog risico voor uitgaande berichten voor meer informatie over de bezorgingsgroep met een hoog [risico.](high-risk-delivery-pool-for-outbound-messages.md)
+  Als een verzendend domein geen A-record en geen MX-record in DNS heeft, wordt het bericht door de service door de groep met een hoger risico verzonden, ongeacht of de inhoud van het bericht spam is. Zie Risicovolle bezorgingsgroep voor uitgaande berichten voor meer informatie over de groep met een hoger [risico.](high-risk-delivery-pool-for-outbound-messages.md)
 
-- **Een uitgaande e-mailserver moet een reverse-DNS-vermelding (PTR) hebben.**
+- **Uitgaande e-mailserver moet een reverse DNS -vermelding (PTR) hebben.**
 
-  Als het IP-adres van de e-mailbron bijvoorbeeld 192.0.43.10 is, is de omgekeerde DNS-vermelding `43-10.any.icann.org` .'
+  Als het IP-adres van de e-mailbron bijvoorbeeld 192.0.43.10 is, is de omgekeerde DNS-invoer `43-10.any.icann.org` .'
 
-- **De opdrachten HELO/EHLO en MAIL FROM moeten consistent zijn en aanwezig zijn in de vorm van een domeinnaam in plaats van een IP-adres.**
+- **De HELO/EHLO- en MAIL FROM-opdrachten moeten consistent zijn en aanwezig zijn in de vorm van een domeinnaam in plaats van een IP-adres.**
 
-  De helo/EHLO-opdracht moet zo worden geconfigureerd dat deze overeenkomen met de omgekeerde DNS van het verzendende IP-adres, zodat het domein in de verschillende onderdelen van de berichtkoppen hetzelfde blijft.
+  De opdracht HELO/EHLO moet zo worden geconfigureerd dat deze overeenkomen met de reverse DNS van het verzendende IP-adres, zodat het domein hetzelfde blijft in de verschillende onderdelen van de berichtkoppen.
 
-- **Zorg ervoor dat de juiste SPF-records zijn ingesteld in de DNS.**
+- **Zorg ervoor dat de juiste SPF-records zijn ingesteld in DNS.**
 
-  SPF-records zijn een mechanisme om te valideren dat e-mail die vanuit een domein wordt verzonden, eigenlijk afkomstig is van dat domein en niet is vervalst. Zie de volgende koppelingen voor meer informatie over SPF-records:
+  SPF-records zijn een mechanisme om te valideren dat e-mail die vanuit een domein wordt verzonden, echt afkomstig is van dat domein en niet wordt vervalst. Zie de volgende koppelingen voor meer informatie over SPF-records:
 
   [SPF instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   [Veelgestelde vragen over domeinen](../../admin/setup/domains-faq.yml#how-can-i-validate-spf-records-for-my-domain)
 
-- **Onderteken e-mail met DKIM, onderteken met vereenigde canonieke normalisatie.**
+- **Als u e-mail ondertekent bij DKIM, tekent u met een relaxte canonicalisatie.**
 
-  Als een afzender zijn berichten wil ondertekenen met Domeinsleutels geïdentificeerde e-mail (DKIM) en hij of zij uitgaande e-mail via de service wil verzenden, moet deze zich ondertekenen met de grote algoritme canonicalization header. Als u een handtekening met strikt canonieke kopteksten aantekent, kan dit de handtekening ongeldig maken wanneer deze de service doorstaat.
+  Als een afzender zijn berichten wil ondertekenen met domeinsleutels geïdentificeerde e-mail (DKIM) en uitgaande e-mail via de service wil verzenden, moet hij of zij zich aanmelden met het algoritme voor het canoniseren van een ontspannen koptekst. Het ondertekenen met een strikte canonieke koptekst kan de handtekening ongeldig maken wanneer de handtekening door de service wordt doorverkoend.
 
-- **Domeineigenaren moeten nauwkeurige informatie in de WHOIS-database hebben.**
+- **Domeineigenaren moeten nauwkeurige informatie hebben in de WHOIS-database.**
 
-  Hiermee worden de eigenaren van het domein geïdentificeerd en hoe u contact met hen kunt opnemen door het stabiele bovenliggende bedrijf, het punt van het contact en de naamservers in te gaan.
+  Hiermee worden de eigenaren van het domein geïdentificeerd en hoe u contact met hen op kunt nemen door het stabiele moederbedrijf, het contactpunt en de naamservers in te gaan.
 
-- **Voor bulkmailers moet de naam Van: laten zien wie het bericht verstuurt, terwijl de onderwerpregel van het bericht een kort overzicht moet zijn van waar het bericht over gaat.**
+- **Voor bulkmailers moet de naam Van: weerspiegelen wie het bericht verstuurt, terwijl de onderwerpregel van het bericht een korte samenvatting moet zijn van waar het bericht over gaat.**
 
-  De bericht zelf moet een duidelijke indicatie hebben van het aanbod, de service of het product. Als een afzender bijvoorbeeld een bulkmail verstuurt voor het bedrijf Contoso, moet het e-mailbericht Van en Onderwerp er als volgt uit zien:
+  De berichtindicatie moet een duidelijke indicatie hebben van het aanbod, de service of het product. Als een afzender bijvoorbeeld een bulkmailing verstuurt voor het contoso-bedrijf, moet het e-mailbericht Van en Onderwerp er als volgt uit zien:
 
-  > Van: marketing@contoso.com <br> Onderwerp: Nieuwe bijgewerkte catalogus voor de kerst!
+  > Van: marketing@contoso.com <br> Onderwerp: Nieuwe bijgewerkte catalogus voor het kerstseizoen!
 
-  Hier volgt een voorbeeld van wat u niet moet doen omdat dit niet beschrijvend is:
+  Hieronder volgt een voorbeeld van wat u niet moet doen omdat het niet beschrijvend is:
 
   > Van: user@hotmail.com <br> Onderwerp: Catalogi
 
-- **Als u een bulkmailing verstuurt naar een groot aantal geadresseerden en het bericht in nieuwsbriefindeling is, moet er een manier zijn om u af te schrijven onder aan het bericht.**
+- **Als het verzenden van een bulkmailing naar veel geadresseerden en het bericht in de nieuwsbriefindeling is, moet er een manier zijn om het abonnement onder aan het bericht op te geven.**
 
-  De optie voor het afmelden moet er als volgt uit zien:
+  De optie afmelden moet er als volgt uit zien:
 
   > Dit bericht is per example@contoso.com verzonden sender@fabrikam.com. Profiel/e-mailadres bijwerken | Direct verwijderen met **SafeUnsubscribe** &trade; | Privacybeleid
 
-- **Als u bulk-e-mail verstuurt, moet de aanschaf van een lijst worden uitgevoerd met dubbele opt-in. Als u bulkmail gebruikt, kunt u het beste dubbele opt-in gebruiken.**
+- **Als u bulk-e-mail verstuurt, moet het verkrijgen van een lijst worden uitgevoerd met dubbele opt-in. Als u een bulkmailer bent, is dubbele opt-in een goede gewoonte voor de industrie.**
 
-  Met dubbele aanmelding moet een gebruiker twee acties uitvoeren om zich te registreren voor marketingmail:
+  Dubbele aanmelding is de gewoonte dat een gebruiker twee acties moet uitvoeren om zich aan te melden voor marketingmail:
 
-  1. Wanneer de gebruiker op een eerder uitgeschakeld selectievakje klikt, kan deze zich ervoor kiezen om verdere aanbiedingen of e-mailberichten van de marketer te ontvangen.
+  1. Wanneer de gebruiker eenmaal op een eerder niet-uitgeschakeld selectievakje klikt, kiest hij of zij zich voor verdere aanbiedingen of e-mailberichten van de marketeer.
 
-  2. Een tweede keer dat de marketer een bevestigingse-mail verstuurt naar het opgegeven e-mailadres van de gebruiker, waarin de gebruiker wordt gevraagd te klikken op een tijdgevoelige koppeling om de bevestiging te voltooien.
+  2. Een tweede keer wanneer de marketeer een bevestigings-e-mail verzendt naar het opgegeven e-mailadres van de gebruiker met de vraag of hij of zij op een tijdgevoelige koppeling moet klikken om de bevestiging te voltooien.
 
-  Het gebruik van double opt-in zorgt voor een goede reputatie van afzenders van bulk-e-mail.
+  Als u dubbele opt-in gebruikt, wordt een goede reputatie opgebouwd voor bulk-afzenders van e-mail.
 
-- **Bulksge keer dienen transparante inhoud te maken waarvoor ze verantwoordelijk kunnen worden gehouden:**
+- **Bulk afzenders moeten transparante inhoud maken waarvoor ze verantwoordelijk kunnen worden gehouden:**
 
-  1. Bij het verzoek om geadresseerden de afzender toe te voegen aan het adresboek, moet duidelijk worden aangegeven dat een dergelijke actie geen garantie is voor bezorging.
+  1. Verbiage vraagt dat geadresseerden de afzender aan het adresboek toevoegen, moeten duidelijk stellen dat een dergelijke actie geen garantie voor bezorging is.
 
-  2. Gebruik een consistente koppelingsstijl bij het maken van omleiding in de bericht zelf.
+  2. Gebruik een consistente koppelingsstijl bij het maken van omleidingen in de berichtstijl.
 
-  3. Verzend geen grote afbeeldingen of bijlagen of berichten die uitsluitend uit een afbeelding bestaan.
+  3. Verzend geen grote afbeeldingen of bijlagen of berichten die uitsluitend uit een afbeelding zijn samengesteld.
 
-  4. Wanneer u tracking pixels (web bugs ofbakens) gebruikt, moet u hun aanwezigheid duidelijk laten zien in uw openbare privacy- of P3P-instellingen.
+  4. Wanneer u trackingpixels (web bugs of beacons) gebruikt, geeft u duidelijk aan dat ze aanwezig zijn in uw openbare privacy- of P3P-instellingen.
 
-- **Maak uitgaande niet-uitgaande berichten op.**
+- **Uitgaande bounceberichten opmaken.**
 
-  Bij het genereren van meldingen over de afleveringsstatus (ook wel bekend als rapporten over niet-bezorging, NDR's of niet-bezorgdberichten), moeten afzenders de indeling van een niet-bezorgdbericht volgen zoals is opgegeven in [RFC 3464.](https://www.ietf.org/rfc/rfc3464.txt)
+  Bij het genereren van meldingen over de bezorgingsstatus (ook wel bekend als niet-bezorgingsrapporten, NDR's of niet-bezorgdberichten), moeten afzenders de notatie van een bounce volgen, zoals is opgegeven in [RFC 3464.](https://www.ietf.org/rfc/rfc3464.txt)
 
-- **Niet-bestaande e-mailadressen verwijderen voor niet-bestaande gebruikers.**
+- **Niet-bestaande e-mailadressen verwijderen.**
 
-  Als u een NDR ontvangt die aangeeft dat een e-mailadres niet meer wordt gebruikt, verwijdert u de niet-bestaande e-mailalias uit uw lijst. E-mailadressen veranderen in de tijd en deze worden soms genegeerd.
+  Als u een NDR ontvangt die aangeeft dat een e-mailadres niet meer wordt gebruikt, verwijdert u de niet-bestaande e-mailalias uit uw lijst. E-mailadressen veranderen in de tijd en mensen verwijderen ze soms.
 
 - **Gebruik het SNDS-programma (Smart Network Data Services) van Hotmail.**
 
-  Hotmail gebruikt het programma Smart Network Data Services waarmee afzenders klachten van eindgebruikers kunnen controleren. SNDS is de primaire portal voor het oplossen van bezorgingsproblemen bij Hotmail.
+  Hotmail gebruikt een programma met de naam Smart Network Data Services waarmee afzenders klachten kunnen controleren die door eindgebruikers zijn ingediend. De SNDS is de primaire portal voor het oplossen van bezorgingsproblemen bij Hotmail.

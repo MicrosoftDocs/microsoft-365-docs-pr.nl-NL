@@ -12,32 +12,32 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
-description: Meer informatie over het gebruik van de regio parameter voor het configureren van eDiscovery voor gebruik in de locaties van de satellieten in Microsoft 365 multi-geo.
-ms.openlocfilehash: d1d66a9e7953b540e318c8364bdcb8d72654b482
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Lees hoe u de parameter Regio kunt gebruiken om eDiscovery te configureren voor gebruik op satellietlocaties in Microsoft 365 Multi-Geo.
+ms.openlocfilehash: 4d3481fe8b72bb970893ce065293a7a2cc717331
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636803"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923718"
 ---
-# <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Microsoft 365 multi-geo eDiscovery-configuratie
+# <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Microsoft 365 Multi-Geo eDiscovery-configuratie
 
-Met [Advanced eDiscovery-functies](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) kunt u met een meervoudige geo-beheerder van het GEOS zoeken naar alle zonder dat u een beveiligingsfilter ' regio ' hoeft te gebruiken. De gegevens worden geëxporteerd naar het Azure-exemplaar van de centrale locatie van de multi-geo-Tenant. 
+[Met geavanceerde eDiscovery-mogelijkheden](../compliance/overview-ediscovery-20.md) kan een beheerder van multi-geo eDiscovery alle geografische gegevens doorzoeken zonder dat u een beveiligingsfilter 'Regio' hoeft te gebruiken. Gegevens worden geëxporteerd naar het Azure-exemplaar van de centrale locatie van de multi-geo tenant. 
 
-Zonder Advanced eDiscovery-mogelijkheden kan een eDiscovery-Manager of-beheerder van een Tenant voor meervoudige geo alleen eDiscovery uitvoeren op de centrale locatie van de Tenant. Voor de mogelijkheid om eDiscovery voor satelliet locaties te doen, is een nieuwe nalevings beveiligingsfilter parameter genaamd ' regio ' beschikbaar via PowerShell. U kunt deze parameter gebruiken in tenants met een centrale locatie in Noord-Amerika, Europa of Azië. Advanced eDiscovery wordt aanbevolen voor tenants met een centrale locatie voor de centrale vestiging, Europa, Zuid-Amerika en de Stille Oceaan voor de centrale locatie van de geografische vestiging. 
+Zonder geavanceerde eDiscovery-mogelijkheden kan een eDiscovery-manager of beheerder van een multi-geoten tenant eDiscovery alleen uitvoeren op de centrale locatie van die tenant. Ter ondersteuning van de mogelijkheid om eDiscovery uit te voeren voor satellietlocaties, is een nieuwe parameter voor compliancebeveiligingsfilter 'Regio' beschikbaar via PowerShell. Deze parameter kan worden gebruikt door tenants waarvan de centrale locatie zich in Noord-Amerika, Europa of Azië en de Stille Oceaan bevindt. Geavanceerde eDiscovery wordt aanbevolen voor tenants waarvan de centrale locatie zich niet in Noord-Amerika, Europa of Azië-Pacific bevindt en die eDiscovery moeten uitvoeren op satellietlocatielocaties. 
 
-De globale beheerder van Microsoft 365 moet de machtigingen van een eDiscovery-beheerder toewijzen om de gebruikers de mogelijkheid te bieden om eDiscovery uit te voeren en een ' regio '-parameter toe te wijzen aan het toepasselijke beveiligings filter voor de naam van de locatie van de locatie van de satelliet.
+De globale beheerder van Microsoft 365 moet eDiscovery Manager-machtigingen toewijzen om anderen toe te staan eDiscovery uit te voeren en een parameter 'Regio' toe te wijzen in het toepasselijke compliancebeveiligingsfilter om de regio voor het uitvoeren van eDiscovery op te geven als satellietlocatie, anders wordt er geen eDiscovery uitgevoerd voor de satellietlocatie.
 
-Wanneer de rol van eDiscovery-beheerder of beheerder is ingesteld voor een bepaalde locatie van de satelliet, kan de eDiscovery-beheerder of beheerder alleen eDiscovery-zoekacties uitvoeren met de SharePoint-sites en OneDrive-sites op die locatie. Als een eDiscovery-Manager of-beheerder probeert te zoeken naar SharePoint-of OneDrive-sites buiten de opgegeven locatie van de satelliet, worden geen resultaten geretourneerd. Ook wanneer de eDiscovery-Manager of-beheerder voor een locatie voor een satelliet een export activeert, worden gegevens geëxporteerd naar het Azure-exemplaar van die regio. Dit helpt organisaties ertoe te zorgen dat de inhoud niet mag worden geëxporteerd met geplaatste randen.
+Wanneer de rol eDiscovery Manager of Beheerder is ingesteld voor een bepaalde satellietlocatie, kan eDiscovery Manager of Beheerder alleen eDiscovery-zoekacties uitvoeren op de SharePoint-sites en OneDrive-sites op die satellietlocatie. Als een eDiscovery Manager of Beheerder probeert te zoeken op SharePoint- of OneDrive-sites buiten de opgegeven satellietlocatie, worden er geen resultaten geretourneerd. Wanneer de eDiscovery Manager of Beheerder voor een satellietlocatie een export activeert, worden gegevens ook geëxporteerd naar het Azure-exemplaar van die regio. Dit helpt organisaties om aan de naleving te blijven voldoen door niet toe te staan dat inhoud wordt geëxporteerd over gecontroleerde randen.
 
 > [!NOTE]
-> Als u wilt dat een eDiscovery-Manager op meerdere SharePoint-locaties kan zoeken, moet u een ander gebruikersaccount maken voor de eDiscovery-beheerder waarmee de andere locatie wordt opgegeven waar de OneDrive-of SharePoint-sites zich bevinden.
+> Als een eDiscovery Manager moet zoeken op meerdere SharePoint-satellietlocaties, moet er een ander gebruikersaccount worden gemaakt voor eDiscovery Manager, dat de alternatieve satellietlocatie aangeeft waar de OneDrive- of SharePoint-sites zich bevinden.
 
 [!INCLUDE [Microsoft 365 Multi-Geo locations](../includes/microsoft-365-multi-geo-locations.md)]
 
-Het beveiligings filter voor naleving voor een gebied instellen:
+Het beveiligingsfilter voor naleving voor een regio instellen:
 
-1. [PowerShell-beveiliging verbinding maken met Microsoft 365 beveiligings & nalevings centrum](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [Verbinding maken met Microsoft 365 Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell)
 
 2. Gebruik de volgende syntaxis:
 
@@ -51,4 +51,4 @@ Het beveiligings filter voor naleving voor een gebied instellen:
    New-ComplianceSecurityFilter -Action All -FilterName "NAM eDiscovery Managers" -Region NAM -Users adwood@contoso.onmicrosoft.com
    ```
 
-Zie het [nieuwe ComplianceSecurityFilter-](https://docs.microsoft.com/powershell/module/exchange/new-compliancesecurityfilter) artikel voor aanvullende parameters en syntaxis.
+Zie het [artikel New-ComplianceSecurityFilter](/powershell/module/exchange/new-compliancesecurityfilter) voor aanvullende parameters en syntaxis.

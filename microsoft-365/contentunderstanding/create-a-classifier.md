@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Lees hoe je een classificatie maakt
-ms.openlocfilehash: bff23807fce18bf4a585dbb1ec47c1502ab686f6
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 13ae099d051ac526dc5b13e4cb55a1dc10eec087
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242686"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925354"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Een classificatie maken in Microsoft SharePoint Syntex
 
@@ -32,7 +32,7 @@ Een classificatie is een typemodel dat je kunt gebruiken om de identificatie en 
 
 ![Contract voor contractverlenging](../media/content-understanding/contract-renewal.png)
 
-Als je een classificatie maakt, kun je een nieuw [SharePoint-inhoudstype](https://docs.microsoft.com/sharepoint/governance/content-type-and-workflow-planning#content-type-overview) maken dat aan het model wordt gekoppeld.
+Als je een classificatie maakt, kun je een nieuw [SharePoint-inhoudstype](/sharepoint/governance/content-type-and-workflow-planning#content-type-overview) maken dat aan het model wordt gekoppeld.
 
 Bij het maken van de classificatie moet je *uitleg* maken om het model te definiëren. Op deze manier kun je algemene gegevens noteren waarop je dit documenttype consequent zou verwachten. 
 
