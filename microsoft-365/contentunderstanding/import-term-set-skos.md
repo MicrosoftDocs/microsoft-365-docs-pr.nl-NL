@@ -11,12 +11,12 @@ ms.service: ''
 ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 3d6efce9b6414444793da54d9c6d7be47d6a9a5c
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 734edbb462193291b6bd2fb4a8e6afc3a0b709cb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145077"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928246"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>Een termenset met een SKOS-indeling importeren
 
@@ -44,7 +44,7 @@ Wanneer het bestand is geïmporteerd wordt er een bericht weergegeven dat het im
 
 ## <a name="see-also"></a>Zie ook
 
-[Introductie tot beheerde metagegevens](https://docs.microsoft.com/sharepoint/managed-metadata)
+[Introductie tot beheerde metagegevens](/sharepoint/managed-metadata)
 
 [Overzicht van documentbegrip](document-understanding-overview.md)
 

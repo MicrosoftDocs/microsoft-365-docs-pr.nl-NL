@@ -1,7 +1,7 @@
 ---
 title: Wat is er nieuw in Microsoft 365 Defender
-description: Een overzicht van de nieuwe functies en functionaliteit in Microsoft 365 Defender
-keywords: wat is er nieuw in Microsoft Threat Protection, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuwe
+description: Bevat de nieuwe functies en functionaliteit in Microsoft 365 Defender
+keywords: wat is er nieuw in microsoft threat protection, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuwe
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,55 +18,55 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1f5fa231c371ca7a8d6a22ca0b4ff388fd89004c
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 5de805784b2772b0169b2ad2a503e9378b82fda7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711914"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927094"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Wilt u ervaring met Microsoft 365 Defender? U kunt [het evalueren in een testomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject in productie nemen.](https://aka.ms/m365d-pilotplaybook)
+> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](./mtp-pilot.md?ocid=cx-evalpilot)
 >
 
-De volgende functies zijn algemeen beschikbaar (GA) in de nieuwste versie van Microsoft 365 Defender.
+De volgende functies zijn over het algemeen beschikbaar (GA) in de nieuwste versie van Microsoft 365 Defender.
 
-RSS-feed: ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL te kopiëren en in uw feedlezer te kopiëren:
+RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in uw feedlezer te kopiëren en te kopiëren:
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
 
 ## <a name="march-2021"></a>Maart 2021
-- [Tabel CloudAppEvents](advanced-hunting-cloudappevents-table.md) <br>Vind informatie over gebeurtenissen in verschillende cloud-apps en services die worden gedekt door Microsoft Cloud App Security. Deze tabel bevat ook informatie die eerder beschikbaar was in `AppFileEvents` .
+- [CloudAppEvents-tabel](advanced-hunting-cloudappevents-table.md) <br>Informatie over gebeurtenissen in verschillende cloud-apps en -services die worden gedekt door Microsoft Cloud App Security. Deze tabel bevat ook informatie die eerder beschikbaar was in `AppFileEvents` .
 ## <a name="february-2021"></a>Februari 2021
-- (Preview) Het verbeterde [Microsoft 365-beveiligingscentrum ( https://security.microsoft.com) ](https://security.microsoft.com) is nu beschikbaar in de openbare preview-versie. Deze nieuwe ervaring brengt Defender voor eindpunt en Defender voor Office 365 in het midden. [Meer informatie over wat er is gewijzigd.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
+- (Preview) Het verbeterde [Microsoft 365-beveiligingscentrum ( https://security.microsoft.com) ](https://security.microsoft.com) is nu beschikbaar in een openbaar voorbeeld. Deze nieuwe ervaring brengt Defender voor Eindpunt en Defender voor Office 365 naar het midden. [Meer informatie over wat er is gewijzigd.](./overview-security-center.md)
 
 ## <a name="september-2020"></a>September 2020
-- [IdentityDirectoryEvents-tabel](advanced-hunting-identitydirectoryevents-table.md) <br> Gebeurtenissen vinden waarbij een on-premises domeincontroller Active Directory (AD) wordt uitgevoerd. Deze [geavanceerde schematabel](advanced-hunting-overview.md) voor het zoeken naar informatie omvat een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller.
-- [AssignedIPAddresses() functie](advanced-hunting-assignedipaddresses-function.md) <br> Gebruik deze functie in uw geavanceerde zoekquery's om snel de meest recente IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen vanaf een bepaalde tijd.
+- [Tabel IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) <br> Gebeurtenissen zoeken met een on-premises domeincontroller met Active Directory (AD). Deze [geavanceerde schematabel](advanced-hunting-overview.md) voor de jacht bestrijkt een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller.
+- [ToegewezenIPAddresses() functie](advanced-hunting-assignedipaddresses-function.md) <br> Gebruik deze functie in uw geavanceerde zoekquery's om snel de meest recente IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen van een bepaalde tijd.
 
 ## <a name="july-2020"></a>Juli 2020
-- [FileProfile() functie](advanced-hunting-fileprofile-function.md) <br> Gebruik deze functie in uw geavanceerde zoekquery's om resultaten te verbeteren met uitgebreide bestandsinformatie.
-- [Identiteits- en app-tabellen](advanced-hunting-schema-tables.md)<br> Krijg inzicht in verificatiegebeurtenissen, Active Directory-query's en app-gerelateerde activiteiten met de tabellen [IdentityLogonEvents,](advanced-hunting-identitylogonevents-table.md) [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)en [AppFileEvents](advanced-hunting-appfileevents-table.md) in het geavanceerde schema voor zoeken.
-- [Beginnen met opsporen](advanced-hunting-go-hunt.md)<br> U kunt er snel voor kiezen om een incident te onderzoeken of een specifieke gebeurtenis, een gebruiker, een apparaat of andere entiteitstypen te controleren op geavanceerd zoeken.
+- [FileProfile(), functie](advanced-hunting-fileprofile-function.md) <br> Gebruik deze functie in uw geavanceerde zoekquery's om resultaten te verrijken met uitgebreide bestandsgegevens.
+- [Identiteits- en app-tabellen](advanced-hunting-schema-tables.md)<br> Krijg inzicht in verificatiegebeurtenissen, Active Directory-query's en app-gerelateerde activiteiten met de tabellen [IdentityLogonEvents,](advanced-hunting-identitylogonevents-table.md) [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)en [AppFileEvents](advanced-hunting-appfileevents-table.md) in het geavanceerde schema voor het zoeken.
+- [Beginnen met opsporen](advanced-hunting-go-hunt.md)<br> Draai snel van het onderzoeken van een incident naar het controleren van een specifieke gebeurtenis, een gebruiker, een apparaat of andere entiteitstypen op geavanceerde jacht.
 
 ## <a name="june-2020"></a>Juni 2020
-- Twitter-feed <br> Krijg direct in het dashboard het nieuwste beveiligingsonderzoek, bedreigingsinformatie, productnieuws en meer.
-- [Schematabel EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) <br> Neem informatie over acties na de bezorging van e-mailberichten op in uw geavanceerde zoekquery's.
-- [Records controleren in geavanceerde vorden](advanced-hunting-query-results.md#drill-down-from-query-results) <br> Controleer snel records in uw queryresultaten met het deelvenster Nieuwe details.
+- Twitter-feed <br> Ontvang het meest recente beveiligingsonderzoek, bedreigingsinformatie, productnieuws en meer - direct in het dashboard.
+- [Schematabel e-mailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) <br> Neem informatie over acties na de bezorging van e-mailberichten op in uw geavanceerde zoekquery's.
+- [Records controleren in geavanceerde jacht](advanced-hunting-query-results.md#drill-down-from-query-results) <br> Controleer snel records in de queryresultaten met het nieuwe detailvenster.
 
 ## <a name="may-2020"></a>Mei 2020
-- [Aangepaste detectie](custom-detections-overview.md) <br> Gebruik geavanceerde zoekquery's om aangepaste detectieregels te maken die automatisch worden gecontroleerd op en reageren op beveiligingsgebeurtenissen en systeemvoorschriften.
+- [Aangepaste detectie](custom-detections-overview.md) <br> Gebruik geavanceerde zoekquery's om aangepaste detectieregels te maken die automatisch controleren op en reageren op beveiligingsgebeurtenissen en systeemstaten.
 
 ## <a name="february-2020"></a>Februari 2020
-- [Incidenten](incidents-overview.md) <br> Weet precies waar een aanval is begonnen en andere details om de omvang van de aanval te zien.
-- [Geautomatiseerd onderzoek en reactie](mtp-autoir.md) <br> Met AIR kan het team voor beveiligingsactiviteiten de capaciteit van uw organisatie om te gaan met beveiligingswaarschuwingen en -incidenten aanzienlijk verhogen.
-- [Geavanceerde zoekverbeteringen](advanced-hunting-overview.md) <br> U kunt proactief zoeken naar bedreigingen in de moderne werkruimte met Kusto-querytaal en een schema dat geoptimaliseerd is voor beveiliging.
+- [Incidenten](incidents-overview.md) <br> Weet precies waar een aanval is gestart en andere details om u te helpen de omvang van de aanval te zien.
+- [Geautomatiseerd onderzoek en reactie](mtp-autoir.md) <br> Air stelt uw beveiligingsteam in staat om de capaciteit van uw organisatie om beveiligingswaarschuwingen en incidenten op te nemen aanzienlijk te vergroten.
+- [Geavanceerde uitbreidingen van de jacht](advanced-hunting-overview.md) <br> Ga proactief op zoek naar bedreigingen in de moderne werkruimte met kustoquerytaal en een schema dat is geoptimaliseerd voor beveiliging.
 
 ## <a name="march-2019"></a>Maart 2019
-- Geavanceerd opsporen <br> De landingspagina voor diverse zoekmogelijkheden, zodat u proactief bedreigingen kunt vinden die van invloed zijn op e-mail en gegevens, apparaten en identiteiten.
-- [Microsoft Secure Score](microsoft-secure-score.md) <br> Met een hogere maateenheid voor de beveiliging van een organisatie, met een hoger getal dat aangeeft dat er meer acties voor verbetering worden uitgevoerd. Door de aanbevelingen van de beveiligingsscore te volgen, kunt u uw organisatie beschermen tegen bedreigingen. 
-- [Rapporten](monitoring-and-reporting.md) <br>  Deze bevat een groot aantal kaarten voor verschillende gebieden die beveiligingsanalisten en beheerders bijhouden als onderdeel van hun dagelijkse werkzaamheden.
+- Geavanceerd opsporen <br> Landingspagina naar verschillende zoekmogelijkheden, zodat u proactief bedreigingen kunt vinden die van invloed zijn op e-mail en gegevens, apparaten en identiteiten.
+- [Microsoft Secure Score](microsoft-secure-score.md) <br> Meting van de beveiligingsstatus van een organisatie, met een hoger getal dat aangeeft dat er meer verbeteracties zijn uitgevoerd. Als u de aanbevelingen voor beveiligingsscore volgt, kunt u uw organisatie beschermen tegen bedreigingen. 
+- [Rapporten](./overview-security-center.md) <br>  Bevat een groot aantal kaarten die een groot aantal gebieden beslaat die beveiligingsanalisten en beheerders bijhouden als onderdeel van hun dagelijkse activiteiten.

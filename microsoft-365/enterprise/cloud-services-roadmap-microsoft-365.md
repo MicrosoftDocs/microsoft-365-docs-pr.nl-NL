@@ -1,5 +1,5 @@
 ---
-title: Cloud Services-wegwijzer voor Microsoft 365
+title: Routekaart voor cloudservices voor Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -12,56 +12,56 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
-description: De routekaart voor het instellen van de cloudservices voor Microsoft 365.
-ms.openlocfilehash: 9d28b03f17aa0b9de955af824939d0db28faa057
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+description: De roadmap voor het instellen van uw cloudservices voor Microsoft 365.
+ms.openlocfilehash: 5049d24a2cff696ee44429f809b2b91c15a4b4d1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775133"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928258"
 ---
-# <a name="cloud-services-roadmap-for-microsoft-365"></a>Cloud Services-wegwijzer voor Microsoft 365
+# <a name="cloud-services-roadmap-for-microsoft-365"></a>Routekaart voor cloudservices voor Microsoft 365
 
-Voor de voordelen van de creativiteit, het teamwerk en de productiviteit van Microsoft 365 for Enterprise, implementeert u de cloudservices die het beste aansluiten op de behoeften van uw organisatie.
+Als u de creativiteit, teamwerk en productiviteitsvoordelen van Microsoft 365 voor ondernemingen wilt krijgen, implementeert u de cloudservices die het beste aansluiten bij de behoeften van uw organisatie.
 
-Als u beschikt over bestaande implementaties voor Exchange, SharePoint of Skype voor bedrijven en de hele organisatie wilt migreren naar Microsoft 365 voor Enterprise, raadpleegt u het overzicht van de [client-en serversoftware](client-server-software-roadmap-microsoft-365.md). Dit overzicht omvat Microsoft Office-clientproducten, on-premises Office Server-producten en op Microsoft Windows &ndash; gebaseerde apparaten.
+Als u bestaande serverimplementaties voor Exchange, SharePoint of Skype voor Bedrijven hebt en uw hele organisatie wilt migreren naar Microsoft 365 voor bedrijven, bekijkt u de routekaart voor client- en [serversoftware.](client-server-software-roadmap-microsoft-365.md) Deze roadmap bevat Microsoft Office-clientproducten, on-premises Office Server-producten en microsoft &ndash; Windows-apparaten.
 
 ## <a name="deploy"></a>Implementeren
 
-U implementeert de cloudservices als volgt:
+Uw cloudservices implementeren:
 
 - [Uw services voorbereiden](configure-services-and-applications.md)
 - [Uw on-premises gegevens migreren naar Microsoft 365](migrate-data-to-office-365.md)
-- De cloudservices instellen voor uw gebruikers
-  - [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
-  - [SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-online)
-  - [Skype voor Bedrijven](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
-  - [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
+- Uw cloudservices instellen voor uw gebruikers
+  - [Exchange Online](/Exchange/exchange-online)
+  - [SharePoint Online](/sharepoint/sharepoint-online)
+  - [Skype voor Bedrijven](/SkypeForBusiness/skype-for-business-online)
+  - [Microsoft Teams](/MicrosoftTeams/Teams-overview)
   - [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
-- [Uw gebruikers trainen](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
+- [Uw gebruikers trainen](/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
 
 ## <a name="manage"></a>Beheren
 
 Uw cloudservices beheren: 
 
-- [De servicestatus controleren](view-service-health.md)
-- [Meer informatie over de ondersteuningsopties](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- [Uw service-status controleren](view-service-health.md)
+- [Uw ondersteuningsopties begrijpen](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 - Uw cloudservices beheren
-  - [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
+  - [Exchange Online](/Exchange/exchange-online)
   - [SharePoint Online](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
-  - [Skype voor Bedrijven](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
-  - [Microsoft Teams](https://docs.microsoft.com//MicrosoftTeams/quality-of-experience-review-guide)
+  - [Skype voor Bedrijven](/SkypeForBusiness/skype-for-business-online)
+  - [Microsoft Teams](//MicrosoftTeams/quality-of-experience-review-guide)
   - [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
-- [Prestatieafstemming voor uw cloudservices uitvoeren](tune-microsoft-365-performance.md)
+- [Prestaties afstemmen voor uw cloudservices](tune-microsoft-365-performance.md)
 
-## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a>Hoe Microsoft de cloudservices voor Microsoft 365 biedt
+## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a>Hoe Microsoft cloudservices voor Microsoft 365 doet
 
-Voor informatie over de manier waarop Microsoft de implementatie van Microsoft 365-cloudservices heeft geïmplementeerd of wordt beheerd:
+Voor informatie over de manier waarop Microsoft IT Microsoft 365-cloudservices heeft geïmplementeerd of beheert:
 
-1. Ga naar [Microsoft IT-etalage](https://www.microsoft.com/itshowcase).
-2. Selecteer **inhoud zoeken**.
-3. Selecteer onder **Resultaten verfijnen**de optie **IT Pro** onder **doelgroep**en selecteer vervolgens onder **product**een cloudservice.
+1. Ga naar [Microsoft IT Showcase.](https://www.microsoft.com/itshowcase)
+2. Selecteer **Inhoud zoeken.**
+3. Selecteer **onder Resultaten verfijnen** de optie IT **Pro** onder **Doelgroep** en selecteer vervolgens onder **Product** een cloudservice.
 
 ## <a name="next-step"></a>Volgende stap
 
-Start de cloudservices-implementatie. Zie [Microsoft 365 Enterprise-Services en-toepassingen configureren](configure-services-and-applications.md)voor meer informatie.
+Start de implementatie van uw cloudservices. Zie Microsoft [365 Enterprise-services en -toepassingen configureren voor richtlijnen.](configure-services-and-applications.md)

@@ -14,22 +14,22 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor verificatie met wachtwoord-hash-synchronisatie.
-ms.openlocfilehash: 8e8db4aae39acda0762f9b6394b23ab047727ea5
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 3236c79e308f269c07146ff094c7ae27271b97fc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233782"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928048"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor wachtwoord-hash-synchronisatie in uw Microsoft 365-testomgeving.
 
-*Deze Test Lab Guide kan alleen worden gebruikt voor Microsoft 365 voor bedrijfstestomgevingen.*
+*Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*
 
-Identiteits- en [apparaattoegangsconfiguraties](../security/office-365-security/microsoft-365-policies-configurations.md) zijn een reeks configuraties en beleidsregels voor voorwaardelijke toegang ter bescherming van de toegang tot alle services in Microsoft 365 voor ondernemingen die zijn geïntegreerd met Azure Active Directory (Azure AD).
+[Configuraties voor identiteits-](../security/office-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een set configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services in Microsoft 365 voor ondernemingen te beschermen die zijn geïntegreerd met Azure Active Directory (Azure AD).
 
-In dit artikel wordt beschreven hoe u een Microsoft 365-testomgeving configureert die voldoet aan de vereisten van de hybride configuratie met configuratie van wachtwoordhashsynchronisatie voor identiteits- en apparaattoegang. [](../security/office-365-security/identity-access-prerequisites.md#prerequisites)
+In dit artikel wordt beschreven hoe u een Microsoft 365-testomgeving configureert die voldoet aan de vereisten van de hybride configuratie met verificatie van wachtwoordhashsynchronisatie voor identiteit en apparaattoegang. [](../security/office-365-security/identity-access-prerequisites.md#prerequisites)
 
-Het instellen van deze testomgeving bestaat uit tien fasen:
+Er zijn tien fasen voor het instellen van deze testomgeving:
 
 1. Een gesimuleerde onderneming maken met een testomgeving voor wachtwoord-hash-synchronisatie
 2. Naadloze eenmalige Azure AD-aanmelding configureren
@@ -37,14 +37,14 @@ Het instellen van deze testomgeving bestaat uit tien fasen:
 4. Wachtwoord terugschrijven configureren
 5. Self-service voor wachtwoordherstel configureren voor alle gebruikersaccounts
 6. Meervoudige verificatie configureren voor alle gebruikersaccounts
-7. Automatische apparaatregistratie inschakelen voor Windows-computers die lid zijn van een domein
-8. Wachtwoordbeveiliging voor Azure AD configureren 
+7. Automatische apparaatregistratie van windows-computers met een domein inschakelen
+8. Azure AD-wachtwoordbeveiliging configureren 
 9. Azure AD Identity Protection inschakelen
 10. Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online
 
 ## <a name="phase-1-build-out-your-simulated-enterprise-with-password-hash-sync-microsoft-365-test-environment"></a>Fase 1: Uw gesimuleerde onderneming uitbreiden met een Microsoft 365-testomgeving met wachtwoord-hash-synchronisatie
 
-Volg de instructies in de Test Lab Guide voor [wachtwoord-hashsynchronisatie.](password-hash-sync-m365-ent-test-environment.md)
+Volg de instructies in [de test labhandleiding voor wachtwoordhashsynchronisatie.](password-hash-sync-m365-ent-test-environment.md)
 Dit is de resulterende configuratie.
 
 ![De gesimuleerde onderneming maken met een testomgeving voor wachtwoord-hash-synchronisatie](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
@@ -57,7 +57,7 @@ Volg de instructies in [Fase 2 van testlabrichtlijn Naadloze eenmalige Azure AD-
 
 Bepaal eerst de openbare IP-adressen of adresbereiken die worden gebruikt door uw organisatie.
 
-Volg daarna de instructies in [Benoemde locaties configureren in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) om de adressen of adresbereiken als benoemde locaties toe te voegen. 
+Volg daarna de instructies in [Benoemde locaties configureren in Azure Active Directory](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) om de adressen of adresbereiken als benoemde locaties toe te voegen. 
 
 ## <a name="phase-4-configure-password-writeback"></a>Fase 4: Wachtwoord terugschrijven configureren
 
@@ -87,13 +87,13 @@ Volg de instructies in [Fase 2 van testlabrichtlijn Meervoudige verificatie](mul
 
 Test meervoudige verificatie alleen voor het Gebruiker 2-account.
 
-## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 7: Automatische apparaatregistratie inschakelen voor Windows-computers die lid zijn van een domein 
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 7: Automatische apparaatregistratie van windows-computers met een domein inschakelen 
 
-Volg [deze instructies om](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie in teschakelen voor Windows-computers die lid zijn van een domein.
+Volg [deze instructies om](/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie van windows-computers met een domein in te stellen.
 
-## <a name="phase-8-configure-azure-ad-password-protection"></a>Fase 8: Wachtwoordbeveiliging voor Azure AD configureren 
+## <a name="phase-8-configure-azure-ad-password-protection"></a>Fase 8: Azure AD-wachtwoordbeveiliging configureren 
 
-Volg [deze instructies om](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) bekende zwakke wachtwoorden en hun varianten te blokkeren.
+Volg [deze instructies om](/azure/active-directory/authentication/concept-password-ban-bad) bekende zwakke wachtwoorden en hun varianten te blokkeren.
 
 ## <a name="phase-9-enable-azure-ad-identity-protection"></a>Fase 9: Azure AD Identity Protection inschakelen
 
@@ -101,11 +101,11 @@ Volg de instructies in [Fase 2 van testlabrichtlijn Azure AD Identity Protection
 
 ## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 10: Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online
 
-Volg voor Exchange Online [deze instructies](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
+Volg voor Exchange Online [deze instructies](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
 
 Voor Skype voor Bedrijven Online:
 
-1. Maak verbinding met [Skype voor Bedrijven Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. Maak verbinding met [Skype voor Bedrijven Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 2. Voer deze opdracht uit.
 
@@ -123,7 +123,7 @@ Het resultaat is een testomgeving die voldoet aan de vereisten van de [configura
 
 ## <a name="next-step"></a>Volgende stap
 
-Gebruik [algemeen beleid voor identiteits- en apparaattoegang](identity-access-policies.md) voor het configureren van het beleid dat is gebaseerd op de vereisten, en bescherm identiteiten en apparaten.
+Gebruik [algemeen beleid voor identiteits- en apparaattoegang](../security/office-365-security/identity-access-policies.md) voor het configureren van het beleid dat is gebaseerd op de vereisten, en bescherm identiteiten en apparaten.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -135,4 +135,4 @@ Gebruik [algemeen beleid voor identiteits- en apparaattoegang](identity-access-p
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Microsoft 365 enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 enterprise-documentatie](/microsoft-365-enterprise/)

@@ -1,7 +1,7 @@
 ---
 title: Toegang tot Microsoft 365 Defender-gegevens beheren in het Microsoft 365-beveiligingscentrum
-description: Informatie over het beheren van machtigingen voor gegevens in Microsoft 365 Defender
-keywords: toegang, machtigingen, MTP, Microsoft Threat Protection, M365, beveiliging, MCAS, MDATP, Cloud App Security, Microsoft Defender Advanced Threat Protection, bereik, scoping, RBAC
+description: Meer informatie over het beheren van machtigingen voor gegevens in Microsoft 365 Defender
+keywords: access, permissions, MTP, Microsoft Threat Protection, M365, security, MCAS, MDATP, Cloud App Security, Microsoft Defender Advanced Threat Protection, scope, scoping, RBAC
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6f042b0c6314e8e5f80d40d76159712bc817a01c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: a619a6ff5256b3b70302d1bef4f0bc21bd7ac3e3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930136"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927904"
 ---
-# <a name="manage-access-to-microsoft-365-defender"></a>Toegang tot Microsoft 365 Defender beheren
+# <a name="manage-access-to-microsoft-365-defender-with-azure-active-directory-global-roles"></a>Toegang tot Microsoft 365 Defender beheren met globale azure Active Directory-rollen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,31 +35,39 @@ ms.locfileid: "49930136"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Accounts die zijn toegewezen aan de volgende Azure Active Directory (AD)-rollen, hebben toegang tot functionaliteit en gegevens van Microsoft 365 Defender:
+Er zijn twee manieren om toegang tot Microsoft 365 Defender te beheren
+- **Ad-rollen (Global Azure Active Directory)**
+- **Aangepaste roltoegang**
+
+Accounts die zijn toegewezen aan de volgende **Ad-rollen (Global Azure Active Directory)** hebben toegang tot de functionaliteit en gegevens van Microsoft 365 Defender:
 - Globale beheerder
 - Beveiligingsbeheerder
 - Beveiligingsoperator
 - Algemene lezer
 - Beveiligingslezer
 
-Als u accounts met deze rollen wilt controleren, bekijkt u [machtigingen in het Microsoft 365-beveiligingscentrum.](https://security.microsoft.com/permissions)
+Als u accounts met deze rollen wilt controleren, [bekijkt u Machtigingen in het Microsoft 365-beveiligingscentrum.](https://security.microsoft.com/permissions)
+
+**Aangepaste roltoegang** is een nieuwe mogelijkheid in Microsoft 365 Defender en stelt u in staat om toegang tot specifieke gegevens, taken en mogelijkheden te beheren in Microsoft Defender 365. Aangepaste rollen bieden meer controle dan globale Azure AD-rollen, zodat gebruikers alleen de benodigde toegang hebben met de minst permissieve rollen die nodig zijn.  Aangepaste rollen kunnen worden gemaakt naast globale Azure AD-rollen. [Meer informatie over aangepaste rollen.](custom-roles.md)
+
+> ! [OPMERKING] Dit artikel is alleen van toepassing op het beheren van globale Azure Active Directory-rollen. Zie Aangepaste rollen voor toegangsbeheer op basis van rollen voor meer informatie over het gebruik van aangepaste toegangsbeheer op basis [van rollen](custom-roles.md)
 
 ## <a name="access-to-functionality"></a>Toegang tot functionaliteit
-Toegang tot specifieke functionaliteit wordt bepaald door uw [Azure AD-rol.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Neem contact op met een globale beheerder als u toegang nodig hebt tot specifieke functionaliteit die vereist dat aan u of uw gebruikersgroep een nieuwe rol wordt toegewezen.
+Toegang tot specifieke functionaliteit wordt bepaald door uw [Azure AD-rol.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Neem contact op met een globale beheerder als u toegang nodig hebt tot specifieke functionaliteit die vereist dat u of uw gebruikersgroep een nieuwe rol krijgt toegewezen.
 
-### <a name="approve-pending-automated-tasks"></a>Geautomatiseerde taken in behandeling goedkeuren
-[Automatisch onderzoek en herstel kunnen acties](mtp-autoir-actions.md) ondernemen op e-mailberichten, doorsturenregels, bestanden, persistentiemechanismen en andere artefacten die tijdens onderzoeken zijn gevonden. Als u acties in behandeling die expliciet moeten worden goedgekeurd, wilt goedkeuren of weigeren, moet u bepaalde rollen hebben toegewezen in Microsoft 365. Zie machtigingen van [het Actiecentrum voor meer informatie.](mtp-action-center.md#required-permissions-for-action-center-tasks)
+### <a name="approve-pending-automated-tasks"></a>In behandeling zijnde geautomatiseerde taken goedkeuren
+[Geautomatiseerde onderzoeken en herstel](mtp-autoir-actions.md) kunnen actie ondernemen op basis van e-mailberichten, regels voor doorsturen, bestanden, persistentiemechanismen en andere artefacten die tijdens onderzoeken zijn gevonden. Als u in behandeling zijnde acties wilt goedkeuren of afwijzen waarvoor expliciete goedkeuring is vereist, moet u bepaalde rollen hebben toegewezen in Microsoft 365. Zie Machtigingen voor [actiecentrum voor meer informatie.](mtp-action-center.md#required-permissions-for-action-center-tasks)
 
 ## <a name="access-to-data"></a>Toegang tot gegevens
-Toegang tot Gegevens van Microsoft 365 Defender kan worden beheerd met behulp van het bereik dat is toegewezen aan gebruikersgroepen in toegangsbeheer op basis van een Eindpunt-rol in Microsoft Defender for Endpoint (RBAC). Als uw toegang niet beperkt is tot een specifieke set apparaten in Defender for Endpoint, hebt u volledige toegang tot gegevens in Microsoft 365 Defender. Zodra uw account echter beperkt is, ziet u alleen gegevens over de apparaten binnen uw bereik.
+Toegang tot Microsoft 365 Defender-gegevens kan worden beheerd met behulp van het bereik dat is toegewezen aan gebruikersgroepen in Microsoft Defender for Endpoint role-based access control (RBAC). Als uw toegang niet is beperkt tot een specifieke set apparaten in het Defender voor Eindpunt, hebt u volledige toegang tot gegevens in Microsoft 365 Defender. Wanneer uw account echter een bereik heeft, ziet u alleen gegevens over de apparaten in uw bereik.
 
-Als u bijvoorbeeld tot slechts één gebruikersgroep behoort met de rol Microsoft Defender voor eindpunt en die gebruikersgroep alleen toegang heeft gekregen tot verkoopapparaten, ziet u alleen gegevens over verkoopapparaten in Microsoft 365 Defender. [Meer informatie over RBAC-instellingen in Microsoft Defender voor Eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/rbac)
+Als u bijvoorbeeld tot slechts één gebruikersgroep behoort met een Microsoft Defender voor eindpuntrol en die gebruikersgroep alleen toegang heeft gekregen tot verkoopapparaten, ziet u alleen gegevens over verkoopapparaten in Microsoft 365 Defender. [Meer informatie over RBAC-instellingen in Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/rbac)
 
-### <a name="microsoft-cloud-app-security-access-controls"></a>Toegangsbesturingselementen voor Microsoft Cloud App-beveiliging
-Tijdens de preview-versie dwingt Microsoft 365 Defender geen toegangsbesturingselementen af op basis van beveiligingsinstellingen voor cloud-apps. Toegang tot Microsoft 365 Defender-gegevens wordt niet beïnvloed door deze instellingen.
+### <a name="microsoft-cloud-app-security-access-controls"></a>Toegangsbesturingselementen voor Microsoft Cloud App Security
+Tijdens het voorbeeld worden toegangsbesturingselementen niet afgedwongen door Microsoft 365 Defender op basis van beveiligingsinstellingen voor cloud-apps. Toegang tot Microsoft 365 Defender-gegevens wordt niet beïnvloed door deze instellingen.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-
-- [Azure AD-rollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
-- [Microsoft Defender for Endpoint RBAC](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/rbac)
-- [Rollen voor beveiliging in cloud-apps](https://docs.microsoft.com/cloud-app-security/manage-admins)
+- [Aangepaste rollen in toegangsbeheer op basis van rollen voor Microsoft 365 Defender](custom-roles.md)
+- [Azure AD-rollen](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+- [Microsoft Defender voor Endpoint RBAC](/windows/security/threat-protection/microsoft-defender-atp/rbac)
+- [Rollen voor beveiliging van cloud-apps](/cloud-app-security/manage-admins)

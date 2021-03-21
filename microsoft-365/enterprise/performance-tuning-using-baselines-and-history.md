@@ -1,5 +1,5 @@
 ---
-title: Prestaties afstemmen van Office 365 met basislijnen en prestatie geschiedenis
+title: Office 365-prestatieafstemming met behulp van basislijnen en prestatiegeschiedenis
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -22,147 +22,147 @@ ms.collection:
 - M365-security-compliance
 - Ent_O365
 - SPO_Content
-description: Meer informatie over hoe u de geschiedenis van de clientcomputer verbindingen controleert, zodat u de nieuwste problemen in de loop van de client snel kunt ontdekken.
-ms.openlocfilehash: 2337b14542f894e9a62037b2f032632147e45e09
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Lees hoe u de geschiedenis van uw clientcomputerverbindingen kunt controleren om u te helpen bij het vroegtijdig opsporen van nieuwe problemen.
+ms.openlocfilehash: 87b1d43df560fc7fea5aadfbf1c422eb22883067
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689214"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928142"
 ---
-# <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>Prestaties afstemmen van Office 365 met basislijnen en prestatie geschiedenis
+# <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>Office 365-prestatieafstemming met behulp van basislijnen en prestatiegeschiedenis
 
-Er zijn enkele eenvoudige manieren om de prestaties van de verbinding tussen Office 365 en uw bedrijf te controleren, zodat u een grove basislijn van uw verbinding kunt maken. Door de prestatie geschiedenis van de clientcomputer verbindingen op te lossen, kunt u de meest opkomende problemen vroegtijdig detecteren, identificeren en voorspellen.
+Er zijn enkele eenvoudige manieren om de verbindingsprestaties tussen Office 365 en uw bedrijf te controleren, zodat u een ruwe basislijn van uw connectiviteit kunt vaststellen. Als u de prestatiesgeschiedenis van uw clientcomputerverbindingen kent, kunt u nieuwe problemen vroegtijdig opsporen, problemen identificeren en voorspellen.
   
-Dit artikel is bedoeld om u te helpen bij het maken van een aantal veelgestelde vragen, zoals hoe u weet dat het probleem niet is opgelost en geen Office 365-service-incident is. Hoe kunt u de prestaties van een goede periode plannen? Hoe zorgt u ervoor dat u de prestaties kunt verbeteren? Als uw team of clients trage prestaties zien wanneer u Office 365 gebruikt en u zich afvraagt over een van deze vragen, lees dan verder.
+Als u niet gewend bent om aan prestatieproblemen te werken, is dit artikel ontworpen om u te helpen enkele veelvoorkomende vragen te overwegen, zoals Hoe weet u dat het probleem dat u ziet een prestatieprobleem is en niet een Office 365-service-incident? Hoe kunt u goede prestaties op lange termijn plannen? Hoe kunt u de prestaties in de gaten houden? Als uw team of klanten trage prestaties zien tijdens het gebruik van Office 365 en u zich afvraagt wat deze vragen zijn, leest u verder.
   
 > [!IMPORTANT]
-> **Hebt u nu een prestatieprobleem tussen de client en Office 365?** Voer de stappen uit die worden beschreven in het [prestatieprobleem oplossen van Office 365](performance-troubleshooting-plan.md). 
+> **Hebt u momenteel een prestatieprobleem tussen uw client en Office 365?** Volg de stappen die worden beschreven in het plan voor [prestatieproblemen voor Office 365.](performance-troubleshooting-plan.md) 
     
-## <a name="something-you-should-know-about-office-365-performance"></a>Wat u moet weten over de prestaties van Office 365
+## <a name="something-you-should-know-about-office-365-performance"></a>Iets wat u moet weten over de prestaties van Office 365
 
-Office 365 valt binnen een gespecialiseerde, gespecialiseerde, gespecialiseerde Microsoft-netwerken die niet alleen op basis van automatisering worden gecontroleerd, maar ook door echte personen. Deel van de rol van het behoud van de Office 365-wolk maakt het optimaliseren van de prestaties en het stroomlijnen. Aangezien clients van de cloud van Office 365 verbinding willen hebben via internet, is er een voortdurende inspanningen om de prestaties van Office 365-services te verfijnen. Prestatieverbeteringen worden nooit langer in de Cloud beëindigd en er is een heleboel geaccumuleerde ervaring met het behoud van de cloud in orde en snel. Als u problemen ondervindt bij het maken van de verbinding vanaf uw locatie met Office 365, kunt u het beste beginnen met een ondersteuningsaanvraag. In plaats daarvan dient u eerst te beginnen met het onderzoek van het probleem. U kunt dus in uw netwerk beginnen en verder werken naar Office 365. Voordat u een zaak opent met ondersteuning voor Office 365, kunt u gegevens verzamelen en acties ondernemen waarmee u het probleem kunt verhelpen.
+Office 365 maakt gebruik van een speciaal Microsoft-netwerk met hoge capaciteit dat niet alleen door automatisering, maar door echte personen voortdurend wordt gecontroleerd. Een deel van de rol van het onderhouden van de Office 365-cloud is het inbouwen van prestatieafstemming en stroomlijning waar dit mogelijk is. Aangezien clients van de Office 365-cloud verbinding moeten maken via internet, is er een continue inspanning om ook de prestaties in Office 365-services aan te kunnen. Prestatieverbeteringen stoppen nooit echt in de cloud en er is veel ervaring met het gezond en snel houden van de cloud. Als er een prestatieprobleem is dat vanaf uw locatie verbinding maakt met Office 365, kunt u het beste niet beginnen met en wachten op een ondersteuningscase. In plaats daarvan moet u beginnen met het onderzoeken van het probleem van 'van binnen naar buiten'. Dat wil zeggen: begin binnen uw netwerk en ga naar Office 365. Voordat u een zaak opent met Office 365-ondersteuning, kunt u gegevens verzamelen en acties ondernemen om uw probleem te verkennen en mogelijk op te lossen.
   
 > [!IMPORTANT]
-> Let op de capaciteitsplanning en limieten in Office 365. Deze informatie zet u vóór de bocht wanneer u probeert een prestatieprobleem op te lossen. Hier ziet u een koppeling naar de beschrijvingen van de [Services van Microsoft 365 en Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library). Dit is een spil hub en alle services die worden aangeboden door Office 365 hebben een koppeling die van hieruit overgaat op hun eigen service beschrijvingen. Dat betekent dat u de standaardlimieten voor SharePoint Online moet zien, bijvoorbeeld door te klikken op [Beschrijving van SharePoint Online service](https://technet.microsoft.com/library/sharepoint-online-service-description.aspx) en de [sectie limieten voor SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=856113)te zoeken. 
+> Wees op de hoogte van capaciteitsplanning en limieten in Office 365. Met deze informatie bent u voor op de curve wanneer u een prestatieprobleem probeert op te lossen. Hier is een koppeling naar de [servicebeschrijvingen van Microsoft 365 en Office 365.](/office365/servicedescriptions/office-365-service-descriptions-technet-library) Dit is een centrale hub en alle services die door Office 365 worden aangeboden, hebben een koppeling die naar hun eigen servicebeschrijvingen gaat. Dat betekent dat als u bijvoorbeeld de standaardlimieten voor SharePoint Online wilt zien, u op [SharePoint Online ServiceBeschrijving](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) klikt en de [sectie SharePoint Online-limieten zoekt.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 
   
-Zorg ervoor dat u de problemen oplost met de werking van de schuif schaal, het maakt niet uit een ideaal bedrag te bezorgen en de handmatig te onderhouden (als u van mening bent dat dit geen gevolgen heeft voor een groot aantal gebruikers of als grote gegevens migraties zeer lang zijn), dan moet u ervoor zorgen dat u de prestatie beïnvloedt. En wel, en wel, een goede indruk te hebben van de prestatiedoelstellingen, maar een groot aantal variabelen voor de prestaties is dus verschillend. Dat is de aard van de prestaties. 
+Zorg ervoor dat u de probleemoplossing doorneemt met de kennis dat prestaties een schuivende schaal zijn, dat het niet gaat om het bereiken van een ideale waarde en het permanent onderhouden ervan (als u dit denkt, zijn af en toe taken met een hoge bandbreedte, zoals het instappen van een groot aantal gebruikers of het uitvoeren van grote gegevensmigraties, erg belastend, dus plan dan de gevolgen voor de prestaties). U kunt en moet een goed idee hebben van uw prestatiedoelen, maar veel variabelen spelen in op de prestaties, dus de prestaties variëren. Dat is de aard van de prestaties. 
   
-Problemen bij het oplossen van problemen is niet te weten over het bereiken van specifieke doelstellingen en het bijhouden van deze nummers, het verbeteren van bestaande activiteiten, gegeven aan alle variabelen. 
+Prestatieproblemen gaan niet over het bereiken van specifieke doelen en het voor onbepaalde tijd behouden van deze getallen, maar het verbeteren van bestaande activiteiten, gezien alle variabelen. 
   
 ## <a name="okay-what-does-a-performance-problem-look-like"></a>Hoe ziet een prestatieprobleem eruit?
 
-U dient eerst te controleren of het probleem een prestatieprobleem is en niet een service-incident. Een prestatieprobleem is niet hetzelfde als een service-incident in Office 365. U kunt deze als volgt opzeggen.
+Eerst moet u ervoor zorgen dat wat u ondervindt inderdaad een prestatieprobleem is en niet een service-incident. Een prestatieprobleem verschilt van een service-incident in Office 365. U kunt ze als eerste van elkaar onderscheiden.
   
-Als de Office 365-serviceproblemen ondervindt, is dit een service-incident. U ziet de rode of gele pictogrammen onder **huidige status** in het microsoft 365-Beheercentrum, maar u kunt ook vertragingen in de prestaties van clientcomputers die verbinding maken met Office 365. Als u bijvoorbeeld de statusrapporten van de huidige status meldt en u **onderzoek** uitziet naast Exchange, kunt u vervolgens ook een aantal oproepen ontvangen van personen in uw organisatie die voorkomen dat Exchange Online met Exchange Online werken. In dat geval is het redelijk om te voorkomen dat de prestaties van Exchange Online het slachtoffer van problemen binnen de service werden. 
+Als de Office 365-service problemen heeft, is dat een service-incident. U ziet rode of gele pictogrammen onder Huidige status **in** het Microsoft 365-beheercentrum, mogelijk ziet u ook trage prestaties op clientcomputers die verbinding maken met Office 365. Als de huidige status bijvoorbeeld een rood  pictogram rapporteert en u Onderzoeken ziet naast Exchange, kunt u vervolgens ook een aantal oproepen ontvangen van personen in uw organisatie die klagen dat clientpostvakken die Exchange Online gebruiken, slecht presteren. In dat geval is het redelijk om aan te nemen dat uw Exchange Online-prestaties zojuist het slachtoffer zijn geworden van problemen binnen de Service. 
   
-![Het Office 365-status dashboard met alle werkbelasting in het groen, met uitzondering van Exchange, waarin service hersteld wordt weergegeven.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
+![Het Office 365 Health-dashboard met alle werkbelastingen die groen worden weergegeven, behalve Exchange, met service hersteld.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
   
-Op dit moment moet u, de Office 365-beheerder, de **huidige status** controleren en vervolgens **Details en geschiedenis**, vaak raadplegen om het onderhoud van de werkstroom te behouden. De **huidige status** dashboard werd gemaakt voor het bijwerken van de wijzigingen in en problemen in de service. De opmerkingen en uitleg die zijn geschreven naar de status geschiedenis, beheerder aan beheerder, zijn er om u te helpen uw gevolgen te meten en te zorgen dat u over lopend werk blijft. 
+Op dit moment moet u, de Office 365-beheerder, de huidige status controleren en vervolgens regelmatig details en geschiedenis weergeven om op de hoogte te blijven van het onderhoud dat we op het systeem uitvoeren.   Het **dashboard Huidige status** is gemaakt om u bij te werken over wijzigingen in en problemen in de service. De notities en uitleg die zijn geschreven naar de gezondheidsgeschiedenis, beheerder naar beheerder, zijn er om u te helpen uw impact te meten en om u op de hoogte te houden van lopende werkzaamheden. 
   
-![Een afbeelding van het Office 365-status dashboard waarin wordt uitgelegd dat de Exchange Online-service is hersteld en waarom.](../media/66609554-426a-4448-8be6-ea09817f41ba.PNG)
+![Een afbeelding van het Office 365-statusdashboard waarin wordt uitgelegd dat de Exchange Online-service is hersteld en waarom.](../media/66609554-426a-4448-8be6-ea09817f41ba.PNG)
   
-Een prestatieprobleem is geen service-incident, zelfs niet als incidenten de prestaties kunnen veroorzaken. Een prestatieprobleem ziet er als volgt uit:
+Een prestatieprobleem is geen service-incident, ook al kunnen incidenten trage prestaties veroorzaken. Een prestatieprobleem ziet er als volgende uit:
   
-- Een prestatieprobleem treedt op, ongeacht wat de **huidige status** van het Beheercentrum voor de service is. 
+- Er treedt een prestatieprobleem op, ongeacht wat het beheercentrum **Huidige status** rapporteert voor de service. 
     
--  Functies die eerder relatief naadloos werden gebruikt, duren nu erg lang en worden niet uitgevoerd. 
+-  Een gedrag dat vroeger relatief naadloos was, duurt lang voordat het is voltooid of nooit is voltooid. 
     
-- Als u de juiste reeks stappen uitvoert, kunt u het probleem ook repliceren of, ten minste.
+- U kunt het probleem ook repliceren, of u weet in ieder geval dat dit gebeurt als u de juiste reeks stappen doet.
     
--  Als het probleem zich blijft voordoen, wordt er nog steeds een patroon weergegeven, bijvoorbeeld: u weet dat er in 10:00 is dat u gesprekken voert van gebruikers die geen betrouwbare toegang hebben tot Office 365 en dat de oproepen niet langer dan 12:00 worden. 
+-  Als het probleem af en toe is, is er nog steeds een patroon, bijvoorbeeld dat u om 10:00 uur gesprekken hebt van gebruikers die geen betrouwbare toegang hebben tot Office 365 en dat de gesprekken rond 12.00 uur zullen afsterven. 
     
-Dit klinkt waarschijnlijk bekend; misschien bekend. Wanneer u weet dat het een prestatieprobleem is, wordt de vraag ' wat doet u verder? ' weergegeven? De rest van dit artikel helpt u exact te bepalen.
+Dit klinkt waarschijnlijk bekend; misschien te bekend. Zodra u weet dat het een prestatieprobleem is, wordt de vraag' Wat doet u nu? De rest van dit artikel helpt u precies dat te bepalen.
   
-## <a name="how-to-define-and-test-the-performance-problem"></a>Hoe definieert en test u een prestatieprobleem?
+## <a name="how-to-define-and-test-the-performance-problem"></a>Het prestatieprobleem definiëren en testen
 
-De prestaties zijn vaak te vaak achter de tijd, zodat u het feitelijke probleem moeilijk kunt definiëren. U moet een goed overzicht van de problemen en een goed idee van de probleem context maken en dan moet u de stappen voor het uitvoeren van tests herhalen om de dag te winnen. Anders, vanwege geen storing van uw eigen, gaat u mogelijk verloren. Waarom? Hier volgen enkele voorbeelden van probleem verklaringen die niet voldoende informatie leveren:
+Prestatieproblemen ontstaan vaak in de tijd, dus het kan lastig zijn om het werkelijke probleem te definiëren. U moet een goede probleemverklaring en een goed idee van de context van problemen maken, en vervolgens moet u herhaalbare teststappen uitvoeren om de dag te winnen. Anders gaat u mogelijk verloren zonder uw eigen schuld. Waarom? Hier zijn enkele voorbeelden van problemen die onvoldoende informatie bevatten:
   
-- Overstappen van mijn postvak in op mijn agenda werd gebruikt om iets te doen dat ik niet heb opgemerkt, en het is nu een koffie-einde. Kunt u ervoor zorgen dat de toepassing op de gebruikte manier functioneert?
+- Het overstappen van mijn Postvak IN naar mijn agenda was iets wat ik niet heb gezien en nu is het een koffiepauze. Kunt u ervoor zorgen dat het zich zo gedragen als vroeger?
     
-- Het uploaden van mijn bestanden naar SharePoint Online duurt altijd. Waarom is de middag traag, maar nog steeds snel? Is het niet zo snel?
+- Het uploaden van mijn bestanden naar SharePoint Online duurt een eeuwigheid. Waarom is het traag in de middag, maar een andere keer is het snel? Kan het niet gewoon snel zijn?
     
-De hierboven genoemde probleem verklaringen vormen diverse grote uitdagingen. Met name is er een groot aantal ambiguïteiten waarop u kunt handelen. voorbeeld:
+De bovenstaande probleemverklaringen bieden verschillende grote uitdagingen. Er zijn met name veel dubbelzinnigheden om mee om te gaan. bijvoorbeeld:
   
-- Het is niet duidelijk hoe het schakelen tussen het postvak in en de agenda die wordt gebruikt om op de laptop te reageren.
+- Het is niet duidelijk hoe het schakelen tussen Postvak IN en Agenda op de laptop werkt.
     
-- Als de gebruiker zegt: "kan het niet snel snel zijn", wat is dan "snel"?
+- Wanneer de gebruiker zegt: 'Kan het niet gewoon snel zijn', wat is 'snel'?
     
-- Hoe lang is ' permanent '? Is er enkele seconden of minuten, of kan de gebruiker tien minuten nadat de gebruiker weer is geworden, voltooien.
+- Hoe lang is 'voor altijd'? Is dat enkele seconden of minuten, of kan de gebruiker gaan lunchen en wordt deze tien minuten nadat de gebruiker terug is, klaar?
     
-Dit houdt in dat de beheerder en de probleemoplosser niet op de hoogte zijn van een groot aantal informatie van probleem overzichten zoals deze. Als het probleem zich bijvoorbeeld voordoet, Of de gebruiker werkt vanaf thuis en ziet maar ooit overstappen op een thuisnetwerk. De gebruiker moet meerdere andere geheugenintensieve toepassingen op de lokale client uitvoeren, of de gebruiker voert een ouder besturingssysteem uit of geen recente updates uit.
+Dit alles zonder rekening te houden met het feit dat de beheerder en probleemoplosser niet op de hoogte kunnen zijn van veel details uit probleemverklaringen zoals deze. Bijvoorbeeld wanneer het probleem zich voordeed. Dat de gebruiker thuis werkt en alleen maar langzaam ziet schakelen terwijl hij of zij een thuisnetwerk gebruikt. Dat de gebruiker meerdere andere RAM-intensieve toepassingen moet uitvoeren op de lokale client, of dat de gebruiker een ouder besturingssysteem gebruikt of geen recente updates heeft uitgevoerd.
   
-Wanneer gebruikers een prestatieprobleem rapporteren, zijn er veel gegevens om te verzamelen. Het verzamelen van deze gegevens maakt deel uit van het proces dat de naam van het probleem aanroept of het onderzoek doet. Hieronder ziet u een eenvoudige lijst met scopes die u kunt gebruiken om informatie te verzamelen over uw prestatieprobleem. Deze lijst is niet volledig, maar het is een plek waar u een van uw eigen kunt beginnen: 
+Wanneer gebruikers een prestatieprobleem melden, moet er veel informatie worden verzameld. Het verzamelen van deze gegevens maakt deel uit van een proces dat scoping van het probleem wordt genoemd, of het onderzoeken ervan. Het volgende is een eenvoudige scopinglijst die u kunt gebruiken om informatie over uw prestatieprobleem te verzamelen. Deze lijst is niet volledig, maar het is een plek om een eigen lijst te starten: 
   
-- Op welke datum is het probleem opgetreden en op welk tijdstip van de dag of 's nachts?
+- Op welke datum is het probleem gebeurd en rond welk tijdstip van de dag of nacht?
     
-- Welk type clientcomputer gebruikt u en hoe maakt u verbinding met het bedrijfsnetwerk (VPN, bedraad, draadloos)?
+- Welk type clientcomputer gebruikte u en hoe maakt deze verbinding met het zakelijke netwerk (VPN, Wired, Wireless)?
     
 - Werkte u op afstand of was u op kantoor?
     
-- Hebt u dezelfde acties op een andere computer uitgevoerd en hetzelfde gedrag weergegeven?
+- Hebt u dezelfde acties op een andere computer geprobeerd en hetzelfde gedrag gezien?
     
-- Doorloop de stappen die de problemen veroorzaken, zodat u de ingevoerde acties kunt schrijven.
+- Doorloop de stappen die u de problemen geven, zodat u de acties kunt schrijven die u hebt genomen.
     
-- Hoe lang duurt de vertraging (in seconden of minuten)?
+- Hoe traag zijn de prestaties in seconden of minuten?
     
 - Waar ter wereld bevindt u zich?
     
-Sommige vragen zijn duidelijker dan andere vragen. De meeste iedereen begrijpt inzicht in de juiste stappen om het probleem te reproduceren. Vervolgens kunt u nog meer op de gewenste manier vastleggen wat er mis is en hoe u nog meer kunt testen of het probleem is opgelost? Minder duidelijk: wat voor datum en tijd hebt u het probleem zien? "en" waar ter wereld u zich bevindt? ", informatie die u overal kunt gebruiken. Afhankelijk van het moment dat de gebruiker werkte, kan het onderhoud een paar uur lang duren voordelen van het netwerk van uw bedrijf. Als uw bedrijf bijvoorbeeld een hybride implementatie heeft, zoals een hybride SharePoint-zoektoepassing waarmee zoekindexen kunnen worden gezocht in zowel SharePoint Online als een on-premises SharePoint Server-exemplaar van 2013, zijn er mogelijk updates beschikbaar in de on-premises farm. Als uw bedrijf in de Cloud staat, kan systeemonderhoud gebruikmaken van netwerkhardware, het implementeren van updates die in het hele bedrijf zijn, of het aanbrengen van wijzigingen in DNS of andere basisinfrastructuur.
+Sommige van deze vragen zijn duidelijker dan andere. De meeste mensen begrijpen dat een probleemoplosser de exacte stappen nodig heeft om het probleem te reproduceren. Hoe kunt u anders opnemen wat er mis is en hoe kunt u anders testen of het probleem is opgelost? Minder voor de hand liggend zijn dingen als 'Welke datum en tijd hebt u het probleem gezien?' en 'Waar ter wereld bevindt u zich?', informatie die u kunt gebruiken in combinatie. Afhankelijk van wanneer de gebruiker aan het werk was, kan een paar uur tijdverschil betekenen dat er al onderhoud wordt gedaan aan delen van het netwerk van uw bedrijf. Als uw bedrijf bijvoorbeeld een hybride implementatie heeft, zoals een hybride SharePoint Search, waarmee zoekopdrachten in zowel SharePoint Online als een on-premises SharePoint Server 2013-exemplaar kunnen worden opgevraagd, worden er mogelijk updates uitgevoerd in de on-premises farm. Als uw bedrijf allemaal in de cloud is, kan systeemonderhoud bestaan uit het toevoegen of verwijderen van netwerkhardware, het uitrollen van updates die voor het hele bedrijf zijn, of het aanbrengen van wijzigingen in DNS of andere kerninfrastructuur.
   
-Als u problemen ondervindt bij het oplossen van problemen, moet u een goede en observant om de conclusies van het bewijs te tekenen. U kunt dit alleen doen als u een goed overzicht van de problemen met het verzamelen van bewijsmateriaal ontvangt. De computer context moet de context van de computer bevatten, de context van de gebruiker, wanneer het probleem is begonnen, en de exacte stappen die het prestatieprobleem hebben veroorzaakt. Dit probleem kan worden opgelost en de bovenste pagina in uw notities bewaard blijft. Door de foutmelding weer te geven nadat u aan de oplossing hebt gewerkt, voert u de stappen uit die u moet uitvoeren om te controleren of de acties die u uitvoert het probleem hebben opgelost. Dit is belangrijk om te weten wanneer uw werk, daar, klaar is.
+Wanneer u een prestatieprobleem oplost, lijkt het een beetje op een plaats delict. U moet nauwkeurig en oplettend zijn om conclusies te trekken uit het bewijs. Hiervoor moet u een goede probleemverklaring krijgen door bewijs te verzamelen. Het moet de context van de computer, de context van de gebruiker, het begin van het probleem en de exacte stappen bevatten die het prestatieprobleem hebben blootgelegd. Deze probleemverklaring moet de bovenste pagina in uw notities zijn en blijven. Door de probleemverklaring opnieuw te doorlopen nadat u aan de oplossing hebt gewerkt, neemt u de stappen om te testen en te bewijzen of de acties die u ondernomen hebt het probleem hebben opgelost. Dit is essentieel om te weten wanneer uw werk, daar, klaar is.
   
-## <a name="do-you-know-how-performance-used-to-look-when-it-was-good"></a>Weet u wat de prestaties waren wanneer een goede werking werd gekeken?
+## <a name="do-you-know-how-performance-used-to-look-when-it-was-good"></a>Weet u hoe de prestaties er vroeger uit zien als deze goed waren?
 
-Als u unlucky hebt, weet niemand. Niemand heeft getallen. Dat betekent dat niemand de eenvoudige vraag kan beantwoorden, wat het kost om een postvak in Office 365 in Office? ' of ' hoe lang het duurt voordat de leidinggevenden een Lync online-vergadering hadden? ', wat een veelvoorkomend scenario is voor veel bedrijven.
+Als u pech hebt, weet niemand het. Niemand had getallen. Dat betekent dat niemand de eenvoudige vraag 'Hoeveel seconden heeft het gebruikt om een Postvak IN in Office 365 weer te geven', of 'Hoe lang heeft het gebruikt om te beantwoorden wanneer de leidinggevenden een Lync Online-vergadering hebben gehad?', wat een veelvoorkomende scenario is voor veel bedrijven.
   
-Wat hier ontbreekt is een basislijn voor prestaties.
+Wat hier ontbreekt, is een basislijn voor prestaties.
   
-Met basislijnen beschikt u over een context voor uw prestaties. Afhankelijk van de behoeften van uw bedrijf moet u de basislijn regelmatig instellen. Als u een groter bedrijf bent, kunnen uw activiteiten team al basislijnen maken voor uw on-premises omgeving. Als u bijvoorbeeld alle Exchange-servers op de eerste maandag van de maand, en al uw SharePoint-servers op de derde maandag bijwerkt, bevat uw activiteiten team waarschijnlijk een lijst met taken en scenario's waarin de post-patch wordt uitgevoerd om te bewijzen dat de kritieke functies operationeel zijn. U kunt bijvoorbeeld het postvak in openen, op verzenden/ontvangen klikken en ervoor zorgen dat de mappen worden bijgewerkt, of, in SharePoint, doorbladeren op de hoofdpagina van de site, naar de pagina Enterprise Search gaan en een zoekopdracht uitvoeren om resultaten te retourneren.
+Basislijnen geven u een context voor uw prestaties. U moet af en toe een basislijn nemen om regelmatig te werken, afhankelijk van de behoeften van uw bedrijf. Als u een groter bedrijf bent, kan uw Operations-team al basislijnen voor uw on-premises omgeving maken. Als u bijvoorbeeld alle Exchange-servers patcht op de eerste maandag van de maand en al uw SharePoint-servers op de derde maandag, heeft uw Operations-team waarschijnlijk een lijst met taken en scenario's die na het patchen worden uitgevoerd, om te bewijzen dat kritieke functies operationeel zijn. U opent bijvoorbeeld het Postvak IN, klikt op Verzenden/ontvangen en zorgt ervoor dat de mappen worden bijgewerkt, of bladert in SharePoint op de hoofdpagina van de site, gaat naar de pagina Zoeken in het bedrijf en doet een zoekopdracht die resultaten oplevert.
   
-Als uw toepassingen deel uitmaken van Office 365, kunt u een aantal van de belangrijkste basislijnen voor het meten van de tijd (in milliseconden) van de clientcomputer in uw netwerk, een uitgangspunt of het punt waar u het netwerk verlaten en naar Office 365 gaan. Hier volgen een aantal handige basislijnen die u kunt onderzoeken en opnemen:
+Als uw toepassingen zich in Office 365, enkele van de meest fundamentele basislijnen kunt u de tijd (in milliseconden) meten vanaf een clientcomputer in uw netwerk, naar een uitgangspunt of het punt waar u uw netwerk verlaat en naar Office 365 gaan. Hier vindt u enkele handige basislijnen die u kunt onderzoeken en opnemen:
   
-- Identificeer de apparaten tussen de clientcomputer en het uitgangspunt, bijvoorbeeld uw proxyserver.
+- Identificeer de apparaten tussen uw clientcomputer en het uitgangspunt, bijvoorbeeld uw proxyserver.
     
-  - U moet uw apparaten kennen, zodat u een context hebt (IP-adressen, type apparaat, et enzovoort tot) voor de prestatieproblemen die zich voordoen.
+  - U moet uw apparaten kennen, zodat u context (IP-adressen, type apparaat, enzovoort) hebt voor prestatieproblemen die zich voordoen.
     
-  - Proxy servers zijn algemene uitgangspunten, dus kijk in uw browser welke proxyserver er is ingesteld om te worden gebruikt, indien van toepassing.
+  - Proxyservers zijn veelvoorkomende uitgangspunten, dus u kunt uw webbrowser controleren om te zien welke proxyserver deze kan gebruiken, indien van toepassing.
     
-  - Er bestaan hulpprogramma's van derden waarmee u uw netwerk kunt vaststellen en in kaart brengen, maar u kunt het beste vragen aan een lid van uw netwerkteam.
+  - Er zijn hulpprogramma's van derden die uw netwerk kunnen ontdekken en in kaart kunnen brengen, maar de veiligste manier om uw apparaten te kennen, is door een lid van uw netwerkteam te vragen.
     
-- Neem contact op met uw internetprovider (ISP), noteer de contactgegevens en vraag hoeveel circuits hoeveel bandbreedte u hebt.
+- Identificeer uw internetprovider (internetprovider), schrijf de contactgegevens op en vraag hoeveel circuits u hebt.
     
-- Identificeer binnen uw bedrijf de resources tussen de client en het uitgangspunt, of zoek een contactpersoon voor noodgevallen met wie u over netwerkproblemen kunt praten.
+- Identificeer binnen uw bedrijf resources voor de apparaten tussen uw client en het uitgangspunt of identificeer een contactpersoon voor noodgevallen om mee te praten over netwerkproblemen.
     
-Hier volgen enkele basislijnen die eenvoudig testen met hulpprogramma's voor u kunnen worden berekend:
+Hier zijn enkele basislijnen die u kunt berekenen met eenvoudige tests met hulpprogramma's:
   
-- Tijd van de clientcomputer naar uw uitgangspunt (in milliseconden)
+- Tijd van uw clientcomputer naar het uitgangspunt in milliseconden
     
 - Tijd van uw uitgangspunt naar Office 365 in milliseconden
     
-- Locatie in de wereld van de server die de URL'S voor Office 365 oplost wanneer u bladert
+- Locatie in de wereld van de server die de URL's voor Office 365 opsleet wanneer u bladert
     
-- De snelheid van de DNS-resolutie van uw INTERNETPROVIDER in milliseconden, inconsistentie van pakket ontvangst (netwerk-jitter), uploaden en downloaden van milliseconden
+- De snelheid van de DNS-resolutie van uw internetprovider in milliseconden, inconsistenties in de ontvangst van pakketten (netwerk jitter), upload- en downloadtijden in milliseconden
     
-Als u niet weet hoe u deze stappen moet uitvoeren, gaat u naar meer informatie in dit artikel. 
+Als u niet bekend bent met het uitvoeren van deze stappen, gaan we verder met meer informatie in dit artikel. 
   
 ## <a name="what-is-a-baseline"></a>Wat is een basislijn?
 
-U weet wat de gevolgen zijn wanneer het slecht is, maar als u de historische prestatiegegevens niet weet, is het niet mogelijk om een context te hebben voor de manier waarop de fout is opgegroeid en wanneer. Dus als u geen basislijn hebt, mist u de belangrijkste aanwijzingen om de puzzel op te lossen: de afbeelding in het vak puzzel. Voor het oplossen van prestaties hebt u een  *vergelijkings*  punt nodig. Eenvoudige basislijnen voor de prestaties zijn niet moeilijk te ondernemen. U kunt een operationeel team met een planning maken. Stel dat uw verbinding er bijvoorbeeld zo uitziet: 
+U weet wat de gevolgen zijn wanneer het fout gaat, maar als u uw historische prestatiegegevens niet kent, is het niet mogelijk om een context te hebben voor hoe slecht het kan zijn geworden en wanneer. Dus zonder basislijn ontbreekt de belangrijkste aanwijzing om de puzzel op te lossen: de afbeelding in het puzzelvak. Bij prestatieproblemen hebt u een *vergelijkingspunt nodig.* Eenvoudige basislijnen voor prestaties zijn niet moeilijk te nemen. Uw Operations-team kan worden belast met het uitvoeren van deze taken volgens een planning. Stel dat uw verbinding er zo uitziet: 
   
-![Een afbeelding van een basisnetwerk met client, proxy en Office 365 Cloud.](../media/c6ca7140-09f9-4c2d-a775-dbf2820eaa0c.PNG)
+![Een eenvoudige netwerkafbeelding met client, proxy en Office 365-cloud.](../media/c6ca7140-09f9-4c2d-a775-dbf2820eaa0c.PNG)
   
-Dat betekent dat u bij uw netwerkteam hebt gekeken en dat u uw bedrijf voor het Internet verlaat via een proxyserver, en dat de proxy zorgt voor alle verzoeken waarop de clientcomputer naar de Cloud wordt verzonden. In dit geval moet u een vereenvoudigde versie van de verbinding tekenen met alle tussenliggende apparaten. Voeg nu hulpmiddelen voor invoegen die u kunt gebruiken om de prestaties van de client te testen, het uitgangspunt (waar u het netwerk voor Internet gebruikt) en de Office 365-wolk.
+Dat betekent dat u hebt gecontroleerd bij uw netwerkteam en hebt ontdekt dat u uw bedrijf voor internet verlaat via een proxyserver en dat deze proxy alle aanvragen verwerkt die uw clientcomputer naar de cloud verzendt. In dit geval moet u een vereenvoudigde versie van uw verbinding tekenen waarin alle tussenliggende apparaten worden vermeld. Voeg nu hulpprogramma's in die u kunt gebruiken om de prestaties te testen tussen de client, het uitgangspunt (waar u uw netwerk verlaat voor internet) en de Office 365-cloud.
   
-![Basisnetwerk met client, proxy en Cloud, suggesties voor PSPing, TraceTCP en netwerk traceringen.](../media/627bfb77-abf7-4ef1-bbe8-7f8cbe48e1d2.png)
+![Basic network with client, proxy, and cloud, and tools suggestions PSPing, TraceTCP, and network traces.](../media/627bfb77-abf7-4ef1-bbe8-7f8cbe48e1d2.png)
   
-De opties zijn **eenvoudig** en **Geavanceerd** , vanwege de hoeveelheid expertise die u nodig hebt om de prestatiegegevens te vinden. Een netwerktracering kan veel tijd in beslag nemen, vergeleken met actieve opdrachtregelprogramma's, zoals PsPing en TraceTCP. Deze twee opdrachtregelprogramma's zijn gekozen omdat ze geen ICMP-pakketten gebruiken, die worden geblokkeerd door Office 365 en omdat ze de tijd in milliseconden aangeven dat het duurt voordat de clientcomputer of proxyserver overblijft (als u toegang hebt) en arriveert bij Office 365. Elke afzonderlijke hop van de ene computer naar een andere, eindigt met een tijdwaarde en dat is uitstekend voor basislijnen. Op deze manier kunt u op deze manier een poortnummer toevoegen aan de opdracht door in Office 365 via poort 443 door Office te communiceren, dat wil zeggen de gebruikte poort van Secure Sockets Layer en Transport Layer Security (SSL en TLS). Andere hulpprogramma's van derden kunnen echter betere oplossingen zijn voor uw situatie. Microsoft biedt geen ondersteuning voor al deze hulpmiddelen, dus als u om wat voor reden dan ook geen PsPing-en TraceTCP-werk kunt doen, gaat u naar een netwerktracering met een programma zoals Netmon. 
+De opties worden weergegeven als **Eenvoudig** en Geavanceerd **vanwege** de hoeveelheid expertise die u nodig hebt om de prestatiegegevens te vinden. Een netwerkspoor neemt veel tijd in vergelijking met het uitvoeren van opdrachtregelhulpmiddelen zoals PsPing en TraceTCP. Deze twee opdrachtregelhulpmiddelen zijn gekozen omdat ze geen ICMP-pakketten gebruiken, die worden geblokkeerd door Office 365, en omdat ze de tijd in milliseconden geven die nodig zijn om de clientcomputer of proxyserver te verlaten (als u toegang hebt) en bij Office 365 te komen. Elke afzonderlijke hop van de ene naar de andere computer krijgt een tijdswaarde en dat is heel goed voor basislijnen. Net zo belangrijk is dat u met deze opdrachtregelhulpmiddelen een poortnummer aan de opdracht kunt toevoegen, dit is handig omdat Office 365 communiceert via poort 443, de poort die wordt gebruikt door Secure Sockets Layer en Transport Layer Security (SSL en TLS). Andere hulpprogramma's van derden kunnen echter betere oplossingen zijn voor uw situatie. Microsoft biedt geen ondersteuning voor al deze hulpprogramma's, dus als psPing en TraceTCP om de een of andere reden niet werken, gaat u verder met een netwerkspoor met een hulpprogramma zoals Netmon. 
   
-U kunt een basislijn vóór kantooruren, opnieuw tijdens een intensief gebruik, en daarna weer na uur weer doen. Dat betekent dat u mogelijk een mapstructuur ziet die er ongeveer zo uitziet als die in het einde:
+U kunt een basislijn maken vóór werkuren, opnieuw tijdens intensief gebruik en daarna opnieuw na uren. Dit betekent dat u mogelijk een mapstructuur hebt die er op het einde een beetje zo uitziet:
   
-![Afbeelding van een manier om prestatiegegevens in mappen te ordenen.](../media/13e01ffa-f0f2-4d10-b89d-d5980ec89fae.png)
+![Afbeelding die een manier voorstelt om uw prestatiegegevens in te delen in mappen.](../media/13e01ffa-f0f2-4d10-b89d-d5980ec89fae.png)
   
-U dient ook een naamconventie te kiezen voor uw bestanden. Dit zijn enkele voorbeelden:
+Kies ook een naamgevingsconventie voor uw bestanden. Dit zijn enkele voorbeelden:
   
 - Feb_09_2015_9amPST_PerfBaseline_Netmon_ClientToEgress_Normal
     
@@ -172,84 +172,84 @@ U dient ook een naamconventie te kiezen voor uw bestanden. Dit zijn enkele voorb
     
 - Feb_08_2015_8-30amEST_PerfBaseline_GoodPerf
     
-U kunt dit op tal van verschillende manieren doen, maar het gebruik van de notatie **\<dateTime\>\<what's happening in the test\>** is een goede plek om te beginnen. Dit helpt een heleboel wanneer u later problemen probeert op te lossen. Later kunt u zeggen dat ik twee sporen heb gemaakt op 8 februari, één vertoont een goede prestaties en een vertoonde fout, zodat we ze kunnen vergelijken. Dit is een zeer handige oplossing voor het oplossen van problemen. 
+Er zijn veel verschillende manieren om dit te doen, maar het gebruik van de indeling **\<dateTime\>\<what's happening in the test\>** is een goede plek om te beginnen. Als u hier zorgvuldig mee bezig bent, helpt dit veel wanneer u problemen later probeert op te lossen. Later kunt u zeggen: 'Ik heb twee sporen op 8 februari, een goede prestatie en een slecht resultaat, zodat we ze kunnen vergelijken'. Dit is zeer handig voor het oplossen van problemen. 
   
-U moet een georganiseerde manier hebben om uw historische basislijnen te behouden. In dit voorbeeld zijn de eenvoudige methoden met drie opdrachtregels-uitvoer en de resultaten als schermafbeeldingen verzameld, maar mogelijk hebt u in plaats daarvan een netwerk opnamebestanden gemaakt. Gebruik de methode die het meest geschikt is voor u. Sla uw historische basislijnen op en vermeld ze op punten waar u de wijzigingen aanbrengt in de werking van Online Services. 
+U moet een georganiseerde manier hebben om uw historische basislijnen te behouden. In dit voorbeeld hebben de eenvoudige methoden drie opdrachtregeluitvoeren geproduceerd en zijn de resultaten verzameld als schermafbeeldingen, maar in plaats daarvan hebt u mogelijk netwerkopnamebestanden. Gebruik de methode die het beste voor u werkt. Sla uw historische basislijnen op en raadpleeg deze op punten waar u wijzigingen ziet in het gedrag van onlineservices. 
   
-## <a name="why-collect-performance-data-during-a-pilot"></a>Waarom zou u prestatiegegevens verzamelen tijdens een testfase?
+## <a name="why-collect-performance-data-during-a-pilot"></a>Waarom prestatiegegevens verzamelen tijdens een pilot?
 
-U kunt geen basislijnen meer maken dan tijdens een pilot van de Office 365-service. Uw Office kan duizenden gebruikers, honderden duizenden gebruikers of vijf, maar zelfs met een klein aantal gebruikers, kunt u testen uitvoeren om fluctuaties in prestaties te meten. In het geval van een groot bedrijf kan een representatieve steekproef van verschillende honderd gebruikers die Office 365 testen, naar buiten geprojecteerd worden, zodat u weet waar de problemen zich voordoen.
+Er is geen betere tijd om basislijnen te maken dan tijdens een pilot van de Office 365-service. Uw kantoor kan duizenden gebruikers, honderdduizenden of vijf gebruikers hebben, maar zelfs met een klein aantal gebruikers kunt u tests uitvoeren om schommelingen in prestaties te meten. In het geval van een groot bedrijf kan een representatieve steekproef van enkele honderden gebruikers die Office 365 besturen, naar buiten worden geprojecteerd op enkele duizenden, zodat u weet waar problemen kunnen optreden voordat ze optreden.
   
-In het geval van een klein bedrijf waarbij aan boord wordt aangegeven dat alle gebruikers tegelijk naar de service gaan en dat er geen pilot is, behoud de prestatie maatregelen zodat u de gegevens kunt weergeven aan iedereen die mogelijk problemen heeft met een verkeerd uitvoeren van de werkstroom. Als u bijvoorbeeld merkt dat u het gebouw in de loop van de tijd kunt omlopen wanneer het gaat om een middelgrote afbeelding te uploaden, zodat de afbeelding zeer snel verloopt.
+In het geval van een klein bedrijf, waarbij instappen betekent dat alle gebruikers tegelijk naar de service gaan en er geen pilot is, moet u prestatie-metingen houden, zodat u gegevens hebt om aan iedereen weer te geven die mogelijk een slecht presterende bewerking moet oplossen. Als u bijvoorbeeld merkt dat u plotseling door uw gebouw kunt lopen in de tijd die nodig is om een middelgrote afbeelding te uploaden, waar dit vroeger heel snel gebeurde.
   
 ## <a name="how-to-collect-baselines"></a>Basislijnen verzamelen
 
-Voor alle plannen voor het oplossen van problemen moet u het volgende doen:
+Voor alle probleemoplossingsplannen moet u deze dingen minimaal identificeren:
   
 - De clientcomputer die u gebruikt (het type computer of apparaat, een IP-adres en de acties die het probleem hebben veroorzaakt)
     
-- Waarbij de clientcomputer zich bevindt in de wereld (bijvoorbeeld of deze gebruiker met een VPN-verbinding op het netwerk, extern of via het bedrijfsintranet werkt)
+- Waar de clientcomputer zich in de wereld bevindt (bijvoorbeeld of deze gebruiker een VPN gebruikt voor het netwerk, op afstand werkt of op het bedrijfs intranet)
     
-- Het uitgangspunt dat door de clientcomputer wordt gebruikt vanuit uw netwerk (het punt waarop verkeer uw bedrijf verlaat voor een INTERNETPROVIDER of Internet)
+- Het uitgangspunt dat de clientcomputer gebruikt vanuit uw netwerk (het punt waarop het verkeer uw bedrijf verlaat voor een internetprovider of internet)
     
- U kunt de indeling van uw netwerk achterhalen via de netwerkbeheerder. Als u een klein netwerk gebruikt, kijk dan eens naar de apparaten die u verbindt met internet en neem contact op met uw INTERNETPROVIDER als u vragen hebt over de lay-out. Maak een afbeelding van de uiteindelijke indeling voor uw verwijzing. 
+ U kunt de indeling van uw netwerk vinden via de netwerkbeheerder. Als u een klein netwerk hebt, bekijkt u de apparaten die u verbinden met internet en belt u uw internetprovider als u vragen hebt over de indeling. Maak een afbeelding van de uiteindelijke indeling voor uw verwijzing. 
   
-Deze sectie is opgetreden in eenvoudige opdrachtregelprogramma's en-methoden, en meer geavanceerde extra opties. We bieden eerst eenvoudige methoden aan. Als u nu een prestatieprobleem hebt, moet u op geavanceerde methoden overstappen en de voorbeelden van het gebruik van de programmeer kwaliteit oplossen.
+Deze sectie is onderverdeeld in eenvoudige opdrachtregelhulpmiddelen en -methoden en meer geavanceerde hulpmiddelenopties. We behandelen eerst eenvoudige methoden. Maar als u op dit moment een prestatieprobleem hebt, moet u naar geavanceerde methoden gaan en het voorbeeld van het actieplan voor prestatieproblemen uitproberen.
   
 ### <a name="simple-methods"></a>Eenvoudige methoden
 
-Het doel van deze eenvoudige methoden is om te leren hoe u eenvoudige onderhoudskosten in de loop van de tijd maakt, begrijpt en juist opslaat, zodat u op de hoogte wordt gesteld van de prestaties van Office 365. Dit is een eenvoudig diagram voor eenvoudige functies, zoals u dit eerder hebt gezien:
+Het doel van deze eenvoudige methoden is om eenvoudige prestatielijnlijnen in de tijd op te nemen, te begrijpen en correct op te slaan, zodat u op de hoogte bent van de prestaties van Office 365. Hier is het eenvoudige diagram voor eenvoudig, zoals u eerder hebt gezien:
   
-![Basisnetwerk met client, proxy en Cloud, suggesties voor PSPing, TraceTCP en netwerk traceringen.](../media/627bfb77-abf7-4ef1-bbe8-7f8cbe48e1d2.png)
+![Basic network with client, proxy, and cloud, and tools suggestions PSPing, TraceTCP, and network traces.](../media/627bfb77-abf7-4ef1-bbe8-7f8cbe48e1d2.png)
   
 > [!NOTE]
-> TraceTCP is opgenomen in deze schermafbeelding omdat dit een handig hulpmiddel is voor het weergeven van de hoeveelheid tijd die nodig is voor het verwerken van een aanvraag en hoeveel netwerk hops of verbindingen van de ene computer naar de volgende gaan, dat de aanvraag een bestemming bereikt. Met TraceTCP kunt u ook de namen opgeven van servers die worden gebruikt tijdens de hops en die handig kunnen zijn voor een probleem met Microsoft Office 365 in de ondersteuning. > TraceTCP-opdrachten kunnen heel eenvoudig zijn, bijvoorbeeld: >  `tracetcp.exe outlook.office365.com:443`> vergeet het poortnummer in de opdracht op te nemen. > [TraceTCP](https://simulatedsimian.github.io/tracetcp_download.html) is gratis te downloaden, maar is afhankelijk van Wincap. Wincap is een tool dat ook wordt gebruikt en geïnstalleerd door Netmon. U kunt netmon ook gebruiken in de sectie Geavanceerde methoden. 
+> TraceTCP is opgenomen in deze schermafbeelding, omdat het een handig hulpmiddel is om in milliseconden weer te geven hoe lang een aanvraag duurt om te verwerken, en hoeveel netwerkhops of verbindingen van de ene computer naar de volgende, die de aanvraag nodig heeft om een bestemming te bereiken. TraceTCP kan ook de namen geven van servers die tijdens hops worden gebruikt, wat handig kan zijn voor een Microsoft Office 365-probleemoplosser in ondersteuning. > TraceTCP-opdrachten kunnen heel eenvoudig zijn, zoals: >> Vergeet niet om het poortnummer in de opdracht  `tracetcp.exe outlook.office365.com:443` op te nemen! > [TraceTCP](https://simulatedsimian.github.io/tracetcp_download.html) is een gratis download, maar is afhankelijk van Wincap. Wincap is een hulpprogramma dat ook wordt gebruikt en geïnstalleerd door Netmon. We gebruiken Netmon ook in de sectie Geavanceerde methoden. 
   
- Als u meerdere kantoren hebt, moet u ook op elk van deze locaties een set gegevens van een client bewaren. Met deze test wordt de latentie gemeten, wat in dit geval een waarde is die het aantal seconden aangeeft tussen een client die een aanvraag verzendt naar Office 365 en Office 365 op de aanvraag reageert. De test bevindt zich op een clientcomputer en ziet een afronding binnen uw netwerk, vanaf een uitgangspunt, via internet naar Office 365 en terug. 
+ Als u meerdere kantoren hebt, moet u ook op elk van deze locaties een set gegevens van een client bewaren. Deze test meet de latentie, die in dit geval een getalwaarde is die de tijd beschrijft tussen een client die een aanvraag naar Office 365 verstuurt en Office 365 die op de aanvraag reageert. Het testen vindt zijn oorsprong in uw domein op een clientcomputer en er wordt ernaar geopt om een retourreis te meten vanuit uw netwerk, via een uitgangspunt, via internet naar Office 365 en terug. 
   
-U kunt op een aantal manieren omgaan met het uitgangspunt, in dit geval de proxyserver. U kunt een waarde opgeven van 1 naar 2 en vervolgens 2 tot 3, en de getallen in milliseconden optellen om het uiteindelijke totaal van de rand van het netwerk te bepalen. U kunt ook de verbinding configureren om de proxy voor Office 365-adressen over te slaan. In een groter netwerk met een firewall, omgekeerde proxy of een combinatie van beide, moet u mogelijk een uitzondering op de proxyserver maken waarmee verkeer wordt toegestaan voor veel Url's. Zie [url's en IP-](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)adresbereiken voor Office 365 voor de lijst met eindpunten die worden gebruikt door Office 365. Als u een verificatie proxy hebt, moet u eerst uitzonderingen testen voor de volgende bewerkingen:
+Er zijn een paar manieren om met het uitgangspunt om te gaan, in dit geval de proxyserver. U kunt van 1 naar 2 en vervolgens 2 tot 3 traceren en vervolgens de getallen in milliseconden toevoegen om een definitief totaal te krijgen aan de rand van uw netwerk. U kunt de verbinding ook zo configureren dat de proxy voor Office 365-adressen wordt overgeslagen. In een groter netwerk met een firewall, reverse proxy of een combinatie van de twee moet u mogelijk uitzonderingen maken op de proxyserver, waardoor het verkeer voor veel URL's kan worden doorgelaten. Zie URL's en IP-adresbereiken van Office 365 voor de lijst met eindpunten die door [Office 365 worden gebruikt.](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) Als u een authenticerende proxy hebt, begint u met het testen van uitzonderingen voor het volgende:
   
 - Poorten 80 en 443
     
-- TCP en HTTPs
+- TCP- en HTTP's
     
-- Uitgaande verbindingen naar een van deze Url's:
+- Verbindingen die uitgaand zijn van een van deze URL's:
     
-- \*. microsoftonline.com
+- \*.microsoftonline.com
     
-- \*. microsoftonline-p.com
+- \*.microsoftonline-p.com
     
-- \*. sharepoint.com
+- \*.sharepoint.com
     
-- \*. outlook.com
+- \*.outlook.com
     
-- \*. lync.com
+- \*.lync.com
     
 - osub.microsoft.com
     
-Alle gebruikers moeten gemachtigd zijn om toegang te krijgen tot deze adressen, zonder proxy storing of verificatie. In een kleiner netwerk moet u deze toevoegen aan de lijst met genegeerde proxy's in uw webbrowser. 
+Alle gebruikers moeten toegang hebben tot deze adressen zonder tussenkomst van proxy's of verificatie. Op een kleiner netwerk moet u deze toevoegen aan de lijst met proxy-bypasss in uw webbrowser. 
   
-Als u deze wilt toevoegen aan de lijst met negeren van de proxy in Internet Explorer, gaat u naar **extra** \> **Internet opties** \> **verbindingen** \> **LAN-instellingen** \> **uitgebreid**. Op het tabblad Geavanceerd kunt u ook de poort van de proxyserver en de proxyserver vinden. Mogelijk moet u op het selectievakje klikken om **een proxyserver voor het LAN-netwerk te gebruiken voor**toegang tot de knop **Geavanceerd** . Zorg ervoor dat **proxyserver negeren voor lokale adressen** is ingeschakeld. Wanneer u op **Geavanceerd**klikt, ziet u een tekstvak waarin u uitzonderingen kunt invoeren. Scheid de Url's van de jokertekens met puntkomma's, bijvoorbeeld:
+Als u deze wilt toevoegen aan uw lijst met proxy-bypasss in Internet Explorer, gaat u naar **Extra** \> **internetopties** \> **Verbindingen** \> **LAN-instellingen** \> **Geavanceerd.** Op het tabblad Geavanceerd vindt u ook de proxyserver en de proxyserverpoort. Mogelijk moet u op het selectievakje **Een proxyserver** voor uw LAN gebruiken klikken om toegang te krijgen **tot** de knop Geavanceerd. U moet ervoor zorgen dat proxyserver voor **lokale** adressen omzeilen is ingeschakeld. Wanneer u op **Geavanceerd** klikt, ziet u een tekstvak waarin u uitzonderingen kunt invoeren. Scheid de jokerteken-URL's die hierboven worden vermeld, bijvoorbeeld door punt-dubbele punt:
   
-\*. microsoftonline.com; \*. SharePoint.com
+\*.microsoftonline.com; \*.sharepoint.com
   
-Als u de proxy niet meer weet, moet u ping of PsPing rechtstreeks op een URL van Office 365. De volgende stap is het testen van de ping **Outlook.office365.com**. Als u gebruikmaakt van PsPing of een ander hulpmiddel waarmee u een poortnummer moet opgeven voor de opdracht, kunt PsPing tegen **Portal.microsoftonline.com:443** de gemiddelde retourtijd in milliseconden zien. 
+Wanneer u de proxy hebt overgeslagen, kunt u ping of PsPing rechtstreeks op een Office 365-URL gebruiken. De volgende stap is het testen van ping **outlook.office365.com.** Of als u PsPing **gebruikt of** een ander hulpmiddel waarmee u een poortnummer aan de opdracht kunt leveren, psping tegen portal.microsoftonline.com:443 om de gemiddelde retourtijd in milliseconden te zien. 
   
-De retourtijd, of de RTT, is een waarde die bepalen hoe lang het duurt om een HTTP-aanvraag naar een server te verzenden, zoals outlook.office365.com, en het vragen van de server erkent. U ziet soms dit afkort weergeven als RTT. Dit moet een relatief kort tijdsduur zijn.
+De retourtijd, of RTT, is een getalwaarde die meet hoe lang het duurt om een HTTP-aanvraag naar een server zoals outlook.office365.com te verzenden en een antwoord terug te krijgen dat bevestigt dat de server weet dat u het hebt gedaan. U ziet dit soms afgekort als RTT. Dit moet een relatief korte tijd zijn.
   
-U moet [PSPing](https://technet.microsoft.com/sysinternals/jj729731.aspx) of een ander hulpprogramma gebruiken die geen ICMP-pakketten gebruikt die worden geblokkeerd door Office 365, zodat u deze test kunt uitvoeren. 
+U moet [PSPing](/sysinternals/downloads/psping) of een ander hulpprogramma gebruiken dat geen ICMP-pakketten gebruikt die door Office 365 worden geblokkeerd om deze test uit te kunnen werken. 
   
- **Het gebruik van PsPing rechtstreeks vanuit een Office 365-URL voor een algemene retourtijd in milliseconden**
+ **PsPing gebruiken om een algemene retourtijd in milliseconden rechtstreeks vanuit een Office 365-URL te krijgen**
   
-1. Voer een opdrachtprompt met verhoogde bevoegdheid uit door deze stappen uit te voeren:
+1. Voer een opdrachtprompt met verhoogde opdracht uit door de volgende stappen uit te voeren:
     
 1. Klik op **Start**.
     
-2. Typ cmd in het vak **zoekopdracht starten** en druk op CTRL + SHIFT + ENTER.
+2. Typ cmd **in het** vak Zoeken starten en druk op Ctrl+Shift+Enter.
     
-3. Als het dialoogvenster **Gebruikersaccountbeheer** wordt weergegeven, bevestigt u of de actie die wordt weergegeven, is wat u wilt en klikt u vervolgens op **Doorgaan**.
+3. Als het **dialoogvenster Gebruikersaccountbeheer** wordt weergegeven, controleert u of de actie die wordt weergegeven, is wat u wilt en klikt u vervolgens op **Doorgaan.**
     
-2. Ga naar de map met het hulpprogramma (in dit geval PsPing) en test deze Office 365-Url's:
+2. Ga naar de map waar het hulpprogramma (in dit geval PsPing) is geïnstalleerd en test deze Office 365-URL's:
     
   - psping portal.office.com:443
     
@@ -259,75 +259,74 @@ U moet [PSPing](https://technet.microsoft.com/sysinternals/jj729731.aspx) of een
     
   - psping www.yammer.com:443
     
-    ![Met de opdracht PSPing wordt de microsoft-my.sharepoint.com-poort 443.](../media/3258f620-4513-4e82-95c9-06b387fc3a82.PNG)
+    ![De opdracht PSPing gaat naar microsoft-my.sharepoint.com poort 443.](../media/3258f620-4513-4e82-95c9-06b387fc3a82.PNG)
   
-Zorg ervoor dat u het poortnummer van 443 opneemt. Houd er rekening mee dat Office 365 werkt op een versleuteld kanaal. Als u PsPing zonder poortnummer, mislukt uw aanvraag. Als u de kortste lijst hebt gepingt, kijkt u naar de gemiddelde tijd in milliseconden (MS). Dat is wat u wilt opnemen.
+Zorg ervoor dat u het poortnummer van 443 op moet nemen. Onthoud dat Office 365 werkt op een versleuteld kanaal. Als u PsPing zonder het poortnummer hebt, mislukt uw aanvraag. Wanneer u uw korte lijst hebt gepingt, kijkt u naar de gemiddelde tijd in milliseconden (ms). Dat is wat u wilt opnemen!
   
-![Afbeelding waarin een illustratie wordt weergegeven van client-naar-proxy PSPing met een retourtijd van 2,8 milliseconden.](../media/96901aea-1093-4f1b-b5a3-6078e9035e6c.png)
+![Afbeelding met een afbeelding van client-naar-proxy-PSPing met een retourtijd van 2,8 milliseconden.](../media/96901aea-1093-4f1b-b5a3-6078e9035e6c.png)
   
-Als u niet bekend bent met het negeren van de proxy en u wilt een stap voor stap volgen, moet u eerst de naam van uw proxyserver achterhalen. Ga in Internet Explorer naar **extra** \> **Internet Options** \> **Connections** \> **LAN-instellingen voor LAN** -verbindingen \> **Advanced**. Op het tabblad **Geavanceerd** kunt u de naam van uw proxyserver weergeven. Ping met behulp van de volgende taak met de opdrachtprompt: 
+Als u niet bekend bent met proxy bypass en de voorkeur geeft aan stap voor stap, moet u eerst de naam van de proxyserver weten. Ga in Internet Explorer naar **Tools** \> **Internet Options** \> **Connections** LAN \> **settings** \> **Advanced**. Op **het** tabblad Geavanceerd wordt de proxyserver weergegeven. Ping die proxyserver bij een opdrachtprompt door deze taak uit te voeren: 
   
- **De proxyserver pingen en een waarde voor de retourwaarde in milliseconden voor fase 1 en 2 aanvragen**
+ **De proxyserver pingen en een retourwaarde krijgen in milliseconden voor fase 1 tot en met 2**
   
-1. Voer een opdrachtprompt met verhoogde bevoegdheid uit door deze stappen uit te voeren:
+1. Voer een opdrachtprompt met verhoogde opdracht uit door de volgende stappen uit te voeren:
     
 1. Klik op **Start**.
     
-2. Typ cmd in het vak **zoekopdracht starten** en druk op CTRL + SHIFT + ENTER.
+2. Typ cmd **in het** vak Zoeken starten en druk op Ctrl+Shift+Enter.
     
-3. Als het dialoogvenster **Gebruikersaccountbeheer** wordt weergegeven, bevestigt u of de actie die wordt weergegeven, is wat u wilt en klikt u vervolgens op **Doorgaan**.
+3. Als het **dialoogvenster Gebruikersaccountbeheer** wordt weergegeven, controleert u of de actie die wordt weergegeven, is wat u wilt en klikt u vervolgens op **Doorgaan.**
     
-2. Typ ping \<the name of the proxy server your browser uses, or the IP address of the proxy server\> en druk vervolgens op ENTER. Als u een PsPing of een ander hulpprogramma hebt geïnstalleerd, kunt u dat programma gebruiken in plaats hiervan. 
+2. Typ ping \<the name of the proxy server your browser uses, or the IP address of the proxy server\> en druk op Enter. Als u PsPing of een ander hulpprogramma hebt geïnstalleerd, kunt u ervoor kiezen om dat hulpprogramma te gebruiken. 
     
-    De opdracht kan er als een van deze voorbeelden uitzien: 
+    Uw opdracht ziet er mogelijk uit als een van deze voorbeelden: 
     
   - ping ourproxy.ourdomain.industry.business.com
     
   - ping 155.55.121.55
     
-  - ping onzeproxy
+  - ping ourproxy
     
   - psping ourproxy.ourdomain.industry.business.com:80
     
   - psping 155.55.121.55:80
     
-  - psping onzeproxy: 80
+  - psping ourproxy:80
     
-3. Wanneer de tracering stopt met het verzenden van testpakketten, krijgt u een kleine samenvatting met een gemiddelde, in milliseconden, en dat is de waarde die u hebt. Neem een schermafbeelding van de prompt en sla deze op met de naamgevingsconventie. Op dit moment kan het ook handig zijn om het diagram in te vullen met de waarde.
+3. Wanneer de trace stopt met het verzenden van testpakketten, krijgt u een klein overzicht met een gemiddelde, in milliseconden, en dat is de waarde waar u achter aan zit. Maak een schermafbeelding van de prompt en sla deze op met uw naamgevingsconventie. Op dit moment kan het ook helpen om het diagram in te vullen met de waarde.
     
-Misschien hebt u een tracering in de loop van de tijd genomen, en de client kan de proxy (of de server voor het opsporen van Internet) snel weer verlaten. In dit geval kunnen uw nummers er als volgt uitzien:
+Misschien hebt u 's morgens vroeg een trace gemaakt en kan uw client snel bij de proxy (of via een uitgangsserver naar internet) komen. In dit geval kunnen uw getallen er als volgende uitzien:
   
 ![Afbeelding met de retourtijd van een client naar een proxy van 2,8 milliseconden.](../media/1bd03544-23fc-47d4-bbae-c1feb466a5d8.PNG)
   
-Als de clientcomputer een van de selectievakjes met toegang tot de proxy-of uitvoerende server is, kunt u de volgende arm van de test uitvoeren door een externe verbinding met die computer uit te voeren, waarna u de opdrachtprompt uitvoert om vanaf de computer te PsPing naar een URL van Office 365. Als u geen toegang hebt tot die computer, kunt u contact opnemen met uw netwerkbronnen voor hulp bij de volgende etappe en de getallen op die manier exact weergeven. Als dat niet mogelijk is, kunt u een PsPing voor de URL van Office 365 in kwestie en vergelijkt u deze met de PsPing of ping-tijd voor uw proxyserver. 
+Als uw clientcomputer een van de weinige geselecteerde gebruikers is met toegang tot de proxyserver (of de uitgangsserver), kunt u het volgende deel van de test uitvoeren door op afstand verbinding te maken met die computer en de opdrachtprompt naar PsPing uit te voeren naar een Office 365-URL. Als u geen toegang hebt tot die computer, kunt u contact opnemen met uw netwerkbronnen voor hulp bij de volgende leg en op die manier exacte nummers krijgen. Als dat niet mogelijk is, neemt u een PsPing tegen de Office 365-URL in kwestie en vergelijkt u deze met de PsPing- of Ping-tijd tegen de proxyserver. 
   
-Als u bijvoorbeeld 51,84 milliseconden van de client hebt voor de URL van Office 365 en 2,8 u de milliseconden van de client hebt voor de proxy (of uitgangspunt), 49,04 hebt u de bewerkings punten van de 365 Office-app. Ook als u een PsPing van 12,25 milliseconden van de client voor de proxy hebt en 62,01 milliseconden van de client naar de Office 365-URL, dan wordt uw gemiddelde waarde voor de proxy-uituitgang voor de Office 365-URL 49,76 milliseconden.
+Als u bijvoorbeeld 51,84 milliseconden van de client naar de Office 365-URL hebt en u 2,8 milliseconden van de client naar de proxy (of het uitgangspunt) hebt, hebt u 49,04 milliseconden van het uitgangspunt naar Office 365. Als u een PsPing van 12,25 milliseconden hebt van de client naar de proxy tijdens de hoogte van de dag en 62,01 milliseconden van de client naar de OFFICE 365-URL, is de gemiddelde waarde voor de proxy die naar de Office 365-URL gaat 49,76 milliseconden.
   
-![Extra afbeelding met de ping in milliseconden van client naar proxy naast client naar Office 365, zodat de waarden kunnen worden afgetrokken.](../media/cd764e77-5154-44ba-a5cd-443a628eb2d9.PNG)
+![Extra afbeelding met de ping in milliseconden van client naar proxy naast de client naar Office 365, zodat de waarden kunnen worden afgetrokken.](../media/cd764e77-5154-44ba-a5cd-443a628eb2d9.PNG)
   
-Ter voorbereiding van het oplossen van problemen, is het mogelijk dat u iets interessant vindt. Als u bijvoorbeeld merkt dat u meestal over 40 tot 59 milliseconden van de latentie van de proxy of uitgangspunt naar de URL van Office 365 gaat, en een client de latentie van een client voor proxy of uitgangspunt willen hebben van 3 tot 7 milliseconden (afhankelijk van het aantal netwerkverkeer dat u tijdens de laatste tijd) ziet, want u weten dat iets mis is als de laatste drie client-naar-proxy-of uitgangs basislijnen een latentie van 45 milliseconds aangeven.
+In termen van probleemoplossing kunt u iets interessants vinden door deze basislijnen te behouden. Bijvoorbeeld: als u in het algemeen ongeveer 40 tot 59 milliseconden latentie hebt van de proxy of het uitgangspunt naar de Office 365-URL en een client voor proxy- of uitgangspuntlatentie van ongeveer 3 tot 7 milliseconden hebt (afhankelijk van het netwerkverkeer dat u op dat moment ziet) dan weet u zeker dat er iets problematisch is als uw laatste drie client-to-proxy- of uitgangslijnlijnen een latentie van 45 milliseconden laten zien.
   
 ### <a name="advanced-methods"></a>Geavanceerde methoden
 
-Als u wilt weten wat er gebeurt met uw Internet verzoeken naar Office 365, moet u bekend zijn met de netwerk traceringen. Het maakt niet uit welke hulpmiddelen u wilt gebruiken voor deze tracering, HTTPWatch, Netmon, Message Analyzer, wireshark, Fiddler, dashboard dashboard, of andere taken kunnen worden uitgevoerd, zolang dit hulpprogramma netwerkverkeer kan vastleggen en filteren. In deze sectie wordt het beste om meer dan een van deze hulpmiddelen uit te voeren voor een compleetere foto van het probleem. Wanneer u gaat testen, kunnen sommige van deze hulpmiddelen ook in eigen gevallen fungeren als proxy's. De hulpprogramma's die worden gebruikt in het Companion-artikel [prestatieproblemen met het oplossen van Office 365](performance-troubleshooting-plan.md), waaronder [Netmon 3,4](https://www.microsoft.com/download/details.aspx?id=4865), [HTTPWatch](https://www.httpwatch.com/download/)of [WireShark](https://www.wireshark.org/).
+Als u echt wilt weten wat er gebeurt met uw internetaanvragen naar Office 365, moet u vertrouwd raken met netwerksporen. Het maakt niet uit welke hulpprogramma's u wilt gebruiken voor deze traces, HTTPWatch, Netmon, Message Analyzer, Wireshark, Fiddler, Developer Dashboard tool of andere functies, zolang dit hulpprogramma netwerkverkeer kan vastleggen en filteren. In deze sectie ziet u dat het handig is om meer dan een van deze hulpprogramma's uit te voeren om een vollediger beeld van het probleem te krijgen. Wanneer u aan het testen bent, fungeren sommige van deze hulpprogramma's ook als proxies in hun eigen recht. Hulpmiddelen die worden gebruikt in het begeleidende artikel Performance [troubleshooting plan voor Office 365,](performance-troubleshooting-plan.md)omvatten [Netmon 3.4,](https://www.microsoft.com/download/details.aspx?id=4865) [HTTPWatch](https://www.httpwatch.com/download/)of [WireShark.](https://www.wireshark.org/)
   
-Het maken van een prestatie lijn is de eenvoudige kant van deze methode en veel van de stappen zijn dezelfde als wanneer u een prestatieprobleem verhelpt. Voor de geavanceerdere methoden voor het maken van basislijnen moet u netwerk sporen maken en opslaan. In de meeste van de voorbeelden in dit artikel wordt SharePoint Online gebruikt, maar u moet een lijst met veelgebruikte acties ontwikkelen op de Office 365-Services waarop u zich kunt abonneren op testen en opnemen. Dit is een voorbeeld van basislijn:
+Het maken van een basislijn voor prestaties is het eenvoudige deel van deze methode en veel van de stappen zijn hetzelfde als wanneer u een prestatieprobleem oplost. Voor de geavanceerdere methoden voor het maken van basislijnen voor prestaties moet u netwerksporen nemen en opslaan. De meeste voorbeelden in dit artikel gebruiken SharePoint Online, maar u moet een lijst met algemene acties ontwikkelen voor de Office 365-services waarop u zich abonneert om te testen en op te nemen. Hier is een basislijnvoorbeeld:
   
-- Lijst met basislijnen voor SPO-* * stap 1: * * Blader naar de startpagina van de SPO-website en voer een netwerk spoor. Sla de tracering op. 
+- Basislijnlijst voor SPO - ** Stap 1: ** Blader op de startpagina van de SPO-website en doe een netwerkspoor. Sla de trace op. 
     
-- Basislijn lijst voor SPO- **stap 2:** Zoek een term (zoals uw bedrijfsnaam) via Enterprise Search en voer een netwerktracering uit. Sla de tracering op. 
+- Basislijnlijst voor SPO - **Stap 2:** Zoek via Enterprise Search naar een term (zoals uw bedrijfsnaam) en doe een netwerkspoor. Sla de trace op. 
     
-- Lijst met basislijnen voor SPO: **stap 3:** een groot bestand uploaden naar een SharePoint Online-documentbibliotheek en een netwerktracering uitvoeren. Sla de tracering op. 
+- Basislijnlijst voor SPO - **Stap 3:** Upload een groot bestand naar een SharePoint Online-documentbibliotheek en doe een netwerkspoor. Sla de trace op. 
     
-- Lijst met basislijnen voor SPO- **stap 4:** browsen op de startpagina van de OneDrive-website en voer een netwerk spoor. Sla de tracering op. 
+- Basislijnlijst voor SPO - **Stap 4:** Blader op de startpagina van de OneDrive-website en doe een netwerkspoor. Sla de trace op. 
     
-Deze lijst bevat de belangrijkste veelvoorkomende acties die gebruikers uitvoeren op SharePoint Online. De laatste stap voor het aanwijzen van gaan naar OneDrive voor bedrijven, versies van de SharePoint Online-Startpagina (die vaak door bedrijven is aangepast) en de startpagina van OneDrive voor bedrijven, wat niet helemaal is aangepast. Dit is een zeer eenvoudige proef wanneer het gaat om een langzaamere laad site van SharePoint Online. U kunt in uw tests een record maken van dit verschil.
+Deze lijst moet de belangrijkste algemene acties bevatten die gebruikers uitvoeren tegen SharePoint Online. In de laatste stap, om naar OneDrive voor Bedrijven te gaan, wordt een vergelijking gemaakt tussen de belasting van de startpagina van SharePoint Online (die vaak wordt aangepast door bedrijven) en de startpagina van OneDrive voor Bedrijven, die zelden wordt aangepast. Dit is een zeer eenvoudige test als het gaat om een traag ladende SharePoint Online-site. U kunt een record van dit verschil maken in uw testen.
   
-Als u zich in het midden van een prestatieprobleem voordoet, zijn veel van de stappen hetzelfde als bij het maken van een basislijn. Netwerktracering wordt kritiek geworden, dus we gaan *how* de belangrijkste punten ernaast gaan volgen. 
+Als u in het midden van een prestatieprobleem zit, zijn veel van de stappen hetzelfde als bij het maken van een basislijn. Netwerksporen worden kritiek, dus we gaan nu om  *met*  de belangrijke traceringen. 
   
-Om een prestatieprobleem  *op te sporen, moet*  u op het moment van tracering een tracering ondernemen wanneer u de prestaties van het prestatieprobleem ondervindt. U moet beschikken over de juiste hulpprogramma's voor het verzamelen van Logboeken, en u hebt een actieplan nodig, dat wil zeggen een lijst met stappen voor het oplossen van de beste informatie die u kunt nemen. Allereerst moet u de datum en tijd van de test vastleggen, zodat de bestanden kunnen worden opgeslagen in een map die de tijdsinstelling weerspiegelt. Verfijn vervolgens de probleem stappen zelf. Dit zijn de exacte stappen die u moet uitvoeren om te testen. De basisbeginselen voor het maken van de basisversie: als het probleem zich alleen met Outlook voordoet, moet u opnemen dat het gedrag van het probleem optreedt in slechts één Office 365-service. Om het bereik van dit probleem te beperken, kunt u zich richten op iets wat u kunt oplossen. 
+Als u een prestatieprobleem  *wilt*  oplossen, moet u op dit moment een trace nemen op het moment dat u het prestatieprobleem ondervindt. U hebt de juiste hulpmiddelen nodig om logboeken te verzamelen en u hebt een actieplan nodig, dat wil zeggen een lijst met acties voor het oplossen van problemen die moeten worden ondernomen om de beste informatie te verzamelen die u kunt. Het eerste wat u moet doen, is de datum en tijd van de test opnemen, zodat de bestanden kunnen worden opgeslagen in een map die de tijdsinstelling weerspiegelt. Vervolgens kunt u beperken tot de probleemstappen zelf. Dit zijn de exacte stappen die u voor het testen gaat gebruiken. Vergeet de basisbeginselen niet: als het probleem alleen met Outlook is, moet u registreren dat het probleemgedrag slechts in één Office 365-service gebeurt. Als u het bereik van dit probleem verkleint, kunt u zich concentreren op iets dat u kunt oplossen. 
   
 ## <a name="see-also"></a>Zie ook
 
 [Office 365-eindpunten beheren](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
-

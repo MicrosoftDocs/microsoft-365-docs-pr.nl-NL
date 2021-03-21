@@ -1,5 +1,5 @@
 ---
-title: Directory-synchronisatie voorbereiden op Microsoft 365
+title: Voorbereidingen treffen voor adreslijstsynchronisatie met Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -25,48 +25,48 @@ search.appverid:
 - MOE150
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
-description: In dit artikel wordt uitgelegd hoe u gebruikers kunt inrichten voor Microsoft 365 met behulp van adreslijstsynchronisatie en de lange termijn voordelen van het gebruik van deze methode.
-ms.openlocfilehash: e49cc4472b47320650d8a0ca90395b69ae5b6df7
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+description: Hier wordt beschreven hoe u gebruikers kunt voorbereiden op Microsoft 365 met behulp van adreslijstsynchronisatie en de voordelen op lange termijn van het gebruik van deze methode.
+ms.openlocfilehash: 1fe99247a5c50c7bb8fc7eb1347ce6a4cd6aad94
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371622"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927322"
 ---
-# <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Directory-synchronisatie voorbereiden op Microsoft 365
+# <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Voorbereidingen treffen voor adreslijstsynchronisatie met Microsoft 365
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-De voordelen van Hybrid Identity en adreslijstsynchronisatie uw organisatie omvat:
+De voordelen voor hybride identiteits- en adreslijstsynchronisatie van uw organisatie zijn:
 
 - De beheerprogramma's in uw organisatie verminderen
-- Optioneel scenario voor eenmalige aanmelding inschakelen
-- Account wijzigingen automatiseren in Microsoft 365
+- Optioneel een enkel aanmeldingsscenario inschakelen
+- Accountwijzigingen automatiseren in Microsoft 365
 
-Zie voor meer informatie over de voordelen van het gebruik van adreslijstsynchronisatie [Hybrid Identity with Azure Active Directory (Azure AD)](https://go.microsoft.com/fwlink/p/?LinkId=525398) en [Hybrid Identity voor Microsoft 365](plan-for-directory-synchronization.md).
+Zie hybride identiteit met Azure Active Directory [(Azure AD)](/azure/active-directory/hybrid/whatis-hybrid-identity) en hybride identiteit voor [Microsoft 365](plan-for-directory-synchronization.md)voor meer informatie over de voordelen van het gebruik van adreslijstsynchronisatie.
 
-Adreslijstsynchronisatie vereist echter planning en voorbereidingen om ervoor te zorgen dat uw Active Directory Domain Services (AD DS) wordt gesynchroniseerd met de Azure AD-Tenant van uw Microsoft 365-abonnement met een minimum aan fouten.
+Adreslijstsynchronisatie vereist echter planning en voorbereiding om ervoor te zorgen dat uw AD DS (Active Directory Domain Services) wordt gesynchroniseerd met de Azure AD-tenant van uw Microsoft 365-abonnement met een minimum aan fouten.
 
-Voer de volgende stappen uit om de beste resultaten te voorkomen.
+Volg deze stappen om de beste resultaten te krijgen.
 
-## <a name="1-directory-cleanup-tasks"></a>1. taken in de Directory opschonen
+## <a name="1-directory-cleanup-tasks"></a>1. Adreslijst opschoningstaken
 
-Voordat u de AD DS synchroniseert met een Azure AD-Tenant, moet u de AD DS opschonen.
+Voordat u uw AD DS synchroniseert met uw Azure AD-tenant, moet u uw AD DS ops schonen.
 
 > [!IMPORTANT]
-> Als u AD DS cleanup niet uitvoert voordat u synchroniseert, kan dit leiden tot een significante negatieve impact op het implementatieproces. Het kan dagen duren voor de adreslijstsynchronisatie, het identificeren van fouten en het opnieuw synchroniseren van een week.
+> Als u geen AD DS-opschoning voert voordat u synchroniseert, kan dit leiden tot een aanzienlijke negatieve invloed op het implementatieproces. Het kan dagen of zelfs weken duren om door de cyclus van adreslijstsynchronisatie te lopen, fouten te identificeren en opnieuw te synchroniseren.
 
-Voer in uw AD DS de volgende opschoningstaken uit voor elk gebruikersaccount waaraan een Microsoft 365-licentie is toegewezen:
+Voltooi in uw AD DS de volgende opruimtaken voor elk gebruikersaccount dat een Microsoft 365-licentie krijgt toegewezen:
 
-1. Zorg voor een geldig en uniek e-mailadres in het **proxyAddresses** -kenmerk.
+1. Controleer een geldig en uniek e-mailadres in het **kenmerk proxyAddresses.**
 
-2. Verwijder alle dubbele waarden in het kenmerk **proxyAddresses** .
+2. Verwijder dubbele waarden in het **kenmerk proxyAddresses.**
 
-3. Controleer indien mogelijk een geldige en unieke waarde voor het kenmerk **userPrincipalName** in het **gebruikers** object van de gebruiker. Voor de beste synchronisatie ervaring zorgt u ervoor dat de AD DS-UPN overeenkomt met de Azure AD-UPN. Als een gebruiker geen waarde heeft voor het kenmerk **userPrincipalName** , moet het **gebruikers** object een geldige en unieke waarde voor het kenmerk **sAMAccountName** bevatten. Verwijder alle dubbele waarden in het kenmerk **userPrincipalName** .
+3. Zorg indien mogelijk voor een geldige en unieke waarde voor het **userPrincipalName-kenmerk** in het **gebruikersobject** van de gebruiker. Zorg ervoor dat de AD DS UPN overeenkomt met de Azure AD UPN voor de beste synchronisatieervaring. Als een gebruiker geen waarde heeft voor het **kenmerk userPrincipalName,** moet het **gebruikersobject** een geldige en unieke waarde bevatten voor het **kenmerk sAMAccountName.** Verwijder eventuele dubbele waarden in het **userPrincipalName-kenmerk.**
 
-4. Voor optimaal gebruik van de algemene adreslijst (GAL) zorgt u ervoor dat de informatie in de volgende kenmerken van het AD DS-gebruikersaccount correct is:
+4. Zorg ervoor dat de informatie in de volgende kenmerken van het AD DS-gebruikersaccount correct is voor optimaal gebruik van de algemene adreslijst (GAL):
 
-   - voor benaming
+   - givenName
    - achternaam
    - displayName
    - Functie
@@ -75,45 +75,45 @@ Voer in uw AD DS de volgende opschoningstaken uit voor elk gebruikersaccount waa
    - Zakelijk nummer
    - Mobiel nummer
    - Faxnummer
-   - Adres
+   - Adres van straat
    - Plaats
    - Provincie
-   - Post code
+   - Postcode
    - Land of regio
 
-## <a name="2-directory-object-and-attribute-preparation"></a>2. mapobject en kenmerk voorbereiding
+## <a name="2-directory-object-and-attribute-preparation"></a>2. Voorbereiding van adreslijstobjecten en kenmerken
 
-Als u wilt dat de adreslijstsynchronisatie mislukt tussen uw Active Directory-en Microsoft 365, moet u de kenmerken van de AD DS-kenmerken voorbereidingen hebben U moet bijvoorbeeld ervoor zorgen dat specifieke tekens niet worden gebruikt in bepaalde kenmerken die worden gesynchroniseerd met de Microsoft 365-omgeving. Onverwachte tekens zorgen er niet voor dat de adreslijstsynchronisatie mislukt maar u kunt een waarschuwing retourneren. Ongeldige tekens zorgen voor Directory-synchronisatie mislukt.
+Voor een geslaagde adreslijstsynchronisatie tussen uw AD DS en Microsoft 365 moeten uw AD DS-kenmerken goed zijn voorbereid. U moet er bijvoorbeeld voor zorgen dat bepaalde tekens niet worden gebruikt in bepaalde kenmerken die worden gesynchroniseerd met de Microsoft 365-omgeving. Onverwachte tekens leiden er niet toe dat adreslijstsynchronisatie mislukt, maar kan een waarschuwing retourneren. Ongeldige tekens zorgen ervoor dat adreslijstsynchronisatie mislukt.
 
-Directory-synchronisatie mislukt ook als sommige van uw AD DS-gebruikers een of meer dubbele kenmerken hebben. Elke gebruiker moet unieke kenmerken hebben.
+Adreslijstsynchronisatie mislukt ook als sommige AD DS-gebruikers een of meer dubbele kenmerken hebben. Elke gebruiker moet unieke kenmerken hebben.
 
-De kenmerken die u moet voorbereiden, vindt u hier:
+De kenmerken die u moet voorbereiden, worden hier weergegeven:
 
 - **displayName**
 
-  - Als het kenmerk bestaat in het gebruikersobject, wordt het kenmerk gesynchroniseerd met Microsoft 365.
-  - Als dit kenmerk bestaat in het gebruikersobject, moet er een waarde bestaan voor dit kenmerk. Dat wil zeggen dat het kenmerk niet leeg mag zijn.
+  - Als het kenmerk bestaat in het gebruikersobject, wordt het gesynchroniseerd met Microsoft 365.
+  - Als dit kenmerk bestaat in het gebruikersobject, moet er een waarde voor het object zijn. Dat wil zeggen dat het kenmerk niet leeg mag zijn.
   - Maximum aantal tekens: 256
 
-- **voor benaming**
+- **givenName**
 
-  - Als het kenmerk bestaat in het gebruikersobject, wordt het gesynchroniseerd met Microsoft 365, maar Microsoft 365 maakt geen gebruik van dit kenmerk.
+  - Als het kenmerk bestaat in het gebruikersobject, wordt het gesynchroniseerd met Microsoft 365, maar Microsoft 365 vereist het niet of gebruikt het niet.
   - Maximum aantal tekens: 64
 
 - **e-mail**
 
-  - De kenmerkwaarde moet uniek zijn binnen de adreslijst.
+  - De kenmerkwaarde moet uniek zijn in de adreslijst.
 
     > [!NOTE]
-    > Als er dubbele waarden zijn, wordt de eerste gebruiker met de waarde gesynchroniseerd. De volgende gebruikers worden niet weergegeven in Microsoft 365. U moet de waarde in Microsoft 365 wijzigen of beide waarden in AD DS wijzigen, zodat beide gebruikers in Microsoft 365 worden weergegeven.
+    > Als er dubbele waarden zijn, wordt de eerste gebruiker met de waarde gesynchroniseerd. Volgende gebruikers worden niet weergegeven in Microsoft 365. U moet de waarde in Microsoft 365 wijzigen of beide waarden in AD DS wijzigen, zodat beide gebruikers worden weergegeven in Microsoft 365.
 
 - **mailNickname** (Exchange-alias)
 
-  - De kenmerkwaarde mag niet beginnen met een punt (.).
-  - De kenmerkwaarde moet uniek zijn binnen de adreslijst.
+  - De kenmerkwaarde kan niet beginnen met een punt (.).
+  - De kenmerkwaarde moet uniek zijn in de adreslijst.
 
     > [!NOTE]
-    > Onderstrepingstekens ("_") in de gesynchroniseerde naam geven aan dat de oorspronkelijke waarde van dit kenmerk ongeldige tekens bevat. Zie voor meer informatie over dit kenmerk [Exchange-alias kenmerk](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
+    > Onderstrepingstekens ("_") in de gesynchroniseerde naam geven aan dat de oorspronkelijke waarde van dit kenmerk ongeldige tekens bevat. Zie [Exchange-aliaskenmerk](/powershell/module/exchange/set-mailbox)voor meer informatie over dit kenmerk.
     >
 
 - **proxyAddresses**
@@ -121,73 +121,73 @@ De kenmerken die u moet voorbereiden, vindt u hier:
   - Kenmerk met meerdere waarden
   - Maximum aantal tekens per waarde: 256
   - De kenmerkwaarde mag geen spatie bevatten.
-  - De kenmerkwaarde moet uniek zijn binnen de adreslijst.
-  - Ongeldige tekens: \< \> ();, [] ""
+  - De kenmerkwaarde moet uniek zijn in de adreslijst.
+  - Ongeldige tekens: \< \> ( ) ; , [ ] "
 
-    Houd er rekening mee dat de ongeldige tekens van toepassing zijn op de tekens die volgen op het type scheidingsteken en ': ', zodat de SMTP:User@contso.com is toegestaan, maar SMTP:user:M@contoso.com niet.
+    Houd er rekening mee dat de ongeldige tekens van toepassing zijn op de tekens na het type scheidingsteken en ':', zodat SMTP:User@contso.com is toegestaan, maar SMTP:user:M@contoso.com niet.
 
     > [!IMPORTANT]
-    > Alle SMTP-adressen (Simple Mail Transport Protocol) moeten voldoen aan de standaarden voor e-mailberichten. Verwijder dubbele of ongewenste adressen als ze bestaan.
+    > Alle SMTP-adressen (Simple Mail Transport Protocol) moeten voldoen aan de standaarden voor e-mailberichten. Verwijder dubbele of ongewenste adressen als deze bestaan.
 
 - **sAMAccountName**
 
   - Maximum aantal tekens: 20
-  - De kenmerkwaarde moet uniek zijn binnen de adreslijst.
-  - Ongeldige tekens: [\ "|,/: \< \> + =;? \* ']
-  - Als een gebruiker een ongeldig **sAMAccountName** -kenmerk heeft, maar beschikt over een geldig **userPrincipalName** -kenmerk, wordt het gebruikersaccount gemaakt in Microsoft 365.
-  - Als zowel **sAMAccountName** als **userPrincipalName** ongeldig is, moet het kenmerk AD DS **userPrincipalName** worden bijgewerkt.
+  - De kenmerkwaarde moet uniek zijn in de adreslijst.
+  - Ongeldige tekens: [ \ " | , / : \< \> + = ; ? \* ']
+  - Als een gebruiker een ongeldig **sAMAccountName-kenmerk** heeft, maar een geldig **userPrincipalName-kenmerk** heeft, wordt het gebruikersaccount gemaakt in Microsoft 365.
+  - Als zowel **sAMAccountName** als **userPrincipalName** ongeldig zijn, moet het AD DS **userPrincipalName-kenmerk** worden bijgewerkt.
 
 - **sn** (achternaam)
 
-  - Als het kenmerk bestaat in het gebruikersobject, wordt het gesynchroniseerd met Microsoft 365, maar Microsoft 365 maakt geen gebruik van dit kenmerk.
+  - Als het kenmerk bestaat in het gebruikersobject, wordt het gesynchroniseerd met Microsoft 365, maar Microsoft 365 vereist het niet of gebruikt het niet.
 
 - **targetAddress**
 
-    U moet het kenmerk **targetAddress** (bijvoorbeeld SMTP:Tom@contoso.com) dat voor de gebruiker is ingevuld, worden weergegeven in de microsoft 365 Gal. Voor de scenario van een externe communicatie met berichten migratie is hiervoor de Microsoft 365-schema-uitbreiding voor de AD DS vereist. Met de Microsoft 365-schema extensie worden ook andere nuttige kenmerken toegevoegd voor het beheren van Microsoft 365-objecten die worden gevuld met behulp van een adreslijstsynchronisatie vanuit AD DS. Het kenmerk **msExchHideFromAddressLists** voor het beheren van verborgen postvakken of distributiegroepen werd bijvoorbeeld toegevoegd.
+    Het is vereist dat het **targetAddress-kenmerk** (bijvoorbeeld SMTP:tom@contoso.com) dat voor de gebruiker wordt ingevuld, moet worden weergegeven in de Microsoft 365 GAL. In scenario's voor berichtenmigratie van derden is hiervoor de microsoft 365-schemaextensie voor de AD DS vereist. De schemaextensie van Microsoft 365 voegt ook andere nuttige kenmerken toe voor het beheren van Microsoft 365-objecten die worden ingevuld met behulp van een hulpprogramma voor adreslijstsynchronisatie van AD DS. Het **msExchHideFromAddressLists-kenmerk** voor het beheren van verborgen postvakken of distributiegroepen wordt bijvoorbeeld toegevoegd.
 
   - Maximum aantal tekens: 256
   - De kenmerkwaarde mag geen spatie bevatten.
-  - De kenmerkwaarde moet uniek zijn binnen de adreslijst.
-  - Ongeldige tekens: \ \< \> ();, [] "
+  - De kenmerkwaarde moet uniek zijn in de adreslijst.
+  - Ongeldige tekens: \ \< \> ( ) ; , [ ] "
   - Alle SMTP-adressen (Simple Mail Transport Protocol) moeten voldoen aan de standaarden voor e-mailberichten.
 
 - **userPrincipalName**
 
-  - De aanmeldings opmaak van het **userPrincipalName** -kenmerk moet de Internet stijl hebben, waarbij de gebruikersnaam wordt gevolgd door het apenstaartje (@) en een domeinnaam: bijvoorbeeld user@contoso.com. Alle SMTP-adressen (Simple Mail Transport Protocol) moeten voldoen aan de standaarden voor e-mailberichten.
-  - Het maximum aantal tekens voor het kenmerk **userPrincipalName** is 113. U kunt als volgt een specifiek aantal tekens voor en na het apenstaartje (@) zijn toegestaan:
-  - Het maximum aantal tekens voor de gebruikersnaam vóór het apenstaartje (@): 64
-  - Het maximum aantal tekens voor de domeinnaam na het apenstaartje (@): 48
-  - Ongeldige tekens: \% &amp; \* +/=? { } | \< \> ( ) ; : , [ ] "
-  - Tekens toegestaan: A-Z, a-z, 0-9, '. - _ ! # ^ ~
-  - Letters met diakritische tekens, zoals een umlaut, accenten en tilde, zijn ongeldige tekens.
-  - Het teken @ is vereist voor elke **userPrincipalName** -waarde.
-  - Het teken @ mag niet het eerste teken in een **userPrincipalName** -waarde zijn.
-  - De gebruikersnaam mag niet eindigen op een punt (.), een &amp; en-teken (), een spatie of een apenstaartje (@).
+  - Het **userPrincipalName-kenmerk** moet zich in de aanmeldingsindeling voor internetstijl hebben, waarbij de gebruikersnaam wordt gevolgd door het at sign (@) en een domeinnaam: bijvoorbeeld user@contoso.com. Alle SMTP-adressen (Simple Mail Transport Protocol) moeten voldoen aan de standaarden voor e-mailberichten.
+  - Het maximum aantal tekens voor het **userPrincipalName-kenmerk** is 113. Een bepaald aantal tekens is voor en na het bijteken (@) als volgt toegestaan:
+  - Maximum aantal tekens voor de gebruikersnaam die zich vóór het bijteken (@): 64
+  - Maximum aantal tekens voor de domeinnaam na het bijteken (@): 48
+  - Ongeldige tekens: \ % &amp; \* + / = ? { } | \< \> ( ) ; : , [ ] "
+  - Tekens toegestaan: A – Z, a - z, 0 – 9, ' . - _ ! # ^ ~
+  - Letters met diakritische tekens, zoals umlauts, accenten en tildes, zijn ongeldige tekens.
+  - Het @-teken is vereist voor elke **gebruikerPrincipalName-waarde.**
+  - Het @-teken kan niet het eerste teken zijn in elke **gebruikerPrincipalName-waarde.**
+  - De gebruikersnaam kan niet eindigen met een punt (.), een ampersand ( &amp; ), een spatie of een bijteken (@).
   - De gebruikersnaam mag geen spaties bevatten.
-  - Routeerbaar domein moet worden gebruikt; lokale of interne domeinen kunnen bijvoorbeeld niet worden gebruikt.
+  - Routable domains must be used; lokale of interne domeinen kunnen bijvoorbeeld niet worden gebruikt.
   - Unicode wordt geconverteerd naar onderstrepingstekens.
   - **userPrincipalName** mag geen dubbele waarden in de adreslijst bevatten.
 
-## <a name="3-prepare-the-userprincipalname-attribute"></a>3. het kenmerk userPrincipalName voorbereiden
+## <a name="3-prepare-the-userprincipalname-attribute"></a>3. Het userPrincipalName-kenmerk voorbereiden
 
-Active Directory is bedoeld voor de eindgebruikers in uw organisatie waarmee ze zich kunnen aanmelden bij uw adreslijst met behulp van **sAMAccountName** of **userPrincipalName**. Eindgebruikers kunnen zich ook aanmelden bij Microsoft 365 met behulp van de UPN (User Principal Name) van hun werk-of schoolaccount. Adreslijstsynchronisatie probeert nieuwe gebruikers te maken in azure Active Directory met behulp van dezelfde UPN in uw AD DS. De UPN wordt opgemaakt als een e-mailadres.
+Active Directory is zo ontworpen dat eindgebruikers in uw organisatie zich kunnen aanmelden bij uw adreslijst met **sAMAccountName** of **userPrincipalName.** Op dezelfde manier kunnen eindgebruikers zich aanmelden bij Microsoft 365 met de gebruikersnaam (UPN) van hun werk- of schoolaccount. Adreslijstsynchronisatie probeert nieuwe gebruikers te maken in Azure Active Directory met dezelfde UPN als in uw AD DS. De UPN is opgemaakt als een e-mailadres.
 
-In Microsoft 365 is de UPN het standaardkenmerk dat wordt gebruikt voor het genereren van het e-mailadres. U kunt in de proxyAddresses **-app** en het primaire e-mailadres in **proxyAddresses** op verschillende waarden instellen. Wanneer ze zijn ingesteld op verschillende waarden, kan dit leiden tot verwarring voor beheerders en eindgebruikers.
+In Microsoft 365 is de UPN het standaardkenmerk dat wordt gebruikt om het e-mailadres te genereren. Het is eenvoudig om **userPrincipalName** (in AD DS en in Azure AD) en het primaire e-mailadres in **proxyAddresses** op verschillende waarden in te stellen. Wanneer ze zijn ingesteld op verschillende waarden, kan er verwarring ontstaan voor beheerders en eindgebruikers.
 
-U kunt deze kenmerken het best uitlijnen om verwarring te beperken. Om te voldoen aan de vereisten van eenmalige aanmelding met Active Directory Federation Services (AD FS) 2,0, moet u ervoor zorgen dat de Upn's in azure Active Directory en de AD DS overeenkomen met een geldige domeinnaam ruimte.
+U kunt deze kenmerken het beste uitlijnen om verwarring te voorkomen. Als u wilt voldoen aan de vereisten van één aanmelding met Ad FS 2.0 (Active Directory Federation Services), moet u ervoor zorgen dat de UPN's in Azure Active Directory en uw AD DS overeenkomen en een geldige domeinnaamruimte gebruiken.
 
-## <a name="4-add-an-alternative-upn-suffix-to-ad-ds"></a>4. een alternatief UPN-achtervoegsel toevoegen aan AD DS
+## <a name="4-add-an-alternative-upn-suffix-to-ad-ds"></a>4. Een alternatief UPN-achtervoegsel toevoegen aan AD DS
 
-Het kan zijn dat u een alternatief UPN-achtervoegsel moet toevoegen om de bedrijfsreferenties van de gebruiker te koppelen aan de Microsoft 365-omgeving. Een UPN-achtervoegsel is het onderdeel van een UPN rechts van het teken @. UPN-namen die worden gebruikt voor eenmalige aanmelding kunnen letters, cijfers, punten, streepjes en onderstrepingstekens bevatten, maar geen andere typen tekens.
+Mogelijk moet u een alternatief UPN-achtervoegsel toevoegen om de bedrijfsreferenties van de gebruiker te koppelen aan de Microsoft 365-omgeving. Een UPN-achtervoegsel is het deel van een UPN rechts van het @-teken. UPN's die worden gebruikt voor een enkele aanmelding kunnen letters, cijfers, perioden, streepjes en onderstrepingstekens bevatten, maar geen andere typen tekens.
 
-Zie voor meer informatie over het toevoegen van een alternatief UPN-achtervoegsel aan Active Directory voor meer informatie over het [voorbereiden van adreslijstsynchronisatie]( https://go.microsoft.com/fwlink/p/?LinkId=525430).
+Zie Voorbereiden op [adreslijstsynchronisatie]( https://go.microsoft.com/fwlink/p/?LinkId=525430)voor meer informatie over het toevoegen van een alternatief UPN-achtervoegsel aan Active Directory.
 
-## <a name="5-match-the-ad-ds-upn-with-the-microsoft-365-upn"></a>5. overeen met de AD DS-UPN met de Microsoft 365-UPN
+## <a name="5-match-the-ad-ds-upn-with-the-microsoft-365-upn"></a>5. Koppel de AD DS UPN aan de Microsoft 365 UPN
 
-Als u al adreslijstsynchronisatie hebt ingesteld, komt de UPN van de gebruiker voor Microsoft 365 mogelijk niet overeen met de AD DS-UPN van de gebruiker die is gedefinieerd in uw AD DS. Dit kan zich voordoen wanneer aan een gebruiker een licentie is toegewezen voordat het domein is geverifieerd. U kunt dit oplossen door [PowerShell te gebruiken voor het herstellen](https://go.microsoft.com/fwlink/p/?LinkId=396730) van de UPN van de gebruiker om ervoor te zorgen dat de UPN van microsoft 365 overeenkomt met de naam en het domein van de zakelijke gebruiker. Als u de UPN in de AD DS bijwerkt en deze wilt synchroniseren met de Azure Active Directory-identiteit, moet u de licentie van de gebruiker verwijderen in Microsoft 365 voordat u wijzigingen aanbrengt in AD DS.
+Als u adreslijstsynchronisatie al hebt ingesteld, komt de UPN voor Microsoft 365 van de gebruiker mogelijk niet overeen met de AD DS UPN van de gebruiker die is gedefinieerd in uw AD DS. Dit kan gebeuren wanneer aan een gebruiker een licentie is toegewezen voordat het domein is geverifieerd. U kunt dit oplossen door [PowerShell te](https://go.microsoft.com/fwlink/p/?LinkId=396730) gebruiken om dubbele UPN op te lossen om de UPN van de gebruiker bij te werken om ervoor te zorgen dat de Microsoft 365 UPN overeenkomt met de zakelijke gebruikersnaam en het domein. Als u de UPN in de AD DS bij werkt en deze wilt synchroniseren met de Azure Active Directory-identiteit, moet u de licentie van de gebruiker in Microsoft 365 verwijderen voordat u de wijzigingen in AD DS aan kunt brengen.
 
-Zie ook [een niet-routeerbaar domein (zoals. lokaal) voorbereiden op adreslijstsynchronisatie](prepare-a-non-routable-domain-for-directory-synchronization.md).
+Zie Ook [Een niet-routable domain (zoals .local domain) voorbereiden voor adreslijstsynchronisatie.](prepare-a-non-routable-domain-for-directory-synchronization.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Als u de stappen 1 tot en met 5 hierboven hebt uitgevoerd, raadpleegt u [adreslijstsynchronisatie instellen](set-up-directory-synchronization.md).
+Zie Adreslijstsynchronisatie instellen als u stappen 1 tot en met 5 [hierboven hebt uitgevoerd.](set-up-directory-synchronization.md)

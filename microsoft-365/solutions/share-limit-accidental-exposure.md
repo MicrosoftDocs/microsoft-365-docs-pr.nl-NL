@@ -16,12 +16,12 @@ ms.custom: ''
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Meer informatie over het beperken van de onopzettelijke blootstelling van informatie bij het delen van bestanden met personen van buiten uw organisatie.
-ms.openlocfilehash: 430c00d46fa3801d0869b05a651fadd3bf5dea28
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 952337790ce2f0418dd5ab637435f1523b27b562
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49029967"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928410"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen van buiten uw organisatie
 
@@ -33,15 +33,15 @@ Als personen in uw organisatie moeten kunnen delen zonder verificatie, maar u zi
 
 ## <a name="turn-off-anyone-links"></a>Iedereen-koppelingen uitschakelen
 
-Wij raden u aan *Iedereen* -koppelingen ingeschakeld te laten voor geschikte inhoud, omdat dit de eenvoudigste manier is om te delen en om het risico te beperken dat gebruikers andere oplossingen zoeken waarop de IT-afdeling geen invloed heeft. *Iedereen* -koppelingen kunnen worden doorgestuurd naar anderen, maar bestandstoegang is alleen beschikbaar voor personen die de koppeling hebben.
+Wij raden u aan *Iedereen*-koppelingen ingeschakeld te laten voor geschikte inhoud, omdat dit de eenvoudigste manier is om te delen en om het risico te beperken dat gebruikers andere oplossingen zoeken waarop de IT-afdeling geen invloed heeft. *Iedereen*-koppelingen kunnen worden doorgestuurd naar anderen, maar bestandstoegang is alleen beschikbaar voor personen die de koppeling hebben.
 
 Als u wilt dat personen van buiten uw organisatie zich altijd moeten verifiëren bij het openen van inhoud in SharePoint, Groepen of Teams, kunt u delen met *Iedereen* uitschakelen. Hiermee voorkomt u dat gebruikers inhoud niet-geverifieerd delen.
 
-Als u *Iedereen* -koppelingen uitschakelt, kunnen gebruikers nog steeds eenvoudig met gasten delen met behulp van *Specifieke personen* -koppelingen. In dit geval zijn alle personen van buiten uw organisatie verplicht zich te verifiëren voordat ze toegang krijgen tot de gedeelde inhoud.
+Als u *Iedereen*-koppelingen uitschakelt, kunnen gebruikers nog steeds eenvoudig met gasten delen met behulp van *Specifieke personen*-koppelingen. In dit geval zijn alle personen van buiten uw organisatie verplicht zich te verifiëren voordat ze toegang krijgen tot de gedeelde inhoud.
 
-Afhankelijk van uw behoeften kunt u *Iedereen* -koppelingen voor specifieke sites of voor uw hele organisatie uitschakelen.
+Afhankelijk van uw behoeften kunt u *Iedereen*-koppelingen voor specifieke sites of voor uw hele organisatie uitschakelen.
 
-*Iedereen* -koppelingen voor uw organisatie uitschakelen
+*Iedereen*-koppelingen voor uw organisatie uitschakelen
 1. Klik in het SharePoint Online Beheercentrum in het navigatievenster aan de linkerkant op **Delen**.
 2. Stel de instellingen voor extern delen van SharePoint in op **Nieuwe en bestaande gasten**.
 
@@ -49,7 +49,7 @@ Afhankelijk van uw behoeften kunt u *Iedereen* -koppelingen voor specifieke site
 
 3. Klik op **Opslaan**.
 
-*Iedereen* -links voor een site uitschakelen
+*Iedereen*-links voor een site uitschakelen
 1. Vouw **Sites** uit in het SharePoint Online Beheercentrum in het navigatievenster aan de linkerkant en klik op **Delen**.
 2. Selecteer de site die u wilt configureren.
 3. Klik op het lint op **Delen**.
@@ -67,10 +67,10 @@ Met een lijst Toestaan kunt u een lijst opgeven met domeinen waarin gebruikers i
 
 Met een lijst Weigeren kunt u een lijst opgeven met domeinen waaruit gebruikers in uw organisatie niet kunnen delen met personen van buiten uw organisatie. Delen met de opgegeven domeinen wordt geblokkeerd. Dit kan handig zijn als u bijvoorbeeld concurrenten hebt, waarvan u wilt voorkomen dat zij toegang hebben tot de inhoud van uw organisatie.
 
-De lijsten Toestaan en Weigeren zijn alleen van toepassing op delen met gasten. Gebruikers kunnen nog steeds delen met personen van verboden domeinen met *Iedereen* -koppelingen als u deze niet hebt uitgeschakeld. Voor de beste resultaten met lijsten voor het toestaan en weigeren van domeinen kunt u eventueel de *Iedereen* -koppelingen uitschakelen, zoals hierboven beschreven.
+De lijsten Toestaan en Weigeren zijn alleen van toepassing op delen met gasten. Gebruikers kunnen nog steeds delen met personen van verboden domeinen met *Iedereen*-koppelingen als u deze niet hebt uitgeschakeld. Voor de beste resultaten met lijsten voor het toestaan en weigeren van domeinen kunt u eventueel de *Iedereen*-koppelingen uitschakelen, zoals hierboven beschreven.
 
 Een lijst voor het toestaan of weigeren van domeinen instellen
-1. Klik in het SharePoint Online Beheercentrum in het navigatievenster aan de linkerkant op **delen**.
+1. Klik in het SharePoint Online Beheercentrum in het navigatievenster aan de linkerkant op **Delen**.
 2. Onder **Geavanceerde instellingen voor extern delen** selecteert u het selectievakje **Extern delen beperken per domein**.
 3. Klik op **Domeinen toevoegen**.
 4. Selecteer of u wilt dat er domeinen worden geblokkeerd, typ de domeinen en klik op **OK**.
@@ -79,7 +79,7 @@ Een lijst voor het toestaan of weigeren van domeinen instellen
 
 5. Klik op **Opslaan**.
 
-Als u het delen per domein op een hoger niveau dan SharePoint en OneDrive wilt beperken, kunt u [uitnodigingen voor B2B-gebruikers toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list) in Microsoft Azure Active Directory. (Voor deze instellingen moet u de [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (Voorbeeld)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) configureren om invloed te hebben op SharePoint en OneDrive.)
+Als u het delen per domein op een hoger niveau dan SharePoint en OneDrive wilt beperken, kunt u [uitnodigingen voor B2B-gebruikers toestaan of blokkeren](/azure/active-directory/b2b/allow-deny-list) in Microsoft Azure Active Directory. (Voor deze instellingen moet u de [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (Voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) configureren om invloed te hebben op SharePoint en OneDrive.)
 
 ## <a name="limit-sharing-of-files-folders-and-sites-with-people-outside-your-organization-to-specified-security-groups"></a>Het delen van bestanden, mappen en sites met personen van buiten uw organisatie beperken tot gespecificeerde beveiligingsgroepen
 
@@ -91,7 +91,7 @@ Extern delen beperken tot leden van een beveiligingsgroep
 
 3. Selecteer **Alleen gebruikers in een bepaalde beveiligingsgroep toestaan om extern te delen** en selecteer vervolgens **Beveiligingsgroepen beheren**.
 
-    ![Schermafbeelding van het deelvenster Beveiligingsgroepen beheren](https://docs.microsoft.com/sharepoint/sharepointonline/media/manage-security-groups.png)
+    ![Schermafbeelding van het deelvenster Beveiligingsgroepen beheren](/sharepoint/sharepointonline/media/manage-security-groups.png)
 
 4. Voer in het dialoogvenster **Een beveiligingsgroep toevoegen** een naam in voor een beveiligingsgroep. Het dialoogvenster Beveiligingsgroep wordt nu weergegeven.
 

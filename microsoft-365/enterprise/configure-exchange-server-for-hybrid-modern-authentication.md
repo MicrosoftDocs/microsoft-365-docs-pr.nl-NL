@@ -1,5 +1,5 @@
 ---
-title: De on-premises implementatie van Exchange server configureren voor gebruik van hybride moderne verificatie
+title: Exchange Server on-premises configureren voor het gebruik van hybride moderne verificatie
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,60 +15,60 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: Lees meer over het configureren van een on-premises Exchange-Server voor hybride implementatie van gebruikers, met een uitgebreide verificatie van gebruikers en autorisatie.
+description: Meer informatie over het configureren van een on-premises Exchange Server voor het gebruik van HMA (Hybrid Modern Authentication), met een veiligere gebruikersverificatie en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3841f429399500cfc24ebadc89c74d478d2290d9
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.openlocfilehash: 46646f35d3b41821424269f66721fbf829d339f7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780282"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928200"
 ---
-# <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>De on-premises implementatie van Exchange server configureren voor gebruik van hybride moderne verificatie
+# <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Exchange Server on-premises configureren voor het gebruik van hybride moderne verificatie
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Hybrid modern Authentication (HMA) is een methode van identiteitsbeheer die veiliger en autorisatie van gebruikers biedt en beschikbaar is voor Exchange Server on-premises hybride implementaties.
+HMA (Hybrid Modern Authentication) is een methode voor identiteitsbeheer die veiligere gebruikersverificatie en autorisatie biedt en beschikbaar is voor on-premises hybride implementaties van Exchange-server.
 
-## <a name="fyi"></a>TER informatie
+## <a name="fyi"></a>TER INFORMATIE
 
-Voordat we beginnen, bel ik het volgende:
+Voordat we beginnen, bel ik:
 
-- Hybrid modern Authentication \> HMA
+- Hybride moderne verificatie \> HMA
 
-- Exchange on \> -premises uitwisseling
+- Exchange on-premises \> EXCH
 
-- Exchange Online \> Exo
+- Exchange Online \> EXO
 
-Ook *als een afbeelding in dit artikel een object heeft dat niet beschikbaar is (grijs) of lichter gekleurd, betekent dit dat het element dat grijs wordt weergegeven, niet is opgenomen in de HMA-specifieke configuratie*.
+Als een afbeelding in dit artikel een object bevat dat 'grijs'of 'grijs' is, betekent dit dat het element dat in grijs wordt weergegeven, niet is opgenomen *in HMA-specifieke configuratie.*
 
-## <a name="enabling-hybrid-modern-authentication"></a>Hybride authenticatie inschakelen
+## <a name="enabling-hybrid-modern-authentication"></a>Hybride moderne verificatie inschakelen
 
-Het inschakelen van HMA betekent:
+HMA in- of uitschakelen betekent:
 
-1. Zorg ervoor dat u voldoet aan de prereqs voordat u begint.
+1. Zorg ervoor dat u aan de prereqs voldoet voordat u begint.
 
-1. Aangezien veel voor **waarden** van toepassing zijn op Skype voor bedrijven en Exchange, de [hybride verificatie-overzicht van de hybride versie en vereisten voor het gebruik van on-premises Skype voor bedrijven en Exchange-servers](hybrid-modern-auth-overview.md). Ga verder voordat u de stappen in dit artikel begint.
+1. Aangezien veel **vereisten gebruikelijk** zijn voor zowel Skype voor Bedrijven als Exchange, zijn hybride moderne verificatieoverzicht en vereisten voor het gebruik ervan met on-premises Skype voor Bedrijven- en [Exchange-servers vereist.](hybrid-modern-auth-overview.md) Doe dit voordat u een van de stappen in dit artikel start.
 
-1. On-premises Url's voor webservice toevoegen als **spn's (Service Principal Names)** in azure AD.
+1. On-premises webservice-URL's toevoegen als **SPN's (Service Principal Names)** in Azure AD.
 
-1. Ervoor zorgen dat alle virtuele mappen worden ingeschakeld voor HMA
+1. Ervoor zorgen dat alle virtuele directories zijn ingeschakeld voor HMA
 
-1. Controleren op het EvoSTS auth Server-object
+1. Controleren op het object Auth Server van EvoSTS
 
-1. Enable HMA in wisselkoers.
+1. HMA inschakelen in EXCH.
 
- **Opmerking** Biedt uw versie van Office ondersteuning voor MA? Zie [hoe moderne verificatie werkt voor office 2013-en office 2016-clienttoepassingen](modern-auth-for-office-2013-and-2016.md).
+ **Opmerking** Ondersteunt uw versie van Office MA? Zie [Hoe moderne verificatie werkt voor office 2013- en Office 2016-client-apps.](modern-auth-for-office-2013-and-2016.md)
 
-## <a name="make-sure-you-meet-all-the-prerequisites"></a>Zorg dat u aan alle vereisten voldoet.
+## <a name="make-sure-you-meet-all-the-prerequisites"></a>Zorg ervoor dat u aan alle vereisten voldoet
 
-Aangezien veel voorwaarden voor Skype voor bedrijven en Exchange voor u gelden, moet [u het overzicht van hybride verificatie en vereisten voor het gebruik van on-premises Skype voor bedrijven en Exchange-servers](hybrid-modern-auth-overview.md)raadplegen. Ga verder  *voordat*  u de stappen in dit artikel begint.
+Aangezien veel vereisten gebruikelijk zijn voor zowel Skype voor Bedrijven als Exchange, bekijkt u hybride moderne verificatieoverzicht en vereisten voor het gebruik ervan met on-premises Skype voor Bedrijven- en [Exchange-servers.](hybrid-modern-auth-overview.md) Doe dit  *voordat*  u een van de stappen in dit artikel start.
 
-## <a name="add-on-premises-web-service-urls-as-spns-in-azure-ad"></a>On-premises webservice-Url's toevoegen als Spn's in azure AD
+## <a name="add-on-premises-web-service-urls-as-spns-in-azure-ad"></a>On-premises webservice-URL's toevoegen als SPN's in Azure AD
 
-Voer de opdrachten uit waarop u de on-premises Url's voor de web-service aanwijst als Azure AD-Spn's. Spn's worden door clients en apparaten van de client gebruikt tijdens verificatie en autorisatie. Alle Url's die kunnen worden gebruikt voor het maken van verbinding tussen locaties en Azure Active Directory (Azure AD), moeten worden geregistreerd in azure AD (dit geldt ook voor interne en externe naamruimten).
+Voer de opdrachten uit die uw on-premises webservice-URL's toewijzen als Azure AD SPN's. SPN's worden gebruikt door clientapparaten en apparaten tijdens verificatie en autorisatie. Alle URL's die kunnen worden gebruikt om verbinding te maken van on-premises naar Azure Active Directory (Azure AD) moeten zijn geregistreerd in Azure AD (dit omvat zowel interne als externe naamruimten).
 
-Verzamel eerst alle Url's die u wilt toevoegen in AAD. Voer deze opdrachten on-premises uit:
+Verzamel eerst alle URL's die u in AAD moet toevoegen. Voer deze opdrachten on-premises uit:
 
 ```powershell
 Get-MapiVirtualDirectory | FL server,*url*
@@ -79,21 +79,21 @@ Get-AutodiscoverVirtualDirectory | FL server,*url*
 Get-OutlookAnywhere | FL server,*url*
 ```
 
-Zorg ervoor dat de Url's clients kunnen verbinding maken met behulp van HTTPS-service-principal-namen in AAD.
+Zorg ervoor dat de URL's waar verbinding mee kan worden gemaakt, worden weergegeven als HTTPS-service principal names in AAD.
 
-1. Maak eerst verbinding met AAD met [deze instructies](connect-to-microsoft-365-powershell.md).
+1. Maak eerst verbinding met AAD met [deze instructies.](connect-to-microsoft-365-powershell.md)
 
-   **Opmerking** U moet de optie _verbinding-MsolService_ van deze pagina gebruiken om de onderstaande opdracht te kunnen gebruiken.
+   **Opmerking** U moet de optie _Connect-MsolService_ op deze pagina gebruiken om de onderstaande opdracht te kunnen gebruiken.
 
-2. Voor de Exchange-gerelateerde Url's typt u de volgende opdracht:
+2. Typ de volgende opdracht voor uw Exchange-gerelateerde URL's:
 
    ```powershell
    Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 | select -ExpandProperty ServicePrincipalNames
    ```
 
-   Let op (en schermafbeelding voor een latere vergelijking) de uitvoer van deze opdracht, die een https://  *Autodiscover.yourdomain.com*  en https://  *mail.yourdomain.com* -URL moet bevatten, maar meestal bestaat uit spn's die beginnen met 00000002-0000-0ff1-CE00-000000000000/. Als er https://-Url's van uw on-premises zijn, moeten deze specifieke records aan deze lijst worden toegevoegd.
+   Noteer (en schermafbeelding voor latere vergelijking) de uitvoer van deze opdracht, die een https://  *autodiscover.yourdomain.com*  en https://  *mail.yourdomain.com-URL* moet bevatten, maar meestal bestaat uit SPN's die beginnen met 00000002-0000-0ff1-ce00-0000000000/. Als er https:// url's van uw on-premises url's ontbreken, moeten we deze specifieke records toevoegen aan deze lijst.
 
-3. Als u uw interne en externe MAPI-, EWS-, ActiveSync-, OAB-en Autodiscover-records niet ziet in deze lijst, moet u deze toevoegen met behulp van de volgende opdracht (de voorbeeld Url's zijn ' `mail.corp.contoso.com` ' en ' `owa.contoso.com` ', maar **vervangt u de url's met uw eigen url's** wel.
+3. Als u uw interne en externe MAPI/HTTP-, EWS-, ActiveSync-, OAB- en Autodiscover-records niet ziet in deze lijst, moet u deze toevoegen met de onderstaande opdracht (het voorbeeld-URL's zijn ' ' en ' ', maar u vervangt de voorbeeld-URL's door uw `mail.corp.contoso.com` `owa.contoso.com` **eigen** URL's):
 
    ```powershell
    $x= Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000
@@ -102,11 +102,11 @@ Zorg ervoor dat de Url's clients kunnen verbinding maken met behulp van HTTPS-se
    Set-MSOLServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $x.ServicePrincipalNames
    ```
 
-4. Controleer of de nieuwe records zijn toegevoegd door de opdracht Get-MsolServicePrincipal uit stap 2 opnieuw uit te voeren en de uitvoer te bekijken. Vergelijk de lijst/schermafbeelding van vóór de nieuwe lijst met Spn's. U kunt ook een schermafbeelding van de nieuwe lijst voor uw records opnemen. Als u slaagt, worden de twee nieuwe Url's in de lijst weergegeven. In ons voorbeeld, de lijst met Spn's bevat nu de specifieke Url's  `https://mail.corp.contoso.com`  en  `https://owa.contoso.com` .
+4. Controleer of de nieuwe records zijn toegevoegd door de opdracht Get-MsolServicePrincipal stap 2 opnieuw uit te voeren en door de uitvoer te kijken. Vergelijk de lijst /schermafbeelding van vóór met de nieuwe lijst met SPN's. Mogelijk maakt u ook een schermafbeelding van de nieuwe lijst voor uw records. Als u succes hebt gehad, ziet u de twee nieuwe URL's in de lijst. Als u naar ons voorbeeld gaat, bevat de lijst met SPN's nu de specifieke URL's  `https://mail.corp.contoso.com`  en  `https://owa.contoso.com` .
 
-## <a name="verify-virtual-directories-are-properly-configured"></a>Controleren of virtuele mappen correct zijn geconfigureerd
+## <a name="verify-virtual-directories-are-properly-configured"></a>Controleren of virtuele adresgegevens correct zijn geconfigureerd
 
-Op deze manier controleert u of OAuth correct is ingeschakeld in Exchange voor alle virtuele mappen die in Outlook kunnen worden gebruikt door de volgende opdrachten uit te voeren:
+Controleer nu of OAuth correct is ingeschakeld in Exchange op alle virtuele adreslijst die Outlook kan gebruiken door de volgende opdrachten uit te voeren:
 
 ```powershell
 Get-MapiVirtualDirectory | FL server,*url*,*auth*
@@ -115,7 +115,7 @@ Get-OABVirtualDirectory | FL server,*url*,*oauth*
 Get-AutoDiscoverVirtualDirectory | FL server,*oauth*
 ```
 
-Controleer de uitvoer om er voor elk van deze VDirs in te schakelen, wat er ongeveer zo uitziet (en de naam van het bestand dat u **wilt controleren is** ' OAuth '):
+Controleer de uitvoer om te controleren of **OAuth** is ingeschakeld op elk van deze VDirs, het ziet er zo uit (en het belangrijkste wat u moet bekijken is 'OAuth'):
 
 ```powershell
 Get-MapiVirtualDirectory | fl server,*url*,*auth*
@@ -128,40 +128,40 @@ InternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
 ExternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
 ```
 
-Als OAuth niet op een server en in een van de vier virtuele mappen ontbreekt, moet u deze toevoegen aan de hand van de betreffende opdrachten voordat u verdergaat ([set-MapiVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-mapivirtualdirectory), [set-WebServicesVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-webservicesvirtualdirectory), [set-OABVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-oabvirtualdirectory)en [set-AutodiscoverVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-autodiscovervirtualdirectory)).
+Als OAuth ontbreekt op een server en een van de vier virtuele directories, moet u deze toevoegen met behulp van de relevante opdrachten voordat u verdergaat ([Set-MapiVirtualDirectory](/powershell/module/exchange/set-mapivirtualdirectory), [Set-WebServicesVirtualDirectory](/powershell/module/exchange/set-webservicesvirtualdirectory), [Set-OABVirtualDirectory](/powershell/module/exchange/set-oabvirtualdirectory)en [Set-AutodiscoverVirtualDirectory](/powershell/module/exchange/set-autodiscovervirtualdirectory)).
 
-## <a name="confirm-the-evosts-auth-server-object-is-present"></a>Bevestig dat het object van de EvoSTS Authentication server aanwezig is
+## <a name="confirm-the-evosts-auth-server-object-is-present"></a>Bevestig dat het Object Auth Server van EvoSTS aanwezig is
 
-Keer terug naar de on-premises Exchange Management Shell voor deze laatste opdracht. U kunt nu controleren of uw on-premises een vermelding heeft voor de evoSTS-verificatieprovider:
+Ga terug naar de on-premises Exchange Management Shell voor deze laatste opdracht. U kunt nu valideren dat uw on-premises vermelding een vermelding heeft voor de provider van de verificatieprovider van evoSTS:
 
 ```powershell
 Get-AuthServer | where {$_.Name -eq "EvoSts"}
 ```
 
-Voor de uitvoer moet een AuthServer worden weergegeven van de naam EvoSts en moet de ' ingeschakelde ' status waar zijn. Als u dit niet ziet, dient u de meest recente versie van de wizard hybride configuratie te downloaden en uit te voeren.
+De uitvoer moet een AuthServer van de naam EvoSts laten zien en de status 'Ingeschakeld' moet Waar zijn. Als u dit niet ziet, moet u de meest recente versie van de wizard Hybride configuratie downloaden en uitvoeren.
 
- **Belangrijk** Als u Exchange 2010 gebruikt in uw omgeving, wordt de EvoSTS-verificatieprovider niet gemaakt.
+ **Belangrijk** Als u Exchange 2010 in uw omgeving gebruikt, wordt de Verificatieprovider van EvoSTS niet gemaakt.
 
 ## <a name="enable-hma"></a>HMA inschakelen
 
-Voer de volgende opdracht uit in de Exchange-beheer shell, on-premises:
+Voer de volgende opdracht uit in de On-premises Exchange Management Shell:
 
 ```powershell
 Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
 
-## <a name="verify"></a>Verifiëren
+## <a name="verify"></a>Controleren
 
-Wanneer u HMA hebt ingeschakeld, wordt de nieuwe verificatie stroom gebruikt door de volgende aanmelding van een client. Wanneer u een HMA inschakelt, wordt de herauthenticatie voor geen enkele client geactiveerd. De client verifieert op basis van de levensduur van de auth-tokens en/of certificeringen.
+Wanneer u HMA hebt ingeschakeld, wordt de nieuwe auth-stroom gebruikt voor de volgende aanmelding van een klant. Houd er rekening mee dat u met het in-/uitschakelen van HMA geen herauthenticatie voor een client kunt activeren. De clients reauthenticate op basis van de levensduur van de auth tokens en/of certs die ze hebben.
 
-Houd de CTRL-toets ook ingedrukt terwijl u met de rechtermuisknop op het pictogram van de Outlook-client klikt (ook in het systeemvak van Windows) en klik op verbindings status. Let op het SMTP-adres van de client tegen een ' auth '-type ' Bearer \* ', dat staat voor het dragertoken dat in OAuth wordt gebruikt.
+U moet ook de Ctrl-toets ingedrukt houden terwijl u met de rechtermuisknop op het pictogram voor de Outlook-client klikt (ook in het windows-systeemvak) en klikt u op 'Verbindingsstatus'. Zoek naar het SMTP-adres van de klant tegen het type 'Authn' van 'Bearer', dat het token voor de toler vertegenwoordigt dat \* in OAuth wordt gebruikt.
 
- **Opmerking** Wilt u Skype voor bedrijven configureren met HMA? U hebt twee artikelen nodig: een die de [ondersteunde topologieën](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)bevat, en een ervan waarin u ziet [hoe u de configuratie kunt uitvoeren](configure-skype-for-business-for-hybrid-modern-authentication.md).
+ **Opmerking** Wilt u Skype voor Bedrijven configureren met HMA? U hebt twee artikelen nodig: een met ondersteunde [toologieën](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)en een waarin u kunt zien hoe u [de configuratie kunt doen.](configure-skype-for-business-for-hybrid-modern-authentication.md)
 
 ## <a name="using-hybrid-modern-authentication-with-outlook-for-ios-and-android"></a>Hybride moderne verificatie gebruiken met Outlook voor iOS en Android
 
-Als u een on-premises klant bent met behulp van Exchange Server op TCP 443, slaat u de verwerking van verkeer voor de volgende IP-bereiken over.
+Als u een on-premises klant bent die Exchange-server gebruikt op TCP 443, kunt u de verwerking van verkeer voor de volgende IP-bereik omzeilen:
 
 ```text
 52.125.128.0/20
@@ -170,4 +170,4 @@ Als u een on-premises klant bent met behulp van Exchange Server op TCP 443, slaa
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Configuratievereisten voor moderne verificatie voor overgang van Office 365 dedicated/ITAR naar vNext ontgrendelen](https://docs.microsoft.com/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)
+[Moderne verificatieconfiguratievereisten voor de overgang van Office 365 dedicated/ITAR naar vNext](/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)

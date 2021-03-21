@@ -12,31 +12,31 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
-description: Het bereiken van de bronnen die overeenkomen met het afgeschafte Bureaubladimplementatie centrum.
-ms.openlocfilehash: 1b930bae76c510108556947977aa1393ae9bd86b
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+description: Informatie over het gebruik van resources die gelijk zijn aan het afgeschafte bureaubladimplementatiecentrum.
+ms.openlocfilehash: c4456d0f17e38920e77c855e31205e51025f111b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398829"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928166"
 ---
-# <a name="desktop-deployment-center-deprecated"></a>Bureaubladimplementatie centrum (afgeschaft)
+# <a name="desktop-deployment-center-deprecated"></a>Bureaubladimplementatiecentrum (afgeschaft)
 
-De tekst in de hoofdtekst van het Bureaubladimplementatie centrum is afgeschaft. 
+De inhoudsinhoud van het bureaubladimplementatiecentrum is afgeschaft. 
 
-Gebruik deze informatiebronnen om moderne bureaubladen te implementeren:
+Gebruik deze bronnen om moderne bureaubladen te implementeren:
 
-- [Windows 10-implementatie](https://docs.microsoft.com/windows/deployment/)
-- [Microsoft 365-apps implementeren](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
-- [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide)
+- [Windows 10-implementatie](/windows/deployment/)
+- [Microsoft 365-apps implementeren](/deployoffice/deployment-guide-microsoft-365-apps)
+- [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
 - [Beleid voor identiteiten en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md)
 
-U kunt ook de Video's voor de [bureaubladimplementatie weergeven vanuit Microsoft-mechanismen](https://www.aka.ms/watchhowtoshift).
+U kunt ook video's van de [serie Bureaubladimplementatie bekijken vanuit Microsoft Mechanics.](https://www.aka.ms/watchhowtoshift)
 
-U kunt ook hulp krijgen van uw bureaubladimplementatie van Microsoft partners en [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365).
+U kunt ook hulp vinden voor uw bureaubladimplementatie van Microsoft-partners en [FastTrack.](https://www.microsoft.com/fasttrack/microsoft-365)
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
-Met deze kit kunt u de implementatie en het beheer van desktops met Windows 10 Enterprise en Microsoft 365-apps voor Enterprise plannen, testen en valideren. De Labs-kap met Microsoft endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows auto pilot en meer.
+Met deze kit kunt u uw implementatie en beheer van bureaubladen met Windows 10 Enterprise en Microsoft 365 Apps voor ondernemingen plannen, testen en valideren. De labs behandelen het gebruik van Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot en meer.
 
-Zie [Windows en Office Deployment Lab kit](modern-desktop-deployment-and-management-lab.md) voor de details.
+Zie [Windows en Office Deployment Lab Kit voor](modern-desktop-deployment-and-management-lab.md) meer informatie.

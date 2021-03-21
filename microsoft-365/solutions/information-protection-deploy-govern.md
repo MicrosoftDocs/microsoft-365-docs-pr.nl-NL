@@ -1,5 +1,5 @@
 ---
-title: Bepalen welke informatie onderworpen is aan de regelgeving voor data privacy
+title: Bepalen van gegevens die onderworpen zijn aan privacyregel voor gegevens
 ms.author: bcarter
 author: brendacarter
 f1.keywords:
@@ -16,79 +16,78 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: U kunt de Microsoft 365-Bewaar labels en-beleidsregels gebruiken voor het beheren van persoonlijke gegevens in uw Microsoft 365-omgeving.
-ms.openlocfilehash: c2a933e556213ae4b78db9dc5f903885df969b27
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: Gebruik microsoft 365 bewaarlabels en -beleid om persoonlijke gegevens te beheren in uw Microsoft 365-omgeving.
+ms.openlocfilehash: 62c2386ac8f9c5b31650df8be2c2a411d8b75959
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377043"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928434"
 ---
-# <a name="govern-information-subject-to-data-privacy-regulation"></a>Bepalen welke informatie onderworpen is aan de regelgeving voor data privacy
+# <a name="govern-information-subject-to-data-privacy-regulation"></a>Bepalen van gegevens die onderworpen zijn aan privacyregel voor gegevens
 
-De beheerfuncties voor informatiebeheer kunnen in uw omgeving worden gebruikt om gegevens aan te vullen ter informatie, waaronder een nummer dat specifiek bedoeld is voor de algemene verordening gegevensbescherming (AVG), HIPAA-HITECH (de Amerikaanse gezondheids verzorging van de gezondheids verzorging), Californië voor consumentenbescherming (CCPA) en de wet Data Protection Act (LGPD). 
+Informatiebeheerbesturingselementen kunnen worden gebruikt in uw omgeving om te helpen bij het voldoen aan de nalevingsvereisten voor gegevensbescherming, waaronder een nummer dat specifiek is voor Algemene verordening gegevensbescherming (AVG), HIPAA-HITECH (de Amerikaanse privacywet voor gezondheidszorg), de California Consumer Protection Act (CTPA) en de Brazil Data Protection Act (LGPD). 
 
-De volgende besturingselementen zijn in eerste instantie ingedeeld in de volgende oplossings gebieden:
+Deze besturingselementen vallen voornamelijk onder de volgende oplossingsgebieden:
 
 - Bewaarbeleid
 - Bewaarlabels
 - Records Management
 
-## <a name="data-privacy-regulations-impacting-information-governance-controls"></a>Voorschriften voor de privacy van gegevensbeheer
+## <a name="data-privacy-regulations-impacting-information-governance-controls"></a>Privacyregels voor gegevens die van invloed zijn op besturingselementen voor informatiebeheer
 
-Hieronder ziet u een voorbeeld van een lijst met voorschriften voor de privacy van gegevens die in verband met informatiebeheer kunnen worden beheerd:
+Hier vindt u een voorbeeld van de privacyregels voor gegevens die betrekking kunnen hebben op besturingselementen voor informatiebeheer:
 
-- AVG artikel (13) (2) (a)
-- AVG artikel (5) (1) (f)
-- HIPAA-HITECH (45 CFR 164.312 (c) (2))
-- HIPAA-HITECH (45 CFR 164.316 (b) (1) (i))
-- HIPAA-HITECH (45 CFR 164.316 (b) (1) (II))
-- LGPD artikel 46
+- AVG-artikel (13)(2)(a)
+- AVG-artikel (5)(1)(f)
+- HIPAA-HITECH (45 CFR 164.312(c)(2))
+- HIPAA-HITECH (45 CFR 164.316(b)(1)(i))
+- HIPAA-HITECH (45 CFR 164.316(b)(1)(ii))
+- LGPD-artikel 46
 
-Zie voor meer informatie over deze voorschriften het [artikel privacyinstellingen voor gegevens en identificeren van gevoelige informatie](information-protection-deploy-assess.md).
+Zie het artikel Privacyrisico's voor gegevens beoordelen en gevoelige informatie identificeren voor meer [informatie over deze regelgeving.](information-protection-deploy-assess.md)
 
-Voor informatiebeheer: voor informatiebeheer worden meestal de volgende gegevens verzameld:
+Voor informatiebeheer is de privacyregel voor gegevens meestal het volgende nodig:
 
-- U dient een technisch stelsel te gebruiken voor bewaren en verwijderen van persoonlijke gegevens die zijn opgeslagen in Microsoft 365.
-- Als u persoonlijke gegevens wilt opslaan, kunt u het onderwerp van de hoeveelheid werk dat de gegevens bevat, op de front-endwebservers toepassen.
-- Persoonlijke gegevens moeten tegen onbedoelde verwerking, verlies of wijziging via verifieerbare methoden beschermd worden.
-- Elke actie die wordt uitgevoerd met persoonlijke gegevens moet worden gedocumenteerd en de documentatie moet worden bewaard gedurende een bepaalde periode.
+- U moet een technisch schema gebruiken voor het bewaren en verwijderen van persoonlijke gegevens die zijn opgeslagen in Microsoft 365.
+- Als u persoonlijke gegevens gaat opslaan, informeert u het onderwerp over hoe lang de gegevens worden opgeslagen, wat nu een standaardpraktijk is op front-endwebsystemen.
+- Persoonsgegevens moeten worden beschermd tegen onbedoelde verwerking, verlies of wijziging met behulp van controleerbare methoden.
+- Alle acties die worden uitgevoerd met betrekking tot persoonlijke gegevens, moeten worden gedocumenteerd en de documentatie moet voor een bepaalde periode worden bewaard.
 
-Aangezien de regelgeving voor gegevensbescherming niet zeer specifiek is voor het bewaren en verwijderen van gegevens, moeten andere factoren in rekening worden gebracht waarbij informatie over de beleidsregels voor informatiebeheer voor persoonlijke gegevens die zijn opgeslagen in uw abonnement op Microsoft 365, kunnen worden gedicteerd. Hier volgen enkele voorbeelden:
+Omdat de privacyregels voor gegevens niet erg specifiek zijn als het gaat om het bewaren en verwijderen van gegevens, moet rekening worden gehouden met andere factoren die richtlijnen voor informatiebeheer kunnen dicteren voor persoonlijke gegevens die zijn opgeslagen in uw Microsoft 365-abonnement. Hier zijn enkele voorbeelden:
 
-- Verouderde consumenten accounts na 5 jaar inactiviteit en vereist het verwijderen of anonimiseren van rekeninggegevens na dit punt, waarbij de gegevens en werkstromen die zijn gekoppeld aan meldingen en andere automatisering, worden opgeslagen.
-- Het instellen van regels voor het behoud van beleid en procedures met betrekking tot AVG rond drie jaar nadat deze zijn vervangen, wat is uitgelijnd met het bewaarschema van de organisatie voor beleidsregels en procedures.
-- Het onderhouden van een apart abonnement voor het communiceren met consumenten via zijn ondersteunings organisatie. Alle e-mailberichten werden na twee weken bewaard en verwijderd om de privacy van buildup in het systeem te verminderen.
+- Veroudert consumentenaccounts na 5 jaar inactiviteit en vereist verwijdering of anonimisatie van accountgegevens na dat punt, waarbij het systeem de gegevens en werkstromen met betrekking tot meldingen en andere automatisering moet opslaan.
+- Het configureren van regels voor het behouden van beleidsregels en procedures met betrekking tot AVG is ongeveer drie jaar nadat ze zijn overdwars, wat in overeenstemming is met het bewaarschema van de organisatie voor beleid en procedures.
+- Het onderhouden van een afzonderlijk abonnement voor het communiceren met consumenten via de ondersteuningsorganisatie. Alle e-mailcommunicatie is na twee weken bewaard en verwijderd om de opbouw van privacyschulden in het systeem te beperken.
 
-U kunt op de volgende belangrijke vragen beantwoorden: 
+Een belangrijke vraag die u moet beantwoorden is: 
 
-- Hoelang is informatie die persoonlijke gegevens bevat, moet worden bewaard voor geldige zakelijke redenen om te voorkomen dat u de functie permanent houdt. Dit moet evenwichtig zijn met de Bewaar behoeften voor bedrijfscontinuïteit.
+- Hoe lang moeten gegevens met persoonlijke gegevens worden bewaard om geldige zakelijke redenen om te voorkomen dat er 'voor altijd' wordt gebruikt? Dit moet worden afgewogen met de bewaarbehoeften voor bedrijfscontinuïteit.
 
-Ongeacht de juridische en zakelijke redenen voor het behoud van persoonlijke gegevens rond of te verwijderen, biedt Microsoft een aantal mogelijkheden om uw gegevensbeheer schema te implementeren in Microsoft 365.
+Ongeacht de juridische en zakelijke redenen voor het bewaren van persoonlijke gegevens of het verwijderen ervan, biedt Microsoft een aantal mogelijkheden voor het implementeren van uw gegevensbeheerschema in Microsoft 365.
 
-## <a name="managing-information-governance-in-microsoft-365"></a>Information governance beheren in Microsoft 365
+## <a name="managing-information-governance-in-microsoft-365"></a>Informatiebeheer beheren in Microsoft 365
 
-Zie [Gegevensbeheer](../compliance/manage-information-governance.md) en [gegevens behoud, verwijdering en vernietiging beheren in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)als u wilt beginnen.
+Zie Informatiebeheer en [gegevensretentie,](../compliance/manage-information-governance.md) verwijdering en vernietiging beheren [in Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)om te beginnen.
 
-### <a name="develop-data-retention-schedules-for-containers-email-and-content"></a>Schema voor het bewaren van gegevens voor containers, e-mail en inhoud ontwikkelen
+### <a name="develop-data-retention-schedules-for-containers-email-and-content"></a>Planningen voor het bewaren van gegevens ontwikkelen voor containers, e-mail en inhoud
 
 Houd het volgende in gedachten:
 
-- Het maken van een bewaarschema voor gegevens voor gedefinieerde gegevenstypen moet als vereiste gelden voor het implementeren van een bewaarschema of een verwijderings schema.
+- Het opstellen van een planning voor het bewaren van gegevens voor gedefinieerde informatietypen moet worden beschouwd als een vereiste voor het implementeren van een bewaar- of verwijderingsschema.
 
-- Op basis van het aantal gegevenstypen dat de meeste organisaties belangrijk achten en de bijbehorende bewaarschema's voor uitgebreide records die samen met hen doen, moet u de plannings-en beheer strategie voor gegevens en recordbeheer implementeren. 
+- Gezien het aantal informatietypen dat de meeste organisaties belangrijk vinden en de bijbehorende grote bewaarschema's voor records die daarbij horen, is het implementeren van een strategie voor gegevensretentie en recordbeheer planning vereist. 
 
-- De sleutel voor het opzetten van een effectieve strategie voor gegevensbeheer van dit type is de nadruk op de zakelijke functies met de hoogste prioriteit, en gegevenstypen die een formeler beheer vereisen. Voorbeelden hiervan zijn juridische contracten, financiële overzichten en documentatie over regelgevings naleving. U kunt voorkomen dat er een apart Bewaarschema voor elk afzonderlijk gegevenstype wordt weergeven. U kunt zo veel mogelijk algemene categorieën gebruiken, bijvoorbeeld met bewaarschema's van 7 jaar voor algemene bedrijfs inhoud.
+- De sleutel tot het tot stand brengen van een effectieve strategie voor gegevensbeheer van dit type is de focus op de hoogste prioriteit voor zakelijke functies en informatietypen waarvoor een formeler beheer vereist is. Voorbeelden hiervan zijn juridische contracten, financiële overzichten en documentatie over naleving van regelgeving. Vermijd een afzonderlijk bewaarschema voor elk gegevenstype. Probeer algemene categorieën zo veel mogelijk te gebruiken, bijvoorbeeld met bewaarschema's van 7 jaar voor algemene zakelijke inhoud.
 
-- Wanneer de typen persoonlijke gegevens in uw omgeving beter bekend zijn, kunt u schema's voor het bewaren en verwijderen van bestanden vastleggen, en de informatiearchitectuur aanpassen om het beheer van deze gegevens te vereenvoudigen. U kunt bijvoorbeeld persoonlijke gegevens op afzonderlijke sites, bibliotheken of mappen isoleren met Controlled Access.
+- Zodra de typen persoonlijke gegevens in uw omgeving beter bekend zijn, stelt u bewaar- en verwijderingsschema's in voor dit type inhoud en past u uw informatiearchitectuur aan om het beheer van dit soort informatie te vereenvoudigen. U kunt bijvoorbeeld persoonlijke gegevens isoleren in afzonderlijke sites, bibliotheken of mappen met gecontroleerde toegang.
 
-### <a name="retention-policies-and-retention-labels"></a>Bewaarbeleid en labels voor bewaarbeleid
+### <a name="retention-policies-and-retention-labels"></a>Bewaarbeleid en retentielabels
 
-Gebruik [bewaarbeleid en labels voor bewaarbeleid](../compliance/retention.md) om inhoud te behouden of te verwijderen in microsoft 365 met of naar verwachting om persoonlijke gegevens te bevatten.
+Gebruik [bewaarbeleid en bewaarlabels om](../compliance/retention.md) inhoud in Microsoft 365 te behouden of te verwijderen die persoonlijke gegevens bevat of naar verwachting bevat.
 
 ### <a name="records-management"></a>Records Management
 
-Labels voor bewaarbeleid gebruiken waarmee inhoud een record wordt gedeclareerd om een [oplossing voor recordbeheer](../compliance/records-management.md) voor gegevens te implementeren in microsoft 365.
+Gebruik bewaarlabels die inhoud als record declareeren om een [recordbeheeroplossing](../compliance/records-management.md) voor gegevens in Microsoft 365 te implementeren.
 
-Voor de privacy van gegevens (DSRs) die door de juridische afdeling worden ontvangen, wordt een record gedeclareerd en kan hij voor het behoud van het behoud van de regelgeving voorbehoud van de regelgeving van de juridische afdeling een record indienen.
-
+Voor gegevensbescherming worden verzoeken van gegevensonderwerpen (DSR's) die door de juridische afdeling zijn ontvangen, als record gedeclareerd en kunnen ze voor onbepaalde tijd worden opgeslagen of met bewijs worden verwijderd, om te voldoen aan de bewaarspecificaties voor regelgevingsactiviteit.

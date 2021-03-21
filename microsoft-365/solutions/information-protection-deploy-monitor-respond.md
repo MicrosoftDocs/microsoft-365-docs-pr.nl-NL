@@ -1,5 +1,5 @@
 ---
-title: Toezicht houden op het privacy van gebeurtenissen in uw organisatie en deze beantwoorden
+title: Incidenten met gegevensbescherming in uw organisatie bewaken en hierop reageren
 ms.author: bcarter
 author: brendacarter
 f1.keywords:
@@ -16,68 +16,68 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: Gebruik controle-en waarschuwings beleid en verzoeken om gegevens te controleren en te reageren op persoonlijke gegevens.
-ms.openlocfilehash: 3ae0f2a6528f6188500c7cee7732c6447013eaa6
-ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
+description: Gebruik controle- en waarschuwingsbeleid en verzoeken van gegevensonderwerpen om incidenten met persoonlijke gegevens te controleren en erop te reageren.
+ms.openlocfilehash: 4070cd772d243bcfba33bfb164fd05e1f0911b3b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749585"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928422"
 ---
-# <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>Toezicht houden op het privacy van gebeurtenissen in uw organisatie en deze beantwoorden
+# <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>Incidenten met gegevensbescherming in uw organisatie bewaken en hierop reageren
 
-Microsoft 365-functies zijn beschikbaar om u te helpen bij het controleren, onderzoeken en beantwoorden van gebeurtenissen in uw organisatie, zoals u operationalize gerelateerde mogelijkheden. Het hebben van processen, procedures en andere documentatie voor elk van deze factoren kan ook belangrijk zijn om de naleving van de regelgevende instanties te illustreren.
+Microsoft 365-functies zijn beschikbaar om u te helpen bij het bewaken, onderzoeken en reageren op incidenten met gegevensbescherming in uw organisatie terwijl u gerelateerde mogelijkheden operationeel maakt. Het hebben van processen, procedures en andere documentatie voor elk van deze procedures kan ook belangrijk zijn om naleving van regelgevende instanties aan te tonen.
 
 Dit zijn onder andere: 
 
-- Beleid voor controle en waarschuwingen
-- Aanvragen voor gegevens, waaronder inhoud zoeken en eDiscovery
-- Aanvullende hulpprogramma's voor onderzoek en rapportage
+- Controle- en waarschuwingsbeleid
+- Aanvragen voor onderwerpen (inclusief zoeken naar inhoud en eDiscovery)
+- Extra onderzoekshulpmiddelen en rapportage
 
-## <a name="data-privacy-regulations-impacting-the-use-of-monitoring-and-response-tools"></a>Voorschriften met betrekking tot de privacy van functies voor het gebruik van controle-en antwoord Programma's
+## <a name="data-privacy-regulations-impacting-the-use-of-monitoring-and-response-tools"></a>Privacyregels voor gegevens die van invloed zijn op het gebruik van monitoring- en antwoordhulpmiddelen
 
-Hieronder ziet u een voorbeeld van een lijst met voorschriften voor de privacy van gegevens die in verband met informatiebeheer kunnen worden beheerd:
+Hier vindt u een voorbeeld van de privacyregels voor gegevens die betrekking kunnen hebben op besturingselementen voor informatiebeheer:
 
-- LGPD artikel 46
-- LGPD artikel 48
-- AVG artikel (5) (1) (f)
-- AVG artikel (15) (1) (e)
-- HIPAA-HITECH (45 C.F.R. 164.308 (a) (1) (II) (D))
-- HIPAA-HITECH (45 C.F.R. 164.308 (a) (6) (II)
-- HIPAA-HITECH (45 C.F.R. 164.312 (b))
-- CCPA (1798.105 (c))
+- LGPD-artikel 46
+- LGPD-artikel 48
+- AVG-artikel (5)(1)(f)
+- AVG-artikel (15)(1)(e)
+- HIPAA-HITECH (45 C.F.R. 164.308(a)(1)(ii)(D))
+- HIPAA-HITECH (45 C.F.R. 164.308(a)(6)(ii)
+- HIPAA-HITECH (45 C.F.R. 164.312(b))
+- CTP (1798.105(c))
 
-Voor meer informatie raadpleegt u de [beoordeelde Risico's en gevoelige informatie voor gegevens](information-protection-deploy-assess.md).
+Zie Privacyrisico's voor [gegevens beoordelen en gevoelige informatie identificeren voor meer informatie.](information-protection-deploy-assess.md)
 
-De informatie over de privacy van gegevens wordt in het algemeen naar het volgende gekeken voor bewaken en beantwoorden:
+De privacyregels voor gegevens vragen over het algemeen om het volgende voor monitoring en antwoord:
 
-- Controleren, waarschuwen en rapporteren voor activiteiten met betrekking tot opslag, delen en verwerking van persoonlijke gegevens
-- De mogelijkheid om te reageren op een verzoek voor een data subject (DSR) en in sommige gevallen, onderzoek van onderzoek en andere administratieve maatregelen om aan dergelijke verzoeken te voldoen.
+- Controle, waarschuwing en rapportage voor activiteiten met betrekking tot het opslaan, delen en verwerken van persoonsgegevens
+- De mogelijkheid om te reageren op een verzoek om een onderwerp (DSR) en in sommige gevallen onderzoekende en andere administratieve maatregelen uit te voeren om aan dergelijke verzoeken te voldoen.
 
-Uw organisatie wil wellicht ook toezicht-en antwoord activiteiten uitvoeren voor andere doeleinden, zoals andere nalevings behoeften of voor zakelijke redenen. Het opzetten van uw toezicht-en antwoordschema voor de privacy van gegevens moet worden afgehandeld als onderdeel van de algemene controle-en antwoord planning, implementatie en beheer.
+Uw organisatie wil mogelijk ook monitoring- en antwoordactiviteiten uitvoeren voor andere doeleinden, zoals andere compliancebehoeften of om zakelijke redenen. Het opstellen van uw monitoring- en antwoordschema voor gegevensbescherming moet worden uitgevoerd als onderdeel van de algemene monitoring- en antwoordplanning, implementatie en beheer.
 
-Om u te helpen aan de slag te gaan met een monitoring-en antwoordschema in Microsoft 365 voor data privacy Regulations, bevat dit artikel nuttige functies in Microsoft 365 voor het beantwoorden van vragen, zoals: 
+Om u te helpen aan de slag te gaan met een monitoring- en antwoordschema in Microsoft 365 voor privacyregels voor gegevens, bevat dit artikel nuttige mogelijkheden in Microsoft 365 om vragen te beantwoorden, zoals: 
 
-- Welke soort dag-en rapportage technieken zijn er voor de verschillende gegevenstypen en bronnen beschikbaar?
-- Welke mechanismen nodig zijn voor het verwerken van aanvragen voor gegevens-subjecten (DSRs) en eventuele herstelbewerkingen, zoals anonimiseren, redactie en verwijdering.
+- Welke monitoring-, onderzoeks- en rapportagetechnieken zijn beschikbaar voor de verschillende gegevenstypen en bronnen?
+- Welke mechanismen zijn nodig voor het verwerken van aanvragen van gegevensonderwerpen (DSR's) en eventuele herstelacties, zoals anonimisatie, redaction en verwijdering.
 
-## <a name="auditing-and-alert-policies-in-the-security-and-compliance-center"></a>Beleidsregels voor controleren en waarschuwingen in het beveiligings-en nalevings centrum
+## <a name="auditing-and-alert-policies-in-the-security-and-compliance-center"></a>Controle- en waarschuwingsbeleid in het beveiligings- en compliancecentrum
 
-Zie de volgende artikelen voor het instellen van controle, geavanceerde controle en waarschuwings beleid:
+Zie deze artikelen voor het instellen van controle-, geavanceerde controle- en waarschuwingsbeleid:
 
 - [Geïntegreerde controle](../compliance/search-the-audit-log-in-security-and-compliance.md)
 - [Postvakcontrole](../compliance/enable-mailbox-auditing.md)
-- [Geavanceerde controle](../compliance/advanced-audit.md)
+- [Geavanceerde audit](../compliance/advanced-audit.md)
 - [Waarschuwingsbeleid](../compliance/alert-policies.md)
 
-## <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Aanvragen voor AVG en CCPA
+## <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Verzoeken van gegevensonderwerpen voor de AVG en CTPA
 
-Zie [aanvragen van AVG en CCPA](../compliance/gdpr-dsr-office365.md) voor meer informatie over het reageren op een DSR in microsoft 365.
+Zie [Verzoeken van gegevensonderwerpen voor de AVG en CTPA](/compliance/regulatory/gdpr-dsr-Office365) voor informatie over het reageren op een DSR in Microsoft 365.
 
-## <a name="manage-deleted-users-in-microsoft-stream"></a>Verwijderde gebruikers beheren in Microsoft stream
+## <a name="manage-deleted-users-in-microsoft-stream"></a>Verwijderde gebruikers beheren in Microsoft Stream
 
-Voor Microsoft stream, wanneer een gebruiker wordt verwijderd uit Azure Active Directory (Azure AD), en het e-mailadres van de gebruiker vóór dat punt is gekoppeld aan de video, blijft het bijbehorende e-mailadres aan de video gekoppeld. Zie [Verwijderde gebruikers beheren vanuit Microsoft stream](https://docs.microsoft.com/stream/managing-deleted-users) om dit te verwijderen.
+Als een gebruiker voor Microsoft Stream wordt verwijderd uit Azure Active Directory (Azure AD), als zijn naam is gekoppeld aan een geposte Stream-video vóór dat punt, blijft het e-mailadres van de gebruiker gekoppeld aan de video. Zie [Verwijderde gebruikers beheren uit Microsoft Stream om](/stream/managing-deleted-users) deze te verwijderen.
 
-## <a name="insider-risk-management-as-an-investigative-tool"></a>Insider Risk Management als een onderzoekprogramma
+## <a name="insider-risk-management-as-an-investigative-tool"></a>Insider risk management als een onderzoekshulpmiddel
 
-[Insider Risk Management in Microsoft 365](../compliance/insider-risk-management.md) is een functie van het Microsoft compliance-Beheercentrum waarmee u intern risico kunt beperken, zodat u risico activiteiten in uw organisatie kunt detecteren, onderzoeken en ondernemen.
+[Insider-risicobeheer in Microsoft 365](../compliance/insider-risk-management.md) is een functie van het Microsoft Compliance-beheercentrum om u te helpen interne risico's te minimaliseren door u in staat te stellen risicovolle activiteiten in uw organisatie te detecteren, te onderzoeken en actie te ondernemen.

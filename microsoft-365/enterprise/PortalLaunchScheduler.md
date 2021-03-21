@@ -1,5 +1,5 @@
 ---
-title: De portal starten met behulp van de lanceer planner voor portal
+title: Uw portal starten met de Portal Launch Scheduler
 ms.author: jhendr
 author: jhendr
 manager: pamgreen
@@ -16,65 +16,65 @@ ms.custom: Adm_O365
 search.appverid:
 - SPO160
 - MET150
-description: In dit artikel wordt uitgelegd hoe u uw portal kunt starten met behulp van de lanceer planner voor portals
-ms.openlocfilehash: 66912f5730c580bd75282a64124fefcdf262d738
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+description: In dit artikel wordt beschreven hoe u uw portal kunt starten met de Portal Launch Scheduler
+ms.openlocfilehash: e39f00dbc63ae7f1dcaf907d9c67df2c1683efc6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864874"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926140"
 ---
-# <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>De portal starten met behulp van de lanceer planner voor portal
+# <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>Uw portal starten met de Portal Launch Scheduler
 
-Een portal is een SharePoint-site op uw intranet met een groot aantal sitebezoekers die inhoud op de site gebruiken. Het starten van de portal in golven is een belangrijk onderdeel van de zorgen dat gebruikers een eenvoudige en ervaren ervaring hebben om toegang te krijgen tot een nieuwe SharePoint Online-Portal. 
+Een portal is een SharePoint-site op uw intranet met een groot aantal sitekijkers die inhoud op de site gebruiken. Het starten van uw portal in golven is een belangrijk onderdeel om ervoor te zorgen dat gebruikers een soepele en performante ervaring hebben met het openen van een nieuwe SharePoint Online-portal. 
 
-De lancering in golven is een belangrijke manier om de portal uit te vouwen, zoals wordt uitgelegd in [het implementatieplan van uw portal lanceren in SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide). De lancerings planner voor de portal is bedoeld om u te helpen bij het volgen van een rol met Golf/gefaseerde samenvatting door de omleidingen voor de nieuwe portal te beheren. U kunt tijdens elk van de golven feedback van gebruikers verzamelen en de prestaties controleren tijdens elke implementatie. Dit heeft het voordeel van langzaam de portal, met de mogelijkheid om problemen te onderbreken en op te lossen voordat u verder gaat met de volgende golf, en de gebruikers uiteindelijk zorgen voor een gunstige ervaring. 
+Starten in golven is een belangrijke manier om uw portal uit te rollen, zoals wordt beschreven in Het plannen van uw [portal launch roll-out plan in SharePoint Online.](./planportallaunchroll-out.md?view=o365-worldwide) De Portal Launch Scheduler is ontworpen om u te helpen een wave/phased roll-out benadering te volgen door de omleidingen voor de nieuwe portal te beheren. Tijdens elk van de golven kunt u feedback van gebruikers verzamelen en de prestaties tijdens elke implementatiegolf controleren. Dit heeft het voordeel dat u de portal langzaam introduceert, zodat u problemen kunt onderbreken en oplossen voordat u verdergaat met de volgende golf, en er uiteindelijk voor zorgt dat uw gebruikers een positieve ervaring hebben. 
 
-Er zijn twee typen omleiding: 
-- bidirectioneel: een nieuwe moderne SharePoint Online-Portal starten om een bestaande SharePoint-klassieke of moderne portal te vervangen 
-- tijdelijke omleiding van pagina: een nieuwe moderne SharePoint Online-Portal starten zonder bestaande SharePoint-Portal
+Er zijn twee soorten omleiding: 
+- bidirectioneel: start een nieuwe moderne SharePoint Online-portal om een bestaande klassieke of moderne SharePoint-portal te vervangen 
+- tijdelijke omleiding van pagina's: start een nieuwe moderne SharePoint Online-portal zonder bestaande SharePoint-portal
 
-De lancerings planner voor de portal is alleen beschikbaar voor het openen van moderne SharePoint Online-portals (bijv. Communicatiesites). Start moet ten minste 7 dagen vooraf worden gepland. Het aantal vereiste golven wordt bepaald door het verwachte aantal gebruikers. Voordat u begint met het plannen van een portal, moet u eerst het [hulpprogramma pagina diagnose voor SharePoint](https://aka.ms/perftool) uitvoeren om te controleren of de startpagina op de portal in orde is. Aan het einde van de start van de portal hebben alle gebruikers met machtigingen voor de site toegang tot de nieuwe site. 
+De planning voor het starten van portals is alleen beschikbaar voor het starten van moderne SharePoint Online-portals (dat wil zeggen communicatiesites). De lanceringen moeten ten minste 7 dagen van tevoren zijn gepland. Het aantal benodigde golven wordt bepaald door het verwachte aantal gebruikers. Voordat u een portalstart wilt plannen, moet het hulpprogramma Paginadiagnose voor [SharePoint](./page-diagnostics-for-spo.md) worden uitgevoerd om te controleren of de startpagina van de portal gezond is. Aan het einde van de portallancering hebben alle gebruikers met machtigingen voor de site toegang tot de nieuwe site. 
 
-Als u meer wilt weten over het starten van een succesvolle Portal, volgt u de basisprincipes, procedures en aanbevelingen voor informatie over het [maken, starten en onderhouden van een gezonde Portal](https://docs.microsoft.com/sharepoint/portal-health). 
+Voor meer informatie over het starten van een succesvolle portal, volgt u de basisprincipes, procedures en aanbevelingen die worden beschreven in Het maken, starten en [onderhouden van een gezonde portal.](/sharepoint/portal-health) 
 
 > [!NOTE]
-> Deze functie is niet beschikbaar voor Office 365 Duitsland, Office 365 beheerd door 21Vianet (China) of Microsoft 365 US Government-abonnementen.
+> Deze functie is niet beschikbaar voor Office 365 Duitsland, Office 365 beheerd door 21Vianet (China) of microsoft 365 Amerikaanse overheidsplannen.
 
-## <a name="app-setup-and-connecting-to-sharepoint-online"></a>App instellen en verbinding maken met SharePoint Online
+## <a name="app-setup-and-connecting-to-sharepoint-online"></a>App-installatie en verbinding maken met SharePoint Online
 1. [Download de nieuwste SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > Als u een eerdere versie van de SharePoint Online Management Shell hebt geïnstalleerd, gaat u naar Programma's installeren of verwijderen en klikt u op SharePoint Online Management Shell verwijderen. <br>Selecteer uw taal op de pagina het Download centrum en klik vervolgens op de knop downloaden. U wordt gevraagd te kiezen tussen het downloaden van een x64-en x86 MSI-bestand. Download het x64-bestand als u werkt met de 64-bits versie van Windows of het x86-bestand als u de 32-bits versie uitvoert. Als u het niet weet, raadpleegt u [welke versie van Windows-besturingssysteem gebruik ik?](https://support.microsoft.com/help/13443/windows-which-operating-system). Nadat het bestand is gedownload, voert u het uit en volgt u de stappen in de wizard Setup.
+    > Als u een eerdere versie van de SharePoint Online Management Shell hebt geïnstalleerd, gaat u naar Programma's toevoegen of verwijderen en verwijdert u 'SharePoint Online Management Shell'. <br>Selecteer op de pagina Downloadcentrum uw taal en klik vervolgens op de knop Downloaden. U wordt gevraagd om te kiezen tussen het downloaden van een x64- en x86.msi-bestand. Download het x64-bestand als u de 64-bits versie van Windows of het x86-bestand gebruikt als u de 32-bits versie gebruikt. Zie Welke versie van windows-besturingssysteem gebruik ik? als u het [niet weet.](https://support.microsoft.com/help/13443/windows-which-operating-system) Voer het bestand na het downloaden uit en volg de stappen in de wizard Instellen.
 
-2. Maak verbinding met SharePoint als [globale beheerder of als SharePoint-beheerder](/sharepoint/sharepoint-admin-role) in microsoft 365. Zie aan de slag [met SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)voor meer informatie.
+2. Maak verbinding met SharePoint als [globale beheerder of SharePoint-beheerder](/sharepoint/sharepoint-admin-role) in Microsoft 365. Zie Aan de slag [met SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)voor meer informatie.
 
 
-## <a name="view-any-existing-portal-launch-setups"></a>Bestaande portal-start instellingen weergeven
+## <a name="view-any-existing-portal-launch-setups"></a>Bestaande installatie voor het starten van portals weergeven
 
-Ga als volgt te werk om te controleren of er bestaande portal-lanceer configuraties zijn:
+Als u wilt zien of er bestaande configuraties voor het starten van portals zijn:
 
    ```PowerShell
    Get-SPOPortalLaunchWaves -LaunchSiteUrl <object> -DisplayFormat <object>
    ```
 
-## <a name="schedule-a-portal-launch-on-the-site"></a>De lancering van een portal op de site plannen
+## <a name="schedule-a-portal-launch-on-the-site"></a>Een portallancering op de site plannen
 
-Het aantal vereiste Golf punten is afhankelijk van de verwachte start grootte. 
-- Minder dan 10.000 gebruikers: 1 Golf
-- 10k voor 30k-gebruikers: 3 golven 
-- 30k + to afgesloten 100k gebruikers: 5 golven
-- Meer dan afgesloten 100k gebruikers: 5 golven en neem contact op met uw Microsoft-accountteam
+Het aantal benodigde golven is afhankelijk van de verwachte startgrootte. 
+- Minder dan 10.000 gebruikers: 1 golf
+- 10.000 tot 30.000 gebruikers: 3 golven 
+- 30.000 tot 100.000 gebruikers: 5 golven
+- Meer dan 100.000 gebruikers: 5 golven en neem contact op met uw Microsoft-accountteam
 
-### <a name="steps-for-bidirectional-redirection"></a>Stappen voor bidirectioneel omleiding
+### <a name="steps-for-bidirectional-redirection"></a>Stappen voor bidirectionele omleiding
 
-Bidirectionele omleiding houdt in dat u een nieuwe moderne SharePoint Online-Portal moet starten om een bestaande SharePoint-klassieke of moderne portal te vervangen. Gebruikers in actieve golven worden omgeleid naar de nieuwe site, ongeacht of ze naar de oude of nieuwe site navigeren. Gebruikers in een niet-geactiveerde golf die toegang proberen te krijgen tot de nieuwe site, worden weer naar de oude site omgeleid totdat hun Wave wordt gestart. 
+Bidirectionele omleiding omvat het starten van een nieuwe moderne SharePoint Online-portal om een bestaande klassieke of moderne SharePoint-portal te vervangen. Gebruikers in actieve golven worden omgeleid naar de nieuwe site, ongeacht of ze naar de oude of nieuwe site gaan. Gebruikers in een niet-gestarte golf die toegang proberen te krijgen tot de nieuwe site, worden teruggeleid naar de oude site totdat hun golf wordt gestart. 
 
-We ondersteunen alleen omleiding tussen de standaardstartpagina van de oude site en de standaardstartpagina van de nieuwe site. Als u beheerders of eigenaren hebt die toegang moeten hebben tot de oude en nieuwe sites zonder te worden doorgestuurd, moet u ervoor zorgen dat ze worden weergegeven met behulp van de `WaveOverrideUsers` parameter.
+We ondersteunen alleen omleiding tussen de standaard startpagina op de oude site en de standaard startpagina op de nieuwe site. Als u beheerders of eigenaren hebt die toegang nodig hebben tot de oude en nieuwe sites zonder dat deze worden omgeleid, moet u ervoor zorgen dat deze worden weergegeven met de `WaveOverrideUsers` parameter.
 
-Gebruikers migreren van een bestaande SharePoint-site naar een nieuwe SharePoint-site op een gefaseerde manier:
+Gebruikers op een gefaseerd manier migreren van een bestaande SharePoint-site naar een nieuwe SharePoint-site:
 
-1. Voer de volgende opdracht uit om de lanceer golven voor de portal aan te wijzen.
+1. Voer de volgende opdracht uit om portallancerings golven aan te wijzen.
    
    ```PowerShell
     New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
@@ -88,13 +88,13 @@ Voorbeeld:
 {Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
    ```
 
-2. Validatie voltooien. Het duurt 5-10 minuten voordat de omleiding is geconfigureerd via de service. 
+2. Volledige validatie. Het kan 5-10 minuten duren voordat de omleiding de configuratie van de service heeft voltooid. 
 
 ### <a name="steps-for-redirection-to-temporary-page"></a>Stappen voor omleiding naar tijdelijke pagina
 
-Tijdelijke omleiding voor pagina's moet worden gebruikt wanneer er geen bestaande SharePoint-Portal bestaat. Gebruikers worden op een gefaseerde manier omgeleid naar een nieuwe moderne SharePoint Online-Portal. Als een gebruiker een golf heeft die niet is gestart, wordt deze omgeleid naar een tijdelijke pagina (willekeurige URL). 
+Tijdelijke omleiding van pagina's moet worden gebruikt wanneer er geen bestaande SharePoint-portal bestaat. Gebruikers worden op een gefaseerd manier doorgestuurd naar een nieuwe moderne SharePoint Online-portal. Als een gebruiker in een golf zit die niet is gestart, wordt deze omgeleid naar een tijdelijke pagina (elke URL). 
 
-1. Voer de volgende opdracht uit om de lanceer golven voor de portal aan te wijzen.
+1. Voer de volgende opdracht uit om portallancerings golven aan te wijzen.
    
       ```PowerShell
     New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
@@ -108,34 +108,34 @@ Voorbeeld:
 {Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
    ```
 
-2. Validatie voltooien. Het duurt 5-10 minuten voordat de omleiding is geconfigureerd via de service. 
+2. Volledige validatie. Het kan 5-10 minuten duren voordat de omleiding de configuratie van de service heeft voltooid. 
 
-## <a name="pause-or-restart-a-portal-launch-on-the-site"></a>De start van een portal op de site onderbreken of opnieuw starten
+## <a name="pause-or-restart-a-portal-launch-on-the-site"></a>Een portal starten op de site onderbreken of opnieuw starten
 
-1. Voer de volgende opdracht uit om de start van een portal te onderbreken en de voortgang van een nieuwe golf versie te voorkomen.
+1. Voer de volgende opdracht uit om de voortgang van een portal te onderbreken en tijdelijk te voorkomen dat toekomstige golfprogressie optreedt:
 
    ```PowerShell
    Set-SPOPortalLaunchWaves -Status Pause - LaunchSiteUrl <object>
    ```
-2. Controleer of alle gebruikers worden omgeleid naar de oude site. 
+2. Valideer dat alle gebruikers worden omgeleid naar de oude site. 
 
-3. Voer de volgende opdracht uit als u een gepauzeerde Portal opnieuw wilt starten:
+3. Voer de volgende opdracht uit als u een portallancering wilt starten die is onderbroken:
 
    ```PowerShell
    Set-SPOPortalLaunchWaves -Status Restart - LaunchSiteUrl <object>
    ```
    
-4. Valideren dat de omleiding nu wordt hersteld. 
+4. Controleer of de omleiding nu is hersteld. 
 
-## <a name="delete-a-portal-launch-on-the-site"></a>De start van een portal op de site verwijderen
+## <a name="delete-a-portal-launch-on-the-site"></a>Een portallancering op de site verwijderen
 
-1. Voer de volgende opdracht uit als u een geplande Portal start of een uitvoering van een site wilt verwijderen.
+1. Voer de volgende opdracht uit om een portalstart gepland of in uitvoering voor een site te verwijderen.
 
    ```PowerShell
    Remove-SPOPortalLaunchWaves -LaunchSiteUrl <object>
    ```
 
-2. Controleer of er geen omleiding voor alle gebruikers gebeurt.
+2. Valideer dat er geen omleiding voor alle gebruikers gebeurt.
 
 ## <a name="learn-more"></a>Meer informatie
-[Rollen plan voor het lanceren van uw portal in SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out)
+[Het plannen van een implementatieplan voor het starten van uw portal in SharePoint Online](./planportallaunchroll-out.md)
