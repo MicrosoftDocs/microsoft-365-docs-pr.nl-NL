@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: ed25671989668d09f7ad3fcc233a6cf8e1e0f1fc
-  ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+  ms.openlocfilehash: 9364b8b46e413d675876a41bd775b063e0a2fafb
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 01/26/2021
-  ms.locfileid: "49988054"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50913268"
 productDirectory:
   title: Externe werkzaamheden beveiligen met Microsoft 365 Business Premium
   items:
@@ -31,8 +31,8 @@ productDirectory:
     url: https://aka.ms/SMBSecurityKit
   - title: Wat is er nieuw?
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Azure AD Premium P1 wordt voortaan bij Microsoft 365 Business Premium geleverd.
-    url: https://aka.ms/aadp1smbblog
+    summary: Antivirusbeheer en Universal Print zijn nu beschikbaar in Microsoft 365 Business Premium.
+    url: https://aka.ms/M365BPQ1Update
   - title: Doe mee met de webinarreeks van partners
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
     summary: Versnel de bedrijfsgroei met de beheerde services met Microsoft 365 Business Premium.
@@ -47,10 +47,10 @@ conceptualContent:
     - url: https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
       text: Training voor Microsoft 365 Business Premium
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
+    - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
       itemType: overview
       text: Abonnementen vergelijken
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+    - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
       itemType: reference
       text: Servicebeschrijving
     - url: support/microsoft-365-business-faqs.yml
@@ -64,7 +64,7 @@ conceptualContent:
     - url: secure-win-10-pcs.md
       itemType: how-to-guide
       text: 2. Uw pc's beveiligen
-    - url: https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start
+    - url: /MicrosoftTeams/get-started-with-teams-quick-start
       itemType: video
       text: 3. Teams instellen
     - url: https://support.microsoft.com/office/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
@@ -95,51 +95,51 @@ conceptualContent:
       text: Waardecalculator
   - title: Gebruikers beheren
     links:
-    - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
+    - url: ../admin/add-users/add-users.md
       itemType: how-to-guide
       text: Een gebruiker toevoegen
-    - url: https://docs.microsoft.com/office365/admin/add-users/remove-former-employee
+    - url: /office365/admin/add-users/remove-former-employee
       itemType: how-to-guide
       text: Een gebruiker verwijderen
-    - url: https://docs.microsoft.com/office365/admin/add-users/reset-passwords
+    - url: /office365/admin/add-users/reset-passwords
       itemType: how-to-guide
       text: Het wachtwoord van een gebruiker opnieuw instellen
     footerLink:
-      url: https://docs.microsoft.com/office365/admin/admin-home
+      url: /office365/admin/admin-home
       text: Meer weergeven
   - title: Bedreigingen beheren
     links:
-    - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
+    - url: ../security/office-365-security/office-365-atp.md
       itemType: overview
       text: Advanced Threat Protection
-    - url: set-up-mfa.md
+    - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
       itemType: how-to-guide
       text: Meervoudige verificatie instellen
-    - url: https://docs.microsoft.com/microsoft-365/business/increase-threat-protection#protect-against-ransomware
+    - url: ./increase-threat-protection.md#protect-against-ransomware
       itemType: how-to-guide
       text: Beveiligen tegen ransomware
-    - url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
+    - url: /azure/active-directory/conditional-access/overview
       itemType: overview
       text: Voorwaardelijke toegang
     footerLink:
-      url: https://docs.microsoft.com/office365/admin/admin-home
+      url: /office365/admin/admin-home
       text: Meer weergeven
   - title: Gegevens beheren
     links:
-    - url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
+    - url: ../compliance/data-loss-prevention-policies.md
       itemType: overview
       text: Preventie van gegevensverlies
     - url: https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980
       itemType: how-to-guide
       text: Versleutelde e-mail verzenden
-    - url: https://docs.microsoft.com/microsoft-365/business/set-up-compliance#set-up-email-retention-with-exchange-online-archiving
+    - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
       itemType: how-to-guide
       text: Bewaren van e-mail instellen
     - url: https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9
       itemType: video
       text: Gevoeligheidslabels maken en gebruiken
     footerLink:
-      url: https://docs.microsoft.com/microsoft-365/compliance/
+      url: ../compliance/index.yml
       text: Meer weergeven
   - title: Apparaten beheren
     links:
@@ -152,7 +152,7 @@ conceptualContent:
     - url: reset-devices-to-factory-settings.md
       itemType: how-to-guide
       text: Wissen en opnieuw instellen
-    - url: https://docs.microsoft.com/intune/index
+    - url: /intune/index
       itemType: overview
       text: Intune
     - url: manage-windows-devices.md
@@ -161,7 +161,7 @@ conceptualContent:
     - url: access-resources.md
       itemType: how-to-guide
       text: Azure AD-toevoeging instellen
-    - url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
+    - url: /windows/deployment/windows-autopilot/windows-autopilot
       text: Windows Autopilot
       itemType: overview
     footerLink:
@@ -169,17 +169,17 @@ conceptualContent:
       text: Meer weergeven
   - title: Beveiliging bewaken
     links:
-    - url: https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score
+    - url: ../security/mtp/microsoft-secure-score.md
       itemType: how-to-guide
       text: Secure Score
-    - url: https://docs.microsoft.com/intune/apps/app-protection-policies-monitor
+    - url: /intune/apps/app-protection-policies-monitor
       itemType: overview
       text: Rapport over Intune-beleid voor app-beveiliging
-    - url: https://docs.microsoft.com/microsoft-365/enterprise/view-service-health
+    - url: ../enterprise/view-service-health.md
       itemType: how-to-guide
       text: Waarschuwingen van statuscontrole
     footerLink:
-      url: https://docs.microsoft.com/microsoft-365/security/
+      url: ../security/index.yml
       text: Meer weergeven
   - title: Ondersteuning en community
     links:

@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Bepalen waar in de Europese Unie uw Microsoft 365-klantgegevens worden opgeslagen
-ms.openlocfilehash: 78c2ae75656df017631fce0a189f6e25ee44f20f
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 28bfa7c18aff485e084e4d77bb2a36f0f5b7e95f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527683"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905678"
 ---
 # <a name="data-locations-for-the-european-union"></a>Gegevenslocaties voor de Europese Unie
 
@@ -74,14 +74,14 @@ Wanneer u begint met het gebruik van een van de bovenstaande services, zullen de
 
 Als een tijdelijke overdracht vereist is, zullen we altijd de modernste versleuteling gebruiken bij de overdracht en zullen we uw gegevens altijd onmiddellijk daarna terugsturen naar de door u gekozen gegevensopslaglocatie. We vertrouwen op onze naleving van de Europese wetgeving via de standaardcontractbepalingen (SCC's) voor deze tijdelijke overdrachten, samen met onze aanvullende maatregelen om ervoor te zorgen dat de gegevens zijn beschermd. 
 
-Zie [Modelclausules van de Europese Unie](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)voor meer informatie.
+Zie [Modelclausules van de Europese Unie](/compliance/regulatory/offering-EU-Model-Clauses)voor meer informatie.
 
 >[!Note]
 >Klantgegevens voor Sway en Workplace Analytics worden opgeslagen en berekend in de Verenigde Staten, als u ervoor kiest om deze services te gebruiken.
 >
 
 >[!Note]
->Microsoft 365-services kunnen delen van tenant-directory-/identiteitsgegevens opvragen en opslaan in andere regio's dan de EU, waar dit nodig is om bepaalde scenario's mogelijk te maken. In scenario's van cross-regionale e-mailroutering, oproeproutering en verificatie hebben Microsoft 365-systemen bijvoorbeeld informatie over EU-ontvangers nodig om deze verzoeken correct te kunnen routeren. Microsoft 365-systemen zijn ook afhankelijk van Azure Active Directory voor identiteits- en verificatiefuncties. Zie [Identiteitsgegevensopslag voor Europese klanten in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-data-storage-eu) voor meer informatie.
+>Microsoft 365-services kunnen delen van tenant-directory-/identiteitsgegevens opvragen en opslaan in andere regio's dan de EU, waar dit nodig is om bepaalde scenario's mogelijk te maken. In scenario's van cross-regionale e-mailroutering, oproeproutering en verificatie hebben Microsoft 365-systemen bijvoorbeeld informatie over EU-ontvangers nodig om deze verzoeken correct te kunnen routeren. Microsoft 365-systemen zijn ook afhankelijk van Azure Active Directory voor identiteits- en verificatiefuncties. Zie [Identiteitsgegevensopslag voor Europese klanten in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-data-storage-eu) voor meer informatie.
 >
 
 ## <a name="how-microsoft-protects-your-data"></a>Hoe Microsoft uw gegevens beschermt
@@ -126,8 +126,7 @@ Voor meer informatie raadpleegt u [Veelgestelde vragen](https://blogs.microsoft.
 ## <a name="additional-resources"></a>Aanvullende bronnen
  
 - [Vertrouwde gegevensbescherming biedt](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4FhZn) een overzicht van hoe Microsoft uw gegevens beschermt wanneer u Microsoft Online Services en Professional Services gebruikt. We raden u ook aan de [Microsoft Online Services-voorwaarden (OST) en het gegevensbeschermingsaddendum (DPA) te raadplegen](https://www.microsoft.com/licensing/product-licensing/products) die van toepassing zijn op uw gebruik van deze services.
-- [Office 365-verzoeken van betrokkenen voor de AVG](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365) helpen u persoonlijke gegevens of persoonlijke informatie te vinden en ernaar te handelen om te reageren op DSR's met behulp van Microsoft 365-producten, -services en administratieve hulpmiddelen. 
-- [Gegevensbeschermingseffectbeoordelingen: richtlijnen voor gegevensbeheerders die Microsoft Office 365 gebruiken](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365), helpt u te bepalen of uw organisatie een DPIA moet opstellen, biedt ondersteuning, inclusief een aanpasbaar DPIA-sjabloondocument en biedt een DPIA Service Elements Matrix voor veel Microsoft 365-services.
-- [Ontdek hoe modules](https://docs.microsoft.com/learn/paths/audit-safeguard-customer-data/) zijn ontworpen voor mensen in audit-, compliance-, risico- en juridische functies die een algemeen begrip zoeken. Ze bieden een diepgaande evaluatie van de fundamentele beveiligings- en privacypraktijken van Microsoft 365 om klantgegevens te beschermen.
-- [Microsoft complianceopties](https://docs.microsoft.com/microsoft-365/compliance/offering-home) laat zien hoe Microsoft 365-services uw organisatie helpen te voldoen aan wettelijke nalevingsnormen. 
-
+- [Office 365-verzoeken van betrokkenen voor de AVG](/compliance/regulatory/gdpr-dsr-Office365) helpen u persoonlijke gegevens of persoonlijke informatie te vinden en ernaar te handelen om te reageren op DSR's met behulp van Microsoft 365-producten, -services en administratieve hulpmiddelen. 
+- [Gegevensbeschermingseffectbeoordelingen: richtlijnen voor gegevensbeheerders die Microsoft Office 365 gebruiken](/compliance/regulatory/gdpr-dpia-office365), helpt u te bepalen of uw organisatie een DPIA moet opstellen, biedt ondersteuning, inclusief een aanpasbaar DPIA-sjabloondocument en biedt een DPIA Service Elements Matrix voor veel Microsoft 365-services.
+- [Ontdek hoe modules](/learn/paths/audit-safeguard-customer-data/) zijn ontworpen voor mensen in audit-, compliance-, risico- en juridische functies die een algemeen begrip zoeken. Ze bieden een diepgaande evaluatie van de fundamentele beveiligings- en privacypraktijken van Microsoft 365 om klantgegevens te beschermen.
+- [Microsoft complianceopties](/compliance/regulatory/offering-home) laat zien hoe Microsoft 365-services uw organisatie helpen te voldoen aan wettelijke nalevingsnormen.
