@@ -1,7 +1,7 @@
 ---
-title: Nieuw in de beveiliging van Microsoft 365
-description: Meer informatie over nieuwe mogelijkheden in de beveiliging van Microsoft 365
-keywords: nieuwe, m365-beveiliging, beveiliging, 365, mogelijkheden
+title: Nieuwe functies in microsoft 365-beveiliging
+description: Meer informatie over nieuwe mogelijkheden in Microsoft 365-beveiliging
+keywords: nieuw, m365-beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,25 +20,23 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5afae4dd3f846e608f753d268470d53723a3dcf4
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6599e0c4a7bbf7c294f7dfed9f381c1ce211c285
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929268"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928638"
 ---
-# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="a81d2-104">Nieuw in Microsoft 365 Security</span><span class="sxs-lookup"><span data-stu-id="a81d2-104">What's new in Microsoft 365 Security</span></span>
+# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="50054-104">Nieuwe functies in Microsoft 365-beveiliging</span><span class="sxs-lookup"><span data-stu-id="50054-104">What's new in Microsoft 365 Security</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="a81d2-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="a81d2-105">**Applies to:**</span></span>
-- <span data-ttu-id="a81d2-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a81d2-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="50054-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="50054-105">**Applies to:**</span></span>
+- <span data-ttu-id="50054-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="50054-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="a81d2-107">In dit onderwerp vindt u informatie over mogelijkheden die algemeen beschikbaar zijn (GA) in de nieuwste versie van Microsoft 365 Security.</span><span class="sxs-lookup"><span data-stu-id="a81d2-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
+<span data-ttu-id="50054-107">Dit onderwerp gaat over mogelijkheden die over het algemeen beschikbaar zijn (GA) in de nieuwste versie van Microsoft 365 Security.</span><span class="sxs-lookup"><span data-stu-id="50054-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
 
-<span data-ttu-id="a81d2-108">Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties](mtp-preview.md)</span><span class="sxs-lookup"><span data-stu-id="a81d2-108">For more information on preview features, see [Preview features](mtp-preview.md)</span></span>
-
-
+<span data-ttu-id="50054-108">Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](./preview.md)</span><span class="sxs-lookup"><span data-stu-id="50054-108">For more information on preview features, see [Preview features](./preview.md)</span></span>
