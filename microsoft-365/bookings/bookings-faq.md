@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Veelgestelde vragen over Microsoft Bookings.
-ms.openlocfilehash: c7bf14c35626eeeec781f6a9f45769e0ead1730e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d357ae83d7fe6fdd9f3d0bff724b037e82a3f5d0
+ms.sourcegitcommit: 1df94f04f138ccf1a2356d26174335c44de7052b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913824"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50999527"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft Bookings
 
@@ -37,7 +37,7 @@ Uw klanten zien alleen de Bookings-agenda die u online publiceert voor de servic
 
 ### <a name="how-do-i-change-a-bookable-attribute-under-manage-staff"></a>Hoe wijzig ik een boekbaar kenmerk onder Personeel beheren?
 
-Wanneer personeelsleden werden toegevoegd, zouden ze een e-mail hebben ontvangen om de aanvraag te accepteren of te weigeren. Ze kunnen hetzelfde e-mailbericht openen en 'Weigeren' selecteren om ze niet te boeken. We hebben momenteel geen manier om dit in te schakelen vanuit de app.
+Wanneer personeelsleden werden toegevoegd, zouden ze een e-mail hebben ontvangen om de aanvraag te accepteren of te weigeren. Ze kunnen hetzelfde e-mailbericht openen en 'Weigeren' selecteren om ze zo te maken dat ze niet kunnen worden geboekt. We hebben momenteel geen manier om dit in te schakelen vanuit de app.
 
 ### <a name="how-do-end-users-access-the-bookings-app"></a>Hoe hebben eindgebruikers toegang tot de Bookings-app?
 
@@ -65,11 +65,11 @@ Ja, Bookings is aanpasbaar en kan worden gebruikt voor verschillende scenario's.
 
 ### <a name="is-all-the-functionality-of-the-original-bookings-web-app-available-in-microsoft-teams"></a>Is alle functionaliteit van de oorspronkelijke Bookings Web-app beschikbaar in Microsoft Teams?
 
-Een lichtgewicht versie van Bookings is nu beschikbaar als app in Teams. De eerste aankondiging vindt u [hier.](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/) Er is een deep link-functionaliteit beschikbaar in de web-app en na de installatie kan het dagelijks gebruik van Bookings worden uitgevoerd zonder Teams te verlaten. Informatiestromen over verschillende platforms.
+Een lichtgewicht versie van Bookings is nu beschikbaar als app in Teams. De eerste aankondiging is [hier.](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/) Er is een deep link-functionaliteit beschikbaar in de web-app en na de installatie kan het dagelijks gebruik van Bookings worden uitgevoerd zonder Teams te verlaten. Informatiestromen over verschillende platforms.
 
 ### <a name="is-bookings-a-small-business-offering-or-an-enterprise-offering-or-both"></a>Is Bookings een aanbieding voor kleine bedrijven of een Enterprise-aanbieding of beide?
 
-Bookings is een ideale oplossing voor zowel zakelijke als kleine zakelijke klanten, in diverse bedrijfstakken. Use cases include:
+Bookings is een ideale oplossing voor zowel zakelijke als kleine zakelijke klanten in verschillende bedrijfstakken. Use cases include:
 
 - Financiële services
     - overleg
@@ -144,7 +144,7 @@ Werknemers met een E1/F1/F3-licentie of zonder licenties kunnen nog steeds als p
 
 De winkelmedewerkers worden ook weergegeven als niet beschikbaar in Bookings als er op dat moment al een afspraak is gepland via de Bookings Web-app. Afspraken die zijn geboekt via Bookings, worden weergegeven als bezet in de agenda van een personeelslid binnen Bookings. Personeelsleden met een licentie die niet voor Bookings is ingeschakeld, kunnen nog steeds hun persoonlijke agenda beïnvloeden op hun beschikbaarheid in Bookings, mits ze binnen dezelfde tenant zijn.
 
-Personen in de rol Gasten kunnen alle informatie bekijken die de klant heeft verstrekt tijdens het maken van de eerste afspraak. Als bijvoorbeeld de vertegenwoordiger van de winkel die voor de afspraak is geboekt, de klant moet bellen vóór de afspraak, heeft hij of zij toegang tot de informatie die de klant tijdens het planningsproces verstrekt. Het personeelslid dat is geboekt, heeft toegang tot alle informatie die wordt weergegeven in de bevestigings-e-mail, evenals de .ics-agendagebeurtenis (zoals het telefoonnummer van de klant als deze is ingevoerd).
+Personen in de rol Gasten kunnen alle informatie bekijken die de klant heeft verstrekt tijdens het maken van de eerste afspraak. Als bijvoorbeeld de vertegenwoordiger van de winkel die voor de afspraak is geboekt, de klant moet bellen vóór de afspraak, heeft hij of zij toegang tot de informatie die de klant tijdens het planningsproces verstrekt. Het personeelslid dat is geboekt, heeft toegang tot alle informatie die wordt weergegeven in de bevestigings-e-mail en de .ics-agendagebeurtenis (zoals het telefoonnummer van de klant als deze is ingevoerd).
 
 Personen in de rol Gast hebben geen toegang tot de Bookings Web-app om instellingen te wijzigen of afspraken weer te geven en te beheren (toevoegen, annuleren en opnieuw plannen). Ze kunnen echter afspraken maken namens klanten via de selfservicepagina, op dezelfde manier als een klant een afspraak zou maken.
 
@@ -176,7 +176,7 @@ Een instelling met **de naam Maximale** doorlooptijd bepaalt het verste van tevo
 
 ### <a name="how-does-bookings-work-across-time-zones"></a>Hoe werken Bookings in tijdzones?
 
-Alle tijden zijn standaard in de zakelijke tijdzone (uw lokale tijdzone). Dit betekent dat elke instelling die u configureert voor een Bookings-agenda, zoals werkuren, in deze tijdzone wordt weergegeven. De selfservicepagina heeft de mogelijkheid om alle afspraaktijden weer te geven in de tijdzone van de eindgebruiker, die desgewenst kan worden uitgeschakeld. Als **tijdsvakken altijd in** de zakelijke tijdzone worden weergegeven, blijft dit uitgeschakeld op het paginatabblad Bookings, dan zien personen die de pagina bezoeken tijdsvakken in hun eigen lokale tijdzones.
+Alle tijden zijn standaard in de zakelijke tijdzone (uw lokale tijdzone). Elke instelling die u configureert voor een Bookings-agenda, zoals werkuren, wordt weergegeven in deze tijdzone. De selfservicepagina heeft de mogelijkheid om alle afspraaktijden weer te geven in de tijdzone van de eindgebruiker, die desgewenst kan worden uitgeschakeld. Als **tijdsvakken altijd in** de zakelijke tijdzone worden weergegeven, blijft dit uitgeschakeld op het paginatabblad Bookings, dan zien personen die de pagina bezoeken tijdsvakken in hun eigen lokale tijdzones.
 
 :::image type="content" source="media/bookings-faq-region.png" alt-text="Instellingen voor reserveringsregio's en tijdzone":::
 
@@ -244,7 +244,7 @@ Reservering kan een grote hoeveelheid bezoekers en boekingen tegelijk ondersteun
 
 ### <a name="where-is-bookings-data-stored"></a>Waar worden Bookings-gegevens opgeslagen?
 
-Bookings is een Microsoft 365-app, wat betekent dat alle gegevens worden opgeslagen op het Microsoft 365-platform en in Exchange. Bookings volgt alle beleidsregels voor gegevensopslag die zijn ingesteld door Microsoft, hetzelfde beleid gevolgd door alle Office-apps. Bookings gebruikt gedeelde postvakken in Exchange om klant-, personeel-, service- en afspraakgegevens op te slaan. Compliancebeleid voor gedeelde postvakken in Exchange is ook van toepassing op Bookings-postvakken. Alle klantgegevens (inclusief gegevens die door klanten worden verstrekt bij het boeken) worden vastgelegd in Bookings en worden opgeslagen in de app, zodat deze worden opgeslagen in Exchange. Microsoft Bookings gebruikt hetzelfde beleid dat wordt gebruikt door Microsoft 365, die u hier [kunt vinden.](https://www.microsoft.com/online/legal/v2/?docid=22&langid=en-us)
+Bookings is een Microsoft 365-app, wat betekent dat alle gegevens worden opgeslagen op het Microsoft 365-platform en in Exchange. Bookings volgt alle beleidsregels voor gegevensopslag die zijn ingesteld door Microsoft, hetzelfde beleid dat alle Office-apps volgen. Bookings gebruikt gedeelde postvakken in Exchange om klant-, personeel-, service- en afspraakgegevens op te slaan. Compliancebeleid voor gedeelde postvakken in Exchange is ook van toepassing op Bookings-postvakken. Alle klantgegevens (inclusief gegevens die door klanten worden verstrekt bij het boeken) worden vastgelegd in Bookings en worden opgeslagen in de app, zodat deze worden opgeslagen in Exchange. Microsoft Bookings gebruikt hetzelfde beleid dat wordt gebruikt door Microsoft 365, die u hier [kunt vinden.](https://www.microsoft.com/online/legal/v2/?docid=22&langid=en-us)
 
 ### <a name="is-there-a-way-to-centrally-manage-bookings-calendars-for-all-users"></a>Is er een manier om Bookings-agenda's centraal te beheren voor alle gebruikers?
 
@@ -274,7 +274,7 @@ Deze sectie biedt geen ondersteuning voor tekst met uitgebreide tekst, maar denk
 
 De volgende opdracht kan worden gebruikt om informatie op te halen van alle Bookings-postvakken en gebruikers die toegang tot deze postvakken hebben.
 
-`Get-Mailbox -RecipientTypeDetails SchedulingMailbox -ResultSize:Unlimited | Get-MailboxPermission |Select-Object Identity,User,AccessRights | Where-Object {($_.user -like '@')}`
+`Get-Mailbox -RecipientTypeDetails SchedulingMailbox -ResultSize:Unlimited | Get-MailboxPermission |Select-Object Identity,User,AccessRights | Where-Object {($_.user -like '*@*')}`
 
 ## <a name="technical-questions"></a>Technische vragen
 

@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het anti-phishingbeleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eeb15040f0e47f7d51852dadf68c4b0c37de0975
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3458d6702dab48072e4846038400b087b1a4a8f1
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929226"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994580"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
@@ -206,17 +206,21 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingbeleid
   - **Imitatiedomeinen:** het Van-adres bevat een beveiligd domein.
   - **Ongebruikelijke tekens:** Het Van-adres bevat ongebruikelijke tekensets (bijvoorbeeld wiskundige symbolen en tekst of een combinatie van hoofdletters en kleine letters) in een beveiligde afzender of domein.
 
-
   > [!IMPORTANT]
   >
-  > Aanbeveling voor het inschakelen van een veiligheidstip die wordt weergegeven tijdens het eerste contact tussen de afzender en **geadresseerde(s)**: Zelfs wanneer de veiligheidstips voor imiteren zijn uitgeschakeld, raden **we** u aan  een regel voor de e-mailstroom (ook wel een transportregel genoemd) te gebruiken om een berichtkop met de naam **X-MS-Exchange-EnableFirstContactSafetyTip** toe te voegen met de waarde enable to messages. Met een veiligheidstip worden geadresseerden op de hoogte gebracht wanneer ze voor het eerst een bericht ontvangen van de afzender of als ze niet vaak berichten van de afzender ontvangen. Deze mogelijkheid voegt een extra beveiligingslaag toe tegen mogelijke imitatieaanvallen. 
+  > Zelfs wanneer de veiligheidstips voor nabootsing zijn uitgeschakeld, raden **we** u aan een regel voor de e-mailstroom (ook wel transportregel  genoemd) te gebruiken om een berichtkop met de naam **X-MS-Exchange-EnableFirstContactSafetyTip** toe te voegen met de waarde inschakelen voor berichten. Met een veiligheidstip worden geadresseerden op de hoogte gebracht wanneer ze voor het eerst een bericht ontvangen van de afzender of als ze niet vaak berichten van de afzender ontvangen. Deze mogelijkheid voegt een extra beveiligingslaag toe tegen mogelijke imitatieaanvallen.
+  >
   > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="De tekst van de veiligheidstip voor imitatiebeveiliging bij meerdere geadresseerden.":::
 
-- **Postvakintelligentie:** Hiermee schakelt u kunstmatige intelligentie (AI) in of uit die e-mailpatronen van gebruikers bepaalt met hun frequente contactpersonen. Deze instelling helpt de AI onderscheid te maken tussen legitieme en vervalste e-mail van die contactpersonen. Postvakinformatie is alleen beschikbaar voor Exchange Online-postvakken.
+- **Postvakintelligentie:** Hiermee schakelt u kunstmatige intelligentie (AI) in of uit die e-mailpatronen van gebruikers bepaalt met hun frequente contactpersonen. Deze instelling helpt de AI om onderscheid te maken tussen berichten van legitieme en nagebootsde afzenders.
 
-- **Op postvakinformatie gebaseerde imitatiebeveiliging:** hiermee worden verbeterde imitatieresultaten in- of uitgeschakeld op basis van de afzonderlijke afzenderkaart van elke gebruiker. Met deze intelligentie kan Microsoft 365 de detectie van gebruikersinbootsing aanpassen en beter omgaan met fout-positieven. Wanneer gebruikers-imitatie wordt gedetecteerd, kunt u een specifieke actie definiëren voor het bericht:
+  Zo is Gabriela Laureano (glaureano@contoso.com) de CEO van uw bedrijf, dus voegt u  haar toe als een beveiligde afzender in de Gebruikers om de instellingen van het beleid te beveiligen. Sommige geadresseerden die het beleid van toepassing is, communiceren echter regelmatig met een leverancier die ook Gabriela Laureano (glaureano@fabrikam.com). Omdat deze geadresseerden een communicatiegeschiedenis hebben met glaureano@fabrikam.com, worden berichten van glaureano@fabrikam.com niet door postvakinformatie als een imitatiepoging van glaureano@contoso.com voor deze geadresseerden.
 
-  - **Geen actie toepassen**
+  Als u veelgebruikte contactpersonen wilt gebruiken die zijn geleerd door postvakinformatie (en  het ontbreken daarvan) om gebruikers te  beschermen tegen imitatieaanvallen, kunt u postvakintelligentiebeveiliging in- en uit te voeren acties opgeven als u ook Postvakintelligentie int. 
+
+- **Op postvakintelligentie gebaseerde imitatiebeveiliging:** Schakel deze instelling in om de actie op te geven die moet worden ondernomen voor berichten voor imitatiedetecties vanuit de resultaten van postvakinformatie:
+
+  - **Pas geen actie toe:** houd er rekening mee dat  deze waarde hetzelfde resultaat heeft als het in- en uitschakelen van postvakinformatie, maar het uitschakelen van op postvakintelligentie gebaseerde **imitatiebeveiliging.**
   - **Bericht omleiden naar andere e-mailadressen**
   - **Bericht verplaatsen naar map Ongewenste e-mail**
   - **Het bericht in quarantaine plaatsen**

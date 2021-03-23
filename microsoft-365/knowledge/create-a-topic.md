@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: d6e953c86939d732632e87573fc2aa5392f09aa2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6a182556c68a472145f9d4eac69c8915653a67df
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904934"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994592"
 ---
 # <a name="create-a-new-topic"></a>Een nieuw onderwerp maken 
 
@@ -66,7 +66,7 @@ U kunt een nieuw onderwerp maken op twee locaties:
 
     ![Beschrijving van het onderwerp](../media/knowledge-management/description.png)</br>
 
-4. In de <b>sectie Vastgemaakte</b> personen kunt u een persoon 'vastmaken' om deze persoon weer te geven als een onderwerpexpert over het onderwerp. Typ eerst de naam of het e-mailadres in het vak <b>Een</b> nieuwe gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen <b>uit lijst</b> op de gebruikerskaart te selecteren. U kunt de persoon ook slepen om de volgorde van de lijst met personen te wijzigen.
+4. In de <b>sectie Vastgemaakte</b> personen kunt u een persoon 'vastmaken' om aan te geven dat deze een verbinding met het onderwerp heeft (bijvoorbeeld een eigenaar van een verbonden resource). Typ eerst de naam of het e-mailadres in het vak <b>Een</b> nieuwe gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen <b>uit lijst</b> op de gebruikerskaart te selecteren. U kunt de persoon ook slepen om de volgorde van de lijst met personen te wijzigen.
  
     ![Vastgemaakte personen](../media/knowledge-management/pinned-people.png)</br>
 

@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 34c6551dd3a40852368b40d960bf921c52f46372
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 36af6e0f882c87d05c5f397982533fb48875b0da
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921514"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994604"
 ---
 # <a name="edit-an-existing-topic"></a>Een bestaand onderwerp bewerken 
 
@@ -67,11 +67,11 @@ Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina On
 
     ![Sectie Beschrijving](../media/knowledge-management/description.png)</br>
 
-4. In de <b>sectie Vastgemaakte</b> personen kunt u een persoon 'vastmaken' om deze persoon weer te geven als een onderwerpexpert over het onderwerp. Typ eerst de naam of het e-mailadres in het vak <b>Nieuwe</b> gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen <b>uit lijst</b> op de gebruikerskaart te selecteren.
+4. In de <b>sectie Vastgemaakte</b> personen kunt u een persoon 'vastmaken' om aan te geven dat deze een verbinding heeft met het onderwerp (bijvoorbeeld een eigenaar van een verbonden resource). Typ eerst de naam of het e-mailadres in het vak <b>Nieuwe</b> gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen <b>uit lijst</b> op de gebruikerskaart te selecteren.
  
     ![Vastgemaakte personen toevoegen](../media/knowledge-management/pinned-people.png)</br>
 
-    De <b>sectie Voorgestelde</b> personen laat gebruikers zien dat AI denkt dat het onderwerp experts over het onderwerp kan zijn vanuit hun verbinding met bronnen over het onderwerp. U kunt de status wijzigen van Voorgesteld in Vastgemaakt door het pictogram vast te selecteren op de gebruikerskaart.
+    In <b>de sectie Voorgestelde</b> personen ziet u gebruikers die denken dat AI mogelijk verbonden is met het onderwerp vanuit hun verbinding met bronnen over het onderwerp. U kunt de status wijzigen van Voorgesteld in Vastgemaakt door het pictogram vast te selecteren op de gebruikerskaart.
 
    ![Een voorgestelde personen vastmaken](../media/knowledge-management/suggested-people.png)</br>
 

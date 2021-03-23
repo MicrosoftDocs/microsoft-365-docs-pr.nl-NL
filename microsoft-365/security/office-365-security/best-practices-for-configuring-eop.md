@@ -12,12 +12,12 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor zelfstandige Exchange Online Protection (EOP) om uzelf in te stellen voor succes en veelvoorkomende configuratiefouten te voorkomen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6a6a9fd0dfc654ca37fdd5168b3ecc0c4486f9d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e968316e23fe2d8e68795318f8e0785a662c8aea
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924454"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994556"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Best practices voor het configureren van zelfstandige EOP
 
@@ -44,6 +44,8 @@ We stellen beveiligingsbeheerders in staat hun beveiligingsinstellingen aan te p
 
 Deze instellingen hebben betrekking op een reeks functies die buiten het beveiligingsbeleid staan.
 
+<br>
+
 ****
 
 |Naam van beveiligingsfunctie|Standard|Strikt|Opmerking|
@@ -57,8 +59,8 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 |Unified Auditing moet zijn ingeschakeld|Ja|Ja||
 |[IMAP-connectiviteit met postvak](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
 |[POP-connectiviteit met postvak](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
-|Geverifieerde SMTP-inzending|Uitgeschakeld|Uitgeschakeld|Geverifieerde SMTP-clientinzending (ook wel SMTP-clientinzending of SMTP AUTH genoemd) is vereist voor POP3- en IMAP4-clients om e-mail te verzenden.|
-|EWS-connectiviteit met postvak|Uitgeschakeld|Uitgeschakeld||
+|Geverifieerde SMTP-inzending|Uitgeschakeld|Uitgeschakeld|Geverifieerde SMTP-clientinzending (ook wel SMTP-clientinzending of SMTP AUTH genoemd) is vereist voor POP3- en IMAP4-clients en -toepassingen en -apparaten die e-mail genereren en verzenden. <p> Zie [Geverifieerde SMTP-inzending](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)voor klanten in Exchange Online in- of uitschakelen voor instructies voor het globaal of selectief inschakelen en uitschakelen van SMTP AUTH.|
+|EWS-connectiviteit met postvak|Uitgeschakeld|Uitgeschakeld|Outlook gebruikt Exchange Web Services voor gratis/bezet, out-of-office-instellingen en het delen van agenda's. Als u EWS niet globaal kunt uitschakelen, hebt u de volgende opties: <ul><li>Gebruik [verificatiebeleid om](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) te voorkomen dat EWS basisverificatie gebruikt als uw clients moderne verificatie (moderne auth) ondersteunen.</li><li>Gebruik [clienttoegangsregels om](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) EWS te beperken tot specifieke gebruikers of bron-IP-adressen.</li><li>Beheer EWS-toegang tot specifieke toepassingen globaal of per gebruiker. Zie Toegang tot [EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)voor instructies.</li></ul> <p> In [de invoegvoegapp](enable-the-report-message-add-in.md) Rapportbericht en de [phishing-invoegapp](enable-the-report-phish-add-in.md) Rapport wordt STANDAARD REST gebruikt in ondersteunde omgevingen, maar wordt teruggeplaatst naar EWS als REST niet beschikbaar is. De ondersteunde omgevingen die REST gebruiken zijn:<ul><li>Exchange Online</li><li>Exchange 2019 of Exchange 2016</li><li>Huidige Outlook voor Windows via een Microsoft 365-abonnement of een een-time aankoop van Outlook 2019.</li><li>Huidige Outlook voor Mac via een Microsoft 365-abonnement of een een-time aankoop van Outlook voor Mac 2016 of hoger.</li><li>Outlook voor iOS en Android</li><li>De webversie van Outlook</li></ul>|
 |[PowerShell-connectiviteit](/powershell/exchange/disable-access-to-exchange-online-powershell)|Uitgeschakeld|Uitgeschakeld|Beschikbaar voor postvakgebruikers of e-mailgebruikers (gebruikersobjecten die worden geretourneerd door de [cmdlet Get-User).](/powershell/module/exchange/get-user)|
 |Spoof [intelligence gebruiken om](learn-about-spoof-intelligence.md) afzenders toe te voegen aan uw lijst met toegestane gegevens|Ja|Ja||
 |[Directory-based Edge Blocking (DBEB)](/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Ingeschakeld|Ingeschakeld|Domeintype = Gezaghebbend|

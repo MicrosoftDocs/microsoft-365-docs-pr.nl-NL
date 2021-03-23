@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze geavanceerde anti-phishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2985766cf3388382dbe1d2217843504b2bfd1a1c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9f9fe04b2c3b6db3681212d678c8e827f6a83f41
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906586"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994568"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Anti-phishingbeleid configureren in Microsoft Defender voor Office 365
 
@@ -220,11 +220,11 @@ Gebruik de volgende procedures om anti-phishingbeleid te wijzigen: een nieuw bel
 
      - **Postvakintelligentie inschakelen?**: De standaardwaarde is **Aan.** Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit.**
 
-     - **Postvakintelligentie inschakelen op basis van imitatiebeveiliging?**: Deze instelling is alleen beschikbaar als **Postvakintelligentie inschakelen is** **ingeschakeld.**
+     - **Postvakintelligentie inschakelen op basis van imitatiebeveiliging?**: Deze instelling is alleen beschikbaar als **Postvakintelligentie inschakelen is** **ingeschakeld.** Schakel deze instelling in om de actie op te geven die u moet ondernemen voor berichten voor imitatiedetecties van postvakinformatieresultaten.
 
-       In **Als** e-mail wordt verzonden door een nagebootsde gebruiker, kunt u een van de volgende acties opgeven voor berichten die geen postvakintelligentie hebben (dezelfde acties die beschikbaar zijn voor beveiligde gebruikers en beveiligde domeinen):
+       In **Als e-mail wordt** verzonden door een nagebootsde gebruiker, kunt u een van de volgende acties opgeven (dezelfde acties die beschikbaar zijn voor beveiligde gebruikers en beveiligde domeinen):
 
-       - **Geen actie toepassen**
+       - **Pas geen actie** toe: houd er rekening mee dat deze waarde hetzelfde resultaat heeft als het inschakelen van postvakinformatie inschakelen? maar postvakintelligentie op basis van  **imitatiebeveiliging inschakelen uitschakelen?**.
        - **Bericht omleiden naar andere e-mailadressen**
        - **Bericht verplaatsen naar map Ongewenste e-mail**
        - **Het bericht in quarantaine plaatsen**

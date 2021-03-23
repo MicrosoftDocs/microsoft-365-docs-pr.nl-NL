@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het plannen van microsoft Viva-onderwerpen voor beveiliging en privacy
-ms.openlocfilehash: 9ac7ea085be115ef06244422713099c01ec50a36
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 91d0d5c25502a1938976b9457f8a5dafc6ab957b
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917342"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994544"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Microsoft Viva-onderwerpen beveiliging en privacy
 
@@ -51,7 +51,7 @@ In de volgende tabel wordt beschreven wat gebruikers - kijkers van onderwerpen, 
 
 |Onderwerpitem|Wat gebruikers kunnen zien|
 |:---------|:------------------|
-|Onderwerpnaam|Gebruikers kunnen de onderwerpnaam van alle onderwerpen in het onderwerpcentrum zien. Sommige onderwerpen zijn mogelijk niet zichtbaar als ze een lage relevantie hebben voor de gebruiker.|
+|Onderwerpnaam|Gebruikers kunnen de onderwerpnaam van onderwerpen zien in het onderwerpcentrum. Sommige onderwerpen zijn mogelijk niet zichtbaar als gebruikers geen machtigingen voor de broninhoud hebben of een lage relevantie voor de gebruiker hebben.|
 |Beschrijving van onderwerp|Door AI gegenereerde beschrijvingen zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud. Handmatig ingevoerde of bewerkte beschrijvingen zijn zichtbaar voor alle gebruikers.|
 |Personen|Vastgemaakte personen zijn zichtbaar voor alle gebruikers. Voorgestelde personen zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
 |Bestanden|Bestanden zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|

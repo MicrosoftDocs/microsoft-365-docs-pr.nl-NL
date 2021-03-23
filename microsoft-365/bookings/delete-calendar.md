@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: Gebruik het Microsoft 365-beheercentrum of Windows PowerShell om Bookings-agenda's te verwijderen.
-ms.openlocfilehash: 7b79628327797d2e315d31e1b1a2671f0b24e447
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 21fc7b9994ffd7f76ed04000a50bd0ee8f7f167e
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913776"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034089"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Een boekingsagenda verwijderen in Bookings
 
@@ -72,7 +72,7 @@ Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrac
 4. Als deze opdracht is verwerkt, voert u de volgende opdracht in om een lijst te krijgen met de boekingspostvakken in de tenant:
 
    ```powershell
-   Get-EXOMailbox -RecipientTypeDetails Scheduling
+   Get-EXOMailbox -RecipientTypeDetails SchedulingMailbox
    ```
 
 5. Typ de volgende opdracht:
