@@ -49,6 +49,8 @@
       items:
         - name: Outlook en Teams gebruiken
           href: collab-outlook-teams.md
+        - name: Aan de slag met Microsoft Teams in uw kleine bedrijf
+          href: get-started-teams-small-business.md
         - name: Een groepsmailadres maken
           href: group-email.md
         - name: Een gedeelde agenda maken
