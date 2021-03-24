@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: Meer informatie over het implementeren van ExpressRoute voor Office 365, dat een alternatief routeringspad biedt naar veel office 365-services met internet.
-ms.openlocfilehash: d0f0b5156aae5a3e2c38f51ba0b74738918593e9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d75fe3a6dab4926babeef61fc14894566ff819b0
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909830"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051364"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>ExpressRoute implementeren voor Office 365
 
@@ -225,7 +225,7 @@ Uw implementatieplan moet zowel de technische details van het configureren van E
 
 - Bepaal hoe ver ExpressRoute-routes worden aangekondigd in uw netwerk en wat is het mechanisme voor clients om internet- of ExpressRoute-pad te selecteren; bijvoorbeeld directe routering of toepassingsproxy.
 
-- Dns-recordwijzigingen plannen, inclusief [afzenderbeleidskadergegevens.](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+- Dns-recordwijzigingen plannen, inclusief [afzenderbeleidskadergegevens.](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
 - Plan NAT-strategie, inclusief uitgaande en inkomende bron NAT.
 

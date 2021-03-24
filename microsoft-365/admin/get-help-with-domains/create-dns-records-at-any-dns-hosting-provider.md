@@ -20,12 +20,12 @@ description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt make
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: d6e8a5a0e23bf9bb9e302566a72b9e1cc6b7bff4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 06a5e7d081a16cd8d5aae28268b3aaf737981a43
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915648"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051040"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS-records toevoegen om het domein te verbinden
 
@@ -129,7 +129,7 @@ Voor het valideren van uw SPF-record, gebruikt u een van deze [SPF-validatiehulp
 
 SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. 
 
-Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) en [DMARC gebruiken om e-mail te valideren in Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
+Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](../../security/defender-365-security/use-dkim-to-validate-outbound-email.md) en [DMARC gebruiken om e-mail te valideren in Microsoft 365](../../security/defender-365-security/use-dmarc-to-validate-email.md).
 
 ### <a name="add-srv-records-for-communications-services-teams-skype-for-business"></a>SRV-records toevoegen voor communicatieservices (Teams, Skype voor Bedrijven)
 

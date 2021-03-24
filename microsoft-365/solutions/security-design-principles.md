@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: b6696d15d728e6b66be5e54a9a3c372564c9f187
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7cd9098766024093a0b9fa2d6e95131bf13d09df
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920854"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052480"
 ---
 # <a name="security-hurdles-you-can-sail-overone-architects-viewpoint"></a>Obstakels voor beveiliging die u kunt overvaren: het gezichtspunt van een architect
 
@@ -49,7 +49,7 @@ Klanten die deze obstakels doorzeilen, hebben goede samenwerkingen tussen de tea
 
 Gebruik vervolgens een Zero Trust-architectuurbenadering. Dit begint met het bouwen van een moderne, op identiteit gebaseerde beveiligingsperimeter. Ontwerp de beveiligingsarchitectuur waarin elke toegangspoging, ongeacht of deze on-prem of cloud is, wordt beschouwd als niet-vertrouwd totdat deze is geverifieerd, 'nooit vertrouwen, altijd verifiëren'. Deze ontwerpbenadering verhoogt niet alleen de beveiliging en productiviteit, maar stelt gebruikers ook in staat om overal met elk apparaattype te werken. Met de geavanceerde cloudbesturingselementen in Microsoft 365 kunt u de identiteit van gebruikers beschermen en de toegang tot waardevolle bronnen beheren op basis van het risiconiveau van de gebruiker.
 
-Zie Identiteits- en [apparaattoegangsconfiguraties](../security/office-365-security/microsoft-365-policies-configurations.md)voor een aanbevolen configuratie.
+Zie Identiteits- en [apparaattoegangsconfiguraties](../security/defender-365-security/microsoft-365-policies-configurations.md)voor een aanbevolen configuratie.
 
 ## <a name="transition-security-controls-to-the-cloud"></a>Beveiligingsbesturingselementen overstappen naar de cloud
 

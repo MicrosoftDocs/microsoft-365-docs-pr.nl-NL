@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Een lijst met externe DNS-records die moeten worden gebruikt bij de planning van een Office 365-implementatie.
-ms.openlocfilehash: c2384f1e330692d43c923a7932db4c3ff2bc99ae
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3aa6bf3362005eb0dae5bca40322fe2178d5d69f
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924210"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051376"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Externe DNS-records (Domain Name System) voor Office 365
 
@@ -103,7 +103,7 @@ Er zijn specifieke stappen die u moet uitvoeren wanneer u [Office 365-URL's en I
 <a name="BKMK_SPFrecords"> </a>
 
 > [!IMPORTANT]
-> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Office 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Office 365](../security/office-365-security/use-dkim-to-validate-outbound-email.md). Zie vervolgens [DMARC gebruiken om e-mail in Office 365 te valideren](../security/office-365-security/use-dmarc-to-validate-email.md).
+> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Office 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Office 365](../security/defender-365-security/use-dkim-to-validate-outbound-email.md). Zie vervolgens [DMARC gebruiken om e-mail in Office 365 te valideren](../security/defender-365-security/use-dmarc-to-validate-email.md).
   
 SPF-records die helpen voorkomen dat anderen uw domein gebruiken om spam of andere schadelijke e-mail te verzenden. Met SPF-records (Sender Policy Framework) worden de servers geïdentificeerd die zijn geautoriseerd om e-mail te verzenden vanaf uw domein.
   
@@ -125,7 +125,7 @@ Een e-mailsysteem dat een e-mailbericht vanaf uw domein ontvangt, bekijkt de SPF
 Voor scenario's waarin u niet alleen werkt met Exchange Online-e-mail voor Office 365 (bijvoorbeeld wanneer u ook e-mail gebruikt die afkomstig is van SharePoint Online), gebruikt u de volgende tabel om te bepalen wat u wilt opnemen in de waarde van de record.
   
 > [!NOTE]
-> Als u een ingewikkeld scenario hebt met bijvoorbeeld edge-mailservers voor het beheren van e-mailverkeer door uw firewall, moet u een meer gedetailleerde SPF-record instellen. Leer hoe: [SPF records instellen in Office 365 om vervalsing te helpen voorkomen](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). In [How Office 365 uses Sender Policy Framework (SPF) to help prevent spoofing](../security/office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md) (Hoe Office 365 SPF (Sender Policy Framework) gebruikt om vervalsing te helpen voorkomen) kunt u ook veel meer informatie vinden over hoe SPF met Office 365 werkt.
+> Als u een ingewikkeld scenario hebt met bijvoorbeeld edge-mailservers voor het beheren van e-mailverkeer door uw firewall, moet u een meer gedetailleerde SPF-record instellen. Leer hoe: [SPF records instellen in Office 365 om vervalsing te helpen voorkomen](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). In [How Office 365 uses Sender Policy Framework (SPF) to help prevent spoofing](../security/defender-365-security/how-office-365-uses-spf-to-prevent-spoofing.md) (Hoe Office 365 SPF (Sender Policy Framework) gebruikt om vervalsing te helpen voorkomen) kunt u ook veel meer informatie vinden over hoe SPF met Office 365 werkt.
   
 | Nummer|Als u werkt met...  <br/> |Doel  <br/> |Voegt u deze opnamen (includes) toe  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -181,6 +181,6 @@ TXT Name @
 Values: v=spf1 include:spf.protection.outlook.com include:mail.contoso.com -all
 ```
 
-Dit zijn enkele veelvoorkomende voorbeelden die u kunnen helpen uw bestaande SPF-record aan te passen wanneer u uw domein aan Office 365 voor e-mail toevoegt. Als u een ingewikkeld scenario hebt met bijvoorbeeld edge-mailservers voor het beheren van e-mailverkeer door uw firewall, moet u een meer gedetailleerde SPF-record instellen. Leer hoe: [SPF records instellen in Office 365 om vervalsing te helpen voorkomen](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
+Dit zijn enkele veelvoorkomende voorbeelden die u kunnen helpen uw bestaande SPF-record aan te passen wanneer u uw domein aan Office 365 voor e-mail toevoegt. Als u een ingewikkeld scenario hebt met bijvoorbeeld edge-mailservers voor het beheren van e-mailverkeer door uw firewall, moet u een meer gedetailleerde SPF-record instellen. Leer hoe: [SPF records instellen in Office 365 om vervalsing te helpen voorkomen](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
   
 Met deze korte koppeling kunt u teruggaan: [https://aka.ms/o365edns]()

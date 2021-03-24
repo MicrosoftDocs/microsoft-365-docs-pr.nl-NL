@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe Contoso de informatiebeveiligingsfuncties in Microsoft 365 voor bedrijven gebruikt om hun digitale assets in de cloud te beveiligen.
-ms.openlocfilehash: 90a82fbd4dd77ff0f8faa024ced177a640a10b80
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3bd778708e30253e53cc465e89f7b783141771de
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911036"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051494"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Informatiebescherming voor Contoso Corporation
 
@@ -76,9 +76,9 @@ Contoso heeft deze stappen gevolgd om Microsoft 365 voor ondernemingen voor te b
 
 Als onderdeel van de implementatie van Exchange Online en SharePoint heeft Contoso de volgende set beleidsregels voor voorwaardelijke toegang geconfigureerd en toegepast op de juiste groepen:
 
-- [Beheerde en niet-beheerde toepassingstoegang op apparaatbeleid](../security/office-365-security/identity-access-policies.md)
-- [Beleid voor toegang tot Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)
-- [SharePoint-beleidsregels voor toegang](../security/office-365-security/sharepoint-file-access-policies.md)
+- [Beheerde en niet-beheerde toepassingstoegang op apparaatbeleid](../security/defender-365-security/identity-access-policies.md)
+- [Beleid voor toegang tot Exchange Online](../security/defender-365-security/secure-email-recommended-policies.md)
+- [SharePoint-beleidsregels voor toegang](../security/defender-365-security/sharepoint-file-access-policies.md)
 
 Hier vindt u de resulterende set Contoso-beleidsregels voor informatiebeveiliging.
 
@@ -117,7 +117,7 @@ Lees hoe Contoso de beveiligingsfuncties in [Microsoft 365](contoso-security-sum
 
 ## <a name="see-also"></a>Zie ook
 
-[Roadmap voor beveiliging](../security/office-365-security/security-roadmap.md)
+[Roadmap voor beveiliging](../security/defender-365-security/security-roadmap.md)
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 

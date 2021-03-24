@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Hulp bij het verhogen van het beveiligingsniveau in Microsoft 365
-ms.openlocfilehash: aff5491bd8319be2daf9c9c4ed0fc6e49b27ee27
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0e8b63fec3b764f10039e9f738fd047ff2c513a4
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912208"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052204"
 ---
 # <a name="increase-threat-protection-for-microsoft-365-subscription"></a>Bedreigingsbeveiliging voor Microsoft 365-abonnement verhogen
 
@@ -36,7 +36,7 @@ In dit artikel kunt u de beveiliging in uw Microsoft 365-abonnement vergroten om
 
 Controleer voordat u begint uw Microsoft Secure Score. Microsoft Secure Score analyseert de beveiliging van uw organisatie op basis van uw reguliere activiteiten en beveiligingsinstellingen en wijst een score toe. Begin met het noteren van uw huidige score. Als u de acties onderneemt die in dit artikel worden aanbevolen, wordt uw score verhoogd. Het doel is niet om de maximale score te behalen, maar om rekening te houden met de mogelijkheden om uw omgeving te beschermen die de productiviteit van uw gebruikers niet negatief beïnvloeden.
 
-Zie Microsoft Secure Score voor [meer informatie.](../security/mtp/microsoft-secure-score.md)
+Zie Microsoft Secure Score voor [meer informatie.](../security/defender/microsoft-secure-score.md)
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Het niveau van beveiliging tegen malware in e-mail verhogen
 
@@ -58,7 +58,7 @@ Uw Office 365- of Microsoft 365-omgeving bevat bescherming tegen malware, maar u
 
 6. Klik **op Opslaan.**
 
-Zie Bescherming tegen [malware in EOP voor meer informatie.](../security/office-365-security/anti-malware-protection.md)
+Zie Bescherming tegen [malware in EOP voor meer informatie.](../security/defender-365-security/anti-malware-protection.md)
 
 ## <a name="protect-against-ransomware"></a>Beveiligen tegen ransomware
 
@@ -138,7 +138,7 @@ Als u een anti-phishingbeleid wilt maken in Defender voor Office 365, bekijkt u 
 
 4. Selecteer op **de pagina Anti-phishing** **+ Maken.** Er wordt een wizard gelanceerd om uw anti-phishingbeleid te definiëren.
 
-5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de onderstaande grafiek. Zie Meer informatie over [anti-phishingbeleid in Opties voor Microsoft Defender voor Office 365](../security/office-365-security/set-up-anti-phishing-policies.md)voor meer informatie.
+5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de onderstaande grafiek. Zie Meer informatie over [anti-phishingbeleid in Opties voor Microsoft Defender voor Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md)voor meer informatie.
 
 6. Nadat u de instellingen hebt gecontroleerd, kiest u **Dit beleid maken** of **Opslaan,** naar eigen goed.
 
@@ -153,7 +153,7 @@ Als u een anti-phishingbeleid wilt maken in Defender voor Office 365, bekijkt u 
 |Vertrouwde afzenders en domeinen toevoegen|Hier kunt u uw eigen domein of andere vertrouwde domeinen toevoegen.|
 |Toegepast op|Selecteer **Het domein van de geadresseerde is**. Selecteer **onder Een van deze** opties de optie **Kiezen**. Selecteer **+ Toevoegen.** Schakel het selectievakje in naast de naam van het domein, bijvoorbeeld *contoso. <span> <span> com*, in de lijst en selecteer vervolgens **Toevoegen**. Selecteer **Gereed**.|
 
-Zie [Anti-phishingbeleid instellen in Defender voor Office 365](../security/office-365-security/set-up-anti-phishing-policies.md)voor meer informatie.
+Zie [Anti-phishingbeleid instellen in Defender voor Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md)voor meer informatie.
 
 ## <a name="protect-against-malicious-attachments-files-and-links-with-defender-for-office-365"></a>Beschermen tegen schadelijke bijlagen, bestanden en koppelingen met Defender voor Office 365
 
@@ -207,7 +207,7 @@ Als u een beleid voor veilige bijlagen wilt maken, bekijkt u [deze korte video](
 |Bijlage omleiden bij detectie|Omleiding inschakelen (selecteer dit vak) <br/> Voer het beheerdersaccount of een postvakinstelling in voor quarantaine. <br/> Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt (schakel dit vakje in).|
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
 
-Zie [Anti-phishingbeleid instellen in Defender voor Office 365](../security/office-365-security/set-up-anti-phishing-policies.md)voor meer informatie.
+Zie [Anti-phishingbeleid instellen in Defender voor Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md)voor meer informatie.
 
 ### <a name="set-up-safe-links-in-the-security--compliance-center"></a>Veilige koppelingen instellen in het beveiligings- & compliancecentrum
 
@@ -250,7 +250,7 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 |Veilige bijlagen gebruiken om downloadbare inhoud te scannen|Schakel dit vakje in.|
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
 
-Zie Veilige koppelingen [in Defender voor Office 365](../security/office-365-security/atp-safe-links.md)voor meer informatie.
+Zie Veilige koppelingen [in Defender voor Office 365](../security/defender-365-security/safe-links.md)voor meer informatie.
 
 ## <a name="turn-on-the-unified-audit-log"></a>Het unified auditlogboek in-
 

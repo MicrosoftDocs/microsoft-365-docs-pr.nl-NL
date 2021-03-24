@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
-ms.openlocfilehash: 67a882aed34ef60e1f06ab6e304e6611d3ca0600
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4bc465af99f02edf91dacceaae14d39b3156e103
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922302"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052420"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>De 12 belangrijkste taken voor beveiligingsteams ter ondersteuning van thuis werken
 
@@ -56,7 +56,7 @@ Voor klanten die onze ondernemingsplannen gebruiken, raadt Microsoft u aan de ta
 |12|[Controleren op bedreigingen en actie ondernemen](#12-monitor-for-threats-and-take-action)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
 
-Controleer voordat u begint uw [Microsoft 365 Secure Score](./mtp/microsoft-secure-score.md) in het Microsoft 365-beveiligingscentrum. Vanuit een centraal dashboard kunt u de beveiliging van uw Microsoft 365-identiteiten, gegevens, apps, apparaten en infrastructuur bewaken en verbeteren. U krijgt punten voor het configureren van aanbevolen beveiligingsfuncties, het uitvoeren van beveiligingsgerelateerde taken (zoals het weergeven van rapporten) of het oplossen van aanbevelingen met een toepassing of software van derden. De aanbevolen taken in dit artikel verhogen uw score.
+Controleer voordat u begint uw [Microsoft 365 Secure Score](./defender/microsoft-secure-score.md) in het Microsoft 365-beveiligingscentrum. Vanuit een centraal dashboard kunt u de beveiliging van uw Microsoft 365-identiteiten, gegevens, apps, apparaten en infrastructuur bewaken en verbeteren. U krijgt punten voor het configureren van aanbevolen beveiligingsfuncties, het uitvoeren van beveiligingsgerelateerde taken (zoals het weergeven van rapporten) of het oplossen van aanbevelingen met een toepassing of software van derden. De aanbevolen taken in dit artikel verhogen uw score.
 
 ![Schermafbeelding van Microsoft Secure Score](../media/secure-score.png)
 
@@ -74,7 +74,7 @@ Het toepassen van dit beleid duurt slechts enkele minuten, maar is bereid om uw 
 |---|---|
 |Microsoft 365-abonnementen (zonder Azure AD P1 of P2)|[Schakel standaardinstellingen voor beveiliging in Azure AD in](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). De standaardinstellingen voor beveiliging in Azure AD omvatten MFA voor gebruikers en beheerders.|
 |Microsoft 365 E3 (met Azure AD P1)|Gebruik [algemeen beleid voor voorwaardelijke toegang](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br/>- [MFA vereisen voor beheerders](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br/>- [MFA vereisen voor alle gebruikers](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br/> - [Verouderde verificatie blokkeren](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)|
-|Microsoft 365 E5 (met Azure AD P2)|Als u gebruikmaakt van Azure AD Identity Protection, begint u het implementeren van de [aanbevolen set beleidsregels voor voorwaardelijke toegang en verwante beleidsregels](./office-365-security/identity-access-policies.md) van Microsoft door de volgende twee beleidsregels te maken:<br/> - [MFA vereisen bij een normaal of hoog risico bij het aanmelden](./office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [Clients blokkeren die moderne verificatie niet ondersteunen](./office-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br/>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](./office-365-security/identity-access-policies.md#high-risk-users-must-change-password)|
+|Microsoft 365 E5 (met Azure AD P2)|Als u gebruikmaakt van Azure AD Identity Protection, begint u het implementeren van de [aanbevolen set beleidsregels voor voorwaardelijke toegang en verwante beleidsregels](./defender-365-security/identity-access-policies.md) van Microsoft door de volgende twee beleidsregels te maken:<br/> - [MFA vereisen bij een normaal of hoog risico bij het aanmelden](./defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [Clients blokkeren die moderne verificatie niet ondersteunen](./defender-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br/>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](./defender-365-security/identity-access-policies.md#high-risk-users-must-change-password)|
 |
 
 ## <a name="2-protect-against-threats"></a>2: Beschermen tegen bedreigingen
@@ -86,7 +86,7 @@ Alle Microsoft 365-abonnementen bevatten diverse functies voor bedreigingsbeveil
 - Bescherming tegen phishing
 - Beveiliging tegen ongewenste e-mail
 
-Zie [Beschermen tegen bedreigingen in Office 365](office-365-security/protect-against-threats.md) voor richtlijnen die u als uitgangspunt kunt gebruiken.
+Zie [Beschermen tegen bedreigingen in Office 365](defender-365-security/protect-against-threats.md) voor richtlijnen die u als uitgangspunt kunt gebruiken.
 
 ## <a name="3-configure-microsoft-defender-for-office-365"></a>3: Microsoft Defender configureren voor Office 365
 
@@ -98,17 +98,17 @@ Microsoft Defender voor Office 365:
 - Beschermt uw organisatie wanneer gebruikers samenwerken en bestanden delen door schadelijke bestanden in teamsites en documentbibliotheken te identificeren en te blokkeren.
 - Hiermee worden machine learning-modellen en geavanceerde algoritmen voor imitatiedetectie toegepast om phishingaanvallen te voorkomen.
 
-Zie [Defender voor Office 365](office-365-security/office-365-atp.md)voor een overzicht, inclusief een overzicht van abonnementen.
+Zie [Defender voor Office 365](./defender-365-security/defender-for-office-365.md)voor een overzicht, inclusief een overzicht van abonnementen.
 
 De globale beheerder kan deze beveiligingen configureren:
 
-- [Beleidsregels voor veilige koppelingen instellen](office-365-security/set-up-atp-safe-links-policies.md)
-- [Algemene instellingen configureren voor veilige koppelingen](office-365-security/configure-global-settings-for-safe-links.md)
-- [Beleid voor veilige bijlagen instellen](office-365-security/set-up-atp-safe-attachments-policies.md)
+- [Beleidsregels voor veilige koppelingen instellen](defender-365-security/set-up-safe-links-policies.md)
+- [Algemene instellingen configureren voor veilige koppelingen](defender-365-security/configure-global-settings-for-safe-links.md)
+- [Beleid voor veilige bijlagen instellen](defender-365-security/set-up-safe-attachments-policies.md)
 
 U moet samenwerken met uw Exchange Online-beheerder en SharePoint Online-beheerder om Defender voor Office 365 te configureren voor deze werkbelastingen:
 
-- [ATP voor SharePoint, OneDrive en Microsoft Teams](office-365-security/atp-for-spo-odb-and-teams.md)
+- [ATP voor SharePoint, OneDrive en Microsoft Teams](defender-365-security/mdo-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Microsoft Defender configureren voor identiteit
 
@@ -120,15 +120,15 @@ U moet samenwerken met uw Exchange Online-beheerder en SharePoint Online-beheerd
 
 ## <a name="5-turn-on-microsoft-365-defender"></a>5: Microsoft 365 Defender in-
 
-Nu Microsoft Defender voor Office 365 en Microsoft Defender voor identiteit zijn geconfigureerd, kunt u de gecombineerde signalen van deze mogelijkheden in één dashboard bekijken. [Microsoft 365 Defender](./mtp/microsoft-threat-protection.md) brengt waarschuwingen, incidenten, geautomatiseerd onderzoek en antwoord en geavanceerde zoekwerkbelastingen (Microsoft Defender voor identiteit, Defender voor Office 365, Microsoft Defender voor Eindpunt en Microsoft Cloud App-beveiliging) samen in één deelvenster op [security.microsoft.com.](https://security.microsoft.com)
+Nu Microsoft Defender voor Office 365 en Microsoft Defender voor identiteit zijn geconfigureerd, kunt u de gecombineerde signalen van deze mogelijkheden in één dashboard bekijken. [Microsoft 365 Defender](./defender/microsoft-365-defender.md) brengt waarschuwingen, incidenten, geautomatiseerd onderzoek en antwoord en geavanceerde zoekwerkbelastingen (Microsoft Defender voor identiteit, Defender voor Office 365, Microsoft Defender voor Eindpunt en Microsoft Cloud App-beveiliging) samen in één deelvenster op [security.microsoft.com.](https://security.microsoft.com)
 
 ![Afbeelding van MTP-dashboard](../media/top-ten-security-remote-work-mtp-dashboard.png)
 
 Nadat u een of meer van uw Defender voor Office 365-services hebt geconfigureerd, schakelt u MTP in. Nieuwe functies worden voortdurend toegevoegd aan MTP. overwegen om in te kiezen om preview-functies te ontvangen.
 
-- [Meer informatie over MTP](./mtp/microsoft-threat-protection.md)
-- [MTP in-](./mtp/mtp-enable.md)
-- [Opt-in voor preview-functies](./mtp/preview.md)
+- [Meer informatie over MTP](./defender/microsoft-365-defender.md)
+- [MTP in-](./defender/m365d-enable.md)
+- [Opt-in voor preview-functies](./defender/preview.md)
 
 ## <a name="6-configure-intune-mobile-app-protection-for-phones-and-tablets"></a>6: Intune mobile app protection configureren voor telefoons en tablets
 
@@ -141,10 +141,10 @@ App-beveiligingsbeleid bevat veel instellingen. Gelukkig hoeft u niet meer te we
 
 Nog beter: Microsoft coördineert dit beveiligingskader voor apps met een set voorwaardelijke toegang en verwante beleidsregels. We raden alle organisaties aan om dit als uitgangspunt te gebruiken. Als u MFA hebt geïmplementeerd met behulp van de richtlijnen in dit artikel, bent u halverwege!
 
-Als u de beveiliging van mobiele apps wilt configureren, gebruikt u de richtlijnen in beleidsregels voor algemene [identiteits- en apparaattoegang:](./office-365-security/identity-access-policies.md)
+Als u de beveiliging van mobiele apps wilt configureren, gebruikt u de richtlijnen in beleidsregels voor algemene [identiteits- en apparaattoegang:](./defender-365-security/identity-access-policies.md)
 
- 1. Gebruik de [richtlijnen voor app-gegevensbescherming toepassen](./office-365-security/identity-access-policies.md#apply-app-data-protection-policies) om beleidsregels voor iOS en Android te maken. Niveau 2 (verbeterde gegevensbescherming) wordt aanbevolen voor basislijnbeveiliging.
- 2. Maak een regel voor voorwaardelijke toegang tot [Goedgekeurde apps en APP-beveiliging vereisen.](./office-365-security/identity-access-policies.md#require-approved-apps-and-app-protection)
+ 1. Gebruik de [richtlijnen voor app-gegevensbescherming toepassen](./defender-365-security/identity-access-policies.md#apply-app-data-protection-policies) om beleidsregels voor iOS en Android te maken. Niveau 2 (verbeterde gegevensbescherming) wordt aanbevolen voor basislijnbeveiliging.
+ 2. Maak een regel voor voorwaardelijke toegang tot [Goedgekeurde apps en APP-beveiliging vereisen.](./defender-365-security/identity-access-policies.md#require-approved-apps-and-app-protection)
 
 ## <a name="7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection"></a>7: MFA en voorwaardelijke toegang configureren voor gasten, inclusief intune mobile app protection
 
@@ -155,7 +155,7 @@ Als u het Microsoft 365 E5-abonnement gebruikt en gebruik maakt van Azure Identi
 - Maak een nieuwe regel voor voorwaardelijke toegang om MFA altijd te vereisen voor gasten en externe gebruikers.
 - Werk de risicogebaseerde MFA-regel voor voorwaardelijke toegang bij om gasten en externe gebruikers uit te sluiten.
 
-Gebruik de richtlijnen in [Het algemene](./office-365-security/identity-access-policies-guest-access.md) beleid bijwerken om gast- en externe toegang toe te staan en te beveiligen om te begrijpen hoe gasttoegang werkt met Azure AD en om het betreffende beleid bij te werken.
+Gebruik de richtlijnen in [Het algemene](./defender-365-security/identity-access-policies-guest-access.md) beleid bijwerken om gast- en externe toegang toe te staan en te beveiligen om te begrijpen hoe gasttoegang werkt met Azure AD en om het betreffende beleid bij te werken.
 
 Het beveiligingsbeleid voor mobiele apps in Intune dat u hebt gemaakt, samen met de regel voor voorwaardelijke toegang om goedgekeurde apps en APP-beveiliging te vereisen, is van toepassing op gastenaccounts en helpt uw organisatiegegevens te beschermen.
 
@@ -173,12 +173,12 @@ U kunt ook profiteren van deze zelfstudies:
 - [Autopilot gebruiken om Windows-apparaten in te schrijven in Intune](/mem/intune/enrollment/tutorial-use-autopilot-enroll-devices)
 - [De functies voor het registreren van apple-apparaten voor bedrijven gebruiken in Apple Business Manager (ABM) om iOS-/iPadOS-apparaten in te schrijven in Intune](/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
 
-Nadat u apparaten hebt ingeschreven, gebruikt u de richtlijnen in beleidsregels voor algemene [identiteits-](./office-365-security/identity-access-policies.md) en apparaattoegang om deze beleidsregels te maken:
+Nadat u apparaten hebt ingeschreven, gebruikt u de richtlijnen in beleidsregels voor algemene [identiteits-](./defender-365-security/identity-access-policies.md) en apparaattoegang om deze beleidsregels te maken:
 
-- [Beleidsregels voor apparaat compliance definiëren:](./office-365-security/identity-access-policies.md#define-device-compliance-policies) de aanbevolen instellingen voor Windows 10 omvatten het vereisen van antivirusbeveiliging. Als u Microsoft 365 E5 hebt, gebruikt u Microsoft Defender voor Eindpunt om de status van werknemersapparaten te controleren. Zorg ervoor dat compliancebeleid voor andere besturingssystemen antivirusbeveiliging en end-pointbeveiligingssoftware bevat.
-- [Compatibele pc's vereisen:](./office-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) dit is de regel voor voorwaardelijke toegang in Azure AD die het nalevingsbeleid voor apparaten afdwingt.
+- [Beleidsregels voor apparaat compliance definiëren:](./defender-365-security/identity-access-policies.md#define-device-compliance-policies) de aanbevolen instellingen voor Windows 10 omvatten het vereisen van antivirusbeveiliging. Als u Microsoft 365 E5 hebt, gebruikt u Microsoft Defender voor Eindpunt om de status van werknemersapparaten te controleren. Zorg ervoor dat compliancebeleid voor andere besturingssystemen antivirusbeveiliging en end-pointbeveiligingssoftware bevat.
+- [Compatibele pc's vereisen:](./defender-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) dit is de regel voor voorwaardelijke toegang in Azure AD die het nalevingsbeleid voor apparaten afdwingt.
 
-Slechts één organisatie kan een apparaat beheren, dus sluit gastaccounts uit van de regel voor voorwaardelijke toegang in Azure AD. Als u gast- en externe gebruikers niet uitsluit van beleidsregels waarvoor apparaat compliance vereist is, worden deze gebruikers geblokkeerd door dit beleid. Zie Het algemene beleid bijwerken om gast- en externe toegang toe te staan en [te beveiligen voor meer informatie.](./office-365-security/identity-access-policies-guest-access.md)
+Slechts één organisatie kan een apparaat beheren, dus sluit gastaccounts uit van de regel voor voorwaardelijke toegang in Azure AD. Als u gast- en externe gebruikers niet uitsluit van beleidsregels waarvoor apparaat compliance vereist is, worden deze gebruikers geblokkeerd door dit beleid. Zie Het algemene beleid bijwerken om gast- en externe toegang toe te staan en [te beveiligen voor meer informatie.](./defender-365-security/identity-access-policies-guest-access.md)
 
 ## <a name="9-optimize-your-network-for-cloud-connectivity"></a>9: Uw netwerk optimaliseren voor cloudconnectiviteit
 
@@ -241,11 +241,11 @@ Ga nu aan de slag met Cloud App Security. Later kunt u geavanceerdere controle e
 
 ## <a name="12-monitor-for-threats-and-take-action"></a>12: Controleren op bedreigingen en actie ondernemen
 
-Microsoft 365 bevat verschillende manieren om de status te controleren en passende acties uit te voeren. Het beste uitgangspunt is het Microsoft 365-beveiligingscentrum (), waar u de Microsoft Secure Score van uw organisatie kunt bekijken en eventuele waarschuwingen of entiteiten die uw aandacht [https://security.microsoft.com](https://security.microsoft.com) vereisen. [](./mtp/microsoft-secure-score.md)
+Microsoft 365 bevat verschillende manieren om de status te controleren en passende acties uit te voeren. Het beste uitgangspunt is het Microsoft 365-beveiligingscentrum (), waar u de Microsoft Secure Score van uw organisatie kunt bekijken en eventuele waarschuwingen of entiteiten die uw aandacht [https://security.microsoft.com](https://security.microsoft.com) vereisen. [](./defender/microsoft-secure-score.md)
 
-- [Aan de slag met het Microsoft 365-beveiligingscentrum](./mtp/overview-security-center.md)
-- [Rapporten controleren en bekijken](./mtp/overview-security-center.md)
-- [Bekijk de beveiligingsportals in Microsoft 365](./mtp/portals.md)
+- [Aan de slag met het Microsoft 365-beveiligingscentrum](./defender/overview-security-center.md)
+- [Rapporten controleren en bekijken](./defender/overview-security-center.md)
+- [Bekijk de beveiligingsportals in Microsoft 365](./defender/portals.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 

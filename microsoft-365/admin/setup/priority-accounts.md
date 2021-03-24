@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Controleren mislukt en vertraagde e-mailberichten die zijn verzonden naar of van accounts met een hoge zakelijke impact.
-ms.openlocfilehash: b31cbf79b5b1b8f882c4c7bc8926779410baefe3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0bba1f87f80de9fea249ce2604e83ceeadfb79ee
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914052"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050640"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Prioriteitsaccounts beheren en bewaken
 
@@ -26,10 +26,10 @@ In elke Microsoft 365-organisatie zijn er mensen die essentieel zijn, zoals leid
 
 Als u uw organisatie wilt helpen deze accounts te beveiligen, kunt u nu specifieke gebruikers aanwijzen als prioriteitsaccounts en gebruikmaken van app-specifieke functies die hen extra bescherming bieden. In de toekomst ondersteunen meer apps en functies prioriteitsaccounts en om te  beginnen hebben we twee mogelijkheden aangekondigd: prioriteitsaccountbeveiliging en premium **e-mailstroomcontrole.**
 
-- **Prioriteitsaccountbeveiliging** : Microsoft Defender voor Office 365 (voorheen Geavanceerde bedreigingsbeveiliging voor Office 365) ondersteunt prioriteitsaccounts als tags die kunnen worden gebruikt in filters in waarschuwingen, rapporten en onderzoeken. Zie Gebruikerslabels [in Microsoft Defender voor Office 365 voor meer informatie.](../../security/office-365-security/user-tags.md)
+- **Prioriteitsaccountbeveiliging** : Microsoft Defender voor Office 365 (voorheen Geavanceerde bedreigingsbeveiliging voor Office 365) ondersteunt prioriteitsaccounts als tags die kunnen worden gebruikt in filters in waarschuwingen, rapporten en onderzoeken. Zie Gebruikerslabels [in Microsoft Defender voor Office 365 voor meer informatie.](../../security/defender-365-security/user-tags.md)
 - **Premium Mail Flow Monitoring** - Een gezonde e-mailstroom kan essentieel zijn voor bedrijfssucces en vertragingen of mislukte bezorging kunnen een negatieve invloed hebben op het bedrijf. U kunt een drempel voor mislukte of vertraagde e-mailberichten kiezen, waarschuwingen ontvangen wanneer deze drempel wordt overschreden en een rapport bekijken met e-mailproblemen voor prioriteitsaccounts. Zie E-mailproblemen voor het rapport [Prioriteitsaccounts in](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) het moderne EAC voor meer informatie.
 
-Zie Beveiligingsaanbevelingen voor prioriteitsaccounts voor aanbevolen beveiligingsprocedures [voor prioriteitsaccounts.](../../security/office-365-security/security-recommendations-for-priority-accounts.md)
+Zie Beveiligingsaanbevelingen voor prioriteitsaccounts voor aanbevolen beveiligingsprocedures [voor prioriteitsaccounts.](../../security/defender-365-security/security-recommendations-for-priority-accounts.md)
 
 ## <a name="before-you-begin"></a>Voordat u begint
 

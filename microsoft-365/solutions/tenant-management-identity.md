@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Implementeer het juiste identiteitsmodel voor uw Microsoft 365-tenants en dwing sterke aanmeldingen van gebruikers af.
-ms.openlocfilehash: 18d950bcca0c4f24e4777d0e29bd8e319d0de77f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 57e84b38715c4fbe29f9aa362e363663b0401f91
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920866"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052360"
 ---
 # <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>Stap 3. Identiteit voor uw Microsoft 365 voor enterprise tenants
 
@@ -77,7 +77,7 @@ Als u de beveiliging van aanmeldingen van gebruikers wilt verhogen, gebruikt u d
 | Windows Hello voor Bedrijven | Vervangt wachtwoorden door sterke tweestapsverificatie wanneer u zich aanmeldt op een Windows-apparaat. De twee factoren zijn een nieuw type gebruikersreferentie dat is gekoppeld aan een apparaat en een biometrisch kenmerk of een pincode. | [Overzicht van Windows Hello voor Bedrijven](/windows/security/identity-protection/hello-for-business/hello-overview) | Microsoft 365 E3 of E5 |
 | Azure AD-wachtwoordbeveiliging | Detecteert en blokkeert bekende zwakke wachtwoorden en hun varianten en kan ook aanvullende zwakke termen blokkeren die specifiek zijn voor uw organisatie. | [Azure AD-wachtwoordbeveiliging configureren](/azure/active-directory/authentication/concept-password-ban-bad) | Microsoft 365 E3 of E5 |
 | Meervoudige verificatie (MFA) gebruiken | MFA vereist dat gebruikersmeldingen worden onderworpen aan een extra verificatie buiten het wachtwoord van het gebruikersaccount, zoals verificatie met een smartphone-app of een sms-bericht dat naar een smartphone is verzonden. Zie [deze video voor](https://support.microsoft.com/office/set-up-multi-factor-authentication-in-microsoft-365-business-a32541df-079c-420d-9395-9d59354f7225) instructies over hoe gebruikers MFA instellen. | [MFA voor Microsoft 365 voor ondernemingen](../enterprise/microsoft-365-secure-sign-in.md#mfa) | Microsoft 365 E3 of E5 |
-| Configuratie van identiteiten en apparaattoegang | Instellingen en beleidsregels die bestaan uit aanbevolen vereiste functies en hun instellingen in combinatie met beleidsregels voor Voorwaardelijke toegang, Intune en Azure AD Identity Protection die bepalen of een bepaald toegangsverzoek moet worden verleend en onder welke voorwaarden.  | [Configuratie van identiteiten en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 of E5 |
+| Configuratie van identiteiten en apparaattoegang | Instellingen en beleidsregels die bestaan uit aanbevolen vereiste functies en hun instellingen in combinatie met beleidsregels voor Voorwaardelijke toegang, Intune en Azure AD Identity Protection die bepalen of een bepaald toegangsverzoek moet worden verleend en onder welke voorwaarden.  | [Configuratie van identiteiten en apparaattoegang](../security/defender-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 of E5 |
 | Azure AD Identity Protection | Bescherm u tegen referentiescompromitteerdheid, waarbij een aanvaller de accountnaam en het wachtwoord van een gebruiker bepaalt om toegang te krijgen tot de cloudservices en -gegevens van een organisatie. | [Azure AD Identity Protection](/azure/active-directory/active-directory-identityprotection) | Microsoft 365 E5 of Microsoft 365 E3 met de invoeg & Identity & Threat Protection |
 |  |  |  |
 

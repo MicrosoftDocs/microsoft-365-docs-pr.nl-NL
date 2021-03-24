@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe Contoso gebruikmaakt van Identiteit als een service (IDaaS) en cloud-based verificatie voor haar werknemers en federatieve verificatie voor haar partners en klanten verstrekt.
-ms.openlocfilehash: accd60f6699e7ebf04963213128d1ca1ffc8f7fe
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f3c8746345683652ce601400ae7297e96fff2ee3
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911070"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051518"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Identiteit voor Contoso Corporation
 
@@ -64,7 +64,7 @@ Hier is de server met Azure AD Connect die het Contoso AD DS-forest peilt naar w
  
 ## <a name="conditional-access-policies-for-identity-and-device-access"></a>Voorwaardelijk toegangsbeleid voor identiteits- en apparaattoegang
 
-Contoso heeft een set van Azure AD-en Intune [Voorwaardelijk toegangsbeleidsregels gemaakt](../security/office-365-security/identity-access-policies.md) voor drie beveiligingsniveaus:
+Contoso heeft een set van Azure AD-en Intune [Voorwaardelijk toegangsbeleidsregels gemaakt](../security/defender-365-security/identity-access-policies.md) voor drie beveiligingsniveaus:
 
 - *Basislijnbeveiligingen* zijn van toepassing op alle gebruikersaccounts.
 - *Gevoelige* beveiligingen zijn van toepassing op leidinggevenden en leidinggevenden.

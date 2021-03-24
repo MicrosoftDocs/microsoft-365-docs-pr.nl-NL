@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: de meest voorkomende bedreigings- en aanvalsscenario's die momenteel worden geconfronteerd door organisaties voor hun Microsoft 365-omgevingen en aanbevolen acties om deze risico's te beperken.
-ms.openlocfilehash: b238ed744d4998d940af456418dbb14ff31360a9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 328bd4c079531ee57b41422fd2d3f2c53ef8dc18
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909080"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051088"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 Security for Business Decision Makers (BDMs)
 
@@ -29,7 +29,7 @@ Dit artikel wordt ingedeeld op prioriteit van het werk, te beginnen met het beve
 
 [![Duimafbeelding Microsoft 365 BDM-beveiligingsaanbevelingen spreadsheet](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
-Microsoft biedt u het hulpprogramma Secure Score binnen uw tenant om uw beveiligingsbeleid automatisch te analyseren op basis van uw normale activiteiten, een score toe te wijzen en aanbevelingen voor beveiligingsverbetering te geven. Voordat u de acties ondernomen die in dit artikel worden aanbevolen, noteert u uw huidige score en aanbevelingen. De acties die in dit artikel worden aanbevolen, verhogen de score. Het doel is niet om de maximale score te behalen, maar om rekening te houden met mogelijkheden om uw omgeving te beschermen op een manier die de productiviteit van uw gebruikers niet negatief beïnvloedt. Zie [Microsoft Secure Score](mtp/microsoft-secure-score.md).
+Microsoft biedt u het hulpprogramma Secure Score binnen uw tenant om uw beveiligingsbeleid automatisch te analyseren op basis van uw normale activiteiten, een score toe te wijzen en aanbevelingen voor beveiligingsverbetering te geven. Voordat u de acties ondernomen die in dit artikel worden aanbevolen, noteert u uw huidige score en aanbevelingen. De acties die in dit artikel worden aanbevolen, verhogen de score. Het doel is niet om de maximale score te behalen, maar om rekening te houden met mogelijkheden om uw omgeving te beschermen op een manier die de productiviteit van uw gebruikers niet negatief beïnvloedt. Zie [Microsoft Secure Score](defender/microsoft-secure-score.md).
 
 ![Volg deze stappen om de risico's voor uw bedrijf te beperken.](../media/security/security-for-bdms-overview.png)
 
@@ -70,7 +70,7 @@ Bekende bedreigingen zijn malware, gekromde accounts en phishing. Sommige beveil
 
 |Aanbeveling  |E3  |E5  |
 |---------|---------|---------|
-|**Stel meervoudige verificatie in en gebruik aanbevolen beleid voor voorwaardelijke toegang, inclusief beleid voor aanmeldingsrisico's.** Microsoft raadt en heeft een reeks beleidsregels aanbevolen en getest die samenwerken om alle cloud-apps te beveiligen, inclusief Office 365- en Microsoft 365-services. Zie [Configuraties voor identiteits- en apparaattoegang.](./office-365-security/microsoft-365-policies-configurations.md) | |![groen vinkje](../media/green-check-mark.png)|
+|**Stel meervoudige verificatie in en gebruik aanbevolen beleid voor voorwaardelijke toegang, inclusief beleid voor aanmeldingsrisico's.** Microsoft raadt en heeft een reeks beleidsregels aanbevolen en getest die samenwerken om alle cloud-apps te beveiligen, inclusief Office 365- en Microsoft 365-services. Zie [Configuraties voor identiteits- en apparaattoegang.](./defender-365-security/microsoft-365-policies-configurations.md) | |![groen vinkje](../media/green-check-mark.png)|
 |**Meervoudige verificatie vereisen voor alle gebruikers.** Als u niet de vereiste licenties hebt om het aanbevolen beleid voor voorwaardelijke toegang te implementeren, moet u ten minste meervoudige verificatie voor alle gebruikers vereisen.|![groen vinkje](../media/green-check-mark.png)|![groen vinkje](../media/green-check-mark.png)|
 |**Verhhing het beschermingsniveau tegen malware in e-mail.** Uw Office 365- of Microsoft 365-omgeving bevat bescherming tegen malware, maar u kunt deze beveiliging verhogen door bijlagen te blokkeren met bestandstypen die vaak voor malware worden gebruikt.|![groen vinkje](../media/green-check-mark.png)|![groen vinkje](../media/green-check-mark.png)|
 |**Bescherm uw e-mail tegen gerichte phishingaanvallen.** Als u een of meer aangepaste domeinen hebt geconfigureerd voor uw Office 365- of Microsoft 365-omgeving, kunt u gerichte bescherming tegen phishing configureren. Anti-phishingbeveiliging, onderdeel van Defender voor Office 365, kan uw organisatie helpen beschermen tegen kwaadaardige phishingaanvallen op basis van imitaties en andere phishingaanvallen. Als u een aangepast domein niet hebt geconfigureerd, hoeft u dit niet te doen.| |![groen vinkje](../media/green-check-mark.png)|
@@ -116,7 +116,7 @@ Met microsoft 365-informatiebeveiligingsfuncties kunt u ontdekken welke gegevens
 
 |Aanbeveling |E3|E5 |
 |---------|---------|---------|
-|**Controleer en optimaliseer uw voorwaardelijke toegang en gerelateerde beleidsregels** om af te stemmen op uw doelstellingen voor een zero trust-netwerk. Bescherming tegen bekende bedreigingen omvat het implementeren van een reeks [aanbevolen beleidsregels.](./office-365-security/microsoft-365-policies-configurations.md) Controleer de implementatie van dit beleid om ervoor te zorgen dat u uw apps en gegevens beschermt tegen hackers die toegang hebben gekregen tot uw netwerk. Houd er rekening mee dat Windows Information Protection (WIP) is mogelijk met het aanbevolen intune-appbeveiligingsbeleid voor Windows 10. WIP beschermt tegen onbedoelde lekken van uw organisatiegegevens via apps en services, zoals e-mail, sociale media en de openbare cloud. |         |![groen vinkje](../media/green-check-mark.png)|
+|**Controleer en optimaliseer uw voorwaardelijke toegang en gerelateerde beleidsregels** om af te stemmen op uw doelstellingen voor een zero trust-netwerk. Bescherming tegen bekende bedreigingen omvat het implementeren van een reeks [aanbevolen beleidsregels.](./defender-365-security/microsoft-365-policies-configurations.md) Controleer de implementatie van dit beleid om ervoor te zorgen dat u uw apps en gegevens beschermt tegen hackers die toegang hebben gekregen tot uw netwerk. Houd er rekening mee dat Windows Information Protection (WIP) is mogelijk met het aanbevolen intune-appbeveiligingsbeleid voor Windows 10. WIP beschermt tegen onbedoelde lekken van uw organisatiegegevens via apps en services, zoals e-mail, sociale media en de openbare cloud. |         |![groen vinkje](../media/green-check-mark.png)|
 |**Externe e-mail doorsturen uitschakelen.** Hackers die toegang krijgen tot het postvak van een gebruiker, kunnen uw e-mail stelen door het postvak in te stellen om e-mail automatisch door te sturen. Dit kan zelfs gebeuren zonder dat de gebruiker dit weet. U kunt dit voorkomen door een e-mailstroomregel te configureren.|![groen vinkje](../media/green-check-mark.png) |![groen vinkje](../media/green-check-mark.png)|
 |**Anonieme delen van externe agenda's uitschakelen.** Het delen van externe anonieme agenda's is standaard toegestaan. [Het delen van agenda's](/exchange/sharing/sharing-policies/modify-a-sharing-policy) uitschakelen om mogelijke lekken van gevoelige informatie te beperken.|![groen vinkje](../media/green-check-mark.png) |![groen vinkje](../media/green-check-mark.png)|
 |**Beleid voor preventie van gegevensverlies configureren voor gevoelige gegevens.** Maak een preventiebeleid voor gegevensverlies in het Beveiligings compliancecentrum om gevoelige gegevens te ontdekken en te &amp; beveiligen, zoals creditcardnummers, socialezekerheidsnummers en bankrekeningnummers. Microsoft 365 bevat veel vooraf gedefinieerde typen gevoelige informatie die u kunt gebruiken in beleid voor preventie van gegevensverlies. U kunt ook uw eigen typen gevoelige informatie maken voor gevoelige gegevens die zijn aangepast aan uw omgeving. |![groen vinkje](../media/green-check-mark.png)|![groen vinkje](../media/green-check-mark.png)|

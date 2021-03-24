@@ -1,5 +1,5 @@
 ---
-title: Identiteit, apparaat en bedreigings bescherming gebruiken voor data privacy verordening
+title: Identiteits-, apparaat- en bedreigingsbeveiliging gebruiken voor privacyregels voor gegevens
 ms.author: bcarter
 author: brendacarter
 f1.keywords:
@@ -16,73 +16,73 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: Voorkom dat persoonlijke gegevens worden geschonden met identiteits-, service-en Threat Protection-Services van Microsoft 365.
-ms.openlocfilehash: 321b60efbdabe62b14502df4a16dd2dcec4b9cef
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Voorkom inbreuken op persoonlijke gegevens met identiteits-, apparaat- en bedreigingsbeveiligingsservices van Microsoft 365.
+ms.openlocfilehash: 145b8a59f7eafb95adf71dc24613ee15ef1c2cca
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847176"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052348"
 ---
-# <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Identiteit, apparaat en bedreigings bescherming gebruiken voor data privacy verordening
+# <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Identiteits-, apparaat- en bedreigingsbeveiliging gebruiken voor privacyregels voor gegevens
 
-Microsoft 365 biedt een aantal mogelijkheden voor identiteiten, apparaten en beveiliging van bedreigingen waarmee organisaties zich kunnen helpen aan de nalevings regels van de regelgeving voor informatie. In dit artikel wordt uitgelegd wat de vereisten voor data privacy op deze gebieden zijn, en een lijst met verwante Microsoft 365-functies en-services, met koppelingen naar meer informatie om de implementatievereisten te adresseren.
+Microsoft 365 biedt een aantal mogelijkheden voor identiteits-, apparaat- en bedreigingsbeveiliging die organisaties kunnen gebruiken om te voldoen aan nalevingsregels voor gegevensbescherming. In dit artikel wordt beschreven wat de privacyregels voor gegevens vereisen in deze gebieden en bevat een lijst met gerelateerde Microsoft 365-functies en -services met koppelingen naar meer informatie om u te helpen bij het voldoen aan implementatievereisten.
 
-## <a name="how-identity-device-and-threat-protection-relate-to-data-privacy-regulation"></a>Hoe de identiteit, het apparaat en de bedreigingsbeveiliging betrekking hebben op de regelgeving voor data privacy
+## <a name="how-identity-device-and-threat-protection-relate-to-data-privacy-regulation"></a>Hoe identiteits-, apparaat- en bedreigingsbeveiliging zich verhouden tot de privacyregel voor gegevens
 
-Hoewel de regelgeving voor de privacy in hun eigeniteit verschilt, is de essentie van de inhoud van de inhoud van het AVG-artikel 5 (1) (f), waarin wordt aangegeven dat: 
+Hoewel de privacyregels voor gegevens variëren in hun specificiteit, wordt de essentie van wat ze noemen opgenomen in artikel 5, lid 1, onder f, van de AVG, waarin wordt bepaald dat:
 
-- Persoonlijke gegevens worden verwerkt op een wijze die de juiste veiligheid van de persoonsgegevens waarborgt, met inbegrip van de bescherming tegen ongeoorloofde of onwettige verwerking en tegen toevallige verlies, vernietiging of schade, op basis van adequate technische of organisatie maatregelen (' integriteit en vertrouwelijkheid ').
+- Persoonsgegevens worden verwerkt op een manier die de juiste beveiliging van de persoonsgegevens garandeert, met inbegrip van bescherming tegen ongeoorloofde of onrechtmatige verwerking en tegen onbedoeld verlies, vernieling of schade, met behulp van passende technische of organisatorische maatregelen ('integriteit en vertrouwelijkheid').
 
-Aangezien persoonlijke gegevens schendingen vaak worden veroorzaakt door een administratieve of eindgebruikers account en toegang tot een kwaadaardige systeem. Een account van een beheerder kan bijvoorbeeld hacken exfiltration van creditcardnummers van klanten of andere persoonlijke gegevens. Alle algemeen verzorg bare identiteit, apparaat en bedreigings bescherming met Microsoft 365, moet worden geïmplementeerd, welke worden weergegeven in de compliance-Score.
+Omdat inbreuken op persoonlijke gegevens vaak worden veroorzaakt door compromitteerd beheer- of eindgebruikersaccount en schadelijke systeemtoegang. Een hack van een beheerdersaccount kan bijvoorbeeld leiden tot exfiltratie van creditcardnummers van klanten of andere persoonlijke gegevens. Alle over het algemeen aanbevolen identiteits-, apparaat- en bedreigingsbeveiliging die mogelijk beschikbaar is met Microsoft 365, moet worden geïmplementeerd, wat wordt weerspiegeld in uw compliancescore, die wordt gevonden in Compliance Manager.
 
-## <a name="using-the-results-of-your-assessment-work-and-compliance-manager"></a>De resultaten van uw beoordelings werk en Compliance Manager gebruiken
+## <a name="using-the-results-of-your-assessment-work-and-compliance-manager"></a>De resultaten van uw beoordelingswerk en Compliance Manager gebruiken
 
-Nalevings beheer met identiteit, apparaat en bedreigingsbeveiliging bevat de volgende categorieën:
+Compliance Manager bevat identiteits-, apparaat- en bedreigingsbeveiliging met behulp van deze categorieën:
 
-- Identiteit komt overeen met de categorie **toegangsbeheer**
-- Apparaat komt overeen met de categorie **apparaten beheren**
-- Bedreigingsbeveiliging komt overeen met de categorie **bescherming tegen bedreigingen**
+- Identiteit komt overeen met de **categorie Control Access**
+- Apparaat komt overeen met de **categorie Apparaten** beheren
+- Bedreigingsbeveiliging komt overeen met de **categorie Beschermen tegen** bedreigingen
  
-Als deze optie is geselecteerd in onze Voorbeeldset met vier belangrijke informatie over de privacy, geeft Compliance Manager 90-verbeterings acties op, waarvan de meeste een ' 27 ' gescoorde. Aangezien een dergelijk grote nummer wordt genoemd door Compliance Manager voor deze categorieën, worden enkele van de meest voorkomende items hier weergegeven voor naslaginformatie.
+Als deze zijn geselecteerd in onze voorbeeldset met vier belangrijke privacyregels voor gegevens, geeft Compliance Manager 90 verbeteracties op, waarvan de meeste een '27' krijgen. Aangezien een dergelijk groot aantal door Compliance Manager voor deze categorieën wordt uitgeroepen, worden enkele veelgebruikte categorieën hier vermeld, ter referentie.
 
-Azure [Active Directory (Azure AD)](https://azure.microsoft.com/services/active-directory/) gebruiken voor de identiteit en de categorie **toegangsbeheer** , waarmee u het volgende kunt doen:
+Gebruik [Azure Active Directory (Azure AD)](https://azure.microsoft.com/services/active-directory/) voor identiteit en de categorie Control **Access,** waarmee u het volgende kunt doen:
 
-- Herspeel bestendige verificatie implementeren (om man in het midden te helpen voorkomen)
-- Verouderde authenticatie blokkeren.
-- Beleidsregels voor gebruikers risico en gebruikersaanmelding configureren.
-- Schakel voorwaardelijke toegang en multi-factor Authentication (MFA) in voor beheerders en niet-beheerders.
-- Wachtwoordbeleidsregels configureren en afdwingen.
-- Toegang tot geprivilegieerde accounts beperken met een Azure AD-geprivilegieerde identiteitsbeheer.
-- Toegang uitschakelen na beëindiging.
+- Replay-resistant authentication implementeren (om 'Man in the middle' aanvallen te voorkomen)
+- Oudere verificatie blokkeren.
+- Beleidsregels voor gebruikersrisico's en aanmeldingsrisico's voor gebruikers configureren.
+- Voorwaardelijke toegang en meervoudige verificatie (MFA) inschakelen voor beheerders en niet-beheerders.
+- Wachtwoordbeleid configureren en afdwingen.
+- Toegang tot bevoorrechte accounts beperken met Azure AD Privileged Identity Management.
+- De toegang uitschakelen na beëindiging.
 - Controleer gebruikersaccounts en statuswijzigingen.
-- Rollen groepen en beheerders wijzigingen bekijken.
+- Controleer rollengroep- en beheerwijzigingen.
 
-Gebruik [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager) voor apparaten en de categorie **apparaten beheren** , waarmee u het volgende kunt doen:
+Microsoft [Endpoint Manager gebruiken](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager) voor apparaten en de categorie Apparaten beheren, waarmee u het volgende kunt doen: 
 
-- Blokkeer jail verbroken en geroote mobiele apparaten.
-- InTune configureren voor Mobile Device Management.
-- Nalevingsbeleid maken voor Android-, iOS-, macOS-en Windows-apparaten.
-- Maak een apparaatconfiguratie-profiel voor Android-, iOS-, macOS-en Windows-apparaten.
-- Maak app-beveiligingsbeleid voor iOS en Windows.
-- Gegevens verbergen met vergrendelingsscherm.
-- Beleidsregels voor het wachtwoord implementeren voor mobiele apparaten.
-- Mobiele apparaten moeten worden vergrendeld bij inactiviteit.
+- Blokkeer de cel met gebroken en geroote mobiele apparaten.
+- Intune configureren voor mobiel apparaatbeheer.
+- Maak compliancebeleid voor Android-, iOS-, macOS- en Windows-apparaten.
+- Maak een apparaatconfiguratieprofiel voor Android-, iOS-, macOS- en Windows-apparaten.
+- Beleid voor app-beveiliging maken voor iOS en Windows.
+- Verberg gegevens met vergrendelingsscherm.
+- Wachtwoordbeleid implementeren voor mobiele apparaten.
+- Vereisen dat mobiele apparaten worden vergrendeld bij inactiviteit.
 - Vereisen dat mobiele apparaten meerdere aanmeldingsfouten wissen.
 
-Gebruik [Exchange Online Protection en Microsoft Defender voor Office 365](../security/office-365-security/office-365-atp.md) voor de categorie **beveiliging tegen bedreigingen** , waarmee u het volgende kunt doen:
+Gebruik [Exchange Online Protection en Microsoft Defender voor Office 365](../security/defender-365-security/defender-for-office-365.md) voor de categorie Beschermen **tegen** bedreigingen, waarmee u het volgende kunt doen:
 
-- Verzender verificatie inschakelen (SPF, DMARC en DKIM).
-- Microsoft Defender for Office 365 anti phishing policies instellen.
+- Afzenderverificatie (SPF, DMARC en DKIM) inschakelen.
+- Microsoft Defender voor Office 365 anti-phishingbeleid instellen.
 - Veilige bijlagen implementeren.
 - Veilige koppelingen implementeren.
-- Detectie van malware en antwoord beleid implementeren.
-- Implementeer uitgaand en inkomend spam beleid.
+- Implementeert malwaredetectie- en antwoordbeleid.
+- Implementeert uitgaand en binnenkomende spambeleid.
 
-### <a name="references"></a>Verwijzingen
+### <a name="references"></a>Verwijzingen:
 
-- [Algemeen beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
-- [Beveiliging tegen bedreigingen in Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [Veilige bijlagen](../security/office-365-security/atp-safe-attachments.md)
-- [Veilige koppelingen](../security/office-365-security/atp-safe-links.md)
-- [Veilige documenten](../security/office-365-security/safe-docs.md)
+- [Algemeen beleid voor identiteiten en apparaattoegang](../security/defender-365-security/identity-access-policies.md)
+- [Beschermen tegen bedreigingen in Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
+- [Veilige bijlagen](../security/defender-365-security/safe-attachments.md)
+- [Veilige koppelingen](../security/defender-365-security/safe-links.md)
+- [Veilige documenten](../security/defender-365-security/safe-docs.md)

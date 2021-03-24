@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Meer informatie over het verloopbeleid voor Microsoft 365-groepen.
-ms.openlocfilehash: 8232e7df2a8390b905386773ed0656eb8239d5c5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 65a746751cd523a5dadce3eca573e6a9bfce0166
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052300"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Verloopbeleid voor Microsoft 365-groep
 
@@ -37,6 +37,8 @@ Groepen die actief worden gebruikt, worden automatisch verlengd. Een van de volg
 - SharePoint: bestanden weergeven, bewerken, downloaden, verplaatsen, delen of uploaden. (Het weergeven van een SharePoint-pagina telt niet als een actie voor automatische verlenging.)
 - Outlook: deelnemen aan groep, groepsbericht lezen of schrijven vanuit de groep en een bericht leuk vinden (webversie van Outlook).
 - Teams : een teamkanaal bezoeken.
+
+De enige Yammer-activiteit die een automatische groepsvernieuwing activeert, is het uploaden van een document naar SharePoint binnen de community.
 
 > [!IMPORTANT]
 > Wanneer u het verloopbeleid wijzigt, wordt de vervaldatum voor elke groep opnieuw berekend door de service. Het begint altijd te tellen vanaf de datum waarop de groep is gemaakt en past vervolgens het nieuwe verloopbeleid toe.

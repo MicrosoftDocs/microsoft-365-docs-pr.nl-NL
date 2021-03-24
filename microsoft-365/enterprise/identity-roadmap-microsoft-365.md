@@ -1,5 +1,5 @@
 ---
-title: Identiteitsroadmap voor Microsoft 365
+title: Identiteits-roadmap voor Microsoft 365 herkennen
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,59 +15,59 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 ms.custom: ''
-description: De routekaart voor de identiteit van Microsoft 365.
-ms.openlocfilehash: c79b7babbfbd97a13979de1ed23052ac572d9ded
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: De routekaart naar identiteit voor Microsoft 365.
+ms.openlocfilehash: 456841bfc15d143409535140f2b5a63ee72e99d2
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446285"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051304"
 ---
-# <a name="identity-roadmap-for-microsoft-365"></a>Identiteitsroadmap voor Microsoft 365
+# <a name="identity-roadmap-for-microsoft-365"></a>Identiteits-roadmap voor Microsoft 365 herkennen
 
-In Microsoft 365 voor Enterprise is een goed geplande en uitgevoerde identificatie structuur Paves de manier voor een sterkere beveiliging, zoals het beperken van toegang tot uw productiviteits belastingen en hun gegevens aan geverifieerde gebruikers en apparaten.
+In Microsoft 365 voor bedrijven maakt een goed geplande en uitgevoerde identiteitsinfrastructuur de weg vrij voor een betere beveiliging, waaronder het beperken van de toegang tot uw productiviteitsbelasting en hun gegevens tot alleen geverifieerde gebruikers en apparaten.
 
-Bekijk deze video voor een overzicht van identiteits modellen en verificatie voor Microsoft 365 for Enterprise.
+Bekijk deze video voor een overzicht van identiteitsmodellen en verificatie voor Microsoft 365 voor bedrijven.
 
 <p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
-Voor informatie over de identiteits functies van elk Microsoft 365 for Enterprise-abonnement, de rol van Azure Active Directory, de on-premises en Cloud onderdelen en de meest gebruikte verificatie configuraties, raadpleegt u de [poster voor identiteits infrastructuur](../downloads/m365e-identity-infra.pdf).
+Zie de poster Identiteitsinfrastructuur voor informatie over de identiteitsfuncties van elk Microsoft 365 voor ondernemingsplan, de rol van Azure [](../downloads/m365e-identity-infra.pdf)Active Directory, zowel de on-premises als cloudonderdelen en de meest voorkomende verificatieconfiguraties.
 
 [![De poster Identiteitsinfrastructuur](../downloads/m365e-identity-infra.png)](../downloads/m365e-identity-infra.pdf)
 
-Bekijk deze tweepaginas poster om snel te beoordeelen over identiteits concepten en configuraties voor Microsoft 365 for Enterprise.
+Bekijk deze poster met twee pagina's om snel meer informatie te krijgen over identiteitsconcepten en -configuraties voor Microsoft 365 voor bedrijven.
 
-U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) en afdrukken in de indeling letter, juridisch of tabloid (11 x 17).
+U kunt deze [poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) en deze afdrukken in de notatie letter, legal of tabloid (11 x 17).
 
-## <a name="plan"></a>Plannen
+## <a name="plan"></a>Plan
 
-Voor het plannen van uw identiteits implementatie:
+Plannen voor de implementatie van uw identiteit:
 
-- [Meer informatie over de verschillende identiteits modellen](about-microsoft-365-identity.md)
-- [Hybrid Identity-en Directory synchronisatie plannen](plan-for-directory-synchronization.md)
+- [De verschillende identiteitsmodellen begrijpen](about-microsoft-365-identity.md)
+- [Hybride identiteit en adreslijstsynchronisatie plannen](plan-for-directory-synchronization.md)
 
 ## <a name="deploy"></a>Implementeren
 
-Uw identiteits implementatie implementeren:
+De implementatie van uw identiteit implementeren:
 
 - [Uw globale-beheerdersaccounts beveiligen](protect-your-global-administrator-accounts.md)
-- [Alleen Cloud identiteiten configureren en gebruiken](cloud-only-identities.md)
-- [Hybrid Identities configureren en gebruiken](prepare-for-directory-synchronization.md)
+- [Identiteiten in de cloud configureren en gebruiken](cloud-only-identities.md)
+- [Hybride identiteiten configureren en gebruiken](prepare-for-directory-synchronization.md)
 - [Adreslijstsynchronisatie instellen](set-up-directory-synchronization.md)
-- [Scenario's voor hybride identiteiten](hybrid-solutions.md) , indien nodig, implementeren
+- Indien nodig hybride [identiteitsscenario's implementeren](hybrid-solutions.md)
 
 ### <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 
-Microsoft biedt een set aanbevelingen voor de [toegang van identiteiten en apparaten](../security/office-365-security/microsoft-365-policies-configurations.md)om een veilig en productief personeel te helpen. Gebruik voor Identity de aanbevelingen en instellingen in deze artikelen:
+Microsoft biedt een reeks aanbevelingen voor identiteits- en apparaattoegang om een veilig en productief personeel [te garanderen.](../security/defender-365-security/microsoft-365-policies-configurations.md) Gebruik voor identiteit de aanbevelingen en instellingen in deze artikelen:
 
-- [Vereisten](../security/office-365-security/identity-access-prerequisites.md)
-- [Algemeen beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
+- [Vereisten](../security/defender-365-security/identity-access-prerequisites.md)
+- [Algemeen beleid voor identiteiten en apparaattoegang](../security/defender-365-security/identity-access-policies.md)
 
 ## <a name="manage"></a>Beheren
 
-Zie voor informatie over het beheren van Microsoft 365 Identity Deployment:
+Zie de volgende informatie om uw Microsoft 365-identiteitsimplementatie te beheren:
 
 - [Gebruikersaccounts](manage-microsoft-365-accounts.md)
 - [Licenties](assign-licenses-to-user-accounts.md)
@@ -76,18 +76,18 @@ Zie voor informatie over het beheren van Microsoft 365 Identity Deployment:
 - [Beheermodel](manage-microsoft-365-identity-governance.md)
 - [Adreslijstsynchronisatie](view-directory-synchronization-status.md)
 
-## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Hoe Microsoft de identiteit voor Microsoft 365 biedt
+## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Hoe Microsoft identiteit voor Microsoft 365 doet
 
 Lees hoe IT-experts bij Microsoft [identiteiten en beveiligde toegang beheren](https://www.microsoft.com/en-us/itshowcase/managing-user-identities-and-secure-access-at-microsoft).
 
 >[!Note]
->Deze informatiebron is alleen beschikbaar in het Engels.
+>Deze IT Showcase-resource is alleen beschikbaar in het Engels.
 >
 
-## <a name="how-contoso-did-identity-for-microsoft-365"></a>De werking van Contoso voor Microsoft 365
+## <a name="how-contoso-did-identity-for-microsoft-365"></a>Hoe Contoso identiteit heeft gedaan voor Microsoft 365
 
-Voor een voorbeeld van de manier waarop een fictieve maar representatieve multinationale organisatie een hybride identiteits infrastructuur voor Microsoft 365-cloudservices implementeert, raadpleegt u [de identiteit voor de Contoso Corporation](contoso-identity.md).
+Zie Identiteit voor [contoso Corporation](contoso-identity.md)voor een voorbeeld van hoe een fictieve, maar representatieve multinationale organisatie een hybride identiteitsinfrastructuur voor Microsoft 365-cloudservices heeft geïmplementeerd.
 
 ## <a name="next-step"></a>Volgende stap
 
-Begin met het plannen van uw identiteit met [identiteits modellen](about-microsoft-365-identity.md).
+Start uw identiteitsplanning met [identiteitsmodellen.](about-microsoft-365-identity.md)

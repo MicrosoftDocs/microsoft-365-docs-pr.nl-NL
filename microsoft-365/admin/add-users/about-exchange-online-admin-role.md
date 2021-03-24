@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange Online-beheerders beheren de e-mail en postvakken van uw organisatie. Ze herstellen bijvoorbeeld verwijderde items in het postvak van een gebruiker. '
-ms.openlocfilehash: 4db7b55f6bb5bb75149a3b91bd7855565ca1be46
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5b63f2b0a58fdce75e5d70e329b8a0d02fb94a1a
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906346"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050968"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>De Exchange Online-beheerdersrol
 
@@ -48,7 +48,7 @@ Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wa
 
 - [Maak een gedeeld postvak,](../email/create-a-shared-mailbox.md) zodat een groep personen e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres.
 
-- [E-mailbeveiligings- en](../../security/office-365-security/anti-spam-protection.md) malwarefilters voor de organisatie.
+- [E-mailbeveiligings- en](https://docs.microsoft.com/microsoft-365/security/defender-365-security/anti-spam-protection) malwarefilters voor de organisatie.
 
 - Microsoft 365-groepen beheren
 

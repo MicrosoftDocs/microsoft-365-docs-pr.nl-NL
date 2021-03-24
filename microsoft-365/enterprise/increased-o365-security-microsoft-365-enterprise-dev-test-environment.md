@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Gebruik deze testlaboratoriumhandleiding om aanvullende beveiligingsinstellingen van Microsoft 365 in te stellen voor uw Microsoft 365 voor ondernemingstestomgeving.
-ms.openlocfilehash: 928deae34dc16c70776eb512188d1a36ae169da5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 186452396af4227a94a7f6cd0fa0109e9d6a7e17
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909784"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051268"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>Verbeterde microsoft 365-beveiliging voor uw Microsoft 365 voor ondernemingstestomgeving
 
@@ -47,7 +47,7 @@ In deze fase kunt u de beveiliging van Microsoft 365 voor uw Microsoft 365-testo
 
 ### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>SharePoint Online configureren om apps te blokkeren die geen moderne verificatie ondersteunen
 
-Apps die geen ondersteuning bieden voor moderne verificatie, kunnen niet worden toegepast op [identiteits- en apparaattoegangsconfiguraties.](../security/office-365-security/microsoft-365-policies-configurations.md) Dit is een belangrijk onderdeel van het beveiligen van uw Microsoft 365-abonnement en de digitale assets. 
+Apps die geen ondersteuning bieden voor moderne verificatie, kunnen niet worden toegepast op [identiteits- en apparaattoegangsconfiguraties.](../security/defender-365-security/microsoft-365-policies-configurations.md) Dit is een belangrijk onderdeel van het beveiligen van uw Microsoft 365-abonnement en de digitale assets. 
 
 1. Ga naar het Microsoft 365-beheercentrum () en meld u aan bij uw Test lab-abonnement van [https://portal.microsoft.com](https://portal.microsoft.com) Microsoft 365 met uw globale beheerdersaccount.
     
@@ -77,7 +77,7 @@ Defender voor Office 365 voor SharePoint, OneDrive en Microsoft Teams beschermt 
 
 Malware bestaat uit virussen en spyware. Virussen besmetten andere programma's en gegevens en verspreiden zich op uw computer op zoek naar programma's om te infecteren. Spyware verwijst naar malware die uw persoonlijke gegevens verzamelt, zoals aanmeldingsgegevens en persoonlijke gegevens, en stuurt deze terug naar de malwareauteur. 
 
-Microsoft 365 beschikt over ingebouwde mogelijkheden voor malware en spamfilters die binnenkomende en uitgaande berichten helpen beschermen tegen schadelijke software en u helpen beschermen tegen spam. Zie [Anti-spam & anti-malwarebeveiliging](../security/office-365-security/anti-spam-and-anti-malware-protection.md)voor meer informatie.
+Microsoft 365 beschikt over ingebouwde mogelijkheden voor malware en spamfilters die binnenkomende en uitgaande berichten helpen beschermen tegen schadelijke software en u helpen beschermen tegen spam. Zie [Anti-spam & anti-malwarebeveiliging](../security/defender-365-security/anti-spam-and-anti-malware-protection.md)voor meer informatie.
 
 Als u ervoor wilt zorgen dat anti-malwareverwerking wordt uitgevoerd op bestanden met veelgebruikte bestandstypen voor bijlagen:
 
@@ -100,7 +100,7 @@ Het beveiligingsdashboard bekijken:
 
 Bekijk alle kaarten op het dashboard om vertrouwd te raken met de verstrekte informatie.
 
-Zie Beveiligingsdashboard [voor meer informatie.](../security/office-365-security/security-dashboard.md)
+Zie Beveiligingsdashboard [voor meer informatie.](../security/defender-365-security/security-dashboard.md)
 
 
 ## <a name="phase-4-examine-microsoft-secure-score"></a>Fase 4: Microsoft Secure Score onderzoeken
@@ -111,7 +111,7 @@ Microsoft Secure Score toont uw beveiligingsstatus als een getal, wat uw huidige
 2. Noteer **op het**  tabblad Overzicht uw huidige Secure Score en hoe deze zich verhoudt tot het globale gemiddelde en abonnementen met een vergelijkbaar aantal licenties.
 3. Lees op **het tabblad** Acties voor verbetering de lijst met acties die u kunt uitvoeren om uw score te verhogen.
 
-Zie Microsoft Secure Score voor [meer informatie.](../security/mtp/microsoft-secure-score.md)
+Zie Microsoft Secure Score voor [meer informatie.](../security/defender/microsoft-secure-score.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 

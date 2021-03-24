@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Lees hoe Microsoft Defender Antivirus uw Windows-apparaten beschermt tegen softwaredreigingen, zoals virussen, malware en spyware.
-ms.openlocfilehash: ce88e4f7b1caf3a98ebd6dc56d66f0d0fc99a9ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5fe55817018eeae49e6e41c95d93006b6f05ece0
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912428"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052216"
 ---
 # <a name="threats-detected-by-microsoft-defender-antivirus"></a>Bedreigingen gedetecteerd door Microsoft Defender Antivirus
 
@@ -89,4 +89,4 @@ Realtime en door de cloud geleverde [antivirusbeveiliging in-schakelen](/mem/int
 [Microsoft Defender Antivirus in- en gebruiken vanuit de Windows Security-app](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus) (artikel)\
 [Microsoft Defender Antivirus in schakelen met groepsbeleid](/mem/intune/user-help/turn-on-defender-windows#turn-on-windows-defender) (artikel)\
 [Uw antivirusdefinities bijwerken](/mem/intune/user-help/turn-on-defender-windows#update-your-antivirus-definitions) (artikel)\
-[Malware en niet-malware indienen bij Microsoft voor analyse](../security/office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md) (artikel)
+[Malware en niet-malware indienen bij Microsoft voor analyse](/microsoft-365/security/defender-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis) (artikel)
