@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Meer informatie over uitlegtypen in Microsoft SharePoint Syntex
-ms.openlocfilehash: 5187b27438f25db1a2714f1fbc7b31db6d060ccc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b34de9ffc565e3d1a17cac05084e4e4b4113a3c6
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928398"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994626"
 ---
 # <a name="introduction-to-explanation-types"></a>Inleiding tot uitlegtypen
 
@@ -157,25 +157,25 @@ Je kunt bijvoorbeeld in plaats van alle variaties voor *Datum* handmatig toe te 
  
 De uitlegbibliotheek bevat een aantal veelgebruikte beschrijvingen van de frasenlijst, waaronder:</br>
 
-- Datum</br>
-- Datum (getal)</br>
-- Tijd</br>
-- Nummer</br>
-- Percentage</br>
-- Telefoonnummer</br>
-- Postcode</br>
-- Eerste woord of zin</br>
-- Afgelopen zin</br>
-- Creditcard</br>
-- Sofi-nummer</br>
-- Selectievakje</br>
-- Valuta</br>
-- E-mail CC</br>
-- E-mail datum</br>
-- E-mail groet</br>
-- E-mail ontvanger</br>
-- E-mail afzender</br>
-- E-mail onderwerp</br>
+- Datum: Kalenderdatums, alle notaties. Bevat tekst en getallen (bijvoorbeeld "9 dec, 2020").</br>
+- Datum (numeriek): Kalenderdatums, alle notaties. Bevat getallen (bijvoorbeeld 1-11-2020).</br>
+- Tijd: 12- en 24-uurs tijdnotatie.</br>
+- Getal: Positieve en negatieve getallen tot maximaal 2 decimalen. </br>
+- Percentage: een lijst met patronen die een percentage vertegenwoordigen. Bijvoorbeeld, 1%, 11%, 100%, 11.11%, enz.</br>
+- Telefoonnummer: veelgebruikte Amerikaanse en internationale notaties. Bijvoorbeeld, 000 000 0000, 000-000-0000, (000)000-0000, (000) 000-0000, enz.</br>
+- Postcode: Amerikaanse postcode-indelingen. Bijvoorbeeld, 11111, 11111-1111.</br>
+- Eerste woord van zin: algemene patronen voor woorden met maximaal negen tekens. </br>
+- Einde van zin: veelvoorkomende interpunctie voor het einde van een zin</br>
+- Creditcard: veelgebruikte notaties voor creditcards. Bijvoorbeeld, 1111-1111-1111-1111. </br>
+- Sofinummer: Amerikaanse notatie voor het sofinummer. Bijvoorbeeld, 111-11-1111. </br>
+- Selectievakje: een frasenlijst die variaties op een opgevuld selectievakje vertegenwoordigt. Bijvoorbeeld, _X_, _ _X_, enz.</br>
+- Valuta: Belangrijke internationale symbolen. Bijvoorbeeld, $. </br>
+- E-mail CC: Een frasenlijst met de term 'CC:', vaak gevonden in de buurt van de namen of e-mailadressen van extra personen of groepen waar het bericht naar is verzonden.</br>
+- E-maildatum: Een frasenlijst met de term 'Verzonden op:', vaak gevonden bij de datum waarop het e-mailbericht is verzonden.</br>
+- E-mail begroeting: Algemene beginregels voor e-mailberichten.</br>
+- E-mail ontvanger: Een frasenlijst met de term 'Aan:', vaak gevonden in de buurt van de namen of e-mailadressen van personen of groepen waar het bericht naar is verzonden. </br>
+- E-mail afzender: Een frasenlijst met de term 'Van:', vaak gevonden in de buurt van de naam of het e-mailadres van de afzender. </br>
+- E-mail onderwerp: Een frasenlijst met de term 'Onderwerp:', vaak gevonden in de buurt van het e-mail onderwerp. </br>
 
 De uitlegbibliotheek bevat ook drie automatische sjabloontypen die binnen de gegevens werken die je gelabeld hebt in je voorbeeldbestanden:
 
