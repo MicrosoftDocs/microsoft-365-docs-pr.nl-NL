@@ -1,5 +1,5 @@
 ---
-title: Geïsoleerd team voor een hoofd-geheim project van Contoso B.v.
+title: Geïsoleerd team voor een topgeheim project van de Contoso Corporation
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,92 +15,92 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
-description: 'Overzicht: hoe contoso een team gebruikte met behulp van beveiligings isolatie voor een hoofd-geheim project om een nieuwe suite met producten en services te ontwikkelen.'
-ms.openlocfilehash: b8794502afcb77a8e597a1b05dfc92acd093f23a
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+description: 'Samenvatting: Hoe Contoso een team met beveiligingsisolatie voor een topgeheim project heeft gebruikt om een nieuwe suite met producten en services te ontwikkelen.'
+ms.openlocfilehash: d5ab2808251ff6a53f8975ea868431691d3301e2
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48656067"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051004"
 ---
-# <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Geïsoleerd team voor een hoofd-geheim project van Contoso B.v.
+# <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Geïsoleerd team voor een topgeheim project van de Contoso Corporation
 
-Na een uitvoerend manager heeft de directeur van Contoso de ontwikkeling van een nieuwe suite van producten en diensten besteld die in de komende vijf jaar de winstgevendste functies kon opleveren. Het belangrijkste geheim project voor het ontwikkelen van het bedrijf, de engineering en de markt van een markt met name **project** , IT-medewerkers en IT-medewerkers zijn gewerfd. 
+Nadat de CEO van Contoso een executive offsite had gemaakt, heeft de CEO van Contoso opdracht gegeven een nieuwe suite met producten en services te ontwikkelen die de winst van Contoso in de komende vijf jaar zou kunnen verdubbelen. Het topgeheime project voor het ontwikkelen van het bedrijfs-, technische en marktplan kreeg de naam **Project 2X** en belangrijke personeelsleden in het hele bedrijf zijn aangeworven. 
 
-De tijdlijnen voor onderzoek en ontwikkeling waren strak, wat bedoeld voor de samenwerking en het zorgen voor veilig vergaderen, lopende gesprekken en bestandsopslag.
+De tijdlijnen voor onderzoek en ontwikkeling waren strak, wat betekent dat de samenwerking efficiënt moest zijn en veilige vergaderingen, lopende gesprekken en bestandsopslag moest bieden.
 
-De resultaten van project 2X waren bedrijfsplannen, specificaties van producten en technische specificaties, en marketingmaterialen en planningen in de vorm van Word-, Excel-en PowerPoint-bestanden. 
+De resulterende producten voor Project 2X waren bedrijfsplannen, product- en technische specificaties en marketingmaterialen en -planningen in de vorm van Word-, Excel- en PowerPoint-bestanden. 
 
-Vanwege hun gevoelige aard zijn de toegang tot deze bestanden:
+Vanwege hun gevoelige aard waren de volgende bestanden toegankelijk:
 
-- Beperkt tot project en teamleden en senior leiderschap.
-- Versleuteld en beveiligd met machtigingen voor toegang tot project en de teamleden en senior leiderschap, zelfs als de bestanden buiten hun beveiligde mappen zijn gedistribueerd.
+- Beperkt tot Project 2X-teamleden en senior leidinggevenden.
+- Versleuteld en beveiligd met machtigingen om alleen toegang toe te staan aan Project 2X-teamleden en senior leidinggevenden, zelfs als de bestanden buiten hun beveiligde mappen zijn gedistribueerd.
 
-Contoso IT-personeel heeft een [team gebruikt met beveiligings isolatie](secure-teams-security-isolation.md) voor project 2 en deze stappen.
+It-medewerkers van Contoso hebben een [team gebruikt met beveiligingsisolatie](secure-teams-security-isolation.md) voor Project 2X en deze stappen.
 
-## <a name="step-1-created-a-private-team"></a>Stap 1: een privé team maken
+## <a name="step-1-created-a-private-team"></a>Stap 1: Een privéteam gemaakt
 
-Als u de toegang tot de onderliggende SharePoint-site voor het team wilt beveiligen, zijn de beheerders van Contoso IT de [Aanbevolen beleidsregels voor toegang tot SharePoint](../security/office-365-security/sharepoint-file-access-policies.md)geconfigureerd.
+Om de toegang tot de onderliggende SharePoint-site voor het team te beveiligen, hebben IT-beheerders van Contoso het aanbevolen [SharePoint-toegangsbeleid geconfigureerd.](../security/defender-365-security/sharepoint-file-access-policies.md)
 
-Vervolgens heeft een contoso IT-beheerder een nieuw privé team gemaakt met de naam Project 2 en worden de gebruikersaccounts van project en de werknemers toegevoegd als leden. Ze hebben ook het team geconfigureerd, zodat alleen project van team eigenaren persoonlijke kanalen kan maken.
+Vervolgens heeft een CONTOSO-IT-beheerder een nieuw privéteam met de naam Project 2X gemaakt en de gebruikersaccounts van Project 2X-medewerkers toegevoegd als leden. Ze hebben het team ook zo geconfigureerd dat alleen project 2X-teameigenaren privékanalen kunnen maken.
 
-Zie [een privé team maken](secure-teams-security-isolation.md#create-a-private-team)voor meer informatie over de configuratie.
+Zie Een privéteam maken voor de [configuratiegegevens.](secure-teams-security-isolation.md#create-a-private-team)
 
-## <a name="step-2-created-a-sensitivity-label-for-the-project-2x-team"></a>Stap 2: een gevoeligheids label voor het project, 2 en team maken
+## <a name="step-2-created-a-sensitivity-label-for-the-project-2x-team"></a>Stap 2: Een gevoeligheidslabel gemaakt voor het Project 2X-team
 
-Contoso-beheerders hebben een nieuwe vertrouwelijkheids label gemaakt, met de naam **Project 2** :
+Contoso-beheerders hebben een nieuw gevoeligheidslabel met de naam **Project 2X** gemaakt dat:
 
-- Versleuteling ingeschakeld.
-- Machtigingen voor Co-Author toegestaan voor de groep project 2 en Microsoft 365.
-- Toegestane Viewer machtigingen voor de Senior leiderschaps groep.
-- Toegang tot niet-beheerde apparaten is geblokkeerd.
+- Ingeschakelde versleuteling.
+- Toegestane Co-Author voor de Project 2X Microsoft 365-groep.
+- Machtigingen voor Viewer toegestaan voor de groep Senior Leadership.
+- Geblokkeerde toegang tot niet-bemande apparaten.
 
-Bestanden in de sectie **documenten** van het onderliggende project van de SharePoint-site zijn beschermd door:
+Bestanden in de **sectie Documenten** van de onderliggende Project 2X SharePoint-site zijn beveiligd door:
 
-- De site machtigingen, die alleen volledige machtigingen toestaan voor leden van het project en de Microsoft 365-groep en machtigingen voor lezen voor de Senior leiderschaps groep.
-- Het bestand voor de vertrouwelijkheids label van het project en de machtigingen die met het bestand worden verplaatst of gekopieerd van de site.
+- De sitemachtigingen, die alleen volledige machtigingen toestaan voor leden van de Project 2X Microsoft 365-groep en leesmachtigingen voor de groep Senior Leadership.
+- Het gevoeligheidslabel Project 2X, met versleuteling en machtigingen die met het bestand worden verplaatst of gekopieerd van de site.
 
-Zie [een gevoeligheids label maken](secure-teams-security-isolation.md#create-a-sensitivity-label)voor meer informatie over de configuratie.
+Zie Een gevoeligheidslabel maken voor de [configuratiedetails.](secure-teams-security-isolation.md#create-a-sensitivity-label)
 
-## <a name="step-3-configured-the-underlying-sharepoint-site"></a>Stap 3: de onderliggende SharePoint-site is geconfigureerd
+## <a name="step-3-configured-the-underlying-sharepoint-site"></a>Stap 3: De onderliggende SharePoint-site configureren
 
-Als u de toegang tot de onderliggende SharePoint-site voor het team wilt beveiligen, zijn de beheerders van Contoso IT de [Aanbevolen beleidsregels voor toegang tot SharePoint](../security/office-365-security/sharepoint-file-access-policies.md)geconfigureerd.
+Om de toegang tot de onderliggende SharePoint-site voor het team te beveiligen, hebben IT-beheerders van Contoso het aanbevolen [SharePoint-toegangsbeleid geconfigureerd.](../security/defender-365-security/sharepoint-file-access-policies.md)
 
-Vervolgens hebben ze extra machtigingsinstellingen voor de site geconfigureerd:
+Vervolgens hebben ze aanvullende machtigingsinstellingen voor de site geconfigureerd:
 
-- Om te voorkomen dat project en groepsleden toegang kunnen delen tot de site. Zie voor meer informatie over de configuratie van [SharePoint-instellingen voor een team met beveiligings isolatie](secure-teams-security-isolation.md#sharepoint-settings).
-- Voor leesmachtigingen voor de Senior leiderschaps groep.
+- Om te voorkomen dat leden van de Project 2X-groep toegang tot de site kunnen delen. Zie SharePoint-instellingen voor een team met beveiligingsisolatie voor de [configuratiegegevens.](secure-teams-security-isolation.md#sharepoint-settings)
+- Voor leesmachtigingen voor de groep Senior Leadership.
 
-Vervolgens hebben ze extra machtigingsinstellingen voor de site geconfigureerd om te voorkomen dat project en groepsleden toegang kunnen delen tot de site. 
+Vervolgens hebben ze aanvullende machtigingsinstellingen voor de site geconfigureerd om te voorkomen dat project 2X-groepsleden toegang tot de site kunnen delen. 
 
-Als private-kanalen voor het project van twee 2X werden gemaakt, zijn de groepseigenaren uitgeschakeld voor het delen van gasten en stelt u de standaardkoppeling voordelen in op de waarde van **bepaalde personen** .
+Aangezien er privékanalen voor Project 2X zijn gemaakt, heeft de groepseigenaar het delen van gasten uitgeschakeld en de standaardkoppeling voor delen ingesteld voor **de waarde Specifieke** personen.
 
-Dit is de uitkomst van de configuratie van het project en het team en het team van beveiligings isolatie.
+Hier is de resulterende configuratie van het Project 2X-team met beveiligingsisolatie.
 
-![De resultaten configuratie van het project en het team.](../media/contoso-team-for-top-secret-project.png)
+![De resulterende configuratie van het Project 2X-team](../media/contoso-team-for-top-secret-project.png)
 
- ## <a name="step-4-trained-project-2x-team-members"></a>Stap 4: opgeleid project van teamleden
+ ## <a name="step-4-trained-project-2x-team-members"></a>Stap 4: Getrainde Project 2X-teamleden
 
-Contoso beveiligingspersoneel heeft het project en de teamleden getraind in een verplichte cursus waarin ze worden getrapt:
+De beveiligingsmedewerkers van Contoso hebben de Project 2X-teamleden opgeleid in een verplichte cursus waarin ze het volgende hebben geleerd:
 
-- U kunt toegang krijgen tot het nieuwe project van het team, van vergaderingen en chats, en hoe u kunt samenwerken aan team bestanden.
-- Het maken van nieuwe bestanden in het team en het uploaden van nieuwe bestanden die lokaal zijn gemaakt.
-- Een label voor het delen van bestanden met het vertrouwelijkheids label van project 2.
-- In dit voorblad kunt u zien hoe het project en het label een bestand beschermt, zelfs als het team van het team valt.
+- Toegang krijgen tot het nieuwe Project 2X-team, vergaderingen en chats gebruiken en samenwerken aan teambestanden.
+- Nieuwe bestanden in het team maken en nieuwe bestanden uploaden die lokaal zijn gemaakt.
+- Bestanden labelen met het gevoeligheidslabel project 2X.
+- Een demonstratie van hoe het label Project 2X een bestand beschermt, zelfs wanneer het het team verlaat.
 
-Het eindresultaat is een veilige omgeving waarin project van teamleden in een beveiligde omgeving is samengewerkt voor chat gesprekken, vergaderingen en bestanden.
+Het eindresultaat was een veilige omgeving waarin Project 2X-teamleden samenwerkten in een veilige omgeving voor chats, vergaderingen en bestanden.
 
-Hier ziet u een voorbeeld van een bestand dat is opgeslagen in het onderliggende project en de site van het onderliggende project.
+Hier is een voorbeeld van een bestand dat is opgeslagen op de onderliggende Project 2X-site met het gevoeligheidslabel Project 2X toegewezen.
 
-![Een voorbeeld van een bestand dat is opgeslagen in het onderliggende project van de site.](../media/contoso-team-for-top-secret-project-example.png)
+![Een voorbeeld van een bestand dat is opgeslagen op de onderliggende Project 2X-site](../media/contoso-team-for-top-secret-project-example.png)
 
-In een aantal gevallen hebben project en teamleden gedownloade bestanden die zijn beveiligd door het project en het label voor een lokaal station voor offline werken. 
+In een paar gevallen hebben project 2X-teamleden bestanden gedownload die zijn beveiligd met het label Project 2X naar een lokaal station voor offlinewerk. 
 
-Wanneer u de persoon opent, kunt u zich echter eerst een foutmelding krijgen en de referenties verwijderen.
+Nadat ze bij het openen van de referenties echter om referenties waren gevraagd, beseften ze hun fout en verwijderden ze ze.
 
-Vanwege de samenwerkingsomgeving van teams en de beveiligingsfuncties van Microsoft 365, zijn de details van project 2X lang geheim voor de duur van het project. Contoso heeft zijn of haar plannen bekendgemaakt en is bezig met de implementatie van de nieuwe producten en diensten in het licht van zijn klanten en beleggers en de Chagrin van zijn concurrenten.
+Vanwege de samenwerkingsomgeving van Teams en de beveiligingsfuncties van Microsoft 365 zijn de details van Project 2X geheim gehouden gedurende de duur van het project. Contoso heeft haar plannen aangekondigd en is bezig met de uitrol van de nieuwe producten en services tot grote vreugde van haar klanten en investeerders en tot ergernis van haar concurrenten.
 
 ## <a name="next-step"></a>Volgende stap
 
-[Implementeer een team met beveiligings isolatie](secure-teams-security-isolation.md) in uw organisatie.
+[Implementeer een team met beveiligingsisolatie](secure-teams-security-isolation.md) in uw organisatie.
 

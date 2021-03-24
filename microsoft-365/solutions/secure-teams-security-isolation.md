@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: 2ecd8e0458f6ebef9ebd1b0c3724195cc70f6378
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7c9b770c712d2468369482ba3a6256e57f621f74
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920926"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51042684"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -60,8 +60,8 @@ Lees in [deze casestudy](contoso-team-for-top-secret-project.md) hoe Contoso Cor
 ## <a name="initial-protections"></a>Initiële bescherming
 
 Lees de volgende aanbevolen procedures om de toegang tot het team en de onderliggende SharePoint-site te beveiligen:
-- [Beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
-- [Beleid voor toegang tot SharePoint Online](../security/office-365-security/sharepoint-file-access-policies.md)
+- [Beleid voor identiteiten en apparaattoegang](../security/defender-365-security/identity-access-policies.md)
+- [Beleid voor toegang tot SharePoint Online](../security/defender-365-security/sharepoint-file-access-policies.md)
 - [Teams implementeren met basisbescherming](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>Delen met gasten

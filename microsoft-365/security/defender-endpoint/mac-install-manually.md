@@ -1,0 +1,158 @@
+---
+title: Handmatige implementatie voor Microsoft Defender ATP voor macOS
+description: Microsoft Defender ATP voor macOS handmatig installeren vanaf de opdrachtregel.
+keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, catalina, mojave, high sierra
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: dansimp
+author: dansimp
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection:
+- m365-security-compliance
+- m365initiative-defender-endpoint
+ms.topic: conceptual
+ms.technology: mde
+ms.openlocfilehash: 382abd78ffa5e30c79804f9eaed211dffba7589c
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51057406"
+---
+# <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Handmatige implementatie voor Microsoft Defender voor Eindpunt voor macOS
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**Van toepassing op:**
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+
+In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt voor macOS handmatig implementeert. Voor een geslaagde implementatie moet u alle volgende stappen voltooien:
+- [Installatie- en onboarding-pakketten downloaden](#download-installation-and-onboarding-packages)
+- [Toepassingsinstallatie (macOS 10.15 en oudere versies)](#application-installation-macos-1015-and-older-versions)
+- [Toepassingsinstallatie (macOS 11 en nieuwere versies)](#application-installation-macos-11-and-newer-versions)
+- [Clientconfiguratie](#client-configuration)
+
+## <a name="prerequisites-and-system-requirements"></a>Vereisten en systeemvereisten
+
+Voordat u aan de slag gaat, bekijkt u de hoofdpagina van Microsoft Defender voor Eindpunt voor [macOS](microsoft-defender-endpoint-mac.md) voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
+
+## <a name="download-installation-and-onboarding-packages"></a>Installatie- en onboarding-pakketten downloaden
+
+Download de installatie- en onboarding-pakketten van het Microsoft Defender-beveiligingscentrum:
+
+1. Ga in het Microsoft Defender-beveiligingscentrum naar **Instellingen > Apparaatbeheer > Onboarding.**
+2. Stel in sectie 1 van de pagina het besturingssysteem in op **macOS** en Implementatiemethode op **Lokaal script.**
+3. Selecteer installatiepakket downloaden in sectie 2 van **de pagina.** Sla deze op als wdav.pkg in een lokale adreslijst.
+4. Selecteer **onboardingpakket** downloaden in sectie 2 van de pagina. Sla deze op als WindowsDefenderATPOnboardingPackage.zip in dezelfde adreslijst.
+
+    ![Schermafbeelding van het Microsoft Defender-beveiligingscentrum](images/atp-portal-onboarding-page.png)
+
+5. Controleer in een opdrachtprompt of u de twee bestanden hebt.
+    
+## <a name="application-installation-macos-1015-and-older-versions"></a>Toepassingsinstallatie (macOS 10.15 en oudere versies)
+
+Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het apparaat.
+
+1. Ga naar de gedownloade wdav.pkg in Finder en open het.
+
+    ![Schermafbeelding van app-installatie1](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-28-appinstall)
+
+2. Selecteer **Doorgaan,** ga akkoord met de licentievoorwaarden en voer het wachtwoord in wanneer u daarom wordt gevraagd.
+
+    ![Schermafbeelding van app-installatie2](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-29-appinstalllogin)
+
+   > [!IMPORTANT]
+   > U wordt gevraagd om toe te staan dat een stuurprogramma van Microsoft wordt geïnstalleerd ('Systeemextensie geblokkeerd' of 'Installatie is in de wacht gezet' of beide. Het stuurprogramma moet zijn geïnstalleerd.
+
+   ![Schermafbeelding van app-installatie](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-30-systemextension)
+
+3. Selecteer **Beveiligingsvoorkeuren openen** **of Systeemvoorkeuren openen > beveiliging & privacy**. Selecteer **Toestaan:**
+
+    ![Schermopname van het beveiligings- en privacyvenster](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-31-securityprivacysettings)
+
+   De installatie gaat verder.
+
+   > [!CAUTION]
+   > Als u Toestaan niet **selecteert,** gaat de installatie na 5 minuten verder. Microsoft Defender voor Eindpunt wordt geladen, maar sommige functies, zoals realtimebeveiliging, worden uitgeschakeld. Zie [Problemen met kernelextensie oplossen](mac-support-kext.md) voor informatie over hoe u dit kunt oplossen.
+
+> [!NOTE]
+> macOS kan een verzoek indienen om het apparaat opnieuw op te starten bij de eerste installatie van Microsoft Defender voor Eindpunt. Realtimebeveiliging is pas beschikbaar als het apparaat opnieuw is opgestart.
+
+## <a name="application-installation-macos-11-and-newer-versions"></a>Toepassingsinstallatie (macOS 11 en nieuwere versies)
+
+Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het apparaat.
+
+1. Ga naar de gedownloade wdav.pkg in Finder en open het.
+
+    ![Schermafbeelding van app-installatie](images/big-sur-install-1.png)
+
+2. Selecteer **Doorgaan,** ga akkoord met de licentievoorwaarden en voer het wachtwoord in wanneer u daarom wordt gevraagd.
+
+3. Aan het einde van het installatieproces wordt u gepromoveerd om de systeemextensies goed te keuren die door het product worden gebruikt. Selecteer **Beveiligingsvoorkeuren openen.**
+
+    ![Goedkeuring van systeemextensie](images/big-sur-install-2.png)
+
+4. Selecteer in **het & Privacy** van beveiliging de optie **Toestaan.**
+
+    ![Beveiligingsvoorkeuren voor systeemextensie1](images/big-sur-install-3.png)
+
+5. Herhaal stap 3 & 4 voor alle systeemextensies die zijn gedistribueerd met Microsoft Defender voor Eindpunt voor Mac.
+
+6. Als onderdeel van de mogelijkheden voor endpointdetectie en -reactie controleert Microsoft Defender voor Endpoint voor Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Wanneer u wordt gevraagd Microsoft Defender te verlenen voor eindpuntmachtigingen voor het filteren van netwerkverkeer, selecteert u **Toestaan.**
+
+    ![Beveiligingsvoorkeuren voor systeemextensie2](images/big-sur-install-4.png)
+
+7. Open **Systeemvoorkeuren**& privacy en ga naar het tabblad Privacy. Verleen volledige schijftoegangsmachtigingen aan Microsoft Defender  >   **ATP** en Microsoft **Defender ATP-eindpuntbeveiligingsextensie**.  
+
+    ![Volledige schijftoegang](images/big-sur-install-5.png)
+
+## <a name="client-configuration"></a>Clientconfiguratie
+
+1. Kopieer wdav.pkg en MicrosoftDefenderATPOnboardingMacOs.py naar het apparaat waar u Microsoft Defender voor Eindpunt voor macOS implementeert.
+
+    Het clientapparaat is niet gekoppeld aan orgId. Houd er rekening mee *dat het orgId-kenmerk* leeg is.
+
+    ```bash
+    mdatp health --field org_id
+    ```
+
+2. Voer het Python-script uit om het configuratiebestand te installeren:
+
+    ```bash
+    /usr/bin/python MicrosoftDefenderATPOnboardingMacOs.py
+    ```
+
+3. Controleer of het apparaat nu is gekoppeld aan uw organisatie en rapporteer een geldige *orgId:*
+
+    ```bash
+    mdatp health --field org_id
+    ```
+
+Na de installatie ziet u het Microsoft Defender-pictogram in de statusbalk van macOS in de rechterbovenhoek.
+
+   ![Microsoft Defender-pictogram in schermafbeelding van statusbalk](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-icon-bar)
+   
+
+## <a name="how-to-allow-full-disk-access"></a>Volledige schijftoegang toestaan
+
+> [!CAUTION]
+> macOS 10.15 (Catalina) bevat nieuwe beveiligings- en privacyverbeteringen. Vanaf deze versie hebben toepassingen standaard geen toegang tot bepaalde locaties op schijf (zoals Documenten, Downloads, Bureaublad, enzovoort) zonder expliciete toestemming. Bij afwezigheid van deze toestemming kan Microsoft Defender voor Eindpunt uw apparaat niet volledig beveiligen.
+
+Als u toestemming wilt verlenen, opent u Systeemvoorkeuren -> Beveiliging & Privacy -> Privacy -> Volledige schijftoegang. Klik op het vergrendelingspictogram om wijzigingen aan te brengen (onder aan het dialoogvenster). Selecteer Microsoft Defender voor Eindpunt.
+
+## <a name="logging-installation-issues"></a>Installatieproblemen met logboekregistratie
+
+Zie [Installatieproblemen registreren](mac-resources.md#logging-installation-issues) voor meer informatie over het vinden van het automatisch gegenereerde logboek dat door het installatieprogramma wordt gemaakt wanneer er een fout optreedt.
+
+## <a name="uninstallation"></a>Verwijderen
+
+Zie [Verwijderen voor](mac-resources.md#uninstalling) meer informatie over het verwijderen van Microsoft Defender voor Eindpunt voor macOS van clientapparaten.

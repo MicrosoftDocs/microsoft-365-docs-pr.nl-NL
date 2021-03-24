@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Implementeer de juiste optie voor apparaat- en app-beheer voor uw Microsoft 365-tenants.
-ms.openlocfilehash: 994ab7d21ae70307fa78e1f7249d39ac314a7358
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0351f6be3f191e1a131da5b0b665a205a0abda8c
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904610"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050992"
 ---
 # <a name="step-5-device-and-app-management-for-your-microsoft-365-for-enterprise-tenants"></a>Stap 5. Apparaat- en app-beheer voor uw Microsoft 365 voor enterprise-tenants
 
@@ -48,7 +48,7 @@ U bepaalt ook hoe u persoonlijke apparaten en apparaten van de organisatie gaat 
 
 ## <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
-Microsoft biedt een set configuraties voor identiteits- en [apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) om een veilig en productief personeel te garanderen. Deze configuraties omvatten het gebruik van:
+Microsoft biedt een set configuraties voor identiteits- en [apparaattoegang](../security/defender-365-security/microsoft-365-policies-configurations.md) om een veilig en productief personeel te garanderen. Deze configuraties omvatten het gebruik van:
 
 - Azure AD-beleid voor voorwaardelijke toegang
 - Microsoft Intune-beleid voor apparaat compliance en app-beveiliging
@@ -61,8 +61,8 @@ Hier ziet u een voorbeeld van de toepassing van deze instellingen en beleidsrege
 
 Gebruik de configuraties in deze artikelen voor apparaattoegang en app-beheer:
 
-- [Vereisten](../security/office-365-security/identity-access-prerequisites.md)
-- [Algemeen beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
+- [Vereisten](../security/defender-365-security/identity-access-prerequisites.md)
+- [Algemeen beleid voor identiteiten en apparaattoegang](../security/defender-365-security/identity-access-policies.md)
 
 ## <a name="results-of-step-5"></a>Resultaten van stap 5
 

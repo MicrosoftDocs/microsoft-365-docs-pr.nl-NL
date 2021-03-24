@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: In dit artikel vindt u informatie over de aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers.
-ms.openlocfilehash: 3fbe48159dab7fd9ebb072feab7724c3186f7847
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: af0cc59813c76e4ed6a3c0e50140e7fa26c91080
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904802"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051064"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers
 
@@ -140,7 +140,7 @@ Veilige bijlagen inschakelen
 
 4. Desgewenst kunt u ook Veilige documenten inschakelen en vervolgens op **Opslaan** klikken.
 
-Raadpleeg [ATP voor SharePoint, OneDrive en Microsoft Teams](../security/office-365-security/atp-for-spo-odb-and-teams.md) en [ATP voor SharePoint, OneDrive en Microsoft teams inschakelen](../security/office-365-security/turn-on-atp-for-spo-odb-and-teams.md) voor meer hulp.
+Raadpleeg [ATP voor SharePoint, OneDrive en Microsoft Teams](../security/defender-365-security/mdo-for-spo-odb-and-teams.md) en [ATP voor SharePoint, OneDrive en Microsoft teams inschakelen](../security/defender-365-security/turn-on-mdo-for-spo-odb-and-teams.md) voor meer hulp.
 
 ## <a name="add-copyright-information-to-your-files"></a>Copyrightgegevens toevoegen aan uw bestanden
 

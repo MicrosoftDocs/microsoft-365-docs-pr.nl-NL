@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 10cebf0ab74936d7275586f2e8f09c841c8c653f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 746ca59fd0e9eb0d93d93c00b6a279a9156cc524
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918312"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050736"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Naar identiteit en verder: het gezichtspunt van één architect
 
@@ -134,10 +134,10 @@ Als u akkoord gaat met deze uitgebreide definitie van autorisatie, moet u aanvul
 
 - [Azure AD Identity Protection](/azure/active-directory/identity-protection/) 
 - [Microsoft Defender for Identity](/azure-advanced-threat-protection/)
-- [Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Microsoft Defender voor Office 365](../security/office-365-security/office-365-atp.md?view=o365-worldwide)
+- [Microsoft Defender voor Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Microsoft Defender voor Office 365](../security/defender-365-security/defender-for-office-365.md?view=o365-worldwide)
 - [Microsoft Cloud App Security](/cloud-app-security/) (MCAS)
-- [Microsoft 365 Defender](../security/mtp/microsoft-threat-protection.md?view=o365-worldwide)
+- [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
 - [Microsoft Intune](/mem/intune/)
 - [Microsoft Information Protection](../compliance/information-protection.md?view=o365-worldwide) (MIP)
 - [Azure Sentinel](/azure/sentinel/)
@@ -227,7 +227,7 @@ Soms vragen scenario's om een externe gebruiker toe te voegen aan een rol (zie d
 
 ### <a name="security-and-compliance-center-scc"></a>Beveiligings- en compliancecentrum (SCC)
 
-[Machtigingen in het Office 365-beveiligings- & compliancecentrum](../security/office-365-security/permissions-in-the-security-and-compliance-center.md) zijn een verzameling 'rollengroepen', die los staan van Azure AD-rollen. Dit kan verwarrend zijn omdat sommige van deze rollengroepen dezelfde naam hebben als Azure AD-rollen (bijvoorbeeld Beveiligingslezer), maar ze kunnen een ander lidmaatschap hebben. Ik geef de voorkeur aan het gebruik van Azure AD-rollen. Elke rollengroep bestaat uit een of meer 'rollen' (zie wat ik bedoel met het hergebruik van hetzelfde woord?) en bevat leden uit Azure AD, die objecten zijn die zijn ingeschakeld voor e-mail. U kunt ook een rollengroep maken met dezelfde naam als een rol, die al dan niet die rol bevat (vermijd deze verwarring).
+[Machtigingen in het Office 365-beveiligings- & compliancecentrum](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md) zijn een verzameling 'rollengroepen', die los staan van Azure AD-rollen. Dit kan verwarrend zijn omdat sommige van deze rollengroepen dezelfde naam hebben als Azure AD-rollen (bijvoorbeeld Beveiligingslezer), maar ze kunnen een ander lidmaatschap hebben. Ik geef de voorkeur aan het gebruik van Azure AD-rollen. Elke rollengroep bestaat uit een of meer 'rollen' (zie wat ik bedoel met het hergebruik van hetzelfde woord?) en bevat leden uit Azure AD, die objecten zijn die zijn ingeschakeld voor e-mail. U kunt ook een rollengroep maken met dezelfde naam als een rol, die al dan niet die rol bevat (vermijd deze verwarring).
 
 In zekere zin zijn dit een evolutie van het Exchange-rolgroepenmodel. Exchange Online heeft echter een eigen [interface voor rollengroepbeheer.](/exchange/permissions-exo) Sommige rollengroepen in Exchange Online worden vergrendeld en beheerd vanuit Azure AD & het Beveiligings- & Compliancecentrum, maar andere kunnen dezelfde of soortgelijke namen hebben en worden beheerd in Exchange Online (wat de verwarring kan vergroten). Ik raad u aan de gebruikersinterface van Exchange Online te vermijden, tenzij u ruimte nodig hebt voor Exchange-beheer.
 
@@ -262,7 +262,7 @@ Zoals eerder is aangegeven, willen veel klanten een gedetailleerder delegatiemod
 Opmerking: beveiliging en delegering van gegevensplatforms (waarvan Power BI een onderdeel is) is een complex gebied.
 - **MEM/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](/mem/intune/fundamentals/role-based-access-control)
 - **Microsoft Defender voor Eindpunt**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles](/windows/security/threat-protection/microsoft-defender-atp/user-roles)
-- **Microsoft 365 Defender** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](../security/mtp/mtp-permissions.md)
+- **Microsoft 365 Defender** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](../security/defender/m365d-permissions.md)
 - **Microsoft Cloud App-beveiliging** - [https://docs.microsoft.com/cloud-app-security/manage-admins](/cloud-app-security/manage-admins)
 - **Stream**  -  [https://docs.microsoft.com/stream/assign-administrator-user-role](/stream/assign-administrator-user-role)
 - **Informatiebarrières**  -  [https://docs.microsoft.com/microsoft-365/compliance/information-barriers](../compliance/information-barriers.md)
@@ -279,7 +279,7 @@ Voorbeelden van Microsoft 365-logboeken die worden gebruikt via andere API's, zi
 - [Exchange-berichten bijhouden](/powershell/module/exchange/get-messagetrace)
 - Threat/UEBA Systems hierboven besproken (bijvoorbeeld Azure AD Identity Protection, Microsoft Cloud App Security, Microsoft Defender for Endpoint, e.d.)
 - [Microsoft-informatiebeveiliging](../compliance/data-classification-activity-explorer.md?view=o365-worldwide)
-- [Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
+- [Microsoft Defender voor Endpoint](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
 Het is belangrijk om eerst alle logboekbronnen te identificeren die nodig zijn voor een beveiligings- en complianceprogramma. Houd er ook rekening mee dat verschillende logboeken verschillende online bewaarlimieten hebben. 
@@ -296,7 +296,7 @@ Het combineren van alle logboeken in één opslaglocatie omvat extra voordelen, 
 
 Logboeken hoeft niet alleen naar één plaats te worden doorgestuurd. Het kan ook handig zijn om [Office 365-logboeken](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) te integreren met Microsoft Cloud App Security of een aangepast RBAC-model in [Power BI.](../admin/usage-analytics/usage-analytics.md?view=o365-worldwide) Verschillende opslagplaatsen hebben verschillende voordelen en doelgroepen.
 
-Het is vermeldenswaard dat er een zeer rijk ingebouwde analysesysteem is voor beveiliging, bedreigingen, beveiligingsproblemen, en ga zo maar door in een service genaamd [Microsoft 365 Defender.](../security/mtp/microsoft-threat-protection.md?view=o365-worldwide)
+Het is vermeldenswaard dat er een zeer rijk ingebouwde analysesysteem is voor beveiliging, bedreigingen, beveiligingsproblemen, en ga zo maar door in een service genaamd [Microsoft 365 Defender.](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
 
 Veel grote klanten willen deze logboekgegevens overbrengen naar een systeem van derden (bijvoorbeeld SIEM). Hiervoor zijn verschillende benaderingen beschikbaar, maar in het algemeen [zijn Azure Event Hub](/azure/azure-monitor/platform/stream-monitoring-data-event-hubs) en [Graph](/graph/security-integration) goede uitgangspunten.
 
