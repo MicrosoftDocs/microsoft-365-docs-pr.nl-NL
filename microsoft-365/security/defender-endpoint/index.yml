@@ -1,0 +1,104 @@
+### YamlMime:Landing
+title: Microsoft Defender voor endpoint-documentatie
+summary: Microsoft Defender voor Eindpunt biedt preventieve beveiliging, detectie na inbreuk, geautomatiseerd onderzoek en antwoord.
+metadata:
+  title: Microsoft Defender voor endpoint-documentatie
+  description: Meer informatie over Microsoft Defender voor Eindpunt en het maximaliseren van de ingebouwde beveiligingsmogelijkheden om apparaten te beveiligen, schadelijke activiteiten te detecteren en bedreigingen te herstellen# Vereist; artikelbeschrijving die wordt weergegeven in zoekresultaten. < 160 chars.
+  services: office-365-security-compliance
+  ms.service: O365-seccomp
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: m365-security-compliance
+  author: mjcaparas
+  ms.author: macapara
+  ms.date: 02/5/2021
+  localization_priority: Priority
+  ms.openlocfilehash: a183f4d09b596f6dbecf2dc0636ff516b1b26eb6
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51060122"
+landingContent:
+- title: Microsoft Defender for Endpoint
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Microsoft Defender voor Eindpunt?
+      url: microsoft-defender-advanced-threat-protection.md
+  - linkListType: whats-new
+    links:
+    - text: Nieuwe functies in Microsoft Defender voor Eindpunt
+      url: whats-new-in-microsoft-defender-atp.md
+  - linkListType: video
+    links:
+    - text: Overzichtsvideo
+      url: https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0
+- title: Evalueren & de service implementeren
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Microsoft Defender voor eindpunt evalueren
+      url: evaluation-lab.md
+    - text: Uw implementatie plannen
+      url: deployment-strategy.md
+  - linkListType: deploy
+    links:
+    - text: Implementatiehandleiding
+      url: deployment-phases.md
+    - text: Ondersteunde apparaten aan boord
+      url: onboard-configure.md
+  - linkListType: how-to-guide
+    links:
+    - text: Migratiehandleiding
+      url: migration-guides.md
+  - linkListType: video
+    links:
+    - text: Onboarding-video
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4bGqr
+- title: Beveiligingsoperations
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Eindpuntdetectie en -antwoord
+      url: overview-endpoint-detection-response.md
+    - text: Gedrag blokkeren en insluiting
+      url: behavioral-blocking-containment.md
+    - text: Automatisch onderzoek en antwoord (AIR)
+      url: automated-investigations.md
+    - text: Geavanceerd opsporen
+      url: advanced-hunting-overview.md
+    - text: Microsoft Threat Experts
+      url: microsoft-threat-experts.md
+    - text: Dreigingsanalyse
+      url: threat-analytics.md
+- title: Microsoft Defender voor eindpunt gebruiken op andere platforms
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Microsoft Defender voor Eindpunt voor Mac
+      url: microsoft-defender-endpoint-mac.md
+    - text: Microsoft Defender voor Eindpunt voor iOS
+      url: microsoft-defender-endpoint-ios.md
+    - text: Microsoft Defender voor Eindpunt voor Linux
+      url: microsoft-defender-endpoint-linux.md
+    - text: Microsoft Defender voor Eindpunt voor Android
+      url: microsoft-defender-endpoint-android.md
+- title: Verwijzing
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Beheer en API's
+      url: management-apis.md
+    - text: Partnerintegratie
+      url: partner-integration.md
+- title: Beveiligingsbeheer
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Bedreigings- & kwetsbaarheidsbeheer
+      url: next-gen-threat-and-vuln-mgt.md
+    - text: Surface-beperking voor aanvallen
+      url: overview-attack-surface-reduction.md
+    - text: Beveiliging van de volgende generatie
+      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10
