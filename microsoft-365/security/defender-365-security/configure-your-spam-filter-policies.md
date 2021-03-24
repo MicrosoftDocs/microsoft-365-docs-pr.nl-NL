@@ -1,0 +1,657 @@
+---
+title: Spamfilterbeleid configureren
+f1.keywords:
+- NOCSH
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+ms.date: ''
+audience: ITPro
+ms.topic: how-to
+localization_priority: Priority
+search.appverid:
+- MET150
+ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
+ms.collection:
+- M365-security-compliance
+description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 5cd6a1a2ce1ca6c6ce3741674945a1e2a43694b7
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51058925"
+---
+# <a name="configure-anti-spam-policies-in-eop"></a><span data-ttu-id="17f51-103">Antispambeleid configureren in EOP</span><span class="sxs-lookup"><span data-stu-id="17f51-103">Configure anti-spam policies in EOP</span></span>
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+<span data-ttu-id="17f51-104">**Van toepassing op**</span><span class="sxs-lookup"><span data-stu-id="17f51-104">**Applies to**</span></span>
+- [<span data-ttu-id="17f51-105">Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="17f51-105">Exchange Online Protection</span></span>](exchange-online-protection-overview.md)
+- [<span data-ttu-id="17f51-106">Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365</span><span class="sxs-lookup"><span data-stu-id="17f51-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
+- [<span data-ttu-id="17f51-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="17f51-107">Microsoft 365 Defender</span></span>](../defender/microsoft-365-defender.md)
+
+<span data-ttu-id="17f51-108">In Microsoft 365-organisaties met postvakken in Exchange Online of standalone EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, zijn binnenkomende e-mailberichten automatisch tegen spam beschermd door EOP.</span><span class="sxs-lookup"><span data-stu-id="17f51-108">In Microsoft 365 organizations with mailboxes in Exchange Online or standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes, inbound email messages are automatically protected against spam by EOP.</span></span> <span data-ttu-id="17f51-109">EOP gebruikt antispambeleid (ook wel bekend als spamfilterbeleid of inhoudsfilterbeleid) als onderdeel van de algehele bescherming van uw bedrijf tegen spam.</span><span class="sxs-lookup"><span data-stu-id="17f51-109">EOP uses anti-spam policies (also known as spam filter policies or content filter policies) as part of your organization's overall defense against spam.</span></span> <span data-ttu-id="17f51-110">Zie [Bescherming tegen antispam](anti-spam-protection.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-110">For more information, see [Anti-spam protection](anti-spam-protection.md).</span></span>
+
+<span data-ttu-id="17f51-111">Beheerders kunnen het standaardbeleid bekijken, bewerken en configureren (maar niet verwijderen).</span><span class="sxs-lookup"><span data-stu-id="17f51-111">Admins can view, edit, and configure (but not delete) the default anti-spam policy.</span></span> <span data-ttu-id="17f51-112">Voor grotere nauwkeurigheid kunt u ook aangepast antispambeleid maken dat wordt toegepast op specifieke gebruikers, groepen of domeinen binnen uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="17f51-112">For greater granularity, you can also create custom anti-spam policies that apply to specific users, groups, or domains in your organization.</span></span> <span data-ttu-id="17f51-113">Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-113">Custom policies always take precedence over the default policy, but you can change the priority (running order) of your custom policies.</span></span>
+
+<span data-ttu-id="17f51-114">U kunt antispambeleid configureren in het Beveiligings- en compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).</span><span class="sxs-lookup"><span data-stu-id="17f51-114">You can configure anti-spam policies in the Security & Compliance Center or in PowerShell (Exchange Online PowerShell for Microsoft 365 organizations with mailboxes in Exchange Online; standalone EOP PowerShell for organizations without Exchange Online mailboxes).</span></span>
+
+<span data-ttu-id="17f51-115">De basiselementen van antispambeleid zijn: </span><span class="sxs-lookup"><span data-stu-id="17f51-115">The basic elements of an anti-spam policy are:</span></span>
+
+- <span data-ttu-id="17f51-116">**Het spamfilterbeleid**: omschrijft de acties voor spamfilterbeoordelingen en de meldingsopties.</span><span class="sxs-lookup"><span data-stu-id="17f51-116">**The spam filter policy**: Specifies the actions for spam filtering verdicts and the notification options.</span></span>
+- <span data-ttu-id="17f51-117">**De spamfilterregel**: omschrijft de prioriteits- en geadresseerdenfilters (waarop het beleid van toepassing is) voor spamfilterbeleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-117">**The spam filter rule**: Specifies the priority and recipient filters (who the policy applies to) for a spam filter policy.</span></span>
+
+<span data-ttu-id="17f51-118">Het verschil tussen deze twee elementen is niet overduidelijk wanneer u antispambeleid beheert in het Beveiligings- en compliancecentrum:</span><span class="sxs-lookup"><span data-stu-id="17f51-118">The difference between these two elements isn't obvious when you manage anti-spam polices in the Security & Compliance Center:</span></span>
+
+- <span data-ttu-id="17f51-119">Wanneer u antispambeleid maakt, maakt u in feite tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid met dezelfde naam voor beide.</span><span class="sxs-lookup"><span data-stu-id="17f51-119">When you create an anti-spam policy, you're actually creating a spam filter rule and the associated spam filter policy at the same time using the same name for both.</span></span>
+- <span data-ttu-id="17f51-120">Wanneer u antispambeleid wijzigt, wordt de spamfilterregel gewijzigd door instellingen met betrekking tot de naam, prioriteit, in- of uitgeschakeld en geadresseerdenfilters.</span><span class="sxs-lookup"><span data-stu-id="17f51-120">When you modify an anti-spam policy, settings related to the name, priority, enabled or disabled, and recipient filters modify the spam filter rule.</span></span> <span data-ttu-id="17f51-121">Alle andere instellingen wijzigen het bijbehorende spamfilterbeleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-121">All other settings modify the associated spam filter policy.</span></span>
+- <span data-ttu-id="17f51-122">Wanneer u antispambeleid verwijdert, worden de spamfilterregel en het bijbehorende spamfilterbeleid verwijderd.</span><span class="sxs-lookup"><span data-stu-id="17f51-122">When you remove an anti-spam policy, the spam filter rule and the associated spam filter policy are removed.</span></span>
+
+<span data-ttu-id="17f51-123">In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk.</span><span class="sxs-lookup"><span data-stu-id="17f51-123">In Exchange Online PowerShell or standalone EOP PowerShell, you manage the policy and the rule separately.</span></span> <span data-ttu-id="17f51-124">Zie de sectie [Exchange Online PowerShell of standalone EOP PowerShell gebruiken om antispambeleid te configureren](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) later in dit artikel voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-124">For more information, see the [Use Exchange Online PowerShell or standalone EOP PowerShell to configure anti-spam policies](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) section later in this article.</span></span>
+
+<span data-ttu-id="17f51-125">Elk bedrijf heeft een ingebouwd antispambeleid met de naam Standaard met de volgende eigenschappen:</span><span class="sxs-lookup"><span data-stu-id="17f51-125">Every organization has a built-in anti-spam policy named Default that has these properties:</span></span>
+
+- <span data-ttu-id="17f51-126">Het beleid wordt toegepast op alle geadresseerden in het bedrijf, ook al is er geen spamfilterregel (geadresseerdenregels) gekoppeld aan het beleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-126">The policy is applied to all recipients in the organization, even though there's no spam filter rule (recipient filters) associated with the policy.</span></span>
+- <span data-ttu-id="17f51-127">Het beleid heeft de prioriteit **Laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast).</span><span class="sxs-lookup"><span data-stu-id="17f51-127">The policy has the custom priority value **Lowest** that you can't modify (the policy is always applied last).</span></span> <span data-ttu-id="17f51-128">Alle beleid dat u maakt heeft altijd een hogere prioriteit.</span><span class="sxs-lookup"><span data-stu-id="17f51-128">Any custom policies that you create always have a higher priority.</span></span>
+- <span data-ttu-id="17f51-129">Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True`) en u kunt het standaardbeleid niet verwijderen.</span><span class="sxs-lookup"><span data-stu-id="17f51-129">The policy is the default policy (the **IsDefault** property has the value `True`), and you can't delete the default policy.</span></span>
+
+<span data-ttu-id="17f51-130">Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid maken met strengere instellingen dat wordt toegepast op specifieke gebruikers of groepen gebruikers.</span><span class="sxs-lookup"><span data-stu-id="17f51-130">To increase the effectiveness of spam filtering, you can create custom anti-spam policies with stricter settings that are applied to specific users or groups of users.</span></span>
+
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="17f51-131">Wat moet u weten voordat u begint?</span><span class="sxs-lookup"><span data-stu-id="17f51-131">What do you need to know before you begin?</span></span>
+
+- <span data-ttu-id="17f51-132">U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>.</span><span class="sxs-lookup"><span data-stu-id="17f51-132">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="17f51-133">Gebruik <https://protection.office.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.</span><span class="sxs-lookup"><span data-stu-id="17f51-133">To go directly to the **Anti-spam settings** page, use <https://protection.office.com/antispam>.</span></span>
+
+- <span data-ttu-id="17f51-134">Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.</span><span class="sxs-lookup"><span data-stu-id="17f51-134">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="17f51-135">Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.</span><span class="sxs-lookup"><span data-stu-id="17f51-135">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
+
+- <span data-ttu-id="17f51-136">U moet over toegewezen machtigingen beschikken in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="17f51-136">You need to be assigned permissions in **Exchange Online** before you can do the procedures in this article:</span></span>
+  - <span data-ttu-id="17f51-137">Als je antispambeleid wilt toevoegen, wijzigen of verwijderen, moet je lid zijn van de functiegroep **Organisatiebeheer** of **Beveiligingsbeheer**.</span><span class="sxs-lookup"><span data-stu-id="17f51-137">To add, modify, and delete anti-spam policies, you need to be a member of the **Organization Management** or **Security Administrator** role groups.</span></span>
+  - <span data-ttu-id="17f51-138">Voor alleen-lezentoegang tot het antispambeleid moet je lid zijn van de functiegroep **Global Reader** of **Beveiligingslezer**.</span><span class="sxs-lookup"><span data-stu-id="17f51-138">For read-only access to anti-spam policies, you need to be a member of the **Global Reader** or **Security Reader** role groups.</span></span>
+
+  <span data-ttu-id="17f51-139">Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-139">For more information, see [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).</span></span>
+
+  <span data-ttu-id="17f51-140">**Opmerkingen**:</span><span class="sxs-lookup"><span data-stu-id="17f51-140">**Notes**:</span></span>
+
+  - <span data-ttu-id="17f51-141">Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="17f51-141">Adding users to the corresponding Azure Active Directory role in the Microsoft 365 admin center gives users the required permissions _and_ permissions for other features in Microsoft 365.</span></span> <span data-ttu-id="17f51-142">Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-142">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
+  - <span data-ttu-id="17f51-143">De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.</span><span class="sxs-lookup"><span data-stu-id="17f51-143">The **View-Only Organization Management** role group in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) also gives read-only access to the feature.</span></span>
+
+- <span data-ttu-id="17f51-144">Zie [Instellingen voor antispambeleid in EOP](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)voor de aanbevolen instellingen voor antispambeleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-144">For our recommended settings for anti-spam policies, see [EOP anti-spam policy settings](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings).</span></span>
+
+## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a><span data-ttu-id="17f51-145">Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken</span><span class="sxs-lookup"><span data-stu-id="17f51-145">Use the Security & Compliance Center to create anti-spam policies</span></span>
+
+<span data-ttu-id="17f51-146">Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid gemaakt met dezelfde naam voor beide.</span><span class="sxs-lookup"><span data-stu-id="17f51-146">Creating a custom anti-spam policy in the Security & Compliance Center creates the spam filter rule and the associated spam filter policy at the same time using the same name for both.</span></span>
+
+1. <span data-ttu-id="17f51-147">Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.</span><span class="sxs-lookup"><span data-stu-id="17f51-147">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="17f51-148">Kies op de pagina **Antispaminstellingen** op **Beleid maken**.</span><span class="sxs-lookup"><span data-stu-id="17f51-148">On the **Anti-spam settings** page, click **Create a policy**.</span></span>
+
+3. <span data-ttu-id="17f51-149">Configureer in het deelvenster **Nieuw spamfilterbeleid** dat wordt geopend de volgende instellingen:</span><span class="sxs-lookup"><span data-stu-id="17f51-149">In the **New spam filter policy** fly out that opens, configure the following settings:</span></span>
+
+   - <span data-ttu-id="17f51-150">**Naam**: een unieke beschrijvende naam voor het beleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-150">**Name**: Enter a unique, descriptive name for the policy.</span></span> <span data-ttu-id="17f51-151">U mag de volgende tekens niet gebruiken: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.</span><span class="sxs-lookup"><span data-stu-id="17f51-151">Don't use the following characters: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.</span></span>
+
+      <span data-ttu-id="17f51-152">Als u eerder al antispambeleid hebt gemaakt in het Exchange-beheercentrum (EAC) dat deze tekens bevat, moet u het antispambeleid in PowerShell hernoemen.</span><span class="sxs-lookup"><span data-stu-id="17f51-152">If you previously created anti-spam policies in the Exchange admin center (EAC) that contains these characters, you should rename the anti-spam policy in PowerShell.</span></span> <span data-ttu-id="17f51-153">Zie de sectie [PowerShell gebruiken om spamfilterregels te wijzigen](#use-powershell-to-modify-spam-filter-rules) later in dit artikel voor instructies.</span><span class="sxs-lookup"><span data-stu-id="17f51-153">For instructions, see the [Use PowerShell to modify spam filter rules](#use-powershell-to-modify-spam-filter-rules) section later in this article.</span></span>
+
+   - <span data-ttu-id="17f51-154">**Beschrijving**: voer een optionele beschrijving in voor het beleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-154">**Description**: Enter an optional description for the policy.</span></span>
+
+4. <span data-ttu-id="17f51-155">(Optioneel) Vouw de sectie **Spam- en bulkbewerkingen** uit en controleer of configureer de volgende instellingen:</span><span class="sxs-lookup"><span data-stu-id="17f51-155">(Optional) Expand the **Spam and bulk actions** section, and verify or configure the following settings:</span></span>
+
+   - <span data-ttu-id="17f51-156">**Selecteer de actie die moet worden uitgevoerd voor binnenkomende spam en bulk-e-mail**: selecteer of bekijk de actie die moet worden uitgevoerd op berichten op basis van de volgende spamfilterbeoordelingen:</span><span class="sxs-lookup"><span data-stu-id="17f51-156">**Select the action to take for incoming spam and bulk email**: Select or review the action to take on messages based on the following spam filtering verdicts:</span></span>
+
+     - <span data-ttu-id="17f51-157">**Spam**</span><span class="sxs-lookup"><span data-stu-id="17f51-157">**Spam**</span></span>
+     - <span data-ttu-id="17f51-158">**Hoogstwaarschijnlijk spam**</span><span class="sxs-lookup"><span data-stu-id="17f51-158">**High confidence spam**</span></span>
+     - <span data-ttu-id="17f51-159">**Phishing-e-mail**</span><span class="sxs-lookup"><span data-stu-id="17f51-159">**Phishing email**</span></span>
+     - <span data-ttu-id="17f51-160">**Hoogstwaarschijnlijk Phishing-e-mail**</span><span class="sxs-lookup"><span data-stu-id="17f51-160">**High confidence phishing email**</span></span>
+     - <span data-ttu-id="17f51-161">**Bulk-e-mail**</span><span class="sxs-lookup"><span data-stu-id="17f51-161">**Bulk email**</span></span>
+
+     <span data-ttu-id="17f51-162">De beschikbare acties voor spamfilterbeoordelingen worden beschreven in de volgende tabel.</span><span class="sxs-lookup"><span data-stu-id="17f51-162">The available actions for spam filtering verdicts are described in the following table.</span></span>
+
+     - <span data-ttu-id="17f51-163">Een vinkje (</span><span class="sxs-lookup"><span data-stu-id="17f51-163">A check mark (</span></span> ![vinkje](../../media/checkmark.png)<span data-ttu-id="17f51-165">) geeft aan dat de actie beschikbaar is (niet alle acties zijn beschikbaar voor alle spamfilterbeoordelingen).</span><span class="sxs-lookup"><span data-stu-id="17f51-165">) indicates the action is available (not all actions are available for all spam filtering verdicts).</span></span>
+     - <span data-ttu-id="17f51-166">Een asterisk (<sup>\*</sup>) na het vinkje geeft de standaardactie aan voor de spamfilterbeoordeling. </span><span class="sxs-lookup"><span data-stu-id="17f51-166">An asterisk ( <sup>\*</sup> ) after the check mark indicates the default action for the spam filtering verdict.</span></span>
+
+     ****
+
+     |<span data-ttu-id="17f51-167">Actie</span><span class="sxs-lookup"><span data-stu-id="17f51-167">Action</span></span>|<span data-ttu-id="17f51-168">Spam</span><span class="sxs-lookup"><span data-stu-id="17f51-168">Spam</span></span>|<span data-ttu-id="17f51-169">Hoog</span><span class="sxs-lookup"><span data-stu-id="17f51-169">High</span></span><br><span data-ttu-id="17f51-170">betrouwbaarheid</span><span class="sxs-lookup"><span data-stu-id="17f51-170">confidence</span></span><br><span data-ttu-id="17f51-171">spam</span><span class="sxs-lookup"><span data-stu-id="17f51-171">spam</span></span>|<span data-ttu-id="17f51-172">Phishing</span><span class="sxs-lookup"><span data-stu-id="17f51-172">Phishing</span></span><br><span data-ttu-id="17f51-173">e-mail</span><span class="sxs-lookup"><span data-stu-id="17f51-173">email</span></span>|<span data-ttu-id="17f51-174">Hoog</span><span class="sxs-lookup"><span data-stu-id="17f51-174">High</span></span><br><span data-ttu-id="17f51-175">betrouwbaarheid</span><span class="sxs-lookup"><span data-stu-id="17f51-175">confidence</span></span><br><span data-ttu-id="17f51-176">phishing</span><span class="sxs-lookup"><span data-stu-id="17f51-176">phishing</span></span><br><span data-ttu-id="17f51-177">e-mail</span><span class="sxs-lookup"><span data-stu-id="17f51-177">email</span></span>|<span data-ttu-id="17f51-178">Bulk</span><span class="sxs-lookup"><span data-stu-id="17f51-178">Bulk</span></span><br><span data-ttu-id="17f51-179">e-mail</span><span class="sxs-lookup"><span data-stu-id="17f51-179">email</span></span>|
+     |---|:---:|:---:|:---:|:---:|:---:|
+     |<span data-ttu-id="17f51-180">**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="17f51-180">**Move message to Junk Email folder**: The message is delivered to the mailbox and moved to the Junk Email folder.<sup>1</sup></span></span>|<span data-ttu-id="17f51-181">![Vinkje](../../media/checkmark.png)<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="17f51-181">![Check mark](../../media/checkmark.png)<sup>\*</sup></span></span>|<span data-ttu-id="17f51-182">![Vinkje](../../media/checkmark.png)<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="17f51-182">![Check mark](../../media/checkmark.png)<sup>\*</sup></span></span>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|<span data-ttu-id="17f51-185">![Vinkje](../../media/checkmark.png)<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="17f51-185">![Check mark](../../media/checkmark.png)<sup>\*</sup></span></span>|
+     |<span data-ttu-id="17f51-186">**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak.</span><span class="sxs-lookup"><span data-stu-id="17f51-186">**Add X-header**: Adds an X-header to the message header and delivers the message to the mailbox.</span></span> <p> <span data-ttu-id="17f51-187">U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in. </span><span class="sxs-lookup"><span data-stu-id="17f51-187">You enter the X-header field name (not the value) later in the **Add this X-header text** box.</span></span> <p> <span data-ttu-id="17f51-188">Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup></span><span class="sxs-lookup"><span data-stu-id="17f51-188">For **Spam** and **High confidence spam** verdicts, the message is moved to the Junk Email folder.<sup>1,2</sup></span></span>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||<span data-ttu-id="17f51-192">![Vinkje](../../media/checkmark.png)<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="17f51-192">![Check mark](../../media/checkmark.png)<sup>\*</sup></span></span>|
+     |<span data-ttu-id="17f51-193">**Onderwerpregel vooraan uitbreiden met tekst**: hiermee wordt tekst toegevoegd aan het begin van de onderwerpregel van het bericht.</span><span class="sxs-lookup"><span data-stu-id="17f51-193">**Prepend subject line with text**: Adds text to the beginning of the message's subject line.</span></span> <span data-ttu-id="17f51-194">Het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1,2</sup></span><span class="sxs-lookup"><span data-stu-id="17f51-194">The message is delivered to the mailbox and moved to the Junk email folder.<sup>1,2</sup></span></span> <p> <span data-ttu-id="17f51-195">U voert de tekst later in het vak **Voeg deze tekst toe vooraan de onderwerpregel** in.</span><span class="sxs-lookup"><span data-stu-id="17f51-195">You enter the text later in the **Prefix subject line with this text** box.</span></span>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
+     |<span data-ttu-id="17f51-200">**Bericht naar e-mailadres omleiden**: hiermee wordt het bericht omgeleid naar andere geadresseerden in plaats van de beoogde geadresseerde.</span><span class="sxs-lookup"><span data-stu-id="17f51-200">**Redirect message to email address**: Sends the message to other recipients instead of the intended recipients.</span></span> <p> <span data-ttu-id="17f51-201">U geeft de geadresseerden later op in het vak **Omleiden naar dit e-mailadres**.</span><span class="sxs-lookup"><span data-stu-id="17f51-201">You specify the recipients later in the **Redirect to this email address** box.</span></span>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+     |<span data-ttu-id="17f51-207">**Bericht verwijderen**: hiermee wordt het volledige bericht verwijderd, inclusief alle bijlagen.</span><span class="sxs-lookup"><span data-stu-id="17f51-207">**Delete message**: Silently deletes the entire message, including all attachments.</span></span>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
+     |<span data-ttu-id="17f51-212">**Bericht in quarantaine**: hiermee wordt het bericht in quarantaine geplaatst in plaats van verzonden naar de beoogde geadresseerden.</span><span class="sxs-lookup"><span data-stu-id="17f51-212">**Quarantine message**: Sends the message to quarantine instead of the intended recipients.</span></span> <p> <span data-ttu-id="17f51-213">U geeft later in het vak **Quarantaine** aan hoelang het bericht in quarantaine moet blijven.</span><span class="sxs-lookup"><span data-stu-id="17f51-213">You specify how long the message should be held in quarantine later in the **Quarantine** box.</span></span>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|<span data-ttu-id="17f51-216">![Vinkje](../../media/checkmark.png)<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="17f51-216">![Check mark](../../media/checkmark.png)<sup>\*</sup></span></span>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+     |<span data-ttu-id="17f51-219">**Geen actie**</span><span class="sxs-lookup"><span data-stu-id="17f51-219">**No action**</span></span>|||||![Vinkje](../../media/checkmark.png)|
+     |
+
+     > <span data-ttu-id="17f51-221"><sup>1</sup> In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel Ongewenste e-mail is ingeschakeld voor het postvak (standaard is die regel ingeschakeld).</span><span class="sxs-lookup"><span data-stu-id="17f51-221"><sup>1</sup> In Exchange Online, the message is moved to the Junk Email folder if the junk email rule is enabled on the mailbox (it's enabled by default).</span></span> <span data-ttu-id="17f51-222">Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-222">For more information, see [Configure junk email settings on Exchange Online mailboxes](configure-junk-email-settings-on-exo-mailboxes.md).</span></span>
+     >
+     > <span data-ttu-id="17f51-223">In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail.</span><span class="sxs-lookup"><span data-stu-id="17f51-223">In standalone EOP environments where EOP protects on-premises Exchange mailboxes, you need to configure mail flow rules (also known as transport rules) in on-premises Exchange to translate the EOP spam filtering verdict so the junk email rule can move the message to the Junk Email folder.</span></span> <span data-ttu-id="17f51-224">Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. </span><span class="sxs-lookup"><span data-stu-id="17f51-224">For details, see [Configure standalone EOP to deliver spam to the Junk Email folder in hybrid environments](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).</span></span>
+     >
+     > <span data-ttu-id="17f51-225"><sup>2</sup> U kunt deze waarde gebruiken als voorwaarde in e-mailstroomregels om het bericht te filteren of om te leiden.</span><span class="sxs-lookup"><span data-stu-id="17f51-225"><sup>2</sup> You can this use value as a condition in mail flow rules to filter or route the message.</span></span>
+
+   - <span data-ttu-id="17f51-226">**De drempelwaarde selecteren**: hiermee wordt het bulkklachtniveau (BCL) van een bericht aangegeven dat de gespecificeerde actie activeert voor de **Bulk-e-mail**-spamfilterbeoordeling (groter dan de opgegeven waarde, niet groter dan of gelijk aan).</span><span class="sxs-lookup"><span data-stu-id="17f51-226">**Select the threshold**: Specifies the bulk complaint level (BCL) of a message that triggers the specified action for the **Bulk email** spam filtering verdict (greater than the specified value, not greater than or equal to).</span></span> <span data-ttu-id="17f51-227">Een hogere waarde geeft aan dat het bericht minder wenselijk is (grotere kans dat het bericht spam is).</span><span class="sxs-lookup"><span data-stu-id="17f51-227">A higher value indicates the message is less desirable (more likely to resemble spam).</span></span> <span data-ttu-id="17f51-228">De standaardwaarde is 7.</span><span class="sxs-lookup"><span data-stu-id="17f51-228">The default value is 7.</span></span> <span data-ttu-id="17f51-229">Zie [Bulkklachtniveau (BCL) in EOP](bulk-complaint-level-values.md) en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-229">For more information, see [Bulk complaint level (BCL) in EOP](bulk-complaint-level-values.md) and [What's the difference between junk email and bulk email?](what-s-the-difference-between-junk-email-and-bulk-email.md).</span></span>
+
+     <span data-ttu-id="17f51-230">Standaard is de enige PowerShell-instelling _MarkAsSpamBulkMail_ `On` in antispambeleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-230">By default, the PowerShell only setting _MarkAsSpamBulkMail_ is `On` in anti-spam policies.</span></span> <span data-ttu-id="17f51-231">Deze instelling is van grote invloed op de resultaten van een **Bulk-e-mail**-filterbeoordeling:</span><span class="sxs-lookup"><span data-stu-id="17f51-231">This setting dramatically affects the results of a **Bulk email** filtering verdict:</span></span>
+
+     - <span data-ttu-id="17f51-232">**_MarkAsSpamBulkMail_ is ingeschakeld**: een BCL dat groter is dan de drempelwaarde wordt geconverteerd naar een SCL 6, wat overeenkomt met een filterbeoordeling van **Spam** en de actie voor de **Bulk-e-mail**-filterbeoordeling wordt toegepast op het bericht.</span><span class="sxs-lookup"><span data-stu-id="17f51-232">**_MarkAsSpamBulkMail_ is On**: A BCL that's greater than the threshold is converted to an SCL 6 that corresponds to a filtering verdict of **Spam**, and the action for the **Bulk email** filtering verdict is taken on the message.</span></span>
+
+     - <span data-ttu-id="17f51-233">**_MarkAsSpamBulkMail_ is uitgeschakeld**: het bericht krijgt het stempel BCL, maar er wordt _geen actie_ uitgevoerd voor een **Bulk-e-mail**-filterbeoordeling.</span><span class="sxs-lookup"><span data-stu-id="17f51-233">**_MarkAsSpamBulkMail_ is Off**: The message is stamped with the BCL, but _no action_ is taken for a **Bulk email** filtering verdict.</span></span> <span data-ttu-id="17f51-234">Het gevolg is dat de BCL-drempelwaarde en de actie voor de **Bulk-e-mail**-filterbeoordeling niet relevant zijn.</span><span class="sxs-lookup"><span data-stu-id="17f51-234">In effect, the BCL threshold and **Bulk email** filtering verdict action are irrelevant.</span></span>
+
+   - <span data-ttu-id="17f51-235">**Quarantaine**: geeft aan hoe lang het bericht in quarantaine moet worden gehouden als u de actie **Bericht in quarantaine plaatsen** hebt geselecteerd voor een spamfilterbeoordeling.</span><span class="sxs-lookup"><span data-stu-id="17f51-235">**Quarantine**: Specifies how long to keep the message in quarantine if you selected **Quarantine message** as the action for a spam filtering verdict.</span></span> <span data-ttu-id="17f51-236">Na het verlopen van de periode wordt het bericht verwijderd.</span><span class="sxs-lookup"><span data-stu-id="17f51-236">After the time period expires, the message is deleted.</span></span> <span data-ttu-id="17f51-237">De standaardwaarde is 30 dagen.</span><span class="sxs-lookup"><span data-stu-id="17f51-237">The default value is 30 days.</span></span> <span data-ttu-id="17f51-238">Een geldige waarde ligt tussen de 1 en 30 dagen.</span><span class="sxs-lookup"><span data-stu-id="17f51-238">A valid value is from 1 to 30 days.</span></span> <span data-ttu-id="17f51-239">Zie de volgende artikelen voor meer informatie over quarantaine:</span><span class="sxs-lookup"><span data-stu-id="17f51-239">For information about quarantine, see the following topics:</span></span>
+
+     - [<span data-ttu-id="17f51-240">Berichten in quarantaine in EOP</span><span class="sxs-lookup"><span data-stu-id="17f51-240">Quarantined messages in EOP</span></span>](quarantine-email-messages.md)
+     - [<span data-ttu-id="17f51-241">Berichten en bestanden in quarantaine beheren als EOP-beheerder</span><span class="sxs-lookup"><span data-stu-id="17f51-241">Manage quarantined messages and files as an admin in EOP</span></span>](manage-quarantined-messages-and-files.md)
+     - [<span data-ttu-id="17f51-242">Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP</span><span class="sxs-lookup"><span data-stu-id="17f51-242">Find and release quarantined messages as a user in EOP</span></span>](find-and-release-quarantined-messages-as-a-user.md)
+
+   - <span data-ttu-id="17f51-243">**Deze X-koptekst toevoegen**: dit vak is alleen vereist en beschikbaar als u de actie **X-kop toevoegen** hebt geselecteerd voor een spamfilterbeoordeling.</span><span class="sxs-lookup"><span data-stu-id="17f51-243">**Add this X-header text**: This box is required and available only if you selected **Add X-header** as the action for a spam filtering verdict.</span></span> <span data-ttu-id="17f51-244">De waarde die u opgeeft, is de naam van het *kopveld* dat wordt toegevoegd aan de berichtkop.</span><span class="sxs-lookup"><span data-stu-id="17f51-244">The value you specify is the header field *name* that's added to the message header.</span></span> <span data-ttu-id="17f51-245">De kopveld *waarde* is altijd `This message appears to be spam`.</span><span class="sxs-lookup"><span data-stu-id="17f51-245">The header field *value* is always `This message appears to be spam`.</span></span>
+
+     <span data-ttu-id="17f51-246">De maximumlengte is 255 tekens en de waarde kan geen spaties of dubbele punten (:) bevatten.</span><span class="sxs-lookup"><span data-stu-id="17f51-246">The maximum length is 255 characters, and the value can't contain spaces or colons (:).</span></span>
+
+     <span data-ttu-id="17f51-247">Als u bijvoorbeeld de waarde `X-This-is-my-custom-header` opgeeft, wordt de X-kop `X-This-is-my-custom-header: This message appears to be spam.` toegevoegd aan het bericht.</span><span class="sxs-lookup"><span data-stu-id="17f51-247">For example, if you enter the value `X-This-is-my-custom-header`, the X-header that's added to the message is `X-This-is-my-custom-header: This message appears to be spam.`</span></span>
+
+     <span data-ttu-id="17f51-248">Als u een waarde opgeeft die spaties of dubbele punten (:) bevat, wordt de ingevoerde waarde genegeerd en wordt de standaard-X-kop (`X-This-Is-Spam: This message appears to be spam.`) aan het bericht toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="17f51-248">If you enter a value that contains spaces or colons (:), the value you enter is ignored, and the default X-header is added to the message (`X-This-Is-Spam: This message appears to be spam.`).</span></span>
+
+   - <span data-ttu-id="17f51-249">**Onderwerpregel vooraan uitbreiden met deze tekst**: dit vak is alleen vereist en beschikbaar als u de actie **Onderwerpregel vooraan uitbreiden met tekst** hebt geselecteerd voor een spamfilterbeoordeling.</span><span class="sxs-lookup"><span data-stu-id="17f51-249">**Prepend subject line with this text**: This box is required and available only if you selected **Prepend subject line with text** as the action for a spam filtering verdict.</span></span> <span data-ttu-id="17f51-250">Voer de tekst in die moet worden toegevoegd aan het begin van de onderwerpregel van het bericht.</span><span class="sxs-lookup"><span data-stu-id="17f51-250">Enter the text to add to the beginning of the message's subject line.</span></span>
+
+   - <span data-ttu-id="17f51-251">**Bericht naar dit e-mailadres omleiden**: dit vak is alleen vereist en beschikbaar als u de actie **Bericht naar e-mailadres omleiden** hebt geselecteerd voor een spamfilterbeoordeling.</span><span class="sxs-lookup"><span data-stu-id="17f51-251">**Redirect to this email address**: This box is required and available only if you selected the **Redirect message to email address** as the action for a spam filtering verdict.</span></span> <span data-ttu-id="17f51-252">Voer het e-mailadres in waarnaar u het bericht wilt verzenden.</span><span class="sxs-lookup"><span data-stu-id="17f51-252">Enter the email address where you want to deliver the message.</span></span> <span data-ttu-id="17f51-253">U kunt meerdere waarden opgeven, gescheiden door puntkomma’s (;).</span><span class="sxs-lookup"><span data-stu-id="17f51-253">You can enter multiple values separated by semicolons (;).</span></span>
+
+   - <span data-ttu-id="17f51-254">**Veiligheidstips**: standaard staan veiligheidstips ingeschakeld, maar u kunt ze uitschakelen door het selectievakje **Aan** uit te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-254">**Safety Tips**: By default, Safety Tips are enabled, but you can disable them by clearing the **On** checkbox.</span></span> <span data-ttu-id="17f51-255">Zie [Veiligheidstips in e-mailberichten](safety-tips-in-office-365.md) voor meer informatie over veiligheidstips.</span><span class="sxs-lookup"><span data-stu-id="17f51-255">For more information about Safety Tips, see [Safety tips in email messages](safety-tips-in-office-365.md).</span></span>
+
+   <span data-ttu-id="17f51-256">**Zero-hour auto purge**-instellingen: ZAP detecteert en voert actie uit op berichten die al zijn afgeleverd aan Exchange Online-postvakken.</span><span class="sxs-lookup"><span data-stu-id="17f51-256">**Zero-hour auto purge** settings: ZAP detects and takes action on messages that have already been delivered to Exchange Online mailboxes.</span></span> <span data-ttu-id="17f51-257">Zie [Zero-hour auto purge - beveiliging tegen ongewenste e-mail en malware](zero-hour-auto-purge.md) voor meer informatie over ZAP.</span><span class="sxs-lookup"><span data-stu-id="17f51-257">For more information about ZAP, see [Zero-hour auto purge - protection against spam and malware](zero-hour-auto-purge.md).</span></span>
+
+   - <span data-ttu-id="17f51-258">**Spam ZAP**: ZAP is standaard ingeschakeld voor spamdetectie, maar u kunt het uitschakelen door het selectievakje **Aan** uit te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-258">**Spam ZAP**: By default, ZAP is enabled for spam detections, but you can disable it by clearing the **On** checkbox.</span></span>
+
+   - <span data-ttu-id="17f51-259">**Phish ZAP**: ZAP is standaard ingeschakeld voor phishingdetectie, maar u kunt het uitschakelen door het selectievakje **Aan** uit te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-259">**Phish ZAP**: By default, ZAP is enabled for phishing detections, but you can disable it by clearing the **On** checkbox.</span></span>
+
+5. <span data-ttu-id="17f51-260">(Optioneel) Vouw de sectie **Lijsten toestaan** uit om op basis van e-mailadres of e-maildomein afzenders van berichten te configureren die de spamfilters mogen overslaan:</span><span class="sxs-lookup"><span data-stu-id="17f51-260">(Optional) Expand the **Allow lists** section to configure message senders by email address or email domain that are allowed to skip spam filtering:</span></span>
+
+   > [!CAUTION]
+   >
+   > - <span data-ttu-id="17f51-261">Denk goed na voordat u hier domeinen toevoegt.</span><span class="sxs-lookup"><span data-stu-id="17f51-261">Think very carefully before you add domains here.</span></span> <span data-ttu-id="17f51-262">Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-262">For more information, see [Create safe sender lists in EOP](create-safe-sender-lists-in-office-365.md)</span></span>
+   >
+   > - <span data-ttu-id="17f51-263">Voeg nooit geaccepteerde domeinen (domeinen waarvan u eigenaar bent) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen.</span><span class="sxs-lookup"><span data-stu-id="17f51-263">Never add accepted domains (domains that you own) or common domains (for example, microsoft.com or office.com) to the allowed domains list.</span></span> <span data-ttu-id="17f51-264">Hiermee kunnen kwaadwillende gebruikers e-mail verzenden die de e-mailspamfilters in uw bedrijf overslaat.</span><span class="sxs-lookup"><span data-stu-id="17f51-264">This would allow attackers to send email that bypasses spam filtering into your organization.</span></span>
+
+   - <span data-ttu-id="17f51-265">**Afzender toelaten**: klik op **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="17f51-265">**Allow sender**: Click **Edit**.</span></span> <span data-ttu-id="17f51-266">In het deelvenster **Lijst met toegestane afzenders** dat wordt weergegeven:</span><span class="sxs-lookup"><span data-stu-id="17f51-266">In the **Allowed sender list** flyout that appears:</span></span>
+
+      <span data-ttu-id="17f51-267">a.</span><span class="sxs-lookup"><span data-stu-id="17f51-267">a.</span></span> <span data-ttu-id="17f51-268">Voert u het e-mailadres van de afzender in.</span><span class="sxs-lookup"><span data-stu-id="17f51-268">Enter the sender's email address.</span></span> <span data-ttu-id="17f51-269">U kunt meerdere e-mailadressen opgeven, gescheiden door puntkomma’s (;).</span><span class="sxs-lookup"><span data-stu-id="17f51-269">You can specify multiple email addresses separated by semicolons (;).</span></span>
+
+      <span data-ttu-id="17f51-270">b.</span><span class="sxs-lookup"><span data-stu-id="17f51-270">b.</span></span> <span data-ttu-id="17f51-271">Klikt u op</span><span class="sxs-lookup"><span data-stu-id="17f51-271">Click</span></span> ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) <span data-ttu-id="17f51-273">om de afzenders toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="17f51-273">to add the senders.</span></span>
+
+      <span data-ttu-id="17f51-274">Herhaal deze stappen zo vaak als nodig is.</span><span class="sxs-lookup"><span data-stu-id="17f51-274">Repeat these steps as many times as necessary.</span></span>
+
+      <span data-ttu-id="17f51-275">De afzenders die u hebt toegevoegd worden weergegeven in de sectie **Toegestane afzenders** in het deelvenster.</span><span class="sxs-lookup"><span data-stu-id="17f51-275">The senders you added appear in the **Allowed Sender** section on the flyout.</span></span> <span data-ttu-id="17f51-276">Om een afzender te verwijderen, klikt u op ![Pictogram verwijderen](../../media/scc-remove-icon.png).</span><span class="sxs-lookup"><span data-stu-id="17f51-276">To delete a sender, click ![Remove icon](../../media/scc-remove-icon.png).</span></span>
+
+      <span data-ttu-id="17f51-277">Klik op **Opslaan** wanneer u gereed bent.</span><span class="sxs-lookup"><span data-stu-id="17f51-277">When you're finished, click **Save**.</span></span>
+
+   - <span data-ttu-id="17f51-278">**Domein toelaten**: klik op **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="17f51-278">**Allow domain**: Click **Edit**.</span></span> <span data-ttu-id="17f51-279">In het deelvenster **Lijst met toegestane domeinen** dat wordt weergegeven:</span><span class="sxs-lookup"><span data-stu-id="17f51-279">In the **Allowed domain list** flyout that appears do these steps:</span></span>
+
+      <span data-ttu-id="17f51-280">a.</span><span class="sxs-lookup"><span data-stu-id="17f51-280">a.</span></span> <span data-ttu-id="17f51-281">Voert u het domein in.</span><span class="sxs-lookup"><span data-stu-id="17f51-281">Enter the domain.</span></span> <span data-ttu-id="17f51-282">U kunt meerdere domeinen opgeven, gescheiden door puntkomma’s (;).</span><span class="sxs-lookup"><span data-stu-id="17f51-282">You can specify multiple domains separated by semicolons (;).</span></span>
+
+      <span data-ttu-id="17f51-283">b.</span><span class="sxs-lookup"><span data-stu-id="17f51-283">b.</span></span> <span data-ttu-id="17f51-284">Klikt u op</span><span class="sxs-lookup"><span data-stu-id="17f51-284">Click</span></span> ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) <span data-ttu-id="17f51-286">om de domeinen toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="17f51-286">to add the domains.</span></span>
+
+      <span data-ttu-id="17f51-287">Herhaal deze stappen zo vaak als nodig is.</span><span class="sxs-lookup"><span data-stu-id="17f51-287">Repeat these steps as many times as necessary.</span></span>
+
+      <span data-ttu-id="17f51-288">De domeinen die u hebt toegevoegd worden weergegeven in de sectie **Toegestane domeinen** in het deelvenster.</span><span class="sxs-lookup"><span data-stu-id="17f51-288">The domains you added appear in the **Allowed Domain** section on the flyout.</span></span> <span data-ttu-id="17f51-289">Om een domein te verwijderen, klikt u op ![Pictogram verwijderen](../../media/scc-remove-icon.png).</span><span class="sxs-lookup"><span data-stu-id="17f51-289">To delete a domain, click ![Remove icon](../../media/scc-remove-icon.png).</span></span>
+
+      <span data-ttu-id="17f51-290">Klik op **Opslaan** wanneer u gereed bent.</span><span class="sxs-lookup"><span data-stu-id="17f51-290">When you're finished, click **Save**.</span></span>
+
+6. <span data-ttu-id="17f51-291">(Optioneel) Vouw de sectie **Geblokkeerd** uit om op basis van e-mailadres of e-maildomein afzenders van berichten te configureren die altijd worden gemarkeerd als Hoogstwaarschijnlijk spam:</span><span class="sxs-lookup"><span data-stu-id="17f51-291">(Optional) Expand the **Block lists** section to configure message senders by email address or email domain that will always be marked as high confidence spam:</span></span>
+
+   > [!NOTE]
+   > <span data-ttu-id="17f51-292">Het is niet gevaarlijk handmatig domeinen te blokkeren, maar het kan de werkbelasting vergroten</span><span class="sxs-lookup"><span data-stu-id="17f51-292">Manually blocking domains isn't dangerous, but it can increase your administrative workload.</span></span> <span data-ttu-id="17f51-293">Zie [Lijsten met geblokkeerde afzenders maken in EOP](create-block-sender-lists-in-office-365.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-293">For more information, see [Create block sender lists in EOP](create-block-sender-lists-in-office-365.md).</span></span>
+
+   - <span data-ttu-id="17f51-294">**Afzender blokkeren**: klik op **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="17f51-294">**Block sender**: Click **Edit**.</span></span> <span data-ttu-id="17f51-295">In het deelvenster **Lijst met geblokkeerde afzenders** dat wordt weergegeven:</span><span class="sxs-lookup"><span data-stu-id="17f51-295">In the **Blocked sender list** flyout that appears do these steps:</span></span>
+
+      <span data-ttu-id="17f51-296">a.</span><span class="sxs-lookup"><span data-stu-id="17f51-296">a.</span></span> <span data-ttu-id="17f51-297">Voert u het e-mailadres van de afzender in.</span><span class="sxs-lookup"><span data-stu-id="17f51-297">Enter the sender's email address.</span></span> <span data-ttu-id="17f51-298">U kunt meerdere e-mailadressen opgeven, gescheiden door puntkomma’s (;).</span><span class="sxs-lookup"><span data-stu-id="17f51-298">You can specify multiple email addresses separated by semicolons (;).</span></span> <span data-ttu-id="17f51-299">Jokertekens (\*) worden niet ondersteund.</span><span class="sxs-lookup"><span data-stu-id="17f51-299">Wildcards (\*) aren't allowed.</span></span>
+
+      <span data-ttu-id="17f51-300">b.</span><span class="sxs-lookup"><span data-stu-id="17f51-300">b.</span></span> <span data-ttu-id="17f51-301">Klikt u op</span><span class="sxs-lookup"><span data-stu-id="17f51-301">Click</span></span> ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) <span data-ttu-id="17f51-303">om de afzenders toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="17f51-303">to add the senders.</span></span>
+
+      <span data-ttu-id="17f51-304">Herhaal deze stappen zo vaak als nodig is.</span><span class="sxs-lookup"><span data-stu-id="17f51-304">Repeat these steps as many times as necessary.</span></span>
+
+      <span data-ttu-id="17f51-305">De afzenders die u hebt toegevoegd worden weergegeven in de sectie **Geblokkeerde afzenders** in het deelvenster.</span><span class="sxs-lookup"><span data-stu-id="17f51-305">The senders you added appear in the **Blocked Sender** section on the flyout.</span></span> <span data-ttu-id="17f51-306">Om een afzender te verwijderen, klikt u op de knop ![Verwijderen](../../media/scc-remove-icon.png).</span><span class="sxs-lookup"><span data-stu-id="17f51-306">To delete a sender, click ![Remove button](../../media/scc-remove-icon.png).</span></span>
+
+      <span data-ttu-id="17f51-307">Klik op **Opslaan** wanneer u gereed bent.</span><span class="sxs-lookup"><span data-stu-id="17f51-307">When you're finished, click **Save**.</span></span>
+
+   - <span data-ttu-id="17f51-308">**Domein blokkeren**: klik op **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="17f51-308">**Block domain**: Click **Edit**.</span></span> <span data-ttu-id="17f51-309">In het deelvenster **Lijst met geblokkeerde domeinen** dat wordt weergegeven:</span><span class="sxs-lookup"><span data-stu-id="17f51-309">In the **Blocked domain list** flyout that appears:</span></span>
+
+      <span data-ttu-id="17f51-310">a.</span><span class="sxs-lookup"><span data-stu-id="17f51-310">a.</span></span> <span data-ttu-id="17f51-311">Voert u het domein in.</span><span class="sxs-lookup"><span data-stu-id="17f51-311">Enter the domain.</span></span> <span data-ttu-id="17f51-312">U kunt meerdere domeinen opgeven, gescheiden door puntkomma’s (;).</span><span class="sxs-lookup"><span data-stu-id="17f51-312">You can specify multiple domains separated by semicolons (;).</span></span> <span data-ttu-id="17f51-313">Jokertekens (\*) worden niet ondersteund.</span><span class="sxs-lookup"><span data-stu-id="17f51-313">Wildcards (\*) aren't allowed.</span></span>
+
+      <span data-ttu-id="17f51-314">b.</span><span class="sxs-lookup"><span data-stu-id="17f51-314">b.</span></span> <span data-ttu-id="17f51-315">Klikt u op</span><span class="sxs-lookup"><span data-stu-id="17f51-315">Click</span></span> ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) <span data-ttu-id="17f51-317">om de domeinen toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="17f51-317">to add the domains.</span></span>
+
+      <span data-ttu-id="17f51-318">Herhaal deze stappen zo vaak als nodig is.</span><span class="sxs-lookup"><span data-stu-id="17f51-318">Repeat these steps as many times as necessary.</span></span>
+
+      <span data-ttu-id="17f51-319">De domeinen die u hebt toegevoegd worden weergegeven in de lijst **Geblokkeerde domeinen** in het deelvenster.</span><span class="sxs-lookup"><span data-stu-id="17f51-319">The domains you added appear in the **Blocked Domain** list on the flyout.</span></span> <span data-ttu-id="17f51-320">Om een domein te verwijderen, klikt u op knop ![Verwijderen](../../media/scc-remove-icon.png).</span><span class="sxs-lookup"><span data-stu-id="17f51-320">To delete a domain, click ![Remove button](../../media/scc-remove-icon.png).</span></span>
+
+      <span data-ttu-id="17f51-321">Klik op **Opslaan** wanneer u gereed bent.</span><span class="sxs-lookup"><span data-stu-id="17f51-321">When you're finished, click **Save**.</span></span>
+
+7. <span data-ttu-id="17f51-322">(Optioneel) Vouw de sectie **Internationale spam** uit om de e-mailtalen of herkomstlanden te configureren die worden geblokkeerd door spamfilters:</span><span class="sxs-lookup"><span data-stu-id="17f51-322">(Optional) Expand the **International spam** section to configure the email languages or source countries that are blocked by spam filtering:</span></span>
+
+   - <span data-ttu-id="17f51-323">**E-mailberichten in de volgende talen filteren**: deze instelling is standaard uitgeschakeld (**Satus: UIT**).</span><span class="sxs-lookup"><span data-stu-id="17f51-323">**Filter email messages written in the following languages**: This setting is disabled by default (**Status: OFF**).</span></span> <span data-ttu-id="17f51-324">Klik op **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="17f51-324">Click **Edit**.</span></span> <span data-ttu-id="17f51-325">Configureer in het deelvenster **Internationale spaminstellingen** dat wordt weergegeven de volgende instellingen:</span><span class="sxs-lookup"><span data-stu-id="17f51-325">In the **International spam settings** flyout that appears, configure the following settings:</span></span>
+
+     - <span data-ttu-id="17f51-326">**E-mailberichten in de volgende talen filteren**: selecteer het selectievakje om deze instelling in te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-326">**Filter email messages written in the following languages**: Select the checkbox to enable this setting.</span></span> <span data-ttu-id="17f51-327">Schakel het selectievakje uit om deze instelling uit te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-327">Clear the checkbox to disable this setting.</span></span>
+
+     - <span data-ttu-id="17f51-328">Klik in het vak en begin de *naam* van de taal te typen.</span><span class="sxs-lookup"><span data-stu-id="17f51-328">Click in the box and start typing the *name* of the language.</span></span> <span data-ttu-id="17f51-329">Er wordt een gefilterde lijst met ondersteunde talen weergegeven, samen met de bijbehorende ISO 639-2-taalcode.</span><span class="sxs-lookup"><span data-stu-id="17f51-329">A filtered list of supported languages will appear, along with the corresponding ISO 639-2 language code.</span></span> <span data-ttu-id="17f51-330">Wanneer u de gezochte taal vindt, selecteert u die.</span><span class="sxs-lookup"><span data-stu-id="17f51-330">When you find the language you're looking for, select it.</span></span> <span data-ttu-id="17f51-331">Herhaal deze stap zo vaak als nodig is.</span><span class="sxs-lookup"><span data-stu-id="17f51-331">Repeat this step as many times as necessary.</span></span>
+
+       <span data-ttu-id="17f51-332">De lijst met talen die u hebt geselecteerd, verschijnt in het deelvenster.</span><span class="sxs-lookup"><span data-stu-id="17f51-332">The list of languages you selected appears on the flyout.</span></span> <span data-ttu-id="17f51-333">Om een taal te verwijderen, klikt u op</span><span class="sxs-lookup"><span data-stu-id="17f51-333">To delete a language, click</span></span> ![de knop Verwijderen](../../media/scc-remove-icon.png)<span data-ttu-id="17f51-335">.</span><span class="sxs-lookup"><span data-stu-id="17f51-335">.</span></span>
+
+     <span data-ttu-id="17f51-336">Klik op **Opslaan** wanneer u gereed bent.</span><span class="sxs-lookup"><span data-stu-id="17f51-336">When you're finished, click **Save**.</span></span>
+
+   - <span data-ttu-id="17f51-337">**E-mailberichten uit de volgende landen of regio’s filteren**: deze instelling is standaard uitgeschakeld (**Satus: UIT**).</span><span class="sxs-lookup"><span data-stu-id="17f51-337">**Filter email messages sent from the following countries or regions**: This setting is disabled by default (**Status: OFF**).</span></span> <span data-ttu-id="17f51-338">Klik op **Bewerken** om de instelling in te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-338">To enable it, click **Edit**.</span></span> <span data-ttu-id="17f51-339">Configureer in het deelvenster **Internationale spaminstellingen** dat wordt weergegeven de volgende instellingen:</span><span class="sxs-lookup"><span data-stu-id="17f51-339">In the **International spam settings** flyout that appears, configure the following settings:</span></span>
+
+     - <span data-ttu-id="17f51-340">**E-mailberichten uit de volgende landen of regio’s filteren**: selecteer het selectievakje om deze instelling in te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-340">**Filter email messages sent from the following countries or regions**: Select the checkbox to enable this setting.</span></span> <span data-ttu-id="17f51-341">Schakel het selectievakje uit om deze instelling uit te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-341">Clear the checkbox to disable this setting.</span></span>
+
+     - <span data-ttu-id="17f51-342">Klik in het vak en begin de *naam* van het land of de regio te typen.</span><span class="sxs-lookup"><span data-stu-id="17f51-342">Click in the box and start typing the *name* of the country or region.</span></span> <span data-ttu-id="17f51-343">Er wordt een gefilterde lijst met ondersteunde landen weergegeven, samen met de bijbehorende tweeletterige ISO 3166-1-landcode.</span><span class="sxs-lookup"><span data-stu-id="17f51-343">A filtered list of supported countries will appear, along with the corresponding ISO 3166-1 two-letter country code.</span></span> <span data-ttu-id="17f51-344">Selecteer het land of de regio waarnaar u zocht als het is gevonden.</span><span class="sxs-lookup"><span data-stu-id="17f51-344">When you find the country or region you're looking for, select it.</span></span> <span data-ttu-id="17f51-345">Herhaal deze stap zo vaak als nodig is.</span><span class="sxs-lookup"><span data-stu-id="17f51-345">Repeat this step as many times as necessary.</span></span>
+
+       <span data-ttu-id="17f51-346">De lijst met landen die u hebt geselecteerd, verschijnt in het deelvenster.</span><span class="sxs-lookup"><span data-stu-id="17f51-346">The list of countries you selected appears on the flyout.</span></span> <span data-ttu-id="17f51-347">Om een land of regio te verwijderen, klikt u op</span><span class="sxs-lookup"><span data-stu-id="17f51-347">To delete a country or region, click</span></span> ![de knop Verwijderen](../../media/scc-remove-icon.png)<span data-ttu-id="17f51-349">.</span><span class="sxs-lookup"><span data-stu-id="17f51-349">.</span></span>
+
+     <span data-ttu-id="17f51-350">Klik op **Opslaan** wanneer u gereed bent.</span><span class="sxs-lookup"><span data-stu-id="17f51-350">When you're finished, click **Save**.</span></span>
+
+8. <span data-ttu-id="17f51-351">De optionele sectie **Spameigenschappen** bevat ASF-instellingen (geavanceerde instellingen voor spamfilters) die standaard zijn uitgeschakeld.</span><span class="sxs-lookup"><span data-stu-id="17f51-351">The optional **Spam properties** section contains Advanced Spam Filter (ASF) settings that are turned off by default.</span></span> <span data-ttu-id="17f51-352">ASF-instellingen worden afgeschaft en hun functionaliteit wordt opgenomen in andere onderdelen van de filterstack.</span><span class="sxs-lookup"><span data-stu-id="17f51-352">ASF settings are in the process of being deprecated, and their functionality is being incorporated into other parts of the filtering stack.</span></span> <span data-ttu-id="17f51-353">Het is raadzaam dat u al deze ASF-instellingen uitgeschakeld laat in uw antispambeleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-353">We recommend that you leave all of these ASF settings turned off in your anti-spam policies.</span></span>
+
+   <span data-ttu-id="17f51-354">Zie [Geavanceerde instellingen voor spamfilters in EOP](advanced-spam-filtering-asf-options.md) voor meer informatie over deze instellingen.</span><span class="sxs-lookup"><span data-stu-id="17f51-354">For details about these settings, see [Advanced Spam Filter settings in EOP](advanced-spam-filtering-asf-options.md).</span></span>
+
+9. <span data-ttu-id="17f51-355">(Verplicht) Vouw de sectie **Toegepast op** uit om de interne geadresseerden te bepalen op wie het beleid van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="17f51-355">(Required) Expand the **Applied to** section to identify the internal recipients that the policy applies to.</span></span>
+
+    <span data-ttu-id="17f51-356">U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering.</span><span class="sxs-lookup"><span data-stu-id="17f51-356">You can only use a condition or exception once, but you can specify multiple values for the condition or exception.</span></span> <span data-ttu-id="17f51-357">Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_).</span><span class="sxs-lookup"><span data-stu-id="17f51-357">Multiple values of the same condition or exception use OR logic (for example, _\<recipient1\>_ or _\<recipient2\>_).</span></span> <span data-ttu-id="17f51-358">Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).</span><span class="sxs-lookup"><span data-stu-id="17f51-358">Different conditions or exceptions use AND logic (for example, _\<recipient1\>_ and _\<member of group 1\>_).</span></span>
+
+    <span data-ttu-id="17f51-359">Het eenvoudigste is drie keer te klikken op **Een voorwaarde toevoegen** om alle beschikbare voorwaarden weer te geven.</span><span class="sxs-lookup"><span data-stu-id="17f51-359">It's easiest to click **Add a condition** three times to see all of the available conditions.</span></span> <span data-ttu-id="17f51-360">U kunt op de ![knop Verwijderen](../../media/scc-remove-icon.png) klikken om voorwaarden te verwijderen die u niet wilt configureren.</span><span class="sxs-lookup"><span data-stu-id="17f51-360">You can click ![Remove button](../../media/scc-remove-icon.png) to remove conditions that you don't want to configure.</span></span>
+
+    - <span data-ttu-id="17f51-361">**Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-361">**The recipient domain is**: Specifies recipients in one or more of the configured accepted domains in your organization.</span></span> <span data-ttu-id="17f51-362">Klik in het vak **Een tag toevoegen** om een domein weer te geven en te selecteren.</span><span class="sxs-lookup"><span data-stu-id="17f51-362">Click in the **Add a tag** box to see and select a domain.</span></span> <span data-ttu-id="17f51-363">Klik opnieuw op het vak **Een tag toevoegen** om aanvullende domeinen te selecteren als er meer dan één domein beschikbaar is.</span><span class="sxs-lookup"><span data-stu-id="17f51-363">Click again the **Add a tag** box to select additional domains if more than one domain is available.</span></span>
+
+    - <span data-ttu-id="17f51-364">**Geadresseerde is**: specificeert een of meer postvakken, e-mailgebruikers or e-mailcontactpersonen binnen uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="17f51-364">**Recipient is**: Specifies one or more mailboxes, mail users, or mail contacts in your organization.</span></span> <span data-ttu-id="17f51-365">Klik in het vak **Tag toevoegen** en begin te typen om de lijst te filteren.</span><span class="sxs-lookup"><span data-stu-id="17f51-365">Click in the **Add a tag** and start typing to filter the list.</span></span> <span data-ttu-id="17f51-366">Klik opnieuw op het vak **Tag toevoegen** om aanvullende geadresseerden te selecteren.</span><span class="sxs-lookup"><span data-stu-id="17f51-366">Click again the **Add a tag** box to select additional recipients.</span></span>
+
+    - <span data-ttu-id="17f51-367">**Geadresseerde is een lid van**: specificeert een of meer groepen in uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="17f51-367">**Recipient is a member of**: Specifies one or more groups in your organization.</span></span> <span data-ttu-id="17f51-368">Klik in het vak **Tag toevoegen** en begin te typen om de lijst te filteren.</span><span class="sxs-lookup"><span data-stu-id="17f51-368">Click in the **Add a tag** and start typing to filter the list.</span></span> <span data-ttu-id="17f51-369">Klik opnieuw op het vak **Tag toevoegen** om aanvullende geadresseerden te selecteren.</span><span class="sxs-lookup"><span data-stu-id="17f51-369">Click again the **Add a tag** box to select additional recipients.</span></span>
+
+    - <span data-ttu-id="17f51-370">**Behalve als**: om uitzonderingen op de regel toe te voegen, klikt u drie keer op **Een voorwaarde toevoegen** om alle beschikbare uitzonderingen weer te geven.</span><span class="sxs-lookup"><span data-stu-id="17f51-370">**Except if**: To add exceptions for the rule, click **Add a condition** three times to see all of the available exceptions.</span></span> <span data-ttu-id="17f51-371">De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="17f51-371">The settings and behavior are exactly like the conditions.</span></span>
+
+10. <span data-ttu-id="17f51-372">Klik op **Opslaan** wanneer u gereed bent.</span><span class="sxs-lookup"><span data-stu-id="17f51-372">When you're finished, click **Save**.</span></span>
+
+## <a name="use-the-security--compliance-center-to-view-anti-spam-policies"></a><span data-ttu-id="17f51-373">Het Beveiligings- en compliancecentrum gebruiken om antispambeleid weer te geven</span><span class="sxs-lookup"><span data-stu-id="17f51-373">Use the Security & Compliance Center to view anti-spam policies</span></span>
+
+1. <span data-ttu-id="17f51-374">Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.</span><span class="sxs-lookup"><span data-stu-id="17f51-374">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="17f51-375">Klik op de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om antispambeleid uit te vouwen:</span><span class="sxs-lookup"><span data-stu-id="17f51-375">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand an anti-spam policy:</span></span>
+
+   - <span data-ttu-id="17f51-376">Het standaardbeleid met de naam **Standaardbeleid voor spamfilters**.</span><span class="sxs-lookup"><span data-stu-id="17f51-376">The default policy named **Default spam filter policy**.</span></span>
+
+   - <span data-ttu-id="17f51-377">Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.</span><span class="sxs-lookup"><span data-stu-id="17f51-377">A custom policy that you created where the value in the **Type** column is **Custom anti-spam policy**.</span></span>
+
+3. <span data-ttu-id="17f51-378">De belangrijke beleidsinstellingen worden weergegeven in de uitgebreide beleidsgegevens.</span><span class="sxs-lookup"><span data-stu-id="17f51-378">The important policy settings are displayed in the expanded policy details that appear.</span></span> <span data-ttu-id="17f51-379">Klik op **Beleid bewerken** voor meer gegevens.</span><span class="sxs-lookup"><span data-stu-id="17f51-379">To see more details, click **Edit policy**.</span></span>
+
+## <a name="use-the-security--compliance-center-to-modify-anti-spam-policies"></a><span data-ttu-id="17f51-380">Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te wijzigen</span><span class="sxs-lookup"><span data-stu-id="17f51-380">Use the Security & Compliance Center to modify anti-spam policies</span></span>
+
+1. <span data-ttu-id="17f51-381">Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.</span><span class="sxs-lookup"><span data-stu-id="17f51-381">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="17f51-382">Klik op de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om antispambeleid uit te vouwen:</span><span class="sxs-lookup"><span data-stu-id="17f51-382">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand an anti-spam policy:</span></span>
+
+   - <span data-ttu-id="17f51-383">Het standaardbeleid met de naam **Standaardbeleid voor spamfilters**.</span><span class="sxs-lookup"><span data-stu-id="17f51-383">The default policy named **Default spam filter policy**.</span></span>
+
+   - <span data-ttu-id="17f51-384">Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.</span><span class="sxs-lookup"><span data-stu-id="17f51-384">A custom policy that you created where the value in the **Type** column is **Custom anti-spam policy**.</span></span>
+
+3. <span data-ttu-id="17f51-385">Klik op **Beleid bewerken**.</span><span class="sxs-lookup"><span data-stu-id="17f51-385">Click **Edit policy**.</span></span>
+
+<span data-ttu-id="17f51-386">De beschikbare instellingen in het deelvenster zijn voor aangepast antispambeleid hetzelfde als die zijn beschreven in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).</span><span class="sxs-lookup"><span data-stu-id="17f51-386">For custom anti-spam policies, the available settings in the flyout that appears are identical to those described in the [Use the Security & Compliance Center to create anti-spam policies](#use-the-security--compliance-center-to-create-anti-spam-policies) section.</span></span>
+
+<span data-ttu-id="17f51-387">Voor het standaardantispambeleid met de naam **Standaardbeleid voor spamfilters** is de sectie **Toegepast op** niet beschikbaar (het beleid is op iedereen van toepassing) en u kunt de naam van het beleid niet wijzigen.</span><span class="sxs-lookup"><span data-stu-id="17f51-387">For the default anti-spam policy named **Default spam filter policy**, the **Applied to** section isn't available (the policy applies to everyone), and you can't rename the policy.</span></span>
+
+<span data-ttu-id="17f51-388">Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van beleid te wijzigen of de quarantaine-meldingen van eindgebruiker configureren.</span><span class="sxs-lookup"><span data-stu-id="17f51-388">To enable or disable a policy, set the policy priority order, or configure the end-user quarantine notifications, see the following sections.</span></span>
+
+### <a name="enable-or-disable-anti-spam-policies"></a><span data-ttu-id="17f51-389">Antispambeleid in- of uitschakelen</span><span class="sxs-lookup"><span data-stu-id="17f51-389">Enable or disable anti-spam policies</span></span>
+
+1. <span data-ttu-id="17f51-390">Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.</span><span class="sxs-lookup"><span data-stu-id="17f51-390">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="17f51-391">Klik in de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om aangepast beleid uit te vouwen dat u hebt gemaakt (de waarde in de kolom **Type** is **Aangepast antispambeleid**).</span><span class="sxs-lookup"><span data-stu-id="17f51-391">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand a custom policy that you created (the value in the **Type** column is **Custom anti-spam policy**).</span></span>
+
+3. <span data-ttu-id="17f51-392">Let op de waarde in de kolom **Aan** in de uitgebreide beleidsgegevens die worden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="17f51-392">In the expanded policy details that appear, notice the value in the **On** column.</span></span>
+
+   <span data-ttu-id="17f51-393">Verplaats te wisselknop naar links om het beleid uit te schakelen:</span><span class="sxs-lookup"><span data-stu-id="17f51-393">Move the toggle to the left to disable the policy:</span></span> ![Uitschakelen](../../media/scc-toggle-off.png)
+
+   <span data-ttu-id="17f51-395">Verplaats te wisselknop naar rechts om het beleid in te schakelen:</span><span class="sxs-lookup"><span data-stu-id="17f51-395">Move the toggle to the right to enable the policy:</span></span> ![Inschakelen](../../media/scc-toggle-on.png)
+
+<span data-ttu-id="17f51-397">U kunt het standaardantispambeleid niet uitschakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-397">You can't disable the default anti-spam policy.</span></span>
+
+### <a name="set-the-priority-of-custom-anti-spam-policies"></a><span data-ttu-id="17f51-398">De prioriteit instellen voor aangepast antispambeleid</span><span class="sxs-lookup"><span data-stu-id="17f51-398">Set the priority of custom anti-spam policies</span></span>
+
+<span data-ttu-id="17f51-399">Standaard krijgt antispambeleid een prioriteit op basis van de volgorde waarin het is gemaakt (nieuwer beleid heeft een hogere prioriteit dan ouder beleid).</span><span class="sxs-lookup"><span data-stu-id="17f51-399">By default, anti-spam policies are given a priority that's based on the order they were created in (newer polices are lower priority than older policies).</span></span> <span data-ttu-id="17f51-400">Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit).</span><span class="sxs-lookup"><span data-stu-id="17f51-400">A lower priority number indicates a higher priority for the policy (0 is the highest), and policies are processed in priority order (higher priority policies are processed before lower priority policies).</span></span> <span data-ttu-id="17f51-401">Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.</span><span class="sxs-lookup"><span data-stu-id="17f51-401">No two policies can have the same priority, and policy processing stops after the first policy is applied.</span></span>
+
+<span data-ttu-id="17f51-402">Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).</span><span class="sxs-lookup"><span data-stu-id="17f51-402">For more information about the order of precedence and how multiple policies are evaluated and applied, see [Order and precedence of email protection](how-policies-and-protections-are-combined.md).</span></span>
+
+<span data-ttu-id="17f51-403">Aangepast antispambeleid wordt weergegeven in de volgorde waarin het wordt verwerkt (het eerste beleid heeft de **Prioriteit** swaarde 0).</span><span class="sxs-lookup"><span data-stu-id="17f51-403">Custom anti-spam policies are displayed in the order they're processed (the first policy has the **Priority** value 0).</span></span> <span data-ttu-id="17f51-404">Het standaardantispambeleid met de naam **Standaardbeleid voor spamfilters** heeft de prioriteitswaarde **Laagste** en dat kunt u niet wijzigen.</span><span class="sxs-lookup"><span data-stu-id="17f51-404">The default anti-spam policy named **Default spam filter policy** has the priority value **Lowest**, and you can't change it.</span></span>
+
+ <span data-ttu-id="17f51-405">**Opmerking**: In het Beveiligings- en compliancecentrum kunt u alleen de prioriteit wijzigen van het antispambeleid nadat u het hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="17f51-405">**Note**: In the Security & Compliance Center, you can only change the priority of the anti-spam policy after you create it.</span></span> <span data-ttu-id="17f51-406">In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).</span><span class="sxs-lookup"><span data-stu-id="17f51-406">In PowerShell, you can override the default priority when you create the spam filter rule (which can affect the priority of existing rules).</span></span>
+
+<span data-ttu-id="17f51-407">Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden verplaatsen in de lijst (u kunt het **Prioriteit** snummer in het Beveiligings en compliancecentrum niet rechtstreeks wijzigen).</span><span class="sxs-lookup"><span data-stu-id="17f51-407">To change the priority of a policy, move the policy up or down in the list (you can't directly modify the **Priority** number in the Security & Compliance Center).</span></span>
+
+1. <span data-ttu-id="17f51-408">Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.</span><span class="sxs-lookup"><span data-stu-id="17f51-408">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="17f51-409">Zoek in de pagina **Antispaminstellingen** het beleid waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.</span><span class="sxs-lookup"><span data-stu-id="17f51-409">On the **Anti-spam settings** page, find the policies where the value in the **Type** column is **Custom anti-spam policy**.</span></span> <span data-ttu-id="17f51-410">Let op de waarden in de kolom **Prioriteit**:</span><span class="sxs-lookup"><span data-stu-id="17f51-410">Notice the values in the **Priority** column:</span></span>
+
+   - <span data-ttu-id="17f51-411">Het aangepaste antispambeleid met de hoogste prioriteit heeft de waarde ![Pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.png) **0**.</span><span class="sxs-lookup"><span data-stu-id="17f51-411">The custom anti-spam policy with the highest priority has the value ![Down Arrow icon](../../media/ITPro-EAC-DownArrowIcon.png) **0**.</span></span>
+
+   - <span data-ttu-id="17f51-412">Het aangepaste antispambeleid met de laagste prioriteit heeft de waarde ![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png) **n** (bijv.: ![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png) **3**).</span><span class="sxs-lookup"><span data-stu-id="17f51-412">The custom anti-spam policy with the lowest priority has the value ![Up Arrow icon](../../media/ITPro-EAC-UpArrowIcon.png) **n** (for example, ![Up Arrow icon](../../media/ITPro-EAC-UpArrowIcon.png) **3**).</span></span>
+
+   - <span data-ttu-id="17f51-413">Als u drie of meer aangepaste antispambeleidsregels hebt, hebben de regels tussen de hoogste en laagste prioriteit de waarden ![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png)![Pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.png) **n** (bijv.: ![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png)![Pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.png) **2**).</span><span class="sxs-lookup"><span data-stu-id="17f51-413">If you have three or more custom anti-spam policies, the policies between the highest and lowest priority have values ![Up Arrow icon](../../media/ITPro-EAC-UpArrowIcon.png)![Down Arrow icon](../../media/ITPro-EAC-DownArrowIcon.png) **n** (for example, ![Up Arrow icon](../../media/ITPro-EAC-UpArrowIcon.png)![Down Arrow icon](../../media/ITPro-EAC-DownArrowIcon.png) **2**).</span></span>
+
+3. <span data-ttu-id="17f51-414">Klik op</span><span class="sxs-lookup"><span data-stu-id="17f51-414">Click</span></span> ![het pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png) <span data-ttu-id="17f51-416">of</span><span class="sxs-lookup"><span data-stu-id="17f51-416">or</span></span> ![het pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.png) <span data-ttu-id="17f51-418">om het aangepaste antispambeleid omhoog of omlaag te verplaatsen in de prioriteitslijst.</span><span class="sxs-lookup"><span data-stu-id="17f51-418">to move the custom anti-spam policy up or down in the priority list.</span></span>
+
+### <a name="configure-end-user-spam-notifications"></a><span data-ttu-id="17f51-419">Spammeldingen voor eindgebruikers configureren</span><span class="sxs-lookup"><span data-stu-id="17f51-419">Configure end-user spam notifications</span></span>
+
+<span data-ttu-id="17f51-420">Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst, kunt u spammeldingen voor eindgebruikers configureren om geadresseerden te laten weten wat er is gebeurd met berichten die naar hen zijn verzonden.</span><span class="sxs-lookup"><span data-stu-id="17f51-420">When a spam filtering verdict quarantines a message, you can configure end-user spam notifications to let recipients know what happened to messages that were sent to them.</span></span> <span data-ttu-id="17f51-421">Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie over deze meldingen.</span><span class="sxs-lookup"><span data-stu-id="17f51-421">For more information about these notifications, see [End-user spam notifications in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md).</span></span>
+
+1. <span data-ttu-id="17f51-422">Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.</span><span class="sxs-lookup"><span data-stu-id="17f51-422">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="17f51-423">Klik op de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om antispambeleid uit te vouwen:</span><span class="sxs-lookup"><span data-stu-id="17f51-423">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand an anti-spam policy:</span></span>
+
+   - <span data-ttu-id="17f51-424">Het standaardbeleid met de naam **Standaardbeleid voor spamfilters**.</span><span class="sxs-lookup"><span data-stu-id="17f51-424">The default policy named **Default spam filter policy**.</span></span>
+
+   - <span data-ttu-id="17f51-425">Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.</span><span class="sxs-lookup"><span data-stu-id="17f51-425">A custom policy that you created where the value in the **Type** column is **Custom anti-spam policy**.</span></span>
+
+3. <span data-ttu-id="17f51-426">Klik op **Spammeldingen voor eindgebruikers configureren** in de uitgebreide beleidsgegevens die worden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="17f51-426">In the expanded policy details that appear, click **Configure end-user spam notifications**.</span></span>
+
+4. <span data-ttu-id="17f51-427">Configureer de volgende instellingen in het dialoogvenster **\<Policy Name\>** dat wordt geopend:</span><span class="sxs-lookup"><span data-stu-id="17f51-427">In the **\<Policy Name\>** dialog that opens, configure the following settings:</span></span>
+
+   - <span data-ttu-id="17f51-428">**Spammeldingen voor eindgebruikers inschakelen**: vink het selectievakje aan om meldingen in te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-428">**Enable end-user spam notifications**: Select the checkbox to enable notifications.</span></span> <span data-ttu-id="17f51-429">Schakel het selectievakje uit om meldingen uit te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-429">Clear the checkbox to disable notifications.</span></span>
+
+   - <span data-ttu-id="17f51-430">**Iedere (dagen) spammeldingen voor eindgebruikers verzenden**: selecteer hoe vaak meldingen worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="17f51-430">**Send end-user spam notifications every (days)**: Select how frequently notifications are sent.</span></span> <span data-ttu-id="17f51-431">De standaardwaarde is 3 dagen.</span><span class="sxs-lookup"><span data-stu-id="17f51-431">The default value is 3 days.</span></span> <span data-ttu-id="17f51-432">U kunt 1 tot 15 dagen opgeven.</span><span class="sxs-lookup"><span data-stu-id="17f51-432">You can enter 1 to 15 days.</span></span>
+
+     <span data-ttu-id="17f51-433">Er zijn drie cycli van spammeldingen voor eindgebruikers binnen een periode van 24 uur die beginnen op de volgende tijden: 01:00 UTC, 08:00 UTC en 16:00 UTC.</span><span class="sxs-lookup"><span data-stu-id="17f51-433">There are 3 cycles of end-user spam notification within a 24 hour period that start at the following times: 01:00 UTC, 08:00 UTC, and 16:00 UTC.</span></span>
+
+     > [!NOTE]
+     > <span data-ttu-id="17f51-434">Als we tijdens een vorige cyclus een melding hebben gemist, wordt in de volgende cyclus de melding gepusht.</span><span class="sxs-lookup"><span data-stu-id="17f51-434">If we missed a notification during a previous cycle, a subsequent cycle will push the notification.</span></span> <span data-ttu-id="17f51-435">Dit geeft de indruk van meerdere meldingen op dezelfde dag.</span><span class="sxs-lookup"><span data-stu-id="17f51-435">This may give the appearance of multiple notifications within the same day.</span></span>
+
+   - <span data-ttu-id="17f51-436">**Taal van meldingen**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst.</span><span class="sxs-lookup"><span data-stu-id="17f51-436">**Notification language**: Click the drop down an select an available language from the list.</span></span> <span data-ttu-id="17f51-437">De standaardwaarde is **Standaard**, dat wil zeggen Engels.</span><span class="sxs-lookup"><span data-stu-id="17f51-437">The default value is **Default**, which means English.</span></span>
+
+   <span data-ttu-id="17f51-438">Klik op **Opslaan** wanneer u gereed bent.</span><span class="sxs-lookup"><span data-stu-id="17f51-438">When you're finished, click **Save**.</span></span>
+
+## <a name="use-the-security--compliance-center-to-remove-anti-spam-policies"></a><span data-ttu-id="17f51-439">Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te verplaatsen</span><span class="sxs-lookup"><span data-stu-id="17f51-439">Use the Security & Compliance Center to remove anti-spam policies</span></span>
+
+1. <span data-ttu-id="17f51-440">Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.</span><span class="sxs-lookup"><span data-stu-id="17f51-440">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="17f51-441">Klik in de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om het aangepaste beleid uit te vouwen dat u wilt verwijderen (de waarde in de kolom **Type** is **Aangepast antispambeleid**).</span><span class="sxs-lookup"><span data-stu-id="17f51-441">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand the custom policy that you want to delete (the **Type** column is **Custom anti-spam policy**).</span></span>
+
+3. <span data-ttu-id="17f51-442">Klik in de uitgebreide beleidsgegevens op **Beleid verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="17f51-442">In the expanded policy details that appear, click **Delete policy**.</span></span>
+
+4. <span data-ttu-id="17f51-443">Klik op **Ja** in het waarschuwingsvenster dat wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="17f51-443">Click **Yes** in the warning dialog that appears.</span></span>
+
+<span data-ttu-id="17f51-444">U kunt het standaardbeleid niet verwijderen.</span><span class="sxs-lookup"><span data-stu-id="17f51-444">You can't remove the default policy.</span></span>
+
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies"></a><span data-ttu-id="17f51-445">Exchange Online PowerShell of standalone EOP PowerShell gebruiken om antispambeleid te configureren</span><span class="sxs-lookup"><span data-stu-id="17f51-445">Use Exchange Online PowerShell or standalone EOP PowerShell to configure anti-spam policies</span></span>
+
+<span data-ttu-id="17f51-446">Zoals eerder beschreven, bestaat een antispambeleid uit een spamfilterbeleid en een spamfilterregel.</span><span class="sxs-lookup"><span data-stu-id="17f51-446">As previously described, an anti-spam policy consists of a spam filter policy and a spam filter rule.</span></span>
+
+<span data-ttu-id="17f51-447">In Exchange Online PowerShell of standalone EOP PowerShell is het verschil tussen spamfilterbeleid en spamfilterregels duidelijk.</span><span class="sxs-lookup"><span data-stu-id="17f51-447">In Exchange Online PowerShell or standalone EOP PowerShell, the difference between spam filter policies and spam filter rules is apparent.</span></span> <span data-ttu-id="17f51-448">U beheert spamfilterbeleid door de cmdlets **\*-HostedContentFilterPolicy** te gebruiken en u beheert spamfilterregels door de cmdlets **\*-HostedContentFilterRule** te gebruiken. </span><span class="sxs-lookup"><span data-stu-id="17f51-448">You manage spam filter policies by using the **\*-HostedContentFilterPolicy** cmdlets, and you manage spam filter rules by using the **\*-HostedContentFilterRule** cmdlets.</span></span>
+
+- <span data-ttu-id="17f51-449">In PowerShell maakt u eerst het spamfilterbeleid en vervolgens maakt u de spamfilterregel die het beleid identificeert waarop de regel van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="17f51-449">In PowerShell, you create the spam filter policy first, then you create the spam filter rule that identifies the policy that the rule applies to.</span></span>
+- <span data-ttu-id="17f51-450">In PowerShell wijzigt u de instellingen in het spamfilterbeleid en de spamfilterregel afzonderlijk.</span><span class="sxs-lookup"><span data-stu-id="17f51-450">In PowerShell, you modify the settings in the spam filter policy and the spam filter rule separately.</span></span>
+- <span data-ttu-id="17f51-451">Wanneer u spamfilterbeleid verwijdert uit PowerShell, wordt de bijbehorende spamfilterregel niet automatisch verwijderd en omgekeerd.</span><span class="sxs-lookup"><span data-stu-id="17f51-451">When you remove a spam filter policy from PowerShell, the corresponding spam filter rule isn't automatically removed, and vice versa.</span></span>
+
+<span data-ttu-id="17f51-452">De volgende antispambeleidsinstellingen zijn alleen beschikbaar in PowerShell:</span><span class="sxs-lookup"><span data-stu-id="17f51-452">The following anti-spam policy settings are only available in PowerShell:</span></span>
+
+- <span data-ttu-id="17f51-453">De parameter _MarkAsSpamBulkMail_, die standaard `On` is.</span><span class="sxs-lookup"><span data-stu-id="17f51-453">The _MarkAsSpamBulkMail_ parameter that's `On` by default.</span></span> <span data-ttu-id="17f51-454">De gevolgen van deze instelling zijn eerder in dit artikel uitgelegd in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).</span><span class="sxs-lookup"><span data-stu-id="17f51-454">The effects of this setting were explained in the [Use the Security & Compliance Center to create anti-spam policies](#use-the-security--compliance-center-to-create-anti-spam-policies) section earlier in this article.</span></span>
+
+- <span data-ttu-id="17f51-455">De volgende instellingen voor quarantainemeldingen voor eindgebruikers:</span><span class="sxs-lookup"><span data-stu-id="17f51-455">The following settings for end-user spam quarantine notifications:</span></span>
+
+  - <span data-ttu-id="17f51-456">De parameter _DownloadLink_ toont of verbergt de koppeling naar het rapportagehulpmiddel voor ongewenste e-mail voor Outlook.</span><span class="sxs-lookup"><span data-stu-id="17f51-456">The _DownloadLink_ parameter that shows or hides the link to the Junk Email Reporting Tool for Outlook.</span></span>
+
+  - <span data-ttu-id="17f51-457">De parameter _EndUserSpamNotificationCustomSubject_ die u kunt gebruiken om de onderwerpregel van de melding aan te passen.</span><span class="sxs-lookup"><span data-stu-id="17f51-457">The _EndUserSpamNotificationCustomSubject_ parameter that you can use to customize the subject line of the notification.</span></span>
+
+### <a name="use-powershell-to-create-anti-spam-policies"></a><span data-ttu-id="17f51-458">PowerShell gebruiken om antispambeleid te maken</span><span class="sxs-lookup"><span data-stu-id="17f51-458">Use PowerShell to create anti-spam policies</span></span>
+
+<span data-ttu-id="17f51-459">Antispambeleid maken in PowerShell bestaat uit twee stappen:</span><span class="sxs-lookup"><span data-stu-id="17f51-459">Creating an anti-spam policy in PowerShell is a two-step process:</span></span>
+
+1. <span data-ttu-id="17f51-460">Het spamfilterbeleid maken.</span><span class="sxs-lookup"><span data-stu-id="17f51-460">Create the spam filter policy.</span></span>
+2. <span data-ttu-id="17f51-461">De spamfilterbeleidsregel maken die het spamfilterbeleid opgeeft waarop de regel van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="17f51-461">Create the spam filter rule that specifies the spam filter policy that the rule applies to.</span></span>
+
+ <span data-ttu-id="17f51-462">**Opmerkingen**:</span><span class="sxs-lookup"><span data-stu-id="17f51-462">**Notes**:</span></span>
+
+- <span data-ttu-id="17f51-463">U kunt een nieuwe spamfilterbeleidsregel maken en een bestaand, niet-gekoppeld spamfilterbeleid eraan toewijzen.</span><span class="sxs-lookup"><span data-stu-id="17f51-463">You can create a new spam filter rule and assign an existing, unassociated spam filter policy to it.</span></span> <span data-ttu-id="17f51-464">Een spamfilterbeleidsregel kan niet worden gekoppeld aan meer dan één spamfilterbeleid.</span><span class="sxs-lookup"><span data-stu-id="17f51-464">A spam filter rule can't be associated with more than one spam filter policy.</span></span>
+
+- <span data-ttu-id="17f51-465">U kunt de volgende instellingen voor nieuw spamfilterbeleid configureren in PowerShell die niet beschikbaar zijn in het Beveiligings- en compliancecentrum tot nadat u het beleid hebt gemaakt:</span><span class="sxs-lookup"><span data-stu-id="17f51-465">You can configure the following settings on new spam filter policies in PowerShell that aren't available in the Security & Compliance Center until after you create the policy:</span></span>
+
+  - <span data-ttu-id="17f51-466">Schakel het nieuwe beleid uit (_Ingeschakeld_ `$false` in het cmdlet **New-HostedContentFilterRule**).</span><span class="sxs-lookup"><span data-stu-id="17f51-466">Create the new policy as disabled (_Enabled_ `$false` on the **New-HostedContentFilterRule** cmdlet).</span></span>
+  - <span data-ttu-id="17f51-467">Stel de prioriteit van het beleid in tijdens het maken (_Prioriteit_ _\<Number\>_) in de cmdlet **New-HostedContentFilterRule**).</span><span class="sxs-lookup"><span data-stu-id="17f51-467">Set the priority of the policy during creation (_Priority_ _\<Number\>_) on the **New-HostedContentFilterRule** cmdlet).</span></span>
+
+- <span data-ttu-id="17f51-468">Nieuw spamfilterbeleid dat u maakt in PowerShell is niet zichtbaar in het Beveiligings- en compliancecentrum totdat u het beleid toewijst aan een spamfilterregel.</span><span class="sxs-lookup"><span data-stu-id="17f51-468">A new spam filter policy that you create in PowerShell isn't visible in the Security & Compliance Center until you assign the policy to a spam filter rule.</span></span>
+
+#### <a name="step-1-use-powershell-to-create-a-spam-filter-policy"></a><span data-ttu-id="17f51-469">Stap 1: PowerShell gebruiken om spamfilterbeleid te maken</span><span class="sxs-lookup"><span data-stu-id="17f51-469">Step 1: Use PowerShell to create a spam filter policy</span></span>
+
+<span data-ttu-id="17f51-470">Gebruik de volgende syntaxis om spamfilterbeleid te maken:</span><span class="sxs-lookup"><span data-stu-id="17f51-470">To create a spam filter policy, use this syntax:</span></span>
+
+```PowerShell
+New-HostedContentFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Additional Settings>
+```
+
+<span data-ttu-id="17f51-471">Dit voorbeeld maakt spamfilterbeleid met de naam Contoso Executives met de volgende instellingen:</span><span class="sxs-lookup"><span data-stu-id="17f51-471">This example creates a spam filter policy named Contoso Executives with the following settings:</span></span>
+
+- <span data-ttu-id="17f51-472">Quarantainemeldingen wanneer de spamfilterbeoordeling Spam of Hoogstwaarschijnlijk spam is.</span><span class="sxs-lookup"><span data-stu-id="17f51-472">Quarantine messages when the spam filtering verdict is spam or high confidence spam.</span></span>
+
+- <span data-ttu-id="17f51-473">BCL 6 activeert de actie voor een bulk-e-mail-spamfilterbeoordeling.</span><span class="sxs-lookup"><span data-stu-id="17f51-473">BCL 6 triggers the action for a bulk email spam filtering verdict.</span></span>
+
+```PowerShell
+New-HostedContentFilterPolicy -Name "Contoso Executives" -HighConfidenceSpamAction Quarantine -SpamAction Quarantine -BulkThreshold 6
+```
+
+> [!NOTE]
+> <span data-ttu-id="17f51-474">**New-HostedContentFilterPolicy** en **Set-HostedContentFilterPolicy** bevatten een oudere parameter _ZapEnabled_ en nieuwere parameters _PhishZapEnabled_ en _SpamZapEnabled_.</span><span class="sxs-lookup"><span data-stu-id="17f51-474">**New-HostedContentFilterPolicy** and **Set-HostedContentFilterPolicy** contain an older _ZapEnabled_ parameter, as well as newer _PhishZapEnabled_ and _SpamZapEnabled_ parameters.</span></span> <span data-ttu-id="17f51-475">De parameter _ZapEnabled_ is in februari 2020 afgeschaft.</span><span class="sxs-lookup"><span data-stu-id="17f51-475">The _ZapEnabled_ parameter was deprecated in February 2020.</span></span> <span data-ttu-id="17f51-476">The parameters _PhishZapEnabled_ en _SpamZapEnabled_ namen hun waarden over van de parameter _ZapEnabled_.</span><span class="sxs-lookup"><span data-stu-id="17f51-476">The _PhishZapEnabled_ and _SpamZapEnabled_ parameters used to inherit their values from the _ZapEnabled_ parameter.</span></span> <span data-ttu-id="17f51-477">Maar als u de parameters _PhishZapEnabled_ en _SpamZapEnabled_ gebruikt in een opdracht of de instelling **Spam ZAP** of **Phish ZAP** in het antispambeleid in het Beveiligings- en compliancecentrum, wordt de waarde van de parameter _ZapEnabled_ genegeerd.</span><span class="sxs-lookup"><span data-stu-id="17f51-477">But, if you use the _PhishZapEnabled_ and _SpamZapEnabled_ parameters in a command or you use the **Spam ZAP** or **Phish ZAP** settings in the anti-spam policy in the Security & Compliance Center, the value of the _ZapEnabled_ parameter is ignored.</span></span> <span data-ttu-id="17f51-478">Met andere woorden, gebruik de parameter _ZapEnabled_ niet, maar gebruik hiervoor in de plaats de parameters _PhishZapEnabled_ en _SpamZapEnabled_.</span><span class="sxs-lookup"><span data-stu-id="17f51-478">In other words, don't use the _ZapEnabled_ parameter; use the  _PhishZapEnabled_ and _SpamZapEnabled_ parameters instead.</span></span>
+
+<span data-ttu-id="17f51-479">Zie [New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-479">For detailed syntax and parameter information, see [New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy).</span></span>
+
+#### <a name="step-2-use-powershell-to-create-a-spam-filter-rule"></a><span data-ttu-id="17f51-480">Stap 2: PowerShell gebruiken om een spamfilterregel te maken</span><span class="sxs-lookup"><span data-stu-id="17f51-480">Step 2: Use PowerShell to create a spam filter rule</span></span>
+
+<span data-ttu-id="17f51-481">Gebruik de volgende syntaxis om een spamfilterregel te maken:</span><span class="sxs-lookup"><span data-stu-id="17f51-481">To create a spam filter rule, use this syntax:</span></span>
+
+```PowerShell
+New-HostedContentFilterRule -Name "<RuleName>" -HostedContentFilterPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"]
+```
+
+<span data-ttu-id="17f51-482">Dit voorbeeld maakt een nieuwe spamfilterregel met de naam Contoso Executives met de volgende instellingen:</span><span class="sxs-lookup"><span data-stu-id="17f51-482">This example creates a new spam filter rule named Contoso Executives with these settings:</span></span>
+
+- <span data-ttu-id="17f51-483">Het spamfilterbeleid met de naam Contoso Executives wordt gekoppeld aan de regel.</span><span class="sxs-lookup"><span data-stu-id="17f51-483">The spam filter policy named Contoso Executives is associated with the rule.</span></span>
+
+- <span data-ttu-id="17f51-484">De regel is van toepassing op leden van de groep met de naam Contoso Executives Group.</span><span class="sxs-lookup"><span data-stu-id="17f51-484">The rule applies to members of the group named Contoso Executives Group.</span></span>
+
+```PowerShell
+New-HostedContentFilterRule -Name "Contoso Executives" -HostedContentFilterPolicy "Contoso Executives" -SentToMemberOf "Contoso Executives Group"
+```
+
+<span data-ttu-id="17f51-485">Zie [New-HostedContentFilterRule](/powershell/module/exchange/new-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-485">For detailed syntax and parameter information, see [New-HostedContentFilterRule](/powershell/module/exchange/new-hostedcontentfilterrule).</span></span>
+
+### <a name="use-powershell-to-view-spam-filter-policies"></a><span data-ttu-id="17f51-486">PowerShell gebruiken om spamfilterbeleid te bekijken</span><span class="sxs-lookup"><span data-stu-id="17f51-486">Use PowerShell to view spam filter policies</span></span>
+
+<span data-ttu-id="17f51-487">Voer de volgende opdracht uit om een overzicht van alle spamfilterbeleid weer te geven:</span><span class="sxs-lookup"><span data-stu-id="17f51-487">To return a summary list of all spam filter policies, run this command:</span></span>
+
+```PowerShell
+Get-HostedContentFilterPolicy
+```
+
+<span data-ttu-id="17f51-488">Gebruik deze syntaxis voor gedetailleerde informatie over specifiek spamfilterbeleid:</span><span class="sxs-lookup"><span data-stu-id="17f51-488">To return detailed information about a specific spam filter policy, use the this syntax:</span></span>
+
+```PowerShell
+Get-HostedContentFilterPolicy -Identity "<PolicyName>" | Format-List [<Specific properties to view>]
+```
+
+<span data-ttu-id="17f51-489">In dit voorbeeld worden alle eigenschapswaarden weergegeven voor het spamfilterbeleid met de naam Executives.</span><span class="sxs-lookup"><span data-stu-id="17f51-489">This example returns all the property values for the spam filter policy named Executives.</span></span>
+
+```PowerShell
+Get-HostedContentFilterPolicy -Identity "Executives" | Format-List
+```
+
+<span data-ttu-id="17f51-490">Zie [Get-HostedContentFilterPolicy](/powershell/module/exchange/get-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-490">For detailed syntax and parameter information, see [Get-HostedContentFilterPolicy](/powershell/module/exchange/get-hostedcontentfilterpolicy).</span></span>
+
+### <a name="use-powershell-to-view-spam-filter-rules"></a><span data-ttu-id="17f51-491">PowerShell gebruiken om spamfilterregels te bekijken</span><span class="sxs-lookup"><span data-stu-id="17f51-491">Use PowerShell to view spam filter rules</span></span>
+
+<span data-ttu-id="17f51-492">Gebruik de volgende syntaxis om bestaande spamfilterregels te bekijken:</span><span class="sxs-lookup"><span data-stu-id="17f51-492">To view existing spam filter rules, use the following syntax:</span></span>
+
+```PowerShell
+Get-HostedContentFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
+```
+
+<span data-ttu-id="17f51-493">Voer de volgende opdracht uit om een overzicht van alle spamfilterregels weer te geven:</span><span class="sxs-lookup"><span data-stu-id="17f51-493">To return a summary list of all spam filter rules, run this command:</span></span>
+
+```PowerShell
+Get-HostedContentFilterRule
+```
+
+<span data-ttu-id="17f51-494">Voer de volgende opdrachten uit om de lijst te filteren op ingeschakelde en uitgeschakelde regels:</span><span class="sxs-lookup"><span data-stu-id="17f51-494">To filter the list by enabled or disabled rules, run the following commands:</span></span>
+
+```PowerShell
+Get-HostedContentFilterRule -State Disabled
+```
+
+```PowerShell
+Get-HostedContentFilterRule -State Enabled
+```
+
+<span data-ttu-id="17f51-495">Gebruik deze syntaxis voor gedetailleerde informatie over een specifieke spamfilterregel:</span><span class="sxs-lookup"><span data-stu-id="17f51-495">To return detailed information about a specific spam filter rule, use this syntax:</span></span>
+
+```PowerShell
+Get-HostedContentFilterRule -Identity "<RuleName>" | Format-List [<Specific properties to view>]
+```
+
+<span data-ttu-id="17f51-496">In dit voorbeeld worden alle eigenschapswaarden weergegeven voor het spamfilterregel met de naam Contoso Executives.</span><span class="sxs-lookup"><span data-stu-id="17f51-496">This example returns all the property values for the spam filter rule named Contoso Executives.</span></span>
+
+```PowerShell
+Get-HostedContentFilterRule -Identity "Contoso Executives" | Format-List
+```
+
+<span data-ttu-id="17f51-497">Zie [Get-HostedContentFilterRule](/powershell/module/exchange/get-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-497">For detailed syntax and parameter information, see [Get-HostedContentFilterRule](/powershell/module/exchange/get-hostedcontentfilterrule).</span></span>
+
+### <a name="use-powershell-to-modify-spam-filter-policies"></a><span data-ttu-id="17f51-498">PowerShell gebruiken om spamfilterbeleid te wijzigen</span><span class="sxs-lookup"><span data-stu-id="17f51-498">Use PowerShell to modify spam filter policies</span></span>
+
+<span data-ttu-id="17f51-499">Voor het wijzigen van spamfilterbeleid in PowerShell zijn, behalve voor de volgende items, dezelfde instellingen beschikbaar als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).</span><span class="sxs-lookup"><span data-stu-id="17f51-499">Other than the following items, the same settings are available when you modify a spam filter policy in PowerShell as when you create the policy as described in the [Step 1: Use PowerShell to create a spam filter policy](#step-1-use-powershell-to-create-a-spam-filter-policy) section earlier in this article.</span></span>
+
+- <span data-ttu-id="17f51-500">De schakeloptie _MakeDefault_ die het specifieke beleid wijzigt in het standaardbeleid (toegepast op iedereen, altijd **Laagste** prioriteit en kan niet worden verwijderd) is alleen beschikbaar wanneer u spamfilterbeleid wijzigt in PowerShell.</span><span class="sxs-lookup"><span data-stu-id="17f51-500">The _MakeDefault_ switch that turns the specified policy into the default policy (applied to everyone, always **Lowest** priority, and you can't delete it) is only available when you modify a spam filter policy in PowerShell.</span></span>
+
+- <span data-ttu-id="17f51-501">U kunt de naam van het spamfilterbeleid niet wijzigen (het cmdlet **Set-HostedContentFilterPolicy** heeft geen parameter _Naam_).</span><span class="sxs-lookup"><span data-stu-id="17f51-501">You can't rename a spam filter policy (the **Set-HostedContentFilterPolicy** cmdlet has no _Name_ parameter).</span></span> <span data-ttu-id="17f51-502">Wanneer u de naam van antispambeleid in het Beveiligings- en compliancecentrum wijzigt, wijzigt u alleen de naam van de spamfilter _regel_.</span><span class="sxs-lookup"><span data-stu-id="17f51-502">When you rename an anti-spam policy in the Security & Compliance Center, you're only renaming the spam filter _rule_.</span></span>
+
+<span data-ttu-id="17f51-503">Gebruik de volgende syntaxis om spamfilterbeleid te wijzigen:</span><span class="sxs-lookup"><span data-stu-id="17f51-503">To modify a spam filter policy, use this syntax:</span></span>
+
+```PowerShell
+Set-HostedContentFilterPolicy -Identity "<PolicyName>" <Settings>
+```
+
+<span data-ttu-id="17f51-504">Zie [Set-HostedContentFilterPolicy](/powershell/module/exchange/set-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-504">For detailed syntax and parameter information, see [Set-HostedContentFilterPolicy](/powershell/module/exchange/set-hostedcontentfilterpolicy).</span></span>
+
+### <a name="use-powershell-to-modify-spam-filter-rules"></a><span data-ttu-id="17f51-505">PowerShell gebruiken om spamfilterregels te wijzigen</span><span class="sxs-lookup"><span data-stu-id="17f51-505">Use PowerShell to modify spam filter rules</span></span>
+
+<span data-ttu-id="17f51-506">De enige instelling die niet beschikbaar is wanneer u een spamfilterregel wijzigt in PowerShell, is de parameter _Ingeschakeld_ waarmee u een uitgeschakelde regel kunt maken.</span><span class="sxs-lookup"><span data-stu-id="17f51-506">The only setting that isn't available when you modify a spam filter rule in PowerShell is the _Enabled_ parameter that allows you to create a disabled rule.</span></span> <span data-ttu-id="17f51-507">Zie de volgende sectie om bestaande spamfilterregels in of uit te schakelen.</span><span class="sxs-lookup"><span data-stu-id="17f51-507">To enable or disable existing spam filter rules, see the next section.</span></span>
+
+<span data-ttu-id="17f51-508">Er zijn geen extra instellingen beschikbaar wanneer u een spamfilterregel wijzigt in PowerShell.</span><span class="sxs-lookup"><span data-stu-id="17f51-508">Otherwise, no additional settings are available when you modify a spam filter rule in PowerShell.</span></span> <span data-ttu-id="17f51-509">Dezelfde instellingen zijn beschikbaar wanneer u een regel maakt zoals eerder in dit artikel beschreven in de sectie [Stap 2: PowerShell gebruiken om een spamfilterregel te maken](#step-2-use-powershell-to-create-a-spam-filter-rule).</span><span class="sxs-lookup"><span data-stu-id="17f51-509">The same settings are available when you create a rule as described in the [Step 2: Use PowerShell to create a spam filter rule](#step-2-use-powershell-to-create-a-spam-filter-rule) section earlier in this article.</span></span>
+
+<span data-ttu-id="17f51-510">Gebruik de volgende syntaxis om een spamfilterregel te wijzigen:</span><span class="sxs-lookup"><span data-stu-id="17f51-510">To modify a spam filter rule, use this syntax:</span></span>
+
+```PowerShell
+Set-HostedContentFilterRule -Identity "<RuleName>" <Settings>
+```
+
+<span data-ttu-id="17f51-511">In dit voorbeeld wordt de naam veranderd van de bestaande spamfilterregel met de naam `{Fabrikam Spam Filter}` die problemen kan veroorzaken in het Beveiligings- en compliancecentrum.</span><span class="sxs-lookup"><span data-stu-id="17f51-511">This example renames the existing spam filter rule named `{Fabrikam Spam Filter}` that might cause problems in the Security & Compliance Center.</span></span>
+
+```powershell
+Set-HostedContentFilterRule -Identity "{Fabrikam Spam Filter}" -Name "Fabrikam Spam Filter"
+```
+
+<span data-ttu-id="17f51-512">Zie [Set-HostedContentFilterRule](/powershell/module/exchange/set-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-512">For detailed syntax and parameter information, see [Set-HostedContentFilterRule](/powershell/module/exchange/set-hostedcontentfilterrule).</span></span>
+
+### <a name="use-powershell-to-enable-or-disable-spam-filter-rules"></a><span data-ttu-id="17f51-513">PowerShell gebruiken om spamfilterregels in of uit te schakelen</span><span class="sxs-lookup"><span data-stu-id="17f51-513">Use PowerShell to enable or disable spam filter rules</span></span>
+
+<span data-ttu-id="17f51-514">Het in- of uitschakelen van een spamfilterregel in PowerShell, schakelt het hele antispambeleid in of uit (de spamfilterregel en het bijbehorende spamfilterbeleid).</span><span class="sxs-lookup"><span data-stu-id="17f51-514">Enabling or disabling a spam filter rule in PowerShell enables or disables the whole anti-spam policy (the spam filter rule and the assigned spam filter policy).</span></span> <span data-ttu-id="17f51-515">U kunt het standaardbeleid niet in- of uitschakelen (dit wordt altijd toegepast op alle geadresseerden).</span><span class="sxs-lookup"><span data-stu-id="17f51-515">You can't enable or disable the default anti-spam policy (it's always always applied to all recipients).</span></span>
+
+<span data-ttu-id="17f51-516">Gebruik de volgende syntaxis om een spamfilterregel in PowerShell in of uit te schakelen:</span><span class="sxs-lookup"><span data-stu-id="17f51-516">To enable or disable a spam filter rule in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+<Enable-HostedContentFilterRule | Disable-HostedContentFilterRule> -Identity "<RuleName>"
+```
+
+<span data-ttu-id="17f51-517">In dit voorbeeld wordt de spamfilterregel uitgeschakeld met de naam Marketing Department.</span><span class="sxs-lookup"><span data-stu-id="17f51-517">This example disables the spam filter rule named Marketing Department.</span></span>
+
+```PowerShell
+Disable-HostedContentFilterRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="17f51-518">In dit voorbeeld wordt dezelfde regel ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="17f51-518">This example enables same rule.</span></span>
+
+```PowerShell
+Enable-HostedContentFilterRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="17f51-519">Zie [Enable-HostedContentFilterRule](/powershell/module/exchange/enable-hostedcontentfilterrule) en [Disable-HostedContentFilterRule](/powershell/module/exchange/disable-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-519">For detailed syntax and parameter information, see [Enable-HostedContentFilterRule](/powershell/module/exchange/enable-hostedcontentfilterrule) and [Disable-HostedContentFilterRule](/powershell/module/exchange/disable-hostedcontentfilterrule).</span></span>
+
+### <a name="use-powershell-to-set-the-priority-of-spam-filter-rules"></a><span data-ttu-id="17f51-520">PowerShell gebruiken om de prioriteit van spamfilterregels in te stellen</span><span class="sxs-lookup"><span data-stu-id="17f51-520">Use PowerShell to set the priority of spam filter rules</span></span>
+
+<span data-ttu-id="17f51-521">De hoogste prioriteit die u in kunt stellen op een regel is 0.</span><span class="sxs-lookup"><span data-stu-id="17f51-521">The highest priority value you can set on a rule is 0.</span></span> <span data-ttu-id="17f51-522">De laagste prioriteit die u kunt instellen is afhankelijk van het aantal regels.</span><span class="sxs-lookup"><span data-stu-id="17f51-522">The lowest value you can set depends on the number of rules.</span></span> <span data-ttu-id="17f51-523">Als u bijvoorbeeld vijf regels hebt, kunt u de waarden 0 t/m 4 gebruiken.</span><span class="sxs-lookup"><span data-stu-id="17f51-523">For example, if you have five rules, you can use the priority values 0 through 4.</span></span> <span data-ttu-id="17f51-524">Het wijzigen van de prioriteit van een bestaande regel kan een domino-effect hebben op andere regels.</span><span class="sxs-lookup"><span data-stu-id="17f51-524">Changing the priority of an existing rule can have a cascading effect on other rules.</span></span> <span data-ttu-id="17f51-525">Als u bijvoorbeeld vijf aangepaste regels hebt (prioriteiten 0 t/m 4) en u wijzigt de prioriteit van een regel in 2, dan wordt de bestaande regel met prioriteit 2 gewijzigd in 3 en de regel met prioriteit 3 wordt gewijzigd in 4.</span><span class="sxs-lookup"><span data-stu-id="17f51-525">For example, if you have five custom rules (priorities 0 through 4), and you change the priority of a rule to 2, the existing rule with priority 2 is changed to priority 3, and the rule with priority 3 is changed to priority 4.</span></span>
+
+<span data-ttu-id="17f51-526">Gebruik de volgende syntaxis om de prioriteit van een spamfilterregel in te stellen in PowerShell:</span><span class="sxs-lookup"><span data-stu-id="17f51-526">To set the priority of a spam filter rule in PowerShell, use the following syntax:</span></span>
+
+```PowerShell
+Set-HostedContentFilterRule -Identity "<RuleName>" -Priority <Number>
+```
+
+<span data-ttu-id="17f51-527">In dit voorbeeld wordt de prioriteit van de regel met de naam Marketing Department ingesteld op 2.</span><span class="sxs-lookup"><span data-stu-id="17f51-527">This example sets the priority of the rule named Marketing Department to 2.</span></span> <span data-ttu-id="17f51-528">Alle bestaande regels die een prioriteit hebben die minder of gelijk is aan 2, worden verlaagd met 1 (hun prioriteitsnummers worden verhoogd met 1).</span><span class="sxs-lookup"><span data-stu-id="17f51-528">All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).</span></span>
+
+```PowerShell
+Set-HostedContentFilterRule -Identity "Marketing Department" -Priority 2
+```
+
+<span data-ttu-id="17f51-529">**Opmerkingen**:</span><span class="sxs-lookup"><span data-stu-id="17f51-529">**Notes**:</span></span>
+
+- <span data-ttu-id="17f51-530">Als u de prioriteit wilt instellen van een nieuwe regel wanneer u deze maakt, gebruikt u in plaats daarvan de parameter _Prioriteit_ in het cmdlet **New-HostedContentFilterRule**.</span><span class="sxs-lookup"><span data-stu-id="17f51-530">To set the priority of a new rule when you create it, use the _Priority_ parameter on the **New-HostedContentFilterRule** cmdlet instead.</span></span>
+
+- <span data-ttu-id="17f51-531">Het standaardbeleid heeft geen bijbehorende spamfilterregel en heeft altijd de waarde **Laagste** die niet kan worden gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="17f51-531">The default spam filter policy doesn't have a corresponding spam filter rule, and it always has the unmodifiable priority value **Lowest**.</span></span>
+
+### <a name="use-powershell-to-remove-spam-filter-policies"></a><span data-ttu-id="17f51-532">PowerShell gebruiken om spamfilterbeleid te verwijderen</span><span class="sxs-lookup"><span data-stu-id="17f51-532">Use PowerShell to remove spam filter policies</span></span>
+
+<span data-ttu-id="17f51-533">Wanneer u PowerShell gebruikt om spamfilterbeleid te verwijderen, wordt de bijbehorende spamfilterregel niet verwijderd.</span><span class="sxs-lookup"><span data-stu-id="17f51-533">When you use PowerShell to remove a spam filter policy, the corresponding spam filter rule isn't removed.</span></span>
+
+<span data-ttu-id="17f51-534">Gebruik deze syntaxis om spamfilterbeleid in PowerShell te verwijderen:</span><span class="sxs-lookup"><span data-stu-id="17f51-534">To remove a spam filter policy in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+Remove-HostedContentFilterPolicy -Identity "<PolicyName>"
+```
+
+<span data-ttu-id="17f51-535">In dit voorbeeld wordt het spamfilterbeleid verwijderd met de naam Marketing Department.</span><span class="sxs-lookup"><span data-stu-id="17f51-535">This example removes the spam filter policy named Marketing Department.</span></span>
+
+```PowerShell
+Remove-HostedContentFilterPolicy -Identity "Marketing Department"
+```
+
+<span data-ttu-id="17f51-536">Zie [Remove-HostedContentFilterPolicy](/powershell/module/exchange/remove-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-536">For detailed syntax and parameter information, see [Remove-HostedContentFilterPolicy](/powershell/module/exchange/remove-hostedcontentfilterpolicy).</span></span>
+
+### <a name="use-powershell-to-remove-spam-filter-rules"></a><span data-ttu-id="17f51-537">PowerShell gebruiken om spamfilterregels te verwijderen</span><span class="sxs-lookup"><span data-stu-id="17f51-537">Use PowerShell to remove spam filter rules</span></span>
+
+<span data-ttu-id="17f51-538">Wanneer u PowerShell gebruikt om een spamfilterregel te verwijderen, wordt het bijbehorende spamfilterbeleid niet verwijderd.</span><span class="sxs-lookup"><span data-stu-id="17f51-538">When you use PowerShell to remove a spam filter rule, the corresponding spam filter policy isn't removed.</span></span>
+
+<span data-ttu-id="17f51-539">Gebruik deze syntaxis om een spamfilterregel in PowerShell te verwijderen:</span><span class="sxs-lookup"><span data-stu-id="17f51-539">To remove a spam filter rule in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+Remove-HostedContentFilterRule -Identity "<PolicyName>"
+```
+
+<span data-ttu-id="17f51-540">In dit voorbeeld wordt de spamfilterregel verwijderd met de naam Marketing Department.</span><span class="sxs-lookup"><span data-stu-id="17f51-540">This example removes the spam filter rule named Marketing Department.</span></span>
+
+```PowerShell
+Remove-HostedContentFilterRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="17f51-541">Zie [Remove-HostedContentFilterRule](/powershell/module/exchange/remove-hostedcontentfilterrule) voor gedetailleerde syntaxis- en parameterinformatie.</span><span class="sxs-lookup"><span data-stu-id="17f51-541">For detailed syntax and parameter information, see [Remove-HostedContentFilterRule](/powershell/module/exchange/remove-hostedcontentfilterrule).</span></span>
+
+## <a name="how-do-you-know-these-procedures-worked"></a><span data-ttu-id="17f51-542">Hoe weet ik of deze procedures zijn geslaagd?</span><span class="sxs-lookup"><span data-stu-id="17f51-542">How do you know these procedures worked?</span></span>
+
+### <a name="send-a-gtube-message-to-test-your-spam-policy-settings"></a><span data-ttu-id="17f51-543">Een GTUBE-bericht zenden om de instellingen van uw spambeleid te testen</span><span class="sxs-lookup"><span data-stu-id="17f51-543">Send a GTUBE message to test your spam policy settings</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="17f51-544">Deze stappen werken alleen als het e-mailbedrijf waarvandaan u het GTUBE-bericht stuurt, niet scant op uitgaande spam.</span><span class="sxs-lookup"><span data-stu-id="17f51-544">These steps will only work if the email organization that you're sending the GTUBE message from doesn't scan for outbound spam.</span></span> <span data-ttu-id="17f51-545">Als het bedrijf dat wel doet, kan het testbericht niet worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="17f51-545">If it does, the test message can't be sent.</span></span>
+
+<span data-ttu-id="17f51-546">GTUBE (Generic Test for Unsolicited Bulk Email) is een tekenreeks die u opneemt in een testbericht om de antispaminstellingen van uw bedrijf te verifiëren.</span><span class="sxs-lookup"><span data-stu-id="17f51-546">Generic Test for Unsolicited Bulk Email (GTUBE) is a text string that you include in a test message to verify your organization's anti-spam settings.</span></span> <span data-ttu-id="17f51-547">Een GTUBE-bericht is vergelijkbaar met het EICAR-tekstbestand (European Institute for Computer Antivirus Research) voor het testen van malware-instellingen.</span><span class="sxs-lookup"><span data-stu-id="17f51-547">A GTUBE message is similar to the European Institute for Computer Antivirus Research (EICAR) text file for testing malware settings.</span></span>
+
+<span data-ttu-id="17f51-548">Neem de volgende GTUBE-tekst op in een e-mailbericht op één regel zonder spaties of regeleinden:</span><span class="sxs-lookup"><span data-stu-id="17f51-548">Include the following GTUBE text in an email message on a single line, without any spaces or line breaks:</span></span>
+
+```text
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+```
+
+## <a name="allowblock-lists"></a><span data-ttu-id="17f51-549">Lijsten toestaan/blokkeren</span><span class="sxs-lookup"><span data-stu-id="17f51-549">Allow/Block Lists</span></span>
+
+<span data-ttu-id="17f51-550">Er zijn momenten waarop de filters het bericht missen of het duurt even voor de systemen helemaal bijgewerkt zijn.</span><span class="sxs-lookup"><span data-stu-id="17f51-550">There will be times when our filters will miss the message or it takes time for our systems to catch up to it.</span></span> <span data-ttu-id="17f51-551">In die gevallen heeft het antispambeleid een lijst Toestaan en een lijst Blokkeren beschikbaar om de huidige beoordeling te negeren.</span><span class="sxs-lookup"><span data-stu-id="17f51-551">In this cases, the anti-spam policy has an Allow and a Block list available to override the current verdict.</span></span> <span data-ttu-id="17f51-552">Deze optie moet spaarzaam en tijdelijk worden gebruikt, omdat de lijsten onbeheerbaar kunnen worden, omdat de filterstack moet doen waarvoor die is ingesteld.</span><span class="sxs-lookup"><span data-stu-id="17f51-552">This option should only be used sparingly since lists can become unmanageable and temporarily since our filtering stack should be doing what it is supposed to be doing.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="17f51-553">Er kunnen situaties zijn waar uw bedrijf het niet eens is met de beoordeling die de service aflevert.</span><span class="sxs-lookup"><span data-stu-id="17f51-553">There may be situations where your organization may not agree with the verdict the service provides.</span></span> <span data-ttu-id="17f51-554">In dat geval wilt u mogelijk de lijsten Toestaan en Blokkeren permanent behouden.</span><span class="sxs-lookup"><span data-stu-id="17f51-554">In this case, you may want to keep the Allow or Block listing permanent.</span></span> <span data-ttu-id="17f51-555">Als u echter een domein voor een langere periode op de lijst Toestaan plaatst, moet u dat de afzender laten weten om zeker te weten dat het domein is geverifieerd en instellen op DMARC als dat niet zo is.</span><span class="sxs-lookup"><span data-stu-id="17f51-555">However, if you are going to put a domain on the Allow list for extended periods of time, you should tell the sender to make sure that their domain is authenticated and set to DMARC reject if it is not.</span></span>
