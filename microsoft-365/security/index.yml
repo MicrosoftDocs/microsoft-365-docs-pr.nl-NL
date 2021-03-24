@@ -3,7 +3,7 @@ title: Documentatie over Microsoft 365-beveiliging
 summary: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw onderneming beter kunt beveiligen op meerdere fronten.
 metadata:
   title: Documentatie over Microsoft 365-beveiliging
-  description: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw onderneming beter kunt beveiligen op meerdere fronten
+  description: 'Lees meer over Microsoft Defender voor Eindpunt: hoe het eindpunten beschermt tegen cyberbedreigingen en beveiligingsteams levert met capaciteiten om bedreigingen te herstellen.'
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -11,34 +11,34 @@ metadata:
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
-  ms.date: 09/13/2019
+  ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: 6a670287c98d185e4b9acfeb39715c5e1ddf177a
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: 7d8ccae1b9185beacef027e6e0c73db2a1fdd017
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50928974"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51052408"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
     - text: Wat is Microsoft 365 Defender?
-      url: mtp/microsoft-threat-protection.md
+      url: defender/microsoft-365-defender.md
     - text: Microsoft 365-beveiligingscentrum
-      url: mtp/overview-security-center.md
+      url: defender/overview-security-center.md
 - title: Begin met gratis proefversies
   linkLists:
-  - linkListType: overview
+  - linkListType: get-started
     links:
     - text: Microsoft 365 Defender evalueren
-      url: mtp/mtp-evaluation.md
+      url: defender/m365d-evaluation.md
     - text: Proefversie van Microsoft 365 Defender pilootplaybook
-      url: mtp/mtp-pilot.md
+      url: defender/m365d-pilot.md
 - title: Uw externe werknemers beveiligen
   linkLists:
-  - linkListType: get-started
+  - linkListType: how-to-guide
     links:
     - text: Uw externe werknemers beveiligen
       url: /enterprise-mobility-security/remote-work/
@@ -55,10 +55,10 @@ landingContent:
   - linkListType: overview
     links:
     - text: Wat is Defender voor Office 365?
-      url: office-365-security/office-365-atp.md
+      url: defender-365-security/defender-for-office-365.md
     - text: Beschrijving van Defender voor Office 365-service
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Defender voor Eindpunt
+- title: Microsoft Defender voor Eindpunt
   linkLists:
   - linkListType: overview
     links:
@@ -87,7 +87,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: Veiligheidsscore
-      url: mtp/microsoft-secure-score.md
+      url: defender/microsoft-secure-score.md
 - title: Azure Sentinel
   linkLists:
   - linkListType: overview
