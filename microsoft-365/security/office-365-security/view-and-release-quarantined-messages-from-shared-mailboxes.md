@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Gebruikers kunnen leren hoe ze in quarantaine geplaatste berichten kunnen bekijken en handelen die zijn verzonden naar gedeelde postvakken waar ze machtigingen voor hebben.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9490a9d5b2b4191d6c039be2758e2e0ba0c981cd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6e3bf4c84e7a762f7f54f42ff61f0fbdb9dc1edd
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204512"
+ms.locfileid: "51215502"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>In quarantaine geplaatste berichten uit gedeelde postvakken weergeven en vrijgeven
 
@@ -50,6 +50,8 @@ Ongeacht de methode kunnen gebruikers verwarring voorkomen door de kolom **Geadr
 - De eerste gebruiker die het bericht in quarantaine heeft geplaatst, bepaalt het lot van het bericht voor iedereen die het gedeelde postvak gebruikt. Als een gedeeld postvak bijvoorbeeld wordt gebruikt door tien gebruikers en een gebruiker besluit het quarantainebericht te verwijderen, wordt het bericht voor alle tien gebruikers verwijderd. Als een gebruiker besluit het bericht vrij te geven, wordt het bericht ook uitgebracht in het gedeelde postvak en is het toegankelijk voor alle andere gebruikers van het gedeelde postvak.
 
 - Momenteel is de **knop Afzender blokkeren** niet beschikbaar in de flyout **Details** voor berichten in quarantaine die naar het gedeelde postvak zijn verzonden.
+
+- Als u geneste beveiligingsgroepen gebruikt om toegang te verlenen tot een gedeeld postvak, raden we ten aanzien van quarantainebewerkingen voor gedeelde postvakken niet meer dan twee niveaus van geneste groepen aan. Groep A is bijvoorbeeld lid van groep B, dat lid is van groep C. Als u machtigingen wilt toewijzen aan een gedeeld postvak, voegt u de gebruiker niet toe aan Groep A en wijst u vervolgens Groep C toe aan het gedeelde postvak.  
 
 - Als u in quarantaine geplaatste berichten voor het gedeelde postvak in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)wilt beheren, moet de eindgebruiker de [cmdlet Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) gebruiken met een gedeeld e-mailadres voor het postvak voor de waarde van de _parameter RecipientAddress_ om de berichten te identificeren. Bijvoorbeeld:
 
