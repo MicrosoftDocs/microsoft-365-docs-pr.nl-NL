@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Samenvatting: Inzicht in de migratiefasen en de gevolgen van de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 5e1bf9257cfd4751333e2e01789bb7dbaf2685fa
-ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
+ms.openlocfilehash: 53a8c9470093db9d57d8dc18f4242d1a596c6efd
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "50939633"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165631"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>Acties en effecten van migratiefasen voor de migratie vanuit Microsoft Cloud Deutschland (algemeen)
 
@@ -62,7 +62,7 @@ De volgende secties bevatten acties en effecten voor werkbelastingen terwijl ze 
 
 ## <a name="before-the-migration-starts"></a>Voordat de migratie begint
 
-Zorg ervoor dat u bekend bent met de migratievoorbereidingsstappen die van toepassing zijn [op alle klanten.](ms-cloud-germany-transition-add-pre-work.md#applies-to-everyone)
+Zorg ervoor dat u bekend bent met de [migratievoorbereidingsstappen die van toepassing zijn op alle klanten.](ms-cloud-germany-transition-add-pre-work.md)
 
 Als u een DNS CNAME met de naam _msoid_ hebt ingesteld in een of meer DNS-naamruimten die u bezit, moet u de CNAME uiterlijk tot het einde van fase 8 verwijderen. U kunt de _CNAME-msoid op elk_ moment vóór het einde van fase 8 verwijderen. Zie de [prework voor DNS](ms-cloud-germany-transition-add-pre-work.md#dns).
 
@@ -111,7 +111,7 @@ Als u hybride Exchange Online gebruikt: Hybride beheerders van Exchange Online m
 
 Nadat de migratiefase **9** is voltooid (wanneer de berichtmelding van het Berichtencentrum wordt gepubliceerd), moet u de HCW opnieuw uitvoeren met office 365 Worldwide-instellingen om uw on-premises systemen aan te wijzen op de globale Office 365-services.
 
-Zie [Set-UserPhoto](ms-cloud-germany-transition-add-experience.md#exchange-online-before-phase-5) als u gebruikersfoto's wilt wijzigen in fase 5
+Zie Exchange Online-Set-UserPhoto tijdens fase 5 als u [gebruikersfoto's](ms-cloud-germany-transition-add-experience.md#exchange-online-set-userphoto-during-phase-5) wilt wijzigen
 
 | Stap(en) | Beschrijving | Gevolg |
 |:-------|:-------|:-------|
@@ -211,11 +211,11 @@ Klanten met Dynamics 365 hebben extra betrokkenheid nodig om de Dynamics-organis
 
 Office 365-tenants die overstappen op de regio 'Duitsland' vereisen dat alle gebruikers zich moeten sluiten, zich moeten aanmelden bij Office 365 en zich opnieuw moeten aanmelden voor alle Office-bureaubladtoepassingen (Word, Excel, PowerPoint, Outlook, enzovoort) en OneDrive voor Bedrijven-client nadat de tenantmigratie fase 9 heeft bereikt. Door u af te melden en aan te melden, kunnen de Office-services nieuwe verificatietokens verkrijgen bij de globale Azure AD-service.
 
-Zorg ervoor dat u het [prework voor](ms-cloud-germany-transition-add-pre-work.md#mobile) mobiele apparaten hebt voltooid.
+Zorg ervoor dat u het [prework voor](ms-cloud-germany-transition-add-pre-work.md#mobile-device-management) mobiele apparaten hebt voltooid.
 
 | Stap(en) | Beschrijving | Gevolg |
 |:-------|:-------|:-------|
-| Clients, Office Online tijdens office-client cutover, Azure AD rondt het tenantbereik af om te wijzen naar de Office 365-services. | Met deze configuratiewijziging kunnen Office-clients de eindpunten van office 365-services bijwerken en erop wijzen. | <ul><li>Laat gebruikers weten dat ze _alle_ Office-apps moeten sluiten en zich vervolgens opnieuw moeten aanmelden (of klanten moeten dwingen opnieuw te starten en gebruikers zich moeten aanmelden) zodat Office-clients de wijziging kunnen oppikken. </li><li>Laat gebruikers en helpdeskmedewerkers  weten dat gebruikers mogelijk een Office-banner zien die hen vraagt om Office-apps binnen 72 uur na de cutover opnieuw te activeren. </li><li>Alle Office-toepassingen op persoonlijke machines moeten worden gesloten en gebruikers moeten zich aanmelden en zich opnieuw aanmelden. Meld u op de activeringsbalk Geel aan om opnieuw te activeren voor Office 365-services.</li><li>Gedeelde machines vereisen acties die lijken op persoonlijke machines en waarvoor geen speciale procedure is vereist. </li><li>Op mobiele apparaten moeten gebruikers zich aanmelden bij apps, sluiten en zich opnieuw aanmelden. </li></ul>|
+| Clients, Office Online tijdens office-client cutover, Azure AD rondt het tenantbereik af om te wijzen naar de Office 365-services. | Met deze configuratiewijziging kunnen Office-clients de eindpunten van office 365-services bijwerken en erop wijzen. | <ul><li>Laat gebruikers weten dat ze _alle_ Office-apps moeten sluiten en zich vervolgens opnieuw moeten aanmelden (of klanten moeten dwingen opnieuw te starten en gebruikers zich moeten aanmelden) zodat Office-clients de wijziging kunnen oppikken. </li><li>Laat gebruikers en helpdeskmedewerkers  weten dat gebruikers mogelijk een Office-banner zien die hen vraagt om Office-apps binnen 72 uur na de cutover opnieuw te activeren. </li><li>Alle Office-toepassingen op persoonlijke machines moeten worden gesloten en gebruikers moeten zich aanmelden en zich opnieuw aanmelden. Meld u op de activeringsbalk Geel aan om opnieuw te activeren voor Office 365-services.</li><li>Gedeelde machines vereisen acties die lijken op persoonlijke machines en waarvoor geen speciale procedure is vereist. </li><li>Op mobiele apparaten moeten gebruikers zich aanmelden bij apps, sluiten en zich opnieuw aanmelden.</li></ul>|
 ||||
 
 ## <a name="line-of-business-apps"></a>Line-of-business-apps

@@ -22,23 +22,23 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/02/2021
-ms.openlocfilehash: c11d9cd1ce4c2ca49315ec62b51c23ef981555f4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b66640736e9dc3835919e39d482b2d38b0c9dcc7
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059925"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183679"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
 **Van toepassing op:**
-- Microsoft Defender for Endpoint
+- Microsoft Defender voor Eindpunt
 
 Wanneer een geautomatiseerd onderzoek wordt [](automated-investigations.md) uitgevoerd met Microsoft Defender for Endpoint, zijn details over dat onderzoek beschikbaar, zowel tijdens als na het geautomatiseerde onderzoeksproces. Als u de benodigde machtigingen hebt, kunt u deze details bekijken in een weergave met onderzoeksdetails. De weergave onderzoeksdetails biedt u de actuele status en de mogelijkheid om eventuele in behandeling zijnde acties goed te keuren. 
 
 ## <a name="new-unified-investigation-page"></a>(NIEUW!) Geïntegreerde onderzoekspagina
 
-De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](microsoft-defender-advanced-threat-protection.md) voor Eindpunt en Microsoft Defender voor [Office 365.](/microsoft-365/security/defender-365-security/office-365-atp) 
+De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](microsoft-defender-endpoint.md) voor Eindpunt en Microsoft Defender voor [Office 365.](/microsoft-365/security/defender-365-security/office-365-atp) 
 
 > [!TIP]
 > Zie (NIEUW!) voor meer informatie over wat er [verandert. Geïntegreerde onderzoekspagina](/microsoft-365/security/mtp/mtp-autoir-results).

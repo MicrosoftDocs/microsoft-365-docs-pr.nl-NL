@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 104548314b8ef0ceb15d8d2683dad552233a509f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4ecd2df31e1e03da5134d3d4180dcba75d3cee26
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058697"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183835"
 ---
 # <a name="threat-protection-report-in-microsoft-defender-for-endpoint"></a>Rapport bedreigingsbeveiliging in Microsoft Defender voor Eindpunt
 
@@ -29,7 +29,7 @@ ms.locfileid: "51058697"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -96,5 +96,5 @@ Als u bijvoorbeeld alleen gegevens wilt weergeven over waarschuwingen met hoge e
 2. Zorg ervoor dat alle andere opties onder **Ernst** worden uitgeschakeld.
 3. Selecteer **Toepassen.** 
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="related-topic"></a>Verwant onderwerp
 - [Rapport apparaattoestand en naleving](machine-reports.md)

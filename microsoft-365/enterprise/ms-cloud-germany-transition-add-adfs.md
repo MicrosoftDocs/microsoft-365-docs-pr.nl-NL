@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Ad FS-migratiestappen (Active Directory Federation Services) voor de migratie vanuit Microsoft Cloud Deutschland.'
-ms.openlocfilehash: 146f476a43e46925d87763a800467bf52adc73e5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 12465acf5b4afe7e252586ddd076250628b57dd3
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918904"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165655"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>AD FS-migratiestappen voor de migratie van Microsoft Cloud Deutschland
 
@@ -59,11 +59,11 @@ Nadat u de AD FS-back-up hebt voltooid en getest, voert u de volgende stappen ui
 
 8. Voor AD FS 2012: In de autorisatieregels voor uitgifte kiezen blijven alle gebruikers toegang verlenen tot deze afhankelijke **partij** geselecteerd en klikt u op **Volgende.** 
 
-8. Voor AD FS 2016 en AD FS 2019: Selecteer op de pagina **Beleid** voor toegangsbeheer kiezen het juiste toegangsbeleid en klik op **Volgende**. Als er geen is gekozen, werkt het vertrouwen van de afhankelijke partij **NIET.**
+9. Voor AD FS 2016 en AD FS 2019: Selecteer op de pagina **Beleid** voor toegangsbeheer kiezen het juiste toegangsbeleid en klik op **Volgende**. Als er geen is gekozen, werkt het vertrouwen van de afhankelijke partij **NIET.**
 
-9. Klik **op Volgende** op de pagina Vertrouwen **toevoegen** om de wizard te voltooien.
+10. Klik **op Volgende** op de pagina Vertrouwen **toevoegen** om de wizard te voltooien.
 
-10. Klik **op Sluiten** op de **pagina** Voltooien.
+11. Klik **op Sluiten** op de **pagina** Voltooien.
 
 Als u de wizard sluit, wordt de vertrouwensrelatie van relying party met de globale office 365-service ingesteld. Er zijn echter nog geen regels voor uitgiftetransformator geconfigureerd.
 
@@ -74,7 +74,19 @@ U kunt [AD FS Help gebruiken om](https://adfshelp.microsoft.com/AadTrustClaims/C
 
 1. Voer **De Help Voor** het genereren van claims  op [AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) uit en kopieer het PowerShell-script met de optie Kopiëren in de rechterbovenhoek van het script.
 
-2. Volg de stappen die worden beschreven bij [AD FS Help](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) over het uitvoeren van het PowerShell-script in uw AD FS-farm om het globale vertrouwen van afhankelijke partijen te genereren.
+2. Volg de stappen die worden beschreven bij [AD FS Help](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) over het uitvoeren van het PowerShell-script in uw AD FS-farm om het globale vertrouwen van afhankelijke partijen te genereren. Voordat u het script gaat uitvoeren, vervangt u de volgende coderegels in het gegenereerde script, zoals hieronder wordt beschreven:
+
+   ```powershell
+   # AD FS Help generated value
+   $claims = Get-AdfsRelyingPartyTrust -Identifier $(Get-RpIdentifier) | Select-Object IssuanceTransformRules;
+   # replace with
+   $claims = Get-AdfsRelyingPartyTrust -Identifier urn:federation:MicrosoftOnline | Select-Object IssuanceTransformRules;
+
+   # AD FS Help generated value
+   Set-AdfsRelyingPartyTrust -TargetIdentifier $(Get-RpIdentifier) -IssuanceTransformRules $RuleSet.ClaimRulesString;
+   # replace with
+   Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:MicrosoftOnline -IssuanceTransformRules $RuleSet.ClaimRulesString;
+   ```
 
 3. Controleer of er twee Relying PartyTtrusts aanwezig zijn. een voor Microsoft Cloud Deutschland en een voor de Globale Office 365-service. De volgende opdracht kan worden gebruikt voor de controle. Het moet twee rijen en de respectievelijke namen en id's retourneren.
 
@@ -86,9 +98,7 @@ U kunt [AD FS Help gebruiken om](https://adfshelp.microsoft.com/AadTrustClaims/C
 
 5. Terwijl uw tenant bezig is met migratie, controleert u regelmatig of AD FS-verificatie werkt met Microsoft Cloud Deutschland en Microsoft Global cloud in de verschillende ondersteunde migratiestappen.
 
-
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>AD FS Disaster Recovery (WID Database)
-
 
 Als u de AD FS-farm wilt herstellen in een [ramp, moet ad FS Rapid Restore Tool](/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) worden gebruikt. Daarom moet het hulpprogramma worden gedownload en moet vóór het begin van de migratie een back-up worden gemaakt en veilig worden opgeslagen. In dit voorbeeld zijn de volgende opdrachten uitgevoerd om een back-up te maken van een farm die wordt uitgevoerd in een WID-database:
 
@@ -112,7 +122,6 @@ Als u de AD FS-farm wilt herstellen in een [ramp, moet ad FS Rapid Restore Tool]
 
 4. Sla de back-up veilig op een gewenste bestemming op.
 
-
 ### <a name="restore-an-ad-fs-farm"></a>Een AD FS-farm herstellen
 
 Als uw farm volledig is mislukt en er geen manier is om terug te keren naar de oude farm, gaat u als volgt te werk. 
@@ -126,7 +135,6 @@ Als uw farm volledig is mislukt en er geen manier is om terug te keren naar de o
    ```
 
 3. Wijs uw nieuwe DNS-records of load balancer naar de nieuwe AD FS-servers.
-
 
 ## <a name="more-information"></a>Meer informatie
 

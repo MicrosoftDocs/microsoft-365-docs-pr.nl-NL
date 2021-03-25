@@ -22,18 +22,18 @@ ms.topic: conceptual
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 6cab09547501da9b533c49b7096389e13dbf1f87
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35f1ce4bccbf2229106ef4b8417a44fe7c37cde5
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056686"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183703"
 ---
 # <a name="migrate-from-symantec-to-microsoft-defender-for-endpoint"></a>Migreren van Symantec naar Microsoft Defender voor Eindpunt
 Als u van plan bent om over te schakelen van De beveiliging van Het eindpunt van Symantec (Symantec) naar [Microsoft Defender voor](https://docs.microsoft.com/windows/security/threat-protection) Eindpunt (Microsoft Defender voor Eindpunt), bent u op de juiste plaats. Gebruik dit artikel als handleiding.
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 :::image type="content" source="images/symantec-mde-migration.png" alt-text="Overzicht van migreren van Symantec naar Defender voor Eindpunt":::
