@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-beheercentrum : meer informatie over de functies
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 833f782e071e06d837ca5eacfcb72e2d6e16c8fb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b670c6a333485bc3a19ae14b8e7c71f08181cac5
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913932"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215574"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365-beheercentrum
 
@@ -48,6 +48,7 @@ En als u wilt weten wat er nieuw is met andere Microsoft-cloudservices:
 - [Wat is er nieuw in Microsoft 365 Defender](../security/mtp/whats-new.md)
 - [Nieuwe functies in het SharePoint-beheercentrum](/sharepoint/what-s-new-in-admin-center)
 - [Office-updates](/OfficeUpdates/)
+- [Status van Windows-release controleren](https://docs.microsoft.com/windows/deployment/update/check-release-health)
 
 ## <a name="ignite-2021-march"></a>Ignite 2021 (maart)
 
@@ -237,7 +238,7 @@ Zie Over beheerdersrollen voor meer informatie [over deze rollen.](./add-users/a
 
 We hebben van veel beheerders gehoord dat ze informatie over groepen en hun gebruik moeten delen met personen die geen toegang hebben tot de beheercentra. U kunt nu de lijst Groepen exporteren naar een CSV-bestand voor controledoeleinden, wat betekent dat u dat oude PowerShell-script kunt verwijderen. Als u het wilt uitproberen, gaat u naar  >  **Groepengroepen** en selecteert u **Vervolgens Groepen exporteren** op de opdrachtbalk.
 
-### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossingen- en -architectuurcentrum
+### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossings- en architectuurcentrum
 
 Deze maand hebben we een nieuwe site uitgebracht op het [https://docs.microsoft.com]() [Microsoft 365-oplossings-](../solutions/index.yml)en architectuurcentrum, waarin de technische richtlijnen worden samen gebracht die u nodig hebt om geïntegreerde Microsoft 365-oplossingen te begrijpen, plannen en implementeren voor veilige en compatibele samenwerking. In dit centrum vindt u het volgende:
 
