@@ -18,35 +18,35 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ee6f34a16c4c924bbc73af89029c529dfc766568
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bdd5c6309a19863339b00e846c1c2670fc4f261b
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058298"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51187599"
 ---
-# <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-for-mac"></a><span data-ttu-id="08db5-104">Problemen met kernelextensie oplossen in Microsoft Defender voor Eindpunt voor Mac</span><span class="sxs-lookup"><span data-stu-id="08db5-104">Troubleshoot kernel extension issues in Microsoft Defender for Endpoint for Mac</span></span>
+# <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-for-mac"></a><span data-ttu-id="bc5ec-104">Problemen met kernelextensie oplossen in Microsoft Defender voor Eindpunt voor Mac</span><span class="sxs-lookup"><span data-stu-id="bc5ec-104">Troubleshoot kernel extension issues in Microsoft Defender for Endpoint for Mac</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="08db5-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="08db5-105">**Applies to:**</span></span>
+<span data-ttu-id="bc5ec-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="bc5ec-105">**Applies to:**</span></span>
 
-- [<span data-ttu-id="08db5-106">Microsoft Defender voor Eindpunt voor Mac</span><span class="sxs-lookup"><span data-stu-id="08db5-106">Microsoft Defender for Endpoint for Mac</span></span>](microsoft-defender-endpoint-mac.md)
-- [<span data-ttu-id="08db5-107">Microsoft Defender voor Endpoint</span><span class="sxs-lookup"><span data-stu-id="08db5-107">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2146631)
-- [<span data-ttu-id="08db5-108">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="08db5-108">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [<span data-ttu-id="bc5ec-106">Microsoft Defender voor Eindpunt voor Mac</span><span class="sxs-lookup"><span data-stu-id="bc5ec-106">Microsoft Defender for Endpoint for Mac</span></span>](microsoft-defender-endpoint-mac.md)
+- [<span data-ttu-id="bc5ec-107">Microsoft Defender voor Endpoint</span><span class="sxs-lookup"><span data-stu-id="bc5ec-107">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="bc5ec-108">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="bc5ec-108">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="08db5-109">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="08db5-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="08db5-110">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="08db5-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> <span data-ttu-id="bc5ec-109">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="bc5ec-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="bc5ec-110">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-<span data-ttu-id="08db5-111">In dit artikel vindt u informatie over het oplossen van problemen met de kernelextensie die is geïnstalleerd als onderdeel van Microsoft Defender voor Eindpunt voor Mac.</span><span class="sxs-lookup"><span data-stu-id="08db5-111">This article provides information on how to troubleshoot issues with the kernel extension that is installed as part of Microsoft Defender for Endpoint for Mac.</span></span>
+<span data-ttu-id="bc5ec-111">In dit artikel vindt u informatie over het oplossen van problemen met de kernelextensie die is geïnstalleerd als onderdeel van Microsoft Defender voor Eindpunt voor Mac.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-111">This article provides information on how to troubleshoot issues with the kernel extension that is installed as part of Microsoft Defender for Endpoint for Mac.</span></span>
 
-<span data-ttu-id="08db5-112">Vanaf macOS High Sierra (10.13) moeten alle kernelextensies expliciet worden goedgekeurd voordat ze op het apparaat mogen worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="08db5-112">Starting with macOS High Sierra (10.13), macOS requires all kernel extensions to be explicitly approved before they are allowed to run on the device.</span></span>
+<span data-ttu-id="bc5ec-112">Vanaf macOS High Sierra (10.13) moeten alle kernelextensies expliciet worden goedgekeurd voordat ze op het apparaat mogen worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-112">Starting with macOS High Sierra (10.13), macOS requires all kernel extensions to be explicitly approved before they are allowed to run on the device.</span></span>
 
-<span data-ttu-id="08db5-113">Als u de kernelextensie niet hebt goedgekeurd tijdens de implementatie/installatie van Microsoft Defender voor Eindpunt voor Mac, wordt in de toepassing een banner weergegeven waarin u wordt gevraagd deze in te stellen:</span><span class="sxs-lookup"><span data-stu-id="08db5-113">If you did not approve the kernel extension during the deployment/installation of Microsoft Defender for Endpoint for Mac, the application displays a banner prompting you to enable it:</span></span>
+<span data-ttu-id="bc5ec-113">Als u de kernelextensie niet hebt goedgekeurd tijdens de implementatie/installatie van Microsoft Defender voor Eindpunt voor Mac, wordt in de toepassing een banner weergegeven waarin u wordt gevraagd deze in te stellen:</span><span class="sxs-lookup"><span data-stu-id="bc5ec-113">If you did not approve the kernel extension during the deployment/installation of Microsoft Defender for Endpoint for Mac, the application displays a banner prompting you to enable it:</span></span>
 
    ![Schermafbeelding van RTP uitgeschakeld](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-32-main-app-fix)
 
-<span data-ttu-id="08db5-115">U kunt ook ```mdatp health``` uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="08db5-115">You can also run ```mdatp health```.</span></span> <span data-ttu-id="08db5-116">Er wordt melding gemaakt als realtimebeveiliging is ingeschakeld, maar niet beschikbaar is.</span><span class="sxs-lookup"><span data-stu-id="08db5-116">It reports if real-time protection is enabled but not available.</span></span> <span data-ttu-id="08db5-117">Dit geeft aan dat de kernelextensie niet is goedgekeurd voor gebruik op uw apparaat.</span><span class="sxs-lookup"><span data-stu-id="08db5-117">This indicates that the kernel extension is not approved to run on your device.</span></span>
+<span data-ttu-id="bc5ec-115">U kunt ook ```mdatp health``` uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-115">You can also run ```mdatp health```.</span></span> <span data-ttu-id="bc5ec-116">Er wordt melding gemaakt als realtimebeveiliging is ingeschakeld, maar niet beschikbaar is.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-116">It reports if real-time protection is enabled but not available.</span></span> <span data-ttu-id="bc5ec-117">Dit geeft aan dat de kernelextensie niet is goedgekeurd voor gebruik op uw apparaat.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-117">This indicates that the kernel extension is not approved to run on your device.</span></span>
 
 ```bash
 mdatp health
@@ -58,26 +58,26 @@ real_time_protection_available              : true
 ...
 ```
 
-<span data-ttu-id="08db5-118">In de volgende secties vindt u richtlijnen voor het oplossen van dit probleem, afhankelijk van de methode die u hebt gebruikt om Microsoft Defender voor Eindpunt voor Mac te implementeren.</span><span class="sxs-lookup"><span data-stu-id="08db5-118">The following sections provide guidance on how to address this issue, depending on the method that you used to deploy Microsoft Defender for Endpoint for Mac.</span></span>
+<span data-ttu-id="bc5ec-118">In de volgende secties vindt u richtlijnen voor het oplossen van dit probleem, afhankelijk van de methode die u hebt gebruikt om Microsoft Defender voor Eindpunt voor Mac te implementeren.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-118">The following sections provide guidance on how to address this issue, depending on the method that you used to deploy Microsoft Defender for Endpoint for Mac.</span></span>
 
-## <a name="managed-deployment"></a><span data-ttu-id="08db5-119">Beheerde implementatie</span><span class="sxs-lookup"><span data-stu-id="08db5-119">Managed deployment</span></span>
+## <a name="managed-deployment"></a><span data-ttu-id="bc5ec-119">Beheerde implementatie</span><span class="sxs-lookup"><span data-stu-id="bc5ec-119">Managed deployment</span></span>
 
-<span data-ttu-id="08db5-120">Zie de instructies die overeenkomen met het beheerprogramma dat u hebt gebruikt om het product te implementeren:</span><span class="sxs-lookup"><span data-stu-id="08db5-120">See the instructions corresponding to the management tool that you used to deploy the product:</span></span>
+<span data-ttu-id="bc5ec-120">Zie de instructies die overeenkomen met het beheerprogramma dat u hebt gebruikt om het product te implementeren:</span><span class="sxs-lookup"><span data-stu-id="bc5ec-120">See the instructions corresponding to the management tool that you used to deploy the product:</span></span>
 
-- [<span data-ttu-id="08db5-121">IMPLEMENTATIE OP BASIS VAN JAMF</span><span class="sxs-lookup"><span data-stu-id="08db5-121">JAMF-based deployment</span></span>](mac-install-with-jamf.md)
-- [<span data-ttu-id="08db5-122">Microsoft Intune-implementatie</span><span class="sxs-lookup"><span data-stu-id="08db5-122">Microsoft Intune-based deployment</span></span>](mac-install-with-intune.md#create-system-configuration-profiles)
+- [<span data-ttu-id="bc5ec-121">IMPLEMENTATIE OP BASIS VAN JAMF</span><span class="sxs-lookup"><span data-stu-id="bc5ec-121">JAMF-based deployment</span></span>](mac-install-with-jamf.md)
+- [<span data-ttu-id="bc5ec-122">Microsoft Intune-implementatie</span><span class="sxs-lookup"><span data-stu-id="bc5ec-122">Microsoft Intune-based deployment</span></span>](mac-install-with-intune.md#create-system-configuration-profiles)
 
-## <a name="manual-deployment"></a><span data-ttu-id="08db5-123">Handmatige implementatie</span><span class="sxs-lookup"><span data-stu-id="08db5-123">Manual deployment</span></span>
+## <a name="manual-deployment"></a><span data-ttu-id="bc5ec-123">Handmatige implementatie</span><span class="sxs-lookup"><span data-stu-id="bc5ec-123">Manual deployment</span></span>
 
-<span data-ttu-id="08db5-124">Als er minder dan 30 minuten zijn verstreken sinds het product is geïnstalleerd, gaat u naar Systeemvoorkeuren Beveiliging & Privacy, waar u systeemsoftware van ontwikkelaars   >  'Microsoft **Corporation'** moet toestaan. </span><span class="sxs-lookup"><span data-stu-id="08db5-124">If less than 30 minutes have passed since the product was installed, navigate to **System Preferences** > **Security & Privacy**, where you have to **Allow** system software from developers "Microsoft Corporation".</span></span>
+<span data-ttu-id="bc5ec-124">Als er minder dan 30 minuten zijn verstreken sinds het product is geïnstalleerd, gaat u naar Systeemvoorkeuren Beveiliging & Privacy, waar u systeemsoftware van ontwikkelaars   >  'Microsoft **Corporation'** moet toestaan. </span><span class="sxs-lookup"><span data-stu-id="bc5ec-124">If less than 30 minutes have passed since the product was installed, navigate to **System Preferences** > **Security & Privacy**, where you have to **Allow** system software from developers "Microsoft Corporation".</span></span>
 
-<span data-ttu-id="08db5-125">Als u deze prompt niet ziet, betekent dit dat er 30 of meer minuten zijn verstreken en dat de kernelextensie nog steeds niet is goedgekeurd voor gebruik op uw apparaat:</span><span class="sxs-lookup"><span data-stu-id="08db5-125">If you don't see this prompt, it means that 30 or more minutes have passed, and the kernel extension still not been approved to run on your device:</span></span>
+<span data-ttu-id="bc5ec-125">Als u deze prompt niet ziet, betekent dit dat er 30 of meer minuten zijn verstreken en dat de kernelextensie nog steeds niet is goedgekeurd voor gebruik op uw apparaat:</span><span class="sxs-lookup"><span data-stu-id="bc5ec-125">If you don't see this prompt, it means that 30 or more minutes have passed, and the kernel extension still not been approved to run on your device:</span></span>
 
 ![Beveiligings- en privacyvenster na prompt verlopen schermafbeelding](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-33-securityprivacysettings-noprompt)
 
-<span data-ttu-id="08db5-127">In dit geval moet u de volgende stappen uitvoeren om de goedkeuringsstroom opnieuw te activeren.</span><span class="sxs-lookup"><span data-stu-id="08db5-127">In this case, you need to perform the following steps to trigger the approval flow again.</span></span>
+<span data-ttu-id="bc5ec-127">In dit geval moet u de volgende stappen uitvoeren om de goedkeuringsstroom opnieuw te activeren.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-127">In this case, you need to perform the following steps to trigger the approval flow again.</span></span>
 
-1. <span data-ttu-id="08db5-128">Probeer in Terminal het stuurprogramma te installeren.</span><span class="sxs-lookup"><span data-stu-id="08db5-128">In Terminal, attempt to install the driver.</span></span> <span data-ttu-id="08db5-129">De volgende bewerking mislukt, omdat de kernelextensie niet is goedgekeurd voor gebruik op het apparaat.</span><span class="sxs-lookup"><span data-stu-id="08db5-129">The following operation will fail, because the kernel extension was not approved to run on the device.</span></span> <span data-ttu-id="08db5-130">De goedkeuringsstroom wordt echter opnieuw in gang flow.</span><span class="sxs-lookup"><span data-stu-id="08db5-130">However, it will trigger the approval flow again.</span></span>
+1. <span data-ttu-id="bc5ec-128">Probeer in Terminal het stuurprogramma te installeren.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-128">In Terminal, attempt to install the driver.</span></span> <span data-ttu-id="bc5ec-129">De volgende bewerking mislukt, omdat de kernelextensie niet is goedgekeurd voor gebruik op het apparaat.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-129">The following operation will fail, because the kernel extension was not approved to run on the device.</span></span> <span data-ttu-id="bc5ec-130">De goedkeuringsstroom wordt echter opnieuw in gang flow.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-130">However, it will trigger the approval flow again.</span></span>
 
     ```bash
     sudo kextutil /Library/Extensions/wdavkext.kext
@@ -89,17 +89,17 @@ real_time_protection_available              : true
     Diagnostics for /Library/Extensions/wdavkext.kext:
     ```
 
-2. <span data-ttu-id="08db5-131">Open **Systeemvoorkeuren**  >  **& privacy** in het menu.</span><span class="sxs-lookup"><span data-stu-id="08db5-131">Open **System Preferences** > **Security & Privacy** from the menu.</span></span> <span data-ttu-id="08db5-132">(Sluit deze eerst, als deze is geopend.)</span><span class="sxs-lookup"><span data-stu-id="08db5-132">(Close it first, if it's opened.)</span></span>
+2. <span data-ttu-id="bc5ec-131">Open **Systeemvoorkeuren**  >  **& privacy** in het menu.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-131">Open **System Preferences** > **Security & Privacy** from the menu.</span></span> <span data-ttu-id="bc5ec-132">(Sluit deze eerst, als deze is geopend.)</span><span class="sxs-lookup"><span data-stu-id="bc5ec-132">(Close it first, if it's opened.)</span></span>
 
-3. <span data-ttu-id="08db5-133">**Systeemsoftware** toestaan van ontwikkelaars "Microsoft Corporation"</span><span class="sxs-lookup"><span data-stu-id="08db5-133">**Allow** system software from developers "Microsoft Corporation"</span></span>
+3. <span data-ttu-id="bc5ec-133">**Systeemsoftware** toestaan van ontwikkelaars "Microsoft Corporation"</span><span class="sxs-lookup"><span data-stu-id="bc5ec-133">**Allow** system software from developers "Microsoft Corporation"</span></span>
 
-4. <span data-ttu-id="08db5-134">Installeer het stuurprogramma opnieuw in Terminal.</span><span class="sxs-lookup"><span data-stu-id="08db5-134">In Terminal, install the driver again.</span></span> <span data-ttu-id="08db5-135">Deze keer slaagt de bewerking:</span><span class="sxs-lookup"><span data-stu-id="08db5-135">This time the operation will succeed:</span></span>
+4. <span data-ttu-id="bc5ec-134">Installeer het stuurprogramma opnieuw in Terminal.</span><span class="sxs-lookup"><span data-stu-id="bc5ec-134">In Terminal, install the driver again.</span></span> <span data-ttu-id="bc5ec-135">Deze keer slaagt de bewerking:</span><span class="sxs-lookup"><span data-stu-id="bc5ec-135">This time the operation will succeed:</span></span>
 
     ```bash
     sudo kextutil /Library/Extensions/wdavkext.kext
     ```
 
-    <span data-ttu-id="08db5-136">De banner moet verdwijnen uit de Defender-toepassing en moet nu melden dat ```mdatp health``` realtimebeveiliging is ingeschakeld en beschikbaar is:</span><span class="sxs-lookup"><span data-stu-id="08db5-136">The banner should disappear from the Defender application, and ```mdatp health``` should now report that real-time protection is both enabled and available:</span></span>
+    <span data-ttu-id="bc5ec-136">De banner moet verdwijnen uit de Defender-toepassing en moet nu melden dat ```mdatp health``` realtimebeveiliging is ingeschakeld en beschikbaar is:</span><span class="sxs-lookup"><span data-stu-id="bc5ec-136">The banner should disappear from the Defender application, and ```mdatp health``` should now report that real-time protection is both enabled and available:</span></span>
 
     ```bash
     mdatp health

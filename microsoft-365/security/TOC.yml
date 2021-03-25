@@ -9,25 +9,25 @@
         - name: Microsoft 365-beveiliging voor zakelijke beslissers
           href: Microsoft-365-security-for-bdm.md
         - name: Beveiligingsaanbevelingen voor prioriteitsaccounts
-          href: ./defender-365-security/security-recommendations-for-priority-accounts.md
+          href: ./office-365-security/security-recommendations-for-priority-accounts.md
     - name: Configuratie van identiteiten en apparaattoegang
       items:
         - name: Overzicht
-          href: ./defender-365-security/microsoft-365-policies-configurations.md
+          href: ./office-365-security/microsoft-365-policies-configurations.md
         - name: Vereiste werkzaamheden
-          href: ./defender-365-security/identity-access-prerequisites.md
+          href: ./office-365-security/identity-access-prerequisites.md
         - name: Algemeen beleid voor identiteiten en apparaattoegang
-          href: ./defender-365-security/identity-access-policies.md
+          href: ./office-365-security/identity-access-policies.md
         - name: Beleid voor gastgebruikers en externe gebruikers
-          href: ./defender-365-security/identity-access-policies-guest-access.md
+          href: ./office-365-security/identity-access-policies-guest-access.md
         - name: Aanbevolen beleid voor toegang tot Teams
-          href: ./defender-365-security/teams-access-policies.md
+          href: ./office-365-security/teams-access-policies.md
         - name: Aanbevolen beleid voor toegang tot Exchange Online
-          href: ./defender-365-security/secure-email-recommended-policies.md
+          href: ./office-365-security/secure-email-recommended-policies.md
         - name: Aanbevolen beleid voor toegang tot SharePoint Online
-          href: ./defender-365-security/sharepoint-file-access-policies.md
+          href: ./office-365-security/sharepoint-file-access-policies.md
         - name: Aanbevolen MCAS-beleid voor SaaS-apps
-          href: ./defender-365-security/mcas-saas-access-policies.md
+          href: ./office-365-security/mcas-saas-access-policies.md
     - name: Microsoft 365-beveiligingscentrum
       href: defender/overview-security-center.md
     - name: Microsoft Secure Score
@@ -325,387 +325,389 @@
                         - name: Incident bijwerken
                           href: defender/api-update-incidents.md
     - name: Office 365-beveiliging
-      href: ./defender-365-security/index.yml
+      href: ./office-365-security/overview.md
       items:
         - name: Overzicht
           items:
             - name: Roadmap voor beveiliging
-              href: ./defender-365-security/security-roadmap.md
+              href: ./office-365-security/security-roadmap.md
             - name: Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
               href: defender/microsoft-365-security-center-mdo.md
             - name: Exchange Online Protection
               items:
                 - name: Overzicht Exchange Online Protection
-                  href: ./defender-365-security/exchange-online-protection-overview.md
+                  href: ./office-365-security/exchange-online-protection-overview.md
                 - name: EOP-functies
-                  href: ./defender-365-security/eop-features.md
+                  href: ./office-365-security/eop-features.md
                 - name: Machtigingen in standalone EOP
-                  href: ./defender-365-security/feature-permissions-in-eop.md
+                  href: ./office-365-security/feature-permissions-in-eop.md
                 - name: Exchange-beheercentrum in standalone EOP
-                  href: ./defender-365-security/exchange-admin-center-in-exchange-online-protection-eop.md
+                  href: ./office-365-security/exchange-admin-center-in-exchange-online-protection-eop.md
                 - name: Ontvangers beheren in standalone EOP
-                  href: ./defender-365-security/manage-recipients-in-eop.md
+                  href: ./office-365-security/manage-recipients-in-eop.md
                 - name: E-mailstroom in EOP
-                  href: ./defender-365-security/mail-flow-in-eop.md
+                  href: ./office-365-security/mail-flow-in-eop.md
                 - name: Quarantaine
-                  href: ./defender-365-security/quarantine-email-messages.md
+                  href: ./office-365-security/quarantine-email-messages.md
                 - name: Controlerapporten in standalone EOP
-                  href: ./defender-365-security/auditing-reports-in-eop.md
+                  href: ./office-365-security/auditing-reports-in-eop.md
             - name: Defender voor Office 365
-              href: ./defender-365-security/defender-for-office-365.md
+              href: ./office-365-security/defender-for-office-365.md
             - name: Defender voor Office 365 evalueren
-              href: ./defender-365-security/office-365-evaluation.md
+              href: ./office-365-security/office-365-evaluation.md
             - name: Nieuw in Defender voor Office 365
-              href: ./defender-365-security/whats-new-in-defender-for-office-365.md
+              href: ./office-365-security/whats-new-in-defender-for-office-365.md
             - name: 'Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams'
-              href: ./defender-365-security/turn-on-mdo-for-spo-odb-and-teams.md
+              href: ./office-365-security/turn-on-mdo-for-spo-odb-and-teams.md
             - name: Overzicht van Microsoft 365-beveiligingscentrum
               href: ./defender/overview-security-center.md
             - name: Bedreigingsverkenner (en realtime detecties)
-              href: ./defender-365-security/threat-explorer.md
+              href: ./office-365-security/threat-explorer.md
             - name: Entiteitspagina van e-mail
-              href: ./defender-365-security/mdo-email-entity-page.md
+              href: ./office-365-security/mdo-email-entity-page.md
             - name: AIR-overzicht
-              href: ./defender-365-security/office-365-air.md
+              href: ./office-365-security/office-365-air.md
             - name: Hoe geautomatiseerd onderzoek en reactie werkt
-              href: ./defender-365-security/automated-investigation-response-office.md
+              href: ./office-365-security/automated-investigation-response-office.md
             - name: Herstelacties
-              href: ./defender-365-security/air-remediation-actions.md
+              href: ./office-365-security/air-remediation-actions.md
             - name: Beveiliging tegen malware
-              href: ./defender-365-security/anti-malware-protection.md
+              href: ./office-365-security/anti-malware-protection.md
             - name: Beveiliging tegen ongewenste e-mail
-              href: ./defender-365-security/anti-spam-protection.md
+              href: ./office-365-security/anti-spam-protection.md
             - name: Bescherming tegen phishing
-              href: ./defender-365-security/anti-phishing-protection.md
+              href: ./office-365-security/anti-phishing-protection.md
             - name: Beveiliging tegen adresvervalsing (spoofing)
-              href: ./defender-365-security/anti-spoofing-protection.md
+              href: ./office-365-security/anti-spoofing-protection.md
             - name: Veilige bijlagen in Defender voor Office 365
-              href: ./defender-365-security/safe-attachments.md
+              href: ./office-365-security/safe-attachments.md
             - name: Veilige koppelingen in Defender voor Office 365
-              href: ./defender-365-security/safe-links.md
+              href: ./office-365-security/safe-links.md
             - name: Beveiliging tegen uitgaande spam
-              href: ./defender-365-security/outbound-spam-controls.md
+              href: ./office-365-security/outbound-spam-controls.md
             - name: Overzicht van beveiligingsdashboard
-              href: ./defender-365-security/security-dashboard.md
+              href: ./office-365-security/security-dashboard.md
             - name: Hoe bedreigingsonderzoek en -reactie werkt
-              href: ./defender-365-security/office-365-ti.md
+              href: ./office-365-security/office-365-ti.md
             - name: Reactie op beveiligingsincidenten in Office 365
-              href: ./defender-365-security/office365-security-incident-response-overview.md
+              href: ./office-365-security/office365-security-incident-response-overview.md
             - name: E-mailstroominzichten in het Beveiligings- en compliancecentrum
-              href: ./defender-365-security/mail-flow-insights-v2.md
+              href: ./office-365-security/mail-flow-insights-v2.md
             - name: 'Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere wendbare organisaties'
-              href: ./defender-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
+              href: ./office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
         - name: Implementeren
           items:
             - name: Exchange Online Protection
               items:
                 - name: Antiphishingbeleid configureren in EOP
-                  href: ./defender-365-security/configure-anti-phishing-policies-eop.md
+                  href: ./office-365-security/configure-anti-phishing-policies-eop.md
                 - name: Standalone EOP configureren om spam te bezorgen in de map Ongewenste e-mail
-                  href: ./defender-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
+                  href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
                 - name: Groepen beheren in standalone EOP
-                  href: ./defender-365-security/manage-groups-in-eop.md
+                  href: ./office-365-security/manage-groups-in-eop.md
                 - name: E-mailgebruikers beheren in standalone EOP
-                  href: ./defender-365-security/manage-mail-users-in-eop.md
+                  href: ./office-365-security/manage-mail-users-in-eop.md
                 - name: Je EOP-service instellen
-                  href: ./defender-365-security/set-up-your-eop-service.md
+                  href: ./office-365-security/set-up-your-eop-service.md
             - name: Beveiligen tegen bedreigingen
-              href: ./defender-365-security/protect-against-threats.md
+              href: ./office-365-security/protect-against-threats.md
             - name: Defender voor Office 365 integreren met Defender voor Eindpunt
-              href: ./defender-365-security/integrate-office-365-ti-with-mde.md
+              href: ./office-365-security/integrate-office-365-ti-with-mde.md
             - name: Machtigingen in het beveiligings- en compliancecentrum
-              href: ./defender-365-security/permissions-in-the-security-and-compliance-center.md
+              href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
             - name: SIEM-serverintegratie
-              href: ./defender-365-security/siem-server-integration.md
+              href: ./office-365-security/siem-server-integration.md
             - name: SIEM-integratie met Defender voor Office 365
-              href: ./defender-365-security/siem-integration-with-office-365-ti.md
+              href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Standaard beveiligen
-              href: ./defender-365-security/secure-by-default.md
+              href: ./office-365-security/secure-by-default.md
             - name: Anti-phishingbeleid configureren in Defender voor Office 365
-              href: ./defender-365-security/configure-atp-anti-phishing-policies.md
+              href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Beleid tegen malware configureren
-              href: ./defender-365-security/configure-anti-malware-policies.md
+              href: ./office-365-security/configure-anti-malware-policies.md
             - name: Beleid tegen ongewenste e-mail configureren
-              href: ./defender-365-security/configure-your-spam-filter-policies.md
+              href: ./office-365-security/configure-your-spam-filter-policies.md
             - name: Filteren van verbinding configureren
-              href: ./defender-365-security/configure-the-connection-filter-policy.md
+              href: ./office-365-security/configure-the-connection-filter-policy.md
             - name: Algemene instellingen voor veilige koppelingen in Defender voor Office 365 configureren
-              href: ./defender-365-security/configure-global-settings-for-safe-links.md
+              href: ./office-365-security/configure-global-settings-for-safe-links.md
             - name: Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
-              href: ./defender-365-security/configure-junk-email-settings-on-exo-mailboxes.md
+              href: ./office-365-security/configure-junk-email-settings-on-exo-mailboxes.md
             - name: Filteren van uitgaande spam configureren
-              href: ./defender-365-security/configure-the-outbound-spam-policy.md
+              href: ./office-365-security/configure-the-outbound-spam-policy.md
             - name: Spoofberichten configureren
-              href: ./defender-365-security/learn-about-spoof-intelligence.md
+              href: ./office-365-security/learn-about-spoof-intelligence.md
             - name: Lijsten met geblokkeerde afzenders maken
-              href: ./defender-365-security/Create-block-sender-lists-in-office-365.md
+              href: ./office-365-security/Create-block-sender-lists-in-office-365.md
             - name: Lijsten met veilige afzenders maken
-              href: ./defender-365-security/Create-safe-sender-lists-in-office-365.md
+              href: ./office-365-security/Create-safe-sender-lists-in-office-365.md
             - name: E-mailverificatie
-              href: ./defender-365-security/email-validation-and-authentication.md
+              href: ./office-365-security/email-validation-and-authentication.md
             - name: Gebruikers toegang tot het beveiligingscentrum geven
-              href: ./defender-365-security/grant-access-to-the-security-and-compliance-center.md
+              href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
             - name: Veilige documenten in Defender voor Office 365
-              href: ./defender-365-security/safe-docs.md
+              href: ./office-365-security/safe-docs.md
             - name: Beleid voor veilige koppelingen in Defender voor Office 365 instellen
-              href: ./defender-365-security/set-up-safe-links-policies.md
+              href: ./office-365-security/set-up-safe-links-policies.md
             - name: Beleid voor veilige bijlagen in Defender voor Office 365 instellen
-              href: ./defender-365-security/set-up-safe-attachments-policies.md
+              href: ./office-365-security/set-up-safe-attachments-policies.md
             - name: SPF instellen om adresvervalsing te helpen voorkomen
-              href: ./defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
+              href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
             - name: Beleid voor inzendingen van gebruikers
-              href: ./defender-365-security/user-submission.md
+              href: ./office-365-security/user-submission.md
             - name: Gebruikerstags in Defender voor Office 365
-              href: ./defender-365-security/user-tags.md
+              href: ./office-365-security/user-tags.md
             - name: 'Veilige bijlagen uitschakelen voor SharePoint, OneDrive en Microsoft Teams'
-              href: ./defender-365-security/turn-on-mdo-for-spo-odb-and-teams.md
+              href: ./office-365-security/turn-on-mdo-for-spo-odb-and-teams.md
             - name: DKIM gebruiken om uitgaande e-mail te valideren
-              href: ./defender-365-security/use-dkim-to-validate-outbound-email.md
+              href: ./office-365-security/use-dkim-to-validate-outbound-email.md
             - name: DMARC gebruiken om e-mail te valideren
-              href: ./defender-365-security/use-dmarc-to-validate-email.md
+              href: ./office-365-security/use-dmarc-to-validate-email.md
             - name: Ondersteuning toevoegen voor anonieme binnenkomende e-mail via IPv6
-              href: ./defender-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
+              href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
             - name: 'Application Guard voor Office installeren '
-              href: ./defender-365-security/install-app-guard.md
+              href: ./office-365-security/install-app-guard.md
             - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
-              href: ./defender-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+              href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
             - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
-              href: ./defender-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
+              href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
         - name: Migreren
           items:
             - name: 'Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort'
-              href: ./defender-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
+              href: ./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
         - name: Voorkomen
           items:
             - name: Je tenant configureren voor betere beveiliging
-              href: ./defender-365-security/tenant-wide-setup-for-increased-security.md
+              href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: Beveiligingsbeleid vooraf instellen
-              href: ./defender-365-security/preset-security-policies.md
+              href: ./office-365-security/preset-security-policies.md
             - name: Configuratie-analyse voor vooraf ingesteld beveiligingsbeleid
-              href: ./defender-365-security/configuration-analyzer-for-security-policies.md
+              href: ./office-365-security/configuration-analyzer-for-security-policies.md
             - name: Aanvalssimulatie in Defender voor Office 365
-              href: ./defender-365-security/attack-simulator.md
+              href: ./office-365-security/attack-simulator.md
             - name: Aan de slag met aanvalssimulatietraining
-              href: ./defender-365-security/attack-simulation-training-get-started.md
+              href: ./office-365-security/attack-simulation-training-get-started.md
             - name: Een phishing-aanval simuleren met een aanvalssimulatietraining
-              href: ./defender-365-security/attack-simulation-training.md
+              href: ./office-365-security/attack-simulation-training.md
             - name: Een aangepaste nettolading maken voor aanvalssimulatietraining
-              href: ./defender-365-security/attack-simulation-training-payloads.md
+              href: ./office-365-security/attack-simulation-training-payloads.md
             - name: Meer inzicht krijgen middels aanvalssimulatietraining
-              href: ./defender-365-security/attack-simulation-training-insights.md
+              href: ./office-365-security/attack-simulation-training-insights.md
             - name: Aanvalssimulatie traningimplementatieoverwegingen en veelgestelde vragen
-              href: ./defender-365-security/attack-simulation-training-faq.md
+              href: ./office-365-security/attack-simulation-training-faq.md
             - name: Aanbevolen instellingen voor het configureren van EOP en Defender voor Office 365-beveiliging
-              href: ./defender-365-security/recommended-settings-for-eop-and-office365.md
+              href: ./office-365-security/recommended-settings-for-eop-and-office365.md
             - name: Aanbevolen procedures voor het configureren van EOP
-              href: ./defender-365-security/best-practices-for-configuring-eop.md
+              href: ./office-365-security/best-practices-for-configuring-eop.md
             - name: On-premises postvakken in China beveiligen met standalone EOP
-              href: ./defender-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
+              href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
             - name: AIR integreren met een aangepaste oplossing of een oplossing van derden
-              href: ./defender-365-security/air-custom-reporting.md
+              href: ./office-365-security/air-custom-reporting.md
             - name: 'Geavanceerde spamfilterinstellingen (Advanced Spam Filter, ASF)'
-              href: ./defender-365-security/advanced-spam-filtering-asf-options.md
+              href: ./office-365-security/advanced-spam-filtering-asf-options.md
             - name: Tenant Toestaan/Blokkeren-lijst beheren
-              href: ./defender-365-security/tenant-allow-block-list.md
+              href: ./office-365-security/tenant-allow-block-list.md
             - name: Berichttracering in het Beveiligings- en compliancecentrum
-              href: ./defender-365-security/message-trace-scc.md
+              href: ./office-365-security/message-trace-scc.md
             - name: Berichten en bestanden rapporteren aan Microsoft
-              href: ./defender-365-security/report-junk-email-messages-to-microsoft.md
+              href: ./office-365-security/report-junk-email-messages-to-microsoft.md
             - name: E-mailstroomregels gebruiken om berichten met uitvoerbare bijlagen te blokkeren in standalone EOP
-              href: ./defender-365-security/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
+              href: ./office-365-security/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
             - name: E-mailstroomregels gebruiken om bulk-e-mail te filteren in standalone EOP
-              href: ./defender-365-security/use-transport-rules-to-configure-bulk-email-filtering.md
+              href: ./office-365-security/use-transport-rules-to-configure-bulk-email-filtering.md
             - name: Regels voor e-mailstroom gebruiken om de SCL in te stellen in berichten
-              href: ./defender-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
+              href: ./office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
             - name: Zero-Hour Auto Purge - beveiliging tegen ongewenste e-mail en malware
-              href: ./defender-365-security/zero-hour-auto-purge.md
+              href: ./office-365-security/zero-hour-auto-purge.md
         - name: Detecteren
           items:
             - name: Bedreigingsoverzichten gebruiken
-              href: ./defender-365-security/threat-trackers.md
+              href: ./office-365-security/threat-trackers.md
             - name: Waarschuwingen weergeven
               href: ../compliance/alert-policies.md
             - name: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
-              href: ./defender-365-security/reports-and-insights-in-security-and-compliance.md
+              href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: De invoegtoepassing Bericht rapporteren inschakelen
-              href: ./defender-365-security/enable-the-report-message-add-in.md
+              href: ./office-365-security/enable-the-report-message-add-in.md
             - name: De invoegtoepassing Phishing rapporteren inschakelen
-              href: ./defender-365-security/enable-the-report-phish-add-in.md
+              href: ./office-365-security/enable-the-report-phish-add-in.md
             - name: De invoegtoepassing Rapportage van ongewenste e-mail installeren en gebruiken
-              href: ./defender-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
+              href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
             - name: E-mailstroomregels (transportregels) in standalone EOP
-              href: ./defender-365-security/mail-flow-rules-transport-rules-0.md
+              href: ./office-365-security/mail-flow-rules-transport-rules-0.md
             - name: Ongewenste e-mail en phishing melden in de webversie van Outlook
-              href: ./defender-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+              href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
             - name: Ongewenste e-mail en phishing melden in de webversie van Outlook voor iOS en Android
-              href: ./defender-365-security/report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
+              href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
             - name: Een rapport over groepen met beheerdersrollen uitvoeren in standalone EOP
-              href: ./defender-365-security/run-an-administrator-role-group-report-in-eop-eop.md
+              href: ./office-365-security/run-an-administrator-role-group-report-in-eop-eop.md
         - name: Onderzoeken
           items:
             - name: Weergaven van Bedreigingsverkenner
-              href: ./defender-365-security/threat-explorer-views.md
+              href: ./office-365-security/threat-explorer-views.md
             - name: Campagneweergaven
-              href: ./defender-365-security/campaigns.md
+              href: ./office-365-security/campaigns.md
             - name: Schadelijke e-mail onderzoeken
-              href: ./defender-365-security/investigate-malicious-email-that-was-delivered.md
+              href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Bekijk Defender voor Office 365-rapporten in het Beveiligings- en compliancecentrum
-              href: ./defender-365-security/view-reports-for-mdo.md
+              href: ./office-365-security/view-reports-for-mdo.md
             - name: Details en resultaten van een geautomatiseerd onderzoek weergeven
-              href: ./defender-365-security/air-view-investigation-results.md
+              href: ./office-365-security/air-view-investigation-results.md
             - name: E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
-              href: ./defender-365-security/view-email-security-reports.md
+              href: ./office-365-security/view-email-security-reports.md
             - name: E-mailstroominzichten in het Beveiligings- en compliancecentrum bekijken
-              href: ./defender-365-security/view-mail-flow-reports.md
+              href: ./office-365-security/view-mail-flow-reports.md
             - name: Het auditlogboek van de beheerder bekijken in standalone EOP
-              href: ./defender-365-security/view-the-admin-audit-log-eop.md
+              href: ./office-365-security/view-the-admin-audit-log-eop.md
             - name: Rapportage en berichttracering in standalone EOP
-              href: ./defender-365-security/reporting-and-message-trace-in-exchange-online-protection.md
+              href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
             - name: Inzicht in automatisch doorgestuurde berichten
-              href: ./defender-365-security/mfi-auto-forwarded-messages-report.md
+              href: ./office-365-security/mfi-auto-forwarded-messages-report.md
             - name: E-mailstroomkaart
-              href: ./defender-365-security/mfi-mail-flow-map-report.md
+              href: ./office-365-security/mfi-mail-flow-map-report.md
             - name: Berichten handmatig aan Microsoft verzenden
-              href: ./defender-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
+              href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
             - name: Inzicht in nieuwe domeinen waarnaar e-mails worden doorgestuurd
-              href: ./defender-365-security/mfi-new-domains-being-forwarded-email.md
+              href: ./office-365-security/mfi-new-domains-being-forwarded-email.md
             - name: Inzicht in nieuwe gebruikers die e-mails doorsturen
-              href: ./defender-365-security/mfi-new-users-forwarding-email.md
+              href: ./office-365-security/mfi-new-users-forwarding-email.md
             - name: Rapport over niet-geaccepteerd domein
-              href: ./defender-365-security/mfi-non-accepted-domain-report.md
+              href: ./office-365-security/mfi-non-accepted-domain-report.md
             - name: Rapport over niet-uitgevoerde bezorging
-              href: ./defender-365-security/mfi-non-delivery-report.md
+              href: ./office-365-security/mfi-non-delivery-report.md
             - name: Inzicht in uitgaande en binnenkomende e-mailstroom
-              href: ./defender-365-security/mfi-outbound-and-inbound-mail-flow.md
+              href: ./office-365-security/mfi-outbound-and-inbound-mail-flow.md
             - name: Inzicht in en rapport over SMTP-verificatieclients
-              href: ./defender-365-security/mfi-smtp-auth-clients-report.md
+              href: ./office-365-security/mfi-smtp-auth-clients-report.md
             - name: Malware en niet-malware aan Microsoft verzenden
-              href: ./defender-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+              href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
             - name: Inzicht in e-mailstroomstatus van hoofddomein
-              href: ./defender-365-security/mfi-domain-mail-flow-status-insight.md
+              href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
             - name: Indienen als beheerder gebruiken
-              href: ./defender-365-security/admin-submission.md
+              href: ./office-365-security/admin-submission.md
             - name: Regels voor e-mailstromen gebruiken om te zien wat je gebruikers melden bij Microsoft
-              href: ./defender-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
+              href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
             - name: Inzicht in wachtrijen
-              href: ./defender-365-security/mfi-queue-alerts-and-queues.md
+              href: ./office-365-security/mfi-queue-alerts-and-queues.md
             - name: Stapsgewijze instructies voor inzicht in adresvervalsingsanalyses
-              href: ./defender-365-security/walkthrough-spoof-intelligence-insight.md
+              href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
         - name: Beantwoorden
           items:
             - name: Gehackte gebruikersaccounts snel detecteren en adresseren
-              href: ./defender-365-security/address-compromised-users-quickly.md
+              href: ./office-365-security/address-compromised-users-quickly.md
             - name: Illegale verlening van toestemming detecteren en verhelpen in Office 365
-              href: ./defender-365-security/detect-and-remediate-illicit-consent-grants.md
+              href: ./office-365-security/detect-and-remediate-illicit-consent-grants.md
             - name: Injectieaanvallen op Outlook-regels en aangepaste formulieren detecteren en verhelpen in Office 365
-              href: ./defender-365-security/detect-and-remediate-outlook-rules-forms-attack.md
+              href: ./office-365-security/detect-and-remediate-outlook-rules-forms-attack.md
             - name: Fout-positieven/-negatieven verwerken
-              href: ./defender-365-security/air-report-false-positives-negatives.md
+              href: ./office-365-security/air-report-false-positives-negatives.md
             - name: Herstel na een ransomware-aanval
-              href: ./defender-365-security/recover-from-ransomware.md
+              href: ./office-365-security/recover-from-ransomware.md
             - name: Schadelijke e-mail verhelpen
-              href: ./defender-365-security/remediate-malicious-email-delivered-office-365.md
+              href: ./office-365-security/remediate-malicious-email-delivered-office-365.md
             - name: Reageren op een gehackt e-mailaccount in Office 365
-              href: ./defender-365-security/responding-to-a-compromised-email-account.md
+              href: ./office-365-security/responding-to-a-compromised-email-account.md
             - name: Acties in behandeling controleren en goedkeuren (of afwijzen)
-              href: ./defender-365-security/air-review-approve-pending-completed-actions.md
+              href: ./office-365-security/air-review-approve-pending-completed-actions.md
             - name: Beveiliging tegen phishing afstemmen
-              href: ./defender-365-security/tuning-anti-phishing.md
+              href: ./office-365-security/tuning-anti-phishing.md
             - name: Berichten in quarantaine zoeken en vrijgeven als gebruiker
-              href: ./defender-365-security/find-and-release-quarantined-messages-as-a-user.md
+              href: ./office-365-security/find-and-release-quarantined-messages-as-a-user.md
             - name: Inzicht in mogelijke e-maillus oplossen
-              href: ./defender-365-security/mfi-mail-loop-insight.md
+              href: ./office-365-security/mfi-mail-loop-insight.md
             - name: Inzicht in regels voor langzame e-mailstroom oplossen
-              href: ./defender-365-security/mfi-slow-mail-flow-rules-insight.md
+              href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
             - name: Berichten en bestanden in quarantaine beheren als beheerder
-              href: ./defender-365-security/manage-quarantined-messages-and-files.md
+              href: ./office-365-security/manage-quarantined-messages-and-files.md
             - name: Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten
-              href: ./defender-365-security/removing-user-from-restricted-users-portal-after-spam.md
+              href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
             - name: De delist-portal gebruiken om jezelf uit de lijst met geblokkeerde afzenders te verwijderen
-              href: ./defender-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
+              href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
         - name: Veelgestelde vragen
           items:
             - name: Veelgestelde vragen over gedelegeerd beheer
-              href: ./defender-365-security/delegated-administration-faq.md
+              href: ./office-365-security/delegated-administration-faq.md
             - name: Algemene veelgestelde vragen over EOP
-              href: ./defender-365-security/eop-general-faq.md
+              href: ./office-365-security/eop-general-faq.md
             - name: 'Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP'
-              href: ./defender-365-security/eop-queued-deferred-and-bounced-messages-faq.md
+              href: ./office-365-security/eop-queued-deferred-and-bounced-messages-faq.md
             - name: Veelgestelde vragen over beveiliging tegen malware
-              href: ./defender-365-security/anti-malware-protection-faq-eop.md
+              href: ./office-365-security/anti-malware-protection-faq-eop.md
             - name: Veelgestelde vragen over beveiliging tegen ongewenste e-mail
-              href: ./defender-365-security/anti-spam-protection-faq.md
+              href: ./office-365-security/anti-spam-protection-faq.md
             - name: Veelgestelde vragen over beveiliging tegen adresvervalsing
-              href: ./defender-365-security/anti-spoofing-protection-faq.md
+              href: ./office-365-security/anti-spoofing-protection-faq.md
             - name: Veelgestelde vragen over quarantaine
-              href: ./defender-365-security/quarantine-faq.md
+              href: ./office-365-security/quarantine-faq.md
         - name: Verwijzing
           items:
             - name: De nieuwste aanvallen begrijpen met bedreigingsanalyse
               href: ./defender/latest-attack-campaigns.md
             - name: Help en ondersteuning voor EOP
-              href: ./defender-365-security/help-and-support-for-eop.md
+              href: ./office-365-security/help-and-support-for-eop.md
             - name: Problemen met e-mailberichten die worden verzonden naar Microsoft 365 oplossen
-              href: ./defender-365-security/troubleshooting-mail-sent-to-office-365.md
+              href: ./office-365-security/troubleshooting-mail-sent-to-office-365.md
             - name: Hoe Microsoft 365 gebruikmaakt van SPF om adresvervalsing te voorkomen
-              href: ./defender-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
+              href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
             - name: Hoe Office 365 het verzendadres valideert om phishing te voorkomen
-              href: ./defender-365-security/how-office-365-validates-the-from-address.md
+              href: ./office-365-security/how-office-365-validates-the-from-address.md
             - name: Hoe beleid en beveiliging worden gecombineerd
-              href: ./defender-365-security/how-policies-and-protections-are-combined.md
+              href: ./office-365-security/how-policies-and-protections-are-combined.md
             - name: Berichtkoppen tegen ongewenste e-mail
-              href: ./defender-365-security/anti-spam-message-headers.md
+              href: ./office-365-security/anti-spam-message-headers.md
             - name: Beleid tegen phishing
-              href: ./defender-365-security/set-up-anti-phishing-policies.md
+              href: ./office-365-security/set-up-anti-phishing-policies.md
             - name: Backscatter in EOP
-              href: ./defender-365-security/backscatter-messages-and-eop.md
+              href: ./office-365-security/backscatter-messages-and-eop.md
             - name: 'Bulkklachtniveau (bulk complaint level, BCL)'
-              href: ./defender-365-security/bulk-complaint-level-values.md
+              href: ./office-365-security/bulk-complaint-level-values.md
             - name: Spammeldingen voor eindgebruikers
-              href: ./defender-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
+              href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
             - name: Uitgaande bezorgingspools
-              href: ./defender-365-security/high-risk-delivery-pool-for-outbound-messages.md
+              href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
             - name: E-mailstroomanalyse in EOP
-              href: ./defender-365-security/mail-flow-intelligence-in-office-365.md
+              href: ./office-365-security/mail-flow-intelligence-in-office-365.md
             - name: 'Verwijzing: Beleid, procedures en richtlijnen'
-              href: ./defender-365-security/reference-policies-practices-and-guidelines.md
+              href: ./office-365-security/reference-policies-practices-and-guidelines.md
             - name: Veiligheidstips in e-mailberichten
-              href: ./defender-365-security/safety-tips-in-office-365.md
+              href: ./office-365-security/safety-tips-in-office-365.md
             - name: Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants
-              href: ./defender-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md
+              href: ./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md
             - name: E-mail verzenden naar Office 365
-              href: ./defender-365-security/sending-mail-to-office-365.md
+              href: ./office-365-security/sending-mail-to-office-365.md
             - name: Services voor niet-klanten
-              href: ./defender-365-security/services-for-non-customers.md
+              href: ./office-365-security/services-for-non-customers.md
             - name: 'Spamwaarschijnlijkheidswaarde (spam confidence level, SCL)'
-              href: ./defender-365-security/spam-confidence-levels.md
+              href: ./office-365-security/spam-confidence-levels.md
             - name: Ondersteuning voor validatie van DKIM-ondertekende berichten
-              href: ./defender-365-security/support-for-validation-of-dkim-signed-messages.md
+              href: ./office-365-security/support-for-validation-of-dkim-signed-messages.md
             - name: Virusdetectie in SharePoint Online
-              href: ./defender-365-security/virus-detection-in-spo.md
+              href: ./office-365-security/virus-detection-in-spo.md
             - name: Wat is het verschil tussen ongewenste e-mail en bulkmail?
-              href: ./defender-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
+              href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
             - name: S/MIME
-              href: ./defender-365-security/s-mime-for-message-signing-and-encryption.md
+              href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
               items:
                 - name: S/MIME voor het ondertekenen en versleutelen van berichten
-                  href: ./defender-365-security/s-mime-for-message-signing-and-encryption.md
+                  href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
                 - name: S/MIME-instellingen voor de webversie van Outlook configureren
-                  href: ./defender-365-security/configure-s-mime-settings-for-outlook-web-app.md
+                  href: ./office-365-security/configure-s-mime-settings-for-outlook-web-app.md
                 - name: Met S/MIME ondertekende en versleutelde e-mail verzenden en ontvangen
-                  href: ./defender-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
+                  href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
                 - name: Gebruikerscertificaten synchroniseren met Microsoft 365 voor S/MIME
-                  href: ./defender-365-security/sync-user-certificates-to-office-365-for-s-mime.md
+                  href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
                 - name: Verzameling van virtuele certificaten instellen om S/MIME te valideren
-                  href: ./defender-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
+                  href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
                 - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
-                  href: ./defender-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+                  href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
                 - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
-                  href: ./defender-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
+                  href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
                 - name: Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
-                  href: ./defender-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
+                  href: ./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
                 - name: Rollengroepen beheren in standalone EOP
-                  href: ./defender-365-security/manage-admin-role-group-permissions-in-eop.md
+                  href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
+    - name: Microsoft Defender voor Eindpunt
+      href: ./defender-endpoint/index.yml
     - name: Microsoft 365 voor bedrijven
       href: ../enterprise/index.yml
     - name: Microsoft 365 voor bedrijven
