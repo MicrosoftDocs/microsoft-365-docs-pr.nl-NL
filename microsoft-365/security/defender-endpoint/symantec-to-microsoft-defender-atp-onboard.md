@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 95b2e4bfc0eca58d6c71670b21ded81affcc219f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: cc005c559e0f91f1c5888f8d7e4e7a2a420894db
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185501"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218698"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Migreren van Symantec - Fase 3: Onboard to Microsoft Defender for Endpoint
 
@@ -39,7 +39,7 @@ ms.locfileid: "51185501"
 || |*U bent er!* |
 
 
-**Welkom bij fase 3 van [de migratie van Symantec naar Microsoft Defender voor Eindpunt.](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)** Deze migratiefase bevat de volgende stappen:
+**Welkom bij fase 3 van [de migratie van Symantec naar Microsoft Defender voor Eindpunt.](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)** Deze migratiefase bevat de volgende stappen:
 
 1. [Onboard devices to Microsoft Defender for Endpoint](#onboard-devices-to-microsoft-defender-for-endpoint).
 2. [Voer een detectietest uit.](#run-a-detection-test)
@@ -105,6 +105,6 @@ Ga hiervoor naar de site met demoscenario's voor Microsoft Defender for Endpoint
 
 ## <a name="next-steps"></a>Volgende stappen
 
-**Gefeliciteerd!** U hebt de migratie [van Symantec naar Microsoft Defender voor Eindpunt voltooid!](symantec-to-microsoft-defender-atp-migration.md#the-migration-process) 
+**Gefeliciteerd!** U hebt de migratie [van Symantec naar Microsoft Defender voor Eindpunt voltooid!](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process) 
 - [Ga naar het dashboard voor beveiligingsbewerkingen](security-operations-dashboard.md) in het Microsoft Defender-beveiligingscentrum ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
 - [Beheer Microsoft Defender voor Eindpunt, na de migratie.](manage-atp-post-migration.md)
