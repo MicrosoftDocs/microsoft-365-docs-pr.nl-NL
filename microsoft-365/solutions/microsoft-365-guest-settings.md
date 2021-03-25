@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: c87f1d0ea8a35d7685f91c1b20a709c58ec4d040
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bdb86dd7545c00f0ed24552b22062a983e450b47
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920214"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215562"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -43,7 +43,7 @@ Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door 
 
 ![Schermafbeelding van de instellingenpagina voor organisatierelaties in Microsoft Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Machtigingen voor gastgebruikers zijn beperkt|Ja|Deze instelling heeft invloed op de directorytaken die een gast kan uitvoeren.|
 |Beheerders en gebruikers in de rol van gastuitnodiger kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen beheerders gasten uitnodigen via Microsoft Azure AD en via het deelopties van Microsoft 365, zoals Teams en SharePoint. Wanneer ingesteld op **Nee** is dat niet mogelijk.|
@@ -66,7 +66,7 @@ Het Microsoft 365-beheercentrum heeft instellingen op organisatieniveau voor del
 
 ![Schermafbeelding van de instelling Beveiliging en privacy voor delen met gast in het Microsoft 365-beheercentrum](../media/sharepoint-security-privacy-sharing-setting.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Gebruikers toestaan nieuwe gasten toe te voegen aan de organisatie|Aan|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Leden kunnen uitnodigen** in de instellingen voor organisatierelaties van Azure Active Directory.|
 
@@ -76,7 +76,7 @@ Het Microsoft 365-beheercentrum heeft instellingen op organisatieniveau voor del
 
 ![Schermopname van gastinstellingen van Microsoft 365 Groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Groepsleden buiten uw organisatie toegang geven tot groepsinhoud|Aan|Wanneer ingesteld op **Aan** hebben gasten toegang tot groepsinhoud. Wanneer ingesteld op **Uit** hebben ze geen toegang. Deze instelling moet **Aan** zijn voor elk scenario waarin gasten werken met Microsoft 365 Groepen of Teams.|
 |Groepseigenaren toestaan personen van buiten de organisatie aan groepen toe te voegen|Aan|Wanneer **Aan** kunnen eigenaren van Microsoft 365 Groepen of Teams nieuwe gasten uitnodigen voor de groep. Wanneer **Uit** kunnen eigenaren gasten alleen uitnodigen als deze zich al in de directory bevinden.|
@@ -95,7 +95,7 @@ De hoofdschakelaar gasttoegang van Teams, **Gasttoegang in Teams toestaan** moet
 
 ![Schermafbeelding van schakelaar gasttoegang in Teams](../media/teams-guest-access-toggle.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Gasttoegang in Teams toestaan|Uit|Hiermee schakelt u de gasttoegang in of uit voor Teams als geheel. Het kan 24 uur duren voordat deze instelling is gewijzigd.|
 
@@ -105,7 +105,7 @@ De hoofdschakelaar gasttoegang van Teams, **Gasttoegang in Teams toestaan** moet
 
 ![Schermafbeelding van opties voor bellen door gasten in Teams](../media/teams-guest-calling-setting.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Privégesprekken voeren|Aan|Wanneer **Aan** kunnen gasten peer-to-peer-gesprekken voeren in Teams. Wanneer **Uit** is dit niet mogelijk.|
 
@@ -115,7 +115,7 @@ De hoofdschakelaar gasttoegang van Teams, **Gasttoegang in Teams toestaan** moet
 
 ![Schermafbeelding van de instellingen gastvergadering in Teams](../media/teams-guest-meeting-settings.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |IP-video toestaan|Aan|Wanneer **Aan** kunnen gasten video gebruiken in hun gesprekken en vergaderingen. Wanneer **Uit** is dit niet mogelijk.|
 |Modus Scherm delen|Volledig scherm|Wanneer **Uitgeschakeld** kunnen gasten hun schermen niet delen in Teams. Wanneer ingesteld op **Enkele toepassing** kunnen gasten slechts één toepassing op hun scherm delen. Wanneer ingesteld op **Volledig scherm** kunnen gasten een toepassing of het volledige scherm delen.|
@@ -127,7 +127,7 @@ De hoofdschakelaar gasttoegang van Teams, **Gasttoegang in Teams toestaan** moet
 
 ![Schermafbeelding van de instellingen voor berichten van gasten in Teams](../media/teams-guest-messaging-settings.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Verzonden berichten bewerken|Aan|Wanneer **Aan** kunnen gasten eerder verzonden berichten bewerken. Wanneer **Uit** is dit niet mogelijk.|
 |Verzonden berichten verwijderen|Aan|Wanneer **Aan** kunnen gasten eerder verzonden berichten verwijderen. Wanneer **Uit** is dit niet mogelijk.|
@@ -152,7 +152,7 @@ Omdat OneDrive een hiërarchie van sites binnen SharePoint is, hebben de instell
 
 ![Schermafbeelding van de instellingen voor delen op organisatieniveau van SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |SharePoint|Iedereen|Hiermee geeft u de ruimste machtigingen voor delen die op SharePoint-sites zijn toegestaan.|
 |OneDrive|Iedereen|Hiermee geeft u de ruimste machtigingen voor delen die op OneDrive-sites zijn toegestaan. Deze instelling kan niet ruimer zijn dan de SharePoint-instelling.|
@@ -163,7 +163,7 @@ Omdat OneDrive een hiërarchie van sites binnen SharePoint is, hebben de instell
 
 ![Schermafbeelding van de extra instellingen voor delen op organisatieniveau van SharePoint](../media/sharepoint-organization-advanced-sharing-settings.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Extern delen per domein beperken|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op alle SharePoint-en OneDrive-sites in de organisatie.|
 |Gasten moeten zich aanmelden met behulp van hetzelfde account waarnaar de uitnodigingen voor delen worden verzenden|Uit|Hiermee voorkomt u dat gasten uitnodigingen voor het delen van sites benutten met een ander e-mailadres dan waarnaar de uitnodiging werd verzonden.<br><br>Bij [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) wordt deze instelling niet gebruikt, omdat alle gasten worden toegevoegd aan de directory op basis van het e-mailadres waarnaar de uitnodiging werd verzonden. Alternatieve e-mailadressen kunnen niet worden gebruikt voor sitetoegang.|
@@ -177,7 +177,7 @@ Wanneer bestanden en mappen in SharePoint en OneDrive worden gedeeld, wordt aan 
 
 ![Schermafbeelding van de instellingen voor delen van bestanden en mappen op organisatieniveau van SharePoint](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Koppelingen naar bestanden en mappen|Iedereen met de koppeling|Hiermee wordt bepaald welke koppeling voor delen standaard wordt weergegeven wanneer een gebruiker een bestand of map deelt. Gebruikers kunnen desgewenst de optie wijzigen voordat ze delen. Als de standaardinstelling is ingesteld op **Iedereen met de koppeling** en delen met *Iedereen* is niet toegestaan voor een bepaalde site, dan worden **Alleen personen in uw organisatie** weergegeven als de standaardinstelling voor die site.|
 |Deze koppelingen moeten binnen dit aantal dagen verlopen|Uit (geen verloopdatum)|Hiermee geeft u het aantal dagen na de dag van maken op waarna een *Iedereen*-koppeling vervalt. Verlopen koppelingen kunnen niet worden verlengd. Maak een nieuwe koppeling als u wilt doorgaan met het delen na de verloopdatum.|
@@ -192,7 +192,7 @@ Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt 
 
 ![Schermafbeelding van de instellingen voor beveiligingsgroepen op organisatieniveau van SharePoint](../media/sharepoint-organization-external-sharing-security-groups.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen|Uit|Bij **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met personen buiten de organisatie delen. Alleen *Specifieke personen*-koppelingen zijn beschikbaar. Met *Iedereen* delen wordt in feite uitgeschakeld, tenzij **Alleen gebruikers in geselecteerde beveiligingsgroepen toestaan met geverifieerde externe gebruikers delen en met gebruik van anonieme koppelingen** ook **Aan** is|
 |Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen en met gebruik van anonieme koppelingen|Uit|Wanneer **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met gasten delen. Zowel *Iedereen*- als *Specifieke personen*-koppelingen zijn beschikbaar.|
@@ -215,7 +215,7 @@ Als op de site een gevoeligheidslabel is toegepast, kan dat label de instellinge
 
 ![Schermafbeelding van de instellingen voor extern delen van SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Site-inhoud kan worden gedeeld met|Verschilt per type site (Zie de onderstaande tabel)|Hiermee wordt het type extern delen aangegeven dat is toegestaan voor deze site. De hier beschikbare opties zijn afhankelijk van de instellingen voor delen op organisatieniveau voor SharePoint.|
 
@@ -227,7 +227,7 @@ U kunt voor elke site het standaardtype koppeling en de standaardmachtigingen en
 
 ![Schermafbeelding van de instellingen voor het delen van koppelingen op siteniveau van SharePoint](../media/sharepoint-site-link-sharing-settings.png)
 
-|**Instelling**|**Standaard**|**Beschrijving**|
+| Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Delen beperken per domein|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling kan niet worden gebruikt om de domeinbeperkingen die zijn ingesteld op het organisatieniveau of het Microsoft Azure AD-niveau te overschrijven.|
 |Standaardkoppelingstype voor delen|Hetzelfde als de instelling op organisatieniveau|Met deze instelling kunt u de standaardkoppeling voor delen opgeven die worden weergegeven aan gebruikers op deze site. De optie *Hetzelfde als de instelling op organisatieniveau* wordt gedefinieerd door een combinatie van de instellingen voor delen van de organisatie en de site.|
@@ -238,7 +238,7 @@ U kunt voor elke site het standaardtype koppeling en de standaardmachtigingen en
 
 In de onderstaande tabel ziet u de standaardinstelling voor delen voor elk type site.
 
-|**Type site**|**Standaardinstelling voor delen**|
+| Sitetype | Standaardinstelling voor delen |
 |:-----|:-----|
 |Klassiek|**Alleen personen binnen uw organisatie**|
 |OneDrive|**Iedereen**|
