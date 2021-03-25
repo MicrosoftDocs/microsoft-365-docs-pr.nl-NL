@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Begrijp waarom u soms handmatig van abonnement moet veranderen of door ondersteuning te bellen.
-ms.openlocfilehash: d13b7290f4b5f9aede7406cf76ee60cac262c814
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0880337e4879c093119b98f4d0108ca65c17e705
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922266"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164459"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Waarom kan ik niet van Microsoft 365 voor Bedrijven-abonnementen wisselen?
 
@@ -63,19 +63,19 @@ Als u de knop  Van abonnement wisselen niet ziet, kan uw abonnement niet automat
 
 ::: moniker range="o365-worldwide"
 
-Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../admin/manage/resolve-license-conflicts.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
+Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../admin/manage/resolve-license-conflicts.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
+Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../admin/manage/resolve-license-conflicts.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
+Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 

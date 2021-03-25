@@ -21,6 +21,8 @@
           href: service-description/device-lifecycle.md
         - name: Apparaatvereisten
           href: service-description/device-requirements.md
+        - name: Afbeeldingen van apparaten
+          href: service-description/device-images.md
         - name: Programma-apparaten
           href: service-description/device-list.md
           items:

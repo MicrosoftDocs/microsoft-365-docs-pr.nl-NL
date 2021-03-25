@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over het upgraden naar een ander abonnement.
-ms.openlocfilehash: 62d6da5713a7785fde9e795bc22956d73616c3c3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5f853dcd0d247a6422489cbe5d0287765bfd72a6
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924312"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164447"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
 
@@ -92,7 +92,7 @@ Als u geen abonnementen ziet op het tabblad **Upgrade,** betekent dit dat uw abo
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>U kunt abonnementen nu niet upgraden omdat u meer gebruikers hebt dan licenties.
 
-Als u abonnementen automatisch wilt upgraden, moeten alle gebruikers geldige licenties krijgen toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../admin/manage/resolve-license-conflicts.md). Nadat u licentieconflicten hebt opgelost, ziet u plannen op het **tabblad Upgrade.** Zo niet, dan kunt u [abonnementen handmatig wijzigen](change-plans-manually.md)of ondersteuning [bellen.](../../admin/contact-support-for-business-products.md)
+Als u abonnementen automatisch wilt upgraden, moeten alle gebruikers geldige licenties krijgen toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u plannen op het **tabblad Upgrade.** Zo niet, dan kunt u [abonnementen handmatig wijzigen](change-plans-manually.md)of ondersteuning [bellen.](../../admin/contact-support-for-business-products.md)
 
 #### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>U kunt momenteel geen upgrade van abonnementen uitvoeren omdat dit abonnement niet volledig is ingesteld of omdat de service niet beschikbaar is.
 

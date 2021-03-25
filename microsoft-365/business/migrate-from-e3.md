@@ -22,14 +22,14 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het verplaatsen van uw bedrijf naar Microsoft 365 Business Premium vanuit Office 365 E3.
-ms.openlocfilehash: f655037891bf8ec42e7b927256025c89c9354e98
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3f9fd70b2d31b32027981e638de249d92e98ea08
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912937"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164528"
 ---
-# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium 
+# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium
 
 Microsoft 365 Business Premium heeft alles wat u nodig hebt voor uw kleine bedrijf, waarbij de beste productiviteitsapps in de cloud worden gecombineerd met eenvoudig apparaatbeheer en beveiliging. Als u momenteel een Office 365 E3-abonnement hebt, maar niet meer dan 300 werknemers hebt, kunt u overwegen over te stappen op Microsoft 365 Business Premium voor extra beveiligingsfuncties.
 
@@ -42,14 +42,14 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Off
 | Functie    | Ondersteuning in Microsoft 365 Business Premium    | Ondersteuning in Office 365 E3 | 
 |:-------|:-----|:-----|
 | **On-premises**        | | | 
-| Office-apps<sup>1</sup>    | Microsoft 365-apps voor bedrijven    | Microsoft 365 Apps voor ondernemingen | 
+| Office-apps<sup>1</sup>    | Microsoft 365-apps voor bedrijven    | Microsoft 365-apps voor ondernemingen | 
 | **Cloudproductiviteits-apps**        | | | 
 | Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkte Archivering van Exchange Online    | 100 GB opslaglimiet per postvak en onbeperkte Archivering van Exchange Online | 
 | Teams    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
 | OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Onbeperkt | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager, MileIQ    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | | 
+| Outlook Customer Manager    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Bedreigingsbeveiliging**        | | | 
 | Defender voor Office 365 Abonnement 1 | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
 | **Identiteitsbeheer**        | | | 
@@ -122,7 +122,7 @@ Microsoft 365 Business Premium heeft een opslaglimiet van 50 GB omdat hiervoor E
 
 ### <a name="threat-protection"></a>Bedreigingsbeveiliging
 
-Na de migratie naar Microsoft 365 Business Premium hebt u Defender voor Office 365. Zie [Microsoft Defender voor Office 365](../security/office-365-security/office-365-atp.md) voor een overzicht. Zie Veilige koppelingen [instellen,](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)Veilige [](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)bijlagen instellen en [Anti-phishing instellen in Defender voor Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)om dit in te stellen.
+Na de migratie naar Microsoft 365 Business Premium hebt u Defender voor Office 365. Zie [Microsoft Defender voor Office 365](../security/defender-365-security/defender-for-office-365.md) voor een overzicht. Zie Veilige koppelingen [instellen,](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)Veilige [](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)bijlagen instellen en [Anti-phishing instellen in Defender voor Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)om dit in te stellen.
 
 ### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
