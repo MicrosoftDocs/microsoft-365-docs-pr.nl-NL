@@ -23,12 +23,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 85e9a47c0180fd7582b2bc107ddf7d78f57e6329
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3ef625e813961c09bb6f74d85fd5a7c8033f9c2a
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059898"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183871"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>False positives/negatives in Microsoft Defender for Endpoint adresseert
 
@@ -55,7 +55,7 @@ En u kunt hulp krijgen als u nog steeds problemen hebt met [fout-positieve/negat
 ![Stappen om onwaar positieven en negatieven aan te pakken](images/false-positives-step-diagram.png)
 
 > [!NOTE]
-> Dit artikel is bedoeld als richtlijnen voor beveiligingsoperatoren en beveiligingsbeheerders die [Microsoft Defender voor Eindpunt gebruiken.](microsoft-defender-advanced-threat-protection.md)
+> Dit artikel is bedoeld als richtlijnen voor beveiligingsoperatoren en beveiligingsbeheerders die [Microsoft Defender voor Eindpunt gebruiken.](microsoft-defender-endpoint.md)
 
 ## <a name="part-1-review-and-classify-alerts"></a>Deel 1: Waarschuwingen controleren en classificeren
 
