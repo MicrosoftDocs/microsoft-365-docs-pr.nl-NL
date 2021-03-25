@@ -103,6 +103,8 @@
           href: view-bill.md
         - name: Nieuwe licenties kopen
           href: buy-licenses.md
+        - name: Bestaande licenties verwijderen
+          href: remove-existing-licenses.md
         - name: Je betalingsmethode bijwerken
           href: update-payment.md
         - name: Gebruikerswachtwoorden opnieuw instellen
