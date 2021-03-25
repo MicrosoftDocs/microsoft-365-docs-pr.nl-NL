@@ -12,19 +12,17 @@ author: denisebmsft
 ms.author: deniseb
 ms.reviewer: jcedola, dbodorin, vladiso, nixanm, anvascon
 manager: dansimp
-ms.date: 01/06/2021
+ms.date: 03/24/2021
 ms.technology: mde
-ms.openlocfilehash: 64f96544361a672881c590716adea80f40777c6e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.topic: how-to
+ms.openlocfilehash: 0962913df63e6837664cdb8ff79710d66e66977c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163337"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199903"
 ---
 # <a name="customize-controlled-folder-access"></a>Beheerde maptoegang aanpassen
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 - [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -120,7 +118,7 @@ Een toegestane toepassing of service heeft alleen schrijftoegang tot een gecontr
 
 4. Selecteer **Een toegestane app toevoegen** en volg de aanwijzingen om apps toe te voegen.
 
-    ![Schermafbeelding van het toevoegen van een knop toegestane app](/microsoft-365/security/defender-endpoint/images/cfa-allow-app)
+   :::image type="content" source="images/cfa-allow-app.png" alt-text="Knop Toegestane app toevoegen":::
 
 ### <a name="use-group-policy-to-allow-specific-apps"></a>Groepsbeleid gebruiken om specifieke apps toe te staan
 
@@ -149,7 +147,7 @@ Een toegestane toepassing of service heeft alleen schrijftoegang tot een gecontr
 
    Blijf gebruiken om `Add-MpPreference -ControlledFolderAccessAllowedApplications` meer apps toe te voegen aan de lijst. Apps die met deze cmdlet zijn toegevoegd, worden weergegeven in de Windows Security-app.
 
-![Schermafbeelding van een PowerShell-venster met de bovenstaande cmdlet ingevoerd](/microsoft-365/security/defender-endpoint/images/cfa-allow-app-ps)
+   :::image type="content" source="images/cfa-allow-app-ps.png" alt-text="PowerShell-cmdlet om een app toe te staan":::
 
 > [!IMPORTANT]
 > Gebruik deze app om apps toe te voegen `Add-MpPreference` of toe te voegen aan de lijst. Als u `Set-MpPreference` de cmdlet gebruikt, wordt de bestaande lijst overschreven.

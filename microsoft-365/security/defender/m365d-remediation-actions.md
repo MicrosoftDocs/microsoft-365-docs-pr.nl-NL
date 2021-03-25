@@ -22,12 +22,12 @@ ms.custom: autoir
 ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: fa73756aa9f350793c00a7e4a960c215627b712f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c81f824a0faaca1c228aa650c003576cce210a67
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058618"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199205"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Herstelacties in Microsoft 365 Defender
 
@@ -45,7 +45,7 @@ Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 Defender worden her
 > Of herstelacties automatisch of alleen worden ondernomen op basis van goedkeuring, hangt af van bepaalde instellingen, zoals de manier waarop automatiseringsniveaus worden gebruikt. Zie de volgende artikelen voor meer informatie:
 > - [Uw geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren in Microsoft 365 Defender](m365d-configure-auto-investigation-response.md)
 > - [Hoe bedreigingen worden gesaneerd op apparaten](../defender-endpoint/automated-investigations.md)
-> - [Bedreigingen en herstelacties op e-mail & samenwerkingsinhoud](../defender-365-security/air-remediation-actions.md#threats-and-remediation-actions)
+> - [Bedreigingen en herstelacties op e-mail & samenwerkingsinhoud](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
 In de volgende tabel worden herstelacties samengevat die momenteel worden ondersteund in Microsoft 365 Defender: 
 
@@ -76,7 +76,7 @@ Naast herstelacties die volgen op geautomatiseerde onderzoeken, kan uw beveiligi
 - Handmatige apparaatactie, zoals apparaatisolatie of bestands quarantaine.
 - Handmatige e-mailactie, zoals het verwijderen van e-mailberichten. 
 - [Geavanceerde zoekactie](../defender-endpoint/advanced-hunting-overview.md) op apparaten of e-mail.
-- [Explorer-actie](../defender-365-security/threat-explorer.md) voor e-mailinhoud, zoals het verplaatsen van e-mail naar ongewenste e-mail, het verwijderen van e-mail of het moeilijk verwijderen van e-mail.
+- [Explorer-actie](../office-365-security/threat-explorer.md) voor e-mailinhoud, zoals het verplaatsen van e-mail naar ongewenste e-mail, het verwijderen van e-mail of het moeilijk verwijderen van e-mail.
 - Handmatige [livereactieactie,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) zoals het verwijderen van een bestand, het stoppen van een proces en het verwijderen van een geplande taak.
 - Live response action with [Microsoft Defender for Endpoint API's](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis), such as isolating a device, running an antivirus scan, and getting information about a file. 
 

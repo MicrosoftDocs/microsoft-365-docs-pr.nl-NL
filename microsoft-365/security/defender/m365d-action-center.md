@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/01/2021
-ms.openlocfilehash: c91e5152fc7a64c8d26363383192d6b8d74611b8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d958f2787b9d66e42a32b8858139f7d13e83ddef
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186759"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199595"
 ---
 # <a name="the-action-center"></a>Het Actiecentrum
 
@@ -61,7 +61,7 @@ Het geïntegreerde actiecentrum brengt herstelacties samen in Defender voor Eind
 U kunt het geïntegreerde actiecentrum gebruiken als u de juiste machtigingen en een of meer van de volgende abonnementen hebt:
 
 - [Defender voor Eindpunt](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Defender voor Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 
 > [!TIP]
@@ -113,11 +113,11 @@ Naast herstelacties die automatisch worden ondernomen als gevolg van geautomatis
 | Actiebronwaarde | Beschrijving |
 |:-----|:---|
 | **Handmatige apparaatactie** | Een handmatige actie op een apparaat. Voorbeelden hiervan [zijn apparaatisolatie](../defender-endpoint/respond-machine-alerts.md#isolate-devices-from-the-network) [of bestands quarantaine.](../defender-endpoint/respond-file-alerts.md#stop-and-quarantine-files) |
-| **Handmatige e-mailactie** | Een handmatige actie voor e-mail. Een voorbeeld hiervan is het verwijderen van e-mailberichten of [het herstellen van een e-mailbericht.](../defender-365-security/remediate-malicious-email-delivered-office-365.md) |
+| **Handmatige e-mailactie** | Een handmatige actie voor e-mail. Een voorbeeld hiervan is het verwijderen van e-mailberichten of [het herstellen van een e-mailbericht.](../office-365-security/remediate-malicious-email-delivered-office-365.md) |
 | **Geautomatiseerde apparaatactie** | Een geautomatiseerde actie die wordt ondernomen op een entiteit, zoals een bestand of proces. Voorbeelden van geautomatiseerde acties zijn het verzenden van een bestand naar quarantaine, het stoppen van een proces en het verwijderen van een registersleutel. (Zie [Herstelacties in Microsoft Defender voor Eindpunt](../defender-endpoint/manage-auto-investigation.md#remediation-actions).) |
-| **Geautomatiseerde e-mailactie** | Een geautomatiseerde actie voor e-mailinhoud, zoals een e-mailbericht, bijlage of URL. Voorbeelden van geautomatiseerde acties zijn het zacht verwijderen van e-mailberichten, het blokkeren van URL's en het uitschakelen van externe e-mail doorsturen. (Zie [Herstelacties in Microsoft Defender voor Office 365](../defender-365-security/air-remediation-actions.md).) |
+| **Geautomatiseerde e-mailactie** | Een geautomatiseerde actie voor e-mailinhoud, zoals een e-mailbericht, bijlage of URL. Voorbeelden van geautomatiseerde acties zijn het zacht verwijderen van e-mailberichten, het blokkeren van URL's en het uitschakelen van externe e-mail doorsturen. (Zie [Herstelacties in Microsoft Defender voor Office 365](../office-365-security/air-remediation-actions.md).) |
 | **Geavanceerde actie voor de jacht** | Acties die zijn ondernomen op apparaten of e-mail [met geavanceerde zoekacties.](./advanced-hunting-overview.md) |
-| **Explorer-actie** | Acties voor e-mailinhoud met [Explorer](../defender-365-security/threat-explorer.md). |
+| **Explorer-actie** | Acties voor e-mailinhoud met [Explorer](../office-365-security/threat-explorer.md). |
 | **Handmatige livereactieactie** | Acties die zijn ondernomen op een apparaat met [livereactie.](../defender-endpoint/live-response.md) Voorbeelden hiervan zijn het verwijderen van een bestand, het stoppen van een proces en het verwijderen van een geplande taak. |
 | **Livereactieactie** | Acties die zijn ondernomen op een apparaat [met Microsoft Defender voor eindpunt-API's.](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis) Voorbeelden van acties zijn het isoleren van een apparaat, het uitvoeren van een antivirusscan en het verkrijgen van informatie over een bestand. |
 
@@ -128,7 +128,7 @@ Als u taken wilt uitvoeren, zoals het goedkeuren of weigeren van acties in behan
 |Herstelactie |Vereiste rollen en machtigingen |
 |--|----|
 |Microsoft Defender voor herstel van eindpunten (apparaten) |**Beveiligingsbeheerderrol** toegewezen in Azure Active Directory ( ) of [https://portal.azure.com](https://portal.azure.com) het Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- of ---<br/>**Rol actieve herstelacties** toegewezen in Microsoft Defender voor eindpunt <br/> <br/> Zie de volgende bronnen voor meer informatie: <br/>- [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Rollen maken en beheren voor op rollen gebaseerde toegangsbeheer (Microsoft Defender voor Eindpunt)](../defender-endpoint/user-roles.md)  |
-|Herstel van Microsoft Defender voor Office 365 (Office-inhoud en e-mail)  |**Beveiligingsbeheerderrol** toegewezen in Azure Active Directory ( ) of [https://portal.azure.com](https://portal.azure.com) het Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- en --- <br/>**Zoek- en purge-rol** toegewezen aan het Beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**BELANGRIJK:** Als de  rol beveiligingsbeheerder alleen is toegewezen in het Office 365-beveiligings- & compliancecentrum ( ), hebt u geen toegang tot de mogelijkheden van het Actiecentrum of [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. U moet de rol **Beveiligingsbeheerder** hebben toegewezen in Azure Active Directory of het Microsoft 365-beheercentrum. <br/><br/>Zie de volgende bronnen voor meer informatie: <br/>- [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Machtigingen in het beveiligings- & compliancecentrum](/microsoft-365/security/defender-365-security/permissions-in-the-security-and-compliance-center) |
+|Herstel van Microsoft Defender voor Office 365 (Office-inhoud en e-mail)  |**Beveiligingsbeheerderrol** toegewezen in Azure Active Directory ( ) of [https://portal.azure.com](https://portal.azure.com) het Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- en --- <br/>**Zoek- en purge-rol** toegewezen aan het Beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**BELANGRIJK:** Als de  rol beveiligingsbeheerder alleen is toegewezen in het Office 365-beveiligings- & compliancecentrum ( ), hebt u geen toegang tot de mogelijkheden van het Actiecentrum of [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. U moet de rol **Beveiligingsbeheerder** hebben toegewezen in Azure Active Directory of het Microsoft 365-beheercentrum. <br/><br/>Zie de volgende bronnen voor meer informatie: <br/>- [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Machtigingen in het beveiligings- & compliancecentrum](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!TIP]
 > Gebruikers die de rol **Globale beheerder** hebben toegewezen in Azure Active Directory, kunnen acties in behandeling in het actiecentrum goedkeuren of weigeren. Als beste gewoonte moet uw organisatie echter het aantal personen beperken dat de rol Globale beheerder **heeft** toegewezen. We raden u **aan** de beveiligingsbeheerder,  **actieve herstelacties** en rollen zoeken en zuiveren te gebruiken die in de vorige tabel voor machtigingen van het Actiecentrum worden vermeld.

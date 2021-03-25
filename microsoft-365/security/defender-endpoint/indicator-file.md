@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d78f90e78a50d5902070f441a1d60693a5f531c8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 35a0b66a4cdc4cf39c15329eda2e0aafced79f34
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185717"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199607"
 ---
 # <a name="create-indicators-for-files"></a>Indicatoren voor bestanden maken
 
@@ -35,7 +35,8 @@ ms.locfileid: "51185717"
 
 
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> [!TIP]
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 U kunt verdere verspreiding van een aanval in uw organisatie voorkomen door potentieel schadelijke bestanden of vermoedelijke malware te verbieden. Als u een potentieel schadelijk bestand voor draagbaar uitvoerbaar (PE) kent, kunt u dit blokkeren. Deze bewerking voorkomt dat deze wordt gelezen, geschreven of uitgevoerd op machines in uw organisatie.
 
@@ -52,13 +53,13 @@ Het is belangrijk om de volgende vereisten te begrijpen voordat u indicatoren vo
 - Als u bestanden wilt blokkeren, moet u eerst de functie Blokkeren of toestaan [in-/uitschakelen  ](advanced-features.md) in Instellingen.
 - Deze functie is ontworpen om te voorkomen dat verdachte malware (of mogelijk schadelijke bestanden) van internet wordt gedownload. Het ondersteunt momenteel draagbare uitvoerbare (PE)-bestanden, waaronder _.exe-_ en _.dll-bestanden._ De dekking wordt in de tijd uitgebreid.
 
->[!IMPORTANT]
->- De functie Toestaan of blokkeren kan niet worden uitgevoerd op bestanden als de classificatie van het bestand aanwezig is in de cache van het apparaat vóór de actie toestaan of blokkeren 
->- Vertrouwde ondertekende bestanden worden anders behandeld. Defender voor Eindpunt is geoptimaliseerd voor het verwerken van schadelijke bestanden. Het blokkeren van vertrouwde ondertekende bestanden kan in sommige gevallen gevolgen hebben voor de prestaties.
+De prestaties kunnen worden beïnvloed als u grote bestanden kopieert vanuit een netwerk delen naar uw lokale apparaat, met name via een VPN-verbinding. 
 
- 
->[!NOTE]
->Bestandsblokken worden meestal binnen een paar minuten afgedwongen, maar kunnen meer dan 30 minuten duren.
+> [!IMPORTANT]
+> - De functie Toestaan of blokkeren kan niet worden uitgevoerd op bestanden als de classificatie van het bestand aanwezig is in de cache van het apparaat vóór de actie toestaan of blokkeren 
+> - Vertrouwde ondertekende bestanden worden anders behandeld. Defender voor Eindpunt is geoptimaliseerd voor het verwerken van schadelijke bestanden. Het blokkeren van vertrouwde ondertekende bestanden kan in sommige gevallen gevolgen hebben voor de prestaties.
+> - Bestandsblokken worden meestal binnen een paar minuten afgedwongen, maar kunnen meer dan 30 minuten duren.
+> - Als er conflicterende beleidsregels voor bestandsindicatoren zijn, wordt het handhavingsbeleid van het veiligere beleid toegepast. Een sha-256-indicatorbeleid voor bestandshash heeft bijvoorbeeld voorrang op een MD5-indicatorbeleid voor bestandshash als beide hashtypen hetzelfde bestand definiëren.
 
 ### <a name="create-an-indicator-for-files-from-the-settings-page"></a>Een indicator voor bestanden maken op de pagina Instellingen
 

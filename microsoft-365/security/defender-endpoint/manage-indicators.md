@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d54ab8eaa1e17be82752c480c963d3a24af56389
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a04f3be1f13fb57cd76cda7115d014f2ba3aa8d6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187575"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198823"
 ---
 # <a name="create-indicators"></a>Indicatoren maken
 
@@ -33,13 +33,14 @@ ms.locfileid: "51187575"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
+> [!TIP]
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 Indicator voor compromissen (IOC's) is een essentiële functie in elke oplossing voor eindpuntbeveiliging. Deze mogelijkheid biedt SecOps de mogelijkheid om een lijst met indicatoren in te stellen voor detectie en voor blokkeren (preventie en reactie).
 
 Maak indicatoren die de detectie, preventie en uitsluiting van entiteiten definiëren. U kunt de actie definiëren die moet worden ondernomen, evenals de duur voor het toepassen van de actie en het bereik van de apparaatgroep waarop deze moet worden toegepast.
 
-Momenteel ondersteunde bronnen zijn de clouddetectie-engine van Defender voor Eindpunt, de geautomatiseerde onderzoeks- en herstelprogramma en de endpoint prevention engine (Microsoft Defender AV).
+Momenteel ondersteunde bronnen zijn de clouddetectie-engine van Defender voor Eindpunt, de geautomatiseerde onderzoeks- en herstelprogramma en de endpoint prevention engine (Microsoft Defender Antivirus).
 
 **Clouddetectie-engine**<br>
 De clouddetectie-engine van Defender voor Eindpunt scant regelmatig verzamelde gegevens en probeert de indicatoren die u hebt ingesteld, aan te passen. Wanneer er een overeenkomst is, wordt actie ondernomen op basis van de instellingen die u hebt opgegeven voor de IoC.
@@ -63,8 +64,8 @@ U kunt een indicator maken voor:
 - [Certificaten](indicator-certificates.md)
 
 
->[!NOTE]
->Er is een limiet van 15.000 indicatoren per tenant.
+> [!NOTE]
+> Er is een limiet van 15.000 indicatoren per tenant. Bestands- en certificaatindicatoren blokkeren [geen uitsluitingen die zijn gedefinieerd voor Microsoft Defender Antivirus.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Indicatoren worden niet ondersteund in Microsoft Defender Antivirus is in passieve modus. 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen

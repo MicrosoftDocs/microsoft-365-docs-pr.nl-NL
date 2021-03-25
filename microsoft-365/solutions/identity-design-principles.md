@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 746ca59fd0e9eb0d93d93c00b6a279a9156cc524
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: da70bbfe5c4dfa4f9eda16adec709826de1247b7
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050736"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200015"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Naar identiteit en verder: het gezichtspunt van één architect
 
@@ -135,7 +135,7 @@ Als u akkoord gaat met deze uitgebreide definitie van autorisatie, moet u aanvul
 - [Azure AD Identity Protection](/azure/active-directory/identity-protection/) 
 - [Microsoft Defender for Identity](/azure-advanced-threat-protection/)
 - [Microsoft Defender voor Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Microsoft Defender voor Office 365](../security/defender-365-security/defender-for-office-365.md?view=o365-worldwide)
+- [Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md?view=o365-worldwide)
 - [Microsoft Cloud App Security](/cloud-app-security/) (MCAS)
 - [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
 - [Microsoft Intune](/mem/intune/)
@@ -227,7 +227,7 @@ Soms vragen scenario's om een externe gebruiker toe te voegen aan een rol (zie d
 
 ### <a name="security-and-compliance-center-scc"></a>Beveiligings- en compliancecentrum (SCC)
 
-[Machtigingen in het Office 365-beveiligings- & compliancecentrum](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md) zijn een verzameling 'rollengroepen', die los staan van Azure AD-rollen. Dit kan verwarrend zijn omdat sommige van deze rollengroepen dezelfde naam hebben als Azure AD-rollen (bijvoorbeeld Beveiligingslezer), maar ze kunnen een ander lidmaatschap hebben. Ik geef de voorkeur aan het gebruik van Azure AD-rollen. Elke rollengroep bestaat uit een of meer 'rollen' (zie wat ik bedoel met het hergebruik van hetzelfde woord?) en bevat leden uit Azure AD, die objecten zijn die zijn ingeschakeld voor e-mail. U kunt ook een rollengroep maken met dezelfde naam als een rol, die al dan niet die rol bevat (vermijd deze verwarring).
+[Machtigingen in het Office 365-beveiligings- & compliancecentrum](../security/office-365-security/permissions-in-the-security-and-compliance-center.md) zijn een verzameling 'rollengroepen', die los staan van Azure AD-rollen. Dit kan verwarrend zijn omdat sommige van deze rollengroepen dezelfde naam hebben als Azure AD-rollen (bijvoorbeeld Beveiligingslezer), maar ze kunnen een ander lidmaatschap hebben. Ik geef de voorkeur aan het gebruik van Azure AD-rollen. Elke rollengroep bestaat uit een of meer 'rollen' (zie wat ik bedoel met het hergebruik van hetzelfde woord?) en bevat leden uit Azure AD, die objecten zijn die zijn ingeschakeld voor e-mail. U kunt ook een rollengroep maken met dezelfde naam als een rol, die al dan niet die rol bevat (vermijd deze verwarring).
 
 In zekere zin zijn dit een evolutie van het Exchange-rolgroepenmodel. Exchange Online heeft echter een eigen [interface voor rollengroepbeheer.](/exchange/permissions-exo) Sommige rollengroepen in Exchange Online worden vergrendeld en beheerd vanuit Azure AD & het Beveiligings- & Compliancecentrum, maar andere kunnen dezelfde of soortgelijke namen hebben en worden beheerd in Exchange Online (wat de verwarring kan vergroten). Ik raad u aan de gebruikersinterface van Exchange Online te vermijden, tenzij u ruimte nodig hebt voor Exchange-beheer.
 

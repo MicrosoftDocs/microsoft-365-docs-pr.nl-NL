@@ -583,3 +583,7 @@
 #### [Problemen met het verminderen van aanvallen oplossen]()
 ##### [Netwerkbeveiliging](troubleshoot-np.md)
 ##### [Surface Reduction-regels voor aanvallen](troubleshoot-asr.md)
+
+# [Microsoft 365-beveiliging](../index.yml)
+# [Microsoft 365 Defender](../defender/index.yml)
+# [Defender voor Office 365](../office-365-security/overview.md)

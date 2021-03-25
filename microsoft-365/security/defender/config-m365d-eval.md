@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 5ab4019751a26507fcc80007d3262f20f861d25c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8bb80e032fd2eb4c618b60f4ab46829d5cf11b6d
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057986"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199227"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender-pilaren configureren voor uw proeflaboratorium of testomgeving
 
@@ -57,7 +57,7 @@ In deze sectie wordt u begeleid bij het configureren:
 -   Microsoft Defender voor Office 365
 -   Microsoft Defender for Identity 
 -   Microsoft Cloud App Security
--   Microsoft Defender for Endpoint
+-   Microsoft Defender voor Eindpunt
 
 
 ## <a name="configure-microsoft-defender-for-office-365"></a>Microsoft Defender configureren voor Office 365
@@ -96,7 +96,7 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
  
 7. Selecteer vervolgens het beleid **voor veilige** koppelingen en klik vervolgens op het potloodpictogram om het standaardbeleid te bewerken.
 
-8. Zorg ervoor dat de optie **Niet bijhouden wanneer gebruikers op** veilige koppelingen klikken niet is geselecteerd, terwijl de overige opties zijn geselecteerd. Zie [Instellingen voor veilige koppelingen](/microsoft-365/security/defender-365-security/recommended-settings-for-eop-and-office365) voor meer informatie. Klik op **Opslaan**. 
+8. Zorg ervoor dat de optie **Niet bijhouden wanneer gebruikers op** veilige koppelingen klikken niet is geselecteerd, terwijl de overige opties zijn geselecteerd. Zie [Instellingen voor veilige koppelingen](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365) voor meer informatie. Klik op **Opslaan**. 
 
    ![Afbeelding of_Office pagina 365 Beveiligingscentrum & waarin wordt weergegeven dat de optie Niet bijhouden wanneer gebruikers op veilig klikken niet is geselecteerd](../../media/mtp-eval-38.png)
 

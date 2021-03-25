@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Voorkom inbreuken op persoonlijke gegevens met identiteits-, apparaat- en bedreigingsbeveiligingsservices van Microsoft 365.
-ms.openlocfilehash: 145b8a59f7eafb95adf71dc24613ee15ef1c2cca
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5e08ef574e199769e572b3836b3323dc88fc4bbd
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052348"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199463"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Identiteits-, apparaat- en bedreigingsbeveiliging gebruiken voor privacyregels voor gegevens
 
@@ -70,7 +70,7 @@ Microsoft [Endpoint Manager gebruiken](https://www.microsoft.com/microsoft-365/m
 - Vereisen dat mobiele apparaten worden vergrendeld bij inactiviteit.
 - Vereisen dat mobiele apparaten meerdere aanmeldingsfouten wissen.
 
-Gebruik [Exchange Online Protection en Microsoft Defender voor Office 365](../security/defender-365-security/defender-for-office-365.md) voor de categorie Beschermen **tegen** bedreigingen, waarmee u het volgende kunt doen:
+Gebruik [Exchange Online Protection en Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md) voor de categorie Beschermen **tegen** bedreigingen, waarmee u het volgende kunt doen:
 
 - Afzenderverificatie (SPF, DMARC en DKIM) inschakelen.
 - Microsoft Defender voor Office 365 anti-phishingbeleid instellen.
@@ -81,8 +81,8 @@ Gebruik [Exchange Online Protection en Microsoft Defender voor Office 365](../se
 
 ### <a name="references"></a>Verwijzingen:
 
-- [Algemeen beleid voor identiteiten en apparaattoegang](../security/defender-365-security/identity-access-policies.md)
+- [Algemeen beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
 - [Beschermen tegen bedreigingen in Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [Veilige bijlagen](../security/defender-365-security/safe-attachments.md)
-- [Veilige koppelingen](../security/defender-365-security/safe-links.md)
-- [Veilige documenten](../security/defender-365-security/safe-docs.md)
+- [Veilige bijlagen](../security/office-365-security/safe-attachments.md)
+- [Veilige koppelingen](../security/office-365-security/safe-links.md)
+- [Veilige documenten](../security/office-365-security/safe-docs.md)

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 17d55a434cc0499b9b24039f19ec7ed3c94310e8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6582e4e940dc9910e7d341c92b525379b924f35b
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056635"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199955"
 ---
 # <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>Aangepaste rollen in toegangsbeheer op basis van rollen voor Microsoft 365 Defender
 
@@ -53,7 +53,7 @@ Gebruikers met bestaande aangepaste rollen hebben toegang tot gegevens in het Mi
 Aangepaste rollen en machtigingen kunnen worden gemaakt en afzonderlijk worden beheerd via elk van de volgende beveiligingsportalen: 
 
 - Microsoft Defender voor eindpunt: [rollen bewerken in Microsoft Defender voor eindpunt](../defender-endpoint/user-roles.md)
-- Microsoft Defender voor Office 365: [machtigingen in het beveiligings- & compliancecentrum](../defender-365-security/permissions-in-the-security-and-compliance-center.md?preserve-view=true&view=o365-worldwide)
+- Microsoft Defender voor Office 365: [machtigingen in het beveiligings- & compliancecentrum](../office-365-security/permissions-in-the-security-and-compliance-center.md?preserve-view=true&view=o365-worldwide)
 - Microsoft Cloud App Security – [Beheerderstoegang beheren](/cloud-app-security/manage-admins)
 
 Elke aangepaste rol die is gemaakt via een afzonderlijke portal, biedt toegang tot de gegevens van de relevante productportal. Een aangepaste rol die bijvoorbeeld is gemaakt via Microsoft Defender voor Eindpunt, biedt alleen toegang tot Gegevens van Defender voor eindpunten.

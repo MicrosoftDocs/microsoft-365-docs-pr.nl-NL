@@ -14,20 +14,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor verificatie alleen in de cloud.
-ms.openlocfilehash: 537718eb0efcffc296162a4458158efcbdad9986
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 927aa032e4181206b3a744da7076b696ac5cf4d4
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051542"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199547"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor de cloud alleen in uw Microsoft 365-testomgeving.
 
 *Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*
 
-[Configuraties voor identiteits-](../security/defender-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een reeks aanbevolen configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services te beschermen die zijn geïntegreerd met Azure Active Directory (Azure AD).
+[Configuraties voor identiteits-](../security/office-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een reeks aanbevolen configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services te beschermen die zijn geïntegreerd met Azure Active Directory (Azure AD).
 
-In dit artikel wordt beschreven hoe een Microsoft 365-testomgeving kan worden geconfigureerd die voldoet aan de voorwaarden van de [vereiste configuratie alleen in de cloud](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
+In dit artikel wordt beschreven hoe een Microsoft 365-testomgeving kan worden geconfigureerd die voldoet aan de voorwaarden van de [vereiste configuratie alleen in de cloud](../security/office-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
 
 Er zijn acht fasen om deze testomgeving in te stellen:
 
@@ -109,11 +109,11 @@ Voor Skype voor Bedrijven Online:
   Get-CsOAuthConfiguration
   ```
 
-Het resultaat is een testomgeving die voldoet aan de vereisten van de configuratie die [alleen in](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) de cloud vereist is voor identiteits- en apparaattoegang. 
+Het resultaat is een testomgeving die voldoet aan de vereisten van de configuratie die [alleen in](../security/office-365-security/identity-access-prerequisites.md#prerequisites) de cloud vereist is voor identiteits- en apparaattoegang. 
 
 ## <a name="next-step"></a>Volgende stap
 
-Gebruik [algemeen beleid voor identiteits- en apparaattoegang](../security/defender-365-security/identity-access-policies.md) voor het configureren van het beleid dat is gebaseerd op de vereisten, en bescherm identiteiten en apparaten.
+Gebruik [algemeen beleid voor identiteits- en apparaattoegang](../security/office-365-security/identity-access-policies.md) voor het configureren van het beleid dat is gebaseerd op de vereisten, en bescherm identiteiten en apparaten.
 
 ## <a name="see-also"></a>Zie ook
 

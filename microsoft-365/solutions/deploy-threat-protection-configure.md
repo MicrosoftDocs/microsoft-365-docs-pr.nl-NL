@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a5ff570439dfecd287a5a5975358262af71d8025
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bd7c98f5888f8dc93a8aa341b186ea744d5b2882
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051016"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199931"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Mogelijkheden voor bedreigingsbeveiliging configureren in Microsoft 365
 
@@ -42,13 +42,13 @@ Microsoft heeft een specifieke set voorwaardelijke toegang en verwante beleidsre
 
 ![Proces voor het implementeren van basislijnbeveiliging](../media/deploy-threat-protection/deploy-threat-protection-identity-access-steps.png) 
 
-1. [Vereisten configureren, waaronder Azure AD Identity Protection](../security/defender-365-security/identity-access-prerequisites.md).
-2. [Algemene beleidsregels voor identiteits- en apparaattoegang configureren](../security/defender-365-security/identity-access-policies.md) voor basislijnbeveiliging.
-3. Beleid configureren [voor gastgebruikers,](../security/defender-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/defender-365-security/teams-access-policies.md) [Exchange Online](../security/defender-365-security/secure-email-recommended-policies.md)en [SharePoint Online en OneDrive.](../security/defender-365-security/sharepoint-file-access-policies.md)
+1. [Vereisten configureren, waaronder Azure AD Identity Protection](../security/office-365-security/identity-access-prerequisites.md).
+2. [Algemene beleidsregels voor identiteits- en apparaattoegang configureren](../security/office-365-security/identity-access-policies.md) voor basislijnbeveiliging.
+3. Beleid configureren [voor gastgebruikers,](../security/office-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/office-365-security/teams-access-policies.md) [Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)en [SharePoint Online en OneDrive.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 ### <a name="more-information-about-protecting-identities"></a>Meer informatie over het beveiligen van identiteiten
 
-- [Configuratie van identiteiten en apparaattoegang](../security/defender-365-security/microsoft-365-policies-configurations.md)
+- [Configuratie van identiteiten en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md)
 - [Beveiligingsadvies voor Azure MFA](/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
 ## <a name="step-2-configure-microsoft-defender-for-identity"></a>Stap 2: Microsoft Defender configureren voor identiteit
@@ -96,11 +96,11 @@ Microsoft 365 Defender maakt waarschuwingen, incidenten, geautomatiseerd onderzo
 
 ## <a name="step-4-configure-microsoft-defender-for-office-365"></a>Stap 4: Microsoft Defender configureren voor Office 365
 
-[Microsoft Defender voor Office 365](../security/defender-365-security/defender-for-office-365.md) beschermt uw organisatie tegen schadelijke bedreigingen in e-mailberichten (bijlagen en URL's), Office-documenten en samenwerkingshulpmiddelen. In de volgende tabel vindt u de functies en mogelijkheden van Microsoft Defender voor Office 365 die zijn opgenomen in Microsoft 365 E5:
+[Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md) beschermt uw organisatie tegen schadelijke bedreigingen in e-mailberichten (bijlagen en URL's), Office-documenten en samenwerkingshulpmiddelen. In de volgende tabel vindt u de functies en mogelijkheden van Microsoft Defender voor Office 365 die zijn opgenomen in Microsoft 365 E5:
 
 |Configuratie-, beveiligings- en detectiemogelijkheden|Automatiserings-, onderzoeks-, herstel- en onderwijsmogelijkheden|
 |---|---|
-|[Veilige bijlagen](../security/defender-365-security/safe-attachments.md)<br/>[Veilige koppelingen](../security/defender-365-security/safe-links.md)<br/>[Veilige documenten](../security/defender-365-security/safe-docs.md)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](../security/defender-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Bescherming tegen phishing in Defender voor Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[Bedreigingsoverzichten](../security/defender-365-security/threat-trackers.md)<br/>[Bedreigingsverkenner](../security/defender-365-security/threat-explorer.md)<br/>[Geautomatiseerd onderzoek en reactie](../security/defender-365-security/office-365-air.md)<br/>[Aanvalssimulator](../security/defender-365-security/attack-simulator.md)|
+|[Veilige bijlagen](../security/office-365-security/safe-attachments.md)<br/>[Veilige koppelingen](../security/office-365-security/safe-links.md)<br/>[Veilige documenten](../security/office-365-security/safe-docs.md)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Bescherming tegen phishing in Defender voor Office 365](../security/office-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[Bedreigingsoverzichten](../security/office-365-security/threat-trackers.md)<br/>[Bedreigingsverkenner](../security/office-365-security/threat-explorer.md)<br/>[Geautomatiseerd onderzoek en reactie](../security/office-365-security/office-365-air.md)<br/>[Aanvalssimulator](../security/office-365-security/attack-simulator.md)|
 |
 
 Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veiliger communiceren en samenwerken, met bescherming tegen bedreigingen voor hun e-mailinhoud en Office-documenten.
@@ -109,14 +109,14 @@ Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veilige
 
 ![Proces voor de implementatie van Microsoft Defender voor Office 365](../media/deploy-threat-protection/deploy-office365-atp-steps.png) 
 
-1. [Uw Microsoft Defender voor Office 365-beleid instellen en configureren.](../security/defender-365-security/protect-against-threats.md)
-2. [Bekijk en gebruik uw Microsoft Defender voor Office 365-rapporten.](../security/defender-365-security/view-reports-for-mdo.md)
-3. [Gebruik mogelijkheden voor bedreigingsonderzoek en -reactie.](../security/defender-365-security/office-365-ti.md)
+1. [Uw Microsoft Defender voor Office 365-beleid instellen en configureren.](../security/office-365-security/protect-against-threats.md)
+2. [Bekijk en gebruik uw Microsoft Defender voor Office 365-rapporten.](../security/office-365-security/view-reports-for-mdo.md)
+3. [Gebruik mogelijkheden voor bedreigingsonderzoek en -reactie.](../security/office-365-security/office-365-ti.md)
 
 ### <a name="more-information-about-microsoft-defender-for-office-365"></a>Meer informatie over Microsoft Defender voor Office 365
 
-- [Overzicht van Microsoft Defender voor Office 365](../security/defender-365-security/defender-for-office-365.md)
-- [Nieuwe functies in Microsoft Defender voor Office 365](../security/defender-365-security/whats-new-in-defender-for-office-365.md)
+- [Overzicht van Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md)
+- [Nieuwe functies in Microsoft Defender voor Office 365](../security/office-365-security/whats-new-in-defender-for-office-365.md)
 
 ## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>Stap 5: Microsoft Defender configureren voor eindpunt
 
