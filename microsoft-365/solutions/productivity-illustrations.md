@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 423840ae62d0531da76044238bbeef05078a82c8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cc526371fdf12314f762c885ba1775fcf3f00d00
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907986"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215550"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
@@ -33,7 +33,7 @@ De logische architectuur van productiviteitsservices in Microsoft 365, geleid do
 
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>Groepen in Microsoft 365 voor IT-architecten
-Wat IT-architecten moeten weten over Microsoft 365-groepen
+Deze afbeelding bevat informatie voor IT-architecten over Microsoft 365 Groepen. Zie Veilige samenwerking instellen met [Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams) en Wat is samenwerkingsbeheer? voor meer informatie over het configureren en beheren van Microsoft 365 Groepen en teams voor samenwerking in uw [organisatie.](/microsoft-365/solutions/collaboration-governance-overview)
 
 | Item | Beschrijving |
 |:-----|:-----|
@@ -52,7 +52,7 @@ Deze reeks illustraties maakt gebruik van een van de meest gereguleerde bedrijfs
 
 
 ### <a name="security-and-information-protection-for-multi-region-organizations"></a>Beveiliging en informatiebescherming voor organisaties met meerdere regio's
-Beveiliging en informatiebescherming voor organisaties met meerdere regio's en een enkele microsoft 365-tenant
+Beveiliging en informatiebeveiliging voor organisaties met meerdere regio's met één Microsoft 365-tenant
 
 | Item | Beschrijving |
 |:-----|:-----|
