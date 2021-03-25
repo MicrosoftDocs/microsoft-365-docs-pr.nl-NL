@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 3b2e5d834caab9973006eda64e369a2a6aa17b5d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 142bc305950f9322c90e0d207f255c14abbc6b8c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163313"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197931"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Het overzicht van het geïntegreerde Microsoft 365-beveiligingscentrum
 
@@ -36,7 +36,7 @@ ms.locfileid: "51163313"
 
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 - [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [Microsoft Defender voor Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 
 > Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](m365d-pilot.md?ocid=cx-evalpilot)
 
@@ -44,7 +44,7 @@ Het verbeterde **Microsoft 365-beveiligingscentrum** () combineert beveiliging, 
 
 Microsoft 365-beveiligingscentrum brengt functionaliteit samen van bestaande Microsoft-beveiligingsportalen, zoals Microsoft Defender-beveiligingscentrum en het Office 365-beveiligingscentrum & Compliancecentrum. Het beveiligingscentrum benadrukt snelle toegang tot informatie, eenvoudigere indelingen en het samenbrengen van gerelateerde informatie voor eenvoudiger gebruik. Dit centrum bevat:
 
-- **[Microsoft Defender voor Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365)** Microsoft Defender voor Office 365 helpt organisaties hun bedrijf te beveiligen met een reeks preventie-, detectie-, onderzoeks- en zoekfuncties om e-mail en Office 365-bronnen te beschermen.
+- **[Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)** Microsoft Defender voor Office 365 helpt organisaties hun bedrijf te beveiligen met een reeks preventie-, detectie-, onderzoeks- en zoekfuncties om e-mail en Office 365-bronnen te beschermen.
 - **[Microsoft Defender voor Eindpunt biedt](/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection)** preventieve beveiliging, detectie na inbreuk, geautomatiseerd onderzoek en antwoord voor apparaten in uw organisatie.
 - **[Microsoft 365 Defender](microsoft-365-defender.md)** maakt deel uit van de XDR-oplossing *(Extended Detection and Response)* van Microsoft, die gebruik maakt van de Microsoft 365-beveiligingsportfolio om bedreigingsgegevens in domeinen automatisch te analyseren en een afbeelding te maken van een aanval op één dashboard.
 
@@ -103,7 +103,7 @@ Veelgebruikte besturingselementen en inhoud worden op dezelfde plaats weergegeve
 
 ![Machtigingen & pagina Rollen met eindpunten & groepen, rollen en apparaatgroepen.](../../media/converged-roles-5.png)
 
- Access het Microsoft 365-beveiligingscentrum is geconfigureerd met globale azure Active Directory-rollen of met aangepaste rollen. Zie Gebruikerstoegang toewijzen aan [het Microsoft Defender-beveiligingscentrum](/microsoft-365/security/defender-endpoint/assign-portal-access)voor Defender voor Eindpunt. Zie Machtigingen in het [Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum voor Defender voor Office 365.](../defender-365-security/permissions-microsoft-365-compliance-security.md)
+ Access het Microsoft 365-beveiligingscentrum is geconfigureerd met globale azure Active Directory-rollen of met aangepaste rollen. Zie Gebruikerstoegang toewijzen aan [het Microsoft Defender-beveiligingscentrum](/microsoft-365/security/defender-endpoint/assign-portal-access)voor Defender voor Eindpunt. Zie Machtigingen in het [Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum voor Defender voor Office 365.](../office-365-security/permissions-microsoft-365-compliance-security.md)
 
 - Meer informatie over het beheren [van toegang tot Microsoft 365 Defender](m365d-permissions.md)
 - Meer informatie over het maken [van aangepaste rollen](custom-roles.md) in het Microsoft 365-beveiligingscentrum
@@ -179,7 +179,7 @@ Blijf de functies en mogelijkheden in het Microsoft 365-beveiligingscentrum verk
 - [Dreigingen in apparaten, e-mailberichten, apps en identiteiten opsporen](./advanced-hunting-query-emails-devices.md)
 - [Aangepaste regels voor detectie](./custom-detection-rules.md)
 - [Waarschuwingen voor E-mail en samenwerking](../../compliance/alert-policies.md#default-alert-policies)
-- [Maak een phishing-aanvalssimulatie](../defender-365-security/attack-simulation-training.md) [en maak een payload voor het trainen van uw teams](/microsoft-365/security/defender-365-security/attack-simulation-training-payloads)
+- [Maak een phishing-aanvalssimulatie](../office-365-security/attack-simulation-training.md) [en maak een payload voor het trainen van uw teams](/microsoft-365/security/office-365-security/attack-simulation-training-payloads)
  
 ### <a name="related-information"></a>Gerelateerde informatie
 - [Microsoft 365-beveiligingscentrum](overview-security-center.md)

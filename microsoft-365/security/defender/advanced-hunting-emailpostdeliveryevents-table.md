@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 25f1a177571862e92c502b584bbd51801141069a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8940d1dd370f804f8539bf4e753b1112d3c8d3bf
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060593"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198195"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -58,8 +58,8 @@ Voor meer informatie over afzonderlijke e-mailberichten kunt u ook de [`EmailEve
 ## <a name="supported-event-types"></a>Ondersteunde gebeurtenistypen
 In deze tabel worden gebeurtenissen met de volgende waarden `ActionType` vast gelegd:
 
-- **Handmatig herstellen:** een beheerder heeft handmatig actie ondernomen voor een e-mailbericht nadat het is bezorgd in het postvak van de gebruiker. Dit geldt ook voor acties die handmatig worden ondernomen via [Threat Explorer](../defender-365-security/threat-explorer.md) of goedkeuringen van geautomatiseerde onderzoek- en [antwoordacties (AIR).](m365d-autoir-actions.md)
-- **Phish ZAP** – [Zero-hour Auto Purge (ZAP)](../defender-365-security/zero-hour-auto-purge.md) heeft actie ondernomen op een phishing-e-mail na de bezorging.
+- **Handmatig herstellen:** een beheerder heeft handmatig actie ondernomen voor een e-mailbericht nadat het is bezorgd in het postvak van de gebruiker. Dit geldt ook voor acties die handmatig worden ondernomen via [Threat Explorer](../office-365-security/threat-explorer.md) of goedkeuringen van geautomatiseerde onderzoek- en [antwoordacties (AIR).](m365d-autoir-actions.md)
+- **Phish ZAP** – [Zero-hour Auto Purge (ZAP)](../office-365-security/zero-hour-auto-purge.md) heeft actie ondernomen op een phishing-e-mail na de bezorging.
 - **Malware ZAP** - Zap (Zero Hour Auto Purge) heeft actie ondernomen op een e-mailbericht dat malware bevat na de bezorging.
 
 ## <a name="related-topics"></a>Verwante onderwerpen

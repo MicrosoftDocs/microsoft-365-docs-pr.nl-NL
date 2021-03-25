@@ -2,7 +2,7 @@
 title: Microsoft Defender ATP voor Mac
 ms.reviewer: ''
 description: Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt voor Mac.
-keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, catalina, mojave, high sierra
+keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, big sur, catalina, mojave
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6af8a6e0e23201f3c5861cb6a28b2bffa0f04ea4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 34150088379445d66006c757b2c8ea607865bf4c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186435"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198991"
 ---
 # <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender voor Eindpunt voor Mac
 
@@ -80,9 +80,9 @@ De drie meest recente grote versies van macOS worden ondersteund.
 > Voor macOS 11 (Big Sur) vereist Microsoft Defender voor Eindpunt extra configuratieprofielen. Als u een bestaande klant bent die upgradet van eerdere versies van macOS, moet u de aanvullende configuratieprofielen implementeren die worden vermeld in Nieuwe configuratieprofielen voor [macOS Catalina](mac-sysext-policies.md)en nieuwere versies van macOS.
 
 > [!IMPORTANT]
-> Ondersteuning voor macOS 10.13 (High Sierra) wordt stopgezet op 15 februari 2021.
+> Ondersteuning voor macOS 10.13 (High Sierra) is stopgezet vanaf 15 februari 2021.
 
-- 11 (Big Sur), 10.15 (Catalina), 10.14 (Mojave), 10.13 (High Sierra)
+- 11 (Big Sur), 10,15 (Catalina), 10,14 (Mojave)
 - Schijfruimte: 1 GB
 
 Bètaversies van macOS worden niet ondersteund.

@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0196148c9dbf3ec769594d714524a3fd9e4d18fd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d468a77d2c1ab4f1b363e2e91b6e8507a5390d93
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185955"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198481"
 ---
 # <a name="create-indicators-for-ips-and-urlsdomains"></a>Indicatoren maken voor IPs en URL's/domeinen 
 
@@ -34,7 +34,8 @@ ms.locfileid: "51185955"
 
 
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> [!TIP]
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 
 Defender voor Eindpunt kan blokkeren wat Microsoft als schadelijke URL's/URL's ziet, via Windows Defender SmartScreen voor Microsoft-browsers en via Netwerkbeveiliging voor niet-Microsoft-browsers of oproepen die buiten een browser worden gemaakt.
@@ -57,8 +58,10 @@ Het is belangrijk om de volgende vereisten te begrijpen voordat u indicatoren ma
 
 > [!IMPORTANT]
 > Alleen externe IP's kunnen worden toegevoegd aan de lijst met indicatoren. Indicatoren kunnen niet worden gemaakt voor interne IPs.
-> Voor scenario's voor webbeveiliging wordt u aangeraden de ingebouwde mogelijkheden in Microsoft Edge te gebruiken. Microsoft Edge maakt gebruik van [Netwerkbeveiliging om](network-protection.md) netwerkverkeer te controleren en maakt blokken voor TCP, HTTP en HTTPS (TLS) mogelijk. Voor alle andere processen maken scenario's voor webbeveiliging gebruik van Netwerkbeveiliging voor inspectie en handhaving: <br>
-> OPMERKING:
+> Voor scenario's voor webbeveiliging wordt u aangeraden de ingebouwde mogelijkheden in Microsoft Edge te gebruiken. Microsoft Edge maakt gebruik van [Netwerkbeveiliging om](network-protection.md) netwerkverkeer te controleren en maakt blokken voor TCP, HTTP en HTTPS (TLS) mogelijk. Als er conflicterende URL-indicatorbeleidsregels zijn, wordt het langere pad toegepast. Het beleid voor URL-indicator heeft `https:\\support.microsoft.com/en-us/office` bijvoorbeeld voorrang op het URL-indicatorbeleid. `https:\\support.microsoft.com`
+
+> [!NOTE]
+> Voor alle andere processen maken scenario's voor webbeveiliging gebruik van Netwerkbeveiliging voor inspectie en handhaving: 
 > - IP wordt ondersteund voor alle drie protocollen
 > - Alleen enkele IP-adressen worden ondersteund (geen CIDR-blokken of IP-bereik)
 > - Versleutelde URL's (volledig pad) kunnen alleen worden geblokkeerd in first party browsers (Internet Explorer, Edge)

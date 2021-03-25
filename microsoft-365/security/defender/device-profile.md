@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: ad341de0d0aed45ff3bf734e3c933b423eac3353
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c51c002d263452142a1bcf6fc5603d6ec4ef4cf7
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056636"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197967"
 ---
 # <a name="device-profile-page"></a>Pagina Apparaatprofiel
 
@@ -81,7 +81,7 @@ Acties die beschikbaar zijn op de pagina apparaatprofiel zijn:
 * **Antivirusscan uitvoeren-** Updates Windows Defender Antivirusdefinities en voert onmiddellijk een antivirusscan uit. Kies tussen Snel scannen of Volledige scan.
 * **Onderzoekspakket verzamelen:** verzamelt informatie over het apparaat. Wanneer het onderzoek is voltooid, kunt u het downloaden.
 * **Live-antwoordsessie starten:** laadt een externe shell op het apparaat voor [uitgebreide beveiligingsonderzoeken.](/microsoft-365/security/defender-endpoint/live-response)
-* **Automatisch onderzoek starten:** automatisch bedreigingen onderzoeken en [corrigeren.](../defender-365-security/office-365-air.md) Hoewel u handmatig automatische onderzoeken kunt activeren om vanaf deze pagina uit te [voeren,](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) worden bepaalde waarschuwingsbeleidsregels automatisch uitgevoerd.
+* **Automatisch onderzoek starten:** automatisch bedreigingen onderzoeken en [corrigeren.](../office-365-security/office-365-air.md) Hoewel u handmatig automatische onderzoeken kunt activeren om vanaf deze pagina uit te [voeren,](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) worden bepaalde waarschuwingsbeleidsregels automatisch uitgevoerd.
 * **Actiecentrum:** geeft informatie weer over alle antwoordacties die momenteel worden uitgevoerd.
 
 ## <a name="tabs-section"></a>Sectie Tabbladen
@@ -183,4 +183,4 @@ Als u een item selecteert, wordt een flyout geopend die naar de update wordt kop
 * [Overzicht van Microsoft 365 Defender](microsoft-365-defender.md)
 * [Microsoft 365 Defender in-](m365d-enable.md)
 * [Entiteiten op apparaten onderzoeken met livereactie](../defender-endpoint/live-response.md)
-* [Automatisch onderzoek en antwoord (AIR) in Office 365](../defender-365-security/office-365-air.md)
+* [Automatisch onderzoek en antwoord (AIR) in Office 365](../office-365-security/office-365-air.md)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 7affa7a2adaa166861c2932ebe32177335236114
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e45130d101c6e730fd2d487f5f8898c7cd268ab8
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050676"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197849"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om Microsoft 365 voor Bedrijven-abonnementen te beveiligen
 
@@ -132,7 +132,7 @@ Uw Microsoft 365-omgeving bevat bescherming tegen malware, maar u kunt deze beve
 
 6. Selecteer **Opslaan.**
 
-Zie Bescherming tegen [malware in EOP voor meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/anti-malware-protection)
+Zie Bescherming tegen [malware in EOP voor meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-malware-protection)
 
 ## <a name="5-protect-against-ransomware"></a>5: Beschermen tegen ransomware
 <a name="ransomware"> </a>
@@ -254,7 +254,7 @@ Als u een anti-phishingbeleid wilt maken in Defender voor Office 365, bekijkt u 
 
 4. Selecteer op de pagina Anti-phishing **+ Maken.** Er wordt een wizard gelanceerd om uw anti-phishingbeleid te definiëren.
 
-5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de onderstaande grafiek. Zie [Meer informatie over anti-phishingbeleid in opties voor Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/set-up-anti-phishing-policies) voor meer informatie.
+5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de onderstaande grafiek. Zie [Meer informatie over anti-phishingbeleid in opties voor Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) voor meer informatie.
 
 6. Nadat u de instellingen hebt gecontroleerd, **selecteert** u Dit beleid maken of **Opslaan,** naar eigen goed.
 
@@ -270,7 +270,7 @@ Als u een anti-phishingbeleid wilt maken in Defender voor Office 365, bekijkt u 
 |Toegepast op|Selecteer **Het domein van de geadresseerde is**. Selecteer **onder Een van deze** opties de optie **Kiezen**. Selecteer **+ Toevoegen.** Schakel het selectievakje naast de naam van het domein in, bijvoorbeeld contoso.com, in de lijst en selecteer **vervolgens Toevoegen.** Selecteer **Gereed**.|
 |
 
-Zie [Anti-phishingbeleid instellen in Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/configure-atp-anti-phishing-policies)voor meer informatie.
+Zie [Anti-phishingbeleid instellen in Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)voor meer informatie.
 
 ## <a name="9-protect-against-malicious-attachments-and-files-with-safe-attachments"></a>9: Beschermen tegen schadelijke bijlagen en bestanden met veilige bijlagen
 <a name="atp"> </a>
@@ -302,7 +302,7 @@ Als u een beleid voor veilige bijlagen wilt maken, bekijkt u een [korte training
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
 |
 
-Zie [Anti-phishingbeleid instellen in Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/configure-atp-anti-phishing-policies)voor meer informatie.
+Zie [Anti-phishingbeleid instellen in Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)voor meer informatie.
 
 ## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10: Beschermen tegen phishingaanvallen met veilige koppelingen
 <a name="phishingatp"> </a>
@@ -349,4 +349,4 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
 |
 
-Zie Veilige koppelingen [in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/atp-safe-links)voor meer informatie.
+Zie Veilige koppelingen [in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)voor meer informatie.

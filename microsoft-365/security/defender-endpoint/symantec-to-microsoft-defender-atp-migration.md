@@ -18,16 +18,16 @@ ms.collection:
 - M365-security-compliance
 - m365solution-symantecmigrate
 - m365solution-overview
-ms.topic: conceptual
+ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 35f1ce4bccbf2229106ef4b8417a44fe7c37cde5
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6517359c805bb449d075e401283a79a791461630
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183703"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198979"
 ---
 # <a name="migrate-from-symantec-to-microsoft-defender-for-endpoint"></a>Migreren van Symantec naar Microsoft Defender voor Eindpunt
 Als u van plan bent om over te schakelen van De beveiliging van Het eindpunt van Symantec (Symantec) naar [Microsoft Defender voor](https://docs.microsoft.com/windows/security/threat-protection) Eindpunt (Microsoft Defender voor Eindpunt), bent u op de juiste plaats. Gebruik dit artikel als handleiding.

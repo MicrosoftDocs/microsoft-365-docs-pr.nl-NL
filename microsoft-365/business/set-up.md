@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Ontdek de installatiestappen voor Microsoft 365 Business Premium, waaronder het toevoegen van een domein en gebruikers, het instellen van beveiligingsbeleid en meer.
-ms.openlocfilehash: 4d49ba7ccdb65691756aaa505d0856deb115595b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a06fb48ef5e1386a5c7b4df08500125f37943df6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052229"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198426"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Microsoft 365 Business Premium instellen in de installatiewizard
 
@@ -107,7 +107,7 @@ Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinre
 
 Het beleid dat u in de wizard hebt ingesteld, wordt automatisch toegepast op een [beveiligingsgroep](/office365/admin/create-groups/compare-groups#security-groups) met de naam *Alle gebruikers.* U kunt ook extra groepen maken om beleid toe te wijzen in het beheercentrum.
 
-1. Bij Het **vergroten van de** beveiliging tegen geavanceerde cyberdreigingen wordt aanbevolen dat u de standaardinstellingen accepteert om [Office 365 Advance Threat Protection](../security/defender-365-security/defender-for-office-365.md) bestanden en koppelingen in Office-apps te laten scannen.
+1. Bij Het **vergroten van de** beveiliging tegen geavanceerde cyberdreigingen wordt aanbevolen dat u de standaardinstellingen accepteert om [Office 365 Advance Threat Protection](../security/office-365-security/defender-for-office-365.md) bestanden en koppelingen in Office-apps te laten scannen.
 
     ![Schermafbeelding van de pagina Beveiliging verhogen.](../media/increasetreatprotection.png)
 

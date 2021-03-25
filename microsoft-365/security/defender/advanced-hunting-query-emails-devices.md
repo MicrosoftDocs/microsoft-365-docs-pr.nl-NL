@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 60de6ed5a53a5d778f041b1c609019d110d6b64b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e494bfe57c31c1d5044f72a8adb3e2548d531604
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060414"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199147"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Dreigingen in apparaten, e-mailberichten, apps en identiteiten opsporen
 
@@ -104,7 +104,7 @@ DeviceInfo
 ## <a name="hunting-scenarios"></a>Scenario's voor jagen
 
 ### <a name="list-logon-activities-of-users-that-received-emails-that-were-not-zapped-successfully"></a>Aanmeldingsactiviteiten lijst van gebruikers die e-mailberichten hebben ontvangen die niet zijn gezapeerd
-[Zap (Zero Hour Auto Purge)](../defender-365-security/zero-hour-auto-purge.md) adresseert schadelijke e-mailberichten nadat ze zijn ontvangen. Als ZAP mislukt, kan schadelijke code uiteindelijk worden uitgevoerd op het apparaat en accounts in gevaar brengen. Met deze query wordt gecontroleerd op aanmeldingsactiviteit die is uitgevoerd door de geadresseerden van e-mailberichten die niet zijn geadresseerd door ZAP.
+[Zap (Zero Hour Auto Purge)](../office-365-security/zero-hour-auto-purge.md) adresseert schadelijke e-mailberichten nadat ze zijn ontvangen. Als ZAP mislukt, kan schadelijke code uiteindelijk worden uitgevoerd op het apparaat en accounts in gevaar brengen. Met deze query wordt gecontroleerd op aanmeldingsactiviteit die is uitgevoerd door de geadresseerden van e-mailberichten die niet zijn geadresseerd door ZAP.
 
 ```kusto
 EmailPostDeliveryEvents 

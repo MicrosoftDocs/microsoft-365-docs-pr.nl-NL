@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 0902dce0af3c101cbaf7ff526beb71e9f46a1bf4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 434c318be404ffb04cac7a05664c8f001bb46507
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187515"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198859"
 ---
 # <a name="deploy-supported-services"></a>Ondersteunde services implementeren
 
@@ -78,7 +78,7 @@ Voor het implementeren van elke service is meestal inrichting voor uw tenant en 
 | Service | Inrichtingsinstructies | Eerste configuratie |
 | ------ | ------ | ------ |
 | Microsoft Defender voor Eindpunt | [Implementatiehandleiding voor Microsoft Defender voor eindpunten](../defender-endpoint/deployment-phases.md) | *Zie inrichtingsinstructies* |
-|Microsoft Defender voor Office 365 | *Geen, ingericht met Office 365* | [Beleid in Microsoft Defender voor Office 365 instellen](/microsoft-365/security/defender-365-security/defender-for-office-365#configure-atp-policies) |
+|Microsoft Defender voor Office 365 | *Geen, ingericht met Office 365* | [Beleid in Microsoft Defender voor Office 365 instellen](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) |
 | Microsoft Defender for Identity | [Snelstart: Uw Exemplaar van Microsoft Defender voor identiteit maken](/azure-advanced-threat-protection/install-atp-step1) | *Zie inrichtingsinstructies* |
 | Microsoft Cloud App Security | *Geen* | [Snelstart: Aan de slag met Microsoft Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security) |
 
@@ -89,6 +89,6 @@ Nadat u de ondersteunde services hebt geïmplementeerd, [schakelt u Microsoft 36
 - [Overzicht van Microsoft 365 Defender](microsoft-365-defender.md)
 - [Microsoft 365 Defender in-](m365d-enable.md)
 - [Overzicht van Microsoft Defender voor eindpunt](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Overzicht van Microsoft Defender voor Office 365](../defender-365-security/defender-for-office-365.md)
+- [Overzicht van Microsoft Defender voor Office 365](../office-365-security/defender-for-office-365.md)
 - [Overzicht van Microsoft Cloud App-beveiliging](/cloud-app-security/what-is-cloud-app-security)
 - [Overzicht van Microsoft Defender voor identiteit](/azure-advanced-threat-protection/what-is-atp)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 31928deddc2a504cc0b6c91af287e4977791c920
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1fd128a9b734606039438db1f6d9fbc36e93a3b9
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059197"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199007"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender voor Eindpunt voor klanten van de Amerikaanse overheid
 
@@ -76,25 +76,25 @@ De volgende besturingssysteemversies worden ondersteund:
 OS-versie | GCC | GCC High | DoD (PREVIEW)
 :---|:---|:---|:---
 Windows 10, versie 20H2 (met [KB4586853](https://support.microsoft.com/help/4586853)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Windows 10, versie 2004 (met [KB4586853](https://support.microsoft.com/help/4586853)) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 10, versie 1909 (met [KB4586819](https://support.microsoft.com/help/4586819)) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 10, versie 1903 (met [KB4586819](https://support.microsoft.com/help/4586819)) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 10, versie 1809 (met [KB4586839](https://support.microsoft.com/help/4586839)) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 10, versie 1803 (met [KB4598245](https://support.microsoft.com/help/4598245)) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 10, versie 1709 | ![Nee](/security/defender-endpoint/images/svg/check-no)<br>Opmerking: Wordt niet ondersteund | ![Ja ](/security/defender-endpoint/images/svg/check-yes) met [KB4499147](https://support.microsoft.com/help/4499147)<br>Opmerking: [Afgeschaft,](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)kunt u een upgrade uitvoeren | ![Nee](/security/defender-endpoint/images/svg/check-no)<br>Opmerking: Wordt niet ondersteund
-Windows 10, versie 1703 en eerder | ![Nee](/security/defender-endpoint/images/svg/check-no)<br>Opmerking: Wordt niet ondersteund | ![Nee](/security/defender-endpoint/images/svg/check-no)<br>Opmerking: Wordt niet ondersteund | ![Nee](/security/defender-endpoint/images/svg/check-no)<br>Opmerking: Wordt niet ondersteund
-Windows Server 2019 (met [KB4586839](https://support.microsoft.com/help/4586839)) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2016 | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2012 R2 | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2008 R2 SP1 | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 8.1 Enterprise | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 8 Pro | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 7 SP1 Enterprise | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows 7 SP1 Pro | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Linux | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling
-macOS | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling
-Android | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
-iOS | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
+Windows 10, versie 2004 (met [KB4586853](https://support.microsoft.com/help/4586853)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 10, versie 1909 (met [KB4586819](https://support.microsoft.com/help/4586819)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 10, versie 1903 (met [KB4586819](https://support.microsoft.com/help/4586819)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 10, versie 1809 (met [KB4586839](https://support.microsoft.com/help/4586839)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 10, versie 1803 (met [KB4598245](https://support.microsoft.com/help/4598245)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 10, versie 1709 | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund | ![Ja ](images/svg/check-yes.svg) met [KB4499147](https://support.microsoft.com/help/4499147)<br>Opmerking: [Afgeschaft,](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)kunt u een upgrade uitvoeren | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund
+Windows 10, versie 1703 en eerder | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund
+Windows Server 2019 (met [KB4586839](https://support.microsoft.com/help/4586839)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows Server 2016 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows Server 2012 R2 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows Server 2008 R2 SP1 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 8.1 Enterprise | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 8 Pro | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 7 SP1 Enterprise | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows 7 SP1 Pro | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Linux | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+macOS | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Android | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
+iOS | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
 
 > [!NOTE]
 > Wanneer een patch is opgegeven, moet deze worden geïmplementeerd vóór de onboarding van het apparaat om Defender voor Eindpunt te configureren naar de juiste omgeving.
@@ -107,9 +107,9 @@ De volgende besturingssysteemversies worden ondersteund bij het gebruik van [Azu
 
 OS-versie | GCC | GCC High | DoD (PREVIEW)
 :---|:---|:---|:---
-Windows Server 2016 | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2012 R2 | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2008 R2 SP1 | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
+Windows Server 2016 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows Server 2012 R2 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Windows Server 2008 R2 SP1 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 
 <br>
 
@@ -147,24 +147,24 @@ Dit zijn de bekende hiaten vanaf februari 2021:
 
 Functienaam | GCC | GCC High | DoD (PREVIEW)
 :---|:---|:---|:---
-Geautomatiseerd onderzoek en herstel: Live-antwoord | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Geautomatiseerd onderzoek en herstel: Reactie op Waarschuwingen voor Office 365 | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
-E-mailmeldingen | ![Nee](/security/defender-endpoint/images/svg/check-no) Uitrol | ![Nee](/security/defender-endpoint/images/svg/check-no) Uitrol | ![Nee](/security/defender-endpoint/images/svg/check-no) Uitrol
-Evaluatielaboratorium | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Beheer en API's: rapport over de status en naleving van apparaten | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Beheer en API's: integratie met producten van derden | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling
-Beheer en API's: Streaming API | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling
-Beheer en API's: rapport bedreigingsbeveiliging | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Bedreigings- & kwetsbaarheidsbeheer | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Dreigingsanalyse | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Filteren van webinhoud | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling
-Integraties: Azure Sentinel | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling
-Integraties: Microsoft Cloud App Security | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
-Integraties: Microsoft Compliance Manager | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
-Integraties: Microsoft Defender voor identiteit | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
-Integraties: Microsoft Defender voor Office 365 | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
-Integraties: Microsoft Endpoint DLP | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
-Integraties: Microsoft Intune | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling
-Integraties: Microsoft Power Automate & Azure Logic Apps | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling | ![Nee](/security/defender-endpoint/images/svg/check-no) In ontwikkeling
-Integraties: Skype voor Bedrijven / Teams | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes) | ![Ja](/security/defender-endpoint/images/svg/check-yes)
-Microsoft Threat Experts | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog | ![Nee](/security/defender-endpoint/images/svg/check-no) On engineering backlog
+Geautomatiseerd onderzoek en herstel: Live-antwoord | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Geautomatiseerd onderzoek en herstel: Reactie op Waarschuwingen voor Office 365 | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
+E-mailmeldingen | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol
+Evaluatielaboratorium | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Beheer en API's: rapport over de status en naleving van apparaten | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Beheer en API's: integratie met producten van derden | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Beheer en API's: Streaming API | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Beheer en API's: rapport bedreigingsbeveiliging | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Bedreigings- & kwetsbaarheidsbeheer | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Dreigingsanalyse | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Filteren van webinhoud | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Integraties: Azure Sentinel | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Integraties: Microsoft Cloud App Security | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
+Integraties: Microsoft Compliance Manager | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
+Integraties: Microsoft Defender voor identiteit | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
+Integraties: Microsoft Defender voor Office 365 | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
+Integraties: Microsoft Endpoint DLP | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
+Integraties: Microsoft Intune | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Integraties: Microsoft Power Automate & Azure Logic Apps | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Integraties: Skype voor Bedrijven / Teams | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Microsoft Threat Experts | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog

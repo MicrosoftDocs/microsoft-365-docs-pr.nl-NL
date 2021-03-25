@@ -22,12 +22,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/02/2021
-ms.openlocfilehash: b66640736e9dc3835919e39d482b2d38b0c9dcc7
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 57a515fec2baabba7146959a43737771ef5c8cfe
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183679"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197767"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
@@ -38,7 +38,7 @@ Wanneer een geautomatiseerd onderzoek wordt [](automated-investigations.md) uitg
 
 ## <a name="new-unified-investigation-page"></a>(NIEUW!) Geïntegreerde onderzoekspagina
 
-De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](microsoft-defender-endpoint.md) voor Eindpunt en Microsoft Defender voor [Office 365.](/microsoft-365/security/defender-365-security/office-365-atp) 
+De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](microsoft-defender-endpoint.md) voor Eindpunt en Microsoft Defender voor [Office 365.](/microsoft-365/security/office-365-security/office-365-atp) 
 
 > [!TIP]
 > Zie (NIEUW!) voor meer informatie over wat er [verandert. Geïntegreerde onderzoekspagina](/microsoft-365/security/mtp/mtp-autoir-results).
