@@ -1,0 +1,387 @@
+- name: Office 365-beveiliging
+  href: overview.md
+  expanded: true
+  items:
+    - name: Overzicht
+      items:
+        - name: Defender voor Office 365
+          href: defender-for-office-365.md
+        - name: Defender voor Office 365 evalueren
+          href: office-365-evaluation.md
+        - name: Nieuw in Defender voor Office 365
+          href: whats-new-in-defender-for-office-365.md
+        - name: Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
+          href: ../defender/microsoft-365-security-center-mdo.md
+        - name: Exchange Online Protection
+          items:
+            - name: Overzicht Exchange Online Protection
+              href: exchange-online-protection-overview.md
+            - name: EOP-functies
+              href: eop-features.md
+            - name: Machtigingen in standalone EOP
+              href: feature-permissions-in-eop.md
+            - name: Exchange-beheercentrum in standalone EOP
+              href: exchange-admin-center-in-exchange-online-protection-eop.md
+            - name: Ontvangers beheren in standalone EOP
+              href: manage-recipients-in-eop.md
+            - name: E-mailstroom in EOP
+              href: mail-flow-in-eop.md
+            - name: Quarantaine
+              href: quarantine-email-messages.md
+            - name: Controlerapporten in standalone EOP
+              href: auditing-reports-in-eop.md
+        - name: 'Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams'
+          href: turn-on-mdo-for-spo-odb-and-teams.md
+        - name: Overzicht van Microsoft 365-beveiligingscentrum
+          href: ../defender/overview-security-center.md
+        - name: Bedreigingsverkenner (en realtime detecties)
+          href: threat-explorer.md
+        - name: Entiteitspagina van e-mail
+          href: mdo-email-entity-page.md
+        - name: AIR-overzicht
+          href: office-365-air.md
+        - name: Hoe geautomatiseerd onderzoek en reactie werkt
+          href: automated-investigation-response-office.md
+        - name: Herstelacties
+          href: air-remediation-actions.md
+        - name: Beveiliging tegen malware
+          href: anti-malware-protection.md
+        - name: Beveiliging tegen ongewenste e-mail
+          href: anti-spam-protection.md
+        - name: Bescherming tegen phishing
+          href: anti-phishing-protection.md
+        - name: Beveiliging tegen adresvervalsing (spoofing)
+          href: anti-spoofing-protection.md
+        - name: Veilige bijlagen in Defender voor Office 365
+          href: safe-attachments.md
+        - name: Veilige koppelingen in Defender voor Office 365
+          href: safe-links.md
+        - name: Beveiliging tegen uitgaande spam
+          href: outbound-spam-controls.md
+        - name: Overzicht van beveiligingsdashboard
+          href: security-dashboard.md
+        - name: Hoe bedreigingsonderzoek en -reactie werkt
+          href: office-365-ti.md
+        - name: Reactie op beveiligingsincidenten in Office 365
+          href: office365-security-incident-response-overview.md
+        - name: E-mailstroominzichten in het Beveiligings- en compliancecentrum
+          href: mail-flow-insights-v2.md
+        - name: 'Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere wendbare organisaties'
+          href: microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
+    - name: Implementeren
+      items:
+        - name: Exchange Online Protection
+          items:
+            - name: Antiphishingbeleid configureren in EOP
+              href: configure-anti-phishing-policies-eop.md
+            - name: Standalone EOP configureren om spam te bezorgen in de map Ongewenste e-mail
+              href: ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
+            - name: Groepen beheren in standalone EOP
+              href: manage-groups-in-eop.md
+            - name: E-mailgebruikers beheren in standalone EOP
+              href: manage-mail-users-in-eop.md
+            - name: Je EOP-service instellen
+              href: set-up-your-eop-service.md
+        - name: Beveiligen tegen bedreigingen
+          href: protect-against-threats.md
+        - name: Defender voor Office 365 integreren met Defender voor Eindpunt
+          href: integrate-office-365-ti-with-mde.md
+        - name: Machtigingen in het beveiligings- en compliancecentrum
+          href: permissions-in-the-security-and-compliance-center.md
+        - name: SIEM-serverintegratie
+          href: siem-server-integration.md
+        - name: SIEM-integratie met Defender voor Office 365
+          href: siem-integration-with-office-365-ti.md
+        - name: Standaard beveiligen
+          href: secure-by-default.md
+        - name: Anti-phishingbeleid configureren in Defender voor Office 365
+          href: configure-atp-anti-phishing-policies.md
+        - name: Beleid tegen malware configureren
+          href: configure-anti-malware-policies.md
+        - name: Beleid tegen ongewenste e-mail configureren
+          href: configure-your-spam-filter-policies.md
+        - name: Filteren van verbinding configureren
+          href: configure-the-connection-filter-policy.md
+        - name: Algemene instellingen voor veilige koppelingen in Defender voor Office 365 configureren
+          href: configure-global-settings-for-safe-links.md
+        - name: Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
+          href: configure-junk-email-settings-on-exo-mailboxes.md
+        - name: Filteren van uitgaande spam configureren
+          href: configure-the-outbound-spam-policy.md
+        - name: Spoofberichten configureren
+          href: learn-about-spoof-intelligence.md
+        - name: Lijsten met geblokkeerde afzenders maken
+          href: Create-block-sender-lists-in-office-365.md
+        - name: Lijsten met veilige afzenders maken
+          href: Create-safe-sender-lists-in-office-365.md
+        - name: E-mailverificatie
+          href: email-validation-and-authentication.md
+        - name: Gebruikers toegang tot het beveiligingscentrum geven
+          href: grant-access-to-the-security-and-compliance-center.md
+        - name: Veilige documenten in Defender voor Office 365
+          href: safe-docs.md
+        - name: Beleid voor veilige koppelingen in Defender voor Office 365 instellen
+          href: set-up-safe-links-policies.md
+        - name: Beleid voor veilige bijlagen in Defender voor Office 365 instellen
+          href: set-up-safe-attachments-policies.md
+        - name: SPF instellen om adresvervalsing te helpen voorkomen
+          href: set-up-spf-in-office-365-to-help-prevent-spoofing.md
+        - name: Beleid voor inzendingen van gebruikers
+          href: user-submission.md
+        - name: Gebruikerstags in Defender voor Office 365
+          href: user-tags.md
+        - name: 'Veilige bijlagen uitschakelen voor SharePoint, OneDrive en Microsoft Teams'
+          href: turn-on-mdo-for-spo-odb-and-teams.md
+        - name: DKIM gebruiken om uitgaande e-mail te valideren
+          href: use-dkim-to-validate-outbound-email.md
+        - name: DMARC gebruiken om e-mail te valideren
+          href: use-dmarc-to-validate-email.md
+        - name: Ondersteuning toevoegen voor anonieme binnenkomende e-mail via IPv6
+          href: support-for-anonymous-inbound-email-messages-over-ipv6.md
+        - name: 'Application Guard voor Office installeren '
+          href: install-app-guard.md
+        - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
+          href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+        - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
+          href: create-team-sites-in-a-political-campaign-dev-test-environment.md
+    - name: Migreren
+      items:
+        - name: 'Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort'
+          href: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
+    - name: Voorkomen
+      items:
+        - name: Je tenant configureren voor betere beveiliging
+          href: tenant-wide-setup-for-increased-security.md
+        - name: Beveiligingsbeleid vooraf instellen
+          href: preset-security-policies.md
+        - name: Configuratie-analyse voor vooraf ingesteld beveiligingsbeleid
+          href: configuration-analyzer-for-security-policies.md
+        - name: Aanvalssimulatie in Defender voor Office 365
+          href: attack-simulator.md
+        - name: Aan de slag met aanvalssimulatietraining
+          href: attack-simulation-training-get-started.md
+        - name: Een phishing-aanval simuleren met een aanvalssimulatietraining
+          href: attack-simulation-training.md
+        - name: Een aangepaste nettolading maken voor aanvalssimulatietraining
+          href: attack-simulation-training-payloads.md
+        - name: Meer inzicht krijgen middels aanvalssimulatietraining
+          href: attack-simulation-training-insights.md
+        - name: Aanvalssimulatie traningimplementatieoverwegingen en veelgestelde vragen
+          href: attack-simulation-training-faq.md
+        - name: Aanbevolen instellingen voor het configureren van EOP en Defender voor Office 365-beveiliging
+          href: recommended-settings-for-eop-and-office365.md
+        - name: Aanbevolen procedures voor het configureren van EOP
+          href: best-practices-for-configuring-eop.md
+        - name: On-premises postvakken in China beveiligen met standalone EOP
+          href: protect-on-premises-mailboxes-with-exchange-online-protection.md
+        - name: AIR integreren met een aangepaste oplossing of een oplossing van derden
+          href: air-custom-reporting.md
+        - name: 'Geavanceerde spamfilterinstellingen (Advanced Spam Filter, ASF)'
+          href: advanced-spam-filtering-asf-options.md
+        - name: Tenant Toestaan/Blokkeren-lijst beheren
+          href: tenant-allow-block-list.md
+        - name: Berichttracering in het Beveiligings- en compliancecentrum
+          href: message-trace-scc.md
+        - name: Berichten en bestanden rapporteren aan Microsoft
+          href: report-junk-email-messages-to-microsoft.md
+        - name: E-mailstroomregels gebruiken om berichten met uitvoerbare bijlagen te blokkeren in standalone EOP
+          href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
+        - name: E-mailstroomregels gebruiken om bulk-e-mail te filteren in standalone EOP
+          href: use-transport-rules-to-configure-bulk-email-filtering.md
+        - name: Regels voor e-mailstroom gebruiken om de SCL in te stellen in berichten
+          href: use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
+        - name: Zero-Hour Auto Purge - beveiliging tegen ongewenste e-mail en malware
+          href: zero-hour-auto-purge.md
+    - name: Detecteren
+      items:
+        - name: Bedreigingsoverzichten gebruiken
+          href: threat-trackers.md
+        - name: Waarschuwingen weergeven
+          href: ../../compliance/alert-policies.md
+        - name: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
+          href: reports-and-insights-in-security-and-compliance.md
+        - name: De invoegtoepassing Bericht rapporteren inschakelen
+          href: enable-the-report-message-add-in.md
+        - name: De invoegtoepassing Phishing rapporteren inschakelen
+          href: enable-the-report-phish-add-in.md
+        - name: De invoegtoepassing Rapportage van ongewenste e-mail installeren en gebruiken
+          href: junk-email-reporting-add-in-for-microsoft-outlook.md
+        - name: E-mailstroomregels (transportregels) in standalone EOP
+          href: mail-flow-rules-transport-rules-0.md
+        - name: Ongewenste e-mail en phishing melden in de webversie van Outlook
+          href: report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+        - name: Ongewenste e-mail en phishing melden in de webversie van Outlook voor iOS en Android
+          href: report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
+        - name: Een rapport over groepen met beheerdersrollen uitvoeren in standalone EOP
+          href: run-an-administrator-role-group-report-in-eop-eop.md
+    - name: Onderzoeken
+      items:
+        - name: Weergaven van Bedreigingsverkenner
+          href: threat-explorer-views.md
+        - name: Campagneweergaven
+          href: campaigns.md
+        - name: Schadelijke e-mail onderzoeken
+          href: investigate-malicious-email-that-was-delivered.md
+        - name: Bekijk Defender voor Office 365-rapporten in het Beveiligings- en compliancecentrum
+          href: view-reports-for-mdo.md
+        - name: Details en resultaten van een geautomatiseerd onderzoek weergeven
+          href: air-view-investigation-results.md
+        - name: E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
+          href: view-email-security-reports.md
+        - name: E-mailstroominzichten in het Beveiligings- en compliancecentrum bekijken
+          href: view-mail-flow-reports.md
+        - name: Het auditlogboek van de beheerder bekijken in standalone EOP
+          href: view-the-admin-audit-log-eop.md
+        - name: Rapportage en berichttracering in standalone EOP
+          href: reporting-and-message-trace-in-exchange-online-protection.md
+        - name: Inzicht in automatisch doorgestuurde berichten
+          href: mfi-auto-forwarded-messages-report.md
+        - name: E-mailstroomkaart
+          href: mfi-mail-flow-map-report.md
+        - name: Berichten handmatig aan Microsoft verzenden
+          href: submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
+        - name: Inzicht in nieuwe domeinen waarnaar e-mails worden doorgestuurd
+          href: mfi-new-domains-being-forwarded-email.md
+        - name: Inzicht in nieuwe gebruikers die e-mails doorsturen
+          href: mfi-new-users-forwarding-email.md
+        - name: Rapport over niet-geaccepteerd domein
+          href: mfi-non-accepted-domain-report.md
+        - name: Rapport over niet-uitgevoerde bezorging
+          href: mfi-non-delivery-report.md
+        - name: Inzicht in uitgaande en binnenkomende e-mailstroom
+          href: mfi-outbound-and-inbound-mail-flow.md
+        - name: Inzicht in en rapport over SMTP-verificatieclients
+          href: mfi-smtp-auth-clients-report.md
+        - name: Malware en niet-malware aan Microsoft verzenden
+          href: submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+        - name: Inzicht in e-mailstroomstatus van hoofddomein
+          href: mfi-domain-mail-flow-status-insight.md
+        - name: Indienen als beheerder gebruiken
+          href: admin-submission.md
+        - name: Regels voor e-mailstromen gebruiken om te zien wat je gebruikers melden bij Microsoft
+          href: use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
+        - name: Inzicht in wachtrijen
+          href: mfi-queue-alerts-and-queues.md
+        - name: Stapsgewijze instructies voor inzicht in adresvervalsingsanalyses
+          href: walkthrough-spoof-intelligence-insight.md
+    - name: Beantwoorden
+      items:
+        - name: Gehackte gebruikersaccounts snel detecteren en adresseren
+          href: address-compromised-users-quickly.md
+        - name: Illegale verlening van toestemming detecteren en verhelpen in Office 365
+          href: detect-and-remediate-illicit-consent-grants.md
+        - name: Injectieaanvallen op Outlook-regels en aangepaste formulieren detecteren en verhelpen in Office 365
+          href: detect-and-remediate-outlook-rules-forms-attack.md
+        - name: Fout-positieven/-negatieven verwerken
+          href: air-report-false-positives-negatives.md
+        - name: Herstel na een ransomware-aanval
+          href: recover-from-ransomware.md
+        - name: Schadelijke e-mail verhelpen
+          href: remediate-malicious-email-delivered-office-365.md
+        - name: Reageren op een gehackt e-mailaccount in Office 365
+          href: responding-to-a-compromised-email-account.md
+        - name: Acties in behandeling controleren en goedkeuren (of afwijzen)
+          href: air-review-approve-pending-completed-actions.md
+        - name: Beveiliging tegen phishing afstemmen
+          href: tuning-anti-phishing.md
+        - name: Berichten in quarantaine zoeken en vrijgeven als gebruiker
+          href: find-and-release-quarantined-messages-as-a-user.md
+        - name: Inzicht in mogelijke e-maillus oplossen
+          href: mfi-mail-loop-insight.md
+        - name: Inzicht in regels voor langzame e-mailstroom oplossen
+          href: mfi-slow-mail-flow-rules-insight.md
+        - name: Berichten en bestanden in quarantaine beheren als beheerder
+          href: manage-quarantined-messages-and-files.md
+        - name: Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten
+          href: removing-user-from-restricted-users-portal-after-spam.md
+        - name: De delist-portal gebruiken om jezelf uit de lijst met geblokkeerde afzenders te verwijderen
+          href: use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
+    - name: Veelgestelde vragen
+      items:
+        - name: Veelgestelde vragen over gedelegeerd beheer
+          href: delegated-administration-faq.md
+        - name: Algemene veelgestelde vragen over EOP
+          href: eop-general-faq.md
+        - name: 'Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP'
+          href: eop-queued-deferred-and-bounced-messages-faq.md
+        - name: Veelgestelde vragen over beveiliging tegen malware
+          href: anti-malware-protection-faq-eop.md
+        - name: Veelgestelde vragen over beveiliging tegen ongewenste e-mail
+          href: anti-spam-protection-faq.md
+        - name: Veelgestelde vragen over beveiliging tegen adresvervalsing
+          href: anti-spoofing-protection-faq.md
+        - name: Veelgestelde vragen over quarantaine
+          href: quarantine-faq.md
+    - name: Verwijzing
+      items:
+        - name: Roadmap voor beveiliging
+          href: security-roadmap.md
+        - name: Help en ondersteuning voor EOP
+          href: help-and-support-for-eop.md
+        - name: Problemen met e-mailberichten die worden verzonden naar Microsoft 365 oplossen
+          href: troubleshooting-mail-sent-to-office-365.md
+        - name: Hoe Microsoft 365 gebruikmaakt van SPF om adresvervalsing te voorkomen
+          href: how-office-365-uses-spf-to-prevent-spoofing.md
+        - name: Hoe Office 365 het verzendadres valideert om phishing te voorkomen
+          href: how-office-365-validates-the-from-address.md
+        - name: Hoe beleid en beveiliging worden gecombineerd
+          href: how-policies-and-protections-are-combined.md
+        - name: Berichtkoppen tegen ongewenste e-mail
+          href: anti-spam-message-headers.md
+        - name: Beleid tegen phishing
+          href: set-up-anti-phishing-policies.md
+        - name: Backscatter in EOP
+          href: backscatter-messages-and-eop.md
+        - name: 'Bulkklachtniveau (bulk complaint level, BCL)'
+          href: bulk-complaint-level-values.md
+        - name: Spammeldingen voor eindgebruikers
+          href: use-spam-notifications-to-release-and-report-quarantined-messages.md
+        - name: Uitgaande bezorgingspools
+          href: high-risk-delivery-pool-for-outbound-messages.md
+        - name: E-mailstroomanalyse in EOP
+          href: mail-flow-intelligence-in-office-365.md
+        - name: 'Verwijzing: Beleid, procedures en richtlijnen'
+          href: reference-policies-practices-and-guidelines.md
+        - name: Veiligheidstips in e-mailberichten
+          href: safety-tips-in-office-365.md
+        - name: Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants
+          href: sample-script-for-applying-eop-settings-to-multiple-tenants.md
+        - name: E-mail verzenden naar Office 365
+          href: sending-mail-to-office-365.md
+        - name: Services voor niet-klanten
+          href: services-for-non-customers.md
+        - name: 'Spamwaarschijnlijkheidswaarde (spam confidence level, SCL)'
+          href: spam-confidence-levels.md
+        - name: Ondersteuning voor validatie van DKIM-ondertekende berichten
+          href: support-for-validation-of-dkim-signed-messages.md
+        - name: Virusdetectie in SharePoint Online
+          href: virus-detection-in-spo.md
+        - name: Wat is het verschil tussen ongewenste e-mail en bulkmail?
+          href: what-s-the-difference-between-junk-email-and-bulk-email.md
+        - name: S/MIME
+          href: s-mime-for-message-signing-and-encryption.md
+          items:
+            - name: S/MIME voor het ondertekenen en versleutelen van berichten
+              href: s-mime-for-message-signing-and-encryption.md
+            - name: S/MIME-instellingen voor de webversie van Outlook configureren
+              href: configure-s-mime-settings-for-outlook-web-app.md
+            - name: Met S/MIME ondertekende en versleutelde e-mail verzenden en ontvangen
+              href: send-and-receive-s-mime-signed-and-encrypted-email.md
+            - name: Gebruikerscertificaten synchroniseren met Microsoft 365 voor S/MIME
+              href: sync-user-certificates-to-office-365-for-s-mime.md
+            - name: Verzameling van virtuele certificaten instellen om S/MIME te valideren
+              href: set-up-virtual-certificate-collection-to-validate-s-mime.md
+            - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
+              href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+            - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
+              href: create-team-sites-in-a-political-campaign-dev-test-environment.md
+            - name: Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
+              href: move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
+            - name: Rollengroepen beheren in standalone EOP
+              href: manage-admin-role-group-permissions-in-eop.md
+    - name: Microsoft 365-beveiliging
+      href: ../index.yml
+    - name: Microsoft 365 Defender
+      href: ../defender/index.yml
+    - name: Microsoft Defender voor Eindpunt
+      href: ../defender-endpoint/index.yml
