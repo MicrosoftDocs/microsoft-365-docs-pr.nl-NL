@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen informatie krijgen over het weergeven en beheren van berichten in quarantaine voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook in quarantaine geplaatste bestanden beheren in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c606daccfd037cad4d894ab7f33ff02fcf172b5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3dee441a3442454c5f2978422d18a2084f8377f3
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204165"
+ms.locfileid: "51215534"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -197,6 +197,8 @@ Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u mo
 
 - **Bericht downloaden**: selecteer in het deelvenster dat wordt weergegeven **Ik begrijp de risico’s van het downloaden van dit bericht** om een lokale kopie van het bericht op te slaan in .eml-indeling.
 
+- **Afzender blokkeren:** hiermee wordt geblokkeerd dat de afzender geen e-mailberichten naar het postvak van de geadresseerde van de beheerder verstuurt.
+
 - **Bericht verzenden:** Kies de volgende opties in het flyoutvenster dat wordt weergegeven:
 
   - **Objecttype:** **E-mail** (standaard), **URL** of **Bijlage**.
@@ -307,6 +309,6 @@ De cmdlets die u gebruikt voor het weergeven en beheren van berichten en bestand
 
 - [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)Deze cmdlet is alleen voor berichten, niet voor malwarebestanden van Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams.
+- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)Deze cmdlet is alleen voor berichten, niet voor bestanden in quarantaine geplaatst vanuit veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams.
 
 - [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)

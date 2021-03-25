@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: U kunt beheercentrum gebruiken voor het instellen van uw organisatie in de cloud, het beheren van gebruikers en abonnementen. Ga aan de slag door u aan te melden bij het account met beheerdersmachtigingen.
-ms.openlocfilehash: dca9e5dd4cc8a35721014fa06c0bb844b608778c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7d326629de4859819784af015292f99b044658d0
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903546"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215490"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Over het Microsoft 365-beheercentrum
 
@@ -84,7 +84,7 @@ Hier vindt u de functies en instellingen die in het linkernavigatievenster van h
 |**Instellingen** <br/> |Beheer algemene instellingen voor apps, zoals e-mail, sites en de Office-suite. Wijzig het beleid en de vervaldatum voor uw wachtwoord. U kunt domeinnamen, zoals contoso.com, toevoegen en bijwerken. U kunt uw organisatieprofiel en de releasevoorkeuren wijzigen. En kies of partners toegang hebben tot uw beheercentrum.  <br/> |
 |**Installatie** <br/> |Bestaande domeinen beheren, meervoudige verificatie inschakelen en beheren, beheerderstoegang beheren, postvakken van gebruikers migreren naar Office 365, functie-updates beheren en gebruikers helpen hun Office-apps te installeren. |
 |**Rapporten** <br/> |Bekijk in één oogopslag hoe uw organisatie Microsoft 365 gebruikt met gedetailleerde rapporten over e-mailgebruik, Office-activeringen en meer. Lees hier hoe u de nieuwe [activiteitenoverzichten](../activity-reports/activity-reports.md) gebruikt.  <br/> |
-|**Status** <br/> |Bekijk in één oogopslag de servicestatus. U kunt ook meer informatie weergeven en de geschiedenis van de servicestatus bekijken. Bekijk [Hoe de servicestatus gecontroleerd moet worden](../../enterprise/view-service-health.md).  <br/> Gebruik Berichtencentrum om toekomstige wijzigingen in functies en services bij te houden. We posten er aankondigingen met informatie, op basis waarvan u planningen kunt maken voor wijzigingen en inzicht krijgt in hoe deze mogelijk van invloed zijn op gebruikers. Meer informatie vindt u in [Berichtencentrum in Office 365](../manage/message-center.md).  <br/> |
+|**Status** <br/> |Bekijk de status in één oogopslag. U kunt ook meer details en de statusgeschiedenis bekijken. Zie [De status van de service controleren en](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health) De status van [windows-release controleren](https://docs.microsoft.com/windows/deployment/update/check-release-health) voor meer informatie.  <br/><br/>Gebruik Berichtencentrum om toekomstige wijzigingen in functies en services bij te houden. We posten er aankondigingen met informatie, op basis waarvan u planningen kunt maken voor wijzigingen en inzicht krijgt in hoe deze mogelijk van invloed zijn op gebruikers. Meer informatie in [het Berichtencentrum.](../manage/message-center.md) <br/> |
 |**Beheercentra** <br/> |Open afzonderlijke beheercentra voor Exchange, Skype voor Bedrijven, SharePoint, Yammer en Microsoft Azure Active Directory. Elk beheercentrum bevat alle beschikbare instellingen voor deze service.  <br/> In het Exchange-beheercentrum kunt u bijvoorbeeld e-mail, agenda's, distributiegroepen en meer instellen en beheren. In het SharePoint-beheercentrum kunt u siteverzamelingen, site-instellingen en OneDrive voor Bedrijven maken en beheren. In het Skype voor Bedrijven-beheercentrum kunt u chatmeldingen, inbelvergaderingen, onlineaanwezigheid instellen.  <br/> Lees meer over het [Exchange-beheercentrum](/exchange/exchange-admin-center) en [SharePoint-beheercentrum](/sharepoint/sharepoint-online).<br/> **Opmerking:** De beheercentra, die voor u beschikbaar zijn, worden bepaald door uw abonnement en regio.           |
    
 ## <a name="common-tasks-in-the-admin-center"></a>Veelvoorkomende taken in het beheercentrum

@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Bekijk de status van Microsoft 365-services voordat u de ondersteuning belt om te zien of er een actieve serviceonderbreking is.
-ms.openlocfilehash: 3802ca01902d5b0d457d2a3d75b784d38f71bd42
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 30b677a80e5a08d75534a91aa04d735443660f18
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924682"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215478"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>De status van de Microsoft 365-service controleren
 
@@ -47,7 +47,7 @@ Als u zich niet kunt aanmelden bij het beheercentrum, kunt u de [pagina services
 1. Ga naar het Microsoft 365-beheercentrum bij [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) en meld u aan met een beheerdersaccount.
 
     > [!NOTE]
-    > Personen aan wie de rol globale beheerder of servicebeheerder is toegewezen, kunnen de servicestatus bekijken. Beheerders van Exchange, SharePoint en Skype voor Bedrijven dient de rol servicebeheerder te zijn toegewezen om de servicestatus te kunnen bekijken. Zie Over beheerdersrollen voor meer informatie over rollen die de status van de service [kunnen weergeven.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#roles-available-in-the-microsoft-365-admin-center)
+    > Personen aan wie de rol globale beheerder of servicebeheerder is toegewezen, kunnen de servicestatus bekijken. Beheerders van Exchange, SharePoint en Skype voor Bedrijven dient de rol servicebeheerder te zijn toegewezen om de servicestatus te kunnen bekijken. Zie Over beheerdersrollen voor meer informatie over rollen die de status van de service [kunnen weergeven.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles)
   
 2. Als u het nieuwe beheercentrum niet  gebruikt, selecteert u op de startpagina de schakelknop Het nieuwe **beheercentrum** uitproberen in de rechterbovenhoek.
 
@@ -153,4 +153,5 @@ Zie Transparante bewerkingen van [Microsoft 365](/office365/servicedescriptions/
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Activiteitenrapporten in het Microsoft 365-beheercentrum](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
- [Voorkeuren voor berichtencentrum](../admin/manage/message-center.md?preserve-view=true&view=o365-worldwide#preferences11)
+ [Voorkeuren voor berichtencentrum](../admin/manage/message-center.md?preserve-view=true&view=o365-worldwide#preferences)<br/>
+[Status van Windows-release controleren in het beheercentrum](https://docs.microsoft.com/windows/deployment/update/check-release-health)
