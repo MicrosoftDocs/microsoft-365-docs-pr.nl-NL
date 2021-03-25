@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 8784c8d608666946461ddc27aa2e7f2b740276a0
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 87da8a558e1295f793600aae2fdd836667374052
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185488"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218722"
 ---
 # <a name="migrate-from-symantec---phase-1-prepare-for-your-migration"></a>Migreren van Symantec - Fase 1: Voorbereiden op uw migratie
 
@@ -39,7 +39,7 @@ ms.locfileid: "51185488"
 |*U bent er!*| | |
 
 
-**Welkom bij de fase Voorbereiden van [de migratie van Symantec naar Microsoft Defender voor Eindpunt.](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)** 
+**Welkom bij de fase Voorbereiden van [de migratie van Symantec naar Microsoft Defender voor Eindpunt.](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)** 
 
 Deze migratiefase bevat de volgende stappen:
 1. [Microsoft Defender voor eindpunt krijgen.](#get-microsoft-defender-for-endpoint)
@@ -89,5 +89,5 @@ Als u communicatie tussen uw apparaten en Microsoft Defender voor Eindpunt wilt 
 
 ## <a name="next-step"></a>Volgende stap
 
-**Gefeliciteerd!** U hebt de fase **Voorbereiden** van de [migratie van Symantec naar Microsoft Defender voor Eindpunt voltooid!](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)
+**Gefeliciteerd!** U hebt de fase **Voorbereiden** van de [migratie van Symantec naar Microsoft Defender voor Eindpunt voltooid!](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)
 - [Ga verder met het instellen van Microsoft Defender voor Eindpunt](symantec-to-microsoft-defender-atp-setup.md).

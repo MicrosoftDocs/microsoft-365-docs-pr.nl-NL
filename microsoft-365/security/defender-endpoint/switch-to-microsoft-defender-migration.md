@@ -22,12 +22,12 @@ ms.custom: migrationguides
 ms.date: 02/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 6e5b79e447579631e4aa2eaf02352dc3fa6a8daa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2c6029a1aada8f5f5fb27723c868f28c3de6f8aa
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059306"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218650"
 ---
 # <a name="make-the-switch-from-a-non-microsoft-endpoint-solution-to-microsoft-defender-for-endpoint"></a>De overstap maken van een niet-Microsoft-eindpuntoplossing naar Microsoft Defender voor Eindpunt
 
@@ -39,7 +39,7 @@ Wanneer u overschakelt naar Defender voor Eindpunt, begint u met uw niet-Microso
 
 > [!TIP]
 > - Zie Migreren van McAfee naar Microsoft Defender voor Eindpunt als u momenteel McAfee Endpoint Security [(McAfee) gebruikt.](mcafee-to-microsoft-defender-migration.md)
-> - Zie Migreren van Symantec naar Microsoft Defender [voor Eindpunt](symantec-to-microsoft-defender-atp-migration.md)als u momenteel Gebruik maakt van De beveiliging van Het eindpunt van Symantec .
+> - Zie Migreren van Symantec naar Microsoft Defender [voor Eindpunt](symantec-to-microsoft-defender-endpoint-migration.md)als u momenteel Gebruik maakt van De beveiliging van Het eindpunt van Symantec .
 
 ## <a name="the-migration-process"></a>Het migratieproces
 
@@ -47,7 +47,7 @@ Wanneer u overschakelt naar Microsoft Defender voor Eindpunt, volgt u een proces
 
 ![Migratiefasen : voorbereiden, instellen, aan boord](images/phase-diagrams/migration-phases.png)
 
-|Fase |Beschrijving |
+|Fase |Omschrijving |
 |--|--|
 |[Voorbereiden op uw migratie](switch-to-microsoft-defender-prepare.md) |Tijdens [de **fase** Voorbereiden](switch-to-microsoft-defender-prepare.md)werkt u de apparaten van uw organisatie bij, krijgt u Microsoft Defender voor Eindpunt, plant u uw rollen en machtigingen en verleent u toegang tot het Microsoft Defender-beveiligingscentrum. U configureert ook de apparaatproxy- en internetinstellingen om communicatie in te stellen tussen de apparaten van uw organisatie en Microsoft Defender voor Eindpunt. |
 |[Microsoft Defender voor Eindpunt instellen](switch-to-microsoft-defender-setup.md) |Tijdens de installatiefase [stelt  ](switch-to-microsoft-defender-setup.md)u Microsoft Defender Antivirus in en zorgt u ervoor dat deze in de passieve modus staat en configureert u instellingen & uitsluitingen voor Microsoft Defender Antivirus, Microsoft Defender voor Eindpunt en uw bestaande oplossing voor eindpuntbeveiliging. U maakt ook apparaatgroepen, verzamelingen en organisatie-eenheden. Ten slotte configureert u uw antimalwarebeleid en realtime beveiligingsinstellingen.|
@@ -57,7 +57,7 @@ Wanneer u overschakelt naar Microsoft Defender voor Eindpunt, volgt u een proces
 
 In deze migratiehandleiding [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) richten we ons [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) op de volgende generatie beveiligings- en eindpuntdetectie- en antwoordmogelijkheden als uitgangspunt voor de overstap naar Microsoft Defender voor Eindpunt. Microsoft Defender voor Eindpunt bevat echter veel meer dan antivirus- en eindpuntbeveiliging. Microsoft Defender voor Eindpunt is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord. In de volgende tabel worden functies en mogelijkheden in Microsoft Defender voor Eindpunt samengevat. 
 
-| Functie/mogelijkheid | Beschrijving |
+| Functie/mogelijkheid | Omschrijving |
 |---|---|
 | [Bedreigings- & kwetsbaarheidsbeheer](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | Met & mogelijkheden voor beveiligingsprobleembeheer kunt u zwakke punten in uw eindpunten (zoals apparaten) identificeren, beoordelen en herstellen. |
 | [Surface-beperking voor aanvallen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction) | Regels voor het verminderen van aanvallen helpen de apparaten en toepassingen van uw organisatie te beschermen tegen cyberaanvallen en aanvallen. |

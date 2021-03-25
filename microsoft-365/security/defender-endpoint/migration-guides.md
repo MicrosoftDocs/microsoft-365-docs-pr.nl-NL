@@ -17,12 +17,12 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 09/24/2020
 ms.technology: mde
-ms.openlocfilehash: 0f9508038dd49e6c2d14d8e33a4fd40dfdfe83cb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c191e2006f42eda215508ba961dcbeb1ea282078
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198648"
+ms.locfileid: "51218626"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>De overstap maken naar Microsoft Defender voor Endpoint en Microsoft Defender Antivirus
 
@@ -43,7 +43,7 @@ Als u overweegt om over te stappen van een niet-Microsoft-beveiligingsoplossing 
 |U hebt nog geen oplossing voor eindpuntbeveiliging en u wilt meer weten over hoe Microsoft Defender voor eindpunten & Microsoft Defender Antivirus werkt.  |[Microsoft Defender voor endpoint-evaluatielaboratorium](evaluation-lab.md)   |
 |U hebt Microsoft Defender voor Eindpunt & Microsoft Defender Antivirus en hebt hulp nodig bij het instellen en configureren van alles.  |[Implementatiehandleiding voor Microsoft Defender voor eindpunten](deployment-phases.md)  |
 |U wilt migreren van McAfee Endpoint Security (McAfee) naar Microsoft Defender voor Endpoint & Microsoft Defender Antivirus. |[Overstappen van McAfee naar Microsoft Defender voor Eindpunt](mcafee-to-microsoft-defender-migration.md) |
-|U wilt migreren van Symantec Endpoint Protection (Symantec) naar Microsoft Defender voor Endpoint & Microsoft Defender Antivirus. |[Overstappen van Symantec naar Microsoft Defender voor Eindpunt](symantec-to-microsoft-defender-atp-migration.md) |
+|U wilt migreren van Symantec Endpoint Protection (Symantec) naar Microsoft Defender voor Endpoint & Microsoft Defender Antivirus. |[Overstappen van Symantec naar Microsoft Defender voor Eindpunt](symantec-to-microsoft-defender-endpoint-migration.md) |
 |U bent van plan om te migreren van een niet-Microsoft-eindpuntbeveiligingsoplossing (anders dan McAfee of Symantec) naar Microsoft Defender voor Eindpunt & Microsoft Defender Antivirus. |[De overstap maken naar Microsoft Defender voor Eindpunt](switch-to-microsoft-defender-migration.md)   |
 |U bent gemigreerd naar Microsoft Defender voor Eindpunt & Microsoft Defender Antivirus en u hebt hulp nodig bij de volgende stappen, zoals het configureren van extra functies of het aanpassen van uw beveiligingsinstellingen. | [Microsoft Defender voor Eindpunt beheren, na de migratie](manage-atp-post-migration.md) |
 

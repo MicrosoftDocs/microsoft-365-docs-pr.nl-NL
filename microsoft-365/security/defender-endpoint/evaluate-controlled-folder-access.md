@@ -13,12 +13,12 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e5da8ec3e4555af062aad1a4ebfa96d972bee23b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e965e1a882dadfb565231074165507a6727b45c1
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059198"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218746"
 ---
 # <a name="evaluate-controlled-folder-access"></a>Beheerde maptoegang evalueren
 
@@ -58,7 +58,7 @@ U kunt ook Groepsbeleid, Intune, MDM (Mobile Device Management) of Microsoft End
 
 De volgende beheerde maptoegangsgebeurtenissen worden weergegeven in Windows Event Viewer onder De map Microsoft/Windows/Windows Defender/Operational.
 
-Gebeurtenis-id | Beschrijving
+Gebeurtenis-id | Omschrijving
 -|-
  5007 | Gebeurtenis wanneer instellingen worden gewijzigd
  1124 | Gecontroleerde gecontroleerde maptoegangsgebeurtenis
@@ -76,5 +76,5 @@ Zie [Belangrijke mappen beveiligen](controlled-folders.md) met beheerde maptoega
 ## <a name="see-also"></a>Zie ook
 
 * [Belangrijke mappen beveiligen met gecontroleerde maptoegang](controlled-folders.md)
-* [Microsoft Defender voor eindpunt evalueren](evaluate-atp.md)
+* [Microsoft Defender voor eindpunt evalueren](evaluate-mde.md)
 * [Controlemodus gebruiken](audit-windows-defender.md)
