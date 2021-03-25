@@ -14,115 +14,115 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor verificatie alleen in de cloud.
-ms.openlocfilehash: 537718eb0efcffc296162a4458158efcbdad9986
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 927aa032e4181206b3a744da7076b696ac5cf4d4
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051542"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199547"
 ---
-# <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a><span data-ttu-id="48062-103">Vereisten voor identiteits- en apparaattoegang voor de cloud alleen in uw Microsoft 365-testomgeving.</span><span class="sxs-lookup"><span data-stu-id="48062-103">Identity and device access prerequisites for cloud only in your Microsoft 365 test environment</span></span>
+# <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a><span data-ttu-id="4c288-103">Vereisten voor identiteits- en apparaattoegang voor de cloud alleen in uw Microsoft 365-testomgeving.</span><span class="sxs-lookup"><span data-stu-id="4c288-103">Identity and device access prerequisites for cloud only in your Microsoft 365 test environment</span></span>
 
-<span data-ttu-id="48062-104">*Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*</span><span class="sxs-lookup"><span data-stu-id="48062-104">*This Test Lab Guide can only be used for Microsoft 365 for enterprise test environments.*</span></span>
+<span data-ttu-id="4c288-104">*Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*</span><span class="sxs-lookup"><span data-stu-id="4c288-104">*This Test Lab Guide can only be used for Microsoft 365 for enterprise test environments.*</span></span>
 
-<span data-ttu-id="48062-105">[Configuraties voor identiteits-](../security/defender-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een reeks aanbevolen configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services te beschermen die zijn geïntegreerd met Azure Active Directory (Azure AD).</span><span class="sxs-lookup"><span data-stu-id="48062-105">[Identity and device access configurations](../security/defender-365-security/microsoft-365-policies-configurations.md) are a set of recommended configurations and conditional access policies to protect access to all services that are integrated with Azure Active Directory (Azure AD).</span></span>
+<span data-ttu-id="4c288-105">[Configuraties voor identiteits-](../security/office-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een reeks aanbevolen configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services te beschermen die zijn geïntegreerd met Azure Active Directory (Azure AD).</span><span class="sxs-lookup"><span data-stu-id="4c288-105">[Identity and device access configurations](../security/office-365-security/microsoft-365-policies-configurations.md) are a set of recommended configurations and conditional access policies to protect access to all services that are integrated with Azure Active Directory (Azure AD).</span></span>
 
-<span data-ttu-id="48062-106">In dit artikel wordt beschreven hoe een Microsoft 365-testomgeving kan worden geconfigureerd die voldoet aan de voorwaarden van de [vereiste configuratie alleen in de cloud](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.</span><span class="sxs-lookup"><span data-stu-id="48062-106">This article describes how to configure a Microsoft 365 test environment that meets the requirements of the [cloud only prerequisite configuration](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) for identity and device access.</span></span>
+<span data-ttu-id="4c288-106">In dit artikel wordt beschreven hoe een Microsoft 365-testomgeving kan worden geconfigureerd die voldoet aan de voorwaarden van de [vereiste configuratie alleen in de cloud](../security/office-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.</span><span class="sxs-lookup"><span data-stu-id="4c288-106">This article describes how to configure a Microsoft 365 test environment that meets the requirements of the [cloud only prerequisite configuration](../security/office-365-security/identity-access-prerequisites.md#prerequisites) for identity and device access.</span></span>
 
-<span data-ttu-id="48062-107">Er zijn acht fasen om deze testomgeving in te stellen:</span><span class="sxs-lookup"><span data-stu-id="48062-107">There are eight phases to setting up this test environment:</span></span>
+<span data-ttu-id="4c288-107">Er zijn acht fasen om deze testomgeving in te stellen:</span><span class="sxs-lookup"><span data-stu-id="4c288-107">There are eight phases to setting up this test environment:</span></span>
 
-1. <span data-ttu-id="48062-108">Uw lichte testomgeving uitbouwen</span><span class="sxs-lookup"><span data-stu-id="48062-108">Build out your lightweight test environment</span></span>
-2. <span data-ttu-id="48062-109">Benoemde locaties configureren</span><span class="sxs-lookup"><span data-stu-id="48062-109">Configure named locations</span></span>
-3. <span data-ttu-id="48062-110">Self-service voor wachtwoordherstel configureren</span><span class="sxs-lookup"><span data-stu-id="48062-110">Configure self-service password reset</span></span>
-4. <span data-ttu-id="48062-111">Meervoudige verificatie configureren</span><span class="sxs-lookup"><span data-stu-id="48062-111">Configure multifactor authentication</span></span>
-5. <span data-ttu-id="48062-112">Automatische apparaatregistratie van windows-computers met een domein inschakelen</span><span class="sxs-lookup"><span data-stu-id="48062-112">Enable automatic device registration of domain-joined Windows computers</span></span>
-6. <span data-ttu-id="48062-113">Azure AD-wachtwoordbeveiliging configureren</span><span class="sxs-lookup"><span data-stu-id="48062-113">Configure Azure AD password protection</span></span> 
-7. <span data-ttu-id="48062-114">Azure AD Identity Protection inschakelen</span><span class="sxs-lookup"><span data-stu-id="48062-114">Enable Azure AD Identity Protection</span></span>
-8. <span data-ttu-id="48062-115">Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online</span><span class="sxs-lookup"><span data-stu-id="48062-115">Enable modern authentication for Exchange Online and Skype for Business Online</span></span>
+1. <span data-ttu-id="4c288-108">Uw lichte testomgeving uitbouwen</span><span class="sxs-lookup"><span data-stu-id="4c288-108">Build out your lightweight test environment</span></span>
+2. <span data-ttu-id="4c288-109">Benoemde locaties configureren</span><span class="sxs-lookup"><span data-stu-id="4c288-109">Configure named locations</span></span>
+3. <span data-ttu-id="4c288-110">Self-service voor wachtwoordherstel configureren</span><span class="sxs-lookup"><span data-stu-id="4c288-110">Configure self-service password reset</span></span>
+4. <span data-ttu-id="4c288-111">Meervoudige verificatie configureren</span><span class="sxs-lookup"><span data-stu-id="4c288-111">Configure multifactor authentication</span></span>
+5. <span data-ttu-id="4c288-112">Automatische apparaatregistratie van windows-computers met een domein inschakelen</span><span class="sxs-lookup"><span data-stu-id="4c288-112">Enable automatic device registration of domain-joined Windows computers</span></span>
+6. <span data-ttu-id="4c288-113">Azure AD-wachtwoordbeveiliging configureren</span><span class="sxs-lookup"><span data-stu-id="4c288-113">Configure Azure AD password protection</span></span> 
+7. <span data-ttu-id="4c288-114">Azure AD Identity Protection inschakelen</span><span class="sxs-lookup"><span data-stu-id="4c288-114">Enable Azure AD Identity Protection</span></span>
+8. <span data-ttu-id="4c288-115">Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online</span><span class="sxs-lookup"><span data-stu-id="4c288-115">Enable modern authentication for Exchange Online and Skype for Business Online</span></span>
 
-## <a name="phase-1-build-out-your-lightweight-microsoft-365-test-environment"></a><span data-ttu-id="48062-116">Fase 1: uw lichte Microsoft 365-testomgeving uitbouwen</span><span class="sxs-lookup"><span data-stu-id="48062-116">Phase 1: Build out your lightweight Microsoft 365 test environment</span></span>
+## <a name="phase-1-build-out-your-lightweight-microsoft-365-test-environment"></a><span data-ttu-id="4c288-116">Fase 1: uw lichte Microsoft 365-testomgeving uitbouwen</span><span class="sxs-lookup"><span data-stu-id="4c288-116">Phase 1: Build out your lightweight Microsoft 365 test environment</span></span>
 
-<span data-ttu-id="48062-117">Volg de instructies in [Lichtgewicht basisconfiguratie](lightweight-base-configuration-microsoft-365-enterprise.md).</span><span class="sxs-lookup"><span data-stu-id="48062-117">Follow the instructions in [Lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).</span></span>
-<span data-ttu-id="48062-118">Dit is de resulterende configuratie.</span><span class="sxs-lookup"><span data-stu-id="48062-118">Here is the resulting configuration.</span></span>
+<span data-ttu-id="4c288-117">Volg de instructies in [Lichtgewicht basisconfiguratie](lightweight-base-configuration-microsoft-365-enterprise.md).</span><span class="sxs-lookup"><span data-stu-id="4c288-117">Follow the instructions in [Lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).</span></span>
+<span data-ttu-id="4c288-118">Dit is de resulterende configuratie.</span><span class="sxs-lookup"><span data-stu-id="4c288-118">Here is the resulting configuration.</span></span>
 
 ![De lichtgewicht Microsoft 3656 Enterprise-testomgeving](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
  
-## <a name="phase-2-configure-named-locations"></a><span data-ttu-id="48062-120">Fase 2: benoemde locaties configureren</span><span class="sxs-lookup"><span data-stu-id="48062-120">Phase 2: Configure named locations</span></span>
+## <a name="phase-2-configure-named-locations"></a><span data-ttu-id="4c288-120">Fase 2: benoemde locaties configureren</span><span class="sxs-lookup"><span data-stu-id="4c288-120">Phase 2: Configure named locations</span></span>
 
-<span data-ttu-id="48062-121">Bepaal eerst de openbare IP-adressen of adresbereiken die worden gebruikt door uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="48062-121">First, determine the public IP addresses or address ranges used by your organization.</span></span>
+<span data-ttu-id="4c288-121">Bepaal eerst de openbare IP-adressen of adresbereiken die worden gebruikt door uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="4c288-121">First, determine the public IP addresses or address ranges used by your organization.</span></span>
 
-<span data-ttu-id="48062-122">Volg daarna de instructies in [Benoemde locaties configureren in Azure Active Directory](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) om de adressen of adresbereiken als benoemde locaties toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="48062-122">Next, follow the instructions in [Configure named locations in Azure Active Directory](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) to add the addresses or address ranges as named locations.</span></span> 
+<span data-ttu-id="4c288-122">Volg daarna de instructies in [Benoemde locaties configureren in Azure Active Directory](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) om de adressen of adresbereiken als benoemde locaties toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="4c288-122">Next, follow the instructions in [Configure named locations in Azure Active Directory](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) to add the addresses or address ranges as named locations.</span></span> 
 
-## <a name="phase-3-configure-self-service-password-reset"></a><span data-ttu-id="48062-123">Fase 3: SelfService-wachtwoord opnieuw instellen</span><span class="sxs-lookup"><span data-stu-id="48062-123">Phase 3: Configure self-service password reset</span></span>
+## <a name="phase-3-configure-self-service-password-reset"></a><span data-ttu-id="4c288-123">Fase 3: SelfService-wachtwoord opnieuw instellen</span><span class="sxs-lookup"><span data-stu-id="4c288-123">Phase 3: Configure self-service password reset</span></span>
 
-<span data-ttu-id="48062-124">Volg de instructies in [Fase 3 van testlabrichtlijn Wachtwoordherstel](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset).</span><span class="sxs-lookup"><span data-stu-id="48062-124">Follow the instructions in [Phase 3 of the password reset Test Lab Guide](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset).</span></span> 
+<span data-ttu-id="4c288-124">Volg de instructies in [Fase 3 van testlabrichtlijn Wachtwoordherstel](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset).</span><span class="sxs-lookup"><span data-stu-id="4c288-124">Follow the instructions in [Phase 3 of the password reset Test Lab Guide](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset).</span></span> 
 
-<span data-ttu-id="48062-125">Wanneer u wachtwoordherstel inschakelt voor de accounts in een specifieke Azure AD-groep, voegt u deze accounts toe aan de groep **Wachtwoord opnieuw instellen**:</span><span class="sxs-lookup"><span data-stu-id="48062-125">When enabling password reset for the accounts in a specific Azure AD group, add these accounts to the **Password reset** group:</span></span>
+<span data-ttu-id="4c288-125">Wanneer u wachtwoordherstel inschakelt voor de accounts in een specifieke Azure AD-groep, voegt u deze accounts toe aan de groep **Wachtwoord opnieuw instellen**:</span><span class="sxs-lookup"><span data-stu-id="4c288-125">When enabling password reset for the accounts in a specific Azure AD group, add these accounts to the **Password reset** group:</span></span>
 
-- <span data-ttu-id="48062-126">Gebruiker 2</span><span class="sxs-lookup"><span data-stu-id="48062-126">User 2</span></span>
-- <span data-ttu-id="48062-127">Gebruiker 3</span><span class="sxs-lookup"><span data-stu-id="48062-127">User 3</span></span>
-- <span data-ttu-id="48062-128">Gebruiker 4</span><span class="sxs-lookup"><span data-stu-id="48062-128">User 4</span></span>
-- <span data-ttu-id="48062-129">Gebruiker 5</span><span class="sxs-lookup"><span data-stu-id="48062-129">User 5</span></span>
+- <span data-ttu-id="4c288-126">Gebruiker 2</span><span class="sxs-lookup"><span data-stu-id="4c288-126">User 2</span></span>
+- <span data-ttu-id="4c288-127">Gebruiker 3</span><span class="sxs-lookup"><span data-stu-id="4c288-127">User 3</span></span>
+- <span data-ttu-id="4c288-128">Gebruiker 4</span><span class="sxs-lookup"><span data-stu-id="4c288-128">User 4</span></span>
+- <span data-ttu-id="4c288-129">Gebruiker 5</span><span class="sxs-lookup"><span data-stu-id="4c288-129">User 5</span></span>
 
-<span data-ttu-id="48062-130">Test wachtwoordherstel alleen voor het Gebruiker 2-account.</span><span class="sxs-lookup"><span data-stu-id="48062-130">Test password reset only for the User 2 account.</span></span>
+<span data-ttu-id="4c288-130">Test wachtwoordherstel alleen voor het Gebruiker 2-account.</span><span class="sxs-lookup"><span data-stu-id="4c288-130">Test password reset only for the User 2 account.</span></span>
 
-## <a name="phase-4-configure-multi-factor-authentication"></a><span data-ttu-id="48062-131">Fase 4: Meervoudige verificatie configureren</span><span class="sxs-lookup"><span data-stu-id="48062-131">Phase 4: Configure multi-factor authentication</span></span>
+## <a name="phase-4-configure-multi-factor-authentication"></a><span data-ttu-id="4c288-131">Fase 4: Meervoudige verificatie configureren</span><span class="sxs-lookup"><span data-stu-id="4c288-131">Phase 4: Configure multi-factor authentication</span></span>
 
-<span data-ttu-id="48062-132">Volg de instructies in [Fase 2 van testlabrichtlijn Meervoudige verificatie](multi-factor-authentication-microsoft-365-test-environment.md#phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account) voor de volgende gebruikersaccounts:</span><span class="sxs-lookup"><span data-stu-id="48062-132">Follow the instructions in [Phase 2 of the multi-factor authentication Test Lab Guide](multi-factor-authentication-microsoft-365-test-environment.md#phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account) for the following user accounts:</span></span>
+<span data-ttu-id="4c288-132">Volg de instructies in [Fase 2 van testlabrichtlijn Meervoudige verificatie](multi-factor-authentication-microsoft-365-test-environment.md#phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account) voor de volgende gebruikersaccounts:</span><span class="sxs-lookup"><span data-stu-id="4c288-132">Follow the instructions in [Phase 2 of the multi-factor authentication Test Lab Guide](multi-factor-authentication-microsoft-365-test-environment.md#phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account) for the following user accounts:</span></span>
 
-- <span data-ttu-id="48062-133">Gebruiker 2</span><span class="sxs-lookup"><span data-stu-id="48062-133">User 2</span></span>
-- <span data-ttu-id="48062-134">Gebruiker 3</span><span class="sxs-lookup"><span data-stu-id="48062-134">User 3</span></span>
-- <span data-ttu-id="48062-135">Gebruiker 4</span><span class="sxs-lookup"><span data-stu-id="48062-135">User 4</span></span>
-- <span data-ttu-id="48062-136">Gebruiker 5</span><span class="sxs-lookup"><span data-stu-id="48062-136">User 5</span></span>
+- <span data-ttu-id="4c288-133">Gebruiker 2</span><span class="sxs-lookup"><span data-stu-id="4c288-133">User 2</span></span>
+- <span data-ttu-id="4c288-134">Gebruiker 3</span><span class="sxs-lookup"><span data-stu-id="4c288-134">User 3</span></span>
+- <span data-ttu-id="4c288-135">Gebruiker 4</span><span class="sxs-lookup"><span data-stu-id="4c288-135">User 4</span></span>
+- <span data-ttu-id="4c288-136">Gebruiker 5</span><span class="sxs-lookup"><span data-stu-id="4c288-136">User 5</span></span>
 
-<span data-ttu-id="48062-137">Test meervoudige verificatie alleen voor het Gebruiker 2-account.</span><span class="sxs-lookup"><span data-stu-id="48062-137">Test multi-factor authentication only for the User 2 account.</span></span>
+<span data-ttu-id="4c288-137">Test meervoudige verificatie alleen voor het Gebruiker 2-account.</span><span class="sxs-lookup"><span data-stu-id="4c288-137">Test multi-factor authentication only for the User 2 account.</span></span>
 
-## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a><span data-ttu-id="48062-138">Fase 5: Automatische apparaatregistratie van windows-computers met een domein inschakelen</span><span class="sxs-lookup"><span data-stu-id="48062-138">Phase 5: Enable automatic device registration of domain-joined Windows computers</span></span> 
+## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a><span data-ttu-id="4c288-138">Fase 5: Automatische apparaatregistratie van windows-computers met een domein inschakelen</span><span class="sxs-lookup"><span data-stu-id="4c288-138">Phase 5: Enable automatic device registration of domain-joined Windows computers</span></span> 
 
-<span data-ttu-id="48062-139">Volg [deze instructies om](/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie van windows-computers met een domein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="48062-139">Follow [these instructions](/azure/active-directory/devices/hybrid-azuread-join-plan) to enable automatic device registration of domain-joined Windows computers.</span></span>
+<span data-ttu-id="4c288-139">Volg [deze instructies om](/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie van windows-computers met een domein in te stellen.</span><span class="sxs-lookup"><span data-stu-id="4c288-139">Follow [these instructions](/azure/active-directory/devices/hybrid-azuread-join-plan) to enable automatic device registration of domain-joined Windows computers.</span></span>
 
-## <a name="phase-6-configure-azure-ad-password-protection"></a><span data-ttu-id="48062-140">Fase 6: Azure AD-wachtwoordbeveiliging configureren</span><span class="sxs-lookup"><span data-stu-id="48062-140">Phase 6: Configure Azure AD password protection</span></span> 
+## <a name="phase-6-configure-azure-ad-password-protection"></a><span data-ttu-id="4c288-140">Fase 6: Azure AD-wachtwoordbeveiliging configureren</span><span class="sxs-lookup"><span data-stu-id="4c288-140">Phase 6: Configure Azure AD password protection</span></span> 
 
-<span data-ttu-id="48062-141">Volg [deze instructies om](/azure/active-directory/authentication/concept-password-ban-bad) bekende zwakke wachtwoorden en hun varianten te blokkeren.</span><span class="sxs-lookup"><span data-stu-id="48062-141">Follow [these instructions](/azure/active-directory/authentication/concept-password-ban-bad) to block known weak passwords and their variants.</span></span>
+<span data-ttu-id="4c288-141">Volg [deze instructies om](/azure/active-directory/authentication/concept-password-ban-bad) bekende zwakke wachtwoorden en hun varianten te blokkeren.</span><span class="sxs-lookup"><span data-stu-id="4c288-141">Follow [these instructions](/azure/active-directory/authentication/concept-password-ban-bad) to block known weak passwords and their variants.</span></span>
 
-## <a name="phase-7-enable-azure-ad-identity-protection"></a><span data-ttu-id="48062-142">Fase 7: Azure AD Identity Protection inschakelen</span><span class="sxs-lookup"><span data-stu-id="48062-142">Phase 7: Enable Azure AD Identity Protection</span></span>
+## <a name="phase-7-enable-azure-ad-identity-protection"></a><span data-ttu-id="4c288-142">Fase 7: Azure AD Identity Protection inschakelen</span><span class="sxs-lookup"><span data-stu-id="4c288-142">Phase 7: Enable Azure AD Identity Protection</span></span>
 
-<span data-ttu-id="48062-143">Volg de instructies in [Fase 2 van testlabrichtlijn Azure AD Identity Protection](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection).</span><span class="sxs-lookup"><span data-stu-id="48062-143">Follow the instructions in [Phase 2 of the Azure AD Identity Protection Test Lab Guide](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection).</span></span> 
+<span data-ttu-id="4c288-143">Volg de instructies in [Fase 2 van testlabrichtlijn Azure AD Identity Protection](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection).</span><span class="sxs-lookup"><span data-stu-id="4c288-143">Follow the instructions in [Phase 2 of the Azure AD Identity Protection Test Lab Guide](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection).</span></span> 
 
-## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="48062-144">Fase 8: Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online</span><span class="sxs-lookup"><span data-stu-id="48062-144">Phase 8: Enable modern authentication for Exchange Online and Skype for Business Online</span></span>
+## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="4c288-144">Fase 8: Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online</span><span class="sxs-lookup"><span data-stu-id="4c288-144">Phase 8: Enable modern authentication for Exchange Online and Skype for Business Online</span></span>
 
-<span data-ttu-id="48062-145">Volg voor Exchange Online [deze instructies](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later).</span><span class="sxs-lookup"><span data-stu-id="48062-145">For Exchange Online, follow [these instructions](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later).</span></span> 
+<span data-ttu-id="4c288-145">Volg voor Exchange Online [deze instructies](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later).</span><span class="sxs-lookup"><span data-stu-id="4c288-145">For Exchange Online, follow [these instructions](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later).</span></span> 
 
-<span data-ttu-id="48062-146">Voor Skype voor Bedrijven Online:</span><span class="sxs-lookup"><span data-stu-id="48062-146">For Skype for Business Online:</span></span>
+<span data-ttu-id="4c288-146">Voor Skype voor Bedrijven Online:</span><span class="sxs-lookup"><span data-stu-id="4c288-146">For Skype for Business Online:</span></span>
 
-1. <span data-ttu-id="48062-147">Maak verbinding met [Skype voor Bedrijven Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="48062-147">Connect to [Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+1. <span data-ttu-id="4c288-147">Maak verbinding met [Skype voor Bedrijven Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="4c288-147">Connect to [Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
 
-2. <span data-ttu-id="48062-148">Voer deze opdracht uit.</span><span class="sxs-lookup"><span data-stu-id="48062-148">Run this command.</span></span>
+2. <span data-ttu-id="4c288-148">Voer deze opdracht uit.</span><span class="sxs-lookup"><span data-stu-id="4c288-148">Run this command.</span></span>
 
   ```powershell
   Set-CsOAuthConfiguration -ClientAdalAuthOverride Allowed
   ```
 
-3. <span data-ttu-id="48062-149">Controleer of het wijzigen met behulp van deze opdracht is gelukt.</span><span class="sxs-lookup"><span data-stu-id="48062-149">Verify that the change was successful with this command.</span></span>
+3. <span data-ttu-id="4c288-149">Controleer of het wijzigen met behulp van deze opdracht is gelukt.</span><span class="sxs-lookup"><span data-stu-id="4c288-149">Verify that the change was successful with this command.</span></span>
 
   ```powershell
   Get-CsOAuthConfiguration
   ```
 
-<span data-ttu-id="48062-150">Het resultaat is een testomgeving die voldoet aan de vereisten van de configuratie die [alleen in](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) de cloud vereist is voor identiteits- en apparaattoegang.</span><span class="sxs-lookup"><span data-stu-id="48062-150">The result is a test environment that meets the requirements of the [cloud-only prerequisite configuration](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) for identity and device access.</span></span> 
+<span data-ttu-id="4c288-150">Het resultaat is een testomgeving die voldoet aan de vereisten van de configuratie die [alleen in](../security/office-365-security/identity-access-prerequisites.md#prerequisites) de cloud vereist is voor identiteits- en apparaattoegang.</span><span class="sxs-lookup"><span data-stu-id="4c288-150">The result is a test environment that meets the requirements of the [cloud-only prerequisite configuration](../security/office-365-security/identity-access-prerequisites.md#prerequisites) for identity and device access.</span></span> 
 
-## <a name="next-step"></a><span data-ttu-id="48062-151">Volgende stap</span><span class="sxs-lookup"><span data-stu-id="48062-151">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="4c288-151">Volgende stap</span><span class="sxs-lookup"><span data-stu-id="4c288-151">Next step</span></span>
 
-<span data-ttu-id="48062-152">Gebruik [algemeen beleid voor identiteits- en apparaattoegang](../security/defender-365-security/identity-access-policies.md) voor het configureren van het beleid dat is gebaseerd op de vereisten, en bescherm identiteiten en apparaten.</span><span class="sxs-lookup"><span data-stu-id="48062-152">Use [Common identity and device access policies](../security/defender-365-security/identity-access-policies.md) to configure the policies that build on the prerequisites and protect identities and devices.</span></span>
+<span data-ttu-id="4c288-152">Gebruik [algemeen beleid voor identiteits- en apparaattoegang](../security/office-365-security/identity-access-policies.md) voor het configureren van het beleid dat is gebaseerd op de vereisten, en bescherm identiteiten en apparaten.</span><span class="sxs-lookup"><span data-stu-id="4c288-152">Use [Common identity and device access policies](../security/office-365-security/identity-access-policies.md) to configure the policies that build on the prerequisites and protect identities and devices.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="48062-153">Zie ook</span><span class="sxs-lookup"><span data-stu-id="48062-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4c288-153">Zie ook</span><span class="sxs-lookup"><span data-stu-id="4c288-153">See also</span></span>
 
-[<span data-ttu-id="48062-154">Aanvullende testlabrichtlijnen voor identiteit</span><span class="sxs-lookup"><span data-stu-id="48062-154">Additional identity Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md#identity)
+[<span data-ttu-id="4c288-154">Aanvullende testlabrichtlijnen voor identiteit</span><span class="sxs-lookup"><span data-stu-id="4c288-154">Additional identity Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md#identity)
 
-[<span data-ttu-id="48062-155">Routekaart voor identiteit</span><span class="sxs-lookup"><span data-stu-id="48062-155">Identity roadmap</span></span>](identity-roadmap-microsoft-365.md)
+[<span data-ttu-id="4c288-155">Routekaart voor identiteit</span><span class="sxs-lookup"><span data-stu-id="4c288-155">Identity roadmap</span></span>](identity-roadmap-microsoft-365.md)
 
-[<span data-ttu-id="48062-156">Microsoft 365 Enterprise-testlabrichtlijnen</span><span class="sxs-lookup"><span data-stu-id="48062-156">Microsoft 365 for enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="4c288-156">Microsoft 365 Enterprise-testlabrichtlijnen</span><span class="sxs-lookup"><span data-stu-id="4c288-156">Microsoft 365 for enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
 
-[<span data-ttu-id="48062-157">Overzicht van Microsoft 365 voor ondernemingen</span><span class="sxs-lookup"><span data-stu-id="48062-157">Microsoft 365 for enterprise overview</span></span>](microsoft-365-overview.md)
+[<span data-ttu-id="4c288-157">Overzicht van Microsoft 365 voor ondernemingen</span><span class="sxs-lookup"><span data-stu-id="4c288-157">Microsoft 365 for enterprise overview</span></span>](microsoft-365-overview.md)
 
-[<span data-ttu-id="48062-158">Microsoft 365 enterprise-documentatie</span><span class="sxs-lookup"><span data-stu-id="48062-158">Microsoft 365 for enterprise documentation</span></span>](/microsoft-365-enterprise/)
+[<span data-ttu-id="4c288-158">Microsoft 365 enterprise-documentatie</span><span class="sxs-lookup"><span data-stu-id="4c288-158">Microsoft 365 for enterprise documentation</span></span>](/microsoft-365-enterprise/)
