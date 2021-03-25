@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7581c606a7903bd6d32c1e192f35992899289f30
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c6afa48fcee80c0b8fb7ed0563264932566b6321
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056961"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185789"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Minimumvereisten voor Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -51,7 +51,7 @@ Voor Microsoft Defender voor Eindpunt is een van de volgende microsoft volumelic
 - Microsoft 365 A5 (M365 A5)
 - Microsoft 365 E5-beveiliging
 - Microsoft 365 A5-beveiliging
-- Microsoft Defender for Endpoint
+- Microsoft Defender voor Eindpunt
 
 > [!NOTE]
 > In aanmerking komende gebruikers met een licentie kunnen Microsoft Defender voor Eindpunt gebruiken op maximaal vijf gelijktijdige apparaten.
@@ -65,7 +65,7 @@ Voor Microsoft Defender voor eindpunten voor servers is een van de volgende lice
 > [!NOTE]
 > Klanten kunnen serverlicenties (één per gedekte besturingssysteemomgeving voor servers) voor Microsoft Defender voor eindpunten voor servers verkrijgen als ze een gecombineerd minimum van 50 licenties hebben voor een of meer van de volgende gebruikerslicenties:
 >
-> * Microsoft Defender for Endpoint
+> * Microsoft Defender voor Eindpunt
 > * Windows E5/A5
 > * Microsoft 365 E5/A5
 > * Microsoft 365 E5/A5-beveiliging

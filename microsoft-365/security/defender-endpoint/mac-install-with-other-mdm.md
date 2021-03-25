@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 28e57f1749ea9dce22e1a8a210f73cc3c7993738
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e3a20f0a356a32eddc05b3792c0c04c23197a7b0
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059682"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185693"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-for-mac"></a>Implementatie met een ander MDM-systeem (Mobile Device Management) voor Microsoft Defender voor Endpoint voor Mac
 
@@ -31,7 +31,7 @@ ms.locfileid: "51059682"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -96,7 +96,7 @@ Een systeemextensiebeleid instellen. Gebruik teamaanduiding **UBF8T346G9** en ke
 
 Volledige schijftoegang verlenen aan de volgende onderdelen:
 
-- Microsoft Defender for Endpoint
+- Microsoft Defender voor Eindpunt
     - Id: `com.microsoft.wdav`
     - Id-type: bundel-id
     - Codevereiste: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4165f13e24e1ecb53413025c59bf6f3195525b17
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 399da6fd54145f73ac72fdac04e8d25148f76507
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060573"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186747"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender in-
 
@@ -95,7 +95,7 @@ Microsoft-ondersteuningsmedewerkers kunnen helpen bij het inrichten of deprovisi
 - [Licentievereisten en andere vereisten](prerequisites.md)
 - [Ondersteunde services implementeren](deploy-supported-services.md)
 - [Overzicht van Microsoft 365 Defender](microsoft-365-defender.md)
-- [Overzicht van Microsoft Defender voor eindpunt](../defender-endpoint/microsoft-defender-advanced-threat-protection.md)
+- [Overzicht van Microsoft Defender voor eindpunt](../defender-endpoint/microsoft-defender-endpoint.md)
 - [Overzicht van Defender voor Office 365](../defender-365-security/defender-for-office-365.md)
 - [Overzicht van Microsoft Cloud App-beveiliging](/cloud-app-security/what-is-cloud-app-security)
 - [Overzicht van Microsoft Defender voor identiteit](/azure-advanced-threat-protection/what-is-atp)

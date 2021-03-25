@@ -1,7 +1,7 @@
 # [Microsoft Defender voor Endpoint](index.yml)
 
 ## [Overzicht]()
-### [Wat is Microsoft Defender voor Eindpunt?](microsoft-defender-advanced-threat-protection.md)
+### [Wat is Microsoft Defender voor Eindpunt?](microsoft-defender-endpoint.md)
 ### [Minimumvereisten](minimum-requirements.md)
 ### [Nieuwe functies in Microsoft Defender voor Eindpunt](whats-new-in-microsoft-defender-atp.md)
 ### [Preview-functies](preview.md)

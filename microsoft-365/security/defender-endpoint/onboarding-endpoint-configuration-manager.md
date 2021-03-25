@@ -18,19 +18,19 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6e6f3cfbf471e7b99e2ce5215491e32c955e3833
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 31c946ccad84aca3b2fc86c95655cea9e66e182f
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056798"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186399"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Onboarding met Microsoft Endpoint Configuration Manager
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -388,5 +388,5 @@ Nadat u deze taak hebt voltooid, hebt u netwerkbeveiliging nu geconfigureerd in 
 
 U hebt nu beheerde maptoegang geconfigureerd in de auditmodus.
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="related-topic"></a>Verwant onderwerp
 - [Onboarding met Microsoft Endpoint Manager](onboarding-endpoint-manager.md)

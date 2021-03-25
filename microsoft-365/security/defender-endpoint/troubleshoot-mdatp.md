@@ -1,6 +1,6 @@
 ---
 title: Problemen met de Microsoft Defender-service oplossen
-description: Zoek oplossingen en werk rond voor bekende problemen, zoals serverfouten wanneer u toegang probeert te krijgen tot de service.
+description: Zoek oplossingen en tijdelijke oplossingen voor bekende problemen, zoals serverfouten bij het openen van de service.
 keywords: problemen met Microsoft Defender voor eindpunt oplossen, problemen met Windows ATP oplossen, serverfout, toegang geweigerd, ongeldige referenties, geen gegevens, dashboardportal, toestaan, gebeurtenisviewer
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: bd211a56ee9ed6aa871c8d55149247a4755bc863
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 112f682836da37ddfb51c103282518ff74563727
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058694"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186015"
 ---
 # <a name="troubleshoot-service-issues"></a>Problemen met de service oplossen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -41,9 +41,9 @@ Als u een serverfout ondervindt wanneer u toegang probeert te krijgen tot de ser
 Configureer uw browser om cookies toe te staan.
 
 ## <a name="elements-or-data-missing-on-the-portal"></a>Elementen of gegevens ontbreken in de portal
-Als bepaalde elementen of gegevens van de gebruikersinterface ontbreken in het Microsoft Defender-beveiligingscentrum, is het mogelijk dat proxy-instellingen deze blokkeren.
+Als bepaalde elementen of gegevens ontbreken in het Microsoft Defender-beveiligingscentrum, is het mogelijk dat proxy-instellingen deze blokkeren.
 
-Zorg ervoor dat `*.securitycenter.windows.com` de lijst proxy toestaan is opgenomen.
+Zorg ervoor dat de proxy allowlist is `*.securitycenter.windows.com` opgenomen.
 
 
 > [!NOTE]
@@ -51,7 +51,7 @@ Zorg ervoor dat `*.securitycenter.windows.com` de lijst proxy toestaan is opgeno
 
 ## <a name="microsoft-defender-for-endpoint-service-shows-event-or-error-logs-in-the-event-viewer"></a>Microsoft Defender for Endpoint-service toont gebeurtenis- of foutlogboeken in de Viewer voor gebeurtenissen
 
-Zie het onderwerp [Gebeurtenissen en fouten controleren met Behulp](event-error-codes.md) van Gebeurtenisviewer voor een lijst met gebeurtenis-ID's die worden gerapporteerd door de Microsoft Defender voor Eindpunt-service. Het onderwerp bevat ook stappen voor het oplossen van problemen met gebeurtenisfouten.
+Zie Gebeurtenissen en fouten controleren met Behulp van [Gebeurtenisviewer](event-error-codes.md) voor een lijst met gebeurtenis-ID's die worden gerapporteerd door de Microsoft Defender voor Eindpunt-service. Het artikel bevat ook stappen voor het oplossen van problemen met gebeurtenissen.
 
 ## <a name="microsoft-defender-for-endpoint-service-fails-to-start-after-a-reboot-and-shows-error-577"></a>Microsoft Defender for Endpoint-service kan niet starten na een herstart en geeft fout 577 weer
 

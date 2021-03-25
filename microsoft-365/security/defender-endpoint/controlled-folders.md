@@ -16,12 +16,12 @@ ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: ae50d53fbc9bf01d4cd16b939461eecc9ec1a568
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: cd662dc130adc37b3bf8bd06839242ccc9a49f8e
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165175"
+ms.locfileid: "51185967"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Belangrijke mappen beveiligen met gecontroleerde maptoegang
 
@@ -40,7 +40,7 @@ Gecontroleerde maptoegang helpt uw waardevolle gegevens te beschermen tegen scha
 > [!NOTE]
 > Scripting-engines worden niet vertrouwd en u kunt ze geen toegang verlenen tot gecontroleerde beveiligde mappen.  PowerShell wordt bijvoorbeeld niet vertrouwd door gecontroleerde maptoegang, zelfs niet als u dit toestaat met [certificaat- en bestandsindicatoren.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates) 
 
-Gecontroleerde toegang tot mappen werkt het beste met [Microsoft Defender voor](microsoft-defender-advanced-threat-protection.md)Eindpunt, waarmee u gedetailleerde rapportage krijgt over gebeurtenissen en blokken voor gecontroleerde mappentoegang als onderdeel van de gebruikelijke scenario's voor [waarschuwingsonderzoek.](investigate-alerts.md)
+Gecontroleerde toegang tot mappen werkt het beste met [Microsoft Defender voor](microsoft-defender-endpoint.md)Eindpunt, waarmee u gedetailleerde rapportage krijgt over gebeurtenissen en blokken voor gecontroleerde mappentoegang als onderdeel van de gebruikelijke scenario's voor [waarschuwingsonderzoek.](investigate-alerts.md)
 
 > [!TIP]
 > Met gecontroleerde mappentoegangsblokken worden geen waarschuwingen gegenereerd in de [wachtrij Waarschuwingen.](alerts-queue.md) U kunt echter informatie over beheerde maptoegangsblokken weergeven in de tijdlijnweergave van het [apparaat,](investigate-machines.md)tijdens het gebruik van geavanceerd zoeken [of](advanced-hunting-overview.md)met [aangepaste detectieregels.](custom-detection-rules.md)

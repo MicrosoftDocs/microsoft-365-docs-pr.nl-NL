@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: d0b7b600e0880bacda3588598387e5b1e8c82958
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 0902dce0af3c101cbaf7ff526beb71e9f46a1bf4
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056632"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51187515"
 ---
 # <a name="deploy-supported-services"></a>Ondersteunde services implementeren
 
@@ -46,7 +46,7 @@ Een Microsoft 365 E5-, E5-beveiligings-, A5- of A5-beveiligingslicentie of een g
 
 | Ondersteunde service | Beschrijving |
 | ------ | ------ |
-| Microsoft Defender for Endpoint | Endpoint protection suite built around powerful behavioral sensors, cloud analytics, and threat intelligence |
+| Microsoft Defender voor Eindpunt | Endpoint protection suite built around powerful behavioral sensors, cloud analytics, and threat intelligence |
 |Microsoft Defender voor Office 365 | Geavanceerde beveiliging voor uw apps en gegevens in Office 365, inclusief e-mail en andere samenwerkingshulpmiddelen |
 | Microsoft Defender for Identity | Verdediging tegen geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadwillende insiders met behulp van gecorreleerde Active Directory-signalen |
 | Microsoft Cloud App Security | Cyberthreats identificeren en bestrijden in uw Microsoft- en externe cloudservices |
@@ -67,7 +67,7 @@ In de onderstaande tabel ziet u hoe elke ondersteunde service aanvullende gegeve
 
 | Service | Gegevens (signalen & gecorreleerde informatie) | Herstel van & antwoordbereik |
 | ------ | ------ | ------ |
-| Microsoft Defender for Endpoint | - Eindpunten en onbewerkte gebeurtenissen<br />- Eindpuntdetecties en -waarschuwingen, waaronder antivirussoftware, EDR, beperking van het oppervlak van de aanval<br />- Informatie over bestanden en andere entiteiten die zijn waargenomen op eindpunten | Eindpunten |
+| Microsoft Defender voor Eindpunt | - Eindpunten en onbewerkte gebeurtenissen<br />- Eindpuntdetecties en -waarschuwingen, waaronder antivirussoftware, EDR, beperking van het oppervlak van de aanval<br />- Informatie over bestanden en andere entiteiten die zijn waargenomen op eindpunten | Eindpunten |
 |Microsoft Defender voor Office 365 | - E-mail- en postvakstaten en onbewerkte gebeurtenissen<br />- Detecties van e-mail, bijlagen en koppeling | - Postvakken<br />- Microsoft 365-accounts |
 | Microsoft Defender for Identity | - Active Directory-signalen, inclusief verificatiegebeurtenissen<br />- Identiteitsgerelateerde gedragsdetecties | Identiteiten |
 | Microsoft Cloud App Security | - Detectie van niet-geanctioneerde cloud-apps en -services (schaduw-IT)<br />- Blootstelling van gegevens aan cloud-apps<br />- Bedreigingsactiviteit die is gekoppeld aan cloud-apps | Cloud-apps |
@@ -77,7 +77,7 @@ Voor het implementeren van elke service is meestal inrichting voor uw tenant en 
 
 | Service | Inrichtingsinstructies | Eerste configuratie |
 | ------ | ------ | ------ |
-| Microsoft Defender for Endpoint | [Implementatiehandleiding voor Microsoft Defender voor eindpunten](../defender-endpoint/deployment-phases.md) | *Zie inrichtingsinstructies* |
+| Microsoft Defender voor Eindpunt | [Implementatiehandleiding voor Microsoft Defender voor eindpunten](../defender-endpoint/deployment-phases.md) | *Zie inrichtingsinstructies* |
 |Microsoft Defender voor Office 365 | *Geen, ingericht met Office 365* | [Beleid in Microsoft Defender voor Office 365 instellen](/microsoft-365/security/defender-365-security/defender-for-office-365#configure-atp-policies) |
 | Microsoft Defender for Identity | [Snelstart: Uw Exemplaar van Microsoft Defender voor identiteit maken](/azure-advanced-threat-protection/install-atp-step1) | *Zie inrichtingsinstructies* |
 | Microsoft Cloud App Security | *Geen* | [Snelstart: Aan de slag met Microsoft Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security) |
@@ -88,7 +88,7 @@ Nadat u de ondersteunde services hebt geïmplementeerd, [schakelt u Microsoft 36
 
 - [Overzicht van Microsoft 365 Defender](microsoft-365-defender.md)
 - [Microsoft 365 Defender in-](m365d-enable.md)
-- [Overzicht van Microsoft Defender voor eindpunt](../defender-endpoint/microsoft-defender-advanced-threat-protection.md)
+- [Overzicht van Microsoft Defender voor eindpunt](../defender-endpoint/microsoft-defender-endpoint.md)
 - [Overzicht van Microsoft Defender voor Office 365](../defender-365-security/defender-for-office-365.md)
 - [Overzicht van Microsoft Cloud App-beveiliging](/cloud-app-security/what-is-cloud-app-security)
 - [Overzicht van Microsoft Defender voor identiteit](/azure-advanced-threat-protection/what-is-atp)

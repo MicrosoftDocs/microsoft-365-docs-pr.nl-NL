@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9d41071fc5849f3a11061437af2bb88b117ec4a8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5229ba068672035c2dce3afee1919f9c2d7f9e44
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058290"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186447"
 ---
 # <a name="device-health-and-compliance-report-in-microsoft-defender-for-endpoint"></a>Rapport over apparaattoestand en naleving in Microsoft Defender voor Eindpunt
 
@@ -29,7 +29,7 @@ ms.locfileid: "51058290"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -96,5 +96,5 @@ Als u bijvoorbeeld gegevens wilt tonen over Windows 10-apparaten met de status a
 3. Selecteer **Toepassen.**
 
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="related-topic"></a>Verwant onderwerp
 - [Rapport over bedreigingsbeveiliging](threat-protection-reports.md)

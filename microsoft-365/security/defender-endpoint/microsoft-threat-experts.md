@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4c61fcdfb452fb075498dcc2858bb7a9b4b81a2f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 466e67bb4649f8cf87e4152a07122d57c5071b79
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165943"
+ms.locfileid: "51185573"
 ---
 # <a name="microsoft-threat-experts"></a>Microsoft Threat Experts
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -88,5 +88,5 @@ Bekijk deze video voor een kort overzicht van de Microsoft Services Hub.
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4pk9f] 
 
    
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="related-topic"></a>Verwant onderwerp
 - [Microsoft Threat Experts-mogelijkheden configureren](configure-microsoft-threat-experts.md)

@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: 6caa1cfe08a20aa824d85966c104a25988b8be53
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: af9e9315088a8dd5da9740b33135551d28664ed7
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165355"
+ms.locfileid: "51186111"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>Ga naar het Actiecentrum om herstelacties te zien
 
@@ -46,14 +46,14 @@ In de volgende tabel wordt het nieuwe, geïntegreerde actiecentrum vergeleken me
 
 |Het nieuwe, geïntegreerde actiecentrum  |Het vorige actiecentrum  |
 |---------|---------|
-|Lijsten in behandeling en voltooide acties voor apparaten en e-mail op één locatie <br/>([Microsoft Defender voor Eindpunt](microsoft-defender-advanced-threat-protection.md) plus Microsoft Defender voor Office [365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp))|Lijsten in behandeling en voltooide acties voor apparaten <br/> ([Alleen Microsoft Defender voor eindpunt)](microsoft-defender-advanced-threat-protection.md)   |
+|Lijsten in behandeling en voltooide acties voor apparaten en e-mail op één locatie <br/>([Microsoft Defender voor Eindpunt](microsoft-defender-endpoint.md) plus Microsoft Defender voor Office [365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp))|Lijsten in behandeling en voltooide acties voor apparaten <br/> ([Alleen Microsoft Defender voor eindpunt)](microsoft-defender-endpoint.md)   |
 |Bevindt zich op:<br/>[https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)         |Bevindt zich op:<br/>[https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center)     |
 | Kies actiecentrum in het Microsoft **365-beveiligingscentrum.** <p>:::image type="content" source="images/action-center-nav-new.png" alt-text="Navigeren naar het Actiecentrum in het Microsoft 365-beveiligingscentrum"::: | Kies in het Microsoft Defender-beveiligingscentrum de optie **Geautomatiseerde onderzoeken**  >  **Actiecentrum**. <p>:::image type="content" source="images/action-center-nav-old.png" alt-text="Navigeren naar het Actiecentrum vanuit het Microsoft Defender-beveiligingscentrum":::  |
 
 Het geïntegreerde actiecentrum brengt herstelacties samen in Defender voor Eindpunt en Defender voor Office 365. Het definieert een gemeenschappelijke taal voor alle herstelacties en biedt een geïntegreerde onderzoekservaring. 
 
 U kunt het geïntegreerde actiecentrum gebruiken als u de juiste machtigingen en een of meer van de volgende abonnementen hebt:
-- [Defender voor Eindpunt](microsoft-defender-advanced-threat-protection.md)
+- [Defender voor Eindpunt](microsoft-defender-endpoint.md)
 - [Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp)
 - [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 
 
