@@ -58,8 +58,6 @@
       items:
         - name: Overzicht van het beheercentrum
           href: admin-overview/about-the-admin-center.md
-        - name: Informatie over het nieuwe beheercentrum
-          href: microsoft-365-admin-center-preview.md
         - name: Informatie over beheerdersrollen
           href: add-users/about-admin-roles.md
         - name: Mobiele app voor beheerders
