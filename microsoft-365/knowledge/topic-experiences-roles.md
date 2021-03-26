@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Meer informatie over gebruikersrollen in Viva-onderwerpen.
-ms.openlocfilehash: 6d93046a96b60779c3cd3bd6c6aa600cb443118f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e91eda6807634ad27bf6c15c2dd0d1c9434ce299
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917354"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222765"
 ---
 # <a name="microsoft-viva-topics-roles"></a>Microsoft Viva Onderwerpen-rollen 
 
@@ -49,7 +49,7 @@ Een inzender van een onderwerp kan ook een nieuw onderwerp maken en publiceren v
 Als u een onderwerp wilt maken en bewerken, moet de gebruiker:
 
 -   De Microsoft 365-beheerder heeft een [licentie voor Viva-onderwerpen](./set-up-topic-experiences.md#assign-licenses) toegewezen gekregen.
--   [Machtigingen krijgen om onderwerpen te maken en te bewerken.](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center) Deze taak wordt uitgevoerd door de kennisbeheerder op de pagina Instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum.
+-   [Machtigingen krijgen om onderwerpen te maken en te bewerken.](./topic-experiences-user-permissions.md) Deze taak wordt uitgevoerd door de kennisbeheerder op de pagina Instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum.
 
 ## <a name="knowledge-managers"></a>Kennismanagers
 
@@ -64,7 +64,7 @@ Daarnaast kan een kennisbeheerder bestaande onderwerpen bewerken of nieuwe onder
 
 Als u onderwerpen wilt beheren, moet de gebruiker:
 -   De Microsoft 365-beheerder heeft een [licentie voor Viva-onderwerpen](./set-up-topic-experiences.md#assign-licenses) toegewezen gekregen.
--   [Machtigingen krijgen voor het beheren van onderwerpen](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center)). Deze taak wordt uitgevoerd door de kennisbeheerder op de pagina Instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum.
+-   [Machtigingen krijgen voor het beheren van onderwerpen](./topic-experiences-user-permissions.md)). Deze taak wordt uitgevoerd door de kennisbeheerder op de pagina Instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum.
 
 Gebruikers die een goede algehele kennis van uw bedrijf hebben, kunnen goede kandidaten zijn voor de rol van kennismanager. Dergelijke personen hebben mogelijk niet alleen de kennis om te weten of onderwerpen geldig zijn of niet, maar kunnen ook personen binnen het bedrijf kennen die aan deze onderwerpen zijn gerelateerd.
 

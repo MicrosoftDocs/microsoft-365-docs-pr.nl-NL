@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: da70bbfe5c4dfa4f9eda16adec709826de1247b7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c94b387bbd73e2c4f9b3de243131ae023ddb4cb8
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200015"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222523"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Naar identiteit en verder: het gezichtspunt van één architect
 
@@ -231,7 +231,7 @@ Soms vragen scenario's om een externe gebruiker toe te voegen aan een rol (zie d
 
 In zekere zin zijn dit een evolutie van het Exchange-rolgroepenmodel. Exchange Online heeft echter een eigen [interface voor rollengroepbeheer.](/exchange/permissions-exo) Sommige rollengroepen in Exchange Online worden vergrendeld en beheerd vanuit Azure AD & het Beveiligings- & Compliancecentrum, maar andere kunnen dezelfde of soortgelijke namen hebben en worden beheerd in Exchange Online (wat de verwarring kan vergroten). Ik raad u aan de gebruikersinterface van Exchange Online te vermijden, tenzij u ruimte nodig hebt voor Exchange-beheer.
 
-U kunt geen aangepaste rollen maken. Rollen worden gedefinieerd door services die door Microsoft zijn gemaakt en worden groter naarmate er nieuwe services worden geïntroduceerd. Dit is in concept vergelijkbaar met [rollen die zijn gedefinieerd door toepassingen](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) in Azure AD. Wanneer nieuwe services zijn ingeschakeld, moeten er vaak nieuwe rollengroepen worden gemaakt om toegang tot deze services te verlenen of te delegeren (bijvoorbeeld [insider risk management).](../compliance/insider-risk-management-configure.md?view=o365-worldwide#step-1-required-enable-permissions-for-insider-risk-management)
+U kunt geen aangepaste rollen maken. Rollen worden gedefinieerd door services die door Microsoft zijn gemaakt en worden groter naarmate er nieuwe services worden geïntroduceerd. Dit is in concept vergelijkbaar met [rollen die zijn gedefinieerd door toepassingen](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) in Azure AD. Wanneer nieuwe services zijn ingeschakeld, moeten er vaak nieuwe rollengroepen worden gemaakt om toegang tot deze services te verlenen of te delegeren (bijvoorbeeld [insider risk management).](../compliance/insider-risk-management-configure.md?view=o365-worldwide)
 
 Deze rollengroepen vereisen ook direct lidmaatschap en kunnen geen Azure AD-groepen bevatten. Helaas worden deze rollengroepen vandaag de dag niet ondersteund door Azure AD PIM. Net als Azure AD-rollen, ben ik geneigd om het beheer van deze functies aan te bevelen via API's of een partnerbeheerproduct zoals Saviynt of anderen.
 

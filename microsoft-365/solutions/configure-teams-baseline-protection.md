@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Leer teams met een basisbescherming te implementeren.
-ms.openlocfilehash: cd5a88069b9947bd4dcb01f6ca76620bb8ed9a52
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 728a41bd521ed32c57c981be576e46eaee344099
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200291"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222741"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Teams met basisbescherming configureren
 
@@ -39,7 +39,7 @@ We raden u ook aan de basisfuncties van Defender voor Office 365 in te schakelen
 |:------|:-----------|
 |Veilige bijlagen voor SPO, OneDrive en Teams|[Veilige bijlagen](../security/office-365-security/safe-attachments.md)<br>[Defender voor Office 365 - SharePoint, OneDrive en Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)|
 |Veilige documenten|[Veilige documenten in Microsoft Defender voor Office 365](../security/office-365-security/safe-docs.md)|
-|Veilige koppelingen voor Teams|[Veilige Office 365-koppelingen in Teams](../security/office-365-security/safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[Veilige koppelingen](../security/office-365-security/safe-links.md)|
+|Veilige koppelingen voor Teams|[Veilige Office 365-koppelingen in Teams](../security/office-365-security/safe-links.md)<br>[Veilige koppelingen](../security/office-365-security/safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Delen met gasten in Teams
 

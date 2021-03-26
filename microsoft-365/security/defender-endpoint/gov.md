@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1fd128a9b734606039438db1f6d9fbc36e93a3b9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 059ff9ca6f0c93c6adbac3b1d552cbedcf308759
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199007"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222705"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender voor Eindpunt voor klanten van de Amerikaanse overheid
 
 **Van toepassing op:**
 - [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
-Microsoft Defender for Endpoint voor klanten van de Amerikaanse overheid, gebouwd in de Amerikaanse Azure Government-omgeving, gebruikt dezelfde onderliggende technologieën als Defender for Endpoint in Azure Commercial.
+Microsoft Defender for Endpoint voor klanten van de Amerikaanse overheid, ingebouwd in de Azure US Government-omgeving, gebruikt dezelfde onderliggende technologieën als Defender voor Eindpunt in Azure Commercial.
 
 Dit aanbod is beschikbaar voor klanten van GCC, GCC High en DoD en is gebaseerd op dezelfde preventie, detectie, onderzoek en herstel als de commerciële versie. Er zijn echter enkele verschillen in de beschikbaarheid van mogelijkheden voor deze aanbieding.
 
@@ -42,8 +42,8 @@ Klanten van Microsoft Defender voor Endpoint voor de Amerikaanse overheid hebben
 GCC | GCC High | DoD
 :---|:---|:---
 Windows 10 Enterprise E5 GCC | Windows 10 Enterprise E5 voor GCC High | Windows 10 Enterprise E5 voor DOD
-| | Microsoft 365 E5 voor GCC High | 
-| | Microsoft 365 G5-beveiliging voor GCC High | 
+| | Microsoft 365 E5 voor GCC High | Microsoft 365 G5 voor DOD
+| | Microsoft 365 G5-beveiliging voor GCC High | Microsoft 365 G5-beveiliging voor dod
 Microsoft Defender voor Eindpunt - GCC | Microsoft Defender voor Eindpunt voor GCC High | Microsoft Defender voor Eindpunt voor DOD
 
 ### <a name="server-licensing"></a>Serverlicenties
@@ -51,9 +51,6 @@ GCC | GCC High | DoD
 :---|:---|:---
 Microsoft Defender voor Endpoint Server GCC | Microsoft Defender voor Endpoint Server voor GCC High | Microsoft Defender voor Endpoint Server voor DOD
 Azure Defender voor servers | Azure Defender voor servers - Overheid | Azure Defender voor servers - Overheid
-
-> [!NOTE]
-> DoD-licenties zijn alleen beschikbaar bij algemene beschikbaarheid van DoD.
 
 <br>
 
@@ -64,7 +61,7 @@ Klanttype | Portal-URL
 :---|:---
 GCC | https://gcc.securitycenter.microsoft.us
 GCC High | https://securitycenter.microsoft.us
-DoD (PREVIEW) | https://securitycenter.microsoft.us
+DoD | https://securitycenter.microsoft.us
 
 <br>
 
@@ -73,7 +70,7 @@ DoD (PREVIEW) | https://securitycenter.microsoft.us
 ### <a name="standalone-os-versions"></a>Zelfstandige OS-versies
 De volgende besturingssysteemversies worden ondersteund:
 
-OS-versie | GCC | GCC High | DoD (PREVIEW)
+OS-versie | GCC | GCC High | DoD
 :---|:---|:---|:---
 Windows 10, versie 20H2 (met [KB4586853](https://support.microsoft.com/help/4586853)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 10, versie 2004 (met [KB4586853](https://support.microsoft.com/help/4586853)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
@@ -91,8 +88,8 @@ Windows 8.1 Enterprise | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/chec
 Windows 8 Pro | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 7 SP1 Enterprise | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 7 SP1 Pro | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Linux | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
-macOS | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Linux | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol
+macOS | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol
 Android | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
 iOS | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
 
@@ -105,7 +102,7 @@ iOS | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>OS-versies bij het gebruik van Azure Defender voor servers
 De volgende besturingssysteemversies worden ondersteund bij het gebruik van [Azure Defender voor servers:](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
 
-OS-versie | GCC | GCC High | DoD (PREVIEW)
+OS-versie | GCC | GCC High | DoD
 :---|:---|:---|:---
 Windows Server 2016 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
@@ -118,21 +115,37 @@ Als een proxy of firewall standaard al het verkeer blokkeert en alleen specifiek
 
 In de volgende downloadbare spreadsheet worden de services en de bijbehorende URL's vermeld waar uw netwerk verbinding mee moet kunnen maken. Controleer of er geen firewall- of netwerkfilterregels zijn waarmee de toegang tot deze URL's wordt ontzegd of dat er speciaal voor hen een regel *voor* toestaan wordt gemaakt.
 
-Spreadsheet met domeinenlijst | Beschrijving
+Spreadsheet met domeinenlijst | Omschrijving
 :-----|:-----
 ![Thumb image for Microsoft Defender for Endpoint URLLs spreadsheet](images/mdatp-urls.png)<br/> | Spreadsheet met specifieke DNS-records voor servicelocaties, geografische locaties en besturingssysteem. <br><br>[Download de spreadsheet hier.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
 Zie Apparaatproxy- en [internetverbindingsinstellingen configureren](configure-proxy-internet.md)voor meer informatie.
 
 > [!NOTE]
-> Het spreadsheet bevat ook commerciële URL's, controleer of u de tabbladen 'US Gov' controleert. <br> Zoek bij het filteren naar de records met het label 'US Gov' en uw specifieke cloud onder de kolom Geografie.
+> Het spreadsheet bevat ook commerciële URL's, controleer of u de tabbladen 'US Gov' controleert.
+> 
+> Zoek bij het filteren naar de records met het label 'US Gov' en uw specifieke cloud onder de kolom Geografie.
+
+### <a name="service-backend-ip-ranges"></a>IP-bereik met back-over-service
+
+Als uw netwerkapparaten geen DNS-regels ondersteunen, gebruikt u in plaats daarvan IP-bereik.
+
+Defender for Endpoint voor klanten van de Amerikaanse overheid is gebouwd in de Azure US Government-omgeving, geïmplementeerd in de volgende regio's:
+
+- AzureCloud.usgovtexas
+- AzureCloud.usgovvirginia
+
+U kunt de Azure IP-bereik vinden in [Azure IP-bereik en ServiceLabels – US Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063).
+
+> [!NOTE]
+> Als cloudoplossing kunnen de IP-adresbereiken worden gewijzigd. U wordt aangeraden over te gaan op regels op basis van DNS.
 
 <br>
 
 ## <a name="api"></a>API
 In plaats van de openbare URL's in onze [API-documentatie,](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)moet u de volgende URL's gebruiken:
 
-Eindpunttype | GCC | GCC High & DoD (PREVIEW)
+Eindpunttype | GCC | GCC High & DoD
 :---|:---|:---
 Aanmelden | `https://login.microsoftonline.com` | `https://login.microsoftonline.us`
 Defender voor Endpoint API | `https://api-gcc.securitycenter.microsoft.us` | `https://api-gov.securitycenter.microsoft.us`
@@ -141,18 +154,18 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 <br>
 
 ## <a name="feature-parity-with-commercial"></a>Functiepariteit met commercieel
-Defender voor Eindpunt heeft geen volledige pariteit met het commerciële aanbod. Hoewel ons doel is om alle commerciële functies en functionaliteit te leveren aan onze klanten van de Amerikaanse overheid, zijn er nog enkele mogelijkheden die we willen markeren.
+Defender for Endpoint voor klanten van de Amerikaanse overheid heeft geen volledige pariteit met het commerciële aanbod. Hoewel ons doel is om alle commerciële functies en functionaliteit te leveren aan onze klanten van de Amerikaanse overheid, zijn er nog enkele mogelijkheden die we willen markeren.
 
-Dit zijn de bekende hiaten vanaf februari 2021:
+Dit zijn de bekende hiaten vanaf maart 2021:
 
-Functienaam | GCC | GCC High | DoD (PREVIEW)
+Functienaam | GCC | GCC High | DoD
 :---|:---|:---|:---
 Geautomatiseerd onderzoek en herstel: Live-antwoord | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Geautomatiseerd onderzoek en herstel: Reactie op Waarschuwingen voor Office 365 | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
-E-mailmeldingen | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol
+E-mailmeldingen | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Evaluatielaboratorium | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Beheer en API's: rapport over de status en naleving van apparaten | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Beheer en API's: integratie met producten van derden | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Beheer en API's: integratie met producten van derden | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol
 Beheer en API's: Streaming API | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Beheer en API's: rapport bedreigingsbeveiliging | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Bedreigings- & kwetsbaarheidsbeheer | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)

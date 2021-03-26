@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Lees hoe u het Office 365 Content Delivery Network (CDN) kunt gebruiken om de levering van uw SharePoint Online-assets te versnellen.
-ms.openlocfilehash: 6b740fc1429613627e0597dc6ecf2e150c015989
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17c80b8718ea46c9dfba9f803093974e8ce3e706
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924814"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222681"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online
 
@@ -888,7 +888,7 @@ Als u de volledige URL naar het activum wilt gebruiken in plaats van een relatie
 `https://<TenantHostName>.sharepoint.com/sites/site/CDN_origins/public/image.png`
 
 > [!NOTE]
-> In het algemeen moet u URL's niet rechtstreeks hardcoderen naar assets in het CDN. U kunt echter indien nodig handmatig URL's maken voor activa in openbare origins. Zie CDN-URL's [voor hardcoding](use-microsoft-365-cdn-with-spo.md#hardcoding-cdn-urls-for-public-assets)voor openbare activa voor meer informatie.
+> In het algemeen moet u URL's niet rechtstreeks hardcoderen naar assets in het CDN. U kunt echter indien nodig handmatig URL's maken voor activa in openbare origins. Zie CDN-URL's [voor hardcoding](use-microsoft-365-cdn-with-spo.md)voor openbare activa voor meer informatie.
 
 Zie How do I confirm that assets areserved by the CDN? in the Troubleshooting the [Office 365 CDN](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting) (Hoe kan ik bevestigen dat activa worden beheerd door het [CDN)](use-microsoft-365-cdn-with-spo.md#CDNConfirm) voor meer informatie over het controleren of activa worden gebruikt vanuit het CDN.
 

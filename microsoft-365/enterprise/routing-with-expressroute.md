@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: In dit artikel leert u meer over routeringsvereisten, circuits en routeringsdomeinen voor Azure ExpressRoute voor gebruik met Office 365.
-ms.openlocfilehash: 1091ca5e1d48c9837f83e83d4c747c2cbcd523e3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9d3c381cfb6e24c1c87ef3dcfb83a9b93f991b93
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924926"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222405"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Routeren met ExpressRoute voor Office 365
 
@@ -41,7 +41,7 @@ Enkele van de belangrijkste items in de bovenstaande artikelen die u moet begrij
 
 - Er is een 1:1-toewijzing tussen een ExpressRoute-circuit en een s-key van de klant.
 
-- Elk circuit kan ondersteuning bieden voor twee onafhankelijke peeringrelaties (Azure Private peering en Microsoft peering); Office 365 vereist Microsoft-peering.
+- Elk circuit kan twee onafhankelijke peeringrelaties ondersteunen (Azure Private peering en Microsoft peering); Office 365 vereist Microsoft-peering.
 
 - Elk circuit heeft een vaste bandbreedte die wordt gedeeld in alle peeringrelaties.
 
@@ -61,7 +61,7 @@ De volgende scenario's zijn waarin communicatie van Office 365 naar uw on-premis
   
 - SMTP-services, zoals e-mail van een Exchange Online-tenant naar een on-premises host of SharePoint Online Mail die is verzonden vanuit SharePoint Online naar een on-premises host. SMTP-protocol wordt breder gebruikt binnen het microsoft-netwerk dan de route-voorvoegsels die worden gedeeld via ExpressRoute-circuits en het adverteren van on-premises SMTP-servers via ExpressRoute veroorzaakt fouten met deze andere services.
 
-- ADFS tijdens wachtwoordvalidatie voor aanmelding.
+- ADFS tijdens wachtwoordvalidatie voor het aanmelden.
 
 - [Hybride implementaties van Exchange Server](/exchange/exchange-hybrid).
 
@@ -75,7 +75,7 @@ De volgende scenario's zijn waarin communicatie van Office 365 naar uw on-premis
 
 Als Microsoft voor deze bi-directionele verkeersstromen terug naar uw netwerk wil, moeten de BGP-routes naar uw on-premises apparaten worden gedeeld met Microsoft. Wanneer u route-voorvoegsels aan Microsoft via ExpressRoute aanbetalt, moet u de volgende best practices volgen:
 
-1) Maak geen reclame voor hetzelfde openbare IP-adresroute-voorvoegsel naar het openbare internet en via ExpressRoute. Het wordt ten zeerste aanbevolen dat de ip-BGP-route-voorvoegseladvertenties voor Microsoft via ExpressRoute afkomstig zijn van een bereik dat helemaal niet wordt aangekondigd op internet. Als dit niet mogelijk is vanwege de beschikbare IP-adresruimte, is het essentieel om ervoor te zorgen dat u reclame maakt voor een specifieker bereik via ExpressRoute dan internetcircuits.
+1) Maak geen reclame voor hetzelfde openbare IP-adresroute-voorvoegsel naar het openbare internet en via ExpressRoute. Het wordt aanbevolen dat de IP BGP Route Prefix-advertenties voor Microsoft via ExpressRoute afkomstig zijn van een bereik dat helemaal niet wordt aangekondigd op internet. Als dit niet mogelijk is vanwege de beschikbare IP-adresruimte, is het essentieel om ervoor te zorgen dat u reclame maakt voor een specifieker bereik via ExpressRoute dan internetcircuits.
 
 2) Gebruik afzonderlijke NAT IP-pools per ExpressRoute-circuit en los van die van uw internetcircuits.
 
@@ -112,7 +112,7 @@ Meestal zijn PAC-bestanden bedoeld om netwerkaanvragen rechtstreeks naar het cir
 
 3. Neem eventuele andere netwerk-eindpunten of -regels onder deze twee items op, die het verkeer naar uw proxy verzenden.
 
-In deze tabel worden de jokertekendomeinen weergegeven die alleen worden aangekondigd op internetcircuits naast de sub-FQDN's die worden aangekondigd voor Azure ExpressRoute- en internetcircuits. Voor het PAC-bestand hierboven worden de FQDN's in kolom twee in de onderstaande tabel weergegeven als wordt aangekondigd voor ExpressRoute in de koppeling waarnaar wordt verwezen, wat betekent dat ze worden opgenomen in de tweede groep items in het bestand.
+In deze tabel worden de jokertekendomeinen weergegeven die alleen worden aangekondigd op internetcircuits naast de sub-FQDN's die worden aangekondigd voor Azure ExpressRoute- en internetcircuits. Voor het PAC-bestand hierboven worden de FQDN's in kolom 2 in de onderstaande tabel weergegeven als wordt aangekondigd voor ExpressRoute in de koppeling waarnaar wordt verwezen, wat betekent dat ze worden opgenomen in de tweede groep items in het bestand.
 
 |**Jokertekendomein dat alleen wordt aangekondigd voor internetcircuits**|**Sub-FQDN aangekondigd voor ExpressRoute- en internetcircuits**|
 |:-----|:-----|
@@ -130,7 +130,7 @@ Als u naar de Office 365-toepassing van uw keuze wilt gaan, moet u een aantal be
 
 2. Welke uitgangslocatie(en) u wilt dat het netwerkverkeer uw netwerk verlaat. U moet van plan zijn om de netwerklatentie voor connectiviteit met Office 365 te minimaliseren, omdat dit van invloed is op de prestaties. Omdat Skype voor Bedrijven realtime spraak en video gebruikt, is deze met name gevoelig voor slechte netwerklatentie.
 
-3. Als u wilt dat alle of een subset van uw netwerklocaties gebruikmaken van ExpressRoute.
+3. Als u wilt dat alle of een subset van uw netwerklocaties ExpressRoute gebruikt.
 
 4. Van welke locaties uw gekozen netwerkprovider ExpressRoute biedt.
 
@@ -142,11 +142,11 @@ Dit voorbeeld is een scenario voor een fictieve onderneming met de naam Trey Res
   
 Werknemers van Trey Research mogen alleen verbinding maken met de services en websites op internet die door de beveiligingsafdeling expliciet worden toegestaan op het paar uitgaande proxies tussen het bedrijfsnetwerk en hun internetprovider.
   
-Trey Research is van plan Azure ExpressRoute voor Office 365 te gebruiken en erkent dat sommige verkeer, zoals verkeer dat is bestemd voor netwerken voor inhoudsbezorging, niet kan worden omgeleid via de ExpressRoute voor Office 365-verbinding. Aangezien al het verkeer standaard al naar de proxyapparaten wordt gerouteerd, blijven deze aanvragen zoals voorheen werken. Nadat Trey Research heeft bepaald dat ze kunnen voldoen aan de routeringsvereisten voor Azure ExpressRoute, gaan ze verder met het maken van een circuit, het configureren van routering en het koppelen van het nieuwe ExpressRoute-circuit aan een virtueel netwerk. Wanneer de basisconfiguratie van Azure ExpressRoute is uitgevoerd, gebruikt Trey Research het [#2 PAC-bestand](./managing-office-365-endpoints.md#ID0EACAAA=2._Proxies) dat we publiceren om verkeer met klantspecifieke gegevens door te sturen via de directe ExpressRoute voor Office 365-verbindingen.
+Trey Research is van plan Azure ExpressRoute voor Office 365 te gebruiken en erkent dat sommige verkeer, zoals verkeer dat is bestemd voor netwerken voor inhoudsbezorging, niet kan worden omgeleid via de ExpressRoute voor Office 365-verbinding. Aangezien al het verkeer standaard al naar de proxyapparaten wordt gerouteerd, blijven deze aanvragen zoals voorheen werken. Nadat Trey Research heeft bepaald dat ze kunnen voldoen aan de routeringsvereisten voor Azure ExpressRoute, gaan ze verder met het maken van een circuit, het configureren van routering en het koppelen van het nieuwe ExpressRoute-circuit aan een virtueel netwerk. Wanneer de basisconfiguratie van Azure ExpressRoute is uitgevoerd, gebruikt Trey Research het [#2 PAC-bestand](./managing-office-365-endpoints.md)  dat we publiceren om verkeer met klantspecifieke gegevens door te sturen via de directe ExpressRoute voor Office 365-verbindingen.
   
 Zoals wordt weergegeven in het volgende diagram, kan Trey Research voldoen aan de vereiste om Office 365-verkeer via internet en een subset verkeer via ExpressRoute te routeren met behulp van een combinatie van routerings- en uitgaande proxyconfiguratiewijzigingen.
   
-1. Met het [#2 PAC-bestand dat we](./managing-office-365-endpoints.md#ID0EACAAA=2._Proxies) publiceren om verkeer door een afzonderlijk internet-uitgangspunt voor Azure ExpressRoute voor Office 365 te leiden.
+1. Met het [#2 PAC-bestand dat we](./managing-office-365-endpoints.md) publiceren om verkeer door een afzonderlijk internet-uitgangspunt voor Azure ExpressRoute voor Office 365 te leiden.
 
 2. Clients worden geconfigureerd met een standaardroute naar trey research's proxies.
 
@@ -166,7 +166,7 @@ Het hoogste volume FQDN's voor Exchange Online, SharePoint Online en Skype voor 
 
 Meer informatie over het implementeren en beheren van [proxy-instellingen in](/archive/blogs/deploymentguys/windows-8-supporting-proxy-services-with-static-configurations-web-hosted-pac-files-and-domain-policy-configured-proxy) Windows 8 en ervoor te zorgen dat Office [365](https://blogs.technet.com/b/onthewire/archive/2014/03/28/ensuring-your-office-365-network-connection-isn-t-throttled-by-your-proxy.aspx)niet wordt beperkt door uw proxy.
   
-Met één ExpressRoute-circuit is er geen hoge beschikbaarheid voor Trey Research. In het geval dat het redundante paar edge-apparaten van Trey dat de ExpressRoute-connectiviteit onderhoudt, mislukt, is er geen extra ExpressRoute-circuit om te mislukken. Hierdoor blijft Trey Research in een situatie waarin het niet lukt op internet handmatig opnieuw te configureren en in sommige gevallen nieuwe IP-adressen. Als Trey hoge beschikbaarheid wil toevoegen, is de eenvoudigste oplossing het toevoegen van extra ExpressRoute-circuits voor elke locatie en het configureren van de circuits op een actieve/actieve manier.
+Met één ExpressRoute-circuit is er geen hoge beschikbaarheid voor Trey Research. In het geval dat het redundante paar edge-apparaten van Trey dat de ExpressRoute-connectiviteit onderhoudt, mislukt, is er geen extra ExpressRoute-circuit om te mislukken. Hierdoor blijft Trey Research in een situatie waarin het niet lukt om naar internet te gaan, handmatig opnieuw configureren en in sommige gevallen nieuwe IP-adressen. Als Trey hoge beschikbaarheid wil toevoegen, is de eenvoudigste oplossing het toevoegen van extra ExpressRoute-circuits voor elke locatie en het configureren van de circuits op een actieve/actieve manier.
   
 ## <a name="routing-expressroute-for-office-365-with-multiple-locations"></a>ExpressRoute routeren voor Office 365 met meerdere locaties
 
@@ -180,7 +180,7 @@ De extra vragen die moeten worden beantwoord voor klanten met meerdere locaties 
 
 3. Wat is de voorkeursmethode voor het samenvoegen van verkeer in het geval van netwerken met veel kleine locaties?
 
-Elk van deze opties biedt een unieke uitdaging, die vereist dat u uw eigen netwerk evalueert, evenals de opties die beschikbaar zijn bij Microsoft.
+Elk van deze opties biedt een unieke uitdaging, die vereist dat u uw eigen netwerk en de beschikbare opties van Microsoft evalueert.
 
 |**Overweging**|**Netwerkonderdelen om te evalueren**|
 |:-----|:-----|
@@ -197,25 +197,25 @@ Met elk van deze overwegingen moet rekening worden gehouden voor elk uniek netwe
   
 Dit voorbeeld is een scenario voor een fictieve onderneming genaamd Humongous Insurance die meerdere geografische locaties heeft.
   
-Humongous Insurance is geografisch verspreid met kantoren over de hele wereld. Ze willen Azure ExpressRoute voor Office 365 implementeren om het grootste deel van hun Office 365-verkeer op directe netwerkverbindingen te houden. Humongous Insurance heeft ook kantoren op twee andere continenten. De werknemers in het externe kantoor waar ExpressRoute niet haalbaar is, moeten terugleiden naar een of beide primaire faciliteiten om een ExpressRoute-verbinding te gebruiken.
+Humongous Insurance is geografisch verspreid met kantoren over de hele wereld. Ze willen Azure ExpressRoute voor Office 365 implementeren om het meeste Office 365-verkeer op directe netwerkverbindingen te houden. Humongous Insurance heeft ook kantoren op twee andere continenten. De werknemers in het externe kantoor waar ExpressRoute niet haalbaar is, moeten terugleiden naar een of beide primaire faciliteiten om een ExpressRoute-verbinding te gebruiken.
   
 Het uitgangspunt is om zo snel mogelijk verkeer naar een Microsoft-datacenter te krijgen dat bestemd is voor Office 365. In dit voorbeeld moet Humongous Insurance bepalen of de externe kantoren via internet moeten worden gerouteerd om zo snel mogelijk via een verbinding naar een Microsoft-datacenter te gaan of dat hun externe kantoren een route moeten maken via een intern netwerk om zo snel mogelijk via een ExpressRoute-verbinding naar een Microsoft-datacenter te gaan.
   
 De datacenters, netwerken en toepassingsarchitectuur van Microsoft zijn ontworpen om de communicatie over de hele wereld op een zo efficiënt mogelijke manier te kunnen gebruiken. Dit is een van de grootste netwerken ter wereld. Aanvragen die bestemd zijn voor Office 365 die langer dan nodig in klantnetwerken blijven, kunnen niet profiteren van deze architectuur.
   
-In de situatie van Humongous Insurance moeten ze doorgaan, afhankelijk van de toepassingen die ze via ExpressRoute willen gebruiken. Als ze bijvoorbeeld een skype voor Bedrijven Online-klant zijn of van plan zijn expressroute-connectiviteit te gebruiken wanneer ze verbinding maken met externe Skype voor Bedrijven Online-vergaderingen, is het ontwerp dat wordt aanbevolen in de gids voor mediakwaliteit en netwerkconnectiviteit van Skype voor Bedrijven Online om een extra ExpressRoute-circuit in te stellen voor de derde locatie. Dit kan duurder zijn vanuit een netwerkperspectief. Routeringsaanvragen van het ene continent naar het andere voordat ze naar een Microsoft-datacenter worden gebracht, kunnen echter een slechte of onbruikbaare ervaring veroorzaken tijdens skype voor Bedrijven Online-vergaderingen en -communicatie.
+In de situatie van Humongous Insurance moeten ze doorgaan, afhankelijk van de toepassingen die ze via ExpressRoute willen gebruiken. Als ze bijvoorbeeld een skype voor Bedrijven Online-klant zijn of van plan zijn ExpressRoute-connectiviteit te gebruiken bij het maken van verbinding met externe Skype voor Bedrijven Online-vergaderingen, is het ontwerp dat wordt aanbevolen in de gids voor mediakwaliteit en netwerkconnectiviteit van Skype voor Bedrijven Online door een extra ExpressRoute-circuit in te stellen voor de derde locatie. Dit kan duurder zijn vanuit een netwerkperspectief. Routeringsaanvragen van het ene continent naar het andere voordat ze naar een Microsoft-datacenter worden gebracht, kunnen echter een slechte of onbruikbaare ervaring veroorzaken tijdens skype voor Bedrijven Online-vergaderingen en -communicatie.
   
-Als Humongous Insurance skype voor Bedrijven Online op geen enkele manier gebruikt of niet van plan is, kan het routeren van voor Office 365 bestemd netwerkverkeer naar een continent met een ExpressRoute-verbinding haalbaar zijn, maar kan dit leiden tot onnodige latentie of TCP-congestie. In beide gevallen wordt het routeren van internetverkeer naar internet op de lokale site aanbevolen om te profiteren van de netwerken voor inhoudsbezorging waar Office 365 op vertrouwt.
+Als Humongous Insurance Skype voor Bedrijven Online op geen enkele manier gebruikt of niet van plan is, kan het routeren van office 365 bestemd netwerkverkeer naar een continent met een ExpressRoute-verbinding haalbaar zijn, maar kan dit leiden tot onnodige latentie of TCP-congestie. In beide gevallen wordt het routeren van internetverkeer naar internet op de lokale site aanbevolen om te profiteren van de netwerken voor inhoudsbezorging waar Office 365 op vertrouwt.
   
 ![ExpressRoute multigeografie](../media/98fdd883-2c5a-4df7-844b-bd28cd0b9f50.png)
   
 Wanneer Humongous Insurance hun strategie voor meerdere geografien plant, zijn er een aantal dingen die u moet overwegen rond de grootte van circuit, het aantal circuits, failover, en ga zo maar door.
   
-Met ExpressRoute op één locatie met meerdere regio's die het circuit proberen te gebruiken, wil Humongous Insurance ervoor zorgen dat verbindingen met Office 365 vanuit het externe kantoor worden verzonden naar het dichtstbijzijnde hoofdkantoor van het Office 365-datacenter en worden ontvangen door de hoofdkantoorlocatie. Hiervoor implementeert Humongous Insurance DNS forwarding om het aantal retouren en DNS-opzoekingen te verminderen dat nodig is om de juiste verbinding tot stand te brengen met de Office 365-omgeving die zich het dichtst bij het internet-uitgangspunt van het hoofdkantoor bevindt. Hiermee voorkomt u dat de client een lokale front-endserver kan oplossen en zorgt u ervoor dat de Front End-server met wie de persoon verbinding maakt, zich in de buurt van het hoofdkantoor bevindt waar Humongous Insurance met Microsoft peert. U kunt ook leren een [voorwaardelijke doorst forwarder toe te wijzen voor een domeinnaam.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc794735(v=ws.10))
+Met ExpressRoute op één locatie met meerdere regio's die het circuit proberen te gebruiken, wil Humongous Insurance ervoor zorgen dat verbindingen met Office 365 vanuit het externe kantoor worden verzonden naar het dichtstbijzijnde hoofdkantoor van het Office 365-datacenter en worden ontvangen door de hoofdkantoorlocatie. Hiervoor implementeert Humongous Insurance DNS forwarding om het aantal retouren en DNS-opzoekingen te verminderen dat nodig is om de juiste verbinding tot stand te brengen met de Office 365-omgeving die zich het dichtst bij het internet-uitgangspunt van het hoofdkantoor bevindt. Hiermee voorkomt u dat de client een lokale front-endserver kan oplossen en zorgt u ervoor dat de Front-End-server die de persoon verbindt, zich in de buurt van het hoofdkantoor bevindt waar Humongous Insurance met Microsoft peert. U kunt ook leren een [voorwaardelijke doorst forwarder toe te wijzen voor een domeinnaam.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc794735(v=ws.10))
   
-In dit scenario zou het verkeer van het externe kantoor de front-endinfrastructuur van Office 365 in Noord-Amerika oplossen en gebruikmaken van Office 365 om verbinding te maken met de back-endservers volgens de architectuur van de Office 365-toepassing. Exchange Online beëindigt bijvoorbeeld de verbinding in Noord-Amerika en deze front-endservers maken verbinding met de back-endpostvakserver, waar de tenant zich ook bevindt. Alle services hebben een breed verspreide front-door-service die bestaat uit unicast- en anycast-bestemmingen.
+In dit scenario zou het verkeer van het externe kantoor de front-endinfrastructuur van Office 365 in Noord-Amerika oplossen en Office 365 gebruiken om verbinding te maken met de back-endservers volgens de architectuur van de Office 365-toepassing. Exchange Online beëindigt bijvoorbeeld de verbinding in Noord-Amerika en die front-endservers maken verbinding met de back-endpostvakserver, waar de tenant zich ook bevindt. Alle services hebben een breed verspreide front-door-service die bestaat uit unicast- en anycast-bestemmingen.
   
-Als Humongous grote kantoren heeft op meerdere continenten, wordt een minimum van twee actieve/actieve circuits per regio aanbevolen om de latentie voor gevoelige toepassingen, zoals Skype voor Bedrijven Online, te verminderen. Als alle kantoren zich op één continent of niet in realtime samenwerken, is een geconsolideerd of gedistribueerd uitgangspunt een specifieke beslissing van de klant. Wanneer er meerdere circuits beschikbaar zijn, zorgt BGP-routering ervoor dat failover wordt gebruikt als één circuit niet beschikbaar is.
+Als Humongous grote kantoren heeft op meerdere continenten, wordt een minimum van twee actieve/actieve circuits per regio aanbevolen om de latentie voor gevoelige toepassingen, zoals Skype voor Bedrijven Online, te verminderen. Als alle kantoren zich op één continent of niet in realtime samenwerken, is het een klantspecifieke beslissing om een geconsolideerd of gedistribueerd uitgangspunt te hebben. Wanneer er meerdere circuits beschikbaar zijn, zorgt BGP-routering ervoor dat failover wordt gebruikt als één circuit niet beschikbaar is.
   
 Meer informatie over [voorbeeldrouteringsconfiguraties](/azure/expressroute/expressroute-config-samples-routing) en [https://azure.microsoft.com/documentation/articles/expressroute-config-samples-nat/](/azure/expressroute/expressroute-config-samples-nat) .
   
@@ -225,7 +225,7 @@ Selectieve routering met ExpressRoute kan om verschillende redenen nodig zijn, z
   
 1. **Routefilters/segregatie:** de BGP-routes naar Office 365 via ExpressRoute toestaan naar een subset van uw subnetten of routers. Hiermee wordt selectief gerouteerd per klantnetwerksegment of fysieke kantoorlocatie. Dit is gebruikelijk voor een duizelingwekkende implementatie van ExpressRoute voor Office 365 en is geconfigureerd op uw BGP-apparaten.
 
-2. **PAC-bestanden/URL's:** het doorverzenderen van office 365-netwerkverkeer voor specifieke FQDN's die u op een bepaald pad wilt routeren. Hiermee wordt selectief gerouteerd op de clientcomputer, zoals aangegeven door [PAC-bestandsimplementatie.](./managing-office-365-endpoints.md#ID0EACAAA=2._Proxies)
+2. **PAC-bestanden/URL's:** het doorverzenderen van office 365-netwerkverkeer voor specifieke FQDN's die u op een bepaald pad wilt routeren. Hiermee wordt selectief gerouteerd op de clientcomputer, zoals aangegeven door [PAC-bestandsimplementatie.](./managing-office-365-endpoints.md)
 
 3. **Routefiltering**  -  [Routefilters](/azure/expressroute/how-to-routefilter-portal) zijn een manier om een subset met ondersteunde services te gebruiken via Microsoft-peering.
 

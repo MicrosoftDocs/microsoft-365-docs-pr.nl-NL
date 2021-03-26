@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-beheercentrum : meer informatie over de functies
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: b670c6a333485bc3a19ae14b8e7c71f08181cac5
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 7b802556e051200bf39bc4bd9b97974d4d2d4c47
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215574"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222001"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365-beheercentrum
 
@@ -37,7 +37,7 @@ ms.locfileid: "51215574"
 
 ::: moniker-end
 
-We voegen voortdurend nieuwe functies toe aan het [Microsoft 365-beheercentrum,](microsoft-365-admin-center-preview.md)lossen problemen op die we leren en brengen wijzigingen aan op basis van uw feedback. Bekijk hieronder wat er vandaag voor u beschikbaar is. Sommige functies worden met verschillende snelheden uitgerold voor onze klanten. Als u nog geen functie ziet, kunt u [proberen om uzelf toe te voegen aan een gerichte release.](manage/release-options-in-office-365.md)
+We voegen voortdurend nieuwe functies toe aan het [Microsoft 365-beheercentrum,](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)lossen problemen op die we leren en brengen wijzigingen aan op basis van uw feedback. Bekijk hieronder wat er vandaag voor u beschikbaar is. Sommige functies worden met verschillende snelheden uitgerold voor onze klanten. Als u nog geen functie ziet, kunt u [proberen om uzelf toe te voegen aan een gerichte release.](manage/release-options-in-office-365.md)
 
 En als u wilt weten wat er nieuw is met andere Microsoft-cloudservices:
 

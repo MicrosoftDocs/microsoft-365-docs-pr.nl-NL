@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Uitleg over het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
-ms.openlocfilehash: 9640b028e4b5a9cbd914b183e61de9b8a7ba00bc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f12cc46e1ffcbc610f50ba327e22ad46a2591521
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905788"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222267"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen 
 
@@ -34,7 +34,7 @@ Er zijn twee modeltypen die u kunt gebruiken:
 Beide modellen worden in het algemeen gebruikt voor dezelfde doeleinden, maar de hieronder vermelde verschillen bepalen welke je kunt gebruiken.
 
 > [!NOTE]
-> Zie [Ingebruikname van SharePoint Syntex: introductiehandleiding](./adoption-getstarted.md#form-processing-scenario-example) voor meer informatie over formulierverwerking scenariovoorbeelden voor documentbegrip.
+> Zie [Ingebruikname van SharePoint Syntex: introductiehandleiding](./adoption-getstarted.md) voor meer informatie over formulierverwerking scenariovoorbeelden voor documentbegrip.
 
 
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Gestructureerde versus niet-gestructureerde en gedeeltelijk gestructureerde inhoud

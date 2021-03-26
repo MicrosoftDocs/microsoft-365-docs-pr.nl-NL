@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: U kunt beheercentrum gebruiken voor het instellen van uw organisatie in de cloud, het beheren van gebruikers en abonnementen. Ga aan de slag door u aan te melden bij het account met beheerdersmachtigingen.
-ms.openlocfilehash: 7d326629de4859819784af015292f99b044658d0
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: ef606565d7cad94bc0c7ff81630ef6c2fe8a6fc4
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215490"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222085"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Over het Microsoft 365-beheercentrum
 
@@ -71,7 +71,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
 
 ## <a name="admin-center-features-and-settings"></a>Functies en instellingen van het beheercentrum
 
-Hier vindt u de functies en instellingen die in het linkernavigatievenster van het beheercentrum te vinden zijn. Lees meer informatie over beheertaken in [hulp voor beheerders](./admin-overview.md).
+Hier vindt u de functies en instellingen die in het linkernavigatievenster van het beheercentrum te vinden zijn. Lees meer informatie over beheertaken in [hulp voor beheerders](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview).
   
 |**Menu**|**Doel**|
 |-----|-----|

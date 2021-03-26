@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: 'Overzicht: Gebruik PowerShell voor Microsoft 365 om rapporten te maken die u niet kunt maken in het Microsoft 365-beheercentrum.'
-ms.openlocfilehash: 12cba74d114ea03804741335bd34ece403926033
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dc183ae8a315bf788befc85474d0647802ac91ee
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924694"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222777"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>PowerShell gebruiken om rapporten te maken voor Microsoft 365
 
@@ -33,7 +33,7 @@ In deze artikelen wordt beschreven hoe u PowerShell voor Microsoft 365 gebruikt 
   
 - Aan de slag met rapportage met PowerShell voor Microsoft 365:
     
-  - [Waarom u PowerShell voor Microsoft 365 moet gebruiken](./why-you-need-to-use-microsoft-365-powershell.md#reveal)
+  - [Waarom u PowerShell voor Microsoft 365 moet gebruiken](./why-you-need-to-use-microsoft-365-powershell.md)
     
     
 - Rapporten voor gebruikersaccounts en -licenties:

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4e216f841c8728b1cabd98a931e7326f53344a74
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3edc7e52e93bc08d46536a520bf57735983f493b
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058601"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222621"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Incidenten beheren in Microsoft 365 Defender
 
@@ -82,4 +82,4 @@ Wanneer een wijziging of opmerking wordt aangebracht in een waarschuwing, wordt 
 Toegevoegde opmerkingen worden direct weergegeven in het deelvenster.
 
 ## <a name="add-incident-tags"></a>Incidentlabels toevoegen
-U kunt aangepaste tags toevoegen aan een incident, bijvoorbeeld om een vlag toe te voegen aan een groep incidenten met een gemeenschappelijke kenmerken. U kunt later de wachtrij voor incidenten filteren op alle incidenten die een specifieke tag bevatten.
+U kunt aangepaste tags toevoegen aan een incident, bijvoorbeeld om een vlag toe te voegen aan een groep incidenten met een gemeenschappelijke eigenschap. U kunt later de wachtrij voor incidenten filteren op alle incidenten die een specifieke tag bevatten.

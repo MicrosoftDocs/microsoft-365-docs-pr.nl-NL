@@ -16,20 +16,18 @@ ms.custom: nextgen
 ms.date: 09/10/2020
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 30e664aed74ed01944c67b139e6268fc3340ada4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bfd447120e171fed063b3224e3a47c2ef38f0f16
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057173"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222609"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboard Windows 10 multi-session devices in Windows Virtual Desktop 
 6 minuten om te lezen 
 
 Van toepassing op: 
 - Windows 10 multi-session running on Windows Virtual Desktop (WVD) 
-> [!IMPORTANT]
-> Welkom bij Microsoft Defender voor Eindpunt, de nieuwe naam voor Microsoft Defender voor Eindpunt. Lees meer over deze en andere updates hier. De namen in producten en in de documenten worden binnenkort bijgewerkt.
 
 > [!WARNING]
 > Microsoft Defender voor endpoint-ondersteuning voor scenario's met meerdere sessies voor Windows Virtual Desktop is momenteel beschikbaar in Preview en beperkt tot 25 gelijktijdige sessies per host/VM. Scenario's voor één sessie op Windows Virtual Desktop worden echter volledig ondersteund.
@@ -44,12 +42,12 @@ Vertrouwd raken met de [overwegingen voor niet-permanente VDI.](https://docs.mic
 > - Eén invoer voor elk virtueel bureaublad 
 > - Meerdere items voor elk virtueel bureaublad 
 
-Microsoft raadt onboarding van Windows Virtual Desktop aan als één item per virtueel bureaublad. Dit zorgt ervoor dat de onderzoekservaring in de Microsoft Defender Endpoint-portal binnen de context van één apparaat valt op basis van de computernaam. Organisaties die regelmatig WVD-hosts verwijderen en opnieuw implementeren, moeten deze methode overwegen omdat hiermee wordt voorkomen dat meerdere objecten voor dezelfde computer worden gemaakt in de Microsoft Defender voor Eindpunt-portal. Dit kan leiden tot verwarring bij het onderzoeken van incidenten. Voor test- of niet-vluchtige omgevingen kunt u ervoor kiezen om anders te kiezen. 
+Microsoft raadt onboarding van Windows Virtual Desktop aan als één item per virtueel bureaublad. Dit zorgt ervoor dat de onderzoekservaring in de Microsoft Defender Endpoint-portal binnen de context van één apparaat valt op basis van de computernaam. Organisaties die vaak WVD-hosts verwijderen en opnieuw deployeren, moeten deze methode sterk overwegen omdat hiermee wordt voorkomen dat meerdere objecten voor dezelfde computer worden gemaakt in de Microsoft Defender voor Eindpunt-portal. Dit kan leiden tot verwarring bij het onderzoeken van incidenten. Voor test- of niet-vluchtige omgevingen kunt u ervoor kiezen om anders te kiezen. 
 
-Microsoft raadt aan het onboardingscript van Microsoft Defender voor eindpunt toe te voegen aan de gouden afbeelding van WVD. Op deze manier kunt u er zeker van zijn dat dit onboarding-script direct bij het opstarten wordt uitgevoerd. Het wordt uitgevoerd als een opstartscript bij het opstarten op alle WVD-machines die zijn ingericht vanuit de gouden afbeelding van WVD. Als u echter een van de galerieafbeeldingen zonder wijziging gebruikt, zet u het script op een gedeelde locatie en belt u het vanuit lokaal beleid of domeingroepsbeleid. 
+Microsoft raadt aan het onboardingscript van Microsoft Defender voor eindpunt toe te voegen aan de gouden afbeelding van WVD. Op deze manier kunt u er zeker van zijn dat dit onboarding-script direct bij het opstarten wordt uitgevoerd. Het wordt uitgevoerd als een opstartscript bij het opstarten op alle WVD-machines die zijn ingericht vanuit de gouden afbeelding van WVD. Als u echter een van de galerieafbeeldingen zonder wijziging gebruikt, zet u het script op een gedeelde locatie en belt u het vanuit lokaal of domeingroepsbeleid. 
 
 > [!NOTE]
-> De plaatsing en configuratie van het VDI onboarding-opstartscript op de gouden afbeelding van WVD configureert het script als een opstartscript dat wordt uitgevoerd wanneer de WVD wordt gestart. Het wordt NIET aanbevolen om de werkelijke gouden afbeelding van WVD aan te boord te nemen. Een andere overweging is de methode die wordt gebruikt om het script uit te voeren. Het moet zo vroeg mogelijk in het opstart-/inrichtingsproces worden uitgevoerd om de tijd tussen de machine die beschikbaar is voor het ontvangen van sessies en de onboarding van het apparaat bij de service te verminderen. In onderstaande scenario'& 2 wordt hiermee rekening gehouden.
+> De plaatsing en configuratie van het VDI onboarding-opstartscript op de gouden afbeelding van WVD configureert het script als een opstartscript dat wordt uitgevoerd wanneer de WVD wordt gestart. Het is NIET raadzaam om de werkelijke gouden afbeelding van WVD aan te boord te nemen. Een andere overweging is de methode die wordt gebruikt om het script uit te voeren. Het moet zo vroeg mogelijk in het opstart-/inrichtingsproces worden uitgevoerd om de tijd tussen de machine die beschikbaar is voor het ontvangen van sessies en de onboarding van het apparaat bij de service te verminderen. In onderstaande scenario'& 2 wordt hiermee rekening gehouden.
 
 ### <a name="scenarios"></a>Scenario's
 Er zijn verschillende manieren om een WVD-hostcomputer aan te boord te nemen:
@@ -103,7 +101,7 @@ Zie Voor meer informatie: [Windows 10-apparaten](https://docs.microsoft.com/micr
 
 #### <a name="tagging-your-machines-when-building-your-golden-image"></a>Uw machines labelen bij het maken van uw gouden afbeelding 
 
-Als onderdeel van uw onboarding kunt u overwegen om een machinelabel in te stellen om WVD-machines gemakkelijker te kunnen onderscheiden in het Microsoft-beveiligingscentrum. Zie Apparaatlabels toevoegen door een registersleutelwaarde in te stellen voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-tags#add-device-tags-by-setting-a-registry-key-value) 
+Als onderdeel van uw onboarding kunt u overwegen om een machinelabel in te stellen om WVD-machines gemakkelijker van elkaar te onderscheiden in het Microsoft-beveiligingscentrum. Zie Apparaatlabels toevoegen door een registersleutelwaarde in te stellen voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-tags#add-device-tags-by-setting-a-registry-key-value) 
 
 #### <a name="other-recommended-configuration-settings"></a>Andere aanbevolen configuratie-instellingen 
 

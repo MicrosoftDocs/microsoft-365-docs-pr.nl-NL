@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0b9ce376736e5f00ee0f6a4f308d783e75052357
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 97a64c8537ff2a6f9948ed6ed056b8aa7379ce69
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163293"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222333"
 ---
 # <a name="pull-detections-to-your-siem-tools"></a>Detecties naar uw SIEM-hulpprogramma's trekken
 
@@ -53,7 +53,7 @@ Als u een van deze ondersteunde SIEM-hulpprogramma's wilt gebruiken, moet u het 
 
 - [SIEM-integratie inschakelen in Defender voor Eindpunt](enable-siem-integration.md)
 - Het ondersteunde SIEM-hulpprogramma configureren:
-     - [HP ArcSight configureren om Defender te gebruiken voor eindpuntdetecties](configure-arcsight.md)
+     - [MicroFocus ArcSight configureren om Defender voor eindpuntdetecties op te halen](configure-arcsight.md)
      - CONFIGURE IBM QRadar to pull Defender for Endpoint detections (IBM [Knowledge Center)](https://www.ibm.com/support/knowledgecenter/SS42VS_DSM/com.ibm.dsm.doc/c_dsm_guide_MS_Win_Defender_ATP_overview.html?cp=SS42VS_7.3.1)voor meer informatie.
 
-Zie Defender [voor eindpuntdetectievelden](api-portal-mapping.md)voor meer informatie over de lijst met velden die worden weergegeven in de Detectie-API.
+Zie [Defender voor eindpuntdetectievelden](api-portal-mapping.md)voor meer informatie over de lijst met velden die worden weergegeven in de Detectie-API.

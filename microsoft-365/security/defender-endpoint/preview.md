@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 370048586c5ddfa6fa9ea265e929608357adf5df
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4aab7f12b250c1415ad65a9e706edf6b68050b2f
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186879"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222648"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Microsoft Defender voor endpoint preview-functies
 
@@ -40,9 +40,6 @@ ms.locfileid: "51186879"
 
 
 De Defender voor Eindpunt-service wordt voortdurend bijgewerkt met nieuwe functieverbeteringen en -mogelijkheden.
-
-> [!TIP]
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-abovefoldlink)
 
 Lees meer over nieuwe functies in de preview-release van Defender voor Eindpunt en probeer als een van de eersten toekomstige functies door de preview-ervaring in te- of uitschakelen.
 
@@ -68,15 +65,6 @@ De volgende functies zijn opgenomen in de preview-release:
 - [Filteren op webinhoud](web-content-filtering.md) <br> Filteren van webinhoud maakt deel uit van de mogelijkheden voor webbeveiliging in Microsoft Defender voor Eindpunt. Hiermee kan uw organisatie de toegang tot websites bijhouden en reguleren op basis van hun inhoudscategorieën. Veel van deze websites, hoewel niet schadelijk, kunnen problematisch zijn vanwege nalevingsregels, bandbreedtegebruik of andere problemen.
 
 - [Rapport apparaattoestand en naleving](machine-reports.md) <br/> Het rapport apparaattoestand en compliance bevat informatie op hoog niveau over de apparaten in uw organisatie.
-
-- [Gegevensbeveiliging](information-protection-in-windows-overview.md)<BR>
-Informatiebeveiliging is een integraal onderdeel van de Microsoft 365 Enterprise-suite en biedt intelligente beveiliging om gevoelige gegevens veilig te houden en productiviteit op de werkplek in te stellen. Microsoft Defender voor Eindpunt is naadloos geïntegreerd in Microsoft Threat Protection om een volledige en uitgebreide oplossing voor preventie van gegevensverlies (DLP) te bieden voor Windows-apparaten.
-
-    >[!NOTE]
-    >Gedeeltelijk beschikbaar in Windows 10, versie 1809.
-
-- [Onboard Windows Server 2019](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-version-1803-and-windows-server-2019) <BR> Microsoft Defender voor Eindpunt voegt nu ondersteuning toe voor Windows Server 2019. U kunt Windows Server 2019 aan boord nemen volgens dezelfde methode die beschikbaar is voor Windows 10-clientapparaten.
-
 
 > [!TIP] 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-belowfoldlink)  

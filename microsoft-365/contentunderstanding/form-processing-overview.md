@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Informatie over formulierverwerking in Microsoft SharePoint Syntex
-ms.openlocfilehash: 84aeb7c4e3fc850e5e4c2336e576ff3bce3ecf4b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e3cf8298a2db9383e5b88dde737efc84e75c7f19
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928306"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222255"
 ---
 # <a name="form-processing-overview"></a>Overzicht formulierverwerking
 
@@ -30,7 +30,7 @@ U kunt de formulierverwerking van AI Builder gebruiken om AI-modellen te maken d
 Organisaties ontvangen vaak grote hoeveelheden facturen afkomstig uit verschillende bronnen, zoals post, fax, e-mail, enzovoort. Het verwerken van deze documenten en het handmatig invoeren ervan in een database kan veel tijd in beslag nemen. Door kunstmatige intelligentie te gebruiken om de tekst, sleutel-waardeparen en tabellen uit uw documenten te halen, automatiseert de formulierverwerking dit proces. 
 
 > [!NOTE]
-> Zie [Ingebruikname van SharePoint Syntex: introductiehandleiding](./adoption-getstarted.md#form-processing-scenario-example) voor meer informatie over scenariovoorbeelden voor formulierverwerking.
+> Zie [Ingebruikname van SharePoint Syntex: introductiehandleiding](./adoption-getstarted.md) voor meer informatie over scenariovoorbeelden voor formulierverwerking.
 
 U kunt bijvoorbeeld een formulierverwerkingsmodel maken dat alle inkooporderdocumenten identificeert die naar de documentbibliotheek worden geüpload. Vanuit elke inkooporder kunt u vervolgens specifieke belangrijke gegevens halen en weergeven, zoals *PO-nummer*, *Datum* en *Totale kosten*.
 
@@ -40,7 +40,7 @@ U gebruikt voorbeeldbestanden om uw model te trainen en de informatie te defini�
 
 Nadat u het model hebt getraind en gepubliceerd, maakt het model een [Power Automate Flow](/power-automate/getting-started). Deze flow wordt uitgevoerd wanneer een bestand wordt geüpload naar de SharePoint -documentbibliotheek, waarbij de gegevens die zijn geïdentificeerd in het model worden geëxtraheerd. De geëxtraheerde gegevens worden weergegeven in kolommen in de documentbibliotheekweergave van uw model.
 
-Een Office 365-beheerder moet [formulierverwerking inschakelen](./set-up-content-understanding.md#to-set-up-content-understanding) voor de SharePoint-documentbibliotheek, zodat gebruikers in staat zijn daarin een [formulierverwerkingsmodel te maken](create-a-form-processing-model.md). Je kunt de sites selecteren tijdens de installatie of na de configuratie van de beheerinstellingen.
+Een Office 365-beheerder moet [formulierverwerking inschakelen](./set-up-content-understanding.md) voor de SharePoint-documentbibliotheek, zodat gebruikers in staat zijn daarin een [formulierverwerkingsmodel te maken](create-a-form-processing-model.md). Je kunt de sites selecteren tijdens de installatie of na de configuratie van de beheerinstellingen.
 
 ### <a name="file-limitations"></a>Bestandbeperkingen
 

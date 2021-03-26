@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP-implementatie instellen
-description: Meer informatie over het instellen van de implementatie voor Microsoft Defender ATP
+title: Microsoft Defender instellen voor endpoint-implementatie
+description: Meer informatie over het instellen van de implementatie voor Microsoft Defender voor Eindpunt
 keywords: implementeren, instellen, validatie van licenties, tenantconfiguratie, netwerkconfiguratie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4af84c21977e4b90c8b6d9ec4c785339ff229e7d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 8965594789c3c96c043e3cd1a8922d9ba996ef47
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186147"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222439"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>Microsoft Defender instellen voor endpoint-implementatie
 
@@ -52,7 +52,7 @@ In dit implementatiescenario wordt u begeleid door de stappen op:
 
 
 >[!NOTE]
->Dit scenario heeft alleen betrekking op het gebruik van Microsoft Endpoint Configuration Manager om u te begeleiden bij een normale implementatie. Defender voor Eindpunt ondersteunt het gebruik van andere onboarding-hulpprogramma's, maar beschrijft deze scenario's niet in de implementatiehandleiding. Zie Onboard devices to Microsoft Defender for Endpoint (Onboard [devices to Microsoft Defender for Endpoint) voor meer informatie.](onboard-configure.md)
+>Dit scenario heeft alleen betrekking op het gebruik van Microsoft Endpoint Configuration Manager om u te begeleiden bij een normale implementatie. Defender voor Eindpunt ondersteunt het gebruik van andere onboarding-hulpprogramma's, maar deze scenario's worden niet in de implementatiehandleiding bestrijken. Zie Onboard devices to Microsoft Defender for Endpoint (Onboard [devices to Microsoft Defender for Endpoint) voor meer informatie.](onboard-configure.md)
 
 ## <a name="check-license-state"></a>Licentiestaat controleren
 
@@ -124,10 +124,7 @@ Voor de Microsoft Defender voor eindpunten-sensor moet Microsoft Windows HTTP (W
 
 -   Web proxy Autodiscovery Protocol (WPAD)
 
-Als een transparante proxy of WPAD is geïmplementeerd in de netwerktopologie, is er geen speciale configuratie-instellingen nodig. Zie de sectie Bijlage in dit document voor de lijst URL's toestaan of op [Microsoft Docs](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)voor meer informatie over URL-uitsluitingen van Microsoft Defender voor eindpunten in de proxy.
-
-> [!NOTE]
-> Zie dit artikel voor een gedetailleerde lijst met URL's die moeten [worden toegestaan.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus)
+Als een transparante proxy of WPAD is geïmplementeerd in de netwerktopologie, is er geen speciale configuratie-instellingen nodig. Zie de sectie [URL's proxyservice](production-deployment.md#proxy-service-urls) in dit document voor de URL's allowlist of op Apparaatproxy- en internetverbindingsinstellingen [configureren](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)voor meer informatie over url-uitsluitingen van Microsoft Defender voor eindpunten in de proxy.
 
 **Handmatige statische proxyconfiguratie:**
 
@@ -207,24 +204,27 @@ In de volgende downloadbare spreadsheet vindt u de services en bijbehorende URL'
 |![Thumb image for Microsoft Defender for Endpoint URLLs spreadsheet](images/mdatp-urls.png)<br/>  | Spreadsheet met specifieke DNS-records voor servicelocaties, geografische locaties en besturingssysteem. <br><br>[Download de spreadsheet hier.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
 
-###  <a name="microsoft-defender-for-endpoint-service-backend-ip-range"></a>Back-end IP-bereik van Microsoft Defender for Endpoint-service
+###  <a name="microsoft-defender-for-endpoint-service-backend-ip-ranges"></a>Back-end IP-bereik van Microsoft Defender for Endpoint-service
 
-Als u netwerkapparaten geen ondersteuning bieden voor de URL's die in de vorige sectie worden vermeld, kunt u de volgende informatie gebruiken.
+Als uw netwerkapparaten geen DNS-regels ondersteunen, gebruikt u in plaats daarvan IP-bereik.
 
-Defender voor Eindpunt is gebouwd op Azure-cloud, geïmplementeerd in de volgende regio's:
+Defender for Endpoint is gebouwd in azure cloud, geïmplementeerd in de volgende regio's:
 
-- \+\<Region Name="uswestcentral">
-- \+\<Region Name="useast2">
-- \+\<Region Name="useast">
-- \+\<Region Name="europenorth">
-- \+\<Region Name="europewest">
-- \+\<Region Name="uksouth">
-- \+\<Region Name="ukwest">
+- AzureCloud.eastus
+- AzureCloud.eastus2
+- AzureCloud.westcentralus
+- AzureCloud.northeurope
+- AzureCloud.westeurope
+- AzureCloud.uksouth
+- AzureCloud.ukwest
 
-U kunt het Azure IP-bereik vinden in HET IP-bereik van [Microsoft Azure Datacenter.](https://www.microsoft.com/en-us/download/details.aspx?id=41653)
+U kunt de Azure IP-bereik vinden in [Azure IP-bereik en Servicetags – Public Cloud.](https://www.microsoft.com/download/details.aspx?id=56519)
 
 > [!NOTE]
-> Als cloudoplossing kan het IP-adresbereik worden gewijzigd. U wordt aangeraden over te gaan naar de instelling VOOR DNS-oplossing.
+> Als cloudoplossing kunnen de IP-adresbereiken worden gewijzigd. U wordt aangeraden over te gaan op regels op basis van DNS.
+
+> [!NOTE]
+> Als u een klant van de Amerikaanse overheid bent, raadpleegt u de bijbehorende sectie op de [pagina Defender for Endpoint for US Government.](gov.md#service-backend-ip-ranges)
 
 ## <a name="next-step"></a>Volgende stap
 

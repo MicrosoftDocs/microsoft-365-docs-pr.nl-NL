@@ -19,23 +19,23 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
-description: Meer informatie over het opnieuw instellen van wachtwoorden en het verzenden van een e-mailbericht naar een nieuwe Microsoft 365-gebruiker.
-ms.openlocfilehash: 206e38929183fc280134a42e3febead2483d0f76
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+description: Meer informatie over het opnieuw instellen van het wachtwoord en het verzenden van een e-mail naar een nieuwe Microsoft 365-gebruiker.
+ms.openlocfilehash: 2b2c8657a4bbd4745a3fee34fc259244b83640d3
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131744"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222097"
 ---
 # <a name="resend-a-users-password---admin-help"></a>Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders
 
-In dit artikel wordt uitgelegd hoe u de e-mail melding opnieuw verzendt naar een nieuwe gebruiker in Office 365. Dit kan gebeuren wanneer u een nieuwe gebruiker maakt, en deze geen e-mail met het nieuwe wachtwoord ontvangt. U doet dit door het wachtwoord van de gebruiker opnieuw in te stellen.
+In dit artikel wordt uitgelegd hoe u de meldings-e-mail opnieuw kunt verzenden naar een nieuwe gebruiker in Office 365. Dit kan gebeuren wanneer u een nieuwe gebruiker maakt en ze geen e-mail krijgen met hun nieuwe wachtwoord. U doet dit door het wachtwoord van de gebruiker opnieuw in te stellen.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md).
+Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview).
 
-U moet een [globale beheerder of wachtwoordbeheerder](about-admin-roles.md) zijn om deze stappen te kunnen uitvoeren.
+U moet een globale [beheerder of wachtwoordbeheerder zijn om](about-admin-roles.md) deze stappen uit te voeren.
 
 ## <a name="resend-user-password"></a>Wachtwoord voor gebruiker opnieuw verzenden
   

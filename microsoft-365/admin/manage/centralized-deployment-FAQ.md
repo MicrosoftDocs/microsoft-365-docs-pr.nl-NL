@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Bekijk de antwoorden op veelgestelde vragen over gecentraliseerde implementatie vanuit het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 9f4841508701d4dd5878e99fcc51a436bc5824e2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 06e3b7973a209cdf40446c5a9511713d779373b8
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915468"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51221833"
 ---
 # <a name="centralized-deployment-faq"></a>Veelgestelde vragen over Gecentraliseerde implementatie
 
@@ -72,7 +72,7 @@ Ja. Gecentraliseerde implementatie biedt beheerders de flexibiliteit om een van 
 
 Ja. Beheerders kunnen een nieuw manifestbestand uploaden ter ondersteuning van metagegevenswijzigingen voor door beheerders geïmplementeerde LOB-invoegingen. De invoegtoepassingen worden bijgewerkt de volgende keer dat de Office-toepassingen worden gestart. De webtoepassing kan elk moment worden gewijzigd.  
  
-Zie [line-of-business-invoegvoeging voor meer informatie.](./manage-addins-in-the-admin-center.md#more-about-office-add-ins-security)  
+Zie [line-of-business-invoegvoeging voor meer informatie.](./manage-addins-in-the-admin-center.md)  
 
 ## <a name="can-admins-turn-off-add-ins"></a>Kunnen beheerders invoegvoegingen uitschakelen?  
 
