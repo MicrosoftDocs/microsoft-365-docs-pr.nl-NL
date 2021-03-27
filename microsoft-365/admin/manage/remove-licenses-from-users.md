@@ -5,42 +5,35 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_TOC
-- commerce
 ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
+- okr_smb
+- commerce
 search.appverid:
 - MET150
 description: Meer informatie over het verwijderen van licenties van gebruikersaccounts.
 ms.date: 07/01/2020
-ms.openlocfilehash: 858daaf0069ecba3e6ff65ce957462764b45c22c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 550136c2cfa8d81a31e52a4313dc9c967a55d56e
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915192"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398191"
 ---
 # <a name="unassign-licenses-from-users"></a>Licenties van gebruikers verwijderen
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 U kunt licenties van gebruikers op  de pagina Actieve gebruikers of op de pagina **Licenties verwijderen.** De methode die u gebruikt, is afhankelijk van of u productlicenties van specifieke gebruikers wilt inleveren of gebruikerslicenties van een bepaald product wilt inleveren.
 
-::: moniker-end
+> [!NOTE]
+> Als beheerder kunt u geen licenties toewijzen of ontzeggen voor een selfservice-aankoopabonnement dat is gekocht door een gebruiker in uw organisatie. U kunt [een selfservice-aankoopabonnement](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription)overnemen en vervolgens licenties toewijzen of ontzeggen.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -48,21 +41,31 @@ U kunt licenties van gebruikers op  de pagina Actieve gebruikers of op de pagina
 - U kunt [licenties van gebruikersaccounts intrekken met Office 365 PowerShell](../../enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell.md).
 - U kunt ook [gebruikersaccounts verwijderen](../add-users/delete-a-user.md) die aan een licentie zijn toegewezen om hun licentie beschikbaar te maken voor andere gebruikers. Wanneer u een gebruikersaccount verwijdert, is de licentie direct beschikbaar om aan iemand anders toe te wijzen.
 
-::: moniker range="o365-worldwide"
-
 ## <a name="use-the-licenses-page-to-unassign-licenses"></a>Gebruik de pagina Licenties om licenties niet toe te staan
 
 Wanneer u de pagina **Licenties** gebruikt om licenties niet toe te staan, kunt u licenties voor een specifiek product voor maximaal 20 gebruikers verwijderen.
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina **Factureringslicenties.** > 
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina **Factureringslicenties.** > 
+
+::: moniker-end
+
 2. Selecteer het product waarvoor u licenties wilt inleveren.
 3. Selecteer de gebruikers waarvoor u licenties wilt inleveren.
 4. Selecteer **Licenties niet toewijzen.**
 5. Selecteer in **het vak Licenties niet** toewijzen de optie Niet **toewijzen.**
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 ## <a name="use-the-active-users-page-to-unassign-licenses"></a>De pagina Actieve gebruikers gebruiken om licenties niet toe te staan
 
@@ -70,71 +73,52 @@ Wanneer u de pagina **Actieve gebruikers gebruikt** om licenties niet toe te sta
 
 ### <a name="unassign-licenses-from-one-user"></a>Licenties van één gebruiker niet toewijzen
   
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+::: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina **Actieve** > **factureringsgebruikers.**
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina **Actieve** > **factureringsgebruikers.**
+
+::: moniker-end
+
 2. Selecteer de rij van de gebruiker voor wie u een licentie wilt ontlenen.
 3. Selecteer in het rechterdeelvenster **Licenties en apps**.
 4. Vouw de **sectie Licenties** uit, schakel de vakken uit voor de licenties die u niet wilt toewijzen en selecteer Vervolgens **Wijzigingen opslaan.**
 
+###  <a name="unassign-licenses-from-multiple-users"></a>Licenties van meerdere gebruikers niet toewijzen
+
+::: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-## <a name="unassign-licenses-from-one-user"></a>Licenties van één gebruiker niet toewijzen
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
-2. Kies de gebruiker voor wie u de licentie wilt ontlenen.
-3. Selecteer aan de rechterkant in de **rij Productlicenties** de optie **Bewerken.**
-4. Schakel in **het deelvenster Productlicenties** de wisselknop over naar de **uit-positie** voor de licentie die u wilt opmaken voor de gebruiker. Als u bijvoorbeeld de Office 365 Enterprise E3-licentie uitschakelt, worden deze licentie en alle services onder die licentie voor die gebruiker niet meer toekend.
-5. Selecteer onderaan het deelvenster **Productlicenties** de opties **Opslaan** \> **Sluiten** \> **Sluiten**.
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina **Actieve** > **factureringsgebruikers.**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-## <a name="unassign-licenses-from-one-user"></a>Licenties van één gebruiker niet toewijzen
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
-2. Kies de gebruiker voor wie u de licentie wilt ontlenen.
-3. Selecteer aan de rechterkant in de **rij Productlicenties** de optie **Bewerken.**
-4. Schakel in **het deelvenster Productlicenties** de wisselknop over naar de **uit-positie** voor de licentie die u wilt opmaken voor de gebruiker. Als u bijvoorbeeld de Office 365 Enterprise E3-licentie uitschakelt, worden deze licentie en alle services onder die licentie voor die gebruiker niet meer toekend.
-5. Selecteer onderaan het deelvenster **Productlicenties** de opties **Opslaan** \> **Sluiten** \> **Sluiten**.
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina **Actieve** > **factureringsgebruikers.**
 
 ::: moniker-end
 
-::: moniker range="o365-worldwide"
-###  <a name="unassign-licenses-from-multiple-users"></a>Licenties van meerdere gebruikers niet toewijzen
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 2. Selecteer de cirkels naast de namen van de gebruikers voor wie u licenties wilt ontlenen.
 3. Selecteer bovenaan **Meer opties (...)** en selecteer vervolgens **Productlicenties beheren**.
 4. Selecteer in het deelvenster **Productlicenties beheren** **Bestaande productlicentietoewijzingen vervangen** \> **Volgende**.
 5. Schakel onder in het deelvenster **Bestaande** producten vervangen het selectievakje **Alle productlicenties** verwijderen uit de geselecteerde gebruikers in en selecteer **vervolgens Sluiten** \> **vervangen.**
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-##  <a name="unassign-licenses-from-multiple-users"></a>Licenties van meerdere gebruikers niet toewijzen
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
-2. Selecteer de vakken naast de namen van de gebruikers voor wie u alle licenties wilt ontlenen.
-3. Selecteer in het deelvenster **Bulkacties** de optie **Productlicenties bewerken**.
-4. Selecteer in het deelvenster **Bestaande producten vervangen** **Huidige licentietoewijzingen vervangen** \> **Volgende**.
-5. Schakel onder in het deelvenster **Bestaande** producten vervangen het selectievakje Alle **productlicenties** verwijderen uit de geselecteerde gebruikers in en selecteer **sluiten** \>  \> **sluiten vervangen.**
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-##  <a name="unassign-licenses-from-multiple-users"></a>Licenties van meerdere gebruikers niet toewijzen
-  
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
-2. Selecteer de vakken naast de namen van de gebruikers voor wie u alle licenties wilt ontlenen.
-3. Selecteer in het deelvenster **Bulkacties** de optie **Productlicenties bewerken**.
-4. Selecteer in het deelvenster **Bestaande producten vervangen** **Huidige licentietoewijzingen vervangen** \> **Volgende**.
-5. Schakel onder in het deelvenster **Bestaande** producten vervangen het selectievakje Alle **productlicenties** verwijderen uit de geselecteerde gebruikers in en selecteer **sluiten** \>  \> **sluiten vervangen.**
-
-::: moniker-end
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>Wat gebeurt er met de gegevens van een gebruiker wanneer u de licentie verwijdert?
 

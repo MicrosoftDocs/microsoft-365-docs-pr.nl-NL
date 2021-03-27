@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 089614fab57950af5f60181ce7ed2116046ad347
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 320913058f1d3cab36b3a279996443c2e4ef117f
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379368"
+ms.locfileid: "51382911"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender voor Eindpunt voor klanten van de Amerikaanse overheid
 
@@ -100,7 +100,7 @@ iOS | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg
 > Probeert u Windows-apparaten die ouder zijn dan Windows 10 of Windows Server 2019 aan te sluiten met [Microsoft Monitoring Agent?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) U moet 'Azure US Government' kiezen onder 'Azure Cloud' als u [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) de installatiewizard gebruikt [of](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)als u een opdrachtregel of een [script](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) gebruikt, de parameter 'OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE' in te stellen op 1.
 
 > [!NOTE]
-> U hebt versie 101.25.72 en hoger nodig voor Linux en versie 101.25.69 en hoger voor macOS. Deze versies zijn alleen beschikbaar in het insider fast-kanaal terwijl we in een voorbeeldversie zijn. Zie [De Linux-softwareopslagplaats configureren](linux-install-manually.md#configure-the-linux-software-repository) of [De kanaalnaam (macOS)](mac-updates.md#set-the-channel-name) instellen voor instructies.
+> U hebt versie 101.25.72 en hoger nodig voor Linux en versie 101.25.69 en hoger voor macOS. Tijdens het voorbeeld zijn deze versies alleen beschikbaar in het kanaal Insider Fast. Zie [De Linux-softwareopslagplaats configureren](linux-install-manually.md#configure-the-linux-software-repository) of [De kanaalnaam (macOS)](mac-updates.md#set-the-channel-name) instellen voor instructies.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>OS-versies bij het gebruik van Azure Defender voor servers
 De volgende besturingssysteemversies worden ondersteund bij het gebruik van [Azure Defender voor servers:](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
@@ -168,7 +168,7 @@ Geautomatiseerd onderzoek en herstel: Reactie op Waarschuwingen voor Office 365 
 E-mailmeldingen | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Evaluatielaboratorium | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Beheer en API's: rapport over de status en naleving van apparaten | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Beheer en API's: integratie met producten van derden | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol
+Beheer en API's: integratie met producten van derden | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Beheer en API's: Streaming API | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Beheer en API's: rapport bedreigingsbeveiliging | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Bedreigings- & kwetsbaarheidsbeheer | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)

@@ -2,10 +2,10 @@
 title: Uw beheerdersaccounts beveiligen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het instellen en beveiligen van uw beheerdersaccounts.
-ms.openlocfilehash: ec5b971ba4f1fdc8834e10ddf90ff219f763f805
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d687407fad1cec5da49dbc33ffeb84366f1c309
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912172"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398239"
 ---
 # <a name="protect-your-administrator-accounts"></a>Uw beheerdersaccounts beveiligen
 
@@ -76,12 +76,11 @@ Een nieuw gebruikersaccount maken:
 3. Vouw de **sectie Rollen** uit en kies **Gebruiker (geen beheerderstoegang).**
 4. Verplaats in **de sectie Productlicenties** de selector voor **Microsoft 365 Business** naar **Aan.**
 
-## <a name="register-each-of-these-accounts-for-multi-factor-authentication"></a>Elk van deze accounts registreren voor meervoudige verificatie
+## <a name="turn-on-security-defaults"></a>Beveiligingsinstellingen in- en uit-
 
-Zorg ervoor dat deze accounts meervoudige [verificatie gebruiken.](m365-campaigns-multifactor-authenication.md)
+Beveiligingsinstellingen helpen uw organisatie te beschermen tegen identiteitsgerelateerde aanvallen door vooraf geconfigureerde beveiligingsinstellingen te bieden die Microsoft namens uw organisatie beheert. Deze instellingen omvatten het inschakelen van meervoudige verificatie (MFA) voor alle beheerders en gebruikersaccounts. Zie Beveiligingsinstellingen inschakelen voor meer informatie over beveiligingsinstellingen en voor meer informatie over het inschakelen van [beveiligingsinstellingen.](m365-campaigns-conditional-access.md)
 
 ## <a name="additional-recommendations"></a>Aanvullende aanbevelingen
 
-- Zorg ervoor dat beheerdersaccounts ook zijn ingesteld voor meervoudige verificatie. We laten u zien hoe u dit doet in [Beleid voor voorwaardelijke toegang configureren.](m365-campaigns-conditional-access.md)
 - Sluit alle niet-gerelateerde browsersessies en -apps, inclusief persoonlijke e-mailaccounts, voordat u beheerdersaccounts gebruikt. U kunt ook in privé- of incognitobrowservensters gebruiken.
 - Nadat u beheerderstaken heeft uitgevoerd, moet u zich af melden bij de browsersessie.

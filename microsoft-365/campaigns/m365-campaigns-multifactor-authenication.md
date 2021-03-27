@@ -2,10 +2,10 @@
 title: Meervoudige verificatie instellen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -24,21 +24,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Meervoudige verificatie instellen.
-ms.openlocfilehash: 35f96bc41eba9a903bdb3d377a523e2b82e8c428
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 2a0c8b8fb8451d3d8868c493ad5e1f65adc30b6c
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044430"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398203"
 ---
 # <a name="set-up-multifactor-authentication"></a>Meervoudige verificatie instellen
 
-Meervoudige verificatie biedt meer beveiliging voor uw bedrijf. Nadat uw beheerder heeft vereist dat u MFA gebruikt, kunt u de Microsoft Authenticator-app instellen zodat u zich veilig bij de belangrijkste apps kunt aanmelden met uw telefoon. 
+Meervoudige verificatie biedt meer beveiliging voor uw bedrijf. Nadat uw beheerder heeft vereist dat u MFA gebruikt, kunt u de Microsoft Authenticator-app zo instellen dat u zich veilig kunt aanmelden bij belangrijke apps met uw telefoon. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR]
 
-Zie meer informatie bij [Multi-Factor Authentication instellen in Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
+Meer informatie over [meervoudige verificatie instellen in Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
 
-## <a name="use-the-outlook-app-in-your-devices"></a>De Outlook-app gebruiken op uw apparaten
+## <a name="use-the-outlook-app-in-your-devices"></a>De Outlook-app op uw apparaten gebruiken
 
-Nadat uw beheerder heeft vereist dat u MFA gebruikt en u een authenticator-app hebt ingesteld als tweede vorm van verificatie, raden we u aan de Outlook-app te installeren en alleen te gebruiken voor toegang tot uw e-mail van Microsoft 365. Zie [Mobiele apparaten instellen voor](../business/set-up-mobile-devices.md) het installeren van Office-apps, met inbegrip van Outlook, op uw telefoon.
+Nadat uw beheerder heeft vereist dat u MFA gebruikt en u een authenticator-app hebt ingesteld als een tweede vorm van verificatie, raden we u aan de Outlook-app te installeren en alleen te gebruiken voor toegang tot uw Microsoft 365-e-mail. Zie [Mobiele apparaten instellen voor](../business/set-up-mobile-devices.md) het installeren van Office-apps, waaronder Outlook, op uw telefoon.

@@ -1,11 +1,11 @@
 ---
-title: Beleid voor voorwaardelijke toegang instellen
+title: Beveiligingsinstellingen in- en uit-
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -23,62 +23,65 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het vereisen van MFA en het instellen van beleid voor voorwaardelijke toegang voor Microsoft 365 voor Bedrijven.
-ms.openlocfilehash: dcb79ed060dd15fd288cdcfb9e3739a788f5fbc2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Lees hoe beveiligingsinstellingen uw organisatie kunnen beschermen tegen identiteitsgerelateerde aanvallen door vooraf geconfigureerde beveiligingsinstellingen te bieden.
+ms.openlocfilehash: ea36ba45af26a767b08ee1e75931dca54dacea64
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912184"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398289"
 ---
-# <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Meervoudige verificatie vereisen en beleid voor voorwaardelijke toegang instellen
+# <a name="turn-on-security-defaults"></a>Beveiligingsinstellingen in- en uit-
 
-U beschermt de toegang tot uw gegevens met meervoudige verificatie en beleid voor voorwaardelijke toegang. Deze bieden aanzienlijke extra beveiliging. Microsoft biedt een set beleidsregels voor basislijn voorwaardelijke toegang die worden aanbevolen voor alle klanten. Basislijnbeleid is een set vooraf gedefinieerde beleidsregels die organisaties helpen beschermen tegen veelvoorkomende aanvallen. Deze veelvoorkomende aanvallen kunnen wachtwoordsproeien, herhalen en phishing zijn.
+Beveiligingsinstellingen helpen uw organisatie te beschermen tegen identiteitsgerelateerde aanvallen door vooraf geconfigureerde beveiligingsinstellingen te bieden die Microsoft namens uw organisatie beheert. Deze instellingen omvatten het inschakelen van meervoudige verificatie (MFA) voor alle beheerders en gebruikersaccounts. Voor de meeste organisaties bieden beveiligingsinstellingen een goed niveau van extra aanmeldingsbeveiliging.
 
-Voor dit beleid moeten beheerders en gebruikers onder bepaalde voorwaarden een tweede vorm van verificatie invoeren (meervoudige verificatie of MFA genoemd). Als een gebruiker in uw organisatie zich bijvoorbeeld probeert aan te melden bij Microsoft 365 vanuit een ander land of vanaf een onbekend apparaat, kan de aanmelding als riskant worden beschouwd. De gebruiker moet een extra vorm van verificatie (zoals een vingerafdruk of een code) verstrekken om zijn of haar identiteit te bewijzen.
+Zie Wat [zijn beveiligings defaults?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie over beveiligingsinstellingen en het beleid dat ze afdwingen.
 
-Op dit moment bevat het basislijnbeleid de volgende beleidsregels:
+Als uw abonnement is gemaakt op of na 22 oktober 2019, zijn beveiligingsinstellingen mogelijk automatisch ingeschakeld voor u. Controleer de instellingen om dit te &mdash; bevestigen.
 
-- Instellen in microsoft 365-beheercentrum:
-  - **MFA vereisen voor beheerders:** vereist meervoudige verificatie voor de meest bevoorrechte beheerdersrollen, inclusief globale beheerder.
-  - **Beveiliging van eindgebruikers:** meervoudige verificatie is alleen vereist voor gebruikers wanneer een aanmelding riskant is. 
-- Instellen in de Azure Active Directory-portal:
-  - **Oudere verificatie blokkeren:** oudere client-apps en sommige nieuwe apps gebruiken geen nieuwere, veiligere verificatieprotocollen. Deze oudere apps kunnen beleidsregels voor voorwaardelijke toegang omzeilen en ongeautoriseerde toegang krijgen tot uw omgeving. Dit beleid blokkeert toegang van clients die geen ondersteuning bieden voor voorwaardelijke toegang. 
-  - **MFA vereisen voor servicebeheer:** vereist meervoudige verificatie voor toegang tot beheerhulpmiddelen, waaronder Azure Portal (waar u basislijnbeleid configureert).
+Als u beveiligingsinstellingen wilt inschakelen in uw Azure Active Directory (Azure AD) of wilt controleren of deze al zijn ingeschakeld:
 
-U wordt aangeraden al deze basislijnbeleidsregels in te stellen. Nadat dit beleid is ingeschakeld, worden beheerders en gebruikers gevraagd zich te registreren voor Azure AD Multifactor Authentication.
+1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het Microsoft 365-beheercentrum</a> met globale beheerdersreferenties.
 
-Zie Wat zijn basislijnbeleid? voor [meer informatie over dit beleid.](/azure/active-directory/conditional-access/concept-baseline-protection)
+2. Selecteer in het linkerdeelvenster **Alles weergeven en** selecteer vervolgens onder **Beheercentra** **de optie Azure Active Directory.**
 
-## <a name="require-mfa"></a>MFA vereisen
+3. Selecteer Azure Active Directory in het **linkerdeelvenster** van het Azure Active **Directory-beheercentrum.**
 
-Als u wilt dat alle gebruikers zich aanmelden met een tweede id-formulier:
+4. Selecteer eigenschappen in het linkermenu van het dashboard in **de** sectie **Beheren.**
 
-1. Ga naar het beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> en kies **Setup.**
+    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="Schermafbeelding van het Azure Active Directory-beheercentrum met de locatie van het menu-item Eigenschappen.":::
 
-2. Kies op de pagina Setup **de optie Weergeven** in de **aanmeldingskaart veiliger** maken.
+5. Selecteer onder aan de pagina **Eigenschappen** de optie **Beveiligingsinstellingen beheren.**
 
-    ![Maak aanmelding veiliger.](../media/setupmfa.png)
-3. Kies op de pagina Aanmelden veiliger maken de optie **Aan de slag.**
-
-4. Schakel in het deelvenster **Aanmeldingsbeveiliging** versterken de selectievakjes in naast Meervoudige verificatie vereisen voor beheerders en Gebruikers verplichten zich te registreren voor meervoudige verificatie en toegang te blokkeren als er risico **wordt gedetecteerd.**
-    Zorg ervoor dat u het beheerdersaccount [voor](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) noodgevallen of 'break-glass' uitsluit van de MFA-vereiste in **het vak Gebruikers zoeken.**
-
-    ![De beveiligingspagina voor sing-in versterken.](../media/requiremfa.png)
-
-5. Kies **Beleid maken** onder aan de pagina.
-
-## <a name="set-up-baseline-policies"></a>Basislijnbeleid instellen
-
-1. Ga naar de [Azure-portal](https://portal.azure.com)en ga vervolgens naar **voorwaardelijke toegang** voor Azure Active \> **Directory-beveiliging** \>  om een nieuw beleid **te maken.**
-
-Zie de volgende specifieke instructies voor elk beleid: <br>
-    - [MFA vereisen voor beheerders](/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
-    - [MFA vereisen voor gebruikers](/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
-    - [Verouderde verificatie blokkeren](/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
-    - [MFA vereisen voor servicebeheer](/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+6. In het rechterdeelvenster ziet u de standaardinstelling **Beveiliging inschakelen.** Als **Ja** is geselecteerd, zijn beveiligingsinstellingen al ingeschakeld en is er geen verdere actie vereist. Als beveiligingsinstellingen momenteel niet zijn ingeschakeld, selecteert u **Ja** om deze in te stellen en selecteert u **Opslaan.**
 
 > [!NOTE]
-> Voorbeeldbeleid bestaat niet meer en gebruikers moeten hun eigen beleid maken.
+> Als u beleidsregels voor voorwaardelijke toegang hebt gebruikt, moet u deze uitschakelen voordat u beveiligingsinstellingen gebruikt.
+>
+> U kunt beveiligingsinstellingen of beleidsregels voor Voorwaardelijke toegang gebruiken, maar u kunt beide niet tegelijkertijd gebruiken.
 
-U kunt extra beleid instellen, zoals het vereisen van goedgekeurde client-apps. Zie de documentatie voor Voorwaardelijke toegang voor [meer informatie.](/azure/active-directory/conditional-access/)
+## <a name="consider-using-conditional-access"></a>Overweeg Voorwaardelijke toegang te gebruiken
+
+Als uw organisatie complexe beveiligingsvereisten heeft of als u meer gedetailleerde controle over uw beveiligingsbeleid nodig hebt, moet u overwegen Voorwaardelijke toegang te gebruiken in plaats van beveiligingsinstellingen om een vergelijkbare of hogere beveiligingsinstelling te bereiken. 
+
+Met Voorwaardelijke toegang kunt u beleidsregels maken en definiëren die reageren op aanmeldingsgebeurtenissen en aanvullende acties aanvragen voordat een gebruiker toegang krijgt tot een toepassing of service. Beleid voor voorwaardelijke toegang kan gedetailleerd en specifiek zijn, zodat gebruikers overal en altijd productief kunnen zijn, maar ook uw organisatie kunnen beschermen.
+
+Beveiligings defaults zijn beschikbaar voor alle klanten, terwijl voor Voorwaardelijke toegang een licentie is vereist voor een van de volgende abonnementen:
+
+- Azure Active Directory Premium P1 of P2
+- Microsoft 365 Business Premium
+- Microsoft 365 E3 of E5
+- Enterprise Mobility & Security E3 of E5
+
+Als u Voorwaardelijke toegang wilt gebruiken om beleid te configureren dat overeenkomt met beleidsregels die standaard zijn ingeschakeld, raadpleegt u de volgende stapsgewijze handleidingen:
+
+- [MFA vereisen voor beheerders](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
+- [MFA vereisen voor Azure-beheer](/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
+- [Verouderde verificatie blokkeren](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+- [MFA vereisen voor alle gebruikers](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+- [Azure AD MFA-registratie vereisen](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) : hiervoor is Azure AD Identity Protection vereist, dat deel uitmaakt van Azure Active Directory Premium P2
+
+Zie Wat [is Voorwaardelijke toegang? voor meer informatie over voorwaardelijke toegang.](/azure/active-directory/conditional-access/overview) Zie Een beleid voor voorwaardelijke toegang maken voor meer informatie over het maken van beleid voor voorwaardelijke [toegang.](/azure/active-directory/authentication/tutorial-enable-azure-mfa#create-a-conditional-access-policy)
+
+> [!NOTE]
+> Als u een abonnement of licentie hebt met voorwaardelijke toegang, maar nog geen beleid voor voorwaardelijke toegang hebt gemaakt, kunt u beveiligingsinstellingen gebruiken. U moet echter beveiligingsinstellingen uitschakelen voordat u beleid voor voorwaardelijke toegang kunt gebruiken.

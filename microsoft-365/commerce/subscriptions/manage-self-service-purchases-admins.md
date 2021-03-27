@@ -10,26 +10,24 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 - commerce
-ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Beheerders kunnen leren hoe ze selfservice-aankopen van gebruikers in hun organisatie kunnen beheren.
-ms.openlocfilehash: 2ce12b7dba4e765745a94fa10f4ba15e7013e3c8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: febf0ee470e735a454dc7a9e747de5025c7a4a51
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920178"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398172"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (Beheerders)
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Als beheerder kunt u selfserviceaankopen zien die zijn gedaan door personen in uw organisatie. U ziet de productnaam, de naam van de inkoper, de gekochte abonnementen, de vervaldatum, de aankoopprijs en de toegewezen gebruikers voor elke selfserviceaankoop. Indien vereist door uw organisatie, kunt u de selfservice-aankoop per product uitschakelen via PowerShell. U hebt hetzelfde gegevensbeheer- en toegangsbeleid voor producten die zijn gekocht via selfserviceaankoop of centraal.
 
@@ -37,13 +35,49 @@ U kunt ook bepalen of gebruikers in uw organisatie selfserviceaankopen kunnen do
 
 ## <a name="view-self-service-subscriptions"></a>Selfservice-abonnementen weergeven
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de **pagina Facturering** van > **uw producten.**
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de **pagina Facturering** van > **uw producten.**
+
+::: moniker-end
+
 2. Selecteer op **het** tabblad Producten het filterpictogram en selecteer **vervolgens Selfservice.**
 3. Als u meer informatie over een abonnement wilt bekijken, kiest u er een in de lijst.
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Bekijken wie licenties heeft voor een selfservice-aankoopabonnement
 
-1. Ga in het beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
+> [!NOTE]
+> Als beheerder kunt u geen licenties toewijzen of ontzeggen voor een selfservice-aankoopabonnement dat is gekocht door een gebruiker in uw organisatie. U kunt [een selfservice-aankoopabonnement](#take-over-a-self-service-purchase-subscription)overnemen en vervolgens licenties toewijzen of ontzeggen.
+
+::: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina **Factureringslicenties.** > 
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina **Factureringslicenties.** > 
+
+::: moniker-end
+
 2. Selecteer het filterpictogram en kies **vervolgens Selfservice.**
 3. Selecteer een product om licenties te zien die aan personen zijn toegewezen.
     > [!NOTE]
@@ -67,7 +101,24 @@ Zie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](al
 
 U kunt bestaande licenties toewijzen of extra abonnementen kopen via bestaande overeenkomsten voor gebruikers die zijn toegewezen aan selfserviceaankopen. Nadat u deze centraal aangeschafte licenties hebt toegewezen, kunt u inkopers verzoeken hun bestaande abonnementen op te zeggen.
 
-1. Ga in het beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Factureringsaankoopservices.</a>
+::: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina  > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Factureringsaankoopservices.</a>
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina **Factureringsaankoopservices.** > 
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina **Factureringsaankoopservices.** > 
+
+::: moniker-end
+
 2. Zoek en kies het product dat u wilt kopen en kies vervolgens **Kopen.**
 3. Voltooi de resterende stappen om uw aankoop te voltooien.
 4. Volg de stappen in Bekijk wie [er licenties](#view-who-has-licenses-for-a-self-service-purchase-subscription) heeft voor een zelf aangeschaft abonnement om een lijst met gebruikers te exporteren waarnaar wordt verwezen in de volgende stap.
@@ -88,7 +139,24 @@ Wanneer u gebruikers naar een ander abonnement verplaatst, wordt het oude abonne
 > [!NOTE]
 > U moet een beschikbare licentie hebben voor elke gebruiker die u verplaatst in het abonnement waar u gebruikers naar verplaatst.
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de **pagina Facturering** van > **uw producten.**
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de **pagina Facturering** van > **uw producten.**
+
+::: moniker-end
+
 2. Selecteer op **het** tabblad Producten het filterpictogram en selecteer **vervolgens Selfservice.**
 3. Selecteer het abonnement dat u wilt overnemen.
 4. Selecteer op de pagina **abonnementsgegevens** in de sectie Abonnementen en instellingen de optie **Beheer van dit abonnement nemen.**
@@ -102,7 +170,24 @@ Wanneer u gebruikers naar een ander abonnement verplaatst, wordt het oude abonne
 
 Wanneer u ervoor kiest om een selfservice-aankoopabonnement op te zeggen, hebben gebruikers met licenties geen toegang meer tot het product. De gebruiker die het selfservice-aankoopabonnement oorspronkelijk heeft gekocht, ontvangt een e-mail met de informatie dat het abonnement is geannuleerd.
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de **pagina Facturering** van > **uw producten.**
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de **pagina Facturering** van > **uw producten.**
+
+::: moniker-end
+
 2. Selecteer op **het** tabblad Producten het filterpictogram en selecteer **vervolgens Selfservice.**
 3. Selecteer het abonnement dat u wilt opzeggen.
 4. Selecteer op de pagina **abonnementsgegevens** in de sectie Abonnementen en instellingen de optie **Beheer van dit abonnement nemen.**
