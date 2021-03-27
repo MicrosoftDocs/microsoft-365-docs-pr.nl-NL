@@ -33,7 +33,7 @@
 #### [Fase 2: Instellen](mcafee-to-microsoft-defender-setup.md)
 #### [Fase 3: Onboarden](mcafee-to-microsoft-defender-onboard.md)
 ### [Overstappen van Symantec naar Microsoft Defender voor Eindpunt]()
-#### [Overzicht van migratie](symantec-to-microsoft-defender-atp-migration.md)
+#### [Overzicht van migratie](symantec-to-microsoft-defender-endpoint-migration.md)
 #### [Fase 1: Voorbereiden](symantec-to-microsoft-defender-atp-prepare.md)
 #### [Fase 2: Instellen](symantec-to-microsoft-defender-atp-setup.md)
 #### [Fase 3: Onboarden](symantec-to-microsoft-defender-atp-onboard.md)
@@ -115,7 +115,7 @@
 ##### [Beheerde maptoegang inschakelen](enable-controlled-folders.md)
 ##### [Beheerde maptoegang aanpassen](customize-controlled-folders.md)
 
-### [Microsoft Defender Advanced Threat Protection voor Mac]()
+### [Microsoft Defender voor Eindpunt voor Mac]()
 #### [Overzicht van Microsoft Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md)
 #### [Nieuw](mac-whatsnew.md)
 
@@ -140,7 +140,7 @@
 ###### [Overzicht apparaatbesturing](mac-device-control-overview.md)
 ###### [Voorbeelden JAMF](mac-device-control-jamf.md)
 ###### [Voorbeelden Intune](mac-device-control-intune.md)
-##### [Scans plannen](mac-schedule-scan-atp.md)
+##### [Scans plannen](mac-schedule-scan.md)
 
 #### [Problemen oplossen]()
 ##### [Installatieproblemen oplossen](mac-support-install.md)
@@ -354,7 +354,7 @@
 #### [Algemeen]()
 ##### [Gegevensopslaglocatie controleren en instellingen voor het bewaren van gegevens bijwerken](data-retention-settings.md)
 ##### [Waarschuwingsmeldingen configureren](configure-email-notifications.md)
-##### [Geavanceerde functies configureren](advanced-features.md
+##### [Geavanceerde functies configureren](advanced-features.md)
 
 #### [Machtigingen]()
 ##### [Basismachtigingen gebruiken voor toegang tot de portal](basic-permissions.md)
@@ -378,6 +378,8 @@
 ##### [Offboarden apparaten](offboard-machines.md)
 
 #### [Tijdzone-instellingen voor Microsoft Defender-beveiligingscentrum configureren](time-settings.md)
+
+### [Vals-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken](defender-endpoint-false-positives-negatives.md)
 
 ### [Integratie met andere Microsoft-oplossingen configureren]()
 #### [Voorwaardelijke toegang configureren](configure-conditional-access.md)
@@ -585,5 +587,5 @@
 ##### [Regels voor het verminderen van kwetsbaarheid voor aanvallen](troubleshoot-asr.md)
 
 # [Microsoft 365-beveiliging](../index.yml)
-# [Microsoft 365 Defender](../defender/index.yml)
+# [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 # [Defender voor Office 365](../office-365-security/overview.md)
