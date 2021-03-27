@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3e09ace7130e5a58d3c386a57951dbf2ea5f5f2a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ffa79ea7e3c75887531020e83d081ee3206d1a11
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058021"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382851"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -44,7 +44,7 @@ De `DeviceNetworkEvents` tabel in het geavanceerde schema [bevat](advanced-hunti
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
-| Kolomnaam | Gegevenstype | Beschrijving |
+| Kolomnaam | Gegevenstype | Omschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
 | `DeviceId` | tekenreeks | Unieke id voor de machine in de service |
@@ -63,6 +63,12 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `InitiatingProcessMD5` | tekenreeks | MD5-hash van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessFileName` | tekenreeks | Naam van het proces dat de gebeurtenis heeft gestart |
 | `InitiatingProcessFileSize` | lang | Grootte van het bestand dat het proces heeft doorlopen dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoCompanyName` | tekenreeks | Bedrijfsnaam van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoProductName` | tekenreeks | Productnaam van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoProductVersion` | tekenreeks | Productversie van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoInternalFileName` | tekenreeks | Interne bestandsnaam van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoOriginalFileName` | tekenreeks | Oorspronkelijke bestandsnaam van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoFileDescription` | tekenreeks | Beschrijving van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessId` | int | Proces-id (PID) van het proces dat de gebeurtenis heeft gestart |
 | `InitiatingProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt om het proces uit te voeren waarmee de gebeurtenis is gestart |
 | `InitiatingProcessCreationTime` | datetime | Datum en tijd waarop het proces dat de gebeurtenis heeft gestart is gestart |
@@ -74,6 +80,7 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `InitiatingProcessAccountName` | tekenreeks | Gebruikersnaam van het account dat het proces heeft doorlopen dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessAccountSid` | tekenreeks | Beveiligingsaanduiding (SID) van het account dat het proces heeft doorlopen dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessAccountUpn` | tekenreeks | User principal name (UPN) of the account that ran the process responsible for the event |
+| `InitiatingProcessAccountObjectId` | tekenreeks | Azure AD-object-id van het gebruikersaccount dat het proces heeft uitgevoerd dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessIntegrityLevel` | tekenreeks | Integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
 | `InitiatingProcessTokenElevation` | tekenreeks | Tokentype dat aangeeft dat de aanwezigheid of afwezigheid van UAC-bevoegdheden (User Access Control) is toegepast op het proces waarmee de gebeurtenis is gestart |
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp |

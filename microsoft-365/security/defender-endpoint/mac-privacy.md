@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 83a56a74ff949b23843417942923d2b4b810b4ee
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1386809778edeb92521a8656e9ece78591a682a4
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185923"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382899"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Privacy voor Microsoft Defender voor Eindpunt voor Mac
 
@@ -156,6 +156,18 @@ De volgende velden worden verzameld:
 | reason           | Foutbericht als de bijgewerkte is opgeslagen. |
 
 #### <a name="product-and-service-performance-data-events"></a>Prestatiegebeurtenissen van producten en services
+
+**Onverwacht afsluiten toepassing (crash)**
+
+Verzamelt systeemgegevens en de status van een toepassing wanneer een toepassing onverwacht wordt afgesloten.
+
+De volgende velden worden verzameld:
+
+| Veld                          | Beschrijving |
+| ------------------------------ | ----------- |
+| v1_crash_count                 | Aantal keren dat V1-motorproces elk uur is vastgelopen op clientmachine  |
+| v2_crash_count                 | Aantal keren dat V2-motorproces elk uur is vastgelopen op clientmachine  |
+| EDR_crash_count                | Aantal keren dat EDR-proces elk uur is vastgelopen op clientapparaat        |
 
 **Statistieken over kernelextensie**
 

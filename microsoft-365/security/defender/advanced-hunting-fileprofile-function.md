@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e511c12240512af772b3552f63ad9ed98ff105af
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a9ca0af0c522205309ffdcbfd1ac28638bd197c7
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057302"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382791"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -37,24 +37,25 @@ ms.locfileid: "51057302"
 
 De `FileProfile()` functie is een verrijkingsfunctie in geavanceerde [zoekopdrachten](advanced-hunting-overview.md) die de volgende gegevens toevoegt aan bestanden die door de query worden gevonden.
 
-| Kolom | Gegevenstype | Beschrijving |
-|------------|-------------|-------------|
-| SHA1 | tekenreeks | SHA-1 van het bestand waar de opgenomen actie op is toegepast |
-| SHA256 | tekenreeks | SHA-256 van het bestand waar de opgenomen actie op is toegepast |
-| MD5 | tekenreeks | MD5-hash van het bestand waar de opgenomen actie op is toegepast |
-| Bestandsgrootte | int | Grootte van het bestand in bytes |
-| GlobalPrevalence | int | Aantal exemplaren van de entiteit die wereldwijd door Microsoft is waargenomen |
-| GlobalFirstSeen | datetime | Datum en tijd waarop de entiteit voor het eerst wereldwijd door Microsoft is waargenomen |
-| GlobalLastSeen | datetime | Datum en tijd waarop de entiteit voor het laatst wereldwijd is waargenomen door Microsoft |
-| Ondertekenaar | tekenreeks | Informatie over de ondertekenaar van het bestand |
-| Uitgevende gever | tekenreeks | Informatie over de certificeringsinstantie voor afgifte (CA) |
-| SignerHash | tekenreeks | Unieke hashwaarde die de ondertekenaar identificeert |
-| IsCertificateValid | booleaanse | Of het certificaat dat wordt gebruikt om het bestand te ondertekenen geldig is |
-| IsRootSignerMicrosoft | booleaanse | Geeft aan of de ondertekenaar van het hoofdcertificaat Microsoft is |
-| IsExecutable | booleaanse | Of het bestand een PE-bestand (Portable Executable) is |
-| ThreatName | tekenreeks | Detectienaam voor malware of andere gevonden bedreigingen |
-| Publisher | tekenreeks | Naam van de organisatie die het bestand heeft gepubliceerd |
-| SoftwareName | tekenreeks | Naam van het softwareproduct |
+| Kolom | Gegevenstype | Omschrijving |
+|------------|---------------|-------------|
+| `SHA1` | tekenreeks | SHA-1 van het bestand waar de opgenomen actie op is toegepast |
+| `SHA256` | tekenreeks | SHA-256 van het bestand waar de opgenomen actie op is toegepast |
+| `MD5` | tekenreeks | MD5-hash van het bestand waar de opgenomen actie op is toegepast |
+| `FileSize` | int | Grootte van het bestand in bytes |
+| `GlobalPrevalence` | int | Aantal exemplaren van de entiteit die wereldwijd door Microsoft is waargenomen |
+| `GlobalFirstSeen` | datetime | Datum en tijd waarop de entiteit voor het eerst wereldwijd door Microsoft is waargenomen |
+| `GlobalLastSeen` | datetime | Datum en tijd waarop de entiteit voor het laatst wereldwijd is waargenomen door Microsoft |
+| `Signer` | tekenreeks | Informatie over de ondertekenaar van het bestand |
+| `Issuer` | tekenreeks | Informatie over de certificeringsinstantie voor afgifte (CA) |
+| `SignerHash` | tekenreeks | Unieke hashwaarde die de ondertekenaar identificeert |
+| `IsCertificateValid` | booleaanse | Of het certificaat dat wordt gebruikt om het bestand te ondertekenen geldig is |
+| `IsRootSignerMicrosoft` | booleaanse | Geeft aan of de ondertekenaar van het hoofdcertificaat Microsoft is |
+| `SignatureState` | tekenreeks | Status van de bestandshandtekening: SignedValid - het bestand is ondertekend met een geldige handtekening, SignedInvalid - het bestand is ondertekend, maar het certificaat is ongeldig, Niet ondertekend - het bestand is niet ondertekend, Onbekend - informatie over het bestand kan niet worden opgehaald
+| `IsExecutable` | booleaanse | Of het bestand een PE-bestand (Portable Executable) is |
+| `ThreatName` | tekenreeks | Detectienaam voor malware of andere gevonden bedreigingen |
+| `Publisher` | tekenreeks | Naam van de organisatie die het bestand heeft gepubliceerd |
+| `SoftwareName` | tekenreeks | Naam van het softwareproduct |
 
 ## <a name="syntax"></a>Syntaxis
 

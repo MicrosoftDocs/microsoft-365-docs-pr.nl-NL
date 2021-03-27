@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79db436c2017c00e1b5d669797c5fb025f651a8a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 563dd2a5102ec66a1e953ae6ab30d56ea4f99036
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186231"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382930"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>Partnertoepassingen in Microsoft Defender voor Eindpunt 
 
@@ -54,7 +54,7 @@ Microsoft Defender voor Eindpunt integreert naadloos met bestaande beveiligingso
 
 ### <a name="security-information-and-analytics"></a>Beveiligingsgegevens en -analyses
 
-Logo |Partnernaam   | Beschrijving 
+Logo |Partnernaam   | Omschrijving 
 :---|:---|:---
 ![Afbeelding van AttackIQ-logo](images/attackiq-logo.png)| [AttackIQ-platform](https://go.microsoft.com/fwlink/?linkid=2103502) | AttackIQ-platform valideert Dat Defender voor Eindpunt correct is geconfigureerd door continue aanvallen veilig op productieactiva te starten
 ![Afbeelding van Azure Sentinel-logo](images/sentinel-logo.png)| [AzureSentinel](https://go.microsoft.com/fwlink/?linkid=2135705) | Waarschuwingen van Microsoft Defender voor Eindpunt streamen naar Azure Sentinel 
@@ -71,7 +71,7 @@ Logo |Partnernaam   | Beschrijving
 ### <a name="orchestration-and-automation"></a>Georkestreerde en automatisering
 
 
-Logo |Partnernaam   | Beschrijving 
+Logo |Partnernaam   | Omschrijving 
 :---|:---|:---
 ![Afbeelding van CyberSponse CyOps-logo](images/cybersponse-logo.png) | [CyberSponse CyOps](https://go.microsoft.com/fwlink/?linkid=2115943) | CyOps integreert met Defender for Endpoint om de snel reagerende playbooks voor incidenten van klanten te automatiseren
 ![Afbeelding van Delta Risk ActiveEye-logo](images/delta-risk-activeeye-logo.png) | [Delta Risk ActiveEye](https://go.microsoft.com/fwlink/?linkid=2127468) | Delta Risk, een toonaangevende provider van SOC-as-a-Service en beveiligingsservices, integreert Defender for Endpoint met het cloud-native SOAR-platform ActiveEye.
@@ -84,7 +84,7 @@ Logo |Partnernaam   | Beschrijving
 
 ### <a name="threat-intelligence"></a>Bedreigingsinformatie
 
-Logo |Partnernaam   | Beschrijving 
+Logo |Partnernaam   | Omschrijving 
 :---|:---|:---
 ![Afbeelding van HET MALWARE-platform voor het delen van gegevens van MISP)-logo](images/misp-logo.png) | [MISP (Platform voor het delen van malwaregegevens)](https://go.microsoft.com/fwlink/?linkid=2127543) | Bedreigingsindicatoren van het Open Source Threat Intelligence Sharing Platform integreren in uw Defender for Endpoint-omgeving
 ![Afbeelding van het logo van Palo Alto Networks](images/paloalto-logo.png) | [Palo Alto Networks](https://go.microsoft.com/fwlink/?linkid=2099582) | Verrijk uw eindpuntbeveiliging door Autofocus en andere bedreigingsfeeds uit te breiden naar Defender voor Eindpunt met MineMeld
@@ -93,16 +93,17 @@ Logo |Partnernaam   | Beschrijving
 
 
 ### <a name="network-security"></a>Netwerkbeveiliging
-Logo |Partnernaam   | Beschrijving 
+Logo |Partnernaam   | Omschrijving 
 :---|:---|:---
 ![Afbeelding van het logo van Aruba ClearPass Policy Manager](images/aruba-logo.png) | [Aruba ClearPass Policy Manager](https://go.microsoft.com/fwlink/?linkid=2127544) | Ervoor zorgen dat Defender voor Eindpunt is geïnstalleerd en bijgewerkt op elk eindpunt voordat u toegang tot het netwerk toestaat
 ![Afbeelding van blue hexagon voor netwerklogo](images/bluehexagon-logo.png) | [Blue Hexagon voor Network](https://go.microsoft.com/fwlink/?linkid=2104613) | Blue Hexagon heeft het eerste realtime deep learning-platform voor netwerkbedreigingen ontwikkeld
 ![Afbeelding van CyberMDX-logo](images/cybermdx-logo.png) | [CyberMDX](https://go.microsoft.com/fwlink/?linkid=2135620) | Cyber MDX integreert uitgebreide zichtbaarheid van gezondheidsactiva, bedreigingspreventie en repose in uw Defender for Endpoint-omgeving
+![Afbeelding van HYAS Protect-logo](images/hyas-logo.png) | [HYAS Protect](https://go.microsoft.com/fwlink/?linkid=2156763) | HYAS Protect maakt gebruik van gezaghebbende kennis van de infrastructuur voor aanvallers om Microsoft Defender proactief te beveiligen voor eindpunten tegen cyberaanvallen
 ![Afbeelding van het NDR-logo (Network Detection and Response) van Vectra](images/vectra-logo.png) |[Vectra Network Detection and Response (NDR)](https://go.microsoft.com/fwlink/?linkid=866934)| Vectra past AI-& beveiligingsonderzoek toe om cyberaanvallen in realtime te detecteren en te beantwoorden
 
 
 ### <a name="cross-platform"></a>Platform kruisen
-Logo |Partnernaam   | Beschrijving 
+Logo |Partnernaam   | Omschrijving 
 :---|:---|:---
 ![Afbeelding van Bitdefender-logo](images/bitdefender-logo.png)| [Bitdefender](https://go.microsoft.com/fwlink/?linkid=860032)| Bitdefender Ernstzone is een gelaagd platform voor de beveiliging van eindpunten van de volgende generatie dat uitgebreide bescherming biedt tegen het volledige spectrum van geavanceerde cyberbedreigingen
 ![Afbeelding van Het logo van Better Mobile](images/bettermobile-logo.png) | [Betere mobiele telefoon](https://go.microsoft.com/fwlink/?linkid=2086214)| OP AI gebaseerde MTD-oplossing om mobiele bedreigingen tegen te & phishing. Privé surfen op internet om de privacy van gebruikers te beschermen 
@@ -115,7 +116,7 @@ Logo |Partnernaam   | Beschrijving
 
 ## <a name="other-integrations"></a>Andere integraties
 
-Logo |Partnernaam   | Beschrijving 
+Logo |Partnernaam   | Omschrijving 
 :---|:---|:---
 ![Afbeelding van cyren-webfilterlogo](images/cyren-logo.png)| [Cyren-webfilter](https://go.microsoft.com/fwlink/?linkid=2108221)| Uw Defender voor eindpunt verbeteren met geavanceerde webfilters
 ![Afbeelding van Morphisec-logo](images/morphisec-logo.png)| [Morphisec](https://go.microsoft.com/fwlink/?linkid=2086215)| Biedt geavanceerde preventie van bedreigingen door bewegend doelverdediging. Integreert gegevens uit het onderzoek rechtstreeks in WD-beveiligingscentrumdashboards om waarschuwingen prioriteit te geven, de risicoscore van het apparaat te bepalen en de tijdlijn van de volledige aanval te visualiseren, inclusief interne geheugengegevens

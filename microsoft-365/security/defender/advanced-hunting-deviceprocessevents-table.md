@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f014eea240e3c8e52c424be36402c2826cb131d1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 363d80431c14bc550cba34850c85593163aea1b1
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057998"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382839"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 
@@ -44,7 +44,7 @@ De `DeviceProcessEvents` tabel in het geavanceerde schema [bevat](advanced-hunti
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
-| Kolomnaam | Gegevenstype | Beschrijving |
+| Kolomnaam | Gegevenstype | Omschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
 | `DeviceId` | tekenreeks | Unieke id voor de machine in de service |
@@ -55,6 +55,13 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `SHA1` | tekenreeks | SHA-1 van het bestand waar de opgenomen actie op is toegepast |
 | `SHA256` | tekenreeks | SHA-256 van het bestand waar de opgenomen actie op is toegepast. Dit veld wordt meestal niet ingevuld: gebruik de kolom SHA1 wanneer deze beschikbaar is. |
 | `MD5` | tekenreeks | MD5-hash van het bestand waar de opgenomen actie op is toegepast |
+| `FileSize` | lang | Grootte van het bestand in bytes |
+| `ProcessVersionInfoCompanyName` | tekenreeks | Bedrijfsnaam van de versiegegevens van het nieuw gemaakte proces |
+| `ProcessVersionInfoProductName` | tekenreeks | Productnaam van de versiegegevens van het nieuw gemaakte proces |
+| `ProcessVersionInfoProductVersion` | tekenreeks | Productversie van de versiegegevens van het nieuwe proces |
+| `ProcessVersionInfoInternalFileName` | tekenreeks | Interne bestandsnaam van de versiegegevens van het nieuw gemaakte proces |
+| `ProcessVersionInfoOriginalFileName` | tekenreeks | Oorspronkelijke bestandsnaam van de versiegegevens van het nieuw gemaakte proces |
+| `ProcessVersionInfoFileDescription` | tekenreeks | Beschrijving van de versiegegevens van het nieuw gemaakte proces |
 | `ProcessId` | int | Proces-id (PID) van het nieuw gemaakte proces |
 | `ProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt om het nieuwe proces te maken |
 | `ProcessIntegrityLevel` | tekenreeks | Integriteitsniveau van het nieuwe proces. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart vanaf een internet gedownload. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
@@ -79,6 +86,12 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `InitiatingProcessMD5` | tekenreeks | MD5-hash van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessFileName` | tekenreeks | Naam van het proces dat de gebeurtenis heeft gestart |
 | `InitiatingProcessFileSize` | lang | Grootte van het bestand dat het proces heeft doorlopen dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoCompanyName` | tekenreeks | Bedrijfsnaam van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoProductName` | tekenreeks | Productnaam van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoProductVersion` | tekenreeks | Productversie van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoInternalFileName` | tekenreeks | Interne bestandsnaam van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoOriginalFileName` | tekenreeks | Oorspronkelijke bestandsnaam van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessVersionInfoFileDescription` | tekenreeks | Beschrijving van de versiegegevens van het proces (afbeeldingsbestand) dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessId` | int | Proces-id (PID) van het proces dat de gebeurtenis heeft gestart |
 | `InitiatingProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt om het proces uit te voeren waarmee de gebeurtenis is gestart |
 | `InitiatingProcessCreationTime` | datetime | Datum en tijd waarop het proces dat de gebeurtenis heeft gestart is gestart |
@@ -86,10 +99,12 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `InitiatingProcessParentId` | int | Proces-id (PID) van het bovenliggende proces dat het proces heeft voortgebracht dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessParentFileName` | tekenreeks | Naam van het bovenliggende proces dat het proces heeft voortgebracht dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessParentCreationTime` | datetime | Datum en tijd waarop het bovenliggende deel van het proces dat verantwoordelijk is voor de gebeurtenis is gestart |
+| `InitiatingProcessSignerType` | tekenreeks | Type bestands ondertekenaar van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
+| `InitiatingProcessSignatureStatus` | tekenreeks | Informatie over de handtekeningstatus van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp |
 | `AppGuardContainerId` | tekenreeks | Id voor de gevirtualiseerde container die door Application Guard wordt gebruikt om browseractiviteit te isoleren |
 | `AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
-| `FileSize` | lang | Grootte van het bestand in bytes |
+
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

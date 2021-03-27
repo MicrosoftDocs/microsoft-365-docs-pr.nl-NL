@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cf37fe2aeac193c6b45f55fd5f5c850470ba6da4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3d991bc5e78fc7b33e20df1f86471a0969b7345f
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057993"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382589"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -41,7 +41,7 @@ Elke rij in de `DeviceTvmSecureConfigurationAssessment` tabel bevat een beoordel
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
-| Kolomnaam | Gegevenstype | Beschrijving |
+| Kolomnaam | Gegevenstype | Omschrijving |
 |-------------|-----------|-------------|
 | `DeviceId` | tekenreeks | Unieke id voor het apparaat in de service |
 | `DeviceName` | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat |
@@ -54,7 +54,7 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `IsCompliant` | booleaanse | Geeft aan of de configuratie of het beleid juist is geconfigureerd |
 | `IsApplicable` | booleaanse | Geeft aan of de configuratie of het beleid van toepassing is op het apparaat |
 | `Context` | tekenreeks | Aanvullende contextuele informatie over de configuratie of het beleid |
-| `IsExpectedUserImpactCompliant` | booleaanse | Geeft aan of er gevolgen voor de gebruiker zijn als de configuratie of het beleid wordt toegepast |
+| `IsExpectedUserImpact` | booleaanse | Geeft aan of er gevolgen voor de gebruiker zijn als de configuratie of het beleid wordt toegepast |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

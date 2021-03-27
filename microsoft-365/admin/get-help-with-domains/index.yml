@@ -1,0 +1,60 @@
+### YamlMime:Landing
+title: Domeinen beheren
+summary: Bekijk deze resources met algemene domeinentaken of zie het navigatiedeelvenster aan de linkerkant voor een volledige lijst.
+metadata:
+  title: Domeinen beheren
+  description: Beheer alle aspecten van domeinen in Microsoft 365.
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: pebaum
+  ms.author: pebaum
+  ms.date: 03/25/2021
+  localization_priority: Priority
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: 2ca0bc79cc70ce738603dcdb7cb09ea1d238e4c9
+  ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/26/2021
+  ms.locfileid: "51379707"
+landingContent:
+- title: Domeinen beheren
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Veelgestelde vragen over domeinen (veelgestelde vragen)
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq
+  - linkListType: how-to-guide
+    links:
+    - text: Een domein toevoegen
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/add-domain
+    - text: Een domeinnaam kopen
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name
+    - text: Een domein verwijderen
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/remove-a-domain
+- title: Een domein overdragen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Een domein van Microsoft overbrengen naar een andere host
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host
+- title: Pilot Microsoft 365
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Testfase van Microsoft 365 uitvoeren vanaf mijn aangepaste domein
+      url: https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain
+- title: Hostspecifieke instructies
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Naamservers wijzigen bij een DNS-host
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar
+    - text: DNS-records maken bij een DNS-host
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider
+- title: Problemen oplossen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-and-fix-issues

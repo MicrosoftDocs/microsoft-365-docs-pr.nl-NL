@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7196053ffef3dffc3c737d0df26a5d12bdfe8a4c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: ab5400a197a1f0ac61c8b298a06165d217f44fd1
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187755"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394732"
 ---
 # <a name="resources"></a>Resources
 
@@ -105,6 +105,7 @@ De volgende tabel bevat opdrachten voor enkele van de meest voorkomende scenario
 |Groep                 |Scenario                                                |Opdracht                                                                |
 |----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
 |Configuratie         |Realtimebeveiliging in- of uitschakelen                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
+|Configuratie         |Gedragscontrole in-/uitschakelen                         |`mdatp config behavior-monitoring --value [enabled\|disabled]` 
 |Configuratie         |Cloudbeveiliging in-/uitschakelen                            |`mdatp config cloud --value [enabled\|disabled]`                       |
 |Configuratie         |Productdiagnose in- of uitschakelen                         |`mdatp config cloud-diagnostic --value [enabled\|disabled]`            |
 |Configuratie         |Automatische voorbeeldinzending in- of uitschakelen                 |`mdatp config cloud-automatic-sample-submission [enabled\|disabled]`   |

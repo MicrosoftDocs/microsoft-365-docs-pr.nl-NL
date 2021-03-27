@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 059cfbf37c79ff9f99b5e46c8d4329c203aa9665
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 684025441c8400775f469515df1bcd0423d6460b
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215526"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394744"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Geavanceerde functies configureren in Defender voor Eindpunt
 
@@ -63,6 +63,14 @@ Zie Rollen maken en beheren voor meer informatie over [roltoewijzingen.](user-ro
 ## <a name="live-response-unsigned-script-execution"></a>Uitvoering van niet-ondertekende scripts met livereactie
 
 Als u deze functie inschakelen, kunt u niet-ondertekende scripts uitvoeren in een livereactiesessie.
+
+
+## <a name="restrict-correlation-to-within-scoped-device-groups"></a>Correlatie beperken tot binnen bereik van apparaatgroepen
+Wanneer deze instelling is ingeschakeld, worden waarschuwingen gecorreleerd in afzonderlijke incidenten op basis van hun bereikapparaatgroep. Incident correlatie vindt standaard plaats in het hele tenantbereik.
+
+>[!NOTE]
+>Het wijzigen van deze instelling heeft alleen gevolgen voor toekomstige waarschuwingscorrelatie.
+
 
 ## <a name="autoresolve-remediated-alerts"></a>Autoresolve remediated alerts
 

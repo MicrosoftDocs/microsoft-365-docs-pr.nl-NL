@@ -1,6 +1,6 @@
 ---
-title: Handmatige implementatie voor Microsoft Defender ATP voor macOS
-description: Microsoft Defender ATP voor macOS handmatig installeren vanaf de opdrachtregel.
+title: Handmatige implementatie voor Microsoft Defender voor Eindpunt voor macOS
+description: Installeer Microsoft Defender voor Eindpunt voor macOS handmatig vanaf de opdrachtregel.
 keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2629eb3d13e6eb908644dfcade46a7ac2768637
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 044a3d48dc350a5663a27ab3c16c2da7a5e3f3f1
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187443"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379442"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Handmatige implementatie voor Microsoft Defender voor Eindpunt voor macOS
 
@@ -64,20 +64,20 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
 
 1. Ga naar de gedownloade wdav.pkg in Finder en open het.
 
-    ![Schermafbeelding van app-installatie1](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-28-appinstall)
+    ![Schermafbeelding van app-installatie1](images/mdatp-28-appinstall.png)
 
 2. Selecteer **Doorgaan,** ga akkoord met de licentievoorwaarden en voer het wachtwoord in wanneer u daarom wordt gevraagd.
 
-    ![Schermafbeelding van app-installatie2](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-29-appinstalllogin)
+    ![Schermafbeelding van app-installatie2](images/mdatp-29-appinstalllogin.png)
 
    > [!IMPORTANT]
    > U wordt gevraagd om toe te staan dat een stuurprogramma van Microsoft wordt geïnstalleerd ('Systeemextensie geblokkeerd' of 'Installatie is in de wacht gezet' of beide. Het stuurprogramma moet zijn geïnstalleerd.
 
-   ![Schermafbeelding van app-installatie](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-30-systemextension)
+   ![Schermafbeelding van app-installatie](images/mdatp-30-systemextension.png)
 
 3. Selecteer **Beveiligingsvoorkeuren openen** **of Systeemvoorkeuren openen > beveiliging & privacy**. Selecteer **Toestaan:**
 
-    ![Schermopname van het beveiligings- en privacyvenster](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-31-securityprivacysettings)
+    ![Schermopname van het beveiligings- en privacyvenster](images/mdatp-31-securityprivacysettings.png)
 
    De installatie gaat verder.
 
@@ -139,7 +139,7 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
 
 Na de installatie ziet u het Microsoft Defender-pictogram in de statusbalk van macOS in de rechterbovenhoek.
 
-   ![Microsoft Defender-pictogram in schermafbeelding van statusbalk](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-icon-bar)
+   ![Microsoft Defender-pictogram in schermafbeelding van statusbalk](images/mdatp-icon-bar.png)
    
 
 ## <a name="how-to-allow-full-disk-access"></a>Volledige schijftoegang toestaan

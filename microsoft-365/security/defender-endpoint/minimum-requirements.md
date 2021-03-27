@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c6afa48fcee80c0b8fb7ed0563264932566b6321
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6a8e1091490cb9f3fe1eedadec0b76a56ada936e
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185789"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379488"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Minimumvereisten voor Microsoft Defender voor Eindpunt
 
@@ -31,12 +31,10 @@ ms.locfileid: "51185789"
 - [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
 
 
 Er zijn enkele minimumvereisten voor onboarding-apparaten voor de service. Meer informatie over de licentie-, hardware- en softwarevereisten en andere configuratie-instellingen voor het onboarden van apparaten bij de service.
-
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
 
 > [!TIP]
 > - Meer informatie over de nieuwste verbeteringen in Defender voor Eindpunt: [Defender voor Endpoint Tech Community](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced).
@@ -80,7 +78,6 @@ Zie de [vergelijkings-PDF](https://wfbdevicemanagementprod.blob.core.windows.net
 Toegang tot Defender voor Eindpunt wordt uitgevoerd via een browser, ter ondersteuning van de volgende browsers:
 
 - Microsoft Edge
-- Internet Explorer versie 11
 - Google Chrome
 
 > [!NOTE]
@@ -121,11 +118,12 @@ De hardwarevereisten voor Defender voor Eindpunt op apparaten zijn hetzelfde voo
 
 ### <a name="other-supported-operating-systems"></a>Andere ondersteunde besturingssystemen
 - Android
+- iOS
 - Linux
 - macOS
 
 > [!NOTE]
-> U moet de exacte Linux-distributies en -versies van Android en macOS kennen die compatibel zijn met Defender voor Eindpunt om de integratie te laten werken.
+> U moet bevestigen dat de Linux-distributies en -versies van Android, iOS en macOS die u hebt compatibel zijn met Defender voor Eindpunt om de integratie te laten werken.
 
 
 
@@ -191,7 +189,7 @@ U moet instellen dat de service automatisch wordt start als de START_TYPE **niet
 #### <a name="internet-connectivity"></a>Internetverbinding
 Internetverbinding op apparaten is rechtstreeks of via proxy vereist.
 
-De Defender voor Eindpunt-sensor kan een dagelijkse gemiddelde bandbreedte van 5 MB gebruiken om te communiceren met de Defender for Endpoint-cloudservice en om cybergegevens te rapporteren. Eenmalige activiteiten, zoals het uploaden van bestanden en het verzamelen van onderzoekspakketten, worden niet opgenomen in deze dagelijkse gemiddelde bandbreedte.
+De Defender for Endpoint-sensor kan een dagelijkse gemiddelde bandbreedte van 5 MB gebruiken om te communiceren met de Defender for Endpoint-cloudservice en om cybergegevens te rapporteren. Eenmalige activiteiten, zoals het uploaden van bestanden en het verzamelen van onderzoekspakketten, worden niet opgenomen in deze dagelijkse gemiddelde bandbreedte.
 
 Zie Apparaatproxy- en [internetverbindingsinstellingen configureren](configure-proxy-internet.md)voor meer informatie over aanvullende instellingen voor proxyconfiguratie.
 
@@ -207,7 +205,7 @@ Als Microsoft Defender Antivirus niet de actieve antimalware in uw organisatie i
 
 Als uw organisatie Microsoft Defender Antivirus heeft uitgeschakeld via groepsbeleid of andere methoden, moeten apparaten die zijn ingeschakeld, worden uitgesloten van dit groepsbeleid.
 
-Als u onboardingservers gebruikt en Microsoft Defender Antivirus niet de actieve antimalware op uw servers is, moet Microsoft Defender Antivirus worden geconfigureerd om in de passieve modus te gaan of te worden verwijderd. De configuratie is afhankelijk van de serverversie. Zie Compatibiliteit met Microsoft Defender Antivirus voor meer [informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
+Als u onboardingservers gebruikt en Microsoft Defender Antivirus niet de actieve antimalware op uw servers is, moet Microsoft Defender Antivirus worden geconfigureerd om in de passieve modus te kunnen werken of moeten ze worden verwijderd. De configuratie is afhankelijk van de serverversie. Zie Compatibiliteit met Microsoft Defender Antivirus voor meer [informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
 
 > [!NOTE]
 > Uw normale groepsbeleid is niet van toepassing op Tamper Protection en wijzigingen in microsoft Defender Antivirus-instellingen worden genegeerd wanneer Tamper Protection is in gebruik.
@@ -216,7 +214,7 @@ Als u onboardingservers gebruikt en Microsoft Defender Antivirus niet de actieve
 ## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>Microsoft Defender Antivirus Early Launch Antimalware -stuurprogramma (ELAM) is ingeschakeld
 Als u Microsoft Defender Antivirus gebruikt als het primaire antimalwareproduct op uw apparaten, wordt de Defender for Endpoint-agent met succes aan boord.
 
-Als u een antimalwareclient van derden gebruikt en Mobile Device Management-oplossingen of Microsoft Endpoint Manager (huidige tak) gebruikt, moet u ervoor zorgen dat het MICROSOFT Defender Antivirus ELAM-stuurprogramma is ingeschakeld. Zie Ervoor zorgen dat [Microsoft Defender Antivirus niet is uitgeschakeld door beleid voor meer informatie.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
+Als u een antimalwareclient van derden gebruikt en Mobile Device Management-oplossingen of Microsoft Endpoint Manager (huidige vertakking) gebruikt, moet u ervoor zorgen dat het MICROSOFT Defender Antivirus ELAM-stuurprogramma is ingeschakeld. Zie Ervoor zorgen dat [Microsoft Defender Antivirus niet is uitgeschakeld door beleid voor meer informatie.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen

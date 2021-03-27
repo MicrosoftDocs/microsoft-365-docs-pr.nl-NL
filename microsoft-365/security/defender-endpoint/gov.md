@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 059ff9ca6f0c93c6adbac3b1d552cbedcf308759
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 089614fab57950af5f60181ce7ed2116046ad347
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222705"
+ms.locfileid: "51379368"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender voor Eindpunt voor klanten van de Amerikaanse overheid
 
@@ -52,7 +52,7 @@ GCC | GCC High | DoD
 Microsoft Defender voor Endpoint Server GCC | Microsoft Defender voor Endpoint Server voor GCC High | Microsoft Defender voor Endpoint Server voor DOD
 Azure Defender voor servers | Azure Defender voor servers - Overheid | Azure Defender voor servers - Overheid
 
-<br>
+<br />
 
 ## <a name="portal-urls"></a>Portal-URL's
 De volgende zijn de URL's van de Microsoft Defender for Endpoint-portal voor klanten van de Amerikaanse overheid:
@@ -63,7 +63,7 @@ GCC | https://gcc.securitycenter.microsoft.us
 GCC High | https://securitycenter.microsoft.us
 DoD | https://securitycenter.microsoft.us
 
-<br>
+<br />
 
 ## <a name="endpoint-versions"></a>Endpoint-versies
 
@@ -78,8 +78,8 @@ Windows 10, versie 1909 (met [KB4586819](https://support.microsoft.com/help/4586
 Windows 10, versie 1903 (met [KB4586819](https://support.microsoft.com/help/4586819)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 10, versie 1809 (met [KB4586839](https://support.microsoft.com/help/4586839)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 10, versie 1803 (met [KB4598245](https://support.microsoft.com/help/4598245)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Windows 10, versie 1709 | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund | ![Ja ](images/svg/check-yes.svg) met [KB4499147](https://support.microsoft.com/help/4499147)<br>Opmerking: [Afgeschaft,](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)kunt u een upgrade uitvoeren | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund
-Windows 10, versie 1703 en eerder | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund | ![Nee](images/svg/check-no.svg)<br>Opmerking: Wordt niet ondersteund
+Windows 10, versie 1709 | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund | ![Ja ](images/svg/check-yes.svg) met [KB4499147](https://support.microsoft.com/help/4499147)<br />Opmerking: [Afgeschaft,](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)kunt u een upgrade uitvoeren | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund
+Windows 10, versie 1703 en eerder | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund
 Windows Server 2019 (met [KB4586839](https://support.microsoft.com/help/4586839)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows Server 2016 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
@@ -88,8 +88,8 @@ Windows 8.1 Enterprise | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/chec
 Windows 8 Pro | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 7 SP1 Enterprise | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 7 SP1 Pro | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Linux | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol
-macOS | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol | ![Nee](images/svg/check-no.svg) Uitrol
+Linux | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie
+macOS | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie
 Android | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
 iOS | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
 
@@ -98,6 +98,9 @@ iOS | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg
 
 > [!NOTE]
 > Probeert u Windows-apparaten die ouder zijn dan Windows 10 of Windows Server 2019 aan te sluiten met [Microsoft Monitoring Agent?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) U moet 'Azure US Government' kiezen onder 'Azure Cloud' als u [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) de installatiewizard gebruikt [of](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)als u een opdrachtregel of een [script](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) gebruikt, de parameter 'OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE' in te stellen op 1.
+
+> [!NOTE]
+> U hebt versie 101.25.72 en hoger nodig voor Linux en versie 101.25.69 en hoger voor macOS. Deze versies zijn alleen beschikbaar in het insider fast-kanaal terwijl we in een voorbeeldversie zijn. Zie [De Linux-softwareopslagplaats configureren](linux-install-manually.md#configure-the-linux-software-repository) of [De kanaalnaam (macOS)](mac-updates.md#set-the-channel-name) instellen voor instructies.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>OS-versies bij het gebruik van Azure Defender voor servers
 De volgende besturingssysteemversies worden ondersteund bij het gebruik van [Azure Defender voor servers:](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
@@ -108,7 +111,7 @@ Windows Server 2016 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-y
 Windows Server 2012 R2 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows Server 2008 R2 SP1 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 
-<br>
+<br />
 
 ## <a name="required-connectivity-settings"></a>Vereiste connectiviteitsinstellingen
 Als een proxy of firewall standaard al het verkeer blokkeert en alleen specifieke domeinen toestaat, voegt u de domeinen in het downloadbare blad toe aan de lijst met toegestane domeinen.
@@ -117,7 +120,7 @@ In de volgende downloadbare spreadsheet worden de services en de bijbehorende UR
 
 Spreadsheet met domeinenlijst | Omschrijving
 :-----|:-----
-![Thumb image for Microsoft Defender for Endpoint URLLs spreadsheet](images/mdatp-urls.png)<br/> | Spreadsheet met specifieke DNS-records voor servicelocaties, geografische locaties en besturingssysteem. <br><br>[Download de spreadsheet hier.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
+![Thumb image for Microsoft Defender for Endpoint URLLs spreadsheet](images/mdatp-urls.png)<br/> | Spreadsheet met specifieke DNS-records voor servicelocaties, geografische locaties en besturingssysteem. <br /><br />[Download de spreadsheet hier.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
 Zie Apparaatproxy- en [internetverbindingsinstellingen configureren](configure-proxy-internet.md)voor meer informatie.
 
@@ -140,10 +143,10 @@ U kunt de Azure IP-bereik vinden in [Azure IP-bereik en ServiceLabels – US Gov
 > [!NOTE]
 > Als cloudoplossing kunnen de IP-adresbereiken worden gewijzigd. U wordt aangeraden over te gaan op regels op basis van DNS.
 
-<br>
+<br />
 
 ## <a name="api"></a>API
-In plaats van de openbare URL's in onze [API-documentatie,](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)moet u de volgende URL's gebruiken:
+In plaats van de openbare URL's in onze [API-documentatie,](apis-intro.md)moet u de volgende URL's gebruiken:
 
 Eindpunttype | GCC | GCC High & DoD
 :---|:---|:---
@@ -151,7 +154,7 @@ Aanmelden | `https://login.microsoftonline.com` | `https://login.microsoftonline
 Defender voor Endpoint API | `https://api-gcc.securitycenter.microsoft.us` | `https://api-gov.securitycenter.microsoft.us`
 SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https://wdatp-alertexporter-us.securitycenter.windows.us`
 
-<br>
+<br />
 
 ## <a name="feature-parity-with-commercial"></a>Functiepariteit met commercieel
 Defender for Endpoint voor klanten van de Amerikaanse overheid heeft geen volledige pariteit met het commerciële aanbod. Hoewel ons doel is om alle commerciële functies en functionaliteit te leveren aan onze klanten van de Amerikaanse overheid, zijn er nog enkele mogelijkheden die we willen markeren.

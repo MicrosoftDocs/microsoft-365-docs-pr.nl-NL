@@ -1,5 +1,5 @@
 ---
-title: Intune-implementatie voor Microsoft Defender ATP voor Mac
+title: Intune-implementatie voor Microsoft Defender voor Eindpunt voor Mac
 description: Microsoft Defender voor Eindpunt voor Mac installeren met Microsoft Intune.
 keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 08cb16f6ae6e259d1bc92e7d2bed96f093a435f0
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: bd74f3a487de4febecb2086cb126c50b8432c342
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222511"
+ms.locfileid: "51379556"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-for-mac"></a>Intune-implementatie voor Microsoft Defender voor Eindpunt voor Mac
 
@@ -137,9 +137,11 @@ U hebt geen speciale inrichting nodig voor een Mac-apparaat buiten een [standaar
 
 1. Bevestig apparaatbeheer.
 
+   ![Schermopname apparaatbeheer bevestigen](images/mdatp-3-confirmdevicemgmt.png)
+
     Selecteer **Systeemvoorkeuren** openen, zoek **Managementprofiel** in de lijst en selecteer **Goedkeuren...**. Uw managementprofiel wordt weergegeven als **Geverifieerd:**
 
-    ![Schermafbeelding van managementprofiel](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-4-managementprofile)
+    ![Schermafbeelding van managementprofiel](images/mdatp-4-managementprofile.png)
 
 2. Selecteer **Doorgaan** en voltooi de inschrijving.
 
@@ -148,7 +150,7 @@ U hebt geen speciale inrichting nodig voor een Mac-apparaat buiten een [standaar
 3. Open in Intune **Apparaten**  >  **beheren alle**  >  **apparaten**. Hier ziet u uw apparaat tussen de weergegeven apparaten:
 
    > [!div class="mx-imgBorder"]
-   > ![Schermopname apparaten toevoegen](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-5-alldevices)
+   > ![Schermopname apparaten toevoegen](images/mdatp-5-alldevices.png)
 
 ## <a name="approve-system-extensions"></a>Systeemextensies goedkeuren
 
@@ -184,7 +186,7 @@ De systeemextensies goedkeuren:
 
 4. Kies **OK**.
 
-    ![Een configuratie importeren uit een bestand voor aangepast configuratieprofiel](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-6-systemconfigurationprofiles)
+    ![Een configuratie importeren uit een bestand voor aangepast configuratieprofiel](images/mdatp-6-systemconfigurationprofiles.png)
 
 5. Selecteer **Opdrachten**  >  **beheren.** Selecteer op **het** tabblad Opnemen de optie Toewijzen aan **alle & alle apparaten.**
 
@@ -208,7 +210,7 @@ De systeemextensies goedkeuren:
 Wanneer de wijzigingen in Intune zijn doorgevoerd naar de geregistreerde apparaten, kunt u deze weergeven onder  >  **Apparaatstatus controleren:**
 
 > [!div class="mx-imgBorder"]
-> ![Weergave van apparaatstatus in monitor](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-7-devicestatusblade.png)
+> ![Weergave van apparaatstatus in monitor](images/mdatp-7-devicestatusblade.png)
 
 ## <a name="publish-application"></a>Toepassing publiceren
 
@@ -230,43 +232,43 @@ Wanneer de wijzigingen in Intune zijn doorgevoerd naar de geregistreerde apparat
     > Als de versie die door Intune is geüpload lager is dan de versie op het apparaat, wordt de onderste versie geïnstalleerd, wat microsoft Defender voor Eindpunt effectief verlaagt. Dit kan leiden tot een niet-werkende toepassing. Zie [Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac](mac-updates.md) voor meer informatie over hoe het product wordt bijgewerkt. Als u Microsoft Defender voor Eindpunt hebt geïmplementeerd met *App-versie* negeren ingesteld op **Nee,** wijzigt u deze in **Ja.** Als Microsoft Defender voor Eindpunt nog steeds niet kan worden geïnstalleerd op een clientapparaat, verwijdert u Microsoft Defender voor Eindpunt en drukt u op het bijgewerkte beleid.
      
     > [!div class="mx-imgBorder"]
-    > ![Weergave van app-informatie in App-add](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-8-intuneappinfo)
+    > ![Weergave van app-informatie in App-add](images/mdatp-8-intuneappinfo.png)
 
 7. Selecteer **OK** en **Toevoegen.**
 
     > [!div class="mx-imgBorder"]
-    > ![Apparaatstatus weergegeven in het venster Meldingen](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-9-intunepkginfo)
+    > ![Apparaatstatus weergegeven in het venster Meldingen](images/mdatp-9-intunepkginfo.png)
 
 8. Het kan even duren voordat u het pakket hebt geüpload. Nadat het klaar is, selecteert u het pakket in de lijst en gaat **u naar Opdrachten en** groep **Toevoegen.**
 
     > [!div class="mx-imgBorder"]
-    > ![Schermafbeelding van client-apps](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-10-clientapps)
+    > ![Schermafbeelding van client-apps](images/mdatp-10-clientapps.png)
 
 9. Het **type Toewijzing wijzigen** in **Vereist.**
 
 10. Selecteer **Opgenomen groepen.** Selecteer **Deze app verplicht maken voor alle apparaten=Ja.** Selecteer **Groep selecteren om een groep** op te nemen en toe te voegen die de gebruikers bevat die u wilt targeten. Selecteer **OK** en **Opslaan.**
 
     > [!div class="mx-imgBorder"]
-    > ![Schermafbeelding van intune-opdrachten](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-11-assignments)
+    > ![Schermafbeelding van intune-opdrachten](images/mdatp-11-assignments.png)
 
 11. Na enige tijd wordt de toepassing gepubliceerd op alle geregistreerde apparaten. U kunt het weergeven **in** Monitor  >  **Device**, onder **Status apparaat installeren:**
 
     > [!div class="mx-imgBorder"]
-    > ![Schermafbeelding van de status van intune-apparaat](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-12-deviceinstall)
+    > ![Schermafbeelding van de status van intune-apparaat](images/mdatp-12-deviceinstall.png)
 
 ## <a name="verify-client-device-state"></a>Status van clientapparaat controleren
 
 1. Nadat de configuratieprofielen op uw apparaten zijn geïmplementeerd, opent u Systeemvoorkeurenprofielen  >   op uw Mac-apparaat.
 
-    ![Schermopname systeemvoorkeuren](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-13-systempreferences)<br/>
-    ![Schermopname systeemvoorkeurenprofielen](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-14-systempreferencesprofiles)
+    ![Schermopname systeemvoorkeuren](images/mdatp-13-systempreferences.png)<br/>
+    ![Schermopname systeemvoorkeurenprofielen](images/mdatp-14-systempreferencesprofiles.png)
 
-2. Controleer of de volgende configuratieprofielen aanwezig en geïnstalleerd zijn. Het **managementprofiel** moet het Intune-systeemprofiel zijn. _Wdav-config_ en _wdav-kext_ zijn systeemconfiguratieprofielen die zijn toegevoegd in Intune: ![ Schermafbeelding profielen](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-15-managementprofileconfig)
+2. Controleer of de volgende configuratieprofielen aanwezig en geïnstalleerd zijn. Het **managementprofiel** moet het Intune-systeemprofiel zijn. _Wdav-config_ en _wdav-kext_ zijn systeemconfiguratieprofielen die zijn toegevoegd in Intune: ![ Schermafbeelding profielen](images/mdatp-15-managementprofileconfig.png)
 
 3. U ziet ook het Microsoft Defender-pictogram in de rechterbovenhoek:
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Defender-pictogram in schermafbeelding van statusbalk](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-icon-bar)
+    > ![Microsoft Defender-pictogram in schermafbeelding van statusbalk](images/mdatp-icon-bar.png)
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 

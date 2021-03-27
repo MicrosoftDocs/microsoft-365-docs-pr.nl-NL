@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: fc4c15d2e391176ed0b4420c13fb865674da0361
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 48b1f1bf9506acc8491887fca49295d5e4ccbd69
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163585"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382707"
 ---
 # <a name="create-custom-detection-rules"></a>Aangepaste detectieregels maken
 
@@ -98,8 +98,8 @@ Wanneer u deze opgeslagen hebt, wordt er onmiddellijk een nieuwe aangepaste dete
 - **Elke 3 uur :** wordt elke 3 uur uitgevoerd en controleert gegevens uit de afgelopen 6 uur
 - **Elk uur**: wordt elk uur uitgevoerd en de gegevens van de afgelopen 2 uur worden gecontroleerd
 
-> [!IMPORTANT]
-> Bij het wijzigen van een query die al is gepland als aangepaste detectie, heeft de volgende onmiddellijke uitvoering een terugblikvenster van 30 dagen, precies alsof er een nieuwe query wordt gemaakt. Wijzigingen in een groot aantal query's en met tijdfilters die hoger zijn dan de standaardterugslagduur voor de geselecteerde frequentie, kan dit van invloed zijn op het totale quotumverbruik van Advanced Hunting, waardoor het dagelijkse quotum wordt uitputtend.
+Wanneer u een regel bewerkt, worden deze uitgevoerd met de toegepaste wijzigingen in de volgende run time die is gepland op basis van de frequentie die u hebt ingesteld.
+
 
 > [!TIP]
 > De tijdfilters in de query overeenkomen met de duur van de terugblik. Resultaten buiten de terugblikduur worden genegeerd.

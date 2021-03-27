@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 9699b5e2bc2e33b94795b7c23bd3f34f0383a8cc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 12a35a9f80da6b401495fcae7c245436b35b991c
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056668"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382887"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Aangepaste detectieregels maken en beheren
 
@@ -116,12 +116,16 @@ Met de query in de queryeditor selecteert u **Detectieregel maken** en geeft u d
 - **Aanbevolen acties**: aanvullende acties die reageren op een waarschuwing
 
 #### <a name="rule-frequency"></a>Regelfrequentie
-Wanneer u een nieuwe regel ops slaan of bewerken, wordt deze uitgevoerd en gecontroleerd op overeenkomsten uit de afgelopen 30 dagen met gegevens. De regel wordt vervolgens opnieuw uitgevoerd met vaste intervallen, met een terugslagduur op basis van de frequentie die u kiest:
+Wanneer u een nieuwe regel op te slaan, wordt deze uitgevoerd en gecontroleerd op overeenkomsten uit de afgelopen 30 dagen met gegevens. De regel wordt vervolgens opnieuw uitgevoerd met vaste intervallen, met een terugslagduur op basis van de frequentie die u kiest:
 
 - **Elke 24 uur :** wordt elke 24 uur uitgevoerd en controleert gegevens uit de afgelopen 30 dagen
 - **Elke 12 uur :** wordt elke 12 uur uitgevoerd en controleert gegevens uit de afgelopen 24 uur
 - **Elke 3 uur :** wordt elke 3 uur uitgevoerd en controleert gegevens uit de afgelopen 6 uur
 - **Elk uur**: wordt elk uur uitgevoerd en de gegevens van de afgelopen 2 uur worden gecontroleerd
+
+Wanneer u een regel bewerkt, worden deze uitgevoerd met de toegepaste wijzigingen in de volgende run time die is gepland op basis van de frequentie die u hebt ingesteld.
+
+
 
 >[!TIP]
 > De tijdfilters in de query overeenkomen met de duur van de terugblik. Resultaten buiten de terugblikduur worden genegeerd.  

@@ -1,6 +1,6 @@
 ---
-title: Problemen met kernelextensie oplossen in MICROSOFT Defender ATP voor Mac
-description: Problemen met kernelextensie oplossen in Microsoft Defender ATP voor Mac.
+title: Problemen met kernelextensie oplossen in Microsoft Defender voor Eindpunt voor Mac
+description: Problemen met kernelextensie oplossen in Microsoft Defender voor Eindpunt voor Mac.
 keywords: microsoft, defender, atp, mac, kernel, extensie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bdd5c6309a19863339b00e846c1c2670fc4f261b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 877cc619d3ba048cdf6ecc8149f073461d9eac8e
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187599"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379506"
 ---
 # <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-for-mac"></a>Problemen met kernelextensie oplossen in Microsoft Defender voor Eindpunt voor Mac
 
@@ -44,7 +44,7 @@ Vanaf macOS High Sierra (10.13) moeten alle kernelextensies expliciet worden goe
 
 Als u de kernelextensie niet hebt goedgekeurd tijdens de implementatie/installatie van Microsoft Defender voor Eindpunt voor Mac, wordt in de toepassing een banner weergegeven waarin u wordt gevraagd deze in te stellen:
 
-   ![Schermafbeelding van RTP uitgeschakeld](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-32-main-app-fix)
+   ![Schermafbeelding van RTP uitgeschakeld](images/mdatp-32-main-app-fix.png)
 
 U kunt ook ```mdatp health``` uitvoeren. Er wordt melding gemaakt als realtimebeveiliging is ingeschakeld, maar niet beschikbaar is. Dit geeft aan dat de kernelextensie niet is goedgekeurd voor gebruik op uw apparaat.
 
@@ -73,7 +73,7 @@ Als er minder dan 30 minuten zijn verstreken sinds het product is geïnstalleerd
 
 Als u deze prompt niet ziet, betekent dit dat er 30 of meer minuten zijn verstreken en dat de kernelextensie nog steeds niet is goedgekeurd voor gebruik op uw apparaat:
 
-![Beveiligings- en privacyvenster na prompt verlopen schermafbeelding](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-33-securityprivacysettings-noprompt)
+![Beveiligings- en privacyvenster na prompt verlopen schermafbeelding](images/mdatp-33-securityprivacysettings-noprompt.png)
 
 In dit geval moet u de volgende stappen uitvoeren om de goedkeuringsstroom opnieuw te activeren.
 

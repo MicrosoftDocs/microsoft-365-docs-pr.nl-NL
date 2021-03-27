@@ -1,6 +1,6 @@
 ---
-title: Prestatieproblemen oplossen voor Microsoft Defender ATP voor Mac
-description: Problemen met de prestaties oplossen in Microsoft Defender ATP voor Mac.
+title: Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt voor Mac
+description: Problemen met de prestaties oplossen in Microsoft Defender voor Eindpunt voor Mac.
 keywords: microsoft, defender, atp, mac, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f6dd5681dfafd069a4c52f72e1dc1733584283a2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 87190d9e0bb62d42642374bd7c9f6f3acad3c80a
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185907"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379381"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt voor Mac
 
@@ -52,7 +52,7 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
 
     - Vanuit de gebruikersinterface. Open Microsoft Defender voor Eindpunt voor Mac en ga naar **Instellingen beheren.**
 
-      ![Schermopname van realtimebeveiliging beheren](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-36-rtp)
+      ![Schermopname van realtimebeveiliging beheren](images/mdatp-36-rtp.png)
 
     - Vanuit de Terminal. Voor beveiligingsdoeleinden is voor deze bewerking hoogte vereist.
 

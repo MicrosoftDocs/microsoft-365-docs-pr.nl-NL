@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ce77d55ece955fbf97b5c9f32859514b55acb5a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: fb0cffb9716b2d0940e816dc69217486fd51a21d
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187647"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379324"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-for-mac"></a>Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt voor Mac
 
@@ -61,7 +61,7 @@ Proces | Een specifiek proces (opgegeven door het volledige pad of de bestandsna
 
 Bestands-, map- en procesuitsluitingen ondersteunen de volgende jokertekens:
 
-Jokerteken | Beschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
+Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 ---|---|---|---|---
 \* |    Komt overeen met een aantal tekens, inclusief geen tekens (houd er rekening mee dat wanneer dit jokerteken binnen een pad wordt gebruikt, dit slechts één map vervangt) | `/var/*/*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
 ? | Komt overeen met een enkel teken | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
@@ -79,7 +79,7 @@ Zie Voorkeuren instellen voor Defender voor Eindpunt voor Mac voor meer informat
 
 Open de toepassing Defender voor eindpunt en ga naar **Instellingen beheren** Toevoegen of Uitsluiting  >  **verwijderen...**, zoals wordt weergegeven in de volgende schermafbeelding:
 
-![Schermafbeelding van uitsluitingen beheren](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-37-exclusions)
+![Schermafbeelding van uitsluitingen beheren](images/mdatp-37-exclusions.png)
 
 Selecteer het type uitsluiting dat u wilt toevoegen en volg de aanwijzingen.
 
