@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Microsoft Defender voor endpoint-documentatie
-summary: Microsoft Defender voor Eindpunt biedt preventieve beveiliging, detectie na inbreuk, geautomatiseerd onderzoek en antwoord.
+title: Documentatie Microsoft Defender voor Eindpunt
+summary: Microsoft Defender voor Eindpunt levert preventieve bescherming, detectie van inbreuken, geautomatiseerde onderzoeken en herstelmaatregelen.
 metadata:
-  title: Microsoft Defender voor endpoint-documentatie
-  description: Meer informatie over Microsoft Defender voor Eindpunt en het maximaliseren van de ingebouwde beveiligingsmogelijkheden om apparaten te beveiligen, schadelijke activiteiten te detecteren en bedreigingen te herstellen# Vereist; artikelbeschrijving die wordt weergegeven in zoekresultaten. < 160 chars.
+  title: Documentatie Microsoft Defender voor Eindpunt
+  description: Lees meer over Microsoft Defender voor Eindpunt en maximaliseer de ingebouwde beveiligingsmogelijkheden om apparaten te beschermen, schadelijke activiteiten te detecteren en bedreigingen te herstellen# Vereist; beschrijving van het artikel dat wordt weergegeven in zoekresultaten. < 160 chars.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: efa23f4c40021d95185203c22c8bba5009e15f2f
   ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: nl-NL
   ms.lasthandoff: 03/24/2021
   ms.locfileid: "51185741"
@@ -28,17 +28,17 @@ landingContent:
       url: microsoft-defender-endpoint.md
   - linkListType: whats-new
     links:
-    - text: Nieuwe functies in Microsoft Defender voor Eindpunt
+    - text: Wat is er nieuw in Microsoft Defender voor Eindpunt
       url: whats-new-in-microsoft-defender-atp.md
   - linkListType: video
     links:
     - text: Overzichtsvideo
       url: https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0
-- title: Evalueren & de service implementeren
+- title: De service evalueren en implementeren
   linkLists:
   - linkListType: get-started
     links:
-    - text: Microsoft Defender voor eindpunt evalueren
+    - text: Microsoft Defender voor Eindpunt evalueren
       url: evaluation-lab.md
     - text: Uw implementatie plannen
       url: deployment-strategy.md
@@ -46,7 +46,7 @@ landingContent:
     links:
     - text: Implementatiehandleiding
       url: deployment-phases.md
-    - text: Ondersteunde apparaten aan boord
+    - text: Ondersteunde apparaten onboarden
       url: onboard-configure.md
   - linkListType: how-to-guide
     links:
@@ -54,17 +54,17 @@ landingContent:
       url: migration-guides.md
   - linkListType: video
     links:
-    - text: Onboarding-video
+    - text: Onboardingvideo
       url: https://www.microsoft.com/en-us/videoplayer/embed/RE4bGqr
-- title: Beveiligingsoperations
+- title: Beveiligingsbewerkingen
   linkLists:
   - linkListType: overview
     links:
-    - text: Eindpuntdetectie en -antwoord
+    - text: Detectie van en reactie op eindpunt
       url: overview-endpoint-detection-response.md
-    - text: Gedrag blokkeren en insluiting
+    - text: Gedragsblokkering en insluiting
       url: behavioral-blocking-containment.md
-    - text: Automatisch onderzoek en antwoord (AIR)
+    - text: Geautomatiseerd onderzoek en reactie (AIR)
       url: automated-investigations.md
     - text: Geavanceerd opsporen
       url: advanced-hunting-overview.md
@@ -72,7 +72,7 @@ landingContent:
       url: microsoft-threat-experts.md
     - text: Dreigingsanalyse
       url: threat-analytics.md
-- title: Microsoft Defender voor eindpunt gebruiken op andere platforms
+- title: Microsoft Defender voor Eindpunt gebruiken voor niet-Windows-platforms
   linkLists:
   - linkListType: overview
     links:
@@ -96,9 +96,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Bedreigings- & kwetsbaarheidsbeheer
+    - text: Bedreigings- en risicobeheer
       url: next-gen-threat-and-vuln-mgt.md
-    - text: Surface-beperking voor aanvallen
+    - text: Kwetsbaarheid voor aanvallen verminderen
       url: overview-attack-surface-reduction.md
     - text: Beveiliging van de volgende generatie
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10
