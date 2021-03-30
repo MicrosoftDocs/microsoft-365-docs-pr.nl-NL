@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: Meer informatie over Azure Information Protection (AIP) voor Office 365 beheerd door 21Vianet en hoe u deze configureert voor klanten in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 77790249cbd544b2f11e9a16dd77bab297cac509
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bddba69ecc8b7b80d2b2c7c48d820ec22d293362
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914316"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418030"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>Ondersteuning voor Azure Information Protection voor Office 365 beheerd door 21Vianet
 
@@ -148,16 +148,24 @@ AIP-apps in Windows hebben de volgende registersleutel nodig om ze te wijzen naa
 
 Installeer de on-premises AIP-scanner om uw netwerk- en inhoudsaandelen te scannen op gevoelige gegevens en pas classificatie- en beveiligingslabels toe zoals geconfigureerd in het beleid van uw organisatie.
 
-Wanneer u de scanner installeert en uw inhoudsscantaken beheert, gebruikt u de volgende cmdlets in plaats van de Azure-portalinterface die door de commerciële aanbiedingen wordt gebruikt:<br><br>
+- Wanneer u Azure AD-toepassingen maakt en configureert voor de opdracht  [Set-AIPAuthentication,](/powershell/module/azureinformationprotection/set-aipauthentication) worden in het deelvenster API-machtigingen aanvragen de API's weergegeven die door mijn organisatie worden gebruikt in plaats van op het tabblad Api's van **Microsoft.**  Selecteer de **API's die mijn organisatie gebruikt om** vervolgens Azure Rights Management Services te **selecteren.**
 
-| Cmdlet | Beschrijving |
-|--|--|
-| [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | Hiermee voegt u een nieuwe opslagplaats toe aan uw inhoudsscan. |
-| [Get-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/get-aipscannercontentscanjob) | Hier krijgt u meer informatie over uw inhoudsscan. |
-| [Get-AIPScannerRepository](/powershell/module/azureinformationprotection/get-aipscannerrepository) | Hier krijgt u informatie over de opslagplaatsen die zijn gedefinieerd voor uw inhoudsscan. |
-| [Remove-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/remove-aipscannercontentscanjob) | Hiermee verwijdert u uw taak voor het scannen van inhoud. |
-| [Remove-AIPScannerRepository](/powershell/module/azureinformationprotection/remove-aipscannerrepository) | Hiermee verwijdert u een opslagplaats uit uw taak voor inhoudsscans. |
-| [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | Hiermee definieert u instellingen voor uw inhoudsscan. |
-| [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Hiermee definieert u instellingen voor een bestaande opslagplaats in uw inhoudsscan. |
+- Wanneer u de scanner installeert en uw inhoudsscantaken beheert, gebruikt u de volgende cmdlets in plaats van de Azure-portalinterface die door de commerciële aanbiedingen wordt gebruikt:<br><br>
 
+    | Cmdlet | Omschrijving |
+    |--|--|
+    | [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | Hiermee voegt u een nieuwe opslagplaats toe aan uw inhoudsscan. |
+    | [Get-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/get-aipscannercontentscanjob) | Hier krijgt u meer informatie over uw inhoudsscan. |
+    | [Get-AIPScannerRepository](/powershell/module/azureinformationprotection/get-aipscannerrepository) | Hier krijgt u informatie over de opslagplaatsen die zijn gedefinieerd voor uw inhoudsscan. |
+    | [Remove-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/remove-aipscannercontentscanjob) | Hiermee verwijdert u uw taak voor het scannen van inhoud. |
+    | [Remove-AIPScannerRepository](/powershell/module/azureinformationprotection/remove-aipscannerrepository) | Hiermee verwijdert u een opslagplaats uit uw taak voor inhoudsscans. |
+    | [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | Hiermee definieert u instellingen voor uw inhoudsscan. |
+    | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Hiermee definieert u instellingen voor een bestaande opslagplaats in uw inhoudsscan. |
+    | | |
+
+> [!TIP]
+> Wanneer [u de scanner installeert,](/azure/information-protection/deploy-aip-scanner-configure-install#install-the-scanner)gebruikt u dezelfde clusternaam in de opdracht [Install-AIPScanner](/powershell/module/azureinformationprotection/install-aipscanner) om meerdere scannerknooppunten aan hetzelfde cluster te koppelen. Als u hetzelfde cluster gebruikt voor meerdere scannerknooppunten, kunnen meerdere scanners samenwerken om uw scans uit te voeren.
+> 
+> Gebruik de [cmdlet Get-AIPScannerConfiguration](/powershell/module/azureinformationprotection/get-aipscannerconfiguration) om details over uw cluster te retourneren.
+> 
 Zie Wat is de geïntegreerde labelscanner voor [Azure Information Protection?](/azure/information-protection/deploy-aip-scanner) en [Uw inhoudsscantaken beheren met alleen PowerShell](/azure/information-protection/deploy-aip-scanner-prereqs#use-powershell-with-a-disconnected-computer)voor meer informatie.

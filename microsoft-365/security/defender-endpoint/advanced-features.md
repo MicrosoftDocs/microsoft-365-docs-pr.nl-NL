@@ -16,17 +16,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 684025441c8400775f469515df1bcd0423d6460b
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: bcb96ea29649bf3525b2ffcf6d5cbb5d299bacf3
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394744"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418114"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Geavanceerde functies configureren in Defender voor Eindpunt
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
@@ -72,6 +72,9 @@ Wanneer deze instelling is ingeschakeld, worden waarschuwingen gecorreleerd in a
 >Het wijzigen van deze instelling heeft alleen gevolgen voor toekomstige waarschuwingscorrelatie.
 
 
+## <a name="enable-edr-in-block-mode"></a>EDR inschakelen in de blokmodus
+Endpoint detection and response (EDR) in block mode biedt bescherming tegen schadelijke artefacten, zelfs wanneer Microsoft Defender Antivirus wordt uitgevoerd in de passieve modus. Wanneer EDR is ingeschakeld, blokkeert EDR in de blokmodus schadelijke artefacten of gedragingen die worden gedetecteerd op een apparaat. EDR in de blokmodus werkt achter de schermen om schadelijke artefacten te corrigeren die worden gedetecteerd na een inbreuk.
+
 ## <a name="autoresolve-remediated-alerts"></a>Autoresolve remediated alerts
 
 Voor tenants die zijn gemaakt op of na Windows 10, versie 1809, is de mogelijkheid voor automatisch onderzoek en herstel standaard geconfigureerd om waarschuwingen op te lossen waarbij de status van het geautomatiseerde analyseresultaat 'Geen bedreigingen gevonden' of 'Opgelost' is.  Als u waarschuwingen niet automatisch wilt laten oplossen, moet u de functie handmatig uitschakelen.
@@ -116,11 +119,19 @@ Zie Indicatoren beheren voor meer [informatie.](manage-indicators.md)
 > [!NOTE]
 > Netwerkbeveiliging maakt gebruik van reputatieservices die aanvragen verwerken op locaties die zich mogelijk buiten de locatie bevinden die u hebt geselecteerd voor uw Defender voor eindpuntgegevens.
 
+
+## <a name="tamper-protection"></a>Beveiliging van tamper
+Tijdens sommige soorten cyberaanvallen proberen slechte spelers beveiligingsfuncties, zoals antivirusbeveiliging, uit te schakelen op uw machines. Slechte spelers willen uw beveiligingsfuncties uitschakelen om gemakkelijker toegang te krijgen tot uw gegevens, om malware te installeren of om op een andere manier uw gegevens, identiteit en apparaten te misbruiken.
+
+Met de beveiliging van tamper wordt Microsoft Defender Antivirus vergrendeld en wordt voorkomen dat uw beveiligingsinstellingen worden gewijzigd via apps en methoden.
+
+Houd de beveiliging van de tamper ingeschakeld om ongewenste wijzigingen in uw beveiligingsoplossing en de essentiële functies te voorkomen.
+
 ## <a name="show-user-details"></a>Gebruikersgegevens tonen
 
 Schakel deze functie in, zodat u gebruikersgegevens kunt zien die zijn opgeslagen in Azure Active Directory. Details zijn onder andere de afbeelding, naam, titel en afdelingsgegevens van een gebruiker bij het onderzoeken van entiteiten van gebruikersaccounts. U kunt gebruikersaccountgegevens vinden in de volgende weergaven:
 
-- Dashboard Beveiligingsbewerkingen
+- Dashboard beveiligingsbewerkingen
 - Waarschuwingswachtrij
 - Pagina Apparaatdetails
 

@@ -3,7 +3,7 @@ title: URL's en IP-adresbereiken voor Office 365 beheerd door 21Vianet
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 08/28/2020
+ms.date: 03/29/2021
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -21,12 +21,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel worden de URL's en IP-adresbereiken voor Office 365 vermeld wanneer deze worden beheerd door 21Vianet in China.
 hideEdit: true
-ms.openlocfilehash: 3f3d42b7a87e1d0e6341d0b2ca6036f7e2387ce6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ed9b6fdbef1ca121ccf53b635768ebdaab89763a
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920690"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418045"
 ---
 # <a name="urls-and-ip-address-ranges-for-office-365-operated-by-21vianet"></a>URL's en IP-adresbereiken voor Office 365 beheerd door 21Vianet
 
@@ -38,7 +38,7 @@ ms.locfileid: "50920690"
   
 |||
 |:-----|:-----|
-|**Laatst bijgewerkt:** 28-08-2020 - ![ ABONNEMENT op ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [RSS-wijzigingslogboek](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Downloaden:** alle vereiste en optionele bestemmingen in één lijst in [JSON-indeling](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> |
+|**Laatst bijgewerkt:** 29-03-2021 - ![ ABONNEMENT op ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [RSS-wijzigingslogboek](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Downloaden:** alle vereiste en optionele bestemmingen in één lijst in [JSON-indeling](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> |
 
 Begin met [Het beheren van Office 365-eindpunten](managing-office-365-endpoints.md) om onze aanbevelingen voor het beheren van netwerkverbindingen met deze gegevens te begrijpen. Eindpuntgegevens worden aan het begin van elke maand bijgewerkt zoals vereist met nieuwe IP-adressen en URL's die worden gepubliceerd 30 dagen voordat ze actief worden. Dit maakt het voor klanten die nog geen geautomatiseerde updates hebben mogelijk om hun processen te voltooien voordat er een nieuwe verbinding is vereist. Eindpuntgegevens kunnen ook gedurende de maand worden bijgewerkt indien nodig om escalaties van ondersteuningen, beveiligingsincidenten of andere directe operationele vereisten aan te pakken. De gegevens die op deze pagina worden weergegeven, zijn allemaal gegenereerd op basis van de REST-webservice. Als u gebruikmaakt van een script of netwerkapparaat voor toegang tot deze gegevens, gaat u rechtstreeks naar de [Webservice](microsoft-365-ip-web-service.md).
 

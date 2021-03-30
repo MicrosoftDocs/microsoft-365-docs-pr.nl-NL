@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf903bd1b09370dd7de2706b078778137ea029fb
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 98b568206d4263a574c8de653fe5345dd344ba43
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187815"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408545"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Microsoft Defender voor Eindpunt voor Linux handmatig implementeren
 
@@ -32,7 +32,7 @@ ms.locfileid: "51187815"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -87,7 +87,7 @@ Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wi
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    Als u bijvoorbeeld CentOS 7 gebruikt en MDE voor Linux wilt implementeren via het *prod-kanaal:*
+    Als u bijvoorbeeld CentOS 7 gebruikt en Defender voor Endpoint voor Linux wilt implementeren vanuit het *prod-kanaal:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
@@ -383,6 +383,27 @@ Zie [Installatieproblemen in logboeken](linux-resources.md#log-installation-issu
 ## <a name="operating-system-upgrades"></a>Upgrades van besturingssysteem
 
 Wanneer u een upgrade van uw besturingssysteem naar een nieuwe hoofdversie hebt uitgevoerd, moet u Eerst Defender voor Eindpunt voor Linux verwijderen, de upgrade installeren en ten slotte Defender voor Eindpunt voor Linux opnieuw configureren op uw apparaat.
+
+## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>Migreren van Insiders-Fast naar productiekanaal
+
+1. Verwijder de versie 'Insiders-Fast-kanaal' van MDE voor macOS.
+
+    ``
+    sudo yum remove mdatp
+    ``
+
+1. De MDE voor Linux-Insiders-Fast uitschakelen  ``
+    sudo yum repolist
+    ``
+
+    > [!NOTE]
+    > De uitvoer moet 'packages-microsoft-com-fast-prod' laten zien.
+
+    ``
+    sudo yum-config-manager --disable packages-microsoft-com-fast-prod
+    ``
+1. Herdeploy MDE voor Linux met behulp van het 'Productiekanaal'.
+
 
 ## <a name="uninstallation"></a>Verwijderen
 

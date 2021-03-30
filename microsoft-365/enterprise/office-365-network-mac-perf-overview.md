@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Overzicht van netwerkconnectiviteit in het Microsoft 365-beheercentrum (voorbeeld)
-ms.openlocfilehash: 0bfcebff4ebbefdb77049119fef2402af1ca8f90
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2b80dd001bd2ee5d5725ea67c73aa34b4eb8816c
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926094"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408403"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkconnectiviteit in het Microsoft 365-beheercentrum (preview)
 
@@ -148,6 +148,10 @@ Op het tabblad Details op de pagina kantoorlocatie ziet u de specifieke meetresu
 
 > [!div class="mx-imgBorder"]
 > ![Locatiespecifieke details](../media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)
+
+## <a name="sharing-network-assessment-data-with-microsoft"></a>Netwerkbeoordelingsgegevens delen met Microsoft
+
+Standaard worden de netwerkbeoordelingen voor uw organisatie en de netwerkinzichten gedeeld met Microsoft-werknemers. Dit omvat geen persoonlijke gegevens van uw personeel, maar alleen de specifieke meetgegevens voor netwerkbeoordelingen en netwerkinzichten die worden weergegeven in het beheercentrum voor uw kantoorlocaties. Het bevat ook geen namen van uw kantoorlocatie of straatadressen, dus u moet ze de plaats en ondersteunings-id van het kantoor vertellen dat u wilt bespreken. Als dit is uitgeschakeld, kunnen de Microsoft-technici met wie u uw netwerkverbinding bespreekt, deze gegevens niet bekijken. Als u deze instelling inschakelen, worden alleen toekomstige gegevens gedeeld vanaf de dag nadat u deze hebt ingeschakeld.
 
 ## <a name="csv-import-for-lan-subnet-office-locations"></a>CSV-import voor LAN-subnet office-locaties
 

@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 84d85b723d4dcbdfc07a074c40241242c57bc390
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 08bb4c73cb9df429c4b07194f1c7615f44d745d8
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185585"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408335"
 ---
 # <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender voor Eindpunt voor Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -83,6 +83,11 @@ Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in M
   > Het uitvoeren van Defender voor Eindpunt voor Linux naast andere op basis van `fanotify` beveiligingsoplossingen wordt niet ondersteund. Dit kan leiden tot onvoorspelbare resultaten, waaronder het ophangen van het besturingssysteem.
 
 - Schijfruimte: 1 GB
+- /opt/microsoft/mdatp/sbin/wdavdaemon vereist uitvoerbare machtigingen. Zie 'Controleer of de daemon uitvoerbare machtiging heeft' in Installatieproblemen oplossen voor [Microsoft Defender ATP voor Linux voor](/microsoft-365/security/defender-endpoint/linux-support-install)meer informatie.
+- Geheugen: 1 GB
+    > [!NOTE]
+    > Zorg ervoor dat u vrije schijfruimte hebt in /var.
+
 - De oplossing biedt momenteel realtime bescherming voor de volgende bestandssysteemtypen:
 
   - `btrfs`

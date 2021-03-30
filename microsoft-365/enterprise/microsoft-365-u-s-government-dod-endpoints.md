@@ -3,7 +3,7 @@ title: Office 365 Us Government DOD-eindpunten
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -22,12 +22,12 @@ f1.keywords:
 description: Office 365 vereist verbinding met internet. De onderstaande eindpunten moeten bereikbaar zijn voor klanten die alleen gebruikmaken van Office 365 U.S. Government DoD-abonnementen.
 hideEdit: true
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 925ec5940bd6c2ead7f94e162311f65e67afc502
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e236a41833f09684ce69330d78138160c2ddb2b2
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923976"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418093"
 ---
 # <a name="office-365-us-government-dod-endpoints"></a>Office 365 U.S. Government DoD-eindpunten
 
@@ -39,7 +39,7 @@ ms.locfileid: "50923976"
   
 |||
 |:-----|:-----|
-|**Laatst bijgewerkt:** 28-01-2021 - ![ ABONNEMENT op ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [RSS-wijzigingslogboek](https://endpoints.office.com/version/USGOVDoD?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Downloaden:** de volledige lijst in [JSON-indeling](https://endpoints.office.com/endpoints/USGOVDoD?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+|**Laatst bijgewerkt:** 29-03-2021 - ![ ABONNEMENT op ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [RSS-wijzigingslogboek](https://endpoints.office.com/version/USGOVDoD?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Downloaden:** de volledige lijst in [JSON-indeling](https://endpoints.office.com/endpoints/USGOVDoD?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
 
  Begin met [Het beheren van Office 365-eindpunten](managing-office-365-endpoints.md) om onze aanbevelingen voor het beheren van netwerkverbindingen met deze gegevens te begrijpen. Eindpuntgegevens worden aan het begin van elke maand bijgewerkt zoals vereist met nieuwe IP-adressen en URL's die worden gepubliceerd 30 dagen voordat ze actief worden. Hierdoor kunnen klanten die nog geen geautomatiseerde updates hebben, hun processen voltooien voordat nieuwe connectiviteit vereist is. Eindpuntgegevens kunnen ook gedurende de maand worden bijgewerkt indien nodig om escalaties van ondersteuningen, beveiligingsincidenten of andere directe operationele vereisten aan te pakken. De gegevens die op deze pagina worden weergegeven, zijn allemaal gegenereerd op basis van de REST-webservice. Als u gebruikmaakt van een script of netwerkapparaat voor toegang tot deze gegevens, gaat u rechtstreeks naar de [Webservice](microsoft-365-ip-web-service.md).
 
