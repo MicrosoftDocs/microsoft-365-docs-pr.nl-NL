@@ -1,6 +1,6 @@
 ---
-title: Ondersteunde regio's en talen
-description: Regio's en talen die worden ondersteund door Microsoft Managed Desktop
+title: Ondersteunde regio's
+description: Regio's die worden ondersteund door Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -12,25 +12,22 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 5fbf18247626bdfcfe5dcb04c8ba892ffa7a140f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 99f44398bc95958ca890ddcd4203b50ff95034b4
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163469"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445308"
 ---
-# <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Ondersteunde regio's en talen voor Microsoft Managed Desktop
+# <a name="microsoft-managed-desktop-supported-regions"></a>Ondersteunde regio's voor Microsoft Managed Desktop
 
-In dit artikel vindt u informatie over regio's en talen die worden ondersteund door Microsoft Managed Desktop en de regio's waar u deze kunt gebruiken.
+In dit artikel vindt u informatie over regio's waar u Microsoft Managed Desktop kunt gebruiken en waar het wordt ondersteund. Zie Apparaten voor gebruikers localiseren voor meer informatie over talen die worden ondersteund door Microsoft Managed Desktop voor de [gebruikerservaring.](../get-started/localization.md)
 
-## <a name="supported-languages"></a>Ondersteunde talen
+U kunt nog steeds beheerde apparaten buiten deze regio's gebruiken zonder onderbreking van de Microsoft Managed Desktop-service. Een werknemer in het Verenigd Koninkrijk kan bijvoorbeeld veilig werken en updates ontvangen op zijn of haar beheerde apparaat terwijl hij/zij door Azië, Europa of Zuid-Amerika reist.
 
-Engels is de enige taal die beschikbaar is voor gebruikers van Microsoft Managed Desktop. Dit beleid omvat alle gebruikersinterfaces voor zowel gebruikers als beheerders en alle interacties met zowel [beheerdersondersteuning](../working-with-managed-desktop/admin-support.md) als [gebruikersondersteuning.](../working-with-managed-desktop/end-user-support.md)
+Zie De gebruikerservaring localiseren voor meer informatie over de talen die worden ondersteund door Microsoft Managed Desktop voor gebruikers- en [beheerderservaringen.](../get-started/localization.md)
 
-
-U kunt nog steeds beheerde apparaten buiten Engelstalige regio's gebruiken zonder onderbreking van de Microsoft Managed Desktop-service. Een werknemer in het Verenigd Koninkrijk kan bijvoorbeeld veilig werken en updates ontvangen op zijn of haar beheerde apparaat tijdens een reis in Azië, Europa of Zuid-Amerika. 
-
-Zie Ondersteuning voor Microsoft Managed Desktop voor meer informatie over gebruikersondersteuning met Microsoft Managed [Desktop.](./support.md)
+Zie Ondersteuning voor Microsoft Managed Desktop voor meer informatie over gebruikersondersteuning met Microsoft Managed [Desktop.](support.md)
 
 ## <a name="availability-of-the-service"></a>Beschikbaarheid van de service
 
@@ -51,4 +48,3 @@ Organisaties in de volgende landen kunnen zich abonneren op Microsoft Managed De
 - Australië
 - Nieuw-Zeeland
 
-Zowel gebruikers als beheerders in deze regio's moeten Engels gebruiken voor hun apparaten en beheerhulpmiddelen.

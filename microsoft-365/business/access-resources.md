@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lees hoe u toegang krijgt tot on-premises resources, zoals zakelijke apps, bestandsaandelen en printers vanaf een Azure Active Directory-apparaat dat is aangesloten bij Windows 10.
-ms.openlocfilehash: b78509d72cbd9b3c121039c4965625bf5c21c7e0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1bca0beb3ccc78e670ad33ce446b9b3f7c372ba7
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913517"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445343"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>On-premises resources openen vanaf een azure AD-apparaat in Microsoft 365 Business Premium
 
@@ -64,3 +64,7 @@ Als het Windows-apparaat waar u Azure-AD deel van hebt gemaakt eerder is verbond
 - Gebruikers kunnen zich mogelijk niet verifiëren voor toepassingen die afhankelijk zijn van Active Directory-verificatie. Evalueer de oudere app en overweeg indien mogelijk bij te werken naar een app die gebruikmaakt van het moderne Auth.
 
 - Active Directory-printerdetectie werkt niet. U kunt directe printerpaden voor alle gebruikers bieden of Universeel [afdrukken gebruiken.](/universal-print/)
+
+### <a name="related-articles"></a>Verwante artikelen
+
+[Vereisten voor Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)

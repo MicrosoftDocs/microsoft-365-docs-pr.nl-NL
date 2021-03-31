@@ -16,12 +16,12 @@ ms.collection:
 description: Meer informatie over veilige documenten in Microsoft 365 E5 of Microsoft 365 E5-beveiliging.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1dc6c5dc54acd73b68fcd6241a270d2abdcc5c1
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 78ae99158e30046923d24897e7ab9b45adff31d0
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204312"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445394"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
@@ -31,7 +31,7 @@ ms.locfileid: "51204312"
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Veilige documenten is een functie in Microsoft 365 E5- of Microsoft 365 E5-beveiliging waarmee [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor Eindpunt wordt gebruikt om documenten en bestanden te scannen die worden geopend in de [beveiligde weergave.](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
+Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveiliging waarmee [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor Eindpunt wordt gebruikt om documenten en bestanden te scannen die [worden](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) geopend in de beveiligde weergave of Application Guard [voor Office.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -93,6 +93,12 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 ```
 
 Zie [Set-AtpPolicyForO365](/powershell/module/exchange/set-atppolicyforo365)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="onboard-to-the-microsoft-defender-for-endpoint-service-to-enable-auditing-capabilities"></a>Onboard to the Microsoft Defender for Endpoint Service to enable auditing capabilities
+
+Als u Microsoft Defender voor Eindpunt wilt implementeren, moet u de verschillende fasen van de implementatie doorlopen. Na onboarding kunt u auditfuncties configureren in het beveiligings- & compliancecentrum.
+
+Zie Onboard to the Microsoft Defender for Endpoint service (Onboard [to the Microsoft Defender for Endpoint service)](/microsoft-365/security/defender-endpoint/onboarding)voor meer informatie. Als u extra hulp nodig hebt, raadpleegt u Microsoft Defender oplossen voor problemen met de [onboarding van eindpunten.](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
 
 ### <a name="how-do-i-know-this-worked"></a>Hoe weet ik of dit heeft gewerkt?
 

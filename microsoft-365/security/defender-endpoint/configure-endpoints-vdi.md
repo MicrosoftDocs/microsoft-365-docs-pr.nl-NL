@@ -17,19 +17,19 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 167db9b5da841528e95f167b3af6a840b6c71eb4
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: bf1e706562db06064409cb7cf11441d048ef8db6
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165559"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445284"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 - VDI-apparaten (Virtual Desktop Infrastructure)
 - Windows 10, Windows Server 2019, Windows Server 2008R2/2012R2/2016
@@ -48,8 +48,11 @@ Er kunnen gekoppelde uitdagingen zijn bij het onboarden van VDIs. Hier volgen de
 
 VDI-apparaten kunnen als een van de volgende apparaten worden weergegeven in de Portal van Defender voor Eindpunt:
 
-- Eén invoer voor elk apparaat.  
-Houd er rekening mee dat in dit geval dezelfde *apparaatnaam* moet worden geconfigureerd wanneer de sessie wordt gemaakt, bijvoorbeeld met een onbeheerd antwoordbestand.
+- Eén invoer voor elk apparaat.
+
+  > [!NOTE]
+  > In dit geval moet *dezelfde* apparaatnaam worden geconfigureerd wanneer de sessie wordt gemaakt, bijvoorbeeld met een onbeheerd antwoordbestand.
+
 - Meerdere items voor elk apparaat: één voor elke sessie.
 
 De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren stappen voor enkele en meerdere items.
@@ -84,14 +87,15 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
    > [!NOTE]
    > Domeingroepsbeleid kan ook worden gebruikt voor onboarding van niet-permanente VDI-apparaten.
 
-4. Volg de juiste stappen, afhankelijk van de methode die u wilt implementeren: <br>
-   **Voor één invoer voor elk apparaat:**<br>
+4. Volg de juiste stappen, afhankelijk van de methode die u wilt implementeren:
+
+   - Voor één invoer voor elk apparaat:
    
-   Selecteer het **tabblad PowerShell-scripts** en klik vervolgens op Toevoegen **(Windows** Verkenner wordt rechtstreeks geopend in het pad waar u het onboarding-script eerder hebt gekopieerd). Navigeer naar onboarding PowerShell-script `Onboard-NonPersistentMachine.ps1` .
+     Selecteer het **tabblad PowerShell-scripts** en klik vervolgens op Toevoegen **(Windows** Verkenner wordt rechtstreeks geopend in het pad waar u het onboarding-script eerder hebt gekopieerd). Navigeer naar onboarding PowerShell-script `Onboard-NonPersistentMachine.ps1` . U hoeft het andere bestand niet op te geven, omdat het automatisch wordt geactiveerd.
    
-   **Voor meerdere vermeldingen voor elk apparaat:**
+   - Voor meerdere vermeldingen voor elk apparaat:
    
-   Selecteer het **tabblad Scripts** en klik vervolgens **op Toevoegen** (Windows Verkenner wordt rechtstreeks geopend in het pad waar u het onboarding-script eerder hebt gekopieerd). Ga naar het onboarding `WindowsDefenderATPOnboardingScript.cmd` bash-script.
+     Selecteer het **tabblad Scripts** en klik vervolgens **op Toevoegen** (Windows Verkenner wordt rechtstreeks geopend in het pad waar u het onboarding-script eerder hebt gekopieerd). Ga naar het onboarding `WindowsDefenderATPOnboardingScript.cmd` bash-script.
 
 5. Test uw oplossing:
 
@@ -103,8 +107,15 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
 
    1. Aanmelding bij apparaat met een andere gebruiker.
       
-   1. **Voor één vermelding voor elk apparaat:** Controleer slechts één item in het Microsoft Defender-beveiligingscentrum.<br>
-      **Voor meerdere items voor elk apparaat:** Controleer meerdere items in het Microsoft Defender-beveiligingscentrum.
+   1. Volg de juiste stappen, afhankelijk van de methode die u wilt implementeren:
+   
+      - Voor één invoer voor elk apparaat: 
+    
+        Controleer slechts één item in het Microsoft Defender-beveiligingscentrum.
+
+      - Voor meerdere vermeldingen voor elk apparaat: 
+       
+        Controleer meerdere items in het Microsoft Defender-beveiligingscentrum.
 
 6. Klik **op De lijst Apparaten** in het navigatiedeelvenster.
 
@@ -118,14 +129,14 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
 
 1. Registerwaarde instellen op:
 
-    ```reg
+    ```console
    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging]
     "VDI"="NonPersistent"
     ```
 
     of met opdrachtregel:
 
-    ```
+    ```console
     reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging" /v VDI /t REG_SZ /d "NonPersistent" /f
     ```
 

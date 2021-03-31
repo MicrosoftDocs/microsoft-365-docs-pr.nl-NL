@@ -1,20 +1,23 @@
 ---
 title: Werken met Microsoft Consulting Services
-description: voorbereidingen en stappen die u moet volgen om samen te werken met MCS om uw apps te verpakken
-keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie, apps, MCS, verpakking
+description: Voorbereidingen en stappen die u moet volgen om samen te werken met MCS om uw apps te verpakken
+keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
+f1.keywords:
+- NOCSH
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 04b0c7905c83be2afa46abcfb2d4bb5cd9735e06
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 1441ca3305a5f3e5a83ddd5e1547812f08d7d96b
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909224"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445694"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Werken met Microsoft Consulting Services
 
@@ -31,7 +34,7 @@ Als u wilt werken met mcs-app-verpakking, **moet u de volgende elementen leveren
 **MCS zorgt voor de volgende acties:**
 
 - Controleren of de app is verboden of beperkt in de Microsoft Managed Desktop-omgeving.
-- Testen van de installatie, het starten en verwijderen van de app om de compatibiliteit met Windows 10 te waarborgen. Als MCS een compatibiliteitsprobleem ontdekt, wordt de app door mcs overgehandigd aan het [programma Bureaublad-app Assure](/fasttrack/win-10-desktop-app-assure) voor herstel.
+- Testen van de installatie, het starten en verwijderen van de app om de compatibiliteit met Windows 10 te waarborgen. Als MCS een compatibiliteitsprobleem detecteert, wordt de app door mcs overgehandigd aan het [App Assure-programma](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure) voor herstel.
 - De app inpakken op uw specificatie en vervolgens app-implementatie testen met Microsoft Intune.
 
 ## <a name="app-delivery-schedule"></a>Planning voor app-bezorging

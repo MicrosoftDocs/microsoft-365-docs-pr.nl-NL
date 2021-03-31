@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Pre-work when moving from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter region.'
-ms.openlocfilehash: d05b3fc06c4530a69c49962b0d2b793353033c99
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: fb352c17d9868cf5c42034e198be63b6e0543dbb
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165607"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445600"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Pre-work for the migration from Microsoft Cloud Deutschland
 
@@ -50,7 +50,7 @@ Office 365-tenant- en gebruikersaanduidingen blijven behouden tijdens de migrati
 - Algemene verordening gegevensbescherming (AVG) Verzoeken om gegevensonderwerpen (DSR's) worden uitgevoerd vanuit de Azure Admin-portal voor toekomstige aanvragen. Oudere of niet-klant diagnostische gegevens die in Microsoft Cloud Deutschland zijn opgeslagen, worden verwijderd na of vóór 30 dagen verstreken.
 - Multi-factor authentication (MFA) requests that use Microsoft Authenticator display as the user ObjectID (a GUID) while the tenant is copied to Office 365 services. MFA-aanvragen worden volgens verwachting weergegeven, ondanks dit weergavegedrag.  Microsoft Authenticator-accounts die zijn geactiveerd met office 365-services-eindpunten, geven de gebruikersnaam (UPN) weer.  Accounts die zijn toegevoegd met Microsoft Cloud Deutschland-eindpunten, geven de gebruiker ObjectID weer, maar werken met zowel Microsoft Cloud Deutschland- als Office 365-services-eindpunten.
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Bereid u voor om gebruikers op de hoogte te stellen van het opnieuw opstarten en aanmelden bij hun clients na de migratie. | Office-clientlicenties worden tijdens de migratie overgeslagen van Microsoft Cloud Deutschland naar Office 365-services. Klanten halen een nieuwe geldige licentie op nadat ze zich hebben aanmelden bij Office-clients. | Office-producten van gebruikers moeten licenties vernieuwen vanuit Office 365-services. Als licenties niet worden vernieuwd, kunnen er fouten optreden bij het valideren van licenties voor Office-producten. |
 | Zorg voor netwerkconnectiviteit [met URL's en IP-adressen van Office 365-services.](https://aka.ms/o365urls) | Alle clients en services die worden gehost door de klant die worden gebruikt om toegang te krijgen tot office 365-service, moeten toegang hebben tot de eindpunten voor globale services van Office 365. <br>Als u of uw samenwerkingspartners firewallregels hebben die verhinderen dat de URL's en IP-adressen worden gebruikt die worden vermeld in URL's en IP-adressen van [Office 365-services,](https://aka.ms/o365urls) moeten de firewallregels worden gewijzigd om toegang te krijgen tot de eindpunten van de globale service van Office 365| Fouten van de service- of clientsoftware kunnen optreden als dit niet vóór fase 4 gebeurt  |
@@ -93,7 +93,7 @@ De stappen voor [ADFS-migratie lezen en toepassen](ms-cloud-germany-transition-a
 **Van toepassing op**: Klanten die on-premises SharePoint 2013 gebruiken<br>
 **Wanneer toegepast:** Op elk moment voordat fase 4 begint
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Beperk SharePoint 2013-werkstromen, die worden gebruikt tijdens de SharePoint Online-migratie. | Verminder SharePoint 2013-werkstromen en voltooi werkstromen tijdens de vlucht vóór overgangen. | Actie kan leiden tot verwarring bij gebruikers en helpdeskgesprekken. |
 ||||
@@ -105,7 +105,7 @@ De stappen voor [ADFS-migratie lezen en toepassen](ms-cloud-germany-transition-a
 **Is van toepassing op**: Exchange Online-klanten die de ruimte voor het delen van agenda en beschikbaarheid hebben ingeschakeld<br>
 **Wanneer toegepast**: Op elk moment vóór het einde van fase 9
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Informeer externe partners over de aanstaande overgang naar Office 365-services. | Met configuraties voor beschikbaarheidsadresruimte kunt u gratis/bezet informatie delen met Office 365. | Als u dit niet doet, kan dit leiden tot een service- of clientfout in een latere fase van de klantmigratie. |
 ||||
@@ -113,11 +113,14 @@ De stappen voor [ADFS-migratie lezen en toepassen](ms-cloud-germany-transition-a
 ### <a name="exchange-online-hybrid-configuration"></a>Hybride configuratie van Exchange Online
 
 **Van toepassing op:** Alle klanten die een actieve hybride Exchange-configuratie gebruiken met on-premises Exchange-servers<br>
-**Wanneer toegepast:** Op elk moment voordat fase 5 begint
+**Wanneer toegepast:** Op elk moment voordat fase 5 wordt gestart
 
-| Stap(en) | Beschrijving | Gevolg |
+Enterprise-klanten met een hybride implementatie van Exchange Online en een on-premises Exchange Server voeren de wizard Hybride configuratie (HCW) uit om de hybride installatie te onderhouden en tot stand te brengen. Wanneer de beheerder overstapt van Microsoft Cloud Deutschland naar de Regio Office 365 Duitsland, moet de beheerder de nieuwste build van HCW opnieuw uitvoeren in de modus 'Office 365 Germany' voordat de Exchange-migratie (fase 5) begint. Voer vervolgens de HCW opnieuw uit in de modus 'Office 365 Worldwide' na voltooiing van fase 5 om de on-premises implementatie te voltooien met de office 365 Duitsland-regio-instellingen.
+
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
-| Werk op elk gewenst moment bij naar de nieuwste versie van de wizard Hybride configuratie (HCW) voordat uw tenant de migratiefase 5 in gaat. U kunt deze activiteit direct starten nadat u de melding van het berichtencentrum hebt ontvangen dat de migratie van uw Office 365-tenant is gestart (fase 1).<br>Uw Exchange-beheerder moet eerdere versies van de HCW verwijderen en vervolgens de nieuwste versie (17.0.5378.0 of hoger) installeren en uitvoeren vanuit [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) . |<ul><li>De nieuwste versie van de HCW bevat benodigde updates ter ondersteuning van de Exchange Online-migratie van het exemplaar Microsoft Cloud Deutschland naar Office 365 Global Services.</li><li> Updates zijn onder andere wijzigingen in de on-premises certificaatinstellingen voor de _connector_ Verzenden en _de Connector Ontvangen._</li><li>Wanneer u de HCW vóór fase 5 uitvoert, selecteert u 'Office 365 Germany' op de 2e pagina van de HCW onder _Office 365 Exchange Online_ in de keuzelijst onder Mijn Office _365-organisatie wordt_ gehost door</li><li>**OPMERKING:** Nadat uw Office 365-tenantmigratie na fase 9 is voltooid, verwijdert en installeert u de HCW opnieuw, ditmaal met behulp van de instellingen voor Office 365 Worldwide op de 2e pagina van de HCW om uw hybride installatie te voltooien met de globale Exchange Online-service.</li></ul>|Het niet uitvoeren van de HCW vóór fase 5 (Exchange-migratie) kan leiden tot service- of clientfout. |
+| (Pre-Stage 5) - HCW opnieuw uitvoeren met office 365 Duitsland-instellingen <br><br> <i>U kunt deze activiteit direct starten nadat u de melding van het berichtencentrum hebt ontvangen dat de migratie van uw Office 365-tenant is gestart (fase 1).</i>| Het verwijderen en opnieuw uitvoeren van HCW (17.0.5378.0 of hoger) van vóór fase 5 zorgt ervoor dat uw on-premises configuratie is voorbereid om e-mail te verzenden en te ontvangen met zowel Microsoft Cloud Deutschland-gebruikers als gebruikers die zijn gemigreerd naar [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) Office 365 Germany-regio. <p><li> Selecteer office 365 Germany in de HCW voor de keuzelijst onder **Mijn Office 365-organisatie** wordt gehost door **, office 365 Duitsland.** | Als u deze taak niet voltooit voordat fase 5 [Exchange-migratie] begint, kan dit leiden tot NDR's voor e-mail die wordt gerouteerd tussen uw on-premises Exchange-implementatie en Office 365.  
+| (Post-Stage 5) - HCW opnieuw uitvoeren met office 365 Worldwide-instellingen <br><br> <i>U kunt deze activiteit starten nadat u de melding van het berichtencentrum hebt ontvangen dat uw Exchange-migratie is voltooid (fase 5).</i>| Als U HCW na fase 5 verwijdert en opnieuw gebruikt, wordt de on-premises configuratie voor hybride configuratie opnieuw ingesteld met alleen [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) globale Office 365-configuratie. <p><li> Selecteer In de keuzelijst **onder Mijn Office 365-organisatie wordt gehost door**, **selecteert u Office 365 Worldwide**. | Als u deze taak niet vóór Fase 9 [Migratie voltooid] voltooit, kan dit leiden tot NDR's voor e-mail die wordt gerouteerd tussen uw on-premises Exchange-implementatie en Office 365.  
 | On-premises AuthServer maken die verwijst naar de globale BEVEILIGINGS-tokenservice (STS) voor verificatie | Dit zorgt ervoor dat verificatieaanvragen voor Beschikbaarheidsaanvragen voor Exchange van gebruikers in de migratietoestand die zich richten op de hybride on-premises omgeving, worden geverifieerd om toegang te krijgen tot de on-premises service. Op dezelfde manier zorgt dit voor verificatie van aanvragen van on-premises naar Office 365 Global Services-eindpunten. | Nadat Azure AD-migratie (fase 2) is voltooid, moet de beheerder van de on-premises Exchange-topologie (hybride) een nieuw eindpunt voor verificatieservice toevoegen voor de globale Office 365-services. Met deze opdracht van Exchange PowerShell vervangt u de tenant-id van uw organisatie in de `<TenantID>` Azure-portal in Azure Active Directory.<br>`New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantId>/metadata/json/1`<br> Als u deze taak niet voltooit, kan dit ertoe leiden dat hybride vrije-drukke aanvragen geen informatie verstrekken voor postvakgebruikers die zijn gemigreerd van Microsoft Cloud Deutschland naar Office 365-services.  |
 ||||
 
@@ -128,7 +131,7 @@ De stappen voor [ADFS-migratie lezen en toepassen](ms-cloud-germany-transition-a
 **Van toepassing op**: Klanten van Skype voor Bedrijven Online<br>
 **Wanneer toegepast:** Op elk moment voordat fase 7 begint
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Teams-bureaubladclient implementeren voor gebruikers die Skype voor Bedrijven in Duitsland openen. | Migratie verplaatst Skype voor Bedrijven-gebruikers naar Microsoft Teams voor samenwerking, bellen en chatten. Implementeer de bureaubladclient van Microsoft Teams of zorg ervoor dat er een ondersteunde browser beschikbaar is. | Niets doen resulteert in het niet beschikbaar zijn van microsoft Teams-samenwerkingsservices. |
 | Controleer en bereid u voor op migratiegerelateerde DNS-wijzigingen. | Wijzigingen in de DNS-zone van klanten voor Skype voor Bedrijven Online. |<ul><li>U wordt aangeraden de Time-to-Live (TTL) voor dns-records van een klant bij te werken tot 5 minuten om het vernieuwen van DNS-records te versnellen. De door Microsoft beheerde cutover die aan deze DNS-wijziging is gekoppeld, kan echter op elk gewenst moment plaatsvinden binnen het opgegeven wijzigingsvenster van 24 uur. </li><li>Serviceonderbreking is mogelijk in de toekomst. Gebruikers kunnen zich niet aanmelden bij Skype voor Bedrijven en worden omgeleid naar de gemigreerde Teams-ervaring in de Office 365-services. </li></ul>|
@@ -141,7 +144,7 @@ De stappen voor [ADFS-migratie lezen en toepassen](ms-cloud-germany-transition-a
 **Van toepassing op:** Klanten die een MDM-oplossing (Mobile Device Management) van derden gebruiken<br>
 **Wanneer toegepast:** Op elk moment voordat fase 5 begint
 
-| Stap(en) | Beschrijving | Van toepassing op | Gevolg |
+| Stap(en) | Omschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 | Bereid training voor eindgebruikers en beheer voor over gebruikers die hun account verwijderen en opnieuw toevoegen aan Microsoft Outlook voor iOS en Android. | Microsoft Outlook voor iOS- en Android-accounts die zijn geconfigureerd met postvakken in Microsoft Cloud Deutschland, moeten mogelijk opnieuw worden verwijderd en toegevoegd aan Outlook om de nieuwe Configuratie van Office 365-services correct te synchroniseren. | Microsoft Outlook voor iOS- en Android-klanten | Outlook-postvakken die eerder zijn geconfigureerd voor Microsoft Cloud Deutschland, kunnen de nieuwe Configuratie van Office 365 Services mogelijk niet gebruiken, wat leidt tot fouten en slechtere prestaties van andere gebruikerservaringen. IT-beheerders worden aangeraden documentatie te verstrekken die gebruikers proactief instrueert hun accounts te verwijderen en opnieuw toe te voegen aan Microsoft Outlook voor iOS en Android als er na de migratie problemen optreden met het aanmelden of synchroniseren van e-mail. |
 | Bepaal of een herconfiguratie vereist is na de migratie. | MDM-oplossingen (Mobile Device Management) kunnen `outlook.de` eindpunten targeten. In deze overgang naar Office 365 Services moeten clientprofielen worden bijgewerkt naar de URL van de Office 365-services, `outlook.office365.com` . | Exchange Online- en MDM-klanten | Clients kunnen blijven functioneren terwijl het eindpunt toegankelijk is, maar ze mislukken als `outlook.de` Microsoft Cloud Deutschland-eindpunten niet meer beschikbaar zijn. |
@@ -154,7 +157,7 @@ De stappen voor [ADFS-migratie lezen en toepassen](ms-cloud-germany-transition-a
 
 Als u een lob-apps (Service of Line-of-Business) van derden gebruikt die zijn geïntegreerd met Office 365, moet u eventuele afhankelijkheden van eindpunten oplossen die worden geleverd door het exemplaar microsoft Cloud Deutschland. Als uw LOB-apps bijvoorbeeld verbinding maken met , moet u `https://graph.microsoft.de/` het eindpunt wijzigen in `https://graph.microsoft.com/` . De eindpunten van de globale Microsoft Office 365-service zijn beschikbaar voor uw tenant na fase 2.
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Bepaal of een herconfiguratie vereist is na de migratie. | Services en toepassingen van derden die zijn geïntegreerd met Office 365, kunnen worden gecodeerd om IP-adressen en URL's van Microsoft Cloud Deutschland te verwachten. | Vereiste actie. Een actie kan leiden tot fouten in de service- of clientsoftware. |
 ||||
@@ -163,7 +166,7 @@ Als u een lob-apps (Service of Line-of-Business) van derden gebruikt die zijn ge
 
 **Van toepassing op**: Klanten die Microsoft Dynamics 365 gebruiken
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Voor Dynamics 365 sandbox-abonnementen moet u de productieomgeving van het SQL-exemplaar Dynamics downloaden van uw Dynamics 365-abonnement in Microsoft Cloud Deutschland. De nieuwste productieback-up moet worden hersteld naar de sandbox voordat de sandbox wordt gemigratied. | Voor de migratie van Dynamics 365 moeten klanten ervoor zorgen dat de Sandbox-omgeving wordt vernieuwd met de nieuwste productiedatabase. | Het FastTrack-team helpt klanten bij het uitvoeren van dry runs om de versie-upgrade te valideren van 8.x naar 9.1.x. |
 ||||
@@ -172,7 +175,7 @@ Als u een lob-apps (Service of Line-of-Business) van derden gebruikt die zijn ge
 
 **Van toepassing op**: Klanten die Power BI gebruiken
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Objecten verwijderen uit Power BI-abonnementen die niet worden gemigreerd van Power BI Microsoft Cloud Deutschland naar Office 365-services. | Migratie van Power BI-services vereist actie van de klant om bepaalde artefacten te verwijderen, zoals gegevenssets en dashboards. | <ul><li>Beheerders moeten mogelijk de volgende items uit hun abonnement verwijderen: </li><li>Real-Time gegevenssets (bijvoorbeeld streaming- of pushsets) </li><li>Configuratie en gegevensbron van Power BI on-premises Data Gateway </li></ul>|
 ||||
@@ -186,7 +189,7 @@ Als u dezelfde Azure Active Directory-identiteitspartitie voor Office 365 en Mic
 
 Klanten die Gebruikmaken van Office 365- en Azure-resources (bijvoorbeeld netwerken, berekeningen en opslag) voeren de migratie van resources naar het office 365-services-exemplaar uit. Deze migratie is de verantwoordelijkheid van de klant. Berichten in het Berichtencentrum geven het startsignaal. De migratie moet zijn voltooid voordat de Azure AD-organisatie is voltooid in de Office 365-servicesomgeving. Voor Azure-migraties, zie de Azure-migratie playbook, [Overzicht van migratie-richtlijnen voor Azure Germany.](https://docs.microsoft.com/azure/germany/germany-migration-main)
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Bepaal welke Azure-services worden gebruikt en bereid u voor op toekomstige migratie van Duitsland naar de Office 365-services tenant door samen met uw partners te werken. Volg de stappen die worden beschreven in de [Azure-migratie playbook](/azure/germany/germany-migration-main). |<ul><li>Migratie van Azure-resources is een verantwoordelijkheid van de klant en vereist handmatige inspanning volgens de voorgeschreven stappen. Inzicht in de services die in de organisatie worden gebruikt, is essentieel voor een succesvolle migratie van Azure-services. </li><li> Office 365 Germany-klanten met Azure-abonnementen onder dezelfde identiteitspartitie (organisatie) moeten de door Microsoft voorgeschreven volgorde volgen wanneer ze kunnen beginnen met de migratie van abonnementen en services.</li></ul>|<ul><li>Klanten hebben mogelijk meerdere Azure-abonnementen, elk abonnement met infrastructuur, services en platformonderdelen. </li><li> Beheerders moeten abonnementen en belanghebbenden identificeren om ervoor te zorgen dat snelle migratie en validatie mogelijk is als onderdeel van deze migratiegebeurtenis. </li><li>Als de migratie van deze abonnementen en Azure-onderdelen binnen de voorgeschreven tijdlijn niet is voltooid, is dit van invloed op de voltooiing van de Office- en Azure AD-overgang naar Office 365-services en kan dit leiden tot gegevensverlies. </li><li> Een berichtcentrummelding geeft aan op welk punt de migratie door de klant kan beginnen. </li></ul>|
 ||||

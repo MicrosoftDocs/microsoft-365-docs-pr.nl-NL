@@ -1,18 +1,23 @@
 ---
 title: Nieuwe apparaten zelf registreren
 description: Registreer apparaten zelf zodat ze kunnen worden beheerd door Microsoft Managed Desktop
-ms.prod: w10
+keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
+ms.service: m365-md
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
-ms.localizationpriority: medium
-ms.openlocfilehash: 8dc9412de7b682c34a48ae64b676e4b0313dea35
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
+manager: laurawi
+ms.topic: article
+audience: Admin
+ms.openlocfilehash: 3aff3bdc1260e9aa2a23760020aeabd71d6b28fd
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920678"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445576"
 ---
 # <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
@@ -91,7 +96,7 @@ Ga als volgt te werk:
 
 U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogelijke staten die daar zijn gerapporteerd, zijn:
 
-| Status | Beschrijving |
+| Status | Omschrijving |
 |---------------|-------------|
 | Registratie in behandeling | Registratie is nog niet klaar. Controleer het later opnieuw. |
 | Registratie is mislukt | Registratie kan niet worden voltooid. Raadpleeg [Apparaatregistratie oplossen voor](#troubleshooting-device-registration) meer informatie. |

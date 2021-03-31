@@ -18,19 +18,19 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 56645553c43289995012d53d7caf879874e65c8a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 56a62ca4ebbd140f507d1735c663924014ca4771
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186927"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445730"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>Onboard to the Microsoft Defender for Endpoint service
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -40,7 +40,7 @@ Meer informatie over de verschillende fasen van de implementatie van Microsoft D
 
 Het implementeren van Defender voor Eindpunt is een proces in drie fasen:
 
-| [![implementatiefase - voorbereiden](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Fase 1: Voorbereiden](prepare-deployment.md) | [![implementatiefase - installatie](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Fase 2: Setup](production-deployment.md) | ![implementatiefase - onboard](images/phase-diagrams/onboard.png)<br>Fase 3: Onboard |
+| [![implementatiefase - voorbereiden](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Fase 1: Voorbereiden](prepare-deployment.md) | [![implementatiefase - installatie](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Fase 2: Instellen](production-deployment.md) | ![implementatiefase - onboard](images/phase-diagrams/onboard.png)<br>Fase 3: Onboarden |
 | ----- | ----- | ----- |
 | | |*U bent er!*|
 
@@ -86,8 +86,8 @@ Nadat u de eindpunten hebt onboarding, configureert u vervolgens de verschillend
 In deze implementatiehandleiding begeleiden we u bij het gebruik van twee implementatiehulpmiddelen voor het onboarden van eindpunten en het configureren van mogelijkheden.
 
 De hulpprogramma's in de voorbeeldimplementaties zijn:
-- [Onboarding met Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
-- [Onboarding met Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Onboarden met behulp van Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
+- [Onboarden met behulp van Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
 
 Met behulp van de bovenstaande implementatiehulpmiddelen wordt u begeleid bij het configureren van de volgende Mogelijkheden van Defender voor Eindpunt:
 - Configuratie van eindpuntdetectie en -antwoord
@@ -95,5 +95,6 @@ Met behulp van de bovenstaande implementatiehulpmiddelen wordt u begeleid bij he
 - Surface Reduction-configuratie voor aanvallen
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Onboarding met Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
-- [Onboarding met Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Onboarden met behulp van Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
+- [Onboarden met behulp van Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Veilige documenten in Microsoft 365 E5](../office-365-security/safe-docs.md)

@@ -19,12 +19,12 @@ description: Gebruik Explorer- en realtimedetecties in het Beveiligings complian
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f48bad9d8ae6fc6d68ae27a655f4bdfdefd819d0
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 47bb14b90a94d0c8b542b12268bd6d5ed6e5c05a
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204481"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445718"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigingsverkenner en realtimedetecties
 
@@ -58,7 +58,7 @@ Met dit rapport kunt u het volgende doen:
 Als u vandaag van een waarschuwing naar Threat Explorer navigeert, wordt er een gefilterde weergave geopend in de Verkenner, met de weergave gefilterd op waarschuwingsbeleids-id (beleids-id is een unieke id voor een waarschuwingsbeleid).
 We maken deze integratie relevanter door de waarschuwings-id (zie een voorbeeld van waarschuwings-id hieronder) in Threat Explorer en real-time detecties te introduceren, zodat u berichten ziet die relevant zijn voor de specifieke waarschuwing, evenals een aantal e-mailberichten. U kunt ook zien of een bericht deel uitmaakte van een waarschuwing en van dat bericht naar de specifieke waarschuwing navigeren.  
 
-Waarschuwings-id is beschikbaar in de URL wanneer u een afzonderlijke waarschuwing bekijkt. een voorbeeld `https://protection.office.com/viewalerts?id=372c9b5b-a6c3-5847-fa00-08d8abb04ef1`
+Waarschuwings-id is beschikbaar in de URL wanneer u een afzonderlijke waarschuwing bekijkt. een voorbeeld `https://protection.office.com/viewalerts?id=372c9b5b-a6c3-5847-fa00-08d8abb04ef1` is.
 
 > [!div class="mx-imgBorder"]
 > ![Filteren op waarschuwings-id](../../media/AlertID-Filter.png)
@@ -177,7 +177,6 @@ Momenteel komen we de bezorgingslocatie boven in het e-mailraster en de e-mail f
 > - Er komen nieuwe velden en waarden voor **detectietechnologieën** en **Aanvullende acties** (met name voor ZAP-scenario's). U moet uw bestaande opgeslagen query's en bijgeslagen query's evalueren om ervoor te zorgen dat ze met de nieuwe waarden werken.
 
 > [!div class="mx-imgBorder"]
-
 > ![Extra acties in Explorer](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>Systeem overschrijven
@@ -185,9 +184,13 @@ Momenteel komen we de bezorgingslocatie boven in het e-mailraster en de e-mail f
 *Met systeemonderschrijven* kunt u uitzonderingen maken op de gewenste bezorgingslocatie van een bericht. U overschrijven de bezorgingslocatie die door het systeem wordt geleverd, op basis van de bedreigingen en andere detecties die zijn geïdentificeerd door de filtertack. Systeem overschrijven kan worden ingesteld via tenant- of gebruikersbeleid om het bericht te verzenden zoals wordt voorgesteld door het beleid. Bij overschrijven kunnen onbedoelde bezorging van schadelijke berichten worden vastgesteld vanwege hiaten in configuraties, zoals een te breed beleid voor veilige afzenders dat door een gebruiker is ingesteld. Deze overschrijven waarden kunnen de volgende zijn:
 
 - Toegestaan door gebruikersbeleid: een gebruiker maakt beleid op postvakniveau om domeinen of afzenders toe te laten.
+
 - Geblokkeerd door gebruikersbeleid: een gebruiker maakt beleid op het e-mailvakniveau om domeinen of afzenders te blokkeren.
+
 - Toegestaan door organisatiebeleid: de beveiligingsteams van de organisatie stellen beleidsregels of Exchange-regels voor e-mailstroom (ook wel transportregels genoemd) in om afzenders en domeinen toe te staan voor gebruikers in hun organisatie. Dit kan voor een set gebruikers of de hele organisatie zijn.
+
 - Geblokkeerd door organisatiebeleid: de beveiligingsteams van de organisatie stellen beleidsregels of e-mailstroomregels in om afzenders, domeinen, berichttalen of bron-IPs te blokkeren voor gebruikers in hun organisatie. Dit kan worden toegepast op een set gebruikers of de hele organisatie.
+
 - Bestandsextensie geblokkeerd door organisatiebeleid: Het beveiligingsteam van een organisatie blokkeert een bestandsnaamextensie via de anti-malwarebeleidsinstellingen. Deze waarden worden nu weergegeven in e-maildetails om te helpen bij onderzoeken. Secops-teams kunnen ook de functie voor uitgebreide filtering gebruiken om te filteren op geblokkeerde bestandsextensies.
 
 [![Systeem overschrijven in Explorer](../../media/System_Overrides.png)](../../media/System_Overrides.png#lightbox)
@@ -233,7 +236,8 @@ U kunt nu sorteren en filteren op systeem- of aangepaste gebruikerslabels om sne
 > [!IMPORTANT]
 > Filteren en sorteren op gebruikerslabels is momenteel in een openbaar voorbeeld. Deze functionaliteit kan aanzienlijk worden gewijzigd voordat deze commercieel wordt uitgebracht. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de informatie die erover wordt verstrekt.
 
-![Kolom tags in Explorer](../../media/threat-explorer-tags.png)
+> [!div class="mx-imgBorder"]
+> ![Kolom tags in Explorer](../../media/threat-explorer-tags.png)
 
 ### <a name="timezone-improvements"></a>Tijdzoneverbeteringen
 
@@ -282,21 +286,20 @@ Als onderdeel van gegevensverrijking kunt u alle verschillende Exchange-transpor
 
 U kunt zowel de GUID als de naam zien van de transportregels die op het bericht zijn toegepast. U kunt de berichten zoeken met de naam van de transportregel. Dit is een zoekopdracht 'Bevat', wat betekent dat u ook gedeeltelijke zoekopdrachten kunt doen.
 
-#### <a name="important-note"></a>Belangrijke opmerking:
-
-De beschikbaarheid van ETR-zoekopdrachten en -namen is afhankelijk van de specifieke rol die aan u is toegewezen. U moet een van de volgende rollen/machtigingen hebben om de ETR-namen en zoekopdrachten weer te geven. Als u geen van deze rollen aan u hebt toegewezen, kunt u de namen van de transportregels niet zien of berichten zoeken met ETR-namen. U kunt echter wel het ETR-label en de GUID-informatie zien in de e-mailgegevens. Andere ervaringen met het weergeven van records in e-mailrasters, e-mail flyouts, Filters en Export worden niet beïnvloed.
-
-- ALLEEN EXO - Preventie van gegevensverlies: alles
-- ALLEEN EXO - O365SupportViewConfig: Alles
-- Microsoft Azure Active Directory of EXO - Beveiligingsbeheerder: alles
-- AAD of EXO - Beveiligingslezer: Alles
-- ALLEEN EXO - Transportregels: Alles
-- ALLEEN EXO - View-Only Configuratie: Alles
-
-In het e-mailraster, de flyout Details en de geëxporteerde CSV worden de ETR's weergegeven met een Naam/GUID zoals hieronder wordt weergegeven.
-
-> [!div class="mx-imgBorder"]
-> ![Exchange-transportregels](../../media/ETR_Details.png)
+> [!IMPORTANT]
+> De beschikbaarheid van ETR-zoekopdrachten en -namen is afhankelijk van de specifieke rol die aan u is toegewezen. U moet een van de volgende rollen/machtigingen hebben om de ETR-namen en zoekopdrachten weer te geven. Als u geen van deze rollen aan u hebt toegewezen, kunt u de namen van de transportregels niet zien of berichten zoeken met ETR-namen. U kunt echter wel het ETR-label en de GUID-informatie zien in de e-mailgegevens. Andere ervaringen met het weergeven van records in e-mailrasters, e-mail flyouts, Filters en Export worden niet beïnvloed.
+> 
+> - ALLEEN EXO - Preventie van gegevensverlies: alles
+> - ALLEEN EXO - O365SupportViewConfig: Alles
+> - Microsoft Azure Active Directory of EXO - Beveiligingsbeheerder: alles
+> - AAD of EXO - Beveiligingslezer: Alles
+> - ALLEEN EXO - Transportregels: Alles
+> - ALLEEN EXO - View-Only Configuratie: Alles
+> 
+> In het e-mailraster, de flyout Details en de geëxporteerde CSV worden de ETR's weergegeven met een Naam/GUID zoals hieronder wordt weergegeven.
+> 
+> > [!div class="mx-imgBorder"]
+> > ![Exchange-transportregels](../../media/ETR_Details.png)
 
 ### <a name="inbound-connectors"></a>Binnenkomende verbindingslijnen
 
@@ -334,18 +337,23 @@ In dit voorbeeld wordt Threat Explorer gebruikt.
 
 4. Selecteer het onderwerp van een bericht onder het tabblad E-mail > tabblad Details om aanvullende imitatiegegevens te zien, zoals Imiteerde domein/gedetecteerde locatie.
 
-5. **OF** Selecteer **Imiteerde gebruiker** en typ het e-mailadres van een beveiligde gebruiker in het tekstvak.
+    **OF** 
 
-6. Selecteer het **onderwerp** van een bericht **onder** het tabblad Details van e-mail om aanvullende imitatiegegevens te zien over de gebruiker of het domein en de  >   *gedetecteerde locatie.*
+    Selecteer **Imiteerde gebruiker** en typ het e-mailadres van een beveiligde gebruiker in het tekstvak.
 
-:::image type="content" source="../../media/threat-ex-views-impersonated-user-image.png" alt-text="Het detailvenster Bedreigingsverkenner voor een beveiligde gebruiker met de detectielocatie en de gedetecteerde bedreiging (hier phish imitatie van een gebruiker).":::
+    > [!TIP]
+    > **Gebruik volledige e-mailadressen** *om* beveiligde gebruikers te doorzoeken voor de beste resultaten. U vindt uw beveiligde gebruiker sneller en succesvoller als u zoekt naar *firstname.lastname@contoso.com,* bijvoorbeeld bij het onderzoeken van gebruikersremitatie. Bij het zoeken naar een beveiligd domein wordt het hoofddomein (bijvoorbeeld contoso.com) en de domeinnaam *(contoso) gebruikt.* Als u zoekt naar het *hoofddomein contoso.com* u zowel imitaties van contoso.com *als* de domeinnaam *contoso.*
 
-> [!TIP]
-> **Gebruik volledige e-mailadressen** *om* beveiligde gebruikers te doorzoeken voor de beste resultaten. U vindt uw beveiligde gebruiker sneller en succesvoller als u zoekt naar *firstname.lastname@contoso.com,* bijvoorbeeld bij het onderzoeken van gebruikersremitatie. Bij het zoeken naar een beveiligd domein wordt het hoofddomein (bijvoorbeeld contoso.com) en de domeinnaam *(contoso) gebruikt.* Als u zoekt naar het *hoofddomein contoso.com* u zowel imitaties van contoso.com *als* de domeinnaam *contoso.*
+5. Selecteer het **onderwerp** van een bericht **onder** het tabblad Details van e-mail om aanvullende imitatiegegevens te zien over de gebruiker of het domein en de  >   *gedetecteerde locatie.*
+
+    :::image type="content" source="../../media/threat-ex-views-impersonated-user-image.png" alt-text="Het detailvenster Bedreigingsverkenner voor een beveiligde gebruiker met de detectielocatie en de gedetecteerde bedreiging (hier phish imitatie van een gebruiker).":::
+
+> [!NOTE]
+> Als u in stap 3  of 5  detectietechnologie  kiest en respectievelijk Imitatiedomein of Imitatiegebruiker selecteert, worden de gegevens op het tabblad E-mail details over de gebruiker of het domein en de gedetecteerde locatie alleen weergegeven op de berichten die zijn gerelateerd aan de gebruiker of het domein die worden vermeld op de  >   *pagina Anti-Phishingbeleid.*  
 
 ### <a name="preview-email-header-and-download-email-body"></a>Voorbeeld van e-mailkoptekst bekijken en e-mailtekst downloaden
 
-U kunt nu een voorbeeld van een e-mailkop bekijken en de hoofdtekst van de e-mail downloaden in Threat Explorer-beheerders kunnen gedownloade kopteksten/e-mailberichten analyseren op bedreigingen. Omdat het downloaden van e-mailberichten de blootstelling van informatie kan risico's met zich mee brengen, wordt dit proces bepaald door RBAC (Role-Based Access Control). Een nieuwe rol, *Preview,* moet worden toegevoegd aan een andere rollengroep (zoals Beveiligingsbewerkingen of Beveiligingsbeheerder) om e-mailberichten te kunnen downloaden in de weergave Alle e-mailberichten. Het weergeven van e-mailkoptekst vereist echter geen extra rol (anders dan wat nodig is om berichten weer te geven in Threat Explorer).
+U kunt nu een voorbeeld van een e-mailkop bekijken en de hoofdtekst van de e-mail downloaden in Threat Explorer. Beheerders kunnen gedownloade kopteksten/e-mailberichten analyseren op bedreigingen. Omdat het downloaden van e-mailberichten de blootstelling van informatie kan risico's met zich mee brengen, wordt dit proces bepaald door RBAC (Role-Based Access Control). Een nieuwe rol, *Preview,* moet worden toegevoegd aan een andere rollengroep (zoals Beveiligingsbewerkingen of Beveiligingsbeheerder) om e-mailberichten te kunnen downloaden in de weergave Alle e-mailberichten. Het weergeven van de e-mailkoptekst vereist echter geen extra rol (anders dan wat nodig is om berichten weer te geven in Threat Explorer).
 
 Explorer- en realtimedetecties krijgen ook nieuwe velden die een vollediger beeld geven van waar uw e-mailberichten terecht komen. Met deze wijzigingen kunt u gemakkelijker op zoek gaan naar Beveiligingsops. Maar het belangrijkste resultaat is dat u de locatie van probleem-e-mailberichten in één oogopslag weet.
 

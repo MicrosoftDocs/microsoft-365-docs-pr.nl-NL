@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d8b68e6b6dc42de5730aa634386406d4762b1fa2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0d9e63c5d89b13b02dfcf116c1555c8db319d23f
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163681"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445362"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-atp"></a>Waarschuwingsmeldingen configureren in MICROSOFT Defender ATP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-emailconfig-abovefoldlink)
@@ -51,9 +51,9 @@ De e-mailmelding bevat basisinformatie over de waarschuwing en een koppeling naa
 U kunt regels maken om de ernst van de apparaten en waarschuwingen te bepalen voor het verzenden van e-mailmeldingen voor en de geadresseerden van de melding.
 
 
-1. Selecteer in het navigatiedeelvenster **Meldingen**  >  **van waarschuwingsinstellingen**.
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **E-mailmeldingen**.
 
-2. Klik **op Meldingsregel toevoegen.**
+2. Klik **op Item toevoegen.**
 
 3. Geef de algemene gegevens op:
     - **Regelnaam:** geef een naam op voor de meldingsregel.
