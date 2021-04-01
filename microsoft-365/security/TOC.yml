@@ -90,7 +90,7 @@
           items:
             - name: Overzicht
               href: defender/get-started.md
-            - name: Microsoft Threat Protection inschakelen
+            - name: Microsoft 365 Defender inschakelen
               href: defender/m365d-enable.md
             - name: Ondersteunde services implementeren
               href: defender/deploy-supported-services.md
@@ -140,6 +140,12 @@
                       href: defender/investigate-users.md
                 - name: E-mailmeldingen krijgen
                   href: defender/get-incident-notifications.md
+            - name: Microsoft Threat Experts
+              items:
+                - name: Overzicht van Microsoft Threat Experts
+                  href: mtp/microsoft-threat-experts.md
+                - name: Mogelijkheden van Microsoft Threat Experts configureren en beheren
+                  href: mtp/configure-microsoft-threat-experts.md
             - name: Geautomatiseerd onderzoek en reactie
               items:
                 - name: Overzicht van geautomatiseerd onderzoek en reactie
@@ -422,7 +428,7 @@
             - name: Standaard beveiligen
               href: ./office-365-security/secure-by-default.md
             - name: Anti-phishingbeleid configureren in Defender voor Office 365
-              href: ./office-365-security/configure-atp-anti-phishing-policies.md
+              href: ./office-365-security/configure-mdo-anti-phishing-policies.md
             - name: Beleid tegen malware configureren
               href: ./office-365-security/configure-anti-malware-policies.md
             - name: Beleid tegen ongewenste e-mail configureren

@@ -390,6 +390,7 @@
 ## Verwijzing
 ### [Beheer en API's]()
 #### [Overzicht van beheer en API's](management-apis.md)
+#### [API-release opmerkingen](api-release-notes.md)
 #### [API voor Microsoft Defender voor Eindpunt]()
 ##### [Aan de slag]()
 ###### [Licentie en voorwaarden voor API voor Microsoft Defender voor Eindpunt](api-terms-of-use.md)
@@ -586,6 +587,5 @@
 ##### [Netwerkbeveiliging](troubleshoot-np.md)
 ##### [Regels voor het verminderen van kwetsbaarheid voor aanvallen](troubleshoot-asr.md)
 
-# [Microsoft 365-beveiliging](../index.yml)
-# [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+# [Microsoft 365 Defender](../index.yml)
 # [Defender voor Office 365](../office-365-security/overview.md)
