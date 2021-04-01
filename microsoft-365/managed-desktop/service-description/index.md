@@ -4,16 +4,20 @@ description: Overzicht van de inhoud van Microsoft Managed Desktop als service
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+f1.keywords:
+- NOCSH
 ms.author: jaimeo
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c51ebdbcd2a8d6d13f5ba0009d470581e317a365
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: a107c6364e6766094724972e931606003e0c87f7
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920430"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445194"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Servicebeschrijving van Microsoft Managed Desktop
 
@@ -23,7 +27,7 @@ Microsoft Managed Desktop is een service die uw gebruikers een veilige, moderne 
 - Configuratie van apparaten
 - Functies om gebruikers en apparaten te beveiligen, inclusief Windows Hello, BitLocker, SecureBoot en beveiliging op basis van virtualisatie volgens de aanbevolen procedures van Microsoft
 - Beveiligingscontrole- en herstelservices voor apparaten
-- App-compatibiliteit via [Desktop App Assure](/fasttrack/win-10-desktop-app-assure)
+- App-compatibiliteit via [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)
 - Updatemanagement voor Windows 10-apps en Microsoft 365-apps voor ondernemingen
 - Analytische gegevens over apparaat- en app-gebruik
 - IT-ondersteuning voor uw gebruikers
@@ -31,7 +35,7 @@ Microsoft Managed Desktop is een service die uw gebruikers een veilige, moderne 
 
 Zie de andere artikelen in dit gedeelte voor meer informatie over de specifieke services die zijn opgenomen in Microsoft Managed Desktop. Als je al hebt besloten dat je Microsoft Managed Desktop wilt gebruiken, worden in de artikelen in [Bereid je voor op de registratie van Microsoft Managed Desktop](../get-ready/index.md) de voorbereidingsstappen uiteengezet voor het toetreden tot de service.
 
-- [Ondersteunde regio‘s en talen in Microsoft Managed Desktop](regions-languages.md) geeft informatie over de regio‘s en talen die door de service worden ondersteund.
+- [Ondersteunde regio‘s en talen](regions-languages.md) geeft informatie over de regio‘s en talen die door de service worden ondersteund.
 - Om de beste ervaring voor uw gebruikers te garanderen, worden alleen bepaalde apparaten ondersteund in Microsoft Managed Desktop. [Programma-apparaten](device-list.md) geeft precies aan welke apparaatmodellen en -configuraties u met de service kunt gebruiken, of u ze nu zelf verstrekt of met een partner werkt.
 - [Apparaatservices](device-services.md) geeft aan welke apparaat-gerelateerde services door Microsoft worden verstrekt aan abonnees.
 - [Apparaatconfiguratie](device-policies.md) verduidelijkt het standaard en beveiligingsbeleid van Mobile Device Management dat de service toepast op geregistreerde apparaten.
