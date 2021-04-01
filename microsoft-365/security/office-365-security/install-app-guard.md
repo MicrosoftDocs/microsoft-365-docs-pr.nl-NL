@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 description: De nieuwste informatie over isolatie op hardwarebasis. Voorkomen dat huidige en nieuwe aanvallen, zoals exploits of schadelijke koppelingen, de productiviteit van werknemers en de beveiliging van het bedrijf verstoren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c066805bc21a941673fd1157dc87bd95bcd2c711
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d0fa6ad884c6b21457c8359cf82e32e4b8c100ba
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203973"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488309"
 ---
 # <a name="application-guard-for-office-for-admins"></a>Application Guard voor Office voor beheerders
 
@@ -40,10 +40,11 @@ Microsoft Defender Application Guard voor Office (Application Guard voor Office)
 ### <a name="minimum-software-requirements"></a>Minimale softwarevereisten
 
 * **Windows 10**: Windows 10 Enterprise edition, Client Build versie 2004 (20H1) build 19041 of hoger
-* **Office:** Office Current Channel Build versie 2011 16.0.13530.10000 of hoger. Zowel 32-bits als 64-bits versies van Office worden ondersteund.
+* **Office:** Office Current-kanaal en Monthly Enterprise-kanaal, build versie 2011 16.0.13530.10000 of hoger. Zowel 32-bits als 64-bits versies van Office worden ondersteund.
 * **Updatepakket**: Cumulatieve maandelijkse beveiligingsupdate van Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
 
-Zie Systeemvereisten voor Microsoft Defender Application Guard voor gedetailleerde [systeemvereisten.](/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard) Zie Overzicht van updatekanalen voor [Microsoft 365](/deployoffice/overview-update-channels)voor meer informatie over office-updatekanalen.
+Zie Systeemvereisten voor Microsoft Defender Application Guard voor gedetailleerde [systeemvereisten.](/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard) Raadpleeg ook de handleidingen van de computerfabrikant over het inschakelen van virtualisatietechnologie.
+Zie Overzicht van updatekanalen voor [Microsoft 365](/deployoffice/overview-update-channels)voor meer informatie over office-updatekanalen.
 
 ### <a name="licensing-requirements"></a>Licentievereisten
 
@@ -76,6 +77,9 @@ Zie Systeemvereisten voor Microsoft Defender Application Guard voor gedetailleer
 4. Start het systeem opnieuw.
 
 ### <a name="set-diagnostics--feedback-to-send-full-data"></a>Diagnostische gegevens & om volledige gegevens te verzenden
+
+> [!NOTE]
+> Dit is niet vereist, maar het configureren van optionele diagnostische gegevens helpt bij het opsporen van gerapporteerde problemen.
 
 Deze stap zorgt ervoor dat de gegevens die nodig zijn om problemen te identificeren en op te lossen, microsoft bereiken. Volg de volgende stappen om diagnostische gegevens in te stellen op uw Windows-apparaat:
 
@@ -115,12 +119,14 @@ Wanneer het bestand wordt geopend, moet het een paar visuele indicatoren weergev
 
 ## <a name="configure-application-guard-for-office"></a>Application Guard configureren voor Office
 
-Office ondersteunt het volgende beleid, zodat u de mogelijkheden van Application Guard voor Office kunt configureren. Dit beleid kan worden geconfigureerd via groepsbeleidsregels of via de Office-cloudbeleidsservice.
+Office ondersteunt het volgende beleid, zodat u de mogelijkheden van Application Guard voor Office kunt configureren. Dit beleid kan worden geconfigureerd via groepsbeleid of via de [Office-cloudbeleidsservice.](/DeployOffice/overview-office-cloud-policy-service)
+Zie configuratie die is ingesteld door uw beheerder door groepsbeleidsinstellingen te bekijken in Beheersjablonen voor gebruikersconfiguratie  **\\ Microsoft Office \\ 2016 \\ Beveiligingsinstellingen Trust Center Application \\ \\ Guard**.
+
 
 > [!NOTE]
 > Als u dit beleid configureert, kunnen bepaalde functionaliteiten worden uitgeschakeld voor bestanden die zijn geopend in Application Guard voor Office.
 
-|Beleid|Beschrijving|
+|Beleid|Omschrijving|
 |---|---|
 |Application Guard voor Office niet gebruiken|Als u dit beleid inschakelen, worden Word, Excel en PowerPoint gedwongen de isolatiecontainer Beveiligde weergave te gebruiken in plaats van Application Guard voor Office. Dit beleid kan worden gebruikt om Application Guard voor Office tijdelijk uit te schakelen wanneer er problemen zijn bij het inschakelen van het beleid voor Microsoft Edge.|
 |Application Guard voor Office-container configureren vóór het maken|Met dit beleid wordt bepaald of de container Application Guard voor Office, voor het isoleren van niet-vertrouwde bestanden, vooraf is gemaakt voor verbeterde run-time prestaties. Als u deze instelling inschakelen, kunt u het aantal dagen opgeven om door te gaan met het vooraf maken van een container of de ingebouwde heuristische Office-container vooraf laten maken.
@@ -183,13 +189,15 @@ U kunt ook feedback verzenden vanuit Office als het probleem zich voordeed wanne
 
 Application Guard voor Office is geïntegreerd met Microsoft Defender voor Eindpunt om te controleren en te waarschuwen voor schadelijke activiteiten die zich in de geïsoleerde omgeving voordeden.
 
+[Veilige documenten in Microsoft E365 E5](/microsoft-365/security/office-365-security/safe-docs) is een functie waarmee Microsoft Defender voor Eindpunt wordt gebruikt om documenten te scannen die zijn geopend in Application Guard voor Office. Voor een extra beveiligingslaag kunnen gebruikers Application Guard pas verlaten als de resultaten van de scan zijn vastgesteld.
+
 Microsoft Defender for Endpoint is een beveiligingsplatform dat is ontworpen om bedrijfsnetwerken te helpen geavanceerde bedreigingen te voorkomen, te detecteren, te onderzoeken en erop te reageren. Zie Microsoft Defender voor Eindpunt voor meer informatie over [dit platform.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) Zie Onboard devices to the Microsoft Defender for Endpoint service (Onboard [devices to the Microsoft Defender for Endpoint service)](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure)voor meer informatie over onboarding-apparaten voor dit platform.
 
 U kunt ook Microsoft Defender voor Office 365 configureren voor gebruik met Defender voor Eindpunt. Zie Defender voor [Office 365](integrate-office-365-ti-with-mde.md)integreren met Microsoft Defender voor eindpunt voor meer informatie.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
-* Application Guard voor Office is een beperkte modus die niet-vertrouwde documenten isoleert, zodat ze geen toegang hebben tot vertrouwde bedrijfsresources, een intranet, de identiteit van de gebruiker en willekeurige bestanden op de computer. Als een gebruiker toegang probeert te krijgen tot een functie die afhankelijk is van dergelijke toegang, bijvoorbeeld door een afbeelding vanuit een lokaal bestand op schijf in te voegen, mislukt de toegang en wordt een prompt zoals in het volgende voorbeeld gemaakt. Als u een niet-vertrouwd document toegang wilt geven tot vertrouwde bronnen, moeten gebruikers de beveiliging van Application Guard uit het document verwijderen.
+* Application Guard voor Office is een beveiligde modus die niet-vertrouwde documenten isoleert, zodat ze geen toegang hebben tot vertrouwde bedrijfsresources, een intranet, de identiteit van de gebruiker en willekeurige bestanden op de computer. Als een gebruiker toegang probeert te krijgen tot een functie die afhankelijk is van dergelijke toegang, bijvoorbeeld door een afbeelding vanuit een lokaal bestand op schijf in te voegen, mislukt de toegang en wordt een prompt zoals in het volgende voorbeeld gemaakt. Als u een niet-vertrouwd document toegang wilt geven tot vertrouwde bronnen, moeten gebruikers de beveiliging van Application Guard uit het document verwijderen.
 
   ![Dialoogvenster waarin staat dat deze functie niet beschikbaar is om u te helpen uw veiligheid te bewaren](../../media/ag10-limitations.png)
 
@@ -227,4 +235,5 @@ Wanneer aan deze heuristische wordt voldaan, maakt Office vooraf een Application
 
 * Als u `http` webkoppelingen (of `https` ) selecteert, wordt de browser niet geopend.
 * Het is op dit moment niet mogelijk om inhoud (RTF) of afbeeldingen in Office-documenten die met Application Guard zijn geopend, te kopiëren.
-* Updates voor .NET zorgen ervoor dat bestanden niet worden geopend in Application Guard. Als tijdelijke oplossing kunnen gebruikers hun apparaat opnieuw opstarten wanneer ze deze fout zien. Meer informatie over het probleem bij Het ontvangen van een foutbericht bij het openen van [Windows Defender Application Guard of Windows Sandbox.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)
+* De standaardinstelling voor niet-ondersteunde bestandstypenbeveiligingsbeleid is het blokkeren van het openen van niet-vertrouwde niet-ondersteunde bestandstypen IRM, CSV of HTML.
+* Updates voor .NET kunnen ertoe leiden dat bestanden niet worden geopend in Application Guard. Als tijdelijke oplossing kunnen gebruikers hun apparaat opnieuw opstarten wanneer ze deze fout zien. Meer informatie over het probleem bij Het ontvangen van een foutbericht bij het openen van [Windows Defender Application Guard of Windows Sandbox.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)

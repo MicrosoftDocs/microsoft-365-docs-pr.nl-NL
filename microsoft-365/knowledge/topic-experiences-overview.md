@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Overzicht van Viva Topics.
-ms.openlocfilehash: 68a88e74a674a7bbc290ae0e8f88bfbe0277d910
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4598c47b07287789a7a194914232799de5ca7b85
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917378"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488155"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva Topics 
 
@@ -99,7 +99,7 @@ Zie [Onderwerpen beheren in het onderwerpcentrum](manage-topics.md) voor meer in
 
 ## <a name="admin-controls"></a>Beheerdersinstellingen
 
-Met beheerdersinstellingen in het Microsoft 365-beheercentrum kun je je kennisnetwerk beheren. Hiermee kan een globale beheerder of SharePoint-beheerder van Microsoft 365 het volgende doen:
+Met beheerbesturingselementen in het Microsoft 365-beheercentrum kunt u Viva-onderwerpen beheren. Hiermee kan een globale beheerder of SharePoint-beheerder van Microsoft 365 het volgende doen:
 
 - Bepalen welke gebruikers in uw organisatie onderwerpen mogen zien op moderne SharePoint-pagina's of in zoekresultaten van SharePoint.
 - Bepalen welke SharePoint-sites worden verkend om onderwerpen te identificeren.

@@ -1,5 +1,5 @@
 ---
-title: Onboard Windows 10 multi-session devices in Windows Virtual Desktop
+title: Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie)
 description: Lees meer in dit artikel over Onboarding Windows 10 multi-session devices in Windows Virtual Desktop
 keywords: Windows Virtual Desktop, WVD, microsoft defender, eindpunt, onboard
 search.product: eADQiWindows 10XVcnh
@@ -13,24 +13,20 @@ ms.topic: article
 author: dansimp
 ms.author: dansimp
 ms.custom: nextgen
-ms.date: 09/10/2020
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: bfd447120e171fed063b3224e3a47c2ef38f0f16
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 3f925fdc514c5e53b50f748d991f54d20fb49bd0
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222609"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488143"
 ---
-# <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboard Windows 10 multi-session devices in Windows Virtual Desktop 
+# <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie) 
 6 minuten om te lezen 
 
 Van toepassing op: 
 - Windows 10 multi-session running on Windows Virtual Desktop (WVD) 
-
-> [!WARNING]
-> Microsoft Defender voor endpoint-ondersteuning voor scenario's met meerdere sessies voor Windows Virtual Desktop is momenteel beschikbaar in Preview en beperkt tot 25 gelijktijdige sessies per host/VM. Scenario's voor één sessie op Windows Virtual Desktop worden echter volledig ondersteund.
 
 Microsoft Defender voor Eindpunt ondersteunt het controleren van zowel VDI- als Windows Virtual Desktop-sessies. Afhankelijk van de behoeften van uw organisatie, moet u mogelijk VDI- of Windows Virtual Desktop-sessies implementeren om uw werknemers toegang te geven tot bedrijfsgegevens en apps vanaf een niet-beheerd apparaat, externe locatie of vergelijkbaar scenario. Met Microsoft Defender voor Eindpunt kunt u deze virtuele machines controleren op afwijkende activiteiten.
 

@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a8ab1ba1f0dc1bb629e438380b7b77e1ed221f08
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 16f0d96b75ec7035ca133f75a83df1f284ee5c4b
+ms.sourcegitcommit: 847b0920016ae20c82a0501bda6019cd940482df
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186027"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51484742"
 ---
 # <a name="web-content-filtering"></a>Filteren van webinhoud
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
@@ -60,7 +60,7 @@ Voor een gebruiksvriendelijkere in-browserervaring kunt u microsoft Edge gebruik
 
 Voordat u deze functie uit probeert, moet u de volgende vereisten hebben:
 
-- Windows 10 Enterprise E5-licentie OF Microsoft 365 E3 + Microsoft 365 E5-beveiligingsuitvoeging.
+- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5-beveiliging, Microsoft 365 E3 + Microsoft 365 E5-beveiligingsuitvoeging of de zelfstandige licentie voor Microsoft Defender voor Eindpunt. 
 - Toegang tot microsoft Defender-beveiligingscentrumportal
 - Apparaten met Windows 10 Jubileumupdate (versie 1607) of hoger met de nieuwste MoCAMP-update.
 
@@ -160,9 +160,11 @@ Gebruik het tijdbereikfilter linksboven op de pagina om een periode te selectere
 
 - Niet-toegewezen apparaten bevatten onjuiste gegevens in het rapport. In de rapportdetails > draait u mogelijk een rij met een leeg veld Apparaatgroep. Deze groep bevat uw niet-toegewezen apparaten voordat ze in de opgegeven groep worden gezet. Het rapport voor deze rij bevat mogelijk geen nauwkeurig aantal apparaten of toegangstellingen.
 
+- Rapporten voor webinhoudsfilters zijn momenteel beperkt tot het weergeven van de 5000 beste records. In het rapport 'Domeinen' wordt bijvoorbeeld alleen een maximum van de bovenste 5000 domeinen voor een bepaalde filterquery, indien van toepassing, gegeven. 
+
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van webbeveiliging](web-protection-overview.md)
-- [Beveiliging tegen bedreigingen op het web](web-threat-protection.md)
-- [Webbeveiliging controleren](web-protection-monitoring.md)
+- [Overzicht webbeveiliging](web-protection-overview.md)
+- [Webbedreigingsbeveiliging](web-threat-protection.md)
+- [Webbeveiliging monitoren](web-protection-monitoring.md)
 - [Reageren op webbedreigingen](web-protection-response.md)

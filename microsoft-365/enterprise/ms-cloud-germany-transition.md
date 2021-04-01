@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Samenvatting: Inzicht in de migratie van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 18df7c43e21fb186dee56dabc29a67654f0f6882
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7e170967e1670433a7d28753430f0cb15818039b
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923766"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476635"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Migratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacenterregio's
 
@@ -63,9 +63,9 @@ Office 365 Video wordt op 1 maart 2021 ingetrokken. Als u ervoor kiest om uw Off
 
 ## <a name="how-is-the-migration-organized"></a>Hoe wordt de migratie georganiseerd?
 
-In deze afbeelding ziet u de negen fasen van de migratie naar de nieuwe Duitse datacenters.
+In deze afbeelding ziet u de tien fasen van de migratie naar de nieuwe Duitse datacenters.
 
-![De negen fasen van de migratie naar de nieuwe Datacenters van Duitsland](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+![De tien fasen van de migratie naar de nieuwe Datacenters van Duitsland](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
 
 Deze fasen beginnen wanneer [u zich aant voor migratie.](./ms-cloud-germany-migration-opt-in.md) De meeste migratiefasen worden uitgevoerd als back-endservicebewerkingen met minimale interactie tussen klanten en worden de ene fase na de andere uitgevoerd. Het begin van extra taken onder leiding van de klant en de algehele migratiestatus worden tijdens het migratieproces gecommuniceerd via het Berichtencentrum van het Microsoft 365-beheercentrum. Voorbeeld van taken: door klanten beheerde DNS-updates, herconfiguratie van hybride installatie voor hybride Exchange-klanten of Azure-migratie.
 
@@ -93,6 +93,8 @@ U wordt op de hoogte gesteld van de voortgang van de migratie met berichten in h
 - Dynamics voltooid
 - Power BI voltooid
 - De laatste cutover van services is voltooid
+
+Na de laatste cutover van Azure AD naar de wereldwijde service, wordt verwacht dat alle clients en toepassingen volledig worden overgeboekt om de juiste eindpunten te gebruiken. Er is een venster van 30 dagen na de laatste cutover waarin het mogelijk is om Azure AD-tokens te blijven verkrijgen bij de Microsoft Cloud Deutschland-service. Wanneer het venster van 30 dagen verloopt, hebben clients en toepassingen geen toegang meer tot de Azure AD-eindpunten van Microsoft Cloud Deutschland. Toepassingen of gebruikerstoegang mislukt vanaf dit punt. U moet ervoor zorgen dat alle gebruikers en toepassingen naar de juiste eindpunten worden gemigreerd voordat dit tijdvenster wordt gesloten. 
 
 ## <a name="moving-to-the-new-german-datacenter-regions"></a>Naar de nieuwe Duitse datacenterregio's gaan
 
