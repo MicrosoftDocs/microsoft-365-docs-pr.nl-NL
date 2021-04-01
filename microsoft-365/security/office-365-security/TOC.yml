@@ -95,7 +95,7 @@
         - name: Standaard beveiligen
           href: secure-by-default.md
         - name: Anti-phishingbeleid configureren in Defender voor Office 365
-          href: configure-atp-anti-phishing-policies.md
+          href: configure-mdo-anti-phishing-policies.md
         - name: Beleid tegen malware configureren
           href: configure-anti-malware-policies.md
         - name: Beleid tegen ongewenste e-mail configureren
