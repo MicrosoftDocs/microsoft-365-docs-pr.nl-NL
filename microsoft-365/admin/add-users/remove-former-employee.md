@@ -25,22 +25,15 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Volg deze controlelijst om een werknemer uit Microsoft 365 te verwijderen en gegevens te beveiligen. '
-ms.openlocfilehash: 2372056cd6bee2387842c74dc2a35d71b88fae9e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d67ac65f4f3e6600b942b4f7d56826da35735b5c
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904394"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470867"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>Een voormalige werknemer verwijderen of verwijderen
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-  
 ## <a name="sign-out-now"></a>Nu afmelden.
 
 ::: moniker range="o365-worldwide"

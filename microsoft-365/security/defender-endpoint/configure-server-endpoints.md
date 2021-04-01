@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5013d94277eeba7d1df100d2850cb950fe2e0742
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 1757160b37500e97586fbb6dfb16d81303bc54e4
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379347"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476479"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Windows-servers aan boord van de Microsoft Defender voor Eindpunt-service
 
@@ -204,7 +204,7 @@ De volgende mogelijkheden zijn opgenomen in deze integratie:
 - Geautomatiseerde onboarding- Defender voor eindpunten-sensor wordt automatisch ingeschakeld op Windows-servers die zijn onboarded bij Azure Security Center. Zie [Onboarding to Azure Security Center Standard for enhanced security (Onboarding to Azure Security Center Standard for enhanced security)](https://docs.microsoft.com/azure/security-center/security-center-onboarding)voor meer informatie over onboarding van Azure Security Center.
 
     > [!NOTE]
-    > Geautomatiseerde onboarding is alleen van toepassing Windows Server 2008 R2 SP1, Windows Server 2012 R2 en Windows Server 2016.
+    > De integratie tussen Azure Defender voor servers en Microsoft Defender voor Eindpunt is uitgebreid met ondersteuning voor [Windows Server 2019 en Windows Virtual Desktop (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
 
 - Windows-servers die worden gecontroleerd door Azure Security Center, zijn ook beschikbaar in Defender voor Eindpunt- Azure Security Center maakt naadloos verbinding met de Defender for Endpoint-tenant, met één weergave voor clients en servers.  Daarnaast zijn defender voor eindpuntwaarschuwingen beschikbaar in de Azure Security Center-console.
 - Serveronderzoek: klanten van het Azure Security Center hebben toegang tot het Microsoft Defender-beveiligingscentrum om gedetailleerd onderzoek uit te voeren om het bereik van een mogelijke inbreuk te achterhalen.
@@ -283,8 +283,8 @@ Als u de Windows-server wilt uitschakelen, kunt u een van de volgende methoden g
 <br>
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Onboard Windows 10-apparaten](configure-endpoints.md)
-- [Onboard niet-Windows-apparaten](configure-endpoints-non-windows.md)
-- [Instellingen voor proxy- en internetverbinding configureren](configure-proxy-internet.md)
+- [Onboarden Windows 10-apparaten](configure-endpoints.md)
+- [Onboarden niet-Windows-apparaten](configure-endpoints-non-windows.md)
+- [Proxy- en internetconnectiviteitsinstellingen configureren](configure-proxy-internet.md)
 - [Een detectietest uitvoeren op een nieuw ingebouwde Defender voor eindpuntapparaat](run-detection-test.md)
 - [Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen](troubleshoot-onboarding.md)

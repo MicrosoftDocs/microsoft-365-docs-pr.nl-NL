@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 044a3d48dc350a5663a27ab3c16c2da7a5e3f3f1
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: a9e75441a8c4a336e8c657d27330c118fcac4788
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379442"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476303"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Handmatige implementatie voor Microsoft Defender voor Eindpunt voor macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -119,7 +119,7 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
 
 1. Kopieer wdav.pkg en MicrosoftDefenderATPOnboardingMacOs.py naar het apparaat waar u Microsoft Defender voor Eindpunt voor macOS implementeert.
 
-    Het clientapparaat is niet gekoppeld aan orgId. Houd er rekening mee *dat het orgId-kenmerk* leeg is.
+    Het clientapparaat is niet gekoppeld aan org_id. Het *kenmerk* org_id is leeg.
 
     ```bash
     mdatp health --field org_id
@@ -131,23 +131,96 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
     /usr/bin/python MicrosoftDefenderATPOnboardingMacOs.py
     ```
 
-3. Controleer of het apparaat nu is gekoppeld aan uw organisatie en rapporteer een geldige *orgId:*
+3. Controleer of het apparaat nu is gekoppeld aan uw organisatie en meldt een geldige organisatie-id:
 
     ```bash
     mdatp health --field org_id
     ```
 
-Na de installatie ziet u het Microsoft Defender-pictogram in de statusbalk van macOS in de rechterbovenhoek.
+    Na de installatie ziet u het Microsoft Defender-pictogram in de statusbalk van macOS in de rechterbovenhoek.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Microsoft Defender-pictogram in schermafbeelding van statusbalk](images/mdatp-icon-bar.png)
 
-   ![Microsoft Defender-pictogram in schermafbeelding van statusbalk](images/mdatp-icon-bar.png)
-   
 
 ## <a name="how-to-allow-full-disk-access"></a>Volledige schijftoegang toestaan
 
 > [!CAUTION]
 > macOS 10.15 (Catalina) bevat nieuwe beveiligings- en privacyverbeteringen. Vanaf deze versie hebben toepassingen standaard geen toegang tot bepaalde locaties op schijf (zoals Documenten, Downloads, Bureaublad, enzovoort) zonder expliciete toestemming. Bij afwezigheid van deze toestemming kan Microsoft Defender voor Eindpunt uw apparaat niet volledig beveiligen.
 
-Als u toestemming wilt verlenen, opent u Systeemvoorkeuren -> Beveiliging & Privacy -> Privacy -> Volledige schijftoegang. Klik op het vergrendelingspictogram om wijzigingen aan te brengen (onder aan het dialoogvenster). Selecteer Microsoft Defender voor Eindpunt.
+1. Als u toestemming wilt verlenen, opent u **Systeemvoorkeuren**  >  **Beveiliging & Privacy**  >  **Privacy** Full  >  **Disk Access**. Klik op het vergrendelingspictogram om wijzigingen aan te brengen (onder aan het dialoogvenster). Selecteer Microsoft Defender voor Eindpunt.
+
+2. Voer een AV-detectietest uit om te controleren of het apparaat correct is onboarded en rapporteert aan de service. Voer de volgende stappen uit op het nieuwe onboarded-apparaat:
+
+    1. Zorg ervoor dat realtimebeveiliging is ingeschakeld (aangegeven met een resultaat van 1 als u de volgende opdracht kunt uitvoeren):
+
+        ```bash
+        mdatp health --field real_time_protection_enabled
+        ```
+
+    1. Open een terminalvenster. Kopieer en voer de volgende opdracht uit:
+
+        ```bash
+        curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
+        ```
+
+    1. Het bestand had in quarantaine moeten zijn geplaatst door Defender voor Eindpunt voor Mac. Gebruik de volgende opdracht om alle gedetecteerde bedreigingen op te geven:
+
+        ```bash
+        mdatp threat list
+        ```
+
+3. Voer een EDR-detectietest uit om te controleren of het apparaat correct is onboarded en rapporteert aan de service. Voer de volgende stappen uit op het nieuwe onboarded-apparaat:
+
+   1. In uw browser, zoals Microsoft Edge voor Mac of Safari.
+
+   1. Download MDATP MacOS DIY.zip en https://aka.ms/mdatpmacosdiy haal deze uit.
+
+      Mogelijk wordt u gevraagd:
+
+      > Wilt u downloads toestaan op 'mdatpclientanalyzer.blob.core.windows.net'?<br/>
+      > U kunt wijzigen welke websites bestanden kunnen downloaden in Websitesvoorkeuren.
+
+4. Klik **op Toestaan.**
+
+5. Download **openen.**
+
+6. U ziet **MDATP MacOS DIY**.
+
+   > [!TIP]
+   > Als u dubbelklikt, krijgt u het volgende bericht:
+   > 
+   > > **'MDATP MacOS DIY' kan niet worden geopend omdat de ontwikkelaar niet kan worden geverifieerd.**<br/>
+   > > macOS kan niet controleren of deze app vrij is van malware.<br/>
+   > > **\[ Naar Prullenbak \]** **\[ annuleren gaan \]** 
+  
+7. Klik op **Cancel**.
+
+8. Klik met de rechtermuisknop **op MDATP MacOS DIY** en klik vervolgens op **Openen.** 
+
+    In het systeem moet het volgende bericht worden weergegeven:
+
+    > **macOS kan de ontwikkelaar van **MDATP MacOS DIY niet verifiëren.** Weet u zeker dat u het wilt openen?**<br/>
+    > Door deze app te openen, overteert u de systeembeveiliging, waardoor uw computer en persoonlijke gegevens kunnen worden blootstellen aan malware die uw Mac kan schaden of uw privacy in gevaar kan brengen.
+
+10. Klik **op Openen.**
+
+    In het systeem moet het volgende bericht worden weergegeven:
+
+    > Microsoft Defender ATP - macOS EDR DIY-testbestand<br/>
+    > De bijbehorende waarschuwing is beschikbaar in de MDATP-portal.
+
+11. Klik **op Openen.**
+
+    In een paar minuten moet een waarschuwing met de naam 'macOS EDR Test Alert' worden verhoogd.
+
+12. Ga naar Microsoft Defender Security Center ( https://SecurityCenter.microsoft.com) .
+
+13. Ga naar de waarschuwingswachtrij.
+
+    :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="Voorbeeld van een macOS EDR-testmelding met ernst, categorie, detectiebron en een samengevouwen menu met acties.":::
+    
+    Bekijk de details van de waarschuwing en de tijdlijn van het apparaat en voer de normale onderzoeksstappen uit.
 
 ## <a name="logging-installation-issues"></a>Installatieproblemen met logboekregistratie
 

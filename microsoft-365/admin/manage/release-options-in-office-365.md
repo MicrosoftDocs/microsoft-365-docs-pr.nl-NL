@@ -22,21 +22,14 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functiesupdates in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: e909cdf35ba9dd8282540783f7c362e5ae49212e
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 6c5d505f0ece47b0a47df8b7ed1dc015afe93e82
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034077"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470569"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>De opties Standaard of Targeted Release instellen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 > [!IMPORTANT]
 > De microsoft 365-updates die in dit artikel worden beschreven, zijn van toepassing op Microsoft 365, SharePoint Online en Exchange Online. Deze releaseopties zijn doelgerichte manieren om wijzigingen in Microsoft 365 vrij te geven, maar kunnen niet altijd of voor alle updates worden gegarandeerd. Ze zijn niet van toepassing op Microsoft 365-apps, Skype voor Bedrijven, Microsoft Teams en gerelateerde services. Zie Overzicht van updatekanalen voor Microsoft 365-apps voor informatie over releaseopties voor [Microsoft 365-apps.](/deployoffice/overview-update-channels)

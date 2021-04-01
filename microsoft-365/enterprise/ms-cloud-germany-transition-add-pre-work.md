@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Pre-work when moving from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter region.'
-ms.openlocfilehash: fb352c17d9868cf5c42034e198be63b6e0543dbb
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 9f5a38eae6d42f992879f97b8e8e1e8e6c4d56c3
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445600"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476347"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Pre-work for the migration from Microsoft Cloud Deutschland
 
@@ -102,12 +102,13 @@ De stappen voor [ADFS-migratie lezen en toepassen](ms-cloud-germany-transition-a
 
 <!-- before phase 5 -->
 
-**Is van toepassing op**: Exchange Online-klanten die de ruimte voor het delen van agenda en beschikbaarheid hebben ingeschakeld<br>
+**Van toepassing op**: Klanten van Exchange Online<br>
 **Wanneer toegepast**: Op elk moment vóór het einde van fase 9
 
 | Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
-| Informeer externe partners over de aanstaande overgang naar Office 365-services. | Met configuraties voor beschikbaarheidsadresruimte kunt u gratis/bezet informatie delen met Office 365. | Als u dit niet doet, kan dit leiden tot een service- of clientfout in een latere fase van de klantmigratie. |
+| Informeer externe partners over de aanstaande overgang naar Office 365-services. |  Klanten moeten hun partners op de hoogte stellen met wie ze de configuratie voor het delen van agenda- en beschikbaarheidsadressen hebben ingeschakeld (toestaan dat gratis/bezet informatie wordt gedeeld met Office 365). Beschikbaarheidsconfiguratie moet overstappen om de wereldwijde eindpunten van [Office 365 te](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) gebruiken wanneer de Exchange Online-migratie is voltooid. | Als u dit niet doet, kan dit leiden tot een service- of clientfout in een latere fase van de klantmigratie. |
+| Gebruikers op de hoogte stellen van vereiste wijzigingen in de IMAP4/POP3/SMTP-client. | Gebruikers die apparaatverbindingen hebben met Microsoft Cloud Deutschland-eindpunten voor clientprotocollen IMAP4, POP3, SMTP, zijn verplicht hun clientapparaten handmatig bij te werken om over te schakelen naar de [wereldwijde Office 365-eindpunten.](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) | Communiceer deze afhankelijkheid vooraf aan gebruikers van deze protocollen en zorg ervoor dat ze tijdens deze migratie overstappen naar Outlook Mobile of de webversie van Outlook. Het niet bijwerken van client-eindpunten resulteert in fouten in de clientverbinding met Microsoft Cloud Deutschland wanneer gebruikerspostvakken worden gemigreerd. |
 ||||
 
 ### <a name="exchange-online-hybrid-configuration"></a>Hybride configuratie van Exchange Online

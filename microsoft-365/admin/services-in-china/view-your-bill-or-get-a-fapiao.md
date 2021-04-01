@@ -21,17 +21,14 @@ search.appverid:
 ms.assetid: c29d38b5-53a6-4bd9-b7aa-ce12c902da83
 description: Bekijk uw factuuroverzicht of factuur over uw Office 365 beheerd door 21Vianet in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: aa6a83f7054488b4e8944010a24341daeb83c690
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cf12a74a612cbdce366d7e3528a9aefaa0849ee0
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914292"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470903"
 ---
 # <a name="view-your-bill-or-get-a-fapiao-in-office-365-operated-by-21vianet"></a>Uw factuur bekijken of een Fapiao krijgen in Office 365 beheerd door 21Vianet
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 U kunt uw factuuroverzicht of factuur bekijken voor informatie over uw Office 365 beheerd door 21Vianet-abonnementskosten. U kunt ook een Fapiao verkrijgen (uw laatste aankoopbewijs). U kunt uw Fapiao-aanvraag ongeveer drie dagen nadat u hebt betaald, indienen bij ons [Fapiao-beheersysteem.](https://go.microsoft.com/fwlink/p/?linkid=837465) 
   

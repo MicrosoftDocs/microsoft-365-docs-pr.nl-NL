@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Maak verbinding met je Microsoft 365-tenant via PowerShell voor Microsoft 365 om Beheercentrum-taken vanaf de opdrachtregel uit te voeren.
-ms.openlocfilehash: 58af42958e9b50ee8e39cbd7bd5aab53812e444c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 08005ba1cbdcbfec14585d22614129a9b33352b9
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919174"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445754"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Verbinding maken met Microsoft 365 met PowerShell
 
@@ -84,7 +84,20 @@ Deze stappen hoef je maar één keer uit te voeren op je computer. Maar waarschi
     Install-Module -Name AzureAD
     ```
 
-   Als je wordt gevraagd een module te installeren vanuit een niet-vertrouwde opslagplaats, typ je **Y** en druk je op Enter.
+  PowerShell Gallery (PSGallery) is niet geconfigureerd als vertrouwde opslagplaats voor **PowerShellGet**. De eerste keer dat u PSGallery gebruikt, ziet u het volgende bericht:
+
+```console
+Untrusted repository
+
+You are installing the modules from an untrusted repository. If you trust this repository, change
+its InstallationPolicy value by running the `Set-PSRepository` cmdlet.
+
+Are you sure you want to install the modules from 'PSGallery'?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
+```
+
+Antwoord **Ja** of **Ja op alles** om door te gaan met de installatie.
+
 
 ### <a name="step-2-connect-to-azure-ad-for-your-microsoft-365-subscription"></a>Stap 2: Maak verbinding met Azure AD voor jouw Microsoft 365-abonnement
 

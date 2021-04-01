@@ -14,20 +14,21 @@ ms.author: v-maave
 ms.reviewer: ''
 manager: dansimp
 ms.custom: asr
+ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7685bd70d85ecebe759ade762b78ee2c3639cea8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 71c3f89b721039753709d65daa135cad74a81711
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057161"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476456"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>Veelgestelde vragen over surface reduction attack
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -37,7 +38,7 @@ ASR was oorspronkelijk een functie van de suite met exploit guard-functies die w
 
 ## <a name="do-i-need-to-have-an-enterprise-license-to-run-asr-rules"></a>Moet ik een ondernemingslicentie hebben om ASR-regels uit te voeren?
 
-De volledige set ASR-regels en -functies wordt alleen ondersteund als u een ondernemingslicentie voor Windows 10 hebt. Een beperkt aantal regels kan werken zonder een ondernemingslicentie. Als u Microsoft 365 Business hebt, stelt u Microsoft Defender Antivirus in als uw primaire beveiligingsoplossing en schakel u de regels in via PowerShell. Asr-gebruik zonder ondernemingslicentie wordt echter niet officieel ondersteund en de volledige mogelijkheden van ASR zijn niet beschikbaar.
+De volledige set ASR-regels en -functies wordt alleen ondersteund als u een ondernemingslicentie voor Windows 10 hebt. Een beperkt aantal regels kan werken zonder een ondernemingslicentie. Als u Microsoft 365 Business hebt, stelt u Microsoft Defender Antivirus in als uw primaire beveiligingsoplossing en schakel u de regels in via PowerShell. Het gebruik van ASR zonder een ondernemingslicentie wordt niet officieel ondersteund en u kunt niet de volledige mogelijkheden van ASR gebruiken.
 
 Zie Windows [10 Licensing](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) voor meer informatie over Windows-licenties en de [handleiding Volumelicenties voor Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
 
@@ -49,11 +50,56 @@ Ja. ASR wordt ondersteund voor Windows Enterprise E3 en hoger.
 
 Alle regels die met E3 worden ondersteund, worden ook ondersteund met E5.
 
-E5 heeft ook een grotere integratie met Defender voor Eindpunt toegevoegd. Met E5 kunt u [Defender](https://docs.microsoft.com/microsoft-365/security/defender/monitor-devices?view=o365-worldwide&preserve-view=true#monitor-and-manage-asr-rule-deployment-and-detections) voor Eindpunt gebruiken om analyses van waarschuwingen in realtime te controleren en te controleren, regeluitsluitingen aan te passen, ASR-regels te configureren en lijsten met gebeurtenisrapporten weer te geven.
+E5 voegt een grotere integratie toe met Defender voor Eindpunt. Met E5 kunt u waarschuwingen in realtime bekijken, regeluitsluitingen afstemmen, ASR-regels configureren en lijsten met gebeurtenisrapporten weergeven.
 
 ## <a name="what-are-the-currently-supported-asr-rules"></a>Wat zijn de momenteel ondersteunde ASR-regels?
+ASR ondersteunt momenteel alle onderstaande regels.
 
-ASR ondersteunt momenteel alle onderstaande regels:
+## <a name="what-rules-to-enable-all-or-can-i-turn-on-individual-rules"></a>Welke regels moeten worden ingeschakeld? Alles, of kan ik afzonderlijke regels in- of uit- zetten?
+Om erachter te komen wat het beste is voor uw omgeving, raden we u aan ASR-regels in te schakelen in [de auditmodus.](audit-windows-defender.md) Met deze methode bepaalt u de mogelijke gevolgen voor uw organisatie. Bijvoorbeeld uw zakelijke toepassingen.
+
+## <a name="how-do-asr-rules-exclusions-work"></a>Hoe werken uitsluitingen van ASR-regels?
+Als u voor ASR-regels één uitsluiting toevoegt, is dit van invloed op elke ASR-regel.
+De volgende twee specifieke regels ondersteunen geen uitsluitingen:
+
+|Regelnaam|GUID|Bestand & mapuitsluitingen|
+|:--|:--|:--|
+|JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten|D3E037E1-3EB8-44C8-A917-57927947596D|Niet ondersteund|
+|Persistentie blokkeren via WMI-gebeurtenisabonnement|e6db77e5-3df2-4cf1-b95a-636979351e5b|Niet ondersteund|
+
+Uitsluitingen van ASR-regels ondersteunen jokertekens, paden en omgevingsvariabelen. Zie uitsluitingen configureren en valideren op basis van [bestandsextensie en](/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus)maplocatie voor meer informatie over het gebruik van jokertekens in ASR-regels.
+
+Let op de volgende items over uitsluitingen van ASR-regels (inclusief jokertekens en afguns. variabelen:
+
+- Uitsluitingen van ASR-regels zijn onafhankelijk van Av-uitsluitingen van Defender
+- Jokertekens kunnen niet worden gebruikt om een station letter te definiëren
+- Als u meerdere mappen wilt uitsluiten, gebruikt u in een pad meerdere exemplaren van \ om meerdere geneste mappen aan te geven \* (bijvoorbeeld c:\Map \* \* \Test)
+- Microsoft Endpoint Configuration Manager *biedt geen ondersteuning* voor jokertekens (* of ?)
+- Als u een bestand wilt uitsluiten dat willekeurige tekens bevat (geautomatiseerde bestandsgeneratie), kunt u het symbool '?' gebruiken (bijvoorbeeld C:\Map\fileversion?. docx)
+- ASR-uitsluitingen in groepsbeleid bieden geen ondersteuning voor aanhalingstekens (de engine verwerkt inheems lange pad, spaties, enzovoort, dus u hoeft geen aanhalingstekens te gebruiken)
+- ASR-regels worden uitgevoerd onder NT AUTHORITY\SYSTEM-account, dus omgevingsvariabelen zijn beperkt tot machinevariabelen.
+
+
+
+## <a name="how-do-i-know-what-i-need-to-exclude"></a>Hoe weet ik wat ik moet uitsluiten?
+Verschillende ASR-regels hebben verschillende beveiligingsstromen. Denk altijd na over wat de ASR-regel die u configureert, beschermt en hoe de feitelijke uitvoeringsstroom wordt uitgevoerd.
+
+Voorbeeld:  Het blokkeren van referenties van het windows-subsysteem Local Security Authority Reading directly from Local Security Authority Subsystem (LSASS) kan een beveiligingsrisico zijn, omdat het bedrijfsreferenties kan onthullen.
+
+Met deze regel voorkomt u dat niet-vertrouwde processen directe toegang hebben tot LSASS-geheugen. Wanneer een proces de functie OpenProcess() probeert te gebruiken voor toegang tot LSASS, met een toegangsrecht van PROCESS_VM_READ, wordt deze toegangsrecht specifiek geblokkeerd door de regel.
+
+:::image type="content" source="images/asrfaq1.png" alt-text="blokreferenties die LSASS stelen":::
+
+Als u in het bovenstaande voorbeeld een uitzondering moet maken voor het proces dat het toegangsrecht is geblokkeerd, wordt het toevoegen van de bestandsnaam samen met het volledige pad uitgesloten van het blokkeren en na toegang tot LSASS-procesgeheugen. De waarde van 0 betekent dat asr-regels dit bestand/proces negeren en niet blokkeren/controleren.
+
+:::image type="content" source="images/asrfaq2.png" alt-text="bestands-asr uitsluiten":::
+
+## <a name="what-are-the-rules-microsoft-recommends-enabling"></a>Wat zijn de regels die Microsoft aanbeveelt in te stellen?
+
+Het is raadzaam om elke mogelijke regel in te stellen. Er zijn echter enkele gevallen waarin u een regel niet moet inschakelen. Het is bijvoorbeeld niet raadzaam om de regel Blokkeringsprocescreaties die afkomstig zijn van de opdrachtregel PSExec en WMI in te stellen, als u Microsoft Endpoint Configuration Manager (of System Center Configuration Manager - SCCM) gebruikt om uw eindpunten te beheren.
+
+We raden u ten zeerste aan elke regelspecifieke informatie en/of waarschuwingen te lezen, die beschikbaar zijn in onze [openbare documentatie.](/microsoft-365/security/defender-endpoint/attack-surface-reduction.md)
+verspreid over meerdere beschermingspilaren, zoals Office, Referenties, Scripts, E-mail, enzovoort. Alle ASR-regels, behalve Blokkering via WMI-gebeurtenisabonnement, worden ondersteund in Windows 1709 en hoger:
 
 * [Uitvoerbare inhoud van e-mailclient en webmail blokkeren](attack-surface-reduction.md#block-executable-content-from-email-client-and-webmail)
 * [Alle Office-toepassingen blokkeren om onderliggende processen te maken](attack-surface-reduction.md#block-all-office-applications-from-creating-child-processes)
@@ -136,7 +182,7 @@ Het inschakelen van deze regel biedt geen extra beveiliging als [U ook LSA-bevei
 ## <a name="see-also"></a>Zie ook
 
 * [Overzicht van de surface reduction van attack](attack-surface-reduction.md)
-* [Regels voor het verlagen van het oppervlak van de aanval evalueren](evaluate-attack-surface-reduction.md)
-* [Surface Reduction-regels voor aanvallen aanpassen](customize-attack-surface-reduction.md)
-* [Regels voor het verlagen van de surface voor aanvallen inschakelen](enable-attack-surface-reduction.md)
+* [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
+* [Regels voor het verminderen van aanvalsoppervlakken aanpassen](customize-attack-surface-reduction.md)
+* [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
 * [Compatibiliteit van Microsoft Defender met andere antivirus-/antimalware](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)

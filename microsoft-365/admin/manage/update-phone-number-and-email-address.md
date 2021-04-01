@@ -20,21 +20,15 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Werk het telefoonnummer en e-mailadres van uw beheerder bij in het beheercentrum. U hebt deze informatie nodig als u uw eigen beheerderswachtwoord opnieuw wilt instellen.
-ms.openlocfilehash: a5b1548ee6ac0fa6bac976758ea8f6753ea2853c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 39b68905c0d43608a0d0ce1d37167fd7d9aff8fb
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914988"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470915"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>Telefoonnummer en e-mailadres van uw beheerder bijwerken
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 In dit artikel wordt uitgelegd hoe u, de beheerder, uw zakelijke telefoon en e-mailadres kunt wijzigen in Microsoft 365.
   
 Zie [Het adres en andere profielgegevens van uw organisatie wijzigen](change-address-contact-and-more.md) als u wilt weten hoe u de profielgegevens van uw bedrijf, zoals de naam, het adres en het telefoonnummer van het bedrijf en de gegevens van de technische contactpersoon, kunt wijzigen.

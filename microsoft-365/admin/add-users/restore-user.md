@@ -23,21 +23,14 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Meer informatie over het herstellen van verwijderde gebruikersaccounts en alle bijbehorende gegevens.
-ms.openlocfilehash: f3986ed1ba007dcac87bdfb9322ba5c5bf081b35
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 75e664c68dec13b857e4bd308d49e5b58d5edfc8
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903710"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471011"
 ---
 # <a name="restore-a-user"></a>Een gebruiker herstellen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
    
 Wanneer u een gebruikersaccount binnen 30 dagen na verwijderen herstelt, worden het account en alle bijbehorende gegevens hersteld. De gebruiker kan zich met hetzelfde werk- of schoolaccount aanmelden. Het postvak wordt volledig hersteld. [Neem contact met ons op](../contact-support-for-business-products.md) als u wilt weten na hoeveel dagen een specifiek gebruikersaccount niet meer kan worden hersteld.
   

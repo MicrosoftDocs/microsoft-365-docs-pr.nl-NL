@@ -17,19 +17,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 670c6449c1121bc329b1dfb37cd1d9948c99a3f8
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 481051b74c1be88ba78bbd44e4fc0c174ed0bdad
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379296"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470891"
 ---
 # <a name="create-indicators"></a>Indicatoren maken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -50,6 +50,9 @@ Dezelfde lijst met indicatoren wordt geëerd door het preventiemiddel. Dit betek
 
 **Geautomatiseerde onderzoeks- en herstel-engine**<BR>
 Het automatische onderzoek en de herstelmaatregelen gedragen zich hetzelfde. Als een indicator is ingesteld op 'Toestaan', wordt automatisch onderzoek en herstel een 'slecht' vonnis voor de indicator genegeerd. Als deze is ingesteld op 'Blokkeren', wordt dit als 'slecht' behandeld door automatisch onderzoek en herstel.
+
+> [!NOTE]
+> Met de instelling EnableFileHashComputation wordt de bestandshash voor het cert- en bestands-IoC berekend tijdens bestandsscans. Het ondersteunt IoC-handhaving van hashes en certs behoren tot vertrouwde toepassingen. Het bestand wordt gelijktijdig ingeschakeld en uitgeschakeld met de instelling bestand toestaan of blokkeren. EnableFileHashComputation is handmatig ingeschakeld via groepsbeleid en is standaard uitgeschakeld.
 
 
 De huidige ondersteunde acties zijn:
