@@ -8,27 +8,27 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 326e508fbf5a0e968e890f5727a6ae542de437c2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 629e18c7387f6063254f3482f93a5e17023c7316
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186003"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499950"
 ---
 # <a name="monitor-web-browsing-security"></a>Beveiliging voor surfen op het web controleren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
@@ -68,7 +68,7 @@ Selecteer een domein om de lijst met apparaten weer te geven die hebben geprobee
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van webbeveiliging](web-protection-overview.md)
+- [Overzicht webbeveiliging](web-protection-overview.md)
 - [Filteren van webinhoud](web-content-filtering.md)
-- [Beveiliging tegen bedreigingen op het web](web-threat-protection.md)
+- [Webbedreigingsbeveiliging](web-threat-protection.md)
 - [Reageren op webbedreigingen](web-protection-response.md)

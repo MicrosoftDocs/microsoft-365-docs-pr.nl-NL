@@ -8,7 +8,7 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
+ms.author: maccruz
 author: lomayor
 localization_priority: Normal
 manager: dansimp
@@ -17,19 +17,19 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/20/2018
 ms.technology: mde
-ms.openlocfilehash: 25538e1866db8f4a7bff24ac336005bf2e1ce78b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b3fb862ac6e845ed4a3f5b72bae902f00c125b53
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058769"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498306"
 ---
 # <a name="experience-microsoft-defender-for-endpoint-through-simulated-attacks"></a>Microsoft Defender voor eindpunt ervaren via gesimuleerde aanvallen 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -73,4 +73,4 @@ Lees het walkthrough-document dat bij elk aanvalsscenario wordt geleverd. Elk do
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [Onboard-apparaten](onboard-configure.md)
-- [Onboard Windows 10-apparaten](configure-endpoints.md)
+- [Onboarden Windows 10-apparaten](configure-endpoints.md)

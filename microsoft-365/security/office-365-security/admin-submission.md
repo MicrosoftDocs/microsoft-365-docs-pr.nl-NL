@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze de portal Inzendingen in het beveiligings- & compliancecentrum kunnen gebruiken om verdachte e-mailberichten, vermoedelijke phishingmails, spam en andere potentieel schadelijke berichten, URL's en bestanden naar Microsoft te verzenden voor scannen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3dd566de3ba4b4281b19c423b8623f081c378bca
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6f1294335be5a82ef7219ef9096d84d840271c5b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204793"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499334"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerdersinzending gebruiken om verdachte spam, phish, URL's en bestanden naar Microsoft te verzenden
 
@@ -122,9 +122,9 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
    ![Voorbeeld van bijlageinzending](../../media/submission-file-flyout.PNG)
 
-## <a name="view-admin-submissions"></a>Beheerdersinzendingen weergeven
+## <a name="view-items-submitted-for-analysis"></a>Items weergeven die zijn ingediend voor analyse
 
-Ga in het & Compliancecentrum naar Threat **management** \> **Submissions,** controleer of  u zich op het tabblad Beheerdersinzendingen en klik vervolgens op **Nieuwe inzending.**
+Ga in & Beveiligingscentrum naar Inzendingen voor  \> **bedreigingsbeheer,** controleer of u zich op het tabblad **Ingediend voor analyse** hebt
 
 Boven aan de pagina kunt u een begindatum, een einddatum en (standaard) filteren op Indienings-id **(een** GUID-waarde die aan elke inzending is toegewezen) door een waarde in het vak in te voeren en op Knop Vernieuwen te ![ ](../../media/scc-quarantine-refresh.png) klikken. U kunt meerdere waarden invoeren die zijn gescheiden door komma's.
 
@@ -254,6 +254,9 @@ U kunt op de **knop Kolomopties** onder aan de pagina klikken om kolommen toe te
 Boven aan de pagina kunt u een begindatum, een einddatum  en u kunt filteren op Ingediend door een waarde in het vak in te voeren en op knop ![ Vernieuwen te ](../../media/scc-quarantine-refresh.png) klikken. U kunt meerdere waarden invoeren die zijn gescheiden door komma's.
 
 Als u de resultaten wilt exporteren, **klikt** u boven aan de pagina op Exporteren en selecteert u **Grafiekgegevens** of **Tabel.** Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
+
+> [!NOTE]
+> Als organisaties zijn geconfigureerd om alleen naar een aangepast postvak te verzenden, worden gerapporteerde berichten niet opnieuw verzonden en zijn de resultaten in de portal Gebruikers gerapporteerde berichten altijd leeg.
 
 ## <a name="undo-user-submissions"></a>Gebruikersinzendingen ongedaan maken
 

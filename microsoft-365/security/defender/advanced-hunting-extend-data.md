@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eaa0068fe52119bfd9dc2381b253b259cb8df907
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1fc4635b71e68bb56fa7ec54c9c7b1263b83446b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057305"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498237"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Geavanceerde dekking voor jagen uitbreiden met de juiste instellingen
 
@@ -40,7 +40,7 @@ ms.locfileid: "51057305"
 ## <a name="advanced-security-auditing-on-windows-devices"></a>Geavanceerde beveiligingsaudits op Windows-apparaten
 Schakel deze geavanceerde controle-instellingen in om ervoor te zorgen dat u gegevens krijgt over activiteiten op uw apparaten, zoals lokaal accountbeheer, lokaal beveiligingsgroepbeheer en het maken van service.
 
-| Data | Beschrijving | Schematabel | Configureren |
+| Data | Omschrijving | Schematabel | Configureren |
 | --- | --- | --- | --- |
 | Accountbeheer | Gebeurtenissen die zijn vastgelegd als verschillende waarden die het maken, verwijderen en `ActionType` andere accountgerelateerde activiteiten aangeven | [DeviceEvents](advanced-hunting-deviceevents-table.md) | - Een geavanceerd beveiligingsauditbeleid implementeren: [Gebruikersaccountbeheer controleren](/windows/security/threat-protection/auditing/audit-user-account-management)<br> - [Meer informatie over geavanceerd beveiligingsauditbeleid](/windows/security/threat-protection/auditing/advanced-security-auditing) |
 | Beveiligingsgroepsbeheer | Gebeurtenissen die zijn vastgelegd als verschillende waarden die het maken van `ActionType` lokale beveiligingsgroepen en andere lokale activiteiten voor groepsbeheer aangeven | [DeviceEvents](advanced-hunting-deviceevents-table.md) | - Een geavanceerd beveiligingsauditbeleid implementeren: [Beveiligingsgroepsbeheer controleren](/windows/security/threat-protection/auditing/audit-security-group-management)<br> - [Meer informatie over geavanceerd beveiligingsauditbeleid](/windows/security/threat-protection/auditing/advanced-security-auditing) |
@@ -49,7 +49,7 @@ Schakel deze geavanceerde controle-instellingen in om ervoor te zorgen dat u geg
 ## <a name="microsoft-defender-for-identity-sensor-on-the-domain-controller"></a>Microsoft Defender voor identiteits sensor op de domeincontroller
 Als u Active Directory on-premises gebruikt, moet u de Microsoft Defender for Identity-sensor installeren op de domeincontroller om gegevens voor Microsoft Defender voor identiteit op te halen. Wanneer deze gegevens zijn geïnstalleerd en correct zijn geconfigureerd, worden deze gegevens ook gebruikt voor geavanceerde jacht via Microsoft Defender voor identiteit en krijgt u een meer holistisch beeld van identiteitsgegevens en gebeurtenissen in uw netwerk. Deze gegevens verbeteren ook de mogelijkheid van Microsoft Defender voor identiteit om relevante waarschuwingen te genereren die ook worden gedekt door geavanceerde jacht. 
 
-| Data | Beschrijving | Schematabel | Configureren |
+| Data | Omschrijving | Schematabel | Configureren |
 | --- | --- | --- | --- |
 | Domeincontroller | Gegevens van on-premises Active Directory die zijn verzonden naar Microsoft Defender voor identiteit, wat identiteitsgerelateerde informatie verrijkt, zoals accountgegevens, aanmeldingsactiviteit en Active Directory-query's | Meerdere tabellen, waaronder [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)en [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [De Microsoft Defender for Identity-sensor installeren](/azure-advanced-threat-protection/install-atp-step4)<br>- [Relevante Windows-gebeurtenissen in- en uit-](/azure-advanced-threat-protection/configure-event-collection) |
 

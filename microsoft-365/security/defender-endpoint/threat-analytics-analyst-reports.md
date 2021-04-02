@@ -9,20 +9,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 599eab29628d11d67843f89a0eb59bb4db1e66ad
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 2ebc826e21246381d3220855f7e8cb01741f12e9
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185453"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499378"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Het analistrapport in bedreigingsanalyses begrijpen
 
@@ -30,7 +30,7 @@ ms.locfileid: "51185453"
 
 **Van toepassing op:**
 - [Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP)](https://go.microsoft.com/fwlink/p/?linkid=2069559)
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -44,7 +44,7 @@ _Rapportsectie van een analyserapport voor bedreigingen_
 ## <a name="scan-the-analyst-report"></a>Het analistrapport scannen 
 Elke sectie van het analyticusrapport is ontworpen om actie-informatie te verstrekken. Hoewel rapporten variëren, bevatten de meeste rapporten de secties die in de volgende tabel worden beschreven.
 
-| Rapportsectie | Beschrijving |
+| Rapportsectie | Omschrijving |
 |--|--|
 | Samenvatting van leidinggevenden | Overzicht van de bedreiging, inclusief wanneer deze voor het eerst werd gezien, de motivaties, belangrijke gebeurtenissen, belangrijke doelen en verschillende hulpmiddelen en technieken. U kunt deze informatie gebruiken om verder te beoordelen hoe u prioriteit kunt geven aan de bedreiging in de context van uw branche, geografische locatie en netwerk. |
 | Analyse | Technische informatie over de bedreigingen, waaronder de details van een aanval en hoe aanvallers een nieuwe techniek of aanvalsoppervlak kunnen gebruiken | 

@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ca095a7a65a114182d736176840fdd4e651a8646
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1d9c3233f72541ccd0463eefef93bde5e7d9900f
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059665"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499962"
 ---
 # <a name="prerequisites--permissions---threat-and-vulnerability-management"></a>Vereisten & machtigingen - bedreigings- en kwetsbaarheidsbeheer
 
@@ -29,7 +29,7 @@ ms.locfileid: "51059665"
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -76,7 +76,7 @@ Zie [RBAC-machtigingsopties voor meer informatie](user-roles.md#permission-optio
 ## <a name="related-articles"></a>Verwante artikelen
 
 - [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
-- [Ondersteunde besturingssystemen en platforms](tvm-supported-os.md)
+- [Ondersteunde besturingssystemen en -platforms](tvm-supported-os.md)
 - [Apparaatwaarde toewijzen](tvm-assign-device-value.md)
 - [Dashboard Bedreigings- en kwetsbaarheidsbeheer](tvm-dashboard-insights.md)
 

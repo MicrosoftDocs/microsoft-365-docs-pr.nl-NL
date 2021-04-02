@@ -1,5 +1,5 @@
 ---
-title: Regels voor het verlagen van de surface voor aanvallen inschakelen
+title: Regels voor het verminderen van aanvalsoppervlakken inschakelen
 description: Schakel ASR-regels (Attack Surface Reduction) in om uw apparaten te beschermen tegen aanvallen met macro's, scripts en veelgebruikte technieken voor insinjectie.
 keywords: Surface Reduction attack, hips, host intrusion prevention system, protection rules, anti-exploit, anti-exploit, exploit, infection prevention, enable, turn on
 search.product: eADQiWindows 10XVcnh
@@ -14,19 +14,19 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 1deec767c6af777b23ab5a91c9e719f690e0c048
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: bf4fa88b3fbbf5d977d54a78c480129665049b23
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165139"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499405"
 ---
-# <a name="enable-attack-surface-reduction-rules"></a>Regels voor het verlagen van de surface voor aanvallen inschakelen
+# <a name="enable-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken inschakelen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -137,7 +137,7 @@ Voorbeeld:
 
 2. Ga in **de Groepsbeleidseditor** naar **Computerconfiguratie** en selecteer **Beheersjablonen.**
 
-3. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Windows Defender Exploit  >  **Guard** Attack  >  **surface reduction**.
+3. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Microsoft Defender Exploit  >  **Guard** Attack  >  **surface reduction**.
 
 4. Selecteer **Aanvalsoppervlakbeperkingsregels configureren** en selecteer **Ingeschakeld.** Vervolgens kunt u de afzonderlijke status voor elke regel instellen in de sectie Opties.
 
@@ -211,4 +211,4 @@ Voorbeeld:
 
 - [De beperking van het oppervlak van de aanval evalueren](evaluate-attack-surface-reduction.md)
 
-- [Veelgestelde vragen over surface reduction attack](attack-surface-reduction.md)
+- [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)

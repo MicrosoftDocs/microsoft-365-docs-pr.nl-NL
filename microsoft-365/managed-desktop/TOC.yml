@@ -15,7 +15,7 @@
     - name: Servicebeschrijving van Microsoft Managed Desktop
       href: service-description/index.md
       items:
-        - name: Ondersteunde regio's en talen
+        - name: Ondersteunde regio's
           href: service-description/regions-languages.md
         - name: Productlevenscyclus
           href: service-description/device-lifecycle.md
@@ -96,6 +96,8 @@
           href: get-started/company-portal.md
         - name: Enterprise State Roaming inschakelen
           href: get-started/enterprise-state-roaming.md
+        - name: De gebruikerservaring lokaliseren
+          href: get-started/localization.md
         - name: Apparaten instellen
           href: get-started/set-up-devices.md
           items:

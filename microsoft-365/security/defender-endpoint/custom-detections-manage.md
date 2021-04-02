@@ -9,27 +9,27 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f6a7fc4d4141b19f9c5129eea9b89943d07695b2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b36521ada55fa3d60538beb981d487b153e7b1f9
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165775"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498748"
 ---
 # <a name="view-and-manage-custom-detection-rules"></a>Aangepaste detectieregels weergeven en beheren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -73,6 +73,6 @@ U kunt ook de volgende acties uitvoeren op de regel op deze pagina:
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van aangepaste detectie](overview-custom-detections.md)
-- [Detectieregels maken](custom-detection-rules.md)
+- [Detectieregels maken en beheren](custom-detection-rules.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [Waarschuwingen weergeven en ordenen](alerts-queue.md)

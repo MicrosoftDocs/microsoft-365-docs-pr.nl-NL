@@ -1,5 +1,5 @@
 ---
-title: De wachtrij Incidenten weergeven en ordenen
+title: De incidentenwachtrij weergeven en organiseren
 ms.reviewer: ''
 description: Bekijk de lijst met incidenten en leer hoe u filters kunt toepassen om de lijst te beperken en een meer gerichte weergave te krijgen.
 keywords: weergeven, organiseren, incidenten, aggregatie, onderzoeken, wachtrij, ttp
@@ -9,27 +9,27 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f25189ac6550d9c3349e08f7e7ac685d4b8031fc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 93aa685f12e0241758bf86d3aa956717db052e5f
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058129"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499939"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>De wachtrij Microsoft Defender voor eindpuntincidenten weergeven en organiseren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -55,7 +55,7 @@ U kunt de volgende filters toepassen om de lijst met incidenten te beperken en e
 
 ### <a name="severity"></a>Ernst
 
-Ernst van incident | Beschrijving
+Ernst van incident | Omschrijving
 :---|:---
 Hoog </br>(Rood) | Bedreigingen die vaak worden gekoppeld aan geavanceerde permanente bedreigingen (APT). Deze incidenten geven een hoog risico aan vanwege de ernst van de schade die ze kunnen toebrengen aan apparaten.
 Gemiddeld </br>(Oranje) | Bedreigingen die zelden worden waargenomen in de organisatie, zoals afwijkende registerwijziging, uitvoering van verdachte bestanden en waargenomen gedrag dat typisch is voor aanvalsfasen.
@@ -85,7 +85,7 @@ Bijvoorbeeld: *incident met meerdere fases op meerdere eindpunten die door meerd
 
 
 ## <a name="see-also"></a>Zie ook
-- [Wachtrij incidenten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Incidentenwachtrij](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [Incidenten beheren](manage-incidents.md)
 - [Incidenten onderzoeken](investigate-incidents.md)
 

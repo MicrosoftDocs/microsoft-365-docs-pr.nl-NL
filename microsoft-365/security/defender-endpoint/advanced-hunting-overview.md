@@ -8,27 +8,27 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f3dac57961308cc10bdb53a01745e6659bfaaded
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4883a4f04f06774d02aa0d942edc841867eb36b6
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060230"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499522"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Proactief op bedreigingen zoeken met geavanceerde jacht
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhunting-abovefoldlink)
 
@@ -43,7 +43,7 @@ Bekijk deze video voor een kort overzicht van geavanceerde jacht en een korte ze
 U kunt dezelfde query's voor het zoeken naar bedreigingen gebruiken om aangepaste detectieregels te maken. Deze regels worden automatisch uitgevoerd om te controleren of en vervolgens te reageren op verdachte inbreukactiviteiten, verkeerd geconfigureerde machines en andere bevindingen.
 
 >[!TIP]
->Gebruik [geavanceerde jacht in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview) om te zoeken naar bedreigingen met behulp van gegevens van Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit. [Microsoft 365 Defender in-](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
+>Gebruik [geavanceerde jacht in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview) om te zoeken naar bedreigingen met behulp van gegevens van Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit. [Microsoft 365 Defender inschakelen](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
 
 ## <a name="get-started-with-advanced-hunting"></a>Aan de slag met geavanceerde jacht
 
@@ -51,7 +51,7 @@ Ga door de volgende stappen om uw geavanceerde kennis op het gebied van jagen te
 
 We raden u aan om verschillende stappen uit te voeren om snel aan de haal te gaan met geavanceerde jacht.
 
-| Leerdoel | Beschrijving | Resource |
+| Leerdoel | Omschrijving | Resource |
 |--|--|--|
 | **De taal leren** | Geavanceerd zoeken is gebaseerd op [de querytaal Kusto,](https://docs.microsoft.com/azure/kusto/query/)die dezelfde syntaxis en operatoren ondersteunt. Begin de querytaal te leren door de eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
 | **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt bekijken of exporteren. Ontdek hoe u snel query's kunt aanpassen en kunt inzoomen om uitgebreidere informatie te krijgen. | [Werken met queryresultaten](advanced-hunting-query-results.md) |

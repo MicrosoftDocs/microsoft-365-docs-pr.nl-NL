@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1559d8dca6b6909f22473c5a8f4d25d4bac501d1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: be01d5908e4c79f642cdbbddd75115f6ebc2c713
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057389"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499589"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-for-macos-policies-in-jamf-pro"></a>Microsoft Defender voor eindpunt instellen voor macOS-beleid in Jamf Pro
 
@@ -349,60 +349,51 @@ U moet de volgende stappen ondernemen:
 
 Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
-1. Downloaden `notif.mobileconfig` vanuit [onze GitHub-opslagplaats](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig)
+1. Selecteer in het dashboard Van Jamf Pro de optie **Computers** en vervolgens **Configuratieprofielen.**
 
-2. Sla het op als `MDATP_MDAV_notification_settings.plist` .
-
-3. Selecteer algemeen in het dashboard van Jamf **Pro.** 
-       
-4. Voer de volgende details in:
-
-    **Algemeen** 
+2. Klik **op Nieuw** en voer de volgende details in voor **Opties:**
     
-    - Naam: MDATP MDAV-meldingsinstellingen
-    - Beschrijving: macOS 10.15 (Catalina) of hoger
-    - Categorie: Geen (standaard)
-    - Distributiemethode: Automatisch installeren(standaard)
-    - Niveau: Computerniveau(standaard)
+    - Tabblad **Algemeen**: 
+        - **Naam**: MDATP MDAV-meldingsinstellingen
+        - **Beschrijving**: macOS 10.15 (Catalina) of hoger
+        - **Categorie:** Geen *(standaard)*
+        - **Distributiemethode:** Automatisch installeren *(standaard)*
+        - **Niveau:** Computerniveau *(standaard)*
 
-    ![Afbeelding van configuratie-instellingen mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![Afbeelding van configuratie-instellingen mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
+    - **Tabmeldingen,** klik **op Toevoegen** en voer de volgende waarden in:
+        - **Bundel-id:**`com.microsoft.wdav.tray`
+        - **Kritieke waarschuwingen:** Klik op **Uitschakelen**
+        - **Meldingen:** Klik op **Inschakelen**
+        - **Type bannerwaarschuwing:** Selecteer **Opnemen** en **Tijdelijk** *(standaard)*
+        - **Meldingen op vergrendelingsscherm**: Klik op **Verbergen**
+        - **Meldingen in het systeemcentrum:** klik op **Weergeven**
+        - **Pictogram badge-app:** klik op **Weergeven**
 
-5. Selecteer **Bestand uploaden (PLIST-bestand)**.
+        ![Afbeelding van configuratie-instellingen mdatpmdav-meldingenvak](images/7f9138053dbcbf928e5182ee7b295ebe.png)
 
-    ![Afbeelding van configuratie-instellingen uploaden plistfile](images/7f9138053dbcbf928e5182ee7b295ebe.png)
- 
+    - **TabMeldingen**, klik **nog een** keer op Toevoegen, schuif omlaag naar Nieuwe instellingen **voor meldingen**
+        - **Bundel-id:**`com.microsoft.autoupdate2`
+        - De rest van de instellingen configureren op dezelfde waarden als hierboven
 
-6. Selecteer **Bestand kiezen**  >  **MDATP_MDAV_Notification_Settings.plist**.
+        ![Afbeelding van configuratie-instellingen mdatpmdav-meldingen mau](images/4bac6ce277aedfb4a674f2d9fcb2599a.png)
 
+        Houd er rekening mee dat u nu twee 'tabellen' met meldingsconfiguraties hebt, een voor **Bundel-id: com.microsoft.wdav.tray** en een voor **Bundel-id: com.microsoft.autoupdate2**. Hoewel u waarschuwingsinstellingen kunt configureren op basis van uw vereisten,  moeten bundel-1D's exact hetzelfde zijn als eerder beschreven en moet de schakelknop Opnemen zijn **aan** voor **meldingen.**
 
-    ![Afbeelding van configuratie-instellingen mdatpmdav-notsettings](images/4bac6ce277aedfb4a674f2d9fcb2599a.png)
-
-
-    ![Afbeelding van configuratie-instellingen mdatpmdav notifsettings](images/20e33b98eb54447881dc6c89e58b890f.png)
-
-7. Selecteer **Uploaden**  >  **openen.**
-
-    ![Afbeelding van configuratie-instellingen upl img](images/7697c33b9fd376ae5a8023d01f9d3857.png)
-
-
-    ![Afbeelding van upl-afbeelding configuratie-instellingen](images/2bda9244ec25d1526811da4ea91b1c86.png)
-
-8. Selecteer het **tabblad** Bereik en selecteer **vervolgens Toevoegen.**
+3. Selecteer het **tabblad** Bereik en selecteer **vervolgens Toevoegen.**
 
     ![Afbeelding van het bereik van configuratie-instellingen](images/441aa2ecd36abadcdd8aed03556080b5.png)
 
+4. Selecteer **De machinegroep van Contoso.** 
 
-9. Selecteer **De machinegroep van Contoso.** 
-
-10. Selecteer **Toevoegen** en selecteer **opslaan.**
+5. Selecteer **Toevoegen** en selecteer **opslaan.**
     
     ![Afbeelding van configuratie-instellingen contoso machine grp opslaan](images/09a275e321268e5e3ac0c0865d3e2db5.png)
-
     
     ![Afbeelding van configuratie-instellingen toevoegen opslaan](images/4d2d1d4ee13d3f840f425924c3df0d51.png)
 
-11. Selecteer **Gereed**. U ziet het nieuwe **configuratieprofiel.**
+6. Selecteer **Gereed**. U ziet het nieuwe **configuratieprofiel.**
     ![Afbeelding van configuratie-instelling klaar img](images/633ad26b8bf24ec683c98b2feb884bdf.png)
 
 ## <a name="step-5-configure-microsoft-autoupdate-mau"></a>Stap 5: Microsoft AutoUpdate configureren (MAU)
@@ -578,8 +569,12 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
     
     ![Afbeelding van configuratie-instelling donimg2](images/6c8b406ee224335a8c65d06953dc756e.png)
 
+U kunt ook [fulldisk.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) downloaden en uploaden naar JAMF-configuratieprofielen, zoals beschreven in Aangepaste configuratieprofielen implementeren met Behulp van [Jamf Pro| Methode 2: Een configuratieprofiel uploaden naar Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
 ## <a name="step-7-approve-kernel-extension-for-microsoft-defender-for-endpoint"></a>Stap 7: Kernel-extensie goedkeuren voor Microsoft Defender voor Eindpunt
+
+> [!CAUTION]
+> Apple Silicon (M1) apparaten bieden geen ondersteuning voor KEXT. De installatie van een configuratieprofiel met KEXT-beleid mislukt op deze apparaten.
 
 1. Selecteer in **de configuratieprofielen** **+ Nieuw**.
 
@@ -629,6 +624,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
     ![Afbeelding van configuratie-instellingen doneimag](images/1c9bd3f68db20b80193dac18f33c22d0.png)
 
+U kunt ook [kext.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/kext.mobileconfig) downloaden en uploaden naar JAMF-configuratieprofielen zoals beschreven in Aangepaste configuratieprofielen implementeren met Behulp van [Jamf Pro| Methode 2: Een configuratieprofiel uploaden naar Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
 ## <a name="step-8-approve-system-extensions-for-microsoft-defender-for-endpoint"></a>Stap 8: Systeemextensies goedkeuren voor Microsoft Defender voor eindpunt
 
@@ -687,57 +683,53 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
 Als onderdeel van de mogelijkheden voor endpointdetectie en -reactie controleert Microsoft Defender voor Endpoint voor Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
 
->[!NOTE]
->JAMF heeft geen ingebouwde ondersteuning voor inhoudsfilterbeleid, wat een vereiste is voor het inschakelen van de netwerkextensies die Microsoft Defender voor Eindpunt voor Mac op het apparaat installeert. Bovendien verandert JAMF soms de inhoud van het beleid dat wordt geïmplementeerd.
->Als zodanig bieden de volgende stappen een tijdelijke oplossing voor het ondertekenen van het configuratieprofiel.
+Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
-1. Download `netfilter.mobileconfig` van [onze GitHub-opslagplaats](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) naar uw apparaat en sla deze op als `com.microsoft.network-extension.mobileconfig`
+1. Selecteer in het dashboard Van Jamf Pro de optie **Computers** en vervolgens **Configuratieprofielen.**
 
-2. Volg de instructies op [deze pagina om](https://www.jamf.com/jamf-nation/articles/649/creating-a-signing-certificate-using-jamf-pro-s-built-in-certificate-authority) een handtekeningcertificaat te maken met de ingebouwde certificeringsinstantie van JAMF
+2. Klik **op Nieuw** en voer de volgende details in voor **Opties:**
 
-3. Nadat het certificaat is gemaakt en geïnstalleerd op uw apparaat, voer u de volgende opdracht uit vanaf de Terminal vanaf een macOS-apparaat:
+    - Tabblad **Algemeen**: 
+        - **Naam**: Microsoft Defender ATP Network Extension
+        - **Beschrijving**: macOS 10.15 (Catalina) of hoger
+        - **Categorie:** Geen *(standaard)*
+        - **Distributiemethode:** Automatisch installeren *(standaard)*
+        - **Niveau:** Computerniveau *(standaard)*
 
-   ```bash
-   $ security cms -S -N "<certificate name>" -i com.microsoft.network-extension.mobileconfig -o com.microsoft.network-extension.signed.mobileconfig
-   ```
+    - **Tab-inhoudsfilter:**
+        - **Filternaam:** Microsoft Defender ATP-inhoudsfilter
+        - **Id**: `com.microsoft.wdav`
+        - Serviceadres , **Organisatie**, **Gebruikersnaam**, **Wachtwoord**, **Certificaat** leeg laten (**Opnemen** is *niet* geselecteerd) 
+        - **Filterorder**: Inspector
+        - **Socket Filter**: `com.microsoft.wdav.netext`
+        - **Vereiste socketfilter**: `identifier "com.microsoft.wdav.netext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`
+        - Velden **voor netwerkfilter** leeg laten (**Opnemen** is *niet* geselecteerd)
 
-   ![Terminalvenster met opdracht om ondertekende configuratie te maken](images/netext-create-profile.png)
+        Houd er rekening mee dat **id,** **socketfilter** en **socketfilter de** exacte waarden vereist zijn, zoals hierboven is aangegeven.
 
-4. Ga vanuit de JAMF-portal naar **Configuratieprofielen** en klik op de **knop** Uploaden. 
+        ![Afbeelding van configuratie-instellingen mdatpmdav](images/netext-create-profile.png)
 
-   ![Afbeelding van uploadvenster](images/netext-upload-file.png)
-
-5. Selecteer **Bestand kiezen** en selecteer `microsoft.network-extension.signed.mobileconfig` .
-
-   ![Afbeelding van het uploadvenster netext kies bestand](images/netext-choose-file.png)
-
-6. Selecteer **Uploaden.**
-
-   ![Afbeelding van uploadvenster netext uploadbestand2](images/netext-upload-file2.png)
-
-7. Nadat u het bestand hebt geüpload, wordt u omgeleid naar een nieuwe pagina om het maken van dit profiel af te ronden.
-
-   ![Afbeelding van nieuwe profielpagina voor configuratieprofiel netext](images/netext-profile-page.png)
-
-8. Selecteer het **tabblad Bereik.**
+3. Selecteer het **tabblad Bereik.**
 
    ![Afbeelding van het sco-tabblad configuratie-instellingen](images/0df36fc308ba569db204ee32db3fb40a.png)
 
-9. Selecteer **+ Toevoegen.**
+4. Selecteer **+ Toevoegen.**
 
-10. Selecteer **Computergroepen** > **onder Groepsnaam** > selecteer **De machinegroep van Contoso.**
+5. Selecteer **Computergroepen** > **onder Groepsnaam** > selecteer **De machinegroep van Contoso.**
 
-11. Selecteer **+ Toevoegen.**
+6. Selecteer **+ Toevoegen.**
 
     ![Afbeelding van configuratie-instellingen adim](images/0dde8a4c41110dbc398c485433a81359.png)
 
-12. Kies **Opslaan**.
+7. Kies **Opslaan**.
 
     ![Afbeelding van configuratie-instellingen savimg netextscop](images/netext-scope.png)
 
-13. Selecteer **Gereed**.
+8. Selecteer **Gereed**.
 
     ![Afbeelding van configuratie-instellingen netextfinal](images/netext-final.png)
+
+U kunt ook [netfilter.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) downloaden en uploaden naar JAMF-configuratieprofielen zoals beschreven in Aangepaste configuratieprofielen implementeren met [Jamf Pro| Methode 2: Een configuratieprofiel uploaden naar Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
 ## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-for-mac"></a>Stap 10: Scans plannen met Microsoft Defender voor Eindpunt voor Mac
 Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt voor Mac](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp).

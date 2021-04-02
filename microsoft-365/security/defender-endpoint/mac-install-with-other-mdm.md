@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e3a20f0a356a32eddc05b3792c0c04c23197a7b0
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 5fa811b2419d107e91b301d5c9bad691fc016b5b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185693"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498967"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-for-mac"></a>Implementatie met een ander MDM-systeem (Mobile Device Management) voor Microsoft Defender voor Endpoint voor Mac
 
@@ -31,7 +31,7 @@ ms.locfileid: "51185693"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -43,7 +43,7 @@ Voordat u aan de slag gaat, bekijkt u de [hoofdpagina](microsoft-defender-endpoi
 ## <a name="approach"></a>Benadering
 
 > [!CAUTION]
-> Microsoft ondersteunt momenteel alleen Intune en JAMF voor de implementatie en het beheer van Microsoft Defender voor Eindpunt voor Mac. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de onderstaande informatie.
+> Momenteel ondersteunt Microsoft officieel alleen Intune en JAMF voor de implementatie en het beheer van Microsoft Defender voor Endpoint voor Mac. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de onderstaande informatie.
 
 Als uw organisatie een MDM-oplossing (Mobile Device Management) gebruikt die niet officieel wordt ondersteund, betekent dit niet dat u Microsoft Defender voor Eindpunt voor Mac niet kunt implementeren of uitvoeren.
 
@@ -84,6 +84,10 @@ MDM gebruikt het bestand om het instellingenbestand te implementeren naar **/Lib
 ### <a name="kernel-extension-policy"></a>Beleid voor kernelextensie
 
 Een KEXT- of kernelextensiebeleid instellen. Gebruik teamaanduiding **UBF8T346G9** om kernelextensies van Microsoft toe te staan.
+
+> [!CAUTION]
+> Als uw omgeving uit M1-apparaten (Apple Silicon) bestaat, ontvangen deze machines geen configuratieprofielen met KEXT-beleid.
+> Apple biedt geen ondersteuning voor KEXT op deze machines, de implementatie van een dergelijk profiel zou mislukken op M1-machines.
 
 ### <a name="system-extension-policy"></a>Systeemextensiebeleid
 

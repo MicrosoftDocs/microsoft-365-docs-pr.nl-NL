@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3e4a8c9bffd285d45c7a4002b1ecd96e6dda40b9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7b1f581e1cfc8345df6e7b8053621cf46110c355
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058066"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499884"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -39,7 +39,7 @@ De tabel in het geavanceerde schema bevat informatie over verschillende entiteit
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
-| Kolomnaam | Gegevenstype | Beschrijving |
+| Kolomnaam | Gegevenstype | Omschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
 | `AlertId` | tekenreeks | Unieke id voor de waarschuwing |

@@ -3,18 +3,19 @@ title: Is Microsoft Managed Desktop geschikt voor jou?
 description: Oriëntatie over wat de service is en snelkoppelingen naar artikelen voor verschillende doelgroepen
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
+audience: ITpro
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 07d3d50f012b2d93e9f7a75f47b0c35514b51350
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 73ce64bd83b475cc7cc0f78b6ac4a06683264144
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920618"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445552"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -57,19 +58,22 @@ Uw IT-beheerders profiteren van de volgende functies:
 Microsoft Managed Desktop neemt de last op zich van het beheren van geregistreerde apparaten en de Microsoft-software die ze gebruiken.
 
 - **Hardware:** in plaats van dat uw IT-afdeling apparaten (en hun stuurprogramma's) moet onderzoeken en testen, worden specifieke apparaten zorgvuldig getest door Microsoft Managed Desktop, wat resulteert in een samengestelde [lijst van apparaten](../service-description/device-list.md) die voldoen aan de prestatievereisten op bedrijfsniveau en die gegarandeerd werken met de service. U kunt apparaten zelf aanschaffen (of met een partner samenwerken), of apparaten die u al heeft opnieuw gebruiken, op voorwaarde dat ze op de goedgekeurde lijst staan. Apparaten registreren is eenvoudig en duidelijk. Voordat ze worden geïmplementeerd, kunt u ook bepaalde aspecten van de apparaatervaring [aanpassen](../working-with-managed-desktop/config-setting-overview.md) voor uw gebruikers.
+
 - **Updates:** Microsoft Managed Desktop stelt alle aspecten van [implementatiegroepen](../service-description/updates.md) in en beheert deze voor kwaliteits- en functie-updates van Windows 10, stuurprogramma's, firmware, antivirusdefinities en updates van Microsoft 365 Apps voor Ondernemingen. Dit omvat uitgebreide testen en verificatie van alle updates, om ervoor te zorgen dat geregistreerde apparaten altijd up-to-date zijn en om verstoringen te minimaliseren, waardoor uw IT-afdeling van die doorlopende taak wordt bevrijd.
-- **Apps:** als onderdeel van Microsoft 365 Enterprise biedt (en beheert) Microsoft verschillende belangrijke Microsoft-apps voor u. Maar er zijn waarschijnlijk ook andere apps die u nodig heeft voor uw bedrijf. In plaats van dat uw IT-afdeling die apps moet testen, verpakken en implementeren, helpt Microsoft u bij het implementeren ervan en kan indien nodig helpen met [Desktop App Assure](/fasttrack/win-10-desktop-app-assure). Meer informatie vindt u op [Apps in Microsoft Managed Desktop](../get-ready/apps.md).
+
+- **Apps:** als onderdeel van Microsoft 365 Enterprise biedt (en beheert) Microsoft verschillende belangrijke Microsoft-apps voor u. Maar er zijn waarschijnlijk ook andere apps die u nodig heeft voor uw bedrijf. In plaats van dat uw IT-afdeling die apps moet testen, verpakken en implementeren, helpt Microsoft u bij het implementeren ervan via het programma [FastTrack](https://www.microsoft.com/FastTrack). Verder kan het programma [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assuree) helpen bij het oplossen van eventuele compatibiliteitsproblemen die optreden bij het migreren naar de nieuwste versies van onze producten. Meer informatie vindt u op [Apps in Microsoft Managed Desktop](../get-ready/apps.md).
 
 
 ## <a name="device-monitoring"></a>Controle van apparaten
 
 We helpen de beveiliging van uw apparaten te onderhouden met een speciaal beveiligingscentrum dat uw apparaten bewaakt. Het gebruikt gegevens van de unieke bedreigingen die Microsoft elke maand analyseert. Deze beveiligingsfuncties zijn ingebouwd in plaats van dat ze later worden toegevoegd.
 
-We controleren ook de status van apparaten en geven inzicht in de prestaties van apparaten. Meer informatie vindt u op [Bewerkingen en controle in Microsoft Managed Desktop](../service-description/operations-and-monitoring.md)
+We controleren ook de status van apparaten en geven inzicht in de prestaties van apparaten. Meer informatie vindt u op [Bewerkingen en controle in Microsoft Managed Desktop](../service-description/operations-and-monitoring.md).
 
 
 ## <a name="need-more-details"></a>Meer informatie nodig?
-Zie [Microsoft Managed Desktop](https://aka.ms/mmd) voor meer informatie over de waarde van Microsoft Managed Desktop, inclusief verhalen van klanten. Handige plaatsen om aan de slag te gaan zijn de [Wegwijzer](https://aka.ms/AA6jiam), een [Forrester Total Economic Impact-casestudy](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf) en een downloadbare [samenvatting van één pagina](https://aka.ms/AA6ob3h). U vindt het laatste nieuws op de Microsoft Managed Desktop-[blog](https://aka.ms/AA6l2dd).
+
+Zie [Microsoft Managed Desktop](https://aka.ms/mmd) voor meer informatie over de voordelen van Microsoft Managed Desktop, inclusief verhalen van klanten. Handige plaatsen om aan de slag te gaan zijn de [Wegwijzer](https://aka.ms/AA6jiam), een [Forrester Total Economic Impact-casestudy](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf) en een downloadbare [samenvatting van één pagina](https://aka.ms/AA6ob3h). U vindt het laatste nieuws op de Microsoft Managed Desktop-[blog](https://aka.ms/AA6l2dd).
 
 Als Microsoft Managed Desktop geschikt lijkt voor jouw organisatie, kan je jezelf verdiepen in aanvullende documentatie die meer uitleg geeft over de service, hoe je jouw organisatie kunt voorbereiden op de registratie, hoe je aan de slag kunt met de service en de doorlopende activiteiten erna, inclusief hoe jij en jouw gebruikers gemakkelijk hulp kunnen krijgen indien nodig. Als u klaar bent om aan boord te komen, neem dan contact op met je [lokale accountteam](https://pages.email.office.com/contactmmd/).
 

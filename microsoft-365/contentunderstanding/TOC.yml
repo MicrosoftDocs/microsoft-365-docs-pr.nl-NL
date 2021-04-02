@@ -16,8 +16,14 @@
       href: create-a-content-center.md
     - name: Een classificatie maken
       href: create-a-classifier.md
+    - name: Een model dupliceren
+      href: duplicate-a-model.md
+    - name: De naam van een model wijzigen
+      href: rename-a-model.md
     - name: Een extractor maken
       href: create-an-extractor.md
+    - name: De naam van een extractor wijzigen
+      href: rename-an-extractor.md
     - name: Uitlegtypen
       href: explanation-types-overview.md
     - name: Een model toepassen

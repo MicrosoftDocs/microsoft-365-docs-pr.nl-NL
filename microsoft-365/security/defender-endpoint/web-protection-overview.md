@@ -8,27 +8,27 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 059f960bae8a5a00f678bb6f52ef217b4f8ed7d6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4c04ce3479ac995e59c3bdfa9a2bdcca87eca17b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185991"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499924"
 ---
 # <a name="web-protection"></a>Webbeveiliging
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -38,7 +38,7 @@ Webbeveiliging in Microsoft Defender voor Eindpunt is een functie die bestaat ui
 
 ![Afbeelding van alle webbeveiligingskaarten](images/web-protection.png)
 
-## <a name="web-threat-protection"></a>Beveiliging tegen bedreigingen op het web
+## <a name="web-threat-protection"></a>Webbedreigingsbeveiliging
 
 De kaarten die webbedreigingsbeveiliging vormen, zijn **detecties** van webdreigingen in de tijd en **overzicht van webdreigingen.**
 
@@ -58,7 +58,7 @@ Webinhoudsfilters omvatten:
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Beschrijving
+Onderwerp | Omschrijving
 :---|:---
-[Beveiliging tegen bedreigingen op het web](web-threat-protection.md) | Stop de toegang tot phishingsites, malwarevectoren, misbruiksites, niet-vertrouwde of slechte reputatiesites en sites die u hebt geblokkeerd.
+[Webbedreigingsbeveiliging](web-threat-protection.md) | Stop de toegang tot phishingsites, malwarevectoren, misbruiksites, niet-vertrouwde of slechte reputatiesites en sites die u hebt geblokkeerd.
 [Filteren van webinhoud](web-content-filtering.md) | De toegang tot websites bijhouden en reguleren op basis van hun inhoudscategorieën.

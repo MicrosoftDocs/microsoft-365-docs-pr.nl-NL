@@ -8,27 +8,27 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: d1402d8486725559335a5edc5ee13c78a0125932
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 0c3c5ebbcd4483cae159fe9b46a6f4c376443be3
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186423"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499072"
 ---
 # <a name="threat-and-vulnerability-management"></a>Bedreigings- en kwetsbaarheidsbeheer
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -83,14 +83,14 @@ Bekijk deze video voor een uitgebreide doorloop van bedreigings- en kwetsbaarhei
 
 ## <a name="navigation-pane"></a>Navigatiedeelvenster
 
-Gebied | Beschrijving
+Gebied | Omschrijving
 :---|:---
 **Dashboard**   | Krijg een overzicht op hoog niveau van de blootstellingsscore van de organisatie, Microsoft Secure Score voor apparaten, distributie van blootstelling aan apparaten, top beveiligingsaanbevelingen, de meest kwetsbare software, de beste herstelactiviteiten en de best belichte apparaatgegevens.
 [**Beveiligingsaanbevelingen**](tvm-security-recommendation.md) | Zie de lijst met beveiligingsaanbevelingen en gerelateerde bedreigingsgegevens. Wanneer u een item in de lijst selecteert, wordt er een flyoutvenster geopend met details over kwetsbaarheid, een koppeling om de softwarepagina te openen en opties voor herstel en uitzondering. U kunt ook een ticket openen in Intune als uw apparaten zijn verbonden via Azure Active Directory en u uw Intune-verbindingen hebt ingeschakeld in Defender voor Eindpunt.
 [**Herstellen**](tvm-remediation.md) | Zie herstelactiviteiten die u hebt gemaakt en aanbevelingen voor uitzonderingen.
-[**Softwarevoorraad**](tvm-software-inventory.md) | Bekijk de lijst met kwetsbare software in uw organisatie, samen met zwakke en bedreigingsinformatie.
+[**Software-inventaris**](tvm-software-inventory.md) | Bekijk de lijst met kwetsbare software in uw organisatie, samen met zwakke en bedreigingsinformatie.
 [**Zwakke punten**](tvm-weaknesses.md) | Bekijk de lijst met veelvoorkomende beveiligingslekken en blootstellingen (CVE's) in uw organisatie.
-[**Tijdlijn van gebeurtenis**](threat-and-vuln-mgt-event-timeline.md) | Bekijk gebeurtenissen die van invloed kunnen zijn op het risico van uw organisatie.
+[**Tijdlijn van het evenement**](threat-and-vuln-mgt-event-timeline.md) | Bekijk gebeurtenissen die van invloed kunnen zijn op het risico van uw organisatie.
 
 ## <a name="apis"></a>API‘s
 
@@ -98,16 +98,16 @@ Voer API-oproepen voor bedreigings- en kwetsbaarheidsbeheer uit om werkstromen v
 
 Zie de volgende artikelen voor gerelateerde API's:
 
-- [Ondersteunde API's voor Microsoft Defender voor eindpunten](exposed-apis-list.md)
+- [Ondersteunde API's voor Microsoft Defender voor Eindpunt](exposed-apis-list.md)
 - [Machine-API's](machine.md)
 - [Aanbevelingen VOOR API's](vulnerability.md)
 - [Score-API's](score.md)
 - [Software-API's](software.md)
 - [Api's voor kwetsbaarheid](vulnerability.md)
-- [Beveiligingsproblemen per computer en software op een lijst zetten](get-all-vulnerabilities-by-machines.md)
+- [Lijst van beveiligingsproblemen per computer en software](get-all-vulnerabilities-by-machines.md)
 
 ## <a name="see-also"></a>Zie ook
 
-- [Ondersteunde besturingssystemen en platforms](tvm-supported-os.md)
+- [Ondersteunde besturingssystemen en -platforms](tvm-supported-os.md)
 - [Dashboard Bedreigings- en kwetsbaarheidsbeheer](tvm-dashboard-insights.md)
 - [BLOG: Microsoft's Threat & Vulnerability Management helpt nu duizenden klanten om in realtime beveiligingsproblemen te ontdekken, prioriteit te geven en te herstellen](https://www.microsoft.com/security/blog/2019/07/02/microsofts-threat-vulnerability-management-now-helps-thousands-of-customers-to-discover-prioritize-and-remediate-vulnerabilities-in-real-time/)
