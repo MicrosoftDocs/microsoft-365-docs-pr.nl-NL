@@ -145,6 +145,7 @@
 #### [Problemen oplossen]()
 ##### [Installatieproblemen oplossen](mac-support-install.md)
 ##### [Prestatieproblemen oplossen](mac-support-perf.md)
+##### [Problemen met cloudconnectiviteit oplossen](troubleshoot-cloud-connect-mdemac.md)
 ##### [Problemen met kernelextensie oplossen](mac-support-kext.md)
 ##### [Licentieproblemen oplossen](mac-support-license.md)
 
@@ -586,6 +587,7 @@
 #### [Problemen met het verminderen van kwetsbaarheid voor aanvallen oplossen]()
 ##### [Netwerkbeveiliging](troubleshoot-np.md)
 ##### [Regels voor het verminderen van kwetsbaarheid voor aanvallen](troubleshoot-asr.md)
+##### [Regels voor het migreren naar kwetsbaarheid voor aanvallen verminderen](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
 # [Defender voor Office 365](../office-365-security/overview.md)

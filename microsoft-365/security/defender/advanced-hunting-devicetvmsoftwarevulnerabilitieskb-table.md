@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,44 +20,44 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a7042ac24822c8f4d866640e005ecd3176bb6409
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4b5d11788f0914749edaa58b927ef6d4bcc1a3f4
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057309"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498942"
 ---
-# <a name="devicetvmsoftwarevulnerabilitieskb"></a><span data-ttu-id="7d01c-104">DeviceTvmSoftwareVulnerabilitiesKB</span><span class="sxs-lookup"><span data-stu-id="7d01c-104">DeviceTvmSoftwareVulnerabilitiesKB</span></span>
+# <a name="devicetvmsoftwarevulnerabilitieskb"></a><span data-ttu-id="8dbad-104">DeviceTvmSoftwareVulnerabilitiesKB</span><span class="sxs-lookup"><span data-stu-id="8dbad-104">DeviceTvmSoftwareVulnerabilitiesKB</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="7d01c-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="7d01c-105">**Applies to:**</span></span>
-- <span data-ttu-id="7d01c-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="7d01c-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="8dbad-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="8dbad-105">**Applies to:**</span></span>
+- <span data-ttu-id="8dbad-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="8dbad-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="7d01c-107">De tabel in het geavanceerde schema voor de jacht bevat de lijst met beveiligingsproblemen `DeviceTvmSoftwareVulnerabilitiesKB` [& kwetsbaarheidsbeheer](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) apparaten beoordeelt voor.</span><span class="sxs-lookup"><span data-stu-id="7d01c-107">The `DeviceTvmSoftwareVulnerabilitiesKB` table in the advanced hunting schema contains the list of vulnerabilities [Threat & Vulnerability Management](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) assesses devices for.</span></span> <span data-ttu-id="7d01c-108">Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.</span><span class="sxs-lookup"><span data-stu-id="7d01c-108">Use this reference to construct queries that return information from the table.</span></span>
+<span data-ttu-id="8dbad-107">De tabel in het geavanceerde schema voor de jacht bevat de lijst met beveiligingsproblemen `DeviceTvmSoftwareVulnerabilitiesKB` [& kwetsbaarheidsbeheer](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) apparaten beoordeelt voor.</span><span class="sxs-lookup"><span data-stu-id="8dbad-107">The `DeviceTvmSoftwareVulnerabilitiesKB` table in the advanced hunting schema contains the list of vulnerabilities [Threat & Vulnerability Management](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) assesses devices for.</span></span> <span data-ttu-id="8dbad-108">Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.</span><span class="sxs-lookup"><span data-stu-id="8dbad-108">Use this reference to construct queries that return information from the table.</span></span>
 
-<span data-ttu-id="7d01c-109">Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)</span><span class="sxs-lookup"><span data-stu-id="7d01c-109">For information on other tables in the advanced hunting schema, see [the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+<span data-ttu-id="8dbad-109">Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)</span><span class="sxs-lookup"><span data-stu-id="8dbad-109">For information on other tables in the advanced hunting schema, see [the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
 
-| <span data-ttu-id="7d01c-110">Kolomnaam</span><span class="sxs-lookup"><span data-stu-id="7d01c-110">Column name</span></span> | <span data-ttu-id="7d01c-111">Gegevenstype</span><span class="sxs-lookup"><span data-stu-id="7d01c-111">Data type</span></span> | <span data-ttu-id="7d01c-112">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="7d01c-112">Description</span></span> |
+| <span data-ttu-id="8dbad-110">Kolomnaam</span><span class="sxs-lookup"><span data-stu-id="8dbad-110">Column name</span></span> | <span data-ttu-id="8dbad-111">Gegevenstype</span><span class="sxs-lookup"><span data-stu-id="8dbad-111">Data type</span></span> | <span data-ttu-id="8dbad-112">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="8dbad-112">Description</span></span> |
 |-------------|-----------|-------------|
-| `CveId` | <span data-ttu-id="7d01c-113">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="7d01c-113">string</span></span> | <span data-ttu-id="7d01c-114">Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures)</span><span class="sxs-lookup"><span data-stu-id="7d01c-114">Unique identifier assigned to the security vulnerability under the Common Vulnerabilities and Exposures (CVE) system</span></span> |
-| `CvssScore` | <span data-ttu-id="7d01c-115">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="7d01c-115">string</span></span> | <span data-ttu-id="7d01c-116">Ernstscore die is toegewezen aan het beveiligingsprobleem onder het Common Vulnerability Scoring System (CVSS)</span><span class="sxs-lookup"><span data-stu-id="7d01c-116">Severity score assigned to the security vulnerability under th Common Vulnerability Scoring System (CVSS)</span></span> |
-| `IsExploitAvailable` | <span data-ttu-id="7d01c-117">booleaanse</span><span class="sxs-lookup"><span data-stu-id="7d01c-117">boolean</span></span> | <span data-ttu-id="7d01c-118">Geeft aan of exploitcode voor het beveiligingsprobleem openbaar beschikbaar is</span><span class="sxs-lookup"><span data-stu-id="7d01c-118">Indicates whether exploit code for the vulnerability is publicly available</span></span> |
-| `VulnerabilitySeverityLevel` | <span data-ttu-id="7d01c-119">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="7d01c-119">string</span></span> | <span data-ttu-id="7d01c-120">Ernstniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingslandschap</span><span class="sxs-lookup"><span data-stu-id="7d01c-120">Severity level assigned to the security vulnerability based on the CVSS score and dynamic factors influenced by the threat landscape</span></span> |
-| `LastModifiedTime` | <span data-ttu-id="7d01c-121">datetime</span><span class="sxs-lookup"><span data-stu-id="7d01c-121">datetime</span></span> | <span data-ttu-id="7d01c-122">Datum en tijd waarop het item of de gerelateerde metagegevens voor het laatst zijn gewijzigd</span><span class="sxs-lookup"><span data-stu-id="7d01c-122">Date and time the item or related metadata was last modified</span></span> |
-| `PublishedDate` | <span data-ttu-id="7d01c-123">datetime</span><span class="sxs-lookup"><span data-stu-id="7d01c-123">datetime</span></span> | <span data-ttu-id="7d01c-124">Datumprobleem is openbaar gemaakt</span><span class="sxs-lookup"><span data-stu-id="7d01c-124">Date vulnerability was disclosed to public</span></span> |
-| `VulnerabilityDescription` | <span data-ttu-id="7d01c-125">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="7d01c-125">string</span></span> | <span data-ttu-id="7d01c-126">Beschrijving van kwetsbaarheid en bijbehorende risico's</span><span class="sxs-lookup"><span data-stu-id="7d01c-126">Description of vulnerability and associated risks</span></span> |
-| `AffectedSoftware` | <span data-ttu-id="7d01c-127">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="7d01c-127">string</span></span> | <span data-ttu-id="7d01c-128">Lijst met alle softwareproducten die door het beveiligingsprobleem zijn beïnvloed</span><span class="sxs-lookup"><span data-stu-id="7d01c-128">List of all software products affected by the vulnerability</span></span> |
+| `CveId` | <span data-ttu-id="8dbad-113">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="8dbad-113">string</span></span> | <span data-ttu-id="8dbad-114">Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures)</span><span class="sxs-lookup"><span data-stu-id="8dbad-114">Unique identifier assigned to the security vulnerability under the Common Vulnerabilities and Exposures (CVE) system</span></span> |
+| `CvssScore` | <span data-ttu-id="8dbad-115">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="8dbad-115">string</span></span> | <span data-ttu-id="8dbad-116">Ernstscore die is toegewezen aan het beveiligingsprobleem onder het Common Vulnerability Scoring System (CVSS)</span><span class="sxs-lookup"><span data-stu-id="8dbad-116">Severity score assigned to the security vulnerability under th Common Vulnerability Scoring System (CVSS)</span></span> |
+| `IsExploitAvailable` | <span data-ttu-id="8dbad-117">booleaanse</span><span class="sxs-lookup"><span data-stu-id="8dbad-117">boolean</span></span> | <span data-ttu-id="8dbad-118">Geeft aan of exploitcode voor het beveiligingsprobleem openbaar beschikbaar is</span><span class="sxs-lookup"><span data-stu-id="8dbad-118">Indicates whether exploit code for the vulnerability is publicly available</span></span> |
+| `VulnerabilitySeverityLevel` | <span data-ttu-id="8dbad-119">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="8dbad-119">string</span></span> | <span data-ttu-id="8dbad-120">Ernstniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingslandschap</span><span class="sxs-lookup"><span data-stu-id="8dbad-120">Severity level assigned to the security vulnerability based on the CVSS score and dynamic factors influenced by the threat landscape</span></span> |
+| `LastModifiedTime` | <span data-ttu-id="8dbad-121">datetime</span><span class="sxs-lookup"><span data-stu-id="8dbad-121">datetime</span></span> | <span data-ttu-id="8dbad-122">Datum en tijd waarop het item of de gerelateerde metagegevens voor het laatst zijn gewijzigd</span><span class="sxs-lookup"><span data-stu-id="8dbad-122">Date and time the item or related metadata was last modified</span></span> |
+| `PublishedDate` | <span data-ttu-id="8dbad-123">datetime</span><span class="sxs-lookup"><span data-stu-id="8dbad-123">datetime</span></span> | <span data-ttu-id="8dbad-124">Datumprobleem is openbaar gemaakt</span><span class="sxs-lookup"><span data-stu-id="8dbad-124">Date vulnerability was disclosed to public</span></span> |
+| `VulnerabilityDescription` | <span data-ttu-id="8dbad-125">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="8dbad-125">string</span></span> | <span data-ttu-id="8dbad-126">Beschrijving van kwetsbaarheid en bijbehorende risico's</span><span class="sxs-lookup"><span data-stu-id="8dbad-126">Description of vulnerability and associated risks</span></span> |
+| `AffectedSoftware` | <span data-ttu-id="8dbad-127">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="8dbad-127">string</span></span> | <span data-ttu-id="8dbad-128">Lijst met alle softwareproducten die door het beveiligingsprobleem zijn beïnvloed</span><span class="sxs-lookup"><span data-stu-id="8dbad-128">List of all software products affected by the vulnerability</span></span> |
 
-## <a name="related-topics"></a><span data-ttu-id="7d01c-129">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="7d01c-129">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8dbad-129">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="8dbad-129">Related topics</span></span>
 
-- [<span data-ttu-id="7d01c-130">Proactief op bedreigingen zoeken</span><span class="sxs-lookup"><span data-stu-id="7d01c-130">Proactively hunt for threats</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="7d01c-131">De querytaal leren</span><span class="sxs-lookup"><span data-stu-id="7d01c-131">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="7d01c-132">Gedeelde query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="7d01c-132">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="7d01c-133">Opsporen op apparaten en in e-mailberichten, apps en identiteiten</span><span class="sxs-lookup"><span data-stu-id="7d01c-133">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="7d01c-134">Meer informatie over het schema</span><span class="sxs-lookup"><span data-stu-id="7d01c-134">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="7d01c-135">Aanbevolen procedures voor query's toepassen</span><span class="sxs-lookup"><span data-stu-id="7d01c-135">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
-- [<span data-ttu-id="7d01c-136">Overzicht van threat & Vulnerability Management</span><span class="sxs-lookup"><span data-stu-id="7d01c-136">Overview of Threat & Vulnerability Management</span></span>](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [<span data-ttu-id="8dbad-130">Proactief op bedreigingen zoeken</span><span class="sxs-lookup"><span data-stu-id="8dbad-130">Proactively hunt for threats</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="8dbad-131">De querytaal leren</span><span class="sxs-lookup"><span data-stu-id="8dbad-131">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="8dbad-132">Gedeelde query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="8dbad-132">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="8dbad-133">Opsporen op apparaten en in e-mailberichten, apps en identiteiten</span><span class="sxs-lookup"><span data-stu-id="8dbad-133">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="8dbad-134">Meer informatie over het schema</span><span class="sxs-lookup"><span data-stu-id="8dbad-134">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="8dbad-135">Aanbevolen procedures voor query's toepassen</span><span class="sxs-lookup"><span data-stu-id="8dbad-135">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+- [<span data-ttu-id="8dbad-136">Overzicht van threat & Vulnerability Management</span><span class="sxs-lookup"><span data-stu-id="8dbad-136">Overview of Threat & Vulnerability Management</span></span>](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

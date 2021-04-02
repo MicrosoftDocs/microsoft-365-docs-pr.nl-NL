@@ -8,67 +8,67 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 326e508fbf5a0e968e890f5727a6ae542de437c2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 629e18c7387f6063254f3482f93a5e17023c7316
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186003"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499950"
 ---
-# <a name="monitor-web-browsing-security"></a><span data-ttu-id="79ad2-104">Beveiliging voor surfen op het web controleren</span><span class="sxs-lookup"><span data-stu-id="79ad2-104">Monitor web browsing security</span></span>
+# <a name="monitor-web-browsing-security"></a><span data-ttu-id="6daae-104">Beveiliging voor surfen op het web controleren</span><span class="sxs-lookup"><span data-stu-id="6daae-104">Monitor web browsing security</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="79ad2-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="79ad2-105">**Applies to:**</span></span>
-- [<span data-ttu-id="79ad2-106">Microsoft Defender voor Endpoint</span><span class="sxs-lookup"><span data-stu-id="79ad2-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="79ad2-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="79ad2-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="6daae-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="6daae-105">**Applies to:**</span></span>
+- [<span data-ttu-id="6daae-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="6daae-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="6daae-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="6daae-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-><span data-ttu-id="79ad2-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="79ad2-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="79ad2-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="79ad2-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+><span data-ttu-id="6daae-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="6daae-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="6daae-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="6daae-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-<span data-ttu-id="79ad2-110">Met webbeveiliging kunt u de browsebeveiliging van uw organisatie controleren via rapporten onder **Rapporten > webbeveiliging** in het Microsoft Defender-beveiligingscentrum.</span><span class="sxs-lookup"><span data-stu-id="79ad2-110">Web protection lets you monitor your organization’s web browsing security through reports under **Reports > Web protection** in the Microsoft Defender Security Center.</span></span> <span data-ttu-id="79ad2-111">Het rapport bevat kaarten die statistieken over detectie van bedreigingen voor het web bieden.</span><span class="sxs-lookup"><span data-stu-id="79ad2-111">The report contains cards that provide web threat detection statistics.</span></span>
+<span data-ttu-id="6daae-110">Met webbeveiliging kunt u de browsebeveiliging van uw organisatie controleren via rapporten onder **Rapporten > webbeveiliging** in het Microsoft Defender-beveiligingscentrum.</span><span class="sxs-lookup"><span data-stu-id="6daae-110">Web protection lets you monitor your organization’s web browsing security through reports under **Reports > Web protection** in the Microsoft Defender Security Center.</span></span> <span data-ttu-id="6daae-111">Het rapport bevat kaarten die statistieken over detectie van bedreigingen voor het web bieden.</span><span class="sxs-lookup"><span data-stu-id="6daae-111">The report contains cards that provide web threat detection statistics.</span></span>
 
-- <span data-ttu-id="79ad2-112">**Detectie van webdreigingsbeveiliging** in de loop van de tijd: deze trending card geeft het aantal webbedreigingen weer dat tijdens de geselecteerde periode per type is gedetecteerd (Last 30 days, Last 3 months, Last 6 months)</span><span class="sxs-lookup"><span data-stu-id="79ad2-112">**Web threat protection detections over time** - this trending card displays the number of web threats detected by type during the selected time period (Last 30 days, Last 3 months, Last 6 months)</span></span>
+- <span data-ttu-id="6daae-112">**Detectie van webdreigingsbeveiliging** in de loop van de tijd: deze trending card geeft het aantal webbedreigingen weer dat tijdens de geselecteerde periode per type is gedetecteerd (Last 30 days, Last 3 months, Last 6 months)</span><span class="sxs-lookup"><span data-stu-id="6daae-112">**Web threat protection detections over time** - this trending card displays the number of web threats detected by type during the selected time period (Last 30 days, Last 3 months, Last 6 months)</span></span>
  
     ![Afbeelding van de kaart met beveiligingsdetecties voor webbedreigingen in de tijd](images/wtp-blocks-over-time.png)
 
-- <span data-ttu-id="79ad2-114">**Overzicht van webdreigingsbeveiliging:** op deze kaart worden de totale detecties van webdreigingen in de afgelopen 30 dagen weergegeven, met de verdeling over de verschillende typen webrisico's.</span><span class="sxs-lookup"><span data-stu-id="79ad2-114">**Web threat protection summary** - this card displays the total web threat detections in the past 30 days, showing distribution across the different types of web threats.</span></span> <span data-ttu-id="79ad2-115">Als u een segment selecteert, wordt de lijst geopend met de domeinen die zijn gevonden bij schadelijke of ongewenste websites.</span><span class="sxs-lookup"><span data-stu-id="79ad2-115">Selecting a slice opens the list of the domains that were found with malicious or unwanted websites.</span></span>
+- <span data-ttu-id="6daae-114">**Overzicht van webdreigingsbeveiliging:** op deze kaart worden de totale detecties van webdreigingen in de afgelopen 30 dagen weergegeven, met de verdeling over de verschillende typen webrisico's.</span><span class="sxs-lookup"><span data-stu-id="6daae-114">**Web threat protection summary** - this card displays the total web threat detections in the past 30 days, showing distribution across the different types of web threats.</span></span> <span data-ttu-id="6daae-115">Als u een segment selecteert, wordt de lijst geopend met de domeinen die zijn gevonden bij schadelijke of ongewenste websites.</span><span class="sxs-lookup"><span data-stu-id="6daae-115">Selecting a slice opens the list of the domains that were found with malicious or unwanted websites.</span></span>
 
     ![Afbeelding van de kaart met een overzicht van de beveiliging van webbedreigingen](images/wtp-summary.png)
 
 >[!Note]
-><span data-ttu-id="79ad2-117">Het kan tot 12 uur duren voordat een blok wordt weergegeven in de kaarten of de lijst met domeinen.</span><span class="sxs-lookup"><span data-stu-id="79ad2-117">It can take up to 12 hours before a block is reflected in the cards or the domain list.</span></span>
+><span data-ttu-id="6daae-117">Het kan tot 12 uur duren voordat een blok wordt weergegeven in de kaarten of de lijst met domeinen.</span><span class="sxs-lookup"><span data-stu-id="6daae-117">It can take up to 12 hours before a block is reflected in the cards or the domain list.</span></span>
 
-## <a name="types-of-web-threats"></a><span data-ttu-id="79ad2-118">Typen webbedreigingen</span><span class="sxs-lookup"><span data-stu-id="79ad2-118">Types of web threats</span></span>
+## <a name="types-of-web-threats"></a><span data-ttu-id="6daae-118">Typen webbedreigingen</span><span class="sxs-lookup"><span data-stu-id="6daae-118">Types of web threats</span></span>
 
-<span data-ttu-id="79ad2-119">Webbeveiliging categoriseert schadelijke en ongewenste websites als:</span><span class="sxs-lookup"><span data-stu-id="79ad2-119">Web protection categorizes malicious and unwanted websites as:</span></span>
+<span data-ttu-id="6daae-119">Webbeveiliging categoriseert schadelijke en ongewenste websites als:</span><span class="sxs-lookup"><span data-stu-id="6daae-119">Web protection categorizes malicious and unwanted websites as:</span></span>
 
-- <span data-ttu-id="79ad2-120">**Phishing** : websites met vervalste webformulieren en andere phishingmechanismen die zijn ontworpen om gebruikers te verleiden tot het openbaar maken van referenties en andere gevoelige informatie</span><span class="sxs-lookup"><span data-stu-id="79ad2-120">**Phishing** - websites that contain spoofed web forms and other phishing mechanisms designed to trick users into divulging credentials and other sensitive information</span></span>
-- <span data-ttu-id="79ad2-121">**Schadelijk** : websites die malware hosten en code misbruiken</span><span class="sxs-lookup"><span data-stu-id="79ad2-121">**Malicious** - websites that host malware and exploit code</span></span>
-- <span data-ttu-id="79ad2-122">**Aangepaste indicator** : websites waarvan u URL's of domeinen hebt toegevoegd aan uw [aangepaste indicatorlijst](manage-indicators.md) voor het blokkeren</span><span class="sxs-lookup"><span data-stu-id="79ad2-122">**Custom indicator** - websites whose URLs or domains you've added to your [custom indicator list](manage-indicators.md) for blocking</span></span>
+- <span data-ttu-id="6daae-120">**Phishing** : websites met vervalste webformulieren en andere phishingmechanismen die zijn ontworpen om gebruikers te verleiden tot het openbaar maken van referenties en andere gevoelige informatie</span><span class="sxs-lookup"><span data-stu-id="6daae-120">**Phishing** - websites that contain spoofed web forms and other phishing mechanisms designed to trick users into divulging credentials and other sensitive information</span></span>
+- <span data-ttu-id="6daae-121">**Schadelijk** : websites die malware hosten en code misbruiken</span><span class="sxs-lookup"><span data-stu-id="6daae-121">**Malicious** - websites that host malware and exploit code</span></span>
+- <span data-ttu-id="6daae-122">**Aangepaste indicator** : websites waarvan u URL's of domeinen hebt toegevoegd aan uw [aangepaste indicatorlijst](manage-indicators.md) voor het blokkeren</span><span class="sxs-lookup"><span data-stu-id="6daae-122">**Custom indicator** - websites whose URLs or domains you've added to your [custom indicator list](manage-indicators.md) for blocking</span></span>
 
-## <a name="view-the-domain-list"></a><span data-ttu-id="79ad2-123">De lijst met domeinen weergeven</span><span class="sxs-lookup"><span data-stu-id="79ad2-123">View the domain list</span></span>
+## <a name="view-the-domain-list"></a><span data-ttu-id="6daae-123">De lijst met domeinen weergeven</span><span class="sxs-lookup"><span data-stu-id="6daae-123">View the domain list</span></span>
 
-<span data-ttu-id="79ad2-124">Selecteer een specifieke categorie voor webbedreigingen in de **overzichtskaart voor webdreigingsbeveiliging** om de pagina **Domeinen te** openen.</span><span class="sxs-lookup"><span data-stu-id="79ad2-124">Select a specific web threat category in the **Web threat protection summary** card to open the **Domains** page.</span></span> <span data-ttu-id="79ad2-125">Op deze pagina wordt de lijst weergegeven met de domeinen onder die bedreigingscategorie.</span><span class="sxs-lookup"><span data-stu-id="79ad2-125">This page displays the list of the domains under that threat category.</span></span> <span data-ttu-id="79ad2-126">De pagina bevat de volgende informatie voor elk domein:</span><span class="sxs-lookup"><span data-stu-id="79ad2-126">The page provides the following information for each domain:</span></span>
+<span data-ttu-id="6daae-124">Selecteer een specifieke categorie voor webbedreigingen in de **overzichtskaart voor webdreigingsbeveiliging** om de pagina **Domeinen te** openen.</span><span class="sxs-lookup"><span data-stu-id="6daae-124">Select a specific web threat category in the **Web threat protection summary** card to open the **Domains** page.</span></span> <span data-ttu-id="6daae-125">Op deze pagina wordt de lijst weergegeven met de domeinen onder die bedreigingscategorie.</span><span class="sxs-lookup"><span data-stu-id="6daae-125">This page displays the list of the domains under that threat category.</span></span> <span data-ttu-id="6daae-126">De pagina bevat de volgende informatie voor elk domein:</span><span class="sxs-lookup"><span data-stu-id="6daae-126">The page provides the following information for each domain:</span></span>
 
-- <span data-ttu-id="79ad2-127">**Aantal access-** het aantal aanvragen voor URL's in het domein</span><span class="sxs-lookup"><span data-stu-id="79ad2-127">**Access count** - number of requests for URLs in the domain</span></span>
-- <span data-ttu-id="79ad2-128">**Blokken** : aantal keren dat aanvragen zijn geblokkeerd</span><span class="sxs-lookup"><span data-stu-id="79ad2-128">**Blocks** - number of times requests were blocked</span></span>
-- <span data-ttu-id="79ad2-129">**Access-trend:** het aantal toegangspogingen wijzigen</span><span class="sxs-lookup"><span data-stu-id="79ad2-129">**Access trend** - change in number of access attempts</span></span>
-- <span data-ttu-id="79ad2-130">**Bedreigingscategorie** - type webdreiging</span><span class="sxs-lookup"><span data-stu-id="79ad2-130">**Threat category** - type of web threat</span></span>
-- <span data-ttu-id="79ad2-131">**Apparaten** - aantal apparaten met toegangspogingen</span><span class="sxs-lookup"><span data-stu-id="79ad2-131">**Devices** - number of devices with access attempts</span></span>
+- <span data-ttu-id="6daae-127">**Aantal access-** het aantal aanvragen voor URL's in het domein</span><span class="sxs-lookup"><span data-stu-id="6daae-127">**Access count** - number of requests for URLs in the domain</span></span>
+- <span data-ttu-id="6daae-128">**Blokken** : aantal keren dat aanvragen zijn geblokkeerd</span><span class="sxs-lookup"><span data-stu-id="6daae-128">**Blocks** - number of times requests were blocked</span></span>
+- <span data-ttu-id="6daae-129">**Access-trend:** het aantal toegangspogingen wijzigen</span><span class="sxs-lookup"><span data-stu-id="6daae-129">**Access trend** - change in number of access attempts</span></span>
+- <span data-ttu-id="6daae-130">**Bedreigingscategorie** - type webdreiging</span><span class="sxs-lookup"><span data-stu-id="6daae-130">**Threat category** - type of web threat</span></span>
+- <span data-ttu-id="6daae-131">**Apparaten** - aantal apparaten met toegangspogingen</span><span class="sxs-lookup"><span data-stu-id="6daae-131">**Devices** - number of devices with access attempts</span></span>
 
-<span data-ttu-id="79ad2-132">Selecteer een domein om de lijst met apparaten weer te geven die hebben geprobeerd url's in dat domein en de lijst met URL's te openen.</span><span class="sxs-lookup"><span data-stu-id="79ad2-132">Select a domain to view the list of devices that have attempted to access URLs in that domain and the list of URLs.</span></span>
+<span data-ttu-id="6daae-132">Selecteer een domein om de lijst met apparaten weer te geven die hebben geprobeerd url's in dat domein en de lijst met URL's te openen.</span><span class="sxs-lookup"><span data-stu-id="6daae-132">Select a domain to view the list of devices that have attempted to access URLs in that domain and the list of URLs.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="79ad2-133">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="79ad2-133">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6daae-133">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="6daae-133">Related topics</span></span>
 
-- [<span data-ttu-id="79ad2-134">Overzicht van webbeveiliging</span><span class="sxs-lookup"><span data-stu-id="79ad2-134">Web protection overview</span></span>](web-protection-overview.md)
-- [<span data-ttu-id="79ad2-135">Filteren van webinhoud</span><span class="sxs-lookup"><span data-stu-id="79ad2-135">Web content filtering</span></span>](web-content-filtering.md)
-- [<span data-ttu-id="79ad2-136">Beveiliging tegen bedreigingen op het web</span><span class="sxs-lookup"><span data-stu-id="79ad2-136">Web threat protection</span></span>](web-threat-protection.md)
-- [<span data-ttu-id="79ad2-137">Reageren op webbedreigingen</span><span class="sxs-lookup"><span data-stu-id="79ad2-137">Respond to web threats</span></span>](web-protection-response.md)
+- [<span data-ttu-id="6daae-134">Overzicht webbeveiliging</span><span class="sxs-lookup"><span data-stu-id="6daae-134">Web protection overview</span></span>](web-protection-overview.md)
+- [<span data-ttu-id="6daae-135">Filteren van webinhoud</span><span class="sxs-lookup"><span data-stu-id="6daae-135">Web content filtering</span></span>](web-content-filtering.md)
+- [<span data-ttu-id="6daae-136">Webbedreigingsbeveiliging</span><span class="sxs-lookup"><span data-stu-id="6daae-136">Web threat protection</span></span>](web-threat-protection.md)
+- [<span data-ttu-id="6daae-137">Reageren op webbedreigingen</span><span class="sxs-lookup"><span data-stu-id="6daae-137">Respond to web threats</span></span>](web-protection-response.md)
