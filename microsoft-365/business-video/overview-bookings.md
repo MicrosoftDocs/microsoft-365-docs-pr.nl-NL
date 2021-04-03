@@ -2,8 +2,8 @@
 title: Microsoft Bookings - overzicht
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,34 +20,34 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over Microsoft Bookings.
-ms.openlocfilehash: 681667d8f399c0bf5ba1b84ee67352a30d10d78d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 826cb84acace03aaf18bcb9d3a58fa5a518d71ee
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422337"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578745"
 ---
 # <a name="overview-of-microsoft-bookings"></a>Overzicht van Microsoft Bookings
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE26B1q?autoplay=false]
 
-Microsoft-boekingen is een online- en mobiele app voor kleine bedrijven die klanten services bieden op afspraakbasis. Voorbeelden van bedrijven zijn kapsalons, tandartspraktijken, kuuroorden, advocatenkantoren, financiële dienstverleners, consultants en autobedrijven.
+Microsoft-boekingen is een online- en mobiele app voor kleine bedrijven die klanten services bieden op afspraakbasis. Voorbeelden van bedrijven zijn kapsalons, tandartspraktijken, kuuroorden, advocatenkantoren, financiële dienstverleners, consultants en autowinkels.
 
 ## <a name="get-started-with-bookings"></a>Aan de slag met Bookings
 
-1. Meld u aan bij Microsoft 365 en selecteer **Bookings** in het start programma voor apps.
+1. Meld u aan bij Microsoft 365 en selecteer **Bookings** in het start startplatform voor apps.
 1. Kies **Nu krijgen op** de pagina **Bookings.**
-1. Voeg uw bedrijfsgegevens toe en u kunt aan de slag met Bookings.
+1. Voeg uw zakelijke gegevens toe en u bent klaar om Bookings te gaan gebruiken.
 
-    Als u uw reserveringen op uw mobiele apparaat wilt beheren, downloadt u Bookings in de App Store.
+    Als u uw boekingen op uw mobiele apparaat wilt beheren, downloadt u Bookings in uw app Store.
 
 ## <a name="use-bookings"></a>Bookings gebruiken
 
-- Controleer op **het Dashboard Bookings** het adres, de uren en andere bedrijfsgegevens van uw bedrijf en werk deze zo nodig bij.
-- Op de **pagina Agenda** kunnen u en uw medewerkers klantafspraken toevoegen of bijwerken. U kunt uw agenda per dag, week of maand weergeven.
-- Op de **pagina** Klanten kunnen nieuwe klanten worden toegevoegd of geïmporteerd uit andere accounts, zoals Gmail of een apparaat.
-- Op **de pagina** Personeel kunt u uw personeel toevoegen en beheren. Het is belangrijk dat u hun e-mailadressen toevoegt, zodat ze direct meldingen van nieuwe afspraken kunnen ontvangen.
-- Op **de pagina Services** kunt u services toevoegen of beheren die klanten kiezen wanneer ze een afspraak boeken.
+- Bekijk op **het dashboard Bookings** uw zakelijke adres, uren en andere bedrijfsgegevens en werk zo nodig bij.
+- Op de **pagina** Agenda kunnen u en uw personeel klantafspraken toevoegen of bijwerken. U kunt uw agenda per dag, week of maand bekijken.
+- Op de **pagina Klanten** kunnen nieuwe klanten worden toegevoegd of geïmporteerd uit andere accounts, zoals Gmail of een apparaat.
+- Op **de pagina** Personeel kunt u uw personeel toevoegen en beheren. Het is belangrijk om hun e-mailadressen toe te voegen, zodat ze direct meldingen van nieuwe afspraken kunnen ontvangen.
+- Op **de pagina** Services kunt u de services toevoegen of beheren die klanten kiezen bij het boeken van een afspraak.
 - Ten slotte vindt u op de pagina **Bookings** veel instellingen, zoals uw planningsbeleid, e-mailmeldingen, tijdzone-instellingen en meer.
 
-Nadat u uw Bookings-agenda hebt opgeslagen en gepubliceerd, kan deze worden ingesloten op de website van uw bedrijf of op de Facebook-pagina.
+Nadat u uw Bookings-agenda hebt opgeslagen en gepubliceerd, kan deze worden ingesloten op de website of Facebook-pagina van uw bedrijf.

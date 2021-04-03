@@ -1,6 +1,6 @@
 ---
 title: Toegewezen stations voorbereiden voor Microsoft Managed Desktop
-description: Belangrijke stappen om ervoor te zorgen dat
+description: Belangrijke stappen om ervoor te zorgen dat gebruikers toegang hebben tot gegevens op kaartstations
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: cd45d6155fc0e01f6a285f6182aa051281d160e0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: f770f5083fe9193660b03e7971b09a127f2dae16
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922906"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574557"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Toegewezen stations voorbereiden voor Microsoft Managed Desktop
 
@@ -52,4 +53,16 @@ Zorg ervoor dat de in kaart gebrachte stations niet kunnen worden vermeden en da
 2. Verzend een ondersteuningsaanvraag met de titel 'Implementatie van stations in kaart gebracht' en geef alle vereiste gegevens over het delen van bestanden op.  
 3. Microsoft Managed Desktop IT Operations adviseert u, met behulp van updates voor ondersteuningsverzoeken, wanneer de aanvraag is voltooid. In eerste instantie wordt deze configuratie alleen geïmplementeerd op apparaten in de groep Test-implementatie.  
 4. U moet testen en controleren of de configuratie die is geïmplementeerd door de IT-bewerkingen van Microsoft Managed Desktop werkt zoals u verwacht. Reageer op het tabblad Discussie in de details van dezelfde ondersteuningsaanvraag om Microsoft Managed Desktop IT Operations op de hoogte te stellen nadat u de test hebt voltooid.  
-5. Microsoft Managed Desktop IT Operations-team implementeert de configuratie vervolgens naar de andere implementatiegroepen.
+5. Microsoft Managed Desktop IT Operations-team implementeert de configuratie vervolgens naar de andere implementatiegroepen. 
+
+## <a name="steps-to-get-ready"></a>Stappen om u klaar te maken
+
+1. Controleer [Vereisten voor Microsoft Managed Desktop](prerequisites.md).
+2. [Gebruik gereedheidsbeoordelingshulpmiddelen.](readiness-assessment-tool.md)
+3. [Vereisten voor gast-accounts](guest-accounts.md)
+4. [Netwerkconfiguratie voor Microsoft Managed Desktop](network.md)
+5. [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](certs-wifi-lan.md)
+6. [Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop](authentication.md)
+7. [Apps in Microsoft Managed Desktop](apps.md)
+8. [In kaart gebrachte stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md) (dit artikel)
+9. [Printbronnen voorbereiden voor Microsoft Managed Desktop](printing.md)

@@ -2,8 +2,8 @@
 title: Werkbestanden beveiligen bij verlies of diefstal van een mobiel apparaat
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -25,17 +25,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
-description: Meer informatie over de instellingen die beschikbaar zijn in Microsoft 365 voor bedrijven om werkbestanden te beveiligen als het apparaat van een gebruiker verloren of gestolen is.
-ms.openlocfilehash: 89f9041a39ef0167d5b918622b68c9566e65d5b3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over de instellingen die beschikbaar zijn in Microsoft 365 voor Bedrijven om werkbestanden te beveiligen als het apparaat van een gebruiker verloren gaat of wordt gestolen.
+ms.openlocfilehash: 6b10ce73d3ebe936d3878724783d6076455a3552
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401257"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578242"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Werkbestanden beveiligen bij verlies of diefstal van een mobiel apparaat
 
-De beleidsinstellingen bepalen wat er automatisch gebeurt om een verloren of gestolen apparaat te beveiligen. We raden u aan de standaardwaarden tijdens de installatie te accepteren om toepassingsbeleid voor Android, iOS en Windows 10 te maken dat van toepassing is op alle gebruikers. Nadat de installatie is voltooid, kunt u meer beleidsregels maken.
+De beleidsinstellingen bepalen wat er automatisch gebeurt om een verloren of gestolen apparaat te beveiligen. Het is raadzaam om de standaardwaarden tijdens de installatie te accepteren om toepassingsbeleid te maken voor Android, iOS en Windows 10 die van toepassing zijn op alle gebruikers. Nadat de installatie is voltooid, kunt u meer beleidsregels maken.
   
 ## <a name="settings-that-protect-work-files"></a>Instellingen voor het beveiligen van werkbestanden
 
@@ -45,7 +45,7 @@ De volgende instellingen zijn beschikbaar voor het beveiligen van werkbestanden 
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
 |Werkbestanden van een inactief apparaat verwijderen na zoveel dagen  <br/> |Als een apparaat niet wordt gebruikt voor het aantal dagen dat u hier opgeeft, worden alle werkbestanden die op het apparaat zijn opgeslagen, automatisch verwijderd.  <br/> |
-|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling **ingeschakeld**is, is De enige beschikbare opslaglocatie voor werkbestanden OneDrive voor Bedrijven.  <br/> |
+|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling **Aan** is, is OneDrive voor Bedrijven de enige beschikbare locatie voor het opslaan van werkbestanden.  <br/> |
 |Werkbestanden versleutelen  <br/> |Laat deze instelling **ingeschakeld** zodat werkbestanden worden beveiligd door versleuteling. Zelfs als het apparaat verloren of gestolen is, kan niemand uw bedrijfsgegevens lezen.  <br/> |
    
 

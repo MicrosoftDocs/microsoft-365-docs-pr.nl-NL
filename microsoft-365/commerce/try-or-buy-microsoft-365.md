@@ -19,21 +19,14 @@ search.appverid:
 - MET150
 description: Meer informatie over het krijgen van een gratis proefabonnement of het kopen van een abonnement voor Microsoft 365 voor Bedrijven.
 ms.date: 08/07/2020
-ms.openlocfilehash: 05ac30ae25f4748751eee04c34d049b07d5b7511
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9daa7022007aa3c71dc7291f592d3b166a2c45a5
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198433"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576899"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Een Microsoft 365 voor Bedrijven-abonnement proberen of kopen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../admin/microsoft-365-admin-center-preview.md?view=o365-21vianet).
-
-::: moniker-end
 
 Microsoft 365 voor Bedrijven is een abonnementsservice waarmee u uw organisatie kunt uitvoeren in de cloud terwijl Microsoft de IT voor u verzorgt. Microsoft beheert apparaten, beschermt tegen bedreigingen in de echte wereld en biedt uw organisatie de nieuwste bedrijfssoftware. U kunt zich registreren voor een gratis proefabonnement voor Microsoft 365 Business Standard, Microsoft 365 Business Premium of Microsoft 365 Apps voor Bedrijven en het 30 dagen uitproberen.
 
@@ -42,7 +35,7 @@ Microsoft 365 voor Bedrijven is een abonnementsservice waarmee u uw organisatie 
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U hebt geen bestaand Microsoft-account nodig om u aan te melden voor een gratis proefabonnement. Voor alle andere procedures in dit artikel moet u een globale beheerder of factureringsbeheerder voor uw organisatie zijn. Zie[Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
+U hebt geen bestaand Microsoft-account nodig om u aan te melden voor een gratis proefabonnement. Voor alle andere procedures in dit artikel moet u een globale beheerder of factureringsbeheerder voor uw organisatie zijn. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="try-a-free-trial-subscription"></a>Probeer een gratis proefabonnement
 
@@ -110,6 +103,21 @@ Wanneer u een ander abonnement koopt via het beheercentrum, is het nieuwe abonne
 
 > [!NOTE]
 > U moet gebruikers van uw gratis proefabonnement naar het nieuwe abonnement verplaatsen voordat uw respijtperiode van 90 dagen eindigt nadat uw proefabonnement is verlopen. Hierdoor houdt u uw gegevens, accounts en configuratie bij. Anders worden deze gegevens verwijderd.
+
+::: moniker range="o365-21vianet"
+## <a name="payment-options"></a>Betalingsopties
+
+U kunt uw abonnement betalen via:
+
+- Factuur
+
+- Online betalen met Alipay of China UnionPay
+
+Het bewijs van betaling wordt geleverd in de vorm van Fapiaos. U kunt uw Fapiao-aanvraag ongeveer drie (3) dagen nadat u hebt betaald, indienen bij ons [Fapiao-systeem.](https://go.microsoft.com/fwlink/p/?LinkId=395314) Zie Een [Fapiao aanvragen voor Office 365 beheerd door 21Vianet voor meer informatie.](../admin/services-in-china/apply-for-a-fapiao.md)
+
+> [!NOTE]
+>  Internationale creditcards worden niet geaccepteerd.
+::: moniker-end
 
 ## <a name="next-steps"></a>Volgende stappen
 

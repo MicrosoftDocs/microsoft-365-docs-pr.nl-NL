@@ -14,26 +14,18 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Meer informatie over het activeren en beheren van apps van derden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: f560b23871fc6d6ecb319a5704453f2400cb9982
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 974ce99b55dcb078286d7f6dba35166e51ce62a7
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911408"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576911"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>App-abonnementen van derden beheren voor uw organisatie
 
 U kunt licenties en facturering voor apps van derden beheren in het nieuwe Microsoft 365-beheercentrum. Bijgewerkte functies zijn verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen of bij een externe provider.
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-
 U kunt licenties en facturering voor apps van derden beheren in het Microsoft 365-beheercentrum met de preview-modus ingeschakeld. Bijgewerkte functies zijn verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen of bij externe provider.
-
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Software-as-a-service-apps downloaden
 
@@ -105,7 +97,7 @@ Beheerders kunnen het aantal licenties wijzigen dat eigendom is van hun organisa
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer **Aantal licenties wijzigen.**
 
-## <a name="manage-payment-methods"></a>Betalingsmethoden beheren
+## <a name="manage-payment-methods"></a>Betalingswijzen beheren
 
 Software-as-a-service-apps hebben elk een factureringsprofiel toegewezen. Met factureringsprofielen kunt u aanpassen welke producten op uw factuur staan en hoe u uw facturen betaalt. Deze omvatten:
 

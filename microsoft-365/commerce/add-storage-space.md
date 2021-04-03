@@ -23,21 +23,14 @@ search.appverid:
 - MET150
 description: Informatie over het toevoegen en beperken van bestandsopslag in uw Microsoft 365-abonnement. Met extra bestandsopslag kunt u meer inhoud opslaan in SharePoint Online en OneDrive.
 ms.date: ''
-ms.openlocfilehash: b170924f40d517cb6bbdf8635ad3e163eadc8643
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d65677b9c078026343410b53acd48932258cb4b1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911924"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576959"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Opslagruimte voor uw abonnement toevoegen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te raken, kunt u opslagruimte aan uw abonnement toevoegen als uw abonnement daarvoor in aanmerking komt.  Als u de **Office 365 Extra** Bestandsopslag niet ziet in de lijst met beschikbare invoegtoepassingen, betekent dit dat uw abonnement niet in aanmerking komt. Zie Komt mijn abonnement in aanmerking voor [meer informatie?](#is-my-plan-eligible-for-office-365-extra-file-storage)
 
@@ -46,7 +39,7 @@ Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te ra
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder of SharePoint-beheerder zijn om de taken in dit artikel uit te voeren. Zie[Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder of SharePoint-beheerder zijn om de taken in dit artikel uit te voeren. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="view-available-storage"></a>Beschikbare opslag weergeven
 
@@ -111,5 +104,5 @@ Office 365 Extra Bestandsopslag is beschikbaar voor de volgende abonnementen:
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Limieten voor siteopslag](ttps://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) beheren (artikel)\
+[Limieten voor siteopslag](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) beheren (artikel)\
 [De standaardopslagruimte instellen voor OneDrive-gebruikers](/onedrive/set-default-storage-space)(artikel)

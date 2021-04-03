@@ -1,9 +1,9 @@
 ---
-title: Hoe beleid in Microsoft 365 voor bedrijven bedrijfsgegevens beschermt
+title: Hoe beleidsregels in Microsoft 365 voor Bedrijven bedrijfsgegevens beveiligen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -26,21 +26,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: Als u bedrijfsgegevens op persoonlijke apparaten van gebruikers wilt beschermen, gebruikt u beleid dat zich richt op specifieke apparaten en beveiligingsgroepen.
-ms.openlocfilehash: 18bf29d82b8020d31fec681b2114af86f52cad9c
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Als u bedrijfsgegevens op persoonlijke apparaten van gebruikers wilt beveiligen, gebruikt u beleidsregels voor specifieke apparaten en beveiligingsgroepen.
+ms.openlocfilehash: 5c6a4b85b080c6c1afaf6ac5bec046f2a539ee20
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471154"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578422"
 ---
-# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Hoe beleid in Microsoft 365 voor bedrijven bedrijfsgegevens beschermt
+# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Hoe beleidsregels in Microsoft 365 voor Bedrijven bedrijfsgegevens beveiligen
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
 Het beleid dat u definieert, geldt specifiek voor het apparaattype en kan worden toegepast op specifieke groepen gebruikers. Dit betekent dat u één beleid kunt definiëren dat geldt voor uw managers en een tweede beleid dat van toepassing is op alle andere gebruikers.
   
-Voor Android- en iOS-apparaten kunt u beleid voor toepassingen toevoegen of bewerken ter bescherming van Office-apps en werkbestanden die door Office-apps worden gebruikt. We kunnen Windows 10-apparaten wat meer bedienen, zodat toepassingsbeleid meer instellingen kan bevatten, zoals versleuteling en beveiliging voor netwerk- en cloudlocaties. U kunt ook apparaatbeleid voor Windows 10-apparaten maken met instellingen voor virusbeveiliging en automatische updates. We raden u aan bij het beleid dat tijdens de installatie is gemaakt, maar als u uw beleid wilt verfijnen of meer wilt toevoegen, raadpleegt u de volgende artikelen:
+Voor Android- en iOS-apparaten kunt u beleid voor toepassingen toevoegen of bewerken ter bescherming van Office-apps en werkbestanden die door Office-apps worden gebruikt. We kunnen Windows 10-apparaten iets meer beheren, dus toepassingsbeleid kan meer instellingen bevatten, zoals versleuteling en beveiliging voor netwerk- en cloudlocaties. U kunt ook apparaatbeleid voor Windows 10-apparaten maken met instellingen voor virusbeveiliging en automatische updates. We raden u aan het beleid dat tijdens de installatie is gemaakt, bij te houden, maar als u uw beleid wilt afstemmen of meer wilt toevoegen, bekijkt u deze artikelen:
   
 [App-configuraties instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
   

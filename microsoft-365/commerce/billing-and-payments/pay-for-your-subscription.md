@@ -21,21 +21,14 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 44cb7b09c76ee5e49d2f556df104e55150212f30
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 582ecb0f9b46d877c30aa29334b30b9209c93993
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911780"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576935"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Meer informatie over het betalen voor uw abonnement
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 U kunt een creditcard, betaalkaart of bankrekening gebruiken om te betalen voor uw abonnement. In sommige gevallen kunt u per factuur betalen via een cheque of elektronische betaling (EFT). Als u een factureringsprofiel hebt, zijn de opties iets anders. Zie voor meer informatie [Betalen voor uw abonnement met een factureringsprofiel](pay-for-subscription-billing-profile.md). Als u niet zeker weet of uw account een factureringsprofiel heeft, raadpleegt u [Factureringsprofielen begrijpen](manage-billing-profiles.md).
 

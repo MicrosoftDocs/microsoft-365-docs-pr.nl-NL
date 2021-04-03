@@ -1,9 +1,9 @@
 ---
-title: Apparaatbeleid voor Windows 10 Pro beheren met Microsoft 365 Business Premium
+title: Windows 10 Pro-apparaatbeleid beheren met Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,32 +20,32 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Informatie over het beheren van apparaatbeleid voor Windows 10 Pro met Microsoft 365 Business Premium.
-ms.openlocfilehash: 8d3e5107c0b2dfe3a84f31b98d9bd3ff8f7c5e4f
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Meer informatie over het beheren van windows 10 Pro-apparaatbeleid met Microsoft 365 Business Premium.
+ms.openlocfilehash: 0f7cfff227e1ab4ea992414b513e341adbd9ef22
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422121"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578685"
 ---
-# <a name="manage-windows-10-pro-device-policies"></a>Apparaatbeleid voor Windows 10 Pro beheren
+# <a name="manage-windows-10-pro-device-policies"></a>Windows 10 Pro-apparaatbeleid beheren
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSL?autoplay=false]
 
-U kunt Microsoft 365 Business gebruiken om ervoor te zorgen dat Windows Defender Antivirus op Windows 10-apparaten wordt geactiveerd en Microsoft-updates automatisch worden gedownload naar apparaten van gebruikers.
+U kunt Microsoft 365 Business gebruiken om ervoor te zorgen dat Windows Defender Antivirus wordt geactiveerd op Windows 10-apparaten en dat Microsoft-updates automatisch worden gedownload naar apparaten van gebruikers.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
 1. Meld u aan bij het Microsoft 365-beheercentrum.
-1. Kies **Beleid** toevoegen onder Beleid.
-1. Voer in **het deelvenster** Beleid toevoegen een naam in onder **Beleidsnaam** en selecteer **vervolgens Windows 10-apparaatconfiguratie** onder **Beleidstype.**
+1. Kies **onder Beleid** de optie Beleid toevoegen.
+1. Voer in **het deelvenster** Beleid toevoegen een naam in onder **Beleidsnaam** en selecteer **vervolgens Windows 10 Apparaatconfiguratie** onder **Beleidstype.**
 1. Kies **Windows 10-apparaten beveiligen om** de subinstellingen te zien.
-1. Bescherm **pc's** tegen virussen en andere bedreigingen met Windows Defender Antivirus en zorg ervoor dat **Windows 10-apparaten** automatisch zijn ingeschakeld.
-1. Onder **Wie krijgen deze instellingen?** zijn alle gebruikers standaard  geselecteerd, maar u kunt Wijzigen kiezen om eventuele beveiligingsgroepen te selecteren die u hebt gemaakt.
-1. Kies Toevoegen om het maken van het beleid **te voltooien.**
-1. Kies Sluiten **op de** pagina Beleid **toevoegen.**
-1. Controleer op de startpagina van het beheercentrum  of het nieuwe beleid is toegevoegd door Beleid te kiezen en het beleid te controleren **op** de pagina Beleid.
-1. Als u wilt controleren of het beleid van kracht is, gaat u op het Windows 10-apparaat van een gebruiker naar Windows Update, kiest u Geavanceerde opties en controleert u of de instellingen grijs worden weergegeven.
+1. Zorg ervoor dat Pc's helpen beschermen tegen virussen en andere bedreigingen met **Windows Defender Antivirus** en Windows **10-apparaten up-to-date** houden, automatisch worden ingeschakeld.
+1. Onder **Wie krijgt deze instellingen?** zijn alle gebruikers standaard  geselecteerd, maar u kunt Wijzigen kiezen om eventuele beveiligingsgroepen te selecteren die u hebt gemaakt.
+1. Als u het beleid wilt voltooien, kiest u **Toevoegen.**
+1. Kies op **de pagina Beleid toevoegen** de optie **Sluiten.**
+1. Controleer op de startpagina van het beheercentrum  of uw nieuwe beleid is toegevoegd door Beleid te kiezen en uw beleid te controleren **op** de pagina Beleid.
+1. Als u wilt controleren of het beleid van kracht is, gaat u op het Windows 10-apparaat van een gebruiker naar Windows Update, kiest u Geavanceerde opties **en** controleert u of instellingen grijs zijn.
 
-    Klik vervolgens op **Kiezen hoe updates** worden afgeleverd en controleer of de instellingen grijs worden weergegeven en of het volgende bericht wordt weergegeven: Sommige instellingen zijn verborgen of worden beheerd door uw **organisatie.**
+    Klik vervolgens op **Kiezen hoe updates worden** geleverd en controleer of instellingen grijs worden weergegeven en het volgende bericht wordt weergegeven: Sommige instellingen worden verborgen of beheerd door uw **organisatie.**
 

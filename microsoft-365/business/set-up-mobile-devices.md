@@ -2,8 +2,8 @@
 title: Mobiele apparaten instellen voor gebruikers van Microsoft 365 voor Bedrijven
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,13 +25,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: Als u Office installeert op een iPhone of Android-telefoon, worden uw werkbestanden in Office-apps beveiligd door Microsoft 365 voor Bedrijven.
-ms.openlocfilehash: ef18fcce851b8fa1573fd5134bd25fb7d4a3d8f9
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Installeer Office op een iPhone of een Android-telefoon en uw werkbestanden in Office-apps worden beveiligd door Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: fefec17344d199ced230907fbaa85d98198cfb94
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928739"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578162"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Mobiele apparaten instellen voor gebruikers van Microsoft 365 voor Bedrijven
 
@@ -61,15 +61,15 @@ Wanneer de installatie is voltooid, tikt u op de knop **Openen** om Outlook te o
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Voer uw zakelijke e-mailadres in op het scherm Account toevoegen van het scherm E-mailaccount toevoegen en voer uw microsoft  \> 365 voor bedrijven-referenties \> **in.**
+Voer uw werk-e-mailadres in op het scherm E-mailaccount toevoegen  Account toevoegen en voer vervolgens uw Microsoft \> 365 voor Bedrijven-referenties in Meld u  \> **aan.**
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-Als uw organisatie bestanden in apps beschermt, ziet u een dialoogvenster waarin wordt aangegeven dat uw organisatie nu de gegevens in de app beschermt en dat u de app opnieuw moet starten om deze te blijven gebruiken. Tik op **OK** en sluit Outlook. 
+Als uw organisatie bestanden in apps beschermt, ziet u een dialoogvenster waarin wordt aangegeven dat uw organisatie de gegevens in de app nu beschermt en dat u de app opnieuw moet starten om deze te kunnen blijven gebruiken. Tik op **OK** en sluit Outlook. 
   
-![Schermafbeelding die toont dat uw organisatie nu uw Outlook-app beschermt](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Schermafbeelding van de beveiliging van uw Outlook-app door uw organisatie](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
-Ga naar Outlook op de iPhone en start het opnieuw. Wanneer u daarom wordt gevraagd, voert u een pincode in en verifieert u deze. Outlook op uw iPhone is nu klaar voor gebruik.
+Ga naar Outlook op de iPhone en start het opnieuw. Wanneer u daarom wordt gevraagd, voert u een pincode in en controleert u deze. Outlook op uw iPhone is nu klaar voor gebruik.
   
 ![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
@@ -81,15 +81,15 @@ Bekijk een video over het installeren van Outlook en Office op Android-apparaten
 
 Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Ga naar de Play Store om de installatie op uw Android-telefoon te starten.
+Als u wilt beginnen met instellen op uw Android-telefoon, gaat u naar de Play Store.
   
 ![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-Voer Microsoft Outlook in het zoekvak van Google Play in en tik op **Installeren.** Nadat Outlook is geïnstalleerd, tikt u op **Openen.**
+Voer Microsoft Outlook in het zoekvak google Play in en tik op **Installeren.** Wanneer Outlook is geïnstalleerd, tikt u op **Openen.**
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-Tik in de Outlook-app op Aan de **slag,** voeg vervolgens uw e-mailaccount van Microsoft 365 voor Bedrijven Continue toe en meld u aan met de referenties van \> uw organisatie.
+Tik in de Outlook-app **op Aan de** slag en voeg vervolgens uw e-mailaccount van Microsoft 365 voor Bedrijven continue toe en meld u aan met uw \> organisatiereferenties.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -97,7 +97,7 @@ In het dialoogvenster waarin wordt aangegeven dat u de app Bedrijfsportal Intune
   
 ![Tap on Go to store to get Intune Company Portal app](../media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-Installeer in de Play Store Intune-bedrijfsportal.
+Installeer Intune Company Portal in de Play Store.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   

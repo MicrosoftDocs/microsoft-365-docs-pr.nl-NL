@@ -2,8 +2,8 @@
 title: De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Lees hoe u Windows AutoPilot gebruikt om nieuwe Windows 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik door werknemers.
-ms.openlocfilehash: 75cc51b889f8673de8dba2357c777de47fd0d296
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cd8777e6ae2e395506d2bf308c99309de1e24805
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913497"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578522"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 

@@ -2,8 +2,8 @@
 title: Statuswaarden voor apparaten
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: Meer informatie over de verschillende apparaattoestanden in de lijst Met apparaatacties in Het beheerhome in Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 64138e2b6ae73c067709cde1912a96615d08ebf1
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Meer informatie over de verschillende apparaatstaten in de lijst Apparaatacties in Beheerhuis in Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: e6f1b428413d094e0a1ce3afb026528074038736
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471174"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578462"
 ---
 # <a name="device-states"></a>Apparaatstatussen
 
@@ -47,12 +47,12 @@ Apparaten in de lijst **Apparaatacties** lijst (startpagina beheerders \> **Appa
 |In afwachting van buiten gebruik stellen  <br/> |Microsoft 365 Business Premium maakt zich klaar om bedrijfsgegevens van het apparaat te verwijderen.  <br/> |
 |Buitengebruikstelling wordt uitgevoerd  <br/> |Microsoft 365 Business Premium verwijdert momenteel bedrijfsgegevens van het apparaat.  <br/> |
 |Buiten gebruik stellen is mislukt  <br/> | Het verwijderen van bedrijfsgegevens is mislukt.  <br/> |
-|Met pensioen geannuleerd  <br/> |De actie Met pensioen is geannuleerd.  <br/> |
+|Met pensioen gaan geannuleerd  <br/> |De actie Voor het terug trekken is geannuleerd.  <br/> |
 |Wissen in behandeling  <br/> |Wachten tot de fabrieksinstellingen opnieuw worden ingesteld.  <br/> |
 |Wissen wordt uitgevoerd  <br/> |De fabrieksinstellingen worden opnieuw ingesteld.  <br/> |
-|Wissen is mislukt  <br/> |Kon niet doen fabriek resetten.  <br/> |
-|Veeg geannuleerd  <br/> |Het afvegen van de fabriek is geannuleerd.  <br/> |
-|Niet in orde  <br/> |Er is een actie in behandeling (of wordt uitgevoerd), maar het apparaat heeft zich al meer dan 30 dagen niet ingecheckt.  <br/> |
+|Wissen is mislukt  <br/> |Het is niet mogelijk om de fabriek opnieuw in te stellen.  <br/> |
+|Geannuleerd wissen  <br/> |Fabrieks wissen is geannuleerd.  <br/> |
+|Niet in orde  <br/> |Een actie is in behandeling (of wordt uitgevoerd), maar het apparaat is al meer dan 30 dagen niet ingecheckt.  <br/> |
 |In afwachting van verwijderen  <br/> |Het verwijderen is in behandeling.  <br/> |
 |Gedetecteerd  <br/> |Microsoft 365 Business Premium heeft het apparaat gedetecteerd.  <br/> |
    
