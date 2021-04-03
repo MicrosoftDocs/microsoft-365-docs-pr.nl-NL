@@ -2,8 +2,8 @@
 title: Bedrijfsgegevens van apparaten verwijderen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: Ontdek hoe u Microsoft 365 voor bedrijven gebruiken om bedrijfsgegevens te verwijderen die uw gebruikers op hun apparaten of Windows-pc's hebben.
-ms.openlocfilehash: 3a2faf0c5617b5d1e6beccf1e457f8b483820604
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Ontdek hoe u Microsoft 365 voor Bedrijven gebruikt om bedrijfsgegevens te verwijderen die uw gebruikers hebben op hun apparaten of Windows-pc's.
+ms.openlocfilehash: 2e1af384d83937d65fd5c8ae655d228df48422cd
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470822"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579989"
 ---
 # <a name="remove-company-data-from-devices"></a>Bedrijfsgegevens van apparaten verwijderen
 
@@ -37,19 +37,19 @@ Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
 ## <a name="remove-company-data"></a>Bedrijfsgegevens verwijderen
 
-U Microsoft 365 voor bedrijven gebruiken om bedrijfsgegevens te verwijderen die uw gebruikers hebben op hun [apparaten](app-protection-settings-for-android-and-ios.md) of [Windows-pc's](protection-settings-for-windows-10-devices.md) die zijn beschermd door Microsoft 365. **Als u bedrijfsgegevens van een apparaat verwijdert, kunt u dit later niet herstellen**. 
+U kunt Microsoft 365 voor Bedrijven gebruiken om bedrijfsgegevens te verwijderen die uw gebruikers hebben op hun apparaten of [Windows-pc's](protection-settings-for-windows-10-devices.md) die zijn beveiligd door Microsoft 365. [](app-protection-settings-for-android-and-ios.md) **Als u bedrijfsgegevens van een apparaat verwijdert, kunt u dit later niet herstellen**. 
   
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
-2. Kies Op het linkernavigatiesysteem **Apparaten** \> **beheren**.  
+2. Kies apparaten beheren  aan de \> **linkerkant.**  
   
-3. Kies of zoek op de pagina **Beheren** naar een gebruiker die de gegevens wilt verwijderen en kies de naam. 
+3. Kies of **zoek op** de pagina Beheren naar een gebruiker die de gegevens heeft die u wilt verwijderen en kies de naam. 
     
-4. Selecteer in het volgende deelvenster het apparaat of de apparaten in de lijst **Apparaten.** In het geopende apparaatvenster u ervoor kiezen het apparaat opnieuw in te stellen naar fabrieksinstellingen of bedrijfsgegevens te verwijderen, afhankelijk van het apparaattype. 
+4. Selecteer in het volgende deelvenster het apparaat of de apparaten in de **lijst** Apparaten. In het apparaatvenster dat wordt geopend, kunt u ervoor kiezen om het apparaat opnieuw in te stellen op fabrieksinstellingen of bedrijfsgegevens te verwijderen, afhankelijk van het apparaattype. 
     
     ![Selecteer in het deelvenster Bedrijfsgegevens verwijderen het apparaat waaruit u de gegevens wilt verwijderen.](../media/resetorremove.png)
   
-5. Kies In het bevestigingsvenster **De** optie \> **Sluiten bevestigen**.
+5. Kies in het bevestigingsvenster **De optie Sluiten** \> **bevestigen.**
     
 
 

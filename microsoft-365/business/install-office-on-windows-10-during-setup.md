@@ -2,8 +2,8 @@
 title: Office installeren op Windows 10 tijdens Setup
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -25,18 +25,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Ontdek hoe u met Microsoft 365 Business Premium er automatisch voor zorgen dat gebruikers de nieuwste versie van Office op al hun Windows 10-apparaten hebben.
-ms.openlocfilehash: 1ca386f75743178aebaf0bfabbabcb74f4813685
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Ontdek hoe u met Microsoft 365 Business Premium automatisch kunt zorgen dat gebruikers de nieuwste versie van Office hebben op al hun Windows 10-apparaten.
+ms.openlocfilehash: d3c62eb42ea73c7af6df6012dbc9488828cd1ba8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400833"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580169"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Office installeren op Windows 10 tijdens Setup
 
-![Banner die wijzen op https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
+![Banner die naar https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
 
-Deze instelling is standaard uitgeschakeld. U deze inschakelen om ervoor te zorgen dat gebruikers de nieuwste versie van Office op al hun Windows 10-apparaten hebben, maar controleer eerst of aan alle vereisten is voldaan. Gebruikers moeten een licentie hebben voor Microsoft 365 Business Premium voor deze instelling om de software naar het apparaat te pushen, naast andere vereisten die worden beschreven in [Voorbereiden op de implementatie van Office-client door Microsoft 365 Business Premium](prepare-for-office-client-deployment.md).
+Deze instelling is standaard uitgeschakeld. U kunt deze inschakelen om ervoor te zorgen dat gebruikers de nieuwste versie van Office hebben op al hun Windows 10-apparaten, maar controleer eerst of aan alle vereisten is voldaan. Gebruikers moeten een licentie hebben voor Microsoft 365 Business Premium voor deze instelling om de software naar het apparaat te kunnen pushen, naast andere vereisten die worden beschreven in Voorbereiden voor office-clientimplementatie door [Microsoft 365 Business Premium.](prepare-for-office-client-deployment.md)
   
-We raden u aan de standaardinstelling tijdens de installatie te accepteren.
+U wordt aangeraden de standaardinstelling tijdens de installatie te accepteren.

@@ -4,34 +4,34 @@ summary: Meer informatie over het instellen en beheren van Microsoft 365 voor uw
 brand: m365
 metadata:
   title: Microsoft 365-training voor kleine bedrijven
-  description: Microsoft 365 instellen en beheren in het Microsoft 365-Beheercentrum.
+  description: Microsoft 365 instellen en beheren in het Microsoft 365-beheercentrum.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
-  author: Sirkkuw
-  ms.author: sirkkuw
+  author: twerner
+  ms.author: twernermsft
   ms.date: 12/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 2a874179c9a3da778ff0757d9a883af44a462141
-  ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+  ms.openlocfilehash: 0c9ba8560c2ee64b8e0da4d14afe869006bd6ed8
+  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 01/11/2021
-  ms.locfileid: "49794158"
+  ms.lasthandoff: 04/02/2021
+  ms.locfileid: "51580568"
 productDirectory:
   items:
   - title: Aan de slag
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Plan de overstap naar Microsoft 365 voor bedrijven.
+    summary: Plan uw overstap naar Microsoft 365 voor Bedrijven.
     url: what-is-microsoft-365.md
   - title: Microsoft 365 voor bedrijven instellen
     imageSrc: https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg
-    summary: Een domein toevoegen, gebruikers toevoegen en beveiligingsbeleid instellen...
+    summary: Een domein toevoegen, gebruikers toevoegen, beveiligingsbeleid instellen...
     url: sign-up.md
   - title: Computers instellen
     imageSrc: https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg
-    summary: Installeer Office, stel e-mail in, migreer bestanden...
+    summary: Office installeren, e-mail instellen, bestanden migreren...
     url: upgrade.md
   - title: Mobiele apparaten instellen
     imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
@@ -39,46 +39,46 @@ productDirectory:
     url: work-from-anywhere.md
   - title: Samenwerken met andere personen
     imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
-    summary: Werk samen met medewerkers en klanten in teams.
+    summary: Werken met werknemers en klanten in Teams.
     url: collab-outlook-teams.md
   - title: Bestanden opslaan en delen
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg
-    summary: Bewaar bestanden veilig en overal toegang.
+    summary: Sla bestanden veilig op en toegang vanaf elke locatie.
     url: overview-file-sharing.md
-  - title: Zakelijke stem instellen
+  - title: Zakelijke spraak instellen
     imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
-    summary: Telefoonservice en vergaderingen instellen.
+    summary: Telefoonservice en -televergaderingen instellen.
     url: business-voice.md
   - title: Zakelijke apps instellen
     imageSrc: https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg
-    summary: Instellen en leren werken met reserveringen, lijsten en taken...
+    summary: Boekingen, lijsten, taken instellen en leren...
     url: overview-bookings.md
   - title: Uw abonnement beheren
     imageSrc: https://docs.microsoft.com/office/media/icons/settings.svg
-    summary: Gebruikers beheren, wachtwoorden opnieuw instellen, uw factuur weergeven...
+    summary: Gebruikers beheren, wachtwoorden opnieuw instellen, uw factuur bekijken...
     url: what-is-admin.md
   - title: Uw apparaten beheren
     imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-blue.svg
-    summary: Beleidsregels instellen voor persoonlijke en zakelijke apparaten.
+    summary: Beleidsregels instellen voor persoonlijke en werkapparaten.
     url: secure-win-10-pro-devices.md
   - title: Uw bedrijf beveiligen
     imageSrc: https://docs.microsoft.com/office/media/icons/security-blue.svg
-    summary: Functies voor beveiliging en compliance instellen.
+    summary: Beveiligings- en compliancefuncties instellen.
     url: overview-m365-security.md
   - title: Ondersteuning
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-blue.svg
-    summary: Hulp vragen bij Microsoft 365 voor bedrijven.
+    summary: Hulp vragen bij Microsoft 365 voor Bedrijven.
     url: find-help-answers.md
 additionalContent:
   sections:
   - title: Meer informatie
     items:
     - title: Meer informatie over Office
-      summary: Meer informatie over het gebruik van Word, Excel, PowerPoint en andere Office-apps.
+      summary: Meer informatie over het gebruik van Word-, Excel-, PowerPoint- en andere Office-apps.
       url: https://support.microsoft.com/training
     - title: Overstappen van Google Workspace
-      summary: Ontdek hoe u overstapt op Microsoft 365 voor bedrijven.
+      summary: Lees hoe u overschakelt naar Microsoft 365 voor Bedrijven.
       url: moveto-microsoft-365/move-from-google-workspace-overview.md
-    - title: Meer beheerders bronnen zoeken
-      summary: Ga naar de Help site van het Microsoft 365-Beheercentrum.
+    - title: Meer beheerdersbronnen zoeken
+      summary: Ga naar de Help-site van het Microsoft 365-beheercentrum.
       url: ../admin/index.yml

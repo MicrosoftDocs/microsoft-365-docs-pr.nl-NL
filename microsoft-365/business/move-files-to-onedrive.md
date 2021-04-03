@@ -2,8 +2,8 @@
 title: Bestanden verplaatsen naar OneDrive voor Bedrijven
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Ontdek hoe u uw persoonlijke werkbestanden en gevoelige bedrijfsbestanden in slechts een paar eenvoudige stappen verplaatsen naar OneDrive voor Bedrijven.
-ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: In een paar eenvoudige stappen leert u hoe u uw persoonlijke werkbestanden en gevoelige bedrijfsbestanden kunt verplaatsen naar OneDrive voor Bedrijven.
+ms.openlocfilehash: d6bcf2b41f1052c521fda50557aac4bf6a3800fa
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785907"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580069"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Bestanden verplaatsen naar OneDrive voor Bedrijven
 
@@ -37,14 +37,14 @@ Bekijk een korte video over het verplaatsen van bestanden naar OneDrive voor Bed
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Bestanden verplaatsen naar OneDrive voor Bedrijven
 
 Als een gebruiker een computer met veel persoonlijke bestanden heeft, moet u eerst deze bestanden verplaatsen naar OneDrive voor Bedrijven:
   
-1. Ga naar portal.office.com en meld u aan bij microsoft 365 van de gebruiker voor zakelijke referenties.
+1. Ga naar portal.office.com en meld u aan met de Microsoft 365 voor Bedrijven-referenties van de gebruiker.
 
 2. Klik op het startprogramma voor apps ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) en ga naar OneDrive. 
     
@@ -52,6 +52,6 @@ Als een gebruiker een computer met veel persoonlijke bestanden heeft, moet u eer
     
 Als u het gebruikersprofiel en de belangrijke bestanden wilt overzetten, kunt u ook een hulpprogramma van derden gebruiken, zoals ForensiT. U moet de resulterende bestanden ook in OneDrive voor Bedrijven uploaden.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 voor bedrijven
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 voor Bedrijven
 
 [Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

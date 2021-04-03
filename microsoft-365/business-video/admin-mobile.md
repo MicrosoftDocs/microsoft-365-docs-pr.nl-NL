@@ -2,8 +2,8 @@
 title: De mobiele app voor beheerders downloaden
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,43 +19,43 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Informatie over het installeren van de mobiele app Microsoft 365 Admin op uw telefoon.
-ms.openlocfilehash: 43c2c2905dec978a520e2bf2d4b9b2aa7318b7a7
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Meer informatie over het installeren van de mobiele app Microsoft 365 Admin op uw telefoon.
+ms.openlocfilehash: 0367123e9bd74ab79c17b38eb49cc31fc6fba8e4
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423009"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580700"
 ---
 # <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>De mobiele app Microsoft 365 Admin installeren op uw telefoon
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWe8Kw?autoplay=false]
 
-U kunt de mobiele App Microsoft 365 Admin gebruiken om gebruikers te beheren, de service status te bewaken en andere beheertaken uit te voeren vanaf uw telefoon.
+U kunt de mobiele app Microsoft 365 Admin gebruiken om gebruikers te beheren, de servicetoestand te controleren en andere beheertaken vanaf uw telefoon uit te voeren.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Als u de mobiele app Microsoft 365 Admin wilt downloaden, zoekt u naar  **Microsoft 365 Admin**  in de App Store voor uw apparaat en installeert u deze.
-2. Meld u aan met het e-mailadres van uw globale beheerder en bekijk het dashboard om de service status te bekijken, gebruikerslicenties te controleren en berichten en serviceaanvragen te bekijken.
+1. Als u de mobiele app Microsoft 365 Admin wilt downloaden, zoekt u naar  **Microsoft 365-beheerder**  in de App Store voor uw apparaat en installeert u deze.
+2. Meld u aan met het e-mailadres van uw globale beheerder en bekijk het dashboard om de servicetoestand te bekijken, gebruikerslicenties te controleren en berichten en serviceaanvragen te bekijken.
 3. Hier zijn enkele veelvoorkomende taken die u met de app kunt uitvoeren:
 
 ### <a name="reset-a-users-password"></a>Het wachtwoord van een gebruiker opnieuw instellen
 
-1. Kies **Gebruikers onder Snelkoppelingen.** 
-2. Kies op **de** pagina Gebruikers de naam van de gebruiker en kies Wachtwoord **opnieuw instellen.**
-3. Als u wilt dat gebruikers hun nieuwe wachtwoord moeten wijzigen  wanneer ze zich de eerste keer aanmelden, selecteert u het selectievakje Wijzigen bij de eerste aanmelding en kiest u Opnieuw **instellen.**
+1. Kies **onder Snelle koppelingen** de optie **Gebruikers.**
+2. Kies op **de** pagina Gebruikers de naam van de gebruiker en kies vervolgens **Wachtwoord opnieuw instellen.**
+3. Als u wilt dat de gebruiker het nieuwe wachtwoord wijzigt  wanneer deze zich voor het eerst aandient, selecteert u het selectievakje Wijzigen bij eerste aanmelding en kiest u **Vervolgens Opnieuw instellen.**
 4. Wanneer u wordt gevraagd om te bevestigen, kiest **u Ja** en vervolgens **OK.**
-5. In het  **venster Wachtwoord**  delen kunt u desgewenst het nieuwe wachtwoord per e-mail of sms naar de gebruiker verzenden.
+5. In het  **venster Wachtwoord**  delen kunt u desgewenst het nieuwe wachtwoord naar de gebruiker verzenden in een e-mailbericht of een sms-bericht.
 
 ### <a name="add-a-user-to-a-group"></a>Een gebruiker toevoegen aan een groep
 
-1. Kies **Groepen onder Snelkoppelingen.** 
-2. Kies op **de** pagina Groepen de groep aan wie u een gebruiker wilt toevoegen, en kies vervolgens Leden **bewerken** en vervolgens **Een lid toevoegen.**
+1. Kies **onder Snelle koppelingen** de optie **Groepen.**
+2. Kies op **de** pagina Groepen de groep aan wie u een gebruiker wilt toevoegen en kies leden **bewerken** en voeg **vervolgens een lid toe.**
 3. Kies de gebruiker die u wilt toevoegen.
 4. Wanneer u wordt gevraagd om te bevestigen, kiest **u Ja** en vervolgens **OK.**
 
-### <a name="turn-on-notifications"></a>Meldingen in te zetten
+### <a name="turn-on-notifications"></a>Meldingen in- en uit-
 
-1. Kies Instellingen in het **hoofdmenu.**
-2. Kies Meldingen onder **App-instellingen.** 
-3. Schakel de selectievakjes naast **Service status** en **Berichtencentrum in.**
+1. Kies instellingen in het **hoofdmenu.**
+2. Kies **onder App-instellingen** de **optie Meldingen.**
+3. Schakel de selectievakjes in naast **Service-status** en **Berichtencentrum.**

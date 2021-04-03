@@ -2,8 +2,8 @@
 title: Uw Windows 10-pc's beveiligen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,13 +19,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het instellen van beveiligingsbeleid voor Windows 10 met Microsoft 365 Business Premium.
-ms.openlocfilehash: 6bda2c284cb2b7511339d42c61cf4a99b5abd80e
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Meer informatie over het instellen van windows 10-beveiligingsbeleid met Microsoft 365 Business Premium.
+ms.openlocfilehash: a7049f96ecba317bd58fee9f9dc6b7e124f5f9d2
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422073"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580448"
 ---
 # <a name="secure-windows-10-pcs"></a>Windows 10-pc's beveiligen
 
@@ -33,14 +33,14 @@ ms.locfileid: "50422073"
  
 ## <a name="try-it"></a>Probeer het zelf!  
 
-Nadat u apparaatbeveiliging hebt ingesteld in Microsoft 365 Business, volgt u deze stappen om uw Windows 10-computers te beschermen.
+Nadat u apparaatbeveiliging hebt ingesteld in Microsoft 365 Business, volgt u deze stappen om uw Windows 10-computers te beveiligen.
 
-1. Kies Setup in het Microsoft 365-beheercentrum. 
-2. Selecteer **Beeld onder Windows-computers** **beveiligen.**
-3. Bekijk de informatie op de pagina Uw  **Windows 10-computers beveiligen,**  zodat u weet wat het beleid is en hoe deze van invloed zijn op uw gebruikers.
+1. Kies setup in het Microsoft 365-beheercentrum. 
+2. Selecteer **onder Uw Windows-computers beveiligen** de optie **Weergeven.**
+3. Bekijk de informatie op de  **pagina Uw Windows 10-computers**  beveiligen, zodat u inzicht hebt in het beleid en hoe deze van invloed zijn op uw gebruikers.
 4. Selecteer **Aan de slag.**
-5. Bekijk de opties in het instellingenvenster van  **Windows 10**  en pas deze zo nodig aan. Plaats de muisaanwijzer op de knopinfo voor meer informatie over een beleid.
-6. Op  **wie moet het beleid van toepassing zijn?** , kiest u of uw selecties worden toegepast op iedereen in uw organisatie of op specifieke beveiligingsgroepen.
+5. Bekijk de opties in het  **windows 10-instellingenvenster**  en pas indien nodig aan. Plaats de muisaanwijzer op de knopinfo voor meer informatie over een beleid.
+6. Onder  **Op wie moet het beleid van toepassing zijn?** , kies of uw selecties worden toegepast op iedereen in uw organisatie of op specifieke beveiligingsgroepen.
 7. Selecteer **Wijzigingen opslaan.**
 
-Microsoft 365 Business helpt nu uw Windows 10-computers te beschermen.
+Microsoft 365 Business helpt nu om uw Windows 10-computers te beschermen.

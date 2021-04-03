@@ -2,8 +2,8 @@
 title: Office-apps voor iOS beveiligen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,32 +20,32 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het beveiligen van Office-apps in iOS met Microsoft 365 Business Premium.
-ms.openlocfilehash: 197041a4eb9ada65f4b6046d93f2a856cbdfb40d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Meer informatie over het beveiligen van Office-apps op iOS met Microsoft 365 Business Premium.
+ms.openlocfilehash: 5a5f52f87fe63fdec6df9611a5ea44a2ecf4466b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422109"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580460"
 ---
 # <a name="secure-office-apps-on-ios"></a>Office-apps voor iOS beveiligen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FLvZ?autoplay=false]
 
-U kunt een toegangsbeleid voor gebruikers instellen, zodat mobiele gebruikers een pincode of vingerafdruk moeten invoeren om zich aan te melden. Ook worden werkbestanden versleuteld die op hun apparaten zijn opgeslagen.
+U kunt een gebruikerstoegangsbeleid instellen waarin mobiele gebruikers een pincode of vingerafdruk moeten invoeren om zich aan te melden, en ook werkbestanden versleutelen die zijn opgeslagen op hun apparaten.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
 1. Meld u aan bij het Microsoft 365-beheercentrum.
-1. Kies **Beleid** toevoegen **onder Beleid.**
-1. Voer in **het deelvenster** Beleid toevoegen een naam in onder **Beleidsnaam** en kies het 2007-beleidstype onder **Beleidstype.**
-1. Schakel Beheren **in hoe gebruikers Office-bestanden op** mobiele apparaten openen en zorg ervoor dat de volgende drie instellingen zijn ingeschakeld:
+1. Kies **onder Beleid** de optie Beleid **toevoegen.**
+1. Voer in **het deelvenster** Beleid toevoegen een naam in onder **Beleidsnaam** en kies het beleidstype dat u wilt gebruiken onder **Beleidtype.**
+1. Schakel Beheren in hoe gebruikers Toegang krijgen tot **Office-bestanden op mobiele apparaten** en zorg ervoor dat de volgende drie instellingen zijn ingeschakeld:
     - **Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps**
-    - **Werkbestanden beveiligen bij verlies of diefstal van apparaten**
+    - **Werkbestanden beveiligen wanneer apparaten verloren gaan of worden gestolen**
     - **Werkbestanden versleutelen**
 
 1. Selecteer **onder Bestanden in deze apps de** Office-apps die u wilt beveiligen op mobiele apparaten.
-1. Onder **Wie krijgen deze instellingen?** zijn alle gebruikers standaard  geselecteerd, maar u kunt Wijzigen kiezen om beveiligingsgroepen te selecteren die u hebt gemaakt.
-1. Kies Toevoegen om het maken van het beleid **te voltooien.**
-1. Kies Sluiten **op de** pagina Beleid **toevoegen.**
-1. Controleer op de startpagina van het beheercentrum  of het nieuwe beleid is toegevoegd door Beleid te kiezen en het beleid te controleren **op** de pagina Beleid.
+1. Onder **Wie krijgt deze instellingen?** zijn alle gebruikers standaard  geselecteerd, maar u kunt Wijzigen kiezen om eventuele beveiligingsgroepen te selecteren die u hebt gemaakt.
+1. Als u het beleid wilt voltooien, kiest u **Toevoegen.**
+1. Kies op **de pagina Beleid toevoegen** de optie **Sluiten.**
+1. Controleer op de startpagina van het beheercentrum  of uw nieuwe beleid is toegevoegd door Beleid te kiezen en uw beleid te controleren **op** de pagina Beleid.

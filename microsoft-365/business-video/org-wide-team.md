@@ -2,8 +2,8 @@
 title: Een team voor uw hele organisatie maken
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: twerner
+author: twernermsft
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,13 +19,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lees hoe u een team voor de hele organisatie kunt maken in Microsoft Teams.
-ms.openlocfilehash: 98513795b5f499e288671431defffbd4be0d2a4d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Meer informatie over het maken van een organisatiebreed team in Microsoft Teams.
+ms.openlocfilehash: fa24457bbe34136c793fd0e7a5856ba57e345ca1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422469"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580532"
 ---
 # <a name="create-an-org-wide-team"></a>Een team voor uw hele organisatie maken
 
@@ -33,22 +33,22 @@ ms.locfileid: "50422469"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-Maak een team voor de hele organisatie in Microsoft Teams waar iedereen in uw bedrijf deel van kan uitmaken. Als u meer gebruikers toevoegt aan Microsoft 365, worden deze automatisch toegevoegd aan dit team.
+Maak een organisatiebreed team in Microsoft Teams waar iedereen in uw bedrijf deel van kan uitmaken. Wanneer u meer gebruikers toevoegt aan Microsoft 365, worden ze automatisch toegevoegd aan dit team.
 
-1. Selecteer Teams in Microsoft Teams  **en** vervolgens **Team maken.**
-2. Kies **Een nieuw team maken.**
-3. Selecteer **Een team voor de hele organisatie maken.**
+1. Selecteer in Microsoft Teams  **Teams** en vervolgens **Team maken.**
+2. Kies **Een team vanaf het begin opbouwen.**
+3. Selecteer **Een organisatiebreed team maken.**
 
 > [!NOTE]
 > U moet een Microsoft 365-beheerder zijn om deze optie te kunnen bekijken.
 
-1. Geef uw team een naam, voeg een beschrijving toe en selecteer Vervolgens **Maken.**
+1. Geef uw team een naam, voeg een beschrijving toe en selecteer **vervolgens Maken.**
 
 Binnen uw team zijn kanalen. Het kanaal Algemeen wordt automatisch gemaakt. U kunt extra kanalen, afzonderlijke gesprekken en bestanden toevoegen voor verschillende afdelingen, gebeurtenissen of projecten.
 
 Probeer een van de volgende opties:
 
-- Gebruik het  **tabblad Posts** voor gesprekken en aankondigingen voor de hele organisatie, zoals een welkomstbericht voor iedereen.
-- Op het  **tabblad** Bestanden kunt u nieuwe documenten maken waar iedereen aan kan bijdragen, zoals een Microsoft Word-document. Of sleep bestaande documenten naar het tabblad **Bestanden.**
-- Gebruik het  **tabblad Wiki** om snelle notities te maken. En selecteer het plusteken () om apps of bestanden toe te **+** voegen als extra tabbladen.
-- Met de tabbladen aan de linkerkant kunt u recente activiteiten bekijken, chatten met andere teamleden, de teams bekijken waar u lid van bent en uw agenda. U kunt spraak- en videogesprekken voeren met andere teamgebruikers en bestanden bekijken waar u onlangs aan hebt gewerkt.
+- Gebruik het  **tabblad Berichten** voor gesprekken en aankondigingen voor de hele organisatie, zoals een welkomstbericht voor iedereen.
+- Op het  **tabblad** Bestanden kunt u nieuwe documenten maken waar iedereen aan kan bijdragen, zoals een Microsoft Word-document. U kunt ook bestaande documenten naar het tabblad Bestanden slepen  **en** neerzetten.
+- Gebruik het  **tabblad Wiki** om snelle notities te maken. En selecteer het plusteken **+** () om apps of bestanden toe te voegen als extra tabbladen.
+- Met de tabbladen aan de linkerkant kunt u recente activiteiten bekijken, chatten met andere teamleden, de teams bekijken die u behoort en uw agenda. U kunt spraak- en videogesprekken voeren met andere teamgebruikers en bestanden bekijken waar u onlangs aan hebt gewerkt.

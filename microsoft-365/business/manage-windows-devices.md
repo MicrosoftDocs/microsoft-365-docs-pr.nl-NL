@@ -2,8 +2,8 @@
 title: Enable domain-joined Windows 10 devices to be managed by Microsoft 365 for Business
 f1.keywords:
 - CSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: In een paar stappen leert u hoe u Microsoft 365 kunt inschakelen om lokale Windows 10-apparaten met Active Directory te beveiligen.
-ms.openlocfilehash: 82d4ac3f1d6aba9489f9ea153de3a3d2083b47ec
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8a45c6959bee368491c5c6424e3713300c443779
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913189"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580129"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Enable domain-joined Windows 10 devices to be managed by Microsoft 365 Business Premium
 
