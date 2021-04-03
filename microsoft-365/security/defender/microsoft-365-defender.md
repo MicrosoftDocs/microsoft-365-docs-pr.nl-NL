@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: f789053e0922ee81155a243bbaa7b3ab5b0f6d87
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 687077b1c9ff2449d9994875419a97cf0c503c2f
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058590"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581080"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "51058590"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](m365d-pilot.md?ocid=cx-evalpilot)
+> Wilt u Microsoft 365 Defender ervaren? U kunt het [evalueren in een testomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of [uw pilotproject uitvoeren in een productieomgeving](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
 Microsoft 365 Defender is een geïntegreerde suite voor bedrijfsdefensie vóór en na inbreuk die inheems detectie, preventie, onderzoek en antwoord coördineert in eindpunten, identiteiten, e-mail en toepassingen om geïntegreerde bescherming te bieden tegen geavanceerde aanvallen.
@@ -56,7 +56,7 @@ Met de geïntegreerde Microsoft 365 Defender-oplossing kunnen beveiligingsprofes
 
 In deze interactieve handleiding leert u hoe u uw organisatie kunt beschermen met Microsoft 365 Defender. U ziet hoe Microsoft 365 Defender u kan helpen bij het opsporen van beveiligingsrisico's, het onderzoeken van aanvallen op uw organisatie en het automatisch voorkomen van schadelijke activiteiten.
 
-> [!VIDEO https://aka.ms/M365Defender-InteractiveGuide]
+[Bekijk de interactieve handleiding](https://aka.ms/M365Defender-InteractiveGuide)
 
 
 
@@ -95,4 +95,4 @@ Microsoft 365 Defender-cross-productfuncties zijn:
 ## <a name="get-started"></a>Aan de slag
 Er moet aan de licentievereisten voor Microsoft 365 Defender worden voldaan voordat u de service kunt inschakelen in het Microsoft 365-beveiligingscentrum [op security.microsoft.com.](https://security.microsoft.com) Lees voor meer informatie:
 - [Licentievereisten](prerequisites.md#licensing-requirements)
-- [Microsoft 365 Defender in-](m365d-enable.md)
+- [Microsoft 365 Defender inschakelen](m365d-enable.md)

@@ -1,9 +1,9 @@
 ---
-title: Microsoft-productiviteits Score-samenwerken aan inhoud
+title: Microsoft Productiviteitsscore - Samenwerking met inhoud
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: pebaum
+author: pebaum
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -18,183 +18,183 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-description: Details van de samenwerking van inhoud-personen met productiviteits Score.
-ms.openlocfilehash: 62486511be7e085401e4a2934ce3742a15729e1f
-ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
+description: 'Details van de samenwerking met inhoud: personen ervaren productiviteitsscore.'
+ms.openlocfilehash: dedd39a84580f26e80e5586e07fb64c8a6d35573
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712589"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580856"
 ---
-# <a name="content-collaboration--people-experiences"></a>Samenwerken aan inhoud: mensen ervaring
+# <a name="content-collaboration--people-experiences"></a>Samenwerking met inhoud: ervaringen met personen
 
-Productiviteits Score biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologie ervaring ter ondersteuning van uw organisatie. De Score van uw organisatie weerspiegelt de maten voor personen en technologieën, en kan worden vergeleken met de Bench maten van organisaties die vergelijkbaar zijn met uw organisatie. De categorie voor samenwerking van inhoud maakt deel uit van de personen die de functies hebben. Ga voor meer informatie naar het overzicht van de [productiviteits Score](productivity-score.md) en lees de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
+Productiviteitsscore biedt inzicht in de digitale transformatie van uw organisatie via het gebruik van Microsoft 365 en de technologieervaringen die dit ondersteunen. De score van uw organisatie weerspiegelt metingen voor mensen en technologieervaringen en kan worden vergeleken met benchmarks van organisaties die vergelijkbaar zijn met die van u. De categorie inhoudssamenwerking maakt deel uit van de metingen van personen. Voor meer informatie raadpleegt u het overzicht [productiviteitsscore](productivity-score.md) en leest u de [privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="prerequisites"></a>Vereisten
 
-Om aan de slag te kunnen gaan met inzicht in inhoud samenwerken, moeten personen in uw organisatie een licentie voor het volgende doen:
+Om aan de slag te gaan met inzichten in inhoudssamenwerking, moeten personen in uw organisatie een licentie hebben voor:
 
 - OneDrive voor Bedrijven
 - SharePoint
 - Exchange Online
 
-Zie [licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md)voor meer informatie.
+Zie Licenties toewijzen [aan gebruikers voor meer informatie.](../manage/assign-licenses-to-users.md)
 
- Na de afgelopen 30 dagen in de bovenstaande producten, begint u met het bekijken van de inzichten.
+ Nadat personen de afgelopen 28 dagen ten minste eenmaal in de bovenstaande producten actief zijn geweest, ziet u de inzichten.
 
-## <a name="why-your-organization39s-content-collaboration-score-matters"></a>Waarom uw organisatie de samenwerking van de inhoud van de organisatie&#39;
+## <a name="why-your-organization39s-content-collaboration-score-matters"></a>Waarom de score voor&#39;samenwerking van uw organisatie belangrijk is
 
-Een belangrijke aspect van digitale transformatie is hoe mensen in bestanden kunnen samenwerken. Met uw inhoud op Microsoft 365 kunnen personen toegang krijgen tot inhoud en deze op een willekeurige locatie maken, wijzigen en hieraan samenwerken. Onderzoek laat zien dat elke persoon een gemiddelde van 100 minuten per week opslaat wanneer mensen samenwerken met online bestanden. [Zie het bewijs](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
+Een belangrijk aspect van digitale transformatie is hoe mensen samenwerken aan bestanden. Met uw inhoud in Microsoft 365 hebben personen vanaf elke locatie toegang tot, maken, wijzigen en samenwerken aan inhoud met andere personen. Uit onderzoek blijkt dat wanneer personen samenwerken met onlinebestanden, elke persoon gemiddeld 100 minuten per week opspart. [Bekijk het bewijs.](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)
 
-## <a name="how-we-calculate-the-content-collaboration-score"></a>De score voor de samenwerking van inhoud berekenen
+## <a name="how-we-calculate-the-content-collaboration-score"></a>De manier waarop we de score voor inhoudssamenwerking berekenen
 
-We bieden een primair inzicht met de belangrijkste gegevens voor de samenwerking van inhoud in uw organisatie. Vervolgens wordt een beoordelings raamwerk dat hieronder nader wordt gebruikt om de Score van uw organisatie te berekenen.
+We bieden een primair inzicht met de belangrijkste metrische gegevens voor samenwerking met inhoud in uw organisatie. Vervolgens wordt een hieronder beschreven scorekader gebruikt voor deze metrische gegevens om de score van uw organisatie te berekenen.
 
-### <a name="primary-insight"></a>Primaire inzichten
+### <a name="primary-insight"></a>Primair inzicht
 
-Met Microsoft OneDrive voor bedrijven en SharePoint kunnen gebruikers eenvoudig de afzonderlijke en gedeelde inhoud in Microsoft 365 maken, lezen en detecteren via meerdere apparaten en toepassingen. Gebruikers kunnen er ook voor zorgen dat mensen veilig inhoud delen en eraan samenwerken. Het belangrijkste inzicht bevat gegevens van iedereen die OneDrive voor bedrijven en SharePoint kunnen gebruiken. Daarnaast worden de details gesplitst van de hoeveelheid mensen die zijn opgeslagen in OneDrive voor bedrijven en SharePoint.
+Microsoft OneDrive voor Bedrijven en SharePoint helpen personen bij het eenvoudig maken, lezen en ontdekken van hun afzonderlijke en gedeelde inhoud in Microsoft 365 vanaf verschillende apparaten en toepassingen. Daarnaast kunnen personen veilig inhoud delen en samenwerken aan inhoud. Het primaire inzicht bevat informatie van iedereen die OneDrive voor Bedrijven en SharePoint kan gebruiken. Daarnaast worden de details van het aantal personen dat inhoud leest, maakt en samenwerkt dat is opgeslagen in OneDrive voor Bedrijven en SharePoint, opgeslagen.
 
-:::image type="content" source="../../media/collabscore_primary.jpg" alt-text="Belangrijkste inzichten van communicatie-samenwerkings Score.":::
+:::image type="content" source="../../media/collabscore_primary.jpg" alt-text="Primaire inzichten uit de samenwerkingsscore voor communicatie.":::
 
 
-De typen die voor deze informatie worden overwogen, zijn Word-, Excel-, PowerPoint-, OneNote-en PDF-bestanden.
+Typen die voor deze informatie worden overwogen, zijn Word-, Excel-, PowerPoint-, OneNote- en PDF-bestanden.
 
-1. **Koptekst:** Hier ziet u het percentage van de personen in uw organisatie die toegang hebben tot OneDrive of SharePoint, en die samenwerken aan inhoud.
-2. **Hoofdtekst:** In dit artikel vindt u meer informatie over de manier waarop het gedrag van online lezen en het maken van bestanden is gekoppeld aan samenwerken aan bestanden.
+1. **Koptekst:** Toont het percentage personen in uw organisatie dat toegang heeft tot OneDrive of SharePoint die samenwerken aan inhoud.
+2. **Body:** Meer informatie over hoe het gedrag van het lezen en maken van bestanden online is gekoppeld aan het samenwerken aan bestanden.
 3. **Visualisatie (huidige status):**
-    - Horizontale balken waarbij de blauwe gekleurde gedeelten het percentage weergeven van personen die zijn ingeschakeld voor samenwerking via OneDrive of SharePoint, kunnen in de afgelopen 30 **dagen als** **lezer, Creator**
+    - Horizontale balken waarin de blauwgekleurde gedeelten het percentage personen vertegenwoordigen dat is ingeschakeld voor **bestandssamenwerking** via OneDrive of SharePoint die de afgelopen 28 dagen **lezers,** makers of samenwerkers zijn geweest in onlinebestanden.
 
-        Ze zijn als volgt gedefinieerd:</br>
-        **Lezers:** Personen die online bestanden openen of downloaden in OneDrive of SharePoint.</br>
-        **Makers:** Personen die online OneDrive-of SharePoint-bestanden maken, wijzigen, uploaden, synchroniseren, inchecken, kopiëren of verplaatsen.</br>
-        **Samen** werkers: Personen die met online bestanden werken via OneDrive of SharePoint. Twee personen zijn medewerkers, als een van de Office-apps of-documenten worden gelezen of bewerkt nadat de andere persoon de app heeft gemaakt of gewijzigd, binnen een venster van 28 dagen.
+        Ze worden als volgt gedefinieerd:</br>
+        **Lezers:** Personen die onlinebestanden openen of downloaden in OneDrive of SharePoint.</br>
+        **Makers:** Personen die OneDrive- of SharePoint-bestanden maken, wijzigen, uploaden, synchroniseren, inchecken, kopiëren of verplaatsen.</br>
+        **Medewerkers:** Personen die samenwerken met onlinebestanden met OneDrive of SharePoint. Twee personen zijn medewerkers als een van hen een online Office-app of PDF-bestand leest of bewerkt nadat de andere persoon deze heeft gemaakt of gewijzigd, binnen een venster van 28 dagen.
 
         > [!NOTE]
-        > De bestanden in de visualisatie zijn Word-, Excel-, PowerPoint-, OneNote-of PDF-bestanden die online zijn en die zijn opgeslagen in OneDrive of SharePoint. 
+        > De bestanden die in de visualisatie worden beschouwd, zijn Word-, Excel-, PowerPoint-, OneNote- of PDF-bestanden die online zijn en zijn opgeslagen in OneDrive of SharePoint. 
 
-    - Markeren (teller/noemer) van de breuk wordt gebruikt om het percentage te berekenen dat wordt weergegeven in elke horizontale balk.
+    - Markering (teller/noemer) van de breuk wordt gebruikt om het percentage te berekenen dat in elk van de horizontale balken wordt uitgedrukt.
     
-      - **Programma's**</br>
-          - Teller: het aantal personen dat online bestanden in OneDrive of SharePoint in de afgelopen 28 dagen opent of downloadt</br>
-          - Noemer: het aantal personen dat OneDrive of SharePoint bevat voor minstens 1 van de afgelopen 28 dagen</br>
-      - **Creators**</br>
-        - Teller: het aantal personen dat een verbinding maakt, wijzigen, uploaden, synchroniseren, inchecken, kopiëren of verplaatsen in OneDrive of SharePoint in de afgelopen 30 dagen</br>
-        - Noemer: het aantal personen dat OneDrive of SharePoint bevat voor minstens 1 van de afgelopen 28 dagen. </br> 
-      - **Informatie medewerkers**</br>
-        - Teller: het aantal personen dat heeft gewerkt aan online bestanden in OneDrive of SharePoint in de afgelopen 30 dagen</br>
-        - Noemer: het aantal personen dat in OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad
+      - **Lezers:**</br>
+          - Teller: Het aantal personen dat de afgelopen 28 dagen onlinebestanden in OneDrive of SharePoint heeft gedownload of openen</br>
+          - Noemer: Het aantal personen dat ten minste 1 van de laatste 28 dagen toegang heeft tot OneDrive of SharePoint</br>
+      - **Makers:**</br>
+        - Teller: Aantal personen dat in de afgelopen 28 dagen onlinebestanden in OneDrive of SharePoint maakt, wijzigt, uploadt, synchroniseert, incheckt, kopieert of verplaatst</br>
+        - Noemer: Het aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint. </br> 
+      - **Medewerkers:**</br>
+        - Teller: Het aantal personen dat de afgelopen 28 dagen heeft samengewerkt aan onlinebestanden in OneDrive of SharePoint</br>
+        - Noemer: Het aantal personen dat toegang heeft tot OneDrive of SharePoint voor ten minste 1 van de laatste 28 dagen
 
-    - De benchmark-waarde voor elke lezer, Creator en medewerkers wordt ook weergegeven als percentage. Met andere woorden, de waarde van het aantal Creators wordt weergegeven als een percentage van het aantal personen dat toegang heeft tot OneDrive of SharePoint.
+    - Peer benchmarkwaarde voor elk van lezers, makers en medewerkers wordt ook weergegeven als een percentage. Met andere woorden, de waarde van het aantal makers wordt weergegeven als een percentage van het aantal personen dat toegang heeft tot OneDrive of SharePoint.
     
-1. **Koppeling naar bronnen:** Selecteer deze koppeling om gesorteerde Video's en andere verwante Help-inhoud weer te geven.
+1. **Koppeling naar resources:** Selecteer deze koppeling om gesorteerde video's en andere gerelateerde Help-inhoud weer te geven.
 
 
-#### <a name="trend-visualization-of-primary-insight"></a>Trend visualisatie van primaire inzichten
+#### <a name="trend-visualization-of-primary-insight"></a>Trendvisualisatie van primair inzicht
 
-In de grafiek trend visualisaties ziet u de trendlijn van de primaire metrische informatie over de belangrijkste informatie voor lezers, makers en medewerkers, gedurende de laatste 180 dagen. Elk gegevenspunt in de grafiek is een samenvatting van de activiteit voor de afgelopen 28 dagen. Elke creatorgegevens punt biedt een telling van alle personen die zijn gemarkeerd als Creators binnen de laatste 28 dagen voor elke datum op de x-as.
+In de grafiek met trendvisualisaties ziet u de trendlijn van de belangrijkste statistieken voor primaire inzichten voor lezers, makers en medewerkers, in de afgelopen 180 dagen. Elk gegevenspunt in de grafiek is een aggregaat van activiteiten voor de afgelopen 28 dagen. Elk gegevenspunt van de maker bevat een aantal personen die in de afgelopen 28 dagen zijn getagd als makers voor elke datum op de x-as.
 
-:::image type="content" source="../../media/trendvisualization.jpg" alt-text="Diagram met trends voor de samenwerking van primaire inzichten.":::
+:::image type="content" source="../../media/trendvisualization.jpg" alt-text="Grafiek met trends voor primair inzicht in samenwerking.":::
 
-### <a name="scoring-framework"></a>Score raamwerk
+### <a name="scoring-framework"></a>Scorekader
 
-De score voor de samenwerking van de inhoud van uw organisatie is op een niveau van de samenvoeging (organisatie), ongeacht of personen die consistent zijn met het lezen, maken of samenwerken aan Office-bestanden, zoals Word, Excel, PowerPoint, OneNote of PDF, of in OneDrive of SharePoint.
+De score voor inhoudssamenwerking voor uw organisatie meet op statistisch (organisatieniveau) of personen voortdurend online Office-bestanden lezen, maken of samenwerken, zoals Word, Excel, PowerPoint, OneNote of PDF's, of in OneDrive of SharePoint.
 
-Er worden geen scores opgegeven voor het afzonderlijke gebruikersniveau.
+Scores worden niet op individueel gebruikersniveau verstrekt.
 
 
-## <a name="explore-how-your-organization-collaborates"></a>De werking van uw organisatie verkennen
+## <a name="explore-how-your-organization-collaborates"></a>Ontdek hoe uw organisatie samenwerkt
 
-We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organisatie de inhoud kan samenwerken. Deze extra metrische gegevens vormen geen directe bijdrage van de productiviteits Score, maar helpen u een plan voor actieplannen te maken als onderdeel van de digitale transformatie, zodat de manier waarop mensen werken, kunnen worden geoptimaliseerd.
+We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organisatie samenwerkt aan inhoud. Deze extra metrische gegevens dragen niet rechtstreeks bij aan uw productiviteitsscore, maar helpen u bij het maken van een actieplan als onderdeel van uw digitale transformatie om de manier waarop mensen werken te optimaliseren.
 
 ### <a name="creating-files-in-onedrive-or-sharepoint"></a>Bestanden maken in OneDrive of SharePoint
 
-:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="Grafiek met het aantal personen die bestanden maken in OneDrive of SharePoint":::
+:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="Grafiek met het aantal personen dat bestanden maakt in OneDrive of SharePoint":::
 
-1. **Koptekst:** Hiermee wordt het percentage aangegeven van personen die actief zijn op Microsoft 365 Office-toepassingen die bestanden maken in OneDrive of SharePoint.
-2. **Hoofdtekst:** Dit artikel bevat informatie over de waarde van het maken van inhoud in OneDrive en SharePoint.
-3. **Visualisatie:** De uitsplitsing in de visualisatie staat voor de mate waarin mensen die Microsoft Office-apps gebruiken om bestanden te maken in OneDrive en SharePoint, als volgt:
-      - **OneDrive:** Het blauwe (gekleurd) gedeelte van de balk en de breuk op de balk geeft aan hoeveel personen in Office-toepassingen inhoud op OneDrive als volgt kunnen maken:
-        - Teller: het aantal personen dat het maken, wijzigen, uploaden, synchroniseren, in-en uitchecken, kopiëren of verplaatsen van online Office-bestanden in OneDrive binnen de laatste 28 dagen.</br>
-        - Noemer: het aantal personen dat toegang heeft tot OneDrive of SharePoint en Office-bestanden in de afgelopen 28 dagen openen.
-      - **SharePoint:** Het blauwe (gekleurd) gedeelte van de balk en de breuk op de balk geeft het percentage aan van de personen die actief zijn in Office-toepassingen en maak inhoud op SharePoint als:</br>
-         - Teller: het aantal personen dat in de afgelopen 28 dagen online Office-bestanden (Microsoft Word, Excel, PowerPoint of OneNote-bestanden) is gemaakt, gewijzigd, geüpload, synchroniseren, inchecken, kopiëren of verplaatsen.</br>
-        - Noemer: het aantal personen dat toegang heeft tot OneDrive of SharePoint en Office-bestanden in de afgelopen 28 dagen hebben geopend.
+1. **Koptekst:** Belicht het percentage personen dat actief is in Microsoft 365 Office-toepassingen die bestanden maken in OneDrive of SharePoint.
+2. **Body:** Hier vindt u informatie over de waarde van het maken van inhoud in OneDrive en SharePoint.
+3. **Visualisatie:** De uitsplitsing in de visualisatie geeft als volgt aan in hoeverre personen die Microsoft Office-apps gebruiken om bestanden te maken in OneDrive en SharePoint, als volgt worden gebruikt:
+      - **OneDrive:** Het blauwe (gekleurde) gedeelte van de balk en de breuk op de balk vertegenwoordigen als volgt het percentage personen dat actief is in Office-toepassingen die inhoud maken in OneDrive:
+        - Teller: Het aantal personen dat in de afgelopen 28 dagen online Office-bestanden in OneDrive maakt, wijzigt, uploadt, synchroniseert, incheckt, kopieert of verplaatst.</br>
+        - Noemer: Het aantal personen dat toegang heeft tot OneDrive of SharePoint en toegang heeft tot office-bestanden in de afgelopen 28 dagen.
+      - **SharePoint:** Het blauwe (gekleurde) gedeelte van de balk en de breuk op de balk vertegenwoordigen het percentage personen dat actief is in Office-toepassingen en inhoud in SharePoint maakt als:</br>
+         - Teller: Het aantal personen dat in de afgelopen 28 dagen online Office-bestanden (Microsoft Word-, Excel-, PowerPoint- of OneNote-bestanden) in SharePoint maakt, wijzigt, uploadt, synchroniseert, incheckt, kopieert of verplaatst.</br>
+        - Noemer: Het aantal personen dat toegang heeft tot OneDrive of SharePoint en binnen de afgelopen 28 dagen toegang heeft tot Office-bestanden.
 
-4. **Koppeling naar bronnen:** Selecteer deze koppeling om de Help-inhoud te bekijken.
+4. **Koppeling naar resources:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
-### <a name="use-of-attachments-in-email"></a>Het gebruik van bijlagen in een e-mail
+### <a name="use-of-attachments-in-email"></a>Gebruik van bijlagen in e-mail
 
 :::image type="content" source="../../media/emailattachments.png" alt-text="Gebruik van e-mailbijlagen.":::
 
-1. **Koptekst:** Hiermee markeert u het percentage personen die bijlagen gebruiken in e-mailberichten die niet zijn opgeslagen in OneDrive of SharePoint.
-2. **Hoofdtekst:** Dit artikel bevat informatie over de waarde voor het delen van koppelingen naar online bestanden vanuit een oogpunt van samenwerking en beveiliging.
-3. **Visualisatie:** De uitsplitsing in de visualisatie is bedoeld om te voorkomen dat personen die inhoud in e-mailbijlagen bijvoegen, verschillende modi (bestanden die niet in OneDrive of SharePoint) worden gebruikt, in een koppeling naar online bestanden en koppelingen ingesloten in het e-mailbericht worden weergegeven:
-      - **Bestanden bijvoegen:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk geeft het percentage aan van personen die bijlagen in e-mailberichten gebruiken.
-        - Teller: het aantal personen dat bestanden aan een e-mailbericht koppelt dat niet is opgeslagen in OneDrive of SharePoint in de afgelopen 28 dagen.
-        - Noemer:  noemer: het aantal personen dat Exchange, OneDrive, SharePoint of beide in de afgelopen 28 dagen heeft geopend.
-      - **Koppelingen naar online bestanden:** Het blauw (gekleurd) gedeelte van de balk en de breuk (teller/noemer) op de balk geven het percentage aan van de personen die bijlagen gebruiken en koppelingen naar bestanden in e-mailberichten bijvoegen.
-        - Teller: het aantal personen dat koppelingen naar online bestanden (opgeslagen in OneDrive of SharePoint) bijvoegt aan e-mailberichten in de afgelopen 30 dagen.
-        - Noemer:  noemer: het aantal personen dat Exchange, OneDrive, SharePoint of beide in de afgelopen 28 dagen heeft geopend.
-      - **Koppelingen in E-mail insluiten:** Het blauwe (gekleurd) gedeelte van de balk en de breuk op de balk geeft het percentage aan van de personen die koppelingen in de hoofdtekst van de e-mail insluiten.
-        - Teller: het aantal personen waarmee koppelingen in de hoofdtekst van e-mailberichten worden ingesloten naar online bestanden (opgeslagen in OneDrive of SharePoint) binnen de laatste 28 dagen.
-        - Noemer:  noemer: het aantal personen dat Exchange, OneDrive, SharePoint of beide in de afgelopen 28 dagen heeft geopend.
-4. **Koppeling naar bronnen:** Selecteer deze koppeling om de Help-inhoud te bekijken.
+1. **Koptekst:** Belicht het percentage personen dat bijlagen gebruikt in e-mailberichten die niet zijn opgeslagen in OneDrive of SharePoint.
+2. **Body:** Geeft informatie over de waarde van het delen van koppelingen naar onlinebestanden vanuit een samenwerkings- en beveiligingsperspectief.
+3. **Visualisatie:** De uitsplitsing in de visualisatie is bedoeld om aan te geven in welke mate personen die inhoud aan e-mailberichten toevoegen, verschillende modi gebruiken (bestanden die niet in OneDrive of SharePoint staan; koppelingen naar onlinebestanden en koppelingen die zijn ingesloten in de e-mail):
+      - **Bestanden toevoegen:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat bijlagen in e-mailberichten gebruikt.
+        - Teller: het aantal personen dat bestanden koppelt aan e-mail die de afgelopen 28 dagen niet zijn opgeslagen in OneDrive of SharePoint.
+        - Noemer:  Noemer: Het aantal personen dat de afgelopen 28 dagen toegang heeft gehad tot Exchange en OneDrive, SharePoint of beide.
+      - **Koppelingen naar onlinebestanden:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat bijlagen gebruikt en koppelingen aan bestanden in e-mailberichten koppelt.
+        - Teller: het aantal personen dat koppelingen naar onlinebestanden (opgeslagen in OneDrive of SharePoint) in de afgelopen 28 dagen aan e-mailberichten koppelt.
+        - Noemer:  Noemer: Het aantal personen dat in de afgelopen 28 dagen toegang heeft tot Exchange en OneDrive, SharePoint of beide.
+      - **Koppelingen insluiten in e-mail:** Het blauwe (gekleurde) gedeelte van de balk en de breuk op de balk vertegenwoordigen het percentage personen dat koppelingen insluit in de body van de e-mailberichten.
+        - Teller: Het aantal personen dat koppelingen insluit in de body van e-mailberichten naar onlinebestanden (opgeslagen in OneDrive of SharePoint) in de afgelopen 28 dagen.
+        - Noemer:  Noemer: Het aantal personen dat toegang heeft tot Exchange en OneDrive, SharePoint of beide binnen de afgelopen 28 dagen.
+4. **Koppeling naar resources:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
-### <a name="sharing-of-online-files"></a>Online bestanden delen
+### <a name="sharing-of-online-files"></a>Onlinebestanden delen
 
-:::image type="content" source="../../media/sharingonlinefiles.png" alt-text="Grafiek met het aantal personen waarmee bestanden online worden gedeeld.":::
+:::image type="content" source="../../media/sharingonlinefiles.png" alt-text="Grafiek met het aantal personen dat bestanden online deelt.":::
 
-1. **Koptekst:** Hiermee markeert u het percentage van personen die toegang hebben tot OneDrive of SharePoint, en het delen van bestanden extern.
-2. **Hoofdtekst:** Biedt informatie over de beheerders&#39; mogelijkheid de instellingen voor het delen van bestanden in de organisatie te wijzigen, zodat het gewenste niveau van samenwerking voor uw organisatie kan worden ingeschakeld.
-3. **Visualisatie:** Hiermee wordt aangegeven hoe mensen die toegang hebben tot OneDrive of SharePoint, intern of extern bestanden delen:
-      - **Extern:** Het blauw (gekleurd) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage van personen die toegang hebben tot OneDrive of SharePoint, en delen bestanden extern.
-        -  Teller: het aantal personen dat in de afgelopen 28 dagen gedeelde bestanden heeft gedeeld
-        - Noemer: het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad.
-      - **Alleen intern:** Het blauw (gekleurd) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage van personen die toegang hebben tot OneDrive of SharePoint, en delen bestanden alleen intern.
-        - Teller: het aantal personen dat intern bestanden heeft gedeeld binnen de laatste 28 dagen
-        - Noemer: het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad.
-4. **Koppeling naar bronnen:** Selecteer deze koppeling om de Help-inhoud te bekijken.
+1. **Koptekst:** Belicht het percentage personen dat toegang heeft tot OneDrive of SharePoint die bestanden extern delen.
+2. **Body:** Geeft informatie over de beheerders&#39; mogelijkheid om de instellingen voor het delen van bestanden in de organisatie te wijzigen om het niveau van samenwerking in te stellen dat het meest geschikt is voor uw organisatie.
+3. **Visualisatie:** Geeft aan in hoeverre personen die toegang hebben tot OneDrive of SharePoint bestanden intern of extern delen:
+      - **Extern:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat toegang heeft tot OneDrive of SharePoint en bestanden extern deelt.
+        -  Teller: het aantal personen met wie bestanden extern zijn gedeeld in de afgelopen 28 dagen
+        - Noemer: Het totale aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint.
+      - **Alleen intern:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat toegang heeft tot OneDrive of SharePoint en bestanden intern alleen deelt.
+        - Teller: Het aantal personen dat bestanden intern alleen in de afgelopen 28 dagen heeft gedeeld
+        - Noemer: Het totale aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint.
+4. **Koppeling naar resources:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
-### <a name="number-of-files-collaborated-on"></a>Het aantal bestanden dat is samengewerkt
+### <a name="number-of-files-collaborated-on"></a>Aantal bestanden waar aan is samengewerkt
 
-:::image type="content" source="../../media/intensityofcollab.png" alt-text="Diagram waarin wordt weergegeven hoe vaak bestanden aan het bestand zijn gewerkt.":::
+:::image type="content" source="../../media/intensityofcollab.png" alt-text="Grafiek met het aantal bestanden waar het meest aan is samengewerkt.":::
 
-1. **Koptekst:** Hiermee wordt het percentage aangegeven van personen die toegang hebben tot OneDrive of SharePoint, en die samenwerken aan vier of meer bestanden.
-2. **Hoofdtekst:** Dit biedt informatie over hoe mensen online bestanden kunnen inzetten voor betere samenwerking.
-3. **Visualisatie:** Hier ziet u een distributie van de personen die toegang hebben tot OneDrive of SharePoint, op basis van het aantal bestanden waaraan ze zijn samengewerkt. Dit wordt weergegeven in de volgende vier categorieën (voor elk, het blauwe gedeelte van de balk en de breuk geeft het percentage aan van personen die toegang hebben tot OneDrive of SharePoint in die categorie):
+1. **Koptekst:** Hiermee wordt het percentage personen belicht dat toegang heeft tot OneDrive of SharePoint die samenwerken aan vier of meer bestanden.
+2. **Body:** Dit biedt informatie over hoe mensen onlinebestanden kunnen gebruiken voor betere samenwerking.
+3. **Visualisatie:** Hier ziet u een verdeling van de personen die toegang hebben tot OneDrive of SharePoint, op basis van het aantal bestanden waar ze aan samenwerken. Dit wordt weergegeven in de volgende 4 categorieën (voor elk, het blauwe gedeelte van de balk en de breuk vertegenwoordigen het percentage personen dat toegang heeft tot OneDrive of SharePoint die in die categorie vallen):
       - **Geen samenwerking:**
-        - **Teller:** Het aantal personen die geen deel uitzien van bestanden in de afgelopen 28 dagen
-        - **Noemer:** Het totale aantal personen dat OneDrive of SharePoint heeft voor minstens 1 van de afgelopen 30 dagen.
-      - **Samenwerking voor 1-3-bestanden:**
-        - **Teller:** Het aantal personen dat in de afgelopen 28 dagen samen met 1-3 bestanden samenwerkt.
-        - **Noemer:** Het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad.
-      - **Samenwerking voor 4-10-bestanden:**
-        - **Teller:** Het aantal personen dat in de afgelopen 28 dagen samen met 4-10 bestanden samenwerkt
-        - **Noemer: het** totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad.
-      - **Samenwerking voor 11 of meer bestanden:**
-        - **Teller:** Het aantal personen in de afgelopen 28 dagen samen met 11 of meer bestanden
-        - **Noemer:** Het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad.
+        - **Teller:** Het aantal personen dat de afgelopen 28 dagen niet aan bestanden samenwerkte
+        - **Noemer:** Het totale aantal personen dat ten minste 1 van de laatste 28 dagen toegang heeft tot OneDrive of SharePoint.
+      - **Samenwerken aan 1-3 bestanden:**
+        - **Teller:** Het aantal personen dat samenwerkt aan 1-3 bestanden in de afgelopen 28 dagen.
+        - **Noemer:** Het totale aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint.
+      - **Samenwerken aan 4-10 bestanden:**
+        - **Teller:** Het aantal personen dat samenwerkt aan 4-10 bestanden in de afgelopen 28 dagen
+        - **Noemer: Het** totale aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint.
+      - **Samenwerken aan 11 of meer bestanden:**
+        - **Teller:** Het aantal personen dat samenwerkt aan 11 of meer bestanden in de afgelopen 28 dagen
+        - **Noemer:** Het totale aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint.
         
-4. **Koppeling naar bronnen:** Selecteer deze koppeling om de Help-inhoud te bekijken.
+4. **Koppeling naar resources:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
-### <a name="network-performance-strength-for-onedrive-and-sharepoint"></a>Netwerk prestatie sterkte voor OneDrive en SharePoint
+### <a name="network-performance-strength-for-onedrive-and-sharepoint"></a>Netwerkprestatiesterkte voor OneDrive en SharePoint
 
 :::image type="content" source="../../media/networkperfstrength.png" alt-text="Grafiek met netwerkprestaties voor OneDrive en SharePoint.":::
 
-1. **Koptekst:** Hiermee wordt het percentage van de apparaten voor alle geteste systemen gemarkeerd met een slechte netwerkverbinding met OneDrive en SharePoint. 
-2. **Hoofdtekst:** Dit artikel bevat informatie over waarom de prestaties van netwerkverbindingen belangrijk zijn voor samenwerking. 
-3. **Visualisatie:** toont een percentage van apparaten met verschillende niveaus voor de prestaties van de netwerkverbinding die zijn gerelateerd aan OneDrive en SharePoint:
-      - **81-100 (Best)**: het donkere groen (kleur) van de staaf staat voor de beste prestaties voor een percentage van de apparaten.
-      - **61-80**: het groene (gekleurd) gedeelte van de staaf staat voor een percentage van apparaten met een netwerk prestatiescore tussen 60-80. 
-      - **41-60**: het oranje (kleur) gedeelte van de balk geeft een percentage van apparaten weer met een netwerk prestatiescore tussen 40-60. 
-      - **21-40**: het rode (gekleurde) gedeelte van de balk geeft een percentage van apparaten weer met een netwerk prestatiescore tussen 20-40. 
-      - **0-20**: het donkergrijze rode (gekleurd) gedeelte van de balk geeft een percentage van apparaten weer met een slechtste netwerk prestatiescore tussen 0-20. 
+1. **Koptekst:** Markeert het percentage apparaten van alle geteste apparaten met een slechte netwerkverbinding met OneDrive en SharePoint. 
+2. **Body:** Hier vindt u informatie over waarom netwerkverbindingsprestaties belangrijk zijn voor samenwerking. 
+3. **Visualisatie:** toont een percentage apparaten met verschillende niveaus van netwerkconnectiviteitsprestaties met betrekking tot OneDrive en SharePoint:
+      - **81-100 (beste)**: Het donkergroene (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met de beste prestaties.
+      - **61-80:** Het groene (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met een netwerkprestatiescore tussen 60 en 80. 
+      - **41-60:** Het oranje (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met een netwerkprestatiescore tussen 40 en 60. 
+      - **21-40:** Het rode (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met een netwerkprestatiescore tussen 20 en 40. 
+      - **0-20:** Het donkerrood (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met de slechtste netwerkprestatiescore tussen 0-20. 
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Status van Microsoft 365-apps-technologie ervaringen](apps-health.md) (artikel) \
-[Communicatie: mensen ervaring](communication.md) (artikel) \
-[Vergaderingen: mensen ervaring](meetings.md) (artikel) \
-[Mobiliteit: mensen ervaring](mobility.md) (artikel) \
-[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel) \
-[Teamwerk: mensen ervaring](teamwork.md) (artikel)
+[Status van Microsoft 365-apps – Technologie-ervaringen](apps-health.md) (artikel)\
+[Communicatie – Ervaringen met personen](communication.md) (artikel)\
+[Vergaderingen – Ervaringen van personen](meetings.md) (artikel)\
+[Mobiliteit – Ervaringen van personen](mobility.md) (artikel)\
+[Privacybesturingselementen voor productiviteitsscore](privacy.md) (artikel)\
+[Teamwerk : ervaringen met personen](teamwork.md) (artikel)

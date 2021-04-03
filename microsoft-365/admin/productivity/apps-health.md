@@ -1,9 +1,9 @@
 ---
-title: Microsoft-productiviteits Score-status van Microsoft 365-apps
+title: Microsoft Productiviteitsscore - Status van Microsoft 365-apps
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: pebaum
+author: pebaum
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -18,105 +18,105 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-description: Details van de status-technologie van Microsoft 365-apps-technologie met productiviteits Score.
-ms.openlocfilehash: a84e919ce01775b8791ed7a1992464e4f52c7234
-ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+description: Details van de status van Microsoft 365 Apps - technologie ervaart productiviteitsscore.
+ms.openlocfilehash: d8e9cb1f29c8138616c1cc2461bfa07fb9dafd9c
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49562941"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580868"
 ---
-# <a name="microsoft-365-apps-health--technology-experiences"></a>Status van Microsoft 365-apps-technologie ervaring
+# <a name="microsoft-365-apps-health--technology-experiences"></a>Gezondheid van Microsoft 365-apps: technologie-ervaringen
 
-Productiviteits Score biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologie ervaring ter ondersteuning van uw organisatie. De Score van uw organisatie weerspiegelt de maten voor personen en technologieën, en kan worden vergeleken met de Bench maten van organisaties die vergelijkbaar zijn met uw organisatie. De categorie apps status maakt deel uit van de maten onder technologie-ervaringen. Ga voor meer informatie naar het overzicht van de [productiviteits Score](productivity-score.md) en lees de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
+Productiviteitsscore biedt inzicht in de digitale transformatie van uw organisatie via het gebruik van Microsoft 365 en de technologieervaringen die dit ondersteunen. De score van uw organisatie weerspiegelt metingen voor mensen en technologieervaringen en kan worden vergeleken met benchmarks van organisaties die vergelijkbaar zijn met die van u. De gezondheidscategorie apps maakt deel uit van de metingen die vallen onder technologie-ervaringen. Voor meer informatie raadpleegt u het overzicht [productiviteitsscore](productivity-score.md) en leest u de [privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
 
-## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>Waarom uw organisatie de status Score van Microsoft 365 apps&#39;s heeft
+## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>Waarom de statusscore&#39;microsoft 365 apps van uw organisatie belangrijk is
 
-De productiviteit van uw organisatie is afhankelijk van een gezonde toepassingsomgeving. Apparaten waarop de meest recente versies van Microsoft 365-apps op het aanbevolen kanaal worden uitgevoerd, zijn veiliger en zorgen dat personen in uw organisatie optimaal gebruikmaken van de functies in Microsoft 365.
+De productiviteit van uw organisatie is afhankelijk van een gezonde toepassingsomgeving. Apparaten met de meest recente versies van Microsoft 365-apps op aanbevolen kanaal zijn veiliger en helpen mensen in uw organisatie om het meeste uit de functies in Microsoft 365 te halen.
 
-## <a name="how-we-calculate-the-microsoft-365-apps-health-score"></a>De status score voor Microsoft 365-apps berekenen
+## <a name="how-we-calculate-the-microsoft-365-apps-health-score"></a>De statusscore voor Microsoft 365-apps berekenen
 
-U berekent de status score voor Microsoft 365-apps door het aantal apparaten op elk update kanaal te meten. U kunt ook controleren of op de apparaten een ondersteunde versie wordt uitgevoerd en de nieuwste versie van Microsoft 365-apps.
+We berekenen uw statusscore voor Microsoft 365-apps door het aantal apparaten op elk updatekanaal te meten. We bepalen ook of op de apparaten een ondersteunde versie wordt uitgevoerd en of de meest recente versie van Microsoft 365-apps wordt uitgebracht.
 
-We bieden een belangrijke inzichten in de ervaring met de belangrijkste gegevens van deze categorie. Vervolgens wordt een score Framework, dat in de volgende secties wordt beschreven, gebruikt om de score te berekenen.
+We bieden een primair inzicht in de ervaring die de belangrijkste metrische gegevens voor deze categorie bevat. Vervolgens wordt een scorekader, dat in de volgende secties wordt beschreven, gebruikt om uw score te berekenen.
 
-### <a name="primary-insight"></a>Primaire inzichten
+### <a name="primary-insight"></a>Primair inzicht
 
-De primaire inzichten van apparaten waarop Microsoft 365-apps worden uitgevoerd op het aanbevolen bijgewerkte kanaal.
+Het primaire inzicht wordt berekend op basis van apparaten met Microsoft 365-apps op aanbevolen bijgewerkt kanaal.
 
-:::image type="content" source="../../media/appshealth-primary.png" alt-text="Primair in visuele visualisatie voor Microsoft 365-apps.":::
+:::image type="content" source="../../media/appshealth-primary.png" alt-text="Primaire visualisatie in zicht voor Microsoft 365-apps.":::
 
-Dit geldt voor Microsoft 365-apps kanaal, build en versie die wordt uitgevoerd op het apparaat.
+Informatie die hiervoor wordt overwogen, zijn het kanaal, de build en de versie van Microsoft 365-apps die op het apparaat worden uitgevoerd.
 
-1. **Koptekst:**  Hiermee wordt het percentage apparaten in het aanbevolen update kanaal weergegeven
-1. **Hoofdtekst:**  In dit artikel vindt u meer informatie over het uitvoeren van de apparaten in het aanbevolen update kanaal voor de meest recente update en het uitvoeren van actuele versies op apparaten.
+1. **Koptekst:**  Toont percentage apparaten op aanbevolen updatekanaal
+1. **Body:**  Meer informatie over hoe het uitvoeren van de apparaten op het aanbevolen updatekanaal helpt bij het verkrijgen van de nieuwste update en het uitvoeren van huidige versies op apparaten.
 1. **Visualisatie (huidige status):**
-    - Horizontale balken waarbij de blauwe gekleurde gedeelten het percentage van apparaten met het aanbevolen bijgewerkte kanaal vertegenwoordigen.
-    - Markeer de (teller/noemer) van het deel dat wordt gebruikt om het percentage te berekenen dat wordt weergegeven in horizontale balken.
-    - De benchmark-waarde voor apparaten die met het aanbevolen bijgewerkte kanaal worden uitgevoerd, wordt ook weergegeven als percentage.
+    - Horizontale balken waarin de blauwgekleurde gedeelten het percentage apparaten vertegenwoordigen waarop het aanbevolen bijgewerkte kanaal wordt uitgevoerd.
+    - Markeer de waarde (teller/noemer) van de breuk die wordt gebruikt om het percentage te berekenen dat in horizontale balken wordt uitgedrukt.
+    - Peer Benchmark-waarde voor apparaten die op een aanbevolen bijgewerkt kanaal worden uitgevoerd, wordt ook weergegeven als percentage.
 
-#### <a name="trend-visualization-of-the-primary-insight"></a>Trend visualisatie van de primaire inzichten
+#### <a name="trend-visualization-of-the-primary-insight"></a>Trendvisualisatie van het primaire inzicht
 
-In het volgende diagram ziet u het aantal apparaten in het aanbevolen update kanaal voor de laatste 180 dagen. Het gegevenspunt op het lijndiagram is een samenvatting van de activiteit voor de afgelopen 28 dagen.
+In de volgende grafiek ziet u het aantal apparaten in het aanbevolen updatekanaal van de afgelopen 180 dagen. Het gegevenspunt in het lijndiagram is een aggregaat van activiteit voor de afgelopen 28 dagen.
 
-:::image type="content" source="../../media/appshealth-primarytrend.png" alt-text="Dit grafiektype toont de trend voor apparaten met het aanbevolen update kanaal.":::
+:::image type="content" source="../../media/appshealth-primarytrend.png" alt-text="Grafiek met de trend voor apparaten met aanbevolen updatekanaal.":::
 
-### <a name="scoring-framework"></a>Score raamwerk
+### <a name="scoring-framework"></a>Scorekader
 
-Met de status score voor Microsoft 365-apps wordt gemeten of apparaten Microsoft 365-apps op aanbevolen kanaal en de nieuwste versies uitvoeren.
+De statusscore van Microsoft 365-apps meet of apparaten Microsoft 365-apps uitvoeren op aanbevolen kanaal en in de nieuwste versies.
 
-## <a name="explore-your-organization-microsoft-365-app-channels-and-versions"></a>Verken uw organisatie Microsoft 365-app kanalen en versies
+## <a name="explore-your-organization-microsoft-365-app-channels-and-versions"></a>Verken uw organisatie Microsoft 365-app-kanalen en -versies
 
-We bieden ook ondersteuningsinformatie die u helpt om te zorgen dat de kanalen en versies van de apparaten in uw organisatie momenteel worden uitgevoerd. Deze extra metrische gegevens geven geen bijdrage aan uw productiviteits Score, maar kunnen u helpen bij het maken van een actieplan voor het verhogen van de status Score van uw Microsoft 365-apps door ervoor te zorgen dat apparaten Microsoft 365-apps uitvoeren op aanbevolen kanalen.
+We bieden ook ondersteunende informatie waarmee u meer inzicht krijgt in welke kanalen en versies apparaten in uw organisatie momenteel worden uitgevoerd. Deze extra metrische gegevens dragen niet bij aan uw productiviteitsscore, maar kunnen u helpen een actieplan te maken om uw statusscore voor Microsoft 365-apps te verhogen door ervoor te zorgen dat apparaten Microsoft 365-apps uitvoeren op aanbevolen kanalen.
 
-### <a name="devices-on-current-channel-and-running-supported-versions"></a>Apparaten in het huidige kanaal en actieve ondersteunde versies
+### <a name="devices-on-current-channel-and-running-supported-versions"></a>Apparaten op het huidige kanaal en ondersteunde versies uitvoeren
 
-:::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="De grafiek met het aantal apparaten in het huidige, ondersteunde kanaal.":::
+:::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="Grafiek met het aantal apparaten in het huidige, ondersteunde kanaal.":::
 
-1. **Koptekst:**  Markeert het percentage apparaten in het huidige kanaal waarop ondersteunde versies van Microsoft 365-apps worden uitgevoerd
-1. **Hoofdtekst:**  Dit artikel bevat informatie over de waarde van apparaten met Microsoft 365-apps op het aanbevolen kanaal.
-1. **Visualisatie:**  De uitsplitsing in de visualisatie geeft het volgende aan in welke mate de hoeveelheid apparaten op de nieuwste en ondersteunde versies van Microsoft 365-apps in verschillende kanalen:
-    - **Ondersteunde versies:** De blauwe balk vertegenwoordigt het percentage van apparaten dat wordt uitgevoerd op een ondersteunde versie van Microsoft 365-apps.
-    - **Nieuwste versies:** De kleur balk met groen blauw staat voor een percentage van de apparaten op de nieuwste releases.
-1. Meer **informatie:**   Selecteer deze koppeling om de Help-inhoud te bekijken.
+1. **Koptekst:**  Highlights the percentage of devices on the Current Channel are running supported versions of Microsoft 365 Apps
+1. **Body:**  Informatie over de waarde van apparaten met Microsoft 365-apps op aanbevolen kanaal.
+1. **Visualisatie:**  De uitsplitsing in de visualisatie geeft als volgt aan in hoeverre het percentage apparaten op de nieuwste en ondersteunde versies van Microsoft 365-apps in verschillende kanalen is:
+    - **Ondersteunde versies:** De blauwe balk vertegenwoordigt het percentage apparaten dat wordt uitgevoerd op ondersteunde versie van Microsoft 365-apps.
+    - **Meest recente releases:** De tealkleurbalk vertegenwoordigt het percentage apparaten in de meest recente versies.
+1. **Meer informatie:**   Selecteer deze koppeling om Help-inhoud weer te geven.
 
 ### <a name="devices-running-latest-and-supported-versions"></a>Apparaten met de nieuwste en ondersteunde versies
 
-:::image type="content" source="../../media/device-supported-versions.png" alt-text="Grafiek met het aantal apparaten waarop de nieuwste en ondersteunde versies van apps worden uitgevoerd.":::
+:::image type="content" source="../../media/device-supported-versions.png" alt-text="Grafiek met het aantal apparaten met de nieuwste en ondersteunde versies van apps.":::
 
-1. **Koptekst:**  Hiermee markeert u het percentage apparaten met ondersteunde versies en apparaten met de meest recente versies.
-1. **Hoofdtekst:**  Dit artikel bevat informatie over de waarde met apparaten in Aanbevolen kanalen en ondersteunde/nieuwste versies.
-1. **Visualisatie:** De uitsplitsing in de visualisatie is bedoeld om te zien hoeveel apparaten met ondersteunde versies en de meest recente versies van Microsoft 365-apps worden uitgevoerd:
-    - **Ondersteunde versies:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk geeft het percentage aan van apparaten met een ondersteunde versie van Microsoft 365-apps.
-        - Teller: het aantal apparaten in ondersteunde versies van Microsoft 365-apps binnen de laatste 28 dagen
-        - Noemer: het aantal apparaten waarop Microsoft 365-apps binnen de laatste 28 dagen worden gebruikt
-    - **Meest recente versies:** Het groen blauw gedeelte van de balk en de breuk (teller/noemer) op de balk geeft het percentage aan van de meest recente versies van Microsoft 365-apps.
-        - Teller: het aantal apparaten in recente versies van Microsoft 365-apps binnen de laatste 28 dagen
-        - Noemer: het aantal apparaten waarop Microsoft 365-apps binnen de laatste 28 dagen worden gebruikt
-1. Meer **informatie:**   Selecteer deze koppeling om de Help-inhoud te bekijken.
+1. **Koptekst:**  Belicht het percentage apparaten met ondersteunde versies en apparaten met de meest recente versies.
+1. **Body:**  Hier vindt u informatie over de waarde van apparaten die worden uitgevoerd op aanbevolen kanalen en ondersteunde/meest recente versies.
+1. **Visualisatie:** De uitsplitsing in de visualisatie is bedoeld om aan te geven in hoeverre wordt weergegeven hoeveel apparaten ondersteunde versies en meest recente versies van Microsoft 365-apps gebruiken:
+    - **Ondersteunde versies:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage apparaten met ondersteunde versie van Microsoft 365-apps.
+        - Teller: het aantal apparaten op ondersteunde versies van Microsoft 365-apps in de afgelopen 28 dagen
+        - Noemer: Het aantal apparaten met Microsoft 365-apps in de afgelopen 28 dagen
+    - **Meest recente versies:** Het (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage apparaten met recente versies van Microsoft 365-apps.
+        - Teller: het aantal apparaten in recente versies van Microsoft 365-apps in de afgelopen 28 dagen
+        - Noemer: Het aantal apparaten met Microsoft 365-apps in de afgelopen 28 dagen
+1. **Meer informatie:**   Selecteer deze koppeling om Help-inhoud weer te geven.
 
-#### <a name="trend-visualization-of-the-devices"></a>Trend visualisatie van de apparaten
+#### <a name="trend-visualization-of-the-devices"></a>Trendvisualisatie van de apparaten
 
-Dit diagram toont de trendlijn van de apparaten met ondersteunde versies en de nieuwste versies van Microsoft 365-apps gedurende de laatste 180 dagen.
+In deze grafiek ziet u de trendlijn van de apparaten met ondersteunde versies en nieuwste versies van Microsoft 365-apps in de afgelopen 180 dagen.
 
-:::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Dit is een overzicht van de manier waarop u in de loop van de tijd wordt getoontd en de nieuwste versies van apps.":::
+:::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Grafiek met een overzicht van het aantal apparaten dat wordt ondersteund en de nieuwste versies van apps in de loop van de tijd.":::
 
 ## <a name="devices-in-your-organization"></a>Apparaten in uw organisatie
 
-In deze sectie vindt u meer informatie over de metrieke gegevens door relevante informatie te verstrekken aan alle metrieken voor Microsoft 365-apps voor de gezondheid-technologie.
+In deze sectie kunt u reageren op de metrische gegevens die u wilt gebruiken door relevante informatie te verstrekken voor alle metrische gegevens voor gezondheids- en technologie-ervaringen van Microsoft 365-apps.
 
 De volgende kolommen worden weergegeven in de tabel op kanaal/versieniveau:
 
-- **Kanaal** : Huidig kanaal van microsoft 365-apps op de apparaten.
-- **Status:**   De ondersteunings status van de Microsoft 365-apps op basis van het huidige kanaal en de huidige versie.
-- **Versies:**   Actuele versies van Microsoft 365-apps op de apparaten.
-- **aantal apparaten:**  Aantal apparaten.
+- **Kanaal:** Huidig Microsoft 365-appskanaal op de apparaten.
+- **Status:**   Microsoft 365-apps ondersteunen de status van de apparaten op basis van het huidige kanaal en de huidige versie.
+- **Versies:**   Huidige versies van Microsoft 365-apps op de apparaten.
+- **# van apparaten:**  Aantal apparaten.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Communicatie: mensen ervaring](communication.md) (artikel) \
-[Samenwerken aan inhoud: mensen ervaring](content-collaboration.md) (artikel) \
-[Vergaderingen: mensen ervaring](meetings.md) (artikel) \
-[Mobiliteit: mensen ervaring](mobility.md) (artikel) \
-[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel) \
-[Teamwerk: mensen ervaring](teamwork.md) (artikel)
+[Communicatie – Ervaringen met personen](communication.md) (artikel)\
+[Samenwerking met inhoud: ervaringen met personen](content-collaboration.md) (artikel)\
+[Vergaderingen – Ervaringen van personen](meetings.md) (artikel)\
+[Mobiliteit – Ervaringen van personen](mobility.md) (artikel)\
+[Privacybesturingselementen voor productiviteitsscore](privacy.md) (artikel)\
+[Teamwerk : ervaringen met personen](teamwork.md) (artikel)

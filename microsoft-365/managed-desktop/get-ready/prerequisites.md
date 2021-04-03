@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5b5fb7185bb696bb6daae0a67a209cf3f7e77655
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: fcfddadf13e000156fa5431cc30bc72f4f3537e2
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924562"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581044"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Vereisten voor Microsoft Managed Desktop
 
@@ -46,8 +47,8 @@ Voor Microsoft Managed Desktop zijn bepaalde licentieopties vereist om te kunnen
 - Azure Active Directory Premium P1
 - Microsoft Intune 
 - Windows 10 Enterprise  
-- Microsoft Defender for Endpoint
-- Microsoft 365 Apps voor ondernemingen
+- Microsoft Defender voor Eindpunt
+- Microsoft 365-apps voor ondernemingen
 - Microsoft Teams
 - [SharePoint Online, abonnement 2](https://www.microsoft.com/microsoft-365/sharepoint/compare-sharepoint-plans)
 - [Exchange Online Abonnement 2](https://www.microsoft.com/microsoft-365/exchange/compare-microsoft-exchange-online-plans) 
@@ -55,3 +56,15 @@ Voor Microsoft Managed Desktop zijn bepaalde licentieopties vereist om te kunnen
 
 > [!TIP]
 > Uw Microsoft Account Manager helpt u bij het controleren van uw huidige licenties en serviceplannen en het meest efficiënte pad voor u om extra licenties of serviceplannen te krijgen die u nodig hebt, zonder dubbel werk te hoeven uitvoeren.
+
+## <a name="steps-to-get-ready"></a>Stappen om u klaar te maken
+
+1. Controleer [Vereisten voor Microsoft Managed Desktop](prerequisites.md). (Dit artikel)
+2. Gebruik [gereedheidsbeoordelingshulpmiddelen.](readiness-assessment-tool.md)
+3. [Vereisten voor gast-accounts](guest-accounts.md)
+4. [Netwerkconfiguratie voor Microsoft Managed Desktop](network.md)
+5. [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](certs-wifi-lan.md)
+6. [Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop](authentication.md)
+7. [Apps in Microsoft Managed Desktop](apps.md)
+8. [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
+9. [Printbronnen voorbereiden voor Microsoft Managed Desktop](printing.md)

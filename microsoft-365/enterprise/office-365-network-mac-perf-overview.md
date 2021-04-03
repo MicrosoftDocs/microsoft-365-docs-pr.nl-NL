@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Overzicht van netwerkconnectiviteit in het Microsoft 365-beheercentrum (voorbeeld)
-ms.openlocfilehash: 2b80dd001bd2ee5d5725ea67c73aa34b4eb8816c
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: dd97a6d5cc9662f01854e1432660784358bce7b8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408403"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581128"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkconnectiviteit in het Microsoft 365-beheercentrum (preview)
 
@@ -205,6 +205,10 @@ Een optimale Microsoft 365-service voorde deur is er een die het dichtst bij uw 
 ### <a name="what-is-an-internet-egress-location"></a>Wat is een internetlocatie?
 
 De internetlocatie is de locatie waar uw netwerkverkeer uw bedrijfsnetwerk verlaat en verbinding maakt met internet. Dit wordt ook geïdentificeerd als de locatie waar u een NAT-apparaat (Network Address Translation) hebt en meestal waar u verbinding maakt met een internetprovider . Als u een lange afstand ziet tussen uw locatie en uw internetlocatie, kan dit een significante WAN-backhaul aangeven.
+
+### <a name="what-license-is-needed-for-this-capability"></a>Welke licentie is nodig voor deze mogelijkheid?
+
+U hebt een licentie nodig die toegang biedt tot het Microsoft 365-beheercentrum.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

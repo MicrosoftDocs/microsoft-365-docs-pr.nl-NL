@@ -2,8 +2,8 @@
 title: Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt voor uw organisatie
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie kunt gebruiken om Office-invoegvoegingen te implementeren.
-ms.openlocfilehash: c9f2879e989085042758cc1c5385bea45427e7ff
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1516a10932158ba137f58900e0c19c5fea3bd119
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915456"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580952"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt voor uw organisatie
 

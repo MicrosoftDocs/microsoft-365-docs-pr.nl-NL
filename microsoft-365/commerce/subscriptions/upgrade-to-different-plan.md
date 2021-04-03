@@ -20,21 +20,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over het upgraden naar een ander abonnement.
-ms.openlocfilehash: 5f853dcd0d247a6422489cbe5d0287765bfd72a6
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 79ca18df28505c457e085dbd73c2fbd04eff53ca
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164447"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580976"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Wanneer uw bedrijf verandert of als u meer functies nodig hebt, kunt u een upgrade uitvoeren naar een abonnement. De eenvoudigste manier om dit te doen is door het tabblad **Upgrade** te gebruiken in het beheercentrum. Het gebruik van het **tabblad Upgrade** wordt echter niet in alle situaties ondersteund. In sommige gevallen kunt u plannen mogelijk handmatig wijzigen.
 

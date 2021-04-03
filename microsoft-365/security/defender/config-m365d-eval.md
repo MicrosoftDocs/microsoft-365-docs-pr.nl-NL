@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8bb80e032fd2eb4c618b60f4ab46829d5cf11b6d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9b192a029704d1354867b169efdf0d489345030e
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199227"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580964"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender-pilaren configureren voor uw proeflaboratorium of testomgeving
 
@@ -39,7 +39,7 @@ ms.locfileid: "51199227"
 
 Het maken van een proeflaboratorium of testomgeving van Microsoft 365 Defender en de implementatie ervan is een proces in drie fasen:
 
-|[![Fase 1: Voorbereiden](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Fase 1: Voorbereiden](prepare-m365d-eval.md) |[![Fase 2: Instellen](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Instellen](setup-m365deval.md) |![Fase 3: Onboard](../../media/phase-diagrams/onboard.png)<br/>Fase 3: Onboard | [![Terug naar pilot](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Terug naar pilot playbook](m365d-pilot.md) |
+|[![Fase 1: Voorbereiden](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Fase 1: Voorbereiden](prepare-m365d-eval.md) |[![Fase 2: Instellen](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Instellen](setup-m365deval.md) |![Fase 3: Onboarden](../../media/phase-diagrams/onboard.png)<br/>Fase 3: Onboarden | [![Terug naar pilot](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Terug naar pilot playbook](m365d-pilot.md) |
 |--|--|--|--|
 || |*U bent er!* | |
 
@@ -285,8 +285,7 @@ Zie [Microsoft 365 Defender in- en in- en uit- zetten voor uitgebreidere richtli
 
 Gefeliciteerd! U hebt zojuist uw proeflaboratorium of testomgeving voor Microsoft 365 Defender gemaakt. Nu kunt u vertrouwd raken met de gebruikersinterface van Microsoft 365 Defender! Bekijk wat u kunt leren van de volgende interactieve Microsoft 365 Defender-handleiding en weet hoe u elk dashboard kunt gebruiken voor uw dagelijkse beveiligingstaken.
 
-
->[!VIDEO https://aka.ms/MTP-Interactive-Guide]
+[Bekijk de interactieve handleiding](https://aka.ms/MTP-Interactive-Guide)
 
 Vervolgens kunt u een aanval simuleren en zien hoe de verschillende productmogelijkheden waarschuwingen detecteren, maken en automatisch reageren op een bestandloze aanval op een eindpunt.
 

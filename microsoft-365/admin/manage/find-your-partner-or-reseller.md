@@ -2,8 +2,8 @@
 title: Uw partner of wederverkoper zoeken
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,23 +22,23 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
-description: 'Meer informatie over het vinden van een nieuwe Microsoft 365-partner of het ophalen van contactgegevens voor een partner waarmee u in het verleden hebt samengewerkt. '
-ms.openlocfilehash: fad16990df7783908f59a6e3dd59cb0a1a13572e
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: 'Lees hoe u een nieuwe Microsoft 365-partner kunt vinden of contactgegevens kunt krijgen voor een partner met wie u in het verleden hebt gewerkt. '
+ms.openlocfilehash: 189eda83f3eca957e6f9fa720e2f6ccdd07db171
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780107"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580940"
 ---
 # <a name="find-your-partner-or-reseller"></a>Uw partner of wederverkoper zoeken
 
-Als beheerder u met een partner werken om Microsoft 365-abonnementen te kopen, activeren en verlengen via een Microsoft Open Volume Licensing-programma. 
+Als beheerder kunt u samen met een partner Microsoft 365-abonnementen kopen, activeren en verlengen via een Microsoft Open Volume Licensing-programma. 
   
  **Weet u niet zeker of Open Volume Licensing iets voor u is?** Bekijk het [overzicht van Microsoft Open-programma's](https://go.microsoft.com/fwlink/p/?LinkId=613298).
   
 ## <a name="find-a-new-partner-or-reseller"></a>Een nieuwe partner of wederverkoper zoeken
 
-Als u microsoft 365 wilt kopen of verlengen via Open Volume Licensing, of als u gewoon meer informatie wilt over het werken met een partner, kiest u een optie hieronder. 
+Als u klaar bent om Microsoft 365 te kopen of te verlengen via Open Volume Licensing, of als u gewoon meer informatie wilt over het werken met een partner, kiest u een optie hieronder. 
   
 - [Een partner zoeken met Microsoft PinPoint](https://go.microsoft.com/fwlink/p/?LinkId=613304)
     
@@ -47,13 +47,13 @@ Als u microsoft 365 wilt kopen of verlengen via Open Volume Licensing, of als u 
 ## <a name="find-contact-information-for-a-partner-youve-worked-with-in-the-past"></a>Contactgegevens zoeken voor een partner waarmee u eerder hebt gewerkt
 
 > [!NOTE]
-> In sommige gevallen u informatie vinden in het Microsoft 365-beheercentrum voor partners waarmee u in het verleden hebt samengewerkt. Houd er rekening mee dat deze gegevens mogelijk verouderd zijn. Als aanbevolen procedure is het raadzaam contact op te nemen met de persoon of afdeling die in uw organisatie verantwoordelijk is voor de aankoop om erachter te komen met welke partner u moet werken. 
+> In sommige gevallen vindt u informatie in het Microsoft 365-beheercentrum voor partners met wie u in het verleden hebt gewerkt. Houd er rekening mee dat deze gegevens mogelijk verouderd zijn. Als aanbevolen procedure is het raadzaam contact op te nemen met de persoon of afdeling die in uw organisatie verantwoordelijk is voor de aankoop om erachter te komen met welke partner u moet werken. 
   
 ## <a name="get-partner-info-in-the-admin-center"></a>Gegevens van partner weergeven in het beheercentrum
 
-1. Ga in het beheercentrum naar de pagina **Relaties instellingenpartnerrelaties.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Partner relationships</a>
+1. Ga in het beheercentrum naar de **pagina Relaties met**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">partners</a> instellingen.
   
-2. Als u een partner hebt, ziet u hier de naam van de partner en de relatie met uw organisatie. Als u contactgegevens van partners (telefoonnummer en e-mailadres) wilt bekijken, selecteert u de partnernaam.
+2. Als u een partner hebt, ziet u hier de naam van de partner en de relatie met uw organisatie. Als u contactgegevens van partners (telefoonnummer en e-mailadres) wilt weergeven, selecteert u de partnernaam.
     
 ## <a name="more-resources"></a>Meer informatie
 

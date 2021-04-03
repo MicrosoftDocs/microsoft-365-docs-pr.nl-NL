@@ -1,6 +1,6 @@
 ---
 title: Netwerkconfiguratie voor Microsoft Managed Desktop
-description: ''
+description: Proxies en benodigde eindpunten instellen
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 639bd3c8e00d644470973ae4bcfe781953039431
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7ccf5e9ac8a9678d0a1a1544ba0bf97f9bfe0638
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164949"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581140"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Netwerkconfiguratie voor Microsoft Managed Desktop
 
@@ -61,7 +61,7 @@ Leveringsoptimalisatie | [Leveringsoptimalisatie configureren voor Windows 10-up
 Microsoft 365 | [Microsoft 365 URL- en IP-adresbereiken](../../enterprise/urls-and-ip-address-ranges.md)
 Microsoft Azure Active Directory | [Vereiste poorten en protocollen](/azure/active-directory/hybrid/reference-connect-ports) voor hybride identiteit en Active Directory- en [Active Directory Domain Services-poortvereisten](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd772723(v=ws.10)) 
 Microsoft Intune | [Intune-netwerkconfiguratievereisten](/intune/network-bandwidth-use)<br>[Netwerk-eindpunten voor Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
-Microsoft Defender for Endpoint | [Vereisten voor Microsoft Defender voor eindpunten](/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
+Microsoft Defender voor Eindpunt | [Vereisten voor Microsoft Defender voor eindpunten](/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 Windows Autopilot | [Windows Autopilot-netwerkvereisten](/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements)
 
 Microsoft-service  | URL's vereist voor lijst met toegestane gegevens | Documentatiebron
@@ -76,8 +76,20 @@ OneDrive voor Bedrijven | onedrive.com <br> <br>\*.onedrive.com <br>onedrive.liv
 Microsoft Defender Advanced Threat Protection (ATP) | \ *.oms.opinsights.azure.com <br>\*.blob.core.windows.net <br>\*.azure-automation.net <br>\*.ods.opinsights.azure.com <br>winatp-gw-cus.microsoft.com <br>winatp-gw-eus.microsoft.com <br>winatp-gw-neu.microsoft.com <br>winatp-gw-weu.microsoft.com <br>winatp-gw-uks.microsoft.com <br>winatp-gw-ukw.microsoft.com <br>winatp-gw-aus.microsoft.com <br>winatp-gw-aue.microsoft.com | [Atp-eindpunten van Windows Defender](/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection)
 Hulp krijgen | \*.support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net  <br>concierge.live.com | 
 Quick Assist | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*.lync.com | 
-SharePoint Online  | \*.sharepoint.com <br>\ *.svc.ms  <br>\<tenant\>.sharepoint.com  <br>\<tenant\>-my.sharepoint.com  <br>\<tenant\>-files.sharepoint.com  <br>\<tenant\>-myfiles.sharepoint.com <br>\*.sharepointonline.com  <br>cdn.sharepointonline.com  <br>static.sharepointonline.com  <br>spoprod-a.akamaihd.net  <br>publiccdn.sharepointonline.com  <br>privatecdn.sharepointonline.com | [SharePoint Online en OneDrive voor Bedrijven](../../enterprise/urls-and-ip-address-ranges.md)
-OneDrive voor Bedrijven | admin.onedrive.com  <br>officeclient.microsoft.com <br>odc.officeapps.live.com  <br>skydrive.wns.windows.com <br>g.live.com <br>oneclient.sfx.ms <br>\*.log.optimizely.com  <br>click.email.microsoftonline.com  <br>ssw.live.com  <br>storage.live.com | | [SharePoint Online en OneDrive voor Bedrijven](../../enterprise/urls-and-ip-address-ranges.md)
-Microsoft Teams | \*.teams.skype.com  <br>\*.teams.microsoft.com  <br>teams.microsoft.com <br>\*.asm.skype.com <br>\ *.cc.skype.com  <br>\*.conv.skype.com  <br>\*.dc.trouter.io  <br>\*.msg.skype.com  <br>prod.registrar.skype.com  <br>prod.tpc.skype.com <br>\*.broker.skype.com <br>\*.config.skype.com  <br>\*.pipe.skype.com  <br>\*.pipe.aria.microsoft.com  <br>config.edge.skype.com  <br>pipe.skype.com  <br>s-0001.s-msedge.net  <br>s-0004.s-msedge.net  <br>scsinstrument-ss-us.trafficmanager.net  <br>scsquery-ss- <br>us.trafficmanager.net  <br>scsquery-ss-eu.trafficmanager.net  <br>scsquery-ss-asia.trafficmanager.net <br>\*.msedge.net <br>compass-ssl.microsoft.com  <br>feedback.skype.com <br>\*.secure.skypeassets.com  <br>mlccdnprod.azureedge.net  <br>videoplayercdn.osi.office.net <br>\*.mstea.ms | [Microsoft Teams](../../enterprise/urls-and-ip-address-ranges.md)
-Power BI | maxcdn.bootstrapcdn.com <br>ajax.aspnetcdn.com <br>netdna.bootstrapcdn.com <br>cdn.optimizely.com <br>google-analytics.com <br>\*.mktoresp.com <br>\*.aadcdn.microsoftonline-p.com <br>\*.msecnd.com <br>\*.localytics.com <br>ajax.aspnetcdn.com <br>\*.localytics.com <br>\*.virtualearth.net <br>platform.bing.com <br>powerbi.microsoft.com <br>c.microsoft.com <br>app.powerbi.com <br>\*.powerbi.com <br>dc.services.visualstudio.com <br>support.powerbi.com <br>powerbi.uservoice.com <br>go.microsoft.com <br>c1.microsoft.com <br>\*.azureedge.net |[ Power BI & Express Route](/power-bi/service-admin-power-bi-expressroute)
-OneNote | apis.live.net <br>www.onedrive.com <br>login.microsoft.com  <br>www.onenote.com <br>\*.onenote.com <br>\*.msecnd.net <br>\*.microsoft.com <br>\*.office.net <br>cdn.onenote.net <br>site-cdn.onenote.net <br>cdn.optimizely.com <br>Ajax.aspnetcdn.com <br>officeapps.live.com <br>\\*.onenote.com <br>\*cdn.onenote.net <br>contentstorage.osi.office.net <br>\*onenote.officeapps.live.com <br>\*.microsoft.com | [OneNote](../../enterprise/urls-and-ip-address-ranges.md)
+SharePoint Online  | \*.sharepoint.com <br>\ *.svc.ms  <br>\<tenant\>.sharepoint.com  <br>\<tenant\>-my.sharepoint.com  <br>\<tenant\>-files.sharepoint.com  <br>\<tenant\>-myfiles.sharepoint.com <br>\*.sharepointonline.com  <br>cdn.sharepointonline.com  <br>static.sharepointonline.com  <br>spoprod-a.akamaihd.net  <br>publiccdn.sharepointonline.com  <br>privatecdn.sharepointonline.com | [URL's en IP-adresbereiken voor Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+OneDrive voor Bedrijven | admin.onedrive.com  <br>officeclient.microsoft.com <br>odc.officeapps.live.com  <br>skydrive.wns.windows.com <br>g.live.com <br>oneclient.sfx.ms <br>\*.log.optimizely.com  <br>click.email.microsoftonline.com  <br>ssw.live.com  <br>storage.live.com |  [URL's en IP-adresbereiken voor Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+Microsoft Teams | \*.teams.skype.com  <br>\*.teams.microsoft.com  <br>teams.microsoft.com <br>\*.asm.skype.com <br>\ *.cc.skype.com  <br>\*.conv.skype.com  <br>\*.dc.trouter.io  <br>\*.msg.skype.com  <br>prod.registrar.skype.com  <br>prod.tpc.skype.com <br>\*.broker.skype.com <br>\*.config.skype.com  <br>\*.pipe.skype.com  <br>\*.pipe.aria.microsoft.com  <br>config.edge.skype.com  <br>pipe.skype.com  <br>s-0001.s-msedge.net  <br>s-0004.s-msedge.net  <br>scsinstrument-ss-us.trafficmanager.net  <br>scsquery-ss- <br>us.trafficmanager.net  <br>scsquery-ss-eu.trafficmanager.net  <br>scsquery-ss-asia.trafficmanager.net <br>\*.msedge.net <br>compass-ssl.microsoft.com  <br>feedback.skype.com <br>\*.secure.skypeassets.com  <br>mlccdnprod.azureedge.net  <br>videoplayercdn.osi.office.net <br>\*.mstea.ms | [URL's en IP-adresbereiken voor Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+Power BI | maxcdn.bootstrapcdn.com <br>ajax.aspnetcdn.com <br>netdna.bootstrapcdn.com <br>cdn.optimizely.com <br>google-analytics.com <br>\*.mktoresp.com <br>\*.aadcdn.microsoftonline-p.com <br>\*.msecnd.com <br>\*.localytics.com <br>ajax.aspnetcdn.com <br>\*.localytics.com <br>\*.virtualearth.net <br>platform.bing.com <br>powerbi.microsoft.com <br>c.microsoft.com <br>app.powerbi.com <br>\*.powerbi.com <br>dc.services.visualstudio.com <br>support.powerbi.com <br>powerbi.uservoice.com <br>go.microsoft.com <br>c1.microsoft.com <br>\*.azureedge.net |[ Power BI & Express Route](/power-bi/service-admin-power-bi-expressroute) 
+OneNote | apis.live.net <br>www.onedrive.com <br>login.microsoft.com  <br>www.onenote.com <br>\*.onenote.com <br>\*.msecnd.net <br>\*.microsoft.com <br>\*.office.net <br>cdn.onenote.net <br>site-cdn.onenote.net <br>cdn.optimizely.com <br>Ajax.aspnetcdn.com <br>officeapps.live.com <br>\\*.onenote.com <br>\*cdn.onenote.net <br>contentstorage.osi.office.net <br>\*onenote.officeapps.live.com <br>\*.microsoft.com | [URL's en IP-adresbereiken voor Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+
+## <a name="steps-to-get-ready"></a>Stappen om u klaar te maken
+
+1. Controleer [Vereisten voor Microsoft Managed Desktop](prerequisites.md).
+2. Gebruik [gereedheidsbeoordelingshulpmiddelen.](readiness-assessment-tool.md)
+3. [Vereisten voor gast-accounts](guest-accounts.md)
+4. [Netwerkconfiguratie voor Microsoft Managed Desktop](network.md) (dit artikel)
+5. [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](certs-wifi-lan.md)
+6. [Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop](authentication.md)
+7. [Apps in Microsoft Managed Desktop](apps.md)
+8. [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
+9. [Printbronnen voorbereiden voor Microsoft Managed Desktop](printing.md)

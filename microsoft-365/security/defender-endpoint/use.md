@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b490159d12bebdb95b6f168671393f8939da33be
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ee6fd4bd8d60f828bb474fc80cb987f4f94edcbe
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060598"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581092"
 ---
 # <a name="overview-of-microsoft-defender-security-center"></a>Overzicht van Microsoft Defender-beveiligingscentrum
 
@@ -29,7 +29,7 @@ ms.locfileid: "51060598"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -46,11 +46,11 @@ Gebruik het **dashboard Bedreigingsanalyse** om de risicoblootstelling voor Spec
 ## <a name="microsoft-defender-for-endpoint-interactive-guide"></a>Interactieve handleiding voor Microsoft Defender voor Eindpunt
 In deze interactieve handleiding leert u hoe u bedreigingen voor uw organisatie kunt onderzoeken met Microsoft Defender voor Eindpunt. U ziet hoe Microsoft Defender voor Eindpunt u kan helpen bij het identificeren van verdachte activiteiten, het onderzoeken van risico's voor uw organisatie en het herstellen van bedreigingen.
 
-> [!VIDEO https://aka.ms/MSDE-IG]
+[Bekijk de interactieve handleiding](https://aka.ms/MSDE-IG)
 
 ### <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Beschrijving
+Onderwerp | Omschrijving
 :---|:---
 [Portaloverzicht](portal-overview.md) | Meer informatie over de portalindeling en gebiedsbeschrijvingen.
 [Het dashboard Beveiligingsbewerkingen weergeven](security-operations-dashboard.md) | Het dashboard Microsoft Defender for Endpoint  **Security operations biedt** een momentopname van uw netwerk. U kunt aggregaten van waarschuwingen bekijken, de algehele status van de service van de apparaten in uw netwerk, apparaten, bestanden en URL's onderzoeken en momentopnamen bekijken van bedreigingen die op apparaten worden gezien.

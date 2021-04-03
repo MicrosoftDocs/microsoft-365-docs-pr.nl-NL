@@ -1,6 +1,6 @@
 ---
-title: Downloadbare gereedheidscontrole
-description: Controleert apparaat- en netwerkinstellingen, inclusief vereiste eindpunten
+title: Downloadbare gereedheidsevaluatie-controle
+description: Hiermee worden apparaat- en netwerkinstellingen gecontroleerd, inclusief vereiste eindpunten
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,41 +9,42 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2080b2fc924320f38d9972c82c0425fa1d8026e7
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+audience: Admin
+ms.openlocfilehash: eec6bdff2e494e0f55b06cb581c5775d3ffeb9e3
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921969"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581032"
 ---
-# <a name="downloadable-readiness-assessment-checker"></a>Downloadbare gereedheidscontrole
+# <a name="downloadable-readiness-assessment-checker"></a>Downloadbare gereedheidsevaluatie-controle
 
-Als u goed wilt werken met het beheerde bureaublad van Microsoft, moeten apparaten voldoen aan bepaalde vereisten voor hardware en instellingen. Bovendien moet elk apparaat belangrijke eindpunten kunnen bereiken. Download en voer dit hulpprogramma uit om een HTML-rapport te verkrijgen, resultaten te bekijken en vervolgens actie te ondernemen. U moet het hulpprogramma en de ondersteunende bestanden downloaden en vervolgens handmatig uitvoeren op elk apparaat dat u wilt registreren in het beheerde bureaublad van Microsoft.
+Als u goed wilt werken met Microsoft Managed Desktop, moeten apparaten voldoen aan bepaalde vereisten voor hardware en instellingen. Bovendien moet elk apparaat belangrijke eindpunten kunnen bereiken. Download en voer dit hulpprogramma uit om een HTML-rapport te verkrijgen, resultaten weer te geven en actie te ondernemen. U moet het hulpprogramma en de ondersteunende bestanden downloaden en vervolgens handmatig uitvoeren op elk apparaat dat u wilt registreren voor Microsoft Managed Desktop.
 
-Bij elke controle wordt een van de drie mogelijke resultaten door het hulpmiddel rapporteren:
+Voor elke controle rapporteert het hulpprogramma een van de drie mogelijke resultaten:
 
 
 |Resultaat  |Betekenis  |
 |---------|---------|
-|Klaar     | U hoeft niets te doen voordat u de inschrijving voltooit.        |
-|Advies    | Volg de stappen in het hulpprogramma voor een optimaal gebruik van de inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
-|Nog niet gereed | *De inschrijving mislukt als* u deze problemen niet op kunt lossen. Volg de stappen in het hulpprogramma om deze problemen op te lossen.        |
+|Gereed     | Er is geen actie vereist voordat u de inschrijving voltooit.        |
+|Advies    | Volg de stappen in het hulpprogramma voor de beste ervaring met registratie en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
+|Nog niet klaar | *De inschrijving mislukt als* u deze problemen niet op kunt lossen. Volg de stappen in het hulpprogramma om deze op te lossen.        |
 
 ## <a name="obtain-the-checker"></a>De controle verkrijgen
 
 Download het ZIP-bestand van https://aka.ms/mmddratoolv0 .
 
 > [!NOTE]
-> De gebruiker die het hulpprogramma gebruikt, moet lokale beheerdersrechten hebben op het apparaat waarop het programma wordt uitgevoerd.
+> De gebruiker die het hulpprogramma gebruikt, moet de lokale beheerdersrechten hebben op het apparaat waarop de functie wordt uitgevoerd.
 
- Voer het hulpprogramma vervolgens uit door deze stappen te volgen:
+ Voer het hulpprogramma vervolgens uit door de volgende stappen uit te voeren:
 
 1. Kopieer het gedownloade ZIP-bestand naar elk apparaat dat u wilt controleren.
-2. Alle bestanden in de gecomprimeerde download uitpakken.
+2. Haal alle bestanden in de gecomprimeerde download op.
 3. Voer **Microsoft.MMD.DeviceReadinessAssessmentTool.exe** uit.
-4. Wanneer de vraag van Gebruikerstoegangsbeheer wordt weergegeven, selecteert u **Ja.** Het hulpprogramma wordt uitgevoerd en er wordt een rapport geopend in uw standaardbrowser.
+4. Wanneer de prompt Gebruikerstoegangsbesturingselement wordt weergegeven, selecteert u **Ja**. Het hulpprogramma wordt uitgevoerd en opent een rapport in uw standaardbrowser.
 
-U kunt het ZIP-archief ook downloaden en  uitpakken naar een gedeelde locatie,Microsoft.MMD.DeviceReadinessAssessmentTool.exeelk apparaat openen en lokaal uitvoeren.
+U kunt het zip-archief ook downloaden en uitpakken naar een gedeelde locatie, toegang **Microsoft.MMD.DeviceReadinessAssessmentTool.exe** elk apparaat en vervolgens lokaal uitvoeren.
 
 
 ## <a name="checks"></a>Controles
@@ -52,39 +53,39 @@ Met het downloadbare hulpprogramma worden deze apparaat- en netwerkgerelateerde 
 
 ### <a name="hardware"></a>Hardware
 
-Apparaten moeten voldoen aan specifieke hardwarevereisten om met het beheerde bureaublad van Microsoft te kunnen werken. Momenteel kunnen alleen specifieke [goedgekeurde apparaten](../service-description/device-list.md) zich registreren. 
+Apparaten moeten voldoen aan specifieke hardwarevereisten voor gebruik met Microsoft Managed Desktop. Op dit moment mogen alleen specifieke [goedgekeurde](../service-description/device-list.md) apparaten zich registreren. 
 
-Als uw apparaat na een van de controles mislukt, is het niet compatibel met het beheerde bureaublad van Microsoft.
+Als een van de controles op uw apparaat mislukt, is het niet compatibel met Beheerd bureaublad van Microsoft.
 
 ### <a name="network-endpoints"></a>Netwerk-eindpunten
 
-Apparaten hebben veel toegang tot verschillende [belangrijke eindpunten voor](network.md) gebruik met het beheerde bureaublad van Microsoft.
+Apparaten kunnen veel verschillende belangrijke eindpunten [bereiken om](network.md) te werken met Microsoft Managed Desktop.
 
-Als het hulpprogramma een **niet-gereed** resultaat meldt, bekijkt u het gedetailleerde rapport om erachter te komen welke eindpunten niet bereikbaar zijn. Pas vervolgens uw firewall of andere netwerkinstellingen aan om ervoor te zorgen dat deze eindpunten bereikbaar zijn.
+Als het hulpprogramma  een niet-gereed resultaat rapporteert, bekijkt u het gedetailleerde rapport om erachter te komen welke eindpunten niet bereikbaar waren. Pas vervolgens uw firewall of andere netwerkinstellingen aan om ervoor te zorgen dat deze eindpunten kunnen worden bereikt.
 
-### <a name="other-settings"></a>Overige instellingen
+### <a name="other-settings"></a>Andere instellingen
 
-#### <a name="enterprise-wi-fi-profiles"></a>Wi-Fi-profielen voor ondernemingen
+#### <a name="enterprise-wi-fi-profiles"></a>Enterprise Wi-Fi-profielen
 
-Een **adviesresultaat** betekent dat u gebruik maakt van een aantal Wi-Fi-profielen die certificaten en profielen nodig hebben om goed te werken. Zie Certificaten en een [Wi-Fi-/VPN-profiel implementeren voor meer informatie.](certs-wifi-lan.md#deploy-certificates-and-wi-fivpn-profile)
+Een **adviesresultaat** betekent dat u bepaalde wi-fi-profielen gebruikt die certificaten en profielen nodig hebben om goed te kunnen werken. Zie Certificaten en [Wi-Fi/VPN-profiel](certs-wifi-lan.md#deploy-certificates-and-wi-fivpn-profile)implementeren voor meer informatie.
 
 #### <a name="lan-profiles"></a>LAN-profielen
 
-Een **adviesresultaat** betekent dat u lans hebt die certificaten en profielen nodig hebben om goed te werken. Zie Certificaten en netwerkprofielen voorbereiden voor beheerd bureaublad [van Microsoft voor meer informatie.](certs-wifi-lan.md)
+Een **adviesresultaat** betekent dat u LN's hebt die certificaten en profielen nodig hebben om goed te kunnen werken. Zie Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop voor [meer informatie.](certs-wifi-lan.md)
 
 #### <a name="vpn-profiles"></a>VPN-profielen
 
-Een **adviesresultaat** betekent dat u een VPN (Virtual Private Network) gebruikt. Maak een VPN-profiel voor het implementeren van certificaten die zijn geïntegreerd met Microsoft Intune. Zie Certificaten en netwerkprofielen voorbereiden voor beheerd bureaublad [van Microsoft voor meer informatie.](certs-wifi-lan.md)
+Een **adviesresultaat** betekent dat u een virtueel privénetwerk (VPN) gebruikt. Maak een VPN-profiel waarin certificaten worden geïmplementeerd die zijn geïntegreerd met Microsoft Intune. Zie Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop voor [meer informatie.](certs-wifi-lan.md)
 
-#### <a name="mapped-drives"></a>Kaartstations
+#### <a name="mapped-drives"></a>In kaart gebrachte stations
 
-Een **adviesresultaat** betekent dat u een aantal kaartstations hebt, die niet worden aanbevolen. Zie Kaartstations voorbereiden voor Microsoft Managed Desktop voor [meer informatie.](mapped-drives.md)
+Een **Advisory-resultaat** betekent dat u bepaalde in kaart gebrachte stations hebt, die niet worden aanbevolen. Zie Kaartstations voorbereiden voor [Microsoft Managed Desktop voor meer informatie.](mapped-drives.md)
 
 #### <a name="print-queues"></a>Wachtrijen afdrukken
 
-Een **adviesresultaat** betekent dat u een aantal openstaande afdrukwachtrijen hebt, die niet worden aanbevolen. Eén oplossing is het gebruik van afdrukken in de cloud. Zie Afdrukresources [voorbereiden voor het beheerde bureaublad van Microsoft voor meer informatie.](printing.md)
+Een **adviesresultaat** betekent dat u een aantal openstaande afdrukwachtrijen hebt, die niet worden aanbevolen. Eén oplossing is het gebruik van cloudafdrukken. Zie Afdrukresources voorbereiden voor Microsoft Managed Desktop voor [meer informatie.](printing.md)
 
 #### <a name="proxies"></a>Proxies
 
-Een **adviesresultaat** betekent dat er een proxyserver in gebruik is. Zie Netwerkconfiguratie voor Microsoft Managed Desktop voor [meer informatie.](network.md)
+Een **adviesresultaat** betekent dat u een proxyserver in gebruik hebt. Zie Netwerkconfiguratie voor Microsoft Managed Desktop voor [meer informatie.](network.md)
 
