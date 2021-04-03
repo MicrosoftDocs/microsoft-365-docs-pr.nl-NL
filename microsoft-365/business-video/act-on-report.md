@@ -1,9 +1,9 @@
 ---
-title: Gebruiksrapporten bekijken
+title: Gebruiksrapporten controleren
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,27 +20,27 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Informatie over het gebruik van de gegevens uit gebruiksrapporten.
-ms.openlocfilehash: 579d47515f57dfc3211a6e76a6d791999f6b5efc
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Meer informatie over het gebruik van de gegevens uit gebruiksrapporten.
+ms.openlocfilehash: 1c499b62f14aeec392d15939c8e6d70c9bad7ced
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423187"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579011"
 ---
-# <a name="review-usage-reports-in-microsoft-365"></a>Gebruiksrapporten bekijken in Microsoft 365
+# <a name="review-usage-reports-in-microsoft-365"></a>Gebruiksrapporten controleren in Microsoft 365
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SOFC?autoplay=false]
 
-Ontdek hoe werknemers Microsoft 365-services gebruiken, zoals e-mail of OneDrive, en onderneemt actie.
+Lees hoe werknemers Microsoft 365-services gebruiken, zoals e-mail of OneDrive, en onderneemt actie.
 
-In het [beheercentrum](https://admin.microsoft.com)ziet u alle beschikbare rapporten.
+In het [beheercentrum](https://admin.microsoft.com)kunt u alle beschikbare rapporten zien.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Ga naar **Rapporten** en vervolgens Naar **Gebruik.** Zoek de details van een rapport door er een te selecteren. In het rapport Actieve gebruikers ziet u welke services het meest worden gebruikt door de personen in uw bedrijf.
-1. Laten we als voorbeeld het OneDrive-rapport eens bekijken. Hier kunnen we zien hoeveel personen een account hebben, u kunt ook het totale aantal en het aantal actieve bestanden bekijken, evenals de gebruikte opslagruimte. Als u alle andere rapporten wilt zien, gaat u naar de vervolgkeuzelijst.
-1. Hier kunnen we het gebruiksrapport voor e-mail-apps bekijken en zien welke methoden uw werknemers het meest gebruiken voor toegang tot hun e-mail. U kunt ook informatie bekijken die specifiek is voor een bepaalde persoon, maar de details zijn standaard verborgen. Als u de details van de afzonderlijke gebruikers wilt bekijken, gaat u naar Instellingen **en** vervolgens naar **Services &-invoegingen.**
-1. In het rapportvenster kunnen we de anonieme id in- of uit zetten. Laten we nu het deelvenster sluiten en teruggaan naar **Rapporten,** **Gebruik** en **E-mailactiviteit.** Hier kunnen we informatie zien die specifiek is voor een persoon.
+1. Ga naar **Rapporten** en vervolgens **Naar Gebruik.** Zoek details voor een rapport door er een te selecteren. In het rapport Actieve gebruikers ziet u welke services het meest worden gebruikt door de personen in uw bedrijf.
+1. Laten we bijvoorbeeld het OneDrive-rapport bekijken. Hier kunnen we zien hoeveel personen een account hebben, u kunt ook het aantal totale en actieve bestanden bekijken, evenals de gebruikte opslagruimte. Als u alle andere rapporten wilt zien, gaat u naar de vervolgkeuzelijst.
+1. Hier kunnen we het gebruiksrapport voor e-mailapps bekijken en zien welke methoden uw werknemers het meest gebruiken om toegang te krijgen tot hun e-mail. U kunt ook gegevens weergeven die specifiek zijn voor een persoon, maar de details zijn standaard verborgen. Als u de afzonderlijke gebruikersgegevens wilt laten zien, gaat u naar Instellingen **en** vervolgens & **services.**
+1. In het rapportvenster kunnen we de anonieme id in- of uit- zetten. Nu sluiten we het deelvenster en gaan we terug naar de activiteiten **Rapporten,** **Gebruik** en **E-mail.** Hier kunnen we informatie zien die specifiek is voor een individu.
 
-    Vergeet niet dat als u ooit vastloopt, u altijd kunt teruggaan naar de Help, die u informatie geeft over het specifieke rapport dat u bekijkt.
+    Als u ooit vastloopt, kunt u altijd teruggaan naar Help, zodat u informatie krijgt over het specifieke rapport dat u bekijkt.

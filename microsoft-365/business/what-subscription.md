@@ -1,9 +1,9 @@
 ---
-title: Welk abonnement is geschikt voor uw bedrijf?
+title: Welk abonnement is het juiste voor uw bedrijf?
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -18,14 +18,14 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Bepaal of Office 365 E3, Microsoft 365 Business Standard of Microsoft 365 Business Premium geschikt is voor uw bedrijf.
-ms.openlocfilehash: 10799de6e588a92782e17c8efe3fb17ba219bd48
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Bepaal of Office 365 E3, Microsoft 365 Business Standard of Microsoft 365 Business Premium juist is voor uw bedrijf.
+ms.openlocfilehash: 2f8c59e0af619730060862fc8ee24a702ca00343
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403713"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579817"
 ---
-# <a name="what-subscription-is-right-for-your-small-business"></a>Welk abonnement is geschikt voor uw kleine bedrijf?
+# <a name="what-subscription-is-right-for-your-small-business"></a>Welk abonnement is het juiste voor uw kleine bedrijf?
 
-Microsoft biedt verschillende plannen voor kleine bedrijven. De aanbevolen abonnementen zijn Microsoft 365 Business Standard of Microsoft 365 Business Premium met maximaal 300 gebruikers. Microsoft 365 Business Premium biedt meer beveiligingsfuncties dan Microsoft 365 Business Standard voor extra kosten.
+Microsoft biedt verschillende abonnementen voor kleine bedrijven. De aanbevolen abonnementen zijn Microsoft 365 Business Standard of Microsoft 365 Business Premium met maximaal 300 gebruikers. Microsoft 365 Business Premium biedt meer beveiligingsfuncties dan Microsoft 365 Business Standard voor extra kosten.

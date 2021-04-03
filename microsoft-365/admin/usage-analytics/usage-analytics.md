@@ -2,8 +2,8 @@
 title: Microsoft 365 Gebruiksanalyse
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Krijg een overzicht van hoe uw organisatie Microsoft 365-services gebruikt om te communiceren en samen te werken.
-ms.openlocfilehash: 5120e487604fbaf4421c1b2f814cd57e79d5f9dc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a88fb5f6381079644c7b2615432bcbc625b820ad
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913812"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579035"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse
 

@@ -2,8 +2,8 @@
 title: Microsoft 365-rapporten in het beheercentrum - Yammer-activiteitenrapport
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,27 +19,27 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
-description: Ontvang het rapport Yammer-activiteit en weet meer over het aantal gebruikers dat Yammer gebruikt om een bericht te plaatsen, leuk te vinden of te lezen.
-ms.openlocfilehash: 2bf02c0599f999b0eebb52d119096567bb09508b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Bekijk het Yammer-activiteitenrapport en weet meer over het aantal gebruikers dat Yammer gebruikt om een bericht te posten, leuk te vinden of te lezen.
+ms.openlocfilehash: 5ebf180189b2785070c269ef15b6a6c6c9f7f61a
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387463"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579480"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>Microsoft 365-rapporten in het beheercentrum - Yammer-activiteitenrapport
 
-Als Microsoft 365-beheerder worden in het dashboard **Rapporten** u gegevens weergegeven over het gebruik van de producten binnen uw organisatie. Bekijk [activiteitenrapporten in het beheercentrum](activity-reports.md). Met het **Yammer-activiteitenoverzicht** kunt u meer informatie krijgen over het gebruiksniveau van Yammer binnen uw organisatie door naar het aantal unieke gebruikers te kijken die werken met Yammer voor het plaatsen, leuk vinden of lezen van een bericht en naar de hoeveelheid activiteit die in de gehele organisatie wordt gegenereerd. 
+Als Microsoft 365-beheerder toont het dashboard **Rapporten** u gegevens over het gebruik van de producten binnen uw organisatie. Bekijk [activiteitenrapporten in het beheercentrum.](activity-reports.md) Met het **Yammer-activiteitenoverzicht** kunt u meer informatie krijgen over het gebruiksniveau van Yammer binnen uw organisatie door naar het aantal unieke gebruikers te kijken die werken met Yammer voor het plaatsen, leuk vinden of lezen van een bericht en naar de hoeveelheid activiteit die in de gehele organisatie wordt gegenereerd. 
   
 > [!NOTE]
-> U moet een globale beheerder, wereldwijde lezer of rapportenlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-service-, Teams-communicatie- of Skype voor Bedrijven-beheerder om rapporten te bekijken. 
+> U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-, Teams-, Teams-, of Skype voor Bedrijven-beheerder om rapporten te kunnen zien. 
  
 ## <a name="how-to-get-to-the-yammer-activity-report"></a>Hoe u toegang tot het Yammer-activiteitsrapport krijgt
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer **Yammer-activiteit** in de vervolgkeuzelijst **Een rapport** selecteren \> **Activity**.
+2. Selecteer in **de vervolgkeuze** selecteren een rapport de optie  \> **Yammer-activiteit.**
   
 ## <a name="interpret-the-yammer-activity-report"></a>Het Yammer-activiteitsrapport interpreteren
 
@@ -49,27 +49,27 @@ U krijgt inzicht in de Yammer-activiteit van uw gebruikers door te kijken naar d
   
 Het activiteitsrapport bevat de volgende informatie.
   
-- Gebruik de dagtabs om de trends in het **Yammer-activiteitenrapport** voor de laatste 28, 30, 90 of 180 dagen te bekijken. Als u echter een bepaalde dag in het rapport selecteert, worden in de tabel gegevens weergegeven voor maximaal 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd). 
+- Gebruik de dagtabs om de trends in het **Yammer-activiteitenrapport** voor de laatste 28, 30, 90 of 180 dagen te bekijken. Als u echter een bepaalde dag in het rapport selecteert, worden in de tabel gegevens voor maximaal 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd) weer te geven. 
     
 - Elk rapport heeft een datum waarop het is gegenereerd. De rapporten weerspiegelen meestal een vertraging van 24 tot 48 uur na de tijd van de activiteit.
     
 - U kunt de grafiek **Activiteit** bekijken om inzicht te krijgen in de trend van de hoeveelheid Yammer-activiteit die zich afspeelt binnen uw organisatie. U krijgt een beeld van de onderverdeling van geplaatste, gelezen of leuk gevonden berichten. 
     
-    ![Activiteitsweergave in het yammer-activiteitenrapport](../../media/76983516-2c5f-43a1-a5e3-c414e9f17638.JPG)
+    ![Activiteitsweergave in het Yammer-activiteitenrapport](../../media/76983516-2c5f-43a1-a5e3-c414e9f17638.JPG)
   
   - In de grafiek **Activiteit** is de Y-as de totale activiteit met betrekking tot geplaatste, gelezen of leuk gevonden berichten. 
     
 - U kunt de grafiek **Gebruiker** bekijken om een beeld te krijgen van de trend van het aantal unieke gebruikers die Yammer-activiteiten genereren. U kunt de trend bekijken van gebruikers die Yammer-berichten plaatsen, lezen of leuk vinden. 
     
-    ![Gebruikers bekijken in het yammer-activiteitenrapport](../../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
+    ![Gebruikersweergave in het Yammer-activiteitenrapport](../../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
   
   - In de grafiek **Gebruikers** staat de Y-as voor de gebruiker die Yammer-berichten plaatst, leest of leuk vindt. 
     
   - De X-as van beide grafieken is het geselecteerde datumbereik voor dit specifieke rapport.
     
-- U de reeks die u in de grafiek ziet filteren door een item in de legenda te selecteren. Selecteer bijvoorbeeld in de **grafiek Activiteit** de optie **Geplaatst,** **Lezen**of **Leuk om** alleen de informatie te zien die betrekking heeft op elke grafiek. 
+- U kunt de reeks filteren die u in de grafiek ziet door een item in de legenda te selecteren. Selecteer bijvoorbeeld in **de** grafiek Activiteit **de** optie Gepost , **Lezen** of Leuk om **alleen** de informatie over elk diagram te zien. 
     
-    ![Opties geplaatst, gelezen en geliked](../../media/8b832afc-415c-409b-816f-cb02b7a71e69.png)
+    ![De opties Gepost, Lezen en Leuk gevonden](../../media/8b832afc-415c-409b-816f-cb02b7a71e69.png)
   
     Door deze selectie te wijzigen, verandert de informatie in de rastertabel niet.
     
@@ -83,7 +83,7 @@ Het activiteitsrapport bevat de volgende informatie.
     
   - **Gebruikersnaam** is het e-mailadres van de gebruiker. U kunt het feitelijke e-mailadres weergeven of dit veld anoniem maken. 
     
-    Dit raster toont gebruikers die zich hebben aangemeld bij Yammer met het Microsoft 365-account of die zich via één aanmelding bij het netwerk hebben aangemeld.
+    In dit raster ziet u gebruikers die zich hebben aangemeld bij Yammer met het Microsoft 365-account of die zich met één aanmelding bij het netwerk hebben aangemeld.
     
   - **Weergavenaam** is de volledige naam van de gebruiker. U kunt het feitelijke e-mailadres weergeven of dit veld anoniem maken. 
     
@@ -101,11 +101,11 @@ Het activiteitsrapport bevat de volgende informatie.
     
   - **Leuk gevonden** is het aantal berichten dat de gebruiker heeft leuk heeft gevonden tijdens de door u opgegeven tijdsperiode. 
     
-  - **Toegewezen product** zijn de producten die aan deze gebruiker zijn toegewezen. 
+  - **Product toegewezen** is de producten die aan deze gebruiker zijn toegewezen. 
     
-    Als het beleid van uw organisatie verhindert dat u rapporten weergeeft waarin gebruikersgegevens kunnen worden geïdentificeerd, kunt u de privacy-instelling voor elk van deze rapporten wijzigen. Bekijk de **sectie Hoe verberg ik de gegevens op gebruikersniveau?** [Activity reports in the Microsoft 365 admin center](activity-reports.md)
+    Als het beleid van uw organisatie verhindert dat u rapporten weergeeft waarin gebruikersgegevens kunnen worden geïdentificeerd, kunt u de privacy-instelling voor elk van deze rapporten wijzigen. Bekijk de sectie **Details op gebruikersniveau verbergen** in [Activiteitenrapporten in het Microsoft 365-beheercentrum.](activity-reports.md)
     
-- U de rapportgegevens ook exporteren naar een CSV-bestand in Excel door de koppeling **Exporteren te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
+- U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling Exporteren **te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
     
 ## <a name="what-data-is-in-these-reports"></a>Welke gegevens vindt u in deze rapporten?
 
@@ -113,6 +113,6 @@ Het activiteitsrapport bevat de volgende informatie.
     
 - **Geen gegevens van het externe netwerk** Gegevens van externe netwerken worden niet opgenomen in deze rapporten. 
     
-- **Geactiveerde netwerken** In deze rapporten worden gegevens weergegeven voor het Yammer-netwerk dat deel uitmaakt van uw Microsoft 365-abonnement. De grafiek verzamelt het gebruik van alle gebruikers die zich hebben aangemeld bij het Yammer-netwerk, ongeacht of ze Microsoft 365 of Yammer hebben gebruikt om zich aan te melden. 
+- **Geactiveerde netwerken** Deze rapporten bevatten gegevens voor het Yammer-netwerk dat deel uitmaakt van uw Microsoft 365-abonnement. De grafiek aggregeert het gebruik van alle gebruikers die zich hebben aangemeld bij het Yammer-netwerk, ongeacht of ze Microsoft 365 of Yammer hebben gebruikt om zich aan te melden. 
     
 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365-rapporten in het Beheercentrum-Dynamics 365 voor spraak activiteiten klant
-ms.author: sirkkuw
-author: sirkkuw
+title: Microsoft 365-rapporten in het beheercentrum - Activiteit Dynamics 365 Customer Voice
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -17,44 +17,44 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
-description: Leer hoe u een Microsoft Dynamics 365-rapport voor spraak activiteiten van klanten ontvangt met behulp van het dashboard Microsoft 365-rapporten in het Microsoft 365-Beheercentrum.
-ms.openlocfilehash: de03067197c80634f02318b35a79eb84e33c4b86
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+description: Lees hoe u een Microsoft Dynamics 365 Customer Voice-activiteitsrapport kunt krijgen met behulp van het dashboard Microsoft 365 Reports in het Microsoft 365-beheercentrum.
+ms.openlocfilehash: 26d376602caebcb5276b77a3d2c962a14e5fead5
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988550"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579648"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365-rapporten in het Beheercentrum-Dynamics 365 voor spraak activiteiten klant
+# <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365-rapporten in het beheercentrum - Activiteit Dynamics 365 Customer Voice
 
-Het dashboard Microsoft 365 **rapporten** toont u het overzicht van de activiteiten in de producten van uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
+In het dashboard  Microsoft 365-rapporten ziet u het activiteitenoverzicht voor alle producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
   
-U kunt bijvoorbeeld inzicht krijgen in de activiteiten van elke gebruiker in licentie voor het gebruik van Microsoft Dynamics 365 Customer Voice door te kijken naar de interacties met een klant spraak van Dynamics 365. Met deze functie kunt u ook inzicht krijgen in het samenvatting van het niveau van samenwerking door het aantal Pro-enquêtes te zien waarop de gebruikers hebben gereageerd. 
+U kunt bijvoorbeeld de activiteit begrijpen van elke gebruiker die een licentie heeft voor het gebruik van Microsoft Dynamics 365 Customer Voice door te kijken naar de interacties met Dynamics 365 Customer Voice. Het helpt u ook om het niveau van samenwerking te begrijpen door te kijken naar het aantal pro-enquêtes dat is gemaakt en Pro-enquêtes waarop de gebruikers hebben gereageerd. 
   
 > [!NOTE]
-> U moet een globale beheerder, algemene lezer of rapporten lezer zijn in Microsoft 365 of een Exchange-, SharePoint-, teams-service, teams-communicatie of Skype voor bedrijven-beheerder om rapporten te zien. 
+> U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-, Teams-, Teams-, of Skype voor Bedrijven-beheerder om rapporten te kunnen zien. 
 
-## <a name="how-to-get-to-the-forms-pro-activity-report"></a>Toegang tot het rapport Forms pro-activiteit
+## <a name="how-to-get-to-the-forms-pro-activity-report"></a>Het activiteitsrapport Forms Pro gebruiken
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer in de vervolgkeuzelijst **een rapport selecteren** de optie **Dynamics 365 Customer Voice** \> **Activity**.
+2. Selecteer  **dynamics 365 Customer Voice-activiteit** in de vervolgkeuze selecteer \> **een rapport selecteren.**
 
-## <a name="interpret-the-dynamics-365-customer-voice-activity-report"></a>Het rapport Dynamics 365 voor spraak activiteiten van klant interpreteren
+## <a name="interpret-the-dynamics-365-customer-voice-activity-report"></a>Het dynamics 365 Customer Voice-activiteitenrapport interpreteren
 
-Met de grafieken **activiteit** en **gebruikers** kunt u inzicht krijgen in de facturerings activiteiten van uw gebruikers voor Dynamics 365. 
+U kunt de activiteit Dynamics 365 Customer Voice van uw gebruiker bekijken door de grafieken **Activiteit** en **Gebruikers te** bekijken. 
 
-![Rapport met formulier activiteiten](../../media/formsproactivity.png)
+![Rapport Formulierenactiviteit](../../media/formsproactivity.png)
 
 |Item|Beschrijving|
 |:-----|:-----|
-|1.  <br/> |In het rapport **Dynamics 365 Customer Voice** activity kunnen trends worden weergegeven voor de laatste 7, 30, 90 of 180 dagen. Als u echter een bepaalde dag selecteert in het rapport, worden in de tabel (7) gegevens weergegeven voor tot 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd).   <br/> |
-|2.  <br/> |De gegevens in elk rapport zijn meestal net zo recent als de laatste 48 uur.  <br/> |
-|3.  <br/> |De weergave **gebruikers** helpt u inzicht te krijgen in de trend van het aantal actieve gebruikers van de gebruikers van Dynamics 365. Als een gebruiker een activiteit rond een pro-enquête heeft uitgevoerd (maken, bewerken, weergeven, enzovoort) binnen een specifieke periode, wordt een gebruiker als actief beschouwd.  <br/> |
-|4.  <br/> |De weergave **activiteit** helpt u inzicht te krijgen in de trend van het aantal actieve gebruikers. Een gebruiker wordt als actief beschouwd als hij of zij een bestandsactiviteit (opslaan, synchroniseren, wijzigen of delen) heeft uitgevoerd of een pagina bezocht in de opgegeven periode.<br/> Opmerking: een activiteit kan meerdere keren voor één enquête plaatsvinden, maar wordt slechts als één actieve enquête geteld. U kunt bijvoorbeeld een pro-enquête maken en dezelfde enquête meerdere keren gedurende een bepaalde periode tegelijk bewerken, maar alleen als één enquête tellen. <br>|
-|5.<br/>|In de grafiek **gebruikers** is de Y-as het aantal unieke gebruikers. X-as is de datum waarop de unieke gebruikers actief zijn. De legenda zijn:<br/><br/>**Ontwerpers** betekent dat de gebruiker een Dynamics 365 voor spraak onderzoek voor de klant heeft gemaakt of bewerkt.<br><br>In de grafiek **activiteit** is de Y-as het aantal aanvragen voor de Voice 365 van de klant van een enquête. X-as is de datum waarop de enquête-of antwoord activiteit heeft plaatsgevonden. De legenda zijn:<br/><br/>**Gemaakte enquêtes** is het aantal unieke spraak enquêtes voor een klant van 365 dat de gebruikers hebben gemaakt.<br>**Antwoorden** is het aantal anonieme of niet-anonieme antwoorden dat de gebruikers die de enquête hebben ontvangen, hebben ingediend. |
-|zes.<br/>|U kunt de reeks die u in de grafiek ziet, filteren door een item te selecteren in de legenda. Selecteer bijvoorbeeld in de grafiek gebruikers de optie ontwerpers, responders of totale gebruikers als u alleen de gegevens wilt zien die betrekking hebben op deze personen. Door deze selectie te wijzigen, verandert de informatie in de rastertabel eronder niet.|
-|7,5.<br/>|De tabel toont een uitsplitsing van de activiteiten op het niveau per gebruiker. De legenda zijn:<br/><br/>**Gebruikersnaam** is het e-mailadres van de gebruiker die de activiteit heeft uitgevoerd op Microsoft Forms.<br/>**Datum van laatste activiteit (UTC)** is de datum waarop de laatste formulier activiteit is uitgevoerd door de gebruiker voor het geselecteerde datumbereik. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/>Hiermee wordt de tabel gefilterd en worden gegevens over Bestandsactiviteiten alleen weergegeven voor gebruikers die de activiteit op die bepaalde dag hebben uitgevoerd.<br/><br/>**Aantal gemaakte enquêtes** is het aantal enquêtes dat de gebruiker heeft gemaakt.<br/> Het aantal antwoord op een **enquête** is het aantal antwoorden van de responders aan wie de enquête is gedistribueerd.|
-|8:00.<br/>|Selecteer het pictogram **kolommen beheren** als u kolommen wilt toevoegen aan of verwijderen uit het rapport.|
-|aanhaling.<br/>|U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee worden gegevens voor alle gebruikers geëxporteerd en kunt u eenvoudige aggregatie, sorteren en filteren voor verdere analyse uitvoeren. Als u minder dan 100 gebruikers hebt, kunt u in de tabel in het rapport zelf sorteren en filteren. Als u meer dan 100 gebruikers hebt, moet u de gegevens exporteren om te filteren en sorteren.|
+|1.  <br/> |Het **dynamics 365 Customer** Voice-activiteitenrapport kan worden bekeken voor trends in de afgelopen 7, 30 dagen, 90 of 180 dagen. Als u echter een bepaalde dag in het rapport selecteert, worden in de tabel (7) gegevens voor maximaal 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd) weer te geven.   <br/> |
+|2.  <br/> |De gegevens in elk rapport zijn meestal net zo recent als de afgelopen 48 uur.  <br/> |
+|3.  <br/> |De **weergave** Gebruikers helpt u de trend te begrijpen in het aantal actieve gebruikers van Dynamics 365 Customer Voice. Een gebruiker wordt als actief beschouwd als hij of zij een activiteit rond een Pro-enquête (maken, bewerken, weergeven, enzovoort) heeft uitgevoerd binnen de specifieke periode.  <br/> |
+|4.  <br/> |Met **de weergave** Activiteit kunt u de trend in het aantal actieve gebruikers begrijpen. Een gebruiker wordt als actief beschouwd als hij of zij een bestandsactiviteit (opslaan, synchroniseren, wijzigen of delen) heeft uitgevoerd of een pagina bezocht in de opgegeven periode.<br/> OPMERKING: Een activiteit kan meerdere keren voor één enquête plaatsvinden, maar wordt slechts als één actieve enquête geteld. U kunt bijvoorbeeld een Pro-enquête maken en dezelfde enquête meerdere keren gedurende een opgegeven periode blijven bewerken. Deze enquête wordt slechts als één enquête geteld. <br>|
+|5.<br/>|In de **grafiek Gebruikers** is de Y-as het aantal unieke gebruikers. X-as is de datum waarop de unieke gebruikers actief zijn. De legenda's zijn:<br/><br/>**Ontwerpers** betekent dat de gebruiker een Dynamics 365 Customer Voice Survey heeft gemaakt of bewerkt.<br><br>In de **grafiek Activiteit** is de Y-as het aantal Dynamics 365 Customer Voice-antwoorden per enquête. X-as is de datum waarop de activiteit Enquête of Antwoord heeft plaatsgevonden. De legenda's zijn:<br/><br/>**Enquêtes** die zijn gemaakt, is het aantal unieke Dynamics 365 Customer Voice-enquêtes die de gebruikers hebben gemaakt<br>**Antwoorden is** het aantal anonieme of niet-anonieme antwoorden dat de gebruikers die de enquête hebben ontvangen, hebben ingediend. |
+|6.<br/>|U kunt de reeks filteren die u in de grafiek ziet door een item in de legenda te selecteren. Selecteer bijvoorbeeld in de grafiek Gebruikers ontwerpers, responders of totale gebruikers om alleen de informatie te zien die betrekking heeft op elke grafiek. Als u deze selectie wijzigt, worden de gegevens in de rastertabel eronder niet gewijzigd.|
+|7.<br/>|In de tabel ziet u een uitsplitsing van de activiteiten op het niveau per gebruiker. De legenda's zijn:<br/><br/>**Gebruikersnaam** is het e-mailadres van de gebruiker die de activiteit heeft uitgevoerd op Microsoft Forms.<br/>**De laatste activiteitsdatum (UTC)** is de laatste datum waarop een formulieractiviteit is uitgevoerd door de gebruiker voor het geselecteerde datumbereik. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/>Hiermee filtert u de tabel om alleen bestandsactiviteitsgegevens weer te geven voor gebruikers die de activiteit op die specifieke dag hebben uitgevoerd.<br/><br/>**Het aantal enquêtes dat** is gemaakt, is het aantal enquêtes dat de gebruiker heeft gemaakt.<br/> **Het aantal enquêtereacties** is het aantal antwoorden van antwoorders aan wie de enquête is gedistribueerd.|
+|8.<br/>|Selecteer het **pictogram Kolommen beheren** om kolommen toe te voegen of te verwijderen uit het rapport.|
+|9.<br/>|U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de **koppeling Exporteren te** selecteren. Hiermee exporteert u gegevens voor alle gebruikers en kunt u eenvoudige aggregatie, sorteren en filteren voor verdere analyse. Als u minder dan 100 gebruikers hebt, kunt u sorteren en filteren in de tabel in het rapport zelf. Als u meer dan 100 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.|

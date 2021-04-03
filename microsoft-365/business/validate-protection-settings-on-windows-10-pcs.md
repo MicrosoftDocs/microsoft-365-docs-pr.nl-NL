@@ -2,8 +2,8 @@
 title: Beveiligingsinstellingen voor apps op Windows 10-pc's valideren
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,31 +22,31 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: De instellingen voor de beveiliging van microsoft 365 Business Premium-apps valideren op Windows 10-apparaten en controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden of niet-beheerde apps.
-ms.openlocfilehash: 589d2fc25cc1425a775523595881660cc03e152e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Valideer de beveiligingsinstellingen van Microsoft 365 Business Premium-apps op Windows 10-apparaten en controleer of gebruikers bedrijfsgegevens niet kunnen kopiëren naar persoonlijke bestanden of niet-beheerde apps.
+ms.openlocfilehash: e319ffa5149f055b5de45078facc8899acffc223
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403385"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579857"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Beveiligingsinstellingen voor apps op Windows 10-pc's valideren
 
 ## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a>Controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden op bedrijfsapparaten
 
-Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-windows-10-devices.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. Als u Voorkomen **dat gebruikers bedrijfsgegevens naar persoonlijke bestanden kopiëren en hen dwingen werkbestanden op te slaan in de** instelling voor OneDrive voor Bedrijven voor apparaten die eigendom zijn van het bedrijf, hebt ingeschakeld, u dit controleren op het apparaat van de gebruiker nadat ze zijn verbonden met Azure AD en zijn aangemeld. **On** 
+Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-windows-10-devices.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. Als u  De instelling Voorkomen dat gebruikers bedrijfsgegevens kopiëren naar persoonlijke bestanden hebt ingeschakeld en ze dwingt om werkbestanden op te slaan in **OneDrive voor** Bedrijven voor apparaten die eigendom zijn van het bedrijf, kunt u dit controleren op het apparaat van de gebruiker nadat ze verbinding hebben gemaakt met Azure AD en zich hebben aangemeld. 
   
  **Verbindingsinstellingen controleren**
   
-1. Nadat u zich hebt aangemeld met Microsoft 365 Business Premium-referenties en verbinding hebt gemaakt met Azure AD zoals beschreven in [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers,](set-up-windows-devices.md)gaat u naar **Windows Settings** \> **Accounts** \> **Accounts Access werk of school**. Kies **Verbonden met Azure \<tenant name\> AD**en kies **Vervolgens Info**.
+1. Nadat u zich hebt aanmelden met Microsoft 365 Business Premium-referenties en verbinding hebt met Azure AD, zoals beschreven in Windows-apparaten instellen voor [Microsoft 365 Business](set-up-windows-devices.md)Premium-gebruikers, gaat u naar **Windows Settings** Accounts Access werk of \>  \> **school.** Kies **Verbonden met Azure \<tenant name\> AD** en kies vervolgens **Info.**
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. Op de pagina **Beheerd door** ziet u \<tenant name\> de **verbindingsgegevens** met een **managementserveradres** zoals in de volgende afbeelding. 
+2. Op de pagina Beheerd **door** ziet u de verbindingsgegevens met een Adres van \<tenant name\>  **managementserver,** zoals in de volgende afbeelding. 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
- **Controleren of u bedrijfsgegevens niet plakken in een niet-beheerde app**
+ **Controleren of u geen bedrijfsgegevens in een niet-beheerde app kunt plakken**
   
 1. Open Outlook 2016 die is geïnstalleerd door Microsoft 365 Business Premium.
     
@@ -54,7 +54,7 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
     
     Open Kladblok en plak het deel hierin.
     
-    Er wordt een fout weergegeven met de status dat de app geen toegang heeft tot inhoud.
+    U krijgt een foutmelding dat de app geen toegang heeft tot inhoud.
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
@@ -64,29 +64,29 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
 
  **Verbindingsinstellingen controleren**
   
-1. Ga op uw persoonlijke Windows 10-apparaat waar u bent aangemeld als lokale gebruiker naar **Windows-instellingen**en klik of tik op Werk of school **voor Accounts** \> **Toegang**.
+1. Ga op uw persoonlijke Windows 10-apparaat waar u bent aangemeld als lokale gebruiker naar **Windows-instellingen** en klik of tik op Werk of school  \> **accountstoegang.**
     
 2. Kies **Verbinden** onder **Toegang tot werk of school**.
     
-3. Voer uw Microsoft 365 Business Premium-referentie in in het **dialoogvenster Aanmelden voor een werk- of schoolaccount** \> **Sign in**.
+3. Voer uw Microsoft 365 Business Premium-referenties in in het dialoogvenster Een werk- of **schoolaccount** \> **instellen Aanmelden.**
     
 4. Kies op de pagina **Toegang tot werk of school** de optie **Werk- of schoolaccount** en vervolgens **Info**.
     
     ![Klik of tik op Info in het dialoogvenster Werk- of schoolaccount.](../media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
-5. Op de pagina **Toegangswerk of school** ziet u de **verbindingsgegevens** met een **managementserveradres** zoals in de volgende afbeelding en de woorden *wip* en *mam* erin. 
+5. Op de **werk-** of schoolpagina  van Access kunt u de verbindingsgegevens zien met een Adres van **de beheerserver,** zoals in de volgende afbeelding, en worden de woorden wip *en* *mam* binnen weergegeven. 
     
     ![Managed by page shows connection info URL that includes the words mam and wpi.](../media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
- **Controleren of u bedrijfsgegevens niet plakken in een niet-beheerde app**
+ **Controleren of u geen bedrijfsgegevens in een niet-beheerde app kunt plakken**
   
-1. Open Outlook 2016 en voeg indien nodig uw Microsoft 365 Business Premium-account toe en meld u aan met uw Microsoft 365 Business Premium-referenties.
+1. Open Outlook 2016 en voeg zo nodig uw Microsoft 365 Business Premium-account toe en meld u aan met uw Microsoft 365 Business Premium-referenties.
     
 2. Open een e-mail en kopieer er een deel van de inhoud van.
     
     Open Kladblok en plak het deel hierin.
     
-    U ontvangt een fout met de status dat app geen toegang heeft tot inhoud.
+    U ontvangt een foutmelding dat App geen toegang heeft tot inhoud.
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   

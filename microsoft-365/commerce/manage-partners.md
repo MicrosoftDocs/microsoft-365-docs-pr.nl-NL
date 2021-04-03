@@ -15,21 +15,14 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Lees hoe u met microsoft-gecertificeerde oplossingsproviders (partners) producten en services voor uw organisatie of school kunt kopen en beheren.
-ms.openlocfilehash: 3297b2322983eabb793116a450a618b3a62a5a9c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a0c70f229ff11132beccf118f4158ab2880a8aa6
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911396"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579732"
 ---
 # <a name="manage-partner-relationships"></a>Partnerrelaties beheren
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 U kunt samenwerken met microsoft-gecertificeerde oplossingsproviders (partners) om producten en services voor uw organisatie of school te kopen en te beheren. Er zijn een paar stappen betrokken bij het instellen van dingen.
 
@@ -39,13 +32,13 @@ U kunt samenwerken met microsoft-gecertificeerde oplossingsproviders (partners) 
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder of factureringsbeheerder zijn om deze stappen uit te voeren. Zie[Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder of factureringsbeheerder zijn om deze stappen uit te voeren. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="what-can-a-partner-do-for-my-organization-or-school"></a>Wat kan een partner doen voor mijn organisatie of school?
 
 Er zijn verschillende manieren waarop een partner met u kan werken. Op basis van uw opgegeven zakelijke behoeften, kiezen ze een van deze typen wanneer ze hun verzoek verzenden om met u samen te werken.
 
-| Partnertype | Beschrijving |
+| Partnertype | Omschrijving |
 | ------ | ------------------- |
 | Wederverkoper | Partners die Microsoft-producten verkopen aan uw organisatie of school. |
 | Gedelegeerde beheerder | Partners die producten en services voor uw organisatie of school beheren. In Azure Active Directory (AD) is de partner een globale beheerder voor uw tenant. Met deze rol kunnen ze services beheren, zoals het maken van gebruikersaccounts, het toewijzen en beheren van licenties en het opnieuw instellen van wachtwoorden. |

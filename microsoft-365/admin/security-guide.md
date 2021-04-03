@@ -1,9 +1,9 @@
 ---
-title: Beveiligingsgids voor kleine bedrijven
+title: Beveiligingshandleiding voor kleine bedrijven
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -16,20 +16,20 @@ ms.custom:
 search.appverid:
 - MET150
 - MOE150
-description: Lees meer over beveiligingsbedreigingen waarmee uw bedrijf wordt geconfronteerd en eenvoudige manieren waarop u en uw medewerkers uw gegevens, accounts en apparaten kunnen beschermen.
-ms.openlocfilehash: a3c22f5644322beec942b8ba656a718317fc0940
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over beveiligingsrisico's voor uw bedrijf en eenvoudige manieren waarop u en uw werknemers uw gegevens, accounts en apparaten kunnen beveiligen.
+ms.openlocfilehash: 383b7245dc0cf2df713d4aa282a80b7481e7dd81
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399108"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579132"
 ---
-# <a name="security-info-graphic-for-small-businesses"></a>Beveiligingsinformatieafbeelding voor kleine bedrijven
+# <a name="security-info-graphic-for-small-businesses"></a>Afbeelding van beveiligingsgegevens voor kleine bedrijven
 
-**Samenvatting:** Lees de basisvoorwaarden voor de bedreigingen waarmee uw bedrijf wordt geconfronteerd en wat u doen om uw gegevens, accounts en apparaten te beschermen. Als beheerder van Microsoft 365 voor Bedrijven onderneem je actie om uw bedrijf veiliger te maken en help je elke werknemer te leren hoe je je bedrijfsgegevens en apparaten veilig houden.
+**Overzicht:** Lees de basisvoorwaarden voor de bedreigingen van uw bedrijf en wat u kunt doen om uw gegevens, accounts en apparaten te beschermen. Als beheerder van Microsoft 365 voor Bedrijven kunt u actie ondernemen om uw bedrijf veiliger te maken en elke werknemer te helpen uw zakelijke gegevens en apparaten veilig te houden.
 
-De onderstaande koppelingen voor PowerPoint en PDF kunnen worden gedownload en afgedrukt in tabloidformaat (ook wel grootboek, 11 x 17 of A3 genoemd).
+De koppelingen voor PowerPoint en PDF hieronder kunnen worden gedownload en afgedrukt in tabloid-indeling (ook wel bekend als grootboek, 11 x 17 of A3).
 
-![Afbeelding voor het beveiligen van uw informatieafbeelding voor kleine bedrijven](../media/smbthreatprotectioninfographic-thumbnail.png)
+![Afbeelding voor het beveiligen van uw infoafbeelding voor kleine bedrijven](../media/smbthreatprotectioninfographic-thumbnail.png)
 
 [PDF](downloads/smbthreatprotection-infographic.pdf)  |  [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/admin/downloads/smbthreatprotection-infographic.pptx)

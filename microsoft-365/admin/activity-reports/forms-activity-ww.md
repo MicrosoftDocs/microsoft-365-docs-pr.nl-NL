@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365-rapporten in het Beheercentrum-activiteit formulieren
+title: Microsoft 365-rapporten in het beheercentrum - Forms-activiteit
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,41 +20,41 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-description: Leer hoe u een Microsoft 365-rapport van activiteiten ontvangt in het Microsoft 365-Beheercentrum.
-ms.openlocfilehash: 17d56e3974b877e15b81af5d4e195985c4985155
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+description: Lees hoe u een Microsoft Forms-activiteitenrapport kunt krijgen met behulp van het microsoft 365-rapportendashboard in het Microsoft 365-beheercentrum.
+ms.openlocfilehash: f4cd021003ad9d9bca4f986a33f49e62e2df1889
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988928"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579684"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365-rapporten in het Beheercentrum-activiteit formulieren
+# <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365-rapporten in het beheercentrum - Forms-activiteit
 
-Het dashboard Microsoft 365 **rapporten** toont u het overzicht van de activiteiten in de producten van uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
+In het dashboard  Microsoft 365-rapporten ziet u het activiteitenoverzicht voor alle producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
   
-U kunt bijvoorbeeld inzicht krijgen in de activiteiten van elke gebruiker in licentie voor het gebruik van Microsoft Forms door hun interactie met formulieren te bekijken. U kunt er ook voor zorgen dat u het samenwerkings niveau begrijpt door te kijken naar het aantal formulieren dat de gebruiker heeft gereageerd en de formulieren waarop de gebruiker heeft gereageerd.
+U kunt bijvoorbeeld de activiteit begrijpen van elke gebruiker die een licentie heeft om Microsoft Forms te gebruiken door te kijken naar de interactie met formulieren. Het helpt u ook om het niveau van samenwerking te begrijpen door te kijken naar het aantal formulieren dat is gemaakt en formulieren waarmee de gebruiker heeft gereageerd.
   
 > [!NOTE]
-> U moet een globale beheerder, algemene lezer of rapporten lezer zijn in Microsoft 365 of een Exchange-, SharePoint-, teams-service, teams-communicatie of Skype voor bedrijven-beheerder om rapporten te zien.  
+> U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-, Teams-, Teams-, of Skype voor Bedrijven-beheerder om rapporten te kunnen zien.  
  
-## <a name="how-to-get-to-the-forms-activity-report"></a>Naar het rapport met formulier activiteiten gaan
+## <a name="how-to-get-to-the-forms-activity-report"></a>Het rapport Forms-activiteiten
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>. 
-2. Klik op de startpagina van het dashboard op de knop **meer weergeven** op de formulier kaart.
+2. Klik op de startpagina van het dashboard op **de knop Meer** weergeven op de formulierenkaart.
   
-## <a name="interpret-the-forms-activity-report"></a>Het rapport formulier activiteit interpreteren
+## <a name="interpret-the-forms-activity-report"></a>Het rapport Forms-activiteit interpreteren
 
-U kunt de activiteiten in het formulier formulieren weergeven door het tabblad **activiteit** te kiezen.<br/>![Microsoft 365-rapporten-activiteitenrapport Microsoft Forms.](../../media/275fb0a1-b9d9-4233-8aaf-e7df73cc705f.png)
+U kunt de activiteiten in het rapport Formulieren bekijken door het tabblad **Activiteit te** kiezen.<br/>![Microsoft 365-rapporten - Microsoft Forms-activiteitenrapport.](../../media/275fb0a1-b9d9-4233-8aaf-e7df73cc705f.png)
 
-Selecteer **kolommen kiezen** als u kolommen wilt toevoegen aan of verwijderen uit het rapport.  <br/> ![Rapport met formulier activiteiten-kolommen kiezen](../../media/0c9b0b69-5dc7-43ea-8e2c-54407b6ce2ab.png)
+Selecteer **Kolommen kiezen** om kolommen toe te voegen of te verwijderen uit het rapport.  <br/> ![Rapport Formulierenactiviteit : kies kolommen](../../media/0c9b0b69-5dc7-43ea-8e2c-54407b6ce2ab.png)
 
-U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
+U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de **koppeling Exporteren te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
   
 |Item|Beschrijving|
 |:-----|:-----|
-|**Gegevens**|**Definitie**|
+|**Metrische**|**Definitie**|
 |Gebruikersnaam  <br/> |Het e-mailadres van de gebruiker die de activiteit heeft uitgevoerd in Microsoft Forms.  <br/> |
-|Datum van laatste activiteit (UTC)  <br/> |De datum waarop de gebruiker voor het geselecteerde datumbereik de laatste datum waarop een formulier activiteit is uitgevoerd. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/><br/>Hiermee wordt de tabel gefilterd en worden gegevens over Bestandsactiviteiten alleen weergegeven voor gebruikers die de activiteit op die bepaalde dag hebben uitgevoerd.  <br/> |
-|Aantal gemaakte formulieren  <br/> |Het aantal formulieren dat de gebruiker heeft gemaakt.   <br/> |
-|Aantal gereageerde formulieren  <br/> |Het aantal formulieren waarop de gebruiker antwoorden heeft ingediend.|
+|Laatste activiteitsdatum (UTC)  <br/> |De laatste datum waarop een formulieractiviteit is uitgevoerd door de gebruiker voor het geselecteerde datumbereik. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/><br/>Hiermee filtert u de tabel om alleen bestandsactiviteitsgegevens weer te geven voor gebruikers die de activiteit op die specifieke dag hebben uitgevoerd.  <br/> |
+|Aantal formulieren dat is gemaakt  <br/> |Het aantal formulieren dat de gebruiker heeft gemaakt.   <br/> |
+|Aantal ingevulde formulieren  <br/> |Het aantal formulieren waar de gebruiker antwoorden op heeft verzonden.|
 |||

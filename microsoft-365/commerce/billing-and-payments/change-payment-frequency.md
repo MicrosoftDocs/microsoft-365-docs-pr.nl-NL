@@ -21,21 +21,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Lees hoe u kunt wijzigen hoe vaak u wordt gefactureerd voor uw zakelijke abonnement.
-ms.openlocfilehash: ae3e3b4d0231fc5992215d243e141fb643d13626
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a7d2f60e25611025e5b06d4e78555d59c486626d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911888"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579792"
 ---
 # <a name="change-your-billing-frequency"></a>Uw factureringsfrequentie wijzigen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Wanneer u een abonnement koopt, kiest u maandelijkse of jaarlijkse facturering. Als u wilt wijzigen hoe vaak een abonnement wordt gefactureerd, gebruikt u de volgende stappen.
 

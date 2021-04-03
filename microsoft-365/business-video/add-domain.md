@@ -2,8 +2,8 @@
 title: Een domein toevoegen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: pebaum
+author: pebaum
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,36 +20,36 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Informatie over het toevoegen van een ander domein aan uw abonnement.
-ms.openlocfilehash: fef3dc06f270b79cc7f9e729b39727c9116b923d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Meer informatie over het toevoegen van een ander domein aan uw abonnement.
+ms.openlocfilehash: 8899cb9667ffa080746ca9173b61897f9c5db399
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423081"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578999"
 ---
 # <a name="add-another-domain"></a>Ander domein toevoegen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4dN8c?autoplay=false]
 
-Het is mogelijk dat uw bedrijf meerdere domeinnamen voor verschillende doeleinden nodig heeft. U wilt bijvoorbeeld een andere spelling van uw bedrijfsnaam toevoegen omdat klanten deze al gebruiken en hun communicatie niet tot u heeft kunnen worden doorgelaten.
+Uw bedrijf heeft mogelijk meerdere domeinnamen nodig voor verschillende doeleinden. U kunt bijvoorbeeld een andere spelling van uw bedrijfsnaam toevoegen omdat klanten deze al gebruiken en hun communicatie u niet heeft bereikt.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Kies **Setup** in het Microsoft 365-beheercentrum.
-1. Selecteer **Weergeven onder Uw aangepaste domein** **instellen.**
+1. Kies setup in het Microsoft 365-beheercentrum. 
+1. Selecteer **onder Uw aangepaste domein instellen** instellen de optie **Weergeven.**
 1. Kies **Beheren** en vervolgens **Domein toevoegen.**
-1. Voer de nieuwe domeinnaam in die u wilt toevoegen en selecteer **Vervolgens.**
-1. Meld u aan bij uw domeinregistrar, in dit geval GoDaddy, en selecteer **vervolgens Volgende.**
-1. Meld u aan bij uw registrar als daarom wordt gevraagd en kies **Autor.**
-1. Kies **De DNS-records voor mij toevoegen** en selecteer vervolgens **Volgende.**
-1. Kies de services voor uw nieuwe domein en vink de selectievakjes uit voor services die worden verwerkt door een ander domein. Als u bijvoorbeeld alleen het nieuwe domein voor e-mail wilt gebruiken, kiest u **Exchange** en vink de selectievakjes voor **Skype** voor Bedrijven en Mobile Device Management voor **Office 365 uit.**
-1. Selecteer **Volgende,** **Autorishen, Volgende** en vervolgens **Voltooien.**  Uw nieuwe domein is toegevoegd.
+1. Voer de nieuwe domeinnaam in die u wilt toevoegen en selecteer **Volgende.**
+1. Meld u aan bij uw domeinregistrar, in dit geval GoDaddy, en selecteer **volgende**.
+1. Meld u aan bij uw registrar en kies vervolgens **Autor toestemming**.
+1. Kies **Add the DNS records for me**, and then select **Next**.
+1. Kies de services voor uw nieuwe domein en leeg de selectievakjes uit voor services die door een ander domein worden verwerkt. Als u bijvoorbeeld alleen het nieuwe domein voor e-mail wilt gebruiken, kiest u **Exchange** en de selectievakjes voor **Skype voor** Bedrijven en Mobile Device Management voor **Office 365 uit.**
+1. Selecteer **Volgende,** **Autor** **machtigen, Volgende** en vervolgens **Voltooien.** Uw nieuwe domein is toegevoegd.
 
-Als u e-mail op uw nieuwe domein wilt ontvangen, moet u voor elke gebruiker een nieuwe e-mailalias toevoegen:
+Als u e-mail wilt ontvangen op uw nieuwe domein, moet u een nieuwe e-mailalias voor elke gebruiker toevoegen:
 
-1. Selecteer **Gebruikers**, **Actieve gebruikers,** en selecteer vervolgens de gebruiker aan wie de nieuwe alias wordt toegewezen.
-1. Kies **E-mailaliassen beheren** en vervolgens **Een alias toevoegen.**
+1. Selecteer **Gebruikers**, **Actieve gebruikers** en selecteer vervolgens de gebruiker aan wie de nieuwe alias wordt toegewezen.
+1. Kies **E-mailalias beheren** en voeg **vervolgens een alias toe.**
 1. Voer de gebruikersnaam in en kies het nieuwe domein in de vervolgkeuzelijst.
 1. Selecteer **Wijzigingen opslaan** en sluit het venster.
-1. Herhaal deze stappen voor elke gebruiker die e-mail in het nieuwe domein moet ontvangen.
+1. Herhaal deze stappen voor elke gebruiker die e-mail moet ontvangen bij het nieuwe domein.

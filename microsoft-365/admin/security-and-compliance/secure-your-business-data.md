@@ -2,8 +2,8 @@
 title: Top 10 manieren om Microsoft 365 voor Bedrijven-abonnementen te beveiligen
 f1.keywords:
 - CSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: e45130d101c6e730fd2d487f5f8898c7cd268ab8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 77213ab7f63b87ba985e6e4ca43119acc2345e2d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197849"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579144"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om Microsoft 365 voor Bedrijven-abonnementen te beveiligen
 
@@ -261,7 +261,7 @@ Als u een anti-phishingbeleid wilt maken in Defender voor Office 365, bekijkt u 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Domein en meest waardevolle campagnemedewerkers|
-|Beschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
+|Omschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
 |Gebruikers toevoegen om ze te beveiligen|Selecteer **+ Een voorwaarde toevoegen, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke personeelsleden. U kunt maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.|
 |Domeinen toevoegen om te beveiligen|Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerde is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement, als u er een hebt gedefinieerd. U kunt meer dan één domein invoeren.|
 |Acties kiezen|Als e-mail wordt verzonden door een nagebootste gebruiker: selecteer **Bericht omleiden** naar een ander e-mailadres en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld securityadmin@contoso.com. <br/> Als e-mail wordt verzonden door een nagebootsd domein: selecteer **Quarantainebericht.**|
@@ -296,7 +296,7 @@ Als u een beleid voor veilige bijlagen wilt maken, bekijkt u een [korte training
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Huidige en toekomstige e-mailberichten blokkeren met gedetecteerde malware.|
-|Beschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
+|Omschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
 |Bijlages opslaan onbekende malwarereactie|Selecteer **Blokkeren: blokkeer de huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.**|
 |Bijlage omleiden bij detectie|Omleiding inschakelen (selecteer dit vak) <br/> Voer het beheerdersaccount of een postvakinstelling in voor quarantaine. <br/> Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt (schakel dit vakje in).|
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|

@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365-rapporten in het Beheercentrum-Dynamics 365 voor spraak activiteiten klant
+title: Microsoft 365-rapporten in het beheercentrum - Activiteit Dynamics 365 Customer Voice
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,41 +20,41 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-description: Leer hoe u een Microsoft Dynamics 365-rapport voor spraak activiteiten van klanten ontvangt met behulp van het dashboard Microsoft 365-rapporten in het Microsoft 365-Beheercentrum.
-ms.openlocfilehash: 0a854c7a89977a96e11d8ec28fd7789e8418c1cf
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+description: Lees hoe u een Microsoft Dynamics 365 Customer Voice-activiteitsrapport kunt krijgen met behulp van het dashboard Microsoft 365 Reports in het Microsoft 365-beheercentrum.
+ms.openlocfilehash: 1647379216d5021ab3fa6b55f1c5f32f57cdac91
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988923"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579660"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365-rapporten in het Beheercentrum-Dynamics 365 voor spraak activiteiten klant
+# <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365-rapporten in het beheercentrum - Activiteit Dynamics 365 Customer Voice
 
-Het dashboard Microsoft 365 **rapporten** toont u het overzicht van de activiteiten in de producten van uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
+In het dashboard  Microsoft 365-rapporten ziet u het activiteitenoverzicht voor alle producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
   
-U kunt bijvoorbeeld inzicht krijgen in de activiteiten van elke gebruiker in licentie voor het gebruik van Microsoft Dynamics 365 Customer Voice door te kijken naar de interacties met een klant spraak van Dynamics 365. Met deze functie kunt u ook inzicht krijgen in het samenvatting van het niveau van samenwerking door het aantal Pro-enquêtes te zien waarop de gebruikers hebben gereageerd. 
+U kunt bijvoorbeeld de activiteit begrijpen van elke gebruiker die een licentie heeft voor het gebruik van Microsoft Dynamics 365 Customer Voice door te kijken naar de interacties met Dynamics 365 Customer Voice. Het helpt u ook om het niveau van samenwerking te begrijpen door te kijken naar het aantal pro-enquêtes dat is gemaakt en Pro-enquêtes waarop de gebruikers hebben gereageerd. 
   
 > [!NOTE]
-> U moet een globale beheerder, algemene lezer of rapporten lezer zijn in Microsoft 365 of een Exchange-, SharePoint-, teams-service, teams-communicatie of Skype voor bedrijven-beheerder om rapporten te zien.  
+> U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-, Teams-, Teams-, of Skype voor Bedrijven-beheerder om rapporten te kunnen zien.  
  
-## <a name="how-to-get-to-the-dynamics-365-customer-voice-activity-report"></a>Hoe u naar het rapport Dynamics 365 voor spraak activiteiten van klanten gaat
+## <a name="how-to-get-to-the-dynamics-365-customer-voice-activity-report"></a>Het dynamics 365 Customer Voice-activiteitenrapport
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>. 
-2. Klik op de startpagina van het dashboard op de knop **meer weergeven** op de Dynamics 365 Customer Voice Card.
+2. Klik op de startpagina van het dashboard op de knop **Meer** weergeven op de Dynamics 365 Customer Voice-kaart.
   
-## <a name="interpret-the-dynamics-365-customer-voice-activity-report"></a>Het rapport Dynamics 365 voor spraak activiteiten van klant interpreteren
+## <a name="interpret-the-dynamics-365-customer-voice-activity-report"></a>Het dynamics 365 Customer Voice-activiteitenrapport interpreteren
 
-U kunt de activiteiten bekijken in het voicemail rapport voor Dynamics 365 van de klant door het tabblad **activiteit** te kiezen.<br/>![Microsoft 365-rapporten: Microsoft Dynamics 365 klant voicemail activiteit.](../../media/a7e57d18-1ac8-4d4b-bd70-83361505dc3e.png)
+U kunt de activiteiten in het rapport Dynamics 365 Customer Voice bekijken door het tabblad **Activiteit te** kiezen.<br/>![Microsoft 365-rapporten - Microsoft Dynamics 365 Customer Voice-activiteitenrapport.](../../media/a7e57d18-1ac8-4d4b-bd70-83361505dc3e.png)
 
-Selecteer **kolommen kiezen** als u kolommen wilt toevoegen aan of verwijderen uit het rapport.  <br/> ![Dynamics 365 rapport voor voice mail van klant-Kies kolommen](../../media/5ab66f4b-32eb-4c9b-9683-1157ae9e2c0a.png)
+Selecteer **Kolommen kiezen** om kolommen toe te voegen of te verwijderen uit het rapport.  <br/> ![Dynamics 365 Customer Voice activity report - choose columns](../../media/5ab66f4b-32eb-4c9b-9683-1157ae9e2c0a.png)
 
-U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
+U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de **koppeling Exporteren te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
   
 |Item|Beschrijving|
 |:-----|:-----|
-|**Gegevens**|**Definitie**|
+|**Metrische**|**Definitie**|
 |Gebruikersnaam  <br/> |Het e-mailadres van de gebruiker die de activiteit heeft uitgevoerd in Microsoft Forms.  <br/> |
-|Datum van laatste activiteit (UTC)  <br/> |De datum waarop de gebruiker voor het geselecteerde datumbereik de laatste datum waarop een formulier activiteit is uitgevoerd. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/>Hiermee wordt de tabel gefilterd en worden gegevens over Bestandsactiviteiten alleen weergegeven voor gebruikers die de activiteit op die bepaalde dag hebben uitgevoerd.  <br/> |
-|Aantal gemaakte enquêtes  <br/> |Het aantal enquêtes dat de gebruiker heeft gemaakt.   <br/> |
-|Aantal enquête reacties  <br/> |Het aantal antwoorden van de responders aan wie de enquête is gedistribueerd.|
+|Laatste activiteitsdatum (UTC)  <br/> |De laatste datum waarop een formulieractiviteit is uitgevoerd door de gebruiker voor het geselecteerde datumbereik. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/>Hiermee filtert u de tabel om alleen bestandsactiviteitsgegevens weer te geven voor gebruikers die de activiteit op die specifieke dag hebben uitgevoerd.  <br/> |
+|Aantal enquêtes dat is gemaakt  <br/> |Het aantal enquêtes dat de gebruiker heeft gemaakt.   <br/> |
+|Aantal enquêtereacties  <br/> |Het aantal reacties van responders aan wie de enquête is gedistribueerd.|
 |||

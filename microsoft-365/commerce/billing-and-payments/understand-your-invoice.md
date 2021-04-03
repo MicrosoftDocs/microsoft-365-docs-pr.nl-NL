@@ -19,21 +19,14 @@ search.appverid:
 - MET150
 description: Ontdek hier hoe je je factuur of rekening voor zakelijke Microsoft-producten kunt lezen en begrijpen.
 keywords: factureringsaccounts, organisatie info, facturen
-ms.openlocfilehash: 98c42bf480db8be3d750ab9788e407b7064335a9
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3752254fc6068381cd6effed0be4d5b8295f8a27
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164484"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579756"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Inzicht in je rekening of factuur
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat je gewend bent, raadpleeg je [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Op de factuur staan een kostenoverzicht en de betalingsinstructies vermeld. Je kunt [de online factuur bekijken](#view-your-online-invoice) in het Microsoft 365-beheercentrum. Je kunt de factuur ook in de Portable Document Format-indeling (.pdf) downloaden om deze per e-mail te verzenden.
 

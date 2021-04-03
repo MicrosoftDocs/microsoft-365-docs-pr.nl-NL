@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7887f26cb8ca7e0e769249a10f008308149aaa42
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: c076a64b1e35978f09999b288b6849580df24972
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186687"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579696"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-ios"></a>Microsoft Defender voor eindpunt voor iOS implementeren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -58,7 +58,7 @@ Deploy Defender for Endpoint for iOS via Intune Company Portal.
     > [!div class="mx-imgBorder"]
     > ![Afbeelding van Microsoft Endpoint Manager-beheercentrum1](images/ios-deploy-1.png)
 
-1. Klik op de pagina App toevoegen op **Zoeken in de App Store** en typ Microsoft Defender **ATP** in de zoekbalk. Klik in de sectie zoekresultaten op *Microsoft Defender ATP* en klik op **Selecteren.**
+1. Klik op de pagina App toevoegen op **Zoeken in de App Store** en typ Microsoft **Defender-eindpunt** in de zoekbalk. Klik in de sectie zoekresultaten op *Microsoft Defender-eindpunt en* klik op **Selecteren.**
 
 1. Selecteer **iOS 11.0 als** het besturingssysteem Minimum. Bekijk de rest van de informatie over de app en klik op **Volgende.**
 

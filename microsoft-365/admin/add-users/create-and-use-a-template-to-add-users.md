@@ -2,8 +2,8 @@
 title: Een sjabloon maken en gebruiken om gebruikers toe te voegen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,77 +19,77 @@ ms.custom:
 search.appverid:
 - MET150
 - MOE150
-description: U kunt een sjabloon maken en gebruiken om tijd te besparen en instellingen te normaliseren wanneer u meerdere gebruikers toevoegt.
-ms.openlocfilehash: aef5085da603c38b37544b76c5336c9bfe4edd24
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+description: U kunt een sjabloon maken en gebruiken om tijd te besparen en instellingen te standaardiseren wanneer u meerdere gebruikers toevoegt.
+ms.openlocfilehash: 3ce70f6d37036a2f71bdc2d41bfb5677a54b8db9
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123415"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579384"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Een sjabloon maken en gebruiken om gebruikers toe te voegen
 
-U kunt een sjabloon maken en gebruiken om tijd te besparen en instellingen te normaliseren wanneer u meerdere gebruikers toevoegt. Sjablonen zijn vooral handig als u gebruikers hebt met een groot aantal gemeenschappelijke eigenschappen, zoals de gebruikers die dezelfde rol hebben en op dezelfde locatie werken en de personen die dezelfde software nodig hebben. U hebt bijvoorbeeld een team van ondersteuningstechnici die in hetzelfde kantoor werken.  
+U kunt een sjabloon maken en gebruiken om tijd te besparen en instellingen te standaardiseren wanneer u meerdere gebruikers toevoegt. Sjablonen zijn vooral handig als u gebruikers hebt die veel algemene eigenschappen delen, zoals gebruikers die dezelfde rol hebben en op dezelfde locatie werken en gebruikers die dezelfde software nodig hebben. U hebt bijvoorbeeld een team van ondersteuningstechnici die in hetzelfde kantoor werken.  
 
 ## <a name="create-a-template"></a>Een sjabloon maken
 
-Sjablonen zijn gemakkelijk te maken &mdash; u kunt **gebruikers**  >  **Active users**  >  **sjablonen** van gebruikers selecteren en vervolgens **een sjabloon toevoegen** aan de vervolgkeuzelijst selecteren, of u kunt een nieuwe gebruiker toevoegen en wanneer u klaar bent, kunt u het item opslaan als een sjabloon.
+Sjablonen zijn eenvoudig te maken. U kunt Gebruikers actieve gebruikers gebruikerssjablonen selecteren en vervolgens Een sjabloon toevoegen selecteren in de vervolgkeuzelijst, of u kunt een nieuwe gebruiker toevoegen en wanneer u klaar bent, kunt u de vermelding opslaan als &mdash;   >    >  sjabloon. 
 
-Wanneer u een sjabloon maakt na het toevoegen van een gebruiker, worden de waarden die u hebt gekozen voor de volgende instellingen opgeslagen in de sjabloon:
+Wanneer u een sjabloon maakt nadat u een gebruiker hebt toegevoegd, worden de waarden die u voor de volgende instellingen kiest, opgeslagen in de sjabloon:
 
 - Domain name
-- Keuze van wachtwoordinstellingen: u kunt ervoor kiezen om wachtwoorden te maken of deze automatisch te laten genereren
-- Eenmalige wachtwoord keuze: u kunt ervoor zorgen dat de gebruiker een nieuw wachtwoord moet maken na de eerste keer aanmelden
-- Locatie van licentie
-- Licentie keuzes
+- Keuze voor wachtwoordinstellingen: u kunt ervoor kiezen wachtwoorden te maken of deze automatisch te laten genereren
+- Een een time password choice: u kunt de gebruiker verplichten een nieuw wachtwoord te maken na de eerste aanmelding
+- Licentielocatie
+- Licentieopties
 - Toepassingsopties
 - Rol
-- Meeste profielinformatie, zoals het **taak profiel**, de **afdeling**, het **Office**- **telefoonnummer** en het **adres** 
+- De meeste profielgegevens, zoals **Functieprofiel,** **Afdeling,** **Office,** **Office-telefoon** en **Adres van straat** 
 
 De volgende informatie is specifiek voor de gebruiker en wordt niet opgeslagen in de sjabloon:
 
-- Voor-en achternaam
+- Voor- en achternaam
 - Weergavenaam
 - Gebruikersnaam
-- Het wachtwoord in het e-mailbericht en de e-mail waarnaar het wachtwoord wordt verzonden, verzenden
+- Keuze voor het verzenden van het wachtwoord in e-mail en naar wie het wachtwoord-e-mailbericht wordt verzonden
 - Mobiel telefoonnummer
 
-Als u geen gegevens invoert voor een instelling in een sectie, wordt deze waarde leeg en wordt deze instelling niet weergegeven in de sjabloon. Als u bijvoorbeeld de **functie** leeg laat wanneer u de sjabloon controleert en wanneer u de sjabloon gebruikt, wordt de **functie** helemaal niet weergegeven. Als u alle instellingen voor de **profiel** sectie leeg laat, wordt in de sectie **profiel** de **waarde geen** weergegeven die u hebt opgegeven in de uiteindelijke sjabloon.
+Als u ervoor kiest geen gegevens in te voeren voor een instelling in een sectie, is deze waarde leeg en wordt deze instelling niet weergegeven in de sjabloon. Als u bijvoorbeeld de functie **functie** leeg laat, wanneer u de sjabloon bekijkt en de sjabloon **gebruikt,** wordt de functie helemaal niet weergegeven. Als u alle **profielsectie-instellingen**  leeg laat, wordt in de sectie Profiel **Geen** weergegeven in de uiteindelijke sjabloon.
 
-Wanneer u een sjabloon maakt door de optie **een sjabloon toevoegen** te selecteren, kunt u kiezen welke waarden u wilt invullen. Als u niets hebt ingevuld, wordt dit weergegeven als **geen** van de sjablonen.
+Wanneer u een sjabloon maakt door de optie Een sjabloon toevoegen **te** selecteren, kunt u kiezen welke waarden u wilt voltooien. Alles wat leeg blijft, wordt weergegeven als **Geen in** de sjabloon.
 
 ## <a name="use-a-template-to-add-a-user"></a>Een sjabloon gebruiken om een gebruiker toe te voegen
 
 Een bestaande sjabloon gebruiken om een gebruiker toe te voegen:
 
-1. Selecteer **gebruikers**  >  **actieve gebruikers** in het Beheercentrum.
+1. Selecteer in het beheercentrum **Gebruikers**  >  **Actieve gebruikers**.
 
-2. Selecteer **gebruikerssjablonen** en selecteer vervolgens een sjabloon in de vervolgkeuzelijst. (De lijst bevat alleen de sjablonen die u hebt gemaakt, niet de sjablonen die zijn gemaakt door andere beheerders.)
-
-   > [!NOTE]
-   > U kunt ook een sjabloon gebruiken om een gebruiker toe te voegen door **gebruikerssjablonen** te selecteren  >  ,**sjablonen** te selecteren, een sjabloon te selecteren en vervolgens **sjabloon gebruiken** te kiezen.
-
-3. Voer de stappen uit om een gebruiker te maken van de sjabloon die u hebt geselecteerd.
+2. Selecteer **Gebruikerssjablonen** en selecteer vervolgens een sjabloon in de vervolgkeuzelijst. (De lijst bevat alleen de sjablonen die u hebt gemaakt, niet de sjablonen die door andere beheerders zijn gemaakt.)
 
    > [!NOTE]
-   > Als u niet over voldoende licenties beschikt voor een gebruiker die u toevoegt en uw betalingsgegevens beschikbaar zijn, trachten we een andere licentie te kopen met uw bestaande betaalgegevens. Als uw betalingsinformatie niet beschikbaar is, wordt de gebruiker gemaakt als een gebruiker zonder licentie.
+   > U kunt ook een sjabloon gebruiken om een gebruiker toe te voegen door Gebruikerssjablonen te selecteren Sjablonen beheren, een sjabloon te selecteren en  >  vervolgens Sjabloon gebruiken **te selecteren.**
+
+3. Volg de stappen om een gebruiker te maken op basis van de sjabloon die u hebt geselecteerd.
+
+   > [!NOTE]
+   > Als u onvoldoende licenties beschikbaar hebt voor een gebruiker die u toevoegt en uw betalingsgegevens beschikbaar zijn, proberen we een andere licentie te kopen met uw bestaande betalingsgegevens. Als uw betalingsgegevens niet beschikbaar zijn, wordt de gebruiker gemaakt als gebruiker zonder toestemming.
 
 ## <a name="manage-templates"></a>Sjablonen beheren
 
-U kunt alleen sjablonen die u niet meer nodig hebt, verwijderen en nieuwe sjablonen toevoegen. Een sjabloon verwijderen:
+U kunt alleen sjablonen verwijderen die u niet meer nodig hebt en nieuwe sjablonen toevoegen. Een sjabloon verwijderen:
 
-1. Selecteer **gebruikers**  >  **actieve gebruikers** in het Beheercentrum.
+1. Selecteer in het beheercentrum **Gebruikers**  >  **Actieve gebruikers**.
 
-2. Selecteer **sjablonen** en selecteer vervolgens **sjablonen beheren** in de vervolgkeuzelijst.
+2. Selecteer **Sjablonen** en selecteer **vervolgens sjablonen beheren** in de vervolgkeuzelijst.
 
-3. Er verschijnt een lijst met sjablonen. U kunt op een van de volgende manieren een sjabloon verwijderen:
-    - Selecteer een of meer sjablonen en selecteer vervolgens **verwijderen**. 
-    - Selecteer de drie puntjes rechts van de naam van de sjabloon en selecteer vervolgens **verwijderen**.
-    - Selecteer de naam van de sjabloon. Wanneer de sjabloon Details aan de rechterkant van het scherm worden weergegeven, selecteert u **sjabloon verwijderen**.
+3. Er wordt een lijst met sjablonen weergegeven. U kunt een sjabloon op een van de volgende opties verwijderen:
+    - Selecteer een of meer sjablonen en selecteer **vervolgens Verwijderen.** 
+    - Selecteer de drie puntjes rechts van de naam van de sjabloon en selecteer **vervolgens Verwijderen.**
+    - Selecteer de naam van de sjabloon. Wanneer de sjabloondetails aan de rechterkant van het scherm worden weergegeven, selecteert u **Sjabloon verwijderen.**
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Gebruikers toevoegen en licenties toewijzen](add-users.md)
+[Tegelijkertijd gebruikers toevoegen en licenties toewijzen](add-users.md)
 
 [Een voormalige werknemer verwijderen uit Microsoft 365](remove-former-employee.md)
   
