@@ -1,9 +1,9 @@
 ---
-title: Aanmelden voor een Microsoft 365 Business Premium-abonnement
+title: Registreren voor microsoft 365 Business Premium-abonnement
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,29 +20,29 @@ search.appverid:
 - MET150
 - MOE150
 description: Lees hoe u zich kunt registreren voor Microsoft 365 Business Premium.
-ms.openlocfilehash: 5faf34aa1cf5afb86ee935766bd91b4c3fc92d77
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: dcc6fd42b2aab073e027135cb5e939867b2bdc9d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421819"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578613"
 ---
-# <a name="sign-up-for-microsoft-365-business-premium-subscription"></a><span data-ttu-id="8c996-103">Aanmelden voor een Microsoft 365 Business Premium-abonnement</span><span class="sxs-lookup"><span data-stu-id="8c996-103">Sign up for Microsoft 365 Business Premium subscription</span></span>
+# <a name="sign-up-for-microsoft-365-business-premium-subscription"></a><span data-ttu-id="92dcd-103">Registreren voor microsoft 365 Business Premium-abonnement</span><span class="sxs-lookup"><span data-stu-id="92dcd-103">Sign up for Microsoft 365 Business Premium subscription</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX?autoplay=false]
 
-## <a name="try-it"></a><span data-ttu-id="8c996-104">Probeer het zelf!</span><span class="sxs-lookup"><span data-stu-id="8c996-104">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="92dcd-104">Probeer het zelf!</span><span class="sxs-lookup"><span data-stu-id="92dcd-104">Try it!</span></span>
 
-<span data-ttu-id="8c996-105">Volg deze stappen om u te registreren voor Microsoft 365 Business Premium (voorheen Microsoft 365 Business):</span><span class="sxs-lookup"><span data-stu-id="8c996-105">Follow these steps to sign up for Microsoft 365 Business Premium (previously called Microsoft 365 Business):</span></span>
+<span data-ttu-id="92dcd-105">Volg deze stappen om u aan te melden voor Microsoft 365 Business Premium (voorheen Microsoft 365 Business genoemd):</span><span class="sxs-lookup"><span data-stu-id="92dcd-105">Follow these steps to sign up for Microsoft 365 Business Premium (previously called Microsoft 365 Business):</span></span>
 
-1. <span data-ttu-id="8c996-106">Als u zich wilt registreren voor Microsoft 365 Business Premium, zoekt u er online naar en selecteert u het.</span><span class="sxs-lookup"><span data-stu-id="8c996-106">To sign up for Microsoft 365 Business Premium, search for it online, and select it.</span></span>
-2. <span data-ttu-id="8c996-107">Kies **Voor bedrijven** en vervolgens Nu **kopen.**</span><span class="sxs-lookup"><span data-stu-id="8c996-107">Choose  **For business** , and then  **Buy now**.</span></span>
-3. <span data-ttu-id="8c996-108">Voer uw persoonlijke e-mailadres in, **selecteer Volgende** en vervolgens **Account instellen.**</span><span class="sxs-lookup"><span data-stu-id="8c996-108">Enter your personal email address, select  **Next** , and then  **Set up account**.</span></span>
-4. <span data-ttu-id="8c996-109">Voer uw naam, telefoonnummer en bedrijfsnaam in.</span><span class="sxs-lookup"><span data-stu-id="8c996-109">Enter your name, phone number, and company name.</span></span> <span data-ttu-id="8c996-110">Als u&#39;hulp wilt van een Microsoft-partner, vink dan het selectievakje aan naast ik wil dat Microsoft mijn **gegevens deelt.**</span><span class="sxs-lookup"><span data-stu-id="8c996-110">If you&#39;d like help from a Microsoft partner, check the box next to  **I would like Microsoft to share my information**.</span></span> <span data-ttu-id="8c996-111">Selecteer **Volgende.**</span><span class="sxs-lookup"><span data-stu-id="8c996-111">Select  **Next**.</span></span>
-5. <span data-ttu-id="8c996-112">Als u uw telefoonnummer wilt verifiëren, **selecteert u Verificatiecode verzenden.**</span><span class="sxs-lookup"><span data-stu-id="8c996-112">To verify your phone number, select  **Send verification code**.</span></span> <span data-ttu-id="8c996-113">Voer de code in die u op uw telefoon hebt ontvangen en selecteer **Verifiëren.**</span><span class="sxs-lookup"><span data-stu-id="8c996-113">Enter the code you received on your phone, and select  **Verify**.</span></span>
-6. <span data-ttu-id="8c996-114">Als u al een domein hebt, kiest u Nu  **een Microsoft-domein kopen** en voert u uw bedrijfsnaam in.</span><span class="sxs-lookup"><span data-stu-id="8c996-114">If you already have a domain, choose  **Get a Microsoft domain for now**, and enter your company name.</span></span> <span data-ttu-id="8c996-115">Dit wordt uw tijdelijke e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="8c996-115">This becomes your temporary email address.</span></span> <span data-ttu-id="8c996-116">Het wordt ook een onderdeel van de permanente URL's van SharePoint en OneDrive.</span><span class="sxs-lookup"><span data-stu-id="8c996-116">It also becomes a part of your permanent SharePoint and OneDrive URLs.</span></span> <span data-ttu-id="8c996-117">Selecteer **Beschikbaarheid controleren** en vervolgens **Volgende.**</span><span class="sxs-lookup"><span data-stu-id="8c996-117">Select  **Check availability** , and then  **Next**.</span></span>
-7. <span data-ttu-id="8c996-118">Voer uw gebruikersnaam en wachtwoord in, bevestig uw wachtwoord en selecteer Vervolgens  **Registreren om**  uw account te maken.</span><span class="sxs-lookup"><span data-stu-id="8c996-118">Enter your username, a password, confirm your password, and then select  **Sign up**  to create your account.</span></span>
-8. <span data-ttu-id="8c996-119">Voer het aantal gebruikers in, kies een factureringsplan en selecteer **vervolgens Volgende.**</span><span class="sxs-lookup"><span data-stu-id="8c996-119">Enter the number of users, choose a billing plan, and then select  **Next**.</span></span>
-9.  <span data-ttu-id="8c996-120">Voer uw bedrijfsadres&#39;en vervolgens  **Volgende** in.</span><span class="sxs-lookup"><span data-stu-id="8c996-120">Enter your company&#39;s address, and then  **Next**.</span></span>
-10. <span data-ttu-id="8c996-121">Voer uw creditcardgegevens in en plaats **vervolgens een bestelling.**</span><span class="sxs-lookup"><span data-stu-id="8c996-121">Enter your credit card information, and then  **Place order**.</span></span> <span data-ttu-id="8c996-122">Na enkele ogenblikken wordt uw account gemaakt.</span><span class="sxs-lookup"><span data-stu-id="8c996-122">After a few moments, your account will be created.</span></span>
-11. <span data-ttu-id="8c996-123">U kunt nu Doorgaan om  **account** in te stellen selecteren of u kunt u aanmelden bij het Microsoft 365-beheercentrum en de installatie later voltooien.</span><span class="sxs-lookup"><span data-stu-id="8c996-123">At this point you can select  **Continue to set up account** , or you can sign in to the Microsoft 365 admin center and complete setup later.</span></span>
+1. <span data-ttu-id="92dcd-106">Als u zich wilt registreren voor Microsoft 365 Business Premium, zoekt u er online naar en selecteert u deze.</span><span class="sxs-lookup"><span data-stu-id="92dcd-106">To sign up for Microsoft 365 Business Premium, search for it online, and select it.</span></span>
+2. <span data-ttu-id="92dcd-107">Kies **Voor bedrijven** en vervolgens Nu **kopen.**</span><span class="sxs-lookup"><span data-stu-id="92dcd-107">Choose  **For business** , and then  **Buy now**.</span></span>
+3. <span data-ttu-id="92dcd-108">Voer uw persoonlijke e-mailadres in, selecteer **Volgende** en vervolgens **Account instellen.**</span><span class="sxs-lookup"><span data-stu-id="92dcd-108">Enter your personal email address, select  **Next** , and then  **Set up account**.</span></span>
+4. <span data-ttu-id="92dcd-109">Voer uw naam, telefoonnummer en bedrijfsnaam in.</span><span class="sxs-lookup"><span data-stu-id="92dcd-109">Enter your name, phone number, and company name.</span></span> <span data-ttu-id="92dcd-110">Als u&#39;hulp wilt van een Microsoft-partner, gaat u naar het selectievakje naast Ik wil **dat Microsoft mijn gegevens deelt.**</span><span class="sxs-lookup"><span data-stu-id="92dcd-110">If you&#39;d like help from a Microsoft partner, check the box next to  **I would like Microsoft to share my information**.</span></span> <span data-ttu-id="92dcd-111">Selecteer  **Volgende**.</span><span class="sxs-lookup"><span data-stu-id="92dcd-111">Select  **Next**.</span></span>
+5. <span data-ttu-id="92dcd-112">Als u uw telefoonnummer wilt verifiëren, **selecteert u Verificatiecode verzenden.**</span><span class="sxs-lookup"><span data-stu-id="92dcd-112">To verify your phone number, select  **Send verification code**.</span></span> <span data-ttu-id="92dcd-113">Voer de code in die u op uw telefoon hebt ontvangen en selecteer **Verifiëren.**</span><span class="sxs-lookup"><span data-stu-id="92dcd-113">Enter the code you received on your phone, and select  **Verify**.</span></span>
+6. <span data-ttu-id="92dcd-114">Als u al een domein hebt, kiest u Nu een  **Microsoft-domein kopen** en voert u uw bedrijfsnaam in.</span><span class="sxs-lookup"><span data-stu-id="92dcd-114">If you already have a domain, choose  **Get a Microsoft domain for now**, and enter your company name.</span></span> <span data-ttu-id="92dcd-115">Dit wordt uw tijdelijke e-mailadres.</span><span class="sxs-lookup"><span data-stu-id="92dcd-115">This becomes your temporary email address.</span></span> <span data-ttu-id="92dcd-116">Het wordt ook een onderdeel van uw permanente URL's voor SharePoint en OneDrive.</span><span class="sxs-lookup"><span data-stu-id="92dcd-116">It also becomes a part of your permanent SharePoint and OneDrive URLs.</span></span> <span data-ttu-id="92dcd-117">Selecteer  **Beschikbaarheid controleren** en vervolgens  **Volgende**.</span><span class="sxs-lookup"><span data-stu-id="92dcd-117">Select  **Check availability** , and then  **Next**.</span></span>
+7. <span data-ttu-id="92dcd-118">Voer uw gebruikersnaam, wachtwoord in, bevestig uw wachtwoord en selecteer registreren  **om**  uw account te maken.</span><span class="sxs-lookup"><span data-stu-id="92dcd-118">Enter your username, a password, confirm your password, and then select  **Sign up**  to create your account.</span></span>
+8. <span data-ttu-id="92dcd-119">Voer het aantal gebruikers in, kies een factureringsplan en selecteer **Volgende.**</span><span class="sxs-lookup"><span data-stu-id="92dcd-119">Enter the number of users, choose a billing plan, and then select  **Next**.</span></span>
+9.  <span data-ttu-id="92dcd-120">Voer uw bedrijfsadres&#39;en vervolgens **Volgende in.**</span><span class="sxs-lookup"><span data-stu-id="92dcd-120">Enter your company&#39;s address, and then  **Next**.</span></span>
+10. <span data-ttu-id="92dcd-121">Voer uw creditcardgegevens in en plaats  **vervolgens bestelling**.</span><span class="sxs-lookup"><span data-stu-id="92dcd-121">Enter your credit card information, and then  **Place order**.</span></span> <span data-ttu-id="92dcd-122">Na enkele ogenblikken wordt uw account gemaakt.</span><span class="sxs-lookup"><span data-stu-id="92dcd-122">After a few moments, your account will be created.</span></span>
+11. <span data-ttu-id="92dcd-123">Op dit moment kunt u Doorgaan om  **account in te** stellen selecteren, of u kunt zich aanmelden bij het Microsoft 365-beheercentrum en de installatie later voltooien.</span><span class="sxs-lookup"><span data-stu-id="92dcd-123">At this point you can select  **Continue to set up account** , or you can sign in to the Microsoft 365 admin center and complete setup later.</span></span>

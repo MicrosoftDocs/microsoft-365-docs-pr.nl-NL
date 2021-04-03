@@ -1,9 +1,9 @@
 ---
-title: Hoe beleid in Microsoft 365 voor bedrijven bedrijfsgegevens beschermt
+title: Hoe beleidsregels in Microsoft 365 voor Bedrijven bedrijfsgegevens beveiligen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -26,26 +26,26 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: Als u bedrijfsgegevens op persoonlijke apparaten van gebruikers wilt beschermen, gebruikt u beleid dat zich richt op specifieke apparaten en beveiligingsgroepen.
-ms.openlocfilehash: 18bf29d82b8020d31fec681b2114af86f52cad9c
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Als u bedrijfsgegevens op persoonlijke apparaten van gebruikers wilt beveiligen, gebruikt u beleidsregels voor specifieke apparaten en beveiligingsgroepen.
+ms.openlocfilehash: 5c6a4b85b080c6c1afaf6ac5bec046f2a539ee20
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471154"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578422"
 ---
-# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a><span data-ttu-id="ee42a-103">Hoe beleid in Microsoft 365 voor bedrijven bedrijfsgegevens beschermt</span><span class="sxs-lookup"><span data-stu-id="ee42a-103">How policies in Microsoft 365 for business protect company data</span></span>
+# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a><span data-ttu-id="8d79c-103">Hoe beleidsregels in Microsoft 365 voor Bedrijven bedrijfsgegevens beveiligen</span><span class="sxs-lookup"><span data-stu-id="8d79c-103">How policies in Microsoft 365 for business protect company data</span></span>
 
-<span data-ttu-id="ee42a-104">Dit artikel is van toepassing op Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="ee42a-104">This article applies to Microsoft 365 Business Premium.</span></span>
+<span data-ttu-id="8d79c-104">Dit artikel is van toepassing op Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="8d79c-104">This article applies to Microsoft 365 Business Premium.</span></span>
 
-<span data-ttu-id="ee42a-p101">Het beleid dat u definieert, geldt specifiek voor het apparaattype en kan worden toegepast op specifieke groepen gebruikers. Dit betekent dat u één beleid kunt definiëren dat geldt voor uw managers en een tweede beleid dat van toepassing is op alle andere gebruikers.</span><span class="sxs-lookup"><span data-stu-id="ee42a-p101">The policies that you create are specific to the device type and can be applied to specific groups of users. This means that you could create one policy that applies to your executives, and another that applies to everyone else.</span></span>
+<span data-ttu-id="8d79c-p101">Het beleid dat u definieert, geldt specifiek voor het apparaattype en kan worden toegepast op specifieke groepen gebruikers. Dit betekent dat u één beleid kunt definiëren dat geldt voor uw managers en een tweede beleid dat van toepassing is op alle andere gebruikers.</span><span class="sxs-lookup"><span data-stu-id="8d79c-p101">The policies that you create are specific to the device type and can be applied to specific groups of users. This means that you could create one policy that applies to your executives, and another that applies to everyone else.</span></span>
   
-<span data-ttu-id="ee42a-107">Voor Android- en iOS-apparaten kunt u beleid voor toepassingen toevoegen of bewerken ter bescherming van Office-apps en werkbestanden die door Office-apps worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="ee42a-107">For Android and iOS devices, you can add or edit application policies that protect Office apps and work files used by Office apps.</span></span> <span data-ttu-id="ee42a-108">We kunnen Windows 10-apparaten wat meer bedienen, zodat toepassingsbeleid meer instellingen kan bevatten, zoals versleuteling en beveiliging voor netwerk- en cloudlocaties.</span><span class="sxs-lookup"><span data-stu-id="ee42a-108">We're able to control Windows 10 devices a bit more, so application policies can include more settings, like encryption and protection for network and cloud locations.</span></span> <span data-ttu-id="ee42a-109">U kunt ook apparaatbeleid voor Windows 10-apparaten maken met instellingen voor virusbeveiliging en automatische updates.</span><span class="sxs-lookup"><span data-stu-id="ee42a-109">You can also create device policies for Windows 10 devices that enforce settings like virus protection and automatic updates.</span></span> <span data-ttu-id="ee42a-110">We raden u aan bij het beleid dat tijdens de installatie is gemaakt, maar als u uw beleid wilt verfijnen of meer wilt toevoegen, raadpleegt u de volgende artikelen:</span><span class="sxs-lookup"><span data-stu-id="ee42a-110">We recommend that you stick with the policies created during setup, but if you'd like to fine-tune your policies or add more, see these articles:</span></span>
+<span data-ttu-id="8d79c-107">Voor Android- en iOS-apparaten kunt u beleid voor toepassingen toevoegen of bewerken ter bescherming van Office-apps en werkbestanden die door Office-apps worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="8d79c-107">For Android and iOS devices, you can add or edit application policies that protect Office apps and work files used by Office apps.</span></span> <span data-ttu-id="8d79c-108">We kunnen Windows 10-apparaten iets meer beheren, dus toepassingsbeleid kan meer instellingen bevatten, zoals versleuteling en beveiliging voor netwerk- en cloudlocaties.</span><span class="sxs-lookup"><span data-stu-id="8d79c-108">We're able to control Windows 10 devices a bit more, so application policies can include more settings, like encryption and protection for network and cloud locations.</span></span> <span data-ttu-id="8d79c-109">U kunt ook apparaatbeleid voor Windows 10-apparaten maken met instellingen voor virusbeveiliging en automatische updates.</span><span class="sxs-lookup"><span data-stu-id="8d79c-109">You can also create device policies for Windows 10 devices that enforce settings like virus protection and automatic updates.</span></span> <span data-ttu-id="8d79c-110">We raden u aan het beleid dat tijdens de installatie is gemaakt, bij te houden, maar als u uw beleid wilt afstemmen of meer wilt toevoegen, bekijkt u deze artikelen:</span><span class="sxs-lookup"><span data-stu-id="8d79c-110">We recommend that you stick with the policies created during setup, but if you'd like to fine-tune your policies or add more, see these articles:</span></span>
   
-[<span data-ttu-id="ee42a-111">App-configuraties instellen voor Android- of iOS-apparaten</span><span class="sxs-lookup"><span data-stu-id="ee42a-111">Set app configurations for Android or iOS devices</span></span>](app-protection-settings-for-android-and-ios.md)
+[<span data-ttu-id="8d79c-111">App-configuraties instellen voor Android- of iOS-apparaten</span><span class="sxs-lookup"><span data-stu-id="8d79c-111">Set app configurations for Android or iOS devices</span></span>](app-protection-settings-for-android-and-ios.md)
   
-[<span data-ttu-id="ee42a-112">Apparaatconfiguraties instellen voor Windows 10-pc's</span><span class="sxs-lookup"><span data-stu-id="ee42a-112">Set device configurations for Windows 10 PCs</span></span>](protection-settings-for-windows-10-pcs.md)
+[<span data-ttu-id="8d79c-112">Apparaatconfiguraties instellen voor Windows 10-pc's</span><span class="sxs-lookup"><span data-stu-id="8d79c-112">Set device configurations for Windows 10 PCs</span></span>](protection-settings-for-windows-10-pcs.md)
   
-[<span data-ttu-id="ee42a-113">Instellingen voor app-beveiliging instellen voor Windows 10-apparaten</span><span class="sxs-lookup"><span data-stu-id="ee42a-113">Set app protection settings for Windows 10 devices</span></span>](protection-settings-for-windows-10-devices.md)
+[<span data-ttu-id="8d79c-113">Instellingen voor app-beveiliging instellen voor Windows 10-apparaten</span><span class="sxs-lookup"><span data-stu-id="8d79c-113">Set app protection settings for Windows 10 devices</span></span>](protection-settings-for-windows-10-devices.md)
   
 
