@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: c0575b5eaf5a4683f86d4a48dd1076fa2c423acf
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c0a29f93b9ea926beaeecb840ba108da04a89ebb
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060418"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501145"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Geavanceerde zoekquery's migreren van Microsoft Defender voor Eindpunt
 
@@ -37,7 +37,7 @@ ms.locfileid: "51060418"
 
 Verplaats uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt om proactief te zoeken naar bedreigingen met een bredere set gegevens. In Microsoft 365 Defender krijgt u toegang tot gegevens van andere beveiligingsoplossingen van Microsoft 365, waaronder:
 
-- Microsoft Defender for Endpoint
+- Microsoft Defender voor Eindpunt
 - Microsoft Defender voor Office 365
 - Microsoft Cloud App Security
 - Microsoft Defender for Identity
@@ -50,7 +50,7 @@ U kunt overstappen zonder dat dit van invloed is op uw bestaande Defender voor E
 ## <a name="schema-tables-in-microsoft-365-defender-only"></a>Alleen schematabellen in Microsoft 365 Defender
 Het geavanceerde zoekschema van [Microsoft 365 Defender](advanced-hunting-schema-tables.md) bevat aanvullende tabellen met gegevens uit verschillende beveiligingsoplossingen van Microsoft 365. De volgende tabellen zijn alleen beschikbaar in Microsoft 365 Defender:
 
-| Tabelnaam | Beschrijving |
+| Tabelnaam | Omschrijving |
 |------------|-------------|
 | [AlertEvidence](advanced-hunting-alertevidence-table.md) | Bestanden, IP-adressen, URL's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
 | [AlertInfo](advanced-hunting-alertinfo-table.md) | Waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit, inclusief ernstsinformatie en bedreigingscategorieën  |
@@ -179,7 +179,7 @@ AlertInfo
 ```
 
 ## <a name="see-also"></a>Zie ook
-- [Microsoft 365 Defender in-](advanced-hunting-query-language.md)
+- [Microsoft 365 Defender inschakelen](advanced-hunting-query-language.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Advanced hunting in Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)

@@ -8,24 +8,24 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 41d1c9400720e20185922a97463e776c3ce0d80a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ade50e85dbfcf5f59921a65d5b97bb47d21e5b12
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058358"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570922"
 ---
 # <a name="evaluate-network-protection"></a>Netwerkbeveiliging evalueren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [Netwerkbeveiliging](network-protection.md) helpt voorkomen dat werknemers elke toepassing gebruiken om toegang te krijgen tot gevaarlijke domeinen die phishingpraktijken, exploits en andere schadelijke inhoud op internet kunnen hosten.
@@ -60,7 +60,7 @@ De netwerkverbinding is toegestaan en er wordt een testbericht weergegeven.
 
 Als u apps wilt bekijken die zouden zijn geblokkeerd, opent u Gebeurtenisviewer en filtert u op Gebeurtenis-id 1125 in het Microsoft-Windows-Windows-Defender/Operationeel logboek. In de volgende tabel worden alle netwerkbeveiligingsgebeurtenissen vermeld.
 
-| Gebeurtenis-id | Leveren/bron | Beschrijving |
+| Gebeurtenis-id | Leveren/bron | Omschrijving |
 |-|-|-|
 |5007 | Windows Defender (operationeel) | Gebeurtenis wanneer instellingen worden gewijzigd |
 |1125 | Windows Defender (operationeel) | Gebeurtenis wanneer een netwerkverbinding wordt gecontroleerd |

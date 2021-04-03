@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c8ad69930ce4faecbffbc6d2fab59bbe2cac06fa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 13ac09b1ad918ed945edec6167fd57ea02b616ea
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058145"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500188"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Uitzonderingen maken en weergeven voor beveiligingsaanbevelingen - bedreigings- en kwetsbaarheidsbeheer
 
@@ -31,7 +31,7 @@ ms.locfileid: "51058145"
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -141,7 +141,7 @@ Het effect (na uitzonderingen) toont de resterende invloed op de blootstellingss
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
-- [Beveiligingslekken herstellen](tvm-remediation.md)
+- [Beveiligingsproblemen verhelpen](tvm-remediation.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)
 - [Blootstellingsscore](tvm-exposure-score.md)
 - [Microsoft Secure Score voor apparaten](tvm-microsoft-secure-score-devices.md)

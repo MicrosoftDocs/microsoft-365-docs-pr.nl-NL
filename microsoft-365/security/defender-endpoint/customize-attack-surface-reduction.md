@@ -1,5 +1,5 @@
 ---
-title: Surface Reduction-regels voor aanvallen aanpassen
+title: Regels voor het verminderen van aanvalsoppervlakken aanpassen
 description: Stel afzonderlijk regels in audit-, blok- of uitgeschakelde modi in en voeg bestanden en mappen toe die moeten worden uitgesloten van de regels voor de beperking van het aanvalsoppervlak
 keywords: Aanvalsoppervlakverminding, hips, host intrusion prevention system, protection rules, anti-exploit, anti-exploit, exploit, infection prevention, customize, configure, exclude
 search.product: eADQiWindows 10XVcnh
@@ -8,25 +8,25 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 99a88a869c8a79f79cbc3a16fc73bf556416c51a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 52a51b1035f1aa0fb152cf17dc9561cce378d59d
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163292"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570349"
 ---
-# <a name="customize-attack-surface-reduction-rules"></a>Surface Reduction-regels voor aanvallen aanpassen
+# <a name="customize-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken aanpassen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -116,6 +116,6 @@ U kunt de melding aanpassen voor wanneer een regel wordt geactiveerd en een app 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 * [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
-* [Regels voor het verlagen van de surface voor aanvallen inschakelen](enable-attack-surface-reduction.md)
-* [Regels voor het verlagen van het oppervlak van de aanval evalueren](evaluate-attack-surface-reduction.md)
-* [Veelgestelde vragen over surface reduction attack](attack-surface-reduction.md)
+* [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
+* [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
+* [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)

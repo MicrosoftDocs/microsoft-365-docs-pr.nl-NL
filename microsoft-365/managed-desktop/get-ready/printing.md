@@ -9,12 +9,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 3decc7d67decc5557e7921e68108e2ddb447f0fd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 971644aafabda733bf745fae278bdfeeed3282e3
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924550"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574545"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Printbronnen voorbereiden voor Microsoft Managed Desktop
 
@@ -37,3 +38,15 @@ Als u hebt besloten printers te implementeren met een aangepast PowerShell-scrip
 3.  Via de beheerportal laten we u weten wanneer de aanvraag is voltooid. In eerste instantie implementeren we de configuratie alleen op apparaten in de groep Testimplementatie.
 4.  U moet testen en controleren of de configuratie werkt zoals u verwacht. Reageer via het **tabblad Discussie** in het ondersteuningsverzoek om ons te laten weten wanneer u de test hebt voltooid.
 5.  Vervolgens implementeren we de configuratie naar de andere implementatiegroepen.
+
+## <a name="steps-to-get-ready"></a>Stappen om u klaar te maken
+
+1. Controleer [Vereisten voor Microsoft Managed Desktop](prerequisites.md).
+2. Gebruik [gereedheidsbeoordelingshulpmiddelen.](readiness-assessment-tool.md)
+3. [Vereisten voor gast-accounts](guest-accounts.md)
+4. [Netwerkconfiguratie voor Microsoft Managed Desktop](network.md)
+5. [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](certs-wifi-lan.md)
+6. [Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop](authentication.md)
+7. [Apps in Microsoft Managed Desktop](apps.md)
+8. [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
+9. [Afdrukbronnen voorbereiden voor Microsoft Managed Desktop](printing.md) (Dit artikel)

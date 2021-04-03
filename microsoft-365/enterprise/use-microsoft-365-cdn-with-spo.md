@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Lees hoe u het Office 365 Content Delivery Network (CDN) kunt gebruiken om de levering van uw SharePoint Online-assets te versnellen.
-ms.openlocfilehash: 17c80b8718ea46c9dfba9f803093974e8ce3e706
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 6819f627d3590cd2739b36cb1bc303f197d6aaa5
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222681"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570403"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online
 
@@ -119,7 +119,7 @@ Wanneer u een origin identificeert, geeft u aan of deze openbaar of _privé_ moe
 
 Openbare en private opties bieden vergelijkbare prestatieverbeteringen, maar elk heeft unieke kenmerken en voordelen.
 
-**Openbare** origins binnen het Office 365-CDN zijn anoniem toegankelijk en gehoste assets kunnen worden gebruikt door iedereen die de URL van het activum heeft. Omdat toegang tot inhoud in openbare origins anoniem is, moet u deze alleen gebruiken om niet-gevoelige algemene inhoud in de cache op te slaan, zoals javascript-bestanden, scripts, pictogrammen en afbeeldingen.
+**Openbare** origins binnen het Office 365-CDN zijn anoniem toegankelijk en gehoste assets kunnen worden gebruikt door iedereen die de URL van het activum heeft. Omdat toegang tot inhoud in openbare origins anoniem is, moet u deze alleen gebruiken om niet-gevoelige algemene inhoud in de cache op te slaan, zoals JavaScript-bestanden, scripts, pictogrammen en afbeeldingen.
 
 **Privé-origins** binnen het Office 365-CDN bieden persoonlijke toegang tot gebruikersinhoud, zoals SharePoint Online-documentbibliotheken, sites en eigen afbeeldingen. Toegang tot inhoud in privé-origins wordt beveiligd door dynamisch gegenereerde tokens, zodat deze alleen toegankelijk is voor gebruikers met machtigingen voor de oorspronkelijke documentbibliotheek of opslaglocatie. Privé-origins in het Office 365-CDN kunnen alleen worden gebruikt voor SharePoint Online-inhoud en u hebt alleen toegang tot activa in privé-origins via omleiding vanuit uw SharePoint Online-tenant.
 
@@ -130,19 +130,29 @@ U kunt meer informatie lezen over hoe CDN-toegang tot activa in een privé-origi
 + Activa die in een openbare origin worden getoond, zijn anoniem toegankelijk voor iedereen.
     > [!IMPORTANT]
     > U mag nooit resources plaatsen die gebruikersgegevens bevatten of die als gevoelig voor uw organisatie worden beschouwd in een openbare origin.
+
 + Als u een activum uit een openbare origin verwijdert, is het activum mogelijk nog maximaal 30 dagen beschikbaar in de cache. Koppelingen naar het activum in het CDN worden binnen 15 minuten ongeldig.
+
 + Wanneer u stijlbladen (CSS-bestanden) host in een openbare origin, kunt u relatieve paden en URL's binnen de code gebruiken. Dit betekent dat u kunt verwijzen naar de locatie van achtergrondafbeeldingen en andere objecten ten opzichte van de locatie van het activum dat de activum aanroept.
+
 + Hoewel u de URL van een openbare origin kunt maken, moet u voorzichtig te werk gaan en ervoor zorgen dat u de context-eigenschap pagina gebruikt en de richtlijnen volgt om dit te doen. De reden hiervoor is dat als de toegang tot het CDN niet beschikbaar wordt, de URL niet automatisch wordt opgelost voor uw organisatie in SharePoint Online en dat dit kan leiden tot verbroken koppelingen en andere fouten. De URL kan ook worden gewijzigd. Daarom moet de URL niet alleen hard worden gecodeerd naar de huidige waarde.
+
 + De standaardbestandstypen die zijn opgenomen voor openbare origins zijn .css, .eot, .gif, .ico, .jpeg, .jpg, .js, .map, .png, .svg, .ttf, .woff en .woff2. U kunt extra bestandstypen opgeven.
+
 + U kunt een beleid configureren om activa uit te sluiten die zijn geïdentificeerd met siteclassificaties die u opgeeft. U kunt er bijvoorbeeld voor kiezen om alle activa uit te sluiten die zijn gemarkeerd als 'vertrouwelijk' of 'beperkt', zelfs als ze een toegestaan bestandstype zijn en zich in een openbare origin bevinden.
 
 #### <a name="attributes-and-advantages-of-hosting-assets-in-private-origins"></a>Kenmerken en voordelen van hostingactiva in privé-origins
 
 + Private origins kunnen alleen worden gebruikt voor SharePoint Online-assets.
+
 + Gebruikers hebben alleen toegang tot de assets van een persoonlijke origin als ze machtigingen hebben voor toegang tot de container. Anonieme toegang tot deze activa wordt voorkomen.
+
 + Activa in privé-origins moeten worden verwezen vanuit de SharePoint Online-tenant. Directe toegang tot privé-CDN-assets werkt niet.
+
 + Als u een activum uit de privé-origin verwijdert, is het activum mogelijk nog maximaal een uur beschikbaar in de cache. We zullen echter binnen 15 minuten na de verwijdering van het activum koppelingen naar het activum in het CDN ongeldig maken.
+
 + De standaardbestandstypen die zijn opgenomen voor privé-origins zijn .gif, .ico, .jpeg, .jpg, .js en .png. U kunt extra bestandstypen opgeven.
+
 + Net als bij openbare origins kunt u een beleid configureren om activa uit te sluiten die zijn geïdentificeerd met siteclassificaties die u opgeeft, zelfs als u jokertekens gebruikt om alle activa in een map of documentbibliotheek op te nemen.
 
 Zie Content [Delivery Networks](content-delivery-networks.md)voor meer informatie over waarom u het Office 365 CDN, algemene CDN-concepten en andere Microsoft CDN's gebruikt die u kunt gebruiken met uw Office 365-tenant.
@@ -179,13 +189,13 @@ Voltooi deze stappen om het CDN in te stellen en te configureren voor het hosten
 
 Voordat u de tenant-CDN-instellingen wijzigt, moet u de huidige status van de privé-CDN-configuratie ophalen in uw Office 365-tenant. Maak verbinding met uw tenant met behulp van de SharePoint Online Management Shell:
 
-``` powershell
+```powershell
 Connect-SPOService -Url https://contoso-admin.sharepoint.com
 ```
 
 Gebruik nu **de cmdlet Get-SPOTenantCdnEnabled** om de CDN-statusinstellingen van de tenant op te halen:
 
-``` powershell
+```powershell
 Get-SPOTenantCdnEnabled -CdnType <Public | Private>
 ```
 
@@ -193,21 +203,21 @@ De status van het CDN voor het opgegeven CdnType wordt naar het scherm uitgevoer
 
 Gebruik de **cmdlet Set-SPOTenantCdnEnabled** om uw organisatie in staat te stellen het Office 365-CDN te gebruiken. U kunt uw organisatie in staat stellen om openbare origins, privé-origins of beide tegelijk te gebruiken. U kunt het CDN ook zo configureren dat de instelling van standaard origins wordt overgeslagen wanneer u het inschakelen. U kunt deze origins altijd later toevoegen, zoals in dit onderwerp wordt beschreven.
   
-In Windows Powershell voor SharePoint Online:
+In Windows PowerShell voor SharePoint Online:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType <Public | Private | Both> -Enable $true
 ```
 
 Als u bijvoorbeeld wilt dat uw organisatie zowel openbare als privé-origins kan gebruiken, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Both -Enable $true
 ```
 
 Als u wilt dat uw organisatie zowel openbare als persoonlijke origins kan gebruiken, maar het instellen van de standaard origins wilt overslaan, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Both -Enable $true -NoDefaultOrigins
 ```
 
@@ -215,13 +225,13 @@ Zie [Standaard-CDN-origins](use-microsoft-365-cdn-with-spo.md#default-cdn-origin
 
 Als u wilt dat uw organisatie openbare origins kan gebruiken, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Public -Enable $true
 ```
 
 Als u wilt dat uw organisatie persoonlijke origins kan gebruiken, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Private -Enable $true
 ```
 
@@ -237,19 +247,19 @@ Gebruik de **cmdlet Set-SPOTenantCdnPolicy** om statische bestandstypen te defin
 
 In Windows PowerShell voor SharePoint Online:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnPolicy -CdnType <Public | Private> -PolicyType IncludeFileExtensions -PolicyValue "<Comma-separated list of file types >"
 ```
 
 Als u bijvoorbeeld het CDN wilt inschakelen voor het hosten van CSS- en PNG-bestanden, voert u de opdracht in:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnPolicy -CdnType Private -PolicyType IncludeFileExtensions -PolicyValue "CSS,PNG"
 ```
 
 Als u wilt zien welke bestandstypen momenteel zijn toegestaan door het CDN, gebruikt u de **cmdlet Get-SPOTenantCdnPolicies:**
 
-``` powershell
+```powershell
 Get-SPOTenantCdnPolicies -CdnType <Public | Private>
 ```
 
@@ -265,13 +275,13 @@ Gebruik de **cmdlet Set-SPOTenantCdnPolicy** om siteclassificaties uit te sluite
 
 In Windows PowerShell voor SharePoint Online:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnPolicy -CdnType <Public | Private> -PolicyType ExcludeRestrictedSiteClassifications  -PolicyValue "<Comma-separated list of site classifications >"
 ```
 
 Als u wilt zien welke siteclassificaties momenteel zijn beperkt, gebruikt u de **cmdlet Get-SPOTenantCdnPolicies:**
 
-``` powershell
+```powershell
 Get-SPOTenantCdnPolicies -CdnType <Public | Private>
 ```
 
@@ -296,13 +306,13 @@ Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om een origin te definiëren. U kun
 > [!IMPORTANT]
 > U mag nooit resources plaatsen die gebruikersgegevens bevatten of die als gevoelig voor uw organisatie worden beschouwd in een openbare origin.
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path>
 ```
 
 De waarde van _pad_ is het relatieve pad naar de bibliotheek of map die de assets bevat. U kunt jokertekens gebruiken naast relatieve paden. Origins ondersteunt jokertekens die zijn voorbereid op de URL. Op deze manier kunt u origins maken die meerdere sites bespannen. Als u bijvoorbeeld alle activa wilt opnemen in de map met basispagina's voor al uw sites als openbare origin in het CDN, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 ```
 
@@ -313,23 +323,23 @@ U kunt een origin toevoegen met een specifiek relatieve pad. U kunt geen origin 
 
 In dit voorbeeld wordt een persoonlijke origin van de siteassetsbibliotheek op een specifieke site toegevoegd:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
 In dit voorbeeld wordt een persoonlijke origin van de _map1_ toegevoegd aan de siteactivabibliotheek van de siteverzameling:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder1
 ```
 
 Als er een spatie in het pad is, kunt u het pad omringen met dubbele aanhalingstekens of de spatie vervangen door de URL-codering %20. In de volgende voorbeelden wordt een persoonlijke origin van de _map 1_ in de siteactivabibliotheek van de siteverzameling toegevoegd:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder%201
 ```
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder 1"
 ```
 
@@ -347,13 +357,13 @@ Normaal gesproken worden deze origins standaard voor u ingesteld wanneer u het O
   
 + Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om de stijlbibliotheek te definiëren als een openbare origin.
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */style%20library
   ```
 
 + Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om de basispagina's te definiëren als een openbare origin.
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
   ```
 
@@ -366,19 +376,19 @@ Wanneer u de opdracht hebt uitgevoerd, synchroniseert het systeem de configurati
 
 + Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om de map met siteactiva te definiëren als een persoonlijke origin.
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl */siteassets
   ```
 
 + Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om de map sitepagina's te definiëren als een persoonlijke origin.
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl */sitepages
   ```
 
 + Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om de map met publicatieafbeeldingen te definiëren als een persoonlijke origin.
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl */publishingimages
   ```
 
@@ -391,7 +401,7 @@ Wanneer u de opdracht hebt uitgevoerd, synchroniseert het systeem de configurati
 
 Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om een siteverzameling te definiëren als een persoonlijke origin. Bijvoorbeeld:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
@@ -416,7 +426,7 @@ Als u de locatie van de origin wilt ophalen, kunt u de **cmdlet Get-SPOTenantCdn
 
 U kunt de toegang tot een map of SharePoint-bibliotheek die u hebt geïdentificeerd als een origin verwijderen. Gebruik hiervoor de **cmdlet Remove-SPOTenantCdnOrigin.**
 
-``` powershell
+```powershell
 Remove-SPOTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
 ```
 
@@ -434,13 +444,13 @@ Gebruik de **cmdlet Set-SPOTenantCdnEnabled** om het CDN voor uw organisatie uit
   
 Als u het gebruik van openbare origins in het CDN wilt uitschakelen, voert u de volgende opdracht in:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Public -Enable $false
 ```
 
 Als u het gebruik van de privé-origins in het CDN wilt uitschakelen, voert u de volgende opdracht in:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Private -Enable $false
 ```
 
@@ -462,13 +472,13 @@ Voltooi deze stappen voor het instellen en configureren van het CDN om uw assets
 
 Voordat u de tenant-CDN-instellingen wijzigt, moet u de huidige status van de privé-CDN-configuratie ophalen in uw Office 365-tenant. Maak verbinding met uw tenant met PnP PowerShell:
 
-``` powershell
+```powershell
 Connect-PnPOnline -Url https://contoso-admin.sharepoint.com -UseWebLogin
 ```
 
 Gebruik nu **de cmdlet Get-PnPTenantCdnEnabled om** de CDN-statusinstellingen van de tenant op te halen:
 
-``` powershell
+```powershell
 Get-PnPTenantCdnEnabled -CdnType <Public | Private>
 ```
 
@@ -478,19 +488,19 @@ Gebruik de **cmdlet Set-PnPTenantCdnEnabled** om uw organisatie in staat te stel
   
 In PnP PowerShell:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType <Public | Private | Both> -Enable $true
 ```
 
 Als u bijvoorbeeld wilt dat uw organisatie zowel openbare als privé-origins kan gebruiken, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Both -Enable $true
 ```
 
 Als u wilt dat uw organisatie zowel openbare als persoonlijke origins kan gebruiken, maar het instellen van de standaard origins wilt overslaan, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Both -Enable $true -NoDefaultOrigins
 ```
 
@@ -498,13 +508,13 @@ Zie [Standaard-CDN-origins](use-microsoft-365-cdn-with-spo.md#default-cdn-origin
 
 Als u wilt dat uw organisatie openbare origins kan gebruiken, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Public -Enable $true
 ```
 
 Als u wilt dat uw organisatie persoonlijke origins kan gebruiken, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Private -Enable $true
 ```
 
@@ -520,19 +530,19 @@ Gebruik de **cmdlet Set-PnPTenantCdnPolicy** om statische bestandstypen te defin
 
 In PnP PowerShell:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnPolicy -CdnType <Public | Private> -PolicyType IncludeFileExtensions -PolicyValue "<Comma-separated list of file types >"
 ```
 
 Als u bijvoorbeeld het CDN wilt inschakelen voor het hosten van CSS- en PNG-bestanden, voert u de opdracht in:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnPolicy -CdnType Private -PolicyType IncludeFileExtensions -PolicyValue "CSS,PNG"
 ```
 
 Als u wilt zien welke bestandstypen momenteel zijn toegestaan door het CDN, gebruikt u de **cmdlet Get-PnPTenantCdnPolicies:**
 
-``` powershell
+```powershell
 Get-PnPTenantCdnPolicies -CdnType <Public | Private>
 ```
 
@@ -548,13 +558,13 @@ Gebruik de **cmdlet Set-PnPTenantCdnPolicy** om siteclassificaties uit te sluite
 
 In PnP PowerShell:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnPolicy -CdnType <Public | Private> -PolicyType ExcludeRestrictedSiteClassifications  -PolicyValue "<Comma-separated list of site classifications>"
 ```
 
 Als u wilt zien welke siteclassificaties momenteel zijn beperkt, gebruikt u de **cmdlet Get-PnPTenantCdnPolicies:**
 
-``` powershell
+```powershell
 Get-PnPTenantCdnPolicies -CdnType <Public | Private>
 ```
 
@@ -579,13 +589,13 @@ Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om een origin te definiëren. U kun
 > [!IMPORTANT]
 > U mag nooit resources plaatsen die gebruikersgegevens bevatten of die als gevoelig voor uw organisatie worden beschouwd in een openbare origin.
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path>
 ```
 
 De waarde van _pad_ is het relatieve pad naar de bibliotheek of map die de assets bevat. U kunt jokertekens gebruiken naast relatieve paden. Origins ondersteunt jokertekens die zijn voorbereid op de URL. Op deze manier kunt u origins maken die meerdere sites bespannen. Als u bijvoorbeeld alle activa wilt opnemen in de map met basispagina's voor al uw sites als openbare origin in het CDN, typt u de volgende opdracht:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 ```
 
@@ -596,23 +606,23 @@ U kunt een origin toevoegen met een specifiek relatieve pad. U kunt geen origin 
 
 In dit voorbeeld wordt een persoonlijke origin van de siteactivabibliotheek op een specifieke site toegevoegd:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
 In dit voorbeeld wordt een persoonlijke origin van de _map1_ toegevoegd aan de siteactivabibliotheek van de siteverzameling:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder1
 ```
 
 Als er een spatie in het pad is, kunt u het pad omringen met dubbele aanhalingstekens of de spatie vervangen door de URL-codering %20. In de volgende voorbeelden wordt een persoonlijke origin van de _map 1_ in de siteactivabibliotheek van de siteverzameling toegevoegd:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder%201
 ```
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder 1"
 ```
 
@@ -630,13 +640,13 @@ Normaal gesproken worden deze origins standaard voor u ingesteld wanneer u het O
   
 + Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om de stijlbibliotheek te definiëren als een openbare origin.
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Public -OriginUrl */style%20library
   ```
 
 + Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om de basispagina's te definiëren als een openbare origin.
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
   ```
 
@@ -649,19 +659,19 @@ Wanneer u de opdracht hebt uitgevoerd, synchroniseert het systeem de configurati
 
 + Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om de map met siteactiva te definiëren als een persoonlijke origin.
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl */siteassets
   ```
 
 + Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om de map sitepagina's te definiëren als een persoonlijke origin.
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl */sitepages
   ```
 
 + Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om de map publicerende afbeeldingen te definiëren als een persoonlijke origin.
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl */publishingimages
   ```
 
@@ -674,7 +684,7 @@ Wanneer u de opdracht hebt uitgevoerd, synchroniseert het systeem de configurati
 
 Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om een siteverzameling te definiëren als een persoonlijke origin. Bijvoorbeeld:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
@@ -699,7 +709,7 @@ Als u de locatie van de origin wilt ophalen, kunt u de **cmdlet Get-PnPTenantCdn
 
 U kunt de toegang tot een map of SharePoint-bibliotheek die u hebt geïdentificeerd als een origin verwijderen. Gebruik hiervoor de **cmdlet Remove-PnPTenantCdnOrigin.**
 
-``` powershell
+```powershell
 Remove-PnPTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
 ```
 
@@ -717,13 +727,13 @@ Gebruik de **cmdlet Set-PnPTenantCdnEnabled om** het CDN voor uw organisatie uit
   
 Als u het gebruik van openbare origins in het CDN wilt uitschakelen, voert u de volgende opdracht in:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Public -Enable $false
 ```
 
 Als u het gebruik van de privé-origins in het CDN wilt uitschakelen, voert u de volgende opdracht in:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Private -Enable $false
 ```
 
@@ -747,13 +757,13 @@ U kunt de status van het Office 365-CDN in uw tenant beheren met de [opdracht SP
 
 Het openbare CDN van Office 365 in uw tenant inschakelen:
 
-```sh
+```cli
 spo cdn set --type Public --enabled true
 ```
 
 Als u het Office 365 SharePoint-CDN wilt inschakelen, voert u het volgende uit:
 
-```sh
+```cli
 spo cdn set --type Private --enabled true
 ```
 
@@ -763,7 +773,7 @@ Als u wilt controleren of het specifieke type Office 365-CDN is ingeschakeld of 
 
 Als u wilt controleren of het openbare CDN van Office 365 is ingeschakeld, voert u het volgende uit:
 
-```sh
+```cli
 spo cdn get --type Public
 ```
 
@@ -771,7 +781,7 @@ spo cdn get --type Public
 
 Als u de momenteel geconfigureerde openbare CDN-origins van Office 365 wilt weergeven, voert u het volgende uit:
 
-```sh
+```cli
 spo cdn origin list --type Public
 ```
 
@@ -784,7 +794,7 @@ Zie [Standaard-CDN-origins](use-microsoft-365-cdn-with-spo.md#default-cdn-origin
 
 Gebruik de [opdracht SPO CDN Origin Add om](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn-origin-add/) een CDN-origin te definiëren. U kunt meerdere origins definiëren. De origin is een URL die naar een SharePoint-bibliotheek of -map wijst die de assets bevat die u wilt hosten door het CDN.
 
-```sh
+```cli
 spo cdn origin add --type [Public | Private] --origin <path>
 ```
 
@@ -792,13 +802,13 @@ Waar `path` is het relatieve pad naar de map met de assets. U kunt jokertekens g
 
 Als u alle activa in de galerie met **basispagina's** van alle sites wilt opnemen als openbare origin, voert u het volgende uit:
 
-```sh
+```cli
 spo cdn origin add --type Public --origin */masterpage
 ```
 
 Als u een persoonlijke origin wilt configureren voor een specifieke siteverzameling, voert u het volgende uit:
 
-```sh
+```cli
 spo cdn origin add --type Private --origin sites/site1/siteassets
 ```
 
@@ -811,7 +821,7 @@ Gebruik de [opdracht SPO CDN Origin Remove om](https://pnp.github.io/office365-c
 
 Als u een openbare origin wilt verwijderen uit de CDN-configuratie, voert u het volgende uit:
 
-```sh
+```cli
 spo cdn origin remove --type Public --origin */masterpage
 ```
 
@@ -831,7 +841,7 @@ Standaard zijn de volgende bestandstypen opgenomen in het CDN: _.css, .eot, .gif
 
 Als u het _JSON-bestandstype_ wilt toevoegen aan de standaardlijst met bestandstypen die zijn opgenomen in het openbare CDN, voert u het volgende uit:
 
-```sh
+```cli
 spo cdn policy set --type Public --policy IncludeFileExtensions --value "CSS,EOT,GIF,ICO,JPEG,JPG,JS,MAP,PNG,SVG,TTF,WOFF,JSON"
 ```
 
@@ -844,7 +854,7 @@ Gebruik de [opdracht SPO CDN-beleidset](https://pnp.github.io/office365-cli/cmd/
 
 Als u sites die als _HBI zijn geclassificeerd,_ wilt uitsluiten van het openbare CDN, voert u
 
-```sh
+```cli
 spo cdn policy set --type Public --policy ExcludeRestrictedSiteClassifications --value "HBI"
 ```
 
@@ -852,7 +862,7 @@ spo cdn policy set --type Public --policy ExcludeRestrictedSiteClassifications -
 
 Als u het Office 365-CDN wilt uitschakelen, gebruikt u de `spo cdn set` opdracht bijvoorbeeld:
 
-```sh
+```cli
 spo cdn set --type Public --enabled false
 ```
 
@@ -890,7 +900,7 @@ Als u de volledige URL naar het activum wilt gebruiken in plaats van een relatie
 > [!NOTE]
 > In het algemeen moet u URL's niet rechtstreeks hardcoderen naar assets in het CDN. U kunt echter indien nodig handmatig URL's maken voor activa in openbare origins. Zie CDN-URL's [voor hardcoding](use-microsoft-365-cdn-with-spo.md)voor openbare activa voor meer informatie.
 
-Zie How do I confirm that assets areserved by the CDN? in the Troubleshooting the [Office 365 CDN](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting) (Hoe kan ik bevestigen dat activa worden beheerd door het [CDN)](use-microsoft-365-cdn-with-spo.md#CDNConfirm) voor meer informatie over het controleren of activa worden gebruikt vanuit het CDN.
+Zie How do I confirm that assets areserved by the CDN? in Troubleshooting the Office [365 CDN](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting)(Hoe kan ik bevestigen dat activa worden beheerd door het [CDN)](use-microsoft-365-cdn-with-spo.md#CDNConfirm) voor meer informatie over het controleren of activa worden gebruikt vanuit het CDN.
 
 ### <a name="using-assets-in-public-origins"></a>Activa gebruiken in openbare origins
 
@@ -924,15 +934,16 @@ Als  de functie Publiceren niet is ingeschakeld voor een openbare origin of als 
 
 Voor openbare CDN-activa ziet de URL-indeling er als volgt uit:
 
-``` html
+```http
 https://publiccdn.sharepointonline.com/<TenantHostName>/sites/site/library/asset.png
 ```
 
 Vervang **TenantHostName** door uw tenantnaam. Voorbeeld:
 
-``` html
+```http
 https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library/asset.png
 ```
+
 > [!NOTE]
 > De paginacontext-eigenschap moet worden gebruikt om het voorvoegsel te maken in plaats van hardcoderen " https://publiccdn.sharepointonline.com ". De URL kan worden gewijzigd en mag niet hard worden gecodeerd. Als u weergavesjablonen gebruikt met Klassiek SharePoint Online, kunt u de eigenschap 'window._spPageContextInfo.publicCdnBaseUrl' gebruiken in de weergavesjabloon voor het voorvoegsel van de URL. Als u SPFx-webonderdelen voor modern en klassiek SharePoint bent, kunt u de eigenschap 'this.context.pageContext.legacyPageContext.publicCdnBaseUrl' gebruiken. Dit geeft het voorvoegsel op, zodat als het wordt gewijzigd, de implementatie wordt bijgewerkt. Als voorbeeld voor SPFx kan de URL worden gemaakt met de eigenschap "this.context.pageContext.legacyPageContext.publicCdnBaseUrl" + "/" + "host" + "/" + "relativeURL for the item". Zie [CDN gebruiken in clientcode](https://youtu.be/IH1RbQlbhIA) die deel uitmaakt van de [prestatiereeks seizoen 1](https://aka.ms/sppnp-perfvideos)
 
@@ -953,7 +964,7 @@ Toegang tot activa in privé-origins in het Office 365-CDN wordt verleend door t
 
 Wanneer het toegangs token is gegenereerd, retourneert SharePoint Online een aangepaste URI naar de client met twee autorisatieparameters _eten_ (edge authorization token) en _haver_ (origin authorization token). De structuur van elk token is<'verlooptijd in tijdnotatie _epoch'>__<'secure signature'>._ Bijvoorbeeld:
 
-``` html
+```http
 https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/library1/folder1/image1.jpg?eat=1486154359_cc59042c5c55c90b26a2775323c7c8112718431228fe84d568a3795a63912840&oat=1486154359_7d73c2e3ba4b7b1f97242332900616db0d4ffb04312
 ```
 
@@ -1005,25 +1016,25 @@ Als de origin */clientsideassets ontbreekt, mislukt SharePoint Framework-oplossi
 
 U kunt controleren welke origins aanwezig zijn met de volgende PowerShell-opdracht:
 
-``` powershell
+```powershell
 Get-SPOTenantCdnOrigins -CdnType Public
 ```
 
 U kunt ook contact op met de Office 365 CLI:
 
-``` powershell
+```cli
 spo cdn origin list
 ```
 
 De origin in PowerShell toevoegen:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */CLIENTSIDEASSETS
 ```
 
 De origin toevoegen aan de Office 365 CLI:
 
-``` powershell
+```cli
 spo cdn origin add --origin */CLIENTSIDEASSETS
 ```
 

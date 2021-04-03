@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 594d4b5790f95abed966163e448d332467f35b51
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35dd300d828bfa48ad753d7c65f36b2555cf4f60
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060638"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500175"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>Dashboardinzichten - bedreigings- en kwetsbaarheidsbeheer
 
@@ -31,7 +31,7 @@ ms.locfileid: "51060638"
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -62,7 +62,7 @@ Bekijk deze video voor een kort overzicht van wat er in het dashboard voor bedre
 
  ![Microsoft Defender voor endpoint-portal](images/tvm-dashboard-devices.png)
 
-Gebied | Beschrijving
+Gebied | Omschrijving
 :---|:---
 **Geselecteerde apparaatgroepen (#/#)**   | Filter de gegevens voor bedreigings- en kwetsbaarheidsbeheer die u wilt zien in het dashboard en kaarten op apparaatgroepen. Wat u selecteert in het filter, is van toepassing op de pagina's bedreigings- en kwetsbaarheidsbeheer.
 [**Blootstellingsscore**](tvm-exposure-score.md)   | Bekijk de huidige status van de blootstelling van uw organisatie aan bedreigingen en beveiligingsproblemen. Verschillende factoren zijn van invloed op de blootstellingsscore van uw organisatie: zwakke punten die zijn ontdekt op uw apparaten, de kans dat uw apparaten worden geschonden, de waarde van de apparaten voor uw organisatie en relevante waarschuwingen die met uw apparaten zijn gevonden. Het doel is om de blootstellingsscore van uw organisatie te verlagen om veiliger te zijn. Als u de score wilt verlagen, moet u de gerelateerde beveiligingsconfiguratieproblemen oplossen die in de beveiligingsaanbevelingen worden vermeld.
@@ -82,6 +82,6 @@ Zie [Microsoft Defender voor eindpuntpictogrammen](portal-overview.md#microsoft-
 - [Blootstellingsscore](tvm-exposure-score.md)
 - [Microsoft Secure Score voor apparaten](tvm-microsoft-secure-score-devices.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)
-- [Softwarevoorraad](tvm-software-inventory.md)
-- [Tijdlijn van gebeurtenis](threat-and-vuln-mgt-event-timeline.md)
+- [Software-inventaris](tvm-software-inventory.md)
+- [Tijdlijn van het evenement](threat-and-vuln-mgt-event-timeline.md)
 

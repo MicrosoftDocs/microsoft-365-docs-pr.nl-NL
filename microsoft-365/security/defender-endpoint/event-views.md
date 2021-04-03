@@ -1,5 +1,5 @@
 ---
-title: Gebeurtenissen voor het verminderen van het oppervlak van de aanval weergeven
+title: Gebeurtenissen voor het verminderen van aanvalsoppervlakken bekijken
 description: Importeer aangepaste weergaven om gebeurtenissen in de surface-beperking van aanvallen te zien.
 keywords: event view, exploit guard, audit, review, events
 search.product: eADQiWindows 10XVcnh
@@ -8,24 +8,24 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: de605a667284c1218a3efe6e388d99b26b42e333
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 0a2ec16685ede2e625528fc3944943923bba3fc9
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060550"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569741"
 ---
-# <a name="view-attack-surface-reduction-events"></a>Gebeurtenissen voor het verminderen van het oppervlak van de aanval weergeven
+# <a name="view-attack-surface-reduction-events"></a>Gebeurtenissen voor het verminderen van aanvalsoppervlakken bekijken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
@@ -145,42 +145,42 @@ U hebt toegang tot deze gebeurtenissen in Windows Event Viewer:
 
    ![Animatie met behulp van Gebeurtenisviewer](/windows/security/threat-protection/images/event-viewer)
 
-Functie | Provider/bron | Gebeurtenis-id | Beschrijving
+Functie | Provider/bron | Gebeurtenis-id | Omschrijving
 :-|:-|:-:|:-
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 1 | ACG-audit
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 2 | ACG afdwingen
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 3 | Controle van onderliggende processen niet toestaan
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 4 | Blokkering van onderliggende processen niet toestaan
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 5 | Controle van afbeeldingen met lage integriteit blokkeren
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 6 | Blokkering van afbeeldingen met lage integriteit
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 7 | Externe afbeeldingen controleren blokkeren
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 8 | Blokkering van externe afbeeldingen blokkeren
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 9 | Controle van win32k-systeemoproepen uitschakelen
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 10 | Win32k-systeemoproepen blokkeren uitschakelen
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 11 | Controle van de codeintegriteitscontrole
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 12 | Code integrity guard block
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 13 | EAF-audit
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 14 | EAF afdwingen
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 15 | EAF+-audit
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 16 | EAF+ afdwingen
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 17 | IAF-audit
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 18 | IAF afdwingen
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 19 | ROP StackPivot-audit
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 20 | ROP StackPivot afdwingen
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 21 | ROP-bellerControle
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 22 | ROP CallerCheck afdwingen
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 23 | ROP SimExec-audit
-Beveiliging misbruiken | Security-Mitigations (kernelmodus/gebruikersmodus) | 24 | ROP SimExec afdwingen
-Beveiliging misbruiken | WER-Diagnostics | 5 | CFG-blok
-Beveiliging misbruiken | Win32K (operationeel) | 260 | Niet-vertrouwd lettertype
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 1 | ACG-audit
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 2 | ACG afdwingen
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 3 | Controle van onderliggende processen niet toestaan
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 4 | Blokkering van onderliggende processen niet toestaan
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 5 | Controle van afbeeldingen met lage integriteit blokkeren
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 6 | Blokkering van afbeeldingen met lage integriteit
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 7 | Externe afbeeldingen controleren blokkeren
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 8 | Blokkering van externe afbeeldingen blokkeren
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 9 | Controle van win32k-systeemoproepen uitschakelen
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 10 | Win32k-systeemoproepen blokkeren uitschakelen
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 11 | Controle van de codeintegriteitscontrole
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 12 | Code integrity guard block
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 13 | EAF-audit
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 14 | EAF afdwingen
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 15 | EAF+-audit
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 16 | EAF+ afdwingen
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 17 | IAF-audit
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 18 | IAF afdwingen
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 19 | ROP StackPivot-audit
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 20 | ROP StackPivot afdwingen
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 21 | ROP-bellerControle
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 22 | ROP CallerCheck afdwingen
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 23 | ROP SimExec-audit
+Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 24 | ROP SimExec afdwingen
+Bescherming tegen misbruik | WER-Diagnostics | 5 | CFG-blok
+Bescherming tegen misbruik | Win32K (operationeel) | 260 | Niet-vertrouwd lettertype
 Netwerkbeveiliging | Windows Defender (operationeel) | 5007 | Gebeurtenis wanneer instellingen worden gewijzigd
 Netwerkbeveiliging | Windows Defender (operationeel) | 1125 | Gebeurtenis wanneer netwerkbeveiliging wordt uitgevoerd in de auditmodus
 Netwerkbeveiliging | Windows Defender (operationeel) | 1126 | Gebeurtenis wanneer netwerkbeveiliging wordt branden in de blokmodus
-Gecontroleerde maptoegang | Windows Defender (operationeel) | 5007 | Gebeurtenis wanneer instellingen worden gewijzigd
-Gecontroleerde maptoegang | Windows Defender (operationeel) | 1124 | Gecontroleerde gebeurtenis gecontroleerde maptoegang
-Gecontroleerde maptoegang | Windows Defender (operationeel) | 1123 | Gebeurtenis Geblokkeerde gecontroleerde maptoegang
-Gecontroleerde maptoegang | Windows Defender (operationeel) | 1127 | Gebeurtenis geblokkeerde gecontroleerde maptoegangssector schrijfblok
-Gecontroleerde maptoegang | Windows Defender (operationeel) | 1128 | Gecontroleerde beheerde maptoegang sector schrijfblokgebeurtenis
-Surface-beperking voor aanvallen | Windows Defender (operationeel) | 5007 | Gebeurtenis wanneer instellingen worden gewijzigd
-Surface-beperking voor aanvallen | Windows Defender (operationeel) | 1122 | Gebeurtenis wanneer regel wordt branden in de auditmodus
-Surface-beperking voor aanvallen | Windows Defender (operationeel) | 1121 | Gebeurtenis wanneer regel wordt branden in de blokmodus
+Beheerde maptoegang | Windows Defender (operationeel) | 5007 | Gebeurtenis wanneer instellingen worden gewijzigd
+Beheerde maptoegang | Windows Defender (operationeel) | 1124 | Gecontroleerde gebeurtenis gecontroleerde maptoegang
+Beheerde maptoegang | Windows Defender (operationeel) | 1123 | Gebeurtenis Geblokkeerde gecontroleerde maptoegang
+Beheerde maptoegang | Windows Defender (operationeel) | 1127 | Gebeurtenis geblokkeerde gecontroleerde maptoegangssector schrijfblok
+Beheerde maptoegang | Windows Defender (operationeel) | 1128 | Gecontroleerde beheerde maptoegang sector schrijfblokgebeurtenis
+Kwetsbaarheid voor aanvallen verminderen | Windows Defender (operationeel) | 5007 | Gebeurtenis wanneer instellingen worden gewijzigd
+Kwetsbaarheid voor aanvallen verminderen | Windows Defender (operationeel) | 1122 | Gebeurtenis wanneer regel wordt branden in de auditmodus
+Kwetsbaarheid voor aanvallen verminderen | Windows Defender (operationeel) | 1121 | Gebeurtenis wanneer regel wordt branden in de blokmodus

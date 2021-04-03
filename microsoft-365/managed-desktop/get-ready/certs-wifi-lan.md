@@ -1,6 +1,6 @@
 ---
 title: Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop
-description: certs/wifi/lan
+description: Certificaatvereisten en wi-fi-connectiviteit
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -11,12 +11,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9f4490711c1ea051afe9d8efb081a2f7a141f8ba
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: a59add6f6821824f189703b3dedd35fda313ec31
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909116"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574581"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop  
  
@@ -86,3 +87,14 @@ Als u certificaten en profielen wilt implementeren, volgt u de volgende stappen:
 4. Maak een profiel voor elke zakelijke VPN (zie [Windows 10 en Windows Holographic device settings to add VPN connections using Intune](/intune/vpn-settings-windows-10)).
 5. Stuur een ondersteuningsaanvraag met de titel 'Implementatie van certificaten' of 'Wi-Fi-profielimplementatie' in bij IT-bewerkingen van Microsoft Managed Desktop met behulp van de Microsoft Managed Desktop Admin-portal om het configuratieprofiel te bekijken en te implementeren in 'Moderne werkplekapparaten – test'. Microsoft Managed Desktop IT Operations laat u weten wanneer de aanvraag is voltooid via de ondersteuningsaanvraag in de beheerportal. 
  
+## <a name="steps-to-get-ready"></a>Stappen om u klaar te maken
+
+1. Controleer [Vereisten voor Microsoft Managed Desktop](prerequisites.md).
+2. Gebruik [gereedheidsbeoordelingshulpmiddelen.](readiness-assessment-tool.md)
+3. [Vereisten voor gast-accounts](guest-accounts.md)
+4. [Netwerkconfiguratie voor Microsoft Managed Desktop](network.md)
+5. [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](certs-wifi-lan.md) (dit artikel)
+6. [Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop](authentication.md)
+7. [Apps in Microsoft Managed Desktop](apps.md)
+8. [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
+9. [Printbronnen voorbereiden voor Microsoft Managed Desktop](printing.md) 

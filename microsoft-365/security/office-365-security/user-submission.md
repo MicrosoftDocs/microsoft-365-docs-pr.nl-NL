@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d3f2640752f2dae152ef4be8b9ac2d2996c802a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d86c79f0f0ab74d1dfbb88e7803f4ee4d691ea73
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204440"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501174"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor gebruikersinzendingen
 
@@ -119,6 +119,9 @@ Selecteer **onder Opties om aan te geven wanneer** berichten worden gerapporteer
 
         > [!NOTE]
         > Amerikaanse overheidsorganisaties (GCC, GCC-H en DoD) kunnen alleen aangepast postvak **configureren.** De andere twee opties zijn uitgeschakeld.
+
+        > [!NOTE]
+        > Als organisaties zijn geconfigureerd om alleen naar een aangepast postvak te verzenden, worden gerapporteerde berichten niet opnieuw verzonden en zijn de resultaten in de portal Gebruikers gerapporteerde berichten altijd leeg.
 
       Wanneer u klaar bent, klikt u op **Bevestigen.**
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Implementeer beveiligings- en compliancefuncties van Microsoft 365 en bescherm uw persoonlijke gegevens.
-ms.openlocfilehash: 657b3c9c6416c8a38629a0d26253e1222aa6d242
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2d3a5baa063e6672760dda60ae6d76ea928ccd16
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928470"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500989"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Gegevens beveiligen die onderworpen zijn aan privacyregels voor gegevens
 
@@ -90,7 +90,8 @@ Zie voor informatie over andere mogelijkheden voor informatiebeveiliging buiten 
 
 Met gevoeligheidslabels uit het Microsoft Information Protection framework kunt u de gegevens van uw organisatie classificeren en beveiligen zonder de productiviteit van gebruikers en de mogelijkheid om samen te werken te belemmeren.
 
-![Gevoeligheidslabels in Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-labels.png)
+> [!div class="mx-imgBorder"]
+> ![Gevoeligheidslabels in Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-labels.png)
 
 ### <a name="prerequisites-for-sensitivity-labels"></a>Vereisten voor gevoeligheidslabels
 
@@ -115,7 +116,7 @@ Voltooi deze activiteiten voordat u een van de mogelijkheden op basis van gevoel
 
       Als u van plan bent moderne gevoeligheidslabels te gebruiken voor e-mailbeveiliging en bestaande methoden voor e-mailversleuteling, zoals OME, kunnen ze naast elkaar bestaan, maar u moet de scenario's begrijpen waarin een van beide moet worden toegepast. Zie [Office 365 Message Encryption new capabilities (OME),](#office-365-message-encryption-ome-new-capabilities)which includes a table comparing modern sensitivity label-type protection with OME-based protection.
 
-3. Integratie plannen in een bredere informatiebeveiligingsregeling. Naast coëxistentie met OME kunnen huidige gevoeligheidslabels naast elkaar worden gebruikt, zoals Microsoft 365 Data Loss Prevention (DLP) en Microsoft Cloud App Security. Zie [Gevoeligheidslabels en Microsoft Cloud App-beveiliging om](../compliance/sensitivity-labels.md#sensitivity-labels-and-microsoft-cloud-app-security) uw doelstellingen voor gegevensbescherming op het gebied van gegevensbescherming te bereiken.
+3. Integratie plannen in een bredere informatiebeveiligingsregeling. Naast coëxistentie met OME kunnen gevoeligheidslabels naast elkaar worden gebruikt, zoals Microsoft 365 Data Loss Prevention (DLP) en Microsoft Cloud App Security. Zie [Microsoft Information Protection in Microsoft 365](../compliance/information-protection.md) om uw doelstellingen voor gegevensbescherming op het gebied van gegevensbescherming te bereiken.
 
 4. Ontwikkel een gevoeligheidslabelclassificatie en -besturingselementschema. Zie [Taxonomie voor gegevensclassificatie en gevoeligheidslabel.](https://aka.ms/dataclassificationwhitepaper)
 
@@ -215,11 +216,13 @@ U kunt bijvoorbeeld elk document met een creditcardnummer identificeren dat is o
 
 U kunt ook gevoelige items bewaken en beveiligen in de lokaal geïnstalleerde versies van Excel, PowerPoint en Word, waaronder de mogelijkheid om gevoelige items te identificeren en DLP-beleid toe te passen. DLP biedt continue monitoring wanneer personen inhoud delen vanuit deze Office-apps.
 
-![Ondersteunde werkbelastingen voor DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-supported-workloads.png)
+> [!div class="mx-imgBorder"]
+> ![Ondersteunde werkbelastingen voor DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-supported-workloads.png)
 
 In deze afbeelding ziet u een voorbeeld van DLP-beveiliging van persoonlijke gegevens.
 
-![Voorbeeld van het beveiligen van persoonlijke gegevens met DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-example-use.png)
+> [!div class="mx-imgBorder"]
+> ![Voorbeeld van het beveiligen van persoonlijke gegevens met DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-example-use.png)
 
 DLP wordt gebruikt om een document of e-mailbericht met een statusrecord te identificeren en blokkeert vervolgens automatisch de toegang tot dat document of blokkeert de e-mail die wordt verzonden. DLP geeft de geadresseerde vervolgens een beleidstip en stuurt een waarschuwing naar de eindgebruiker en beheerder.
 
@@ -252,7 +255,8 @@ Hoewel gevoeligheidslabels niet kunnen worden gebruikt in DLP-beleidsvoorwaarden
 
 DLP-beleidsregels worden geconfigureerd in het Microsoft Compliance-beheercentrum en geven het beveiligingsniveau op, het gevoelige informatietype dat het beleid zoekt en de doelbelastingen. De basisonderdelen bestaan uit het identificeren van de beveiliging en de typen gegevens.
 
-![DLP-beleidsconfiguratie in Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-config.png)
+> [!div class="mx-imgBorder"]
+> ![DLP-beleidsconfiguratie in Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-config.png)
 
 Hier is een voorbeeld van het DLP-beleid voor de bewustmaking van de AVG.
 
@@ -270,7 +274,7 @@ De eerste configuratie, Awareness, kan worden gebruikt als uitgangspunt en een m
 
 >[!Note]
 >Naarmate de beveiligingsniveaus toenemen, wordt de mogelijkheid van gebruikers om gegevens te delen en te openen in sommige gevallen kleiner en kan dit van invloed zijn op hun productiviteit of het vermogen om dagelijkse taken uit te voeren.
->
+
 
 Als u uw werknemers wilt helpen productiever te blijven in een veiligere omgeving bij het verhogen van het beveiligingsniveau, neemt u de tijd om hen te trainen en op te leiden over nieuwe beveiligingsbeleidsregels en -procedures.
 
@@ -285,7 +289,8 @@ Gevoeligheidslabels kunnen samenwerken met DLP om gegevensbescherming te bieden 
 
 Wanneer deze elementen zijn bepaald, kunt u gevoelige informatietypen, uw gevoeligheidslabels taxonomie en DLP-beleid samen gebruiken. In deze afbeelding ziet u een voorbeeld.
 
-![Voorbeeld van gevoeligheidslabels die werken met DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
+> [!div class="mx-imgBorder"]
+> ![Voorbeeld van gevoeligheidslabels die werken met DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
 [Een grotere versie van deze afbeelding bekijken](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 

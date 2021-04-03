@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP voor Linux
+title: Microsoft Defender voor Eindpunt voor Linux
 ms.reviewer: ''
 description: Hier wordt beschreven hoe u Microsoft Defender ATP voor Linux installeert en gebruikt.
 keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 08bb4c73cb9df429c4b07194f1c7615f44d745d8
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: cc2f5be700395f6d88c05481d74501f4d9d92b76
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408335"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500677"
 ---
 # <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender voor Eindpunt voor Linux
 
@@ -39,7 +39,7 @@ ms.locfileid: "51408335"
 In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt voor Linux kunt installeren, configureren, bijwerken en gebruiken.
 
 > [!CAUTION]
-> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt voor Linux kan waarschijnlijk prestatieproblemen en onvoorspelbare systeemfouten veroorzaken.
+> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt voor Linux kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u na het configureren van de antivirusfunctionaliteit [](linux-preferences.md#enable--disable-passive-mode)in de passieve modus nog steeds veilig gebruik maken van De functionaliteit van Defender voor Endpoint voor Linux EDR.
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender voor Eindpunt voor Linux installeren
 
@@ -110,8 +110,8 @@ Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in M
 Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall configureren om uitgaande verbindingen tussen de service en uw eindpunten toe te staan.
 
 - Audit framework ( `auditd` ) moet zijn ingeschakeld.
-  >[!NOTE]
-  > Systeemgebeurtenissen die zijn vastgelegd met regels die zijn toegevoegd, worden toegevoegd aan auditlogboeken en kunnen van invloed zijn op de controle van de `audit.logs` host en de upstreamverzameling. Gebeurtenissen die zijn toegevoegd door Microsoft Defender voor Endopoint voor Linux, worden met de sleutel `mdatp` gemarkeerd.
+  > [!NOTE]
+  > Systeemgebeurtenissen die zijn vastgelegd met regels die zijn toegevoegd, worden toegevoegd aan (s) en kunnen van invloed zijn op de controle van de `/etc/audit/rules.d/` `audit.log` host en de upstreamverzameling. Gebeurtenissen die zijn toegevoegd door Microsoft Defender voor Endpoint voor Linux, worden met de sleutel `mdatp` gemarkeerd.
 
 ### <a name="network-connections"></a>Netwerkverbindingen
 

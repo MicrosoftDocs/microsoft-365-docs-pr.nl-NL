@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 98f335a38b2e4f581d4b08def39353e53e1bafd4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 19b83fe7dd733bb8a0668039d4df2b692a398ad4
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058566"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570461"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -79,7 +79,7 @@ Momenteel zijn er aanbevelingen voor de volgende producten:
 
 - Microsoft 365 (inclusief Exchange Online)
 - Microsoft Azure Active Directory
-- Microsoft Defender for Endpoint
+- Microsoft Defender voor Eindpunt
 - Microsoft Defender for Identity
 - Cloud App Security
 - Microsoft Teams
@@ -137,4 +137,4 @@ Als u problemen hebt, laat het ons weten door een bericht te plaatsen in de [bev
 - [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
 - [Uw Microsoft Secure Score-geschiedenis bijhouden en doelstellingen behalen](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
-- [Wat is er nieuw](microsoft-secure-score-whats-new.md)
+- [Nieuwe functies](microsoft-secure-score-whats-new.md)

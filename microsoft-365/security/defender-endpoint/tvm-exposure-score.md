@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cc7abd678d6f2d317d02c4ed2b8028e7e270b055
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 34c3122b017b14605fdbb3358f31f73e26361a4d
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060486"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500132"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>Blootstellingsscore - bedreigings- en kwetsbaarheidsbeheer
 
@@ -31,7 +31,7 @@ ms.locfileid: "51060486"
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -66,4 +66,4 @@ Vererk de blootstelling aan bedreigingen en kwetsbaarheid door beveiligingsaanbe
 - [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft Secure Score voor apparaten](tvm-microsoft-secure-score-devices.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)
-- [Tijdlijn van gebeurtenis](threat-and-vuln-mgt-event-timeline.md)
+- [Tijdlijn van het evenement](threat-and-vuln-mgt-event-timeline.md)

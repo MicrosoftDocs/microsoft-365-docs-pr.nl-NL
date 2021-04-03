@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c79a235051897f19ca2c3f42b220c87a48cfac3f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7dd691b0d018db2b7afb3b88a2c1f9f7f8a39a33
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204576"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569777"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuwe functies in Microsoft Defender voor Office 365
 
@@ -38,6 +38,7 @@ ms.locfileid: "51204576"
 
 In dit artikel worden nieuwe functies in de nieuwste versie van Microsoft Defender voor Office 365 beschreven. Functies die momenteel in de preview-versie staan, worden aangeduid met **(voorbeeld)**.
 
+Bekijk deze [video voor meer informatie.](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3)
 > [!TIP]
 > Hebt u nog geen Microsoft Defender voor Office 365? [Neem contact op met verkoop om een proefabonnement te starten.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 

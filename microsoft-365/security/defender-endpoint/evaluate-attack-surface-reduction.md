@@ -1,5 +1,5 @@
 ---
-title: Regels voor het verlagen van het oppervlak van de aanval evalueren
+title: Regels voor het verminderen van aanvalsoppervlakken evalueren
 description: Bekijk hoe aanvalsoppervlakverkorting aanvallen zou blokkeren en voorkomen met het aangepaste demoprogramma.
 keywords: Aanvalsoppervlakverminking, hips, host intrusion prevention system, protection rules, anti-exploit, anti-exploit, exploit, infection prevention, evaluate, test, demo
 search.product: eADQiWindows 10XVcnh
@@ -8,25 +8,25 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 13b1ac5f71f2bc24ad6f52af6722e12fab935270
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 07573fd92643ce5fdf3e9140031bf5f15ae8f7aa
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060158"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570337"
 ---
-# <a name="evaluate-attack-surface-reduction-rules"></a>Regels voor het verlagen van het oppervlak van de aanval evalueren
+# <a name="evaluate-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken evalueren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
@@ -70,13 +70,13 @@ U kunt ook configuratieserviceproviders (MDM) (Group Policy, Intune) of Mobile D
 
 Als u apps wilt bekijken die zijn geblokkeerd, opent u Gebeurtenisviewer en filtert u op Gebeurtenis-id 1121 in het Microsoft-Windows-Windows Defender/Operationeel logboek. In de volgende tabel worden alle netwerkbeveiligingsgebeurtenissen vermeld.
 
-Gebeurtenis-id | Beschrijving
+Gebeurtenis-id | Omschrijving
 -|-
  5007 | Gebeurtenis wanneer instellingen worden gewijzigd
  1121 | Gebeurtenis wanneer een regel voor het verminderen van het aanvalsoppervlak wordt gebruikt in de blokmodus
  1122 | Gebeurtenis wanneer een regel voor het verminderen van het oppervlak van een aanval wordt uitgevoerd in de auditmodus
 
-## <a name="customize-attack-surface-reduction-rules"></a>Surface Reduction-regels voor aanvallen aanpassen
+## <a name="customize-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken aanpassen
 
 Tijdens de evaluatie kunt u elke regel afzonderlijk configureren of bepaalde bestanden en processen uitsluiten van de evaluatie door de functie.
 
@@ -86,4 +86,4 @@ Zie [Attack Surface Reduction Rules aanpassen](customize-attack-surface-reductio
 
 * [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
 * [Auditmodus gebruiken om Windows Defender te evalueren](audit-windows-defender.md)
-* [Veelgestelde vragen over surface reduction attack](attack-surface-reduction.md)
+* [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)

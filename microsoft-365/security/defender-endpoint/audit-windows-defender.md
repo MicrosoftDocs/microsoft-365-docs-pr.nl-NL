@@ -9,24 +9,24 @@ ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: dda0e58e587add2693f8448dd0833ce17706786c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7ce652d58be2d9ff28d82c088d5471a7bffdf6dc
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059938"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570970"
 ---
 # <a name="test-how-microsoft-defender-for-endpoint-features-work-in-audit-mode"></a>Test hoe Microsoft Defender voor eindpuntfuncties werken in de auditmodus
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -47,14 +47,14 @@ U kunt group policy, PowerShell en configuration service providers (CSP's) gebru
 
  **Controleopties** | **Controlemodus inschakelen** | **Gebeurtenissen weergeven**
 |---------|---------|---------|
-| Controle is van toepassing op alle gebeurtenissen | [Gecontroleerde maptoegang inschakelen](enable-controlled-folders.md) | [Gebeurtenissen voor gecontroleerde maptoegang](evaluate-controlled-folder-access.md#review-controlled-folder-access-events-in-windows-event-viewer)
-| Controle is van toepassing op afzonderlijke regels | [Regels voor het verlagen van de surface voor aanvallen inschakelen](enable-attack-surface-reduction.md) | [Regelgebeurtenissen voor surface reduction attack](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)
+| Controle is van toepassing op alle gebeurtenissen | [Beheerde maptoegang inschakelen](enable-controlled-folders.md) | [Gebeurtenissen voor gecontroleerde maptoegang](evaluate-controlled-folder-access.md#review-controlled-folder-access-events-in-windows-event-viewer)
+| Controle is van toepassing op afzonderlijke regels | [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md) | [Regelgebeurtenissen voor surface reduction attack](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)
 | Controle is van toepassing op alle gebeurtenissen | [Netwerkbeveiliging inschakelen](enable-network-protection.md) | [Netwerkbeveiligingsgebeurtenissen](evaluate-network-protection.md#review-network-protection-events-in-windows-event-viewer)
-| Controle is van toepassing op afzonderlijke risico's | [Exploitbeveiliging inschakelen](enable-exploit-protection.md) | [Beveiligingsgebeurtenissen misbruiken](exploit-protection.md#review-exploit-protection-events-in-windows-event-viewer)
+| Controle is van toepassing op afzonderlijke risico's | [Bescherming tegen misbruik inschakelen](enable-exploit-protection.md) | [Beveiligingsgebeurtenissen misbruiken](exploit-protection.md#review-exploit-protection-events-in-windows-event-viewer)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-* [Apparaten beveiligen tegen exploits](exploit-protection.md)
+* [Apparaten beschermen tegen misbruik](exploit-protection.md)
 * [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
-* [Uw netwerk beveiligen](network-protection.md)
+* [Beveilig uw netwerk](network-protection.md)
 * [Belangrijke mappen beveiligen](controlled-folders.md)

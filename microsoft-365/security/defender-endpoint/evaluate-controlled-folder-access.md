@@ -8,24 +8,24 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e965e1a882dadfb565231074165507a6727b45c1
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: f996a8fdaf630c8ea389ac9648369cc955a6e95d
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218746"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569903"
 ---
 # <a name="evaluate-controlled-folder-access"></a>Beheerde maptoegang evalueren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
@@ -76,5 +76,5 @@ Zie [Belangrijke mappen beveiligen](controlled-folders.md) met beheerde maptoega
 ## <a name="see-also"></a>Zie ook
 
 * [Belangrijke mappen beveiligen met gecontroleerde maptoegang](controlled-folders.md)
-* [Microsoft Defender voor eindpunt evalueren](evaluate-mde.md)
+* [Microsoft Defender voor Eindpunt evalueren](evaluate-mde.md)
 * [Controlemodus gebruiken](audit-windows-defender.md)

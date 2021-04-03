@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 0338e87c103bef0f12a45277a14152ef429d0067
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3aa964f8e213d64f583738d8957899c1b7b5146c
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060417"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501089"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Proactief op bedreigingen zoeken met geavanceerde jacht in Microsoft 365 Defender
 
@@ -36,7 +36,7 @@ ms.locfileid: "51060417"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](m365d-pilot.md?ocid=cx-evalpilot)
+> Wilt u Microsoft 365 Defender ervaren? U kunt het [evalueren in een testomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of [uw pilotproject uitvoeren in een productieomgeving](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
 Geavanceerd zoeken is een op query's gebaseerd hulpprogramma voor bedreigingsjacht waarmee u tot 30 dagen onbewerkte gegevens kunt verkennen. U kunt gebeurtenissen in uw netwerk proactief controleren om bedreigingsindicatoren en entiteiten te zoeken. De flexibele toegang tot gegevens maakt ongeconseld zoeken naar bekende en potentiële bedreigingen mogelijk.
@@ -48,7 +48,7 @@ U kunt dezelfde query's voor het zoeken naar bedreigingen gebruiken om aangepast
 
 Deze mogelijkheid is vergelijkbaar met [geavanceerde jacht in Microsoft Defender voor eindpunt.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Deze functie is beschikbaar in het Microsoft 365-beveiligingscentrum en ondersteunt query's die een bredere gegevensset controleren op basis van:
 
-- Microsoft Defender for Endpoint
+- Microsoft Defender voor Eindpunt
 - Microsoft Defender voor Office 365
 - Microsoft Cloud App Security
 - Microsoft Defender for Identity
@@ -59,7 +59,7 @@ Als u geavanceerde jacht wilt gebruiken, [schakelt u Microsoft 365 Defender in.]
 
 Het is raadzaam om verschillende stappen uit te voeren om snel aan de slag te gaan met geavanceerde jacht.
 
-| Leerdoel | Beschrijving | Resource |
+| Leerdoel | Omschrijving | Resource |
 |--|--|--|
 | **De taal leren** | Geavanceerd zoeken is gebaseerd op [de querytaal Kusto,](/azure/kusto/query/)die dezelfde syntaxis en operatoren ondersteunt. Begin de querytaal te leren door de eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
 | **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt bekijken of exporteren. Ontdek hoe u snel query's kunt aanpassen, kunt inzoomen om uitgebreidere informatie te krijgen en antwoordacties kunt uitvoeren. | - [Werken met queryresultaten](advanced-hunting-query-results.md)<br>- [Actie ondernemen voor queryresultaten](advanced-hunting-take-action.md) |

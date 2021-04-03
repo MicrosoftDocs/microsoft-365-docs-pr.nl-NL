@@ -1,5 +1,5 @@
 ---
-title: Gecontroleerde maptoegang inschakelen
+title: Beheerde maptoegang inschakelen
 keywords: Gecontroleerde maptoegang, windows 10, Windows Defender, ransomware, beveiligen, bestanden, mappen, inschakelen, inschakelen, gebruiken
 description: Informatie over het beveiligen van uw belangrijke bestanden door gecontroleerde maptoegang in te stellen
 search.product: eADQiWindows 10XVcnh
@@ -9,24 +9,24 @@ ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6d07e2a21bb01794990160cf02837fc524008098
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: ee87ac3bdfe88596a5f1625904af53499488f35f
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218758"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51571006"
 ---
-# <a name="enable-controlled-folder-access"></a>Gecontroleerde maptoegang inschakelen
+# <a name="enable-controlled-folder-access"></a>Beheerde maptoegang inschakelen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -141,4 +141,4 @@ Gebruik `Disabled` deze functie om de functie uit te schakelen.
 
 * [Belangrijke mappen beveiligen met gecontroleerde maptoegang](controlled-folders.md)
 * [Beheerde maptoegang aanpassen](customize-controlled-folders.md)
-* [Microsoft Defender voor eindpunt evalueren](evaluate-mde.md)
+* [Microsoft Defender voor Eindpunt evalueren](evaluate-mde.md)

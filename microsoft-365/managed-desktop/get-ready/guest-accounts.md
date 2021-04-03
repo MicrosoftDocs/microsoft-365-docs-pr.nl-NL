@@ -1,6 +1,6 @@
 ---
-title: Vereisten voor gastaccounts
-description: Configuratie richtlijnen voor gastaccounts en hoe u deze kunt aanpassen
+title: Vereisten voor gast-accounts
+description: Configuratierichtlijnen voor gastaccounts en hoe u deze kunt aanpassen
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,22 +9,34 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d8953e9f451daa02671a1e1544f2dfe6649ab1b3
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+audience: Admin
+ms.openlocfilehash: bbf679a01716fc48d37b241d69740f50a985f048
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073200"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574605"
 ---
-# <a name="prerequisites-for-guest-accounts"></a>Vereisten voor gastaccounts
+# <a name="prerequisites-for-guest-accounts"></a>Vereisten voor gast-accounts
 
-Voor het Microsoft-beheer bureaublad zijn de volgende instellingen nodig in de Azure AD-organisatie voor toegang tot een gastaccount. U kunt deze instellingen wijzigen bij [Azure Portal](https://portal.azure.com) onder **externe identiteiten/extern samenwerken** :
+Microsoft Managed Desktop vereist de volgende instellingen in uw Azure AD-organisatie voor toegang tot gastaccounts. U kunt deze instellingen aanpassen in de [Azure-portal](https://portal.azure.com) onder **Externe identiteiten / Externe samenwerking:**
 
--   **Beheerders en gebruikers in de rol van gast invite kunnen de set uitnodigen** op **Ja**
--   Kies voor **samenwerkings beperkingen** een van deze opties:
-    -   Als u **uitnodigingen toestaan selecteert voor het verzenden van een domein (meestal)** , hoeft u geen andere configuratie uit te schakelen.
-    -   Als u **uitnodigingen voor de opgegeven domeinen weigeren** selecteert, controleert u of Microsoft.com niet wordt vermeld in de doeldomeinen.
-    -   Als u **alleen uitnodigingen toestaan selecteert voor de opgegeven domeinen (de meeste beperkingen)** , controleert u of Microsoft.com in de doeldomeinen *wordt* weergegeven.
+-   **Beheerders en gebruikers in de rol van gastvernodiger kunnen** de set uitnodigen op **Ja**
+-   Kies een van de volgende opties voor **samenwerkingsbeperkingen:**
+    -   Als u **Uitnodigingen toestaan om te worden verzonden naar** een domein (inclusief) selecteert, is er geen andere configuratie vereist.
+    -   Als u **Uitnodigingen weigeren voor** de opgegeven domeinen selecteert, moet u ervoor zorgen dat Microsoft.com niet wordt weergegeven in de doeldomeinen.
+    -   Als u Uitnodigingen alleen toestaan voor de opgegeven domeinen **(meest beperkende)** selecteert, moet u ervoor zorgen dat Microsoft.com wordt weergegeven in de doeldomeinen. 
 
-Als u beperkingen instelt voor de instellingen van deze instellingen, moet u ervoor zorgen dat de service accounts van Azure Active Directory voor de **moderne werkplek** worden uitgesloten. Als u bijvoorbeeld een beleid voor voorwaardelijke toegang hebt om te voorkomen dat gastaccounts toegang krijgen tot de intune-Portal, moet u de groep **service accounts van modern werk** stroom uitsluiten van dit beleid.
+Als u beperkingen in stelt die met deze instellingen werken, moet u de Serviceaccounts voor moderne werkplekken van Azure Active Directory **uitsluiten.** Als u bijvoorbeeld een beleid voor voorwaardelijke toegang hebt dat verhindert dat gastaccounts toegang krijgen tot de Intune-portal, sluit u de groep Moderne **werkplekserviceaccounts** uit van dit beleid.
 
+## <a name="steps-to-get-ready"></a>Stappen om u klaar te maken
+
+1. Controleer [vereisten voor Microsoft Managed Desktop](prerequisites.md).
+2. Gebruik [gereedheidsbeoordelingshulpmiddelen.](readiness-assessment-tool.md)
+3. [Vereisten voor gastaccounts](guest-accounts.md) (Dit artikel)
+4. [Netwerkconfiguratie voor Microsoft Managed Desktop](network.md)
+5. [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](certs-wifi-lan.md)
+6. [Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop](authentication.md)
+7. [Apps in Microsoft Managed Desktop](apps.md)
+8. [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
+9. [Printbronnen voorbereiden voor Microsoft Managed Desktop](printing.md)

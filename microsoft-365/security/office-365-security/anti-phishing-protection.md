@@ -21,12 +21,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de anti-phishingbeveiligingsfuncties in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b0ca7a83e8e8d66bd58fddfc46f53df32f4f623c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: a100e28ddee1629b2fe35e28742a43b891d13e57
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204894"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570610"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Anti-phishingbeveiliging in Microsoft 365
 
@@ -43,7 +43,7 @@ ms.locfileid: "51204894"
 
 - **Whaling** is gericht op leidinggevenden of andere doelen met een hoge waarde binnen een organisatie voor een maximaal effect.
 
-- Zakelijke e-mailcompromitteerden **(BEC)** gebruikt vervalste vertrouwde afzenders (financiële verantwoordelijken, klanten, vertrouwde partners, enzovoort) om geadresseerden te verleiden tot het goedkeuren van betalingen, het overmaken van tegoeden of het onthullen van klantgegevens.
+- Zakelijke e-mailcompromitteerden **(BEC)** gebruikt vervalste vertrouwde afzenders (financiële verantwoordelijken, klanten, vertrouwde partners, enzovoort) om geadresseerden te verleiden tot het goedkeuren van betalingen, het overmaken van tegoeden of het onthullen van klantgegevens. Bekijk deze [video voor meer informatie.](https://www.youtube.com/watch?v=8Kn31h9HwIQ&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=2)
 
 - **Ransomware** die uw gegevens versleutelt en betaling vereist om deze te ontsleutelen, begint bijna altijd in phishingberichten. Anti-phishingbeveiliging kan u niet helpen versleutelde bestanden te ontsleutelen, maar kan wel helpen bij het opsporen van de eerste phishingberichten die zijn gekoppeld aan de ransomware-campagne. Zie Herstellen van een [ransomware-aanval in Microsoft 365](recover-from-ransomware.md)voor meer informatie over het herstellen van een ransomware-aanval.
 

@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: dd25d021d04dc5e8a831e327fedb16d28e32b32a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7086108febc25c4ecaaa3015c1d9a49f9d8ee642
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060397"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500920"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Werken met geavanceerde resultaten van query's
 
@@ -47,7 +47,7 @@ Hoewel u geavanceerde [](advanced-hunting-overview.md) zoekquery's kunt maken om
 ## <a name="view-query-results-as-a-table-or-chart"></a>Queryresultaten weergeven als een tabel of grafiek
 Standaard worden queryresultaten in geavanceerde query's weergegeven als tabelgegevens. U kunt ook dezelfde gegevens als een grafiek weergeven. Geavanceerde jacht ondersteunt de volgende weergaven:
 
-| Weergavetype | Beschrijving |
+| Weergavetype | Omschrijving |
 | -- | -- |
 | **Tabel** | Geeft de queryresultaten weer in tabelvorm |
 | **Kolomdiagram** | Geeft een reeks unieke items op de x-as weer als verticale balken waarvan de hoogten numerieke waarden uit een ander veld vertegenwoordigen |

@@ -1,8 +1,8 @@
 ---
-title: Microsoft Defender ATP voor Mac
+title: Microsoft Defender voor Eindpunt voor Mac
 ms.reviewer: ''
 description: Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt voor Mac.
-keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, big sur, catalina, mojave
+keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, big sur, catalina, mojave, mde voor mac
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34150088379445d66006c757b2c8ea607865bf4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 22d35a42eb7fb7eadbba686c292729772951c05c
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198991"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500690"
 ---
 # <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender voor Eindpunt voor Mac
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -39,11 +39,11 @@ ms.locfileid: "51198991"
 In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt voor Mac kunt installeren, configureren, bijwerken en gebruiken.
 
 > [!CAUTION]
-> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Defender voor Eindpunt voor Mac kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u nog steeds veilig profiteren van MDATP voor Mac EDR-functionaliteit na het configureren van de antivirusfunctionaliteit van MDATP voor Mac om in de passieve modus uit te [voeren.](mac-preferences.md#enable--disable-passive-mode)
+> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt voor Mac kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u nog steeds veilig profiteren van de EDR-functionaliteit van Defender voor Endpoint voor Mac nadat u de antivirusfunctionaliteit hebt geconfigureerd voor gebruik in de passieve [modus.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>Nieuwe functies in de nieuwste release
 
-[Nieuwe functies in Microsoft Defender voor Eindpunt](whats-new-in-microsoft-defender-atp.md)
+[Wat is er nieuw in Microsoft Defender voor Eindpunt](whats-new-in-microsoft-defender-atp.md)
 
 [Nieuwe functies in Microsoft Defender voor Eindpunt voor Mac](mac-whatsnew.md)
 
@@ -65,7 +65,7 @@ Als u de nieuwste functies wilt downloaden, waaronder preview-mogelijkheden (zoa
 Er zijn verschillende methoden en implementatiehulpmiddelen waarmee u Defender voor Eindpunt voor Mac kunt installeren en configureren.
 
 - Beheerhulpmiddelen van derden:
-    - [Microsoft Intune-implementatie](mac-install-with-intune.md)
+    - [Implementatie op basis van Microsoft Intune](mac-install-with-intune.md)
     - [IMPLEMENTATIE OP BASIS VAN JAMF](mac-install-with-jamf.md)
     - [Andere MDM-producten](mac-install-with-other-mdm.md)
 
