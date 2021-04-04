@@ -710,6 +710,8 @@
               href: download-documents-from-review-set.md
             - name: Documenten exporteren vanuit een controleset
               href: export-documents-from-review-set.md
+            - name: Documenten exporteren naar een Azure Storage-account
+              href: download-export-jobs.md
         - name: Taken beheren
           href: managing-jobs-ediscovery20.md
         - name: Case-instellingen configureren
