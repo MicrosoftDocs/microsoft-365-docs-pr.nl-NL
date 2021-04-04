@@ -57,23 +57,6 @@
       items:
         - name: Vereisten voor Microsoft Managed Desktop
           href: get-ready/prerequisites.md
-        - name: Netwerk voorbereiden
-          href: get-ready/network.md
-        - name: Toegang tot on-premises bronnen voorbereiden
-          href: get-ready/authentication.md
-        - name: Toegewezen stations voorbereiden
-          href: get-ready/mapped-drives.md
-        - name: Certificaten en netwerkprofielen voorbereiden
-          href: get-ready/certs-wifi-lan.md
-        - name: Vereisten voor gast-accounts
-          href: get-ready/guest-accounts.md
-        - name: Printbronnen voorbereiden
-          href: get-ready/printing.md
-        - name: Apps voorbereiden
-          href: get-ready/apps.md
-          items:
-            - name: Werken met Microsoft Consulting Services
-              href: get-ready/apps-MCS.md
         - name: Hulpprogramma's voor gereedheidsevaluatie gebruiken
           href: get-ready/readiness-assessment-tool.md
           items:
@@ -81,6 +64,23 @@
               href: get-ready/readiness-assessment-fix.md
             - name: Downloadbare gereedheidsevaluatie-controle
               href: get-ready/readiness-assessment-downloadable.md
+        - name: Vereisten voor gast-accounts
+          href: get-ready/guest-accounts.md
+        - name: Netwerk voorbereiden
+          href: get-ready/network.md
+        - name: Certificaten en netwerkprofielen voorbereiden
+          href: get-ready/certs-wifi-lan.md
+        - name: Toegang tot on-premises-bronnen voorbereiden
+          href: get-ready/authentication.md
+        - name: Apps voorbereiden
+          href: get-ready/apps.md
+          items:
+            - name: Werken met Microsoft Consulting Services
+              href: get-ready/apps-MCS.md
+        - name: Toegewezen stations voorbereiden
+          href: get-ready/mapped-drives.md
+        - name: Afdrukbronnen voorbereiden
+          href: get-ready/printing.md
     - name: Aan de slag met Microsoft Managed Desktop
       href: get-started/index.md
       items:
