@@ -15,22 +15,21 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea6beba2d17b72f100703d26dd4106d0537c6fa6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a72b742d8f4a69d2e38cf4fa234ba5b7e2961ac6
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058074"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587609"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Nieuwe functies in Microsoft Defender voor Eindpunt
+# <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Wat is er nieuw in Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
@@ -134,20 +133,20 @@ Zie Preview-functies voor meer informatie over [preview-functies.](https://docs.
 ## <a name="april-2019"></a>April 2019
 - [Microsoft Threat Experts Targeted Attack Notification capability](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts#targeted-attack-notification) <BR> De waarschuwingen voor gerichte aanvalsmeldingen van Microsoft Threat Experts zijn afgestemd op organisaties om zo veel mogelijk informatie te verstrekken die snel kan worden bezorgd, zodat de aandacht wordt besteed aan kritieke bedreigingen in hun netwerk, zoals de tijdlijn, het bereik van inbreuken en de methoden voor indringing.
 
-- [Microsoft Defender voor Endpoint API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro) <BR> In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van Microsoft Defender voor endpoint-mogelijkheden. 
+- [API voor Microsoft Defender voor Eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro) <BR> In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van Microsoft Defender voor endpoint-mogelijkheden. 
 
 
 
 ## <a name="february-2019"></a>Februari 2019
 - [Incidenten](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/incidents-queue) <BR> Incident is een nieuwe entiteit in Microsoft Defender voor Eindpunt die alle relevante waarschuwingen en verwante entiteiten samen brengt om het bredere aanvalsverhaal te vertellen, waardoor analisten beter perspectief krijgen op het gebruik van complexe bedreigingen. 
 
-- [Eerdere versies van Windows aan boord](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> Ondersteunde versies van Windows-apparaten aan boord zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender for Endpoint-sensor.
+- [Onboarden eerdere versies van Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> Ondersteunde versies van Windows-apparaten aan boord zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender for Endpoint-sensor.
 
 
 ## <a name="october-2018"></a>Oktober 2018
-- [Surface Reduction-regels voor aanvallen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>Alle Surface-beperkingsregels voor Aanvallen worden nu ondersteund op Windows Server 2019.
+- [Regels voor het verminderen van kwetsbaarheid voor aanvallen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>Alle Surface-beperkingsregels voor Aanvallen worden nu ondersteund op Windows Server 2019.
 
-- [Gecontroleerde maptoegang](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR> Gecontroleerde maptoegang wordt nu ondersteund op Windows Server 2019.
+- [Beheerde maptoegang](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR> Gecontroleerde maptoegang wordt nu ondersteund op Windows Server 2019.
 
 - [Aangepaste detectie](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-custom-detections)<BR>Met aangepaste detecties kunt u aangepaste query's maken om gebeurtenissen te controleren op elk type gedrag, zoals verdachte of nieuwe bedreigingen. U kunt dit doen door gebruik te maken van de kracht van geavanceerd zoeken door aangepaste detectieregels te maken. 
 
@@ -174,10 +173,10 @@ Threat Analytics is een reeks interactieve rapporten die zijn gepubliceerd door 
 
   
 ## <a name="march-2018"></a>Maart 2018
-- [Geavanceerd jagen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) <BR>
+- [Geavanceerd opsporen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) <BR>
 Querygegevens met behulp van geavanceerde zoekopdrachten in Microsoft Defender voor Eindpunt.
 
-- [Surface Reduction-regels voor aanvallen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
+- [Regels voor het verminderen van kwetsbaarheid voor aanvallen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
     Nieuwe regels voor de beperking van het oppervlak van de aanval: 
   - Geavanceerde beveiliging tegen ransomware gebruiken
   - Referenties van het windows-subsysteem van de lokale beveiligingsinstantie blokkeren (lsass.exe)
@@ -195,10 +194,10 @@ Querygegevens met behulp van geavanceerde zoekopdrachten in Microsoft Defender v
 - [Microsoft Defender voor Endpoint Community center](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/community-windows-defender-advanced-threat-protection)<BR> 
     Het Microsoft Defender for Endpoint Community Center is een plek waar communityleden kunnen leren, samenwerken en ervaringen over het product kunnen delen. 
 
-- [Gecontroleerde maptoegang](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR>
+- [Beheerde maptoegang](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR>
 U kunt nu blokkeren dat niet-vertrouwde processen worden geschreven naar schijfsectoren met Gecontroleerde maptoegang.
 
-- [Onboard niet-Windows-apparaten](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
+- [Onboarden niet-Windows-apparaten](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
     Microsoft Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows-platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in het Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen.
 
 - [Toegangsbeheer op basis van rollen (RBAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)<BR>

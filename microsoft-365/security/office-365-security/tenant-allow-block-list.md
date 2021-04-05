@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het configureren van toestaan en blokkeren in de lijst Tenant toestaan/blokkeren in de beveiligingsportal.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55116ddac8fa25b63e50b7fba73f668855e2858d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 103ddc9aa0858f9203582ac07a655fd7f5506cf3
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204618"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587585"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Tenant Toestaan/Blokkeren-lijst beheren
 
@@ -33,9 +33,6 @@ ms.locfileid: "51204618"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
->
-> De functies die in dit artikel worden beschreven, zijn in Preview, kunnen worden gewijzigd en zijn niet beschikbaar in alle organisaties.
->
 > U kunt op dit **moment geen toegestane** items configureren in de lijst Tenant toestaan/blokkeren.
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, bent u het mogelijk niet eens met de uitspraak over EOP-filtering. Een goed bericht kan bijvoorbeeld worden gemarkeerd als slecht (een onwaar positief) of een slecht bericht kan worden toegestaan (een onwaar negatief).

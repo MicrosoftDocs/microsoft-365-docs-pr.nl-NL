@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 484869535c466435ab997f32bf858dd1ad52c841
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f5e9c237f53351df0249f0a12d08b8ba61572f7e
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187491"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587081"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-for-linux"></a>Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt voor Linux
 
@@ -31,7 +30,7 @@ ms.locfileid: "51187491"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -64,7 +63,7 @@ Proces | Een specifiek proces (opgegeven door het volledige pad of de bestandsna
 
 Bestands-, map- en procesuitsluitingen ondersteunen de volgende jokertekens:
 
-Jokerteken | Beschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
+Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 ---|---|---|---|---
 \* |    Komt overeen met een aantal tekens, inclusief geen tekens (houd er rekening mee dat wanneer dit jokerteken binnen een pad wordt gebruikt, dit slechts één map vervangt) | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
 ? | Komt overeen met een enkel teken | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`

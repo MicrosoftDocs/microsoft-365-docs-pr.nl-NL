@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP configureren voor iOS-functies
+title: Microsoft Defender configureren voor endpoint voor iOS-functies
 description: Beschrijft hoe u MICROSOFT Defender ATP voor iOS-functies implementeert
 keywords: microsoft, defender, atp, ios, configureren, functies, ios
 search.product: eADQiWindows 10XVcnh
@@ -15,22 +15,21 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 18fbc13614753ae57856a124d76bbad682ab88e5
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 8f74d4799bcb02051cddd09b80ed6ab50258302b
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379353"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587225"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-for-ios-features"></a>Microsoft Defender configureren voor endpoint voor iOS-functies
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 

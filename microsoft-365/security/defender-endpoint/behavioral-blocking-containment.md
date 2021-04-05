@@ -1,6 +1,6 @@
 ---
-title: Gedrag blokkeren en insluiting
-description: Meer informatie over mogelijkheden voor het blokkeren en inperking van gedrag in Microsoft Defender ATP
+title: Gedragsblokkering en -insluiting
+description: Meer informatie over mogelijkheden voor het blokkeren en inperking van gedrag in Microsoft Defender voor Eindpunt
 keywords: Microsoft Defender ATP, EDR in blokmodus, passieve modus blokkeren
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -19,19 +19,19 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: dcad3b7233f2efd444d41c15916eaae195634c8c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7cea65292c427cb953e2e8e3ca866c89f83128b1
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166231"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587165"
 ---
-# <a name="behavioral-blocking-and-containment"></a>Gedrag blokkeren en insluiting
+# <a name="behavioral-blocking-and-containment"></a>Gedragsblokkering en -insluiting
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -42,7 +42,7 @@ Het huidige bedreigingslandschap wordt overlopen door bestandsloze [malware](htt
 
 Mogelijkheden voor het blokkeren en inperken van gedrag kunnen helpen bij het identificeren en stoppen van bedreigingen, op basis van hun gedrag en procesbomen, zelfs wanneer de bedreiging is gestart met de uitvoering. De volgende generatie beveiliging, EDR en Defender for Endpoint-onderdelen en -functies werken samen in de mogelijkheden voor het blokkeren en inperking van gedrag. 
 
-:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="Gedrag blokkeren en insluiting":::
+:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="Gedragsblokkering en -insluiting":::
 
 Functies voor het blokkeren en inperken van gedrag werken met meerdere onderdelen en functies van Defender voor Eindpunt om aanvallen onmiddellijk te stoppen en te voorkomen dat er aanvallen worden uitgevoerd.
 

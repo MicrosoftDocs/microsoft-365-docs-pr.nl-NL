@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP voor Android implementeren met Microsoft Intune
-description: Beschrijft hoe u MICROSOFT Defender ATP voor Android implementeert met Microsoft Intune
-keywords: microsoft, defender, atp, android, installatie, implementeren, verwijderen,
+title: Microsoft Defender voor Eindpunt voor Android implementeren via Microsoft Intune
+description: Beschrijft hoe u Microsoft Defender voor Eindpunt voor Android implementeert met Microsoft Intune
+keywords: microsoft, defender, atp, mde, android, installatie, implementeren, verwijderen,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -15,22 +15,21 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e557f60346b2f68354df621b6e4812eac775d812
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: fdfc6e63945e15ce2d1f1a293c377f641eeb9bc4
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165667"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587693"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Microsoft Defender voor Eindpunt voor Android implementeren met Microsoft Intune 
+# <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Microsoft Defender voor Eindpunt voor Android implementeren via Microsoft Intune 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -261,5 +260,5 @@ Selecteer **Maken**.
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Overzicht van Microsoft Defender voor Eindpunt voor Android](microsoft-defender-endpoint-android.md)
-- [Microsoft Defender voor endpoint voor Android-functies configureren](android-configure.md)
+- [Overzicht van Microsoft Defender voor Eindpunt voor Android](microsoft-defender-endpoint-android.md)
+- [Microsoft Defender voor Eindpunt voor Android-functies configureren](android-configure.md)

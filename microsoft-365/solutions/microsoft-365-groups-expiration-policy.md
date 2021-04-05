@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Meer informatie over het verloopbeleid voor Microsoft 365-groepen.
-ms.openlocfilehash: 65a746751cd523a5dadce3eca573e6a9bfce0166
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: fdef06918ec2c35547c084e5f431aa7bef8d6a8c
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052300"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587621"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Verloopbeleid voor Microsoft 365-groep
 
@@ -63,7 +63,7 @@ De levensduur van de groep wordt opgegeven in dagen en kan worden ingesteld op 1
 
 Als de groep geen eigenaar heeft, gaan de verlopende e-mailberichten naar de opgegeven beheerder.
 
-U kunt het beleid instellen voor al uw groepen, alleen geselecteerde groepen, of het volledig uitschakelen door Geen **te selecteren.** Op dit moment kunt u niet verschillende beleidsregels voor verschillende groepen hebben.
+U kunt het beleid instellen voor al uw groepen, alleen geselecteerde groepen (maximaal 500) of volledig uitschakelen door **Geen te selecteren.** Op dit moment kunt u niet verschillende beleidsregels voor verschillende groepen hebben.
 
 ![Schermafbeelding van instellingen voor het verlopen van groepen in Azure Active Directory](../media/azure-groups-expiration-settings.png)
 

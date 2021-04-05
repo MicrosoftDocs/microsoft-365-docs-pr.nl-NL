@@ -1,5 +1,5 @@
 ---
-title: Apparaten onderzoeken in de lijst Defender voor Endpoint Defender ATP-apparaten
+title: Apparaten onderzoeken in de lijst Defender voor eindpuntapparaten
 description: Onderzoek getroffen apparaten door waarschuwingen, netwerkverbindingsgegevens, apparaatlabels en groepen toe te voegen en de servicetoestand te controleren.
 keywords: apparaten, tags, groepen, eindpunt, waarschuwingenwachtrij, waarschuwingen, apparaatnaam, domein, laatst gezien, intern IP, actieve waarschuwingen, bedreigingscategorie, filter, sorteren, waarschuwingen controleren, netwerk, verbinding, type, wachtwoord stealer, ransomware, exploit, bedreiging, lage ernst, service health
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8f5415b6337d21b780a75a192a565078a6cacc06
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 154ecd66399b031ef2e60eef16227bb9bc2f8785
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185729"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587717"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Apparaten onderzoeken in de lijst Microsoft Defender voor eindpuntapparaten
 
@@ -31,7 +31,7 @@ ms.locfileid: "51185729"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatemachines-abovefoldlink)
@@ -43,9 +43,9 @@ Onderzoek de details van een waarschuwing die op een specifiek apparaat wordt op
 
 U kunt op getroffen apparaten klikken wanneer u ze in de portal ziet om een gedetailleerd rapport over dat apparaat te openen. Getroffen apparaten worden in de volgende gebieden geïdentificeerd:
 
-- [Lijst apparaten](investigate-machines.md)
+- [Lijst met apparaten](investigate-machines.md)
 - [Waarschuwingenwachtrij](alerts-queue.md)
-- [Dashboard Beveiligingsbewerkingen](security-operations-dashboard.md)
+- [Dashboard beveiligingsbewerkingen](security-operations-dashboard.md)
 - Elke afzonderlijke waarschuwing
 - Weergave van afzonderlijke bestandsdetails
 - Een ip-adres- of domeindetailweergave
@@ -69,12 +69,12 @@ Antwoordacties worden uitgevoerd boven aan een specifieke apparaatpagina en beva
 
 - Tags beheren
 - Apparaat isoleren
-- De uitvoering van apps beperken
+- Het uitvoeren van apps beperken
 - Antivirusscan uitvoeren
 - Onderzoekspakket verzamelen
 - Live-antwoordsessie starten
 - Geautomatiseerd onderzoek starten
-- Een bedreigingsexpert raadplegen
+- Contact opnemen met een risicodeskundige
 - Actiecentrum
 
 U kunt antwoordacties uitvoeren in het actiecentrum, op een specifieke apparaatpagina of op een specifieke bestandspagina.
@@ -151,7 +151,7 @@ Als u de gebeurtenis en gerelateerde gebeurtenissen verder wilt controleren, kun
 
 ![Afbeelding van het tabblad Beveiligingsaanbevelingen](images/security-recommendations-device.png)
 
-### <a name="software-inventory"></a>Softwarevoorraad
+### <a name="software-inventory"></a>Software-inventaris
 
 Op **het tabblad Softwarevoorraad** kunt u software op het apparaat bekijken, samen met eventuele zwakke punten of bedreigingen. Als u de naam van de software selecteert, gaat u naar de pagina met softwaredetails waar u beveiligingsaanbevelingen, gevonden beveiligingsproblemen, geïnstalleerde apparaten en versiedistributie kunt bekijken. Zie [Softwarevoorraad voor](tvm-software-inventory.md) meer informatie
 
@@ -201,4 +201,4 @@ De **kaart Beveiligingsbeoordelingen** toont het algehele blootstellingsniveau, 
 - [Een domein onderzoeken dat is gekoppeld aan een waarschuwing van Defender voor eindpunt](investigate-domain.md)
 - [Een gebruikersaccount onderzoeken in Defender voor Eindpunt](investigate-user.md)
 - [Beveiligingsaanbeveling](tvm-security-recommendation.md)
-- [Softwarevoorraad](tvm-software-inventory.md)
+- [Software-inventaris](tvm-software-inventory.md)

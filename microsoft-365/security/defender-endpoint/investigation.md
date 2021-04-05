@@ -1,6 +1,6 @@
 ---
 title: Onderzoeksresourcetype
-description: Microsoft Defender ATP Investigation-entiteit.
+description: Microsoft Defender voor de entiteit Endpoint Investigation.
 keywords: api's, graph api, ondersteunde api's, get, waarschuwingen, onderzoeken
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -17,19 +17,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 36adf0fa5c0de79fe0616f1216118a98ba2005a4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 3872976717a5b472ab8d471db7eff9975dbc2258
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187126"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587681"
 ---
 # <a name="investigation-resource-type"></a>Onderzoeksresourcetype
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -42,7 +42,7 @@ Vertegenwoordig een entiteit geautomatiseerd onderzoek in Defender voor Eindpunt
 <br> Zie [Overzicht van geautomatiseerde onderzoeken voor](automated-investigations.md) meer informatie.
 
 ## <a name="methods"></a>Methoden
-Methode|Retourtype |Beschrijving
+Methode|Retourtype |Omschrijving
 :---|:---|:---
 [Lijstonderzoeken](get-investigation-collection.md) | Onderzoeksverzameling | Verzameling van onderzoek ophalen
 [Eén onderzoek krijgen](get-investigation-object.md) | Onderzoeksentiteit | Krijgt één onderzoeksentiteit.
@@ -50,7 +50,7 @@ Methode|Retourtype |Beschrijving
 
 
 ## <a name="properties"></a>Eigenschappen
-Eigenschap |  Type    |   Beschrijving
+Eigenschap |  Type    |   Omschrijving
 :---|:---|:---
 id | Tekenreeks | Identiteit van de onderzoeksentiteit. 
 startTime | DateTime Nullable | De datum en tijd waarop het onderzoek is gemaakt. 

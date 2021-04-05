@@ -13,19 +13,41 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 9176bfbbd015243266ba1c8cbad9d04787f6a6cc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5e57f21690372b16c86a65fcfe4d00cb5c907391
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909248"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587525"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Geschiedenis voor Microsoft Managed Desktop-documentatie wijzigen
 
 In dit artikel vindt u een overzicht van nieuwe en bijgewerkte artikelen in de [documentatie van Microsoft Managed Desktop.](index.yml) 'Bijgewerkte' artikelen bevatten materiaal toevoegingen of correcties. Kleine correcties, zoals correctie van typfouten, stijl- of opmaakproblemen, worden niet weergegeven. U kunt altijd de geschiedenis van specifieke commits (inclusief details van eventuele wijzigingen) bekijken door naar de [repo op GitHub te gaan.](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)
 
+## <a name="march-2021"></a>Maart 2021
+Nieuw of gewijzigd artikel | Omschrijving
+--- | ---
+[Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkt artikel
+[First-Run-ervaring met de pagina AutoPilot en Inschrijvingsstatus](get-started/esp-first-run.md) | Bijgewerkt artikel
+[Windows 10 locatieservice](get-started/device-location.md) | Nieuw artikel
+[Afbeeldingen van apparaten](service-description/device-images.md) | Nieuw artikel
+[Ondersteunde regio's voor Microsoft Managed Desktop](service-description/regions-languages.md) | Bijgewerkt artikel
+[De gebruikerservaring lokaliseren](get-started/localization.md) | Nieuw artikel
+
+## <a name="february-2021"></a>Februari 2021
+Nieuw of gewijzigd artikel | Omschrijving
+--- | ---
+[Toegang tot de beheerportal](get-started/access-admin-portal.md) | Bijgewerkt artikel
+[Technologieën in Microsoft Managed Desktop](intro/technologies.md) | Bijgewerkt artikel
+[Apparaatvereisten](service-description/device-requirements.md) | Bijgewerkt artikel
+[Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden](get-ready/readiness-assessment-fix.md) | Bijgewerkt artikel
+[Microsoft OneDrive](get-started/onedrive.md) | Nieuw artikel
+[Compliance](intro/compliance.md) | Bijgewerkt
+[Microsoft 365-apps voor ondernemingen](get-started/m365-apps.md) | Bijgewerkt artikel
+[Gereedheidsbeoordelingshulpmiddelen](get-ready/readiness-assessment-tool.md) | Bijgewerkt artikel
+
 ## <a name="january-2021"></a>Januari 2021
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden](get-ready/readiness-assessment-fix.md) | Bijgewerkt artikel
 [Instellingen aanpassen na inschrijving](get-started/conditional-access.md) | Bijgewerkt artikel
@@ -38,7 +60,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="december-2020"></a>December 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Wat is Microsoft Managed Desktop?](./intro/index.md) | Bijgewerkt artikel
 [Werken met rapporten](working-with-managed-desktop/reports.md) | Bijgewerkt artikel
@@ -49,7 +71,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="november-2020"></a>November 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden](get-ready/readiness-assessment-fix.md) | Bijgewerkt artikel
 [Gereedheidsbeoordelingshulpmiddel](get-ready/readiness-assessment-tool.md) | Nieuw artikel
@@ -61,7 +83,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="october-2020"></a>Oktober 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Vereisten](get-ready/prerequisites.md) | Bijgewerkt artikel
 [Werken met inzichten](working-with-managed-desktop/insights.md) | Bijgewerkt artikel
@@ -72,7 +94,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="september-2020"></a>September 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Privacy en persoonlijke gegevens](service-description/privacy-personal-data.md) | Nieuw artikel
 [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](get-ready/mapped-drives.md) | Bijgewerkt artikel
@@ -82,7 +104,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkt artikel
 [Microsoft Teams](get-started/teams.md) | Nieuw artikel
 [Toegang tot de beheerportal](get-started/access-admin-portal.md) | Nieuw artikel
-[Printbronnen voorbereiden voor Microsoft Managed Desktop](get-ready/printing.md) | Bijgewerkt artikel
+[Afdrukbronnen voorbereiden voor Microsoft Managed Desktop](get-ready/printing.md) | Bijgewerkt artikel
 [First-Run-ervaring met de pagina AutoPilot en Inschrijvingsstatus](get-started/esp-first-run.md) | Bijgewerkt artikel
 [Nieuwe apparaten zelf registreren](get-started/register-devices-self.md) | Bijgewerkt artikel
 [Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](get-ready/certs-wifi-lan.md) | Bijgewerkt artikel
@@ -90,7 +112,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Werken met inzichten](working-with-managed-desktop/insights.md) | Bijgewerkt artikel
 
 ## <a name="august-2020"></a>Augustus 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Inventarisrapport voor apparaten](working-with-managed-desktop/device-inventory-report.md) | Nieuw artikel
 [Nieuwe Microsoft Edge-app](get-started/edge-browser-app.md) | Bijgewerkt artikel
@@ -103,7 +125,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Privacy en persoonlijke gegevens](service-description/privacy-personal-data.md) | Nieuw artikel
 
 ## <a name="july-2020"></a>Juli 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Microsoft Managed Desktop-app-vereisten](service-description/mmd-app-requirements.md) | Bijgewerkt artikel
 [Compliance](intro/compliance.md) | Bijgewerkt artikel
@@ -118,7 +140,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Microsoft Project of Microsoft Visio installeren op Microsoft Managed Desktop-apparaten](get-started/project-visio.md) | Bijgewerkt artikel
 
 ## <a name="june-2020"></a>Juni 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Nieuwe Microsoft Edge-app](get-started/edge-browser-app.md) | Nieuw artikel
 [Apparaatconfiguratie](service-description/device-policies.md) | Bijgewerkt artikel
@@ -126,7 +148,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="may-2020"></a>Mei 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
 [Stappen voor partners om apparaten te registreren](get-started/register-devices-partner.md) | Bijgewerkt artikel
@@ -138,7 +160,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="april-2020"></a>April 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Compliance](intro/compliance.md) | Nieuw artikel
 [Ondersteunde regio's en talen voor Microsoft Managed Desktop](service-description/regions-languages.md) | Bijgewerkt artikel
@@ -146,15 +168,15 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="march-2020"></a>Maart 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Stappen voor partners om apparaten te registreren](get-started/register-devices-partner.md)| Bijgewerkt artikel
 [Nieuwe apparaten zelf registreren](get-started/register-devices-self.md) | Bijgewerkt artikel
-[Printbronnen voorbereiden voor Microsoft Managed Desktop](get-ready/printing.md) | Nieuw artikel
+[Afdrukbronnen voorbereiden voor Microsoft Managed Desktop](get-ready/printing.md) | Nieuw artikel
 
 
 ## <a name="february-2020"></a>Februari 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Beveiliging in Microsoft Managed Desktop](service-description/security.md)| Bijgewerkt artikel
 [Werken met inzichten](working-with-managed-desktop/insights.md) | Bijgewerkt artikel
@@ -165,7 +187,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="january-2020"></a>Januari 2020
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Uw gebruikers voorbereiden om apparaten te gebruiken](get-started/get-started-devices.md)| Bijgewerkt artikel
 [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](get-started/add-admin-contacts.md) | Bijgewerkt artikel
@@ -173,7 +195,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="december-2019"></a>December 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkt artikel
 [Microsoft Managed Desktop-apparaten](service-description/device-list.md) | Bijgewerkt artikel
@@ -182,7 +204,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="november-2019"></a>November 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Werken met inzichten](working-with-managed-desktop/insights.md) | Nieuw artikel
 [Inzichten in gebruik](working-with-managed-desktop/usage-insights.md) | Nieuw artikel
@@ -195,7 +217,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="october-2019"></a>Oktober 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Uitzonderingen op het serviceplan](service-description/customizing.md) | Nieuw artikel
 [Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
@@ -209,7 +231,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="september-2019"></a>September 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Technologieën in Microsoft Managed Desktop](intro/technologies.md) | Bijgewerkt artikel
 [Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
@@ -223,7 +245,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Hoe updates worden verwerkt in Microsoft Managed Desktop](service-description/updates.md) | Bijgewerkt artikel
 
 ## <a name="august-2019"></a>Augustus 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Werken met Microsoft Consulting Services](get-ready/apps-mcs.md) | Bijgewerkt artikel
 [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkt artikel
@@ -234,7 +256,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="july-2019"></a>Juli 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Werken met Microsoft Consulting Services](get-ready/apps-mcs.md) | Bijgewerkt artikel
 [Microsoft Managed Desktop en ITIL](MMD-and-ITSM.md) | Nieuw artikel
@@ -242,7 +264,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="june-2019"></a>Juni 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Apps in Microsoft Managed Desktop](get-ready/apps.md) | Bijgewerkt artikel
 [Werken met Microsoft Consulting Services](get-ready/apps-mcs.md) | Nieuw artikel
@@ -252,7 +274,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 
 
 ## <a name="may-2019"></a>Mei 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Ondersteunde regio's en talen voor Microsoft Managed Desktop](service-description/regions-languages.md) | Bijgewerkt artikel
 [Microsoft Managed Desktop-apparaten](service-description/device-list.md) | Bijgewerkt artikel
@@ -263,7 +285,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Nieuw artikel
 
 ## <a name="april-2019"></a>April 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Intune Company Portal installeren op Microsoft Managed Desktop-apparaten](get-started/company-portal.md) | Nieuw artikel
 [Microsoft Project en Microsoft Visio installeren op Microsoft Managed Desktop-apparaten](get-started/project-visio.md) | Nieuw artikel 
@@ -273,13 +295,13 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Apps implementeren op Microsoft Managed Desktop-apparaten](get-started/deploy-apps.md) | Bijgewerkt artikel
 
 ## <a name="march-2019"></a>Maart 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Intune Company Portal installeren op Microsoft Managed Desktop-apparaten](get-started/company-portal.md) | Nieuw artikel
 [Microsoft Project en Microsoft Visio installeren op Microsoft Managed Desktop-apparaten](get-started/project-visio.md) | Nieuw artikel
 
 ## <a name="february-2019"></a>Februari 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Programma-apparaten](service-description/device-list.md) | Bijgewerkt met ondersteuning voor bepaalde Dell- en HP-apparaten.
 [Overzicht van configureerbare instellingen](working-with-managed-desktop/config-setting-overview.md) | Nieuw artikel
@@ -288,20 +310,20 @@ Nieuw of gewijzigd artikel | Beschrijving
 [Aan de slag met apparaten](get-started/get-started-devices.md) | Nieuw artikel
 
 ## <a name="january-2019"></a>Januari 2019
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Apps implementeren voor Microsoft Managed Desktop-apparaten](get-started/deploy-apps.md) | Nieuw artikel.
 [Apps beheren voor Microsoft Managed Desktop](working-with-managed-desktop/manage-apps.md) | Bijgewerkt met informatie over het bijwerken of terugdraaien naar een eerdere versie van line-of-business-apps. 
 
 ## <a name="december-2018"></a>December 2018
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Bewerkingen en monitoring voor Microsoft Managed Desktop](service-description/operations-and-monitoring.md) | De tabel Verantwoordelijkheidsbalans toegevoegd en andere tabellen bijgewerkt.
 [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkte ondersteuningstypen, uitleg over ernst en aanvullende details.
 
 ## <a name="november-2018"></a>November 2018
 
-Nieuw of gewijzigd artikel | Beschrijving
+Nieuw of gewijzigd artikel | Omschrijving
 --- | ---
 [Ondersteuning voor Microsoft Managed Desktop](service-description/support.md)<br />en [Gebruikersondersteuning voor Microsoft Managed Desktop](working-with-managed-desktop/end-user-support.md) | Bijgewerkt om Australië op te nemen.
 
