@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ec60fc7063bdd4a2656385ed86098d6ae2b4abc0
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: dad2722a1f9e99fad53c83348d049fa9a60f8b62
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204405"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580988"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -52,7 +52,7 @@ Microsoft Defender voor Office 365 beschermt je organisatie tegen kwaadwillende 
 ## <a name="interactive-guide-to-microsoft-defender-for-office-365"></a>Interactieve handleiding voor Microsoft Defender voor Office 365
 In deze interactieve handleiding leer je hoe je je organisatie kunt beschermen met Microsoft Defender voor Office 365. Je ziet hoe je met behulp van Defender voor Office 365 je beveiligingsbeleid kunt definiëren, bedreigingen kunt analyseren voor je organisatie en kunt reageren op aanvallen.
 
-> [!VIDEO https://aka.ms/MSDO-IG]
+[Bekijk de interactieve handleiding](https://aka.ms/MSDO-IG)
 
 ## <a name="getting-started"></a>Aan de slag
 
@@ -97,6 +97,8 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Beleid in Microsoft Defender voor Office 365 instellen
 
 Met Microsoft Defender voor Office 365 kan het beveiligingsteam van uw organisatie beveiliging configureren door beleid te definiëren in het Beveiligings- en compliancecentrum (Ga naar <https://protection.office.com> \> **Bedreigingsbeheer** \> **Beleid**).
+
+Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=vivvTmWJ_3c). 
 
 > [!TIP]
 > Zie [Beveiligen tegen bedreigingen](protect-against-threats.md) voor een kort overzicht van te definiëren beleid.
