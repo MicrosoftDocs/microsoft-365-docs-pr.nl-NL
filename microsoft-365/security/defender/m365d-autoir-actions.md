@@ -20,14 +20,13 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 01/29/2021
 ms.technology: m365d
-ms.openlocfilehash: d78bf3689020b5a24863e5a0f1ec817af50178ad
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7106f5d2e740d2b4cacbcaeb0b9391095bbeb356
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059214"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592022"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Acties weergeven en beheren in het actiecentrum
 
@@ -52,8 +51,11 @@ Het is belangrijk om acties in behandeling zo snel mogelijk goed te keuren (of a
 ![Een actie goedkeuren of weigeren](../../media/air-actioncenter-itemselected.png)
 
 1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. 
+
 2. Kies actiecentrum in het **navigatiedeelvenster.** 
+
 3. Selecteer in het Actiecentrum **op** het tabblad In behandeling een item in de lijst. Het deelvenster Flyout wordt geopend.
+
 4. Bekijk de informatie in het flyoutvenster en volg een van de volgende stappen:
    - Selecteer **Onderzoekspagina openen voor** meer informatie over het onderzoek.
    - Selecteer **Goedkeuren om** een actie in behandeling te starten.
@@ -71,19 +73,25 @@ Als u hebt vastgesteld dat een apparaat of bestand geen bedreiging is, kunt u he
 ### <a name="undo-one-remediation-action"></a>Eén herstelactie ongedaan maken
 
 1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan.
+
 2. Selecteer op **het** tabblad Geschiedenis een actie die u ongedaan wilt maken.
+
 3. Selecteer Ongedaan maken in het deelvenster aan de rechterkant van **het scherm.**
 
 ### <a name="undo-multiple-remediation-actions"></a>Meerdere herstelacties ongedaan maken
 
 1. Ga naar het Actiecentrum ( https://security.microsoft.com/action-center) en meld u aan.
+
 2. Selecteer op **het** tabblad Geschiedenis de acties die u ongedaan wilt maken. Selecteer items met hetzelfde actietype. Er wordt een flyoutvenster geopend.
+
 3. Selecteer ongedaan maken in het deelvenster Flyout.
 
 ### <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Een bestand verwijderen uit quarantaine op meerdere apparaten 
 
 1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan.
+
 2. Selecteer op **het** tabblad Geschiedenis een bestand met het bestand Actietype **Quarantaine**.
+
 3. Selecteer in het deelvenster aan de rechterkant van het scherm meer exemplaren van dit bestand toepassen op **X** en selecteer **vervolgens Ongedaan maken.**
 
 ## <a name="next-steps"></a>Volgende stappen

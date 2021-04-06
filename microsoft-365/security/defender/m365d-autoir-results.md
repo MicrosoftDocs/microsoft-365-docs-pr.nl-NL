@@ -1,6 +1,6 @@
 ---
 title: Details en resultaten van een geautomatiseerd onderzoek
-description: Tijdens en na een geautomatiseerd onderzoek kunt u de resultaten en belangrijkste bevindingen bekijken
+description: Bekijk de resultaten en belangrijkste bevindingen van geautomatiseerd onderzoek in Microsoft 365 Defender
 keywords: geautomatiseerd, onderzoek, resultaten, analyseren, details, herstel, autoair
 search.appverid: met150
 ms.prod: m365-security
@@ -21,13 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/08/2021
-ms.openlocfilehash: 05208dd8ba893d65db50430861ad5dd5ad9d34fb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ca023ea49a8d92123467be640a097a72233d3198
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198967"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592118"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
@@ -61,8 +60,11 @@ Het verbeterde [Actiecentrum](m365d-action-center.md) () brengt herstelacties sa
 > U moet bepaalde [machtigingen hebben om](m365d-action-center.md#required-permissions-for-action-center-tasks) acties goed te keuren, te weigeren of ongedaan te maken.
 
 1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. 
+
 2. Kies actiecentrum in het **navigatiedeelvenster.** 
+
 3. Selecteer een item **op het** **tabblad** In behandeling of Geschiedenis. Het deelvenster Flyout wordt geopend.
+
 4. Bekijk de informatie in het flyoutvenster en volg een van de volgende stappen:
    - Selecteer **Onderzoekspagina openen voor** meer informatie over het onderzoek.
    - Selecteer **Goedkeuren om** een actie in behandeling te starten.
@@ -76,9 +78,13 @@ Gebruik een pagina met incidentdetails om gedetailleerde informatie over een inc
 ![Details van incidenten](../../media/mtp-incidentdetails-tabs.png)
 
 1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. 
+
 2. Kies in het navigatiedeelvenster de optie **Incidenten & waarschuwingen**  >  **Incidenten**. 
+
 3. Selecteer een item in de lijst en kies vervolgens **Incidentpagina openen.**
+
 4. Selecteer het **tabblad Onderzoeken** en selecteer vervolgens een onderzoek in de lijst. Het deelvenster Flyout wordt geopend.
+
 5. Selecteer **Onderzoekspagina openen.** 
 
 ## <a name="investigation-details"></a>Details van het onderzoek
@@ -92,7 +98,7 @@ In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **On
 > [!NOTE]
 > De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender voor Office 365-abonnement 2 bevat, ziet u geen tabblad **Postvakken.**
 
-| Tab | Beschrijving |
+| Tab | Omschrijving |
 |:--------|:--------|
 | **Onderzoeksgrafiek**   | Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die zijn gevonden, samen met waarschuwingen en of er nog acties moeten worden goedgekeurd.<br/>U kunt een item in de grafiek selecteren om meer details weer te geven. Als u bijvoorbeeld het pictogram **Bewijs** selecteert, gaat u naar het tabblad Bewijs, waar u gedetecteerde entiteiten en hun vonnissen kunt zien.  |
 | **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office-apps, Cloud App-beveiliging en andere Microsoft 365 Defender-functies.|

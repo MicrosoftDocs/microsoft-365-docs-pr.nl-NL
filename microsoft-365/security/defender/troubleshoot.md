@@ -1,6 +1,6 @@
 ---
 title: Problemen met de Microsoft 365 Defender-service oplossen
-description: Oplossingen zoeken en een oplossing zoeken voor bekende Problemen met Microsoft 365 Defender
+description: Oplossingen en tijdelijke oplossingen zoeken voor bekende Problemen met Microsoft 365 Defender
 keywords: Microsoft Threat Protection oplossen, problemen oplossen, Azure ATP, problemen, invoegoplossing, instellingenpagina
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8d8083cbba3582c41ca91c57978675987822d0d9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a2cd27bf7bf8b1c4931b9d768f3a6b5e5f2a0d93
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059210"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592034"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Problemen met de Microsoft 365 Defender-service oplossen
 
@@ -49,6 +49,12 @@ Als Microsoft Defender voor identiteit is geïmplementeerd in uw omgeving, maar 
 
 Zie Microsoft [Defender voor identiteitsintegratie](/cloud-app-security/mdi-integration)voor meer informatie.
 
-## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de pagina met instellingen voor het in- en uitschakelen van de service?
+## <a name="where-is-the-settings-page-for-turning-on-the-service"></a>Waar is de pagina met instellingen voor het in- en uitschakelen van de service?
 
 Als u Microsoft 365 Defender wilt in- of uitschakelen, hebt u toegang tot Instellingen **vanuit** het navigatiedeelvenster in het Microsoft 365-beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u de vereiste [machtigingen en licenties hebt.](m365d-enable.md#check-license-eligibility-and-required-permissions)
+
+## <a name="how-do-i-create-an-exception-for-my-fileurl"></a>Hoe maak ik een uitzondering voor mijn bestand/URL?
+
+Een fout-positief is een bestand of URL dat wordt gedetecteerd als schadelijk, maar geen bedreiging is. U kunt indicatoren maken en uitsluitingen definiëren om bepaalde bestanden/URL's te deblokkeren en toe te staan. Zie [Fout-positieve/negatieven adresseert in Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/defender-endpoint-false-positives-negatives).
+
+

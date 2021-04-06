@@ -1,5 +1,5 @@
 ---
-title: Pre-work for the migration from Microsoft Cloud Deutschland
+title: Activiteiten vóór de migratie van Microsoft Cloud Deutschland
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -18,28 +18,32 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Pre-work when moving from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter region.'
-ms.openlocfilehash: 9f5a38eae6d42f992879f97b8e8e1e8e6c4d56c3
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: e04246626088d9fca653c98246fd4a5b81bc1d30
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476347"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591872"
 ---
-# <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Pre-work for the migration from Microsoft Cloud Deutschland
+# <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Activiteiten vóór de migratie van Microsoft Cloud Deutschland
 
-Gebruik deze koppelingen om naar de pre-work-stappen te gaan die relevant zijn voor uw organisatie:
+Gebruik deze koppelingen om naar de stappen vóór de migratie te gaan die relevant zijn voor uw organisatie.
 
-- Voor **alle klanten die** Office 365 in Microsoft Cloud Deutschland gebruiken, doet u deze [stappen.](#general-tenant-migration-considerations)
-- Voor **DNS-wijzigingen** doet u [deze stap](#dns).
-- Als u Active **Directory Federation Services on-premises** gebruikt, gaat u als volgende stappen te [werk.](#active-directory-federation-services-ad-fs)
-- Als u **SharePoint Online** gebruikt, doet u [deze stap.](#sharepoint-online)
-- Als u Exchange Online of **Exchange** **hybrid gebruikt,** doet u [deze stap](#exchange-online).
-- Als u Skype voor **Bedrijven Online gebruikt,** doet u [deze stap](#skype-for-business-online)
-- Als u een MDM-oplossing (Mobile Device Management) van derden gebruikt, doet u [deze stap](#mobile-device-management).
-- Als u services  van derden of **LOB-apps (Line-of-Business)** gebruikt die zijn geïntegreerd met Office 365, doet u [deze stap.](#line-of-business-apps)
-- Als u ook **Dynamics 365** gebruikt, doet u [deze stap.](#dynamics365)
-- Als u ook Power **BI** gebruikt, doet u [deze stap.](#power-bi)
-- Als u ook **Azure-services** gebruikt met uw Office 365-abonnement, doet u [deze stap](#microsoft-azure).
+Als u
+
+- **Office 365 in Microsoft Cloud Deutschland**, doe [deze stappen.](#general-tenant-migration-considerations)
+- **Aangepaste domeinen**, doe [deze stap](#dns-entries-for-custom-domains).
+
+- **SharePoint Online**, doe [deze stap](#sharepoint-online).
+- **Exchange Online** of **Exchange Hybrid**, doe [deze stap](#exchange-online).
+- **Skype voor Bedrijven Online**, doe [deze stap](#skype-for-business-online).
+- **Dynamics 365**, doe [deze stap](#dynamics365).
+- **Power BI**, doe [deze stap](#power-bi).
+
+- **Active Directory Federation Services** voor Azure AD Connect: ga [als volgende stappen te werk.](#active-directory-federation-services-ad-fs)
+- **Doe deze stap door** services van derden **of LOB-apps (line-of-business)** die zijn geïntegreerd met Office 365. [](#line-of-business-apps)
+- Een MDM-oplossing (Mobile Device Management) van derden, doet [u deze stap.](#mobile-device-management)
+- **Ga als eerste** naar Azure-services met uw Office 365-abonnement. [](#microsoft-azure)
 
 ## <a name="general-tenant-migration-considerations"></a>Algemene tenantmigratieoverwegingen
 
@@ -59,7 +63,7 @@ Office 365-tenant- en gebruikersaanduidingen blijven behouden tijdens de migrati
 | Maak bewaarbeleid voor de hele organisatie [om](https://docs.microsoft.com/microsoft-365/compliance/retention) te beschermen tegen onbedoeld verwijderen van inhoud tijdens de migratie.  |<ul><li>Om ervoor te zorgen dat inhoud niet per ongeluk wordt verwijderd door eindgebruikers tijdens de migratie, kunnen klanten ervoor kiezen om een bewaarbeleid voor de hele organisatie in te stellen. </li><li>Hoewel bewaren niet vereist is, omdat bewaringen die op elk gewenst moment tijdens de migratie worden geplaatst, moeten werken zoals verwacht, is het hebben van een bewaarbeleid een back-upveiligheidsmechanisme. Tegelijkertijd kan een bewaarbeleid niet door alle klanten worden gebruikt, met name niet door klanten die zich zorgen maken over bewaring.</li></ul>| Bewaarbeleid toepassen zoals beschreven in [Meer informatie over bewaarbeleid en bewaarlabels.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) Fouten van de service- of clientsoftware kunnen optreden als dit niet vóór fase 4 van 9 gebeurt. </li></ul>|
 |||||
 
-## <a name="dns"></a>DNS
+## <a name="dns-entries-for-custom-domains"></a>DNS-vermeldingen voor aangepaste domeinen
 
 <!-- before phase 9 -->
 
@@ -72,7 +76,7 @@ Als u een DNS CNAME met de naam _msoid_ hebt ingesteld in een of meer DNS-naamru
 Als u wilt controleren of u een CNAME hebt ingesteld in uw DNS-naamruimte, volgt u de onderstaande _stappen_ en vervangt u contoso.com door uw eigen domeinnaam:
 
 ```console
-nslookup -querytype=CNMAE msoid.contoso.com
+nslookup -querytype=CNAME msoid.contoso.com
 ```
 
 Als de opdrachtregel een DNS-record retourneert, verwijdert u _de msoid_ CNAME uit uw domein.

@@ -1,5 +1,5 @@
 ---
-title: Details en resultaten van een geautomatiseerd onderzoek
+title: De details en resultaten van een geautomatiseerd onderzoek weergeven
 description: Tijdens en na een geautomatiseerd onderzoek kunt u de resultaten en belangrijkste bevindingen bekijken
 keywords: geautomatiseerd, onderzoek, resultaten, analyseren, details, herstel, autoair
 search.appverid: met150
@@ -21,15 +21,14 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/02/2021
-ms.openlocfilehash: 57a515fec2baabba7146959a43737771ef5c8cfe
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8ecf39090d368427c103c7ec78e22bc13f7c339f
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197767"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591766"
 ---
-# <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
+# <a name="view-the-details-and-results-of-an-automated-investigation"></a>De details en resultaten van een geautomatiseerd onderzoek weergeven
 
 **Van toepassing op:**
 - Microsoft Defender voor Eindpunt
@@ -81,7 +80,7 @@ In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **On
 > [!NOTE]
 > De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender voor Office 365-abonnement 2 bevat, ziet u geen tabblad **Postvakken.**
 
-| Tab | Beschrijving |
+| Tab | Omschrijving |
 |:--------|:--------|
 | **Onderzoeksgrafiek**   | Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die zijn gevonden, samen met waarschuwingen en of er nog acties moeten worden goedgekeurd.<br/>U kunt een item in de grafiek selecteren om meer details weer te geven. Als u bijvoorbeeld het pictogram **Bewijs** selecteert, gaat u naar het tabblad Bewijs, waar u gedetecteerde entiteiten en hun vonnissen kunt zien.  |
 | **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office-apps, Cloud App-beveiliging en andere Microsoft 365 Defender-functies.|

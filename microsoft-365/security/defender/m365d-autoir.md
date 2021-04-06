@@ -19,15 +19,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.custom: autoir
-ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 8ed6f1ccd6587d6c618974a123f0d5d42a44e753
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: be0423b0af8251347420d9e970dcfe10db0bb72b
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199631"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591921"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Geautomatiseerd onderzoek en antwoord in Microsoft 365 Defender
 
@@ -41,7 +40,7 @@ Als uw organisatie [Microsoft 365 Defender](microsoft-365-defender.md)gebruikt, 
 Dit artikel bevat een overzicht van AIR en bevat koppelingen naar de volgende stappen en aanvullende bronnen.
 
 > [!TIP]
-> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](m365d-pilot.md?ocid=cx-evalpilot)
+> Wilt u Microsoft 365 Defender ervaren? U kunt het [evalueren in een testomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of [uw pilotproject uitvoeren in een productieomgeving](m365d-pilot.md?ocid=cx-evalpilot).
 
 ## <a name="how-automated-investigation-and-self-healing-works"></a>Hoe geautomatiseerd onderzoek en zelfherstel werken
 
@@ -89,11 +88,16 @@ In Microsoft 365 Defender correleert elk geautomatiseerd onderzoek signalen in M
 
 |Entiteiten |Bedreigingsbeveiligingsservices  |
 |:---------|:---------|
-|Apparaten (ook wel eindpunten genoemd, ook wel machines genoemd)     |[Microsoft Defender voor Endpoint](../defender-endpoint/automated-investigations.md)<br/>[Microsoft Defender for Identity](/azure-advanced-threat-protection/what-is-atp) |      
+|Apparaten (ook wel eindpunten genoemd, ook wel machines genoemd)     |[Microsoft Defender voor Eindpunt](../defender-endpoint/automated-investigations.md)<br/>[Microsoft Defender for Identity](/azure-advanced-threat-protection/what-is-atp) |      
 |E-mailinhoud (e-mailberichten die bestanden en URL's kunnen bevatten)     |[Microsoft Defender voor Office 365](../office-365-security/defender-for-office-365.md)         |
 
 > [!NOTE]
 > Niet elke waarschuwing activeert een geautomatiseerd onderzoek en niet elk onderzoek resulteert in geautomatiseerde herstelacties. dit hangt af van de configuratie van geautomatiseerde onderzoeken en antwoorden voor uw organisatie. Zie [Geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren in Microsoft 365 Defender](m365d-configure-auto-investigation-response.md).
+
+## <a name="viewing-a-list-of-investigations"></a>Een lijst met onderzoeken weergeven
+
+Als u onderzoeken wilt bekijken, gaat u naar de **pagina Incidenten.** Selecteer een incident en selecteer vervolgens het **tabblad Onderzoeken.** Zie Details en resultaten van een geautomatiseerd onderzoek voor [meer informatie.](m365d-autoir-results.md)
+
 
 ## <a name="next-steps"></a>Volgende stappen
 

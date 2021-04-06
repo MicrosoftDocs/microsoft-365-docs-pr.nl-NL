@@ -11,7 +11,6 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 01/29/2021
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -22,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 851fd05f0fec4b8d113e515783092eed0114db0f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: f57e68ba88879ed78170e6348ecdbce4db82b668
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199111"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592058"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>False positives/negatives verwerken in geautomatiseerde onderzoeks- en antwoordmogelijkheden
 
@@ -49,14 +48,14 @@ In de volgende secties wordt beschreven hoe u deze taken uitvoert.
 |Item gemist of ten onrechte gedetecteerd |Service  |Wat moet u doen?  |
 |---------|---------|---------|
 |- E-mailbericht <br/>- E-mailbijlage <br/>- URL in een e-mailbericht<br/>- URL in een Office-bestand      |[Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)        |[Verdachte spam, phish, URL's en bestanden indienen bij Microsoft voor scannen](../office-365-security/admin-submission.md)         |
-|Bestand of app op een apparaat    |[Microsoft Defender voor Endpoint](/windows/security/threat-protection)         |[Een bestand indienen bij Microsoft voor malwareanalyse](https://www.microsoft.com/wdsi/filesubmission)         |
+|Bestand of app op een apparaat    |[Microsoft Defender voor Eindpunt](/windows/security/threat-protection)         |[Een bestand indienen bij Microsoft voor malwareanalyse](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Een waarschuwing aanpassen om te voorkomen dat fout-positieven terugkeren
 
 |Scenario |Service |Wat moet u doen? |
 |--------|--------|--------|
 |- Een waarschuwing wordt geactiveerd door legitiem gebruik <br/>- Een waarschuwing is onjuist    |[Microsoft Cloud App Security](/cloud-app-security)<br/> of <br/>[Azure Advanced Threat Detection](/azure/security/fundamentals/threat-detection)         |[Waarschuwingen beheren in de cloud-app-beveiligingsportal](/cloud-app-security/managing-alerts)         |
-|Een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, ook al is het veilig|[Microsoft Defender voor Endpoint](/windows/security/threat-protection) |[Een aangepaste indicator maken met de actie Toestaan](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
+|Een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, ook al is het veilig|[Microsoft Defender voor Eindpunt](/windows/security/threat-protection) |[Een aangepaste indicator maken met de actie Toestaan](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Een herstelactie ongedaan maken die is ondernomen op een apparaat
 
@@ -74,4 +73,4 @@ Als er een herstelactie is uitgevoerd op een entiteit (zoals een apparaat of een
 
 - [De details en resultaten van een geautomatiseerd onderzoek weergeven](m365d-autoir-results.md)
 - [Proactief op bedreigingen zoeken met geavanceerde jacht in Microsoft 365 Defender](advanced-hunting-overview.md)
-- [False positives/negatives in Microsoft Defender for Endpoint adresseert](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)
+- [Vals-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)

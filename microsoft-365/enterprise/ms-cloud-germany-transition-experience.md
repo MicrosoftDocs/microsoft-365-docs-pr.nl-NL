@@ -1,5 +1,5 @@
 ---
-title: Wat is er veranderd voor de migratie naar Office 365-services in de nieuwe Duitse datacenterregio's
+title: Wat verandert er na de migratie naar Office 365-services in de nieuwe Duitse datacenterregio's
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -19,20 +19,20 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Samenvatting: Meer informatie over wat er is veranderd voor de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: cadad596011bbcde02b61f01e949c93a5a62a1c3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 74ad9a662d3ea7a68ef1f82961864eb4468f6098
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923824"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591778"
 ---
-# <a name="what-has-changed-for-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Wat is er veranderd voor de migratie naar Office 365-services in de nieuwe Duitse datacenterregio's
+# <a name="what-will-change-after-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Wat verandert er na de migratie naar Office 365-services in de nieuwe Duitse datacenterregio's
 
 Tenantmigraties zijn zo ontworpen dat ze minimale gevolgen hebben voor beheerders en gebruikers. Er zijn echter overwegingen voor elke werkbelasting. Bekijk de volgende secties om meer inzicht te krijgen in de migratie-ervaring voor de werkbelastingen.
 
 Hieronder volgen de belangrijkste verschillen tussen Microsoft Cloud Deutschland en Office 365-services in de nieuwe Duitse datacenterregio's.
 
-| Categorie | Microsoft Cloud Deutschland (Microsoft Cloud Deutschland) | Office 365-services in de nieuwe Duitse datacenterregio's |
+| Categorie | Microsoft Cloud Germany (Microsoft Cloud Deutschland) | Office 365-services in de nieuwe Duitse datacenterregio's |
 |:-------|:-----|:-------|
 | Microsoft 365-services beschikbaar voor abonnement met slechts één Office 365-tenant | 15 services | 29 services <br><br> Zie Wat is de beschikbaarheid van de service tussen de [verschillende Office 365-cloudserviceaanbiedingen?](ms-cloud-germany-transition.md#serv-avail)voor meer informatie. |
 | Nieuwe functies | Er zijn geen nieuwe functies beschikbaar. | Nieuwe functies zijn beschikbaar in overeenstemming met Office 365-services. |
@@ -79,6 +79,8 @@ Aandachtspunten:
 ## <a name="office-services"></a>Office Services
 
 Office Online-services zijn toegankelijk via `office.de` voor en tijdens de overgang. Nadat de postvakken van gebruikers zijn overgestappen naar de Office 365-services, moeten gebruikers URL's voor Office 365-services gaan gebruiken. Wanneer de volgende werkbelastingen worden gemigreerd naar Office 365-services, werkt de interface van de office.com portal.
+
+De meest recent gebruikte (MRU) service in Office is een cutover van de Microsoft Cloud Deutschland naar Office 365 Global Services, niet een migratie. Alleen MRU-koppelingen van de kant globale services van Office 365 zijn zichtbaar na de migratie vanuit de Office.com portal. MRU-koppelingen vanuit de Microsoft Cloud Deutschland zijn niet zichtbaar als MRU-koppelingen in Office 365 Global Services. In Globale Office 365-services zijn MRU-koppelingen alleen toegankelijk nadat de tenantmigratie fase 9 heeft bereikt.
 
 ## <a name="exchange-online-protection"></a>Exchange Online Protection
 

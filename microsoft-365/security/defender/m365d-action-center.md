@@ -20,13 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/01/2021
-ms.openlocfilehash: d958f2787b9d66e42a32b8858139f7d13e83ddef
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: edf809c5fbc257e1dacafeed931da1a2d1471f4a
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199595"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592082"
 ---
 # <a name="the-action-center"></a>Het Actiecentrum
 
@@ -74,7 +73,7 @@ U kunt het geïntegreerde actiecentrum gebruiken als u de juiste machtigingen en
 
 Wanneer u het Actiecentrum bezoekt, ziet u twee tabbladen: Acties in behandeling en Geschiedenis. De volgende tabel bevat een overzicht van wat u op elk tabblad ziet:
 
-|Tab  |Beschrijving  |
+|Tab  |Omschrijving  |
 |---------|---------|
 |**In behandeling**     | Hiermee wordt een lijst weergegeven met acties die aandacht vereisen. U kunt acties één voor één goedkeuren of weigeren of meerdere acties selecteren als ze hetzelfde type actie hebben (zoals Quarantainebestand). <p>**TIP:** Controleer en keur in behandeling zijnde acties zo snel mogelijk goed (of weiger) zodat uw geautomatiseerde onderzoeken tijdig kunnen worden voltooid.       |
 |**Geschiedenis**     | Fungeert als een auditlogboek voor acties die zijn uitgevoerd, zoals: <br/>- Herstelacties die zijn ondernomen als gevolg van geautomatiseerde onderzoeken <br/>- Herstelacties die zijn ondernomen op verdachte of schadelijke e-mailberichten, bestanden of URL's<br/>- Herstelacties die zijn goedgekeurd door uw beveiligingsteam <br/>- Opdrachten die zijn uitgevoerd en herstelacties die zijn toegepast tijdens livereactiesessies<br/>- Herstelacties die zijn ondernomen door uw antivirusbeveiliging <p>Biedt een manier om bepaalde acties ongedaan te maken (zie [Voltooide acties ongedaan maken).](m365d-autoir-actions.md#undo-completed-actions)        |
@@ -96,7 +95,7 @@ Alle acties, ongeacht of ze in behandeling zijn of al zijn genomen, worden bijge
 
 - Onderzoekspakket verzamelen 
 - Apparaat isoleren (deze actie kan ongedaan worden gemaakt) 
-- Offboard-machine 
+- Computer offboarden 
 - Uitvoering van releasecode 
 - Release uit quarantaine 
 - Voorbeeld aanvragen 
@@ -110,7 +109,7 @@ Naast herstelacties die automatisch worden ondernomen als gevolg van geautomatis
 
 (**NIEUW!**) Het verbeterde Actiecentrum bevat nu een **kolom Actiebron** waarin wordt be informatie over waar elke actie vandaan komt. In de volgende tabel worden mogelijke **actiebronwaarden** beschreven:
 
-| Actiebronwaarde | Beschrijving |
+| Actiebronwaarde | Omschrijving |
 |:-----|:---|
 | **Handmatige apparaatactie** | Een handmatige actie op een apparaat. Voorbeelden hiervan [zijn apparaatisolatie](../defender-endpoint/respond-machine-alerts.md#isolate-devices-from-the-network) [of bestands quarantaine.](../defender-endpoint/respond-file-alerts.md#stop-and-quarantine-files) |
 | **Handmatige e-mailactie** | Een handmatige actie voor e-mail. Een voorbeeld hiervan is het verwijderen van e-mailberichten of [het herstellen van een e-mailbericht.](../office-365-security/remediate-malicious-email-delivered-office-365.md) |

@@ -1,5 +1,5 @@
 ---
-title: Veilige samenwerking instellen met Microsoft 365
+title: Veilige samenwerking met Microsoft 365 instellen
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -16,18 +16,16 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Informatie over het instellen van veilige samenwerking met inhoud in Teams om uw gegevens te beveiligen op basis van de gevoeligheid.
-ms.openlocfilehash: 88cb3557f1c150a9c9fd68ba362fcc9c424aa73a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 804307b3035f0d2246dc0ac541cce2d63506c351
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906466"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591908"
 ---
-# <a name="set-up-secure-collaboration-with-microsoft-365"></a>Veilige samenwerking instellen met Microsoft 365
+# <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>Veilige samenwerking instellen met Microsoft 365 en Microsoft Teams
 
 Het is belangrijk om eenvoudig informatie te kunnen delen met de juiste personen en overbeharing te voorkomen. Dit geldt ook voor het veilig delen van gevoelige gegevens met alleen personen die toegang tot deze gegevens moeten hebben. Afhankelijk van het project kan dit het delen van gevoelige gegevens omvatten met personen buiten uw organisatie.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 Deze richtlijnen voor samenwerkingsoplossing bevatten twee onderdelen om u te helpen:
 - Microsoft Teams implementeren met het juiste beveiligingsniveau voor elk project
@@ -36,6 +34,8 @@ Deze richtlijnen voor samenwerkingsoplossing bevatten twee onderdelen om u te he
 ![Teams implementeren met de juiste beveiliging en extern delen configureren met de juiste beveiligingsinstellingen](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
 Als veelzijdige en eenvoudig te gebruiken hulpprogramma's voor samenwerking van inhoud niet beschikbaar zijn, werken gebruikers vaak samen door documenten te e-mailen. Dit is een vervelende en foutgevoelige methode voor samenwerking en kan het risico op ongepast delen van informatie vergroten. Als mensen het delen van informatie te moeilijk vinden, kunnen ze terugkeren naar het gebruik van consumentenproducten die niet onder IT vallen. Dit kan een nog groter risico opleveren.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 Met Microsoft 365 kunt u Teams implementeren met diverse configuraties die u helpen:
 

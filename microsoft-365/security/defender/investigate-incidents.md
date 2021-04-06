@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f6b085f200d3b0c71bb3608f8e5ba9ed85632676
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a6c7e7e920d18d9d8bf29d71d317008ea0c37bbf
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500329"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592094"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender onderzoeken
 
@@ -85,6 +85,10 @@ Als u op de naam klikt van de computer waarop de aanval is uitgevoerd, gaat u na
 ![Afbeelding van het tabblad Machines van een incident](../../media/incident-machines.png)
 
 Als u het tabblad Tijdlijn selecteert, kunt u door de tijdlijn van de machine bladeren en alle gebeurtenissen en gedragingen op de computer in chronologische volgorde bekijken, afgewisseld met de waarschuwingen die worden weergegeven.
+
+> [!TIP]
+> U kunt op aanvraag scans uitvoeren op een apparaatpagina. Kies in het Microsoft 365-beveiligingscentrum de optie **Apparaatvoorraad.** Selecteer een apparaat met waarschuwingen en voer een antivirusscan uit. Acties, zoals antivirusscans, worden bijgespoord en zijn zichtbaar op de **pagina Apparaatvoorraad.** Zie Microsoft Defender Antivirus scan uitvoeren [op apparaten voor meer informatie.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)
+
 
 ## <a name="users"></a>Gebruikers
 
