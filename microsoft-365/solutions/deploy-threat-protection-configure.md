@@ -1,6 +1,6 @@
 ---
 title: Stappen voor het configureren van mogelijkheden voor bedreigingsbeveiliging in Microsoft 365
-description: Gebruik dit artikel als handleiding voor het implementeren van uw oplossing voor bedreigingsbeveiliging. Meer informatie over het implementeren van bedreigingsbeveiligingsservices en -mogelijkheden in Microsoft 365 E5.
+description: Gebruik dit artikel als handleiding voor het implementeren van uw oplossing voor bedreigingsbeveiliging. Beveiligingsservices en -mogelijkheden voor bedreigingen implementeren in Microsoft 365 E5.
 keywords: beveiliging, installatie, configuratie, Microsoft 365 E5, geavanceerde bedreigingsbeveiliging
 ms.author: deniseb
 author: denisebmsft
@@ -17,17 +17,16 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 925c62e1c6201c54fcf09d0dd98b06906d9e057f
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 847dd2d090fb26c5558d4a3496a79cf4829881fb
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599861"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604391"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Mogelijkheden voor bedreigingsbeveiliging configureren in Microsoft 365
 
 Volg deze stappen om bedreigingsbeveiliging in Microsoft 365 te configureren.
-
 
 ## <a name="step-1-set-up-multi-factor-authentication-and-conditional-access-policies"></a>Stap 1: Meervoudige verificatie en beleid voor voorwaardelijke toegang instellen
 
@@ -100,8 +99,8 @@ Microsoft 365 Defender maakt waarschuwingen, incidenten, geautomatiseerd onderzo
 [Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md) beschermt uw organisatie tegen schadelijke bedreigingen in e-mailberichten (bijlagen en URL's), Office-documenten en samenwerkingshulpmiddelen. In de volgende tabel vindt u de functies en mogelijkheden van Microsoft Defender voor Office 365 die zijn opgenomen in Microsoft 365 E5:
 
 |Configuratie-, beveiligings- en detectiemogelijkheden|Automatiserings-, onderzoeks-, herstel- en onderwijsmogelijkheden|
-|---|---|
-|[Veilige bijlagen](../security/office-365-security/safe-attachments.md)<br/>[Veilige koppelingen](../security/office-365-security/safe-links.md)<br/>[Veilige documenten](../security/office-365-security/safe-docs.md)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Bescherming tegen phishing in Defender voor Office 365](../security/office-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[Bedreigingsoverzichten](../security/office-365-security/threat-trackers.md)<br/>[Bedreigingsverkenner](../security/office-365-security/threat-explorer.md)<br/>[Geautomatiseerd onderzoek en reactie](../security/office-365-security/office-365-air.md)<br/>[Aanvalssimulator](../security/office-365-security/attack-simulator.md)|
+|:---|:---|
+|[Veilige bijlagen](../security/office-365-security/safe-attachments.md)<br/>[Veilige koppelingen](../security/office-365-security/safe-links.md)<br/>[Veilige documenten](../security/office-365-security/safe-docs.md)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)<br/> [Anti-phishingbeveiliging in Microsoft 365](../security/office-365-security/anti-phishing-protection.md)|[Bedreigingsoverzichten](../security/office-365-security/threat-trackers.md)<br/>[Bedreigingsverkenner](../security/office-365-security/threat-explorer.md)<br/>[Geautomatiseerd onderzoek en reactie](../security/office-365-security/office-365-air.md)<br/>[Aanvalssimulator](../security/office-365-security/attack-simulator.md)|
 |
 
 Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veiliger communiceren en samenwerken, met bescherming tegen bedreigingen voor hun e-mailinhoud en Office-documenten.
@@ -128,15 +127,18 @@ Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veilige
 
 ![Proces voor de implementatie van Microsoft Defender voor Eindpunt](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
 
-1. [Bereid uw omgeving voor op Microsoft Defender voor de implementatie van eindpunten.](/windows/security/threat-protection/microsoft-defender-atp/deployment-phases)
-2. [Uw Microsoft Defender voor endpoint-implementatie instellen.](/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
-3. [Onboard to the Microsoft Defender for Endpoint service](/windows/security/threat-protection/microsoft-defender-atp/onboarding).
-4. [Voltooi uw belangrijkste beveiligingstaken.](/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation)
+1. [Bereid uw omgeving voor op Microsoft Defender voor Eindpunt.](../security/defender-endpoint/deployment-phases.md)
+
+2. [Microsoft Defender voor eindpunt implementeren.](../security/defender-endpoint/production-deployment.md)
+
+3. [Onboard to the Microsoft Defender for Endpoint service](../security/defender-endpoint/onboarding.md).
+
+4. [Voltooi uw belangrijkste beveiligingstaken.](../security/defender-endpoint/tvm-security-recommendation.md)
 
 ### <a name="more-information-about-microsoft-defender-for-endpoint"></a>Meer informatie over Microsoft Defender voor Eindpunt
 
-- [Meer informatie over Microsoft Defender voor Eindpunt](/windows/security/threat-protection).
-- [Probeer het evaluatielaboratorium van Microsoft Defender voor eindpunten.](/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab)
+- [Meer informatie over Microsoft Defender voor Eindpunt](../security/defender-endpoint/microsoft-defender-endpoint.md).
+- [Probeer het evaluatielaboratorium van Microsoft Defender voor eindpunten.](../security/defender-endpoint/evaluation-lab.md)
 
 ## <a name="step-6-configure-microsoft-cloud-app-security"></a>Stap 6: Beveiliging van Microsoft Cloud App configureren
 
@@ -147,8 +149,11 @@ Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veilige
 ![Proces voor het implementeren van Microsoft Cloud App Security](../media/deploy-threat-protection/deploy-mcas-steps.png) 
 
 1. [Stel de portal en andere basisvereisten in.](/cloud-app-security/general-setup)
+
 2. [Clouddetectie instellen en](/cloud-app-security/set-up-cloud-discovery) [apps verbinden.](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
+
 3. [Voorwaardelijke toegang app-beheer implementeren voor aanbevolen apps](/cloud-app-security/proxy-deployment-aad).
+
 4. [Gebruik de onderzoekshulpmiddelen en dashboards.](/cloud-app-security/investigate)
 
 ### <a name="more-information-about-microsoft-cloud-app-security"></a>Meer informatie over Microsoft Cloud App Security
@@ -164,9 +169,9 @@ Nadat u uw services en mogelijkheden voor bedreigingsbeveiliging hebt ingesteld 
 
 Het Microsoft 365-beveiligingscentrum is bedoeld voor beveiligingsbeheerders en beveiligingsbewerkingsteams. In het Microsoft 365-beveiligingscentrum kunt u het volgende doen:
 - Bekijk de algehele beveiligingstoestand van uw organisatie met [Secure Score.](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score)
-- [Controleer en bekijk rapporten](https://docs.microsoft.com/microsoft-365/security/defender/monitoring-and-reporting) over de status van uw identiteiten, gegevens, apparaten, apps en infrastructuur.
+- [Controleer en bekijk rapporten](../security/defender-endpoint/threat-protection-reports.md) over de status van uw identiteiten, gegevens, apparaten, apps en infrastructuur.
 - Verbind de puntjes op waarschuwingen via [incidenten.](https://docs.microsoft.com/microsoft-365/security/defender/incident-queue)
-- Gebruik [automatisch onderzoek en herstel om bedreigingen](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir) aan te pakken.
+- Gebruik [automatisch onderzoek en herstel om bedreigingen](../security/defender/m365d-autoir.md) aan te pakken.
 - [Ga proactief op zoek naar](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview)bedreigingen, zoals inbraakpogingen of inbreukactiviteiten die van invloed zijn op uw e-mail, gegevens, apparaten en identiteiten.
 - [De nieuwste aanvalscampagnes en](https://docs.microsoft.com/microsoft-365/security/defender/latest-attack-campaigns) -technieken begrijpen met bedreigingsanalyses.
 - ... en meer!
