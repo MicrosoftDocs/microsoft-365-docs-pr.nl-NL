@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 0baefab441b17aa4a9527536cead181bae8f8948
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 4ce52c40e622f55b0fd231ec634c4897fea1d6f5
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599993"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615493"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>Beleid voor het toestaan van gasttoegang en B2B-externe gebruikerstoegang
 
@@ -82,10 +82,12 @@ Slechts één organisatie kan een apparaat beheren. Als u gasten en externe gebr
 
 ## <a name="next-step"></a>Volgende stap
 
-![Stap 4: Beleidsregels voor Cloud-apps van Microsoft 365](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![Stap 4: Beleid voor Microsoft 365-cloud-apps en Microsoft Cloud App-beveiliging](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 Beleid voor voorwaardelijke toegang configureren voor:
 
 - [Microsoft Teams](teams-access-policies.md)
 - [Exchange Online](secure-email-recommended-policies.md)
 - [SharePoint](sharepoint-file-access-policies.md)
+- [Microsoft Cloud App Security](mcas-saas-access-policies.md)
+ 

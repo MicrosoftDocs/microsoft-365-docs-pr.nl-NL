@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 9d7170ff261a53ba5755134973a912221363b3c8
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 104ef919d356642985e7b34d16650c27a8141e86
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599805"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615097"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -201,7 +201,7 @@ Microsoft raadt u aan geen beleidssets te maken die van toepassing zijn op alle 
 1. Vereiste identiteitsfuncties en hun instellingen configureren.
 2. Configureer het algemene beleid voor identiteit en toegang tot voorwaardelijke toegang.
 3. Beleid voor voorwaardelijke toegang configureren voor gast- en externe gebruikers.
-4. Beleid voor voorwaardelijke toegang configureren voor Cloud-apps van Microsoft 365, zoals Microsoft Teams, Exchange Online en SharePoint.
+4. Beleidsregels voor voorwaardelijke toegang configureren voor Microsoft 365-cloud-apps, zoals Microsoft Teams, Exchange Online en SharePoint- en Microsoft Cloud App-beveiligingsbeleid.
 
 Nadat u identiteits- en apparaattoegang hebt geconfigureerd, bekijkt u de azure AD-functieimplementatiehandleiding voor een gefaseerd controlelijst met aanvullende functies die u moet overwegen en [Azure AD Identity Governance](/azure/active-directory/governance/) om toegang te beveiligen, te controleren en te controleren. [](/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2)
 

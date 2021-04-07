@@ -1,5 +1,5 @@
 ---
-title: Licenties toevoegen aan of verlengen van een abonnement dat is betaald met een productcode
+title: Licenties toevoegen aan of verlengen van een abonnement dat is betaald voor het gebruik van een productcode
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,126 +21,72 @@ search.appverid:
 - MET150
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
-description: Leer hoe u licenties kunt toevoegen of verlengen met een productcode voor een abonnement.
-ms.openlocfilehash: 583014c98207f98abc55248159aafd371c96b6c0
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+description: Meer informatie over het toevoegen van licenties aan of het verlengen van uw abonnement met een productcode.
+ms.openlocfilehash: 15fac17df66b0c23e3188eff9acc2d8f617ca226
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545782"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615146"
 ---
-# <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Licenties toevoegen aan of verlengen van een abonnement dat is betaald met een productcode
+# <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Licenties toevoegen aan of verlengen van een abonnement dat is betaald voor het gebruik van een productcode
 
-Vooruitbetaalde gebruikerslicenties worden aan u verstrekt in de vorm van een alfanumerieke code met 25 tekens. Nadat u de licenties hebt gekocht die u nodig hebt, kunt u deze aan uw abonnement toevoegen. U kunt ook een productcode gebruiken om de vervaldatum van uw abonnement te verlengen.
+Vooruitbetaalde gebruikerslicenties worden aan u verstrekt in de vorm van een alfanumerieke code met 25 tekens. Nadat u de licenties hebt gekocht die u nodig hebt, kunt u deze toevoegen aan uw abonnement. U kunt ook een productcode gebruiken om de vervaldatum van uw abonnement te verlengen.
 
 > [!NOTE]
-> Als u geen nieuwe productcode wilt kopen, kunt u ervoor kiezen om een creditcard of bankrekening toe te voegen aan uw abonnement, zodat u voor meer licenties betaalt of om de verloopdatum van uw abonnement te verlengen. Zie voor meer informatie [uw abonnement verlengen](../subscriptions/renew-your-subscription.md).
+> Als u geen nieuwe productcode wilt kopen, kunt u er altijd voor kiezen om een creditcard of bankrekening toe te voegen aan uw abonnement om te betalen voor meer licenties of om de vervaldatum van uw abonnement te verlengen. Zie Uw abonnement [verlengen voor meer informatie.](../subscriptions/renew-your-subscription.md)
   
 ## <a name="add-licenses-to-your-subscription"></a>Licenties toevoegen aan uw abonnement
 
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Selecteer het abonnement waaraan u licenties wilt toevoegen op het tabblad **producten** .
-3. Selecteer op de pagina Details van abonnement, in de sectie **licenties** , de optie **meer licenties toevoegen**.
-4. Selecteer in het **deelvenster meer licenties toevoegen**de optie **een nieuwe en niet-gebruikte productcode gebruiken**en selecteer **volgende**.
-5. Voer de productcode in en selecteer **volgende**.
-    > [!NOTE]
-    > Als u meer dan één productcode hebt, kunt u **een andere productsleutel toevoegen selecteren om een product** code in te voeren.
-6. Controleer de details van uw bestelling en selecteer vervolgens **inwisselen**.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Producten en services</a>.
-
-2. Zoek het abonnement waaraan u licenties wilt toevoegen. Selecteer de vervolgkeuzelijst **meer acties** en kies vervolgens **verlengen of licentie toevoegen met token**.
-
-3. Selecteer op de pagina **gebruikerslicenties verlengen of toevoegen** de optie **een nieuwe en niet-gebruikte productcode gebruiken**en selecteer **volgende**.
-
-4. Voer de productcode in en selecteer **volgende**.
-
-    > [!NOTE]
-    > Als u meer dan één productcode hebt, kunt u **een andere productsleutel toevoegen selecteren om een product** code in te voeren.
-
-5. Kies om gebruikers aan het abonnement toe te voegen en selecteer **volgende**.
-
-6. Controleer de details van uw bestelling en selecteer vervolgens **inwisselen**.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het Beheercentrum naar de pagina **facturerings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">producten & Services</a> .  
-
-2. Zoek het abonnement waaraan u licenties wilt toevoegen. Selecteer de vervolgkeuzelijst **meer acties** en kies vervolgens **verlengen of licentie toevoegen met token**.
-
-3. Selecteer op de pagina **gebruikerslicenties verlengen of toevoegen** de optie **een nieuwe en niet-gebruikte productcode gebruiken**en selecteer **volgende**.
-
-4. Voer de productcode in en selecteer **volgende**.
-
-    > [!NOTE]
-    > Als u meer dan één productcode hebt, kunt u **een andere productsleutel toevoegen selecteren om een product** code in te voeren.
-
-5. Kies om gebruikers aan het abonnement toe te voegen en selecteer **volgende**.
-
-6. Controleer de details van uw bestelling en selecteer vervolgens **inwisselen**.
-
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 ::: moniker-end
+
+2. Selecteer op **het** tabblad Producten het abonnement waaraan u licenties wilt toevoegen.
+3. Selecteer op de pagina **Abonnementsgegevens** in de sectie Licenties de optie **Meer licenties toevoegen.**
+4. Selecteer in **het deelvenster Meer licenties toevoegen** de optie Een nieuwe en **ongebruikte productcode** gebruiken en selecteer **vervolgens Volgende.**
+5. Voer de productcode in en **selecteer** Volgende.
+    > [!NOTE]
+    > Als u meerdere productcodes hebt, kunt u **Een andere productcode** toevoegen selecteren om deze in te voeren.
+6. Controleer uw ordergegevens en selecteer vervolgens **Inwisselen.**
   
 ## <a name="extend-the-expiration-date-of-your-subscription"></a>De vervaldatum van uw abonnement verlengen
 
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Selecteer op het tabblad **Products** het abonnement dat u wilt verlengen.
-3. Selecteer op de pagina Details van abonnement in de sectie **Abonnementen en betalings instellingen** de optie **einddatum verlengen**.
-4. Selecteer op de pagina **gebruikerslicenties verlengen of toevoegen** de optie **een nieuwe en niet-gebruikte productcode gebruiken**en selecteer **volgende**.
-5. Voer de productcode in en selecteer **volgende**.
-    > [!NOTE]
-    > Als u meer dan één productcode hebt, kunt u **een andere productsleutel toevoegen selecteren om een product** code in te voeren.
-6. Controleer de details van uw bestelling en selecteer vervolgens **inwisselen**.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Producten en services</a>.
-
-2. Zoek het abonnement dat u wilt verlengen. Selecteer de vervolgkeuzelijst **meer acties** en selecteer vervolgens **vernieuwen of licentie toevoegen met token**.
-
-3. Selecteer op de pagina **gebruikerslicenties verlengen of toevoegen** de optie **een nieuwe en niet-gebruikte productcode gebruiken**en selecteer **volgende**.
-
-4. Voer de productcode in en selecteer **volgende**.
-
-    > [!NOTE]
-    > Als u meer dan één productcode hebt, kunt u **een andere productsleutel toevoegen selecteren om een product** code in te voeren.
-
-5. Kies de verloopdatum van uw abonnement verlengen en selecteer **volgende**.
-
-6. Controleer de details van uw bestelling en selecteer vervolgens **inwisselen**.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Producten en services</a>.
-
-2. Zoek het abonnement dat u wilt verlengen. Selecteer de vervolgkeuzelijst **meer acties** en selecteer vervolgens **vernieuwen of licentie toevoegen met token**.
-
-3. Selecteer op de pagina **gebruikerslicenties verlengen of toevoegen** de optie **een nieuwe en niet-gebruikte productcode gebruiken**en selecteer **volgende**.
-
-4. Voer de productcode in en selecteer **volgende**.
-
-    > [!NOTE]
-    > Als u meer dan één productcode hebt, kunt u **een andere productsleutel toevoegen selecteren om een product** code in te voeren.
-
-5. Kies de verloopdatum van uw abonnement verlengen en selecteer **volgende**.
-
-6. Controleer de details van uw bestelling en selecteer vervolgens **inwisselen**.
-
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 ::: moniker-end
+
+2. Selecteer op **het** tabblad Producten het abonnement dat u wilt verlengen.
+3. Selecteer op de pagina Abonnementsgegevens in de sectie **Abonnements-** en betalingsinstellingen de optie **Einddatum verlengen.**
+4. Selecteer op **de pagina Gebruikerslicenties verlengen** of toevoegen de optie Een nieuwe en **ongebruikte productcode gebruiken** en selecteer vervolgens **Volgende.**
+5. Voer de productcode in en **selecteer** Volgende.
+    > [!NOTE]
+    > Als u meerdere productcodes hebt, kunt u **Een andere productcode** toevoegen selecteren om deze in te voeren.
+6. Controleer uw ordergegevens en selecteer vervolgens **Inwisselen.**
 
 ## <a name="related-articles"></a>Verwante artikelen
 

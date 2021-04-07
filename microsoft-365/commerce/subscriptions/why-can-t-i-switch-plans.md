@@ -24,81 +24,31 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Begrijp waarom u soms handmatig van abonnement moet veranderen of door ondersteuning te bellen.
-ms.openlocfilehash: 0880337e4879c093119b98f4d0108ca65c17e705
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 41cc0511b1c04249a6c359054b2fdc829ca40713
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164459"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615325"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Waarom kan ik niet van Microsoft 365 voor Bedrijven-abonnementen wisselen?
 
-::: moniker range="o365-worldwide"
 > [!NOTE]
 > Dit artikel is van toepassing op het oude beheercentrum. Zie Waarom kan ik geen upgrade uitvoeren naar abonnementen als u het artikel over het beheercentrum (voorbeeld) [wilt bekijken.](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) Het voorbeeld is beschikbaar voor alle Microsoft 365-beheerders, u kunt zich ervoor kiezen door **Probeer** de preview-schakelknop boven aan de startpagina. Zie Informatie over het nieuwe [Microsoft 365-beheercentrum voor meer informatie.](../../admin/microsoft-365-admin-center-preview.md)
-::: moniker-end
 
 Als u de knop  Van abonnement wisselen niet ziet, kan uw abonnement niet automatisch worden overgeschakeld. In sommige gevallen kunt u mogelijk het probleem oplossen zodat u de knop **Veranderen van abonnement** kunt gebruiken, of u kunt mogelijk in plaats daarvan [handmatig van abonnement veranderen](switch-plans-manually.md). Plaats de muisaanwijzer boven het informatiepictogram om een bericht te bekijken waarin wordt uitgelegd waarom de knop **Veranderen van abonnement** niet beschikbaar is. Gebruik de informatie in dit artikel om het probleem op te lossen.
-  
-::: moniker range="o365-worldwide"
 
  **Hebt u iets anders nodig?** [Een ander abonnement kopen](../try-or-buy-microsoft-365.md)  |  [Uw abonnement opzeggen](cancel-your-subscription.md)  |  [Abonnementen en facturering](../index.yml)  |  [Ondersteuning bellen](../../admin/contact-support-for-business-products.md)
-::: moniker-end
-
-::: moniker range="o365-germany"
-
- **Hebt u iets anders nodig?** [Een ander abonnement kopen](../try-or-buy-microsoft-365.md)  |  [Uw abonnement opzeggen](cancel-your-subscription.md)  |  [Abonnementen en facturering](../index.yml)  |  [Ondersteuning bellen](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
- **Hebt u iets anders nodig?** [Abonnementen kopen of uitproberen voor Office 365 beheerd door 21Vianet](../../admin/services-in-china/buy-or-try-subscriptions.md)  |  [Uw abonnement opzeggen](cancel-your-subscription.md)  |  [Ondersteuning bellen](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
 
 ## <a name="why-isnt-the-switch-plans-button-available-for-my-subscription"></a>Waarom is de knop Veranderen van abonnement niet beschikbaar voor mijn abonnement?
 
 ### <a name="you-cant-switch-subscriptions-now-because-you-have-more-users-than-licenses"></a>U kunt momenteel niet overstappen op een ander abonnement omdat u meer gebruikers dan licenties hebt.
 
-::: moniker range="o365-worldwide"
-
 Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-Als u de knop **Veranderen van abonnement** wilt gebruiken om automatisch abonnementen te wijzigen, moet aan elke gebruiker een geldige licentie zijn toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u de knop **Veranderen van abonnement**. Zo niet, dan kunt u handmatig van [plan wisselen](switch-plans-manually.md)of [ondersteuning bellen.](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
 
 ### <a name="you-cant-switch-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>U kunt momenteel niet overstappen op een ander abonnement omdat dit abonnement niet volledig is ingesteld of omdat de service niet beschikbaar is.
 
-
-::: moniker range="o365-worldwide"
-
 Als u wilt zien of er problemen zijn met de inrichting of de service- of servicetoestand, gaat u in het beheercentrum naar de <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">pagina Service</a> status of selecteert u **Health** \> **Service Health**.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Ga in het Microsoft 365-beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank">Service-status</a> of selecteer **Health** Service Health om te zien of er problemen zijn met de inrichting of de \> **service.**
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-Ga in het Microsoft 365-beheercentrum naar de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank">Service-status</a> of selecteer **Health** Service Health om te zien of er problemen zijn met de inrichting of de \> **service.**
-
-::: moniker-end
 
 Als een service niet volledig is ingericht of als er een probleem is met de servicestatus, wacht u enkele uren totdat de service beschikbaar is en probeert u het opnieuw. Als u nog steeds een probleem hebt, belt [u de ondersteuning.](../../admin/contact-support-for-business-products.md)
   

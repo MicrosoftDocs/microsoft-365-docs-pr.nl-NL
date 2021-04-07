@@ -12,34 +12,21 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
+- commerce
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Meer informatie over het bijwerken van uw factuuradressen voor Microsoft 365 voor Bedrijven. U kunt ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
-ms.openlocfilehash: 816198f8ff79c7136add6ec33c84a7812daf2daa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5d6e9eac3ef1caccb2672bfc7f46e8e5b9ac3721
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911900"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615409"
 ---
 # <a name="change-your-billing-addresses"></a>Uw factuuradressen wijzigen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Uw factuur of factuur bevat drie adressen:
   
@@ -50,30 +37,30 @@ Uw factuur of factuur bevat drie adressen:
 - **Adres voor servicegebruik** Het adres waarop de service wordt gebruikt. Dit is doorgaans hetzelfde adres als het adres onder **Verkocht aan**. Als uw organisatie externe gebruikers of meerdere kantoren heeft, gebruikt u het adres waar zich de meeste gebruikers bevinden.
 
 In de meeste gevallen komen deze adressen overeen. Als u een of meer van deze adressen wilt wijzigen, is dat mogelijk. U kunt ook een alternatief e-mailadres verstrekken om factureringsmeldingen te ontvangen en het alternatieve e-mailadres voor andere beheerders te wijzigen.
-  
-::: moniker range="o365-worldwide"
 
 Zie Uw factuur of factuur [](view-your-bill-or-invoice.md) weergeven en Uw factuur of factuur begrijpen voor meer [informatie over uw factuur of factuur.](understand-your-invoice2.md)
+
+## <a name="change-your-sold-to-address"></a>Uw adres onder Verkocht aan wijzigen
+
+::: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Factureringsaccounts.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Zie Uw factuur of factuur [](view-your-bill-or-invoice.md) weergeven en Uw factuur of factuur begrijpen voor meer [informatie over uw factuur of factuur.](understand-your-invoice2.md)
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina **Factureringsaccounts.** > 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, zie Uw factuur bekijken of [Fapiaos voor Office 365 krijgen beheerd door 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina **Factureringsaccounts.** > 
 
 ::: moniker-end
 
-## <a name="change-your-sold-to-address"></a>Uw adres onder Verkocht aan wijzigen
-
-1. Ga in het beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Factureringsaccounts.</a>
-
-2. selecteer **Factureringsaccountgegevens bewerken.**
+2. Selecteer **Factureringsaccountgegevens bewerken.**
 
 3. Werk uw organisatiegegevens bij en selecteer **opslaan.**
   
@@ -83,82 +70,53 @@ Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, zie Uw factu
 
 1. Ga in het beheercentrum  naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingsmethoden voor</a> facturering.
 
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina  > **Betalingsmethoden voor** facturering.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina  > **Betalingsmethoden voor** facturering.
+
+::: moniker-end
+
 2. Selecteer de creditcard of bankrekening die u wilt wijzigen.
 
 3. Selecteer op **de pagina Betalingswijzedetails** **de optie Bewerken.**
 
 4. Werk uw factuuradres bij en selecteer **Vervolgens Opslaan** \> **gedaan.**
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-2. Selecteer het abonnement dat u wilt wijzigen en selecteer **vervolgens Betalingsgegevens wijzigen.**
-
-    ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
-  
-3. *Klanten van creditcards en bankrekeningen:*  Selecteer op **de pagina Betalingsgegevens** wijzigen de creditcard of bankrekening die u wilt bijwerken, selecteer **Details bewerken,** werk uw factuuradres bij en selecteer **Verzenden.**
-  
-    > [!NOTE]
-    > De mogelijkheid om per bankrekening te betalen is niet beschikbaar in sommige landen of regio's.
-
-     *Factuurklanten:*  Werk op **de pagina Betalingsgegevens** wijzigen uw factuuradres bij en selecteer **Verzenden.**
-  
-    > [!NOTE]
-    > De mogelijkheid om een factuur per cheque te betalen, is niet beschikbaar in sommige landen of regio's.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
-
-2. Selecteer het abonnement dat u wilt wijzigen en selecteer **vervolgens Betalingsgegevens wijzigen.**
-
-    ![The Payment method section of a Subscription card for a subscription that pays by invoice.](../../media/51ab38aa-6e15-4e51-9f27-261c38c98fed.png)
-  
-3. Werk op **de pagina Betalingsgegevens** wijzigen uw factuuradres bij en selecteer **verzenden.**
-
-    U kunt uw betalingswijze voor Office 365 beheerd door 21Vianet wijzigen van Factuur in Online betaling met Alipay of China UnionPay, of omgekeerd.
-
-::: moniker-end
-
 ## <a name="change-your-service-usage-address"></a>Uw adres voor servicegebruik wijzigen
 
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Selecteer op **het** tabblad Producten het abonnement dat u wilt wijzigen.
-3. Selecteer op de pagina abonnementsgegevens in de sectie **Servicegebruiksadres** de optie **Adres van servicegebruik bewerken.**
-4. Werk uw adres bij in het deelvenster **Servicegebruik** bewerken en selecteer **Opslaan.**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-2. Selecteer het abonnement dat u wilt wijzigen, selecteer **Meer acties** en kies vervolgens Adres **van servicegebruik bewerken.**
-
-    ![Close-up van het menu Meer acties.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
-  
-3. Werk uw adres bij in het deelvenster Uw **servicegebruik bewerken** en selecteer **Verzenden.**
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 
-2. Selecteer het abonnement dat u wilt wijzigen, selecteer **Meer acties** en kies vervolgens Adres **van servicegebruik bewerken.**
-
-    ![Close-up van het menu Meer acties.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
-  
-3. Werk uw adres bij in het deelvenster Uw **servicegebruik bewerken** en selecteer **Verzenden.**
+    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, zie Uw factuur bekijken of [Fapiaos voor Office 365 krijgen beheerd door 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
 
 ::: moniker-end
+
+2. Selecteer op **het** tabblad Producten het abonnement dat u wilt wijzigen.
+
+3. Selecteer op de pagina abonnementsgegevens in de sectie **Servicegebruiksadres** de optie **Adres van servicegebruik bewerken.**
+
+4. Werk uw adres bij in het deelvenster **Servicegebruik** bewerken en selecteer **Opslaan.**
 
 ## <a name="change-the-alternate-email-address-your-billing-notifications-are-sent-to"></a>Het alternatieve e-mailadres waarnaar uw factuurmeldingen worden verzonden, wijzigen
 
@@ -177,9 +135,9 @@ Standaard worden de factureringsmeldingen van uw organisatie verzonden naar het 
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>Het alternatieve e-mailadres voor een andere beheerder wijzigen
 
 U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheerders in uw organisatie wijzigen.
-
-::: moniker range="o365-worldwide"
   
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum  naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsmeldingen.</a>
 
 ::: moniker-end
@@ -200,12 +158,9 @@ U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheer
 
 3. Typ in **het deelvenster Gebruikersrollen** bewerken het alternatieve e-mailadres dat u wilt gebruiken en selecteer **Opslaan.**
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Uw rekening of factuur weergeven](view-your-bill-or-invoice.md)
-
-[Inzicht in uw rekening of factuur](understand-your-invoice2.md)
-
-[Betalen voor uw abonnement](pay-for-your-subscription.md)
-
+[Uw factuur of factuur weergeven](view-your-bill-or-invoice.md)\
+[Uw factuur of factuur begrijpen](understand-your-invoice2.md)\
+[Betalen voor uw abonnement](pay-for-your-subscription.md)\
 [Abonnementen en facturering - Help voor beheerders](../index.yml)

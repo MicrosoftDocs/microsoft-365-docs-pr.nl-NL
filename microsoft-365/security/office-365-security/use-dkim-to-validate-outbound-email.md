@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 10/8/2019
+ms.date: 04/05/2021
 audience: ITPro
 ms.topic: article
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.custom:
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df380c739724ed285401af4af451b610129c382c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 5b5122984969113ec0c0533952ea3bf18bff5e5c
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204460"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592106"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -60,11 +60,11 @@ In dit artikel:
 
 - [Hoe DKIM beter werkt dan alleen SPF om schadelijke spoofing te voorkomen](use-dkim-to-validate-outbound-email.md#HowDKIMWorks)
 
-- [Uw 1024-bits sleutels handmatig upgraden naar 2048-bits DKIM-versleutelingssleutels](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
+- [Stappen om uw 1024-bits sleutels handmatig te upgraden naar 2048-bits DKIM-versleutelingssleutels](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
 
 - [Stappen die u moet uitvoeren om DKIM handmatig in te stellen](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
 
-- [DKIM configureren voor meer dan één aangepast domein](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
+- [Stappen om DKIM te configureren voor meer dan één aangepast domein](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
 
 - [Het DKIM-handtekeningenbeleid uitschakelen voor een aangepast domein](use-dkim-to-validate-outbound-email.md#DisableDKIMSigningPolicy)
 
@@ -85,7 +85,7 @@ Als u in dit voorbeeld slechts een TXT-record voor SPF had gepubliceerd voor uw 
 
 Kortom: DKIM gebruikt een persoonlijke sleutel om een versleutelde handtekening in de berichtkoppen in te voegen. Het ondertekenende of uitgaande domein wordt in de kop ingevoegd als de waarde van het veld **d=**. Het verifiërende of ontvangende domein gebruikt vervolgens het veld **d=** om de openbare sleutel uit DNS te zoeken en het bericht te verifiëren. Als het bericht is geverifieerd, is de DKIM-controle gelukt.
 
-## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Uw 1024-bits sleutels handmatig upgraden naar 2048-bits DKIM-versleutelingssleutels
+## <a name="steps-to-manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Uw 1024-bits sleutels handmatig upgraden naar 2048-bits DKIM-versleutelingssleutels
 <a name="1024to2048DKIM"> </a>
 
 Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt in deze instructies uitgelegd hoe je de 1024-bits sleutel upgradet naar 2048-bits in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). De onderstaande stappen zijn voor twee gebruikscases: kies de optie die het geschiktst is voor jouw configuratie.
@@ -192,7 +192,7 @@ TTL:                3600
 > Het is belangrijk om de tweede record te maken, maar mogelijk is slechts één van de kiezers beschikbaar op het moment dat het bestand wordt gemaakt. In wezen kan de tweede kiezer verwijzen naar een adres dat nog niet is gemaakt. We raden u niettemin aan om de tweede CNAME-record te maken, omdat de sleutelrotatie dan probleemloos zal verlopen.
 
 
-### <a name="enable-dkim-signing-for-your-custom-domain"></a>DKIM-ondertekening voor uw aangepaste domein inschakelen
+### <a name="steps-to-enable-dkim-signing-for-your-custom-domain"></a>Stappen om DKIM-ondertekening voor uw aangepaste domein in te schakelen
 <a name="EnableDKIMinO365"> </a>
 
 Als u de CNAME-records in DNS hebt gepubliceerd, kunt u DKIM-ondertekening inschakelen via Microsoft 365. U kunt dit doen via het Microsoft 365-beheercentrum of met behulp van Windows PowerShell.
@@ -201,13 +201,13 @@ Als u de CNAME-records in DNS hebt gepubliceerd, kunt u DKIM-ondertekening insch
 
 1. [Meld u aan bij Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) met uw werk- of schoolaccount.
 
-2. Selecteer het pictogram voor het startprogramma voor apps in de linkerbovenhoek en kies **Beheer**.
+2. Ga afhankelijk van de portal die u gebruikt naar [protection.office.com](https://protection.office.com) of [security.microsoft.com](https://security.microsoft.com) en volg het onderstaande pad.
 
-3. Vouw in het navigatievenster aan de linkerkant **Beheerder** uit en kies **Exchange**.
+|protection.office.com  |security.microsoft.com  |
+|---------|---------|
+| Bedreigingsbeheer > Beleid > Extra beleid > DKIM     | E-mail en samenwerking > Beleid en regels > Bedreigingsbeleid > Extra beleid > DKIM        | 
 
-4. Ga naar **Bescherming** \> **dkim**.
-
-5. Selecteer het domein waarvoor u DKIM wilt inschakelen en kies vervolgens **Inschakelen** voor **Berichten voor dit domein ondertekenen met DKIM-handtekeningen**. Herhaal deze stap voor elk aangepast domein.
+3. Selecteer het domein waarvoor u DKIM wilt inschakelen en kies vervolgens **Inschakelen** voor **Berichten voor dit domein ondertekenen met DKIM-handtekeningen**. Herhaal deze stap voor elk aangepast domein.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>DKIM-ondertekening voor uw aangepaste domein inschakelen met behulp van Windows PowerShell
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 16d78cf014e775ecb98a59d90b5734836eb3cbf2
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 5cd1f64d006b5462634dd47df9083e1a89db0e8c
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476623"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615210"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Nieuwe functies in Microsoft Defender voor Eindpunt voor Mac
 
@@ -38,8 +38,10 @@ ms.locfileid: "51476623"
 > [!IMPORTANT]
 > Voor macOS 11 (Big Sur) vereist Microsoft Defender voor Eindpunt extra configuratieprofielen. Als u een bestaande klant bent die upgradet van eerdere versies van macOS, moet u de extra configuratieprofielen implementeren die op [deze pagina worden vermeld.](mac-sysext-policies.md)
 
-> [!IMPORTANT]
-> Ondersteuning voor macOS 10.13 (High Sierra) is stopgezet op 15 februari 2021.
+## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
+
+- Microsoft Defender voor Eindpunt voor Mac is nu beschikbaar in preview voor klanten van de Amerikaanse overheid. Zie Microsoft [Defender for Endpoint voor klanten](gov.md)van de Amerikaanse overheid voor meer informatie.
+- Prestatieverbeteringen (met name voor de situatie waarin de XCode Simulator-app wordt gebruikt) en & correcties
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
 

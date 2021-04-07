@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 847dd2d090fb26c5558d4a3496a79cf4829881fb
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: 81a1a4ce2e99caaca1025c6ddbbdfdc7ab7c449d
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604391"
+ms.locfileid: "51615505"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Mogelijkheden voor bedreigingsbeveiliging configureren in Microsoft 365
 
@@ -128,11 +128,8 @@ Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veilige
 ![Proces voor de implementatie van Microsoft Defender voor Eindpunt](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
 
 1. [Bereid uw omgeving voor op Microsoft Defender voor Eindpunt.](../security/defender-endpoint/deployment-phases.md)
-
 2. [Microsoft Defender voor eindpunt implementeren.](../security/defender-endpoint/production-deployment.md)
-
 3. [Onboard to the Microsoft Defender for Endpoint service](../security/defender-endpoint/onboarding.md).
-
 4. [Voltooi uw belangrijkste beveiligingstaken.](../security/defender-endpoint/tvm-security-recommendation.md)
 
 ### <a name="more-information-about-microsoft-defender-for-endpoint"></a>Meer informatie over Microsoft Defender voor Eindpunt
@@ -149,11 +146,8 @@ Met Microsoft Defender voor Office 365 kunnen personen in uw organisatie veilige
 ![Proces voor het implementeren van Microsoft Cloud App Security](../media/deploy-threat-protection/deploy-mcas-steps.png) 
 
 1. [Stel de portal en andere basisvereisten in.](/cloud-app-security/general-setup)
-
 2. [Clouddetectie instellen en](/cloud-app-security/set-up-cloud-discovery) [apps verbinden.](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
-
 3. [Voorwaardelijke toegang app-beheer implementeren voor aanbevolen apps](/cloud-app-security/proxy-deployment-aad).
-
 4. [Gebruik de onderzoekshulpmiddelen en dashboards.](/cloud-app-security/investigate)
 
 ### <a name="more-information-about-microsoft-cloud-app-security"></a>Meer informatie over Microsoft Cloud App Security

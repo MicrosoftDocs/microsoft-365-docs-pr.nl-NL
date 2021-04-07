@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Ontdek hoe je de kosten, facturering en betalingsgegevens op je factuur voor Office 365 voor bedrijven interpreteert en hoe je het inkoopordernummer wijzigt.
-ms.openlocfilehash: 99b52928d458e7883919ee46aaafaa7a66278447
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 56f1ba3e7cc328593873aaf06ddfe6dc82fc1a17
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911684"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615373"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Je rekening of factuur voor Microsoft 365 voor bedrijven bekijken
 
@@ -106,36 +106,24 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-
-2. Je kan de weergave wijzigen in **Tabelweergave** door **Kaarten** te selecteren.
-
-3. Kies het abonnement dat je wilt wijzigen.
-
-4. In de sectie **Facturatie**, naast **factuur**, selecteer **Bewerken**.
-
-5. Voer onder in het deelvenster **Betalingsgegevens wijzigen** je inkoopnummer in en kies **Verzenden**.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-2. Kies het abonnement die je wilt wijzigen en selecteer vervolgens in de sectie **Betaalmethode****Betaalmethode wijzigen**.
-
-3. Voer onder in het deelvenster **Betalingsgegevens wijzigen** je inkoopnummer in en kies vervolgens **Verzenden**.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
-
-2. Kies het abonnement die je wilt wijzigen en selecteer vervolgens in de sectie **Betaalmethode****Betaalmethode wijzigen**.
-
-3. Voer onder in het deelvenster **Betalingsgegevens wijzigen** je inkoopnummer in en kies vervolgens **Verzenden**.
-
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 ::: moniker-end
+
+1. Selecteer op **het** tabblad Producten het abonnement dat u wilt wijzigen.
+
+1. Selecteer op de pagina Abonnementsgegevens in de sectie **Abonnements-** en betalingsinstellingen de optie **Factuur bewerken.** 
+
+1. Voer onderaan het deelvenster **Details bewerken voor** betalen via spraak in en selecteer opslaan. 
 
 ## <a name="related-articles"></a>Verwante artikelen
 
