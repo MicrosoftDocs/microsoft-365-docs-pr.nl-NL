@@ -27,18 +27,18 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Lees hoe u beheerdersrollen kunt toewijzen aan een gebruiker of meerdere gebruikers in uw bedrijf, zodat ze specifieke taken kunnen uitvoeren in het beheercentrum.
-ms.openlocfilehash: cfc4a7e106ca343435777aba1d0b9836f90a6f44
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5c40199823c93968be97302efc8e2d404f3cfed1
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904502"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604331"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
 Als u de persoon bent die uw Microsoft Business-abonnement heeft gekocht, bent u de globale beheerder. Dit betekent dat u onbeperkte controle hebt over de producten in uw abonnementen en dat u toegang hebt tot de meeste gegevens.
 
-Zie[Over beheerdersrollen](about-admin-roles.md) voor meer informatie.
+Raadpleeg [Over beheerdersrollen](about-admin-roles.md) voor meer informatie.
 
 Wanneer u nieuwe gebruikers toevoegt, als u ze geen beheerdersrol toewijst, zijn ze in de gebruikersrol en hebben ze geen beheerdersbevoegdheden aan een van de Microsoft-beheercentra.  Maar als u hulp nodig hebt om dingen voor elkaar te krijgen, kunt u een beheerdersrol toewijzen aan een gebruiker. Als u bijvoorbeeld iemand nodig hebt om wachtwoorden opnieuw in te stellen, moet u deze persoon niet de rol van globale beheerder toewijzen, maar de rol van wachtwoordbeheerder toewijzen. Te veel globale beheerders, met onbeperkte toegang tot uw gegevens en onlinezaken, is een beveiligingsrisico.
 
@@ -59,7 +59,7 @@ U kunt gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 ### <a name="assign-admin-roles-to-users-using-roles"></a>Beheerdersrollen toewijzen aan gebruikers met rollen
 
-1. Ga in het beheercentrum naar **Rollenrollen** om alle beheerdersrollen te bekijken die >  beschikbaar zijn voor uw organisatie.
+1. Ga in het beheercentrum naar **Rollen.** Kies de **tabbladen Azure AD** of **Intune** om de beheerdersrollen te bekijken die beschikbaar zijn voor uw organisatie.
 2. Selecteer de beheerdersrol aan wie u de gebruiker wilt toewijzen.
 3. Selecteer **Toegewezen beheerders** > **toevoegen.**
 4. Typ de weergavenaam of **gebruikersnaam** van de gebruiker **en** selecteer de gebruiker in de lijst met suggesties.
@@ -70,7 +70,7 @@ U kunt gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 1. Ga in het beheercentrum naar **de pagina Gebruikers** actieve > [gebruikers.](https://go.microsoft.com/fwlink/p/?linkid=834822)
 
-2. Selecteer op **de pagina** Actieve gebruikers de gebruiker van wie u de beheerdersrol wilt wijzigen. Selecteer in het deelvenster Flyout naast **Rollen** de optie **Rollen beheren.**
+2. Selecteer op **de pagina** Actieve gebruikers de gebruiker van wie u de beheerdersrol wilt wijzigen. Selecteer in het deelvenster Flyout onder **Rollen** de optie **Rollen beheren.**
 
 3. Selecteer de beheerdersrol die u aan de gebruiker wilt toewijzen. Als u de rol die u zoekt niet ziet, **selecteert** u Alles onder aan de lijst bekijken.
 

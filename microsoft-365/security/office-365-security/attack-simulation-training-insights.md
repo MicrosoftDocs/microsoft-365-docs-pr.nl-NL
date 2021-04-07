@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Beheerders kunnen leren hoe training voor de aanvalssimulatie in het Microsoft 365-beveiligingscentrum van invloed is op werknemers en inzichten kunnen krijgen uit simulatie- en trainingsresultaten.
 ms.technology: mdo
-ms.openlocfilehash: 93d8829f9fbc4271d33e3208e5564529b4022fc3
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0fcb88406558f73b587d8452375c33dbbec1c78b
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204075"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51600005"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Meer inzicht krijgen middels aanvalssimulatietraining
 
@@ -45,7 +45,7 @@ Als u een gedetailleerder rapport wilt bekijken, klikt u op Simulaties en **trai
 
 Op het [ **tabblad Simulaties** gaat](https://security.microsoft.com/attacksimulator?viewid=simulations)u met het selecteren van een simulatie naar de details van de simulatie, waar u de sectie **Aanbevolen acties** vindt.
 
-In de sectie Aanbevolen acties worden aanbevelingen be details gegeven die beschikbaar zijn in [Microsoft Secure Score.](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score) Deze aanbevelingen zijn gebaseerd op de payload die in de simulatie wordt gebruikt en helpen u uw werknemers en uw omgeving te beschermen. Als u op elke verbeteringsactie klikt, krijgt u de details.
+In de sectie Aanbevolen acties worden aanbevelingen be details gegeven die beschikbaar zijn in [Microsoft Secure Score.](../defender/microsoft-secure-score.md) Deze aanbevelingen zijn gebaseerd op de payload die in de simulatie wordt gebruikt en helpen u uw werknemers en uw omgeving te beschermen. Als u op elke verbeteringsactie klikt, krijgt u de details.
 
 > [!div class="mx-imgBorder"]
 > ![Sectie Aanbevelingsacties over training voor aanvalssimulatie](../../media/attack-sim-preview-recommended-actions.png)

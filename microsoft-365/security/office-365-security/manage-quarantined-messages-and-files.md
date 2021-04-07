@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen informatie krijgen over het weergeven en beheren van berichten in quarantaine voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook in quarantaine geplaatste bestanden beheren in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3dee441a3442454c5f2978422d18a2084f8377f3
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 7dc7fd26d7a81bc76850af4799363c8d17fc1c83
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215534"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599533"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -189,7 +189,6 @@ Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u mo
 - **Berichtkop bekijken**: kies deze koppeling om de tekst van de berichtkop te bekijken. Om de kopvelden en -waarden uitgebreid te analyseren, kopieert u de berichtkoptekst naar uw klembord en kies vervolgens **Microsoft-berichtkopanalyse** om naar de Verbindingsanalyse op afstand te gaan (klik met de rechtermuisknop en kies **In een nieuw tabblad openen** als u Microsoft 365 niet wilt verlaten om deze taak te voltooien). Plak de berichtkop in de pagina in de sectie Berichtkopanalyse en kies **Koppen analyseren**:
 
 - **Preview van bericht**: kies in het deelvenster dat wordt weergegeven een van de volgende opties:
-
   - **Bronweergave**: toont de HTML-versie van het bericht met uitgeschakelde koppelingen.
   - **Tekstweergave**: toont het bericht in gewone tekst.
 
@@ -197,7 +196,7 @@ Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u mo
 
 - **Bericht downloaden**: selecteer in het deelvenster dat wordt weergegeven **Ik begrijp de risico’s van het downloaden van dit bericht** om een lokale kopie van het bericht op te slaan in .eml-indeling.
 
-- **Afzender blokkeren:** hiermee wordt geblokkeerd dat de afzender geen e-mailberichten naar het postvak van de geadresseerde van de beheerder verstuurt.
+- **Afzender blokkeren:** voorkomt dat de afzender berichten verstuurt naar geadresseerden in de organisatie.
 
 - **Bericht verzenden:** Kies de volgende opties in het flyoutvenster dat wordt weergegeven:
 

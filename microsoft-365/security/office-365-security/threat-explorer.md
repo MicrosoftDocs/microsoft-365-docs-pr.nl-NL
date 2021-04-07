@@ -19,12 +19,12 @@ description: Gebruik Explorer- en realtimedetecties in het Beveiligings complian
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c5935115d7496aca22c3941f34983cddebe7b46
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 7c601169d76fe92ac3038ccb25c5c50aa390f714
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570982"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599885"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigingsverkenner en realtimedetecties
 
@@ -113,7 +113,7 @@ Informatie over tags wordt ook weergegeven in de flyout klikken op URL's. Als u 
 > [!div class="mx-imgBorder"]
 > ![URL-tags](../../media/tags-urls.png)
 > 
-Bekijk deze [video voor meer informatie.](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4) 
+Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4). 
 
 ## <a name="improvements-to-the-threat-hunting-experience-upcoming"></a>Verbeteringen in de bedreigingsjachtervaring (binnenkort)
 
@@ -520,7 +520,7 @@ Naast de scenario's die in dit artikel worden beschreven, zijn er nog veel meer 
 - [Schadelijke bestanden weergeven die zijn gedetecteerd in SharePoint Online, OneDrive en Microsoft Teams](./mdo-for-spo-odb-and-teams.md)
 - [Een overzicht krijgen van de weergaven in Threat Explorer (en realtime detecties)](threat-explorer-views.md)
 - [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
-- [Geautomatiseerd onderzoek en antwoord in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [Geautomatiseerd onderzoek en antwoord in Microsoft Threat Protection](../defender/m365d-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 

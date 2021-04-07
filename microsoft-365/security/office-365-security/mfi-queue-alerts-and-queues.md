@@ -12,12 +12,12 @@ ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Beheerders kunnen leren hoe ze de widget Wachtrijen gebruiken in het e-mailstroomdashboard in het beveiligings- & compliancecentrum om mislukte e-mailstroom naar hun on-premises of partnerorganisaties te controleren via uitgaande verbindingslijnen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 14cadd0e8611fbbc65c3bdc9849beebf3a3eb34d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 65452b0ad7c31673c910ba48c9c6709995e563ce
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204919"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599981"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Inzicht in wachtrijen in het beveiligings- & compliancecentrum
 
@@ -87,7 +87,7 @@ Als u op het aantal berichten in de widget klikt, wordt er een fly-out met beric
 - **Doelserver**
 - **Laatste IP-adres**
 - **Laatste fout**
-- **Oplossen: er** zijn veelvoorkomende problemen en oplossingen beschikbaar. Als de koppeling **Nu oplossen** beschikbaar is, klikt u erop om het probleem op te lossen. Klik anders op beschikbare koppelingen voor meer informatie over de fout en mogelijke oplossingen.
+- **Oplossen: er** zijn veelvoorkomende problemen en oplossingen beschikbaar. Als er **een koppeling Nu oplossen** beschikbaar is, klikt u erop om het probleem op te lossen. Klik anders op beschikbare koppelingen voor meer informatie over de fout en mogelijke oplossingen.
 
 ![Details nadat u op het inzicht Wachtrijen in het e-mailstroomdashboard hebt geklikt](../../media/mfi-queues-details.png)
 

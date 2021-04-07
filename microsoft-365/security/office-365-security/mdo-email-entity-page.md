@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Klanten van Microsoft Defender voor Office 365 E5 en ATP P1 en ATP P2 kunnen nu een 360-gradenweergave van elke e-mail met pagina met e-mailentiteit krijgen.
-ms.openlocfilehash: 0fbf3843aa6e6cef1e748d3b71a68a42efd6fc24
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6d2777113e7e9f9ce760dab3b83252eceab520ff
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204146"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599485"
 ---
 # <a name="the-email-entity-page"></a>Entiteitspagina van e-mail
 
@@ -30,16 +30,16 @@ ms.locfileid: "51204146"
 - [Paginatabbladen voor e-mailentiteit gebruiken](#use-email-entity-page-tabs)
 - [Nieuw op de pagina e-mailentiteit](#new-to-the-email-entity-page)
 
-Beheerders van Microsoft Defender voor Office 365 (of MDO) E5 en MDO P1 en P2 hebben een 360 graden-weergave van e-mail met behulp van de pagina **E-mailentiteit.** Deze go-to-e-mailpagina is gemaakt om informatie over de [fly-out 'e-mailgegevens'](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer-views)van Threat Explorer te verbeteren.
+Beheerders van Microsoft Defender voor Office 365 (of MDO) E5 en MDO P1 en P2 hebben een 360 graden-weergave van e-mail met behulp van de pagina **E-mailentiteit.** Deze go-to-e-mailpagina is gemaakt om informatie over de [fly-out 'e-mailgegevens'](threat-explorer-views.md)van Threat Explorer te verbeteren.
 
 ## <a name="reach-the-email-entity-page"></a>De pagina e-mailentiteit bereiken
 
 In het bestaande Office-beveiligings- en compliancecentrum (protection.office.com) of het nieuwe Microsoft 365-beveiligingscentrum (security.microsoft.com) kunt u de pagina e-mailentiteit bekijken en gebruiken..
 
-|Centreer  |URL  |Navigatie  |
-|---------|---------|---------|
-|Beveiligings- & compliance |protection.office.com | Threat Management > Explorer   |
-|Microsoft 365-beveiligingscentrum |security.microsoft.com | E-mail & Samenwerking > Explorer |
+|Centreer|URL|Navigatie|
+|---|---|---|
+|Beveiligings- & compliance |protection.office.com|Threat Management \> Explorer|
+|Microsoft 365-beveiligingscentrum |security.microsoft.com|E-& \> Samenwerkingsverkenner|
 
 Selecteer in Threat Explorer het onderwerp van een e-mailbericht dat u onderzoekt. Er wordt een gouden balk weergegeven boven aan de e-mail fly-out voor die e-mail. In deze uitnodiging voor de nieuwe pagina leest u 'Try out our new email entity page with enriched data...'. Selecteer om de nieuwe pagina weer te geven.
 
@@ -81,22 +81,23 @@ Met de tabbladen boven aan de entiteitspagina kunt u e-mail efficiënt onderzoek
 Deze pagina met e-mailentiteitentiteit biedt nieuwe mogelijkheden. Hier is de lijst.
 
 ### <a name="email-preview-for-cloud-mailboxes"></a>E-mailvoorbeeld voor cloudpostvakken
+
 Beheerders kunnen een voorbeeld van e-mailberichten bekijken in cloudpostvakken, ***als*** de e-mailberichten nog steeds aanwezig zijn in de cloud. In het geval van een soft delete (door een beheerder of gebruiker) of ZAP (om in quarantaine te plaatsen), zijn e-mailberichten niet meer aanwezig in de cloudlocatie. In dat geval kunnen beheerders geen voorbeeld van deze specifieke e-mailberichten bekijken. E-mailberichten die zijn verwijderd of waar de bezorging is mislukt, zijn nooit in het postvak be komen. Hierdoor kunnen beheerders ook geen voorbeeld van deze e-mailberichten bekijken.
 
 > [!WARNING]
->Als u een voorbeeld van e-mailberichten bekijkt, moet een speciale rol met de naam ***Voorbeeld** _ worden toegewezen aan beheerders. U kunt deze rol toevoegen door naar _ *Machtigingen & rollen** > **E-mail &** **samenwerkingsrollen** in *security.microsoft.com* of Machtigingen *in* protection.office.com. Voeg de ***voorbeeldrol*** toe aan een van de rollengroepen of een kopie van een rollengroep waarmee beheerders in uw organisatie kunnen werken in Threat Explorer.
+> Als u een voorbeeld van e-mailberichten bekijkt, moet een speciale rol met de naam ***Voorbeeld** _ worden toegewezen aan beheerders. U kunt deze rol toevoegen door naar _ *Machtigingen & rollen** > **E-mail &** **samenwerkingsrollen** in *security.microsoft.com* of Machtigingen *in* protection.office.com. Voeg de ***voorbeeldrol*** toe aan een van de rollengroepen of een kopie van een rollengroep waarmee beheerders in uw organisatie kunnen werken in Threat Explorer.
 
 ### <a name="detonation-details"></a>Detonatiedetails
 
 Deze details zijn specifiek voor e-mailbijlagen en URL's.
 
 Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of hyperlinks in hun postvakken, zoals Detonation Chain, Detonation Summary, Screenshot en Observed behavior details om klanten te helpen begrijpen waarom de bijlage of URL als schadelijk en tot stand is gebracht.
- 
+
 - *Detonatieketen:* één bestand of URL-detonatie kan meerdere detonaties veroorzaken. De detonatieketen houdt het pad van detonaties bij, inclusief het oorspronkelijke schadelijke bestand of de URL die de uitspraak heeft veroorzaakt, en alle andere bestanden of URL's die zijn veroorzaakt door de detonatie. Deze URL's of bijgevoegde bestanden zijn mogelijk niet rechtstreeks aanwezig in de e-mail, maar het is belangrijk om te bepalen waarom het bestand of de URL schadelijk is gevonden.
 - *Samenvatting van de detonatie:* Dit geeft informatie over:
-    - Detonatietijdbereik.
-    - Uitspraak van het bijgevoegde bestand of DE URL.
-    - Gerelateerde informatie (bestandsnummer, URL's, IPs of Domeinen), die andere entiteiten zijn die tijdens de detonatie worden onderzocht.
+  - Detonatietijdbereik.
+  - Uitspraak van het bijgevoegde bestand of DE URL.
+  - Gerelateerde informatie (bestandsnummer, URL's, IPs of Domeinen), die andere entiteiten zijn die tijdens de detonatie worden onderzocht.
 - *Schermafbeelding van detonatie:* hier ziet u schermafbeeldingen die zijn gemaakt tijdens het detonatieproces.
 - *Detonatiedetails:* dit zijn de exacte gedragsdetails van elk proces dat plaatsvond tijdens de detonatie.
 
@@ -111,45 +112,45 @@ Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of 
 *E-maildetails:* Details die nodig zijn voor een beter begrip van e-mail die beschikbaar is op *het tabblad* Analyse.
 
 - *Exchange Transport Rules (ETR's of Mailflow-regels)*: Deze regels worden toegepast op een bericht in de transportlaag en hebben voorrang op phish- en spam-vonnissen. Deze kunnen alleen worden gemaakt en gewijzigd in het Exchange-beheercentrum, maar als een ETR van toepassing is op een bericht, worden de ETR-naam en GUID hier weergegeven. Waardevolle informatie voor het bijhouden van doeleinden.
-    
+
 - *Systeem overschrijven:* Dit is een manier om uitzonderingen te maken op de bezorgingslocatie die is bedoeld voor een bericht door de bezorgingslocatie te overschrijven die door het systeem wordt gegeven (volgens de technologie voor bedreiging en detectie).
-    
+
 - *Regel ongewenste postvak:*'Ongewenste e-mail' is verborgen Regel voor Postvak IN die standaard is ingeschakeld in elk postvak.
-    - Wanneer de regel Ongewenste e-mail is ingeschakeld in het postvak, kan Exchange Online Protection (EOP) berichten volgens bepaalde criteria naar Ongewenste e-mail verplaatsen. De verhuizing kan zijn gebaseerd op actie voor spamfiltering *Bericht verplaatsen* naar de map Ongewenste e-mail of op de lijst Geblokkeerde afzenders in het postvak. Het uitschakelen van de regel Ongewenste e-mail voorkomt dat berichten worden bezorgd in de map Ongewenste e-mail op basis van de lijst Veilige *afzenders* in het postvak.
-    - Wanneer de regel voor ongewenste e-mail *is* uitgeschakeld in het postvak, kan EOP geen berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie Voor spamfiltering Bericht verplaatsen naar map Ongewenste e-mail of de veilige lijstverzameling in het postvak.
-    
+  - Wanneer de regel Ongewenste e-mail is ingeschakeld in het postvak, kan Exchange Online Protection (EOP) berichten volgens bepaalde criteria naar Ongewenste e-mail verplaatsen. De verhuizing kan zijn gebaseerd op actie voor spamfiltering *Bericht verplaatsen* naar de map Ongewenste e-mail of op de lijst Geblokkeerde afzenders in het postvak. Het uitschakelen van de regel Ongewenste e-mail voorkomt dat berichten worden bezorgd in de map Ongewenste e-mail op basis van de lijst Veilige *afzenders* in het postvak.
+  - Wanneer de regel voor ongewenste e-mail *is* uitgeschakeld in het postvak, kan EOP geen berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie Voor spamfiltering Bericht verplaatsen naar map Ongewenste e-mail of de veilige lijstverzameling in het postvak.
+
 - *Bulk Compliant Level (BCL)*: Het bulkklachtsniveau (BCL) van het bericht. Een hogere BCL geeft aan dat een bulkbericht waarschijnlijk meer klachten kan genereren (het natuurlijke resultaat als de e-mail waarschijnlijk spam is).
-    
+
 - *Betrouwbaarheidsniveau voor spam (SCL)*: Het betrouwbaarheidsniveau voor spam (SCL) van het bericht. Hoe hoger de waarde, hoe groter de kans dat het bericht spam is.
 
 - *Domeinnaam:* is de domeinnaam van de afzender.
-    
+
 - *Domeineigenaar:* geeft de eigenaar van het verzendende domein aan.
-    
+
 - *Domeinlocatie:* geeft de locatie van het verzendende domein aan.
-    
+
 - *Domein gemaakt datum:* geeft de datum van het maken van het verzendende domein aan. Een nieuw gemaakt domein is iets waar u voorzichtig mee kunt zijn als andere signalen wijzen op verdacht gedrag.
 
 *E-mailverificatie:* E-mailverificatiemethoden die door Microsoft 365 worden gebruikt, zijn SPF, DKIM en DMARC.
 
 - Sender Policy Framework **(SPF):** Beschrijft de resultaten voor SPF-controle voor het bericht. Mogelijke waarden kunnen zijn:
-    - Pass (IP-adres): De SPF controleert of het bericht is doorgegeven en bevat het IP-adres van de afzender. De client wordt geautoriseerd e-mail te verzenden of door te sturen namens het domein van de afzender.
-    - Fail (IP-adres): de SPF-controle voor het bericht is mislukt en bevat het IP-adres van de afzender. Dit wordt ook wel een hard fail genoemd.
-    - Softfail (reden): De SPF-record heeft de host aangewezen als niet toegestaan om te verzenden, maar is in overgang.
-    - Neutraal: In de SPF-record wordt expliciet vermeld dat niet wordt vermeld of het IP-adres is geautoriseerd om te verzenden.
-    - Geen: Het domein heeft geen SPF-record of de SPF-record evalueert niet tot een resultaat.
-    - Temperror: Er is een tijdelijke fout opgetreden. Bijvoorbeeld een DNS-fout. Dezelfde controle kan mogelijk later wel worden uitgevoerd.
-    - Permerror: Er is een permanente fout opgetreden. Het domein heeft bijvoorbeeld een foutief ingedeeld SPF-record.
+  - Pass (IP-adres): De SPF controleert of het bericht is doorgegeven en bevat het IP-adres van de afzender. De client wordt geautoriseerd e-mail te verzenden of door te sturen namens het domein van de afzender.
+  - Fail (IP-adres): de SPF-controle voor het bericht is mislukt en bevat het IP-adres van de afzender. Dit wordt ook wel een hard fail genoemd.
+  - Softfail (reden): De SPF-record heeft de host aangewezen als niet toegestaan om te verzenden, maar is in overgang.
+  - Neutraal: In de SPF-record wordt expliciet vermeld dat niet wordt vermeld of het IP-adres is geautoriseerd om te verzenden.
+  - Geen: Het domein heeft geen SPF-record of de SPF-record evalueert niet tot een resultaat.
+  - Temperror: Er is een tijdelijke fout opgetreden. Bijvoorbeeld een DNS-fout. Dezelfde controle kan mogelijk later wel worden uitgevoerd.
+  - Permerror: Er is een permanente fout opgetreden. Het domein heeft bijvoorbeeld een foutief ingedeeld SPF-record.
 
 - DomainKeys Identified Mail **(DKIM):**
-    - Pass: Geeft de DKIM-controle aan op het doorgegeven bericht.
-    - Fail (reden): Hiermee geeft u aan dat de DKIM-controle voor het bericht is mislukt en waarom. Bijvoorbeeld als het bericht niet is ondertekend of als de handtekening niet is gecontroleerd.
-    - Geen: Geeft aan dat het bericht niet is ondertekend. Dit kan al of niet betekenen dat het domein een DKIM-record heeft of dat het DKIM-record geen resultaat oplevert. Het betekent in elk geval dat dit bericht niet is ondertekend.
+  - Pass: Geeft de DKIM-controle aan op het doorgegeven bericht.
+  - Fail (reden): Hiermee geeft u aan dat de DKIM-controle voor het bericht is mislukt en waarom. Bijvoorbeeld als het bericht niet is ondertekend of als de handtekening niet is gecontroleerd.
+  - Geen: Geeft aan dat het bericht niet is ondertekend. Dit kan al of niet betekenen dat het domein een DKIM-record heeft of dat het DKIM-record geen resultaat oplevert. Het betekent in elk geval dat dit bericht niet is ondertekend.
 
 - Domain-based Message Authentication, Reporting and Conformance **(DMARC):**
-    - Pass: Geeft de DMARC-controle aan op het doorgegeven bericht.
-    - Mislukt: Geeft aan dat de DMARC-controle voor het bericht is mislukt.
-    - Bestguesspass: Geeft aan dat er geen DMARC TXT-record voor het domein bestaat, maar als er een was geweest, zou de DMARC-controle voor het bericht zijn geslaagd.
-    - Geen: Geeft aan dat er geen DMARC TXT-record bestaat voor het verzendende domein in DNS.
+  - Pass: Geeft de DMARC-controle aan op het doorgegeven bericht.
+  - Mislukt: Geeft aan dat de DMARC-controle voor het bericht is mislukt.
+  - Bestguesspass: Geeft aan dat er geen DMARC TXT-record voor het domein bestaat, maar als er een was geweest, zou de DMARC-controle voor het bericht zijn geslaagd.
+  - Geen: Geeft aan dat er geen DMARC TXT-record bestaat voor het verzendende domein in DNS.
 
 *Samengestelde* verificatie: Dit is een waarde die door Microsoft 365 wordt gebruikt om e-mailverificatie zoals SPF, DKIM en DMARC te combineren, om te bepalen of het bericht authentiek is. Het domein *Van:* van de e-mail wordt gebruikt als basis voor evaluatie.

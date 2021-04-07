@@ -15,12 +15,12 @@ ms.custom:
 description: Beheerders in zelfstandige EOP-organisaties (Exchange Online Protection) kunnen informatie krijgen over het maken, wijzigen en verwijderen van distributiegroepen en beveiligingsgroepen met e-mail in het Exchange-beheercentrum (EAC) en in zelfstandige Exchange Online Protection (EOP) PowerShell.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3b97e3fac0840753edada964252875a6e3a4fa04
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b9d83f2fb59ee8f8d2d3035045ed438d5ba45851
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203991"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599567"
 ---
 # <a name="manage-groups-in-eop"></a>Groepen beheren in EOP
 
@@ -216,7 +216,7 @@ $CurrentMemberNames += "Tyson Fawcett"
 Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMemberNames
 ```
 
-Zie [Set-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/set-eopdistributiongroup) en [Update-EOPDistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/update-eopdistributiongroupmember)voor gedetailleerde syntaxis- en parametergegevens.
+Zie [Set-EOPDistributionGroup](/powershell/module/exchange/set-eopdistributiongroup) en [Update-EOPDistributionGroupMember](/powershell/module/exchange/update-eopdistributiongroupmember)voor gedetailleerde syntaxis- en parametergegevens.
 
 ### <a name="remove-a-group-using-remote-windows-powershell"></a>Een groep verwijderen met behulp van externe Windows PowerShell
 
@@ -226,7 +226,7 @@ In dit voorbeeld wordt de distributiegroep met de naam IT-beheerders verwijderd.
 Remove-EOPDistributionGroup -Identity "IT Administrators"
 ```
 
-Zie [Remove-EOPDistributionGroup voor](https://docs.microsoft.com/powershell/module/exchange/remove-eopdistributiongroup)gedetailleerde syntaxis- en parametergegevens.
+Zie [Remove-EOPDistributionGroup voor](/powershell/module/exchange/remove-eopdistributiongroup)gedetailleerde syntaxis- en parametergegevens.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 

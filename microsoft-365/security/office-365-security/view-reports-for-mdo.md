@@ -20,12 +20,12 @@ description: Rapporten zoeken en gebruiken voor Microsoft Defender voor Office 3
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 28978dbca3f9e4039b4f8c21c49a2963802afa54
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0b3e1ddf48ccd74b36c594d232c6761b921dee8c
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204288"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599897"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Defender voor Office 365-rapporten weergeven in het dashboard Rapporten in & Beveiligingscentrum
 
@@ -282,8 +282,8 @@ Het **rapport URL-bedreigingsbeveiliging** heeft twee samengevoegde weergaven di
 - **ACTIE VOOR URL-klikbeveiliging:** geeft het aantal URL-klikken weer van gebruikers in de organisatie en de resultaten van de klik:
 
   - **Geblokkeerd** (de gebruiker is geblokkeerd om naar de URL te navigeren)
-  - **Geblokkeerd en doorgeklikt**
-  - **Doorgeklikt tijdens de scan**
+  - **Geblokkeerd en doorgeklikt** (de gebruiker heeft ervoor gekozen om door te gaan met navigeren naar de URL)
+  - **Doorgeklikt tijdens de scan** (de gebruiker heeft op de koppeling geklikt voordat de scan was voltooid)
 
   Een klik geeft aan dat de gebruiker via de blokpagina naar de schadelijke website heeft geklikt (beheerders kunnen klikken uitschakelen in beleidsregels voor veilige koppelingen).
 
@@ -350,11 +350,11 @@ Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschrev
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
 - **Beveiligingslezer**
-- **Algemene lezer**
+- **Globale lezer**
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum biedt gebruikers de vereiste machtigingen in het Beveiligings- & _Compliancecentrum_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum biedt gebruikers de vereiste machtigingen in het Beveiligings- & _Compliancecentrum_ en machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat gebeurt er als er geen gegevens worden weergegeven in de rapporten?
 

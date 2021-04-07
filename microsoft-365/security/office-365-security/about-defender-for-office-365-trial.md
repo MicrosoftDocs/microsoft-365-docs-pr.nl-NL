@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie krijgen over de proefversie van Microsoft Defender voor Office 365
-ms.openlocfilehash: c2c1e44741a8604ce60586a85a28d32851285403
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1a86a73dbdb8f2549fb5dc03ece56497c5ff0b1e
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204798"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599793"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Informatie over de proefversie van Microsoft Defender voor Office 365
 
@@ -98,7 +98,7 @@ Krachtige ervaringen helpen bij het identificeren, prioriteren en onderzoeken va
 - [Bedreigingsverkenner en realtimedetecties](threat-explorer.md)
 - [Realtime rapporten in Defender voor Office 365](view-reports-for-mdo.md)
 - [Threat Trackers - Nieuw en Opmerkelijk](threat-trackers.md)
-- Integratie met [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)
+- Integratie met [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 ### <a name="response-and-remediation"></a>Antwoord en herstel
 

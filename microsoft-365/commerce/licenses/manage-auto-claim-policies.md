@@ -1,5 +1,5 @@
 ---
-title: Beleidsregels voor automatisch claimen beheren
+title: Auto-claimbeleid beheren
 f1.keywords:
 - CSH
 ms.author: cmcatee
@@ -18,14 +18,14 @@ ms.custom:
 - commerce
 search.appverid:
 - MET150
-ms.openlocfilehash: bf3f79e425b3f7cd86f1a5ab95a337ef5127e345
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 001b612820bb13873ec18733d68828837fcecd78
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911468"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599449"
 ---
-# <a name="manage-auto-claim-policies"></a>Beleidsregels voor automatisch claimen beheren
+# <a name="manage-auto-claim-policies"></a>Auto-claimbeleid beheren
 
 Met een beleid voor automatisch claimen kunnen gebruikers automatisch een licentie claimen voor een product wanneer ze zich voor het eerst aanmelden bij een app. Als beheerder wijst u licenties meestal handmatig toe aan gebruikers of met behulp van licenties op basis van groepen. Door beleidsregels voor automatisch claimen te gebruiken, beheert u de producten waarvoor gebruikers automatisch licenties kunnen claimen. U kunt ook bepalen van welke producten deze licenties afkomstig zijn.
 
@@ -43,7 +43,7 @@ Nadat u een beleid voor automatisch claimen hebt uitgevoerd, kunt u de volgende 
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder zijn om beleidsregels voor automatisch claimen te maken en te beheren. Zie [Over beheerdersrollen in Microsoft 365](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder, gebruiker of licentiebeheerder zijn om beleidsregels voor automatisch claimen te maken en te beheren. Zie [Over beheerdersrollen in Microsoft 365](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="turn-the-auto-claim-policy-feature-on-or-off"></a>De functie beleid voor automatisch claimen in- of uitschakelen
 
@@ -55,6 +55,8 @@ Standaard is de functie beleid voor automatisch claimen uitgeschakeld. Voordat u
 2. Selecteer de knop Instelling in het midden van de **pagina.**
 
 ### <a name="turn-off-auto-claim-policies"></a>Beleid voor automatisch claimen uitschakelen
+
+Alleen een globale beheerder kan een beleidsinstelling voor automatisch claimen uitschakelen.
 
 1. Ga in het beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">organisatie-instellingen.</a>
 2. Selecteer apps en services die eigendom zijn van **gebruikers onder aan de tabel.**

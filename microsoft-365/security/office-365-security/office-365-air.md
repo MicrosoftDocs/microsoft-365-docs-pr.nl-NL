@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1460deef11a87044530c54c8b10637284829a0cd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6dfa22b2afb33c318eae8937888b5b75a1742938
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204762"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599461"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Automatisch onderzoek en antwoord (AIR) in Microsoft Defender voor Office 365
 
@@ -81,11 +81,9 @@ AIR-mogelijkheden zijn opgenomen in [Microsoft Defender voor Office 365,](defend
 - [Antimalware-beleid](protect-against-threats.md#part-1---anti-malware-protection)
 - [Antiphishing protection](protect-against-threats.md#part-2---anti-phishing-protection)
 - [Antispambeveiliging](protect-against-threats.md#part-3---anti-spam-protection)
-- [Antiphishing protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-2---anti-phishing-protection)
-- [Antispambeveiliging](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-3---anti-spam-protection)
-- [Veilige koppelingen en veilige bijlagen](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
-- [Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
-- [Auto purge van nul uur voor e-mail](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop)
+- [Veilige koppelingen en veilige bijlagen](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
+- [Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
+- [Auto purge van nul uur voor e-mail](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
 
 Controleer bovendien het waarschuwingsbeleid van uw [organisatie,](../../compliance/alert-policies.md)met name het standaardbeleid in de categorie [Bedreigingsbeheer.](../../compliance/alert-policies.md#default-alert-policies)
 
@@ -93,8 +91,8 @@ Controleer bovendien het waarschuwingsbeleid van uw [organisatie,](../../complia
 
 Microsoft 365 biedt een groot aantal ingebouwde waarschuwingsbeleidsregels die helpen bij het identificeren van misbruik van Beheerdersmachtigingen voor Exchange, malwareactiviteit, potentiële externe en interne bedreigingen en risico's voor informatiebeheer. Verschillende van de [standaardwaarschuwingsbeleidsregels](../../compliance/alert-policies.md#default-alert-policies) kunnen geautomatiseerde onderzoeken activeren. In de volgende tabel worden de waarschuwingen beschreven die leiden tot geautomatiseerde onderzoeken, de ernst ervan in het Microsoft 365-beveiligingscentrum en de manier waarop deze worden gegenereerd:
 
-|Waarschuwing|Ernst|Hoe de waarschuwing wordt gegenereerd|
-|:---|:---|:---|
+|Waarschuwingsweergave|Ernst|Hoe de waarschuwing wordt gegenereerd|
+|---|---|---|
 |Er is een potentieel schadelijke URL-klik gedetecteerd|**Hoog**|Deze waarschuwing wordt gegenereerd wanneer een van de volgende problemen optreedt: <ul><li>Een gebruiker die is beveiligd [door veilige koppelingen](safe-links.md) in uw organisatie, klikt op een schadelijke koppeling</li><li>Vonniswijzigingen voor URL's worden geïdentificeerd door Microsoft Defender voor Office 365</li><li>Gebruikers overschrijven waarschuwingspagina's voor veilige koppelingen (op basis van het beleid voor veilige koppelingen van uw [organisatie).](set-up-safe-links-policies.md)</li></ul> <p> Zie Beleidsregels voor veilige koppelingen instellen voor meer informatie over gebeurtenissen die deze waarschuwing [activeren.](set-up-safe-links-policies.md)|
 |Een e-mailbericht wordt door een gebruiker gerapporteerd als malware of phish|**Informatief**|Deze waarschuwing wordt gegenereerd wanneer gebruikers in uw organisatie berichten rapporteren als [phishing-e-mail](enable-the-report-phish-add-in.md)met behulp van de [invoeging Rapportbericht](enable-the-report-message-add-in.md) of de invoeging Phishing melden.|
 |E-mailberichten met malware worden na bezorging verwijderd|**Informatief**|Deze waarschuwing wordt gegenereerd wanneer e-mailberichten met malware worden bezorgd in postvakken in uw organisatie. Als deze gebeurtenis zich voordoet, verwijdert Microsoft de geïnfecteerde berichten uit Exchange Online-postvakken met [automatische nuluur.](zero-hour-auto-purge.md)|
@@ -122,7 +120,6 @@ Machtigingen worden verleend via bepaalde rollen, zoals de machtigingen die in d
 - Beveiligingsbeheerders (inclusief globale beheerders)
 - Het beveiligingsteam van uw organisatie (inclusief beveiligingslezers en personen met de rol Zoeken **en** zuiveren)
 - Eindgebruikers
-
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>Wijzigingen worden binnenkort doorgevoerd in uw beveiligingscentrum
 
@@ -152,9 +149,9 @@ In de volgende tabel vindt u wijzigingen en verbeteringen die worden doorgevoerd
 |**Tabblad Entiteiten**|Het **tabblad Entiteiten** heeft een tab-in-tabstijl die een overzichtsweergave bevat en de mogelijkheid om te filteren op entiteitstype. Het **tabblad Entiteiten** bevat nu naast de optie Openen in **Verkenner** ook de optie Ga op zoek naar.  U kunt nu [Threat Explorer of geavanceerd](threat-explorer.md) zoeken [gebruiken](../defender-endpoint/advanced-hunting-overview.md) om entiteiten en bedreigingen te zoeken en op resultaten te filteren.|
 |**Tabblad Acties**|Het tabblad **Bijgewerkte** acties bevat nu een tabblad **Acties in** behandeling en een **tabblad Actiesgeschiedenis.** Acties kunnen worden goedgekeurd (of geweigerd) in een zijvenster dat wordt geopend wanneer u een actie in behandeling selecteert.|
 |**Tabblad Bewijs**|Een nieuw **tabblad Bewijs** toont de belangrijkste entiteitsbetuigingen die betrekking hebben op acties. Acties met betrekking tot elk bewijs kunnen worden goedgekeurd (of geweigerd) in een zijvenster dat wordt geopend wanneer u een actie in behandeling selecteert.|
-|**Actiecentrum**|Het **bijgewerkte Actiecentrum** () brengt lopende en voltooide acties samen [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) op e-mail, apparaten en identiteiten. Zie Actiecentrum voor meer informatie. (Zie Actiecentrum voor meer [informatie.)](https://docs.microsoft.com/microsoft-365/security/defender/mtp-action-center)
-|**Pagina Incidenten**|De **pagina** Incidenten correleert nu meerdere onderzoeken samen om een beter overzicht van onderzoeken te bieden. ([Meer informatie over incidenten](https://docs.microsoft.com/microsoft-365/security/defender/incidents-overview).)
-
+|**Actiecentrum**|Het **bijgewerkte Actiecentrum** () brengt lopende en voltooide acties samen [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) op e-mail, apparaten en identiteiten. Zie Actiecentrum voor meer informatie. (Zie Actiecentrum voor meer [informatie.)](../defender/m365d-action-center.md)|
+|**Pagina Incidenten**|De **pagina** Incidenten correleert nu meerdere onderzoeken samen om een beter overzicht van onderzoeken te bieden. ([Meer informatie over incidenten](../defender/incidents-overview.md).)|
+|
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: caf7a1bacfd726c560356d542bec3cf56c6b39d4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 40487143ff18cedb76c9f3f33c52cab24687c282
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200195"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604367"
 ---
 # <a name="advanced-hunting-api"></a>Geavanceerde api voor jagen
 
@@ -37,15 +37,21 @@ ms.locfileid: "51200195"
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 ## <a name="limitations"></a>Beperkingen
+
 1. U kunt alleen een query uitvoeren op gegevens van de afgelopen 30 dagen.
+
 2. De resultaten bevatten maximaal 100.000 rijen.
+
 3. Het aantal uitvoeringen is beperkt per tenant:
-   - API-oproepen: maximaal 45 oproepen per minuut.
+   - API-oproepen: maximaal 45 oproepen per minuut, maximaal 1500 oproepen per uur.
    - Uitvoeringstijd: 10 minuten speeltijd per uur en 3 uur werktijd per dag.
+
 4. De maximale uitvoeringstijd van één aanvraag is 10 minuten.
+
 5. 429-antwoord vertegenwoordigt het bereiken van de quotumlimiet, hetzij per aantal aanvragen of per CPU. Lees de antwoord body om te begrijpen welke limiet is bereikt. 
 
 ## <a name="permissions"></a>Machtigingen
+
 Een van de volgende machtigingen is vereist om deze API te bellen. Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.
 
 Machtigingstype |   Machtiging  |   Weergavenaam machtiging
@@ -59,7 +65,8 @@ Gedelegeerd (werk- of schoolaccount) | AdvancedQuery.Read | 'Geavanceerde query'
 >- De gebruiker moet toegang hebben tot het apparaat op basis van apparaatgroepinstellingen (Zie [Apparaatgroepen](machine-groups.md) maken en beheren voor meer informatie)
 
 ## <a name="http-request"></a>HTTP-aanvraag
-```
+
+```http
 POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 ```
 
@@ -71,19 +78,21 @@ Autorisatie | Bearer {token}. **Vereist**.
 Inhoudstype    | toepassing/json
 
 ## <a name="request-body"></a>Body aanvragen
+
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type    | Beschrijving
+Parameter | Type    | Omschrijving
 :---|:---|:---
 Query | Tekst |  De query die u wilt uitvoeren. **Vereist**.
 
 ## <a name="response"></a>Antwoord
+
 Als dit is gelukt, retourneert deze methode 200 OK en _QueryResponse-object_ in de antwoord body.
 
 
 ## <a name="example"></a>Voorbeeld
 
-Aanvraag
+##### <a name="request"></a>Aanvraag
 
 Hier is een voorbeeld van de aanvraag.
 
@@ -101,7 +110,7 @@ POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 }
 ```
 
-Antwoord
+##### <a name="response"></a>Antwoord
 
 Hier is een voorbeeld van het antwoord.
 
@@ -145,7 +154,8 @@ Hier is een voorbeeld van het antwoord.
 }
 ```
 
-## <a name="related-topic"></a>Verwant onderwerp
+## <a name="related-topics"></a>Verwante onderwerpen
+
 - [Microsoft Defender for Endpoint API's introduction](apis-intro.md)
 - [Advanced Hunting from Portal](advanced-hunting-query-language.md)
-- [Geavanceerd zoeken met PowerShell](run-advanced-query-sample-powershell.md)
+- [Geavanceerde opsporing met behulp van PowerShell](run-advanced-query-sample-powershell.md)

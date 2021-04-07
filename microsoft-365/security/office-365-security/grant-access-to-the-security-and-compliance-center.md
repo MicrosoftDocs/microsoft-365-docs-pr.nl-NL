@@ -20,12 +20,12 @@ description: Gebruikers moeten machtigingen krijgen toegewezen in het Microsoft 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 16dbbe81d1131821dfdbf75caff5b5121f8cc45b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7cd36ac0dec20851a423acd58e5ad7d38cb65d93
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204535"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599921"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot het beveiligings- & compliancecentrum
 
@@ -80,7 +80,7 @@ Voor meer informatie over de verschillende machtigingen die u aan gebruikers kun
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-Zie [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember) voor gedetailleerde syntaxis- en parameterproblemen
+Zie [Add-RoleGroupMember](/powershell/module/exchange/add-rolegroupmember) voor gedetailleerde syntaxis- en parameterproblemen
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 

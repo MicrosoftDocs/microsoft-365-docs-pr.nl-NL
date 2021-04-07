@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over het configureren van een on-premises Exchange Server voor het gebruik van HMA (Hybrid Modern Authentication), met een veiligere gebruikersverificatie en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9393b457c219fb03ae2e8a35c3f795c324919f27
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e0a0e521f4ac81a8aa113b2e945045d31f2c1952
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579720"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599497"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Exchange Server on-premises configureren voor het gebruik van hybride moderne verificatie
 
@@ -65,6 +65,9 @@ HMA in- of uitschakelen betekent:
 ## <a name="make-sure-you-meet-all-the-prerequisites"></a>Zorg ervoor dat u aan alle vereisten voldoet
 
 Aangezien veel vereisten gebruikelijk zijn voor zowel Skype voor Bedrijven als Exchange, bekijkt u hybride moderne verificatieoverzicht en vereisten voor het gebruik ervan met on-premises Skype voor Bedrijven- en [Exchange-servers.](hybrid-modern-auth-overview.md) Doe dit  *voordat*  u een van de stappen in dit artikel start.
+
+> [!NOTE]
+> Outlook Web App en Exchange Control Panel werken niet met hybride moderne verificatie.
 
 ## <a name="add-on-premises-web-service-urls-as-spns-in-azure-ad"></a>On-premises webservice-URL's toevoegen als SPN's in Azure AD
 
@@ -185,6 +188,8 @@ Als u een on-premises klant bent die Exchange-server gebruikt op TCP 443, kunt u
 52.125.128.0/20
 52.127.96.0/23
 ```
+
+De Outlook-app voor iOS en Android is ontworpen als de beste manier om Microsoft 365 of Office 365 op uw mobiele apparaat te ervaren door Microsoft-services te gebruiken om uw dagelijkse leven en werk te vinden, plannen en prioriteit te geven. Zie Hybride moderne verificatie gebruiken met [Outlook voor iOS en Android](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)voor meer informatie.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

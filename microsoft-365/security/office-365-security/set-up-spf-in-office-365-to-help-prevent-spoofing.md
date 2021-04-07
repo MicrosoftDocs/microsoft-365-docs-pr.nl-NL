@@ -19,12 +19,12 @@ ms.custom:
 description: Lees hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1aff62792be86b9c77430777c23edc655fe3bb9b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0a2c400e77c83fa61e276dee1d870835d466b5af
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204111"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599545"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
@@ -137,6 +137,6 @@ Zie [Hoe SPF werkt om spoofing en phishing in Office 365 te voorkomen](how-offic
 
  SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt ingesteld, ook DKIM en DMARC voor Office 365 configureren.
 
-Het doel van de e-mailverificatie van [DKIM](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide) is bewijzen dat er niet met de inhoud van het e-mailbericht is geknoeid.
+Het doel van de e-mailverificatie van [DKIM](use-dkim-to-validate-outbound-email.md) is bewijzen dat er niet met de inhoud van het e-mailbericht is geknoeid.
 
-Het doel van de e-mailverificatie van [DMARC](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide) is ervoor te zorgen dat SPF- en DKIM-gegevens overeenkomen met het Van-adres.
+Het doel van de e-mailverificatie van [DMARC](use-dmarc-to-validate-email.md) is ervoor te zorgen dat SPF- en DKIM-gegevens overeenkomen met het Van-adres.

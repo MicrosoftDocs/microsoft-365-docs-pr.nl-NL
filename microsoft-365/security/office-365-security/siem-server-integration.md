@@ -18,12 +18,12 @@ ms.custom:
 description: Een overzicht krijgen van de siem-serverintegratie (Security Information and Event Management) met uw Microsoft 365-cloudservices en -toepassingen
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d060b3c12304f6a23ad9421bb43e54c4cd561af5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: bea8aa3914da4b813f3928eddbb6df9c98ef6605
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204846"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599945"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>SiEM-serverintegratie (Security Information and Event Management) met Microsoft 365-services en -toepassingen
 
@@ -58,7 +58,7 @@ Een SIEM-server kan gegevens ontvangen van een groot aantal Microsoft 365-servic
 |Microsoft 365-service of -toepassing|SIEM-serverinvoer/-methoden|Informatiebronnen|
 |---|---|---|
 |[Microsoft Defender voor Office 365](defender-for-office-365.md)|Auditlogboeken|[SIEM-integratie met Microsoft Defender voor Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender voor Endpoint](https://docs.microsoft.com/windows/security/threat-protection/)|HTTPS-eindpunt dat wordt gehost in Azure <p> REST-API|[Waarschuwingen naar uw SIEM-hulpprogramma's trekken](../defender-endpoint/configure-siem.md)|
+|[Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)|HTTPS-eindpunt dat wordt gehost in Azure <p> REST-API|[Waarschuwingen naar uw SIEM-hulpprogramma's trekken](../defender-endpoint/configure-siem.md)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|Logboekintegratie|[SIEM-integratie met Microsoft Cloud App Security](/cloud-app-security/siem)|
 |
 

@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Gebruikers kunnen leren hoe ze in quarantaine geplaatste berichten kunnen bekijken en handelen die zijn verzonden naar gedeelde postvakken waar ze machtigingen voor hebben.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6e3bf4c84e7a762f7f54f42ff61f0fbdb9dc1edd
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: cb915ad6ad6e6130d8704339559f4c370cef3a20
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215502"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599509"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>In quarantaine geplaatste berichten uit gedeelde postvakken weergeven en vrijgeven
 
@@ -35,7 +35,7 @@ Voorheen moesten beheerders door de mogelijkheid voor gebruikers om in quarantai
 
 Automapping is nu niet meer vereist voor gebruikers die in quarantaine geplaatste berichten beheren die naar gedeelde postvakken zijn verzonden. Het werkt gewoon. Er zijn twee verschillende methoden om in quarantaine geplaatste berichten te openen die naar een gedeeld postvak zijn verzonden:
 
-- Als de beheerder spammeldingen voor eindgebruikers [heeft](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies) ingeschakeld in antispambeleid, kan elke gebruiker die toegang heeft  tot de spammeldingen van eindgebruikers in het gedeelde postvak op de knop Controleren in de melding klikken om naar quarantaine te gaan in het Beveiligings- & Compliancecentrum. Met deze methode kunnen gebruikers alleen in quarantaine geplaatste berichten beheren die naar het gedeelde postvak zijn verzonden. Gebruikers kunnen in deze context hun eigen quarantaineberichten niet beheren.
+- Als de beheerder spammeldingen voor eindgebruikers heeft ingeschakeld [in antispambeleid,](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)kan elke gebruiker die toegang heeft  tot de spammeldingen van eindgebruikers in het gedeelde postvak op de knop Controleren in de melding klikken om naar quarantaine te gaan in het Beveiligings- & Compliancecentrum. Met deze methode kunnen gebruikers alleen in quarantaine geplaatste berichten beheren die naar het gedeelde postvak zijn verzonden. Gebruikers kunnen in deze context hun eigen quarantaineberichten niet beheren.
 
 - De gebruiker kan [naar de quarantaine gaan in het beveiligings- & Compliancecentrum.](find-and-release-quarantined-messages-as-a-user.md) Standaard worden alleen berichten weergegeven die naar de gebruiker zijn verzonden. De gebruiker kan echter de resultaten  **sorteren** (standaard de knop Bericht-id) wijzigen in het  e-mailadres van geadresseerde, het e-mailadres van het gedeelde postvak invoeren en vervolgens op Vernieuwen klikken om de in quarantaine geplaatste berichten weer te geven die naar het gedeelde postvak zijn verzonden.
 

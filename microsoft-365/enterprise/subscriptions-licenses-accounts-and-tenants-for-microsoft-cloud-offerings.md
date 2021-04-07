@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Begrijp de relaties tussen organisaties, abonnementen, licenties, gebruikersaccounts en tenants in cloudaanbiedingen van Microsoft.
-ms.openlocfilehash: eaf1c2399b5d44ea8d6000042b3258d0e8b5a7de
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 34e920e6b5a48adaffcc31150090e96f9c8d8b0e
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909512"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604319"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Abonnementen, licenties, accounts en tenants voor cloudaanbiedingen van Microsoft
 
@@ -88,7 +88,7 @@ In afbeelding 3 ziet u een voorbeeld van meerdere abonnementen van een organisat
   
 ### <a name="tenants"></a>Tenants
 
-Voor SaaS-cloudaanbiedingen is de tenant de regionale locatie die de servers bevat die cloudservices bieden. Contoso B.V. koos bijvoorbeeld voor de Europese regio om de Microsoft 365, EMS en Dynamics 365 tenants te hosten voor de 15.000-werknemers in hun hoofdkantoor in Parijs.
+Voor SaaS-cloudaanbiedingen is de tenant de regionale locatie die de servers bevat die cloudservices bieden. De Contoso Corporation koos bijvoorbeeld voor de Europese regio om de Microsoft 365-, EMS- en Dynamics 365-abonnementen te hosten voor de 15.000 werknemers in hun hoofdkantoor in Parijs.
   
 Azure PaaS-Services en werkbelastingen voor virtuele machines die worden gehost in Azure IaaS kunnen in een Azure-datacenter overal ter wereld zijn. U geeft het Azure-datacenter op dat wordt aangeduid als de locatie, wanneer u de Azure PaaS-app of-service of het element van een IaaS-werkbelasting maakt.
   

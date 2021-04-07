@@ -115,6 +115,8 @@
 ##### [Beheerde maptoegang inschakelen](enable-controlled-folders.md)
 ##### [Beheerde maptoegang aanpassen](customize-controlled-folders.md)
 
+### [Netwerkapparaten](network-devices.md)
+
 ### [Microsoft Defender voor Eindpunt voor Mac]()
 #### [Overzicht van Microsoft Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md)
 #### [Nieuw](mac-whatsnew.md)

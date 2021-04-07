@@ -20,19 +20,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 5a705444c81d884c10b99e5f0d2bfbb9e4f057e2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c5f5837f4e4069a67bc080178fefd10bd2a08629
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204684"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599849"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Beleidsaanbevelingen voor het beveiligen van e-mail
 
 **Van toepassing op**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
-
 
 In dit artikel wordt beschreven hoe u het aanbevolen beleid voor identiteits- en apparaattoegang implementeert om e-mail- en e-mail clients van organisaties te beschermen die moderne verificatie en voorwaardelijke toegang ondersteunen. Deze richtlijnen zijn gebaseerd op het beleid voor algemene [identiteits-](identity-access-policies.md) en apparaattoegang en bevat ook enkele extra aanbevelingen.
 
@@ -103,7 +102,7 @@ Dit doet u als volgt:
 
 Als u ervoor wilt zorgen dat gebruikers van iOS- en Android-apparaten alleen toegang hebben tot werk- of schoolinhoud met Outlook voor iOS en Android, hebt u een beleid voor voorwaardelijke toegang nodig dat is gericht op die potentiële gebruikers.
 
-Bekijk de stappen voor het configureren van dit beleid in [Toegang tot samenwerking via berichten beheren met Outlook voor iOS en Android.]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
+Bekijk de stappen voor het configureren van dit beleid in [Toegang tot samenwerking via berichten beheren met Outlook voor iOS en Android.](/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
 
 ## <a name="set-up-message-encryption"></a>Berichtversleuteling instellen
 

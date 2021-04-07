@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze de portal Inzendingen in het beveiligings- & compliancecentrum kunnen gebruiken om verdachte e-mailberichten, vermoedelijke phishingmails, spam en andere potentieel schadelijke berichten, URL's en bestanden naar Microsoft te verzenden voor scannen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 96a5469b1093c71997747b2c4c3b49bc1964f72b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e0975d5b6c2d29c94a30f7bbc703221b80217761
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581068"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599873"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerdersinzending gebruiken om verdachte spam, phish, URL's en bestanden naar Microsoft te verzenden
 
@@ -78,7 +78,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
    - **Bestand:** Klik op **Bestand kiezen.** Zoek en selecteer in het dialoogvenster dat wordt geopend het .eml- of .msg-bestand en klik vervolgens op **Openen.**
 
    > [!NOTE]
-   > Beheerders met Defender voor Office 365-abonnement 1 of Abonnement 2 kunnen berichten vanaf 30 dagen verzenden. Andere beheerders kunnen slechts 7 dagen teruggaan.
+   > De mogelijkheid om berichten zo oud als 30 dagen in te dienen, is tijdelijk opgeschort voor Defender voor Office 365-klanten. Beheerders kunnen slechts 7 dagen teruggaan.
 
 2. Geef in **de sectie Geadresseerden** een of meer geadresseerden op tegen wie u een beleidscontrole wilt uitvoeren. Met de beleidscontrole wordt bepaald of het scannen per e-mail is overgeslagen vanwege gebruikers- of organisatiebeleid.
 
