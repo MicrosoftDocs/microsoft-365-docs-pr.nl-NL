@@ -20,12 +20,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze de beveiligingsinstellingen kunnen verbeteren en rapporten, waarschuwingen en onderzoeken kunnen gebruiken voor prioriteitsaccounts in hun Microsoft 365-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9bb2586c11a22286bde5be01f1e9b3e5e0d981ac
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 73be3832b2391b6f47e4c796daf76c884a17dcdd
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204679"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632219"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Beveiligingsaanbevelingen voor prioriteitsaccounts in Microsoft 365
 
@@ -47,6 +47,9 @@ Microsoft 365 en Microsoft Defender voor Office 365 bevatten verschillende belan
 |[Prioriteitsaccounts controleren in waarschuwingen, rapporten en detecties](#monitor-priority-accounts-in-alerts-reports-and-detections)|||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[Gebruikers wegwijs maken](#train-users)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
+
+> [!NOTE]
+> Zie dit onderwerp voor informatie over het _beveiligen_ van bevoorrechte accounts [(beheerdersaccounts).](/azure/architecture/framework/security/critical-impact-accounts)
 
 ## <a name="increase-sign-in-security-for-priority-accounts"></a>Aanmeldingsbeveiliging voor prioriteitsaccounts verhogen
 
@@ -113,7 +116,7 @@ Microsoft 365 bevat de volgende bronnen om gebruikers in uw organisatie te infor
 
 ****
 
-|Concept|Resources|Beschrijving|
+|Concept|Resources|Omschrijving|
 |---|---|---|
 |Microsoft 365|[Aanpasbare leerpaden](/office365/customlearning/)|Deze bronnen kunnen u helpen bij het maken van trainingen voor gebruikers in uw organisatie.|
 |Microsoft 365-beveiliging|[Leermodule: Uw organisatie beveiligen met ingebouwde, intelligente beveiliging van Microsoft 365](/learn/modules/security-with-microsoft-365)|Met deze module kunt u beschrijven hoe beveiligingsfuncties van Microsoft 365 samenwerken en de voordelen van deze beveiligingsfuncties duidelijk maken.|

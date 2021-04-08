@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Controleren mislukt en vertraagde e-mailberichten die zijn verzonden naar of van accounts met een hoge zakelijke impact.
-ms.openlocfilehash: 0bba1f87f80de9fea249ce2604e83ceeadfb79ee
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f67b9c6f0eaa229b650026670cf1b2adf88ab3c0
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050640"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632178"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Prioriteitsaccounts beheren en bewaken
 
@@ -26,10 +26,16 @@ In elke Microsoft 365-organisatie zijn er mensen die essentieel zijn, zoals leid
 
 Als u uw organisatie wilt helpen deze accounts te beveiligen, kunt u nu specifieke gebruikers aanwijzen als prioriteitsaccounts en gebruikmaken van app-specifieke functies die hen extra bescherming bieden. In de toekomst ondersteunen meer apps en functies prioriteitsaccounts en om te  beginnen hebben we twee mogelijkheden aangekondigd: prioriteitsaccountbeveiliging en premium **e-mailstroomcontrole.**
 
-- **Prioriteitsaccountbeveiliging** : Microsoft Defender voor Office 365 (voorheen Geavanceerde bedreigingsbeveiliging voor Office 365) ondersteunt prioriteitsaccounts als tags die kunnen worden gebruikt in filters in waarschuwingen, rapporten en onderzoeken. Zie Gebruikerslabels [in Microsoft Defender voor Office 365 voor meer informatie.](../../security/defender-365-security/user-tags.md)
+- **Prioriteitsaccountbeveiliging** : Microsoft Defender voor Office 365 (voorheen Geavanceerde bedreigingsbeveiliging voor Office 365) ondersteunt prioriteitsaccounts als tags die kunnen worden gebruikt in filters in waarschuwingen, rapporten en onderzoeken. Zie Gebruikerslabels [in Microsoft Defender voor Office 365 voor meer informatie.](../../security/office-365-security/user-tags.md)
+
+  Een natuurlijke vraag is: 'Zijn niet alle gebruikers een prioriteit? Waarom worden niet alle gebruikers aangewezen als prioriteitsaccounts? Ja, alle gebruikers hebben een prioriteit, maar accountbeveiliging met prioriteit biedt de volgende extra voordelen:
+
+  - **Extra heuristische functies:** Onze analyse van de e-mailstroom in de Microsoft-datacenters geeft aan dat de e-mailstroompatronen voor leidinggevenden van het bedrijf verschillen van de gemiddelde werknemer. Prioriteitsaccountbeveiliging biedt extra heuristische functies die specifiek zijn afgestemd op leidinggevenden van het bedrijf die niet ten goede komen aan een gewone werknemer.
+  - **Extra zichtbaarheid in rapportage:** In feite is informatie voor alle gebruikers (of alle betrokken gebruikers) al beschikbaar in waarschuwingen, rapporten en onderzoeken. Met de tag prioriteitsaccounts als filter kunt u uw onderzoeken specifiek richten.
+
 - **Premium Mail Flow Monitoring** - Een gezonde e-mailstroom kan essentieel zijn voor bedrijfssucces en vertragingen of mislukte bezorging kunnen een negatieve invloed hebben op het bedrijf. U kunt een drempel voor mislukte of vertraagde e-mailberichten kiezen, waarschuwingen ontvangen wanneer deze drempel wordt overschreden en een rapport bekijken met e-mailproblemen voor prioriteitsaccounts. Zie E-mailproblemen voor het rapport [Prioriteitsaccounts in](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) het moderne EAC voor meer informatie.
 
-Zie Beveiligingsaanbevelingen voor prioriteitsaccounts voor aanbevolen beveiligingsprocedures [voor prioriteitsaccounts.](../../security/defender-365-security/security-recommendations-for-priority-accounts.md)
+Zie Beveiligingsaanbevelingen voor prioriteitsaccounts voor aanbevolen beveiligingsprocedures [voor prioriteitsaccounts.](../../security/office-365-security/security-recommendations-for-priority-accounts.md)
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -44,6 +50,8 @@ De **functie Premium Mail Flow Monitoring** die in dit onderwerp wordt beschreve
 
 > [!NOTE]
 > U kunt maximaal 250 prioriteitsaccounts controleren.
+
+Wanneer u prioriteitsaccountbeveiliging op een postvak gebruikt, moet u ook prioriteitsaccountbeveiliging toepassen op gebruikers die toegang hebben tot het postvak (bijvoorbeeld de CEO en de executive assistant van de CEO die de agenda van de CEO beheert).
 
 ### <a name="add-priority-accounts-from-the-setup-page"></a>Prioriteitsaccounts toevoegen vanaf de pagina Setup
 

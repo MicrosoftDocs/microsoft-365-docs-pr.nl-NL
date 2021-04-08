@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe u specifieke groepen gebruikers kunt identificeren met gebruikerslabels in Microsoft Defender voor Office 365-abonnement 2. Tagfiltering is beschikbaar in waarschuwingen, rapporten en onderzoeken in Microsoft Defender voor Office 365 om snel de gelabelde gebruikers te identificeren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6f98dcfe3e8c44e852134e7a12def4ff78c1bcdd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4c439dcb91831475bc10da4a01d0fa29e7aae359
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204516"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632200"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Gebruikerslabels in Microsoft Defender voor Office 365
 
@@ -34,6 +34,9 @@ Gebruikerslabels zijn id's voor specifieke groepen gebruikers in [Microsoft Defe
 - **Aangepaste tags:** u maakt deze gebruikerslabels zelf.
 
 Als uw organisatie Defender voor Office 365-abonnement 2 heeft (inbegrepen in uw abonnement of als invoegvoeggebruik), kunt u aangepaste gebruikerslabels maken naast het gebruik van de tag prioriteitsaccounts.
+
+> [!NOTE]
+> Momenteel kunt u alleen gebruikerslabels toepassen op postvakgebruikers.
 
 Nadat u systeemlabels of aangepaste tags op gebruikers hebt toegepast, kunt u deze tags gebruiken als filters in waarschuwingen, rapporten en onderzoeken:
 
@@ -64,6 +67,8 @@ Zie Beveiligingsaanbevelingen voor [prioriteitsaccounts in Microsoft 365](securi
   - Gebruikerslabelbeheer wordt beheerd door de rollen **Tag Reader** en **Tag Manager.**
 
 - U kunt ook prioriteitsaccounts beheren en controleren in het Microsoft 365-beheercentrum. Zie Prioriteitsaccounts beheren [en controleren voor instructies.](../../admin/setup/priority-accounts.md)
+
+- Zie dit onderwerp voor informatie over het _beveiligen_ van bevoorrechte accounts [(beheerdersaccounts).](/azure/architecture/framework/security/critical-impact-accounts)
 
 ## <a name="use-the-security--compliance-center-to-create-user-tags"></a>Het beveiligings- & compliancecentrum gebruiken om gebruikerslabels te maken
 
