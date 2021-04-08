@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Bepalen waar in de Europese Unie uw Microsoft 365-klantgegevens worden opgeslagen
-ms.openlocfilehash: 28bfa7c18aff485e084e4d77bb2a36f0f5b7e95f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19df44a702d842d4171d867946fb818d3f36fd80
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905678"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615229"
 ---
 # <a name="data-locations-for-the-european-union"></a>Gegevenslocaties voor de Europese Unie
 
@@ -92,7 +92,7 @@ Microsoft beveiligt uw gegevens met behulp van meerdere beveiligings- en versleu
 
 Standaard beschermen Microsoft Managed Keys uw klantgegevens. Gegevens die op fysieke media blijven staan, worden altijd versleuteld met FIPS 140-2-compatibele versleutelingsprotocollen. U kunt ook door de gebruiker beheerde sleutels (CMK) gebruiken [dubbele versleuteling](../compliance/double-key-encryption.md)en/of hardwarematige beveiligingsmodules (HSM's), voor verhoogde gegevensbescherming.
 
-Daarnaast wordt al het dataverkeer tussen datacenters beschermd met IEEE 802.1AE MAC-beveiligingsstandaarden, waardoor fysieke 'man-in-the-middle'-aanvallen worden voorkomen.
+Bovendien gebruikt Microsoft standaard het [TLS-protocol (Transport Layer Security)](https://wikipedia.org/wiki/Transport_Layer_Security) om gegevens te versleutelen wanneer deze worden verzonden tussen de cloudservices en klanten. Microsoft Services onderhandelt over een TLS-verbinding met clientsystemen die verbinding kunnen maken met Microsoft 365-services. 
 
 Om ongeautoriseerde fysieke toegang tot datacentra te voorkomen, passen we rigoureuze operationele controles en processen toe, waaronder doorlopende videobewaking, getraind beveiligingspersoneel en beveiligingsprocessen, en smartcard- of biometrische toegangscontroles die gebruikmaken van meervoudige factoren. Aan het einde van de levensduur worden gegevensschijven vermalen en vernietigd. Als een harde schijf die voor opslag wordt gebruikt, een hardwarestoring vertoont of het einde van zijn levensduur bereikt, wordt deze veilig gewist of vernietigd. De gegevens op het station worden volledig overschreven om ervoor te zorgen dat de gegevens niet kunnen worden hersteld. Wanneer deze apparaten buiten gebruik worden gesteld, worden ze vermalen en vernietigd volgens de NIST SP 800-88 R1-richtlijnen voor het opschonen van media. Verslagen van de vernietiging worden bewaard en beoordeeld als onderdeel van het audit- en nalevingsproces van Microsoft. Alle Microsoft 365-services maken gebruik van goedgekeurde mediaopslag- en verwijderingsbeheerdiensten.
 

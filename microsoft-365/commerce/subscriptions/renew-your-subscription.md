@@ -21,21 +21,14 @@ search.appverid:
 - MET150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: Lees hoe u uw Microsoft 365 kunt verlengen door terugkerende facturering uit of in te schakelen.
-ms.openlocfilehash: 8b38336ccb7a0a29b5782e55117389f6a19a0d80
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 76be85fe3cbeafb275478e6236e051b6a252c099
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903522"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615169"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven verlengen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Dit artikel is van toepassing op de meeste betaalde Microsoft 365 voor bedrijven-abonnementen. 
   
@@ -53,6 +46,19 @@ Als u vooraf voor uw abonnement hebt betaald met een productcode, verloopt uw ab
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
+::: moniker-end
+
 2. Selecteer het abonnement waarvan u de terugkerende facturering wilt beheren.
 3. Selecteer op de pagina Abonnementsgegevens onder **Instellingen voor abonnementen en betalingen**, **Terugkerende facturering bewerken**.
 4. In het deelvenster **Terugkerende facturering bewerken** selecteert u **Aan**, **Aan, met eenmaal verlengen** of **Uitschakelen**.
@@ -63,46 +69,6 @@ Als u vooraf voor uw abonnement hebt betaald met een productcode, verloopt uw ab
     > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet opgezegd. Als u het abonnement actief wilt houden, moet u de factuur handmatig betalen.
     > - Als u **Terugkerende facturering** uitschakelt, blijft het abonnement actief totdat het verloopt. U kunt de verloopdatum bekijken op de pagina met Abonnementsgegevens in de sectie **Instellingen voor abonnementen en betalingen**.
     > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md) voor meer informatie over het direct opzeggen van een abonnement.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-  
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
-
-3. Als u **terugkerende facturering** wilt inschakelen, zet u de wisselknop op **Aan**.
-
-    ![Close-up van een abonnementskaart met terugkerende facturering ingeschakeld.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
-  
-    U kunt **Terugkerende facturering** uitschakelen door de wisselknop op **Uit** te zetten.
-
-    > [!NOTE]
-    > - U kunt **Terugkerende facturering** alleen in- of uitschakelen als uw abonnement de status Actief heeft. Als uw abonnement is verlopen of uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u **Terugkerende facturering** kunt in- of uitschakelen.
-    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet direct opgezegd. Het blijft actief totdat het verloopt. U kunt de vervaldatum bekijken op de abonnementskaart
-    > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md) voor meer informatie over het direct opzeggen van een abonnement.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-  
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
-
-2. Kies het abonnement waarvan u de terugkerende facturering wilt beheren.
-
-3. Als u **terugkerende facturering** wilt inschakelen, zet u de wisselknop op **Aan**.
-
-    ![Close-up van een abonnementskaart met terugkerende facturering ingeschakeld.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
-  
-    U kunt **Terugkerende facturering** uitschakelen door de wisselknop op **Uit** te zetten.
-
-    > [!NOTE]
-    > - U kunt **Terugkerende facturering** alleen in- of uitschakelen als uw abonnement de status Actief heeft. Als uw abonnement is verlopen of uitgeschakeld, moet u [het opnieuw activeren](reactivate-your-subscription.md) voordat u **Terugkerende facturering** kunt in- of uitschakelen.
-    > - Wanneer **Terugkerende facturering** is uitgeschakeld, wordt het abonnement niet direct opgezegd. Het blijft actief totdat het verloopt. U kunt de vervaldatum bekijken op de abonnementskaart.
-    > - Zie [Mijn abonnement opzeggen](cancel-your-subscription.md) voor meer informatie over het direct opzeggen van een abonnement.
-
-::: moniker-end
 
 ## <a name="related-articles"></a>Verwante artikelen
 

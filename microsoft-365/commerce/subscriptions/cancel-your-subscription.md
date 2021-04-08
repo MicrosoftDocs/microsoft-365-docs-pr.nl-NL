@@ -20,21 +20,14 @@ search.appverid:
 - MET150
 description: Lees hoe u uw proefabonnement of betaald abonnement op Microsoft 365 voor Bedrijven kunt opzeggen.
 ms.date: ''
-ms.openlocfilehash: 7a2de2a261baeb4e64e12742810635f352217933
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d37a2459c89bf5931af26a91ed14e2898c1c8c4
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916874"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615385"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 *Komt in aanmerking?:* als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement op elk moment online annuleren in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties hebt toegewezen aan gebruikers, kunt u dit beperken tot minder dan 25 of [kunt u de ondersteuning bellen om uw abonnement op te zeggen](../../admin/contact-support-for-business-products.md).
 
@@ -53,46 +46,26 @@ Als u uw eigen domeinnaam hebt toegevoegd om te gebruiken met uw abonnement, moe
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Uw producten</a> en selecteer vervolgens het tabblad **Producten**.
-2. Kies het abonnement dat u wilt annuleren. Selecteer **Meer acties** (drie puntjes) en selecteer **Abonnement annuleren**.
-3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback.
-4. Kies **Opslaan**.
-
-Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie over wat u kunt verwachten wanneer een betaald Microsoft 365 voor Bedrijven-abonnement is geannuleerd.
-
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-2. Selecteer een abonnement op de pagina **Abonnementen**.
-
-3. Kies in het menu **Meer acties** de optie **Abonnement annuleren**.
-
-    ![Close-up van het menu Meer acties.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
-
-4. Bekijk de belangrijke datums, geef aan waarom u wilt annuleren en kies vervolgens **Abonnement annuleren**.
-
-    Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie over wat u kunt verwachten wanneer een betaald Microsoft 365 voor Bedrijven-abonnement is geannuleerd.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
-
-2. Selecteer een abonnement op de pagina **Abonnementen**.
-
-3. Kies in het menu **Meer acties** de optie **Abonnement annuleren**.
-
-    ![Close-up van het menu Meer acties.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
-
-4. Bekijk de belangrijke datums, geef aan waarom u wilt annuleren en kies vervolgens **Abonnement annuleren**.
-
-    Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie over wat u kunt verwachten wanneer een betaald Microsoft 365 voor Bedrijven-abonnement is geannuleerd.
-
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 ::: moniker-end
+
+2. Selecteer het tabblad **Producten**.
+3. Kies het abonnement dat u wilt annuleren. Selecteer **Meer acties** (drie puntjes) en selecteer **Abonnement annuleren**.
+4. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback.
+5. Kies **Opslaan**.
+
+Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie over wat u kunt verwachten wanneer een betaald Microsoft 365 voor bedrijven-abonnement is geannuleerd.
 
 ## <a name="what-happens-when-you-cancel-a-subscription"></a>Wat gebeurt er wanneer u een abonnement annuleert
 
