@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d86c79f0f0ab74d1dfbb88e7803f4ee4d691ea73
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 321e27f22295a4da17d0eb37b477a1dc7b779d38
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501174"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644762"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor gebruikersinzendingen
 
@@ -98,30 +98,36 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
 
         - **Vóór**  de  inzending: Voer in de vakken Titel en bevestigingsbericht de beschrijvende tekst in die gebruikers zien voordat ze een bericht rapporteren met de invoegtekst Rapportbericht of de invoegtekst Phishing melden. U kunt de variabele %type% gebruiken om het inzendingstype (ongewenste e-mail, geen ongewenste e-mail, phish, enzovoort) op te nemen.
 
-            Zoals vermeld, als u een optie selecteert die de gerapporteerde berichten naar Microsoft verzendt, wordt ook de volgende tekst toegevoegd aan de melding:
+          Zoals vermeld, als u een optie selecteert die de gerapporteerde berichten naar Microsoft verzendt, wordt ook de volgende tekst toegevoegd aan de melding:
 
-        > Uw e-mail wordt in de as-is verzonden naar Microsoft voor analyse. Sommige e-mailberichten kunnen persoonlijke of gevoelige informatie bevatten.
+          > Uw e-mail wordt in de as-is verzonden naar Microsoft voor analyse. Sommige e-mailberichten kunnen persoonlijke of gevoelige informatie bevatten.
 
         - **Na de inzending:** Klik ![ op Pictogram Uitvv. ](../../media/scc-expand-icon.png) Voer in  **de** vakken Titel en bevestigingsbericht de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben rapporteerd met de invoegvoegtekst Rapportbericht of de invoegtekst Phishing melden. U kunt de variabele %type% gebruiken om het inzendingstype op te nemen.
 
       Klik op **Opslaan** wanneer u gereed bent. Als u deze waarden wilt verwijderen, klikt **u op Terugzetten** op de **pagina Gebruikersinzendingen.**
     
     - **De rapportageopties voor eindgebruikers aanpassen:** Klik op deze koppeling. Voer in **de flyout Rapportageopties** voor eindgebruikers aanpassen de beschrijvende tekst in voor rapportageopties voor ongewenste e-mail. 
-Selecteer **onder Opties om aan te geven wanneer** berichten worden gerapporteerd ten minste één van de volgende opties:
+    
+      Selecteer **onder Opties om aan te geven wanneer** berichten worden gerapporteerd ten minste één van de volgende opties:
         - **Vraag het mij voordat u een rapport verstuurt**
         - **Rapporten automatisch verzenden**
-        -  **Nooit rapporten verzenden** \
-   Klik op **Opslaan** wanneer u gereed bent.
-              - **De gerapporteerde berichten verzenden naar**: Maak een van de volgende selecties:
-              - **Microsoft (Aanbevolen)**: Het postvak voor gebruikersinzendingen wordt niet gebruikt (alle gerapporteerde berichten gaan naar Microsoft).
-              - **Zowel Microsoft als een aangepast postvak:** Voer in het vak dat wordt weergegeven het e-mailadres in van een bestaand Exchange Online-postvak. Distributiegroepen zijn niet toegestaan. Gebruikersinzendingen gaan naar zowel Microsoft voor analyse als naar het aangepaste postvak voor uw beheer- of beveiligingsbewerkingsteam om te analyseren.
-              - **Alleen aangepast postvak:** Voer in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht eerst alleen naar een beheerder of het beveiligingsbewerkingsteam gaat voor analyse. Berichten gaan niet naar Microsoft, tenzij de beheerder deze zelf doorgestuurd.
+        - **Nooit rapporten verzenden**
+       
+      Klik op **Opslaan** wanneer u gereed bent.
 
-        > [!NOTE]
-        > Amerikaanse overheidsorganisaties (GCC, GCC-H en DoD) kunnen alleen aangepast postvak **configureren.** De andere twee opties zijn uitgeschakeld.
+        - **De gerapporteerde berichten verzenden naar**: Maak een van de volgende selecties:
 
-        > [!NOTE]
-        > Als organisaties zijn geconfigureerd om alleen naar een aangepast postvak te verzenden, worden gerapporteerde berichten niet opnieuw verzonden en zijn de resultaten in de portal Gebruikers gerapporteerde berichten altijd leeg.
+        - **Microsoft (Aanbevolen)**: Het postvak voor gebruikersinzendingen wordt niet gebruikt (alle gerapporteerde berichten gaan naar Microsoft).
+
+        - **Zowel Microsoft als een aangepast postvak:** Voer in het vak dat wordt weergegeven het e-mailadres in van een bestaand Exchange Online-postvak. Distributiegroepen zijn niet toegestaan. Gebruikersinzendingen gaan naar zowel Microsoft voor analyse als naar het aangepaste postvak voor uw beheer- of beveiligingsbewerkingsteam om te analyseren.
+
+        - **Alleen aangepast postvak:** Voer in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht eerst alleen naar een beheerder of het beveiligingsbewerkingsteam gaat voor analyse. Berichten gaan niet naar Microsoft, tenzij de beheerder deze zelf doorgestuurd.
+
+          > [!NOTE]
+          > Amerikaanse overheidsorganisaties (GCC, GCC-H en DoD) kunnen alleen aangepast postvak **configureren.** De andere twee opties zijn uitgeschakeld.
+
+          > [!NOTE]
+          > Als organisaties zijn geconfigureerd om alleen naar een aangepast postvak te verzenden, worden gerapporteerde berichten niet opnieuw verzonden en zijn de resultaten in de portal Gebruikers gerapporteerde berichten altijd leeg.
 
       Wanneer u klaar bent, klikt u op **Bevestigen.**
 
@@ -129,11 +135,11 @@ Selecteer **onder Opties om aan te geven wanneer** berichten worden gerapporteer
       > Als u de rapportage van ongewenste e-mail hebt uitgeschakeld in de [webversie](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) van Outlook met behulp van beleidsregels voor postvakken in Outlook, maar u een van de vorige instellingen configureert om berichten te rapporteren aan Microsoft, kunnen gebruikers berichten rapporteren aan Microsoft in de webversie van Outlook met behulp van de invoegversie rapportbericht of de invoeging Phishing melden.
 
 
-    1. De functie Rapportbericht voor **Outlook** uitschakelen: Selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoegfunctie Rapportbericht, de invoegversie Van Phishing melden of de ingebouwde rapportage in de webversie van Outlook en configureer vervolgens de volgende instellingen:
+    2. De functie **Rapportbericht** voor Outlook uitschakelen: Selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoegfunctie Rapportbericht, de invoegvoegversie Van Phishing melden of de ingebouwde rapportage in de webversie van Outlook en configureer vervolgens de volgende instellingen:
 
-          Selecteer **Dit aangepaste postvak gebruiken om gerapporteerde inzendingen van gebruikers te ontvangen.** Voer in het vak dat wordt weergegeven het e-mailadres in van een bestaand postvak dat al in Office 365 staat. Dit moet een bestaand postvak in Exchange Online zijn dat e-mail kan ontvangen.
+       Selecteer **Dit aangepaste postvak gebruiken om gerapporteerde inzendingen van gebruikers te ontvangen.** Voer in het vak dat wordt weergegeven het e-mailadres in van een bestaand postvak dat al in Office 365 staat. Dit moet een bestaand postvak in Exchange Online zijn dat e-mail kan ontvangen.
 
-          Wanneer u klaar bent, klikt u op **Bevestigen.**
+       Wanneer u klaar bent, klikt u op **Bevestigen.**
 
 ## <a name="message-submission-format"></a>Berichtinzendingsindeling
 

@@ -20,12 +20,12 @@ ms.custom:
 description: In dit onderwerp vindt u de aanbevolen configuratie voor instellingen voor tenants die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 64715b026c3dcb029bea4d75697bf687559c168c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: efcc468dc9b6a41af79ecf2f22a6ad58a410e08f
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204607"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650324"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365-tenant configureren voor meer beveiliging
 
@@ -67,7 +67,7 @@ Ga naar deze rapporten en dashboards voor meer informatie over de status van uw 
 
 ****
 
-|Dashboard|Beschrijving|
+|Dashboard|Omschrijving|
 |---|---|
 |[Dashboard Bedreigingsbeheer](security-dashboard.md)|Gebruik  dit dashboard in de sectie Bedreigingsbeheer van het beveiligingscentrum om te zien welke bedreigingen al zijn afgehandeld en als handig hulpmiddel voor het rapporteren aan zakelijke besluitvormers over wat de mogelijkheden voor bedreigingsonderzoek en -reactie al hebben gedaan om uw bedrijf te beveiligen.|
 |[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)|Dit is ook in de **sectie Bedreigingsbeheer** van het beveiligingscentrum. Als u een aanval op uw tenant onderzoekt of ondervindt, gebruikt u Explorer (of realtime detecties) om bedreigingen te analyseren. Explorer (en het realtimedetectierapport) toont het aantal aanvallen in de tijd en u kunt deze gegevens analyseren op bedreigingsfamilies, infrastructuur voor aanvallers en meer. U kunt ook verdachte e-mailberichten markeren voor de lijst Incidenten.|

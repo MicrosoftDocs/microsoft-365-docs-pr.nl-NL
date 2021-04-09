@@ -18,12 +18,12 @@ description: Meer informatie over het herkennen en herstellen van de illegale to
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4a9b3ff11acb32a4b3038cc18922f8e22fda0b4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7869419677ba1d5d6b480b7f0dea7f67880af0c7
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204401"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644678"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Illegale toestemmingsgelden detecteren en herstellen
 
@@ -86,7 +86,7 @@ U kunt dit doen voor uw gebruikers met de Azure Active Directory Portal of Power
 
 U kunt de toepassingen zoeken waaraan elke afzonderlijke gebruiker machtigingen heeft verleend met behulp van [de Azure Active Directory Portal.](https://portal.azure.com/)
 
-1. Meld u aan bij de Azure Portal met beheerdersrechten.
+1. Meld u aan bij de Azure-portal met beheerdersrechten.
 
 2. Selecteer het Azure Active Directory-blad.
 
@@ -128,7 +128,7 @@ De eenvoudigste manier om de aanval illegale toestemmings verlenen te [ verifië
 5. Voer deze PowerShell-opdracht uit:
 
    ```powershell
-   Get-AzureADPSPermissions.ps1 | Export-csv -Path "Permissions.csv" -NoTypeInformation
+   .\Get-AzureADPSPermissions.ps1 | Export-csv -Path "Permissions.csv" -NoTypeInformation
    ```
 
 Het script produceert één bestand met de naam Permissions.csv. Volg deze stappen om te zoeken naar onrechtmatige machtigingen voor toepassingen:

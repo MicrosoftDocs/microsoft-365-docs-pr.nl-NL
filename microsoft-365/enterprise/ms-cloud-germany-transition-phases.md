@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Samenvatting: Inzicht in de migratiefasen en de gevolgen van de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 0cf1358b4170b69d3506062c336a1cf67a2da2de
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e3ed1d76a755ce6326ac6ae53b990136a10b564a
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591730"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644714"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Acties en effecten van migratiefasen voor de migratie vanuit Microsoft Cloud Deutschland
 
@@ -128,7 +128,7 @@ Aanvullende aandachtspunten:
 
 **Van toepassing op:** Alle klanten die Exchange Online gebruiken
 
-Als u hybride Exchange Online gebruikt: Hybride beheerders van Exchange Online moeten de wizard Hybride configuratie  **(HCW)** meerdere keren uitvoeren als onderdeel van deze overgang. Pas het [Exchange-voorwerk toe voordat](ms-cloud-germany-transition-add-pre-work.md#exchange-online-hybrid-configuration) **de migratiestap fase 5 begint.** Hybride exchange Online-klanten moeten de nieuwste versie van de wizard Hybride configuratie van Exchange (HCW) uitvoeren in de modus 'Office 365 Germany' om de on-premises configuratie voor te bereiden voor de migratie naar globale Office 365-services.
+Als u hybride Exchange Online gebruikt: Hybride beheerders van Exchange Online moeten de wizard Hybride configuratie  **(HCW)** meerdere keren uitvoeren als onderdeel van deze overgang. Pas het [Exchange-voorwerk toe voordat](ms-cloud-germany-transition-add-pre-work.md#exchange-online-hybrid-customers) **de migratiestap fase 5 begint.** Hybride exchange Online-klanten moeten de nieuwste versie van de wizard Hybride configuratie van Exchange (HCW) uitvoeren in de modus 'Office 365 Germany' om de on-premises configuratie voor te bereiden voor de migratie naar globale Office 365-services.
 
 Nadat de migratiefase **9** is voltooid (wanneer de berichtmelding van het Berichtencentrum wordt gepubliceerd), moet u de HCW opnieuw uitvoeren met office 365 Worldwide-instellingen om uw on-premises systemen aan te wijzen op de globale Office 365-services.
 

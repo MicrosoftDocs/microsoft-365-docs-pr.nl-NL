@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel kunnen beheerders informatie krijgen over beveiliging tegen veilige koppelingen in Defender voor Office 365 om hun organisatie te beschermen tegen phishing en andere aanvallen die kwaadaardige URL's gebruiken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 06ec3ab1a255e9eaa8c190ed5c248c9587273e03
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1f27e1bbd051bd43d1f160707589db2bb7189b76
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204690"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644774"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Veilige koppelingen in Microsoft Defender voor Office 365
 
@@ -118,11 +118,11 @@ De instellingen in beleidsregels voor veilige koppelingen die van toepassing zij
 
 - **Gebruikers mogen niet doorklikken** naar de oorspronkelijke URL: Hiermee [](#warning-pages-from-safe-links) kunnen gebruikers niet door de waarschuwingspagina naar de oorspronkelijke URL klikken. De aanbevolen waarde is ingeschakeld.
 
-- **De huisstijl van de organisatie weergeven op meldings-** en waarschuwingspagina's: deze optie toont de huisstijl van uw organisatie op waarschuwingspagina's. Met huisstijl kunnen gebruikers legitieme waarschuwingen identificeren, omdat standaardwaarschuwingspagina's van Microsoft vaak worden gebruikt door aanvallers. Zie Branding toevoegen aan de aanmeldingspagina van Azure Active Directory van uw organisatie voor meer informatie over aangepaste [huisstijl.](/azure/active-directory/fundamentals/customize-branding)
+- **De huisstijl van de organisatie weergeven op meldings-** en waarschuwingspagina's: deze optie toont de huisstijl van uw organisatie op waarschuwingspagina's. Met huisstijl kunnen gebruikers legitieme waarschuwingen identificeren, omdat standaardwaarschuwingspagina's van Microsoft vaak worden gebruikt door aanvallers. Zie Het [Microsoft 365-thema](../../admin/setup/customize-your-organization-theme.md)voor uw organisatie aanpassen voor meer informatie over aangepaste huisstijl.
 
 - **De volgende URL's niet opnieuw schrijven:** URL's blijven zoals ze zijn. Er wordt een aangepaste lijst met veilige URL's bijhoudt die niet hoeven te worden gescand. De lijst is uniek voor elk beleid voor veilige koppelingen. Zie de lijst 'De volgende [URL's](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies) niet herschrijven' in de sectie Beleidsregels voor veilige koppelingen verder in dit artikel voor meer informatie over de lijst De volgende **URL's** niet opnieuw schrijven.
 
-Zie Beleidsinstellingen voor veilige koppelingen voor meer informatie over de aanbevolen waarden voor beleidsregels voor standaard en strikt beleid voor veilige [koppelingen.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
+  Zie Beleidsinstellingen voor veilige koppelingen voor meer informatie over de aanbevolen waarden voor beleidsregels voor standaard en strikt beleid voor veilige [koppelingen.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
 - **Filters voor geadresseerden:** u moet de voorwaarden en uitzonderingen voor de geadresseerde opgeven die bepalen op wie het beleid van toepassing is. U kunt deze eigenschappen gebruiken voor voorwaarden en uitzonderingen:
 
@@ -167,7 +167,7 @@ De volgende instellingen in beleidsregels voor veilige koppelingen die van toepa
 - **Gebruikersklikken niet bijhouden**
 - **Gebruikers niet toestaan door te klikken naar de oorspronkelijke URL**
 
-Deze instellingen worden uitgelegd in de vorige [instellingen voor veilige koppelingen voor e-mailberichten.](#safe-links-settings-for-email-messages)
+Deze instellingen worden eerder uitgelegd in [instellingen voor veilige koppelingen voor e-mailberichten.](#safe-links-settings-for-email-messages)
 
 Nadat u Beveiliging voor veilige koppelingen voor Microsoft Teams hebt ingeschakeld, worden URL's in Teams gecontroleerd op een lijst met bekende schadelijke koppelingen wanneer de beveiligde gebruiker op de koppeling klikt (time-of-click-beveiliging). URL's worden niet herschreven. Als een koppeling schadelijk blijkt te zijn, hebben gebruikers de volgende ervaringen:
 
@@ -256,22 +256,22 @@ Wanneer een gebruiker in een actief beleid voor veilige koppelingen op een geblo
 
 U configureert de lijst met URL's in de algemene instellingen voor Veilige koppelingen. Zie De lijst ['De volgende URL's blokkeren' configureren](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)voor instructies.
 
-**Opmerkingen**:
-
-- Zie De lijst tenant [toestaan/blokkeren](tenant-allow-block-list.md)beheren voor een werkelijk universele lijst met URL's die overal worden geblokkeerd.
-
-- Limieten:
-  - Het maximum aantal vermeldingen is 500.
-  - De maximale lengte van een item is 128 tekens.
-  - Alle vermeldingen mogen niet meer dan 10.000 tekens bevatten.
-
-- Voeg geen slash () toe aan het `/` einde van de URL. Gebruik bijvoorbeeld `https://www.contoso.com` , niet `https://www.contoso.com/` .
-
-- Een domein-alleen-URL (bijvoorbeeld `contoso.com` of ) blokkeert elke URL die het domein `tailspintoys.com` bevat.
-
-- U kunt een subdomein blokkeren zonder het volledige domein te blokkeren. Blokkeert bijvoorbeeld een URL die het subdomein bevat, maar geen URL's die het volledige domein `toys.contoso.com*` `contoso.com` bevatten.
-
-- U kunt maximaal drie jokertekens `*` () per URL-vermelding opnemen.
+> [!NOTE]
+> 
+> - Zie De lijst tenant [toestaan/blokkeren](tenant-allow-block-list.md)beheren voor een werkelijk universele lijst met URL's die overal worden geblokkeerd.
+> 
+> - Limieten:
+>   - Het maximum aantal vermeldingen is 500.
+>   - De maximale lengte van een item is 128 tekens.
+>   - Alle vermeldingen mogen niet meer dan 10.000 tekens bevatten.
+> 
+> - Voeg geen slash () toe aan het `/` einde van de URL. Gebruik bijvoorbeeld `https://www.contoso.com` , niet `https://www.contoso.com/` .
+> 
+> - Een domein-alleen-URL (bijvoorbeeld `contoso.com` of ) blokkeert elke URL die het domein `tailspintoys.com` bevat.
+> 
+> - U kunt een subdomein blokkeren zonder het volledige domein te blokkeren. Blokkeert bijvoorbeeld een URL die het subdomein bevat, maar geen URL's die het volledige domein `toys.contoso.com*` `contoso.com` bevatten.
+> 
+> - U kunt maximaal drie jokertekens `*` () per URL-vermelding opnemen.
 
 ### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>Syntaxis van invoer voor de lijst 'De volgende URL's blokkeren'
 
@@ -296,20 +296,20 @@ Elk beleid voor veilige koppelingen bevat de volgende **URL's** die u kunt gebru
 
 Zie Beleid voor veilige koppelingen maken of Beleid [](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) voor veilige koppelingen wijzigen als u items wilt toevoegen aan de lijst in nieuwe of bestaande beleidsregels voor veilige [koppelingen.](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)
 
-**Opmerkingen**:
-
-- In de volgende clients worden de volgende **URL's** in beleidsregels voor veilige koppelingen niet herkend. Gebruikers die zijn opgenomen in de politie kunnen worden geblokkeerd voor toegang tot de URL's op basis van de resultaten van het scannen van veilige koppelingen in deze clients:
-
-  - Microsoft Teams
-  - Office-web-apps
-
-  Zie De lijst tenant toestaan/blokkeren beheren voor een werkelijk universele lijst met URL's die overal [zijn toegestaan.](tenant-allow-block-list.md)
-
-- U kunt veelgebruikte interne URL's toevoegen aan de lijst om de gebruikerservaring te verbeteren. Als u bijvoorbeeld on-premises services hebt, zoals Skype voor Bedrijven of SharePoint, kunt u deze URL's toevoegen om ze uit te sluiten van scannen.
-
-- Als u de volgende **URL's** in uw beleid voor veilige koppelingen niet opnieuw hebt geschreven, controleert u de lijsten en voegt u indien nodig jokertekens toe. Uw lijst heeft bijvoorbeeld een vermelding zoals `https://contoso.com/a` en u besluit later subpathen zoals `https://contoso.com/a/b` . In plaats van een nieuw item toe te voegen, voegt u een jokerteken toe aan de bestaande vermelding, zodat deze wordt `https://contoso.com/a/*` .
-
-- U kunt maximaal drie jokertekens `*` () per URL-vermelding opnemen. Jokertekens bevatten expliciet voorvoegsels of subdomeinen. De vermelding is bijvoorbeeld niet hetzelfde als , omdat personen subdomeinen en paden in het `contoso.com` `*.contoso.com/*` opgegeven domein kunnen `*.contoso.com/*` bezoeken.
+> [!NOTE]
+> 
+> - In de volgende clients worden de volgende **URL's** in beleidsregels voor veilige koppelingen niet herkend. Gebruikers die zijn opgenomen in de politie kunnen worden geblokkeerd voor toegang tot de URL's op basis van de resultaten van het scannen van veilige koppelingen in deze clients:
+> 
+>   - Microsoft Teams
+>   - Office-web-apps
+> 
+>   Zie De lijst tenant toestaan/blokkeren beheren voor een werkelijk universele lijst met URL's die overal [zijn toegestaan.](tenant-allow-block-list.md)
+> 
+> - U kunt veelgebruikte interne URL's toevoegen aan de lijst om de gebruikerservaring te verbeteren. Als u bijvoorbeeld on-premises services hebt, zoals Skype voor Bedrijven of SharePoint, kunt u deze URL's toevoegen om ze uit te sluiten van scannen.
+> 
+> - Als u de volgende **URL's** in uw beleid voor veilige koppelingen niet opnieuw hebt geschreven, controleert u de lijsten en voegt u indien nodig jokertekens toe. Uw lijst heeft bijvoorbeeld een vermelding zoals `https://contoso.com/a` en u besluit later subpathen zoals `https://contoso.com/a/b` . In plaats van een nieuw item toe te voegen, voegt u een jokerteken toe aan de bestaande vermelding, zodat deze wordt `https://contoso.com/a/*` .
+> 
+> - U kunt maximaal drie jokertekens `*` () per URL-vermelding opnemen. Jokertekens bevatten expliciet voorvoegsels of subdomeinen. De vermelding is bijvoorbeeld niet hetzelfde als , omdat personen subdomeinen en paden in het `contoso.com` `*.contoso.com/*` opgegeven domein kunnen `*.contoso.com/*` bezoeken.
 
 ### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>Syntaxis van invoer voor de lijst 'De volgende URL's niet opnieuw schrijven'
 

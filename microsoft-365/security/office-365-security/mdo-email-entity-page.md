@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Klanten van Microsoft Defender voor Office 365 E5 en ATP P1 en ATP P2 kunnen nu een 360-gradenweergave van elke e-mail met pagina met e-mailentiteit krijgen.
-ms.openlocfilehash: 6d2777113e7e9f9ce760dab3b83252eceab520ff
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 7797e9f5965f43b856c2c34df1f99fddf72d5df5
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599485"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650336"
 ---
 # <a name="the-email-entity-page"></a>Entiteitspagina van e-mail
 
@@ -119,7 +119,7 @@ Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of 
   - Wanneer de regel Ongewenste e-mail is ingeschakeld in het postvak, kan Exchange Online Protection (EOP) berichten volgens bepaalde criteria naar Ongewenste e-mail verplaatsen. De verhuizing kan zijn gebaseerd op actie voor spamfiltering *Bericht verplaatsen* naar de map Ongewenste e-mail of op de lijst Geblokkeerde afzenders in het postvak. Het uitschakelen van de regel Ongewenste e-mail voorkomt dat berichten worden bezorgd in de map Ongewenste e-mail op basis van de lijst Veilige *afzenders* in het postvak.
   - Wanneer de regel voor ongewenste e-mail *is* uitgeschakeld in het postvak, kan EOP geen berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie Voor spamfiltering Bericht verplaatsen naar map Ongewenste e-mail of de veilige lijstverzameling in het postvak.
 
-- *Bulk Compliant Level (BCL)*: Het bulkklachtsniveau (BCL) van het bericht. Een hogere BCL geeft aan dat een bulkbericht waarschijnlijk meer klachten kan genereren (het natuurlijke resultaat als de e-mail waarschijnlijk spam is).
+- *Bulksgewijs klachtenniveau (BCL)*: het bulkklachtsniveau (BCL) van het bericht. Een hogere BCL geeft aan dat een bulkbericht waarschijnlijk meer klachten kan genereren (het natuurlijke resultaat als de e-mail waarschijnlijk spam is).
 
 - *Betrouwbaarheidsniveau voor spam (SCL)*: Het betrouwbaarheidsniveau voor spam (SCL) van het bericht. Hoe hoger de waarde, hoe groter de kans dat het bericht spam is.
 

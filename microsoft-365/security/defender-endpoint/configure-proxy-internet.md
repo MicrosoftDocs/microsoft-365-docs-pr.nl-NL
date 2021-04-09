@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b529b1c7fa5c4f9f81cb6bfbb5f1a6bd7823a9ad
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 97d1d50e2557cbb760248738b1f096614873958f
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587597"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644702"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Instellingen voor apparaatproxy en internetverbinding configureren
 
@@ -57,6 +57,13 @@ De configuratie-instelling WinHTTP is onafhankelijk van de instellingen van Wind
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>De proxyserver handmatig configureren met behulp van een statische proxy op basis van het register
 
 Configureer een statische proxy op basis van het register zodat alleen defender voor eindpunten-sensor diagnostische gegevens kan rapporteren en kan communiceren met Defender voor eindpuntservices als een computer geen verbinding mag maken met internet.
+
+> [!NOTE]
+> - Wanneer u deze optie gebruikt in Windows 10 of Windows Server 2019, wordt het aanbevolen om de volgende (of latere) build en cumulatieve update samen te werken:</br>
+> Windows 10, versie 1909 - https://support.microsoft.com/kb/4601380</br>
+> Windows 10, versie 2004 - https://support.microsoft.com/kb/4601382</br>
+> Windows 10, versie 20H2 - https://support.microsoft.com/kb/4601382</br>
+> Deze updates verbeteren de connectiviteit en betrouwbaarheid van het CnC-kanaal (Command and Control).</br>
 
 De statische proxy kan worden geconfigureerd via Groepsbeleid (GP). Het groepsbeleid vindt u onder:
 

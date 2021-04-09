@@ -14,12 +14,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zoek, test en implementeer Microsoft- en Microsoft-partner-apps voor gebruikers en groepen in uw organisatie via de portal Geïntegreerde apps in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: f806d48e0ed582b1b5c1ee262058ce987125bd99
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: da67cbe5f8b6e5f2da42e1f4b57a55d7d4a768fb
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488287"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644474"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>Microsoft 365-apps testen en implementeren door partners in de portal Geïntegreerde apps
 
@@ -29,7 +29,7 @@ Zie [Microsoft 365-apps](https://techcommunity.microsoft.com/t5/microsoft-365-bl
 
 Zie Een [SaaS-aanbieding](https://go.microsoft.com/fwlink/?linkid=2158277) plannen voor de commerciële markt voor meer informatie over hoe partners deze apps maken.
 
-De portal Geïntegreerde apps is alleen toegankelijk voor globale beheerders en is alleen beschikbaar voor klanten van worldwide. Deze functie is niet beschikbaar in soevereine en overheidswolken.
+De portal Geïntegreerde apps is alleen toegankelijk voor globale beheerders en alleen beschikbaar voor klanten over de hele wereld. Deze functie is niet beschikbaar in soevereine en overheidswolken.
 
 In de portal Geïntegreerde apps wordt een lijst met apps weergegeven, met enkele apps en Microsoft 365-apps van partners die uw organisatie zijn geïmplementeerd. Alleen web-apps, SPFx-apps, Office-invoegapplicaties en Teams-apps worden weergegeven. Voor web-apps ziet u twee soorten apps.
 

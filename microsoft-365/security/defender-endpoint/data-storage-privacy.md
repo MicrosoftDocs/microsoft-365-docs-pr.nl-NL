@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 228a8813bcfff052c7f861dcd2962a94cb58c0fb
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: e19c64c01c892a8a5f47f5892882feab1242f897
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165965"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644486"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Microsoft Defender voor opslag en privacy van eindpuntgegevens
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -94,6 +94,9 @@ U kunt het bewaarbeleid voor uw gegevens kiezen. Hiermee wordt bepaald hoelang U
 
 **Bij contractbeëindiging of vervaldatum**<br>
 Uw gegevens worden bewaard en zijn beschikbaar voor u terwijl de licentie onder respijtperiode of opgeschorte modus valt. Aan het einde van deze periode worden deze gegevens uit de systemen van Microsoft gewist om deze niet meer te kunnen terugverbinden, niet later dan 180 dagen na beëindiging of vervaldatum van het contract.
+
+**Geavanceerde gegevens over jagen**<br>
+Geavanceerd zoeken is een op query's gebaseerd hulpprogramma voor bedreigingsjacht waarmee u tot 30 dagen onbewerkte gegevens kunt verkennen.
 
 
 ## <a name="can-microsoft-help-us-maintain-regulatory-compliance"></a>Kan Microsoft ons helpen de naleving van de regelgeving te handhaven?

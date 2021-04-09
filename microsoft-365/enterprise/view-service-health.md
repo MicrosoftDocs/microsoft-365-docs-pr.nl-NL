@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Bekijk de status van Microsoft 365-services voordat u de ondersteuning belt om te zien of er een actieve serviceonderbreking is.
-ms.openlocfilehash: 30b677a80e5a08d75534a91aa04d735443660f18
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: e0ab4eaa1f7a96168839a4abef2f0f254a21d0ad
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215478"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644630"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>De status van de Microsoft 365-service controleren
 
@@ -47,7 +47,7 @@ Als u zich niet kunt aanmelden bij het beheercentrum, kunt u de [pagina services
 1. Ga naar het Microsoft 365-beheercentrum bij [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) en meld u aan met een beheerdersaccount.
 
     > [!NOTE]
-    > Personen aan wie de rol globale beheerder of servicebeheerder is toegewezen, kunnen de servicestatus bekijken. Beheerders van Exchange, SharePoint en Skype voor Bedrijven dient de rol servicebeheerder te zijn toegewezen om de servicestatus te kunnen bekijken. Zie Over beheerdersrollen voor meer informatie over rollen die de status van de service [kunnen weergeven.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles)
+    > Personen aan wie de rol globale beheerder of serviceondersteuningsbeheerder is toegewezen, kunnen de servicetoestand bekijken. Beheerders van Exchange, SharePoint en Skype voor Bedrijven dient de rol servicebeheerder te zijn toegewezen om de servicestatus te kunnen bekijken. Zie Over beheerdersrollen voor meer informatie over rollen die de status van de service [kunnen weergeven.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles)
   
 2. Als u het nieuwe beheercentrum niet  gebruikt, selecteert u op de startpagina de schakelknop Het nieuwe **beheercentrum** uitproberen in de rechterbovenhoek.
 
@@ -117,7 +117,7 @@ Meestal worden services als gezond weergegeven zonder verdere informatie. Als er
   
 ### <a name="incidents-and-advisories"></a>Incidenten en adviezen
 
-| Pictogram | Beschrijving |
+| Pictogram | Omschrijving |
 |:-----|:-----|
 |![Information icon for advisory](../media/a7f5fd21-c760-4948-9bc1-50f7c8070e28.png)|Als voor een service een advies wordt getoond, is er een probleem bekend waarvan een aantal gebruikers last heeft, maar de service is nog wel beschikbaar. Een advies biedt meestal een tijdelijke oplossing voor het probleem. Het probleem kan af en toe optreden of het bereik ervan of het aantal getroffen gebruikers is beperkt.  <br/> |
 |![Exclamation point icon for incident](../media/a636db57-6083-44dc-bbd5-556850804f17.png)|Als voor een service een incident wordt getoond, gaat het om een kritiek probleem en is de service of een belangrijke functie ervan niet beschikbaar. Gebruikers kunnen bijvoorbeeld geen e-mail meer verzenden en ontvangen en kunnen zich niet aanmelden. Incidenten zijn van merkbare invloed op gebruikers. Wanneer er een incident wordt uitgevoerd, bieden we updates over het onderzoek, risicobeperking en bevestiging van de oplossing in het dashboard voor servicestatus.  <br/> |

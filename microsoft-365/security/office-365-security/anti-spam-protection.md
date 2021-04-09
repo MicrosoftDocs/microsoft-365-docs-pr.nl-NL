@@ -21,12 +21,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de antispaminstellingen en filters die spam helpen voorkomen in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5f19330d7af9c4a6601baa9562766eb5a6e7052a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: eaff771d6fa0490819ec076b5a9a43ac843cf207
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204871"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650264"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Bescherming tegen spam in EOP
 
@@ -91,7 +91,7 @@ Hier volgen enkele best practices die van toepassing zijn op beide scenario's:
 
   - **DMARC:** Op domein gebaseerde berichtverificatie, rapportage en conformatie helpt doel-e-mailsystemen te bepalen wat te doen met berichten die niet worden gecontroleerd door SPF of DKIM en biedt een ander niveau van vertrouwen voor uw e-mailpartners. Zie DMARC gebruiken om [e-mail te valideren in Microsoft 365](use-dmarc-to-validate-email.md)voor meer informatie.
 
-- **Controleer de instellingen voor** bulksgewijs e-mail: de drempelwaarde voor bulksgewijs compatibel niveau (BCL) die u configureert in antispambeleid, bepaalt of bulk-e-mail (ook wel grijze e-mail _genoemd)_ is gemarkeerd als spam. De instelling Alleen-PowerShell _MarkAsSpamBulkMail_ die standaard is ingeschakeld, draagt ook bij aan de resultaten. Zie [Antispambeleid configureren in Microsoft 365](configure-your-spam-filter-policies.md)voor meer informatie.
+- **Controleer de instellingen voor** bulksgewijs e-mail: de drempelwaarde voor bulkklachten (BCL) die u configureert in antispambeleid, bepaalt of bulk-e-mail (ook wel grijze e-mail _genoemd)_ is gemarkeerd als spam. De instelling Alleen-PowerShell _MarkAsSpamBulkMail_ die standaard is ingeschakeld, draagt ook bij aan de resultaten. Zie [Antispambeleid configureren in Microsoft 365](configure-your-spam-filter-policies.md)voor meer informatie.
 
 ### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>Voorkomen dat spam wordt bezorgd in het Postvak IN
 

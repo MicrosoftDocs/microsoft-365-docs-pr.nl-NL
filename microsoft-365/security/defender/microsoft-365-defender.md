@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 687077b1c9ff2449d9994875419a97cf0c503c2f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 86bc6ef03438b637f62cf0e2a46e418dbea7a3c1
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581080"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650276"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -96,3 +96,7 @@ Microsoft 365 Defender-cross-productfuncties zijn:
 Er moet aan de licentievereisten voor Microsoft 365 Defender worden voldaan voordat u de service kunt inschakelen in het Microsoft 365-beveiligingscentrum [op security.microsoft.com.](https://security.microsoft.com) Lees voor meer informatie:
 - [Licentievereisten](prerequisites.md#licensing-requirements)
 - [Microsoft 365 Defender inschakelen](m365d-enable.md)
+
+
+## <a name="see-also"></a>Zie ook
+- [Mogelijkheden voor bedreigingsbeveiliging implementeren in Microsoft 365 E5](https://docs.microsoft.com/microsoft-365/solutions/deploy-threat-protection)

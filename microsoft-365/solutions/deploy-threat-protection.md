@@ -1,7 +1,7 @@
 ---
 title: Mogelijkheden voor bedreigingsbeveiliging implementeren in Microsoft 365
 description: Krijg een overzicht van bedreigingsbeveiligingsservices en beveiligingsmogelijkheden in Microsoft 365 E5. Bescherm uw gebruikersaccounts, apparaten, e-mailinhoud en meer met Microsoft 365 E5.
-keywords: bedreigingsbeveiliging, beveiliging, E5, cyberaanvallen, malware, M365, oplossing
+keywords: geavanceerde bedreigingsbeveiliging, beveiliging, microsoft 365 E5, oplossing, apparaten beveiligen, defender
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 806c97a55b3cbe46d597566425cf71476586ecee
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: ea28e9c244b6b8faaeb9b1f3685d57169605cbb9
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604376"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650312"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Mogelijkheden voor bedreigingsbeveiliging implementeren in Microsoft 365 E5
 

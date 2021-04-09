@@ -17,19 +17,19 @@ ms.custom: asr
 ms.technology: mde
 ms.date: 03/08/2021
 ms.topic: how-to
-ms.openlocfilehash: be98bf810d00b6e39ba9d2674604a9fd2128a8cc
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2ef3fbeec65be512dfe07f1d533df4d8e9b31532
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198649"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644498"
 ---
-# <a name="protect-your-network"></a>Uw netwerk beveiligen
+# <a name="protect-your-network"></a>Beveilig uw netwerk
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -85,11 +85,21 @@ U kunt het Windows-gebeurtenislogboek bekijken om gebeurtenissen te bekijken die
 
 Met deze procedure wordt een aangepaste weergave gemaakt die filtert om alleen de volgende gebeurtenissen weer te geven die betrekking hebben op netwerkbeveiliging:
 
-| Gebeurtenis-id | Beschrijving |
+| Gebeurtenis-id | Omschrijving |
 |:---|:---|
 | 5007 | Gebeurtenis wanneer instellingen worden gewijzigd |
 | 1125 | Gebeurtenis wanneer netwerkbeveiliging wordt uitgevoerd in de auditmodus |
 | 1126 | Gebeurtenis wanneer netwerkbeveiliging wordt branden in de blokmodus |
+
+## <a name="network-protection-troubleshooting"></a>Problemen met netwerkbeveiliging oplossen
+
+Vanwege de omgeving waarin Netwerkbeveiliging wordt uitgevoerd, kan Microsoft mogelijk geen proxy-instellingen voor het besturingssysteem detecteren. In sommige gevallen kunnen Network Protection-clients geen cloudservice bereiken. Als u het verbindingsprobleem wilt oplossen, moeten klanten met E5-licenties een van de volgende registersleutels van Defender configureren:
+
+```console
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
+
+```
 
 ## <a name="related-articles"></a>Verwante artikelen
 
