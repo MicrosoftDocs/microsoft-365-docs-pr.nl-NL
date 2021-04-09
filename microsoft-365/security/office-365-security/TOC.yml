@@ -6,6 +6,8 @@
       items:
         - name: Defender voor Office 365
           href: defender-for-office-365.md
+        - name: Stapsgewijze bedreigingsbeveiliging in Defender voor Office 365
+          href: protection-stack-microsoft-defender-for-office365.md
         - name: Defender voor Office 365 evalueren
           href: office-365-evaluation.md
         - name: Nieuw in Defender voor Office 365
