@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Lees hoe u uw proefabonnement of betaald abonnement op Microsoft 365 voor Bedrijven kunt opzeggen.
 ms.date: ''
-ms.openlocfilehash: 0d37a2459c89bf5931af26a91ed14e2898c1c8c4
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 2163462ae206871d66155331096337c29d6a87c2
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615385"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644642"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -47,6 +47,15 @@ Als u uw eigen domeinnaam hebt toegevoegd om te gebruiken met uw abonnement, moe
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+2. Kies het abonnement dat u wilt annuleren. Selecteer **Meer acties** (drie puntjes) en selecteer **Abonnement annuleren**.
+3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback.
+4. Kies **Opslaan**.
+
+Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft beperkte functionaliteit totdat het wordt verwijderd. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](what-if-my-subscription-expires.md) voor meer informatie over wat u kunt verwachten wanneer een betaald Microsoft 365 voor Bedrijven-abonnement is geannuleerd.
+
+> [!NOTE]
+> Als u een abonnement expliciet verwijdert, worden de fasen Verlopen en Uitgeschakeld overgeslagen en worden de gegevens en inhoud van SharePoint Online, inclusief OneDrive, onmiddellijk verwijderd.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"

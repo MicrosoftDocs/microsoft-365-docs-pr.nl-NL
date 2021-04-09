@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Lees hoe u kunt bepalen welke gebruikers Microsoft 365 Groepen kunnen maken.
-ms.openlocfilehash: 9c3edf335ce09f04e9b0b538e69fa607a9c34044
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 092ff821911ef0af2b7867e1b870b68b1b6355b3
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929154"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656983"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Beheren wie Microsoft 365-groepen kunnen maken
 
@@ -43,7 +43,7 @@ Wanneer u beperkt wie een groep kan maken, is dit van invloed op alle services d
 - Power BI (klassiek)
 - Project voor het web / Routekaart
 
-De stappen in dit artikel voorkomen niet dat leden van bepaalde rollen groepen kunnen maken. Globale beheerders van Office 365 kunnen groepen maken op elke manier, zoals het Microsoft 365-beheercentrum, Planner, Teams, Exchange en SharePoint Online. Andere rollen kunnen Groepen maken via beperkte middelen, hieronder weergegeven.
+De stappen in dit artikel voorkomen niet dat leden van bepaalde rollen groepen kunnen maken. Globale beheerders van Office 365 kunnen groepen maken via het Microsoft 365-beheercentrum, Planner, Exchange en SharePoint Online. Andere rollen kunnen Groepen maken via beperkte middelen, hieronder weergegeven.
 
 - Exchange-beheerder: Exchange-beheercentrum, Azure AD
 - Ondersteuning voor partnerniveau 1: Microsoft 365-beheercentrum, Exchange-beheercentrum, Azure AD

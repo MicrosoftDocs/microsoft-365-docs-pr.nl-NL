@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Lees wat er gebeurt met uw gegevens als uw abonnement op Microsoft 365 voor Bedrijven verloopt of is uitgeschakeld of als u het abonnement opzegt.
-ms.openlocfilehash: ee83e237d17dc2de60b08b8d4dbdc46c98fc8251
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 8f853000ebd20ab8f6625df9f773bbb182bdb7fd
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615397"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644654"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?
 
@@ -68,6 +68,9 @@ Zie [Uw abonnement opzeggen](cancel-your-subscription.md) voor meer informatie o
 > [!IMPORTANT]
 > Als u uw abonnementsgegevens wilt verwijderen voordat de gebruikelijke Uitgeschakeld-periode voorbij is, kunt u [uw account sluiten](../close-your-account.md).
   
+> [!NOTE]
+> Als u een abonnement expliciet verwijdert, worden de fasen Verlopen en Uitgeschakeld overgeslagen en worden de gegevens en inhoud van SharePoint Online, inclusief OneDrive, onmiddellijk verwijderd.
+
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Wat zijn mijn opties als mijn abonnement binnenkort verloopt?
 
 Terwijl een abonnement actief is, hebben u en uw eindgebruikers normale toegang tot uw gegevens, services zoals e-mail en OneDrive voor Bedrijven, en Office-toepassingen. U ontvangt als beheerder een reeks meldingen per e-mail en in het beheercentrum als uw abonnement binnenkort verloopt.

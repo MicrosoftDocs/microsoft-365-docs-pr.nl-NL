@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 3aa964f8e213d64f583738d8957899c1b7b5146c
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 3532fd461fff02fac54e96e0a1a1e69c39c16907
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501089"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51657017"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Proactief op bedreigingen zoeken met geavanceerde jacht in Microsoft 365 Defender
 
@@ -54,6 +54,17 @@ Deze mogelijkheid is vergelijkbaar met [geavanceerde jacht in Microsoft Defender
 - Microsoft Defender for Identity
 
 Als u geavanceerde jacht wilt gebruiken, [schakelt u Microsoft 365 Defender in.](m365d-enable.md)
+
+### <a name="before-you-begin"></a>Voordat u begint
+
+Gebruikers hebben een van de volgende machtigingsniveaus nodig voor toegang tot Microsoft Defender:
+
+- Volledige toegang (lezen en schrijven)
+- Alleen-lezen toegang
+
+**Volledige toegang:** gebruikers met volledige toegang kunnen een query opslaan, wijzigen en delen. Als u volledige toegangsrechten toewijst, moeten de gebruikers worden toegevoegd aan de ingebouwde rollen 'Beveiligingsbeheerder' of 'Globale beheerder' in Azure Active Directory (AAD).
+
+**Alleen-lezentoegang:** Gebruikers met alleen-lezentoegang kunnen zich aanmelden en alle waarschuwingen en gerelateerde informatie bekijken. Ze kunnen een query niet opslaan, wijzigen of delen. Als u alleen-lezentoegangsrechten toewijst, moeten de gebruikers worden toegevoegd aan de ingebouwde rol 'Beveiligingslezer' in AAD.
 
 ## <a name="get-started-with-advanced-hunting"></a>Aan de slag met geavanceerde jacht
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over feedback die uw gebruikers naar Microsoft kunnen sturen over Microsoft-producten.
-ms.openlocfilehash: 0a6c895eacd7a1cf8077141c6a848236a53818e7
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 29fe6b7f43b3c888c3848daeb6ab4c2152a9c44c
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644813"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650057"
 ---
 # <a name="learn-about-microsoft-feedback-for-your-organization"></a>Meer informatie over Microsoft-feedback voor uw organisatie
 
@@ -49,9 +49,9 @@ Als uw gebruikers een van de apps van Microsoft gebruiken en feedback willen gev
 
 Gebruikers kunnen hun ervaring ook beoordelen en aanvullende informatie over hun ervaring geven via systeem geïnitieerde enquêteprompts. Deze aanwijzingen komen af en toe voor in de Microsoft 365-producten. Wanneer u daarom wordt gevraagd, kunnen gebruikers kiezen of ze feedback willen geven. De enquêteprompts worden meestal rechtsonder in de app weergegeven. Als de gebruiker besluit om feedback te geven, de prompt weg te sturen of de prompt zelf laat verdwijnen, ziet die gebruiker de enquête enige tijd niet meer. Microsoft maakt ook gebruik van een beheerproces om het aantal door het systeem geïnitieerde enquêtes te beperken.  De bedoeling van het beheer is ervoor te zorgen dat gebruikers niet worden overstelpt door het aantal enquêteprompts.
 
-:::image type="content" source="../../media/feedback-outlook-example.png" alt-text="Schermafbeelding: Voorbeeld van feedback in een product voor Outlook":::
-:::image type="content" source="../../media/how-likely-recommend.png" alt-text="Schermafbeelding: Hoe waarschijnlijk is het dat u Microsoft 365-enquête gaat aanbevelen":::
-:::image type="content" source="../../media/feedback-in-product1.png" alt-text="Schermafbeelding: Voorbeelden van in-productfeedbackpagina's":::
+:::image type="content" source="../../media/feedback-love.png" alt-text="Schermafbeelding: Voorbeeld van feedbackaanvraag voor in-product":::
+
+:::image type="content" source="../../media/feedback-excel.png" alt-text="Schermafbeelding: Voorbeeld van feedbackaanvraag voor in-product":::
 
 ## <a name="what-kind-of-feedback-is-best"></a>Welk type feedback is het beste?
 
@@ -90,3 +90,7 @@ We werken om vertrouwen te winnen door ervoor te zorgen dat we ons richten op de
 We zorgen ervoor dat de feedback die we ontvangen, wordt opgeslagen en verwerkt onder Microsoft-beheerregels en dat deze alleen kan worden gebruikt voor goedgekeurd gebruik.
 
 We geven u de controle over uw privacy met gebruiks- en gebruikshulpmiddelen en duidelijke keuzes. We zijn transparant over hoe we gegevens verzamelen en gebruiken, zodat u weloverwogen beslissingen kunt nemen over wat u wilt delen. We beschermen de gegevens die u ons toe vertrouwen met sterke beveiliging en versleuteling. We respecteren lokale privacywetten en strijden voor wettelijke bescherming van uw privacy als een mensenrecht. We gebruiken uw e-mail, chat, bestanden of andere persoonlijke inhoud niet om advertenties op u te richten. Wanneer we gegevens verzamelen, gebruiken we deze om uw ervaringen te verbeteren. Meer informatie over de benadering van Microsoft voor privacy [hier](https://privacy.microsoft.com/). Meer informatie over ons [privacyoverzicht.](/compliance/assurance/assurance-privacy)
+
+## <a name="how-can-i-see-my-users-feedback"></a>Hoe kan ik de feedback van mijn gebruiker zien?
+
+Binnenkort delen we de feedbackgegevens die we voor Microsoft-producten verzamelen, weer aan u. We werken aan een nieuwe ervaring in het Microsoft 365-beheercentrum, zodat u de feedbackgegevens voor uw organisatie kunt bekijken, verwijderen en exporteren. Dit geeft u directe transparantie en nuttige inzichten in de ervaringen van uw gebruikers met Microsoft 365-producten.

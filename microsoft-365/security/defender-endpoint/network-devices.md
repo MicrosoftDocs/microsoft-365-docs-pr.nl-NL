@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 06b52e937dd0260a50883c45c36389a6a955ad0e
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: d0ae82c2e284235d96531c04dc2240063d4e4183
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604509"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51657039"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>Netwerkapparaatdetectie en beveiligingsprobleembeheer
 
@@ -46,7 +46,7 @@ Mogelijkheden voor netwerkdetectie zijn beschikbaar in de sectie **Apparaatvoorr
 
 Een aangewezen Microsoft Defender voor Eindpunt-apparaat wordt in elk netwerksegment gebruikt om periodieke geverifieerde scans van vooraf geconfigureerde netwerkapparaten uit te voeren. Nadat deze zijn ontdekt, bieden de mogelijkheden voor bedreigings- en kwetsbaarheidsbeheer van Defender voor Eindpunt geïntegreerde werkstromen voor het beveiligen van gevonden schakelopties, routers, WLAN-controllers, firewalls en VPN-gateways.  
 
-Zodra de netwerkapparaten zijn gevonden en geclassificeerd, kunnen beveiligingsbeheerders de meest recente beveiligingsaanbevelingen ontvangen en onlangs ontdekte beveiligingsproblemen controleren voor netwerkapparaten die in hun organisatie zijn geïmplementeerd.
+Zodra de netwerkapparaten zijn gevonden en geclassificeerd, kunnen beveiligingsbeheerders de meest recente beveiligingsaanbevelingen ontvangen en onlangs ontdekte beveiligingsproblemen bekijken op netwerkapparaten die in hun organisatie zijn geïmplementeerd.
 
 ## <a name="approach"></a>Benadering
 
@@ -95,9 +95,9 @@ De eerste stap is het selecteren van een apparaat dat de geverifieerde netwerksc
     - login.windows.net  
     - *.securitycenter.windows.com
     - login.microsoftonline.com
-    - *.blob.core.windows.net/networkscannerstable/*
+    - *.blob.core.windows.net/networkscannerstable/ *
 
-    Opmerking: Deze URL's worden niet opgegeven in de lijst met gedocumenteerde gegevensverzamelingen van Defender voor Eindpunt.
+    Opmerking: Niet alle URL's worden opgegeven in de lijst met gedocumenteerde gegevensverzamelingen van Defender voor Eindpunt.
 
 ## <a name="permissions"></a>Machtigingen
 

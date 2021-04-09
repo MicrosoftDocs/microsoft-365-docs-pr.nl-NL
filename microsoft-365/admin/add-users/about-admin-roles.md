@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. Zo kan de servicebeheerder bijvoorbeeld supporttickets openen via het Beheercentrum.
-ms.openlocfilehash: 8092d199dc6ecfda5d76c9198ba44a72ec7b4d71
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e0155ee9e263d4b62dced0e2bd943781ccf93a4c
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197683"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644253"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -80,7 +80,7 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 |Licentiebeheerder    |   Wijs de beheerdersrol Licenties toe aan gebruikers die licenties van gebruikers moeten toewijzen en verwijderen en hun gebruikslocatie moeten bewerken. <br/><br/> Licentiebeheerders kunnen ook: <br> - Licentietoewijzingen voor groepslicenties opnieuw verwerken <br> - Productlicenties toewijzen aan groepen voor groepslicenties  |
 |Office-apps beheerder    |   Wijs de beheerdersrol Office Apps toe aan gebruikers die de volgende taken moeten uitvoeren: <br> - Gebruik de Office-cloudbeleidservice om cloudgebaseerd beleid voor Office te maken en te beheren <br> - Serviceaanvragen maken en beheren <br> - Inhoud over nieuwe functies beheren die gebruikers in hun Office-apps zien   <br> - De servicestatus bewaken  |
 |Wachtwoordbeheerder  |   Wijs de beheerdersrol Wachtwoorden toe aan een gebruiker die wachtwoorden voor niet-beheerders en wachtwoordbeheerders opnieuw moet instellen.   |
-|Service support-beheerder   |   Wijs de beheerdersrol Serviceondersteuning als een extra rol toe aan beheerders of gebruikers van die het volgende moeten doen als aanvulling op hun normale beheerdersrol: <br> - Serviceaanvragen openen en beheren <br> - Berichten in het berichtencentrum bekijken en delen   |
+|Service support-beheerder   |   Wijs de beheerdersrol Serviceondersteuning als een extra rol toe aan beheerders of gebruikers van die het volgende moeten doen als aanvulling op hun normale beheerdersrol: <br> - Serviceaanvragen openen en beheren <br> - Berichten in het berichtencentrum bekijken en delen <br> - De servicestatus bewaken   |
 |SharePoint-beheerder    |   Wijs de SharePoint-beheerdersrol toe aan gebruikers die het SharePoint Online-beheercentrum moeten openen en beheren. <br><br>SharePoint-beheerders kunnen ook het volgende doen: <br> - Sites maken en verwijderen <br> - Siteverzamelingen en wereldwijde SharePoint-instellingen beheren   |
 |Teams-servicebeheerder    |   Wijs de rol Teams-servicebeheerder toe aan gebruikers die het Teams-beheercentrum moeten openen en beheren. <br><br>Teams-servicebeheerders kunnen ook: <br> - Vergaderingen beheren <br> - Vergaderbruggen beheren <br> - Alle organisatiebrede instellingen beheren, inclusief federatie, Teams-upgrade en Teams-clientinstellingen   |
 |Gebruikersbeheerder     |    Wijs de beheerdersrol Gebruikers toe aan gebruikers die de voor alle gebruikers de volgende taken moeten uitvoeren: <br> - Gebruikers en groepen toevoegen <br> - Licenties toewijzen <br> - De meeste gebruikerseigenschappen beheren <br> - Gebruikersweergaven maken en beheren <br> - Verloopbeleid voor wachtwoorden bijwerken <br> - Serviceaanvragen beheren <br> - De servicestatus bewaken <br><br>  De gebruikersbeheerder kan ook de volgende acties uitvoeren voor gebruikers die geen beheerders zijn en voor gebruikers die de volgende rollen hebben gekregen: adreslijst lezer, gast invite, helpdesk-beheerder, Message Center Reader, rapportlezer: <br> - Gebruikersnamen beheren<br> - Gebruikers verwijderen en herstellen<br> - Wachtwoorden opnieuw instellen <br> - Gebruikers dwingen zich af te melden <br> - Apparaatsleutels bijwerken (FIDO)   |

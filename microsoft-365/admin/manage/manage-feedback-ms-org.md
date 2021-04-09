@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Beheer feedback die uw gebruikers naar Microsoft kunnen sturen over Microsoft-producten.
-ms.openlocfilehash: 9c6ed46b21a5ee697c4c512c09defd66e6b961c9
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: c92adec1689d6f0c46b03ae4f46c567f054b6457
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644823"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650014"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>Microsoft-feedback voor uw organisatie beheren
 
@@ -32,7 +32,7 @@ Als beheerder van een Microsoft 365-organisatie zijn er nu verschillende beleids
 
 Zie Meer informatie over [Microsoft-feedback voor uw organisatie](../misc/feedback-user-control.md)voor meer informatie over de typen feedback en hoe Microsoft feedback van gebruikers gebruikt.
 
-In de onderstaande tabel wordt aangegeven welke apps en services momenteel zijn verbonden met het feedbackbeleid dat wordt weergegeven in de onderstaande tabel feedbackbeleid.
+In de onderstaande tabel wordt aangegeven welke apps en services momenteel zijn verbonden met het feedbackbeleid dat wordt weergegeven in de onderstaande tabel feedbackbeleid. Zie onder de tabel voor schermafbeeldingen.
 
 |**Apps & Services**|**Feedback in het product** <br> |**In-product enquêtes** <br> |**Metagegevensverzameling** <br> |**Klantafspraak** <br> |
 |:-----|:-----|:-----|:-----|:-----|
@@ -51,15 +51,7 @@ In de onderstaande tabel wordt aangegeven welke apps en services momenteel zijn 
 |**Visio**|Ja|Ja|Ja|Ja|
 |**Yammer**|Ja|Ja|Ja|Ja|
 
-Hier zijn enkele voorbeelden van productfeedback.
-
-**Feedback in het product**
-
-:::image type="content" source="../../media/feedback-in-product-help.png" alt-text="Schermafbeelding: Help-voorbeeld voor in-product":::
-
-**In-product enquêtes**
-
-:::image type="content" source="../../media/feedback-in-product-survey.png" alt-text="Schermafbeelding: Voorbeeld van microsoft-app-enquête in-product":::
+[Zie hier enkele voorbeelden van in-product enquêtes en feedback.](https://docs.microsoft.com/microsoft-365/admin/misc/feedback-user-control?view=o365-worldwide#in-product-surveys)
 
 **Metagegevensverzameling**
 
