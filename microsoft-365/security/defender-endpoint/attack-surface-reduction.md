@@ -11,24 +11,24 @@ localization_priority: Normal
 audience: ITPro
 author: denisebmsft
 ms.author: deniseb
-ms.reviewer: sugamar, jcedola
+ms.reviewer: oogunrinde, sugamar, jcedola
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: d88da04e91875e24b13478b17d6a1e3862e1062e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8790d959dc41e3edea684c66e556a2ec67f85ae1
+ms.sourcegitcommit: 0fe5989b7ee2f7ae0181f2781e31db7f58689441
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197659"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697525"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -80,7 +80,7 @@ Zie Update for Microsoft Defender [antimalware platform (Update voor Microsoft D
 
 ### <a name="cases-where-warn-mode-is-not-supported"></a>Gevallen waarin de waarschuwingsmodus niet wordt ondersteund
 
-De waarschuwingsmodus wordt niet ondersteund voor de volgende regels voor het verlagen van de surface-aanval:
+De waarschuwingsmodus wordt niet ondersteund voor drie regels voor het verlagen van de surface voor aanvallen wanneer u deze configureert in Microsoft Endpoint Manager. (Als u groepsbeleid gebruikt om de regels voor het verlagen van de aanvalsoppervlakken te configureren, wordt de waarschuwingsmodus ondersteund.) De drie regels die de waarschuwingsmodus niet ondersteunen wanneer u deze configureert in Microsoft Endpoint Manager, zijn als volgt:
 
 - [JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) (GUID) te starten `d3e037e1-3eb8-44c8-a917-57927947596d`
 - [Persistentie blokkeren via WMI-gebeurtenisabonnement](#block-persistence-through-wmi-event-subscription) `e6db77e5-3df2-4cf1-b95a-636979351e5b` (GUID)
@@ -139,7 +139,7 @@ U kunt het Windows-gebeurtenislogboek bekijken om gebeurtenissen weer te geven d
 
 U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om alleen de volgende gebeurtenissen weer te geven, die allemaal betrekking hebben op gecontroleerde maptoegang:
 
-|Gebeurtenis-id | Beschrijving |
+|Gebeurtenis-id | Omschrijving |
 |:---|:---|
 |5007 | Gebeurtenis wanneer instellingen worden gewijzigd |
 |1121 | Gebeurtenis wanneer regel wordt branden in de blokmodus |
@@ -147,7 +147,7 @@ U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om 
 
 De 'engine-versie' die wordt vermeld voor gebeurtenissen met een beperking van het aanvalsoppervlak in het gebeurtenislogboek, wordt gegenereerd door Defender voor Eindpunt, niet door het besturingssysteem. Defender voor Eindpunt is geïntegreerd met Windows 10, dus deze functie werkt op alle apparaten met Windows 10 geïnstalleerd.
 
-## <a name="attack-surface-reduction-rules"></a>Surface Reduction-regels voor aanvallen
+## <a name="attack-surface-reduction-rules"></a>Regels voor het verminderen van kwetsbaarheid voor aanvallen
 
 In de volgende tabel en subsecties worden elk van de 15 regels voor het verminderen van het oppervlak beschreven. De regels voor de beperking van de aanvalsoppervlakken worden op naam van de regel in alfabetische volgorde weergegeven. 
 
@@ -466,7 +466,7 @@ GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
 ## <a name="see-also"></a>Zie ook
 
-- [Veelgestelde vragen over surface reduction attack](attack-surface-reduction-faq.md)
-- [Regels voor het verlagen van de surface voor aanvallen inschakelen](enable-attack-surface-reduction.md)
-- [Regels voor het verlagen van het oppervlak van de aanval evalueren](evaluate-attack-surface-reduction.md)
+- [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction-faq.md)
+- [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
+- [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
 - [Compatibiliteit van Microsoft Defender Antivirus met andere antivirus-/antimalwareoplossingen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 32c42691b3a2b43f9740da26084bf45af0ee80f5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8311cb703bc5232e1421d19892fec9cdbc94b052
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687779"
+ms.locfileid: "51698187"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender voor Eindpunt op Android
 
@@ -36,10 +36,10 @@ ms.locfileid: "51687779"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt voor Android kunt installeren, configureren, bijwerken en gebruiken.
+In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt op Android kunt installeren, configureren, bijwerken en gebruiken.
 
 > [!CAUTION]
-> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Defender voor Eindpunt voor Android kan waarschijnlijk prestatieproblemen en onvoorspelbare systeemfouten veroorzaken.
+> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Defender voor Eindpunt op Android kan waarschijnlijk prestatieproblemen en onvoorspelbare systeemfouten veroorzaken.
 
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender voor Eindpunt installeren op Android

@@ -35,6 +35,6 @@
 |TO-DO|Gepland|Gepland|Gepland|N.v.t.|Gepland|
 |VISIO|N.v.t.|✔|N.v.t.|Gepland|N.v.t.|
 |WHITEBOARD|N.v.t.|Gepland|N.v.t.|N.v.t.|Gepland|
-|WORD|✔|Gepland|Gepland|Gepland|Gepland|
+|WORD|✔|Gepland|Gepland|Gepland|✔|
 |WORKPLACE ANALYTICS|N.v.t.|N.v.t.|N.v.t.|N.v.t.|N.v.t.|
 |YAMMER|Gepland|Gepland|Gepland|Gepland|N.v.t.|

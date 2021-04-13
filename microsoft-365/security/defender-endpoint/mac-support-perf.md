@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 18bde560543fd1344a64cf1edd64f02f12831c25
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8dfaf1dbf2c3742cc97060c7f9e811c83d0cb023
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689099"
+ms.locfileid: "51698218"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt in macOS
 
@@ -149,7 +149,7 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
         125  CrashPlanService 164
       ```
 
-      Als u de prestaties van Defender voor Eindpunt voor Mac wilt verbeteren, zoekt u de optie met het hoogste getal onder de rij Gescande bestanden totaal en voegt u een uitsluiting toe. Zie Uitsluitingen [configureren en valideren voor Defender voor Eindpunt voor Linux voor meer informatie.](linux-exclusions.md)
+      Als u de prestaties van Defender voor Eindpunt op Mac wilt verbeteren, zoekt u de optie met het hoogste getal onder de rij Gescande bestanden totaal en voegt u er een uitsluiting voor toe. Zie Uitsluitingen [configureren en valideren](linux-exclusions.md)voor Defender voor Eindpunt op Linux voor meer informatie.
 
       > [!NOTE]
       > De toepassing slaat statistieken op in het geheugen en houdt alleen de bestandsactiviteit bij sinds de toepassing is gestart en realtime beveiliging is ingeschakeld. Processen die zijn gestart vóór of tijdens perioden waarin realtimebeveiliging was uitgeschakeld, worden niet meegetelde. Bovendien worden alleen gebeurtenissen geteld die scans hebben geactiveerd.

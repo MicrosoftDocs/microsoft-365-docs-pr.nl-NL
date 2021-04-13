@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 1d332f6b0d6338d18c5a85dcf737f968f00f275f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b42a33d975e1368ad25d4a7102ef44bf8b9824a8
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689519"
+ms.locfileid: "51698278"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Migreren van Symantec - Fase 3: Onboard to Microsoft Defender for Endpoint
 
@@ -89,7 +89,7 @@ Nu u de apparaten van uw organisatie hebt ge onboarded bij Microsoft Defender vo
    - [Bescherming tegen eindpunten van Symantec verwijderen](https://knowledge.broadcom.com/external/article/156148/uninstall-symantec-endpoint-protection.html)
    - Windows-apparaten: [Endpoint Protection 14-clients](https://knowledge.broadcom.com/external/article?articleId=170040) handmatig verwijderen in Windows
    - macOS-computers: Software voor Mac verwijderen met [RemoveSymantecMacFiles](https://knowledge.broadcom.com/external/article?articleId=151387)
-   - Linux-apparaten: [Veelgestelde vragen over Endpoint Protection voor Linux](https://knowledge.broadcom.com/external/article?articleId=162054)
+   - Linux-apparaten: [Veelgestelde vragen over endpointbeveiliging op Linux](https://knowledge.broadcom.com/external/article?articleId=162054)
 
 ## <a name="make-sure-microsoft-defender-for-endpoint-is-in-active-mode"></a>Zorg ervoor dat Microsoft Defender voor Eindpunt actief is
 
