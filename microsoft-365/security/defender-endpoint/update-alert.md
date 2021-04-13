@@ -1,6 +1,6 @@
 ---
 title: Api voor waarschuwingsentiteit bijwerken
-description: Meer informatie over het bijwerken van een MICROSOFT Defender ATP-waarschuwing met behulp van deze API. U kunt de eigenschappen status, bepaling, classificatie en toegewezen Aan bijwerken.
+description: Meer informatie over het bijwerken van een Waarschuwing van Microsoft Defender voor eindpunten met behulp van deze API. U kunt de eigenschappen status, bepaling, classificatie en toegewezen Aan bijwerken.
 keywords: api's, graph api, ondersteunde api's, get, alert, information, id
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,19 +15,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7dd3ab3da34efa6cb954db2a596d7a1e48efedf1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 94be185bd30cd36f456a66d5ae30a4361abc0c48
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199307"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688247"
 ---
 # <a name="update-alert"></a>Waarschuwing bijwerken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -68,7 +68,7 @@ PATCH /api/alerts/{id}
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
@@ -79,7 +79,7 @@ In de aanvraagt u de waarden voor de relevante velden die moeten worden bijgewer
 <br>Bestaande eigenschappen die niet in de aanvraag worden opgenomen, behouden hun vorige waarden of worden herberekend op basis van wijzigingen in andere eigenschapswaarden. 
 <br>Voor de beste prestaties moet u geen bestaande waarden opnemen die niet zijn gewijzigd.
 
-Eigenschap | Type | Beschrijving
+Eigenschap | Type | Omschrijving
 :---|:---|:---
 status | Tekenreeks | Hiermee geeft u de huidige status van de waarschuwing op. De eigenschapswaarden zijn: 'Nieuw', 'InProgress' en 'Opgelost'.
 toegewezenTo | Tekenreeks | Eigenaar van de waarschuwing

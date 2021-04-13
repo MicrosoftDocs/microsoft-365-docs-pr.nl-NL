@@ -1,6 +1,6 @@
 ---
-title: Een detectietest uitvoeren op een nieuw aan boord van Microsoft Defender ATP-apparaat
-description: Voer het detectiescript uit op een nieuw onboarded apparaat om te controleren of het correct is onboarded bij de MICROSOFT Defender ATP-service.
+title: Een detectietest uitvoeren op een nieuw ingebouwde Microsoft Defender voor eindpuntapparaat
+description: Voer het detectiescript uit op een nieuw onboarded apparaat om te controleren of het correct is onboarded bij de Microsoft Defender for Endpoint-service.
 keywords: detectietest, detectie, powershell, script, verifiëren, onboarding, Microsoft Defender voor endpoint onboarding, clients, servers, test
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 10154a734bb4c3d8b26fffb8618484aeb11f907a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 89b8ac7d99cfcd4c5e5e647e5ba54e14184ef0bd
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059309"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688115"
 ---
 # <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>Een detectietest uitvoeren op een nieuw ingebouwde Microsoft Defender voor eindpuntapparaat 
 
@@ -36,7 +36,7 @@ ms.locfileid: "51059309"
 - Windows Server 2016
 - Windows Server, versie 1803
 - Windows Server, 2019
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -61,6 +61,6 @@ Voer het volgende PowerShell-script uit op een nieuw onboarded apparaat om te co
 Het venster Opdrachtprompt wordt automatisch gesloten. Als dit is gelukt, wordt de detectietest gemarkeerd als voltooid en wordt binnen ongeveer 10 minuten een nieuwe waarschuwing weergegeven in de portal voor het onboarded-apparaat.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Onboard Windows 10-apparaten](configure-endpoints.md)
+- [Onboarden Windows 10-apparaten](configure-endpoints.md)
 - [Onboard-servers](configure-server-endpoints.md)
 - [Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)

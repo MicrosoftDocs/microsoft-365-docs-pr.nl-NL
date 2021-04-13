@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7d4bc095a9fbc0b9cd166d3133ed291a2c8c01da
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 6bf9691f390173ec86dcadd19707c980aa66336f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615421"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687767"
 ---
-# <a name="microsoft-defender-for-endpoint-for-ios"></a>Microsoft Defender voor Eindpunt voor iOS
+# <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor Eindpunt in iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "51615421"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-**Microsoft Defender voor Eindpunt voor iOS** biedt bescherming tegen phishing en onveilige netwerkverbindingen van websites, e-mailberichten en apps. Alle waarschuwingen zijn beschikbaar via één deelvenster glas in het Microsoft Defender-beveiligingscentrum. De portal biedt beveiligingsteams een gecentraliseerde weergave van bedreigingen op iOS-apparaten, samen met andere platforms.
+**Microsoft Defender voor Eindpunt op iOS** biedt bescherming tegen phishing en onveilige netwerkverbindingen van websites, e-mailberichten en apps. Alle waarschuwingen zijn beschikbaar via één deelvenster glas in het Microsoft Defender-beveiligingscentrum. De portal biedt beveiligingsteams een gecentraliseerde weergave van bedreigingen op iOS-apparaten, samen met andere platforms.
 
 > [!CAUTION]
 > Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Defender voor Eindpunt voor iOS kan waarschijnlijk prestatieproblemen en onvoorspelbare systeemfouten veroorzaken.
@@ -58,7 +58,7 @@ ms.locfileid: "51615421"
 - Toegang tot de microsoft Defender-beveiligingscentrumportal.
 
     > [!NOTE]
-    > Microsoft Intune is de enige ondersteunde MDM-oplossing (Mobile Device Management) voor de implementatie van Microsoft Defender voor Eindpunt voor iOS. Momenteel worden alleen geregistreerde apparaten ondersteund voor het afdwingen van defender voor endpoint voor iOS-gerelateerde beleidsregels voor apparaat compliance in Intune.
+    > Microsoft Intune is de enige ondersteunde MDM-oplossing (Mobile Device Management) voor de implementatie van Microsoft Defender voor Eindpunt in iOS. Momenteel worden alleen geregistreerde apparaten ondersteund voor het afdwingen van defender voor endpoint voor iOS-gerelateerde beleidsregels voor apparaat compliance in Intune.
 
 - Access to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), to deploy the app to enrolled user groups in your organization.
 
@@ -73,16 +73,16 @@ ms.locfileid: "51615421"
 
 ## <a name="installation-instructions"></a>Installatie-instructies
 
-De implementatie van Microsoft Defender voor Eindpunt voor iOS is via Microsoft Intune (MDM) en zowel gecontroleerde als niet-bewaakte apparaten worden ondersteund.
-Zie Microsoft [Defender voor eindpunten voor iOS implementeren voor meer informatie.](ios-install.md)
+De implementatie van Microsoft Defender voor Eindpunt op iOS is via Microsoft Intune (MDM) en zowel gecontroleerde als niet-bewaakte apparaten worden ondersteund.
+Zie Microsoft Defender voor eindpunten implementeren in [iOS voor meer informatie.](ios-install.md)
 
 ## <a name="resources"></a>Resources
 
-- Blijf op de hoogte van aanstaande releases door naar Nieuw te gaan [in Microsoft Defender voor Endpoint voor iOS](ios-whatsnew.md) of onze [blog.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
+- Blijf op de hoogte van aanstaande releases door naar Nieuw in Microsoft Defender voor Eindpunt op [iOS](ios-whatsnew.md) of onze blog te [gaan.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
 
 - Feedback geven via een in-app feedbacksysteem of via [de SecOps-portal](https://securitycenter.microsoft.com)
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Microsoft Defender voor eindpunt voor iOS implementeren](ios-install.md)
-- [Microsoft Defender configureren voor endpoint voor iOS-functies](ios-configure-features.md)
+- [Microsoft Defender voor eindpunt implementeren in iOS](ios-install.md)
+- [Microsoft Defender voor eindpunt configureren voor iOS-functies](ios-configure-features.md)

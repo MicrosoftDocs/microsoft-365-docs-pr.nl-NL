@@ -19,26 +19,26 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: a4c92d27d45208634f99f9bfb2f756cfc5792fac
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: db24bea3bddc682eceda8e6ea3fe2749b6b2778f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186651"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689123"
 ---
 # <a name="new-configuration-profiles-for-macos-catalina-and-newer-versions-of-macos"></a>Nieuwe configuratieprofielen voor macOS Catalina en nieuwere versies van macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-In overeenstemming met de ontwikkeling van macOS bereiden we een Update van Microsoft Defender voor Eindpunt voor Mac voor die gebruik maakt van systeemextensies in plaats van kernelextensies. Deze update is alleen van toepassing op macOS Catalina (10.15.4) en nieuwere versies van macOS.
+In overeenstemming met de ontwikkeling van macOS bereiden we een Microsoft Defender voor Eindpunt voor macOS-update voor waarin systeemextensies worden gebruikt in plaats van kernelextensies. Deze update is alleen van toepassing op macOS Catalina (10.15.4) en nieuwere versies van macOS.
 
-Als u Microsoft Defender voor Eindpunt voor Mac hebt geïmplementeerd in een beheerde omgeving (via JAMF, Intune of een andere MDM-oplossing), moet u nieuwe configuratieprofielen implementeren. Als u deze stappen niet doet, krijgen gebruikers goedkeuringsprompts om deze nieuwe onderdelen uit te voeren.
+Als u Microsoft Defender voor Eindpunt hebt geïmplementeerd op macOS in een beheerde omgeving (via JAMF, Intune of een andere MDM-oplossing), moet u nieuwe configuratieprofielen implementeren. Als u deze stappen niet doet, krijgen gebruikers goedkeuringsprompts om deze nieuwe onderdelen uit te voeren.
 
 ## <a name="jamf"></a>JAMF
 
@@ -69,10 +69,10 @@ Voeg de volgende JAMF-payload toe om Volledige schijftoegang toe te staan aan de
 
 ### <a name="network-extension-policy"></a>Netwerkextensiebeleid
 
-Als onderdeel van de mogelijkheden voor endpointdetectie en -reactie controleert Microsoft Defender voor Endpoint voor Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
+Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
 
 >[!NOTE]
->JAMF heeft geen ingebouwde ondersteuning voor inhoudsfilterbeleid, wat een vereiste is voor het inschakelen van de netwerkextensies die Microsoft Defender voor Eindpunt voor Mac op het apparaat installeert. Bovendien verandert JAMF soms de inhoud van het beleid dat wordt geïmplementeerd.
+>JAMF heeft geen ingebouwde ondersteuning voor inhoudsfilterbeleid, wat een vereiste is voor het inschakelen van de netwerkextensies die Microsoft Defender voor Eindpunt op macOS op het apparaat installeert. Bovendien verandert JAMF soms de inhoud van het beleid dat wordt geïmplementeerd.
 >Als zodanig bieden de volgende stappen een tijdelijke oplossing voor het ondertekenen van het configuratieprofiel.
 
 1. Sla de volgende inhoud op uw apparaat op als `com.microsoft.network-extension.mobileconfig` een teksteditor:

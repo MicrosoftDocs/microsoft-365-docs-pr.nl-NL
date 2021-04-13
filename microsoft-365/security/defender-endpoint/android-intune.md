@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender voor Eindpunt voor Android implementeren via Microsoft Intune
-description: Beschrijft hoe u Microsoft Defender voor Eindpunt voor Android implementeert met Microsoft Intune
+title: Microsoft Defender voor eindpunt implementeren op Android met Microsoft Intune
+description: Beschrijft hoe u Microsoft Defender voor Eindpunt implementeert op Android met Microsoft Intune
 keywords: microsoft, defender, atp, mde, android, installatie, implementeren, verwijderen,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fdfc6e63945e15ce2d1f1a293c377f641eeb9bc4
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 350345acbaadcdd6bc8ef901f03c419a7f8decff
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587693"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687719"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Microsoft Defender voor Eindpunt voor Android implementeren via Microsoft Intune 
+# <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Defender voor eindpunt implementeren op Android met Microsoft Intune 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -104,7 +104,7 @@ Zie [Inschrijvingsopties](https://docs.microsoft.com/mem/intune/enrollment/andro
 
 **Op dit moment worden persoonlijke apparaten met een werkprofiel en volledig beheerde gebruikersapparaatinschrijvingen van het bedrijf ondersteund voor implementatie.**
 
-## <a name="add-microsoft-defender-for-endpoint-for-android-as-a-managed-google-play-app"></a>Microsoft Defender voor Eindpunt voor Android toevoegen als een beheerde Google Play-app
+## <a name="add-microsoft-defender-for-endpoint-on-android-as-a-managed-google-play-app"></a>Microsoft Defender voor eindpunt toevoegen aan Android als een beheerde Google Play-app
 
 Volg de onderstaande stappen om de App Microsoft Defender voor Eindpunt toe te voegen aan uw beheerde Google Play.
 
@@ -240,7 +240,7 @@ Selecteer **Maken**.
 
 ## <a name="complete-onboarding-and-check-status"></a>De onboarding- en controlestatus voltooien
 
-1. Bevestig de installatiestatus van Microsoft Defender voor Eindpunt voor Android door op de status **apparaatinstallatie te klikken.** Controleer of het apparaat hier wordt weergegeven.
+1. Bevestig de installatiestatus van Microsoft Defender voor Eindpunt op Android door op de **status apparaatinstallatie te klikken.** Controleer of het apparaat hier wordt weergegeven.
 
     > [!div class="mx-imgBorder"]
     > ![Afbeelding van de installatiestatus van het apparaat](images/900c0197aa59f9b7abd762ab2b32e80c.png)
@@ -260,5 +260,5 @@ Selecteer **Maken**.
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Overzicht van Microsoft Defender voor Eindpunt voor Android](microsoft-defender-endpoint-android.md)
-- [Microsoft Defender voor Eindpunt voor Android-functies configureren](android-configure.md)
+- [Overzicht van Microsoft Defender voor Eindpunt voor Android](microsoft-defender-endpoint-android.md)
+- [Microsoft Defender configureren voor endpoint op Android-functies](android-configure.md)

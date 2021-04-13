@@ -15,14 +15,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.date: 03/08/2021
 ms.topic: how-to
-ms.openlocfilehash: 2ef3fbeec65be512dfe07f1d533df4d8e9b31532
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: ae7dbea7d476e8a8f6198378e1d1bb29e24c37a2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644498"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688343"
 ---
 # <a name="protect-your-network"></a>Beveilig uw netwerk
 
@@ -36,14 +35,16 @@ ms.locfileid: "51644498"
 
 Netwerkbeveiliging helpt het aanvalsoppervlak van uw apparaten te beperken door gebeurtenissen op internet. Hiermee voorkomt u dat werknemers elke toepassing gebruiken om toegang te krijgen tot gevaarlijke domeinen die phishingpraktijken, exploits en andere schadelijke inhoud op internet kunnen hosten. Netwerkbeveiliging breidt het bereik van [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) uit om al het uitgaande HTTP-verkeer te blokkeren dat probeert verbinding te maken met bronnen met een lage reputatie (op basis van het domein of de hostnaam).
 
-Netwerkbeveiliging wordt ondersteund in Windows, te beginnen met Windows 10, versie 1709. 
+Netwerkbeveiliging wordt ondersteund in Windows, te beginnen met Windows 10, versie 1709. Netwerkbeveiliging wordt nog niet ondersteund op andere besturingssystemen, maar webbeveiliging wordt ondersteund met behulp van de nieuwe Microsoft Edge op basis van Chromium. Zie Webbeveiliging voor [meer informatie.](web-protection-overview.md)
+
+netwerkbeveiliging breidt de beveiliging in [webbeveiliging uit](web-protection-overview.md) tot het besturingssysteemniveau. Het biedt functionaliteit voor webbeveiliging in Edge voor andere ondersteunde browsers en niet-browsertoepassingen. Daarnaast biedt netwerkbeveiliging zichtbaarheid en blokkering van indicatoren voor compromissen (IOC's) wanneer deze worden gebruikt met [de detectie en reactie van eindpunten.](overview-endpoint-detection-response.md) Netwerkbeveiliging werkt bijvoorbeeld met uw [aangepaste indicatoren.](manage-indicators.md)
 
 Zie Netwerkbeveiliging inschakelen voor meer informatie over het inschakelen van [netwerkbeveiliging.](enable-network-protection.md) Gebruik Groepsbeleid, PowerShell- of MDM-CSP's om netwerkbeveiliging in uw netwerk in te stellen en te beheren.
 
 > [!TIP]
 > Zie de MICROSOFT Defender ATP-testsite op demo.wd.microsoft.com [om](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) te zien hoe netwerkbeveiliging werkt.
 
-Netwerkbeveiliging werkt het beste met [Microsoft Defender voor](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection)Eindpunt, waarmee u gedetailleerde rapportage krijgt over beveiligingsgebeurtenissen en blokken voor beveiligingsbeveiliging als onderdeel van [scenario's voor waarschuwingsonderzoek.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-alerts)
+Netwerkbeveiliging werkt het beste met [Microsoft Defender voor](microsoft-defender-endpoint.md)Eindpunt, waarmee u gedetailleerde rapportage krijgt over beveiligingsgebeurtenissen en blokken voor beveiligingsbeveiliging als onderdeel van [scenario's voor waarschuwingsonderzoek.](investigate-alerts.md)
 
 Wanneer netwerkbeveiliging een verbinding blokkeert, wordt er een melding weergegeven vanuit het Actiecentrum. Uw beveiligingsteam kan [de melding aanpassen](customize-attack-surface-reduction.md#customize-the-notification) met de gegevens en contactgegevens van uw organisatie. Daarnaast kunnen afzonderlijke regels voor het verlagen van de aanvalsoppervlakken worden ingeschakeld en aangepast aan bepaalde technieken die u kunt controleren.
 
@@ -55,18 +56,18 @@ Netwerkbeveiliging vereist Windows 10 Pro of Enterprise en Microsoft Defender An
 
 | Windows-versie | Microsoft Defender Antivirus |
 |:---|:---|
-| Windows 10 versie 1709 of hoger <p>Windows Server 1803 of hoger | [Microsoft Defender Antivirus realtime-beveiliging](https://docs.microsoft.com/windows/security/threat-protection/configure-real-time-protection-microsoft-defender-antivirus.md) en [beveiliging in](https://docs.microsoft.com/windows/security/threat-protection/enable-cloud-protection-microsoft-defender-antivirus.md) de cloud moeten zijn ingeschakeld |
+| Windows 10 versie 1709 of hoger <p>Windows Server 1803 of hoger | [Microsoft Defender Antivirus realtime-beveiliging](configure-real-time-protection-microsoft-defender-antivirus.md) en [beveiliging in](enable-cloud-protection-microsoft-defender-antivirus.md) de cloud moeten zijn ingeschakeld |
 
 Nadat u de services hebt ingeschakeld, moet u mogelijk uw netwerk of firewall configureren om de verbindingen tussen de services en uw apparaten toe te staan (ook wel eindpunten genoemd).  
 
-- .smartscreen.microsoft.com
-- .smartscreen-prod.microsoft.com
+- `.smartscreen.microsoft.com`
+- `.smartscreen-prod.microsoft.com`
 
 ## <a name="review-network-protection-events-in-the-microsoft-defender-for-endpoint-security-center"></a>Gebeurtenissen op het gebied van netwerkbeveiliging bekijken in het Microsoft Defender for Endpoint Security Center
 
-Microsoft Defender voor Eindpunt biedt gedetailleerde rapportage over gebeurtenissen en blokken als onderdeel van de [scenario's voor waarschuwingsonderzoek.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-alerts)
+Microsoft Defender voor Eindpunt biedt gedetailleerde rapportage over gebeurtenissen en blokken als onderdeel van de [scenario's voor waarschuwingsonderzoek.](investigate-alerts.md)
 
-U kunt Microsoft Defender opvragen voor eindpuntgegevens met behulp van [Geavanceerd zoeken.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) Als u de [auditmodus gebruikt,](audit-windows-defender.md)kunt u geavanceerd zoeken gebruiken om te zien hoe de netwerkbeveiligingsinstellingen van invloed zijn op uw omgeving als deze zijn ingeschakeld.
+U kunt Microsoft Defender opvragen voor eindpuntgegevens met behulp van [geavanceerd zoeken.](advanced-hunting-overview.md) Als u de [auditmodus gebruikt,](audit-windows-defender.md)kunt u geavanceerd zoeken gebruiken om te zien hoe de netwerkbeveiligingsinstellingen van invloed zijn op uw omgeving als deze zijn ingeschakeld.
 
 Hier is een voorbeeldquery
 
@@ -91,9 +92,31 @@ Met deze procedure wordt een aangepaste weergave gemaakt die filtert om alleen d
 | 1125 | Gebeurtenis wanneer netwerkbeveiliging wordt uitgevoerd in de auditmodus |
 | 1126 | Gebeurtenis wanneer netwerkbeveiliging wordt branden in de blokmodus |
 
+## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>Aandachtspunten voor windows virtual desktop met Windows 10 Enterprise Multi-Session
+
+Houd rekening met de verschillende gebruikers van Windows 10 Enterprise:
+
+1. Netwerkbeveiliging is een functie voor het hele apparaat en kan niet worden gericht op specifieke gebruikerssessies.
+
+2. Filterbeleid voor webinhoud is ook apparaatbreed.
+
+3. Als u onderscheid wilt maken tussen gebruikersgroepen, kunt u afzonderlijke Windows Virtual Desktop-hostgroepen en -toewijzingen maken.
+
+4. Test netwerkbeveiliging in de auditmodus om het gedrag ervan te beoordelen voordat u deze uitrolt. 
+
+5. U kunt het formaat van uw implementatie mogelijk ook als u een groot aantal gebruikers of een groot aantal sessies met meerdere gebruikers hebt.
+
+### <a name="alternative-option-for-network-protection"></a>Alternatieve optie voor netwerkbeveiliging
+
+Voor Windows 10 Enterprise Multi-Session 1909 en hoger, gebruikt in Windows Virtual Desktop op Azure, kan netwerkbeveiliging voor Microsoft Edge worden ingeschakeld met de volgende methode:
+
+1. Gebruik [Netwerkbeveiliging in-en](enable-network-protection.md) volg de instructies om uw beleid toe te passen.
+
+2. Voer de volgende PowerShell-opdracht uit: `Set-MpPreference -AllowNetworkProtectionOnWinServer 1`
+
 ## <a name="network-protection-troubleshooting"></a>Problemen met netwerkbeveiliging oplossen
 
-Vanwege de omgeving waarin Netwerkbeveiliging wordt uitgevoerd, kan Microsoft mogelijk geen proxy-instellingen voor het besturingssysteem detecteren. In sommige gevallen kunnen Network Protection-clients geen cloudservice bereiken. Als u het verbindingsprobleem wilt oplossen, moeten klanten met E5-licenties een van de volgende registersleutels van Defender configureren:
+Vanwege de omgeving waarin Netwerkbeveiliging wordt uitgevoerd, kan Microsoft mogelijk geen proxy-instellingen voor het besturingssysteem detecteren. In sommige gevallen kunnen netwerkbeveiligings clients geen cloudservice bereiken. Als u het verbindingsprobleem wilt oplossen, moeten klanten met E5-licenties een van de volgende registersleutels van Defender configureren:
 
 ```console
 reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f

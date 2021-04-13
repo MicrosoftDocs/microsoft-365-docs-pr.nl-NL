@@ -1,6 +1,6 @@
 ---
 title: Webbeveiliging
-description: Meer informatie over de webbeveiliging in Microsoft Defender ATP en hoe deze uw organisatie kan beschermen
+description: Meer informatie over de webbeveiliging in Microsoft Defender voor Eindpunt en hoe het uw organisatie kan beschermen
 keywords: webbeveiliging, bescherming tegen bedreigingen op het web, surfen op het web, beveiliging, phishing, malware, misbruik, websites, netwerkbeveiliging, Edge, Internet Explorer, Chrome, Firefox, webbrowser, schadelijke websites
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4c04ce3479ac995e59c3bdfa9a2bdcca87eca17b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a985719663ec23d41ce4da57aea9aa5e0cf7674c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499924"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688967"
 ---
 # <a name="web-protection"></a>Webbeveiliging
 

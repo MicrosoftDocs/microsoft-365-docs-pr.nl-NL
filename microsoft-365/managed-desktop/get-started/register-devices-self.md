@@ -1,7 +1,6 @@
 ---
 title: Nieuwe apparaten zelf registreren
 description: Registreer apparaten zelf zodat ze kunnen worden beheerd door Microsoft Managed Desktop
-keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -12,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 3aff3bdc1260e9aa2a23760020aeabd71d6b28fd
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 4de1d173a26005d32fb07117d93ee78582b77d54
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445576"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689207"
 ---
 # <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
@@ -91,8 +90,11 @@ Selecteer [in Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de opt
 Ga als volgt te werk:
 
 1. Geef **in Bestand uploaden** een pad op naar het CSV-bestand dat u eerder hebt gemaakt.
+2. Selecteer een [apparaatprofiel](../service-description/profiles.md) in de vervolgkeuzelijst.
 3. Selecteer **Apparaten registreren.** Het systeem voegt de apparaten toe aan uw lijst met apparaten op **apparaten**, gemarkeerd als **Registratie in behandeling.** Registratie duurt meestal minder dan 10 minuten en  wanneer het apparaat is geslaagd, wordt het apparaat als Gereed voor gebruiker gebruikt, wat betekent dat het klaar is en wacht totdat een gebruiker het gaat gebruiken.
 
+> [!NOTE]
+> Als u handmatig het AAD-groepslidmaatschap van Azure Active Directory van een apparaat wijzigt, wordt het automatisch opnieuw toegewezen aan de groep voor het apparaatprofiel en verwijderd uit conflicterende groepen.
 
 U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogelijke staten die daar zijn gerapporteerd, zijn:
 
@@ -119,6 +121,11 @@ U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogel
 Als uw apparaat afkomstig is van een Microsoft Managed Desktop-partnerleverancier, moet de afbeelding juist zijn.
 
 U kunt de afbeelding ook zelf toepassen als u dat wilt. Als u wilt beginnen, neemt u contact op met de Microsoft-vertegenwoordiger met wie u werkt. Deze vertegenwoordiger geeft u de locatie en stappen voor het toepassen van de afbeelding.
+
+### <a name="autopilot-group-tag"></a>Autopilot-groepslabel
+
+Wanneer u de beheerportal gebruikt om apparaten te registreren, wordt automatisch de Microsoft365Managed_Autopilot **Autopilot** Group Tag toegewezen.
+De service controleert dagelijks alle beheerde bureaubladapparaten van Microsoft en wijst de groepstag toe aan alle apparaten die deze nog niet hebben.
 
 ### <a name="deliver-the-device"></a>Het apparaat leveren
 

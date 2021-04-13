@@ -1,7 +1,6 @@
 ---
 title: Stappen voor partners om apparaten te registreren
 description: Hoe Partners apparaten kunnen registreren zodat ze kunnen worden beheerd door Microsoft Managed Desktop
-keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -12,17 +11,17 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: baf15ca4b83052af84d2b22b3d2604c6022ac900
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 227786fdcf1e490be1e3ce74bbc1be1c5f21acfe
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445588"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689231"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>Stappen voor partners om apparaten te registreren
 
 
-In dit onderwerp worden de stappen beschreven die partners moeten volgen om apparaten te registreren. Het proces voor het zelf registreren van apparaten wordt gedocumenteerd in [Apparaten registreren in Microsoft Managed Desktop zelf.](register-devices-self.md)
+In dit artikel worden de stappen beschreven die partners moeten volgen om apparaten te registreren. Het proces voor het zelf registreren van apparaten wordt gedocumenteerd in [Apparaten registreren in Microsoft Managed Desktop zelf.](register-devices-self.md)
 
 
 
@@ -42,14 +41,19 @@ Nadat u de relatie met uw klanten hebt vastgesteld, kunt u partnercentrum gebrui
 2. Selecteer **Klanten** in het menu Partnercentrum en selecteer vervolgens de klant van wie u de apparaten wilt beheren.
 3. Selecteer Apparaten op de detailpagina van **de klant.**
 4. Selecteer **onder Profielen toepassen** op apparaten de optie Apparaten **toevoegen.**
-5. Voer **Microsoft365Managed_Autopilot** voor de groepsnaam in en selecteer **Bladeren** om de lijst van de klant (in CSV-bestandsindeling) te uploaden naar partnercentrum.
+5. Voer de juiste groepstag in voor het apparaatprofiel dat u hebt  geselecteerd (zoals wordt weergegeven in de volgende tabel) en selecteer Bladeren om de lijst van de klant te uploaden (in CSV-bestandsindeling) naar Partnercentrum.
 
+|[Apparaatprofiel](../service-description/profiles.md)  |Groepstag  |
+|---------|---------|
+|Gevoelige gegevens     |**Microsoft365Managed \_ SensitiveData**    |
+|Power-gebruiker     | **Microsoft365Managed \_ PowerUser**          |
+|Standard     | **Microsoft365Managed \_ Standard**        |
 
 > [!IMPORTANT]
-> De groepsnaam moet exact **overeenkomen Microsoft365Managed_Autopilot,** inclusief hoofdletters en speciale tekens. Hierdoor kunnen de nieuw geregistreerde apparaten worden toegewezen aan het Microsoft Managed Desktop Autopilot-profiel.
+> De groepsnaam moet exact overeenkomen met die in de tabel, inclusief hoofdletters en speciale tekens. Hierdoor kunnen de nieuw geregistreerde apparaten worden toegewezen aan het Microsoft Managed Desktop Autopilot-profiel.
 
 >[!NOTE]
-> U had dit CSV-bestand moeten ontvangen bij de aankoop van uw apparaat. Als u geen CSV-bestand hebt ontvangen, kunt u er zelf een maken door de stappen in Apparaten toevoegen [aan Windows Autopilot te volgen.](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell) Het Windows PowerShell-script verschilt van het script dat wordt gebruikt voor de [Microsoft Managed Desktop Admin portal.](./register-devices-self.md?view=o365-worldwide#obtain-the-hardware-hash) Partners moeten [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om apparaten te registreren voor Microsoft Managed Desktop-apparaten in partnercentrum.
+> U had dit CSV-bestand moeten ontvangen bij de aankoop van uw apparaat. Als u geen CSV-bestand hebt ontvangen, kunt u er zelf een maken door de stappen in Apparaten toevoegen [aan Windows Autopilot te volgen.](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell) Het Windows PowerShell-script verschilt van het script dat wordt gebruikt voor de [Microsoft Managed Desktop Admin portal.](./register-devices-self.md#obtain-the-hardware-hash) Partners moeten [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om apparaten te registreren voor Microsoft Managed Desktop-apparaten in partnercentrum.
 
 Als u een foutbericht krijgt terwijl u het CSV-bestand probeert te uploaden, controleert u de opmaak van het bestand. Zorg ervoor dat de kolomorder overeenkomt met wat wordt beschreven in Windows Autopilot-profielen gebruiken op nieuwe apparaten om de [out-of-box-ervaring](/partner-center/autopilot#add-devices-to-a-customers-account)van een klant aan te passen. U kunt ook het csv-voorbeeldbestand van de koppeling naast **Apparaten toevoegen** gebruiken om een lijst met apparaten te maken. 
 
@@ -60,7 +64,14 @@ Zie Apparaten toevoegen aan het account van een klant voor meer informatie over 
 
 Voordat u de registratie voor een klant voltooit, moet u eerst een relatie met de klant tot standbrengen. U moet een unieke koppeling hebben om aan uw respectieve klanten te leveren. Zie [Oem-relatie tot stand komen.](/windows/deployment/windows-autopilot/registration-auth#oem-authorization)
 
-Nadat u de relatie hebt vastgesteld, kunt u apparaten voor klanten registreren met behulp van de **Microsoft365Managed_Autopilot.**
+Nadat u de relatie hebt vastgesteld, kunt u beginnen met het registreren van apparaten voor klanten met de juiste groepstag voor elk apparaatprofiel dat ze hebben geselecteerd:
+
+
+|Apparaatprofiel  |Groepstag  |
+|---------|---------|
+|Gevoelige gegevens     | **Microsoft365Managed \_ SensitiveData**     |
+|Power-gebruiker     | **Microsoft365Managed \_ PowerUser**          |
+|Standard     | **Microsoft365Managed \_ Standard**      |
 
 > [!IMPORTANT]
-> De groepsnaam moet exact **overeenkomen Microsoft365Managed_Autopilot,** inclusief hoofdletters en speciale tekens. Hierdoor kunnen de nieuw geregistreerde apparaten worden toegewezen aan het Microsoft Managed Desktop Autopilot-profiel.
+> De groepslabels moeten exact overeenkomen met die in de tabel, inclusief hoofdletters en speciale tekens. Hierdoor kunnen de nieuw geregistreerde apparaten worden toegewezen aan het Microsoft Managed Desktop Autopilot-profiel.

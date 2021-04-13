@@ -1,5 +1,5 @@
 ---
-title: Voorbeelden van livereactieopdracht
+title: Voorbeelden van opdrachten voor Live-reacties
 description: Lees hoe u eenvoudige of geavanceerde opdrachten voor livereacties voor Microsoft Defender voor Eindpunt kunt uitvoeren en voorbeelden kunt zien over hoe het wordt gebruikt.
 keywords: voorbeeld, command, cli, remote, shell, connection, live, response, real-time, command, script, remediate, hunt, export, log, drop, download, file
 search.product: eADQiWindows 10XVcnh
@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0e00464b5d5dcf348fcc76a3f093ac8bac373627
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f08f20753a1f0926abbbce01fe97f20ef1c07f2c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187707"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689087"
 ---
-# <a name="live-response-command-examples"></a>Voorbeelden van livereactieopdracht
+# <a name="live-response-command-examples"></a>Voorbeelden van opdrachten voor Live-reacties
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -198,7 +198,11 @@ run script.ps1
 # Run PowerShell script from the library with arguments
 run get-process-by-name.ps1 -parameters "-processName Registry"
 ```
-
+>[!NOTE]
+>
+> Voor opdrachten die lang worden uitgevoerd, zoals **'uitvoeren'** of **'getfile',** kunt u het symbool ' ' aan het einde van de opdracht gebruiken om die actie op de achtergrond uit **&** te voeren.
+> Op deze manier kunt u de computer blijven onderzoeken en terugkeren naar de achtergrondopdracht wanneer u klaar bent met de **basisopdracht 'fg'.** [](live-response.md#basic-commands)
+>
 ## <a name="scheduledtask"></a>scheduledtask
 
 ```

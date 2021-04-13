@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4486b8e9d3fb84c272343ca344a47e49663bb80d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 347528def6929dde200249cd9710f7ce33484c7f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187743"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688811"
 ---
-# <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-for-linux"></a>Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt voor Linux
+# <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)

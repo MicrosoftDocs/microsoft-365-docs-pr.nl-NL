@@ -18,28 +18,28 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 578830d44a9a69c3ccafd78ceaf59ddfe100e43f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 951c51c767ba09ebc6056481b4fac45da09c5671
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060709"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688547"
 ---
-# <a name="set-preferences-for-microsoft-defender-for-endpoint-for-mac"></a>Voorkeuren instellen voor Microsoft Defender voor Eindpunt voor Mac
+# <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Voorkeuren instellen voor Microsoft Defender voor Eindpunt op macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender voor Eindpunt op macOS](microsoft-defender-endpoint-mac.md)
 
 >[!IMPORTANT]
->Dit artikel bevat instructies voor het instellen van voorkeuren voor Microsoft Defender voor Eindpunt voor Mac in bedrijfsorganisaties. Zie Resources als u Microsoft Defender voor Eindpunt voor Mac wilt configureren met behulp van de [opdrachtregelinterface.](mac-resources.md#configuring-from-the-command-line)
+>Dit artikel bevat instructies voor het instellen van voorkeuren voor Microsoft Defender voor Eindpunt voor macOS in bedrijfsorganisaties. Zie Resources als u Microsoft Defender voor Eindpunt op [](mac-resources.md#configuring-from-the-command-line)macOS wilt configureren met behulp van de opdrachtregelinterface.
 
 ## <a name="summary"></a>Samenvatting
 
-In ondernemingsorganisaties kan Microsoft Defender voor Eindpunt voor Mac worden beheerd via een configuratieprofiel dat wordt geïmplementeerd met behulp van een van de verschillende beheerhulpmiddelen. Voorkeuren die worden beheerd door uw beveiligingsbewerkingsteam, hebben voorrang op voorkeuren die lokaal op het apparaat zijn ingesteld. Het wijzigen van de voorkeuren die zijn ingesteld via het configuratieprofiel vereist geëscaleerde bevoegdheden en is niet beschikbaar voor gebruikers zonder beheerdersmachtigingen.
+In ondernemingsorganisaties kan Microsoft Defender voor Eindpunt op macOS worden beheerd via een configuratieprofiel dat wordt geïmplementeerd met behulp van een van de verschillende beheerhulpmiddelen. Voorkeuren die worden beheerd door uw beveiligingsbewerkingsteam, hebben voorrang op voorkeuren die lokaal op het apparaat zijn ingesteld. Het wijzigen van de voorkeuren die zijn ingesteld via het configuratieprofiel vereist geëscaleerde bevoegdheden en is niet beschikbaar voor gebruikers zonder beheerdersmachtigingen.
 
 In dit artikel wordt de structuur van het configuratieprofiel beschreven, wordt een aanbevolen profiel beschreven dat u kunt gebruiken om aan de slag te gaan en worden instructies gegeven over het implementeren van het profiel.
 
@@ -56,7 +56,7 @@ Het bovenste niveau van het configuratieprofiel bevat productvoorkeuren en verme
 
 De *antivirusEngine-sectie* van het configuratieprofiel wordt gebruikt om de voorkeuren van het antivirusonderdeel van Microsoft Defender voor Eindpunt te beheren.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | antivirusEngine |
@@ -67,7 +67,7 @@ De *antivirusEngine-sectie* van het configuratieprofiel wordt gebruikt om de voo
 
 Geef op of u realtimebeveiliging wilt inschakelen, waarmee bestanden worden gescand wanneer ze worden toegankelijk.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | enableRealTimeProtection |
@@ -83,7 +83,7 @@ Geef op of de antivirusprogramma's in de passieve modus worden uitgevoerd. De pa
 - Beveiligingsinformatie-updates zijn ingeschakeld
 - Pictogram statusmenu is verborgen
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | passiveMode |
@@ -95,7 +95,7 @@ Geef op of de antivirusprogramma's in de passieve modus worden uitgevoerd. De pa
 
 Geef het samenvoegbeleid op voor uitsluitingen. Dit kan een combinatie zijn van door de beheerder gedefinieerde en door de gebruiker gedefinieerde uitsluitingen ( ) of alleen `merge` door beheerders gedefinieerde uitsluitingen ( `admin_only` ). Deze instelling kan worden gebruikt om te voorkomen dat lokale gebruikers hun eigen uitsluitingen definiëren.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | uitsluitingenMergePolicy |
@@ -107,7 +107,7 @@ Geef het samenvoegbeleid op voor uitsluitingen. Dit kan een combinatie zijn van 
 
 Geef entiteiten op die niet mogen worden gescand. Uitsluitingen kunnen worden opgegeven door volledige paden, extensies of bestandsnamen.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | uitsluitingen |
@@ -118,7 +118,7 @@ Geef entiteiten op die niet mogen worden gescand. Uitsluitingen kunnen worden op
 
 Geef inhoud op die niet per type kan worden gescand.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | $type |
@@ -129,7 +129,7 @@ Geef inhoud op die niet per type kan worden gescand.
 
 Geef inhoud op die niet kan worden gescand via een volledig bestandspad.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | pad |
@@ -141,7 +141,7 @@ Geef inhoud op die niet kan worden gescand via een volledig bestandspad.
 
 Geef aan of *de eigenschap pad* verwijst naar een bestand of adreslijst. 
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | isDirectory |
@@ -153,7 +153,7 @@ Geef aan of *de eigenschap pad* verwijst naar een bestand of adreslijst.
 
 Geef inhoud op die niet kan worden gescand door bestandsextensie.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | extensie |
@@ -165,7 +165,7 @@ Geef inhoud op die niet kan worden gescand door bestandsextensie.
 
 Geef een proces op waarvoor alle bestandsactiviteit is uitgesloten van scannen. Het proces kan worden opgegeven door de naam (bijvoorbeeld) of het volledige `cat` pad `/bin/cat` (bijvoorbeeld).
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | naam |
@@ -177,7 +177,7 @@ Geef een proces op waarvoor alle bestandsactiviteit is uitgesloten van scannen. 
 
 Geef bedreigingen op op naam die niet worden geblokkeerd door Defender voor Eindpunt voor Mac. Deze bedreigingen kunnen worden uitgevoerd.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | toegestaanThreats |
@@ -187,7 +187,7 @@ Geef bedreigingen op op naam die niet worden geblokkeerd door Defender voor Eind
 
 Hiermee beperkt u de acties die de lokale gebruiker van een apparaat kan uitvoeren wanneer bedreigingen worden gedetecteerd. De acties in deze lijst worden niet weergegeven in de gebruikersinterface.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | disallowedThreatActions |
@@ -197,9 +197,9 @@ Hiermee beperkt u de acties die de lokale gebruiker van een apparaat kan uitvoer
 
 #### <a name="threat-type-settings"></a>Instellingen voor bedreigingstype
 
-Geef op hoe bepaalde bedreigingstypen worden verwerkt door Microsoft Defender voor Eindpunt voor Mac.
+Geef op hoe bepaalde bedreigingstypen worden verwerkt door Microsoft Defender voor Eindpunt in macOS.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | threatTypeSettings |
@@ -210,7 +210,7 @@ Geef op hoe bepaalde bedreigingstypen worden verwerkt door Microsoft Defender vo
 
 Geef bedreigingstypen op.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | toets |
@@ -225,7 +225,7 @@ Geef op welke actie moet worden ondernomen wanneer er een bedreiging wordt gedet
 - **Blokkeren:** uw apparaat is beveiligd tegen dit type bedreiging en u krijgt een melding in de gebruikersinterface en de beveiligingsconsole.
 - **Uit:** uw apparaat is niet beveiligd tegen dit type bedreiging en er wordt niets geregistreerd.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | waarde |
@@ -236,7 +236,7 @@ Geef op welke actie moet worden ondernomen wanneer er een bedreiging wordt gedet
 
 Geef het samenvoegbeleid op voor instellingen voor bedreigingstype. Dit kan een combinatie zijn van door de beheerder gedefinieerde en door de gebruiker gedefinieerde instellingen ( `merge` ) of alleen door beheerders gedefinieerde instellingen ( `admin_only` ). Deze instelling kan worden gebruikt om te voorkomen dat lokale gebruikers hun eigen instellingen voor verschillende bedreigingstypen definiëren.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | threatTypeSettingsMergePolicy |
@@ -248,7 +248,7 @@ Geef het samenvoegbeleid op voor instellingen voor bedreigingstype. Dit kan een 
 
 Geef het aantal dagen op dat de resultaten worden bewaard in de scangeschiedenis op het apparaat. Oude scanresultaten worden uit de geschiedenis verwijderd. Oude in quarantaine geplaatste bestanden die ook van de schijf zijn verwijderd.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | scanResultsRetentionDays |
@@ -260,7 +260,7 @@ Geef het aantal dagen op dat de resultaten worden bewaard in de scangeschiedenis
 
 Geef het maximum aantal items op dat u wilt behouden in de scangeschiedenis. Items zijn alle scans op aanvraag die in het verleden zijn uitgevoerd en alle antivirusdetecties.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | scanHistoryMaximumItems |
@@ -270,9 +270,9 @@ Geef het maximum aantal items op dat u wilt behouden in de scangeschiedenis. Ite
 
 ### <a name="cloud-delivered-protection-preferences"></a>Beveiligingsvoorkeuren in de cloud
 
-Configureer de beveiligingsfuncties in de cloud van Microsoft Defender voor Endpoint voor Mac.
+Configureer de cloudbeveiligingsfuncties van Microsoft Defender voor Eindpunt op macOS.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | cloudService |
@@ -283,7 +283,7 @@ Configureer de beveiligingsfuncties in de cloud van Microsoft Defender voor Endp
 
 Geef op of u de beveiliging van het apparaat al dan niet wilt inschakelen in de cloud. Als u de beveiliging van uw services wilt verbeteren, raden we u aan deze functie ingeschakeld te houden.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | ingeschakeld |
@@ -294,7 +294,7 @@ Geef op of u de beveiliging van het apparaat al dan niet wilt inschakelen in de 
 
 Diagnostische gegevens worden gebruikt om Microsoft Defender voor Eindpunt veilig en up-to-date te houden, problemen op te sporen, te diagnosticeren en op te lossen, en om productverbeteringen aan te brengen. Deze instelling bepaalt het niveau van de diagnostische gegevens die door Microsoft Defender voor Eindpunt naar Microsoft worden verzonden.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | diagnosticLevel |
@@ -305,7 +305,7 @@ Diagnostische gegevens worden gebruikt om Microsoft Defender voor Eindpunt veili
 
 Hiermee wordt bepaald of verdachte steekproeven (die waarschijnlijk bedreigingen bevatten) naar Microsoft worden verzonden. U wordt gevraagd of het ingediende bestand waarschijnlijk persoonlijke gegevens bevat.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | automaticSampleSubmission |
@@ -316,7 +316,7 @@ Hiermee wordt bepaald of verdachte steekproeven (die waarschijnlijk bedreigingen
 
 Hiermee bepaalt u of beveiligingsinformatieupdates automatisch worden geïnstalleerd:
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Sleutel** | automaticDefinitionUpdateEnabled |
 | **Gegevenstype** | Booleaanse waarde |
@@ -324,9 +324,9 @@ Hiermee bepaalt u of beveiligingsinformatieupdates automatisch worden geïnstall
 
 ### <a name="user-interface-preferences"></a>Gebruikersinterfacevoorkeuren
 
-Beheer de voorkeuren voor de gebruikersinterface van Microsoft Defender voor Eindpunt voor Mac.
+Beheer de voorkeuren voor de gebruikersinterface van Microsoft Defender voor Eindpunt op macOS.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | userInterface |
@@ -337,7 +337,7 @@ Beheer de voorkeuren voor de gebruikersinterface van Microsoft Defender voor Ein
 
 Geef op of u het statusmenupictogram wilt weergeven of verbergen in de rechterbovenhoek van het scherm.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | StatusMenuIcon verbergen |
@@ -348,7 +348,7 @@ Geef op of u het statusmenupictogram wilt weergeven of verbergen in de rechterbo
 
 Geef op of gebruikers feedback kunnen verzenden naar Microsoft door naar `Help`  >  `Send Feedback` .
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | userInitiatedFeedback |
@@ -358,9 +358,9 @@ Geef op of gebruikers feedback kunnen verzenden naar Microsoft door naar `Help` 
 
 ### <a name="endpoint-detection-and-response-preferences"></a>Eindpuntdetectie- en antwoordvoorkeuren
 
-Beheer de voorkeuren van het onderdeel eindpuntdetectie en -antwoord (EDR) van Microsoft Defender voor Eindpunt voor Mac.
+Beheer de voorkeuren van het onderdeel eindpuntdetectie en -antwoord (EDR) van Microsoft Defender voor Eindpunt in macOS.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | edr |
@@ -373,7 +373,7 @@ Geef een tagnaam en de waarde op.
 
 - Met de tag GROEP wordt het apparaat gelabeld met de opgegeven waarde. De tag wordt weergegeven in de portal onder de apparaatpagina en kan worden gebruikt voor het filteren en groeperen van apparaten.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | tags |
@@ -384,7 +384,7 @@ Geef een tagnaam en de waarde op.
 
 Geeft het type tag op
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | toets |
@@ -395,7 +395,7 @@ Geeft het type tag op
 
 Geeft de waarde van de tag op
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | waarde |
@@ -542,7 +542,7 @@ Het volgende configuratieprofiel (of, in het geval van JAMF, een eigenschappenli
 
 ## <a name="full-configuration-profile-example"></a>Voorbeeld van volledig configuratieprofiel
 
-De volgende sjablonen bevatten vermeldingen voor alle instellingen die in dit document worden beschreven en kunnen worden gebruikt voor meer geavanceerde scenario's waarin u meer controle wilt over Microsoft Defender voor Eindpunt voor Mac.
+De volgende sjablonen bevatten vermeldingen voor alle instellingen die in dit document worden beschreven en kunnen worden gebruikt voor meer geavanceerde scenario's waarin u meer controle wilt over Microsoft Defender voor Eindpunt in macOS.
 
 ### <a name="property-list-for-jamf-configuration-profile"></a>Eigenschappenlijst voor HET CONFIGURATIEprofiel VAN JAMF
 

@@ -1,6 +1,6 @@
 ---
-title: Beveiliging van surfen op het web in Microsoft Defender ATP controleren
-description: Webbeveiliging gebruiken in Microsoft Defender ATP om de beveiliging van surfen op het web te controleren
+title: Beveiliging van surfen op het web in Microsoft Defender voor Eindpunt controleren
+description: Webbeveiliging gebruiken in Microsoft Defender voor Eindpunt om de beveiliging van surfen op het web te controleren
 keywords: webbeveiliging, bescherming tegen webdreigingen, surfen op het web, monitoring, rapporten, kaarten, domeinlijst, beveiliging, phishing, malware, exploit, websites, netwerkbeveiliging, Edge, Internet Explorer, Chrome, Firefox, webbrowser
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 629e18c7387f6063254f3482f93a5e17023c7316
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: ee6388c779d2c5bc09a82f5e9064d1b981e885cb
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499950"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687421"
 ---
 # <a name="monitor-web-browsing-security"></a>Beveiliging voor surfen op het web controleren
 

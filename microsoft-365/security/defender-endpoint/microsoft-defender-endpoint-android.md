@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP voor Android
+title: Microsoft Defender ATP op Android
 ms.reviewer: ''
 description: Beschrijft hoe u Microsoft Defender ATP voor Android installeert en gebruikt
 keywords: microsoft, defender, atp, android, installatie, implementeren, verwijderen, intune
@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e2432dc4aa2c67fadc9112512a080f24c0064df4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 32c42691b3a2b43f9740da26084bf45af0ee80f5
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187611"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687779"
 ---
-# <a name="microsoft-defender-for-endpoint-for-android"></a>Microsoft Defender voor Eindpunt voor Android
+# <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender voor Eindpunt op Android
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -42,7 +42,7 @@ In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt voor Android kunt
 > Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Defender voor Eindpunt voor Android kan waarschijnlijk prestatieproblemen en onvoorspelbare systeemfouten veroorzaken.
 
 
-## <a name="how-to-install-microsoft-defender-for-endpoint-for-android"></a>Microsoft Defender voor Eindpunt voor Android installeren
+## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender voor Eindpunt installeren op Android
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -62,7 +62,7 @@ In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt voor Android kunt
     -   Toegang tot de microsoft Defender-beveiligingscentrumportal.
 
         > [!NOTE]
-        > Microsoft Intune is de enige ondersteunde MDM-oplossing (Mobile Device Management) voor het implementeren van Microsoft Defender voor Eindpunt voor Android. Momenteel worden alleen geregistreerde apparaten ondersteund voor het afdwingen van het compliancebeleid voor Defender voor Eindpunt voor Android in Intune. 
+        > Microsoft Intune is de enige ondersteunde MDM-oplossing (Mobile Device Management) voor het implementeren van Microsoft Defender voor Eindpunt op Android. Momenteel worden alleen geregistreerde apparaten ondersteund voor het afdwingen van het compliancebeleid voor Defender voor Eindpunt voor Android in Intune. 
 
     -   Access [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), to deploy the app to enrolled user groups in your organization.
 
@@ -73,23 +73,23 @@ In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt voor Android kunt
 
 ### <a name="installation-instructions"></a>Installatie-instructies
 
-Microsoft Defender voor Eindpunt voor Android ondersteunt de installatie op beide modi van geregistreerde apparaten: de oudere modi Apparaatbeheerder en Android Enterprise.
-**Op dit moment worden apparaten met een persoonlijk eigendom met een werkprofiel en volledig beheerde gebruikersapparaatinschrijvingen van het bedrijf ondersteund in Android Enterprise. Ondersteuning voor andere Android Enterprise-modi wordt aangekondigd wanneer u klaar bent.**
+Microsoft Defender voor Eindpunt op Android ondersteunt installatie op beide modi van geregistreerde apparaten, de oudere apparaatbeheerder en Android Enterprise-modi.
+**Op dit moment worden apparaten met een persoonlijk eigendom met werkprofiel en volledig beheerde gebruikersapparaatinschrijvingen van bedrijven ondersteund in Android Enterprise. Ondersteuning voor andere Android Enterprise-modi wordt aangekondigd wanneer u klaar bent.**
 
-De implementatie van Microsoft Defender voor Eindpunt voor Android is via Microsoft Intune (MDM).
-Zie Microsoft Defender voor Eindpunt voor Android implementeren met [Microsoft Intune](android-intune.md)voor meer informatie.
+De implementatie van Microsoft Defender voor Eindpunt op Android is via Microsoft Intune (MDM).
+Zie Microsoft Defender voor Eindpunt implementeren op [Android met Microsoft Intune](android-intune.md)voor meer informatie.
 
 
 > [!NOTE]
 > **Microsoft Defender voor Eindpunt voor Android is nu beschikbaar op [Google Play.](https://play.google.com/store/apps/details?id=com.microsoft.scmx)** <br> U kunt verbinding maken met Google Play vanuit Intune om microsoft Defender voor eindpunt-app te implementeren, in de verschillende registratiemodi voor Apparaatbeheerder en Android Enterprise. 
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-for-android"></a>Microsoft Defender configureren voor Eindpunt voor Android
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender configureren voor Eindpunt op Android
 
-Richtlijnen voor het configureren van Microsoft Defender voor endpoint voor Android-functies zijn beschikbaar in [Microsoft Defender configureren voor endpoint voor Android-functies.](android-configure.md)
+Richtlijnen voor het configureren van Microsoft Defender voor Endpoint voor Android-functies zijn beschikbaar in Microsoft Defender voor eindpunt [configureren op Android-functies.](android-configure.md)
 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Microsoft Defender voor eindpunt implementeren voor met Microsoft Intune](android-intune.md)
-- [Microsoft Defender voor endpoint voor Android-functies configureren](android-configure.md)
+- [Microsoft Defender voor eindpunt implementeren op Android met Microsoft Intune](android-intune.md)
+- [Microsoft Defender configureren voor endpoint op Android-functies](android-configure.md)
 

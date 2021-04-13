@@ -20,12 +20,12 @@ description: Beheerders kunnen informatie krijgen over bedreigingsbeveiliging in
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2df88df9f1f0e2c14c0adcf0d5772189a1276e9d
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: b55391247bf7d21c68c67e29f93bac1b7088b035
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650228"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687085"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -60,8 +60,8 @@ Bedreigingsbeveiligingsfuncties zijn opgenomen in *alle* Microsoft- of Office 36
 |Beveiliging tegen ongewenste e-mail|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Auto purge van nul uur (voor e-mail)|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Bescherming tegen schadelijke URL's en bestanden in e-mail- en Office-documenten (veilige koppelingen en veilige bijlagen)|[Microsoft Defender voor Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|Veilige bijlagen voor SharePoint-, OneDrive- en Microsoft Teams-werkbelastingen in- en uit-|[Defender voor Office 365](turn-on-mdo-for-spo-odb-and-teams.md)|
-|Geavanceerde anti-phishingbeveiliging|[Defender voor Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Veilige bijlagen voor SharePoint-, OneDrive- en Microsoft Teams-werkbelastingen in- en uit-|[Microsoft Defender voor Office 365](turn-on-mdo-for-spo-odb-and-teams.md)|
+|Geavanceerde anti-phishingbeveiliging|[Microsoft Defender voor Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Rollen en machtigingen
 

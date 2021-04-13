@@ -1,6 +1,6 @@
 ---
-title: Nieuwe functies in Microsoft Defender voor Endpoint voor Linux
-description: Lijst met belangrijke wijzigingen voor Microsoft Defender ATP voor Linux.
+title: Nieuwe functies in Microsoft Defender voor Endpoint op Linux
+description: Lijst met belangrijke wijzigingen voor Microsoft Defender ATP op Linux.
 keywords: microsoft, defender, atp, linux, whatsnew, release
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,21 +18,21 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7a55d254c20506913d0995bffc941a67bb34a38e
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 2866cd0c9ee9b40aa9c08c4ff7dce64f745d3d03
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615433"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688630"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-linux"></a>Nieuwe functies in Microsoft Defender voor Endpoint voor Linux
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Nieuwe functies in Microsoft Defender voor Endpoint op Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 ## <a name="1012572-30121022125630"></a>101.25.72 (30.121022.12563.0)
 
-- Microsoft Defender voor Eindpunt voor Linux is nu beschikbaar in preview voor klanten van de Amerikaanse overheid. Zie Microsoft [Defender for Endpoint voor klanten](gov.md)van de Amerikaanse overheid voor meer informatie.
-- Er is een probleem opgelost waarbij het gebruik van Microsoft Defender voor Eindpunt voor Linux op systemen met FUSE-bestandssystemen leidde tot vastlopers van besturingssysteem
+- Microsoft Defender voor Eindpunt op Linux is nu beschikbaar in preview voor klanten van de Amerikaanse overheid. Zie Microsoft [Defender for Endpoint voor klanten](gov.md)van de Amerikaanse overheid voor meer informatie.
+- Er is een probleem opgelost waarbij het gebruik van Microsoft Defender voor Eindpunt op Linux op systemen met FUSE-bestandssystemen leidde tot vastloper van besturingssysteem
 - Prestatieverbeteringen & andere oplossingen voor fouten
 
 ## <a name="1012563-30121022125630"></a>101.25.63 (30.121022.12563.0)

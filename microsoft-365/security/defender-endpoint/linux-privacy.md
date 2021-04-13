@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b56e8a74875b3377b6f3228bbefb339680dbc6e1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: aaf537c84adaba3d632367567cc569069650d21a
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187779"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688355"
 ---
-# <a name="privacy-for-microsoft-defender-for-endpoint-for-linux"></a>Privacy voor Microsoft Defender voor Eindpunt voor Linux
+# <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Privacy voor Microsoft Defender voor Eindpunt op Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -37,7 +37,7 @@ Microsoft doet er alles aan om u de informatie en besturingselementen te bieden 
 
 In dit onderwerp worden de privacybesturingselementen beschreven die beschikbaar zijn in het product, hoe u deze besturingselementen beheert met beleidsinstellingen en meer informatie over de gegevensgebeurtenissen die worden verzameld.
 
-## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-for-linux"></a>Overzicht van privacybesturingselementen in Microsoft Defender voor Eindpunt voor Linux
+## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-on-linux"></a>Overzicht van privacybesturingselementen in Microsoft Defender voor Eindpunt op Linux
 
 In deze sectie worden de privacybesturingselementen beschreven voor de verschillende typen gegevens die door Defender voor Eindpunt voor Linux worden verzameld.
 

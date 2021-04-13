@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0d9e63c5d89b13b02dfcf116c1555c8db319d23f
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: d5a19464b9d5d1b9659d7bfae2d853f7a640a00b
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445362"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687887"
 ---
-# <a name="configure-alert-notifications-in-microsoft-defender-atp"></a>Waarschuwingsmeldingen configureren in MICROSOFT Defender ATP
+# <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Waarschuwingsmeldingen configureren in Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ U kunt Defender voor Eindpunt zo configureren dat e-mailmeldingen worden verzond
 > [!NOTE]
 > Alleen gebruikers met machtigingen voor beveiligingsinstellingen beheren kunnen e-mailmeldingen configureren. Als u ervoor hebt gekozen om basismachtigingenbeheer te gebruiken, kunnen gebruikers met beveiligingsbeheerder- of globale beheerdersrollen e-mailmeldingen configureren.
 
-U kunt de ernstniveaus voor waarschuwingen instellen die meldingen activeren. U kunt ook geadresseerden van de e-mailmelding toevoegen of verwijderen. Nieuwe geadresseerden krijgen een melding over waarschuwingen die worden aangetroffen nadat ze zijn toegevoegd. Zie De wachtrij Waarschuwingen weergeven en organiseren voor meer informatie over [waarschuwingen.](alerts-queue.md)
+U kunt de ernstniveaus voor waarschuwingen instellen die meldingen activeren. U kunt ook geadresseerden van de e-mailmelding toevoegen of verwijderen. Nieuwe geadresseerden krijgen een melding over waarschuwingen die worden geactiveerd nadat ze zijn toegevoegd. Zie De wachtrij Waarschuwingen weergeven en organiseren voor meer informatie over [waarschuwingen.](alerts-queue.md)
 
 Als u RBAC (Role Based Access Control) gebruikt, ontvangen geadresseerden alleen meldingen op basis van de apparaatgroepen die zijn geconfigureerd in de meldingsregel.
 Gebruikers met de juiste machtigingen kunnen alleen meldingen maken, bewerken of verwijderen die zijn beperkt tot het beheerbereik van hun apparaatgroep.

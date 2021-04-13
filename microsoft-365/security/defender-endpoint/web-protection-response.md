@@ -1,5 +1,5 @@
 ---
-title: Reageren op webbedreigingen in Microsoft Defender ATP
+title: Reageren op webbedreigingen in Microsoft Defender voor Eindpunt
 description: Reageren op waarschuwingen met betrekking tot schadelijke en ongewenste websites. Meer informatie over de manier waarop webbedreigingsbeveiliging eindgebruikers informeert via hun webbrowsers en Windows-meldingen
 keywords: webbeveiliging, bescherming tegen webdreigingen, surfen op het web, waarschuwingen, reactie, beveiliging, phishing, malware, exploit, websites, netwerkbeveiliging, Edge, Internet Explorer, Chrome, Firefox, webbrowser, meldingen, eindgebruikers, Windows-meldingen, blokkeringspagina,
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b0e6bb0d71c14bf7742f8d6508fbb95b76b10a34
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 110b379863b4c6e23c947c56faf831e136231237
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498360"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688475"
 ---
 # <a name="respond-to-web-threats"></a>Reageren op webbedreigingen
 

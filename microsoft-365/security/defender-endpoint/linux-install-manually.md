@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender voor Eindpunt voor Linux handmatig implementeren
+title: Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 ms.reviewer: ''
 description: Hier wordt beschreven hoe u Microsoft Defender ATP voor Linux handmatig implementeert vanaf de opdrachtregel.
 keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c695eb0d786e73da5adb95bbca5c1747243d6203
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 78ea8b106253098791d71ef9ff788b7cf1df4ec7
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644738"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688403"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Microsoft Defender voor Eindpunt voor Linux handmatig implementeren
+# <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,9 +36,9 @@ ms.locfileid: "51644738"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-In dit artikel wordt beschreven hoe u Microsoft Defender voor Eindpunt voor Linux handmatig implementeert. Voor een geslaagde implementatie moeten alle volgende taken zijn voltooid:
+In dit artikel wordt beschreven hoe u Microsoft Defender voor Eindpunt handmatig op Linux implementeert. Voor een geslaagde implementatie moeten alle volgende taken zijn voltooid:
 
-- [Microsoft Defender voor Eindpunt voor Linux handmatig implementeren](#deploy-microsoft-defender-for-endpoint-for-linux-manually)
+- [Microsoft Defender voor Eindpunt handmatig implementeren op Linux](#deploy-microsoft-defender-for-endpoint-on-linux-manually)
   - [Vereisten en systeemvereisten](#prerequisites-and-system-requirements)
   - [De Linux-softwareopslagplaats configureren](#configure-the-linux-software-repository)
     - [RHEL en varianten (CentOS en Oracle Linux)](#rhel-and-variants-centos-and-oracle-linux)
@@ -54,7 +54,7 @@ In dit artikel wordt beschreven hoe u Microsoft Defender voor Eindpunt voor Linu
 
 ## <a name="prerequisites-and-system-requirements"></a>Vereisten en systeemvereisten
 
-Zie Microsoft Defender voor Eindpunt voor [Linux](microsoft-defender-endpoint-linux.md) voordat u aan de slag gaat voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
+Zie Microsoft Defender voor Eindpunt op [Linux](microsoft-defender-endpoint-linux.md) voordat u aan de slag gaat voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
 
 ## <a name="configure-the-linux-software-repository"></a>De Linux-softwareopslagplaats configureren
 

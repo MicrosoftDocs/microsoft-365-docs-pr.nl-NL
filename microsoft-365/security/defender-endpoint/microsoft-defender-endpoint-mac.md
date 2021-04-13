@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender voor Eindpunt voor Mac
+title: Microsoft Defender voor Eindpunt op Mac
 ms.reviewer: ''
-description: Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt voor Mac.
+description: Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt op Mac.
 keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, big sur, catalina, mojave, mde voor mac
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 22d35a42eb7fb7eadbba686c292729772951c05c
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 406a0e699ea563670f41355d122aa54ba8667a0e
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500690"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687743"
 ---
-# <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender voor Eindpunt voor Mac
+# <a name="microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender voor Eindpunt op Mac
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,23 +36,23 @@ ms.locfileid: "51500690"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt voor Mac kunt installeren, configureren, bijwerken en gebruiken.
+In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt op Mac kunt installeren, configureren, bijwerken en gebruiken.
 
 > [!CAUTION]
-> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt voor Mac kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u nog steeds veilig profiteren van de EDR-functionaliteit van Defender voor Endpoint voor Mac nadat u de antivirusfunctionaliteit hebt geconfigureerd voor gebruik in de passieve [modus.](mac-preferences.md#enable--disable-passive-mode)
+> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt op Mac kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u nog steeds veilig profiteren van de Functionaliteit van Defender voor Eindpunt op Mac EDR na het configureren van de antivirusfunctionaliteit om in de passieve modus uit te [voeren.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>Nieuwe functies in de nieuwste release
 
 [Wat is er nieuw in Microsoft Defender voor Eindpunt](whats-new-in-microsoft-defender-atp.md)
 
-[Nieuwe functies in Microsoft Defender voor Eindpunt voor Mac](mac-whatsnew.md)
+[Nieuwe functies in Microsoft Defender voor Eindpunt op Mac](mac-whatsnew.md)
 
 > [!TIP]
-> Als u feedback hebt die u wilt delen, verzendt u deze door Microsoft Defender voor Eindpunt voor Mac te openen op uw apparaat en te navigeren naar **Help**  >  **Feedback verzenden.**
+> Als u feedback hebt die u wilt delen, verzendt u deze door Microsoft Defender voor Eindpunt op Mac te openen op uw apparaat en te navigeren naar **Help**  >  **Feedback verzenden.**
 
 Als u de nieuwste functies wilt downloaden, waaronder preview-mogelijkheden (zoals eindpuntdetectie en antwoord voor uw Mac-apparaten), configureert u uw macOS-apparaat met Microsoft Defender voor Eindpunt als een Insider-apparaat.
 
-## <a name="how-to-install-microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender voor Eindpunt voor Mac installeren
+## <a name="how-to-install-microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender voor Eindpunt installeren op Mac
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -62,7 +62,7 @@ Als u de nieuwste functies wilt downloaden, waaronder preview-mogelijkheden (zoa
 
 ### <a name="installation-instructions"></a>Installatie-instructies
 
-Er zijn verschillende methoden en implementatiehulpmiddelen waarmee u Defender voor Eindpunt voor Mac kunt installeren en configureren.
+Er zijn verschillende methoden en implementatiehulpmiddelen die u kunt gebruiken om Defender voor Eindpunt op Mac te installeren en te configureren.
 
 - Beheerhulpmiddelen van derden:
     - [Implementatie op basis van Microsoft Intune](mac-install-with-intune.md)
@@ -91,7 +91,7 @@ Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall con
 
 ### <a name="licensing-requirements"></a>Licentievereisten
 
-Voor Microsoft Defender voor Endpoint voor Mac is een van de volgende Microsoft Volume Licensing-aanbiedingen vereist:
+Voor Microsoft Defender voor Eindpunt op Mac is een van de volgende Microsoft Volume Licensing-aanbiedingen vereist:
 
 - Microsoft 365 E5 (M365 E5)
 - Microsoft 365 E5-beveiliging
@@ -121,7 +121,7 @@ Als een proxy of firewall anoniem verkeer blokkeert, moet u ervoor zorgen dat an
 > [!WARNING]
 > Geverifieerde proxies worden niet ondersteund. Zorg ervoor dat alleen PAC, WPAD of een statische proxy wordt gebruikt.
 >
-> SSL-inspectie en het onderscheppen van proxies worden ook niet ondersteund om beveiligingsredenen. Configureer een uitzondering voor SSL-inspectie en uw proxyserver om gegevens van Microsoft Defender voor Eindpunt voor Mac rechtstreeks door te geven aan de relevante URL's zonder interceptie. Als u uw interceptiecertificaat toevoegt aan de algemene winkel, is onderschepping niet toegestaan.
+> SSL-inspectie en het onderscheppen van proxies worden ook niet ondersteund om beveiligingsredenen. Configureer een uitzondering voor SSL-inspectie en uw proxyserver om gegevens van Microsoft Defender voor Eindpunt op macOS rechtstreeks door te geven aan de relevante URL's zonder interceptie. Als u uw interceptiecertificaat toevoegt aan de algemene winkel, is onderschepping niet toegestaan.
 
 Open en in een browser om te testen of een verbinding niet [https://x.cp.wd.microsoft.com/api/report](https://x.cp.wd.microsoft.com/api/report) [https://cdn.x.cp.wd.microsoft.com/ping](https://cdn.x.cp.wd.microsoft.com/ping) is geblokkeerd.
 
@@ -145,20 +145,20 @@ Nadat Microsoft Defender voor Eindpunt is geïnstalleerd, kan de connectiviteit 
 mdatp connectivity test
 ```
 
-## <a name="how-to-update-microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender voor Eindpunt voor Mac bijwerken
+## <a name="how-to-update-microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender voor eindpunt bijwerken op Mac
 
-Microsoft publiceert regelmatig software-updates om de prestaties, beveiliging en nieuwe functies te verbeteren. Als u Microsoft Defender voor Eindpunt voor Mac wilt bijwerken, wordt een programma met de naam Microsoft AutoUpdate (MAU) gebruikt. Zie Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac voor meer [informatie.](mac-updates.md)
+Microsoft publiceert regelmatig software-updates om de prestaties, beveiliging en nieuwe functies te verbeteren. Als u Microsoft Defender voor Eindpunt op Mac wilt bijwerken, wordt een programma met de naam Microsoft AutoUpdate (MAU) gebruikt. Zie Updates implementeren voor Microsoft Defender voor Eindpunt op Mac voor meer [informatie.](mac-updates.md)
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender configureren voor Eindpunt voor Mac
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender voor Eindpunt configureren op Mac
 
-Richtlijnen voor het configureren van het product in bedrijfsomgevingen zijn beschikbaar in Voorkeuren instellen voor [Microsoft Defender voor Eindpunt voor Mac.](mac-preferences.md)
+Richtlijnen voor het configureren van het product in bedrijfsomgevingen zijn beschikbaar in [Set preferences for Microsoft Defender for Endpoint on Mac](mac-preferences.md).
 
 ## <a name="macos-kernel-and-system-extensions"></a>macOS-kernel- en systeemextensies
 
-In overeenstemming met de ontwikkeling van macOS bereiden we een Update van Microsoft Defender voor Eindpunt voor Mac voor die gebruik maakt van systeemextensies in plaats van kernelextensies. Zie Nieuw in Microsoft Defender voor Eindpunt voor Mac voor relevante [informatie.](mac-whatsnew.md)
+In overeenstemming met de ontwikkeling van macOS bereiden we een Update van Microsoft Defender voor Eindpunt op Mac voor die gebruik maakt van systeemextensies in plaats van kernelextensies. Zie Nieuw in Microsoft Defender voor Eindpunt op Mac voor relevante [informatie.](mac-whatsnew.md)
 
 ## <a name="resources"></a>Resources
 
-- Zie Resources voor Microsoft Defender voor Eindpunt voor Mac voor meer informatie over logboekregistratie, verwijderen of [andere onderwerpen.](mac-resources.md)
+- Zie Resources [for Microsoft Defender for Endpoint on Mac](mac-resources.md)(Bronnen voor Microsoft Defender voor Eindpunt op Mac) voor meer informatie over logboekregistratie, het verwijderen of andere onderwerpen.
 
-- [Privacy voor Microsoft Defender voor Eindpunt voor Mac](mac-privacy.md).
+- [Privacy voor Microsoft Defender voor Eindpunt op Mac](mac-privacy.md).

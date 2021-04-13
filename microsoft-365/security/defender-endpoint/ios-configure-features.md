@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender configureren voor endpoint voor iOS-functies
+title: Microsoft Defender voor eindpunt configureren voor iOS-functies
 description: Beschrijft hoe u MICROSOFT Defender ATP voor iOS-functies implementeert
 keywords: microsoft, defender, atp, ios, configureren, functies, ios
 search.product: eADQiWindows 10XVcnh
@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8f74d4799bcb02051cddd09b80ed6ab50258302b
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 0e351f6500d5076e724653d0fde1940592dd1ae5
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587225"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687483"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-for-ios-features"></a>Microsoft Defender configureren voor endpoint voor iOS-functies
+# <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Microsoft Defender voor eindpunt configureren voor iOS-functies
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51587225"
 > Defender voor Eindpunt voor iOS zou een VPN gebruiken om de functie Webbeveiliging te bieden. Dit is geen gewone VPN en is een lokale/self-looping VPN die geen verkeer buiten het apparaat neemt.
 
 ## <a name="conditional-access-with-defender-for-endpoint-for-ios"></a>Voorwaardelijke toegang met Defender voor eindpunt voor iOS  
-Microsoft Defender voor Eindpunt voor iOS, samen met Microsoft Intune en Azure Active Directory, maakt het afdwingen van apparaat compliance en beleid voor voorwaardelijke toegang mogelijk op basis van apparaatrisiconiveaus. Defender for Endpoint is een MTD-oplossing (Mobile Threat Defense) die u kunt implementeren om gebruik te maken van deze mogelijkheid via Intune.
+Microsoft Defender voor Eindpunt op iOS, samen met Microsoft Intune en Azure Active Directory, maakt het afdwingen van apparaat compliance en beleid voor voorwaardelijke toegang mogelijk op basis van apparaatrisiconiveaus. Defender for Endpoint is een MTD-oplossing (Mobile Threat Defense) die u kunt implementeren om gebruik te maken van deze mogelijkheid via Intune.
 
 Zie Defender voor Eindpunt en [Intune](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)voor meer informatie over het instellen van Voorwaardelijke toegang met Defender voor eindpunt voor iOS.
 
@@ -68,7 +68,7 @@ Apple iOS biedt geen ondersteuning voor meerdere VPN's voor het hele apparaat om
 Om ervoor te zorgen dat bedrijfsgegevens niet worden gebruikt op iOS-apparaten met een jailbroken, raden we u aan het volgende compliancebeleid in te stellen op Intune.
 
 > [!NOTE]
-> Op dit moment biedt Microsoft Defender voor Endpoint voor iOS geen bescherming tegen jailbreakscenario's. Als het apparaat wordt gebruikt op een jailbroken apparaat, kunnen in specifieke scenario's gegevens die door de toepassing worden gebruikt, zoals uw bedrijfs-e-mail-id en bedrijfsprofielafbeelding (indien beschikbaar), lokaal worden getoond.
+> Op dit moment biedt Microsoft Defender voor Eindpunt in iOS geen bescherming tegen scenario's met een jailbreak. Als het apparaat wordt gebruikt op een jailbroken apparaat, kunnen in specifieke scenario's gegevens die door de toepassing worden gebruikt, zoals uw bedrijfs-e-mail-id en bedrijfsprofielafbeelding (indien beschikbaar), lokaal worden getoond.
 
 Volg de onderstaande stappen om een compliancebeleid te maken tegen jailbroken apparaten.
 

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender voor endpoint-gebeurtenis streamen
-description: Meer informatie over het configureren van Microsoft Defender ATP voor het streamen van geavanceerde huntinggebeurtenissen naar Event Hubs of Een Azure-opslagaccount
+description: Meer informatie over het configureren van Microsoft Defender voor Eindpunt voor het streamen van Advanced Hunting-gebeurtenissen naar Event Hubs of Een Azure-opslagaccount
 keywords: raw data export, streaming API, API, Event hubs, Azure storage, storage account, Advanced Hunting, raw data sharing
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 22f4e4c974b60e291273eb9bebfa34583f4e2fb7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f6a45629d610ea3cc3ca7d517021a215b72b1439
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058185"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688751"
 ---
 # <a name="raw-data-streaming-api"></a>Raw Data Streaming API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
@@ -41,7 +41,7 @@ Defender for Endpoint ondersteunt het streamen van alle gebeurtenissen die besch
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Beschrijving
+Onderwerp | Omschrijving
 :---|:---
 [Microsoft Defender voor eindpuntgebeurtenissen streamen naar Azure Event Hubs](raw-data-export-event-hub.md)| Meer informatie over het inschakelen van de streaming-API in uw tenant en het configureren van Defender voor Eindpunt om [Advanced Hunting te](advanced-hunting-overview.md) streamen naar Event Hubs.
 [Stream Defender voor eindpuntgebeurtenissen naar uw Azure-opslagaccount](raw-data-export-storage.md)| Meer informatie over het inschakelen van de streaming-API in uw tenant en het configureren van Defender voor Eindpunt om [Advanced Hunting](advanced-hunting-overview.md) te streamen naar uw Azure-opslagaccount.

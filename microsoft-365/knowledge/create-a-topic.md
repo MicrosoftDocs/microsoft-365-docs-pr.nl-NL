@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: c1f7b67bb49aff8d6656798d80636d9de5858877
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7d1dc1af6e845ccfe2fb0e8f5701a2cd3018c308
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165835"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687529"
 ---
 # <a name="create-a-new-topic-in-microsoft-viva-topics"></a>Een nieuw onderwerp maken in Microsoft Viva-onderwerpen
 
@@ -42,82 +42,77 @@ Als u een nieuw onderwerp wilt maken, moet u het volgende doen:
 
 U kunt een nieuw onderwerp maken op twee locaties:
 
-- Startpagina onderwerpcentrum: Elke gelicentieerde gebruiker met de machtiging Wie kan onderwerpen maken of bewerken (inzenders) kan een nieuw onderwerp maken vanuit het onderwerpcentrum door het <b>menu</b> Nieuw te selecteren en onderwerppagina <b>te selecteren.</b> </br> 
+- Startpagina onderwerpcentrum: Elke gelicentieerde gebruiker met de machtiging Wie kan onderwerpen maken of bewerken (inzenders) kan een nieuw onderwerp maken vanuit het onderwerpcentrum door het **menu** Nieuw te selecteren en onderwerppagina **te selecteren.**  
 
-    ![Nieuw onderwerp van het onderwerpcentrum](../media/knowledge-management/new-topic.png) </br> 
+    ![Nieuw onderwerp van het onderwerpcentrum](../media/knowledge-management/new-topic.png)  
 
-- Pagina Onderwerpen beheren: Elke  gelicentieerde gebruiker met de machtiging Wie kan onderwerpen beheren (kennisbeheerders) kan een nieuw onderwerp maken op de pagina Onderwerpen beheren in het onderwerpcentrum door Nieuwe <b>onderwerppagina te selecteren.</b></br> 
+- Pagina Onderwerpen beheren: Elke  gelicentieerde gebruiker met de machtiging Wie kan onderwerpen beheren (kennisbeheerders) kan een nieuw onderwerp maken op de pagina Onderwerpen beheren in het onderwerpcentrum door Nieuwe **onderwerppagina te selecteren.** 
 
-    ![Nieuw onderwerp van onderwerpen beheren](../media/knowledge-management/new-topic-topic-center.png) </br> 
+    ![Nieuw onderwerp van onderwerpen beheren](../media/knowledge-management/new-topic-topic-center.png)  
 
 ### <a name="to-create-a-new-topic"></a>Een nieuw onderwerp maken:
 
 1. Selecteer de optie om een nieuwe onderwerppagina te maken op het lint op de pagina Onderwerpen beheren.
 
-2.   Typ in **de sectie Naam** van dit onderwerp de naam van het nieuwe onderwerp.
+2.  Typ in **de sectie Naam** van dit onderwerp de naam van het nieuwe onderwerp.
 
-    ![Dit onderwerp een naam geven](../media/knowledge-management/k-new-topic-page.png) </br> 
+    ![Dit onderwerp een naam geven](../media/knowledge-management/k-new-topic-page.png)  
 
+3. Typ in **de sectie Alternatieve** namen eventuele andere namen waar het onderwerp naar kan worden verwezen. 
 
-3. Typ in <b>de sectie Alternatieve</b> namen eventuele andere namen waar het onderwerp naar kan worden verwezen. 
+    ![Alternatieve namen](../media/knowledge-management/alt-names.png)  
 
-    ![Alternatieve namen](../media/knowledge-management/alt-names.png) </br> 
-4. Typ in <b>de</b> sectie Beschrijving een paar zinnen waarin het onderwerp wordt beschreven. 
+4. Typ in **de** sectie Beschrijving een paar zinnen waarin het onderwerp wordt beschreven. 
 
-    ![Beschrijving van het onderwerp](../media/knowledge-management/description.png)</br>
+    ![Beschrijving van het onderwerp](../media/knowledge-management/description.png)
 
-4. In de <b>sectie Vastgemaakte</b> personen kunt u een persoon 'vastmaken' om aan te geven dat deze een verbinding met het onderwerp heeft (bijvoorbeeld een eigenaar van een verbonden resource). Typ eerst de naam of het e-mailadres in het vak <b>Een</b> nieuwe gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen <b>uit lijst</b> op de gebruikerskaart te selecteren. U kunt de persoon ook slepen om de volgorde van de lijst met personen te wijzigen.
+4. In de **sectie Vastgemaakte** personen kunt u een persoon 'vastmaken' om aan te geven dat deze een verbinding met het onderwerp heeft (bijvoorbeeld een eigenaar van een verbonden resource). Typ eerst de naam of het e-mailadres in het vak **Een** nieuwe gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen **uit lijst** op de gebruikerskaart te selecteren. U kunt de persoon ook naar een andere plaats in de lijst slepen.
  
-    ![Vastgemaakte personen](../media/knowledge-management/pinned-people.png)</br>
+    ![Vastgemaakte personen](../media/knowledge-management/pinned-people.png)
 
+5. In de **sectie Vastgemaakte bestanden** en pagina's kunt u een bestand of SharePoint-sitepagina die aan het onderwerp is gekoppeld, toevoegen of 'vastmaken'.
 
-5. In de <b>sectie Vastgemaakte bestanden</b> en pagina's kunt u een bestand of SharePoint-sitepagina die aan het onderwerp is gekoppeld, toevoegen of 'vastmaken'.
-
-   ![Vastgemaakte bestanden en pagina's](../media/knowledge-management/pinned-files-and-pages.png)</br>
+   ![Vastgemaakte bestanden en pagina's](../media/knowledge-management/pinned-files-and-pages.png)
  
-    Als u een nieuw bestand wilt toevoegen, selecteert u <b>Toevoegen,</b>selecteert u de SharePoint-site op uw sites Frequent of Gevolgd en selecteert u het bestand in de documentbibliotheek van de site.
+    Als u een nieuw bestand wilt toevoegen, selecteert u **Toevoegen,** selecteert u de SharePoint-site op uw sites Frequent of Gevolgd en selecteert u het bestand in de documentbibliotheek van de site.
 
-    U kunt ook de optie <b>Van een koppeling gebruiken</b> om een bestand of pagina toe te voegen door de URL op te geven. 
+    U kunt ook de optie **Van een koppeling gebruiken** om een bestand of pagina toe te voegen door de URL op te geven. 
 
     > [!Note] 
     > Bestanden en pagina's die u toevoegt, moeten zich bevinden in dezelfde Microsoft 365-tenant. Als u een koppeling wilt toevoegen naar een externe resource in het onderwerp, kunt u deze toevoegen via het canvaspictogram in stap 8.
 
 
-6.  In <b>de sectie Gerelateerde sites</b> ziet u sites met informatie over het onderwerp. 
+6.  In **de sectie Gerelateerde sites** ziet u sites met informatie over het onderwerp. 
 
-    ![Sectie Gerelateerde sites](../media/knowledge-management/related-sites.png)</br>
+    ![Sectie Gerelateerde sites](../media/knowledge-management/related-sites.png)
 
-    U kunt een gerelateerde site toevoegen door <b>Toevoegen</b> te selecteren en vervolgens naar de site te zoeken of deze te selecteren in uw lijst met veelgebruikte of recente sites.</br>
+    U kunt een gerelateerde site toevoegen door **Toevoegen** te selecteren en vervolgens naar de site te zoeken of deze te selecteren in uw lijst met veelgebruikte of recente sites.
     
-    ![Site selecteren](../media/knowledge-management/sites.png)</br>
+    ![Site selecteren](../media/knowledge-management/sites.png)
 
-7. In <b>de sectie Gerelateerde</b> onderwerpen ziet u verbindingen tussen onderwerpen. U kunt een verbinding met een ander onderwerp toevoegen door de knop Verbinding maken met een gerelateerd <b>onderwerp</b> te selecteren en vervolgens de naam van het gerelateerde onderwerp te typen en deze te selecteren in de zoekresultaten. 
+7. In **de sectie Gerelateerde** onderwerpen ziet u verbindingen tussen onderwerpen. U kunt een verbinding met een ander onderwerp toevoegen door de knop Verbinding maken met een gerelateerd **onderwerp** te selecteren en vervolgens de naam van het gerelateerde onderwerp te typen en deze te selecteren in de zoekresultaten. 
 
-   ![Verwante onderwerpen](../media/knowledge-management/related-topic.png)</br>  
+   ![Verwante onderwerpen](../media/knowledge-management/related-topic.png)  
 
-    Vervolgens kunt u een beschrijving geven van de manier waarop de onderwerpen zijn gerelateerd en selecteert u <b>Bijwerken.</b></br>
+    Vervolgens kunt u een beschrijving geven van de manier waarop de onderwerpen zijn gerelateerd en selecteert u **Bijwerken.**
 
-   ![Beschrijving van gerelateerde onderwerpen](../media/knowledge-management/related-topics-update.png)</br> 
+   ![Beschrijving van gerelateerde onderwerpen](../media/knowledge-management/related-topics-update.png) 
 
    Het gerelateerde onderwerp dat u hebt toegevoegd, wordt weergegeven als een verbonden onderwerp.
 
-   ![Gerelateerde onderwerpen verbonden](../media/knowledge-management/related-topics-final.png)</br> 
+   ![Gerelateerde onderwerpen verbonden](../media/knowledge-management/related-topics-final.png) 
 
-   Als u een gerelateerd onderwerp wilt verwijderen, selecteert u het onderwerp dat u wilt verwijderen en selecteert u vervolgens het <b>pictogram Onderwerp</b> verwijderen.</br>
+   Als u een gerelateerd onderwerp wilt verwijderen, selecteert u het onderwerp dat u wilt verwijderen en selecteert u vervolgens het **pictogram Onderwerp** verwijderen.
  
-   ![Gerelateerd onderwerp verwijderen](../media/knowledge-management/remove-related.png)</br>  
+   ![Gerelateerd onderwerp verwijderen](../media/knowledge-management/remove-related.png)  
 
-   Selecteer vervolgens <b>Verwijderen.</b></br>
+   Selecteer vervolgens **Verwijderen.**
 
-   ![Verwijderen bevestigen](../media/knowledge-management/remove-related-confirm.png)</br> 
-     
- 
-
+   ![Verwijderen bevestigen](../media/knowledge-management/remove-related-confirm.png) 
 
 8. U kunt ook statische items toevoegen aan de pagina (zoals tekst, afbeeldingen of koppelingen) door het canvaspictogram te selecteren, dat u onder de korte beschrijving kunt vinden. Als u deze optie selecteert, wordt de SharePoint-werkset geopend waaruit u het item kunt kiezen dat u aan de pagina wilt toevoegen.
 
-   ![Pictogram Canvas](../media/knowledge-management/webpart-library.png)</br> 
-
+   ![Pictogram Canvas](../media/knowledge-management/webpart-library.png) 
 
 9. Selecteer **Publiceren om** uw wijzigingen op te slaan. 
 

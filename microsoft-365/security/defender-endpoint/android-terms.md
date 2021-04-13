@@ -18,19 +18,19 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: b957147d8a4b0606159669ded2cafca5568daf71
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 2bcc8c1f977a6060ac94dc3a634f075a5c1ee041
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166219"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687947"
 ---
-# <a name="microsoft-defender-for-endpoint-for-android-application-license-terms"></a>Licentievoorwaarden voor Microsoft Defender voor Endpoint voor Android-toepassingen
+# <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Licentievoorwaarden voor Microsoft Defender voor Eindpunt voor Android-toepassingen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 

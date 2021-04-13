@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender voor Eindpunt voor Linux
+title: Microsoft Defender voor Eindpunt op Linux
 ms.reviewer: ''
 description: Hier wordt beschreven hoe u Microsoft Defender ATP voor Linux installeert en gebruikt.
 keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cc2f5be700395f6d88c05481d74501f4d9d92b76
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0fea9d4dd46be2a77ea27728787a43b5273f92f5
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500677"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687755"
 ---
-# <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender voor Eindpunt voor Linux
+# <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt op Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,12 +36,12 @@ ms.locfileid: "51500677"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt voor Linux kunt installeren, configureren, bijwerken en gebruiken.
+In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt op Linux kunt installeren, configureren, bijwerken en gebruiken.
 
 > [!CAUTION]
-> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt voor Linux kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u na het configureren van de antivirusfunctionaliteit [](linux-preferences.md#enable--disable-passive-mode)in de passieve modus nog steeds veilig gebruik maken van De functionaliteit van Defender voor Endpoint voor Linux EDR.
+> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt op Linux kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u na het configureren van de antivirusfunctionaliteit [](linux-preferences.md#enable--disable-passive-mode)in de passieve modus nog steeds veilig gebruik maken van De functionaliteit van Defender voor Endpoint voor Linux EDR.
 
-## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender voor Eindpunt voor Linux installeren
+## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt installeren op Linux
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -52,19 +52,19 @@ In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt voor Li
 
 ### <a name="installation-instructions"></a>Installatie-instructies
 
-Er zijn verschillende methoden en implementatiehulpmiddelen waarmee u Microsoft Defender voor Eindpunt voor Linux kunt installeren en configureren.
+Er zijn verschillende methoden en implementatiehulpmiddelen waarmee u Microsoft Defender voor Eindpunt op Linux kunt installeren en configureren.
 
 Over het algemeen moet u de volgende stappen ondernemen:
 
 - Zorg ervoor dat u een Microsoft Defender voor Eindpunt-abonnement hebt en dat u toegang hebt tot de [Microsoft Defender for Endpoint-portal.](microsoft-defender-security-center.md)
-- Microsoft Defender voor Eindpunt voor Linux implementeren met behulp van een van de volgende implementatiemethoden:
+- Microsoft Defender voor Eindpunt implementeren op Linux met behulp van een van de volgende implementatiemethoden:
   - Het opdrachtregelhulpmiddel:
     - [Handmatige implementatie](linux-install-manually.md)
   - Beheerhulpmiddelen van derden:
     - [Implementeren met behulp van Het configuratiebeheerprogramma van De pop-over](linux-install-with-puppet.md)
     - [Implementeren met behulp van het hulpprogramma voor configuratiebeheer van Ansible](linux-install-with-ansible.md)
 
-Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in Microsoft Defender voor Eindpunt voor Linux.](linux-support-install.md)
+Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in Microsoft Defender voor Eindpunt op Linux.](linux-support-install.md)
 
 ### <a name="system-requirements"></a>Systeemvereisten
 
@@ -111,7 +111,7 @@ Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall con
 
 - Audit framework ( `auditd` ) moet zijn ingeschakeld.
   > [!NOTE]
-  > Systeemgebeurtenissen die zijn vastgelegd met regels die zijn toegevoegd, worden toegevoegd aan (s) en kunnen van invloed zijn op de controle van de `/etc/audit/rules.d/` `audit.log` host en de upstreamverzameling. Gebeurtenissen die zijn toegevoegd door Microsoft Defender voor Endpoint voor Linux, worden met de sleutel `mdatp` gemarkeerd.
+  > Systeemgebeurtenissen die zijn vastgelegd met regels die zijn toegevoegd, worden toegevoegd aan (s) en kunnen van invloed zijn op de controle van de `/etc/audit/rules.d/` `audit.log` host en de upstreamverzameling. Gebeurtenissen die zijn toegevoegd door Microsoft Defender voor Endpoint op Linux, worden met de sleutel `mdatp` gemarkeerd.
 
 ### <a name="network-connections"></a>Netwerkverbindingen
 
@@ -133,17 +133,17 @@ Als een proxy of firewall anoniem verkeer blokkeert, moet u ervoor zorgen dat an
 > [!WARNING]
 > PAC-, WPAD- en geverifieerde proxies worden niet ondersteund. Zorg ervoor dat alleen een statische proxy of transparante proxy wordt gebruikt.
 >
-> SSL-inspectie en het onderscheppen van proxies worden ook niet ondersteund om beveiligingsredenen. Configureer een uitzondering voor SSL-inspectie en uw proxyserver om gegevens van Defender voor Endpoint voor Linux rechtstreeks door te geven aan de relevante URL's zonder interceptie. Als u uw interceptiecertificaat toevoegt aan de algemene winkel, is onderschepping niet toegestaan.
+> SSL-inspectie en het onderscheppen van proxies worden ook niet ondersteund om beveiligingsredenen. Configureer een uitzondering voor SSL-inspectie en uw proxyserver om gegevens van Defender for Endpoint op Linux rechtstreeks door te geven aan de relevante URL's zonder interceptie. Als u uw interceptiecertificaat toevoegt aan de algemene winkel, is onderschepping niet toegestaan.
 
-Zie Problemen met cloudconnectiviteit oplossen voor Microsoft Defender voor Eindpunt voor Linux voor meer informatie over het oplossen van problemen met [de cloud.](linux-support-connectivity.md)
+Zie Problemen met cloudconnectiviteit oplossen voor Microsoft Defender voor Eindpunt op Linux voor meer informatie over het oplossen van problemen met [de cloud.](linux-support-connectivity.md)
 
-## <a name="how-to-update-microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender voor Eindpunt voor Linux bijwerken
+## <a name="how-to-update-microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt bijwerken op Linux
 
-Microsoft publiceert regelmatig software-updates om de prestaties, beveiliging en nieuwe functies te verbeteren. Als u Microsoft Defender voor Eindpunt voor Linux wilt bijwerken, raadpleegt u Updates implementeren voor [Microsoft Defender voor Eindpunt voor Linux.](linux-updates.md)
+Microsoft publiceert regelmatig software-updates om de prestaties, beveiliging en nieuwe functies te verbeteren. Als u Microsoft Defender voor Eindpunt op Linux wilt bijwerken, raadpleegt u Updates implementeren voor [Microsoft Defender voor Eindpunt op Linux.](linux-updates.md)
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender configureren voor Eindpunt voor Linux
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender configureren voor Eindpunt op Linux
 
-Richtlijnen voor het configureren van het product in bedrijfsomgevingen zijn beschikbaar in [Set preferences for Microsoft Defender for Endpoint for Linux](linux-preferences.md).
+Richtlijnen voor het configureren van het product in bedrijfsomgevingen zijn beschikbaar in [Set preferences for Microsoft Defender for Endpoint on Linux](linux-preferences.md).
 
 ## <a name="resources"></a>Resources
 

@@ -15,12 +15,12 @@ ms.custom:
 description: Lees hoe Exchange Online Protection (EOP) uw on-premises e-mailorganisatie kan beschermen in zelfstandige en hybride omgevingen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3df7b376d559535e168bfa21d2a8770b19569c4f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b699c0d6353d725b8d03cf4cf556a3e2ac798041
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204822"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687051"
 ---
 # <a name="exchange-online-protection-overview"></a>Overzicht Exchange Online Protection
 
@@ -70,6 +70,9 @@ De beschikbare EOP-abonnementsabonnementen zijn:
 - **Exchange Enterprise CAL with Services:** Als u een on-premises Exchange-organisatie hebt waar u extra Exchange Enterprise CAL met Services-licenties hebt gekocht, maakt EOP deel uit van de meegeleverde services.
 
 Zie de beschrijving van de Exchange Online Protection-service voor informatie over vereisten, belangrijke limieten en beschikbaarheid van functies in alle [EOP-abonnementsabonnementen.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+
+> [!NOTE]
+> Als u een **Office 365 E3-abonnement hebt, bevat dit EOP.** Zie Bescherming tegen bedreigingen voor stappen voor het instellen van EOP-beveiligingsfunctie in uw abonnement en informatie over de toegevoegde beveiliging die een Microsoft Defender voor Office 365-abonnement u kan [bieden.](protect-against-threats.md) De aanbevolen instellingen voor EOP-functie voor [](best-practices-for-configuring-eop.md) installatie vindt u in het artikel Aanbevelingen, waarin EOP-instellingen specifiek worden genoemd.
 
 ## <a name="setting-up-eop-for-on-premises-email-organizations"></a>EOP instellen voor on-premises e-mailorganisaties
 

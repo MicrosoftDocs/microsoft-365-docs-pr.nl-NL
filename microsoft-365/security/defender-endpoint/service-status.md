@@ -1,6 +1,6 @@
 ---
-title: De status van de Microsoft Defender ATP-service controleren
-description: Controleer de status van microsoft Defender ATP-service, kijk of er problemen zijn met de service en bekijk eerdere problemen die zijn opgelost.
+title: De service status van Microsoft Defender voor eindpunt controleren
+description: Controleer de service health van Microsoft Defender voor eindpunten, kijk of er problemen zijn met de service en bekijk eerdere problemen die zijn opgelost.
 keywords: dashboard, service, problemen, servicestatus, huidige status, statusgeschiedenis, overzicht van de gevolgen, voorlopige oorzaak, oplossing, resolutietijd, verwachte resolutietijd
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 45782fcce51e15adf61757d836d313d229558571
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1b4545daace5df1a1a9c6e827f7d8f1b522a690c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058701"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687623"
 ---
 # <a name="check-the-microsoft-defender-for-endpoint-service-health"></a>De service status van Microsoft Defender voor eindpunt controleren
 
@@ -29,7 +29,7 @@ ms.locfileid: "51058701"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 
 
@@ -64,5 +64,5 @@ Wanneer een probleem is opgelost, wordt het opgenomen op het **tabblad Statusges
 ## <a name="status-history"></a>Statusgeschiedenis
 Het **tabblad Statusgeschiedenis** geeft alle historische problemen weer die zijn gezien en opgelost. U ziet details van de opgeloste problemen, samen met de andere gegevens die zijn opgenomen terwijl deze werden opgelost.
 
-### <a name="related-topic"></a>Gerelateerd onderwerp
+### <a name="related-topic"></a>Verwant onderwerp
 - [Het dashboard Beveiligingsbewerkingen weergeven](security-operations-dashboard.md)

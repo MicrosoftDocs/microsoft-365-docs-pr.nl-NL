@@ -1,5 +1,5 @@
 ---
-title: Reactieacties uitvoeren op een apparaat in Microsoft Defender ATP
+title: Reactieacties uitvoeren op een apparaat in Microsoft Defender voor Eindpunt
 description: Neem antwoordacties op een apparaat, zoals het isoleren van apparaten, het verzamelen van een onderzoekspakket, het beheren van tags, het uitvoeren van av-scan en het beperken van de uitvoering van apps.
 keywords: reageren, isoleren, apparaat isoleren, onderzoekspakket verzamelen, actiecentrum, beperken, tags beheren, av-scan, app beperken
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f918d1673ef8a83c54f365dd06406c33bcc4d983
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f538bd33ad2f595aa9b3dafa8a13a5682161b52f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056766"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688319"
 ---
-# <a name="take-response-actions-on-a-device"></a>Antwoordacties uitvoeren op een apparaat
+# <a name="take-response-actions-on-a-device"></a>Acties ondernemen op een apparaat
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-respondmachine-abovefoldlink) 
 
@@ -41,9 +41,9 @@ Antwoordacties worden uitgevoerd boven aan een specifieke apparaatpagina en beva
 - Live-antwoordsessie starten
 - Onderzoekspakket verzamelen
 - Antivirusscan uitvoeren
-- De uitvoering van apps beperken
+- Het uitvoeren van apps beperken
 - Apparaat isoleren
-- Een bedreigingsexpert raadplegen
+- Contact opnemen met een risicodeskundige
 - Actiecentrum
 
 [![Afbeelding van antwoordacties ](images/response-actions.png)](images/response-actions.png#lightbox)
@@ -101,7 +101,7 @@ Alternatieve manier:
 
 Het pakket bevat de volgende mappen:
 
-| Map | Beschrijving |
+| Map | Omschrijving |
 |:---|:---------|
 |Autoruns | Bevat een set bestanden die elk de inhoud vertegenwoordigen van het register van een bekend autostartinvoerpunt (ASEP) om de persistentie van de aanvaller op het apparaat te identificeren. </br></br> <div class="alert"><b>OPMERKING:</b> Als de registersleutel niet wordt gevonden, bevat het bestand het volgende bericht: 'FOUT: Het systeem kon de opgegeven registersleutel of -waarde niet vinden'.</div>                                                                                                                                |
 |Geïnstalleerde programma's | Dit . CSV-bestand bevat de lijst met geïnstalleerde programma's die kunnen helpen bepalen wat er momenteel op het apparaat is geïnstalleerd. Zie voor meer informatie [Win32_Product klas.](https://go.microsoft.com/fwlink/?linkid=841509)                                                                                  |
@@ -136,7 +136,7 @@ In het Actiecentrum worden de scangegevens weergegeven en de tijdlijn van het ap
 >Wanneer u een scan activeert met de actie Defender voor eindpuntreactie, is de waarde scanAvgCPULoadFactor van Microsoft Defender antivirus nog steeds van toepassing en wordt de CPU-impact van de scan beperkt.<br> Als ScanAvgCPULoadFactor niet is geconfigureerd, is de standaardwaarde een limiet van 50% maximale CPU-belasting tijdens een scan.<br>
 >Zie [Configure-advanced-scan-types-microsoft-defender-antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus)voor meer informatie.
 
-## <a name="restrict-app-execution"></a>De uitvoering van apps beperken
+## <a name="restrict-app-execution"></a>Het uitvoeren van apps beperken
 
 Naast het bevatten van een aanval door schadelijke processen te stoppen, kunt u ook een apparaat vergrendelen en voorkomen dat volgende pogingen van potentieel schadelijke programma's worden uitgevoerd.
 
@@ -186,14 +186,14 @@ Wanneer een apparaat wordt geïsoleerd, wordt de volgende melding weergegeven om
 
 ![Afbeelding van geen netwerkverbinding](images/atp-notification-isolate.png)
 
-## <a name="consult-a-threat-expert"></a>Een bedreigingsexpert raadplegen
+## <a name="consult-a-threat-expert"></a>Contact opnemen met een risicodeskundige
 
 U kunt een Bedreigingsexpert van Microsoft raadplegen voor meer inzichten over een mogelijk gecompromitteerd apparaat of al gecompromitteerde apparaten. Microsoft Threat Experts kunnen rechtstreeks vanuit het Microsoft Defender-beveiligingscentrum worden ingeschakeld voor een tijdige en nauwkeurige reactie. Experts bieden inzichten, niet alleen met betrekking tot een mogelijk gecompromitteerd apparaat, maar ook om meer inzicht te krijgen in complexe bedreigingen, gerichte aanvalsmeldingen die u ontvangt, of als u meer informatie nodig hebt over de waarschuwingen of een context voor bedreigingsinformatie die u ziet op uw portaldashboard.
 
 Zie [Een Microsoft Threat Expert raadplegen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) voor meer informatie.
 
 
-## <a name="check-activity-details-in-action-center"></a>Activiteitsdetails controleren in het Actiecentrum
+## <a name="check-activity-details-in-action-center"></a>Activiteitsdetails controleren in Actiecentrum
 
 Het **Actiecentrum** bevat informatie over acties die zijn ondernomen op een apparaat of bestand. U kunt de volgende details bekijken:
 
@@ -206,6 +206,6 @@ Alle andere gerelateerde details worden ook weergegeven, bijvoorbeeld inzendings
 
 ![Afbeelding van actiecentrum met informatie](images/action-center-details.png)
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
-- [Antwoordacties uitvoeren op een bestand](respond-file-alerts.md)
+## <a name="related-topic"></a>Verwant onderwerp
+- [Acties ondernemen op een bestand](respond-file-alerts.md)
 - [Onnauwkeurigheid van rapport](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)

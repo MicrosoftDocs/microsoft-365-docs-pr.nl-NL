@@ -1,6 +1,6 @@
 ---
 title: Filteren van webinhoud
-description: Gebruik webinhoudsfilters in Microsoft Defender ATP om de toegang tot websites op basis van hun inhoudscategorieën bij te houden en te reguleren.
+description: Gebruik webinhoudsfilters in Microsoft Defender voor Eindpunt om de toegang tot websites bij te houden en te reguleren op basis van hun inhoudscategorieën.
 keywords: webbeveiliging, bescherming tegen webdreigingen, surfen op het web, monitoring, rapporten, kaarten, domeinlijst, beveiliging, phishing, malware, exploit, websites, netwerkbeveiliging, Edge, Internet Explorer, Chrome, Firefox, webbrowser
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c5f44b4ab8354330ec9701261e8fb0dcc2e9fe52
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: c9a069deded237c5ded6bcd9f6c6a77f644e65a2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499965"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689339"
 ---
 # <a name="web-content-filtering"></a>Filteren van webinhoud
 

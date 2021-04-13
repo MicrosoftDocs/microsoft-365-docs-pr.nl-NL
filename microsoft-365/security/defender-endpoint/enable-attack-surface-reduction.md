@@ -11,15 +11,16 @@ localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.reviewer: ''
+ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 84947057abbd456dee5cbf5d0c6fea37f679d9ad
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.topic: how-to
+ms.openlocfilehash: e6f3d6da2424b2b3b6b7c1f2c9973e4046d6e27f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570946"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689163"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken inschakelen
 
@@ -29,7 +30,8 @@ ms.locfileid: "51570946"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 [Asr-regels (Attack Surface Reduction Rules)](attack-surface-reduction.md) helpen voorkomen dat malware vaak misbruik maakt van apparaten en netwerken. U kunt ASR-regels instellen voor apparaten met een van de volgende versies en versies van Windows:
 - Windows 10 Pro, [versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
@@ -37,11 +39,15 @@ ms.locfileid: "51570946"
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
-Elke ASR-regel bevat een van de drie instellingen:
+Elke ASR-regel bevat een van de vier instellingen:
 
-- Niet geconfigureerd: de ASR-regel uitschakelen
-- Blokkering: De ASR-regel inschakelen
-- Audit: evalueren hoe de ASR-regel van invloed is op uw organisatie als deze is ingeschakeld
+- **Niet geconfigureerd:** de ASR-regel uitschakelen
+- **Blokkeren:** De ASR-regel inschakelen
+- **Controleren:** evalueren hoe de ASR-regel van invloed is op uw organisatie als deze is ingeschakeld
+- **Waarschuwen:** Schakel de ASR-regel in, maar laat de eindgebruiker het blok omzeilen
+
+> [!IMPORTANT]
+> Momenteel wordt de waarschuwingsmodus niet ondersteund voor drie ASR-regels wanneer u ASR-regels configureert in Microsoft Endpoint Manager (MEM). Zie Gevallen waarin de [waarschuwingsmodus niet wordt ondersteund](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)voor meer informatie.
 
 Het wordt ten zeerste aanbevolen om ASR-regels te gebruiken met een Windows E5-licentie (of soortgelijke licentie-SKU) om te profiteren van de geavanceerde controle- en rapportagemogelijkheden die beschikbaar zijn in [Microsoft Defender voor](https://docs.microsoft.com/windows/security/threat-protection) Eindpunt (Defender voor Eindpunt). Voor andere licenties, zoals Windows Professional of E3 die geen toegang hebben tot geavanceerde monitoring- en rapportagemogelijkheden, kunt u echter uw eigen hulpprogramma's voor monitoring en rapportage ontwikkelen boven op de gebeurtenissen die op elk eindpunt worden gegenereerd wanneer ASR-regels worden geactiveerd (bijvoorbeeld Gebeurtenis doorsturen).
 
@@ -97,11 +103,12 @@ Hieronder volgt een voorbeeld voor verwijzing, met [GUID-waarden voor ASR-regels
 
 `Value: 75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=2|3B576869-A4EC-4529-8536-B80A7769E899=1|D4F940AB-401B-4EfC-AADC-AD5F3C50688A=2|D3E037E1-3EB8-44C8-A917-57927947596D=1|5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=0|BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=1`
 
-De waarden voor het inschakelen, uitschakelen of inschakelen in de auditmodus zijn:
+De waarden die u wilt inschakelen (blokkeren), uitschakelen, waarschuwen of inschakelen in de auditmodus zijn:
 
-- Uitschakelen = 0
-- Blokkering (ASR-regel inschakelen) = 1
-- Audit = 2
+- 0 : Uitschakelen (de ASR-regel uitschakelen)
+- 1 : Blokkeren (asr-regel inschakelen)
+- 2 : Controleren (evalueren hoe de ASR-regel van invloed is op uw organisatie als deze is ingeschakeld)
+- 6 : Waarschuwen (Schakel de ASR-regel in, maar laat de eindgebruiker het blok omzeilen)
 
 Gebruik [de CSP (Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions) configuration service provider) om uitsluitingen toe te voegen.
 
@@ -143,11 +150,12 @@ Voorbeeld:
 
    Selecteer **Toon...** en voer de regel-id in de kolom **Waardenaam** en de door u gekozen status in de **kolom** Waarde als volgt in:
 
-   - Uitschakelen = 0
-   - Blokkering (ASR-regel inschakelen) = 1
-   - Audit = 2
+   - 0 : Uitschakelen (de ASR-regel uitschakelen)
+   - 1 : Blokkeren (asr-regel inschakelen)
+   - 2 : Controleren (evalueren hoe de ASR-regel van invloed is op uw organisatie als deze is ingeschakeld)
+   - 6 : Waarschuwen (Schakel de ASR-regel in, maar laat de eindgebruiker het blok omzeilen)
 
-   ![Groepsbeleidsinstelling met een lege regel-id voor de beperking van het oppervlak van de aanval en een waarde van 1](/microsoft-365/security/defender-endpoint/images/asr-rules-gp)
+   :::image type="content" source="images/asr-rules-gp.png" alt-text="ASR-regels in groepsbeleid":::
 
 5. Als u bestanden en mappen wilt uitsluiten van ASR-regels, selecteert u de instelling Bestanden en paden uitsluiten van de instelling Surface **Reduction** Attack en stelt u de optie **in op Ingeschakeld.** Selecteer **Weergeven** en voer elk bestand of elke map in de kolom **Waardenaam** in. Voer **0** in de kolom **Waarde** in voor elk item.
 
@@ -161,7 +169,7 @@ Voorbeeld:
 
 1. Typ **powershell** in het menu Start, klik met de rechtermuisknop op **Windows PowerShell** en selecteer **Uitvoeren als beheerder.**
 
-2. Voer de volgende cmdlet in:
+2. Typ de volgende cmdlet:
 
     ```PowerShell
     Set-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Enabled
@@ -171,6 +179,12 @@ Voorbeeld:
 
     ```PowerShell
     Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions AuditMode
+    ```
+
+    Als u ASR-regels wilt inschakelen in de waarschuwingsmodus, gebruikt u de volgende cmdlet:
+
+    ```PowerShell
+    Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Warn
     ```
 
     Als u ASR-regels wilt uitschakelen, gebruikt u de volgende cmdlet:
@@ -191,7 +205,7 @@ Voorbeeld:
     U kunt ook het `Add-MpPreference` werkwoord PowerShell gebruiken om nieuwe regels toe te voegen aan de bestaande lijst.
 
     > [!WARNING]
-    > `Set-MpPreference` wordt altijd de bestaande set regels overschreven. Als u wilt toevoegen aan de bestaande set, moet u deze in plaats daarvan `Add-MpPreference` gebruiken.
+    > `Set-MpPreference` wordt altijd de bestaande set regels overschreven. Als u wilt toevoegen aan de bestaande set, gebruikt u deze `Add-MpPreference` in plaats daarvan.
     > U kunt een lijst met regels en de huidige status verkrijgen met behulp `Get-MpPreference` van .
 
 3. Als u bestanden en mappen wilt uitsluiten van ASR-regels, gebruikt u de volgende cmdlet:

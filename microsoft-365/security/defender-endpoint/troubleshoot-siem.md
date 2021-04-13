@@ -1,6 +1,6 @@
 ---
-title: Problemen met de integratie van SIEM-hulpprogramma's oplossen in MICROSOFT Defender ATP
-description: Problemen oplossen die kunnen optreden bij het gebruik van SIEM-hulpprogramma's met Microsoft Defender ATP.
+title: Problemen met de integratie van SIEM-hulpprogramma's oplossen in Microsoft Defender voor Eindpunt
+description: Problemen oplossen die zich kunnen voordoen bij het gebruik van SIEM-hulpprogramma's met Microsoft Defender voor Eindpunt.
 keywords: probleemoplossing, siem, clientgeheim, geheim
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: c1c8fdb0b6e84d4265defb95d91b59a584b7f4c2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 60220d00ca1b612564b72103b9206e3d6d89dc60
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185777"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689447"
 ---
 # <a name="troubleshoot-siem-tool-integration-issues"></a>Problemen met de integratie van SIEM-hulpprogramma's oplossen
 
@@ -29,7 +29,7 @@ ms.locfileid: "51185777"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 

@@ -1,6 +1,6 @@
 ---
-title: Nieuwe functies in Microsoft Defender voor Eindpunt voor Mac
-description: Meer informatie over de belangrijkste wijzigingen voor eerdere versies van Microsoft Defender voor Eindpunt voor Mac.
+title: Nieuwe functies in Microsoft Defender voor Eindpunt op Mac
+description: Meer informatie over de belangrijkste wijzigingen voor eerdere versies van Microsoft Defender voor Eindpunt op Mac.
 keywords: microsoft, defender, atp, mac, installatie, macos, whatsnew
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5cd1f64d006b5462634dd47df9083e1a89db0e8c
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 67bbc987dc339c0e1f0354e07d6d2db8c39ec8b9
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615210"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689039"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Nieuwe functies in Microsoft Defender voor Eindpunt voor Mac
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Nieuwe functies in Microsoft Defender voor Eindpunt op Mac
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "51615210"
 
 ## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
 
-- Microsoft Defender voor Eindpunt voor Mac is nu beschikbaar in preview voor klanten van de Amerikaanse overheid. Zie Microsoft [Defender for Endpoint voor klanten](gov.md)van de Amerikaanse overheid voor meer informatie.
+- Microsoft Defender voor Eindpunt op macOS is nu beschikbaar in preview voor klanten van de Amerikaanse overheid. Zie Microsoft [Defender for Endpoint voor klanten](gov.md)van de Amerikaanse overheid voor meer informatie.
 - Prestatieverbeteringen (met name voor de situatie waarin de XCode Simulator-app wordt gebruikt) en & correcties
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
@@ -61,7 +61,7 @@ ms.locfileid: "51615210"
 > [!NOTE]
 > De syntaxis van het oude opdrachtregelprogramma is afgeschaft met deze release. Zie Resources voor informatie over de nieuwe [syntaxis.](mac-resources.md#configuring-from-the-command-line)
 
-- Er is een nieuwe opdrachtregelknop toegevoegd om de netwerkextensie uit te schakelen: `mdatp system-extension network-filter disable` . Deze opdracht kan handig zijn om problemen met netwerken op te lossen die kunnen worden gerelateerd aan Microsoft Defender voor Eindpunt voor Mac
+- Er is een nieuwe opdrachtregelknop toegevoegd om de netwerkextensie uit te schakelen: `mdatp system-extension network-filter disable` . Deze opdracht kan handig zijn om problemen met netwerken op te lossen die kunnen worden gerelateerd aan Microsoft Defender voor Eindpunt op Mac
 - Prestatieverbeteringen & oplossingen voor fouten
 
 ## <a name="1011921-20120101119210"></a>101.19.21 (20.120101.11921.0)
@@ -94,7 +94,7 @@ ms.locfileid: "51615210"
 
 - Deze productversie is gevalideerd op macOS Big Sur 11 beta 9
 
-- De nieuwe syntaxis voor het `mdatp` opdrachtregelhulpmiddel is nu de standaard syntaxis. Zie Resources voor Microsoft Defender voor Eindpunt voor Mac voor meer informatie over de nieuwe [syntaxis](mac-resources.md#configuring-from-the-command-line)
+- De nieuwe syntaxis voor het `mdatp` opdrachtregelhulpmiddel is nu de standaard syntaxis. Zie Resources [for Microsoft Defender for Endpoint on macOS](mac-resources.md#configuring-from-the-command-line) (Bronnen voor Microsoft Defender voor eindpunt op macOS) voor meer informatie over de nieuwe syntaxis.
 
   > [!NOTE]
   > De syntaxis van het oude opdrachtregelprogramma wordt op 1 januari **2021** uit het product verwijderd.
@@ -159,7 +159,7 @@ ms.locfileid: "51615210"
 
 ## <a name="1009027"></a>100.90.27
 
-- U kunt nu [een updatekanaal voor](mac-updates.md#set-the-channel-name) Microsoft Defender voor Eindpunt voor Mac instellen dat verschilt van het updatekanaal voor het hele systeem
+- U kunt nu [een updatekanaal voor](mac-updates.md#set-the-channel-name) Microsoft Defender voor Eindpunt instellen voor macOS dat verschilt van het systeembrede updatekanaal
 - Pictogram Nieuw product
 - Andere verbeteringen in de gebruikerservaring
 - Bug fixes
@@ -196,7 +196,7 @@ ms.locfileid: "51615210"
 
 ## <a name="1007942"></a>100.79.42
 
-- Er is een probleem opgelost waarbij Microsoft Defender voor Eindpunt voor Mac soms tijdmachine verstoort
+- Er is een probleem opgelost waarbij Microsoft Defender voor Eindpunt op Mac soms tijdmachine verstoort
 - Een nieuwe schakelknop toegevoegd aan het hulpprogramma voor de opdrachtregel voor het testen van de connectiviteit met de backend-service
   ```bash
   mdatp connectivity test

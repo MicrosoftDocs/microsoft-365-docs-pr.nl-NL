@@ -1,7 +1,7 @@
 ---
 title: Beveiligingslekken herstellen met bedreigings- en kwetsbaarheidsbeheer
 description: Herstel beveiligingszwaktes die zijn ontdekt door beveiligingsaanbevelingen en maak zo nodig uitzonderingen in bedreigings- en kwetsbaarheidsbeheer.
-keywords: microsoft defender atp tvm remediation, mdatp tvm, threat and vulnerability management, threat & vulnerability management, threat & vulnerability management remediation, tvm remediation intune, tvm remediation sccm
+keywords: Microsoft Defender voor herstel van endpoint-tvm, mdatp-tvm, bedreigings- en kwetsbaarheidsbeheer, bedreiging & kwetsbaarheidsbeheer, herstel van bedreiging & kwetsbaarheidsbeheer, tvm-herstel intune, tvm-herstel sccm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4ffa89fd7162ac90e0cbbb029b1adbefa2ffd520
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: be24528c2337c5d2616eb1bf69906f60ae7b4375
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499995"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689363"
 ---
 # <a name="remediate-vulnerabilities-with-threat-and-vulnerability-management"></a>Beveiligingslekken herstellen met bedreigings- en kwetsbaarheidsbeheer
 

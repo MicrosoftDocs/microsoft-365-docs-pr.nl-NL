@@ -1,7 +1,7 @@
 ---
-title: Nieuwe functies in Microsoft Defender ATP
-description: Bekijk welke functies over het algemeen beschikbaar zijn (GA) in de nieuwste versie van Microsoft Defender ATP, evenals beveiligingsfuncties in Windows 10 en Windows Server.
-keywords: wat is er nieuw in microsoft defender atp, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
+title: Wat is er nieuw in Microsoft Defender voor Eindpunt
+description: Bekijk welke functies algemeen beschikbaar zijn (GA) in de nieuwste versie van Microsoft Defender voor Eindpunt, evenals beveiligingsfuncties in Windows 10 en Windows Server.
+keywords: wat is er nieuw in Microsoft Defender voor eindpunt, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a72b742d8f4a69d2e38cf4fa234ba5b7e2961ac6
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c9f4c0689739224b00c9c14db1482d54faab3512
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587609"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688235"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Wat is er nieuw in Microsoft Defender voor Eindpunt
 
@@ -52,22 +52,22 @@ Zie Preview-functies voor meer informatie over [preview-functies.](https://docs.
 - [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning toe voor Windows Virtual Desktop.
 
 ## <a name="december-2020"></a>December 2020
-- [Microsoft Defender voor Eindpunt voor iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor iOS toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt voor iOS.
+- [Microsoft Defender voor Eindpunt in iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor iOS toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt in iOS.
 
 ## <a name="september-2020"></a>September 2020
-- [Microsoft Defender voor Eindpunt voor Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Android toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt voor Android.
+- [Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Android toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt op Android.
 - [Ondersteuning voor bedreigings- en kwetsbaarheidsbeheer macOS](tvm-supported-os.md)<br> Bedreigings- en kwetsbaarheidsbeheer voor macOS is nu beschikbaar in een openbare preview en detecteert voortdurend beveiligingslekken op uw macOS-apparaten om u te helpen bij het bepalen van de prioriteit van herstel door u te richten op risico's. Meer informatie in dit [blogbericht van de Microsoft Tech Community.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint-adds-depth-and-breadth-to-threat/ba-p/1695824)
 
 
 ## <a name="august-2020"></a>Augustus 2020
-- [Microsoft Defender voor Eindpunt voor Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Android toe. Meer informatie over het installeren, configureren en gebruiken van Microsoft Defender voor Eindpunt voor Android.
+- [Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Android toe. Meer informatie over het installeren, configureren en gebruiken van Microsoft Defender voor Eindpunt op Android.
 
 
 ## <a name="july-2020"></a>Juli 2020
 - [Indicatoren voor certificaten maken](manage-indicators.md) <br> Indicatoren maken om certificaten toe te staan of te blokkeren. 
 
 ## <a name="june-2020"></a>Juni 2020
-- [Microsoft Defender voor Eindpunt voor Linux](microsoft-defender-endpoint-linux.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Linux toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt voor Linux.
+- [Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Linux toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt op Linux.
 
 - [Aanvalssimulatoren in het evaluatielaboratorium](evaluation-lab.md#threat-simulator-scenarios) <br> Microsoft Defender for Endpoint werkt samen met verschillende platformen voor bedreigingssimulatie om u gemakkelijk toegang te geven om de mogelijkheden van het platform te testen vanuit de portal.
 
@@ -78,7 +78,7 @@ Zie Preview-functies voor meer informatie over [preview-functies.](https://docs.
 
 ## <a name="november-december-2019"></a>November-December 2019
 
-- [Microsoft Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md) <BR> Microsoft Defender voor Eindpunt voor Mac biedt de volgende generatie beveiliging voor Mac-apparaten. Kernonderdelen van het geïntegreerde eindpuntbeveiligingsplatform zijn nu beschikbaar voor Mac-apparaten, waaronder [eindpuntdetectie en -antwoord.](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender voor Eindpunt op macOS](microsoft-defender-endpoint-mac.md) <BR> Microsoft Defender voor Eindpunt op macOS biedt de volgende generatie beveiliging voor Mac-apparaten. Kernonderdelen van het geïntegreerde eindpuntbeveiligingsplatform zijn nu beschikbaar voor Mac-apparaten, waaronder [eindpuntdetectie en -antwoord.](microsoft-defender-endpoint-mac.md)
  
 - [Threat & Vulnerability Management application and application version end-of-life information](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation) <BR>Toepassingen en toepassingsversies die het einde van de levensduur hebben bereikt, worden als zodanig gelabeld of gelabeld, zodat u zich ervan bewust bent dat ze niet meer worden ondersteund en actie kunnen ondernemen om ze te verwijderen of te vervangen. Als u dit doet, worden de risico's van verschillende blootstellingen aan beveiligingsrisico's als gevolg van niet-verzonden toepassingen beperkt.
 

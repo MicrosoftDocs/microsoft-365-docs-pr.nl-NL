@@ -18,20 +18,20 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e489d5bece292065ad2e82a7eb9011747733b4f6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5981cb75b4c835390e27d902b5950e3c68305200
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059114"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687452"
 ---
-# <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-for-linux"></a>Problemen met ontbrekende gebeurtenissen oplossen of problemen met waarschuwingen voor Microsoft Defender voor Eindpunt voor Linux oplossen
+# <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Problemen met ontbrekende gebeurtenissen of waarschuwingen oplossen voor Microsoft Defender voor Eindpunt op Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Eindpunt voor Linux](microsoft-defender-endpoint-linux.md)
+- [Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md)
 
 In dit artikel vindt u enkele algemene stappen om ontbrekende gebeurtenissen of waarschuwingen in de portal van het [beveiligingscentrum te](https://securitycenter.windows.com/) beperken.
 

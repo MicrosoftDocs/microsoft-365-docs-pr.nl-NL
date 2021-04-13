@@ -1,5 +1,5 @@
 ---
-title: Rapport bedreigingsbeveiliging in MICROSOFT Defender ATP
+title: Rapport bedreigingsbeveiliging in Microsoft Defender voor Eindpunt
 description: Waarschuwingsdetecties, categorieën en ernst bijhouden met behulp van het rapport bedreigingsbeveiliging
 keywords: waarschuwingsdetectie, bron, waarschuwing per categorie, ernst van waarschuwing, waarschuwingsclassificatie, bepaling
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4ecd2df31e1e03da5134d3d4180dcba75d3cee26
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d32ab04f4acda60f65316719a4607c6c9bbd6447
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183835"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688979"
 ---
 # <a name="threat-protection-report-in-microsoft-defender-for-endpoint"></a>Rapport bedreigingsbeveiliging in Microsoft Defender voor Eindpunt
 
@@ -29,7 +29,7 @@ ms.locfileid: "51183835"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -41,7 +41,7 @@ Het dashboard is gestructureerd in twee secties:
 
 ![Afbeelding van het rapport bedreigingsbeveiliging](images/threat-protection-reports.png)
 
-Sectie | Beschrijving 
+Sectie | Omschrijving 
 :---|:---
 1 | Trends in waarschuwingen
 2 | Overzicht van waarschuwingen

@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c292c57c179a832728b03a7fc94fb7085d3ea0ec
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 71f230f557792d75659dc4dbfc5911811514d5ea
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166075"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687875"
 ---
-# <a name="onboard-non-windows-devices"></a>Onboard niet-Windows-apparaten
+# <a name="onboard-non-windows-devices"></a>Onboarden niet-Windows-apparaten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **Platforms**
@@ -41,23 +41,20 @@ ms.locfileid: "51166075"
 Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows-platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in het Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen. 
 
 U moet de exacte Linux-distributies en macOS-versies kennen die compatibel zijn met Defender voor Eindpunt om de integratie te laten werken. Zie voor meer informatie:
-- [Systeemvereisten voor Microsoft Defender voor Eindpunt voor Linux](microsoft-defender-endpoint-linux.md#system-requirements)  
-- [Systeemvereisten voor Microsoft Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md#system-requirements).
+- [Microsoft Defender for Endpoint on Linux system requirements](microsoft-defender-endpoint-linux.md#system-requirements)  
+- [Microsoft Defender voor Eindpunt voor systeemvereisten voor macOS](microsoft-defender-endpoint-mac.md#system-requirements).
 
 ## <a name="onboarding-non-windows-devices"></a>Onboarding niet-Windows-apparaten
 U moet de volgende stappen ondernemen om niet-Windows-apparaten aan te sluiten:
 1. Selecteer uw voorkeursmethode voor onboarding:
 
-   - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender ATP of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt voor Mac voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac)
+   - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender ATP of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt voor Mac voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
+
    - Voor andere niet-Windows-apparaten kiest u **Onboard non-Windows-apparaten via integratie van derden.**   
-       
-     1. Selecteer in het navigatiedeelvenster **Interoperabiliteitspartners.**  >   Zorg ervoor dat de oplossing van derden wordt vermeld.
-
-        2. Selecteer op **het tabblad Partnertoepassingen** de partner die uw niet-Windows-apparaten ondersteunt.
-
-        3. Selecteer **Partnerpagina openen om** de pagina van de partner te openen. Volg de instructies op de pagina.
-
-        4. Nadat u een account hebt gemaakt of een abonnement hebt genomen op de partneroplossing, moet u naar een fase gaan waarin een globale tenantbeheerder in uw organisatie wordt gevraagd een machtigingsaanvraag van de partnertoepassing te accepteren. Lees de machtigingsaanvraag zorgvuldig door om ervoor te zorgen dat het is uitgelijnd met de service die u nodig hebt. 
+    1. Selecteer in het navigatiedeelvenster **Interoperabiliteitspartners.**  >   Zorg ervoor dat de oplossing van derden wordt vermeld.
+    2. Selecteer op **het tabblad Partnertoepassingen** de partner die uw niet-Windows-apparaten ondersteunt.
+    3. Selecteer **Partnerpagina openen om** de pagina van de partner te openen. Volg de instructies op de pagina.
+    4. Nadat u een account hebt gemaakt of een abonnement hebt genomen op de partneroplossing, moet u naar een fase gaan waarin een globale tenantbeheerder in uw organisatie wordt gevraagd een machtigingsaanvraag van de partnertoepassing te accepteren. Lees de machtigingsaanvraag zorgvuldig door om ervoor te zorgen dat het is uitgelijnd met de service die u nodig hebt. 
 
         
 2. Voer een detectietest uit door de instructies van de oplossing van derden te volgen.
@@ -74,7 +71,7 @@ U moet de volgende stappen ondernemen om niet-Windows-apparaten aan te sluiten:
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Onboard Windows 10-apparaten](configure-endpoints.md)
+- [Onboarden Windows 10-apparaten](configure-endpoints.md)
 - [Onboard-servers](configure-server-endpoints.md)
-- [Instellingen voor proxy- en internetverbinding configureren](configure-proxy-internet.md)
+- [Proxy- en internetconnectiviteitsinstellingen configureren](configure-proxy-internet.md)
 - [Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen](troubleshoot-onboarding.md)

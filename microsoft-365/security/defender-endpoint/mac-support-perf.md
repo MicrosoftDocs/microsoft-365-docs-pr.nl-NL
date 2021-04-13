@@ -1,6 +1,6 @@
 ---
-title: Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt voor Mac
-description: Problemen met de prestaties oplossen in Microsoft Defender voor Eindpunt voor Mac.
+title: Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt in macOS
+description: Problemen met de prestaties oplossen in Microsoft Defender voor Eindpunt in macOS.
 keywords: microsoft, defender, atp, mac, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,39 +18,39 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6ff93b44627cf876384522f0c4f25d22347c8661
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 18bde560543fd1344a64cf1edd64f02f12831c25
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476253"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689099"
 ---
-# <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt voor Mac
+# <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt in macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender voor Eindpunt op macOS](microsoft-defender-endpoint-mac.md)
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Dit onderwerp bevat enkele algemene stappen die kunnen worden gebruikt om prestatieproblemen met betrekking tot Microsoft Defender voor Eindpunt voor Mac te beperken.
+Dit onderwerp bevat enkele algemene stappen die kunnen worden gebruikt om prestatieproblemen met betrekking tot Microsoft Defender voor Eindpunt op macOS te beperken.
 
-Realtimebeveiliging (RTP) is een functie van Microsoft Defender voor Endpoint voor Mac waarmee uw apparaat continu wordt bewaakt en beschermd tegen bedreigingen. Het bestaat uit bestands- en procescontrole en andere heuristieken.
+Realtimebeveiliging (RTP) is een functie van Microsoft Defender voor Eindpunt op macOS die uw apparaat continu bewaakt en beschermt tegen bedreigingen. Het bestaat uit bestands- en procescontrole en andere heuristieken.
 
-Afhankelijk van de toepassingen die u gebruikt en de kenmerken van uw apparaat, kunt u suboptimale prestaties ervaren bij het uitvoeren van Microsoft Defender voor Eindpunt voor Mac. Met name toepassingen of systeemprocessen die over een korte periode toegang hebben tot veel resources, kunnen leiden tot prestatieproblemen in Microsoft Defender voor Eindpunt voor Mac.
+Afhankelijk van de toepassingen die u gebruikt en de kenmerken van uw apparaat, kunt u suboptimale prestaties ervaren bij het uitvoeren van Microsoft Defender voor Eindpunt op macOS. Met name toepassingen of systeemprocessen die over een korte periode toegang hebben tot veel resources, kunnen leiden tot prestatieproblemen in Microsoft Defender voor Eindpunt op macOS.
 
 De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te beperken:
 
-1. Schakel realtimebeveiliging uit met behulp van een van de volgende methoden en kijk of de prestaties verbeteren. Met deze methode kunt u bepalen of Microsoft Defender voor Eindpunt voor Mac bijdraagt aan de prestatieproblemen.
+1. Schakel realtimebeveiliging uit met behulp van een van de volgende methoden en kijk of de prestaties verbeteren. Met deze methode kunt u beperken of Microsoft Defender voor Eindpunt voor macOS bijdraagt aan de prestatieproblemen.
 
       Als uw apparaat niet wordt beheerd door uw organisatie, kan realtimebeveiliging worden uitgeschakeld met behulp van een van de volgende opties:
 
-    - Vanuit de gebruikersinterface. Open Microsoft Defender voor Eindpunt voor Mac en ga naar **Instellingen beheren.**
+    - Vanuit de gebruikersinterface. Open Microsoft Defender voor Eindpunt in macOS en ga naar **Instellingen beheren.**
 
       ![Schermopname van realtimebeveiliging beheren](images/mdatp-36-rtp.png)
 
@@ -60,7 +60,7 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
       mdatp config real-time-protection --value disabled
       ```
 
-      Als uw apparaat wordt beheerd door uw organisatie, kan realtimebeveiliging worden uitgeschakeld door uw beheerder met behulp van de instructies in Voorkeuren instellen voor [Microsoft Defender voor Eindpunt voor Mac.](mac-preferences.md)
+      Als uw apparaat wordt beheerd door uw organisatie, kan realtimebeveiliging door uw beheerder worden uitgeschakeld met behulp van de instructies in Voorkeuren instellen voor [Microsoft Defender voor Eindpunt op macOS.](mac-preferences.md)
       
       Als het prestatieprobleem zich blijft voordoen terwijl de realtimebeveiliging is uitgeschakeld, kan de oorzaak van het probleem het eindpuntdetectie- en antwoordonderdeel zijn. Neem in dit geval contact op met de klantondersteuning voor meer instructies en risicobeperking.
 
@@ -154,6 +154,6 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
       > [!NOTE]
       > De toepassing slaat statistieken op in het geheugen en houdt alleen de bestandsactiviteit bij sinds de toepassing is gestart en realtime beveiliging is ingeschakeld. Processen die zijn gestart vóór of tijdens perioden waarin realtimebeveiliging was uitgeschakeld, worden niet meegetelde. Bovendien worden alleen gebeurtenissen geteld die scans hebben geactiveerd.
       > 
-1. Configureer Microsoft Defender voor Eindpunt voor Mac met uitsluitingen voor de processen of schijflocaties die bijdragen aan de prestatieproblemen en realtime beveiliging opnieuw inschakelen.
+1. Configureer Microsoft Defender voor Eindpunt op macOS met uitsluitingen voor de processen of schijflocaties die bijdragen aan de prestatieproblemen en realtime beveiliging opnieuw inschakelen.
 
-     Zie [Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt voor Mac](mac-exclusions.md) voor meer informatie.
+     Zie [Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op macOS](mac-exclusions.md) voor meer informatie.

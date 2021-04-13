@@ -1,6 +1,6 @@
 ---
-title: Handmatige implementatie voor Microsoft Defender voor Eindpunt voor macOS
-description: Installeer Microsoft Defender voor Eindpunt voor macOS handmatig vanaf de opdrachtregel.
+title: Handmatige implementatie voor Microsoft Defender voor Eindpunt op macOS
+description: Installeer Microsoft Defender voor Eindpunt handmatig op macOS vanaf de opdrachtregel.
 keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a9e75441a8c4a336e8c657d27330c118fcac4788
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 0e8faf95df6691828558175412a1de8aa844d93f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476303"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688595"
 ---
-# <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Handmatige implementatie voor Microsoft Defender voor Eindpunt voor macOS
+# <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Handmatige implementatie voor Microsoft Defender voor Eindpunt op macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51476303"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt voor macOS handmatig implementeert. Voor een geslaagde implementatie moet u alle volgende stappen voltooien:
+In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt handmatig in macOS implementeert. Voor een geslaagde implementatie moet u alle volgende stappen voltooien:
 - [Installatie- en onboarding-pakketten downloaden](#download-installation-and-onboarding-packages)
 - [Toepassingsinstallatie (macOS 10.15 en oudere versies)](#application-installation-macos-1015-and-older-versions)
 - [Toepassingsinstallatie (macOS 11 en nieuwere versies)](#application-installation-macos-11-and-newer-versions)
@@ -43,7 +43,7 @@ In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt voor ma
 
 ## <a name="prerequisites-and-system-requirements"></a>Vereisten en systeemvereisten
 
-Voordat u aan de slag gaat, bekijkt u de hoofdpagina van Microsoft Defender voor Eindpunt voor [macOS](microsoft-defender-endpoint-mac.md) voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
+Voordat u aan de slag gaat, bekijkt u de hoofdpagina van Microsoft Defender voor Eindpunt op [macOS](microsoft-defender-endpoint-mac.md) voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
 
 ## <a name="download-installation-and-onboarding-packages"></a>Installatie- en onboarding-pakketten downloaden
 
@@ -105,9 +105,9 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
 
     ![Beveiligingsvoorkeuren voor systeemextensie1](images/big-sur-install-3.png)
 
-5. Herhaal stap 3 & 4 voor alle systeemextensies die zijn gedistribueerd met Microsoft Defender voor Eindpunt voor Mac.
+5. Herhaal stap 3 & 4 voor alle systeemextensies die zijn gedistribueerd met Microsoft Defender voor Eindpunt op Mac.
 
-6. Als onderdeel van de mogelijkheden voor endpointdetectie en -reactie controleert Microsoft Defender voor Endpoint voor Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Wanneer u wordt gevraagd Microsoft Defender te verlenen voor eindpuntmachtigingen voor het filteren van netwerkverkeer, selecteert u **Toestaan.**
+6. Als onderdeel van de mogelijkheden voor het detecteren en beantwoorden van eindpunten controleert Microsoft Defender voor Eindpunt op Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Wanneer u wordt gevraagd Microsoft Defender te verlenen voor eindpuntmachtigingen voor het filteren van netwerkverkeer, selecteert u **Toestaan.**
 
     ![Beveiligingsvoorkeuren voor systeemextensie2](images/big-sur-install-4.png)
 
@@ -117,7 +117,7 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
 
 ## <a name="client-configuration"></a>Clientconfiguratie
 
-1. Kopieer wdav.pkg en MicrosoftDefenderATPOnboardingMacOs.py naar het apparaat waar u Microsoft Defender voor Eindpunt voor macOS implementeert.
+1. Kopieer wdav.pkg en MicrosoftDefenderATPOnboardingMacOs.py naar het apparaat waar u Microsoft Defender voor Eindpunt implementeert in macOS.
 
     Het clientapparaat is niet gekoppeld aan org_id. Het *kenmerk* org_id is leeg.
 

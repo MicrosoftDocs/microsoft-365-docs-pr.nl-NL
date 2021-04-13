@@ -1,6 +1,6 @@
 ---
 title: Apparaatbesturingselement voor macOS
-description: Meer informatie over het configureren van Microsoft Defender voor Eindpunt voor Mac om bedreigingen van verwisselbare opslag, zoals USB-apparaten, te beperken.
+description: Meer informatie over het configureren van Microsoft Defender voor Eindpunt op Mac om bedreigingen van verwisselbare opslag, zoals USB-apparaten, te beperken.
 keywords: microsoft, defender, atp, mac, apparaat, besturingselement, usb, verwisselbaar, media
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 098eb30764870e69c5b1b6c2cec3cf8e5cb11691
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 696bc45f7bb66313cc9353e252d76c2e9fd73259
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186567"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688679"
 ---
 # <a name="device-control-for-macos"></a>Apparaatbesturingselement voor macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -52,7 +52,7 @@ Apparaatbesturingselement voor macOS heeft de volgende vereisten:
 >   ```bash
 >   mdatp health --field real_time_protection_subsystem 
 >   ```
-> - Uw apparaat moet zich in `Beta` het updatekanaal van `InsiderFast` Microsoft AutoUpdate (voorheen ) hebben. Zie Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac voor meer [informatie.](mac-updates.md)
+> - Uw apparaat moet zich in `Beta` het updatekanaal van `InsiderFast` Microsoft AutoUpdate (voorheen ) hebben. Zie Updates implementeren [voor Microsoft Defender voor Eindpunt op Mac voor meer informatie.](mac-updates.md)
 > 
 >   U kunt het updatekanaal controleren met de volgende opdracht: 
 > 
@@ -66,7 +66,7 @@ Apparaatbesturingselement voor macOS heeft de volgende vereisten:
 >    defaults write com.microsoft.autoupdate2 ChannelName -string Beta
 >    ```
 >
->    Als u zich in een beheerde omgeving (JAMF of Intune) hebt, kunt u het updatekanaal ook op afstand configureren. Zie Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac voor meer [informatie.](mac-updates.md) 
+>    Als u zich in een beheerde omgeving (JAMF of Intune) hebt, kunt u het updatekanaal ook op afstand configureren. Zie Updates implementeren [voor Microsoft Defender voor Eindpunt op Mac voor meer informatie.](mac-updates.md) 
 
 ## <a name="device-control-policy"></a>Apparaatbeheerbeleid
 
@@ -76,7 +76,7 @@ Het apparaatbeheerbeleid is opgenomen in het configuratieprofiel dat wordt gebru
 
 In het configuratieprofiel wordt het beleid voor apparaatbesturingselementen gedefinieerd in de volgende sectie:
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | deviceControl |
@@ -96,7 +96,7 @@ Wanneer het beleid voor apparaatbesturingselement dat u hebt toegepast, wordt af
 
 Wanneer eindgebruikers op deze melding klikken, wordt er een webpagina geopend in de standaardbrowser. U kunt de URL configureren die wordt geopend wanneer eindgebruikers op de melding klikken.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | navigatieTarget |
@@ -110,7 +110,7 @@ De sectie verwisselbare media van het apparaatbesturingselementbeleid wordt gebr
 > [!NOTE]
 > De volgende typen verwisselbare media worden momenteel ondersteund en kunnen worden opgenomen in het beleid: USB-opslagapparaten.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | verwisselbaarMediaPolicy |
@@ -143,7 +143,7 @@ Onder de sectie verwisselbare media is er een optie om het afdwingingsniveau in 
 - `audit` - Als de toegang tot een apparaat is beperkt, wordt onder dit handhavingsniveau een melding weergegeven voor de gebruiker, maar het apparaat kan nog steeds worden gebruikt. Dit handhavingsniveau kan handig zijn om de effectiviteit van een beleid te evalueren.
 - `block` - Onder dit handhavingsniveau zijn de bewerkingen die de gebruiker op het apparaat kan uitvoeren, beperkt tot wat is gedefinieerd in het beleid. Bovendien wordt er een melding naar de gebruiker getrokken. 
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | enforcementLevel |
@@ -168,7 +168,7 @@ Deze instelling kan worden ingesteld op:
 > [!NOTE]
 > De `execute` machtiging verwijst alleen naar de uitvoering van Binaries van Mach-O. Het omvat geen uitvoering van scripts of andere soorten payloads.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | machtiging |
@@ -183,7 +183,7 @@ Op het hoogste niveau van het verwisselbare mediabeleid kunt u desgewenst meer g
 
 De `vendors` woordenlijst bevat een of meer vermeldingen, met elk item dat wordt geïdentificeerd door de leverancier-id.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | leveranciers |
@@ -191,7 +191,7 @@ De `vendors` woordenlijst bevat een of meer vermeldingen, met elk item dat wordt
 
 Voor elke leverancier kunt u het gewenste machtigingsniveau opgeven voor apparaten van die leverancier.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | machtiging |
@@ -200,7 +200,7 @@ Voor elke leverancier kunt u het gewenste machtigingsniveau opgeven voor apparat
 
 Bovendien kunt u desgewenst de set producten opgeven die behoren tot die leverancier waarvoor gedetailleerdere machtigingen zijn gedefinieerd. De `products` woordenlijst bevat een of meer vermeldingen, met elk item dat wordt geïdentificeerd door de product-id. 
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | producten |
@@ -208,7 +208,7 @@ Bovendien kunt u desgewenst de set producten opgeven die behoren tot die leveran
 
 Voor elk product kunt u het gewenste machtigingsniveau voor dat product opgeven.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | machtiging |
@@ -219,7 +219,7 @@ Bovendien kunt u een optionele set seriële getallen opgeven waarvoor gedetaille
 
 De `serialNumbers` woordenlijst bevat een of meer vermeldingen, met elk item dat wordt geïdentificeerd door het serienummer.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | seriëlegetalen |
@@ -227,7 +227,7 @@ De `serialNumbers` woordenlijst bevat een of meer vermeldingen, met elk item dat
 
 Voor elk serienummer kunt u het gewenste machtigingsniveau opgeven.
 
-|||
+|Sectie|Waarde|
 |:---|:---|
 | **Domein** | `com.microsoft.wdav` |
 | **Sleutel** | machtiging |
@@ -336,7 +336,7 @@ DeviceEvents
 
 ## <a name="device-control-policy-deployment"></a>Apparaatbeheerbeleidsimplementatie
 
-Het apparaatbesturingselementbeleid moet worden opgenomen naast de andere productinstellingen, zoals beschreven in Voorkeuren instellen voor [Microsoft Defender voor Eindpunt voor Mac.](mac-preferences.md)
+Het apparaatbesturingselementbeleid moet worden opgenomen naast de andere productinstellingen, zoals beschreven in Voorkeuren instellen voor Microsoft Defender voor Eindpunt [op macOS.](mac-preferences.md)
 
 Dit profiel kan worden geïmplementeerd met de instructies die worden vermeld in [configuratieprofielimplementatie.](mac-preferences.md#configuration-profile-deployment)
 

@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be01d5908e4c79f642cdbbddd75115f6ebc2c713
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 9b00d81d3d51c343565ec4eb743181baa2750b01
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499589"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687731"
 ---
-# <a name="set-up-the-microsoft-defender-for-endpoint-for-macos-policies-in-jamf-pro"></a>Microsoft Defender voor eindpunt instellen voor macOS-beleid in Jamf Pro
+# <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Microsoft Defender voor Eindpunt instellen voor macOS-beleid in Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -56,9 +56,9 @@ U moet de volgende stappen ondernemen:
 
 9. [Netwerkextensie configureren](#step-9-configure-network-extension)
 
-10. [Scans plannen met Microsoft Defender voor Eindpunt voor Mac](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+10. [Scans plannen met Microsoft Defender voor Eindpunt op macOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
-11. [Microsoft Defender voor eindpunt voor macOS implementeren](#step-11-deploy-microsoft-defender-for-endpoint-for-macos)
+11. [Microsoft Defender voor eindpunt implementeren in macOS](#step-11-deploy-microsoft-defender-for-endpoint-on-macos)
 
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>Stap 1: Het Onboarding-pakket voor Microsoft Defender voor eindpunten kopen
@@ -360,7 +360,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
         - **Distributiemethode:** Automatisch installeren *(standaard)*
         - **Niveau:** Computerniveau *(standaard)*
 
-        ![Afbeelding van configuratie-instellingen mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![Afbeelding van configuratieprofielinstellingen mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
     - **Tabmeldingen,** klik **op Toevoegen** en voer de volgende waarden in:
         - **Bundel-id:**`com.microsoft.wdav.tray`
@@ -681,7 +681,7 @@ U kunt ook [kext.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/mas
 
 ## <a name="step-9-configure-network-extension"></a>Stap 9: Netwerkextensie configureren
 
-Als onderdeel van de mogelijkheden voor endpointdetectie en -reactie controleert Microsoft Defender voor Endpoint voor Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
+Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
 
 Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
@@ -707,7 +707,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
         Houd er rekening mee dat **id,** **socketfilter** en **socketfilter de** exacte waarden vereist zijn, zoals hierboven is aangegeven.
 
-        ![Afbeelding van configuratie-instellingen mdatpmdav](images/netext-create-profile.png)
+        ![Afbeelding van configuratie-instelling mdatpmdav](images/netext-create-profile.png)
 
 3. Selecteer het **tabblad Bereik.**
 
@@ -731,10 +731,10 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
 U kunt ook [netfilter.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) downloaden en uploaden naar JAMF-configuratieprofielen zoals beschreven in Aangepaste configuratieprofielen implementeren met [Jamf Pro| Methode 2: Een configuratieprofiel uploaden naar Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
-## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-for-mac"></a>Stap 10: Scans plannen met Microsoft Defender voor Eindpunt voor Mac
-Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt voor Mac](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp).
+## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>Stap 10: Scans plannen met Microsoft Defender voor Eindpunt op macOS
+Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt op macOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp).
 
-## <a name="step-11-deploy-microsoft-defender-for-endpoint-for-macos"></a>Stap 11: Microsoft Defender implementeren voor eindpunt voor macOS
+## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>Stap 11: Microsoft Defender voor eindpunt implementeren in macOS
 
 1. Ga naar de plaats waar u hebt `wdav.pkg` opgeslagen.
 

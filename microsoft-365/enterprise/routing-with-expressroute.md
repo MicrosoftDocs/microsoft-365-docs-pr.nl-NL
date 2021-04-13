@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: In dit artikel leert u meer over routeringsvereisten, circuits en routeringsdomeinen voor Azure ExpressRoute voor gebruik met Office 365.
-ms.openlocfilehash: 9d3c381cfb6e24c1c87ef3dcfb83a9b93f991b93
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: b455ed7e53b3018babb1abd58919a077fb9d0685
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222405"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687167"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Routeren met ExpressRoute voor Office 365
 
@@ -106,7 +106,7 @@ In deze tabel worden de jokerteken-FQDN's weergegeven die worden aangekondigd vo
 
 Meestal zijn PAC-bestanden bedoeld om netwerkaanvragen rechtstreeks naar het circuit en alle andere netwerkaanvragen naar uw proxy te verzenden. Als u een PAC-bestand als dit configureert, stelt u het PAC-bestand in de volgende volgorde op:
   
-1. Voeg de sub-FQDN's uit kolom twee in de bovenstaande tabel boven aan het PAC-bestand toe, en stuur het verkeer naar uw proxy. We hebben een voorbeeld-PAC-bestand gemaakt dat u kunt gebruiken in ons artikel over het beheren van [Office 365-eindpunten.](./managing-expressroute-for-connectivity.md)
+1. Voeg de sub-FQDN's uit kolom twee in de bovenstaande tabel boven aan het PAC-bestand toe, en stuur het verkeer naar uw proxy. We hebben een voorbeeld-PAC-bestand gemaakt dat u kunt gebruiken in ons artikel over het beheren van [Office 365-eindpunten.](./managing-office-365-endpoints.md)
 
 2. Neem alle FQDN's op die zijn gemarkeerd met ExpressRoute [in](./urls-and-ip-address-ranges.md) dit artikel onder de eerste sectie, en stuur het verkeer rechtstreeks naar uw ExpressRoute-circuit.
 
