@@ -18,37 +18,37 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e489d5bece292065ad2e82a7eb9011747733b4f6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5981cb75b4c835390e27d902b5950e3c68305200
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059114"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687452"
 ---
-# <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-for-linux"></a><span data-ttu-id="ecff1-104">Problemen met ontbrekende gebeurtenissen oplossen of problemen met waarschuwingen voor Microsoft Defender voor Eindpunt voor Linux oplossen</span><span class="sxs-lookup"><span data-stu-id="ecff1-104">Troubleshoot missing events or alerts issues for Microsoft Defender for Endpoint for Linux</span></span>
+# <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a><span data-ttu-id="a70f7-104">Problemen met ontbrekende gebeurtenissen of waarschuwingen oplossen voor Microsoft Defender voor Eindpunt op Linux</span><span class="sxs-lookup"><span data-stu-id="a70f7-104">Troubleshoot missing events or alerts issues for Microsoft Defender for Endpoint on Linux</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="ecff1-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="ecff1-105">**Applies to:**</span></span>
+<span data-ttu-id="a70f7-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="a70f7-105">**Applies to:**</span></span>
 
-- [<span data-ttu-id="ecff1-106">Microsoft Defender voor Eindpunt voor Linux</span><span class="sxs-lookup"><span data-stu-id="ecff1-106">Microsoft Defender for Endpoint for Linux</span></span>](microsoft-defender-endpoint-linux.md)
+- [<span data-ttu-id="a70f7-106">Microsoft Defender voor Eindpunt op Linux</span><span class="sxs-lookup"><span data-stu-id="a70f7-106">Microsoft Defender for Endpoint on Linux</span></span>](microsoft-defender-endpoint-linux.md)
 
-<span data-ttu-id="ecff1-107">In dit artikel vindt u enkele algemene stappen om ontbrekende gebeurtenissen of waarschuwingen in de portal van het [beveiligingscentrum te](https://securitycenter.windows.com/) beperken.</span><span class="sxs-lookup"><span data-stu-id="ecff1-107">This article provides some general steps to mitigate missing events or alerts in the [security center](https://securitycenter.windows.com/) portal.</span></span>
+<span data-ttu-id="a70f7-107">In dit artikel vindt u enkele algemene stappen om ontbrekende gebeurtenissen of waarschuwingen in de portal van het [beveiligingscentrum te](https://securitycenter.windows.com/) beperken.</span><span class="sxs-lookup"><span data-stu-id="a70f7-107">This article provides some general steps to mitigate missing events or alerts in the [security center](https://securitycenter.windows.com/) portal.</span></span>
 
-<span data-ttu-id="ecff1-108">Wanneer **Microsoft Defender voor Eindpunt correct** is geïnstalleerd op een apparaat, wordt er een _apparaatpagina_ gegenereerd in de portal.</span><span class="sxs-lookup"><span data-stu-id="ecff1-108">Once **Microsoft Defender for Endpoint** has been installed properly on a device, a _device page_ will be generated in the portal.</span></span> <span data-ttu-id="ecff1-109">U kunt alle opgenomen gebeurtenissen bekijken op het tabblad Tijdlijn op de apparaatpagina of op de pagina geavanceerd zoeken.</span><span class="sxs-lookup"><span data-stu-id="ecff1-109">You can review all recorded events in the timeline tab in the device page, or in advanced hunting page.</span></span> <span data-ttu-id="ecff1-110">In deze sectie wordt een probleem opgelost met het geval dat sommige of alle verwachte gebeurtenissen ontbreken.</span><span class="sxs-lookup"><span data-stu-id="ecff1-110">This section troubleshoots the case of some or all expected events are missing.</span></span>
-<span data-ttu-id="ecff1-111">Als bijvoorbeeld alle _createdFile-gebeurtenissen_ ontbreken.</span><span class="sxs-lookup"><span data-stu-id="ecff1-111">For instance, if all _CreatedFile_ events are missing.</span></span>
+<span data-ttu-id="a70f7-108">Wanneer **Microsoft Defender voor Eindpunt correct** is geïnstalleerd op een apparaat, wordt er een _apparaatpagina_ gegenereerd in de portal.</span><span class="sxs-lookup"><span data-stu-id="a70f7-108">Once **Microsoft Defender for Endpoint** has been installed properly on a device, a _device page_ will be generated in the portal.</span></span> <span data-ttu-id="a70f7-109">U kunt alle opgenomen gebeurtenissen bekijken op het tabblad Tijdlijn op de apparaatpagina of op de pagina geavanceerd zoeken.</span><span class="sxs-lookup"><span data-stu-id="a70f7-109">You can review all recorded events in the timeline tab in the device page, or in advanced hunting page.</span></span> <span data-ttu-id="a70f7-110">In deze sectie wordt een probleem opgelost met het geval dat sommige of alle verwachte gebeurtenissen ontbreken.</span><span class="sxs-lookup"><span data-stu-id="a70f7-110">This section troubleshoots the case of some or all expected events are missing.</span></span>
+<span data-ttu-id="a70f7-111">Als bijvoorbeeld alle _createdFile-gebeurtenissen_ ontbreken.</span><span class="sxs-lookup"><span data-stu-id="a70f7-111">For instance, if all _CreatedFile_ events are missing.</span></span>
 
-## <a name="missing-network-and-login-events"></a><span data-ttu-id="ecff1-112">Ontbrekende netwerk- en aanmeldingsgebeurtenissen</span><span class="sxs-lookup"><span data-stu-id="ecff1-112">Missing network and login events</span></span>
+## <a name="missing-network-and-login-events"></a><span data-ttu-id="a70f7-112">Ontbrekende netwerk- en aanmeldingsgebeurtenissen</span><span class="sxs-lookup"><span data-stu-id="a70f7-112">Missing network and login events</span></span>
 
-<span data-ttu-id="ecff1-113">Microsoft Defender for Endpoint heeft framework van `audit` linux gebruikt om netwerk- en aanmeldingsactiviteiten bij te houden.</span><span class="sxs-lookup"><span data-stu-id="ecff1-113">Microsoft Defender for Endpoint utilized `audit` framework from linux to track network and login activity.</span></span>
+<span data-ttu-id="a70f7-113">Microsoft Defender for Endpoint heeft framework van `audit` linux gebruikt om netwerk- en aanmeldingsactiviteiten bij te houden.</span><span class="sxs-lookup"><span data-stu-id="a70f7-113">Microsoft Defender for Endpoint utilized `audit` framework from linux to track network and login activity.</span></span>
 
-1. <span data-ttu-id="ecff1-114">Controleer of het auditkader werkt.</span><span class="sxs-lookup"><span data-stu-id="ecff1-114">Make sure audit framework is working.</span></span>
+1. <span data-ttu-id="a70f7-114">Controleer of het auditkader werkt.</span><span class="sxs-lookup"><span data-stu-id="a70f7-114">Make sure audit framework is working.</span></span>
 
     ```bash
     service auditd status
     ```
 
-    <span data-ttu-id="ecff1-115">verwachte uitvoer:</span><span class="sxs-lookup"><span data-stu-id="ecff1-115">expected output:</span></span>
+    <span data-ttu-id="a70f7-115">verwachte uitvoer:</span><span class="sxs-lookup"><span data-stu-id="a70f7-115">expected output:</span></span>
 
     ```output
     ● auditd.service - Security Auditing Service
@@ -67,33 +67,33 @@ ms.locfileid: "51059114"
             └─16671 /opt/microsoft/mdatp/sbin/mdatp_audisp_plugin -d
     ```
 
-2. <span data-ttu-id="ecff1-116">Als `auditd` deze is gemarkeerd als gestopt, start u deze.</span><span class="sxs-lookup"><span data-stu-id="ecff1-116">If `auditd` is marked as stopped, start it.</span></span>
+2. <span data-ttu-id="a70f7-116">Als `auditd` deze is gemarkeerd als gestopt, start u deze.</span><span class="sxs-lookup"><span data-stu-id="a70f7-116">If `auditd` is marked as stopped, start it.</span></span>
 
     ```bash
     service auditd start
     ```
 
-<span data-ttu-id="ecff1-117">**In SLES-systemen** is SYSCALL-auditing in mogelijk standaard uitgeschakeld en kan er rekening worden gehouden `auditd` met ontbrekende gebeurtenissen.</span><span class="sxs-lookup"><span data-stu-id="ecff1-117">**On SLES** systems, SYSCALL auditing in `auditd` might be disabled by default and can be accounted for missing events.</span></span>
+<span data-ttu-id="a70f7-117">**In SLES-systemen** is SYSCALL-auditing in mogelijk standaard uitgeschakeld en kan er rekening worden gehouden `auditd` met ontbrekende gebeurtenissen.</span><span class="sxs-lookup"><span data-stu-id="a70f7-117">**On SLES** systems, SYSCALL auditing in `auditd` might be disabled by default and can be accounted for missing events.</span></span>
 
-1. <span data-ttu-id="ecff1-118">Als u wilt valideren dat SYSCALL-auditing niet is uitgeschakeld, vermeldt u de huidige controleregels:</span><span class="sxs-lookup"><span data-stu-id="ecff1-118">To validate that SYSCALL auditing is not disabled, list the current audit rules:</span></span>
+1. <span data-ttu-id="a70f7-118">Als u wilt valideren dat SYSCALL-auditing niet is uitgeschakeld, vermeldt u de huidige controleregels:</span><span class="sxs-lookup"><span data-stu-id="a70f7-118">To validate that SYSCALL auditing is not disabled, list the current audit rules:</span></span>
 
     ```bash
     sudo auditctl -l
     ```
 
-    <span data-ttu-id="ecff1-119">als de volgende regel aanwezig is, verwijdert u deze of bewerkt u deze om ervoor te zorgen dat Microsoft Defender voor Eindpunt specifieke SYSCALLs kan bijhouden.</span><span class="sxs-lookup"><span data-stu-id="ecff1-119">if the following line is present, remove it or edit it to enable Microsoft Defender for Endpoint to track specific SYSCALLs.</span></span>
+    <span data-ttu-id="a70f7-119">als de volgende regel aanwezig is, verwijdert u deze of bewerkt u deze om ervoor te zorgen dat Microsoft Defender voor Eindpunt specifieke SYSCALLs kan bijhouden.</span><span class="sxs-lookup"><span data-stu-id="a70f7-119">if the following line is present, remove it or edit it to enable Microsoft Defender for Endpoint to track specific SYSCALLs.</span></span>
 
     ```output
     -a task, never
     ```
 
-    <span data-ttu-id="ecff1-120">auditregels bevinden zich op `/etc/audit/rules.d/audit.rules` .</span><span class="sxs-lookup"><span data-stu-id="ecff1-120">audit rules are located at `/etc/audit/rules.d/audit.rules`.</span></span>
+    <span data-ttu-id="a70f7-120">auditregels bevinden zich op `/etc/audit/rules.d/audit.rules` .</span><span class="sxs-lookup"><span data-stu-id="a70f7-120">audit rules are located at `/etc/audit/rules.d/audit.rules`.</span></span>
 
-## <a name="missing-file-events"></a><span data-ttu-id="ecff1-121">Ontbrekende bestandsgebeurtenissen</span><span class="sxs-lookup"><span data-stu-id="ecff1-121">Missing file events</span></span>
+## <a name="missing-file-events"></a><span data-ttu-id="a70f7-121">Ontbrekende bestandsgebeurtenissen</span><span class="sxs-lookup"><span data-stu-id="a70f7-121">Missing file events</span></span>
 
-<span data-ttu-id="ecff1-122">Bestandsgebeurtenissen worden verzameld met `fanotify` framework.</span><span class="sxs-lookup"><span data-stu-id="ecff1-122">File events are collected with `fanotify` framework.</span></span> <span data-ttu-id="ecff1-123">Als sommige of alle bestandsgebeurtenissen ontbreken, moet u ervoor zorgen dat dit is ingeschakeld op het apparaat en of `fanotify` het bestandssysteem wordt [ondersteund.](microsoft-defender-endpoint-linux.md#system-requirements)</span><span class="sxs-lookup"><span data-stu-id="ecff1-123">In case some or all file events are missing, make sure `fanotify` is enabled on the device and that the file system is [supported](microsoft-defender-endpoint-linux.md#system-requirements).</span></span>
+<span data-ttu-id="a70f7-122">Bestandsgebeurtenissen worden verzameld met `fanotify` framework.</span><span class="sxs-lookup"><span data-stu-id="a70f7-122">File events are collected with `fanotify` framework.</span></span> <span data-ttu-id="a70f7-123">Als sommige of alle bestandsgebeurtenissen ontbreken, moet u ervoor zorgen dat dit is ingeschakeld op het apparaat en of `fanotify` het bestandssysteem wordt [ondersteund.](microsoft-defender-endpoint-linux.md#system-requirements)</span><span class="sxs-lookup"><span data-stu-id="a70f7-123">In case some or all file events are missing, make sure `fanotify` is enabled on the device and that the file system is [supported](microsoft-defender-endpoint-linux.md#system-requirements).</span></span>
 
-<span data-ttu-id="ecff1-124">Vermeld de bestandssystemen op de computer met:</span><span class="sxs-lookup"><span data-stu-id="ecff1-124">List the filesystems on the machine with:</span></span>
+<span data-ttu-id="a70f7-124">Vermeld de bestandssystemen op de computer met:</span><span class="sxs-lookup"><span data-stu-id="a70f7-124">List the filesystems on the machine with:</span></span>
 
 ```bash
 df -Th

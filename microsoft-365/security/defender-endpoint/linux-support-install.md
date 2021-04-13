@@ -19,26 +19,26 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4486b8e9d3fb84c272343ca344a47e49663bb80d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 347528def6929dde200249cd9710f7ce33484c7f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187743"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688811"
 ---
-# <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-for-linux"></a><span data-ttu-id="995a3-104">Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt voor Linux</span><span class="sxs-lookup"><span data-stu-id="995a3-104">Troubleshoot installation issues for Microsoft Defender for Endpoint for Linux</span></span>
+# <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a><span data-ttu-id="81b33-104">Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux</span><span class="sxs-lookup"><span data-stu-id="81b33-104">Troubleshoot installation issues for Microsoft Defender for Endpoint on Linux</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="995a3-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="995a3-105">**Applies to:**</span></span>
-- [<span data-ttu-id="995a3-106">Microsoft Defender voor Endpoint</span><span class="sxs-lookup"><span data-stu-id="995a3-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="995a3-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="995a3-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="81b33-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="81b33-105">**Applies to:**</span></span>
+- [<span data-ttu-id="81b33-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="81b33-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="81b33-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="81b33-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="995a3-108">Wilt u Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="995a3-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="995a3-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="995a3-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> <span data-ttu-id="81b33-108">Wilt u Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="81b33-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="81b33-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="81b33-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-## <a name="verify-if-installation-succeeded"></a><span data-ttu-id="995a3-110">Controleren of de installatie is geslaagd</span><span class="sxs-lookup"><span data-stu-id="995a3-110">Verify if installation succeeded</span></span>
+## <a name="verify-if-installation-succeeded"></a><span data-ttu-id="81b33-110">Controleren of de installatie is geslaagd</span><span class="sxs-lookup"><span data-stu-id="81b33-110">Verify if installation succeeded</span></span>
 
-<span data-ttu-id="995a3-111">Een fout in de installatie kan al dan niet leiden tot een duidelijke foutmelding door de package manager.</span><span class="sxs-lookup"><span data-stu-id="995a3-111">An error in installation may or may not result in a meaningful error message by the package manager.</span></span> <span data-ttu-id="995a3-112">Als u wilt controleren of de installatie is gelukt, kunt u de installatielogboeken verkrijgen en controleren met behulp van:</span><span class="sxs-lookup"><span data-stu-id="995a3-112">To verify if the installation succeeded, obtain and check the installation logs using:</span></span>
+<span data-ttu-id="81b33-111">Een fout in de installatie kan al dan niet leiden tot een duidelijke foutmelding door de package manager.</span><span class="sxs-lookup"><span data-stu-id="81b33-111">An error in installation may or may not result in a meaningful error message by the package manager.</span></span> <span data-ttu-id="81b33-112">Als u wilt controleren of de installatie is gelukt, kunt u de installatielogboeken verkrijgen en controleren met behulp van:</span><span class="sxs-lookup"><span data-stu-id="81b33-112">To verify if the installation succeeded, obtain and check the installation logs using:</span></span>
 
  ```bash
  sudo journalctl | grep 'microsoft-mdatp'  > installation.log
@@ -52,27 +52,27 @@ ms.locfileid: "51187743"
  microsoft-mdatp-installer[102243]: postinstall end [2020-03-26 07:04:43OURCE +0000] 102216
  ```
 
-<span data-ttu-id="995a3-113">Een uitvoer van de vorige opdracht met de juiste datum en tijd van de installatie duidt op succes.</span><span class="sxs-lookup"><span data-stu-id="995a3-113">An output from the previous command with correct date and time of installation indicates success.</span></span>
+<span data-ttu-id="81b33-113">Een uitvoer van de vorige opdracht met de juiste datum en tijd van de installatie duidt op succes.</span><span class="sxs-lookup"><span data-stu-id="81b33-113">An output from the previous command with correct date and time of installation indicates success.</span></span>
 
-<span data-ttu-id="995a3-114">Controleer ook de [clientconfiguratie om](linux-install-manually.md#client-configuration) de status van het product te controleren en het TEKSTBESTAND VAN EICAR te detecteren.</span><span class="sxs-lookup"><span data-stu-id="995a3-114">Also check the [Client configuration](linux-install-manually.md#client-configuration) to verify the health of the product and detect the EICAR text file.</span></span>
+<span data-ttu-id="81b33-114">Controleer ook de [clientconfiguratie om](linux-install-manually.md#client-configuration) de status van het product te controleren en het TEKSTBESTAND VAN EICAR te detecteren.</span><span class="sxs-lookup"><span data-stu-id="81b33-114">Also check the [Client configuration](linux-install-manually.md#client-configuration) to verify the health of the product and detect the EICAR text file.</span></span>
 
-## <a name="make-sure-you-have-the-correct-package"></a><span data-ttu-id="995a3-115">Zorg ervoor dat u het juiste pakket hebt</span><span class="sxs-lookup"><span data-stu-id="995a3-115">Make sure you have the correct package</span></span>
+## <a name="make-sure-you-have-the-correct-package"></a><span data-ttu-id="81b33-115">Zorg ervoor dat u het juiste pakket hebt</span><span class="sxs-lookup"><span data-stu-id="81b33-115">Make sure you have the correct package</span></span>
 
-<span data-ttu-id="995a3-116">Houd er rekening mee dat het pakket dat u installeert overeenkomt met de hostdistributie en -versie.</span><span class="sxs-lookup"><span data-stu-id="995a3-116">Please mind that the package you are installing is matching the host distribution and version.</span></span>
+<span data-ttu-id="81b33-116">Houd er rekening mee dat het pakket dat u installeert overeenkomt met de hostdistributie en -versie.</span><span class="sxs-lookup"><span data-stu-id="81b33-116">Please mind that the package you are installing is matching the host distribution and version.</span></span>
 
-| <span data-ttu-id="995a3-117">pakket</span><span class="sxs-lookup"><span data-stu-id="995a3-117">package</span></span>                       | <span data-ttu-id="995a3-118">distributie</span><span class="sxs-lookup"><span data-stu-id="995a3-118">distribution</span></span>                             |
+| <span data-ttu-id="81b33-117">pakket</span><span class="sxs-lookup"><span data-stu-id="81b33-117">package</span></span>                       | <span data-ttu-id="81b33-118">distributie</span><span class="sxs-lookup"><span data-stu-id="81b33-118">distribution</span></span>                             |
 |-------------------------------|------------------------------------------|
-| <span data-ttu-id="995a3-119">mdatp-rhel8. Linux.x86_64.rpm</span><span class="sxs-lookup"><span data-stu-id="995a3-119">mdatp-rhel8.Linux.x86_64.rpm</span></span>  | <span data-ttu-id="995a3-120">Oracle, RHEL en CentOS 8.x</span><span class="sxs-lookup"><span data-stu-id="995a3-120">Oracle, RHEL and CentOS 8.x</span></span>              |
-| <span data-ttu-id="995a3-121">mdatp-sles12. Linux.x86_64.rpm</span><span class="sxs-lookup"><span data-stu-id="995a3-121">mdatp-sles12.Linux.x86_64.rpm</span></span> | <span data-ttu-id="995a3-122">SuSE Linux Enterprise Server 12.x</span><span class="sxs-lookup"><span data-stu-id="995a3-122">SuSE Linux Enterprise Server 12.x</span></span>        |
-| <span data-ttu-id="995a3-123">mdatp-sles15. Linux.x86_64.rpm</span><span class="sxs-lookup"><span data-stu-id="995a3-123">mdatp-sles15.Linux.x86_64.rpm</span></span> | <span data-ttu-id="995a3-124">SuSE Linux Enterprise Server 15.x</span><span class="sxs-lookup"><span data-stu-id="995a3-124">SuSE Linux Enterprise Server 15.x</span></span>        |
-| <span data-ttu-id="995a3-125">mdatp. Linux.x86_64.rpm</span><span class="sxs-lookup"><span data-stu-id="995a3-125">mdatp.Linux.x86_64.rpm</span></span>        | <span data-ttu-id="995a3-126">Oracle, RHEL en CentOS 7.x</span><span class="sxs-lookup"><span data-stu-id="995a3-126">Oracle, RHEL and CentOS 7.x</span></span>              |
-| <span data-ttu-id="995a3-127">mdatp. Linux.x86_64.deb</span><span class="sxs-lookup"><span data-stu-id="995a3-127">mdatp.Linux.x86_64.deb</span></span>        | <span data-ttu-id="995a3-128">Debian en Ubuntu 16.04, 18.04 en 20.04</span><span class="sxs-lookup"><span data-stu-id="995a3-128">Debian and Ubuntu 16.04, 18.04 and 20.04</span></span> |
+| <span data-ttu-id="81b33-119">mdatp-rhel8. Linux.x86_64.rpm</span><span class="sxs-lookup"><span data-stu-id="81b33-119">mdatp-rhel8.Linux.x86_64.rpm</span></span>  | <span data-ttu-id="81b33-120">Oracle, RHEL en CentOS 8.x</span><span class="sxs-lookup"><span data-stu-id="81b33-120">Oracle, RHEL and CentOS 8.x</span></span>              |
+| <span data-ttu-id="81b33-121">mdatp-sles12. Linux.x86_64.rpm</span><span class="sxs-lookup"><span data-stu-id="81b33-121">mdatp-sles12.Linux.x86_64.rpm</span></span> | <span data-ttu-id="81b33-122">SuSE Linux Enterprise Server 12.x</span><span class="sxs-lookup"><span data-stu-id="81b33-122">SuSE Linux Enterprise Server 12.x</span></span>        |
+| <span data-ttu-id="81b33-123">mdatp-sles15. Linux.x86_64.rpm</span><span class="sxs-lookup"><span data-stu-id="81b33-123">mdatp-sles15.Linux.x86_64.rpm</span></span> | <span data-ttu-id="81b33-124">SuSE Linux Enterprise Server 15.x</span><span class="sxs-lookup"><span data-stu-id="81b33-124">SuSE Linux Enterprise Server 15.x</span></span>        |
+| <span data-ttu-id="81b33-125">mdatp. Linux.x86_64.rpm</span><span class="sxs-lookup"><span data-stu-id="81b33-125">mdatp.Linux.x86_64.rpm</span></span>        | <span data-ttu-id="81b33-126">Oracle, RHEL en CentOS 7.x</span><span class="sxs-lookup"><span data-stu-id="81b33-126">Oracle, RHEL and CentOS 7.x</span></span>              |
+| <span data-ttu-id="81b33-127">mdatp. Linux.x86_64.deb</span><span class="sxs-lookup"><span data-stu-id="81b33-127">mdatp.Linux.x86_64.deb</span></span>        | <span data-ttu-id="81b33-128">Debian en Ubuntu 16.04, 18.04 en 20.04</span><span class="sxs-lookup"><span data-stu-id="81b33-128">Debian and Ubuntu 16.04, 18.04 and 20.04</span></span> |
 
-<span data-ttu-id="995a3-129">Voor [handmatige implementatie](linux-install-manually.md)moet u ervoor zorgen dat de juiste distributie en versie zijn gekozen.</span><span class="sxs-lookup"><span data-stu-id="995a3-129">For [manual deployment](linux-install-manually.md), make sure the correct distro and version had been chosen.</span></span>
+<span data-ttu-id="81b33-129">Voor [handmatige implementatie](linux-install-manually.md)moet u ervoor zorgen dat de juiste distributie en versie zijn gekozen.</span><span class="sxs-lookup"><span data-stu-id="81b33-129">For [manual deployment](linux-install-manually.md), make sure the correct distro and version had been chosen.</span></span>
 
-## <a name="installation-failed"></a><span data-ttu-id="995a3-130">Installatie mislukt</span><span class="sxs-lookup"><span data-stu-id="995a3-130">Installation failed</span></span>
+## <a name="installation-failed"></a><span data-ttu-id="81b33-130">Installatie mislukt</span><span class="sxs-lookup"><span data-stu-id="81b33-130">Installation failed</span></span>
 
-<span data-ttu-id="995a3-131">Controleer of de mdatp-service wordt uitgevoerd:</span><span class="sxs-lookup"><span data-stu-id="995a3-131">Check if the mdatp service is running:</span></span>
+<span data-ttu-id="81b33-131">Controleer of de mdatp-service wordt uitgevoerd:</span><span class="sxs-lookup"><span data-stu-id="81b33-131">Check if the mdatp service is running:</span></span>
 
 ```bash
 systemctl status mdatp
@@ -89,21 +89,21 @@ systemctl status mdatp
            └─1968 /opt/microsoft/mdatp/sbin/wdavdaemon
  ```
 
-## <a name="steps-to-troubleshoot-if-mdatp-service-isnt-running"></a><span data-ttu-id="995a3-132">Stappen om problemen op te lossen als de mdatp-service niet wordt uitgevoerd</span><span class="sxs-lookup"><span data-stu-id="995a3-132">Steps to troubleshoot if mdatp service isn't running</span></span>
+## <a name="steps-to-troubleshoot-if-mdatp-service-isnt-running"></a><span data-ttu-id="81b33-132">Stappen om problemen op te lossen als de mdatp-service niet wordt uitgevoerd</span><span class="sxs-lookup"><span data-stu-id="81b33-132">Steps to troubleshoot if mdatp service isn't running</span></span>
 
-1. <span data-ttu-id="995a3-133">Controleer of 'mdatp'-gebruiker bestaat:</span><span class="sxs-lookup"><span data-stu-id="995a3-133">Check if "mdatp" user exists:</span></span>
+1. <span data-ttu-id="81b33-133">Controleer of 'mdatp'-gebruiker bestaat:</span><span class="sxs-lookup"><span data-stu-id="81b33-133">Check if "mdatp" user exists:</span></span>
 
     ```bash
     id "mdatp"
     ```
 
-    <span data-ttu-id="995a3-134">Als er geen uitvoer is, voer dan</span><span class="sxs-lookup"><span data-stu-id="995a3-134">If there’s no output, run</span></span>
+    <span data-ttu-id="81b33-134">Als er geen uitvoer is, voer dan</span><span class="sxs-lookup"><span data-stu-id="81b33-134">If there’s no output, run</span></span>
 
     ```bash
     sudo useradd --system --no-create-home --user-group --shell /usr/sbin/nologin mdatp
     ```
 
-2. <span data-ttu-id="995a3-135">Probeer de service in te stellen en opnieuw te starten met behulp van:</span><span class="sxs-lookup"><span data-stu-id="995a3-135">Try enabling and restarting the service using:</span></span>
+2. <span data-ttu-id="81b33-135">Probeer de service in te stellen en opnieuw te starten met behulp van:</span><span class="sxs-lookup"><span data-stu-id="81b33-135">Try enabling and restarting the service using:</span></span>
 
     ```bash
     sudo systemctl enable mdatp
@@ -113,21 +113,21 @@ systemctl status mdatp
     sudo systemctl restart mdatp
     ```
 
-3. <span data-ttu-id="995a3-136">Als mdatp.service niet wordt gevonden bij het uitvoeren van de vorige opdracht, voer dan het volgende uit:</span><span class="sxs-lookup"><span data-stu-id="995a3-136">If mdatp.service isn't found upon running the previous command, run:</span></span>
+3. <span data-ttu-id="81b33-136">Als mdatp.service niet wordt gevonden bij het uitvoeren van de vorige opdracht, voer dan het volgende uit:</span><span class="sxs-lookup"><span data-stu-id="81b33-136">If mdatp.service isn't found upon running the previous command, run:</span></span>
 
     ```bash
     sudo cp /opt/microsoft/mdatp/conf/mdatp.service <systemd_path>
     ```
 
-    <span data-ttu-id="995a3-137">waar ```<systemd_path>``` is ```/lib/systemd/system``` voor Ubuntu- en Debian-distributies en ```/usr/lib/systemd/system``` voor Rhel, CentOS, Oracle en SLES.</span><span class="sxs-lookup"><span data-stu-id="995a3-137">where ```<systemd_path>``` is ```/lib/systemd/system``` for Ubuntu and Debian distributions and ```/usr/lib/systemd/system``` for Rhel, CentOS, Oracle and SLES.</span></span>
-   <span data-ttu-id="995a3-138">Vervolgens stap 2 opnieuw.</span><span class="sxs-lookup"><span data-stu-id="995a3-138">Then rerun step 2.</span></span>
+    <span data-ttu-id="81b33-137">waar ```<systemd_path>``` is ```/lib/systemd/system``` voor Ubuntu- en Debian-distributies en ```/usr/lib/systemd/system``` voor Rhel, CentOS, Oracle en SLES.</span><span class="sxs-lookup"><span data-stu-id="81b33-137">where ```<systemd_path>``` is ```/lib/systemd/system``` for Ubuntu and Debian distributions and ```/usr/lib/systemd/system``` for Rhel, CentOS, Oracle and SLES.</span></span>
+   <span data-ttu-id="81b33-138">Vervolgens stap 2 opnieuw.</span><span class="sxs-lookup"><span data-stu-id="81b33-138">Then rerun step 2.</span></span>
 
-4. <span data-ttu-id="995a3-139">Als de bovenstaande stappen niet werken, controleert u of SELinux is geïnstalleerd en in de afdwingmodus.</span><span class="sxs-lookup"><span data-stu-id="995a3-139">If the above steps don’t work, check if SELinux is installed and in enforcing mode.</span></span> <span data-ttu-id="995a3-140">Als dat het het beste is, kunt u de modus instellen op een permissieve (bij voorkeur) of uitgeschakelde modus.</span><span class="sxs-lookup"><span data-stu-id="995a3-140">If so, try setting it to permissive (preferably) or disabled mode.</span></span> <span data-ttu-id="995a3-141">U kunt dit doen door de parameter in te stellen op `SELINUX` 'permissief' of 'uitgeschakeld' in het `/etc/selinux/config` bestand, gevolgd door opnieuw opstarten.</span><span class="sxs-lookup"><span data-stu-id="995a3-141">It can be done by setting the parameter `SELINUX` to "permissive" or "disabled" in `/etc/selinux/config` file, followed by reboot.</span></span> <span data-ttu-id="995a3-142">Controleer de man-pagina van selinux voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="995a3-142">Check the man-page of selinux for more details.</span></span>
-<span data-ttu-id="995a3-143">Start nu de mdatp-service opnieuw met stap 2.</span><span class="sxs-lookup"><span data-stu-id="995a3-143">Now try restarting the mdatp service using step 2.</span></span> <span data-ttu-id="995a3-144">U kunt de configuratiewijziging echter direct herstellen om beveiligingsredenen nadat u deze hebt geprobeerd en opnieuw hebt opgestart.</span><span class="sxs-lookup"><span data-stu-id="995a3-144">Revert the configuration change immediately though for security reasons after trying it and reboot.</span></span>
+4. <span data-ttu-id="81b33-139">Als de bovenstaande stappen niet werken, controleert u of SELinux is geïnstalleerd en in de afdwingmodus.</span><span class="sxs-lookup"><span data-stu-id="81b33-139">If the above steps don’t work, check if SELinux is installed and in enforcing mode.</span></span> <span data-ttu-id="81b33-140">Als dat het het beste is, kunt u de modus instellen op een permissieve (bij voorkeur) of uitgeschakelde modus.</span><span class="sxs-lookup"><span data-stu-id="81b33-140">If so, try setting it to permissive (preferably) or disabled mode.</span></span> <span data-ttu-id="81b33-141">U kunt dit doen door de parameter in te stellen op `SELINUX` 'permissief' of 'uitgeschakeld' in het `/etc/selinux/config` bestand, gevolgd door opnieuw opstarten.</span><span class="sxs-lookup"><span data-stu-id="81b33-141">It can be done by setting the parameter `SELINUX` to "permissive" or "disabled" in `/etc/selinux/config` file, followed by reboot.</span></span> <span data-ttu-id="81b33-142">Controleer de man-pagina van selinux voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="81b33-142">Check the man-page of selinux for more details.</span></span>
+<span data-ttu-id="81b33-143">Start nu de mdatp-service opnieuw met stap 2.</span><span class="sxs-lookup"><span data-stu-id="81b33-143">Now try restarting the mdatp service using step 2.</span></span> <span data-ttu-id="81b33-144">U kunt de configuratiewijziging echter direct herstellen om beveiligingsredenen nadat u deze hebt geprobeerd en opnieuw hebt opgestart.</span><span class="sxs-lookup"><span data-stu-id="81b33-144">Revert the configuration change immediately though for security reasons after trying it and reboot.</span></span>
 
-5. <span data-ttu-id="995a3-145">Als `/opt` adreslijst een symbolische koppeling is, maakt u een koppelingskoppeling voor `/opt/microsoft` .</span><span class="sxs-lookup"><span data-stu-id="995a3-145">If `/opt` directory is a symbolic link, create a bind mount for `/opt/microsoft`.</span></span>
+5. <span data-ttu-id="81b33-145">Als `/opt` adreslijst een symbolische koppeling is, maakt u een koppelingskoppeling voor `/opt/microsoft` .</span><span class="sxs-lookup"><span data-stu-id="81b33-145">If `/opt` directory is a symbolic link, create a bind mount for `/opt/microsoft`.</span></span>
 
-6. <span data-ttu-id="995a3-146">Controleer of de daemon uitvoerbare machtiging heeft.</span><span class="sxs-lookup"><span data-stu-id="995a3-146">Ensure that the daemon has executable permission.</span></span>
+6. <span data-ttu-id="81b33-146">Controleer of de daemon uitvoerbare machtiging heeft.</span><span class="sxs-lookup"><span data-stu-id="81b33-146">Ensure that the daemon has executable permission.</span></span>
 
     ```bash
     ls -l /opt/microsoft/mdatp/sbin/wdavdaemon
@@ -137,37 +137,37 @@ systemctl status mdatp
     -rwxr-xr-x 2 root root 15502160 Mar  3 04:47 /opt/microsoft/mdatp/sbin/wdavdaemon
     ```
 
-    <span data-ttu-id="995a3-147">Als de daemon geen uitvoerbare machtigingen heeft, kunt u deze uitvoerbaar maken met behulp van:</span><span class="sxs-lookup"><span data-stu-id="995a3-147">If the daemon doesn't have executable permissions, make it executable using:</span></span>
+    <span data-ttu-id="81b33-147">Als de daemon geen uitvoerbare machtigingen heeft, kunt u deze uitvoerbaar maken met behulp van:</span><span class="sxs-lookup"><span data-stu-id="81b33-147">If the daemon doesn't have executable permissions, make it executable using:</span></span>
 
     ```bash
     sudo chmod 0755 /opt/microsoft/mdatp/sbin/wdavdaemon
     ```
 
-    <span data-ttu-id="995a3-148">en u kunt stap 2 opnieuw uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="995a3-148">and retry running step 2.</span></span>
+    <span data-ttu-id="81b33-148">en u kunt stap 2 opnieuw uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="81b33-148">and retry running step 2.</span></span>
 
-7. <span data-ttu-id="995a3-149">Zorg ervoor dat het bestandssysteem met wdavdaemon niet is bevestigd met 'noexec'.</span><span class="sxs-lookup"><span data-stu-id="995a3-149">Ensure that the file system containing wdavdaemon isn't mounted with "noexec".</span></span>
+7. <span data-ttu-id="81b33-149">Zorg ervoor dat het bestandssysteem met wdavdaemon niet is bevestigd met 'noexec'.</span><span class="sxs-lookup"><span data-stu-id="81b33-149">Ensure that the file system containing wdavdaemon isn't mounted with "noexec".</span></span>
 
-## <a name="if-mdatp-service-is-running-but-eicar-text-file-detection-doesnt-work"></a><span data-ttu-id="995a3-150">Als de mdatp-service wordt uitgevoerd, maar de detectie van EICAR-tekstbestand niet werkt</span><span class="sxs-lookup"><span data-stu-id="995a3-150">If mdatp service is running, but EICAR text file detection doesn't work</span></span>
+## <a name="if-mdatp-service-is-running-but-eicar-text-file-detection-doesnt-work"></a><span data-ttu-id="81b33-150">Als de mdatp-service wordt uitgevoerd, maar de detectie van EICAR-tekstbestand niet werkt</span><span class="sxs-lookup"><span data-stu-id="81b33-150">If mdatp service is running, but EICAR text file detection doesn't work</span></span>
 
-1. <span data-ttu-id="995a3-151">Controleer het bestandssysteemtype met behulp van:</span><span class="sxs-lookup"><span data-stu-id="995a3-151">Check the file system type using:</span></span>
+1. <span data-ttu-id="81b33-151">Controleer het bestandssysteemtype met behulp van:</span><span class="sxs-lookup"><span data-stu-id="81b33-151">Check the file system type using:</span></span>
 
     ```bash
     findmnt -T <path_of_EICAR_file>
     ```
 
-    <span data-ttu-id="995a3-152">Momenteel ondersteunde bestandssystemen voor on-access-activiteiten worden hier [weergegeven.](microsoft-defender-endpoint-linux.md#system-requirements)</span><span class="sxs-lookup"><span data-stu-id="995a3-152">Currently supported file systems for on-access activity are listed [here](microsoft-defender-endpoint-linux.md#system-requirements).</span></span> <span data-ttu-id="995a3-153">Bestanden buiten deze bestandssystemen worden niet gescand.</span><span class="sxs-lookup"><span data-stu-id="995a3-153">Any files outside these file systems won't be scanned.</span></span>
+    <span data-ttu-id="81b33-152">Momenteel ondersteunde bestandssystemen voor on-access-activiteiten worden hier [weergegeven.](microsoft-defender-endpoint-linux.md#system-requirements)</span><span class="sxs-lookup"><span data-stu-id="81b33-152">Currently supported file systems for on-access activity are listed [here](microsoft-defender-endpoint-linux.md#system-requirements).</span></span> <span data-ttu-id="81b33-153">Bestanden buiten deze bestandssystemen worden niet gescand.</span><span class="sxs-lookup"><span data-stu-id="81b33-153">Any files outside these file systems won't be scanned.</span></span>
 
-## <a name="command-line-tool-mdatp-isnt-working"></a><span data-ttu-id="995a3-154">Opdrachtregelhulpmiddel 'mdatp' werkt niet</span><span class="sxs-lookup"><span data-stu-id="995a3-154">Command-line tool “mdatp” isn't working</span></span>
+## <a name="command-line-tool-mdatp-isnt-working"></a><span data-ttu-id="81b33-154">Opdrachtregelhulpmiddel 'mdatp' werkt niet</span><span class="sxs-lookup"><span data-stu-id="81b33-154">Command-line tool “mdatp” isn't working</span></span>
 
-1. <span data-ttu-id="995a3-155">Als het uitvoeren van het opdrachtregelhulpmiddel `mdatp` een fout `command not found` geeft, voer dan de volgende opdracht uit:</span><span class="sxs-lookup"><span data-stu-id="995a3-155">If running the command-line tool `mdatp` gives an error `command not found`, run the following command:</span></span>
+1. <span data-ttu-id="81b33-155">Als het uitvoeren van het opdrachtregelhulpmiddel `mdatp` een fout `command not found` geeft, voer dan de volgende opdracht uit:</span><span class="sxs-lookup"><span data-stu-id="81b33-155">If running the command-line tool `mdatp` gives an error `command not found`, run the following command:</span></span>
 
     ```bash
     sudo ln -sf /opt/microsoft/mdatp/sbin/wdavdaemonclient /usr/bin/mdatp
     ```
 
-    <span data-ttu-id="995a3-156">en probeer het opnieuw.</span><span class="sxs-lookup"><span data-stu-id="995a3-156">and try again.</span></span>
+    <span data-ttu-id="81b33-156">en probeer het opnieuw.</span><span class="sxs-lookup"><span data-stu-id="81b33-156">and try again.</span></span>
 
-    <span data-ttu-id="995a3-157">Als geen van de bovenstaande stappen helpt, verzamelt u de diagnostische logboeken:</span><span class="sxs-lookup"><span data-stu-id="995a3-157">If none of the above steps help, collect the diagnostic logs:</span></span>
+    <span data-ttu-id="81b33-157">Als geen van de bovenstaande stappen helpt, verzamelt u de diagnostische logboeken:</span><span class="sxs-lookup"><span data-stu-id="81b33-157">If none of the above steps help, collect the diagnostic logs:</span></span>
 
     ```bash
     sudo mdatp diagnostic create
@@ -177,4 +177,4 @@ systemctl status mdatp
     Diagnostic file created: <path to file>
     ```
 
-    <span data-ttu-id="995a3-158">Pad naar een zip-bestand dat de logboeken bevat, wordt weergegeven als uitvoer.</span><span class="sxs-lookup"><span data-stu-id="995a3-158">Path to a zip file that contains the logs will be displayed as an output.</span></span> <span data-ttu-id="995a3-159">Contact op met onze klantenondersteuning met deze logboeken.</span><span class="sxs-lookup"><span data-stu-id="995a3-159">Reach out to our customer support with these logs.</span></span>
+    <span data-ttu-id="81b33-158">Pad naar een zip-bestand dat de logboeken bevat, wordt weergegeven als uitvoer.</span><span class="sxs-lookup"><span data-stu-id="81b33-158">Path to a zip file that contains the logs will be displayed as an output.</span></span> <span data-ttu-id="81b33-159">Contact op met onze klantenondersteuning met deze logboeken.</span><span class="sxs-lookup"><span data-stu-id="81b33-159">Reach out to our customer support with these logs.</span></span>
