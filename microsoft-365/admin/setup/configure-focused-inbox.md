@@ -20,16 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 'Leer hoe u postvak IN met prioriteit configureert voor alle of specifieke gebruikers binnen uw organisatie. '
-ms.openlocfilehash: 7059fbb886669af99c1471789cbbc623dc9719b8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 62a38f911e4e1b878af6489f096f17644e070978
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914280"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644510"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Postvak IN met prioriteit configureren voor iedereen in uw organisatie
 
-  Als u voor iedereen in uw bedrijf moet configureren hoe e-mail wordt gebruikt, is dit artikel interessant voor u. Er wordt uitgelegd hoe u dit kunt aanpassen of kunt uitschakelen voor uw bedrijf, en u krijgt antwoord op [Veelgestelde vragen](#faq-for-focused-inbox).  <br/> Zie [Postvak IN met prioriteit uitschakelen](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2) als u Postvak IN met prioriteit alleen voor uzelf wilt uitschakelen.  
+Als u voor iedereen in uw bedrijf moet configureren hoe e-mail wordt gebruikt, is dit artikel interessant voor u. Er wordt uitgelegd hoe u dit kunt aanpassen of kunt uitschakelen voor uw bedrijf, en u krijgt antwoord op [Veelgestelde vragen](#faq-for-focused-inbox).
+
+Zie [Postvak IN met prioriteit uitschakelen](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2) als u Postvak IN met prioriteit alleen voor uzelf wilt uitschakelen.  
 
 Als u er zeker van wilt zijn dat uw gebruikers bepaalde zakelijke e-mailberichten ontvangen, bijvoorbeeld van de afdeling HR of de salarisadministratie, kunt u Postvak IN met prioriteit configureren zodat deze specifieke zakelijke e-mail met prioriteit wordt weergegeven. U kunt ook bepalen of gebruikers in uw organisatie Postvak IN met prioriteit zien in hun postvak.
   
@@ -37,7 +39,7 @@ Als u er zeker van wilt zijn dat uw gebruikers bepaalde zakelijke e-mailberichte
 
 U kunt Windows PowerShell gebruiken om Postvak IN met prioriteit voor iedereen in uw organisatie in of uit te schakelen. Wilt u dit doen in het Microsoft 365-beheercentrum? Laat het weten aan ons technische team. **[Stem hier!](https://go.microsoft.com/fwlink/?linkid=862489)**
   
- **Postvak IN met prioriteit uitschakelen:**
+**Postvak IN met prioriteit uitschakelen:**
   
 Het volgende PowerShell-voorbeeld schakelt Postvak IN met prioriteit **uit** in uw organisatie. De functie blijft echter wel beschikbaar voor uw gebruikers, wat betekent dat ze Postvak IN met prioriteit desgewenst weer kunnen inschakelen in een e-mailclient. 
   
@@ -47,9 +49,9 @@ Het volgende PowerShell-voorbeeld schakelt Postvak IN met prioriteit **uit** in 
 
 3. Voer de cmdlet **Get-OrganizationConfig** uit. 
 
- ``` PowerShell
-Get-OrganizationConfig
- ```
+    ```powershell
+    Get-OrganizationConfig
+    ```
 
 4. Zoek naar **FocusedInboxOn** en bekijk de huidige instelling: 
 
@@ -57,20 +59,20 @@ Get-OrganizationConfig
   
 5. Voer de volgende cmdlet uit om Postvak IN met prioriteit uit te schakelen.
 
- ``` PowerShell
- Set-OrganizationConfig -FocusedInboxOn $false
- ```
+    ```powershell
+    Set-OrganizationConfig -FocusedInboxOn $false
+    ```
 
 6. Voer de cmdlet **Get-OrganizationConfig** opnieuw uit. FocusedInboxOn staat nu ingesteld op $false, wat betekent dat het is uitgeschakeld. 
 
- **Postvak IN met prioriteit inschakelen:**
+**Postvak IN met prioriteit inschakelen:**
   
 - Voer in stap 5 hierboven de volgende cmdlet uit om Postvak IN met prioriteit in te schakelen.
 
- ``` PowerShell
- Set-OrganizationConfig -FocusedInboxOn $true
- ```
-
+  ```powershell
+  Set-OrganizationConfig -FocusedInboxOn $true
+  ```
+    
 ## <a name="what-do-users-see-after-i-turn-on-focused-inbox"></a>Wat zien gebruikers nadat ik Postvak IN met prioriteit inschakel? 
 
 Gebruikers zien de weergave Prioriteit pas nadat ze Outlook opnieuw hebben gestart. Wanneer ze Outlook opnieuw hebben gestart, zien ze een Tip in de Outlook-gebruikersinterface met de optie om het nieuwe Postvak IN met prioriteit te gebruiken.
@@ -85,7 +87,7 @@ Wanneer een gebruiker besluit Postvak IN met prioriteit te gaan gebruiken, wordt
   
 ## <a name="turn-focused-inbox-on-or-off-for-specific-users"></a>Postvak IN met prioriteit in- of uitschakelen voor specifieke gebruikers
 
-In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matthews in de organisatie Contoso. De functie blijft echter wel beschikbaar voor hem. Als hij wil, kan hij Postvak IN met prioriteit weer inschakelen in elk van zijn clients. 
+In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matthews in de organisatie Contoso. De functie blijft echter wel beschikbaar voor hem. Als hij wil, kan hij Postvak IN met prioriteit weer inschakelen op elk van zijn clients. 
   
 1. [Maak verbinding met Exchange Online via externe PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -93,9 +95,9 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
 
 3. Voer de cmdlet **Get-FocusedInbox** uit, bijvoorbeeld: 
 
- ``` PowerShell
- Get-FocusedInbox -Identity <tim@contoso.com>
- ```
+    ```powershell
+    Get-FocusedInbox -Identity <tim@contoso.com>
+    ```
 
 4. Zoek naar FocusedInboxOn en bekijk de huidige instelling:
 
@@ -103,15 +105,15 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
   
 5. Voer de volgende cmdlet uit om Postvak IN met prioriteit uit te schakelen:
 
- ``` PowerShell
- Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $false
- ```
+    ```powershell
+    Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $false
+    ```
 
-6. Of voer de volgende cmdlet uit om het in te schakelen:
+    Of voer de volgende cmdlet uit om het in te schakelen:
 
- ``` PowerShell
- Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $true
- ```
+    ```powershell
+    Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $true
+    ```
 
 ## <a name="use-the-ui-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>De gebruikersinterface gebruiken om een transportregel te maken om e-mailberichten voor alle gebruikers met prioriteit weer te geven
 
@@ -125,8 +127,8 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
 
     ![postvakinmetprioriteit salarisadministratie](../../media/focusedinbox-transport-rule.PNG)
 
-> [!NOTE]
-> De waardetekst van de berichtkop in dit voorbeeld is **X-MS-Exchange-Organization-BypassFocusedInbox**.
+    > [!NOTE]
+    > De waardetekst van de berichtkop in dit voorbeeld is **X-MS-Exchange-Organization-BypassFocusedInbox**.
   
 ## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Windows PowerShell gebruiken om een transportregel te maken om e-mailberichten voor alle gebruikers met prioriteit weer te geven
 
@@ -136,9 +138,9 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
 
 3. Voer de volgende opdracht uit om alle berichten van bijvoorbeeld 'Salarisadministratie' at te leveren in Postvak IN met prioriteit.
 
- ``` PowerShell
- New-TransportRule -Name <name_of_the_rule> -From "Payroll Department" -SetHeaderName "X-MS-Exchange-Organization-BypassFocusedInbox" -SetHeaderValue "true"
- ```
+    ```powershell
+    New-TransportRule -Name <name_of_the_rule> -From "Payroll Department" -SetHeaderName "X-MS-Exchange-Organization-BypassFocusedInbox" -SetHeaderValue "true"
+    ```
 
 > [!IMPORTANT]
 > In dit voorbeeld zijn zowel 'X-MS-Exchange-Organization-BypassFocusedInbox' als 'true' hoofdlettergevoelig.
@@ -147,6 +149,10 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
 U kunt de koptekst van e-mailberichten controleren om te kijken of de e-mailberichten door toepassing van een transportregel zijn bezorgd in Postvak IN met prioriteit. Kies een e-mailbericht in een postvak in uw organisatie waarop een transportregel voor Postvak IN met prioriteit is toegepast. Kijk of in de koptekst de tekst **X-MS-Exchange-Organization-BypassFocusedInbox: true** voorkomt. De regel werkt als dit het geval is. Zie het artikel[Koptekstgegevens weergeven voor een e-mailbericht](https://go.microsoft.com/fwlink/p/?LinkId=822530) voor instructies voor het vinden van de koptekstgegevens van een bericht.
+
+### <a name="what-will-the-user-see"></a>Wat ziet de gebruiker?
+
+Als er een transportregel is, wordt een melding weergegeven voor het overschrijven. In de webversie van Outlook wordt 'Altijd verplaatsen naar Overige' uitgeschakeld en wordt knopinfo weergeven. Outlook-clients op desktop maken het mogelijk om 'Altijd verplaatsen naar Overige' te selecteren en geven een dialoogvenster weer.
 
 ## <a name="turn-onoff-clutter"></a>Onbelangrijke e-mail in- of uitschakelen
 
@@ -200,4 +206,5 @@ Er zijn twee cmdlets voor het beheren van Postvak IN met prioriteit. Wanneer u G
   
 ### <a name="can-i-run-a-script-to-see-who-has-turned-on-focused-inbox"></a>Kan ik een script uitvoeren om te zien wie Postvak IN met prioriteit heeft ingeschakeld?
 
-Nee, en dat is standaard. Postvak IN met prioriteit kan alleen aan de clientzijde worden ingeschakeld, dus via de cmdlet weet u alleen of het postvak van de gebruiker in aanmerking komt voor deze functie. Het is mogelijk de functie gelijktijdig in sommige clients in te schakelen en in andere uit te schakelen, bijvoorbeeld ingeschakeld in Outlook-app en Outlook Mobile, maar uitgeschakeld in de webversie van Outlook.
+Nee, en dat is zo ontworpen. Postvak IN met prioriteit kan alleen aan de clientzijde worden ingeschakeld, dus via de cmdlet weet u alleen of het postvak van de gebruiker in aanmerking komt voor deze functie. Het is mogelijk de functie gelijktijdig in sommige clients in te schakelen en in andere uit te schakelen, bijvoorbeeld ingeschakeld in Outlook-app en Outlook Mobile, maar uitgeschakeld in de webversie van Outlook.
+

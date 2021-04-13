@@ -1,5 +1,5 @@
 ---
-title: Microsoft-feedback voor uw organisatie beheren
+title: Microsoft feedback voor uw organisatie beheren
 f1.keywords:
 - NOCSH
 ms.author: Kwekua
@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Beheer feedback die uw gebruikers naar Microsoft kunnen sturen over Microsoft-producten.
-ms.openlocfilehash: c92adec1689d6f0c46b03ae4f46c567f054b6457
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 490081ace32203d015ee8cf3561ccf0ae978bace
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650014"
+ms.locfileid: "51657005"
 ---
-# <a name="manage-microsoft-feedback-for-your-organization"></a>Microsoft-feedback voor uw organisatie beheren
+# <a name="manage-microsoft-feedback-for-your-organization"></a>Microsoft feedback voor uw organisatie beheren
 
 Als beheerder van een Microsoft 365-organisatie zijn er nu verschillende beleidsregels voor het beheren van de feedbackverzameling en de klantcontactervaring van uw gebruikers bij het gebruik van Microsoft 365-toepassingen. U kunt bestaande Azure Active Directory-groepen in uw organisatie maken en gebruiken voor elk van deze beleidsregels. Met deze agenten kunt u bepalen hoe verschillende afdelingen in uw organisatie feedback naar Microsoft kunnen verzenden. Microsoft bekijkt alle feedback van klanten en gebruikt deze feedback om het product te verbeteren. Als u de feedback-ervaringen **ingeschakeld houdt,** kunt u zien wat uw gebruikers zeggen over de Microsoft-producten die ze gebruiken. De feedback die we van uw gebruikers verzamelen, is binnenkort beschikbaar in het Microsoft 365-beheercentrum.
 
