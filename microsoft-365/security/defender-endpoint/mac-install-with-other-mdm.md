@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5fa811b2419d107e91b301d5c9bad691fc016b5b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 58e3b14dcb80db961f01b92f038ce4d32da7e2e8
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498967"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689700"
 ---
-# <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-for-mac"></a>Implementatie met een ander MDM-systeem (Mobile Device Management) voor Microsoft Defender voor Endpoint voor Mac
+# <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>Implementatie met een ander MDM-systeem (Mobile Device Management) voor Microsoft Defender voor Eindpunt op macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,16 +38,16 @@ ms.locfileid: "51498967"
  
 ## <a name="prerequisites-and-system-requirements"></a>Vereisten en systeemvereisten
 
-Voordat u aan de slag gaat, bekijkt u de [hoofdpagina](microsoft-defender-endpoint-mac.md) van Microsoft Defender voor Eindpunt voor Mac voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
+Voordat u aan de slag gaat, bekijkt u de hoofdpagina van Microsoft Defender voor Eindpunt op [macOS](microsoft-defender-endpoint-mac.md) voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
 
 ## <a name="approach"></a>Benadering
 
 > [!CAUTION]
-> Momenteel ondersteunt Microsoft officieel alleen Intune en JAMF voor de implementatie en het beheer van Microsoft Defender voor Endpoint voor Mac. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de onderstaande informatie.
+> Momenteel ondersteunt Microsoft officieel alleen Intune en JAMF voor de implementatie en het beheer van Microsoft Defender voor Eindpunt op macOS. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de onderstaande informatie.
 
-Als uw organisatie een MDM-oplossing (Mobile Device Management) gebruikt die niet officieel wordt ondersteund, betekent dit niet dat u Microsoft Defender voor Eindpunt voor Mac niet kunt implementeren of uitvoeren.
+Als uw organisatie een MDM-oplossing (Mobile Device Management) gebruikt die niet officieel wordt ondersteund, betekent dit niet dat u Microsoft Defender voor Eindpunt niet kunt implementeren of uitvoeren op macOS.
 
-Microsoft Defender voor Eindpunt voor Mac is niet afhankelijk van leveranciersspecifieke functies. Deze kan worden gebruikt met elke MDM-oplossing die de volgende functies ondersteunt:
+Microsoft Defender voor Eindpunt voor macOS is niet afhankelijk van specifieke functies van leveranciers. Deze kan worden gebruikt met elke MDM-oplossing die de volgende functies ondersteunt:
 
 - Een macOS .pkg implementeren op beheerde apparaten.
 - MacOS-systeemconfiguratieprofielen implementeren op beheerde apparaten.
@@ -72,7 +72,7 @@ Als u het pakket wilt implementeren in uw bedrijf, gebruikt u de instructies die
 
 ### <a name="license-settings"></a>Licentie-instellingen
 
-Een [systeemconfiguratieprofiel instellen.](mac-install-with-jamf.md) Uw MDM-oplossing kan het een soort 'Profiel aangepaste instellingen' noemen, omdat Microsoft Defender voor Eindpunt voor Mac geen deel uitmaakt van macOS.
+Een [systeemconfiguratieprofiel instellen.](mac-install-with-jamf.md) Uw MDM-oplossing kan dit zoiets noemen als 'Profiel aangepaste instellingen', omdat Microsoft Defender voor Eindpunt op macOS geen deel uitmaakt van macOS.
 
 Gebruik de lijst met eigenschappen, jamf/WindowsDefenderATPOnboarding.plist, die kan worden gehaald uit een onboarding-pakket dat is gedownload van [het Microsoft Defender-beveiligingscentrum.](mac-install-with-jamf.md)
 Uw systeem ondersteunt mogelijk een lijst met willekeurige eigenschappen in XML-indeling. U kunt het bestand jamf/WindowsDefenderATPOnboarding.plist zoals in dat geval uploaden.
@@ -112,7 +112,7 @@ Volledige schijftoegang verlenen aan de volgende onderdelen:
 
 ### <a name="network-extension-policy"></a>Beleid voor netwerkextensie
 
-Als onderdeel van de mogelijkheden voor endpointdetectie en -reactie controleert Microsoft Defender voor Endpoint voor Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
+Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
 
 - Filtertype: Invoegvoeginvoeging
 - Id van de invoegbundel: `com.microsoft.wdav`

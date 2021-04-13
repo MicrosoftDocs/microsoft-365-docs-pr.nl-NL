@@ -1,6 +1,6 @@
 ---
-title: Problemen met microsoft Defender ATP-onboarding oplossen
-description: Problemen oplossen die zich kunnen voordoen tijdens de onboarding van apparaten of bij de MICROSOFT Defender ATP-service.
+title: Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen
+description: Problemen oplossen die zich kunnen voordoen tijdens de onboarding van apparaten of bij de Microsoft Defender for Endpoint-service.
 keywords: problemen met onboarding, onboarding, eventviewer, gegevensverzameling en preview-builds, sensorgegevens en diagnostische gegevens oplossen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 3b2c944cd7fc9d629b47947db9d6e8856729e0d7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4599741f501e9b55bc73e0eb8def9208bc988957
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059274"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689663"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen
 
@@ -30,7 +30,7 @@ ms.locfileid: "51059274"
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - Windows Server 2012 R2
 - Windows Server 2016
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
@@ -455,6 +455,6 @@ De onderstaande stappen geven richtlijnen voor het volgende scenario:
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Problemen met Microsoft Defender voor eindpunt oplossen](troubleshoot-mdatp.md)
+- [Problemen met Microsoft Defender voor Eindpunt oplossen](troubleshoot-mdatp.md)
 - [Onboard-apparaten](onboard-configure.md)
 - [Instellingen voor apparaatproxy en internetverbinding configureren](configure-proxy-internet.md)

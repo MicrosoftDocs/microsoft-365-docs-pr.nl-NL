@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c94c6839c17b3bbb432cef12fe58723d0cc2ecff
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 6cfd2953e752ed9c96f7f16a3ec7ea1fd8862ab2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587237"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689735"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-ios"></a>Microsoft Defender voor eindpunt voor iOS implementeren
+# <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor eindpunt implementeren in iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -91,7 +91,7 @@ Deploy Defender for Endpoint for iOS via Intune Company Portal.
 
 ## <a name="configure-microsoft-defender-for-endpoint-for-supervised-mode"></a>Microsoft Defender voor eindpunt configureren voor modus onder toezicht
 
-De Microsoft Defender voor Endpoint voor iOS-app heeft een speciale mogelijkheid op gecontroleerde iOS-/iPadOS-apparaten, gezien de verbeterde beheermogelijkheden die het platform biedt op dit type apparaten. Als u van deze mogelijkheden wilt profiteren, moet de Defender voor Eindpunt-app weten of een apparaat in de modus Onder toezicht staat.
+De Microsoft Defender for Endpoint-app voor iOS heeft een speciale mogelijkheid op gecontroleerde iOS-/iPadOS-apparaten, gezien de verbeterde beheermogelijkheden die het platform biedt op dit type apparaten. Als u van deze mogelijkheden wilt profiteren, moet de Defender voor Eindpunt-app weten of een apparaat in de modus Onder toezicht staat.
 
 ### <a name="configure-supervised-mode-via-intune"></a>Modus onder toezicht configureren via Intune
 

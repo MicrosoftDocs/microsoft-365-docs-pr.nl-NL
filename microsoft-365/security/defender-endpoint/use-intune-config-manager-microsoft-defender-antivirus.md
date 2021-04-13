@@ -1,0 +1,56 @@
+---
+title: Microsoft Defender Antivirus configureren met Configuration Manager en Intune
+description: Microsoft Endpoint Manager en Microsoft Intune gebruiken om Microsoft Defender AV en Endpoint Protection te configureren
+keywords: scep, intune, endpointbeveiliging, configuratie
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: manage
+ms.sitesec: library
+ms.pagetype: security
+ms.localizationpriority: medium
+author: denisebmsft
+ms.author: deniseb
+ms.custom: nextgen
+ms.date: 10/26/2018
+ms.reviewer: ''
+manager: dansimp
+ms.technology: mde
+ms.openlocfilehash: 16cd8492ceedaba200dea70a29c83401467ae8ee
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51690536"
+---
+# <a name="use-microsoft-endpoint-manager-and-microsoft-intune-to-configure-and-manage-microsoft-defender-antivirus"></a>Microsoft Endpoint Manager en Microsoft Intune gebruiken om Microsoft Defender Antivirus te configureren en te beheren
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+
+**Van toepassing op:**
+
+- [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
+
+Als u Microsoft Endpoint Manager of Microsoft Intune gebruikt om de eindpunten in uw netwerk te beheren, kunt u nu Microsoft Endpoint Manager gebruiken om Microsoft Defender Antivirus-scans te beheren.
+
+1. Navigeer in het Microsoft Endpoint Manager-beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () naar **Endpoint-beveiliging.**
+
+2. Kies **onder Beheren** de optie **Antivirus.**
+
+3. Selecteer uw Microsoft Defender Antivirusbeleid. 
+
+4. Kies **onder** Beheren de optie **Eigenschappen.**
+
+5. Kies naast **Configuratie-instellingen** de optie **Bewerken.**
+
+6. Vouw de **sectie Scannen** uit en bekijk of bewerk uw scaninstellingen.
+
+7. Kies **Controleren + opslaan**
+
+Hulp nodig? Zie [Beveiliging van eindpunten beheren in Microsoft Intune](/mem/intune/protect/endpoint-security).
+
+
+## <a name="related-articles"></a>Verwante artikelen
+
+- [Referentieonderwerpen voor beheer- en configuratiehulpmiddelen](configuration-management-reference-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

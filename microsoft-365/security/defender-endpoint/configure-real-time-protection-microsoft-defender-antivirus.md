@@ -1,0 +1,141 @@
+---
+title: Microsoft Defender Antivirus protection capabilities inschakelen en configureren
+description: Beveiligingsfuncties van Microsoft Defender Antivirus in realtime inschakelen en configureren, zoals gedragscontrole, heuristische functies en machine learning
+keywords: antivirus, real-time beveiliging, rtp, machine-learning, gedragscontrole, heuristiek
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: manage
+ms.sitesec: library
+ms.pagetype: security
+ms.localizationpriority: medium
+author: denisebmsft
+ms.author: deniseb
+ms.date: 12/16/2019
+ms.reviewer: ''
+manager: dansimp
+ms.custom: nextgen
+ms.technology: mde
+ms.openlocfilehash: 7fa4f90282bf87c1def1917037e090b213cad3db
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51690054"
+---
+# <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>Microsoft Defender Antivirus always-on-beveiliging inschakelen en configureren in groepsbeleid
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+
+**Van toepassing op:**
+
+- [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
+
+Always-on-beveiliging bestaat uit realtime bescherming, gedragscontrole en heuristische acties om malware te identificeren op basis van bekende verdachte en schadelijke activiteiten.
+
+Deze activiteiten omvatten gebeurtenissen, zoals processen die ongebruikelijke wijzigingen aanbrengen in bestaande bestanden, het wijzigen of maken van automatische opstartregistersleutels en opstartlocaties (ook wel bekend als extensibility-punten voor automatisch starten of ASEPs) en andere wijzigingen in het bestandssysteem of de bestandsstructuur.
+
+## <a name="enable-and-configure-always-on-protection-in-group-policy"></a>Always-on-beveiliging inschakelen en configureren in groepsbeleid
+
+U kunt Local **Group Policy Editor gebruiken om** de beveiligingsinstellingen van Microsoft Defender Antivirus always-on in te stellen en te configureren.
+
+Altijd ingeschakelde beveiliging inschakelen en configureren:
+
+1. Open **Local Group Policy Editor**. Ga als volgende te werk:  
+
+    1. Typ **gpedit** in het zoekvak van de Windows 10-taakbalk.
+    
+    1. Klik **onder Beste overeenkomst** op **Groepsbeleid bewerken om** Lokale groepsbeleidseditor te **starten.**
+    
+       ![Zoekresultaat gpEdit-taakbalk](images/gpedit-search.png)
+
+2. Vouw in het linkerdeelvenster van **local group policy editor** de structuur uit naar **Beheersjablonen**  >    >  **computerconfiguratie Windows Components** Microsoft Defender  >  **Antivirus**. 
+
+3. Configureer de antimalware-servicebeleidsinstellingen van Microsoft Defender Antivirus. Ga als volgende te werk:  
+
+    1. Dubbelklik in het deelvenster Microsoft **Defender Antivirus-details** aan de rechterkant op de beleidsinstelling zoals aangegeven in de volgende tabel:
+
+       | Instelling | Beschrijving | Standaardinstelling |
+       |-----------------------------|------------------------|-------------------------------|
+       | Antimalware-service met normale prioriteit laten opstarten | U kunt de prioriteit van de Microsoft Defender Antivirus-engine verlagen, wat handig kan zijn in lichtgewicht implementaties waarin u een zo mager mogelijk opstartproces wilt hebben. Dit kan van invloed zijn op de beveiliging op het eindpunt. | Ingeschakeld
+       | Toestaan dat antimalwareservice altijd actief blijft | Als beveiligingsupdates zijn uitgeschakeld, kunt u Instellen dat Microsoft Defender Antivirus nog steeds wordt uitgevoerd. Hierdoor wordt de beveiliging op het eindpunt verlaagd. | Uitgeschakeld |
+    
+    1. Configureer de instelling zo nodig en klik op **OK.**
+    
+    1. Herhaal de vorige stappen voor elke instelling in de tabel.
+
+4. Configureer de beveiligingsbeleidsinstellingen voor Microsoft Defender Antivirus in realtime. Ga als volgende te werk:
+
+    1. Dubbelklik in het deelvenster Microsoft **Defender Antivirus-details** op **Realtime beveiliging.** Of klik in de **Microsoft Defender Antivirus-boom** aan de linkerkant op **Realtime beveiliging.**
+    
+    1. Dubbelklik **in het deelvenster Realtimebeveiligingsdetails** aan de rechterkant op de beleidsinstelling zoals aangegeven in de volgende tabel:  
+
+       | Instelling | Beschrijving | Standaardinstelling |
+       |-----------------------------|------------------------|-------------------------------|
+       | Gedragscontrole in- en uit- | De AV-engine controleert bestandsprocessen, bestands- en registerwijzigingen en andere gebeurtenissen op uw eindpunten op verdachte en bekende schadelijke activiteiten. | Ingeschakeld |
+       | Alle gedownloade bestanden en bijlagen scannen | Gedownloade bestanden en bijlagen worden automatisch gescand. Dit werkt naast het Windows Defender SmartScreen-filter, waarmee bestanden worden gescand voor en tijdens het downloaden. | Ingeschakeld |
+       | Bestands- en programmaactiviteit op uw computer controleren | De Microsoft Defender Antivirus-engine maakt kennis van bestandswijzigingen (bestandswijzigingen, zoals bewegingen, kopieën of wijzigingen) en algemene programmaactiviteit (programma's die worden geopend of uitgevoerd en waardoor andere programma's worden uitgevoerd). | Ingeschakeld |
+       | Onbewerkte schrijfmeldingen voor volume in- en uit- | Informatie over onbewerkte volume schrijft wordt geanalyseerd door gedragscontrole. | Ingeschakeld |
+       | Processcans inschakelen wanneer realtimebeveiliging is ingeschakeld | U kunt de Microsoft Defender Antivirus-engine onafhankelijk van elkaar inschakelen om lopende processen te scannen op verdachte wijzigingen of gedragingen. Dit is handig als u de realtimebeveiliging tijdelijk hebt uitgeschakeld en automatisch processen wilt scannen die zijn gestart terwijl deze werd uitgeschakeld. | Ingeschakeld |
+       | De maximale grootte definiëren van gedownloade bestanden en bijlagen die moeten worden gescand | U kunt de grootte in kilobytes definiëren. | Ingeschakeld |
+       | Lokale instelling overschrijven configureren om gedragscontrole in te stellen | Configureer een lokale override voor de configuratie van gedragscontrole. Deze instelling kan alleen worden ingesteld op groepsbeleid. Als u deze instelling inschakelen, krijgt de lokale voorkeursinstelling prioriteit boven Groepsbeleid. Als u deze instelling uit- of niet configureert, krijgt groepsbeleid voorrang op de lokale voorkeursinstelling.| Ingeschakeld |
+       | Lokale instelling overschrijven configureren voor het scannen van alle gedownloade bestanden en bijlagen | Configureer een lokale override voor de configuratie van het scannen van alle gedownloade bestanden en bijlagen. Deze instelling kan alleen worden ingesteld op groepsbeleid. Als u deze instelling inschakelen, krijgt de lokale voorkeursinstelling prioriteit boven Groepsbeleid. Als u deze instelling uit- of niet configureert, krijgt groepsbeleid voorrang op de lokale voorkeursinstelling.| Ingeschakeld |
+       | Lokale instelling overschrijven configureren voor het controleren van bestands- en programmaactiviteit op uw computer | Configureer een lokale override voor de configuratie van monitoring voor bestands- en programmaactiviteit op uw computer. Deze instelling kan alleen worden ingesteld op groepsbeleid. Als u deze instelling inschakelen, krijgt de lokale voorkeursinstelling prioriteit boven Groepsbeleid. Als u deze instelling uit- of niet configureert, krijgt groepsbeleid voorrang op de lokale voorkeursinstelling.| Ingeschakeld |
+       | Lokale instelling overschrijven configureren om realtimebeveiliging in te stellen | Configureer een lokale override voor de configuratie om realtimebeveiliging in te zetten. Deze instelling kan alleen worden ingesteld op groepsbeleid. Als u deze instelling inschakelen, krijgt de lokale voorkeursinstelling prioriteit boven Groepsbeleid. Als u deze instelling uit- of niet configureert, krijgt groepsbeleid voorrang op de lokale voorkeursinstelling.| Ingeschakeld |
+       | Lokale instelling overschrijven configureren voor het controleren op activiteiten inkomende en uitgaande bestanden | Configureer een lokale override voor de configuratie van monitoring voor inkomende en uitgaande bestandsactiviteiten. Deze instelling kan alleen worden ingesteld op groepsbeleid. Als u deze instelling inschakelen, krijgt de lokale voorkeursinstelling prioriteit boven Groepsbeleid. Als u deze instelling uit- of niet configureert, krijgt groepsbeleid voorrang op de lokale voorkeursinstelling. | Ingeschakeld |
+       | Monitoring configureren voor inkomende en uitgaande bestands- en programmaactiviteit | Geef op of monitoring moet plaatsvinden bij inkomende, uitgaande, beide of geen richting. Dit is relevant voor Windows Server-installaties waarbij u specifieke servers of serverrollen hebt gedefinieerd die grote hoeveelheden bestandswijzigingen in slechts één richting zien en u de netwerkprestaties wilt verbeteren. Volledig bijgewerkte eindpunten (en servers) in een netwerk hebben weinig invloed op de prestaties, ongeacht het aantal of de richting van bestandswijzigingen. | Ingeschakeld (beide richtingen) |
+
+    1. Configureer de instelling zo nodig en klik op **OK.**
+    
+    1. Herhaal de vorige stappen voor elke instelling in de tabel.
+
+5. Configureer de beleidsinstelling voor het scannen van Microsoft Defender Antivirus. Ga als volgende te werk:  
+
+    1. Klik in **de Microsoft Defender Antivirus-boom** aan de linkerkant op **Scannen.**
+    
+       ![Microsoft Defender Antivirus Scan-opties](images/gpedit-windows-defender-antivirus-scan.png)
+
+    1. Dubbelklik in **het** deelvenster Details scannen aan de rechterkant op de beleidsinstelling zoals aangegeven in de volgende tabel:
+
+       | Instelling | Beschrijving | Standaardinstelling |
+       |-----------------------------|------------------------|-------------------------------|    
+       | Heuristiek in- en uit- | Heuristische beveiliging schakelt verdachte activiteiten uit of blokkeert deze direct voordat de Microsoft Defender Antivirus-engine wordt gevraagd om de activiteit te detecteren. | Ingeschakeld |
+
+    1. Configureer de instelling zo nodig en klik op **OK.**
+    
+6. Sluit **Lokale groepsbeleidseditor**.
+
+
+## <a name="disable-real-time-protection-in-group-policy"></a>Realtimebeveiliging uitschakelen in groepsbeleid
+
+> [!WARNING]
+> Het uitschakelen van realtimebeveiliging vermindert de beveiliging op uw eindpunten drastisch en wordt niet aanbevolen.
+
+De belangrijkste realtimebeveiligingsfunctie is standaard ingeschakeld, maar u kunt deze uitschakelen met **lokale groepsbeleidseditor.**
+
+Realtimebeveiliging uitschakelen in groepsbeleid:
+
+1. Open **Local Group Policy Editor**.
+
+   1. Typ **gpedit** in het zoekvak van de Windows 10-taakbalk.
+   
+   1. Klik **onder Beste overeenkomst** op **Groepsbeleid bewerken om** Lokale groepsbeleidseditor te **starten.**
+
+2.  Vouw in het linkerdeelvenster van **Local Group Policy Editor** de structuur uit naar **Beheersjablonen voor computerconfiguratie**  >    >  **Windows Components**  >  **Microsoft Defender Antivirus**  >  **Real-time Protection**.
+
+3. Dubbelklik **in het deelvenster Realtimebeveiligingsgegevens** aan de rechterkant op **Realtimebeveiliging uitschakelen.**
+
+   ![Realtime beveiliging uitschakelen](images/gpedit-turn-off-real-time-protection.png)
+
+4. Stel in **het instellingsvenster Voor realtimebeveiliging** uitschakelen de optie in op **Ingeschakeld.**
+
+   ![Realtimebeveiliging uitschakelen](images/gpedit-turn-off-real-time-protection-enabled.png)
+   
+5. Klik op **OK**.
+
+6. Sluit **Lokale groepsbeleidseditor**.
+
+## <a name="related-articles"></a>Verwante artikelen
+
+- [Gedrags-, heuristische en realtimebeveiliging configureren](configure-protection-features-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

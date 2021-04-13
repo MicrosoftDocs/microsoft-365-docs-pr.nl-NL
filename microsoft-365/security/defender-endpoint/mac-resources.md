@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 37d31fe93a849871e7da92fff521b6a75beac531
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 71ebe48fdbb8f9995ef2f3429cb8a824ed76f244
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187635"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689639"
 ---
-# <a name="resources-for-microsoft-defender-for-endpoint-for-mac"></a>Bronnen voor Microsoft Defender voor Eindpunt voor Mac
+# <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Resources voor Microsoft Defender voor Eindpunt op macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -80,7 +80,7 @@ Het gedetailleerde logboek wordt opgeslagen in `/Library/Logs/Microsoft/mdatp/in
 
 ## <a name="uninstalling"></a>Verwijderen
 
-Er zijn verschillende manieren om Microsoft Defender voor Eindpunt voor Mac te verwijderen. Hoewel centraal beheerd verwijderen beschikbaar is op JAMF, is deze nog niet beschikbaar voor Microsoft Intune.
+Er zijn verschillende manieren om Microsoft Defender voor Eindpunt op macOS te verwijderen. Hoewel centraal beheerd verwijderen beschikbaar is op JAMF, is deze nog niet beschikbaar voor Microsoft Intune.
 
 ### <a name="interactive-uninstallation"></a>Interactief verwijderen
 
@@ -143,7 +143,7 @@ Automatisch aanvullen inschakelen in zsh:
    echo "autoload -Uz compinit && compinit" >> ~/.zshrc
    ```
 
-- Voer de volgende opdrachten uit om automatisch aanvullen voor Microsoft Defender voor Eindpunt voor Mac in te stellen en start de Terminal-sessie opnieuw:
+- Voer de volgende opdrachten uit om automatisch aanvullen voor Microsoft Defender voor Eindpunt in macOS in te stellen en start de Terminal-sessie opnieuw:
 
    ```zsh
    sudo mkdir -p /usr/local/share/zsh/site-functions

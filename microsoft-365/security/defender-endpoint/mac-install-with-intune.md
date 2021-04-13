@@ -1,6 +1,6 @@
 ---
-title: Intune-implementatie voor Microsoft Defender voor Eindpunt voor Mac
-description: Microsoft Defender voor Eindpunt voor Mac installeren met Microsoft Intune.
+title: Intune-implementatie voor Microsoft Defender voor Eindpunt op macOS
+description: Installeer Microsoft Defender voor Eindpunt op macOS met Microsoft Intune.
 keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,27 +18,27 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bd74f3a487de4febecb2086cb126c50b8432c342
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 7486bde0886506a5966a95cdb0b85fc009858801
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379556"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689747"
 ---
-# <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-for-mac"></a>Intune-implementatie voor Microsoft Defender voor Eindpunt voor Mac
+# <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Intune-implementatie voor Microsoft Defender voor Eindpunt op macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 > [!NOTE]
 > In deze documentatie wordt uitgelegd wat de oudere methode is voor het implementeren en configureren van Microsoft Defender voor Eindpunt op macOS-apparaten. De native ervaring is nu beschikbaar in de MEM-console. De release van de native GEBRUIKERSINTERFACE in de MEM-console biedt beheerders een veel eenvoudigere manier om de toepassing te configureren en te implementeren en deze naar macOS-apparaten te verzenden. <br> <br>
->Het blogbericht [MEM vereenvoudigt de implementatie van Microsoft Defender voor Eindpunt voor macOS](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/microsoft-endpoint-manager-simplifies-deployment-of-microsoft/ba-p/1322995) met uitleg over de nieuwe functies. Als u de app wilt configureren, gaat u naar Instellingen voor Microsoft Defender voor Eindpunt voor [Mac in Microsoft InTune.](https://docs.microsoft.com/mem/intune/protect/antivirus-microsoft-defender-settings-macos) Als u de app wilt implementeren, gaat u naar Microsoft Defender voor Eindpunt toevoegen [aan macOS-apparaten met Microsoft Intune.](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos)
+>Het blogbericht [MEM vereenvoudigt de implementatie van Microsoft Defender voor Eindpunt voor macOS](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/microsoft-endpoint-manager-simplifies-deployment-of-microsoft/ba-p/1322995) met uitleg over de nieuwe functies. Als u de app wilt configureren, gaat u naar [Instellingen voor Microsoft Defender voor Eindpunt op macOS in Microsoft InTune.](https://docs.microsoft.com/mem/intune/protect/antivirus-microsoft-defender-settings-macos) Als u de app wilt implementeren, gaat u naar Microsoft Defender voor Eindpunt toevoegen [aan macOS-apparaten met Microsoft Intune.](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos)
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender voor Eindpunt op macOS](microsoft-defender-endpoint-mac.md)
 
-In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt voor Mac implementeert via Intune. Voor een geslaagde implementatie moet u alle volgende stappen voltooien:
+In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt implementeert op macOS via Intune. Voor een geslaagde implementatie moet u alle volgende stappen voltooien:
 
 1. [Installatie- en onboarding-pakketten downloaden](#download-installation-and-onboarding-packages)
 1. [Installatie van clientapparaat](#client-device-setup)
@@ -48,7 +48,7 @@ In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt voor Ma
 
 ## <a name="prerequisites-and-system-requirements"></a>Vereisten en systeemvereisten
 
-Voordat u aan de slag gaat, bekijkt u de [hoofdpagina](microsoft-defender-endpoint-mac.md) van Microsoft Defender voor Eindpunt voor Mac voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
+Voordat u aan de slag gaat, bekijkt u de hoofdpagina van Microsoft Defender voor Eindpunt op [macOS](microsoft-defender-endpoint-mac.md) voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
 
 ## <a name="overview"></a>Overzicht
 
@@ -201,9 +201,9 @@ De systeemextensies goedkeuren:
    >
    > Dit configuratieprofiel verleent Volledige schijftoegang aan Microsoft Defender voor Eindpunt. Als u Eerder Microsoft Defender voor Eindpunt hebt geconfigureerd via Intune, raden we u aan de implementatie bij te werken met dit configuratieprofiel.
 
-9. Als onderdeel van de mogelijkheden voor endpointdetectie en -reactie controleert Microsoft Defender voor Endpoint voor Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren. Download **netfilter.mobileconfig** vanuit onze [GitHub-opslagplaats,](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)sla deze op als netext.xml en implementeer het met dezelfde stappen als in de vorige secties. <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
+9. Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren. Download **netfilter.mobileconfig** vanuit onze [GitHub-opslagplaats,](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)sla deze op als netext.xml en implementeer het met dezelfde stappen als in de vorige secties. <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
 
-10. Als u wilt toestaan dat microsoft Defender voor Eindpunt voor Mac en Microsoft Auto Update meldingen weergeven in de gebruikersinterface op macOS 10.15 (Catalina), downloadt u vanuit onze `notif.mobileconfig` [GitHub-opslagplaats](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) en importeert u deze als aangepaste payload. <a name = "create-system-configuration-profiles-step-10" id = "create-system-configuration-profiles-step-10"></a>
+10. Als u wilt toestaan dat Microsoft Defender voor Eindpunt op macOS en Microsoft Auto Update meldingen in de gebruikersinterface weergeven op macOS 10.15 (Catalina), downloadt u vanuit onze `notif.mobileconfig` [GitHub-opslagplaats](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) en importeert u deze als een aangepaste payload. <a name = "create-system-configuration-profiles-step-10" id = "create-system-configuration-profiles-step-10"></a>
 
 11. Selecteer **Opdrachten > beheren.**  Selecteer op **het** tabblad Opnemen de optie Toewijzen aan **alle & alle apparaten.**
 
@@ -227,9 +227,9 @@ Wanneer de wijzigingen in Intune zijn doorgevoerd naar de geregistreerde apparat
 6. Stel *App-versie negeren in* op **Ja.** Andere instellingen kunnen willekeurige waarden zijn.
 
     > [!CAUTION]
-    > Het *instellen van App-versie negeren* op **Geen** heeft invloed op de mogelijkheid van de toepassing om updates te ontvangen via Microsoft AutoUpdate. Zie [Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac](mac-updates.md) voor meer informatie over hoe het product wordt bijgewerkt.
+    > Het *instellen van App-versie negeren* op **Geen** heeft invloed op de mogelijkheid van de toepassing om updates te ontvangen via Microsoft AutoUpdate. Zie [Updates implementeren voor Microsoft Defender voor Eindpunt op macOS](mac-updates.md) voor meer informatie over hoe het product wordt bijgewerkt.
     >
-    > Als de versie die door Intune is geüpload lager is dan de versie op het apparaat, wordt de onderste versie geïnstalleerd, wat microsoft Defender voor Eindpunt effectief verlaagt. Dit kan leiden tot een niet-werkende toepassing. Zie [Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac](mac-updates.md) voor meer informatie over hoe het product wordt bijgewerkt. Als u Microsoft Defender voor Eindpunt hebt geïmplementeerd met *App-versie* negeren ingesteld op **Nee,** wijzigt u deze in **Ja.** Als Microsoft Defender voor Eindpunt nog steeds niet kan worden geïnstalleerd op een clientapparaat, verwijdert u Microsoft Defender voor Eindpunt en drukt u op het bijgewerkte beleid.
+    > Als de versie die door Intune is geüpload lager is dan de versie op het apparaat, wordt de onderste versie geïnstalleerd, wat microsoft Defender voor Eindpunt effectief verlaagt. Dit kan leiden tot een niet-werkende toepassing. Zie [Updates implementeren voor Microsoft Defender voor Eindpunt op macOS](mac-updates.md) voor meer informatie over hoe het product wordt bijgewerkt. Als u Microsoft Defender voor Eindpunt hebt geïmplementeerd met *App-versie* negeren ingesteld op **Nee,** wijzigt u deze in **Ja.** Als Microsoft Defender voor Eindpunt nog steeds niet kan worden geïnstalleerd op een clientapparaat, verwijdert u Microsoft Defender voor Eindpunt en drukt u op het bijgewerkte beleid.
      
     > [!div class="mx-imgBorder"]
     > ![Weergave van app-informatie in App-add](images/mdatp-8-intuneappinfo.png)
@@ -282,4 +282,4 @@ Zie Installatieproblemen bij logboekregistratie voor meer informatie over het vi
 
 ## <a name="uninstallation"></a>Verwijderen
 
-Zie [Verwijderen voor](mac-resources.md#uninstalling) meer informatie over het verwijderen van Microsoft Defender voor Eindpunt voor Mac van clientapparaten.
+Zie [Verwijderen voor](mac-resources.md#uninstalling) meer informatie over het verwijderen van Microsoft Defender voor Eindpunt op macOS van clientapparaten.

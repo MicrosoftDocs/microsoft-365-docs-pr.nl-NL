@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d1d4aa871438e10aed86ddd436757072fb6b5cc4
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 93715f761beded95cfaa91b4747a2e4b5a3c61c1
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587501"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689675"
 ---
-# <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Privacy voor Microsoft Defender voor Eindpunt voor Mac
+# <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>Privacy voor Microsoft Defender voor Eindpunt op macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,13 +35,13 @@ ms.locfileid: "51587501"
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-Microsoft doet er alles aan om u de informatie en besturingselementen te bieden die u nodig hebt om keuzes te maken over hoe uw gegevens worden verzameld en gebruikt wanneer u Microsoft Defender voor Eindpunt voor Mac gebruikt.
+Microsoft doet er alles aan om u de informatie en besturingselementen te bieden die u nodig hebt om keuzes te maken over hoe uw gegevens worden verzameld en gebruikt wanneer u Microsoft Defender voor Eindpunt op macOS gebruikt.
 
 In dit onderwerp worden de privacybesturingselementen beschreven die beschikbaar zijn in het product, hoe u deze besturingselementen beheert met beleidsinstellingen en meer informatie over de gegevensgebeurtenissen die worden verzameld.
 
-## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-for-mac"></a>Overzicht van privacybesturingselementen in Microsoft Defender voor Eindpunt voor Mac
+## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-on-macos"></a>Overzicht van privacybesturingselementen in Microsoft Defender voor Eindpunt op macOS
 
-In deze sectie worden de privacybesturingselementen beschreven voor de verschillende typen gegevens die door Microsoft Defender voor Eindpunt voor Mac worden verzameld.
+In deze sectie worden de privacybesturingselementen beschreven voor de verschillende typen gegevens die door Microsoft Defender voor Eindpunt op macOS worden verzameld.
 
 ### <a name="diagnostic-data"></a>Diagnostische gegevens
 
@@ -73,7 +73,7 @@ Wanneer deze functie is ingeschakeld en het verzamelde voorbeeld waarschijnlijk 
 
 Als u een IT-beheerder bent, kunt u deze besturingselementen configureren op ondernemingsniveau. 
 
-De privacybesturingselementen voor de verschillende typen gegevens die in de vorige sectie worden beschreven, worden gedetailleerd beschreven in [Set preferences for Microsoft Defender for Endpoint for Mac](mac-preferences.md).
+De privacybesturingselementen voor de verschillende typen gegevens die in de vorige sectie worden beschreven, worden gedetailleerd beschreven in [Set preferences for Microsoft Defender for Endpoint on macOS](mac-preferences.md).
 
 Net als bij nieuwe beleidsinstellingen moet u deze zorgvuldig testen in een beperkte, gecontroleerde omgeving om ervoor te zorgen dat de instellingen die u configureert het gewenste effect hebben voordat u de beleidsinstellingen breder implementeert in uw organisatie.
 
@@ -94,7 +94,7 @@ De volgende velden worden algemeen beschouwd voor alle gebeurtenissen:
 | org_id                  | Unieke id die is gekoppeld aan de onderneming waar het apparaat deel van uitmaken. Hiermee kan Microsoft bepalen of problemen van invloed zijn op een selecte set ondernemingen en hoeveel ondernemingen van invloed zijn. |
 | hostnaam                | Naam van lokaal apparaat (zonder DNS-achtervoegsel). Hiermee kan Microsoft bepalen of problemen van invloed zijn op een selecte set installaties en hoeveel gebruikers van invloed zijn. |
 | product_guid            | Unieke id van het product. Hiermee kan Microsoft onderscheid maken tussen problemen die van invloed zijn op verschillende smaken van het product. |
-| app_version             | Versie van de Microsoft Defender voor Endpoint voor Mac-toepassing. Hiermee kan Microsoft bepalen welke versies van het product een probleem laten zien, zodat het correct kan worden geprioriteerd.|
+| app_version             | Versie van de Microsoft Defender voor Eindpunt voor macOS-toepassing. Hiermee kan Microsoft bepalen welke versies van het product een probleem laten zien, zodat het correct kan worden geprioriteerd.|
 | sig_version             | Versie van beveiligingsinformatiedatabase. Hiermee kan Microsoft bepalen welke versies van de beveiligingsintelligentie een probleem laten zien, zodat deze correct kan worden geprioriteerd. |
 | supported_compressions  | Lijst met compressiealgoritmen die door de toepassing worden ondersteund, `['gzip']` bijvoorbeeld. Hiermee kan Microsoft begrijpen welke typen compressies kunnen worden gebruikt wanneer het communiceert met de toepassing. |
 | release_ring            | Bel waar het apparaat aan is gekoppeld (bijvoorbeeld Insider Fast, Insider Slow, Productie). Hiermee kan Microsoft bepalen op welke releasering een probleem kan optreden, zodat deze correct kan worden geprioriteerd. |
@@ -174,7 +174,7 @@ De volgende velden worden verzameld:
 
 | Veld            | Beschrijving |
 | ---------------- | ----------- |
-| Versie          | Versie van Microsoft Defender voor Eindpunt voor Mac. |
+| Versie          | Versie van Microsoft Defender voor Eindpunt op macOS. |
 | instance_id      | Unieke id gegenereerd bij opstarten van kernelextensie. |
 | trace_level      | Het niveau van de kernelextensie traceren. |
 | subsysteem        | Het onderliggende subsysteem dat wordt gebruikt voor realtime beveiliging. |
@@ -189,8 +189,8 @@ De volgende velden worden verzameld:
 Diagnostische logboeken worden alleen verzameld met toestemming van de gebruiker als onderdeel van de functie voor het indienen van feedback. De volgende bestanden worden verzameld als onderdeel van de ondersteuningslogboeken:
 
 - Alle bestanden onder */Library/Logs/Microsoft/mdatp/*
-- Subset van bestanden onder */Library/Application Support/Microsoft/Defender/* die worden gemaakt en gebruikt door Microsoft Defender voor Eindpunt voor Mac
-- Subset van bestanden onder */Bibliotheek/Beheerde voorkeuren* die worden gebruikt door Microsoft Defender voor Eindpunt voor Mac
+- Subset van bestanden onder */Bibliotheek/Toepassingsondersteuning/Microsoft/Defender/* die worden gemaakt en gebruikt door Microsoft Defender voor Eindpunt op macOS
+- Subset van bestanden onder */Bibliotheek/Beheerde voorkeuren* die worden gebruikt door Microsoft Defender voor Eindpunt op macOS
 - /Library/Logs/Microsoft/autoupdate.log
 - $HOME/Library/Preferences/com.microsoft.autoupdate2.plist
 
