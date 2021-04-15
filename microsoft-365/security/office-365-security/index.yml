@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentatie over Microsoft 365-beveiliging
-summary: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw onderneming beter kunt beveiligen op meerdere fronten.
+title: Microsoft Defender voor Office 365-documentatie
+summary: Meer informatie over de krachtige beveiligingsoplossingen in Defender voor Office 365 om uw e-mail- en samenwerkingshulpmiddelen beter te beveiligen.
 metadata:
-  title: Documentatie over Microsoft 365-beveiliging
-  description: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw onderneming beter kunt beveiligen op meerdere fronten
+  title: Beveiligingsdocumentatie van Microsoft Defender voor Office 365
+  description: Meer informatie over de krachtige beveiligingsoplossingen in Defender voor Office 365 om uw e-mail- en samenwerkingshulpmiddelen beter te beveiligen.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -11,74 +11,118 @@ metadata:
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
-  ms.date: 09/13/2019
+  ms.date: 04/13/2021
   localization_priority: Priority
-  ms.openlocfilehash: 82fe9cabd7fc5ff3c9b9be1b11db66eb0bea7dde
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+  ms.openlocfilehash: a646d52b903a1ab16d2f552b456793492462c44b
+  ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51203978"
+  ms.lasthandoff: 04/14/2021
+  ms.locfileid: "51760258"
 landingContent:
-- title: Microsoft 365 Defender
+- title: Defender voor Office 365 & Exchange Online Protection
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Microsoft 365 Defender?
-      url: ../defender/microsoft-365-defender.md
-    - text: Microsoft 365-beveiligingscentrum
-      url: ../defender/overview-security-center.md
-- title: Begin met gratis proefversies
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Microsoft 365 Defender evalueren
-      url: ../defender/m365d-evaluation.md
-    - text: Proefversie van Microsoft 365 Defender pilootplaybook
-      url: ../defender/m365d-pilot.md
-- title: Uw externe werknemers beveiligen
+    - text: Overzicht van Office 365-beveiliging
+      url: overview.md
+    - text: Instellen met vooraf ingesteld beveiligingsbeleid in EOP en Defender voor Office 365
+      url: preset-security-policies.md
+- title: Aan de slag met Defender voor Office 365
   linkLists:
   - linkListType: get-started
     links:
-    - text: Uw externe werknemers beveiligen
-      url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
-- title: Microsoft Defender for Identity
+    - text: Beveiligen tegen bedreigingen
+      url: protect-against-threats.md
+    - text: Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365
+      url: preset-security-policies.md
+    - text: Nieuwe functies in Microsoft Defender voor Office 365
+      url: whats-new-in-defender-for-office-365.md
+- title: Defender voor Office 365 evalueren
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Defender voor Office 365 evalueren
+      url: office-365-evaluation.md
+    - text: Overschakelen naar Exchange Online Protection
+      url: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
+- title: E-mailverificatiebeveiliging instellen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: SPF instellen om adresvervalsing te helpen voorkomen
+      url: set-up-spf-in-office-365-to-help-prevent-spoofing.md
+    - text: DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
+      url: use-dkim-to-validate-outbound-email.md
+    - text: DMARC gebruiken om e-mail te valideren
+      url: use-dmarc-to-validate-email.md
+- title: Exchange Online Protection instellen
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Microsoft Defender for Identity?
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
-    - text: Microsoft Defender for Identity-architectuur
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
-- title: Defender voor Office 365
+    - text: Overzicht Exchange Online Protection
+      url: exchange-online-protection-overview.md
+    - text: Aanbevolen instellingen voor EOP- en Microsoft Defender voor Office 365-beveiliging voor het instellen
+      url: recommended-settings-for-eop-and-office365.md
+- title: Voorkomen
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Defender voor Office 365?
-      url: defender-for-office-365.md
-    - text: Beschrijving van Defender voor Office 365-service
-      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Defender voor Eindpunt
+    - text: Uw Microsoft 365-tenant configureren voor meer beveiliging
+      url: tenant-wide-setup-for-increased-security.md
+    - text: Configuratieanalyse in EOP en Defender voor Office 365
+      url: configuration-analyzer-for-security-policies.md
+    - text: Meer inzicht krijgen middels aanvalssimulatietraining
+      url: attack-simulation-training-insights.md
+- title: Detecteren
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Microsoft Defender voor Eindpunt?
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-    - text: Overzicht van mogelijkheden
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
-- title: Azure Defender
+    - text: E-mailstroomregels (transportregels) in standalone EOP
+      url: mail-flow-rules-transport-rules-0.md
+    - text: Bedreigingstrackers
+      url: threat-trackers.md
+    - text: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
+      url: reports-and-insights-in-security-and-compliance.md
+- title: Onderzoeken
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Azure Defender?
-      url: https://docs.microsoft.com/azure/security-center/security-center-intro
-    - text: Ondersteunde functies
-      url: https://docs.microsoft.com/azure/security-center/security-center-services
-- title: Microsoft Cloud App Security
+    - text: Weergaven in Threat Explorer en realtime detecties
+      url: threat-explorer-views.md
+    - text: Campagneweergaven in Microsoft Defender voor Office 365
+      url: campaigns.md
+    - text: Schadelijke e-mail onderzoeken die is bezorgd in Office 365
+      url: investigate-malicious-email-that-was-delivered.md
+    - text: Defender voor Office 365-rapporten weergeven
+      url: view-reports-for-mdo.md
+- title: Onderzoeken in EOP
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Microsoft Cloud App Security?
-      url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
-    - text: Aan de slag met Microsoft Cloud App Security
-      url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
+    - text: Rapportage en bericht traceren in EOP
+      url: reporting-and-message-trace-in-exchange-online-protection.md
+    - text: Het auditlogboek van de beheerder bekijken in standalone EOP
+      url: view-the-admin-audit-log-eop.md
+- title: Beantwoorden
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Schadelijke e-mail herstellen die is bezorgd in Office 365
+      url: remediate-malicious-email-delivered-office-365.md
+    - text: Reageren op een gekromd e-mailaccount
+      url: responding-to-a-compromised-email-account.md
+    - text: Outlook-regels en aangepaste formuliereninjecties herstellen
+      url: detect-and-remediate-outlook-rules-forms-attack.md
+    - text: False Positives/False Negatives verzenden
+      url: admin-submission.md
+- title: Automatiseren
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: How Automated Investigation and Response (AIR) works in Defender for Office 365
+      url: automated-investigation-response-office.md
+    - text: Aan de slag met AIR in Defender voor Office 365
+      url: office-365-air.md
+    - text: Gecompromitteerde gebruikersaccounts met AIR adres
+      url: address-compromised-users-quickly.md
