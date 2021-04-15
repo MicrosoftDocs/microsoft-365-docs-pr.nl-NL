@@ -85,6 +85,65 @@
 ##### [Regels voor het verminderen van aanvalsoppervlakken aanpassen](customize-attack-surface-reduction.md)
 ##### [Gebeurtenissen voor het verminderen van aanvalsoppervlakken bekijken](event-views.md)
 
+### Beveiliging van de volgende generatie
+#### [Overzicht van Microsoft Defender Antivirus](microsoft-defender-antivirus-in-windows-10.md)
+#### [Microsoft Defender Antivirus op Windows Server](microsoft-defender-antivirus-on-windows-server.md)
+#### [Samen beter: Microsoft Defender Antivirus en Microsoft Defender voor Eindpunt](why-use-microsoft-defender-antivirus.md)
+#### [Samen beter: Microsoft Defender Antivirus en Office 365](office-365-microsoft-defender-antivirus.md)
+#### [Door de cloud geleverde beveiliging en Microsoft Defender Antivirus](cloud-protection-microsoft-defender-antivirus.md)
+#### [Microsoft Defender Antivirus evalueren](evaluate-microsoft-defender-antivirus.md)
+#### [Microsoft Defender Antivirus-functies configureren](configure-microsoft-defender-antivirus-features.md)
+##### [Door cloud geleverde beveiliging inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md)
+##### [Niveau voor door cloud geleverde beveiliging opgeven](specify-cloud-protection-level-microsoft-defender-antivirus.md)
+##### [Netwerkverbindingen van Microsoft Defender Antivirus configureren en valideren](configure-network-connections-microsoft-defender-antivirus.md)
+##### [Beveiligingsinstellingen beveiligen tegen onrechtmatig wijzigen](prevent-changes-to-security-settings-with-tamper-protection.md)
+##### [Blokkeren op het eerste gezicht inschakelen](configure-block-at-first-sight-microsoft-defender-antivirus.md)
+##### [De time-outperiode voor cloudblokkering configureren](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
+##### [Gedrag, heuristiek en realtime bescherming configureren](configure-protection-features-microsoft-defender-antivirus.md)
+##### [Mogelijk ongewenste toepassingen detecteren en blokkeren](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
+##### [Always-on beveiliging van Microsoft Defender Antivirus inschakelen en configureren in Groepsbeleid](configure-real-time-protection-microsoft-defender-antivirus.md)
+##### [Herstel configureren voor Microsoft Defender Antivirus-detecties](configure-remediation-microsoft-defender-antivirus.md)
+##### [Geplande snelle of volledige Microsoft Defender Antivirus-scans configureren](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+##### [Beperkt periodiek scannen gebruiken in Microsoft Defender Antivirus](limited-periodic-scanning-microsoft-defender-antivirus.md)
+#### [Compatibiliteit met andere beveiligingsproducten](microsoft-defender-antivirus-compatibility.md)
+
+#### [Uw antivirus- en antimalwareupdates downloaden](manage-updates-baselines-microsoft-defender-antivirus.md)
+##### [De bronnen beheren voor updates voor de Microsoft Defender Antivirus-beveiliging](manage-protection-updates-microsoft-defender-antivirus.md)
+##### [Het schema beheren voor wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+##### [Microsoft Defender Antivirus-updates en scans beheren voor verouderde eindpunten](manage-outdated-endpoints-microsoft-defender-antivirus.md)
+##### [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md)
+##### [Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+
+#### [Microsoft Defender Antivirus voor uw organisatie beheren](configuration-management-reference-microsoft-defender-antivirus.md)
+##### [Microsoft Endpoint Manager gebruiken om Microsoft Defender Antivirus te beheren](use-intune-config-manager-microsoft-defender-antivirus.md)
+##### [Groepsbeleidsinstellingen gebruiken om Microsoft Defender Antivirus te beheren](use-group-policy-microsoft-defender-antivirus.md)
+##### [PowerShell-cmdlets gebruiken om Microsoft Defender Antivirus te beheren](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+##### [Windows Management Instrumentation (WMI) gebruiken om Microsoft Defender Antivirus te beheren](use-wmi-microsoft-defender-antivirus.md)
+##### [Het hulpprogramma mpcmdrun.exe gebruiken om Microsoft Defender Antivirus te beheren](command-line-arguments-microsoft-defender-antivirus.md)
+
+#### [Implementeren en rapporteren in Microsoft Defender Antivirus](deploy-manage-report-microsoft-defender-antivirus.md)
+##### [Microsoft Defender Antivirus implementeren en inschakelen](deploy-microsoft-defender-antivirus.md)
+##### [Implementatiehandleiding voor Microsoft Defender Antivirus in een VDI-omgeving (Virtual Desktop Infrastructure)](deployment-vdi-microsoft-defender-antivirus.md)
+##### [Rapporteren in Microsoft Defender Antivirus](report-monitor-microsoft-defender-antivirus.md)
+
+#### [Scans en herstel](review-scan-results-microsoft-defender-antivirus.md)
+##### [Microsoft Defender Antivirus-scans op aanvraag configureren en uitvoeren](run-scan-microsoft-defender-antivirus.md)
+##### [De resultaten van een Microsoft Defender Offline-scan uitvoeren en bekijken](microsoft-defender-offline.md)
+##### [Microsoft Defender Antivirus-scanopties configureren](configure-advanced-scan-types-microsoft-defender-antivirus.md)
+##### [Bestanden in quarantaine herstellen in Microsoft Defender Antivirus](restore-quarantined-files-microsoft-defender-antivirus.md)
+
+#### [Microsoft Defender Antivirus-uitsluitingen](configure-exclusions-microsoft-defender-antivirus.md)
+##### [Uitsluitingen op basis van bestandsextensie en maplocatie](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
+##### [Uitsluitingen voor bestanden die door processen worden geopend](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
+##### [Uitsluitingen voor Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+##### [Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+
+#### Problemen met Microsoft Defender Antivirus oplossen
+##### [Problemen met Microsoft Defender Antivirus-rapportage oplossen in Naleving van updates](troubleshoot-reporting.md)
+##### [Gebeurtenislogboeken en foutcodes bekijken voor het oplossen van problemen met Microsoft Defender Antivirus](troubleshoot-microsoft-defender-antivirus.md)
+##### [Problemen met Microsoft Defender Antivirus oplossen die optreden tijdens migratie vanuit een externe oplossing](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
+
+
 #### [Hardwaregebaseerde isolatie]()
 ##### [Hardwaregebaseerde isolatie in Windows 10](overview-hardware-based-isolation.md)
 
@@ -115,16 +174,23 @@
 ##### [Beheerde maptoegang inschakelen](enable-controlled-folders.md)
 ##### [Beheerde maptoegang aanpassen](customize-controlled-folders.md)
 
+
+### [Apparaatdetectie]()
+#### [Overzicht van apparaatdetectie](device-discovery.md)
+#### [Apparaatdetectie configureren](configure-device-discovery.md)
+#### [Veelgestelde vragen over apparaatdetectie](device-discovery-faq.md)
+
+
 ### [Netwerkapparaten](network-devices.md)
 
-### [Microsoft Defender voor Eindpunt voor Mac]()
-#### [Overzicht van Microsoft Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md)
+### [Microsoft Defender voor Eindpunt op macOS]()
+#### [Overzicht van Microsoft Defender voor Eindpunt op macOS](microsoft-defender-endpoint-mac.md)
 #### [Nieuw](mac-whatsnew.md)
 
 #### [Implementeren]()
 ##### [Implementatie op basis van Microsoft Intune](mac-install-with-intune.md)
 ##### [Implementatie op basis van JAMF Pro]()
-###### [Microsoft Defender voor Eindpunt voor macOS implementeren met Jamf Pro](mac-install-with-jamf.md)
+###### [Microsoft Defender voor Eindpunt op macOS implementeren met Jamf Pro](mac-install-with-jamf.md)
 ###### [Aanmelden bij Jamf Pro](mac-install-jamfpro-login.md)
 ###### [Apparaatgroepen instellen](mac-jamfpro-device-groups.md)
 ###### [Beleidsregels instellen](mac-jamfpro-policies.md)
@@ -154,19 +220,19 @@
 #### [Privacy](mac-privacy.md)
 #### [Resources](mac-resources.md)
 
-### [Microsoft Defender voor Eindpunt voor iOS]()
-#### [Overzicht van Microsoft Defender voor Eindpunt voor iOS](microsoft-defender-endpoint-ios.md)
+### [Microsoft Defender voor Eindpunt op iOS]()
+#### [Overzicht van Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md)
 
 #### [Implementeren]()
-##### [Microsoft Defender voor Eindpunt voor iOS implementeren via Intune](ios-install.md)
+##### [Microsoft Defender voor Eindpunt op iOS implementeren via Intune](ios-install.md)
 
 #### [Configureren]()
 ##### [iOS-functies configureren](ios-configure-features.md)
 #### [Privacy](ios-privacy.md)
 
 
-### [Microsoft Defender voor Eindpunt voor Linux]()
-#### [Overzicht van Microsoft Defender voor Eindpunt voor Linux](microsoft-defender-endpoint-linux.md)
+### [Microsoft Defender voor Eindpunt op Linux]()
+#### [Overzicht van Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md)
 #### [Wat is er nieuw](linux-whatsnew.md)
 #### [Implementeren]()
 ##### [Handmatige implementatie](linux-install-manually.md)
@@ -180,7 +246,7 @@
 ##### [Statische proxyconfiguratie](linux-static-proxy-configuration.md)
 ##### [Voorkeuren instellen](linux-preferences.md)
 ##### [Mogelijk ongewenste toepassingen detecteren en blokkeren](linux-pua.md)
-##### [Scans plannen met Microsoft Defender voor Eindpunt voor Linux](linux-schedule-scan-atp.md)
+##### [Scans plannen met Microsoft Defender voor Eindpunt op Linux](linux-schedule-scan-atp.md)
 ##### [Een update van Microsoft Defender voor Eindpunt (Linux) plannen](linux-update-MDE-Linux.md)
 
 #### [Problemen oplossen]()
@@ -192,17 +258,17 @@
 #### [Privacy](linux-privacy.md)
 #### [Resources](linux-resources.md)
 
-### [Microsoft Defender voor Eindpunt voor Android]()
-#### [Overzicht van Microsoft Defender voor Eindpunt voor Android](microsoft-defender-endpoint-android.md)
+### [Microsoft Defender voor Eindpunt op Android]()
+#### [Overzicht van Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md)
 
 #### [Implementeren]()
-##### [Microsoft Defender voor Eindpunt voor Android implementeren via Microsoft Intune](android-intune.md)
+##### [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
 
 #### [Configureren]()
-##### [Microsoft Defender voor Eindpunt voor Android-functies configureren](android-configure.md)
+##### [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
 
 #### [Privacy]()
-##### [Microsoft Defender voor Eindpunt voor Android - Privacyinformatie](android-privacy.md)
+##### [Microsoft Defender voor Eindpunt op Android - Privacyinformatie](android-privacy.md)
 
 #### [Problemen oplossen]()
 ##### [Problemen oplossen](android-support-signin.md)

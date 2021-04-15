@@ -19,58 +19,42 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
-description: Meer informatie over het gebruik van filters voor het maken, bewerken of verwijderen van aangepaste gebruikersweergave in Microsoft 365.
-ms.openlocfilehash: 598a167b9845f763ddab57d3c5ba36e431aa751c
-ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
+description: Lees hoe u filters gebruikt om aangepaste gebruikersweergave te maken, bewerken of verwijderen in Microsoft 365.
+ms.openlocfilehash: 4bd4ea351612c2ae5175cd27fa7a689d671a8b62
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44664572"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755570"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view"></a>Een aangepaste gebruikersweergave maken, bewerken of verwijderen
 
-Als u een globale of gebruikersbeheerbeheerder bent van een Microsoft 365 voor bedrijven-abonnement, u aangepaste gebruikersweergaven maken om een specifieke subset van gebruikers weer te geven. Deze weergaven zijn in aanvulling op de standaard set van weergaven. U kunt aangepaste gebruikersweergaven maken, bewerken of verwijderen en de aangepaste weergaven die u maakt, zijn beschikbaar voor alle beheerders.
+Als u een globale beheerder of beheerder van gebruikersbeheer bent van een Microsoft 365 voor Bedrijven-abonnement, kunt u aangepaste gebruikersweergaven maken om een specifieke subset van gebruikers weer te geven. Deze weergaven komen bovenop de standaardset weergaven. U kunt aangepaste gebruikersweergaven maken, bewerken of verwijderen en de aangepaste weergaven die u maakt, zijn beschikbaar voor alle beheerders.
   
 ## <a name="custom-user-views-in-the-admin-center"></a>Aangepaste gebruikersweergaven in het beheercentrum
 
-::: moniker range="o365-worldwide"
-
-Wanneer u een aangepaste gebruikersweergave maakt, bewerkt of verwijdert, worden de wijzigingen weergegeven in de **lijst Filter** die alle beheerders in uw bedrijf zien wanneer ze naar de pagina **Gebruikers** gaan. U kunt maximaal vijftig aangepaste weergaven maken. 
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Wanneer u een aangepaste gebruikersweergave maakt, bewerkt of verwijdert, worden de wijzigingen weergegeven in de lijst **Weergaven** die alle beheerders in uw bedrijf zien wanneer ze naar de pagina **Gebruikers** gaan. U kunt maximaal vijftig aangepaste weergaven maken. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-Wanneer u een aangepaste gebruikersweergave maakt, bewerkt of verwijdert, worden de wijzigingen weergegeven in de lijst **Weergaven** die alle beheerders in uw bedrijf zien wanneer ze naar de pagina **Gebruikers** gaan. U kunt maximaal vijftig aangepaste weergaven maken. 
-
-::: moniker-end
+Wanneer u een aangepaste gebruikersweergave maakt, bewerkt of verwijdert, worden de wijzigingen weergegeven in de lijst **Filter** die alle beheerders in uw bedrijf zien wanneer ze naar de pagina **Gebruikers** gaan. U kunt maximaal vijftig aangepaste weergaven maken. 
 
 > [!TIP]
->  Standaard worden standaardgebruikersweergaven weergegeven in de vervolgkeuzelijst **Filters**. De standaardfilters omvatten **Alle gebruikers**, **Gelicentieerde gebruikers**, **Gastgebruikers**, **Aanmelding toegestaan**, **Aanmelden geblokkeerd,** Gebruikers zonder **licentie**, Gebruikers met fouten , **Facturering admins**, **Globale beheerders,** **Helpdesk admins**, **Service admins**, en **User management admins**. **Users with errors** U kunt standaardweergaven niet bewerken of verwijderen. 
+>  Standaard worden standaardgebruikersweergaven weergegeven in de vervolgkeuzelijst **Filters**. De **standaardfilters** zijn Alle gebruikers **,** Gelicentieerde gebruikers **,** **Gastgebruikers** **,** Aanmelding toegestaan **,** Aanmelding geblokkeerd , Gebruikers zonder licentie **,** Gebruikers met fouten , **Factureringsbeheerders**, **Globale beheerders**, **Helpdeskbeheerders**, **Servicebeheerders** en Beheerders van **gebruikersbeheer**. U kunt standaardweergaven niet bewerken of verwijderen. 
 
 Let op het volgende in verband met standaardweergaven: 
 
 - In bepaalde standaardweergaven wordt een ongesorteerde lijst weergegeven als de lijst meer dan 2.000 gebruikers bevat. Via het zoekvak kunt u vervolgens zoeken naar specifieke gebruikers in deze lijst. 
-- Als u Microsoft 365 niet van Microsoft hebt gekocht, worden **factureringsbeheerders** niet weergegeven in de lijst met standaardweergaven. Zie [Beheerdersrollen toewijzen](assign-admin-roles.md) voor meer informatie. 
+- Als u Microsoft 365 niet bij Microsoft hebt gekocht, worden **factureringsbeheerders** niet weergegeven in de lijst met standaardweergaven. Zie [Beheerdersrollen toewijzen](assign-admin-roles.md) voor meer informatie. 
   
 ## <a name="choose-the-filters-for-your-custom-user-view"></a>Kies de filters voor de aangepaste gebruikersweergave
 
-U uw aangepaste weergaven maken en bewerken in het **filtervenster Aangepast.** Als u meerdere filteropties selecteert, bevatten de resultaten de gebruikers die voldoen aan alle geselecteerde criteria. In het volgende voorbeeld ziet u hoe u een aangepaste weergave met de naam 'Canadese gebruikers' maakt, waarin alle gebruikers worden weergegeven op een specifiek domein en in Canada. 
+U kunt uw aangepaste weergaven maken en bewerken in **het deelvenster Aangepast filter.** Als u meerdere filteropties selecteert, bevatten de resultaten de gebruikers die voldoen aan alle geselecteerde criteria. In het volgende voorbeeld ziet u hoe u een aangepaste weergave met de naam 'Canadese gebruikers' maakt, waarin alle gebruikers worden weergegeven op een specifiek domein en in Canada. 
 
   
- **A - Domein** Als u meerdere domeinen voor uw organisatie hebt, u kiezen uit een vervolgkeuzelijst met beschikbare domeinen. 
+ **A - Domein** Als u meerdere domeinen voor uw organisatie hebt, kunt u kiezen uit een vervolgkeuzelijst met beschikbare domeinen. 
   
  **B - Aanmeldingsstatus** Kies gebruikers die zijn toegestaan of geblokkeerd. 
   
- **C - Locatie** Kies een locatie uit een vervolgkeuzelijst met landen. 
+ **C - Locatie** Kies een locatie in een vervolgkeuzelijst met landen. 
   
- **D - Toegewezen productlicentie** Kies uit een vervolgkeuzelijst met licenties die beschikbaar zijn in uw organisatie. Gebruik dit filter als u gebruikers wilt weergeven waaraan de geselecteerde licentie is toegewezen. Gebruikers kunnen meerdere licenties hebben. 
+ **D - Productlicentie toegewezen** Kies uit een vervolgkeuzelijst met licenties die beschikbaar zijn in uw organisatie. Gebruik dit filter als u gebruikers wilt weergeven waaraan de geselecteerde licentie is toegewezen. Gebruikers kunnen meerdere licenties hebben. 
   
 Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebruikt in uw organisatie, zoals afdeling, plaats, staat of provincie, land of regio, of functie.
   
@@ -82,14 +66,14 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
     
 - **Gebruikers zonder licentie** Selecteer dit vakje als u alle gebruikers wilt weergeven waaraan geen licentie is toegewezen. Het resultaat van deze weergave kan ook gebruikers omvatten die een Exchange-postvak hebben maar geen licentie. Als u deze gebruikers specifiek wilt opsporen, gebruikt u het filter **Gebruikers zonder licentie met Exchange-postvakken of -archieven**. Het resultaat van deze weergave kan ook gebruikers omvatten die een Exchange-archief hebben maar geen licentie.
     
-- **Gebruikers zonder licentie met Exchange-postvakken of archieven** Selecteer dit vak om gebruikersaccounts weer te geven die zijn gemaakt in Exchange Online en een Exchange-postvak te hebben, maar waaraan geen Microsoft 365-licentie is toegewezen. De resultaten van dit filter omvatten gebruikers met een Exchange-archief of waaraan een archief is toegewezen. 
+- **Gebruikers zonder vergunning met Exchange-postvakken of archieven** Schakel dit vakje in om gebruikersaccounts weer te geven die zijn gemaakt in Exchange Online en een Exchange-postvak hebben, maar die geen Microsoft 365-licentie hebben gekregen. De resultaten van dit filter omvatten gebruikers met een Exchange-archief of waaraan een archief is toegewezen. 
 
 > [!NOTE]
-> Het **filter Gebruikers zonder licentie met exchange-postvakken** werkt wanneer:
-1. Het postvak is onlangs geconverteerd van **gedeeld** naar **gebruiker** en het heeft geen licentie.
-2. Het postvak is onlangs gemigreerd naar Microsoft 365, maar een licentie is niet toegewezen.
+> Het **filter Niet-gelicenseerde gebruikers met** Exchange-postvakken werkt als:
+1. Het postvak is onlangs geconverteerd van **gedeeld** naar **gebruiker** en heeft geen licentie.
+2. Het postvak is onlangs gemigreerd naar Microsoft 365, maar er is geen licentie toegewezen.
 3. Het postvak is gemaakt met PowerShell en er is geen licentie toegewezen.
-4. Een nieuw postvak dat on-premise is gemaakt met een cmdlet new-remotemailbox is ingericht voor de gebruiker.
+4. Een nieuw postvak dat on-premises is gemaakt met een New-RemoteMailbox cmdlet is ingericht voor de gebruiker.
     
 > [!TIP]
 > Als u een aangepaste weergave maakt die meer dan 2.000 gebruikers oplevert, is de resulterende lijst ongesorteerd. Gebruik in dit geval het zoekvak om gebruikers te zoeken of uw aangepaste weergave te bewerken om uw zoekopdracht te verfijnen. 
@@ -98,32 +82,32 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Gebruikers actieve gebruikers</a>.
+1. Ga in het beheercentrum naar **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers.</a>
     
-2. Selecteer op de pagina **Actieve gebruikers** de optie **Filters** en selecteer **Nieuw filter**.
+2. Selecteer op **de pagina** Actieve gebruikers de **optie Filters** en selecteer **Nieuw filter.**
   
-3. Voer op de pagina **Aangepast filter** de naam voor het filter in, kies de voorwaarden voor het aangepaste filter en selecteer **Toevoegen**. Uw aangepaste weergave is nu opgenomen in de vervolgkeuzelijst met filters.
+3. Voer op **de pagina** Aangepast filter de naam voor het filter in, kies de voorwaarden voor het aangepaste filter en selecteer **vervolgens Toevoegen.** Uw aangepaste weergave wordt nu opgenomen in de vervolgkeuzelijst met filters.
     
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Gebruikers actieve gebruikers</a>.  
+1. Ga in het beheercentrum naar **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers.</a>  
 
-2. Selecteer **weergaven op** de pagina **Actieve gebruikers** en selecteer Aangepaste **weergave toevoegen**.
+2. Selecteer op **de pagina Actieve** gebruikers **weergaven** en selecteer **Aangepaste weergave toevoegen.**
   
-3. Voer op de pagina **Aangepaste weergave** de naam voor het filter in, kies de voorwaarden voor het aangepaste filter en selecteer **Toevoegen**. Uw aangepaste weergave is nu opgenomen in de vervolgkeuzelijst met filters.
+3. Voer op **de pagina** Aangepaste weergave de naam voor het filter in, kies de voorwaarden voor uw aangepaste filter en selecteer **vervolgens Toevoegen.** Uw aangepaste weergave wordt nu opgenomen in de vervolgkeuzelijst met filters.
 
 ::: moniker-end
 
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Gebruikers actieve gebruikers</a>. 
+1. Ga in het beheercentrum naar **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers.</a> 
 
-2. Selecteer **weergaven op** de pagina **Actieve gebruikers** en selecteer Aangepaste **weergave toevoegen**.
+2. Selecteer op **de pagina Actieve** gebruikers **weergaven** en selecteer **Aangepaste weergave toevoegen.**
   
-3. Voer op de pagina **Aangepaste weergave** de naam voor het filter in, kies de voorwaarden voor het aangepaste filter en selecteer **Toevoegen**. Uw aangepaste weergave is nu opgenomen in de vervolgkeuzelijst met filters.
+3. Voer op **de pagina** Aangepaste weergave de naam voor het filter in, kies de voorwaarden voor uw aangepaste filter en selecteer **vervolgens Toevoegen.** Uw aangepaste weergave wordt nu opgenomen in de vervolgkeuzelijst met filters.
 
 ::: moniker-end
     
@@ -132,40 +116,40 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Gebruikers actieve gebruikers</a>.
+1. Ga in het beheercentrum naar **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers.</a>
     
-2. Selecteer op de pagina **Actieve gebruikers** **Filter,** selecteer het filter dat u wilt wijzigen en selecteer **vervolgens Filter bewerken**. 
+2. Selecteer op **de pagina** Actieve gebruikers de optie **Filter,** selecteer het filter dat u wilt wijzigen en selecteer **vervolgens Filter bewerken.** 
     
     > [!TIP]
     > U kunt alleen aangepaste weergaven bewerken. 
   
-3. Bewerk de informatie op de pagina **Aangepast filter** des nodige informatie en selecteer **Opslaan**. Of selecteer onder aan de pagina verwijderen als u het filter **wilt**verwijderen. 
+3. Bewerk **de gegevens op** de pagina Aangepast filter zo nodig en selecteer **opslaan.** Of als u het filter wilt verwijderen, selecteert u onder aan de pagina **Verwijderen.** 
     
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Gebruikers actieve gebruikers</a>.  
+1. Ga in het beheercentrum naar **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers.</a>  
 
-2. Selecteer op de pagina **Actieve gebruikers** **weergaven,** selecteer het filter dat u wilt wijzigen en selecteer **Deze weergave bewerken**. 
+2. Selecteer op **de pagina** Actieve gebruikers **weergaven,** selecteer het filter dat u wilt wijzigen en selecteer vervolgens Deze **weergave bewerken.** 
     
     > [!TIP]
     > U kunt alleen aangepaste weergaven bewerken. 
   
-3. Bewerk de informatie op de pagina **Aangepaste weergave** indien nodig en selecteer **Opslaan**. Als u het filter wilt verwijderen, selecteert u onder aan de pagina **aangepaste weergave verwijderen.** 
+3. Bewerk **de gegevens zo** nodig op de pagina Aangepaste weergave en selecteer **opslaan.** Of als u het filter wilt verwijderen, selecteert u onder aan de pagina **Aangepaste weergave verwijderen.** 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Gebruikers actieve gebruikers</a>. 
+1. Ga in het beheercentrum naar **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers.</a> 
 
-2. Selecteer op de pagina **Actieve gebruikers** **weergaven,** selecteer het filter dat u wilt wijzigen en selecteer **Deze weergave bewerken**. 
+2. Selecteer op **de pagina** Actieve gebruikers **weergaven,** selecteer het filter dat u wilt wijzigen en selecteer vervolgens Deze **weergave bewerken.** 
     
     > [!TIP]
     > U kunt alleen aangepaste weergaven bewerken. 
   
-3. Bewerk de informatie op de pagina **Aangepaste weergave** indien nodig en selecteer **Opslaan**. Als u het filter wilt verwijderen, selecteert u onder aan de pagina **aangepaste weergave verwijderen.** 
+3. Bewerk **de gegevens zo** nodig op de pagina Aangepaste weergave en selecteer **opslaan.** Of als u het filter wilt verwijderen, selecteert u onder aan de pagina **Aangepaste weergave verwijderen.** 
 
 ::: moniker-end
 

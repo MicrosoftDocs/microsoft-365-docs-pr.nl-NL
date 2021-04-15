@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 72d368cd92739e191dcb292000b8429a472aa981
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 2d2bf18c6cacb377e710f34b74ec8f83bb77d3b1
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498438"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760062"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Incidenten beheren in Microsoft 365 Defender
 
@@ -37,49 +37,63 @@ ms.locfileid: "51498438"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
+Incidentbeheer is essentieel om ervoor te zorgen dat bedreigingen worden opgenomen en aangepakt.
 
+U beheert incidenten van **incidenten & waarschuwingen > incidenten** tijdens de snelle lancering van het Microsoft 365-beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com) Hier is een voorbeeld.
 
-Het beheren van incidenten is essentieel om ervoor te zorgen dat bedreigingen worden opgenomen en aangepakt. In Microsoft 365 Defender hebt u toegang tot het beheren van incidenten op apparaten, gebruikers en postvakken. 
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Voorbeeld van de incidentwachtrij":::
 
+Dit zijn de manieren waarop u uw incidenten kunt beheren:
 
-U kunt incidenten beheren door een incident te selecteren in de **wachtrij Incidenten.** 
+- De naam van het incident wijzigen
+- Voeg incidentlabels toe.
+- Het incident toewijzen aan een gebruikersaccount
+- Deze oplossen 
+- De classificatie en bepaling ervan instellen
+- Opmerkingen toevoegen.
 
-U kunt de naam van een incident bewerken, oplossen, de classificatie en bepaling ervan instellen. U kunt het incident ook aan uzelf toewijzen, incidentlabels en opmerkingen toevoegen.
+U kunt incidenten beheren vanuit het deelvenster **Incident beheren** voor een incident. Hier is een voorbeeld.
 
-In gevallen waarin u tijdens het onderzoeken waarschuwingen van het ene incident naar het andere wilt verplaatsen, kunt u dit ook doen via het tabblad Waarschuwingen, waardoor een groter of kleiner incident wordt gemaakt met alle relevante waarschuwingen.
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-manage.png" alt-text="Voorbeeld van het deelvenster Incident beheren van een incident":::
 
-## <a name="edit-incident-name"></a>Naam van incident bewerken
-Incidenten krijgen automatisch een naam toegewezen op basis van waarschuwingskenmerken, zoals het aantal betrokken eindpunten, beïnvloede gebruikers, detectiebronnen of categorieën. Hierdoor kunt u snel inzicht krijgen in het bereik van het incident.
+U kunt dit deelvenster weergeven via de koppeling **Incident beheren** op het volgende:
 
-Bijvoorbeeld: *incident met meerdere fases op meerdere eindpunten die door meerdere bronnen zijn gerapporteerd.*
+- Deelvenster Eigenschappen van een incident in de incidentwachtrij.
+- **Overzichtspagina** van een incident.
 
-U kunt de naam van het incident wijzigen om beter af te stemmen op de naamgevingsconventie van uw voorkeur.
+In gevallen waarin u tijdens het onderzoek waarschuwingen van het ene incident  naar het andere wilt verplaatsen, kunt u dit ook doen via het tabblad Waarschuwingen, waardoor een groter of kleiner incident wordt gemaakt dat alle relevante waarschuwingen bevat.
+
+## <a name="edit-the-incident-name"></a>De naam van het incident bewerken
+
+Incidenten krijgen automatisch een naam toegewezen op basis van waarschuwingskenmerken, zoals het aantal betrokken eindpunten, beïnvloede gebruikers, detectiebronnen of categorieën. Hierdoor kunt u snel inzicht krijgen in het bereik van het incident. Bijvoorbeeld: *incident met meerdere fases op meerdere eindpunten die door meerdere bronnen zijn gerapporteerd.*
+
+U kunt de naam van het incident bewerken vanuit het **veld Incidentnaam** in **het deelvenster Incident** beheren.
 
 > [!NOTE]
 > Incidenten die vóór de implementatie van de functie voor automatische naamgeving van incidenten hebben bestaan, behouden hun naam.
 
+## <a name="add-incident-tags"></a>Incidentlabels toevoegen
 
+U kunt aangepaste tags toevoegen aan een incident, bijvoorbeeld om een vlag toe te voegen aan een groep incidenten met een gemeenschappelijke eigenschap. U kunt de wachtrij voor incidenten later filteren op alle incidenten die een specifieke tag bevatten.
+
+Wanneer u begint te typen, hebt u de optie om te selecteren in een lijst met geselecteerde tags.
 
 ## <a name="assign-incidents"></a>Incidenten toewijzen
-Als er nog geen incident is toegewezen, kunt u Toewijzen aan **mij** selecteren om het incident aan uzelf toe te wijzen. Als u dit doet, wordt ervan uit gegaan dat u niet alleen eigenaar bent van het incident, maar ook van alle waarschuwingen die aan het incident zijn gekoppeld.
 
-## <a name="set-status-and-classification"></a>Status en classificatie instellen
-### <a name="incident-status"></a>Incidentstatus
-U kunt incidenten categoriseren (als **Actief** of **Opgelost)** door hun status te wijzigen naarmate het onderzoek vordert. Op deze manier kunt u organiseren en beheren hoe uw team kan reageren op incidenten.
+Als er nog geen incident is toegewezen, kunt u Toewijzen **aan** selecteren en het gebruikersaccount opgeven. Als u dit doet, worden de eigenaar van het incident en alle waarschuwingen die aan het incident zijn gekoppeld, toegewezen.
 
-Uw SOC-analist kan bijvoorbeeld de **urgente** Actieve incidenten van vandaag bekijken en besluiten deze aan zichzelf toe te wijzen voor onderzoek.
+## <a name="resolve-incident"></a>Incident oplossen
 
-Uw SOC-analist kan het incident ook instellen als **Opgelost** als het incident is opgelost. Door een incident op te lossen, worden automatisch alle waarschuwingen gesloten die deel uitmaken van het incident en worden ze nog steeds geopend. 
+Als het incident is opgelost, selecteert u **Incident oplossen** om de schakelknop naar rechts te verplaatsen. Het oplossen van een incident lost ook alle gekoppelde en actieve waarschuwingen met betrekking tot het incident op.
 
-### <a name="classification-and-determination"></a>Classificatie en bepaling
-U kunt ervoor kiezen geen classificatie in te stellen of te bepalen of een incident waar of onwaar is. Als u dit doet, kan het team patronen zien en er van leren. 
+Een incident dat niet is opgelost, wordt weergegeven als **Actief**.
+
+## <a name="set-the-classification-and-determination"></a>De classificatie en bepaling instellen
+
+De incidentclassificatie is of het een echte waarschuwing of een onwaar waarschuwing was, die u configureert vanuit het **veld Classificatie.** 
+
+Als het een echte waarschuwing was, moet u ook opgeven welk type bedreiging het was met het **veld Bepaling.** Als u het type bedreiging opgeeft, kan uw beveiligingsteam bedreigingspatronen zien en uw organisatie tegen hen beschermen. 
 
 ## <a name="add-comments"></a>Opmerkingen toevoegen
-U kunt opmerkingen toevoegen en historische gebeurtenissen over een incident bekijken om eerdere wijzigingen in het incident weer te geven.
 
-Wanneer een wijziging of opmerking wordt aangebracht in een waarschuwing, wordt deze opgenomen in de sectie Opmerkingen en geschiedenis.
-
-Toegevoegde opmerkingen worden direct weergegeven in het deelvenster.
-
-## <a name="add-incident-tags"></a>Incidentlabels toevoegen
-U kunt aangepaste tags toevoegen aan een incident, bijvoorbeeld om een vlag toe te voegen aan een groep incidenten met een gemeenschappelijke eigenschap. U kunt later de wachtrij voor incidenten filteren op alle incidenten die een specifieke tag bevatten.
+U kunt meerdere opmerkingen toevoegen aan een incident met **het** veld Opmerking. Elke opmerking wordt toegevoegd aan de historische gebeurtenissen van het incident. U kunt de opmerkingen en geschiedenis van een incident zien via de koppeling **Opmerkingen en geschiedenis** op de **pagina** Overzicht.

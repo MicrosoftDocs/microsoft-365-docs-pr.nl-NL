@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9b00d81d3d51c343565ec4eb743181baa2750b01
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 79f5837ae6bae6e6a9d952d90605f4cf7b31262e
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687731"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765129"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Microsoft Defender voor Eindpunt instellen voor macOS-beleid in Jamf Pro
 
@@ -32,7 +32,7 @@ ms.locfileid: "51687731"
 
 **Van toepassing op:**
 
-- [Defender voor Eindpunt voor Mac](microsoft-defender-endpoint-mac.md)
+- [Defender voor Eindpunt op Mac](microsoft-defender-endpoint-mac.md)
 
 Deze pagina begeleidt u bij de stappen die u moet ondernemen om macOS-beleid in Te stellen in Jamf Pro.
 
@@ -731,8 +731,10 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
 U kunt ook [netfilter.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) downloaden en uploaden naar JAMF-configuratieprofielen zoals beschreven in Aangepaste configuratieprofielen implementeren met [Jamf Pro| Methode 2: Een configuratieprofiel uploaden naar Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
+
 ## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>Stap 10: Scans plannen met Microsoft Defender voor Eindpunt op macOS
 Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt op macOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp).
+
 
 ## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>Stap 11: Microsoft Defender voor eindpunt implementeren in macOS
 

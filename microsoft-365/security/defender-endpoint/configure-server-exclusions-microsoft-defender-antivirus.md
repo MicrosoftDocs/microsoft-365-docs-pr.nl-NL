@@ -9,18 +9,18 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.date: 02/10/2021
-ms.openlocfilehash: 555daac32b202b0b9f46c4f19fa6e4b04bcadda3
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 507edb980f671b2f39403cc41e540150f5e82891
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690049"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764339"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender Antivirus-uitsluitingen configureren op Windows Server
 
@@ -339,6 +339,6 @@ In deze sectie worden de mapuitsluitingen vermeld die automatisch worden gelever
 - [Uitsluitingen configureren en valideren voor Antivirusscans van Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
 - [Uitsluitingen configureren en valideren op basis van bestandsnaam, extensie en maplocatie](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Uitsluitingen configureren en valideren voor bestanden die zijn geopend door processen](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Veelvoorkomende fouten om te voorkomen bij het definiëren van uitsluitingen](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+- [Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen](common-exclusion-mistakes-microsoft-defender-antivirus.md)
 - [De resultaten van Microsoft Defender Antivirus scans en herstel aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

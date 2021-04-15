@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2aa592e70bce7bb469f851bedc542ee58cac0037
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 83b9eec37648ba48aa8e6931e836e8a5e22458c8
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498666"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51760024"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -37,7 +37,7 @@ ms.locfileid: "51498666"
 
 
 
-De tabel in het geavanceerde schema bevat informatie over activiteiten in verschillende cloud-apps en -services die worden bestreken door Microsoft Cloud App Security, met name `CloudAppEvents` Dropbox, Exchange Online, [](advanced-hunting-overview.md) OneDrive, Microsoft Teams en SharePoint. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De `CloudAppEvents` tabel in het geavanceerde schema [bevat](advanced-hunting-overview.md) informatie over activiteiten in verschillende cloud-apps en -services die worden gedekt door Microsoft Cloud App Security. Voor een volledige lijst gaat u naar [Apps en services die worden behandeld.](#apps-and-services-covered) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren. 
 
 >[!IMPORTANT]
 >Deze tabel bevat informatie die beschikbaar was in de `AppFileEvents` tabel. Vanaf 7 maart 2021 moeten gebruikers die op zoek zijn naar bestandsgerelateerde activiteiten in cloudservices op en na deze datum, de tabel `CloudAppEvents` gebruiken. <br><br>Zoek naar query's en aangepaste detectieregels die de tabel nog steeds gebruiken en bewerk ze om `AppFileEvents` de tabel te `CloudAppEvents` gebruiken. Meer richtlijnen over het converteren van beïnvloede query's vindt u in [Hunt voor cloud-app-activiteiten met microsoft 365 Defender advanced hunting](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857).
@@ -45,7 +45,7 @@ De tabel in het geavanceerde schema bevat informatie over activiteiten in versch
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
-| Kolomnaam | Gegevenstype | Omschrijving |
+| Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
 | `ActionType` | tekenreeks | Type activiteit dat de gebeurtenis heeft geactiveerd |
@@ -71,6 +71,19 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `RawEventData` | tekenreeks | Onbewerkte gebeurtenisgegevens uit de brontoepassing of -service in JSON-indeling |
 | `AdditionalFields` | tekenreeks | Aanvullende informatie over de entiteit of gebeurtenis |
 
+## <a name="apps-and-services-covered"></a>Apps en services die worden behandeld
+
+- Dropbox
+- Dynamics 365
+- Exchange Online
+- Microsoft Teams
+- OneDrive voor Bedrijven
+- Power Automate
+- Power BI
+- SharePoint Online
+- Skype voor Bedrijven
+- Office 365
+- Yammer 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

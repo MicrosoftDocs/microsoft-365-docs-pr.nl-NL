@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: 8df1b8b46b4b2ec4f8f686f6422851b5f186f2ff
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3c55619dc1193d7c41f8a52fc027f03f13f3c9ad
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903734"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759952"
 ---
 # <a name="get-started-with-the-roles-page"></a>Aan de slag met de pagina Rollen
 
@@ -33,7 +33,7 @@ Op de pagina Rollen kunt u gebruikers machtigingen geven om taken uit te voeren 
 ![Een afbeelding met beheerdersrollen](../../media/roles-main-page.png)
 
 > [!TIP]
-> Op zoek naar de gedetailleerde rolbeschrijvingen? Bekijk [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) en Over [beheerdersrollen.](/office365/admin/add-users/about-admin-roles)
+> Op zoek naar de gedetailleerde rolbeschrijvingen? Bekijk [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) en Over [beheerdersrollen.](/microsoft-365/admin/add-users/about-admin-roles)
 
 ## <a name="about-the-admin-roles-page"></a>Informatie over de pagina beheerdersrollen
 
@@ -56,23 +56,23 @@ Dit is geen volledige lijst met alle machtigingen die deze rollen hebben. Select
 
 ### <a name="exchange-admin"></a>Exchange-beheerder
 
-Wijs de Rol van Exchange-beheerder toe aan gebruikers die de e-mailpostvakken van uw gebruiker, Microsoft 365-groepen en Exchange Online moeten bekijken en beheren. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. [Meer informatie](/office365/admin/add-users/about-exchange-online-admin-role)
+Wijs de Rol van Exchange-beheerder toe aan gebruikers die de e-mailpostvakken van uw gebruiker, Microsoft 365-groepen en Exchange Online moeten bekijken en beheren. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. [Meer informatie](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
 
-### <a name="global-admin"></a>Algemeen beheerder
+### <a name="global-admin"></a>Algemene beheerder
 
-Wijs de rol van globale beheerder toe aan gebruikers die globale toegang nodig hebben tot de meeste beheerfuncties en gegevens in de onlineservices van Microsoft. Te veel gebruikers globale toegang geven is een beveiligingsrisico, we raden u dan ook aan om 2 tot 4 globale beheerders te hebben. Alleen globale beheerders kunnen wachtwoorden opnieuw instellen voor alle gebruikers en domeinen toevoegen en beheren. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. De persoon die zich heeft aangemeld voor Microsoft Online Services, wordt automatisch een globale beheerder. [Meer informatie](/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Wijs de rol van globale beheerder toe aan gebruikers die globale toegang nodig hebben tot de meeste beheerfuncties en gegevens in de onlineservices van Microsoft. Te veel gebruikers globale toegang geven is een beveiligingsrisico, we raden u dan ook aan om 2 tot 4 globale beheerders te hebben. Alleen globale beheerders kunnen wachtwoorden opnieuw instellen voor alle gebruikers en domeinen toevoegen en beheren. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. De persoon die zich heeft aangemeld voor Microsoft Online Services, wordt automatisch een globale beheerder. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="global-reader"></a>Algemene lezer
 
-Wijs de rol van globale lezerbeheerder toe aan gebruikers die beheerdersfuncties en -instellingen moeten bekijken in alle beheercentra die de globale beheerder kan bekijken. De rol globale lezerbeheerder kan geen instellingen bewerken. [Meer informatie](/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Wijs de rol van globale lezerbeheerder toe aan gebruikers die beheerdersfuncties en -instellingen moeten bekijken in alle beheercentra die de globale beheerder kan bekijken. De rol globale lezerbeheerder kan geen instellingen bewerken. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="helpdesk-admin"></a>Helpdesk-beheerder
 
-Wijs de rol van helpdeskbeheerder toe aan gebruikers die wachtwoorden opnieuw willen instellen, en dwing gebruikers zich af te melden voor eventuele beveiligingsproblemen. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. De helpdeskbeheerder kan alleen niet-beheerders en gebruikers helpen die deze rollen hebben toegewezen: Adreslijstlezer, Gast-genodigde, Helpdeskbeheerder, Berichtcentrumlezer en Rapportenlezer. [Meer informatie](/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Wijs de rol van helpdeskbeheerder toe aan gebruikers die wachtwoorden opnieuw willen instellen, en dwing gebruikers zich af te melden voor eventuele beveiligingsproblemen. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. De helpdeskbeheerder kan alleen niet-beheerders en gebruikers helpen die deze rollen hebben toegewezen: Adreslijstlezer, Gast-genodigde, Helpdeskbeheerder, Berichtcentrumlezer en Rapportenlezer. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="service-admin"></a>Servicebeheerder
 
-Wijs de rol van servicebeheerder toe aan gebruikers die serviceaanvragen moeten maken voor Azure-, Microsoft 365- en Office 365-services. [Meer informatie](/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Wijs de rol van servicebeheerder toe aan gebruikers die serviceaanvragen moeten maken voor Azure-, Microsoft 365- en Office 365-services. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ### <a name="sharepoint-admin"></a>SharePoint-beheerder
 
@@ -84,9 +84,7 @@ Wijs de rol van Teams-beheerder toe aan gebruikers die u wilt openen en beheren 
 
 ### <a name="user-admin"></a>Gebruikersbeheerder
 
-Wijs de rol van de gebruikerbeheerder toe aan gebruikers die u wilt openen en beheren met wachtwoordinstellingen voor gebruikers en groepen. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. [Meer informatie](/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
-
-::: moniker range="o365-worldwide"
+Wijs de rol van de gebruikerbeheerder toe aan gebruikers die u wilt openen en beheren met wachtwoordinstellingen voor gebruikers en groepen. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ## <a name="compare-roles"></a>Rollen vergelijken
 
@@ -97,8 +95,6 @@ In het beheercentrum:
 - Selecteer maximaal 3 rollen en kies **Rollen vergelijken om** de machtigingen te zien die elke rol heeft.
 
 ![Een afbeelding met een vergelijking van beheerdersrollen](../../media/compare-roles-list.png)
-
-::: moniker-end
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

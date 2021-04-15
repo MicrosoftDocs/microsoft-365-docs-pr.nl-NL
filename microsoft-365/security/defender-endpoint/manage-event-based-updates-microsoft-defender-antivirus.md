@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,14 +15,14 @@ ms.date: 09/17/2018
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b9f09878c645d54aadca21fe01749a0e73939c5f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 78a04105fce0a3a1f9f7ea3f9ee993dd53750f3f
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690437"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764553"
 ---
-# <a name="manage-event-based-forced-updates"></a>Geforceerd updates op basis van gebeurtenissen beheren
+# <a name="manage-event-based-forced-updates"></a>Op basis van gebeurtenissen afgedwongen updates beheren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -164,5 +164,5 @@ Als u beveiliging via de cloud hebt ingeschakeld, stuurt Microsoft Defender AV b
 - [Microsoft Defender Antivirus-updates beheren en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Beheren wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md)
 - [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [Updates voor mobiele apparaten en virtuele machines (VM's) beheren](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+- [Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

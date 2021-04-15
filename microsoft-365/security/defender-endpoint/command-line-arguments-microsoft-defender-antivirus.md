@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,12 @@ ms.reviewer: ksarens
 manager: dansimp
 ms.date: 03/19/2021
 ms.technology: mde
-ms.openlocfilehash: 2b20227ac27b90d142d263dfa4522aa41319b9d5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1b357f7c1e02211f3949383a380666cb7444f814
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690469"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764625"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>Microsoft Defender Antivirus configureren en beheren met mpcmdrun.exe opdrachtregelprogramma
 
@@ -47,7 +47,7 @@ Hier is een voorbeeld:
 MpCmdRun.exe -Scan -ScanType 2
 ``` 
 
-| Opdracht  | Omschrijving   |
+| Opdracht  | Beschrijving   |
 |:----|:----|
 | `-?`**of**`-h`   | Hiermee worden alle beschikbare opties voor dit hulpprogramma weergegeven |
 | `-Scan [-ScanType [0\|1\|2\|3]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | Scant op schadelijke software. Waarden voor **ScanType** zijn: **0** Standaard, volgens uw configuratie, **-1** Snelle scan, **-2** Volledige scan, **-3** Aangepaste scan van bestand en adreslijst.  CpuThrottling zal de geconfigureerde CPU-beperking van beleid eren |

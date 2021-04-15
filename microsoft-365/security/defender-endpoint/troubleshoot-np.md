@@ -11,26 +11,26 @@ localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.date: 01/26/2021
-ms.reviewer: ''
+ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 34bebddcf052a643529f1d2b8a8a869a0ffe4a91
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.topic: how-to
+ms.openlocfilehash: 9efc42441c2cb30f35abf658071088f7f7bbaf00
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183815"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760096"
 ---
 # <a name="troubleshoot-network-protection"></a>Problemen met netwerkbeveiliging oplossen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+> [!TIP]
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
@@ -103,9 +103,29 @@ Wanneer u een probleem met netwerkbeveiliging rapporteert, wordt u gevraagd diag
    mpcmdrun -getfiles
    ```
 
-3. Standaard worden ze opgeslagen in C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab. Voeg het bestand toe aan het inzendingsformulier.
+3. Voeg het bestand toe aan het inzendingsformulier. Diagnostische logboeken worden standaard opgeslagen op `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` . 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="resolve-connectivity-issues-with-network-protection-for-e5-customers"></a>Verbindingsproblemen met netwerkbeveiliging oplossen (voor E5-klanten)
+
+Vanwege de omgeving waarin netwerkbeveiliging wordt uitgevoerd, kan Microsoft de proxy-instellingen van het besturingssysteem niet zien. In sommige gevallen kunnen netwerkbeveiligings clients de cloudservice niet bereiken. Als u verbindingsproblemen met netwerkbeveiliging wilt oplossen, configureert u een van de volgende registersleutels, zodat netwerkbeveiliging op de hoogte wordt van de proxyconfiguratie:
+
+```powershell
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
+```
+
+---OR---
+
+
+```powershell
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
+```
+
+U kunt de registersleutel configureren met PowerShell, Microsoft Endpoint Manager of Groepsbeleid. Hier zijn enkele bronnen die u kunt helpen:
+- [Werken met registersleutels](/powershell/scripting/samples/working-with-registry-keys)
+- [Aangepaste clientinstellingen configureren voor Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
+- [Groepsbeleidsinstellingen gebruiken om endpointbeveiliging te beheren](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
+
+## <a name="see-also"></a>Zie ook
 
 - [Netwerkbeveiliging](network-protection.md)
 - [Netwerkbeveiliging evalueren](evaluate-network-protection.md)

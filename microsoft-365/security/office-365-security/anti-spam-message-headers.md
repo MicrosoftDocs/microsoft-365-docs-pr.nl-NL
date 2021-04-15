@@ -18,12 +18,12 @@ description: Beheerders kunnen meer informatie krijgen over de velden met berich
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04b98ad6b1ca136429395dfd1636b43bbbc6878a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 469f28acb40017f3d431e3545c81877126f50c18
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204882"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688451"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Berichtkoppen tegen ongewenste e-mail in Microsoft 365
 
@@ -74,7 +74,7 @@ De afzonderlijke velden en waarden worden beschreven in de volgende tabel.
 |`LANG`|De taal waarin het bericht is geschreven, zoals opgegeven door de landcode (bijvoorbeeld ru_RU voor Russisch).|
 |`PTR:[ReverseDNS]`|De PTR-record (ook wel het omgekeerde DNS-adres genoemd) van het bron-IP-adres.|
 |`SCL`|De spamwaarschijnlijkheidswaarde (SCL) van het bericht. Hoe hoger de waarde, hoe groter de kans dat het bericht spam is. Zie [Spamwaarschijnlijkheidswaarde (SCL)](spam-confidence-levels.md) voor meer informatie.|
-|`SFTY`|Het bericht is geïdentificeerd als phishing en wordt tevens gemarkeerd met een van de volgende waarden: <ul><li>9.1: standaardwaarde. Het bericht bevat een of meer van de volgende elementen: een phishing-URL, andere phishingwebsites of is gemarkeerd als phishing door on-premises Exchange.</li><li>9.11: [Intra-org of self-to-self spoofing](anti-spoofing-protection.md#different-types-of-spoofing). De beveiligingstip over spoofing van binnen de organisatie wordt toegevoegd aan het bericht.</li><li>9.19: domeinimitatie. Het verzendende domein probeert een [beschermd domein na te bootsen](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365). De beveiligingstip voor domeinimitatie wordt toegevoegd aan het bericht (als dit is ingeschakeld).</li><li>9.20: gebruikersimitatie. De verzendende gebruiker probeert zich voor te doen als een gebruiker in de organisatie van de ontvanger of als een beveiligde gebruiker die is gespecificeerd in een antiphishingbeleid in Microsoft Defender voor Office 365. De beveiligingstip voor gebruikersimitatie wordt toegevoegd aan het bericht (als dit is ingeschakeld).</li><li>9.21: [adresvervalsing tussen domeinen](anti-spoofing-protection.md#different-types-of-spoofing). Het bericht heeft antispoofingcontroles niet doorstaan. Het domein van de afzender in de berichtkop Van: is niet geverifieerd en is afkomstig van een extern domein. Wordt gebruikt in combinatie met [samengestelde verificatie](#authentication-results-message-header-fields).</li><li>9.22: hetzelfde als 9.21, behalve dat de gebruiker een veilige afzender heeft die is overschreven.</li><li>9.23: hetzelfde als 9.22, behalve dat de organisatie een toegestane afzender of toegestaan domein heeft, waarbij een van de twee is overschreven.</li><li>9.24: hetzelfde als 9.23, behalve dat de gebruiker een Exchange-e-mailstroomregel (ook wel transportregel genoemd) heeft, die is overschreven.</li></ul>|
+|`SFTY`|Het bericht is geïdentificeerd als phishing en wordt tevens gemarkeerd met een van de volgende waarden: <ul><li>9.19: domeinimitatie. Het verzendende domein probeert een [beschermd domein na te bootsen](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365). De beveiligingstip voor domeinimitatie wordt toegevoegd aan het bericht (als dit is ingeschakeld).</li><li>9.20: gebruikersimitatie. De verzendende gebruiker probeert zich voor te doen als een gebruiker in de organisatie van de ontvanger of als [een beveiligde gebruiker die vermeld staat in een antiphishingbeleid](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) in Microsoft Defender voor Office 365. De beveiligingstip voor gebruikersimitatie wordt toegevoegd aan het bericht (als dit is ingeschakeld).</li></ul>|
 |`SFV:BLK`|Filteren is overgeslagen en het bericht is geblokkeerd, omdat het is verzonden vanaf een adres in de lijst met geblokkeerde afzenders van een gebruiker. <p> Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie over de manier waarop beheerders de lijst met geblokkeerde afzenders van een gebruiker kunnen beheren.|
 |`SFV:NSPM`|Het bericht is gemarkeerd als niet-spam en is verzonden naar de beoogde geadresseerden.|
 |`SFV:SFE`|Filteren is overgeslagen en het bericht is toegestaan, omdat het is verzonden vanaf een adres in de lijst met veilige afzenders van een gebruiker. <p> Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie over de manier waarop beheerders de lijst met veilige afzenders van een gebruiker kunnen beheren.|

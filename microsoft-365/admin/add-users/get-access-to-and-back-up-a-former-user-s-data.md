@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Lees hoe u de bestanden en e-mailberichten van een werknemer bewaart wanneer de persoon uw organisatie verlaat.
-ms.openlocfilehash: 38cc44bbe602f3c8c38ca54391d0967fbafbfcf7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17911e4a4551bba07d2c2ad034941bba737dcc1d
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906310"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755604"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
 
@@ -44,8 +44,22 @@ Als u de OneDrive-bestanden van een voormalige gebruiker wilt behouden, geeft u 
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.  
-    
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
+
 2. Selecteer een gebruiker.
 
 3. Selecteer in het rechterdeelvenster **OneDrive**. Selecteer **onder Toegang tot bestanden krijgen** de optie Koppeling maken naar **bestanden.**
@@ -56,69 +70,27 @@ Als u de OneDrive-bestanden van een voormalige gebruiker wilt behouden, geeft u 
 > U kunt maximaal 500 MB aan bestanden en mappen tegelijk verplaatsen of kopiëren.<br/>
 > Wanneer u documenten met versiegeschiedenis verplaatst of kopieert, wordt alleen de nieuwste versie verplaatst.  
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
-
-2. Selecteer een gebruiker.
-
-3. Vouw in het rechterdeelvenster **OneDrive-instellingen** uit en selecteer **access-bestanden** naast **Access.**
-
-4. Selecteer de koppeling om de bestandslocatie te openen. Download de bestanden naar uw computer of selecteer **Verplaatsen** naar of Kopiëren **om** ze naar uw eigen OneDrive of naar een gedeelde bibliotheek te verplaatsen of te kopiëren. 
-
-> [!NOTE]
-> U kunt maximaal 500 MB aan bestanden en mappen tegelijk verplaatsen of kopiëren.<br/>
-> Wanneer u documenten met versiegeschiedenis verplaatst of kopieert, wordt alleen de nieuwste versie verplaatst.  
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
-
-2. Selecteer een gebruiker.
-
-3. Vouw in het rechterdeelvenster **OneDrive-instellingen** uit en selecteer **access-bestanden** naast **Access.**
-
-4. Selecteer de koppeling om de bestandslocatie te openen. Download de bestanden naar uw computer of selecteer **Verplaatsen** naar of Kopiëren **om** ze naar uw eigen OneDrive of naar een gedeelde bibliotheek te verplaatsen of te kopiëren.  
-
-> [!NOTE]
-> U kunt maximaal 500 MB aan bestanden en mappen tegelijk verplaatsen of kopiëren.<br/>
-> Wanneer u documenten met versiegeschiedenis verplaatst of kopieert, wordt alleen de nieuwste versie verplaatst.  
-
-::: moniker-end
-    
-
-
 ## <a name="revoke-admin-access-to-a-users-onedrive"></a>Beheerderstoegang tot OneDrive van een gebruiker intrekken
 
 Als globale beheerder kunt u uzelf toegang geven tot de inhoud in oneDrive van een gebruiker, maar misschien wilt u uw toegang verwijderen wanneer u deze niet meer nodig hebt. 
 
-::: moniker range="o365-worldwide"
+ ::: moniker range="o365-worldwide"
 
-1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het beheercentrum</a> als globale beheerder of SharePoint-beheerder. 
-
-    Als u een bericht krijgt dat u geen toegang hebt tot het beheercentrum, hebt u geen beheerdersmachtigingen in uw organisatie.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a> als globale beheerder of SharePoint-beheerder.
-
-    Als u een bericht krijgt dat u geen toegang hebt tot het beheercentrum, hebt u geen beheerdersmachtigingen in uw organisatie.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a> als globale beheerder of SharePoint-beheerder.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
 
-    Als u een bericht krijgt dat u geen toegang hebt tot het beheercentrum, hebt u geen beheerdersmachtigingen in uw organisatie.
-
-::: moniker-end
+::: moniker-end 
 
 2. Selecteer in het linkerdeelvenster **Beheercentra** \> **SharePoint**. (Mogelijk moet u Alles tonen **selecteren om** de lijst met beheercentra weer te geven.)
 

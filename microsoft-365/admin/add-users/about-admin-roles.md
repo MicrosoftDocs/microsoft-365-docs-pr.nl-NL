@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. Zo kan de servicebeheerder bijvoorbeeld supporttickets openen via het Beheercentrum.
-ms.openlocfilehash: e0155ee9e263d4b62dced0e2bd943781ccf93a4c
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: d220ee918f70a56ba27bdad9d7d0f45025fad451
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644253"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755616"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -61,11 +61,7 @@ Als er een bericht wordt weergegeven in het Beheercentrum waarin wordt aangegeve
 
 ## <a name="commonly-used-microsoft-365-admin-center-roles"></a>Veelgebruikte rollen in het Microsoft 365-Beheercentrum
 
-::: moniker range="o365-worldwide"
-
 In het Microsoft 365-beheercentrum kunt u naar **Rollen** gaan en vervolgens een rol selecteren om het detailvenster te openen. Selecteer het tabblad **Machtigingen** om de gedetailleerde takenlijst weer te geven met wat de beheerders die aan die rol zijn toegewezen kunnen doen. Selecteer het tabblad **toegewezen** of **toegewezen beheerders** om gebruikers toe te voegen aan rollen.
-
-::: moniker-end
 
 Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen. Standaard tonen we eerst de rollen die de meeste organisaties gebruiken. Als u een rol niet kunt vinden, gaat u naar het einde van de lijst en selecteert u **Alles weergeven per categorie**. (Zie [machtigingen voor beheerdersrol in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)voor meer informatie, waaronder de cmdlets die zijn gekoppeld aan een rol.)
 

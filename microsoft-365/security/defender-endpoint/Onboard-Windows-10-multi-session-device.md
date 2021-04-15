@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 3f925fdc514c5e53b50f748d991f54d20fb49bd0
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: 6ad61d583815f669affe989d7519ba0ade6fe08d
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488143"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760084"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie) 
 6 minuten om te lezen 
@@ -54,7 +54,7 @@ Er zijn verschillende manieren om een WVD-hostcomputer aan te boord te nemen:
 #### <a name="scenario-1-using-local-group-policy"></a>*Scenario 1: Lokaal groepsbeleid gebruiken*
 In dit scenario moet het script in een gouden afbeelding worden geplaatst en wordt lokaal groepsbeleid gebruikt om het begin van het opstartproces uit te voeren.
 
-Gebruik de instructies in [VDI-apparaten met niet-permanente virtuele bureaubladinfrastructuur](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1)aan boord.
+Gebruik de instructies in [VDI-apparaten met niet-permanente virtuele bureaubladinfrastructuur](configure-endpoints-vdi.md#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1)aan boord.
 
 Volg de instructies voor één vermelding voor elk apparaat.
 
@@ -62,32 +62,41 @@ Volg de instructies voor één vermelding voor elk apparaat.
 In dit scenario wordt een centraal gelegen script gebruikt en wordt het uitgevoerd met een groepsbeleid op basis van een domein. U kunt het script ook in de gouden afbeelding plaatsen en op dezelfde manier uitvoeren.
 
 **Het WindowsDefenderATPOnboardingPackage.zip downloaden van het Windows Defender-beveiligingscentrum**
+
 1. Open het VDI-configuratiepakket .zip-bestand (WindowsDefenderATPOnboardingPackage.zip)  
-    - Selecteer in het navigatiedeelvenster van het Microsoft Defender-beveiligingscentrum **de** optie  >  **Instellingen Onboarding**. 
-    - Selecteer Windows 10 als het besturingssysteem. 
-    - Selecteer in **het veld** Implementatiemethode VDI-onboarding-scripts voor niet-permanente eindpunten. 
-    - Klik **op Pakket downloaden** en sla het ZIP-bestand op. 
+
+    1. Selecteer in het navigatiedeelvenster van het Microsoft Defender-beveiligingscentrum **de** optie  >  **Instellingen Onboarding**. 
+    1. Selecteer Windows 10 als het besturingssysteem. 
+    1. Selecteer in **het veld** Implementatiemethode VDI-onboarding-scripts voor niet-permanente eindpunten. 
+    1. Klik **op Pakket downloaden** en sla het ZIP-bestand op. 
+
 2. Haal de inhoud van het ZIP-bestand op naar een gedeelde, alleen-lezen locatie die toegankelijk is voor het apparaat. U hebt een map met de naam **OptionalParamsPolicy** en de bestanden **WindowsDefenderATPOnboardingScript.cmd** en **Onboard-NonPersistentMachine.ps1.**
 
 **Groepsbeleidsbeheerconsole gebruiken om het script uit te voeren wanneer de virtuele machine wordt gestart**
+
 1. Open de GPMC (Group Policy Management Console), klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en klik op **Bewerken.**
+
 1. Ga in de Editor voor groepsbeleidsbeheer naar Instellingen van het **Configuratiescherm voor** \>  \> **computerconfiguratie**. 
+
 1. Klik met de **rechtermuisknop op Geplande taken,** klik **op Nieuw** en klik vervolgens op **Onmiddellijke taak** (ten minste Windows 7). 
+
 1. Ga in het venster Taak dat wordt geopend naar het **tabblad** Algemeen. Klik **onder Beveiligingsopties** **op Gebruiker of Groep wijzigen en** typ SYSTEEM. Klik **op Namen controleren** en klik vervolgens op OK. NT AUTHORITY\SYSTEM wordt weergegeven als het gebruikersaccount dat de taak als wordt uitgevoerd. 
+
 1. Schakel **Uitvoeren in of de gebruiker al** dan niet is aangemeld en schakel het selectievakje Uitvoeren met hoogste **bevoegdheden** in. 
+
 1. Ga naar het **tabblad Acties** en klik op **Nieuw.** Zorg ervoor **dat Een programma starten** is geselecteerd in het veld Actie. Voer het volgende in: 
 
-> Actie = 'Een programma starten' <br>
-> Programma/script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe <br>
-> Argumenten toevoegen (optioneel) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"
+    > Actie = 'Een programma starten' <br>
+    > Programma/script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe <br>
+    > Argumenten toevoegen (optioneel) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"
 
-Klik **op OK** en sluit alle geopende GPMC-vensters.
+1. Klik **op OK** en sluit alle geopende GPMC-vensters.
 
 #### <a name="scenario-3-onboarding-using-management-tools"></a>*Scenario 3: Onboarding met behulp van beheerhulpmiddelen*
 
 Als u van plan bent om uw machines te beheren met behulp van een beheerhulpmiddel, kunt u apparaten onboarden met Microsoft Endpoint Configuration Manager.
 
-Zie Voor meer informatie: [Windows 10-apparaten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm) aan boord met Configuration Manager 
+Zie Onboard [Windows 10-apparaten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm)met Configuration Manager voor meer informatie. 
 
 > [!WARNING]
 > Als u van plan bent Om De Surface-beperkingsregels voor aanvallen te [gebruiken,](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)moet u er rekening mee houden dat regel ' Procescreaties blokkeren die afkomstig zijn van[PSExec-](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction#block-process-creations-originating-from-psexec-and-wmi-commands)en WMI-opdrachten' niet mag worden gebruikt omdat deze niet compatibel is met beheer via Microsoft Endpoint Configuration Manager, omdat deze regel WMI-opdrachten blokkeert die de Configuration Manager-client gebruikt om correct te werken. 

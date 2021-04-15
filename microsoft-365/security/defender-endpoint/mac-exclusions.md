@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b1282543a68ce4cb5c322423656d33c5db12b97b
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 2281fccfb97d38dbdc218799b087290433deff30
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688583"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764155"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op macOS
 
@@ -39,18 +39,18 @@ ms.locfileid: "51688583"
 In dit artikel vindt u informatie over het definiëren van uitsluitingen die van toepassing zijn op scans op aanvraag, en realtime beveiliging en monitoring.
 
 >[!IMPORTANT]
->De uitsluitingen die in dit artikel worden beschreven, zijn niet van toepassing op andere mogelijkheden van Defender voor Eindpunt voor Mac, waaronder eindpuntdetectie en -antwoord (EDR). Bestanden die u uitsluit met de methoden die in dit artikel worden beschreven, kunnen nog steeds EDR-waarschuwingen en andere detecties activeren.
+>De uitsluitingen die in dit artikel worden beschreven, zijn niet van toepassing op andere mogelijkheden van Defender voor Eindpunt op Mac, zoals eindpuntdetectie en -antwoord (EDR). Bestanden die u uitsluit met de methoden die in dit artikel worden beschreven, kunnen nog steeds EDR-waarschuwingen en andere detecties activeren.
 
-U kunt bepaalde bestanden, mappen, processen en proces geopende bestanden uitsluiten van Defender voor Eindpunt voor Mac-scans.
+U kunt bepaalde bestanden, mappen, processen en proces geopende bestanden uitsluiten van Defender voor Eindpunt op Mac-scans.
 
-Uitsluitingen kunnen handig zijn om onjuiste detecties te voorkomen van bestanden of software die uniek of aangepast zijn aan uw organisatie. Ze kunnen ook handig zijn voor het verminderen van prestatieproblemen die worden veroorzaakt door Defender voor Eindpunt voor Mac.
+Uitsluitingen kunnen handig zijn om onjuiste detecties te voorkomen van bestanden of software die uniek of aangepast zijn aan uw organisatie. Ze kunnen ook handig zijn voor het verminderen van prestatieproblemen die worden veroorzaakt door Defender voor Eindpunt op Mac.
 
 >[!WARNING]
->Als u uitsluitingen definieert, wordt de beveiliging van Defender voor Eindpunt voor Mac lager. U moet altijd de risico's evalueren die zijn gekoppeld aan het implementeren van uitsluitingen en u moet alleen bestanden uitsluiten die u zeker weet dat ze niet schadelijk zijn.
+>Als u uitsluitingen definieert, wordt de beveiliging van Defender voor Eindpunt op Mac lager. U moet altijd de risico's evalueren die zijn gekoppeld aan het implementeren van uitsluitingen en u moet alleen bestanden uitsluiten die u zeker weet dat ze niet schadelijk zijn.
 
 ## <a name="supported-exclusion-types"></a>Ondersteunde uitsluitingstypen
 
-In de volgende tabel ziet u de uitsluitingstypen die worden ondersteund door Defender voor Eindpunt voor Mac.
+In de volgende tabel ziet u de uitsluitingstypen die worden ondersteund door Defender voor Eindpunt op Mac.
 
 Uitsluiting | Definitie | Voorbeelden
 ---|---|---
@@ -61,7 +61,7 @@ Proces | Een specifiek proces (opgegeven door het volledige pad of de bestandsna
 
 Bestands-, map- en procesuitsluitingen ondersteunen de volgende jokertekens:
 
-Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
+Jokerteken | Beschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 ---|---|---|---|---
 \* |    Komt overeen met een aantal tekens, inclusief geen tekens (houd er rekening mee dat wanneer dit jokerteken binnen een pad wordt gebruikt, dit slechts één map vervangt) | `/var/*/*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
 ? | Komt overeen met een enkel teken | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
@@ -73,7 +73,7 @@ Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 
 ### <a name="from-the-management-console"></a>Vanuit de beheerconsole
 
-Zie Voorkeuren instellen voor Defender voor Eindpunt voor Mac voor meer informatie over het configureren van uitsluitingen van JAMF, Intune of een andere [beheerconsole.](mac-preferences.md)
+Zie Voorkeuren instellen voor Defender voor Eindpunt op Mac voor meer informatie over het configureren van uitsluitingen van JAMF, Intune of een andere [beheerconsole.](mac-preferences.md)
 
 ### <a name="from-the-user-interface"></a>Vanuit de gebruikersinterface
 
@@ -93,7 +93,7 @@ Vervang in het volgende Bash-fragment `test.txt` door een bestand dat voldoet aa
 curl -o test.txt https://www.eicar.org/download/eicar.com.txt
 ```
 
-Als Defender voor Eindpunt voor Mac malware rapporteert, werkt de regel niet. Als er geen malwarerapport is en het gedownloade bestand bestaat, werkt de uitsluiting. U kunt het bestand openen om te bevestigen dat de inhoud hetzelfde is als wat wordt beschreven op de website van het [EICAR-testbestand.](http://2016.eicar.org/86-0-Intended-use.html)
+Als Defender voor Eindpunt op Mac malware meldt, werkt de regel niet. Als er geen malwarerapport is en het gedownloade bestand bestaat, werkt de uitsluiting. U kunt het bestand openen om te bevestigen dat de inhoud hetzelfde is als wat wordt beschreven op de website van het [EICAR-testbestand.](http://2016.eicar.org/86-0-Intended-use.html)
 
 Als u geen internetverbinding hebt, kunt u uw eigen EICAR-testbestand maken. Schrijf de EICAR-tekenreeks naar een nieuw tekstbestand met de volgende opdracht Bash:
 

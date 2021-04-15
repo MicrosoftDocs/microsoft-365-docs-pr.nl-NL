@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Meer informatie over het verwijderen van een gebruikersaccount. Bepaal wat u moet doen met de e-mail en OneDrive-inhoud van de gebruiker. En bepaal of u de productlicentie wilt behouden of niet meer wilt betalen.
-ms.openlocfilehash: 5c647d353f807f20a35c889ba1d6f7715343c5cb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0069577b83c318fa57eaceddccc93b5832e634e0
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904442"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755550"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
@@ -59,15 +59,21 @@ Denk, voordat u begint, na over wat u wilt doen met de e-mail- en OneDrive-inhou
 Omdat de begeleide ervaring stap voor stap uitlegt hoe u de gebruiker verwijdert, gaat u als volgt aan de slag.
 
 ::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
+
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+
 ::: moniker-end
 
 2. Selecteer de gebruiker die u wilt verwijderen en selecteer **vervolgens Gebruiker verwijderen.**

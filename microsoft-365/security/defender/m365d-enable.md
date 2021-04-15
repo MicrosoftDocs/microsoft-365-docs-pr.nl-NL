@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 18564b2a5a47b2cf4a8bbd94a3e3a315c8f269ec
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: bf8fdb2a8a42ef7b70b744cbbb5663e6afe51989
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200255"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764376"
 ---
-# <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender in-
+# <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender inschakelen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -77,7 +77,7 @@ Wanneer de service is ingericht, wordt het volgende toegevoegd:
 - [Geavanceerde mogelijkheden voor](advanced-hunting-overview.md) jagen
 - Dreigingsanalyse
 
-![Afbeelding van het navigatiedeelvenster van het Microsoft 365-beveiligingscentrum met Microsoft 365 Defender bevat Microsoft 365-beveiligingscentrum met incidentenbeheer en andere ](../../media/mtp-enable/mtp-on.png)
+![Afbeelding van het navigatiedeelvenster van het Microsoft 365-beveiligingscentrum met Microsoft 365 Defender bevat Microsoft 365-beveiligingscentrum met incidentenbeheer en andere ](../../media/overview-incident.png)
  *Microsoft 365 Defender-mogelijkheden*
 
 ### <a name="getting-microsoft-defender-for-identity-data"></a>Microsoft Defender voor identiteitsgegevens verkrijgen 

@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Lees hoe u met microsoft-gecertificeerde oplossingsproviders (partners) producten en services voor uw organisatie of school kunt kopen en beheren.
-ms.openlocfilehash: a0c70f229ff11132beccf118f4158ab2880a8aa6
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f4c270e179a3d52616f6d7efb049beac4d1a8e03
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579732"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51749852"
 ---
 # <a name="manage-partner-relationships"></a>Partnerrelaties beheren
 
@@ -32,7 +32,7 @@ U kunt samenwerken met microsoft-gecertificeerde oplossingsproviders (partners) 
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder of factureringsbeheerder zijn om deze stappen uit te voeren. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder of factureringsbeheerder zijn om deze stappen uit te voeren. Zie[Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="what-can-a-partner-do-for-my-organization-or-school"></a>Wat kan een partner doen voor mijn organisatie of school?
 
@@ -85,7 +85,7 @@ Als u de beheerdersrollen niet aan de partner wilt geven, annuleert u de uitnodi
 
 U kunt beheerdersrollen op elk moment van een partner verwijderen. Als u de beheerdersrollen verwijdert, wordt de partnerrelatie niet verwijderd. Ze kunnen nog steeds met u werken in een andere capaciteit, zoals een wederverkoper. Als u besluit dat u niet meer met een partner wilt werken, neemt u contact op met uw partner om de relatie te beëindigen.
 
-1. Ga in het beheercentrum naar de pagina **Relaties met**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">factureringspartner.</a>
+1. Ga in het beheercentrum naar de **pagina Relaties met**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">partners</a> instellingen.
 2. Selecteer op **de pagina** Partnerrelaties de rij met de naam van de partner die u wilt verwijderen.
 3. Selecteer de rij met de naam van de partner.
 4. Selecteer rollen verwijderen op de **partnerpagina.**

@@ -1,24 +1,26 @@
 ---
-title: Uitsluitingen instellen voor AV-scans van Microsoft Defender
+title: Uitsluitingen instellen voor Antivirusscans van Microsoft Defender
 description: U kunt uitsluiten dat bestanden (inclusief bestanden die zijn gewijzigd door bepaalde processen) en mappen worden gescand door Microsoft Defender AV. Valideer uw uitsluitingen met PowerShell.
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: ''
+ms.reviewer: ksarens
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 47db9b4451a885c92ca4fda0f87f0150415d3338
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: 08f7f9d4a6e9e70d3ef071f30712b2ae53f4ea52
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690731"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764661"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>Uitsluitingen configureren en valideren voor Antivirusscans van Microsoft Defender
 
@@ -40,7 +42,8 @@ Zie het volgende om uitsluitingen te configureren en te valideren:
 - [Uitsluitingen configureren en valideren voor bestanden die door processen zijn geopend.](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md) Hiermee kunt u bestanden uitsluiten van scans die zijn geopend door een specifiek proces.
 
 ## <a name="recommendations-for-defining-exclusions"></a>Aanbevelingen voor het definiëren van uitsluitingen
-
+[!IMPORTANT]
+Microsoft Defender Antivirus bevat veel automatische uitsluitingen op basis van bekende gedragingen van het besturingssysteem en normale beheerbestanden, zoals bestanden die worden gebruikt in ondernemingsbeheer, databasebeheer en andere ondernemingsscenario's en -situaties.  
 Als u uitsluitingen definieert, wordt de beveiliging van Microsoft Defender Antivirus verlaagd. U moet altijd de risico's evalueren die zijn gekoppeld aan het implementeren van uitsluitingen en u moet alleen bestanden uitsluiten die u zeker weet dat ze niet schadelijk zijn.
 
 Hieronder volgt een lijst met aanbevelingen die u in gedachten moet houden bij het definiëren van uitsluitingen:  
@@ -56,4 +59,4 @@ Hieronder volgt een lijst met aanbevelingen die u in gedachten moet houden bij h
 ## <a name="related-articles"></a>Verwante artikelen
 
 - [Microsoft Defender Antivirus-uitsluitingen op Windows Server 2016](configure-server-exclusions-microsoft-defender-antivirus.md)
-- [Veelvoorkomende fouten om te voorkomen bij het definiëren van uitsluitingen](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+- [Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen](common-exclusion-mistakes-microsoft-defender-antivirus.md)

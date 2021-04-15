@@ -1,24 +1,24 @@
 ---
-title: Beveiliging in de cloud en Microsoft Defender Antivirus
+title: Door de cloud geleverde beveiliging en Microsoft Defender Antivirus
 description: Meer informatie over beveiliging in de cloud en Microsoft Defender Antivirus
 keywords: Microsoft Defender Antivirus, next-generation technologies, next-generation av, machine learning, antimalware, security, defender, cloud, cloud-delivered protection
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: shwjha
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: f69c66652d86977e5731a61014d5d37377779efd
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: e967cb9efe03fc180bda531f192f3143c311796d
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690496"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764757"
 ---
 # <a name="use-next-generation-technologies-in-microsoft-defender-antivirus-through-cloud-delivered-protection"></a>Technologieën van de volgende generatie gebruiken in Microsoft Defender Antivirus via beveiliging in de cloud
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a8871274cabae0762cecc2ff513afe93c2d4811f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: fbe9d0006a2f1779e1bad60dc283a5a40429dbdd
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688499"
+ms.locfileid: "51750014"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Problemen met cloudconnectiviteit oplossen voor Microsoft Defender voor Eindpunt op macOS
 
@@ -38,7 +38,7 @@ ms.locfileid: "51688499"
 In dit onderwerp wordt beschreven hoe u problemen met cloudconnectiviteit voor Microsoft Defender voor Eindpunt op macOS kunt oplossen.
 
 ## <a name="run-the-connectivity-test"></a>De connectiviteitstest uitvoeren
-Als u wilt testen of Defender voor Eindpunt voor Mac met de huidige netwerkinstellingen met de cloud kan communiceren, moet u een connectiviteitstest uitvoeren vanaf de opdrachtregel:
+Als u wilt testen of Defender voor Eindpunt op Mac met de huidige netwerkinstellingen met de cloud kan communiceren, moet u een connectiviteitstest uitvoeren vanaf de opdrachtregel:
 
 ```Bash
 mdatp connectivity test

@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: ddd10e6164a8fae5d0d3d60c04ca854ef9771dba
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f2615cf5ec49c9df27472f04c367f30511e9c0cc
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688739"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759868"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Vals-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken
 
@@ -125,9 +125,11 @@ Als u waarschuwingen hebt die onwaar positieven zijn of die echte positieven zij
 Andere acties, zoals het starten van een antivirusscan of het verzamelen van een onderzoekspakket, vinden handmatig of via [Live Response plaats.](live-response.md) Acties die zijn ondernomen via Live Response, kunnen niet ongedaan worden gemaakt.
 
 Nadat u uw waarschuwingen hebt bekeken, is de volgende stap het controleren [van herstelacties.](manage-auto-investigation.md) Als er acties zijn ondernomen als gevolg van onwaar positieven, kunt u de meeste soorten herstelacties ongedaan maken. U kunt het volgende doen:
-- [Eén actie tegelijk ongedaan maken;](#undo-an-action)
-- [Meerdere acties tegelijk ongedaan maken;](#undo-multiple-actions-at-one-time) en 
-- [Verwijder een bestand uit quarantaine op meerdere apparaten.](#remove-a-file-from-quarantine-across-multiple-devices) 
+
+- [Een in quarantaine geplaatst bestand terugzetten vanuit het Actiecentrum](#restore-a-quarantined-file-from-the-action-center)
+- [Meerdere acties tegelijk ongedaan maken](#undo-multiple-actions-at-one-time)
+- [Verwijder een bestand uit quarantaine op meerdere apparaten.](#remove-a-file-from-quarantine-across-multiple-devices)  en 
+- [Bestand in quarantaine herstellen](#restore-file-from-quarantine)
 
 Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn uitgevoerd als gevolg van onwaar positieven, gaat u verder met het controleren of [definiëren van uitsluitingen.](#part-3-review-or-define-exclusions)
 
@@ -139,7 +141,7 @@ Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn u
 
 3. Selecteer een item om meer details weer te geven over de herstelactie die is ondernomen.
 
-### <a name="undo-an-action"></a>Een actie ongedaan maken
+### <a name="restore-a-quarantined-file-from-the-action-center"></a>Een in quarantaine geplaatst bestand terugzetten vanuit het Actiecentrum
 
 1. Ga naar het Actiecentrum [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) () en meld u aan.
 
@@ -164,7 +166,33 @@ Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn u
 
 2. Selecteer op **het** tabblad Geschiedenis een bestand met het bestand Actietype **Quarantaine**.
 
+3. Selecteer in het deelvenster aan de rechterkant van het scherm meer exemplaren van dit bestand toepassen op **X** en selecteer **vervolgens Ongedaan maken.**
+
+### <a name="restore-file-from-quarantine"></a>Bestand in quarantaine herstellen
+
+U kunt een bestand terugdraaien en verwijderen uit quarantaine als u na een onderzoek hebt vastgesteld dat het bestand schoon is. Voer de volgende opdracht uit op elk apparaat waarop het bestand in quarantaine is geplaatst.
+
+1. Open een opdrachtregelprompt met verhoogde opdracht op het apparaat:
+
+   1. Ga naar **Start** en typ _cmd._
+
+   1. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+
+2. Voer de volgende opdracht in en druk op **Enter:**
+
+    ```console
+    "ProgramFiles%\Windows Defender\MpCmdRun.exe" –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
+    ```
+
+    > [!NOTE]
+    > In sommige scenario's kan **threatname** worden weergegeven als: `EUS:Win32/
+CustomEnterpriseBlock!cl` . Defender voor Eindpunt herstelt alle aangepaste geblokkeerde bestanden die in quarantaine zijn geplaatst op dit apparaat in de afgelopen 30 dagen.
+
+    > [!IMPORTANT]
+    > Een bestand dat in quarantaine is geplaatst als een potentiële netwerkdreiging, kan mogelijk niet worden hersteld. Als een gebruiker het bestand na quarantaine probeert te herstellen, is dat bestand mogelijk niet toegankelijk. Dit kan worden veroorzaakt doordat het systeem geen netwerkreferenties meer heeft om toegang te krijgen tot het bestand. Dit is meestal het gevolg van een tijdelijk aanmelden bij een systeem of gedeelde map en de toegangstokens zijn verlopen.
+
 3. Selecteer in het deelvenster aan de rechterkant van het scherm meer exemplaren van dit bestand toepassen op **X** en selecteer **vervolgens Ongedaan maken.** 
+
 
 ## <a name="part-3-review-or-define-exclusions"></a>Deel 3: Uitsluitingen controleren of definiëren
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Deze Azure-beheerdersrollen beheren in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: b07174763384150a7ae8cda6709f5d0ec5cb40ec
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 72835a0f9fdf9a15fc3ffa07c0fab6ca6f0260cb
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904490"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759940"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Azure Activity Directory-rollen in het Microsoft 365-beheercentrum
 
@@ -29,15 +29,11 @@ In het Microsoft 365-beheercentrum kunt u meer dan 30 Azure AD-rollen beheren. D
 
 Een gebruiker aan wie een beheerdersrol is toegewezen, heeft dezelfde toegangsrechten voor alle cloudservices waarop de organisatie zich heeft geabonneerd. Dit is onafhankelijk van het feit of u de rol toewijst in het Microsoft 365-beheercentrum, in het Azure Portal of door de Azure AD-module voor Windows PowerShell te gebruiken.
 
-::: moniker range="o365-worldwide"
-
 In het Microsoft 365-beheercentrum kunt u naar **Rollen** gaan en vervolgens een rol selecteren om het detailvenster te openen. Selecteer het tabblad **Machtigingen** om de gedetailleerde takenlijst weer te geven met wat de beheerders die aan die rol zijn toegewezen kunnen doen. Selecteer het tabblad **toegewezen** of **toegewezen beheerders** om gebruikers toe te voegen aan rollen. Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over het toewijzen van rollen in het Microsoft 365-beheercentrum.
-
-::: moniker-end
 
 ## <a name="all-azure-ad-roles"></a>Alle Azure AD-rollen
 
-Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het Microsoft 365-beheercentrum. Op zoek naar de gedetailleerde rolbeschrijvingen van Microsoft 365-beheerdersrollen? Bekijk [Informatie over beheerdersrollen](./about-admin-roles.md?view=o365-worldwide).
+Hieronder ziet u een lijst met alle beheerdersrollen die beschikbaar zijn in het Microsoft 365-beheercentrum. Op zoek naar de gedetailleerde rolbeschrijvingen van Microsoft 365-beheerdersrollen? Bekijk [Informatie over beheerdersrollen](./about-admin-roles.md).
 
 |Beheerdersrol     |Beschrijving  |
 |---------|---------|

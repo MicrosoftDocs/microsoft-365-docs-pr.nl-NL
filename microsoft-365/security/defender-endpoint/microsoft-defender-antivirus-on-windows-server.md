@@ -7,18 +7,18 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3415d0caf0192b202cc4f471d5a9bf9051c3878d
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d9452b6d2eeaad3880894b9ec66c8bc71797b429
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690102"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764601"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Microsoft Defender Antivirus op Windows Server
 
@@ -124,7 +124,7 @@ Als u bijgewerkte beveiligingsinformatie voor antimalware wilt downloaden, moet 
 Standaard worden updates niet automatisch gedownload en geïnstalleerd op Windows Server 2019 of Windows Server 2016. U kunt deze configuratie wijzigen met behulp van een van de volgende methoden:
 
 
-|Methode  |Omschrijving  |
+|Methode  |Beschrijving  |
 |---------|---------|
 |**Windows Update** in configuratiescherm     |- **Als u updates installeert,** worden alle updates automatisch geïnstalleerd, inclusief beveiligingsinformatie-updates van Windows Defender. <br/>- **Updates downloaden, maar laat me kiezen of** ik ze wil installeren, kan Windows Defender automatisch beveiligingsinformatie-updates downloaden en installeren, maar andere updates worden niet automatisch geïnstalleerd.       |
 |**Groepsbeleid**     | U kunt Windows Update instellen en beheren met behulp van de instellingen die beschikbaar zijn in groepsbeleid, in het volgende pad: **Beheersjablonen\Windows-onderdelen\Windows Update\Automatische updates configureren**         |
@@ -138,7 +138,7 @@ Om ervoor te zorgen dat de beveiliging tegen malware wordt gehandhaafd, raden we
 
 De volgende tabel bevat de services voor Microsoft Defender Antivirus en de afhankelijke services.
 
-|Servicenaam|Bestandslocatie|Omschrijving|
+|Servicenaam|Bestandslocatie|Beschrijving|
 |--------|---------|--------|
 |Windows Defender Service (WinDefend)|`C:\Program Files\Windows Defender\MsMpEng.exe`|Dit is de belangrijkste Microsoft Defender Antivirus-service die altijd moet worden uitgevoerd.|
 |Windows Error Reporting Service (Wersvc)|`C:\WINDOWS\System32\svchost.exe -k WerSvcGroup`|Deze service stuurt foutrapporten terug naar Microsoft.|

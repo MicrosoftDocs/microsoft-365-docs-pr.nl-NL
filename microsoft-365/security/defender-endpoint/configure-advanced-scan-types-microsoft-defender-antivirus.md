@@ -7,21 +7,21 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 625c84e79efe53cae2bc8f511726ad3f384ea505
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 72d5024446e56cc7fa1d94a7b9402cbe898db2a8
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690456"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764853"
 ---
-# <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Scanopties voor Microsoft Defender Antivirus configureren
+# <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Microsoft Defender Antivirus-scanopties configureren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,7 +50,7 @@ De instellingen voor groepsbeleid configureren die in de volgende tabel worden b
 
 4. Dubbelklik op de **beleidsinstelling** zoals aangegeven in de onderstaande tabel en stel de optie in op de gewenste configuratie. Klik **op OK** en herhaal dit voor andere instellingen.
 
-Omschrijving | Locatie en instelling | Standaardinstelling (indien niet geconfigureerd) | `Set-MpPreference`PowerShell-parameter of WMI-eigenschap voor `MSFT_MpPreference` klas
+Beschrijving | Locatie en instelling | Standaardinstelling (indien niet geconfigureerd) | `Set-MpPreference`PowerShell-parameter of WMI-eigenschap voor `MSFT_MpPreference` klas
 ---|---|---|---
 E-mail scannen Zie [Beperkingen voor het scannen van e-mail](#ref1)| Scannen > e-mail scannen in- | Uitgeschakeld | `-DisableEmailScanning`
 [Reparse-punten scannen](/windows/win32/fileio/reparse-points) | Scannen > Het scannen van reparse-punten in- | Uitgeschakeld | Niet beschikbaar
@@ -95,6 +95,6 @@ Als Microsoft Defender Antivirus een bedreiging in een e-mail detecteert, worden
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [De resultaten van Microsoft Defender Antivirus scans en herstel aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [On-demand Microsoft Defender Antivirus scans configureren en uitvoeren](run-scan-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivirus-scans op aanvraag configureren en uitvoeren](run-scan-microsoft-defender-antivirus.md)
 - [Geplande Microsoft Defender Antivirus-scans configureren](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

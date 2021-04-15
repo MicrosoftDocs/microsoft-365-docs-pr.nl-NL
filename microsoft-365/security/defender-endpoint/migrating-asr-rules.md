@@ -15,34 +15,136 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: ced969fdd3e8b63136f8bd3f043272e76d99bc5e
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 4385a99206b6d10dee710e4315e690c82359f397
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476503"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755546"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>Migreren van hips van derden naar ASR-regels
 
-In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe te passen. In de volgende tabel ziet u veelvoorkomende vragen en scenario's bij het migreren van een HIPS-product van derden naar ASR-regels.
+In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe te passen.
 
-|Bereik en actie|Processen|Bewerking|Voorbeelden van bestanden/mappen, registersleutels/waarden, processen, services|Surface Reduction-regels aanvallen|Andere aanbevolen functies|
-|:--|:--|:--|:--|:--|:--|
-|Alle processen: het maken van specifieke bestanden en registersleutels blokkeren||Bestandscreatie|*.zepto, *.odin, *.locky, *.jaff, *.lukitus, *.wnry, *.krab|ASR-regels blokkeren de aanvalstechnieken en niet de indicatoren van compromissen (IOC). Het blokkeren van een specifieke bestandsextensie is niet altijd handig, omdat hiermee niet wordt voorkomen dat een apparaat in gevaar komt. Een aanval wordt slechts gedeeltelijk getypt totdat aanvallers een nieuw type extensie voor de payload maken.|Microsoft Defender AV is ingeschakeld, samen met cloudbeveiliging en gedragsanalyse wordt ten zeerste aanbevolen. We raden u aan andere preventie te gebruiken, zoals de ASR-regel 'Geavanceerde beveiliging tegen ransomware gebruiken'. Dit biedt meer bescherming tegen ransomware-aanvallen. Bovendien worden verschillende van deze registersleutels gecontroleerd door Microsoft Defender voor Eindpunt, zoals ASEP-technieken, die specifieke waarschuwingen activeren. Voor de gebruikte registersleutels is een minimum aan bevoegdheden voor lokale beheerders of vertrouwde installatieprogramma's vereist om te kunnen worden gewijzigd. Het is raadzaam een vergrendelde omgeving te gebruiken met minimale beheerdersaccounts of -rechten. Andere systeemconfiguraties kunnen worden ingeschakeld, zoals 'SeDebug uitschakelen voor niet-vereiste rollen' die deel uitmaken van onze bredere beveiligingsaanbevelingen.|
-|Alle processen: het maken van specifieke bestanden en registersleutels blokkeren||Registerwijzigingen|*\Software \* ,HKCU\Environment\UserInitMprLogonScript,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs \* \StartExe, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options \* \Debugger,HKEY_CURRENT_USER\Software\Microsoft\HtmlHelp Author\location,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit \* \MonitorProcess|ASR-regels blokkeren de aanvalstechnieken en niet de indicatoren van compromissen (IOC). Het blokkeren van een specifieke bestandsextensie is niet altijd handig, omdat hiermee niet wordt voorkomen dat een apparaat in gevaar komt. Een aanval wordt slechts gedeeltelijk getypt totdat aanvallers een nieuw type extensie voor de payload maken.|Microsoft Defender AV is ingeschakeld, samen met cloudbeveiliging en gedragsanalyse wordt ten zeerste aanbevolen. We raden u aan extra preventie te gebruiken, zoals de ASR-regel 'Geavanceerde beveiliging tegen ransomware gebruiken'. Dit biedt meer bescherming tegen ransomware-aanvallen. Bovendien worden verschillende van deze registersleutels gecontroleerd door Microsoft Defender voor Eindpunt, zoals ASEP-technieken, die specifieke waarschuwingen activeren. Bovendien is voor de gebruikte registersleutels een minimum aan bevoegdheden voor lokale beheerders of vertrouwde installatieprogramma's vereist om te kunnen worden gewijzigd. Het is raadzaam een vergrendelde omgeving te gebruiken met minimale beheerdersaccounts of -rechten. Andere systeemconfiguraties kunnen worden ingeschakeld, zoals 'SeDebug uitschakelen voor niet-vereiste rollen' die deel uitmaken van onze bredere beveiligingsaanbevelingen.|
-|Niet-vertrouwde programma's via USB: blokkeren dat niet-vertrouwde programma's worden uitgevoerd vanaf verwisselbare stations|*|Procesuitvoering|*|ASR-regels hebben een ingebouwde regel om te voorkomen dat niet-vertrouwde en niet-ondertekende programma's worden uitgevoerd op verwisselbare stations: 'Block untrusted and unsigned processes that run from USB', GUID "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4".|Bekijk aanvullende besturingselementen voor USB-apparaten en andere verwisselbare media met Microsoft Defender voor eindpunt: Usb-apparaten en andere verwisselbare media beheren met [Microsoft Defender voor Eindpunt.](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune) |
-|Mshta: blokkeren dat Mshta bepaalde onderliggende processen start|mshta.exe|Procesuitvoering|powershell.exe, cmd.exe, regsvr32.exe|ASR-regels bevatten geen specifieke regel om te voorkomen dat onderliggende processen 'mshta.exe'. Dit besturingselement valt onder de bevoegdheid van Exploit Protection of Windows Defender Application Control.|Schakel Windows Defender Application Control in om te voorkomen dat mshta.exe worden uitgevoerd. Als uw organisatie 'mshta.exe' voor zakelijke apps vereist, configureert u een specifieke Windows Defender Exploit Protection-regel om te voorkomen dat mshta.exe onderliggende processen start.|
-|Outlook: Outlook blokkeren om onderliggende processen te starten|outlook.exe|Procesuitvoering|powershell.exe|ASR-regels hebben een ingebouwde regel om te voorkomen dat office-communicatie-apps (Outlook, Skype en Teams) onderliggende processen starten: 'Office-communicatietoepassing blokkeren om onderliggende processen te maken', GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".|U wordt aangeraden de taalmodus met beperkte beperkingen van PowerShell in te schakelen om het aanvalsoppervlak van PowerShell tot een minimum te beperken.|
-|Office: Office-apps blokkeren om onderliggende processen te starten en uitvoerbare inhoud te maken|winword.exe, powerpnt.exe, excel.exe|Procesuitvoering|powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe|ASR-regels hebben een ingebouwde regel om te voorkomen dat office-apps onderliggende processen starten: 'Alle Office-toepassingen blokkeren om onderliggende processen te maken', GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A".|N.v.t.|
-|Office: Office-apps blokkeren om onderliggende processen te starten en uitvoerbare inhoud te maken|winword.exe, powerpnt.exe, excel.exe|Bestandscreatie|C:\Gebruikers \* \AppData \* *\* .exe, C:\ProgramData \** \* .exe, C:\ProgramData \* *\* .com, C:\Users \* AppData\Local\Temp \** \* .com, \* C:\Users *\Downloads \** \* .exe, C:\Users \* \AppData \* *\* .scf, C:\ProgramData \** \* .scf, C:\Users\Public \* .exe, C:\Users \* \Desktop \* * \* .exe|N.v.t.|
-|Wscript: Wscript blokkeren om bepaalde typen bestanden te lezen|wscript.exe|Bestand gelezen|C:\Gebruikers \* \AppData \* *\* .js*, C:\Gebruikers \* \Downloads \* *\* .js*|Vanwege betrouwbaarheids- en prestatieproblemen kunnen ASR-regels niet voorkomen dat een bepaald proces een bepaald scriptbestandstype leest. Er is wel een regel om te voorkomen dat aanvalsvectoren afkomstig zijn van deze scenario's. De regelnaam is 'JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten' (GUID "D3E037E1-3EB8-44C8-A917-57927947596D") en de 'Block execution of potentially obfuscated scripts' (GUID " 5BEB7EFE-FD9A-4556-801D-275E5FFC04CC")|Hoewel er specifieke ASR-regels zijn die bepaalde aanvalsvectoren in deze scenario's beperken, is het belangrijk om te vermelden dat AV standaard scripts (PowerShell, Windows Script Host, JavaScript, VBScript en meer) in realtime kan controleren via de Antimalware Scan Interface (AMSI). Meer informatie vindt u hier: [Antimalware Scan Interface (AMSI)](https://docs.microsoft.com/windows/win32/amsi/antimalware-scan-interface-portal). |
-|Adobe Acrobat: Start van onderliggende processen blokkeren|AcroRd32.exe, Acrobat.exe|Procesuitvoering|cmd.exe, powershell.exe, wscript.exe|Asr-regels staan het blokkeren van Adobe Reader toe om onderliggende processen te starten. De regelnaam is 'Adobe Reader blokkeren om onderliggende processen te maken', GUID "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c".|N.v.t.|
-|CertUtil: Download of creatie van uitvoerbare inhoud blokkeren|certutil.exe|Bestandscreatie|*.exe|ASR-regels ondersteunen deze scenario's niet omdat ze deel uitmaken van Microsoft Defender Antivirusbeveiliging.|Microsoft Defender AV voorkomt dat CertUtil uitvoerbare inhoud maakt of downloadt.|
-|Alle processen: voorkomen dat processen kritieke systeemonderdelen stoppen|*|Procesbeëindiging|MsSense.exe, MsMpEng.exe, NisSrv.exe, svchost.exe*, services.exe, csrss.exe, smss.exe, wininit.exe en meer.|ASR-regels ondersteunen deze scenario's niet omdat ze zijn beveiligd met ingebouwde beveiligingsbeveiligingen van Windows 10.|ELAM (Early Launch AntiMalware), PPL (Protection Process Light), PPL AntiMalware Light en System Guard.|
-|Specifieke processen: Specifieke startprocespoging blokkeren|"Noem uw proces een naam"|Procesuitvoering|tor.exe, bittorrent.exe, cmd.exe, powershell.exe en meer.|Over het algemeen zijn ASR-regels niet ontworpen om te functioneren als toepassingsbeheer.|Als u wilt voorkomen dat gebruikers specifieke processen of programma's starten, wordt aanbevolen windows Defender Application Control te gebruiken. Microsoft Defender for Endpoint File and Cert indicators, can be used in a Incident Response scenario (should not be seen as an application control mechanism).|
-|Alle processen: onbevoegde wijzigingen in MDATP AV-configuraties blokkeren|*|Registerwijzigingen|HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware, HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\AllowRealTimeMonitoring, enzovoort.|ASR-regels hebben geen betrekking op dit soort scenario's, omdat ze deel uitmaken van de ingebouwde beveiliging van Microsoft Defender voor Eindpunt.|Tamper Protection (opt-in, managed from Intune) voorkomt ongeautoriseerde wijzigingen in DisableAntiVirus, DisableAntiSpyware, DisableRealtimeMonitoring, DisableOnAccessProtection, DisableBehaviorMonitoring and DisableIOAVProtection registry keys (en meer). |
+## <a name="scenarios-when-migrating-from-a-third-party-hips-product-to-asr-rules"></a>Scenario's bij het migreren van een HIPS-product van derden naar ASR-regels
+
+### <a name="block-creation-of-specific-files-and-registry-keys"></a>Het maken van specifieke bestanden en registersleutels blokkeren
+
+- **Van toepassing op**- Alle processen
+- **Bewerking**- Bestandscreatie
+- **Voorbeelden van Bestanden/Mappen, Registersleutels/Waarden, Processen, Services**- *.zepto, *.odin, *.locky, *.jaff, *.lukitus, *.wnry, *.krab
+- **Attack Surface Reduction rules**- ASR rules block the attack techniques and not the Indicators of Compromise (IOC). Het blokkeren van een specifieke bestandsextensie is niet altijd handig, omdat hiermee niet wordt voorkomen dat een apparaat in gevaar komt. Een aanval wordt slechts gedeeltelijk getypt totdat aanvallers een nieuw type extensie voor de payload maken.
+- **Andere aanbevolen functies:** Microsoft Defender AV is ingeschakeld, samen met cloudbeveiliging en gedragsanalyse wordt ten zeerste aanbevolen. U wordt aangeraden andere preventie te gebruiken, zoals de ASR-regel 'Geavanceerde beveiliging tegen ransomware gebruiken'. Dit biedt meer bescherming tegen ransomware-aanvallen. Bovendien worden veel van deze registersleutels gecontroleerd door Microsoft Defender voor eindpunten, zoals ASEP-technieken, waardoor specifieke waarschuwingen worden veroorzaakt. Voor de gebruikte registersleutels is een minimum aan bevoegdheden voor lokale beheerders of vertrouwde installatieprogramma's vereist. Het is raadzaam een vergrendelde omgeving te gebruiken met minimale beheerdersaccounts of -rechten. Andere systeemconfiguraties kunnen worden ingeschakeld, zoals 'SeDebug uitschakelen voor niet-vereiste rollen' die deel uitmaken van onze bredere beveiligingsaanbevelingen.
+
+### <a name="block-creation-of-specific-files-and-registry-keys"></a>Het maken van specifieke bestanden en registersleutels blokkeren
+
+- **Van toepassing op**- Alle processen
+- **Processen**- N/B
+- **Bewerking**- Registerwijzigingen
+- **Voorbeelden van bestanden/mappen, registersleutels/waarden, Processen,Services** -  *\Software*,HKCU\Environment\UserInitMprLogonScript,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs *\StartExe, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File* Execution Options \Debugger,HKEY_CURRENT_USER\Software\Microsoft\HtmlHelp Author\location,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit*\MonitorProcess
+- **Attack Surface Reduction rules**- ASR rules block the attack techniques and not the Indicators of Compromise (IOC). Het blokkeren van een specifieke bestandsextensie is niet altijd handig, omdat hiermee niet wordt voorkomen dat een apparaat in gevaar komt. Een aanval wordt slechts gedeeltelijk getypt totdat aanvallers een nieuw type extensie voor de payload maken.
+- **Andere aanbevolen functies:** Microsoft Defender AV is ingeschakeld, samen met cloudbeveiliging en gedragsanalyse wordt ten zeerste aanbevolen. U wordt aangeraden extra preventie te gebruiken, zoals de ASR-regel 'Geavanceerde beveiliging tegen ransomware gebruiken'. Dit biedt meer bescherming tegen ransomware-aanvallen. Bovendien worden verschillende van deze registersleutels gecontroleerd door Microsoft Defender voor Eindpunt, zoals ASEP-technieken, die specifieke waarschuwingen activeren. Bovendien is voor de gebruikte registersleutels een minimum aan bevoegdheden voor lokale beheerders of vertrouwde installatieprogramma's vereist. Het is raadzaam een vergrendelde omgeving te gebruiken met minimale beheerdersaccounts of -rechten. Andere systeemconfiguraties kunnen worden ingeschakeld, zoals 'SeDebug uitschakelen voor niet-vereiste rollen' die deel uitmaken van onze bredere beveiligingsaanbevelingen.
+
+### <a name="block-untrusted-programs-from-running-from-removable-drives"></a>Niet-vertrouwde programma's blokkeren voor het uitvoeren van verwisselbare stations
+
+- **Van toepassing op**- Niet-vertrouwde programma's vanaf USB
+- **Processen**- *
+- **Bewerking**- Procesuitvoering
+- **Voorbeelden van bestanden/mappen, registersleutels/waarden, Processen,Services:-*
+- **Surface Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat niet-vertrouwde en niet-ondertekende programma's worden uitgevoerd op verwisselbare stations: 'Block untrusted and unsigned processes that run from USB', GUID "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4".
+- **Andere aanbevolen functies-** Bekijk aanvullende besturingselementen voor USB-apparaten en andere verwisselbare media met Microsoft Defender voor eindpunt: Usb-apparaten en andere verwisselbare media beheren met [Microsoft Defender voor Eindpunt.](/windows/security/threat-protection/device-control/control-usb-devices-using-intune)
+
+### <a name="block-mshta-from-launching-certain-child-processes"></a>Blokkeren dat Mshta bepaalde onderliggende processen start
+
+- **Van toepassing op**- Mshta
+- **Processen**- mshta.exe
+- **Bewerking**- Procesuitvoering
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen,Services**- powershell.exe, cmd.exe, regsvr32.exe
+- **Surface Reduction-regels aanvallen:** ASR-regels bevatten geen specifieke regel om te voorkomen dat onderliggende processen 'mshta.exe'. Dit besturingselement valt onder de bevoegdheid van Exploit Protection of Windows Defender Application Control.
+- **Andere aanbevolen functies:** Schakel Windows Defender Application Control in om te voorkomen dat mshta.exe worden uitgevoerd. Als uw organisatie 'mshta.exe' voor zakelijke apps vereist, configureert u een specifieke Windows Defender Exploit Protection-regel om te voorkomen dat mshta.exe onderliggende processen start.
+
+### <a name="block-outlook-from-launching-child-processes"></a>Outlook blokkeren om onderliggende processen te starten
+
+- **Van toepassing op**- Outlook
+- **Processen**- outlook.exe
+- **Bewerking**- Procesuitvoering
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen,Services**- powershell.exe
+- **Surface Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat office-communicatie-apps (Outlook, Skype en Teams) onderliggende processen starten: 'Office-communicatietoepassing blokkeren om onderliggende processen te maken', GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
+- **Andere aanbevolen functies:** u wordt aangeraden de taalmodus voor beperkte PowerShell in te schakelen om het aanvalsoppervlak van PowerShell te minimaliseren.
 
 
+### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Voorkomen dat office-apps onderliggende processen starten en uitvoerbare inhoud maken
+
+- **Van toepassing op**- Office  
+- **Processen**: winword.exe, powerpnt.exe, excel.exe
+- **Bewerking**- Procesuitvoering
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen,Services**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
+- **Surface Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat Office-apps onderliggende processen starten: 'Alle Office-toepassingen blokkeren om onderliggende processen te maken', GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A".
+- **Andere aanbevolen functies**- N/B
+    
+### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Voorkomen dat office-apps onderliggende processen starten en uitvoerbare inhoud maken
+
+- **Van toepassing op**- Office
+- **Processen**: winword.exe, powerpnt.exe, excel.exe
+- **Bewerking**- Bestandscreatie
+- **Voorbeelden van bestanden/mappen, Registersleutels/waarden, Processen,Services**- C:\Gebruikers *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop****exe
+- **Attack Surface Reduction rules**- N/A.
+
+### <a name="block-wscript-from-reading-certain-types-of-files"></a>Wscript blokkeren om bepaalde typen bestanden te lezen
+
+- **Van toepassing op**- Wscript
+- **Processen**- wscript.exe
+- **Bewerking**- Bestand gelezen
+- **Voorbeelden van bestanden/mappen, registersleutels/waarden, processen, services**- C:\Gebruikers *\AppData**.js, C:\Gebruikers*\Downloads**.js
+- **Surface Reduction-regels aanvallen:** vanwege betrouwbaarheids- en prestatieproblemen kunnen ASR-regels niet voorkomen dat een bepaald proces een bepaald scriptbestandstype leest. Er is wel een regel om te voorkomen dat aanvalsvectoren afkomstig zijn van deze scenario's. De regelnaam is 'JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten' (GUID "D3E037E1-3EB8-44C8-A917-57927947596D") en de 'Blokuitvoering van mogelijk obfuscated scripts' (GUID " 5BEB7EFE-FD9A-4556-801D-275E5FFC04CC").
+- Andere aanbevolen **functies:** hoewel er specifieke ASR-regels zijn die bepaalde aanvalsvectoren in deze scenario's beperken, is het belangrijk om te vermelden dat AV standaard scripts (PowerShell, Windows Script Host, JavaScript, VBScript en meer) in realtime kan controleren via de Antimalware Scan Interface (AMSI). Meer informatie vindt u hier: [Antimalware Scan Interface (AMSI)](/windows/win32/amsi/antimalware-scan-interface-portal).
+
+### <a name="block-launch-of-child-processes"></a>Start van onderliggende processen blokkeren
+
+- **Is van toepassing op**- Adobe Acrobat
+- **Processen**- AcroRd32.exe, Acrobat.exe
+- **Bewerking**- Procesuitvoering
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- cmd.exe, powershell.exe, wscript.exe
+- **Surface Reduction-regels aanvallen:** asr-regels staan het blokkeren van Adobe Reader toe om onderliggende processen te starten. De regelnaam is 'Adobe Reader blokkeren om onderliggende processen te maken', GUID "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c".
+- **Andere aanbevolen functies**- N/B
+
+
+### <a name="block-download-or-creation-of-executable-content"></a>Downloaden of maken van uitvoerbare inhoud blokkeren
+
+- **Van toepassing op**- CertUtil: Download of creatie van uitvoerbaar blokkeren 
+- **Processen**- certutil.exe
+- **Bewerking**- Bestandscreatie
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- *.exe
+- **Surface Reduction-regels aanvallen:** ASR-regels ondersteunen deze scenario's niet omdat ze deel uitmaken van Microsoft Defender Antivirus protection.
+- **Andere aanbevolen functies:** Microsoft Defender AV voorkomt dat CertUtil uitvoerbare inhoud maakt of downloadt.
+
+
+### <a name="block-processes-from-stopping-critical-system-components"></a>Voorkomen dat processen kritieke systeemonderdelen stoppen
+
+- **Van toepassing op**- Alle processen
+- **Processen**- *
+- **Bewerking**- Procesbeëindiging
+- Voorbeelden van **Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- MsSense.exe, MsMpEng.exe, NisSrv.exe, svchost.exe*, services.exe, csrss.exe, smss.exe, wininit.exe en meer.
+- **Surface Reduction-regels aanvallen:** ASR-regels ondersteunen deze scenario's niet omdat ze zijn beveiligd met ingebouwde beveiligingsbeveiligingen van Windows 10.
+- **Andere aanbevolen functies:** ELAM (Early Launch AntiMalware), PPL (Protection Process Light), PPL AntiMalware Light en System Guard.
+
+### <a name="block-specific-launch-process-attempt"></a>Specifieke procespoging voor starten blokkeren
+
+- **Van toepassing op**- Specifieke processen
+- **Processen**- 'Uw proces een naam geven'
+- **Bewerking**- Procesuitvoering
+- **Voorbeelden van bestanden/mappen, registersleutels/waarden, processen, services**- tor.exe, bittorrent.exe, cmd.exe, powershell.exe en meer
+- **Surface Reduction-regels aanvallen:** over het algemeen zijn ASR-regels niet ontworpen om te functioneren als toepassingsbeheer.
+- **Andere aanbevolen functies:** als u wilt voorkomen dat gebruikers specifieke processen of programma's starten, wordt u aangeraden Windows Defender Application Control te gebruiken. Microsoft Defender for Endpoint File and Cert indicators, can be used in a Incident Response scenario (shouldn't be seen as an application control mechanism).
+    
+### <a name="block-unauthorized-changes-to-mdatp-av-configurations"></a>Onbevoegde wijzigingen in MDATP AV-configuraties blokkeren
+
+- **Van toepassing op**- Alle processen
+- **Processen**- *
+- **Bewerking**- Registerwijzigingen
+- Voorbeelden van **Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware, HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\AllowRealTimeMonitoring, en ga zo maar door.
+- **Surface Reduction-regels aanvallen:** ASR-regels dekken deze scenario's niet omdat ze deel uitmaken van de ingebouwde beveiliging van Microsoft Defender voor eindpunten.
+- Andere aanbevolen **functies:** Tamper Protection (opt-in, beheerd vanuit Intune) voorkomt ongeautoriseerde wijzigingen in DisableAntiVirus, DisableAntiSpyware, DisableRealtimeMonitoring, DisableOnAccessProtection, DisableBehaviorMonitoring and DisableIOAVProtection registry keys (en meer).
 
 Zie ook
 

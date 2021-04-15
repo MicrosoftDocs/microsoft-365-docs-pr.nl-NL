@@ -7,7 +7,7 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.date: 02/02/2021
+ms.date: 04/07/2021
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -19,18 +19,16 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 142bc305950f9322c90e0d207f255c14abbc6b8c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d89e5dc29bfe7f980d40a9a5b139884750a966bc
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197931"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760012"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Het overzicht van het geïntegreerde Microsoft 365-beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 **Van toepassing op:**
 
@@ -38,7 +36,7 @@ ms.locfileid: "51197931"
 - [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](m365d-pilot.md?ocid=cx-evalpilot)
+> Wilt u Microsoft 365 Defender ervaren? U kunt het [evalueren in een testomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of [uw pilotproject uitvoeren in een productieomgeving](m365d-pilot.md?ocid=cx-evalpilot).
 
 Het verbeterde **Microsoft 365-beveiligingscentrum** () combineert beveiliging, detectie, onderzoek en antwoord op e-mail, [https://security.microsoft.com](https://security.microsoft.com) *samenwerking,* identiteit *en* *apparaatrisico's* in een centrale portal. 
 
@@ -57,39 +55,39 @@ Zie het volgende als u informatie nodig hebt over wat er is gewijzigd in het Off
 
 Alle beveiligingsinhoud die u gebruikt in het Office 365-beveiligings- en compliancecentrum (protection.office.com) en het Microsoft Defender-beveiligingscentrum (securitycenter.microsoft.com) vindt u nu in het *Microsoft 365-beveiligingscentrum.*
 
-Microsoft 365-beveiligingscentrum helpt beveiligingsteams bij het onderzoeken en beantwoorden van aanvallen door signalen van verschillende werkbelastingen in één geïntegreerde ervaring op te nemen:
+Microsoft 365-beveiligingscentrum helpt beveiligingsteams bij het onderzoeken en beantwoorden van aanvallen door signalen van verschillende werkbelastingen in te voeren in een set geïntegreerde ervaringen voor:
 
 - Incidenten & waarschuwingen
 - Opsporing
 - Actiecentrum
 - Dreigingsanalyse
 
-Het Microsoft 365-beveiligingscentrum benadrukt *eenheid,* helderheid en gemeenschappelijke doelen terwijl Microsoft Defender voor Office 365 en Microsoft Defender voor Eindpunt worden samengevoegd. De samenvoegbewerking is gebaseerd op de onderstaande prioriteiten en is gemaakt zonder dat dit ten koste gaat van de mogelijkheden die elke beveiligingssuite aan de combinatie heeft toegevoegd:
+Het Microsoft 365-beveiligingscentrum benadrukt *eenheid,* helderheid en gemeenschappelijke doelen terwijl Microsoft Defender voor Office 365 en Microsoft Defender voor Eindpunt worden samengevoegd. De samenvoegbewerking is gebaseerd op de onderstaande prioriteiten en is gemaakt zonder dat dit ten koste gaat van de mogelijkheden die elke beveiligingssuite heeft toegevoegd aan de combinatie van:
 
-- veelgebruikte bouwstenen
-- algemene terminologie
-- algemene entiteiten
-- functiepariteit met andere werkbelastingen
+- Veelgebruikte bouwstenen
+- Veelgebruikte terminologie
+- Algemene entiteiten
+- Functiepariteit met andere werkbelastingen
 
 ## <a name="unified-investigations"></a>Geïntegreerde onderzoeken
 
-Door beveiligingscentra te stroomlijnen, wordt één deelvenster gemaakt voor het onderzoeken van incidenten in een Microsoft 365-organisatie. Een primair voorbeeld is het **knooppunt Incidenten** bij de snelle start van het Microsoft 365-beveiligingscentrum.
+Convergerende beveiligingscentra maken één plek voor het onderzoeken van beveiligingsincidenten in Microsoft 365. Een primair voorbeeld is **Incidenten** onder **Incidenten & waarschuwingen** bij de snelle start van het Microsoft 365-beveiligingscentrum.
 
-:::image type="content" source="../../media/converged-incidents-2.png.png" alt-text="De pagina Incidenten in MDO.":::
+:::image type="content" source="../../media/converged-incidents-2.png.png" alt-text="De pagina Incidenten in het Microsoft 365-beveiligingscentrum.":::
 
-Als u bijvoorbeeld dubbelklikt op een  incidentnaam met hoge ernst, komt u op een pagina die het voordeel van convergerende centra aantoont.
+Als u een incidentnaam selecteert, wordt een pagina weergegeven met de waarde van convergerende beveiligingscentra.
 
-![Incident in meerdere fases met escalatie van bevoegdheden op meerdere eindpunten, met 16 beïnvloede apparaten en 9 beïnvloede gebruikers.](../../media/converged-incident-info-3.png)
+:::image type="content" source="../../media/converged-incident-info-3.png" alt-text="Voorbeeld van de pagina Overzicht voor een incident in het Microsoft 365-beveiligingscentrum":::
 
-> [!TIP]
-> Het tabblad **Geconvergeerde** gebruikers is een goede plek om uw vragen te starten. Op deze enkele pagina wordt informatie weergegeven voor gebruikers van geconvergeerde werkbelastingen (Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit en MCAS, als u deze gebruikt) en een reeks bronnen, zoals on-premises Active Directory, Azure Active Directory, gesynchroniseerde, lokale en externe gebruikers. Meer informatie over [de nieuwe gebruikerservaring.](investigate-users.md)
+<!--
+![Example of the Summary page for an incident in the Microsoft 365 security center](../../media/converged-incident-info-3.png)
+--> 
 
-Incidentgegevens tonen specifieke gebruikers-/identiteitsgegevens en risicoapparaten, naast de betreffende postvakken. Het heeft ook betrekking op **onderzoeksgegevens en** verzamelde **gegevens**. Dit maakt het voor beheerders en beveiligingsbewerkingsteams gemakkelijker om van één waarschuwing met een hoog risico naar de getroffen gebruikers en postvakken te draaien. Als u naar **de tabbladen Incident** boven aan deze pagina kijkt, zijn er andere belangrijke beveiligingspivots beschikbaar vanaf deze ene locatie.
+Boven aan een pagina met incidenten ziet u de tabbladen **Samenvatting,** **Waarschuwingen,** **Apparaten,** **Gebruikers,** **Postvakken,** Onderzoeken **en** Bewijs. Selecteer deze tabbladen voor meer gedetailleerde informatie. Op het  tabblad Gebruikers worden bijvoorbeeld gegevens weergegeven voor gebruikers van geconvergeerde werkbelastingen (Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit en Microsoft Cloud App-beveiliging) en een reeks bronnen, zoals on-premises Active Directory Domain Services (AD DS), Azure Active Directory (Azure AD) en externe identiteitsproviders. Zie Gebruikers onderzoeken [voor meer informatie.](investigate-users.md)
 
-> [!IMPORTANT]
-> Boven aan een pagina voor een specifiek incident ziet u de tabbladen **Samenvatting,** **Waarschuwingen,** **Apparaten,** **Gebruikers,** **Postvakken,** Onderzoeken **en** Bewijs.
+Neem de tijd om de incidenten in uw omgeving te bekijken, in te zoomen op deze tabbladen en te oefenen met het opbouwen van inzicht in hoe u toegang hebt tot de informatie voor incidenten voor verschillende soorten bedreigingen.
 
-Als **u Onderzoeken selecteert,** wordt een pagina geopend met een afbeelding van de analyse die wordt uitgevoerd en wordt een status (zoals goedkeuring in **behandeling)** weergegeven voor herstel. Neem de tijd om specifieke incidenten in uw omgeving te selecteren, in te zoomen op deze tabbladen en te oefenen met het opbouwen van een profiel voor verschillende soorten bedreigingen. Vertrouwdheid is van pas als er later een onderzoek wordt gestart.
+Zie incidenten [in het Microsoft 365-beveiligingscentrum](incidents-overview.md)voor meer informatie.
 
 ## <a name="improved-processes"></a>Verbeterde processen
 

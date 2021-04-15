@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: 9b58c6fa51fbca5d78680b4b13cbbc2129d9c393
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3133e468ef99114b1c89e16fbd0f4b5170af30d0
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903722"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755582"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
@@ -42,7 +42,6 @@ Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
-
 
 ::: moniker-end
 
@@ -143,66 +142,26 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 - [Activiteit van deelnemers aan vergaderingen in Skype voor Bedrijven Online](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)
   
 - [Peer-to-peeractiviteit in Skype voor Bedrijven Online](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)
-  
-::: moniker range="o365-worldwide"
 
 - [Yammer-activiteit](yammer-activity-report-ww.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [Yammer-activiteit voor de Amerikaanse overheid](yammer-activity-report.md)
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 - [Yammer-apparaatgebruik](yammer-device-usage-report-ww.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [Yammer-apparaatgebruik voor de Amerikaanse overheid](yammer-device-usage-report.md)
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 - [Rapport met Yammer-groepsactiviteit](yammer-groups-activity-report-ww.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [Rapport met Yammer-groepsactiviteit voor de Amerikaanse overheid](yammer-groups-activity-report.md)
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 - [Gebruikersactiviteit in Microsoft Teams](microsoft-teams-user-activity-preview.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [Gebruikersactiviteit in Microsoft Teams voor de Amerikaanse overheid](microsoft-teams-user-activity.md)
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 - [Apparaatgebruik in Microsoft Teams](microsoft-teams-device-usage-preview.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [Apparaatgebruik in Microsoft Teams voor de Amerikaanse overheid](microsoft-teams-device-usage.md)
-
-::: moniker-end
 
 ## <a name="how-to-view-licensing-information"></a>Het weergeven van licentie-informatie
 

@@ -22,34 +22,31 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5aba1ab4bed0eeb5f6127ab865ceea674e8d5902
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 12207d69b0a1565caf762a265c1a0d32158ca291
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500993"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759835"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 **Van toepassing op:**
 - Microsoft 365 Defender
 
+Microsoft 365 Defender past correlatieanalyse toe en verzamelt gerelateerde waarschuwingen en geautomatiseerde onderzoeken van verschillende producten tot een incident. Microsoft 365 Defender activeert ook unieke waarschuwingen voor activiteiten die alleen kunnen worden geïdentificeerd als schadelijk, gezien de end-to-end zichtbaarheid die Microsoft 365 Defender heeft voor de hele suite met producten. In deze weergave krijgen uw beveiligingsanalisten het bredere verhaal over aanvallen, waarmee ze complexe bedreigingen in uw organisatie beter kunnen begrijpen en kunnen omgaan.
 
+In **de wachtrij Incident** ziet u een verzameling incidenten die zijn gemaakt op verschillende apparaten, gebruikers en postvakken. Het helpt u incidenten te sorteren om prioriteit te geven en een weloverwogen antwoordbesluit voor cyberbeveiliging te maken. 
 
-Microsoft 365 Defender past correlatieanalyse toe en verzamelt alle gerelateerde waarschuwingen en onderzoeken van verschillende producten tot één incident. Microsoft 365 Defender activeert ook unieke waarschuwingen voor activiteiten die alleen kunnen worden geïdentificeerd als schadelijk, gezien de end-to-end zichtbaarheid die Microsoft 365 Defender heeft in het hele domein en de hele suite met producten. In deze weergave krijgt uw beveiligingsanalist het bredere aanvalsverhaal, waarmee ze complexe bedreigingen in de hele organisatie beter kunnen begrijpen en kunnen omgaan.
+U komt bij de incidentwachtrij van **Incidenten & waarschuwingen > Incidenten** op de snelle start van het Microsoft 365-beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com)
 
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Voorbeeld van de incidentwachtrij":::
 
-De **wachtrij Incidenten** toont een verzameling incidenten die zijn gemarkeerd op verschillende apparaten, gebruikers en postvakken. Het helpt u incidenten te sorteren om prioriteit te geven en een weloverwogen antwoordbesluit voor cyberbeveiliging te maken.
+Standaard worden in de wachtrij in het Microsoft 365-beveiligingscentrum incidenten weergegeven die de afgelopen zes maanden zijn gezien. Het meest recente incident staat bovenaan de lijst, zodat u het eerst kunt zien.
 
-
-![Afbeelding van incidentenwachtrij](../../media/incidents-queue.png) 
-
-Standaard worden in de wachtrij in het Microsoft 365-beveiligingscentrum incidenten weergegeven die de afgelopen 30 dagen zijn gezien. Het meest recente incident staat bovenaan de lijst, zodat u het eerst kunt zien.
-
-De incidentwachtrij bevat aanpasbare kolommen die u inzicht geven in verschillende kenmerken van het incident of de opgenomen entiteiten. Op deze manier kunt u een weloverwogen beslissing nemen over de prioriteit van incidenten die moeten worden verwerkt.
+De incidentwachtrij heeft aanpasbare kolommen (selecteer Kolommen **kiezen)** die u inzicht geven in de verschillende kenmerken van het incident of de beïnvloede entiteiten. Op deze manier kunt u een weloverwogen beslissing nemen over de prioriteit van incidenten voor anaylsis.
 
 Voor extra zichtbaarheid in één oogopslag worden met automatische naamgeving voor incidenten incidentnamen gegenereerd op basis van waarschuwingskenmerken, zoals het aantal eindpunten dat is beïnvloed, de betreffende gebruikers, detectiebronnen of categorieën. Hierdoor kunt u snel inzicht krijgen in het bereik van het incident.
 
@@ -62,52 +59,64 @@ In de wachtrij voor incidenten worden ook meerdere filteropties beschikbaar, waa
 
 ## <a name="available-filters"></a>Beschikbare filters
 
-### <a name="assigned-to"></a>Toegewezen aan
-U kunt ervoor kiezen om waarschuwingen weer te geven die aan u zijn toegewezen of waarschuwingen die door automatisering worden verwerkt.
+In de standaardwachtrij voor incidenten kunt u **Filters** selecteren om een deelvenster Filters weer te geven, waaruit u een gefilterde reeks incidenten kunt bekijken. Hier volgt een voorbeeld.
 
-### <a name="categories"></a>Categorieën
-Kies categorieën om zich te richten op specifieke tactieken, technieken of aanvalsonderdelen. 
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-filters.png" alt-text="Voorbeeld van het filtervenster voor de incidentwachtrij":::
 
-### <a name="classification"></a>Classificatie
-Filter incidenten op basis van de setclassificaties van de gerelateerde waarschuwingen. De waarden omvatten waar waarschuwingen, onwaar waarschuwingen of niet ingesteld.
+In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 
-### <a name="data-sensitivity"></a>Gegevensgevoeligheid
-Sommige aanvallen richten zich op targeting om gevoelige of waardevolle gegevens te exfiltreren. Door een filter toe te passen om te zien of er gevoelige gegevens bij het incident betrokken zijn, kunt u snel bepalen of gevoelige informatie mogelijk is gehackt en kunt u prioriteit geven aan het oplossen van deze incidenten.
+| Filternaam | Beschrijving |
+|:-------|:-----|
+| Toegewezen aan | U kunt ervoor kiezen om waarschuwingen weer te geven die aan u zijn toegewezen of waarschuwingen die door automatisering worden verwerkt. |
+| Categorieën | Kies categorieën om zich te richten op specifieke tactieken, technieken of aanvalsonderdelen. |
+| Classificatie | Filter incidenten op basis van de setclassificaties van de gerelateerde waarschuwingen. De waarden omvatten waar waarschuwingen, onwaar waarschuwingen of niet ingesteld. |
+| Gegevensgevoeligheid | Sommige aanvallen richten zich op targeting om gevoelige of waardevolle gegevens te exfiltreren. Door een filter toe te passen om te zien of er gevoelige gegevens bij het incident betrokken zijn, kunt u snel bepalen of gevoelige informatie mogelijk is gehackt en kunt u prioriteit geven aan het oplossen van deze incidenten. <br><br> Alleen van toepassing als Microsoft Information Protection is ingeschakeld.|
+| Apparaatgroep | Filteren op gedefinieerde apparaatgroepen. |
+| Onderzoekstoestand | Filter incidenten op basis van de status van automatisch onderzoek.  |
+| Meerdere categorieën | U kunt ervoor kiezen om alleen incidenten te zien die zijn toegesneden op meerdere categorieën en zo mogelijk meer schade kunnen veroorzaken. |
+| Meerdere servicebronnen  | Filter om alleen incidenten te zien die waarschuwingen uit verschillende bronnen bevatten (Microsoft Defender voor Eindpunt, Microsoft Cloud App-beveiliging, Microsoft Defender voor identiteit, Microsoft Defender voor Office 365). |
+| BESTURINGSSYSTEEM-platform | Beperk de weergave van de incidentwachtrij per besturingssysteem. |
+| Servicebronnen | Door een specifieke bron te kiezen, kunt u zich richten op incidenten die ten minste één waarschuwing uit die gekozen bron bevatten. |
+| Ernst | De ernst van een incident is een indicatie van de invloed die het kan hebben op uw activa. Hoe hoger de ernst, hoe groter de impact en meestal de meest directe aandacht. |
+| Status | U kunt ervoor kiezen om de lijst met weergegeven incidenten te beperken op basis van hun status om te zien welke actief of opgelost zijn. |
+|||
 
->[!NOTE]
->Alleen van toepassing als Microsoft Information Protection is ingeschakeld.
+## <a name="incident-response-workflow"></a>Werkstroom voor incidentrespons
 
-### <a name="device-group"></a>Apparaatgroep
-Filteren op gedefinieerde apparaatgroepen.
+Hier is de gebruikelijke werkstroom voor het reageren op incidenten:
 
-### <a name="investigation-state"></a>Onderzoekstoestand
-Filter incidenten op basis van de status van automatisch onderzoek. 
+1. Identificeer en triage de incidenten met de hoogste prioriteit voor onderzoek en oplossing.
+2. Voor elk incident met hoge prioriteit start u een [onderzoek:](investigate-incidents.md)
 
-### <a name="multiple-categories"></a>Meerdere categorieën 
-U kunt ervoor kiezen om alleen incidenten te zien die zijn toegesneden op meerdere categorieën en zo mogelijk meer schade kunnen veroorzaken. 
+   a. Bekijk de samenvatting van het incident om te begrijpen wat het bereik is, welke entiteiten worden beïnvloed en de ernst (het **tabblad** Overzicht).
 
-### <a name="multiple-service-sources"></a>Meerdere servicebronnen 
-Filter om alleen incidenten te zien die waarschuwingen uit verschillende bronnen bevatten (Microsoft Defender voor Eindpunt, Microsoft Cloud App-beveiliging, Microsoft Defender voor identiteit, Microsoft Defender voor Office 365).
+   b. Kijk eerst naar de waarschuwingen om de herkomst, het bereik en de ernst ervan te begrijpen (het **tabblad** Waarschuwingen).
 
-### <a name="os-platform"></a>BESTURINGSSYSTEEM-platform
-Beperk de weergave van de incidentwachtrij per besturingssysteem.
+   c. Verzamel zo nodig informatie over beïnvloede apparaten, gebruikers en postvakken **(de** tabbladen **Apparaten,** Gebruikers en **Postvakken).**
 
-### <a name="service-sources"></a>Servicebronnen
-Door een specifieke bron te kiezen, kunt u zich richten op incidenten die ten minste één waarschuwing uit die gekozen bron bevatten. 
+   d. Bekijk hoe Microsoft 365 Defender bepaalde waarschuwingen automatisch heeft opgelost (het **tabblad** Onderzoeken).
+   
+   e. Gebruik zo nodig informatie in de gegevensset voor het incident voor meer informatie (het **tabblad Bewijs en** antwoord).
 
-### <a name="severity"></a>Ernst
-De ernst van een incident is een indicatie van de invloed die het kan hebben op uw activa. Hoe hoger de ernst, hoe groter de impact en meestal de meest directe aandacht. 
+Terwijl u onderzoek doet, moet u zich zorgen maken over:
 
-### <a name="status"></a>Status
-U kunt ervoor kiezen om de lijst met weergegeven incidenten te beperken op basis van hun status om te zien welke actief of opgelost zijn.
+- Containment: Het verminderen van eventuele extra gevolgen voor uw tenant.
+- Verwijdering: het verwijderen van de beveiligingsrisico's.
+- Herstel: Herstel de tenantbronnen naar de status waarin ze zich vóór de aanval hadden.
 
+Nadat u het incident hebt opgelost, neemt u even de tijd om er van te leren:
 
+- Inzicht in het type van de aanval en de impact ervan.
+- Onderzoek de aanval in de beveiligingsgemeenschap op een beveiligingsaanvaltrend.
+- De werkstroom inroepen die u hebt gebruikt om het incident op te lossen en uw standaardwerkstromen en plalbooks zo nodig bij te werken.
 
+Hier volgt een overzicht van het basisproces.
 
-## <a name="next-steps"></a>Volgende stappen
-Nadat u hebt vastgesteld welk incident de hoogste prioriteit heeft, kunt u verder onderzoek doen naar een incident.
-- [Incidenten onderzoeken](investigate-incidents.md)
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-process.png" alt-text="Het basisproces voor het onderzoeken van incidenten":::
 
+## <a name="next-step"></a>Volgende stap
+
+Nadat u hebt bepaald welk incident de hoogste prioriteit vereist, selecteert u het en begint u uw [onderzoek.](investigate-incidents.md)
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten](incidents-overview.md)

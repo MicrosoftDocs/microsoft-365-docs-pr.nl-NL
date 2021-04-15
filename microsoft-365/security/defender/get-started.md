@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a6fe207773d2682ab68392269ac915030c67fa4b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f408ed0fe77034f69fc6e51ada75012f752ee2e7
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057982"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51759820"
 ---
 # <a name="get-started-with-microsoft-365-for-defender"></a>Aan de slag met Microsoft 365 voor Defender
 
@@ -32,8 +32,6 @@ ms.locfileid: "51057982"
 
 **Van toepassing op:**
 - Microsoft 365 Defender
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 Microsoft 365 Defender is een geïntegreerde ervaring waar u de beveiliging in uw hele bedrijf kunt bewaken en beheren. Met de geïntegreerde waarschuwingen voor identiteiten, eindpunten, gegevens, apps, e-mail en samenwerkingshulpmiddelen gebeurt het onderzoeken en beantwoorden van bedreigingen nu op een centrale locatie. 
 
@@ -58,7 +56,7 @@ Als u Microsoft 365 Defender in- en uitrolt, hebt u toegang tot de volgende bela
 
 | Mogelijkheid | Beschrijving |
 | ------ | ------ |
-| Microsoft Defender for Endpoint | Endpoint protection suite built around powerful behavioral sensors, cloud analytics, and threat intelligence |
+| Microsoft Defender voor Eindpunt | Endpoint protection suite built around powerful behavioral sensors, cloud analytics, and threat intelligence |
 |Microsoft Defender voor Office 365 | Geavanceerde beveiliging voor uw apps en gegevens in Office 365, inclusief e-mail en andere samenwerkingshulpmiddelen |
 | Microsoft Defender for Identity | Verdediging tegen geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadwillende insiders met behulp van gecorreleerde Active Directory-signalen |
 | Microsoft Cloud App Security | Cyberthreats identificeren en bestrijden in uw Microsoft- en externe cloudservices |

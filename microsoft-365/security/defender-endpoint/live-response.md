@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 784e73467efc114f05ebdfca9bc4034e2d75f6c6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 235df8c84077311444c597b120a19477cfd0986a
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185705"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760414"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>Entiteiten op apparaten onderzoeken met livereactie
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -144,11 +144,13 @@ De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkhei
 |`connections` | Toont alle actieve verbindingen. |
 |`dir` | Toont een lijst met bestanden en subdirectorieën in een adreslijst. |
 |`download <file_path> &` | Hiermee downloadt u een bestand op de achtergrond. |
-stuurprogramma's |  Toont alle stuurprogramma's die op het apparaat zijn geïnstalleerd. |
-|`fg <command ID>` | Retourneert een bestand dat is gedownload naar de voorgrond. |
+|`drivers` |  Toont alle stuurprogramma's die op het apparaat zijn geïnstalleerd. |
+|`fg <command ID>` | Plaats de opgegeven taak op de voorgrond op de voorgrond, zodat deze de huidige taak is. <br> OPMERKING: fg gebruikt een 'opdracht-id' die beschikbaar is vanuit taken, niet uit een PID |
 |`fileinfo` | Informatie over een bestand. |
 |`findfile` | Zoekt bestanden op een bepaalde naam op het apparaat. |
+|`getfile <file_path>` | Hiermee wordt een bestand gedownload. |
 |`help` | Biedt help-informatie voor opdrachten voor livereacties. |
+|`jobs` | Toont momenteel lopende taken, hun id en status. |
 |`persistence` | Toont alle bekende persistentiemethoden op het apparaat. |
 |`processes` | Toont alle processen die op het apparaat worden uitgevoerd. |
 |`registry` | Geeft registerwaarden weer. |
@@ -162,7 +164,6 @@ De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkhei
 | Opdracht | Beschrijving |
 |---|---|
 | `analyze` | Analyseert de entiteit met verschillende belastende motoren om tot een uitspraak te komen. |
-| `getfile` | Haalt een bestand op van het apparaat. <br> OPMERKING: Deze opdracht heeft een vereiste opdracht. U kunt de opdracht in combinatie met de opdracht gebruiken `-auto` om de vereiste opdracht automatisch uit te `getfile` voeren. |
 | `run` | Voert een PowerShell-script uit vanuit de bibliotheek op het apparaat. |
 | `library` | Hiermee worden bestanden vermeld die zijn geüpload naar de live antwoordbibliotheek. |
 | `putfile` | Zet een bestand uit de bibliotheek op het apparaat. Bestanden worden opgeslagen in een werkmap en worden verwijderd wanneer het apparaat standaard opnieuw wordt gestart. |
@@ -303,10 +304,9 @@ Selecteer het **tabblad Opdrachtlogboek** om de opdrachten weer te geven die tij
 
 ## <a name="limitations"></a>Beperkingen
 
-- Livereactiesessies zijn beperkt tot 10 livereactiesessies tegelijk.
-- Grootschalige opdrachtuitvoering wordt niet ondersteund.
-- De inactieve time-outwaarde voor livereactiesessie is 5 minuten. 
-- Een gebruiker kan slechts één sessie tegelijk starten.
+- Livereactiesessies zijn beperkt tot 25 livereactiesessies tegelijk.
+- De inactieve time-outwaarde voor livereactiesessie is 30 minuten. 
+- Een gebruiker kan maximaal tien gelijktijdige sessies starten.
 - Een apparaat kan slechts in één sessie tegelijk worden gebruikt.
 - De volgende limieten voor bestandsgrootte zijn van toepassing:
    - `getfile` limiet: 3 GB
@@ -314,4 +314,4 @@ Selecteer het **tabblad Opdrachtlogboek** om de opdrachten weer te geven die tij
    - `library` limiet: 250 MB
 
 ## <a name="related-article"></a>Gerelateerd artikel
-- [Voorbeelden van livereactieopdracht](live-response-command-examples.md)
+- [Voorbeelden van opdrachten voor Live-reacties](live-response-command-examples.md)

@@ -10,16 +10,18 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 03/31/2021
+ms.date: 04/13/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6c411507b834bd7f09f4688bda11e3ece9f6d7c8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: b8122807b8e26a848781f9f66f8e13032345f3fd
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690624"
+ms.locfileid: "51749912"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Groepsbeleidsinstellingen gebruiken om Microsoft Defender Antivirus te configureren en te beheren
 
@@ -87,9 +89,9 @@ De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschi
 | Herstellen | Geef de tijd van de dag op om een geplande volledige scan uit te voeren om de hersteltijd te voltooien | [Geplande Microsoft Defender Antivirus-scans configureren](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Rapportage | Verbeterde meldingen uitschakelen | [De meldingen configureren die op eindpunten worden weergegeven](configure-notifications-microsoft-defender-antivirus.md)
 | Hoofdmap | Microsoft Defender Antivirus uitschakelen | Niet gebruikt (Deze instelling moet zijn ingesteld op Niet **geconfigureerd** om ervoor te zorgen dat geïnstalleerde antivirus-apps van derden correct werken)
-| Hoofdmap | Adressen definiëren om proxyserver te omzeilen | Niet meer relevant |
-| Hoofdmap | Proxy autoconfig (.pac) definiëren voor verbinding maken met het netwerk | Niet meer relevant |
-| Hoofdmap | Proxyserver definiëren voor verbinding maken met het netwerk | Niet meer relevant |
+| Hoofdmap | Adressen definiëren om proxyserver te omzeilen | Niet gebruikt |
+| Hoofdmap | Proxy autoconfig (.pac) definiëren voor verbinding maken met het netwerk | Niet gebruikt |
+| Hoofdmap | Proxyserver definiëren voor verbinding maken met het netwerk | Niet gebruikt |
 | Hoofdmap | Het samenvoeggedrag van lokale beheerders configureren voor lijsten | [Voorkomen of toestaan dat gebruikers beleidsinstellingen lokaal wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | Hoofdmap | Antimalware-service met normale prioriteit laten starten | [Herstel configureren voor Antivirusscans van Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md) |
 | Hoofdmap | Toestaan dat antimalwareservice altijd actief blijft | [Herstel configureren voor Antivirusscans van Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md) |

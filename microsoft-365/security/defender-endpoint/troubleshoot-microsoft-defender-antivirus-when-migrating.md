@@ -1,12 +1,12 @@
 ---
-title: Problemen met Microsoft Defender Antivirus oplossen terwijl u migreert vanuit een oplossing van derden
+title: Problemen met Microsoft Defender Antivirus oplossen die optreden tijdens migratie vanuit een externe oplossing
 description: Veelvoorkomende fouten oplossen bij het migreren naar Microsoft Defender Antivirus
 keywords: gebeurtenis, foutcode, logboekregistratie, probleemoplossing, microsoft defender antivirus, Windows Defender antivirus, migratie
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: martyav
 ms.author: v-maave
 ms.custom: nextgen
@@ -14,14 +14,14 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 2ca486b86c24e18ae08753b5e88f2eb42986dddf
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3fcc79e767edb533a20402a2f92ba4abc7d8386a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690659"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764589"
 ---
-# <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>Problemen met Microsoft Defender Antivirus oplossen terwijl u migreert vanuit een oplossing van derden
+# <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>Problemen met Microsoft Defender Antivirus oplossen die optreden tijdens migratie vanuit een externe oplossing
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -48,7 +48,7 @@ Dit probleem kan zich manifesteert in de vorm van verschillende gebeurtenis-ID's
 
 ### <a name="associated-event-ids"></a>Gekoppelde gebeurtenis-IDs
 
- Gebeurtenis-id | Naam van logboek | Omschrijving | Source
+ Gebeurtenis-id | Naam van logboek | Beschrijving | Source
 -|-|-|-
 15 | Toepassing | De Windows Defender-status is bijgewerkt om SECURITY_PRODUCT_STATE_OFF. | Beveiligingscentrum
 5007 | Microsoft-Windows-Windows Defender/Operational | Windows Defender Antivirus Configuration is gewijzigd.  Als dit een onverwachte gebeurtenis is, moet u de instellingen controleren, omdat dit mogelijk het gevolg is van malware.<br /><br />**Oude waarde:** Standaard\IsServiceRunning = 0x0<br />**Nieuwe waarde:** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1 | Windows Defender

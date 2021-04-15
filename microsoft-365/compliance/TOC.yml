@@ -245,6 +245,8 @@
               href: dlp-on-premises-scanner-learn.md
             - name: Meer informatie over Microsoft compliance-extensie (preview)
               href: dlp-chrome-learn-about.md
+            - name: Meer informatie over het Waarschuwingen-dashboard voor preventie van gegevensverlies
+              href: dlp-alerts-dashboard-learn.md
         - name: Aan de slag met DLP
           items:
             - name: Aan de slag met het standaard DLP-beleid
@@ -261,6 +263,8 @@
               href: endpoint-dlp-configure-proxy.md
             - name: Aan de slag met Microsoft compliance-extensie (preview)
               href: dlp-chrome-get-started.md
+            - name: Aan de slag met het waarschuwingsdashboard voor de preventie van gegevensverlies
+              href: dlp-alerts-dashboard-get-started.md
             - name: DLP-hulpmiddelen en methoden voor het eindpunt voor Windows 10-apparaten
               items:
                 - name: Onboarden hulpmiddelen en methoden voor Windows 10-apparaten
@@ -594,6 +598,8 @@
               href: ediscovery-decryption.md
             - name: Diagnostische gegevens voor eDiscovery verzamelen
               href: ediscovery-diagnostic-info.md
+            - name: Problemen met eDiscovery-bewaring oplossen
+              href: hold-distribution-errors.md
             - name: Veelvoorkomende problemen met eDiscovery oplossen
               href: ediscovery-troubleshooting-common-issues.md
             - name: Een mislukte zoekactie opnieuw uitvoeren
@@ -748,6 +754,8 @@
               href: what-is-stored-in-exo-mailbox.md
             - name: Ontsleutelen in eDiscovery-hulpprogramma's
               href: ediscovery-decryption.md
+            - name: Problemen met eDiscovery-bewaring oplossen
+              href: hold-distribution-errors.md
             - name: Diagnostische gegevens voor eDiscovery verzamelen
               href: ediscovery-diagnostic-info.md
             - name: Zoeken naar eDiscovery-activiteiten in het auditlogboek
@@ -766,6 +774,8 @@
       href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
     - name: De quota verhogen voor herstelbare items voor postvakken in bewaring
       href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
+    - name: Problemen met eDiscovery-bewaring oplossen
+      href: hold-distribution-errors.md
     - name: Ontvangers van BCC-en uitgebreide distributiegroepen behouden
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Controle- en waarschuwingsbeleid beheren

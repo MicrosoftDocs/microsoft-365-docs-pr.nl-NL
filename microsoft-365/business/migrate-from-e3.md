@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het verplaatsen van uw bedrijf naar Microsoft 365 Business Premium vanuit Office 365 E3.
-ms.openlocfilehash: ffb82fa40f05383260ac1b97ed0bdf5f2f30c1df
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f2b7962918186f4a1063c5a66596135c2972ec71
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578322"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51749995"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium
 
@@ -49,7 +49,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Off
 | OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Onbeperkt | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | | 
+| MileIQ    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Bedreigingsbeveiliging**        | | | 
 | Defender voor Office 365 Abonnement 1 | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
 | **Identiteitsbeheer**        | | | 
@@ -60,7 +60,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Off
 | Upgraderechten voor Windows 10 Pro van Win 7/8.1 Pro-licenties|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    || 
 | **Gegevensbeveiliging**        | | |
 |Preventie van gegevensverlies in Office 365|    ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)|![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
-|Azure Information Protection Plan 1, Bitlocker enforcement|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
+|Azure Information Protection Plan 1, BitLocker enforcement|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
 |Azure Information Protection Plan 1, Gevoeligheidslabels|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
 |**Client Access License (CAL-rechten)**|||
 |Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Inbegrepen bij Office 365 E3](../media/check-mark.png)|

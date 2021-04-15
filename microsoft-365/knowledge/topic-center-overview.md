@@ -1,8 +1,8 @@
 ---
-title: 'Overzicht van het onderwerpcentrum '
+title: Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
 description: Meer informatie over het onderwerpcentrum in Microsoft Viva-onderwerpen.
-author: efrene
-ms.author: efrene
+author: chuckedmonson
+ms.author: chucked
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -14,29 +14,29 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 558d0fc9279c4b0d9e8c287fe4d99f5ac5884606
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 01b3310f5f822f3f6f38bf4d9e727d41fe2b179b
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917486"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760108"
 ---
-# <a name="topic-center-overview"></a>Overzicht van het onderwerpcentrum
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
 
 
 In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint-site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in het Microsoft 365-beheercentrum.
 
-Het onderwerpcentrum heeft een standaard startpagina met het webonderdeel Onderwerpen waarin alle gelicentieerde gebruikers de onderwerpen kunnen zien waarmee ze een verbinding hebben. 
+Het onderwerpcentrum heeft een standaard startpagina met het **webonderdeel** Onderwerpen waarin alle gelicentieerde gebruikers de onderwerpen kunnen zien waarmee ze een verbinding hebben. 
 
-Hoewel alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, toegang hebben tot het onderwerpcentrum, kunnen kennisbeheerders al onderwerpen beheren via de **pagina Onderwerpen** beheren. Het tabblad Onderwerpen beheren wordt alleen weergegeven voor gebruikers met de machtiging **Onderwerpen** beheren. 
+Hoewel alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, toegang hebben tot het onderwerpcentrum, kunnen kennisbeheerders ook onderwerpen beheren via de **pagina Onderwerpen** beheren. Het **tabblad Onderwerpen beheren** wordt alleen weergegeven voor gebruikers met de machtiging Onderwerpen beheren. 
 
 ## <a name="where-is-my-topic-center"></a>Waar is mijn onderwerpcentrum
 
 Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. Nadat de installatie is voltooid, kan een beheerder de URL vinden op de [pagina Onderwerpcentrumbeheer.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. Klik in het Microsoft 365-beheercentrum op **Instellingen** en vervolgens **op Organisatie-instellingen.**
-2. Klik op **het tabblad** Services op **Onderwerpervaringen.**
+1. Selecteer instellingen in het Microsoft 365-beheercentrum **en** selecteer **vervolgens Organisatie-instellingen.**
+2. Selecteer op **het tabblad** Services de optie **Onderwerpervaringen.**
 
     ![Personen verbinden met kennis](../media/admin-org-knowledge-options-completed.png) </br>
 
@@ -70,9 +70,9 @@ Wanneer een gebruiker zijn of haar verbinding met een onderwerp bevestigt, kan d
 
 ## <a name="manage-topics-page"></a>Pagina Onderwerpen beheren
 
-Als u wilt werken in de sectie **Onderwerpen** beheren  van het onderwerpcentrum, moet u de vereiste machtigingen voor onderwerpen beheren hebben die nodig zijn voor de rol van knowledge manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen achteraf worden toegevoegd door een beheerder via het Microsoft 365-beheercentrum.
+Als u wilt werken in de sectie **Onderwerpen** beheren van het onderwerpcentrum, moet u de vereiste machtigingen voor onderwerp beheren hebben die nodig zijn voor de rol van knowledge manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen achteraf worden toegevoegd door een beheerder via het Microsoft 365-beheercentrum.
 
-Op de pagina Onderwerpen beheren worden in het onderwerpdashboard alle onderwerpen weergegeven die u hebt, die zijn geïdentificeerd op basis van de opgegeven bronlocaties. In elk onderwerp wordt de datum van het onderwerp gevonden. Een gebruiker aan wie machtigingen voor **onderwerpen beheren** zijn toegewezen, kan de onbevestigde onderwerpen bekijken en ervoor kiezen om:
+Op de pagina Onderwerpen beheren worden in het onderwerpdashboard alle onderwerpen weergegeven die u hebt, die zijn geïdentificeerd op basis van de opgegeven bronlocaties. In elk onderwerp wordt de datum van het onderwerp gevonden. Een gebruiker aan wie machtigingen voor onderwerpen beheren zijn toegewezen, kan de onbevestigde onderwerpen bekijken en ervoor kiezen om:
 - Bevestig het onderwerp: hiermee wordt het onderwerp belicht voor gebruikers die toegang hebben tot de bestanden en pagina's die betrekking hebben op het onderwerp, en kunnen ze de bijbehorende onderwerpkaart en onderwerppagina zien.
 - Publiceer het onderwerp: Bewerk de onderwerpgegevens om de kwaliteit van het onderwerp te verbeteren dat in eerste instantie is geïdentificeerd, en belicht het onderwerp voor alle gebruikers die toegang hebben tot onderwerpen. 
 - Het onderwerp afwijzen: Maakt het onderwerp niet beschikbaar voor gebruikers. Het onderwerp wordt verplaatst naar het tabblad **Geweigerd** en kan zo nodig later worden bevestigd. 
@@ -80,20 +80,15 @@ Op de pagina Onderwerpen beheren worden in het onderwerpdashboard alle onderwerp
 > [!Note] 
 > Zie [Onderwerpen beheren voor](manage-topics.md) meer informatie over onderwerpen beheren op de pagina Onderwerpen beheren.
 
-
 ## <a name="create-or-edit-a-topic"></a>Een onderwerp maken of bewerken
 
-Als u de machtiging **Onderwerpen maken en bewerken** hebt, kunt u het volgende doen:
+Als u de machtiging Onderwerpen maken en bewerken hebt, kunt u het volgende doen:
 
 - [Bestaande onderwerpen bewerken:](edit-a-topic.md)U kunt wijzigingen aanbrengen in bestaande onderwerppagina's die zijn gemaakt via detectie.
 - [Nieuwe onderwerpen maken:](create-a-topic.md)U kunt nieuwe onderwerpen maken voor onderwerpen die niet zijn gevonden via detectie of als er onvoldoende bewijs is gevonden voor het maken van een onderwerp door AI-hulpmiddelen.
 
 
-
-
-
-
 ## <a name="see-also"></a>Zie ook
 
-
+[Onderwerpen beheren in het onderwerpcentrum](manage-topics.md)
 

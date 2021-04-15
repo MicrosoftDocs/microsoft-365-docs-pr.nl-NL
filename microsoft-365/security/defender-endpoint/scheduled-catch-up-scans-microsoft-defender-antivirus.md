@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,12 @@ ms.date: 11/02/2020
 ms.reviewer: pauhijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 66907fca7a117eeba7ca0b9bd95d59af24c31341
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: bfa616423fc0c097b9909df8abf5b9c414490383
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690629"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764085"
 ---
 # <a name="configure-scheduled-quick-or-full-microsoft-defender-antivirus-scans"></a>Geplande snelle of volledige Microsoft Defender Antivirus-scans configureren
 
@@ -241,8 +241,8 @@ U kunt een scan dwingen [](manage-protection-updates-microsoft-defender-antiviru
 
 ## <a name="see-also"></a>Zie ook
 - [Voorkomen of toestaan dat gebruikers beleidsinstellingen lokaal wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md)
-- [On-demand Microsoft Defender Antivirus scans configureren en uitvoeren](run-scan-microsoft-defender-antivirus.md)
-- [Scanopties voor Microsoft Defender Antivirus configureren](configure-advanced-scan-types-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivirus-scans op aanvraag configureren en uitvoeren](run-scan-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivirus-scanopties configureren](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus-updates beheren en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Beheren wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md) 
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

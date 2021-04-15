@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 392db06aa517e3e970f85ccc971c3a6a6bc6e548
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0f09f74a1cefad5a9b6b438752ebe57e583397c7
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498290"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759976"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Snel zoeken naar entiteits- of gebeurtenisgegevens met go hunt
 
@@ -39,7 +39,7 @@ Met de *actie Ga opzoeken* kunt u snel gebeurtenissen en [](advanced-hunting-ove
 
 De *actie Ga opzoeken* is beschikbaar in verschillende secties van het beveiligingscentrum wanneer gebeurtenis- of entiteitsgegevens worden weergegeven. U kunt bijvoorbeeld zoeken *in de* volgende secties gebruiken:
 
-- Op de [pagina met incidenten](investigate-incidents.md#incident-overview)kunt u details bekijken over gebruikers, apparaten en vele andere entiteiten die zijn gekoppeld aan een incident. Wanneer u een entiteit selecteert, krijgt u aanvullende informatie en verschillende acties die u kunt uitvoeren op die entitity. In het onderstaande voorbeeld is een postvak geselecteerd, met informatie over het postvak en de optie om te zoeken naar meer informatie over het postvak.
+- Op de [pagina met incidenten](investigate-incidents.md#summary)kunt u details bekijken over gebruikers, apparaten en vele andere entiteiten die zijn gekoppeld aan een incident. Wanneer u een entiteit selecteert, krijgt u aanvullende informatie en verschillende acties die u kunt uitvoeren op die entitity. In het onderstaande voorbeeld is een postvak geselecteerd, met informatie over het postvak en de optie om te zoeken naar meer informatie over het postvak.
 
     ![Afbeelding met postvakdetails met de optie Gaan zoeken](../../media/mtp-ah/go-hunt-email.png)
 

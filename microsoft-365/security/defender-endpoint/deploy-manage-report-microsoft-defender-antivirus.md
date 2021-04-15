@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a9cd04300e67f956b50f07c02f3dc00c515f02eb
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b44bc529a14d12d2be49854c31a4ea11cdabc7d1
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690732"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764841"
 ---
 # <a name="deploy-manage-and-report-on-microsoft-defender-antivirus"></a>Microsoft Defender Antivirus implementeren, beheren en rapporteren
 
@@ -86,7 +86,7 @@ Microsoft Azure|Implementeer Microsoft Antimalware voor Azure in de Azure-portal
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Omschrijving
+Onderwerp | Beschrijving
 ---|---
 [Microsoft Defender Antivirusbeveiliging implementeren en inschakelen](deploy-microsoft-defender-antivirus.md) | Hoewel de client is geïnstalleerd als een belangrijk onderdeel van Windows 10 en traditionele implementatie niet van toepassing is, moet u de client op uw eindpunten nog steeds inschakelen met Microsoft Endpoint Configuration Manager, Microsoft Intune of Groepsbeleidsobjecten. 
 [Microsoft Defender Antivirus-updates beheren en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md) | Er zijn twee onderdelen voor het bijwerken van Microsoft Defender Antivirus: het bijwerken van de client op eindpunten (productupdates) en het bijwerken van beveiligingsinformatie (beveiligingsupdates). U kunt beveiligingsinformatie op verschillende manieren bijwerken met Behulp van Microsoft Endpoint Configuration Manager, Groepsbeleid, PowerShell en WMI.
