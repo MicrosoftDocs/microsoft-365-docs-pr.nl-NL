@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: b8122807b8e26a848781f9f66f8e13032345f3fd
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: e8d3cbd58b80d6c393b8d7173c61509b26a29b4a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51749912"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765657"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Groepsbeleidsinstellingen gebruiken om Microsoft Defender Antivirus te configureren en te beheren
 
@@ -65,7 +65,7 @@ De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschi
 | KAARTEN | Bestandsvoorbeelden verzenden wanneer verdere analyse is vereist | [Beveiliging via de cloud inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | KAARTEN | Lokale instelling overschrijven voor rapportage naar Microsoft MAPS configureren | [Voorkomen of toestaan dat gebruikers beleidsinstellingen lokaal wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | MpEngine | Uitgebreide cloudcontrole configureren | [De time-outperiode voor cloudblokkering configureren](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
-| MpEngine | Beveiligingsniveau voor de cloud selecteren | [Het door de cloud geleverde beveiligingsniveau opgeven](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
+| MpEngine | Beveiligingsniveau voor de cloud selecteren | [Niveau voor door cloud geleverde beveiliging opgeven](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
 | Netwerkcontrolesysteem | Aanvullende definitiesets opgeven voor netwerkverkeersinspectie | Niet meer relevant |
 | Netwerkcontrolesysteem | Definitie-uittreding in-/uit- | Niet meer relevant |
 | Netwerkcontrolesysteem | Protocolherkenning in- en uit- | Niet meer relevant |
@@ -98,7 +98,7 @@ De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschi
 | Hoofdmap | Routine-herstel uitschakelen | [Herstel configureren voor Antivirusscans van Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md) |
 | Hoofdmap | Geplande taaktijden willekeurig maken | [Geplande scans configureren voor Microsoft Defender Antivirus](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Scannen | Toestaan dat gebruikers de scan onderbreken | [Voorkomen dat gebruikers de](prevent-end-user-interaction-microsoft-defender-antivirus.md) gebruikersinterface van Microsoft Defender Antivirus kunnen zien of gebruiken (niet ondersteund in Windows 10) |
-| Scannen | Controleer op de meest recente virus- en spywaredefinities voordat u een geplande scan gaat uitvoeren | [Geforceerd updates op basis van gebeurtenissen beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Scannen | Controleer op de meest recente virus- en spywaredefinities voordat u een geplande scan gaat uitvoeren | [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Scannen | Het aantal dagen definiëren waarop een inhaalscan wordt gedwongen | [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Scannen | Volledige scan inhalen in- en uithalen | [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Scannen | Quick Scan inhalen in-/uit- | [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
@@ -126,17 +126,17 @@ De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschi
 | Scannen | De tijd voor een dagelijkse snelle scan opgeven | [Geplande scans configureren voor Microsoft Defender Antivirus](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Scannen | De tijd van de dag opgeven om een geplande scan uit te voeren | [Geplande scans configureren voor Microsoft Defender Antivirus](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Scannen | De geplande scan alleen starten wanneer de computer is aan, maar niet in gebruik is | [Geplande scans configureren voor Microsoft Defender Antivirus](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
-| Beveiligingsintelligentie-updates | Beveiligingsinformatie-updates van Microsoft Update toestaan | [Updates voor mobiele apparaten en virtuele machines (VM's) beheren](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
-| Beveiligingsintelligentie-updates | Beveiligingsintelligentie-updates toestaan wanneer u op de batterij werkt | [Updates voor mobiele apparaten en virtuele machines (VM's) beheren](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
-| Beveiligingsintelligentie-updates | Meldingen toestaan om rapporten op basis van definities uit te schakelen naar Microsoft MAPS | [Geforceerd updates op basis van gebeurtenissen beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
-| Beveiligingsintelligentie-updates | Realtime beveiligingsintelligentie-updates toestaan op basis van rapporten voor Microsoft MAPS | [Geforceerd updates op basis van gebeurtenissen beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
-| Beveiligingsintelligentie-updates | Controleren op de meest recente definities van virussen en spyware bij het opstarten | [Geforceerd updates op basis van gebeurtenissen beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Beveiligingsintelligentie-updates | Beveiligingsinformatie-updates van Microsoft Update toestaan | [Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
+| Beveiligingsintelligentie-updates | Beveiligingsintelligentie-updates toestaan wanneer u op de batterij werkt | [Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
+| Beveiligingsintelligentie-updates | Meldingen toestaan om rapporten op basis van definities uit te schakelen naar Microsoft MAPS | [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Beveiligingsintelligentie-updates | Realtime beveiligingsintelligentie-updates toestaan op basis van rapporten voor Microsoft MAPS | [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Beveiligingsintelligentie-updates | Controleren op de meest recente definities van virussen en spyware bij het opstarten | [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Beveiligingsintelligentie-updates | Bestandsaandelen definiëren voor het downloaden van beveiligingsinformatie-updates | [Microsoft Defender Antivirus protection and security intelligence updates beheren](manage-protection-updates-microsoft-defender-antivirus.md) |
 | Beveiligingsintelligentie-updates | Het aantal dagen definiëren waarna een update voor beveiligingsinformatie vereist is | [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Beveiligingsintelligentie-updates | Het aantal dagen definiëren voordat spywaredefinities als verouderd worden beschouwd | [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Beveiligingsintelligentie-updates | Het aantal dagen definiëren voordat virusdefinities als verouderd worden beschouwd | [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Beveiligingsintelligentie-updates | De volgorde van bronnen definiëren voor het downloaden van beveiligingsinformatie-updates | [Microsoft Defender Antivirus protection and security intelligence updates beheren](manage-protection-updates-microsoft-defender-antivirus.md) |
-| Beveiligingsintelligentie-updates | Beveiligingsintelligentie-update starten bij opstarten | [Geforceerd updates op basis van gebeurtenissen beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Beveiligingsintelligentie-updates | Beveiligingsintelligentie-update starten bij opstarten | [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Beveiligingsintelligentie-updates | Geef de dag van de week op om te controleren op beveiligingsinformatie-updates | [Beheren wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md) |
 | Beveiligingsintelligentie-updates | Geef het interval op om te controleren op beveiligingsinformatie-updates | [Beheren wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md) |
 | Beveiligingsintelligentie-updates | Geef de tijd op om te controleren op beveiligingsinformatie-updates | [Beheren wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md) |

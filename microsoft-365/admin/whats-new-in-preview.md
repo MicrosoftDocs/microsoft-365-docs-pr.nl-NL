@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-beheercentrum : meer informatie over de functies
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 7b802556e051200bf39bc4bd9b97974d4d2d4c47
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0c17c6840d73c5b0a2714c6c6a832c154e2a9640
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222001"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768688"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365-beheercentrum
 
@@ -50,6 +50,27 @@ En als u wilt weten wat er nieuw is met andere Microsoft-cloudservices:
 - [Office-updates](/OfficeUpdates/)
 - [Status van Windows-release controleren](https://docs.microsoft.com/windows/deployment/update/check-release-health)
 
+## <a name="april-2021"></a>April 2021
+
+### <a name="admin-mobile-app"></a>Mobiele app voor beheerders
+
+### <a name="manage-licenses-and-bills-from-the-admin-mobile-app"></a>Licenties en facturen beheren vanuit de mobiele app Beheerder
+
+- U kunt nu alle beschikbare en toegewezen licenties voor uw abonnementen weergeven. U kunt ook licenties aan gebruikers toewijzen of verwijderen en licenties toevoegen of verwijderen.
+- U kunt nu gedetailleerde facturen weergeven in de app.
+- Deze updates zijn beschikbaar op [zowel Android-](https://go.microsoft.com/fwlink/p/?linkid=2159786) als [iOS-apparaten.](https://go.microsoft.com/fwlink/p/?linkid=2159787)
+
+:::image type="content" source="../media/assign-license-mobile-app2.png" alt-text="Schermafbeelding: mobiele app beheerder wijs licentiepagina toe":::
+:::image type="content" source="../media/license-screen-mobile-app2.png" alt-text="Schermafbeelding: Scherm mobiele app beheren met gebruikers en hun licenties":::
+:::image type="content" source="../media/invoice-summary-mobile-app.png" alt-text="Schermafbeelding: Overzichtspagina van mobiele app-beheerders":::
+
+### <a name="updated-message-center-feed-in-the-admin-mobile-app"></a>Bijgewerkte berichtencentrumfeed in de mobiele app Beheerder
+
+- U hebt nu een flexibelere leeservaring van de berichtencentrumfeed. U kunt nu berichten filteren op basis van service of tags en berichten markeren als favoriet. Bulkacties voor het markeren van berichten als gelezen, ongelezen of gearchiveerd zijn ook toegevoegd.
+- Deze updates zijn beschikbaar op [zowel Android-](https://go.microsoft.com/fwlink/p/?linkid=2159786) als [iOS-apparaten.](https://go.microsoft.com/fwlink/p/?linkid=2159787)
+
+:::image type="content" source="../media/mc-feed-mobile-app.png" alt-text="Schermafbeelding: Pagina berichtencentrum voor mobiele app beheren":::
+
 ## <a name="ignite-2021-march"></a>Ignite 2021 (maart)
 
 Welkom bij Microsoft Ignite. We hopen dat u een aantal van onze sessies hebt kunnen [bijwonen: Microsoft Ignite 2021.](https://myignite.microsoft.com/sessions) Hier zijn een paar van de dingen waar we het over hebben gehad bij Ignite.
@@ -66,7 +87,7 @@ Zie Berichten beheren in het [berichtencentrum](manage/manage-messages.md)voor m
 
 ### <a name="whats-new-features"></a>Nieuwe functies
 
-We hebben verbeteringen aangebracht in de weergave van de functies 'Nieuwe functies' voor gebruikers in de Office-apps. U kunt nu de uitgebreide inhoud zien in het nieuwe deelvenster Whats dat uw gebruikers kunnen zien. U kunt ook meer informatie over de functie krijgen voordat u besluit om uw gebruikers te laten weten over de functie. For more info, check out [Manage which Office‎ features appear in What's New](manage/show-hide-new-features.md).
+We hebben verbeteringen aangebracht in de weergave van de functies 'Nieuwe functies' voor gebruikers in de Office-apps. U kunt nu de uitgebreide inhoud zien in het nieuwe deelvenster Whats dat uw gebruikers kunnen zien. U kunt ook meer informatie over de functie krijgen voordat u besluit om uw gebruikers te laten weten over de functie. Zie Beheren welke Office-functies worden weergegeven in Nieuwe functies voor [meer informatie.](manage/show-hide-new-features.md)
 
 :::image type="content" source="../media/power-bi-whats-new2.png" alt-text="Schermafbeelding: Nieuwe pagina office-apps met verbeteringen in Power BI":::
 
@@ -206,7 +227,7 @@ Wat is er nieuw met [microsoft 365-videoreeksen:](https://youtu.be/m1Nu8WJgCDY) 
 
 ### <a name="keeping-up-with-office-whats-new-management"></a>Up-up houden met Office What's New management
 
-Een paar maanden geleden hebben we een instelling toegevoegd waarmee u de nieuwe berichten kunt beheren die worden in de [Office-apps](#office-whats-new-management)van een gebruiker. Deze maand hebben we een nieuwe startpaginakaart uitgebracht die u  helpt snel te handelen en de berichten die u wilt laten zien aan de gebruikers in uw organisatie bij te houden.
+Een paar maanden geleden hebben we een instelling toegevoegd waarmee u de nieuwe berichten kunt beheren die worden in de Office-apps van een gebruiker. Deze maand hebben we een nieuwe startpaginakaart uitgebracht die u  helpt snel te handelen en de berichten die u wilt laten zien aan de gebruikers in uw organisatie bij te houden.
 
 ### <a name="docs-training-and-videos-june"></a>Documenten, training en video's (juni)
 
@@ -398,46 +419,3 @@ Een paar wijzigingen in het groepengebied deze maand:
 - Nieuwe functies **in de Microsoft 365-videoreeks:** Deze maand richten we ons op aangepaste zoekmogelijkheden voor SharePoint Online, de office-beheerfunctie 'Nieuw' waarmee u specifieke functies kunt weergeven of verbergen voor eindgebruikers via het helpvenster in de app, de meest recente beveiligings- en compliance-updates in Yammer en meer. Dit is de nieuwste aflevering: [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
 
 - **Verplaatsen van documenten:** We hebben de office 365-beheerderswebartikelen gecombineerd met de Microsoft 365-inhoud en u hebt mogelijk de nieuwe URL gezien. Dit artikel werd bijvoorbeeld gehost op: **docs.microsoft.com/Office365/Admin/whats-new-in-preview**, maar de URL is nu: **docs.microsoft.com/microsoft-365/admin/whats-new-in-preview.** Als u pagina's met bladwijzers hebt, moet u uw koppelingen bijwerken. Inhoudskoppelingen worden echter omgeleid naar de nieuwe inhouds-repo.
-
-## <a name="january-2020---happy-new-year"></a>Januari 2020 - Gelukkig nieuwjaar
-
-> [!NOTE]
-> Wist u dat er een videoreeks Nieuw [is in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096) op YouTube? Hier worden de nieuwste functies belicht die we hebben uitgerold naar gebruikers. Elke maand gaan we een koppeling maken naar de nieuwste aflevering in de sectie [Video's, training en documenten.](#videos-training-and-docs) <br> <br> Dit is de nieuwste aflevering: [Nieuw in Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
-
-### <a name="dark-mode"></a>Donkere modus
-
-Toen we de donkere modus voor het eerst uitrolden, was deze alleen beschikbaar op de startpagina. De donkere modus is nu niet meer te zien en is beschikbaar in targeted release op de meeste pagina's in het beheercentrum.
-
-1. Eerst moet u Targeted Release in- of uitschakelen: Ga naar **Instellingen** \> **Instellingen** \> **Organisatieprofiel** \> **Releasevoorkeuren**.
-1. Als u de donkere modus wilt inschakelen, gaat u naar de **startpagina** en selecteert u vervolgens de **knop Donkere** modus. (Het veld staat naast het veld **Zoeken** en dit artikel is **De nieuwe** koppeling.)
-1. Voor een pagina met een donkere modus staat de knop boven aan de pagina, naast **De nieuwe schakelknop voor** het beheercentrum.
-
-### <a name="office-whats-new-management"></a>Office What's New Management
-
-Beheerders willen controle over de manier waarop Microsoft 'Nieuw' communiceert met hun gebruikers in de Office-apps en u hebt nu dat besturingselement. Ga naar **Instellingen** \> **Office Wat is nieuw beheervoorbeeld.** Selecteer een functie om de details weer  te geven en vervolgens kunt u de knop Verbergen van gebruikers selecteren als u niet wilt dat uw gebruikers een bepaald bericht 'nieuw' zien. Uw organisatie kan bijvoorbeeld wachten om gebruikers te laten weten over een functie totdat iedereen in uw organisatie is opgeleid.
-
-![Schermopname van Office Nieuw voorbeeld met het detailvenster van een functie geopend.](../media/whatsnew-officemgmt-preview.png)
-
-Deze functie is voor het eerst uitgebracht voor een preview-versie in november, maar er zijn een paar functie-updates die u moet weten: [Office What's New management preview updates now available](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-preview/ba-p/1020438)
-
-### <a name="partners"></a>Partners
-
-Howdy, Partners! (Ik kon het niet helpen.) We hebben deze maand ook een update voor u. Er is een nieuwe functie waarmee partners CSP-klanten de optie kunnen geven om  hun Microsoft Customer Agreement (MCA) te accepteren in de sectie Factureringsaccounts van het beheercentrum. In deze nieuwe ervaring:
-
-1. De klant ontvangt een e-mail met een uitnodiging met een koppeling om de partnerrelatie en de MCA te accepteren.
-2. Nadat de klant zich heeft aangegeven, kunnen ze de MCA- en partnermachtigingen direct vanuit het beheercentrum bekijken en accepteren.
-
-### <a name="resource-mailboxes"></a>Resourcepostvakken
-
-De lijst Resourcepostvakken is bijgewerkt naar de nieuwe stijl. Ga in het Microsoft 365-beheercentrum naar  \> **Resources-& apparatuur.**
-
-### <a name="videos-training-and-docs-january"></a>Video's, trainingen en documenten (januari)
-
-Bekijk de training voor beheerders voor kleine bedrijven die we in januari hebben uitgebracht:
-
-- [Uw zakelijke website maken](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
-- [Antwoorden en hulp zoeken](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
-- [Help of ondersteuning krijgen](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
-- [Een gebruiker verwijderen](https://support.microsoft.com/office/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
-- [Een Microsoft-abonnement kiezen](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [Overzicht van de beveiliging van Microsoft 365 voor Bedrijven](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)

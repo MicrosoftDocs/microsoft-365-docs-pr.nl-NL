@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-ms.localizationpriority: medium
+localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 7165d943fd39e298894531f1dabdec408144898d
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: b3fef3479fa2d36806e6657b31f5152c54b9251f
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698422"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764997"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>Veelgestelde vragen over apparaatdetectie
 
@@ -70,7 +70,7 @@ U hebt de optie om apparaatdetectie uit te schakelen via de [pagina Geavanceerde
  Wanneer apparaatdetectie passieve methoden gebruikt om apparaten in het netwerk te ontdekken, kan elk apparaat dat communiceert met uw onboarded-apparaten in het bedrijfsnetwerk worden gevonden en vermeld in de inventaris. U kunt apparaten alleen uitsluiten van actief probing.
 
 ## <a name="how-frequent-is-the-active-probing"></a>Hoe vaak is het actieve probing?
- Apparaten worden actief onderzocht wanneer wijzigingen in apparaatkenmerken worden waargenomen en eenmaal per week om ervoor te zorgen dat de bestaande informatie up-to-date is.
+ Apparaten worden actief onderzocht wanneer wijzigingen in apparaatkenmerken worden waargenomen (elke 1 tot 3 weken) om ervoor te zorgen dat de bestaande informatie up-to-date is.
 
 ## <a name="my-security-tool-raised-alert-on-unicastscannerps1-or-port-scanning-activity-initiated-by-it-what-should-i-do"></a>Mijn beveiligingshulpmiddel heeft een waarschuwing UnicastScanner.ps1 de scanactiviteit voor de poort of de poort die door het programma is gestart, wat moet ik doen?
  De actieve scripts zijn ondertekend door Microsoft en zijn veilig. U kunt het volgende pad toevoegen aan uw uitsluitingslijst: `C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\*.ps`

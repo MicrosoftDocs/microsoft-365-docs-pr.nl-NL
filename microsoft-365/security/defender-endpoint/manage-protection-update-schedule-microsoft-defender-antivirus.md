@@ -8,21 +8,21 @@ search.appverid: met150
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e4ba9a438ff4640a556a236b50b0be6e816fc7e8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 327974c4db4166301820cf148811aceda1700513
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690424"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765345"
 ---
-# <a name="manage-the-schedule-for-when-protection-updates-should-be-downloaded-and-applied"></a>De planning beheren voor wanneer beveiligingsupdates moeten worden gedownload en toegepast
+# <a name="manage-the-schedule-for-when-protection-updates-should-be-downloaded-and-applied"></a>Het schema beheren voor wanneer beveiligingsupdates moeten worden gedownload en toegepast
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -104,6 +104,6 @@ Zie het volgende voor meer informatie en toegestane parameters:
 - [Microsoft Defender Antivirus implementeren](deploy-manage-report-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus-updates beheren en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [Geforceerd updates op basis van gebeurtenissen beheren](manage-event-based-updates-microsoft-defender-antivirus.md)
-- [Updates voor mobiele apparaten en virtuele machines (VM's) beheren](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+- [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md)
+- [Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

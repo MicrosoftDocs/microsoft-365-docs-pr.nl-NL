@@ -6,19 +6,19 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 74732c033ee1a8d45fe6f9a44bf641a3a9adbc13
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 338dc249bcd4e092f5a2be39e3d045d094ed957a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690033"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765213"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>Uitsluitingen configureren en valideren op basis van bestandsextensie en maplocatie
 
@@ -364,4 +364,4 @@ U kunt de tekenreeks ook kopiëren naar een leeg tekstbestand en proberen deze o
 - [Uitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md)
 - [Uitsluitingen configureren en valideren voor bestanden die zijn geopend door processen](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus-uitsluitingen configureren op Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
-- [Veelvoorkomende fouten om te voorkomen bij het definiëren van uitsluitingen](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+- [Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen](common-exclusion-mistakes-microsoft-defender-antivirus.md)

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 18422f74d87bbadf014de24849235ce5c25bd614
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: baaebd185389e7ac1f2173aed092141067a5629f
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920466"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768888"
 ---
 # <a name="device-requirements"></a>Apparaatvereisten
 
@@ -46,7 +46,7 @@ Het apparaat moet zijn gemaakt door een van deze fabrikanten:
 Op het apparaat moet deze software vooraf zijn geïnstalleerd:
 
 - Windows 10 Enterprise, Pro of Pro Workstation edition
-- de 64-bits versie van Microsoft Office click-to-run 
+- de 64-bits versie van Microsoft 365 Apps voor bedrijven 
 - Alle toepasselijke apparaat stuurprogramma's
 
 
@@ -57,7 +57,7 @@ Apparaten moeten de volgende mogelijkheden hebben:
 - Ingeschakeld voor UEFI secure boot 
 - Vertrouwde platformmodule 2.0 
 - Beveiliging op basis van virtualisatie 
-- Ondersteunt met Hypervisor beveiligde codeintegriteit 
+- [Met hypervisor beveiligde codeintegriteit die](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) wordt ondersteund door de BIOS
 
 Zie [Microsoft Managed Desktop-technologieën](../intro/technologies.md)voor meer informatie over deze mogelijkheden en de technologieën die hiermee verband houden.
 
@@ -72,12 +72,13 @@ Apparaten moeten voldoen aan of de volgende limieten voor opslag en geheugen ove
 
 Als het apparaat na 1 juli 2020 is gemaakt, moet het ook een IR-camera, vingerafdruklezer of beide hebben om [Windows Hello te ondersteunen.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 
-## <a name="recommended-requirements"></a>Aanbevolen vereisten
+## <a name="recommended-features"></a>Aanbevolen functies
 
-Hoewel het geen absolute vereisten zijn, hebben uw gebruikers een veel betere ervaring als u apparaten kiest die deze functies hebben:
+Uw gebruikers hebben een veel betere ervaring als u apparaten kiest die deze functies hebben:
 
 - Een Intel vPro-platformprocessor of een AMD Ryzen Pro-processor
 - Opstartstation van het type SSD met een capaciteit van ten minste 256 GB
+- Intern geheugen (RAM) van ten minste 16 GB
 - Ondersteuning voor moderne stand-by
 - Apparaat is van pc-type Secured-core
 - Ondersteunt Kernel DMA Protection

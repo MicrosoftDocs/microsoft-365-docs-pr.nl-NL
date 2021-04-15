@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de toepassingsorder van beveiligingen in Exchange Online Protection (EOP) en hoe de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3419cba5781e7ab1042f7312c721069d88fb8767
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b36e66f095ff81f551a55d2dc2af0693f8b3455a
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687647"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51769008"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mailbeveiliging
 
@@ -41,6 +41,8 @@ Er zijn twee belangrijke factoren die bepalen welk beleid wordt toegepast op een
 
 - **De prioriteit van het type e-mailbeveiliging:** deze volgorde kan niet worden geconfigureerd en wordt in de volgende tabel beschreven:
 
+  <br>
+
   ****
 
   |Priority|E-mailbeveiliging|Categorie|Waar kunt u beheren|
@@ -57,19 +59,21 @@ Er zijn twee belangrijke factoren die bepalen welk beleid wordt toegepast op een
 
   <sup>\*</sup> Deze functies zijn alleen beschikbaar in anti-phishingbeleid in Microsoft Defender voor Office 365.
 
-- De prioriteit van het **beleid:** Voor elk beveiligingstype (antispam, anti-malware, anti-phishing, enzovoort) is er een standaardbeleid dat voor iedereen geldt, maar u kunt aangepaste beleidsregels maken die van toepassing zijn op specifieke gebruikers. Elk aangepast beleid heeft een prioriteitswaarde die de volgorde bepaalt waarin het beleid wordt toegepast. Het standaardbeleid wordt altijd als laatste toegepast.
+- De prioriteit van het **beleid:** Voor elk type beleid (antispam, anti-malware, anti-phishing, enzovoort) is er een standaardbeleid dat voor iedereen van toepassing is, maar u kunt aangepaste beleidsregels maken die van toepassing zijn op specifieke gebruikers. Elk aangepast beleid heeft een prioriteitswaarde die de volgorde bepaalt waarin het beleid wordt toegepast. Het standaardbeleid wordt altijd als laatste toegepast.
 
   Als een gebruiker is gedefinieerd in meerdere beleidsregels van hetzelfde type, wordt alleen het beleid met de hoogste prioriteit op de gebruiker toegepast. Resterende beleidsregels van dat type worden niet geëvalueerd voor de gebruiker (inclusief het standaardbeleid).
 
 Denk bijvoorbeeld aan de volgende anti-phishingbeleidsregels in Microsoft Defender voor Office 365 die van toepassing zijn op dezelfde gebruikers en een bericht dat is geïdentificeerd als gebruikersomitatie en spoofing:
 
-  ****
+<br>
 
-  |Beleidsnaam|Priority|Gebruikers imiteren|Anti-spoofing|
-  |---|---|---|---|
-  |Beleid A|1|Aan|Uit|
-  |Beleid B|2|Uit|Aan|
-  |
+****
+
+|Beleidsnaam|Priority|Gebruikers imiteren|Anti-spoofing|
+|---|---|---|---|
+|Beleid A|1|Aan|Uit|
+|Beleid B|2|Uit|Aan|
+|
 
 1. Het bericht is gemarkeerd en wordt als spoof behandeld, omdat spoofing een hogere prioriteit heeft (4) dan imitatie van gebruikers (5).
 2. Beleid A wordt toegepast op de gebruikers omdat deze een hogere prioriteit heeft dan Beleid B.

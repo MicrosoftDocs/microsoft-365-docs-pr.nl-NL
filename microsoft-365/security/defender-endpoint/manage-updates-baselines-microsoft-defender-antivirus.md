@@ -7,19 +7,19 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: bf027dd7f5fad032d57d2dd0b686ccd129f568c7
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b70cf96cde7d4dff8e2a4db6ce2469090dba7eb1
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690098"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765609"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Microsoft Defender Antivirus-updates beheren en basislijnen toepassen
 
@@ -559,11 +559,11 @@ Zie Installatieafbeeldingen van [microsoft Defender-update voor Windows-besturin
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-| Artikel | Omschrijving  |
+| Artikel | Beschrijving  |
 |:---|:---|
 |[Installatieafbeeldingen van Microsoft Defender-update voor Windows-besturingssysteem](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | Controleer antimalware-updatepakketten voor installatieafbeeldingen van uw besturingssysteem (WIM- en VHD-bestanden). Microsoft Defender Antivirus-updates downloaden voor Windows 10 (enterprise-, pro- en startversies), Windows Server 2019 en Installatieafbeeldingen van Windows Server 2016.  |
 |[Beheren hoe beveiligingsupdates worden gedownload en toegepast](manage-protection-updates-microsoft-defender-antivirus.md) | Beveiligingsupdates kunnen via veel bronnen worden geleverd. |
 |[Beheren wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md) | U kunt plannen wanneer beveiligingsupdates moeten worden gedownload. |
 |[Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md) | Als een eindpunt een update of geplande scan mist, kunt u een update forcen of scannen wanneer een gebruiker zich de volgende keer meldt. |
-|[Geforceerd updates op basis van gebeurtenissen beheren](manage-event-based-updates-microsoft-defender-antivirus.md) | U kunt instellen dat beveiligingsupdates worden gedownload bij het opstarten of na bepaalde beveiligingsgebeurtenissen in de cloud. |
-|[Updates voor mobiele apparaten en virtuele machines (VM's) beheren](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)| U kunt instellingen opgeven, zoals of er updates moeten worden uitgevoerd op batterijvermogen, die vooral handig zijn voor mobiele apparaten en virtuele machines. |
+|[Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md) | U kunt instellen dat beveiligingsupdates worden gedownload bij het opstarten of na bepaalde beveiligingsgebeurtenissen in de cloud. |
+|[Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)| U kunt instellingen opgeven, zoals of er updates moeten worden uitgevoerd op batterijvermogen, die vooral handig zijn voor mobiele apparaten en virtuele machines. |

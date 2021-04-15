@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 287ad9adeccd527b756bdd5304d3c89fc1b2d789
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7d12afd27288655f4f5a82eeed24686f27171a7a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060489"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765393"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>Microsoft Defender voor Eindpunt en andere Microsoft-oplossingen
 
@@ -29,7 +29,7 @@ ms.locfileid: "51060489"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -45,7 +45,7 @@ Microsoft Defender voor Eindpunt biedt een uitgebreide oplossing voor serverbeve
 Met de Microsoft Defender voor Eindpunt-connector kunt u waarschuwingen van Microsoft Defender voor Eindpunt streamen naar Azure Sentinel. Op deze manier kunt u beveiligingsgebeurtenissen in uw organisatie uitgebreider analyseren en playbooks maken voor een effectieve en onmiddellijke reactie.
 
 ### <a name="azure-information-protection"></a>Azure Information Protection
-Houd gevoelige gegevens veilig terwijl u productiviteit op de werkplek inschakelen door middel van gegevensdetectie en gegevensbescherming.
+Onlangs hebben we de integratie van Azure Information Protection afgeschaft, omdat onze endpoint-DLP-mogelijkheden een verbeterde detectie- en beveiligingsoplossing bevatten voor gevoelige gegevens die zijn opgeslagen op eindpuntapparaten, zodat er meer zichtbaarheid en integratie tussen oplossingen mogelijk is. Dit is aangekondigd in de volgende [blog.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/protecting-sensitive-information-on-devices/ba-p/2143555) We raden klanten aan over te gaan op het gebruik van Endpoint DLP.
 
 ### <a name="conditional-access"></a>Voorwaardelijke toegang
 De dynamische apparaatrisicoscore van Microsoft Defender voor Eindpunt is geïntegreerd in de evaluatie Voorwaardelijke toegang, zodat alleen veilige apparaten toegang hebben tot resources. 
@@ -74,5 +74,5 @@ Met Microsoft 365 Defender vormen Microsoft Defender voor Eindpunt en diverse mi
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Integratie en andere geavanceerde functies configureren](advanced-features.md)
 - [Overzicht van Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)
-- [Microsoft 365 Defender in-](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
+- [Microsoft 365 Defender inschakelen](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
 - [Gebruikers, gegevens en apparaten beveiligen met Voorwaardelijke toegang](conditional-access.md)

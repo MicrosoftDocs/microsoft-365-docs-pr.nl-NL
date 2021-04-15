@@ -7,21 +7,21 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 7a0e0571445e8ec753c3813a81dbcca9c698e7df
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9fc51682b659670a21c3c293ea8996beb228802a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690058"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765069"
 ---
-# <a name="configure-behavioral-heuristic-and-real-time-protection"></a>Gedrags-, heuristische en realtimebeveiliging configureren
+# <a name="configure-behavioral-heuristic-and-real-time-protection"></a>Gedrag, heuristiek en realtime bescherming configureren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -44,7 +44,7 @@ Zie [Next-gen Microsoft Defender Antivirus technologies through cloud-delivered 
 
 ## <a name="in-this-section"></a>In deze sectie
 
- Onderwerp | Omschrijving
+ Onderwerp | Beschrijving
 ---|---
-[Potentieel ongewenste toepassingen detecteren en blokkeren](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md) | Apps detecteren en blokkeren die ongewenst kunnen zijn in uw netwerk, zoals malware, browsermodules en werkbalken, en malafide of nep-antivirus-apps
+[Mogelijk ongewenste toepassingen detecteren en blokkeren](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md) | Apps detecteren en blokkeren die ongewenst kunnen zijn in uw netwerk, zoals malware, browsermodules en werkbalken, en malafide of nep-antivirus-apps
 [Microsoft Defender Antivirus protection capabilities inschakelen en configureren](configure-real-time-protection-microsoft-defender-antivirus.md) | Realtime beveiliging, heuristische functies en andere functies voor het controleren van Microsoft Defender Antivirus inschakelen en configureren

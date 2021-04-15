@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6dfa22b2afb33c318eae8937888b5b75a1742938
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 9850506771f53b125c08b1df2149ee024191d823
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599461"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768864"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Automatisch onderzoek en antwoord (AIR) in Microsoft Defender voor Office 365
 
@@ -123,7 +123,7 @@ Machtigingen worden verleend via bepaalde rollen, zoals de machtigingen die in d
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>Wijzigingen worden binnenkort doorgevoerd in uw beveiligingscentrum
 
-Als u air-mogelijkheden al gebruikt in Microsoft Defender voor Office 365, ziet u enkele wijzigingen in het verbeterde [Microsoft 365-beveiligingscentrum.](../defender/overview-security-center.md) 
+Als u air-mogelijkheden al gebruikt in Microsoft Defender voor Office 365, ziet u enkele wijzigingen in het verbeterde [Microsoft 365-beveiligingscentrum.](../defender/overview-security-center.md)
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Unified Action Center":::
 

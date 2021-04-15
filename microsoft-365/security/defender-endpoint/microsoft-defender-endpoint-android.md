@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP op Android
+title: Microsoft Defender voor Eindpunt op Android
 ms.reviewer: ''
-description: Beschrijft hoe u Microsoft Defender ATP voor Android installeert en gebruikt
+description: Beschrijft hoe u Microsoft Defender voor Eindpunt op Android installeert en gebruikt
 keywords: microsoft, defender, atp, android, installatie, implementeren, verwijderen, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8311cb703bc5232e1421d19892fec9cdbc94b052
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 8a78fc7e07f89c2e13a698ee526403989f26dd65
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698187"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768840"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender voor Eindpunt op Android
 
@@ -90,6 +90,6 @@ Richtlijnen voor het configureren van Microsoft Defender voor Endpoint voor Andr
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Microsoft Defender voor eindpunt implementeren op Android met Microsoft Intune](android-intune.md)
-- [Microsoft Defender configureren voor endpoint op Android-functies](android-configure.md)
+- [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
+- [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
 

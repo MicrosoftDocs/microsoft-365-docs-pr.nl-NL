@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 726a85969dab715a1b6244f14d1bf0259cf301e8
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 4c44e2c73eabcb89c178235bc3ce6738d2322dfa
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163373"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768984"
 ---
-# <a name="contact-microsoft-defender-for-endpoint-support"></a>Neem contact op met Ondersteuning voor Microsoft Defender voor eindpunten
+# <a name="contact-microsoft-defender-for-endpoint-support"></a>Contact opnemen met de ondersteuning van Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -79,8 +79,8 @@ Als de voorgestelde artikelen niet voldoende zijn, kunt u een serviceaanvraag op
 
 Meer informatie over het openen van ondersteuningstickets door contact op te nemen met Defender voor endpoint-ondersteuning. 
 
-
-
+> [!Note]
+> Als u een permier-ondersteuningscontract met Microsoft hebt, ziet u de belangrijkste tag op de widget. Zo niet, neem dan contact op met uw Microsoft-accountmanager.
 
 ### <a name="contact-support"></a>Contact opnemen met de ondersteuning
 Deze optie is beschikbaar door op het pictogram te klikken dat eruitziet als een headset. Vervolgens krijgt u de volgende pagina om uw ondersteuningscase in te dienen:
@@ -96,4 +96,4 @@ Deze optie is beschikbaar door op het pictogram te klikken dat eruitziet als een
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Problemen met de service oplossen](troubleshoot-mdatp.md)
-- [Service-status controleren](service-status.md)
+- [Servicestatus controleren](service-status.md)

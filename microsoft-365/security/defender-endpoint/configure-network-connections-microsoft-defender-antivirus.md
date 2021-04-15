@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender Antivirus-netwerkverbindingen configureren en valideren
+title: Netwerkverbindingen van Microsoft Defender Antivirus configureren en valideren
 description: Configureer en test uw verbinding met de cloudbeveiligingsservice van Microsoft Defender Antivirus.
 keywords: antivirus, Microsoft Defender Antivirus, antimalware, beveiliging, defender, cloud, agressiviteit, beschermingsniveau
 search.product: eADQiWindows 10XVcnh
@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,14 +15,14 @@ ms.date: 12/28/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 5a6b2ce77d6018cb07a1af389b5226b57e2f7427
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 6218bc32690ca42c06b5606d8a3922f6fc5c7307
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690690"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765153"
 ---
-# <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Microsoft Defender Antivirus-netwerkverbindingen configureren en valideren
+# <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Netwerkverbindingen van Microsoft Defender Antivirus configureren en valideren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

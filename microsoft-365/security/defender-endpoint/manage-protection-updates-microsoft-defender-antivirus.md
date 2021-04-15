@@ -7,21 +7,21 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 77f3c4f478e2124010445bacfe2c10c5810ed480
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9b1c9bc8c86c5b348e3c4d2a51e0bfafaf3e7174
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690105"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765465"
 ---
-# <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>De bronnen voor beveiligingsupdates voor Microsoft Defender Antivirus beheren
+# <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>De bronnen beheren voor updates voor de Microsoft Defender Antivirus-beveiliging
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -262,6 +262,6 @@ Stel een netwerkbestands delen (UNC/mapped station) in om beveiligingsinformatie
 - [Microsoft Defender Antivirus implementeren](deploy-manage-report-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus-updates beheren en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [Geforceerd updates op basis van gebeurtenissen beheren](manage-event-based-updates-microsoft-defender-antivirus.md)
+- [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md)
 - [Updates voor mobiele apparaten en VM's beheren](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

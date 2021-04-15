@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,12 @@ ms.date: 11/18/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3dcf0ab24541a8837fbab91049fed0157b7f1fc9
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8503bb5bdd6337ec60390ef1d8e59f6f506fbce2
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690034"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765165"
 ---
 # <a name="configure-microsoft-defender-antivirus-features"></a>Microsoft Defender Antivirus-functies configureren
 
@@ -47,10 +47,10 @@ De volgende algemene categorieën functies kunnen worden geconfigureerd:
 
 In de volgende artikelen wordt beschreven hoe u belangrijke taken kunt uitvoeren bij het configureren van Microsoft Defender Antivirus. Elk artikel bevat instructies voor het van toepassing zijnde configuratiehulpmiddel (of hulpprogramma's).
 
-|Artikel  |Omschrijving  |
+|Artikel  |Beschrijving  |
 |---------|---------|
 |[Microsoft Defender Antivirusbeveiliging in de cloud gebruiken](cloud-protection-microsoft-defender-antivirus.md)     | Gebruik cloudbeveiliging voor geavanceerde, snelle en krachtige antivirusdetectie.        |
-|[Gedrags-, heuristische en realtimebeveiliging configureren](configure-protection-features-microsoft-defender-antivirus.md)     |Schakel op gedrag gebaseerde, heuristische en realtime antivirusbeveiliging in.         |
+|[Gedrag, heuristiek en realtime bescherming configureren](configure-protection-features-microsoft-defender-antivirus.md)     |Schakel op gedrag gebaseerde, heuristische en realtime antivirusbeveiliging in.         |
 |[Interactie tussen eindgebruikers configureren met Microsoft Defender Antivirus](configure-end-user-interaction-microsoft-defender-antivirus.md) | Configureer hoe eindgebruikers in uw organisatie werken met Microsoft Defender Antivirus, welke meldingen ze zien en of ze de instellingen kunnen overschrijven. |
 
 > [!TIP]

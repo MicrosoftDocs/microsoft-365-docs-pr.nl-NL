@@ -1,5 +1,5 @@
 ---
-title: Veelvoorkomende fouten om te voorkomen bij het definiëren van uitsluitingen
+title: Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen
 description: Vermijd veelvoorkomende fouten bij het definiëren van uitsluitingen voor Microsoft Defender Antivirus-scans.
 keywords: uitsluitingen, bestanden, extensie, bestandstype, mapnaam, bestandsnaam, scans
 search.product: eADQiWindows 10XVcnh
@@ -7,21 +7,21 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: d14e37c8f3cfdfe8d88bfd4e255a431fbb8d6d41
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: eb3ac89eb05b39ff3337aa8e9c5ead1c308fbefb
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690464"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764913"
 ---
-# <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>Veelvoorkomende fouten om te voorkomen bij het definiëren van uitsluitingen
+# <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

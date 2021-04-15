@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 6ad61d583815f669affe989d7519ba0ade6fe08d
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 0ef80e2aaccbf25a79083c2f95ea7399e30ea651
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760084"
+ms.locfileid: "51764315"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie) 
 6 minuten om te lezen 
@@ -76,62 +76,75 @@ In dit scenario wordt een centraal gelegen script gebruikt en wordt het uitgevoe
 
 1. Open de GPMC (Group Policy Management Console), klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en klik op **Bewerken.**
 
-1. Ga in de Editor voor groepsbeleidsbeheer naar Instellingen van het **Configuratiescherm voor** \>  \> **computerconfiguratie**. 
+2. Ga in de Editor voor groepsbeleidsbeheer naar Instellingen van het **Configuratiescherm voor** \>  \> **computerconfiguratie**. 
 
-1. Klik met de **rechtermuisknop op Geplande taken,** klik **op Nieuw** en klik vervolgens op **Onmiddellijke taak** (ten minste Windows 7). 
+3. Klik met de **rechtermuisknop op Geplande taken,** klik **op Nieuw** en klik vervolgens op **Onmiddellijke taak** (ten minste Windows 7). 
 
-1. Ga in het venster Taak dat wordt geopend naar het **tabblad** Algemeen. Klik **onder Beveiligingsopties** **op Gebruiker of Groep wijzigen en** typ SYSTEEM. Klik **op Namen controleren** en klik vervolgens op OK. NT AUTHORITY\SYSTEM wordt weergegeven als het gebruikersaccount dat de taak als wordt uitgevoerd. 
+4. Ga in het venster Taak dat wordt geopend naar het **tabblad** Algemeen. Klik **onder Beveiligingsopties** **op Gebruiker of Groep wijzigen en** typ SYSTEEM. Klik **op Namen controleren** en klik vervolgens op OK. NT AUTHORITY\SYSTEM wordt weergegeven als het gebruikersaccount dat de taak als wordt uitgevoerd. 
 
-1. Schakel **Uitvoeren in of de gebruiker al** dan niet is aangemeld en schakel het selectievakje Uitvoeren met hoogste **bevoegdheden** in. 
+5. Schakel **Uitvoeren in of de gebruiker al** dan niet is aangemeld en schakel het selectievakje Uitvoeren met hoogste **bevoegdheden** in. 
 
-1. Ga naar het **tabblad Acties** en klik op **Nieuw.** Zorg ervoor **dat Een programma starten** is geselecteerd in het veld Actie. Voer het volgende in: 
+6. Ga naar het **tabblad Acties** en klik op **Nieuw.** Zorg ervoor **dat Een programma starten** is geselecteerd in het veld Actie. Voer het volgende in: 
 
-    > Actie = 'Een programma starten' <br>
-    > Programma/script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe <br>
-    > Argumenten toevoegen (optioneel) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"
+   `Action = "Start a program"`
 
-1. Klik **op OK** en sluit alle geopende GPMC-vensters.
+   `Program/Script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe`
+
+   `Add Arguments (optional) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"`
+
+   Selecteer vervolgens **OK** en sluit alle geopende GPMC-vensters.
 
 #### <a name="scenario-3-onboarding-using-management-tools"></a>*Scenario 3: Onboarding met behulp van beheerhulpmiddelen*
 
 Als u van plan bent om uw machines te beheren met behulp van een beheerhulpmiddel, kunt u apparaten onboarden met Microsoft Endpoint Configuration Manager.
 
-Zie Onboard [Windows 10-apparaten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm)met Configuration Manager voor meer informatie. 
+Zie Onboard [Windows 10-apparaten](configure-endpoints-sccm.md)met Configuration Manager voor meer informatie.
 
 > [!WARNING]
-> Als u van plan bent Om De Surface-beperkingsregels voor aanvallen te [gebruiken,](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)moet u er rekening mee houden dat regel ' Procescreaties blokkeren die afkomstig zijn van[PSExec-](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction#block-process-creations-originating-from-psexec-and-wmi-commands)en WMI-opdrachten' niet mag worden gebruikt omdat deze niet compatibel is met beheer via Microsoft Endpoint Configuration Manager, omdat deze regel WMI-opdrachten blokkeert die de Configuration Manager-client gebruikt om correct te werken. 
+> Als u van plan bent [Om De Surface-beperkingsregels](attack-surface-reduction.md)voor aanvallen te gebruiken, moet u de regel 'Procescreaties blokkeren die afkomstig zijn van[PSExec-](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)en WMI-opdrachten' niet gebruiken, omdat deze regel niet compatibel is met het beheer via Microsoft Endpoint Configuration Manager. De regel blokkeert WMI-opdrachten die door de Configuration Manager-client worden gebruikt om correct te werken. 
 
 > [!TIP]
-> Nadat u het apparaat hebt onboarding, kunt u ervoor kiezen om een detectietest uit te voeren om te controleren of het apparaat correct is aan boord van de service. Zie Een detectietest uitvoeren op een nieuw ingebouwde [Microsoft Defender voor eindpuntapparaat](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/run-detection-test)voor meer informatie. 
+> Nadat u het apparaat hebt onboarding, kunt u ervoor kiezen om een detectietest uit te voeren om te controleren of het apparaat correct is aan boord van de service. Zie Een detectietest uitvoeren op een nieuw ingebouwde [Microsoft Defender voor eindpuntapparaat](run-detection-test.md)voor meer informatie. 
 
 #### <a name="tagging-your-machines-when-building-your-golden-image"></a>Uw machines labelen bij het maken van uw gouden afbeelding 
 
-Als onderdeel van uw onboarding kunt u overwegen om een machinelabel in te stellen om WVD-machines gemakkelijker van elkaar te onderscheiden in het Microsoft-beveiligingscentrum. Zie Apparaatlabels toevoegen door een registersleutelwaarde in te stellen voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-tags#add-device-tags-by-setting-a-registry-key-value) 
+Als onderdeel van uw onboarding kunt u overwegen om een machinelabel in te stellen om WVD-machines gemakkelijker van elkaar te onderscheiden in het Microsoft-beveiligingscentrum. Zie Apparaatlabels toevoegen door een registersleutelwaarde in te stellen voor [meer informatie.](machine-tags.md#add-device-tags-by-setting-a-registry-key-value) 
 
 #### <a name="other-recommended-configuration-settings"></a>Andere aanbevolen configuratie-instellingen 
 
-Wanneer u een gouden afbeelding opbouwt, wilt u mogelijk ook de eerste beveiligingsinstellingen configureren. Zie Overige aanbevolen [configuratie-instellingen voor meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-gp#other-recommended-configuration-settings) 
+Wanneer u een gouden afbeelding opbouwt, wilt u mogelijk ook de eerste beveiligingsinstellingen configureren. Zie Overige aanbevolen [configuratie-instellingen voor meer informatie.](configure-endpoints-gp.md#other-recommended-configuration-settings) 
 
 Als u FSlogix-gebruikersprofielen gebruikt, raden we u aan de volgende bestanden uit te sluiten van de always-on-beveiliging: 
 
 **Bestanden uitsluiten:** 
 
-> %ProgramFiles%\FSLogix\Apps\frxdrv.sys <br>
-> %ProgramFiles%\FSLogix\Apps\frxdrvvt.sys <br>
-> %ProgramFiles%\FSLogix\Apps\frxccd.sys <br>
-> %TEMP% \* . VHD <br>
-> %TEMP% \* . VHDX <br>
-> %Windir%\TEMP \* . VHD <br>
-> %Windir%\TEMP \* . VHDX <br>
-> \\storageaccount.file.core.windows.net\share \* \* . VHD <br>
-> \\storageaccount.file.core.windows.net\share \* \* . VHDX <br>
+`%ProgramFiles%\FSLogix\Apps\frxdrv.sys`
+
+`%ProgramFiles%\FSLogix\Apps\frxdrvvt.sys`
+
+`%ProgramFiles%\FSLogix\Apps\frxccd.sys`
+
+`%TEMP%\*.VHD`
+
+`%TEMP%\*.VHDX`
+
+`%Windir%\TEMP\*.VHD`
+
+`%Windir%\TEMP\*.VHDX`
+
+`\\storageaccount.file.core.windows.net\share\*\*.VHD`
+
+`\\storageaccount.file.core.windows.net\share\*\*.VHDX`
 
 **Processen uitsluiten:**
 
-> %ProgramFiles%\FSLogix\Apps\frxccd.exe <br>
-> %ProgramFiles%\FSLogix\Apps\frxccds.exe <br>
-> %ProgramFiles%\FSLogix\Apps\frxsvc.exe <br>
+`%ProgramFiles%\FSLogix\Apps\frxccd.exe`
+
+`%ProgramFiles%\FSLogix\Apps\frxccds.exe`
+
+`%ProgramFiles%\FSLogix\Apps\frxsvc.exe`
 
 #### <a name="licensing-requirements"></a>Licentievereisten 
 
-Windows 10 Multi-session is een client-besturingssysteem. Licentievereisten voor Microsoft Defender voor eindpunten vindt u op: [Licentievereisten.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
+Opmerking over licenties: Wanneer u meerdere sessies met Windows 10 Enterprise gebruikt, afhankelijk van uw vereisten, kunt u ervoor kiezen om alle gebruikers een licentie te geven via Microsoft Defender voor Eindpunt (per gebruiker), Windows Enterprise E5, Microsoft 365 Security of Microsoft 365 E5, of om de VM te laten gelicentieerd via Azure Defender.
+Licentievereisten voor Microsoft Defender voor eindpunten vindt u op: [Licentievereisten.](minimum-requirements.md#licensing-requirements)

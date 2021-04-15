@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a513013c4b5f41cf95b876648882cb56ba818b32
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 5c7a2d943ec1813623065e70330b914a3911d1eb
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570994"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768996"
 ---
 # <a name="turn-on-network-protection"></a>Netwerkbeveiliging inschakelen
 
@@ -28,20 +28,24 @@ ms.locfileid: "51570994"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 [Netwerkbeveiliging](network-protection.md) helpt voorkomen dat werknemers elke toepassing gebruiken om toegang te krijgen tot gevaarlijke domeinen die phishingpraktijken, exploits en andere schadelijke inhoud op internet kunnen hosten. U kunt [netwerkbeveiliging](evaluate-network-protection.md) controleren in een testomgeving om te bekijken welke apps worden geblokkeerd voordat u deze inschakelen.
 
-[Meer informatie over configuratieopties voor netwerkfilters](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
+[Meer informatie over configuratieopties voor netwerkfilters](/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
 
 ## <a name="check-if-network-protection-is-enabled"></a>Controleren of netwerkbeveiliging is ingeschakeld
 
 Controleer of netwerkbeveiliging is ingeschakeld op een lokaal apparaat met behulp van registereditor.
 
 1. Selecteer de **knop Start** op de taakbalk en typ **regedit om** registereditor te openen
-1. Kies **HKEY_LOCAL_MACHINE** in het zijmenu
-1. Navigeren door de geneste menu's naar  >  **SOFTWAREbeleid**  >  **Microsoft**  >  **Windows Defender** Windows Defender Exploit Guard  >    >  **Network Protection**
-1. Selecteer **EnableNetworkProtection om** de huidige status van netwerkbeveiliging op het apparaat te bekijken
+
+2. Kies **HKEY_LOCAL_MACHINE** in het zijmenu
+
+3. Navigeren door de geneste menu's naar  >  **SOFTWAREbeleid**  >  **Microsoft**  >  **Windows Defender** Windows Defender Exploit Guard  >    >  **Network Protection**
+
+4. Selecteer **EnableNetworkProtection om** de huidige status van netwerkbeveiliging op het apparaat te bekijken
 
     * 0 of **Uit**
     * 1 of **Aan**
@@ -83,9 +87,9 @@ Gebruik de CSP -configuratieprovider [(./Vendor/MSFT/Policy/Config/Defender/Enab
 
 1. Meld u aan bij het Microsoft Endpoint Manager-beheercentrum (https://endpoint.microsoft.com)
 
-2. Een configuratieprofiel voor [eindpuntbeveiliging maken of bewerken](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-configure)
+2. Een configuratieprofiel voor [eindpuntbeveiliging maken of bewerken](/mem/intune/protect/endpoint-protection-configure)
 
-3. Ga onder 'Configuratie-instellingen' in de profielstroom naar **Microsoft Defender Exploit Guard Network** filtering Network  >    >  **protection**  >  **Enable** or **Audit only**
+3. Ga **onder Configuratie-instellingen** in de profielstroom naar **Microsoft Defender Exploit Guard Network** filtering Network  >    >  **protection**  >  **Enable** or **Audit only**
 
 ### <a name="group-policy"></a>Groepsbeleid
 
@@ -116,7 +120,7 @@ Bevestig dat netwerkbeveiliging is ingeschakeld op een lokale computer met behul
 
 1. Selecteer **Start** en typ **regedit om** registereditor te **openen.**
 
-2. Navigeer naar **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection**
+2. Navigeer naar **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**
 
 3. Selecteer **EnableNetworkProtection en** bevestig de waarde:
    * 0=Uit
