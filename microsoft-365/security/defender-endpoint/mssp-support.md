@@ -1,6 +1,6 @@
 ---
 title: Samenwerkingskansen voor beheerde beveiligingsserviceproviders (MSSP)
-description: Meer informatie over de integratie van Microsoft Defender ATP met MSSP (Managed Security Service Providers)
+description: Meer informatie over de integratie van Microsoft Defender voor Eindpunt met mssp (Managed Security Service Providers)
 keywords: mssp, integratie, beheerd, beveiliging, service, provider
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a3f357553e259075b3a47d6866faee06c98036a8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 790abaad5506a77b70cb8d772e83289d8dbd791f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186579"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860783"
 ---
 # <a name="managed-security-service-provider-partnership-opportunities"></a>Partnerschapskansen voor beheerde beveiligingsproviders
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -49,7 +49,7 @@ Defender voor Eindpunt voegt partnerschapskansen toe voor dit scenario en stelt 
 
 
 ## <a name="related-topic"></a>Verwant onderwerp
-- [Integratie van beheerde beveiligingsproviders configureren](configure-mssp-support.md)
+- [MSSP-integratie (Managed Security Service Provider) configureren](configure-mssp-support.md)
 
 
 

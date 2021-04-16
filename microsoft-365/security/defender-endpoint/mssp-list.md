@@ -1,6 +1,6 @@
 ---
-title: Ondersteunde beheerde beveiligingsserviceproviders
-description: Zie de lijst met MSSP's die microsoft Defender ATP integreert met
+title: Ondersteunde MSSP (Managed Security Service Provider)
+description: Zie de lijst met MSSP's met wie Microsoft Defender voor Eindpunt is geïntegreerd
 keywords: managed security service provider, mssp, configure, integration
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,17 +16,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 16b238a1d38e1aad70a4286d4ce8ecae1aae9a21
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 71db42f4bd651f4e9d4236e1f4d794aeb99dfa9f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186603"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862149"
 ---
-# <a name="supported-managed-security-service-providers"></a>Ondersteunde beheerde beveiligingsserviceproviders
+# <a name="supported-managed-security-service-providers"></a>Ondersteunde MSSP (Managed Security Service Provider)
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

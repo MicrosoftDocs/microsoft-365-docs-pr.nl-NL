@@ -1,6 +1,6 @@
 ---
-title: Eerdere versies van Windows aan boord van Microsoft Defender ATP
-description: Ondersteunde eerdere versies van Windows-apparaten aan boord, zodat ze sensorgegevens kunnen verzenden naar de ATP-sensor van Microsoft Defender
+title: Eerdere versies van Windows aan boord van Microsoft Defender voor Eindpunt
+description: Ondersteunde eerdere versies van Windows-apparaten aan boord, zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender voor Eindpunt-sensor
 keywords: onboard, windows, 7, 81, oms, sp1, enterprise, pro, down level
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b180e7555bb3339324d3b99956d8f8ad73dc13c3
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 945645e0f20f316c094f746adb6ba193f6806f86
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186387"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861357"
 ---
-# <a name="onboard-previous-versions-of-windows"></a>Eerdere versies van Windows aan boord
+# <a name="onboard-previous-versions-of-windows"></a>Onboarden eerdere versies van Windows
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **Platforms**
@@ -102,7 +102,7 @@ Bekijk de volgende details om de minimale systeemvereisten te controleren:
 
 Wanneer u klaar bent, ziet u binnen een uur onboarded eindpunten in de portal.
 
-### <a name="configure-proxy-and-internet-connectivity-settings"></a>Instellingen voor proxy- en internetverbinding configureren
+### <a name="configure-proxy-and-internet-connectivity-settings"></a>Proxy- en internetconnectiviteitsinstellingen configureren
  
 - Elk Windows-eindpunt moet verbinding kunnen maken met internet via HTTPS. Deze verbinding kan rechtstreeks zijn, met behulp van een proxy of via de [OMS Gateway.](https://docs.microsoft.com/azure/log-analytics/log-analytics-oms-gateway)
 - Als een proxy of firewall standaard al het verkeer blokkeert en alleen specifieke domeinen via of HTTPS-scannen (SSL-inspectie) is ingeschakeld, moet u ervoor zorgen dat u toegang tot URL's van de Defender voor [Eindpunt-service](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)inschakelen.

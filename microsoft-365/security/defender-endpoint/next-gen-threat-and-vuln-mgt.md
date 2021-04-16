@@ -1,7 +1,7 @@
 ---
 title: Bedreigings- en kwetsbaarheidsbeheer
 description: Deze nieuwe mogelijkheid maakt gebruik van een spelveranderende risicobenadering voor het vinden, prioriteren en herstellen van eindpuntproblemen en onjuiste configuraties.
-keywords: threat & vulnerability management, threat and vulnerability management, MDATP TVM, MDATP-TVM, vulnerability management, vulnerability assessment, threat and vulnerability scanning, secure configuration assessment, microsoft defender atp, microsoft defender atp, endpoint vulnerabilities, next generation
+keywords: threat & vulnerability management, threat and vulnerability management, MDATP TVM, MDATP-TVM, vulnerability management, vulnerability assessment, threat and vulnerability scanning, secure configuration assessment, microsoft defender for endpoint, microsoft defender atp, endpoint vulnerabilities, next generation
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: 0c3c5ebbcd4483cae159fe9b46a6f4c376443be3
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: e9c575aa8968b8cab2c5d91b9fe0b1cb46b292d3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499072"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860759"
 ---
 # <a name="threat-and-vulnerability-management"></a>Bedreigings- en kwetsbaarheidsbeheer
 
@@ -83,7 +83,7 @@ Bekijk deze video voor een uitgebreide doorloop van bedreigings- en kwetsbaarhei
 
 ## <a name="navigation-pane"></a>Navigatiedeelvenster
 
-Gebied | Omschrijving
+Gebied | Beschrijving
 :---|:---
 **Dashboard**   | Krijg een overzicht op hoog niveau van de blootstellingsscore van de organisatie, Microsoft Secure Score voor apparaten, distributie van blootstelling aan apparaten, top beveiligingsaanbevelingen, de meest kwetsbare software, de beste herstelactiviteiten en de best belichte apparaatgegevens.
 [**Beveiligingsaanbevelingen**](tvm-security-recommendation.md) | Zie de lijst met beveiligingsaanbevelingen en gerelateerde bedreigingsgegevens. Wanneer u een item in de lijst selecteert, wordt er een flyoutvenster geopend met details over kwetsbaarheid, een koppeling om de softwarepagina te openen en opties voor herstel en uitzondering. U kunt ook een ticket openen in Intune als uw apparaten zijn verbonden via Azure Active Directory en u uw Intune-verbindingen hebt ingeschakeld in Defender voor Eindpunt.

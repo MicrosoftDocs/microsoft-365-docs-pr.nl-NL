@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Volg deze controlelijst om een werknemer uit Microsoft 365 te verwijderen en gegevens te beveiligen. '
-ms.openlocfilehash: d67ac65f4f3e6600b942b4f7d56826da35735b5c
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 50355a20e0d0e8ff782deebd9be65fdabf875bb2
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470867"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860771"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>Een voormalige werknemer verwijderen of verwijderen
 
@@ -143,7 +143,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer vervolgens het **tabblad E-mail.**
 3. Selecteer **onder E-mail doorsturen** de optie **E-mail doorsturen beheren.**
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in **het vak** Adres doorsturen het e-mailadres van de huidige werknemer die de e-mail gaat ontvangen.
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 
 ::: moniker-end
@@ -158,7 +158,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd.
   
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 
@@ -174,7 +174,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd.
   
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 
@@ -188,7 +188,7 @@ Als uw voormalige werknemer een organisatietelefoon had, kunt u het Exchange-beh
 2. Ga in het Exchange-beheercentrum naar **Ontvangers** \> **Postvakken**.
 3. Selecteer de gebruiker en selecteer onder **Mobiele apparaten** de optie **Details weergeven.**
 4. Selecteer op **de pagina Details van** mobiele apparaten onder Mobiele **apparaten** het mobiele apparaat, selecteer **Apparaat** wissen en selecteer ![ vervolgens ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) **Blokkeren.**
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
    > [!TIP]
    > Zorg ervoor dat u de gebruiker uit uw on-premises Blackberry Enterprise Service verwijdert of uit schakelt. U moet ook alle Blackberry-apparaten voor de gebruiker uitschakelen. Raadpleeg de beheerhandleiding voor de Blackberry Business Cloud Services als u specifieke stappen moet uitvoeren voor het uitschakelen van de gebruiker.
 
@@ -275,7 +275,7 @@ Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende d
 2. Selecteer het abonnement waarvan u licenties wilt verwijderen.
 3. Selecteer op de pagina Details **de optie Licenties verwijderen.**
 4. Voer in **het deelvenster** Licenties verwijderen onder  Nieuw aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 25 licenties hebt en u een van deze licenties wilt verwijderen, voert u 24 in.
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -344,7 +344,7 @@ Als uw organisatie gebruikersaccounts synchroniseert met Microsoft 365 vanuit ee
   
 Zie Een gebruikersaccount [verwijderen](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))voor meer informatie over het verwijderen en herstellen van gebruikersaccounts in Active Directory.
   
-Zie de [cmdlet Remove-MsolUser](https://go.microsoft.com/fwlink/?linkid=842230) PowerShell als u Azure Active Directory gebruikt.
+Zie de [cmdlet Remove-MsolUser](https://docs.microsoft.com/powershell/module/msonline/remove-msoluser) PowerShell als u Azure Active Directory gebruikt.
   
 ## <a name="what-you-need-to-know-about-terminating-an-employees-email-session"></a>Wat u moet weten over het beëindigen van een sessie van een werknemer
 

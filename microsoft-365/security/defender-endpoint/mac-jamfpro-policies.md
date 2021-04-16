@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP voor macOS-beleid instellen in Jamf Pro
-description: Meer informatie over het instellen van microsoft Defender ATP voor macOS-beleid in Jamf Pro
+title: Microsoft Defender voor eindpunt instellen voor macOS-beleid in Jamf Pro
+description: Meer informatie over het instellen van het Microsoft Defender-eindpunt voor macOS-beleid in Jamf Pro
 keywords: beleid, microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79f5837ae6bae6e6a9d952d90605f4cf7b31262e
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 1a00d1c0863db7f4f5f853312f202b5e985b1512
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765129"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862269"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Microsoft Defender voor Eindpunt instellen voor macOS-beleid in Jamf Pro
 
@@ -125,7 +125,7 @@ U moet de volgende stappen ondernemen:
 
     ![Afbeelding van doelen](images/jamfpro-targets.png) 
 
-11. Kies **Opslaan**.
+11. Klik op **Opslaan**.
 
     ![Afbeelding van implementatiedoelcomputers](images/jamfpro-deployment-target.png)
 
@@ -318,7 +318,7 @@ U moet de volgende stappen ondernemen:
     >![Afbeelding van configuratie-instellingen intune-bestand uploaden](images/8e69f867664668796a3b2904896f0436.png)
 
 
-11. Kies **Opslaan**. 
+11. Klik op **Opslaan**. 
 
     ![Afbeelding van configuratie-instellingen Afbeelding opslaan](images/1b6b5a4edcb42d97f1e70a6a0fa48e3a.png)
 
@@ -360,7 +360,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
         - **Distributiemethode:** Automatisch installeren *(standaard)*
         - **Niveau:** Computerniveau *(standaard)*
 
-        ![Afbeelding van configuratieprofielinstellingen mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![Afbeelding van het nieuwe macOS-configuratieprofielscherm](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
     - **Tabmeldingen,** klik **op Toevoegen** en voer de volgende waarden in:
         - **Bundel-id:**`com.microsoft.wdav.tray`
@@ -460,7 +460,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
     ![Afbeelding van configuratie-uplimg](images/4ec20e72c8aed9a4c16912e01692436a.png)
 
-11. Kies **Opslaan**.
+11. Klik op **Opslaan**.
 
     ![Afbeelding van configuratie-instelling saveimg](images/253274b33e74f3f5b8d475cf8692ce4e.png)
 
@@ -561,7 +561,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
 15. Kies **Toevoegen**. 
 
-16. Kies **Opslaan**. 
+16. Klik op **Opslaan**. 
     
 17. Selecteer **Gereed**.
     
@@ -616,7 +616,7 @@ U kunt ook [fulldisk.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob
 
     ![Afbeelding van configuratie-instellingen om afbeeldingen toe te voegen](images/0dde8a4c41110dbc398c485433a81359.png)
 
-9. Kies **Opslaan**.
+9. Klik op **Opslaan**.
 
     ![Afbeelding van configuratie-instellingen saveimag](images/0add8019b85a453b47fa5c402c72761b.png)
 
@@ -671,7 +671,7 @@ U kunt ook [kext.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/mas
 
    ![Afbeelding van addima configuratie-instellingen](images/0dde8a4c41110dbc398c485433a81359.png)
 
-9. Kies **Opslaan**.
+9. Klik op **Opslaan**.
 
    ![Afbeelding van sysext-bereik configuratie-instellingen](images/sysext-scope.png)
 
@@ -721,7 +721,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
     ![Afbeelding van configuratie-instellingen adim](images/0dde8a4c41110dbc398c485433a81359.png)
 
-7. Kies **Opslaan**.
+7. Klik op **Opslaan**.
 
     ![Afbeelding van configuratie-instellingen savimg netextscop](images/netext-scope.png)
 
@@ -780,7 +780,7 @@ Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt op 
     
      ![Afbeelding van het beperkingstabblad configuratie-instellingen](images/56dac54634d13b2d3948ab50e8d3ef21.png)
    
-8. Kies **Opslaan**. Het pakket wordt geüpload naar Jamf Pro. 
+8. Klik op **Opslaan**. Het pakket wordt geüpload naar Jamf Pro. 
 
    ![Afbeelding van configuratie-instellingen pack upl jamf pro](images/33f1ecdc7d4872555418bbc3efe4b7a3.png)
 
@@ -808,7 +808,7 @@ Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt op 
     ![Afbeelding van configuratie-instellingen die opnieuw worden checkin](images/68bdbc5754dfc80aa1a024dde0fce7b0.png)
 
   
-13. Kies **Opslaan**. 
+13. Klik op **Opslaan**. 
  
 14. Selecteer **Pakketten > Configureren.**
  
@@ -818,7 +818,7 @@ Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt op 
 
     ![Afbeelding van configuratie-instellingen die MDATP en MDA toevoegen](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
 
-16. Kies **Opslaan**.
+16. Klik op **Opslaan**.
 
     ![Afbeelding van configuratie-instellingensavimg](images/9d6e5386e652e00715ff348af72671c6.png)
 

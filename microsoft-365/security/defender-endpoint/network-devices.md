@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 43ade52e18ffc8e5db890cb0776090e9b32419e2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: da15519211599bfc248c20c36cfab456c1661caa
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687671"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862065"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>Netwerkapparaatdetectie en beveiligingsprobleembeheer
 
@@ -41,6 +41,9 @@ ms.locfileid: "51687671"
 > Zie De preview-functies [van Microsoft Defender voor Eindpunt voor meer informatie.](preview.md)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+
+> [!NOTE]  
+> De [netwerkapparaatdetectie-](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/network-device-discovery-and-vulnerability-assessments/ba-p/2267548) en kwetsbaarheidsbeoordelingen Blog \( gepubliceerd op 04-13-2021 biedt inzicht in de nieuwe mogelijkheden voor netwerkapparaatdetectie \) in Defender voor  Eindpunt. In dit artikel vindt u een overzicht van de uitdaging waarop netwerkapparaatdetectie **is** ontworpen en gedetailleerde informatie over hoe u aan de slag gaat met deze nieuwe mogelijkheden.
 
 Mogelijkheden voor netwerkdetectie zijn beschikbaar in de sectie **Apparaatvoorraad** van het Microsoft 365-beveiligingscentrum en de consoles van het Microsoft Defender-beveiligingscentrum.  
 
@@ -97,20 +100,22 @@ De eerste stap is het selecteren van een apparaat dat de geverifieerde netwerksc
     - login.microsoftonline.com
     - *.blob.core.windows.net/networkscannerstable/ *
 
-    Opmerking: Niet alle URL's worden opgegeven in de lijst met gedocumenteerde gegevensverzamelingen van Defender voor Eindpunt.
+    > [!NOTE]
+    > Niet alle URL's worden opgegeven in de lijst met gedocumenteerde gegevensverzamelingen van Defender voor Eindpunt.
 
 ## <a name="permissions"></a>Machtigingen
 
-Als u evaluatietaken wilt configureren, is de volgende optie voor gebruikersmachtiging vereist: **Beveiligingsinstellingen beheren in het Beveiligingscentrum.** U kunt de machtiging vinden door naar Instellingen Rollen  >  **te gaan.** Zie Rollen maken en beheren voor op rollen [gebaseerd toegangsbeheer](user-roles.md) voor meer informatie.
+Als u evaluatietaken wilt configureren, is de volgende optie voor gebruikersmachtiging vereist: **Beveiligingsinstellingen beheren in het Beveiligingscentrum.** U kunt de machtiging vinden door naar Instellingen Rollen  >  **te gaan.** Zie Rollen maken en beheren voor op rollen [gebaseerd toegangsbeheer voor meer informatie.](user-roles.md)
 
 ## <a name="install-the-network-scanner"></a>De netwerkscanner installeren
 
-1. Ga naar **Microsoft 365 security**  >  **Settings**  >  **Endpoints**  >  **Assessment jobs** (under 'Network assessments').
+1. Ga naar **Microsoft 365 security**  >  **Settings**  >  **Endpoints**  >  **Assessment jobs** (under Network **assessments**).
     1. Ga in het Microsoft Defender-beveiligingscentrum naar de pagina Instellingen > Evaluatietaken.
 
 2. Download de netwerkscanner en installeer deze op het aangewezen defender voor eindpuntbeoordelingsapparaat.
 
-![Knop Scanner downloaden](images/assessment-jobs-download-scanner.png)
+    > [!div class="mx-imgBorder"]
+    > ![Knop Scanner downloaden](images/assessment-jobs-download-scanner.png)
 
 ## <a name="network-scanner-installation--registration"></a>Installatie van netwerkscanners & registratie
 
@@ -119,7 +124,9 @@ Het aanmeldingsproces kan worden voltooid op het aangewezen beoordelingsapparaat
 Het registratieproces van de netwerkscanner voltooien:
 
 1. Kopieer en volg de URL die op de opdrachtregel wordt weergegeven en gebruik de meegeleverde installatiecode om het registratieproces te voltooien.
-    - Opmerking: Mogelijk moet u de instellingen voor opdrachtprompt wijzigen om de URL te kunnen kopiëren.
+
+    > [!NOTE]
+    > Mogelijk moet u de instellingen voor opdrachtprompt wijzigen om de URL te kunnen kopiëren.
 
 2. Voer de code in en meld u aan met een Microsoft-account met de machtiging Defender voor eindpunt genaamd 'Beveiligingsinstellingen beheren in beveiligingscentrum'.
 
@@ -131,13 +138,17 @@ Selecteer op de pagina Evaluatietaken in **Instellingen** de optie **Netwerkbeoo
 
 Als u duplicatie van apparaten in de netwerkapparaatvoorraad wilt voorkomen, moet u ervoor zorgen dat elk IP-adres slechts eenmaal is geconfigureerd op meerdere beoordelingsapparaten.
 
-![Knop Netwerkbeoordelingsbaan toevoegen](images/assessment-jobs-add.png)
+> [!div class="mx-imgBorder"]
+> ![Knop Netwerkbeoordelingsbaan toevoegen](images/assessment-jobs-add.png)
 
 Een netwerkbeoordelingsbaan toevoegen:
 
-1. Kies de naam 'Beoordelingsbaan' en het 'Assessment-apparaat' waarop de netwerkscanner is geïnstalleerd. Dit apparaat voert de periodieke geverifieerde scans uit. 
+1. Kies de naam 'Beoordelingsbaan' en het 'Assessment-apparaat' waarop de netwerkscanner is geïnstalleerd. Dit apparaat voert de periodieke geverifieerde scans uit.
+
 2. Voeg IP-adressen toe van doelnetwerkapparaten die moeten worden gescand (of de subnetten waar deze apparaten worden geïmplementeerd). 
+
 3. Voeg vereiste SNMP-referenties van de doelnetwerkapparaten toe. 
+
 4. Sla de nieuw geconfigureerde netwerkbeoordelings taak op om de periodieke netwerkscan te starten. 
 
 ### <a name="scan-and-add-network-devices"></a>Netwerkapparaten scannen en toevoegen
@@ -157,13 +168,14 @@ Wanneer de resultaten worden vermeld, kunt u kiezen welke apparaten worden opgen
 
 Nieuw ontdekte apparaten worden weergegeven onder het nieuwe tabblad **Netwerkapparaten** op de **pagina Apparaatvoorraad.** Het kan maximaal twee uur duren nadat u een beoordelings taak hebt toegevoegd totdat de apparaten zijn bijgewerkt.
 
-![Sectie Netwerkapparaten in de apparaatvoorraad](images/assessment-jobs-device-inventory.png)
+> [!div class="mx-imgBorder"]
+> ![Sectie Netwerkapparaten in de apparaatvoorraad](images/assessment-jobs-device-inventory.png)
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
 ### <a name="network-scanner-installation-has-failed"></a>Installatie van netwerkscanner is mislukt
 
-Controleer of de vereiste URL's zijn toegevoegd aan de toegestane domeinen in uw firewallinstellingen. Zorg er ook voor dat proxy-instellingen zijn geconfigureerd zoals beschreven in Instellingen voor [apparaatproxy en internetverbinding configureren](configure-proxy-internet.md)
+Controleer of de vereiste URL's zijn toegevoegd aan de toegestane domeinen in uw firewallinstellingen. Zorg er ook voor dat proxy-instellingen zijn geconfigureerd zoals beschreven in Instellingen voor [apparaatproxy en internetverbinding configureren.](configure-proxy-internet.md)
 
 ### <a name="the-microsoftcomdevicelogin-web-page-did-not-show-up"></a>De Microsoft.com/devicelogin webpagina is niet weergegeven
 

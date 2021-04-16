@@ -1,6 +1,6 @@
 ---
-title: Offboard-apparaten van de MICROSOFT Defender ATP-service
-description: Onboard Windows 10-apparaten, servers, niet-Windows-apparaten van de MICROSOFT Defender ATP-service
+title: Offboard-apparaten van de Microsoft Defender for Endpoint-service
+description: Onboard Windows 10-apparaten, servers, niet-Windows-apparaten van de Microsoft Defender for Endpoint-service
 keywords: offboarding, microsoft defender for endpoint offboarding, windows atp offboarding
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4a95ff5214ea9f696622ea184ece1c5aa9fb3db2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 18c708904e0fbfceafa2aeb387ffa9ce26e83c87
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186963"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861117"
 ---
 # <a name="offboard-devices-from-the-microsoft-defender-for-endpoint-service"></a>Offboard-apparaten van de Microsoft Defender for Endpoint-service
 
@@ -29,7 +29,7 @@ ms.locfileid: "51186963"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **Platforms**

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Meer informatie over het verwijderen van een gebruikersaccount. Bepaal wat u moet doen met de e-mail en OneDrive-inhoud van de gebruiker. En bepaal of u de productlicentie wilt behouden of niet meer wilt betalen.
-ms.openlocfilehash: 0069577b83c318fa57eaceddccc93b5832e634e0
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: d40f70534499b08073278ffc2bed2b098ae1c4da
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759916"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860735"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
@@ -127,7 +127,7 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
 
 4. Voer in **het deelvenster** Licenties verwijderen onder  **Nieuw** aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er vijf wilt verwijderen, voert u 95 in.
 
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 
 Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
 
@@ -155,7 +155,7 @@ Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te
 
 ## <a name="delete-many-users-at-the-same-time"></a>Meerdere gebruikers tegelijk verwijderen
 
-Zie de [Remove-MsolUser](https://go.microsoft.com/fwlink/p/?linkid=842230) PowerShell cmdlet.
+Zie de [Remove-MsolUser](https://docs.microsoft.com/powershell/module/msonline/remove-msoluser) PowerShell cmdlet.
 
 ## <a name="fix-issues-with-deleting-a-user"></a>Problemen met het verwijderen van een gebruiker oplossen
 

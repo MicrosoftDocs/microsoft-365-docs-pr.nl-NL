@@ -1,6 +1,6 @@
 ---
-title: Voorkeuren instellen voor Microsoft Defender ATP voor Mac
-description: Microsoft Defender ATP voor Mac configureren in bedrijfsorganisaties.
+title: Voorkeuren instellen voor Microsoft Defender voor Eindpunt voor Mac
+description: Configureer Microsoft Defender voor Eindpunt voor Mac in bedrijfsorganisaties.
 keywords: microsoft, defender, atp, mac, management, voorkeuren, onderneming, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 951c51c767ba09ebc6056481b4fac45da09c5671
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d2bea469031e2c5932e859fbad7d442ebe4d34ed
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688547"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860917"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Voorkeuren instellen voor Microsoft Defender voor Eindpunt op macOS
 
@@ -829,7 +829,7 @@ Open in de JAMF-console **De configuratieprofielen van computers,** ga naar het 
 
 5. Open het configuratieprofiel en upload het `com.microsoft.wdav.xml` bestand. (Dit bestand is gemaakt in stap 3.)
 
-6. Kies **OK**.
+6. Selecteer **OK**.
 
 7. Selecteer **Opdrachten**  >  **beheren.** Selecteer op **het** tabblad Opnemen de optie Toewijzen aan **alle & alle apparaten.**
 

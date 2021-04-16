@@ -1,5 +1,5 @@
 ---
-title: De atp-apparatenlijst van Microsoft Defender weergeven en ordenen
+title: De lijst met Microsoft Defender voor eindpuntapparaten weergeven en organiseren
 description: Meer informatie over de beschikbare functies die u kunt gebruiken in de lijst Apparaten, zoals het sorteren, filteren en exporteren van de lijst om de onderzoeken te verbeteren.
 keywords: sorteren, filteren, exporteren, csv, apparaatnaam, domein, laatst gezien, intern IP, status, actieve waarschuwingen, actieve malwaredetecties, bedreigingscategorie, waarschuwingen controleren, netwerk, verbinding, malware, type, wachtwoord stealer, ransomware, exploit, bedreiging, algemene malware, ongewenste software
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9068983b5f61305b1f3da4d076e99e71974e8df4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a031a35929f319e87a9ad1a9ca48d6bf95a3ef72
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185669"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861573"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>De lijst Met Microsoft Defender voor eindpuntapparaten weergeven en organiseren
 
@@ -29,7 +29,7 @@ ms.locfileid: "51185669"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-machinesview-abovefoldlink)

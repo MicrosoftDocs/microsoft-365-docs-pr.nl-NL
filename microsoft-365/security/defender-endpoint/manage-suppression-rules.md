@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender voor endpoint-onderdrukkingsregels beheren
-description: Mogelijk moet u voorkomen dat waarschuwingen in de portal worden weergegeven met behulp van onderdrukkingsregels. Meer informatie over het beheren van uw onderdrukkingsregels in Microsoft Defender ATP.
+description: Mogelijk moet u voorkomen dat waarschuwingen in de portal worden weergegeven met behulp van onderdrukkingsregels. Meer informatie over het beheren van uw onderdrukkingsregels in Microsoft Defender voor Eindpunt.
 keywords: onderdrukken, regels, regelnaam, bereik, actie, waarschuwingen beheren, in- en uitschakelen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d2ff8fa1f07f82c3cc719f49f50ee25937aea243
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f1549512a02fe3af71d32c6b33c69cc705de99a8
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187563"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862125"
 ---
 # <a name="manage-suppression-rules"></a>Onderdrukkende regels beheren
 
@@ -29,7 +29,7 @@ ms.locfileid: "51187563"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

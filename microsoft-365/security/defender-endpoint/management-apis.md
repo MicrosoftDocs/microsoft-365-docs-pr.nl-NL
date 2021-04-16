@@ -1,7 +1,7 @@
 ---
 title: Overzicht van beheer en API's
 ms.reviewer: ''
-description: Meer informatie over de beheerhulpmiddelen en API-categorieën in Microsoft Defender ATP
+description: Meer informatie over de beheerhulpmiddelen en API-categorieën in Microsoft Defender voor Eindpunt
 keywords: onboarding, api, siem, rbac, access, portal, integratie, onderzoek, antwoord, entiteiten, entiteit, gebruikerscontext, toepassingscontext, streaming
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 94cfe1cc053be896c137e0c0b9ee02ea53dd2717
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 9e54fb5f2105f0a77c4b63e8d880135005c17168
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187551"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862089"
 ---
 # <a name="overview-of-management-and-apis"></a>Overzicht van beheer en API's 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mgt-apis-abovefoldlink)
@@ -57,7 +57,7 @@ In Defender voor Eindpunt worden veel van de gegevens en acties via een set prog
 
 De API's van Defender voor eindpunten kunnen worden gegroepeerd in drie:
 - Microsoft Defender voor eindpunt-API's 
-- Onbewerkte API voor gegevensstreaming
+- API voor onbewerkte voor gegevensstreaming
 - SIEM-integratie
 
 ## <a name="microsoft-defender-for-endpoint-apis"></a>Microsoft Defender voor eindpunt-API's
@@ -71,7 +71,7 @@ Met de **Onderzoeks-API** wordt de rijkdom van Defender voor Eindpunt beschreven
 
 De **Response API** biedt de mogelijkheid om acties uit te voeren in de service en op apparaten, zodat klanten indicatoren kunnen opnemen, instellingen kunnen beheren, de status van een waarschuwing kunnen beheren en reactieacties kunnen uitvoeren op apparaten die programmatisch zijn, zoals apparaten isoleren van het netwerk, quarantainebestanden en andere apparaten. 
 
-## <a name="raw-data-streaming-api"></a>Onbewerkte API voor gegevensstreaming 
+## <a name="raw-data-streaming-api"></a>API voor onbewerkte voor gegevensstreaming 
 Defender for Endpoint Raw Data Streaming API biedt klanten de mogelijkheid om realtime gebeurtenissen en waarschuwingen van hun exemplaren te verzenden terwijl ze binnen één gegevensstroom voorkomen, wat zorgt voor een lage latentie en een mechanisme voor hoge doorvoerbezorging.
 
 De gebeurtenisgegevens van Defender voor Eindpunt worden rechtstreeks naar Azure-opslag voor gegevensopslag op lange termijn of naar Azure Event Hubs voor gebruik door visualisatieservices of extra gegevensverwerkingsmotoren. 
@@ -85,5 +85,5 @@ Wanneer u beveiligingsgegevens en SIEM-integratie (Event Management) inschakelen
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Toegang tot de API's van Microsoft Defender voor eindpunten ](apis-intro.md)
 - [Ondersteunde API's](exposed-apis-list.md)
-- [Technische partnerkansen](partner-integration.md)
+- [Mogelijkheden voor technische partners](partner-integration.md)
 

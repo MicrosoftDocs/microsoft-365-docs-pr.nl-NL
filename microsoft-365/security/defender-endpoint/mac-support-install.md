@@ -1,6 +1,6 @@
 ---
-title: Installatieproblemen oplossen voor Microsoft Defender ATP voor Mac
-description: Problemen met de installatie in Microsoft Defender ATP voor Mac oplossen.
+title: Installatieproblemen oplossen voor Microsoft Defender voor Endpoint voor Mac
+description: Problemen met de installatie in Microsoft Defender voor Eindpunt voor Mac oplossen.
 keywords: microsoft, defender, atp, mac, install
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 754f389f37bce3be1c5a636f1911b5d0fb3fd29c
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d2ad3160c9f36a27dc98f44365433de5f8b26bb2
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689615"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861417"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt op macOS
 

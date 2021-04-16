@@ -20,28 +20,43 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Lees hoe u een of meer distributielijsten kunt upgraden naar Microsoft 365 Groepen in Outlook en hoe u PowerShell kunt gebruiken om meerdere distributielijsten tegelijk te upgraden.
-ms.openlocfilehash: ab7c2ff68b1f16915d65fff0d7292e3b3ad72d02
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: ef2d6d87d01d0e4874312026909fdeed9c0a8d43
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579240"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860605"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Distributielijsten upgraden naar Microsoft 365 Groepen in Outlook
 
-U kunt distributielijsten upgraden naar Microsoft 365 Groepen met Outlook. Dit is een geweldige manier om de distributielijsten van uw organisatie te voorzien van alle functies en functionaliteit van Microsoft 365 Groepen. [Waarom u uw distributielijsten moet upgraden naar groepen in Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+U kunt distributielijsten upgraden naar Microsoft 365 Groepen in Outlook. Dit is een geweldige manier om de distributielijsten van uw organisatie te voorzien van alle functies en functionaliteit van Microsoft 365 Groepen. [Waarom u uw distributielijsten moet upgraden naar groepen in Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 U kunt distributielijsten een voor een of allemaal tegelijk upgraden.
 
-## <a name="upgrade-one-or-many-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Een of meer distributielijsten upgraden naar Microsoft 365 Groepen in Outlook
+## <a name="upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>Een of meer distributielijstgroepen upgraden naar Microsoft 365 Groepen in Outlook
 
-U moet een globale beheerder of Exchange-beheerder zijn om een distributielijst te upgraden. Als u een upgrade wilt uitvoeren naar Microsoft 365 Groepen, moet een distributiegroep een eigenaar met een postvak hebben.
+U moet een globale beheerder of Exchange-beheerder zijn om een distributielijstgroep te upgraden. Als u wilt upgraden naar Microsoft 365 Groepen, moet de distributielijstgroep een eigenaar met een postvak hebben.
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>.
+### <a name="use-the-new-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>De nieuwe EAC gebruiken om een of meer distributielijstgroepen te upgraden naar Microsoft 365 Groepen in Outlook
 
-2. Ga in het Exchange-beheercentrum naar **Geadresseerdengroepen.** \> <br/>U ziet een melding dat u distributielijsten (ook wel distributiegroepen **genoemd)** hebt die in aanmerking komen voor een upgrade naar Microsoft 365 Groepen.<br/> ![Selecteer de knop Aan de slag](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
+1. Ga naar het nieuwe [Exchange-beheercentrum](https://admin.exchange.microsoft.com)en ga naar **Geadresseerdengroepen.** \> 
 
-3. Selecteer een of meer distributielijsten (ook wel een **distributiegroep** genoemd) op de pagina **groepen**.<br/>![Een distributiegroep selecteren](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
+2. Selecteer de distributielijstgroep (ook wel een **distributiegroep** genoemd) die u wilt upgraden naar de Microsoft 365-groep op de **pagina** Groepen.
+
+3. Selecteer de **distributiegroep Upgrade op** de werkbalk.
+
+4. Klik in het dialoogvenster **Klaar om te upgraden?** op **Upgrade**. Het proces begint onmiddellijk. Afhankelijk van de grootte en het aantal distributielijstgroepen dat u aan het upgraden bent, kan het proces minuten of uren duren.
+
+> [!NOTE]
+> Een banner bovenaan geeft aan dat de upgrade is uitgevoerd, bijvoorbeeld *distributiegroep(en) is bijgewerkt. Het duurt 5 minuten om de wijzigingen weer te geven. Filter op Microsoft 365-groepen om de bijgewerkte distrubtiegroepen(s) te zien.*
+
+### <a name="use-the-classic-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>De klassieke EAC gebruiken om een of meer distributielijstgroepen te upgraden naar Microsoft 365-groepen in Outlook
+
+1. Ga naar het klassieke <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum.</a>
+
+2. Ga in het klassieke Exchange-beheercentrum naar **Geadresseerdengroepen.** \> <br/>U ziet een melding dat u distributielijsten (ook wel distributiegroepen **genoemd)** hebt die in aanmerking komen voor een upgrade naar Microsoft 365 Groepen.<br/> ![Selecteer de knop Aan de slag](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
+
+3. Selecteer een of meer distributielijsten (ook wel een **distributiegroep** genoemd) op de **pagina Groepen.**<br/>![Een distributiegroep selecteren](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
 
 4. Selecteer het upgradepictogram.<br/>![Pictogram Upgraden naar Microsoft 365 Groepen](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
 
@@ -49,7 +64,7 @@ U moet een globale beheerder of Exchange-beheerder zijn om een distributielijst 
 
 6. Als u meerdere distributielijsten bij wilt werken, gebruikt u de vervolgkeuzelijst om te filteren welke distributielijsten zijn bijgewerkt. Als de lijst niet is voltooid, wacht  u nog even en selecteert u Vernieuwen om te zien wat er is bijgewerkt.<br/>Er wordt niet gemeld wanneer het upgradeproces is voltooid voor alle distributielijsten die u hebt geselecteerd. U kunt dit zien door te bekijken wat wordt weergegeven onder **Beschikbaar voor upgrade** of **Upgraded DLs** (Geüpgradede distributielijsten).
 
-7. Als u een distributielijst voor upgraden hebt geselecteerd maar deze nog steeds wordt weergegeven op de pagina als Beschikbaar voor upgrade, is het upgraden van de distributielijst mislukt. Zie [Wat u moet doen als de upgrade niet werkt](#what-to-do-if-the-upgrade-doesnt-work).
+7. Als u een DL voor upgrade hebt geselecteerd, maar deze nog steeds op de pagina wordt weergegeven als Beschikbaar om te upgraden, is de upgrade mislukt. Zie [Wat u moet doen als de upgrade niet werkt](#what-to-do-if-the-upgrade-doesnt-work).
 
 > [!NOTE]
 > Als u samenvattings-e-mails van de groep ontvangt, wordt er soms onderaan vermeld dat u distributielijsten waarvan u eigenaar bent, kunt upgraden. Zie [Have a group conversation in Outlook](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22) (Een groepsgesprek hebben in Outlook) voor meer informatie over samenvattings-e-mails.
@@ -60,7 +75,7 @@ Distributielijsten die niet kunnen worden geüpgraded, blijven ongewijzigd.
 
 Als een of meer **in aanmerking komende** distributielijsten niet kunnen worden geüpgraded, opent u een [ondersteuningsticket](../contact-support-for-business-products.md). Het probleem moet worden geëscaleerd naar het team Groups Engineering zodat zij kunnen uitzoeken wat het probleem is.
 
-Het is mogelijk dat de distributielijst niet is geüpgraded vanwege een serviceonderbreking, maar dit is tamelijk onwaarschijnlijk. U kunt ook even wachten en vervolgens opnieuw proberen de distributielijst te upgraden.
+Het is mogelijk dat de distributielijst niet is bijgewerkt vanwege een servicestoring, maar onwaarschijnlijk. U kunt ook even wachten en vervolgens opnieuw proberen de distributielijst te upgraden.
 
 ## <a name="how-to-use-powershell-to-upgrade-several-distribution-lists-at-the-same-time"></a>PowerShell gebruiken om diverse distributielijsten tegelijkertijd te upgraden
 
@@ -68,7 +83,7 @@ Als u een ervaren PowerShell-gebruiker bent, wilt u misschien PowerShell in plaa
 
 ### <a name="upgrade-a-single-dl"></a>Eén DL upgraden
 
-Voer de volgende opdracht uit om één DL te upgraden:
+Voer de volgende opdracht uit om één DL bij te upgraden:
 
 ```PowerShell
 Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
@@ -132,7 +147,7 @@ U kunt alleen in de cloud beheerde, eenvoudige, niet-geneste distributielijsten 
 |Distributielijsten met leden **RecipientTypeDetails** andere dan **UserMailbox**, **SharedMailbox**, **TeamMailbox**, **MailUser**  <br/> |Nee  <br/> |
 |Distributielijst met meer dan 100 eigenaren  <br/> |Nee  <br/> |
 |Distributielijst met alleen leden, maar geen eigenaar  <br/> |Nee  <br/> |
-|Distributielijst met een alias met speciale tekens  <br/> |Nee  <br/> |
+|Distributielijst met aliassen met speciale tekens  <br/> |Nee  <br/> |
 |Als de distributielijst als een doorstuuradres voor Gedeeld postvak is geconfigureerd  <br/> |Nee  <br/> |
 |Als de DL deel uitmaakt van **Sender Restriction** in een andere DL.  <br/> |Nee  <br/> |
 |Beveiligingsgroepen  <br/> |Nee  <br/> |
@@ -154,9 +169,9 @@ Als u wilt controleren welke DL's in aanmerking komen voor een upgrade, voer dan
 
 Personen met globale beheerders- of Exchange-beheerdersrechten.
 
-### <a name="why-is-the-contact-card-still-showing-a-distribution-list-what-should-i-do-to-prevent-a-upgraded-distribution-list-from-showing-up-in-my-auto-suggest-list"></a>Waarom wordt op het visitekaartje nog steeds een distributielijst weergegeven? Wat moet ik doen om te voorkomen dat een geüpgradede distributielijst wordt weergegeven in mijn lijst met automatische suggesties?
+### <a name="why-is-the-contact-card-still-showing-a-distribution-list-what-should-i-do-to-prevent-an-upgraded-distribution-list-from-showing-up-in-my-auto-suggest-list"></a>Waarom wordt op het visitekaartje nog steeds een distributielijst weergegeven? Wat moet ik doen om te voorkomen dat een bijgewerkte distributielijst wordt weergegeven in mijn lijst met auto-voorstellen?
 
-- Voor Outlook: Wanneer iemand een e-mail probeert te verzenden in Outlook door de naam van de Microsoft 365-groep na de migratie te typen, wordt de geadresseerde opgelost als de distributielijst in plaats van de groep. Het visitekaartje van de geadresseerde wordt het visitekaartje van de distributielijsten. Dit wordt veroorzaakt door de cache met geadresseerden of de cache met bijnamen in Outlook. De e-mail wordt naar de groep verzonden, maar kan verwarring veroorzaken bij de afzender.<br/>U kunt aan de hand van de stappen in het onderwerp [Informatie over de lijst AutoAanvullen in Outlook](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) de cache opnieuw instellen om het probleem op te lossen.
+- Voor Outlook: Wanneer iemand een e-mail probeert te verzenden in Outlook door de naam van de Microsoft 365-groep na de migratie te typen, wordt de geadresseerde opgelost als de distributielijst in plaats van de groep. Het visitekaartje van de geadresseerde wordt het visitekaartje van de distributielijsten. Dit wordt veroorzaakt door de cache met geadresseerden of de cache met bijnamen in Outlook. De e-mail wordt naar de groep verzonden, maar kan verwarring veroorzaken bij de afzender.<br/>U kunt de stappen in dit artikel, Informatie over de lijst automatisch aanvullen van [Outlook,](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) uitvoeren om de cache opnieuw in te stellen, waardoor dit probleem wordt opgelost.
 
 - Voor de webversie van Outlook: in het geval van de webversie van Outlook blijft de ontvanger van de distributielijst in de cache. U kunt de stappen in Voorgestelde naam of [e-mailadres](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) verwijderen uit de lijst Automatisch voltooien volgen om de cache te vernieuwen om het groepscontactkaart te zien.
 
@@ -168,7 +183,7 @@ Nee. De instelling voor het inschakelen van welkomstberichten is standaard inges
 
 Er zijn enkele gevallen waarin DL wel in aanmerking komt, maar niet kan worden bijgewerkt. De DL wordt niet bijgewerkt en blijft een DL.
 
-- Waar de  beheerder groepsbeleid voor e-mailadres heeft toegepast voor de groepen in een organisatie en ze proberen DL's te upgraden die niet aan de criteria voldoen, wordt de DL niet bijgewerkt
+- Waar de beheerder **groepsbeleid** voor e-mailadres heeft toegepast voor de groepen in een organisatie en ze proberen DL's te upgraden die niet voldoen aan de criteria, wordt de DL niet bijgewerkt
 
 - DLs met **MemberJoinRestriction** **of MemberDepartRestriction set** to **Closed**, could not be upgraded
 

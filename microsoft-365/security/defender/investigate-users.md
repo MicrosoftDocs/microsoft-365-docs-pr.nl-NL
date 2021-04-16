@@ -19,12 +19,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 6535493efb844f1413c569a28ebf36ddb05c167d
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 68fc924ee14932ebdf92ef76306ba00e352b6030
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760198"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861258"
 ---
 # <a name="investigate-users-in-microsoft-365-security-center"></a>Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
 
@@ -34,16 +34,44 @@ ms.locfileid: "51760198"
 
 - Microsoft 365 Defender
 
-Als onderdeel van uw onderzoek kunt u zien dat een gebruiker is gecompromitteerd.
+Een deel van uw incidentonderzoek kan gebruikersaccounts zijn. Begin met het **tabblad Gebruikers** voor een incident van Incidenten & **waarschuwingen >** incident *>* **Gebruikers.** 
 
-De gebruikerspagina van het Microsoft 365-beveiligingscentrum combineert gegevens van Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit en Microsoft Cloud App Security (afhankelijk van welke licenties u hebt). Deze pagina is de ideale startplaats voor het onderzoeken van gebruikers en mogelijke incidenten.
-![Gebruikerspagina](../../media/m3d-userpage.png)
+:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Voorbeeld van een pagina Gebruikers voor een incident":::
 
-Op deze pagina ziet u informatie die specifiek is voor het beveiligingsrisico van een gebruiker. Dit omvat een score die helpt bij het beoordelen van risico's, recente gebeurtenissen en waarschuwingen die hebben bijgedragen aan het totale risico van de gebruiker, en meer.
+Als u een beknopt overzicht wilt krijgen van een gebruikersaccount voor het incident, selecteert u het vinkje naast de naam van het gebruikersaccount. Hier is een voorbeeld.
 
-U kunt deze pagina openen vanuit meerdere gebieden in het Microsoft 365-beveiligingscentrum. U kunt deze pagina openen vanuit een specifiek incident op **het tabblad** Gebruikers. Sommige waarschuwingen kunnen gebruikers bevatten als een specifiek beïnvloed activum. U kunt ook zoeken naar gebruikers.  
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Voorbeeld van het overzichtsvenster voor gebruikersaccounts voor een incident in het Microsoft 365-beveiligingscentrum":::
 
-Meer informatie over het onderzoeken van gebruikers en potentiële risico's [in deze zelfstudie over cloud-appbeveiliging.](/cloud-app-security/tutorial-ueba#:~:text=To%20identify%20who%20your%20riskiest,user%20page%20to%20investigate%20them)
+Hier kunt u Ga naar gebruikerspagina selecteren **om** de details van een gebruikersaccount te bekijken. Hier is een voorbeeld.
+
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Voorbeeld van de pagina met gebruikersaccounts voor een incident in het Microsoft 365-beveiligingscentrum":::
+
+U kunt deze pagina ook zien door de naam van het gebruikersaccount te selecteren in de lijst op de **pagina** Gebruikers.
+
+De gebruikerspagina van het Microsoft 365-beveiligingscentrum combineert gegevens van Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit en Microsoft Cloud App Security (afhankelijk van welke licenties u hebt). 
+
+Op deze pagina ziet u informatie die specifiek is voor het beveiligingsrisico van een gebruikersaccount. Dit omvat een score die helpt bij het beoordelen van risico's en recente gebeurtenissen en waarschuwingen die hebben bijgedragen aan het algehele risico van de gebruiker.
+
+Op deze pagina kunt u deze extra acties uitvoeren: 
+
+- Het gebruikersaccount markeren als gecompromitteerd
+- De gebruiker verplichten zich opnieuw aan te melden
+- Het gebruikersaccount opschorten
+- De gebruikersaccountinstellingen van Azure Active Directory (Azure AD) bekijken
+- De bestanden weergeven die eigendom zijn van het gebruikersaccount
+- Bestanden weergeven die met deze gebruiker zijn gedeeld. 
+
+Hier is een voorbeeld.
+
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Voorbeeld van de acties op een gebruikersaccount voor een incident in het Microsoft 365-beveiligingscentrum":::
+
+
+<!--
+You can access this page from multiple areas in the Microsoft 365 security center. You can access this page from a specific incident in the **Users** tab. Some alerts might include users as a specific affected asset. You can also search for users.  
+
+Learn more about how to investigate users and potential risk [in this Cloud App Security tutorial](/cloud-app-security/tutorial-ueba#:~:text=To%20identify%20who%20your%20riskiest,user%20page%20to%20investigate%20them).
+
+--> 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

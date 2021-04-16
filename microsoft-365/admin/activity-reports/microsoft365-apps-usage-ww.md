@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Meer informatie over het downloaden van een Microsoft 365-apps voor gebruiksrapport met behulp van het dashboard Microsoft 365-rapporten in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 5b45e7994126018701c409d4fbfc6f1172924773
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: d41a1680b46709c3f41b5238d309794c68101cee
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644265"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860747"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>Microsoft 365-rapporten in het beheercentrum - Gebruik van Microsoft 365 Apps
 
@@ -33,7 +33,7 @@ In het dashboard  Microsoft 365-rapporten ziet u het activiteitenoverzicht voor 
 
 
  > [!NOTE]
- > U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een exchange-, SharePoint- of Skype voor Bedrijven-beheerder om rapporten te kunnen zien. Gedeelde computeractiveringen worden niet ondersteund in dit rapport.
+ > U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een exchange-, SharePoint- of Skype voor Bedrijven-beheerder om rapporten te kunnen zien. Gedeelde computeractiveringen zijn niet opgenomen in dit rapport.
 
 ## <a name="how-to-get-to-the-microsoft-365-apps-usage-report"></a>Het gebruiksrapport van Microsoft 365 Apps openen
 
@@ -50,7 +50,7 @@ U kunt de Activiteiten van Microsoft 365 Apps van uw gebruiker bekijken door de 
 |Item|Beschrijving|
  |:-----|:-----|
  |1. <br/> |Het **gebruiksrapport van Microsoft 365 Apps** kan worden bekeken voor trends in de afgelopen 7, 30, 90 of 180 dagen. Als u echter een bepaalde dag in het rapport selecteert, worden in de tabel (7) gegevens voor maximaal 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd) weer te geven. <br/> |
- |2. <br/> |De gegevens in elk rapport hebben meestal betrekking op de laatste zeven dagen. <br/> |
+ |2. <br/> |De gegevens in elk rapport hebben meestal betrekking op de laatste twee dagen. Elke zes dagen wordt het rapport vernieuwd met kleine updates om de gegevenskwaliteit te waarborgen. <br/> |
  |3. <br/> |De **weergave** Gebruikers toont de trend in het aantal actieve gebruikers voor elke app: Outlook, Word, Excel, PowerPoint, OneNote en Teams. 'Actieve gebruikers' zijn gebruikers die opzettelijke acties uitvoeren in deze apps. <br/> |
  |4. <br/> |De **weergave Platforms** toont de trend van actieve gebruikers in alle apps voor elk platform: Windows, Mac, Web en Mobile. <br/> |
  |5.<br/>|In de **grafiek Gebruikers** is de Y-as het aantal unieke actieve gebruikers voor de betreffende app. In de **grafiek Platforms** is   de Y-as het aantal unieke gebruikers voor het betreffende platform. De X-as in beide grafieken is de datum waarop een app op een bepaald platform is gebruikt.<br/>|

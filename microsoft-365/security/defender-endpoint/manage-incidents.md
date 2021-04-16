@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP-incidenten beheren
+title: Microsoft Defender voor eindpuntincidenten beheren
 description: Beheer incidenten door deze toe te wijzen, de status ervan bij te werken of de classificatie in te stellen.
 keywords: incidenten, beheren, toewijzen, status, classificatie, true alert, false alert
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b8b5e806d09f08a12c090a1055f2c165f25b7ea1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: abb538972b48f8790286c0a546eecdd69fc83fb5
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185806"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862137"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>Microsoft Defender voor eindpuntincidenten beheren
 
@@ -31,7 +31,7 @@ ms.locfileid: "51185806"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -81,6 +81,6 @@ Toegevoegde opmerkingen worden direct weergegeven in het deelvenster.
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Wachtrij incidenten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
-- [De wachtrij Incidenten weergeven en ordenen](view-incidents-queue.md)
+- [Incidentenwachtrij](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [De incidentenwachtrij weergeven en organiseren](view-incidents-queue.md)
 - [Incidenten onderzoeken](investigate-incidents.md)

@@ -1,5 +1,5 @@
 ---
-title: Apparaatgroepen maken en beheren in Microsoft Defender ATP
+title: Apparaatgroepen maken en beheren in Microsoft Defender voor Eindpunt
 description: Maak apparaatgroepen en stel geautomatiseerde herstelniveaus op deze in door de regels in vertrouwen te nemen die van toepassing zijn op de groep
 keywords: apparaatgroepen, groepen, herstel, niveau, regels, aadgroep, rol, toewijzen, rang
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dfc7c04bbde2b7061c92f5a25115b75a2f5b47b5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: acd24e5c87a74bbb32835ec170a121c5c0b6bb33
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059413"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860301"
 ---
 # <a name="create-and-manage-device-groups"></a>Apparaatgroepen maken en beheren
 
@@ -94,5 +94,5 @@ Apparaten die niet zijn afgestemd op groepen, worden toegevoegd aan groep Niet-g
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [Portaltoegang beheren met behulp van op rollen gebaseerd toegangsbeheer](rbac.md)
-- [Apparaatlabels maken en beheren](machine-tags.md)
+- [Apparaattags maken en beheren](machine-tags.md)
 - [Lijst met tenantapparaatgroepen met Behulp van Graph API](https://docs.microsoft.com/graph/api/device-list-memberof)

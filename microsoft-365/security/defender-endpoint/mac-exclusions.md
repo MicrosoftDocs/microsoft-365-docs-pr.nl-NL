@@ -1,6 +1,6 @@
 ---
-title: Uitsluitingen configureren en valideren voor Microsoft Defender ATP voor Mac
-description: Uitsluitingen voor MICROSOFT Defender ATP voor Mac verstrekken en valideren. Uitsluitingen kunnen worden ingesteld voor bestanden, mappen en processen.
+title: Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt voor Mac
+description: Uitsluitingen voor Microsoft Defender voor Eindpunt voor Mac verstrekken en valideren. Uitsluitingen kunnen worden ingesteld voor bestanden, mappen en processen.
 keywords: microsoft, defender, atp, mac, exclusions, scans, antivirus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2281fccfb97d38dbdc218799b087290433deff30
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 7b5254e9b4289219a08730d736c8f9738e7a65f0
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764155"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861585"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op macOS
 

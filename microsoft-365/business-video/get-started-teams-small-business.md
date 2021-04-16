@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het gebruik van Microsoft Teams in uw kleine bedrijf.
-ms.openlocfilehash: 592d5eda985239f79ce42291af840ff7762a903c
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: b77ad43722764895a4f89c623d4af9403aa25e5b
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034270"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860557"
 ---
 # <a name="get-started-with-microsoft-teams-in-your-small-business"></a>Aan de slag met Microsoft Teams in uw kleine bedrijf
 
@@ -47,7 +47,7 @@ Voor hulp bij het werken op afstand raden we u aan om met de volgende drie stapp
 
 ## <a name="1-get-ready"></a>1. Maak je klaar 
 
-Aan de slag is eenvoudig. Als u al een Microsoft 365-abonnement hebt, moet u ervoor zorgen dat iedereen een licentie heeft met Microsoft Teams. Als uw bedrijf nog geen Microsoft Teams heeft, kunt u de juiste [Microsoft Teams](https://aka.ms/TeamsBusinessBasic) voor uw bedrijf vinden en u registreren.
+Aan de slag is eenvoudig. Als u al een Microsoft 365-abonnement hebt, moet u ervoor zorgen dat iedereen een licentie heeft met Microsoft Teams. Als uw bedrijf nog geen Microsoft Teams heeft, kunt u de juiste [Microsoft Teams](https://www.microsoft.com/microsoft-teams/teams-for-work) voor uw bedrijf vinden en u registreren.
 
 ### <a name="get-microsoft-teams-ready-for-your-customers"></a>Microsoft Teams voorbereiden voor uw klanten
 
@@ -133,4 +133,4 @@ Zet een pc, Mac of mobiel apparaat om in een werkende zakelijke telefoon door [M
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Uw kleine bedrijf machtigen met extern werk](https://docs.microsoft.com/microsoft-365/admin/misc/empower-your-small-business-with-remote-work.md) (artikel)
+[Uw kleine bedrijf machtigen met extern werk](https://docs.microsoft.com/microsoft-365/admin/misc/empower-your-small-business-with-remote-work) (artikel)

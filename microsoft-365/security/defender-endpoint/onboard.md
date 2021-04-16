@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP-mogelijkheden configureren en beheren
+title: Microsoft Defender voor endpoint-mogelijkheden configureren en beheren
 ms.reviewer: ''
-description: Microsoft Defender ATP-mogelijkheden configureren en beheren, zoals surface reduction voor aanvallen en beveiliging van de volgende generatie
+description: Microsoft Defender configureren en beheren voor endpoint-mogelijkheden, zoals surface reduction voor aanvallen en beveiliging van de volgende generatie
 keywords: configure, manage, capabilities, attack surface reduction, next-generation protection, security controls, endpoint detection and response, auto investigation and remediation, security controls, controls
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -14,39 +14,40 @@ author: mjcaparas
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a0872de9774773c136bca6febd621daba5b2d7d3
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 3ad23e030048506784edd8f1988fa33263a085ae
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186375"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861333"
 ---
 # <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>Microsoft Defender voor endpoint-mogelijkheden configureren en beheren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
+Meer informatie over het configureren en beheren van De functies van Defender voor eindpunten, om de beste beveiliging voor uw organisatie te krijgen.
 
-Configureer en beheer alle Mogelijkheden van Defender voor Eindpunt om de beste beveiliging voor uw organisatie te krijgen. 
+Zie Onboard devices to the Microsoft Defender for Endpoint service (Onboard [devices to the Microsoft Defender for Endpoint service)](./onboard-configure.md)voor praktisch advies over het verbinden van nieuwe apparaten in uw organisatie.
 
+## <a name="in-this-section"></a>In deze sectie
 
-## <a name="in-this-section"></a>In deze sectie 
-Onderwerp | Beschrijving 
+Onderwerp | Beschrijving
 :---|:---
-[Mogelijkheden voor het verlagen van de Surface-aanval configureren](configure-attack-surface-reduction.md) |  Door ervoor te zorgen dat configuratie-instellingen correct zijn ingesteld en technieken voor risicobeperking worden toegepast, zijn deze mogelijkheden bestand tegen aanvallen en misbruik. 
+[Instellingen van het Microsoft Defender-beveiligingscentrum configureren](preferences-setup.md) | Configureer portalgerelateerde instellingen, zoals algemene instellingen, geavanceerde functies of schakel de preview-ervaring in.
+[Mogelijkheden voor het verlagen van de Surface-aanval configureren](configure-attack-surface-reduction.md) | Configureer de mogelijkheden voor het beperken van het oppervlak van de aanval om ervoor te zorgen dat instellingen correct worden toegepast en gebruik te maken van mitigatietechnieken.
 [Beveiliging van de volgende generatie configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-microsoft-defender-antivirus-features) | Configureer de beveiliging van de volgende generatie om alle soorten nieuwe bedreigingen op te vangen.
-[Microsoft Threat Experts-mogelijkheden configureren](configure-microsoft-threat-experts.md) | Configureer en beheer hoe u cyberbeveiligingsintelligentie wilt krijgen van Microsoft Threat Experts.
-[Microsoft Threat Protection-integratie configureren](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/threat-protection-integration)| Configureer andere oplossingen die zijn geïntegreerd met Defender voor Eindpunt.
-[Ondersteuning voor beheer en API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/management-apis)| Haal waarschuwingen naar uw SIEM of gebruik API's om aangepaste waarschuwingen te maken. Power BI-rapporten maken en bouwen. 
-[Instellingen van het Microsoft Defender-beveiligingscentrum configureren](preferences-setup.md) |  Configureer portalgerelateerde instellingen, zoals algemene instellingen, geavanceerde functies, en schakel de preview-ervaring en andere functies in.
-
-
-
+[Microsoft Threat Experts-mogelijkheden configureren](configure-microsoft-threat-experts.md) | Configureer en beheer cyberbeveiligingsintelligentie van Microsoft Threat Experts.
+[Microsoft Threat Protection-integratie configureren](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/threat-protection-integration) | Configureer andere oplossingen die zijn geïntegreerd met Defender voor Eindpunt.
+[Ondersteuning voor beheer en API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/management-apis) | Haal waarschuwingen naar uw SIEM (Security Information and Event Management) of gebruik API's om aangepaste waarschuwingen te maken. Power BI-rapporten maken en bouwen.

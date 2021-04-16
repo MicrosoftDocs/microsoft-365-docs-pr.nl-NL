@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP voor Mac - systeemextensies (Preview)
-description: Dit artikel bevat instructies voor het testen van de systeemextensiesfunctionaliteit van Microsoft Defender ATP voor Mac. Deze functionaliteit is momenteel beschikbaar in een openbaar voorbeeld.
+title: Microsoft Defender voor Eindpunt voor Mac - systeemextensies (Preview)
+description: Dit artikel bevat instructies voor het testen van de systeemextensiesfunctionaliteit van Microsoft Defender voor Eindpunt voor Mac. Deze functionaliteit is momenteel beschikbaar in een openbaar voorbeeld.
 keywords: microsoft, defender, atp, mac, kernel, systeem, extensies, catalina
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 0e89977c10de04d8c3331733cd1432525ac3196d
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 0b593aa0046a28e558523c2f3ebc7da9976f62d3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689063"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860325"
 ---
 # <a name="microsoft-defender-for-endpoint-on-macos---system-extensions-public-preview"></a>Microsoft Defender for Endpoint on macOS - system extensions public preview)
 
@@ -62,7 +62,7 @@ In deze stappen wordt ervan uitgenomen dat Defender for Endpoint al op uw appara
   defaults write com.microsoft.autoupdate2 ChannelName -string Beta
   ```
 
-  Als u zich in een beheerde omgeving (JAMF of Intune) hebt, kunt u het updatekanaal ook op afstand configureren. Zie Updates voor Microsoft Defender ATP voor Mac implementeren voor meer [informatie: De kanaalnaam instellen.](mac-updates.md#set-the-channel-name)
+  Als u zich in een beheerde omgeving (JAMF of Intune) hebt, kunt u het updatekanaal ook op afstand configureren. Zie Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac voor meer [informatie: De kanaalnaam instellen.](mac-updates.md#set-the-channel-name)
 
 ## <a name="deployment-steps"></a>Implementatiestappen
 

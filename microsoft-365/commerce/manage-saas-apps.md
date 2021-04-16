@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Meer informatie over het activeren en beheren van apps van derden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 974ce99b55dcb078286d7f6dba35166e51ce62a7
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 457545282801829ca34de0318dd9eb7791866214
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576911"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860533"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>App-abonnementen van derden beheren voor uw organisatie
 
@@ -31,7 +31,7 @@ U kunt licenties en facturering voor apps van derden beheren in het Microsoft 36
 
 Er zijn een paar manieren om apps van derden te kopen.
 
-- **Directe aankoop:** klanten kunnen rechtstreeks abonnementen kopen via [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)of [AppSource.](https://www.appsource.com/)
+- **Directe aankoop:** klanten kunnen rechtstreeks abonnementen kopen via [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)of [AppSource.](https://appsource.microsoft.com/)
 - **Partneraankoop:** werk samen met een partner via partnercentrum om abonnementen aan te schaffen.
 - **Microsoft-voorstel:** reageer op een voorstel van Microsoft Sales dat apps van derden bevat.
 

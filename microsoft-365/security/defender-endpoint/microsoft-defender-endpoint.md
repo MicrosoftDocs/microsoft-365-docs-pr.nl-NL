@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Eindpunt
 description: Microsoft Defender voor Eindpunt is een beveiligingsplatform voor zakelijke eindpunten dat helpt bij het beschermen tegen geavanceerde permanente bedreigingen.
-keywords: inleiding tot Microsoft Defender voor Eindpunt, inleiding tot Microsoft Defender Advanced Threat Protection, inleiding tot Microsoft Defender ATP, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, computergedrags sensor, cloudbeveiliging, analyse, bedreigingsinformatie, aanvalsoppervlakverminding, beveiliging van de volgende generatie, geautomatiseerd onderzoek en herstel, microsoft threat experts, secure score, advanced hunting, microsoft threat protection, cyber threat hunting
+keywords: inleiding tot Microsoft Defender voor Eindpunt, inleiding tot Microsoft Defender Advanced Threat Protection, inleiding tot Microsoft Defender voor Endpoint, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, computergedrags sensor, cloudbeveiliging, analyse, bedreigingsinformatie, aanvalsoppervlakverminding, beveiliging van de volgende generatie, geautomatiseerd onderzoek en herstel, microsoft threat experts, secure score, advanced hunting, microsoft threat protection, cyber threat hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8c5d02a4d76ae7e031ad9f3af0db282cc4cb45ed
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: adc7d780c1af73d8cb4fe229720ac2ed74f90251
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187109"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861825"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -84,7 +84,7 @@ Deze ingebouwde mogelijkheid maakt gebruik van een spelveranderende risicobenade
 
 <a name="asr"></a>
 
-**[Surface-beperking voor aanvallen](overview-attack-surface-reduction.md)**<br>
+**[Kwetsbaarheid voor aanvallen verminderen](overview-attack-surface-reduction.md)**<br>
 De surface reduction set met mogelijkheden voor aanvallen biedt de eerste verdedigingslinie in de stapel. Door ervoor te zorgen dat configuratie-instellingen correct zijn ingesteld en technieken voor risicobeperking worden toegepast, zijn de mogelijkheden bestand tegen aanvallen en misbruik. Deze set mogelijkheden omvat ook [netwerkbeveiliging](network-protection.md) en [webbeveiliging,](web-protection-overview.md)waarmee de toegang tot schadelijke IP-adressen, domeinen en URL's wordt geregeld. 
 
 <a name="ngp"></a>
@@ -94,7 +94,7 @@ Om de beveiligingsperimeter van uw netwerk verder te versterken, gebruikt Micros
 
 <a name="edr"></a>
 
-**[Eindpuntdetectie en -antwoord](overview-endpoint-detection-response.md)**<br>
+**[Detectie van en reactie op eindpunt](overview-endpoint-detection-response.md)**<br>
 De mogelijkheden voor eindpuntdetectie en -antwoorden worden gebruikt om geavanceerde bedreigingen op te sporen, te onderzoeken en te beantwoorden, zodat deze mogelijk voorbij de eerste twee beveiligingspijlers zijn gekomen. [Geavanceerde jacht](advanced-hunting-overview.md) biedt een op query's gebaseerd hulpprogramma voor bedreigingsjacht waarmee u proactief inbreuken kunt vinden en aangepaste detecties kunt maken.
 
 <a name="ai"></a>

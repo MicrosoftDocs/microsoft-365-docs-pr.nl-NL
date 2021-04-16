@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP voor niet-Windows-platforms
-description: Meer informatie over MICROSOFT Defender ATP-mogelijkheden voor niet-Windows-platforms
+title: Microsoft Defender voor Eindpunt voor niet-Windows-platforms
+description: Meer informatie over de mogelijkheden van Microsoft Defender voor eindpunten voor niet-Windows-platforms
 keywords: niet-windows, mac, macos, linux, android
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7d9dd82d8c1beee77ea1f95b11a12bcddf01115f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: dce9a3d41d8a9d7c260cda8a930867da8c2ae8ac
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688331"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862245"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender voor Eindpunt voor niet-Windows-platforms
 
@@ -59,7 +59,7 @@ Microsoft Defender voor Eindpunt op Android is onze oplossing voor mobiele bedre
 
 Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de documentatie van Microsoft Defender voor [Eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-android)op Android.
 
-## <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor Eindpunt in iOS
+## <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor Eindpunt op iOS
 
 Microsoft Defender voor Eindpunt in iOS is onze oplossing voor mobiele bedreigingsdefensie voor apparaten met iOS 11.0 en hoger. Zowel gecontroleerde als niet-bewaakte apparaten worden ondersteund. In iOS bieden we webbeveiliging, waaronder anti-phishing, het blokkeren van onveilige verbindingen en het instellen van aangepaste indicatoren. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/iOS) 
 

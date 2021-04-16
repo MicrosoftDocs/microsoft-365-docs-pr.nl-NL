@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Eindpunt op Linux
 ms.reviewer: ''
-description: Hier wordt beschreven hoe u Microsoft Defender ATP voor Linux installeert en gebruikt.
+description: Hier wordt beschreven hoe u Microsoft Defender voor Eindpunt voor Linux installeert en gebruikt.
 keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0fea9d4dd46be2a77ea27728787a43b5273f92f5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f67dd28902e8b45a5401b60c027faa89d7467cd8
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687755"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861393"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt op Linux
 
@@ -83,7 +83,7 @@ Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in M
   > Het uitvoeren van Defender voor Eindpunt voor Linux naast andere op basis van `fanotify` beveiligingsoplossingen wordt niet ondersteund. Dit kan leiden tot onvoorspelbare resultaten, waaronder het ophangen van het besturingssysteem.
 
 - Schijfruimte: 1 GB
-- /opt/microsoft/mdatp/sbin/wdavdaemon vereist uitvoerbare machtigingen. Zie 'Controleer of de daemon uitvoerbare machtiging heeft' in Installatieproblemen oplossen voor [Microsoft Defender ATP voor Linux voor](/microsoft-365/security/defender-endpoint/linux-support-install)meer informatie.
+- /opt/microsoft/mdatp/sbin/wdavdaemon vereist uitvoerbare machtigingen. Zie 'Controleer of de daemon uitvoerbare machtiging heeft' in Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt voor Linux voor meer [informatie.](/microsoft-365/security/defender-endpoint/linux-support-install)
 - Geheugen: 1 GB
     > [!NOTE]
     > Zorg ervoor dat u vrije schijfruimte hebt in /var.

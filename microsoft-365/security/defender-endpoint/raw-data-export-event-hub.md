@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender voor eindpuntgebeurtenissen streamen naar Azure Event Hubs
-description: Meer informatie over het configureren van Microsoft Defender ATP om advanced hunting-gebeurtenissen te streamen naar uw Event Hub.
+description: Meer informatie over het configureren van Microsoft Defender voor Eindpunt om Geavanceerde gebeurtenissen voor jagen te streamen naar uw Event Hub.
 keywords: raw data export, streaming API, API, Azure Event Hubs, Azure Storage, Storage Account, Advanced Hunting, raw data sharing
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 231ba79e1d66eee263b6c1a4335f0a7b54eeb75d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: df305c9fcc7fb9249f2387567600adb899f8c49a
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058197"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861045"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Microsoft Defender voor Eindpunt configureren om geavanceerde gebeurtenissen te streamen naar uw Azure Event Hubs
 
@@ -30,7 +30,7 @@ ms.locfileid: "51058197"
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 

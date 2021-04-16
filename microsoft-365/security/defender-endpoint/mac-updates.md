@@ -1,6 +1,6 @@
 ---
-title: Updates implementeren voor Microsoft Defender ATP voor Mac
-description: Updates voor Microsoft Defender ATP voor Mac beheren in bedrijfsomgevingen.
+title: Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac
+description: Updates voor Microsoft Defender voor Eindpunt voor Mac beheren in bedrijfsomgevingen.
 keywords: microsoft, defender, atp, mac, updates, deploy
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3321c1bd181b89c53e2618fc20fa7f733a20cfc1
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9d373594771efe4eb647c007db3a26efe83e330e
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689051"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860313"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Updates voor Microsoft Defender voor Eindpunt implementeren in macOS
 
@@ -78,7 +78,7 @@ Het `Current` kanaal bevat de meest stabiele versie van het product.
 
 |Sectie|Waarde|
 |:--|:--|
-| **Domein** | com.microsoft.autoupdate2 |
+| **Domein** | `com.microsoft.autoupdate2` |
 | **Sleutel** | Kanaalnaam |
 | **Gegevenstype** | Tekenreeks |
 | **Mogelijke waarden** | Beta <br/> Voorbeeld <br/> Huidige |
@@ -96,7 +96,7 @@ Wijzig hoe vaak MAU naar updates zoekt.
 
 |Sectie|Waarde|
 |:--|:--|
-| **Domein** | com.microsoft.autoupdate2 |
+| **Domein** | `com.microsoft.autoupdate2` |
 | **Sleutel** | UpdateCheckFrequency |
 | **Gegevenstype** | Geheel getal |
 | **Standaardwaarde** | 720 (minuten) |
@@ -109,7 +109,7 @@ Wijzig de manier waarop MAU zoekt naar updates.
 
 |Sectie|Waarde|
 |:--|:--|
-| **Domein** | com.microsoft.autoupdate2 |
+| **Domein** | `com.microsoft.autoupdate2` |
 | **Sleutel** | HowToCheck |
 | **Gegevenstype** | Tekenreeks |
 | **Mogelijke waarden** | Handmatig <br/> Automatisch controleren <br/> AutomaticDownload |
@@ -122,7 +122,7 @@ Wijzig of lokale gebruikers kunnen klikken op de optie Controleren op updates in
 
 |Sectie|Waarde|
 |:--|:--|
-| **Domein** | com.microsoft.autoupdate2 |
+| **Domein** | `com.microsoft.autoupdate2` |
 | **Sleutel** | EnableCheckForUpdatesButton |
 | **Gegevenstype** | Booleaanse waarde |
 | **Mogelijke waarden** | Waar (standaard) <br/> Onwaar |
@@ -134,7 +134,7 @@ Ingesteld op waar om het 'Deelnemen aan het Office Insider-programma' te maken..
 
 |Sectie|Waarde|
 |:--|:--|
-| **Domein** | com.microsoft.autoupdate2 |
+| **Domein** | `com.microsoft.autoupdate2` |
 | **Sleutel** | DisableInsiderCheckbox |
 | **Gegevenstype** | Booleaanse waarde |
 | **Mogelijke waarden** | Onwaar (standaard) <br/> Waar |
@@ -146,7 +146,7 @@ Instellen op onwaar om minimale heartbeatgegevens te verzenden, geen toepassings
 
 |Sectie|Waarde|
 |:--|:--|
-| **Domein** | com.microsoft.autoupdate2 |
+| **Domein** | `com.microsoft.autoupdate2` |
 | **Sleutel** | SendAllTelemetryEnabled |
 | **Gegevenstype** | Booleaanse waarde |
 | **Mogelijke waarden** | Waar (standaard) <br/> Onwaar |

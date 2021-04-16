@@ -1,5 +1,5 @@
 ---
-title: De preview-ervaring in microsoft Defender ATP in-
+title: De preview-ervaring in Microsoft Defender voor Eindpunt in-
 description: Schakel de preview-ervaring in Microsoft Defender voor Eindpunt in om aanstaande functies uit te proberen.
 keywords: geavanceerde functies, instellingen, blokkeerbestand
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 00e492ce155fd39532d9fa04ebc09b3029931d1c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 9e8b5a2cf26c3ba99b528695c3296f7a83d5bc22
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186135"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861081"
 ---
 # <a name="turn-on-the-preview-experience-in-microsoft-defender-for-endpoint"></a>De preview-ervaring in Microsoft Defender voor Eindpunt in-
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 

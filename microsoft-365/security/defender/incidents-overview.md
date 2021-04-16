@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5b2baa2041a8cffcea212eb449d40b9a9cbfc22a
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: e1e028f7b58df07eccf945b3a79012b4ea12366d
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759492"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861621"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender
 
@@ -51,7 +51,7 @@ Omdat het lastig en tijdrovend kan zijn om de afzonderlijke waarschuwingen samen
 Bekijk dit korte overzicht van incidenten in Microsoft 365 Defender (4 minuten).
 
 <br>
-<br>
+
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
 Door gerelateerde waarschuwingen in een incident te groeperen, krijgt u een uitgebreide weergave van een aanval. U kunt bijvoorbeeld het volgende zien:

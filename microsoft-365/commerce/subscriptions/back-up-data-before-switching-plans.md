@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Back-up maken van Outlook-, OneDrive-, Yammer- en SharePoint-inhoud voordat u Microsoft 365-abonnementen verandert.
-ms.openlocfilehash: d29d4e739a9328a63a491696ba26bee5b1947f0a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ecfd17d779cbb39ff786b192f72621bc94677776
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924058"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860521"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Een back-up maken van gegevens voordat u overschakelt naar Microsoft 365 voor Bedrijven-abonnementen
 
@@ -66,6 +66,6 @@ https://<orgDomain>/_layouts/15/start.aspx#/SitePages/Home.aspx
 
 waar  _\<orgDomain\>_ is de URL van de organisatie.
   
-Bijvoorbeeld, als het domein van de organisatie contoso.onmicrosoft.com is, dan is de rechtstreekse URL naar de teamsite https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx.
+Bijvoorbeeld, als het domein van de organisatie contoso.onmicrosoft.com is, dan is de rechtstreekse URL naar de teamsite `https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx`.
   
 Gebruikers kunnen natuurlijk ook op elk gewenst moment SharePoint Online-documenten van de teamsite in SharePoint downloaden naar hun lokale computer of naar een andere locatie.

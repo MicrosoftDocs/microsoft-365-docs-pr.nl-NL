@@ -17,12 +17,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over het sluiten van uw account met Microsoft.
-ms.openlocfilehash: 0ee0a649a9adb93ecdbb1cd9dbedbc04dfb46ba0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 44428654946d31ad249bfd3e7a3609da3e3634a6
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579744"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860545"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
@@ -42,7 +42,7 @@ Als gebruikers on-premises worden gesynchroniseerd, moet u eerst synchronisatie 
 
 Zie Gebruikersbeheerbeheerder als u gebruikers wilt <a href="/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">verwijderen: Een of meer gebruikers verwijderen.</a>
 
-U kunt ook de <a href="https://go.microsoft.com/fwlink/?linkid=842230">cmdlet Remove-MsolUser</a> PowerShell gebruiken om gebruikers bulksgewijs te verwijderen.
+U kunt ook de <a href="https://docs.microsoft.com/powershell/module/msonline/remove-msoluser">cmdlet Remove-MsolUser</a> PowerShell gebruiken om gebruikers bulksgewijs te verwijderen.
 
 Als uw organisatie Active Directory gebruikt dat wordt gesynchroniseerd met Microsoft Azure Active Directory (Azure AD), verwijdert u in plaats daarvan het gebruikersaccount uit Active Directory. Zie Gebruikers <a href="/azure/active-directory/users-groups-roles/users-bulk-delete">bulksgewijs verwijderen in Azure Active Directory</a>voor instructies.
 

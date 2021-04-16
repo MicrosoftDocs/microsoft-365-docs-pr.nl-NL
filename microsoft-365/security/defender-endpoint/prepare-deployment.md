@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP-implementatie voorbereiden
-description: Goedkeuring van belanghebbenden, tijdlijnen, omgevingsoverwegingen en acceptatieorder voorbereiden bij de implementatie van Microsoft Defender ATP
+title: Microsoft Defender voorbereiden op de implementatie van eindpunten
+description: Goedkeuring van belanghebbenden, tijdlijnen, milieuoverwegingen en acceptatieorder voorbereiden bij de implementatie van Microsoft Defender voor Eindpunt
 keywords: implementeren, voorbereiden, belanghebbenden, tijdlijn, omgeving, eindpunt, server, beheer, acceptatie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,26 +19,26 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2704aefb3f15cc3244de6580137fa12204bfc3ce
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a59d09aa4de2644e9904eb854c183d0352aa65c9
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187467"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861165"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>Microsoft Defender voorbereiden op de implementatie van eindpunten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Het implementeren van Defender voor Eindpunt is een proces in drie fasen:
 
-| ![implementatiefase - voorbereiden](images/phase-diagrams/prepare.png)<br>Fase 1: Voorbereiden | [![implementatiefase - installatie](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Fase 2: Setup](production-deployment.md) | [![implementatiefase - onboard](images/phase-diagrams/onboard.png)](onboarding.md)<br>[Fase 3: Onboard](onboarding.md) |
+| ![implementatiefase - voorbereiden](images/phase-diagrams/prepare.png)<br>Fase 1: Voorbereiden | [![implementatiefase - installatie](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Fase 2: Instellen](production-deployment.md) | [![implementatiefase - onboard](images/phase-diagrams/onboard.png)](onboarding.md)<br>[Fase 3: Onboarden](onboarding.md) |
 | ----- | ----- | ----- |
 |*U bent er!* | ||
 
@@ -126,7 +126,7 @@ Kies het onderdeel van Defender voor Eindpunt dat moet worden gebruikt en verwij
 
 | Onderdeel                               | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rang van acceptatieorders |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Endpoint Detection & Response (EDR)     | De detectie- en antwoordmogelijkheden van Defender voor eindpunten bieden geavanceerde aanvalsdetecties die bijna realtime zijn en actie kunnen worden ondernomen. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, inzicht krijgen in het volledige bereik van een inbreuk en reactieacties uitvoeren om bedreigingen te corrigeren. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)                                                                                                                                                                                                                                             | 1                   |
+| Endpoint Detection & Response (EDR)     | De detectie- en antwoordmogelijkheden van Defender voor eindpunten bieden geavanceerde aanvalsdetecties die bijna realtime zijn en actie kunnen worden ondernomen. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, zichtbaarheid krijgen in het volledige bereik van een beveiligingsschending en reactieacties ondernemen om bedreigingen te herstellen. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)                                                                                                                                                                                                                                             | 1                   |
 |Threat & Vulnerability Management (TVM)|Threat & Vulnerability Management is een onderdeel van Microsoft Defender voor Endpoint en biedt zowel beveiligingsbeheerders als beveiligingsbewerkingsteams unieke waarde, waaronder: <br> - Realtime inzichten in eindpuntdetectie en -antwoord (EDR) die zijn gecorreleerd met eindpuntproblemen <br> - De kwetsbaarheidscontext van een apparaat van onschatbare waarde tijdens incidentonderzoeken <br> - Ingebouwde herstelprocessen via Microsoft Intune en Microsoft System Center Configuration Manager <br> [Meer informatie](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Introducing-a-risk-based-approach-to-threat-and-vulnerability/ba-p/377845).| 2 |
 | Next-generation protection (NGP)        | Microsoft Defender Antivirus is een ingebouwde antimalwareoplossing die bescherming biedt van de volgende generatie voor desktops, draagbare computers en servers. Microsoft Defender Antivirus bevat: <br> -Beveiliging in de cloud voor het detecteren en blokkeren van nieuwe en nieuwe bedreigingen. Naast machine learning en intelligent beveiligingsgrafiek maakt beveiliging in de cloud deel uit van de technologieën van de volgende generatie die Microsoft Defender Antivirus ondersteunen.   <br> - Altijd-on scannen met behulp van geavanceerde controle van bestands- en procesgedrag en andere heuristische functies (ook wel 'real-time protection' genoemd). <br> - Speciale beveiligingsupdates op basis van machine learning, menselijke en geautomatiseerde analyse van big data en uitgebreid onderzoek naar bedreigingsresistentie. <br> [Meer informatie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
 | Attack Surface Reduction (ASR)          | Met de surface reduction-mogelijkheden in Microsoft Defender voor Eindpunt kunt u de apparaten en toepassingen in de organisatie beschermen tegen nieuwe en nieuwe bedreigingen. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-attack-surface-reduction)                                                                                                                                                                                                                                                                                                                                                                                       | 4                   |
@@ -136,5 +136,5 @@ Kies het onderdeel van Defender voor Eindpunt dat moet worden gebruikt en verwij
 ## <a name="next-step"></a>Volgende stap
 |||
 |:-------|:-----|
-|![Fase 2: Setup](images/setup.png) <br>[Fase 2: Setup](production-deployment.md) | Microsoft Defender instellen voor endpoint-implementatie
+|![Fase 2: Instellen](images/setup.png) <br>[Fase 2: Instellen](production-deployment.md) | Microsoft Defender instellen voor endpoint-implementatie
 

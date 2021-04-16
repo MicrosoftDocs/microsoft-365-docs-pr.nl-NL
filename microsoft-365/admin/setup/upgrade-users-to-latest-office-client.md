@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Meer informatie over het upgraden van Microsoft Office naar de nieuwste Office-client voor gebruikers in uw organisatie.
-ms.openlocfilehash: 14be8d63b2acb3e4838640dc399595c0ba3f97f5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3d2d5e54506d06662c6c2feef0d142f1e195163f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913992"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860569"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Uw Microsoft 365 voor Bedrijven-gebruikers upgraden naar de nieuwste Office-client
 
@@ -91,7 +91,7 @@ Stap over op een abonnement waarin Office is opgenomen. Zie [Overschakelen naar 
 
 **Optie 2: Afzonderlijke, een een-tijdsaankopen van Office kopen of Office kopen via een volumelicentie**
 
- - Koop een individuele, een een-tijdsaankoop van Office. Zie [Office Voor Bedrijven &amp; of](https://products.office.com/home-and-business) [Office Professional](https://products.office.com/professional)
+ - Koop een individuele, een een-tijdsaankoop van Office. Zie [Office Voor Bedrijven &amp; of](https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products-b) [Office Professional](https://www.microsoft.com/microsoft-365/p/office-professional-2019/CFQ7TTC0K7C5/)
 
      OF
 

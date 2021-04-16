@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Overzicht van netwerkconnectiviteit in het Microsoft 365-beheercentrum (voorbeeld)
-ms.openlocfilehash: cc01f2a22f6f8c89d0ae8fcd8b53498790930d3e
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 99c05c18f3825680824854f86e469ab4aa8bbcba
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768624"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860861"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkconnectiviteit in het Microsoft 365-beheercentrum (preview)
 
@@ -121,6 +121,14 @@ U kunt een tabelweergave bekijken van de locaties waar ze kunnen worden gefilter
 
 > [!div class="mx-imgBorder"]
 > ![Locaties voor netwerkinzichten](../media/m365-mac-perf/m365-mac-perf-locations.png)
+
+## <a name="remote-worker-assessment-and-user-connection-metrics"></a>Beoordelingsgegevens voor externe werknemers en gebruikersverbindingsgegevens
+
+We classificeren netwerkverkeerslogboeken als externe of on-site gebruikers en geven hun percentages weer in de sectie meetgegevens voor gebruikersverbindingen in het overzichtsvenster. Voor steden waar u externe gebruikers hebt, vindt u de locatiespecifieke evaluatiescore van het externe netwerk wanneer u de pagina van die locatie opent. De lijst met locaties heeft zowel kantoorlocaties als steden voor externe werknemers, die kunnen worden gefilterd en gesorteerd. We bieden de beoordelingsscore voor externe werknemers, met puntenverdeling voor Exchange, SharePoint en Teams.
+
+Inzichten in netwerken voor thuisgebruikers worden samengevoegd en gerapporteerd op stadsniveau en beperkt tot steden met minimaal 5 externe werknemers. We identificeren geen individuele werknemers die thuis werken.
+
+Locaties worden automatisch geclassificeerd als op locatie of op afstand, maar u hebt de optie om al uw ip-adressen handmatig in te voeren om een 100% classificatie te garanderen. Als u besluit om deze route te  volgen, moet u het selectievakje Alle ip-adressen op locatie invoeren handmatig in het flyout Locatiesinstellingen controleren nadat u al uw IP-adressen hebt toegevoegd. Wanneer dit is gebeurd, worden alle netwerkverkeerslogboeken van ip-adressen die u hebt gemarkeerd als on-site altijd geclassificeerd als kantoren en worden alle andere ip-adressen van het uitgangsverkeer als extern geclassificeerd.
 
 ## <a name="specific-office-location-network-performance-summary-and-insights"></a>Specifieke prestatiesoverzicht en inzichten van het officelocatienetwerk
 

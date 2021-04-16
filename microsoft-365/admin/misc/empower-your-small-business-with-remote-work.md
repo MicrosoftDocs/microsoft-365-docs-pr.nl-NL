@@ -15,12 +15,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Vind de meest recente informatie, tips, bronnen en richtlijnen over extern werk voor bedrijven die Microsoft 365 gebruiken.
-ms.openlocfilehash: eac86583a1e72b70399024354f9adc7ad24e1047
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 3ef8bb3527e6be258eda8d745d841e8bd81cdd6c
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034267"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860581"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>Uw kleine bedrijven in staat stellen om extern werk te doen
 
@@ -87,7 +87,7 @@ Zie Microsoft [365 Business resources voor meer informatie.](https://docs.micros
 
 ## <a name="need-to-ask-a-question"></a>Wilt u een vraag stellen? 
 
-Vraag het in [het Teams-forum](https://answers.microsoft.com/msteams/forum) of [het Office-beheerforum.](https://answers.microsoft.com/msoffice/forum/msoffice_o365Admin)
+Vraag het in [het Teams-forum](https://answers.microsoft.com/msteams/forum) of [het Office-beheerforum.](https://answers.microsoft.com)
 
 > [!NOTE]
 > De meeste taken in dit artikel en video kunnen worden uitgevoerd met een abonnement op Microsoft 365 Business Basic (voorheen Office 365 Business Essentials), maar voor sommige taken is een premium-abonnement vereist. 

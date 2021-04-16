@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 2d2bf18c6cacb377e710f34b74ec8f83bb77d3b1
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: da5a2190a53dfe7f8dd0cc3cf7b410af92ca4ec5
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760062"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861729"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Incidenten beheren in Microsoft 365 Defender
 
@@ -65,7 +65,7 @@ In gevallen waarin u tijdens het onderzoek waarschuwingen van het ene incident  
 
 ## <a name="edit-the-incident-name"></a>De naam van het incident bewerken
 
-Incidenten krijgen automatisch een naam toegewezen op basis van waarschuwingskenmerken, zoals het aantal betrokken eindpunten, beïnvloede gebruikers, detectiebronnen of categorieën. Hierdoor kunt u snel inzicht krijgen in het bereik van het incident. Bijvoorbeeld: *incident met meerdere fases op meerdere eindpunten die door meerdere bronnen zijn gerapporteerd.*
+Microsoft 365 Defender wijst automatisch een naam toe op basis van waarschuwingskenmerken, zoals het aantal getroffen eindpunten, beïnvloede gebruikers, detectiebronnen of categorieën. Hierdoor kunt u snel inzicht krijgen in het bereik van het incident. Bijvoorbeeld: *incident met meerdere fases op meerdere eindpunten die door meerdere bronnen zijn gerapporteerd.*
 
 U kunt de naam van het incident bewerken vanuit het **veld Incidentnaam** in **het deelvenster Incident** beheren.
 
@@ -97,3 +97,9 @@ Als het een echte waarschuwing was, moet u ook opgeven welk type bedreiging het 
 ## <a name="add-comments"></a>Opmerkingen toevoegen
 
 U kunt meerdere opmerkingen toevoegen aan een incident met **het** veld Opmerking. Elke opmerking wordt toegevoegd aan de historische gebeurtenissen van het incident. U kunt de opmerkingen en geschiedenis van een incident zien via de koppeling **Opmerkingen en geschiedenis** op de **pagina** Overzicht.
+
+## <a name="related-topics"></a>Verwante onderwerpen
+
+- [Overzicht van incidenten](incidents-overview.md)
+- [Prioriteit geven aan incidenten](incident-queue.md)
+- [Incidenten onderzoeken](investigate-incidents.md)

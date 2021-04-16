@@ -1,8 +1,8 @@
 ---
 title: Overzicht van de mogelijkheden voor eindpuntdetectie en -antwoorden
 ms.reviewer: ''
-description: Meer informatie over de mogelijkheden voor het detecteren en reageren van eindpunten in Microsoft Defender ATP
-keywords: ''
+description: Meer informatie over de mogelijkheden voor het detecteren en reageren van eindpunten in Microsoft Defender voor Eindpunt
+keywords: Microsoft Defender voor eindpunten, eindpuntdetectie en -antwoord, antwoord, detectie, cyberbeveiliging, beveiliging
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0a5a665fac1883016ac222197ba8322f78e2558f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 138a6afde9e8c601fd41811928580644b85bf2e2
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186171"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861717"
 ---
 # <a name="overview-of-endpoint-detection-and-response"></a>Overzicht van eindpuntdetectie en -antwoord
 
@@ -30,12 +30,12 @@ ms.locfileid: "51186171"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-De detectie- en antwoordmogelijkheden van Defender voor eindpunten bieden geavanceerde aanvalsdetecties die bijna realtime zijn en actie kunnen worden ondernomen. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, inzicht krijgen in het volledige bereik van een inbreuk en reactieacties uitvoeren om bedreigingen te corrigeren.
+De detectie- en antwoordmogelijkheden van Defender voor eindpunten bieden geavanceerde aanvalsdetecties die bijna realtime zijn en actie kunnen worden ondernomen. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, zichtbaarheid krijgen in het volledige bereik van een beveiligingsschending en reactieacties ondernemen om bedreigingen te herstellen.
 
 Wanneer een bedreiging wordt gedetecteerd, worden waarschuwingen gemaakt in het systeem die een analist kan onderzoeken. Waarschuwingen met dezelfde aanvalstechnieken of die worden toegeschreven aan dezelfde aanvaller, worden samengevoegd tot een entiteit die een _incident wordt genoemd._ Door waarschuwingen op deze manier te aggregeren, kunnen analisten gemakkelijk gezamenlijk bedreigingen onderzoeken en beantwoorden.
 
@@ -47,8 +47,8 @@ De antwoordmogelijkheden bieden u de macht om snel bedreigingen te corrigeren do
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Dashboard Beveiligingsbewerkingen](security-operations-dashboard.md)
-- [Wachtrij incidenten](view-incidents-queue.md)
+- [Dashboard beveiligingsbewerkingen](security-operations-dashboard.md)
+- [Incidentenwachtrij](view-incidents-queue.md)
 - [Waarschuwingenwachtrij](alerts-queue.md)
-- [Lijst apparaten](machines-view-overview.md)
+- [Lijst met apparaten](machines-view-overview.md)
 

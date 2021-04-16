@@ -1,5 +1,5 @@
 ---
-title: Apparaten aan boord van de MICROSOFT Defender ATP-service
+title: Onboard devices to the Microsoft Defender for Endpoint service
 description: Onboard Windows 10-apparaten, servers, niet-Windows-apparaten en leer hoe u een detectietest kunt uitvoeren.
 keywords: onboarding, microsoft defender for endpoint onboarding, windows atp onboarding, sccm, group policy, mdm, local script, detection test
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9b7a225e29b4b79b2e6caf95332cb91da3dade7f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4aa3e30f34e7d9dc362cc0bbb277aaee5834b4fe
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186951"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861369"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Onboard devices to the Microsoft Defender for Endpoint service
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
@@ -63,12 +63,12 @@ In de volgende tabel ziet u de beschikbare hulpprogramma's op basis van het eind
 ## <a name="in-this-section"></a>In deze sectie
 Onderwerp | Beschrijving
 :---|:---
-[Eerdere versies van Windows aan boord](onboard-downlevel.md)| Onboard Windows 7 en Windows 8.1-apparaten naar Defender voor Eindpunt. 
-[Onboard Windows 10-apparaten](configure-endpoints.md) | U moet apparaten aan boord hebben om deze te kunnen rapporteren bij de Service Defender voor eindpunt. Meer informatie over de hulpprogramma's en methoden die u kunt gebruiken om apparaten in uw bedrijf te configureren.
+[Onboarden eerdere versies van Windows](onboard-downlevel.md)| Onboard Windows 7 en Windows 8.1-apparaten naar Defender voor Eindpunt. 
+[Onboarden Windows 10-apparaten](configure-endpoints.md) | U moet apparaten aan boord hebben om deze te kunnen rapporteren bij de Service Defender voor eindpunt. Meer informatie over de hulpprogramma's en methoden die u kunt gebruiken om apparaten in uw bedrijf te configureren.
 [Onboard-servers](configure-server-endpoints.md) |  Onboard Windows Server 2008 R2 SP1, Windows Server 2012 R2, Windows Server 2016, Windows Server (SAC) versie 1803 en hoger, Windows Server 2019 en hoger en Windows Server 2019 core edition naar Defender voor Eindpunt.
-[Onboard niet-Windows-apparaten](configure-endpoints-non-windows.md) | Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows-platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in het Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen. Deze ervaring maakt gebruik van de sensorgegevens van een beveiligingsproducten van derden. 
-[Een detectietest uitvoeren op een nieuw onboarded-apparaat](run-detection-test.md) | Voer een script uit op een nieuw onboarded apparaat om te controleren of het correct rapporteert aan de Defender for Endpoint-service.
+[Onboarden niet-Windows-apparaten](configure-endpoints-non-windows.md) | Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows-platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in het Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen. Deze ervaring maakt gebruik van de sensorgegevens van een beveiligingsproducten van derden. 
+[Een detectietest uitvoeren op een nieuw geonboard apparaat](run-detection-test.md) | Voer een script uit op een nieuw onboarded apparaat om te controleren of het correct rapporteert aan de Defender for Endpoint-service.
 [Proxy- en internetinstellingen configureren](configure-proxy-internet.md)| Schakel communicatie met de Defender voor Endpoint-cloudservice in door de proxy- en internetverbindingsinstellingen te configureren.
-[Problemen met onboarding oplossen](troubleshoot-onboarding.md) | Meer informatie over het oplossen van problemen die zich kunnen voordoen tijdens onboarding.
+[Problemen met onboarden oplossen](troubleshoot-onboarding.md) | Meer informatie over het oplossen van problemen die zich kunnen voordoen tijdens onboarding.
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)

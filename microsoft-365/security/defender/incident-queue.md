@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 12207d69b0a1565caf762a265c1a0d32158ca291
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 8acd8d85826d7bda399c03cc60f2806af954c6c3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759835"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861601"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -44,9 +44,9 @@ U komt bij de incidentwachtrij van **Incidenten & waarschuwingen > Incidenten** 
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Voorbeeld van de incidentwachtrij":::
 
-Standaard worden in de wachtrij in het Microsoft 365-beveiligingscentrum incidenten weergegeven die de afgelopen zes maanden zijn gezien. Het meest recente incident staat bovenaan de lijst, zodat u het eerst kunt zien.
+Standaard worden in de incidentwachtrij in het Microsoft 365-beveiligingscentrum incidenten weergegeven die de afgelopen zes maanden zijn gezien. Het meest recente incident staat bovenaan de lijst, zodat u het eerst kunt zien.
 
-De incidentwachtrij heeft aanpasbare kolommen (selecteer Kolommen **kiezen)** die u inzicht geven in de verschillende kenmerken van het incident of de beïnvloede entiteiten. Op deze manier kunt u een weloverwogen beslissing nemen over de prioriteit van incidenten voor anaylsis.
+De incidentwachtrij heeft aanpasbare kolommen (selecteer Kolommen **kiezen)** die u inzicht geven in de verschillende kenmerken van het incident of de beïnvloede entiteiten. Op deze manier kunt u een weloverwogen beslissing nemen over de prioriteit van incidenten voor analyse.
 
 Voor extra zichtbaarheid in één oogopslag worden met automatische naamgeving voor incidenten incidentnamen gegenereerd op basis van waarschuwingskenmerken, zoals het aantal eindpunten dat is beïnvloed, de betreffende gebruikers, detectiebronnen of categorieën. Hierdoor kunt u snel inzicht krijgen in het bereik van het incident.
 
@@ -108,7 +108,7 @@ Nadat u het incident hebt opgelost, neemt u even de tijd om er van te leren:
 
 - Inzicht in het type van de aanval en de impact ervan.
 - Onderzoek de aanval in de beveiligingsgemeenschap op een beveiligingsaanvaltrend.
-- De werkstroom inroepen die u hebt gebruikt om het incident op te lossen en uw standaardwerkstromen en plalbooks zo nodig bij te werken.
+- De werkstroom inroepen die u hebt gebruikt om het incident op te lossen en uw standaardwerkstromen en -playbooks zo nodig bij te werken.
 
 Hier volgt een overzicht van het basisproces.
 
