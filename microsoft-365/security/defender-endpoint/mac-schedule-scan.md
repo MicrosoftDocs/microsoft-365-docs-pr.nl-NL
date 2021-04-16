@@ -1,6 +1,6 @@
 ---
 title: Scans plannen met MDATP voor macOS
-description: Meer informatie over het plannen van een automatische scantijd voor Microsoft Defender ATP in macOS om de activa van uw organisatie beter te beschermen.
+description: Meer informatie over het plannen van een automatische scantijd voor Microsoft Defender voor Eindpunt in macOS om de assets van uw organisatie beter te beschermen.
 keywords: microsoft, defender, atp, mac, scans, antivirus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,32 +18,32 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ecfae62bdc092a0b2544bf6f6a76dad1e86b8ab4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 71576c777f58aa193f2a73db7edea832d29a97c6
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689591"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860921"
 ---
-# <a name="schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a><span data-ttu-id="512fe-104">Scans plannen met Microsoft Defender voor Eindpunt op macOS</span><span class="sxs-lookup"><span data-stu-id="512fe-104">Schedule scans with Microsoft Defender for Endpoint on macOS</span></span>
+# <a name="schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a><span data-ttu-id="63b94-104">Scans plannen met Microsoft Defender voor Eindpunt op macOS</span><span class="sxs-lookup"><span data-stu-id="63b94-104">Schedule scans with Microsoft Defender for Endpoint on macOS</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="512fe-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="512fe-105">**Applies to:**</span></span>
-- [<span data-ttu-id="512fe-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="512fe-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="512fe-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="512fe-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="63b94-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="63b94-105">**Applies to:**</span></span>
+- [<span data-ttu-id="63b94-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="63b94-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="63b94-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="63b94-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="512fe-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="512fe-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="512fe-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="512fe-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> <span data-ttu-id="63b94-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="63b94-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="63b94-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="63b94-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-<span data-ttu-id="512fe-110">Hoewel u op elk moment een bedreigingsscan kunt starten met Microsoft Defender voor Eindpunt, kan uw bedrijf profiteren van geplande of getijdescans.</span><span class="sxs-lookup"><span data-stu-id="512fe-110">While you can start a threat scan at any time with Microsoft Defender for Endpoint, your enterprise might benefit from scheduled or timed scans.</span></span> <span data-ttu-id="512fe-111">U kunt bijvoorbeeld een scan plannen die aan het begin van elke werkdag of week wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="512fe-111">For example, you can schedule a scan to run at the beginning of every workday or week.</span></span> 
+<span data-ttu-id="63b94-110">Hoewel u op elk moment een bedreigingsscan kunt starten met Microsoft Defender voor Eindpunt, kan uw bedrijf profiteren van geplande of getijdescans.</span><span class="sxs-lookup"><span data-stu-id="63b94-110">While you can start a threat scan at any time with Microsoft Defender for Endpoint, your enterprise might benefit from scheduled or timed scans.</span></span> <span data-ttu-id="63b94-111">U kunt bijvoorbeeld een scan plannen die aan het begin van elke werkdag of week wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="63b94-111">For example, you can schedule a scan to run at the beginning of every workday or week.</span></span> 
 
-## <a name="schedule-a-scan-with-launchd"></a><span data-ttu-id="512fe-112">Een scan plannen met *de start*</span><span class="sxs-lookup"><span data-stu-id="512fe-112">Schedule a scan with *launchd*</span></span>
+## <a name="schedule-a-scan-with-launchd"></a><span data-ttu-id="63b94-112">Een scan plannen met *de start*</span><span class="sxs-lookup"><span data-stu-id="63b94-112">Schedule a scan with *launchd*</span></span>
 
-<span data-ttu-id="512fe-113">U kunt een scanschema maken met behulp van *de* daemon op een macOS-apparaat.</span><span class="sxs-lookup"><span data-stu-id="512fe-113">You can create a scanning schedule using the *launchd* daemon on a macOS device.</span></span>
+<span data-ttu-id="63b94-113">U kunt een scanschema maken met behulp van *de* daemon op een macOS-apparaat.</span><span class="sxs-lookup"><span data-stu-id="63b94-113">You can create a scanning schedule using the *launchd* daemon on a macOS device.</span></span>
 
-1. <span data-ttu-id="512fe-114">In de volgende code ziet u het schema dat u moet gebruiken om een scan te plannen.</span><span class="sxs-lookup"><span data-stu-id="512fe-114">The following code shows the schema you need to use to schedule a scan.</span></span> <span data-ttu-id="512fe-115">Open een teksteditor en gebruik dit voorbeeld als handleiding voor uw eigen geplande scanbestand.</span><span class="sxs-lookup"><span data-stu-id="512fe-115">Open a text editor and use this example as a guide for your own scheduled scan file.</span></span>
+1. <span data-ttu-id="63b94-114">In de volgende code ziet u het schema dat u moet gebruiken om een scan te plannen.</span><span class="sxs-lookup"><span data-stu-id="63b94-114">The following code shows the schema you need to use to schedule a scan.</span></span> <span data-ttu-id="63b94-115">Open een teksteditor en gebruik dit voorbeeld als handleiding voor uw eigen geplande scanbestand.</span><span class="sxs-lookup"><span data-stu-id="63b94-115">Open a text editor and use this example as a guide for your own scheduled scan file.</span></span>
 
-    <span data-ttu-id="512fe-116">Zie Info [Property List Files](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html) op de officiële apple developer website voor meer informatie over de bestandsindeling *.plist* die hier wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="512fe-116">For more information on the *.plist* file format used here, see [About Information Property List Files](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html) at the official Apple developer website.</span></span>
+    <span data-ttu-id="63b94-116">Zie Info [Property List Files](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html) op de officiële apple developer website voor meer informatie over de bestandsindeling *.plist* die hier wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="63b94-116">For more information on the *.plist* file format used here, see [About Information Property List Files](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html) at the official Apple developer website.</span></span>
 
     ```XML
     <?xml version="1.0" encoding="UTF-8"?>
@@ -78,30 +78,30 @@ ms.locfileid: "51689591"
     </plist>
      ```
 
-2. <span data-ttu-id="512fe-117">Sla het bestand op *als com.microsoft.wdav.schedquickscan.plist*.</span><span class="sxs-lookup"><span data-stu-id="512fe-117">Save the file as *com.microsoft.wdav.schedquickscan.plist*.</span></span>
+2. <span data-ttu-id="63b94-117">Sla het bestand op *als com.microsoft.wdav.schedquickscan.plist*.</span><span class="sxs-lookup"><span data-stu-id="63b94-117">Save the file as *com.microsoft.wdav.schedquickscan.plist*.</span></span>
 
     > [!TIP]
-    > <span data-ttu-id="512fe-118">Als u een volledige scan wilt uitvoeren in plaats van een snelle scan, wijzigt u regel 12, om de optie te gebruiken in plaats van (dat wil zeggen) en het bestand op te slaan als `<string>/usr/local/bin/mdatp scan quick</string>` `full` `quick` `<string>/usr/local/bin/mdatp scan full</string>` *com.microsoft.wdav.sched **full** scan.plist* in plaats van *com.microsoft.wdav.sched **quick** scan.plist*.</span><span class="sxs-lookup"><span data-stu-id="512fe-118">To run a full scan instead of a quick scan, change line 12, `<string>/usr/local/bin/mdatp scan quick</string>`, to use the `full` option instead of `quick` (i.e. `<string>/usr/local/bin/mdatp scan full</string>`) and save the file as *com.microsoft.wdav.sched **full** scan.plist* instead of *com.microsoft.wdav.sched **quick** scan.plist*.</span></span>
+    > <span data-ttu-id="63b94-118">Als u een volledige scan wilt uitvoeren in plaats van een snelle scan, wijzigt u regel 12, om de optie te gebruiken in plaats van (dat wil zeggen) en het bestand op te slaan als `<string>/usr/local/bin/mdatp scan quick</string>` `full` `quick` `<string>/usr/local/bin/mdatp scan full</string>` *com.microsoft.wdav.sched **full** scan.plist* in plaats van *com.microsoft.wdav.sched **quick** scan.plist*.</span><span class="sxs-lookup"><span data-stu-id="63b94-118">To run a full scan instead of a quick scan, change line 12, `<string>/usr/local/bin/mdatp scan quick</string>`, to use the `full` option instead of `quick` (i.e. `<string>/usr/local/bin/mdatp scan full</string>`) and save the file as *com.microsoft.wdav.sched **full** scan.plist* instead of *com.microsoft.wdav.sched **quick** scan.plist*.</span></span>
 
-3. <span data-ttu-id="512fe-119">Open **Terminal**.</span><span class="sxs-lookup"><span data-stu-id="512fe-119">Open **Terminal**.</span></span>
-4. <span data-ttu-id="512fe-120">Voer de volgende opdrachten in om het bestand te laden:</span><span class="sxs-lookup"><span data-stu-id="512fe-120">Enter the following commands to load your file:</span></span>
+3. <span data-ttu-id="63b94-119">Open **Terminal**.</span><span class="sxs-lookup"><span data-stu-id="63b94-119">Open **Terminal**.</span></span>
+4. <span data-ttu-id="63b94-120">Voer de volgende opdrachten in om het bestand te laden:</span><span class="sxs-lookup"><span data-stu-id="63b94-120">Enter the following commands to load your file:</span></span>
 
     ```bash
     launchctl load /Library/LaunchDaemons/<your file name.plist>
     launchctl start <your file name>
     ```
 
-5. <span data-ttu-id="512fe-121">De geplande scan wordt uitgevoerd op de datum, tijd en frequentie die u hebt gedefinieerd in uw p-lijst.</span><span class="sxs-lookup"><span data-stu-id="512fe-121">Your scheduled scan will run at the date, time, and frequency you defined in your p-list.</span></span> <span data-ttu-id="512fe-122">In het voorbeeld wordt de scan elke vrijdag om 02:00 uur uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="512fe-122">In the example, the scan runs at 2:00 AM every Friday.</span></span> 
+5. <span data-ttu-id="63b94-121">De geplande scan wordt uitgevoerd op de datum, tijd en frequentie die u hebt gedefinieerd in uw p-lijst.</span><span class="sxs-lookup"><span data-stu-id="63b94-121">Your scheduled scan will run at the date, time, and frequency you defined in your p-list.</span></span> <span data-ttu-id="63b94-122">In het voorbeeld wordt de scan elke vrijdag om 02:00 uur uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="63b94-122">In the example, the scan runs at 2:00 AM every Friday.</span></span> 
 
-    <span data-ttu-id="512fe-123">De `Weekday` waarde van gebruikt een geheel getal om de vijfde dag van de week of vrijdag aan te `StartCalendarInterval` geven.</span><span class="sxs-lookup"><span data-stu-id="512fe-123">The `Weekday` value of `StartCalendarInterval` uses an integer to indicate the fifth day of the week, or Friday.</span></span>
+    <span data-ttu-id="63b94-123">De `Weekday` waarde van gebruikt een geheel getal om de vijfde dag van de week of vrijdag aan te `StartCalendarInterval` geven.</span><span class="sxs-lookup"><span data-stu-id="63b94-123">The `Weekday` value of `StartCalendarInterval` uses an integer to indicate the fifth day of the week, or Friday.</span></span>
 
  > [!IMPORTANT]
- > <span data-ttu-id="512fe-124">Agenten die zijn *uitgevoerd met start,* worden niet uitgevoerd op de geplande tijd terwijl het apparaat in slaapstand staat.</span><span class="sxs-lookup"><span data-stu-id="512fe-124">Agents executed with *launchd* will not run at the scheduled time while the device is asleep.</span></span> <span data-ttu-id="512fe-125">Ze worden in plaats daarvan uitgevoerd zodra het apparaat wordt hervat vanuit de slaapstand.</span><span class="sxs-lookup"><span data-stu-id="512fe-125">They will instead run once the device resumes from sleep mode.</span></span>
+ > <span data-ttu-id="63b94-124">Agenten die zijn *uitgevoerd met start,* worden niet uitgevoerd op de geplande tijd terwijl het apparaat in slaapstand staat.</span><span class="sxs-lookup"><span data-stu-id="63b94-124">Agents executed with *launchd* will not run at the scheduled time while the device is asleep.</span></span> <span data-ttu-id="63b94-125">Ze worden in plaats daarvan uitgevoerd zodra het apparaat wordt hervat vanuit de slaapstand.</span><span class="sxs-lookup"><span data-stu-id="63b94-125">They will instead run once the device resumes from sleep mode.</span></span>
  >
- > <span data-ttu-id="512fe-126">Als het apparaat is uitgeschakeld, wordt de scan uitgevoerd op de volgende geplande scantijd.</span><span class="sxs-lookup"><span data-stu-id="512fe-126">If the device is turned off, the scan will run at the next scheduled scan time.</span></span>
+ > <span data-ttu-id="63b94-126">Als het apparaat is uitgeschakeld, wordt de scan uitgevoerd op de volgende geplande scantijd.</span><span class="sxs-lookup"><span data-stu-id="63b94-126">If the device is turned off, the scan will run at the next scheduled scan time.</span></span>
 
-## <a name="schedule-a-scan-with-intune"></a><span data-ttu-id="512fe-127">Een scan plannen met Intune</span><span class="sxs-lookup"><span data-stu-id="512fe-127">Schedule a scan with Intune</span></span>
+## <a name="schedule-a-scan-with-intune"></a><span data-ttu-id="63b94-127">Een scan plannen met Intune</span><span class="sxs-lookup"><span data-stu-id="63b94-127">Schedule a scan with Intune</span></span>
 
-<span data-ttu-id="512fe-128">U kunt ook scans plannen met Microsoft Intune.</span><span class="sxs-lookup"><span data-stu-id="512fe-128">You can also schedule scans with Microsoft Intune.</span></span> <span data-ttu-id="512fe-129">Het [runMDATPQuickScan.sh](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP#runmdatpquickscansh) script dat beschikbaar is bij [Scripts voor Microsoft Defender voor](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP) Eindpunt, blijft bestaan wanneer het apparaat wordt hervat vanuit de slaapstand.</span><span class="sxs-lookup"><span data-stu-id="512fe-129">The [runMDATPQuickScan.sh](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP#runmdatpquickscansh) shell script available at [Scripts for Microsoft Defender for Endpoint](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP) will persist when the device resumes from sleep mode.</span></span> 
+<span data-ttu-id="63b94-128">U kunt ook scans plannen met Microsoft Intune.</span><span class="sxs-lookup"><span data-stu-id="63b94-128">You can also schedule scans with Microsoft Intune.</span></span> <span data-ttu-id="63b94-129">Het [runMDATPQuickScan.sh](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP#runmdatpquickscansh) script dat beschikbaar is bij [Scripts voor Microsoft Defender voor](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP) Eindpunt, blijft bestaan wanneer het apparaat wordt hervat vanuit de slaapstand.</span><span class="sxs-lookup"><span data-stu-id="63b94-129">The [runMDATPQuickScan.sh](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP#runmdatpquickscansh) shell script available at [Scripts for Microsoft Defender for Endpoint](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP) will persist when the device resumes from sleep mode.</span></span> 
 
-<span data-ttu-id="512fe-130">Zie [Shell-scripts gebruiken op macOS-apparaten in Intune](https://docs.microsoft.com/mem/intune/apps/macos-shell-scripts) voor meer gedetailleerde instructies over het gebruik van dit script in uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="512fe-130">See [Use shell scripts on macOS devices in Intune](https://docs.microsoft.com/mem/intune/apps/macos-shell-scripts) for more detailed instructions on how to use this script in your enterprise.</span></span>
+<span data-ttu-id="63b94-130">Zie [Shell-scripts gebruiken op macOS-apparaten in Intune](https://docs.microsoft.com/mem/intune/apps/macos-shell-scripts) voor meer gedetailleerde instructies over het gebruik van dit script in uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="63b94-130">See [Use shell scripts on macOS devices in Intune](https://docs.microsoft.com/mem/intune/apps/macos-shell-scripts) for more detailed instructions on how to use this script in your enterprise.</span></span>
