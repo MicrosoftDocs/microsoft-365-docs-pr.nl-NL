@@ -21,21 +21,14 @@ search.appverid:
 - MET150
 description: Informatie over het tegelijkertijd toevoegen van gebruikers en het toewijzen van licenties aan Microsoft 365.
 ms.date: 07/01/2020
-ms.openlocfilehash: 3c752bd12c0aeb3806ad7d5d90373aad13730944
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a7c5fcf1a129a1d434b6e641688ce4c5d234817d
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906298"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760000"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Tegelijkertijd gebruikers toevoegen en licenties toewijzen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 De personen in uw team hebben elk een gebruikersaccount nodig voordat ze zich kunnen aanmelden en toegang hebben tot [Microsoft 365 voor Bedrijven](https://www.microsoft.com/microsoft-365/business). De eenvoudigste manier om gebruikersaccounts toe te voegen, is om ze één voor één toe te voegen in het Microsoft 365-beheercentrum. Nadat u deze stap hebt uitgevoerd, hebben uw gebruikers Microsoft 365-licenties, aanmeldingsreferenties en Microsoft 365-postvakken.
 
@@ -52,10 +45,25 @@ U moet een globale, licentie- of gebruikersbeheerder zijn om gebruikers toe te v
 
 ## <a name="add-users-one-at-a-time"></a>Gebruikers één voor één toevoegen
 
-::: moniker range="o365-worldwide"
+ ::: moniker range="o365-worldwide"
 
-1. Ga naar het beheercentrum via <https://admin.microsoft.com>.
-2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
+
+::: moniker-end 
+
+2. Ga naar **Gebruikers**  >  **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
 3. Vul de basisgegevens in het deelvenster **Basisinformatie instellen** in en selecteer vervolgens **Volgende**.
     - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in.
     - **Domein** Kies het domein voor het account van de gebruiker. Als de gebruikersnaam van de gebruiker bijvoorbeeld Wander is en zijn domein contoso.com, dan zal hij zich aanmelden met wander@contoso.com.
@@ -65,36 +73,6 @@ U moet een globale, licentie- of gebruikersbeheerder zijn om gebruikers toe te v
 4. Selecteer in het deelvenster **Productlicenties toewijzen** de locatie en de geschikte licentie voor de gebruiker. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen. Vouw **Apps** uit en selecteer of deselecteer apps om de apps te beperken waarvoor de gebruiker een licentie heeft. Selecteer **Volgende**.
 5. Vouw in het venster **Optionele instellingen** **Rollen** uit als u van deze gebruiker een beheerder wilt maken en vouw **Profielgegevens** uit als u extra informatie over de gebruiker wilt toevoegen.
 6. Selecteer **Volgende**, controleer de instellingen van de nieuwe gebruiker, breng de gewenste wijzigingen aan en selecteer vervolgens **Toevoegen voltooien** en **Sluiten**.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga naar het beheercentrum via <https://portal.office.de/adminportal>.
-2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
-3. Vul de volgende gegevens in het deelvenster **Nieuwe gebruikers** in. Selecteer **Toevoegen** wanneer u klaar bent.
-    - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in.
-    - **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld Wander is en zijn domein contoso.com, dan zal hij zich aanmelden met wander@contoso.com.
-    - **Contactgegevens** Vouw deze sectie uit om een mobiel telefoonnummer, adres, enzovoort in te vullen.
-    - **Wachtwoord** Gebruik het automatisch gegenereerde wachtwoord of vouw deze sectie uit om een sterk wachtwoord voor de gebruiker op te geven. Gebruikers moeten hun wachtwoord na 90 dagen wijzigen. U kunt ook de optie **Laat deze persoon zijn wachtwoord wijzigen bij de volgende aanmelding** inschakelen.
-    - **Rollen** Vouw deze sectie uit als u van deze gebruiker een beheerder wilt maken.
-    - **Productlicenties** Vouw deze sectie uit en selecteer de juiste licentie. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga naar het beheercentrum via <https://portal.partner.microsoftonline.cn>.
-2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
-3. Vul de volgende gegevens in het deelvenster **Nieuwe gebruikers** in. Selecteer **Toevoegen** wanneer u klaar bent.
-    - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in.
-    - **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld Wander is en zijn domein contoso.com, dan zal hij zich aanmelden met wander@contoso.com.
-    - **Contactgegevens** Vouw deze sectie uit om een mobiel telefoonnummer, adres, enzovoort in te vullen.
-    - **Wachtwoord** Gebruik het automatisch gegenereerde wachtwoord of vouw deze sectie uit om een sterk wachtwoord voor de gebruiker op te geven. Gebruikers moeten hun wachtwoord na 90 dagen wijzigen. U kunt ook de optie **Laat deze persoon zijn wachtwoord wijzigen bij de volgende aanmelding** inschakelen.
-    - **Rollen** Vouw deze sectie uit als u van deze gebruiker een beheerder wilt maken.
-    - **Productlicenties** Vouw deze sectie uit en selecteer de juiste licentie. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen.
-
-::: moniker-end
 
 ## <a name="add-multiple-users-at-the-same-time"></a>Verschillende gebruikers tegelijkertijd toevoegen
 

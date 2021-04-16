@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 193e7e634ecf8407816db10c820edcd241b94b12
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 4f3b2b54370e3481699a540dd8fd2acc30be7514
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760162"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768876"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen
 
@@ -302,8 +302,8 @@ Als de verificatie mislukt en uw omgeving een proxy gebruikt om verbinding te ma
 
 Als u problemen ondervindt tijdens het onboarden van een server, gaat u door de volgende verificatiestappen om mogelijke problemen op te lossen.
 
-- [Controleer of Microsoft Monitoring Agent (MMA) is geïnstalleerd en geconfigureerd voor het rapporteren van sensorgegevens aan de service](configure-server-endpoints.md#server-mma)
-- [Controleer of de serverproxy- en internetverbindingsinstellingen correct zijn geconfigureerd](configure-server-endpoints.md#server-proxy)
+- [Controleer of Microsoft Monitoring Agent (MMA) is geïnstalleerd en geconfigureerd voor het rapporteren van sensorgegevens aan de service](configure-server-endpoints.md)
+- [Controleer of de serverproxy- en internetverbindingsinstellingen correct zijn geconfigureerd](configure-server-endpoints.md)
 
 Mogelijk moet u het volgende controleren:
 
