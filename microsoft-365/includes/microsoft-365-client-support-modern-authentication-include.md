@@ -7,7 +7,6 @@
 |BEDRIJFSPORTAL|✔|✔|✔|N.v.t.|✔|
 |CORTANA|✔|✔|N.v.t.|N.v.t.|✔|
 |DELVE|✔|✔|N.v.t.|N.v.t.|N.v.t.|
-|EDGE|✔|✔|N.v.t.|✔|N.v.t.|
 |EXCEL|✔|✔|✔|✔|✔|
 |EXCHANGE-BEHEERDER|N.v.t.|N.v.t.|N.v.t.|✔|N.v.t.|
 |FORMULIEREN|N.v.t.|N.v.t.|N.v.t.|N.v.t.|N.v.t.|

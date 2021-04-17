@@ -6,7 +6,6 @@
 |BEDRIJFSPORTAL|Gepland|Gepland|Gepland|N.v.t.|Gepland|
 |CORTANA|N.v.t.|N.v.t.|N.v.t.|N.v.t.|Gepland|
 |DELVE|✔|✔|N.v.t.|N.v.t.|N.v.t.|
-|EDGE|Gepland|Gepland|N.v.t.|Gepland|N.v.t.|
 |EXCEL|✔|Gepland|Gepland|Gepland|N.v.t.|
 |EXCHANGE-BEHEERDER|N.v.t.|N.v.t.|N.v.t.|✔|N.v.t.|
 |FORMULIEREN|N.v.t.|N.v.t.|N.v.t.|N.v.t.|N.v.t.|

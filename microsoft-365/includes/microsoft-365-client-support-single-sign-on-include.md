@@ -5,7 +5,6 @@
 |BEDRIJFSPORTAL|N.v.t.|✔|Gepland|N.v.t.|✔|
 |CORTANA|N.v.t.|N.v.t.|N.v.t.|N.v.t.|✔|
 |DELVE|✔|✔|N.v.t.|N.v.t.|N.v.t.|
-|EDGE|✔|Gepland|N.v.t.|✔|N.v.t.|
 |EXCEL|✔|✔|✔|✔|✔|
 |KAIZALA|✔|Gepland|N.v.t.|N.v.t.|N.v.t.|
 |MICROSOFT-RUIMTEN|Gepland|Gepland|N.v.t.|N.v.t.|N.v.t.|
