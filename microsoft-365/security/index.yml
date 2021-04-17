@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Documentatie over Microsoft 365-beveiliging
-summary: Lees meer over de krachtige beveiligingsoplossingen en -services in Microsoft 365-beveiliging, zodat u uw onderneming beter kunt beveiligen op meerdere fronten.
+summary: In het Microsoft 365-beveiligingscentrum zijn meerdere beveiligingstechnologieën verenigd in één uitgebreide beheerdersconsole, met verbeteringen om uw onderneming te beschermen.
 metadata:
   title: Documentatie over Microsoft 365-beveiliging
   description: 'Lees meer over Microsoft Defender voor Eindpunt: hoe het eindpunten beschermt tegen cyberbedreigingen en beveiligingsteams levert met capaciteiten om bedreigingen te herstellen.'
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: c7ec3e0bb970d74d9e33c3d74eb0cd18aaf8d16c
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+  ms.openlocfilehash: a8d2e2c5ec41436bba7f013304daa8f259db9444
+  ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51200351"
+  ms.lasthandoff: 04/15/2021
+  ms.locfileid: "51768552"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
