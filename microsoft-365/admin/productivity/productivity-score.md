@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Overzicht van Microsoft productiviteitsscore.
-ms.openlocfilehash: d818bd766f76f3df6c67a740d6ad1994a2be66de
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0eac22eadd099ebe4c7efbdf1198f6dc576dc080
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914580"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876129"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 
@@ -155,3 +155,11 @@ Dit rapport helpt organisaties het volgende begrijpen:
 ## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
 Deel je ideeën over productiviteitsscore en je ideeën over hoe het verbeterd kan worden. Gebruik de **Feedback**-secties binnen het product en/of neem contact op met het productiviteitsscoreteam via productivityScorePreview@service.microsoft.com.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Microsoft 365-activiteit bijhouden met behulp van rapporten](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) (artikel)
+
+[Microsoft 365 Gebruiksanalyse inschakelen](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics) (artikel)
+
+[Overzicht van het Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) (video)
