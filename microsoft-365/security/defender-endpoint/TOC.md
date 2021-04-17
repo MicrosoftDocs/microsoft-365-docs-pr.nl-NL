@@ -140,6 +140,7 @@
 
 #### Problemen met Microsoft Defender Antivirus oplossen
 ##### [Problemen met Microsoft Defender Antivirus-rapportage oplossen in Naleving van updates](troubleshoot-reporting.md)
+##### [Prestatieproblemen oplossen](troubleshoot-performance-issues.md)
 ##### [Gebeurtenislogboeken en foutcodes bekijken voor het oplossen van problemen met Microsoft Defender Antivirus](troubleshoot-microsoft-defender-antivirus.md)
 ##### [Problemen met Microsoft Defender Antivirus oplossen die optreden tijdens migratie vanuit een externe oplossing](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
 
@@ -249,6 +250,7 @@
 ##### [Mogelijk ongewenste toepassingen detecteren en blokkeren](linux-pua.md)
 ##### [Scans plannen met Microsoft Defender voor Eindpunt op Linux](linux-schedule-scan-atp.md)
 ##### [Een update van Microsoft Defender voor Eindpunt (Linux) plannen](linux-update-MDE-Linux.md)
+##### [Defender voor eindpunt implementeren op Linux met Chef](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [Problemen oplossen]()
 ##### [Installatieproblemen oplossen](linux-support-install.md)
