@@ -208,7 +208,7 @@
             - name: Versies van OME vergelijken
               href: ome-version-comparison.md
             - name: Veelgestelde vragen over Office 365-berichtversleuteling
-              href: ome-faq.md
+              href: ome-faq.yml
             - name: Hoe Exchange Online uw e-mailgeheimen kan beveiligen
               href: exchange-online-secures-email-secrets.md
             - name: Hoe Exchange Online TLS gebruikt voor het beveiligen van e-mailverbindingen in Office 365
@@ -305,8 +305,10 @@
               href: dlp-sensitivity-label-as-condition.md
             - name: Beleid voor preventie van gegevensverlies gebruiken voor cloud-apps die niet van Microsoft afkomstig zijn
               href: dlp-use-policies-non-microsoft-cloud-apps.md
-            - name: DLP-beleidsvoorwaarden en -uitzonderingen (preview)
+            - name: DLP-beleidsvoorwaarden en -uitzonderingen
               href: dlp-conditions-and-exceptions.md
+            - name: Beleidstips voor preventie van gegevensverlies (DLP)
+              href: dlp-policy-tips-reference.md
 - name: Gegevensbeheer beheren
   items:
     - name: Uw gegevens beheren

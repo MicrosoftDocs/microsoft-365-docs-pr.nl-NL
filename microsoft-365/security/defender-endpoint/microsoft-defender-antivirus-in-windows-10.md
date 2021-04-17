@@ -1,25 +1,25 @@
 ---
 title: Beveiliging van de volgende generatie
-description: Meer informatie over het beheren, configureren en gebruiken van Microsoft Defender Antivirus, ingebouwde antimalware en antivirusbeveiliging.
-keywords: Microsoft Defender Antivirus, windows defender, antimalware, scep, system center endpoint protection, system center configuration manager, virus, malware, threat, detection, protection, security
+description: Informatie over het beheren, configureren en gebruiken van Microsoft Defender Antivirus, ingebouwde antimalware- en antivirusbeveiliging.
+keywords: Microsoft Defender Antivirus, Windows Defender, antimalware, scep, system center endpoint protection, system center configuration manager, virus, malware, bedreiging, detectie, beveiliging, bescherming
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: priority
+localization_priority: Priority
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: eb7e0253b3761d05d112500c0410fffa58548221
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 6fc6ad69df554cf20fbae0d97fcb30f211f48705
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765417"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768792"
 ---
 # <a name="next-generation-protection"></a>Beveiliging van de volgende generatie
 
@@ -29,34 +29,34 @@ ms.locfileid: "51765417"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-## <a name="microsoft-defender-antivirus-your-next-generation-protection"></a>Microsoft Defender Antivirus: bescherming van de volgende generatie
+## <a name="microsoft-defender-antivirus-your-next-generation-protection"></a>Microsoft Defender Antivirus: vernieuwde beveiliging
 
-Microsoft Defender Antivirus is het beveiligingsonderdeel van de volgende generatie van Microsoft Defender voor Eindpunt. Deze beveiliging brengt machine learning, analyse van grote gegevens, uitgebreid onderzoek naar bedreigingsresistentie en de Microsoft-cloudinfrastructuur samen om apparaten in uw organisatie te beschermen. Uw volgende generatie beveiligingsservices bevatten de volgende mogelijkheden:
+Microsoft Defender Antivirus is het nieuwe beveiligingsonderdeel van Microsoft Defender voor Eindpunt. Deze beveiliging brengt machine learning, big data-analyse, diepgaand onderzoek naar dreigingsweerstand en de Microsoft-cloudinfrastructuur samen om apparaten in uw organisatie te beschermen. De nieuwe beveiligingsservices bieden de volgende mogelijkheden:
 
-- [Behavior-based, heuristic, and real-time antivirus protection](configure-protection-features-microsoft-defender-antivirus.md), which includes always-on scanning using file and process behavior monitoring and other heuristics (ook wel *real-time protection* genoemd). Het omvat ook het detecteren en blokkeren van apps die als onveilig worden beschouwd, maar mogelijk niet worden gedetecteerd als malware.
-- [Beveiliging in de cloud,](cloud-protection-microsoft-defender-antivirus.md)waaronder near-instant detectie en blokkering van nieuwe en nieuwe bedreigingen.
-- [Speciale beveiliging en productupdates,](manage-updates-baselines-microsoft-defender-antivirus.md)waaronder updates met betrekking tot het up-to-date houden van Microsoft Defender Antivirus.
+- [Heuristische en realtime antivirusbeveiliging op basis gedrag](configure-protection-features-microsoft-defender-antivirus.md), inclusief continu scannen van bestanden en processen en andere heuristische analyses (ook wel *realtime bescherming*) genoemd. Dit omvat ook het opsporen en blokkeren van apps die onveilig worden geacht, maar mogelijk niet worden gedetecteerd als malware.
+- [Door de cloud geleverde bescherming](cloud-protection-microsoft-defender-antivirus.md), waaronder snelle detectie en blokkering van nieuwe dreigingen.
+- [Speciale beveiliging en productupdates](manage-updates-baselines-microsoft-defender-antivirus.md), waaronder updates om Microsoft Defender Antivirus up-to-date te houden.
 
-## <a name="try-a-demo"></a>Probeer een demo!
+## <a name="try-a-demo"></a>Probeer het uit!
 
-Ga naar [de demowebsite van Microsoft Defender voor Eindpunt](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) om te bevestigen dat de volgende beveiligingsfuncties werken en verken ze met behulp van demoscenario's:
-- Beveiliging in de cloud
-- Blokkering op het eerste gezicht (BAFS)-beveiliging
-- Potentieel ongewenste toepassingen (PUA)-beveiliging
+Ga naar de [demowebsite van Microsoft Defender voor Eindpunt](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) om te controleren of de volgende beveiligingsfuncties werken en verken ze via demoscenario's:
+- Cloudbeveiliging
+- Blokkeren op het eerste gezicht (BAFS)
+- Bescherming tegen potentieel ongewenste toepassingen (PUA)
 
 ## <a name="minimum-system-requirements"></a>Minimale systeemvereisten
 
-Microsoft Defender Antivirus heeft dezelfde hardwarevereisten als voor Windows 10. Zie de volgende hulpmiddelen voor meer informatie:
+Voor Microsoft Defender Antivirus gelden dezelfde hardwarevereisten als voor Windows 10. Voor meer informatie kunt u de volgende bronnen raadplegen:
 
 - [Minimale hardwarevereisten](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
 - [Richtlijnen voor hardwarecomponenten](/windows-hardware/design/component-guidelines/components)
 
-## <a name="configure-next-generation-protection-services"></a>Beveiligingsservices van de volgende generatie configureren
+## <a name="configure-next-generation-protection-services"></a>Configureren nieuwe beveiligingsservices
 
-Zie [Microsoft Defender Antivirus-functies configureren](configure-microsoft-defender-antivirus-features.md)voor informatie over het configureren van beveiligingsservices van de volgende generatie.
+Zie [Microsoft Defender Antivirusfuncties configureren](configure-microsoft-defender-antivirus-features.md) voor informatie over het configureren van de volgende generatie beveiligingsservices.
 
 > [!Note]  
-> Configuratie en beheer is grotendeels hetzelfde in Windows Server 2016 en Windows Server 2019, terwijl Microsoft Defender Antivirus wordt uitgevoerd. Er zijn echter enkele verschillen. Zie [Microsoft Defender Antivirus op Windows Server 2016 en 2019](microsoft-defender-antivirus-on-windows-server.md)voor meer informatie.
+> Als Microsoft Defender Antivirus wordt uitgevoerd zijn configuratie en beheer grotendeels hetzelfde in Windows Server 2016 en Windows Server 2019; er zijn echter wel enkele verschillen. Zie voor meer informatie [Microsoft Defender Antivirus op Windows Server 2016 en 2019](microsoft-defender-antivirus-on-windows-server.md).
 
 ## <a name="see-also"></a>Zie ook
 
