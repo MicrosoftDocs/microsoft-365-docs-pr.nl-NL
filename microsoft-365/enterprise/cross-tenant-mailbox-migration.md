@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f24f519ec3bb12622d74c1d02fbc0bb017aa2b24
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: d52a0ca4a2dc9b799a32f70962416ffe190e16db
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476407"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876185"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van postvakken tussen tenants (voorbeeld)
 
@@ -435,6 +435,10 @@ Zodra het postvak van bron naar doel wordt verplaatst, moet u ervoor zorgen dat 
 **Moeten we RemoteMailboxes on-premises bijwerken in de bron na de verhuizing?**
 
 Ja, u moet het targetAddress (RemoteRoutingAddress/ExternalEmailAddress) van de lokale brongebruikers bijwerken wanneer het brontenderpostvak wordt verplaatst naar doelten tenant.  Hoewel e-mailroutering de verwijzingen kan volgen voor meerdere e-mailgebruikers met verschillende doelAdressen, moeten vrije/bezet zoekactie voor e-mailgebruikers zich richten op de locatie van de postvakgebruiker. Bij vrije/bezet zoekactie worden niet meerdere omleidingen achtervolgd. 
+
+**Migreren Teams-vergaderingen cross-tenant?**  
+
+De vergaderingen worden verplaatst, maar de URL van de Teams-vergadering wordt niet bijgewerkt wanneer items cross-tenant migreren. Aangezien de URL ongeldig is in de doel tenant, moet u de Teams-vergaderingen verwijderen en opnieuw maken.
 
 **Wordt de inhoud van de Teams-chatmap gemigreerd tussen tenants?**  
 

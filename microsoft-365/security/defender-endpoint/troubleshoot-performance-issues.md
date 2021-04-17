@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 560eeb1e1099576f9f4babf02cc38eb842094fd1
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5175d630dd5d80b62451b3a1eafc4c2f6350ac32
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862416"
+ms.locfileid: "51876335"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>Problemen met prestaties met betrekking tot realtimebeveiliging oplossen
 
@@ -60,7 +60,7 @@ In **MPLog-xxxxxxxx-xxxxxx.log** vindt u de geschatte prestatie-impactinformatie
 
 | Veldnaam | Beschrijving |
 |---|---|
-|ProcessImageName   | Naam van afbeelding verwerken |
+|ProcessImageName | Naam van afbeelding verwerken |
 | TotalTime | De cumulatieve duur in milliseconden die zijn besteed aan scans van bestanden die door dit proces worden gebruikt |
 |Aantal | Het aantal gescande bestanden dat door dit proces wordt gebruikt |
 |MaxTime |  De duur in milliseconden in de langste scan van een bestand dat door dit proces wordt gebruikt |
@@ -69,13 +69,13 @@ In **MPLog-xxxxxxxx-xxxxxx.log** vindt u de geschatte prestatie-impactinformatie
 
 Als de prestatie-impact groot is, kunt u het proces toevoegen aan de uitsluitingen voor pad/proces door de stappen in Uitsluitingen configureren en valideren voor [Microsoft Defender Antivirusscans te volgen.](collect-diagnostic-data.md)
 
-Als het probleem niet is opgelost met de vorige [](#capture-process-logs-using-process-monitor) stap, kunt u meer informatie verzamelen via de procesmonitor of de [Windows Performance Recorder](#capture-performance-logs-using-windows-performance-recorder) in de volgende secties. 
+Als het probleem niet is opgelost met de vorige [](#capture-process-logs-using-process-monitor) stap, kunt u meer informatie verzamelen via de procesmonitor of de [Windows Performance Recorder](#capture-performance-logs-using-windows-performance-recorder) in de volgende secties.
      
 ## <a name="capture-process-logs-using-process-monitor"></a>Proceslogboeken vastleggen met behulp van procesmonitor
 
-Procesmonitor (ProcMon) is een geavanceerd monitoringprogramma waarmee realtime-processen kunnen worden gebruikt. U kunt dit gebruiken om het prestatieprobleem vast te leggen terwijl het zich voordoet. 
+Procesmonitor (ProcMon) is een geavanceerd monitoringprogramma waarmee realtime-processen kunnen worden gebruikt. U kunt dit gebruiken om het prestatieprobleem vast te leggen terwijl het zich voordoet.
 
-1. Download [Procesmonitor v3.60](/sysinternals/downloads/procmon) naar een map als `C:\temp` . 
+1. Download [Procesmonitor v3.60](/sysinternals/downloads/procmon) naar een map als `C:\temp` .
 
 2. Het webmerk van het bestand verwijderen:
     1. Klik met de **rechtermuisknopProcessMonitor.zip** en selecteer **Eigenschappen.**
@@ -188,7 +188,9 @@ U kunt ook het opdrachtregelprogramma *wpr.exegebruiken,* dat beschikbaar is in 
 6. Selecteer **Profielen toevoegen...** en blader naar het pad van het `WD.wprp` bestand.
 
 7. Daarna ziet u een nieuw profiel dat is ingesteld onder Aangepaste *afmetingen* met de naam *Microsoft Defender voor eindpuntanalyse* eronder.
+
     ![in-file](images/wpr-infile.png)
+
     >[!WARNING]
     >Als uw Windows Server 64 GB RAM-geheugen of meer heeft, gebruikt u de aangepaste maat `Microsoft Defender for Endpoint analysis for large servers` in plaats van `Microsoft Defender for Endpoint analysis` . Anders kan uw systeem een grote hoeveelheid niet-pagina's poolgeheugen of buffers verbruiken, wat kan leiden tot systeeminstabiliteit. U kunt kiezen welke profielen u wilt toevoegen door Resourceanalyse **uit te breiden.** Dit aangepaste profiel biedt de benodigde context voor een uitgebreide prestatieanalyse.
  
@@ -219,7 +221,7 @@ U kunt ook het opdrachtregelprogramma *wpr.exegebruiken,* dat beschikbaar is in 
     >[!TIP]
     >Houd de gegevensverzameling tot niet meer dan vijf minuten. Twee tot drie minuten is een goed bereik omdat er veel gegevens worden verzameld.
 
-12. Klik op **Opslaan**.
+12. Selecteer **Opslaan**.
 
     ![Opslaan selecteren](images/wpr-10.png)
 
@@ -227,8 +229,8 @@ U kunt ook het opdrachtregelprogramma *wpr.exegebruiken,* dat beschikbaar is in 
 
     ![Details opvullen](images/wpr-12.png)
 
-    1. Selecteer **Bestandsnaam:** om te bepalen waar het trace-bestand wordt opgeslagen. Standaard wordt de 1.is opgeslagen in `%user%\Documents\WPR Files\` . 
-    1. Klik op **Opslaan**. 
+    1. Selecteer **Bestandsnaam:** om te bepalen waar het trace-bestand wordt opgeslagen. Standaard wordt de 1.is opgeslagen in `%user%\Documents\WPR Files\` .
+    1. Selecteer **Opslaan**.
 
 14. Wacht totdat de trace wordt samengevoegd.
 

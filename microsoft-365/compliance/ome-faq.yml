@@ -1,0 +1,213 @@
+### YamlMime:FAQ
+metadata:
+  title: Veelgestelde vragen over berichtversleuteling
+  f1.keywords:
+  - NOCSH
+  ms.author: krowley
+  author: kccross
+  manager: laurawi
+  ms.date: 05/22/2020
+  audience: ITPro
+  ms.topic: overview
+  ms.service: O365-seccomp
+  localization_priority: Normal
+  search.appverid:
+  - MET150
+  ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
+  description: Hebt u een vraag over hoe de nieuwe mogelijkheden voor berichtbeveiliging werken? Controleer hier of er een antwoord is.
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 9a64866f7956e9b18b9e25c57431bf0855148ec8
+  ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 04/16/2021
+  ms.locfileid: "51876764"
+title: Veelgestelde vragen over berichtversleuteling
+summary: >
+  Hebt u een vraag over hoe de nieuwe mogelijkheden voor berichtbeveiliging werken? Controleer hier of er een antwoord is. Bekijk ook Veelgestelde vragen over gegevensbescherming [in Azure Information Protection](/information-protection/get-started/faqs-rms) voor antwoorden op vragen over de gegevensbeschermingsservice, Azure Rights Management, in Azure Information Protection.
+sections:
+- name: Genegeerd
+  questions:
+  - question: Wat is Office 365 Message Encryption (OME)?
+    answer: OME combineert de mogelijkheden voor e-mailversleuteling en rechtenbeheer. Mogelijkheden voor rechtenbeheer worden mogelijk gemaakt door Azure Information Protection.
+  - question: >
+      Wie kan OME gebruiken?
+    answer: "U kunt de nieuwe mogelijkheden voor OME onder de volgende voorwaarden gebruiken:\n  \n- Als u nog nooit OME of IRM hebt ingesteld voor Exchange Online in Office 365.\n\n- Als u OME en IRM hebt ingesteld, kunt u deze stappen gebruiken als u de Azure Rights Management-service van Azure Information Protection gebruikt.\n\n- Als u Exchange Online gebruikt met Ad RMS (Active Directory Rights Management service), kunt u deze nieuwe mogelijkheden niet direct inschakelen. In plaats daarvan moet u AD RMS eerst migreren [naar Azure Information Protection.](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) Wanneer u klaar bent met de migratie, kunt u OME instellen.\n\n  Als u ervoor kiest om on-premises AD RMS te blijven gebruiken met Exchange Online in plaats van te migreren naar Azure Information Protection, kunt u deze nieuwe mogelijkheden niet gebruiken.\n"
+  - question: >
+      Welke abonnementen heb ik nodig om de nieuwe OME-mogelijkheden te gebruiken?
+    answer: "Als u de nieuwe OME-mogelijkheden wilt gebruiken, hebt u een van de volgende abonnementen nodig:\n  \n- Office 365 Message Encryption wordt aangeboden als onderdeel van Office 365 Enterprise E3 en E5, Microsoft Enterprise E3 en E5, Microsoft 365 Business Premium, Office 365 A1, A3 en A5 en Office 365 Government G3 en G5. Klanten hebben geen extra licenties nodig om de nieuwe beveiligingsmogelijkheden te ontvangen die worden ondersteund door Azure Information Protection.\n\n- U kunt ook Azure Information Protection Plan 1 toevoegen aan de volgende abonnementen voor het ontvangen van de nieuwe mogelijkheden voor berichtversleuteling van Office 365: Exchange Online Plan 1, Exchange Online Plan 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard of Office 365 Enterprise E1.\n\n- Elke gebruiker die gebruik maakt van Office 365-berichtversleuteling, moet een licentie hebben om onder de functie te vallen.\n\n- Zie de servicebeschrijvingen van [Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) voor Office 365 Message Encryption voor de volledige lijst.\n"
+  - question: >
+      Kan ik Exchange Online gebruiken met uw eigen sleutel (BYOK) in Azure Information Protection?
+    answer: "Ja! Microsoft raadt u aan de stappen voor het instellen van BYOK uit te voeren voordat u OME in stelt.\n  \nZie Uw Azure Information [Protection tenantsleutel](/information-protection/plan-design/plan-implement-tenant-key)plannen en implementeren voor meer informatie over BYOK.\n  \n"
+  - question: >
+      Veranderen OME en BYOK met Azure Information Protection de aanpak van Microsoft voor gegevensaanvragen van derden, zoals dagvaarding?
+    answer: "Nee. OME en de optie voor het verstrekken en controleren van uw eigen versleutelingssleutels, byok genaamd, van Azure Information Protection, zijn niet ontworpen om te reageren op dagvaardingsverzoeken van de wet. OME, met BYOK voor Azure Information Protection, is ontworpen voor klanten met compliance-aandacht. Microsoft neemt verzoeken van derden voor klantgegevens serieus. Als cloudserviceprovider pleiten we altijd voor de privacy van klantgegevens. In het geval dat we een dagvaarding krijgen, proberen we altijd de derde partij om te leiden naar de klant om de informatie te verkrijgen. (Lees Brad Smith's blog: [Bescherm klantgegevens tegen overheidsinkijkers).](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) We publiceren regelmatig gedetailleerde informatie over de aanvraag die we ontvangen. Zie Reageren op verzoeken van de overheid en wetshandhavers om toegang te krijgen tot klantgegevens [in](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) het Microsoft Trust Center voor meer informatie over gegevensaanvragen van derden. Zie ook 'Openbaarmaking van klantgegevens' in de [Voorwaarden voor onlineservices (OST).](https://www.microsoft.com/Licensing/product-licensing/products.aspx)\n  \n"
+  - question: >
+      Hoe is deze functie gerelateerd aan oudere functies voor Office 365 Message Encryption (OME) en Information Rights Management (IRM) ?
+    answer: "De nieuwe mogelijkheden voor Office 365-berichtversleuteling zijn een evolutie van de bestaande IRM- en oudere OME-oplossingen. In de volgende tabel vindt u meer informatie.\n  \n**Vergelijking van oudere OME-, IRM- en nieuwe OME-mogelijkheden**\n\n| Mogelijkheid | Vorige versies van OME | IRM | Nieuwe OME-mogelijkheden |\n|:-----|:-----|:-----|:-----|\n|**Een versleutelde e-mail verzenden**|Alleen via Exchange-regels voor e-mailstroom|Eindgebruikers die zijn gestart vanuit Outlook voor Windows, Outlook voor Mac of de webversie van Outlook; of via Exchange-regels voor e-mailstroom|Eindgebruikers die zijn gestart vanuit Outlook voor Windows, Outlook voor Mac of de webversie van Outlook; of via e-mailstroomregels|\n|**Rechtenbeheer**|-|Optie Niet doorsturen en aangepaste sjablonen|Optie Niet doorsturen, optie alleen-versleutelen, standaard- en aangepaste sjablonen|\n|**Ondersteund type geadresseerde**|Alleen externe geadresseerden|Alleen interne geadresseerden|Interne en externe geadresseerden|\n|**Ervaring voor geadresseerde**|Externe geadresseerden hebben een HTML-bericht ontvangen dat ze hebben gedownload en geopend in een browser of een mobiele app hebben gedownload.|Interne geadresseerden hebben alleen versleutelde e-mail ontvangen in Outlook voor Windows, Outlook voor Mac en de webversie van Outlook.|Interne en externe geadresseerden ontvangen e-mail in Outlook voor Windows, Outlook voor Mac, de webversie van Outlook, Outlook voor Android en Outlook voor iOS, of via een webportal, ongeacht of ze zich in dezelfde organisatie of in een organisatie hebben. De OME-portal vereist geen afzonderlijke download.|\n|**Ondersteuning voor uw eigen sleutel**|Niet beschikbaar|Niet beschikbaar| BYOK ondersteund|\n"
+  - question: >
+      Hoe schakel ik de nieuwe OME-mogelijkheden voor mijn organisatie in?
+    answer: "Zie [Nieuwe office 365-berichtversleutelingsfuncties instellen.](set-up-new-message-encryption-capabilities.md)\n  \n"
+  - question: >
+      Wordt de vorige versie van OME afgeschaft?
+    answer: >
+      U kunt de vorige versie van OME nog steeds gebruiken, deze wordt op dit moment niet afgeschaft. We raden organisaties echter ten zeerste aan om de nieuwe en verbeterde OME-oplossing te gebruiken. Klanten die NOG GEEN OME hebben geïmplementeerd, kunnen geen nieuwe implementatie van de vorige versie van OME instellen.
+  - question: >
+      Mijn organisatie gebruikt Active Directory Rights Management, kan ik deze functionaliteit gebruiken?
+    answer: "Nee. Als u Exchange Online gebruikt met Ad RMS (Active Directory Rights Management service), kunt u deze nieuwe mogelijkheden niet direct inschakelen. In plaats daarvan moet u AD RMS eerst migreren [naar Azure Information Protection.](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)\n  \n"
+  - question: >
+      Mijn organisatie heeft een hybride implementatie van Exchange. Kan ik deze functie gebruiken?
+    answer: "On-premises gebruikers kunnen versleutelde e-mail verzenden met behulp van Exchange Online-regels voor e-mailstroom. Hiervoor moet u e-mail door exchange online sturen. Zie Deel [2: E-mail configureren](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)om van uw e-mailserver naar Microsoft 365 te gaan voor meer informatie.\n  \n"
+  - question: >
+      Welke e-mailclient moet ik gebruiken om een VERSLEUTELD OME-bericht te maken? Welke toepassingen worden ondersteund voor het verzenden van beveiligde berichten?
+    answer: "U kunt beveiligde berichten maken vanuit Outlook 2016, Outlook 2013 voor Windows en Mac en van de webversie van Outlook. Zie Versleutelde berichten verzenden, weergeven en beantwoorden in Outlook voor pc voor meer informatie over het verzenden [van versleutelde berichten.](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us)\n  \n"
+  - question: >
+      Welke e-mail clients worden ondersteund om beveiligde e-mailberichten te lezen en te beantwoorden?
+    answer: >
+      Microsoft 365-gebruikers kunnen lezen en reageren vanuit Outlook voor Windows en Mac (2013 en 2016), de webversie van Outlook en Outlook Mobile (Android en iOS). U kunt ook de oorspronkelijke e-mailclient van iOS gebruiken als uw organisatie dit toestaat. Als u geen Microsoft 365-gebruiker bent, kunt u versleutelde berichten op internet lezen en beantwoorden via uw webbrowser.
+  - question: >
+      Welke e-mail clients ondersteunen de versleutelde beveiligde e-mailberichten?
+    answer: >
+      Microsoft 365-gebruikers kunnen Outlook voor pc-versies 2019 en Microsoft 365 gebruiken om e-mail te maken die is beveiligd met het beleid voor alleen-versleutelen.  Dat betekent dat berichten waarin het nieuwe versleutelingsbeleid is toegepast, rechtstreeks kunnen worden gelezen in de webversie van Outlook, in Outlook voor iOS en Android, en nu in Outlook voor pc-versies 2019 en Microsoft 365.
+  - question: >
+      Is er een limiet voor de grootte van berichten die u met OME kunt verzenden?
+    answer: >
+      Ja. De maximale berichtgrootte die u met OME kunt verzenden, inclusief bijlagen, is 25 MB. Zie Berichtlimieten [voor meer informatie.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits-1)
+  - question: >
+      Welke bestandstypen worden ondersteund als bijlagen in beveiligde e-mailberichten? Nemen bijlagen het beveiligingsbeleid over dat is gekoppeld aan beveiligde e-mailberichten?
+    answer: "U kunt elk bestandstype toevoegen aan een beveiligde e-mail. Met één uitzondering: beveiligingsbeleid wordt alleen toegepast op de bestandsindelingen die worden vermeld in bestandstypen die worden ondersteund [door de Azure Information Protection-client.](/information-protection/rms-client/client-admin-guide-file-types) OME biedt geen ondersteuning voor de 97-2003-versies van de volgende Office-programma's: Word (.doc), Excel (.xls) en PowerPoint (.ppt).\n\nAls een bestandsindeling wordt ondersteund, zoals een Word-, Excel- of PowerPoint-bestand, is het bestand altijd beveiligd, zelfs nadat de bijlage is gedownload door de geadresseerde. Stel dat een bijlage is beveiligd door Niet doorsturen. De oorspronkelijke geadresseerde downloadt het bestand, maakt een bericht aan een nieuwe geadresseerde en koppelt het bestand. Wanneer de nieuwe geadresseerde het bestand ontvangt, kan de geadresseerde het beveiligde bestand niet openen.\n  \n"
+  - question: >
+      Worden PDF-bestandsbijlagen ondersteund?
+    answer: >
+      Het korte antwoord is ja! Als dit is ingeschakeld, kunt u met PDF-versleuteling gevoelige PDF-documenten beveiligen via veilige communicatie of veilige samenwerking. Wanneer u een e-mailbericht verzendt, worden pdf-bestandsbijlagen versleuteld met de Office 365-service. De Outlook-client versleutelt geen PDF-bestandsbijlagen.
+
+
+      Voor de webversie van Outlook, Outlook voor iOS en Outlook voor Android kunt u PDF-bestanden die u verzendt versleutelen zonder meer stappen. Deze clients ondersteunen inheems PDF-versleuteling.
+
+
+      Outlook-bureaublad biedt geen standaardondersteuning voor versleuteling van PDF-bestandsbijlagen. In plaats daarvan moet u Exchange-regels voor e-mailstroom of DLP instellen om eerst versleuteling toe te passen op PDF-bijlagen. Wanneer u e-mail verzendt vanuit Outlook Desktop met een PDF-bijlage, verzendt de client eerst het bericht met de bijlage naar de service. Wanneer de service het bestand ontvangt, past de service de OME-beveiliging toe van het DLP-beleid (Data Loss Prevention) of de e-mailstroomregel in Exchange Online. Vervolgens verzendt Exchange Online het bericht met de beveiligde PDF-bestandsbijlage.
+
+
+      Als u versleuteling voor PDF-bijlagen wilt inschakelen, voer u de volgende opdracht uit in [Exchange Online PowerShell:](/powershell/exchange/connect-to-exchange-online-powershell)
+
+
+      ```powershell
+
+      Set-IRMConfiguration -EnablePdfEncryption $true
+
+      ```
+
+
+      Met PDF-versleuteling kunt u gevoelige PDF-documenten beveiligen via veilige communicatie of veilige samenwerking. Voor alle Outlook-clients nemen berichten en niet-beveiligde PDF-bijlagen de OME-beveiliging over van het DLP-beleid (Data Loss Prevention) of de regel voor e-mailstroom in Exchange Online. Als een webgebruiker van Outlook een niet-beveiligd PDF-document bijsluit en de beveiliging op het bericht van toepassing is, neemt het bericht de beveiliging van het bericht over. Gebruikers kunnen de versleutelde bijlagen alleen openen in toepassingen die beveiligde PDF-bestanden ondersteunen (bijvoorbeeld de OME Portal en de Azure Information Protection Viewer).
+
+
+      > [!IMPORTANT]
+
+      > Outlook-bureaubladclient biedt geen ondersteuning voor PDF-versleuteling.
+  - question: >
+      Worden OneDrive voor Bedrijven-bijlagen ondersteund?
+    answer: >
+      Nog niet. OneDrive voor Bedrijven-bijlagen worden niet ondersteund en eindgebruikers kunnen geen e-mail versleutelen die een cloudbijlage van OneDrive voor Bedrijven bevat.
+  - question: >
+      Welke e-mail clients ondersteunen preview van versleutelde bijlagen in beveiligde e-mailberichten?
+    answer: "Wanneer bijlagen zijn beveiligd met een beveiligde e-mail, bieden Outlook-clients de mogelijkheid om het document rechtstreeks te bekijken. Outlook ondersteunt een voorbeeld van Office-documenten (docx, xlsx, pptx, doc, xls, ppt). De webversie van Outlook ondersteunt een voorbeeld van Office-documenten (docx, xlsx, pptx) en PDF.  \n"
+  - question: >
+      Welke e-mail clients ondersteunen het intrekken van beveiligde e-mailberichten?
+    answer: >
+      De webversie van Outlook ondersteunt het intrekken van beveiligde e-mail.  Zie [Een versleuteld bericht intrekken dat u hebt verzonden voor](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) meer informatie.
+  - question: >
+      Kan ik berichten automatisch versleutelen door beleid in te stellen?
+    answer: "Ja. Gebruik e-mailstroomregels in Exchange Online om een bericht automatisch te versleutelen op basis van bepaalde voorwaarden. U kunt bijvoorbeeld beleid maken op basis van de geadresseerde-id, het domein van de geadresseerde of op de inhoud in de tekst of het onderwerp van het bericht. Zie [Regels voor e-mailstroom definiëren om e-mailberichten te versleutelen in Office 365.](define-mail-flow-rules-to-encrypt-email.md)\n  \n"
+  - question: >
+      Kan ik versleuteling voor inkomende en uitgaande e-mail automatisch verwijderen?
+    answer: >
+      Beheerders kunnen een e-mailstroomregel instellen om versleuteling voor uitgaande e-mail te verwijderen. U kunt geen regel instellen om versleuteling voor inkomende e-mail te verwijderen.
+  - question: >
+      Kan ik berichten automatisch versleutelen door beleid in te stellen in Data Loss Prevention (DLP) via het Beveiligings &amp; compliancecentrum?
+    answer: >
+      Ja! U kunt e-mailstroomregels instellen in Exchange Online of met DLP in het Beveiligings &amp; compliancecentrum.
+  - question: >
+      Kan ik versleutelde berichten aanpassen met de huisstijl van mijn bedrijf?
+    answer: "Ja! Zie Het merk van uw organisatie toevoegen aan uw versleutelde berichten voor informatie over het aanpassen van e-mailberichten en de OME-portal. Zie [Het merk van uw organisatie toevoegen aan uw versleutelde berichten.](add-your-organization-brand-to-encrypted-messages.md)\n  \n"
+  - question: >
+      Zijn er rapportagemogelijkheden of inzichten voor versleutelde e-mailberichten?
+    answer: "Er is een versleutelingsrapport in het Beveiligings- en compliancecentrum. Zie [E-mailbeveiligingsrapporten weergeven in het Beveiligings- & Compliancecentrum](../security/office-365-security/view-email-security-reports.md).\n  \n"
+  - question: >
+      Kan ik berichtversleuteling gebruiken met compliancefuncties zoals eDiscovery?
+    answer: >
+      Ja. Alle versleutelde e-mailberichten kunnen worden ontdekt door nalevingsfuncties van Microsoft 365.
+  - question: >
+      Kan ik versleuteling uit e-mail verwijderen?
+    answer: >
+      Beheerders kunnen een e-mailstroomregel instellen om versleuteling te verwijderen. U kunt versleuteling niet verwijderen met behulp van een e-mailstroomregel uit e-mail die door een andere organisatie wordt toegepast, tenzij de e-mail wordt versleuteld met alleen-versleutelde beveiliging.
+  - question: >
+      Wordt gedelegeerde toegang ondersteund?
+    answer: >
+      Op dit moment niet.
+  - question: >
+      Kan ik verzenden als een gedeeld postvak en e-mailberichten versleutelen?
+    answer: >
+      Wanneer iemand een e-mailbericht verzendt dat overeenkomt met een versleutelingsregel voor e-mailstroom, wordt het bericht versleuteld voordat het wordt verzonden.
+  - question: >
+      Kan ik versleutelde berichten openen die naar een gedeeld postvak zijn verzonden?
+    answer: >
+      Ja! Versleutelde berichten worden ondersteund voor een gedeeld postvak.
+
+
+      - Gebruikers kunnen beveiligde e-mails openen in een gedeeld postvak waar het gedeelde postvak een beveiligde e-mail heeft ontvangen als onderdeel van een distributiegroep.
+
+
+      - Gebruikers kunnen bijlagen bekijken die bescherming van e-mail overnemen wanneer ze Outlook voor Windows, Outlook voor Mac en de webversie van Outlook gebruiken.
+
+
+      In de volgende tabel worden de ondersteunde clients voor gedeelde postvakken vermeld.
+
+
+      | Platform | E-mail lezen | E-mailbijlagen weergeven |
+
+      |----------|-----------|------------------------|
+
+      | De webversie van Outlook | Ja | Ja                |
+
+      | Outlook voor Windows| Ja | Ja                |
+
+      | Outlook voor Mac    | Ja | Ja                |
+
+      | Outlook voor Android| Ja | Nee                 |
+
+      | Outlook voor iOS    | Ja | Nee                 |
+
+      |
+
+
+      Er zijn momenteel twee bekende beperkingen:
+
+
+      - U kunt geen bijlagen openen voor e-mailberichten die u op mobiele apparaten ontvangt met Outlook Mobile.
+
+
+      - We bieden geen ondersteuning voor toewijzing via een beveiligingsgroep voor e-mail. We bieden alleen ondersteuning voor toegang die wordt geboden door directe gebruikerstoewijzing aan het gedeelde postvak en dat automatisch maken is ingeschakeld voor Exchange Online. Automapping is standaard ingeschakeld voor Exchange Online.
+
+
+      **Een gebruiker toewijzen aan het gedeelde postvak**
+
+
+      1. [Verbinding maken met Exchange Online met Externe PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?v=exchg.150).aspx).
+
+
+      2. Voer de Add-MailboxPermission cmdlet uit met de parameter Automapping. Dit voorbeeld geeft Ayla volledige toegangsmachtigingen voor een ondersteuningspostvak.
+
+         ```powershell
+         Add-MailboxPermission -Identity support@contoso.onmicrosoft.com -User ayla@contoso.com -AccessRights FullAccess -AutoMapping $true
+         ```
+  - question: >
+      Kan ik versleutelde berichten openen die met Fullaccess naar het postvak van een andere gebruiker zijn verzonden?
+    answer: >
+      Gebruikers kunnen versleutelde berichten openen zolang ze directe toegang krijgen en automatisch maken is ingeschakeld. Toegang is niet toegestaan als de toegang wordt verleend via een beveiligingsgroep met e-mail.
+  - question: >
+      Wat moet ik doen als ik de een time pass-code niet ontvang nadat ik deze heb aangevraagd?
+    answer: >-
+      Controleer eerst de map ongewenste e-mail of spam in uw e-mailclient. DKIM- en DMARC-instellingen voor uw organisatie kunnen ervoor zorgen dat deze e-mailberichten worden gefilterd als spam.
+
+
+      Controleer vervolgens de quarantaine in het Beveiligings- & Compliancecentrum. Vaak eindigen berichten met een een-tijdspascode, met name de eerste berichten die uw organisatie ontvangt, in quarantaine.
