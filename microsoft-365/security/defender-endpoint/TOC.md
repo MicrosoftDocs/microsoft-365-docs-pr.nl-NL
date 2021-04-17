@@ -222,6 +222,7 @@
 
 ### [Microsoft Defender voor Eindpunt op iOS]()
 #### [Overzicht van Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md)
+#### [Wat is er nieuw](ios-whatsnew.md)
 
 #### [Implementeren]()
 ##### [Microsoft Defender voor Eindpunt op iOS implementeren via Intune](ios-install.md)
@@ -631,4 +632,5 @@
 ##### [Regels voor het migreren naar kwetsbaarheid voor aanvallen verminderen](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
-# [Defender voor Office 365](../office-365-security/overview.md)
+# [Defender voor Office 365](../office-365-security/index.yml)
+# [Defender for Identity](https://docs.microsoft.com/defender-for-identity/)

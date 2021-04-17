@@ -18,12 +18,12 @@ description: Beheerders kunnen leren hoe ze het beleid voor geavanceerde bezorgi
 ms.technology: mdo
 ms.prod: m365-security
 ROBOTS: NOINDEX
-ms.openlocfilehash: 09e07d8406b470fd3dac25944d013b997f2f90c1
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9d737472be5da2af0a0a36beb4b7914b8bfe3a10
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760429"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876063"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>De bezorging van phishingsimulaties van derden configureren voor gebruikers en ongefilterde berichten in SecOps-postvakken
 
@@ -35,7 +35,7 @@ ms.locfileid: "51760429"
 > [!NOTE]
 > De functie die in dit artikel wordt beschreven, is in Preview, is niet voor iedereen beschikbaar en kan worden gewijzigd.
 
-We willen uw [](secure-by-default.md)organisatie standaard beveiligen, zodat eOP (Exchange Online Protection) geen veilige lijsten toestaat of bypassfilters filtert voor berichten die leiden tot malware of phishing met veel vertrouwen. We herkennen echter dat er specifieke scenario's zijn waarvoor niet-gefilterde berichten moeten worden bezorgd. Bijvoorbeeld:
+Als u [](secure-by-default.md)uw organisatie standaard wilt beveiligen, staat Exchange Online Protection (EOP) geen veilige lijsten toe of filtert u geen bypass voor berichten die leiden tot malware of phishing met veel vertrouwen. Er zijn echter specifieke scenario's waarvoor niet-gefilterde berichten moeten worden bezorgd. Bijvoorbeeld:
 
 - **Phishingsimulaties** van derden: Gesimuleerde aanvallen kunnen u helpen om kwetsbare gebruikers te identificeren voordat een echte aanval van invloed is op uw organisatie.
 - **Postvakken voor beveiligingsbewerkingen (SecOps)**: Speciale postvakken die door beveiligingsteams worden gebruikt om ongefilterde berichten te verzamelen en te analyseren (zowel goed als slecht).
@@ -47,8 +47,8 @@ U gebruikt het _geavanceerde bezorgingsbeleid_ in Microsoft 365 om te voorkomen 
 - [Standaardsysteemwaarschuwingen](alerts.md) worden niet geactiveerd voor deze scenario's.
 - [Air en clustering in Defender voor Office 365](office-365-air.md) negeren deze berichten.
 - Specifiek voor phishingsimulaties van derden:
-  - [Beheerdersinzendingen genereren](admin-submission.md) een automatisch antwoord waarin wordt aangegeven dat het bericht deel uitmaakt van een phishingsimulatiecampagne en geen echte bedreiging is. Waarschuwingen en AIR worden niet geactiveerd.
-  - [Met veilige koppelingen in Defender voor Office 365](safe-links.md) worden de specifiek geïdentificeerde URL's in deze berichten niet geblokkeerd of tot ontploffing gebracht.
+  - [Beheerdersinzendingen genereren](admin-submission.md) een automatisch antwoord met de melding dat het bericht deel uitmaakt van een phishingsimulatiecampagne en geen echte bedreiging is. Waarschuwingen en AIR worden niet geactiveerd.
+  - [Met Veilige koppelingen in Defender voor Office 365](safe-links.md) worden de specifiek geïdentificeerde URL's in deze berichten niet geblokkeerd of tot ontploffing gebracht.
   - [Met veilige bijlagen in Defender voor Office 365](safe-attachments.md) worden bijlagen in deze berichten niet afgebouwd.
 
 <sup>\*</sup> U kunt malwarefilters of ZAP voor malware niet omzeilen.
@@ -106,8 +106,8 @@ De secops-postvakinzendingen die u hebt geconfigureerd, worden weergegeven op he
 
 Naast de twee scenario's waar het geavanceerde bezorgingsbeleid u bij kan helpen, zijn er andere scenario's waarvoor het filteren mogelijk moet worden overgeslagen:
 
-- **Filters van derden:** Als de MX-record van het domein niet naar Office 365 wijst (berichten worden eerst ergens anders gerouteerd), [](secure-by-default.md) is beveiliging standaard niet beschikbaar.
+- **Filters van derden:** Als de MX-record van uw domein niet naar Office 365 [](secure-by-default.md) wijs (berichten worden eerst ergens anders gerouteerd), is beveiliging standaard *niet beschikbaar.* 
 
   Als u microsoft-filtering wilt omzeilen voor berichten die al zijn geëvalueerd door filtering van derden, gebruikt u regels voor e-mailstroom (ook wel transportregels genoemd), zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 
-- **False positives under review**: U wilt mogelijk bepaalde berichten die nog steeds door Microsoft worden geanalyseerd [via](admin-submission.md) beheerdersinzendingen tijdelijk toestaan om bekende goede berichten te melden die ten onrechte als slecht worden gemarkeerd voor Microsoft (false positives). Net als bij alle overschrijvingen wordt ten zeerste aanbevolen dat deze vergoedingen tijdelijk zijn.
+- **False positives under review**: U wilt mogelijk bepaalde berichten die nog steeds door Microsoft worden geanalyseerd [via](admin-submission.md) beheerdersinzendingen tijdelijk toestaan om bekende goede berichten te melden die ten onrechte als slecht worden gemarkeerd voor Microsoft (false positives). Net als bij alle overschrijvingen wordt het ten zeerste **_aangeraden_** om deze vergoedingen tijdelijk af te geven.

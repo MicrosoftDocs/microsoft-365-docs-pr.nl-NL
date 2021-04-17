@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8acd8d85826d7bda399c03cc60f2806af954c6c3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: cd571414512ce876e730199b21bf755e4c4b733f
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861601"
+ms.locfileid: "51876197"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -83,12 +83,12 @@ In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 
 ## <a name="incident-response-workflow"></a>Werkstroom voor incidentrespons
 
-Hier is de gebruikelijke werkstroom voor het reageren op incidenten:
+Dit is de gebruikelijke werkstroom voor het reageren op incidenten:
 
 1. Identificeer en triage de incidenten met de hoogste prioriteit voor onderzoek en oplossing.
 2. Voor elk incident met hoge prioriteit start u een [onderzoek:](investigate-incidents.md)
 
-   a. Bekijk de samenvatting van het incident om te begrijpen wat het bereik is, welke entiteiten worden beïnvloed en de ernst (het **tabblad** Overzicht).
+   a. Bekijk de samenvatting van het incident om te begrijpen wat het bereik en de ernst is en welke entiteiten worden beïnvloed (het **tabblad** Overzicht).
 
    b. Kijk eerst naar de waarschuwingen om de herkomst, het bereik en de ernst ervan te begrijpen (het **tabblad** Waarschuwingen).
 
@@ -98,17 +98,18 @@ Hier is de gebruikelijke werkstroom voor het reageren op incidenten:
    
    e. Gebruik zo nodig informatie in de gegevensset voor het incident voor meer informatie (het **tabblad Bewijs en** antwoord).
 
-Terwijl u onderzoek doet, moet u zich zorgen maken over:
+   Terwijl u onderzoek doet, moet u zich zorgen maken over:
 
-- Containment: Het verminderen van eventuele extra gevolgen voor uw tenant.
-- Verwijdering: het verwijderen van de beveiligingsrisico's.
-- Herstel: Herstel de tenantbronnen naar de status waarin ze zich vóór de aanval hadden.
+   - Containment: Het verminderen van eventuele extra gevolgen voor uw tenant.
+   - Verwijdering: het verwijderen van de beveiligingsrisico's.
+   - Herstel: Herstel de tenantbronnen naar de status waarin ze zich vóór de aanval hadden.
 
-Nadat u het incident hebt opgelost, neemt u even de tijd om er van te leren:
+3. Nadat u het incident hebt opgelost, neemt u de tijd om:
 
-- Inzicht in het type van de aanval en de impact ervan.
-- Onderzoek de aanval in de beveiligingsgemeenschap op een beveiligingsaanvaltrend.
-- De werkstroom inroepen die u hebt gebruikt om het incident op te lossen en uw standaardwerkstromen en -playbooks zo nodig bij te werken.
+   - Inzicht in het type van de aanval en de impact ervan.
+   - Onderzoek de aanval in de beveiligingsgemeenschap op een beveiligingsaanvaltrend.
+   - De werkstroom inroepen die u hebt gebruikt om het incident op te lossen en uw standaardwerkstromen en -playbooks zo nodig bij te werken.
+   - Bepaal of wijzigingen in uw beveiligingsstatus nodig zijn en neem de stappen om deze te implementeren.
 
 Hier volgt een overzicht van het basisproces.
 

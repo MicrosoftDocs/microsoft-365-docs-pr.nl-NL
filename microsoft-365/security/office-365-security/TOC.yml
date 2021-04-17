@@ -1,9 +1,11 @@
 - name: Office 365-beveiliging
-  href: overview.md
+  href: index.yml
   expanded: true
   items:
     - name: Overzicht
       items:
+        - name: Overzicht van Office 365-beveiliging
+          href: overview.md
         - name: Defender voor Office 365
           href: defender-for-office-365.md
         - name: Stapsgewijze bedreigingsbeveiliging in Defender voor Office 365
@@ -385,3 +387,5 @@
       href: ../index.yml
     - name: Microsoft Defender voor Eindpunt
       href: ../defender-endpoint/index.yml
+    - name: Microsoft Defender for Identity
+      href: 'https://docs.microsoft.com/defender-for-identity/'

@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 54b94e2d2cc0395ce7a9785887c253df3addf7fa
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 20294bf00c62e59da33b54ea0c8ee85f7b1372af
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688775"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51769020"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -120,7 +120,7 @@ Microsoft maakt onderscheid tussen twee verschillende typen adresvervalsingberic
 
   - `reason=000` betekent dat het bericht niet is geslaagd voor expliciete e-mailverificatie. `reason=001` betekent dat het bericht niet is geslaagd voor impliciete e-mailverificatie.
 
-  - SFTY geeft het beveiligingsniveau van het bericht. 9 geeft phishing aan, .22 geeft aan dat er sprake is van spoofing tussen domeinen.
+  - `SFTY` is het beveiligingsniveau van het bericht. 9 geeft phishing aan, .22 geeft aan dat er sprake is van spoofing tussen domeinen.
 
 > [!NOTE]
 > Als u een bericht hebt gekregen zoals ***compauth=fail reason=###** _ en u informatie wilt over samengestelde verificatie (compauth) en de waarden met betrekking tot spoofing, gaat u naar [_Anti-spamberichtkoppen in Microsoft 365*](anti-spam-message-headers.md). Of ga rechtstreeks naar de [*reden*](anti-spam-message-headers.md) codes.

@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d38d7a54aa860049e1968e5b92c801107bea0514
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 79f8882e21f23e75d85813cde03260ef17adf246
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687959"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876107"
 ---
-#  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender voor Eindpunt op Android - Privacygegevens
+#  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender voor Eindpunt op Android - Privacyinformatie
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -32,7 +32,9 @@ ms.locfileid: "51687959"
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-Defender voor Eindpunt voor Android verzamelt gegevens van uw geconfigureerde Android-apparaten en slaat deze op in dezelfde tenant waar u Defender voor Eindpunt hebt.
+Defender voor Eindpunt voor Android verzamelt gegevens van uw geconfigureerde Android-apparaten en slaat deze op in dezelfde tenant waar u Defender voor Eindpunt hebt. De gegevens worden verzameld om Defender voor Endpoint voor iOS veilig, up-to-date te houden, te presteren zoals verwacht en om de service te ondersteunen.
+
+Zie Microsoft Defender for [Endpoint data storage and privacy (Microsoft Defender for Endpoint data storage and privacy) voor meer informatie over gegevensopslag.](data-storage-privacy.md)
 
 Er worden gegevens verzameld om Defender voor Eindpunt voor Android veilig, up-to-date te houden, te presteren zoals verwacht en om de service te ondersteunen.
 
@@ -42,7 +44,7 @@ Vereiste gegevens bestaan uit gegevens die nodig zijn om Defender voor Eindpunt 
 
 ### <a name="app-information"></a>App-informatie
 
-Informatie over Android-toepassingspakketten (APK's) op het apparaat, waaronder
+Informatie over **kwaadaardige** Android-toepassingspakketten (APK's) op het apparaat, waaronder
 
 -  Installatiebron
 -  Opslaglocatie (bestandspad) van de APK
@@ -50,7 +52,7 @@ Informatie over Android-toepassingspakketten (APK's) op het apparaat, waaronder
 
 ### <a name="web-page--network-information"></a>Webpagina/netwerkgegevens
 
-- Volledige URL (in ondersteunde browsers), wanneer erop wordt geklikt
+- Volledige URL van de website alleen wanneer een schadelijke verbinding of webpagina wordt gedetecteerd.
 - Verbindingsgegevens
 - Protocoltype (zoals HTTP, HTTPS, enzovoort)
 
@@ -73,6 +75,9 @@ Informatie over Android-toepassingspakketten (APK's) op het apparaat, waaronder
     -   Gebruikersnaam : e-mail-id van de gebruiker
 
 ### <a name="product-and-service-usage-data"></a>Gegevens over product- en servicegebruik
+
+De volgende gegevens worden alleen verzameld voor de Microsoft Defender for Endpoint-app die op het apparaat is geïnstalleerd. 
+
 -   App-pakketgegevens, waaronder de status van de naam, versie en app-upgrade
 
 -   Acties uitgevoerd in de app
