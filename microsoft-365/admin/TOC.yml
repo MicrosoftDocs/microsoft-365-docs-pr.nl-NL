@@ -201,7 +201,7 @@
           href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: Veelgestelde vragen over domeinen
           href: setup/domains-faq.yml
-        - name: Hostspecifieke instructies
+        - name: DNS-instructies
           items:
             - name: Naamservers wijzigen bij een DNS-host
               href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
