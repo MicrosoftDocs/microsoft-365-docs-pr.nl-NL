@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: cd571414512ce876e730199b21bf755e4c4b733f
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 3b381749108d4a75024d9a546c0d3f1631c948ed
+ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876197"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51887255"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -102,7 +102,7 @@ Dit is de gebruikelijke werkstroom voor het reageren op incidenten:
 
    - Containment: Het verminderen van eventuele extra gevolgen voor uw tenant.
    - Verwijdering: het verwijderen van de beveiligingsrisico's.
-   - Herstel: Herstel de tenantbronnen naar de status waarin ze zich vóór de aanval hadden.
+   - Herstel: Herstel uw tenantbronnen in de status waarin ze zich vóór het incident hebben voordeden.
 
 3. Nadat u het incident hebt opgelost, neemt u de tijd om:
 

@@ -1,9 +1,9 @@
 ---
-title: Aanvullende eindpunten die niet zijn opgenomen in de Office 365 IP-adres- en URL-webservice
+title: Extra eindpunten die niet zijn opgenomen in de Office 365 IP-adres- en URL-webservice
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/29/2020
+ms.date: 04/19/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -24,14 +24,14 @@ search.appverid:
 ms.assetid: ''
 description: "Overzicht: De nieuwe eindpuntwebservice bevat geen klein aantal eindpunten voor specifieke scenario's."
 hideEdit: true
-ms.openlocfilehash: e9c9f28749691a8a2585c0865895718ea86d7141
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6c545b6060b44ebe234baaebd3ae1eb2fdb0fb89
+ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927004"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51887207"
 ---
-# <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Aanvullende eindpunten die niet zijn opgenomen in de Office 365 IP-adres- en URL-webservice
+# <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Extra eindpunten die niet zijn opgenomen in de Office 365 IP-adres- en URL-webservice
 
 Sommige netwerk-eindpunten zijn eerder gepubliceerd en zijn niet opgenomen in de [Office 365 IP-adres- en URL-webservice.](microsoft-365-ip-web-service.md) Het webservicebereik is netwerk-eindpunten die vereist zijn voor connectiviteit van een gebruiker van Office 365 via een bedrijfsperimeternetwerk. Dit geldt momenteel niet voor:
 
@@ -46,7 +46,7 @@ Afgezien van DNS zijn deze allemaal optioneel voor de meeste klanten, tenzij u h
 | Rij | Doel | Destination | Type |
 |:-----|:-----|:-----|:-----|
 | 1  | [Service importeren](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6) voor PST en bestandsingestie | Raadpleeg de [Importservice voor](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6) aanvullende vereisten. | Ongebruikelijk uitgaande scenario |
-| 2  | [Microsoft-ondersteunings- en herstelassistent voor Office 365](https://diagnostics.office.com/#/)  | https<span>://</span>autodiscover.outlook.com <BR> <span>https://</span>officecdn.microsoft.com <BR> <span>https://</span>api.diagnostics.office.com <BR> <span>https://</span>apibasic.diagnostics.office.com <BR> <span>https://</span>autodiscover-s.outlook.com <BR> <span>https://</span>cloudcheckenabler.azurewebsites.net <BR> <span>https://</span>dcs-staging.azure-api.net <BR> <span>https://</span>login.live.com <BR> <span>https://</span>login.microsoftonline.com <BR> <span>https://</span>login.windows.net <BR> <span>https://</span>o365diagtelemetry.trafficmanager.net <BR> <span>https://</span>odc.officeapps.live.com <BR> <span>https://</span>offcatedge.azureedge.net <BR> <span>https://</span>officeapps.live.com <BR> <span>https://</span>outlook.office365.com <BR> <span>https://</span>outlookdiagnostics.azureedge.net | Uitgaande serververkeer |
+| 2  | [Microsoft-ondersteunings- en herstelassistent voor Office 365](https://diagnostics.office.com/#/)  | https<span>://</span>autodiscover.outlook.com <BR> <span>https://</span>officecdn.microsoft.com <BR> <span>https://</span>api.diagnostics.office.com <BR> <span>https://</span>apibasic.diagnostics.office.com <BR> <span>https://</span>autodiscover-s.outlook.com <BR> <span>https://</span>cloudcheckenabler.azurewebsites.net <BR> <span>https://</span>login.live.com <BR> <span>https://</span>login.microsoftonline.com <BR> <span>https://</span>login.windows.net <BR> <span>https://</span>o365diagtelemetry.trafficmanager.net <BR> <span>https://</span>odc.officeapps.live.com <BR> <span>https://</span>offcatedge.azureedge.net <BR> <span>https://</span>officeapps.live.com <BR> <span>https://</span>outlook.office365.com <BR> <span>https://</span>outlookdiagnostics.azureedge.net | Uitgaande serververkeer |
 | 3  | Azure AD Connect (optie w/SSO) – WinRM & externe PowerShell | Klant STS-omgeving (AD FS Server en AD FS Proxy) \| TCP-poorten 80 & 443 | Binnenkomende serververkeer |
 | 4  | STS, zoals AD FS Proxy server(s) (alleen voor federatief ge federatiefe klanten) | Klant-STS-poorten (zoals AD FS-proxy) \| TCP 443 of TCP 49443 w/ClientTLS | Binnenkomende serververkeer |
 | 5  | [Integratie van Unified Messaging/SBC van Exchange Online](/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers) | Bidirectioneel tussen on-premises Session Border Controller en *.um.outlook.com | Alleen uitgaande serververkeer |
@@ -74,7 +74,7 @@ Afgezien van DNS zijn deze allemaal optioneel voor de meeste klanten, tenzij u h
 
 [Office 365-eindpunten beheren](managing-office-365-endpoints.md)
   
-[Microsoft 365-connectiviteit controleren](./monitor-connectivity.md?view=o365-worldwide)
+[Microsoft 365-connectiviteit controleren](./monitor-connectivity.md)
   
 [Clientconnectiviteit](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   
