@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: b477f302855cb5d4b00e0502bcfa9aa3aeb6b5c2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3550bec28945ab888efbe2ca46f12ca7f96aab4a
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165571"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892861"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>Onboarden Windows 10-updates met Configuration Manager
 
@@ -30,7 +30,7 @@ ms.locfileid: "51165571"
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 - Microsoft Endpoint Configuration Manager current branch
 - System Center 2012 R2 Configuration Manager
@@ -160,7 +160,7 @@ De volgende configuratie-instellingen worden aanbevolen:
 Voordat u netwerkbeveiliging in de audit- of blokmodus inschakelen, moet u ervoor zorgen dat u de antimalware-platformupdate hebt geïnstalleerd, die kan worden verkregen via de [ondersteuningspagina.](https://support.microsoft.com/en-us/help/4560203/windows-defender-anti-malware-platform-binaries-are-missing)
 
 
-**Gecontroleerde maptoegang**<br>
+**Beheerde maptoegang**<br>
 Schakel de functie in de auditmodus minimaal 30 dagen in. Na deze periode controleert u detecties en maakt u een lijst met toepassingen die mogen schrijven naar beveiligde directories.
 
 Zie Beheerde maptoegang evalueren voor meer [informatie.](evaluate-controlled-folder-access.md)
@@ -223,7 +223,7 @@ Als u System Center 2012 R2 Configuration Manager gebruikt, bestaat monitoring u
 
     ![Configuration Manager met een geslaagde implementatie zonder fouten](images/sccm-deployment.png)
 
-### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-atp-service"></a>Controleer of de apparaten compatibel zijn met de MICROSOFT Defender ATP-service
+### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-for-endpoint-service"></a>Controleer of de apparaten compatibel zijn met de Microsoft Defender for Endpoint-service
 
 U kunt een complianceregel instellen voor configuratie-item in System Center 2012 R2 Configuration Manager om de implementatie te controleren.
 
@@ -244,5 +244,5 @@ Zie Inleiding tot [compliance-instellingen in System Center 2012 R2 Configuratio
 - [Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](configure-endpoints-script.md)
 - [Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten](configure-endpoints-vdi.md)
-- [Een detectietest uitvoeren op een nieuw aan boord van Microsoft Defender ATP-apparaat](run-detection-test.md)
+- [Een detectietest uitvoeren op een nieuw ingebouwde Microsoft Defender voor eindpuntapparaat](run-detection-test.md)
 - [Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen](troubleshoot-onboarding.md)

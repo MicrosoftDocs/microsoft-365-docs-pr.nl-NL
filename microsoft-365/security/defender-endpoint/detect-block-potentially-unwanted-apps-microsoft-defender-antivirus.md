@@ -14,27 +14,24 @@ audience: ITPro
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 20d4767f9813b741c55109d617f78302feaa0f7e
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 8350db473580fd4d1728c3473742da5b63196c52
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765021"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893575"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications"></a>Potentieel ongewenste toepassingen detecteren en blokkeren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 - [Microsoft Edge](/microsoft-edge/deploy/microsoft-edge)
 
-> [!NOTE]
-> Potentieel ongewenste toepassingen (PUA) zijn een categorie software waarmee uw computer traag kan worden uitgevoerd, onverwachte advertenties kan weergeven of in het slechtste geval andere software kan installeren die onverwacht of ongewenst kan zijn. Standaard in Windows 10 (versie 2004 en hoger) blokkeert Microsoft Defender Antivirus apps die worden beschouwd als PUA, voor Enterprise-apparaten (E5).
-
-Potentieel ongewenste toepassingen (PUA) worden niet beschouwd als virussen, malware of andere soorten bedreigingen, maar ze kunnen acties uitvoeren op eindpunten die de prestaties of het gebruik van eindpunten nadelig beïnvloeden. _PUA_ kan ook verwijzen naar een toepassing met een slechte reputatie, zoals beoordeeld door Microsoft Defender voor Eindpunt, vanwege bepaalde soorten ongewenst gedrag.
+Potentieel ongewenste toepassingen (PUA) zijn een categorie software waarmee uw computer traag kan worden uitgevoerd, onverwachte advertenties kan weergeven of in het slechtste geval andere software kan installeren die onverwacht of ongewenst kan zijn. PUA wordt niet beschouwd als een virus, malware of ander type bedreiging, maar het kan acties uitvoeren op eindpunten die de prestaties of het gebruik van eindpunten nadelig beïnvloeden. De term *PUA kan* ook verwijzen naar een toepassing met een slechte reputatie, zoals beoordeeld door Microsoft Defender voor Eindpunt, vanwege bepaalde soorten ongewenst gedrag.
 
 Dit zijn enkele voorbeelden:
 
@@ -45,7 +42,7 @@ Dit zijn enkele voorbeelden:
 > [!TIP]
 > Zie Hoe Microsoft malware en potentieel ongewenste toepassingen identificeert voor meer voorbeelden en een bespreking van de criteria die we gebruiken om toepassingen te labelen voor speciale aandacht van [beveiligingsfuncties.](/windows/security/threat-protection/intelligence/criteria)
 
-Mogelijk ongewenste toepassingen kunnen het risico vergroten dat uw netwerk wordt geïnfecteerd met werkelijke malware, malware-infecties moeilijker te identificeren of IT-bronnen verspillen door ze op te ruimen. PUA-beveiliging wordt ondersteund in Windows 10, Windows Server 2019 en Windows Server 2016.
+Mogelijk ongewenste toepassingen kunnen het risico vergroten dat uw netwerk wordt geïnfecteerd met werkelijke malware, malware-infecties moeilijker te identificeren of IT-bronnen verspillen door ze op te ruimen. PUA-beveiliging wordt ondersteund in Windows 10, Windows Server 2019 en Windows Server 2016. In Windows 10 (versie 2004 en hoger) blokkeert Microsoft Defender Antivirus apps die standaard worden beschouwd als PUA voor Enterprise-apparaten (E5).
 
 ## <a name="microsoft-edge"></a>Microsoft Edge
 
@@ -55,8 +52,10 @@ De [nieuwe Microsoft Edge](https://support.microsoft.com/microsoft-edge/get-to-k
 
 Hoewel mogelijk ongewenste toepassingsbeveiliging in Microsoft Edge (op Chromium gebaseerde versie 80.0.361.50) standaard is uitgeschakeld, kan deze eenvoudig vanuit de browser worden ingeschakeld.
 
-1. Selecteer de drie puntjes en kies vervolgens **Instellingen.**
+1. Selecteer in de Edge-browser de drie puntjes en kies vervolgens **Instellingen.**
+
 2. Selecteer **Privacy, zoeken en services.**
+
 3. Schakel onder **de sectie** Beveiliging mogelijk ongewenste apps **blokkeren in.**
 
 > [!TIP]
@@ -68,7 +67,7 @@ In op Chromium gebaseerde Edge met PUA-beveiliging ingeschakeld, beschermt Micro
 
 Beveiligingsbeheerders kunnen [configureren hoe](/DeployEdge/configure-microsoft-edge) Microsoft Edge en Microsoft Defender SmartScreen samenwerken om groepen gebruikers te beschermen tegen URL's die aan PUA zijn gekoppeld. Er zijn verschillende [groepsbeleidsinstellingen](/DeployEdge/microsoft-edge-policies#smartscreen-settings) expliciet beschikbaar voor Microsoft Defender SmartScreen, waaronder een voor het blokkeren [van PUA.](/DeployEdge/microsoft-edge-policies#smartscreenpuaenabled) Daarnaast kunnen beheerders [Microsoft Defender SmartScreen](/microsoft-edge/deploy/available-policies?source=docs#configure-windows-defender-smartscreen) als geheel configureren met groepsbeleidsinstellingen om Microsoft Defender SmartScreen in of uit te schakelen.
 
-Hoewel Microsoft Defender voor Eindpunt een eigen blokkeringslijst heeft op basis van een gegevensset die door Microsoft wordt beheerd, kunt u deze lijst aanpassen op basis van uw eigen bedreigingsinformatie. Als u [indicatoren maakt en beheert](/microsoft-365/security/defender-endpoint/manage-indicators) in de Microsoft Defender voor Eindpunt-portal, respecteert Microsoft Defender SmartScreen de nieuwe instellingen.
+Hoewel Microsoft Defender voor Eindpunt een eigen blokkering heeft op basis van een gegevensset die door Microsoft wordt beheerd, kunt u deze lijst aanpassen op basis van uw eigen bedreigingsinformatie. Als u [indicatoren maakt en beheert](manage-indicators.md) in de Microsoft Defender voor Eindpunt-portal, respecteert Microsoft Defender SmartScreen de nieuwe instellingen.
 
 ## <a name="microsoft-defender-antivirus"></a>Microsoft Defender Antivirus
 
@@ -123,7 +122,7 @@ Voor System Center 2012 Configuration Manager, zie How to Deploy potentially Unw
 
 7. Selecteer **Ingeschakeld om** PUA-beveiliging in te stellen.
 
-8. Selecteer **in** Opties **Blokkeren om** mogelijk ongewenste toepassingen te blokkeren of selecteer **Auditmodus** om te testen hoe de instelling werkt in uw omgeving. Kies **OK**.
+8. Selecteer **in** Opties **Blokkeren om** mogelijk ongewenste toepassingen te blokkeren of selecteer **Auditmodus** om te testen hoe de instelling werkt in uw omgeving. Selecteer **OK**.
 
 9. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
 
@@ -135,7 +134,7 @@ Voor System Center 2012 Configuration Manager, zie How to Deploy potentially Unw
 Set-MpPreference -PUAProtection Enabled
 ```
 
-De waarde voor deze cmdlet instellen om de `Enabled` functie in te stellen als deze is uitgeschakeld.
+Als u de waarde voor deze cmdlet in wilt stellen, schakelt u de `Enabled` functie in als deze is uitgeschakeld.
 
 ##### <a name="to-set-pua-protection-to-audit-mode"></a>Pua-beveiliging instellen op auditmodus
 
@@ -153,7 +152,7 @@ We raden u aan om PUA-beveiliging ingeschakeld te houden. U kunt deze echter uit
 Set-MpPreference -PUAProtection Disabled
 ```
 
-Als u de waarde voor deze cmdlet wilt instellen, wordt de `Disabled` functie uitgeschakeld als deze is ingeschakeld.
+Als u de waarde voor deze cmdlet instelt, wordt de functie uitgeschakeld `Disabled` als deze is ingeschakeld.
 
 Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus- en [Defender-cmdlets](/powershell/module/defender/index) te configureren en uit te voeren voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus.
 
@@ -179,6 +178,17 @@ PSComputerName   :
 U kunt e-mailmeldingen in- en uit- of in- of uit- zetten om e-mail over PUA-detecties te ontvangen.
 
 Zie [Problemen met gebeurtenis-ID's oplossen](troubleshoot-microsoft-defender-antivirus.md) voor meer informatie over het bekijken van Microsoft Defender Antivirus-gebeurtenissen. PUA-gebeurtenissen worden opgenomen onder **gebeurtenis-id 1160**.
+
+Als u Microsoft Defender voor eindpunt gebruikt, kunt u een geavanceerde query voor het zoeken gebruiken om PUA-gebeurtenissen weer te geven. Hier is een voorbeeldquery:
+
+```console
+DeviceEvents
+| where ActionType == "AntivirusDetection"
+| extend x = parse_json(AdditionalFields)
+| evaluate bag_unpack(x)
+| where ThreatName startswith_cs 'PUA:'
+| project Timestamp, DeviceName, FolderPath, FileName, SHA256, ThreatName, WasExecutingWhileDetected, WasRemediated
+```
 
 ## <a name="excluding-files"></a>Bestanden uitsluiten
 

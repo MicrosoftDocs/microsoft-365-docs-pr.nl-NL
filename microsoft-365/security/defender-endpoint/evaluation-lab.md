@@ -17,19 +17,19 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ead616b7af3df05f4c0c5755ad779f0251555734
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2382281fbb975daa18ec21aabaf5acf8d3fbfb2f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059534"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893435"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Microsoft Defender voor endpoint-evaluatielaboratorium
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
@@ -74,10 +74,10 @@ U kunt het lab openen via het menu. Selecteer in het navigatiemenu **Evaluatie e
 ![Afbeelding van het evaluatielaboratorium in het menu](images/evaluation-lab-menu.png)
 
 >[!NOTE]
->- Elke omgeving is ingericht met een beperkt aantal testapparaten.
 >- Afhankelijk van het type omgevingsstructuur dat u selecteert, zijn apparaten beschikbaar voor het opgegeven aantal uren vanaf de dag van activering.
->- Wanneer u de inrichtende apparaten hebt gebruikt, worden er geen nieuwe apparaten geleverd. Een verwijderd apparaat vernieuwt het aantal beschikbare testapparaats niet.
->- Gezien de beperkte bronnen is het raadzaam om de apparaten zorgvuldig te gebruiken.
+>- Elke omgeving is ingericht met een beperkt aantal testapparaten. Wanneer u de inrichtende apparaten hebt gebruikt, worden er geen nieuwe apparaten geleverd. Een verwijderd apparaat vernieuwt het aantal beschikbare testapparaats niet.
+>- U kunt het lab niet meer gebruiken wanneer de resources zijn opgebruikt. Het wordt niet opnieuw ingesteld of vernieuwd.
+>- Het is raadzaam om de resources zorgvuldig te gebruiken. De labbronnen zijn beperkt. Ze worden niet opnieuw ingesteld of vernieuwd. 
 
 Hebt u al een lab? Zorg ervoor dat u de nieuwe bedreigingssimulatoren inschakelen en actieve apparaten hebt.
 
@@ -122,13 +122,13 @@ Het apparaat wordt automatisch onboarded bij uw tenant met de aanbevolen Windows
 
 De volgende beveiligingsonderdelen zijn vooraf geconfigureerd in de testapparaten:
 
-- [Surface-beperking voor aanvallen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
+- [Kwetsbaarheid voor aanvallen verminderen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
 - [Blok op het eerste gezicht](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
-- [Gecontroleerde maptoegang](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
-- [Beveiliging misbruiken](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
+- [Beheerde maptoegang](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
+- [Bescherming tegen misbruik](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
 - [Netwerkbeveiliging](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
 - [Potentieel ongewenste toepassingsdetectie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Beveiliging in de cloud](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
+- [Cloudbeveiliging](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
 - [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
 
 >[!NOTE]

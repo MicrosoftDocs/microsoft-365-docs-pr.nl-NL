@@ -14,12 +14,12 @@ ms.custom: nextgen
 ms.reviewer: tewchen, pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 131b9970572b1034ba5c9907a001f0497d450339
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 8e179135f12ad6f4ea765eaf975a40534446b51f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765441"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893387"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender Antiviruscompatibiliteit
 
@@ -60,7 +60,7 @@ In de volgende tabel wordt samengevat wat er gebeurt met Microsoft Defender Anti
 
 Als u Windows Server, versie 1803 of hoger of Windows Server 2019 gebruikt, kunt u Microsoft Defender Antivirus instellen op passieve modus door de volgende registersleutel in te stellen:
 - Pad: `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`
-- Naam: `ForcePassiveMode`
+- Naam: `ForceDefenderPassiveMode`
 - Typ: `REG_DWORD`
 - Waarde: `1`
 

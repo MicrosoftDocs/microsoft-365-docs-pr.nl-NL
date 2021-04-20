@@ -1,5 +1,5 @@
 ---
-title: Voorwaardelijke toegang configureren in MICROSOFT Defender ATP
+title: Voorwaardelijke toegang configureren in Microsoft Defender voor eindpunt
 description: Meer informatie over de stappen die u moet uitvoeren in Intune, Microsoft Defender Security Center en Azure voor het implementeren van voorwaardelijke toegang
 keywords: voorwaardelijke toegang, voorwaardelijke toegang, toegang, apparaatrisico, risiconiveau, integratie, intune-integratie
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0185d7875ac149909ef088d041383a1cf36a8a3a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 482f86d4a0a181b72a0a33eeb1a857dce0664584
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165859"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893647"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Voorwaardelijke toegang configureren in Microsoft Defender voor eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -76,7 +76,7 @@ Ga als volgt te werk om Voorwaardelijke toegang in te stellen:
 
 
 ### <a name="step-2-turn-on-the-defender-for-endpoint-integration-in-intune"></a>Stap 2: De integratie van Defender voor eindpunten in Intune in-
-1. Meld u aan bij de [Azure-portal.](https://portal.azure.com)
+1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 2. Selecteer **Apparaat compliance** Microsoft Defender  >  **ATP**.
 3. Stel **Windows 10.0.15063+-apparaten** verbinden met Microsoft Defender Advanced Threat Protection in op **Aan.**
 4. Klik op **Opslaan**.

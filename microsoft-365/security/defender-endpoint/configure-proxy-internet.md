@@ -1,6 +1,6 @@
 ---
 title: Apparaatproxy- en internetverbindingsinstellingen configureren
-description: Configureer de MICROSOFT Defender ATP-proxy en internetinstellingen om communicatie met de cloudservice in te stellen.
+description: Configureer de Microsoft Defender voor eindpuntproxy- en internetinstellingen om communicatie met de cloudservice in te stellen.
 keywords: configureren, proxy, internet, internetverbinding, instellingen, proxy-instellingen, netsh, winhttp, proxyserver
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 97d1d50e2557cbb760248738b1f096614873958f
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: ebfff7721bc61012811a66146079ac9758889594
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644702"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893599"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Instellingen voor apparaatproxy en internetverbinding configureren
 
@@ -178,7 +178,7 @@ Het eindpunt *.blob.core.windows.net URL kan worden vervangen door de URL's die 
 > [!NOTE]
 > In het geval van onboarding via Azure Security Center (ASC) worden mogelijk meerdere werkruimten gebruikt. U moet de bovenstaande TestCloudConnection.exe uitvoeren op een onboarded machine vanuit elke werkruimte (om te bepalen of er wijzigingen zijn in de *.blob.core.windows.net-URL's tussen de werkruimten).
 
-## <a name="verify-client-connectivity-to-microsoft-defender-atp-service-urls"></a>Clientconnectiviteit met ATP-service-URL's van Microsoft Defender verifiëren
+## <a name="verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls"></a>Clientconnectiviteit verifiëren met URL's van Microsoft Defender voor endpoint-service
 
 Controleer of de proxyconfiguratie is voltooid, of WinHTTP kan ontdekken en communiceren via de proxyserver in uw omgeving, en of de proxyserver verkeer toestaat naar de URL's van de Defender for Endpoint-service.
 

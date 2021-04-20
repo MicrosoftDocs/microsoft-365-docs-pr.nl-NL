@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dbc794338442f9ed54a7227e702de1039b5ea71c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 60efae91e4b65c5977bd2aebf111d9174d7c1042
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861741"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893551"
 ---
 # <a name="overview-of-attack-surface-reduction"></a>Overzicht van kwetsbaarheid voor aanvallen verminderen
 
@@ -45,11 +45,11 @@ Verminder uw aanvalsoppervlakken door de plaatsen waar uw organisatie kwetsbaar 
 Artikel | Beschrijving
 -|-
 [Kwetsbaarheid voor aanvallen verminderen](./attack-surface-reduction.md) | Verminder beveiligingslekken (aanvalsoppervlakken) in uw toepassingen met intelligente regels die malware helpen stoppen. (Hiervoor is Microsoft Defender Antivirus vereist).
-[Hardwaregebaseerde isolatie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview.md) | Bescherm en behoudt de integriteit van een systeem terwijl het wordt gestart en terwijl het wordt uitgevoerd. Systeemintegriteit valideren via lokale en externe bevestiging. En gebruik containerisolatie voor Microsoft Edge om te beschermen tegen schadelijke websites.
-[Toepassingsbeheer](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control.md) | Gebruik toepassingsbesturingselement zodat uw toepassingen vertrouwen moeten winnen om ze uit te voeren.
+[Hardwaregebaseerde isolatie](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) | Bescherm en behoudt de integriteit van een systeem terwijl het wordt gestart en terwijl het wordt uitgevoerd. Systeemintegriteit valideren via lokale en externe bevestiging. En gebruik containerisolatie voor Microsoft Edge om te beschermen tegen schadelijke websites.
+[Toepassingsbeheer](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) | Gebruik toepassingsbesturingselement zodat uw toepassingen vertrouwen moeten winnen om ze uit te voeren.
 [Bescherming tegen misbruik](./exploit-protection.md) | Besturingssystemen en apps die uw organisatie gebruikt, beschermen tegen misbruik. Exploitbeveiliging werkt ook met antivirusoplossingen van derden.
 [Netwerkbeveiliging](./network-protection.md) | De beveiliging uitbreiden naar uw netwerkverkeer en connectiviteit op de apparaten van uw organisatie. (Vereist Microsoft Defender Antivirus)
 [Webbeveiliging](./web-protection-overview.md) | Beveilig uw apparaten tegen webbedreigingen en help u ongewenste inhoud te reguleren.
 [Beheerde maptoegang](./controlled-folders.md) | Voorkomen dat schadelijke of verdachte apps (waaronder malware met bestandsversleuteling) wijzigingen aanbrengen in bestanden in uw belangrijkste systeemmappen (Microsoft Defender Antivirus vereist)
-[Netwerkfirewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security.md) | Voorkom dat ongeautoriseerd verkeer van of naar de apparaten van uw organisatie stroomt met filters voor netwerkverkeer in twee richting.
+[Netwerkfirewall](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) | Voorkom dat ongeautoriseerd verkeer van of naar de apparaten van uw organisatie stroomt met filters voor netwerkverkeer in twee richting.
 [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](./attack-surface-reduction-faq.md) | Veelgestelde vragen over attack surface reduction rules, licensing, and more.

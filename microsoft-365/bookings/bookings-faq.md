@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Veelgestelde vragen over Microsoft Bookings.
-ms.openlocfilehash: d357ae83d7fe6fdd9f3d0bff724b037e82a3f5d0
-ms.sourcegitcommit: 1df94f04f138ccf1a2356d26174335c44de7052b
+ms.openlocfilehash: 5338d710fa58ff9eba88b068f4fb412cecb83ae1
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999527"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892915"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft Bookings
 
@@ -118,7 +118,7 @@ Bookings is een ideale oplossing voor zowel zakelijke als kleine zakelijke klant
 
 ### <a name="how-do-i-get-microsoft-bookings"></a>Hoe kan ik Microsoft Bookings krijgen?
 
-Bookings is beschikbaar in Microsoft 365 voor klanten met Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 en E5-licenties, samen met een iOS- en Android-companion-app. Bookings is niet beschikbaar als zelfstandige app. Outlook Web App of de webversie van Outlook moet zijn ingeschakeld voor het gebruik van Bookings, omdat gegevens in Outlook worden opgeslagen.
+Bookings is beschikbaar voor klanten met Office 365 A3, A5, E3 en E5, evenals Microsoft 365 Business Standard, Microsoft 365 Business Premium, A3, A5, E3 en E5. U kunt Bookings gebruiken met een companion-app voor iOS en Android. Bookings is niet beschikbaar als zelfstandige app. Outlook Web App of de webversie van Outlook moet zijn ingeschakeld voor het gebruik van Bookings, omdat gegevens in Outlook worden opgeslagen.
 
 Een Bookings-licentie biedt volledige functionaliteit voor het product, waaronder het maken en beheren van agenda's. Hiermee kunnen gebruikers ook bestaande agenda's weergeven en bewerken, wanneer deze gebruikers worden toegevoegd als personeel in een rol beheerder of viewer.
 

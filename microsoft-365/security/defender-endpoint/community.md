@@ -1,6 +1,6 @@
 ---
-title: Toegang tot het Microsoft Defender for Endpoint Community Center
-description: Toegang tot het Microsoft Defender ATP-communitycentrum om ervaringen te delen, deel te nemen en meer te weten te komen over het product.
+title: Toegang tot het Microsoft Defender voor Eindpunt Community Center
+description: Toegang tot het Microsoft Defender for Endpoint Community Center om ervaringen te delen, deel te nemen en meer te weten te komen over het product.
 keywords: community, communitycentrum, tech community, gesprek, aankondigingen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 71dc2a004f188eac34258afb2200cfd4e67f47ab
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ef1076fb5b8bfc38090374671998460190faaba9
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165235"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893423"
 ---
-# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>Toegang tot het Microsoft Defender for Endpoint Community Center
+# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>Toegang tot het Microsoft Defender voor Eindpunt Community Center
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)

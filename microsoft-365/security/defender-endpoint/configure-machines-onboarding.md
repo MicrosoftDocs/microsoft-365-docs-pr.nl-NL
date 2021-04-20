@@ -1,6 +1,6 @@
 ---
-title: Apparaten in gebruik nemen bij Microsoft Defender ATP
-description: Houd onboarding bij van door Intune beheerde apparaten naar Microsoft Defender ATP en verhoog de onboardingsnelheid.
+title: Apparaten in gebruik nemen bij Microsoft Defender voor Eindpunt
+description: Houd onboarding bij van door Intune beheerde apparaten naar Microsoft Defender voor Eindpunt en verhoog de onboardingsnelheid.
 keywords: onboard, Intune management, MDATP, WDATP, Microsoft Defender, Windows Defender, advanced threat protection, configuration management
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6145acd5e8e2743ff42dce3cf01af0128e8ca225
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5e20c424f15561c8b6f0544b80aca6e30c56409d
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166087"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893327"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>Apparaten in gebruik nemen bij Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
@@ -74,6 +74,6 @@ Lees voor meer informatie [over het gebruik van intune-apparaatconfiguratieprofi
 >Wilt u Microsoft Defender ATP ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Controleer of uw apparaten correct zijn geconfigureerd](configure-machines.md)
+- [Controleren of uw apparaten juist zijn geconfigureerd](configure-machines.md)
 - [Naleving van de beveiligingslijn defender voor eindpunt verhogen](configure-machines-security-baseline.md)
 - [Asr-regelimplementatie en -detecties optimaliseren](configure-machines-asr.md)

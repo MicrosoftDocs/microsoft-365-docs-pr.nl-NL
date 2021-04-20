@@ -1,6 +1,6 @@
 ---
 title: Onboard non-Windows devices to the Microsoft Defender for Endpoint service
-description: Configureer niet-Windows-apparaten, zodat ze sensorgegevens kunnen verzenden naar de MICROSOFT Defender ATP-service.
+description: Configureer niet-Windows-apparaten, zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender for Endpoint-service.
 keywords: onboard non-Windows devices, macos, linux, device management, configure Windows ATP devices, configure Microsoft Defender for Endpoint devices
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71f230f557792d75659dc4dbfc5911811514d5ea
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: c78779cd4a8a329864b6ac7e0debfc30ca0b3a56
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687875"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893587"
 ---
 # <a name="onboard-non-windows-devices"></a>Onboarden niet-Windows-apparaten
 
@@ -48,7 +48,7 @@ U moet de exacte Linux-distributies en macOS-versies kennen die compatibel zijn 
 U moet de volgende stappen ondernemen om niet-Windows-apparaten aan te sluiten:
 1. Selecteer uw voorkeursmethode voor onboarding:
 
-   - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender ATP of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt voor Mac voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
+   - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender voor Eindpunt of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt voor Mac voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
    - Voor andere niet-Windows-apparaten kiest u **Onboard non-Windows-apparaten via integratie van derden.**   
     1. Selecteer in het navigatiedeelvenster **Interoperabiliteitspartners.**  >   Zorg ervoor dat de oplossing van derden wordt vermeld.
@@ -64,7 +64,7 @@ U moet de volgende stappen ondernemen om niet-Windows-apparaten aan te sluiten:
 1. Volg de documentatie van derden om de externe oplossing los te koppelen van Microsoft Defender voor Eindpunt.
 
 2. Verwijder machtigingen voor de oplossing van derden in uw Azure AD-tenant.
-   1. Meld u aan bij de [Azure-portal.](https://portal.azure.com)
+   1. Meld u aan bij [Azure Portal](https://portal.azure.com).
    2. Selecteer **Azure Active Directory > Enterprise Applications**.
    3. Selecteer de toepassing die u wilt offboarden.
    4. Selecteer de **knop** Verwijderen.

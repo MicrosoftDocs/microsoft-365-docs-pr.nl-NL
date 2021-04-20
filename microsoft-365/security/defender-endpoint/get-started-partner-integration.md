@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender voor Eindpunt-partner worden
+title: Een Microsoft Defender voor Eindpunt-partner worden
 ms.reviewer: ''
-description: Meer informatie over de stappen en vereisten voor het integreren van uw oplossing met Microsoft Defender ATP en partner zijn
+description: Meer informatie over de stappen en vereisten voor het integreren van uw oplossing met Microsoft Defender voor Eindpunt en partner zijn
 keywords: partner, integratie, oplossingsvalidatie, certificering, vereisten, lid, misa, toepassingsportal
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: ea7ebe1656c0173395df158b8f934ab388bea4ba
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35ba1fe85fa9b62770142636d46303b37534b976
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058353"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893315"
 ---
-# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>Microsoft Defender voor Eindpunt-partner worden
+# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>Een Microsoft Defender voor Eindpunt-partner worden
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -58,7 +58,7 @@ Als u wilt dat uw bedrijf als partner wordt vermeld op de pagina in-productpartn
 5.  Als u een Azure AD-benadering met meerdere tenants gebruikt, hebben we de naam van de Azure AD-toepassing nodig om het gebruik van de toepassing bij te houden.
 6. Neem het User-Agent veld op in elke API-oproep die wordt gedaan naar openbare API's of Graph-beveiligings-API's van Microsoft Defender voor Eindpunt. Dit wordt gebruikt voor statistische doeleinden, probleemoplossing en partnerherkenning. Bovendien is deze stap een vereiste voor lidmaatschap van Microsoft Intelligent Security Association (MISA).
 
-    Ga als volgt te werk:
+    Volg deze stappen:
     
     - Stel het User-Agent veld in elke HTTP-aanvraagkoptekst in op de onderstaande indeling.
 
@@ -71,4 +71,4 @@ Als u wilt dat uw bedrijf als partner wordt vermeld op de pagina in-productpartn
 Samenwerking met Microsoft Defender voor Eindpunt helpt onze gemeenschappelijke klanten om de verdediging verder te stroomlijnen, te integreren en te versterken. We zijn blij dat u ervoor hebt gekozen om een Microsoft Defender for Endpoint-partner te worden en om ons gemeenschappelijke doel van het effectief beschermen van klanten en hun assets te bereiken door samen moderne bedreigingen te voorkomen en erop te reageren.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Technische partnerkansen](partner-integration.md)
+- [Mogelijkheden voor technische partners](partner-integration.md)

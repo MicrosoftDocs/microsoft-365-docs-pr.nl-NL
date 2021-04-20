@@ -17,19 +17,19 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/06/2020
 ms.technology: mde
-ms.openlocfilehash: a24dc4ef23d32b19de9d2871b7d87aae90d05828
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3a26951a796d72237f992e520e1b793654e467e3
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059110"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893399"
 ---
 # <a name="fix-unhealthy-sensors-in-microsoft-defender-for-endpoint"></a>Ongezonde sensoren in Microsoft Defender voor eindpunt oplossen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 - Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-fixsensor-abovefoldlink)
@@ -55,7 +55,7 @@ Als het apparaat om welke reden dan ook geen signalen meer dan zeven dagen naar 
 
 Verwacht u dat een apparaat de status 'Actief' heeft? [Open een ondersteuningsticket](https://support.microsoft.com/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16055&ccsid=636206786382823561).
 
-## <a name="misconfigured-devices"></a>Verkeerd geconfigureerde apparaten
+## <a name="misconfigured-devices"></a>Onjuist geconfigureerde apparaten
 Verkeerd geconfigureerde apparaten kunnen verder worden geclassificeerd als:
 - Communicatie met verminderde werking
 - Geen sensorgegevens
@@ -68,7 +68,7 @@ De volgende voorgestelde acties kunnen helpen bij het oplossen van problemen met
 - [Controleer of het apparaat een internetverbinding heeft](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
   Voor de Windows Defender ATP-sensor is Microsoft Windows HTTP (WinHTTP) vereist om sensorgegevens te rapporteren en te communiceren met de Microsoft Defender for Endpoint-service.
 
-- [Clientconnectiviteit verifiëren met URL's van Microsoft Defender voor endpoint-service](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)</br>
+- [Clientconnectiviteit verifiëren met URL's van Microsoft Defender voor endpoint-service](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Controleer of de proxyconfiguratie is voltooid, of WinHTTP kan ontdekken en communiceren via de proxyserver in uw omgeving, en of de proxyserver verkeer toestaat naar de URL's van de Microsoft Defender-service voor eindpunten.
 
 Als u corrigerende acties hebt ondernomen en de apparaatstatus nog steeds niet is geconfigureerd, [opent u een ondersteuningsticket](https://go.microsoft.com/fwlink/?LinkID=761093&clcid=0x409).
@@ -80,7 +80,7 @@ Volg theses actions to correct known issues related to a misconfigured device wi
 - [Controleer of het apparaat een internetverbinding heeft](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
   Voor de Windows Defender ATP-sensor is Microsoft Windows HTTP (WinHTTP) vereist om sensorgegevens te rapporteren en te communiceren met de Microsoft Defender for Endpoint-service.
 
-- [Clientconnectiviteit verifiëren met URL's van Microsoft Defender voor endpoint-service](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)</br>
+- [Clientconnectiviteit verifiëren met URL's van Microsoft Defender voor endpoint-service](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Controleer of de proxyconfiguratie is voltooid, of WinHTTP kan ontdekken en communiceren via de proxyserver in uw omgeving, en of de proxyserver verkeer toestaat naar de URL's van de Microsoft Defender-service voor eindpunten.
 
 - [Controleren of de diagnostische gegevensservice is ingeschakeld](troubleshoot-onboarding.md#ensure-the-diagnostics-service-is-enabled)</br>

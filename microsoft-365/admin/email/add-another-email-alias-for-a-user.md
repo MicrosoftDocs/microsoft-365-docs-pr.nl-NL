@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Lees hoe u meerdere e-mailadressen, de zogenaamde e-mailalias, kunt toevoegen aan uw Microsoft 365 voor Bedrijven-account. '
-ms.openlocfilehash: a44271cdbf52136e61702697a960cc3cbcd8119d
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 4003dcfca29a722ccdf9b86cca5aa1141fbdb367
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470999"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892803"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Een ander e-mailalias toevoegen voor een gebruiker
   
@@ -75,7 +75,7 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar het primaire adres van Eliza Hoffman wordt verzonden, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, gaat bijvoorbeeld naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is *het Van-adres*  haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
+7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van de Outlook-client. De webversie van Outlook gebruikt de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook Desktop gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt via de bureaubladversie van Outlook, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
     
 ::: moniker-end
 
@@ -106,7 +106,7 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar het primaire adres van Eliza Hoffman wordt verzonden, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, gaat bijvoorbeeld naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is *het Van-adres*  haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
+7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van de Outlook-client. De webversie van Outlook gebruikt de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook Desktop gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt via de bureaubladversie van Outlook, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -137,7 +137,7 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar het primaire adres van Eliza Hoffman wordt verzonden, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, gaat bijvoorbeeld naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is *het Van-adres*  haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
+7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van de Outlook-client. De webversie van Outlook gebruikt de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook Desktop gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt via de bureaubladversie van Outlook, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -151,6 +151,10 @@ Als u het foutbericht ' Er kan geen parameter worden gevonden die overeenkomt me
 
 
 Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen.
+
+## <a name="sending-email-from-the-proxy-address-easily"></a>Eenvoudig e-mail verzenden vanaf het proxyadres
+
+In april 2021 wordt een nieuwe functie uitgerold waarmee gebruikers eenvoudig vanuit hun aliassen kunnen verzenden wanneer ze de webversie van Outlook gebruiken. Wanneer de functie wordt uitrolt naar een tenancy waarbij de tenantbeheerder de cmdlet gebruikt, krijgen gebruikers binnen de huurperiode toegang tot een lijst met selectievakjes waarin elke vermelding overeenkomt met een alias in de `Set-OrganizationConfig -SendFromAliasEnabled $true` Outlook-instellingen. Als u een alias selecteert, wordt deze weergegeven in de vervolgkeuzekeuze in het formulier Opstellen.
   
 ## <a name="related-articles"></a>Verwante artikelen
 

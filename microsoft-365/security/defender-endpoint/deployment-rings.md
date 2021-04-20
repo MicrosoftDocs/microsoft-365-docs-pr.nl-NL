@@ -18,19 +18,19 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2d34b984436b3ed0537af2eebcd8475ec270cd8e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 8123bdf610b30407e5d262296f9c3639bc21b12f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165787"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893483"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>Microsoft Defender voor eindpunt implementeren in ringen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -75,7 +75,7 @@ Identificeer een klein aantal testapparaten in uw omgeving om aan te boord van d
 
 
 ### <a name="pilot"></a>Pilot
-Microsoft Defender ATP ondersteunt diverse eindpunten die u aan boord van de service kunt gebruiken. Identificeer in deze ring verschillende apparaten aan boord en op basis van de exitcriteria die u definieert, besluit u door te gaan naar de volgende implementatiering.
+Microsoft Defender voor Eindpunt ondersteunt diverse eindpunten die u aan boord van de service kunt gebruiken. Identificeer in deze ring verschillende apparaten aan boord en op basis van de exitcriteria die u definieert, besluit u door te gaan naar de volgende implementatiering.
 
 In de volgende tabel ziet u de ondersteunde eindpunten en het bijbehorende hulpprogramma dat u kunt gebruiken om apparaten aan te boord van de service. 
 
@@ -94,11 +94,11 @@ In de volgende tabel ziet u de ondersteunde eindpunten en het bijbehorende hulpp
 In dit stadium kunt u het implementatiemateriaal [plannen](deployment-strategy.md) gebruiken om uw implementatie te plannen. 
 
 
-Gebruik het volgende materiaal om de juiste MICROSOFT Defender ATP-architectuur te selecteren die het beste past bij uw organisatie.
+Gebruik het volgende materiaal om de juiste Microsoft Defender voor eindpuntarchitectuur te selecteren die het beste past bij uw organisatie.
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Miniatuurafbeelding van de implementatiestrategie voor Microsoft Defender ATP](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li>
+|[![Thumb image for Microsoft Defender for Endpoint deployment strategy](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li>
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Windows 10-apparaten aan boord van Microsoft Defender ATP via groepsbeleid
+title: Windows 10-apparaten aan boord van Microsoft Defender voor Eindpunt via groepsbeleid
 description: Gebruik Groepsbeleid om het configuratiepakket te implementeren op Windows 10-apparaten, zodat ze zijn aan boord van de service.
 keywords: apparaten configureren met groepsbeleid, apparaatbeheer, Windows ATP-apparaten configureren, Microsoft Defender aan boord voor eindpuntapparaten, groepsbeleid
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: fc4b17ef96e85d3bacd4e83c2de3f4bb7fbfa5c3
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b839cf204e8ab042e0c88a8f8c48df79770e7b4f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166166"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893632"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10-apparaten met groepsbeleid 
 
@@ -31,7 +31,7 @@ ms.locfileid: "51166166"
 **Van toepassing op:**
 
 - Groepsbeleid
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsgp-abovefoldlink)
@@ -42,7 +42,7 @@ ms.locfileid: "51166166"
 > 
 > Voor Windows Server 2019 moet u mogelijk NT AUTHORITY\Well-Known-System-Account vervangen door NT AUTHORITY\SYSTEM van het XML-bestand dat door de voorkeur van groepsbeleid wordt gemaakt.
 
-## <a name="onboard-devices-using-group-policy"></a>Onboard-apparaten met groepsbeleid
+## <a name="onboard-devices-using-group-policy"></a>Onboarden apparaten met Groepsbeleid
 
 [![Afbeelding van het PDF-bestand met de verschillende implementatiepaden](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
 

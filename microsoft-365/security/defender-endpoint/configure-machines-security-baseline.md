@@ -1,7 +1,7 @@
 ---
-title: Naleving van de ATP-beveiligingslijn van Microsoft Defender verhogen
-description: Met de ATP-beveiligingslijn van Microsoft Defender stelt Microsoft Defender ATP-beveiligingsbesturingselementen in om optimale beveiliging te bieden.
-keywords: Intune management, MDATP, WDATP, Microsoft Defender, advanced threat protection ASR, security baseline
+title: Naleving van de beveiligingslijn van Microsoft Defender voor eindpunten verhogen
+description: De beveiligingslijn van Microsoft Defender voor eindpunt stelt beveiligingsbesturingselementen in om optimale beveiliging te bieden.
+keywords: Intune-beheer, MDATP, WDATP, MDE, Microsoft Defender voor eindpunt, GEAVANCEERDE BEDREIGINGSBEVEILIGING ASR, beveiligingslijn
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 74073441ad7be89e0af278ff1e371133251b5ea7
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 19a2276955b253a23ee1552a3f1d4d0345dfe247
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163397"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893539"
 ---
 # <a name="increase-compliance-to-the-microsoft-defender-for-endpoint-security-baseline"></a>Naleving van de beveiligingslijn van Microsoft Defender voor eindpunten verhogen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
@@ -41,11 +41,11 @@ Voordat u compliance kunt implementeren en bijhouden naar beveiligingslijnlijnen
 - [Uw apparaten registreren voor Intune-beheer](configure-machines.md#enroll-devices-to-intune-management)
 - [Zorg ervoor dat u de benodigde machtigingen hebt](configure-machines.md#obtain-required-permissions)
 
-## <a name="compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines"></a>De Microsoft Defender ATP en de beveiligingslijnlijnen van Windows Intune vergelijken
+## <a name="compare-the-microsoft-defender-for-endpoint-and-the-windows-intune-security-baselines"></a>De beveiligingslijnlijnen van Microsoft Defender voor Endpoint en Windows Intune vergelijken
 De windows Intune-beveiligingslijn bevat een uitgebreide set aanbevolen instellingen die nodig zijn om apparaten met Windows veilig te configureren, waaronder browserinstellingen, PowerShell-instellingen en instellingen voor sommige beveiligingsfuncties, zoals Microsoft Defender Antivirus. De basislijn van Defender voor eindpunt biedt daarentegen instellingen voor het optimaliseren van alle beveiligingsbesturingselementen in de Defender for Endpoint-stapel, inclusief instellingen voor eindpuntdetectie en -antwoord (EDR) en instellingen die ook worden gevonden in de beveiligingslijn van Windows Intune. Zie voor meer informatie over elke basislijn:
 
 - [Windows-beveiligingslijninstellingen voor Intune](https://docs.microsoft.com/intune/security-baseline-settings-windows)
-- [Microsoft Defender ATP-basislijninstellingen voor Intune](https://docs.microsoft.com/intune/security-baseline-settings-defender-atp)
+- [Basislijninstellingen voor Microsoft Defender voor Eindpunt voor Intune](https://docs.microsoft.com/intune/security-baseline-settings-defender-atp)
 
 In het ideale ideale gevallen worden apparaten die zijn aan boord van Defender voor Eindpunt, beide basislijnen geïmplementeerd: de Windows Intune-beveiligingslijn om Windows in eerste instantie te beveiligen en vervolgens de beveiligingslijn van Defender voor eindpunt boven aan elkaar om de beveiligingsbesturingselementen van Defender voor eindpunten optimaal te configureren. Als u wilt profiteren van de meest recente gegevens over risico's en bedreigingen en conflicten wilt minimaliseren naarmate basislijnen zich ontwikkelen, moet u altijd de meest recente versies van de basislijnen toepassen op alle producten zodra ze worden uitgebracht.
 
@@ -107,6 +107,6 @@ Apparaatconfiguratiebeheer controleert alleen de naleving van basislijn van Wind
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Controleer of uw apparaten correct zijn geconfigureerd](configure-machines.md)
+- [Controleren of uw apparaten juist zijn geconfigureerd](configure-machines.md)
 - [Apparaten in gebruik nemen bij Microsoft Defender voor Eindpunt](configure-machines-onboarding.md)
 - [Asr-regelimplementatie en -detecties optimaliseren](configure-machines-asr.md)

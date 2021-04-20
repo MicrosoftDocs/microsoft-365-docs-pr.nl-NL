@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: f2b3e109493331a4b63d669501525a48cb996809
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 21b0062a337dbeb3c7dec8b715971dbbc4917db1
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689219"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893273"
 ---
 # <a name="register-existing-devices-yourself"></a>Bestaande apparaten zelf registreren
 
@@ -136,7 +136,7 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 Als de hashgegevens zijn samengevoegd tot één CSV-bestand, kunt u nu doorgaan met het [registreren van de apparaten.](#register-devices-by-using-the-admin-portal)
 
 
-#### <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheerportal
+## <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheerportal
 
 Selecteer [in Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **Apparaten** in het linkernavigatiedeelvenster. Zoek de sectie Microsoft Managed Desktop van het menu en selecteer **Apparaten.** Selecteer + **Registreer** apparaten in de werkruimte Beheerde bureaubladapparaten van Microsoft, waarmee u een fly-in opent om nieuwe apparaten te registreren.
 
@@ -146,7 +146,7 @@ Selecteer [in Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de opt
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-Ga als volgt te werk:
+Volg deze stappen:
 
 1. Geef **in Bestand uploaden** een pad op naar het CSV-bestand dat u eerder hebt gemaakt.
 2. Selecteer een [apparaatprofiel](../service-description/profiles.md) in de vervolgkeuzelijst.
@@ -157,7 +157,7 @@ Ga als volgt te werk:
 
 U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogelijke staten die daar zijn gerapporteerd, zijn:
 
-| Status | Omschrijving |
+| Status | Beschrijving |
 |---------------|-------------|
 | Registratie in behandeling | Registratie is nog niet klaar. Controleer het later opnieuw. |
 | Registratie is mislukt | Registratie kan niet worden voltooid. Raadpleeg [Apparaatregistratie oplossen voor](#troubleshooting-device-registration) meer informatie. |
@@ -165,7 +165,7 @@ U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogel
 | Actief | Het apparaat is geleverd aan de gebruiker en heeft zich geregistreerd bij uw tenant. Dit geeft ook aan dat ze het apparaat regelmatig gebruiken. |
 | Inactief | Het apparaat is geleverd aan de gebruiker en heeft zich geregistreerd bij uw tenant. Ze hebben het apparaat echter onlangs (in de afgelopen 7 dagen) niet gebruikt.  | 
 
-#### <a name="troubleshooting-device-registration"></a>Apparaatregistratie oplossen
+### <a name="troubleshooting-device-registration"></a>Apparaatregistratie oplossen
 
 | Foutbericht | Details |
 |---------------|-------------|
@@ -175,13 +175,13 @@ U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogel
 | Apparaat dat door een andere organisatie is geclaimd | Dit apparaat is al geclaimd door een andere organisatie. Neem contact op met uw apparaatleverancier. |
 | Onverwachte fout | Uw aanvraag kan niet automatisch worden verwerkt. Neem contact op met ondersteuning en geef de aanvraag-id op: <requestId> |
 
-### <a name="check-the-image"></a>De afbeelding controleren
+## <a name="check-the-image"></a>De afbeelding controleren
 
 Als uw apparaat afkomstig is van een Microsoft Managed Desktop-partnerleverancier, moet de afbeelding juist zijn.
 
 U kunt de afbeelding ook zelf toepassen als u dat wilt. Als u wilt beginnen, neemt u contact op met de Microsoft-vertegenwoordiger met wie u werkt. Deze vertegenwoordiger geeft u de locatie en stappen voor het toepassen van de afbeelding.
 
-### <a name="deliver-the-device"></a>Het apparaat leveren
+## <a name="deliver-the-device"></a>Het apparaat leveren
 
 > [!IMPORTANT]
 > Voordat u het apparaat aan uw gebruiker aflevert, [](../get-ready/prerequisites.md) moet u ervoor zorgen dat u de juiste licenties voor die gebruiker hebt verkregen en toegepast.
