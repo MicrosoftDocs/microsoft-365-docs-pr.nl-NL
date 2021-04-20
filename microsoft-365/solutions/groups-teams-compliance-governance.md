@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over complianceopties voor Microsoft 365-groepen, Teams en SharePoint-samenwerking.
-ms.openlocfilehash: 88083d88b274e750e0fc6f1907268c996312163c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5006f0cf9f7eb174082d4fc2508bf112864fcba3
+ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920890"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899350"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Complianceopties voor Microsoft 365-groepen, Teams en SharePoint-samenwerking
 
@@ -60,7 +60,7 @@ Gebruikerschats worden voor onbepaalde tijd bewaard, zelfs als een gebruikersacc
 
 - [Bewaarbeleid in Microsoft Teams](/microsoftteams/retention-policies)
 
-U kunt één bewaarbeleid instellen voor berichten van Microsoft 365 Groepen, Teams-chat en Teams-kanaalberichten. 
+Er kan één bewaarbeleid worden ingesteld dat van toepassing is op Teams-chat- en Teams-kanaalberichten. 
 
 Aanvullende informatiebronnen:
 

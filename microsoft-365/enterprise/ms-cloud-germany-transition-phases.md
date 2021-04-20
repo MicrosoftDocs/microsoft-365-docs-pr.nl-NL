@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Samenvatting: Inzicht in de migratiefasen en de gevolgen van de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: cd83d2abcc061562047aeb384856cc9ab04dcad3
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 121f2059e4a13684169ab40b7bfdaae13ef6045e
+ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760036"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899246"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Acties en effecten van migratiefasen voor de migratie vanuit Microsoft Cloud Deutschland
 
@@ -131,11 +131,8 @@ Als u nog steeds SharePoint 2013-werkstromen gebruikt, beperkt u het gebruik van
 Aanvullende aandachtspunten:
 
 - Als uw organisatie nog steeds SharePoint 2010-werkstromen gebruikt, werken ze niet meer na 31 december 2021. SharePoint 2013-werkstromen blijven ondersteund, maar zijn standaard uitgeschakeld voor nieuwe tenants vanaf 1 november 2020. Nadat de migratie naar de SharePoint Online-service is voltooid, raden we u aan over te gaan naar Power Automate of andere ondersteunde oplossingen.
- 
-- Klanten van Microsoft Cloud Deutschland waarvan het Exemplaar van SharePoint Online nog niet is gemigreerd, moeten de SharePoint Online PowerShell-module/Microsoft.SharePointOnline.CSOM versie 16.0.20616.12000 of lager gebruiken. Anders mislukt de verbinding met SharePoint Online via PowerShell of het objectmodel aan de clientzijde.
-
+ - Klanten van Microsoft Cloud Deutschland waarvan het Exemplaar van SharePoint Online nog niet is gemigreerd, moeten de SharePoint Online PowerShell-module/Microsoft.SharePointOnline.CSOM versie 16.0.20616.12000 of lager gebruiken. Anders mislukt de verbinding met SharePoint Online via PowerShell of het objectmodel aan de clientzijde.
 - Tijdens deze fase worden de IP-adressen achter de SharePoint-URL's gewijzigd. Na de overgang naar Globale Office 365-services worden de adressen voor de behouden tenant-URL's (bijvoorbeeld en ) gewijzigd in de URL's en IP-adresbereiken voor Microsoft `contoso.sharepoint.de` `contoso-my.sharepoint.de` [365 Wereldwijd (SharePoint Online en OneDrive voor Bedrijven)](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#sharepoint-online-and-onedrive-for-business).
-
 
 > [!NOTE]
 > Als u eDiscovery gebruikt, moet u op de hoogte zijn van de [eDiscovery-migratie.](ms-cloud-germany-transition-add-scc.md)
@@ -150,7 +147,8 @@ De nieuwe regio 'Duitsland' wordt toegevoegd aan de organisatie-instelling. Exch
 - Gebruikers en services overstappen van uw oudere MCD-URL's `https://outlook.office.de` () naar nieuwe URL's voor Office 365-services ( `https://outlook.office365.com` ).
 -  De Exchange Online-services (Outlook Web Access en Exchange-beheercentrum) voor het nieuwe Duitse datacentergebied zijn vanaf deze fase beschikbaar, ze zijn niet eerder beschikbaar.
 - Gebruikers kunnen de service blijven gebruiken via oudere MCD-URL's tijdens de migratie, maar ze moeten stoppen met het gebruik van de oudere URL's na voltooiing van de migratie.
-- Gebruikers moeten overstappen op het gebruik van de wereldwijde Office-portal voor Office Online-functies (Agenda, E-mail, Personen). Navigatie naar services die nog niet zijn gemigreerd naar Office 365-services, werkt pas wanneer ze zijn gemigreerd.
+- Gebruikers moeten overstappen op het gebruik van de wereldwijde Office-portal voor Office Online-functies (Agenda, E-mail, Personen). Navigatie naar services die nog niet zijn gemigreerd naar Office 365-services, werkt pas wanneer ze zijn gemigreerd. 
+- Deze beperking geldt ook voor achtergrondservices zoals 'Mijn account'. Mijn account voor globale services wordt beschikbaar na voltooiing van fase 9. Tot deze tijd moeten gebruikers de MCD-portal gebruiken om hun accountinstellingen te beheren.
 - De Outlook Web App biedt niet de ervaring met openbare mappen tijdens de migratie.
 
 Zie [Exchange Online PowerShell](#exchange-online-powershell)- Set-UserPhoto tijdens fase 5 als u gebruikersfoto's wilt wijzigen.
@@ -158,9 +156,12 @@ Zie [Exchange Online PowerShell](#exchange-online-powershell)- Set-UserPhoto tij
 ### <a name="dns-record-for-autodiscover-in-exchange-online"></a>DNS-record voor autodiscover in Exchange Online
 **Van toepassing op:** Klanten die Exchange Online gebruiken met een aangepast domein
 
-Door klanten beheerde DNS-instellingen voor AutoDiscover die momenteel verwijzen naar Microsoft Cloud Deutschland, moeten worden bijgewerkt om te verwijzen naar het globale eindpunt van Office 365 na voltooiing van de Exchange Online-fase (fase 5). <br> Bestaande DNS-vermeldingen met CNAME die naar autodiscover-outlook.office.de moeten worden bijgewerkt om te wijzen **naar autodiscover.outlook.com.**
+Door klanten beheerde DNS-instellingen voor Autodiscover die momenteel verwijzen naar Microsoft Cloud Deutschland, moeten worden bijgewerkt om te verwijzen naar het globale eindpunt van Office 365 na voltooiing van de Exchange Online-fase (fase 5). <br> Bestaande DNS-vermeldingen met CNAME die naar autodiscover-outlook.office.de moeten worden bijgewerkt om te wijzen **naar autodiscover.outlook.com.**
 
 Klanten die deze DNS-updates niet uitvoeren na voltooiing van de **migratiefase 9,** kunnen serviceproblemen krijgen wanneer de migratie is voltooid.
+
+> [!NOTE]
+> Validatiefouten in het beheercentrum voor aangepaste domeinen voor de autodiscover-invoer kunnen worden genegeerd. Services werken alleen goed wanneer de CNAME-record is gewijzigd in autodiscover.outlook.com.
 
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **Van toepassing op:** Exchange Online-beheerders met Exchange Online PowerShell
@@ -182,29 +183,21 @@ Als u de PowerShell-cmdlet **Set-UserPhoto** gebruikt, wordt een fout weergegeve
  waar `<user_email>` is de tijdelijke aanduiding voor de e-mail-id van het postvak van de gebruiker. 
 
 Aanvullende aandachtspunten:
-<!--
-    The statement below is not clear. What does myaccount.microsoft.com mean?
-
-
-- `myaccount.microsoft.com` will only work after the tenant cutover in phase 9. Links will produce "something went wrong" error messages until that time.
--->
 - Gebruikers van Outlook Web App die toegang hebben tot een gedeeld postvak in de andere omgeving (bijvoorbeeld een gebruiker in de MCD-omgeving heeft toegang tot een gedeeld postvak in de globale omgeving), worden gevraagd een tweede keer te verifiëren. De gebruiker moet eerst zijn of haar postvak verifiëren en openen in `outlook.office.de` en vervolgens het gedeelde postvak openen dat zich in `outlook.office365.com` . Ze moeten zich een tweede keer verifiëren wanneer ze toegang hebben tot de gedeelde resources die worden gehost in de andere service.
 - Voor bestaande Klanten van Microsoft Cloud Deutschland of klanten die in een overgangsfase werken, kan het mislukken wanneer een gedeeld postvak wordt toegevoegd aan Outlook met bestand **> Info > Account** toevoegen. Het weergeven van agendamachtigingen kan mislukken (de Outlook-client probeert de Rest API te `https://outlook.office.de/api/v2.0/Me/Calendars` gebruiken). Klanten die een account willen toevoegen om agendamachtigingen weer te geven, kunnen de registersleutel toevoegen zoals beschreven in Gebruikerservaringswijzigingen voor het delen van een agenda [in Outlook](https://support.microsoft.com/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec) om ervoor te zorgen dat deze actie zal slagen. Deze registersleutel kan voor de hele organisatie worden geïmplementeerd met behulp van groepsbeleid.
+- Alle klanten die een actieve hybride Exchange-configuratie gebruiken, kunnen postvakken niet verplaatsen van on-premises Exchange Server naar Exchange Online, noch naar Microsoft Cloud Deutschland, noch naar de nieuwe datacenterregio in Duitsland. Klanten moeten ervoor zorgen dat de lopende postvakbewegingen zijn voltooid vóór fase 5 en na voltooiing van deze fase worden hervat.
 - Zorg ervoor dat alle gebruikers die oudere protocollen (POP3/IMAP4/SMTP) voor hun apparaten gebruiken, bereid zijn om de eindpunten in hun client te wijzigen nadat hun [Exchange-postvak](ms-cloud-germany-transition-add-pre-work.md#exchange-online)is verplaatst naar het nieuwe Duitse datacentergebied, zoals beschreven in de stappen vóór de migratie voor Exchange Online.
+- Skype voor Bedrijven-vergaderingen plannen in Outlook Web App is niet meer beschikbaar nadat het postvak is gemigreerd. Zo nodig moeten gebruikers Outlook gebruiken.
 
 Als u meer wilt weten over de verschillen voor organisaties in migratie en nadat Exchange Online-resources zijn gemigreerd, bekijkt u de informatie in Customer experience tijdens de migratie naar [Office 365-services in](ms-cloud-germany-transition-experience.md)de nieuwe Duitse datacenterregio's.
-
 
 ## <a name="phase-6-exchange-online-protection--security-and-compliance"></a>Fase 6: Exchange Online Protection /Security and Compliance
 
 **Van toepassing op:** Alle klanten die Exchange Online gebruiken<br>
 
-Back-end EOP-functies (Exchange Online Protection) worden gekopieerd naar de nieuwe regio 'Duitsland'.
+Back-end EOP-functies (Exchange Online Protection) worden gekopieerd naar de nieuwe regio 'Duitsland'. Exchange Online maakt routering van externe hosts naar Office 365 mogelijk en historische tenantdetails worden gemigreerd, waaronder ook back-endservices voor beveiligings- en compliancefuncties.
 
-| Stap(en) | Beschrijving | Gevolg |
-|:-------|:-------|:-------|
-| Migratie van Exchange Online-routering en historische berichtdetails. | Exchange Online maakt routering van externe hosts naar Office 365 mogelijk. De externe MX-records worden overgerouteerd naar de EOP-service. Tenantconfiguratie en historische details worden gemigreerd. |<ul><li>Microsoft-beheerde DNS-vermeldingen worden bijgewerkt van Office 365 Germany EOP naar Office 365-services.</li><li>Klanten moeten 30 dagen wachten nadat EOP dual write heeft geschreven voor EOP-migratie. Anders kan er gegevensverlies zijn.</li></ul>|
-||||
+Klanten die alleen exchange Online-mogelijkheden (niet-hybride) gebruiken, hoeven in dit stadium niet op te letten.
 
 ### <a name="exchange-online-hybrid-deployments"></a>Hybride implementaties van Exchange Online
 **Van toepassing op:** Alle klanten die een actieve hybride Exchange-configuratie gebruiken met on-premises Exchange-servers
@@ -223,19 +216,18 @@ Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outl
 
 **Van toepassing op:** Alle klanten die Skype voor Bedrijven Online gebruiken
 
-Zorg ervoor dat u bekend bent met het [voorwerk voor uw Skype voor Bedrijven Online-migratieprocedure.](ms-cloud-germany-transition-add-pre-work.md#skype-for-business-online)
+Bekijk de [stappen vóór de migratie van Skype voor Bedrijven Online](ms-cloud-germany-transition-add-pre-work.md#skype-for-business-online) en controleer of u alle stappen hebt voltooid.
+In deze fase wordt Skype voor Bedrijven gemigreerd naar Microsoft Teams. Bestaande Klanten van Skype voor Bedrijven worden gemigreerd naar globale office 365-services in Europa en vervolgens overge stappen naar Microsoft Teams in de regio 'Duitsland' van Office 365-services.
 
-<!--
-    Question from ckinder
-    the PowerShell command seems to be incomplete
--->
+- Gebruikers kunnen zich niet aanmelden bij Skype voor Bedrijven op de migratiedatum. Tien dagen vóór de migratie ontvangt de klant een bericht in het beheercentrum waarin wordt aangekondigd wanneer de migratie zal plaatsvinden en opnieuw wanneer de migratie begint.
+- Beleidsconfiguratie wordt gemigreerd.
+- Gebruikers worden gemigreerd naar Teams en hebben na de migratie geen toegang meer tot Skype voor Bedrijven.
+- Gebruikers moeten de bureaubladclient van Microsoft Teams hebben geïnstalleerd. De installatie vindt gedurende de tien dagen via beleid op de Skype voor Bedrijven-infrastructuur, maar als dit mislukt, moeten gebruikers de client nog steeds downloaden of verbinding maken met een ondersteunde browser.
+- Contactpersonen en vergaderingen worden gemigreerd naar Microsoft Teams.
+- Gebruikers kunnen zich niet aanmelden bij Skype voor Bedrijven tussen tijdserviceovergangen naar Office 365-services en niet totdat dns-items van klanten zijn voltooid.
+- Contactpersonen en bestaande vergaderingen blijven fungeren als Skype voor Bedrijven-vergaderingen.
 
-| Stap(en) | Beschrijving | Gevolg |
-|:-------|:-------|:-------|
-| Migratie van Skype voor Bedrijven naar Teams. | Bestaande Klanten van Skype voor Bedrijven worden gemigreerd naar globale office 365-services in Europa en vervolgens overge stappen naar Microsoft Teams in de regio 'Duitsland' van Office 365-services. |<ul><li>Gebruikers kunnen zich niet aanmelden bij Skype voor Bedrijven op de migratiedatum. Tien dagen vóór de migratie, posten we naar het beheercentrum om u te laten weten wanneer de migratie zal plaatsvinden, en opnieuw wanneer we beginnen met de migratie.</li><li> Beleidsconfiguratie wordt gemigreerd. </li><li>Gebruikers worden gemigreerd naar Teams en hebben na de migratie geen Skype voor Bedrijven meer. </li><li>Gebruikers moeten de bureaubladclient van Teams hebben geïnstalleerd. De installatie vindt gedurende de tien dagen via beleid op de Skype voor Bedrijven-infrastructuur, maar als dit mislukt, moeten gebruikers de client nog steeds downloaden of verbinding maken met een ondersteunde browser. </li><li>Contactpersonen en vergaderingen worden gemigreerd naar Teams.</li><li>Gebruikers kunnen zich niet aanmelden bij Skype voor Bedrijven tussen tijdserviceovergangen naar Office 365-services en niet totdat dns-items van klanten zijn voltooid. </li><li>Contactpersonen en bestaande vergaderingen blijven fungeren als Skype voor Bedrijven-vergaderingen. </li></ul>|
-||||
-
-Als u verbinding moet maken met Skype voor Bedrijven Online met PowerShell nadat migratiefase 9 is voltooid, gebruikt u de volgende code om verbinding te maken:
+Als u verbinding moet maken met Skype voor Bedrijven Online met PowerShell nadat migratiefase 9 is voltooid, gebruikt u de volgende PowerShell-code om verbinding te maken:
 
 ```powershell
 Import-Module MicrosoftTeams
@@ -294,13 +286,21 @@ Als u line-of-business-apps hebt, moet u ervoor zorgen dat u de prework voor de 
 
 **Van toepassing op:** Alle klanten
 
-Wanneer de Office 365-tenant de laatste stap van de migratie voltooit [Azure AD Finalization (Fase 9)] worden alle services overgefaseerd naar de hele wereld. Geen enkele toepassing of gebruiker mag toegang krijgen tot bronnen voor de tenant tegen een van de Microsoft Cloud Deutschland-eindpunten. De Microsoft Cloud Deutschland Azure AD-service stopt automatisch, 30 dagen nadat de laatste fase is voltooid, de eindpunttoegang voor de overgefaseeerde tenant. Eindpuntaanvragen zoals Verificatie mislukken vanaf dit moment ten opzichte van de Microsoft Cloud Deutschland-service. 
+Wanneer de Office 365-tenant de laatste stap van de migratie voltooit (Azure AD Finalization (Fase 9)) worden alle services overgegaan naar de hele wereld. Geen enkele toepassing of gebruiker mag toegang krijgen tot bronnen voor de tenant tegen een van de Microsoft Cloud Deutschland-eindpunten. De Microsoft Cloud Deutschland Azure AD-service stopt automatisch, 30 dagen nadat de laatste fase is voltooid, de eindpunttoegang voor de overgefaseeerde tenant. Eindpuntaanvragen zoals Verificatie mislukken vanaf dit moment ten opzichte van de Microsoft Cloud Deutschland-service. 
 
 | Stap(en) | Beschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Gebruikers-eindpunten bijwerken | Zorg ervoor dat alle gebruikers toegang hebben tot de service met de juiste Microsoft-eindpunten voor de hele wereld |30 dagen nadat de migratie is afgelopen, worden de Microsoft Cloud Deutschland-eindpunten gestopt met het honoreren van aanvragen. client- of toepassingsverkeer mislukt.  |
 | Eindpunten van Azure AD-toepassingen bijwerken | U moet verificatie, Azure Active Directory (Azure AD) Graph en MS Graph-eindpunten voor uw toepassingen bijwerken naar die van de Microsoft Worldwide-service. | 30 dagen nadat de migratie is afgelopen, worden de Microsoft Cloud Deutschland-eindpunten gestopt met het honoreren van aanvragen. client- of toepassingsverkeer mislukt. |
 ||||
+
+### <a name="azure-ad-connect"></a>Azure AD Connect
+**Van toepassing op:** Alle klanten die identiteiten synchroniseren met Azure AD Connect
+
+| Stap(en) | Beschrijving | Gevolg |
+|:-------|:-------|:-------|
+| Werk Azure AD Connect bij. | Nadat de cut over naar Azure AD is voltooid, maakt de organisatie volledig gebruik van Office 365-services en is ze niet meer verbonden met Microsoft Cloud Deutschland. Op dit moment moet de klant ervoor zorgen dat het deltasynchronisatieproces is afgerond en daarna de tekenreekswaarde van `AzureInstance` 3 (Microsoft Cloud Deutschland) wijzigen in 0 in het `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` registerpad. | Wijzig de waarde van `AzureInstance` de registersleutel. Als u dit niet doet, worden objecten niet gesynchroniseerd nadat de Microsoft Cloud Deutschland-eindpunten niet meer beschikbaar zijn. |
+|||||
 
 ## <a name="post-migration"></a>Migratie na de migratie
 
