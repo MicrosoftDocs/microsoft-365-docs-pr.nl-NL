@@ -175,6 +175,9 @@
 ##### [Beheerde maptoegang inschakelen](enable-controlled-folders.md)
 ##### [Beheerde maptoegang aanpassen](customize-controlled-folders.md)
 
+#### [Apparaatbesturing]()
+##### [Rapporten voor apparaatbesturing](device-control-report.md)
+##### [USB-apparaten beheren](control-usb-devices-using-intune.md)
 
 ### [Apparaatdetectie]()
 #### [Overzicht van apparaatdetectie](device-discovery.md)
