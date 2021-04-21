@@ -1,6 +1,6 @@
 ---
-title: Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt voor Linux
-description: Problemen met de prestaties oplossen in Microsoft Defender Endpoint voor Linux.
+title: Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux
+description: Problemen met de prestaties oplossen in Microsoft Defender Endpoint op Linux.
 keywords: microsoft, defender, atp, linux, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb43fd383606ab26ba2688ad5704bb7653e82a7f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5aaa95ef8202f3d0957113d8f20a39e4d3840227
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860337"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903984"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux
 
@@ -145,6 +145,6 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
     >[!NOTE]
     > De toepassing slaat statistieken op in het geheugen en houdt alleen de bestandsactiviteit bij sinds de toepassing is gestart en realtime beveiliging is ingeschakeld. Processen die zijn gestart vóór of tijdens perioden waarin realtimebeveiliging was uitgeschakeld, worden niet meegetelde. Bovendien worden alleen gebeurtenissen geteld die scans hebben geactiveerd.
 
-5. Configureer Microsoft Defender ATP voor Linux met uitsluitingen voor de processen of schijflocaties die bijdragen aan de prestatieproblemen en realtime beveiliging opnieuw inschakelen.
+5. Configureer Microsoft Defender Endpoint op Linux met uitsluitingen voor de processen of schijflocaties die bijdragen aan de prestatieproblemen en realtime beveiliging opnieuw inschakelen.
 
-    Zie Uitsluitingen [configureren en valideren voor Microsoft Defender ATP voor Linux voor meer informatie.](linux-exclusions.md)
+    Zie Uitsluitingen [configureren en valideren](linux-exclusions.md)voor Microsoft Defender voor Eindpunt voor Linux voor meer informatie.

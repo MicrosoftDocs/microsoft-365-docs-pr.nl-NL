@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: d89e5dc29bfe7f980d40a9a5b139884750a966bc
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 2e1553b231692d184146897ddc05e11930ed1bf0
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760012"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903972"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Het overzicht van het geïntegreerde Microsoft 365-beveiligingscentrum
 
@@ -149,6 +149,9 @@ Nadat u naar de inhoud hebt geklikt, kan het handig zijn om deze site een bladwi
 > Er zijn handige **filters** boven aan de leerhub van het Microsoft 365-beveiligingscentrum, zodat u kunt kiezen tussen producten (momenteel Microsoft 365 Defender, Microsoft Defender voor Eindpunt en Microsoft Defender voor Office 365). Het aantal leerbronnen voor elke sectie wordt vermeld, zodat leerlingen/studenten kunnen bijhouden hoeveel resources ze bij de hand hebben voor training en leren.
 >
 > Naast het productfilter worden actuele onderwerpen, typen resources (van video's tot webinars), niveaus van vertrouwdheid of ervaring met beveiligingsgebieden, beveiligingsrollen en productfuncties weergegeven.
+
+> [!TIP]
+> Er zijn veel andere leermogelijkheden in [Microsoft Learn.](https://docs.microsoft.com/e/learn/) U vindt certificeringstraining zoals [Cursus MS-500T02-A: Microsoft 365 Threat Protection implementeren.](https://docs.microsoft.com/learn/certifications/courses/ms-500t02)
 
 ## <a name="send-us-your-feedback"></a>Stuur ons uw feedback
 

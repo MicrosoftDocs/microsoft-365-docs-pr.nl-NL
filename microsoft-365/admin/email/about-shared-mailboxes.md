@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gedeelde postvakken worden gebruikt wanneer meerdere personen toegang nodig hebben tot hetzelfde postvak. Lees wat u moet weten voordat u een gedeeld postvak maakt.
-ms.openlocfilehash: eb1947b5baffd97f067bfe4e0c6d71d5c1329d65
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 83e779d59a8e763b3d0c0482966e75604d5f1574
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915984"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903212"
 ---
 # <a name="about-shared-mailboxes"></a>Meer over gedeelde postvakken
 
@@ -63,7 +63,7 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enke
 > [!NOTE]
 > Als u toegang wilt tot een gedeeld postvak, moet een gebruiker een Exchange Online-licentie hebben, maar voor het gedeelde postvak is geen aparte licentie vereist. Elk gedeeld postvak heeft een bijbehorend gebruikersaccount. Is het u opgevallen dat u niet werd gevraagd een wachtwoord in te voeren toen u het gedeelde postvak maakte? Het account heeft een wachtwoord, maar dat wordt gegenereerd door het systeem (onbekend). U moet het account niet gebruiken om u aan te melden bij het gedeelde postvak. Zonder licentie zijn gedeelde postvakken beperkt tot 50 GB. Als u de limiet wilt verhogen tot 100 GB, moet aan het gedeelde postvak een Exchange Online Plan 2-licentie of een Exchange Online Plan 1-licentie met een exchange Online Archiving-invoeglicentie worden toegewezen. Hiermee kunt u ook automatisch uitbreidende archivering inschakelen voor een onbeperkte hoeveelheid archiefopslagcapaciteit. Als u een gedeeld postvak in de wacht wilt zetten voor juridische procedures, moet het gedeelde postvak een exchange Online Plan 2-licentie of een Exchange Online Plan 1-licentie hebben met een invoeglicentie voor Archiveren van Exchange Online. Als u geavanceerde functies wilt toepassen, zoals Microsoft Defender voor Office 365, Geavanceerd eDiscovery of beleid voor automatisch bewaren, moet het gedeelde postvak een licentie hebben voor deze functies.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een gedeeld postvak maken](create-a-shared-mailbox.md)
 

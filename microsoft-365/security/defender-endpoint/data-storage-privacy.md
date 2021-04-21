@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2b191c4a24ce170d23fc3d9e43293cc7bbe59e80
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: dfdfcdcfb8d76f95e3b866f5f95af7efd94ed59e
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892815"
+ms.locfileid: "51904126"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Microsoft Defender voor opslag en privacy van eindpuntgegevens
 
@@ -90,7 +90,7 @@ Nee. Klantgegevens worden geïsoleerd van andere klanten en worden niet gedeeld.
 
 ## <a name="how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy"></a>Hoe lang worden mijn gegevens door Microsoft opgeslagen? Wat is het gegevensretentiebeleid van Microsoft?
 **Bij service onboarding**<br>
-U kunt het bewaarbeleid voor uw gegevens kiezen. Hiermee wordt bepaald hoelang Uw gegevens worden opgeslagen in Window Defender voor Endpoint. U kunt flexibel kiezen tussen één maand en zes maanden om te voldoen aan de vereisten voor naleving van de regelgeving van uw bedrijf.
+Gegevens worden standaard 180 dagen bewaard. U kunt echter wel het bewaarbeleid voor gegevens opgeven. Hiermee wordt bepaald hoelang Uw gegevens worden opgeslagen in Window Defender voor Endpoint. U kunt flexibel kiezen tussen één maand en zes maanden om te voldoen aan de vereisten voor naleving van de regelgeving van uw bedrijf.
 
 **Bij contractbeëindiging of vervaldatum**<br>
 Uw gegevens worden bewaard en zijn beschikbaar voor u terwijl de licentie onder respijtperiode of opgeschorte modus valt. Aan het einde van deze periode worden deze gegevens uit de systemen van Microsoft gewist om deze niet meer te kunnen terugverbinden, niet later dan 180 dagen na beëindiging of vervaldatum van het contract.

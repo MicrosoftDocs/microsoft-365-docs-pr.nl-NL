@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 ms.reviewer: ''
-description: Hier wordt beschreven hoe u Microsoft Defender ATP voor Linux handmatig implementeert vanaf de opdrachtregel.
+description: Hier wordt beschreven hoe u Microsoft Defender voor Eindpunt handmatig op Linux implementeert vanaf de opdrachtregel.
 keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 78ea8b106253098791d71ef9ff788b7cf1df4ec7
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 2beb46c62de2e9720d1626e0e1e5ce806a6d7e19
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688403"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903914"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 

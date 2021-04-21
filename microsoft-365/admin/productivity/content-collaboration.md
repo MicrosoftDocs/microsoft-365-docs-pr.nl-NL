@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 'Details van de samenwerking met inhoud: personen ervaren productiviteitsscore.'
-ms.openlocfilehash: dedd39a84580f26e80e5586e07fb64c8a6d35573
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 43a5fbc3b1c4b6227cd29d79bfb0928a3b4b8ac9
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580856"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903320"
 ---
 # <a name="content-collaboration--people-experiences"></a>Samenwerking met inhoud: ervaringen met personen
 
@@ -50,6 +50,9 @@ Een belangrijk aspect van digitale transformatie is hoe mensen samenwerken aan b
 
 We bieden een primair inzicht met de belangrijkste metrische gegevens voor samenwerking met inhoud in uw organisatie. Vervolgens wordt een hieronder beschreven scorekader gebruikt voor deze metrische gegevens om de score van uw organisatie te berekenen.
 
+> [!NOTE]
+> Op 22 april 2021 hebben we de berekening van de metriek voor samenwerkers gewijzigd. Dit is van invloed op [het primaire inzicht,](#primary-insight)het [inzicht](#number-of-files-collaborated-on)in bestandssamenwerking en de manier waarop de score voor inhoudssamenwerking wordt gemeten. Deze wijziging helpt bij het verminderen van ruis in de gegevens van niet-menselijke agenten (of bots) van Microsoft en andere toepassingen van derden, wat resulteert in een nauwkeurigere en actievollere score.
+
 ### <a name="primary-insight"></a>Primair inzicht
 
 Microsoft OneDrive voor Bedrijven en SharePoint helpen personen bij het eenvoudig maken, lezen en ontdekken van hun afzonderlijke en gedeelde inhoud in Microsoft 365 vanaf verschillende apparaten en toepassingen. Daarnaast kunnen personen veilig inhoud delen en samenwerken aan inhoud. Het primaire inzicht bevat informatie van iedereen die OneDrive voor Bedrijven en SharePoint kan gebruiken. Daarnaast worden de details van het aantal personen dat inhoud leest, maakt en samenwerkt dat is opgeslagen in OneDrive voor Bedrijven en SharePoint, opgeslagen.
@@ -67,7 +70,7 @@ Typen die voor deze informatie worden overwogen, zijn Word-, Excel-, PowerPoint-
         Ze worden als volgt gedefinieerd:</br>
         **Lezers:** Personen die onlinebestanden openen of downloaden in OneDrive of SharePoint.</br>
         **Makers:** Personen die OneDrive- of SharePoint-bestanden maken, wijzigen, uploaden, synchroniseren, inchecken, kopiëren of verplaatsen.</br>
-        **Medewerkers:** Personen die samenwerken met onlinebestanden met OneDrive of SharePoint. Twee personen zijn medewerkers als een van hen een online Office-app of PDF-bestand leest of bewerkt nadat de andere persoon deze heeft gemaakt of gewijzigd, binnen een venster van 28 dagen.
+        **Medewerkers:** Personen die samenwerken met onlinebestanden via OneDrive of SharePoint. Twee personen zijn medewerkers als een van hen een online Office-app of PDF-bestand leest of bewerkt nadat de andere persoon deze heeft gemaakt of gewijzigd, binnen een venster van 28 dagen.
 
         > [!NOTE]
         > De bestanden die in de visualisatie worden beschouwd, zijn Word-, Excel-, PowerPoint-, OneNote- of PDF-bestanden die online zijn en zijn opgeslagen in OneDrive of SharePoint. 
@@ -97,10 +100,9 @@ In de grafiek met trendvisualisaties ziet u de trendlijn van de belangrijkste st
 
 ### <a name="scoring-framework"></a>Scorekader
 
-De score voor inhoudssamenwerking voor uw organisatie meet op statistisch (organisatieniveau) of personen voortdurend online Office-bestanden lezen, maken of samenwerken, zoals Word, Excel, PowerPoint, OneNote of PDF's, of in OneDrive of SharePoint.
+De score voor inhoudssamenwerking voor uw organisatie meet op statistisch (organisatieniveau) of personen voortdurend online Office-bestanden zoals Word, Excel, PowerPoint, OneNote of PDF's lezen, maken of samenwerken aan online Office-bestanden, zoals Word, Excel, PowerPoint, OneNote of PDF's, of in OneDrive of SharePoint.
 
 Scores worden niet op individueel gebruikersniveau verstrekt.
-
 
 ## <a name="explore-how-your-organization-collaborates"></a>Ontdek hoe uw organisatie samenwerkt
 
@@ -131,13 +133,13 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
 3. **Visualisatie:** De uitsplitsing in de visualisatie is bedoeld om aan te geven in welke mate personen die inhoud aan e-mailberichten toevoegen, verschillende modi gebruiken (bestanden die niet in OneDrive of SharePoint staan; koppelingen naar onlinebestanden en koppelingen die zijn ingesloten in de e-mail):
       - **Bestanden toevoegen:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat bijlagen in e-mailberichten gebruikt.
         - Teller: het aantal personen dat bestanden koppelt aan e-mail die de afgelopen 28 dagen niet zijn opgeslagen in OneDrive of SharePoint.
-        - Noemer:  Noemer: Het aantal personen dat de afgelopen 28 dagen toegang heeft gehad tot Exchange en OneDrive, SharePoint of beide.
+        - Noemer: Het aantal personen dat de afgelopen 28 dagen toegang heeft gehad tot Exchange en OneDrive, SharePoint of beide.
       - **Koppelingen naar onlinebestanden:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat bijlagen gebruikt en koppelingen aan bestanden in e-mailberichten koppelt.
         - Teller: het aantal personen dat koppelingen naar onlinebestanden (opgeslagen in OneDrive of SharePoint) in de afgelopen 28 dagen aan e-mailberichten koppelt.
-        - Noemer:  Noemer: Het aantal personen dat in de afgelopen 28 dagen toegang heeft tot Exchange en OneDrive, SharePoint of beide.
+        - Noemer: Het aantal personen dat toegang heeft tot Exchange en OneDrive, SharePoint of beide binnen de afgelopen 28 dagen.
       - **Koppelingen insluiten in e-mail:** Het blauwe (gekleurde) gedeelte van de balk en de breuk op de balk vertegenwoordigen het percentage personen dat koppelingen insluit in de body van de e-mailberichten.
         - Teller: Het aantal personen dat koppelingen insluit in de body van e-mailberichten naar onlinebestanden (opgeslagen in OneDrive of SharePoint) in de afgelopen 28 dagen.
-        - Noemer:  Noemer: Het aantal personen dat toegang heeft tot Exchange en OneDrive, SharePoint of beide binnen de afgelopen 28 dagen.
+        - Noemer: Het aantal personen dat toegang heeft tot Exchange en OneDrive, SharePoint of beide binnen de afgelopen 28 dagen.
 4. **Koppeling naar resources:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
 ### <a name="sharing-of-online-files"></a>Onlinebestanden delen
@@ -159,21 +161,21 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
 
 :::image type="content" source="../../media/intensityofcollab.png" alt-text="Grafiek met het aantal bestanden waar het meest aan is samengewerkt.":::
 
-1. **Koptekst:** Hiermee wordt het percentage personen belicht dat toegang heeft tot OneDrive of SharePoint die samenwerken aan vier of meer bestanden.
-2. **Body:** Dit biedt informatie over hoe mensen onlinebestanden kunnen gebruiken voor betere samenwerking.
-3. **Visualisatie:** Hier ziet u een verdeling van de personen die toegang hebben tot OneDrive of SharePoint, op basis van het aantal bestanden waar ze aan samenwerken. Dit wordt weergegeven in de volgende 4 categorieën (voor elk, het blauwe gedeelte van de balk en de breuk vertegenwoordigen het percentage personen dat toegang heeft tot OneDrive of SharePoint die in die categorie vallen):
+1. **Koptekst:** Belicht het percentage personen dat toegang heeft tot OneDrive of SharePoint die samenwerken aan 4 of meer bestanden.
+2. **Body:** Hier vindt u informatie over hoe mensen onlinebestanden kunnen gebruiken voor betere samenwerking.
+3. **Visualisatie:** Toont een verdeling van de personen die toegang hebben tot OneDrive of SharePoint, op basis van het aantal bestanden waar ze aan samenwerken. Dit wordt weergegeven in de volgende 4 categorieën (voor elk, het blauwe gedeelte van de balk en de breuk vertegenwoordigen het percentage personen dat toegang heeft tot OneDrive of SharePoint die in die categorie vallen):
       - **Geen samenwerking:**
-        - **Teller:** Het aantal personen dat de afgelopen 28 dagen niet aan bestanden samenwerkte
-        - **Noemer:** Het totale aantal personen dat ten minste 1 van de laatste 28 dagen toegang heeft tot OneDrive of SharePoint.
+        - Teller: Het aantal personen dat de afgelopen 28 dagen niet aan bestanden samenwerkte.
+        - Noemer: Het totale aantal personen dat ten minste 1 van de laatste 28 dagen toegang heeft tot OneDrive of SharePoint.
       - **Samenwerken aan 1-3 bestanden:**
-        - **Teller:** Het aantal personen dat samenwerkt aan 1-3 bestanden in de afgelopen 28 dagen.
-        - **Noemer:** Het totale aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint.
+        - Teller: Het aantal personen dat samenwerkt aan 1-3 bestanden in de afgelopen 28 dagen.
+        - Noemer: Het totale aantal personen dat ten minste 1 van de laatste 28 dagen toegang heeft tot OneDrive of SharePoint.
       - **Samenwerken aan 4-10 bestanden:**
-        - **Teller:** Het aantal personen dat samenwerkt aan 4-10 bestanden in de afgelopen 28 dagen
-        - **Noemer: Het** totale aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint.
+        - Teller: Het aantal personen dat de afgelopen 28 dagen samenwerkt aan 4-10 bestanden.
+        - Noemer: Het totale aantal personen dat ten minste 1 van de laatste 28 dagen toegang heeft tot OneDrive of SharePoint.
       - **Samenwerken aan 11 of meer bestanden:**
-        - **Teller:** Het aantal personen dat samenwerkt aan 11 of meer bestanden in de afgelopen 28 dagen
-        - **Noemer:** Het totale aantal personen dat ten minste 1 van de afgelopen 28 dagen toegang heeft gehad tot OneDrive of SharePoint.
+        - Teller: Het aantal personen dat samenwerkt aan 11 of meer bestanden in de afgelopen 28 dagen.
+        - Noemer: Het totale aantal personen dat ten minste 1 van de laatste 28 dagen toegang heeft tot OneDrive of SharePoint.
         
 4. **Koppeling naar resources:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
@@ -183,11 +185,11 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
 
 1. **Koptekst:** Markeert het percentage apparaten van alle geteste apparaten met een slechte netwerkverbinding met OneDrive en SharePoint. 
 2. **Body:** Hier vindt u informatie over waarom netwerkverbindingsprestaties belangrijk zijn voor samenwerking. 
-3. **Visualisatie:** toont een percentage apparaten met verschillende niveaus van netwerkconnectiviteitsprestaties met betrekking tot OneDrive en SharePoint:
+3. **Visualisatie:** Toont een percentage apparaten met verschillende niveaus van netwerkconnectiviteitsprestaties met betrekking tot OneDrive en SharePoint:
       - **81-100 (beste)**: Het donkergroene (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met de beste prestaties.
       - **61-80:** Het groene (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met een netwerkprestatiescore tussen 60 en 80. 
       - **41-60:** Het oranje (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met een netwerkprestatiescore tussen 40 en 60. 
-      - **21-40:** Het rode (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met een netwerkprestatiescore tussen 20 en 40. 
+      - **21-40:** Het rode (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met een netwerkprestatiescore tussen 20-40. 
       - **0-20:** Het donkerrood (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met de slechtste netwerkprestatiescore tussen 0-20. 
 
 ## <a name="related-content"></a>Verwante onderwerpen

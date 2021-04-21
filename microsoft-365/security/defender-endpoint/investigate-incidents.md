@@ -1,5 +1,5 @@
 ---
-title: Incidenten in Microsoft Defender ATP onderzoeken
+title: Incidenten in Microsoft Defender voor Eindpunt onderzoeken
 description: Zie bijbehorende waarschuwingen, beheer het incident en zie metagegevens voor waarschuwingen om een incident te onderzoeken
 keywords: onderzoeken, incident, waarschuwingen, metagegevens, risico, detectiebron, beïnvloede apparaten, patronen, correlatie
 search.product: eADQiWindows 10XVcnh
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5a74da55d733d690cb218c78b87b67d6eba6b9d2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1d8f4452273047684a30db3b18d1281f40f46378
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186051"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903296"
 ---
 # <a name="investigate-incidents-in-microsoft-defender-for-endpoint"></a>Incidenten in Microsoft Defender voor Eindpunt onderzoeken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -92,6 +92,6 @@ U kunt op de cirkels in de incidentgrafiek klikken om de details van de schadeli
 ![Afbeelding van incidentdetails](images/atp-incident-graph-details.png)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Wachtrij incidenten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Incidentenwachtrij](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [Incidenten in Microsoft Defender voor Eindpunt onderzoeken](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-incidents)
 - [Microsoft Defender voor eindpuntincidenten beheren](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-incidents)

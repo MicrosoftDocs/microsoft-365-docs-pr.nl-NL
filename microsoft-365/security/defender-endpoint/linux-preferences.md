@@ -1,7 +1,7 @@
 ---
-title: Voorkeuren instellen voor Microsoft Defender ATP voor Linux
+title: Voorkeuren instellen voor Microsoft Defender voor Eindpunt op Linux
 ms.reviewer: ''
-description: Hier wordt beschreven hoe u Microsoft Defender ATP configureert voor Linux in ondernemingen.
+description: Hier wordt beschreven hoe u Microsoft Defender voor Eindpunt op Linux configureert in ondernemingen.
 keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6ca6b3dd41b867145bfc4af331fb742be469d2a9
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 2c162d652656afb61f1d74bad9ec963825d25a14
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688391"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903868"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Voorkeuren instellen voor Microsoft Defender voor Eindpunt op Linux
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het deelnemen aan een team als gast in Microsoft Teams.
-ms.openlocfilehash: 9e60882907021c11d906ce9cd778a0f1eef32beb
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 0260365e8a064dd96cda75c9becf9f82bc6871a3
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578853"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903716"
 ---
 # <a name="join-a-team-as-a-guest"></a>Deelnemen aan een team als gast
 
@@ -48,3 +48,7 @@ Als u een Microsoft Teams-uitnodiging ontvangt om deel te nemen aan een team, zi
 
 1. Open de Microsoft Teams-app en kies  **Ja om**  over te schakelen naar het team waar u voor bent uitgenodigd.  U kunt nu samenwerken aan het project in Teams.
 2. Als u wilt teruggaan naar het team van uw bedrijf, selecteert u deze in  **de**  vervolgkeuzekeuzeknop Organisatie.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Gastervaring in Teams](https://docs.microsoft.com/microsoftteams/guest-experience) (artikel) [Microsoft Teams-instellingen](https://docs.microsoft.com/microsoftteams/enable-features-office-365) voor uw organisatie beheren (artikel) Gebruik gasttoegang en externe toegang om samen te werken met personen buiten [uw](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations) organisatie (artikel)

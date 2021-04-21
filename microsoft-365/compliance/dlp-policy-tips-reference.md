@@ -1,5 +1,5 @@
 ---
-title: Tips voor preventie van gegevensverlies
+title: Beleidstips voor preventie van gegevensverlies (DLP)
 f1.keywords: CSH
 ms.author: chrfox
 author: chrfox
@@ -18,14 +18,14 @@ ms.collection:
 - SPO_Content
 description: Lees hoe u een beleidstip toevoegt aan een DLP-beleid (Data Loss Prevention) om een gebruiker te laten weten dat deze werkt met inhoud die strijd is met een DLP-beleid.
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 693f511b6303fb07d393c62efb4a61631b844474
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 36e4d4f96146b51e0b31731c9e93222eed767045
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876798"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903800"
 ---
-# <a name="data-loss-prevention-policy-tips-reference"></a>Tips voor preventie van gegevensverlies
+# <a name="data-loss-prevention-policy-tips-reference"></a>Beleidstips voor preventie van gegevensverlies (DLP)
 
 DLP-beleidstips in Outlook Web Access worden ondersteund voor alle voorwaarden, uitzonderingen en acties die van toepassing zijn op Exchange-werkbelasting in een DLP-beleid, behalve de volgende:
 
@@ -63,7 +63,6 @@ DLP-beleidstips in Outlook Web Access worden ondersteund voor alle voorwaarden, 
 - HTML-vrijwaring toevoegen
 - Voorbereidend e-mailonderwerp
 - O365-berichtversleuteling en rechtenbescherming verwijderen
-- Verwijderen
 
 ## <a name="outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions"></a>Outlook 2013 en hoger ondersteunt het weergeven van beleidstips voor slechts enkele voorwaarden en uitzonderingen
 
@@ -72,11 +71,11 @@ Momenteel ondersteunt Outlook 2013 en hoger het weergeven van beleidstips voor b
 - Inhoud bevat (werkt alleen voor gevoelige informatietypen. Gevoeligheidslabels worden niet ondersteund)
 - Inhoud wordt gedeeld
 
-Houd er rekening mee dat alle voorwaarden werken voor e-mailberichten die zijn geschreven in de Outlook-client-app, waar ze overeenkomen met inhoud en beschermende acties voor inhoud afdwingen. Het weergeven van beleidstips voor gebruikers wordt echter nog niet ondersteund voor voorwaarden die behalve de hierboven genoemde voorwaarden worden gebruikt.
+Houd er rekening mee dat alle voorwaarden werken voor e-mailberichten die zijn geschreven in de Outlook-client-app, waar ze overeenkomen met inhoud en beschermende acties voor inhoud afdwingen. Het weergeven van beleidstips voor gebruikers wordt echter niet ondersteund voor voorwaarden die behalve de hierboven genoemde voorwaarden worden gebruikt.
 
-## <a name="outlook-2013-and-later-supports-showing-policy-tips-for-only-some-sensitive-information-types"></a>Outlook 2013 en hoger ondersteunt het weergeven van beleidstips voor alleen bepaalde typen gevoelige informatie
+## <a name="outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types"></a>Ondersteuning voor Outlook 2013 en hoger en Office-apps op bureaublad met beleidstips voor slechts enkele typen gevoelige informatie
 
-De lijst met out-of-the-box gevoelige informatietypen die worden gedetecteerd voor het weergeven van DLP-beleidstips in Outlook op bureaublad (2013 en hoger) zijn de volgende:
+De lijst met out-of-the-box gevoelige informatietypen die worden gedetecteerd voor het weergeven van DLP-beleidstips in Outlook op bureaublad (2013 en hoger) en Office-apps (Word, Excel, PowerPoint) op bureaublad zijn de volgende:
 
 - ABA-routeringsnummer
 - Argentina National Identity (DNI) Number
@@ -180,7 +179,7 @@ De lijst met out-of-the-box gevoelige informatietypen die worden gedetecteerd vo
 
 Houd er rekening mee dat aangepaste gevoelige informatietypen ook worden ondersteund voor DLP-beleidstips, naast de bovenstaande kant-en-kijkgevoelige informatietypen.
 
-## <a name="data-loss-prevention-on-endpoint-supports-policy-tips-for-only-some-sensitive-information-types"></a>Preventie van gegevensverlies op eindpunt ondersteunt beleidstips voor alleen bepaalde typen gevoelige informatie
+## <a name="data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types"></a>Preventie van gegevensverlies op eindpuntapparaten ondersteunt beleidstips voor alleen bepaalde typen gevoelige informatie
 
 De lijst met kant-en-weer gevoelige informatietypen die worden gedetecteerd in documenten die zich op eindpuntapparaten bewonen, zijn de volgende:
 
@@ -395,16 +394,16 @@ Houd er rekening mee dat aangepaste gevoelige informatietypen ook worden gedetec
 |**App en platform**|**Ondersteuning voor DLP-beleidstips**|**Ondersteunde typen gevoelige informatie**|**Ondersteunde predicaten en acties**|**Opmerkingen**|
 |:--|:--|:--|:--|:--|
 |**Outlook Web Access**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Subset|Zie [Tips voor beleidstips voor preventie van gegevensverlies](#data-loss-prevention-policy-tips-reference)|
-|**Outlook Win32 (Outlook 2013 en hoger)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|Zie Ondersteuning voor [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) en hoger met beleidstips voor slechts enkele voorwaarden en uitzonderingen en Ondersteuning voor [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-sensitive-information-types) en later met beleidstips voor alleen bepaalde typen gevoelige informatie voor meer informatie over ondersteuning voor gevoelige informatietypen en DLP-voorwaarden en -acties die worden ondersteund voor het weergeven van DLP-beleidstips in Outlook Win32.|
+|**Outlook Win32 (Outlook 2013 en hoger)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|Zie Ondersteuning voor [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) en hoger met beleidstips voor slechts enkele voorwaarden en uitzonderingen en Ondersteuning voor [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) en hoger en Office-apps op bureaublad, met beleidstips voor slechts enkele typen gevoelige informatie voor meer informatie over ondersteuning voor gevoelige informatietypen en DLP-voorwaarden en -acties die worden ondersteund voor het weergeven van DLP-beleidstips in Outlook Win32.|
 |**Outlook Mobile (iOS, Android)/Outlook Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund in Outlook Mobile|
 |**Sharepoint Online/One Drive for Business Web Client**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle SPO/ODB-predicaten en acties in DLP||
 |**Win32/ One Drive for Business Win32-client van Sharepoint**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund in sharepoint- of OneDrive-bureaubladclient-apps|
-|**Word, Excel, Powerpoint Web Client**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle SPO/ODB-predicaten en acties in DLP|DLP-beleidstip wordt ondersteund als het document wordt gehost in de SPO- of ODB-web-app en het DLP-beleid al is gestempeld.|
-|**Word, Excel, Powerpoint Mobile Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund in mobiele apps voor Office.|
+|**Word, Excel, PowerPoint Web Client**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle SPO/ODB-predicaten en acties in DLP|DLP-beleidstip wordt ondersteund als het document wordt gehost in de SPO- of ODB-web-app en het DLP-beleid al is gestempeld.|
+|**Word, Excel, PowerPoint Mobile Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund in mobiele apps voor Office.|
 |**Teams Web/ Teams Desktop/ Teams Mobile/ Teams Mac**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle Teams-predicaten in DLP-beleid|Beleidstips worden weergegeven wanneer een bericht wordt gemarkeerd als 'Dit bericht is gemarkeerd. Wat kan ik doen? Wanneer u op de koppeling klikt, kan de gebruiker de gevoelige informatietypen controleren die zijn gedetecteerd en een probleem kunnen overschrijven of rapporteren indien toegestaan door de beheerder. Houd er rekening mee dat er geen beleidstips worden weergegeven voor bestanden. Wanneer de geadresseerde toegang probeert te krijgen tot het document, krijgen ze mogelijk toegang geweigerd als dit niet is toegestaan.|
-|**Win32 Endpoint-apparaten**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Alle endpoint DLP-predicaten en acties in DLP-beleid|Zie [Preventie van gegevensverlies op Eindpunt ondersteunt beleidstips voor alleen bepaalde typen gevoelige informatie](#data-loss-prevention-on-endpoint-supports-policy-tips-for-only-some-sensitive-information-types)|
-|**Mac-apparaten**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|Preventie van gegevensverlies kan vandaag niet worden afgedwongen op Mac-apparaten|
-|**Cloud-apps van derden**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|Preventie van gegevensverlies|
+|**Win32 Endpoint-apparaten**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Alle endpoint DLP-predicaten en acties in DLP-beleid|Zie [Preventie van gegevensverlies op Eindpunt ondersteunt beleidstips voor alleen bepaalde typen gevoelige informatie](#data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types)|
+|**Mac-apparaten**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|Beleid voor preventie van gegevensverlies kan momenteel niet worden afgedwongen op Mac-apparaten|
+|**Cloud-apps van derden**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|Tips voor preventie van gegevensverlies worden niet ondersteund in cloud-apps van derden|
 |**On-prem**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen||
-|**Word, Excel, Powerpoint Win32-client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Subset|Subset|Beleidstips voor WXP-client-apps werken voor documenten die zijn opgeslagen op Sharepoint Online of One Drive for Business Sites voor alle DLP-beleidsregels die precies de onderstaande of een subset met voorwaarden of acties in het DLP-beleid bevatten:</br> <ul><li>Inhoud bevat gevoelige informatietypen</li><li>Access-bereik (Inhoud wordt intern/extern gedeeld)</li><li>Gebruiker op de hoogte stellen (beleidstips/gebruikersmeldingen)</li><li>Iedereen blokkeren</li><li>Incidentenrapporten</li></ul></br> Als er een andere voorwaarde of actie aanwezig is, wordt de DLP-beleidstip voor dat beleid niet weergegeven in de bureaublad-apps van Word, Excel of PowerPoint.|
+|**Word, Excel, PowerPoint Win32-client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Subset|Subset|Zie [Ondersteuning voor Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) en hoger en Office-apps op bureaublad met beleidstips voor alleen bepaalde typen gevoelige informatie voor de lijst met ondersteunde typen gevoelige informatie</br></br>Beleidstips voor WXP-client-apps werken voor documenten die zijn opgeslagen op Sharepoint Online of One Drive for Business Sites voor alle DLP-beleidsregels die precies de onderstaande of een subset met voorwaarden of acties in het DLP-beleid bevatten:</br> <ul><li>Inhoud bevat gevoelige informatietypen</li><li>Access-bereik (Inhoud wordt intern/extern gedeeld)</li><li>Gebruiker op de hoogte stellen (beleidstips/gebruikersmeldingen)</li><li>Iedereen blokkeren</li><li>Incidentenrapporten</li></ul></br> Als er een andere voorwaarde of actie aanwezig is, wordt de DLP-beleidstip voor dat beleid niet weergegeven in de bureaublad-apps van Word, Excel of PowerPoint.</br>Zie [Beleidstips in Excel, PowerPoint en Word voor](use-notifications-and-policy-tips.md#policy-tips-in-excel-powerpoint-and-word) meer informatie|
 ||||||

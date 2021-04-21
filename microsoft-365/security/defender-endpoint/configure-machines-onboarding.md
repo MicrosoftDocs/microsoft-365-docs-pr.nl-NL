@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5e20c424f15561c8b6f0544b80aca6e30c56409d
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 09ca9fb466efd7764f7459a4754cfb30c8100bdb
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893327"
+ms.locfileid: "51904138"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>Apparaten in gebruik nemen bij Microsoft Defender voor Eindpunt
 
@@ -55,8 +55,8 @@ Defender voor Eindpunt biedt verschillende handige opties voor [het onboarden va
 
 Selecteer op **de Onboarding-kaart** **Meer apparaten onboarden om** een profiel op Intune te maken en toe te wijzen. De koppeling brengt u naar de pagina apparaat compliance op Intune, die een vergelijkbaar overzicht biedt van uw onboarding-status.
 
-![Microsoft Defender ATP-apparaat compliancepagina op Intune-apparaatbeheer](images/secconmgmt_onboarding_1deviceconfprofile.png)<br>
-   *Microsoft Defender ATP-apparaat compliancepagina op Intune-apparaatbeheer*
+![Microsoft Defender for Endpoint device compliance page on Intune device management](images/secconmgmt_onboarding_1deviceconfprofile.png)<br>
+   *Microsoft Defender for Endpoint device compliance page on Intune device management*
 
 >[!TIP]
 >U kunt ook navigeren naar de compliancepagina van Defender voor eindpunten in de [Microsoft Azure-portal](https://portal.azure.com/) van **Alle services > Intune > Apparaat compliance > Microsoft Defender ATP.**

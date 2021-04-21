@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 482f86d4a0a181b72a0a33eeb1a857dce0664584
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: e68a8c35fb1028fa8e60cf52a8e8bb411a534b19
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893647"
+ms.locfileid: "51903776"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Voorwaardelijke toegang configureren in Microsoft Defender voor eindpunt
 
@@ -98,7 +98,7 @@ Ga als volgt te werk om Voorwaardelijke toegang in te stellen:
 
 ### <a name="step-4-assign-the-policy"></a>Stap 4: Het beleid toewijzen
 1. Selecteer in [de Azure-portal](https://portal.azure.com) **Alle services**, filter op **Intune** en selecteer **Microsoft Intune.**
-2. Selecteer **Apparaat**  >  **compliancebeleid>** microsoft Defender ATP-compliancebeleid selecteren.
+2. Selecteer **Apparaat**  >  **compliancebeleid>** microsoft Defender voor endpoint compliancebeleid te selecteren.
 3. Kies **Opdrachten**.
 4. Neem uw Azure AD-groepen op of sluit deze uit om ze het beleid toe te wijzen.
 5. Als u het beleid wilt implementeren voor de groepen, selecteert u **Opslaan.** De gebruikersapparaten die het doel zijn van het beleid, worden geëvalueerd op naleving.
@@ -114,6 +114,6 @@ Ga als volgt te werk om Voorwaardelijke toegang in te stellen:
 
 6. Selecteer **Beleid inschakelen** en vervolgens **Maken om** uw wijzigingen op te slaan.
 
-Zie Microsoft [Defender ATP inschakelen met voorwaardelijke toegang in Intune](https://docs.microsoft.com/intune/advanced-threat-protection)voor meer informatie.
+Zie Naleving afdwingen voor Microsoft Defender voor Eindpunt met [Voorwaardelijke toegang in Intune](https://docs.microsoft.com/intune/advanced-threat-protection)voor meer informatie.
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-belowfoldlink)

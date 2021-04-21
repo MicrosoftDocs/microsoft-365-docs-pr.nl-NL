@@ -1,6 +1,6 @@
 ---
-title: Privacy voor Microsoft Defender ATP voor Linux
-description: Privacybesturingselementen, het configureren van beleidsinstellingen die van invloed zijn op de privacy en informatie over de diagnostische gegevens die worden verzameld in Microsoft Defender ATP voor Linux.
+title: Privacy voor Microsoft Defender voor Eindpunt op Linux
+description: Privacybesturingselementen, het configureren van beleidsinstellingen die van invloed zijn op de privacy en informatie over de diagnostische gegevens die worden verzameld in Microsoft Defender voor Eindpunt op Linux.
 keywords: microsoft, defender, atp, linux, privacy, diagnostische
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: aaf537c84adaba3d632367567cc569069650d21a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 69af56efa57f389842ed31afa5f0a74667bd8f7b
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688355"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903248"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Privacy voor Microsoft Defender voor Eindpunt op Linux
 

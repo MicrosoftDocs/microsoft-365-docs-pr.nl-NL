@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 362222e4737b1a8dd6b8a0a284bf3bfb1903c288
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: aa699aae24b1e6383f5a2afbe7fce31e0f53805c
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861444"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903926"
 ---
 # <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Defender voor eindpunt implementeren op Linux met Chef
 
@@ -110,7 +110,7 @@ end
 
 Zorg ervoor dat u de padnaam bijwerkt naar de locatie van het onboarding-bestand.
 Als u de implementatie wilt testen op het werkstation Van Kok, voer dan gewoon ``sudo chef-client -z -o mdatp`` uit.
-Na de implementatie moet u overwegen om een configuratiebestand te maken en te implementeren op basis van Set  [preferences for Microsoft Defender ATP for Linux - Windows security | Microsoft Docs](/windows/security/threat-protection/microsoft-defender-atp/linux-preferences).  
+Na de implementatie moet u overwegen om een configuratiebestand te maken en te implementeren op de servers op basis van Voorkeuren instellen voor [Microsoft Defender voor Eindpunt op Linux.](/linux-preferences.md)  
 Nadat u het configuratiebestand hebt gemaakt en getest, kunt u het in de map kookboek/mdatp/bestanden plaatsen waar u ook het onboarding-pakket hebt geplaatst.  Vervolgens kunt u een settings_mdatp.rb-bestand maken in de map mdatp/recipies en deze tekst toevoegen:
 
 ```powershell

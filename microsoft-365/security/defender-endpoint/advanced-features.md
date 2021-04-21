@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c5e6edb40254ab905ef5ef3ddef9bf8bf54fc54b
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 9c77cb19731e55976058ce2f628baf4026639949
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698266"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903788"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Geavanceerde functies configureren in Defender voor Eindpunt
 
@@ -71,8 +71,7 @@ Schakel deze functie in, zodat mogelijk ongewenste toepassingen (PUA) worden ges
 
 
 ## <a name="restrict-correlation-to-within-scoped-device-groups"></a>Correlatie beperken tot binnen bereik van apparaatgroepen
-Wanneer deze instelling is ingeschakeld, worden waarschuwingen gecorreleerd in afzonderlijke incidenten op basis van hun bereikapparaatgroep. Incident correlatie vindt standaard plaats in het hele tenantbereik.
-
+Deze configuratie kan worden gebruikt voor scenario's waarin lokale soc-bewerkingen de correlaties van waarschuwingen alleen willen beperken tot apparaatgroepen die ze kunnen openen. Door deze instelling in te stellen, wordt een incident dat bestaat uit waarschuwingen die verschillende apparaatgroepen zijn, niet langer als één incident beschouwd. De lokale soc kan dan actie ondernemen op het incident omdat ze toegang hebben tot een van de betrokken apparaatgroepen. Globale SOC ziet echter verschillende incidenten per apparaatgroep in plaats van één incident. U wordt niet aangeraden deze instelling in te stellen, tenzij dit de voordelen van incidentcorrelatie in de hele organisatie opweegt
 >[!NOTE]
 >Het wijzigen van deze instelling heeft alleen gevolgen voor toekomstige waarschuwingscorrelatie.
 

@@ -1,5 +1,5 @@
 ---
-title: Informatiebeveiliging in Windows-overzicht
+title: Overzicht van informatiebeveiliging in Windows
 ms.reviewer: ''
 description: Meer informatie over hoe informatiebeveiliging in Windows werkt om gevoelige informatie te identificeren en te beveiligen
 keywords: informatie, beveiliging, dlp, gegevens, verlies, preventie, bescherming
@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 733f86ed48b9cc7a68fb0cd346c7b15fdcc3ce65
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 803c0af0c495eedfd26023d4e71d98df6a1b1b64
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187503"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904020"
 ---
-# <a name="information-protection-in-windows-overview"></a>Informatiebeveiliging in Windows-overzicht
+# <a name="information-protection-in-windows-overview"></a>Overzicht van informatiebeveiliging in Windows
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -41,7 +41,7 @@ Informatiebeveiliging is een integraal onderdeel van de Microsoft 365 Enterprise
 
 
 >[!TIP]
-> Lees ons blogbericht over de integratie van Microsoft Defender ATP met Microsoft Information Protection om gevoelige gegevens op [Windows-apparaten te ontdekken,](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)te beveiligen en te bewaken.
+> Lees ons blogbericht over hoe Microsoft Defender voor Eindpunt (voorheen Microsoft Defender ATP genoemd) integreert met Microsoft Information Protection om gevoelige gegevens op Windows-apparaten te ontdekken, te beveiligen en te [bewaken.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
 
 Defender voor Eindpunt past de volgende methoden toe om gegevens te ontdekken, te classificeren en te beveiligen:
 

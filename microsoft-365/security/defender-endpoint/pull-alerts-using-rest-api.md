@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a7d13da6abfb2cd6c829b6fd04fdf94de8cd20b8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 06028f64a3340aeeef52269bc8a1e739d18e6db7
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186867"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903116"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>Microsoft Defender voor eindpuntdetecties trekken met behulp van SIEM REST API
 
@@ -29,7 +29,7 @@ ms.locfileid: "51186867"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -125,7 +125,7 @@ sinceTimeUtc | DateTime | Hiermee definieert u de waarschuwingen met een lagere 
 untilTimeUtc | DateTime | Hiermee definieert u de waarschuwingen voor de hoogste tijdsgebonden waarschuwingen die worden opgehaald. <br> Het tijdbereik is: van `sinceTimeUtc` tijd tot `untilTimeUtc` tijd. <br><br> **OPMERKING:** Wanneer dit niet is opgegeven, is de standaardwaarde de huidige tijd.
 geleden | tekenreeks | Haalt waarschuwingen in de volgende tijdsbereik op: van `(current_time - ago)` tijd tot `current_time` tijd. <br><br> Waarde moet worden ingesteld op basis van **de ISO 8601-duurnotatie** <br> Voorbeeld: in de afgelopen 10 minuten worden waarschuwingen `ago=PT10M` binnengekomen.
 limiet | int | Hiermee wordt het aantal waarschuwingen definieerd dat moet worden opgehaald. De meest recente waarschuwingen worden opgehaald op basis van het gedefinieerde getal.<br><br> **OPMERKING:** Wanneer dit niet is opgegeven, worden alle beschikbare waarschuwingen in het tijdbereik opgehaald.
-machinegroepen | tekenreeks | Hiermee geeft u apparaatgroepen op waar u waarschuwingen vandaan wilt halen. <br><br> **OPMERKING:** Wanneer dit niet is opgegeven, worden waarschuwingen van alle apparaatgroepen opgehaald. <br><br> Voorbeeld: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/Alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
+machinegroepen | tekenreeks | Hiermee geeft u apparaatgroepen op waar u waarschuwingen vandaan wilt halen. <br><br> **OPMERKING:** Wanneer dit niet is opgegeven, worden waarschuwingen van alle apparaatgroepen opgehaald. <br><br> Voorbeeld: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
 DeviceCreatedMachineTags | tekenreeks | Eén apparaatlabel uit het register.
 CloudCreatedMachineTags | tekenreeks | Apparaatlabels die zijn gemaakt in het Microsoft Defender-beveiligingscentrum.
 

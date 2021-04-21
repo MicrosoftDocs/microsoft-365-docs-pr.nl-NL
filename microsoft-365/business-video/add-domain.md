@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het toevoegen van een ander domein aan uw abonnement.
-ms.openlocfilehash: 8899cb9667ffa080746ca9173b61897f9c5db399
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a641005913f7dfd866366f0f8065019dd5c17fe8
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578999"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903740"
 ---
 # <a name="add-another-domain"></a>Ander domein toevoegen
 
@@ -53,3 +53,7 @@ Als u e-mail wilt ontvangen op uw nieuwe domein, moet u een nieuwe e-mailalias v
 1. Voer de gebruikersnaam in en kies het nieuwe domein in de vervolgkeuzelijst.
 1. Selecteer **Wijzigingen opslaan** en sluit het venster.
 1. Herhaal deze stappen voor elke gebruiker die e-mail moet ontvangen bij het nieuwe domein.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+Een domein toevoegen aan [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) (artikel) [DNS-records](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) toevoegen om uw domein te verbinden (artikel) Naamservers wijzigen om [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar) in te stellen met een domeinregistrar (artikel) [Veelgestelde](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) vragen over domeinen (artikel)

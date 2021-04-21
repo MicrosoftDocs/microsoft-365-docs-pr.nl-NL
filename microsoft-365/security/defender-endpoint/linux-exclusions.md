@@ -1,6 +1,6 @@
 ---
-title: Uitsluitingen configureren en valideren voor Microsoft Defender ATP voor Linux
-description: Uitsluitingen voor Microsoft Defender ATP voor Linux verstrekken en valideren. Uitsluitingen kunnen worden ingesteld voor bestanden, mappen en processen.
+title: Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op Linux
+description: Uitsluitingen voor Microsoft Defender voor Eindpunt op Linux verstrekken en valideren. Uitsluitingen kunnen worden ingesteld voor bestanden, mappen en processen.
 keywords: microsoft, defender, atp, linux, exclusions, scans, antivirus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fbc8fe7ef6f9af86debdeb0826865c88e86b2c6a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 56fe152532b77f7f04c9edd52998fea83493adfe
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688187"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903938"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op Linux
 
@@ -63,7 +63,7 @@ Proces | Een specifiek proces (opgegeven door het volledige pad of de bestandsna
 
 Bestands-, map- en procesuitsluitingen ondersteunen de volgende jokertekens:
 
-Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
+Jokerteken | Beschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 ---|---|---|---|---
 \* |    Komt overeen met een aantal tekens, inclusief geen tekens (houd er rekening mee dat wanneer dit jokerteken binnen een pad wordt gebruikt, dit slechts één map vervangt) | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
 ? | Komt overeen met een enkel teken | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`

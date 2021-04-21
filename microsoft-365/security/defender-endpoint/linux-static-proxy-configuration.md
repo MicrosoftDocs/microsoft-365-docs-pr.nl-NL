@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP voor Linux statische proxydetectie
+title: Microsoft Defender for Endpoint on Linux static proxy discovery
 ms.reviewer: ''
-description: Hier wordt beschreven hoe u Microsoft Defender ATP configureert voor statische proxydetectie.
+description: Hier wordt beschreven hoe u Microsoft Defender configureert voor Eindpunt op Linux, voor statische proxydetectie.
 keywords: microsoft, defender, atp, linux, installatie, proxy
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 93d654773fc73903cbe0c5de289dcfdf9fd34f9f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: e59727b6bb5fca58595764fc003009891546d8f6
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687851"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903844"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-linux-for-static-proxy-discovery"></a>Microsoft Defender voor eindpunt configureren op Linux voor statische proxydetectie
 
@@ -36,7 +36,7 @@ ms.locfileid: "51687851"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Microsoft Defender ATP kan een proxyserver ontdekken met de ```HTTPS_PROXY``` omgevingsvariabele. Deze instelling moet zowel **tijdens** de installatie als nadat het product is geïnstalleerd, zijn geconfigureerd.
+Microsoft Defender voor Eindpunt kan een proxyserver ontdekken met behulp van de ```HTTPS_PROXY``` omgevingsvariabele. Deze instelling moet zowel **tijdens** de installatie als nadat het product is geïnstalleerd, zijn geconfigureerd.
 
 ## <a name="installation-time-configuration"></a>Installatietijdconfiguratie
 

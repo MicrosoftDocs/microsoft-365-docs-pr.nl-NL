@@ -1,7 +1,7 @@
 ---
-title: App-implementatie voor Microsoft Defender ATP voor iOS
+title: App-implementatie voor Microsoft Defender voor Eindpunt op iOS
 ms.reviewer: ''
-description: Beschrijft hoe u Microsoft Defender ATP voor iOS implementeert met een app
+description: Beschrijft hoe u Microsoft Defender voor Eindpunt implementeert in iOS met een app
 keywords: microsoft, defender, atp, ios, app, installatie, implementeren, verwijderen, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6cfd2953e752ed9c96f7f16a3ec7ea1fd8862ab2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 4ddaf8759fa0f2ffb4ed3eb3bb940426dfb3da2c
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689735"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904056"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor eindpunt implementeren in iOS
 
@@ -44,7 +44,7 @@ In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt voor iOS implemen
 - Zorg ervoor dat iOS-registratie is gedaan voor uw gebruikers. Gebruikers moeten een Defender voor Eindpunt-licentie hebben toegewezen om Defender voor Eindpunt voor iOS te kunnen gebruiken. Raadpleeg [Licenties toewijzen aan gebruikers voor](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) instructies over het toewijzen van licenties.
 
 > [!NOTE]
-> Microsoft Defender ATP (Microsoft Defender voor Eindpunt) voor iOS is nu beschikbaar in de [Apple App Store.](https://aka.ms/mdatpiosappstore)
+> Microsoft Defender voor Eindpunt op iOS is nu beschikbaar in de [Apple App Store.](https://aka.ms/mdatpiosappstore)
 
 ## <a name="deployment-steps"></a>Implementatiestappen
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 220e4e6546899dd00f3a02bf83039a928be4f8dc
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: bfc8724f8dc27aa2475c293e7370488b2ea392b8
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498849"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903752"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Aangepaste detectieregels maken en beheren
 
@@ -178,6 +178,9 @@ U behoudt de controle over de breedheid of specificiteit van uw aangepaste detec
 
 ## <a name="manage-existing-custom-detection-rules"></a>Bestaande aangepaste detectieregels beheren
 U kunt de lijst met bestaande aangepaste detectieregels bekijken, de eerdere versies controleren en de waarschuwingen bekijken die ze hebben geactiveerd. U kunt ook een regel op aanvraag uitvoeren en deze wijzigen.
+
+>[!TIP]
+> Waarschuwingen die door aangepaste detecties worden opgehaald, zijn beschikbaar via waarschuwingen en incident-API's. Zie Ondersteunde [Microsoft 365 Defender-API's](api-supported.md)voor meer informatie.
 
 ### <a name="view-existing-rules"></a>Bestaande regels weergeven
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het wijzigen van de naam of het e-mailadres van een gebruiker.
-ms.openlocfilehash: 6c08110e8725645f2e1d0deffcadd9f34354e1f9
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 0f2a378cccf2def9cd951483b23a11c2a414607d
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580676"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903728"
 ---
 # <a name="change-a-users-name-or-email-address"></a>De naam of het e-mailadres van een gebruiker wijzigen
 
@@ -60,3 +60,7 @@ Af en toe moet u mogelijk de naam of het e-mailadres van een gebruiker wijzigen.
 1. Voer de nieuwe gebruikersnaam in, controleer het domein en selecteer **Wijzigingen opslaan.**
 
     Als gevolg van deze wijziging moet de gebruiker zich aanmelden bij Microsoft 365 met deze nieuwe gebruikersnaam en het nieuwe e-mailaccount toevoegen aan Outlook.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Postvakmachtigingen geven aan een andere gebruiker](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user) (artikel) Een gebruikerspostvak converteren naar een gedeeld [postvak](https://docs.microsoft.com/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox) (artikel) [Gebruikers-e-mailinstellingen](https://docs.microsoft.com/microsoft-365/admin/email/office-365-user-email-settings) (artikel)

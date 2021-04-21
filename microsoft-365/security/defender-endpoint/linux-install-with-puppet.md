@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP voor Linux implementeren met Puppet
+title: Microsoft Defender voor eindpunt implementeren op Linux met Puppet
 ms.reviewer: ''
-description: Hier wordt beschreven hoe u Microsoft Defender ATP voor Linux implementeert met Behulp van Poppenspel.
+description: Hier wordt beschreven hoe u Microsoft Defender voor Eindpunt op Linux implementeert met Behulp van Poppenspel.
 keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 562433ee52b2e39716e933c67c706f030195bd2f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 413f8113d2f782c0a57d648a6db8178f2e522270
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688415"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903880"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Microsoft Defender voor eindpunt implementeren op Linux met Puppet
 
@@ -120,7 +120,7 @@ Vervang *[distro]* en *[versie]* in de onderstaande opdrachten door de gegevens 
 > In het geval van RedHat, Oracle EL en CentOS 8 vervangt *u [distro] door* 'rhel'.
 
 ```puppet
-# Puppet manifest to install Microsoft Defender ATP.
+# Puppet manifest to install Microsoft Defender for Endpoint on Linux.
 # @param channel The release channel based on your environment, insider-fast or prod.
 # @param distro The Linux distribution in lowercase. In case of RedHat, Oracle EL, and CentOS 8, the distro variable should be 'rhel'.
 # @param version The Linux distribution release number, e.g. 7.4.

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 406a0e699ea563670f41355d122aa54ba8667a0e
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 705b1fffbc38282441f66e0dc411cf09699cb3f9
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687743"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903764"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender voor Eindpunt op Mac
 
@@ -86,6 +86,8 @@ De drie meest recente grote versies van macOS worden ondersteund.
 - Schijfruimte: 1 GB
 
 Bètaversies van macOS worden niet ondersteund.
+
+macOS-apparaten met M1-processors worden niet ondersteund.
 
 Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall configureren om uitgaande verbindingen tussen de service en uw eindpunten toe te staan.
 

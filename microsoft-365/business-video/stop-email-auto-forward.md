@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het stoppen van het automatisch doorsturen van e-mailberichten.
-ms.openlocfilehash: b6715cfdf8622521d977e0746cb9a340a8f70a5c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f8bd599c7c8bca8d4789188acbcd3574b7473dcb
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578601"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903680"
 ---
 # <a name="stop-email-auto-forward"></a>E-mail automatisch doorsturen stoppen
 
@@ -47,3 +47,7 @@ Als een hacker toegang krijgt tot het postvak van een gebruiker, kunnen ze de e-
 1. Schuif naar de onderkant en selecteer **Opslaan.**
 
     Uw regel is gemaakt en hackers kunnen berichten niet meer automatisch doorsturen.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Een andere e-mailalias](https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user) voor een gebruiker toevoegen (artikel) E-mail doorsturen [configureren in Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding) (artikel) Problemen met e-mailbezorging zoeken en oplossen als beheerder van [Office 365](https://docs.microsoft.com/exchange/troubleshoot/email-delivery/email-delivery-issues) voor Bedrijven (artikel)

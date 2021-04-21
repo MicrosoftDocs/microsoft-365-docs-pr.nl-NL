@@ -1,6 +1,6 @@
 ---
 title: Verbindingsgebeurtenissen achter forward-proxies onderzoeken
-description: Meer informatie over het gebruik van geavanceerde HTTP-niveaucontrole via netwerkbeveiliging in Microsoft Defender ATP, waarmee een reëel doel wordt bereikt in plaats van een proxy.
+description: Meer informatie over het gebruik van geavanceerde http-niveaucontrole via netwerkbeveiliging in Microsoft Defender voor Eindpunt, waarmee een reëel doel wordt bereikt in plaats van een proxy.
 keywords: proxy, netwerkbeveiliging, doorgestuurde proxy, netwerkgebeurtenissen, audit, blok, domeinnamen, domein
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 28d8a113ed77e9624bd914571b1af4a7ece2aa5c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 47be07759a72a080a3687ed3bb50cef9d0a959b7
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587561"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904044"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>Verbindingsgebeurtenissen achter forward-proxies onderzoeken
 

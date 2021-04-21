@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 01b3310f5f822f3f6f38bf4d9e727d41fe2b179b
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 290c06d95c6569b5a446a7a7410d34ff3b57055d
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760108"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904068"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
 
@@ -70,12 +70,12 @@ Wanneer een gebruiker zijn of haar verbinding met een onderwerp bevestigt, kan d
 
 ## <a name="manage-topics-page"></a>Pagina Onderwerpen beheren
 
-Als u wilt werken in de sectie **Onderwerpen** beheren van het onderwerpcentrum, moet u de vereiste machtigingen voor onderwerp beheren hebben die nodig zijn voor de rol van knowledge manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen achteraf worden toegevoegd door een beheerder via het Microsoft 365-beheercentrum.
+Als u wilt werken in de sectie **Onderwerpen** beheren van het onderwerpcentrum, moet u de vereiste machtigingen onderwerp beheren hebben die nodig zijn voor de rol van kennisbeheerder. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen achteraf worden toegevoegd door een beheerder via het Microsoft 365-beheercentrum.
 
 Op de pagina Onderwerpen beheren worden in het onderwerpdashboard alle onderwerpen weergegeven die u hebt, die zijn geïdentificeerd op basis van de opgegeven bronlocaties. In elk onderwerp wordt de datum van het onderwerp gevonden. Een gebruiker aan wie machtigingen voor onderwerpen beheren zijn toegewezen, kan de onbevestigde onderwerpen bekijken en ervoor kiezen om:
-- Bevestig het onderwerp: hiermee wordt het onderwerp belicht voor gebruikers die toegang hebben tot de bestanden en pagina's die betrekking hebben op het onderwerp, en kunnen ze de bijbehorende onderwerpkaart en onderwerppagina zien.
+- Bevestig het onderwerp: Geeft gebruikers aan dat een AI-voorgesteld onderwerp is gevalideerd door een menselijke curator. 
 - Publiceer het onderwerp: Bewerk de onderwerpgegevens om de kwaliteit van het onderwerp te verbeteren dat in eerste instantie is geïdentificeerd, en belicht het onderwerp voor alle gebruikers die toegang hebben tot onderwerpen. 
-- Het onderwerp afwijzen: Maakt het onderwerp niet beschikbaar voor gebruikers. Het onderwerp wordt verplaatst naar het tabblad **Geweigerd** en kan zo nodig later worden bevestigd. 
+- Het onderwerp afwijzen: maakt het onderwerp onontdekt voor eindgebruikers. Het onderwerp wordt verplaatst naar het tabblad **Geweigerd** en kan zo nodig later worden bevestigd. 
 
 > [!Note] 
 > Zie [Onderwerpen beheren voor](manage-topics.md) meer informatie over onderwerpen beheren op de pagina Onderwerpen beheren.
