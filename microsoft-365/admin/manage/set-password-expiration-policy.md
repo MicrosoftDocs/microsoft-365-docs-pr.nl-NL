@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Informatie over het instellen van een verloopbeleid voor wachtwoorden voor uw bedrijf in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 0280f4fd43034f9ffb70104771fa4a099943af2d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 14ff08126533d5c530fb56761a2ef1676d5864b8
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500237"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903152"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen:
 
@@ -45,7 +45,7 @@ Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een be
 
 Als beheerder kun je instellen dat gebruikerswachtwoorden na een bepaald aantal dagen verlopen of dat deze nooit verlopen. Wachtwoorden zijn standaard zo ingesteld dat ze nooit verlopen voor jouw organisatie.
 
-Recent onderzoek geeft sterk aan dat verplichte wachtwoordwijzigingen meer kwaad dan goed doen. Gebruikers kiezen dan voor zwakkere wachtwoorden, hergebruik van wachtwoorden of ze werken oude wachtwoorden bij op een manier die eenvoudig te raden is voor hackers. Het is raadzaam om [meervoudige verificatie](../security-and-compliance/set-up-multi-factor-authentication.md) in te stellen.
+Recent onderzoek geeft sterk aan dat verplichte wachtwoordwijzigingen meer kwaad dan goed doen. Gebruikers kiezen dan voor zwakkere wachtwoorden, hergebruik van wachtwoorden of ze werken oude wachtwoorden bij op een manier die eenvoudig te raden is voor hackers. Het is raadzaam om [meervoudige verificatie](../security-and-compliance/set-up-multi-factor-authentication.md) in te stellen. Voor meer informatie over wachtwoordbeleid raadpleegt u [Aanbevelingen voor wachtwoordbeleid](../misc/password-policy-recommendations.md).
 
 Je moet een [globale beheerder](../add-users/about-admin-roles.md) zijn om deze stappen uit te voeren.
 
