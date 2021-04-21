@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4187cc69acba30ae5cbcad093d91ec291b42bca5
-  ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+  ms.openlocfilehash: 1085b54a4b879a316b57cad89e138a73c871370e
+  ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 03/26/2021
-  ms.locfileid: "51382493"
+  ms.lasthandoff: 04/20/2021
+  ms.locfileid: "51904174"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -26,8 +26,64 @@ landingContent:
     links:
     - text: Wat is Microsoft 365 Defender?
       url: ../defender/microsoft-365-defender.md
-    - text: Microsoft 365-beveiligingscentrum
-      url: ../defender/overview-security-center.md
+  - linkListType: whats-new
+    links:
+    - text: Nieuwe iMicrosoft 365 Defender
+      url: ../defender/whats-new.md
+  - linkListType: video
+    links:
+    - text: Overzichtsvideo
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4Bzww
+- title: Mogelijkheden evalueren
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Een testlab maken
+      url: m365d-evaluation.md
+    - text: Pilotproject uitvoeren in productie
+      url: m365d-pilot.md
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Aan de slag met Microsoft 365 Defender
+      url: get-started.md
+  - linkListType: deploy
+    links:
+    - text: Microsoft 365 Defender inschakelen
+      url: m365d-enable.md
+    - text: Ondersteunde services implementeren
+      url: deploy-supported-services.md
+- title: Microsoft Defender for Identity
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Microsoft Defender for Identity?
+      url: /azure-advanced-threat-protection/what-is-atp
+    - text: Microsoft Defender for Identity-architectuur
+      url: /azure-advanced-threat-protection/atp-architecture
+- title: Microsoft Defender voor Office 365
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Defender voor Office 365?
+      url: /office-365-security/defender-for-office-365
+    - text: Beschrijving van Defender voor Office 365-service
+      url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+    - text: Defender voor Office 365 in Microsoft 365 Defender
+      url: /defender/microsoft-365-security-center-mdo
+    - text: Defender omleiden voor Office 365 in Microsoft 365 Defender
+      url: /defender/microsoft-365-security-mdo-redirection
+- title: Microsoft Defender voor Eindpunt
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Microsoft Defender voor Eindpunt?
+      url: /defender-endpoint/microsoft-defender-endpoint
+    - text: Defender voor Eindpunt in Microsoft 365 Defender
+      url: /defender/microsoft-365-security-cente
+    - text: Defender omleiden voor eindpunt in Microsoft 365 Defender
+      url: /defender/microsoft-365-security-mde-redirection
 - title: Microsoft 365-beveiligingscentrum
   linkLists:
   - linkListType: overview
@@ -38,13 +94,29 @@ landingContent:
       url: microsoft-365-security-center-mde.md
     - text: Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
       url: ../defender/microsoft-365-security-center-mdo.md
+- title: Microsoft Cloud App Security
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Microsoft Cloud App Security?
+      url: /cloud-app-security/what-is-cloud-app-security
+    - text: Aan de slag met Microsoft Cloud App Security
+      url: /cloud-app-security/getting-started-with-cloud-app-security
 - title: Incidenten en waarschuwingen beheren
   linkLists:
   - linkListType: overview
     links:
     - text: Incidenten onderzoeken
       url: investigate-incidents.md
+    - text: Nieuwe bedreigingen bijhouden en beantwoorden
+      url: threat-analytics.md
     - text: Geautomatiseerd onderzoek en reactie
       url: m365d-autoir.md
     - text: Op bedreigingen zoeken
       url: advanced-hunting-overview.md
+- title: Verwijzing
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Microsoft 365 Defender API's (preview)
+      url: api-overview.md
