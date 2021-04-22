@@ -457,6 +457,7 @@
 ####### [Lijstwaarschuwingen](get-alerts.md)
 ####### [Waarschuwing maken](create-alert-by-reference.md)
 ####### [Waarschuwing bijwerken](update-alert.md)
+####### [Melding over batch-update](batch-update-alerts.md)
 ####### [Waarschuwingsgegevens per id ophalen](get-alert-info-by-id.md)
 ####### [Domeingegevens met betrekking tot waarschuwingen ophalen](get-alert-related-domain-info.md)
 ####### [Bestandsgegevens met betrekking tot waarschuwingen ophalen](get-alert-related-files-info.md)
@@ -501,6 +502,7 @@
 
 ###### [Indicatoren]()
 ####### [Methoden en eigenschappen van indicatoren](ti-indicator.md)
+####### [Indicatoren importeren](import-ti-indicators.md)
 ####### [Indicator verzenden](post-ti-indicator.md)
 ####### [Lijst van indicatoren](get-ti-indicators-collection.md)
 ####### [Indicator verwijderen](delete-ti-indicator-by-id.md)

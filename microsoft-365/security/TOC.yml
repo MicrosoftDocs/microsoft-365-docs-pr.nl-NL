@@ -129,15 +129,15 @@
                   href: defender/incidents-overview.md
                 - name: Prioriteit geven aan incidenten
                   href: defender/incident-queue.md
-                - name: Incidenten onderzoeken
+                - name: Incidenten beheren
+                  href: defender/manage-incidents.md
+                - name: Incidentreactie
                   items:
-                    - name: Incidenten onderzoeken
+                    - name: Incidenten analyseren
                       href: defender/investigate-incidents.md
-                    - name: Incidenten beheren
-                      href: defender/manage-incidents.md
-                    - name: Waarschuwingen onderzoeken
+                    - name: Waarschuwingen analyseren
                       href: defender/investigate-alerts.md
-                    - name: Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
+                    - name: Gebruikers analyseren
                       href: defender/investigate-users.md
                 - name: E-mailmeldingen krijgen
                   href: defender/get-incident-notifications.md
