@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het krijgen van een gratis proefabonnement of het kopen van een abonnement voor Microsoft 365 voor Bedrijven.
 ms.date: 08/07/2020
-ms.openlocfilehash: 9daa7022007aa3c71dc7291f592d3b166a2c45a5
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 505ce060b9b40d72a54adbfffbcb2b3cf47a66e6
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576899"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939182"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Een Microsoft 365 voor Bedrijven-abonnement proberen of kopen
 
@@ -33,9 +33,19 @@ Microsoft 365 voor Bedrijven is een abonnementsservice waarmee u uw organisatie 
 > [!NOTE]
 > U moet een creditcard gebruiken wanneer u zich registreert voor een gratis proefabonnement. Aan het einde van de gratis proefperiode wordt uw proefabonnement automatisch geconverteerd naar een betaald abonnement. Uw creditcard wordt pas gefactureerd aan het einde van de proefperiode.
 
+
+::: moniker region="o365-21vianet"
+
+> [!IMPORTANT]
+> **Betalingsopties voor Office 365 beheerd door 21Vianet in China** Internationale creditcards worden niet geaccepteerd. U kunt uw abonnement betalen via:
+> - Factuur
+> - Online betaling via Alipay of China UnionPay Bewijs van betaling wordt geleverd in de vorm van Fapiaos. U kunt uw Fapiao-aanvraag ongeveer drie (3) dagen nadat u hebt betaald, indienen bij ons [Fapiao-systeem.](https://go.microsoft.com/fwlink/p/?LinkId=395314) Zie Een [Fapiao aanvragen voor Office 365 beheerd door 21Vianet voor meer informatie.](../admin/services-in-china/apply-for-a-fapiao.md)
+
+::: moniker-end
+
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U hebt geen bestaand Microsoft-account nodig om u aan te melden voor een gratis proefabonnement. Voor alle andere procedures in dit artikel moet u een globale beheerder of factureringsbeheerder voor uw organisatie zijn. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
+U hebt geen bestaand Microsoft-account nodig om u aan te melden voor een gratis proefabonnement. Voor alle andere procedures in dit artikel moet u een globale beheerder of factureringsbeheerder voor uw organisatie zijn. Zie[Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="try-a-free-trial-subscription"></a>Probeer een gratis proefabonnement
 

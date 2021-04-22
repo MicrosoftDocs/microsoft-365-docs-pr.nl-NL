@@ -1,7 +1,7 @@
 ---
 title: Een testwaarschuwing voor Microsoft 365 Defender genereren
 description: Een testwaarschuwing genereren om te proberen hoe uw Microsoft 365 Defender-labomgeving werkt
-keywords: Microsoft Threat Protection-simulatie, Microsoft Threat Protection proberen, testwaarschuwing genereren in Microsoft Threat Protection, testwaarschuwing in microsoft Threat Protection evaluatielaboratorium
+keywords: Microsoft 365 Defender-simulatie, probeer Microsoft 365 Defender, genereer testwaarschuwing in Microsoft 365 Defender, testwaarschuwing in microsoft 365 Defender evaluatielaboratorium
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: eae17a2cec3aa4da036ef1de52c3cd637701b929
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ebe01570b8b425b45acdcb11cc7df47d2d62e547
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056627"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935651"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-365-defender-evaluation-lab"></a>Een testwaarschuwing genereren in uw evaluatielaboratorium van Microsoft 365 Defender  
 

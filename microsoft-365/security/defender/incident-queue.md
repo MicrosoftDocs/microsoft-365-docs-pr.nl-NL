@@ -1,7 +1,7 @@
 ---
 title: Prioriteit geven aan incidenten in Microsoft 365 Defender
 description: Informatie over het filteren van incidenten in de incidentwachtrij in Microsoft 365 Defender
-keywords: incident, wachtrij, overzicht, apparaten, identiteiten, gebruikers, postvak, e-mail, incidenten
+keywords: incident, wachtrij, overzicht, apparaten, identiteiten, gebruikers, postvak, e-mail, incidenten, analyseren, antwoord
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3b381749108d4a75024d9a546c0d3f1631c948ed
-ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
+ms.openlocfilehash: c3efff1e7ebb3a5e868ede018512d12cf38e38fc
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51887255"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939704"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -81,45 +81,11 @@ In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 | Status | U kunt ervoor kiezen om de lijst met weergegeven incidenten te beperken op basis van hun status om te zien welke actief of opgelost zijn. |
 |||
 
-## <a name="incident-response-workflow"></a>Werkstroom voor incidentrespons
-
-Dit is de gebruikelijke werkstroom voor het reageren op incidenten:
-
-1. Identificeer en triage de incidenten met de hoogste prioriteit voor onderzoek en oplossing.
-2. Voor elk incident met hoge prioriteit start u een [onderzoek:](investigate-incidents.md)
-
-   a. Bekijk de samenvatting van het incident om te begrijpen wat het bereik en de ernst is en welke entiteiten worden beïnvloed (het **tabblad** Overzicht).
-
-   b. Kijk eerst naar de waarschuwingen om de herkomst, het bereik en de ernst ervan te begrijpen (het **tabblad** Waarschuwingen).
-
-   c. Verzamel zo nodig informatie over beïnvloede apparaten, gebruikers en postvakken **(de** tabbladen **Apparaten,** Gebruikers en **Postvakken).**
-
-   d. Bekijk hoe Microsoft 365 Defender bepaalde waarschuwingen automatisch heeft opgelost (het **tabblad** Onderzoeken).
-   
-   e. Gebruik zo nodig informatie in de gegevensset voor het incident voor meer informatie (het **tabblad Bewijs en** antwoord).
-
-   Terwijl u onderzoek doet, moet u zich zorgen maken over:
-
-   - Containment: Het verminderen van eventuele extra gevolgen voor uw tenant.
-   - Verwijdering: het verwijderen van de beveiligingsrisico's.
-   - Herstel: Herstel uw tenantbronnen in de status waarin ze zich vóór het incident hebben voordeden.
-
-3. Nadat u het incident hebt opgelost, neemt u de tijd om:
-
-   - Inzicht in het type van de aanval en de impact ervan.
-   - Onderzoek de aanval in de beveiligingsgemeenschap op een beveiligingsaanvaltrend.
-   - De werkstroom inroepen die u hebt gebruikt om het incident op te lossen en uw standaardwerkstromen en -playbooks zo nodig bij te werken.
-   - Bepaal of wijzigingen in uw beveiligingsstatus nodig zijn en neem de stappen om deze te implementeren.
-
-Hier volgt een overzicht van het basisproces.
-
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-process.png" alt-text="Het basisproces voor het onderzoeken van incidenten":::
-
 ## <a name="next-step"></a>Volgende stap
 
-Nadat u hebt bepaald welk incident de hoogste prioriteit vereist, selecteert u het en begint u uw [onderzoek.](investigate-incidents.md)
+Nadat u hebt bepaald welk incident de hoogste prioriteit vereist, selecteert u het en begint u met de [analyse.](investigate-incidents.md)
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten onderzoeken](investigate-incidents.md)
+- [Incidenten analyseren](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)

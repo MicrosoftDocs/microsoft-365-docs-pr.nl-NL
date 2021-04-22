@@ -1,7 +1,7 @@
 ---
-title: Incidenten in Microsoft 365 Defender onderzoeken
+title: Incidenten analyseren in Microsoft 365 Defender
 description: Incidenten met betrekking tot apparaten, gebruikers en postvakken analyseren.
-keywords: incident, incidenten, machines, apparaten, gebruikers, identiteiten, e-mail, e-mail, postvak, onderzoek, grafiek, bewijs
+keywords: incident, incidenten, analyseren, reactie, machines, apparaten, gebruikers, identiteiten, e-mail, e-mail, postvak, onderzoek, grafiek, bewijs
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,17 +22,16 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 99acc25c3949b758dab990a9c2e9104b9158accd
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 22d3bba03745cee330f89b67061e6c6b13e78aed
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861859"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939740"
 ---
-# <a name="investigate-incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender onderzoeken
+# <a name="analyze-incidents-in-microsoft-365-defender"></a>Incidenten analyseren in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 
@@ -40,9 +39,9 @@ ms.locfileid: "51861859"
 
 Met Microsoft 365 Defender worden alle gerelateerde waarschuwingen, activa, onderzoeken en bewijzen van al uw apparaten, gebruikers en postvakken samengevoegd tot een incident, zodat u een uitgebreid overzicht krijgt van de hele breedte van een aanval.
 
-In een incident onderzoekt u de waarschuwingen die van invloed zijn op uw netwerk, begrijpt u wat ze betekenen en colleert u het bewijs, zodat u een effectief herstelplan kunt maken.
+In een incident analyseert u de waarschuwingen die van invloed zijn op uw netwerk, begrijpt u wat ze betekenen en colleert u het bewijs zodat u een effectief herstelplan kunt maken.
 
-## <a name="initial-investigation"></a>Eerste onderzoek
+## <a name="initial-analysis"></a>Eerste analyse
 
 Voordat u de details bekijkt, bekijkt u de eigenschappen en samenvatting van het incident.
 
@@ -87,9 +86,9 @@ Hier is een voorbeeld.
 
 :::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="Voorbeeld van een pagina Waarschuwingen voor een incident":::
 
-Standaard worden de waarschuwingen chronologisch geordend, zodat u kunt zien hoe het incident zich in de tijd heeft afgespeeld. Als u elke waarschuwing selecteert, gaat u naar de hoofdpagina van de waarschuwing, waar u een uitgebreid onderzoek naar die waarschuwing kunt uitvoeren. 
+Standaard worden de waarschuwingen chronologisch geordend, zodat u kunt zien hoe het incident zich in de tijd heeft afgespeeld. Als u elke waarschuwing selecteert, gaat u naar de hoofdpagina van de waarschuwing, waar u een grondige analyse van die waarschuwing kunt uitvoeren. 
 
-Informatie over het gebruik van de waarschuwingswachtrij en waarschuwingspagina's in [Waarschuwingen onderzoeken](investigate-alerts.md)
+Informatie over het gebruik van de waarschuwingswachtrij en waarschuwingspagina's in [waarschuwingen analyseren](investigate-alerts.md)
 
 ## <a name="devices"></a>Apparaten
 

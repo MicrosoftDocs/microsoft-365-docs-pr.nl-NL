@@ -2,7 +2,7 @@
 title: Toegang tot de API's voor Microsoft Defender voor Eindpunt
 ms.reviewer: ''
 description: Meer informatie over hoe u API's kunt gebruiken om werkstromen te automatiseren en te innoveren op basis van de mogelijkheden van Microsoft Defender voor eindpunten
-keywords: api's, api, Microsoft Defender voor Eindpunt, open api, Microsoft Defender voor Endpoint-api, openbare api, ondersteunde api's, waarschuwingen, apparaat, gebruiker, domein, ip, bestand, geavanceerd zoeken, query
+keywords: api's, api, wdatp, open api, microsoft defender voor endpoint api, microsoft defender atp, openbare api, ondersteunde api's, waarschuwingen, apparaat, gebruiker, domein, ip, bestand, geavanceerd zoeken, query
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 87dce8ff4fde505eb8d4e458c8d9fb56556f4d78
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 843bd953b97f29a5b9c80fc44a9b19fae60a6fa7
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935103"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939764"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-apis"></a>Toegang tot de API's voor Microsoft Defender voor Eindpunt 
 
@@ -61,7 +61,7 @@ U hebt toegang tot Defender for Endpoint API met **Toepassingscontext** **of Geb
   2. Wijs de gewenste machtiging toe aan de toepassing, bijvoorbeeld 'Leeswaarschuwingen', 'Machines isoleren'. 
   3. Maak een sleutel voor deze toepassing.
   4. Get token using the application with its key.
-  5. Het token gebruiken om toegang te krijgen tot Microsoft Defender voor Endpoint API
+  5. Het token gebruiken om toegang te krijgen tot de Microsoft Defender for Endpoint API
 
      Zie Toegang krijgen met [toepassingscontext voor meer informatie.](exposed-apis-create-app-webapp.md)
 
@@ -74,7 +74,7 @@ U hebt toegang tot Defender for Endpoint API met **Toepassingscontext** **of Geb
   1. Maak AAD Native-Application.
   2. Wijs de gewenste machtiging toe aan de toepassing, zoals 'Leeswaarschuwingen', 'Isolate Machines' enzovoort. 
   3. Get token using the application with user credentials.
-  4. Het token gebruiken om toegang te krijgen tot Microsoft Defender voor Endpoint API
+  4. Het token gebruiken om toegang te krijgen tot de Microsoft Defender for Endpoint API
 
      Zie Toegang krijgen met [gebruikerscontext voor meer informatie.](exposed-apis-create-app-nativeapp.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Gedeelde query's gebruiken in geavanceerde microsoft 365 Defender-zoekopdrachten
 description: Begin onmiddellijk met het zoeken naar bedreigingen met vooraf gedefinieerde en gedeelde query's. Deel uw query's met het publiek of met uw organisatie.
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, custom detections, schema, kusto, github repo, my queries, shared queries
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, custom detections, schema, kusto, github repo, my queries, shared queries
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: fbc5b4c53487bceab5786a7ce75a56741a3c9cb2
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0194a752a0050fe68c5372bbfc93ea5f17d1d8e6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499720"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935759"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken in geavanceerde zoekopdrachten
 
@@ -56,7 +56,7 @@ U kunt een nieuwe of bestaande query opslaan, zodat deze alleen toegankelijk is 
     - **Gedeelde query's:** gedeeld met alle gebruikers van uw organisatie
     - **Mijn query's,** die alleen voor u toegankelijk zijn
     
-5. Kies **Opslaan**. 
+5. Selecteer **Opslaan**. 
 
 ## <a name="delete-or-rename-a-query"></a>Een query verwijderen of de naam wijzigen
 1. Klik met de rechtermuisknop op een query die u wilt wijzigen of verwijderen.

@@ -1,7 +1,7 @@
 ---
 title: Andere API's voor beveiliging en bedreigingsbeveiliging
 description: Bekijk een lijst met API's die betrekking hebben op Beveiligings- en bedreigingsbeveiligingsproducten van Microsoft.
-keywords: api, beveiliging, bedreigingsbeveiliging, mde, microsoft defender voor eindpunt, microsoft defender atp, office 365 advanced threat protection, microsoft defender advanced threat protection, cloud app security
+keywords: api, beveiliging, bedreigingsbeveiliging, mde, Microsoft Defender voor eindpunt, Microsoft Defender voor Office 365, beveiliging van cloud-apps
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7edd4683d3cbe0aa1fd1f1c88bf8e7326b14287f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 93697ac4009d19a09a57600a1736e839fb04fb80
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060393"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935747"
 ---
 # <a name="other-security-and-threat-protection-apis"></a>Andere API's voor beveiliging en bedreigingsbeveiliging
 

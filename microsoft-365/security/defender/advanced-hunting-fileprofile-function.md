@@ -1,7 +1,7 @@
 ---
 title: FileProfile() functie in advanced hunting for Microsoft 365 Defender
 description: Meer informatie over het gebruik van FileProfile() om informatie over bestanden in de geavanceerde resultaten van de query te verrijken
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, FileProfile, file profile, function, enrichment
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, FileProfile, file profile, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ea4f22b70e607b42155342dde1ac16b1ad640981
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 67295529cdb7b8a3e93e663f2a8a28d27a8f6737
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498454"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935843"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -37,7 +37,7 @@ ms.locfileid: "51498454"
 
 De `FileProfile()` functie is een verrijkingsfunctie in geavanceerde [zoekopdrachten](advanced-hunting-overview.md) die de volgende gegevens toevoegt aan bestanden die door de query worden gevonden.
 
-| Kolom | Gegevenstype | Omschrijving |
+| Kolom | Gegevenstype | Beschrijving |
 |------------|---------------|-------------|
 | `SHA1` | tekenreeks | SHA-1 van het bestand waar de opgenomen actie op is toegepast |
 | `SHA256` | tekenreeks | SHA-256 van het bestand waar de opgenomen actie op is toegepast |

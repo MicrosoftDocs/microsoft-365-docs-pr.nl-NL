@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: In een paar stappen leert u hoe u Microsoft 365 kunt inschakelen om lokale Windows 10-apparaten met Active Directory te beveiligen.
-ms.openlocfilehash: 8a45c6959bee368491c5c6424e3713300c443779
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c9f5a21d993200abcf9ecf1fa236879245e1c153
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580129"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939497"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Enable domain-joined Windows 10 devices to be managed by Microsoft 365 Business Premium
 
@@ -116,3 +116,7 @@ Als u het beleid Automatische MDM-registratie inschakelen niet ziet met behulp v
 6.  Als u meerdere domeincontrollers hebt, wacht u totdat SYSVOL is gerepliceerd totdat het beleid beschikbaar is. Deze procedure werkt ook voor elke toekomstige versie van de beheersjablonen.
 
 Op dit moment kunt u het beleid Automatische **MDM-registratie** inschakelen zien met de standaardreferenties van Azure AD.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Domeingebruikers synchroniseren met Microsoft 365](manage-domain-users.md) (artikel) Een groep maken in het [beheercentrum](../admin/create-groups/create-groups.md) (artikel) [Zelfstudie: Hybride Azure Active Directory-join](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) configureren voor beheerde domeinen (artikel)

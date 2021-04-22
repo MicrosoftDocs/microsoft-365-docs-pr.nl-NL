@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4488a552475121adc4a439106bc0bf0d97cb509a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7fb0de4f8dc67331e7acca59e70d061fe7c19493
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057282"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935735"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>Lijstincidenten-API in Microsoft 365 Defender
 
@@ -142,7 +142,7 @@ apparaten | Alle apparaten waar waarschuwingen met betrekking tot het incident z
 
 Veldnaam | Beschrijving | Voorbeeldwaarde
 -|-|-
-DeviceId | De apparaat-id zoals aangegeven in Microsoft Defender ATP. | 24c22b0b60fe148eeece49ac83910cc6a7ef491
+DeviceId | De apparaat-id zoals aangegeven in Microsoft Defender voor Eindpunt. | 24c22b0b60fe148eeece49ac83910cc6a7ef491
 aadDeviceId |  De apparaat-id zoals aangegeven in [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis). Alleen beschikbaar voor apparaten met een domein. | null
 deviceDnsName | De volledig gekwalificeerde domeinnaam voor het apparaat. | user5cx.middleeast.corp.contoso.com
 osPlatform | Het besturingssysteemplatform waarop het apparaat wordt uitgevoerd.| WindowsServer2016

@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Ontvang een Microsoft 365-groepenrapport om meer te weten te komen over de groepen en hun activiteiten.
-ms.openlocfilehash: fd3aa664b5a40bb5fffe0ed23e07ba6f1a5907c2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 9426f7a35dea6c0f4a34e78dd8b2c214a0619bdd
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579564"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939228"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365-rapporten in het beheercentrum - Microsoft 365-groepen
 
@@ -66,3 +66,8 @@ U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de 
 |Leden  <br/> |Het aantal leden in de groep.  <br/> |
 |Externe leden |Het aantal externe gebruikers in de groep.|
 |||
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Microsoft 365 Reports in the admin center](activity-reports.md) (article) Reports in the Security & Compliance [Center](../../compliance/reports-in-security-and-compliance.md) (article) [Microsoft 365 Reports in the admin center - Active Users](../../admin/activity-reports/active-users-ww.md) (article)
+

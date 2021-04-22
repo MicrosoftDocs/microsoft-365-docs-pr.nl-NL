@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender in het Microsoft 365-beveiligingscentrum in-
 description: Meer informatie over het inschakelen van Microsoft 365 Defender en het integreren van uw beveiligingsincident en antwoord.
-keywords: aan de slag, MTP inschakelen, Microsoft Threat Protection, M365, beveiliging, gegevenslocatie, vereiste machtigingen, licentie in aanmerking komen, instellingenpagina
+keywords: aan de slag, Microsoft 365 Defender, Microsoft 365 Defender, M365, beveiliging, gegevenslocatie, vereiste machtigingen inschakelen, licentie in aanmerking komen, pagina instellingen
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: bf8fdb2a8a42ef7b70b744cbbb5663e6afe51989
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 2d69ae70b137c9e5378958721f7f9958e57c0306
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764376"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935639"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender inschakelen
 

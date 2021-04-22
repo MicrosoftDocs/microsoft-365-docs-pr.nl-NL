@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 61509c88ea2289509abd5ec7b6c0dcd54395d5f0
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 414d6ae0586078551c737e45763ea665d5eec4e6
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599969"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939552"
 ---
 # <a name="recommended-microsoft-cloud-app-security-policies-for-saas-apps"></a>Aanbevolen Microsoft Cloud App-beveiligingsbeleid voor SaaS-apps
 Microsoft Cloud App Security is gebaseerd op beleid voor voorwaardelijke toegang van Azure AD om het in realtime controleren en beheren van gedetailleerde acties met SaaS-apps mogelijk te maken, zoals het blokkeren van downloads, uploaden, kopiëren en plakken en afdrukken. Met deze functie wordt beveiliging toegevoegd aan sessies die inherent risico's met zich brengen, zoals wanneer bedrijfsresources worden gebruikt vanaf niet-bemande apparaten of door gastgebruikers.

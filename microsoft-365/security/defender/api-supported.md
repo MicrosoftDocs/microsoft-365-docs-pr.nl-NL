@@ -1,7 +1,7 @@
 ---
 title: Ondersteunde Microsoft 365 Defender-API's
 description: Ondersteunde Microsoft 365 Defender-API's
-keywords: MTP, API's, api
+keywords: Microsoft 365 Defender, API's, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b2239b960106d756cbd29504af05af77a553067d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f2c66dca326589807f5712c5548c177a0d08ade0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056664"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935723"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>Ondersteunde Microsoft 365 Defender-API's 
 
@@ -59,6 +59,6 @@ Alle API's langs `/api` het pad gebruiken het [OData-protocol,](/odata/overview)
 ## <a name="related-articles"></a>Verwante artikelen
 
 - [Overzicht van Microsoft 365 Defender-API's](api-overview.md)
-- [Toegang tot de API's voor Microsoft Threat Protection](api-access.md)
+- [De Microsoft 365 Defender-API's openen](api-access.md)
 - [Meer informatie over API-limieten en -licenties](api-terms.md)
 - [Foutcodes begrijpen](api-error-codes.md)

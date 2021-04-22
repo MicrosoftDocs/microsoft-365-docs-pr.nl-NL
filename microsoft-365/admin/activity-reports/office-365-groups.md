@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Ontvang een Microsoft 365-groepenrapport om meer te weten te komen over de groepen en hun activiteiten.
-ms.openlocfilehash: 9ab034531099b5572c42eb3a48ec28d99487ac99
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d123e3beb55ba6e636084fabe995f4dd0ff56707
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579552"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939136"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365-rapporten in het beheercentrum - Microsoft 365-groepen
 
@@ -60,4 +60,5 @@ U kunt een overzicht krijgen van groepenactiviteit door de grafieken **Groepen,*
 |10,  <br/> |Selecteer of tik op **knop Meer** acties Mobiele OWA Meer acties naast een kolomkoppen om kolommen toe te voegen of te verwijderen uit ![ het ](../../media/80044eef-2368-4c7e-8d31-7155b029e0cf.png) rapport.  <br/> ![Rapport Groepen - kolommen kiezen](../../media/d7fb95d6-2a2e-4144-b80d-581223e48043.png)|
 |11,  <br/> |U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de **koppeling Exporteren te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.  <br/> |
 |||
-   
+
+

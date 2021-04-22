@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het hosten van onlinevergaderingen voor uw bedrijf.
-ms.openlocfilehash: dffdf847962962b2f2e9daf70dae210abbb7614b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 893a03b064b6f73711b69a61c90cd40023241c48
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580508"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939516"
 ---
 # <a name="host-online-meetings-for-your-business"></a>Onlinevergaderingen voor uw bedrijf organiseren
 
@@ -35,9 +35,9 @@ Ze moeten de gratis [](https://support.microsoft.com/office/6d79a648-6913-4696-9
 
 Als u regelmatig nauw samenwerkt aan projecten met een klant, klant of partner, kunt u daarom overwegen om een [team](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7) voor uw klanten te maken, zodat u ze eenvoudig kunt uitnodigen voor vergaderingen en ook gesprekken kunt voeren, bestanden kunt delen en projecten kunt bijhouden in Microsoft Teams.
 
-Download een infographic om snel een overzicht te krijgen van het deelnemen aan of het hosten van een onlinevergadering met Microsoft Teams.
+Download een infographic om snel een overzicht te krijgen van het deelnemen aan of het hosten van een onlinevergadering met Microsoft Teams:
 
-Download een infographic om snel een overzicht te krijgen van het deelnemen aan of het hosten van een onlinevergadering met Microsoft Teams. [PDF](https://go.microsoft.com/fwlink/?linkid=2078712)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515)
+[PDF](https://go.microsoft.com/fwlink/?linkid=2078712)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515)
 
 ## <a name="1-schedule-a-meeting"></a>1. Een vergadering plannen
 

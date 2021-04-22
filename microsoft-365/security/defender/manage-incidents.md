@@ -1,7 +1,7 @@
 ---
 title: Incidenten beheren in Microsoft 365 Defender
 description: Informatie over het toewijzen, bijwerken van de status,
-keywords: incident, incidenten, waarschuwingen, gecorreleerde waarschuwingen, toewijzen, bijwerken, status, beheren, classificatie, microsoft, 365, m365
+keywords: incident, incidenten, analyseren, antwoord, waarschuwingen, gecorreleerd waarschuwingen, toewijzen, bijwerken, status, beheren, classificatie, microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: da5a2190a53dfe7f8dd0cc3cf7b410af92ca4ec5
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5f66189979f401430353f4c15978a85276b48840
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861729"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939752"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Incidenten beheren in Microsoft 365 Defender
 
@@ -61,7 +61,7 @@ U kunt dit deelvenster weergeven via de koppeling **Incident beheren** op het vo
 - Deelvenster Eigenschappen van een incident in de incidentwachtrij.
 - **Overzichtspagina** van een incident.
 
-In gevallen waarin u tijdens het onderzoek waarschuwingen van het ene incident  naar het andere wilt verplaatsen, kunt u dit ook doen via het tabblad Waarschuwingen, waardoor een groter of kleiner incident wordt gemaakt dat alle relevante waarschuwingen bevat.
+In gevallen waarin u tijdens het analyseren waarschuwingen van het ene incident naar  het andere wilt verplaatsen, kunt u dit ook doen via het tabblad Waarschuwingen, waardoor een groter of kleiner incident wordt gemaakt dat alle relevante waarschuwingen bevat.
 
 ## <a name="edit-the-incident-name"></a>De naam van het incident bewerken
 
@@ -102,4 +102,4 @@ U kunt meerdere opmerkingen toevoegen aan een incident met **het** veld Opmerkin
 
 - [Overzicht van incidenten](incidents-overview.md)
 - [Prioriteit geven aan incidenten](incident-queue.md)
-- [Incidenten onderzoeken](investigate-incidents.md)
+- [Incidenten analyseren](investigate-incidents.md)

@@ -1,7 +1,7 @@
 ---
-title: Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
-description: gebruikers onderzoeken in het Microsoft 365-beveiligingscentrum
-keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, monitor, rapport, identiteiten, gegevens, apparaten, apps
+title: Gebruikers analyseren in het Microsoft 365-beveiligingscentrum
+description: Gebruikers analyseren in het Microsoft 365-beveiligingscentrum
+keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, monitor, rapport, identiteiten, gegevens, apparaten, apps, incident, analyseren, antwoord
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 68fc924ee14932ebdf92ef76306ba00e352b6030
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 1fb5a4eee41384ef1afc9b46e5bf538344718fe9
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861258"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939728"
 ---
-# <a name="investigate-users-in-microsoft-365-security-center"></a>Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
+# <a name="analyze-users-in-microsoft-365-security-center"></a>Gebruikers analyseren in het Microsoft 365-beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "51861258"
 
 - Microsoft 365 Defender
 
-Een deel van uw incidentonderzoek kan gebruikersaccounts zijn. Begin met het **tabblad Gebruikers** voor een incident van Incidenten & **waarschuwingen >** incident *>* **Gebruikers.** 
+Een deel van uw incidentanalyse kan gebruikersaccounts bevatten. Begin met het **tabblad Gebruikers** voor een incident van Incidenten & **waarschuwingen >** incident *>* **Gebruikers.** 
 
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Voorbeeld van een pagina Gebruikers voor een incident":::
 

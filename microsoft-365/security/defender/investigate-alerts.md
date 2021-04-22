@@ -1,7 +1,7 @@
 ---
-title: Waarschuwingen onderzoeken in Microsoft 365 Defender
-description: Onderzoeken van waarschuwingen die worden gezien op apparaten, gebruikers en postvakken.
-keywords: incidenten, waarschuwingen, onderzoeken, correlatie, aanval, machines, apparaten, gebruikers, identiteiten, identiteit, postvak, e-mail, 365, microsoft, m365
+title: Waarschuwingen analyseren in Microsoft 365 Defender
+description: Waarschuwingen analyseren die worden gezien op verschillende apparaten, gebruikers en postvakken.
+keywords: incidenten, waarschuwingen, onderzoeken, analyseren, reactie, correlatie, aanval, machines, apparaten, gebruikers, identiteiten, identiteit, postvak, e-mail, 365, microsoft, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 77b30e8a8eee70470115bcd61f081863fa5a41ee
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 18b4df6a2dbb22235d6781f1430f7a75e319fbcf
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861991"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939540"
 ---
-# <a name="investigate-alerts-in-microsoft-365-defender"></a>Waarschuwingen onderzoeken in Microsoft 365 Defender
+# <a name="analyze-alerts-in-microsoft-365-defender"></a>Waarschuwingen analyseren in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51861991"
 
 Waarschuwingen vormen de basis van alle incidenten en geven aan dat er schadelijke of verdachte gebeurtenissen in uw omgeving voorkomen. Waarschuwingen maken meestal deel uit van een bredere aanval en geven aanwijzingen over een incident.
 
-In Microsoft 365 Defender worden gerelateerde waarschuwingen samengevoegd tot [incidenten.](incidents-overview.md) Incidenten bieden altijd de bredere context van een aanval, maar het onderzoeken van waarschuwingen kan waardevol zijn wanneer een diepere analyse is vereist. 
+In Microsoft 365 Defender worden gerelateerde waarschuwingen samengevoegd tot [incidenten.](incidents-overview.md) Incidenten bieden altijd de bredere context van een aanval, maar het analyseren van waarschuwingen kan waardevol zijn wanneer een diepere analyse is vereist. 
 
 In **de wachtrij Waarschuwingen** ziet u de huidige set waarschuwingen. U krijgt toegang tot de waarschuwingenwachtrij van **Incidenten & waarschuwingen > Waarschuwingen** bij de snelle start van het Microsoft 365-beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com)
 
@@ -134,12 +134,12 @@ De lijst met aanvullende acties is afhankelijk van het type waarschuwing.
 
 ## <a name="resolve-an-alert"></a>Een waarschuwing oplossen
 
-Nadat u klaar bent met het onderzoeken van een  waarschuwing en deze kan worden opgelost, gaat u naar het  deelvenster Waarschuwing beheren voor de waarschuwing en markeert u de status van de waarschuwing als Opgelost en classificeert u deze als een foutmelding of een  waar-waarschuwing.  Geef voor echte waarschuwingen het bedreigingstype van de waarschuwing op in **het veld Bepaling.**
+Wanneer u klaar bent met het analyseren van een waarschuwing en deze kan worden opgelost,  gaat u naar het  deelvenster Waarschuwing beheren voor de waarschuwing en markeert u de status van de waarschuwing als Opgelost en classificeert u deze als een foutmelding of **True-waarschuwing.**  Geef voor echte waarschuwingen het bedreigingstype van de waarschuwing op in **het veld Bepaling.**
 
 Als u waarschuwingen classificeert en de bepaling opgeeft, kunt u Microsoft 365 Defender afstemmen om meer waargebeurde waarschuwingen en minder foutmeldingen te geven.
 
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)
+- [Incidenten analyseren](investigate-incidents.md)

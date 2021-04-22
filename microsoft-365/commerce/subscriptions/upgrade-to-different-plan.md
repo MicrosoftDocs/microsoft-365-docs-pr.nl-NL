@@ -20,19 +20,16 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over het upgraden naar een ander abonnement.
-ms.openlocfilehash: 79ca18df28505c457e085dbd73c2fbd04eff53ca
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c8d71e6ab79bfea35334f2c034dbc13f60397227
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580976"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939170"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
 
 Wanneer uw bedrijf verandert of als u meer functies nodig hebt, kunt u een upgrade uitvoeren naar een abonnement. De eenvoudigste manier om dit te doen is door het tabblad **Upgrade** te gebruiken in het beheercentrum. Het gebruik van het **tabblad Upgrade** wordt echter niet in alle situaties ondersteund. In sommige gevallen kunt u plannen mogelijk handmatig wijzigen.
-
-> [!NOTE]
-> Dit artikel is van toepassing op het nieuwe beheercentrum. Als u het nieuwe Microsoft 365-beheercentrum niet gebruikt, kunt u dit inschakelen door de wisselknop **Probeer het nieuwe beheercentrum** bovenaan de startpagina te selecteren. Zie Overschakelen naar een ander [Microsoft 365 voor Bedrijven-abonnement](switch-to-a-different-plan.md)als u het artikel over het oude beheercentrum wilt bekijken.
 
 ## <a name="use-the-upgrade-tab"></a>Het tabblad Upgrade gebruiken
 

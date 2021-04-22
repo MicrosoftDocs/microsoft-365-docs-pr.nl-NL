@@ -1,7 +1,7 @@
 ---
-title: Meldingen over incidenten in Microsoft 365 Defender ontvangen
+title: Meldingen van incidenten per e-mail ontvangen in Microsoft 365 Defender
 description: Meer informatie over het maken van regels voor het ontvangen van e-mailmeldingen voor incidenten in Microsoft 365 Defender
-keywords: incident, e-mail, e-mail notfications, configureren, gebruikers, postvak, e-mail, incidenten
+keywords: incident, e-mail, e-mail notfications, configureren, gebruikers, postvak, e-mail, incidenten, analyseren, antwoord
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 72a1f8fe71efcfa7f4f73671611576a454b508e6
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 7ba21e08f72760654993335764df00e78abc87b2
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861311"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939716"
 ---
 # <a name="get-incident-notifications-by-email"></a>Meldingen van incidenten per e-mail ontvangen
 
@@ -43,7 +43,7 @@ U kunt Microsoft 365 Defender instellen om uw personeel via een e-mail op de hoo
 - Apparaatgroep.
 - Alleen bij de eerste update per incident.
 
-De e-mailmelding bevat belangrijke details over het incident, zoals de naam van het incident, de ernst en de categorieën. U kunt ook rechtstreeks naar het incident gaan en uw onderzoek direct starten. Zie Incidenten [onderzoeken voor meer informatie.](investigate-incidents.md)
+De e-mailmelding bevat belangrijke details over het incident, zoals de naam van het incident, de ernst en de categorieën. U kunt ook rechtstreeks naar het incident gaan en uw analyse meteen starten. Zie Incidenten analyseren voor [meer informatie.](investigate-incidents.md)
 
 U kunt geadresseerden toevoegen of verwijderen in de e-mailmeldingen. Nieuwe geadresseerden krijgen een melding over incidenten nadat ze zijn toegevoegd. 
 
@@ -77,4 +77,4 @@ Als u een bestaande regel wilt bewerken, selecteert u deze in de lijst met regel
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten](incidents-overview.md)
 - [Prioriteit geven aan incidenten](incident-queue.md)
-- [Incidenten onderzoeken](investigate-incidents.md)
+- [Incidenten analyseren](investigate-incidents.md)

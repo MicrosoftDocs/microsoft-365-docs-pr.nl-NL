@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Eindpunt
 description: Microsoft Defender voor Eindpunt is een beveiligingsplatform voor zakelijke eindpunten dat helpt bij het beschermen tegen geavanceerde permanente bedreigingen.
-keywords: inleiding tot Microsoft Defender voor Eindpunt, inleiding tot Microsoft Defender Advanced Threat Protection, inleiding tot Microsoft Defender voor Endpoint, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, computergedrags sensor, cloudbeveiliging, analyse, bedreigingsinformatie, aanvalsoppervlakverminding, beveiliging van de volgende generatie, geautomatiseerd onderzoek en herstel, microsoft threat experts, secure score, advanced hunting, microsoft threat protection, cyber threat hunting
+keywords: inleiding tot Microsoft Defender voor Eindpunt, inleiding tot Microsoft Defender voor Eindpunt, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, computergedrags sensor, cloudbeveiliging, analyse, bedreigingsinformatie, beperking van het oppervlak van aanvallen, bescherming van de volgende generatie, geautomatiseerd onderzoek en herstel, microsoft threat experts, secure score, advanced hunting, Microsoft 365 Defender, cyber threat hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: adc7d780c1af73d8cb4fe229720ac2ed74f90251
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 57d4506e32db5defe29f2d0e59f72bd4c1998310
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861825"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935927"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt
 
@@ -64,7 +64,7 @@ Defender voor Eindpunt gebruikt de volgende combinatie van technologie die is in
 <a href="#apis"><center><b>Gecentraliseerde configuratie en beheer, API's</a></b></center></td>
 </tr>
 <tr>
-<td colspan="7"><a href="#mtp"><center><b>Microsoft Threat Protection</a></center></b></td>
+<td colspan="7"><a href="#mtp"><center><b>Microsoft 365 Defender</a></center></b></td>
 </tr>
 </table>
 <br>
@@ -126,7 +126,7 @@ Integreer Microsoft Defender voor Eindpunt in uw bestaande werkstromen.
 
 **[Integratie met Microsoft-oplossingen](threat-protection-integration.md)** <br>
 Defender for Endpoint wordt rechtstreeks geïntegreerd met verschillende Microsoft-oplossingen, waaronder:
-- Azure Security Center
+- Azure Defender
 - Azure Sentinel
 - Intune
 - Microsoft Cloud App Security

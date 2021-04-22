@@ -1,5 +1,5 @@
 ---
-title: Overzicht van Microsoft 365-beveiligingscentrum
+title: Overzicht van het Microsoft 365-beveiligingscentrum, waarin MDO, MDE, MDI en MCAS worden gecombineerd
 description: Voordelen in het Microsoft 365-beveiligingscentrum, waarbij Microsoft Defender voor Office 365 (MDO) en Microsoft Defender for Endpoint (MDE) worden gecombineerd met Microsoft Defender voor identiteit (MDI) en Microsoft Cloud App Security (MCAS). In dit artikel worden de ontwikkelingen in het Microsoft 365-beveiligingscentrum voor beheerders beschreven.
 keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, monitor, rapport, identiteiten, gegevens, apparaten, apps
 ms.prod: m365-security
@@ -7,7 +7,7 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.date: 04/07/2021
+ms.date: 04/21/2021
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 2e1553b231692d184146897ddc05e11930ed1bf0
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: f3920942925efbe334df84370c61fbe6a98ad49f
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903972"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939262"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Het overzicht van het geïntegreerde Microsoft 365-beveiligingscentrum
 
@@ -68,6 +68,9 @@ Het Microsoft 365-beveiligingscentrum benadrukt *eenheid,* helderheid en gemeens
 - Veelgebruikte terminologie
 - Algemene entiteiten
 - Functiepariteit met andere werkbelastingen
+
+> [!NOTE]
+> Het geïntegreerde Microsoft 365-beveiligingscentrum is toegankelijk zonder dat klanten migratiestappen hoeven te ondernemen of een nieuwe licentie hoeven te kopen. Deze nieuwe portal is bijvoorbeeld toegankelijk voor beheerders met een E3-abonnement, net zoals voor beheerders met Microsoft Defender voor Office 365 Abonnement 1 en Abonnement 2. Klanten van Exchange Online Protection of MDO Plan 1 zien echter alleen de beveiligingsfuncties die hun abonnementslicentie ondersteunt. Het nieuwe centrum heeft als doel de beveiliging te centraliseren.
 
 ## <a name="unified-investigations"></a>Geïntegreerde onderzoeken
 

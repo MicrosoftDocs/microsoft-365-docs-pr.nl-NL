@@ -1,7 +1,7 @@
 ---
 title: Apparaatprofiel in microsoft 365-beveiligingsportal
 description: Bekijk de risico- en blootstellingsniveaus voor een apparaat in uw organisatie. Analyseer eerdere en huidige bedreigingen en bescherm het apparaat met de meest recente updates.
-keywords: beveiliging, malware, Microsoft 365, M365, Microsoft Threat Protection, MTP, beveiligingscentrum, Microsoft Defender ATP, Office 365 ATP, Azure ATP, apparaatpagina, apparaatprofiel, machinepagina, machineprofiel
+keywords: beveiliging, malware, Microsoft 365, M365, Microsoft 365 Defender, beveiligingscentrum, Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit, apparaatpagina, apparaatprofiel, machinepagina, machineprofiel
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: c51c002d263452142a1bcf6fc5603d6ec4ef4cf7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8e2788fd9163a27b41bd3788facf5fc9623b0543
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197967"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935663"
 ---
 # <a name="device-profile-page"></a>Pagina Apparaatprofiel
 
@@ -142,7 +142,7 @@ Net als bij de vorige tabbladen kan het aantal items dat per pagina wordt weerge
 
 De standaardweergave bevat kolommen met details over de beveiligingszwakheden die zijn aangepakt, de bijbehorende bedreiging, het gerelateerde onderdeel of de software die door de bedreiging wordt beïnvloed, en meer. Items kunnen worden gefilterd op de status van de aanbeveling.
 
-### <a name="software-inventory"></a>Softwarevoorraad
+### <a name="software-inventory"></a>Software-inventaris
 
 Op **het tabblad Softwarevoorraad** wordt software weergegeven die op het apparaat is geïnstalleerd.
 
@@ -181,6 +181,6 @@ Als u een item selecteert, wordt een flyout geopend die naar de update wordt kop
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 * [Overzicht van Microsoft 365 Defender](microsoft-365-defender.md)
-* [Microsoft 365 Defender in-](m365d-enable.md)
+* [Microsoft 365 Defender inschakelen](m365d-enable.md)
 * [Entiteiten op apparaten onderzoeken met livereactie](../defender-endpoint/live-response.md)
 * [Automatisch onderzoek en antwoord (AIR) in Office 365](../office-365-security/office-365-air.md)
