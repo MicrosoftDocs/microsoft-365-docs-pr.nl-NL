@@ -1,7 +1,7 @@
 ---
 title: MsSP-toegang (Managed Security Service Provider) bieden
 description: Meer informatie over wijzigingen van het Microsoft Defender-beveiligingscentrum in het Microsoft 365-beveiligingscentrum
-keywords: Aan de slag met het Microsoft 365-beveiligingscentrum, OATP, MDATP, MDO, MDE, enkel deelvenster glas, geconvergeerde portal, beveiligingsportal, defender-beveiligingsportal
+keywords: Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, geconvergeerde portal, beveiligingsportal, defender security portal
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 4ea8c5a07016d3fe875d60501acee2cd46481489
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 4b34d3ea20716fb2424d9317b8a51c088a5714a6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165727"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935351"
 ---
 # <a name="provide-managed-security-service-provider-mssp-access"></a>MsSP-toegang (Managed Security Service Provider) bieden 
 

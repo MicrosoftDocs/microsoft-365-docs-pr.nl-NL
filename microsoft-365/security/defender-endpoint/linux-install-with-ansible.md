@@ -2,7 +2,7 @@
 title: Microsoft Defender voor eindpunt implementeren op Linux met Ansible
 ms.reviewer: ''
 description: Hier wordt beschreven hoe u Microsoft Defender voor Eindpunt op Linux implementeert met Ansible.
-keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 697fcddad595c6883fe1e1f7258ca6154c48b94d
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 15ee02d90e81c48bf5ec718e669bf8f88f6424ff
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903902"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934775"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Microsoft Defender voor eindpunt implementeren op Linux met Ansible
 
@@ -36,7 +36,7 @@ ms.locfileid: "51903902"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-In dit artikel wordt beschreven hoe u Defender voor Eindpunt voor Linux implementeert met Ansible. Voor een geslaagde implementatie moeten alle volgende taken zijn voltooid:
+In dit artikel wordt beschreven hoe u Defender voor Eindpunt op Linux implementeert met Ansible. Voor een geslaagde implementatie moeten alle volgende taken zijn voltooid:
 
 - [Het onboarding-pakket downloaden](#download-the-onboarding-package)
 - [Ansible YAML-bestanden maken](#create-ansible-yaml-files)
@@ -45,7 +45,7 @@ In dit artikel wordt beschreven hoe u Defender voor Eindpunt voor Linux implemen
 
 ## <a name="prerequisites-and-system-requirements"></a>Vereisten en systeemvereisten
 
-Voordat u aan de slag gaat, bekijkt u de [hoofdpagina van Defender voor Eindpunt](microsoft-defender-endpoint-linux.md) voor Linux voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
+Voordat u aan de slag gaat, bekijkt u de [hoofdpagina](microsoft-defender-endpoint-linux.md) van Defender voor Eindpunt op Linux voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
 
 Bovendien moet u voor Ansible-implementatie bekend zijn met Ansible-beheertaken, Ansible configureren en weten hoe u playbooks en taken implementeert. Ansible heeft veel manieren om dezelfde taak uit te voeren. In deze instructies wordt ervan uitgenomen dat ondersteunde Ansible-modules beschikbaar zijn, zoals *apt* en *unarchive om* het pakket te implementeren. Uw organisatie kan een andere werkstroom gebruiken. Raadpleeg de [Ansible-documentatie](https://docs.ansible.com/) voor meer informatie.
 
@@ -129,7 +129,7 @@ Maak een subtaak of rolbestanden die bijdragen aan een speelboek of taak.
 
 - Voeg de defender voor eindpuntopslagplaats en de sleutel toe.
 
-    Defender voor Eindpunt voor Linux kan worden geïmplementeerd via een van de volgende kanalen (hieronder aangeduid als *[kanaal]*): *insiders-fast,* *insiders-slow* of *prod*. Elk van deze kanalen komt overeen met een Linux-softwareopslagplaats.
+    Defender for Endpoint on Linux kan worden geïmplementeerd vanuit een van de volgende kanalen (hieronder aangeduid als *[kanaal]*): *insiders-fast*, *insiders-slow*, of *prod*. Elk van deze kanalen komt overeen met een Linux-softwareopslagplaats.
 
     De keuze van het kanaal bepaalt het type en de frequentie van de updates die op uw apparaat worden aangeboden. Apparaten in *insiders-fast* zijn de eersten die updates en nieuwe functies ontvangen, later gevolgd door *insiders-slow* en ten laatste *door prod*.
 
@@ -271,7 +271,7 @@ Zie [Installatieproblemen in logboeken](linux-resources.md#log-installation-issu
 
 ## <a name="operating-system-upgrades"></a>Upgrades van besturingssysteem
 
-Wanneer u een upgrade van uw besturingssysteem naar een nieuwe hoofdversie hebt uitgevoerd, moet u Eerst Defender voor Eindpunt voor Linux verwijderen, de upgrade installeren en ten slotte Defender voor Eindpunt voor Linux opnieuw configureren op uw apparaat.
+Wanneer u uw besturingssysteem upgradet naar een nieuwe hoofdversie, moet u Eerst Defender voor Eindpunt op Linux verwijderen, de upgrade installeren en defender voor eindpunt opnieuw configureren op Linux op uw apparaat.
 
 ## <a name="references"></a>Verwijzingen
 

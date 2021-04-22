@@ -1,7 +1,7 @@
 ---
 title: Uw proeflaboratorium of testomgeving voor Microsoft 365 Defender instellen
 description: Access Microsoft 365-beveiligingscentrum en stel vervolgens uw proeflabomgeving van Microsoft 365 Defender in
-keywords: Microsoft Threat Protection trial setup, Microsoft Threat Protection pilot setup, try Microsoft Threat Protection, Microsoft Threat Protection evaluation lab setup
+keywords: Microsoft 365 Defender trial setup, Microsoft 365 Defender pilot setup, try Microsoft 365 Defender, Microsoft 365 Defender evaluation lab setup
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 976f6a1ec010348e8a281c251064acdd7a26748b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ae81f6be0a83d5d0141f0f0c8c89f8f2207cc56c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059630"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935423"
 ---
 # <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Uw proeflabomgeving voor Microsoft 365 Defender instellen 
 
@@ -37,7 +37,7 @@ ms.locfileid: "51059630"
 
 Het maken van een proeflaboratorium of testomgeving van Microsoft 365 Defender en de implementatie ervan is een proces in drie fasen:
 
-|[![Fase 1: Voorbereiden](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Fase 1: Voorbereiden](prepare-m365d-eval.md) |![Fase 2: Instellen](../../media/phase-diagrams/setup.png)<br/>Fase 2: Instellen |[![Fase 3: Onboard](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Fase 3: Onboard](config-m365d-eval.md) | [![Terug naar pilot](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Terug naar pilot playbook](m365d-pilot.md) |
+|[![Fase 1: Voorbereiden](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Fase 1: Voorbereiden](prepare-m365d-eval.md) |![Fase 2: Instellen](../../media/phase-diagrams/setup.png)<br/>Fase 2: Instellen |[![Fase 3: Onboarden](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Fase 3: Onboarden](config-m365d-eval.md) | [![Terug naar pilot](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Terug naar pilot playbook](m365d-pilot.md) |
 |--|--|--|--|
 ||*U bent er!*  | | |
 

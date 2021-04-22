@@ -1,7 +1,7 @@
 ---
 title: Ondersteunde besturingssystemen en platforms voor bedreigings- en kwetsbaarheidsbeheer
 description: Zorg ervoor dat u voldoet aan de vereisten van het besturingssysteem of platform voor bedreigings- en kwetsbaarheidsbeheer, zodat de activiteiten op alle apparaten correct worden verantwoord.
-keywords: threat & vulnerability management, threat and vulnerability management, operating system, platform requirements, requirements, mdatp-tvm supported os, mdatp-tvm,
+keywords: threat & vulnerability management, threat and vulnerability management, operating system, platform requirements, requirements, Microsoft Defender for Endpoint-tvm supported os, Microsoft Defender for Endpoint-tvm,
 search.appverid: met150
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fd778b66e85507d5e6d91ed786b16454a5c0fc8f
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 55322d238839d347882ec1d74b767c68fd2be2b3
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500443"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935519"
 ---
 # <a name="supported-operating-systems-and-platforms---threat-and-vulnerability-management"></a>Ondersteunde besturingssystemen en platforms - bedreigings- en kwetsbaarheidsbeheer
 

@@ -1,7 +1,7 @@
 ---
 title: AssignedIPAddresses() functie in advanced hunting for Microsoft 365 Defender
 description: Meer informatie over het gebruik van de functie AssignedIPAddresses() om de meest recente IP-adressen aan een apparaat te krijgen
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, FileProfile, file profile, function, enrichment
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, FileProfile, file profile, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: be638141e205946be18d6a718470e7b92b18b1e7
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: d3ebd301d6c79bf5286d9293e04e4073b99d1e35
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500409"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934907"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -39,7 +39,7 @@ Gebruik de `AssignedIPAddresses()` functie in uw geavanceerde [zoekquery's](adva
 
 Deze functie retourneert een tabel met de volgende kolommen:
 
-| Kolom | Gegevenstype | Omschrijving |
+| Kolom | Gegevenstype | Beschrijving |
 |------------|-------------|-------------|
 | `Timestamp` | datetime | De laatste keer dat het apparaat werd waargenomen met behulp van het IP-adres |
 | `IPAddress` | tekenreeks | IP-adres dat door het apparaat wordt gebruikt |

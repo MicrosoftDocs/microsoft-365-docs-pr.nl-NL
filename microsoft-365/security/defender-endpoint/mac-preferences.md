@@ -1,7 +1,7 @@
 ---
-title: Voorkeuren instellen voor Microsoft Defender voor Eindpunt voor Mac
-description: Configureer Microsoft Defender voor Eindpunt voor Mac in bedrijfsorganisaties.
-keywords: microsoft, defender, atp, mac, management, voorkeuren, onderneming, intune, jamf, macos, catalina, mojave, high sierra
+title: Voorkeuren instellen voor Microsoft Defender voor Eindpunt op Mac
+description: Configureer MMicrosoft Defender voor Endpoint op Mac in bedrijfsorganisaties.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, management, preferences, enterprise, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d2bea469031e2c5932e859fbad7d442ebe4d34ed
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: f13734392e4975738a0d60d38e618595b5175667
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860917"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934559"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Voorkeuren instellen voor Microsoft Defender voor Eindpunt op macOS
 
@@ -175,7 +175,7 @@ Geef een proces op waarvoor alle bestandsactiviteit is uitgesloten van scannen. 
 
 #### <a name="allowed-threats"></a>Toegestane bedreigingen
 
-Geef bedreigingen op op naam die niet worden geblokkeerd door Defender voor Eindpunt voor Mac. Deze bedreigingen kunnen worden uitgevoerd.
+Geef bedreigingen op op naam die niet worden geblokkeerd door Defender voor Eindpunt op Mac. Deze bedreigingen kunnen worden uitgevoerd.
 
 |Sectie|Waarde|
 |:---|:---|

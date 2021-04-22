@@ -1,7 +1,7 @@
 ---
 title: Uw proeflabomgeving van Microsoft 365 Defender voorbereiden
 description: Aanmelding van belanghebbenden, tijdlijnen, milieuoverwegingen en acceptatieorders voorbereiden bij het instellen van uw proeflaboratorium of testomgeving van Microsoft 365 Defender
-keywords: MTP trial prep, MTP pilot prep, prep for running an MTP pilot project, run a pilot MTP project, deploy, prepare, stakeholder, timeline, environment, endpoint, server, management, adoption
+keywords: Microsoft 365 Defender trial prep, Microsoft 365 Defender pilot prep, prep for running a Microsoft 365 Defender pilot project, run a pilot Microsoft 365 Defender project, deploy, prepare, stakeholder, timeline, environment, endpoint, server, management, adoption
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: dada110faca71c9e8fcf384eb5bb0a78faefaad9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d5e98cead84c0be76ca252b23f3c2d062b22dd73
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199135"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935615"
 ---
 # <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Uw proeflaboratorium of testomgeving voor Microsoft 365 Defender voorbereiden
 
@@ -36,7 +36,7 @@ ms.locfileid: "51199135"
 
 Het maken van een proeflaboratorium of testomgeving van Microsoft 365 Defender en de implementatie ervan is een proces in drie fasen:
 
-|![Fase 1: Voorbereiden](../../media/phase-diagrams/prepare.png)<br/>Fase 1: Voorbereiden |[![Fase 2: Instellen](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Instellen](setup-m365deval.md) |[![Fase 3: Onboard](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Fase 3: Onboard](config-m365d-eval.md) | [![Terug naar pilot](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Terug naar pilot playbook](m365d-pilot.md) |
+|![Fase 1: Voorbereiden](../../media/phase-diagrams/prepare.png)<br/>Fase 1: Voorbereiden |[![Fase 2: Instellen](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Instellen](setup-m365deval.md) |[![Fase 3: Onboarden](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Fase 3: Onboarden](config-m365d-eval.md) | [![Terug naar pilot](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Terug naar pilot playbook](m365d-pilot.md) |
 |--|--|--|--|
 |*U bent er!* | || |
 
@@ -108,8 +108,8 @@ In de volgende tabel wordt aangegeven welke volgorde Microsoft aanbeveelt voor h
 |Microsoft Defender voor Office 365|Microsoft Defender voor Office 365 beschermt je organisatie tegen kwaadwillende bedreigingen afkomstig van e-mailberichten, koppelingen (URL’s) en hulpmiddelen voor samenwerking. <br> [Meer informatie.](/microsoft-365/security/office-365-security/defender-for-office-365)                                                                                                                                                                                                                                             | 1                   |
 |Microsoft Defender for Identity|Microsoft Defender voor identiteit gebruikt Active Directory-signalen om geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadaardige insideracties die zijn gericht op uw organisatie te identificeren, te detecteren en te onderzoeken. <br> [Meer informatie](/azure-advanced-threat-protection/).| 2 |
 |Microsoft Cloud App Security| Microsoft Cloud App Security is een Cloud Access Security Broker (CASB) die op meerdere clouds werkt. Het biedt uitgebreide zichtbaarheid, controle over het reizen van gegevens en geavanceerde analyses om cyberaanvallen in al uw cloudservices te identificeren en te bestrijden. <br> [Meer informatie](/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
-|Microsoft Defender voor Eindpunt | Microsoft Defender voor endpoint-detectie- en antwoordmogelijkheden bieden geavanceerde detecties van aanvallen die in realtime en actie kunnen worden ondernomen. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, inzicht krijgen in het volledige bereik van een inbreuk en reactieacties uitvoeren om bedreigingen te corrigeren. <br> [Meer informatie.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                   |                                                                                                                                                                                                                                    
+|Microsoft Defender voor Eindpunt | Microsoft Defender voor Eindpunt de mogelijkheden voor detectie van en reactie op eindpunten bieden detectie van geavanceerde aanvallen die bijna in realtime en uitvoerbaar zijn. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, zichtbaarheid krijgen in het volledige bereik van een beveiligingsschending en reactieacties ondernemen om bedreigingen te herstellen. <br> [Meer informatie.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                   |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Volgende stap
-|![Fase 2: Setup](../../media/setup.png) <br>[Fase 2: Setup](setup-m365deval.md) | Uw proeflaboratorium of testomgeving voor Microsoft 365 Defender instellen
+|![Fase 2: Instellen](../../media/setup.png) <br>[Fase 2: Instellen](setup-m365deval.md) | Uw proeflaboratorium of testomgeving voor Microsoft 365 Defender instellen
 |:-------|:-----|

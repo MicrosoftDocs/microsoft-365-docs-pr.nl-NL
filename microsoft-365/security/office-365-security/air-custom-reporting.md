@@ -1,6 +1,6 @@
 ---
 title: Aangepaste rapportageoplossingen met geautomatiseerd onderzoek en antwoord
-keywords: SIEM, API, AIR, autoIR, ATP, geautomatiseerd onderzoek, integratie, aangepast rapport
+keywords: SIEM, API, AIR, autoIR, Microsoft Defender voor Eindpunt, geautomatiseerd onderzoek, integratie, aangepast rapport
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -21,12 +21,12 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 82f3b38e5b6e31313c94f5ac389e883f6b076540
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4a7ccc0f07691c5183b9cb7a6e5b3f512f35f76b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204786"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935399"
 ---
 # <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Aangepaste of externe rapportageoplossingen voor Microsoft Defender voor Office 365
 

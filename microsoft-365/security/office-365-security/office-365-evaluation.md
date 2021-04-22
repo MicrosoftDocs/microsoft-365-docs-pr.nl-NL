@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Office 365 evalueren
 description: Defender voor Office 365 maakt in de evaluatiemodus Defender voor Office 365-e-mailbeleid waarin vonnissen, zoals malware, worden logboeken, maar die geen actie ondernemen op berichten.
-keywords: evaluatie van Office 365, Microsoft Defender voor Office 365, evaluatie van Office 365, office 365, Microsoft Defender, ATP proberen
+keywords: evaluatie van Office 365, Microsoft Defender voor Office 365, evaluatie van Office 365, office 365, Microsoft Defender, Microsoft Defender voor Eindpunt proberen
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5862361dbd3a220e4b37400dbb6515af91eaa959
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 86433ef505cd1b9afca100dc731f1885e22c8401
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768804"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935135"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365 evalueren
 

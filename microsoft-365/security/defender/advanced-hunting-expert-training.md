@@ -1,7 +1,7 @@
 ---
 title: Krijg deskundige training over geavanceerd jagen
 description: Gratis training en begeleiding van geavanceerde experts op het gebied van jagen
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, language, training, scenarios, basic to advanced, videos, step-by-step
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, language, training, scenarios, basic to advanced, videos, step-by-step
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3aee0a210b9381174650a4a817be510bcfaa00c2
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: aee2d3204a5d30005c15199baa3af08f5e583a33
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498531"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935435"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Krijg deskundige training over geavanceerd jagen
 
@@ -37,7 +37,7 @@ ms.locfileid: "51498531"
 
 Vergroot uw kennis van geavanceerde jacht snel met _Het bijhouden_ van de tegenpartij, een webcastreeks voor nieuwe beveiligingsanalisten en doorgevinterde bedreigingsjagers. De reeks begeleidt u door de basisbeginselen tot aan het maken van uw eigen geavanceerde query's. Begin met de eerste video over grondbeginselen of ga naar meer geavanceerde video's die passen bij uw ervaringsniveau.
 
-| Title | Omschrijving | Kijken | Query's | 
+| Title | Beschrijving | Kijken | Query's | 
 |--|--|--|--|
 | Aflevering 1: KQL-fundamentals | In deze aflevering worden de basisbeginselen van geavanceerde jacht in Microsoft 365 Defender bestrijkt. Meer informatie over beschikbare geavanceerde zoekgegevens en basis-syntaxis en operatoren van KQL. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
 | Aflevering 2: Joins | Lees verder over gegevens in geavanceerde zoekprocessen en hoe u tabellen kunt samenbrengen. Lees meer `inner` over `outer` , en `unique` `semi` joins en begrijp de nuances van de standaard `innerunique` Kusto-join. | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
@@ -47,7 +47,7 @@ Vergroot uw kennis van geavanceerde jacht snel met _Het bijhouden_ van de tegenp
 
 Krijg meer deskundige training met *L33TSP3AK:* Geavanceerde jacht in Microsoft 365 Defender , een webcastreeks voor analisten die hun technische kennis en praktische vaardigheden willen uitbreiden bij het uitvoeren van beveiligingsonderzoeken met behulp van geavanceerde jacht in Microsoft 365 Defender. 
 
-| Title | Omschrijving | Kijken | Query's | 
+| Title | Beschrijving | Kijken | Query's | 
 |--|--|--|--|
 | Aflevering 1  | In deze aflevering leert u verschillende best practices voor het uitvoeren van geavanceerde zoekquery's. Een van de onderwerpen die worden besproken zijn: het optimaliseren van uw query's, het gebruik van geavanceerde zoek naar ransomware, het verwerken van JSON als een dynamisch type en het werken met externe gegevensoperatoren. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [CSL-bestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.csl)
 

@@ -2,7 +2,7 @@
 title: Microsoft Defender voor Eindpunt op licentievoorwaarden voor iOS-toepassingen
 ms.reviewer: ''
 description: Beschrijft microsoft Defender voor eindpunt op licentievoorwaarden voor iOS
-keywords: microsoft, defender, atp, iOS, licentie, voorwaarden, toepassing, gebruik, installatie, service, feedback, bereik,
+keywords: microsoft, defender, Microsoft Defender voor Eindpunt, iOS, licentie, voorwaarden, toepassing, gebruik, installatie, service, feedback, bereik
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: e2f2abbb27d1040f0fa9bcd1134103d54372b25b
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: a8cea87e9f26262b4c54e7991add7affc8013033
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903960"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934979"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios-application-license-terms"></a>Microsoft Defender voor Eindpunt op licentievoorwaarden voor iOS-toepassingen
 

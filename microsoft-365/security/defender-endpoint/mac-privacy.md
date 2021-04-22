@@ -1,7 +1,7 @@
 ---
-title: Privacy voor Microsoft Defender voor Eindpunt voor Mac
-description: Privacybesturingselementen, het configureren van beleidsinstellingen die van invloed zijn op privacy en informatie over de diagnostische gegevens die worden verzameld in Microsoft Defender voor Eindpunt voor Mac.
-keywords: microsoft, defender, atp, mac, privacy, diagnostische
+title: Privacy voor Microsoft Defender voor Eindpunt op Mac
+description: Privacybesturingselementen, hoe u beleidsinstellingen configureert die van invloed zijn op de privacy en informatie over de diagnostische gegevens die worden verzameld in Microsoft Defender voor Eindpunt op Mac.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, privacy, diagnostic
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 26ae83dc8a8b3bb7d686e3674437a12999b5146f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: b2897766570c6ef8979a7944a687ba024e55b3ce
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862233"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934547"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>Privacy voor Microsoft Defender voor Eindpunt op macOS
 

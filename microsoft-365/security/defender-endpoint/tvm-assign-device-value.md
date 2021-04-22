@@ -1,7 +1,7 @@
 ---
 title: Apparaatwaarde toewijzen - bedreigings- en kwetsbaarheidsbeheer
 description: Meer informatie over het toewijzen van een lage, normale of hoge waarde aan een apparaat om onderscheid te maken tussen activumprioriteiten.
-keywords: Microsoft Defender voor de waarde van het eindpuntapparaat, de waarde van het apparaat voor bedreigings- en kwetsbaarheidsbeheer, apparaten met een hoge waarde, blootstellingsscore voor apparaatwaarde
+keywords: Microsoft Defender for Endpoint device value, threat and vulnerability management device value, high value devices, device value exposure score
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1f5d90190418f84795bdd899ea0e48ac25831a96
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: ca6c88b08b331eb65035387a9c070d0914b1651d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689387"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935195"
 ---
 # <a name="assign-device-value---threat-and-vulnerability-management"></a>Apparaatwaarde toewijzen - bedreigings- en kwetsbaarheidsbeheer
 

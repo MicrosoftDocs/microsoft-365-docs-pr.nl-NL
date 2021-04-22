@@ -1,7 +1,7 @@
 ---
 title: Vereisten voor Microsoft 365 Defender
 description: Meer informatie over de licentie-, hardware- en softwarevereisten en andere configuratie-instellingen voor Microsoft 365 Defender
-keywords: vereisten, vereisten, hardware, software, browser, MTP, M365, licentie, E5, A5, EMS, aankoop
+keywords: vereisten, vereisten, hardware, software, browser, Microsoft 365 Defender, M365, licentie, E5, A5, EMS, aankoop
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f9904ecb5b9ab0a0f634903a5dc0ee3049d06b38
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 930a3de078d6d003241bb6fcd5df71bc9f301962
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059634"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935603"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Vereisten voor Microsoft 365 Defender
 
@@ -45,7 +45,7 @@ Met een van deze licenties hebt u zonder extra kosten toegang tot microsoft 365 
 - Windows 10 Enterprise E5 of A5
 - Enterprise Mobility + Security (EMS) E5 of A5 
 - Office 365 E5 of A5
-- Microsoft Defender for Endpoint
+- Microsoft Defender voor Eindpunt
 - Microsoft Defender for Identity 
 - Microsoft Cloud App Security
 - Defender voor Office 365 (abonnement 2)
@@ -75,5 +75,5 @@ Microsoft 365 Defender is momenteel *niet beschikbaar* voor:
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van Microsoft 365 Defender](microsoft-365-defender.md)
-- [Microsoft 365 Defender in-](m365d-enable.md)
+- [Microsoft 365 Defender inschakelen](m365d-enable.md)
 - [Toegang en machtigingen beheren](m365d-permissions.md)

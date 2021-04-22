@@ -1,8 +1,8 @@
 ---
-title: Microsoft Defender ATP voor Android Application license terms
+title: Licentievoorwaarden voor Microsoft Defender voor Eindpunt voor Android-toepassing
 ms.reviewer: ''
-description: Beschrijft de licentievoorwaarden van Microsoft Defender ATP voor Android
-keywords: microsoft, defender, atp, android,license, terms, application, use, installation, service, feedback, scope,
+description: Beschrijft de licentievoorwaarden van Microsoft Defender voor Endpoint voor Android
+keywords: microsoft, defender, Microsoft Defender for Endpoint, android, license, terms, application, use, installation, service, feedback, scope,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: 2bcc8c1f977a6060ac94dc3a634f075a5c1ee041
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d73ddb3a8defb7697a995c2593d6a240a59c9cfe
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687947"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934619"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Licentievoorwaarden voor Microsoft Defender voor Eindpunt voor Android-toepassingen
 
@@ -105,7 +105,7 @@ voor deze toepassing, tenzij deze items vergezeld gaan van andere voorwaarden. A
 
     2.  De betreffende provider van het toepassingsopslagbedrijf en haar dochterondernemingen zijn begunstigden van deze Voorwaarden van derden en na uw acceptatie van deze Voorwaarden hebben de provider(s) van het toepassingsopslagbedrijf het recht om deze voorwaarden rechtstreeks af te dwingen en erop te vertrouwen dat deze voorwaarden hen een voordeel of rechten verlenen.
 
-9.  **MERKINMERKINGEN.** Microsoft, Microsoft Defender ATP, MDATP en Microsoft 365 zijn geregistreerde of algemene handelsmerken van Microsoft Corporation in de Verenigde Staten en/of andere landen.
+9.  **MERKINMERKINGEN.** Microsoft, Microsoft Defender voor Eindpunt en Microsoft 365 zijn geregistreerde of algemeenrechtse handelsmerken van Microsoft Corporation in de Verenigde Staten en/of andere landen.
 
 10. **ENTIRE AGREEMENT.** Deze overeenkomst en de voorwaarden voor aanvullingen, updates, internetservices en ondersteuningsservices die u gebruikt, zijn de volledige overeenkomst voor de toepassings- en ondersteuningsservices.
 

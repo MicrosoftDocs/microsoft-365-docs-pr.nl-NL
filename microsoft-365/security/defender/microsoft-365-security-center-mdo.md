@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
 description: Informatie over veranderingen uit het Office 365 Beveiligings- en compliancecentrum aan het Microsoft 365-beveiligingscentrum.
-keywords: Microsoft 365-beveiliging, Aan deslag met Microsoft 365-beveiligingscentrum, OATP, MDATP, MDO, MDE, enkel glas, nieuw beveiligingsportaal, nieuw defender beveiligingsportaal
+keywords: Microsoft 365-beveiliging, Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, nieuwe beveiligingsportal, nieuwe defender-beveiligingsportal
 ms.date: 02/02/2021
 ms.author: tracyp
 author: msfttracyp
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 0c4a849bf3f91d4803adcb45c13b59d76afda388
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 980a384d3c4fd44a368f35d6f885ea0c8288376a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760186"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935411"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
 

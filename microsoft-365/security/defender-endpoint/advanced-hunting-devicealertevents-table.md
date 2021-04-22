@@ -1,7 +1,7 @@
 ---
 title: Tabel DeviceAlertEvents in het geavanceerde schema voor de jacht
 description: Meer informatie over gebeurtenissen bij het genereren van waarschuwingen in de tabel DeviceAlertEvents van het geavanceerde schema voor de jacht
-keywords: advanced hunting, threat hunting, cyber threat hunting, mdatp, microsoft defender atp, wdatp search, query, telemetry, schema reference, kusto, table, column, data type, description, DeviceAlertEvents, alert, ernst, categorie
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft Defender for Endpoint, search, query, telemetry, schema reference, kusto, table, column, data type, description, DeviceAlertEvents, alert, ernst, categorie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: 66ecdc8fbcde04d78f2deede5f4e296a7f051ef0
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: bb2350fed5fadee359695743989e02a3b3e44fb2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499164"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935339"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 
@@ -39,7 +39,7 @@ De `DeviceAlertEvents` tabel in het geavanceerde schema [bevat](advanced-hunting
 
 Zie de geavanceerde verwijzing naar het schema voor de jacht voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-reference.md)
 
-| Kolomnaam | Gegevenstype | Omschrijving |
+| Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `AlertId` | tekenreeks | Unieke id voor de waarschuwing |
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |

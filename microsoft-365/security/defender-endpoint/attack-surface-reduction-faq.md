@@ -1,6 +1,6 @@
 ---
 title: Veelgestelde vragen over surface reduction attack
-description: Hier vindt u antwoorden op veelgestelde vragen over de attack surface reduction-regels van Microsoft Defender ATP.
+description: Hier vindt u antwoorden op veelgestelde vragen over de surface reduction-regels van Microsoft Defender voor endpoint.
 keywords: Attack surface reduction rules, asr, hips, host intrusion prevention system, protection rules, anti-exploit, anti-exploit, exploit, infection prevention, microsoft defender for endpoint
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71c3f89b721039753709d65daa135cad74a81711
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: cf41dda4ff61137d6b60b2fc735227f15418477e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476456"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935591"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>Veelgestelde vragen over surface reduction attack
 

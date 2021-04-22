@@ -1,7 +1,7 @@
 ---
-title: Beveiligingsaanbevelingen krijgen
+title: Beveiligingsaanbevelingen ophalen
 description: Hiermee wordt een verzameling beveiligingsaanbevelingen opgehaald die betrekking hebben op een bepaalde apparaat-id.
-keywords: api's, graph api, ondersteunde api's, get, list, file, information, security recommendation per device, threat & vulnerability management api, mdatp tvm api
+keywords: api's, graph api, ondersteunde api's, get, list, file, information, security recommendation per device, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6c65926985c7c8a194ab87c44c3fc269488c463c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bc209687d51b3e05bfcfd6028042ba5912b877f6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199763"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935303"
 ---
-# <a name="get-security-recommendations"></a>Beveiligingsaanbevelingen krijgen
+# <a name="get-security-recommendations"></a>Beveiligingsaanbevelingen ophalen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

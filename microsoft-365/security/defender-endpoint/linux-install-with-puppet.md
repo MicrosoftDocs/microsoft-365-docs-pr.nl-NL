@@ -2,7 +2,7 @@
 title: Microsoft Defender voor eindpunt implementeren op Linux met Puppet
 ms.reviewer: ''
 description: Hier wordt beschreven hoe u Microsoft Defender voor Eindpunt op Linux implementeert met Behulp van Poppenspel.
-keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 413f8113d2f782c0a57d648a6db8178f2e522270
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: d54732134e91b87b2639634c365556beda5312b0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903880"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934571"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Microsoft Defender voor eindpunt implementeren op Linux met Puppet
 
@@ -36,7 +36,7 @@ ms.locfileid: "51903880"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-In dit artikel wordt beschreven hoe u Defender voor Eindpunt voor Linux implementeert met Behulp van Poppenspel. Voor een geslaagde implementatie moeten alle volgende taken zijn voltooid:
+In dit artikel wordt beschreven hoe u Defender voor Eindpunt op Linux implementeert met Behulp van Poppop. Voor een geslaagde implementatie moeten alle volgende taken zijn voltooid:
 
 - [Het onboarding-pakket downloaden](#download-the-onboarding-package)
 - [Poppopmanifest maken](#create-a-puppet-manifest)
@@ -45,7 +45,7 @@ In dit artikel wordt beschreven hoe u Defender voor Eindpunt voor Linux implemen
 
 ## <a name="prerequisites-and-system-requirements"></a>Vereisten en systeemvereisten
 
- Zie de hoofdpagina van Defender voor Eindpunt voor Linux voor een beschrijving van vereisten en systeemvereisten voor de huidige [softwareversie.](microsoft-defender-endpoint-linux.md)
+ Zie de hoofdpagina van Defender voor Eindpunt op Linux voor een beschrijving van vereisten en systeemvereisten voor de huidige [softwareversie.](microsoft-defender-endpoint-linux.md)
 
 Daarnaast moet u voor de implementatie van Poppenspel bekend zijn met beheertaken van Poppenkast, Dat Popping is geconfigureerd en weet hoe u pakketten implementeert. Poppop heeft veel manieren om dezelfde taak uit te voeren. Deze instructies gaan uit van de beschikbaarheid van ondersteunde Poppopmodules, zoals *geschikt voor* het implementeren van het pakket. Uw organisatie kan een andere werkstroom gebruiken. Raadpleeg de [documentatie van De Poppop](https://puppet.com/docs) voor meer informatie.
 
@@ -79,7 +79,7 @@ Download het onboarding-pakket van het Microsoft Defender-beveiligingscentrum:
 
 ## <a name="create-a-puppet-manifest"></a>Een pop-popmanifest maken
 
-U moet een Poppopmanifest maken voor het implementeren van Defender voor Eindpunt voor Linux op apparaten die worden beheerd door een Poppopserver. In dit voorbeeld wordt gebruik gemaakt van de *apt-* en *yumrepo-modules* die beschikbaar zijn via poppoplabs en wordt ervan uitgenomen dat de modules zijn geïnstalleerd op de Server van De Poppop.
+U moet een Poppopmanifest maken voor het implementeren van Defender voor Eindpunt op Linux op apparaten die worden beheerd door een Poppopserver. In dit voorbeeld wordt gebruik gemaakt van de *apt-* en *yumrepo-modules* die beschikbaar zijn via poppoplabs en wordt ervan uitgenomen dat de modules zijn geïnstalleerd op de Server van De Poppop.
 
 Maak de mappen *install_mdatp/bestanden* en *install_mdatp/manifesten* onder de modulesmap van de installatie van Uw Poppenkast. Deze map bevindt zich meestal in */etc/poppenkast/code/omgevingen/productie/modules* op uw Poppenspelserver. Kopieer de mdatp_onboard.jsbestand dat hierboven is gemaakt *naar de map install_mdatp/bestanden.* Een *init.pp maken* bestand met de implementatie-instructies:
 
@@ -103,7 +103,7 @@ install_mdatp
 
 ### <a name="contents-of-install_mdatpmanifestsinitpp"></a>Inhoud van `install_mdatp/manifests/init.pp`
 
-Defender voor Eindpunt voor Linux kan worden geïmplementeerd via een van de volgende kanalen (hieronder aangeduid als *[kanaal]*): *insiders-fast,* *insiders-slow* of *prod*. Elk van deze kanalen komt overeen met een Linux-softwareopslagplaats.
+Defender for Endpoint on Linux kan worden geïmplementeerd vanuit een van de volgende kanalen (hieronder aangeduid als *[kanaal]*): *insiders-fast*, *insiders-slow*, of *prod*. Elk van deze kanalen komt overeen met een Linux-softwareopslagplaats.
 
 De keuze van het kanaal bepaalt het type en de frequentie van de updates die op uw apparaat worden aangeboden. Apparaten in *insiders-fast* zijn de eersten die updates en nieuwe functies ontvangen, later gevolgd door *insiders-slow* en ten laatste *door prod*.
 
@@ -238,7 +238,7 @@ Als het product niet gezond is, geeft de exitcode (die kan worden `echo $?` geco
 
 ## <a name="operating-system-upgrades"></a>Upgrades van besturingssysteem
 
-Wanneer u een upgrade van uw besturingssysteem naar een nieuwe hoofdversie hebt uitgevoerd, moet u Eerst Defender voor Eindpunt voor Linux verwijderen, de upgrade installeren en ten slotte Defender voor Eindpunt voor Linux opnieuw configureren op uw apparaat.
+Wanneer u uw besturingssysteem upgradet naar een nieuwe hoofdversie, moet u Eerst Defender voor Eindpunt op Linux verwijderen, de upgrade installeren en defender voor eindpunt opnieuw configureren op Linux op uw apparaat.
 
 ## <a name="uninstallation"></a>Verwijderen
 

@@ -1,7 +1,7 @@
 ---
 title: Handmatige implementatie voor Microsoft Defender voor Eindpunt op macOS
 description: Installeer Microsoft Defender voor Eindpunt handmatig op macOS vanaf de opdrachtregel.
-keywords: microsoft, defender, atp, mac, installatie, implementeren, verwijderen, intune, jamf, macos, catalina, mojave, high sierra
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e8faf95df6691828558175412a1de8aa844d93f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d8458f1bacc6577d83878a94c24e649371d90038
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688595"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935327"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Handmatige implementatie voor Microsoft Defender voor Eindpunt op macOS
 
@@ -164,7 +164,7 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    1. Het bestand had in quarantaine moeten zijn geplaatst door Defender voor Eindpunt voor Mac. Gebruik de volgende opdracht om alle gedetecteerde bedreigingen op te geven:
+    1. Het bestand had in quarantaine moeten zijn geplaatst door Defender voor Eindpunt op Mac. Gebruik de volgende opdracht om alle gedetecteerde bedreigingen op te geven:
 
         ```bash
         mdatp threat list
@@ -207,7 +207,7 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
 
     In het systeem moet het volgende bericht worden weergegeven:
 
-    > Microsoft Defender ATP - macOS EDR DIY-testbestand<br/>
+    > Microsoft Defender voor Eindpunt - macOS EDR DIY-testbestand<br/>
     > De bijbehorende waarschuwing is beschikbaar in de MDATP-portal.
 
 11. Klik **op Openen.**
@@ -228,4 +228,4 @@ Zie [Installatieproblemen registreren](mac-resources.md#logging-installation-iss
 
 ## <a name="uninstallation"></a>Verwijderen
 
-Zie [Verwijderen voor](mac-resources.md#uninstalling) meer informatie over het verwijderen van Microsoft Defender voor Eindpunt voor macOS van clientapparaten.
+Zie [Verwijderen voor](mac-resources.md#uninstalling) meer informatie over het verwijderen van Microsoft Defender voor Eindpunt op macOS van clientapparaten.

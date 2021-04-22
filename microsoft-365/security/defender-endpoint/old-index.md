@@ -1,7 +1,7 @@
 ---
 title: Bedreigingsbeveiliging (Windows 10)
 description: Microsoft Defender voor Eindpunt is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord.
-keywords: bedreigingsbeveiliging, Microsoft Defender Advanced Threat Protection, attack surface reduction, next-generation protection, endpoint detection and response, automated investigation and response, microsoft threat experts, Microsoft Secure Score for Devices, advanced hunting, cyber threat hunting, web threat protection
+keywords: bedreigingsbeveiliging, Microsoft Defender voor eindpunt, beperking van het oppervlak van de aanval, beveiliging van de volgende generatie, detectie en reactie van eindpunten, geautomatiseerd onderzoek en antwoord, microsoft threat experts, Microsoft Secure Score for Devices, advanced hunting, cyber threat hunting, web threat protection
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 4206519d62feb82bbc297659e01b0cc3902b83dc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3098c2786874650ad14d226beacd5ec760decef0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056845"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934931"
 ---
 # <a name="threat-protection"></a>Bedreigingsbeveiliging
 [Microsoft Defender voor Eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection) is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord. Defender for Endpoint beschermt eindpunten tegen cyberdreigingen, detecteert geavanceerde aanvallen en datalekken, automatiseert beveiligingsincidenten en verbetert de beveiliging.
@@ -52,28 +52,28 @@ ms.locfileid: "51056845"
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4obJq]
 
-**[Bedreigings- & kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)**<br>
+**[Bedreigings- en risicobeheer](next-gen-threat-and-vuln-mgt.md)**<br>
 Deze ingebouwde mogelijkheid maakt gebruik van een spelveranderende risicobenadering voor het ontdekken, prioriteren en herstellen van eindpuntproblemen en onjuiste configuraties.
 
 - [Overzicht & beveiligingsprobleembeheer](next-gen-threat-and-vuln-mgt.md)
 - [Aan de slag](tvm-prerequisites.md)
 - [Toegang krijgen tot uw beveiligingsstatus](tvm-dashboard-insights.md)
 - [Uw beveiligingshouding verbeteren en risico's beperken](tvm-security-recommendation.md)
-- [Inzicht krijgen in beveiligingslekken op uw apparaten](tvm-software-inventory.md)
+- [Beveiligingsproblemen op uw apparaten begrijpen](tvm-software-inventory.md)
 
 <a name="asr"></a>
 
-**[Surface-beperking voor aanvallen](overview-attack-surface-reduction.md)**<br>
+**[Kwetsbaarheid voor aanvallen verminderen](overview-attack-surface-reduction.md)**<br>
 De surface reduction set met mogelijkheden voor aanvallen biedt de eerste verdedigingslinie in de stapel. Door ervoor te zorgen dat configuratie-instellingen correct zijn ingesteld en technieken voor risicobeperking worden toegepast, zijn deze mogelijkheden bestand tegen aanvallen en misbruik.
 
 - [Isolatie op basis van hardware](overview-hardware-based-isolation.md)
 - [Toepassingsbeheer](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
-- [Apparaatbesturingselement](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
-- [Beveiliging misbruiken](exploit-protection.md)
+- [Apparaatbesturing](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Bescherming tegen misbruik](exploit-protection.md)
 - [Netwerkbeveiliging](network-protection.md), [webbeveiliging](web-protection-overview.md)
-- [Gecontroleerde maptoegang](controlled-folders.md)
+- [Beheerde maptoegang](controlled-folders.md)
 - [Netwerkfirewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)
-- [Surface Reduction-regels voor aanvallen](attack-surface-reduction.md)
+- [Regels voor het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction.md)
 
 <a name="ngp"></a>
 
@@ -88,7 +88,7 @@ Om de beveiligingsperimeter van uw netwerk verder te versterken, gebruikt Micros
 
 <a name="edr"></a>
 
-**[Eindpuntdetectie en -antwoord](overview-endpoint-detection-response.md)**<br>
+**[Detectie van en reactie op eindpunt](overview-endpoint-detection-response.md)**<br>
 De mogelijkheden voor eindpuntdetectie en -reactie worden gebruikt om inbraakpogingen en actieve inbreuken op te sporen, te onderzoeken en te reageren. Met Geavanceerd zoeken hebt u een op query's gebaseerd hulpprogramma voor het zoeken naar bedreigingen waarmee u proactief inbreuken kunt vinden en aangepaste detecties kunt maken.
 
 - [Waarschuwingen](alerts-queue.md)
@@ -107,7 +107,7 @@ Microsoft Defender voor Eindpunt biedt niet alleen snel reageren op geavanceerde
 
 - [Geautomatiseerd onderzoek en herstel](automated-investigations.md)
 - [Gegevens en resultaten van een geautomatiseerd onderzoek weergeven](auto-investigation-action-center.md)
-- [Herstelacties weergeven en goedkeuren](manage-auto-investigation.md)
+- [Herstelacties bekijken en goedkeuren](manage-auto-investigation.md)
 
 <a name="mte"></a>
 

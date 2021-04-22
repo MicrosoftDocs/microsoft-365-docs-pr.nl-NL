@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP-API's-verbinding met Power BI
+title: Microsoft Defender voor endpoint-API's-verbinding met Power BI
 ms.reviewer: ''
 description: Maak een BI-rapport (Power Business Intelligence) boven microsoft Defender voor eindpunt-API's.
 keywords: api's, ondersteunde api's, Power BI, rapporten
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 696782ca03e5494c3fc5ca08943d1079c5d78f8a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7c99267d75c89b3484d207cd763131e4bcc91527
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166655"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935039"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Aangepaste rapporten maken met Power BI
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -141,10 +141,10 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u Power BI koppelt aan advanced
 Zie de [Power BI-rapportsjablonen](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)voor meer informatie.
 
 ## <a name="sample-reports"></a>Voorbeeldrapporten
-Bekijk de microsoft Defender ATP Power BI-rapportvoorbeelden. Zie Door codevoorbeelden bladeren voor [meer informatie.](https://docs.microsoft.com/samples/browse/?products=mdatp)
+Bekijk de voorbeelden van het Microsoft Defender voor Endpoint Power BI-rapport. Zie Door codevoorbeelden bladeren voor [meer informatie.](https://docs.microsoft.com/samples/browse/?products=mdatp)
 
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="related-topic"></a>Verwant onderwerp
 - [Defender voor eindpunt-API's](apis-intro.md)
 - [Geavanceerde API voor opsporing](run-advanced-query-api.md)
 - [OData-query's gebruiken](exposed-apis-odata-samples.md)

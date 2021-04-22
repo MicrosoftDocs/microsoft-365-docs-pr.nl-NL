@@ -2,7 +2,7 @@
 title: App-implementatie voor Microsoft Defender voor Eindpunt op iOS
 ms.reviewer: ''
 description: Beschrijft hoe u Microsoft Defender voor Eindpunt implementeert in iOS met een app
-keywords: microsoft, defender, atp, ios, app, installatie, implementeren, verwijderen, intune
+keywords: microsoft, defender, Microsoft Defender for Endpoint, ios, app, installation, deploy, uninstallation, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4ddaf8759fa0f2ffb4ed3eb3bb940426dfb3da2c
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 62eefbd17b826aa2cfb541c04ba206d0f58f9bbf
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904056"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935051"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor eindpunt implementeren in iOS
 
@@ -35,20 +35,20 @@ ms.locfileid: "51904056"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt voor iOS implementeert op intune Company Portal ingeschreven apparaten. Zie [IOS/iPadOS-apparaten registreren in Intune](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll)voor meer informatie over intune-apparaatinschrijvingen.
+In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt implementeert op iOS op intune Company Portal ingeschreven apparaten. Zie [IOS/iPadOS-apparaten registreren in Intune](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll)voor meer informatie over intune-apparaatinschrijvingen.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
 - Zorg ervoor dat u toegang hebt tot [het Beheercentrum voor Microsoft Endpoint Manager.](https://go.microsoft.com/fwlink/?linkid=2109431)
 
-- Zorg ervoor dat iOS-registratie is gedaan voor uw gebruikers. Gebruikers moeten een Defender voor Eindpunt-licentie hebben toegewezen om Defender voor Eindpunt voor iOS te kunnen gebruiken. Raadpleeg [Licenties toewijzen aan gebruikers voor](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) instructies over het toewijzen van licenties.
+- Zorg ervoor dat iOS-registratie is gedaan voor uw gebruikers. Gebruikers moeten een Defender voor Eindpunt-licentie hebben toegewezen om Defender voor Eindpunt in iOS te kunnen gebruiken. Raadpleeg [Licenties toewijzen aan gebruikers voor](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) instructies over het toewijzen van licenties.
 
 > [!NOTE]
 > Microsoft Defender voor Eindpunt op iOS is nu beschikbaar in de [Apple App Store.](https://aka.ms/mdatpiosappstore)
 
 ## <a name="deployment-steps"></a>Implementatiestappen
 
-Deploy Defender for Endpoint for iOS via Intune Company Portal.
+Deploy Defender for Endpoint on iOS via Intune Company Portal.
 
 ### <a name="add-ios-store-app"></a>IOS Store-app toevoegen
 
@@ -61,7 +61,7 @@ Deploy Defender for Endpoint for iOS via Intune Company Portal.
 
 1. Selecteer **iOS 11.0 als** het besturingssysteem Minimum. Bekijk de rest van de informatie over de app en klik op **Volgende.**
 
-1. Ga in *de sectie Opdrachten* naar de sectie **Vereist** en selecteer **Groep toevoegen.** Vervolgens kunt u de gebruikersgroep(s) kiezen die u wilt richten op Defender voor Endpoint voor iOS-app. Klik **op Selecteren** en vervolgens op **Volgende.**
+1. Ga in *de sectie Opdrachten* naar de sectie **Vereist** en selecteer **Groep toevoegen.** U kunt vervolgens de gebruikersgroep(s) kiezen die u wilt richten op Defender voor Eindpunt in de iOS-app. Klik **op Selecteren** en vervolgens op **Volgende.**
 
     > [!NOTE]
     > De geselecteerde gebruikersgroep moet bestaan uit intune geregistreerde gebruikers.
@@ -78,11 +78,11 @@ Deploy Defender for Endpoint for iOS via Intune Company Portal.
 
 ## <a name="complete-onboarding-and-check-status"></a>De onboarding- en controlestatus voltooien
 
-1. Wanneer Defender voor Eindpunt voor iOS op het apparaat is geïnstalleerd, ziet u het app-pictogram.
+1. Zodra Defender voor Eindpunt op iOS is geïnstalleerd op het apparaat, ziet u het app-pictogram.
 
     ![Een schermafbeelding van een beschrijving van een smartphone die automatisch wordt gegenereerd](images/41627a709700c324849bf7e13510c516.png)
 
-2. Tik op het pictogram van de Defender voor eindpunt-app en volg de instructies op het scherm om de onboarding-stappen uit te voeren. De details omvatten de acceptatie door eindgebruikers van iOS-machtigingen die vereist zijn door Defender voor Eindpunt voor iOS.
+2. Tik op het pictogram van de Defender voor eindpunt-app en volg de instructies op het scherm om de onboarding-stappen uit te voeren. De details omvatten de acceptatie door eindgebruikers van iOS-machtigingen die vereist zijn door Defender voor Eindpunt in iOS.
 
 3. Na succesvolle onboarding wordt het apparaat weergegeven in de lijst Apparaten in het Microsoft Defender-beveiligingscentrum.
 
@@ -144,4 +144,4 @@ Met Intune kunt u de Defender voor iOS-app configureren via een beleid voor app-
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Defender configureren voor endpoint voor iOS-functies](ios-configure-features.md)
+[Defender voor eindpunt configureren voor iOS-functies](ios-configure-features.md)

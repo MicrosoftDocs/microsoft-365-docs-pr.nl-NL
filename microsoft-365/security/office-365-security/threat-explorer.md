@@ -19,12 +19,12 @@ description: Gebruik Explorer- en realtimedetecties in het Beveiligings complian
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c601169d76fe92ac3038ccb25c5c50aa390f714
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 0dcda063fc544c88157cff21b8a28f7a84a6a6fb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599885"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934703"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigingsverkenner en realtimedetecties
 
@@ -520,7 +520,7 @@ Naast de scenario's die in dit artikel worden beschreven, zijn er nog veel meer 
 - [Schadelijke bestanden weergeven die zijn gedetecteerd in SharePoint Online, OneDrive en Microsoft Teams](./mdo-for-spo-odb-and-teams.md)
 - [Een overzicht krijgen van de weergaven in Threat Explorer (en realtime detecties)](threat-explorer-views.md)
 - [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
-- [Geautomatiseerd onderzoek en antwoord in Microsoft Threat Protection](../defender/m365d-autoir.md)
+- [Geautomatiseerd onderzoek en antwoord in Microsoft 365 Defender](../defender/m365d-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 

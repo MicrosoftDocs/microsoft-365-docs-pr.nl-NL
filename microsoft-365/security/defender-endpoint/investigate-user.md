@@ -1,7 +1,7 @@
 ---
 title: Een gebruikersaccount onderzoeken in Microsoft Defender voor Eindpunt
 description: Onderzoek een gebruikersaccount naar mogelijke gecompromitteerde referenties of draaipunt op het bijbehorende gebruikersaccount tijdens een onderzoek.
-keywords: onderzoeken, account, gebruiker, gebruikersentiteit, waarschuwing, microsoft defender atp
+keywords: onderzoeken, account, gebruiker, gebruikersentiteit, waarschuwing, Microsoft Defender voor Eindpunt
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 672867d107d005004201caab7d6497ceb048ac97
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: e98142e4076c5e695f16eb06c062bc69d3d7dd55
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587705"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935063"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>Een gebruikersaccount onderzoeken in Microsoft Defender voor Eindpunt
 
@@ -51,7 +51,7 @@ Er is een klikbare koppeling voor gebruikersaccounts beschikbaar in deze weergav
 
 Wanneer u een entiteit van een gebruikersaccount onderzoekt, ziet u:
 
-- Gebruikersaccountgegevens, Azure Advanced Threat Protection -waarschuwingen (Azure ATP) en aangemeld op apparaten, rol, aanmeldingstype en andere details
+- Gebruikersaccountgegevens, Microsoft Defender voor identiteitswaarschuwingen en aangemeld op apparaten, rol, aanmeldingstype en andere details
 - Overzicht van de incidenten en apparaten van de gebruiker
 - Waarschuwingen met betrekking tot deze gebruiker
 - Waargenomen in organisatie (apparaten die zijn aangemeld bij)
@@ -60,10 +60,10 @@ Wanneer u een entiteit van een gebruikersaccount onderzoekt, ziet u:
 
 ### <a name="user-details"></a>Gebruikersgegevens
 
-Het **deelvenster** Gebruikersdetails aan de linkerkant bevat informatie over de gebruiker, zoals gerelateerde geopende incidenten, actieve waarschuwingen, SAM-naam, SID, Azure ATP-waarschuwingen, het aantal apparaten waarop de gebruiker is aangemeld, wanneer de gebruiker voor het eerst en het laatst is gezien, rol- en aanmeldingstypen. Afhankelijk van de integratiefuncties die u hebt ingeschakeld, ziet u andere details. Als u bijvoorbeeld de integratie van Skype voor Bedrijven inschakelen, kunt u contact opnemen met de gebruiker via de portal. De **sectie Azure ATP-waarschuwingen** bevat een koppeling die u naar de Azure ATP-pagina gaat, als u de Azure ATP-functie hebt ingeschakeld en er waarschuwingen zijn met betrekking tot de gebruiker. De Azure ATP-pagina geeft meer informatie over de waarschuwingen.
+Het  deelvenster Gebruikersdetails aan de linkerkant bevat informatie over de gebruiker, zoals gerelateerde geopende incidenten, actieve waarschuwingen, SAM-naam, SID, Microsoft Defender voor identiteitswaarschuwingen, het aantal apparaten waarop de gebruiker is aangemeld, wanneer de gebruiker voor het eerst en het laatst is gezien, rol en aanmeldingstypen. Afhankelijk van de integratiefuncties die u hebt ingeschakeld, ziet u andere details. Als u bijvoorbeeld de integratie van Skype voor Bedrijven inschakelen, kunt u contact opnemen met de gebruiker via de portal. De **sectie Azure ATP-waarschuwingen** bevat een koppeling die u naar de pagina Microsoft Defender voor identiteit gaat, als u de functie Microsoft Defender voor identiteit hebt ingeschakeld en er waarschuwingen zijn met betrekking tot de gebruiker. Op de pagina Microsoft Defender voor identiteit vindt u meer informatie over de waarschuwingen.
 
 >[!NOTE]
->U moet de integratie op zowel Azure ATP als Defender for Endpoint inschakelen om deze functie te kunnen gebruiken. In Defender voor Eindpunt kunt u deze functie inschakelen in geavanceerde functies. Zie Geavanceerde functies inschakelen voor meer informatie over het inschakelen van [geavanceerde functies.](advanced-features.md)
+>U moet de integratie inschakelen op zowel Microsoft Defender voor identiteit als Defender voor Eindpunt om deze functie te kunnen gebruiken. In Defender voor Eindpunt kunt u deze functie inschakelen in geavanceerde functies. Zie Geavanceerde functies inschakelen voor meer informatie over het inschakelen van [geavanceerde functies.](advanced-features.md)
 
 Het overzicht, waarschuwingen en waargenomen in organisatie zijn verschillende tabbladen die verschillende kenmerken over het gebruikersaccount weergeven.
 

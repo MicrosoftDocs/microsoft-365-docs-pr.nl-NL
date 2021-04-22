@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor opslag en privacy van eindpuntgegevens
 description: Meer informatie over hoe Microsoft Defender voor Eindpunt omgaat met privacy en gegevens die worden verzameld.
-keywords: Microsoft Defender voor Eindpunt, Microsoft Defender voor Eindpunt, gegevensopslag en privacy, opslag, privacy, licenties, geolocatie, gegevensretentie, gegevens
+keywords: Microsoft Defender voor Eindpunt, gegevensopslag en privacy, opslag, privacy, licenties, geolocatie, gegevensretentie, gegevens
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dfdfcdcfb8d76f95e3b866f5f95af7efd94ed59e
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 2279045093ebfac4a7eb4544a3e0c137c08c9c0c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904126"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935387"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Microsoft Defender voor opslag en privacy van eindpuntgegevens
 

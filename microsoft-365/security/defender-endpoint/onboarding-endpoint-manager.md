@@ -1,7 +1,7 @@
 ---
-title: Onboarding met Microsoft Endpoint Manager
+title: Onboarden met behulp van Microsoft Endpoint Manager
 description: Meer informatie over het onboarden van Microsoft Defender voor Eindpunt met Microsoft Endpoint Manager
-keywords: onboarding, configuratie, implementatie, implementatie, endpoint manager, mdatp, geavanceerde bedreigingsbeveiliging, verzamelingen maken, reactie op eindpuntdetectie, volgende generatie beveiliging, surface reduction van aanvallen, microsoft endpoint manager
+keywords: onboarding, configuration, deploy, deployment, endpoint manager, Microsoft Defender for Endpoint, collection creation, endpoint detection response, next generation protection, attack surface reduction, microsoft endpoint manager
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,19 +18,19 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9edcceca2f6cc7c2377eb388d7394a23dfbae99d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: e744262cfd63383e69abf02be9fbf91d2d229db2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186255"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935255"
 ---
-# <a name="onboarding-using-microsoft-endpoint-manager"></a>Onboarding met Microsoft Endpoint Manager
+# <a name="onboarding-using-microsoft-endpoint-manager"></a>Onboarden met behulp van Microsoft Endpoint Manager
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -123,14 +123,14 @@ In de volgende sectie maakt u een aantal configuratiebeleidsregels.
 
 Ten eerste is er een configuratiebeleid om te selecteren welke groepen gebruikers of apparaten worden onboarded bij Defender for Endpoint:
 
-- [Eindpuntdetectie en -antwoord](#endpoint-detection-and-response) 
+- [Detectie van en reactie op eindpunt](#endpoint-detection-and-response) 
 
 Vervolgens gaat u door met het maken van verschillende typen eindpuntbeveiligingsbeleid:
 
 - [Beveiliging van de volgende generatie](#next-generation-protection)
-- [Surface-beperking voor aanvallen](#attack-surface-reduction--attack-surface-reduction-rules)
+- [Kwetsbaarheid voor aanvallen verminderen](#attack-surface-reduction--attack-surface-reduction-rules)
 
-### <a name="endpoint-detection-and-response"></a>Eindpuntdetectie en -antwoord
+### <a name="endpoint-detection-and-response"></a>Detectie van en reactie op eindpunt
 
 1.  Open de MEM-portal.
 
@@ -355,7 +355,7 @@ Als u wilt bevestigen dat het configuratiebeleid is toegepast op uw testapparaat
     > [!div class="mx-imgBorder"]
     > [![Afbeelding van Microsoft Endpoint Manager-portal37 ](images/42acc69d0128ed09804010bdbdf0a43c.png)](images/42acc69d0128ed09804010bdbdf0a43c.png#lightbox)
 
-### <a name="endpoint-detection-and-response"></a>Eindpuntdetectie en -antwoord
+### <a name="endpoint-detection-and-response"></a>Detectie van en reactie op eindpunt
 
 
 1.  Voordat u de configuratie gaat toepassen, moet de Defender voor Endpoint Protection-service niet worden gestart.

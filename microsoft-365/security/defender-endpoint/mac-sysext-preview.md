@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender voor Eindpunt voor Mac - systeemextensies (Preview)
-description: Dit artikel bevat instructies voor het testen van de systeemextensiesfunctionaliteit van Microsoft Defender voor Eindpunt voor Mac. Deze functionaliteit is momenteel beschikbaar in een openbaar voorbeeld.
-keywords: microsoft, defender, atp, mac, kernel, systeem, extensies, catalina
+title: Microsoft Defender voor Eindpunt op Mac - systeemextensies (Preview)
+description: Dit artikel bevat instructies voor het testen van de systeemextensiesfunctionaliteit van Microsoft Defender voor Eindpunt op Mac. Deze functionaliteit is momenteel beschikbaar in een openbaar voorbeeld.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, kernel, system, extensions, catalina
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 0b593aa0046a28e558523c2f3ebc7da9976f62d3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: cc148bcc0b2623eaaa8d31ef50708174264fa3b2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860325"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934943"
 ---
 # <a name="microsoft-defender-for-endpoint-on-macos---system-extensions-public-preview"></a>Microsoft Defender for Endpoint on macOS - system extensions public preview)
 
@@ -34,7 +34,7 @@ ms.locfileid: "51860325"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-In overeenstemming met de ontwikkeling van macOS bereiden we een Defender voor Endpoint voor Mac-update voor die gebruik maakt van systeemextensies in plaats van kernelextensies. Deze update is alleen van toepassing op macOS Catalina (10.15.4) en latere versies van macOS.
+In overeenstemming met de ontwikkeling van macOS bereiden we een Defender voor Eindpunt op Mac-update voor die gebruik maakt van systeemextensies in plaats van kernelextensies. Deze update is alleen van toepassing op macOS Catalina (10.15.4) en latere versies van macOS.
 
 Deze functionaliteit is momenteel beschikbaar in een openbaar voorbeeld. In dit artikel wordt beschreven hoe u deze functionaliteit op uw apparaat kunt inschakelen. U kunt deze functie lokaal uitproberen op uw eigen apparaat of op afstand configureren via een beheerhulpmiddel.
 
@@ -62,7 +62,7 @@ In deze stappen wordt ervan uitgenomen dat Defender for Endpoint al op uw appara
   defaults write com.microsoft.autoupdate2 ChannelName -string Beta
   ```
 
-  Als u zich in een beheerde omgeving (JAMF of Intune) hebt, kunt u het updatekanaal ook op afstand configureren. Zie Updates implementeren voor Microsoft Defender voor Eindpunt voor Mac voor meer [informatie: De kanaalnaam instellen.](mac-updates.md#set-the-channel-name)
+  Als u zich in een beheerde omgeving (JAMF of Intune) hebt, kunt u het updatekanaal ook op afstand configureren. Zie Updates implementeren voor Microsoft Defender voor Eindpunt op Mac voor meer [informatie: De kanaalnaam instellen.](mac-updates.md#set-the-channel-name)
 
 ## <a name="deployment-steps"></a>Implementatiestappen
 
@@ -74,7 +74,7 @@ Volg de implementatiestappen die overeenkomen met uw omgeving en de gewenste met
 
 1. Nadat aan alle implementatievoorwaarden is voldaan, start u het apparaat opnieuw op om de goedkeuring en activering van de systeemextensie te starten.
 
-   U ziet een reeks systeemprompts om de systeemextensies van Defender voor Eindpunt goed te keuren. U moet alle **aanwijzingen** uit de reeks goedkeuren, omdat voor macOS een expliciete goedkeuring is vereist voor elke extensie die Defender voor Eindpunt voor Mac op het apparaat installeert.
+   U ziet een reeks systeemprompts om de systeemextensies van Defender voor Eindpunt goed te keuren. U moet alle **aanwijzingen** uit de reeks goedkeuren, omdat voor macOS een expliciete goedkeuring is vereist voor elke extensie die Defender voor Eindpunt op Mac op het apparaat installeert.
    
    Voor elke goedkeuring selecteert u **Beveiligingsvoorkeuren** openen en **selecteert** u Toestaan dat de systeemextensie wordt uitgevoerd.
 

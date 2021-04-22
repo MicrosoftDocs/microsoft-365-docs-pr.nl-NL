@@ -1,10 +1,10 @@
 ---
 title: Microsoft Defender voor Eindpunt integreren met andere Microsoft-oplossingen
-description: Meer informatie over de integratie van Microsoft Defender voor Eindpunt met andere Microsoft-oplossingen, zoals Microsoft Defender voor identiteit en Azure Security Center.
+description: Lees hoe Microsoft Defender voor Eindpunt integreert met andere Microsoft-oplossingen, waaronder Microsoft Defender voor identiteit en Azure Defender.
 author: mjcaparas
 ms.author: macapara
 ms.prod: m365-security
-keywords: microsoft 365 defender, conditional access, office, advanced threat protection, microsoft defender for identity, microsoft defender for office, azure security center, microsoft cloud app security, azure sentinel
+keywords: microsoft 365 defender, conditional access, office, Microsoft Defender for Endpoint, microsoft defender for identity, microsoft defender for office, Azure Defender, microsoft cloud app security, azure sentinel
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.mktglfcycl: deploy
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7d12afd27288655f4f5a82eeed24686f27171a7a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ce8dbef2f4fb7c3503f04f15148d2071b449b2dc
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765393"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935531"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>Microsoft Defender voor Eindpunt en andere Microsoft-oplossingen
 
@@ -38,7 +38,7 @@ ms.locfileid: "51765393"
 
 Microsoft Defender voor Eindpunt wordt rechtstreeks geïntegreerd met verschillende Microsoft-oplossingen.
 
-### <a name="azure-security-center"></a>Azure Security Center
+### <a name="azure-defender"></a>Azure Defender
 Microsoft Defender voor Eindpunt biedt een uitgebreide oplossing voor serverbeveiliging, inclusief mogelijkheden voor het detecteren en reageren van eindpunten (EDR) op Windows-servers.
 
 ### <a name="azure-sentinel"></a>Azure Sentinel
@@ -54,10 +54,10 @@ De dynamische apparaatrisicoscore van Microsoft Defender voor Eindpunt is geïnt
 Microsoft Cloud App Security maakt gebruik van Microsoft Defender for Endpoint-eindpuntsignalen om direct inzicht te krijgen in het gebruik van cloudtoepassing, waaronder het gebruik van niet-ondersteunde cloudservices (schaduw-IT) van alle bewaakte apparaten van Microsoft Defender voor Endpoint.
 
 ### <a name="microsoft-defender-for-identity"></a>Microsoft Defender for Identity
-Verdachte activiteiten zijn processen die worden uitgevoerd onder een gebruikerscontext. De integratie tussen Microsoft Defender voor Eindpunt en Azure ATP biedt de flexibiliteit van het uitvoeren van een cyberbeveiligingsonderzoek voor activiteiten en identiteiten.
+Verdachte activiteiten zijn processen die worden uitgevoerd onder een gebruikerscontext. De integratie tussen Microsoft Defender voor Eindpunt en Microsoft Defender voor identiteit biedt de flexibiliteit om een cyberbeveiligingsonderzoek uit te voeren tussen activiteiten en identiteiten.
 
 ### <a name="microsoft-defender-for-office"></a>Microsoft Defender voor Office
-[Defender voor Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) helpt uw organisatie te beschermen tegen malware in e-mailberichten of bestanden via ATP Safe Links, ATP Safe Attachments, geavanceerde mogelijkheden voor anti-phishing en spoof intelligence. Met de integratie tussen Office 365 ATP en Microsoft Defender voor Eindpunt kunnen beveiligingsanalisten upstream gaan om het beginpunt van een aanval te onderzoeken. Door het delen van bedreigingsinformatie kunnen aanvallen worden beperkt en geblokkeerd. 
+[Defender voor Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) helpt uw organisatie te beschermen tegen malware in e-mailberichten of bestanden via veilige koppelingen, veilige bijlagen, geavanceerde mogelijkheden voor anti-phishing en spoof intelligence. De integratie tussen Microsoft Defender voor Office 365 en Microsoft Defender voor Eindpunt stelt beveiligingsanalisten in staat om upstream te gaan om het ingangspunt van een aanval te onderzoeken. Door het delen van bedreigingsinformatie kunnen aanvallen worden beperkt en geblokkeerd. 
 
 >[!NOTE]
 > Defender voor Office 365-gegevens worden weergegeven voor gebeurtenissen in de afgelopen 30 dagen. Voor waarschuwingen worden Defender voor Office 365-gegevens weergegeven op basis van de eerste activiteitstijd. Daarna zijn de gegevens niet meer beschikbaar in Defender voor Office 365.

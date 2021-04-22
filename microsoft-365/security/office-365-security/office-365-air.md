@@ -1,6 +1,6 @@
 ---
 title: Geautomatiseerd onderzoek en antwoord in Microsoft Defender voor Office 365
-keywords: AIR, autoIR, ATP, automated, investigation, response, remediation, threats, advanced, threat, protection
+keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9850506771f53b125c08b1df2149ee024191d823
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 89421348d858a869e033380802e402465949c554
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768864"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935171"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Automatisch onderzoek en antwoord (AIR) in Microsoft Defender voor Office 365
 
@@ -91,7 +91,7 @@ Controleer bovendien het waarschuwingsbeleid van uw [organisatie,](../../complia
 
 Microsoft 365 biedt een groot aantal ingebouwde waarschuwingsbeleidsregels die helpen bij het identificeren van misbruik van Beheerdersmachtigingen voor Exchange, malwareactiviteit, potentiële externe en interne bedreigingen en risico's voor informatiebeheer. Verschillende van de [standaardwaarschuwingsbeleidsregels](../../compliance/alert-policies.md#default-alert-policies) kunnen geautomatiseerde onderzoeken activeren. In de volgende tabel worden de waarschuwingen beschreven die leiden tot geautomatiseerde onderzoeken, de ernst ervan in het Microsoft 365-beveiligingscentrum en de manier waarop deze worden gegenereerd:
 
-|Waarschuwingsweergave|Ernst|Hoe de waarschuwing wordt gegenereerd|
+|Waarschuwing|Ernst|Hoe de waarschuwing wordt gegenereerd|
 |---|---|---|
 |Er is een potentieel schadelijke URL-klik gedetecteerd|**Hoog**|Deze waarschuwing wordt gegenereerd wanneer een van de volgende problemen optreedt: <ul><li>Een gebruiker die is beveiligd [door veilige koppelingen](safe-links.md) in uw organisatie, klikt op een schadelijke koppeling</li><li>Vonniswijzigingen voor URL's worden geïdentificeerd door Microsoft Defender voor Office 365</li><li>Gebruikers overschrijven waarschuwingspagina's voor veilige koppelingen (op basis van het beleid voor veilige koppelingen van uw [organisatie).](set-up-safe-links-policies.md)</li></ul> <p> Zie Beleidsregels voor veilige koppelingen instellen voor meer informatie over gebeurtenissen die deze waarschuwing [activeren.](set-up-safe-links-policies.md)|
 |Een e-mailbericht wordt door een gebruiker gerapporteerd als malware of phish|**Informatief**|Deze waarschuwing wordt gegenereerd wanneer gebruikers in uw organisatie berichten rapporteren als [phishing-e-mail](enable-the-report-phish-add-in.md)met behulp van de [invoeging Rapportbericht](enable-the-report-message-add-in.md) of de invoeging Phishing melden.|

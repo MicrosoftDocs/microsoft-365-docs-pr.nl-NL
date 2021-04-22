@@ -1,7 +1,7 @@
 ---
 title: Veelvoorkomende fouten in microsoft Defender voor endpoint-API
 description: Lijst met veelvoorkomende Microsoft Defender voor Endpoint API-fouten met beschrijvingen.
-keywords: api's, mdatp-api, fouten, probleemoplossing
+keywords: API's, Microsoft Defender voor Endpoint API, fouten, probleemoplossing
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4fc2aeb6ee5a95f7eb121abdcf4431dc6d34cd49
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 54ae77c28523d3be6092e1567424d2d87a5f2927
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893459"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934787"
 ---
 # <a name="common-rest-api-error-codes"></a>Algemene REST API-foutcodes
 

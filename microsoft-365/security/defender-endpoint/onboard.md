@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3ad23e030048506784edd8f1988fa33263a085ae
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 25b70f91824db2a6d05db5d3981dd50f4f2b477a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861333"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934739"
 ---
 # <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>Microsoft Defender voor endpoint-mogelijkheden configureren en beheren
 
@@ -49,5 +49,5 @@ Onderwerp | Beschrijving
 [Mogelijkheden voor het verlagen van de Surface-aanval configureren](configure-attack-surface-reduction.md) | Configureer de mogelijkheden voor het beperken van het oppervlak van de aanval om ervoor te zorgen dat instellingen correct worden toegepast en gebruik te maken van mitigatietechnieken.
 [Beveiliging van de volgende generatie configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-microsoft-defender-antivirus-features) | Configureer de beveiliging van de volgende generatie om alle soorten nieuwe bedreigingen op te vangen.
 [Microsoft Threat Experts-mogelijkheden configureren](configure-microsoft-threat-experts.md) | Configureer en beheer cyberbeveiligingsintelligentie van Microsoft Threat Experts.
-[Microsoft Threat Protection-integratie configureren](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/threat-protection-integration) | Configureer andere oplossingen die zijn geïntegreerd met Defender voor Eindpunt.
+[Microsoft 365 Defender-integratie configureren](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/threat-protection-integration) | Configureer andere oplossingen die zijn geïntegreerd met Defender voor Eindpunt.
 [Ondersteuning voor beheer en API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/management-apis) | Haal waarschuwingen naar uw SIEM (Security Information and Event Management) of gebruik API's om aangepaste waarschuwingen te maken. Power BI-rapporten maken en bouwen.

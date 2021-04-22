@@ -1,7 +1,7 @@
 ---
-title: Alle aanbevelingen op een lijst zetten
+title: Lijst van alle aanbevelingen
 description: Hiermee wordt een lijst opgehaald met alle beveiligingsaanbevelingen die van invloed zijn op de organisatie.
-keywords: api's, graph api, ondersteunde api's, get, beveiligingsaanbevelingen, mdatp tvm-api, bedreigings- en kwetsbaarheidsbeheer, api voor bedreigings- en kwetsbaarheidsbeheer
+keywords: api's, graph api, ondersteunde api's, get, beveiligingsaanbevelingen, Microsoft Defender voor Endpoint tvm-api, bedreigings- en kwetsbaarheidsbeheer, bedreigings- en kwetsbaarheidsbeheer-api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,19 +15,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5fb68572ee1b154be1db5eb5a092013a1c1a257e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0cb0a1f8a42b419db960e5097667c335bf7f7877
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166595"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935015"
 ---
-# <a name="list-all-recommendations"></a>Alle aanbevelingen op een lijst zetten
+# <a name="list-all-recommendations"></a>Lijst van alle aanbevelingen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
