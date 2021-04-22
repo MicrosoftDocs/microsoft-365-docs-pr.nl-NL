@@ -138,6 +138,8 @@
           href: data-classification-content-explorer.md
         - name: Aan de slag met de activiteitenverkenner
           href: data-classification-activity-explorer.md
+        - name: In Activiteitenverkenner gerapporteerde labelacties
+          href: data-classification-activity-explorer-available-events.md
         - name: Opmerkingen bij de release van gegevensclassificatie
           href: data-classification-pub-preview-relnotes.md
     - name: Vertrouwelijkheidslabels
