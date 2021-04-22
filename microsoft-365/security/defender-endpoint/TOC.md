@@ -475,6 +475,7 @@
 ####### [Beveiligingsaanbevelingen ophalen](get-security-recommendations.md)
 ####### [Computerlabels toevoegen of verwijderen](add-or-remove-machine-tags.md)
 ####### [Computers zoeken op IP](find-machines-by-ip.md)
+####### [Computers zoeken op tag](find-machines-by-tag.md)
 ####### [Ontbrekende KB's ophalen](get-missing-kbs-machine.md)
 ####### [Apparaatwaarde instellen](set-device-value.md)
 
