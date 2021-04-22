@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
 ms.date: 07/31/2020
-ms.openlocfilehash: 395c9773d4bc67ed466d7b3f8d568cecedddfd36
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b117071fa708ad9d425d578833d8b0ad85537151
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911639"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939484"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur bekijken
 
@@ -55,6 +55,22 @@ U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel u
 2. Kies in het tabblad **Facturen** een datumbereik in de vervolgkeuzelijst en kies vervolgens de bestelling die u wilt bekijken.
 3. Op de overzichtspagina ziet u de artikelen, aantal, prijs, korting en totaal voor alle artikelen in de factuur.
 4. Als u een PDF-exemplaar van de factuur wilt afdrukken of opslaan, klikt u op **PDF downloaden**.
+
+::: moniker region="o365-21vianet"
+
+## <a name="request-a-fapiao"></a>Een Fapiao aanvragen
+
+U kunt uw Fapiao-verzoek ongeveer drie (3) dagen nadat u heeft betaald, indienen bij ons [Fapiao-beheersysteem](https://go.microsoft.com/fwlink/p/?linkid=837465).
+
+1. Ga naar de pagina **Facturering** > **& betalingen** in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank”> beheercentrum</a>.
+
+2. Zoek de factuur die u wilt en selecteer vervolgens **Fapiaos downloaden**.
+
+> [!NOTE]
+
+> U hebt een geregistreerd account nodig om toegang te krijgen tot het [Fapiao-beheersysteem](https://go.microsoft.com/fwlink/p/?linkid=837465). Als u nog geen account hebt ingesteld, gaat u naar [Een Fapiao aanvragen voor Office 365 beheerd door 21Vianet](../../admin/services-in-china/apply-for-a-fapiao.md).
+
+::: moniker-end
 
 ## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>Een kopie van uw factuuroverzicht per e-mail ontvangen
 

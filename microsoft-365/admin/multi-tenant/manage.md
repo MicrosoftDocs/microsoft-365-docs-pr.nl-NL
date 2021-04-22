@@ -19,21 +19,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het gebruik van de tenantwisselaar en over de weergaven met meerdere tenants.
-ms.openlocfilehash: 21b51a5e0c79496bf73e60c04aea68def3cf8ad6
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d59760b8a143acc33747aff9f7deaa0b6dd3e711
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580880"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51943027"
 ---
 # <a name="multi-tenant-management"></a>Beheer van meerdere tenants
 
-Multiten tenantbeheer biedt een geïntegreerde vorm van beheer waarmee beheerders alle tenants kunnen beheren die ze beheren vanaf één locatie. Als u meerdere tenants beheert, kunt u het volgende doen:
+Multiten tenantbeheer biedt een geïntegreerde vorm van beheer waarmee Microsoft 365-partnerbeheerders alle tenants kunnen beheren die ze beheren vanaf één locatie. Als u een partner bent die meerdere tenants beheert, kunt u het volgende doen:
 
 - Snel schakelen tussen tenants die u beheert.
 - Beoordeel de servicetoestand, producten en facturering voor meerdere tenants.
 - Op de pagina Alle **tenants** ziet u snel de status van alle services van uw tenants, eventuele openstaande serviceaanvragen, uw producten en facturering en het aantal gebruikers in die tenant.
-
 
 ## <a name="move-between-tenants"></a>Verplaatsen tussen tenants
 
@@ -54,7 +53,6 @@ Multiten tenantbeheer biedt een geïntegreerde vorm van beheer waarmee beheerder
   - Zoeken naar of selecteer de tenant die u wilt beheren
   - U kunt ook uw meest bezochte tenant boven aan de lijst vastmaken.
 
-
 Als u een tenant hebt gemarkeerd als favoriet, wordt deze automatisch uitgebreid, zodat u de statusdetails direct kunt bekijken.
 
 ## <a name="view-service-health-for-all-accounts"></a>Service-status voor alle accounts weergeven
@@ -63,7 +61,7 @@ In de weergave service-status ziet u of incidenten of adviezen van invloed zijn 
 
 1. Selecteer in het Microsoft 365-beheercentrum in de weergave met meerdere tenants de optie **Service health.**
 2. Op **de** samengevoegde weergave Service-status kunt u ook het totale aantal incidenten zien, het totale aantal adviezen dat van invloed is op een van de beheerde tenants en het aantal services met actieve incidenten. U kunt ook zien hoeveel van uw tenants worden beïnvloed door incidenten en adviezen.
-    
+
     - U kunt de filteroptie gebruiken om problemen weer te geven op type probleem of per service
 
     - U kunt problemen bekijken onder **Tabbladen Alle services** **of** Alle problemen.

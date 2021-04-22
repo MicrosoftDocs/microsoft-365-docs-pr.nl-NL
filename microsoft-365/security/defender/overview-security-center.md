@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: f3920942925efbe334df84370c61fbe6a98ad49f
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: f9bb0690cf48c4cc694c0d563ba7d4203953358a
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939262"
+ms.locfileid: "51943051"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Het overzicht van het geïntegreerde Microsoft 365-beveiligingscentrum
 
@@ -50,6 +50,9 @@ Zie het volgende als u informatie nodig hebt over wat er is gewijzigd in het Off
 
 - [Defender voor Office 365 in het Microsoft 365-beveiligingscentrum](microsoft-365-security-center-mdo.md)
 - [Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum](microsoft-365-security-center-mde.md)
+
+> [!NOTE]
+> De beveiligingsportal van Microsoft 365 gebruikt en dwingt bestaande toegang op basis van rollen af en verplaatst elk beveiligingsmodel naar de geïntegreerde portal. Elke geconvergeerde werkbelasting (zoals MDO of MDE) heeft een eigen toegang op basis van rollen. De rollen die al in de producten worden gebruikt, worden automatisch geconvergeerd naar de beveiligingsportal van Microsoft 365. Rollen en machtigingen voor MCAS worden echter nog steeds verwerkt in MCAS.
 
 ## <a name="what-to-expect"></a>Wat u kunt verwachten
 

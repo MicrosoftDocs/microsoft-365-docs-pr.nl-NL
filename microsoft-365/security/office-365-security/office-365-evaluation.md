@@ -7,6 +7,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
+ms.date: 04/21/2021
 audience: ITPro
 ms.topic: article
 localization_priority: Normal
@@ -18,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 86433ef505cd1b9afca100dc731f1885e22c8401
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 005c1f6ad7806c8d1ba1d38e4e82edd25034075d
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935135"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51942991"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365 evalueren
 
@@ -32,11 +33,14 @@ ms.locfileid: "51935135"
 > [!IMPORTANT]
 > De evaluatie van Microsoft Defender voor Office 365 is openbaar. Deze preview-versie wordt geleverd zonder een serviceovereenkomst. Bepaalde functies worden mogelijk niet ondersteund of hebben mogelijk beperkte mogelijkheden.
 
-Door een uitgebreide beveiligingsproductevaluatie uit te voeren, kunt u weloverwogen beslissingen nemen over upgrades en aankopen. Het helpt om de mogelijkheden van het beveiligingsproduct uit te proberen om te beoordelen hoe het uw beveiligingsteam kan helpen bij hun dagelijkse taken.
+Door een grondige beveiligingsproductevaluatie uit te voeren, kunt u weloverwogen beslissingen nemen over upgrades en aankopen. Het helpt om de mogelijkheden van het beveiligingsproduct uit te proberen om te beoordelen hoe het uw beveiligingsteam kan helpen bij hun dagelijkse taken.
 
 De evaluatieervaring van Microsoft Defender voor [Office 365](defender-for-office-365.md) is ontworpen om de complexiteit van de apparaat- en omgevingsconfiguratie te elimineren, zodat u zich kunt concentreren op het evalueren van de mogelijkheden van Microsoft Defender voor Office 365. Met de evaluatiemodus kunnen alle berichten die naar Exchange Online-postvakken worden verzonden, worden geëvalueerd zonder MX-records naar Microsoft te wijzen. De functie is alleen van toepassing op e-mailbeveiliging en niet op Office-clients zoals Word, SharePoint of Teams.
 
 Als u nog geen licentie hebt die Microsoft Defender voor Office 365 ondersteunt, kunt u een gratis evaluatie van [30](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) dagen starten en de mogelijkheden testen in het Office 365 Security & Compliance center ( https://protection.office.com/homepage) . U zult genieten van de snelle set-up en u kunt deze eenvoudig uitschakelen indien nodig.
+
+> [!NOTE]
+> Als u zich in de geïntegreerde Microsoft 365-beveiligingsportal (security.microsoft.com) gebruikt, kunt u hier een Evaluatie van Defender voor Office 365 starten: E-mail & Samenwerking > Beleid & Regels > Bedreigingsbeleid > Aanvullende beleidsregels.
 
 ## <a name="how-the-evaluation-works"></a>De manier waarop de evaluatie werkt
 

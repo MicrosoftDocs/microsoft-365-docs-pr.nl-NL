@@ -2,7 +2,7 @@
 title: Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
 description: Informatie over veranderingen uit het Office 365 Beveiligings- en compliancecentrum aan het Microsoft 365-beveiligingscentrum.
 keywords: Microsoft 365-beveiliging, Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, nieuwe beveiligingsportal, nieuwe defender-beveiligingsportal
-ms.date: 02/02/2021
+ms.date: 02/21/2021
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 980a384d3c4fd44a368f35d6f885ea0c8288376a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b5decd562509d134899b85b380791087a913cd58
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935411"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51943063"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
 
@@ -64,6 +64,9 @@ Controleer ook de sectie **Relevante informatie** onderaan dit artikel.
 
 > [!IMPORTANT]
 > Het Microsoft 365-beveiligingsportaal (https://security.microsoft.com) combineert beveiligingsfuncties in https://securitycenter.windows.com en https://protection.office.com. Wat je te zien krijgt hangt echter af van het abonnement. Als je bijvoorbeeld enkel Microsoft Defender voor Office 365 Plan 1 of 2 hebt als alleenstaande abonnementen, zal je geen functies voor Beveiliging voor eindpunten te zien krijgen en klanten van Defender voor Office Plan 1 zullen geen items te zien krijgen zoals Dreigingsanalyse.
+
+> [!TIP]
+>  Alle EOP-functies (Exchange Online Protection) worden opgenomen in het Microsoft 365-beveiligingscentrum, omdat EOP een kernelement is van Defender voor Office 365.
 
 ## <a name="microsoft-365-security-center-home-page"></a>Startpagina van Microsoft 365-beveiligingscentrum
 
