@@ -1,7 +1,7 @@
 ---
 title: Releasenotities van Microsoft Defender for Endpoint API
 description: Releasenotities voor updates die zijn aangebracht in de Microsoft Defender for Endpoint-set API's.
-keywords: microsoft defender for endpoint api release notes, mde, apis, mdatp api, updates, notes, release
+keywords: Microsoft Defender for Endpoint API release notes, mde, API's, Microsoft Defender for Endpoint API, updates, notes, release
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e37841fa17a5998c431c6a76b878f20ef1b06d10
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 02fd995b04c1644e88b38fd0feebc2c80a3681ac
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057165"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933623"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Releasenotities van Microsoft Defender for Endpoint API
 

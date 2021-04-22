@@ -1,7 +1,7 @@
 ---
-title: Problemen met de Microsoft Defender-service oplossen
+title: Problemen met Microsoft Defender voor Eindpunt-service oplossen
 description: Zoek oplossingen en tijdelijke oplossingen voor bekende problemen, zoals serverfouten bij het openen van de service.
-keywords: problemen met Microsoft Defender voor eindpunt oplossen, problemen met Windows ATP oplossen, serverfout, toegang geweigerd, ongeldige referenties, geen gegevens, dashboardportal, toestaan, gebeurtenisviewer
+keywords: problemen met Microsoft Defender voor eindpunt, serverfout, toegang geweigerd, ongeldige referenties, geen gegevens, dashboardportal, toestaan, gebeurtenisviewer oplossen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 112f682836da37ddfb51c103282518ff74563727
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 81f1b4154de25f6186679adc5b1f24f78f302415
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186015"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933755"
 ---
 # <a name="troubleshoot-service-issues"></a>Problemen met de service oplossen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -80,7 +80,7 @@ Ondersteuning voor het gebruik van komma's als scheidingsteken in getallen wordt
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troubleshoot-belowfoldlink)
 
 ## <a name="microsoft-defender-for-endpoint-tenant-was-automatically-created-in-europe"></a>Microsoft Defender voor Eindpunt-tenant is automatisch gemaakt in Europa
-Wanneer u Azure Security Center gebruikt om servers te controleren, wordt automatisch een Microsoft Defender voor Eindpunt-tenant gemaakt. De Gegevens van Microsoft Defender voor eindpunten worden standaard opgeslagen in Europa.
+Wanneer u Azure Defender gebruikt om servers te controleren, wordt automatisch een Microsoft Defender voor Eindpunt-tenant gemaakt. De Gegevens van Microsoft Defender voor eindpunten worden standaard opgeslagen in Europa.
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Vals-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken
 description: Meer informatie over het verwerken van fout-positieven of onwaar negatieven in Microsoft Defender voor Eindpunt.
-keywords: antivirus, uitzondering, uitsluiting, defender atp, false positive, false negative, geblokkeerd bestand, geblokkeerde url
+keywords: antivirus, uitzondering, uitsluiting, Microsoft Defender voor Eindpunt, false positive, false negative, geblokkeerd bestand, geblokkeerde url
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: f2615cf5ec49c9df27472f04c367f30511e9c0cc
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 368de770f772dc75a366b2120c8824fda6a7ba11
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759868"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933587"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Vals-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken
 
@@ -338,11 +338,11 @@ Als u wilt controleren op updates met betrekking tot uw inzending, meld u zich a
 
 Microsoft Defender voor Eindpunt biedt een groot aantal opties, waaronder de mogelijkheid om instellingen voor verschillende functies en mogelijkheden aan te passen. Als u meerdere fout-positieven krijgt, controleert u de instellingen voor bedreigingsbeveiliging van uw organisatie. Mogelijk moet u het volgende aanpassen:
 
-- [Beveiliging in de cloud](#cloud-delivered-protection)
+- [Cloudbeveiliging](#cloud-delivered-protection)
 - [Herstel van potentieel ongewenste toepassingen](#remediation-for-potentially-unwanted-applications)
 - [Geautomatiseerd onderzoek en herstel](#automated-investigation-and-remediation)
 
-### <a name="cloud-delivered-protection"></a>Beveiliging in de cloud
+### <a name="cloud-delivered-protection"></a>Cloudbeveiliging
 
 Controleer uw beveiligingsniveau in de cloud voor Microsoft Defender Antivirus. Standaard is beveiliging in de cloud ingesteld op Niet **geconfigureerd,** wat overeenkomt met een normaal beveiligingsniveau voor de meeste organisaties. Als de beveiliging in de cloud is ingesteld op **Hoog,** **Hoog +** of Nul **tolerantie,** kan het aantal fout-positieven hoger zijn.
 

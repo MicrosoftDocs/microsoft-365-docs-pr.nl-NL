@@ -1,7 +1,7 @@
 ---
 title: Gevonden beveiligingsproblemen ophalen
 description: Hiermee wordt een verzameling gevonden beveiligingslekken met betrekking tot een bepaalde apparaat-id opgehaald.
-keywords: api's, graph api, ondersteunde api's, get, list, file, information, discovered vulnerabilities, threat & vulnerability management api, mdatp tvm api
+keywords: api's, graph api, ondersteunde api's, get, list, file, information, discovered vulnerabilities, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 73b8fe5140ff635791e7d42358024bb7fb4ee926
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 133a8525a2e561062a492f7148de97a77d37444e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570325"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934319"
 ---
 # <a name="get-discovered-vulnerabilities"></a>Gevonden beveiligingsproblemen ophalen
 
@@ -59,7 +59,7 @@ GET /api/machines/{machineId}/vulnerabilities
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

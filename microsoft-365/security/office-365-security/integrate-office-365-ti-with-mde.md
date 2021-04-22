@@ -2,7 +2,7 @@
 title: Microsoft Defender voor Office 365 gebruiken samen met Microsoft Defender voor Eindpunt
 f1.keywords:
 - NOCSH
-keywords: integreren, Microsoft Defender, ATP
+keywords: integreren, Microsoft Defender, Microsoft Defender voor Eindpunt
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -19,12 +19,12 @@ description: Gebruik Microsoft Defender voor Office 365 samen met Microsoft Defe
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c2e7a3eeb9576b53723a786de85f0c4bece679b4
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e6ad81102a9702a725f40fcdb5421a2b19b0086d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204248"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934031"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Microsoft Defender voor Office 365 gebruiken samen met Microsoft Defender voor Eindpunt
 
@@ -82,4 +82,4 @@ De integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor
 
 [Microsoft Defender voor Office 365](defender-for-office-365.md)
 
-[Microsoft Defender voor Endpoint](/windows/security/threat-protection)
+[Microsoft Defender voor Eindpunt](/windows/security/threat-protection)

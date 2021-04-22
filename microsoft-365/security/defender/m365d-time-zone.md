@@ -1,7 +1,7 @@
 ---
 title: De tijdzone instellen voor Microsoft 365 Defender-functies
 description: Meer informatie over het kiezen van de tijdzone voor datum- en tijdgegevens die zijn gekoppeld aan incidenten, geautomatiseerd onderzoek en herstel en geavanceerde jacht
-keywords: tijdzone, datum, tijd, MTP, Microsoft Threat Protection, M365, beveiliging, incidenten, geautomatiseerd onderzoek en antwoord, AIR, geavanceerde jacht
+keywords: tijdzone, datum, tijd, Microsoft 365 Defender, M365, beveiliging, incidenten, geautomatiseerd onderzoek en antwoord, AIR, geavanceerde jacht
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: dba87ca610a665baab6d3846460c4683fdc25190
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a4ad27463f5f14c72096d99c9edc431831436d39
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058614"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934415"
 ---
 # <a name="set-the-time-zone-for-microsoft-365-defender"></a>De tijdzone instellen voor Microsoft 365 Defender
 

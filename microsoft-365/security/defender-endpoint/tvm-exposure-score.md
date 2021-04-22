@@ -1,7 +1,7 @@
 ---
 title: Blootstellingsscore bij bedreigings- en kwetsbaarheidsbeheer
 description: De blootstellingsscore voor bedreigings- en kwetsbaarheidsbeheer geeft aan hoe kwetsbaar uw organisatie is voor cyberbeveiligingsdreigingen.
-keywords: exposure score, mdatp exposure score, mdatp tvm exposure score, organization exposure score, tvm organization exposure score, threat and vulnerability management, Microsoft Defender for Endpoint
+keywords: exposure score, Microsoft Defender for Endpoint exposure score, Microsoft Defender for Endpoint tvm exposure score, organization exposure score, tvm organization exposure score, threat and vulnerability management, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34c3122b017b14605fdbb3358f31f73e26361a4d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: fcea240fe1dc0ce97a2800391320b04c39c84336
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500132"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934103"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>Blootstellingsscore - bedreigings- en kwetsbaarheidsbeheer
 

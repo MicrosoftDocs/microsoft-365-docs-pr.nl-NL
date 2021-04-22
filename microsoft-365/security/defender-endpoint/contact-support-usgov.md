@@ -1,7 +1,7 @@
 ---
 title: Neem contact op met Microsoft Defender voor endpoint-ondersteuning voor klanten van de Amerikaanse overheid
 description: Meer informatie over het contact opnemen met Microsoft Defender voor endpoint-ondersteuning voor klanten van de Amerikaanse overheid
-keywords: ondersteuning, contact, premier support, solutions, problems, case, government, gcc, gcc-m, gcc-h, defender, endpoint, mdatp, mde
+keywords: ondersteuning, contact, premier support, solutions, problems, case, government, gcc, gcc-m, gcc-h, defender, endpoint, Microsoft Defender for Endpoint, mde
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: efdd2807db53f37a76108b872ca0822acfb2af81
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 97971699ec6000ab9233c2fd739f471cdda01b2d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057597"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933851"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support-for-us-government-customers"></a>Neem contact op met Microsoft Defender voor endpoint-ondersteuning voor klanten van de Amerikaanse overheid
 
@@ -30,7 +30,7 @@ ms.locfileid: "51057597"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 Defender voor Endpoint heeft onlangs het ondersteuningsproces bijgewerkt om een modernere en geavanceerdere ondersteuning te bieden.
 

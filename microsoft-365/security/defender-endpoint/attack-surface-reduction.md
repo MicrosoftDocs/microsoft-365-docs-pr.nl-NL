@@ -1,7 +1,7 @@
 ---
 title: Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 description: Met regels voor het verlagen van de surface-aanval kunt u voorkomen dat exploits apps en scripts gebruiken om apparaten met malware te infecteren.
-keywords: Attack surface reduction rules, asr, hips, host intrusion prevention system, protection rules, anti-exploit, antiexploit, exploit, infection prevention, Microsoft Defender for Endpoint, Microsoft Defender ATP
+keywords: Attack surface reduction rules, asr, hips, host intrusion prevention system, protection rules, anti-exploit, antiexploit, exploit, infection prevention, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 8790d959dc41e3edea684c66e556a2ec67f85ae1
-ms.sourcegitcommit: 0fe5989b7ee2f7ae0181f2781e31db7f58689441
+ms.openlocfilehash: 98f04a9aa34fda78c7caba2f6cb71c135428784f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697525"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933983"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 
@@ -135,11 +135,11 @@ U kunt het Windows-gebeurtenislogboek bekijken om gebeurtenissen weer te geven d
 2. Voer de woorden, *Gebeurtenisviewer,* in het menu Start in om de Windows Event Viewer te openen.
 3. Selecteer **onder Acties** de optie Aangepaste weergave **importeren...**.
 4. Selecteer de *bestandsindelingcfa-events.xml* waar het is geëxtraheerd. U kunt ook [de XML rechtstreeks kopiëren.](event-views.md)
-5. Kies **OK**.
+5. Selecteer **OK**.
 
 U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om alleen de volgende gebeurtenissen weer te geven, die allemaal betrekking hebben op gecontroleerde maptoegang:
 
-|Gebeurtenis-id | Omschrijving |
+|Gebeurtenis-id | Beschrijving |
 |:---|:---|
 |5007 | Gebeurtenis wanneer instellingen worden gewijzigd |
 |1121 | Gebeurtenis wanneer regel wordt branden in de blokmodus |

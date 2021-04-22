@@ -1,7 +1,7 @@
 ---
-title: Onboarding met Microsoft Endpoint Configuration Manager
+title: Onboarden met behulp van Microsoft Endpoint Configuration Manager
 description: Meer informatie over het onboarden van Microsoft Defender voor Eindpunt met Microsoft Endpoint Configuration Manager
-keywords: onboarding, configuratie, implementatie, implementatie, endpoint configuration manager, mdatp, advanced threat protection, collection creation, endpoint detection response, next generation protection, attack surface reduction, microsoft endpoint configuration manager
+keywords: onboarding, configuration, deploy, deployment, endpoint configuration manager, Microsoft Defender for Endpoint, collection creation, endpoint detection response, next generation protection, attack surface reduction, microsoft endpoint configuration manager
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,19 +18,19 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 31c946ccad84aca3b2fc86c95655cea9e66e182f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 84273ce3e060eb86ee246a5cc6a8cae3cba743b5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186399"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934487"
 ---
-# <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Onboarding met Microsoft Endpoint Configuration Manager
+# <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Onboarden met behulp van Microsoft Endpoint Configuration Manager
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -117,12 +117,12 @@ Na het voltooien van deze taak hebt u nu een apparaatverzameling met alle Window
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>Stap 2: Microsoft Defender configureren voor endpoint-mogelijkheden 
 In deze sectie wordt u begeleid bij het configureren van de volgende mogelijkheden met Microsoft Endpoint Configuration Manager op Windows-apparaten:
 
-- [**Eindpuntdetectie en -antwoord**](#endpoint-detection-and-response)
+- [**Detectie van en reactie op eindpunt**](#endpoint-detection-and-response)
 - [**Beveiliging van de volgende generatie**](#next-generation-protection)
-- [**Surface-beperking voor aanvallen**](#attack-surface-reduction)
+- [**Kwetsbaarheid voor aanvallen verminderen**](#attack-surface-reduction)
 
 
-### <a name="endpoint-detection-and-response"></a>Eindpuntdetectie en -antwoord
+### <a name="endpoint-detection-and-response"></a>Detectie van en reactie op eindpunt
 #### <a name="windows-10"></a>Windows 10
 Vanuit het Microsoft Defender-beveiligingscentrum is het mogelijk om het '.onboarding'-beleid te downloaden dat kan worden gebruikt om het beleid te maken in System Center Configuration Manager en dat beleid te implementeren op Windows 10-apparaten.
 
@@ -264,7 +264,7 @@ Microsoft Defender Antivirus is een ingebouwde antimalwareoplossing die de volge
 
 Nadat u deze taak hebt voltooid, hebt u Windows Defender Antivirus nu geconfigureerd.
 
-### <a name="attack-surface-reduction"></a>Surface-beperking voor aanvallen
+### <a name="attack-surface-reduction"></a>Kwetsbaarheid voor aanvallen verminderen
 De attack surface reduction-pijler van Defender for Endpoint bevat de functieset die beschikbaar is onder Exploit Guard. Asr-regels (Attack Surface Reduction), Controlled Folder Access, Network Protection en Exploit Protection. 
 
 Al deze functies bieden een auditmodus en een blokmodus. In de auditmodus is er geen effect op de eindgebruiker. Het enige wat u doet, is extra telemetrie verzamelen en beschikbaar maken in het Microsoft Defender-beveiligingscentrum. Het doel van een implementatie is om beveiligingsbesturingselementen stapsgewijs naar de blokmodus te verplaatsen.
@@ -389,4 +389,4 @@ Nadat u deze taak hebt voltooid, hebt u netwerkbeveiliging nu geconfigureerd in 
 U hebt nu beheerde maptoegang geconfigureerd in de auditmodus.
 
 ## <a name="related-topic"></a>Verwant onderwerp
-- [Onboarding met Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Onboarden met behulp van Microsoft Endpoint Manager](onboarding-endpoint-manager.md)

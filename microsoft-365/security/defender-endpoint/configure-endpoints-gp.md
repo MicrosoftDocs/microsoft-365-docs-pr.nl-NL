@@ -1,7 +1,7 @@
 ---
 title: Windows 10-apparaten aan boord van Microsoft Defender voor Eindpunt via groepsbeleid
 description: Gebruik Groepsbeleid om het configuratiepakket te implementeren op Windows 10-apparaten, zodat ze zijn aan boord van de service.
-keywords: apparaten configureren met groepsbeleid, apparaatbeheer, Windows ATP-apparaten configureren, Microsoft Defender aan boord voor eindpuntapparaten, groepsbeleid
+keywords: apparaten configureren met groepsbeleid, apparaatbeheer, Microsoft Defender configureren voor endpoint-apparaten, aan boord van Microsoft Defender voor eindpuntapparaten, groepsbeleid
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: b839cf204e8ab042e0c88a8f8c48df79770e7b4f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: b8f56c8f2ba92073ea7ae9464f199d9c900b932f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893632"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933959"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10-apparaten met groepsbeleid 
 

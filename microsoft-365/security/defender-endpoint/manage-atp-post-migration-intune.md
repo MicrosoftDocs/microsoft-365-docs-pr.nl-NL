@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor eindpunt beheren met Intune
 description: Meer informatie over het beheren van Microsoft Defender voor Eindpunt met Intune
-keywords: post-migration, manage, operations, maintenance, utilization, intune, windows defender advanced threat protection, atp, edr
+keywords: post-migration, manage, operations, maintenance, utilization, intune, Microsoft Defender for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,19 +20,19 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 01936eb323060190f2e785df04c3d317f7999d08
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d8396c352e593f9922b11e23119f7d9718eaf752
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185883"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934223"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Microsoft Defender voor eindpunt beheren met Intune
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

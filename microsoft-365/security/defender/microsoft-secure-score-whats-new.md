@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 5a868904a43e17952368e097c0b0e963252d5bed
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: b3f86dfbc1ae89eff61c680737061b01998a527b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570361"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933863"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuwe functies in Microsoft Secure Score
 
@@ -50,7 +50,7 @@ Klanten van Microsoft Teams zien 'Anonieme gebruikers beperken van deelname aan 
 
 ## <a name="december-2020"></a>December 2020
 
-### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Zes accountsgerelateerde verbeteringsacties toegevoegd voor Microsoft Defender voor Eindpunt (voorheen MICROSOFT Defender ATP):
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>Er zijn zes aan accounts gerelateerde verbeteringsacties toegevoegd voor Microsoft Defender voor Eindpunt:
 
 - 'Minimale wachtwoordlengte' instellen op '14 of meer tekens'
 - Stel 'Wachtwoordgeschiedenis afdwingen' in op '24 of meer wachtwoord(en)'
@@ -65,7 +65,7 @@ Klanten van Microsoft Teams zien 'Anonieme gebruikers beperken van deelname aan 
 
 De mogelijkheid om ServiceNow-tickets te maken via Secure Score door naar **> ServiceNow** te gaan, is niet meer beschikbaar. Bedankt voor uw feedback en verdere ondersteuning terwijl we de volgende stappen bepalen.
 
-### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Drie servicesgerelateerde verbeteringsacties toegevoegd voor Microsoft Defender voor Eindpunt (voorheen Microsoft Defender ATP):
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>Er zijn drie servicesgerelateerde verbeteringsacties voor Microsoft Defender voor Eindpunt toegevoegd:
 
 - Niet-geciteerd servicepad voor Windows-services oplossen
 - Uitvoerbare servicepad wijzigen in een gemeenschappelijke beveiligde locatie

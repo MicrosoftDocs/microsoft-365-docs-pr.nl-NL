@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9c77cb19731e55976058ce2f628baf4026639949
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 34ca51c066eddb65f2df0cf8a5d85732bd84a9c0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903788"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934367"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Geavanceerde functies configureren in Defender voor Eindpunt
 
@@ -151,7 +151,7 @@ Als u de integratie van Skype voor Bedrijven inschakelen, kunt u communiceren me
 
 ## <a name="microsoft-defender-for-identity-integration"></a>Microsoft Defender voor identiteitsintegratie
 
-Met de integratie met Azure Advanced Threat Protection kunt u rechtstreeks naar een ander Microsoft Identity-beveiligingsproduct draaien. Azure Advanced Threat Protection breidt een onderzoek uit met aanvullende inzichten over een verdacht gekromd account en gerelateerde bronnen. Door deze functie in te stellen, verrijkt u de apparaatgebaseerde onderzoeksfunctie door vanuit een identificeerpunt over het netwerk te draaien.
+Met de integratie met Microsoft Defender voor identiteit kunt u rechtstreeks naar een ander beveiligingsproduct van Microsoft Identity draaien. Microsoft Defender voor identiteit vergroot een onderzoek met aanvullende inzichten over een verdacht gekromd account en gerelateerde bronnen. Door deze functie in te stellen, verrijkt u de apparaatgebaseerde onderzoeksfunctie door vanuit een identificeerpunt over het netwerk te draaien.
 
 > [!NOTE]
 > U moet over de juiste licentie beschikken om deze functie in te stellen.
@@ -160,7 +160,7 @@ Met de integratie met Azure Advanced Threat Protection kunt u rechtstreeks naar 
 
 Deze functie is alleen beschikbaar als u een actieve Office 365 E5 of de Threat Intelligence-invoeging hebt. Zie de productpagina van Office 365 Enterprise E5 voor meer informatie.
 
-Wanneer u deze functie in gebruik neemt, kunt u gegevens uit Office 365 Advanced Threat Protection opnemen in het Microsoft Defender-beveiligingscentrum om een uitgebreid beveiligingsonderzoek uit te voeren op Office 365-postvakken en Windows-apparaten.
+Wanneer u deze functie in gebruik neemt, kunt u gegevens van Microsoft Defender voor Office 365 opnemen in het Microsoft Defender-beveiligingscentrum om een uitgebreid beveiligingsonderzoek uit te voeren op Office 365-postvakken en Windows-apparaten.
 
 > [!NOTE]
 > U moet over de juiste licentie beschikken om deze functie in te stellen.

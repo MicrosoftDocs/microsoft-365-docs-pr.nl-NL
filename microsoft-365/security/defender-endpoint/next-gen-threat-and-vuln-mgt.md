@@ -1,7 +1,7 @@
 ---
 title: Bedreigings- en kwetsbaarheidsbeheer
 description: Deze nieuwe mogelijkheid maakt gebruik van een spelveranderende risicobenadering voor het vinden, prioriteren en herstellen van eindpuntproblemen en onjuiste configuraties.
-keywords: threat & vulnerability management, threat and vulnerability management, MDATP TVM, MDATP-TVM, vulnerability management, vulnerability assessment, threat and vulnerability scanning, secure configuration assessment, microsoft defender for endpoint, microsoft defender atp, endpoint vulnerabilities, next generation
+keywords: threat & vulnerability management, threat and vulnerability management, Microsoft Defender for Endpoint TVM, Microsoft Defender for Endpoint-TVM, vulnerability management, vulnerability assessment, threat and vulnerability scanning, secure configuration assessment, Microsoft Defender for Endpoint, endpoint vulnerabilities, next generation
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: e9c575aa8968b8cab2c5d91b9fe0b1cb46b292d3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 474b8f032d32668eaea3a477da013c2b8e74019b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860759"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934163"
 ---
 # <a name="threat-and-vulnerability-management"></a>Bedreigings- en kwetsbaarheidsbeheer
 

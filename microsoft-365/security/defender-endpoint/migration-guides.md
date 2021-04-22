@@ -1,6 +1,6 @@
 ---
 title: Migratiehandleidingen om over te schakelen naar Microsoft Defender voor Eindpunt
-description: Meer informatie over het overstappen van een niet-Microsoft-oplossing voor bedreigingsbeveiliging naar Microsoft Defender voor Eindpunt
+description: Meer informatie over het overstappen van een niet-Microsoft 365 Defender-oplossing naar Microsoft Defender voor eindpunt
 search.appverid: MET150
 author: denisebmsft
 ms.author: deniseb
@@ -17,26 +17,26 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 09/24/2020
 ms.technology: mde
-ms.openlocfilehash: c191e2006f42eda215508ba961dcbeb1ea282078
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: f834ab371b9d860c451c89bb1a4e7d64bdd6ec1f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218626"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934439"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>De overstap maken naar Microsoft Defender voor Endpoint en Microsoft Defender Antivirus
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 ## <a name="migration-guides"></a>Migratiehandleidingen
 
-Als u overweegt om over te stappen van een niet-Microsoft-beveiligingsoplossing voor bedreigingen naar Microsoft Defender voor Eindpunt met Microsoft Defender Antivirus, raadpleegt u onze migratie-richtlijnen. Selecteer het scenario dat het beste vertegenwoordigt waar u zich in uw implementatieproces kunt plaatsen en bekijk de richtlijnen.
+Als u overweegt om over te stappen van een niet-Microsoft 365 Defender-oplossing naar Microsoft Defender voor Eindpunt met Microsoft Defender Antivirus, raadpleegt u onze migratie-richtlijnen. Selecteer het scenario dat het beste vertegenwoordigt waar u zich in uw implementatieproces kunt plaatsen en bekijk de richtlijnen.
 
 |Scenario |Richtlijnen |
 |:--|:--|

@@ -1,7 +1,7 @@
 ---
 title: Dashboardinzichten - bedreigings- en kwetsbaarheidsbeheer
 description: Het dashboard bedreigings- en kwetsbaarheidsbeheer kan SecOps en beveiligingsbeheerders helpen bij het aanpakken van cyberbeveiligingsdreigingen en het opbouwen van de beveiligingsweerbaarheid van hun organisatie.
-keywords: mdatp-tvm, mdatp-tvm dashboard, threat & vulnerability management, threat and vulnerability management, risk-based threat & vulnerability management, security configuration, Microsoft Secure Score for Devices, exposure score
+keywords: Microsoft Defender for Endpoint-tvm, Microsoft Defender for Endpoint-tvm dashboard, threat & vulnerability management, threat and vulnerability management, risk-based threat & vulnerability management, security configuration, Microsoft Secure Score for Devices, exposure score
 search.appverid: met150
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 35dd300d828bfa48ad753d7c65f36b2555cf4f60
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 82b6123a99eb406918708c6bf23b870ef3bc3d79
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500175"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934139"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>Dashboardinzichten - bedreigings- en kwetsbaarheidsbeheer
 
@@ -62,7 +62,7 @@ Bekijk deze video voor een kort overzicht van wat er in het dashboard voor bedre
 
  ![Microsoft Defender voor endpoint-portal](images/tvm-dashboard-devices.png)
 
-Gebied | Omschrijving
+Gebied | Beschrijving
 :---|:---
 **Geselecteerde apparaatgroepen (#/#)**   | Filter de gegevens voor bedreigings- en kwetsbaarheidsbeheer die u wilt zien in het dashboard en kaarten op apparaatgroepen. Wat u selecteert in het filter, is van toepassing op de pagina's bedreigings- en kwetsbaarheidsbeheer.
 [**Blootstellingsscore**](tvm-exposure-score.md)   | Bekijk de huidige status van de blootstelling van uw organisatie aan bedreigingen en beveiligingsproblemen. Verschillende factoren zijn van invloed op de blootstellingsscore van uw organisatie: zwakke punten die zijn ontdekt op uw apparaten, de kans dat uw apparaten worden geschonden, de waarde van de apparaten voor uw organisatie en relevante waarschuwingen die met uw apparaten zijn gevonden. Het doel is om de blootstellingsscore van uw organisatie te verlagen om veiliger te zijn. Als u de score wilt verlagen, moet u de gerelateerde beveiligingsconfiguratieproblemen oplossen die in de beveiligingsaanbevelingen worden vermeld.

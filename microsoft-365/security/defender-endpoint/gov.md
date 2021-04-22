@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender voor Eindpunt voor klanten van de Amerikaanse overheid
+title: Microsoft Defender voor Eindpunt voor overheidsklanten in de VS
 description: Meer informatie over de vereisten en mogelijkheden van Microsoft Defender voor eindpunt voor klanten van de Amerikaanse overheid
-keywords: government, gcc, high, requirements, capabilities, defender, defender atp, mdatp, endpoint, dod
+keywords: government, gcc, high, requirements, capabilities, defender, Microsoft Defender for Endpoint, endpoint, dod
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,17 +16,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 320913058f1d3cab36b3a279996443c2e4ef117f
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 16a7d289889940754a6d56058544a675b31192be
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382911"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933995"
 ---
-# <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender voor Eindpunt voor klanten van de Amerikaanse overheid
+# <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender voor Eindpunt voor overheidsklanten in de VS
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 Microsoft Defender for Endpoint voor klanten van de Amerikaanse overheid, ingebouwd in de Azure US Government-omgeving, gebruikt dezelfde onderliggende technologieën als Defender voor Eindpunt in Azure Commercial.
 
@@ -118,7 +118,7 @@ Als een proxy of firewall standaard al het verkeer blokkeert en alleen specifiek
 
 In de volgende downloadbare spreadsheet worden de services en de bijbehorende URL's vermeld waar uw netwerk verbinding mee moet kunnen maken. Controleer of er geen firewall- of netwerkfilterregels zijn waarmee de toegang tot deze URL's wordt ontzegd of dat er speciaal voor hen een regel *voor* toestaan wordt gemaakt.
 
-Spreadsheet met domeinenlijst | Omschrijving
+Spreadsheet met domeinenlijst | Beschrijving
 :-----|:-----
 ![Thumb image for Microsoft Defender for Endpoint URLLs spreadsheet](images/mdatp-urls.png)<br/> | Spreadsheet met specifieke DNS-records voor servicelocaties, geografische locaties en besturingssysteem. <br /><br />[Download de spreadsheet hier.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
@@ -171,7 +171,7 @@ Beheer en API's: rapport over de status en naleving van apparaten | ![Ja](images
 Beheer en API's: integratie met producten van derden | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Beheer en API's: Streaming API | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Beheer en API's: rapport bedreigingsbeveiliging | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Bedreigings- & kwetsbaarheidsbeheer | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+Bedreigings- en risicobeheer | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Dreigingsanalyse | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Filteren van webinhoud | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Integraties: Azure Sentinel | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling

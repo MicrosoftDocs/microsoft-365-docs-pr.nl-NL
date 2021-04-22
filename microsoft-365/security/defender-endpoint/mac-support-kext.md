@@ -1,7 +1,7 @@
 ---
 title: Problemen met kernelextensie oplossen in Microsoft Defender voor Eindpunt op macOS
 description: Problemen met kernelextensie oplossen in Microsoft Defender voor Eindpunt op macOS.
-keywords: microsoft, defender, atp, mac, kernel, extensie
+keywords: microsoft, defender, Microsoft Defender voor eindpunt, mac, kernel, extensie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 32a4819f7a607c69b4dbf45b3284b2f4ea66ffc4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9dc3ee17d79972b5d36c5fff58fbe4cc486027bd
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689651"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934271"
 ---
 # <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-on-macos"></a>Problemen met kernelextensie oplossen in Microsoft Defender voor Eindpunt op macOS
 

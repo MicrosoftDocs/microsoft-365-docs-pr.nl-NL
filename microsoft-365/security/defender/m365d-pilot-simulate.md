@@ -1,7 +1,7 @@
 ---
 title: Uw Microsoft 365 Defender-aanvalssimulaties uitvoeren
 description: Voer aanvalssimulaties uit voor uw Microsoft 365 Defender-testproject om te zien hoe het zich ontwikkelt en wordt snel opgelost.
-keywords: Microsoft Threat Protection pilot attack simulation, run Microsoft Threat Protection pilot attack simulate, simulate attack in Microsoft Threat Protection, Microsoft Threat Protection pilot project, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
+keywords: Microsoft 365 Defender pilot attack simulation, run Microsoft 365 Defender pilot attack simulate, simulate attack in Microsoft 365 Defender, Microsoft 365 Defender pilot project, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: bb6472fdd52cdab0ab649fbb76b1ff6a683d6c80
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 767a7ea4c4c7604d1d4b227f08e4ca32c62737c5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060389"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934475"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Uw Microsoft 365 Defender-aanvalssimulaties uitvoeren
 
@@ -420,7 +420,7 @@ Met aangepaste detecties wordt de query uitgevoerd op basis van de frequentie di
 
    Voor deze pilot kunt u deze regel beperken tot een subset testapparaten in uw productieomgeving.
 
-6. Selecteer **Maken**.  Selecteer vervolgens **Aangepaste detectieregels** in het navigatiedeelvenster.
+6. Selecteer **Maken**. Selecteer vervolgens **Aangepaste detectieregels** in het navigatiedeelvenster.
 
    ![Schermafbeelding van de optie Aangepaste detectieregels in het menu](../../media/mtp/fig27a.png)
 

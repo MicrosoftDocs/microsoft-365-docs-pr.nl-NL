@@ -1,7 +1,7 @@
 ---
 title: Onboarden Windows 10-apparaten met een lokaal script
 description: Gebruik een lokaal script om het configuratiepakket op apparaten te implementeren, zodat ze zijn aan boord van de service.
-keywords: apparaten configureren met een lokaal script, apparaatbeheer, Windows ATP-apparaten configureren, Microsoft Defender configureren voor endpoint-apparaten
+keywords: apparaten configureren met behulp van een lokaal script, apparaatbeheer, Microsoft Defender configureren voor eindpuntapparaten
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 77473df9cc3e0e98efac8eaacd0a51b551bc3258
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 056268ed093d371d39a6136dd0b272c12ab6f9d7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060194"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933911"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>Onboarden Windows 10-apparaten met een lokaal script
 

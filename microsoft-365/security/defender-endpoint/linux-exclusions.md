@@ -1,7 +1,7 @@
 ---
 title: Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op Linux
 description: Uitsluitingen voor Microsoft Defender voor Eindpunt op Linux verstrekken en valideren. Uitsluitingen kunnen worden ingesteld voor bestanden, mappen en processen.
-keywords: microsoft, defender, atp, linux, exclusions, scans, antivirus
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, exclusions, scans, antivirus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 56fe152532b77f7f04c9edd52998fea83493adfe
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 8e861055067a55630da458e87b7376a607dc69c4
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903938"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934295"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op Linux
 
@@ -38,18 +38,18 @@ ms.locfileid: "51903938"
 In dit artikel vindt u informatie over het definiëren van uitsluitingen die van toepassing zijn op scans op aanvraag, en realtime beveiliging en monitoring.
 
 > [!IMPORTANT]
-> De uitsluitingen die in dit artikel worden beschreven, zijn niet van toepassing op andere Mogelijkheden van Defender voor Endpoint voor Linux, waaronder eindpuntdetectie en -antwoord (EDR). Bestanden die u uitsluit met de methoden die in dit artikel worden beschreven, kunnen nog steeds EDR-waarschuwingen en andere detecties activeren.
+> De uitsluitingen die in dit artikel worden beschreven, zijn niet van toepassing op andere Mogelijkheden van Defender voor Endpoint voor Linux, zoals eindpuntdetectie en -antwoord (EDR). Bestanden die u uitsluit met de methoden die in dit artikel worden beschreven, kunnen nog steeds EDR-waarschuwingen en andere detecties activeren.
 
-U kunt bepaalde bestanden, mappen, processen en proces geopende bestanden uitsluiten van Defender voor Eindpunt voor Linux-scans.
+U kunt bepaalde bestanden, mappen, processen en proces geopende bestanden uitsluiten van Defender voor Eindpunt op Linux-scans.
 
-Uitsluitingen kunnen handig zijn om onjuiste detecties te voorkomen van bestanden of software die uniek of aangepast zijn aan uw organisatie. Ze kunnen ook handig zijn voor het verminderen van prestatieproblemen die worden veroorzaakt door Defender voor Eindpunt voor Linux.
+Uitsluitingen kunnen handig zijn om onjuiste detecties te voorkomen van bestanden of software die uniek of aangepast zijn aan uw organisatie. Ze kunnen ook handig zijn voor het verminderen van prestatieproblemen die worden veroorzaakt door Defender voor Eindpunt op Linux.
 
 > [!WARNING]
-> Als u uitsluitingen definieert, wordt de bescherming van Defender voor Eindpunt voor Linux verlaagd. U moet altijd de risico's evalueren die zijn gekoppeld aan het implementeren van uitsluitingen en u moet alleen bestanden uitsluiten die u zeker weet dat ze niet schadelijk zijn.
+> Als u uitsluitingen definieert, wordt de beveiliging die door Defender voor Eindpunt op Linux wordt geboden, verlaagd. U moet altijd de risico's evalueren die zijn gekoppeld aan het implementeren van uitsluitingen en u moet alleen bestanden uitsluiten die u zeker weet dat ze niet schadelijk zijn.
 
 ## <a name="supported-exclusion-types"></a>Ondersteunde uitsluitingstypen
 
-In de volgende tabel ziet u de uitsluitingstypen die worden ondersteund door Defender voor Eindpunt voor Linux.
+In de volgende tabel ziet u de uitsluitingstypen die worden ondersteund door Defender voor Eindpunt op Linux.
 
 Uitsluiting | Definitie | Voorbeelden
 ---|---|---
@@ -72,7 +72,7 @@ Jokerteken | Beschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 
 ### <a name="from-the-management-console"></a>Vanuit de beheerconsole
 
-Zie Voorkeuren instellen voor Defender voor Eindpunt voor Linux voor meer informatie over het configureren van uitsluitingen van Puppet, Ansible of een andere [beheerconsole.](linux-preferences.md)
+Zie Voorkeuren instellen voor Defender voor Eindpunt op Linux voor meer informatie over het configureren van uitsluitingen van Poppen, Ansible of een andere [beheerconsole.](linux-preferences.md)
 
 ### <a name="from-the-command-line"></a>Vanuit de opdrachtregel
 
@@ -152,7 +152,7 @@ Vervang in het volgende Bash-fragment `test.txt` door een bestand dat voldoet aa
 curl -o test.txt https://www.eicar.org/download/eicar.com.txt
 ```
 
-Als Defender voor Eindpunt voor Linux malware rapporteert, werkt de regel niet. Als er geen malwarerapport is en het gedownloade bestand bestaat, werkt de uitsluiting. U kunt het bestand openen om te bevestigen dat de inhoud hetzelfde is als wat wordt beschreven op de website van het [EICAR-testbestand.](http://2016.eicar.org/86-0-Intended-use.html)
+Als Defender voor Eindpunt op Linux malware rapporteert, werkt de regel niet. Als er geen malwarerapport is en het gedownloade bestand bestaat, werkt de uitsluiting. U kunt het bestand openen om te bevestigen dat de inhoud hetzelfde is als wat wordt beschreven op de website van het [EICAR-testbestand.](http://2016.eicar.org/86-0-Intended-use.html)
 
 Als u geen internetverbinding hebt, kunt u uw eigen EICAR-testbestand maken. Schrijf de EICAR-tekenreeks naar een nieuw tekstbestand met de volgende opdracht Bash:
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 84caa39b44a4e0706b1fe4a103d8a8a14c52daed
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 6465be53de38872e3eb1d7b70dc3efbb9154aace
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892973"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934199"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen
 
@@ -251,7 +251,7 @@ Controleer eerst of de service is ingesteld op automatisch starten wanneer Windo
 
 ### <a name="ensure-the-device-has-an-internet-connection"></a>Controleer of het apparaat een internetverbinding heeft
 
-Voor de Windows Defender ATP-sensor is Microsoft Windows HTTP (WinHTTP) vereist om sensorgegevens te rapporteren en te communiceren met de Microsoft Defender for Endpoint-service.
+Voor de Microsoft Defender voor eindpunten-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender voor Eindpunt-service.
 
 WinHTTP is onafhankelijk van de instellingen voor internetbrowsersproxy en andere contexttoepassingen van gebruikers en moet de proxyservers kunnen detecteren die beschikbaar zijn in uw specifieke omgeving.
 

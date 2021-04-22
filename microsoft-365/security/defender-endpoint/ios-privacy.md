@@ -2,7 +2,7 @@
 title: Privacygegevens - Microsoft Defender voor Eindpunt op iOS
 ms.reviewer: ''
 description: Beschrijft privacygegevens voor Microsoft Defender voor Eindpunt in iOS
-keywords: microsoft, defender, atp, ios, beleid, overzicht
+keywords: microsoft, Defender, Microsoft Defender voor Eindpunt, ios, beleid, overzicht
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f5598df8a9e3493a1c4922f672468dd54e84c31e
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688199"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934283"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>Privacygegevens - Microsoft Defender voor Eindpunt op iOS
 
@@ -34,15 +34,15 @@ ms.locfileid: "51688199"
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 > [!NOTE]
-> Defender voor Eindpunt voor iOS gebruikt een VPN om de functie Webbeveiliging te bieden. Dit is geen gewone VPN en is een lokale of self-looping VPN die geen verkeer buiten het apparaat neemt. **Microsoft of uw organisatie ziet uw browseactiviteit niet.**
+> Defender voor Endpoint in iOS gebruikt een VPN om de webbeveiligingsfunctie te bieden. Dit is geen gewone VPN en is een lokale of self-looping VPN die geen verkeer buiten het apparaat neemt. **Microsoft of uw organisatie ziet uw browseactiviteit niet.**
 
-Defender voor Eindpunt voor iOS verzamelt gegevens van uw geconfigureerde iOS-apparaten en slaat deze op in dezelfde tenant waar u Defender voor Eindpunt hebt. De gegevens worden verzameld om Defender voor Endpoint voor iOS veilig, up-to-date te houden, te presteren zoals verwacht en om de service te ondersteunen.
+Defender voor Eindpunt in iOS verzamelt gegevens van uw geconfigureerde iOS-apparaten en slaat deze op in dezelfde tenant waar u Defender voor Eindpunt hebt. De gegevens worden verzameld om Defender for Endpoint op iOS veilig, up-to-date te houden, te presteren zoals verwacht en om de service te ondersteunen.
 
 Zie Microsoft Defender for [Endpoint data storage and privacy (Microsoft Defender for Endpoint data storage and privacy) voor meer informatie over gegevensopslag.](data-storage-privacy.md)
 
 ## <a name="required-data"></a>Vereiste gegevens 
 
-Vereiste gegevens bestaan uit gegevens die nodig zijn om Defender voor Eindpunt voor iOS te laten werken zoals verwacht. Deze gegevens zijn essentieel voor de werking van de service en kunnen gegevens bevatten die betrekking hebben op de eindgebruiker, de organisatie, het apparaat en apps. 
+Vereiste gegevens bestaan uit gegevens die nodig zijn om Defender voor Eindpunt op iOS te laten werken zoals verwacht. Deze gegevens zijn essentieel voor de werking van de service en kunnen gegevens bevatten die betrekking hebben op de eindgebruiker, de organisatie, het apparaat en apps. 
 
 Hier is een lijst met de typen gegevens die worden verzameld: 
 

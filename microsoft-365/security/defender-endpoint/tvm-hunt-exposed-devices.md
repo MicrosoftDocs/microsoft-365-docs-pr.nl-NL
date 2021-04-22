@@ -1,7 +1,7 @@
 ---
 title: Zoeken naar blootgestelde apparaten
 description: Lees hoe bedreigings- en kwetsbaarheidsbeheer kan worden gebruikt om beveiligingsbeheerders, IT-beheerders en SecOps te helpen samenwerken.
-keywords: mdatp-tvm-scenario's, mdatp, tvm, tvm-scenario's, risico's beperken & blootstelling aan kwetsbaarheid, bedreiging en kwetsbaarheid verminderen, beveiligingsconfiguratie verbeteren, Microsoft Secure Score voor apparaten verhogen, bedreiging verhogen & kwetsbaarheid Microsoft Secure Score for Devices, Microsoft Secure Score for Devices, exposure score, security controls
+keywords: Scenario's van Microsoft Defender voor endpoint-tvm, Microsoft Defender voor eindpunten, tvm- en tvm-scenario's, blootstelling aan bedreigingen & kwetsbaarheid verminderen, bedreigingen en kwetsbaarheid verminderen, beveiligingsconfiguratie verbeteren, Microsoft Secure Score voor apparaten verhogen, bedreiging verhogen & kwetsbaarheid Microsoft Secure Score voor apparaten, Microsoft Secure Score voor apparaten, blootstellingsscore, beveiligingsbesturingselementen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b8e3a80e73d9847837ae0a1542e7d16ee8ae0f29
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a9a8ebcc89c3009cd93fbb42f2a74bbb9ffcc31b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500093"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934091"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>Zoeken naar blootgestelde apparaten - bedreigings- en kwetsbaarheidsbeheer
 

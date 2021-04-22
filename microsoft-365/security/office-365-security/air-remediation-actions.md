@@ -1,6 +1,6 @@
 ---
 title: Herstelacties in Microsoft Defender voor Office 365
-keywords: AIR, autoIR, ATP, automated, investigation, response, remediation, threats, advanced, threat, protection
+keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -21,12 +21,12 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fa4e2d6656ec430edc221ab94cac494e1ec0ca98
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 37953ad1125d5dad10eb5c6933b1ed9931d5de60
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204050"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933659"
 ---
 # <a name="remediation-actions-in-microsoft-defender-for-office-365"></a>Herstelacties in Microsoft Defender voor Office 365
 
@@ -55,7 +55,7 @@ Microsoft Defender voor Office 365 bevat herstelacties om verschillende bedreigi
 |:---|:---|:---|
 |E-mail|Malware|E-mail/cluster zacht verwijderen <p> Als meer dan een handjevol e-mailberichten in een cluster malware bevat, wordt het cluster als schadelijk beschouwd.|
 |E-mail|Schadelijke URL<br/>(Er is een schadelijke URL gedetecteerd door [Veilige koppelingen](safe-links.md).)|E-mail/cluster zacht verwijderen <br/>URL blokkeren (tijd-van-klikverificatie)<p> E-mail met een schadelijke URL wordt beschouwd als schadelijk.|
-|E-mail|Phish|E-mail/cluster zacht verwijderen <p> Als meer dan een handjevol e-mailberichten in een cluster phishingpogingen bevat, wordt het hele cluster beschouwd als een phishingpoging.|
+|E-mail|Phishing|E-mail/cluster zacht verwijderen <p> Als meer dan een handjevol e-mailberichten in een cluster phishingpogingen bevat, wordt het hele cluster beschouwd als een phishingpoging.|
 |E-mail|Zapped phish <br>(E-mailberichten zijn bezorgd en vervolgens [ge zapped](zero-hour-auto-purge.md).)|E-mail/cluster zacht verwijderen <p>Rapporten zijn beschikbaar om gezapeerde berichten weer te geven. [Kijk of ZAP een bericht en veelgestelde vragen heeft verplaatst.](zero-hour-auto-purge.md#how-to-see-if-zap-moved-your-message)|
 |E-mail|Gemiste phish-e-mail [die door](enable-the-report-message-add-in.md) een gebruiker is gerapporteerd|[Automatisch onderzoek dat is gestart door het rapport van de gebruiker](automated-investigation-response-office.md#example-a-user-reported-phish-message-launches-an-investigation-playbook)|
 |E-mail|Volume-afwijking <br> (Recente e-mailhoeveelheden overschrijden de vorige 7-10 dagen voor overeenkomende criteria.)|Automatisch onderzoek resulteert niet in een specifieke actie in behandeling. <p>Volume-afwijking is geen duidelijke bedreiging, maar is slechts een indicatie van grotere e-mailvolumes in de afgelopen dagen ten opzichte van de laatste 7-10 dagen. <p>Hoewel een groot aantal e-mailberichten potentiële problemen kan aangeven, is bevestiging nodig in termen van schadelijke uitspraken of een handmatige controle van e-mailberichten/clusters. Zie [Verdachte e-mail zoeken die is bezorgd.](investigate-malicious-email-that-was-delivered.md#find-suspicious-email-that-was-delivered)|

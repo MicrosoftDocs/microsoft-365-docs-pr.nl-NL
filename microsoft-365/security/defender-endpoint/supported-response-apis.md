@@ -1,6 +1,6 @@
 ---
-title: Ondersteunde API's van Microsoft Defender Advanced Threat Protection
-description: Meer informatie over de specifieke responsgerelateerde Microsoft Defender Advanced Threat Protection API-oproepen.
+title: Ondersteunde API's van Microsoft Defender voor endpoint-antwoorden
+description: Meer informatie over de specifieke antwoorden van Microsoft Defender voor endpoint API-oproepen.
 keywords: antwoord-api's, graph api, ondersteunde api's, actor, waarschuwingen, apparaat, gebruiker, domein, ip, bestand
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a290c431f6d81b23896ddf77e7c7a47de378de22
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 36ed1f624fda7ae413ffbbf807925cf00e0a23ca
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185549"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933767"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-query-apis"></a>Ondersteunde API's voor Microsoft Defender voor eindpuntquery's 
 
@@ -28,7 +28,7 @@ ms.locfileid: "51185549"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 > [!TIP]
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-supported-response-apis-abovefoldlink) 

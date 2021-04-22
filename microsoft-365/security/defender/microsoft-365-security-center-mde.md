@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum
 description: Meer informatie over wijzigingen van het Microsoft Defender-beveiligingscentrum in het Microsoft 365-beveiligingscentrum
-keywords: Aan de slag met het Microsoft 365-beveiligingscentrum, OATP, MDATP, MDO, MDE, enkel deelvenster glas, geconvergeerde portal, beveiligingsportal, defender-beveiligingsportal
+keywords: Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, geconvergeerde portal, beveiligingsportal, defender security portal
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: edf0baa369142f6a0aafc86794a47ab0be6e345a
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: c8e38e3f22b48b58ea7fb1a4a6f000c80c170675
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760048"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934403"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum
 

@@ -1,7 +1,7 @@
 ---
 title: Voorbeelden van beleidsregels voor apparaatbesturingselementen voor Intune
 description: Meer informatie over het gebruik van beleidsregels voor apparaatbesturingselementen met voorbeelden die kunnen worden gebruikt met Intune.
-keywords: microsoft, defender, atp, mac, apparaat, besturingselement, usb, verwisselbaar, media, intune
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, device, control, usb, verwisselbaar, media, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79ec47aa2ea440ee46647acf53c77906e32a80ff
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a7521a31b0b31fb95d2729f7068bfc9de5717f01
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187695"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933815"
 ---
 # <a name="examples-of-device-control-policies-for-intune"></a>Voorbeelden van beleidsregels voor apparaatbesturingselementen voor Intune
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

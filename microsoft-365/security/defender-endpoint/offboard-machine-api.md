@@ -1,6 +1,6 @@
 ---
 title: Offboard-machine-API
-description: Meer informatie over het gebruik van een API om een apparaat van Windows Defender Advanced Threat Protection (WDATP) te verwijderen.
+description: Meer informatie over het gebruik van een API om een apparaat te offboarden vanuit Microsoft Defender voor Eindpunt.
 keywords: api's, graph api, ondersteunde api's, onderzoekspakket verzamelen
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,19 +15,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0b3fa5a5daba1aa09eef0f733c7439848ce66a2c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 03a1ef11224021703a6f33f82fa2c4f135a317a7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187122"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934175"
 ---
 # <a name="offboard-machine-api"></a>Offboard-machine-API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 

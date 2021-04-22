@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP API-licentie en gebruiksvoorwaarden
+title: Microsoft Defender voor endpoint API-licentie en gebruiksvoorwaarden
 description: Beschrijving van de licentie en gebruiksvoorwaarden voor Microsoft Defender-API's
 keywords: licentie, voorwaarden, api's, juridisch, kennisgevingen, gedragscode
 search.product: eADQiWindows 10XVcnh
@@ -15,19 +15,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3b8842214301d4933432f376c872f8da7322a63e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: f737f5a9aeb9bc45e0cf40c3be0cfdde2bde3779
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164787"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933611"
 ---
 # <a name="microsoft-defender-for-endpoint-api-license-and-terms-of-use"></a>Microsoft Defender voor endpoint API-licentie en gebruiksvoorwaarden
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="apis"></a>API‘s

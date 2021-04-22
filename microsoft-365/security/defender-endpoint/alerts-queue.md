@@ -1,6 +1,6 @@
 ---
-title: De wachtrij atp-waarschuwingen voor Microsoft Defender weergeven en organiseren
-description: Meer informatie over hoe de ATP-waarschuwingen van Microsoft Defender-wachtrijen werken en hoe u lijsten met waarschuwingen sorteert en filtert.
+title: De wachtrij waarschuwingen voor Microsoft Defender voor eindpunten weergeven en ordenen
+description: Meer informatie over hoe wachtrijen voor waarschuwingen in Microsoft Defender voor Eindpunt werken en hoe u lijsten met waarschuwingen sorteert en filtert.
 keywords: waarschuwingen, wachtrijen, waarschuwingenwachtrij, sorteren, volgorde, filteren, waarschuwingen beheren, nieuw, in uitvoering, opgelost, nieuwste, tijd in wachtrij, ernst, periode, waarschuwingen van microsoft threat experts
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 03/27/2020
 ms.technology: mde
-ms.openlocfilehash: e1c85db5afac70ec4f2520eed55dcc4f3773fd03
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 48a3ff8dba5bccd62d7d43b295c136a814056a15
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060226"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934331"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-alerts-queue"></a>De wachtrij waarschuwingen voor Microsoft Defender voor eindpunten weergeven en ordenen
 

@@ -1,6 +1,6 @@
 ---
 title: Herstelacties controleren en beheren in Microsoft Defender voor Office 365
-keywords: AIR, autoIR, ATP, automated, investigation, response, remediation, threats, advanced, threat, protection
+keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -19,12 +19,12 @@ description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- 
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: 61e9df45419cc73dae27b86dad47e1938183593d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ce6cfd920845f5a85dbc7d7d48cfefdd6209ec3a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204045"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933647"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Herstelacties controleren en beheren in Office 365
 

@@ -1,7 +1,7 @@
 ---
 title: Een IP-adres onderzoeken dat is gekoppeld aan een waarschuwing
 description: Gebruik de onderzoeksopties om mogelijke communicatie tussen apparaten en externe IP-adressen te onderzoeken.
-keywords: onderzoeken, IP-adres, waarschuwing, microsoft defender atp, extern IP
+keywords: onderzoeken, onderzoeken, IP-adres, waarschuwing, Microsoft Defender voor eindpunt, extern IP
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 003abd854e34bb5a9a05f675313ba6c4f6ce1d71
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: cb95deb890b52f0f5fde26a3a193181713b8ae5f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186039"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933827"
 ---
 # <a name="investigate-an-ip-address-associated-with-a-microsoft-defender-for-endpoint-alert"></a>Een IP-adres onderzoeken dat is gekoppeld aan een waarschuwing van Microsoft Defender voor eindpunt
 
@@ -32,7 +32,7 @@ ms.locfileid: "51186039"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 

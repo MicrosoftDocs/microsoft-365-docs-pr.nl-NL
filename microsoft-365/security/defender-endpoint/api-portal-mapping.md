@@ -1,5 +1,5 @@
 ---
-title: MICROSOFT Defender ATP-detecties API-velden
+title: API-velden van Microsoft Defender voor eindpuntdetecties
 description: Meer informatie over de manier waarop de API-velden detecties aan de waarden in het Microsoft Defender-beveiligingscentrum toekenen
 keywords: detecties, detectievelden, velden, api, velden, pull Detecties, rest api, aanvraag, antwoord
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e304d731409c4cd0fac722d492b3fab5ed28fd35
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d6d2ad9abe88d0099b58dd2df486120082bb22c1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164879"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933635"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>API-velden van Microsoft Defender voor eindpuntdetecties
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-apiportalmapping-abovefoldlink)

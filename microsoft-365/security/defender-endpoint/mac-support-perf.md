@@ -1,7 +1,7 @@
 ---
 title: Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt in macOS
 description: Problemen met de prestaties oplossen in Microsoft Defender voor Eindpunt in macOS.
-keywords: microsoft, defender, atp, mac, performance
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8dfaf1dbf2c3742cc97060c7f9e811c83d0cb023
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 623717e7b1a3149dbccf07d32200820a7f9083cb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698218"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934247"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt in macOS
 
@@ -66,7 +66,7 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
 
 2. Open Finder en navigeer naar **Applications**  >  **Utilities.** Open **Activiteitsmonitor** en analyseer welke toepassingen de resources op uw systeem gebruiken. Voorbeelden hiervan zijn software-updaters en compilers.
 
-1. Als u de toepassingen wilt vinden die de meeste scans activeren, kunt u realtimestatistieken gebruiken die zijn verzameld door Defender voor Eindpunt voor Mac.
+1. Als u de toepassingen wilt vinden die de meeste scans activeren, kunt u realtimestatistieken gebruiken die zijn verzameld door Defender voor Eindpunt op Mac.
 
       > [!NOTE]
       > Deze functie is beschikbaar in versie 100.90.70 of hoger.

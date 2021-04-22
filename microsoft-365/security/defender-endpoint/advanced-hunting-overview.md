@@ -1,7 +1,7 @@
 ---
-title: Overzicht van geavanceerde jacht in Microsoft Defender ATP
-description: Gebruik mogelijkheden voor het zoeken naar bedreigingen in Microsoft Defender ATP om query's te maken die bedreigingen en zwakke punten in uw netwerk vinden
-keywords: advanced hunting, threat hunting, cyber threat hunting, mdatp, microsoft defender atp, wdatp, search, query, telemetry, custom detections, schema, kusto, time zone, UTC
+title: Overzicht van geavanceerd zoeken in Microsoft Defender voor Eindpunt
+description: Gebruik mogelijkheden voor het zoeken naar bedreigingen in Microsoft Defender voor Eindpunt om query's te maken waarin bedreigingen en zwakke punten in uw netwerk worden gevonden
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft Defender for Endpoint, search, query, telemetry, custom detections, schema, kusto, time zone, UTC
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9e5f29874ae42f2b82906a5ac0d2e615009d499f
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 114c0192f77411016fcb13ec2b912f4440ffa6e0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615481"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934355"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Proactief op bedreigingen zoeken met geavanceerde jacht
 
@@ -52,7 +52,7 @@ Ga door de volgende stappen om uw geavanceerde kennis op het gebied van jagen te
 
 We raden u aan om verschillende stappen uit te voeren om snel aan de haal te gaan met geavanceerde jacht.
 
-| Leerdoel | Omschrijving | Resource |
+| Leerdoel | Beschrijving | Resource |
 |--|--|--|
 | **De taal leren** | Geavanceerd zoeken is gebaseerd op [de querytaal Kusto,](https://docs.microsoft.com/azure/kusto/query/)die dezelfde syntaxis en operatoren ondersteunt. Begin de querytaal te leren door de eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
 | **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt bekijken of exporteren. Ontdek hoe u snel query's kunt aanpassen en kunt inzoomen om uitgebreidere informatie te krijgen. | [Werken met queryresultaten](advanced-hunting-query-results.md) |

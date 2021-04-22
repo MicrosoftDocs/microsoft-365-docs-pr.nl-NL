@@ -1,7 +1,7 @@
 ---
 title: Migreren van hips van derden naar ASR-regels
 description: Hier wordt beschreven hoe u een migratie van een HIPS-oplossing (Host Intrusion Prevention System) van derden naar ASR-regels kunt benaderen.
-keywords: Attack surface reduction rules, asr, asr rules, hips, host intrusion prevention system, protection rules, anti-exploit, antiexploit, exploit, infection prevention, Microsoft Defender for Endpoint, Microsoft Defender ATP
+keywords: Attack surface reduction rules, asr, asr rules, hips, host intrusion prevention system, protection rules, anti-exploit, antiexploit, exploit, infection prevention, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 ms.topic: article
 ms.prod: m365-security
@@ -15,12 +15,12 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: 5b2c6c12de7b87a045a81a552e3fe74b4829e94d
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: de65c134560ecca219de9174ff222d31dd578d31
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764781"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933779"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>Migreren van hips van derden naar ASR-regels
 
@@ -41,7 +41,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Van toepassing op**- Alle processen
 - **Processen**- N/B
 - **Bewerking**- Registerwijzigingen
-- **Voorbeelden van bestanden/mappen, registersleutels/waarden, Processen,Services** -  *\Software*,HKCU\Environment\UserInitMprLogonScript,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs *\StartExe, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File* Execution Options \Debugger,HKEY_CURRENT_USER\Software\Microsoft\HtmlHelp Author\location,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit*\MonitorProcess
+- **Voorbeelden van bestanden/mappen, registersleutels/waarden, processen, services** -  *\Software*,HKCU\Environment\UserInitMprLogonScript,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs *\StartExe, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File* Execution Options \Debugger, HKEY_CURRENT_USER\Software\Microsoft\HtmlHelp Author\location, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit*\MonitorProcess
 - **Attack Surface Reduction rules**- ASR rules block the attack techniques and not the Indicators of Compromise (IOC). Het blokkeren van een specifieke bestandsextensie is niet altijd handig, omdat hiermee niet wordt voorkomen dat een apparaat in gevaar komt. Een aanval wordt slechts gedeeltelijk getypt totdat aanvallers een nieuw type extensie voor de payload maken.
 - **Andere aanbevolen functies:** Microsoft Defender AV is ingeschakeld, samen met cloudbeveiliging en gedragsanalyse wordt ten zeerste aanbevolen. U wordt aangeraden extra preventie te gebruiken, zoals de ASR-regel 'Geavanceerde beveiliging tegen ransomware gebruiken'. Dit biedt meer bescherming tegen ransomware-aanvallen. Bovendien worden verschillende van deze registersleutels gecontroleerd door Microsoft Defender voor Eindpunt, zoals ASEP-technieken, die specifieke waarschuwingen activeren. Bovendien is voor de gebruikte registersleutels een minimum aan bevoegdheden voor lokale beheerders of vertrouwde installatieprogramma's vereist. Het is raadzaam een vergrendelde omgeving te gebruiken met minimale beheerdersaccounts of -rechten. Andere systeemconfiguraties kunnen worden ingeschakeld, zoals 'SeDebug uitschakelen voor niet-vereiste rollen' die deel uitmaken van onze bredere beveiligingsaanbevelingen.
 
@@ -50,7 +50,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Van toepassing op**- Niet-vertrouwde programma's vanaf USB
 - **Processen**- *
 - **Bewerking**- Procesuitvoering
-- **Voorbeelden van bestanden/mappen, registersleutels/waarden, Processen,Services:-*
+- **Voorbeelden van bestanden/mappen, registersleutels/waarden, Processen, Services:-*
 - **Surface Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat niet-vertrouwde en niet-ondertekende programma's worden uitgevoerd op verwisselbare stations: 'Block untrusted and unsigned processes that run from USB', GUID "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4".
 - **Andere aanbevolen functies-** Bekijk aanvullende besturingselementen voor USB-apparaten en andere verwisselbare media met Microsoft Defender voor eindpunt: Usb-apparaten en andere verwisselbare media beheren met [Microsoft Defender voor Eindpunt.](/windows/security/threat-protection/device-control/control-usb-devices-using-intune)
 
@@ -59,7 +59,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Van toepassing op**- Mshta
 - **Processen**- mshta.exe
 - **Bewerking**- Procesuitvoering
-- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen,Services**- powershell.exe, cmd.exe, regsvr32.exe
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- powershell.exe, cmd.exe, regsvr32.exe
 - **Surface Reduction-regels aanvallen:** ASR-regels bevatten geen specifieke regel om te voorkomen dat onderliggende processen 'mshta.exe'. Dit besturingselement valt onder de bevoegdheid van Exploit Protection of Windows Defender Application Control.
 - **Andere aanbevolen functies:** Schakel Windows Defender Application Control in om te voorkomen dat mshta.exe worden uitgevoerd. Als uw organisatie 'mshta.exe' voor zakelijke apps vereist, configureert u een specifieke Windows Defender Exploit Protection-regel om te voorkomen dat mshta.exe onderliggende processen start.
 
@@ -68,7 +68,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Van toepassing op**- Outlook
 - **Processen**- outlook.exe
 - **Bewerking**- Procesuitvoering
-- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen,Services**- powershell.exe
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- powershell.exe
 - **Surface Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat office-communicatie-apps (Outlook, Skype en Teams) onderliggende processen starten: 'Office-communicatietoepassing blokkeren om onderliggende processen te maken', GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
 - **Andere aanbevolen functies:** u wordt aangeraden de taalmodus voor beperkte PowerShell in te schakelen om het aanvalsoppervlak van PowerShell te minimaliseren.
 
@@ -78,7 +78,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Van toepassing op**- Office  
 - **Processen**: winword.exe, powerpnt.exe, excel.exe
 - **Bewerking**- Procesuitvoering
-- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen,Services**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
 - **Surface Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat Office-apps onderliggende processen starten: 'Alle Office-toepassingen blokkeren om onderliggende processen te maken', GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A".
 - **Andere aanbevolen functies**- N/B
     
@@ -87,7 +87,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Van toepassing op**- Office
 - **Processen**: winword.exe, powerpnt.exe, excel.exe
 - **Bewerking**- Bestandscreatie
-- **Voorbeelden van bestanden/mappen, Registersleutels/waarden, Processen,Services**- C:\Gebruikers *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop****exe
+- **Voorbeelden van bestanden/mappen, Registersleutels/waarden, processen, services**- C:\Gebruikers *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop****exe
 - **Attack Surface Reduction rules**- N/A.
 
 ### <a name="block-wscript-from-reading-certain-types-of-files"></a>Wscript blokkeren om bepaalde typen bestanden te lezen
@@ -137,14 +137,14 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Surface Reduction-regels aanvallen:** over het algemeen zijn ASR-regels niet ontworpen om te functioneren als toepassingsbeheer.
 - **Andere aanbevolen functies:** als u wilt voorkomen dat gebruikers specifieke processen of programma's starten, wordt u aangeraden Windows Defender Application Control te gebruiken. Microsoft Defender for Endpoint File and Cert indicators, can be used in a Incident Response scenario (shouldn't be seen as an application control mechanism).
     
-### <a name="block-unauthorized-changes-to-mdatp-av-configurations"></a>Onbevoegde wijzigingen in MDATP AV-configuraties blokkeren
+### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>Niet-geautoriseerde wijzigingen in Microsoft Defender Antivirus-configuraties blokkeren
 
 - **Van toepassing op**- Alle processen
 - **Processen**- *
 - **Bewerking**- Registerwijzigingen
 - Voorbeelden van **Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware, HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\AllowRealTimeMonitoring, en ga zo maar door.
 - **Surface Reduction-regels aanvallen:** ASR-regels dekken deze scenario's niet omdat ze deel uitmaken van de ingebouwde beveiliging van Microsoft Defender voor eindpunten.
-- Andere aanbevolen **functies:** Tamper Protection (opt-in, beheerd vanuit Intune) voorkomt ongeautoriseerde wijzigingen in DisableAntiVirus, DisableAntiSpyware, DisableRealtimeMonitoring, DisableOnAccessProtection, DisableBehaviorMonitoring and DisableIOAVProtection registry keys (en meer).
+- Andere aanbevolen **functies:** Tamper Protection (opt-in, beheerd vanuit Intune) voorkomt ongeautoriseerde wijzigingen in DisableAntiVirus, DisableAntiSpyware, DisableRealtimeMonitoring, DisableOnAccessProtection, DisableBehaviorMonitoring en DisableIOAVProtection registry keys (en meer).
 
 Zie ook
 

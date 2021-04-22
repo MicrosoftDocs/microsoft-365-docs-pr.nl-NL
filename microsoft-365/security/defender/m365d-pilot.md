@@ -1,7 +1,7 @@
 ---
 title: Uw testproject voor Microsoft 365 Defender uitvoeren
 description: Voer uw testproject Microsoft 365 Defender in productie uit om de voordelen en acceptatie van Microsoft 365 Defender effectief te bepalen.
-keywords: Microsoft Threat Protection pilot, run pilot Microsoft Threat Protection project, evaluate Microsoft Threat Protection in production, Microsoft Threat Protection pilot project, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
+keywords: Microsoft 365 Defender pilot, run pilot Microsoft 365 Defender project, evaluate Microsoft 365 Defender in production, Microsoft 365 Defender pilot project, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1dd310d962cbce2b339cf09d5be6317c227d3f13
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b1616b39597a90ff8e8f7b4c92f29f75c62fea18
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060386"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934427"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Uw testproject voor Microsoft 365 Defender uitvoeren 
 
@@ -50,9 +50,9 @@ Met een pilot kunt u effectief bepalen wat het voordeel is van het gebruik van M
 Deze handleiding bevat een overzicht van Microsoft 365 Defender en stapsgewijs instructies over het instellen van uw pilotproject. 
 
 Microsoft 365 Defender is een geïntegreerde suite voor bedrijfsdefensie vóór en na inbreuk die inheems bescherming, detectie, preventie, onderzoek en antwoord coördineert in eindpunten, identiteiten, e-mail en toepassingen om geïntegreerde bescherming tegen geavanceerde aanvallen te bieden. Dit doet het door de volgende mogelijkheden te combineren en te orveren tot één beveiligingsoplossing:
-  - Microsoft Defender voor Eindpunt, de nieuwe naam voor Microsoft Defender Advanced Threat Protection (eindpunten)
-  - Microsoft Defender voor Office 365, de nieuwe naam voor Office 365 ATP (e-mail) 
-  - Microsoft Defender voor identiteit, de nieuwe naam voor Azure ATP (identiteit) 
+  - Microsoft Defender voor Eindpunt (eindpunten)
+  - Microsoft Defender voor Office 365 (e-mail) 
+  - Microsoft Defender voor identiteit (identiteit) 
   - Microsoft Cloud App Security (apps)
 
 ![Image of_Microsoft 365 Defender solution for users, Microsoft Defender for Identity, for endpoints Microsoft Defender for Endpoint, for cloud apps, Microsoft Cloud App Security, and for data, Microsoft Defender for Office 365](../../media/mtp/m365pillars.png)

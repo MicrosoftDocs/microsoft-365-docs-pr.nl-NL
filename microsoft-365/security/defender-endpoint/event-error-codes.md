@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
-ms.openlocfilehash: 1b8454107b6a2737f1236a066c3a24a2b9c776cb
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: a8b7268e89470a85a34015967b69abb1818fe64f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222649"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933839"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>Gebeurtenissen en fouten controleren met Behulp van Gebeurtenisviewer
 
@@ -31,7 +31,7 @@ ms.locfileid: "51222649"
 
 **Van toepassing op:**
 - Gebeurtenisviewer
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
@@ -58,7 +58,7 @@ Als apparaten bijvoorbeeld niet worden weergegeven in de lijst **Apparaten,** mo
 <tr>
 <th>Gebeurtenis-id</th>
 <th>Bericht</th>
-<th>Omschrijving</th>
+<th>Beschrijving</th>
 <th>Actie</th>
 </tr>
 <tr>
@@ -301,13 +301,13 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 </tr>
 <tr>
 <td>42</td>
-<td>Microsoft Defender for Endpoint WDATP-component kan geen actie uitvoeren. Component: %1, Actie: %2, Uitzonderingstype: %3, Uitzonderingsbericht: %4</td>
+<td>Microsoft Defender voor eindpuntonderdeel kan geen actie uitvoeren. Component: %1, Actie: %2, Uitzonderingstype: %3, Uitzonderingsbericht: %4</td>
 <td>Interne fout. De service kan niet worden begonnen.</td>
 <td>Als deze fout blijft bestaan, neem dan contact op met ondersteuning.</td>
 </tr>
 <tr>
 <td>43</td>
-<td>Microsoft Defender for Endpoint WDATP-component kan geen actie uitvoeren. Component: %1, Actie: %2, Uitzonderingstype: %3, Uitzonderingsfout: %4, Uitzonderingsbericht: %5</td>
+<td>Microsoft Defender voor eindpuntonderdeel kan geen actie uitvoeren. Component: %1, Actie: %2, Uitzonderingstype: %3, Uitzonderingsfout: %4, Uitzonderingsbericht: %5</td>
 <td>Interne fout. De service kan niet worden begonnen.</td>
 <td>Als deze fout blijft bestaan, neem dan contact op met ondersteuning.</td>
 </tr>
@@ -482,13 +482,13 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 </tr>
 <tr>
    <td>81</td>
-   <td>Kan windows Defender Advanced Threat Protection ETW-autologger niet maken. Foutcode: %1</td>
+   <td>Kan microsoft Defender voor endpoint ETW-autologger niet maken. Foutcode: %1</td>
    <td>Kan de ETW-sessie niet maken.</td>
    <td>Start het apparaat opnieuw op. Als deze fout blijft bestaan, neem dan contact op met ondersteuning.</td>
 </tr>
 <tr>
    <td>82</td>
-   <td>Windows Defender Advanced Threat Protection ETW-autologger is niet verwijderd. Foutcode: %1</td>
+   <td>Microsoft Defender voor endpoint ETW-autologger kan niet worden verwijderd. Foutcode: %1</td>
    <td>De ETW-sessie is niet verwijderd.</td>
    <td>Neem contact op met ondersteuning.</td>
 </tr>
@@ -500,7 +500,7 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 </tr>
 <tr>
    <td>85</td>
-   <td>Windows Defender Advanced Threat Protection kan niet worden uitgevoerd. Foutcode: %1</td>
+   <td>Microsoft Defender voor Eindpunt kan niet worden uitgevoerd. Foutcode: %1</td>
    <td>In de hoofdrollen is SenseIR uitvoerbaar mislukt.</td>
    <td>Start het apparaat opnieuw op. Als deze fout blijft bestaan, neem dan contact op met ondersteuning.</td>
 </tr>
@@ -554,19 +554,19 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 </tr>
 <tr>
    <td>94</td>
-   <td>Windows Defender Advanced Threat Protection executable is gestart</td>
+   <td>Microsoft Defender for Endpoint executable is gestart</td>
    <td>De Uitvoerbare SenseCE is gestart.</td>
    <td>Normale bedrijfsmelding; geen actie vereist.</td>
 </tr>
 <tr>
    <td>95</td>
-   <td>Windows Defender Advanced Threat Protection executable is beëindigd</td>
+   <td>Microsoft Defender voor Endpoint executable is beëindigd</td>
    <td>De uitvoerbare SenseCE is beëindigd.</td>
    <td>Normale bedrijfsmelding; geen actie vereist.</td>
 </tr>
 <tr>
    <td>96</td>
-   <td>Windows Defender Advanced Threat Protection Init heeft gebeld. Resultaatcode: %2</td>
+   <td>Microsoft Defender voor Eindpunt Init heeft gebeld. Resultaatcode: %2</td>
    <td>De Uitvoerbare SenseCE heeft MCE-initialisatie genoemd.</td>
    <td>Normale bedrijfsmelding; geen actie vereist.</td>
 </tr>
@@ -590,19 +590,19 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 </tr>
 <tr>
    <td>100</td>
-   <td>Windows Defender Advanced Threat Protection kan niet worden uitgevoerd. Foutcode: %1</td>
+   <td>Microsoft Defender voor Eindpunt kan niet worden uitgevoerd. Foutcode: %1</td>
    <td>De uitvoerbare SenseCE kan niet worden uitgevoerd.</td>
    <td>Start het apparaat opnieuw op. Als deze fout blijft bestaan, neem dan contact op met ondersteuning.</td>
 </tr>
 <tr>
    <td>102</td>
-   <td>Windows Defender Advanced Threat Protection Network Detection and Response executable is gestart</td>
+   <td>Microsoft Defender voor Endpoint Network Detection and Response executable is gestart</td>
    <td>De uitvoerbare SenseNdr is gestart.</td>
    <td>Normale bedrijfsmelding; geen actie vereist.</td>
 </tr>
 <tr>
    <td>103</td>
-   <td>Windows Defender Advanced Threat Protection Network Detection and Response executable has ended</td>
+   <td>Microsoft Defender voor Endpoint Network Detection and Response executable is beëindigd</td>
    <td>De uitvoerbare SenseNdr is beëindigd.</td>
    <td>Normale bedrijfsmelding; geen actie vereist.</td>
 </tr>
@@ -612,6 +612,6 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-eventerrorcodes-belowfoldlink)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Onboard Windows 10-apparaten](configure-endpoints.md)
+- [Onboarden Windows 10-apparaten](configure-endpoints.md)
 - [Instellingen voor apparaatproxy en internetverbinding configureren](configure-proxy-internet.md)
-- [Problemen met Microsoft Defender voor eindpunt oplossen](troubleshoot-onboarding.md)
+- [Problemen met Microsoft Defender voor Eindpunt oplossen](troubleshoot-onboarding.md)

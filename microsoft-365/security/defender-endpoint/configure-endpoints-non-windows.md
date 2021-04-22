@@ -1,7 +1,7 @@
 ---
 title: Onboard non-Windows devices to the Microsoft Defender for Endpoint service
 description: Configureer niet-Windows-apparaten, zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender for Endpoint-service.
-keywords: onboard non-Windows devices, macos, linux, device management, configure Windows ATP devices, configure Microsoft Defender for Endpoint devices
+keywords: onboard non-Windows devices, macos, linux, device management, configure Microsoft Defender for Endpoint devices
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c78779cd4a8a329864b6ac7e0debfc30ca0b3a56
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 1c10576b72793ab3833f2e9027e3814a449334ee
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893587"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933923"
 ---
 # <a name="onboard-non-windows-devices"></a>Onboarden niet-Windows-apparaten
 
@@ -48,7 +48,7 @@ U moet de exacte Linux-distributies en macOS-versies kennen die compatibel zijn 
 U moet de volgende stappen ondernemen om niet-Windows-apparaten aan te sluiten:
 1. Selecteer uw voorkeursmethode voor onboarding:
 
-   - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender voor Eindpunt of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt voor Mac voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
+   - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender voor Eindpunt of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt op Mac voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
    - Voor andere niet-Windows-apparaten kiest u **Onboard non-Windows-apparaten via integratie van derden.**   
     1. Selecteer in het navigatiedeelvenster **Interoperabiliteitspartners.**  >   Zorg ervoor dat de oplossing van derden wordt vermeld.
