@@ -1,7 +1,7 @@
 ---
 title: Overzicht - Geavanceerd zoeken
 description: Meer informatie over geavanceerde zoekquery's in Microsoft 365 en hoe u deze kunt gebruiken om proactief bedreigingen en zwakke punten in uw netwerk te vinden
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, custom detections, schema, kusto, microsoft 365, Microsoft Threat Protection
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, custom detections, schema, kusto
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 3532fd461fff02fac54e96e0a1a1e69c39c16907
-ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
+ms.openlocfilehash: df48ec921dee7d8f3b441ed3f68ed148c5c6c857
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51657017"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932975"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Proactief op bedreigingen zoeken met geavanceerde jacht in Microsoft 365 Defender
 
@@ -70,7 +70,7 @@ Gebruikers hebben een van de volgende machtigingsniveaus nodig voor toegang tot 
 
 Het is raadzaam om verschillende stappen uit te voeren om snel aan de slag te gaan met geavanceerde jacht.
 
-| Leerdoel | Omschrijving | Resource |
+| Leerdoel | Beschrijving | Resource |
 |--|--|--|
 | **De taal leren** | Geavanceerd zoeken is gebaseerd op [de querytaal Kusto,](/azure/kusto/query/)die dezelfde syntaxis en operatoren ondersteunt. Begin de querytaal te leren door de eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
 | **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt bekijken of exporteren. Ontdek hoe u snel query's kunt aanpassen, kunt inzoomen om uitgebreidere informatie te krijgen en antwoordacties kunt uitvoeren. | - [Werken met queryresultaten](advanced-hunting-query-results.md)<br>- [Actie ondernemen voor queryresultaten](advanced-hunting-take-action.md) |

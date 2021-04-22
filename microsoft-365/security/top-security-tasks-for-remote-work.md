@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
-ms.openlocfilehash: 9d24381b5947049c506b19553a2ab3d77b95d7c8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 109ba05b21ce9c1355be73dbdfb000d6eb8c4e4d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200315"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930469"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>De 12 belangrijkste taken voor beveiligingsteams ter ondersteuning van thuis werken
 
@@ -46,7 +46,7 @@ Voor klanten die onze ondernemingsplannen gebruiken, raadt Microsoft u aan de ta
 |2|[Beveiligen tegen bedreigingen](#2-protect-against-threats)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3|[Microsoft Defender configureren voor Office 365](#3-configure-microsoft-defender-for-office-365)|||![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4|[Microsoft Defender configureren voor identiteit](#4-configure-microsoft-defender-for-identity)|||![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|5|[Microsoft 365 Defender in-](#5-turn-on-microsoft-365-defender)|||![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|5|[Microsoft 365 Defender inschakelen](#5-turn-on-microsoft-365-defender)|||![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6|[Intune mobile app protection configureren voor telefoons en tablets](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7|[MFA en voorwaardelijke toegang configureren voor gasten, inclusief intune-appbeveiliging](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8|[Pc's registreren voor apparaatbeheer en compatibele pc's vereisen](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -108,7 +108,7 @@ De globale beheerder kan deze beveiligingen configureren:
 
 U moet samenwerken met uw Exchange Online-beheerder en SharePoint Online-beheerder om Defender voor Office 365 te configureren voor deze werkbelastingen:
 
-- [ATP voor SharePoint, OneDrive en Microsoft Teams](office-365-security/mdo-for-spo-odb-and-teams.md)
+- [Microsoft Defender voor Eindpunt voor SharePoint, OneDrive en Microsoft Teams](office-365-security/mdo-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Microsoft Defender configureren voor identiteit
 

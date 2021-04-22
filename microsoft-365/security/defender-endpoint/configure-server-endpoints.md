@@ -1,7 +1,7 @@
 ---
 title: Windows-servers aan boord van de Microsoft Defender voor Eindpunt-service
 description: Onboard Windows-servers, zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender for Endpoint-sensor.
-keywords: onboard server, server, 2012r2, 2016, 2019, server onboarding, device management, configure Windows ATP servers, onboard Microsoft Defender for Endpoint servers, onboard Microsoft Defender for Endpoint servers
+keywords: onboard server, server, 2012r2, 2016, 2019, server onboarding, device management, configure Microsoft Defender for Endpoint servers, onboard Microsoft Defender for Endpoint servers, onboard Microsoft Defender for Endpoint servers
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f2660f19d4b6b0d5f8e2dbf48843002a2bfb7f1d
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 4eea2931196c192620812c1609c506e1fb99093d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769058"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932951"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Windows-servers aan boord van de Microsoft Defender voor Eindpunt-service
 
@@ -55,7 +55,7 @@ U kunt Windows Server 2008 R2 SP1, Windows Server 2012 R2 en Windows Server 2016
 Nadat u de onboarding-stappen hebt doorlopen met een van de opgegeven opties, moet u [System Center Endpoint Protection-clients configureren en bijwerken.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
-> Defender for Endpoint standalone server license is vereist, per knooppunt, om een Windows-server aan te sluiten via Microsoft Monitoring Agent (Optie 1) of via Microsoft Endpoint Manager (optie 3). U kunt ook per knooppunt een Azure Defender for Servers-licentie gebruiken om een Windows-server aan te sluiten via Azure Security Center (optie 2), zie Ondersteunde functies die beschikbaar zijn [in Azure Security Center.](https://docs.microsoft.com/azure/security-center/security-center-services)
+> Defender for Endpoint standalone server license is vereist, per knooppunt, om een Windows-server aan te sluiten via Microsoft Monitoring Agent (Optie 1) of via Microsoft Endpoint Manager (optie 3). U kunt ook per knooppunt een Azure Defender for Servers-licentie gebruiken om een Windows-server aan te sluiten via Azure Security Center (optie 2), zie Ondersteunde functies die beschikbaar zijn [in Azure Defender.](https://docs.microsoft.com/azure/security-center/security-center-services)
 
 ### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>Optie 1: Onboard door Microsoft Monitoring Agent (MMA) te installeren en te configureren
 
@@ -127,13 +127,13 @@ Wanneer u klaar bent, ziet u binnen een uur onboarded Windows-servers in de port
 
 3. Klik **op Onboard Servers in Azure Security Center**.
 
-4. Volg de onboarding-instructies in [Microsoft Defender voor](https://docs.microsoft.com/azure/security-center/security-center-wdatp) Eindpunt met Azure Security Center en Als u Azure ARC gebruikt, volgt u de onboarding-instructies in Microsoft Defender voor [endpoint-integratie inschakelen.](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)
+4. Volg de onboarding-instructies in [Microsoft Defender voor](https://docs.microsoft.com/azure/security-center/security-center-wdatp) Eindpunt met Azure Defender en Als u Azure ARC gebruikt, volgt u de onboarding-instructies in Microsoft Defender voor [endpoint-integratie inschakelen.](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)
 
 Nadat u de onboarding-stappen hebt doorlopen, moet u [System Center Endpoint Protection-clients configureren en bijwerken.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
 >
-> - Als onboarding via Azure Defender voor Servers (voorheen Azure Security Center Standard Edition) naar verwachting werkt, moet de server een geschikte werkruimte en sleutel hebben die is geconfigureerd binnen de MMA-instellingen (Microsoft Monitoring Agent).
+> - Als onboarding via Azure Defender voor servers naar verwachting werkt, moet de server een geschikte werkruimte en sleutel hebben die is geconfigureerd binnen de MMA-instellingen (Microsoft Monitoring Agent).
 > - Nadat de configuratie is geconfigureerd, wordt het juiste cloudbeheerpakket op de computer geïmplementeerd en wordt het sensorproces (MsSenseS.exe) geïmplementeerd en gestart.
 > - Dit is ook vereist als de server is geconfigureerd voor het gebruik van een OMS Gateway-server als proxy.
 
@@ -188,26 +188,25 @@ Ondersteuning voor Windows Server biedt meer inzicht in serveractiviteiten, dekk
 
     Zie Groepsbeleidsinstellingen gebruiken om Microsoft Defender Antivirus te configureren en te beheren voor informatie over het gebruik van groepsbeleid voor het configureren en beheren van Microsoft Defender Antivirus op uw [Windows-servers.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)
 
-## <a name="integration-with-azure-security-center"></a>Integratie met Azure Security Center
+## <a name="integration-with-azure-defender"></a>Integratie met Azure Defender
 
-Defender voor Eindpunt kan worden geïntegreerd met Azure Security Center om een uitgebreide windows-serverbeveiligingsoplossing te bieden. Met deze integratie kan Azure Security Center de kracht van Defender voor Eindpunt gebruiken om een verbeterde detectie van bedreigingen voor Windows-servers te bieden.
+Defender voor Eindpunt kan worden geïntegreerd met Azure Defender om een uitgebreide windows-serverbeveiligingsoplossing te bieden. Met deze integratie kan Azure Defender de kracht van Defender voor Eindpunt gebruiken om de detectie van bedreigingen voor Windows-servers te verbeteren.
 
 De volgende mogelijkheden zijn opgenomen in deze integratie:
 
-- Geautomatiseerde onboarding- Defender voor eindpunten-sensor wordt automatisch ingeschakeld op Windows-servers die zijn onboarded bij Azure Security Center. Zie [Onboarding to Azure Security Center Standard for enhanced security (Onboarding to Azure Security Center Standard for enhanced security)](https://docs.microsoft.com/azure/security-center/security-center-onboarding)voor meer informatie over onboarding van Azure Security Center.
+- Geautomatiseerde onboarding: De Defender voor Eindpunt-sensor is automatisch ingeschakeld op Windows-servers die zijn onboarded bij Azure Defender. Zie [Onboarding to Azure Defender Standard for enhanced security (Onboarding to Azure Defender Standard for enhanced security)](https://docs.microsoft.com/azure/security-center/security-center-onboarding)voor meer informatie over Azure Defender onboarding.
 
     > [!NOTE]
     > De integratie tussen Azure Defender voor servers en Microsoft Defender voor Eindpunt is uitgebreid met ondersteuning voor [Windows Server 2019 en Windows Virtual Desktop (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
 
-- Windows-servers die worden gecontroleerd door Azure Security Center, zijn ook beschikbaar in Defender voor Eindpunt- Azure Security Center maakt naadloos verbinding met de Defender for Endpoint-tenant, met één weergave voor clients en servers.  Daarnaast zijn defender voor eindpuntwaarschuwingen beschikbaar in de Azure Security Center-console.
-- Serveronderzoek: klanten van het Azure Security Center hebben toegang tot het Microsoft Defender-beveiligingscentrum om gedetailleerd onderzoek uit te voeren om het bereik van een mogelijke inbreuk te achterhalen.
+- Windows-servers die worden gecontroleerd door Azure Defender, zijn ook beschikbaar in Defender voor Eindpunt: Azure Defender maakt naadloos verbinding met de Defender voor Eindpunttender, waardoor er één weergave beschikbaar is voor clients en servers.  Daarnaast zijn defender voor eindpuntwaarschuwingen beschikbaar in de Azure Defender-console.
+- Serveronderzoek: Azure Defender-klanten hebben toegang tot het Microsoft Defender-beveiligingscentrum om gedetailleerd onderzoek uit te voeren om het bereik van een mogelijke inbreuk aan het licht te brengen.
 
 > [!IMPORTANT]
->
-> - Wanneer u Azure Security Center gebruikt om servers te controleren, wordt automatisch een Defender for Endpoint-tenant gemaakt (in de VS voor Amerikaanse gebruikers, in de EU voor Europese en Britse gebruikers).
+> - Wanneer u Azure Defender gebruikt om servers te controleren, wordt automatisch een Defender voor Eindpunt-tenant gemaakt (in de VS voor Amerikaanse gebruikers, in de EU voor Europese en Britse gebruikers).<br>
 Gegevens die door Defender voor Eindpunt worden verzameld, worden opgeslagen op de geografische locatie van de tenant die tijdens de inrichting is geïdentificeerd.
-> - Als u Defender voor Eindpunt gebruikt voordat u Azure Security Center gebruikt, worden uw gegevens opgeslagen op de locatie die u hebt opgegeven toen u uw tenant maakte, zelfs als u op een later tijdstip integreert met Azure Security Center.
-> - Nadat de gegevens zijn geconfigureerd, kunt u de locatie waarop uw gegevens zijn opgeslagen niet wijzigen. Als u uw gegevens naar een andere locatie wilt verplaatsen, moet u contact opnemen met Microsoft Support om de tenant opnieuw in te stellen.
+> - Als u Defender voor Eindpunt gebruikt voordat u Azure Defender gebruikt, worden uw gegevens opgeslagen op de locatie die u hebt opgegeven toen u uw tenant maakte, zelfs als u op een later tijdstip integreert met Azure Defender.
+> - Nadat de gegevens zijn geconfigureerd, kunt u de locatie waarop uw gegevens zijn opgeslagen niet wijzigen. Als u uw gegevens naar een andere locatie wilt verplaatsen, moet u contact opnemen met Microsoft Support om de tenant opnieuw in te stellen. <br>
 Server-eindpuntcontrole met behulp van deze integratie is uitgeschakeld voor Office 365 GCC-klanten.
 
 ## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>System Center Endpoint Protection-clients configureren en bijwerken

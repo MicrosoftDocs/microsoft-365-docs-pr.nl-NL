@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP Flow-connector
+title: Microsoft Defender voor eindpuntstroomconnector
 ms.reviewer: ''
-description: Gebruik Microsoft Defender ATP Flow-connector om de beveiliging te automatiseren en een stroom te maken die wordt geactiveerd wanneer er een nieuwe waarschuwing op uw tenant wordt geplaatst.
+description: Gebruik Microsoft Defender voor eindpuntstroomconnector om de beveiliging te automatiseren en een stroom te maken die wordt geactiveerd wanneer er een nieuwe waarschuwing op uw tenant plaatsvindt.
 keywords: flow, ondersteunde api's, api, Microsoft flow, query, automatisering
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6fd210ddfb8e3ab6e4f1f4ffc0635c8b813e3a07
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 33a7c7b1907ac761dfdde43a70bfb8f515235150
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163385"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929297"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate (voorheen Microsoft Flow) en Azure-functies
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -92,5 +92,5 @@ De waarschuwingstrigger bevat alleen de waarschuwings-id en de machine-id. U kun
 
 U kunt ook een geplande stroom **maken** met geavanceerde query's en nog veel meer.
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="related-topic"></a>Verwant onderwerp
 - [Microsoft Defender voor eindpunt-API's](apis-intro.md)

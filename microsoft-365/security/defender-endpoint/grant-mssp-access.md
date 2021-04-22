@@ -1,6 +1,6 @@
 ---
 title: Toegang verlenen aan een beheerde beveiligingsserviceprovider (MSSP)
-description: Neem de benodigde stappen voor het configureren van MSSP-integratie met de MICROSOFT Defender ATP
+description: Neem de benodigde stappen voor het configureren van MSSP-integratie met Microsoft Defender voor Eindpunt
 keywords: managed security service provider, mssp, configure, integration
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1bb7bc3565bbb7c05f165c5649f3672ff33bb18b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 320355f838db5dbb1540350e95e4cc0645acd805
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165451"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932749"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>Toegang verlenen voor beheerde beveiligingsserviceproviders (MSSP) (preview)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -137,7 +137,7 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Toegang tot de MSSP-klantportal](access-mssp-portal.md)
 - [Waarschuwingsmeldingen configureren](configure-mssp-notifications.md)
-- [Waarschuwingen ophalen van klant tenant](fetch-alerts-mssp.md)
+- [Waarschuwingen ophalen van de klant-tenant](fetch-alerts-mssp.md)
 
 
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 803c0af0c495eedfd26023d4e71d98df6a1b1b64
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 65c5161f110e95008f2dc56aa3a2d17266ac1cb1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904020"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933347"
 ---
 # <a name="information-protection-in-windows-overview"></a>Overzicht van informatiebeveiliging in Windows
 
@@ -41,7 +41,7 @@ Informatiebeveiliging is een integraal onderdeel van de Microsoft 365 Enterprise
 
 
 >[!TIP]
-> Lees ons blogbericht over hoe Microsoft Defender voor Eindpunt (voorheen Microsoft Defender ATP genoemd) integreert met Microsoft Information Protection om gevoelige gegevens op Windows-apparaten te ontdekken, te beveiligen en te [bewaken.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
+> Lees ons blogbericht over hoe Microsoft Defender voor Eindpunt integreert met Microsoft Information Protection om gevoelige gegevens op [Windows-apparaten te ontdekken,](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)te beveiligen en te bewaken.
 
 Defender voor Eindpunt past de volgende methoden toe om gegevens te ontdekken, te classificeren en te beveiligen:
 

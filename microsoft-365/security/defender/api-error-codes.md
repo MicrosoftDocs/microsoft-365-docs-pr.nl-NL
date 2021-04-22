@@ -1,7 +1,7 @@
 ---
 title: Veelgebruikte MICROSOFT 365 Defender REST API-foutcodes
 description: Meer informatie over de veelgebruikte MICROSOFT 365 Defender REST API-foutcodes
-keywords: api, fout, codes, veelvoorkomende fouten, mtp, api-foutcodes
+keywords: api, fout, codes, veelvoorkomende fouten, Microsoft 365 Defender, api-foutcodes
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ab564ddb0263b501b6aca979f2148dfb5cf92758
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e621b79d37a2c3a22394bd51e0493334eff461c7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060590"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932879"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Veelgebruikte MICROSOFT 365 Defender REST API-foutcodes
 
@@ -33,7 +33,7 @@ ms.locfileid: "51060590"
 
 **Van toepassing op:**
 
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.

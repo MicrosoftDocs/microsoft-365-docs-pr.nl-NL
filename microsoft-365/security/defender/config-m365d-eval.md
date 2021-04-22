@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender-pilaren configureren voor het proeflaboratorium of de testomgeving
 description: Configureer Microsoft 365 Defender-pilaren, zoals Microsoft Defender voor Office 365, Microsoft Defender voor identiteit, Microsoft Cloud App-beveiliging en Microsoft Defender voor eindpunt, voor uw proeflab of testomgeving.
-keywords: Proefversie van Microsoft Threat Protection configureren, proefversie van Microsoft Threat Protection configureren, Microsoft Threat Protection-testproject configureren, Microsoft Threat Protection-pijlers configureren, Microsoft Threat Protection-pijlers
+keywords: Proefversie van Microsoft 365 Defender configureren, proefversie van Microsoft 365 Defender configureren, Microsoft 365 Defender-testproject configureren, Microsoft 365 Defender-pilaren configureren, Microsoft 365 Defender-pijlers
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 9b192a029704d1354867b169efdf0d489345030e
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 05bdc9cbb678a3d6c1cee726fc4d8c2e45d2d360
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580964"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933503"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender-pilaren configureren voor uw proeflaboratorium of testomgeving
 
@@ -162,9 +162,6 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 11. Selecteer onder [de sectie Instellingen](https://go.microsoft.com/fwlink/?linkid=2040449) voor Microsoft Defender voor identiteit de optie **Microsoft Defender voor Eindpunt **, en schakel de schakelaar in. Klik op **Opslaan**. 
 
     ![Afbeelding of_the pagina met instellingen voor Microsoft Defender voor identiteit waarin u de schakelknop Microsoft Defender voor eindpunt moet in-](../../media/mtp-eval-52.png)
-
-> [!NOTE]
-> Windows Defender ATP is hernoemd als Microsoft Defender voor Eindpunt. Wijzigingen wijzigen in al onze portals worden uitgerold voor consistentie.
 
 
 ## <a name="configure-microsoft-cloud-app-security"></a>Microsoft Cloud App-beveiliging configureren

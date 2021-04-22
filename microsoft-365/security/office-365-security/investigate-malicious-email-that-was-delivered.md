@@ -1,6 +1,6 @@
 ---
 title: Schadelijke e-mail onderzoeken die is bezorgd in Office 365, Schadelijke e-mail zoeken en onderzoeken
-keywords: TIMailData-Inline, Beveiligingsincident, incident, ATP PowerShell, e-mail malware, gecompromitteerde gebruikers, e-mail phish, e-mail malware, lees kopteksten, open e-mailkoppen, speciale acties
+keywords: TIMailData-Inline, Beveiligingsincident, incident, Microsoft Defender voor Eindpunt PowerShell, e-mail malware, gecompromitteerde gebruikers, e-mail phish, e-mail malware, lees e-mailkoppen, leeskoppen, open e-mailkoppen, speciale acties
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -20,12 +20,12 @@ description: Meer informatie over het gebruik van mogelijkheden voor het onderzo
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2781850eacf8b0fcf4909406aca335f1bbeb0753
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 02e396cac060f2b8431b2b70e89c18950596d9c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204242"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933371"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Schadelijke e-mail onderzoeken die is bezorgd in Office 365
 

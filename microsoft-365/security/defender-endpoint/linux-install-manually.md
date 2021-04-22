@@ -2,7 +2,7 @@
 title: Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 ms.reviewer: ''
 description: Hier wordt beschreven hoe u Microsoft Defender voor Eindpunt handmatig op Linux implementeert vanaf de opdrachtregel.
-keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2beb46c62de2e9720d1626e0e1e5ce806a6d7e19
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0374c1a44a4d942ea631d97f51fa48df15d3ec13
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903914"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929083"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 
@@ -58,7 +58,7 @@ Zie Microsoft Defender voor Eindpunt op [Linux](microsoft-defender-endpoint-linu
 
 ## <a name="configure-the-linux-software-repository"></a>De Linux-softwareopslagplaats configureren
 
-Defender voor Eindpunt voor Linux kan worden geïmplementeerd via een van de volgende kanalen (hieronder aangeduid als *[kanaal]*): *insiders-fast,* *insiders-slow* of *prod*. Elk van deze kanalen komt overeen met een Linux-softwareopslagplaats. Instructies voor het configureren van uw apparaat voor het gebruik van een van deze opslagplaatsen vindt u hieronder.
+Defender for Endpoint on Linux kan worden geïmplementeerd vanuit een van de volgende kanalen (hieronder aangeduid als *[kanaal]*): *insiders-fast*, *insiders-slow*, of *prod*. Elk van deze kanalen komt overeen met een Linux-softwareopslagplaats. Instructies voor het configureren van uw apparaat voor het gebruik van een van deze opslagplaatsen vindt u hieronder.
 
 De keuze van het kanaal bepaalt het type en de frequentie van de updates die op uw apparaat worden aangeboden. Apparaten in *insiders-fast* zijn de eersten die updates en nieuwe functies ontvangen, later gevolgd door *insiders-slow* en ten laatste *door prod*.
 
@@ -86,7 +86,7 @@ Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wi
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    Als u bijvoorbeeld CentOS 7 gebruikt en Defender voor Endpoint voor Linux wilt implementeren vanuit het *prod-kanaal:*
+    Als u bijvoorbeeld CentOS 7 gebruikt en Defender voor Eindpunt op Linux wilt implementeren via het *prod-kanaal:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
@@ -328,7 +328,7 @@ Download het onboarding-pakket van het Microsoft Defender-beveiligingscentrum:
     > ```bash
     > mdatp health --field definitions_status
     > ```
-    > Houd er rekening mee dat u mogelijk ook een proxy moet configureren na het voltooien van de eerste installatie. Zie [Defender configureren voor eindpunt voor Linux voor statische proxydetectie: Configuratie na installatie](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).
+    > Houd er rekening mee dat u mogelijk ook een proxy moet configureren na het voltooien van de eerste installatie. Zie [Defender voor eindpunt configureren op Linux voor statische proxydetectie: Configuratie na installatie](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).
 
 5. Voer een detectietest uit om te controleren of het apparaat goed is onboarded en rapporteert aan de service. Voer de volgende stappen uit op het nieuwe onboarded-apparaat:
 
@@ -344,7 +344,7 @@ Download het onboarding-pakket van het Microsoft Defender-beveiligingscentrum:
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    - Het bestand had in quarantaine moeten zijn geplaatst door Defender voor Eindpunt voor Linux. Gebruik de volgende opdracht om alle gedetecteerde bedreigingen op te geven:
+    - Het bestand had in quarantaine moeten zijn geplaatst door Defender voor Eindpunt op Linux. Gebruik de volgende opdracht om alle gedetecteerde bedreigingen op te geven:
 
         ```bash
         mdatp threat list
@@ -381,7 +381,7 @@ Zie [Installatieproblemen in logboeken](linux-resources.md#log-installation-issu
 
 ## <a name="operating-system-upgrades"></a>Upgrades van besturingssysteem
 
-Wanneer u een upgrade van uw besturingssysteem naar een nieuwe hoofdversie hebt uitgevoerd, moet u Eerst Defender voor Eindpunt voor Linux verwijderen, de upgrade installeren en ten slotte Defender voor Eindpunt voor Linux opnieuw configureren op uw apparaat.
+Wanneer u uw besturingssysteem upgradet naar een nieuwe hoofdversie, moet u Eerst Defender voor Eindpunt op Linux verwijderen, de upgrade installeren en defender voor eindpunt opnieuw configureren op Linux op uw apparaat.
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>Migreren van Insiders-Fast naar productiekanaal
 
@@ -406,4 +406,4 @@ Wanneer u een upgrade van uw besturingssysteem naar een nieuwe hoofdversie hebt 
 
 ## <a name="uninstallation"></a>Verwijderen
 
-Zie [Verwijderen voor](linux-resources.md#uninstall) meer informatie over het verwijderen van Defender voor Eindpunt voor Linux van clientapparaten.
+Zie [Verwijderen voor](linux-resources.md#uninstall) meer informatie over het verwijderen van Defender voor Eindpunt op Linux van clientapparaten.

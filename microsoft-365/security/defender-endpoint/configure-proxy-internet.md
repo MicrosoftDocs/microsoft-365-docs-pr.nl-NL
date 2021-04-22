@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ebfff7721bc61012811a66146079ac9758889594
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: a3885a462265368bc42c758ee5a8fd1c673ec08c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893599"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932797"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Instellingen voor apparaatproxy en internetverbinding configureren
 
@@ -176,7 +176,7 @@ De jokertekens (*) die worden gebruikt in *.ods.opinsights.azure.com, *.oms.opin
 Het eindpunt *.blob.core.windows.net URL kan worden vervangen door de URL's die worden weergegeven in de sectie Firewallregel: *.blob.core.windows.net' van de testresultaten. 
 
 > [!NOTE]
-> In het geval van onboarding via Azure Security Center (ASC) worden mogelijk meerdere werkruimten gebruikt. U moet de bovenstaande TestCloudConnection.exe uitvoeren op een onboarded machine vanuit elke werkruimte (om te bepalen of er wijzigingen zijn in de *.blob.core.windows.net-URL's tussen de werkruimten).
+> In het geval van onboarding via Azure Defender worden mogelijk meerdere werkruimten gebruikt. U moet de bovenstaande TestCloudConnection.exe uitvoeren op een onboarded machine vanuit elke werkruimte (om te bepalen of er wijzigingen zijn in de *.blob.core.windows.net-URL's tussen de werkruimten).
 
 ## <a name="verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls"></a>Clientconnectiviteit verifiëren met URL's van Microsoft Defender voor endpoint-service
 

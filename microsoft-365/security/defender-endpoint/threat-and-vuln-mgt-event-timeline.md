@@ -1,7 +1,7 @@
 ---
 title: Tijdlijn van gebeurtenissen in bedreigings- en kwetsbaarheidsbeheer
 description: Gebeurtenistijdlijn is een nieuwsfeed voor risico's waarmee u kunt interpreteren hoe risico's in de organisatie worden ingevoerd en welke risico's zijn beperkt.
-keywords: gebeurtenistijdlijn, mdatp-gebeurtenistijdlijn, mdatp tvm-gebeurtenistijdlijn, bedreigings- en kwetsbaarheidsbeheer, Microsoft Defender voor Eindpunt
+keywords: gebeurtenistijdlijn, Microsoft Defender voor eindpuntgebeurtenistijdlijn, Microsoft Defender voor endpoint tvm-gebeurtenistijdlijn, bedreigings- en kwetsbaarheidsbeheer, Microsoft Defender voor Eindpunt
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 90a124f9b0bf9ef775141e359224fde566c61c8d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 64362598ff4b0512eb110917071e6d32abb8ede9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501202"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933479"
 ---
 # <a name="event-timeline---threat-and-vulnerability-management"></a>Gebeurtenistijdlijn - bedreigings- en kwetsbaarheidsbeheer
 

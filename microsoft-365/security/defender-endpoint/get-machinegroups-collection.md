@@ -1,6 +1,6 @@
 ---
 title: Api voor verzamelingen van RBAC-machinegroepen ophalen
-description: Lees hoe u de API van de KB-verzameling ophalen kunt gebruiken om een verzameling RBAC-apparaatgroepen op te halen in Microsoft Defender Advanced Threat Protection.
+description: Lees hoe u de API van de KB-verzameling ophalen kunt gebruiken om een verzameling RBAC-apparaatgroepen op te halen in Microsoft Defender voor Eindpunt.
 keywords: api's, graph api, ondersteunde api's, get, RBAC, groep
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 10/07/2018
-ms.openlocfilehash: 54a0edb47204fe6e48666f0927d05121af95e00a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 18566025d79f02281c1d2c1509dd98f1e57879c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166649"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932773"
 ---
 # <a name="get-kb-collection-api"></a>KB-verzameling-API ophalen
 
@@ -49,7 +49,7 @@ GET /testwdatppreview/machinegroups
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Koptekst | Value 
+Koptekst | Waarde 
 :---|:---
 Autorisatie | Bearer {token}. **Vereist**.
 Inhoudstype | toepassing/json

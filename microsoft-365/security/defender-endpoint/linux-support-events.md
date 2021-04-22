@@ -1,7 +1,7 @@
 ---
 title: Problemen met ontbrekende gebeurtenissen of waarschuwingen oplossen voor Microsoft Defender voor Eindpunt op Linux
 description: Problemen met ontbrekende gebeurtenissen oplossen of problemen met waarschuwingen in Microsoft Defender voor Eindpunt op Linux oplossen.
-keywords: microsoft, defender, atp, linux, events
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, events
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 40d394a4fc7349789dea9bd96ccdaf71067ab39e
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 7de216c1397a7cc4806af8221257eeedd2290830
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903996"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933311"
 ---
 # <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Problemen met ontbrekende gebeurtenissen of waarschuwingen oplossen voor Microsoft Defender voor Eindpunt op Linux
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor eindpunten beheren na de migratie
 description: Nu u de overstap hebt gemaakt naar Microsoft Defender voor Eindpunt, is de volgende stap het beheren van uw beveiligingsfuncties voor bedreigingen
-keywords: post-migration, manage, operations, maintenance, utilization, windows defender advanced threat protection, atp, edr
+keywords: post-migration, manage, operations, maintenance, utilization, Microsoft Defender for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,19 +20,19 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 01/26/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 54302f38f0fd63560ecd1c5545efa4621c6b9bbd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: eedd13030fd6a649985dc7280dc256e4ab35089a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185859"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933191"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-post-migration"></a>Microsoft Defender voor Eindpunt beheren, na migratie
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -52,4 +52,4 @@ De volgende tabel bevat verschillende hulpmiddelen/methoden die u kunt gebruiken
 
 ## <a name="see-also"></a>Zie ook
 
-- [False positives/negatives in Microsoft Defender for Endpoint adresseert](defender-endpoint-false-positives-negatives.md)
+- [Vals-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken](defender-endpoint-false-positives-negatives.md)

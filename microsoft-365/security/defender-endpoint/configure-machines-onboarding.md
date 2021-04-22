@@ -1,7 +1,7 @@
 ---
 title: Apparaten in gebruik nemen bij Microsoft Defender voor Eindpunt
 description: Houd onboarding bij van door Intune beheerde apparaten naar Microsoft Defender voor Eindpunt en verhoog de onboardingsnelheid.
-keywords: onboard, Intune management, MDATP, WDATP, Microsoft Defender, Windows Defender, advanced threat protection, configuration management
+keywords: onboard, Intune management, Microsoft Defender for Endpoint, Microsoft Defender, Windows Defender, configuration management
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 09ca9fb466efd7764f7459a4754cfb30c8100bdb
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: e0d5a13b0c33516209bd2d18361a1de6ab9245c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904138"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932939"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>Apparaten in gebruik nemen bij Microsoft Defender voor Eindpunt
 
@@ -71,7 +71,7 @@ Maak op de pagina apparaat compliance een configuratieprofiel speciaal voor de i
 
 Lees voor meer informatie [over het gebruik van intune-apparaatconfiguratieprofielen voor onboard-apparaten naar Defender voor Eindpunt.](https://docs.microsoft.com/intune/advanced-threat-protection#onboard-devices-by-using-a-configuration-profile)
 
->Wilt u Microsoft Defender ATP ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
+>Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Controleren of uw apparaten juist zijn geconfigureerd](configure-machines.md)

@@ -1,7 +1,7 @@
 ---
 title: 'Beveiligingslekken in mijn organisatie : bedreigings- en kwetsbaarheidsbeheer'
 description: Hier vindt u de algemene beveiligingslekken en blootstellings-id (CVE) van zwakke punten in de software die in uw organisatie wordt uitgevoerd. Ontdekt door de Microsoft Defender for Endpoint threat and vulnerability management capability.
-keywords: mdatp threat & vulnerability management, threat and vulnerability management, mdatp tvm weaknesses page, finding weaknesses through tvm, tvm vulnerability list, vulnerability details in tvm
+keywords: Microsoft Defender for Endpoint threat & vulnerability management, threat and vulnerability management, Microsoft Defender for Endpoint tvm weaknesses page, finding weaknesses through tvm, tvm vulnerability list, vulnerability details in tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0f573b2425764876e877de44555691979a0e1fcf
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: a8039a06dc58c31158f90d39857ffbeba92138d5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689399"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933071"
 ---
 # <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>Beveiligingslekken in mijn organisatie : bedreigings- en kwetsbaarheidsbeheer
 

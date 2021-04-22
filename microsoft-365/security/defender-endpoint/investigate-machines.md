@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 154ecd66399b031ef2e60eef16227bb9bc2f8785
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c1e572910ad311daba18a8b0f5eeb546ffe36956
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587717"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929107"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Apparaten onderzoeken in de lijst Microsoft Defender voor eindpuntapparaten
 
@@ -172,12 +172,12 @@ Het **tabblad Ontbrekende KBs** bevat de ontbrekende beveiligingsupdates voor he
 
 ### <a name="active-alerts"></a>Actieve waarschuwingen
 
-De **Azure Advanced Threat Protection-kaart** geeft een overzicht op hoog niveau weer van waarschuwingen met betrekking tot het apparaat en het bijbehorende risiconiveau, als u de Azure ATP-functie hebt ingeschakeld en er actieve waarschuwingen zijn. Meer informatie vindt u in de inzooming 'Waarschuwingen'.
+De **Azure Advanced Threat Protection-kaart** geeft een overzicht van waarschuwingen op hoog niveau met betrekking tot het apparaat en het risiconiveau, als u de microsoft Defender voor identiteitsfunctie hebt ingeschakeld en er actieve waarschuwingen zijn. Meer informatie vindt u in de inzooming 'Waarschuwingen'.
 
 ![Afbeelding van actieve waarschuwingskaart](images/risk-level-small.png)
 
 >[!NOTE]
->U moet de integratie op zowel Azure ATP als Defender for Endpoint inschakelen om deze functie te kunnen gebruiken. In Defender voor Eindpunt kunt u deze functie inschakelen in geavanceerde functies. Zie Geavanceerde functies inschakelen voor meer informatie over het inschakelen van [geavanceerde functies.](advanced-features.md)
+>U moet de integratie inschakelen op zowel Microsoft Defender voor identiteit als Defender voor Eindpunt om deze functie te kunnen gebruiken. In Defender voor Eindpunt kunt u deze functie inschakelen in geavanceerde functies. Zie Geavanceerde functies inschakelen voor meer informatie over het inschakelen van [geavanceerde functies.](advanced-features.md)
 
 ### <a name="logged-on-users"></a>Aangemelde gebruikers
 

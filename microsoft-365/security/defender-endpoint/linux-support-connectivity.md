@@ -2,7 +2,7 @@
 title: Problemen met cloudconnectiviteit oplossen voor Microsoft Defender voor Eindpunt op Linux
 ms.reviewer: ''
 description: Problemen met cloudconnectiviteit oplossen voor Microsoft Defender voor Eindpunt op Linux
-keywords: microsoft, defender, atp, linux, cloud, connectiviteit, communicatie
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, cloud, connectivity, communication
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 985e4c39c60600da892c010b6ee26e9c98bb0611
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0345d7f88d147abb750e66a5e61f516abf38d553
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903164"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933107"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Problemen met cloudconnectiviteit oplossen voor Microsoft Defender voor Eindpunt op Linux
 
@@ -37,7 +37,7 @@ ms.locfileid: "51903164"
 
 ## <a name="run-the-connectivity-test"></a>De connectiviteitstest uitvoeren
 
-Als u wilt testen of Defender voor Eindpunt voor Linux met de huidige netwerkinstellingen met de cloud kan communiceren, moet u een connectiviteitstest uitvoeren vanaf de opdrachtregel:
+Als u wilt testen of Defender voor Eindpunt op Linux met de huidige netwerkinstellingen met de cloud kan communiceren, moet u een connectiviteitstest uitvoeren vanaf de opdrachtregel:
 
 ```bash
 mdatp connectivity test
@@ -86,7 +86,7 @@ OK https://cdn.x.cp.wd.microsoft.com/ping
 > [!WARNING]
 > PAC-, WPAD- en geverifieerde proxies worden niet ondersteund. Zorg ervoor dat alleen een statische proxy of transparante proxy wordt gebruikt.
 >
-> SSL-inspectie en het onderscheppen van proxies worden ook niet ondersteund om beveiligingsredenen. Configureer een uitzondering voor SSL-inspectie en uw proxyserver om gegevens van Defender voor Endpoint voor Linux rechtstreeks door te geven aan de relevante URL's zonder interceptie. Als u uw interceptiecertificaat toevoegt aan de algemene winkel, is onderschepping niet toegestaan.
+> SSL-inspectie en het onderscheppen van proxies worden ook niet ondersteund om beveiligingsredenen. Configureer een uitzondering voor SSL-inspectie en uw proxyserver om gegevens van Defender for Endpoint op Linux rechtstreeks door te geven aan de relevante URL's zonder interceptie. Als u uw interceptiecertificaat toevoegt aan de algemene winkel, is onderschepping niet toegestaan.
 
 Als een statische proxy vereist is, voegt u een proxyparameter toe aan de bovenstaande opdracht, waarbij deze overeenkomt `proxy_address:port` met het proxyadres en de poort:
 
@@ -107,7 +107,7 @@ Als u een statische proxy wilt gebruiken, moet `mdatp.service` het bestand worde
 
 Zorg er ook voor dat het juiste statische proxyadres wordt ingevuld om deze te `address:port` vervangen.
 
-Als dit bestand juist is, kunt u de volgende opdracht uitvoeren in de terminal om Defender voor Endpoint voor Linux opnieuw te laden en de instelling door te geven:
+Als dit bestand juist is, kunt u de volgende opdracht uitvoeren in de terminal om Defender voor Endpoint opnieuw te laden op Linux en de instelling door te geven:
 
 ```bash
 sudo systemctl daemon-reload; sudo systemctl restart mdatp

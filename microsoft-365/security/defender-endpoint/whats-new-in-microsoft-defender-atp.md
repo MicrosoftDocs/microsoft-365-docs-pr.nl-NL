@@ -1,7 +1,7 @@
 ---
 title: Wat is er nieuw in Microsoft Defender voor Eindpunt
 description: Bekijk welke functies algemeen beschikbaar zijn (GA) in de nieuwste versie van Microsoft Defender voor Eindpunt, evenals beveiligingsfuncties in Windows 10 en Windows Server.
-keywords: wat is er nieuw in Microsoft Defender voor eindpunt, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
+keywords: wat er nieuw is in Microsoft Defender voor eindpunt, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c9f4c0689739224b00c9c14db1482d54faab3512
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: abb20fe79077eda5c50c9aa36829e0dd45e756b8
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688235"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932617"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Wat is er nieuw in Microsoft Defender voor Eindpunt
 
@@ -52,7 +52,7 @@ Zie Preview-functies voor meer informatie over [preview-functies.](https://docs.
 - [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning toe voor Windows Virtual Desktop.
 
 ## <a name="december-2020"></a>December 2020
-- [Microsoft Defender voor Eindpunt in iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor iOS toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt in iOS.
+- [Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor iOS toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt in iOS.
 
 ## <a name="september-2020"></a>September 2020
 - [Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Android toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt op Android.
@@ -150,7 +150,7 @@ Zie Preview-functies voor meer informatie over [preview-functies.](https://docs.
 
 - [Aangepaste detectie](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-custom-detections)<BR>Met aangepaste detecties kunt u aangepaste query's maken om gebeurtenissen te controleren op elk type gedrag, zoals verdachte of nieuwe bedreigingen. U kunt dit doen door gebruik te maken van de kracht van geavanceerd zoeken door aangepaste detectieregels te maken. 
 
-- [Integratie met Azure Security Center](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> Microsoft Defender for Endpoint is geïntegreerd met Azure Security Center om een uitgebreide serverbeveiligingsoplossing te bieden. Met deze integratie kan Azure Security Center gebruikmaken van de kracht van Microsoft Defender voor Eindpunt om verbeterde detectie van bedreigingen voor Windows-servers te bieden.
+- [Integratie met AAzure Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> Microsoft Defender for Endpoint is geïntegreerd met Azure Defender om een uitgebreide serverbeveiligingsoplossing te bieden. Met deze integratie kan Azure Defender gebruikmaken van de kracht van Microsoft Defender voor Eindpunt om verbeterde detectie van bedreigingen voor Windows-servers te bieden.
 
 - [MsSP-ondersteuning (Managed Security Service Provider)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/mssp-support-windows-defender-advanced-threat-protection)<BR> Microsoft Defender voor Eindpunt voegt ondersteuning voor dit scenario toe door MSSP-integratie aan te bieden. Met de integratie kunnen MSSP's de volgende acties uitvoeren: Toegang krijgen tot de Microsoft Defender-beveiligingscentrumportal van MSSP-klant, e-mailmeldingen ophalen en waarschuwingen ophalen via siem-hulpprogramma's (Security Information and Event Management).
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender evalueren
 description: Stel uw proeflaboratorium of testomgeving van Microsoft 365 Defender in om de beveiligingsoplossing uit te proberen en te ervaren die is ontworpen om apparaten, identiteit, gegevens en toepassingen in uw organisatie te beschermen.
-keywords: Microsoft Threat Protection trial, try Microsoft Threat Protection, evaluate Microsoft Threat Protection, Microsoft Threat Protection evaluation lab, Microsoft Threat Protection pilot, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
+keywords: Microsoft 365 Defender trial, try Microsoft 365 Defender, evaluate Microsoft 365 Defender, Microsoft 365 Defender evaluation lab, Microsoft 365 Defender pilot, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2ea829e0e2697facd2522dbf16ced7d620662eee
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1c260588b80d8325567b74148a7a62586cfbc707
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060570"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933167"
 ---
 # <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Een proeflaboratorium of testomgeving voor Microsoft 365 Defender maken 
 
@@ -64,7 +64,7 @@ Er zijn drie fasen in het maken van een proeflabomgeving van Microsoft 365 Defen
 |Fase | Beschrijving | 
 |:-------|:-----|
 |[Fase 1: Voorbereiden](prepare-m365d-eval.md)| Lees waar u rekening mee moet houden bij de implementatie van Microsoft 365 Defender in een testlab of testomgeving: <br><br>- Belanghebbenden en aanmelding <br> - Milieuoverwegingen <br>- Access <br>- Configuratie van Azure Active Directory <br> - Configuratieorder
-|[Fase 2: Setup](setup-m365deval.md)|  Neem de eerste stappen om toegang te krijgen tot het Microsoft 365-beveiligingscentrum om uw proeflaboratorium of testomgeving van Microsoft 365 Defender in te stellen. U wordt begeleid naar:<br><br>- Registreren voor proefversie van Microsoft 365 E5 <br>  - Domein configureren<br>- Microsoft 365 E5-licenties toewijzen<br>- De installatiewizard in de portal voltooien|
+|[Fase 2: Instellen](setup-m365deval.md)|  Neem de eerste stappen om toegang te krijgen tot het Microsoft 365-beveiligingscentrum om uw proeflaboratorium of testomgeving van Microsoft 365 Defender in te stellen. U wordt begeleid naar:<br><br>- Registreren voor proefversie van Microsoft 365 E5 <br>  - Domein configureren<br>- Microsoft 365 E5-licenties toewijzen<br>- De installatiewizard in de portal voltooien|
 |[Fase 3: Configureren & Onboard](config-m365d-eval.md) | Configureer elke Microsoft 365 Defender-pijler en onboard-eindpunten. U wordt begeleid naar:<br><br>- Microsoft Defender configureren voor Office 365<br>- Microsoft Cloud App-beveiliging configureren<br>- Microsoft Defender configureren voor identiteit<br>- Microsoft Defender configureren voor eindpunt
 
 
@@ -80,7 +80,7 @@ Mogelijkheid | Beschrijving
 Microsoft Defender voor Office 365 | Helpt uw hele Office 365-envrionment te beschermen tegen de huidige bedreigingen
 Microsoft Defender for Identity | Identificeert en detecteert bedreigingen op gecompromitteerde identiteiten en kwaadaardige insideracties.
 Microsoft Cloud App Security | Biedt uitgebreide zichtbaarheid, beheer gegevensreizen en detecteer cyberthreats in cloudservices.
-Microsoft Defender for Endpoint | Voorkomt, detecteert en biedt antwoordmogelijkheden voor geavanceerde bedreigingen met uitgebreide eindpuntbeveiliging.
+Microsoft Defender voor Eindpunt | Voorkomt, detecteert en biedt antwoordmogelijkheden voor geavanceerde bedreigingen met uitgebreide eindpuntbeveiliging.
 
 
 ## <a name="in-scope"></a>In bereik
@@ -96,7 +96,7 @@ De volgende taken vallen onder het bereik van deze handleiding:
     -   Microsoft Defender voor Office 365
     -   Microsoft Defender for Identity
     -   Microsoft Cloud App Security
-    -   Microsoft Defender for Endpoint
+    -   Microsoft Defender voor Eindpunt
 
 ## <a name="out-of-scope"></a>Buiten bereik
 

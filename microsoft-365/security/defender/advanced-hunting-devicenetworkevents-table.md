@@ -1,7 +1,7 @@
 ---
 title: Tabel DeviceNetworkEvents in het geavanceerde schema voor de jacht
 description: Meer informatie over netwerkverbindingsgebeurtenissen die u kunt opvragen in de tabel DeviceNetworkEvents van het geavanceerde schema voor de jacht
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, devicenetworkevents, NetworkCommunicationEvents, network connection, remote ip, local ip
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, devicenetworkevents, NetworkCommunicationEvents, network connection, remote ip, local ip
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 64b6a1ea80bdb37a6fc4477cd18946bd23f8bfb4
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 38cc354429649d1380a3a823e53054267f4b869d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498514"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932569"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -44,7 +44,7 @@ De `DeviceNetworkEvents` tabel in het geavanceerde schema [bevat](advanced-hunti
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
-| Kolomnaam | Gegevenstype | Omschrijving |
+| Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
 | `DeviceId` | tekenreeks | Unieke id voor de machine in de service |

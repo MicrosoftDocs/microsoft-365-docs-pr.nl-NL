@@ -1,7 +1,7 @@
 ---
 title: Nieuwe functies in Microsoft Defender voor Office 365
 description: Meer informatie over de nieuwe functies en functionaliteit die beschikbaar zijn in de nieuwste versie van Microsoft Defender voor Office 365.
-keywords: wat is er nieuw in Office 365 atp, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
+keywords: wat er nieuw is in Microsoft Defender voor Office 365, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.appverid: met150
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7dd691b0d018db2b7afb3b88a2c1f9f7f8a39a33
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 4bb1450790883deec295f554ddf9614c0f01fe2d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569777"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930481"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuwe functies in Microsoft Defender voor Office 365
 
@@ -38,7 +38,7 @@ ms.locfileid: "51569777"
 
 In dit artikel worden nieuwe functies in de nieuwste versie van Microsoft Defender voor Office 365 beschreven. Functies die momenteel in de preview-versie staan, worden aangeduid met **(voorbeeld)**.
 
-Bekijk deze [video voor meer informatie.](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3)
+Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3).
 > [!TIP]
 > Hebt u nog geen Microsoft Defender voor Office 365? [Neem contact op met verkoop om een proefabonnement te starten.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 

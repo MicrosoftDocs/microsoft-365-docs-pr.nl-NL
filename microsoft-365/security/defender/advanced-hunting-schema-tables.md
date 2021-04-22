@@ -1,7 +1,7 @@
 ---
 title: Gegevenstabellen in het geavanceerde schema van Microsoft 365 Defender
 description: Meer informatie over de tabellen in het geavanceerde schema voor het zoeken naar informatie over de gegevens waarin u query's voor het zoeken naar bedreigingen kunt uitvoeren
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, data
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, data
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 48e72bf2384361315c1ed94e83f3e61f667da714
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0313d1e95682d52e44cf90360c8ef322f0cad5db
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499702"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932915"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Het geavanceerde schema voor de jacht begrijpen
 
@@ -55,7 +55,7 @@ Als u snel toegang wilt tot de schemaverwijzing, selecteert u de actie Verwijzin
 ## <a name="learn-the-schema-tables"></a>De schematabellen leren
 In de volgende verwijzing worden alle tabellen in het schema weergegeven. Elke tabelnaam wordt koppelingen naar een pagina met de kolomnamen voor die tabel. Tabel- en kolomnamen worden ook weergegeven in het beveiligingscentrum als onderdeel van de schemaweergave op het geavanceerde zoekscherm.
 
-| Tabelnaam | Omschrijving |
+| Tabelnaam | Beschrijving |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Bestanden, IP-adressen, URL's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
 | **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit, inclusief ernstsinformatie en bedreigingscategorisatie  |

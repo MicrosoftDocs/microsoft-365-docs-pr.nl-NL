@@ -1,7 +1,7 @@
 ---
 title: Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux
-description: Problemen met de prestaties oplossen in Microsoft Defender Endpoint op Linux.
-keywords: microsoft, defender, atp, linux, performance
+description: Problemen met de prestaties in Microsoft Defender voor Eindpunt op Linux oplossen.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5aaa95ef8202f3d0957113d8f20a39e4d3840227
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 9964b27f29654a7cc474dc4fb8f84334ddaf381c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903984"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933215"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Prestatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux
 
@@ -34,17 +34,17 @@ ms.locfileid: "51903984"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Dit artikel bevat enkele algemene stappen die kunnen worden gebruikt om prestatieproblemen met Betrekking tot Defender voor Eindpunt voor Linux te beperken.
+In dit artikel vindt u enkele algemene stappen die kunnen worden gebruikt om prestatieproblemen met betrekking tot Defender voor Eindpunt op Linux te beperken.
 
-Realtimebeveiliging (RTP) is een functie van Defender voor Eindpunt voor Linux die uw apparaat continu bewaakt en beschermt tegen bedreigingen. Het bestaat uit bestands- en procescontrole en andere heuristieken.
+Realtimebeveiliging (RTP) is een functie van Defender voor Eindpunt op Linux die uw apparaat continu bewaakt en beschermt tegen bedreigingen. Het bestaat uit bestands- en procescontrole en andere heuristieken.
 
-Afhankelijk van de toepassingen die u gebruikt en uw apparaatkenmerken, kunt u suboptimale prestaties ervaren bij het uitvoeren van Defender voor Eindpunt voor Linux. Met name toepassingen of systeemprocessen die over een korte periode toegang hebben tot veel resources, kunnen leiden tot prestatieproblemen in Defender voor Eindpunt voor Linux.
+Afhankelijk van de toepassingen die u gebruikt en uw apparaatkenmerken, kunt u suboptimale prestaties ervaren bij het uitvoeren van Defender voor Eindpunt op Linux. Met name toepassingen of systeemprocessen die over een korte periode toegang hebben tot veel resources, kunnen leiden tot prestatieproblemen in Defender for Endpoint op Linux.
 
 Controleer voordat u begint of andere beveiligingsproducten momenteel niet **op het apparaat worden uitgevoerd.** Meerdere beveiligingsproducten kunnen conflicteren en van invloed zijn op de prestaties van de host.
 
 De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te beperken:
 
-1. Schakel realtimebeveiliging uit met behulp van een van de volgende methoden en kijk of de prestaties verbeteren. Met deze methode kunt u beperken of Defender voor Eindpunt voor Linux bijdraagt aan de prestatieproblemen.
+1. Schakel realtimebeveiliging uit met behulp van een van de volgende methoden en kijk of de prestaties verbeteren. Met deze methode kunt u beperken of Defender voor Eindpunt op Linux bijdraagt aan de prestatieproblemen.
 
     Als uw apparaat niet wordt beheerd door uw organisatie, kan realtimebeveiliging worden uitgeschakeld vanaf de opdrachtregel:
 
@@ -55,11 +55,11 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
     Configuration property updated
     ```
 
-    Als uw apparaat wordt beheerd door uw organisatie, kan realtimebeveiliging door uw beheerder worden uitgeschakeld met de instructies in Voorkeuren instellen voor [Defender voor Eindpunt voor Linux.](linux-preferences.md)
+    Als uw apparaat wordt beheerd door uw organisatie, kan realtimebeveiliging door uw beheerder worden uitgeschakeld met behulp van de instructies in Voorkeuren instellen voor [Defender voor Eindpunt op Linux.](linux-preferences.md)
 
     Als het prestatieprobleem zich blijft voordoen terwijl de realtimebeveiliging is uitgeschakeld, kan de oorzaak van het probleem het eindpuntdetectie- en antwoordonderdeel zijn. Neem in dit geval contact op met de klantondersteuning voor verdere instructies en beperking.
 
-2. Als u de toepassingen wilt vinden die de meeste scans activeren, kunt u realtimestatistieken gebruiken die zijn verzameld door Defender voor Eindpunt voor Linux.
+2. Als u de toepassingen wilt vinden die de meeste scans activeren, kunt u realtimestatistieken gebruiken die door Defender voor Eindpunt op Linux zijn verzameld.
 
     > [!NOTE]
     > Deze functie is beschikbaar in versie 100.90.70 of hoger.
@@ -140,11 +140,11 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
     125  CrashPlanService 164
     ```
 
-    Als u de prestaties van Defender voor Eindpunt voor Linux wilt verbeteren, zoekt u het getal met het hoogste getal onder de rij en voegt u `Total files scanned` er een uitsluiting voor toe. Zie Uitsluitingen [configureren en valideren voor Defender voor Eindpunt voor Linux voor meer informatie.](linux-exclusions.md)
+    Als u de prestaties van Defender voor Eindpunt op Linux wilt verbeteren, zoekt u de versie met het hoogste getal onder de rij en voegt u een `Total files scanned` uitsluiting toe. Zie Uitsluitingen [configureren en valideren](linux-exclusions.md)voor Defender voor Eindpunt op Linux voor meer informatie.
 
     >[!NOTE]
     > De toepassing slaat statistieken op in het geheugen en houdt alleen de bestandsactiviteit bij sinds de toepassing is gestart en realtime beveiliging is ingeschakeld. Processen die zijn gestart vóór of tijdens perioden waarin realtimebeveiliging was uitgeschakeld, worden niet meegetelde. Bovendien worden alleen gebeurtenissen geteld die scans hebben geactiveerd.
 
-5. Configureer Microsoft Defender Endpoint op Linux met uitsluitingen voor de processen of schijflocaties die bijdragen aan de prestatieproblemen en realtime beveiliging opnieuw inschakelen.
+5. Configureer Microsoft Defender voor Eindpunt op Linux met uitsluitingen voor de processen of schijflocaties die bijdragen aan de prestatieproblemen en realtime beveiliging opnieuw inschakelen.
 
-    Zie Uitsluitingen [configureren en valideren](linux-exclusions.md)voor Microsoft Defender voor Eindpunt voor Linux voor meer informatie.
+    Zie Uitsluitingen [configureren en valideren](linux-exclusions.md)voor Microsoft Defender voor Eindpunt op Linux voor meer informatie.

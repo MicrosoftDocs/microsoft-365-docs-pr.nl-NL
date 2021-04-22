@@ -1,7 +1,7 @@
 ---
 title: Asr-regelimplementatie en -detecties optimaliseren
 description: Optimaliseer de ASR-regels (Attack Surface Reduction) om typische malware-exploits te identificeren en te voorkomen.
-keywords: onboard, Intune management, MDATP, WDATP, Microsoft Defender, Windows Defender, advanced threat protection, attack surface reduction, ASR, security baseline
+keywords: onboard, Intune management, Microsoft Defender for Endpoint, Microsoft Defender, Windows Defender, attack surface reduction, ASR, security baseline
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a5ce39bb3ff0bf3eea4ac4e89c554de43499b15f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 91295135c833c6b403078bdfd517c7b84ec7d630
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165475"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932845"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>Asr-regelimplementatie en -detecties optimaliseren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-onboardconfigure-abovefoldlink)
@@ -56,6 +56,6 @@ Zie Asr-regelimplementatie en -detecties bewaken en beheren voor meer informatie
 
 **Verwante onderwerpen**
 
-* [Controleer of uw apparaten correct zijn geconfigureerd](configure-machines.md)
+* [Controleren of uw apparaten juist zijn geconfigureerd](configure-machines.md)
 * [Apparaten in gebruik nemen bij Microsoft Defender voor Eindpunt](configure-machines-onboarding.md)
 * [Naleving van de beveiligingslijn van Microsoft Defender voor eindpunt controleren](configure-machines-security-baseline.md)

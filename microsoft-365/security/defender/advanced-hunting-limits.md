@@ -1,7 +1,7 @@
 ---
 title: Geavanceerde jachtquota en gebruiksparameters in Microsoft 365 Defender
 description: Inzicht in verschillende quota en gebruiksparameters (servicelimieten) die ervoor zorgen dat de geavanceerde huntingservice reageert
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema, kusto, CPU limit, query limit, resources, maximum results, quota, parameters, allocation
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema, kusto, CPU limit, query limit, resources, maximum results, quota, parameters, allocation
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ca79abfa95feb65f98ec32ae8dbc0093e34d58e6
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: c9526363b0430514455db1fbdf12cfb7a18229f1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498434"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932987"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>Geavanceerde jachtquota en gebruiksparameters
 
@@ -39,7 +39,7 @@ Als u de service performant en responsief wilt houden, stelt geavanceerd zoeken 
 
 Raadpleeg de volgende tabel om inzicht te krijgen in bestaande quota en gebruiksparameters.
 
-| Quotum of parameter | Grootte | Vernieuwingscyclus | Omschrijving |
+| Quotum of parameter | Grootte | Vernieuwingscyclus | Beschrijving |
 |--|--|--|--|
 | Gegevensbereik | 30 dagen | Elke query | Elke query kan gegevens opvragen van maximaal de afgelopen 30 dagen. |
 | Resultatenset | 10.000 rijen | Elke query | Elke query kan maximaal 10.000 records retourneren. |

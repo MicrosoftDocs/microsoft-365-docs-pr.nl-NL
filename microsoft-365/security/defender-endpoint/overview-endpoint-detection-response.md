@@ -2,7 +2,7 @@
 title: Overzicht van de mogelijkheden voor eindpuntdetectie en -antwoorden
 ms.reviewer: ''
 description: Meer informatie over de mogelijkheden voor het detecteren en reageren van eindpunten in Microsoft Defender voor Eindpunt
-keywords: Microsoft Defender voor eindpunten, eindpuntdetectie en -antwoord, antwoord, detectie, cyberbeveiliging, beveiliging
+keywords: Microsoft Defender voor eindpunten, eindpuntdetectie en -reactie, antwoord, detectie, cyberbeveiliging, beveiliging
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 138a6afde9e8c601fd41811928580644b85bf2e2
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: b00bef611a3e4b33bf15a5366b09a96f68d4c1a2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861717"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933515"
 ---
 # <a name="overview-of-endpoint-detection-and-response"></a>Overzicht van eindpuntdetectie en -antwoord
 

@@ -1,7 +1,7 @@
 ---
 title: McAfee naar Microsoft Defender voor Eindpunt - Setup
 description: Dit is fase 2, Setup, voor het migreren van McAfee naar Microsoft Defender voor Eindpunt.
-keywords: migratie, windows defender advanced threat protection, atp, edr
+keywords: migratie, Microsoft Defender voor Eindpunt, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,20 +22,20 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: be39d64743979fe903193a388ce491523819f299
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 36dc50aa66df932703e50a5d2c57afb42871e5b1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185609"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933083"
 ---
 # <a name="migrate-from-mcafee---phase-2-set-up-microsoft-defender-for-endpoint"></a>Migreren van McAfee - Fase 2: Microsoft Defender instellen voor Eindpunt
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-|[![Fase 1: Voorbereiden](images/phase-diagrams/prepare.png)](mcafee-to-microsoft-defender-prepare.md)<br/>[Fase 1: Voorbereiden](mcafee-to-microsoft-defender-prepare.md) |![Fase 2: Instellen](images/phase-diagrams/setup.png)<br/>Fase 2: Instellen |[![Fase 3: Onboard](images/phase-diagrams/onboard.png)](mcafee-to-microsoft-defender-onboard.md)<br/>[Fase 3: Onboard](mcafee-to-microsoft-defender-onboard.md) |
+|[![Fase 1: Voorbereiden](images/phase-diagrams/prepare.png)](mcafee-to-microsoft-defender-prepare.md)<br/>[Fase 1: Voorbereiden](mcafee-to-microsoft-defender-prepare.md) |![Fase 2: Instellen](images/phase-diagrams/setup.png)<br/>Fase 2: Instellen |[![Fase 3: Onboarden](images/phase-diagrams/onboard.png)](mcafee-to-microsoft-defender-onboard.md)<br/>[Fase 3: Onboarden](mcafee-to-microsoft-defender-onboard.md) |
 |--|--|--|
 ||*U bent er!* | |
 

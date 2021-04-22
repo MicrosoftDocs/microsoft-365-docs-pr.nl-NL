@@ -2,7 +2,7 @@
 title: Microsoft Defender voor Eindpunt op Linux-resources
 ms.reviewer: ''
 description: Beschrijft bronnen voor Microsoft Defender voor Eindpunt op Linux, waaronder hoe u deze verwijdert, hoe u diagnostische logboeken, CLI-opdrachten en bekende problemen met het product verzamelt.
-keywords: microsoft, defender, atp, linux, installatie, implementeren, verwijderen, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: de2602bdc94507d27236b939553a6567b2587f36
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 176ee89c8d60a1515855296e2565f0649f908a33
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903140"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933323"
 ---
 # <a name="resources"></a>Resources
 
@@ -81,7 +81,7 @@ Het gedetailleerde logboek wordt opgeslagen in `/var/log/microsoft/mdatp_install
 
 ## <a name="uninstall"></a>Verwijderen
 
-Er zijn verschillende manieren om Defender voor Endpoint voor Linux te verwijderen. Als u een configuratiehulpmiddel zoals Poppenkast gebruikt, volgt u de instructies voor het verwijderen van het pakket voor het configuratieprogramma.
+Er zijn verschillende manieren om Defender voor Endpoint op Linux te verwijderen. Als u een configuratiehulpmiddel zoals Poppenkast gebruikt, volgt u de instructies voor het verwijderen van het pakket voor het configuratieprogramma.
 
 ### <a name="manual-uninstallation"></a>Handmatig verwijderen
 

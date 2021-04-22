@@ -1,7 +1,7 @@
 ---
 title: Nieuwe configuratieprofielen voor macOS Catalina en nieuwere versies van macOS
 description: In dit onderwerp worden de wijzigingen beschreven die moeten worden aangebracht om te profiteren van de systeemextensies, die een vervanging zijn voor kernelextensies op macOS Catalina en nieuwere versies van macOS.
-keywords: microsoft, defender, atp, mac, kernel, systeem, extensies, catalina
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, kernel, system, extensions, catalina
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: db24bea3bddc682eceda8e6ea3fe2749b6b2778f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 28a332cec68521741bdda62aeecd25440552344a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689123"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932737"
 ---
 # <a name="new-configuration-profiles-for-macos-catalina-and-newer-versions-of-macos"></a>Nieuwe configuratieprofielen voor macOS Catalina en nieuwere versies van macOS
 
@@ -179,7 +179,7 @@ Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controle
 De systeemextensies goedkeuren:
 
 1. Open in Intune   >  **Apparaatconfiguratie beheren.** Selecteer **Profielen beheren**  >  **Profiel**  >  **maken.**
-2. Kies een naam voor het profiel. **Platform=macOS wijzigen** in **Profieltype=Extensies**. Selecteer **Maken**. 
+2. Kies een naam voor het profiel. **Platform=macOS wijzigen** in **Profieltype=Extensies**. Selecteer **Maken**.
 3. Geef op `Basics` het tabblad een naam aan dit nieuwe profiel.
 4. Voeg op `Configuration settings` het tabblad de volgende vermeldingen toe in de `Allowed system extensions` sectie:
 
@@ -308,7 +308,7 @@ Dit aangepaste configuratieprofiel implementeren:
 1.  Open in Intune   >  **Apparaatconfiguratie beheren.** Selecteer **Profielen beheren**  >  **Profiel**  >  **maken.**
 2. Kies een naam voor het profiel. **Platform=macOS en** **Profieltype=Aangepast wijzigen.** Selecteer **Configureren**.
 3.  Open het configuratieprofiel en upload **sysext.xml.** Dit bestand is gemaakt in de vorige stap.
-4.  Kies **OK**.
+4.  Selecteer **OK**.
 
     ![Systeemextensie in schermafbeelding van Intune](images/mac-system-extension-intune.png)
 

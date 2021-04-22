@@ -14,13 +14,13 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Klanten van Microsoft Defender voor Office 365 E5 en ATP P1 en ATP P2 kunnen nu een 360-gradenweergave van elke e-mail met pagina met e-mailentiteit krijgen.
-ms.openlocfilehash: e96e83ce5e3af9e61599ab67ce9f91ac797cc6db
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+description: Klanten van Microsoft Defender voor Office 365 E5 en P1 en P2 kunnen nu een 360-gradenweergave krijgen van elke e-mail met e-mailentiteitspagina.
+ms.openlocfilehash: 8b531980852336679aad5f2013d63269c238e49c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768756"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933359"
 ---
 # <a name="the-email-entity-page"></a>Entiteitspagina van e-mail
 

@@ -16,12 +16,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over het Business Assist-programma en hoe het uw organisatie kan helpen met verbeterde hulp en gebruik voor Microsoft 365 voor Bedrijven.
-ms.openlocfilehash: 4531c841b4856e22b364906c180aa336cb8fd04a
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 767146cbbb68ff2e6632a7cae74a8b232834b01b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408523"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929026"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Bedrijfsassistent voor Microsoft 365
 
@@ -55,7 +55,7 @@ Alleen organisaties die in aanmerking komen, zien de optie om Business Assist te
 
 2. Selecteer **Details** over de **Small Business Assist voor Microsoft 365** en voltooi uw aankoop.
 
-:::image type="content" source="../../media/projectgenie-purchase services.png" alt-text="Screeenshot: Business Assist kopen via de sectie Invoegtoepassingen op de pagina Services aanschaffen":::
+:::image type="content" source="../../media/business-assist-april.png" alt-text="Screeenshot: Business Assist kopen via de sectie Invoegtoepassingen op de pagina Services aanschaffen":::
 
 > [!div class="nextstepaction"]
 > [Nu kopen](https://go.microsoft.com/fwlink/p/?linkid=2158423)

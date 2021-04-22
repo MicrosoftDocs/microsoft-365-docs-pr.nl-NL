@@ -1,7 +1,7 @@
 ---
 title: Privacy voor Microsoft Defender voor Eindpunt op Linux
 description: Privacybesturingselementen, het configureren van beleidsinstellingen die van invloed zijn op de privacy en informatie over de diagnostische gegevens die worden verzameld in Microsoft Defender voor Eindpunt op Linux.
-keywords: microsoft, defender, atp, linux, privacy, diagnostische
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, privacy, diagnostic
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 69af56efa57f389842ed31afa5f0a74667bd8f7b
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: cbf68b6ce8397f0339b374a041ba2629b20db699
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903248"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933335"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Privacy voor Microsoft Defender voor Eindpunt op Linux
 
@@ -33,13 +33,13 @@ ms.locfileid: "51903248"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Microsoft doet er alles aan om u de informatie en besturingselementen te bieden die u nodig hebt om keuzes te maken over hoe uw gegevens worden verzameld en gebruikt wanneer u Defender voor Eindpunt voor Linux gebruikt.
+Microsoft doet er alles aan om u de informatie en besturingselementen te bieden die u nodig hebt om keuzes te maken over hoe uw gegevens worden verzameld en gebruikt wanneer u Defender voor Eindpunt op Linux gebruikt.
 
 In dit onderwerp worden de privacybesturingselementen beschreven die beschikbaar zijn in het product, hoe u deze besturingselementen beheert met beleidsinstellingen en meer informatie over de gegevensgebeurtenissen die worden verzameld.
 
 ## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-on-linux"></a>Overzicht van privacybesturingselementen in Microsoft Defender voor Eindpunt op Linux
 
-In deze sectie worden de privacybesturingselementen beschreven voor de verschillende typen gegevens die door Defender voor Eindpunt voor Linux worden verzameld.
+In deze sectie worden de privacybesturingselementen beschreven voor de verschillende typen gegevens die door Defender voor Eindpunt op Linux worden verzameld.
 
 ### <a name="diagnostic-data"></a>Diagnostische gegevens
 
@@ -75,7 +75,7 @@ Er zijn drie niveaus voor het beheren van voorbeeldinzending:
 
 Als u een IT-beheerder bent, kunt u deze besturingselementen configureren op ondernemingsniveau. 
 
-De privacybesturingselementen voor de verschillende typen gegevens die in de vorige sectie worden beschreven, worden gedetailleerd beschreven in [Set preferences for Defender for Endpoint for Linux](linux-preferences.md).
+De privacybesturingselementen voor de verschillende typen gegevens die in de vorige sectie worden beschreven, worden gedetailleerd beschreven in [Set preferences for Defender for Endpoint on Linux](linux-preferences.md).
 
 Net als bij nieuwe beleidsinstellingen moet u deze zorgvuldig testen in een beperkte, gecontroleerde omgeving om ervoor te zorgen dat de instellingen die u configureert het gewenste effect hebben voordat u de beleidsinstellingen breder implementeert in uw organisatie.
 
@@ -96,7 +96,7 @@ De volgende velden worden algemeen beschouwd voor alle gebeurtenissen:
 | org_id                  | Unieke id die is gekoppeld aan de onderneming waar het apparaat deel van uitmaken. Hiermee kan Microsoft bepalen of problemen van invloed zijn op een selecte set ondernemingen en hoeveel ondernemingen van invloed zijn. |
 | hostnaam                | Naam van lokaal apparaat (zonder DNS-achtervoegsel). Hiermee kan Microsoft bepalen of problemen van invloed zijn op een selecte set installaties en hoeveel gebruikers van invloed zijn. |
 | product_guid            | Unieke id van het product. Hiermee kan Microsoft onderscheid maken tussen problemen die van invloed zijn op verschillende smaken van het product. |
-| app_version             | Versie van de Defender voor Endpoint voor Linux-toepassing. Hiermee kan Microsoft bepalen welke versies van het product een probleem laten zien, zodat het correct kan worden geprioriteerd.|
+| app_version             | Versie van de Defender voor Eindpunt op Linux-toepassing. Hiermee kan Microsoft bepalen welke versies van het product een probleem laten zien, zodat het correct kan worden geprioriteerd.|
 | sig_version             | Versie van beveiligingsinformatiedatabase. Hiermee kan Microsoft bepalen welke versies van de beveiligingsintelligentie een probleem laten zien, zodat deze correct kan worden geprioriteerd. |
 | supported_compressions  | Lijst met compressiealgoritmen die door de toepassing worden ondersteund, `['gzip']` bijvoorbeeld. Hiermee kan Microsoft begrijpen welke typen compressies kunnen worden gebruikt wanneer het communiceert met de toepassing. |
 | release_ring            | Bel waar het apparaat aan is gekoppeld (bijvoorbeeld Insider Fast, Insider Slow, Productie). Hiermee kan Microsoft bepalen op welke releasering een probleem kan optreden, zodat deze correct kan worden geprioriteerd. |
@@ -163,7 +163,7 @@ De volgende velden worden verzameld:
 
 | Veld            | Beschrijving |
 | ---------------- | ----------- |
-| Versie          | Versie van Defender voor Eindpunt voor Linux. |
+| Versie          | Versie van Defender voor Eindpunt op Linux. |
 | instance_id      | Unieke id gegenereerd bij opstarten van kernelextensie. |
 | trace_level      | Het niveau van de kernelextensie traceren. |
 | subsysteem        | Het onderliggende subsysteem dat wordt gebruikt voor realtime beveiliging. |
@@ -178,7 +178,7 @@ De volgende velden worden verzameld:
 Diagnostische logboeken worden alleen verzameld met toestemming van de gebruiker als onderdeel van de functie voor het indienen van feedback. De volgende bestanden worden verzameld als onderdeel van de ondersteuningslogboeken:
 
 - Alle bestanden onder */var/log/microsoft/mdatp*
-- Subset van bestanden onder */etc/opt/microsoft/mdatp* die worden gemaakt en gebruikt door Defender voor Eindpunt voor Linux
+- Subset van bestanden onder */etc/opt/microsoft/mdatp* die worden gemaakt en gebruikt door Defender voor Eindpunt op Linux
 - Productinstallatie- en verwijderingslogboeken onder */var/log/microsoft_mdatp_ \* .log*
 
 ### <a name="optional-diagnostic-data"></a>Optionele diagnostische gegevens

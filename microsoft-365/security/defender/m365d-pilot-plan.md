@@ -1,7 +1,7 @@
 ---
 title: Uw testproject voor Microsoft 365 Defender plannen
 description: Plan uw pilot Microsoft 365 Defender-project met belanghebbenden om verwachtingen te beheren en een succesvol resultaat te garanderen.
-keywords: Microsoft Threat Protection pilot, plan pilot Microsoft Threat Protection project, evaluate Microsoft Threat Protection in production, Microsoft Threat Protection pilot project, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
+keywords: Microsoft 365 Defender pilot, plan pilot Microsoft 365 Defender project, evalueren Microsoft 365 Defender in productie, Microsoft 365 Defender pilot project, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: aee508414b2388b04ab362eedb1f894a4c3d54fd
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 98f0c91a51cc2b73cc26e6fb53143a417a7a147e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057981"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932545"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>Uw testproject voor Microsoft 365 Defender plannen 
 

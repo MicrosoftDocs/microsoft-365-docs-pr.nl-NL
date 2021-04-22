@@ -1,7 +1,7 @@
 ---
 title: Alle beveiligingslekken per computer en software krijgen
 description: Hiermee wordt een lijst opgehaald met alle beveiligingslekken die van invloed zijn op de organisatie door Machine en Software
-keywords: api's, graph api, ondersteunde api's, get, vulnerability information, mdatp tvm api
+keywords: api's, graph api, ondersteunde api's, get, vulnerability information, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,19 +15,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f7d67948e3b3e7a1a878386a397d2f4a6e8e998e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 229c1f9e77a0cb85744155e82934b48dd63052b2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166589"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933407"
 ---
-# <a name="list-vulnerabilities-by-machine-and-software"></a>Beveiligingsproblemen per computer en software op een lijst zetten
+# <a name="list-vulnerabilities-by-machine-and-software"></a>Lijst van beveiligingsproblemen per computer en software
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 

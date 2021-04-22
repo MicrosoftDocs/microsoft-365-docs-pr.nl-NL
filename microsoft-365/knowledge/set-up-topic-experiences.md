@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het instellen van Microsoft Viva-onderwerpen
-ms.openlocfilehash: 629008e083d71e09632b05e21eaefb011d7d9ce2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19395cf3a9ecc991f08f375425803cb81a2a1d35
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929442"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930219"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva-onderwerpen instellen
 
@@ -36,6 +36,27 @@ In deze video ziet u het proces voor het instellen van Onderwerpen in Microsoft 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
 
 <br>
+
+## <a name="assign-licenses"></a>Licenties toewijzen
+
+U moet licenties toewijzen aan de gebruikers die Onderwerpen gebruiken. Alleen gebruikers met een licentie kunnen informatie zien over onderwerpen zoals highlights, onderwerpkaarten, onderwerppagina's en het onderwerpcentrum. 
+
+Licenties toewijzen:
+
+1. Klik in het Microsoft 365-beheercentrum onder **Gebruikers** op **Actieve gebruikers**.
+
+2. Selecteer de gebruikers die u een licentie wilt geven en klik op **Licenties en apps.**
+
+3. Selecteer **onder Licenties** de optie **Viva-onderwerpen.**
+
+4. Zorg **er onder Apps** voor dat Graph **Connectors Search with Index (Viva Topics)** en **Viva Topics** beide zijn geselecteerd.
+
+   > [!div class="mx-imgBorder"]
+   > ![Microsoft Viva Topics-licenties in het Microsoft 365-beheercentrum](../media/topic-experiences-licenses.png)
+
+5. Klik op **Wijzigingen opslaan**.
+
+Het kan tot een uur duren voordat gebruikers toegang hebben tot Onderwerpen nadat de licenties zijn toegewezen.
 
 ## <a name="set-up-topics"></a>Onderwerpen instellen
 
@@ -124,25 +145,6 @@ Onderwerpen instellen
     ![Toegepaste instellingen](../media/ksetup7.png)    
 
 De eerste keer dat onderwerpdetectie is ingeschakeld, kan het maximaal twee weken duren voordat alle voorgestelde onderwerpen worden weergegeven in de weergave Onderwerpen beheren. Onderwerpdetectie wordt voortgezet wanneer er nieuwe inhoud of updates voor inhoud worden aangebracht. Het is normaal dat er fluctuaties zijn in het aantal voorgestelde onderwerpen in uw organisatie, aangezien Viva Topics nieuwe informatie evalueert.
-
-## <a name="assign-licenses"></a>Licenties toewijzen
-
-Nadat u de onderwerpervaringen hebt geconfigureerd, moet u licenties toewijzen aan de gebruikers die Onderwerpen gebruiken. Alleen gebruikers met een licentie kunnen informatie zien over onderwerpen zoals highlights, onderwerpkaarten, onderwerppagina's en het onderwerpcentrum. 
-
-Licenties toewijzen:
-
-1. Klik in het Microsoft 365-beheercentrum onder **Gebruikers** op **Actieve gebruikers**.
-
-2. Selecteer de gebruikers die u een licentie wilt geven en klik op **Licenties en apps.**
-
-3. Selecteer **onder Licenties** de optie **Viva-onderwerpen.**
-
-4. Zorg **er onder Apps** voor dat Graph **Connectors Search with Index (Viva Topics)** en **Viva Topics** beide zijn geselecteerd.
-
-   > [!div class="mx-imgBorder"]
-   > ![Microsoft Viva Topics-licenties in het Microsoft 365-beheercentrum](../media/topic-experiences-licenses.png)
-
-5. Klik op **Wijzigingen opslaan**.
 
 ## <a name="manage-topic-experiences"></a>Onderwerpervaringen beheren
 

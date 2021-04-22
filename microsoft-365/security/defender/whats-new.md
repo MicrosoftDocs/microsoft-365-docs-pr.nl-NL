@@ -1,7 +1,7 @@
 ---
 title: Wat is er nieuw in Microsoft 365 Defender
 description: Bevat de nieuwe functies en functionaliteit in Microsoft 365 Defender
-keywords: wat is er nieuw in microsoft threat protection, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuwe
+keywords: wat er nieuw is in Microsoft 365 Defender, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: e75cfe445f62860f8bdb1480fcf9029daa8ac6ea
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9f4cc36172b0ac598b2719bee8ce56bf0f8a1b84
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060382"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933383"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [het project evalueren in een labomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of uw [pilotproject uitvoeren in productie.](m365d-pilot.md?ocid=cx-evalpilot)
+> Wilt u Microsoft 365 Defender ervaren? U kunt het [evalueren in een testomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of [uw pilotproject uitvoeren in een productieomgeving](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
 De volgende functies zijn over het algemeen beschikbaar (GA) in de nieuwste versie van Microsoft 365 Defender.

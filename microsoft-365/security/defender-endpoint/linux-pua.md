@@ -1,7 +1,7 @@
 ---
 title: Potentieel ongewenste toepassingen detecteren en blokkeren met Microsoft Defender voor Eindpunt op Linux
 description: Detecteer en blokkeer potentieel ongewenste toepassingen (PUA) met Microsoft Defender voor Eindpunt op Linux.
-keywords: microsoft, defender, atp, linux, pua, pus
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, pua, pus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9631fc2eb1cb791f48f107482474d1bb8e2fd62b
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 7ec3399129cc65d75b464f5d5f56bb11250ccaf2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903856"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933155"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-on-linux"></a>Potentieel ongewenste toepassingen detecteren en blokkeren met Microsoft Defender voor Eindpunt op Linux
 
@@ -35,7 +35,7 @@ ms.locfileid: "51903856"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-De mogelijk ongewenste beveiligingsfunctie voor toepassingen (PUA) in Defender voor Eindpunt voor Linux kan PUA-bestanden op eindpunten in uw netwerk detecteren en blokkeren.
+De potentieel ongewenste beveiligingsfunctie voor toepassingen (PUA) in Defender for Endpoint op Linux kan PUA-bestanden op eindpunten in uw netwerk detecteren en blokkeren.
 
 Deze toepassingen worden niet beschouwd als virussen, malware of andere soorten bedreigingen, maar kunnen acties uitvoeren op eindpunten die de prestaties of het gebruik ervan nadelig beïnvloeden. PUA kan ook verwijzen naar toepassingen die worden beschouwd als een slechte reputatie.
 
@@ -43,13 +43,13 @@ Deze toepassingen kunnen het risico vergroten dat uw netwerk wordt geïnfecteerd
 
 ## <a name="how-it-works"></a>Hoe het werkt
 
-Defender voor Eindpunt voor Linux kan PUA-bestanden detecteren en rapporteren. Wanneer het bestand is geconfigureerd in de blokkeringsmodus, worden PUA-bestanden verplaatst naar de quarantaine.
+Defender for Endpoint op Linux kan PUA-bestanden detecteren en rapporteren. Wanneer het bestand is geconfigureerd in de blokkeringsmodus, worden PUA-bestanden verplaatst naar de quarantaine.
 
-Wanneer een PUA wordt gedetecteerd op een eindpunt, houdt Defender voor Endpoint voor Linux een record bij van de infectie in de bedreigingsgeschiedenis. De geschiedenis kan worden gevisualiseerd vanuit de Microsoft Defender-beveiligingscentrumportal of via het `mdatp` opdrachtregelprogramma. De bedreigingsnaam bevat het woord 'Toepassing'.
+Wanneer een PUA wordt gedetecteerd op een eindpunt, houdt Defender voor Eindpunt op Linux een record bij van de infectie in de bedreigingsgeschiedenis. De geschiedenis kan worden gevisualiseerd vanuit de Microsoft Defender-beveiligingscentrumportal of via het `mdatp` opdrachtregelprogramma. De bedreigingsnaam bevat het woord 'Toepassing'.
 
 ## <a name="configure-pua-protection"></a>PUA-beveiliging configureren
 
-PUA-beveiliging in Defender voor Endpoint voor Linux kan op een van de volgende manieren worden geconfigureerd:
+PUA-beveiliging in Defender voor Endpoint op Linux kan op een van de volgende manieren worden geconfigureerd:
 
 - **Uit:** PUA-beveiliging is uitgeschakeld.
 - **Audit:** PUA-bestanden worden gerapporteerd in de productlogboeken, maar niet in het Microsoft Defender-beveiligingscentrum. Er wordt geen record van de infectie opgeslagen in de bedreigingsgeschiedenis en er wordt geen actie ondernomen door het product.
@@ -70,8 +70,8 @@ mdatp threat policy set --type potentially_unwanted_application --action [off|au
 
 ### <a name="use-the-management-console-to-configure-pua-protection"></a>Gebruik de beheerconsole om PUA-beveiliging te configureren:
 
-In uw bedrijf kunt u PUA-beveiliging configureren vanuit een beheerconsole, zoals Poppenkast of Ansible, net zoals andere productinstellingen zijn geconfigureerd. Zie de sectie Instellingen voor [bedreigingstype](linux-preferences.md#threat-type-settings) van het artikel Voorkeuren instellen voor [Defender voor eindpunt voor Linux voor meer](linux-preferences.md) informatie.
+In uw bedrijf kunt u PUA-beveiliging configureren vanuit een beheerconsole, zoals Poppenkast of Ansible, net zoals andere productinstellingen zijn geconfigureerd. Zie de sectie Instellingen voor [bedreigingstype](linux-preferences.md#threat-type-settings) van het artikel Voorkeuren instellen voor [Defender voor eindpunt op Linux voor](linux-preferences.md) meer informatie.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Voorkeuren instellen voor Defender voor Eindpunt voor Linux](linux-preferences.md)
+- [Voorkeuren instellen voor Defender voor Endpoint op Linux](linux-preferences.md)

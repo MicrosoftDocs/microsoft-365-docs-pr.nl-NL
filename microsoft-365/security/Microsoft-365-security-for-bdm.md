@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: de meest voorkomende bedreigings- en aanvalsscenario's die momenteel worden geconfronteerd door organisaties voor hun Microsoft 365-omgevingen en aanbevolen acties om deze risico's te beperken.
-ms.openlocfilehash: 504a2d4628c265b387941e2e4de0461f7ac3be9b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 056e1e64a992f12f3bf9a4b76c29f723ac1b5f3a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199039"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930171"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 Security for Business Decision Makers (BDMs)
 
@@ -29,7 +29,7 @@ Dit artikel wordt ingedeeld op prioriteit van het werk, te beginnen met het beve
 
 [![Duimafbeelding Microsoft 365 BDM-beveiligingsaanbevelingen spreadsheet](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
-Microsoft biedt u het hulpprogramma Secure Score binnen uw tenant om uw beveiligingsbeleid automatisch te analyseren op basis van uw normale activiteiten, een score toe te wijzen en aanbevelingen voor beveiligingsverbetering te geven. Voordat u de acties ondernomen die in dit artikel worden aanbevolen, noteert u uw huidige score en aanbevelingen. De acties die in dit artikel worden aanbevolen, verhogen de score. Het doel is niet om de maximale score te behalen, maar om rekening te houden met mogelijkheden om uw omgeving te beschermen op een manier die de productiviteit van uw gebruikers niet negatief beïnvloedt. Zie [Microsoft Secure Score](defender/microsoft-secure-score.md).
+Microsoft biedt u het hulpprogramma Secure Score binnen uw tenant om uw beveiligingsbeleid automatisch te analyseren op basis van uw normale activiteiten, een score toe te wijzen en aanbevelingen voor beveiligingsverbetering te geven. Voordat u de acties ondernomen die in dit artikel worden aanbevolen, noteert u uw huidige score en aanbevelingen. De acties die in dit artikel worden aanbevolen, verhogen de score. Het doel is niet om de maximale score te behalen, maar om rekening te houden met de mogelijkheden om uw omgeving te beschermen op een manier die de productiviteit van uw gebruikers niet negatief beïnvloedt. Zie [Microsoft Secure Score](defender/microsoft-secure-score.md).
 
 ![Volg deze stappen om de risico's voor uw bedrijf te beperken.](../media/security/security-for-bdms-overview.png)
 
@@ -50,7 +50,7 @@ Het volgende diagram illustreert deze mogelijkheden.
 ![Aanbevolen mogelijkheden voor het beveiligen van bevoorrechte accounts](../media/m365-security-bdm-illustrations-privileged-accounts.png)
 
 Aanvullende aanbevelingen:
-- Zorg ervoor dat accounts die worden gesynchroniseerd vanuit on-premises, geen beheerdersrollen voor cloudservices zijn toegewezen. Dit helpt voorkomen dat een aanvaller on-premises accounts gebruikt om beheerderstoegang tot cloudservices te krijgen. 
+- Zorg ervoor dat accounts die worden gesynchroniseerd vanuit on-premises, geen beheerdersrollen voor cloudservices zijn toegewezen. Dit helpt voorkomen dat een aanvaller on-premises accounts kan toepassen om beheerderstoegang tot cloudservices te krijgen. 
 - Zorg ervoor dat serviceaccounts geen beheerdersrollen zijn toegewezen. Deze accounts worden vaak niet gecontroleerd en ingesteld met wachtwoorden die niet verlopen. Zorg er eerst voor dat de AADConnect- en ADFS-servicesaccounts standaard geen globale beheerders zijn.
 - Licenties verwijderen uit beheerdersaccounts. Tenzij er een specifieke use case is voor het toewijzen van licenties aan specifieke beheerdersaccounts, verwijdert u licenties van deze accounts. 
 
@@ -82,12 +82,12 @@ Het volgende diagram illustreert deze mogelijkheden.
 
 ## <a name="protect-against-unknown-threats"></a>Beschermen tegen onbekende bedreigingen
 
-Nadat u extra beveiligingen hebt toegevoegd aan uw bevoorrechte accounts en u hebt beschermd tegen bekende aanvallen, verplaatst u uw aandacht naar beveiliging tegen onbekende bedreigingen. De meer bepaalde en geavanceerdere tegenstanders gebruiken innovatieve en nieuwe, onbekende methoden om organisaties aan te vallen. Met de uitgebreide telemetrie van Microsoft met gegevens die meer dan een miljard apparaten, toepassingen en services zijn verzameld, kunnen we Defender voor Office 365 uitvoeren in Windows, Office 365 en Azure om zero day-aanvallen te voorkomen, gebruik te maken van zandbakomgevingen en validiteit te controleren voordat u toegang tot uw inhoud toestaat. 
+Nadat u extra beveiligingen hebt toegevoegd aan uw bevoorrechte accounts en u hebt beschermd tegen bekende aanvallen, verplaatst u uw aandacht naar beveiliging tegen onbekende bedreigingen. De meer bepaalde en geavanceerdere tegenstanders gebruiken innovatieve en nieuwe, onbekende methoden om organisaties aan te vallen. Met de uitgebreide telemetrie van Microsoft met gegevens die meer dan een miljard apparaten, toepassingen en services zijn verzameld, kunnen we Defender voor Office 365 uitvoeren in Windows, Office 365 en Azure om te voorkomen dat Zero-Day-aanvallen worden uitgevoerd, gebruik te maken van zandbakomgevingen en validiteit te controleren voordat u toegang tot uw inhoud toestaat. 
 
 
 |Aanbeveling  |E3  |E5  |
 |---------|---------|---------|
-|**Microsoft Defender configureren voor Office 365:**<br>* Veilige bijlagen<br>* Veilige koppelingen<br>* ATP voor SharePoint, OneDrive en Microsoft Teams<br>* Anti-phishing in Defender voor Office 365-beveiliging|         |![groen vinkje](../media/green-check-mark.png) |
+|**Microsoft Defender configureren voor Office 365:**<br>* Veilige bijlagen<br>* Veilige koppelingen<br>* Microsoft Defender voor Eindpunt voor SharePoint, OneDrive en Microsoft Teams<br>* Anti-phishing in Defender voor Office 365-beveiliging|         |![groen vinkje](../media/green-check-mark.png) |
 |**Microsoft Defender configureren voor endpoint-mogelijkheden:**<br>* Windows Defender Antivirus <br>* Bescherming tegen misbruik <br> * Surface Reduction attack <br> * Isolatie op basis van hardware <br>* Gecontroleerde maptoegang     |         |![groen vinkje](../media/green-check-mark.png) |
 |**Gebruik Microsoft Cloud App Security om** SaaS-apps te ontdekken en gebruik te maken van gedragsanalyse en afwijkingsdetectie. |         |![groen vinkje](../media/green-check-mark.png) |
 
@@ -97,10 +97,10 @@ Het volgende diagram illustreert deze mogelijkheden.
 Aanvullende aanbevelingen:
 - Communicatie via partnerkanaal beveiligen, zoals E-mailberichten met TLS.
 - Open Teams Federation alleen voor Partners met wie u communiceert.
-- Voeg geen afzenderdomeinen, afzonderlijke afzenders of bron-IP's toe aan uw lijst met toegestane e-mail, omdat hierdoor spam- en malwarecontroles kunnen worden overgeslagen. Een veelgebruikte gewoonte bij klanten is het toevoegen van hun eigen geaccepteerde domeinen of een aantal andere domeinen waar e-mailstroomproblemen zijn gerapporteerd aan de lijst met toegestane e-mail. Voeg geen domeinen toe aan de lijst Spam- en Verbindingsfilters, omdat hierdoor mogelijk alle spamcontroles worden overgeslagen. 
+- Voeg geen afzenderdomeinen, afzonderlijke afzenders of bron-IP's toe aan uw allowlist, omdat hierdoor spam- en malwarecontroles kunnen worden overgeslagen. Een veelgebruikte gewoonte bij klanten is het toevoegen van hun eigen geaccepteerde domeinen of een aantal andere domeinen waarbij e-mailstroomproblemen mogelijk zijn gerapporteerd aan de allowlist. Voeg geen domeinen toe aan de lijst Spam- en Verbindingsfilters, omdat hierdoor mogelijk alle spamcontroles worden overgeslagen. 
 - Uitgaande spammeldingen inschakelen: schakel uitgaande spammeldingen intern in voor een distributielijst bij de Helpdesk of it-beheerder om te rapporteren of een van de interne gebruikers spamberichten extern verstuurt. Dit kan een indicator zijn dat het account is gecompromitteerd.
 - Externe PowerShell uitschakelen voor alle gebruikers: Externe PowerShell wordt voornamelijk gebruikt door beheerders voor toegang tot services voor beheerdoeleinden of programmatische API-toegang. We raden u aan deze optie uit te uitschakelen voor niet-beheerders om verkenning te voorkomen, tenzij ze een zakelijke vereiste hebben om toegang te krijgen tot deze optie. 
-- Toegang tot de Microsoft Azure Management-portal blokkeren voor alle niet-beheerders. U kunt dit doen door een regel voor voorwaardelijke toegang te maken om alle gebruikers te blokkeren, met uitzondering van beheerders. 
+- Toegang tot de Microsoft Azure Management-portal blokkeren voor alle niet-beheerders. U kunt dit doen door een regel voor voorwaardelijke toegang te maken om alle gebruikers te blokkeren, behalve voor beheerders. 
 
 
 ## <a name="assume-breach"></a>Ga ervan uit dat inbreuk wordt aangenomen
@@ -109,14 +109,14 @@ Hoewel Microsoft alle mogelijke maatregelen neemt om bedreigingen en aanvallen t
 
 De 'Assume Breach'-denkrichting vereist de implementatie van een zero trust-netwerkstrategie, wat betekent dat gebruikers niet volledig vertrouwd zijn, alleen omdat ze intern in het netwerk zijn. In plaats daarvan worden, als onderdeel van de autorisatie van wat gebruikers kunnen doen, sets met voorwaarden opgegeven en wanneer aan dergelijke voorwaarden wordt voldaan, worden bepaalde besturingselementen afgedwongen. Voorwaarden kunnen de status van apparaatstatus, toegang tot toepassingen, uitgevoerde bewerkingen en gebruikersrisico's zijn. Een actie voor het registreren van apparaten moet bijvoorbeeld altijd MFA-verificatie activeren om ervoor te zorgen dat er geen apparaten worden toegevoegd aan uw omgeving. 
 
-Voor een zero trust-netwerkstrategie moet u ook weten waar uw gegevens worden opgeslagen en moet u de juiste besturingselementen toepassen voor classificatie, beveiliging en bewaring. Als u uw meest kritieke en gevoelige activa effectief wilt beschermen, moet u eerst vaststellen waar deze zich bevinden en inventaris maken, wat lastig kan zijn. Werk vervolgens samen met uw organisatie om een beheerstrategie te definiëren. Het definiëren van een classificatieschema voor een organisatie en het configureren van beleid, etiketten en voorwaarden vereist een zorgvuldige planning en voorbereiding. Het is belangrijk om te beseffen dat dit geen IT-gestuurd proces is. Zorg ervoor dat u samen met uw juridische en complianceteam een passend classificatie- en labelschema voor de gegevens van uw organisatie ontwikkelt.
+Voor een zero trust-netwerkstrategie moet u ook weten waar uw gegevens worden opgeslagen en moet u de juiste besturingselementen toepassen voor classificatie, beveiliging en bewaring. Als u uw meest kritieke en gevoelige activa effectief wilt beschermen, moet u eerst vaststellen waar deze zich bevinden en inventaris maken, wat lastig kan zijn. Werk vervolgens samen met uw organisatie om een beheerstrategie te definiëren. Het definiëren van een classificatieschema voor een organisatie en het configureren van beleid, etiketten en voorwaarden vereisen een zorgvuldige planning en voorbereiding. Het is belangrijk om te beseffen dat dit geen IT-gestuurd proces is. Zorg ervoor dat u samen met uw juridische en complianceteam een passend classificatie- en labelschema voor de gegevens van uw organisatie ontwikkelt.
 
 Met microsoft 365-informatiebeveiligingsfuncties kunt u ontdekken welke gegevens u hebt, waar deze worden opgeslagen en welke informatie aanvullende beveiliging vereist. Informatiebeveiliging is een doorlopend proces en microsoft 365-mogelijkheden bieden u inzicht in de manier waarop gebruikers gevoelige informatie gebruiken en distribueren, waar uw gegevens momenteel worden opgeslagen en waar deze stromen. U kunt ook zien hoe gebruikers omgaan met informatie die is geregeld om er zeker van te zijn dat de juiste etiketten en beveiligingen worden toegepast.
 
 
 |Aanbeveling |E3|E5 |
 |---------|---------|---------|
-|**Controleer en optimaliseer uw voorwaardelijke toegang en gerelateerde beleidsregels** om af te stemmen op uw doelstellingen voor een zero trust-netwerk. Bescherming tegen bekende bedreigingen omvat het implementeren van een reeks [aanbevolen beleidsregels.](./office-365-security/microsoft-365-policies-configurations.md) Controleer de implementatie van dit beleid om ervoor te zorgen dat u uw apps en gegevens beschermt tegen hackers die toegang hebben gekregen tot uw netwerk. Houd er rekening mee dat Windows Information Protection (WIP) is mogelijk met het aanbevolen intune-appbeveiligingsbeleid voor Windows 10. WIP beschermt tegen onbedoelde lekken van uw organisatiegegevens via apps en services, zoals e-mail, sociale media en de openbare cloud. |         |![groen vinkje](../media/green-check-mark.png)|
+|**Controleer en optimaliseer uw voorwaardelijke toegang en gerelateerde beleidsregels** om af te stemmen op uw doelstellingen voor een zero trust-netwerk. Bescherming tegen bekende bedreigingen omvat het implementeren van een reeks [aanbevolen beleidsregels.](./office-365-security/microsoft-365-policies-configurations.md) Controleer de implementatie van dit beleid om ervoor te zorgen dat u uw apps en gegevens beschermt tegen hackers die toegang hebben gekregen tot uw netwerk. Met het aanbevolen Intune-appbeveiligingsbeleid voor Windows 10 kunt u Windows Information Protection (WIP) in. WIP beschermt tegen onbedoelde lekken van uw organisatiegegevens via apps en services, zoals e-mail, sociale media en de openbare cloud. |         |![groen vinkje](../media/green-check-mark.png)|
 |**Externe e-mail doorsturen uitschakelen.** Hackers die toegang krijgen tot het postvak van een gebruiker, kunnen uw e-mail stelen door het postvak in te stellen om e-mail automatisch door te sturen. Dit kan zelfs gebeuren zonder dat de gebruiker dit weet. U kunt dit voorkomen door een e-mailstroomregel te configureren.|![groen vinkje](../media/green-check-mark.png) |![groen vinkje](../media/green-check-mark.png)|
 |**Anonieme delen van externe agenda's uitschakelen.** Het delen van externe anonieme agenda's is standaard toegestaan. [Het delen van agenda's](/exchange/sharing/sharing-policies/modify-a-sharing-policy) uitschakelen om mogelijke lekken van gevoelige informatie te beperken.|![groen vinkje](../media/green-check-mark.png) |![groen vinkje](../media/green-check-mark.png)|
 |**Beleid voor preventie van gegevensverlies configureren voor gevoelige gegevens.** Maak een preventiebeleid voor gegevensverlies in het Beveiligings compliancecentrum om gevoelige gegevens te ontdekken en te &amp; beveiligen, zoals creditcardnummers, socialezekerheidsnummers en bankrekeningnummers. Microsoft 365 bevat veel vooraf gedefinieerde typen gevoelige informatie die u kunt gebruiken in beleid voor preventie van gegevensverlies. U kunt ook uw eigen typen gevoelige informatie maken voor gevoelige gegevens die zijn aangepast aan uw omgeving. |![groen vinkje](../media/green-check-mark.png)|![groen vinkje](../media/green-check-mark.png)|

@@ -1,7 +1,7 @@
 ---
 title: Werken met geavanceerde resultaten van query's in Microsoft 365 Defender
 description: Maak gebruik van de queryresultaten die worden geretourneerd door geavanceerd zoeken in Microsoft 365 Defender
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, custom detections, schema, kusto, microsoft 365, Microsoft Threat Protection, visualisatie, grafiek, filters, drill-down
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, custom detections, schema, kusto, visualisatie, chart, filters, drill-down
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7086108febc25c4ecaaa3015c1d9a49f9d8ee642
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 34880c870cdf398ab1565f7f532ac95a6fde475d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500920"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932927"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Werken met geavanceerde resultaten van query's
 
@@ -47,7 +47,7 @@ Hoewel u geavanceerde [](advanced-hunting-overview.md) zoekquery's kunt maken om
 ## <a name="view-query-results-as-a-table-or-chart"></a>Queryresultaten weergeven als een tabel of grafiek
 Standaard worden queryresultaten in geavanceerde query's weergegeven als tabelgegevens. U kunt ook dezelfde gegevens als een grafiek weergeven. Geavanceerde jacht ondersteunt de volgende weergaven:
 
-| Weergavetype | Omschrijving |
+| Weergavetype | Beschrijving |
 | -- | -- |
 | **Tabel** | Geeft de queryresultaten weer in tabelvorm |
 | **Kolomdiagram** | Geeft een reeks unieke items op de x-as weer als verticale balken waarvan de hoogten numerieke waarden uit een ander veld vertegenwoordigen |

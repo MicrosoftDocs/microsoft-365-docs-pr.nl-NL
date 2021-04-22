@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Eindpunt beheren met Configuration Manager
 description: Meer informatie over het beheren van Microsoft Defender voor Eindpunt met Configuration Manager
-keywords: post-migration, manage, operations, maintenance, utilization, Configuration Manager, windows defender advanced threat protection, atp, edr
+keywords: post-migration, manage, operations, maintenance, utilization, Configuration Manager, Microsoft Defender for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,19 +20,19 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: bd6b6bd2721b686ab10922d09a9e94b9ebcce522
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 0cd52388feb987b4231d911cd3c3fd10babba017
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185646"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933203"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-configuration-manager"></a>Microsoft Defender voor eindpunt beheren met Configuration Manager
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
