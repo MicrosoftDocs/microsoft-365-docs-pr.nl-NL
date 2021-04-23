@@ -2,7 +2,7 @@
 title: Hoogste score in branchetests - Microsoft 365 Defender
 ms.reviewer: ''
 description: Bekijk de nieuwste scores en analyses van Microsoft 365 Defender. Het haalt steeds hoge scores bij onafhankelijke tests (AV-TEST, AV Comparatives, SE Labs, MITRE ATT&CK). Bekijk de nieuwste scores en analyses.
-keywords: Microsoft Defender Antivirus, Windows Defender Antivirus, av-beoordelingen, antivirustest, av-test, nieuwste av-scores, detectiescores, beveiligingsproducttest, beveiligingsbranchetests, antivirusbranchetest, beste antivirus, av-test, av-comparatives, SE-labs, MITRE ATT&CK, platform voor beveiliging van eindpunten, EPP, eindpuntdetectie en -reactie, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, Microsoft Threat Protection, beveiliging, malware, av, antivirus, scores, score, beveiliging van volgende generatie, classificatie, succes
+keywords: Microsoft Defender Antivirus, Windows Defender Antivirus, av-beoordelingen, antivirustest, av-test, nieuwste av-scores, detectiescores, beveiligingsproducttest, beveiligingsbranchetests, antivirusbranchetest, beste antivirus, av-test, av-comparatives, SE-labs, MITRE ATT&CK, platform voor beveiliging van eindpunten, EPP, eindpuntdetectie en -reactie, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, Microsoft Defender voor Eindpunt, Microsoft 365 Defender, beveiliging, malware, av, antivirus, scores, score, beveiliging van volgende generatie, classificatie, succes
 ms.prod: m365-security
 ms.mktglfcycl: secure
 ms.sitesec: library
@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 1f649af2ca6089d1366cc6e080a430a6a00fc300
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: a49fb83f9186541094910ec8842a09b5121ffb5b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569857"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934391"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Hoogste score in branchetests
 
