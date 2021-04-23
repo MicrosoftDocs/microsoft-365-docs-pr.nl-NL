@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 104ef919d356642985e7b34d16650c27a8141e86
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 464a99ca67da72633879840263fe64ad8311fd4c
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615097"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952570"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -50,6 +50,8 @@ Als uw organisatie unieke omgevingsvereisten of complexiteiten heeft, gebruikt u
 
 Bekijk deze video voor een kort overzicht van identiteits- en apparaattoegangsconfiguraties voor Microsoft 365 voor bedrijven.
 
+<br>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxEDQ]
 
 > [!NOTE]
@@ -57,13 +59,13 @@ Bekijk deze video voor een kort overzicht van identiteits- en apparaattoegangsco
 
 ## <a name="intended-audience"></a>Beoogde doelgroep
 
-Deze aanbevelingen zijn bedoeld voor ondernemingsarchitecten en IT-professionals die bekend zijn met microsoft 365 cloudproductiviteits- en beveiligingsservices, waaronder Azure AD (identiteit), Microsoft Intune (apparaatbeheer) en Azure Information Protection (gegevensbescherming).
+Deze aanbevelingen zijn bedoeld voor ondernemingsarchitecten en IT-professionals die bekend zijn met microsoft 365 cloudproductiviteits- en beveiligingsservices, waaronder Azure AD (identiteit), Microsoft Intune (apparaatbeheer) en Microsoft Information Protection (gegevensbescherming).
 
 ### <a name="customer-environment"></a>Klantomgeving
 
 Het aanbevolen beleid is van toepassing op ondernemingsorganisaties die zowel volledig in de Microsoft-cloud als voor klanten met een hybride identiteitsinfrastructuur werken. Dit is een on-premises AD DS-forest (Active Directory Domain Services) dat wordt gesynchroniseerd met een Azure AD-tenant.
 
-Veel van de geleverde aanbevelingen zijn afhankelijk van services die alleen beschikbaar zijn met Microsoft 365 E5, Microsoft 365 E3 met de invoeg-, EMS E5- of Azure Premium P2-licenties van Identity & Threat Protection.
+Veel van de geleverde aanbevelingen zijn afhankelijk van services die alleen beschikbaar zijn met Microsoft 365 E5, Microsoft 365 E3 met de E5-beveiligingsinvoeging, EMS E5- of Azure AD Premium P2-licenties.
 
 Voor organisaties die deze licenties niet hebben, raadt Microsoft u aan op zijn minst beveiligingsinstellingen te implementeren [,](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)die zijn opgenomen in alle Microsoft 365-abonnementen.
 
@@ -122,8 +124,8 @@ Azure AD biedt een volledige suite met mogelijkheden voor identiteitsbeheer. We 
 |[Voorwaardelijke toegang](/azure/active-directory/conditional-access/overview)|Azure AD evalueert de voorwaarden van de aanmelding van de gebruiker en gebruikt beleid voor voorwaardelijke toegang om de toegestane toegang te bepalen. In deze richtlijnen ziet u bijvoorbeeld hoe u een beleid voor voorwaardelijke toegang kunt maken om apparaat compliance te vereisen voor toegang tot gevoelige gegevens. Hierdoor wordt het risico aanzienlijk verkleind dat een hacker met een eigen apparaat en gestolen referenties toegang heeft tot uw gevoelige gegevens. Het beschermt ook gevoelige gegevens op de apparaten, omdat de apparaten moeten voldoen aan specifieke vereisten voor gezondheid en beveiliging.|Microsoft 365 E3 of E5|
 |[Azure AD-groepen](/azure/active-directory/fundamentals/active-directory-manage-groups)|Beleid voor voorwaardelijke toegang, apparaatbeheer met Intune en zelfs machtigingen voor bestanden en sites in uw organisatie zijn afhankelijk van de toewijzing aan gebruikersaccounts of Azure AD-groepen. U wordt aangeraden Azure AD-groepen te maken die overeenkomen met de beveiligingsniveaus die u implementeert. Uw leidinggevenden zijn bijvoorbeeld waarschijnlijk hogere doelen voor hackers. Daarom is het zinvol om de gebruikersaccounts van deze werknemers toe te voegen aan een Azure AD-groep en deze groep toe te wijzen aan beleidsregels voor voorwaardelijke toegang en andere beleidsregels die een hoger beschermingsniveau voor toegang afdwingen.|Microsoft 365 E3 of E5|
 |[Apparaatinschrijving](/azure/active-directory/devices/overview)|U meldt een apparaat aan bij Azure AD om een identiteit voor het apparaat te maken. Deze identiteit wordt gebruikt om het apparaat te verifiëren wanneer een gebruiker zich aan meldt en om beleid voor voorwaardelijke toegang toe te passen waarvoor domeingevoegde of compatibele pc's zijn vereist. Voor deze richtlijnen gebruiken we apparaatinschrijving om automatisch domeingevoegde Windows-computers in te schrijven. Apparaatinschrijving is een vereiste voor het beheren van apparaten met Intune.|Microsoft 365 E3 of E5|
-|[Azure AD Identity Protection](/azure/active-directory/identity-protection/overview)|Hiermee kunt u mogelijke beveiligingslekken opsporen die van invloed zijn op de identiteiten van uw organisatie en het geautomatiseerde herstelbeleid configureren op laag, gemiddeld en hoog aanmeldingsrisico en gebruikersrisico. Deze richtlijnen zijn gebaseerd op deze risicoanalyse om beleidsregels voor voorwaardelijke toegang toe te passen voor meervoudige verificatie. Deze richtlijn bevat ook een beleid voor Voorwaardelijke toegang, dat vereist dat gebruikers hun wachtwoord wijzigen als er activiteit met een hoog risico wordt gedetecteerd voor hun account.|Microsoft 365 E5, Microsoft 365 E3 met de identity & Threat Protection-invoeg-, EMS E5- of Azure Premium P2-licenties|
-|[Selfservice password reset (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)|Sta uw gebruikers toe hun wachtwoorden veilig en zonder tussenkomst van de helpdesk opnieuw in te stellen door verificatie te bieden van meerdere verificatiemethoden die de beheerder kan beheren.|Microsoft 365 E3 of E5|
+|[Azure AD Identity Protection](/azure/active-directory/identity-protection/overview)|Hiermee kunt u mogelijke beveiligingslekken opsporen die van invloed zijn op de identiteiten van uw organisatie en het geautomatiseerde herstelbeleid configureren op laag, gemiddeld en hoog aanmeldingsrisico en gebruikersrisico. Deze richtlijnen zijn gebaseerd op deze risicoanalyse om beleidsregels voor voorwaardelijke toegang toe te passen voor meervoudige verificatie. Deze richtlijn bevat ook een beleid voor Voorwaardelijke toegang, dat vereist dat gebruikers hun wachtwoord wijzigen als er activiteit met een hoog risico wordt gedetecteerd voor hun account.|Microsoft 365 E5, Microsoft 365 E3 met de E5-beveiligingsinvoeg-, EMS E5- of Azure AD Premium P2-licenties|
+|[Self-service voor wachtwoordherstel (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)|Sta uw gebruikers toe hun wachtwoorden veilig en zonder tussenkomst van de helpdesk opnieuw in te stellen door verificatie te bieden van meerdere verificatiemethoden die de beheerder kan beheren.|Microsoft 365 E3 of E5|
 |[Azure AD-wachtwoordbeveiliging](/azure/active-directory/authentication/concept-password-ban-bad)|Detecteer en blokkeer bekende zwakke wachtwoorden en hun varianten en aanvullende zwakke termen die specifiek zijn voor uw organisatie. Standaardlijsten met verboden wachtwoorden worden automatisch toegepast op alle gebruikers in een Azure AD-tenant. U kunt aanvullende vermeldingen definiëren in een aangepaste lijst met geblokkeerde wachtwoorden. Als gebruikers hun wachtwoord wijzigen of opnieuw instellen, worden deze verboden wachtwoordlijsten ingeschakeld om het gebruik van sterke wachtwoorden af te dwingen.|Microsoft 365 E3 of E5|
 |
 
@@ -194,7 +196,7 @@ Op dezelfde manier maakt u voor uw gevoelige apps de set beleidsregels en voegt 
 
 Microsoft raadt u aan geen beleidssets te maken die van toepassing zijn op alle apps, omdat dit kan leiden tot bepaalde onbedoelde configuraties. Beleidsregels die bijvoorbeeld alle apps blokkeren, kunnen uw beheerders uitsluiten van de Azure-portal en uitsluitingen kunnen niet worden geconfigureerd voor belangrijke eindpunten, zoals Microsoft Graph.
 
-## <a name="steps-in-the-process-of-configuring-identity-and-device-access"></a>Stappen in het proces voor het configureren van identiteits- en apparaattoegang
+## <a name="steps-to-configure-identity-and-device-access"></a>Stappen voor het configureren van identiteits- en apparaattoegang
 
 ![Stappen voor het configureren van identiteits- en apparaattoegang.](../../media/microsoft-365-policies-configurations/identity-device-access-steps.png)
 

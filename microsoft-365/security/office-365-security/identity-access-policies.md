@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 7ade29259a5552bc9bbaac4b143842c69d05f917
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4b7315cbb8704b691ce4f3d6b96958f18248b478
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204170"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952630"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -55,18 +55,18 @@ In de rest van dit artikel wordt beschreven hoe u dit beleid configureert.
 
 Om u de tijd te geven om deze taken uit te voeren, raden we u aan het basislijnbeleid in de volgorde in deze tabel te implementeren. Het MFA-beleid voor gevoelige en sterk gereguleerde beveiligingsniveaus kan echter op elk moment worden geïmplementeerd.
 
-|Beveiligingsniveau|Beleid|Meer informatie|
-|---|---|---|
-|**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico gemiddeld *of* *hoog* is](#require-mfa-based-on-sign-in-risk)||
-||[Clients blokkeren die moderne verificatie niet ondersteunen](#block-clients-that-dont-support-multi-factor)|Clients die geen moderne verificatie gebruiken, kunnen beleidsregels voor voorwaardelijke toegang omzeilen, dus het is belangrijk om deze te blokkeren.|
-||[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](#high-risk-users-must-change-password)|Dwingt gebruikers hun wachtwoord te wijzigen wanneer ze zich aanmelden als er activiteit met een hoog risico wordt gedetecteerd voor hun account.|
-||[Beleid voor gegevensbescherming van apps toepassen](#apply-app-data-protection-policies)|Eén Intune App Protection-beleid per platform (Windows, iOS/iPadOS, Android).|
-||[Goedgekeurde apps en app-beveiliging vereisen](#require-approved-apps-and-app-protection)|Dwingt mobiele app-beveiliging af voor telefoons en tablets met iOS, iPadOS of Android.|
-||[Beleidsregels voor apparaat compliance definiëren](#define-device-compliance-policies)|Eén beleid voor elk platform.|
-||[Eis conforme pc’s](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune-beheer van pc's met Windows of MacOS wordt afgedwongen.|
-|**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog is*](#require-mfa-based-on-sign-in-risk)||
-||[Compatibele pc's *en mobiele* apparaten vereisen](#require-compliant-pcs-and-mobile-devices)|Intune-beheer wordt afgedwongen voor zowel pc's (Windows of MacOS) als telefoons of tablets (iOS, iPadOS of Android).|
-|**Sterk gereglementeerd**|[*Altijd* MFA vereisen](#require-mfa-based-on-sign-in-risk)|
+|Beveiligingsniveau|Beleid|Meer informatie|Licenties|
+|---|---|---|---|
+|**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico gemiddeld *of* *hoog* is](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 of Microsoft 365 E3 met de E5-beveiligings add-on|
+||[Clients blokkeren die moderne verificatie niet ondersteunen](#block-clients-that-dont-support-multi-factor)|Clients die geen moderne verificatie gebruiken, kunnen beleidsregels voor voorwaardelijke toegang omzeilen, dus het is belangrijk om deze te blokkeren.|Microsoft 365 E3 of E5|
+||[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](#high-risk-users-must-change-password)|Dwingt gebruikers hun wachtwoord te wijzigen wanneer ze zich aanmelden als er activiteit met een hoog risico wordt gedetecteerd voor hun account.|Microsoft 365 E5 of Microsoft 365 E3 met de E5-beveiligings add-on|
+||[App-gegevensbescherming (Application Protection Policies) toepassen](#apply-app-data-protection-policies)|Eén Intune App Protection-beleid per platform (Windows, iOS/iPadOS, Android).|Microsoft 365 E3 of E5|
+||[Goedgekeurde apps en app-beveiliging vereisen](#require-approved-apps-and-app-protection)|Dwingt mobiele app-beveiliging af voor telefoons en tablets met iOS, iPadOS of Android.|Microsoft 365 E3 of E5|
+||[Beleidsregels voor apparaat compliance definiëren](#define-device-compliance-policies)|Eén beleid voor elk platform.|Microsoft 365 E3 of E5|
+||[Eis conforme pc’s](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune-beheer van pc's met Windows of MacOS wordt afgedwongen.|Microsoft 365 E3 of E5|
+|**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog is*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 of Microsoft 365 E3 met de E5-beveiligings add-on|
+||[Compatibele pc's *en mobiele* apparaten vereisen](#require-compliant-pcs-and-mobile-devices)|Intune-beheer wordt afgedwongen voor zowel pc's (Windows of MacOS) als telefoons of tablets (iOS, iPadOS of Android).|Microsoft 365 E3 of E5|
+|**Sterk gereglementeerd**|[*Altijd* MFA vereisen](#assigning-policies-to-groups-and-users)||Microsoft 365 E3 of E5|
 |
 
 ## <a name="assigning-policies-to-groups-and-users"></a>Beleid toewijzen aan groepen en gebruikers
@@ -95,11 +95,11 @@ Wees voorzichtig bij het toepassen van hogere beveiligingsniveaus op groepen en 
 
 Alle Azure AD-groepen die als onderdeel van deze aanbevelingen zijn gemaakt, moeten worden gemaakt als Microsoft 365-groepen. Dit is belangrijk voor de implementatie van gevoeligheidslabels bij het beveiligen van documenten in Microsoft Teams en SharePoint.
 
-![Schermafbeelding voor het maken van Microsoft 365-groepen](../../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
+![Voorbeeld van het maken van een Microsoft 365-groep](../../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>MFA vereisen op basis van aanmeldingsrisico
 
-U moet uw gebruikers laten registreren voor MFA voordat ze het moeten gebruiken. Als u Microsoft 365 E5, Microsoft 365 E3 met de invoegvoeging Identity & Threat Protection, Office 365 met EMS E5 of afzonderlijke Azure AD Premium P2-licenties hebt, kunt u het MFA-registratiebeleid met Azure AD Identity Protection gebruiken om te vereisen dat gebruikers zich registreren voor MFA. Het [vereiste werk omvat](identity-access-prerequisites.md) het registreren van alle gebruikers met MFA.
+U moet uw gebruikers laten registreren voor MFA voordat ze het moeten gebruiken. Als u Microsoft 365 E5, Microsoft 365 E3 met de E5-beveiligingsinvoeging, Office 365 met EMS E5 of afzonderlijke Azure AD Premium P2-licenties hebt, kunt u het MFA-registratiebeleid met Azure AD Identity Protection gebruiken om te vereisen dat gebruikers zich registreren voor MFA. Het [vereiste werk omvat](identity-access-prerequisites.md) het registreren van alle gebruikers met MFA.
 
 Nadat uw gebruikers zijn geregistreerd, kunt u MFA vereisen voor aanmelding met een nieuw beleid voor voorwaardelijke toegang.
 
@@ -211,7 +211,7 @@ Gebruik dit beleid in combinatie met [Azure AD-wachtwoordbeveiliging](/azure/act
 
 ## <a name="apply-app-data-protection-policies"></a>APP-beleid voor gegevensbescherming toepassen
 
-App-beveiligingsbeleid (APP) bepaalt welke apps zijn toegestaan en welke acties ze kunnen uitvoeren met de gegevens van uw organisatie. Met de beschikbare opties in APP kunnen organisaties de beveiliging aanpassen aan hun specifieke behoeften. Voor sommige is het mogelijk niet duidelijk welke beleidsinstellingen nodig zijn om een volledig scenario te implementeren. Om organisaties te helpen prioriteit te geven aan het uitharden van mobiele client-eindpunten, heeft Microsoft taxonomie geïntroduceerd voor het APP-gegevensbeveiligingskader voor het beheer van mobiele apps voor iOS en Android.
+APP's definiëren welke apps zijn toegestaan en welke acties ze kunnen uitvoeren met de gegevens van uw organisatie. Met de beschikbare opties in APP kunnen organisaties de beveiliging aanpassen aan hun specifieke behoeften. Voor sommige is het mogelijk niet duidelijk welke beleidsinstellingen nodig zijn om een volledig scenario te implementeren. Om organisaties te helpen prioriteit te geven aan het uitharden van mobiele client-eindpunten, heeft Microsoft taxonomie geïntroduceerd voor het APP-gegevensbeveiligingskader voor het beheer van mobiele apps voor iOS en Android.
 
 Het FRAMEWORK VOOR APP-gegevensbescherming is ingedeeld in drie verschillende configuratieniveaus, met elk niveau dat van het vorige niveau is afgebouwd:
 
@@ -331,12 +331,12 @@ Zie **deze tabel voor** systeembeveiliging.
 
 |Type|Eigenschappen|Waarde|Actie|
 |---|---|---|---|
-|Microsoft Defender voor eindpuntregels|Vereisen dat het apparaat zich op of onder de machinerisicoscore|Gemiddeld|Selecteer|
+|Microsoft Defender voor eindpuntregels in het Microsoft Endpoint Manager-beheercentrum|[Vereisen dat het apparaat zich op of onder de machinerisicoscore](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection-configure#create-and-assign-compliance-policy-to-set-device-risk-level)|Gemiddeld|Selecteer|
 |
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Compatibele pc's vereisen (maar niet compatibele telefoons en tablets)
 
-Voordat u een beleid toevoegt waarvoor compatibele pc's moeten worden vereist, moet u apparaten voor beheer registreren bij Intune. Het is raadzaam meervoudige verificatie te gebruiken voordat u apparaten inschrijft bij Intune om te garanderen dat het apparaat in het bezit is van de beoogde gebruiker.
+Voordat u een beleid toevoegt om compatibele pc's te vereisen, moet u uw apparaten registreren voor beheer in Intune. Het is raadzaam meervoudige verificatie te gebruiken voordat u apparaten inschrijft bij Intune om te garanderen dat het apparaat in het bezit is van de beoogde gebruiker.
 
 Compatibele pc's vereisen:
 

@@ -19,12 +19,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 1fb5a4eee41384ef1afc9b46e5bf538344718fe9
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 2fd9b958cdbdaf22346f8171c789f2ca9a8336d1
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939728"
+ms.locfileid: "51957603"
 ---
 # <a name="analyze-users-in-microsoft-365-security-center"></a>Gebruikers analyseren in het Microsoft 365-beveiligingscentrum
 
@@ -41,6 +41,13 @@ Een deel van uw incidentanalyse kan gebruikersaccounts bevatten. Begin met het *
 Als u een beknopt overzicht wilt krijgen van een gebruikersaccount voor het incident, selecteert u het vinkje naast de naam van het gebruikersaccount. Hier is een voorbeeld.
 
 :::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Voorbeeld van het overzichtsvenster voor gebruikersaccounts voor een incident in het Microsoft 365-beveiligingscentrum":::
+
+> [!NOTE]
+> Op de pagina Gebruiker ziet u een Azure Active Directory-organisatie (AD) en groepen, zodat u inzicht krijgt in de groepen en machtigingen die aan een gebruiker zijn gekoppeld.
+
+Op deze fly-outpagina kunt u informatie over bedreigingen van gebruikers bekijken, waaronder actuele incidenten, actieve waarschuwingen en risiconiveau, evenals blootstelling van gebruikers, accounts, apparaten en meer.
+
+Daarnaast kunt u rechtstreeks actie ondernemen in het Microsoft 365-beveiligingscentrum om een gecompromitteerde gebruiker aan te pakken, om te bevestigen dat de gebruiker is gecompromitteerd of dat hij of zij zich opnieuw moet aanmelden.
 
 Hier kunt u Ga naar gebruikerspagina selecteren **om** de details van een gebruikersaccount te bekijken. Hier is een voorbeeld.
 

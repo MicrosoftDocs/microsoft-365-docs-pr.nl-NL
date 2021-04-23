@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Meer informatie over het verzamelen van gegevens voor uw tenant met de sjabloon-app Microsoft 365 Usage Analytics in Power BI.
-ms.openlocfilehash: 7c92fb643f9be6b5f1474f08df659c4f488a9a41
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d9cadcc8258478fd1d5dbc0d9ae6bf4e814a8435
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579060"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957513"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse inschakelen
 
@@ -53,11 +53,11 @@ Als u de sjabloon-app wilt inschakelen, moet u een globale **beheerder zijn.**
   
 Zie [beheerdersrollen voor](../add-users/about-admin-roles.md) meer informatie. 
   
-1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>. 
+1. Ga in het beheercentrum naar het **tabblad Instellingen** \> **organisatie-instellingen** \> **Services.** 
     
-2. Zoek op **de** pagina Gebruik de **microsoft 365-gebruiksanalysekaart** en selecteer **Aan de slag.**
+2. Selecteer op **het tabblad** Services de optie  **Rapporten**.
     
-3. Stel gegevens beschikbaar maken voor **Microsoft 365** gebruiksanalyse voor Power BI in op Opslaan in het deelvenster Rapporten **dat wordt** \> **geopend.** 
+3. Stel rapportgegevens beschikbaar maken voor **Microsoft 365** gebruiksanalyse voor Power BI in op Opslaan in het deelvenster Rapporten dat **wordt** \> **geopend.** 
   
 Het proces voor het verzamelen van gegevens wordt in twee tot 48 uur voltooid, afhankelijk van de grootte van uw tenant. De knop **Ga naar Power BI** zal ingeschakeld zijn (niet langer grijs) als het verzamelen van gegevens is voltooid. 
     

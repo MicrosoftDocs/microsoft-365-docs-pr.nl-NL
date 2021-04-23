@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4eea2931196c192620812c1609c506e1fb99093d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 17aca5fb388aef26504902ee63b22410420c8827
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932951"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952486"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Windows-servers aan boord van de Microsoft Defender voor Eindpunt-service
 
@@ -194,7 +194,7 @@ Defender voor Eindpunt kan worden geïntegreerd met Azure Defender om een uitgeb
 
 De volgende mogelijkheden zijn opgenomen in deze integratie:
 
-- Geautomatiseerde onboarding: De Defender voor Eindpunt-sensor is automatisch ingeschakeld op Windows-servers die zijn onboarded bij Azure Defender. Zie [Onboarding to Azure Defender Standard for enhanced security (Onboarding to Azure Defender Standard for enhanced security)](https://docs.microsoft.com/azure/security-center/security-center-onboarding)voor meer informatie over Azure Defender onboarding.
+- Geautomatiseerde onboarding: De Defender voor Eindpunt-sensor is automatisch ingeschakeld op Windows-servers die zijn onboarded bij Azure Defender. Zie De geïntegreerde Licentie voor [Microsoft Defender voor eindpunt](https://docs.microsoft.com/azure/security-center/security-center-wdatp)gebruiken voor meer informatie over onboarding van Azure Defender.
 
     > [!NOTE]
     > De integratie tussen Azure Defender voor servers en Microsoft Defender voor Eindpunt is uitgebreid met ondersteuning voor [Windows Server 2019 en Windows Virtual Desktop (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
@@ -338,9 +338,10 @@ Wanneer dit is gedaan, moet u een opstartscriptbeleid maken:
 
 :::image type="content" source="images/startupprops.png" alt-text="Opstarteigenschappen":::
 
-De naam van het bestand dat hier moet worden uitgevoerd, is c:\windows\MMA\DeployMMA.cmd Zodra de server opnieuw is gestart als onderdeel van het opstartproces, wordt de KB Update voor klantervaring en diagnostische telemetrie geïnstalleerd en vervolgens de MMAAgent geïnstalleerd, terwijl u de werkruimte-id en -sleutel instelt, waarna de server wordt toegevoegd.
+De naam van het bestand dat hier moet worden uitgevoerd, is c:\windows\MMA\DeployMMA.cmd.
+Zodra de server opnieuw is gestart als onderdeel van het opstartproces, wordt de UPDATE voor klantervaring en diagnostische telemetrie KB geïnstalleerd en vervolgens de MMA-agent geïnstalleerd, terwijl de werkruimte-id en -sleutel worden ingesteld en wordt de server aan boord gemaakt.
 
-U kunt ook een directe **taak gebruiken om** de deployMMA.cmd uit te voeren als u niet alle servers opnieuw wilt opstarten.
+U kunt ook een **directe taak gebruiken om** de deployMMA.cmd uit te voeren als u niet alle servers opnieuw wilt opstarten.
 Dit kan in twee fasen. Maak eerst **de bestanden en de** map in GPO: Geef het systeem de tijd om ervoor te zorgen dat het GPO is toegepast en alle servers hebben de installatiebestanden. Voeg vervolgens de directe taak toe. Dit resulteert in hetzelfde resultaat zonder dat u opnieuw moet opstarten.
 
 Aangezien het script een exitmethode heeft en gewoon opnieuw wordt uitgevoerd als de MMA is geïnstalleerd, kunt u ook een dagelijkse geplande taak gebruiken om hetzelfde resultaat te bereiken. Net als bij een compliancebeleid van Configuration Manager wordt dagelijks gechecked om te controleren of de MMA aanwezig is.

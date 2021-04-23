@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e7bae0577b83deed26b0a3beb0f16efc80bb5846
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 14287fb6dea9dda8accb580246b383f0427c3b3f
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935783"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952618"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>De geavanceerde zoekquerytaal leren
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935783"
 
 **Van toepassing op:**
 - Microsoft 365 Defender
+- Microsoft Defender voor Eindpunt
 
 Geavanceerd zoeken is gebaseerd op de [querytaal Kusto.](/azure/kusto/query/) U kunt Kusto-operatoren en instructies gebruiken om query's te maken die informatie zoeken in een gespecialiseerd [schema.](advanced-hunting-schema-tables.md) Als u deze concepten beter wilt begrijpen, kunt u de eerste query uitvoeren.
 
@@ -180,6 +181,9 @@ De **sectie Aan de** slag bevat een paar eenvoudige query's met veelgebruikte op
 ## <a name="access-query-language-documentation"></a>Documentatie van access-querytaal
 
 Zie [Kusto querytaaldocumentatie](/azure/kusto/query/)voor meer informatie over kusto-querytaal en ondersteunde operatoren.
+
+>[!NOTE]
+>Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

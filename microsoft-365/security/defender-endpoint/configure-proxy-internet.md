@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a3885a462265368bc42c758ee5a8fd1c673ec08c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c8f25b924109823951c331fe744b548d372eaf11
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932797"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957615"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Instellingen voor apparaatproxy en internetverbinding configureren
 
@@ -60,6 +60,7 @@ Configureer een statische proxy op basis van het register zodat alleen defender 
 
 > [!NOTE]
 > - Wanneer u deze optie gebruikt in Windows 10 of Windows Server 2019, wordt het aanbevolen om de volgende (of latere) build en cumulatieve update samen te werken:</br>
+> Windows 10, versie 1809 of Windows Server 2019 - https://support.microsoft.com/kb/5001384 <br>
 > Windows 10, versie 1909 - https://support.microsoft.com/kb/4601380</br>
 > Windows 10, versie 2004 - https://support.microsoft.com/kb/4601382</br>
 > Windows 10, versie 20H2 - https://support.microsoft.com/kb/4601382</br>

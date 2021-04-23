@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dce9a3d41d8a9d7c260cda8a930867da8c2ae8ac
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: a4714ad9a4388654cbf865ed54afe260a67d724f
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862245"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957501"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender voor Eindpunt voor niet-Windows-platforms
 
@@ -45,25 +45,25 @@ Met Microsoft Defender voor Eindpunt profiteren klanten van een geïntegreerde w
 
 Microsoft Defender voor Eindpunt op macOS biedt antivirus- en eindpuntdetectie- en antwoordmogelijkheden (EDR) voor de drie meest recente versies van macOS. Klanten kunnen de oplossing implementeren en beheren via Microsoft Endpoint Manager en Jamf. Net als bij Microsoft Office-toepassingen op macOS, wordt Microsoft Auto Update gebruikt voor het beheren van Microsoft Defender voor Endpoint op Mac-updates. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
 
-Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Documentatie van Defender voor Eindpunt voor [macOS.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac)
+Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Documentatie van Defender voor Eindpunt voor [macOS.](microsoft-defender-endpoint-mac.md)
 
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt op Linux
 
 Microsoft Defender voor Endpoint op Linux biedt preventief (AV) mogelijkheden voor Linux-servers. Dit omvat een volledige opdrachtregel voor het configureren en beheren van de agent, het starten van scans en het beheren van bedreigingen. We ondersteunen recente versies van de zes meest voorkomende Linux Server-distributies: RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS of hoger LTS, SLES 12+, Debian 9+, en Oracle Linux 7.2. Microsoft Defender voor Eindpunt op Linux kan worden geïmplementeerd en geconfigureerd met Behulp van Poppenspel, Ansible of met behulp van uw bestaande Linux-configuratiebeheerprogramma. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux)
 
-Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Microsoft Defender voor Eindpunt op [Linux-documentatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux)
+Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Microsoft Defender voor Eindpunt op [Linux-documentatie.](microsoft-defender-endpoint-linux.md)
 
 ## <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender voor Eindpunt op Android
 
 Microsoft Defender voor Eindpunt op Android is onze oplossing voor mobiele bedreigingen voor apparaten met Android 6.0 en hoger. Zowel android enterprise (werkprofiel) als apparaatbeheerder-modi worden ondersteund. In Android bieden we webbeveiliging, waaronder anti-phishing, het blokkeren van onveilige verbindingen en het instellen van aangepaste indicatoren. De oplossing scant op malware en mogelijk ongewenste toepassingen (PUA) en biedt extra mogelijkheden voor preventie van inbreuken door integratie met Microsoft Endpoint Manager en Voorwaardelijke toegang. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Android)
 
-Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de documentatie van Microsoft Defender voor [Eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-android)op Android.
+Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de documentatie van Microsoft Defender voor [Eindpunt](microsoft-defender-endpoint-android.md)op Android.
 
 ## <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor Eindpunt op iOS
 
 Microsoft Defender voor Eindpunt in iOS is onze oplossing voor mobiele bedreigingsdefensie voor apparaten met iOS 11.0 en hoger. Zowel gecontroleerde als niet-bewaakte apparaten worden ondersteund. In iOS bieden we webbeveiliging, waaronder anti-phishing, het blokkeren van onveilige verbindingen en het instellen van aangepaste indicatoren. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/iOS) 
 
-Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Microsoft Defender voor Eindpunt op [iOS-documentatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-ios)
+Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Microsoft Defender voor Eindpunt op [iOS-documentatie.](microsoft-defender-endpoint-ios.md)
 
 ## <a name="licensing-requirements"></a>Licentievereisten 
 

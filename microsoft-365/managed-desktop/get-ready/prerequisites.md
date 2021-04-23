@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: fcfddadf13e000156fa5431cc30bc72f4f3537e2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e4469d8abcfa8308c64e2efa7f7dc4f0156e5718
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581044"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957525"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Vereisten voor Microsoft Managed Desktop
 
@@ -27,7 +27,7 @@ In dit onderwerp worden de infrastructuurvereisten beschreven die u moet voldoen
 
 Gebied | Details van vereisten
 --- | ---
-Licenties |Voor Microsoft Managed Desktop is de Microsoft 365 E3-licentie vereist met Microsoft Defender voor eindpunten (of equivalenten) die aan uw gebruikers zijn toegewezen. Er moeten twee licenties voor Azure Active Directory Premium 2 beschikbaar zijn in de tenant, maar gebruikers hebben deze licentie niet nodig. <br>Zie Meer informatie over licenties [in](#more-about-licenses) dit onderwerp voor meer informatie over de specifieke serviceplannen.<br>Zie [Microsoft 365-licenties](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)voor meer informatie over beschikbare licenties.
+Licenties |Voor Microsoft Managed Desktop is de Microsoft 365 E3-licentie vereist met Microsoft Defender voor eindpunten (of equivalenten) die aan uw gebruikers zijn toegewezen.<br>Zie Meer informatie over licenties [in](#more-about-licenses) dit onderwerp voor meer informatie over de specifieke serviceplannen.<br>Zie [Microsoft 365-licenties](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)voor meer informatie over beschikbare licenties.
 Connectiviteit |  Voor alle beheerde bureaubladapparaten van Microsoft is verbinding nodig met een groot aantal Microsoft-service-eindpunten van het bedrijfsnetwerk.<br><br>Zie Netwerkconfiguratie voor de volledige lijst met vereiste IPs en [URL's.](../get-ready/network.md) 
 Microsoft Azure Active Directory |    Azure Active Directory (Azure AD) moet de bron van autoriteit zijn voor alle gebruikersaccounts of gebruikersaccounts moeten worden gesynchroniseerd vanuit on-premises Active Directory met de meest recente ondersteunde versie van Azure AD Connect.<br><br>[Enterprise State Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview) moet zijn ingeschakeld voor Microsoft Managed Desktop-gebruikers.<br><br>Zie Azure AD Connect voor [meer informatie.](/azure/active-directory/hybrid/whatis-azure-ad-connect)<br><br>Zie [Azure AD Connect:Version release history](/azure/active-directory/hybrid/reference-connect-version-history)voor meer informatie over ondersteunde Azure AD Connect-versies.
 Verificatie |    Als Azure AD niet de bron is van primaire verificatie voor gebruikersaccounts, moet u een van deze instellingen configureren in Azure AD Connect:<br>- Wachtwoordhashsynchronisatie<br>- Pass-through-verificatie<br>- Een externe identiteitsprovider (inclusief Windows Server ADFS en niet-Microsoft-id's) die is geconfigureerd om te voldoen aan de vereisten voor Azure AD-integratie. Zie de [richtlijnen](https://www.microsoft.com/download/details.aspx?id=56843) voor meer informatie. <br><br>Wanneer u verificatieopties instelt met Azure AD Connect, wordt ook het terugschrijven van wachtwoorden aanbevolen. Zie Wachtwoord [terugschrijven voor meer informatie.](/azure/active-directory/authentication/howto-sspr-writeback) <br><br>Als een externe identiteitsprovider wordt geïmplementeerd, moet u de oplossing valideren:<br>- Voldoet aan de integratievereisten voor Azure AD<br>- Biedt ondersteuning voor Azure AD Voorwaardelijke toegang, waarmee het compliancebeleid voor Microsoft Managed Desktop-apparaten kan worden geconfigureerd<br>- Hiermee kunt u apparaten registreren en microsoft 365-services of -functies gebruiken die zijn vereist als onderdeel van Microsoft Managed Desktop <br><br>Zie Aanmeldingsopties voor Azure AD Connect voor meer informatie over [verificatieopties met Azure](/azure/active-directory/connect/active-directory-aadconnect-user-signin)AD.
@@ -67,4 +67,4 @@ Voor Microsoft Managed Desktop zijn bepaalde licentieopties vereist om te kunnen
 6. [Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop](authentication.md)
 7. [Apps in Microsoft Managed Desktop](apps.md)
 8. [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
-9. [Printbronnen voorbereiden voor Microsoft Managed Desktop](printing.md)
+9. [Afdrukbronnen voorbereiden voor Microsoft Managed Desktop](printing.md)

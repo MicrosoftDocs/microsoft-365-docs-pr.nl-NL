@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bcb31b904f8e6156d644864f03143e9fc37ae34b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f37cc63c958331f7c03e09689de92c73fd06b4d4
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935711"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952558"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Aangepaste detectieregels maken en beheren
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935711"
 
 **Van toepassing op:**
 - Microsoft 365 Defender
+- Microsoft Defender voor Eindpunt
 
 Aangepaste detectieregels zijn regels die u kunt ontwerpen en aanpassen met behulp van [geavanceerde zoekquery's.](advanced-hunting-overview.md) Met deze regels kunt u proactief verschillende gebeurtenissen en systeemstaten controleren, waaronder verdachte inbreukactiviteiten en verkeerd geconfigureerde eindpunten. U kunt instellen dat ze regelmatig worden uitgevoerd, waarschuwingen genereren en antwoordacties uitvoeren wanneer er overeenkomsten zijn.
 
@@ -219,6 +220,9 @@ Ga in het scherm Met regeldetails **(Op** zoek naar aangepaste  >  **detecties**
 
 >[!TIP]
 >Als u snel informatie wilt weergeven en actie wilt ondernemen voor een item in een tabel, gebruikt u de selectiekolom [&#10003;] links van de tabel.
+
+>[!NOTE]
+>Sommige kolommen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van aangepaste detectie](custom-detections-overview.md)

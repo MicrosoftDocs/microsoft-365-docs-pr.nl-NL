@@ -20,16 +20,21 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d8d165f39c45bd235800dc951d50934b47dd7ff5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 32d50103c6476a89f24568edeea75a206e37e227
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935447"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952678"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Geavanceerde zoekfouten verwerken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
+**Van toepassing op:**
+- Microsoft 365 Defender
+- Microsoft Defender voor Eindpunt
 
 
 Bij geavanceerd zoeken worden fouten weergegeven om te waarschuwen voor syntaxisfouten en wanneer query's vooraf gedefinieerde quota en gebruiksparameters [raken.](advanced-hunting-limits.md) Raadpleeg de onderstaande tabel voor tips over het oplossen of voorkomen van fouten.
@@ -43,6 +48,8 @@ Bij geavanceerd zoeken worden fouten weergegeven om te waarschuwen voor syntaxis
 | Limiet voor de grootte van het resultaat overschreden  | De statistische grootte van de resultatenset voor de query heeft de maximale grootte overschreden. Deze fout kan optreden als de resultatenset zo groot is dat de limiet van 10.000 records niet kan worden verkleind tot een acceptabele grootte. Resultaten met meerdere kolommen met aanzienlijke inhoud worden waarschijnlijk beïnvloed door deze fout. | [De query optimaliseren](advanced-hunting-best-practices.md) | `Result size limit exceeded. Use "summarize" to aggregate results, "project" to drop uninteresting columns, or "take" to truncate results.` |
 | Overmatig verbruik van resources | De query heeft te veel resources verbruikt en is niet meer uitgevoerd. In sommige gevallen identificeert geavanceerd zoeken de specifieke operator die niet is geoptimaliseerd. | [De query optimaliseren](advanced-hunting-best-practices.md) | -`Query stopped due to excessive resource consumption.`<br>-`Query stopped. Adjust use of the <operator name> operator to avoid excessive resource consumption.` |
 | Onbekende fouten | De query is mislukt vanwege een onbekende reden. | Probeer de query opnieuw uit te voeren. Neem contact op met Microsoft via de portal als query's onbekende fouten blijven retourneren. | `An unexpected error occurred during query execution. Please try again in a few minutes.`
+
+
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Geavanceerde best practices voor jagen](advanced-hunting-best-practices.md)

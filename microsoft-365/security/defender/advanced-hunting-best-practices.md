@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7db7607d3ed9d6f1b215fb842d5b6dd2415a770a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: abc6b561c2fca8106397b1656432628c983e2ece
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934895"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952690"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Geavanceerde best practices voor query's
 
@@ -263,6 +263,9 @@ Er zijn verschillende functies die u kunt gebruiken om efficiënt om te gaan met
 | IPv6-adressen | [parse_ipv6()](/azure/data-explorer/kusto/query/parse-ipv6function)  | Converteert een IPv4- of IPv6-adres naar de canonieke IPv6-notatie. Als u IPv6-adressen wilt vergelijken, gebruikt [u ipv6_compare()](/azure/data-explorer/kusto/query/ipv6-comparefunction). |
 
 Als u meer wilt weten over alle ondersteunde parsingsfuncties, [leest u meer over kusto-tekenreeksfuncties.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
+
+>[!NOTE]
+>Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Documentatie van kustoquerytaal](/azure/data-explorer/kusto/query/)

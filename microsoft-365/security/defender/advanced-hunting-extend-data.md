@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 40cec28bf88445df13f78e672c4289d440b2b848
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f4b1399b77583e95b109575a9577d8b1af89e6ad
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935855"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952666"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Geavanceerde dekking voor jagen uitbreiden met de juiste instellingen
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935855"
 
 **Van toepassing op:**
 - Microsoft 365 Defender
+- Microsoft Defender voor Eindpunt
 
 [Geavanceerd zoeken](advanced-hunting-overview.md) is afhankelijk van gegevens uit verschillende bronnen, waaronder uw apparaten, uw Office 365-werkruimten, Azure AD en Microsoft Defender voor identiteit. Als u de meest uitgebreide gegevens wilt krijgen, moet u ervoor zorgen dat u de juiste instellingen hebt in de bijbehorende gegevensbronnen.
 
@@ -52,6 +53,9 @@ Als u Active Directory on-premises gebruikt, moet u de Microsoft Defender for Id
 | Data | Beschrijving | Schematabel | Configureren |
 | --- | --- | --- | --- |
 | Domeincontroller | Gegevens van on-premises Active Directory die zijn verzonden naar Microsoft Defender voor identiteit, wat identiteitsgerelateerde informatie verrijkt, zoals accountgegevens, aanmeldingsactiviteit en Active Directory-query's | Meerdere tabellen, waaronder [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)en [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [De Microsoft Defender for Identity-sensor installeren](/azure-advanced-threat-protection/install-atp-step4)<br>- [Relevante Windows-gebeurtenissen in- en uit-](/azure-advanced-threat-protection/configure-event-collection) |
+
+>[!NOTE]
+>Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
