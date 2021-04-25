@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Samenvatting: Inzicht in de migratiefasen en de gevolgen van de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 121f2059e4a13684169ab40b7bfdaae13ef6045e
-ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
+ms.openlocfilehash: 8e3e6fb228445823481b52d27e5a7b6c623349e2
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899246"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995019"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Acties en effecten van migratiefasen voor de migratie vanuit Microsoft Cloud Deutschland
 
@@ -226,6 +226,7 @@ In deze fase wordt Skype voor Bedrijven gemigreerd naar Microsoft Teams. Bestaan
 - Contactpersonen en vergaderingen worden gemigreerd naar Microsoft Teams.
 - Gebruikers kunnen zich niet aanmelden bij Skype voor Bedrijven tussen tijdserviceovergangen naar Office 365-services en niet totdat dns-items van klanten zijn voltooid.
 - Contactpersonen en bestaande vergaderingen blijven fungeren als Skype voor Bedrijven-vergaderingen.
+- De webbrowserversie van Microsoft Teams werkt niet nadat fase 9 is voltooid.
 
 Als u verbinding moet maken met Skype voor Bedrijven Online met PowerShell nadat migratiefase 9 is voltooid, gebruikt u de volgende PowerShell-code om verbinding te maken:
 

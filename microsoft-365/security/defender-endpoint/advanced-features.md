@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 34ca51c066eddb65f2df0cf8a5d85732bd84a9c0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 15909684d07bac46fd42163cee545bc4752b61d4
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934367"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995007"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Geavanceerde functies configureren in Defender voor Eindpunt
 
@@ -127,6 +127,8 @@ Zie Indicatoren beheren voor meer [informatie.](manage-indicators.md)
 Tijdens sommige soorten cyberaanvallen proberen slechte spelers beveiligingsfuncties, zoals antivirusbeveiliging, uit te schakelen op uw machines. Slechte spelers willen uw beveiligingsfuncties uitschakelen om gemakkelijker toegang te krijgen tot uw gegevens, om malware te installeren of om op een andere manier uw gegevens, identiteit en apparaten te misbruiken.
 
 Met de beveiliging van tamper wordt Microsoft Defender Antivirus vergrendeld en wordt voorkomen dat uw beveiligingsinstellingen worden gewijzigd via apps en methoden.
+
+Deze functie is beschikbaar als uw organisatie Microsoft Defender Antivirus gebruikt en cloudbeveiliging is ingeschakeld. Zie Technologieën van de volgende generatie gebruiken in Microsoft Defender Antivirus via beveiliging in de cloud voor [meer informatie.](cloud-protection-microsoft-defender-antivirus.md)
 
 Houd de beveiliging van de tamper ingeschakeld om ongewenste wijzigingen in uw beveiligingsoplossing en de essentiële functies te voorkomen.
 

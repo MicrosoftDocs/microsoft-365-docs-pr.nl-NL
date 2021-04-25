@@ -8,18 +8,20 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: normal
+audience: ITPro
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b70cf96cde7d4dff8e2a4db6ce2469090dba7eb1
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ae17aa6e2cb0cefd460ef0db0730570af8c84bb8
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765609"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995031"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Microsoft Defender Antivirus-updates beheren en basislijnen toepassen
 
@@ -34,7 +36,8 @@ Er zijn twee soorten updates die betrekking hebben op het up-to-date houden van 
 - Productupdates
 
 > [!IMPORTANT]
-> Het up-to-date houden van Microsoft Defender Antivirus is essentieel om ervoor te zorgen dat uw apparaten de nieuwste technologie en functies hebben die nodig zijn om te beschermen tegen nieuwe malware en aanvalstechnieken.  
+> Het up-to-date houden van Microsoft Defender Antivirus is essentieel om ervoor te zorgen dat uw apparaten de nieuwste technologie en functies hebben die nodig zijn om te beschermen tegen nieuwe malware en aanvalstechnieken.
+> 
 > Zorg ervoor dat u uw antivirusbeveiliging bij werkt, zelfs als Microsoft Defender Antivirus actief is in [de passieve modus.](./microsoft-defender-antivirus-compatibility.md)
 > 
 > Als u de meest recente datum van de engine, het platform en de handtekening wilt zien, gaat u naar de beveiligingsinformatieupdates voor [Microsoft Defender Antivirus en andere Microsoft-antimalware.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
@@ -147,7 +150,7 @@ Nadat een nieuwe pakketversie is uitgebracht, wordt de ondersteuning voor de vor
 &ensp;Uitgebracht: **3 december 2020**  
 &ensp;Platform: **4.18.2011.6**  
 &ensp;Motor: **1.1.17700.4**  
-&ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
+&ensp;Ondersteuningsfase: **Ondersteuning voor technische upgrade (alleen)**
     
 ### <a name="whats-new"></a>Wat is er nieuw
 
@@ -163,7 +166,7 @@ Geen bekende problemen
 &ensp;Uitgebracht: **29 oktober 2020**  
 &ensp;Platform: **4.18.2010.7**  
 &ensp;Motor: **1.1.17600.5**  
-&ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
+&ensp;Ondersteuningsfase: **Ondersteuning voor technische upgrade (alleen)**
     
 ### <a name="whats-new"></a>Wat is er nieuw
 

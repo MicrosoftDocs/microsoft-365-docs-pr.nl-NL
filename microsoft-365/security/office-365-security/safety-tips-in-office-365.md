@@ -19,12 +19,12 @@ description: Meer informatie over hoe EOP en Office 365 u beschermen tegen spam,
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1820cab63abbbac09aa60a9c1684f3672882451
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 659a83c73b4fef9097aa317332c9951d53b09a33
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204308"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994983"
 ---
 # <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
 
@@ -55,6 +55,6 @@ De veiligheidstip , een bericht met een kleurcode, waarschuwt u voor mogelijk sc
 
 ## <a name="working-with-safety-tips"></a>Werken met veiligheidstips
 
-Veiligheidstips zijn altijd ingeschakeld voor de webversie van Outlook, ook al ontvangt niet elk bericht er een. Beheerders kunnen veiligheidstips uitschakelen voor andere e-mail clients, zoals Outlook. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+Beheerders kunnen veiligheidstips in- of uitschakelen in antispambeleid. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 Als u het niet eens bent met de manier waarop een bericht door EOP is gecategoriseerd (dat wil zeggen dat het bericht geen spam is of dat het moet zijn gemarkeerd als spam), kunt u de berichten voor analyse indienen bij Microsoft om uw ervaring te verbeteren. Zie Berichten en bestanden [rapporteren aan Microsoft voor instructies.](report-junk-email-messages-to-microsoft.md) U kunt ook klikken op de koppeling Feedback in de veiligheidstip om opmerkingen rechtstreeks bij Microsoft in te dienen om ons te helpen verbeteren.

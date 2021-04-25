@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 5175d630dd5d80b62451b3a1eafc4c2f6350ac32
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 71c2391361c645d26cdaddff0bff86796da50391
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876335"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995079"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>Problemen met prestaties met betrekking tot realtimebeveiliging oplossen
 
@@ -33,7 +33,7 @@ ms.locfileid: "51876335"
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2146631)
  
-Als uw systeem een hoog CPU-gebruik of prestatieproblemen heeft met betrekking tot de realtimebeveiligingsservice in Microsoft Defender voor Eindpunt, kunt u een ticket indienen bij Microsoft-ondersteuning. Volg de stappen in [Diagnostische gegevens van Microsoft Defender AV verzamelen.](/collect-diagnostic-data.md)
+Als uw systeem een hoog CPU-gebruik of prestatieproblemen heeft met betrekking tot de realtimebeveiligingsservice in Microsoft Defender voor Eindpunt, kunt u een ticket indienen bij Microsoft-ondersteuning. Volg de stappen in [Diagnostische gegevens van Microsoft Defender Antivirus verzamelen.](collect-diagnostic-data.md)
 
 Als beheerder kunt u deze problemen ook zelf oplossen. 
 
@@ -132,7 +132,6 @@ Procesmonitor (ProcMon) is een geavanceerd monitoringprogramma waarmee realtime-
  
     >[!TIP] 
     >Wacht totdat het probleem volledig is gereproduceerd en noteer de tijdstempel wanneer de trace is gestart.
-    
 
 10. Als u twee tot vier minuten procesactiviteit hebt tijdens de hoge cpu-gebruiksvoorwaarde, stopt u de opname door het vergrootglaspictogram te selecteren.
 
@@ -250,7 +249,7 @@ Het opdrachtregelprogramma *wpr.exe* maakt deel uit van het besturingssysteem da
 
 1. Microsoft **[Defender voor endpoint-analyseprofiel](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** downloaden voor prestatiesporen naar een bestand met de naam `WD.wprp` in een lokale adreslijst, zoals `C:\traces` .
 
-3. Klik met de rechtermuisknop op **het startmenupictogram** en selecteer **Windows Powershell (beheerder)** of Opdrachtprompt **(beheerder)** om een opdrachtpromptvenster voor beheerders te openen.
+3. Klik met de rechtermuisknop op **het startmenupictogram** en selecteer **Windows PowerShell (beheerder)** of Opdrachtprompt **(beheerder)** om een opdrachtpromptvenster voor beheerders te openen.
 
 4. Wanneer het dialoogvenster Gebruikersaccountbeheer wordt weergegeven, selecteert u **Ja.**
 
@@ -280,5 +279,5 @@ Het opdrachtregelprogramma *wpr.exe* maakt deel uit van het besturingssysteem da
 
 ## <a name="see-also"></a>Zie ook
 
-- [Diagnostische gegevens van Microsoft Defender AV verzamelen](collect-diagnostic-data.md)
+- [Diagnostische gegevens van Microsoft Defender Antivirus verzamelen](collect-diagnostic-data.md)
 - [Uitsluitingen configureren en valideren voor Antivirusscans van Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Overzicht van netwerkconnectiviteit in het Microsoft 365-beheercentrum (voorbeeld)
-ms.openlocfilehash: 99c05c18f3825680824854f86e469ab4aa8bbcba
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: c3ce053ecc859d3ac0cf53b0a132a7032ce6a87a
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860861"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994675"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkconnectiviteit in het Microsoft 365-beheercentrum (preview)
 
@@ -152,7 +152,9 @@ De overzichtspagina van de kantoorlocatie toont bovendien de netwerkbeoordeling 
 
 Vergelijkingen tussen klanten in dezelfde plaats zijn gebaseerd op de verwachting dat alle klanten gelijke toegang hebben tot netwerkserviceproviders, telecommunicatie-infrastructuur en aanwezigheidspunten van Microsoft in de buurt.
 
-Op het tabblad Details op de pagina kantoorlocatie ziet u de specifieke meetresultaten die zijn gebruikt om inzichten, aanbevelingen en de netwerkbeoordeling op te leveren. Dit wordt verstrekt zodat netwerkingenieurs de aanbevelingen en factor in eventuele beperkingen of specifieke factoren in hun omgeving kunnen valideren.
+Locatienamen kunnen worden aangepast wanneer u een nieuwe locatie toevoegt of een bestaande locatie in de locatie flyout bewerkt. Dit biedt u de flexibiliteit om uw locatienamen op elk moment aan te passen. Wanneer u LAN-subnetten rechtstreeks in de locatie-flyout toevoegt, wordt er ook een vervolgkeuzelijst met zachte LAN-subnetten weergegeven waaruit u kunt kiezen. Circuitnamen voor specifieke IP-adressen voor office-egress kunnen ook worden toegevoegd en bewerkt.
+
+Op het tabblad Details op de pagina kantoorlocatie ziet u de specifieke meetresultaten die zijn gebruikt om inzichten, aanbevelingen en de netwerkbeoordeling op te leveren. Dit wordt verstrekt zodat netwerkingenieurs de aanbevelingen en factor in eventuele beperkingen of specifieke factoren in hun omgeving kunnen valideren. U vindt ook het geschatte aantal gebruikers voor verzamelde steekproeven op die kantoorlocaties en de externe werknemers in die plaats.
 
 > [!div class="mx-imgBorder"]
 > ![Locatiespecifieke details](../media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Basismobiliteit en beveiliging kunnen u helpen bij het beveiligen en beheren van mobiele apparaten.
-ms.openlocfilehash: 468f06edf16eb6ea00fd4d26c716bc145474dd25
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 60de4e3f36427a69ecf0bf52e5dfd34f089991f3
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904274"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994971"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>Capaciteiten Basic Mobility en Security
 
@@ -47,11 +47,9 @@ U kunt basismobiliteit en beveiliging gebruiken om de volgende apparaten te beve
 
 <sup>1</sup> Toegangsbeheer voor Windows 8.1 RT-apparaten is beperkt tot Exchange ActiveSync.
 
-<sup>2</sup> Toegangsbeheer voor Windows 8.1 RT-apparaten is beperkt tot Exchange ActiveSync.
-Voor Toegangsbeheer voor Windows 10 is een abonnement vereist dat Azure AD Premium bevat en dat het apparaat moet worden verbonden met Azure Active Directory.
+<sup>2</sup> Voor Toegangsbeheer voor Windows 10 is een abonnement vereist dat Azure AD Premium bevat en dat het apparaat moet worden verbonden met Azure Active Directory.
 
-<sup>3</sup> Toegangsbeheer voor Windows 8.1 RT-apparaten is beperkt tot Exchange ActiveSync.
-Na juni 2020 kunnen Android-versies later dan 9 geen wachtwoordinstellingen beheren, behalve op Samsung Knox-apparaten.
+<sup>3</sup> Na juni 2020 kunnen Android-versies later dan 9 geen wachtwoordinstellingen beheren, behalve op Samsung Knox-apparaten.
 
 >[!NOTE]
 >Apparaten die al zijn geregistreerd met eerdere OS-versies blijven werken, hoewel de mogelijkheden zonder kennisgeving kunnen veranderen.

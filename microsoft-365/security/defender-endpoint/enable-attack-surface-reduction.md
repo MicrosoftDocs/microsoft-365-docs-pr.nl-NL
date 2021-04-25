@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 7aeda679d5ce350ef64a2758359390adc4a280f0
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: df77a3d6c1f66882600a200b83b3b2585473f42b
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939240"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995067"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken inschakelen
 
@@ -33,20 +33,16 @@ ms.locfileid: "51939240"
 > [!TIP]
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-[Asr-regels (Attack Surface Reduction Rules)](attack-surface-reduction.md) helpen voorkomen dat malware vaak misbruik maakt van apparaten en netwerken. U kunt ASR-regels instellen voor apparaten met een van de volgende versies en versies van Windows:
-- Windows 10 Pro, [versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
-- Windows 10 Enterprise, [versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
-- Windows Server, [versie 1803 (halfjaarlijks kanaal)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+[Asr-regels (Attack Surface Reduction Rules)](attack-surface-reduction.md) helpen voorkomen dat malware vaak misbruik maakt van apparaten en netwerken.
 
 **Vereisten** U kunt regels voor het verminderen van aanvallen instellen voor apparaten met een van de volgende versies en versies van Windows:
 
-- Windows 10 Pro, versie 1709 of hoger
-- Windows 10 Enterprise, versie 1709 of hoger
-- Windows Server, versie 1803 (halfjaarlijks kanaal) of hoger
-- Windows Server 2019
+- Windows 10 Pro, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Enterprise, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows Server, [versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Hoewel voor regels voor het verminderen van aanvallen geen Windows E5-licentie is vereist, krijgt u geavanceerde beheermogelijkheden als u Windows E5 hebt. Deze mogelijkheden zijn alleen beschikbaar in Windows E5: monitoring, analyse en werkstromen die beschikbaar zijn in Defender voor Eindpunt, evenals rapportage- en configuratiemogelijkheden in het Microsoft 365-beveiligingscentrum. Deze geavanceerde mogelijkheden zijn niet beschikbaar met een Windows Professional- of Windows E3-licentie. Als u echter wel over deze licenties hebt, kunt u logboeken eventviewer en Microsoft Defender Antivirus gebruiken om de gebeurtenissen van de surface reduction rule van uw aanval te bekijken.
+Hoewel voor regels voor het verminderen van aanvallen geen [Windows E5-licentie](/windows/deployment/deploy-enterprise-licenses)is vereist, krijgt u geavanceerde beheermogelijkheden als u Windows E5 hebt. Deze mogelijkheden zijn alleen beschikbaar in Windows E5, zoals monitoring, analyse en werkstromen die beschikbaar zijn in [Defender voor Eindpunt,](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)evenals rapportage- en configuratiemogelijkheden in het [Microsoft 365-beveiligingscentrum.](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true) Deze geavanceerde mogelijkheden zijn niet beschikbaar met een Windows Professional- of Windows E3-licentie. Als u echter wel over deze licenties hebt, kunt u logboeken eventviewer en Microsoft Defender Antivirus gebruiken om de gebeurtenissen van de surface reduction rule van uw aanval te bekijken.
 
 Elke ASR-regel bevat een van de vier instellingen:
 

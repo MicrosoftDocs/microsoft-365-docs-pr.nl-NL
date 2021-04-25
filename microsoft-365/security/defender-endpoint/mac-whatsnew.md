@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: edbabf83c7bf1ac8dbe1ca9451ad191b45a862ac
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a1e07ac2e2e544605f04e9090177004db64d2f04
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932725"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994995"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Nieuwe functies in Microsoft Defender voor Eindpunt op Mac
 
@@ -38,10 +38,14 @@ ms.locfileid: "51932725"
 > [!IMPORTANT]
 > Voor macOS 11 (Big Sur) vereist Microsoft Defender voor Eindpunt extra configuratieprofielen. Als u een bestaande klant bent die upgradet van eerdere versies van macOS, moet u de extra configuratieprofielen implementeren die op [deze pagina worden vermeld.](mac-sysext-policies.md)
 
+## <a name="1012750-20121022127500"></a>101.27.50 (20.121022.12750.0)
+
+- Fix to accommodate for Apple certificate expiration for macOS Catalina and earlier. Met deze oplossing wordt de functionaliteit & Vulnerability Management (TVM) hersteld.
+
 ## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
 
 - Microsoft Defender voor Eindpunt op macOS is nu beschikbaar in preview voor klanten van de Amerikaanse overheid. Zie Microsoft [Defender for Endpoint voor klanten](gov.md)van de Amerikaanse overheid voor meer informatie.
-- Prestatieverbeteringen (met name voor de situatie waarin de XCode Simulator-app wordt gebruikt) en & correcties
+- Prestatieverbeteringen (met name voor de situatie waarin de XCode Simulator-app wordt gebruikt) & problemen.
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
 
