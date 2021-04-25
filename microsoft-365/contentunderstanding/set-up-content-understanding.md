@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: cc6fbfbfc130cc6e64b5d7c30e0a9db5f39036ac
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2f9fd4e035152a127f9f1c254f4c489a6ca4c976
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051565"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994699"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -59,6 +59,8 @@ Als u 300 of meer SharePoint Syntex-licenties voor SharePoint Syntex in uw organ
 
 U kunt een schatting maken van de benodigde AI Builder-capaciteit [AI Builder-calculator](https://powerapps.microsoft.com/ai-builder-calculator).
 
+Als u een aangepaste Power Platform-omgeving wilt gebruiken, moet u [tegoeden toewijzen aan die omgeving](/power-platform/admin/capacity-add-on).
+
 Ga naar het [Power platform-beheercentrum](https://admin.powerplatform.microsoft.com/resources/capacity) om uw credits en gebruiksgegevens te bekijken.
 
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
@@ -80,11 +82,21 @@ Ga naar het [Power platform-beheercentrum](https://admin.powerplatform.microsoft
       - **Geen SharePoint-bibliotheken** als u de optie niet beschikbaar wilt maken voor sites (u kunt dit wijzigen na de installatie).
 
    > [!div class="mx-imgBorder"]
-   > ![Formulierverwerking configureren](../media/content-understanding/admin-configforms.png)
+   > ![Opties voor formulierverwerkingssites configureren](../media/content-understanding/admin-configforms.png)
 
    > [!Note]
    > Het verwijderen van een site nadat deze is toegevoegd is niet van invloed op bestaande modellen die zijn toegepast op de bibliotheken in die site, of de mogelijkheid om documentbegrip toe te passen op een bibliotheek. 
     
+    Als u meerdere Power Platform-omgevingen hebt geconfigureerd, kunt u kiezen welke u wilt gebruiken voor de formulierverwerking. (Deze optie wordt niet weergegeven als u slechts één omgeving hebt.)
+
+    ![Opties voor Power Platform-formulierverwerking configureren](../media/content-understanding/setup-power-platform-env.png)
+
+    Voor de **Power Platform-omgeving** kunt u het volgende selecteren:
+    - **Gebruik de standaardomgeving** om uw Power Platform-standaardomgeving te gebruiken.
+    - **Gebruik een aangepaste omgeving** om een aangepaste omgeving te gebruiken. Kies de omgeving die u wilt gebruiken uit de lijst. U moet de *AI Builder voor Project Cortex*-app in deze omgeving installeren en er AI Builder-credits aan toewijzen voordat u formulierverwerkingsmodellen kunt maken.
+
+    Klik op **Volgende**.
+
 5. Op de pagina **Inhoudscentrum maken** kunt u een SharePoint-inhoudscentrumsite maken waar gebruikers documentbegripmodellen kunnen maken en beheren.
 
     1. Typ voor **Sitenaam** de naam die u de inhoudscentrumsite wilt geven.
@@ -126,3 +138,5 @@ Licenties toewijzen:
 [Overzicht van het formulierverwerkingsmodel](/ai-builder/form-processing-model-overview)
 
 [Stap voor stap: een documentbegripmodel maken (video)](https://www.youtube.com/watch?v=DymSHObD-bg)
+
+[Omgevingen maken en beheren in het Power Platform-beheercentrum](/power-platform/admin/create-environment)

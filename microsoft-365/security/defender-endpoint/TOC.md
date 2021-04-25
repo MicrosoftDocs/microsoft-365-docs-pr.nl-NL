@@ -243,6 +243,8 @@
 ##### [Handmatige implementatie](linux-install-manually.md)
 ##### [Implementatie op basis van Puppet](linux-install-with-puppet.md)
 ##### [Implementatie op basis van Ansible](linux-install-with-ansible.md)
+##### [Defender voor Eindpunt implementeren op Linux met Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+
 
 #### [Update](linux-updates.md)
 
@@ -253,7 +255,6 @@
 ##### [Mogelijk ongewenste toepassingen detecteren en blokkeren](linux-pua.md)
 ##### [Scans plannen met Microsoft Defender voor Eindpunt op Linux](linux-schedule-scan-atp.md)
 ##### [Een update van Microsoft Defender voor Eindpunt (Linux) plannen](linux-update-MDE-Linux.md)
-##### [Defender voor eindpunt implementeren op Linux met Chef](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [Problemen oplossen]()
 ##### [Installatieproblemen oplossen](linux-support-install.md)
