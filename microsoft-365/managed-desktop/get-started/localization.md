@@ -1,5 +1,5 @@
 ---
-title: De gebruikerservaring localiseren
+title: De gebruikerservaring lokaliseren
 description: Apparaten voor gebruikers lokaliseren
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -12,14 +12,14 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 20456ce837be60b707569ae07d4fb00b695b3a98
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 354f61284bbd95c1c7ca4cd50459a1644a89d090
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445949"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023259"
 ---
-# <a name="localize-the-user-experience"></a>De gebruikerservaring localiseren
+# <a name="localize-the-user-experience"></a>De gebruikerservaring lokaliseren
 
 Gebruikers van Microsoft Managed Desktop-apparaten kunnen de taal van hun keuze selecteren tijdens het installatieproces (de 'out of box experience') of daarna.
 
@@ -62,43 +62,43 @@ Als u bestaande apparaten opnieuw gebruikt, moet u mogelijk samenwerken met de v
 
 De [universele afbeelding van](../service-description/device-images.md#universal-image) Microsoft Managed Desktop bevat deze talen en voor Windows 10:
 
+- Arabisch
+- Bulgarian
+- Chinese Simplified
+- Chinese Traditional
+- Croatian
+- Czech
+- Danish  
+- Dutch  
 - Engels (VS, GB, AU, CA, IN)
-- Spaans (Spanje, Mexico)
-- Japanese
+- Estonian
+- Finnish 
 - Frans (Frankrijk, Canada)
 - German
-- Portugees (Brazilië)
-- Italian
-- Chinese Simplified
-- Dutch  
-- Swedish
-- Danish  
-- Finnish 
-- Russian 
-- Noors (Bokmal)
-- Korean
-- Chinese Traditional
-- Polish
-- Turkish
-- Arabisch
-- Hebrew
-- Portugees (Portugal)
-- Czech
-- Hungarian
-- Thai
-- Indonesian
 - Greek
-- Slovak
-- Vietnamese
-- Slovenian
-- Croatian
-- Romanian
-- Lithuanian
-- Bulgarian
-- Servisch (Latijns alfabet)
+- Hebrew
+- Hungarian
+- Indonesian
+- Italian
+- Japanese
+- Korean
 - Latvian
+- Lithuanian
+- Noors (Bokmål)
+- Polish
+- Portugees (Brazilië)
+- Portugees (Portugal)
+- Romanian
+- Russian 
+- Servisch (Latijns alfabet)
+- Slovak
+- Slovenian
+- Spaans (Spanje, Mexico)
+- Swedish
+- Thai
+- Turkish
 - Ukrainian
-- Estonian
+- Vietnamese
 
 Microsoft 365 Apps voor Enterprise ondersteunt mogelijk een iets andere lijst.
 

@@ -19,15 +19,14 @@ description: Gebruik Explorer- en realtimedetecties in het Beveiligings complian
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0dcda063fc544c88157cff21b8a28f7a84a6a6fb
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c6bea6cb60579263515d21e159c4032fe4281cad
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934703"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024179"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigingsverkenner en realtimedetecties
-
 
 **Van toepassing op**
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
@@ -35,6 +34,9 @@ ms.locfileid: "51934703"
 
 Als uw organisatie Microsoft Defender voor [Office 365](defender-for-office-365.md)heeft en u beschikt over de benodigde machtigingen, [](#required-licenses-and-permissions)beschikt u over **Explorer-** of **Realtimedetecties** (voorheen *Realtime-rapporten-* [](#new-features-in-threat-explorer-and-real-time-detections)zie wat er nieuw is !). Ga in het & Compliancecentrum naar **Bedreigingsbeheer** en kies **explorer** _of_ **realtime detecties.**
 
+<br>
+
+****
 
 |Met Microsoft Defender voor Office 365 Plan 2 ziet u:|Met Microsoft Defender voor Office 365 Plan 1 ziet u:|
 |---|---|
@@ -55,8 +57,9 @@ Met dit rapport kunt u het volgende doen:
 ## <a name="improvements-to-threat-hunting-experience"></a>Verbeteringen in threat hunting experience
 
 ### <a name="introduction-of-alert-id-for-mdo-alerts-within-explorerreal-time-detections-preview"></a>Introductie van waarschuwings-id voor MDO-waarschuwingen in Explorer/Realtimedetecties (preview)
+
 Als u vandaag van een waarschuwing naar Threat Explorer navigeert, wordt er een gefilterde weergave geopend in de Verkenner, met de weergave gefilterd op waarschuwingsbeleids-id (beleids-id is een unieke id voor een waarschuwingsbeleid).
-We maken deze integratie relevanter door de waarschuwings-id (zie een voorbeeld van waarschuwings-id hieronder) in Threat Explorer en real-time detecties te introduceren, zodat u berichten ziet die relevant zijn voor de specifieke waarschuwing, evenals een aantal e-mailberichten. U kunt ook zien of een bericht deel uitmaakte van een waarschuwing en van dat bericht naar de specifieke waarschuwing navigeren.  
+We maken deze integratie relevanter door de waarschuwings-id (zie een voorbeeld van waarschuwings-id hieronder) in Threat Explorer en real-time detecties te introduceren, zodat u berichten ziet die relevant zijn voor de specifieke waarschuwing, evenals een aantal e-mailberichten. U kunt ook zien of een bericht deel uitmaakte van een waarschuwing en van dat bericht naar de specifieke waarschuwing navigeren.
 
 Waarschuwings-id is beschikbaar in de URL wanneer u een afzonderlijke waarschuwing bekijkt. een voorbeeld `https://protection.office.com/viewalerts?id=372c9b5b-a6c3-5847-fa00-08d8abb04ef1` is.
 
@@ -66,11 +69,13 @@ Waarschuwings-id is beschikbaar in de URL wanneer u een afzonderlijke waarschuwi
 > [!div class="mx-imgBorder"]
 > ![Waarschuwings-id in details flyout](../../media/AlertID-DetailsFlyout.png)
 
- 
-### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>De bewaar- en zoeklimiet voor proeften tenants verlengen van 7 naar 30 dagen (Preview) voor het bewaren en zoeken van gegevens in Explorer (en realtimedetecties)  
-Als onderdeel van deze wijziging kunt u e-mailgegevens zoeken en filteren over 30 dagen (een toename ten opzichte van de vorige 7 dagen) in Threat Explorer/Real-time detecties voor zowel Defender voor Office P1- als P2-proeften tenants. Dit heeft geen invloed op productieten tenants voor zowel P1- als P2/E5-klanten, die al de mogelijkheden voor het bewaren en zoeken van 30 dagen hebben. 
+### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>De bewaar- en zoeklimiet voor proeften tenants verlengen van 7 naar 30 dagen (Preview) voor het bewaren en zoeken van gegevens in Explorer (en realtimedetecties)
 
-### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>Bijgewerkte limieten voor het exporteren van records voor Threat Explorer (Preview) 
+Als onderdeel van deze wijziging kunt u e-mailgegevens zoeken en filteren over 30 dagen (een toename ten opzichte van de vorige 7 dagen) in Threat Explorer/Real-time detecties voor zowel Defender voor Office P1- als P2-proeften tenants.
+Dit heeft geen invloed op productieten tenants voor zowel P1- als P2/E5-klanten, die al de mogelijkheden voor het bewaren en zoeken van 30 dagen hebben.
+
+### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>Bijgewerkte limieten voor het exporteren van records voor Threat Explorer (Preview)
+
 Als onderdeel van deze update wordt het aantal rijen voor e-mailrecords dat kan worden geëxporteerd vanuit Threat Explorer verhoogd van 9990 naar 200.000 records. De reeks kolommen die momenteel kan worden geëxporteerd, blijft hetzelfde, maar het aantal rijen wordt groter dan de huidige limiet.
 
 ### <a name="tags-in-threat-explorer"></a>Tags in Threat Explorer
@@ -99,6 +104,7 @@ U kunt tags gebruiken als filter. Jaag alleen op prioriteitsaccounts of specifie
 > ![Geen filterlabels](../../media/tags-filter-not.png)
 
 #### <a name="email-detail-flyout"></a>Flyout voor e-maildetails
+
 Als u de afzonderlijke tags voor afzender en geadresseerde wilt weergeven, selecteert u het onderwerp om de flyout berichtdetails te openen. Op het **tabblad** Overzicht worden de afzender- en geadresseerdelabels afzonderlijk weergegeven, als ze aanwezig zijn voor een e-mail.
 De informatie over afzonderlijke tags voor afzender en geadresseerde strekt zich ook uit tot geëxporteerde CSV-gegevens, waar u deze details in twee afzonderlijke kolommen kunt zien.
 
@@ -107,13 +113,12 @@ De informatie over afzonderlijke tags voor afzender en geadresseerde strekt zich
 
 Informatie over tags wordt ook weergegeven in de flyout klikken op URL's. Als u de weergave wilt bekijken, gaat u naar de weergave Phish of Alle e-mail en gaat u naar het tabblad **URL's** **of URL-klikken.** Selecteer een individuele URL-flyout om meer informatie te bekijken over klikken voor die URL, inclusief tags die aan die klik zijn gekoppeld.
 
-
 ### <a name="updated-timeline-view"></a>Bijgewerkte tijdlijnweergave
 
 > [!div class="mx-imgBorder"]
 > ![URL-tags](../../media/tags-urls.png)
-> 
-Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4). 
+>
+Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4).
 
 ## <a name="improvements-to-the-threat-hunting-experience-upcoming"></a>Verbeteringen in de bedreigingsjachtervaring (binnenkort)
 
@@ -174,6 +179,7 @@ Momenteel komen we de bezorgingslocatie boven in het e-mailraster en de e-mail f
 *Na de* bezorging van het e-mailbericht zijn aanvullende acties toegepast. Ze kunnen *ZAP,* *handmatige* herstel (actie van een beheerder zoals soft *delete),* dynamische bezorging en opwerking *bevatten* (voor een e-mail die met terugwerkende kracht als goed is gedetecteerd).
 
 > [!NOTE]
+>
 > - Als onderdeel van de wijzigingen die in behandeling zijn, gaat de waarde 'Verwijderd door ZAP' die momenteel in het filter Bezorgingsactie wordt opgedoken, weg. U hebt een manier om alle e-mail te zoeken met de ZAP-poging via **Aanvullende acties.**
 >
 > - Er komen nieuwe velden en waarden voor **detectietechnologieën** en **Aanvullende acties** (met name voor ZAP-scenario's). U moet uw bestaande opgeslagen query's en bijgeslagen query's evalueren om ervoor te zorgen dat ze met de nieuwe waarden werken.
@@ -207,12 +213,9 @@ De verbeteringen zijn onder andere:
 - De volledig geklikte URL (inclusief queryparameters die  deel uitmaken van de URL) in de sectie Klikken van de URL-flyout. Momenteel worden het URL-domein en het pad weergegeven op de titelbalk. We breiden deze informatie uit om de volledige URL weer te geven.
 
 - Fixes across URL filters (*URL* versus *URL domain* versus URL domain and path ): The updates *affect* searching for messages that contain a URL/click verdict. We hebben ondersteuning ingeschakeld voor protocol-agnostische zoekopdrachten, zodat u kunt zoeken naar een URL zonder gebruik te maken `http` van . Standaard wordt de URL naar http gezoekt, tenzij er expliciet een andere waarde is opgegeven. Bijvoorbeeld:
-
-   -  Zoek met en zonder het `http://` voorvoegsel in de **velden URL,** **URL-domein** en **URL-domein en pad.** De zoekopdrachten moeten dezelfde resultaten geven.
-
-   -  Zoek naar het `https://` voorvoegsel in **URL.** Wanneer er geen waarde is opgegeven, wordt het `http://` voorvoegsel aangenomen.
-
-   - `/`wordt genegeerd aan het begin en einde van het URL-pad, **URL-domein,** **URL-domein en padvelden.**  `/` aan het einde van het **URL-veld** wordt genegeerd.
+  - Zoek met en zonder het `http://` voorvoegsel in de **velden URL,** **URL-domein** en **URL-domein en pad.** De zoekopdrachten moeten dezelfde resultaten geven.
+  - Zoek naar het `https://` voorvoegsel in **URL.** Wanneer er geen waarde is opgegeven, wordt het `http://` voorvoegsel aangenomen.
+  - `/`wordt genegeerd aan het begin en einde van het URL-pad, **URL-domein,** **URL-domein en padvelden.**  `/` aan het einde van het **URL-veld** wordt genegeerd.
 
 ### <a name="phish-confidence-level"></a>Phish-betrouwbaarheidsniveau
 
@@ -290,16 +293,16 @@ U kunt zowel de GUID als de naam zien van de transportregels die op het bericht 
 
 > [!IMPORTANT]
 > De beschikbaarheid van ETR-zoekopdrachten en -namen is afhankelijk van de specifieke rol die aan u is toegewezen. U moet een van de volgende rollen/machtigingen hebben om de ETR-namen en zoekopdrachten weer te geven. Als u geen van deze rollen aan u hebt toegewezen, kunt u de namen van de transportregels niet zien of berichten zoeken met ETR-namen. U kunt echter wel het ETR-label en de GUID-informatie zien in de e-mailgegevens. Andere ervaringen met het weergeven van records in e-mailrasters, e-mail flyouts, Filters en Export worden niet beïnvloed.
-> 
+>
 > - ALLEEN EXO - Preventie van gegevensverlies: alles
 > - ALLEEN EXO - O365SupportViewConfig: Alles
 > - Microsoft Azure Active Directory of EXO - Beveiligingsbeheerder: alles
 > - AAD of EXO - Beveiligingslezer: Alles
 > - ALLEEN EXO - Transportregels: Alles
 > - ALLEEN EXO - View-Only Configuratie: Alles
-> 
+>
 > In het e-mailraster, de flyout Details en de geëxporteerde CSV worden de ETR's weergegeven met een Naam/GUID zoals hieronder wordt weergegeven.
-> 
+>
 > > [!div class="mx-imgBorder"]
 > > ![Exchange-transportregels](../../media/ETR_Details.png)
 
@@ -315,7 +318,7 @@ Het zoeken naar verbindingslijnen is 'bevat' in de natuur, wat betekent dat gede
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>Nieuwe functies in Threat Explorer en realtime detecties
 
 - [Phishing-e-mailberichten weergeven die zijn verzonden naar gebruikers en domeinen die zijn nagebootsd](#view-phishing-emails-sent-to-impersonated-users-and-domains)
--  [Voorbeeld van e-mailkoptekst bekijken en e-mailtekst downloaden](#preview-email-header-and-download-email-body)
+- [Voorbeeld van e-mailkoptekst bekijken en e-mailtekst downloaden](#preview-email-header-and-download-email-body)
 - [E-mailtijdlijn](#email-timeline)
 - [URL exporteren klik op gegevens](#export-url-click-data)
 
@@ -339,7 +342,7 @@ In dit voorbeeld wordt Threat Explorer gebruikt.
 
 4. Selecteer het onderwerp van een bericht onder het tabblad E-mail > tabblad Details om aanvullende imitatiegegevens te zien, zoals Imiteerde domein/gedetecteerde locatie.
 
-    **OF** 
+    **OF**
 
     Selecteer **Imiteerde gebruiker** en typ het e-mailadres van een beveiligde gebruiker in het tekstvak.
 
@@ -351,7 +354,7 @@ In dit voorbeeld wordt Threat Explorer gebruikt.
     :::image type="content" source="../../media/threat-ex-views-impersonated-user-image.png" alt-text="Het detailvenster Bedreigingsverkenner voor een beveiligde gebruiker met de detectielocatie en de gedetecteerde bedreiging (hier phish imitatie van een gebruiker).":::
 
 > [!NOTE]
-> Als u in stap 3  of 5  detectietechnologie  kiest en respectievelijk Imitatiedomein of Imitatiegebruiker selecteert, worden de gegevens op het tabblad E-mail details over de gebruiker of het domein en de gedetecteerde locatie alleen weergegeven op de berichten die zijn gerelateerd aan de gebruiker of het domein die worden vermeld op de  >   *pagina Anti-Phishingbeleid.*  
+> Als u in stap 3  of 5  detectietechnologie  kiest en respectievelijk Imitatiedomein of Imitatiegebruiker selecteert, worden de gegevens op het tabblad E-mail details over de gebruiker of het domein en de gedetecteerde locatie alleen weergegeven op de berichten die zijn gerelateerd aan de gebruiker of het domein die worden vermeld op de  >   *pagina Anti-Phishingbeleid.* 
 
 ### <a name="preview-email-header-and-download-email-body"></a>Voorbeeld van e-mailkoptekst bekijken en e-mailtekst downloaden
 
@@ -366,16 +369,26 @@ Hoe wordt dit gedaan? De bezorgingsstatus is nu onderverdeeld in twee kolommen:
 
 *Bezorgingsactie* is de actie die is ondernomen op een e-mail vanwege bestaand beleid of detecties. Hier volgen de mogelijke acties voor een e-mailbericht:
 
+<br>
+
+****
+
 |Geleverd|Ongewenste e-mail|Geblokkeerd|Vervangen|
 |---|---|---|---|
 |E-mail is bezorgd in het Postvak IN of de map van een gebruiker en de gebruiker heeft er toegang toe.|E-mail is verzonden naar de map Ongewenste e-mail of Verwijderd van de gebruiker en de gebruiker heeft toegang tot de map.|E-mailberichten die in quarantaine zijn geplaatst, die zijn mislukt of die zijn gedropt. Deze e-mails zijn niet toegankelijk voor de gebruiker.|In e-mail zijn schadelijke bijlagen vervangen door .txt-bestanden waarin staat dat de bijlage schadelijk was.|
+|
 
 Dit is wat de gebruiker wel en niet kan zien:
+
+<br>
+
+****
 
 |Toegankelijk voor eindgebruikers|Niet toegankelijk voor eindgebruikers|
 |---|---|
 |Geleverd|Geblokkeerd|
 |Ongewenste e-mail|Vervangen|
+|
 
 **Bezorgingslocatie** toont de resultaten van beleidsregels en detecties die na de bezorging worden uitgevoerd. Deze is gekoppeld aan de **_actie Bezorging._** Dit zijn de mogelijke waarden:
 

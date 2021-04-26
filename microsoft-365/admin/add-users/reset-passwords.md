@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Meer informatie over het opnieuw instellen van het wachtwoord voor een gebruiker in een Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: da2f2b7aced29cd121f7d597af5a518462d2623d
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 24fc6581837f71659a2ecc0359c6967e3969d868
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222049"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023975"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
@@ -50,7 +50,7 @@ Bekijk een korte video over het opnieuw instellen van gebruikerswachtwoorden.<br
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP]
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](../../business-video/index.yml).
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>Stappen: Een bedrijfswachtwoord opnieuw instellen voor een gebruiker
 
@@ -150,4 +150,4 @@ Kijk eens naar dit artikel: [Ik weet de gebruikersnaam of het wachtwoord niet me
 
 [Een voormalige werknemer verwijderen](remove-former-employee.md)
 
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](../../business-video/index.yml)

@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Meer informatie over het gebruik van Azure ExpressRoute met Office 365 en het plannen van het netwerkuitvoeringsproject als u er mee implementeert.
-ms.openlocfilehash: 9af9a2981c9220784725284aa602cf2de66721e5
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: d4c14d97cff2952f5f7052a8aa2940f05d644737
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408369"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023723"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Azure ExpressRoute voor Office 365
 
@@ -39,7 +39,7 @@ Lees hoe Azure ExpressRoute wordt gebruikt met Office 365 en hoe u het netwerkui
 > Microsoft Defender voor Eindpunt wordt niet ondersteund in Azure Express Route.
 
 > [!NOTE]
-> Microsoft-autorisatie is vereist voor het gebruik van ExpressRoute voor Office 365. Microsoft controleert elke klantaanvraag en autoreert ExpressRoute voor Office 365-gebruik wanneer de wettelijke vereisten van een klant directe connectiviteit verplicht stellen. Als u dergelijke vereisten hebt, geeft u het tekstfragment en de webkoppeling op naar de verordening die u interpreteert om te betekenen dat directe connectiviteit vereist is in het ExpressRoute voor [Office 365-aanvraagformulier](https://aka.ms/O365ERReview) om een Microsoft-beoordeling te starten. Ongeautoriseerde abonnementen die routefilters voor Office 365 proberen te maken, ontvangen een [foutbericht.](https://support.microsoft.com/kb/3181709)
+> Microsoft-autorisatie is vereist voor het gebruik van ExpressRoute voor Office 365. Microsoft controleert elke klantaanvraag en autoreert ExpressRoute voor Office 365-gebruik wanneer de wettelijke vereisten van een klant directe connectiviteit verplicht stellen. Als u dergelijke vereisten hebt, neem dan contact op met uw Microsoft-accountvertegenwoordiger om een Microsoft-beoordeling te starten. Ongeautoriseerde abonnementen die routefilters voor Office 365 proberen te maken, ontvangen een [foutbericht.](https://support.microsoft.com/kb/3181709)
 
 U kunt nu een directe netwerkverbinding toevoegen aan Office 365 voor geselecteerd Office 365-netwerkverkeer. Azure ExpressRoute biedt een directe verbinding, voorspelbare prestaties en wordt geleverd met een UPTIME SLA van 99,95% voor de Microsoft-netwerkonderdelen. U hebt nog steeds een internetverbinding nodig voor services die niet worden ondersteund via Azure ExpressRoute.
 

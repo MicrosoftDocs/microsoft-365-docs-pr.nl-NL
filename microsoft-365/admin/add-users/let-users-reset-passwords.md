@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Lees hoe u uw wachtwoorden opnieuw kunt instellen met behulp van het hulpprogramma voor het opnieuw instellen van wachtwoorden voor selfservice.
-ms.openlocfilehash: f43c409e98aa98e942bd7c7cbb15302422df241d
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0842430eda8c96647dd12d0da6d0c9e0481346dc
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222121"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023759"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -52,7 +52,7 @@ U moet een globale [beheerder of wachtwoordbeheerder zijn om](about-admin-roles.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>Stappen: Personen hun eigen wachtwoorden opnieuw laten instellen
 
@@ -94,4 +94,4 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
 
 [Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt](set-password-to-never-expire.md)
 
-[Trainingsvideo's voor Microsoft 365 Business](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 Business](../../business-video/index.yml)

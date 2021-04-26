@@ -10,14 +10,14 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c051eabf1f66f83bcacc83f34f0116a6427f4747
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 3b32a55816f96e88b5a8c4ab1a03de0b5993951d
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551222"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024059"
 ---
 # <a name="payment-information-for-germany"></a>Betalingsgegevens voor Duitsland
 
@@ -25,21 +25,23 @@ ms.locfileid: "50551222"
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Betaal in EUR en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.**
+**Betaal in EURO en verwijs naar het factuurnummer(en) voor uw overboeking van de betaling.**
 
-Als u een factuur hebt gefactureerd **door Microsoft Ireland Operations Limited,** gebruikt u deze bankgegevens:
+Als u een factuur hebt gefactureerd door **Microsoft Ireland Operations Limited,** gebruikt u deze bankgegevens:
 
-Bank: Citibank, London\
+Bank: Citibank, Londen\
 SWIFT-code: CITIGB2L\
 IBAN-code: GB31CITI18500812207591\
-SORTEERcode: 185008\
-Rekeningnummer: 12207591\
+SORT Code: 185008\
+Accountnummer: 12207591\
 Accountnaam: MICROSOFT
 
-Als u vanaf 1 maart 2021 een factuur hebt gefactureerd door **Microsoft Deutschland Wordt** gefactureerd voor orders en verbruik, gebruikt u deze bankgegevens:
+Als u vanaf 1 maart 2021 een factuur hebt gefactureerd door **Microsoft Deutschland GmbH** voor bestellingen en verbruik, gebruikt u deze bankgegevens:
 
 Bank: Citibank Europe plc\
 SWIFT-code: CITIIE2X\
 IBAN-code: IE38CITI99005170000122\
-Rekeningnummer: 70000122\
+Accountnummer: 70000122\
 Accountnaam: MICROSOFT
+
+Facturen die zijn uitgegeven vanuit een lokale Microsoft-dochteronderneming, worden uitgegeven met het standaardtarief btw/btw/btw en worden beschouwd als een binnenlandse levering van diensten voor btw/btw/btw-doeleinden.

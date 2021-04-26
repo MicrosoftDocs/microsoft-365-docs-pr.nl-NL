@@ -27,18 +27,18 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Lees hoe u beheerdersrollen kunt toewijzen aan een gebruiker of meerdere gebruikers in uw bedrijf, zodat ze specifieke taken kunnen uitvoeren in het beheercentrum.
-ms.openlocfilehash: 5c40199823c93968be97302efc8e2d404f3cfed1
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: c723053d8d1a39bf0f996840bc418ffe299db089
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604331"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023987"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
 Als u de persoon bent die uw Microsoft Business-abonnement heeft gekocht, bent u de globale beheerder. Dit betekent dat u onbeperkte controle hebt over de producten in uw abonnementen en dat u toegang hebt tot de meeste gegevens.
 
-Raadpleeg [Over beheerdersrollen](about-admin-roles.md) voor meer informatie.
+Zie[Over beheerdersrollen](about-admin-roles.md) voor meer informatie.
 
 Wanneer u nieuwe gebruikers toevoegt, als u ze geen beheerdersrol toewijst, zijn ze in de gebruikersrol en hebben ze geen beheerdersbevoegdheden aan een van de Microsoft-beheercentra.  Maar als u hulp nodig hebt om dingen voor elkaar te krijgen, kunt u een beheerdersrol toewijzen aan een gebruiker. Als u bijvoorbeeld iemand nodig hebt om wachtwoorden opnieuw in te stellen, moet u deze persoon niet de rol van globale beheerder toewijzen, maar de rol van wachtwoordbeheerder toewijzen. Te veel globale beheerders, met onbeperkte toegang tot uw gegevens en onlinezaken, is een beveiligingsrisico.
 
@@ -46,7 +46,7 @@ Wanneer u nieuwe gebruikers toevoegt, als u ze geen beheerdersrol toewijst, zijn
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen 
 

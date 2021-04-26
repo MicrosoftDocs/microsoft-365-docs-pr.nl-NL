@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Begrijp wat u moet weten voordat u het aanmeldingsproces voor Office 365 doormaakt. '
-ms.openlocfilehash: 93d3f58db24e4233e8d7b2929fd2471707614097
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f2a4f555540b801441644af28435170f82229909
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904370"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023915"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Registreren - Help voor beheerders
 
@@ -70,7 +70,7 @@ Bekijk een korte video over het kiezen van een Microsoft 365 voor Bedrijven-abon
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 Hulp nodig bij het kiezen van een plan? Er zijn verkoopadviseurs beschikbaar om uw vragen te beantwoorden. Ga naar [Alle producten vergelijken](https://products.office.com/compare-all-microsoft-office-products?tab=2) en kies een van de ondersteuningsopties voor contactpersonen aan de linkerkant van de pagina.
   
@@ -135,6 +135,6 @@ U hoeft uw proefabonnement niet te annuleren. Als u het proefabonnement niet koo
     > [!IMPORTANT]
     >  Wanneer u zich registreert, moet u de beste betalingsoptie voor uw organisatie kiezen. Bel de ondersteuning voor facturering als u betalingsopties wilt wijzigen.
 
-## <a name="see-also"></a>Zie ook
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor Bedrijven](../../business-video/index.yml) (koppelingen)

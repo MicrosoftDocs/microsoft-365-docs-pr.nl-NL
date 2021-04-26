@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Meer informatie over het herstellen van verwijderde gebruikersaccounts en alle bijbehorende gegevens.
-ms.openlocfilehash: 75e664c68dec13b857e4bd308d49e5b58d5edfc8
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 4893f7468a8ab5919dd3be1cce233917323f2076
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471011"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023963"
 ---
 # <a name="restore-a-user"></a>Een gebruiker herstellen
    
@@ -38,7 +38,7 @@ Hier zijn een paar tips:
   
 - Zorg ervoor dat licenties beschikbaar zijn om toe te wijzen aan het account.
     
-- Zie [Problemen met verwijderde gebruikersaccounts oplossen in Office 365](https://support.microsoft.com/kb/2619308) als uw bedrijf Active Directory gebruikt voor instructies over het herstellen van gebruikersaccounts. 
+- Zie [Problemen met verwijderde gebruikersaccounts oplossen in Office 365](/office365/troubleshoot/active-directory/restore-deleted-user-accounts.md) als uw bedrijf Active Directory gebruikt voor instructies over het herstellen van gebruikersaccounts. 
     
 ## <a name="restore-one-or-more-user-accounts"></a>Een of meer gebruikersaccounts herstellen
 

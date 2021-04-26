@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: 6a5498f4e480802f8770f7b7adde55fe7c996dc8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 94ed05d87fa290f2ae1059ae04c62c5d0d5e6860
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904478"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023771"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -38,7 +38,7 @@ Bekijk een korte video over het wijzigen van het e-mailadres van een gebruiker. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te voeren. 
 

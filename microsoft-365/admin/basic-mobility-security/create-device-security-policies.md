@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik Basismobiliteit en beveiliging om apparaatbeleid te maken dat uw organisatiegegevens beschermt.
-ms.openlocfilehash: f31930f1a753259622520e50da8c255e7cd410e5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5abd27f963208140a53cfd885152301992830b5e
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904286"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023903"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>Apparaatbeveiligingsbeleid maken in Basismobiliteit en Beveiliging
 
@@ -36,7 +36,7 @@ U kunt Basismobiliteit en beveiliging gebruiken om apparaatbeleid te maken om uw
 
 - Meer informatie over de apparaten, apps voor mobiele apparaten en beveiligingsinstellingen die door Basismobiliteit en Beveiliging worden ondersteund. Zie [Mogelijkheden van basismobiliteit en beveiliging.](capabilities.md)
 - Maak beveiligingsgroepen met Microsoft 365-gebruikers die u beleid wilt implementeren voor en voor gebruikers die u mogelijk wilt uitsluiten van geblokkeerde toegang tot Microsoft 365. We raden u aan het beleid te testen voordat u een nieuw beleid implementeert voor uw organisatie door het beleid te implementeren voor een klein aantal gebruikers. U kunt een beveiligingsgroep maken en gebruiken met alleen uzelf of een klein aantal Microsoft 365-gebruikers die het beleid voor u kunnen testen. Zie Een beveiligingsgroep maken, bewerken of verwijderen voor meer informatie over [beveiligingsgroepen.](../email/create-edit-or-delete-a-security-group.md)
-- Als u basisbeleid voor mobiliteit en beveiliging wilt maken en implementeren in Microsoft 365, moet u een globale beheerder van Microsoft 365 zijn. Zie Machtigingen [in het Beveiligings- & compliancecentrum voor meer informatie.](https://support.microsoft.com/office/d10608af-7934-490a-818e-e68f17d0e9c1)
+- Als u basisbeleid voor mobiliteit en beveiliging wilt maken en implementeren in Microsoft 365, moet u een globale beheerder van Microsoft 365 zijn. Zie Machtigingen [in het Beveiligings- & compliancecentrum voor meer informatie.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 - Voordat u beleid implementeert, laat u uw organisatie weten wat de mogelijke gevolgen zijn van het registreren van een apparaat in Basismobiliteit en Beveiliging. Afhankelijk van hoe u het beleid in stelt, kunnen niet-compatibele apparaten worden geblokkeerd voor toegang tot Microsoft 365 en gegevens, waaronder geïnstalleerde toepassingen, foto's en persoonlijke gegevens op een geregistreerd apparaat, en gegevens kunnen worden verwijderd.
 
 >[!NOTE]
@@ -85,7 +85,7 @@ Het beleid wordt naar het mobiele apparaat van elke gebruiker door het beleid ge
 
 ## <a name="step-4-block-email-access-for-unsupported-devices"></a>Stap 4: E-mailtoegang blokkeren voor niet-ondersteunde apparaten
 
-Als u uw organisatiegegevens wilt beveiligen, moet u app-toegang tot e-mail van Microsoft 365 blokkeren voor mobiele apparaten die niet worden ondersteund door Basismobiliteit en Beveiliging. Zie Ondersteunde apparaten voor een lijst met [ondersteunde apparaten.](https://support.microsoft.com/office/capabilities-of-basic-mobility-and-security-a1da44e5-7475-4992-be91-9ccec25905b0#bkmk_supporteddevices)
+Als u uw organisatiegegevens wilt beveiligen, moet u app-toegang tot e-mail van Microsoft 365 blokkeren voor mobiele apparaten die niet worden ondersteund door Basismobiliteit en Beveiliging. Zie Ondersteunde apparaten voor een lijst met [ondersteunde apparaten.](../../admin/basic-mobility-security/capabilities.md)
 
 **App-toegang blokkeren:**
 

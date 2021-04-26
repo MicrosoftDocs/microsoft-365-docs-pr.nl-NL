@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Volg deze controlelijst om een werknemer uit Microsoft 365 te verwijderen en gegevens te beveiligen. '
-ms.openlocfilehash: 50355a20e0d0e8ff782deebd9be65fdabf875bb2
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ec2dd37a38c2509c2aa6a904326b74c8d3b8d7fb
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860771"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023999"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>Een voormalige werknemer verwijderen of verwijderen
 
@@ -42,7 +42,7 @@ Bekijk een korte video over het verwijderen van een werknemer. <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 Als u wilt voorkomen dat een werknemer zich aanlogt:
 
@@ -143,7 +143,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer vervolgens het **tabblad E-mail.**
 3. Selecteer **onder E-mail doorsturen** de optie **E-mail doorsturen beheren.**
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in **het vak** Adres doorsturen het e-mailadres van de huidige werknemer die de e-mail gaat ontvangen.
-5. Klik op **Opslaan**.
+5. Selecteer **Opslaan**.
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 
 ::: moniker-end
@@ -158,7 +158,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd.
   
-5. Klik op **Opslaan**.
+5. Selecteer **Opslaan**.
 
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 
@@ -174,7 +174,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd.
   
-5. Klik op **Opslaan**.
+5. Selecteer **Opslaan**.
 
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 
@@ -188,7 +188,7 @@ Als uw voormalige werknemer een organisatietelefoon had, kunt u het Exchange-beh
 2. Ga in het Exchange-beheercentrum naar **Ontvangers** \> **Postvakken**.
 3. Selecteer de gebruiker en selecteer onder **Mobiele apparaten** de optie **Details weergeven.**
 4. Selecteer op **de pagina Details van** mobiele apparaten onder Mobiele **apparaten** het mobiele apparaat, selecteer **Apparaat** wissen en selecteer ![ vervolgens ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) **Blokkeren.**
-5. Klik op **Opslaan**.
+5. Selecteer **Opslaan**.
    > [!TIP]
    > Zorg ervoor dat u de gebruiker uit uw on-premises Blackberry Enterprise Service verwijdert of uit schakelt. U moet ook alle Blackberry-apparaten voor de gebruiker uitschakelen. Raadpleeg de beheerhandleiding voor de Blackberry Business Cloud Services als u specifieke stappen moet uitvoeren voor het uitschakelen van de gebruiker.
 
@@ -275,7 +275,7 @@ Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende d
 2. Selecteer het abonnement waarvan u licenties wilt verwijderen.
 3. Selecteer op de pagina Details **de optie Licenties verwijderen.**
 4. Voer in **het deelvenster** Licenties verwijderen onder  Nieuw aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 25 licenties hebt en u een van deze licenties wilt verwijderen, voert u 24 in.
-5. Klik op **Opslaan**.
+5. Selecteer **Opslaan**.
 ::: moniker-end
 
 ::: moniker range="o365-germany"

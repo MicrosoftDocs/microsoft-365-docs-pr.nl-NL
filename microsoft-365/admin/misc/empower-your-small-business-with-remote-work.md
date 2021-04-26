@@ -15,12 +15,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Vind de meest recente informatie, tips, bronnen en richtlijnen over extern werk voor bedrijven die Microsoft 365 gebruiken.
-ms.openlocfilehash: 3ef8bb3527e6be258eda8d745d841e8bd81cdd6c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5bdff59f3d07c59951c6da87d7b28432fb7c5878
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860581"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023735"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>Uw kleine bedrijven in staat stellen om extern werk te doen
 
@@ -37,9 +37,9 @@ Wanneer bedrijven zich aanpassen aan de toegenomen behoefte om mensen op afstand
 
 In het licht van de COVID-19-epidemie (Novel Coronavirus) hebben veel bedrijfseigenaren te maken met een volledig op afstand werkend personeel. Dit kunt u doen om een overgang te maken naar veilig, veilig en productief werken op afstand.
 
-Zie Aan de slag [met Microsoft Teams in uw kleine bedrijf voor meer informatie.](https://support.microsoft.com/office/get-started-with-microsoft-teams-in-your-small-business-184f1aba-2f91-43f0-86e1-9fae607e24f6)
+Zie Aan de slag [met Microsoft Teams in uw kleine bedrijf voor meer informatie.](../../business-video/get-started-teams-small-business.md)
 
-Hebt u al een abonnement, maar moet u dit instellen? Zie [Training voor Microsoft 365 voor kleine bedrijven](https://support.microsoft.com/office/set-up-your-small-business-6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Hebt u al een abonnement, maar moet u dit instellen? Zie [Training voor Microsoft 365 voor kleine bedrijven](../../business-video/index.yml).
 
 ## <a name="connect-with-employees-and-customers"></a>Verbinding maken met werknemers en klanten
 
@@ -49,19 +49,19 @@ U kunt nog steeds contact maken met werknemers, klanten, klanten en partners, ze
 
 Host audio-, video- en webvergaderingen met werknemers, klanten of partners via Microsoft Teams.
 
-Zie Onlinevergaderingen [hosten](https://support.microsoft.com/topic/host-online-meetings-for-your-business-d5101f5c-30e3-4097-bb10-6d2fdeb9cf53) en chatten met werknemers en klanten voor [meer informatie.](https://support.microsoft.com/office/chat-with-employees-and-customers-65748808-a403-462c-a6e1-b169e5bc6c92)
+Zie Onlinevergaderingen [hosten](../../business-video/start-and-pin-chats.md) en chatten met werknemers en klanten voor [meer informatie.](https://support.microsoft.com/office/chat-with-employees-and-customers-65748808-a403-462c-a6e1-b169e5bc6c92)
 
 ### <a name="store-and-share-files"></a>Bestanden opslaan en delen
 
 Plaats uw zakelijke documenten in de cloud en deel ze veilig, zowel intern als extern.
 
-Zie dit overzicht van het delen van zakelijke bestanden [en](https://support.microsoft.com/topic/share-your-business-files-overview-6725104a-6df7-4778-99c4-c06217dffecc) Het uploaden en delen van bestanden voor [meer informatie.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
+Zie dit overzicht van het delen van zakelijke bestanden [en](../../business-video/overview-file-sharing.md) Het uploaden en delen van bestanden voor [meer informatie.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
 
 ### <a name="collaborate-with-customers"></a>Samenwerken met klanten
 
 Nodig werknemers en klanten uit voor een team, zodat u rechtstreeks met hen kunt samenwerken om alles op één plaats te coördineren en samen te werken.
 
-Zie Een team maken [en](https://support.microsoft.com/office/create-a-team-with-guests-11fbb083-52ee-434d-8c6e-63711fdafac7) [Gasttoegang inschakelen](https://docs.microsoft.com/MicrosoftTeams/guest-joins)voor meer informatie.
+Zie Een team maken [en](../../business-video/team-with-guests.md) [Gasttoegang inschakelen](/MicrosoftTeams/guest-access)voor meer informatie.
 
 ## <a name="manage-and-secure-your-business-to-run-remotely"></a>Uw bedrijf beheren en beveiligen om op afstand te worden uitgevoerd
 
@@ -71,13 +71,13 @@ Met slechts een paar stappen kunt u uw bedrijf veilig houden, zelfs met externe 
 
 Gebruik meervoudige verificatie om uw gegevens en apparaten te beveiligen.
 
-Zie Meervoudige verificatie inschakelen voor meer [informatie.](https://support.microsoft.com/office/secure-employee-accounts-with-mfa-in-microsoft-365-business-e12187b8-216a-4490-9e3b-df34a06fb787)
+Zie Meervoudige verificatie inschakelen voor meer [informatie.](../../business-video/turn-on-mfa.md)
 
 ### <a name="secure-your-devices"></a>Je apparaten beveiligen
 
 Beheer pc's en telefoons op afstand en zorg ervoor dat ze beveiligd en up-to-date zijn. Hiervoor is Microsoft 365 Business vereist.
 
-Zie Apparaten [beheren voor meer informatie.](https://support.microsoft.com/office/manage-policies-for-windows-10-pcs-5b5aec9e-e267-463a-bc39-54753375e579)
+Zie Apparaten [beheren voor meer informatie.](../../business-video/secure-win-10-pro-devices.md)
 
 ### <a name="more-for-admins-and-partners"></a>Meer voor beheerders en partners
 

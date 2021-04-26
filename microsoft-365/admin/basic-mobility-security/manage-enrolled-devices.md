@@ -17,43 +17,43 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Met basis mobiliteit en beveiliging kunt u mobiele apparaten beschermen en beheren.
-ms.openlocfilehash: 4954da0ff44276d9bd46cabc78bc52c7879e5e26
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: Basismobiliteit en beveiliging kunnen u helpen bij het beveiligen en beheren van mobiele apparaten.
+ms.openlocfilehash: 4ff1c43343e00b7eac7aa38b2d266f163f79e2a7
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876958"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023879"
 ---
 # <a name="manage-devices-enrolled-in-mobile-device-management-in-microsoft-365"></a>Apparaten beheren die zijn geregistreerd voor Mobile Device Management in Microsoft 365
 
-Met behulp van de ingebouwde Mobile Device Management voor Microsoft 365 kunt u de mobiele apparaten van uw gebruikers, zoals iPhones, iPads, Android-telefoons en Windows Phones beschermen en beheren. De eerste stap is om u aan te melden bij Microsoft 365 en basis mobiliteit en beveiliging in te stellen. Zie [eenvoudige mobiliteit en beveiliging instellen](set-up.md)voor meer informatie.
+Met het ingebouwde beheer van mobiele apparaten voor Microsoft 365 kunt u de mobiele apparaten van uw gebruikers, zoals iPhones, iPads, Androids en Windows-telefoons, beveiligen en beheren. De eerste stap is om u aan te melden bij Microsoft 365 en basismobiliteit en beveiliging in te stellen. Zie Basismobiliteit en beveiliging instellen voor [meer informatie.](set-up.md)
 
-Nadat u deze hebt ingesteld, moeten de personen in uw organisatie hun apparaten in de service registreren. Zie voor meer informatie [uw mobiele apparaat registreren met behulp van eenvoudige mobiliteit en beveiliging](enroll-your-mobile-device.md).Vervolgens kunt u de basis mobiliteit en beveiliging gebruiken om apparaten in uw organisatie te beheren. U kunt bijvoorbeeld beveiligingsbeleid voor apparaten gebruiken om de toegang tot e-mailberichten of andere services te beperken, de rapporten van apparaten weer te geven en een apparaat op afstand te wissen. Meestal gaat u naar het beveiligings & nalevings centrum om deze taken uit te voeren. Zie [Microsoft 365 compliance Center](https://support.microsoft.com/office/7e696a40-b86b-4a20-afcc-559218b7b1b8)voor meer informatie.
+Nadat u deze hebt ingesteld, moeten de personen in uw organisatie hun apparaten registreren voor de service. Zie Uw mobiele apparaat registreren met [basismobiliteit en beveiliging voor meer informatie.](enroll-your-mobile-device.md)Vervolgens kunt u basismobiliteit en beveiliging gebruiken om apparaten in uw organisatie te beheren. U kunt bijvoorbeeld apparaatbeveiligingsbeleid gebruiken om e-mailtoegang of andere services te beperken, apparatenrapporten weer te geven en een apparaat op afstand te wissen. U gaat meestal naar het Beveiligingscentrum & compliancecentrum om deze taken uit te voeren. Zie Microsoft [365 compliance center](../../compliance/microsoft-365-compliance-center.md)voor meer informatie.
 
-## <a name="device-management-tasks"></a>Beheertaken voor apparaten
+## <a name="device-management-tasks"></a>Apparaatbeheertaken
 
-Voer de volgende stappen uit om het deelvenster Apparaatbeheer te openen:
+Ga als volgt te werk om naar het apparaatbeheervenster te gaan:
 
-1. Ga naar het [Microsoft 365-Beheercentrum](https://support.microsoft.com/office/758befc4-0888-4009-9f14-0d147402fd23).
+1. Ga naar het [Microsoft 365-beheercentrum.](../../admin/admin-overview/about-the-admin-center.md)
 
-2. Typ Mobile Device Management in het zoekveld en selecteer **Mobile Device Management**   in de lijst met resultaten.
+2. Typ Mobile Device Management in het zoekveld en selecteer **Mobile Device Management** in de lijst met   resultaten.
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-6-mobile-device-management-option.png" alt-text="Optie voor het beheer van mobiele apparaten":::
+    :::image type="content" source="../../media/basic-mobility-security/bms-6-mobile-device-management-option.png" alt-text="Optie voor mobiel apparaatbeheer":::
 
-3. Selecteer  **laten we aan de slag** gaan.
+3. Selecteer  **Laten we aan de slag gaan.**
 
 ## <a name="manage-mobile-devices"></a>Mobiele apparaten beheren
 
-Nadat u eenvoudige mobiliteit en beveiliging hebt ingesteld, kunt u op een van de volgende manieren de mobiele apparaten in uw organisatie beheren.
+Nadat u Basismobiliteit en Beveiliging hebt ingesteld, zijn hier enkele manieren waarop u de mobiele apparaten in uw organisatie kunt beheren.
 
-|**Als u dit wilt doen**|**Werkwijze**|
+|**Om dit te doen**|**Doe dit**|
 |:----------------|:------------------------------------------------------------------------------|
-|Een apparaat wissen |Selecteer in het deelvenster Apparaatbeheer de optie *apparaatnaam* en vervolgens  **volledig wissen**   om alle gegevens te verwijderen of  **selectief wissen**   om alleen bedrijfsgegevens op het apparaat te verwijderen. Zie [een mobiel apparaat wissen in basis mobiliteit en beveiliging](wipe-mobile-device.md)voor meer informatie.|
-|Het openen van niet-ondersteunde apparaten via Exchange ActiveSync blokkeren |Selecteer in het deelvenster Apparaatbeheer de optie  **blokkeren**. |
-|Beleidsregels voor apparaten instellen, zoals wachtwoordvereisten en beveiligingsinstellingen |Selecteer in het deelvenster Apparaatbeheer de optie **beveiligingsbeleid voor apparaten**   >  ****. Zie voor meer informatie het artikel [beveiligingsbeleid voor apparaten maken voor eenvoudige mobiliteit en beveiliging](create-device-security-policies.md).|
-|Lijst met geblokkeerde apparaten weergeven  |Selecteer in het deelvenster Apparaatbeheer onder  **Selecteer een weergave** de   optie  **geblokkeerd**. |
-|Niet-compatibel of niet-ondersteund apparaat voor een gebruiker of groep gebruikers deblokkeren  |Selecteer een van de volgende opties om de apparaten op te heffen:<br/>-De gebruikers of gebruikers van de beveiligingsgroep verwijderen waarop het beleid is toegepast. Ga naar het Microsoft 365-Beheercentrum > **groepen** en selecteer vervolgens groepsnaam. Selecteer **leden en beheerders bewerken**.<br/>-Verwijder de beveiligingsgroep waarvan de gebruikers deel uitmaken van het apparaatbeleid. Ga naar beveiligings & compliance >Security  **Policies**   >  **Security** policies. Selecteer naam apparaatbeleid en selecteer vervolgens implementatie **bewerken**  >  .<br/>: Alle niet-compatibele apparaten voor een apparaatbeleid deblokkeren. Ga naar beveiligings & compliance >Security  **Policies**   >  **Security** policies. Selecteer naam apparaatbeleid en selecteer vervolgens   >  **toegangsvereisten** bewerken. Selecteer  **toegang toestaan en schending melden**.<br/>-Als u een niet-compatibel of niet-ondersteund apparaat wilt blokkeren voor een gebruiker of een groep gebruikers, gaat u naar beveiliging & compliance > **Security Policies**   >  ****   >  **Manage Settings Settings**. Een beveiligingsgroep toevoegen waarvan u de toegang tot Microsoft 365 wilt uitsluiten, is geblokkeerd. Zie [een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365-Beheercentrum](https://support.microsoft.com/office/55c96b32-e086-4c9e-948b-a018b44510cb)voor meer informatie.|
-|Gebruikers verwijderen zodat hun apparaten niet meer worden beheerd via basis mobiliteit en beveiliging |Als u de gebruiker wilt verwijderen, bewerkt u de beveiligingsgroep met beleidsregels voor apparaten voor eenvoudige mobiliteit en beveiliging. Zie  [een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365-Beheercentrum](https://support.microsoft.com/office/55c96b32-e086-4c9e-948b-a018b44510cb)voor meer informatie.<br/>Als u eenvoudige mobiliteit en beveiliging van alle Microsoft 365-gebruikers wilt verwijderen, raadpleegt u [eenvoudige mobiliteit en beveiliging](turn-off.md)uitschakelen.|
+|Een apparaat wissen |Selecteer in het deelvenster Apparaatbeheer  **** de naam van het apparaat *en* vervolgens Volledig wissen om alle gegevens te verwijderen of Selectief wissen om alleen organisatiegegevens op het apparaat   te  ****   verwijderen. Zie Een mobiel apparaat [wissen in Basismobiliteit en Beveiliging voor meer informatie.](wipe-mobile-device.md)|
+|Niet-ondersteunde apparaten blokkeren voor toegang tot Exchange-e-mail met Exchange ActiveSync |Selecteer blokkeren in het deelvenster  **Apparaatbeheer.** |
+|Apparaatbeleid instellen, zoals wachtwoordvereisten en beveiligingsinstellingen |Selecteer in het deelvenster Apparaatbeheer de optie **Apparaatbeveiligingsbeleid**   >  **Toevoegen +**. Zie Apparaatbeveiligingsbeleid maken [in Basismobiliteit en Beveiliging voor meer informatie.](create-device-security-policies.md)|
+|Lijst met geblokkeerde apparaten weergeven  |Selecteer in het deelvenster Apparaatbeheer onder  **Selecteer een weergave** de optie     **Geblokkeerd.** |
+|Niet-compatibele of niet-ondersteunde apparaten deblokkeren voor een gebruiker of groep gebruikers  |Kies een van de volgende opties om de blokkering van apparaten te deblokkeren:<br/>- Verwijder de gebruiker of gebruikers uit de beveiligingsgroep waar het beleid op is toegepast. Ga naar het Microsoft 365-beheercentrum > **Groepen** en selecteer vervolgens groepsnaam. Selecteer **Leden en beheerders bewerken.**<br/>- Verwijder de beveiligingsgroep waar de gebruikers lid van zijn uit het apparaatbeleid. Ga naar Beveiligings- & compliancecentrum > **beveiligingsbeleid**   >  **Apparaatbeveiligingsbeleid.** Selecteer apparaatbeleidsnaam en selecteer **vervolgens Implementatie**  >  **bewerken.**<br/>- Blokkering opheffen van alle niet-compatibele apparaten voor een apparaatbeleid. Ga naar Beveiligings- & compliancecentrum > **beveiligingsbeleid**   >  **Apparaatbeveiligingsbeleid.** Selecteer apparaatbeleidsnaam en selecteer **vervolgens**  >  **Access-vereisten bewerken.** Selecteer  **Toegangs- en rapportovertreding toestaan.**<br/>- Als u een niet-compatibel of niet-ondersteund apparaat wilt deblokkeren voor een gebruiker of een groep gebruikers, gaat u naar Beveiligings- & Compliancecentrum > **Beveiligingsbeleid**   >  **Apparaatbeheer** Apparaattoegangsinstellingen   >  **beheren.** Voeg een beveiligingsgroep toe met de leden die u wilt uitsluiten van geblokkeerde toegang tot Microsoft 365. Zie Een beveiligingsgroep maken, bewerken of verwijderen in het [Microsoft 365-beheercentrum](../../admin/email/create-edit-or-delete-a-security-group.md)voor meer informatie.|
+|Gebruikers verwijderen zodat hun apparaten niet meer worden beheerd door Basismobiliteit en Beveiliging |Als u de gebruiker wilt verwijderen, bewerkt u de beveiligingsgroep met apparaatbeheerbeleid voor Basismobiliteit en Beveiliging. Zie Een beveiligingsgroep maken, bewerken of verwijderen in het  [Microsoft 365-beheercentrum](../../admin/email/create-edit-or-delete-a-security-group.md)voor meer informatie.<br/>Zie Basismobiliteit en beveiliging uitschakelen als u basismobiliteit en beveiliging wilt verwijderen van al uw Microsoft 365-gebruikers. [](turn-off.md)|
 
-Live (V14)
+Live (v14)

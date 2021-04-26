@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Ontdek hoe u gegevens handmatig kunt overbrengen tussen twee Microsoft 365-accounts wanneer u het abonnement of de bedrijfsnaam hebt gewijzigd of meerdere abonnementen in één account hebt gecombineerd.
-ms.openlocfilehash: 9916da50f4589f949d35466ca6aa8f1d79cc40ea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b240ffbbdbfb6ed7d20a9ead9b1ee90a3af4570d
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915504"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023831"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Gegevens handmatig overmaken tussen twee accounts
 
@@ -91,11 +91,11 @@ Er zijn verschillende manieren om de gegevens van een teamsite op te slaan of ov
   
 - U kunt de oude site opslaan als een sjabloon en vervolgens de sjabloon importeren in de nieuwe site.
 
-- Als u documenten wilt overbrengen, maakt u eerst de hiërarchie handmatig opnieuw op de nieuwe site. Vervolgens kunt u beide SharePoint-teamsites tegelijk openen, beide documentbibliotheken openen met Windows Verkenner, en de documenten kopiëren en plakken. Bekijk deze [video: over het kopiëren of verplaatsen van bibliotheekbestanden met de opdracht Openen in Verkenner](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
+- Als u documenten wilt overbrengen, maakt u eerst de hiërarchie handmatig opnieuw op de nieuwe site. Vervolgens kunt u beide SharePoint-teamsites tegelijk openen, beide documentbibliotheken openen met Windows Verkenner, en de documenten kopiëren en plakken. Bekijk deze [video: over het kopiëren of verplaatsen van bibliotheekbestanden met de opdracht Openen in Verkenner](../../business-video/store-files.md).
 
 - Als u gegevens in een lijst wilt overbrengen, slaat u de [lijst op als een sjabloon](https://support.microsoft.com/office/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393) en gebruikt u de sjabloon om de lijst opnieuw te maken op de nieuwe site.
 
-- Zie Informatie over handmatige migratie van [SharePoint Online-inhoud](https://support.microsoft.com/kb/2783484)als u een documentbibliotheek of lijstinhoud wilt opslaan vanuit een SharePoint Online-omgeving (OneDrive voor Bedrijven of teamsites) in bestandsaandelen of op een lokale computer.
+- Zie Informatie over handmatige migratie van [SharePoint Online-inhoud](/sharepoint/troubleshoot/migration-tool/content-manual-migration)als u een documentbibliotheek of lijstinhoud wilt opslaan vanuit een SharePoint Online-omgeving (OneDrive voor Bedrijven of teamsites) in bestandsaandelen of op een lokale computer.
 
 ## <a name="transfer-users-data-between-subscriptions"></a>Gegevens van gebruikers overbrengen naar een ander abonnement
 

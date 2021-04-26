@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-beheercentrum : meer informatie over de functies
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 0c17c6840d73c5b0a2714c6c6a832c154e2a9640
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 90f75b0c1ea38833325c51399108551286f55e92
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768688"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024191"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365-beheercentrum
 
@@ -231,7 +231,7 @@ Een paar maanden geleden hebben we een instelling toegevoegd waarmee u de nieuwe
 
 ### <a name="docs-training-and-videos-june"></a>Documenten, training en video's (juni)
 
-- [Aan de slag met Teams](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
+- [Aan de slag met Teams](../business-video/get-started-teams-small-business.md)
 
 ## <a name="may-2020"></a>Mei 2020
 
@@ -333,19 +333,19 @@ Nieuwe functies **in microsoft 365-videoreeksen:** Deze maand behandelen we tips
 
 #### <a name="for-your-users"></a>Voor uw gebruikers
 
-- [Een vergadering plannen](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
+- [Een vergadering plannen](../business-video/schedule-guest-meeting.md)
 - [Deelnemen aan een Teams-vergadering](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Een team voor uw hele organisatie maken](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [Een team maken met gasten](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
-- [Deelnemen aan een team als gast](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Een groepsmailadres maken](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
+- [Een team voor uw hele organisatie maken](../business-video/org-wide-team.md)
+- [Een team maken met gasten](../business-video/team-with-guests.md)
+- [Deelnemen aan een team als gast](../business-video/join-team-guest.md)
+- [Een groepsmailadres maken](../business-video/group-email.md)
 
 #### <a name="for-admins-and-business-owners"></a>Voor beheerders en bedrijfseigenaren
 
 - [Uw kleine bedrijven in staat stellen om extern werk te doen](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
-- [Een extern klein bedrijf runnen](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Registreren voor Microsoft Business Basic](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Aanmelding met twee factoren instellen](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Een extern klein bedrijf runnen](../business-video/sign-up.md)
+- [Registreren voor Microsoft Business Basic](../business-video/sign-up.md)
+- [Aanmelding met twee factoren instellen](../business-video/sign-up.md)
 
 ## <a name="march-2020"></a>Maart 2020
 

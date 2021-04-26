@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Veelgestelde vragen over basismobiliteit en beveiliging.
-ms.openlocfilehash: a538c0b3f9fa6a4bf1861734fc9dea94030760a3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 14e12678ec210325f63914594fb6debcf7abb880
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906262"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023891"
 ---
 # <a name="basic-mobility-and-security-frequently-asked-questions-faq"></a>Veelgestelde vragen over basismobiliteit en beveiliging
 
@@ -51,7 +51,7 @@ Zie Basismobiliteit en beveiliging instellen voor [meer informatie.](set-up.md)
 
 ## <a name="im-trying-to-set-up-basic-mobility-and-security-but-it-seems-stuck-the-microsoft-365-service-health-has-been-showing-provisioning-for-a-while-what-can-i-do"></a>Ik probeer basismobiliteit en beveiliging in te stellen, maar het lijkt vast te zitten. In de Microsoft 365-servicetoestand wordt al een tijdje 'inrichting' weergegeven. Wat kan ik doen?
 
-Het kan enige tijd duren om de service voor u klaar te maken. Wanneer de inrichting is voltooid, ziet u de pagina Basismobiliteit en beveiliging. Als u 24 uur hebt gewacht en de status nog steeds wordt ingericht, neem dan contact op met ondersteuning en we helpen u erachter te komen wat het probleem is. Zie Nog steeds hulp [nodig? voor ondersteuningsopties.](https://support.microsoft.com/office/frequently-asked-questions-about-basic-mobility-and-security-3871f99c-c9db-4a23-86f9-902c1b02f58d#bkmk_needhelp)
+Het kan enige tijd duren om de service voor u klaar te maken. Wanneer de inrichting is voltooid, ziet u de pagina Basismobiliteit en beveiliging. Als u 24 uur hebt gewacht en de status nog steeds wordt ingericht, neem dan contact op met ondersteuning en we helpen u erachter te komen wat het probleem is.
 
 ## <a name="what-can-i-do-if-device-enrollment-fails"></a>Wat kan ik doen als de registratie van apparaten mislukt?
 
@@ -73,7 +73,7 @@ Basismobiliteit en beveiliging wordt gehost door de Intune-service. Het is een s
 
 ## <a name="how-do-policies-work-for-basic-mobility-and-security-how-do-i-set-them-up-disable-them"></a>Hoe werken beleidsregels voor basismobiliteit en beveiliging? Hoe stel ik ze in? Uitschakelen?
 
-Nadat u de eerste installatie voor Basismobiliteit en Beveiliging hebt voltooid, maakt u beleidsregels en kunt u deze toepassen op groepen gebruikers in het Beveiligings- & Compliancecentrum. Voor beleidsregels moeten gebruikers van het beleid hun apparaten registreren in Basismobiliteit en Beveiliging voordat het apparaat kan worden gebruikt voor toegang tot Microsoft 365-gegevens. Het beleid dat u in stelt, bepaalt de instellingen voor mobiele apparaten, bijvoorbeeld hoe vaak wachtwoorden opnieuw moeten worden ingesteld of of gegevensversleuteling vereist is. Zie Beveiligingsbeleid voor apparaten maken [in basismobiliteit](create-device-security-policies.md)en beveiliging en   microsoft [365-compliancecentrum](https://support.microsoft.com/office/7e696a40-b86b-4a20-afcc-559218b7b1b8)voor meer informatie.
+Nadat u de eerste installatie voor Basismobiliteit en Beveiliging hebt voltooid, maakt u beleidsregels en kunt u deze toepassen op groepen gebruikers in het Beveiligings- & Compliancecentrum. Voor beleidsregels moeten gebruikers van het beleid hun apparaten registreren in Basismobiliteit en Beveiliging voordat het apparaat kan worden gebruikt voor toegang tot Microsoft 365-gegevens. Het beleid dat u in stelt, bepaalt de instellingen voor mobiele apparaten, bijvoorbeeld hoe vaak wachtwoorden opnieuw moeten worden ingesteld of of gegevensversleuteling vereist is. Zie Beveiligingsbeleid voor apparaten maken [in basismobiliteit](create-device-security-policies.md)en beveiliging en   microsoft [365-compliancecentrum](../../compliance/microsoft-365-compliance-center.md)voor meer informatie.
 
 Zie Apparaatbeveiligingsbeleid maken [in Basismobiliteit en Beveiliging](create-device-security-policies.md)voor stapsgewijse instructies voor het maken en implementeren van apparaatbeleid.
 
