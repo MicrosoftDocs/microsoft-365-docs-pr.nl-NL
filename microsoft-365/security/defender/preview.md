@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 291ee6d2f72579a6daf731c121265164b2aaa547
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c82e1abf9e539ad169bbc488ade9cd21bb8e6727
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059633"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029072"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Preview-functies van Microsoft 365 Defender
 
@@ -68,10 +68,6 @@ U weet dat u preview-functies hebt ingeschakeld wanneer u ziet dat het selectiev
 
 De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-versie:
 
-### <a name="improved-microsoft-365-security-center"></a>Verbeterd Microsoft 365-beveiligingscentrum
-Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Dit is de nieuwe thuisbasis voor het beheren van uw beveiligingsbesturingselementen. [Ontdek wat er nieuw is](./overview-security-center.md).
-
-- **[Microsoft 365 Defender threat analytics report](threat-analytics.md)** - Threat Analytics helpt u bij het reageren op en minimaliseren van de impact van actieve aanvallen. U kunt ook meer informatie krijgen over aanvalspogingen die zijn geblokkeerd door Microsoft 365 Defender-oplossingen en preventief optreden om het risico op verdere blootstelling te beperken en de tolerantie te vergroten. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor licentiehouders van Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5.
 - **[Microsoft 365 Defender API's](api-overview.md)** : met de api's op het hoogste niveau van Microsoft 365 Defender kunt u werkstromen automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen. 
 - **[Actie ondernemen in geavanceerde jacht](advanced-hunting-take-action.md)**: snel bedreigingen bevatten of gecompromitteerde activa die u vindt in geavanceerde [jacht.](advanced-hunting-overview.md)
 - **[In-portal schemaverwijzing:](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** informatie over geavanceerde schematabellen voor jagen rechtstreeks in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze verwijzing ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.

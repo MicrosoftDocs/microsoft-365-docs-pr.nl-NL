@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: d970ac1a28c62703f648e4fbf6f66e2f825a6188
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 571acc9c240fc0243998050ac3013258a2f85a3e
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574617"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52028942"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Apps in Microsoft Managed Desktop
 
@@ -27,8 +27,7 @@ ms.locfileid: "51574617"
 
 Microsoft bevat bepaalde belangrijke apps samen met de Microsoft 365 E3- of E5-licentie die nodig is om deel te nemen aan Microsoft Managed Desktop. Hoewel we deze apps leveren, hebt u echter nog steeds bepaalde verantwoordelijkheden en acties die u moet uitvoeren.
 
-U kunt ook extra niet-Microsoft-apps implementeren voor uw gebruikers voor selfservice via de bedrijfsportal of een vereiste achtergrondinstallatie, allemaal met de implementatiepijplijn van Microsoft Intune. Als u de expertise hebt, kunt u de apps migreren die u zelf nodig hebt. U kunt ook microsoft Consulting Services (MCS) of niet-Microsoft-leveranciers helpen u graag met een verpakkings- en migratieproject. Zie Werken met Microsoft Consulting [Services](apps-MCS.md)voor meer informatie over het werken met MCS.
-
+U kunt ook extra niet-Microsoft-apps implementeren voor uw gebruikers voor selfservice via de bedrijfsportal of een vereiste achtergrondinstallatie, allemaal met de implementatiepijplijn van Microsoft Intune. 
 
 ## <a name="apps-provided-by-microsoft"></a>Apps van Microsoft
 
@@ -48,10 +47,7 @@ Er zijn nog bepaalde dingen die u met deze apps moet doen:
 
 ## <a name="apps-you-provide"></a>Apps die u verstrekt
 
-U hebt waarschijnlijk andere apps die u nodig hebt voor uw bedrijfsactiviteiten. Deze apps kunnen alleen worden geïmplementeerd op Microsoft Managed Desktop-apparaten met behulp van de implementatiepijplijn van Microsoft Intune. Als de app deze nodig heeft, kunt u ze laten verpakken door een leverancier (die een niet-Microsoft-leverancier of Microsoft Consulting Services (MCS) kan zijn, of als u de middelen hebt, kunt u ze zelf verpakken. Vervolgens voegt u deze pakketten toe aan de Microsoft Managed Desktop-portal en wijst u deze toe aan Azure Active Directory-groepen om de implementatie te activeren. 
-
-Als u uw apps momenteel implementeert met Microsoft Endpoint Configuration Manager, kan Microsoft Managed Desktop u een query geven om uw apps te beoordelen en te ontdekken welke klaar zijn om te migreren naar Microsoft Intune en welke apps mogelijk moeten worden aangepast.
-
+U hebt waarschijnlijk andere apps die u nodig hebt voor uw bedrijfsactiviteiten. Deze apps kunnen alleen worden geïmplementeerd op Microsoft Managed Desktop-apparaten met behulp van de implementatiepijplijn van Microsoft Intune. Volg de stappen in Apps implementeren op Microsoft Managed Desktop-apparaten voor meer informatie over [toepassingsimplementatie.](../get-started/deploy-apps.md)
 
 ### <a name="preparing-your-own-apps-for-inclusion-in-microsoft-managed-desktop"></a>Uw eigen apps voorbereiden voor opname in Microsoft Managed Desktop
 Controleer uw apps en controleer:
@@ -59,24 +55,6 @@ Controleer uw apps en controleer:
 - Geen van de apps is verboden of heeft beperkt gedrag, zoals beschreven in [microsoft Managed Desktop-appvereisten.](../service-description/mmd-app-requirements.md)
 - Apps moeten klaar zijn voor beheer door Microsoft Intune. Zie Implementatie van [Windows 10-apps met Microsoft Intune](/intune/apps-windows-10-app-deploy) en Apps toevoegen aan Microsoft [Intune](/intune/apps-add)voor meer informatie over dit onderwerp.
 - Andere vereisten voor het vooraf verpakken, zoals het verstrekken van licentiesleutels, het akkoord met licentievoorwaarden en het vooraf instellen van serververbindingen.
-
-### <a name="decide-how-to-package-apps"></a>Bepalen hoe apps worden verpakt
-
-Sommige onafhankelijke software-uitgevers vereisen mogelijk dat uw apps zijn verpakt voordat ze centraal worden geïmplementeerd. 'Verpakking' betekent dat het installatieprogramma van de app is geconfigureerd met instellingen zoals licentiesleutels, externe serverlocaties of bureaubladsneltoetsen, zodat de app op de achtergrond kan worden geïnstalleerd.
-
-Er zijn drie opties om uw apps te laten verpakken: 
-
-
-- U kunt apps zelf verpakken
-- U kunt werken met een niet-Microsoft-leverancier
-- U kunt contact houden met MCS om uw apps te verpakken. Werk samen met uw vertegenwoordiger van uw Microsoft-account. Zie Werken met Microsoft Consulting Services voor [meer informatie.](apps-MCS.md)
-
-
-
-## <a name="deploying-apps"></a>Apps implementeren
-
-Welke methode u ook gebruikt om apps te verpakken, zodra deze zijn voltooid, kunt u de stappen in Apps implementeren op [Microsoft Managed Desktop-apparaten volgen.](../get-started/deploy-apps.md)
-
 
 ## <a name="steps-to-get-ready"></a>Stappen om u klaar te maken
 
@@ -88,4 +66,4 @@ Welke methode u ook gebruikt om apps te verpakken, zodra deze zijn voltooid, kun
 6. [Toegang voorbereiden tot on-premises bronnen voor Microsoft Managed Desktop](authentication.md)
 7. [Apps in Microsoft Managed Desktop](apps.md) (Dit artikel)
 8. [Toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
-9. [Printbronnen voorbereiden voor Microsoft Managed Desktop](printing.md)
+9. [Afdrukbronnen voorbereiden voor Microsoft Managed Desktop](printing.md)

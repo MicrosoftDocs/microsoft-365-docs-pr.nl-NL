@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: dd066339ccfefdc58eb241bb9fdb69cdd5a458d8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: efbcec6417b082311d3f094b0251702d8e0dbeac
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907454"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52028662"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows- en Office-implementatielabkit
 
@@ -99,7 +99,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* De geïnstalleerde basislijnversie 2002 kan worden bijgewerkt naar versie 2010 met en update in de console. Gebruik een brede bandbreedte internetverbinding om deze inhoud te downloaden en 30-45 minuten toe te staan voor automatische inrichting. Voor de labomgeving is minimaal 16 GB beschikbaar geheugen en 150 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbaar geheugen en 300 GB vrije ruimte aanbevolen. De kit verloopt op 2 mei 2021. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.
+* De geïnstalleerde basislijnversie 2002 kan worden bijgewerkt naar versie 2010 met en update in de console. Gebruik een brede bandbreedte internetverbinding om deze inhoud te downloaden en 30-45 minuten toe te staan voor automatische inrichting. Voor de labomgeving is minimaal 16 GB beschikbaar geheugen en 150 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbaar geheugen en 300 GB vrije ruimte aanbevolen. De kit verloopt op 22 juli 2021. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

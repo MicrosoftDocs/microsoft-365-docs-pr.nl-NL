@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
 ms.author: josephd
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: c56deb091078fb1917bc1060aa366da4e18bd176
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 749719afdfa7c9f5796ff839d1743ffd697c27e4
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050872"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029002"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
 
@@ -68,7 +68,7 @@ Met apps en werkstromen zijn externe medewerkers productiever in Teams, door het
 
 Met Outlook kunnen externe medewerkers verbonden en georganiseerd blijven met e-mail, agenda's, contactpersonen en meer. Allemaal samen op één plek. Met Outlook blijft u op koers en kunt u uw dagindeling prioriteren op basis van wat voor u relevant is. Met Outlook kunt u rechtstreeks vanuit OneDrive bijlagen delen, Teams-vergaderingen plannen en eraan deelnemen, agenda's delen en bekijken en anderen machtigen. Door te weten wat eraan zit te komen qua werk- en privé-verplichtingen en wat er aandacht nodig heeft, kunnen externe medewerkers zich richten op wat belangrijk is. Outlook biedt handige manieren voor externe medewerkers om hun tijd in te delen en eenvoudig te vinden wat ze zoeken, met inbegrip van bestanden, personen in de organisatie en meer. 
 
-Zie [dit artikel](../security/defender-365-security/secure-email-recommended-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om e-mailberichten en e-mailclients van organisaties te beveiligen waarmee moderne verificatie en voorwaardelijke toegang worden ondersteund.
+Zie [dit artikel](../security/office-365-security/secure-email-recommended-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om e-mailberichten en e-mailclients van organisaties te beveiligen waarmee moderne verificatie en voorwaardelijke toegang worden ondersteund.
 
 ## <a name="store-and-collaborate-on-files-with-sharepoint-and-onedrive"></a>Samenwerken aan en opslaan van bestanden met SharePoint en OneDrive
 
@@ -81,7 +81,7 @@ Mogelijk moet u uw documenten migreren naar SharePoint of OneDrive vanuit:
 - [Bestandsshares](/sharepointmigration/fileshare-to-odsp-migration-guide)
 - [Vak](/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
 
-Zie [dit artikel](../security/defender-365-security/sharepoint-file-access-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om SharePoint en OneDrive te beveiligen.
+Zie [dit artikel](../security/office-365-security/sharepoint-file-access-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om SharePoint en OneDrive te beveiligen.
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Maken van en samenwerken aan inhoud met Microsoft 365 Apps
 

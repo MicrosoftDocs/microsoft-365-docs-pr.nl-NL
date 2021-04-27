@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-manager: laurawi
+manager: dansimp
 ms.date: 08/14/2020
 audience: ITPro
 ms.topic: overview
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Samenvatting: Hoe Contoso een team met beveiligingsisolatie voor een topgeheim project heeft gebruikt om een nieuwe suite met producten en services te ontwikkelen.'
-ms.openlocfilehash: d5ab2808251ff6a53f8975ea868431691d3301e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 751bf3972d148219a6cc341067c0bf34cd581447
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051004"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029014"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Geïsoleerd team voor een topgeheim project van de Contoso Corporation
 
@@ -40,7 +40,7 @@ It-medewerkers van Contoso hebben een [team gebruikt met beveiligingsisolatie](s
 
 ## <a name="step-1-created-a-private-team"></a>Stap 1: Een privéteam gemaakt
 
-Om de toegang tot de onderliggende SharePoint-site voor het team te beveiligen, hebben IT-beheerders van Contoso het aanbevolen [SharePoint-toegangsbeleid geconfigureerd.](../security/defender-365-security/sharepoint-file-access-policies.md)
+Om de toegang tot de onderliggende SharePoint-site voor het team te beveiligen, hebben IT-beheerders van Contoso het aanbevolen [SharePoint-toegangsbeleid geconfigureerd.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Vervolgens heeft een CONTOSO-IT-beheerder een nieuw privéteam met de naam Project 2X gemaakt en de gebruikersaccounts van Project 2X-medewerkers toegevoegd als leden. Ze hebben het team ook zo geconfigureerd dat alleen project 2X-teameigenaren privékanalen kunnen maken.
 
@@ -64,7 +64,7 @@ Zie Een gevoeligheidslabel maken voor de [configuratiedetails.](secure-teams-sec
 
 ## <a name="step-3-configured-the-underlying-sharepoint-site"></a>Stap 3: De onderliggende SharePoint-site configureren
 
-Om de toegang tot de onderliggende SharePoint-site voor het team te beveiligen, hebben IT-beheerders van Contoso het aanbevolen [SharePoint-toegangsbeleid geconfigureerd.](../security/defender-365-security/sharepoint-file-access-policies.md)
+Om de toegang tot de onderliggende SharePoint-site voor het team te beveiligen, hebben IT-beheerders van Contoso het aanbevolen [SharePoint-toegangsbeleid geconfigureerd.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Vervolgens hebben ze aanvullende machtigingsinstellingen voor de site geconfigureerd:
 

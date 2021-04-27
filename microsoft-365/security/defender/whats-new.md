@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 9f4cc36172b0ac598b2719bee8ce56bf0f8a1b84
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 91029f03e089f44f49800bfe2d18536a8d415411
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933383"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029026"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
@@ -38,6 +38,12 @@ RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volge
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
+
+## <a name="april-2021"></a>April 2021
+- Verbeterd Microsoft 365-beveiligingscentrum <br> Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Dit is de nieuwe thuisbasis voor het beheren van uw beveiligingsbesturingselementen. [Ontdek wat er nieuw is](./overview-security-center.md).
+
+- [Microsoft 365 Defender threat analytics report](threat-analytics.md)<br>
+ Met bedreigingsanalyse kunt u reageren op en de impact van actieve aanvallen minimaliseren. U kunt ook meer informatie krijgen over aanvalspogingen die zijn geblokkeerd door Microsoft 365 Defender-oplossingen en preventief optreden om het risico op verdere blootstelling te beperken en de tolerantie te vergroten. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor licentiehouders van Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5.
 
 ## <a name="march-2021"></a>Maart 2021
 - [CloudAppEvents-tabel](advanced-hunting-cloudappevents-table.md) <br>Informatie over gebeurtenissen in verschillende cloud-apps en -services die worden gedekt door Microsoft Cloud App Security. Deze tabel bevat ook informatie die eerder beschikbaar was in `AppFileEvents` .

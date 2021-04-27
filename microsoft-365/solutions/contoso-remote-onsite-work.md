@@ -1,10 +1,10 @@
 ---
-title: Het COVID-19-antwoord en de ondersteuning van Contoso voor extern en on-site werken
+title: Contoso's COVID-19-antwoord en ondersteuning voor extern en on-site werk
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
 ms.author: josephd
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,63 +13,63 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Inzicht in de manier waarop Contoso B.v. de COVID-19 Pandemic heeft gereageerd en de IT-infrastructuur voor de installatie en het bijwerken van de software voor extern en on-site werken.
-ms.openlocfilehash: d04b4efcdd4dd04315ad37311cdd2cfbc2e64e88
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+description: Begrijp hoe contoso Corporation heeft gereageerd op de COVID-19-epidemie en hoe ze hun software-installatie- en update-infrastructuur hebben ontworpen voor extern en on-site werk.
+ms.openlocfilehash: 0bded43f03dd529ffdf463818a93af70e10eed89
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580671"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52028978"
 ---
-# <a name="contosos-covid-19-response-and-support-for-remote-and-onsite-work"></a>Het COVID-19-antwoord en de ondersteuning van Contoso voor extern en on-site werken
+# <a name="contosos-covid-19-response-and-support-for-remote-and-onsite-work"></a>Contoso's COVID-19-antwoord en ondersteuning voor extern en on-site werk
 
-Contoso heeft altijd de externe werknemers ondersteund, die on-premises resources openen via een centrale VPN-server in de Headquarters van Parijs. Contoso heeft alle externe werknemers een beheerde laptop verstrekt. On-premises medewerkers hadden een combinatie van desktopcomputers en laptops.
+Contoso heeft haar externe werknemers altijd ondersteund, die on-premises bronnen hebben gebruikt via een centrale VPN-server in het hoofdkantoor van Parijs. Contoso had alle externe werknemers een beheerde laptop uitgegeven. On-premises werknemers hadden een combinatie van desktopcomputers en laptops.
 
-## <a name="contosos-response-to-covid-19"></a>De antwoord van Contoso op COVID-19
+## <a name="contosos-response-to-covid-19"></a>Contoso's antwoord op COVID-19
 
-Met het begin van de COVID-19 Pandemic, is het voor alle werknemers met een uitzondering op de werknemers. Contoso heeft gereageerd op het verschuiven van de werknemers aan het werk en onderhoudt de primaire activiteiten via externe toegang tot on-premises resources en online via Microsoft 365 cloudservices.
+Met het begin van de COVID-19-epidemie waren alle essentiële werknemers plotseling externe werknemers. Contoso heeft gereageerd door het personeel te verplaatsen naar thuis en zijn primaire activiteiten uit te voeren via externe toegang tot on-premises resources en online met behulp van Microsoft 365-cloudservices.
 
-Contoso heeft een RAS-VPN-server in het hoofdkantoor van Parijs voor de ondersteuning van de 25% van het al uw werk op afstand, maar is snel verhuisd om de externe toegangs capaciteit te ondersteunen voor 90% van zijn of haar personeel. Contoso heeft de Remote Access-servers geïmplementeerd voor VPN-servers in elk satellietkantoor, zodat externe medewerkers een onderhouds punt in de buurt willen gebruiken voor toegang tot het contoso intranet.
+Contoso had VPN-servers voor externe toegang in het hoofdkantoor van Parijs om de 25% van het al externe personeel te ondersteunen, maar werd snel verplaatst om de capaciteit voor externe toegang op te schalen om 90% van het personeel te ondersteunen. Contoso heeft VPN-servers voor externe toegang geïmplementeerd in elk satellietkantoor, zodat externe werknemers een regionaal sluitend toegangspunt zouden gebruiken voor toegang tot het Contoso-intranet.
 
-Contoso heeft de configuratie van VPN-clients die zijn geïnstalleerd op laptops, Tablets en smartphones ook bijgewerkt, zodat verkeer voor de geoptimaliseerde set van Office 365-eindpunten de VPN-verbinding negeert en rechtstreeks via internet is verzonden. Zie [Office 365-connectiviteit optimaliseren voor externe gebruikers met behulp van gesplitste tunneling voor VPN-verbinding](../enterprise/microsoft-365-vpn-split-tunnel.md)voor meer informatie.
+Contoso heeft ook de configuratie bijgewerkt van VPN-clients die zijn geïnstalleerd op laptops, tablets en smartphones voor splits tunneling, zodat verkeer voor de set Office 365-eindpunten optimaliseren de VPN-verbinding heeft overgeslagen en rechtstreeks via internet is verzonden. Zie Office [365-connectiviteit](../enterprise/microsoft-365-vpn-split-tunnel.md)optimaliseren voor externe gebruikers met VPN splits tunneling voor meer informatie.
 
-Dit zijn de configuraties met VPN-apparaten die zijn geïnstalleerd in de hoofdkantoren van Parijs en elk van de satelliet kantoren. 
+Hier is de resulterende configuratie met VPN-apparaten die zijn geïnstalleerd in het hoofdkantoor van Parijs en elk van de satellietkantoren. 
 
-![De VPN-infrastructuur van contoso](../media/contoso-remote-onsite-work/contoso-vpn-infrastructure.png)
+![De VPN-infrastructuur van Contoso](../media/contoso-remote-onsite-work/contoso-vpn-infrastructure.png)
 
-Een externe werknemer met de geïnstalleerde VPN-client gebruikt DNS om het land dat het dichtst bij Office te vinden, te vinden en maakt verbinding met het geïnstalleerde VPN-apparaat. Met gesplitste tunneling wordt verkeer naar Microsoft 365 optimaliseren eindpunten rechtstreeks naar het dichtstbijzijnde Microsoft 365-netwerk verplaatst. Alle andere verkeer wordt via de VPN-verbinding naar het VPN-apparaat verzonden.
+Een externe werknemer met de geïnstalleerde VPN-client gebruikt DNS om het dichtstbijzijnde kantoor te vinden en maakt verbinding met het VPN-apparaat dat daar is geïnstalleerd. Met gesplitste tunneling wordt het verkeer naar Microsoft 365 Eindpunten optimaliseren rechtstreeks verzonden naar de dichtstbijzijnde locatie van het Microsoft 365-netwerk. Al het andere verkeer wordt via de VPN-verbinding naar het VPN-apparaat verzonden.
 
-## <a name="contosos-support-for-remote-and-onsite-work"></a>De ondersteuning van Contoso voor extern en on-site werken
+## <a name="contosos-support-for-remote-and-onsite-work"></a>Ondersteuning van Contoso voor extern en on-site werk
 
-Nadat de eerste wijzigingen zijn aangebracht in het grootste medewerkers van regio-vergrendelingen, heeft Contoso wijzigingen in de infrastructuur aangebracht voor de ondersteuning van de externe en op de volgende werknemer:
+Nadat de eerste wijzigingen zijn aangebracht om voornamelijk externe werknemers te ondersteunen tijdens regionale vergrendelingen, heeft Contoso infrastructuurwijzigingen aangebracht ter ondersteuning van extern en on-site werk waarin een werknemer kan zijn:
 
-- Altijd extern.
-- Altijd op de site.
-- Een combinatie van on-site en afstandsbediening.
+- Altijd op afstand.
+- Altijd ter plaatse.
+- Een combinatie van onsite en remote.
 
-Microsoft 365 identiteit, beveiliging en compliance-functies zijn ontworpen voor een vertrouwensrelatie van nul en werken ongeacht de locatie van de gebruiker en hun apparaat. Zie voor meer informatie [0 vertrouwen](https://www.microsoft.com/security/business/zero-trust).
+Microsoft 365-identiteits-, beveiligings- en compliancefuncties zijn ontworpen voor Zero Trust en om te werken, ongeacht de locatie van de gebruiker en hun apparaat. Zie Vertrouwen nul [voor meer informatie.](https://www.microsoft.com/security/business/zero-trust)
 
-Het beheren van nieuwe installaties en updates van software is afhankelijk van de locatie van het apparaat omdat de software die u installeert, beschikbaar is via een on-premises of een Internet bron. Contoso IT-architecten hebben hun nieuwe installaties en updates-infrastructuur ontworpen op basis van de locatie van het apparaat, in plaats van de werknemer.
+Het beheren van nieuwe installaties en updates van software is echter afhankelijk van de locatie van het apparaat, omdat de te installeren software afkomstig kan zijn van een on-premises of een internetbron. Contoso IT-architecten hebben hun nieuwe installaties en updates-infrastructuur ontworpen op basis van de locatie van het apparaat, in plaats van de werknemer.
 
-De persoon heeft twee soorten apparaten aangewezen: gespecialiseerde on-premises en roaming.
+Ze hebben twee typen apparaten aangewezen: dedicated on-premises en roaming.
 
-### <a name="dedicated-on-premises"></a>Gespecialiseerde on-premises
+### <a name="dedicated-on-premises"></a>Dedicated on-premises
 
-Een specifiek on-premises apparaat is een desktopcomputer of Server computer waarop het contoso intranet niet mag worden gebruikt en geen VPN-client is geïnstalleerd. Deze on-premises apparaten blijven gebruikmaken van Microsoft Configuration Manager en de distributiepunten voor installaties en updates van Windows 10, Microsoft 365-apps voor Enterprise en de Edge-browser.
+Een speciaal on-premises apparaat is een desktop- of servercomputer die nooit het intranet van Contoso verlaat en geen VPN-client heeft geïnstalleerd. Deze on-premises apparaten blijven Microsoft Endpoint Configuration Manager en de distributiepunten gebruiken voor installaties en updates van Windows 10, Microsoft 365 Apps voor ondernemingen en de Edge-browser.
 
-### <a name="roaming"></a>Signaal
+### <a name="roaming"></a>Roaming
 
-Met een roaming-apparaat kunt u het intranet van Contoso sluiten en ook laptops opnemen die aan veel Office-medewerkers zijn verleend, en alle externe werknemers en andere apparaten van de organisatie, zoals smartphones en tablets waarop de contoso VPN-client is geïnstalleerd. 
+Een roamingapparaat kan het Contoso-intranet verlaten en bevat laptops die zijn uitgegeven aan veel kantoormedewerkers en alle externe werknemers en andere apparaten die eigendom zijn van de organisatie, zoals smartphones en tablets, met de Contoso VPN-client geïnstalleerd. 
 
-Aangezien deze apparaten op een bepaald moment via het Internet kunnen worden verbonden, gebruiken ze intune-of andere cloudservices voor installaties en updates van Windows 10, Microsoft 365-apps voor Enterprise en Edge. Ze gebruiken geen bestaande distributiepunten voor de configuratie van on-premises Configuration Manager.
+Omdat deze apparaten op elk moment met internet kunnen worden verbonden, gebruiken ze Intune of andere cloudservices voor installaties en updates van Windows 10, Microsoft 365 Apps voor ondernemingen en Edge. Ze maken geen gebruik van de bestaande on-premises Configuration Manager-distributiepunten.
 
-Dit betekent dat sommige installaties en updates voor zwervend apparaat via internet plaatsvinden, terwijl ze on-premises zijn en verbonden zijn met het intranet. Met Contoso IT-architecten werd ook besloten dat de eenvoud van configuratie belangrijker is dan de optimalisering van de intranet bandbreedte op internet, met name wanneer de meeste externe medewerkers zelden verbonden zijn met het intranet.
+Dit betekent dat sommige installaties en updates voor roamingapparaat via internet worden uitgevoerd terwijl ze on-premises zijn en verbonden zijn met het intranet. Maar Contoso IT-architecten besloten dat de eenvoud van configuratie belangrijker was dan het optimaliseren van intranetbandbreedte op internet, vooral wanneer de meeste externe werknemers zelden met het intranet zijn verbonden.
 
-Dit is de daaruit voortvloeiende infrastructuur.
+Hier is de resulterende infrastructuur.
 
-![Infrastructuur van Contoso-installaties en-updates](../media/contoso-remote-onsite-work/contoso-updates-infrastructure.png)
+![De installatie- en updatesinfrastructuur van Contoso](../media/contoso-remote-onsite-work/contoso-updates-infrastructure.png)
 
-Het gedrag voor installeren en bijwerken wordt bepaald door de computeraccounts van apparaten lid te maken van een van de volgende groepen:
+Het installatie- en updategedrag wordt bepaald door de computeraccounts van apparaten lid te maken van een van deze groepen:
 
 - OnPremDevices
 
@@ -77,14 +77,14 @@ Het gedrag voor installeren en bijwerken wordt bepaald door de computeraccounts 
 
 - RoamingDevices
 
-  InTune en andere instellingen op het apparaat Hiermee geeft u het Microsoft 365-netwerk op voor installaties en updates.
+  Intune en andere instellingen op het apparaat geven het gebruik van het Microsoft 365-netwerk voor installaties en updates op.
 
-## <a name="new-onboarding-process"></a>Nieuw systeem voor onboarding
+## <a name="new-onboarding-process"></a>Nieuw onboardingproces
 
-Wanneer de werknemer zich aanmeldt, wordt de Configuration Manager-client op basis van het lidmaatschap van het apparaat in de OnPremDevices-groep gedownload en installeert de nieuwste updates voor Windows 10, Microsoft 365-apps voor Enterprise en de Edge-distributiepunten van on-premises Configuration Manager. Wanneer u klaar bent, is het speciale on-premises apparaat gereed voor gebruik en gebruikt u deze distributiepunten voor voortdurende updates.
+Voor een nieuw on-premises apparaat dat is uitgegeven aan een nieuwe werknemer of voor een nieuwe server in een datacenter, downloadt en installeert de client Configuration Manager op basis van het lidmaatschap van het apparaat in de OnPremDevices-groep de nieuwste updates voor Windows 10, Microsoft 365 Apps voor ondernemingen en Edge vanuit on-premises Configuration Manager-distributiepunten. Wanneer het apparaat is voltooid, is het toegewezen on-premises apparaat klaar voor gebruik en worden deze distributiepunten gebruikt voor doorlopende updates.
 
-Wanneer de werknemer zich meldt, op basis van het lidmaatschap van de RoamingDevices-groep, wordt contact gemaakt met de intune-cloudservice en andere services en worden de meest recente updates voor Windows 10, Microsoft 365-apps voor Enterprise en Edge geïnstalleerd en geïnstalleerd door de werknemers die aan een nieuwe werknemer zijn verleend. Wanneer u klaar bent, kunt u het externe apparaat gebruiken en gebruikt u de geïnstalleerde VPN-client voor toegang tot on-premises resources en het Microsoft 365-netwerk voor voortdurende updates.
+Voor een nieuw extern apparaat dat is uitgegeven aan een nieuwe werknemer, neemt het apparaat, op basis van het lidmaatschap van de groep RoamingDevices, contact op met de Intune-cloudservice en andere services en downloadt en installeert het de nieuwste updates voor Windows 10, Microsoft 365 Apps voor ondernemingen en Edge. Wanneer het apparaat is voltooid, is het klaar voor gebruik en wordt de geïnstalleerde VPN-client gebruikt voor toegang tot on-premises resources en het Microsoft 365-netwerk voor doorlopende updates.
 
 ## <a name="next-step"></a>Volgende stap
 
-[De werknemers](empower-people-to-work-remotely.md) in uw organisatie stimuleren.
+[Geef de externe werknemers](empower-people-to-work-remotely.md) in uw organisatie meer mogelijkheden.
