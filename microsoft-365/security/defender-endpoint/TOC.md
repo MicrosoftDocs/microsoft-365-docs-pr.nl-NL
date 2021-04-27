@@ -49,7 +49,163 @@
 #### [Groepsbeleidsobjecten](manage-atp-post-migration-group-policy-objects.md)
 #### [PowerShell, WMI en MPCmdRun.exe](manage-atp-post-migration-other-tools.md)
 
-## [Beveiligingsbeheer]()
+
+## [Apparaten configureren en onboarden]()
+### [Microsoft Defender voor Eindpunt op Windows en Windows Server]()
+#### [Onboarden apparaten naar Microsoft Defender voor Eindpunt](onboard-configure.md)
+#### [Onboarden eerdere versies van Windows](onboard-downlevel.md)
+#### [Onboarden Windows 10-apparaten]()
+##### [Onboarden hulpmiddelen en methoden](configure-endpoints.md)
+##### [Onboarden apparaten met Groepsbeleid](configure-endpoints-gp.md)
+##### [Onboard apparaten met behulp van Microsoft Eindpunt Configuration Manager](configure-endpoints-sccm.md)
+##### [Onboarden apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)
+##### [Onboarden apparaten met een lokaal script](configure-endpoints-script.md)
+##### [Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten](configure-endpoints-vdi.md)
+##### [Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie)](Onboard-Windows-10-multi-session-device.md)
+#### [Onboarden Windows-servers](configure-server-endpoints.md)
+
+#### [Onboarden apparaten zonder internettoegang](onboard-offline-machines.md)
+#### [Een detectietest uitvoeren op een nieuw geonboard apparaat](run-detection-test.md)
+#### [Gesimuleerde aanvallen uitvoeren op apparaten](attack-simulations.md)
+#### [Proxy- en internetconnectiviteitsinstellingen configureren](configure-proxy-internet.md)
+#### [Een meldingsregel voor onboarden of offboarden maken](onboarding-notification.md)
+
+### [Microsoft Defender voor Eindpunt gebruiken op andere besturingssystemen]()
+#### [Niet-Windows-apparaten onboarden](configure-endpoints-non-windows.md)
+
+#### [Microsoft Defender voor Eindpunt op macOS]()
+##### [Overzicht van Microsoft Defender voor Eindpunt op macOS](microsoft-defender-endpoint-mac.md)
+##### [Nieuw](mac-whatsnew.md)
+ 
+##### [Implementeren]()
+###### [Implementatie op basis van Microsoft Intune](mac-install-with-intune.md)
+###### [Implementatie op basis van JAMF Pro]()
+####### [Microsoft Defender voor Eindpunt op macOS implementeren met Jamf Pro](mac-install-with-jamf.md)
+####### [Aanmelden bij Jamf Pro](mac-install-jamfpro-login.md)
+####### [Apparaatgroepen instellen](mac-jamfpro-device-groups.md)
+####### [Beleidsregels instellen](mac-jamfpro-policies.md)
+####### [Apparaten registreren](mac-jamfpro-enroll-devices.md)
+ 
+###### [Implementatie met een ander MDM-systeem (Mobile Device Management)](mac-install-with-other-mdm.md)
+###### [Handmatige implementatie](mac-install-manually.md)
+##### [Bijwerkquery](mac-updates.md)
+ 
+##### [Configureren]()
+###### [Uitsluitingen configureren en valideren](mac-exclusions.md)
+###### [Voorkeuren instellen](mac-preferences.md)
+###### [Mogelijk ongewenste toepassingen detecteren en blokkeren](mac-pua.md)
+###### [Apparaatbesturing]()
+####### [Overzicht apparaatbesturing](mac-device-control-overview.md)
+####### [Voorbeelden JAMF](mac-device-control-jamf.md)
+####### [Voorbeelden Intune](mac-device-control-intune.md)
+###### [Scans plannen](mac-schedule-scan.md)
+ 
+##### [Problemen oplossen]()
+###### [Installatieproblemen oplossen](mac-support-install.md)
+###### [Prestatieproblemen oplossen](mac-support-perf.md)
+###### [Problemen met cloudconnectiviteit oplossen](troubleshoot-cloud-connect-mdemac.md)
+###### [Problemen met kernelextensie oplossen](mac-support-kext.md)
+###### [Licentieproblemen oplossen](mac-support-license.md)
+ 
+##### [Privacy](mac-privacy.md)
+##### [Resources](mac-resources.md)
+
+
+#### [Microsoft Defender voor Eindpunt op iOS]()
+##### [Overzicht van Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md)
+##### [Wat is er nieuw](ios-whatsnew.md)
+ 
+##### [Implementeren]()
+###### [Microsoft Defender voor Eindpunt op iOS implementeren via Intune](ios-install.md)
+ 
+##### [Configureren]()
+###### [iOS-functies configureren](ios-configure-features.md)
+##### [Privacy](ios-privacy.md)
+ 
+ 
+#### [Microsoft Defender voor Eindpunt op Linux]()
+##### [Overzicht van Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md)
+##### [Wat is er nieuw](linux-whatsnew.md)
+##### [Implementeren]()
+###### [Handmatige implementatie](linux-install-manually.md)
+###### [Implementatie op basis van Puppet](linux-install-with-puppet.md)
+###### [Implementatie op basis van Ansible](linux-install-with-ansible.md)
+ 
+##### [Update](linux-updates.md)
+ 
+##### [Configureren]()
+###### [Uitsluitingen configureren en valideren](linux-exclusions.md)
+###### [Statische proxyconfiguratie](linux-static-proxy-configuration.md)
+###### [Voorkeuren instellen](linux-preferences.md)
+###### [Mogelijk ongewenste toepassingen detecteren en blokkeren](linux-pua.md)
+###### [Scans plannen met Microsoft Defender voor Eindpunt op Linux](linux-schedule-scan-atp.md)
+###### [Een update van Microsoft Defender voor Eindpunt (Linux) plannen](linux-update-MDE-Linux.md)
+###### [Defender voor eindpunt implementeren op Linux met Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+ 
+##### [Problemen oplossen]()
+###### [Installatieproblemen oplossen](linux-support-install.md)
+###### [Problemen met cloudconnectiviteit oplossen](linux-support-connectivity.md)
+###### [Prestatieproblemen oplossen](linux-support-perf.md)
+###### [Problemen met ontbrekende gebeurtenissen oplossen](linux-support-events.md)
+ 
+##### [Privacy](linux-privacy.md)
+##### [Resources](linux-resources.md)
+ 
+#### [Microsoft Defender voor Eindpunt op Android]()
+##### [Overzicht van Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md)
+ 
+##### [Implementeren]()
+###### [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
+ 
+##### [Configureren]()
+###### [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
+ 
+##### [Privacy]()
+###### [Microsoft Defender voor Eindpunt op Android - Privacyinformatie](android-privacy.md)
+ 
+##### [Problemen oplossen]()
+###### [Problemen oplossen](android-support-signin.md)
+
+### [Problemen met onboarden oplossen]()
+#### [Problemen oplossen tijdens onboarden](troubleshoot-onboarding.md)
+#### [Problemen met abonnement en portaltoegang oplossen](troubleshoot-onboarding-error-messages.md)
+
+
+
+
+### [Portal-instellingen configureren]()
+#### [Voorkeuren instellen](preferences-setup.md)
+#### [Algemeen]()
+##### [Gegevensopslaglocatie controleren en instellingen voor het bewaren van gegevens bijwerken](data-retention-settings.md)
+##### [Waarschuwingsmeldingen configureren](configure-email-notifications.md)
+##### [Geavanceerde functies configureren](advanced-features.md)
+
+#### [Machtigingen]()
+##### [Basismachtigingen gebruiken voor toegang tot de portal](basic-permissions.md)
+##### [Portaltoegang beheren met RBAC](rbac.md)
+###### [Rollen maken en beheren](user-roles.md)
+###### [Apparaatgroepen maken en beheren](machine-groups.md)
+###### [Apparaattags maken en beheren](machine-tags.md)
+
+#### [Regels]()
+##### [Onderdrukkende regels beheren](manage-suppression-rules.md)
+##### [Indicatoren maken](manage-indicators.md)
+###### [Indicatoren voor bestanden maken](indicator-file.md)
+###### [Indicatoren maken voor IP's en URL's/domeinen](indicator-ip-domain.md)
+###### [Indicatoren voor certificaten maken](indicator-certificates.md)
+###### [Indicatoren beheren](indicator-manage.md)
+##### [Automatiseringsbestandsuploads beheren](manage-automation-file-uploads.md)
+##### [Uitsluitingen van automatiseringsmappen beheren](manage-automation-folder-exclusions.md)
+
+#### [Apparaatbeheer]()
+##### [Onboarden apparaten](onboard-configure.md)
+##### [Offboarden apparaten](offboard-machines.md)
+##### [Controleren of uw apparaten juist zijn geconfigureerd](configure-machines.md)
+##### [Onboarden van apparaten monitoren en verbeteren](configure-machines-onboarding.md)
+
+#### [Tijdzone-instellingen voor Microsoft Defender-beveiligingscentrum configureren](time-settings.md)
+
+## [Bedreigingen detecteren en eindpunten beschermen]()
 ### [Bedreigings- en risicobeheer]()
 #### [Overzicht](next-gen-threat-and-vuln-mgt.md)
 #### [Aan de slag]()
@@ -73,6 +229,13 @@
 ##### [Rapport over kwetsbare apparaten](tvm-vulnerable-devices-report.md)
 ##### [Zoeken naar blootgestelde apparaten](tvm-hunt-exposed-devices.md)
 
+### [Apparaatdetectie]()
+#### [Overzicht van apparaatdetectie](device-discovery.md)
+#### [Apparaatdetectie configureren](configure-device-discovery.md)
+#### [Veelgestelde vragen over apparaatdetectie](device-discovery-faq.md)
+
+### [Netwerkapparaten](network-devices.md)
+
 ### [Kwetsbaarheid voor aanvallen verminderen]()
 #### [Overzicht van kwetsbaarheid voor aanvallen verminderen](overview-attack-surface-reduction.md)
 #### [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
@@ -84,6 +247,8 @@
 ##### [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
 ##### [Regels voor het verminderen van aanvalsoppervlakken aanpassen](customize-attack-surface-reduction.md)
 ##### [Gebeurtenissen voor het verminderen van aanvalsoppervlakken bekijken](event-views.md)
+
+#### [Controlemodus gebruiken](audit-windows-defender.md)
 
 ### Beveiliging van de volgende generatie
 #### [Overzicht van Microsoft Defender Antivirus](microsoft-defender-antivirus-in-windows-10.md)
@@ -179,112 +344,21 @@
 ##### [Rapporten voor apparaatbesturing](device-control-report.md)
 ##### [USB-apparaten beheren](control-usb-devices-using-intune.md)
 
-### [Apparaatdetectie]()
-#### [Overzicht van apparaatdetectie](device-discovery.md)
-#### [Apparaatdetectie configureren](configure-device-discovery.md)
-#### [Veelgestelde vragen over apparaatdetectie](device-discovery-faq.md)
+#### [Gedragsblokkering en -insluiting]()
+##### [Gedragsblokkering en -insluiting](behavioral-blocking-containment.md)
+##### [Gedragsblokkering van cliënt](client-behavioral-blocking.md)
+##### [Feedbacklus blokkeren](feedback-loop-blocking.md)
 
 
-### [Netwerkapparaten](network-devices.md)
-
-### [Microsoft Defender voor Eindpunt op macOS]()
-#### [Overzicht van Microsoft Defender voor Eindpunt op macOS](microsoft-defender-endpoint-mac.md)
-#### [Nieuw](mac-whatsnew.md)
-
-#### [Implementeren]()
-##### [Implementatie op basis van Microsoft Intune](mac-install-with-intune.md)
-##### [Implementatie op basis van JAMF Pro]()
-###### [Microsoft Defender voor Eindpunt op macOS implementeren met Jamf Pro](mac-install-with-jamf.md)
-###### [Aanmelden bij Jamf Pro](mac-install-jamfpro-login.md)
-###### [Apparaatgroepen instellen](mac-jamfpro-device-groups.md)
-###### [Beleidsregels instellen](mac-jamfpro-policies.md)
-###### [Apparaten registreren](mac-jamfpro-enroll-devices.md)
-
-##### [Implementatie met een ander MDM-systeem (Mobile Device Management)](mac-install-with-other-mdm.md)
-##### [Handmatige implementatie](mac-install-manually.md)
-#### [Bijwerkquery](mac-updates.md)
-
-#### [Configureren]()
-##### [Uitsluitingen configureren en valideren](mac-exclusions.md)
-##### [Voorkeuren instellen](mac-preferences.md)
-##### [Mogelijk ongewenste toepassingen detecteren en blokkeren](mac-pua.md)
-##### [Apparaatbesturing]()
-###### [Overzicht apparaatbesturing](mac-device-control-overview.md)
-###### [Voorbeelden JAMF](mac-device-control-jamf.md)
-###### [Voorbeelden Intune](mac-device-control-intune.md)
-##### [Scans plannen](mac-schedule-scan.md)
-
-#### [Problemen oplossen]()
-##### [Installatieproblemen oplossen](mac-support-install.md)
-##### [Prestatieproblemen oplossen](mac-support-perf.md)
-##### [Problemen met cloudconnectiviteit oplossen](troubleshoot-cloud-connect-mdemac.md)
-##### [Problemen met kernelextensie oplossen](mac-support-kext.md)
-##### [Licentieproblemen oplossen](mac-support-license.md)
-
-#### [Privacy](mac-privacy.md)
-#### [Resources](mac-resources.md)
-
-### [Microsoft Defender voor Eindpunt op iOS]()
-#### [Overzicht van Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md)
-#### [Wat is er nieuw](ios-whatsnew.md)
-
-#### [Implementeren]()
-##### [Microsoft Defender voor Eindpunt op iOS implementeren via Intune](ios-install.md)
-
-#### [Configureren]()
-##### [iOS-functies configureren](ios-configure-features.md)
-#### [Privacy](ios-privacy.md)
+### [Fout-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken](defender-endpoint-false-positives-negatives.md)
 
 
-### [Microsoft Defender voor Eindpunt op Linux]()
-#### [Overzicht van Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md)
-#### [Wat is er nieuw](linux-whatsnew.md)
-#### [Implementeren]()
-##### [Handmatige implementatie](linux-install-manually.md)
-##### [Implementatie op basis van Puppet](linux-install-with-puppet.md)
-##### [Implementatie op basis van Ansible](linux-install-with-ansible.md)
-##### [Defender voor Eindpunt implementeren op Linux met Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+### [Apparaatconfiguratie beheren]()
 
+#### [Naleving van de basislijn voor beveiliging verbeteren](configure-machines-security-baseline.md)
+#### [Implementatie en detectie van regels voor het optimaliseren van het verminderen van de kwetsbaarheid voor oppervlakaanvallen](configure-machines-asr.md)
 
-#### [Update](linux-updates.md)
-
-#### [Configureren]()
-##### [Uitsluitingen configureren en valideren](linux-exclusions.md)
-##### [Statische proxyconfiguratie](linux-static-proxy-configuration.md)
-##### [Voorkeuren instellen](linux-preferences.md)
-##### [Mogelijk ongewenste toepassingen detecteren en blokkeren](linux-pua.md)
-##### [Scans plannen met Microsoft Defender voor Eindpunt op Linux](linux-schedule-scan-atp.md)
-##### [Een update van Microsoft Defender voor Eindpunt (Linux) plannen](linux-update-MDE-Linux.md)
-
-#### [Problemen oplossen]()
-##### [Installatieproblemen oplossen](linux-support-install.md)
-##### [Problemen met cloudconnectiviteit oplossen](linux-support-connectivity.md)
-##### [Prestatieproblemen oplossen](linux-support-perf.md)
-##### [Problemen met ontbrekende gebeurtenissen oplossen](linux-support-events.md)
-
-#### [Privacy](linux-privacy.md)
-#### [Resources](linux-resources.md)
-
-### [Microsoft Defender voor Eindpunt op Android]()
-#### [Overzicht van Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md)
-
-#### [Implementeren]()
-##### [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
-
-#### [Configureren]()
-##### [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
-
-#### [Privacy]()
-##### [Microsoft Defender voor Eindpunt op Android - Privacyinformatie](android-privacy.md)
-
-#### [Problemen oplossen]()
-##### [Problemen oplossen](android-support-signin.md)
-
-
-### [Mogelijkheden van Microsoft Threat Experts configureren en beheren](configure-microsoft-threat-experts.md)
-
-## [Beveiligingsbewerkingen]()
-
+## [Bedreigingen onderzoeken en hierop reageren]()
 ### [Detectie van en reactie op eindpunt]()
 #### [Overzicht van detectie van en reactie op eindpunt](overview-endpoint-detection-response.md)
 #### [Dashboard beveiligingsbewerkingen](security-operations-dashboard.md)
@@ -347,96 +421,31 @@
 ##### [Rapporten over bedreigingsbeveiliging](threat-protection-reports.md)
 #### [Rapporten over apparaatstatus en compliance](machine-reports.md)
 
-### [Gedragsblokkering en -insluiting]()
-#### [Gedragsblokkering en -insluiting](behavioral-blocking-containment.md)
-#### [Gedragsblokkering van cliënt](client-behavioral-blocking.md)
-#### [Feedbacklus blokkeren](feedback-loop-blocking.md)
-#### [EDR in blokkeringsmodus](edr-in-block-mode.md)
+### [Geavanceerd opsporen]()
+#### [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
+#### [Meer informatie over het schema](advanced-hunting-schema-reference.md)
+#### [DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)
+
+### [Overzicht van dreigingsanalyse](threat-analytics.md)
+#### [Het analistenrapport lezen](threat-analytics-analyst-reports.md)
+
+### [EDR in blokkeringsmodus](edr-in-block-mode.md)
 
 ### [Geautomatiseerd onderzoek en reactie (AIR)]()
 #### [Overzicht van AIR](automated-investigations.md)
 #### [Automatiseringsniveaus in AIR](automation-levels.md)
 #### [AIR-mogelijkheden configureren](configure-automated-investigations-remediation.md)
 
-### [Geavanceerd opsporen]()
-#### [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
-#### [Meer informatie over het schema](advanced-hunting-schema-reference.md)
-#### [DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)
+### [Microsoft Threat Experts]()
+#### [Overzicht van Microsoft Threat Experts](microsoft-threat-experts.md)
+#### [Mogelijkheden van Microsoft Threat Experts configureren en beheren](configure-microsoft-threat-experts.md)
 
-### [Microsoft Threat Experts](microsoft-threat-experts.md)
 
-### [Overzicht van dreigingsanalyse](threat-analytics.md)
-#### [Het analistenrapport lezen](threat-analytics-analyst-reports.md)
 
-## [Procedures]()
-### [Onboarden apparaten naar de service]()
-#### [Onboarden apparaten naar Microsoft Defender voor Eindpunt](onboard-configure.md)
-#### [Onboarden eerdere versies van Windows](onboard-downlevel.md)
-#### [Onboarden Windows 10-apparaten]()
-##### [Onboarden hulpmiddelen en methoden](configure-endpoints.md)
-##### [Onboarden apparaten met Groepsbeleid](configure-endpoints-gp.md)
-##### [Onboard apparaten met behulp van Microsoft Eindpunt Configuration Manager](configure-endpoints-sccm.md)
-##### [Onboarden apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)
-##### [Onboarden apparaten met een lokaal script](configure-endpoints-script.md)
-##### [Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten](configure-endpoints-vdi.md)
-##### [Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie)](Onboard-Windows-10-multi-session-device.md)
-#### [Onboarden Windows-servers](configure-server-endpoints.md)
-#### [Onboarden niet-Windows-apparaten](configure-endpoints-non-windows.md)
-#### [Onboarden apparaten zonder internettoegang](onboard-offline-machines.md)
-#### [Een detectietest uitvoeren op een nieuw geonboard apparaat](run-detection-test.md)
-#### [Gesimuleerde aanvallen uitvoeren op apparaten](attack-simulations.md)
-#### [Proxy- en internetconnectiviteitsinstellingen configureren](configure-proxy-internet.md)
-#### [Een meldingsregel voor onboarden of offboarden maken](onboarding-notification.md)
- 
-#### [Problemen met onboarden oplossen]()
-##### [Problemen oplossen tijdens onboarden](troubleshoot-onboarding.md)
-##### [Problemen met abonnement en portaltoegang oplossen](troubleshoot-onboarding-error-messages.md)
-
-### [Apparaatconfiguratie beheren]()
-#### [Controleren of uw apparaten juist zijn geconfigureerd](configure-machines.md)
-#### [Onboarden van apparaten monitoren en verbeteren](configure-machines-onboarding.md)
-#### [Naleving van de basislijn voor beveiliging verbeteren](configure-machines-security-baseline.md)
-#### [Implementatie en detectie van regels voor het optimaliseren van het verminderen van de kwetsbaarheid voor oppervlakaanvallen](configure-machines-asr.md)
-
-### [Portal-instellingen configureren]()
-#### [Voorkeuren instellen](preferences-setup.md)
-#### [Algemeen]()
-##### [Gegevensopslaglocatie controleren en instellingen voor het bewaren van gegevens bijwerken](data-retention-settings.md)
-##### [Waarschuwingsmeldingen configureren](configure-email-notifications.md)
-##### [Geavanceerde functies configureren](advanced-features.md)
-
-#### [Machtigingen]()
-##### [Basismachtigingen gebruiken voor toegang tot de portal](basic-permissions.md)
-##### [Portaltoegang beheren met RBAC](rbac.md)
-###### [Rollen maken en beheren](user-roles.md)
-###### [Apparaatgroepen maken en beheren](machine-groups.md)
-###### [Apparaattags maken en beheren](machine-tags.md)
-
-#### [Regels]()
-##### [Onderdrukkende regels beheren](manage-suppression-rules.md)
-##### [Indicatoren maken](manage-indicators.md)
-###### [Indicatoren voor bestanden maken](indicator-file.md)
-###### [Indicatoren maken voor IP's en URL's/domeinen](indicator-ip-domain.md)
-###### [Indicatoren voor certificaten maken](indicator-certificates.md)
-###### [Indicatoren beheren](indicator-manage.md)
-##### [Automatiseringsbestandsuploads beheren](manage-automation-file-uploads.md)
-##### [Uitsluitingen van automatiseringsmappen beheren](manage-automation-folder-exclusions.md)
-
-#### [Apparaatbeheer]()
-##### [Onboarden apparaten](onboard-configure.md)
-##### [Offboarden apparaten](offboard-machines.md)
-
-#### [Tijdzone-instellingen voor Microsoft Defender-beveiligingscentrum configureren](time-settings.md)
-
-### [Vals-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken](defender-endpoint-false-positives-negatives.md)
-
+## Verwijzing
 ### [Integratie met andere Microsoft-oplossingen configureren]()
 #### [Voorwaardelijke toegang configureren](configure-conditional-access.md)
 #### [Integratie van Microsoft Cloud App Security configureren](microsoft-cloud-app-security-config.md)
-
-### [Controlemodus gebruiken](audit-windows-defender.md)
-
-## Verwijzing
 ### [Beheer en API's]()
 #### [Overzicht van beheer en API's](management-apis.md)
 #### [API-release opmerkingen](api-release-notes.md)
