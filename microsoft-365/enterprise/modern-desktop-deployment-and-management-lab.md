@@ -2,10 +2,10 @@
 title: Windows- en Office-implementatielabkit
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: greglin
+author: greg-lindsay
 manager: laurawi
-ms.date: 08/10/2020
+ms.date: 04/26/2021
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: efbcec6417b082311d3f094b0251702d8e0dbeac
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: c0cf3ce239ed91261bd6e53cf317a7053168509a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028662"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060871"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows- en Office-implementatielabkit
 
@@ -104,23 +104,15 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 
   - [Desktop Deployment series videos from Microsoft Mechanics](https://www.aka.ms/watchhowtoshift) (Desktopimplementatie-video's van Microsoft Mechanics)
-
   - [Microsoft Endpoint Configuration Manager: implementatie van besturingssysteem](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
-
   - [Implementatie van Windows 10 plannen](/windows/deployment/planning/index)
-
   - [Implementatiegids voor Microsoft 365-apps](/deployoffice/deployment-guide-microsoft-365-apps)
-
   - [Aan de slag met Intune](/intune/get-started-evaluation)
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 
   - [Inleiding tot Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)
-
   - [Office 365 voor Bedrijven](https://products.office.com/business/office)
-
   - [Inleiding tot Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
-
   - [Windows 10-apparaten voor zakelijk gebruik](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise)
-
   - [Windows 10-apparaten voor zakelijk gebruik](https://www.microsoft.com/WindowsForBusiness/windows-for-small-business)

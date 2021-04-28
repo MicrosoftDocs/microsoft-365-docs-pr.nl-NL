@@ -21,68 +21,141 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
-description: 'Leer hoe u het standaardthema van Microsoft 365 wijzigt en dit aan uw bedrijfslogo of -kleur aan uw persoonlijke logo of kleur koppelt. '
-ms.openlocfilehash: 9d17ac800fb0fe38627fcb7842ed5555d2ac28ae
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: 'Informatie over het wijzigen van het standaardthema van Microsoft 365 en het aanpassen aan uw bedrijfslogo of -kleur. '
+ms.openlocfilehash: b7a0b142b8bd465a9e3258aaaeb951b72bc53fc7
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926880"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060912"
 ---
-# <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het thema Microsoft 365 aanpassen voor uw organisatie
+# <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het Microsoft 365-thema voor uw organisatie aanpassen
 
-Als beheerder van uw abonnement op Microsoft 365 voor Bedrijven kunt u het standaardthema wijzigen dat op de bovenste navigatiebalk wordt weergegeven voor iedereen in de organisatie:
+Als beheerder van uw organisatie kunt u meerdere thema's maken voor de personen in uw organisatie en selecteren welke thema's van toepassing zijn op verschillende leden van uw organisatie. Het organisatiethema wordt weergegeven in de bovenste navigatiebalk voor personen in uw organisatie.
 
-- Voeg uw bedrijfslogo toe.
-- Wijzig de kleuren om deze aan te passen aan de rest van uw merk.
-- Gebruikers van een doelkoppeling toevoegen gaan door uw logo te selecteren.
+U kunt een standaardthema toevoegen of bijwerken dat van toepassing is op iedereen in uw organisatie. U kunt ook maximaal vier extra groepsthema's maken die kunnen worden toegewezen aan meerdere Microsoft 365-groepen.
   
-## <a name="customize-your-theme-in-the-admin-center"></a>Uw thema aanpassen in het beheercentrum
+## <a name="add-or-update-your-organizations-theme"></a>Het thema van uw organisatie toevoegen of bijwerken
 
-1. Ga in het beheercentrum naar de **pagina** Organisatie-instellingen en kies het \>  tabblad **Organisatieprofiel.**
+1. Ga in het beheercentrum naar de pagina **Instellingen** \> **organisatie-instellingen** en kies vervolgens het **tabblad Organisatieprofiel.**
 
-2. Kies Aangepaste **thema's** op het tabblad **Organisatieprofiel.**
+2. Selecteer op **het tabblad** Organisatieprofiel de optie **Organisatiethema**.
 
-3. Wijzig in **het deelvenster Thema's** de thema-elementen die u voor uw organisatie wilt gebruiken:
+Alle thema's kunnen worden aangepast met behulp van de volgende tabbladen.
 
-    - **Een aangepaste logoafbeelding gebruiken:** kiezen of u een afbeelding van een URL wilt gebruiken of een afbeelding wilt uploaden. Als u een URL gebruikt, zorg er dan voor dat voor de URL HTTPS wordt gebruikt en dat de afbeelding 200 x 30 pixels van elke grootte is. U kunt een logo uploaden onder 10 kB met een bestand van 200 x 30 pixels in JPG-, PNG-, GIF- of SVG-indeling.
+|**Tab**|**Wat kunt u doen?**|
+|:-----|:-----|
+|[Algemeen](#general-modify-a-theme) <br/> |Wijzig een themanaam en wijs deze toe aan maximaal vijf groepen (indien van toepassing).  <br/> |
+|[Logo's](#logos-specify-your-theme-logos) <br/> |Voeg uw themalogo toe, inclusief het donkere thema van Office en mobiele opties.  <br/> |
+|[Kleuren](#colors-choose-theme-colors) <br/> |Pas een kleurenschema aan door navigatiebalk, accent, tekst en pictogramkleuren op te geven. <br/> |
 
-      > [!NOTE]
-      > Gebruik alleen SVG-afbeeldingen om het logo weer te geven in de mobiele SharePoint-app. Afbeeldingen die zijn geüpload in een andere indeling, worden niet in de app weergegeven. Er kan niet op logo's worden geklikt in de Mobiele SharePoint-app.
+## <a name="general-modify-a-theme"></a>Algemeen: Een thema wijzigen
 
-    - **Zorg dat er op het logo kan** worden geklikt: u kunt uw logo op de navigatiebalk gebruiken als koppeling naar een bedrijfsresource. U kunt hier de URL voor het logo invoeren, te beginnen http:// of https://. Dit is niet verplicht.
+Uw ervaring op het tabblad Algemeen is afhankelijk van of u het standaardthema of een groepsthema toevoegt of wijzigt.
 
-    - **Achtergrondafbeelding** selecteren: Selecteer de afbeelding en upload uw eigen JPG-, PNG- of GIF-bestand met een resolutie van 1366 x 50 pixels, dat niet groter is dan 15 kB. De achtergrondafbeelding wordt weergegeven op de bovenste navigatiebalk op elke pagina.
+### <a name="update-the-default-theme"></a>Het standaardthema bijwerken
 
-      > [!NOTE]
-      > Afbeeldingen die tekst bevatten, worden mogelijk niet weergegeven zoals verwacht. Ingebouwde elementen die worden weergegeven aan de linker- en rechterkant van de navigatiebalk, kunnen variëren per service en de tekst kan door deze elementen worden bedekt.
+Het standaardthema is het eerste thema dat wordt weergegeven.  
 
-    - **Kleur van navigatiebalk:** selecteer een kleur voor de achtergrond van de navigatiebalk. De navigatiebalk wordt boven aan elke pagina weergegeven.
+1. Als u eerder een thema voor  uw organisatie hebt aangepast, selecteert u Standaardthema en gebruikt u een van uw opgeslagen aanpassingen, of selecteert u **Thema toevoegen.**
+2. Op de **pagina** Algemeen kunt u voorkomen dat gebruikers hun thema overschrijven en de weergavenaam van de gebruiker weergeven.
+3. Selecteer **Opslaan** om de wijzigingen op te slaan.  
 
-    - **Tekst en pictogrammen**: Selecteer een kleur voor de tekst en pictogrammen op de bovenste navigatiebalk.
+> [!IMPORTANT]
+> Het standaardthema is uniek, het kan niet worden hernoemd en is van toepassing op iedereen binnen uw organisatie. Als u het standaardthema wilt verwijderen, moet u eerst alle andere thema's verwijderen.
 
-    - **Accentkleur:** selecteer een kleur die u wilt gebruiken voor de aanwijzerkleur van de navigatiebalk en paginaaccenten zoals knoppen en tekst in bepaalde toepassingen.
+:::image type="content" source="../../media/default-theme-general.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor uw organisatie":::
 
-    - **Voorkomen dat gebruikers thema's overschrijven:** zet deze schakelaar om te voorkomen dat gebruikers hun eigen thema kiezen in onze themaselectie. Hiermee wordt niet voorkomen dat gebruikers een thema met hoog contrast kunnen instellen.
+### <a name="create-a-group-theme"></a>Een groepsthema maken
 
-    - **De gebruikersnaam tonen:** kies of de volledige naam van een gebruiker moet worden weergegeven op het invoerpunt bij de accountmanager rechtsboven op de pagina wanneer de gebruiker is aangemeld. Gebruikers zien standaard hun foto of initialen als er geen foto is geüpload.
+U kunt maximaal vier extra groepsthema's maken.
 
-4. Selecteer **Wijzigingen opslaan**.
+1. Voer op **de** pagina Algemeen een naam in voor uw thema.
 
-U kunt het nieuwe thema direct in het beheercentrum zien. Na een korte vertraging kunt u deze bekijken in heel Microsoft 365, inclusief op pagina's in Outlook, SharePoint, de mobiele [SharePoint-app](https://support.microsoft.com/office/339402ce-16bb-4c97-9475-0c5375ccef7a)voor iOS en de mobiele [SharePoint-app](https://support.microsoft.com/office/d875654b-fb0a-4dbe-a17a-a676cf936284)voor Android.
+2. Onder **Groepen** kunt u maximaal 5 Microsoft 365-groepen selecteren die het groepsthema kunnen zien, in plaats van het standaardthema te gebruiken. U kunt ook voorkomen dat gebruikers hun thema overschrijven en de weergavenaam van de gebruiker weergeven.
 
-U kunt op elk gewenst moment het aangepaste pictogram of de aangepaste kleuren verwijderen. Ga terug naar de themapagina en selecteer **Aangepaste thema's verwijderen.**
+3. Selecteer **Opslaan**.
+
+:::image type="content" source="../../media/default-theme-general-users.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor een groep gebruikers in uw organisatie":::
+
+## <a name="logos-specify-your-theme-logos"></a>Logo's: Uw themalogo's opgeven
+
+Op de **pagina Logo's** kunt u uw logo's toevoegen en de URL opgeven waar gebruikers naartoe gaan wanneer ze het logo selecteren.
+
+- **Standaardlogo:** Voeg een URL-locatie toe die naar uw logo wijst. Zorg ervoor dat de URL HTTPS gebruikt en dat de afbeelding ten minste 200 x 30 pixels is. Uw standaardlogo kan de JPG-, PNG-, GIF- of SVG-indeling hebben.
+- **Alternatief logo:** Voeg een URL-locatie toe die naar uw logo wijst. Uw alternatieve logo moet zijn geoptimaliseerd voor gebruik in donkere Office-thema's. Dezelfde vereisten als het standaardlogo.
+- **Klein standaardlogo:** Voeg een URL-locatie toe die naar uw logo wijst. De afbeelding moet ten minste 48 x 48 pixels zijn. U kunt deze afbeelding zo schalen dat deze past op kleinere of mobiele apparaten.
+- **Klein alternatief logo:** Voeg een URL-locatie toe die naar uw logo wijst. Deze afbeelding heeft dezelfde vereisten als het kleine standaardlogo.
+- **Koppeling bij klikken:** Voeg een URL-locatie toe die naar uw logo wijst. U kunt uw logo gebruiken als koppeling naar een bedrijfsresource, bijvoorbeeld de website van uw bedrijf.
+
+Selecteer **Opslaan** om de wijzigingen op te slaan.
+
+U kunt uw logo's op elk moment verwijderen. Ga terug naar de **pagina Logo's** en selecteer **Verwijderen.**
+
+:::image type="content" source="../../media/default-theme-logos.png" alt-text="Schermafbeelding: tabblad Logo's met standaardthemalogo voor uw organisatie":::
+
+> [!NOTE]
+> Standaard worden eerst logoselecties weergegeven die door de meeste organisaties worden gebruikt. Als u alle logoselecties wilt zien, gaat u naar de onderkant van de lijst en selecteert u **Geavanceerde opties bekijken.**
   
-## <a name="best-practices"></a>Aanbevolen procedures
+## <a name="colors-choose-theme-colors"></a>Kleuren: Themakleuren kiezen
 
-- **Logoafbeelding:** gebruik een SVG-bestandstype, zodat uw logo op alle schermen en op alle zoomniveaus met een hoge resolutie wordt weergegeven.
+Op de **pagina** Kleuren kunt u de standaardkleuren instellen en kiezen welk logo moet worden gebruikt.
 
-- **Aangepaste kleuren:** kies een **achtergrondkleur van de navigatiebalk** met een hoge contrastverhouding met de door u gekozen **logoafbeelding.** Kies een **kleur voor tekst en pictogrammen** met een hoge contrastverhouding met de achtergrondkleur van de navigatiebalk, zodat alle tekst en pictogrammen duidelijk zichtbaar zijn. 
+- **Navigatiebalkkleur:** Selecteer een kleur die u wilt gebruiken voor de achtergrond van de navigatiebalk. De navigatiebalk wordt boven aan elke pagina weergegeven.
+- **Tekst- en pictogramkleur:** Selecteer een kleur die u wilt gebruiken voor de tekst en pictogrammen op de bovenste navigatiebalk.
+- **Accentkleur:** kies er een die goed wordt op een witte of lichte achtergrond. De accentkleur wordt gebruikt om bepaalde koppelingen en knoppen te kleuren die worden op een witte of lichte achtergrond. De accentkleur wordt bijvoorbeeld gebruikt om elementen te kleuren in het Postvak IN van een gebruiker en op de Office.com portalpagina.
+- **Kleur opnieuw instellen:** Selecteer deze koppeling om kleuren opnieuw in te stellen op de standaardkleuren.
+- **Welk logo moet worden gebruikt?**: Selecteer standaardlogo's of andere logo's die u zelf hebt gemaakt.
 
-- **Accentkleur:** kies een kleur die goed wordt uitgevoerd op een witte of lichte achtergrond. De accentkleur wordt gebruikt om sommige koppelingen en knoppen op een witte of lichte achtergrond te kleuren. De accentkleur wordt bijvoorbeeld gebruikt om elementen in het Postvak IN van een gebruiker en op de portal-Office.com te kleuren.
-  
-- **Contrastverhouding:** de aanbevolen contrastverhouding tussen tekst, pictogram of knopkleur en achtergrondkleur is 4,5:1.
+:::image type="content" source="../../media/default-theme-colors.png" alt-text="Schermafbeelding: tabblad Kleuren met standaardthemakleuren voor uw organisatie":::
+
+## <a name="frequently-asked-questions"></a>Veelgestelde vragen
+
+### <a name="my-organization-already-has-a-theme-for-all-employees-how-will-this-change"></a>Mijn organisatie heeft al een thema voor alle werknemers. Hoe verandert dit?
+
+Het standaardthema blijft zichtbaar voor alle werknemers.Het toevoegen van een nieuw groepsthema wordt alleen beschikbaar gesteld voor de Microsoft 365-groepen die aan dat thema zijn gekoppeld.
+
+### <a name="whydont-isee-group-themes-in-the-admin-center"></a>Waarom zie ik geen groepsthema's in het beheercentrum?
+
+Alleen globale beheerders kunnen bedrijfsthema's aanpassen.Globale lezers hebben alleen-lezen toegang.
+
+### <a name="how-many-different-themes-can-i-set-up-for-my-organization"></a>Hoeveel verschillende thema's kan ik instellen voor mijn organisatie?  
+
+Er kunnen maximaal vijf thema's worden gemaakt. Een standaardthema en vier groepsthema's.  
+
+### <a name="can-i-use-security-groups-or-distribution-groups-instead-of-microsoft-365-groups"></a>Kan ik beveiligingsgroepen of distributiegroepen gebruiken in plaats van Microsoft 365 Groepen?
+
+Nee, nieuwe groepsthema's moeten zijn toegesneden op een of meer Microsoft 365-groepen en niet aan beveiligingsgroepen of distributiegroepen.
+
+> [!NOTE]
+> U kunt [distributiegroepen converteren naar Microsoft 365-groepen](../manage/upgrade-distribution-lists.md) in Outlook.
+
+### <a name="can-imanually-assign-a-theme-independent-ofmicrosoft-365-groups"></a>Kan ik handmatig een thema toewijzen dat onafhankelijk is van Microsoft 365 Groepen?  
+
+Nee, nieuwe groepsthema's moeten zijn toegesneden op een of meer Microsoft 365-groepen. Gebruikers die lid zijn van de Microsoft 365-groep, krijgen het thema toegepast op hun groep. U kunt nieuwe leden maken en toevoegen aan een [Microsoft 365-groep](../create-groups/create-groups.md) door naar **instellingengroepen**   >  **** in het beheercentrum te gaan.
+
+### <a name="what-happens-if-a-user-is-assigned-to-multiple-group-themes"></a>Wat gebeurt er als een gebruiker is toegewezen aan meerdere groepsthema's?  
+
+Gebruikers die aan meerdere groepsthema's zijn toegewezen, krijgen het standaardthema te zien.  
+
+### <a name="why-cant-i-delete-the-default-theme"></a>Waarom kan ik het standaardthema niet verwijderen?  
+
+Het standaardthema kan alleen worden verwijderd wanneer alle groepsthema's zijn verwijderd. Zorg ervoor dat u alle groepsthema's verwijdert voordat u het groepsthema probeert te verwijderen.
+
+### <a name="why-am-i-receiving-an-error-message-every-time-i-uploadalogo-url"></a>Waarom krijg ik elke keer dat ik een logo-URL upload een foutbericht.  
+
+Zorg ervoor dat het logo dat u gebruikt, is opgegeven als een openbaar adresseerbare URL. Volg deze stappen voor [het uploaden van logo's naar Azure Blob Storage](/azure/storage/blobs/storage-upload-process-images?tabs=dotnet) of het Office [365 Content Delivery Network met SharePoint Online.](../../enterprise/use-microsoft-365-cdn-with-spo.md)
+
+### <a name="why-am-i-receiving-themessagedoesnt-meet-minimum-color-contrast-ratio-of-451"></a>Waarom krijg ik het bericht 'Voldoet niet aan de minimale kleurcontrastverhouding van 4,5:1'?
+
+De aanbevolen contrastverhouding tussen tekst, pictogram of knopkleur en achtergrondkleur is 4,5:1. U kunt deze aanbeveling overschrijven en uw thema nog steeds opslaan, omdat dit geen vereiste is.
+
+### <a name="if-i-define-a-theme-which-places-in-microsoft-365-will-this-be-used"></a>Als ik een thema definieert, op welke plaatsen in Microsoft 365 wordt dit gebruikt?
+
+Elk thema wordt weergegeven in de bovenste navigatiebalk voor iedereen in de organisatie als onderdeel van de koptekst van de Microsoft 365-suite.  
   
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Aangepaste tegels toevoegen aan de pagina Mijn apps en het startprogramma voor apps](../manage/customize-the-app-launcher.md)
+
+[Overzicht van Microsoft 365 Groepen voor beheerders](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups)

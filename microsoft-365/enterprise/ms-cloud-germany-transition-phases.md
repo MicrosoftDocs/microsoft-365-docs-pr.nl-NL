@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Samenvatting: Inzicht in de migratiefasen en de gevolgen van de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 5764b5cedf17487320fbfd05885120de86da3a84
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 481447fa291354b3377648089cff193a2ad6fc2a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029060"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061083"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Acties en effecten van migratiefasen voor de migratie vanuit Microsoft Cloud Deutschland
 
 Tenantmigraties van Microsoft Cloud Deutschland (MCD) naar de regio 'Duitsland' van Microsoft's Globale Office 365-services worden uitgevoerd als een reeks fasen en hun geconfigureerde acties voor elke werkbelasting. In deze afbeelding ziet u de tien fasen van de migratie naar de nieuwe Duitse datacenters.
 
-![De tien fasen van de migratie naar de nieuwe Datacenters van Duitsland](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+[![De tien fasen van de migratie naar de nieuwe Datacenters van Duitsland ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)](../media/ms-cloud-germany-migration-opt-in/migration-organization.png#lightbox)
 
 Het migratieproces wordt gedurende vele weken voltooid, afhankelijk van de totale grootte en complexiteit van de organisatie. Terwijl de migratie aan de gang is, kunnen gebruikers en beheerders de services blijven gebruiken met belangrijke wijzigingen die in deze documentatie worden beschreven. De afbeelding en tabel definiëren fasen en stappen tijdens de migratie.
 
@@ -125,7 +125,7 @@ Als u nog steeds SharePoint 2013-werkstromen gebruikt, beperkt u het gebruik van
 |:-------|:-----|:-------|
 | SharePoint en OneDrive worden overge- | SharePoint Online en OneDrive voor Bedrijven worden in deze fase gemigreerd van Microsoft Cloud Deutschland naar Globale Office 365-services.<br><ul><li>Bestaande URL's van Microsoft Cloud Deutschland blijven behouden `contoso.sharepoint.de` (bijvoorbeeld).</li><li>Bestaande sites blijven behouden.</li><li>Clientverificatietokens die zijn uitgegeven door de Security Token Service (STS) in het exemplaar Microsoft Cloud Deutschland of Office 365 Global Services zijn geldig tijdens de overgang.</li></ul>|<ul><li>Inhoud is gedurende twee korte perioden tijdens de migratie alleen-lezen. Verwacht gedurende deze periode een banner 'u kunt inhoud niet bewerken' in SharePoint.</li><li>De zoekindex blijft niet behouden en het kan tien dagen duren voordat de zoekindex opnieuw wordt opgebouwd.</li><li>Inhoud van SharePoint Online en OneDrive voor Bedrijven is gedurende twee korte perioden tijdens de migratie alleen-lezen. Gebruikers zien in deze periode kort een banner 'u kunt inhoud niet bewerken'.</li><li>Na voltooiing van de SharePoint Online-migratie zijn de zoekresultaten voor SharePoint Online- en OneDrive voor Bedrijven-inhoud mogelijk niet beschikbaar terwijl de index opnieuw wordt opgebouwd. Tijdens deze periode geven zoekquery's mogelijk geen volledige resultaten als resultaat. Functies die afhankelijk zijn van zoekindexen, zoals SharePoint Online News, kunnen worden beïnvloed tijdens het opnieuw indexeren.</li><li>SharePoint 2013-werkstromen worden verbroken tijdens de migratie en moeten opnieuw worden gepubliceerd na de migratie.</li></ul>
 |**SPO-beheerder:** SharePoint 2013-werkstromen opnieuw publiceren| Een SharePoint Online-beheerder herpubliceert de SharePoint 2013-werkstromen na de migratie.|SharePoint 2013-werkstromen zijn beschikbaar.
-|**PowerShell-gebruiker:** Bijwerken naar nieuwe module| Alle gebruikers van de SharePoint Online Powershell-module moeten module/Microsoft.SharePointOnline.CSOM bijwerken naar versie 16.0.20717.12000 of hoger nadat de SharePoint Online-migratie is voltooid. Voltooiing wordt gecommuniceerd in het berichtencentrum.| SharePoint Online via PowerShell of het objectmodel aan de clientzijde mislukt niet meer.
+|**PowerShell-gebruiker:** Bijwerken naar nieuwe module| Alle gebruikers van de SharePoint Online PowerShell-module moeten module/Microsoft.SharePointOnline.CSOM bijwerken naar versie 16.0.20717.12000 of hoger nadat de SharePoint Online-migratie is voltooid. Voltooiing wordt gecommuniceerd in het berichtencentrum.| SharePoint Online via PowerShell of het objectmodel aan de clientzijde mislukt niet meer.
 ||||
 
 Aanvullende aandachtspunten:

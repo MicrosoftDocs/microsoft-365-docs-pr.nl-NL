@@ -15,78 +15,62 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 02fd995b04c1644e88b38fd0feebc2c80a3681ac
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 5093bf64614f30c7daa145484453d7c9000ef2c7
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933623"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060883"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Releasenotities van Microsoft Defender for Endpoint API
 
 **Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 De volgende informatie bevat de updates die zijn aangebracht aan de API's van Microsoft Defender voor eindpunten en de datums waarop ze zijn gemaakt.
 
-
 > [!TIP]
-> RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in uw feedlezer te kopiëren en te kopiëren: 
->```
->https://docs.microsoft.com/api/search/rss?search=%22Release+notes+for+updates+made+to+the+Microsoft+Defender+for+Endpoint+set+of+APIs%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Windows+10%27%29
->```
+> RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in uw feedlezer te kopiëren en te kopiëren:
+>
+> ```http
+> https://docs.microsoft.com/api/search/rss?search=%22Release+notes+for+updates+made+to+the+Microsoft+Defender+for+Endpoint+set+of+APIs%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Windows+10%27%29
+> ```
 
+
+## <a name="release-notes---newest-to-oldest"></a>Releasenotities - nieuwste naar oudste
+
+### <a name="23042021"></a>23.04.2021
+
+- Nieuwe API toegevoegd: [herstelactiviteitsmethoden en -eigenschappen](get-remediation-methods-properties.md).
 
 ### <a name="10022021"></a>10.02.2021
-<hr>
 
-- Nieuwe API toegevoegd: [waarschuwingen voor batchupdates.](batch-update-alerts.md) 
-
-<br>
+- Nieuwe API toegevoegd: [waarschuwingen voor batchupdates.](batch-update-alerts.md)
 
 ### <a name="25012021"></a>25.01.2021
-<hr>
 
-- Bijgewerkte tariefbeperkingen voor [Advanced Hunting API](run-advanced-query-api.md) van 15 tot 45 aanvragen per minuut. 
-
-<br>
+- Bijgewerkte tariefbeperkingen voor [Advanced Hunting API](run-advanced-query-api.md) van 15 tot 45 aanvragen per minuut.
 
 ### <a name="21012021"></a>21.01.2021
-<hr>
 
-- Nieuwe API toegevoegd: [Apparaten zoeken op tag](machine-tags.md). 
-- Nieuwe API toegevoegd: [importindicatoren](import-ti-indicators.md). 
-
-<br>
+- Nieuwe API toegevoegd: [Apparaten zoeken op tag](machine-tags.md).
+- Nieuwe API toegevoegd: [importindicatoren](import-ti-indicators.md).
 
 ### <a name="03012021"></a>03.01.2021
-<hr>
 
 - Bijgewerkte waarschuwingen: toegevoegde eigenschappen ***detectieStatus** _, _*_bovenliggendeProcessFilePath_*_ en _ *_parentProcessFileName_** .
 - Bijgewerkte [waarschuwingsentiteit:](alerts.md) ***eigenschap melderid*** toegevoegd.
 
-<br>
-
 ### <a name="15122020"></a>15.12.2020
-<hr>
 
 - Bijgewerkte apparaatentiteit: ***lijst met IpInterfaces*** toegevoegd. [](machine.md) Zie [Lijstapparaten](get-machines.md).
 
-<br>
-
 ### <a name="04112020"></a>04.11.2020
-<hr>
 
 - Nieuwe API toegevoegd: [apparaatwaarde instellen.](set-device-value.md)
 - Bijgewerkte apparaatentiteit: ***eigenschap apparaatwaarde*** toegevoegd. [](machine.md)
 
-<br>
-
 ### <a name="01092020"></a>01.09.2020
-<hr>
 
 - De optie Toegevoegd om de entiteit Waarschuwing uit te vouwen met het bijbehorende bewijs. Zie [Lijstwaarschuwingen](get-alerts.md).
-
-<br>
-<br>

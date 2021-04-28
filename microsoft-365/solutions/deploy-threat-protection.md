@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: ea28e9c244b6b8faaeb9b1f3685d57169605cbb9
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 0edc3847d6b832f254c6f289355570a3a044b1f4
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650312"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061035"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Mogelijkheden voor bedreigingsbeveiliging implementeren in Microsoft 365 E5
 
-Deze oplossing beschrijft krachtige mogelijkheden voor bedreigingsbeveiliging in Microsoft 365 E5. Lees deze oplossing om een overzicht te krijgen van wat er is inbegrepen, hoe deze werkt en hoe u aan de slag kunt met het implementeren van deze mogelijkheden in uw organisatie.
+Deze oplossing beschrijft krachtige mogelijkheden voor bedreigingsbeveiliging in Microsoft 365 E5 en waarom deze mogelijkheden belangrijk zijn. Lees deze oplossing om een overzicht te krijgen van wat er is opgenomen in Microsoft 365 E5, hoe mogelijkheden voor bedreigingsbeveiliging werken en hoe u bedreigingsbeveiliging in uw organisatie kunt instellen en configureren.
 
-## <a name="why-protecting-against-threats-is-important"></a>Waarom bescherming tegen bedreigingen belangrijk is 
+## <a name="why-threat-protection-is-important"></a>Waarom bedreigingsbeveiliging belangrijk is 
 
 [Malware](/windows/security/threat-protection/intelligence/understanding-malware)en geavanceerde cyberaanvallen, zoals [bestandsloze](/windows/security/threat-protection/intelligence/fileless-threats)bedreigingen, komen vaak voor. Bedrijven moeten zichzelf en hun klanten beschermen met effectieve IT-beveiligingsmogelijkheden. Cyberaanvallen kunnen grote problemen veroorzaken voor uw organisatie, variërend van een verlies van vertrouwen tot financiële problemen, bedrijfsbedreigende downtime en meer. Bescherming tegen bedreigingen is belangrijk, maar het kan lastig zijn om te bepalen waar u de tijd, moeite en resources van uw organisatie kunt concentreren. Microsoft 365 E5 kan u helpen. 
 
@@ -57,12 +57,12 @@ In de volgende afbeelding wordt een aanbevolen pad weergegeven voor het implemen
 > [!div class="mx-imgBorder"]
 > ![M365-bedreigingssignalen](../media/deploy-threat-protection/deploy-threat-protection-across-m365.png)
 
-|Oplossing/mogelijkheden  |Omschrijving  |
+|Oplossing/mogelijkheden  |Beschrijving  |
 |---------|---------|
 |Meervoudige verificatie en Voorwaardelijke toegang     |Bescherm u tegen gecompromitteerde identiteiten en apparaten. Begin met deze beveiliging omdat deze basis is. De configuratie die in deze richtlijn wordt aanbevolen, bevat Azure AD Identity Protection als een vereiste.     |
 |Microsoft Defender for Identity     |  Een cloudgebaseerde beveiligingsoplossing die gebruik maakt van uw on-premises AD DS-signalen (Active Directory Domain Services) om geavanceerde bedreigingen, gecompromitteerde identiteiten en schadelijke insideracties die zijn gericht op uw organisatie te identificeren, te detecteren en te onderzoeken. Focus vervolgens op Microsoft Defender voor identiteit omdat het uw on-premises en cloudinfrastructuur beschermt, geen afhankelijkheden of vereisten heeft en directe beveiligingsvoordelen kan bieden. | 
 |Microsoft Defender voor Office 365     | Beschermt uw organisatie tegen schadelijke bedreigingen die worden veroorzaakt door e-mailberichten, koppelingen (URL's) en samenwerkingshulpmiddelen. Beveiligingen voor malware, phishing, spoofing en andere soorten aanvallen. Het configureren van Microsoft Defender voor Office 365 wordt vervolgens aanbevolen, omdat het implementeren van beheer, het migreren van instellingen van het bestaande systeem en andere aandachtspunten langer kan duren. <p>**OPMERKING:** Zorg ervoor dat u de mogelijkheden voor bedreigingsbeveiliging configureert die zijn opgenomen in alle Office 365-abonnementen (Exchange Online Protection).       |
-|Microsoft Defender voor Eindpunt    | Een eindpuntbeveiligingsplatform waarmee geavanceerde bedreigingen worden voorkomen, gedetecteerd, onderzocht en beantwoord.  Het kan enige tijd duren om Defender voor Eindpunt te implementeren, maar de configuratie kan parallel met andere mogelijkheden worden uitgevoerd.   |
+|Microsoft Defender for Endpoint    | Een eindpuntbeveiligingsplatform waarmee geavanceerde bedreigingen worden voorkomen, gedetecteerd, onderzocht en beantwoord.  Het kan enige tijd duren om Defender voor Eindpunt te implementeren, maar de configuratie kan parallel met andere mogelijkheden worden uitgevoerd.   |
 |Microsoft Cloud App Security     |   Een beveiligingsagent voor cloudtoegang voor detectie, onderzoek en beheer. U kunt Microsoft Cloud App Security vroeg inschakelen om te beginnen met het verzamelen van gegevens en inzichten. Bij het implementeren van informatie en andere gerichte beveiliging in uw SaaS-apps is planning nodig en kan het meer tijd kosten.       | 
 
 > [!TIP]
