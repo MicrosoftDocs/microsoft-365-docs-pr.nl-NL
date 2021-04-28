@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Pre-work when moving from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter region.'
-ms.openlocfilehash: ce7aad932482d7a9d1681957c06b85ab22a82149
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9c3aff56f5d85cd1b98747ef5b747720af74fe02
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760390"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073935"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Activiteiten vóór de migratie van Microsoft Cloud Deutschland
 
@@ -33,7 +33,7 @@ Als u
 
 - **Office 365 in Microsoft Cloud Deutschland**, doe [deze stappen.](#general-tenant-migration-considerations)
 - **Aangepaste domeinen**, doe [deze stap](#dns-entries-for-custom-domains).
-
+- **Office Apps**, overweeg [deze stap.](#office-apps)
 - **SharePoint Online**, doe [deze stap](#sharepoint-online).
 - **Exchange Online** of **Exchange Hybrid**, doe [deze stap](#exchange-online).
 - **Skype voor Bedrijven Online**, doe [deze stap](#skype-for-business-online).
@@ -83,6 +83,19 @@ Als de opdrachtregel een DNS-record retourneert, verwijdert u _de msoid_ CNAME u
 
 > [!NOTE]
 > Als u een aangepast domein voor Exchange Online gebruikt, moet u toegang hebben tot uw DNS-hostingprovider. Zorg ervoor dat u uw DNS-instellingen kunt openen en bewerken. Tijdens de migratie wijzigt u DNS-records.
+
+## <a name="office-apps"></a>Office-apps
+
+**Van toepassing op**: Klanten die Office-apps gebruiken, met name op Windows-clients <br>
+**Wanneer toegepast:** Op elk moment voordat fase 9 begint
+
+Office 365-tenants die overstappen op de regio 'Duitsland' vereisen dat alle gebruikers zich moeten sluiten, zich moeten aanmelden bij Office 365 en zich opnieuw moeten aanmelden voor alle Office-bureaubladtoepassingen (Word, Excel, PowerPoint, Outlook, enzovoort) en OneDrive voor Bedrijven-client nadat de tenantmigratie fase 9 heeft bereikt. Door u af te melden en aan te melden, kunnen de Office-services nieuwe verificatietokens verkrijgen bij de globale Azure AD-service.
+
+Dit is vereist voor alle clients. Om ervoor te zorgen dat de migratie soepel verloopt, wordt ten zeerste aangeraden alle betrokken gebruikers vooraf en in een vroeg stadium te informeren en in te delen over deze aanstaande activiteit.
+
+Klanten met beheerde Windows-clients kunnen Windows-machines voorbereiden met [het Office Client Cutover Tool (OCCT)](https://github.com/microsoft/OCCT). De OCCT is ontworpen om regelmatig op Windows-clients te worden uitgevoerd totdat de tenant fase 9 van de migratie heeft bereikt. Wanneer fase 9 is bereikt, voert het OCCT alle benodigde wijzigingen op de computer automatisch uit zonder tussenkomst van de gebruiker.
+
+De OCCT kan op elk moment vóór fase 9 worden geïmplementeerd op Windows-clients. Als de OCCT de migratie-ervaring ondersteunt, raden we u aan de implementatie zo snel mogelijk te starten om een maximum aantal clients toe te rusten.
 
 ## <a name="active-directory-federation-services-ad-fs"></a>Active Directory Federation Services (AD FS)
 

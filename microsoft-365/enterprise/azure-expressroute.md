@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Meer informatie over het gebruik van Azure ExpressRoute met Office 365 en het plannen van het netwerkuitvoeringsproject als u er mee implementeert.
-ms.openlocfilehash: d4c14d97cff2952f5f7052a8aa2940f05d644737
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 8047cdaa1325df487709660b558420609afffd42
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023723"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073947"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Azure ExpressRoute voor Office 365
 
@@ -39,9 +39,7 @@ Lees hoe Azure ExpressRoute wordt gebruikt met Office 365 en hoe u het netwerkui
 > Microsoft Defender voor Eindpunt wordt niet ondersteund in Azure Express Route.
 
 > [!NOTE]
-> Microsoft-autorisatie is vereist voor het gebruik van ExpressRoute voor Office 365. Microsoft controleert elke klantaanvraag en autoreert ExpressRoute voor Office 365-gebruik wanneer de wettelijke vereisten van een klant directe connectiviteit verplicht stellen. Als u dergelijke vereisten hebt, neem dan contact op met uw Microsoft-accountvertegenwoordiger om een Microsoft-beoordeling te starten. Ongeautoriseerde abonnementen die routefilters voor Office 365 proberen te maken, ontvangen een [foutbericht.](https://support.microsoft.com/kb/3181709)
-
-U kunt nu een directe netwerkverbinding toevoegen aan Office 365 voor geselecteerd Office 365-netwerkverkeer. Azure ExpressRoute biedt een directe verbinding, voorspelbare prestaties en wordt geleverd met een UPTIME SLA van 99,95% voor de Microsoft-netwerkonderdelen. U hebt nog steeds een internetverbinding nodig voor services die niet worden ondersteund via Azure ExpressRoute.
+> We raden ExpressRoute voor Microsoft 365 niet aan omdat het in de meeste gevallen niet het beste connectiviteitsmodel voor de service biedt. Daarom is Microsoft-autorisatie vereist om dit connectiviteitsmodel voor Microsoft 365 te kunnen gebruiken. We controleren elke klantaanvraag en machtigen ExpressRoute voor Microsoft 365 alleen in de zeldzame scenario's waar dit nodig is. Lees de ExpressRoute voor [Microsoft 365-handleiding](https://aka.ms/erguide) voor meer informatie en volg een uitgebreide controle van het document met uw productiviteits-, netwerk- en beveiligingsteams en werk zo nodig samen met uw Microsoft-accountteam om een uitzondering in te dienen. Ongeautoriseerde abonnementen die routefilters voor Office 365 proberen te maken, ontvangen een [foutbericht.](https://support.microsoft.com/kb/3181709)
 
 ## <a name="planning-azure-expressroute-for-office-365"></a>Azure ExpressRoute plannen voor Office 365
 
@@ -64,7 +62,7 @@ Wilt u nog steeds meer informatie? Meer informatie over het beheren van uw netwe
 
 De volgende tabel bevat de Office 365-services die worden ondersteund via ExpressRoute. Bekijk het [Artikel met Office 365-eindpunten](./urls-and-ip-address-ranges.md) om te begrijpen welke netwerkaanvragen voor deze toepassingen een internetverbinding vereisen.
 
-|**Toepassingen inbegrepen**|
+| Toepassingen inbegrepen |
 |:-----|
 |Exchange Online<sup>1</sup> <br/> Exchange Online Protection<sup>1</sup> <br/> Delve<sup>1</sup> <br/> |
 |Skype voor Bedrijven Online<sup>1</sup> <br/> Microsoft Teams <sup>1</sup> <br/> |
