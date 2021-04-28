@@ -15,12 +15,12 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 84864965d7a18902a01307c1dcf373fa7c0534e8
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ff98b78d113a67ad6bd816753c691e8afe71dd77
+ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765573"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52065071"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Beveiligingsinstellingen beveiligen tegen onrechtmatig wijzigen
 
@@ -61,6 +61,8 @@ Beveiliging tegen geknoei blokkeert Microsoft Defender Antivirus en voorkomt dat
 
 Beveiliging van tamper voorkomt niet dat u uw beveiligingsinstellingen kunt bekijken. En tamperbeveiliging heeft geen invloed op de manier waarop antivirus-apps van derden zich registreren met de Windows Security-app. Als uw organisatie Windows 10 Enterprise E5 gebruikt, kunnen afzonderlijke gebruikers de beveiligingsinstelling voor tamper niet wijzigen. in die gevallen wordt de beveiliging van de tamper beheerd door uw beveiligingsteam.
 
+
+
 ### <a name="what-do-you-want-to-do"></a>Wat wilt u doen?
 
 | Als u deze taak wilt uitvoeren... | Zie deze sectie... |
@@ -73,6 +75,19 @@ Beveiliging van tamper voorkomt niet dat u uw beveiligingsinstellingen kunt beki
 | Uw beveiligingsaanbevelingen bekijken | [Beveiligingsaanbevelingen controleren](#review-your-security-recommendations) |
 | Bekijk de lijst met veelgestelde vragen (veelgestelde vragen) | [Door de veelgestelde vragen bladeren](#view-information-about-tampering-attempts) |
 
+Afhankelijk van de methode of het beheerprogramma dat u gebruikt om tamper-beveiliging in te stellen, is er mogelijk een afhankelijkheid van KAARTEN (beveiliging in de cloud). 
+
+In de volgende tabel vindt u informatie over de methoden, hulpmiddelen en afhankelijkheden.
+
+
+
+|     De manier waarop beveiliging van Tamper is ingeschakeld                                         |     Afhankelijkheid van KAARTEN (beveiliging in de cloud)    |
+|------------------------------------------------------------------------------|--------------------------------------------------------|
+|     Microsoft Intune                                                         |     Nee                                                 |
+| Microsoft Endpoint Configuration Manager + Tenant Attach                     |     Nee                                                 |
+|     Microsoft Defender for Endpoint portal (securitycenter.microsoft.com)    |     Ja                                                |
+|     Microsoft 365 Defender-portal (security.microsoft.com)                   |     Ja                                                |
+
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Beveiligingsbeveiliging voor uw organisatie beheren met behulp van het Microsoft Defender-beveiligingscentrum
 
 Beveiliging tegen geknoei kan worden ingeschakeld of uitgeschakeld voor uw tenant met behulp van het Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). Hier zijn een paar punten waar u rekening mee moet houden:
@@ -84,6 +99,9 @@ Beveiliging tegen geknoei kan worden ingeschakeld of uitgeschakeld voor uw tenan
 - Wanneer u de beveiligingsbeveiliging voor geknoeidheid beheert in het Microsoft Defender-beveiligingscentrum, wordt de instelling toegepast op tenants, die van invloed zijn op al uw apparaten waarop Windows 10, Windows Server 2016 of Windows Server 2019 wordt uitgevoerd. Gebruik [Intune](#manage-tamper-protection-for-your-organization-using-intune) of Configuration Manager met tenant attach om de beveiliging van de manipulaties (zoals het hebben van beveiliging tegen geknoei op sommige apparaten, maar voor andere apparaten) te [finetunen.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - Als u een hybride omgeving hebt, hebben beveiligingsinstellingen die zijn geconfigureerd in Intune voorrang op instellingen die zijn geconfigureerd in het Microsoft Defender-beveiligingscentrum. 
+
+
+
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-defender-security-center"></a>Vereisten voor het beheren van beveiliging tegen fraude in het Microsoft Defender-beveiligingscentrum
 

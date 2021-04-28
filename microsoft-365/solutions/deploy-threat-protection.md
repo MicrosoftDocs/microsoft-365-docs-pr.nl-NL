@@ -1,7 +1,7 @@
 ---
 title: Mogelijkheden voor bedreigingsbeveiliging implementeren in Microsoft 365
 description: Krijg een overzicht van bedreigingsbeveiligingsservices en beveiligingsmogelijkheden in Microsoft 365 E5. Bescherm uw gebruikersaccounts, apparaten, e-mailinhoud en meer met Microsoft 365 E5.
-keywords: geavanceerde bedreigingsbeveiliging, beveiliging, microsoft 365 E5, oplossing, apparaten beveiligen, defender
+keywords: oplossing, installatie, geavanceerde bedreigingsbeveiliging, atp, beveiliging, microsoft 365 E5, apparaten beveiligen, defender, m365
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -17,16 +17,16 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 0edc3847d6b832f254c6f289355570a3a044b1f4
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 04e9ed3d108fa68bdfbf3b34de618d904e3f2cba
+ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061035"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52065095"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Mogelijkheden voor bedreigingsbeveiliging implementeren in Microsoft 365 E5
 
-Deze oplossing beschrijft krachtige mogelijkheden voor bedreigingsbeveiliging in Microsoft 365 E5 en waarom deze mogelijkheden belangrijk zijn. Lees deze oplossing om een overzicht te krijgen van wat er is opgenomen in Microsoft 365 E5, hoe mogelijkheden voor bedreigingsbeveiliging werken en hoe u bedreigingsbeveiliging in uw organisatie kunt instellen en configureren.
+Deze oplossing beschrijft krachtige mogelijkheden voor bedreigingsbeveiliging in Microsoft 365 E5 en legt uit waarom bedreigingsbeveiliging belangrijk is. Lees dit artikel voor een overzicht van bedreigingsbeveiliging in Microsoft 365 E5 en hoe u de installatie en configuratie voor uw organisatie kunt benaderen.
 
 ## <a name="why-threat-protection-is-important"></a>Waarom bedreigingsbeveiliging belangrijk is 
 
@@ -60,7 +60,7 @@ In de volgende afbeelding wordt een aanbevolen pad weergegeven voor het implemen
 |Oplossing/mogelijkheden  |Beschrijving  |
 |---------|---------|
 |Meervoudige verificatie en Voorwaardelijke toegang     |Bescherm u tegen gecompromitteerde identiteiten en apparaten. Begin met deze beveiliging omdat deze basis is. De configuratie die in deze richtlijn wordt aanbevolen, bevat Azure AD Identity Protection als een vereiste.     |
-|Microsoft Defender for Identity     |  Een cloudgebaseerde beveiligingsoplossing die gebruik maakt van uw on-premises AD DS-signalen (Active Directory Domain Services) om geavanceerde bedreigingen, gecompromitteerde identiteiten en schadelijke insideracties die zijn gericht op uw organisatie te identificeren, te detecteren en te onderzoeken. Focus vervolgens op Microsoft Defender voor identiteit omdat het uw on-premises en cloudinfrastructuur beschermt, geen afhankelijkheden of vereisten heeft en directe beveiligingsvoordelen kan bieden. | 
+|Microsoft Defender for Identity     |  Een cloudgebaseerde beveiligingsoplossing die uw on-premises Ad DS-signalen (Active Directory Domain Services) gebruikt om geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadaardige insideracties die zijn gericht op uw organisatie te identificeren, te detecteren en te onderzoeken. Focus vervolgens op Microsoft Defender voor identiteit omdat het uw on-premises en cloudinfrastructuur beschermt, geen afhankelijkheden of vereisten heeft en directe beveiligingsvoordelen kan bieden. | 
 |Microsoft Defender voor Office 365     | Beschermt uw organisatie tegen schadelijke bedreigingen die worden veroorzaakt door e-mailberichten, koppelingen (URL's) en samenwerkingshulpmiddelen. Beveiligingen voor malware, phishing, spoofing en andere soorten aanvallen. Het configureren van Microsoft Defender voor Office 365 wordt vervolgens aanbevolen, omdat het implementeren van beheer, het migreren van instellingen van het bestaande systeem en andere aandachtspunten langer kan duren. <p>**OPMERKING:** Zorg ervoor dat u de mogelijkheden voor bedreigingsbeveiliging configureert die zijn opgenomen in alle Office 365-abonnementen (Exchange Online Protection).       |
 |Microsoft Defender for Endpoint    | Een eindpuntbeveiligingsplatform waarmee geavanceerde bedreigingen worden voorkomen, gedetecteerd, onderzocht en beantwoord.  Het kan enige tijd duren om Defender voor Eindpunt te implementeren, maar de configuratie kan parallel met andere mogelijkheden worden uitgevoerd.   |
 |Microsoft Cloud App Security     |   Een beveiligingsagent voor cloudtoegang voor detectie, onderzoek en beheer. U kunt Microsoft Cloud App Security vroeg inschakelen om te beginnen met het verzamelen van gegevens en inzichten. Bij het implementeren van informatie en andere gerichte beveiliging in uw SaaS-apps is planning nodig en kan het meer tijd kosten.       | 
@@ -74,7 +74,7 @@ In het volgende diagram ziet u het proces op hoog niveau voor het implementeren 
 
 ![Proces voor het implementeren van mogelijkheden voor bedreigingsbeveiliging](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
 
-Als u ervoor wilt zorgen dat uw organisatie de best mogelijke beveiliging biedt, stelt u uw beveiligingsoplossing in en implementeert u deze met behulp van een proces dat de volgende stappen bevat:
+Als u ervoor wilt zorgen dat uw organisatie de best mogelijke beveiliging biedt, stelt u uw beveiligingsoplossing in en implementeert u deze met een proces dat de volgende stappen bevat:
 
 1. [Meervoudige verificatie en beleidsregels voor voorwaardelijke toegang instellen.](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
 2. [Microsoft Defender configureren voor identiteit.](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
@@ -89,6 +89,6 @@ Uw beveiligingsfuncties voor bedreigingen kunnen parallel worden geconfigureerd,
 
 ## <a name="next-step"></a>Volgende stap
 
-Ga naar [Mogelijkheden voor het configureren van bedreigingsbeveiliging in Microsoft 365.](deploy-threat-protection-configure.md)
+Ga verder [met Het configureren van mogelijkheden voor bedreigingsbeveiliging in Microsoft 365](deploy-threat-protection-configure.md).
 
 

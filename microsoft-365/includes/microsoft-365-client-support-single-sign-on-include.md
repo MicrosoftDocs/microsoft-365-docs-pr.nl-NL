@@ -26,7 +26,7 @@
 |PLAKNOTITIES|N.v.t.|N.v.t.|N.v.t.|N.v.t.|✔|
 |STREAM|Gepland|Gepland|N.v.t.|N.v.t.|N.v.t.|
 |SWAY|N.v.t.|N.v.t.|N.v.t.|N.v.t.|✔|
-|TEAMS|✔|✔|Gepland|Gepland|N.v.t.|
+|TEAMS|✔|✔|Gepland|✔|N.v.t.|
 |TO-DO|✔|✔|N.v.t.|N.v.t.|✔|
 |VISIO|N.v.t.|✔|N.v.t.|✔|N.v.t.|
 |WHITEBOARD|N.v.t.|✔|N.v.t.|N.v.t.|✔|
