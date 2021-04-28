@@ -362,7 +362,7 @@
         - name: Gegevens filteren bij het importeren van PST-bestanden
           href: filter-data-when-importing-pst-files.md
         - name: Veelgestelde vragen over het importeren van PST-bestanden
-          href: faqimporting-pst-files-to-office-365.md
+          href: faqimporting-pst-files-to-office-365.yml
     - name: Gegevens van derden archiveren
       items:
         - name: Overzicht van het archiveren van gegevens van derden

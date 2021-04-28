@@ -127,6 +127,8 @@
           href: act-on-report.md
         - name: Ander domein toevoegen
           href: add-domain.md
+        - name: Een nieuw zakelijk e-mailadres instellen
+          href: set-up-a-new-business-email-address.md
     - name: Apparaten beheren
       items:
         - name: Windows 10 Pro-apparaten beveiligen
