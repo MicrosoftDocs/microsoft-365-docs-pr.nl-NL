@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Samenvatting: Inzicht in de migratiefasen en de gevolgen van de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 481447fa291354b3377648089cff193a2ad6fc2a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 354ca55bae7704c011af5a76a1112e4d2ecb47ca
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061083"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073923"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Acties en effecten van migratiefasen voor de migratie vanuit Microsoft Cloud Deutschland
 
@@ -264,18 +264,26 @@ Klanten met Dynamics 365 hebben extra betrokkenheid nodig om de Dynamics-organis
 
 ## <a name="phase-9-office-apps"></a>Fase 9: Office-apps
 
-**Van toepassing op:** Alle klanten die Office-bureaubladtoepassingen gebruiken (Word, Excel, PowerPoint, Outlook, ...)
+**Van toepassing op:** Alle klanten die Office-bureaubladtoepassingen gebruiken (Word, Excel, PowerPoint, Outlook, OneDrive ...)
+
+In deze fase voeren alle clienttoepassingen en Office Online de client cutover uit. Azure AD rondt het tenantbereik af om te wijzen naar de Office 365-services en de gerelateerde eindpunten.
 
 Office 365-tenants die overstappen op de regio 'Duitsland' vereisen dat alle gebruikers zich moeten sluiten, zich moeten aanmelden bij Office 365 en zich opnieuw moeten aanmelden voor alle Office-bureaubladtoepassingen (Word, Excel, PowerPoint, Outlook, enzovoort) en OneDrive voor Bedrijven-client nadat de tenantmigratie fase 9 heeft bereikt. Door u af te melden en aan te melden, kunnen de Office-services nieuwe verificatietokens verkrijgen bij de globale Azure AD-service.
+
+Voor het geval de Office-bureaubladtoepassingen niet werken na het uitvoeren van het aanmelden bij de toepassingen, raden we u ten zeerste aan om het [Office Client Cutover Tool (OCCT)](https://github.com/microsoft/OCCT) op de betreffende computer uit te voeren om het probleem op te lossen.
+
+Als het [Office Client Cutover Tool (OCCT)](https://github.com/microsoft/OCCT) op voorhand is geïmplementeerd en gepland voor Windows-clients, is de aanmeldings-/aanmeldingsprocedure niet vereist.
 
 De beste gebruikerservaring kan worden gegarandeerd met behulp van de meest recente Office-toepassingen. Ondernemingen moeten overwegen het Monthly Enterprise-kanaal te gebruiken.
 
 Zorg ervoor dat u het [prework voor](ms-cloud-germany-transition-add-pre-work.md#mobile-device-management) mobiele apparaten hebt voltooid.
 
-| Stap(en) | Beschrijving | Gevolg |
-|:-------|:-------|:-------|
-| Clients, Office Online tijdens office-client cutover, Azure AD rondt het tenantbereik af om te wijzen naar de Office 365-services. | Met deze configuratiewijziging kunnen Office-clients de eindpunten van office 365-services bijwerken en erop wijzen. | <ul><li>Laat gebruikers weten dat ze _alle_ Office-apps moeten sluiten en zich vervolgens opnieuw moeten aanmelden (of klanten moeten dwingen opnieuw te starten en gebruikers zich moeten aanmelden) zodat Office-clients de wijziging kunnen oppikken. </li><li>Laat gebruikers en helpdeskmedewerkers  weten dat gebruikers mogelijk een Office-banner zien die hen vraagt om Office-apps binnen 72 uur na de cutover opnieuw te activeren. </li><li>Alle Office-toepassingen op persoonlijke machines moeten worden gesloten en gebruikers moeten zich aanmelden en zich opnieuw aanmelden. Meld u op de activeringsbalk Geel aan om opnieuw te activeren voor Office 365-services.</li><li>Gedeelde machines vereisen acties die lijken op persoonlijke machines en waarvoor geen speciale procedure is vereist. </li><li>Op mobiele apparaten moeten gebruikers zich aanmelden bij apps, sluiten en zich opnieuw aanmelden.</li></ul>|
-||||
+Aanvullende aandachtspunten:
+- Laat gebruikers weten dat ze alle Office-apps moeten sluiten en zich vervolgens opnieuw moeten aanmelden (of klanten moeten dwingen opnieuw te starten en gebruikers zich moeten aanmelden) zodat Office-clients de wijziging kunnen oppikken.
+- Laat gebruikers en helpdeskmedewerkers weten dat gebruikers mogelijk een Office-banner zien die hen vraagt om Office-apps binnen 72 uur na de cutover opnieuw te activeren.
+- Alle Office-toepassingen op persoonlijke machines moeten worden gesloten en gebruikers moeten zich aanmelden en zich opnieuw aanmelden. Meld u op de activeringsbalk Geel aan om opnieuw te activeren voor Office 365-services.
+- Gedeelde machines vereisen acties die lijken op persoonlijke machines en waarvoor geen speciale procedure is vereist.
+- Op mobiele apparaten moeten gebruikers zich aanmelden bij apps, sluiten en zich opnieuw aanmelden.
 
 ## <a name="phase-9-line-of-business-apps"></a>Fase 9: line-of-business-apps
 

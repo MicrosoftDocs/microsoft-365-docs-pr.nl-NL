@@ -20,18 +20,20 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Werk het telefoonnummer en e-mailadres van uw beheerder bij in het beheercentrum. U hebt deze informatie nodig als u uw eigen beheerderswachtwoord opnieuw wilt instellen.
-ms.openlocfilehash: 39b68905c0d43608a0d0ce1d37167fd7d9aff8fb
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 49e3cd3e861499d41107b9c76da175a95e74bb0e
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470915"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073775"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>Telefoonnummer en e-mailadres van uw beheerder bijwerken
 
 In dit artikel wordt uitgelegd hoe u, de beheerder, uw zakelijke telefoon en e-mailadres kunt wijzigen in Microsoft 365.
   
 Zie [Het adres en andere profielgegevens van uw organisatie wijzigen](change-address-contact-and-more.md) als u wilt weten hoe u de profielgegevens van uw bedrijf, zoals de naam, het adres en het telefoonnummer van het bedrijf en de gegevens van de technische contactpersoon, kunt wijzigen.
+
+Zie Gerelateerde inhoud voor meer informatie over het wijzigen van contactgegevens van gebruikers of het verwijderen van voormalige [werknemers.](#related-content)
   
 ## <a name="to-update-your-phone-number-and-email-address"></a>Uw telefoonnummer en e-mailadres bijwerken
 
@@ -53,3 +55,13 @@ Antwoorden op vragen over facturering vindt u in de volgende artikelen:
 - [Uw factuuradressen voor Microsoft 365 voor Bedrijven wijzigen](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
 - [Betalingswijzen beheren](../../commerce/billing-and-payments/manage-payment-methods.md)
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Een gebruikersnaam en e-mailadres wijzigen](../add-users/change-a-user-name-and-email-address.md) (video)
+
+[Een nieuwe werknemer toevoegen](../add-users/add-new-employee.md) (video)
+
+[Een voormalige werknemer verwijderen](../add-users/remove-former-employee.md) (video)
+
+Gegevens van een voormalige gebruiker openen [en een back-up maken](../add-users/get-access-to-and-back-up-a-former-user-s-data.md) (artikel)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ab3d3aa9a13b71f65d3d4335646e32a7e4270242
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 656aa26d80db73bfc52511f9dd94e58e771f3ac6
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061047"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073827"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>Ondersteunde API's voor Microsoft Defender voor Eindpunt
 
@@ -69,7 +69,6 @@ Onderwerp | Beschrijving
 [Computermethoden en -eigenschappen](machine.md) | Voer API-oproepen uit, zoals apparaten op te halen, apparaten op te vragen via id, informatie over \- aangemelde gebruikers, tags bewerken en meer.
 [Actiemethoden en -eigenschappen van computer](machineaction.md) | Voer API-oproep uit, \- zoals Isolatie, Anti-virusscan uitvoeren en meer.
 [Aanbevelingsmethoden en -eigenschappen](recommendation.md) | Voer API-oproepen uit, \- zoals een aanbeveling per id.
-[Methoden en eigenschappen voor herstelactiviteiten](get-remediation-methods-properties.md) | Voer API-oproep uit, zoals alle hersteltaken, de hersteltaak voor blootgestelde apparaten krijgen en één \- hersteltaak per id krijgen.
 [Scoringsmethoden en -eigenschappen](score.md) | Voer API-oproepen uit, \- zoals blootstellingsscore krijgen of apparaatveilige score krijgen.
 [Softwaremethoden en -eigenschappen](software.md) | Voer API-oproepen uit, \- zoals lijstproblemen met software.
 [Gebruikersmethoden](user.md) | Voer API-oproepen uit, \- zoals waarschuwingen voor gebruikers en apparaten die aan de gebruiker zijn gerelateerd.

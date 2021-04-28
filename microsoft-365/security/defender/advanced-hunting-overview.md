@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: df48ec921dee7d8f3b441ed3f68ed148c5c6c857
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f43d3bf9575f00649a2b5015a8be16351bebd11b
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932975"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073959"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Proactief op bedreigingen zoeken met geavanceerde jacht in Microsoft 365 Defender
 
@@ -40,7 +40,7 @@ ms.locfileid: "51932975"
 >
 
 Geavanceerd zoeken is een op query's gebaseerd hulpprogramma voor bedreigingsjacht waarmee u tot 30 dagen onbewerkte gegevens kunt verkennen. U kunt gebeurtenissen in uw netwerk proactief controleren om bedreigingsindicatoren en entiteiten te zoeken. De flexibele toegang tot gegevens maakt ongeconseld zoeken naar bekende en potentiële bedreigingen mogelijk.
-<p></p>
+<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
 
@@ -55,17 +55,6 @@ Deze mogelijkheid is vergelijkbaar met [geavanceerde jacht in Microsoft Defender
 
 Als u geavanceerde jacht wilt gebruiken, [schakelt u Microsoft 365 Defender in.](m365d-enable.md)
 
-### <a name="before-you-begin"></a>Voordat u begint
-
-Gebruikers hebben een van de volgende machtigingsniveaus nodig voor toegang tot Microsoft Defender:
-
-- Volledige toegang (lezen en schrijven)
-- Alleen-lezen toegang
-
-**Volledige toegang:** gebruikers met volledige toegang kunnen een query opslaan, wijzigen en delen. Als u volledige toegangsrechten toewijst, moeten de gebruikers worden toegevoegd aan de ingebouwde rollen 'Beveiligingsbeheerder' of 'Globale beheerder' in Azure Active Directory (AAD).
-
-**Alleen-lezentoegang:** Gebruikers met alleen-lezentoegang kunnen zich aanmelden en alle waarschuwingen en gerelateerde informatie bekijken. Ze kunnen een query niet opslaan, wijzigen of delen. Als u alleen-lezentoegangsrechten toewijst, moeten de gebruikers worden toegevoegd aan de ingebouwde rol 'Beveiligingslezer' in AAD.
-
 ## <a name="get-started-with-advanced-hunting"></a>Aan de slag met geavanceerde jacht
 
 Het is raadzaam om verschillende stappen uit te voeren om snel aan de slag te gaan met geavanceerde jacht.
@@ -73,14 +62,17 @@ Het is raadzaam om verschillende stappen uit te voeren om snel aan de slag te ga
 | Leerdoel | Beschrijving | Resource |
 |--|--|--|
 | **De taal leren** | Geavanceerd zoeken is gebaseerd op [de querytaal Kusto,](/azure/kusto/query/)die dezelfde syntaxis en operatoren ondersteunt. Begin de querytaal te leren door de eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
-| **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt bekijken of exporteren. Ontdek hoe u snel query's kunt aanpassen, kunt inzoomen om uitgebreidere informatie te krijgen en antwoordacties kunt uitvoeren. | - [Werken met queryresultaten](advanced-hunting-query-results.md)<br>- [Actie ondernemen voor queryresultaten](advanced-hunting-take-action.md) |
-| **Meer informatie over het schema** | Krijg een goed, goed inzicht in de tabellen in het schema en de kolommen. Informatie over waar u gegevens kunt zoeken bij het maken van query's. | - [Schemaverwijzing](advanced-hunting-schema-tables.md)<br>- [Overgang van Microsoft Defender voor Eindpunt](advanced-hunting-migrate-from-mde.md) |
-| **Tips en voorbeelden van experts krijgen** | Train gratis met handleidingen van Microsoft-experts. Verken verzamelingen van vooraf gedefinieerde query's met verschillende scenario's voor het zoeken naar bedreigingen. | - [Training van experts krijgen](advanced-hunting-expert-training.md)<br>- [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)<br>- [Ga op zoek](advanced-hunting-go-hunt.md)<br>- [Op bedreigingen zoeken op verschillende apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md) |
-| **Query's optimaliseren en fouten verwerken** | Meer informatie over het maken van efficiënte en foutloze query's. | - [Query-best practices](advanced-hunting-best-practices.md)<br>- [Fouten verwerken](advanced-hunting-errors.md) |
-| **Aangepaste detectieregels maken** | Meer informatie over hoe u geavanceerde zoekquery's kunt gebruiken om waarschuwingen te activeren en automatisch antwoordacties uit te voeren. | - [Overzicht van aangepaste detecties](custom-detections-overview.md)<br>- [Aangepaste detectieregels](custom-detection-rules.md) |
+| **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt bekijken of exporteren. Ontdek hoe u snel query's kunt aanpassen, kunt inzoomen om uitgebreidere informatie te krijgen en antwoordacties kunt uitvoeren. | - [Werken met queryresultaten](advanced-hunting-query-results.md)<br /> - [Actie ondernemen voor queryresultaten](advanced-hunting-take-action.md) |
+| **Meer informatie over het schema** | Krijg een goed, goed inzicht in de tabellen in het schema en de kolommen. Informatie over waar u gegevens kunt zoeken bij het maken van query's. | - [Schemaverwijzing](advanced-hunting-schema-tables.md) <br />- [Overgang van Microsoft Defender voor Eindpunt](advanced-hunting-migrate-from-mde.md) |
+| **Tips en voorbeelden van experts krijgen** | Train gratis met handleidingen van Microsoft-experts. Verken verzamelingen van vooraf gedefinieerde query's met verschillende scenario's voor het zoeken naar bedreigingen. | - [Training van experts krijgen](advanced-hunting-expert-training.md) <br />- [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md) <br />- [Ga op zoek](advanced-hunting-go-hunt.md) <br />- [Op bedreigingen zoeken op verschillende apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md) |
+| **Query's optimaliseren en fouten verwerken** | Meer informatie over het maken van efficiënte en foutloze query's. | - [Query-best practices](advanced-hunting-best-practices.md)<br />- [Fouten verwerken](advanced-hunting-errors.md) |
+| **Aangepaste detectieregels maken** | Meer informatie over hoe u geavanceerde zoekquery's kunt gebruiken om waarschuwingen te activeren en automatisch antwoordacties uit te voeren. | - [Overzicht van aangepaste detecties](custom-detections-overview.md) <br />- [Aangepaste detectieregels](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Toegang krijgen
-Als u geavanceerde zoekmogelijkheden of andere [Microsoft 365 Defender-mogelijkheden](microsoft-365-defender.md) wilt gebruiken, hebt u een geschikte rol nodig in Azure Active Directory. Uw toegang tot eindpuntgegevens wordt ook bepaald door RBAC-instellingen (Role-Based Access Control) in Microsoft Defender for Endpoint. [Meer informatie over het beheren van toegang tot Microsoft 365 Defender](m365d-permissions.md)
+Als u geavanceerde zoekmogelijkheden of andere [Microsoft 365 Defender-mogelijkheden](microsoft-365-defender.md) wilt gebruiken, hebt u een geschikte rol nodig in Azure Active Directory. [Lees meer over vereiste rollen en machtigingen voor geavanceerde jacht](custom-roles.md).
+
+Uw toegang tot eindpuntgegevens wordt ook bepaald door RBAC-instellingen (Role-Based Access Control) in Microsoft Defender for Endpoint. [Lees meer over het beheren van toegang tot Microsoft 365 Defender.](m365d-permissions.md)
+
 
 ## <a name="data-freshness-and-update-frequency"></a>Gegevensverfheid en updatefrequentie
 Geavanceerde zoekgegevens kunnen worden gecategoriseerd in twee verschillende typen, elk op een andere manier samengevoegd.
