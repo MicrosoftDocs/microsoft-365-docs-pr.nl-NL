@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
 ms.date: 07/31/2020
-ms.openlocfilehash: b117071fa708ad9d425d578833d8b0ad85537151
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: d391d99f5d5870d964fc4c420a105f25032e3640
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939484"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060965"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur bekijken
 
@@ -62,7 +62,7 @@ U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel u
 
 U kunt uw Fapiao-verzoek ongeveer drie (3) dagen nadat u heeft betaald, indienen bij ons [Fapiao-beheersysteem](https://go.microsoft.com/fwlink/p/?linkid=837465).
 
-1. Ga naar de pagina **Facturering** > **& betalingen** in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank”> beheercentrum</a>.
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>naar de pagina **Facturering** > **Facturen & Betalen**.
 
 2. Zoek de factuur die u wilt en selecteer vervolgens **Fapiaos downloaden**.
 
