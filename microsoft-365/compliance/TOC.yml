@@ -118,8 +118,6 @@
           href: create-a-keyword-dictionary.md
         - name: Fingerprinting van documenten
           href: document-fingerprinting.md
-        - name: DLP-functies voor gevoelige informatie
-          href: what-the-dlp-functions-look-for.md
     - name: Trainbare classificaties
       items:
         - name: Meer informatie over trainbare classificaties
