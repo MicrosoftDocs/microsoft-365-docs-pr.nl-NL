@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Krijg een overzicht van het Microsoft 365-berichtencentrum en de rol ervan in wijzigingsbeheer.
-ms.openlocfilehash: 905aa411e931f802735c913922a6431e7466cdb5
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 52d2c0815757127ad0c4e34d077a8807f926740e
+ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727221"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52077153"
 ---
 # <a name="message-center"></a>Berichtencentrum
 
@@ -54,8 +54,11 @@ Berichtencentrum openen:
 ::: moniker-end
 
 U kunt ook de [Microsoft 365 Admin-app](https://go.microsoft.com/fwlink/p/?linkid=627216) op uw mobiele apparaat gebruiken om het Berichtencentrum te bekijken. Dit is een uitstekende manier om op de hoogte te blijven van pushmeldingen.
+
+Als u zich wilt afmelden bij e-mailberichten in het Berichtencentrum, gaat u naar [E-mailberichten](#unsubscribe-from-message-center-emails) in het Berichtencentrum in dit artikel.
+
   
-### <a name="frequently-asked-questions"></a>Veelgestelde vragen
+## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
 |**Vraag**|**Antwoord**|
 |:-----|:-----|
@@ -70,34 +73,40 @@ U kunt ook de [Microsoft 365 Admin-app](https://go.microsoft.com/fwlink/p/?linki
 |Hoe kan ik ervoor zorgen dat gegevensbeschermingsmeldingen worden ontvangen door de juiste contactpersonen in mijn organisatie? <br/> |Als globale beheerder ontvangt u privacyberichten voor gegevens voor uw organisatie. Daarnaast kunt u de privacylezerfunctie van het Berichtencentrum toewijzen aan personen die privacyberichten over gegevens moeten zien. Andere beheerdersrollen met toegang tot het Berichtencentrum kunnen geen privacyberichten over gegevens weergeven.   <br/><br/>Zie Voorkeuren in dit artikel [voor](#preferences) meer informatie.<br/> |
 |Waarom kan ik een bericht dat er eerder was niet zien? <br/> |Als u het aantal berichten in het Berichtencentrum wilt beheren, verloopt elk bericht en wordt het na een bepaalde periode verwijderd. Over het algemeen verlopen berichten 30 dagen na de periode die in de hoofdpost van het bericht wordt beschreven. <br/> |
 
-### <a name="messages"></a>Berichten
+## <a name="filter-messages"></a>Berichten filteren
 
 In het berichtencentrum wordt een weergave weergegeven van alle actieve berichten in een tabelindeling. Standaard wordt het meest recente bericht boven aan de lijst weergegeven. U kunt **Service selecteren om** berichten te zien voor verschillende services, zoals Microsoft 365 Apps, SharePoint Online, enzovoort.   Onder **Label** kunt u **Beheerderseffect**, **Gegevensbescherming**, **Functie-update**, **Belangrijke update**, **Nieuwe** functie , **Pensioen** of **Gebruikerseffectberichten** selecteren. Onder **Berichttoestand** kunt u **Favorieten**, **Ongelezen** of **Bijgewerkte berichten** selecteren.
 
 Op het tabblad Archiveren ziet u de berichten die u hebt gearchiveerd. Als u een bericht wilt archiveren, selecteert u archief in het **berichtenvenster.**
 
-### <a name="choose-columns"></a>Kolommen kiezen
+::: moniker range="o365-worldwide"
 
-Als u kolommen wilt kiezen, selecteert u op de pagina  Berichtcentrum in de rechterkolom kiezen en selecteert u in het deelvenster Kolommen kiezen de kolommen die u wilt weergeven. 
+Gebruik de vervolgkeuzelijsten **Service**, **Tag** en **Berichtstatus** om een gefilterde weergave van berichten te selecteren. In dit diagram zijn de berichten bijvoorbeeld getagd met de tag **Beheerdersimpact**.
 
-Hier ziet u een kort overzicht van de informatie die u in elke kolom ziet.
+U kunt een kolomkop, behalve **Service** en **Tag**, selecteren om berichten in oplopende of aflopende volgorde te sorteren.
 
-#### <a name="column-information"></a>Kolomgegevens
+:::image type="content" source="../../media/message-center-admin-impact1.png" alt-text="Weergave berichtencentrum gesorteerd op beheerdersimpact":::
 
-|**Kolom**|**Beschrijving**|
-|:-----|:-----|
-|Vinkje  <br/> |Als u het vinkje in de kolomkoppenrij selecteert, worden alle berichten geselecteerd die momenteel worden weergegeven. Als u het vinkje naast een of meer berichten selecteert, kunt u actie ondernemen op deze berichten.  <br/> |
-|Titel van bericht  <br/> |Berichttitels zijn korte beschrijvingen van aanstaande wijzigingen. Als de volledige titel niet wordt weergegeven, plaatst u de cursor erop en wordt de hele titel weergegeven in een pop-upvak.  <br/> |
-|Service <br/> |Pictogrammen geven de toepassing aan waarop het bericht van toepassing is.<br/> |
-|Meer opties <br/> |Met meer opties kunt u een bericht afwijzen, markeren als gelezen of ongelezen of delen met een andere beheerder. Als u een gearchiveerd bericht wilt herstellen, selecteert u het **tabblad Archiveren,** selecteert u het vinkje naast het bericht en selecteert u **Herstellen**. <br/> |
-|Tags <br/> |U kunt tags kiezen in **de** vervolgkeuzekeuzecode om berichten te filteren. De beschikbare tags zijn: **Admin impact**, **Major Update**, **Data Privacy**, Feature **Update**, **New feature**, **Retirement**, and **User impact**. <br/> |
-|Categorie  <br/> | Dit wordt niet standaard weergegeven, maar kan worden opgegeven in het **deelvenster Kolommen** kiezen. Berichten worden geïdentificeerd door een van de volgende drie categorieën: <br/><br/> Problemen voorkomen of **oplossen:** informeert u over bekende problemen die van invloed zijn op uw organisatie en vereisen mogelijk dat u actie onderneemt om onderbrekingen in de service te voorkomen. Problemen voorkomen of oplossen is anders dan service statusberichten, omdat ze u vragen om proactief te zijn om problemen te voorkomen. <br/> <br/> **Plan voor wijziging:** informeert u over wijzigingen in Microsoft 365 waarvoor u mogelijk moet handelen om onderbrekingen in de service te voorkomen. Zo informeren we u bijvoorbeeld over wijzigingen in systeemvereisten of over functies die worden verwijderd. We streven ernaar om wijzigingen waarvoor een beheerder actie moet ondernemen om ervoor te zorgen dat de service normaal blijft lopen minimaal 30 dagen op voorhand door te geven. <br/> <br/> **Op de hoogte blijven:** informeert u over nieuwe of bijgewerkte functies die we in uw organisatie in- en uitschakelen. De functies worden meestal als eerste aangekondigd in de [Routekaart voor Microsoft 365.](https://go.microsoft.com/fwlink/?linkid=2070821) <br/><br/>U kunt u ook op de hoogte brengen van gepland onderhoud in overeenstemming met onze serviceovereenkomst. Gepland onderhoud kan leiden tot een periode waarin u of uw gebruikers geen toegang hebben tot Microsoft 365, een specifieke functie of een service zoals e-mail of OneDrive voor Bedrijven.  <br/> |
-|Actie uitvoeren op  <br/> |Deze kolom zal alleen datums bevatten als we een wijziging doorvoeren waarvoor u vóór een bepaald moment actie moet ondernemen. Aangezien we de kolom **Act by zelden** gebruiken, moet u er extra aandacht aan besteden als u hier iets ziet.  <br/> |
-|Laatst bijgewerkt  <br/> |Datum waarop het bericht is gepubliceerd of voor het laatst is bijgewerkt.  <br/> |
-|Bericht-id  <br/> |Microsoft houdt de berichten in het berichtencentrum bij met een bericht-id. U kunt naar deze id verwijzen als u feedback wilt geven of als u ondersteuning belt voor een bepaald bericht.  <br/> |
+::: moniker-end
 
-Ga naar [Berichten in het berichtencentrum beheren](manage-messages.md) voor meer informatie over wat u met berichten kunt doen.
-  
+::: moniker range="o365-germany"
+
+Gebruik het vervolgkeuzemenu **Weergaven** om een gefilterde weergave van berichten te selecteren.
+
+U kunt een kolomkop selecteren om berichten in oplopende of aflopende volgorde te sorteren. In deze illustratie zijn de berichten bijvoorbeeld gesorteerd op de datum **Actie nemen vóór**.
+
+![Weergave berichtencentrum gesorteerd op de tag beheerdersimpact](../../media/message-center-filter-act-by.png)
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+Gebruik de vervolgkeuzelijsten **Service**, **Tag** en **Berichtstatus** om een gefilterde weergave van berichten te selecteren. In dit diagram zijn de berichten bijvoorbeeld getagd met **admin-impact**.
+
+U kunt een kolomkop, behalve **Service** en **Tags**, selecteren om berichten in oplopende of aflopende volgorde te sorteren.
+
+::: moniker-end
+
 ### <a name="major-updates"></a>Belangrijke updates
 
 Belangrijke updates kunnen worden gecontroleerd door de **hoofdupdate te selecteren** in **de** vervolgkeuze van Tags.
@@ -180,13 +189,33 @@ Als beheer is verdeeld over uw organisatie, wilt of wilt u mogelijk geen bericht
 
 ::: moniker-end
 
-#### <a name="display-messages-in-your-preferred-language"></a>Berichten weergeven in de gewenste taal
+### <a name="display-messages-in-your-preferred-language"></a>Berichten weergeven in de gewenste taal
   
 We gebruiken automatische vertaling om berichten automatisch weer te geven in uw gewenste taal. Lees [Taalvertaling voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md) voor meer informatie over het instellen van uw taal.
   
 > [!NOTE]
 > De wekelijkse samenvatting en alle berichten die per e-mail worden verzonden, worden in het Engels verzonden. Geadresseerden kunnen [Translator voor Outlook gebruiken om](https://support.microsoft.com/office/3d7e12ed-99d6-406e-a453-b9db0d9653fa) het bericht te lezen in de gewenste taal. 
-  
+
+## <a name="choose-columns"></a>Kolommen kiezen
+
+Als u kolommen wilt kiezen, selecteert u op de pagina  Berichtcentrum in de rechterkolom kiezen en selecteert u in het deelvenster Kolommen kiezen de kolommen die u wilt weergeven. 
+
+Hier ziet u een kort overzicht van de informatie die u in elke kolom ziet.
+
+### <a name="column-information"></a>Kolomgegevens
+
+|**Kolom**|**Beschrijving**|
+|:-----|:-----|
+|Vinkje  <br/> |Als u het vinkje in de kolomkoppenrij selecteert, worden alle berichten geselecteerd die momenteel worden weergegeven. Als u het vinkje naast een of meer berichten selecteert, kunt u actie ondernemen op deze berichten.  <br/> |
+|Titel van bericht  <br/> |Berichttitels zijn korte beschrijvingen van aanstaande wijzigingen. Als de volledige titel niet wordt weergegeven, plaatst u de cursor erop en wordt de hele titel weergegeven in een pop-upvak.  <br/> |
+|Service <br/> |Pictogrammen geven de toepassing aan waarop het bericht van toepassing is.<br/> |
+|Meer opties <br/> |Met meer opties kunt u een bericht afwijzen, markeren als gelezen of ongelezen of delen met een andere beheerder. Als u een gearchiveerd bericht wilt herstellen, selecteert u het **tabblad Archiveren,** selecteert u het vinkje naast het bericht en selecteert u **Herstellen**. <br/> |
+|Tags <br/> |U kunt tags kiezen in **de** vervolgkeuzekeuzecode om berichten te filteren. De beschikbare tags zijn: **Admin impact**, **Major Update**, **Data Privacy**, Feature **Update**, **New feature**, **Retirement**, and **User impact**. <br/> |
+|Categorie  <br/> | Dit wordt niet standaard weergegeven, maar kan worden opgegeven in het **deelvenster Kolommen** kiezen. Berichten worden geïdentificeerd door een van de volgende drie categorieën: <br/><br/> Problemen voorkomen of **oplossen:** informeert u over bekende problemen die van invloed zijn op uw organisatie en vereisen mogelijk dat u actie onderneemt om onderbrekingen in de service te voorkomen. Problemen voorkomen of oplossen is anders dan service statusberichten, omdat ze u vragen om proactief te zijn om problemen te voorkomen. <br/> <br/> **Plan voor wijziging:** informeert u over wijzigingen in Microsoft 365 waarvoor u mogelijk moet handelen om onderbrekingen in de service te voorkomen. Zo informeren we u bijvoorbeeld over wijzigingen in systeemvereisten of over functies die worden verwijderd. We streven ernaar om wijzigingen waarvoor een beheerder actie moet ondernemen om ervoor te zorgen dat de service normaal blijft lopen minimaal 30 dagen op voorhand door te geven. <br/> <br/> **Op de hoogte blijven:** informeert u over nieuwe of bijgewerkte functies die we in uw organisatie in- en uitschakelen. De functies worden meestal als eerste aangekondigd in de [Routekaart voor Microsoft 365.](https://go.microsoft.com/fwlink/?linkid=2070821) <br/><br/>U kunt u ook op de hoogte brengen van gepland onderhoud in overeenstemming met onze serviceovereenkomst. Gepland onderhoud kan leiden tot een periode waarin u of uw gebruikers geen toegang hebben tot Microsoft 365, een specifieke functie of een service zoals e-mail of OneDrive voor Bedrijven.  <br/> |
+|Actie uitvoeren op  <br/> |Deze kolom zal alleen datums bevatten als we een wijziging doorvoeren waarvoor u vóór een bepaald moment actie moet ondernemen. Aangezien we de kolom **Act by zelden** gebruiken, moet u er extra aandacht aan besteden als u hier iets ziet.  <br/> |
+|Laatst bijgewerkt  <br/> |Datum waarop het bericht is gepubliceerd of voor het laatst is bijgewerkt.  <br/> |
+|Bericht-id  <br/> |Microsoft houdt de berichten in het berichtencentrum bij met een bericht-id. U kunt naar deze id verwijzen als u feedback wilt geven of als u ondersteuning belt voor een bepaald bericht.  <br/> |
+
 ### <a name="admin-roles-that-dont-have-access-to-the-message-center"></a>Beheerdersrollen die geen toegang hebben tot het berichtencentrum
 
 - Beheerder voor naleving
@@ -200,6 +229,114 @@ We gebruiken automatische vertaling om berichten automatisch weer te geven in uw
 - Bevoorrechte rolbeheerder
 - Rapportenlezer
 
+## <a name="give-feedback-on-a-post"></a>Geef feedback over een post
+
+In het berichtencentrum kunt u een bericht selecteren om details weer te geven.
+
+Als u feedback wilt geven over het bericht, selecteert u in het detailvenster het pictogram **Vind ik leuk** of **Niet leuk** onderaan het detailvenster van het bericht en geeft u optionele feedback in het tekstvak dat wordt weergegeven. Geef geen persoonlijke gegevens op. U kunt desgewenst **Er kan contact met mij worden opgenomen over deze feedback** en vervolgens **Verzenden** selecteren.
+
+## <a name="share-a-message"></a>Een bericht delen
+
+Ziet u een bericht waarvoor iemand anders actie moet ondernemen? U kunt de inhoud van het bericht per e-mail delen met elke gebruiker:
+  
+1. Selecteer het bericht om het te openen en selecteer vervolgens **Delen**.
+  
+2. Als u het bericht wilt delen, voert u maximaal twee e-mailadressen in, gescheiden door een dubbele punt. U kunt verzenden naar individuele en naar groeps-e-mailadressen. Desgewenst kunt u een kopie van het bericht per e-mail ontvangen (het bericht gaat naar uw primaire e-mailadres) of een persoonlijk bericht toevoegen om geadresseerden meer informatie te geven.
+  
+3. Selecteer **Delen** om de e-mail te verzenden.
+
+## <a name="get-a-link"></a>Koppeling ophalen
+
+Wilt u zorgen dat een andere beheerder op de hoogte is van een wijziging en hierop actie onderneemt? U kunt een koppeling genereren om het bericht te delen via e-mail of een chatprogramma, zodat de gebruiker rechtstreeks verbinding krijgt met dat bericht. De persoon met wie u de koppeling deelt, moet toegang hebben tot het berichtencentrum. Zie [beheerdersrollen die geen toegang hebben tot het berichtencentrum](message-center.md#admin-roles-that-dont-have-access-to-the-message-center) voor meer informatie.
+
+::: moniker range="o365-worldwide"
+
+1. Selecteer het bericht om het te openen.
+
+2. Selecteer **Koppeling kopiëren**.
+
+3. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen in het gewenste document.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Selecteer het bericht om het te openen.
+
+2. Kies **Meer** \> **Koppeling ophalen** op de actiebalk.
+
+3. Zorg dat de webpagina toegang heeft tot het klembord. Er wordt een directe koppeling gekopieerd naar het klembord.
+
+4. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Selecteer het bericht om het te openen.
+
+2. Selecteer **Koppeling kopiëren**.
+
+3. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen in het gewenste document.
+
+::: moniker-end
+
+## <a name="read-and-unread-states"></a>Status Gelezen en Ongelezen
+
+Een ongelezen bericht in het berichtencentrum wordt vetgedrukt weergegeven. Wanneer u een bericht opent, wordt het gemarkeerd als gelezen. U kunt een bericht markeren als ongelezen.
+
+::: moniker range="o365-worldwide"
+
+- Selecteer op de hoofdpagina van het berichtencentrum het beletselteken **Meer opties** naast een bericht en selecteer vervolgens **Markeren als ongelezen**.
+
+U kunt een bericht ook openen en als ongelezen markeren in het detailvenster.
+  
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Selecteer het bericht om het te openen.
+
+2. Selecteer **Meer** \> **Markeren als ongelezen**.
+
+3. Sluit het bericht.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+- Selecteer op de hoofdpagina van het berichtencentrum het beletselteken **Meer opties** naast een bericht en selecteer vervolgens **Markeren als ongelezen**.
+
+::: moniker-end
+
+## <a name="archive-and-restore"></a>Archiveren en herstellen
+
+Als u een bericht ziet dat niet relevant voor u is of waarvoor u al actie hebt ondernomen, kunt u het bericht archiveren om het te verwijderen uit het Postvak IN. De weergave die u in het berichtencentrum ziet, is specifiek voor uw gebruikersaccount. Het archiveren en verwijderen van het bericht uit de weergave heeft dus geen gevolgen voor andere beheerders. Er zijn twee manieren om een bericht te archiveren.
+
+- Selecteer een bericht op de hoofdpagina van het berichtencentrum en selecteer vervolgens **Archiveren** boven de lijst met berichten.
+
+- Open het bericht en selecteer **Archiveren** bovenaan het berichtenvenster.
+
+Wilt u een gearchiveerd bericht terughalen? Geen probleem.
+  
+1. Selecteer het tabblad **Archiveren** bovenaan het berichtencentrum. Er wordt een lijst met gearchiveerde berichten weergegeven.
+
+2. Selecteer het bericht, selecteer **Herstellen** en het bericht wordt teruggezet in het Postvak IN.
+
+## <a name="favorite-messages"></a>Favoriete berichten
+
+Als u een bericht als favoriet wilt markeren, beweegt u de muisaanwijzer over de berichttitel. U ziet dan een **favorietenster** :::image type="icon" source="../../media/favorite-star.png" border="false"::: die u direct na het beletselteken **Meer opties** kunt selecteren. Als u berichten als favoriet hebt gemarkeerd, kunt u deze ook sorteren en filteren.
+
+## <a name="scroll-messages-in-the-message-pane"></a>Door berichten bladeren in het berichtenvenster
+
+Wanneer u een bericht opent in een leesvenster, kunt u de pijlen **omhoog** en **omlaag** :::image type="icon" source="../../media/updownarrows.png" border="false"::: bovenaan het venster gebruiken om naar het volgende of vorige bericht in de lijst te gaan.
+
+## <a name="track-your-message-center-tasks-in-planner"></a>Taken in het berichtencentrum bijhouden in Planner
+
+In het Microsoft 365-berichtencentrum komt veel informatie over wijzigingen aan Microsoft 365-services binnen waarvoor u actie kunt ondernemen. Het kan lastig zijn bij te houden voor welke wijzigingen taken moeten worden uitgevoerd en wanneer en door wie, en om bij te houden welke taken moeten worden voltooid. Het kan ook zijn dat u iets wilt noteren en dit later wilt controleren. U kunt dit alles en nog veel meer doen wanneer u uw berichten van het Microsoft 365-beheercentrum synchroniseert naar Microsoft Planner. Zie [Taken in het berichtencentrum bijhouden in Planner](/office365/planner/track-message-center-tasks-planner) voor meer informatie.
+
+Zie [Berichtencentrum in Microsoft 365](message-center.md) voor een overzicht van het berichtencentrum. Of lees in [Vertaalfunctie voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md) hoe u taalvoorkeuren instelt voor de vertaalfunctie voor posts in het berichtencentrum. Als u een andere manier wilt programmeren om informatie over de status van realtime-services en berichten uit het berichtencentrum te krijgen, raadpleegt u [Overzicht van Microsoft 365 Service Communications-API](/previous-versions/office/developer/o365-enterprise-developers/jj984343(v=office.15)).
+
 ## <a name="unsubscribe-from-message-center-emails"></a>Afmelden bij e-mailberichten in het Berichtencentrum
 
 1. E-mailberichten verwerken is standaard ingeschakeld en worden naar uw primaire e-mailadres verzonden. Als u de wekelijkse samenvatting niet meer wilt ontvangen, **selecteert u Voorkeuren** en vervolgens **E-mail.**
@@ -209,3 +346,11 @@ We gebruiken automatische vertaling om berichten automatisch weer te geven in uw
     -   Als u wilt stoppen met het ontvangen van e-mailberichten over privacyberichten voor gegevens, controleert u of het selectievakje **E-mailberichten** verzenden voor privacyberichten voor gegevens niet is ingeschakeld.  (Privacyberichten voor gegevens worden niet opgenomen in de wekelijkse samenvatting.)
 
 2. Selecteer **Opslaan om** uw wijzigingen te behouden.<br/>
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Standaard- of targeted releaseopties instellen](../manage/release-options-in-office-365.md) (artikel)
+
+[Beheren welke Office-functies worden weergegeven in Nieuw](../manage/show-hide-new-features.md) (artikel)
+
+[Zakelijke abonnementen en factureringsdocumentatie](../../commerce/index.yml) (koppelingen)
