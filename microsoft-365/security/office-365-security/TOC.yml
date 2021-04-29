@@ -204,18 +204,10 @@
           href: ../../compliance/alert-policies.md
         - name: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
           href: reports-and-insights-in-security-and-compliance.md
-        - name: De invoegtoepassing Bericht rapporteren inschakelen
-          href: enable-the-report-message-add-in.md
-        - name: De invoegtoepassing Phishing rapporteren inschakelen
-          href: enable-the-report-phish-add-in.md
-        - name: De invoegtoepassing Rapportage van ongewenste e-mail installeren en gebruiken
-          href: junk-email-reporting-add-in-for-microsoft-outlook.md
+        - name: Fout-positieven en fout-negatieven rapporteren in Outlook
+          href: report-false-positives-and-false-negatives.md
         - name: E-mailstroomregels (transportregels) in standalone EOP
           href: mail-flow-rules-transport-rules-0.md
-        - name: Ongewenste e-mail en phishing melden in de webversie van Outlook
-          href: report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
-        - name: Ongewenste e-mail en phishing melden in de webversie van Outlook voor iOS en Android
-          href: report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
         - name: Een rapport over groepen met beheerdersrollen uitvoeren in standalone EOP
           href: run-an-administrator-role-group-report-in-eop-eop.md
     - name: Onderzoeken
