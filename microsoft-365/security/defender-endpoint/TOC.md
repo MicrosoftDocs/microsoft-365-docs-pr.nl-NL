@@ -51,7 +51,7 @@
 
 
 ## [Apparaten configureren en onboarden]()
-### [Microsoft Defender voor Eindpunt in Windows en Windows Server]()
+### [Microsoft Defender voor Eindpunt op Windows en Windows Server]()
 #### [Onboarden apparaten naar Microsoft Defender voor Eindpunt](onboard-configure.md)
 #### [Onboarden eerdere versies van Windows](onboard-downlevel.md)
 #### [Onboarden Windows 10-apparaten]()
@@ -350,7 +350,7 @@
 ##### [Feedbacklus blokkeren](feedback-loop-blocking.md)
 
 
-### [Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt](defender-endpoint-false-positives-negatives.md)
+### [Fout-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken](defender-endpoint-false-positives-negatives.md)
 
 
 ### [Apparaatconfiguratie beheren]()
@@ -442,7 +442,7 @@
 
 
 
-## Referentiematerialen
+## Verwijzing
 ### [Integratie met andere Microsoft-oplossingen configureren]()
 #### [Voorwaardelijke toegang configureren](configure-conditional-access.md)
 #### [Integratie van Microsoft Cloud App Security configureren](microsoft-cloud-app-security-config.md)
@@ -467,13 +467,40 @@
 ####### [Lijstwaarschuwingen](get-alerts.md)
 ####### [Waarschuwing maken](create-alert-by-reference.md)
 ####### [Waarschuwing bijwerken](update-alert.md)
-####### [Melding over batch-update](batch-update-alerts.md)
 ####### [Waarschuwingsgegevens per id ophalen](get-alert-info-by-id.md)
 ####### [Domeingegevens met betrekking tot waarschuwingen ophalen](get-alert-related-domain-info.md)
 ####### [Bestandsgegevens met betrekking tot waarschuwingen ophalen](get-alert-related-files-info.md)
 ####### [Gegevens over IP's met betrekking tot waarschuwingen ophalen](get-alert-related-ip-info.md)
 ####### [Apparaatgegevens met betrekking tot waarschuwingen ophalen](get-alert-related-machine-info.md)
 ####### [Gebruikersgegevens met betrekking tot waarschuwingen ophalen](get-alert-related-user-info.md)
+
+###### [Geautomatiseerd onderzoek]()
+####### [Onderzoeksmethoden en -eigenschappen](investigation.md)
+####### [Lijst van onderzoeken](get-investigation-collection.md)
+####### [Onderzoek ophalen](get-investigation-object.md)
+####### [Onderzoek starten](initiate-autoir-investigation.md)
+
+###### [Domein]()
+####### [Waarschuwingen met betrekking tot domeinen ophalen](get-domain-related-alerts.md)
+####### [Waarschuwingen met betrekking tot computers ophalen](get-domain-related-machines.md)
+####### [Domeinstatistieken ophalen](get-domain-statistics.md)
+
+###### [Bestand]()
+####### [Bestandsmethoden en -eigenschappen](files.md)
+####### [Bestandsgegevens ophalen](get-file-information.md)
+####### [Waarschuwingen met betrekking tot bestanden ophalen](get-file-related-alerts.md)
+####### [Computers met betrekking tot bestanden ophalen](get-file-related-machines.md)
+####### [Bestandsstatistieken ophalen](get-file-statistics.md)
+
+###### [Indicatoren]()
+####### [Methoden en eigenschappen van indicatoren](ti-indicator.md)
+####### [Indicator verzenden](post-ti-indicator.md)
+####### [Lijst van indicatoren](get-ti-indicators-collection.md)
+####### [Indicator verwijderen](delete-ti-indicator-by-id.md)
+
+###### [IP]()
+####### [Waarschuwingen met betrekking tot IP ophalen](get-ip-related-alerts.md)
+####### [IP-statistieken ophalen](get-ip-statistics.md)
 
 ###### [Computer]()
 ####### [Computermethoden en -eigenschappen](machine.md)
@@ -504,39 +531,19 @@
 ####### [Computer offboarden](offboard-machine-api.md)
 ####### [Bestand stoppen en in quarantaine plaatsen](stop-and-quarantine-file.md)
 
-###### [Geautomatiseerd onderzoek]()
-####### [Onderzoeksmethoden en -eigenschappen](investigation.md)
-####### [Lijst van onderzoeken](get-investigation-collection.md)
-####### [Onderzoek ophalen](get-investigation-object.md)
-####### [Onderzoek starten](initiate-autoir-investigation.md)
+###### [Aanbeveling]()
+####### [Aanbevelingsmethoden en -eigenschappen](recommendation.md)
+####### [Lijst van alle aanbevelingen](get-all-recommendations.md)
+####### [Aanbevelingen per id ophalen](get-recommendation-by-id.md)
+####### [Aanbevelingen per software ophalen](get-recommendation-software.md)
+####### [Lijst van computers per aanbeveling](get-recommendation-machines.md)
+####### [Lijst van beveiligingsproblemen per aanbeveling](get-recommendation-vulnerabilities.md)
 
-###### [Indicatoren]()
-####### [Methoden en eigenschappen van indicatoren](ti-indicator.md)
-####### [Indicatoren importeren](import-ti-indicators.md)
-####### [Indicator verzenden](post-ti-indicator.md)
-####### [Lijst van indicatoren](get-ti-indicators-collection.md)
-####### [Indicator verwijderen](delete-ti-indicator-by-id.md)
-
-###### [Domein]()
-####### [Waarschuwingen met betrekking tot domeinen ophalen](get-domain-related-alerts.md)
-####### [Waarschuwingen met betrekking tot computers ophalen](get-domain-related-machines.md)
-####### [Domeinstatistieken ophalen](get-domain-statistics.md)
-
-###### [Bestand]()
-####### [Bestandsmethoden en -eigenschappen](files.md)
-####### [Bestandsgegevens ophalen](get-file-information.md)
-####### [Waarschuwingen met betrekking tot bestanden ophalen](get-file-related-alerts.md)
-####### [Computers met betrekking tot bestanden ophalen](get-file-related-machines.md)
-####### [Bestandsstatistieken ophalen](get-file-statistics.md)
-
-###### [IP]()
-####### [Waarschuwingen met betrekking tot IP ophalen](get-ip-related-alerts.md)
-####### [IP-statistieken ophalen](get-ip-statistics.md)
-
-###### [Gebruiker]()
-####### [Gebruikersmethoden](user.md)
-####### [Waarschuwingen met betrekking tot gebruikers ophalen](get-user-related-alerts.md)
-####### [Computers met betrekking tot gebruikers ophalen](get-user-related-machines.md)
+###### [Herstelactiviteit]()
+####### [Methoden en eigenschappen van herstelactiviteiten](get-remediation-methods-properties.md)
+####### [Eén herstelactiviteit krijgen op id](get-remediation-one-activity.md)
+####### [Alle herstelactiviteiten weergeven](get-remediation-all-activities.md)
+####### [Weergegeven apparaten van één herstelactiviteit weergeven](get-remediation-exposed-devices-activities.md)
 
 ###### [Score]()
 ####### [Scoringsmethoden en -eigenschappen](score.md)
@@ -553,20 +560,17 @@
 ####### [Lijst van beveiligingsproblemen per software](get-vuln-by-software.md)
 ####### [Ontbrekende KB's ophalen](get-missing-kbs-software.md)
 
+###### [Gebruiker]()
+####### [Gebruikersmethoden](user.md)
+####### [Waarschuwingen met betrekking tot gebruikers ophalen](get-user-related-alerts.md)
+####### [Computers met betrekking tot gebruikers ophalen](get-user-related-machines.md)
+
 ###### [beveiligingsprobleem]()
 ####### [Methoden en eigenschappen van beveiligingsproblemen](vulnerability.md)
 ####### [Lijst van beveiligingsproblemen](get-all-vulnerabilities.md)
 ####### [Lijst van beveiligingsproblemen per computer en software](get-all-vulnerabilities-by-machines.md)
 ####### [Beveiligingsprobleem per id ophalen](get-vulnerability-by-id.md)
 ####### [Lijst van computers per beveiligingsprobleem](get-machines-by-vulnerability.md)
-
-###### [Aanbeveling]()
-####### [Aanbevelingsmethoden en -eigenschappen](recommendation.md)
-####### [Lijst van alle aanbevelingen](get-all-recommendations.md)
-####### [Aanbevelingen per id ophalen](get-recommendation-by-id.md)
-####### [Aanbevelingen per software ophalen](get-recommendation-software.md)
-####### [Lijst van computers per aanbeveling](get-recommendation-machines.md)
-####### [Lijst van beveiligingsproblemen per aanbeveling](get-recommendation-vulnerabilities.md)
 
 ##### [API's gebruiken - Voorbeelden]()
 ###### [Microsoft Flow](api-microsoft-flow.md)
