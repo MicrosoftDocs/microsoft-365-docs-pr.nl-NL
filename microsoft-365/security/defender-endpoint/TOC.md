@@ -51,7 +51,7 @@
 
 
 ## [Apparaten configureren en onboarden]()
-### [Microsoft Defender voor Eindpunt op Windows en Windows Server]()
+### [Microsoft Defender voor Eindpunt in Windows en Windows Server]()
 #### [Onboarden apparaten naar Microsoft Defender voor Eindpunt](onboard-configure.md)
 #### [Onboarden eerdere versies van Windows](onboard-downlevel.md)
 #### [Onboarden Windows 10-apparaten]()
@@ -350,7 +350,7 @@
 ##### [Feedbacklus blokkeren](feedback-loop-blocking.md)
 
 
-### [Fout-positieven/-negatieven in Microsoft Defender voor Eindpunt aanpakken](defender-endpoint-false-positives-negatives.md)
+### [Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt](defender-endpoint-false-positives-negatives.md)
 
 
 ### [Apparaatconfiguratie beheren]()
@@ -442,7 +442,7 @@
 
 
 
-## Verwijzing
+## Referentiematerialen
 ### [Integratie met andere Microsoft-oplossingen configureren]()
 #### [Voorwaardelijke toegang configureren](configure-conditional-access.md)
 #### [Integratie van Microsoft Cloud App Security configureren](microsoft-cloud-app-security-config.md)
@@ -538,12 +538,6 @@
 ####### [Aanbevelingen per software ophalen](get-recommendation-software.md)
 ####### [Lijst van computers per aanbeveling](get-recommendation-machines.md)
 ####### [Lijst van beveiligingsproblemen per aanbeveling](get-recommendation-vulnerabilities.md)
-
-###### [Herstelactiviteit]()
-####### [Methoden en eigenschappen van herstelactiviteiten](get-remediation-methods-properties.md)
-####### [Eén herstelactiviteit krijgen op id](get-remediation-one-activity.md)
-####### [Alle herstelactiviteiten weergeven](get-remediation-all-activities.md)
-####### [Weergegeven apparaten van één herstelactiviteit weergeven](get-remediation-exposed-devices-activities.md)
 
 ###### [Score]()
 ####### [Scoringsmethoden en -eigenschappen](score.md)
