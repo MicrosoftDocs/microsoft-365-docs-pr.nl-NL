@@ -1,5 +1,5 @@
 ---
-title: Een Microsoft 365-groep maken met een specifieke PDL
+title: Een groep Microsoft 365 maken met een specifieke voorkeursgegevenslocatie
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: Meer informatie over het maken van een Microsoft 365-groep met een opgegeven voorkeursgegevenslocatie in een multi-geoomgeving.
+description: Meer informatie over het maken Microsoft 365 groep met een opgegeven voorkeursgegevenslocatie in een multi-geo-omgeving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f02a5eb6d8b30e8381c65d4735812675d35af2b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 41984dc24e0f30e5e7b7eb0f9672c75b6d65388f
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923742"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086821"
 ---
-# <a name="create-a-microsoft-365-group-with-a-specific-pdl"></a>Een Microsoft 365-groep maken met een specifieke PDL
+# <a name="create-a-microsoft-365-group-with-a-specific-preferred-data-location"></a>Een groep Microsoft 365 maken met een specifieke voorkeursgegevenslocatie
 
-Wanneer gebruikers in een multi-geo-omgeving een Microsoft 365-groep maken, wordt de gewenste gegevenslocatie van de groep automatisch ingesteld op die van de gebruiker. Globale, SharePoint- en Exchange-beheerders kunnen groepen maken in elke regio die ze selecteren. 
+Wanneer gebruikers in een multi-geo-omgeving een Microsoft 365 Groep maken, wordt de voorkeurslocatie voor gegevens van de groep automatisch ingesteld op die van de gebruiker. Globale, SharePoint en Exchange Beheerders kunnen groepen maken in elke regio die ze selecteren. 
 
-Als u een groep met een specifieke PDL wilt maken, kunt u dat doen via het SharePoint-beheercentrum of via de Exchange Online New-UnifiedGroup Microsoft PowerShell-cmdlet. Wanneer u dit doet, worden zowel het groepspostvak als de SharePoint-site die aan de groep is gekoppeld, ingericht in het opgegeven PDL.
+Als u een groep met een specifiek PDF-programma wilt maken, kunt u dat doen via het SharePoint-beheercentrum of via de microsoft PowerShell Exchange Online New-UnifiedGroup-cmdlet. Wanneer u dit doet, worden zowel het groepspostvak als de SharePoint gekoppeld aan de groep ingericht in het opgegeven PDL.
 
-Als u een Microsoft 365-groep wilt maken met de PDL die u opgeeft, gaat u naar het SharePoint-beheercentrum op de geografische locatie waar u de groepssite wilt maken.
+Als u een Microsoft 365 groep wilt maken met de PDL die u opgeeft, gaat u naar het SharePoint-beheercentrum op de geografische locatie waar u de groepssite wilt maken.
 
 Bijvoorbeeld:
 
@@ -35,11 +35,11 @@ Als u een groepssite wilt maken op uw locatie in Australië, kunt u naar https:/
 1. Selecteer **+ Maken.**
 2. Volg het proces om een groepssite te maken.
 
-Uw groepssite wordt ingericht op de geografische locatie die overeenkomt met het SharePoint-beheercentrum waaruit u de aanvraag voor het maken van de site hebt gestart. 
+Uw groepssite wordt ingericht op de geografische locatie die overeenkomt met het SharePoint beheercentrum waaruit u de aanvraag voor het maken van de site hebt gestart. 
 
-Exchange PowerShell gebruiken 
+PowerShell Exchange gebruiken 
 
-Maak verbinding met Exchange Online PowerShell en passeert de parameter *-MailBoxRegion* met de geolocatiecode.
+Verbinding maken powershell Exchange Online en passeert u de parameter *-MailBoxRegion* met de geolocatiecode.
 
 Bijvoorbeeld: 
 
@@ -49,7 +49,7 @@ New-UnifiedGroup -DisplayName MultiGeoEUR -Alias "MultiGeoEUR" -AccessType Publi
 
 ![Schermafbeelding van New-UnifiedGroup PowerShell-cmdlet met syntaxis](../media/multi-geo-new-group-with-pdl-powershell.png)
 
-SharePoint group site provisioning is on-demand. De site wordt ingericht de eerste keer dat een groepseigenaar of lid toegang tot de site probeert te krijgen.
+Houd er rekening SharePoint groepssite-inrichting op aanvraag is. De site wordt ingericht de eerste keer dat een groepseigenaar of lid toegang tot de site probeert te krijgen.
 
 ## <a name="geo-location-codes"></a>Geolocatiecodes
 
@@ -57,4 +57,4 @@ SharePoint group site provisioning is on-demand. De site wordt ingericht de eers
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)
+[Verbinding maken powershell Exchange Online gebruiken](/powershell/exchange/connect-to-exchange-online-powershell)

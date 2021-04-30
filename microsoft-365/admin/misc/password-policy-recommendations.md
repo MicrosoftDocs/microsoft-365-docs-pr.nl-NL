@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Lees hoe u uw organisatie beter kunt beveiligen tegen wachtwoordaanvallen en waarom u veelgebruikte wachtwoorden moet verbieden en op risico gebaseerde meervoudige verificatie moet inschakelen.
-ms.openlocfilehash: ca9a88b0bb154416837254d785cf9cfee8876ae6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d3f86a6e85ab2f8e469a57ea98a661e4cc453673
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914724"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073863"
 ---
 # <a name="password-policy-recommendations"></a>Aanbevelingen voor wachtwoordbeleid
 
@@ -34,7 +34,15 @@ Als beheerder van een organisatie bent u verantwoordelijk voor het instellen van
   
 Zie [Een wachtwoordverloopbeleid instellen voor Microsoft 365](../manage/set-password-expiration-policy.md) om te bepalen hoe vaak Microsoft 365-wachtwoorden moeten verlopen in uw organisatie.
 
-Zie de volgende [verwante artikelen](#related-articles)voor meer informatie over Microsoft 365-wachtwoorden.
+Voor meer informatie over Microsoft 365-wachtwoorden, zie:
+
+[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)
+
+[Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt](../add-users/set-password-to-never-expire.md) (artikel)
+
+[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md) (artikel)
+
+[Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders](../add-users/resend-user-password.md) (artikel)
   
 ## <a name="understanding-password-recommendations"></a>Wachtwoordaanbevelingen begrijpen
 
@@ -134,12 +142,12 @@ Risicogebaseerde meervoudige verificatie verzekert dat wanneer ons systeem verda
 
 - [Worst Passwords of 2015](https://go.microsoft.com/fwlink/p/?linkid=861020)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md)
+[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)
 
-[Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt](../add-users/set-password-to-never-expire.md)
+[Het wachtwoord van een individuele gebruiker zo instellen dat het nooit verloopt](../add-users/set-password-to-never-expire.md) (artikel)
 
-[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md)
+[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md) (artikel)
 
-[Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders](../add-users/resend-user-password.md)
+[Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders](../add-users/resend-user-password.md) (artikel)

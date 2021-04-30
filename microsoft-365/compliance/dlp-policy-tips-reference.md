@@ -6,7 +6,7 @@ author: chrfox
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -16,18 +16,19 @@ ms.assetid: 6501b5ef-6bf7-43df-b60d-f65781847d6c
 ms.collection:
 - M365-security-compliance
 - SPO_Content
+recommendations: false
 description: Lees hoe u een beleidstip toevoegt aan een DLP-beleid (Data Loss Prevention) om een gebruiker te laten weten dat deze werkt met inhoud die strijd is met een DLP-beleid.
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 36e4d4f96146b51e0b31731c9e93222eed767045
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0c42569da3fcac40d3121a59f7dc004f25dd3f74
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903800"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086757"
 ---
 # <a name="data-loss-prevention-policy-tips-reference"></a>Beleidstips voor preventie van gegevensverlies (DLP)
 
-DLP-beleidstips in Outlook Web Access worden ondersteund voor alle voorwaarden, uitzonderingen en acties die van toepassing zijn op Exchange-werkbelasting in een DLP-beleid, behalve de volgende:
+DLP-beleidstips in Outlook Web Access worden ondersteund voor alle voorwaarden, uitzonderingen en acties die van toepassing zijn op Exchange werkbelasting in een DLP-beleid, behalve de volgende:
 
 **Voorwaarden:**
 
@@ -66,16 +67,16 @@ DLP-beleidstips in Outlook Web Access worden ondersteund voor alle voorwaarden, 
 
 ## <a name="outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions"></a>Outlook 2013 en hoger ondersteunt het weergeven van beleidstips voor slechts enkele voorwaarden en uitzonderingen
 
-Momenteel ondersteunt Outlook 2013 en hoger het weergeven van beleidstips voor beleidsregels die geen voorwaarde of uitzondering bevatten, afgezien van de onderstaande voorwaarden en bijbehorende uitzonderingen:
+Momenteel wordt Outlook 2013 en hoger ondersteund met beleidstips voor beleidsregels die geen voorwaarde of uitzondering bevatten, afgezien van de onderstaande voorwaarden en bijbehorende uitzonderingen:
 
 - Inhoud bevat (werkt alleen voor gevoelige informatietypen. Gevoeligheidslabels worden niet ondersteund)
 - Inhoud wordt gedeeld
 
-Houd er rekening mee dat alle voorwaarden werken voor e-mailberichten die zijn geschreven in de Outlook-client-app, waar ze overeenkomen met inhoud en beschermende acties voor inhoud afdwingen. Het weergeven van beleidstips voor gebruikers wordt echter niet ondersteund voor voorwaarden die behalve de hierboven genoemde voorwaarden worden gebruikt.
+Alle voorwaarden werken voor e-mailberichten die zijn geschreven in Outlook client-app, waar ze overeenkomen met inhoud en beschermende acties voor inhoud afdwingen. Het weergeven van beleidstips voor gebruikers wordt echter niet ondersteund voor voorwaarden die behalve de hierboven genoemde voorwaarden worden gebruikt.
 
-## <a name="outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types"></a>Ondersteuning voor Outlook 2013 en hoger en Office-apps op bureaublad met beleidstips voor slechts enkele typen gevoelige informatie
+## <a name="outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types"></a>Outlook 2013 en hoger en Office apps op desktopondersteuning met beleidstips voor alleen bepaalde typen gevoelige informatie
 
-De lijst met out-of-the-box gevoelige informatietypen die worden gedetecteerd voor het weergeven van DLP-beleidstips in Outlook op bureaublad (2013 en hoger) en Office-apps (Word, Excel, PowerPoint) op bureaublad zijn de volgende:
+De lijst met out-of-the-box gevoelige informatietypen die worden gedetecteerd voor het weergeven van DLP-beleidstips in Outlook op desktop (2013 en hoger) en Office-apps (Word, Excel, PowerPoint) op bureaublad zijn de volgende:
 
 - ABA-routeringsnummer
 - Argentina National Identity (DNI) Number
@@ -84,21 +85,21 @@ De lijst met out-of-the-box gevoelige informatietypen die worden gedetecteerd vo
 - Australië Paspoortnummer
 - Australië Belastingbestandsnummer
 - Azure DocumentDB Auth Key  
-- Azure IAAS Database Connection String en Azure SQL Connection String  
+- Azure IAAS Database Connection String and Azure SQL Connection String  
 - Azure IoT-verbindingsreeks  
 - Azure Publish Setting Password  
 - Verbindingsreeks Azure Redis Cache  
 - Azure SAS  
-- Azure Service Bus Connection String  
-- Azure Storage Account Key  
-- Azure Storage Account Key (Generic)  
+- Verbindingsreeks Service Bus Azure  
+- Azure Storage Accountcode  
+- Azure Storage Accountcode (generic)  
 - Nationaal nummer belgië
 - Brazilië CPF-nummer
 - Brazil Legal Entity Number (CNPJ)
 - Nationale id-kaart brazilië (RG)
 - Canada Bankrekeningnummer
 - Canada Driver's License Number
-- Canada Health Service Number
+- Canada Health Service nummer
 - Canada Passport Number
 - Canada Personal Health Identification Number (PHIN)
 - Canada Social Insurance Number
@@ -158,7 +159,7 @@ De lijst met out-of-the-box gevoelige informatietypen die worden gedetecteerd vo
 - Zuid-Afrika-identificatienummer  
 - Registratienummer voor inwoners van Zuid-Korea
 - Spain Social Security Number (SSN)
-- SQL Server-verbindingsreeks  
+- SQL Server Verbindingsreeks  
 - Nationale id Zweden
 - Zweden Paspoortnummer
 - SWIFT-code
@@ -169,7 +170,7 @@ De lijst met out-of-the-box gevoelige informatietypen die worden gedetecteerd vo
 - Turks nationaal identificatienummer
 - VK Rijbewijsnummer
 - VK Kieslijstnummer
-- VK National Health Service Number
+- VK Nationaal Health Service nummer
 - VK National Insurance Number (NINO)
 - V.S. / VK Paspoortnummer
 - Amerikaans bankrekeningnummer
@@ -198,14 +199,14 @@ De lijst met kant-en-weer gevoelige informatietypen die worden gedetecteerd in d
 - Oostenrijks btw-nummer 
 - Oostenrijks btw-nummer 
 - Azure DocumentDB Auth Key 
-- Azure IAAS Database Connection String en Azure SQL Connection String 
+- Azure IAAS Database Connection String and Azure SQL Connection String 
 - Azure IoT-verbindingsreeks 
 - Azure Publish Setting Password 
 - Verbindingsreeks Azure Redis Cache 
 - Azure SAS 
-- Azure Service Bus Connection String 
-- Azure Storage Account Key 
-- Azure Storage Account Key (Generic) 
+- Verbindingsreeks Service Bus Azure 
+- Azure Storage Accountcode 
+- Azure Storage Accountcode (generic) 
 - Nummer van het Rijbewijs van België 
 - Nationaal nummer belgië 
 - België Paspoortnummer 
@@ -218,7 +219,7 @@ De lijst met kant-en-weer gevoelige informatietypen die worden gedetecteerd in d
 - Bulgarije Uniform Burgernummer 
 - Canada Bankrekeningnummer 
 - Canada Driver's License Number 
-- Canada Health Service Number 
+- Canada Health Service nummer 
 - Canada Passport Number 
 - Canada Personal Health Identification Number (PHIN) 
 - Canada Social Insurance Number 
@@ -362,7 +363,7 @@ De lijst met kant-en-weer gevoelige informatietypen die worden gedetecteerd in d
 - Spanje Paspoortnummer 
 - Spain Social Security Number (SSN) 
 - Spanje Tax Identification Number 
-- SQL Server-verbindingsreeks 
+- SQL Server Verbindingsreeks 
 - Zweden Rijbewijsnummer 
 - Nationale id Zweden 
 - Zweden Paspoortnummer 
@@ -376,7 +377,7 @@ De lijst met kant-en-weer gevoelige informatietypen die worden gedetecteerd in d
 - Turks nationaal identificatienummer 
 - VK Rijbewijsnummer 
 - VK Kieslijstnummer 
-- VK National Health Service Number 
+- VK Nationaal Health Service nummer 
 - VK National Insurance Number (NINO) 
 - VK Uniek referentienummer voor belastingbetalers 
 - V.S. / VK Paspoortnummer 
@@ -394,16 +395,16 @@ Houd er rekening mee dat aangepaste gevoelige informatietypen ook worden gedetec
 |**App en platform**|**Ondersteuning voor DLP-beleidstips**|**Ondersteunde typen gevoelige informatie**|**Ondersteunde predicaten en acties**|**Opmerkingen**|
 |:--|:--|:--|:--|:--|
 |**Outlook Web Access**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Subset|Zie [Tips voor beleidstips voor preventie van gegevensverlies](#data-loss-prevention-policy-tips-reference)|
-|**Outlook Win32 (Outlook 2013 en hoger)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|Zie Ondersteuning voor [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) en hoger met beleidstips voor slechts enkele voorwaarden en uitzonderingen en Ondersteuning voor [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) en hoger en Office-apps op bureaublad, met beleidstips voor slechts enkele typen gevoelige informatie voor meer informatie over ondersteuning voor gevoelige informatietypen en DLP-voorwaarden en -acties die worden ondersteund voor het weergeven van DLP-beleidstips in Outlook Win32.|
-|**Outlook Mobile (iOS, Android)/Outlook Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund in Outlook Mobile|
+|**Outlook Win32 (Outlook 2013 en daarna)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|Zie [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) en hoger ondersteuning voor het weergeven van beleidstips voor slechts enkele voorwaarden en uitzonderingen en [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) en hoger en Office-apps op desktopondersteuning met beleidstips voor slechts enkele typen gevoelige informatie voor meer informatie over ondersteuning voor gevoelige informatietypen en DLP-voorwaarden en acties die worden ondersteund voor het weergeven van DLP-beleidstips op Outlook Win32.|
+|**Outlook Mobile (iOS, Android)/Outlook Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund op Outlook mobiel|
 |**Sharepoint Online/One Drive for Business Web Client**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle SPO/ODB-predicaten en acties in DLP||
-|**Win32/ One Drive for Business Win32-client van Sharepoint**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund in sharepoint- of OneDrive-bureaubladclient-apps|
-|**Word, Excel, PowerPoint Web Client**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle SPO/ODB-predicaten en acties in DLP|DLP-beleidstip wordt ondersteund als het document wordt gehost in de SPO- of ODB-web-app en het DLP-beleid al is gestempeld.|
+|**Win32/ One Drive for Business Win32-client van Sharepoint**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund in Sharepoint- of OneDrive-bureaubladclient-apps|
+|**Word, Excel, PowerPoint webclient**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle SPO/ODB-predicaten en acties in DLP|DLP-beleidstip wordt ondersteund als het document wordt gehost in de SPO- of ODB-web-app en het DLP-beleid al is gestempeld.|
 |**Word, Excel, PowerPoint Mobile Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|DLP-beleidstips worden niet ondersteund in mobiele apps voor Office.|
-|**Teams Web/ Teams Desktop/ Teams Mobile/ Teams Mac**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle Teams-predicaten in DLP-beleid|Beleidstips worden weergegeven wanneer een bericht wordt gemarkeerd als 'Dit bericht is gemarkeerd. Wat kan ik doen? Wanneer u op de koppeling klikt, kan de gebruiker de gevoelige informatietypen controleren die zijn gedetecteerd en een probleem kunnen overschrijven of rapporteren indien toegestaan door de beheerder. Houd er rekening mee dat er geen beleidstips worden weergegeven voor bestanden. Wanneer de geadresseerde toegang probeert te krijgen tot het document, krijgen ze mogelijk toegang geweigerd als dit niet is toegestaan.|
+|**Teams Web/Teams Desktop/ Teams Mobile/ Teams Mac**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Alles|Alle Teams predicaten in DLP-beleid|Beleidstips worden weergegeven wanneer een bericht wordt gemarkeerd als 'Dit bericht is gemarkeerd. Wat kan ik doen? Wanneer u op de koppeling klikt, kan de gebruiker de gevoelige informatietypen controleren die zijn gedetecteerd en een probleem kunnen overschrijven of rapporteren indien toegestaan door de beheerder. Houd er rekening mee dat er geen beleidstips worden weergegeven voor bestanden. Wanneer de geadresseerde toegang probeert te krijgen tot het document, krijgen ze mogelijk toegang geweigerd als dit niet is toegestaan.|
 |**Win32 Endpoint-apparaten**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Alle endpoint DLP-predicaten en acties in DLP-beleid|Zie [Preventie van gegevensverlies op Eindpunt ondersteunt beleidstips voor alleen bepaalde typen gevoelige informatie](#data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types)|
 |**Mac-apparaten**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|Beleid voor preventie van gegevensverlies kan momenteel niet worden afgedwongen op Mac-apparaten|
 |**Cloud-apps van derden**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen|Tips voor preventie van gegevensverlies worden niet ondersteund in cloud-apps van derden|
 |**On-prem**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Geen|Geen||
-|**Word, Excel, PowerPoint Win32-client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Subset|Subset|Zie [Ondersteuning voor Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) en hoger en Office-apps op bureaublad met beleidstips voor alleen bepaalde typen gevoelige informatie voor de lijst met ondersteunde typen gevoelige informatie</br></br>Beleidstips voor WXP-client-apps werken voor documenten die zijn opgeslagen op Sharepoint Online of One Drive for Business Sites voor alle DLP-beleidsregels die precies de onderstaande of een subset met voorwaarden of acties in het DLP-beleid bevatten:</br> <ul><li>Inhoud bevat gevoelige informatietypen</li><li>Access-bereik (Inhoud wordt intern/extern gedeeld)</li><li>Gebruiker op de hoogte stellen (beleidstips/gebruikersmeldingen)</li><li>Iedereen blokkeren</li><li>Incidentenrapporten</li></ul></br> Als er een andere voorwaarde of actie aanwezig is, wordt de DLP-beleidstip voor dat beleid niet weergegeven in de bureaublad-apps van Word, Excel of PowerPoint.</br>Zie [Beleidstips in Excel, PowerPoint en Word voor](use-notifications-and-policy-tips.md#policy-tips-in-excel-powerpoint-and-word) meer informatie|
+|**Word, Excel, PowerPoint Win32-client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Subset|Subset|Zie Outlook [2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) en hoger en Office-apps op bureaubladondersteuning met beleidstips voor alleen bepaalde typen gevoelige informatie voor de lijst met ondersteunde typen gevoelige informatie</br></br>Beleidstips voor WXP-client-apps werken voor documenten die zijn opgeslagen op Sharepoint Online of One Drive for Business Sites voor alle DLP-beleidsregels die precies de onderstaande of een subset met voorwaarden of acties in het DLP-beleid bevatten:</br> <ul><li>Inhoud bevat gevoelige informatietypen</li><li>Access-bereik (Inhoud wordt intern/extern gedeeld)</li><li>Gebruiker op de hoogte stellen (beleidstips/gebruikersmeldingen)</li><li>Iedereen blokkeren</li><li>Incidentenrapporten</li></ul></br> Als er een andere voorwaarde of actie aanwezig is, wordt de DLP-beleidstip voor dat beleid niet weergegeven in de bureaublad-apps van Word, Excel of PowerPoint.</br>Zie [Beleidstips in Excel, PowerPoint en Word voor](use-notifications-and-policy-tips.md#policy-tips-in-excel-powerpoint-and-word) meer informatie|
 ||||||

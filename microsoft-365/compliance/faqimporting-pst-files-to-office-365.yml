@@ -1,0 +1,169 @@
+### YamlMime:FAQ
+metadata:
+  title: Veelgestelde vragen over het importeren van PST-bestanden
+  f1.keywords:
+  - NOCSH
+  ms.author: markjjo
+  author: markjjo
+  manager: laurawi
+  audience: Admin
+  ms.topic: article
+  ms.service: O365-seccomp
+  localization_priority: Normal
+  ms.collection: M365-security-compliance
+  search.appverid:
+  - MOE150
+  - MED150
+  - MET150
+  ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
+  ms.custom: seo-marvel-apr2020
+  description: Dit artikel bevat antwoorden op een aantal veelgestelde vragen voor beheerders over het importeren van PST-bestanden Microsoft 365 de Office 365 Service importeren.
+  ms.openlocfilehash: 27fa3b93b53a497fcff63524b04f427049bac412
+  ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 04/28/2021
+  ms.locfileid: "52090629"
+title: Veelgestelde vragen over het importeren van PST-bestanden
+summary: "**Dit artikel is bedoeld voor beheerders. Wilt u PST-bestanden importeren in uw eigen postvak? Zie [E-mail, contactpersonen en agenda importeren uit een Outlook PST-bestand](https://go.microsoft.com/fwlink/p/?LinkID=785075)**\n\nHier zijn enkele veelgestelde vragen over het gebruik van de Office 365 Service importeren om PST-bestanden bulksgewijs te importeren in Microsoft 365 postvakken. Zie Overzicht van het importeren van [PST-bestanden](./importing-pst-files-to-office-365.md)in Office 365.\n  \n## <a name=\"using-network-upload-to-import-pst-files\"></a>Netwerk uploaden gebruiken om PST-bestanden te importeren\n\nZie Netwerk uploaden gebruiken om [PST-bestanden](use-network-upload-to-import-pst-files.md)te importeren in Office 365.\n"
+sections:
+- name: Algemeen
+  questions:
+  - question: >
+      Welke machtigingen zijn vereist voor het maken van importtaken in Office 365 importservice?
+    answer: "U moet de rol Postvak importeren exporteren in Exchange Online om PST-bestanden te importeren in Microsoft 365 postvakken. Deze rol is standaard niet toegewezen aan een rollengroep in Exchange Online. U kunt de rol Postvak importeren exporteren toevoegen aan de rollengroep Organisatiebeheer. U kunt ook een nieuwe rollengroep maken, de rol Postvak importeren exporteren toewijzen en vervolgens uzelf of andere gebruikers toevoegen als lid. Zie de secties 'Een rol toevoegen aan een rollengroep' of de secties 'Een rollengroep maken' in Rollengroepen [beheren in](/Exchange/permissions-exo/role-groups)Exchange Online.\n  \nAls u importtaken wilt maken in het beveiligings- & compliancecentrum, moet een van de volgende gegevens waar zijn:\n  \n- U moet de rol E-mailontvangers in Exchange Online. Standaard wordt deze rol toegewezen aan de rollengroepen Organisatiebeheer en Geadresseerdenbeheer.\n    \n    Of\n    \n- U moet een globale beheerder in uw organisatie zijn.\n    \n> [!TIP]\n> U kunt een nieuwe rollengroep maken in Exchange Online die specifiek is bedoeld voor het importeren van PST-bestanden in Office 365. Voor het minimale niveau van bevoegdheden dat vereist is voor het importeren van PST-bestanden, wijst u de rollen Postvak importeren exporteren en Geadresseerden van e-mail toe aan de nieuwe rollengroep en voegt u leden toe. \n  \n"
+  - question: >
+      Waar is netwerk uploaden beschikbaar?
+    answer: "Netwerk uploaden is momenteel beschikbaar in deze regio's: Verenigde Staten, Canada, Brazilië, het Verenigd Koninkrijk, Frankrijk, Duitsland, Zwitserland, Noorwegen, Europa, India, Oost-Azië, Zuidoost-Azië, Japan, De Republiek Korea, Australië en de Verenigde Arabische Emiraten (VAE). Netwerk uploaden is binnenkort beschikbaar in meer regio's.\n  \n"
+  - question: >
+      Wat zijn de prijzen voor het importeren van PST-bestanden met behulp van netwerk uploaden?
+    answer: "Het gebruik van netwerk uploaden om PST-bestanden te importeren is gratis.\n  \nDit betekent ook dat nadat PST-bestanden zijn verwijderd uit het Azure Storage-gebied, ze niet meer worden weergegeven in de lijst met bestanden voor een voltooide importklus in het Microsoft 365-beheercentrum. Hoewel een importtaken mogelijk nog steeds worden weergegeven op de pagina Gegevens importeren in **Office 365** pagina, is de lijst met PST-bestanden mogelijk leeg wanneer u de details van oudere importtaken bekijkt. \n  \n"
+  - question: >
+      Welke versie van de PST-bestandsindeling wordt ondersteund voor het importeren naar Office 365?
+    answer: "Er zijn twee versies van de PST-bestandsindeling: ANSI en Unicode. Het is raadzaam om bestanden te importeren die gebruikmaken van de Unicode PST-bestandsindeling. Bestanden die de ANSI-PST-bestandsindeling gebruiken, zoals bestanden voor talen die een DBCS (Double Byte Character Set) gebruiken, kunnen echter ook worden geïmporteerd in Office 365. Zie Stap 4 in Netwerk uploaden gebruiken om de PST-bestanden van uw organisatie te importeren in Office 365 voor meer informatie over het importeren [van ANSI-PST-bestanden.](use-network-upload-to-import-pst-files.md#step-4-create-the-pst-import-mapping-file)\n  \nDaarnaast kunnen PST-bestanden uit Outlook 2007 en nieuwere versies worden geïmporteerd in Office 365.\n  \n"
+  - question: >
+      Nadat ik mijn PST-bestanden heb geüpload naar het Azure Storage gebied, hoe lang worden ze bewaard in Azure voordat ze worden verwijderd?
+    answer: "Wanneer u de methode voor het uploaden van het netwerk gebruikt om PST-bestanden te importeren, uploadt u deze naar een Azure blobcontainer met de naam `ingestiondata` . Als er geen importtaken worden uitgevoerd op de pagina **PST-bestanden** importeren in het beveiligings- & compliancecentrum), worden alle PST-bestanden in de container in Azure 30 dagen nadat de meest recente importtaken zijn gemaakt, verwijderd in het `ingestiondata` beveiligings- & compliancecentrum. Dat betekent ook dat u binnen 30 dagen na het uploaden van PST-bestanden naar Azure een nieuwe importklus moet maken in het beveiligings- & compliancecentrum (beschreven in stap 5 in de instructies voor het uploaden van het netwerk). \n  \nDit betekent ook dat nadat PST-bestanden zijn verwijderd uit het Azure Storage-gebied, ze niet meer worden weergegeven in de lijst met bestanden voor een voltooide importklus in het beveiligings- & compliancecentrum. Hoewel een importtaken mogelijk nog steeds worden weergegeven op de pagina **PST-bestanden** importeren in het beveiligings- & compliancecentrum, is de lijst met PST-bestanden mogelijk leeg wanneer u de details van oudere importtaken bekijkt. \n  \n"
+  - question: >
+      Hoe lang duurt het om een PST-bestand te importeren in een postvak?
+    answer: "Dit hangt af van de capaciteit van uw netwerk, maar het duurt meestal enkele uren voordat elke terabyte (TB) gegevens wordt geüpload naar het Azure Storage gebied voor uw organisatie. Nadat de PST-bestanden zijn gekopieerd naar het Azure Storage gebied, wordt een PST-bestand geïmporteerd in een Microsoft 365-postvak met een snelheid van ten minste 24 GB per dag. Als dit tarief niet aan uw behoeften voldoet, kunt u andere methoden overwegen voor het migreren van e-mailgegevens naar Office 365. Zie Manieren om [meerdere](/Exchange/mailbox-migration/mailbox-migration)e-mailaccounts te migreren naar Office 365.\n  \nAls verschillende PST-bestanden worden geïmporteerd in verschillende doelpostvakken, vindt het importproces parallel plaats. met andere woorden: elk PST-/postvakpaar wordt tegelijk geïmporteerd. Als meerdere PST-bestanden in hetzelfde postvak worden geïmporteerd, worden ze tegelijkertijd geïmporteerd.\n  \n"
+  - question: >
+      Hoe verwerkt het PST-importproces dubbele e-mailitems?
+    answer: >
+      Het PST-importproces controleert op dubbele items en kopieert de items uit een PST-bestand niet naar het postvak of archief als er een overeenkomend item bestaat in de doelmap in het doelpostvak of doelarchief. Als u hetzelfde PST-bestand opnieuw invoert en een andere doelmap opgeeft (met de eigenschap TargetRootFolder in het PST-importtoewijzingsbestand) dan het bestand dat u hebt opgegeven in een vorige importklus, worden alle items in het PST-bestand opnieuw geïmporteerd.
+  - question: >
+      Is er een limiet voor berichtgrootte bij het importeren van PST-bestanden?
+    answer: "Ja. Als een PST-bestand een postvakitem bevat dat groter is dan 150 MB, wordt het item overgeslagen en niet geïmporteerd tijdens het importproces. Items groter dan 150 MB worden niet geïmporteerd, omdat 150 MB de limiet voor berichtgrootte is in Exchange Online. Zie Berichtlimieten [in Exchange Online.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)\n  \n"
+  - question: >
+      Blijven berichteigenschappen, zoals wanneer het bericht is verzonden of ontvangen, de lijst met geadresseerden en andere eigenschappen behouden wanneer PST-bestanden worden geïmporteerd in een Microsoft 365 postvak?
+    answer: >
+      Ja. De oorspronkelijke metagegevens van het bericht worden niet gewijzigd tijdens het importproces.
+  - question: >
+      Is er een limiet voor het aantal niveaus in een maphiërarchie voor een PST-bestand dat ik in een postvak wil importeren?
+    answer: >
+      Ja. U kunt een PST-bestand met 300 of meer niveaus met geneste mappen niet importeren.
+  - question: >
+      Kan ik netwerk uploaden gebruiken om PST-bestanden te importeren in een inactief postvak in Office 365?
+    answer: >
+      Ja, deze mogelijkheid is nu beschikbaar.
+  - question: >
+      Kan ik netwerk uploaden gebruiken om PST-bestanden te importeren in een onlinearchiefpostvak in een Exchange hybride implementatie?
+    answer: >
+      Ja, deze mogelijkheid is nu beschikbaar.
+  - question: >
+      Kan ik netwerk uploaden gebruiken om PST-bestanden te importeren in openbare mappen in Exchange Online?
+    answer: >
+      Nee, u kunt GEEN PST-bestanden importeren in openbare mappen.
+
+
+      ## <a name="using-drive-shipping-to-import-pst-files"></a>Verzenden via station gebruiken om PST-bestanden te importeren
+
+
+      Zie Schijfverzending gebruiken om PST-bestanden te importeren in Office 365 voor [stapsgewijse instructies.](use-drive-shipping-to-import-pst-files-to-office-365.md)
+  - question: >
+      Welke machtigingen zijn vereist voor het maken van importtaken in Office 365 importservice?
+    answer: "U moet de rol Postvak importeren exporteren toegewezen krijgen om PST-bestanden te importeren in Microsoft 365 postvakken. Deze rol is standaard niet toegewezen aan een rollengroep in Exchange Online. U kunt de rol Postvak importeren exporteren toevoegen aan de rollengroep Organisatiebeheer. U kunt ook een nieuwe rollengroep maken, de rol Postvak importeren exporteren toewijzen en vervolgens uzelf of andere gebruikers toevoegen als lid. Zie de secties 'Een rol toevoegen aan een rollengroep' of de secties 'Een rollengroep maken' in Rollengroepen [beheren in](/Exchange/permissions-exo/role-groups)Exchange Online.\n  \nAls u importtaken wilt maken in het beveiligings- & compliancecentrum, moet een van de volgende gegevens waar zijn:\n  \n- U moet de rol E-mailontvangers in Exchange Online. Standaard wordt deze rol toegewezen aan de rollengroepen Organisatiebeheer en Geadresseerdenbeheer.\n    \n    Of\n    \n- U moet een globale beheerder in uw organisatie zijn.\n    \n> [!TIP]\n> U kunt een nieuwe rollengroep maken in Exchange Online die specifiek is bedoeld voor het importeren van PST-bestanden in Office 365. Voor het minimale niveau van bevoegdheden dat vereist is voor het importeren van PST-bestanden, wijst u de rollen Postvak importeren exporteren en Geadresseerden van e-mail toe aan de nieuwe rollengroep en voegt u leden toe. \n  \n"
+  - question: >
+      Waar is schijfzending beschikbaar?
+    answer: "Schijfbezending is momenteel beschikbaar in de Verenigde Staten, Canada, Brazilië, het Verenigd Koninkrijk, Europa, India, Oost-Azië, Zuidoost-Azië, Japan, De Republiek Korea en Australië. Verzendstation is binnenkort beschikbaar in meer regio's.\n\n> [!NOTE]\n> Op dit moment is verzenden voor het importeren van PST-bestanden niet beschikbaar in Duitsland en Zwitserland. Deze veelgestelde vragen worden bijgewerkt wanneer station shipping beschikbaar is in deze landen.\n  \n"
+  - question: >
+      Welke commerciële licentieovereenkomsten ondersteunen het verzenden van licenties?
+    answer: >
+      Verzendstation om PST-bestanden te importeren in Microsoft 365 is beschikbaar via een Microsoft Enterprise Agreement (EA). Schijfverzending is niet beschikbaar via een MPSA (Microsoft Products and Services Agreement).
+  - question: >
+      Wat zijn de prijzen voor het gebruik van schijfzending om PST-bestanden te importeren in Microsoft 365?
+    answer: "De kosten voor het gebruik van schijfzending voor het importeren van PST-bestanden in Microsoft 365 postvakken zijn $ 2 USD per GB aan gegevens. Als u bijvoorbeeld een harde schijf verzend die 1.000 GB (1 TB) PST-bestanden bevat, zijn de kosten $ 2.000 USD. U kunt met een partner samenwerken om de importkosten te betalen. Zie Uw [Microsoft-partner](../admin/manage/find-your-partner-or-reseller.md)of wederverkoper zoeken voor informatie over het vinden van een partner.\n  \n"
+  - question: >
+      Wat voor harde schijven worden ondersteund voor het verzenden van stations?
+    answer: "Alleen 2,5 inch solid-state drives (SSD's) of 2,5-inch of 3,5-inch SATA II/III interne harde schijven worden ondersteund voor gebruik met de Office 365 Import service. U kunt harde schijven tot 10 TB gebruiken. Voor importtaken wordt alleen het eerste gegevensvolume op de harde schijf verwerkt. Het gegevensvolume moet zijn opgemaakt met NTFS. Wanneer u gegevens naar een harde schijf kopieert, kunt u deze rechtstreeks aansluiten met een 2,5-inch SSD of 2,5-inch of 3,5-inch SATA II/III-connector of u kunt deze extern koppelen met een externe 2,5-inch SSD of 2,5 inch of 3,5-inch SATA II/III USB-adapter.\n  \n> [!IMPORTANT]\n> Externe harde schijven die worden meegeleverd met een ingebouwde USB-adapter, worden niet ondersteund door de Office 365 importservice. Bovendien kan de schijf in de behuizing van een externe harde schijf niet worden gebruikt. Verzend geen externe harde schijven. \n  \n"
+  - question: >
+      Hoeveel harde schijven kan ik verzenden voor één importklus?
+    answer: >
+      U kunt maximaal 10 harde schijven verzenden voor één importklus.
+  - question: >
+      Hoe lang duurt het voordat ik mijn harde schijf heb verschepen om naar het Microsoft-datacenter te gaan?
+    answer: >
+      Dit hangt af van een paar dingen, zoals de nabijheid van het Microsoft-datacenter en het type verzendoptie dat u hebt gebruikt om uw harde schijf te verzenden (zoals bezorging op de volgende dag, bezorging van twee dagen of grondbezorging). Bij de meeste verzenders kunt u het volgnummer gebruiken om de status van uw bezorging bij te houden.
+  - question: >
+      Hoe lang duurt het om mijn PST-bestanden te uploaden naar Azure nadat mijn harde schijf in het Microsoft-datacenter is aangekomen?
+    answer: >
+      Nadat uw harde schijf is ontvangen in het Microsoft-datacenter, duurt het 7 tot 10 werkdagen om de PST-bestanden te uploaden naar het Azure Storage gebied voor uw organisatie. De PST-bestanden worden geüpload naar een Azure Blob Container met de naam `ingestiondata` .
+  - question: >
+      Hoe lang duurt het om een PST-bestand te importeren in een postvak?
+    answer: "Nadat de PST-bestanden zijn geüpload naar het Azure Storage-gebied, analyseert Microsoft 365 de gegevens in de PST-bestanden (op een veilige en veilige manier) om de leeftijd van de items en de verschillende berichtentypen in de PST-bestanden te identificeren. Wanneer deze analyse is voltooid, hebt u de optie om alle gegevens in de PST-bestanden te importeren of filters in te stellen die bepalen welke gegevens worden geïmporteerd. Nadat u de importklus hebt begonnen, wordt een PST-bestand geïmporteerd in een Microsoft 365 postvak met een snelheid van ten minste 24 GB per dag. Als dit tarief niet aan uw behoeften voldoet, kunt u andere methoden overwegen voor het importeren van e-mailgegevens in Office 365. Zie Manieren om [meerdere](/Exchange/mailbox-migration/mailbox-migration)e-mailaccounts te migreren naar Office 365.\n  \nAls verschillende PST-bestanden worden geïmporteerd in verschillende doelpostvakken, vindt het importproces parallel plaats. met andere woorden: elk PST-/postvakpaar wordt tegelijk geïmporteerd. Als meerdere PST-bestanden in hetzelfde postvak worden geïmporteerd, worden ze tegelijkertijd geïmporteerd.\n  \n"
+  - question: >
+      Wanneer Microsoft mijn PST-bestanden uploadt naar Azure, hoe lang worden ze bewaard in Azure voordat ze worden verwijderd?
+    answer: "Alle PST-bestanden op de Azure Storage-locatie voor uw organisatie (in blobcontainer met de naam ), worden 30 dagen nadat de meest recente importklus is gemaakt op de pagina PST-bestanden importeren in het beveiligings- & `ingestiondata` compliancecentrum verwijderd.  \n  \nDit betekent ook dat nadat PST-bestanden zijn verwijderd uit het Azure Storage-gebied, ze niet meer worden weergegeven in de lijst met bestanden voor een voltooide importklus in het beveiligings- & compliancecentrum. Hoewel een importtaken mogelijk nog steeds worden weergegeven op de pagina **PST-bestanden** importeren in het beveiligings- & compliancecentrum, is de lijst met PST-bestanden mogelijk leeg wanneer u de details van oudere importtaken bekijkt. \n  \n"
+  - question: >
+      Welke versie van de PST-bestandsindeling wordt ondersteund voor het importeren naar Microsoft 365?
+    answer: "Er zijn twee versies van de PST-bestandsindeling: ANSI en Unicode. Het is raadzaam om bestanden te importeren die gebruikmaken van de Unicode PST-bestandsindeling. Bestanden die de ANSI-PST-bestandsindeling gebruiken, zoals bestanden voor talen die een DBCS (Double Byte Character Set) gebruiken, kunnen echter ook worden geïmporteerd in Microsoft 365. Zie Stap 3 in Station shipping gebruiken om [PST-bestanden](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file)te importeren in Office 365 voor meer informatie over het importeren van ANSI-PST-bestanden.\n  \nDaarnaast kunnen PST-bestanden uit Outlook 2007 en nieuwere versies worden geïmporteerd in Office 365.\n  \n"
+  - question: >
+      Is er een limiet voor berichtgrootte bij het importeren van PST-bestanden?
+    answer: "Ja. Als een PST-bestand een postvakitem bevat dat groter is dan 150 MB, wordt het item overgeslagen en niet geïmporteerd tijdens het importproces. Items groter dan 150 MB worden niet geïmporteerd, omdat 150 MB de limiet voor berichtgrootte is in Exchange Online. Zie Berichtlimieten [in Exchange Online.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)\n  \n"
+  - question: >
+      Hoe verwerkt het PST-importproces dubbele e-mailitems?
+    answer: >
+      Het PST-importproces controleert op dubbele items en kopieert de items uit een PST-bestand niet naar het postvak of archief als er een overeenkomend item bestaat in de doelmap in het doelpostvak of doelarchief. Als u hetzelfde PST-bestand opnieuw invoert en een andere doelmap opgeeft (met de eigenschap TargetRootFolder in het PST-importtoewijzingsbestand) dan het bestand dat u hebt opgegeven in een vorige importklus, worden alle items in het PST-bestand opnieuw geïmporteerd.
+  - question: >
+      Blijven berichteigenschappen, zoals wanneer het bericht is verzonden of ontvangen, de lijst met geadresseerden en andere eigenschappen behouden wanneer PST-bestanden worden geïmporteerd in een Microsoft 365 postvak?
+    answer: >
+      Ja. De metagegevens van het oorspronkelijke bericht worden niet gewijzigd tijdens het importproces
+  - question: >
+      Is er een limiet voor het aantal niveaus in een maphiërarchie voor een PST-bestand dat ik in een postvak wil importeren?
+    answer: >
+      Ja. U kunt een PST-bestand met 300 of meer niveaus met geneste mappen niet importeren.
+  - question: >
+      Kan ik schijfzending gebruiken om PST-bestanden te importeren in een inactief postvak in Microsoft 365?
+    answer: >
+      Ja, deze mogelijkheid is nu beschikbaar.
+  - question: >
+      Kan ik schijfzending gebruiken om PST-bestanden te importeren in een onlinearchiefpostvak in een Exchange hybride implementatie?
+    answer: >
+      Ja, deze mogelijkheid is nu beschikbaar.
+  - question: >
+      Kan ik schijfzending gebruiken om PST-bestanden te importeren in openbare mappen in Exchange Online?
+    answer: >
+      Nee, u kunt GEEN PST-bestanden importeren in openbare mappen.
+  - question: >
+      Kan Microsoft mijn harde schijf wissen voordat ze deze naar mij verzenden?
+    answer: >
+      Nee, Microsoft kan harde schijven niet wissen voordat ze worden terugverzending naar klanten. Harde schijven worden aan u geretourneerd in dezelfde staat waarin ze zich hadden toen ze door Microsoft werden ontvangen.
+  - question: >
+      Kan Microsoft mijn harde schijf versnipperen in plaats van deze terug te verzenden naar mij?
+    answer: >
+      Nee, Microsoft kan uw harde schijf niet vernietigen. Harde schijven worden aan u geretourneerd in dezelfde staat waarin ze zich hadden toen ze door Microsoft werden ontvangen.
+  - question: >
+      Welke koeriersservices worden ondersteund voor retourzending?
+    answer: >
+      Als u een klant bent in de Verenigde Staten of Europa, gebruikt Microsoft FedEx om uw harde schijf terug te brengen. Voor alle andere regio's gebruikt Microsoft DHL.
+  - question: >
+      Wat zijn de verzendkosten voor retourzending?
+    answer: >
+      De verzendkosten variëren, afhankelijk van de nabijheid van het Microsoft-datacenter waar u de harde schijf naar hebt verzonden. Microsoft facturt uw FedEx- of DHL-account om uw harde schijf terug te keren. De kosten van retourzending zijn uw verantwoordelijkheid.
+  - question: >
+      Kan ik een aangepaste koeriersservice, zoals Aangepaste verzending van FedEx, gebruiken om mijn harde schijf naar Microsoft te verzenden?
+    answer: >
+      Ja.
+  - question: >
+      Als ik mijn harde schijf naar een ander land moet verzenden, moet ik dan iets doen?
+    answer: De harde schijf die u naar Microsoft verzend, moet mogelijk de internationale grenzen overschrijden. In dat geval bent u verantwoordelijk voor het importeren en/of exporteren van de harde schijf en de gegevens die de harde schijf bevat overeenkomstig de toepasselijke wetgeving. Neem voordat u een harde schijf verzend contact op met uw adviseurs om te controleren of uw schijf en gegevens wettelijk kunnen worden verzonden naar het opgegeven Microsoft-datacenter. Dit helpt ervoor te zorgen dat microsoft op tijd wordt bereikt.

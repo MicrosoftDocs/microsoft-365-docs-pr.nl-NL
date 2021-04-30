@@ -10,14 +10,14 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ffddfcb36b2b31e490dc4e65aee05304733e34a5
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 14a57e67655f6a9a9b57b77abf2fb7f27f0e264e
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548774"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086499"
 ---
 # <a name="contact-support-for-bangladesh"></a>Contact opnemen met ondersteuning voor Bangladesh
 
@@ -26,14 +26,14 @@ ms.locfileid: "50548774"
 ## <a name="phone-number"></a>Telefoonnummer
 157 0011
 
-Na het bellen voert u
+Na het kiezen voert u
 
-877 857 3235
++1877 857 3235
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 09:00- 17:00 uur
+Engels: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
