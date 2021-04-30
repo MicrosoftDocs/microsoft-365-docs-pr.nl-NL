@@ -647,6 +647,6 @@
 ##### [Regels voor het verminderen van kwetsbaarheid voor aanvallen](troubleshoot-asr.md)
 ##### [Regels voor het migreren naar kwetsbaarheid voor aanvallen verminderen](migrating-asr-rules.md)
 
-# [Microsoft 365 Defender](../index.yml)
+# [Microsoft 365 Defender](../defender/index.yml)
 # [Defender voor Office 365](../office-365-security/index.yml)
 # [Defender for Identity](https://docs.microsoft.com/defender-for-identity/)
