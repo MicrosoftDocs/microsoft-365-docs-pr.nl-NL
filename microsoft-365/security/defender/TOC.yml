@@ -100,6 +100,24 @@
                   href: investigate-alerts.md
                 - name: Gebruikers analyseren
                   href: investigate-users.md
+                - name: Reageren op uw eerste incident
+                  items:
+                    - name: Inleiding
+                      href: first-incident-overview.md
+                    - name: Voorbereiden
+                      href: first-incident-prepare.md
+                    - name: Stap 1. Triage en analyseren
+                      href: first-incident-analyze.md
+                    - name: Stap 2. Herstel
+                      href: first-incident-remediate.md
+                    - name: Stap 3. Controle
+                      href: first-incident-post.md
+                    - name: Aanvullende voorbeelden van incidenten
+                      items:
+                        - name: Phishing-e-mail
+                          href: first-incident-path-phishing.md
+                        - name: Identiteit
+                          href: first-incident-path-identity.md
             - name: E-mailmeldingen krijgen
               href: get-incident-notifications.md
         - name: Geautomatiseerd onderzoek en reactie
