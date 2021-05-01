@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: noindex,nofollow
 description: We brengen nieuwe waarschuwingsbeleidsregels uit voor Microsoft Defender voor Office 365. We trekken ook twee bestaande waarschuwingsbeleidsregels terug die zijn vervangen door de nieuwe.
-ms.openlocfilehash: 247b8c8be26016a8492f25243b8c5bcc555d35b3
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 7074002a78d6e776f24395bf6492177c1d789033
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760714"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086769"
 ---
 # <a name="new-alert-policies-in-microsoft-defender-for-office-365"></a>Nieuwe waarschuwingsbeleidsregels in Microsoft Defender voor Office 365
 
@@ -47,7 +47,7 @@ In de volgende tabel staat het nieuwe waarschuwingsbeleid en het bestaande waars
 
 ## <a name="alert-severity-enhancements"></a>Verbeteringen van de ernst van waarschuwingen
 
-In de volgende tabel ziet u de standaardwaarschuwingsbeleidsregels waarvan de urgentieclassificaties worden gewijzigd. We wijzigen de urgentieclassificatie voor deze waarschuwingsbeleidsregels om beter in overeenstemming te zijn met het potentiële risico en de gevolgen voor uw organisatie, en om uw beveiligingsteams te helpen prioriteit te geven aan de waarschuwingen die door dit beleid worden gegenereerd.
+Voor de volgende tabel worden de standaardwaarschuwingsbeleidsregels aangegeven waarvan de urgentieclassificaties worden gewijzigd. We wijzigen de urgentieclassificatie voor deze waarschuwingsbeleidsregels om beter in overeenstemming te zijn met het potentiële risico en de gevolgen voor uw organisatie, en om uw beveiligingsteams te helpen prioriteit te geven aan de waarschuwingen die door dit beleid worden gegenereerd.
 
 | Waarschuwing| ID waarschuwingsbeleid| Oude urgentie| Nieuwe urgentie  |
 |:----------|:---------------|:------------|:--------------|
@@ -67,17 +67,17 @@ In de volgende tabel ziet u wanneer de nieuwe waarschuwingsbeleidsregels zullen 
 |:------------|:-----|
 | **E-mailberichten met schadelijke URL verwijderd na bezorging** (nieuw) | Waarschuwingen worden geactiveerd vanaf 11 april 2021|
 | **E-mailberichten met schadelijk bestand verwijderd na bezorging** (nieuw) | Waarschuwingen worden geactiveerd vanaf 11 april 2021 |
-| **E-mailberichten van een campagne zijn bezorgd en later verwijderd** (nieuw) | Waarschuwingen worden geactiveerd vanaf 30 april 2021|
-| **Schadelijke e-mailberichten zijn bezorgd en later verwijderd** (nieuw) | Waarschuwingen worden geactiveerd vanaf 30 april 2021|
-| **E-mailberichten met schadelijke phishing-URL verwijderd na bezorging** (bestaand, wordt verwijderd)| Het waarschuwingsbeleid wordt op 30 april 2021 verwijderd. Zie de sectie [Wat u moet doen om u voor te bereiden op deze wijzigingen](#what-you-need-to-do-to-prepare-for-these-changes).|
-| **E-mailberichten met schadelijke malware verwijderd na bezorging** (bestaand, wordt verwijderd) | Het waarschuwingsbeleid wordt op 30 april 2021 verwijderd. Zie de sectie [Wat u moet doen om u voor te bereiden op deze wijzigingen](#what-you-need-to-do-to-prepare-for-these-changes). |
+| **E-mailberichten van een campagne zijn bezorgd en later verwijderd** (nieuw) | Waarschuwingen worden geactiveerd vanaf 14 mei 2021|
+| **Schadelijke e-mailberichten zijn bezorgd en later verwijderd** (nieuw) | Waarschuwingen worden geactiveerd vanaf 14 mei 2021|
+| **E-mailberichten met schadelijke phishing-URL verwijderd na bezorging** (bestaand, wordt verwijderd)| Het waarschuwingsbeleid wordt op 14 mei 2021 verwijderd. Zie de sectie [Wat u moet doen om u voor te bereiden op deze wijzigingen](#what-you-need-to-do-to-prepare-for-these-changes).|
+| **E-mailberichten met schadelijke malware verwijderd na bezorging** (bestaand, wordt verwijderd) | Het waarschuwingsbeleid wordt op 14 mei 2021 verwijderd. Zie de sectie [Wat u moet doen om u voor te bereiden op deze wijzigingen](#what-you-need-to-do-to-prepare-for-these-changes). |
 |||
 
-De wijzigingen van de urgentie van de waarschuwing worden voor alle organisaties op 30 april 2021 geïmplementeerd.
+De wijzigingen van de urgentie van de waarschuwing worden voor alle organisaties op 14 mei 2021 geïmplementeerd.
 
 ## <a name="how-this-will-affect-your-organization"></a>Wat dit voor gevolgen heeft voor uw organisatie
 
-De nieuwe waarschuwingen beginnen op de bovenstaande datums met het activeren van AIR-onderzoeken binnen uw organisatie. Als u de gevolgen wilt beperken voor beveiligingsorganisaties die de twee waarschuwingen hebben geactiveerd die worden verwijderd, ziet u tussen 5 april 2021 en 30 april 2021 waarschuwingen die zijn geactiveerd door het bestaande waarschuwingsbeleid *en* waarschuwingen die zijn geactiveerd door het nieuwe waarschuwingsbeleid. Dit is om beveiligingsteams de tijd te geven om de vereiste wijzigingen te verwerken. Om beveiligingsteams te helpen bij het verhoogde waarschuwingsvolume tijdens deze korte duur, worden zowel de bestaande waarschuwingen als de nieuwe waarschuwingen gerelateerd aan hetzelfde AIR-onderzoek en aan hetzelfde incident. Dit omvat met name het volgende gedrag voor waarschuwingen, AIR-onderzoeken en incidenten:
+De nieuwe waarschuwingen beginnen op de bovenstaande datums met het activeren van AIR-onderzoeken binnen uw organisatie. Als u de gevolgen wilt beperken voor beveiligingsorganisaties die de twee waarschuwingen hebben geactiveerd die worden verwijderd, ziet u tussen 5 april 2021 en 14 mei 2021 waarschuwingen die zijn geactiveerd door het bestaande waarschuwingsbeleid *en* waarschuwingen die zijn geactiveerd door het nieuwe waarschuwingsbeleid. Dit is om beveiligingsteams de tijd te geven om de vereiste wijzigingen te verwerken. Om beveiligingsteams te helpen bij het verhoogde waarschuwingsvolume tijdens deze korte duur, worden zowel de bestaande waarschuwingen als de nieuwe waarschuwingen gerelateerd aan hetzelfde AIR-onderzoek en aan hetzelfde incident. Dit omvat met name het volgende gedrag voor waarschuwingen, AIR-onderzoeken en incidenten:
 
 - **Waarschuwingen**: u ziet automatisch de volgende waarschuwingsparen in de bestaande en nieuwe waarschuwingen:
 
@@ -109,11 +109,11 @@ Hoe uw organisatie deze waarschuwingen gebruikt, bepaalt wat u moet doen om u vo
 
   - **E-mailberichten met malware verwijderd na bezorging**
 
-- Geen actie uitvoeren. We schakelen de bestaande waarschuwingsbeleidsregels op 30 april 2021 uit.
+- Geen actie uitvoeren. We schakelen de bestaande waarschuwingsbeleidsregels op 14 mei 2021 uit.
 
 **Als u deze waarschuwingen hebt geoperationaliseerd:**
 
-- Gebruik de nieuwe waarschuwingen als onderdeel van uw werkstromen, ter voorbereiding op het verwijderen van het bestaande waarschuwingsbeleid op 30 april 2021. Als uw ticketingsysteem gebruikmaakt van aangepaste logica, een beveiligingspostvak waarin u meldingen per e-mail ontvangt of een SIEM-oplossing die afhankelijk is van de naam van de waarschuwing of de correlatie-id (Alert Policy Id), moet u de logica aanpassen om de wijziging mogelijk te maken.
+- Gebruik de nieuwe waarschuwingen als onderdeel van uw werkstromen, ter voorbereiding op het verwijderen van het bestaande waarschuwingsbeleid op 14 mei 2021. Als uw ticketingsysteem gebruikmaakt van aangepaste logica, een beveiligingspostvak waarin u meldingen per e-mail ontvangt of een SIEM-oplossing die afhankelijk is van de naam van de waarschuwing of de correlatie-id (Alert Policy Id), moet u de logica aanpassen om de wijziging mogelijk te maken.
 
   > [!NOTE]
   > De informatie in de waarschuwingen, onderzoeken en incidenten is niet gewijzigd. Deze informatie is zelfs uitgebreid met aanvullende informatie over de bedreigingen die ermee zijn verbonden.
@@ -124,4 +124,4 @@ Hoe uw organisatie deze waarschuwingen gebruikt, bepaalt wat u moet doen om u vo
 
   - **E-mailberichten met malware verwijderd na bezorging**
 
-  U kunt deze waarschuwingsbeleidsregels ook ingeschakeld laten totdat we ze op 30 april 2021 verwijderen.
+  U kunt deze waarschuwingsbeleidsregels ook ingeschakeld laten totdat we ze op 14 mei 2021 verwijderen.

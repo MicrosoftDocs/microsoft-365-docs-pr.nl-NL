@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Leer teams met een basisbescherming te implementeren.
-ms.openlocfilehash: 728a41bd521ed32c57c981be576e46eaee344099
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: db1a58fd06a62240cbcfcc74f83ba6196f33df80
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222741"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114292"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Teams met basisbescherming configureren
 
@@ -96,7 +96,7 @@ Microsoft 365 biedt aanvullende methoden voor het beveiligen van uw inhoud. Over
 
 - Laat uw gastgebruikers akkoord gaan met de [gebruiksrechtenovereenkomst](/azure/active-directory/conditional-access/terms-of-use).
 - Configureer een [beleid voor de time-out van een sessie](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) voor gasten.
-- Maak [typen voor gevoelige informatie](../compliance/sensitive-information-type-learn-about.md) en gebruik [gegevensverliesbeveiliging](../compliance/data-loss-prevention-policies.md) om beleid in te stellen rond toegang tot gevoelige informatie.
+- Maak [typen voor gevoelige informatie](../compliance/sensitive-information-type-learn-about.md) en gebruik [gegevensverliesbeveiliging](../compliance/dlp-learn-about-dlp.md) om beleid in te stellen rond toegang tot gevoelige informatie.
 
 ## <a name="see-also"></a>Zie ook
 

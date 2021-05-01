@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 voor Bedrijven-abonnementen handmatig wijzigen
+title: Uw Microsoft 365 voor zakelijke abonnementen handmatig wijzigen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- commerce
-- Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ROBOTS: NOINDEX
 description: Wijzig abonnementen handmatig door een nieuw abonnement te kopen en ervoor te zorgen dat beide abonnementen worden vermeld en actief zijn.
-ms.openlocfilehash: d6b0c822f9d3ceeb6c50a6ec872682d1db5decb0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: 1dc7ff8cd6b8a43db7d70ab6c17aec16a020baac
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907902"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107678"
 ---
 # <a name="change-plans-manually"></a>Abonnementen handmatig wijzigen
 
@@ -52,7 +52,7 @@ Als u verder wilt gaan met een handmatige wijziging, leest u [stap 2: Een nieuw 
 
 OF
 
-**Koop een nieuw abonnement en licenties:** Volg de stappen in [Een ander Microsoft 365 voor Bedrijven-abonnement](../try-or-buy-microsoft-365.md) kopen om een nieuw abonnement te kopen.
+**Koop een nieuw abonnement en licenties:** Volg de stappen in [Een ander abonnement Microsoft 365 voor bedrijven kopen](../try-or-buy-microsoft-365.md) om een nieuw abonnement te kopen.
 
 Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer bijvoorbeeld de e-mailadressen voor de gebruikers die u wilt verplaatsen. Als hun e-mailadressen een contoso.com, moet u een nieuw abonnement kopen voor \@ contoso.com.
 Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
@@ -63,7 +63,7 @@ Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
 2. **Controleren of beide abonnementen worden vermeld en actief zijn** Het abonnement waar u gebruikers van verplaatst en het abonnement waar u gebruikers naar verplaatst, moet samen worden weergegeven. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen actief zijn. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
 
-3. **Controleer of u voor elke** gebruiker voldoende licenties hebt Elke gebruiker heeft een licentie nodig die overeenkomt met zijn of haar abonnement. Als u dus tien gebruikers wilt verplaatsen naar Microsoft 365 Business Premium, moet u ervoor zorgen dat er tien licenties beschikbaar zijn.
+3. **Controleer of u voor elke** gebruiker voldoende licenties hebt Elke gebruiker heeft een licentie nodig die overeenkomt met zijn of haar abonnement. Als u tien gebruikers wilt verplaatsen naar Microsoft 365 Business Premium, moet u ervoor zorgen dat er tien licenties beschikbaar zijn.
 
 4. **Meer licenties nodig voor het nieuwe abonnement?**
    Ga naar de **pagina Uw producten** en koop meer [licenties.](../licenses/buy-licenses.md)

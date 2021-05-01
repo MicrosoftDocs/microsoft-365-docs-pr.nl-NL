@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
-description: 'Lees hoe u meerdere e-mailadressen, de zogenaamde e-mailalias, kunt toevoegen aan uw Microsoft 365 voor Bedrijven-account. '
-ms.openlocfilehash: 4003dcfca29a722ccdf9b86cca5aa1141fbdb367
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+description: 'Lees hoe u meerdere e-mailadressen, e-mailalias genoemd, kunt toevoegen aan uw Microsoft 365 voor bedrijven-account. '
+ms.openlocfilehash: 00e1c55edfcfa9937ab6a18b4bf268adb858b775
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892803"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107120"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Een ander e-mailalias toevoegen voor een gebruiker
   
-Dit artikel is bedoeld voor Microsoft 365-beheerders die een zakelijk abonnement hebben. Het is niet bedoeld voor thuisgebruikers.
+Dit artikel is bedoeld Microsoft 365 beheerders die een zakelijk abonnement hebben. Het is niet bedoeld voor thuisgebruikers.
   
-Een primair e-mailadres in Microsoft 365 is meestal het e-mailadres dat aan een gebruiker is toegewezen toen zijn account werd gemaakt. Wanneer de gebruiker een e-mail naar iemand anders verzendt, wordt zijn primaire e-mailadres meestal weergegeven in het veld  *Van*  in e-mailapps. Ze kunnen ook meerdere e-mailadressen hebben die zijn gekoppeld aan hun Microsoft 365 voor Bedrijven-account. Deze extra adressen worden aliassen genoemd. 
+Een primair e-mailadres in Microsoft 365 is meestal het e-mailadres dat aan een gebruiker is toegewezen toen zijn account werd gemaakt. Wanneer de gebruiker een e-mail naar iemand anders verzendt, wordt zijn primaire e-mailadres meestal weergegeven in het veld  *Van*  in e-mailapps. Ze kunnen ook meer dan één e-mailadres hebben dat is gekoppeld aan Microsoft 365 account voor bedrijven. Deze extra adressen worden aliassen genoemd. 
   
 Stel dat Jenna het e-mailadres jenna@contosoco.com, maar ze wil ook e-mail ontvangen bij jen@contosoco.com omdat sommige mensen naar haar verwijzen met die naam. U kunt aliassen voor haar maken, zodat beide e-mailadressen naar het Postvak IN van Jenna gaan.
 <br><br>  
@@ -53,7 +53,7 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer op **de pagina** Actieve gebruikers de gebruiker > **E-mailalias beheren.** U ziet deze optie niet als de persoon geen licentie aan hem of haar heeft toegewezen. 
+2. Selecteer op **de pagina** Actieve gebruikers de gebruiker > Gebruikersnaam en e-mail **beheren.** U ziet deze optie niet als de persoon geen licentie aan hem of haar heeft toegewezen. 
     
 3. Selecteer **+ Een alias toevoegen** en voer een nieuwe alias voor de gebruiker in.   
     
@@ -65,17 +65,17 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365](../setup/add-domain.md)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365.](../setup/add-domain.md) 
   
      
 5. Wanneer u klaar bent, kiest u **Wijzigingen opslaan.**
     
-6. Wacht 24 uur totdat de nieuwe aliassen worden ingevuld in Microsoft 365.
+6. Wacht 24 uur totdat de nieuwe aliassen in de hele Microsoft 365.
     
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar het primaire adres van Eliza Hoffman wordt verzonden, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, gaat bijvoorbeeld naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van de Outlook-client. De webversie van Outlook gebruikt de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook Desktop gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt via de bureaubladversie van Outlook, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
+7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van Outlook client. Outlook op internet gebruikt u de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook bureaublad gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt met Outlook bureaublad, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
     
 ::: moniker-end
 
@@ -97,16 +97,16 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365](../setup/add-domain.md)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365.](../setup/add-domain.md) 
 
 5. Wanneer u klaar bent, selecteert u **Opslaan.**
 
-6. Wacht 24 uur totdat de nieuwe aliassen worden ingevuld in Microsoft 365. 
+6. Wacht 24 uur totdat de nieuwe aliassen in de hele Microsoft 365. 
     
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar het primaire adres van Eliza Hoffman wordt verzonden, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, gaat bijvoorbeeld naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van de Outlook-client. De webversie van Outlook gebruikt de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook Desktop gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt via de bureaubladversie van Outlook, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
+7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van Outlook client. Outlook op internet gebruikt u de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook bureaublad gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt met Outlook bureaublad, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -128,16 +128,16 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365](../setup/add-domain.md)als u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365.](../setup/add-domain.md) 
 
 5. Wanneer u klaar bent, selecteert u **Opslaan.**
 
-6. Wacht 24 uur totdat de nieuwe aliassen worden ingevuld in Microsoft 365. 
+6. Wacht 24 uur totdat de nieuwe aliassen in de hele Microsoft 365. 
     
     De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar het primaire adres van Eliza Hoffman wordt verzonden, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, gaat bijvoorbeeld naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van de Outlook-client. De webversie van Outlook gebruikt de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook Desktop gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt via de bureaubladversie van Outlook, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
+7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van Outlook client. Outlook op internet gebruikt u de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook bureaublad gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt met Outlook bureaublad, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -154,7 +154,7 @@ Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u n
 
 ## <a name="sending-email-from-the-proxy-address-easily"></a>Eenvoudig e-mail verzenden vanaf het proxyadres
 
-In april 2021 wordt een nieuwe functie uitgerold waarmee gebruikers eenvoudig vanuit hun aliassen kunnen verzenden wanneer ze de webversie van Outlook gebruiken. Wanneer de functie wordt uitrolt naar een tenancy waarbij de tenantbeheerder de cmdlet gebruikt, krijgen gebruikers binnen de huurperiode toegang tot een lijst met selectievakjes waarin elke vermelding overeenkomt met een alias in de `Set-OrganizationConfig -SendFromAliasEnabled $true` Outlook-instellingen. Als u een alias selecteert, wordt deze weergegeven in de vervolgkeuzekeuze in het formulier Opstellen.
+In april 2021 wordt een nieuwe functie uitgerold waarmee gebruikers eenvoudig vanuit hun aliassen kunnen verzenden wanneer ze Outlook op internet. Wanneer de functie wordt uitrolt naar een tenancy waarbij de tenantbeheerder de cmdlet gebruikt, krijgen gebruikers binnen de huurperiode toegang tot een lijst met selectievakjes waarin elke vermelding overeenkomt met een alias in de Outlook `Set-OrganizationConfig -SendFromAliasEnabled $true` instellingen. Als u een alias selecteert, wordt deze weergegeven in de vervolgkeuzekeuze in het formulier Opstellen.
   
 ## <a name="related-articles"></a>Verwante artikelen
 

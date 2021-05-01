@@ -10,25 +10,31 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: tugu
 search.appverid:
 - MET150
 description: Meer informatie over factureringsaccounts en hoe u deze beheert.
-ms.openlocfilehash: c2cf7584148bb846541328396885d20c00e2712a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: 504811e8cdfb84569a4bc3cea021c3c37030fca7
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911420"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107578"
 ---
 # <a name="manage-billing-accounts"></a>Factureringsaccounts beheren
 
 Er wordt een factureringsaccount gemaakt wanneer u zich abonneert om Microsoft-producten te proberen of te kopen. U gebruikt uw factureringsaccount om uw accountinstellingen, facturen, betalingsmethoden en aankopen te beheren. U hebt toegang tot meerdere factureringsaccounts. U hebt zich bijvoorbeeld rechtstreeks aangemeld voor Microsoft 365 of u hebt toegang tot de Enterprise Agreement, Microsoft Product & Services Agreement of Microsoft Customer Agreement van uw organisatie. Voor elk van deze scenario's hebt u een afzonderlijk factureringsaccount.
 
-Het Microsoft 365-beheercentrum ondersteunt momenteel het volgende type factureringsaccounts:
+Het Microsoft 365 beheercentrum ondersteunt momenteel het volgende type factureringsaccounts:
 
-- Microsoft Online Services Program: Dit factureringsaccount wordt gemaakt wanneer u zich rechtstreeks voor een Microsoft 365-abonnement registreert.
+- Microsoft Online Services Program: Dit factureringsaccount wordt gemaakt wanneer u zich rechtstreeks Microsoft 365 abonnement.
 - Microsoft Products & Services Agreement (MPSA) Program: Dit factureringsaccount wordt gemaakt wanneer uw organisatie een MPSA Volume Licensing-overeenkomst ondertekent om software en onlineservices te kopen.
 - Microsoft Customer Agreement: Dit factureringsaccount wordt gemaakt wanneer uw organisatie werkt met een Microsoft-vertegenwoordiger, een geautoriseerde partner of onafhankelijk van elkaar aankopen doet.
 
@@ -63,16 +69,16 @@ In deze sectie worden de verzendadressen vermeld die zijn gekoppeld aan uw factu
 
 ## <a name="understand-access-to-billing-accounts"></a>Toegang tot factureringsaccounts begrijpen
 
-U kunt anderen toegang geven tot het factureringsaccount in het Microsoft 365-beheercentrum via rollen en machtigingen. Alleen een eigenaar van een factureringsaccount kan toegang verlenen tot een factureringsaccount. U kunt een van de volgende rollen toewijzen aan gebruikers:
+U kunt anderen toegang geven tot het factureringsaccount in het Microsoft 365 via rollen en machtigingen. Alleen een eigenaar van een factureringsaccount kan toegang verlenen tot een factureringsaccount. U kunt een van de volgende rollen toewijzen aan gebruikers:
 
 - **Eigenaar factureringsaccount** &mdash; Kan machtigingen toewijzen, accounts bewerken, overeenkomsten ondertekenen en accounts weergeven.
 - **Factureringsaccountbetaler** &mdash; Kan accounts bewerken, overeenkomsten ondertekenen en accounts weergeven.
 - **Factureringsaccountlezer** &mdash; Accounts kunnen worden bekeken.
 
 > [!Note]
-> Factureringsaccountrollen zijn alleen van toepassing op factureringsaccounts en zijn niet van toepassing op andere scenario's van het Microsoft 365-beheercentrum.
+> Factureringsaccountrollen zijn alleen van toepassing op factureringsaccounts en zijn niet van toepassing op andere scenario's Microsoft 365 beheercentrum.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Belastinggegevens](billing-and-payments/tax-information.md) (artikel) \
 [Factureringsprofielen begrijpen](billing-and-payments/manage-billing-profiles.md) (artikel)

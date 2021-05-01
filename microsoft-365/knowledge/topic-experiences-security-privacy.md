@@ -10,16 +10,16 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het plannen van microsoft Viva-onderwerpen voor beveiliging en privacy
-ms.openlocfilehash: 91d0d5c25502a1938976b9457f8a5dafc6ab957b
-ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
+ms.openlocfilehash: 587b6a2921e7d1a3cc8d4ab663ff199fdd36871d
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50994544"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114060"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Microsoft Viva-onderwerpen beveiliging en privacy
 
-Onderwerpen maken gebruik van bestaande functies voor inhoudsbeveiliging in Microsoft 365, samen met beheerbesturingselementen, om te bepalen welke ai-gegenereerde inhoud wordt weergegeven aan gebruikers in uw organisatie. Het is de combinatie van beveiligingsinstellingen van Microsoft 365 (machtigingen voor sites, bestanden en mappen) en instellingen voor onderwerpenbeheerder die bepalen wat een bepaalde gebruiker kan zien in onderwerpen.
+Onderwerpen maken gebruik van bestaande inhoudsbeveiligingsfuncties in Microsoft 365, samen met beheerbesturingselementen, om te bepalen welke door AI gegenereerde inhoud wordt weergegeven aan gebruikers in uw organisatie. Het is de combinatie van Microsoft 365 beveiligingsinstellingen (machtigingen voor sites, bestanden en mappen) en instellingen voor onderwerpenbeheerder die bepalen wat een bepaalde gebruiker kan zien in onderwerpen.
 
 Het instellen van Onderwerpen wijzigt geen bestaande toegangsbesturingselementen voor inhoud in uw organisatie. Gebruikers zien alleen waar ze al toegang toe hebben.
 
@@ -60,13 +60,13 @@ In de volgende tabel wordt beschreven wat gebruikers - kijkers van onderwerpen, 
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
-Onderwerpen bevatten informatie voor gebruikers op basis van hun bestaande machtigingen voor inhoud. Microsoft 365 biedt verschillende manieren om ervoor te zorgen dat gevoelige inhoud is beperkt tot de juiste gebruikers. Naast standaardmachtigingen voor teams [](../compliance/sensitivity-labels.md) of site's, kunt u gevoeligheidslabels of preventie van gegevensverlies gebruiken om de toegang tot inhoud te beperken en beoordelingen te openen om de toegang van gebruikers tot gevoelige informatie regelmatig te controleren. [](../compliance/data-loss-prevention-policies.md) [](/azure/active-directory/governance/access-reviews-overview)
+Onderwerpen bevatten informatie voor gebruikers op basis van hun bestaande machtigingen voor inhoud. Microsoft 365 biedt verschillende manieren om ervoor te zorgen dat gevoelige inhoud is beperkt tot de juiste gebruikers. Naast standaardmachtigingen voor teams [](../compliance/sensitivity-labels.md) of site's, kunt u gevoeligheidslabels of preventie van gegevensverlies gebruiken om de toegang tot inhoud te beperken en beoordelingen te openen om de toegang van gebruikers tot gevoelige informatie regelmatig te controleren. [](../compliance/dlp-learn-about-dlp.md) [](/azure/active-directory/governance/access-reviews-overview)
 
 U wordt aangeraden deze hulpprogramma's te gebruiken om ervoor te zorgen dat uw inhoudsmachtigingen op de juiste manier zijn ingesteld binnen uw organisatie. Onderwerpervaringen kunnen uw gebruikers dan nuttige en juiste informatie bieden.
 
 Als er onderwerpen zijn die u volledig wilt uitsluiten van onderwerpervaringen, kunt u ook:
 
-- [Sluit gevoelige SharePoint-sites uit van onderwerpdetectie.](topic-experiences-discovery.md#select-sharepoint-topic-sources) Inhoud op deze sites wordt niet weergegeven in onderwerpervaringen.
+- [Sluit gevoelige SharePoint sites uit van onderwerpdetectie.](topic-experiences-discovery.md#select-sharepoint-topic-sources) Inhoud op deze sites wordt niet weergegeven in onderwerpervaringen.
 
 - [Sluit onderwerpen op naam uit.](topic-experiences-discovery.md#exclude-topics-by-name) Onderwerpen die expliciet zijn uitgesloten, worden niet weergegeven in onderwerpervaringen.
 

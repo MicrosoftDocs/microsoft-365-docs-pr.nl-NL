@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
 description: Informatie over veranderingen uit het Office 365 Beveiligings- en compliancecentrum aan het Microsoft 365-beveiligingscentrum.
-keywords: Microsoft 365-beveiliging, Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, nieuwe beveiligingsportal, nieuwe defender-beveiligingsportal
+keywords: 'Microsoft 365 beveiliging: Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, nieuwe beveiligingsportal, nieuwe defender-beveiligingsportal'
 ms.date: 02/21/2021
 ms.author: tracyp
 author: msfttracyp
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: b5decd562509d134899b85b380791087a913cd58
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: a0ab671f879119c1ab490bcb726f08224e59bfdd
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943063"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114410"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
 
@@ -66,7 +66,7 @@ Controleer ook de sectie **Relevante informatie** onderaan dit artikel.
 > Het Microsoft 365-beveiligingsportaal (https://security.microsoft.com) combineert beveiligingsfuncties in https://securitycenter.windows.com en https://protection.office.com. Wat je te zien krijgt hangt echter af van het abonnement. Als je bijvoorbeeld enkel Microsoft Defender voor Office 365 Plan 1 of 2 hebt als alleenstaande abonnementen, zal je geen functies voor Beveiliging voor eindpunten te zien krijgen en klanten van Defender voor Office Plan 1 zullen geen items te zien krijgen zoals Dreigingsanalyse.
 
 > [!TIP]
->  Alle EOP-functies (Exchange Online Protection) worden opgenomen in het Microsoft 365-beveiligingscentrum, omdat EOP een kernelement is van Defender voor Office 365.
+>  Alle Exchange Online Protection (EOP)-functies worden opgenomen in het Microsoft 365 beveiligingscentrum, omdat EOP een kernelement is van Defender voor Office 365.
 
 ## <a name="microsoft-365-security-center-home-page"></a>Startpagina van Microsoft 365-beveiligingscentrum
 
@@ -74,7 +74,7 @@ De startpagina van de portaaloppervlakken:
 
 - Secure Score beoordelingen
 - het aantal gebruikers en apparaten die risico lopen
-- lijsten van actieve incidenten
+- actieve incidentwachtrij
 - lijsten van bevoegde OAuth-apps
 - statusgegevens van apparaat
 - tweets uit de feed van Twitter van beveiligingsanalyse van Microsoft.

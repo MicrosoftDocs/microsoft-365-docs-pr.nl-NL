@@ -15,16 +15,19 @@ ms.collection:
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: tugu
 search.appverid:
 - MET150
-description: Meer informatie over het bijwerken van uw factuuradressen voor Microsoft 365 voor Bedrijven. U kunt ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
-ms.openlocfilehash: 5d6e9eac3ef1caccb2672bfc7f46e8e5b9ac3721
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+description: Meer informatie over het bijwerken van uw factuuradressen Microsoft 365 voor bedrijven. U kunt ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
+ms.date: 04/07/2021
+ms.openlocfilehash: ea212d79ef28d5d387bdb5503c267d7cd5113786
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615409"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107192"
 ---
 # <a name="change-your-billing-addresses"></a>Uw factuuradressen wijzigen
 
@@ -108,7 +111,7 @@ Zie Uw factuur of factuur [](view-your-bill-or-invoice.md) weergeven en Uw factu
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 
-    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, zie Uw factuur bekijken of [Fapiaos voor Office 365 krijgen beheerd door 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
+    Als u gebruik maakt van Office 365 beheerd door 21Vianet in China, zie Uw factuur bekijken of [Fapiao's voor Office 365 beheerd door 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
 
 ::: moniker-end
 
@@ -158,7 +161,7 @@ U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheer
 
 3. Typ in **het deelvenster Gebruikersrollen** bewerken het alternatieve e-mailadres dat u wilt gebruiken en selecteer **Opslaan.**
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Uw factuur of factuur weergeven](view-your-bill-or-invoice.md)\
 [Uw factuur of factuur begrijpen](understand-your-invoice2.md)\

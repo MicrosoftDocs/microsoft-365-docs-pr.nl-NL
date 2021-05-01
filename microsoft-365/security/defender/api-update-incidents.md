@@ -1,6 +1,6 @@
 ---
 title: Api voor incidenten bijwerken
-description: Informatie over het bijwerken van incidenten met de Microsoft 365 Defender API
+description: Informatie over het bijwerken van incidenten met Microsoft 365 Defender API
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 549f9bf2b9dc2ea5d1c734a809ad10a168c8123e
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d6872a7a4b1b2d2c131066076af02a65b4ef6d8a
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51056663"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107602"
 ---
 # <a name="update-incidents-api"></a>Api voor incidenten bijwerken
 
@@ -51,7 +51,7 @@ Als uw aanvraag wordt beperkt, wordt er een `429` antwoordcode retourneerd. De a
 
 ## <a name="permissions"></a>Machtigingen
 
-Een van de volgende machtigingen is vereist om deze API te bellen. Zie Access the Microsoft 365 Defender APIs (Toegang tot de [Microsoft 365 Defender-API's)](api-access.md)voor meer informatie, inclusief het kiezen van machtigingen.
+Een van de volgende machtigingen is vereist om deze API te bellen. Zie [Access the Microsoft 365 Defender API's (Access the Microsoft 365 Defender API's ) voor meer informatie,](api-access.md)inclusief het kiezen van machtigingen.
 
 Machtigingstype | Machtiging | Weergavenaam machtiging
 -|-|-
@@ -80,10 +80,10 @@ In de aanvraagt u de waarden voor de velden die moeten worden bijgewerkt. Bestaa
 
 Eigenschap | Type | Beschrijving
 -|-|-
-status | Enum | Hiermee geeft u de huidige status van de waarschuwing op. Mogelijke waarden zijn: ```Active``` ```Resolved``` , en ```Redirected``` .
+status | Enum | Hiermee geeft u de huidige status van het incident op. Mogelijke waarden zijn: ```Active``` ```Resolved``` , en ```Redirected``` .
 toegewezenTo | tekenreeks | Eigenaar van het incident.
-classificatie | Enum | Specificatie van de waarschuwing. Mogelijke waarden zijn: ```Unknown``` ```FalsePositive``` , , ```TruePositive``` .
-bepaling | Enum | Hiermee geeft u de bepaling van de waarschuwing op. Mogelijke waarden zijn: ```NotAvailable``` , , , , , , ```Apt``` ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` . ```Other```
+classificatie | Enum | Specificatie van het incident. Mogelijke waarden zijn: ```Unknown``` ```FalsePositive``` , , ```TruePositive``` .
+bepaling | Enum | Hiermee geeft u de bepaling van het incident op. Mogelijke waarden zijn: ```NotAvailable``` , , , , , , ```Apt``` ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` . ```Other```
 tags | lijst met tekenreeksen | Lijst met incidentlabels.
 
 ## <a name="response"></a>Antwoord
@@ -114,7 +114,7 @@ Hier is een voorbeeld van de aanvraag.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [De Microsoft 365 Defender-API's openen](api-access.md)
+- [Toegang tot Microsoft 365 Defender-API's](api-access.md)
 - [Meer informatie over API-limieten en -licenties](api-terms.md)
 - [Foutcodes begrijpen](api-error-codes.md)
 - [API's voor incidenten](api-incident.md)

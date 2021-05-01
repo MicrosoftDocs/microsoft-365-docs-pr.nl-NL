@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15ee02d90e81c48bf5ec718e669bf8f88f6424ff
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 12ff9834e2853c1745c20847f869bc2cba4e082e
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934775"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114268"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Microsoft Defender voor eindpunt implementeren op Linux met Ansible
 
@@ -49,13 +49,13 @@ Voordat u aan de slag gaat, bekijkt u de [hoofdpagina](microsoft-defender-endpoi
 
 Bovendien moet u voor Ansible-implementatie bekend zijn met Ansible-beheertaken, Ansible configureren en weten hoe u playbooks en taken implementeert. Ansible heeft veel manieren om dezelfde taak uit te voeren. In deze instructies wordt ervan uitgenomen dat ondersteunde Ansible-modules beschikbaar zijn, zoals *apt* en *unarchive om* het pakket te implementeren. Uw organisatie kan een andere werkstroom gebruiken. Raadpleeg de [Ansible-documentatie](https://docs.ansible.com/) voor meer informatie.
 
-- Ansible moet op ten minste één computer zijn geïnstalleerd (we noemen het de primaire computer).
-- SSH moet zijn geconfigureerd voor een beheerdersaccount tussen de primaire computer en alle clients, en het wordt aanbevolen te configureren met openbare sleutelverificatie.
-- De volgende software moet op alle clients zijn geïnstalleerd:
+- Ansible moet op ten minste één computer zijn geïnstalleerd (Ansible noemt dit het besturingselement knooppunt).
+- SSH moet zijn geconfigureerd voor een beheerdersaccount tussen het knooppunt van het besturingselement en alle beheerde knooppunten (apparaten waar Defender voor Eindpunt op is geïnstalleerd) en het wordt aanbevolen om te worden geconfigureerd met verificatie met openbare sleutel.
+- De volgende software moet zijn geïnstalleerd op alle beheerde knooppunten:
   - krul
   - python-apt
 
-- Alle hosts moeten worden weergegeven in de volgende indeling in het `/etc/ansible/hosts` of relevante bestand:
+- Alle beheerde knooppunten moeten worden weergegeven in de volgende indeling in het `/etc/ansible/hosts` of relevante bestand:
 
     ```bash
     [servers]
@@ -71,13 +71,13 @@ Bovendien moet u voor Ansible-implementatie bekend zijn met Ansible-beheertaken,
 
 ## <a name="download-the-onboarding-package"></a>Het onboarding-pakket downloaden
 
-Download het onboarding-pakket van het Microsoft Defender-beveiligingscentrum:
+Download het onboarding-pakket van Microsoft Defender-beveiligingscentrum:
 
-1. Ga in het Microsoft Defender-beveiligingscentrum naar **Instellingen > Apparaatbeheer > Onboarding.**
+1. Ga Microsoft Defender-beveiligingscentrum naar Instellingen > **Device Management > Onboarding.**
 2. Selecteer in de eerste vervolgkeuzelijst **Linux Server** als besturingssysteem. Selecteer in de tweede vervolgkeuzelijst **Uw voorkeursprogramma** voor configuratiebeheer voor Linux als implementatiemethode.
 3. Selecteer **Onboarding-pakket downloaden.** Sla het bestand op als WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Schermafbeelding van het Microsoft Defender-beveiligingscentrum](images/atp-portal-onboarding-linux-2.png)
+    ![Microsoft Defender-beveiligingscentrum schermafbeelding](images/atp-portal-onboarding-linux-2.png)
 
 4. Controleer in een opdrachtprompt of u het bestand hebt. Haal de inhoud van het archief op:
 

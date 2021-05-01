@@ -14,21 +14,24 @@ ms.collection:
 - Adm_O365
 search.appverid:
 - MET150
-description: Meer informatie over het kopen en beheren van invoegtoepassingen voor uw Microsoft 365 voor Bedrijven-abonnement.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- Commerce
-ms.openlocfilehash: b470fb727ed55ba066cd0371e2e707c72b50ae99
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+- commerce_purchase
+- PPM_jmueller
+ms.reviewer: jkinma
+description: Meer informatie over het kopen en beheren van invoegtoepassingen voor uw Microsoft 365 abonnement voor bedrijven.
+ms.date: 04/02/2021
+ms.openlocfilehash: c0b5a76f8690c64723782640738ac3817bc64714
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576923"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107434"
 ---
 # <a name="buy-or-manage-add-ons"></a>Invoegtoepassingen kopen of beheren
 
-Veel Abonnementen van Microsoft 365 voor Bedrijven hebben invoegtoepassingen die u kunt kopen voor uw abonnementen. Invoegtoepassingen bieden meer functies om uw abonnementservaring te verbeteren.
+Veel Microsoft 365 voor zakelijke abonnementen hebben invoegtoepassingen die u kunt kopen voor uw abonnementen. Invoegtoepassingen bieden meer functies om uw abonnementservaring te verbeteren.
 
 Er zijn twee typen invoegtoepassingen:
 
@@ -43,7 +46,7 @@ U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel u
 
 Gebruik de volgende stappen om invoegtoepassingen te zoeken en te kopen. De lijst bevat alleen invoegtoepassingen die voor u beschikbaar zijn. Deze lijst is gebaseerd op uw momenteel actieve abonnementen en eventuele andere bestaande invoegtoepassingen die u al hebt. Als een invoegvoegvoeging niet in de lijst staat, is deze niet beschikbaar om te kopen.
 
-Zie Skype voor Bedrijven- en Microsoft Teams-uitbreidingslicenties voor meer informatie over skype [voor Bedrijven-invoegtoepassingen.](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+Zie voor meer Skype voor Bedrijven invoegtoepassingen Skype voor Bedrijven [en Microsoft Teams invoegtoepassingen.](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 
 1. Ga in het beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Factureringsaankoopservices.</a>
 2. Zoek onder aan de **pagina** Services  aanschaffen in de sectie Invoegtoepassingen de invoegtoepassingen die u wilt kopen en selecteer **Details.**
@@ -70,7 +73,7 @@ Als u een zelfstandig invoegabonnement wilt verwijderen, annuleert u het [abonne
 
 U kunt een traditionele invoeging niet verwijderen. Als u een traditionele invoeging wilt verwijderen, [neemt u contact op met ondersteuning voor hulp.](../admin/contact-support-for-business-products.md)
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Opslagruimte toevoegen voor uw abonnement](add-storage-space.md) (artikel)\
 [Abonnementslicenties kopen](licenses/buy-licenses.md) of verwijderen (artikel)\

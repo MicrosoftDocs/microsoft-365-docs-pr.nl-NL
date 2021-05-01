@@ -12,27 +12,27 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commcerce_billing
+- PPM_jmueller
+ms.reviewer: tugu
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- GEA150
-ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Meer informatie over het aanbrengen van wijzigingen in uw organisatieprofiel, zoals organisatienaam, adres, telefoon, technische contactpersoon en e-mail.
-ms.openlocfilehash: 93f0777ba5f1cd20cca6e286a4b4366c403fc9da
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.date: 03/30/2021
+ms.openlocfilehash: d27ad65b9f58d4da6c01b32c9441c0296a17e3bd
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470557"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107012"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Het adres en de technische contactpersoon van uw organisatie en meer wijzigen
   
 U kunt wijzigingen aanbrengen in uw organisatieprofiel, zoals de naam, het adres, de telefoon en de technische contactpersoon van uw organisatie. **U moet een globale beheerder zijn om deze informatie bij te werken.**
   
-Zie Uw factuuradressen voor [Microsoft 365](../../commerce/billing-and-payments/change-your-billing-addresses.md)voor Bedrijven wijzigen als u het adres wilt wijzigen dat aan uw factuur of abonnement is gekoppeld.
+Zie Uw factuuradressen wijzigen voor Microsoft 365 voor Bedrijven als u het adres wilt wijzigen dat is gekoppeld aan uw factuur [of abonnement.](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
 ## <a name="edit-organization-information"></a>Organisatiegegevens bewerken
 
@@ -41,7 +41,7 @@ Zie Uw factuuradressen voor [Microsoft 365](../../commerce/billing-and-payments/
 
 Andere informatie op de profielpagina van uw bedrijf wijzigen:
   
-1. Ga in het beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**organisatie-instellingen.**</a>
+1. Ga in het beheercentrum naar de **pagina Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**Organisatie-instellingen.**</a>
 
 2. Selecteer op **het tabblad** Organisatieprofiel de optie **Organisatiegegevens.**
 
@@ -53,18 +53,18 @@ Hieronder vindt u een beschrijving van elk veld.
 
 |**Veld**  |**Beschrijving**  |
 |---------|---------|
-|Naam  <br/>   | De naam die u hier opgeeft, wordt voor gebruikers weergegeven op de volgende pagina's:  <br/>  Aanmeldingspagina: als uw gebruikers andere Microsoft-accounts hebben ingesteld met hun e-mailadres van het bedrijf of de school, zien ze mogelijk de naam van de organisatie op de aanmeldingspagina. Op deze manier kunnen ze onderscheid maken tussen hun werk- of schoolaccount en hun andere accounts, zodat ze weten welk account ze moeten gebruiken wanneer ze zich aanmelden.  <br/>  Profielkoppeling en -pagina van organisatie: de koppeling naar het profiel van uw organisatie bevat de naam van de organisatie.  <br/>  Yammer-navigatie: In Yammer gebruikt de linkernavigatie de naam van de organisatie als de naam van het yammer-thuisnetwerk.  <br/> OneDrive-synchronisatieclient: de naam van de organisatie wordt weergegeven in Verkenner in Windows en Finder op Mac, de bestandspaden, het OneDrive-activiteitencentrum, de knopinfo van het OneDrive-cloudpictogram en het oneDrive-instellingenvenster. Momenteel wordt de naam van de organisatie niet bijgewerkt voor geconfigureerde clients. <br/> MS Teams: Organisatiewisselaar in Teams geeft de naam van de organisatie weer <br/>  |
-|Adres, plaats, provincie, postcode  <br/>     | Het adres dat hier wordt ingevoerd, ziet u op uw factuur, onder Verkocht aan: Het adres Verkocht aan op uw factuur is hetzelfde als het adres van uw organisatie op uw profielpagina (zie Uw factuur of factuur voor [Microsoft 365](../../commerce/billing-and-payments/understand-your-invoice2.md)voor Bedrijven begrijpen).  <br/>        |
+|Naam  <br/>   | De naam die u hier opgeeft, wordt voor gebruikers weergegeven op de volgende pagina's:  <br/>  Aanmeldingspagina: als uw gebruikers andere Microsoft-accounts hebben ingesteld met hun e-mailadres van het bedrijf of de school, zien ze mogelijk de naam van de organisatie op de aanmeldingspagina. Op deze manier kunnen ze onderscheid maken tussen hun werk- of schoolaccount en hun andere accounts, zodat ze weten welk account ze moeten gebruiken wanneer ze zich aanmelden.  <br/>  Profielkoppeling en -pagina van organisatie: de koppeling naar het profiel van uw organisatie bevat de naam van de organisatie.  <br/>  Yammer navigatie: In Yammer gebruikt de linkernavigatie de naam van de organisatie als de naam van het Yammer netwerk.  <br/> OneDrive synchronisatieclient: De naam van de organisatie wordt weergegeven in Verkenner op Windows en Finder op Mac, de bestandspaden, het activiteitencentrum van OneDrive, de knopinfo van het OneDrive-cloudpictogram en het OneDrive-instellingenvenster. Momenteel wordt de naam van de organisatie niet bijgewerkt voor geconfigureerde clients. <br/> MS Teams: Organisatiewisselaar in Teams geeft de naam van de organisatie weer <br/>  |
+|Adres, plaats, provincie, postcode  <br/>     | Het adres dat hier wordt ingevoerd, wordt weergegeven op uw factuur, onder Verkocht aan: Het adres Verkocht aan op uw factuur is hetzelfde als het adres van uw organisatie op uw profielpagina (zie Uw factuur of factuur voor [Microsoft 365](../../commerce/billing-and-payments/understand-your-invoice2.md)voor Bedrijven begrijpen).  <br/>        |
 |Land of regio  <br/>    | Dit is het land of de regio waarin het bedrijf is gevestigd. Via het geselecteerde land of de geselecteerde regio wordt bepaald welke services beschikbaar zijn voor u, welke belastingen en factureringsvaluta voor uw land of regio worden gebruikt en wat het dichtstbijzijnde datacentrum voor u is (zie [Gebruiksrechtbeperkingen voor Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>OPMERKING: Nadat u het land of de regio hebt geselecteerd, kan het land of de regio niet worden gewijzigd. Als u de selectie wilt wijzigen, moet u uw abonnement opzeggen en u opnieuw aanmelden. Neem contact op met [ondersteuning voor hulp bij dit proces.](../contact-support-for-business-products.md)        |
 |Telefoon  <br/>     | Dit is het primaire nummer voor uw bedrijf. Dit is meestal het nummer van het hoofdkantoor van het bedrijf.  <br/>        |
-|Technische contactpersoon  <br/> |Dit is het e-mailadres van de primaire technische persoon die uw Microsoft 365-abonnement beheert. Dit is de persoon die berichten ontvangt over de servicestatus van Microsoft 365.  <br/> |
+|Technische contactpersoon  <br/> |Dit is het e-mailadres van de primaire technische persoon die uw Microsoft 365 beheert. Dit is de persoon die berichten ontvangt over Microsoft 365 servicestatus.  <br/> |
 |Voorkeurstaal  <br/> |Met de voorkeurstaal wordt de taal bepaald voor alle informatie die Microsoft naar uw organisatie stuurt. Wanneer u zich registreert, bepaalt deze instelling de taal die wordt gebruikt door SharePoint Online en die uw gebruikers zien op de teamsite. Als u de voorkeurstaal wijzigt nadat u zich hebt geregistreerd, wordt alle toekomstige informatie verzonden in de laatst geselecteerde taal.    <br/> OPMERKING: De taal die door SharePoint Online wordt gebruikt, kan niet worden gewijzigd.           |
 
 ## <a name="change-your-alternate-email-address"></a>Uw alternatieve e-mailadres wijzigen
 
 Als beheerder kunt u uw alternatieve e-mailadres wijzigen voor het opnieuw instellen van wachtwoorden.
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum.</a>
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 beheercentrum.</a>
 
 2. Selecteer in de koptekst het profielpictogram en selecteer vervolgens **Account weergeven.**
 

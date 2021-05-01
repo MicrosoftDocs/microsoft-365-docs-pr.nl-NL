@@ -10,17 +10,23 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
+ms.reviewer: tugu
 search.appverid:
 - MET150
 description: Lees hoe u met microsoft-gecertificeerde oplossingsproviders (partners) producten en services voor uw organisatie of school kunt kopen en beheren.
-ms.openlocfilehash: f4c270e179a3d52616f6d7efb049beac4d1a8e03
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.date: 04/13/2021
+ms.openlocfilehash: e225fa0c525d484e8c5a3887b82277a1da5861b0
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51749852"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107566"
 ---
 # <a name="manage-partner-relationships"></a>Partnerrelaties beheren
 
@@ -28,7 +34,7 @@ U kunt samenwerken met microsoft-gecertificeerde oplossingsproviders (partners) 
 
 1. Beheerders zoeken en nemen contact op met een partner via het formulier op <a href="https://www.microsoft.com/solution-providers/home" target="_blank">https://www.microsoft.com/solution-providers/home</a> .
 2. Partners sturen een e-mailverzoek naar klanten om een partnerrelatie tot stand te brengen.
-3. Klanten accepteren de uitnodiging in het Microsoft 365-beheercentrum en gaan met de partner werken.
+3. Klanten accepteren de uitnodiging in Microsoft 365 beheercentrum en gaan met de partner werken.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -38,12 +44,12 @@ U moet een globale beheerder of factureringsbeheerder zijn om deze stappen uit t
 
 Er zijn verschillende manieren waarop een partner met u kan werken. Op basis van uw opgegeven zakelijke behoeften, kiezen ze een van deze typen wanneer ze hun verzoek verzenden om met u samen te werken.
 
-| Partnertype | Omschrijving |
+| Partnertype | Beschrijving |
 | ------ | ------------------- |
 | Wederverkoper | Partners die Microsoft-producten verkopen aan uw organisatie of school. |
 | Gedelegeerde beheerder | Partners die producten en services voor uw organisatie of school beheren. In Azure Active Directory (AD) is de partner een globale beheerder voor uw tenant. Met deze rol kunnen ze services beheren, zoals het maken van gebruikersaccounts, het toewijzen en beheren van licenties en het opnieuw instellen van wachtwoorden. |
 | Reseller & gedelegeerde beheerder | Partners die Microsoft-producten en -services verkopen en beheren aan uw organisatie of school. |
-| Partner | U geeft uw partner een gebruikersaccount in uw tenant en deze werkt namens u met andere Microsoft-services. |
+| Partner | U geeft uw partner een gebruikersaccount in uw tenant en ze werken met andere Microsoft-services namens u. |
 | Adviseur | Partners kunnen wachtwoorden opnieuw instellen en ondersteuningsincidenten voor u afhandelen. |
 | Microsoft Products & Services Agreement (MPSA) partner | Als u met meerdere partners hebt gewerkt via het MPSA-programma, kunt u toestaan dat ze aankopen van elkaar kunnen zien. |
 | Lob-partner (Line-of-Business) | Partners kunnen LOB-apps ontwikkelen, indienen en beheren die specifiek zijn voor uw organisatie of school. |
@@ -61,7 +67,7 @@ De partner neemt contact met u op en geeft u de mogelijkheid om meer over hen te
 
 Nadat u een partner hebt gevonden en met hen hebt gewerkt, sturen ze u een e-mailuitnodiging.
 
-1. Selecteer in het e-mailbericht de koppeling om naar het Microsoft 365-beheercentrum te gaan.
+1. Selecteer in het e-mailbericht de koppeling om naar het Microsoft 365 te gaan.
 2. Selecteer op **de pagina Overeenkomst accepteren & partner** machtigen de koppeling voor de **Microsoft-klantovereenkomst** en lees het document.
 3. Vink het selectievakje aan om te bevestigen dat u de overeenkomst hebt gelezen.
 4. Selecteer **Accepteren & Autor.**
@@ -71,7 +77,7 @@ Nadat u een partner hebt gevonden en met hen hebt gewerkt, sturen ze u een e-mai
 
 Als u al een partner hebt, maar nog geen Microsoft-klantovereenkomst hebt ondertekend, moet u de overeenkomst accepteren voordat deze namens u aankopen kan doen of uw abonnementen kan beheren.
 
-1. Als u een e-mailbericht van uw partner ontvangt, selecteert u de koppeling om naar het Microsoft 365-beheercentrum te gaan of gaat u naar de pagina <a href="https://go.microsoft.com/fwlink/?linkid=2116573" target="_blank">Overeenkomst accepteren.</a>
+1. Als u een e-mailbericht van uw partner ontvangt, selecteert u de koppeling om naar het Microsoft 365 beheercentrum te gaan of gaat u naar de pagina <a href="https://go.microsoft.com/fwlink/?linkid=2116573" target="_blank">Overeenkomst accepteren.</a>
 2. Selecteer de koppeling voor de **Microsoft-klantovereenkomst en** lees het document.
 3. Vink het selectievakje aan om te bevestigen dat u de overeenkomst hebt gelezen.
 4. Selecteer **Accepteren.**
@@ -85,7 +91,7 @@ Als u de beheerdersrollen niet aan de partner wilt geven, annuleert u de uitnodi
 
 U kunt beheerdersrollen op elk moment van een partner verwijderen. Als u de beheerdersrollen verwijdert, wordt de partnerrelatie niet verwijderd. Ze kunnen nog steeds met u werken in een andere capaciteit, zoals een wederverkoper. Als u besluit dat u niet meer met een partner wilt werken, neemt u contact op met uw partner om de relatie te beëindigen.
 
-1. Ga in het beheercentrum naar de **pagina Relaties met**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">partners</a> instellingen.
+1. Ga in het beheercentrum naar de **pagina Instellingen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">partnerrelaties.</a>
 2. Selecteer op **de pagina** Partnerrelaties de rij met de naam van de partner die u wilt verwijderen.
 3. Selecteer de rij met de naam van de partner.
 4. Selecteer rollen verwijderen op de **partnerpagina.**

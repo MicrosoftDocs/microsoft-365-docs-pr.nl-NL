@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze de portal Inzendingen in het beveiligings- & compliancecentrum kunnen gebruiken om verdachte e-mailberichten, vermoedelijke phishingmails, spam en andere potentieel schadelijke berichten, URL's en bestanden naar Microsoft te verzenden voor scannen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e0975d5b6c2d29c94a30f7bbc703221b80217761
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: d0b91808aa9008f467f66b8200f2c05a120fbcd9
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599873"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107228"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerdersinzending gebruiken om verdachte spam, phish, URL's en bestanden naar Microsoft te verzenden
 
@@ -35,7 +35,7 @@ ms.locfileid: "51599873"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 
 
-In Microsoft 365-organisaties met postvakken in Exchange Online kunnen beheerders de portal Inzendingen in het beveiligings- &-compliancecentrum gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft in te dienen voor scannen.
+In Microsoft 365 organisaties met postvakken in Exchange Online kunnen beheerders de portal Inzendingen in het beveiligings- &-compliancecentrum gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft in te dienen voor scannen.
 
 Wanneer u een e-mailbericht indient, krijgt u het volgende:
 
@@ -73,12 +73,12 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 1. Selecteer **e-mail** in de sectie **Objecttype.** Gebruik in **de sectie Inzendingsindeling** een van de volgende opties:
 
-   - **Netwerkbericht-id:** dit is een GUID-waarde die beschikbaar is in de **koptekst X-MS-Exchange-Organization-Network-Message-Id** in het bericht of in de **X-MS-Office365-Filtering-Correlation-Id-header** in in quarantaine geplaatste berichten.
+   - **Netwerkbericht-id:** dit is een GUID-waarde die beschikbaar is in de koptekst **X-MS-Exchange-Organization-Network-Message-Id** in het bericht of in de **koptekst X-MS-Office365-Filtering-Correlation-Id** in in quarantaine geplaatste berichten.
 
    - **Bestand:** Klik op **Bestand kiezen.** Zoek en selecteer in het dialoogvenster dat wordt geopend het .eml- of .msg-bestand en klik vervolgens op **Openen.**
 
    > [!NOTE]
-   > De mogelijkheid om berichten zo oud als 30 dagen in te dienen, is tijdelijk opgeschort voor Defender voor Office 365-klanten. Beheerders kunnen slechts 7 dagen teruggaan.
+   > De mogelijkheid om berichten zo oud als 30 dagen in te dienen, is tijdelijk opgeschort voor Defender voor Office 365 klanten. Beheerders kunnen slechts 7 dagen teruggaan.
 
 2. Geef in **de sectie Geadresseerden** een of meer geadresseerden op tegen wie u een beleidscontrole wilt uitvoeren. Met de beleidscontrole wordt bepaald of het scannen per e-mail is overgeslagen vanwege gebruikers- of organisatiebeleid.
 
@@ -90,7 +90,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 4. Wanneer u klaar bent, klikt u op de **knop** Verzenden.
 
-   ![Voorbeeld van URL-inzending](../../media/submission-flyout-email.PNG)
+   ![Voorbeeld van nieuwe URL-inzending](../../media/submission-flyout-email.PNG)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Een verdachte URL naar Microsoft verzenden
 
@@ -104,7 +104,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 3. Wanneer u klaar bent, klikt u op de **knop** Verzenden.
 
-   ![Voorbeeld van e-mail indienen](../../media/submission-url-flyout.png)
+   ![Voorbeeld van nieuwe e-mailinzending](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Een verdacht bestand indienen bij Microsoft
 
@@ -120,7 +120,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 4. Wanneer u klaar bent, klikt u op de **knop** Verzenden.
 
-   ![Voorbeeld van bijlageinzending](../../media/submission-file-flyout.PNG)
+   ![Voorbeeld van nieuwe bijlageinzending](../../media/submission-file-flyout.PNG)
 
 ## <a name="view-items-submitted-for-analysis"></a>Items weergeven die zijn ingediend voor analyse
 
@@ -136,9 +136,9 @@ Als u de filtercriteria wilt wijzigen, klikt u op de knop **Indiening-id** en ki
 - **Inzendingstype**
 - **Status**
 
-![Filteropties voor beheerdersinzendingen](../../media/admin-submission-email-filter-options.png)
+![Nieuwe filteropties voor beheerdersinzendingen](../../media/admin-submission-email-filter-options.png)
 
-Als u de resultaten wilt exporteren, **klikt** u boven aan de pagina op Exporteren en selecteert u **Grafiekgegevens** of **Tabel.** Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
+Als u de resultaten wilt exporteren, **klikt** u boven aan de pagina op Exporteren en selecteert u **Grafiekgegevens** of **Tabel.** Sla in het dialoogvenster dat wordt weergegeven het .csv op.
 
 Onder de grafiek vindt u drie tabbladen: **E-mail** (standaard), **URL** en **Bijlage.**
 
@@ -203,7 +203,7 @@ U kunt op de **knop Kolomopties** onder aan de pagina klikken om kolommen toe te
 
 ## <a name="view-user-submissions-to-microsoft"></a>Gebruikersinzendingen weergeven bij Microsoft
 
-Als u de invoegversie van rapportbericht, de [invoegversie](enable-the-report-message-add-in.md)van [Rapport phishing](enable-the-report-phish-add-in.md)of personen de ingebouwde rapportage in de  [webversie](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)van Outlook hebt geïmplementeerd, kunt u zien wat gebruikers rapporteren op het tabblad Gebruikersinzendingen.
+Als u de invoeging Rapportbericht , de [invoeging](enable-the-report-message-add-in.md) [Phishing](enable-the-report-phish-add-in.md)melden of personen de ingebouwde rapportage [in Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)op internet hebben  geïmplementeerd, kunt u zien wat gebruikers rapporteren op het tabblad Gebruikersinzendingen.
 
 1. Ga in het & Compliancecentrum naar **Threat management** \> **Submissions**.
 
@@ -230,9 +230,9 @@ Als u de filtercriteria wilt wijzigen, klikt u op de knop **Afzender** en kiest 
 - **Inzendingstype**
 - **Ip-afzender**
 
-![Filteropties voor gebruikersinzendingen](../../media/user-submissions-filter-options.png)
+![Nieuwe filteropties voor gebruikersinzendingen](../../media/user-submissions-filter-options.png)
 
-Als u de resultaten wilt exporteren, **klikt** u boven aan de pagina op Exporteren en selecteert u **Grafiekgegevens** of **Tabel.** Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
+Als u de resultaten wilt exporteren, **klikt** u boven aan de pagina op Exporteren en selecteert u **Grafiekgegevens** of **Tabel.** Sla in het dialoogvenster dat wordt weergegeven het .csv op.
 
 ## <a name="view-user-submissions-to-the-custom-mailbox"></a>Gebruikersinzendingen weergeven in het aangepaste postvak
 
@@ -253,7 +253,7 @@ U kunt op de **knop Kolomopties** onder aan de pagina klikken om kolommen toe te
 
 Boven aan de pagina kunt u een begindatum, een einddatum  en u kunt filteren op Ingediend door een waarde in het vak in te voeren en op knop ![ Vernieuwen te ](../../media/scc-quarantine-refresh.png) klikken. U kunt meerdere waarden invoeren die zijn gescheiden door komma's.
 
-Als u de resultaten wilt exporteren, **klikt** u boven aan de pagina op Exporteren en selecteert u **Grafiekgegevens** of **Tabel.** Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
+Als u de resultaten wilt exporteren, **klikt** u boven aan de pagina op Exporteren en selecteert u **Grafiekgegevens** of **Tabel.** Sla in het dialoogvenster dat wordt weergegeven het .csv op.
 
 > [!NOTE]
 > Als organisaties zijn geconfigureerd om alleen naar een aangepast postvak te verzenden, worden gerapporteerde berichten niet opnieuw verzonden en zijn de resultaten in de portal Gebruikers gerapporteerde berichten altijd leeg.
@@ -266,11 +266,11 @@ Wanneer een gebruiker een verdachte e-mail naar het aangepaste postvak heeft ver
 
 Als u het aangepaste postvak hebt geconfigureerd om door de gebruiker gerapporteerde berichten te onderscheppen zonder de berichten naar Microsoft te verzenden, kunt u specifieke berichten zoeken en verzenden naar Microsoft voor analyse. Hiermee wordt een inzending van een gebruiker daadwerkelijk verplaatst naar een beheerdersinzending.
 
-Selecteer op **het tabblad** Aangepast postvak een  bericht in de lijst, klik op de knop Actie en maak een van de volgende selecties:
+Selecteer op **het tabblad Gerapporteerde** berichten van gebruiker  een bericht in de lijst, klik op de knop Actie en maak een van de volgende selecties:
 
 - **Rapport opschoon**
 - **Phishing melden**
 - **Malware rapporteren**
 - **Spam rapporteren**
 
-![Opties op de knop Actie](../../media/user-submission-custom-mailbox-action-button.png)
+![Nieuwe opties op de knop Actie](../../media/user-submission-custom-mailbox-action-button.png)

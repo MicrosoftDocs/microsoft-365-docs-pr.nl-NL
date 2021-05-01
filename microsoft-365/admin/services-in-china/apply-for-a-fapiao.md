@@ -12,21 +12,23 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
-- commerce
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 - GEA150
-ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: Lees hoe u uw Fapiao-aanvraag kunt indienen bij het 21Vianet Fapiao-beheersysteem nadat u een betaling hebt uitgevoerd in de Office 365 beheerd door 21Vianet in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: d9f75dfd00bb547e9d2e0f53826e5bc50926de39
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.date: 03/30/2021
+ms.openlocfilehash: 1f2dec1ca224b7f8c6c22d5d9d0d2a0cac8630ea
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470951"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107458"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Een Fapiao aanvragen voor Office 365 beheerd door 21Vianet
 
@@ -44,12 +46,12 @@ Er zijn twee manieren om een Fapiao toe te passen:
 
 2. U kunt een Fapiao aanvragen vanuit het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum.</a>
 
-    ![De pagina Facturen in het Microsoft 365-beheercentrum.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
+    ![De pagina Facturen in het Microsoft 365 beheercentrum.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
   
 ## <a name="step-2-register-with-the-21vianet-fapiao-management-system"></a>Stap 2: Registreren met het 21Vianet Fapiao-beheersysteem
 
 > [!NOTE]
-> U kunt dezelfde e-mailnaam en hetzelfde wachtwoord gebruiken als uw Office 365-account, of u kunt iets anders gebruiken.
+> U kunt dezelfde e-mailnaam en hetzelfde wachtwoord gebruiken als Office 365 account of u kunt iets anders gebruiken.
   
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao-informatiebeheersysteem.</a>
 
