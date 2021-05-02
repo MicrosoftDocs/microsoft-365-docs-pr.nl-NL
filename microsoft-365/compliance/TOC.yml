@@ -235,8 +235,8 @@
       items:
         - name: Meer informatie over DLP
           items:
-            - name: Meer informatie over DLP
-              href: data-loss-prevention-policies.md
+            - name: Meer informatie over preventie van gegevensverlies
+              href: dlp-learn-about-dlp.md
             - name: Meer informatie over preventie van gegevensverlies van eindpunten
               href: endpoint-dlp-learn-about.md
             - name: Meer informatie over het standaard preventiebeleid voor gegevensverlies in Microsoft Teams (preview)
