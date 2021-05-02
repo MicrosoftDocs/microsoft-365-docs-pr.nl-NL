@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Meer informatie over beschikbare opties in Microsoft 365 om een veilige omgeving voor delen met gasten te maken, waarin gasten toegang krijgen voor verbeterde samenwerking.
-ms.openlocfilehash: 0eb999d48bc0976d7c2bb32ff1bdba8d63409d81
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a04ee4a96b5e9124ca94a4ece16c32ccc6b072d1
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918464"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114304"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -72,7 +72,7 @@ Nu moeten gasten zich eerst inschrijven voor meervoudige verificatie voordat ze 
 
 In sommige situaties hebben gasten mogelijk geen geheimhoudingsovereenkomsten of andere juridische overeenkomsten met uw organisatie ondertekend. U kunt instellen dat gasten een gebruiksrechtovereenkomst moeten accepteren, voordat ze toegang krijgen tot bestanden die met hen zijn gedeeld. De gebruiksvoorwaarden kunnen worden weergegeven wanneer ze de eerste keer proberen toegang te krijgen tot een gedeeld bestand of een gedeelde site.
 
-Als u gebruiksvoorwaarden wilt maken, moet u eerst het document maken in Word of een andere tekstverwerker en het vervolgens opslaan als een PDF-bestand. Dit bestand kan vervolgens worden geüpload naar Azure AD.
+Als u gebruiksvoorwaarden wilt maken, moet u eerst het document maken in Word of een andere tekstverwerker en het vervolgens opslaan als een PDF-bestand. Dit bestand kunt u vervolgens uploaden naar Azure Active Directory.
 
 Gebruiksvoorwaarden voor Azure AD maken
 
@@ -256,7 +256,7 @@ Als het beleid van kracht is, zal het beleid voor automatisch labellen, wanneer 
 
 ## <a name="create-a-dlp-policy-to-remove-guest-access-to-highly-sensitive-files"></a>Een DLP-beleid maken voor het verwijderen van gasttoegang tot zeer gevoelige bestanden
 
-U kunt [Preventie van gegevensverlies (DLP)](../compliance/data-loss-prevention-policies.md) gebruiken om het ongewenst delen van gevoelige inhoud met gasten te voorkomen. Preventie van gegevensverlies kan actie ondernemen op basis van het vertrouwelijkheidslabel van een bestand en gasttoegang verwijderen.
+U kunt [Preventie van gegevensverlies (DLP)](../compliance/dlp-learn-about-dlp.md) gebruiken om het ongewenst delen van gevoelige inhoud met gasten te voorkomen. Preventie van gegevensverlies kan actie ondernemen op basis van het vertrouwelijkheidslabel van een bestand en gasttoegang verwijderen.
 
 Een DLP-regel maken
 

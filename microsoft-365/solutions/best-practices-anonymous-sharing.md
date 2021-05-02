@@ -17,18 +17,18 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: In dit artikel vindt u informatie over de aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers.
-ms.openlocfilehash: acc825a8fc445d224fbc91dd12dace2a5e1b25c8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1e696611d37cd1b57f881457025464dccea54496
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199523"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114316"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers
 
 Niet-geverifieerd delen (*iedereen*-koppelingen) kunnen handig zijn en bruikbaar in verschillende scenario's. *Iedereen*-koppelingen zijn de gemakkelijkste manier om te delen: personen kunnen de koppeling zonder verificatie openen en deze aan anderen doorsturen.
 
-Meestal is niet alle inhoud van een organisatie geschikt voor niet-geverifieerd delen. Dit artikel behandelt de beschikbare opties om u te helpen een omgeving te creëren waarin uw gebruikers niet-geverifieerd delen van bestanden en mappen kunnen gebruiken, maar waar er waarborgen zijn om de inhoud van uw organisatie te helpen beschermen.
+Gewoonlijk is niet alle inhoud in een organisatie geschikt voor niet-geverifieerd delen. Dit artikel behandelt de beschikbare opties om u te helpen een omgeving te creëren waarin uw gebruikers niet-geverifieerd delen van bestanden en mappen kunnen gebruiken, maar waar er veiligheidsmaatregelen zijn getroffen om de inhoud van uw organisatie te helpen beschermen.
 
 > [!NOTE]
 > Om niet-geverifieerd delen te laten werken, moet u dit inschakelen voor uw organisatie en voor de individuele site of het team dat u gaat gebruiken. Zie [samenwerken met personen buiten uw organisatie](collaborate-with-people-outside-your-organization.md) voor het scenario dat u wilt inschakelen.
@@ -103,7 +103,7 @@ De standaardkoppeling voor het delen van bestanden en mappen instellen voor een 
 
 ## <a name="prevent-unauthenticated-sharing-of-sensitive-content"></a>Niet-geverifieerd delen van gevoelige inhoud voorkomen
 
-U kunt [Preventie van gegevensverlies (DLP)](../compliance/data-loss-prevention-policies.md) gebruiken om het niet-geverifieerd delen van gevoelige inhoud te voorkomen. Preventie van gegevensverlies kan actie ondernemen op basis van het vertrouwelijkheidslabel of retentielabel van het bestand of van de gevoelige informatie in het bestand zelf.
+U kunt [Preventie van gegevensverlies (DLP)](../compliance/dlp-learn-about-dlp.md) gebruiken om het niet-geverifieerd delen van gevoelige inhoud te voorkomen. Preventie van gegevensverlies kan actie ondernemen op basis van het vertrouwelijkheidslabel of retentielabel van het bestand of van de gevoelige informatie in het bestand zelf.
 
 Een DLP-regel maken
 1. Ga in het Microsoft 365-compliancecentrum naar de pagina [Preventie van gegevensverlies](https://compliance.microsoft.com/datalossprevention).

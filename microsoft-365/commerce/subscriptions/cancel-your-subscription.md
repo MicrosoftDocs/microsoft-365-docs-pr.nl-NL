@@ -12,20 +12,21 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
-- commerce
+- commerce_subscriptions
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 description: Lees hoe u uw proefabonnement of betaald abonnement op Microsoft 365 voor Bedrijven kunt opzeggen.
-ms.date: ''
-ms.openlocfilehash: 2163462ae206871d66155331096337c29d6a87c2
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.date: 04/08/2021
+ms.openlocfilehash: f052a08cfe0e7582690864556cfc3039d6caf99c
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644642"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107000"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -101,9 +102,9 @@ Als u een aangepast domein gebruikt met uw abonnement, moet u enkele extra stapp
 
 #### <a name="change-your-domain-nameserver-records-if-needed"></a>De naamserverrecords van uw domein wijzigen (indien nodig)
 
-Als u een aangepast domein hebt ingesteld, hebt u DNS-records toegevoegd, zodat het domein zou werken met Microsoft 365-services. Voordat u uw domein verwijdert, moet u de DNS-records, zoals de MX-record van uw domein, bijwerken bij uw DNS-host.
+Als u een aangepast domein hebt ingesteld, hebt u DNS-records toegevoegd, zodat het domein werkt met Microsoft 365-services. Voordat u uw domein verwijdert, moet u de DNS-records bijwerken, zoals de MX-record van uw domein, bij uw DNS-host.
 
-Wijzig bijvoorbeeld de MX-record bij uw DNS-host. E-mail die naar uw domein wordt verzonden, komt niet meer naar uw Microsoft-adres en gaat in plaats daarvan naar uw nieuwe e-mailprovider. (Door een MX-record wordt bepaald waarheen e-mail voor uw domein wordt verzonden.)
+Wijzig bijvoorbeeld de MX-record bij uw DNS-host, zodat e-mail die naar uw domein wordt verzonden niet meer naar uw Microsoft-adres gaat, maar naar uw nieuwe e-mailprovider. (Door een MX-record wordt bepaald waar e-mail voor uw domein naartoe wordt verzonden.)
 
 - Als uw naamserverrecords (NS-records) [wijzen naar Microsoft 365-naamservers](../../admin/setup/add-domain.md), worden wijzigingen van uw MX-record pas doorgevoerd nadat u uw NS-records zo hebt gewijzigd dat ze naar uw nieuwe DNS-host wijzen (zie stap 2).
 
@@ -121,7 +122,7 @@ Zie [Domein verwijderen](../../admin/get-help-with-domains/remove-a-domain.md) a
 
 ### <a name="save-your-data"></a>Uw gegevens opslaan
 
-Wanneer de opzegging van kracht wordt, hebben uw gebruikers geen toegang meer tot hun gegevens. Voordat u het abonnement opzegt, moeten ze hun OneDrive voor Bedrijven- of SharePoint Online-bestanden op een andere locatie opslaan. Klantgegevens die u achterlaat kunnen na 30 dagen worden verwijderd en zijn 180 dagen na de opzegging niet meer beschikbaar.
+Uw gebruikers hebben geen toegang meer tot hun gegevens wanneer de opzegging ingaat. Zorg ervoor dat uw gebruikers hun OneDrive voor Bedrijven- of SharePoint Online-bestanden op een andere locatie opslaan voordat u het abonnement opzegt. Klantgegevens die u achterlaat worden mogelijk 30 dagen of uiterlijk 180 dagen na de opzegging verwijderd.
 
 - Als u e-mail, contactpersonen, taken en agendagegevens naar een ander account wilt verplaatsen, raadpleegt u [E-mail, contactpersonen of agenda exporteren of hiervan een back-up maken naar een PST-bestand van Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 

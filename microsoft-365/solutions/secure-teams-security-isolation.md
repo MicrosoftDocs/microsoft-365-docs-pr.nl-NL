@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: 7c9b770c712d2468369482ba3a6256e57f621f74
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4d305e952d48d42afffe91466121c67621aa9d85
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51042684"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113400"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -60,8 +60,8 @@ Lees in [deze casestudy](contoso-team-for-top-secret-project.md) hoe Contoso Cor
 ## <a name="initial-protections"></a>Initiële bescherming
 
 Lees de volgende aanbevolen procedures om de toegang tot het team en de onderliggende SharePoint-site te beveiligen:
-- [Beleid voor identiteiten en apparaattoegang](../security/defender-365-security/identity-access-policies.md)
-- [Beleid voor toegang tot SharePoint Online](../security/defender-365-security/sharepoint-file-access-policies.md)
+- [Beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
+- [Beleid voor toegang tot SharePoint Online](../security/office-365-security/sharepoint-file-access-policies.md)
 - [Teams implementeren met basisbescherming](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>Delen met gasten
@@ -111,7 +111,7 @@ Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
 2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **Een label maken**.
-4. Geef een naam op voor het label. We suggereren het te vernoemen naar het team waarmee je het zal gebruiken.
+4. Geef het label een naam. We raden aan het te vernoemen naar het team waarmee je het gebruikt.
 5. Voeg een weergavenaam en een beschrijving toe en klik vervolgens op **Volgende**.
 6. Selecteer op de **pagina Het bereik voor dit label definiëren** de opties **Bestanden en e-mailberichten** en **Groepen en sites** en klik op **Volgende**.
 7. Selecteer op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichten kiezen** de optie **Bestanden en e-mailberichten versleutelen** en klik vervolgens op **Volgende**.
@@ -231,7 +231,7 @@ Microsoft 365 biedt aanvullende methoden voor het beveiligen van uw inhoud. Over
 
 - Laat je gastgebruikers akkoord gaan met de [gebruiksrechtovereenkomst](/azure/active-directory/conditional-access/terms-of-use).
 - Configureer een [beleid voor de time-out van een sessie](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) voor gasten.
-- Maak [gevoelige informatietypen](../compliance/sensitive-information-type-learn-about.md) en gebruik [gegevensverliesbeveiliging](../compliance/data-loss-prevention-policies.md) om beleid in te stellen rond toegang tot gevoelige informatie.
+- Maak [gevoelige informatietypen](../compliance/sensitive-information-type-learn-about.md) en gebruik [gegevensverliesbeveiliging](../compliance/dlp-learn-about-dlp.md) om beleid in te stellen rond toegang tot gevoelige informatie.
 - Gebruik [Azure Active Directory-toegangsbeoordelingen](/azure/active-directory/governance/access-reviews-overview) om periodiek teamtoegang en lidmaatschap te controleren.
 
 ## <a name="drive-user-adoption-for-team-members"></a>Ingebruikname door teamleden bevorderen
