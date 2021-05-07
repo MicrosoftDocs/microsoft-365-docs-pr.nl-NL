@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over complianceopties voor Microsoft 365 groepen, Teams en SharePoint samenwerking.
-ms.openlocfilehash: 92b668c5cbf5d105ccd1373a6ef8550400e4539f
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: a9a94f0c1886ac5b60292f5f4d4b9b9d6d84380c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114026"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241674"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Complianceopties voor Microsoft 365 groepen, Teams en SharePoint samenwerking
 
@@ -28,7 +28,7 @@ Microsoft 365 biedt een volledige reeks hulpprogramma's om naleving te behouden 
 
 De volgende tabel bevat een beknopt overzicht van de nalevingsbesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
-|Categorie|Beschrijving|Referentiematerialen|
+|Categorie|Omschrijving|Referentiematerialen|
 |:-------|:----------|:--------|
 |Bewaargegevens|||
 ||Groepen e-mail en SharePoint behouden|[Meer informatie over bewaarbeleid voor SharePoint en OneDrive](../compliance/retention-policies-sharepoint.md)|
@@ -40,9 +40,11 @@ De volgende tabel bevat een beknopt overzicht van de nalevingsbesturingselemente
 |Gegevensbescherming|||
 ||Voorkomen dat gevoelige informatie verloren gaat|[Meer informatie over preventie van gegevensverlies](../compliance/dlp-learn-about-dlp.md)|
 ||Bescherm gevoelige informatie in een chatgesprek.|[Preventie en preventie van gegevensverlies Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
-||De gevoelige informatie van uw organisatie definiëren|[Aangepaste gevoelige informatietypen](../compliance/sensitive-information-type-learn-about.md)|
+||De gevoelige informatie van uw organisatie definiëren|[Aangepaste typen gevoelige informatie](../compliance/sensitive-information-type-learn-about.md)|
 |Gebruikerssegmentatie|||
 ||Communicatie tussen gebruikerssegmenten beperken|[Informatiebelemmeringen](../compliance/information-barriers.md)|
+|Data-ingezetenschap|||
+||Gegevens opslaan op specifieke geografische locaties|[Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)|
 
 ## <a name="information-retention"></a>Bewaargegevens
 
@@ -101,7 +103,7 @@ DLP in Teams kan helpen bij het beveiligen van gevoelige informatie in Teams cha
 
 Als u gevoelige informatie hebt die uniek is voor uw organisatie, zoals projectcodenamen, kunt u uw eigen typen gevoelige informatie maken en deze toepassen op DLP-beleid om inhoud in groepen, teams en Sharepoint te beveiligen.
 
-- [Aangepaste gevoelige informatietypen](../compliance/sensitive-information-type-learn-about.md)
+- [Aangepaste typen gevoelige informatie](../compliance/sensitive-information-type-learn-about.md)
 
 ## <a name="user-segmentation"></a>Gebruikerssegmentatie
 
@@ -112,6 +114,14 @@ Met informatiebarrières kunt u uw gegevens en gebruikers segmenteren om ongewen
 - [Informatiebarrières in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 
 - [Gebruik informatiebarrières met SharePoint](/sharepoint/information-barriers)
+
+## <a name="data-residency"></a>Data-ingezetenschap
+
+Met Microsoft 365 Multi-Geo kunt u gegevens inrichten en opslaan op de geolocaties die u hebt gekozen om te voldoen aan de vereisten voor gegevensopslag. In een multi-geo-omgeving bestaat uw Microsoft 365-tenant uit een centrale locatie (waar uw Microsoft 365-abonnement oorspronkelijk is ingericht) en een of meer satellietlocaties waar u gegevens kunt opslaan.
+
+- [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)
+
+- [Plannen voor Microsoft 365 Multi-Geo](/microsoft-365/enterprise/plan-for-multi-geo)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

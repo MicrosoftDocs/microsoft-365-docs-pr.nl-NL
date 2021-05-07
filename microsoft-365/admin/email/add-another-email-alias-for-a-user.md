@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Lees hoe u meerdere e-mailadressen, e-mailalias genoemd, kunt toevoegen aan uw Microsoft 365 voor bedrijven-account. '
-ms.openlocfilehash: 00e1c55edfcfa9937ab6a18b4bf268adb858b775
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: fd5fe2906335c8c2d1f41ac7643b7312138e15f5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107120"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241686"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Een ander e-mailalias toevoegen voor een gebruiker
   
@@ -44,12 +44,8 @@ U kunt maximaal 400 aliassen maken voor een gebruiker. Er worden geen extra kost
 > Als u wilt dat meerdere personen e-mail beheren die naar één e-mailadres wordt verzonden, zoals info@NodPublishers.com of sales@NodPublishers.com, maakt u een gedeeld postvak. Zie Een gedeeld [postvak maken voor meer informatie.](create-a-shared-mailbox.md)
   
 ## <a name="add-email-aliases-to-a-user"></a>E-mailaliassen toevoegen aan een gebruiker
-<a name="AddEmailPreview"> </a>
 
 Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebben. 
-
-  
-::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
@@ -77,73 +73,7 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
   
 7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van Outlook client. Outlook op internet gebruikt u de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook bureaublad gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt met Outlook bureaublad, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
     
-::: moniker-end
-
-::: moniker range="o365-germany"
-    
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>. 
-    
-    
-2. Selecteer op de pagina **Actieve gebruikers** de gebruikersnaam die u wilt bewerken.
-
-3. Selecteer naast **Gebruikersnaam /E-mailalias** de optie **Bewerken.**
-
-    > [!Important] 
-    > Als u het foutbericht 'Er kan geen parameter worden gevonden die overeenkomt met **de parameternaam 'EmailAddresses',** betekent dit dat het wat langer duurt om het instellen van uw tenant of uw aangepaste domein te voltooien als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
-
-4. Typ in het tekstvak onder **Alias** het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst. Selecteer vervolgens **Toevoegen.**
-
-    > [!IMPORTANT]
-    > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
-  
-    > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365.](../setup/add-domain.md) 
-
-5. Wanneer u klaar bent, selecteert u **Opslaan.**
-
-6. Wacht 24 uur totdat de nieuwe aliassen in de hele Microsoft 365. 
-    
-    De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar het primaire adres van Eliza Hoffman wordt verzonden, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, gaat bijvoorbeeld naar het Postvak IN van Eliza.
-    
-  
-7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van Outlook client. Outlook op internet gebruikt u de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook bureaublad gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt met Outlook bureaublad, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
-
-    
-2. Selecteer op de pagina **Actieve gebruikers** de gebruikersnaam die u wilt bewerken.
-
-3. Selecteer naast **Gebruikersnaam /E-mailalias** de optie **Bewerken.**
-
-    > [!Important] 
-    > Als u het foutbericht 'Er kan geen parameter worden gevonden die overeenkomt met **de parameternaam 'EmailAddresses',** betekent dit dat het wat langer duurt om het instellen van uw tenant of uw aangepaste domein te voltooien als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
-
-4. Typ in het tekstvak onder **Alias** het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst. Selecteer vervolgens **Toevoegen.**
-
-    > [!IMPORTANT]
-    > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
-  
-    > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365.](../setup/add-domain.md) 
-
-5. Wanneer u klaar bent, selecteert u **Opslaan.**
-
-6. Wacht 24 uur totdat de nieuwe aliassen in de hele Microsoft 365. 
-    
-    De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar het primaire adres van Eliza Hoffman wordt verzonden, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, gaat bijvoorbeeld naar het Postvak IN van Eliza.
-    
-  
-7. **Wanneer de gebruiker antwoordt, is *het Van-adres* afhankelijk van Outlook client. Outlook op internet gebruikt u de alias waarmee de e-mail is ontvangen (we noemen dit het ping-pong-principe). Outlook bureaublad gebruikt haar primaire e-mailalias.** Stel dat een bericht wordt verzonden naar Sales@NodPublishers.com en het bericht in het Postvak IN van Eliza wordt weergegeven. Wanneer Eliza het bericht beantwoordt met Outlook bureaublad, wordt haar primaire e-mailadres weergegeven als Eliza@NodPublishers.com, niet als Sales@NodPublishers.com.
-
-::: moniker-end
-
-
 ## <a name="did-you-get-a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>Hebt u 'A parameter cannot be found that matches parameter name EmailAddresses' gekregen?
-
 
 Als u het foutbericht ' Er kan geen parameter worden gevonden die overeenkomt met **de parameternaam EmailAddresses'** wordt weergegeven, betekent dit dat het wat langer duurt om het instellen van uw tenant of uw aangepaste domein te voltooien als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
   

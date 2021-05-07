@@ -25,20 +25,20 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Lees hoe u uw wachtwoorden opnieuw kunt instellen met behulp van het hulpprogramma voor het opnieuw instellen van wachtwoorden voor selfservice.
-ms.openlocfilehash: 0842430eda8c96647dd12d0da6d0c9e0481346dc
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: d24e826287f69f867fdaf9a5c8b424dbad4e0ebb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023759"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241830"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
-Als Microsoft 365-beheerder kunt u personen het hulpprogramma voor het opnieuw instellen van wachtwoorden voor [selfservice](https://go.microsoft.com/fwlink/p/?LinkId=522677) laten gebruiken, zodat u geen wachtwoorden opnieuw hoeft in te stellen. Zo hoeft u zelf minder te doen!
+Als Microsoft 365 beheerder kunt u personen het hulpprogramma voor het opnieuw instellen van wachtwoorden voor [selfservice](https://go.microsoft.com/fwlink/p/?LinkId=522677) laten gebruiken, zodat u geen wachtwoorden opnieuw hoeft in te stellen. Zo hoeft u zelf minder te doen!
   
 ## <a name="before-you-begin"></a>Voordat u begint
   
-- U krijgt gratis selfservicewachtwoord  opnieuw instellen voor cloudgebruikers met elk betaald abonnement van Microsoft 365 voor bedrijven, onderwijs of non-profitorganisaties. De proefversie van Microsoft 365 werkt niet.
+- U krijgt gratis selfservicewachtwoord  opnieuw instellen voor cloudgebruikers met Microsoft 365 betaald abonnement voor bedrijven, onderwijs of non-profitorganisaties. Het werkt niet met Microsoft 365 proefversie.
 
 - Deze maakt gebruik van Azure. Deze functie ontvangt u in Azure automatisch **gratis** wanneer u deze stappen uitvoert. Het kost u niets als u selfservice voor wachtwoordherstel inschakelt als u geen andere Azure-functies gebruikt.
 
@@ -57,24 +57,8 @@ Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>Stappen: Personen hun eigen wachtwoorden opnieuw laten instellen
 
 Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iedereen in uw bedrijf.
-  
-::: moniker range="o365-worldwide"
 
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het beheercentrum</a>naar de pagina **Instellingen** > **organisatie-instellingen.**
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de **privacypagina** \> **&amp; Beveiligingsinstellingen.**
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de privacypagina  \> **Instellingen** \> **&amp;** beveiligingsinstellingen.
-
-::: moniker-end
+1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het beheercentrum</a>naar de **pagina Instellingen**  >  **Organisatie-instellingen.**
 
 2. Selecteer boven aan de **pagina Organisatie-instellingen** het tabblad **& Privacy.**
   

@@ -26,17 +26,17 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
-description: Meer informatie over het opnieuw instellen van het wachtwoord voor een gebruiker in een Microsoft 365 voor Bedrijven-abonnement.
-ms.openlocfilehash: 24fc6581837f71659a2ecc0359c6967e3969d868
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+description: Meer informatie over het opnieuw instellen van het wachtwoord voor een gebruiker in Microsoft 365 voor bedrijven-abonnement.
+ms.openlocfilehash: fa368c7f44d4df847cf007568853c11970e7adc1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023975"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241698"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
-In dit artikel wordt uitgelegd hoe u wachtwoorden opnieuw kunt instellen voor uzelf en voor uw gebruikers wanneer u een Microsoft 365 voor Bedrijven-abonnement hebt.
+In dit artikel wordt uitgelegd hoe u wachtwoorden opnieuw kunt instellen voor uzelf en voor uw gebruikers wanneer u een abonnement Microsoft 365 voor bedrijven hebt.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -54,23 +54,7 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>Stappen: Een bedrijfswachtwoord opnieuw instellen voor een gebruiker
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
-
-::: moniker-end
 
 2. Selecteer de gebruiker op de pagina **Actieve gebruikers** en selecteer **Wachtwoord opnieuw instellen**.
 
@@ -84,7 +68,7 @@ We raden u sterk aan de selfservice voor het opnieuw instellen van wachtwoorden 
 
 ## <a name="reset-my-admin-password"></a>Mijn beheerderswachtwoord opnieuw instellen
 
-Gebruik deze stappen als u uw wachtwoord bent vergeten, maar u zich kunt aanmelden bij Microsoft 365, omdat uw wachtwoord bijvoorbeeld wordt opgeslagen in uw browser:
+Gebruik deze stappen als u uw wachtwoord bent vergeten, maar u zich kunt aanmelden bij Microsoft 365 omdat uw wachtwoord bijvoorbeeld wordt opgeslagen in uw browser:
 
 1. Selecteer uw naam (pictogram) in de rechterbovenhoek > **Persoonlijke gegevens** van mijn  >  **account.**
 
@@ -126,13 +110,13 @@ PowerShell gebruiken! Lees deze post van Eyal Doron: [Het beheren van wachtwoord
   
 <!-- Here's a related article: [Set the passwords for multiple user accounts](/office365/enterprise/powershell/manage-office-365-with-office-365-powershell). -->
   
-Zie [Microsoft 365 beheren met PowerShell voor overzichtsinformatie.](../../enterprise/manage-microsoft-365-with-microsoft-365-powershell.md)
+Zie Beheer uw Microsoft 365 [met PowerShell voor overzichtsinformatie.](../../enterprise/manage-microsoft-365-with-microsoft-365-powershell.md)
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Wijzigen van het wachtwoord voor alle gebruikers in uw bedrijf forceren
 
 Bekijk deze interessante blogpost van Vasil Michev, MVP van Microsoft: [Wijzigen van wachtwoord foreceren voor alle gebruikers in Office 365](https://go.microsoft.com/fwlink/?linkid=853693).
   
-## <a name="i-dont-have-a-microsoft-365-for-business-subscription"></a>Ik heb geen Microsoft 365 voor Bedrijven-abonnement
+## <a name="i-dont-have-a-microsoft-365-for-business-subscription"></a>Ik heb geen abonnement Microsoft 365 voor bedrijven
 
 Kijk eens naar dit artikel: [Ik weet de gebruikersnaam of het wachtwoord niet meer voor het account dat ik met Office gebruik.](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp)
   

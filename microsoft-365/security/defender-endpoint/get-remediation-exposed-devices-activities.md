@@ -1,7 +1,7 @@
 ---
-title: Belichte apparaten van één herstelactiviteit op de lijst
+title: Weergegeven apparaten van één herstelactiviteit weergeven
 description: Retourneert informatie over blootgestelde apparaten voor de opgegeven hersteltaak.
-keywords: api's, herstel, herstel-api, get, hersteltaken,
+keywords: api's, herstel, herstel-api, get, hersteltaken, herstel van blootgestelde apparaten
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 097d8d784ca7c02fce1fc0e9fc51bdc272951f4a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 92b5a93e86a20f36469d2b5cb606a8ddc2e97077
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061147"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241710"
 ---
-# <a name="list-exposed-devices-of-one-remediation-activity"></a>Belichte apparaten van één herstelactiviteit op de lijst
+# <a name="list-exposed-devices-of-one-remediation-activity"></a>Weergegeven apparaten van één herstelactiviteit weergeven
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -49,9 +49,18 @@ Retourneert informatie over blootgestelde apparaten voor de opgegeven hersteltaa
 
 **URL:** GET: /api/remediationTasks/ \{ id \} /machineReferences
 
-**Eigenschappendetails**
+## <a name="permissions"></a>Machtigingen
 
-Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld
+Een van de volgende machtigingen is vereist om deze API te bellen. Zie Microsoft Defender voor eindpunt-API's gebruiken voor meer informatie, inclusief het kiezen van [machtigingen.](apis-intro.md)
+
+Machtigingstype | Machtiging | Weergavenaam machtiging
+:---|:---|:---
+Toepassing | RemediationTask.Read.All | \'Informatie over kwetsbaarheidsbeheer en bedreigingsbeheer lezen\'
+Gedelegeerd (werk- of schoolaccount) | RemediationTask.Read.Read | \'Informatie over kwetsbaarheidsbeheer en bedreigingsbeheer lezen\'
+
+## <a name="properties-details"></a>Eigenschappendetails
+
+Eigenschap (id) | Gegevenstype | Omschrijving | Voorbeeld
 :---|:---|:---|:---
 id | Tekenreeks | Apparaat-id | w2957837fwda8w9ae7f023dba081059dw8d94503
 computerDnsName | Tekenreeks | Apparaatnaam | PC-SRV2012R2Foo.UserNameVldNet.local
@@ -60,13 +69,13 @@ rbacGroupName | Tekenreeks | Naam van de apparaatgroep waar dit apparaat aan is 
 
 ## <a name="example"></a>Voorbeeld
 
-**Voorbeeld aanvragen**
+### <a name="request-example"></a>Voorbeeld aanvragen
 
 ```http
 GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-aecb-4c6e-b555-d6a97013844c/machinereferences
 ```
 
-**Voorbeeld van** antwoord
+### <a name="response-example"></a>Voorbeeld van antwoord
 
 ```json
 {
@@ -108,10 +117,10 @@ GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-ae
 
 - [Herstelmethoden en -eigenschappen](get-remediation-methods-properties.md)
 
-- [Eén herstelactiviteit per id](get-remediation-one-activity.md)
+- [Eén herstelactiviteit krijgen op id](get-remediation-one-activity.md)
 
-- [Alle herstelactiviteiten op een lijst zetten](get-remediation-all-activities.md)
+- [Alle herstelactiviteiten weergeven](get-remediation-all-activities.md)
 
-- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Risicogebaseerd & vulnerability management](next-gen-threat-and-vuln-mgt.md)
 
 - [Beveiligingslekken in uw organisatie](tvm-weaknesses.md)
