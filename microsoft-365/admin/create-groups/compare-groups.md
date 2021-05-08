@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Meer informatie over de typen groepen die u kunt gebruiken.
-ms.openlocfilehash: 7b67fa5e7dc661163ce6c2c8933ebdafd0a5940d
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 9f36688972f00a27a274b6a974d958d1d590aa93
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023843"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52243982"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
 In de sectie **Groepen** van het Microsoft 365-beheercentrum kunt u de volgende typen groepen maken en beheren: 
 
 - **Microsoft 365-groepen** (voorheen Office 365-groepen) worden gebruikt voor samenwerking tussen gebruikers, zowel binnen als buiten uw bedrijf.
-- **Distributiegroepen** worden gebruikt voor het verzenden van meldingen aan een groep personen.
+- **Distributiegroepen** worden gebruikt voor het verzenden van e-mailmeldingen aan een groep personen.
 - **Beveiligingsgroepen** worden gebruikt voor het verlenen van toegang tot SharePoint-bronnen zoals websites.
 - **Beveiligingsgroepen met e-mail** worden gebruikt om toegang te verlenen tot SharePoint-bronnen en het verzenden van meldingen aan die gebruikers.
 - **Gedeelde postvakken** worden gebruikt als meerdere mensen toegang tot hetzelfde postvak nodig hebben, zoals bedrijfsgegevens of ondersteuningsadressen.
@@ -59,13 +59,17 @@ Distributiegroepen zijn het meest geschikt voor situaties waarin u informatie wi
 
 Distributiegroepen kunnen worden [bijgewerkt naar Microsoft 365-groepen](../manage/upgrade-distribution-lists.md).
 
+Distributiegroepen kunnen worden toegevoegd aan een team in Microsoft Teams.
+
 ## <a name="security-groups"></a>Beveiligingsgroepen
 
 [Beveiligingsgroepen](../email/create-edit-or-delete-a-security-group.md) worden gebruikt voor het verlenen van toegang tot Microsoft 365-bronnen, zoals SharePoint. Deze groepen kunnen het beheer vereenvoudigen, omdat u alleen de groep hoeft te beheren in plaats van afzonderlijke gebruikers aan afzonderlijke bronnen toe te voegen.
 
-Beveiligingsgroepen kunnen gebruikers of apparaten bevatten. Het maken van een beveiligingsgroep kan worden gebruikt voor services voor het beheer van mobiele apparaten, zoals Intune.
+Beveiligingsgroepen kunnen gebruikers en apparaten bevatten. Het maken van een beveiligingsgroep voor apparaten kan worden gebruikt met services voor het beheer van mobiele apparaten, zoals Intune.
 
 Beveiligingsgroepen kunnen worden [geconfigureerd voor dynamisch lidmaatschap van Azure Active Directory](/azure/active-directory/users-groups-roles/groups-change-type), zodat groepsleden of apparaten automatisch kunnen worden toegevoegd of verwijderd op basis van gebruikerskenmerken zoals afdeling, locatie of titel of apparaatkenmerken zoals de versie van het besturingssystem.
+
+Beveiligingsgroepen kunnen worden toegevoegd aan een team.
 
 ## <a name="mail-enabled-security-groups"></a>Beveiligingsgroepen met e-mail
 
@@ -73,11 +77,15 @@ Beveiligingsgroepen met e-mail zijn hetzelfde als gewone beveiligingsgroepen, be
 
 Deze groepen hebben de mogelijkheid e-mail te verzenden aan alle groepsleden.
 
+Beveiligingsgroepen met e-mail kunnen worden toegevoegd aan een team.
+
 ## <a name="shared-mailboxes"></a>Gedeelde postvakken
 
 [Gedeelde postvakken](../email/create-a-shared-mailbox.md) worden gebruikt als meerdere mensen toegang tot hetzelfde postvak nodig hebben, zoals bedrijfsgegevens, ondersteuningsadressen, recepties of andere functies die gedeeld worden door meerdere mensen.
 
 Gedeelde postvakken kunnen externe mail ontvangen als de beheerder dit heeft ingeschakeld.
+
+Gedeelde postvakken kunnen een agenda bevatten die kan worden gebruikt om samen te werken.
 
 Gebruikers met machtigingen voor het groepspostvak kunnen verzenden als of namens het groeps-e-mailadres als de beheerder die gebruiker daarvoor heeft gemachtigd. Dit is bijzonder handig voor helpdesk- en ondersteuningspostvakken, omdat gebruikers e-mails kunnen verzenden vanuit 'Contoso-ondersteuning' of 'Receptie gebouw A'.
 

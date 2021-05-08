@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Nadat u een gedeeld postvak hebt gemaakt, wilt u enkele instellingen configureren voor de gebruikers, zoals het doorsturen van e-mail en automatische antwoorden. Later wilt u mogelijk andere instellingen wijzigen, zoals de naam van het postvak of de leden.
-ms.openlocfilehash: 2d0998ba2bdc95a9f78f59527bd9bd6fa98b4c45
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 01d5aaa686e1d64c9ea7d89913d8208f779dcfd1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915912"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52243970"
 ---
 # <a name="configure-shared-mailbox-settings"></a>Gedeeld postvakinstellingen configureren
 
@@ -34,23 +34,7 @@ Nadat u een [gedeeld postvak hebt](create-a-shared-mailbox.md)gemaakt, wilt u en
 
 ## <a name="change-the-name-or-email-alias-of-a-shared-mailbox-or-change-the-primary-email-address"></a>De naam of e-mailalias van een gedeeld postvak wijzigen of het primaire e-mailadres wijzigen
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Gedeelde postvakken</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer vervolgens **Bewerken** naast **Naam, E-mail, E-mailalias.**
 
@@ -62,23 +46,7 @@ Nadat u een [gedeeld postvak hebt](create-a-shared-mailbox.md)gemaakt, wilt u en
 
 U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te sturen die naar het postvak is verzonden. U kunt de berichten doorsturen naar elk geldig e-mailadres of distributielijst.
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Gedeelde postvakken</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer Vervolgens **Bewerken per e-mail** \> **doorsturen.**
     
@@ -88,23 +56,7 @@ U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te s
 
 ## <a name="send-automatic-replies-from-a-shared-mailbox"></a>Automatische antwoorden verzenden vanuit een gedeeld postvak
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Gedeelde postvakken</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer Vervolgens **Automatische antwoorden** \> **bewerken.**
     
@@ -125,23 +77,7 @@ Als u wilt dat iedereen het verzonden e-mailbericht kan zien, bewerkt u in het b
 
 ## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>Kies de apps die een gedeeld postvak kan gebruiken voor toegang tot Microsoft-e-mail
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Gedeelde postvakken</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer Vervolgens **E-mailapps** \> **bewerken.**
 
@@ -154,23 +90,7 @@ Als u wilt dat iedereen het verzonden e-mailbericht kan zien, bewerkt u in het b
 
 Zie Een proces in de wacht houden voor meer informatie over het in de wacht [houden van rechtszaken.](../../compliance/create-a-litigation-hold.md)
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Gedeelde postvakken</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer Vervolgens **Rechtszaken in de wacht** \> **houden Bewerken.**
 
@@ -183,23 +103,7 @@ Zie Een proces in de wacht houden voor meer informatie over het in de wacht [hou
 
 ## <a name="add-or-remove-members"></a>Leden toevoegen of verwijderen
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Gedeelde postvakken</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **leden** \> **bewerken.**
 
@@ -211,23 +115,7 @@ Zie Een proces in de wacht houden voor meer informatie over het in de wacht [hou
 
 ## <a name="add-or-remove-permissions-of-members"></a>Machtigingen van leden toevoegen of verwijderen
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Gedeelde postvakken</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **vervolgens Machtigingen voor leden** \> **aanpassen.**
 
@@ -243,23 +131,7 @@ Zie Een proces in de wacht houden voor meer informatie over het in de wacht [hou
 
 Als u ervoor kiest het gedeelde postvak niet weer te geven in de algemene adreslijst, wordt het postvak niet weergegeven in de adreslijst van uw organisatie, maar wordt er wel e-mail naar verzonden. 
 
-::: moniker range="o365-worldwide"
-
 1. Ga in het beheercentrum naar de pagina **Groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Gedeelde postvakken</a>.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Groepen** > **Gedeelde postvakken**. 
-
-::: moniker-end
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **vervolgens Show in global address list** \> **Edit**.
 
@@ -268,16 +140,16 @@ Als u ervoor kiest het gedeelde postvak niet weer te geven in de algemene adresl
 4. Kies **Opslaan**.
 
 > [!NOTE]
-> Als u een gedeeld postvak verbergt in de adreslijst, kunnen nieuwe leden van het gedeelde postvak het verborgen postvak pas toevoegen aan hun Outlook-profiel als het gedeelde postvak weer wordt weergegeven in de adreslijst. 
+> Als u een gedeeld postvak verbergt in de adreslijst, kunnen nieuwe leden van het gedeelde postvak het verborgen postvak niet toevoegen aan hun Outlook-profiel totdat het gedeelde postvak opnieuw wordt weergegeven in de adreslijst. 
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Meer over gedeelde postvakken](about-shared-mailboxes.md)
+[Gedeelde postvakken](about-shared-mailboxes.md) (artikel)
 
-[Een gedeeld postvak maken](create-a-shared-mailbox.md)
+[Een gedeeld postvak maken](create-a-shared-mailbox.md) (artikel)
 
-[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md)
+[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)
 
-[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md)
+[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)
 
-[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md)
+[Problemen met gedeelde postvakken oplossen](resolve-issues-with-shared-mailboxes.md) (artikel)

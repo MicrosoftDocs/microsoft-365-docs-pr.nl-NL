@@ -26,12 +26,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Begrijp wat u moet weten voordat u het aanmeldingsproces voor Office 365.
 ms.date: 03/17/2021
-ms.openlocfilehash: 37cbe20a5cc1a7506e8db218c3e9ffe2b4e64478
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 77fe0252a267b13fda19a6842ce0e07b1b8307b1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107024"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244006"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Registreren - Help voor beheerders
 
@@ -134,6 +134,6 @@ U hoeft uw proefabonnement niet te annuleren. Als u het proefabonnement niet koo
     > [!IMPORTANT]
     >  Wanneer u zich registreert, moet u de beste betalingsoptie voor uw organisatie kiezen. Bel de ondersteuning voor facturering als u betalingsopties wilt wijzigen.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingen)
+[Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingspagina)
