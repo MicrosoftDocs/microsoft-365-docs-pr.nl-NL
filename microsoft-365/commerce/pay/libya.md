@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad75ff12c1145f631b5277ba670e2966f60c7cb6
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 878ea274fd1945fa88cd583acb2a7de07b0def8a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543362"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273402"
 ---
-# <a name="payment-information-for-libya"></a><span data-ttu-id="90b7a-103">Betalingsgegevens voor Libië</span><span class="sxs-lookup"><span data-stu-id="90b7a-103">Payment information for Libya</span></span>
+# <a name="payment-information-for-libya"></a><span data-ttu-id="dac83-103">Betalingsgegevens voor Libië</span><span class="sxs-lookup"><span data-stu-id="dac83-103">Payment information for Libya</span></span>
 
-<span data-ttu-id="90b7a-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="90b7a-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="dac83-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="dac83-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="90b7a-105">Betaal alleen in USD en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="90b7a-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="dac83-105">Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="dac83-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="90b7a-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="90b7a-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="dac83-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="dac83-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="90b7a-107">**Bank:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="90b7a-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="90b7a-108">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="90b7a-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="90b7a-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="90b7a-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="90b7a-110">**Rekeningnummer:** 12510049</span><span class="sxs-lookup"><span data-stu-id="90b7a-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="90b7a-111">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="90b7a-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="dac83-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="dac83-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="dac83-108">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="dac83-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="dac83-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="dac83-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="dac83-110">**Accountnummer:** 12510049</span><span class="sxs-lookup"><span data-stu-id="dac83-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="dac83-111">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="dac83-111">**Account Name:** MICROSOFT</span></span>  
