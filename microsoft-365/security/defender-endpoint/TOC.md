@@ -539,6 +539,12 @@
 ####### [Lijst van computers per aanbeveling](get-recommendation-machines.md)
 ####### [Lijst van beveiligingsproblemen per aanbeveling](get-recommendation-vulnerabilities.md)
 
+###### [Herstelactiviteit]()
+####### [Methoden en eigenschappen van herstelactiviteiten](get-remediation-methods-properties.md)
+####### [Eén herstelactiviteit krijgen op id](get-remediation-one-activity.md)
+####### [Alle herstelactiviteiten weergeven](get-remediation-all-activities.md)
+####### [Weergegeven apparaten van één herstelactiviteit weergeven](get-remediation-exposed-devices-activities.md)
+
 ###### [Score]()
 ####### [Scoringsmethoden en -eigenschappen](score.md)
 ####### [Lijst met blootstellingsscore per computergroep](get-machine-group-exposure-score.md)
