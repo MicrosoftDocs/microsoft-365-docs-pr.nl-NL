@@ -4,7 +4,7 @@ summary: Meer informatie over het instellen en beheren van Microsoft 365 voor uw
 brand: m365
 metadata:
   title: Microsoft 365-training voor kleine bedrijven
-  description: Microsoft 365 instellen en beheren in het Microsoft 365-beheercentrum.
+  description: Uw gegevens instellen en Microsoft 365 beheren in het Microsoft 365 beheercentrum.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
@@ -17,7 +17,7 @@ productDirectory:
   items:
     - title: Aan de slag
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
-      summary: Plan uw overstap naar Microsoft 365 voor Bedrijven.
+      summary: Plan uw overstap naar Microsoft 365 voor bedrijven.
       url: what-is-microsoft-365.md
     - title: Microsoft 365 voor bedrijven instellen
       imageSrc: 'https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg'
@@ -25,15 +25,15 @@ productDirectory:
       url: sign-up.md
     - title: Computers instellen
       imageSrc: 'https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg'
-      summary: 'Office installeren, e-mail instellen, bestanden migreren...'
+      summary: 'Installeer Office, stel e-mail in, migreert bestanden...'
       url: upgrade.md
     - title: Mobiele apparaten instellen
       imageSrc: 'https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg'
-      summary: Office-apps installeren op mobiele apparaten.
+      summary: Installeer Office apps op mobiele apparaten.
       url: work-from-anywhere.md
     - title: Samenwerken met andere personen
       imageSrc: 'https://docs.microsoft.com/office/media/icons/collaborate-blue.svg'
-      summary: Werken met werknemers en klanten in Teams.
+      summary: Werk met werknemers en klanten in Teams.
       url: collab-outlook-teams.md
     - title: Bestanden opslaan en delen
       imageSrc: 'https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg'
@@ -61,18 +61,18 @@ productDirectory:
       url: overview-m365-security.md
     - title: Ondersteuning
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-blue.svg'
-      summary: Hulp vragen bij Microsoft 365 voor Bedrijven.
-      url: find-help-answers.md
+      summary: Hulp vragen bij Microsoft 365 voor bedrijven.
+      url: get-help-support.md
 additionalContent:
   sections:
     - title: Meer informatie
       items:
         - title: Meer informatie over Office
-          summary: 'Meer informatie over het gebruik van Word-, Excel-, PowerPoint- en andere Office-apps.'
+          summary: 'Meer informatie over het gebruik van Word, Excel, PowerPoint en andere Office apps.'
           url: 'https://support.microsoft.com/training'
         - title: Training voor ITPros krijgen
           summary: Voltooi leerpaden voor middelgrote en zakelijke bedrijven.
           url: 'https://docs.microsoft.com/learn/m365/'
         - title: Meer beheerdersbronnen zoeken
-          summary: Ga naar de Help-site van het Microsoft 365-beheercentrum.
+          summary: Ga naar de helpsite Microsoft 365 het beheercentrum.
           url: ../admin/index.yml
