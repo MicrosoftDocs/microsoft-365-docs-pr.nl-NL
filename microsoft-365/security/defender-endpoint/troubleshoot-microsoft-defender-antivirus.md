@@ -1,12 +1,12 @@
 ---
 title: Microsoft Defender AV-gebeurtenis-IDs en foutcodes
-description: De oorzaken en oplossingen voor microsoft Defender Antivirus-gebeurtenis-ID's en -fouten op zoeken
+description: Zoek de oorzaken en oplossingen voor Microsoft Defender Antivirus gebeurtenis-ID's en fouten
 keywords: gebeurtenis, foutcode, siem, logboekregistratie, probleemoplossing, wef, windows event forwarding
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,13 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f7e8d6428360e5fe45a377f3ed6611a76f0a7911
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: cd222760f3a5cc005c679bf28365237cc70e8950
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765813"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275346"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>Gebeurtenislogboeken en foutcodes bekijken voor het oplossen van problemen met Microsoft Defender Antivirus
 
@@ -34,30 +35,30 @@ Als u een probleem ondervindt met Microsoft Defender Antivirus, kunt u in de tab
 
 De lijst met tabellen:
 
-- [Microsoft Defender Antivirus event-IDs](#windows-defender-av-ids) (deze zijn van toepassing op zowel Windows 10 als Windows Server 2016)
-- [Foutcodes voor Microsoft Defender Antivirus-client](#error-codes)
-- [Foutcodes voor interne Microsoft Defender Antivirus-client (gebruikt door Microsoft tijdens het ontwikkelen en testen)](#internal-error-codes)
+- [Microsoft Defender Antivirus gebeurtenis-ID's](#windows-defender-av-ids) (deze zijn van toepassing op zowel Windows 10 als Windows Server 2016)
+- [Microsoft Defender Antivirus clientfoutcodes](#error-codes)
+- [Interne Microsoft Defender Antivirus clientfoutcodes (gebruikt door Microsoft tijdens ontwikkeling en testen)](#internal-error-codes)
 
 > [!TIP]
 > U kunt ook naar de demowebsite [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) van Microsoft Defender voor Eindpunt demo.wd.microsoft.com om te bevestigen dat de volgende functies werken:
 > 
-> - Beveiliging in de cloud
+> - Cloudbeveiliging
 > - Snel leren (inclusief Blok op het eerste gezicht)
 > - Mogelijk ongewenste blokkering van toepassingen
 
 <a id="windows-defender-av-ids"></a>
-## <a name="microsoft-defender-antivirus-event-ids"></a>Microsoft Defender Antivirus-gebeurtenis-IDs
+## <a name="microsoft-defender-antivirus-event-ids"></a>Microsoft Defender Antivirus gebeurtenis-IDs
 
-Microsoft Defender Antivirus registreert gebeurtenis-ID's in het Windows-gebeurtenislogboek.
+Microsoft Defender Antivirus records gebeurtenis-ID's in het Windows gebeurtenislogboek.
 
-U kunt het gebeurtenislogboek rechtstreeks bekijken of als u een hulpprogramma voor beveiligingsgegevens en gebeurtenisbeheer van derden hebt, kunt u ook client-DD's van [Microsoft Defender Antivirus](troubleshoot-microsoft-defender-antivirus.md#windows-defender-av-ids) gebruiken om specifieke gebeurtenissen en fouten van uw eindpunten te bekijken.
+U kunt het gebeurtenislogboek rechtstreeks bekijken of als u een hulpprogramma voor beveiligingsgegevens en gebeurtenisbeheer (SIEM) van derden hebt, kunt u ook [Microsoft Defender Antivirus clientgebeurtenis-ID's](troubleshoot-microsoft-defender-antivirus.md#windows-defender-av-ids) gebruiken om specifieke gebeurtenissen en fouten van uw eindpunten te bekijken.
 
-De tabel in deze sectie bevat de belangrijkste microsoft Defender Antivirus-gebeurtenis-ID's en bevat, waar mogelijk, voorgestelde oplossingen om de fout op te lossen of op te lossen. 
+De tabel in deze sectie bevat de belangrijkste Microsoft Defender Antivirus gebeurtenis-ID's en biedt, indien mogelijk, voorgestelde oplossingen om de fout op te lossen of op te lossen. 
 
-## <a name="to-view-a-microsoft-defender-antivirus-event"></a>Een Microsoft Defender Antivirus-gebeurtenis weergeven
+## <a name="to-view-a-microsoft-defender-antivirus-event"></a>Een gebeurtenis Microsoft Defender Antivirus weergeven
 
 1.  **Gebeurtenisviewer openen.**
-2.  Vouw in de consolestructuur **Toepassingen en Services-logboeken** uit, vervolgens **Microsoft,** vervolgens **Windows** en vervolgens **Windows Defender.**
+2.  Vouw in de consolestructuur **Toepassingen en Services-logboeken** uit, vervolgens **Microsoft**, Windows **en** **Windows Defender.**
 3.  Dubbelklik op **Operationeel.**
 4.  Bekijk in het detailvenster de lijst met afzonderlijke gebeurtenissen om uw gebeurtenis te zoeken.
 5.  Klik op de gebeurtenis om specifieke details over een gebeurtenis te zien in het onderste deelvenster, onder de **tabbladen** Algemeen **en** Details.
@@ -396,8 +397,8 @@ Zie de volgende onderwerpen voor meer informatie:
 <dt>UAC-status: &lt; &gt; Statusgebruiker:</dt>
 <dt>Domein &lt; &gt; \& lt; &gt;Gebruikersnaam:</dt>
 <dt>Proces in de &lt; &gt; pid-handtekeningversie:</dt>
-<dt> &lt; &gt; Engine-versie</dt>van
-<dt>definitieversie: Versie &lt; antimalware-engine &gt; </dt>
+<dt> &lt; engineversie van &gt; </dt>
+<dt>definitieversie: Antimalware Engine &lt; versie &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -448,8 +449,8 @@ Microsoft Defender Antivirus heeft actie ondernomen om deze computer te bescherm
 </ul>
 </dt>
 <dt>Status: &lt; &gt;</dt>
-<dt>Statushandtekeningsversie: &lt; &gt; Engine-versie</dt>
-<dt>van definitieversie: &lt; &gt; Antimalware Engine-versie</dt>
+<dt>Statushandtekeningsversie: &lt; engineversie &gt; van</dt>
+<dt>definitieversie: &lt; Antimalware Engine versie &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -476,7 +477,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het ondernemen van actie tegen malware of andere mogelijk ongewenste software. Zie de volgende onderwerpen voor meer informatie:
+Microsoft Defender Antivirus is een fout opgetreden bij het ondernemen van actie tegen malware of andere mogelijk ongewenste software. Zie de volgende onderwerpen voor meer informatie:
 <dl>
 <dt>Gebruiker: &lt; Domein &gt; \& lt; &gt;Gebruikersnaam:</dt>
 <dt> &lt; &gt; Bedreigingsnaam-id:</dt>
@@ -503,8 +504,8 @@ Microsoft Defender Antivirus heeft een fout ondervonden bij het ondernemen van a
 <dt>Foutcode: &lt; Foutcode &gt; Resultaatcode die is gekoppeld aan de bedreigingsstatus. Standaard HRESULT-waarden. </dt> 
 <dt>Foutbeschrijving: &lt; Foutbeschrijving &gt; Beschrijving van de fout.</dt> 
 <dt>Status: &lt; &gt;</dt>
-<dt>Statushandtekeningsversie: &lt; &gt; Engine-versie</dt>
-<dt>van definitieversie: &lt; &gt; Antimalware Engine-versie</dt>
+<dt>Statushandtekeningsversie: &lt; engineversie &gt; van</dt>
+<dt>definitieversie: &lt; Antimalware Engine versie &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -545,8 +546,8 @@ Microsoft Defender Antivirus heeft een item uit quarantaine hersteld. Zie de vol
 <dt>Categorie: &lt; &gt;Categoriebeschrijving, bijvoorbeeld een bedreiging of malwaretype.</dt> 
 <dt>Pad: &lt; Gebruiker &gt; van</dt>
 <dt> &lt; bestandspad: Domein &gt; \& lt; User &gt; </dt>
-<dt>Signature Version: &lt; Definition &gt; version</dt>Engine
-<dt>Version: &lt; Antimalware Engine version &gt; </dt>
+<dt>Signature Version: &lt; Definition version &gt; </dt>Engine
+<dt>Version: Antimalware Engine &lt; version &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -573,7 +574,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het herstellen van een item uit quarantaine. Zie de volgende onderwerpen voor meer informatie:
+Microsoft Defender Antivirus is een fout opgetreden bij het herstellen van een item uit quarantaine. Zie de volgende onderwerpen voor meer informatie:
 <dl>
 <dt>Naam: &lt; Bedreigingsnaam-id: &gt; </dt>Ernst van
 <dt> &lt; &gt; bedreigings-id:</dt> 
@@ -589,8 +590,8 @@ Microsoft Defender Antivirus heeft een fout ondervonden bij het herstellen van e
 <dt> &lt; bestandspad: Domein &gt; \& lt; &gt;</dt>
 <dt>Gebruikersfoutcode: &lt; Foutcode &gt; Resultaatcode die is gekoppeld aan de bedreigingsstatus. Standaard HRESULT-waarden. </dt> 
 <dt>Foutbeschrijving: &lt; Foutbeschrijving &gt; Beschrijving van de fout.</dt> 
-<dt>Handtekeningversie: &lt; Definition &gt; version</dt>
-<dt>Engine Version: &lt; Antimalware Engine version &gt; </dt>
+<dt>Handtekeningversie: &lt; Definitieversie &gt; </dt>
+<dt>Engine-versie: &lt; Antimalware Engine &gt; versie</dt>
 </dl>
 </td>
 </tr>
@@ -631,8 +632,8 @@ Microsoft Defender Antivirus heeft een item uit quarantaine verwijderd.<br/>Zie 
 <dt>Categorie: &lt; &gt;Categoriebeschrijving, bijvoorbeeld een bedreiging of malwaretype.</dt> 
 <dt>Pad: &lt; Gebruiker &gt; van</dt>
 <dt> &lt; bestandspad: Domein &gt; \& lt; User &gt; </dt>
-<dt>Signature Version: &lt; Definition &gt; version</dt>Engine
-<dt>Version: &lt; Antimalware Engine version &gt; </dt>
+<dt>Signature Version: &lt; Definition version &gt; </dt>Engine
+<dt>Version: Antimalware Engine &lt; version &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -659,7 +660,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het verwijderen van een item uit quarantaine.
+Microsoft Defender Antivirus is een fout opgetreden bij het verwijderen van een item uit quarantaine.
 Zie de volgende onderwerpen voor meer informatie:
 <dl>
 <dt>Naam: &lt; Bedreigingsnaam-id: &gt; </dt>Ernst van
@@ -676,8 +677,8 @@ Zie de volgende onderwerpen voor meer informatie:
 <dt> &lt; bestandspad: Domein &gt; \& lt; &gt;</dt>
 <dt>Gebruikersfoutcode: &lt; Foutcode &gt; Resultaatcode die is gekoppeld aan de bedreigingsstatus. Standaard HRESULT-waarden. </dt> 
 <dt>Foutbeschrijving: &lt; Foutbeschrijving &gt; Beschrijving van de fout.</dt> 
-<dt>Handtekeningversie: &lt; Definition &gt; version</dt>
-<dt>Engine Version: &lt; Antimalware Engine version &gt; </dt>
+<dt>Handtekeningversie: &lt; Definitieversie &gt; </dt>
+<dt>Engine-versie: &lt; Antimalware Engine &gt; versie</dt>
 </dl>
 </td>
 </tr>
@@ -734,7 +735,7 @@ Het antimalwareplatform kan de geschiedenis van malware en andere mogelijk ongew
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het verwijderen van de geschiedenis van malware en andere mogelijk ongewenste software.
+Microsoft Defender Antivirus is een fout opgetreden bij het verwijderen van de geschiedenis van malware en andere mogelijk ongewenste software.
 <dl>
 <dt>Tijd: de tijd waarop de gebeurtenis heeft plaatsgevonden, bijvoorbeeld wanneer de geschiedenis wordt verwijderd. Deze parameter wordt niet gebruikt bij bedreigingsgebeurtenissen, zodat er geen verwarring bestaat over de vraag of het hersteltijd of de tijd van de infectie is. Voor deze personen noemen we ze specifiek Actietijd of Detectietijd.</dt> 
 <dt>Gebruiker: &lt; Domein &gt; \& lt; &gt;</dt>
@@ -976,15 +977,15 @@ Microsoft Defender Antivirus heeft actie ondernomen om deze computer te bescherm
 <dt>Actiestatus: &lt; Beschrijving van &gt; aanvullende acties</dt>
 <dt>Foutcode: &lt; Foutcode &gt; Resultaatcode gekoppeld aan bedreigingsstatus. Standaard HRESULT-waarden.</dt> 
 <dt>Foutbeschrijving: &lt; Foutbeschrijving &gt; Beschrijving van de fout.</dt> 
-<dt>Handtekeningversie: &lt; Definitieversie &gt; </dt>Engine
-<dt>Version: &lt; Antimalware Engine version &gt; </dt> NOTE: WhenEver Microsoft Defender Antivirus, Microsoft Security Essentials, Malicious Software Removal Tool, or System Center Endpoint Protection detects a malware, it will restore the following system settings and services that the malware might have changed:<ul>
+<dt>Handtekeningversie: &lt; Definitieversie &gt; </dt>
+<dt>Engine Version: &lt; Antimalware Engine &gt; version</dt> NOTE: Whenever Microsoft Defender Antivirus, Microsoft Security Essentials, Malicious Software Removal Tool, or System Center Endpoint Protection detects a malware, it will restore the following system settings and services that the malware might have changed:<ul>
 <li>Standaardinstelling voor Internet Explorer of Microsoft Edge</li>
 <li>Instellingen voor Gebruikerstoegangsbeheer</li>
 <li>Chrome-instellingen</li>
 <li>Opstartbeheergegevens</li>
 <li>Registerinstellingen voor Regedit en Task Manager</li>
 <li>Windows Update, Background Intelligent Transfer Service en Remote Procedure Call Service</li>
-<li>Windows-besturingssysteembestanden</li></ul>
+<li>Windows Besturingssysteembestanden</li></ul>
 De bovenstaande context is van toepassing op de volgende client- en serverversies:
 <table>
 <tr>
@@ -1016,7 +1017,7 @@ Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 en Windows Serv
 Gebruikersactie:
 </td>
 <td >
-Er is geen actie nodig. Microsoft Defender Antivirus heeft een bedreiging verwijderd of in quarantaine geplaatst. 
+Er is geen actie nodig. Microsoft Defender Antivirus een bedreiging verwijderd of in quarantaine geplaatst. 
 </td>
 </tr>
 <tr>
@@ -1042,7 +1043,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een niet-kritieke fout ondervonden bij het ondernemen van actie tegen malware of andere mogelijk ongewenste software.<br/>Zie de volgende onderwerpen voor meer informatie:
+Microsoft Defender Antivirus is een niet-kritieke fout opgetreden bij het ondernemen van actie tegen malware of andere mogelijk ongewenste software.<br/>Zie de volgende onderwerpen voor meer informatie:
 <dl>
 <dt>Naam: &lt; Bedreigingsnaam-id: &gt; </dt>Ernst van
 <dt> &lt; &gt; bedreigings-id:</dt> 
@@ -1098,8 +1099,8 @@ Microsoft Defender Antivirus heeft een niet-kritieke fout ondervonden bij het on
 <dt>Actiestatus: &lt; Beschrijving van &gt; aanvullende acties</dt>
 <dt>Foutcode: &lt; Foutcode &gt; Resultaatcode gekoppeld aan bedreigingsstatus. Standaard HRESULT-waarden.</dt> 
 <dt>Foutbeschrijving: &lt; Foutbeschrijving &gt; Beschrijving van de fout.</dt> 
-<dt>Handtekeningversie: &lt; Definition &gt; version</dt>
-<dt>Engine Version: &lt; Antimalware Engine version &gt; </dt>
+<dt>Handtekeningversie: &lt; Definitieversie &gt; </dt>
+<dt>Engine-versie: &lt; Antimalware Engine &gt; versie</dt>
 </dl>
 </td>
 </tr>
@@ -1108,7 +1109,7 @@ Microsoft Defender Antivirus heeft een niet-kritieke fout ondervonden bij het on
 Gebruikersactie:
 </td>
 <td >
-Er is geen actie nodig. Microsoft Defender Antivirus heeft een taak met betrekking tot de herstel van malware niet voltooid. Dit is geen kritieke fout.
+Er is geen actie nodig. Microsoft Defender Antivirus taak met betrekking tot de herstel van malware is niet voltooid. Dit is geen kritieke fout.
 </td>
 </tr>
 <tr>
@@ -1134,7 +1135,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een kritieke fout ondervonden bij het ondernemen van actie tegen malware of andere mogelijk ongewenste software.<br/>Zie de volgende onderwerpen voor meer informatie:
+Microsoft Defender Antivirus is een kritieke fout opgetreden bij het ondernemen van actie tegen malware of andere mogelijk ongewenste software.<br/>Zie de volgende onderwerpen voor meer informatie:
 <dl>
 <dt>Naam: &lt; Bedreigingsnaam-id: &gt; </dt>Ernst van
 <dt> &lt; &gt; bedreigings-id:</dt> 
@@ -1190,8 +1191,8 @@ Microsoft Defender Antivirus heeft een kritieke fout ondervonden bij het onderne
 <dt>Actiestatus: &lt; Beschrijving van &gt; aanvullende acties</dt>
 <dt>Foutcode: &lt; Foutcode &gt; Resultaatcode gekoppeld aan bedreigingsstatus. Standaard HRESULT-waarden.</dt> 
 <dt>Foutbeschrijving: &lt; Foutbeschrijving &gt; Beschrijving van de fout.</dt> 
-<dt>Handtekeningversie: &lt; Definition &gt; version</dt>
-<dt>Engine Version: &lt; Antimalware Engine version &gt; </dt>
+<dt>Handtekeningversie: &lt; Definitieversie &gt; </dt>
+<dt>Engine-versie: &lt; Antimalware Engine &gt; versie</dt>
 </dl>
 </td>
 </tr>
@@ -1200,7 +1201,7 @@ Microsoft Defender Antivirus heeft een kritieke fout ondervonden bij het onderne
 Gebruikersactie:
 </td>
 <td >
-De Microsoft Defender Antivirus-client heeft deze fout ondervonden vanwege kritieke problemen. Het eindpunt is mogelijk niet beveiligd. Bekijk de foutbeschrijving en volg de onderstaande <b>actiestappen</b> voor gebruikers.
+De Microsoft Defender Antivirus client heeft deze fout ondervonden vanwege kritieke problemen. Het eindpunt is mogelijk niet beveiligd. Bekijk de foutbeschrijving en volg de onderstaande <b>actiestappen</b> voor gebruikers.
 <table>
 <tr>
 <th>Actie</th>
@@ -1271,7 +1272,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus-client is in een gezonde staat actief.
+Microsoft Defender Antivirus client is in een gezonde staat actief.
 <dl>
 <dt>Huidige platformversie: &lt; Huidige platformversie &gt; </dt>
 <dt>Threat Resource Path: &lt; Path &gt; </dt>
@@ -1309,11 +1310,11 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus-client is in een gezonde staat actief.
+Microsoft Defender Antivirus client is in een gezonde staat actief.
 <dl>
 <dt>Platformversie: &lt; Huidige platformversie &gt; </dt>
 <dt>Signature Version: Definition &lt; version &gt; </dt>Engine
-<dt>Version: &lt; Antimalware Engine version &gt; </dt>
+<dt>Version: Antimalware Engine &lt; version &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -1322,7 +1323,7 @@ Microsoft Defender Antivirus-client is in een gezonde staat actief.
 Gebruikersactie:
 </td>
 <td >
-Er is geen actie nodig. De Microsoft Defender Antivirus-client is in een gezonde staat. Deze gebeurtenis wordt op uurbasis gerapporteerd.
+Er is geen actie nodig. De Microsoft Defender Antivirus client is in een gezonde staat. Deze gebeurtenis wordt op uurbasis gerapporteerd.
 </td>
 </tr>
 
@@ -1341,7 +1342,7 @@ Symbolische naam:
 Bericht:
 </td>
 <td >
-<b>Endpoint Protection client health report (time in UTC) </b>
+<b>Endpoint Protection client health report (time in UTC)</b>
 </td>
 </tr>
 <tr>
@@ -1351,21 +1352,21 @@ Beschrijving:
 <td >
 Rapport over de status van de antivirusclient.
 <dl>
-<dt>Platformversie: &lt; &gt;Huidige platformversie</dt>Engine
-<dt>Version: &lt; &gt; Antimalware Engine</dt>version Network Realtime Inspection engine
-<dt> &lt; &gt; version: Network Realtime Inspection</dt>engine Version Antivirus signature
+<dt>Platformversie: &lt; Huidige platformversie &gt; </dt>Engine
+<dt>Version: &lt; Antimalware Engine &gt; </dt>version
+<dt>Network Realtime Inspection engine &lt; &gt; version: Network Realtime Inspection</dt>engine Antivirus signature
 <dt>version: Antivirus &lt; signature &gt; </dt>version
 <dt>Antispyware signature version: &lt; &gt; </dt>
 <dt> &lt; &gt; </dt>Antispyware signature version Network Realtime Inspection signature version: Network Realtime Inspection signature version
-<dt>RTP state: Realtime protection state &lt; &gt; (Enabled or Disabled)</dt>OA state: On Access state
-<dt> &lt; &gt; (Enabled</dt>or Disabled)
-<dt>IOAV state: IEAV state: IEAV state Status downloads en Outlook &lt; Express-bijlagen (ingeschakeld of &gt; uitgeschakeld)</dt>
-<dt>BM-status: Status gedragscontrole (ingeschakeld of &lt; &gt; uitgeschakeld)</dt>Leeftijd antivirushandtekening: Leeftijd van antivirushandtekening
-<dt> &lt; &gt; (in dagen)</dt>
-<dt> &lt; Antispyware-handtekeningleeftijd: Antispyware-handtekeningleeftijd &gt; (in dagen)</dt>Laatste snelle scanleeftijd (in dagen) Laatste leeftijd van snelle scan
-<dt> &lt; &gt; (in dagen)</dt>Laatste volledige scanleeftijd(in
-<dt> &lt; &gt; dagen)</dt>
-<dt>Antivirushandtekeningstijd: ? &lt; Tijd voor &gt; het maken van</dt>
+<dt>RTP state: &lt; Realtime protection state &gt; (Enabled or Disabled)</dt>
+<dt>OA state: On Access state &lt; &gt; (Enabled</dt>or Disabled)
+<dt>IOAV state: IE Downloads and IE Downloads and &lt; Outlook Express Attachments state &gt; (Enabled</dt>or Disabled) BM
+<dt>state: Behavior Monitoring state &lt; &gt; (Enabled or Disabled)</dt>Antivirus signature
+<dt>age: Antivirus signature age &lt; &gt; (in days)</dt>
+<dt>Antispyware signature age: Antispyware signature age &lt; &gt; (in days)</dt>Last quick scan age(in days) Last quick scan age
+<dt> &lt; &gt; (in days)</dt>Last full scan age: Last full scan age
+<dt> &lt; &gt; (in days)</dt>Antivirus signature creation
+<dt>time: ? &lt; Tijd voor &gt; het maken van</dt>
 <dt>antivirushandtekeningen Antispyware-handtekening: ? &lt; Antispyware signature &gt; creation time Last</dt>
 <dt>quick scan start time: ? &lt; Laatste begintijd &gt; snelle scan Laatste</dt>
 <dt>eindtijd snelle scan: ? &lt; &gt;</dt>Laatste eindtijd snelle scan Laatste snelle scanbron: Laatste snelle scanbron
@@ -1424,7 +1425,7 @@ Antivirushandtekeningsversie is bijgewerkt.
 Gebruikersactie:
 </td>
 <td >
-Er is geen actie nodig. De Microsoft Defender Antivirus-client is in een gezonde staat. Deze gebeurtenis wordt gerapporteerd wanneer handtekeningen zijn bijgewerkt.
+Er is geen actie nodig. De Microsoft Defender Antivirus client is in een gezonde staat. Deze gebeurtenis wordt gerapporteerd wanneer handtekeningen zijn bijgewerkt.
 </td>
 </tr>
 <tr>
@@ -1450,7 +1451,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het bijwerken van handtekeningen.
+Microsoft Defender Antivirus is een fout opgetreden bij het bijwerken van handtekeningen.
 <dl>
 <dt>Nieuwe versie van beveiligingsinformatie: &lt; Nieuw versienummer &gt; </dt>
 <dt>Vorige versie van beveiligingsinformatie: Vorige &lt; versie &gt; </dt> 
@@ -1460,7 +1461,7 @@ Microsoft Defender Antivirus heeft een fout ondervonden bij het bijwerken van ha
 <li>Interne beveiligingsinformatieupdateserver</li>
 <li>Microsoft Update Server</li>
 <li>Bestands delen</li>
-<li>Microsoft Malware Protection Center (MMPC)</li>
+<li>Microsoft Centrum voor beveiliging tegen schadelijke software (MMPC)</li>
 </ul>
 </dt>
 <dt>Updatefase: &lt; &gt; Updatefase, bijvoorbeeld:
@@ -1525,7 +1526,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus engine version has been updated.
+Microsoft Defender Antivirus engine-versie is bijgewerkt.
 <dl>
 <dt>Huidige engine-versie: &lt; Huidige engine &gt; versie</dt>
 <dt>Vorige engine versie: Vorige engine &lt; versie &gt; </dt>Engine
@@ -1539,7 +1540,7 @@ Microsoft Defender Antivirus engine version has been updated.
 Gebruikersactie:
 </td>
 <td >
-Er is geen actie nodig. De Microsoft Defender Antivirus-client is in een gezonde staat. Deze gebeurtenis wordt gerapporteerd wanneer de antimalware-engine is bijgewerkt.
+Er is geen actie nodig. De Microsoft Defender Antivirus client is in een gezonde staat. Deze gebeurtenis wordt gerapporteerd wanneer de antimalware-engine is bijgewerkt.
 </td>
 </tr>
 <tr>
@@ -1565,7 +1566,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het bijwerken van de engine.
+Microsoft Defender Antivirus is een fout opgetreden bij het bijwerken van de engine.
 <dl>
 <dt>Nieuwe engineversie:</dt>
 <dt>vorige engineversie: vorige &lt; &gt; motorversie</dt>
@@ -1581,7 +1582,7 @@ Microsoft Defender Antivirus heeft een fout ondervonden bij het bijwerken van de
 Gebruikersactie:
 </td>
 <td >
-De Microsoft Defender Antivirus-clientupdate is mislukt. Deze gebeurtenis treedt op wanneer de client zichzelf niet kan bijwerken. Deze gebeurtenis is meestal het gevolg van een onderbreking van de netwerkverbinding tijdens een update.
+De Microsoft Defender Antivirus clientupdate is mislukt. Deze gebeurtenis treedt op wanneer de client zichzelf niet kan bijwerken. Deze gebeurtenis is meestal het gevolg van een onderbreking van de netwerkverbinding tijdens een update.
 Problemen met deze gebeurtenis oplossen:
 <ol>
 <li><a href="manage-updates-baselines-microsoft-defender-antivirus.md" data-raw-source="[Update definitions](manage-updates-baselines-microsoft-defender-antivirus.md)">Werk definities</a> bij en dwing een rescan rechtstreeks op het eindpunt af.</li>
@@ -1613,7 +1614,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout opgetreden bij het laden van handtekeningen en probeert terug te keren naar een bekende set handtekeningen.
+Microsoft Defender Antivirus is een fout opgetreden bij het laden van handtekeningen en wordt geprobeerd terug te keren naar een bekende set handtekeningen.
 <dl>
 <dt>Handtekeningen Geprobeerd:</dt>
 <dt>Foutcode: &lt; Foutcode &gt; Resultaatcode die is gekoppeld aan de bedreigingsstatus. Standaard HRESULT-waarden.</dt> 
@@ -1628,11 +1629,11 @@ Microsoft Defender Antivirus heeft een fout opgetreden bij het laden van handtek
 Gebruikersactie:
 </td>
 <td >
-De Microsoft Defender Antivirus-client heeft geprobeerd het nieuwste definitiebestand te downloaden en te installeren en is mislukt. Deze fout kan optreden wanneer de client een fout ondervindt tijdens het laden van de definities of als het bestand beschadigd is. Microsoft Defender Antivirus probeert terug te keren naar een bekende verzameling definities.
+De Microsoft Defender Antivirus client heeft geprobeerd het meest recente definitiebestand te downloaden en te installeren en is mislukt. Deze fout kan optreden wanneer de client een fout ondervindt tijdens het laden van de definities of als het bestand beschadigd is. Microsoft Defender Antivirus probeert terug te keren naar een bekende verzameling definities.
 Problemen met deze gebeurtenis oplossen:
 <ol>
 <li>Start de computer opnieuw en probeer het opnieuw.</li>
-<li>Download de meest recente definities van de <a href="https://aka.ms/wdsi">Microsoft Security Intelligence-site</a>.
+<li>Download de meest recente definities van <a href="https://aka.ms/wdsi">de Microsoft-beveiligingsinformatie site.</a>
 Opmerking: De grootte van het definitiebestand dat van de site is gedownload, kan groter zijn dan 60 MB en mag niet worden gebruikt als een langetermijnoplossing voor het bijwerken van definities.
 </li>
 <li>Contact opnemen met <a href="https://go.microsoft.com/fwlink/?LinkId=215491">Microsoft technische ondersteuning</a>.
@@ -1663,7 +1664,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus kan geen antimalware-engine laden omdat de huidige platformversie niet wordt ondersteund. Microsoft Defender Antivirus keert terug naar de laatste bekende engine en er wordt een platformupdate geprobeerd.
+Microsoft Defender Antivirus kan geen antimalware-engine laden omdat de huidige platformversie niet wordt ondersteund. Microsoft Defender Antivirus terug naar de laatste bekende goede engine en wordt een platformupdate geprobeerd.
 <dl>
 <dt>Huidige platformversie: &lt; huidige platformversie&gt;</dt>
 </dl>
@@ -1692,7 +1693,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het bijwerken van het platform.
+Microsoft Defender Antivirus is een fout opgetreden bij het bijwerken van het platform.
 <dl>
 <dt>Huidige platformversie: &lt; Huidige platformversie &gt; </dt>
 <dt>Foutcode: &lt; Foutcode &gt; Resultaatcode gekoppeld aan bedreigingsstatus. Standaard HRESULT-waarden.</dt> 
@@ -1723,7 +1724,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft binnenkort een nieuwere platformversie nodig ter ondersteuning van toekomstige versies van de antimalware-engine. Download het nieuwste Microsoft Defender Antivirus-platform om het beste beschermingsniveau te behouden dat beschikbaar is.
+Microsoft Defender Antivirus binnenkort een nieuwere platformversie nodig om toekomstige versies van de antimalware-engine te ondersteunen. Download het nieuwste Microsoft Defender Antivirus platform om het beste beschermingsniveau te behouden dat beschikbaar is.
 <dl>
 <dt>Huidige platformversie: &lt; huidige platformversie&gt;</dt>
 </dl>
@@ -1752,7 +1753,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft <i>Dynamic Signature Service gebruikt om</i> extra handtekeningen op te halen om uw computer te beschermen.
+Microsoft Defender Antivirus <i>Dynamic Signature Service gebruikt om</i> extra handtekeningen op te halen om uw computer te beveiligen.
 <dl>
 <dt>Huidige handtekeningversie: &lt; Huidige handtekeningversie &gt; </dt> 
 <dt> Handtekeningtype: &lt; type &gt; handtekening, bijvoorbeeld: <ul>
@@ -1808,7 +1809,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft <i>Dynamic Signature Service gebruikt om</i> verouderde handtekeningen te verwijderen.
+Microsoft Defender Antivirus <i>Dynamic Signature Service gebruikt om</i> verouderde handtekeningen te verwijderen.
 <dl>
 <dt>Huidige handtekeningversie: &lt; Huidige handtekeningversie &gt; </dt> 
 <dt> Handtekeningtype: &lt; type &gt; handtekening, bijvoorbeeld: <ul>
@@ -1847,7 +1848,7 @@ Microsoft Defender Antivirus heeft <i>Dynamic Signature Service gebruikt om</i> 
 Gebruikersactie:
 </td>
 <td >
-Er is geen actie nodig. De Microsoft Defender Antivirus-client is in een gezonde staat. Deze gebeurtenis wordt gerapporteerd wanneer de dynamische handtekeningservice de actuele dynamische definities verwijdert.
+Er is geen actie nodig. De Microsoft Defender Antivirus client is in een gezonde staat. Deze gebeurtenis wordt gerapporteerd wanneer de dynamische handtekeningservice de actuele dynamische definities verwijdert.
 </td>
 </tr>
 <tr>
@@ -1873,7 +1874,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het gebruik van <i>Dynamic Signature Service.</i>
+Microsoft Defender Antivirus is een fout opgetreden bij het gebruik van <i>Dynamic Signature Service.</i>
 <dl>
 <dt>Huidige handtekeningversie: &lt; Huidige handtekeningversie &gt; </dt> 
 <dt> Handtekeningtype: &lt; type &gt; handtekening, bijvoorbeeld: <ul>
@@ -1939,7 +1940,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft alle handtekeningen van <i>de Dynamic Signature Service</i> verwijderd.
+Microsoft Defender Antivirus alle <i>dynamische handtekeningservicehandtekeningen</i> verwijderd.
 <dl>
 <dt>Huidige handtekeningversie: &lt; huidige handtekeningversie&gt;</dt>
 </dl>
@@ -1968,7 +1969,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een schoon bestand gedownload.
+Microsoft Defender Antivirus een schoon bestand gedownload.
 <dl>
 <dt>Bestandsnaam: &lt; Bestandsnaam &gt; Van het bestand.</dt> 
 <dt>Huidige handtekeningversie: &lt; Huidige handtekeningversie &gt; </dt>
@@ -1999,7 +2000,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het downloaden van een schoon bestand.
+Microsoft Defender Antivirus is een fout opgetreden bij het downloaden van een schoon bestand.
 <dl>
 <dt>Bestandsnaam: &lt; Bestandsnaam &gt; Van het bestand.</dt> 
 <dt>Huidige handtekeningversie: &lt; Huidige handtekeningversie &gt; </dt>
@@ -2015,7 +2016,7 @@ Gebruikersactie:
 </td>
 <td >
 Controleer de instellingen voor uw internetverbinding.
-De Microsoft Defender Antivirus-client heeft een fout ondervonden bij het gebruik van de Dynamic Signature Service om de meest recente definities van een specifieke bedreiging te downloaden. Deze fout wordt waarschijnlijk veroorzaakt door een probleem met de netwerkverbinding. 
+De Microsoft Defender Antivirus client heeft een fout ondervonden bij het gebruik van de Dynamic Signature Service om de meest recente definities naar een specifieke bedreiging te downloaden. Deze fout wordt waarschijnlijk veroorzaakt door een probleem met de netwerkverbinding. 
 </td>
 </tr>
 <tr>
@@ -2041,7 +2042,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus gedownload en geconfigureerd offline antivirusprogramma's om bij de volgende herstart uit te voeren.
+Microsoft Defender Antivirus offline antivirusprogramma gedownload en geconfigureerd om bij de volgende herstart uit te voeren.
 </td>
 </tr>
 <tr>
@@ -2067,7 +2068,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft een fout ondervonden bij het downloaden en configureren van offline antivirusprogramma's.
+Microsoft Defender Antivirus is een fout opgetreden bij het downloaden en configureren van offline antivirusprogramma's.
 <dl>
 <dt>Foutcode: &lt; Foutcode &gt; Resultaatcode die is gekoppeld aan de bedreigingsstatus. Standaard HRESULT-waarden.</dt> 
 <dt>Foutbeschrijving: &lt; Foutbeschrijving &gt; Beschrijving van de fout.</dt>
@@ -2097,7 +2098,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-De ondersteuning voor uw besturingssysteem verloopt binnenkort. Microsoft Defender Antivirus uitvoeren op een niet-ondersteund besturingssysteem is geen geschikte oplossing om te beschermen tegen bedreigingen.
+De ondersteuning voor uw besturingssysteem verloopt binnenkort. Het Microsoft Defender Antivirus uitvoeren op een niet-ondersteunend besturingssysteem is geen geschikte oplossing om u te beschermen tegen bedreigingen.
 </td>
 </tr>
 <tr>
@@ -2123,7 +2124,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-De ondersteuning voor uw besturingssysteem is verlopen. Microsoft Defender Antivirus uitvoeren op een niet-ondersteund besturingssysteem is geen geschikte oplossing om te beschermen tegen bedreigingen.
+De ondersteuning voor uw besturingssysteem is verlopen. Het Microsoft Defender Antivirus uitvoeren op een niet-ondersteunend besturingssysteem is geen geschikte oplossing om u te beschermen tegen bedreigingen.
 </td>
 </tr>
 <tr>
@@ -2149,7 +2150,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-De ondersteuning voor uw besturingssysteem is verlopen. Microsoft Defender Antivirus wordt niet meer ondersteund op uw besturingssysteem, werkt niet meer en beschermt niet meer tegen malwarerisico's.
+De ondersteuning voor uw besturingssysteem is verlopen. Microsoft Defender Antivirus wordt niet meer ondersteund op uw besturingssysteem, werkt niet meer en beschermt niet meer tegen malwaredreigingen.
 </td>
 </tr>
 <tr>
@@ -2187,7 +2188,7 @@ Microsoft Defender Antivirus Real-Time Protection-functie is een fout opgetreden
 </dt>
 <dt>Foutcode: &lt; Foutcode &gt; Resultaatcode die is gekoppeld aan de bedreigingsstatus. Standaard HRESULT-waarden.</dt> 
 <dt>Foutbeschrijving: &lt; Foutbeschrijving &gt; Beschrijving van de fout.</dt> 
-<dt>Reden: De reden waarom Microsoft Defender Antivirus realtime-beveiliging een functie opnieuw heeft gestart.</dt>
+<dt>Reden: De reden Microsoft Defender Antivirus realtimebeveiliging een functie opnieuw heeft gestart.</dt>
 </dl>
 </td>
 </tr>
@@ -2197,7 +2198,7 @@ Gebruikersactie:
 </td>
 <td >
 Start het systeem opnieuw op en voer een volledige scan uit omdat&#39;mogelijk dat het systeem enige tijd niet is beveiligd.
-De Microsoft Defender Antivirus-client&#39;in realtime beveiligingsfunctie is een fout opgetreden omdat een van de services niet is begonnen. Als dit wordt gevolgd door een gebeurtenis-id van 3007, is de fout tijdelijk en is de antimalwareclient hersteld van de fout. 
+De Microsoft Defender Antivirus client&#39;in realtime beveiligingsfunctie is een fout opgetreden omdat een van de services niet kon worden begonnen. Als dit wordt gevolgd door een gebeurtenis-id van 3007, is de fout tijdelijk en is de antimalwareclient hersteld van de fout. 
 </td>
 </tr>
 <tr>
@@ -2223,7 +2224,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus Real-time Protection heeft een functie opnieuw opgestart. U wordt aangeraden een volledige systeemscan uit te voeren om items te detecteren die mogelijk zijn gemist terwijl deze agent in de problemen was.
+Microsoft Defender Antivirus Real-time Protection heeft een functie opnieuw gestart. U wordt aangeraden een volledige systeemscan uit te voeren om items te detecteren die mogelijk zijn gemist terwijl deze agent in de problemen was.
 <dl>
 <dt>Functie: &lt; &gt; Functie, bijvoorbeeld:
 <ul>
@@ -2233,7 +2234,7 @@ Microsoft Defender Antivirus Real-time Protection heeft een functie opnieuw opge
 <li>Netwerkcontrolesysteem</li>
 </ul>
 </dt>
-<dt>Reden: De reden waarom Microsoft Defender Antivirus realtime-beveiliging een functie opnieuw heeft gestart.</dt>
+<dt>Reden: De reden Microsoft Defender Antivirus realtimebeveiliging een functie opnieuw heeft gestart.</dt>
 </dl>
 </td>
 </tr>
@@ -2268,7 +2269,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus realtime beveiligingsscans voor malware en andere mogelijk ongewenste software is ingeschakeld.
+Microsoft Defender Antivirus in realtime beveiligingsscans voor malware en andere mogelijk ongewenste software is ingeschakeld.
 </td>
 </tr>
 <tr>
@@ -2294,7 +2295,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus realtime beveiligingsscans voor malware en andere mogelijk ongewenste software is uitgeschakeld. 
+Microsoft Defender Antivirus realtime beveiligingsscan voor malware en andere mogelijk ongewenste software is uitgeschakeld. 
 </td>
 </tr>
 <tr>
@@ -2320,7 +2321,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-De configuratie van de beveiligingsfunctie van Microsoft Defender Antivirus in realtime is gewijzigd.
+Microsoft Defender Antivirus de configuratie van realtimebeveiligingsfunctie is gewijzigd.
 <dl>
 <dt>Functie: &lt; &gt; Functie, bijvoorbeeld:
 <ul>
@@ -2357,7 +2358,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-De configuratie van Microsoft Defender Antivirus is gewijzigd. Als dit een onverwachte gebeurtenis is, moet u de instellingen controleren, omdat dit het gevolg kan zijn van malware.
+Microsoft Defender Antivirus configuratie is gewijzigd. Als dit een onverwachte gebeurtenis is, moet u de instellingen controleren, omdat dit het gevolg kan zijn van malware.
 <dl>
 <dt>Oude waarde: &lt; Oud waardenummer &gt; Oude antivirusconfiguratiewaarde.</dt> 
 <dt>Nieuwe waarde: &lt; Nieuw waardenummer &gt; Nieuwe antivirusconfiguratiewaarde.</dt>
@@ -2387,7 +2388,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus engine is beëindigd vanwege een onverwachte fout.
+Microsoft Defender Antivirus is beëindigd vanwege een onverwachte fout.
 <dl>
 <dt>Type fout: &lt; Type fout &gt; , bijvoorbeeld: Crash of Hang</dt>Exception
 <dt>Code: &lt; Foutcode &gt; </dt>
@@ -2416,7 +2417,7 @@ Problemen met deze gebeurtenis oplossen:<ol>
 Gebruikersactie:
 </td>
 <td >
-De Microsoft Defender Antivirus-client engine is gestopt vanwege een onverwachte fout.
+De Microsoft Defender Antivirus client engine is gestopt vanwege een onverwachte fout.
 Problemen met deze gebeurtenis oplossen:
 <ol>
 <li>Voer de scan opnieuw uit.</li>
@@ -2449,7 +2450,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus scanning for malware and other potentially unwanted software has been enabled.
+Microsoft Defender Antivirus scannen op malware en andere mogelijk ongewenste software is ingeschakeld.
 </td>
 </tr>
 <tr>
@@ -2475,7 +2476,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus scanning for malware and other potentially unwanted software is disabled.
+Microsoft Defender Antivirus scannen op malware en andere mogelijk ongewenste software is uitgeschakeld.
 </td>
 </tr>
 <tr>
@@ -2556,7 +2557,7 @@ Beschrijving:
 Microsoft Defender Antivirus heeft een respijtperiode ingevoerd en verloopt binnenkort. Na verloop van tijd schakelt dit programma de beveiliging tegen virussen, spyware en andere mogelijk ongewenste software uit.
 <dl>
 <dt>Vervaldatum: De reden waarom Microsoft Defender Antivirus verloopt.</dt> 
-<dt>Vervaldatum: de datum waarop Microsoft Defender Antivirus verloopt.</dt>
+<dt>Vervaldatum: De datum waarop Microsoft Defender Antivirus verloopt.</dt>
 </dl>
 </td>
 </tr>
@@ -2583,7 +2584,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-De respijtperiode van Microsoft Defender Antivirus is verlopen. Beveiliging tegen virussen, spyware en andere mogelijk ongewenste software is uitgeschakeld.
+Microsoft Defender Antivirus respijtperiode is verlopen. Beveiliging tegen virussen, spyware en andere mogelijk ongewenste software is uitgeschakeld.
 <dl>
 <dt>Vervaldatum: vervaldatum:</dt>
 <dt> </dt> 
@@ -2595,11 +2596,11 @@ De respijtperiode van Microsoft Defender Antivirus is verlopen. Beveiliging tege
 </table>
 
 <a id="error-codes"></a>
-## Foutcodes voor Microsoft Defender Antivirus-client Als Microsoft Defender Antivirus problemen krijgt, krijgt u meestal een foutcode om het probleem op te lossen. Meestal betekent een fout dat er een probleem is opgetreden bij het installeren van een update.
-In deze sectie vindt u de volgende informatie over fouten in de Microsoft Defender Antivirus-client.
+##Microsoft Defender Antivirus clientfoutcodes als Microsoft Defender Antivirus problemen krijgt, krijgt u meestal een foutcode om het probleem op te lossen. Meestal betekent een fout dat er een probleem is opgetreden bij het installeren van een update.
+In deze sectie vindt u de volgende informatie over Microsoft Defender Antivirus clientfouten.
 -   De foutcode -   De mogelijke reden voor de fout Advies over wat u nu moet -   doen
 
-Gebruik de informatie in deze tabellen om problemen met Microsoft Defender Antivirus-foutcodes op te lossen.
+Gebruik de informatie in deze tabellen om problemen met foutcodes Microsoft Defender Antivirus oplossen.
 
 
 <table> 
@@ -2642,9 +2643,9 @@ Deze fout geeft aan dat er mogelijk een probleem is met uw beveiligingsproduct.
 </tr><tr><td>Oplossing</td><td>
 <ol>
 <li>Werk de definities bij. Een van de volgende:<ol>
-<li>Klik op <b>de knop Definities</b> bijwerken op <b>het tabblad Bijwerken</b> in Microsoft Defender Antivirus. <img src="images/defender-updatedefs2.png" alt="Update definitions in Microsoft Defender Antivirus"/>Of:
+<li>Klik op <b>de knop Definities</b> bijwerken op het <b>tabblad Bijwerken</b> in Microsoft Defender Antivirus. <img src="images/defender-updatedefs2.png" alt="Update definitions in Microsoft Defender Antivirus"/>Of:
 </li>
-<li>Download de meest recente definities van de <a href="https://aka.ms/wdsi">Microsoft Security Intelligence-site</a>.
+<li>Download de meest recente definities van <a href="https://aka.ms/wdsi">de Microsoft-beveiligingsinformatie site.</a>
 Opmerking: De grootte van het definitiebestand dat van de site is gedownload, kan groter zijn dan 60 MB en mag niet worden gebruikt als een langetermijnoplossing voor het bijwerken van definities.
 </li>
 </ol>
@@ -2671,7 +2672,7 @@ Deze fout geeft aan dat er mogelijk een motorconfiguratiefout is opgetreden. mee
 <td><b>ERR_MP_QUARANTINE_FAILED </b>
 </td></tr><tr><td>Mogelijke reden</td>
 <td>
-Deze fout geeft aan dat Microsoft Defender Antivirus een bedreiging niet in quarantaine heeft geplaatst. 
+Deze fout geeft aan dat Microsoft Defender Antivirus bedreiging niet in quarantaine kan plaatsen. 
 </td>
 </tr>
 <tr>
@@ -2696,7 +2697,7 @@ Deze fout geeft aan dat de bedreiging mogelijk niet meer aanwezig is op de media
 </tr><tr><td>Oplossing
 </td>
 <td>
-Voer de <a href="https://www.microsoft.com/security/scanner/default.aspx">Microsoft-veiligheidsscanner uit</a> en werk de beveiligingssoftware bij en probeer het opnieuw. 
+Voer de <a href="https://www.microsoft.com/security/scanner/default.aspx">Microsoft-beveiligingsscanner</a> vervolgens uw beveiligingssoftware bij en probeer het opnieuw. 
 </td>
 </tr>
 <tr>
@@ -2733,7 +2734,7 @@ Volg de handmatige herstelstappen die worden beschreven in de <a href="https://w
 <td>
 Deze fout geeft aan dat verwijdering binnen het containertype mogelijk niet wordt ondersteund. 
 </td></tr><tr><td>Oplossing</td><td>
-Microsoft Defender Antivirus kan bedreigingen die zijn gedetecteerd in het archief niet herstellen. U kunt de gedetecteerde resources handmatig verwijderen. 
+Microsoft Defender Antivirus is niet in staat om gedetecteerde bedreigingen in het archief te herstellen. U kunt de gedetecteerde resources handmatig verwijderen. 
 </td>
 </tr>
 <tr>
@@ -2769,7 +2770,7 @@ Voer een volledige systeemscan uit.
 <td>
 Deze fout geeft aan dat een offlinescan vereist is. 
 </td></tr><tr><td>Oplossing</td><td>
-Offline Microsoft Defender Antivirus uitvoeren. U kunt lezen hoe u dit doet in het <a href="https://windows.microsoft.com/windows/what-is-windows-defender-offline">offline Microsoft Defender Antivirus-artikel.</a>
+Offline uitvoeren Microsoft Defender Antivirus. U kunt lezen hoe u dit doet in het offline Microsoft Defender Antivirus <a href="https://windows.microsoft.com/windows/what-is-windows-defender-offline">artikel.</a>
 </td>
 </tr>
 <tr>
@@ -2781,11 +2782,11 @@ Offline Microsoft Defender Antivirus uitvoeren. U kunt lezen hoe u dit doet in h
 <td>
 Deze fout geeft aan dat Microsoft Defender Antivirus de huidige versie van het platform niet ondersteunt en een nieuwe versie van het platform vereist. 
 </td></tr><tr><td>Oplossing</td><td>
-U kunt Microsoft Defender Antivirus alleen gebruiken in Windows 10. Voor Windows 8, Windows 7 en Windows Vista kunt u <a href="https://www.microsoft.com/server-cloud/system-center/endpoint-protection-2012.aspx">System Center Endpoint Protection gebruiken.</a><br/></td>
+U kunt alleen Microsoft Defender Antivirus in Windows 10. Voor Windows 8, Windows 7 en Windows Vista kunt u <a href="https://www.microsoft.com/server-cloud/system-center/endpoint-protection-2012.aspx">System Center Endpoint Protection.</a><br/></td>
 </tr>
 </table>
 
-<a id="internal-error-codes"></a> De volgende foutcodes worden gebruikt tijdens interne tests van Microsoft Defender Antivirus.
+<a id="internal-error-codes"></a>De volgende foutcodes worden gebruikt tijdens interne tests van Microsoft Defender Antivirus.
 
 Als u deze fouten ziet, kunt u proberen definities [bij te](manage-updates-baselines-microsoft-defender-antivirus.md) werken en een rescan rechtstreeks op het eindpunt af te dwingen.
 

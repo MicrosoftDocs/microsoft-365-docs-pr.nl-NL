@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,20 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
-- commerce
 ms.custom:
 - SaRA
 - AdminSurgePortfolio
-search.appverid:
-- MET150
+- commerce_subscriptions
+- PPM_jmueller
+search.appverid: MET150
 description: Meer informatie over het upgraden naar een ander abonnement.
-ms.openlocfilehash: c8d71e6ab79bfea35334f2c034dbc13f60397227
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.date: 04/21/2021
+ms.openlocfilehash: d9adf8bb18279d5057278a7c55cd751838325bc2
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939170"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280437"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
 
@@ -36,20 +37,13 @@ Wanneer uw bedrijf verandert of als u meer functies nodig hebt, kunt u een upgra
 Wanneer u het tabblad **Upgrade** gebruikt, wordt u geleid door het proces van het kopen van een nieuw abonnement. Alle gebruikers krijgen automatisch licenties toegewezen in het nieuwe abonnement en uw oude abonnement wordt voor u geannuleerd.
 
 1. Ga in het beheercentrum naar de **pagina Facturering** van \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
-
 2. Selecteer het abonnement dat u wilt upgraden.
-
 3. Selecteer upgraden op de pagina **abonnementsgegevens.**
-
 4. Zoek het plan waarvoor u een upgrade wilt uitvoeren en selecteer vervolgens de **knop Upgrade.**
-
 5. Voer het aantal licenties in dat u nodig hebt, kies of u elke maand of het hele jaar wilt betalen en selecteer **vervolgens Ga naar afrekenen.**
-
     > [!NOTE]
     > Zorg ervoor dat u voldoende licenties koopt voor al uw gebruikers.
-
 6. Controleer op de volgende pagina het adres **Verkocht** aan, de **gefactureerde** informatie en **Items in deze volgorde.** U kunt de standaardbetalingsmethode in deze stap wijzigen. Als u wijzigingen wilt aanbrengen, **selecteert** u Wijzigen naast de betreffende sectie.
-
 7. Wanneer u klaar bent, selecteert u **Volgorde plaatsen.**
 
 Wanneer u klaar bent met uitchecken, kan het enkele minuten duren voordat de upgrade is voltooid. U kunt direct aan de slag met uw nieuwe abonnement. Selecteer **Upgradestatus controleren** om de voortgang van de upgrade te controleren. U krijgt een melding wanneer de upgrade is voltooid. De melding wordt weergegeven op de pagina **Uw producten,** naast uw nieuwe abonnement.
@@ -62,7 +56,7 @@ Als het **tabblad Upgrade** leeg is, ziet u een uitleg waarom u op dit moment ge
 
 Wanneer u het tabblad **Upgrade** gebruikt, worden de abonnementen die u kunt upgraden weergegeven op basis van de services in uw huidige abonnement. U kunt het tabblad **Upgrade** alleen gebruiken om naar een abonnement te gaan dat dezelfde gegevensgerelateerde services heeft of naar een hogere versie. Dit zorgt ervoor dat gebruikers tijdens de wijziging geen gegevens verliezen die betrekking hebben op deze services.
 
-Als u naar een abonnement met minder services wilt gaan, kunt u plannen handmatig wijzigen [of](change-plans-manually.md)ondersteuning [bellen](../../admin/contact-support-for-business-products.md) voor hulp.
+Als u naar een abonnement met minder services wilt gaan, kunt u plannen handmatig wijzigen [of](change-plans-manually.md)ondersteuning [bellen](../../business-video/get-help-support.md) voor hulp.
 
 ## <a name="i-only-want-to-upgrade-some-of-my-users-how-do-i-do-that"></a>Ik wil alleen een upgrade uitvoeren naar een aantal van mijn gebruikers. Hoe doe ik dat?
 
@@ -80,43 +74,43 @@ Als u geen abonnementen ziet op het tabblad **Upgrade,** betekent dit dat uw abo
 
 ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Waarom worden er geen plannen vermeld om te upgraden?
 
-#### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>U kunt abonnementen nu niet upgraden omdat u meer gebruikers hebt dan licenties.
+#### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>U kunt abonnementen nu niet upgraden omdat u meer gebruikers hebt dan licenties
 
-Als u abonnementen automatisch wilt upgraden, moeten alle gebruikers geldige licenties krijgen toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u plannen op het **tabblad Upgrade.** Zo niet, dan kunt u [abonnementen handmatig wijzigen](change-plans-manually.md)of ondersteuning [bellen.](../../admin/contact-support-for-business-products.md)
+Als u abonnementen automatisch wilt upgraden, moeten alle gebruikers geldige licenties krijgen toegewezen. Als u meer licenties hebt toegewezen dan u hebt gekocht, ziet u op de pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a> een waarschuwing dat u een licentieconflict hebt dat moet worden opgelost. [Meer informatie over het oplossen van licentieconflicten](../../commerce/licenses/buy-licenses.md). Nadat u licentieconflicten hebt opgelost, ziet u plannen op het **tabblad Upgrade.** Zo niet, dan kunt u [abonnementen handmatig wijzigen](change-plans-manually.md)of ondersteuning [bellen.](../../business-video/get-help-support.md)
 
-#### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>U kunt momenteel geen upgrade van abonnementen uitvoeren omdat dit abonnement niet volledig is ingesteld of omdat de service niet beschikbaar is.
+#### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>U kunt momenteel geen upgrade van abonnementen uitvoeren omdat dit abonnement niet volledig is ingesteld of de service niet beschikbaar is
 
 Als een van de services bijvoorbeeld een incident heeft, kunt u pas upgraden als alle services gezond zijn. Als u wilt zien of er problemen zijn met de inrichting of de service, gaat u in het beheercentrum naar de **statuspagina** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">van de gezondheidsservice.</a>
 
-Als een service niet volledig is ingericht of als er een probleem is met de servicestatus, wacht u enkele uren totdat de service beschikbaar is en probeert u het opnieuw. Als u nog steeds een probleem hebt, belt [u de ondersteuning.](../../admin/contact-support-for-business-products.md)
+Als een service niet volledig is ingericht of als er een probleem is met de servicestatus, wacht u enkele uren totdat de service beschikbaar is en probeert u het opnieuw. Als u nog steeds een probleem hebt, belt [u de ondersteuning.](../../business-video/get-help-support.md)
 
-#### <a name="you-cant-upgrade-plans-because-another-plan-is-in-the-process-of-being-upgraded-or-is-pending-a-credit-check"></a>U kunt geen upgrade van abonnementen uitvoeren omdat er een ander abonnement wordt bijgewerkt of in behandeling is voor een kredietcontrole.
+#### <a name="you-cant-upgrade-plans-because-another-plan-is-in-the-process-of-being-upgraded-or-is-pending-a-credit-check"></a>U kunt geen upgrade van abonnementen uitvoeren omdat een ander abonnement wordt bijgewerkt of in behandeling is voor een kredietcontrole
 
 Wacht totdat de kredietcontrole is voltooid voordat u een upgrade van abonnementen hebt uitgevoerd. Kredietcontroles duren maximaal twee werkdagen.
 
-#### <a name="currently-this-subscription-is-not-eligible-to-upgrade"></a>Op dit moment komt dit abonnement niet in aanmerking voor een upgrade.
+#### <a name="currently-this-subscription-is-not-eligible-to-upgrade"></a>Op dit moment komt dit abonnement niet in aanmerking voor een upgrade
 
-U kunt [abonnementen handmatig wijzigen of](change-plans-manually.md) ondersteuning [bellen.](../../admin/contact-support-for-business-products.md)
+U kunt [abonnementen handmatig wijzigen of](change-plans-manually.md) ondersteuning [bellen.](../../business-video/get-help-support.md)
 
-#### <a name="i-see-a-different-message-than-whats-listed-here"></a>Ik zie een ander bericht dan hier wordt vermeld.
+#### <a name="i-see-a-different-message-than-whats-listed-here"></a>Ik zie een ander bericht dan wat hier wordt weergegeven
 
-U kunt [abonnementen handmatig wijzigen of](change-plans-manually.md) ondersteuning [bellen.](../../admin/contact-support-for-business-products.md)
+U kunt [abonnementen handmatig wijzigen of](change-plans-manually.md) ondersteuning [bellen.](../../business-video/get-help-support.md)
 
 ### <a name="additional-reasons-you-cant-upgrade"></a>Extra redenen waarom u geen upgrade kunt uitvoeren
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>U hebt twee of meer abonnementen voor hetzelfde product
 
-U kunt het tabblad **Upgrade alleen** gebruiken als alle gebruikers zich abonneren op hetzelfde abonnement. Als u bijvoorbeeld twee Microsoft 365 Business Standard-abonnementen hebt, kunt u een van deze abonnementen niet automatisch upgraden naar een ander abonnement.
+U kunt het tabblad **Upgrade alleen** gebruiken als alle gebruikers zich abonneren op hetzelfde abonnement. Als u bijvoorbeeld twee Microsoft 365 Business Standard hebt, kunt u een van deze abonnementen niet automatisch upgraden naar een ander abonnement.
 
 #### <a name="you-have-a-prepaid-plan"></a>U hebt een vooraf betaald abonnement
 
 Als u vooraf voor uw abonnement hebt betaald, kunt u mogelijk handmatig abonnementen [wijzigen.](change-plans-manually.md) U ontvangt echter geen tegoed voor ongebruikte tijd die overblijft voor uw huidige abonnement als u een upgrade van abonnementen hebt uitgevoerd voordat het huidige abonnement verloopt.
 
-U kunt ook [ondersteuning bellen](../../admin/contact-support-for-business-products.md) voor hulp.
+U kunt ook [ondersteuning bellen](../../business-video/get-help-support.md) voor hulp.
 
 #### <a name="you-have-a-government-or-non-profit-plan"></a>U hebt een abonnement voor overheid of non-profit
 
-Als u een overheids- of non-profitplan hebt, kunt u plannen [handmatig wijzigen](change-plans-manually.md) of [ondersteuning bellen](../../admin/contact-support-for-business-products.md) voor hulp.
+Als u een overheids- of non-profitplan hebt, kunt u plannen [handmatig wijzigen](change-plans-manually.md) of [ondersteuning bellen](../../business-video/get-help-support.md) voor hulp.
 
 #### <a name="the-subscription-that-you-want-to-upgrade-from-has-a-temporary-issue"></a>Het abonnement waar u een upgrade van wilt uitvoeren, heeft een tijdelijk probleem
 
@@ -126,7 +120,7 @@ Mogelijk ziet u geen abonnementen op het tabblad **Upgrade** omdat de service be
 
 Wanneer u een upgrade van abonnementen hebt uitgevoerd, worden de abonnementen die beschikbaar zijn om te upgraden weergegeven op basis van de services in uw huidige abonnement. U kunt alleen een upgrade uitvoeren naar een abonnement met dezelfde gegevensgerelateerde services, zoals Exchange Online of SharePoint Online, of naar een hogere versie ervan. Dit zorgt ervoor dat gebruikers tijdens de upgrade geen gegevens verliezen die betrekking hebben \' op deze services.
 
-Als uw abonnement niet in aanmerking komt voor het [](change-plans-manually.md)automatisch bijwerken van abonnementen, kunt u in plaats daarvan mogelijk handmatig plannen wijzigen. U kunt ook [ondersteuning bellen](../../admin/contact-support-for-business-products.md) voor hulp.
+Als uw abonnement niet in aanmerking komt voor het [](change-plans-manually.md)automatisch bijwerken van abonnementen, kunt u in plaats daarvan mogelijk handmatig plannen wijzigen. U kunt ook [ondersteuning bellen](../../business-video/get-help-support.md) voor hulp.
 
 #### <a name="your-subscription-has-an-add-on"></a>Uw abonnement heeft een invoegvoegvoeging
 
@@ -142,9 +136,9 @@ Wanneer u abonnementen automatisch upgradet met behulp van de knop Van abonnemen
 
 ### <a name="access-to-services"></a>Toegang tot services
 
- **Beheerders kunnen** het beheercentrum niet gebruiken terwijl het abonnement wordt bijgewerkt. Dit duurt maximaal een uur.
+**Beheerders kunnen** het beheercentrum niet gebruiken terwijl het abonnement wordt bijgewerkt. Dit duurt maximaal een uur.
   
- **Gebruikers** merken geen onderbreking van de service. Ze blijven de bestaande service gebruiken totdat de upgrade volledig is voltooid.
+**Gebruikers** merken geen onderbreking van de service. Ze blijven de bestaande service gebruiken totdat de upgrade volledig is voltooid.
   
 ### <a name="users-and-licenses"></a>Gebruikers en licenties
 
@@ -154,7 +148,7 @@ Als uw oude abonnement meerdere services bevat en als u hebt gewijzigd aan welke
   
 Als u meerdere abonnementen hebt voordat u een upgrade maakt en gebruikers licenties hebt toegewezen aan meer dan één abonnement, wordt dit toewijzingspatroon zo veel mogelijk bewaard in het nieuwe abonnement.
   
-Alle gebruikersgegevens worden bewaard tijdens de upgrade, inclusief Exchange-postvakken en SharePoint Online-documenten, lijsten en andere informatie.
+Alle gebruikersgegevens worden bewaard tijdens de upgrade, Exchange postvakken en SharePoint onlinedocumenten, lijsten en andere informatie.
   
 ### <a name="billing"></a>Facturering
 
@@ -167,10 +161,9 @@ De dag dat de upgrade van uw abonnement is voltooid, wordt de facturering van uw
 
 ## <a name="call-support-to-help-you-upgrade-plans"></a>Bel ondersteuning om u te helpen bij het upgraden van abonnementen
 
-[Microsoft-ondersteuning bellen](../../admin/contact-support-for-business-products.md)
+[Microsoft-ondersteuning bellen](../../business-video/get-help-support.md)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Abonnementen handmatig wijzigen](change-plans-manually.md)
-
-[Een back-up maken van gegevens voordat u overschakelt naar Microsoft 365 voor Bedrijven-abonnementen](back-up-data-before-switching-plans.md)
+[Abonnementen handmatig wijzigen](change-plans-manually.md) (artikel)\
+[Een back-up maken van gegevens voordat Microsoft 365 abonnementen voor bedrijven](back-up-data-before-switching-plans.md) (artikel)

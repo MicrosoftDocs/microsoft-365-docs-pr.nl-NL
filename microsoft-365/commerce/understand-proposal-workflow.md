@@ -5,23 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: presharm
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
-search.appverid:
-- MET150
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- commerce_purchase
+- PPM_jmueller
+search.appverid: MET150
 description: Meer informatie over voorstellen om u te helpen bij het kopen van Microsoft-producten en -services.
 ROBOTS: NOINDEX
-ms.openlocfilehash: b7165db7acd33f9175b6d9d3c86b1f93b2486c43
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: a3c91168c90b91d83a9aa116c1ff57d103b3c48c
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921802"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280869"
 ---
 # <a name="understand-the-proposal-workflow"></a>De werkstroom voor voorstellen begrijpen
 
@@ -59,23 +64,18 @@ Als dit een nieuw factureringsaccount is en niemand een overeenkomst heeft geacc
 
 - Wordt de persoon in het voorstel benoemd\
     OF
-- Zijn al een [globale Azure Active Directory-beheerder](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) voor uw organisatie
+- Bent u al [Azure Active Directory globale beheerder](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) voor uw organisatie
 
 ## <a name="what-is-the-overall-workflow"></a>Wat is de algehele werkstroom?
 
 De werkstroom voor het totale voorstel ziet er als volgende uit:
 
 - Uw Microsoft-vertegenwoordiger maakt een voorstel en stuurt een koppeling naar u in een e-mailbericht.
-
 - U gebruikt de koppeling om naar de aanmeldingspagina van het voorstel te gaan.
-
 - U bekijkt de gegevens van uw organisatie.
-
 - U bekijkt het voorstel, accepteert indien nodig de MCA en rondt het afrekenen af.
-
     > [!IMPORTANT]
     > U moet de bevoegdheid hebben om een MCA namens uw organisatie te ondertekenen. Als u die bevoegdheid niet hebt, moet iemand die dit doet deze stap doen.
-
 - Nadat het uitchecken is voltooid, krijgt u extra koppelingen om uw producten en services in te stellen.
 
 ## <a name="proposal-terms"></a>Voorstelvoorwaarden
@@ -86,7 +86,7 @@ De volgende tabel bevat termen en definities die worden weergegeven in uw voorst
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Factureringsaccount | Een account dat wordt gebruikt voor het beheren van uw accountinstellingen, facturen, betalingsmethoden en producten. |
 | Factureringsprofiel | Informatie over uw organisatie waarmee u kunt aanpassen welke items op uw factuur zijn opgenomen en hoe u uw facturen betaalt. Het factureringsprofiel bevat de naam van het factureringsaccount, de betalingsmethoden die worden gebruikt voor het specifieke factureringsprofiel, contactgegevens, factuurinstellingen en machtigingen waarmee u het factureringsprofiel kunt wijzigen, facturen kunt betalen en producten en services kunt kopen. |
-| Bestaande overeenkomsten | Een overeenkomst die uw organisatie al met Microsoft heeft gesloten. Dit kan bestaan uit een ondernemingsovereenkomst, een Microsoft Product & Services-overeenkomst of Microsoft-klantovereenkomst, maar is niet beperkt tot. |
+| Bestaande overeenkomsten | Een overeenkomst die uw organisatie al met Microsoft heeft gesloten. Dit kan bestaan uit, maar is niet beperkt tot een Enterprise Agreement, Microsoft Product & Services Agreement of Microsoft Customer Agreement. |
 | Microsoft Customer Agreement (MCA) | Een overeenkomst met een overzicht van de voorwaarden van het account dat uw organisatie met Microsoft heeft. |
 | Microsoft-vertegenwoordiger | Een geautoriseerde Microsoft-vertegenwoordiger die een voorstel voor u en uw organisatie voorbereidt. |
 | Organisatie | Een juridische entiteit die microsoft-producten, -technologieën of -services gebruikt. |
@@ -101,7 +101,7 @@ Nadat u zich hebt aanmelden, controleert u eerst de gegevens van uw organisatie.
 
 In **de sectie** Uw organisatie wordt het factureringsaccount weergegeven dat daaraan is gekoppeld. De factureringsaccountgegevens worden uit een bestaand factureringsaccount gehaald of voor u gemaakt door de Microsoft-vertegenwoordiger. Als uw organisatie een partner is van een andere organisatie, ziet u ook een sectie Lead **organization** met de naam en het adres van die organisatie.
 
-Als dit de eerste keer is dat uw organisatie een commerciële relatie met Microsoft aan het  opbouwen **is** en u nog geen MCA hebt ondertekend, neem dan contact op met de vertegenwoordiger als de gegevens onder Uw organisatie of Organisatie leiden onjuist zijn. Nadat u een MCA hebt geaccepteerd, kunt u het adres en [](https://go.microsoft.com/fwlink/p/?linkid=2084771) de contactgegevens van uw organisatie bekijken en wijzigen op de pagina Factureringsaccounts in het Microsoft 365-beheercentrum. Als de naam van uw organisatie verandert, opent u een serviceaanvraag om deze te laten bijgewerkt. [Meer informatie over het openen van een serviceaanvraag](../admin/contact-support-for-business-products.md)
+Als dit de eerste keer is dat uw organisatie een commerciële relatie met Microsoft aan het  opbouwen **is** en u nog geen MCA hebt ondertekend, neem dan contact op met de vertegenwoordiger als de gegevens onder Uw organisatie of Organisatie leiden onjuist zijn. Nadat u een MCA hebt geaccepteerd, kunt u het adres en [](https://go.microsoft.com/fwlink/p/?linkid=2084771) de contactgegevens van uw organisatie bekijken en wijzigen op de pagina Factureringsaccounts in het Microsoft 365 beheercentrum. Als de naam van uw organisatie verandert, opent u een serviceaanvraag om deze te laten bijgewerkt. [Meer informatie over het openen van een serviceaanvraag](../business-video/get-help-support.md)
 
 ### <a name="your-information"></a>Uw gegevens
 
@@ -119,7 +119,7 @@ Als u het voorstel na controle wilt wijzigen, neem dan contact op met uw Microso
 
 Het voorstel bevat de volgende informatie:
 
-| Sectie | Beschrijving |
+| Sectie | Omschrijving |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Organisatienaam | De naam van de organisatie voor wie het voorstel is voorbereid. |
 | Geldig tot datum | De datum waarop de aanbieding verloopt. Als u deze vervaldatum mist, neem dan contact op met uw Microsoft-vertegenwoordiger om hen te laten weten dat u nog steeds geïnteresseerd bent in het voorstel. |
@@ -155,18 +155,15 @@ Zie Factureringsprofielen beheren voor informatie [over factureringsprofielen.](
 In deze sectie ziet u een lijst met alle items die in het voorstel zijn opgenomen. De lijst kan een of meer van de volgende categorieën bevatten:
 
 - **Aanvullende voorwaarden** Een lijst met eventuele wijzigingen in de MCA die voorwaarden voor uw organisatie bevatten. Deze lijst kan bijvoorbeeld HIPAA- of AVG-voorwaarden bevatten.
-
 - **Nu kopen** Een lijst met items die u betaalt tijdens het uitchecken aan het einde van de acceptatiewerkstroom voor voorstellen.
-
 - **Kortingen (toegepast op toekomstige kosten)** Een lijst met kortingen die u ontvangt als onderdeel van het voorstel.
-
 - **Inbegrepen** Een lijst met items die gratis deel uitmaken van het voorstelpakket. Voor sommige van deze items kunnen in de toekomst kosten aan deze items zijn gekoppeld.
 
 ### <a name="summary"></a>Samenvatting
 
 In deze sectie ziet u het aantal betaalde items, het subtotaal, de geschatte belastingen en het totale bedrag voor de order.
 
-Als u de bestelling wilt plaatsen, **selecteert u Bestelling plaatsen** **of Overeenkomst accepteren & bestelling plaatsen.**
+Als u de bestelling wilt plaatsen, **selecteert u Bestelling plaatsen** **of Bestelling van overeenkomst &amp; accepteren.**
 
 Nadat u de bestelling hebt plaatsen, ontvangt u een bevestiging met de volgende stappen. Als u een Azure-abonnement hebt gekocht, is de volgende stap het instellen van uw factureringsaccount in de Azure-portal.
 
@@ -174,7 +171,7 @@ Nadat u de bestelling hebt plaatsen, ontvangt u een bevestiging met de volgende 
 
 Als u een nieuwe klant bent en Azure-producten hebt gekocht als onderdeel van het voorstel, is de volgende stap het instellen van uw nieuwe factureringsaccount. Zie Uw factureringsaccount instellen voor [een Microsoft-klantovereenkomst](/azure/cost-management-billing/manage/mca-setup-account)voor meer informatie.
 
-Als u een bestaande Azure-klant bent met een Enterprise Agreement en u voor het eerst een MCA ondertekent, is de volgende stap informatie over de wijzigingen tussen de overeenkomsten en hoe u taken kunt uitvoeren met uw nieuwe factureringsaccount. Zie Taken van de Ondernemingsovereenkomst voltooien in uw [factureringsaccount voor een Microsoft-klantovereenkomst](/azure/cost-management-billing/manage/mca-enterprise-operations)voor meer informatie.
+Als u een bestaande Azure-klant bent met een Enterprise Agreement en u voor de eerste keer een MCA ondertekent, is de volgende stap om meer te weten te komen over de wijzigingen tussen de overeenkomsten en hoe u taken kunt uitvoeren met uw nieuwe factureringsaccount. Zie Taken uitvoeren Enterprise Agreement in uw factureringsaccount voor [een Microsoft-klantovereenkomst voor](/azure/cost-management-billing/manage/mca-enterprise-operations)meer informatie.
 
 ## <a name="understand-invoicing"></a>Facturering begrijpen
 

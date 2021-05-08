@@ -3,6 +3,7 @@ title: Microsoft Home Use Program veelgestelde vragen (veelgestelde vragen)
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -10,21 +11,24 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
+search.appverid: MET150
 description: Veelgestelde vragen (veelgestelde vragen) over de Microsoft Home Use Program.
-ms.openlocfilehash: e4940460501da94960cb82eb311a1d1d6470cc63
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/01/2021
+ms.openlocfilehash: 5f10e5fb313ec7b48605975a7e03f262fd742801
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244694"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280809"
 ---
 # <a name="microsoft-home-use-program-frequently-asked-questions-faq"></a>Microsoft Home Use Program veelgestelde vragen (veelgestelde vragen)
 
-Klanten met volumelicenties gebruiken de Microsoft Home Use Program (HUP) op de [Microsoft Store voor Bedrijven website.](https://go.microsoft.com/fwlink/?linkid=2139192) 
+Klanten met volumelicenties gebruiken de Microsoft Home Use Program (HUP) op de [Microsoft Store voor Bedrijven website.](https://go.microsoft.com/fwlink/?linkid=2139192)
 
 Alle andere klanten hebben toegang tot HUP met behulp van deze stap:
 
@@ -46,12 +50,9 @@ Kortingen op Microsoft 365 Family en persoonlijke abonnementen worden aangeboden
 
 Werknemers die profiteren van de korting Microsoft Home Use Program, hebben een geldig zakelijk e-mailadres en een actief Microsoft-account nodig en uw organisatie moet aan een van de volgende criteria voldoen:
 
-- Klanten met actieve Software Assurance voor in aanmerking komende Office toepassingen 
-
+- Klanten met actieve Software Assurance voor in aanmerking komende Office toepassingen
 - Klanten die een Microsoft 365/Microsoft 365 E3/E5 van Software Assurance hebben
-
 - Commerciële en overheidsklanten die een ≥ 2000 licenties van een of een combinatie van Microsoft 365 E3/E5
-
 - Onderwijs- en non-profitklanten
 
 ## <a name="why-do-i-have-to-create-an-azure-active-directory-aad-account-to-use-the-home-use-program-microsoft-store-for-business"></a>Waarom moet ik een Azure Active Directory (AAD)-account maken om het Home Use Program/Microsoft Store voor Bedrijven?
@@ -73,11 +74,8 @@ U hebt toegang tot onboarding-materialen in verschillende talen bij [HUP-materia
 ## <a name="what-are-the-steps-for-an-eligible-employee-to-make-a-microsoft-home-use-program-purchase"></a>Wat zijn de stappen voor een in aanmerking komende werknemer om een aankoop Microsoft Home Use Program doen?
 
 1. **Registreren** Ga naar de [Microsoft Home Use Program pagina](https://www.microsoft.com/home-use-program)en selecteer de Aan de slag knop. Werknemers voeren hun zakelijke e-mailadres in.
-
 2. **Bevestigen**  Er wordt een e-mailbericht verzonden naar het postvak IN van het zakelijke e-mailadres met een koppeling die bevestigt dat ze in aanmerking komen voor het programma.
-
 3. **Aanmelden** Nadat ze zijn geverifieerd, beginnen ze het aankoopproces door het Microsoft-account op te geven dat is gekoppeld aan hun persoonlijke e-mailadres, zodat ze de kortingen kunnen bekijken op producten die voor hen beschikbaar zijn op basis van het home use program-voordeel van de organisatie. Zie Aanmelden bij uw [Microsoft-account](https://support.microsoft.com/help/4028195/microsoft-account-sign-in)voor meer informatie.
-
 4. **Winkelen** De aankoop wordt verwerkt en voltooid in de Microsoft Store.
 
 ## <a name="if-an-employee-subscribes-to-microsoft-365-through-the-microsoft-home-use-program-how-does-this-impact-our-organizations-microsoft-365-business-subscription-and-device-limit"></a>Als een werknemer zich abonneert op Microsoft 365 de Microsoft Home Use Program, wat is dan van invloed op de limiet voor Microsoft 365 en apparaatlimiet van onze organisatie?
@@ -105,23 +103,15 @@ Als werknemers vragen hebben, verwijst u deze naar de volgende bronnen:
  Zie Microsoft Support voor hulp bij [technische problemen.](https://support.microsoft.com/) U vindt hier hulp voor:
 
 - Orderstatus
-
 - Facturering
-
 - Installatie van Office
-
 - Aanmelden bij Office
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Microsoft 365 abonnementen](https://www.microsoft.com/home-use-program/). (koppelingspagina)
-
-[Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0) (koppelingspagina)
-
-[Microsoft Store voor Bedrijven ondersteuning voor beheerders](/microsoft-store/) (koppelingspagina)
-
-[Microsoft Store voor Bedrijven](https://go.microsoft.com/fwlink/?linkid=2139192) (koppelingspagina)
-
-[Home Use Program Employee Store](https://www.microsoft.com/home-use-program) (koppelingspagina)
-
+[Microsoft 365 abonnementen](https://www.microsoft.com/home-use-program/). (koppelingspagina)\
+[Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0) (koppelingspagina)\
+[Microsoft Store voor Bedrijven ondersteuning voor beheerders](/microsoft-store/) (koppelingspagina)\
+[Microsoft Store voor Bedrijven](https://go.microsoft.com/fwlink/?linkid=2139192) (koppelingspagina)\
+[Home Use Program Employee Store](https://www.microsoft.com/home-use-program) (koppelingspagina)\
 [Microsoft Licensing: Overzicht home use program](https://www.microsoft.com/licensing/licensing-programs/software-assurance-by-benefits?activetab=software-assurance-by-benefits-tab:primaryr4) (koppelingspagina)

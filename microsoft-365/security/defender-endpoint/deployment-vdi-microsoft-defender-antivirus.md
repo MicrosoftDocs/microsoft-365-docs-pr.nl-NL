@@ -1,12 +1,12 @@
 ---
-title: Implementatiehandleiding voor Microsoft Defender Antivirus Virtual Desktop Infrastructure
-description: Lees hoe u Microsoft Defender Antivirus implementeert in een virtuele bureaubladomgeving voor de beste balans tussen beveiliging en prestaties.
+title: Microsoft Defender Antivirus Implementatiehandleiding voor virtuele bureaubladinfrastructuur
+description: Meer informatie over het implementeren Microsoft Defender Antivirus in een virtuele bureaubladomgeving voor de beste balans tussen beveiliging en prestaties.
 keywords: vdi, hyper-v, vm, virtual machine, windows defender, antivirus, av, virtual desktop, rds, remote desktop
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,13 @@ ms.date: 12/28/2020
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: fed66586dc0607989e407ecd790d2af8c40e2939
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 4ecd14e055646804d81e22da7c192988cf1e6f6f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765729"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275250"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Implementatiehandleiding voor Microsoft Defender Antivirus in een VDI-omgeving (Virtual Desktop Infrastructure)
 
@@ -32,9 +33,9 @@ ms.locfileid: "51765729"
 
 Naast standaard on-premises of hardwareconfiguraties kunt u ook Microsoft Defender Antivirus gebruiken in een extern bureaublad (RDS) of VDI-omgeving (Virtual Desktop Infrastructure).
 
-Zie [Documentatie over Windows Virtual Desktop voor](/azure/virtual-desktop) meer informatie over Microsoft Remote Desktop Services en VDI-ondersteuning.
+Zie [Windows Virtual Desktop Documentation voor](/azure/virtual-desktop) meer informatie over Microsoft Extern bureaublad Services en VDI-ondersteuning.
 
-Zie [Endpoint Protection](/azure/security-center/security-center-install-endpoint-protection)installeren in Azure Defender voor virtuele azure-machines.
+Zie Installeren in Azure [Defender](/azure/security-center/security-center-install-endpoint-protection)voor op Azure gebaseerde virtuele machines Endpoint Protection installeren.
 
 Met de mogelijkheid om eenvoudig updates te implementeren voor VM's die worden uitgevoerd in VDI's, hebben we deze handleiding ingekort om ons te concentreren op hoe u snel en eenvoudig updates op uw machines kunt krijgen. U hoeft geen gouden afbeeldingen meer periodiek te maken en te verzegelen, aangezien updates worden uitgebreid naar de onderdelen op de hostserver en vervolgens rechtstreeks naar de VM worden gedownload wanneer deze is ingeschakeld.
 
@@ -48,14 +49,14 @@ In deze handleiding wordt beschreven hoe u uw VM's kunt configureren voor optima
 - [Verouderd machines of machines scannen die al een tijdje offline zijn](#scan-vms-that-have-been-offline)
 - [Uitsluitingen toepassen](#exclusions)
 
-U kunt ook het whitepaper [Microsoft Defender Antivirus](https://demo.wd.microsoft.com/Content/wdav-testing-vdi-ssu.pdf)downloaden op virtual desktop-infrastructuur, waarin wordt ge kijkt naar de nieuwe functie voor het bijwerken van gedeelde beveiligingsinformatie, naast prestatietests en richtlijnen voor het testen van antivirusprestaties op uw eigen VDI.
+U kunt ook de whitepaper Microsoft Defender Antivirus downloaden op [Virtual Desktop Infrastructure,](https://demo.wd.microsoft.com/Content/wdav-testing-vdi-ssu.pdf)waarin wordt ge kijkt naar de nieuwe functie voor het bijwerken van gedeelde beveiligingsinformatie, naast prestatietests en richtlijnen voor het testen van antivirusprestaties op uw eigen VDI.
 
 > [!IMPORTANT]
-> Hoewel VDI kan worden gehost op Windows Server 2012 of Windows Server 2016, moeten op de virtuele machines (VM's) minimaal Windows 10, 1607 worden uitgevoerd vanwege verbeterde beveiligingstechnologieën en -functies die niet beschikbaar zijn in eerdere versies van Windows.<br/>Er zijn prestatie- en functieverbeteringen in de manier waarop Microsoft Defender AV werkt op virtuele machines in Windows 10 Insider Preview, build 18323 (en hoger). We identificeren in deze handleiding of u een Insider Preview-build wilt gebruiken. als dit niet is opgegeven, is Windows 10 1607 de minimaal vereiste versie voor de beste beveiliging en prestaties.
+> Hoewel de VDI kan worden gehost op Windows Server 2012 of Windows Server 2016, moeten de virtuele machines (VM's) minimaal Windows 10, 1607, worden uitgevoerd vanwege verbeterde beveiligingstechnologieën en -functies die niet beschikbaar zijn in eerdere versies van Windows.<br/>Er zijn prestatie- en functieverbeteringen voor de werking van Microsoft Defender AV op virtuele machines in Windows 10 Insider Preview, build 18323 (en hoger). We identificeren in deze handleiding of u een Insider Preview-build wilt gebruiken. als dit niet is opgegeven, is de minimaal vereiste versie voor de beste beveiliging en prestaties Windows 10 1607.
 
 ## <a name="set-up-a-dedicated-vdi-file-share"></a>Een speciale VDI-bestands delen instellen
 
-In Windows 10, versie 1903, hebben we de functie voor gedeelde beveiligingsinformatie geïntroduceerd, waarmee het uitpakken van gedownloade beveiligingsintelligentie-updates wordt uitgeschakeld op een hostmachine, waardoor eerdere CPU-, schijf- en geheugenresources op afzonderlijke machines worden opgeslagen. Deze functie is backported en werkt nu in Windows 10 versie 1703 en hoger. U kunt deze functie instellen met een groepsbeleid of PowerShell.
+In Windows 10, versie 1903, hebben we de functie voor gedeelde beveiligingsinformatie geïntroduceerd, waarmee het uitpakken van gedownloade beveiligingsintelligentieupdates wordt uitgeschakeld op een hostmachine, waardoor eerdere CPU-, schijf- en geheugenresources op afzonderlijke machines worden opgeslagen. Deze functie is backported en werkt nu in Windows 10 versie 1703 en hoger. U kunt deze functie instellen met een groepsbeleid of PowerShell.
 
 ### <a name="use-group-policy-to-enable-the-shared-security-intelligence-feature"></a>Groepsbeleid gebruiken om de functie voor gedeelde beveiligingsinformatie in te stellen:
 
@@ -65,7 +66,7 @@ In Windows 10, versie 1903, hebben we de functie voor gedeelde beveiligingsinfor
 
 3. Klik **op Beheersjablonen.**
 
-4. Vouw de structuur uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Security Intelligence  >  **Updates**.
+4. Vouw de structuur uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Beveiligingsinformatieupdates.**
 
 5. Dubbelklik op **Locatie voor beveiligingsinformatie definiëren voor VDI-clients** en stel de optie in op **Ingeschakeld.** Er wordt automatisch een veld weergegeven.
 
@@ -112,7 +113,7 @@ Beveiligingsinformatiepakketten worden meestal eenmaal per drie tot vier uur gep
 
 2. Voer de naam in als **Beveiligingsinformatie-uitpakken.** Ga naar het **tabblad Trigger.** Selecteer **Nieuw...** > **Dagelijks** en selecteer **OK.**
 
-3. Ga naar het **tabblad** Acties. Selecteer **Nieuw...** Voer **PowerShell** in het **veld Programma/script** in. Voer `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` in het veld Argumenten **toevoegen** in. Kies **OK**.
+3. Ga naar het **tabblad** Acties. Selecteer **Nieuw...** Voer **PowerShell** in het **veld Programma/script** in. Voer `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` in het veld Argumenten **toevoegen** in. Selecteer **OK**.
 
 4. U kunt er indien nodig voor kiezen om extra instellingen te configureren.
 
@@ -144,7 +145,7 @@ Hier is een voorbeeld: `c:\wdav_update\{00000000-0000-0000-0000-000000000000}`
 
 Geplande scans worden uitgevoerd naast [realtime beveiliging en scannen.](configure-real-time-protection-microsoft-defender-antivirus.md)
 
-De begintijd van de scan zelf is nog steeds gebaseerd op het geplande scanbeleid **(ScheduleDay,** **ScheduleTime** en **ScheduleQuickScanTime).** Randomization will cause Microsoft Defender Antivirus to start a scan on each machine within a 4 hour window from the time set for the scheduled scan.
+De begintijd van de scan zelf is nog steeds gebaseerd op het geplande scanbeleid **(ScheduleDay,** **ScheduleTime** en **ScheduleQuickScanTime).** Randomisatie zorgt ervoor dat Microsoft Defender Antivirus een scan op elke computer start binnen een venster van 4 uur vanaf de tijd die is ingesteld voor de geplande scan.
 
 Zie [Scans plannen](scheduled-catch-up-scans-microsoft-defender-antivirus.md) voor andere configuratieopties die beschikbaar zijn voor geplande scans.
 
@@ -152,21 +153,21 @@ Zie [Scans plannen](scheduled-catch-up-scans-microsoft-defender-antivirus.md) vo
 
 U kunt het type scan opgeven dat moet worden uitgevoerd tijdens een geplande scan. Snelle scans zijn de voorkeursbenadering omdat ze zijn ontworpen om te zoeken op alle plaatsen waar malware moet staan om actief te zijn. In de volgende procedure wordt beschreven hoe u snelle scans kunt instellen met groepsbeleid.
 
-1. Ga in de Groepsbeleidseditor naar **Beheersjablonen**  >  **Windows-onderdelen**  >  **Microsoft Defender Antivirus**  >  **Scan.**
+1. Ga in de groepsbeleidseditor naar **Beheersjablonen**  >  **Windows onderdelen**  >  **Microsoft Defender Antivirus**  >  **Scannen.**
 
 2. Selecteer **Geef het scantype op dat u wilt gebruiken** voor een geplande scan en bewerk vervolgens de beleidsinstelling.
 
 3. Stel het beleid in **op Ingeschakeld** en selecteer onder **Opties** de optie **Snel scannen.**
 
-4. Kies **OK**. 
+4. Selecteer **OK**. 
 
 5. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
 
 ## <a name="prevent-notifications"></a>Meldingen voorkomen
 
-Soms kunnen Microsoft Defender Antivirusmeldingen worden verzonden naar of blijven bestaan in meerdere sessies. Als u dit probleem wilt minimaliseren, kunt u de gebruikersinterface van Microsoft Defender Antivirus vergrendelen. In de volgende procedure wordt beschreven hoe u meldingen met groepsbeleid kunt onderdrukken.
+Soms kunnen Microsoft Defender Antivirus meldingen worden verzonden naar of blijven bestaan in meerdere sessies. Als u dit probleem wilt minimaliseren, kunt u de gebruikersinterface Microsoft Defender Antivirus vergrendelen. In de volgende procedure wordt beschreven hoe u meldingen met groepsbeleid kunt onderdrukken.
 
-1. Ga in de Groepsbeleidseditor naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Client  >  **Interface.**
+1. Ga in de Groepsbeleidseditor **naar Windows onderdelen**  >  **Microsoft Defender Antivirus**  >  **clientinterface.**
 
 2. Selecteer **Alle meldingen onderdrukken en** bewerk vervolgens de beleidsinstellingen. 
 
@@ -174,12 +175,12 @@ Soms kunnen Microsoft Defender Antivirusmeldingen worden verzonden naar of blijv
 
 4. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
 
-Als u meldingen onderdrukt, worden meldingen van Microsoft Defender Antivirus niet weergegeven in het Actiecentrum in Windows 10 wanneer scans worden uitgevoerd of herstelacties worden uitgevoerd. Het beveiligingsteam ziet echter de resultaten van de scan in het Microsoft Defender-beveiligingscentrum [https://securitycenter.windows.com](https://securitycenter.windows.com) ().
+Het onderdrukken van meldingen voorkomt dat meldingen Microsoft Defender Antivirus worden weergegeven in het Actiecentrum op Windows 10 wanneer scans worden uitgevoerd of herstelacties worden uitgevoerd. Uw beveiligingsbewerkingsteam ziet echter de resultaten van de scan in de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
 > [!TIP]
-> Als u het Actiecentrum in Windows 10 wilt openen, gaat u als volgt te werk:
+> Als u het Actiecentrum op Windows 10 wilt openen, gaat u als volgt te werk:
 > - Selecteer het pictogram Actiecentrum aan de rechterkant van de taakbalk.
-> - Druk op de knop Windows-logotoets + A.
+> - Druk op Windows knop met de logotoets + A.
 > - Swipe op een touchscreen vanaf de rechterrand van het scherm.
 
 ## <a name="disable-scans-after-an-update"></a>Scans uitschakelen na een update
@@ -189,13 +190,13 @@ Als u een scan na een update uit kunt uitschakelen, wordt voorkomen dat er een s
 > [!IMPORTANT]
 > Met scans na een update kunt u ervoor zorgen dat uw VM's worden beveiligd met de meest recente beveiligingsinformatie-updates. Als u deze optie uitkeert, wordt het beveiligingsniveau van uw VM's beperkt en mag deze alleen worden gebruikt wanneer u eerst de basisafbeelding maakt of implementeert.
 
-1. Ga in de Groepsbeleidseditor naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Security Intelligence  >  **Updates.**
+1. Ga in de Groepsbeleidseditor naar **Windows onderdelen**  >  **Microsoft Defender Antivirus**  >  **Beveiligingsinformatieupdates.**
 
 2. Selecteer **Scannen in-/uit-/uit-2014** en bewerk vervolgens de beleidsinstelling.
 
 3. Stel het beleid in op **Uitgeschakeld.**
 
-4. Kies **OK**.
+4. Selecteer **OK**.
 
 5. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
 
@@ -203,13 +204,13 @@ Met dit beleid wordt voorkomen dat een scan direct na een update wordt uitgevoer
 
 ## <a name="scan-vms-that-have-been-offline"></a>VM's scannen die offline zijn
 
-1. Ga in de Groepsbeleidseditor naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus**  >  **Scan.**
+1. Ga in de groepsbeleidseditor naar Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Scannen.**
 
 2. Selecteer **Inhaal quick scan in- en uithalen** en bewerk vervolgens de beleidsinstelling.
 
 3. Stel het beleid in op **Ingeschakeld.**
 
-4. Kies **OK**.
+4. Selecteer **OK**.
 
 5. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
 
@@ -217,7 +218,7 @@ Dit beleid dwingt een scan af als de VM twee of meer opeenvolgende geplande scan
 
 ## <a name="enable-headless-ui-mode"></a>Gebruikersinterface zonder hoofd inschakelen
 
-1. Ga in de Groepsbeleidseditor naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Client  >  **Interface.**
+1. Ga in de Groepsbeleidseditor **naar Windows onderdelen**  >  **Microsoft Defender Antivirus**  >  **clientinterface.**
 
 2. Selecteer **De gebruikersinterfacemodus zonder hoofd inschakelen** en bewerk het beleid.
 
@@ -227,13 +228,13 @@ Dit beleid dwingt een scan af als de VM twee of meer opeenvolgende geplande scan
 
 5. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
  
-Met dit beleid wordt de volledige gebruikersinterface van Microsoft Defender Antivirus verborgen voor eindgebruikers in uw organisatie.
+Met dit beleid wordt de Microsoft Defender Antivirus de gebruikersinterface verborgen voor eindgebruikers in uw organisatie.
 
 ## <a name="exclusions"></a>Uitsluitingen
 
 Uitsluitingen kunnen worden toegevoegd, verwijderd of aangepast aan uw behoeften.
 
-Zie Microsoft [Defender Antivirus exclusions configureren op Windows Server voor meer informatie.](configure-exclusions-microsoft-defender-antivirus.md)
+Zie Uitsluitingen configureren Microsoft Defender Antivirus server voor [Windows meer informatie.](configure-exclusions-microsoft-defender-antivirus.md)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

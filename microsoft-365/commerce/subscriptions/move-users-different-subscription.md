@@ -5,27 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: micurn
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_TOC
-- commerce
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
-search.appverid:
-- MET150
+- commerce_subscriptions
+- PPM_nicholak
+search.appverid: MET150
 description: Meer informatie over het verplaatsen van gebruikers tussen abonnementen.
 ms.date: 07/01/2020
-ms.openlocfilehash: e0c6aabbdfd50fa66d846c76d317d940dc0cd819
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 7adaa0eba1ccc06029ab5f4e1ada1d961155e66b
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615109"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280473"
 ---
 # <a name="move-users-to-a-different-subscription"></a>Gebruikers naar een ander abonnement overzetten
 
@@ -72,6 +73,5 @@ Als u de ongebruikte licenties niet opnieuw wilt toewijzen aan [](../../commerce
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Licenties verwijderen uit uw abonnement](../licenses/buy-licenses.md) (artikel)\
 [Abonnementen handmatig wijzigen](change-plans-manually.md) (artikel)\
-[Meer informatie over abonnementen en licenties in Microsoft 365 voor Bedrijven](../licenses/subscriptions-and-licenses.md) (artikel)\
-[Een ander Microsoft 365 voor Bedrijven-abonnement kopen](../try-or-buy-microsoft-365.md) (artikel)
-
+[Meer inzicht in abonnementen en licenties in Microsoft 365 voor Bedrijven](../licenses/subscriptions-and-licenses.md) (artikel)\
+[Een ander abonnement Microsoft 365 voor bedrijven kopen](../try-or-buy-microsoft-365.md) (artikel)

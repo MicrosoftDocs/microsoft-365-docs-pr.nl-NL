@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -12,19 +13,22 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
-search.appverid:
-- MET150
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: Ontdek hier hoe je je factuur of rekening voor zakelijke Microsoft-producten kunt lezen en begrijpen.
 keywords: factureringsaccounts, organisatie info, facturen
-ms.openlocfilehash: 344877a4b97f5c77dc3381aa49d7bf0f60bd628e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/04/2021
+ms.openlocfilehash: 819db7eb999344d2736015dd766453c07f2ed86f
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244706"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280833"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Inzicht in je rekening of factuur
 
@@ -103,17 +107,13 @@ Als er services van derden op de factuur staan, worden de naam en het adres van 
 Facturen zijn online beschikbaar. Er is een koppeling naar je online factuur beschikbaar in je pdf-factuur en vanuit een e-mailmelding. De online factuur kan worden uitgevouwen, zodat je de kosten op de factuur kunt bekijken en meer details voor elk item kunt lezen. De online factuur omvat:
 
 - **Prijsinformatie**&mdash;Extra informatie, inclusief informatie over kortingen en productprijzen.
-
 - **Online betaling**&mdash;Je kunt ervoor kiezen om vanuit de factuur online te betalen.
-
 - **Azure Cost Management**&mdash;Bij Azure-klanten bevatten online facturen een koppeling naar Azure Cost Management.
 
 ### <a name="to-view-your-online-invoice"></a>Je factuur online bekijken
 
 1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.
-
 2. Als je de pdf-versie van de factuur wilt downloaden, kies je **Pdf-factuur downloaden** in de rij van de factuur die je wilt bekijken.
-
 3. Als je de online factuur wilt bekijken, kies je een factuur in de lijst. Je kunt ook het pdf-bestand downloaden op de pagina Factuurgegevens.
 
 ## <a name="invoice-faq"></a>Veelgestelde vragen over facturen
@@ -145,8 +145,8 @@ De betalingsinstructies zijn afhankelijk van je betalingswijze en worden onderaa
 
 De Azure-vooruitbetaling is alleen als betaalmethode beschikbaar voor in aanmerking komende Azure-producten en -services.
 
-## <a name="need-help-contact-support"></a>Hulp nodig? Neem contact op met ondersteuning.
+## <a name="need-help-contact-support"></a>Hulp nodig? Contact opnemen met de ondersteuning
 
 Als je vragen hebt of hulp nodig hebt bij je Azure-tegoeden kun je <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">een ondersteuningsaanvraag maken bij ondersteuning voor Azure</a>.
 
-Als je vragen hebt of hulp nodig hebt bij je factuur in het Microsoft 365-beheercentrum kun je [contact opnemen met ondersteuning voor zakelijke producten](../../admin/contact-support-for-business-products.md).
+Als je vragen hebt of hulp nodig hebt bij je factuur in het Microsoft 365-beheercentrum kun je [contact opnemen met ondersteuning voor zakelijke producten](../../business-video/get-help-support.md).

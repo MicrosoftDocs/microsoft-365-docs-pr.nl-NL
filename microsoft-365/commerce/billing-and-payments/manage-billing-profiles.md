@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -16,16 +17,17 @@ ms.collection:
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
-- Commerce
-search.appverid:
-- MET150
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: Lees hoe factureringsprofielen facturen ondersteunen.
-ms.openlocfilehash: 7f4c0aed1bccd0e5df5b09e15e6201933e937993
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.date: 04/02/2021
+ms.openlocfilehash: 57786df370246c2b4fda556a9c48eb828db1cb4f
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576947"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280785"
 ---
 # <a name="understand-billing-profiles"></a>Inzicht in factureringsprofielen
 
@@ -47,32 +49,28 @@ Er wordt automatisch een factureringsprofiel gemaakt voor uw factureringsaccount
 
 Rollen in factureringsprofielen hebben machtigingen voor het beheren van aankopen en het weergeven en beheren van facturen. Wijs deze rollen toe aan gebruikers die facturen bijhouden, organiseren en betalen, zoals leden van het inkoopteam in uw organisatie.
 
-| Rol                          | Beschrijving                                                                       |
-|-----------------------------  |---------------------------------------------------------------------------------  |
-| Factureringsprofieleigenaar         | Alles beheren voor een factureringsprofiel                                           |
-| Factureringsprofielbetaler   | Alles beheren, behalve machtigingen in een factureringsprofiel                         |
-| Factureringsprofiellezer        | Alleen-lezen weergave van alles in een factureringsprofiel                                 |
-| Factuurbeheer               | Facturen weergeven en betalen en heeft een alleen-lezen weergave van alles in een factureringsprofiel   |
+| Rol                         | Beschrijving                                                                      |
+|----------------------------- |--------------------------------------------------------------------------------- |
+| Factureringsprofieleigenaar        | Alles beheren voor een factureringsprofiel                                          |
+| Factureringsprofielbetaler  | Alles beheren, behalve machtigingen in een factureringsprofiel                        |
+| Factureringsprofiellezer       | Alleen-lezen weergave van alles in een factureringsprofiel                                |
+| Factuurbeheer              | Facturen weergeven en betalen en heeft een alleen-lezen weergave van alles in een factureringsprofiel  |
 
 ## <a name="view-billing-profiles"></a>Factureringsprofielen weergeven
 
 1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.
-
 2. Kies **Factureringsprofielen** en kies vervolgens een factureringsprofiel in de lijst.
 
     - Op het **tabblad** Overzicht kunt u factureringsprofielgegevens bewerken en het verzenden van een factuur per e-mail in- of uitschakelen.
-
     - Op het **tabblad Machtigingen** kunt u rollen toewijzen aan gebruikers om facturen te betalen.
-
     - Op het **tabblad Azure-tegoedsaldo** kunnen Azure-klanten de transactiebalansgeschiedenis zien voor de Azure-tegoeden die door dat factureringsprofiel worden gebruikt.
-
     - Op het **tabblad Azure-tegoed** kunnen Azure-klanten een lijst zien met Azure-tegoeden die zijn gekoppeld aan dat factureringsprofiel en hun vervaldatums.
 
     > [!NOTE]
     > Als u geen Azure-tegoed hebt, ziet u de **tabbladen Azure-tegoed** of **Azure-tegoed** niet.
 
-## <a name="need-help-contact-support"></a>Hulp nodig? Neem contact op met ondersteuning.
+## <a name="need-help-contact-support"></a>Hulp nodig? Contact opnemen met de ondersteuning
 
 Als u vragen hebt of hulp nodig hebt bij uw Azure-kosten, maakt <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">u een ondersteuningsaanvraag met Azure-ondersteuning.</a>
 
-Als u vragen hebt of hulp nodig hebt bij uw factureringsprofiel in het Microsoft 365-beheercentrum, neem dan contact op met ondersteuning [voor zakelijke producten.](/office365/admin/contact-support-for-business-products)
+Als u vragen hebt of hulp nodig hebt bij uw factureringsprofiel in Microsoft 365 beheercentrum, neem dan contact op met [ondersteuning voor zakelijke producten.](../../business-video/get-help-support.md)

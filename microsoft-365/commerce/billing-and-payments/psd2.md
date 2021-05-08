@@ -1,54 +1,61 @@
 ---
-title: Betalingsdiensten-richtlijn 2 en sterke klanten verificatie voor commerciële klanten
+title: Payment Services Directive 2 en Strong Customer Authentication voor commerciële klanten
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jamitche
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
-search.appverid:
-- MET150
-description: Met ingang van 14 september 2019 zijn de banken in de 31 landen van de Europese economische ruimte verplicht de identiteit te verifiëren van de persoon die een onlineaankoop doet voordat de betaling kan worden verwerkt.
-keywords: voor uitbetalings Services, met grote klanten verificatie, meervoudige verificatie
-ms.openlocfilehash: d6564a8c6d31bd0758f1084e7ee9b6857aed034e
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
+description: Vanaf 14 september 2019 moeten banken in de 31 landen van de Europese Economische Ruimte de identiteit controleren van de persoon die een onlineaankoop heeft gedaan voordat de betaling kan worden verwerkt.'
+keywords: payment services directive 2, strong customer authentication, multi-factor authentication
+ms.date: 11/03/2020
+ms.openlocfilehash: e687cac5bb1b7f1c88e9166993e29d437134e138
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906607"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280845"
 ---
-# <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>Betalingsdiensten-richtlijn 2 en sterke klanten verificatie voor commerciële klanten
+# <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>Payment Services Directive 2 en Strong Customer Authentication voor commerciële klanten
 
-Met ingang van 14 september 2019 zijn de banken in de 31 landen van de Europese economische ruimte verplicht de identiteit te verifiëren van de persoon die een onlineaankoop doet voordat de betaling kan worden verwerkt. Voor deze verificatie is meervoudige verificatie vereist om te zorgen dat uw online aankopen veilig en beschermd zijn. De datum voor deze verificatievereisten wordt vertraagd voor sommige landen.
+Vanaf 14 september 2019 moeten banken in de 31 landen van de Europese Economische Ruimte de identiteit controleren van de persoon die een onlineaankoop heeft gedaan voordat de betaling kan worden verwerkt. Voor deze verificatie is meervoudige verificatie vereist om ervoor te zorgen dat uw online aankopen veilig en beveiligd zijn. De datum voor deze verificatievereiste wordt voor sommige landen uitgesteld.
 
-Voor meer informatie raadpleegt u [Veelgestelde vragen over Microsoft voor de betalings Services-richtlijn 2 en sterke klanten verificatie](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication).
+Zie Veelgestelde vragen over [Payment Services Directive 2](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication)en Strong Customer Authentication voor meer informatie.
 
 ## <a name="when-is-multi-factor-authentication-required"></a>Wanneer is meervoudige verificatie vereist?
 
-Momenteel gelden verificatievereisten voor deze richtlijn met meervoudige verificatie alleen voor klanten die gebruikmaken van creditcards van banken in de 31 landen van de Europese economische ruimte. Soms wordt de klant gevraagd een actie te ondernemen vanwege een actie die ze hebben ondernomen, en het kan zijn dat ze hierom vragen vanwege gebeurtenissen met hun bestaande abonnementen of services.
+Momenteel zijn verificatievereisten voor deze richtlijn met meervoudige verificatie alleen van toepassing op klanten die creditcards van banken in de 31 landen van de Europese Economische Ruimte gebruiken. Soms worden klanten gevraagd vanwege een actie die ze hebben ondernomen en soms worden ze gevraagd vanwege gebeurtenissen met hun bestaande abonnementen of services.
 
-### <a name="customer-actions"></a>Acties van klanten
+### <a name="customer-actions"></a>Klantacties
 
-Verificatie via meervoudige verificatie voor uw bank is vereist. Enkele voorbeelden hiervan zijn:
+Uw bank kan verificatie vereisen via meervoudige verificatie. Enkele voorbeelden zijn:
+
 - Registreren voor een nieuw abonnement
 - Licenties toevoegen aan een abonnement
-- De creditcard die wordt gebruikt voor het betalen van een abonnement of service toevoegen of vervangen
-- Een creditcard toevoegen of vervangen in een factuur profiel
+- De creditcard toevoegen of vervangen die wordt gebruikt om te betalen voor een abonnement of service
+- Een creditcard toevoegen of vervangen in een factureringsprofiel
 - Apps kopen
 
-### <a name="subscription-lifecycle-events"></a>Levensduur gebeurtenissen van het abonnement
+### <a name="subscription-lifecycle-events"></a>Levenscyclusgebeurtenissen van abonnementen
 
-Kosten voor terugkerende betalingen kunnen mislukken. Als dat het geval is, ontvangt u een e-mail met instructies om te volgen. U wordt gevraagd om te reageren op de verificatieaanvraag en uw huidige betaling te voeren.
+Kosten voor terugkerende betalingen kunnen mislukken. Als ze dat doen, ontvangt u een e-mail met instructies die u moet volgen. U wordt gevraagd om te reageren op de verificatieaanvraag en uw huidige betaling uit te voeren.
 
 ## <a name="need-more-help"></a>Meer hulp nodig?
 
-Uw financiële instelling is de beste contactpersoon voor de volgende scenario's:
+Uw financiële instelling is de beste contactpersoon voor deze scenario's:
+
 - U hebt geen verificatiecode ontvangen.  
-- De verificatieprocedure werkte niet nadat u de verificatiecode hebt ingediend.
+- Het verificatieproces werkte niet nadat u de verificatiecode hebt ingediend.
 - U weet niet zeker of de contactgegevens voor uw creditcard juist zijn.

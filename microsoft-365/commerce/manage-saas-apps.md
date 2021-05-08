@@ -5,27 +5,33 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jamitche
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 ms.localizationpriority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
 search.appverid: MET150
-description: Meer informatie over het activeren en beheren van apps van derden in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 457545282801829ca34de0318dd9eb7791866214
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+description: Meer informatie over het activeren en beheren van apps van derden in Microsoft 365 beheercentrum.
+ms.date: 04/15/2021
+ms.openlocfilehash: eece8154640dcdd55239511ed099abcdca39e807
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860533"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280521"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>App-abonnementen van derden beheren voor uw organisatie
 
-U kunt licenties en facturering voor apps van derden beheren in het nieuwe Microsoft 365-beheercentrum. Bijgewerkte functies zijn verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen of bij een externe provider.
+U kunt licenties en facturering voor apps van derden beheren in het nieuwe Microsoft 365 beheercentrum. Bijgewerkte functies zijn verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen of bij een externe provider.
 
-U kunt licenties en facturering voor apps van derden beheren in het Microsoft 365-beheercentrum met de preview-modus ingeschakeld. Bijgewerkte functies zijn verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen of bij externe provider.
+U kunt licenties en facturering voor apps van derden beheren in Microsoft 365 beheercentrum met de preview-modus ingeschakeld. Bijgewerkte functies zijn verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen of bij externe provider.
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Software-as-a-service-apps downloaden
 
@@ -35,7 +41,7 @@ Er zijn een paar manieren om apps van derden te kopen.
 - **Partneraankoop:** werk samen met een partner via partnercentrum om abonnementen aan te schaffen.
 - **Microsoft-voorstel:** reageer op een voorstel van Microsoft Sales dat apps van derden bevat.
 
-Wanneer klanten de apps kopen en de Microsoft-klantovereenkomst accepteren, kunnen ze deze beheren in het Microsoft 365-beheercentrum of in de Microsoft Store voor Bedrijven.
+Wanneer klanten de apps kopen en de Microsoft-klantovereenkomst accepteren, kunnen ze deze beheren in Microsoft 365 beheercentrum of Microsoft Store voor Bedrijven.
 
 App-providers verkopen hun apps tegen een vast tarief of door licenties voor gebruikers aan te kopen.
 
@@ -71,7 +77,7 @@ U wordt doorgestuurd naar de site van de uitgever van de app, waar u de app kunt
 
 ## <a name="manage-third-party-apps"></a>Apps van derden beheren
 
-Beheerders beheren apps van derden op twee locaties: microsoft 365-beheercentrum en de portal van de externe app-provider.
+Beheerders beheren apps van derden op twee locaties: Microsoft 365 beheercentrum en de portal van de externe app-provider.
 
 Dit kunt u doen in elke portal.
 
@@ -83,11 +89,11 @@ Nadat de app is geactiveerd, blijft de app actief, tenzij deze wordt geannuleerd
 
 ## <a name="assign-licenses"></a>Licenties toewijzen
 
-Beheerders moeten apps van derden activeren voordat ze deze aan gebruikers toewijzen. Ze worden geactiveerd in de portal van de uitgever van derden. Selecteer op de app-pagina onder Instellingen **& acties** de koppeling om licenties toe te wijzen.
+Beheerders moeten apps van derden activeren voordat ze deze aan gebruikers toewijzen. Ze worden geactiveerd in de portal van de uitgever van derden. Selecteer op de app-pagina **onder Instellingen & acties** de koppeling om licenties toe te wijzen.
 
 1. Ga in het beheercentrum naar de pagina **Apps voor facturering** van uw  >  **producten.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank"></a>
 2. Zoek en selecteer de app die u wilt beheren.
-3. Selecteer **onder Instellingen & acties** de koppeling beheren in de portal van **publisher.**
+3. Selecteer **onder Instellingen & acties** de koppeling naar Beheren in de portal van de **uitgever.**
 
 ## <a name="change-license-quantity"></a>Aantal licenties wijzigen
 
@@ -97,7 +103,7 @@ Beheerders kunnen het aantal licenties wijzigen dat eigendom is van hun organisa
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer **Aantal licenties wijzigen.**
 
-## <a name="manage-payment-methods"></a>Betalingswijzen beheren
+## <a name="manage-payment-methods"></a>Betalingsmethoden beheren
 
 Software-as-a-service-apps hebben elk een factureringsprofiel toegewezen. Met factureringsprofielen kunt u aanpassen welke producten op uw factuur staan en hoe u uw facturen betaalt. Deze omvatten:
 
@@ -121,4 +127,4 @@ U kunt een software-as-a-service-app annuleren vanaf de app-pagina.
 
 1. Ga in het beheercentrum naar de pagina **Apps voor facturering** van uw  >  **producten.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank"></a>
 2. Zoek en selecteer de app die u wilt beheren.
-3. Selecteer **onder Instellingen & acties** de optie Abonnement **annuleren.**
+3. Selecteer **onder Instellingen & acties** de optie Abonnement **opzeggen.**

@@ -22,7 +22,7 @@
 |POWER APPS|Gepland|Gepland|N.v.t.|N.v.t.|Gepland|
 |POWER AUTOMATE|Gepland|Gepland|N.v.t.|N.v.t.|N.v.t.|
 |POWER BI|Gepland|Gepland|N.v.t.|Gepland|Gepland|
-|POWERPOINT|✔|Gepland|Gepland|Gepland|N.v.t.|
+|POWERPOINT|✔|Gepland|Gepland|Gepland|Gepland|
 |PROJECT|N.v.t.|N.v.t.|N.v.t.|Gepland|N.v.t.|
 |PUBLISHER|N.v.t.|N.v.t.|N.v.t.|✔|N.v.t.|
 |SHAREPOINT-BEHEERDER|N.v.t.|N.v.t.|N.v.t.|Gepland|N.v.t.|
@@ -34,6 +34,6 @@
 |TO-DO|Gepland|Gepland|Gepland|N.v.t.|Gepland|
 |VISIO|N.v.t.|✔|N.v.t.|Gepland|N.v.t.|
 |WHITEBOARD|✔|Gepland|N.v.t.|N.v.t.|Gepland|
-|WORD|✔|Gepland|Gepland|Gepland|N.v.t.|
+|WORD|✔|Gepland|Gepland|Gepland|✔|
 |WORKPLACE ANALYTICS|N.v.t.|N.v.t.|N.v.t.|N.v.t.|N.v.t.|
 |YAMMER|Gepland|Gepland|Gepland|Gepland|N.v.t.|

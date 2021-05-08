@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,29 +13,30 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
-search.appverid:
-- MET150
-description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Microsoft 365 voor Bedrijven-abonnement in verschillende regio's. "
+search.appverid: MET150
+description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw abonnement Microsoft 365 voor bedrijven in verschillende regio's. "
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 11a7aa1e1825e41f463de17eebd676d8168a56d8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+- commerce_billing
+- PPM_jmueller
+ms.date: 03/17/2021
+ms.openlocfilehash: fc1e2924a6b28c30841f890396d5d82ed2944bea
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911708"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280593"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
-Wanneer u Microsoft 365-producten en -services koopt, worden de belastingen die u betaalt bepaald door een van de twee dingen: uw zakelijke adres of uw verzendadres, als dit anders is. Als uw organisatie in de Verenigde Staten is, moet u een FEIN (Federal Employer Identification Number) geven.
+Wanneer u Microsoft 365 producten en services koopt, worden de belastingen die u betaalt bepaald door een van de twee dingen: uw zakelijke adres of uw verzendadres, als dit anders is. Als uw organisatie in de Verenigde Staten is, moet u een FEIN (Federal Employer Identification Number) geven.
 
 Bedrijven in de volgende landen kunnen hun btw-nummer of lokale equivalent verstrekken:
 
 :::row:::
     :::column:::
+
 - Armenië
 - Australië
 - Oostenrijk
@@ -99,13 +101,13 @@ Bedrijven in de volgende landen kunnen hun btw-nummer of lokale equivalent verst
 
 ## <a name="europe-the-middle-east-and-africa-emea"></a>Europa, het Midden-Oosten en Afrika (EMEA)
 
-Wanneer u Microsoft 365-services koopt in de EMEA-regio, kan voor deze aankoop Value-Added btw worden betaald.
+Wanneer u Microsoft 365 services koopt in de EMEA-regio, kan deze aankoop onderworpen zijn aan Value-Added btw.
   
 - Als u zich in een lidstaat van de Europese Unie, Armenië, Wit-Rusland, Noorwegen, Turkije of de Verenigde Arabische Emiraten bevindt en u uw geldige lokale btw-id niet verstrekt, wordt het huidige lokale btw-tarief toegepast op basis van het factureringsland waarin uw account is ingesteld.
 
 - Als u zich in Liechtenstein, Rusland, Servië, Zuid-Afrika of Zwitserland bevindt, wordt de btw toegepast, ongeacht of u uw btw-id op geeft of niet.
 
-- Voordat we uw btw-id kunnen valideren voor EU-klanten, moet deze beschikbaar zijn voor verificatie in het BTW-informatieuitwisselingssysteem (VIES). Als uw btw-id niet kan worden geverifieerd, neem dan contact op met uw lokale belastingdienst.
+- Voordat we uw BTW-id kunnen valideren voor EU-klanten, moet deze beschikbaar zijn voor verificatie in het BTW-Exchange-systeem (VIES). Als uw btw-id niet kan worden geverifieerd, neem dan contact op met uw lokale belastingdienst.
 
 U komt mogelijk in aanmerking voor btw-nul als:
   
@@ -155,7 +157,7 @@ Bijvoorbeeld:
 
 ## <a name="apply-for-tax-exempt-status"></a>Belastingvrijstelling aanvragen
 
-Als u in aanmerking komt voor belastingvrijstelling in uw markt, start u een [serviceaanvraag](/office365/admin/contact-support-for-business-products) om de belastingvrijstellingsstatus voor uw organisatie vast te stellen.
+Als u in aanmerking komt voor belastingvrijstelling in uw markt, start u een [serviceaanvraag](../../business-video/get-help-support.md) om de belastingvrijstellingsstatus voor uw organisatie vast te stellen.
 
 |Land of land | Documentatie |
 |------------------|----------------|

@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,30 +13,26 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - TopSMBIssues
 - okr_smb
 - AdminSurgePortfolio
-search.appverid:
-- BCS160
-- MET150
-- MOE150
-- BEA160
-ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: Ontdek hoe je de kosten, facturering en betalingsgegevens op je factuur voor Office 365 voor bedrijven interpreteert en hoe je het inkoopordernummer wijzigt.
-ms.openlocfilehash: b89ca38bf5d7b1d82982668dcd98e9979f1657be
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/04/2021
+ms.openlocfilehash: 9eb9d063b3634269600d5f6566e9e5f373ab08c2
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245014"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280484"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Je rekening of factuur voor Microsoft 365 voor bedrijven bekijken
 
 > [!IMPORTANT]
-> Vanaf 26 januari 2021 worden nieuwe bankrekeningen niet meer ondersteund voor klanten in België, Frankrijk, Italië, Luxemburg, Portugal, Spanje en de Verenigde Staten. Als u een bestaande klant bent in een van deze landen, kunt u uw abonnement blijven betalen met een bestaande bankrekening en u kunt er nieuwe abonnementen aan toevoegen, maar alleen zolang de bankrekening er goed voor staat.
+> Vanaf 26 januari 2021 worden nieuwe bankrekeningen niet meer ondersteund voor klanten in België, Frankrijk, Italië, Luxemburg, Portugal, Spanje en de Verenigde Staten. Als u een bestaande klant bent in een van deze landen, kunt u voor uw abonnement blijven betalen via uw bestaande bankrekening en kunt u nieuwe abonnementen toevoegen, mits uw bankrekening een goede status heeft.
 
 Je ontvangt ofwel maandelijks ofwel jaarlijks (afhankelijk van de optie die je gekozen hebt bij de aankoop van je abonnement) een e-mail die aangeeft dat je nieuwe factuuroverzicht beschikbaar is in het beheercentrum. [Ontdek hoe u uw rekening of factuur kunt vinden en bekijken](view-your-bill-or-invoice.md).
   
@@ -96,7 +93,7 @@ De volgende tabel toont de velden die u op uw factuur kunt zien. Sommige velden 
 |Adres voor servicegebruik|Het adres waar de service wordt gebruikt, meestal hetzelfde als het adres onder Verkocht aan. Raadpleeg [Je factuuradres wijzigen](change-your-billing-addresses.md) voor het wijzigen van je factuuradres.|
 |Verkocht aan|De naam en het adres van uw organisatie. Raadpleeg [Het adres en andere profielgegevens van uw organisatie wijzigen](../../admin/manage/change-address-contact-and-more.md) voor meer informatie over het bijwerken van deze gegevens.|
 |Subtotaal|Elk abonnement dat op uw factuur staat vermeld, heeft een aparte rij Subtotaal voor alle kosten, kortingen, tegoeden, subtotalen, belastingen en totalen voor het bewuste abonnement.|
-|Belasting|Pagina 1 van de factuur toont alle verschuldigde belastingen. Pagina 2 toont het toegepaste btw-tarief en het totale btw-bedrag per regel. Als de factuur belastingen bevat en uw bedrijf is vrijgesteld van belasting, kunt u [contact opnemen met de klantenservice](../../admin/contact-support-for-business-products.md).|
+|Belasting|Pagina 1 van de factuur toont alle verschuldigde belastingen. Pagina 2 toont het toegepaste btw-tarief en het totale btw-bedrag per regel. Als de factuur belastingen bevat en uw bedrijf is vrijgesteld van belasting, kunt u [contact opnemen met de klantenservice](../../business-video/get-help-support.md).|
 |Totaal|Het totale verschuldigde bedrag voor de factureringsperiode.|
 
 ## <a name="change-your-purchase-order-number"></a>Uw IO-nummer wijzigen
@@ -109,6 +106,7 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -120,16 +118,16 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 ::: moniker range="o365-21vianet"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
+
 ::: moniker-end
 
 1. Selecteer op **het** tabblad Producten het abonnement dat u wilt wijzigen.
 
-1. Selecteer op de pagina Abonnementsgegevens in de sectie **Abonnements-** en betalingsinstellingen de optie **Factuur bewerken.** 
+1. Selecteer op de pagina Abonnementsgegevens in de sectie **Abonnements-** en betalingsinstellingen de optie **Factuur bewerken.**
 
 1. Voer onderaan het deelvenster **Details bewerken voor** betalen via spraak in en selecteer opslaan. 
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Je Office 365 voor Bedrijven-abonnement betalen](pay-for-your-subscription.md)
-
-[Betalingsopties voor Minecraft: Education Edition](/education/windows/school-get-minecraft)
+[Uw abonnement Microsoft 365 voor bedrijven](pay-for-your-subscription.md) betalen (artikel)\
+[Betalingsopties voor Minecraft: Education Edition](/education/windows/school-get-minecraft) (artikel)
