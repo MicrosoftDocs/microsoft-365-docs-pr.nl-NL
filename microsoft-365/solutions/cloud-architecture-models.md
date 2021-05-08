@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: dc9881bf869ce013a2ff913baa97f9b7d3de9bcc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4532afc40c2324b77725d9ddad158587083e6e9b
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245814"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280947"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Microsoft Cloud voor Enterprise Architects
 
@@ -34,7 +34,16 @@ Wat IT-architecten moeten weten over het ontwerpen van identiteit voor organisat
   
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Duimafbeelding voor microsoft cloudidentiteitsmodel](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [Weergeven als pdf-bestand](../downloads/MSFT_cloud_architecture_identity.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>Bijgewerkt in augustus 2020 | Dit model bevat:  <ul> <li> Inleiding tot identiteit met De cloud van Microsoft </li><li> Azure AD IDaaS-mogelijkheden </li><li> On-premises Ad DS-accounts (Active Directory Domain Services) integreren met Azure AD </li><li> Adreslijstonderdelen in Azure IaaS plaatsen </li><li> AD DS-opties voor werkbelastingen in Azure IaaS </li></ul><br/>  <br/>|
+|[![Duimafbeelding voor microsoft cloudidentiteitsmodel](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [Weergeven als pdf-bestand](../downloads/MSFT_cloud_architecture_identity.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>Bijgewerkt in september 2020 | Dit model bevat:  <ul> <li> Inleiding tot identiteit met De cloud van Microsoft </li><li> Azure AD IDaaS-mogelijkheden </li><li> On-premises Ad DS-accounts (Active Directory Domain Services) integreren met Azure AD </li><li> Adreslijstonderdelen in Azure IaaS plaatsen </li><li> AD DS-opties voor werkbelastingen in Azure IaaS </li></ul><br/>  <br/>|
+
+<a name="security"></a>
+### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft cloudbeveiliging voor ondernemingsarchitecten
+
+Wat IT-architecten moeten weten over beveiliging in Microsoft-cloudservices en -platforms.
+  
+|**Item**|**Beschrijving**|
+|:-----|:-----|
+|[![Microsoft Cloud Security voor enterprise architects modelminiatuur](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf) <br/> [PDF](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf)  \| <br/>Bijgewerkt in april 2021 | Dit model bevat: <ul><li>Verantwoordelijkheden voor microsoft- en klantbeveiliging</li><li>Identiteit en apparaattoegang</li><li>Bedreigingsbeveiliging</li><li>Gegevensbescherming </ul><br/>|
    
 <a name="networking"></a>
 ### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>Microsoft cloudnetwerken voor ondernemingsarchitecten
@@ -53,34 +62,17 @@ Wat IT-architecten moeten weten over hybride cloud voor Microsoft-services en pl
 |**Item**|**Beschrijving**|
 |:-----|:-----|
 |[![Duimafbeelding voor het hybride cloudmodel van Microsoft](../media/solutions-architecture-center/msft-hybrid-cloud-model-thumb.png)](../downloads/MSFT_cloud_architecture_hybrid.pdf) <br/> [Weergeven als pdf-bestand](../downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.vsdx)     <br>Bijgewerkt in augustus 2020 | Dit model bevat: <ul><li> De cloudaanbiedingen van Microsoft (SaaS, Azure PaaS en Azure IaaS) en de gemeenschappelijke elementen </li><li> Hybride cloudarchitectuur voor het cloud-aanbod van Microsoft </li><li> Hybride cloudscenario's voor Microsoft SaaS (Office 365), Azure PaaS en Azure IaaS </li></ul><br/>|
-   
 
 ### <a name="architecture-approaches-for-microsoft-cloud-tenant-to-tenant-migrations"></a>Architectuurbenaderingen voor migraties van Microsoft Cloud tenant-to-tenant 
 Deze reeks onderwerpen illustreert verschillende architectuurbenaderingen voor fusies, overnames, afstotingen en andere scenario's die ertoe kunnen leiden dat u migreert naar een nieuwe cloudten tenant. Deze onderwerpen bieden richtlijnen voor uitgangspunten voor het plannen van ondernemingsresources. 
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Miniatuurafbeelding van de poster Logische architectuur van Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Bijgewerkt in oktober 2020    |Dit model bevat: <ul><li>Een toewijzing van bedrijfsscenario's aan architectuurbenaderingen</li><li>Ontwerpoverwegingen</li><li>Voorbeeld van een migratiestroom met één gebeurtenis</li><li>Voorbeeld van gefaseerd migratiestroom</li><li>Voorbeeld van tenants verplaatsen of splitsen</li></ul>|
-
-<a name="security"></a>
-### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft cloudbeveiliging voor ondernemingsarchitecten
-
->[!Note]
->Dit model wordt aangepast. Controleer dit artikel in de toekomst voor de bijgewerkte versie.
->
-
-<!--
-
-What IT architects need to know about security in Microsoft cloud services and platforms.
-  
-|**Item**|**Description**|
-|:-----|:-----|
-|[![Poster for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| <br/>Updated April 2021 | This model contains: <ul><li>Microsoft and customer security responsibilities</li><li>Identity and device access</li><li>Threat protection</li><li>Information protection </ul><br/>|
-
---> 
+|[![Thumb image for Microsoft cloud tenant-to-tenant migrations](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Bijgewerkt in februari 2021    |Dit model bevat: <ul><li>Een toewijzing van bedrijfsscenario's aan architectuurbenaderingen</li><li>Ontwerpoverwegingen</li><li>Voorbeeld van een migratiestroom met één gebeurtenis</li><li>Voorbeeld van gefaseerd migratiestroom</li><li>Voorbeeld van tenants verplaatsen of splitsen</li></ul>|
 
 <a name="attacks"></a>
-### Veelgebruikte aanvallen en Microsoft-mogelijkheden die uw organisatie beschermen Meer informatie over de meest voorkomende cyberaanvallen en hoe Microsoft uw organisatie kan helpen in elke fase van een aanval. 
+### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>Veelgebruikte aanvallen en Microsoft-mogelijkheden die uw organisatie beschermen
+Meer informatie over de meest voorkomende cyberaanvallen en hoe Microsoft uw organisatie kan helpen in elke fase van een aanval. 
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|

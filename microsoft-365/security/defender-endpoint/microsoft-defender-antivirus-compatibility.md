@@ -16,12 +16,12 @@ ms.topic: article
 manager: dansimp
 ms.technology: mde
 ms.date: 05/06/2021
-ms.openlocfilehash: 866a36828c5c83d833d66bd7ed7d32b3499cbbdf
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 885844b46d603dc318dbaf877cd445b5caaa4e46
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275154"
+ms.locfileid: "52280979"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender Antivirus compatibiliteit
 
@@ -80,7 +80,7 @@ Als u Windows Server, versie 1803 of hoger of Windows Server 2019 gebruikt, kunt
 - Waarde: `1`
 
 > [!NOTE]
-> Passieve modus wordt niet ondersteund op Windows Server 2016. De `ForcePassiveMode` registersleutel is niet van toepassing op Windows Server 2016. 
+> Passieve modus wordt niet ondersteund op Windows Server 2016. De `ForcePassiveMode` registersleutel kan worden gebruikt op Windows Server, versie 1803 of hoger of Windows Server 2019, maar niet Windows Server 2016. 
 
 (<a id="fn2">2</a>) Als Windows Server 2016 antivirusproduct van niet-Microsoft gebruikt, kunt u Microsoft Defender Antivirus passieve modus of actieve modus niet uitvoeren. In dergelijke gevallen [kunt u de](microsoft-defender-antivirus-on-windows-server.md#are-you-using-windows-server-2016) Microsoft Defender Antivirus handmatig uitschakelen of verwijderen om problemen te voorkomen die worden veroorzaakt doordat meerdere antivirusproducten op een server zijn geïnstalleerd.
 

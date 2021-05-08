@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Overzicht van Viva Topics.
-ms.openlocfilehash: b37572087794055724cb9533246f83794d88fb93
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1d66751d55c0144149fa8325e89be404e3df19ed
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275196"
+ms.locfileid: "52281027"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva Topics 
 
-In Viva Topics wordt Microsoft AI-technologie, Microsoft 365, Microsoft Graph, Search en andere onderdelen en services gebruikt zodat je gebruikers kennis hebben over de Microsoft 365-apps die ze dagelijks gebruiken, te beginnen met moderne SharePoint-pagina's en Microsoft Search.
+Viva Topics gebruikt Microsoft AI-technologie, Microsoft 365, Microsoft Graph, Zoeken en andere onderdelen en services om uw gebruikers kennis te brengen in Microsoft 365-apps die ze dagelijks gebruiken, te beginnen met SharePoint moderne pagina's, Microsoft Zoeken en Zoeken in Word en PowerPoint.
 
 </br>
 
@@ -42,6 +42,7 @@ Wanneer een onderwerp wordt genoemd in nieuws en SharePoint-pagina's, dan wordt 
 
    ![Belangrijke kenmerken van Topics](../media/knowledge-management/saturn.png) 
 
+Wanneer u Zoeken in Word of PowerPoint, via het zoekvak of door Zoeken **in** het contextmenu te selecteren, kunnen de weergegeven resultaten ook het onderwerpoverzicht weergeven.
 
    ![Schermafbeelding van zoeken in Word via het vak Zoeken.](../media/knowledge-management/word-search-2.png)
 
