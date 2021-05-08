@@ -36,7 +36,7 @@
 |TEAMS|✔|✔|✔|Gepland|N.v.t.|
 |TO-DO|✔|✔|✔|N.v.t.|✔|
 |VISIO|N.v.t.|✔|N.v.t.|✔|N.v.t.|
-|WHITEBOARD|N.v.t.|Gepland|N.v.t.|N.v.t.|✔|
+|WHITEBOARD|✔|Gepland|N.v.t.|N.v.t.|✔|
 |WORD|✔|✔|✔|✔|✔|
 |WORKPLACE ANALYTICS|N.v.t.|N.v.t.|N.v.t.|N.v.t.|N.v.t.|
 |YAMMER|✔|✔|Gepland|Gepland|N.v.t.|

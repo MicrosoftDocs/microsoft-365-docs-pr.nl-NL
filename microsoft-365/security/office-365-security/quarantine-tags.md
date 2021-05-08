@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Beheerders kunnen leren hoe ze quarantainelabels kunnen gebruiken om te bepalen wat gebruikers kunnen doen met hun in quarantaine geplaatste berichten.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 580cf2bad690d0fc6508d11178527ad218df763b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 512c589572502deacb5529ca9d6f2876861bf050
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204349"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274458"
 ---
 # <a name="quarantine-tags"></a>Quarantainelabels
 
@@ -42,6 +42,10 @@ De afzonderlijke machtigingen worden gecombineerd in de volgende vooraf ingestel
 - Volledige toegang
 
 De beschikbare afzonderlijke machtigingen en wat al dan niet is opgenomen in de vooraf ingestelde machtigingsgroepen, worden in de volgende tabel beschreven:
+
+<br>
+
+****
 
 |Machtiging|Geen toegang|Beperkte toegang|Volledige toegang|
 |---|:---:|:---:|:---:|
@@ -126,6 +130,8 @@ De _parameter EndUserQuarantinePermissionsValue_ gebruikt een decimale waarde di
 
 De vereiste volgorde en waarden voor elke afzonderlijke machtiging in vooraf ingestelde machtigingsgroepen worden in de volgende tabel beschreven:
 
+<br>
+
 ****
 
 |Machtiging|Geen toegang|Beperkte toegang|Volledige toegang|
@@ -140,6 +146,7 @@ De vereiste volgorde en waarden voor elke afzonderlijke machtiging in vooraf ing
 |PermissionToViewHeader<sup>\*</sup>|0|0|0|
 |Binaire waarde|00000000|01101010|11101100|
 |Decimaal te gebruiken waarde|0|106|236|
+|
 
 <sup>\*</sup> Op dit moment is deze waarde altijd 0. Voor PermissionToViewHeader verbergt de waarde 0 de knop **Berichtkopweergave** niet in de details van het in quarantaine geplaatste bericht (de knop is altijd beschikbaar).
 
@@ -224,6 +231,8 @@ Zie [New-QuarantineTag](/powershell/module/exchange/new-quarantinetag)voor gedet
 ## <a name="step-2-assign-a-quarantine-tag-to-supported-features"></a>Stap 2: Een quarantainetag toewijzen aan ondersteunde functies
 
 In _ondersteunde_ beveiligingsfuncties die berichten of bestanden in quarantaine plaatsen (automatisch of als een configureerbare actie), kunt u een quarantainelabel toewijzen aan de beschikbare quarantaineacties. Functies die berichten in quarantaine plaatsen en de beschikbaarheid van quarantainelabels worden beschreven in de volgende tabel:
+
+<br>
 
 ****
 
@@ -468,7 +477,7 @@ Als de quarantainetag  de machtiging volledige toegang (alle beschikbare machtig
 
 #### <a name="allow-sender-permission"></a>Afzendermachtiging toestaan
 
-De **machtiging Afzender toestaan** _(PermissionToAllowSender)_ bepaalt de toegang tot de knop waarmee gebruikers de afzender van het in quarantaine geplaatste bericht gemakkelijk kunnen toevoegen aan de lijst met veilige afzenders.
+Met **de machtiging Afzender** toestaan _(PermissionToAllowSender)_ wordt de toegang tot de knop besturingselementen waarmee gebruikers de afzender van het in quarantaine geplaatste bericht gemakkelijk kunnen toevoegen aan de lijst met Safe afzenders.
 
 - **Details van berichten in quarantaine:**
   - **Afzendermachtiging** toestaan ingeschakeld: **de knop Afzender toestaan** is beschikbaar.
@@ -476,7 +485,7 @@ De **machtiging Afzender toestaan** _(PermissionToAllowSender)_ bepaalt de toega
 
 - **Spammeldingen van eindgebruikers:** Geen effect.
 
-Zie Voorkomen dat vertrouwde [afzenders](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) worden geblokkeerd en Exchange Online PowerShell gebruiken om de safelistverzameling in een postvak te configureren voor meer informatie over de lijst met veilige [afzenders.](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)
+Zie Voorkomen dat vertrouwde [afzenders](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) worden geblokkeerd en Gebruik Exchange Online PowerShell om de [safelistverzameling](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)in een postvak te configureren voor meer informatie over de lijst met Safe-afzenders.
 
 #### <a name="block-sender-permission"></a>Afzendermachtiging blokkeren
 
@@ -490,7 +499,7 @@ De **machtiging Afzender blokkeren** _(PermissionToBlockSender)_ bepaalt de toeg
   - **Afzendermachtiging** blokkeren uitgeschakeld: de **knop Afzender blokkeren** is niet beschikbaar.
   - **Afzendermachtiging** blokkeren ingeschakeld: de **knop Afzender blokkeren** is beschikbaar.
 
-Zie Berichten van iemand blokkeren en [](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) Exchange Online PowerShell gebruiken om de [safelistverzameling in](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)een postvak te configureren voor meer informatie over de lijst met geblokkeerde afzenders.
+Zie Berichten van iemand blokkeren en [](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) Gebruik Exchange Online PowerShell om de safelistverzameling in een postvak te configureren voor meer informatie over de lijst geblokkeerde [afzenders.](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)
 
 #### <a name="delete-permission"></a>Machtiging voor verwijderen
 

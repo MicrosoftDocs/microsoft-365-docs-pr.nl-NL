@@ -1,6 +1,6 @@
 ---
 title: Uw beveiligingsbeleid beoordelen via Microsoft Secure Score
-description: Hier wordt beschreven hoe u actie onderneemt om uw Microsoft Secure Score te verbeteren in het Microsoft 365-beveiligingscentrum.
+description: Hier wordt beschreven hoe u actie onderneemt om uw Microsoft Secure Score te verbeteren in het Microsoft 365 beveiligingscentrum.
 keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, microsoft 365 security center, improvement actions
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -21,31 +21,31 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 0b2b9f1f01a583a96e0ae663e3f78cb0a7d846fc
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 8b321fc8883cf490cb5b2814d5c2b617a52dbb29
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570598"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246393"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Uw beveiligingsbeleid beoordelen met Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft Secure Score is een meting van de beveiligingsstatus van een organisatie, waarbij een hoger aantal aangeeft dat er meer verbeteracties zijn uitgevoerd. Deze is te vinden https://security.microsoft.com/securescore in het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)
+Microsoft Secure Score is een meting van de beveiligingsstatus van een organisatie, waarbij een hoger aantal aangeeft dat er meer verbeteracties zijn uitgevoerd. U vindt deze in https://security.microsoft.com/securescore het Microsoft 365 [beveiligingscentrum.](overview-security-center.md)
 
 Om u te helpen sneller de informatie te vinden die u nodig hebt, zijn Microsoft-verbeteracties ingedeeld in groepen:
 
-* Identiteit (Azure Active Directory-accounts & rollen)
+* Identiteit (Azure Active Directory accounts & rollen)
 * Apparaat (Microsoft Defender voor eindpunt, bekend als [Microsoft Secure Score voor apparaten](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
-* App (e-mail- en cloud-apps, waaronder Office 365 en Microsoft Cloud App Security)
+* Apps (e-mail- en cloud-apps, Office 365 en Microsoft Cloud App Security)
 
 >[!NOTE]
 >In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht, waardoor Microsoft Secure Score tijdelijk niet compatibel is met Identity Secure Score en de Graph API. [Details weergeven](microsoft-secure-score-whats-new.md)
 
 Bekijk op de overzichtspagina van Microsoft Secure Score hoe punten worden gesplitst tussen deze groepen en welke punten beschikbaar zijn. U kunt ook een volledig overzicht krijgen van de totale score, de historische trend van uw veilige score met benchmarkvergelijkingen en prioriteitsverbeteringsacties die kunnen worden genomen om uw score te verbeteren.
 
-![Startpagina van Secure Score](../../media/secure-score/secure-score-homepage-new.png)
+![Startpagina van Secure Score](../../media/secure-score/secure-score-home-page.png)
 
 ## <a name="check-your-current-score"></a>Uw huidige score controleren
 
@@ -61,7 +61,7 @@ De volgende scores zijn scores die u kunt toevoegen aan uw weergave van uw total
 
 Deze weergave ziet er zo uit als u alle mogelijke scoreweergaven hebt opgenomen:
 
-![Uw veilige score, inclusief geplande score, huidige licentiescore en haalbare score](../../media/secure-score/your-secure-score.png)
+![Uw veilige score, inclusief geplande score, huidige licentiescore en haalbare score](../../media/secure-score/secure-score-achievable.png)
 
 ## <a name="take-action-to-improve-your-score"></a>Actie ondernemen om uw score te verbeteren
 
@@ -81,7 +81,7 @@ Als u de actie wilt voltooien, hebt u een paar opties:
 
 - Selecteer **Beheren** om naar het configuratiescherm te gaan en de wijziging aan te brengen. U krijgt dan de punten die de actie waard is, zichtbaar in de fly out. Het bijwerken van punten duurt meestal ongeveer 24 uur.
 
-- Selecteer **Delen** om de directe koppeling naar de verbeteringsactie te kopiëren. U kunt ook het platform kiezen om de koppeling te delen, zoals e-mail, Microsoft Teams, Microsoft Planner of ServiceNow. Als u ServiceNow selecteert, kunt u een wijzigingsticket maken dat zichtbaar is in ServiceNow en het Microsoft 365-beveiligingscentrum thuis. Zie Microsoft [365-beveiligingscentrum en ServiceNow-integratie](./tickets.md)voor meer informatie.
+- Selecteer **Delen** om de directe koppeling naar de verbeteringsactie te kopiëren. U kunt ook het platform kiezen om de koppeling te delen, zoals e-mail, Microsoft Teams of Microsoft Planner.
 
 Voeg **Notities toe** om de voortgang bij te houden of iets anders waar u opmerkingen over wilt maken. Als u uw eigen **tags toevoegt aan** de actie voor verbetering, kunt u filteren op deze tags.
 
@@ -94,9 +94,9 @@ Kies eventuele statussen en noteert notities die specifiek zijn voor de verbeter
 - **Risico geaccepteerd:** beveiliging moet altijd in balans zijn met bruikbaarheid en niet elke aanbeveling werkt voor uw omgeving. Als dat het geval is, kunt u ervoor kiezen om het risico of het resterende risico te accepteren en de verbeteringsactie niet uit te voeren. U krijgt geen punten, maar de actie is niet meer zichtbaar in de lijst met verbeteracties. U kunt deze actie op elk moment in de geschiedenis bekijken of ongedaan maken.
 - **Opgelost via derden en** **opgelost** door middel van alternatieve mitigatie: de verbeteringsactie is al opgelost door een toepassing of software van derden of een intern hulpprogramma. U krijgt de punten die de actie waard is, zodat uw score beter uw algehele beveiligingshouding weerspiegelt. Als het besturingselement niet meer wordt bedekt door een externe of interne tool, kunt u een andere status kiezen. Houd er rekening mee dat Microsoft geen inzicht heeft in de volledigheid van de implementatie als de verbeteringsactie is gemarkeerd als een van deze statussen.
 
-#### <a name="threat--vulnerability-management-improvement-actions"></a>Acties & beveiligingsprobleembeheer
+#### <a name="threat--vulnerability-management-improvement-actions"></a>Acties & vulnerability management bedreigingen
 
-Voor verbeteracties in de categorie 'Apparaat' kunt u geen statussen kiezen. In plaats daarvan wordt u doorgestuurd naar de beveiligingsaanbeveling voor bedreigings- en beveiligingsrisico's [in](/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) het [Microsoft Defender-beveiligingscentrum](/windows/security/threat-protection/microsoft-defender-atp/use) om actie te ondernemen. De uitzondering die u kiest en uitvulling die u schrijft, is specifiek voor die portal. Deze is niet aanwezig in de Microsoft Secure Score-portal.
+Voor verbeteracties in de categorie 'Apparaat' kunt u geen statussen kiezen. In plaats daarvan wordt u [](/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) doorgestuurd naar de bijbehorende Threat and Vulnerability Management beveiligingsaanbeveling in [de](/windows/security/threat-protection/microsoft-defender-atp/use) Microsoft Defender-beveiligingscentrum actie te ondernemen. De uitzondering die u kiest en uitvulling die u schrijft, is specifiek voor die portal. Deze is niet aanwezig in de Microsoft Secure Score-portal.
 
 #### <a name="completed-improvement-actions"></a>Acties voor voltooide verbetering
 

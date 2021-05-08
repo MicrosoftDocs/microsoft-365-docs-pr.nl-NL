@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 15909684d07bac46fd42163cee545bc4752b61d4
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 87305f28975b8997afce211ffa4de3711d26be6b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995007"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246366"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Geavanceerde functies configureren in Defender voor Eindpunt
 
@@ -75,13 +75,13 @@ Deze configuratie kan worden gebruikt voor scenario's waarin lokale soc-bewerkin
 >[!NOTE]
 >Het wijzigen van deze instelling heeft alleen gevolgen voor toekomstige waarschuwingscorrelatie.
 
-## <a name="enable-edr-in-block-mode"></a>EDR inschakelen in de blokmodus
-Endpoint detection and response (EDR) in block mode biedt bescherming tegen schadelijke artefacten, zelfs wanneer Microsoft Defender Antivirus wordt uitgevoerd in de passieve modus. Wanneer EDR is ingeschakeld, blokkeert EDR in de blokmodus schadelijke artefacten of gedragingen die worden gedetecteerd op een apparaat. EDR in de blokmodus werkt achter de schermen om schadelijke artefacten te corrigeren die worden gedetecteerd na een inbreuk.
+## <a name="enable-edr-in-block-mode"></a>De EDR in de blokmodus inschakelen
+Eindpuntdetectie en -antwoord (EDR) in de blokmodus biedt bescherming tegen schadelijke artefacten, zelfs wanneer Microsoft Defender Antivirus actief is in de passieve modus. Wanneer deze functie is ingeschakeld, EDR in de blokmodus schadelijke artefacten of gedragingen die op een apparaat worden gedetecteerd, geblokkeerd. EDR in de blokmodus werkt achter de schermen om schadelijke artefacten te corrigeren die na een inbreuk worden gedetecteerd.
 
 
 ## <a name="autoresolve-remediated-alerts"></a>Autoresolve remediated alerts
 
-Voor tenants die zijn gemaakt op of na Windows 10, versie 1809, is de mogelijkheid voor automatisch onderzoek en herstel standaard geconfigureerd om waarschuwingen op te lossen waarbij de status van het geautomatiseerde analyseresultaat 'Geen bedreigingen gevonden' of 'Opgelost' is.  Als u waarschuwingen niet automatisch wilt laten oplossen, moet u de functie handmatig uitschakelen.
+Voor tenants die zijn gemaakt op of na Windows 10, versie 1809, is de mogelijkheid voor automatisch onderzoek en herstel standaard geconfigureerd om waarschuwingen op te lossen waarbij de status van het geautomatiseerde analyseresultaat 'Geen bedreigingen gevonden' of 'Herstel' is.  Als u waarschuwingen niet automatisch wilt laten oplossen, moet u de functie handmatig uitschakelen.
 
 > [!TIP]
 > Voor tenants die vóór die versie zijn gemaakt, moet u deze functie handmatig inschakelen vanaf de [pagina Geavanceerde functies.](https://securitycenter.windows.com/preferences2/integration)
@@ -95,14 +95,14 @@ Voor tenants die zijn gemaakt op of na Windows 10, versie 1809, is de mogelijkhe
 
 Blokkeren is alleen beschikbaar als uw organisatie aan deze vereisten voldoet:
 
-- Gebruikt Microsoft Defender Antivirus als de actieve antimalware-oplossing en,
+- Gebruikt Microsoft Defender Antivirus als de actieve antimalwareoplossing en,
 - De cloudbeveiligingsfunctie is ingeschakeld
 
 Met deze functie kunt u potentieel schadelijke bestanden in uw netwerk blokkeren. Als u een bestand blokkeert, wordt dit niet gelezen, geschreven of uitgevoerd op apparaten in uw organisatie.
 
 Bestanden **toestaan of blokkeren** in- of in- of uit te stellen:
 
-1. Selecteer in het navigatiedeelvenster **Instellingen Geavanceerde**  >  **functies Bestand** toestaan of  >  **blokkeren.**
+1. Selecteer in het navigatiedeelvenster **Instellingen** Geavanceerde functies Bestand toestaan  >    >  **of blokkeren.**
 
 1. Schakel de instelling in tussen **Aan** en **Uit.**
 
@@ -116,7 +116,7 @@ Nadat u deze functie hebt ingeslagen, kunt u bestanden [blokkeren](respond-file-
 
 Met deze functie kunt u indicatoren maken voor IP-adressen, domeinen of URL's, die bepalen of deze worden toegestaan of geblokkeerd op basis van uw aangepaste indicatorlijst.
 
-Als u deze functie wilt gebruiken, moeten apparaten Windows 10 versie 1709 of hoger gebruiken. Ze moeten ook netwerkbeveiliging hebben in de blokmodus en versie 4.18.1906.3 of hoger van het antimalware-platform [zie KB 4052623](https://go.microsoft.com/fwlink/?linkid=2099834).
+Als u deze functie wilt gebruiken, moeten apparaten worden uitgevoerd Windows 10 versie 1709 of hoger. Ze moeten ook netwerkbeveiliging hebben in de blokmodus en versie 4.18.1906.3 of hoger van het antimalware-platform [zie KB 4052623](https://go.microsoft.com/fwlink/?linkid=2099834).
 
 Zie Indicatoren beheren voor meer [informatie.](manage-indicators.md)
 
@@ -126,16 +126,16 @@ Zie Indicatoren beheren voor meer [informatie.](manage-indicators.md)
 ## <a name="tamper-protection"></a>Beveiliging van tamper
 Tijdens sommige soorten cyberaanvallen proberen slechte spelers beveiligingsfuncties, zoals antivirusbeveiliging, uit te schakelen op uw machines. Slechte spelers willen uw beveiligingsfuncties uitschakelen om gemakkelijker toegang te krijgen tot uw gegevens, om malware te installeren of om op een andere manier uw gegevens, identiteit en apparaten te misbruiken.
 
-Met de beveiliging van tamper wordt Microsoft Defender Antivirus vergrendeld en wordt voorkomen dat uw beveiligingsinstellingen worden gewijzigd via apps en methoden.
+Met tamperbeveiliging worden Microsoft Defender Antivirus en voorkomt u dat uw beveiligingsinstellingen worden gewijzigd via apps en methoden.
 
-Deze functie is beschikbaar als uw organisatie Microsoft Defender Antivirus gebruikt en cloudbeveiliging is ingeschakeld. Zie Technologieën van de volgende generatie gebruiken in Microsoft Defender Antivirus via beveiliging in de cloud voor [meer informatie.](cloud-protection-microsoft-defender-antivirus.md)
+Deze functie is beschikbaar als uw organisatie gebruikmaakt van Microsoft Defender Antivirus cloudbeveiliging is ingeschakeld. Zie Technologieën van de volgende generatie gebruiken in Microsoft Defender Antivirus beveiliging in de cloud voor [meer informatie.](cloud-protection-microsoft-defender-antivirus.md)
 
 Houd de beveiliging van de tamper ingeschakeld om ongewenste wijzigingen in uw beveiligingsoplossing en de essentiële functies te voorkomen.
 
 
 ## <a name="show-user-details"></a>Gebruikersgegevens tonen
 
-Schakel deze functie in, zodat u gebruikersgegevens kunt zien die zijn opgeslagen in Azure Active Directory. Details zijn onder andere de afbeelding, naam, titel en afdelingsgegevens van een gebruiker bij het onderzoeken van entiteiten van gebruikersaccounts. U kunt gebruikersaccountgegevens vinden in de volgende weergaven:
+Schakel deze functie in, zodat u de gebruikersgegevens kunt zien die zijn opgeslagen in Azure Active Directory. Details zijn onder andere de afbeelding, naam, titel en afdelingsgegevens van een gebruiker bij het onderzoeken van entiteiten van gebruikersaccounts. U kunt gebruikersaccountgegevens vinden in de volgende weergaven:
 
 - Dashboard beveiligingsbewerkingen
 - Waarschuwingswachtrij
@@ -144,12 +144,12 @@ Schakel deze functie in, zodat u gebruikersgegevens kunt zien die zijn opgeslage
 Zie Een gebruikersaccount [onderzoeken voor meer informatie.](investigate-user.md)
 
 
-## <a name="skype-for-business-integration"></a>Skype voor Bedrijven-integratie
+## <a name="skype-for-business-integration"></a>Skype voor Bedrijven integratie
 
-Als u de integratie van Skype voor Bedrijven inschakelen, kunt u communiceren met gebruikers via Skype voor Bedrijven, e-mail of telefoon. Dit kan handig zijn als u wilt communiceren met de gebruiker en risico's wilt beperken.
+Als u de Skype voor Bedrijven inschakelen, kunt u communiceren met gebruikers via Skype voor Bedrijven, e-mail of telefoon. Dit kan handig zijn als u wilt communiceren met de gebruiker en risico's wilt beperken.
 
 > [!NOTE]
-> Wanneer een apparaat wordt geïsoleerd van het netwerk, is er een pop-up waarin u outlook- en Skype-communicatie kunt inschakelen, zodat communicatie met de gebruiker kan worden ingeschakeld terwijl de verbinding met het netwerk is verbroken. Deze instelling is van toepassing op Communicatie via Skype en Outlook wanneer apparaten in de isolatiemodus staan.
+> Wanneer een apparaat wordt geïsoleerd van het netwerk, is er een pop-up waar u ervoor kunt kiezen om Outlook- en Skype-communicatie in te stellen, zodat communicatie met de gebruiker kan worden gedaan terwijl deze verbinding met het netwerk is verbroken. Deze instelling is van toepassing op Skype en Outlook communicatie wanneer apparaten in de isolatiemodus staan.
 
 ## <a name="microsoft-defender-for-identity-integration"></a>Microsoft Defender voor identiteitsintegratie
 
@@ -160,9 +160,9 @@ Met de integratie met Microsoft Defender voor identiteit kunt u rechtstreeks naa
 
 ## <a name="office-365-threat-intelligence-connection"></a>Office 365 Threat Intelligence-verbinding
 
-Deze functie is alleen beschikbaar als u een actieve Office 365 E5 of de Threat Intelligence-invoeging hebt. Zie de productpagina van Office 365 Enterprise E5 voor meer informatie.
+Deze functie is alleen beschikbaar als u een actieve Office 365 E5 of de threat intelligence-invoeging hebt. Zie de productpagina Office 365 Enterprise E5 voor meer informatie.
 
-Wanneer u deze functie in gebruik neemt, kunt u gegevens van Microsoft Defender voor Office 365 opnemen in het Microsoft Defender-beveiligingscentrum om een uitgebreid beveiligingsonderzoek uit te voeren op Office 365-postvakken en Windows-apparaten.
+Wanneer u deze functie in gebruik neemt, kunt u gegevens van Microsoft Defender voor Office 365 opnemen in Microsoft Defender-beveiligingscentrum om een uitgebreid beveiligingsonderzoek uit te voeren op Office 365 postvakken en Windows apparaten.
 
 > [!NOTE]
 > U moet over de juiste licentie beschikken om deze functie in te stellen.
@@ -174,17 +174,17 @@ Als u contextuele apparaatintegratie wilt ontvangen in Office 365 Threat Intelli
 Van de twee Microsoft Threat Expert-onderdelen is een gerichte aanvalsmelding algemeen beschikbaar. Experts-on-demand-mogelijkheden zijn nog steeds beschikbaar in de preview-versie. U kunt de mogelijkheid van experts op aanvraag alleen gebruiken als u een preview-aanvraag hebt ingediend en uw toepassing is goedgekeurd. U kunt gerichte aanvalsmeldingen ontvangen van Microsoft Threat Experts via het dashboard waarschuwingen van de Defender for Endpoint-portal en via e-mail als u deze configureert.
 
 > [!NOTE]
-> De Microsoft Threat Experts-mogelijkheid in Defender voor Eindpunt is beschikbaar met een E5-licentie voor [Enterprise Mobility + Security.](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
+> De Microsoft Threat Experts in Defender voor Eindpunt is beschikbaar met een E5-licentie voor [Enterprise Mobility + Security.](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
-Als u deze instelling inschakelen, worden Defender voor Eindpunt-signalen doorgestuurd naar Microsoft Cloud App Security om meer inzicht te krijgen in het gebruik van cloudtoepassing. Doorgestuurde gegevens worden opgeslagen en verwerkt op dezelfde locatie als uw cloud-app-beveiligingsgegevens.
+Als u deze instelling inschakelen, worden defender-voor-eindpunt-signalen Microsoft Cloud App Security om meer inzicht te krijgen in het gebruik van cloudtoepassing. Doorgestuurde gegevens worden opgeslagen en verwerkt op dezelfde locatie als uw Cloud App Security gegevens.
 
 > [!NOTE]
-> Deze functie is beschikbaar met een E5-licentie voor [Enterprise Mobility + Beveiliging](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) op apparaten met Windows 10, versie 1709 (os build 16299.1085 met [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, versie 1803 (os build 17134.704 met [KB4493464),](https://support.microsoft.com/help/4493464)Windows 10, versie 1809 (os build 17763.379 met [KB4489899),](https://support.microsoft.com/help/4489899)of hoger Windows 10-versies.
+> Deze functie is beschikbaar met een E5-licentie voor [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) op apparaten met Windows 10, versie 1709 (os build 16299.1085 met [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, versie 1803 (os build 17134.704 met [KB4493464),](https://support.microsoft.com/help/4493464)Windows 10, versie 1809 (os build 17763.379 met [KB4489899),](https://support.microsoft.com/help/4489899)of later Windows 10 versies.
 
 ## <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
-Doorgestuurde Microsoft Defender voor eindpunten naar Microsoft Secure Score in het Microsoft 365-beveiligingscentrum. Door deze functie in te stellen, krijgt Microsoft Secure Score inzicht in de beveiligingsstatus van het apparaat. Doorgestuurde gegevens worden opgeslagen en verwerkt op dezelfde locatie als uw Microsoft Secure Score-gegevens.
+Doorgestuurde Microsoft Defender voor Eindpunt-signalen naar Microsoft Secure Score in het Microsoft 365 beveiligingscentrum. Door deze functie in te stellen, krijgt Microsoft Secure Score inzicht in de beveiligingsstatus van het apparaat. Doorgestuurde gegevens worden opgeslagen en verwerkt op dezelfde locatie als uw Microsoft Secure Score-gegevens.
 
 
 ### <a name="enable-the-microsoft-defender-for-endpoint-integration-from-the-microsoft-defender-for-identity-portal"></a>De integratie van Microsoft Defender voor eindpunten inschakelen vanuit de Microsoft Defender voor identiteitsportal
@@ -204,23 +204,23 @@ Blokkeer de toegang tot websites die ongewenste inhoud bevatten en volg webactiv
 
 
 ## <a name="share-endpoint-alerts-with-microsoft-compliance-center"></a>Eindpuntwaarschuwingen delen met Microsoft Compliance Center
-Doorgestuurde beveiligingswaarschuwingen voor eindpunten en hun triagestatus naar Microsoft Compliance Center, zodat u het beleid voor insiderrisicobeheer kunt verbeteren met waarschuwingen en interne risico's kunt corrigeren voordat deze schade veroorzaken. Doorgestuurde gegevens worden verwerkt en opgeslagen op dezelfde locatie als uw Office 365-gegevens.
+Doorgestuurde beveiligingswaarschuwingen voor eindpunten en hun triagestatus naar Microsoft Compliance Center, zodat u het beleid voor insiderrisicobeheer kunt verbeteren met waarschuwingen en interne risico's kunt corrigeren voordat deze schade veroorzaken. Doorgestuurde gegevens worden verwerkt en opgeslagen op dezelfde locatie als uw Office 365 gegevens.
 
 Nadat u [](/microsoft-365/compliance/insider-risk-management-settings#indicators) de indicatoren voor beveiligingsbeleidsovertreding hebt geconfigureerd in de instellingen voor insiderrisicobeheer, worden defender voor eindpuntwaarschuwingen gedeeld met insiderrisicobeheer voor toepasselijke gebruikers.
 
 
 
-## <a name="microsoft-intune-connection"></a>Microsoft Intune-verbinding
+## <a name="microsoft-intune-connection"></a>Microsoft Intune verbinding
 
-Defender voor Eindpunt kan worden geïntegreerd met [Microsoft Intune om](https://docs.microsoft.com/intune/what-is-intune) voorwaardelijke toegang op basis van [apparaatrisico's in te stellen.](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune) Wanneer u [deze functie in gebruikt,](configure-conditional-access.md)kunt u de apparaatgegevens van Defender voor eindpunt delen met Intune, waardoor de handhaving van het beleid wordt vergroot.
+Defender for Endpoint kan worden geïntegreerd [met](https://docs.microsoft.com/intune/what-is-intune) Microsoft Intune om voorwaardelijke toegang op basis van [apparaatrisico's in te stellen.](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune) Wanneer u [deze functie in gebruikt,](configure-conditional-access.md)kunt u de apparaatgegevens van Defender voor eindpunt delen met Intune, waardoor de handhaving van het beleid wordt vergroot.
 
 > [!IMPORTANT]
 > U moet de integratie van zowel Intune als Defender voor Endpoint inschakelen om deze functie te kunnen gebruiken. Zie Voorwaardelijke toegang [configureren in Defender voor eindpunt](configure-conditional-access.md)voor meer informatie over specifieke stappen.
 
 Deze functie is alleen beschikbaar als u het volgende hebt:
 
-- Een gelicentieerde tenant voor Enterprise Mobility + Security E3 en Windows E5 (of Microsoft 365 Enterprise E5)
-- Een actieve Microsoft Intune-omgeving, met Intune-beheerde Windows 10-apparaten [met Azure AD-joined.](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join/)
+- Een licentie tenant voor Enterprise Mobility + Security E3 en Windows E5 (of Microsoft 365 Enterprise E5)
+- Een actieve Microsoft Intune omgeving, met intune beheerde Windows 10 [Azure AD-joined](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join/).
 
 
 ### <a name="conditional-access-policy"></a>Beleid voor voorwaardelijke toegang
@@ -234,9 +234,12 @@ Wanneer u Intune-integratie inschakelen, wordt in Intune automatisch een klassie
 ## <a name="device-discovery"></a>Apparaatdetectie
 Helpt u bij het vinden van niet-beheerbare apparaten die zijn verbonden met uw bedrijfsnetwerk zonder dat u extra apparaten of lastige proceswijzigingen nodig hebt. Met onboarded-apparaten kunt u onaangemande apparaten in uw netwerk vinden en beveiligingslekken en risico's beoordelen. Zie Apparaatdetectie voor [meer informatie.](device-discovery.md)
 
+> [!NOTE]
+> U kunt altijd filters toepassen om niet-beheerde apparaten uit de lijst met apparaatvoorraad uit te sluiten. U kunt ook de kolom onboardingstatus op API-query's gebruiken om niet-gebouwde apparaten te filteren. 
+
 ## <a name="preview-features"></a>Preview-functies
 
-Lees meer over nieuwe functies in de preview-release van Defender voor Eindpunt en probeer als een van de eersten toekomstige functies door de preview-ervaring in te- of uitschakelen.
+Meer informatie over nieuwe functies in de preview-release van Defender voor Eindpunt. Probeer aanstaande functies door de preview-ervaring in te- of uitschakelen.
 
 U hebt toegang tot toekomstige functies, waarop u feedback kunt geven om de algehele ervaring te verbeteren voordat functies algemeen beschikbaar zijn.
 

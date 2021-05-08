@@ -8,28 +8,28 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8517623cffb8fe6ae0283880bb2d030c3f109b05
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 114db97bfeaf7a9bd61936c752cf8c1fe62c4e2e
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551126"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273726"
 ---
 # <a name="payment-information-for-greece"></a>Betalingsgegevens voor Griekenland
 
 [Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in EUR en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
+Betaal alleen in EUR en vermeld het factuurnummer(en) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank, London  
+**Bank:** Citibank, Londen  
 **SWIFT-code/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**SORTEERcode:** 185008  
-**Rekeningnummer:** 12207591  
+**SORT-code:** 185008  
+**Accountnummer:** 12207591  
 **Accountnaam:** MICROSOFT  

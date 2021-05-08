@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Meer informatie over Office 365 beheerd door 21Vianet dat is ontworpen om te voldoen aan de behoeften voor veilige, betrouwbare en schaalbare cloudservices in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 92b69cc77f5c48af63651f2fd37761981ca45ad5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1ee7ba7be2e350195350a5c00e92ed10924657ac
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914340"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274362"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365, beheerd door 21Vianet
 
@@ -77,7 +77,7 @@ Zie Aan de slag als u wilt weten hoe u [](../admin-overview/get-started-with-off
 |Een document, bibliotheek of site per e-mail delen met iemand buiten uw organisatie  <br/> |Deze functie is beschikbaar, maar als u deze functie standaard gebruikt, kunnen bestanden die worden gedeeld, buiten uw land toegankelijk zijn. Beheerders hebben wel de mogelijkheid om deze in te zetten, maar krijgen een waarschuwingsbericht waarin wordt aangegeven dat bestanden die worden gedeeld, buiten uw land kunnen worden gedeeld. Gebruikers die proberen te delen met iemand buiten de organisatie, ontvangen ook een waarschuwing. Zie SharePoint-bestanden of -mappen delen [in Office 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)voor meer informatie.  <br/> |
 |Access Services  <br/> |Access 2013 wordt ondersteund, maar het toevoegen van nieuwe Access-apps is mogelijk niet beschikbaar omdat deze functie wordt teruggetrokken uit Office 365 en SharePoint Online. Het maken van nieuwe Access-web-apps en Access-webdatabases in Office 365 en SharePoint Online stopt vanaf juni 2017 en alle resterende web-apps en webdatabases in april 2018. Bovendien wordt de functionaliteit van Access 2010 niet ondersteund en kan het gebruik van een Access 2010-database leiden tot fouten en mogelijk gegevensverlies.  <br/> |
 |Microsoft PowerApps  <br/> |Binnenkort beschikbaar.  <br/> |
-|IRM (Information Rights Management)  <br/> |De mogelijkheid om IRM-mogelijkheden in te stellen op SharePoint voor uw organisatie is binnenkort beschikbaar.  <br/> |
+|Information Rights Management (IRM)  <br/> |De mogelijkheid om IRM-mogelijkheden in te stellen op SharePoint voor uw organisatie is binnenkort beschikbaar.  <br/> |
 |De mogelijkheid om tekst of pagina's te vertalen  <br/> |Beschikbaar, maar standaard uitgeschakeld. Tenantbeheerders kunnen deze mogelijkheid in- of uit zetten, maar de vertaalcloudservice bevindt zich mogelijk buiten uw land. Als u niet wilt dat gebruikers inhoud naar een vertaalcloudservice verzenden, kunt u deze functies uitgeschakeld houden.  <br/> |
 |Openbare website ICP-registratie  <br/> |China Internet compliance policy requires that you get an Internet Content Provider (ICP) number for your public website.  |
 |Openbare websitefuncties  <br/> |Openbare websites zijn alleen beschikbaar als u Office 365 hebt gekocht vóór 9 maart 2015. Bing-kaarten, extern delen en opmerkingen zijn echter niet beschikbaar op een openbare website, omdat deze functies gegevens kunnen verzenden buiten uw land.  <br/> |
@@ -93,35 +93,35 @@ Zie Aan de slag als u wilt weten hoe u [](../admin-overview/get-started-with-off
 
 |||
 |:-----|:-----|
-|Blackberry Business Cloud Services (BBCS)  <br/> |Niet beschikbaar, maar u kunt Exchange ActiveSync-apparaten of een aanbieding van Research in Motion (RIM, de draadloze blackBerry-e-mailoplossing) gebruiken om Blackberry Enterprise Server (BES) uit te voeren.  <br/> |
+|Blackberry Business Cloud Services (BBCS)  <br/> |Niet beschikbaar, maar u kunt wel Exchange ActiveSync apparaten of een aanbieding van Research in Motion (RIM, de blackBerry-oplossing voor draadloze e-mail) gebruiken om Blackberry Enterprise Server (BES) uit te voeren.  <br/> |
 |Information Rights Management  <br/> |Binnenkort beschikbaar.  <br/> |
-|Informatie over gratis/bezet  <br/> |Gratis/bezet-informatie tussen on-premises postvakken en Exchange Online-postvakken is beschikbaar.  <br/> |
-|Uw agenda delen  <br/> |Het delen van agenda's tussen on-premises postvakken en Exchange Online-postvakken is beschikbaar.  <br/> |
+|Informatie over gratis/bezet  <br/> |Gratis/bezet-informatie tussen on-premises en Exchange Online postvakken is beschikbaar.  <br/> |
+|Uw agenda delen  <br/> |Het delen van agenda's tussen on-premises en Exchange Online postvakken is beschikbaar.  <br/> |
 |Contactpersonen delen  <br/> |Binnenkort beschikbaar.  <br/> |
 |Bericht bijhouden  <br/> |Binnenkort beschikbaar.  <br/> |
 |Apps  <br/> |Binnenkort beschikbaar.  <br/> |
 |Functie Plaatsen  <br/> |Deze functie toont kaarten van adressen in e-mail; omdat gegevens buiten uw land mogelijk worden toegestaan, is deze niet beschikbaar.  <br/> |
-|Verbonden accounts  <br/> |Verbinding maken met andere accounts, zoals Hotmail (Outlook.com) is binnenkort beschikbaar.  <br/> |
+|Verbonden accounts  <br/> |U kunt binnenkort verbinding maken met andere accounts, zoals Hotmail (Outlook.com).  <br/> |
    
 ## <a name="exchange"></a>Exchange
 
- Nieuw met Exchange 2013 Cumulatieve update 5 (CU5), worden nu volledige hybride implementaties ondersteund tussen on-premises Exchange 2013-organisaties en Office 365-services. Exchange 2013 CU5 biedt gebruik van nieuwe verbeteringen in de wizard Hybride configuratie en ondersteunt de volgende hybride functies tussen uw on-premises en Exchange Online-organisaties:  
+ Nieuw met Exchange 2013 Cumulatieve update 5 (CU5), worden nu volledige hybride implementaties ondersteund tussen on-premises Exchange 2013-organisaties en Office 365-services. Door gebruik te maken van nieuwe verbeteringen in de wizard Hybride configuratie, ondersteunt Exchange 2013 CU5 de volgende hybride functies tussen uw on-premises en Exchange Online organisaties:  
 
-- Veilige e-mailroutering tussen on-premises en Exchange Online-organisaties. 
-- E-mailroutering met een gedeelde domeinnaamruimte. Zowel on-premises als Exchange Online-organisaties gebruiken bijvoorbeeld het @contoso.com SMTP-domein. 
+- Beveilig e-mailroutering tussen on-premises en Exchange Online organisaties. 
+- E-mailroutering met een gedeelde domeinnaamruimte. Zowel on-premises als Exchange Online organisaties gebruiken bijvoorbeeld het SMTP-domein @contoso.com. 
 - Een geïntegreerde algemene adreslijst (GAL), ook wel een 'gedeeld adresboek' genoemd.  
-- Gratis/bezet en agenda delen tussen on-premises en Exchange Online-organisaties.  
-- Gecentraliseerde besturing van binnenkomende en uitgaande e-mailstroom. U kunt alle binnenkomende en uitgaande Exchange Online-berichten zo configureren dat ze worden gerouteerd via de on-premises Exchange-organisatie. 
-- Eén URL van Office Outlook Web App voor zowel de on-premises als Exchange Online-organisaties.  
-- De mogelijkheid om bestaande on-premises postvakken te verplaatsen naar de Exchange Online-organisatie. Exchange Online-postvakken kunnen indien nodig ook worden verplaatst naar de on-premises organisatie.  
-- Gecentraliseerde postvakbeheer met behulp van het on-premises Exchange-beheercentrum (EAC).  
-- MailTips, HD-fotoondersteuning voor Outlook-contactpersonen en zoeken in meerdere postvakken tussen on-premises en Exchange Online-organisaties. 
-- Cloudgebaseerde berichtarchivering voor on-premises Exchange-postvakken. 
+- Gratis/bezet en agenda delen tussen on-premises en Exchange Online organisaties.  
+- Gecentraliseerde besturing van binnenkomende en uitgaande e-mailstroom. U kunt alle binnenkomende en uitgaande berichten configureren Exchange Online via de on-premises Exchange organisatie. 
+- Eén Office Outlook Web App URL voor zowel de on-premises als Exchange Online organisaties.  
+- De mogelijkheid om bestaande on-premises postvakken te verplaatsen naar de Exchange Online organisatie. Exchange Online postvakken kunnen indien nodig ook worden verplaatst naar de on-premises organisatie.  
+- Gecentraliseerde postvakbeheer met behulp van het on-premises Exchange beheercentrum (EAC).  
+- MailTips, HD-fotoondersteuning voor Outlook contactpersonen en zoeken in meerdere postvakken tussen on-premises en Exchange Online organisaties. 
+- Cloudgebaseerde berichtarchivering voor on-premises Exchange postvakken. 
 
-Voor organisaties met oudere of gemengde versies van Exchange Server worden sommige hybride functies niet volledig ondersteund voor Office 365-tenants die worden gehost door 21Vianet. Gebruik de volgende tabel voor meer informatie over ondersteuning voor hybride functies in verschillende Exchange-implementatiescenario's:  <br/> 
+Voor organisaties met oudere of gemengde versies van Exchange Server worden sommige hybride functies niet volledig ondersteund voor Office 365 tenants die worden gehost door 21Vianet. Gebruik de volgende tabel voor meer informatie over ondersteuning voor hybride functies in verschillende Exchange implementatiescenario's:  <br/> 
 
 
-|**On-Premises Exchange-versie**|**Exchange Hybrid Server-versie**|**Ondersteunde wizard Hybride configuratie?**|**Ondersteunde hybride functies**|
+|**On-Premises Exchange versie**|**Exchange Hybride serverversie**|**Ondersteunde wizard Hybride configuratie?**|**Ondersteunde hybride functies**|
 |:-----|:-----|:-----|:-----|
 | 2016  <br/> | N.v.t.  <br/> | Ja  <br/> | Alles  <br/> |
 | CU5 2013  <br/> | N.v.t.  <br/> | Ja  <br/> | Alles  <br/> |
@@ -137,20 +137,20 @@ Voor organisaties met oudere of gemengde versies van Exchange Server worden somm
 
    
 > [!IMPORTANT]
->  Gemachtigde agendatoegang, wanneer een gebruiker of set gebruikers toegang krijgt tot de agenda van een andere gebruiker, wordt niet ondersteund in hybride implementaties met Office 365-tenants die worden gehost door 21Vianet. 
+>  Gemachtigde agendatoegang, wanneer een gebruiker of set gebruikers toegang krijgt tot de agenda van een andere gebruiker, wordt niet ondersteund in hybride implementaties met Office 365 tenants die worden gehost door 21Vianet. 
   
- Daarnaast worden sommige Exchange-berichtenbeleids- en compliancefuncties niet volledig ondersteund in hybride implementaties met Office 365-tenants die worden gehost door 21Vianet. Deze functies zijn:
+ Daarnaast worden sommige Exchange- en compliancefuncties niet volledig ondersteund in hybride implementaties met Office 365 tenants die worden gehost door 21Vianet. Deze functies zijn:
 
 - [Messaging Records Management (MRM)](/exchange/security-and-compliance/messaging-records-management/messaging-records-management) 
-- [In-Place eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) 
+- [In-place eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) 
 - [In-Place Hold](/exchange/security-and-compliance/in-place-and-litigation-holds) 
 - [Archiveren op de plaats](/exchange/in-place-archiving-in-exchange-2013-exchange-2013-help)
 - [Postvakcontrole](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)
-- Toegang tot onlinearchieven met [Outlook Web App (OWA)](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-on-the-web) 
+- Toegang tot onlinearchieven [met Outlook Web App (OWA)](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-on-the-web) 
 
-Gebruik de volgende tabel voor meer informatie over functieondersteuning in verschillende Exchange-implementatiescenario's: 
+Gebruik de volgende tabel voor meer informatie over functieondersteuning in verschillende Exchange implementatiescenario's: 
 
-|**On-Premises Exchange-versie**|**MRM (gesplitst archief)**|**OWA-toegang (gesplitst archief)**|**In-Place eDiscovery**|**Postvakcontrole**|**In-Place Hold/Archiving**|
+|**On-Premises Exchange versie**|**MRM (gesplitst archief)**|**OWA-toegang (gesplitst archief)**|**In-place eDiscovery**|**Postvakcontrole**|**In-Place Hold/Archiving**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 | Alle 2013 CU5  <br/> | Ondersteund <br/>  | Niet ondersteund <br/>  | Ondersteund <br/>  | Ondersteund  <br/> | Ondersteund <br/> |
 | Alle SP3 2010 <br/>  | Niet ondersteund <br/>  | Niet ondersteund <br/>  | Ondersteund<sup>1</sup> <br/> | Ondersteund  <br/> | Ondersteund <br/>  |
@@ -233,3 +233,11 @@ De AVG verleent personen (of, betrokkenen) bepaalde rechten met betrekking tot d
 - Systeem gegenereerde logboeken voor Microsoft-services beheerd door 21Vianet kunnen worden geëxporteerd door tenantbeheerders met behulp van de gegevenslogboekexport.
     
 Zie [DSR (Data Subject Requests) voor AVG voor](https://www.trustcenter.cn/privacy/gdpr-office365.mdl)meer informatie en instructies.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Een Microsoft 365 voor](../../commerce/try-or-buy-microsoft-365.md) Bedrijven-abonnement proberen of kopen (artikel)
+
+[Ondersteuning voor Azure Information Protection voor Office 365 beheerd door 21Vianet](parity-between-azure-information-protection.md) (artikel)
+
+[Uw factuur bekijken of een Fapiao krijgen](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artikel)

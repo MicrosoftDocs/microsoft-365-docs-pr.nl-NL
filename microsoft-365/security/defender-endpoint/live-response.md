@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4898081103faa27c19d3a09ffba1b59670833dd8
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: fc1c1e0d3f68016651c04521e04ce348e5ab9a65
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860795"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246463"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>Entiteiten op apparaten onderzoeken met livereactie
 
@@ -44,15 +44,15 @@ Met livereactie kunnen analisten alle volgende taken uitvoeren:
 - Voer eenvoudige en geavanceerde opdrachten uit om onderzoek te doen op een apparaat.
 - Download bestanden zoals malwarevoorbeelden en resultaten van PowerShell-scripts.
 - Bestanden op de achtergrond downloaden (nieuw!).
-- Upload een PowerShell-script of uitvoerbaar naar de bibliotheek en voer het uit op een apparaat vanaf tenantniveau.
+- Upload PowerShell-script of uitvoerbaar voor de bibliotheek en voer het uit op een apparaat op tenantniveau.
 - Herstelacties uitvoeren of ongedaan maken.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
 Voordat u een sessie op een apparaat kunt starten, moet u aan de volgende vereisten voldoen:
 
-- **Controleer of u een ondersteunde versie van Windows gebruikt.** <br/>
-Apparaten moeten een van de volgende versies van Windows uitvoeren
+- **Controleer of u een ondersteunde versie** van Windows. <br/>
+Apparaten moeten een van de volgende versies van Windows
 
   - **Windows 10**
     - [Versie 1909](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1909) of hoger  
@@ -101,20 +101,20 @@ U moet ten minste het minimale herstelniveau voor een bepaalde apparaatgroep ins
 ## <a name="live-response-dashboard-overview"></a>Overzicht van livereactiedashboard
 Wanneer u een livereactiesessie start op een apparaat, wordt er een dashboard geopend. Het dashboard bevat informatie over de sessie, zoals de volgende: 
 
-- Wie heeft de sessie gemaakt
+- Wie de sessie gemaakt
 - Wanneer de sessie is gestart
 - De duur van de sessie
 
 Het dashboard biedt u ook toegang tot:
 - Sessie verbreken
-- Bestanden uploaden naar de bibliotheek 
+- Upload bestanden naar de bibliotheek 
 - Opdrachtconsole
 - Opdrachtlogboek
 
 
 ## <a name="initiate-a-live-response-session-on-a-device"></a>Een livereactiesessie starten op een apparaat 
 
-1. Meld u aan bij het Microsoft Defender-beveiligingscentrum.
+1. Meld u aan bij Microsoft Defender-beveiligingscentrum.
 
 2. Ga naar de pagina apparatenlijst en selecteer een apparaat dat u wilt onderzoeken. De pagina Apparaten wordt geopend.
 
@@ -136,14 +136,13 @@ Afhankelijk van de rol die aan u is verleend, kunt u eenvoudige of geavanceerde 
 
 De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkheid krijgen om basisopdrachten **voor** livereacties uit te voeren. Zie Rollen maken en beheren voor meer informatie over [roltoewijzingen.](user-roles.md) 
 
-| Opdracht | Beschrijving |
+| Opdracht | Omschrijving |
 |---|---|--- |
 |`cd` | Wijzigt de huidige adreslijst. | 
 |`cls` | Het scherm van de console wordt gewed.  |
 |`connect` | Start een livereactiesessie op het apparaat. |
 |`connections` | Toont alle actieve verbindingen. |
 |`dir` | Toont een lijst met bestanden en subdirectorieën in een adreslijst. |
-|`download <file_path> &` | Hiermee downloadt u een bestand op de achtergrond. |
 |`drivers` |  Toont alle stuurprogramma's die op het apparaat zijn geïnstalleerd. |
 |`fg <command ID>` | Plaats de opgegeven taak op de voorgrond op de voorgrond, zodat deze de huidige taak is. <br> OPMERKING: fg gebruikt een 'opdracht-id' die beschikbaar is vanuit taken, niet uit een PID |
 |`fileinfo` | Informatie over een bestand. |
@@ -161,7 +160,7 @@ De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkhei
 ### <a name="advanced-commands"></a>Geavanceerde opdrachten
 De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkheid krijgen om geavanceerde **opdrachten** voor livereacties uit te voeren. Zie Rollen maken en beheren voor meer informatie over [roltoewijzingen.](user-roles.md) 
 
-| Opdracht | Beschrijving |
+| Opdracht | Omschrijving |
 |---|---|
 | `analyze` | Analyseert de entiteit met verschillende belastende motoren om tot een uitspraak te komen. |
 | `run` | Voert een PowerShell-script uit vanuit de bibliotheek op het apparaat. |
@@ -173,7 +172,7 @@ De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkhei
 
 ## <a name="use-live-response-commands"></a>Opdrachten voor livereacties gebruiken
 
-De opdrachten die u in de console kunt gebruiken, volgen dezelfde principes als [Windows-opdrachten.](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c)
+De opdrachten die u in de console kunt gebruiken, volgen dezelfde principes als [Windows Opdrachten.](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c)
 
 De geavanceerde opdrachten bieden een krachtigere reeks acties waarmee u krachtigere acties kunt uitvoeren, zoals het downloaden en uploaden van een bestand, het uitvoeren van scripts op het apparaat en het uitvoeren van herstelacties voor een entiteit.
 
@@ -200,7 +199,7 @@ Dit zijn enkele voorbeelden:
 
 |Opdracht  |Wat het doet  |
 |---------|---------|
-|`Download "C:\windows\some_file.exe" &`     |Start het downloaden van een bestand met *some_file.exe* op de achtergrond.         |
+|`getfile "C:\windows\some_file.exe" &`     |Start het downloaden van een bestand met *some_file.exe* op de achtergrond.         |
 |`fg 1234`     |Retourneert een download met *opdracht-id 1234* op de voorgrond.         |
 
 
@@ -214,7 +213,7 @@ U kunt een verzameling PowerShell-scripts hebben die kunnen worden uitgevoerd op
 
 #### <a name="to-upload-a-file-in-the-library"></a>Een bestand uploaden in de bibliotheek
 
-1. Klik **op Bestand uploaden naar bibliotheek**. 
+1. Klik **Upload bestand naar bibliotheek.** 
 
 2. Klik **op Bladeren** en selecteer het bestand.
 
@@ -234,16 +233,6 @@ Op elk gewenst moment tijdens een sessie kunt u een opdracht annuleren door op C
 
 >[!WARNING]
 >Als u deze snelkoppeling gebruikt, stopt u de opdracht niet aan de agentzijde. De opdracht in de portal wordt alleen geannuleerd. Het wijzigen van bewerkingen zoals 'herstel' kan dus doorgaan, terwijl de opdracht wordt geannuleerd. 
-
-### <a name="automatically-run-prerequisite-commands"></a>Vereiste opdrachten automatisch uitvoeren
-
-Sommige opdrachten hebben vereiste opdrachten om uit te voeren. Als u de vereiste opdracht niet uit te voeren, krijgt u een foutmelding. Als u bijvoorbeeld de `download` opdracht zonder uit te `fileinfo` voeren, wordt een fout weergegeven.
-
-U kunt de automatische vlag gebruiken om automatisch vereiste opdrachten uit te voeren, bijvoorbeeld:
-
-```console
-getfile c:\Users\user\Desktop\work.txt -auto
-```
 
 ## <a name="run-a-powershell-script"></a>Een PowerShell-script uitvoeren 
 
@@ -286,7 +275,7 @@ Livereactie ondersteunt uitvoertypen voor tabel- en JSON-indeling. Voor elke opd
 
 ## <a name="supported-output-pipes"></a>Ondersteunde uitvoerpijpen
 
-Live response ondersteunt uitvoerpijpleidingen naar CLI en bestand. CLI is het standaarduitvoergedrag. U kunt de uitvoer naar een bestand uitvoeren met de volgende opdracht: [opdracht] > [bestandsnaam].txt.  
+Live response ondersteunt uitvoerpijpleidingen naar CLI en bestand. CLI is het standaarduitvoergedrag. U kunt de uitvoer naar een bestand uitvoeren met de volgende opdracht: [command] > [bestandsnaam].txt.  
 
 Voorbeeld:
 

@@ -1,13 +1,13 @@
 ---
-title: Updates Microsoft Defender Antivirus en basislijnen toepassen
-description: Beheer hoe Microsoft Defender Antivirus beveiligings- en productupdates ontvangt.
+title: Microsoft Defender Antivirus-updates beheren en basislijnen toepassen
+description: Beheer hoe Microsoft Defender Antivirus bescherming en productupdates ontvangt.
 keywords: updates, beveiligingslijnlijnen, beveiliging, planningsupdates, force-updates, mobiele updates, wsus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 audience: ITPro
 ms.topic: article
 author: denisebmsft
@@ -16,31 +16,32 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 92f903f750ea5e7f2cb971b535c50bfecced65a2
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/06/2021
+ms.openlocfilehash: 22a173d39c3ab8d1afd91a33b05e02e58da24aaa
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52242310"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274554"
 ---
-# <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Updates Microsoft Defender Antivirus en basislijnen toepassen
+# <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Microsoft Defender Antivirus-updates beheren en basislijnen toepassen
 
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 - Microsoft Defender Antivirus
 
-Er zijn twee soorten updates die betrekking hebben op het up-to-date Microsoft Defender Antivirus houden:
+Er zijn twee soorten updates die betrekking hebben op het up-to-date houden van Microsoft Defender Antivirus:
 
 - Beveiligingsintelligentie-updates
 - Productupdates
 
 > [!IMPORTANT]
-> Het Microsoft Defender Antivirus up-to-date houden is essentieel om ervoor te zorgen dat uw apparaten de nieuwste technologie en functies hebben die nodig zijn om te beschermen tegen nieuwe malware en aanvalstechnieken.
+> Het up-to-date houden van Microsoft Defender Antivirus is essentieel om ervoor te zorgen dat uw apparaten de nieuwste technologie en functies hebben die nodig zijn om te beschermen tegen nieuwe malware en aanvalstechnieken.
 > 
 > Zorg ervoor dat u uw antivirusbeveiliging bij werkt, zelfs als Microsoft Defender Antivirus actief is in [de passieve modus.](./microsoft-defender-antivirus-compatibility.md)
 > 
-> Als u de meest recente datum van de engine, het platform en de handtekening wilt zien, gaat u naar de beveiligingsintelligentie-updates voor Microsoft Defender Antivirus [en andere Microsoft-antimalware.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
+> Als u de meest recente datum van de engine, het platform en de handtekening wilt zien, gaat u naar de beveiligingsinformatieupdates voor [Microsoft Defender Antivirus en andere Microsoft-antimalware.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
 
 ## <a name="security-intelligence-updates"></a>Beveiligingsintelligentie-updates
 
@@ -51,30 +52,30 @@ Microsoft Defender Antivirus gebruikt beveiliging in de cloud (ook wel de Micros
 > Microsoft Defender Antivirus: KB2267602  
 > System Center Endpoint Protection: KB2461484
 
-Beveiliging in de cloud is altijd actief en hiervoor is een actieve verbinding met internet vereist. Beveiligingsintelligentie-updates vinden plaats op een geplande cadans (configureerbaar via beleid). Zie Microsoft [Cloud-beveiliging](cloud-protection-microsoft-defender-antivirus.md)gebruiken in Microsoft Defender Antivirus voor meer Microsoft Defender Antivirus. 
+Beveiliging in de cloud is altijd actief en hiervoor is een actieve verbinding met internet vereist. Beveiligingsintelligentie-updates vinden plaats op een geplande cadans (configureerbaar via beleid). Zie Microsoft Defender Antivirus voor meer [informatie.](cloud-protection-microsoft-defender-antivirus.md) 
 
-Zie Beveiligingsinformatie-updates voor Microsoft Defender Antivirus en andere Microsoft-antimalware voor een lijst met recente [beveiligingsinformatieupdates.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
+Zie Beveiligingsintelligentie-updates voor Microsoft Defender Antivirus en andere Microsoft-antimalware voor een lijst met recente [beveiligingsintelligentie-updates.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
 
 Engine-updates worden opgenomen in beveiligingsinformatie-updates en worden maandelijks uitgebracht.
 
 ## <a name="product-updates"></a>Productupdates
 
-Microsoft Defender Antivirus vereist [maandelijkse updates (KB4052623)](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) (ook wel *platformupdates* genoemd) en ontvangen belangrijke functieupdates naast Windows 10 releases.
+Microsoft Defender Antivirus vereist [maandelijkse updates (KB4052623)](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) (ook wel *platformupdates* genoemd) en ontvangt naast Windows 10-versies belangrijke functie-updates.
 
 U kunt de distributie van updates beheren via een van de volgende methoden: 
 
-- [Windows Serverupdateservice (WSUS)](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
+- [Windows Server Update Service (WSUS)](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
 - [Microsoft Endpoint Configuration Manager](/configmgr/sum/understand/software-updates-introduction)
-- De gebruikelijke methode die u gebruikt om Microsoft te implementeren en Windows te installeren op eindpunten in uw netwerk.
+- De gebruikelijke methode die u gebruikt om Microsoft- en Windows-updates te implementeren voor eindpunten in uw netwerk.
 
-Zie De bronnen voor [beveiligingsupdates Microsoft Defender Antivirus beheren voor meer informatie.](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
+Zie De bronnen voor [Microsoft Defender Antivirusbeveiligingsupdates beheren voor meer informatie.](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
 
 > [!NOTE]
 > Maandelijkse updates worden gefaseerd uitgebracht, wat resulteert in meerdere pakketten die zichtbaar zijn in [uw Window Server Update Services.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
 
 ## <a name="monthly-platform-and-engine-versions"></a>Maandelijkse platform- en engineversies
 
-Zie Update voor Windows Defender [antimalwareplatform](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform)voor informatie over het bijwerken of installeren van de platformupdate.
+Zie [Update voor Windows Defender antimalwareplatform](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform)voor informatie over het bijwerken of installeren van de platformupdate.
 
 Al onze updates bevatten 
 - prestatieverbeteringen;
@@ -153,9 +154,9 @@ Nadat een nieuwe pakketversie is uitgebracht, wordt de ondersteuning voor de vor
 
 - Verbeteringen voor detectie van Shellcode-exploits
 - Meer zichtbaarheid voor pogingen tot het stelen van referenties
-- Verbeteringen in antitamperingfuncties in Microsoft Defender Antivirus services
+- Verbeteringen in antitampering-functies in Microsoft Defender Antivirus-services
 - Verbeterde ondersteuning voor ARM x64-emulatie
-- Oplossing: EDR Blokkeermelding blijft in de bedreigingsgeschiedenis staan nadat realtimebeveiliging eerste detectie heeft uitgevoerd
+- Fix: EDR Block notification remains in threat history after real-time protection performed initial detection
 
 ### <a name="known-issues"></a>Bekende problemen
 Geen bekende problemen  
@@ -215,7 +216,7 @@ Geen bekende problemen
    - Netwerkbeveiliging op Server 2019
    - IP-adresuitsluitingen voor netwerkbeveiliging
 - Verbeterde zichtbaarheid van TPM-metingen
-- Verbeterde Office VBA-module scannen
+- Verbeterde office VBA-module scannen
 
 ### <a name="known-issues"></a>Bekende problemen
 
@@ -238,7 +239,7 @@ Geen bekende problemen
 - Verbeterde gedragscontrole voor geheugenscans
 - Verbeterde macrostreams scannen
 - Toegevoegd `AMRunningMode` aan Get-MpComputerStatus PowerShell-cmdlet
-- [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) wordt genegeerd. Microsoft Defender Antivirus wordt automatisch uitgeschakeld wanneer er een ander antivirusprogramma wordt gedetecteerd.
+- [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) wordt genegeerd. Microsoft Defender Antivirus schakelt zichzelf automatisch uit wanneer er een ander antivirusprogramma wordt gedetecteerd.
 
 
 ### <a name="known-issues"></a>Bekende problemen
@@ -352,7 +353,7 @@ Geen bekende problemen
 - Melding voor procesblokkering verbeteren
    
 ### <a name="known-issues"></a>Bekende problemen
-[**Opgelost**] Microsoft Defender Antivirus wordt bestanden overgeslagen tijdens het uitvoeren van een scan.
+[**Opgelost**] Microsoft Defender Antivirus is het overslaan van bestanden bij het uitvoeren van een scan.
 
 <br/>
 </details>
@@ -396,7 +397,7 @@ Motor: **1.1.16700.2**
    
 ### <a name="known-issues"></a>Bekende problemen
 
-[**Opgelost**] apparaten die gebruikmaken van [de moderne stand-bymodus,](/windows-hardware/design/device-experiences/modern-standby) kunnen last hebben van de Windows Defender filtert stuurprogramma, wat resulteert in een gat in beveiliging.  Getroffen machines worden voor de klant weergegeven als niet bijgewerkt naar het nieuwste antimalwareplatform.  
+[**Opgelost**] apparaten die gebruikmaken van [de moderne stand-bymodus,](/windows-hardware/design/device-experiences/modern-standby) kunnen last hebben van een probleem met het Windows Defender-filtertruis, wat resulteert in een gat in beveiliging.  Getroffen machines worden voor de klant weergegeven als niet bijgewerkt naar het nieuwste antimalwareplatform.  
 <br/>
 > [!IMPORTANT]
 > Deze update is:
@@ -430,21 +431,21 @@ Wanneer deze update is geïnstalleerd, heeft het apparaat het jump-pakket 4.10.2
 </details>
 
 
-## <a name="microsoft-defender-antivirus-platform-support"></a>Microsoft Defender Antivirus platformondersteuning
+## <a name="microsoft-defender-antivirus-platform-support"></a>Ondersteuning voor Microsoft Defender Antivirus-platform
 Platform- en motorupdates worden geleverd op een maandelijkse cadans. Als u volledig wilt worden ondersteund, blijft u op de hoogte van de meest recente platformupdates. Onze ondersteuningsstructuur is dynamisch en verandert in twee fasen, afhankelijk van de beschikbaarheid van de nieuwste platformversie:
 
 - **Servicefase beveiligings-** en kritieke updates: wanneer u de nieuwste platformversie gebruikt, komt u in aanmerking voor zowel beveiligings- als kritieke updates voor het anti-malwareplatform.
  
 - **Technische ondersteuning (alleen) fase:** nadat een nieuwe platformversie is uitgebracht, wordt de ondersteuning voor oudere versies (N-2) beperkt tot alleen technische ondersteuning. Platformversies die ouder zijn dan N-2, worden niet meer ondersteund.*
 
-\*Technische ondersteuning blijft beschikbaar voor upgrades van de Windows 10 releaseversie (zie Platformversie inbegrepen bij Windows 10 [releases)](#platform-version-included-with-windows-10-releases)naar de nieuwste platformversie.
+\* Technische ondersteuning blijft beschikbaar voor upgrades van de Versie van Windows 10 (zie Platformversie inbegrepen bij [Windows 10-versies)](#platform-version-included-with-windows-10-releases)naar de nieuwste platformversie.
 
 Tijdens de fase van technische ondersteuning (alleen) worden commercieel redelijke ondersteuningsincidenten verstrekt via Microsoft Customer Service & Support en beheerde ondersteuningsaanbiedingen van Microsoft (zoals Premier Support). Als voor een ondersteuningsincident escalatie nodig is voor de ontwikkeling voor verdere richtlijnen, een niet-beveiligingsupdate vereist is of een beveiligingsupdate vereist, wordt klanten gevraagd een upgrade uit te voeren naar de nieuwste platformversie of een tussentijdse update (*).
 
-### <a name="platform-version-included-with-windows-10-releases"></a>Platformversie inbegrepen bij Windows 10 releases
-In de onderstaande tabel vindt u Microsoft Defender Antivirus platform- en engineversies die worden verzonden met de nieuwste Windows 10 releases:    
+### <a name="platform-version-included-with-windows-10-releases"></a>Platformversie inbegrepen bij Windows 10-versies
+De onderstaande tabel bevat het Microsoft Defender Antivirus-platform en de engineversies die worden geleverd met de nieuwste Windows 10-versies:    
 
-|Windows 10 release  |Platformversie  |Engine-versie |Ondersteuningsfase |
+|Windows 10-release  |Platformversie  |Engine-versie |Ondersteuningsfase |
 |:---|:---|:---|:---|
 |2004 (20H1/20H2) |4.18.1909.6 |1.1.17000.2 | Ondersteuning voor technische upgrade (alleen) |
 |1909 (19H2) |4.18.1902.5 |1.1.16700.3 | Ondersteuning voor technische upgrade (alleen) |
@@ -455,15 +456,29 @@ In de onderstaande tabel vindt u Microsoft Defender Antivirus platform- en engin
 |1703 (RS2) |4.11.15603.2 |1.1.13504.0 | Ondersteuning voor technische upgrade (alleen) |
 |1607 (RS1) |4.10.14393.3683 |1.1.12805.0 | Ondersteuning voor technische upgrade (alleen) |  
 
-Zie het Windows het Windows 10 voor meer informatie over [de release.](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)
+Zie het windows [lifecycle factsheet](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)voor releasegegevens van Windows 10.
 
 ## <a name="updates-for-deployment-image-servicing-and-management-dism"></a>Updates voor implementatie van image Servicing and Management (DISM)
 
-U wordt aangeraden uw Windows 10 (Enterprise-, Pro- en Home-edities), Windows Server 2019 en Windows Server 2016-installatieafbeeldingen van het besturingssysteem bij te werken met de nieuwste antivirus- en antimalware-updates. Als u de installatieafbeeldingen van uw besturingssysteem up-to-date houdt, voorkomt u een gat in beveiliging. 
+We raden u aan om uw installatieafbeeldingen van Windows 10 (Enterprise, Pro en Home), Windows Server 2019 en Windows Server 2016 OS-installatieafbeeldingen bij te werken met de nieuwste antivirus- en antimalware-updates. Als u de installatieafbeeldingen van uw besturingssysteem up-to-date houdt, voorkomt u een gat in beveiliging. 
 
-Zie Microsoft Defender update voor Windows [installatieafbeeldingen](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)van het besturingssysteem voor meer informatie.
+Zie Installatieafbeeldingen van [microsoft Defender-update voor Windows-besturingssysteem voor meer informatie.](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)
 
 <details>
+<summary>1.1.2105.01</summary>
+
+&ensp;Pakketversie: **1.1.2105.01**    
+&ensp;Platformversie: **4.18.2103.7**   
+&ensp;Engine versie: **1.1.18100.6**  
+&ensp;Handtekeningversie: **1.339.42.0**    
+    
+### <a name="fixes"></a>Fixes
+- Geen
+
+### <a name="additional-information"></a>Aanvullende informatie
+- Geen  
+<br/>
+</details><details>
 <summary>1.1.2104.01</summary>
 
 &ensp;Pakketversie: **1.1.2104.01**    
@@ -545,7 +560,7 @@ Zie Microsoft Defender update voor Windows [installatieafbeeldingen](https://sup
 - Geen
 
 ### <a name="additional-information"></a>Aanvullende informatie
-- Vernieuwde Microsoft Defender Antivirus handtekeningen  
+- Vernieuwde Microsoft Defender Antivirus-handtekeningen  
 <br/>
 </details><details>
 <summary>1.1.2011.01</summary>
@@ -573,7 +588,7 @@ Zie Microsoft Defender update voor Windows [installatieafbeeldingen](https://sup
 - Geen
 
 ### <a name="additional-information"></a>Aanvullende informatie
-- Ondersteuning toegevoegd voor Windows 10 RS1- of hoger os-installatieafbeeldingen.  
+- Ondersteuning toegevoegd voor Windows 10 RS1 of hoger installatieafbeeldingen voor besturingssysteem.  
 <br/>
 </details>
 
@@ -581,7 +596,7 @@ Zie Microsoft Defender update voor Windows [installatieafbeeldingen](https://sup
 
 | Artikel | Omschrijving  |
 |:---|:---|
-|[Microsoft Defender-update voor Windows installatieafbeeldingen van besturingssysteem](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | Controleer antimalware-updatepakketten voor installatieafbeeldingen van uw besturingssysteem (WIM- en VHD-bestanden). Ontvang Microsoft Defender Antivirus updates voor Windows 10 (Enterprise, Pro en Home editions), Windows Server 2019 en Windows Server 2016 installatieafbeeldingen.  |
+|[Installatieafbeeldingen van Microsoft Defender-update voor Windows-besturingssysteem](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | Controleer antimalware-updatepakketten voor installatieafbeeldingen van uw besturingssysteem (WIM- en VHD-bestanden). Microsoft Defender Antivirus-updates downloaden voor Windows 10 (enterprise-, pro- en startversies), Windows Server 2019 en Installatieafbeeldingen van Windows Server 2016.  |
 |[Beheren hoe beveiligingsupdates worden gedownload en toegepast](manage-protection-updates-microsoft-defender-antivirus.md) | Beveiligingsupdates kunnen via veel bronnen worden geleverd. |
 |[Beheren wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md) | U kunt plannen wanneer beveiligingsupdates moeten worden gedownload. |
 |[Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md) | Als een eindpunt een update of geplande scan mist, kunt u een update forcen of scannen wanneer een gebruiker zich de volgende keer meldt. |

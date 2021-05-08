@@ -1,5 +1,5 @@
 ---
-title: Externe werknemers mogelijkheden bieden met Microsoft 365
+title: Uw infrastructuur instellen voor extern werk met Microsoft 365
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -17,17 +17,20 @@ ms.collection:
 - m365solution-overview
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
-description: Zorg ervoor dat u alle functies van Microsoft 365 hebt ingeschakeld om de productiviteit van externe werknemers te maximaliseren en veilige toegang tot uw servers, gegevens en de cloud te behouden.
-ms.openlocfilehash: e811b0ea40c38d3c8de0dfdc17a24ce0d7aabe2f
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+keywords: thuisweken, telewerken, hybride, externe werknemer, hybride werken, externe medewerkers, hybride connectiviteit, externe toegang, extern werk, telewerk, mobiel werken, werken op afstand, overal werken, flexibele werkplek
+description: Ga stapsgewijs door de lagen van uw infrastructuur om uw externe werknemers veilig toegang te geven tot on-premises en Microsoft 365-resources.
+ms.openlocfilehash: 1a8cf471cf92e1301c231f395ed0238bb35359cb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029120"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246318"
 ---
-# <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
+# <a name="set-up-your-infrastructure-for-remote-work-with-microsoft-365"></a>Uw infrastructuur instellen voor extern werk met Microsoft 365
 
-De werknemers van uw bedrijf moeten mogelijk vanuit huis veilige toegang tot de on-premises en cloudgegevens, -hulpprogramma's en -informatiebronnen van uw organisatie kunnen krijgen. Door werknemers op afstand te laten werken, kunnen veel organisaties:
+U moet uw IT- en cloudinfrastructuur configureren om extern werk mogelijk te maken en toegang bieden tot de on-premises informatie, hulpmiddelen en resources om de productiviteit van uw externe werknemers te beveiligen en te optimaliseren. Met deze oplossing wordt u stap voor stap door de implementatie van de belangrijkste lagen van de infrastructuur geleid die ervoor zorgen dat uw medewerkers goed werk leveren, waar ze zich ook bevinden.
+
+Door werknemers op afstand te laten werken, kunnen veel organisaties:
 
 - Besparen op kantoorruimte.
 - Werknemers aannemen en behouden die niet bereid zijn te verhuizen.
@@ -125,8 +128,6 @@ Gebruik de volgende stappen om de toegang tot de servers en cloudservices van je
 5. [Productiviteitsapps en -services voor externe medewerkers implementeren](empower-people-to-work-remotely-teams-productivity-apps.md)
 6. [Externe werknemers trainen en voor feedback over gebruik zorgen](empower-people-to-work-remotely-train-monitor-usage.md)
 
-[![De stappen om externe werknemers mogelijkheden te bieden met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
+[![De stappen voor het instellen van uw infrastructuur voor extern werk met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
-Voor de meest recente informatie van Microsoft over het ondersteunen van externe werknemers, raadpleegt u de [Site voor het mogelijk maken van hybride werken met Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
-
-Als u wilt zien welke mogelijkheden een fictieve, maar representatieve multinational zijn externe werknemers heeft geboden, raadpleegt u [De COVID-19-aanpak en de infrastructuur voor extern en onsite werken van Contoso](contoso-remote-onsite-work.md).
+Lees [De COVID-19-aanpak en de infrastructuur voor extern en onsite werken van Contoso](contoso-remote-onsite-work.md) als u wilt zien hoe een fictieve, maar representatieve multinational zijn infrastructuur heeft ingesteld voor extern werk.

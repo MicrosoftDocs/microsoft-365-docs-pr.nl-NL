@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Informatie over het tegelijkertijd toevoegen van gebruikers en het toewijzen van licenties aan Microsoft 365.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6a1361d9cfebd2b305a71248fcbb461d0a68a052
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 3efa32d21a21ed12041f5731296c1b033374712f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107084"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274386"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Tegelijkertijd gebruikers toevoegen en licenties toewijzen
 
@@ -40,7 +40,24 @@ Als u deze pagina in het beheercentrum ziet, bent u in de **vereenvoudigde weerg
 
 :::image type="content" source="../../media/vsb-add-user-view.png" alt-text="Schermafbeelding: Vereenvoudigde weergave van het beheercentrum":::
 
+::: moniker range="o365-worldwide"
+
 1. Ga naar het beheercentrum via <https://admin.microsoft.com>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
+
+::: moniker-end 
+
 2. Selecteer **Account maken voor een andere persoon**.
 3. Vul op de pagina **Een gebruikersaccount toevoegen** de voor- en achternaam, weergavenaam en gebruikersnaam in die ze gebruiken om zich aan te melden.
 4. Voeg het e-mailadres van de gebruiker toe in het tekstvak **Maximaal vijf e-mailadressen...** Zo zorgt u ervoor dat de nieuwe gebruiker de informatie krijgt die hij of zij nodig heeft om zich aan te melden bij Microsoft 365-services.
@@ -55,22 +72,15 @@ Als u deze pagina in het beheercentrum ziet, bent u in de **vereenvoudigde weerg
 
 ## <a name="add-users-one-at-a-time-in-the-dashboard-view"></a>Gebruikers een voor een toevoegen in de dashboardweergave
 
- ::: moniker range="o365-worldwide"
-
 :::image type="content" source="../../media/classic-admin-center.png" alt-text="Schermafbeelding: Dashboardweergave van het beheercentrum":::
 
-1. Ga naar het beheercentrum via <https://admin.microsoft.com>.
-2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
-3. Vul de basisgegevens in het deelvenster **Basisinformatie instellen** in en selecteer vervolgens **Volgende**.
-    - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in.
-    - **Domein** Kies het domein voor het account van de gebruiker. Als de gebruikersnaam van de gebruiker bijvoorbeeld Jakob is en zijn domein contoso.com, dan zal hij zich aanmelden met jakob@contoso.com.
-    - **Wachtwoordinstellingen** Kies ervoor om het automatisch gegenereerde wachtwoord te gebruiken of maak zelf een sterk wachtwoord voor de gebruiker.
-    - De gebruiker moet zijn of haar wachtwoord na 90 dagen wijzigen. U kunt ook de optie **Laat deze persoon zijn of haar wachtwoord wijzigen bij de eerste aanmelding** kiezen.
-    - Kies of u het wachtwoord in een e-mail wilt verzenden wanneer de gebruiker is toegevoegd.
-4. Selecteer in het deelvenster **Productlicenties toewijzen** de locatie en de geschikte licentie voor de gebruiker. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen. Vouw **Apps** uit en selecteer of deselecteer apps om de apps te beperken waarvoor de gebruiker een licentie heeft. Selecteer **Volgende**.
-5. Vouw in het venster **Optionele instellingen** **Rollen** uit als u van deze gebruiker een beheerder wilt maken en vouw **Profielgegevens** uit als u extra informatie over de gebruiker wilt toevoegen.
-6. Selecteer **Volgende**, controleer de instellingen van de nieuwe gebruiker, breng de gewenste wijzigingen aan en selecteer vervolgens **Toevoegen voltooien** en **Sluiten**.
+::: moniker range="o365-worldwide"
 
+1. Ga naar het beheercentrum via <https://admin.microsoft.com>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
 
 1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.
 

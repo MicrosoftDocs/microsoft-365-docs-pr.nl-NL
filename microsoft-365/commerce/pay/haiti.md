@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 91dd34d9714b878f64ab7828cbff67a8df1ada9b
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 4616037c86cac361aca18b9f7a57800998eb97b5
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551006"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273654"
 ---
 # <a name="payment-information-for-haiti"></a>Betalingsgegevens voor Haïti
 
 [Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in USD en vermeld uw factuurnummer(s) bij de overboeking van uw factuur.
+Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Bank of America  
 **Vertakking** Dallas  
 **SWIFT-code:** BOFAUS3N  
-**Rekeningnummer:** 4426587954  
+**Accountnummer:** 4426587954  
 **Accountnaam:** Microsoft  

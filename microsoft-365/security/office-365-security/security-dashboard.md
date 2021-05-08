@@ -3,7 +3,7 @@ title: Overzicht van beveiligingsdashboard
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: denisebmsft
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Gebruik het nieuwe beveiligingsdashboard om de status van Office 365 Threat Protection te bekijken en beveiligingswaarschuwingen weer te geven en op te treden.
+description: Gebruik het nieuwe beveiligingsdashboard om de Office 365 status van bedreigingsbeveiliging te bekijken en beveiligingswaarschuwingen weer te geven en op te treden.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7114776f686d25808c141a07b8cb2868cc67615d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8c9a49b9b8fc1edd9b2928250e8cae135acb75f4
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204301"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274410"
 ---
 # <a name="security-dashboard"></a>Beveiligingsdashboard
 
@@ -58,7 +58,7 @@ De informatie die u ziet in het overzicht bedreigingsbeheer, is afhankelijk van 
 |---|---|
 |Malwareberichten geblokkeerd<br>Phishingberichten geblokkeerd<br>Berichten die door gebruikers zijn gerapporteerd<br><br><br><br>|Malwareberichten geblokkeerd<br>Phishingberichten geblokkeerd<br>Berichten die door gebruikers zijn gerapporteerd<br>Zero-day malware geblokkeerd<br>Geavanceerde phishingberichten gedetecteerd<br>Kwaadaardige URL's geblokkeerd|
 
-Als u de widget Overzicht van bedreigingsbeheer wilt bekijken of openen, moet u machtigingen hebben om Defender voor Office 365-rapporten weer te geven. Zie Welke machtigingen zijn nodig om de Defender voor [Office 365-rapporten](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)weer te geven? voor meer informatie.
+Als u de widget Overzicht van bedreigingsbeheer wilt bekijken of openen, moet u over machtigingen voor het weergeven van Defender voor Office 365 rapporten. Zie Welke machtigingen zijn nodig voor het weergeven van de Defender voor Office 365 [rapporten? voor meer informatie.](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
 ## <a name="threat-protection-status"></a>Status van bedreigingsbeveiliging
 
@@ -66,14 +66,14 @@ De widget Bedreigingsbeveiligingsstatus toont de effectiviteit van bedreigingsbe
 
 ![Statuswidget bedreigingsbeveiliging](../../media/tpswidget.png)
 
-De details zijn afhankelijk van of uw Microsoft 365-abonnement [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) omvat met of zonder Microsoft Defender voor Office [365.](defender-for-office-365.md)
+De details zijn afhankelijk van of [](exchange-online-protection-overview.md) uw Microsoft 365 abonnement Exchange Online Protection (EOP) met of zonder Microsoft Defender voor [Office 365.](defender-for-office-365.md)
 
 |Als uw abonnement...|U ziet deze details|
 |---|---|
-|EOP, maar niet Microsoft Defender voor Office 365|Schadelijke e-mail die is gedetecteerd en geblokkeerd door EOP.<p> Zie [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Microsoft Defender voor Office 365|Schadelijke inhoud en schadelijke e-mail gedetecteerd en geblokkeerd door EOP en Defender voor Office 365 <p> Samengevoegd aantal unieke [e-mailberichten](zero-hour-auto-purge.md)met schadelijke inhoud die is geblokkeerd door de anti-malware-engine, automatische nuluursre purge en Defender voor Office 365-functies (waaronder [Veilige koppelingen,](safe-links.md)veilige bijlagen [en](safe-attachments.md) [Anti-phishing in Defender voor Office 365).](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) <p> Zie [Statusrapport bedreigingsbeveiliging](view-reports-for-mdo.md#threat-protection-status-report).|
+|EOP maar niet Microsoft Defender voor Office 365|Schadelijke e-mail die is gedetecteerd en geblokkeerd door EOP.<p> Zie [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report).|
+|Microsoft Defender voor Office 365|Schadelijke inhoud en schadelijke e-mail gedetecteerd en geblokkeerd door EOP en Defender voor Office 365 <p> Samengevoegd aantal unieke [e-mailberichten](zero-hour-auto-purge.md)met schadelijke inhoud die is geblokkeerd door de anti-malware-engine, automatische nuluursre purge en Defender voor Office 365-functies (waaronder [Safe Koppelingen,](safe-links.md) [Safe Bijlagen](safe-attachments.md)en [Anti-phishing in Defender voor Office 365).](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) <p> Zie [Statusrapport bedreigingsbeveiliging](view-reports-for-mdo.md#threat-protection-status-report).|
 
-Als u de widget Status van bedreigingsbeveiliging wilt bekijken of openen, moet u machtigingen hebben om Defender voor Office 365-rapporten weer te geven. Zie Welke machtigingen zijn nodig om de Defender voor [Office 365-rapporten](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports) weer te geven voor meer informatie?
+Als u de widget Status van bedreigingsbeveiliging wilt bekijken of openen, moet u over machtigingen voor het weergeven van Defender voor Office 365 rapporten. Zie Welke machtigingen zijn nodig voor het weergeven van de Defender voor Office 365 [rapporten?](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
 ## <a name="global-weekly-threat-detections"></a>Globale wekelijkse bedreigingsdetecties
 
@@ -87,7 +87,7 @@ De metrische gegevens worden berekend zoals beschreven in de volgende tabel:
 |---|---|
 |Gescande berichten|Aantal gescande e-mailberichten vermenigvuldigd met het aantal geadresseerden|
 |Bedreigingen gestopt|Aantal e-mailberichten dat is geïdentificeerd als malware, vermenigvuldigd met het aantal geadresseerden|
-|Geblokkeerd door [Defender voor Office 365 ](defender-for-office-365.md)|Aantal e-mailberichten geblokkeerd door Defender voor Office 365 vermenigvuldigd met het aantal geadresseerden|
+|Geblokkeerd door [Defender voor Office 365](defender-for-office-365.md)|Aantal e-mailberichten geblokkeerd door Defender voor Office 365 vermenigvuldigd met het aantal geadresseerden|
 |Verwijderd na de bezorging|Aantal berichten verwijderd door [automatische nul-uurs purge](zero-hour-auto-purge.md) vermenigvuldigd met het aantal geadresseerden|
 
 ## <a name="malware"></a>Malware
@@ -106,9 +106,9 @@ U ziet bijvoorbeeld dat phishing-e-mailberichten worden bezorgd omdat sommige ge
 
 ## <a name="threat-investigation-and-response"></a>Bedreigingsonderzoek en -reactie
 
-Als het abonnement van uw organisatie Microsoft Defender voor  [Office 365 Plan 2](office-365-ti.md)bevat, bevat uw beveiligingsdashboard een sectie met geavanceerde hulpprogramma's voor bedreigingsonderzoek en antwoordhulpmiddelen. Deze hulpprogramma's [omvatten geautomatiseerde onderzoeks- en antwoordmogelijkheden.](automated-investigation-response-office.md) Geautomatiseerde onderzoeken en antwoorden kunnen nuttig zijn in scenario's, zoals het snel aanpakken van [gecompromitteerde gebruikersaccounts.](address-compromised-users-quickly.md)
+Als het abonnement van uw organisatie Microsoft Defender voor Office 365 [plan 2](office-365-ti.md)bevat, bevat uw beveiligingsdashboard een sectie met geavanceerde hulpprogramma's voor onderzoek naar bedreigingen en antwoordhulpmiddelen. Deze hulpprogramma's [omvatten geautomatiseerde onderzoeks- en antwoordmogelijkheden.](automated-investigation-response-office.md) Geautomatiseerde onderzoeken en antwoorden kunnen nuttig zijn in scenario's, zoals het snel aanpakken van [gecompromitteerde gebruikersaccounts.](address-compromised-users-quickly.md)
 
-Zie Aan de slag met Automatisch onderzoek en antwoord [(AIR) in Office 365](office-365-air.md)voor meer informatie.
+Zie Aan de slag met Geautomatiseerde onderzoeken en [antwoorden (AIR) in](office-365-air.md)Office 365.
 
 ## <a name="trends"></a>Trends
 
@@ -116,9 +116,9 @@ Onder aan het beveiligingsdashboard ziet u een **sectie Trends,** waarin e-mails
 
 ![De sectie Trends bevat een overzicht van e-mailstroomtrends voor de organisatie](../../media/trends.png)
 
-En als het abonnement van uw organisatie Defender voor [Office 365 Plan 2](office-365-ti.md)bevat, bevat deze sectie ook een rapport met waarschuwingen voor recent bedreigingsbeheer waarmee uw beveiligingsteam beveiligingswaarschuwingen met hoge prioriteit kan bekijken en actie kunnen ondernemen. 
+En als het abonnement van uw organisatie Defender voor [Office 365 Plan 2](office-365-ti.md)bevat, bevat deze sectie ook een rapport Met waarschuwingen voor recent bedreigingsbeheer waarmee uw beveiligingsteam beveiligingswaarschuwingen met hoge prioriteit kan bekijken en actie kunnen ondernemen. 
 
-Als u de widget Verzonden en ontvangen e-mail wilt bekijken of openen, moet u machtigingen hebben om Defender voor Office 365-rapporten weer te geven. Zie Welke machtigingen zijn nodig om de Defender voor [Office 365-rapporten](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)weer te geven? voor meer informatie.
+Als u de widget Verzonden en ontvangen e-mail wilt bekijken of openen, moet u over machtigingen voor het weergeven van Defender voor Office 365 rapporten. Zie Welke machtigingen zijn nodig voor het weergeven van de Defender voor Office 365 [rapporten? voor meer informatie.](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
 Als u de widget Recente bedreigingsbeheerwaarschuwingen wilt bekijken of openen, moet u machtigingen hebben om waarschuwingen weer te geven. Zie [RBAC-machtigingen die nodig zijn om](../../compliance/alert-policies.md#rbac-permissions-required-to-view-alerts)waarschuwingen weer te geven voor meer informatie.
 
@@ -130,4 +130,4 @@ Als u de widget Recente bedreigingsbeheerwaarschuwingen wilt bekijken of openen,
 
 [Defender voor Office 365](defender-for-office-365.md)
 
-[Onderzoek en antwoord op bedreigingen in Office 365](office-365-ti.md)
+[Office 365 Bedreigingsonderzoek en -reactie](office-365-ti.md)

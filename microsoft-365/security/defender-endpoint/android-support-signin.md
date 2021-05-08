@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5f57d14427ef68280a065489e068955db9e5045a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 18afd4aa160ec345839d23719d1b3fcce21654ec
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934799"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246354"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Problemen met Microsoft Defender voor Eindpunt op Android oplossen
 
@@ -51,11 +51,11 @@ Onverwachte fout, probeer het later
 
 **Oorzaak:**
 
-Er is een oudere versie van de App Microsoft Authenticator op uw apparaat geïnstalleerd.
+Er is een oudere versie van de app 'Microsoft Authenticator' op uw apparaat geïnstalleerd.
 
 **Oplossing:**
 
-De nieuwste versie en [Microsoft Authenticator installeren](https://play.google.com/store/apps/details?androidid=com.azure.authenticator) vanuit de Google Play Store en het opnieuw proberen
+Nieuwste versie en [versie](https://play.google.com/store/apps/details?androidid=com.azure.authenticator) van Microsoft Authenticator in de Google Play Store installeren en het opnieuw proberen
 
 ## <a name="sign-in-failed---invalid-license"></a>Aanmelden mislukt - ongeldige licentie
 
@@ -67,11 +67,15 @@ De nieuwste versie en [Microsoft Authenticator installeren](https://play.google.
 
 **Oorzaak:**
 
-U hebt geen Microsoft 365-licentie toegewezen of uw organisatie heeft geen licentie voor microsoft 365 Enterprise-abonnement.
+U hebt geen Microsoft 365 toegewezen of uw organisatie heeft geen licentie voor Microsoft 365 Enterprise abonnement.
 
 **Oplossing:**
 
 Neem contact op met uw beheerder voor hulp.
+
+## <a name="report-unsafe-site"></a>Onveilige site rapporteren
+
+Phishingwebsites doen zich voor als betrouwbare websites om uw persoonlijke of financiële gegevens te verkrijgen. Ga naar [de pagina Feedback geven over netwerkbeveiliging](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) als u een website wilt rapporteren die een phishingsite kan zijn.
 
 ## <a name="phishing-pages-arent-blocked-on-some-oem-devices"></a>Phishingpagina's worden niet geblokkeerd op sommige OEM-apparaten
 
