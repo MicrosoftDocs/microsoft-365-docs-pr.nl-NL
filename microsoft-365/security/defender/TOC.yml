@@ -130,11 +130,11 @@
               href: m365d-remediation-actions.md
             - name: Naar het Actiecentrum
               href: m365d-action-center.md
-            - name: Herstelacties in behandeling goedkeuren of afwijzen
+            - name: Herstelacties weergeven en beheren
               href: m365d-autoir-actions.md
             - name: Gegevens en resultaten van een geautomatiseerd onderzoek weergeven
               href: m365d-autoir-results.md
-            - name: Fout-positieven/-negatieven melden
+            - name: Fout-positieven/negatieven adresseert
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Geavanceerd opsporen
           items:
