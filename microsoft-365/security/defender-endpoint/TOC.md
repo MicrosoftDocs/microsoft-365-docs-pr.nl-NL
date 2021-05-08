@@ -144,6 +144,7 @@
  
 ##### [Problemen oplossen]()
 ###### [Installatieproblemen oplossen](linux-support-install.md)
+###### [Statusproblemen van agent onderzoeken](health-status.md)
 ###### [Problemen met cloudconnectiviteit oplossen](linux-support-connectivity.md)
 ###### [Prestatieproblemen oplossen](linux-support-perf.md)
 ###### [Problemen met ontbrekende gebeurtenissen oplossen](linux-support-events.md)

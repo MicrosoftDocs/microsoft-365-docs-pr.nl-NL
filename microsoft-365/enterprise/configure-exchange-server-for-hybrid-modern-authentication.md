@@ -1,5 +1,5 @@
 ---
-title: Exchange Server on-premises configureren voor het gebruik van hybride moderne verificatie
+title: On-premises Exchange Server configureren voor het gebruik van hybride moderne verificatie
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,20 +15,20 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: Meer informatie over het configureren van een on-premises Exchange Server voor het gebruik van HMA (Hybrid Modern Authentication), met een veiligere gebruikersverificatie en autorisatie.
+description: Meer informatie over het configureren Exchange Server on-premises voor het gebruik van HMA (Hybrid Modern Authentication), met veiligere gebruikersverificatie en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e0a0e521f4ac81a8aa113b2e945045d31f2c1952
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 9cb6d25a346ac48c9875a26f385cb733f1ff051f
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599497"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259449"
 ---
-# <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Exchange Server on-premises configureren voor het gebruik van hybride moderne verificatie
+# <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>On-premises Exchange Server configureren voor het gebruik van hybride moderne verificatie
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-HMA (Hybrid Modern Authentication) is een methode voor identiteitsbeheer die veiligere gebruikersverificatie en autorisatie biedt en beschikbaar is voor on-premises hybride implementaties van Exchange-server.
+HMA (Hybrid Modern Authentication) is een methode voor identiteitsbeheer die veiligere gebruikersverificatie en autorisatie biedt en beschikbaar is voor on-premises Exchange-server.
 
 ## <a name="fyi"></a>TER INFORMATIE
 
@@ -38,7 +38,7 @@ Voordat we beginnen, bel ik:
 
 - Exchange on-premises \> EXCH
 
-- Exchange Online \> EXO
+- \>Exchange Online EXO
 
 Als een afbeelding in dit artikel een object bevat dat 'grijs'of 'grijs' is, betekent dit dat het element dat in grijs wordt weergegeven, niet is opgenomen *in HMA-specifieke configuratie.*
 
@@ -48,7 +48,7 @@ HMA in- of uitschakelen betekent:
 
 1. Zorg ervoor dat u aan de prereqs voldoet voordat u begint.
 
-1. Aangezien veel **vereisten gebruikelijk** zijn voor zowel Skype voor Bedrijven als Exchange, zijn hybride moderne verificatieoverzicht en vereisten voor het gebruik ervan met on-premises Skype voor Bedrijven- en [Exchange-servers vereist.](hybrid-modern-auth-overview.md) Doe dit voordat u een van de stappen in dit artikel start.
+1. Aangezien veel **vereisten** gebruikelijk zijn voor zowel Skype voor Bedrijven als Exchange, zijn hybride moderne verificatieoverzicht en vereisten voor het gebruik ervan met [on-premises Skype voor Bedrijven](hybrid-modern-auth-overview.md)en Exchange servers. Doe dit voordat u een van de stappen in dit artikel start.
 
 1. On-premises webservice-URL's toevoegen als **SPN's (Service Principal Names)** in Azure AD. Als EXCH hybride is met meerdere **tenants,** moeten deze on-premises webservice-URL's worden toegevoegd als SPN's in de Azure AD van alle tenants die hybride zijn met EXCH.
 
@@ -59,15 +59,15 @@ HMA in- of uitschakelen betekent:
 1. HMA inschakelen in EXCH.
 
 > [!NOTE]
-> Ondersteunt uw versie van Office MA? Zie [Hoe moderne verificatie werkt voor office 2013- en Office 2016-client-apps.](modern-auth-for-office-2013-and-2016.md)
+> Ondersteunt uw versie van Office ma? Zie [Hoe moderne verificatie werkt voor Office 2013 en Office 2016-client-apps.](modern-auth-for-office-2013-and-2016.md)
 
 
 ## <a name="make-sure-you-meet-all-the-prerequisites"></a>Zorg ervoor dat u aan alle vereisten voldoet
 
-Aangezien veel vereisten gebruikelijk zijn voor zowel Skype voor Bedrijven als Exchange, bekijkt u hybride moderne verificatieoverzicht en vereisten voor het gebruik ervan met on-premises Skype voor Bedrijven- en [Exchange-servers.](hybrid-modern-auth-overview.md) Doe dit  *voordat*  u een van de stappen in dit artikel start.
+Aangezien veel vereisten gebruikelijk zijn voor zowel Skype voor Bedrijven als Exchange, controleert u het overzicht van hybride moderne verificatie en vereisten voor het gebruik ervan met [on-premises Skype voor Bedrijven](hybrid-modern-auth-overview.md)en Exchange servers. Doe dit  *voordat*  u een van de stappen in dit artikel start.
 
 > [!NOTE]
-> Outlook Web App en Exchange Control Panel werken niet met hybride moderne verificatie.
+> Outlook Web App en Exchange configuratiescherm werkt niet met hybride moderne verificatie.
 
 ## <a name="add-on-premises-web-service-urls-as-spns-in-azure-ad"></a>On-premises webservice-URL's toevoegen als SPN's in Azure AD
 
@@ -81,7 +81,6 @@ Get-WebServicesVirtualDirectory | FL server,*url*
 Get-ClientAccessServer | fl Name, AutodiscoverServiceInternalUri
 Get-OABVirtualDirectory | FL server,*url*
 Get-AutodiscoverVirtualDirectory | FL server,*url*
-Get-OutlookAnywhere | FL server,*url*
 ```
 
 Zorg ervoor dat de URL's waar verbinding mee kan worden gemaakt, worden weergegeven als HTTPS-service principal names in AAD. Als EXCH hybride is met meerdere **tenants,** moeten deze HTTPS-SPN's worden toegevoegd in de AAD van alle tenants in hybride versie van EXCH.
@@ -89,9 +88,9 @@ Zorg ervoor dat de URL's waar verbinding mee kan worden gemaakt, worden weergege
 1. Maak eerst verbinding met AAD met [deze instructies.](connect-to-microsoft-365-powershell.md)
 
     > [!NOTE]
-    > U moet de optie _Connect-MsolService_ op deze pagina gebruiken om de onderstaande opdracht te kunnen gebruiken.
+    > U moet de optie _Verbinding maken-MsolService_ op deze pagina gebruiken om de onderstaande opdracht te kunnen gebruiken.
 
-2. Typ de volgende opdracht voor uw Exchange-gerelateerde URL's:
+2. Voor uw Exchange-gerelateerde URL's typt u de volgende opdracht:
 
    ```powershell
    Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 | select -ExpandProperty ServicePrincipalNames
@@ -112,7 +111,7 @@ Zorg ervoor dat de URL's waar verbinding mee kan worden gemaakt, worden weergege
 
 ## <a name="verify-virtual-directories-are-properly-configured"></a>Controleren of virtuele adresgegevens correct zijn geconfigureerd
 
-Controleer nu of OAuth correct is ingeschakeld in Exchange op alle virtuele adreslijst die Outlook kan gebruiken door de volgende opdrachten uit te voeren:
+Controleer nu of OAuth correct is ingeschakeld in Exchange op alle virtuele Outlook door de volgende opdrachten uit te voeren:
 
 ```powershell
 Get-MapiVirtualDirectory | FL server,*url*,*auth*
@@ -141,7 +140,7 @@ Als OAuth ontbreekt op een server en een van de vier virtuele directories, moet 
 Ga terug naar de on-premises Exchange Management Shell voor deze laatste opdracht. U kunt nu valideren dat uw on-premises vermelding een vermelding heeft voor de provider van de verificatieprovider van evoSTS:
 
 ```powershell
-Get-AuthServer | where {$_.Name -eq "EvoSts"}
+Get-AuthServer | where {$_.Name -like "EvoSts"}
 ```
 
 De uitvoer moet een AuthServer van de naam EvoSts laten zien en de status 'Ingeschakeld' moet Waar zijn. Als u dit niet ziet, moet u de meest recente versie van de wizard Hybride configuratie downloaden en uitvoeren.
@@ -149,18 +148,18 @@ De uitvoer moet een AuthServer van de naam EvoSts laten zien en de status 'Inges
 > [!NOTE]
 > Als EXCH hybride is met meerdere **tenants,** moet in de uitvoer één AuthServer van de naam EvoSts worden getoond : {GUID} voor elke tenant in hybride versie met EXCH en moet de status 'Ingeschakeld' Waar zijn voor al deze AuthServer-objecten.
 
- **Belangrijk** Als u Exchange 2010 in uw omgeving gebruikt, wordt de Verificatieprovider van EvoSTS niet gemaakt.
+ **Belangrijk** Als u een Exchange 2010 in uw omgeving gebruikt, wordt de Provider voor Verificatie van EvoSTS niet gemaakt.
 
 ## <a name="enable-hma"></a>HMA inschakelen
 
-Voer de volgende opdracht uit in de On-premises Exchange Management Shell:
+Voer de volgende opdracht uit in de Exchange Management Shell, on-premises:
 
 ```powershell
 Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
 
-Als de EXCH-versie Exchange 2016 (CU18 of hoger) of Exchange 2019 (CU7 of hoger) is en hybride is geconfigureerd met HCW die na september 2020 is gedownload, voer dan de volgende opdracht uit in de Exchange Management Shell, on-premises:
+Als de EXCH-versie Exchange 2016 (CU18 of hoger) of Exchange 2019 (CU7 of hoger) is en hybride is geconfigureerd met HCW die is gedownload na september 2020, voer dan de volgende opdracht uit in de Exchange Management Shell, on-premises:
 
 ```powershell
 Set-AuthServer -Identity "EvoSTS - {GUID}" -Domain "Tenant Domain" -IsDefaultAuthorizationEndpoint $true
@@ -174,22 +173,22 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 
 Wanneer u HMA hebt ingeschakeld, wordt de nieuwe auth-stroom gebruikt voor de volgende aanmelding van een klant. Houd er rekening mee dat u met het in-/uitschakelen van HMA geen herauthenticatie voor een client kunt activeren. De clients reauthenticate op basis van de levensduur van de auth tokens en/of certs die ze hebben.
 
-U moet ook de Ctrl-toets ingedrukt houden terwijl u met de rechtermuisknop op het pictogram voor de Outlook-client klikt (ook in het windows-systeemvak) en klikt u op 'Verbindingsstatus'. Zoek naar het SMTP-adres van de klant tegen het type 'Authn' van 'Bearer', dat het token voor de toler vertegenwoordigt dat \* in OAuth wordt gebruikt.
+U moet ook de Ctrl-toets ingedrukt houden terwijl u met de rechtermuisknop op het pictogram voor de Outlook-client (ook in het Windows-systeemvak) klikt en klikt u op 'Verbindingsstatus'. Zoek naar het SMTP-adres van de klant tegen het type 'Authn' van 'Bearer', dat het token voor de toler vertegenwoordigt dat \* in OAuth wordt gebruikt.
 
 > [!NOTE]
-> Wilt u Skype voor Bedrijven configureren met HMA? U hebt twee artikelen nodig: een met ondersteunde [toologieën](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)en een waarin u kunt zien hoe u [de configuratie kunt doen.](configure-skype-for-business-for-hybrid-modern-authentication.md)
+> Wilt u Skype voor Bedrijven met HMA configureren? U hebt twee artikelen nodig: een met ondersteunde [toologieën](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)en een waarin u kunt zien hoe u [de configuratie kunt doen.](configure-skype-for-business-for-hybrid-modern-authentication.md)
 
 
 ## <a name="using-hybrid-modern-authentication-with-outlook-for-ios-and-android"></a>Hybride moderne verificatie gebruiken met Outlook voor iOS en Android
 
-Als u een on-premises klant bent die Exchange-server gebruikt op TCP 443, kunt u de verwerking van verkeer voor de volgende IP-adresbereiken omzeilen:
+Als u een on-premises klant bent met Exchange server op TCP 443, kunt u de verwerking van verkeer voor de volgende IP-adresbereiken omzeilen:
 
 ```
 52.125.128.0/20
 52.127.96.0/23
 ```
 
-De Outlook-app voor iOS en Android is ontworpen als de beste manier om Microsoft 365 of Office 365 op uw mobiele apparaat te ervaren door Microsoft-services te gebruiken om uw dagelijkse leven en werk te vinden, plannen en prioriteit te geven. Zie Hybride moderne verificatie gebruiken met [Outlook voor iOS en Android](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)voor meer informatie.
+De Outlook-app voor iOS en Android is ontworpen als de beste manier om Microsoft 365 of Office 365 op uw mobiele apparaat te ervaren met behulp van Microsoft-services om uw dagelijkse leven en werk te vinden, plannen en prioriteit te geven. Zie Hybride moderne verificatie gebruiken met Outlook [voor iOS en Android voor meer informatie.](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

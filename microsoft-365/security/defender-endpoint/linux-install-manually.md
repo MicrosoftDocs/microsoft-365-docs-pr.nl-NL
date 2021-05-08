@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0374c1a44a4d942ea631d97f51fa48df15d3ec13
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c13138f3d80a95dbda3a899507f662c081831d94
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929083"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259677"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 
@@ -166,10 +166,10 @@ Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wi
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-[channel].list
     ```
     Als u bijvoorbeeld *prod-kanaal kiest:*
-    
+
     ```bash
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-prod.list
-    ```   
+    ```
 
 - Installeer het `gpg` pakket als het nog niet is geïnstalleerd:
 
@@ -266,13 +266,13 @@ Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wi
 
 ## <a name="download-the-onboarding-package"></a>Het onboarding-pakket downloaden
 
-Download het onboarding-pakket van het Microsoft Defender-beveiligingscentrum:
+Download het onboarding-pakket van Microsoft Defender-beveiligingscentrum:
 
-1. Ga in het Microsoft Defender-beveiligingscentrum naar **Instellingen > Apparaatbeheer > Onboarding.**
+1. Ga Microsoft Defender-beveiligingscentrum naar Instellingen > **Device Management > Onboarding.**
 2. Selecteer in de eerste vervolgkeuzelijst **Linux Server** als besturingssysteem. Selecteer in de tweede vervolgkeuzelijst Lokaal script (voor maximaal **10 apparaten)** als implementatiemethode.
 3. Selecteer **Onboarding-pakket downloaden.** Sla het bestand op als WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Schermafbeelding van het Microsoft Defender-beveiligingscentrum](images/atp-portal-onboarding-linux.png)
+    ![Microsoft Defender-beveiligingscentrum schermafbeelding](images/atp-portal-onboarding-linux.png)
 
 4. Controleer in een opdrachtprompt of u het bestand hebt.
     Haal de inhoud van het archief op:
@@ -341,7 +341,7 @@ Download het onboarding-pakket van het Microsoft Defender-beveiligingscentrum:
     - Open een terminalvenster. Kopieer en voer de volgende opdracht uit:
 
         ``` bash
-        curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
+        curl -o /tmp/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
     - Het bestand had in quarantaine moeten zijn geplaatst door Defender voor Eindpunt op Linux. Gebruik de volgende opdracht om alle gedetecteerde bedreigingen op te geven:
@@ -352,7 +352,7 @@ Download het onboarding-pakket van het Microsoft Defender-beveiligingscentrum:
 
 ## <a name="installer-script"></a>Installatiescript
 
-U kunt ook een geautomatiseerd installatieprogramma [bash-script gebruiken](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) dat beschikbaar is in onze [openbare GitHub-opslagplaats.](https://github.com/microsoft/mdatp-xplat/)
+U kunt ook een geautomatiseerd installatieprogramma [bash-script gebruiken](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) dat beschikbaar is in onze [openbare GitHub repository.](https://github.com/microsoft/mdatp-xplat/)
 Het script identificeert de distributie en versie en stelt het apparaat in om het nieuwste pakket op te halen en te installeren.
 U kunt ook aan boord gaan met een meegeleverd script.
 

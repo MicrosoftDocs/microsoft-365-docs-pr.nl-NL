@@ -29,6 +29,6 @@
 |TEAMS|✔|✔|Gepland|✔|N.v.t.|
 |TO-DO|✔|✔|N.v.t.|N.v.t.|✔|
 |VISIO|N.v.t.|✔|N.v.t.|✔|N.v.t.|
-|WHITEBOARD|N.v.t.|✔|N.v.t.|N.v.t.|✔|
+|WHITEBOARD|✔|✔|N.v.t.|N.v.t.|✔|
 |WORD|✔|✔|✔|✔|✔|
 |YAMMER|✔|✔|N.v.t.|Gepland|N.v.t.|

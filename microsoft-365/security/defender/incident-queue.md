@@ -1,6 +1,6 @@
 ---
 title: Prioriteit geven aan incidenten in Microsoft 365 Defender
-description: Informatie over het filteren van incidenten in de incidentwachtrij in Microsoft 365 Defender
+description: Informatie over het filteren van incidenten in de wachtrij voor incidenten in Microsoft 365 Defender
 keywords: incident, wachtrij, overzicht, apparaten, identiteiten, gebruikers, postvak, e-mail, incidenten, analyseren, antwoord
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c3efff1e7ebb3a5e868ede018512d12cf38e38fc
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 47d066fa20abe963f7afaa3b88cecc96fa6e87fc
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939704"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259585"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -36,15 +36,17 @@ ms.locfileid: "51939704"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender past correlatieanalyse toe en verzamelt gerelateerde waarschuwingen en geautomatiseerde onderzoeken van verschillende producten tot een incident. Microsoft 365 Defender activeert ook unieke waarschuwingen voor activiteiten die alleen kunnen worden geïdentificeerd als schadelijk, gezien de end-to-end zichtbaarheid die Microsoft 365 Defender heeft voor de hele suite met producten. In deze weergave krijgen uw beveiligingsanalisten het bredere verhaal over aanvallen, waarmee ze complexe bedreigingen in uw organisatie beter kunnen begrijpen en kunnen omgaan.
+Microsoft 365 Defender past correlatieanalyse toe en aggregeert gerelateerde waarschuwingen en geautomatiseerde onderzoeken van verschillende producten in een incident. Microsoft 365 Defender activeert ook unieke waarschuwingen voor activiteiten die alleen kunnen worden geïdentificeerd als schadelijk, gezien de end-to-end zichtbaarheid die Microsoft 365 Defender heeft in de hele suite met producten. In deze weergave krijgen uw beveiligingsanalisten het bredere verhaal over aanvallen, waarmee ze complexe bedreigingen in uw organisatie beter kunnen begrijpen en kunnen omgaan.
 
 In **de wachtrij Incident** ziet u een verzameling incidenten die zijn gemaakt op verschillende apparaten, gebruikers en postvakken. Het helpt u incidenten te sorteren om prioriteit te geven en een weloverwogen antwoordbesluit voor cyberbeveiliging te maken. 
 
-U komt bij de incidentwachtrij van **Incidenten & waarschuwingen > Incidenten** op de snelle start van het Microsoft 365-beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com)
+U komt bij de incidentenwachtrij van **Incidenten & waarschuwingen > Incidenten** op de snelle start van het Microsoft 365 beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com) Hier is een voorbeeld.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Voorbeeld van de incidentwachtrij":::
 
-Standaard worden in de incidentwachtrij in het Microsoft 365-beveiligingscentrum incidenten weergegeven die de afgelopen zes maanden zijn gezien. Het meest recente incident staat bovenaan de lijst, zodat u het eerst kunt zien.
+In **de sectie Meest recente incidenten en waarschuwingen** ziet u een grafiek van het aantal ontvangen waarschuwingen en incidenten die in de afgelopen 24 uur zijn gemaakt.
+
+Standaard worden in de wachtrij voor incidenten in het Microsoft 365 beveiligingscentrum incidenten weergegeven die de afgelopen zes maanden zijn gezien. Het meest recente incident staat bovenaan de lijst, zodat u het eerst kunt zien.
 
 De incidentwachtrij heeft aanpasbare kolommen (selecteer Kolommen **kiezen)** die u inzicht geven in de verschillende kenmerken van het incident of de beïnvloede entiteiten. Op deze manier kunt u een weloverwogen beslissing nemen over de prioriteit van incidenten voor analyse.
 
@@ -65,7 +67,7 @@ In de standaardwachtrij voor incidenten kunt u **Filters** selecteren om een dee
 
 In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 
-| Filternaam | Beschrijving |
+| Filternaam | Omschrijving |
 |:-------|:-----|
 | Toegewezen aan | U kunt ervoor kiezen om waarschuwingen weer te geven die aan u zijn toegewezen of waarschuwingen die door automatisering worden verwerkt. |
 | Categorieën | Kies categorieën om zich te richten op specifieke tactieken, technieken of aanvalsonderdelen. |
@@ -74,7 +76,7 @@ In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 | Apparaatgroep | Filteren op gedefinieerde apparaatgroepen. |
 | Onderzoekstoestand | Filter incidenten op basis van de status van automatisch onderzoek.  |
 | Meerdere categorieën | U kunt ervoor kiezen om alleen incidenten te zien die zijn toegesneden op meerdere categorieën en zo mogelijk meer schade kunnen veroorzaken. |
-| Meerdere servicebronnen  | Filter om alleen incidenten te zien die waarschuwingen uit verschillende bronnen bevatten (Microsoft Defender voor Eindpunt, Microsoft Cloud App-beveiliging, Microsoft Defender voor identiteit, Microsoft Defender voor Office 365). |
+| Meerdere servicebronnen  | Filter om alleen incidenten te zien die waarschuwingen uit verschillende bronnen bevatten (Microsoft Defender voor Eindpunt, Microsoft Cloud App Security, Microsoft Defender voor identiteit, Microsoft Defender voor Office 365). |
 | BESTURINGSSYSTEEM-platform | Beperk de weergave van de incidentwachtrij per besturingssysteem. |
 | Servicebronnen | Door een specifieke bron te kiezen, kunt u zich richten op incidenten die ten minste één waarschuwing uit die gekozen bron bevatten. |
 | Ernst | De ernst van een incident is een indicatie van de invloed die het kan hebben op uw activa. Hoe hoger de ernst, hoe groter de impact en meestal de meest directe aandacht. |

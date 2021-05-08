@@ -1,6 +1,6 @@
 ---
 title: Apparaatgroepen maken en beheren in Microsoft Defender voor Eindpunt
-description: Maak apparaatgroepen en stel geautomatiseerde herstelniveaus op deze in door de regels in vertrouwen te nemen die van toepassing zijn op de groep
+description: Maak apparaatgroepen en stel geautomatiseerde herstelniveaus in door de regels te bevestigen die van toepassing zijn op de groep
 keywords: apparaatgroepen, groepen, herstel, niveau, regels, aadgroep, rol, toewijzen, rang
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: acd24e5c87a74bbb32835ec170a121c5c0b6bb33
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 4fc2768392e818f74600e3c2d749b6e95bf957e4
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860301"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259413"
 ---
 # <a name="create-and-manage-device-groups"></a>Apparaatgroepen maken en beheren
 
@@ -41,7 +41,7 @@ In Microsoft Defender voor Eindpunt kunt u apparaatgroepen maken en deze gebruik
 - Toegang tot gerelateerde waarschuwingen en gegevens beperken tot specifieke Azure AD-gebruikersgroepen [met toegewezen RBAC-rollen](rbac.md) 
 - Verschillende instellingen voor automatisch herstel configureren voor verschillende sets apparaten
 - Specifieke herstelniveaus toewijzen die moeten worden toegepast tijdens geautomatiseerde onderzoeken
-- Filter in een onderzoek de lijst **Apparaten** op alleen specifieke apparaatgroepen met behulp van het **filter** Groeperen.
+- Filter in een onderzoek de lijst **Apparaten** op specifieke apparaatgroepen met behulp van het **filter** Groeperen.
 
 U kunt apparaatgroepen maken in de context van op rollen gebaseerde toegang (RBAC) om te bepalen wie specifieke actie kan ondernemen of informatie kan bekijken door de apparaatgroep(s) toe te wijzen aan een gebruikersgroep. Zie Portaltoegang beheren met behulp van op rollen [gebaseerd toegangsbeheer voor meer informatie.](rbac.md)
 
@@ -50,7 +50,7 @@ U kunt apparaatgroepen maken in de context van op rollen gebaseerde toegang (RBA
 
 Als onderdeel van het proces voor het maken van een apparaatgroep, gaat u als volgende te werk:
 - Stel het geautomatiseerde herstelniveau voor die groep in. Zie Geautomatiseerde onderzoeken gebruiken om bedreigingen te onderzoeken en te corrigeren voor meer informatie over [herstelniveaus.](automated-investigations.md)
-- Geef de overeenkomende regel op waarmee wordt bepaald welke apparaatgroep tot de groep behoort op basis van de apparaatnaam, het domein, de tags en het besturingssysteemplatform. Als een apparaat ook is afgestemd op andere groepen, wordt het alleen toegevoegd aan de groep met de hoogst gerangschikte apparaten.
+- Geef de overeenkomende regel op waarmee wordt bepaald welke apparaatgroep tot de groep behoort op basis van de apparaatnaam, het domein, de tags en het besturingssysteemplatform. Als een apparaat ook is afgestemd op andere groepen, wordt het alleen toegevoegd aan de hoogst gerangschikte apparaatgroep.
 - Selecteer de Azure AD-gebruikersgroep die toegang moet hebben tot de apparaatgroep.
 - Rangschik de apparaatgroep ten opzichte van andere groepen nadat deze is gemaakt.
 
@@ -79,7 +79,9 @@ Als onderdeel van het proces voor het maken van een apparaatgroep, gaat u als vo
 
 ## <a name="manage-device-groups"></a>Apparaatgroepen beheren
 
-U kunt de rang van een apparaatgroep promoten of verlagen, zodat deze hogere of lagere prioriteit krijgt tijdens het koppelen. Wanneer een apparaat is afgestemd op meer dan één groep, wordt het alleen toegevoegd aan de groep met de hoogste rangschikking. U kunt ook groepen bewerken en verwijderen.
+U kunt de rang van een apparaatgroep promoten of verlagen, zodat deze hogere of lagere prioriteit krijgt tijdens het koppelen. Wanneer een apparaat is afgestemd op meer dan één groep, wordt het alleen toegevoegd aan de hoogst gerangschikte groep. U kunt ook groepen bewerken en verwijderen.
+
+
 
 >[!WARNING]
 >Het verwijderen van een apparaatgroep kan van invloed zijn op regels voor e-mailmeldingen. Als een apparaatgroep is geconfigureerd onder een meldingsregel voor e-mail, wordt deze uit die regel verwijderd. Als de apparaatgroep de enige groep is die is geconfigureerd voor een e-mailmelding, wordt deze regel voor e-mailmeldingen samen met de apparaatgroep verwijderd.
@@ -91,8 +93,22 @@ Apparaten die niet zijn afgestemd op groepen, worden toegevoegd aan groep Niet-g
 >[!NOTE]
 > Het kan enkele minuten duren voordat wijzigingen worden toegepast op de configuratie van de apparaatgroep.
 
+
+### <a name="add-device-group-definitions"></a>Apparaatgroepsdefinities toevoegen
+Apparaatgroepdefinities kunnen ook meerdere waarden voor elke voorwaarde bevatten. U kunt meerdere tags, apparaatnamen en domeinen instellen op de definitie van één apparaatgroep.
+
+1. Maak een nieuwe apparaatgroep en selecteer vervolgens **het tabblad** Apparaten.
+2. Voeg de eerste waarde toe voor een van de voorwaarden.
+3. Selecteer `+` om meer rijen van hetzelfde eigenschapstype toe te voegen.
+
+>[!TIP]
+> Gebruik de operator 'OF' tussen rijen van hetzelfde voorwaardetype, waarmee meerdere waarden per eigenschap kunnen worden gebruikt.
+> U kunt maximaal 10 rijen (waarden) toevoegen voor elk eigenschapstype- tag, apparaatnaam, domein.
+
+Zie Apparaatgroepen - Microsoft 365 beveiliging voor meer informatie over het koppelen [aan definities van apparaatgroepen.](https://sip.security.microsoft.com/homepage)
+
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [Portaltoegang beheren met behulp van op rollen gebaseerd toegangsbeheer](rbac.md)
 - [Apparaattags maken en beheren](machine-tags.md)
-- [Lijst met tenantapparaatgroepen met Behulp van Graph API](https://docs.microsoft.com/graph/api/device-list-memberof)
+- [Lijst met tenantapparaatgroepen met behulp van Graph API](https://docs.microsoft.com/graph/api/device-list-memberof)

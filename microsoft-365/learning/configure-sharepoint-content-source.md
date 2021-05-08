@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Meer informatie over het configureren SharePoint als een leerinhoudsbron voor Microsoft Viva Learning (Preview).
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da75ec0573519ed73507994afeac995c0461de0c
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: fc702f57b75b78ab523226ba7d8a8eb6505f2975
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100894"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244133"
 ---
 # <a name="coming-soon-configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>Binnenkort beschikbaar: Configureer SharePoint als een leerinhoudsbron voor Microsoft Viva Learning (Preview)
 
@@ -40,7 +40,7 @@ Viva Learning (Preview) ondersteunt de volgende documenttypen:
 - Audio (.m4a)
 - Video (.mov, .mp4, .avi)
 
-Zie de onlinedocumentatie SharePoint [voor meer informatie.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498) 
+Zie voor meer informatie [SharePoint limieten.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498) 
 
 ## <a name="permissions"></a>Machtigingen
 
@@ -70,11 +70,11 @@ Als u een SharePoint wilt configureren als een leerinhoudsbron in voor Viva Lear
 
 1.  Ga in de linkernavigatie van het Microsoft 365 beheercentrum **naar Instellingen**  >  **Organisatie-instellingen.**
  
-2.  Selecteer op **de pagina Organisatie-instellingen** op het **tabblad Services** de **optie Leer-app (Voorbeeld)**.
+2.  Selecteer op **de pagina Organisatie-instellingen** op het **tabblad Services** de optie Viva **Learning (voorbeeld)**.
 
      ![Instellingen pagina in het Microsoft 365-beheercentrum met Viva Learning weergegeven.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  In het **deelvenster Leer-app (Preview)** onder SharePoint, wordt de SITE-URL weergegeven naar de SharePoint site waar u wilt dat Viva Learning een gecentraliseerde opslagplaats maakt.
+3.  In het **deelvenster Viva Learning (Preview)** onder SharePoint, wordt de SITE-URL weergegeven naar de SharePoint-site waar u wilt dat Viva Learning (Preview) een gecentraliseerde opslagplaats maakt.
 
      ![Leervenster in het Microsoft 365-beheercentrum met SharePoint geselecteerd.](../media/learning/learning-sharepoint-configure2.png)
 
@@ -92,7 +92,7 @@ Als u een SharePoint wilt configureren als een leerinhoudsbron in voor Viva Lear
 
        ![Pagina Leerinhoudsopslagplaats in SharePoint met de optie Nieuw.](../media/learning/learning-sharepoint-configure5.png)
  
-   2. Voeg in **het deelvenster** Nieuw item in **het** veld Titel een adreslijstnaam van uw keuze toe. Voeg in **het veld Map-URL** de URL toe aan de map leerinhoud. Selecteer **Opslaan**.
+   2. Voeg in **het deelvenster** Nieuw item in **het** veld Titel een adreslijstnaam van uw keuze toe. Voeg in **het veld Map-URL** de URL toe aan de map leerinhoud. Kies **Opslaan**.
 
        ![Nieuw itemvenster in SharePoint met de velden Titel en Map-URL.](../media/learning/learning-sharepoint-configure6.png)
 
@@ -117,7 +117,7 @@ Als u een kolom **Beschrijving wilt** toevoegen aan de pagina van de documentbib
 
      ![Pagina Documenten in SharePoint met de opties Acties weergeven met Één regel tekst gemarkeerd.](../media/learning/learning-sharepoint-curation1.png)
 
-3. Voeg in **het deelvenster** Een kolom maken in het veld **Naam** een beschrijvende naam voor de kolom toe. Selecteer **Opslaan**.
+3. Voeg in **het deelvenster** Een kolom maken in het veld **Naam** een beschrijvende naam voor de kolom toe. Kies **Opslaan**.
 
      ![Maak een kolomvenster in SharePoint met de naam en andere velden.](../media/learning/learning-sharepoint-curation2.png)
  

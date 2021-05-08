@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Stel Microsoft 365 Preventie van gegevensverlies voor eindpunten in om bestandsactiviteiten te controleren en beschermende maatregelen voor deze bestanden naar eindpunten te implementeren.
-ms.openlocfilehash: 0410d4d09354ca716c83a63da9c1fdd22eda8551
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 118c2f3f87df5ac9930bebd1338157d323b1e5e1
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162900"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259497"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Aan de slag met Preventie van gegevensverlies voor eindpunten
 
@@ -102,7 +102,7 @@ Zorg ervoor dat de Windows 10-apparaten die u van plan bent in DLP voor eindpunt
     - Voor Windows 10 2004 - KB4568831, KB4577063
     - Voor apparaten met Office 2016 (en geen andere Office-versie) - KB4577063 
 
-4. Alle apparaten moeten [Azure Active Directory-gekoppeld zijn (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join), of Hybride Azure AD-gekoppeld zijn.
+4. Alle apparaten moeten [Azure Active Directory-gekoppeld zijn (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join), AD-gekoppeld, Hybride Azure AD-gekoppeld of AAD-geregistreerd zijn.
 
 5. Installeer de browser Microsoft Chromium Edge op het eindpuntapparaat om beleidsacties af te dwingen voor het uploaden naar cloudactiviteit. Zie [Nieuwe Microsoft Edge op basis van Chromium downloaden](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 

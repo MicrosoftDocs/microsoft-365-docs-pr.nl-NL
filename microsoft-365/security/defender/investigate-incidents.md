@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 22d3bba03745cee330f89b67061e6c6b13e78aed
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 72e1efb8a06fb7fa64b83ab6522fe4cdcfd1a73e
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939740"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259632"
 ---
 # <a name="analyze-incidents-in-microsoft-365-defender"></a>Incidenten analyseren in Microsoft 365 Defender
 
@@ -37,7 +37,7 @@ ms.locfileid: "51939740"
 
 - Microsoft 365 Defender
 
-Met Microsoft 365 Defender worden alle gerelateerde waarschuwingen, activa, onderzoeken en bewijzen van al uw apparaten, gebruikers en postvakken samengevoegd tot een incident, zodat u een uitgebreid overzicht krijgt van de hele breedte van een aanval.
+Microsoft 365 Defender verzamelt alle gerelateerde waarschuwingen, activa, onderzoeken en bewijs van al uw apparaten, gebruikers en postvakken tot een incident om u een uitgebreid overzicht te geven van de hele breedte van een aanval.
 
 In een incident analyseert u de waarschuwingen die van invloed zijn op uw netwerk, begrijpt u wat ze betekenen en colleert u het bewijs zodat u een effectief herstelplan kunt maken.
 
@@ -61,7 +61,7 @@ U kunt ook de hoofdpagina voor een incident openen door de naam van het incident
 
 Op **de** pagina Overzicht ziet u een momentopname van de belangrijkste dingen die u van het incident kunt zien.
 
-:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Voorbeeld van de pagina Overzicht voor een incident in het Microsoft 365-beveiligingscentrum":::
+:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Voorbeeld van de pagina Overzicht voor een incident in het Microsoft 365 beveiligingscentrum":::
 
 De aanvalscategorieën geven u een visuele en numerieke weergave van de voortgang van de aanval ten opzichte van de kill chain. Net als bij andere Microsoft-beveiligingsproducten is Microsoft 365 Defender uitgelijnd op het [MITRE ATT-&&trade; CK-framework.](https://attack.mitre.org/)
 
@@ -79,7 +79,7 @@ Op het **tabblad** Waarschuwing kunt u de waarschuwingswachtrij weergeven voor w
 
 - Ernst.
 - De entiteiten die betrokken waren bij de waarschuwing.
-- De bron van de waarschuwingen (Microsoft Defender voor identiteit, Microsoft Defender voor eindpunt, Microsoft Defender voor Office 365).
+- De bron van de waarschuwingen (Microsoft Defender voor identiteit, Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365).
 - De reden waarom ze aan elkaar zijn gekoppeld.
 
 Hier is een voorbeeld.
@@ -103,7 +103,7 @@ U kunt het vinkje voor een apparaat selecteren om details van het apparaat, adre
 Op de apparaatpagina kunt u aanvullende informatie over het apparaat verzamelen, zoals alle waarschuwingen, een tijdlijn en beveiligingsaanbevelingen. Op het tabblad  Tijdlijn kunt u bijvoorbeeld door de tijdlijn van de machine bladeren en alle gebeurtenissen en gedragingen bekijken die op de computer in chronologische volgorde worden waargenomen, afgewisseld met de waarschuwingen die zijn opgeheven.
 
 > [!TIP]
-> U kunt op aanvraag scans uitvoeren op een apparaatpagina. Kies eindpunten in het Microsoft 365-beveiligingscentrum **> Apparaatvoorraad.** Selecteer een apparaat met waarschuwingen en voer een antivirusscan uit. Acties, zoals antivirusscans, worden bijgespoord en zijn zichtbaar op de **pagina Apparaatvoorraad.** Zie Microsoft Defender Antivirus scan uitvoeren [op apparaten voor meer informatie.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)
+> U kunt op aanvraag scans uitvoeren op een apparaatpagina. Kies in Microsoft 365 beveiligingscentrum de optie **Eindpunten > Apparaatvoorraad.** Selecteer een apparaat met waarschuwingen en voer een antivirusscan uit. Acties, zoals antivirusscans, worden bijgespoord en zijn zichtbaar op de **pagina Apparaatvoorraad.** Zie De scan uitvoeren [Microsoft Defender Antivirus apparaten voor meer informatie.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)
 
 ## <a name="users"></a>Gebruikers
 
@@ -119,7 +119,7 @@ Het **tabblad Postvakken** bevat alle postvakken die zijn geïdentificeerd als o
 
 :::image type="content" source="../../media/investigate-incidents/incident-mailboxes.png" alt-text="Voorbeeld van een pagina Postvakken voor een incident":::
 
-U kunt het vinkje voor een postvak selecteren om een lijst met actieve waarschuwingen weer te geven. Selecteer de naam van het postvak om meer postvakgegevens te zien op de explorerpagina voor Microsoft Defender voor Office 365.
+U kunt het vinkje voor een postvak selecteren om een lijst met actieve waarschuwingen weer te geven. Selecteer de naam van het postvak om extra postvakgegevens te zien op de explorerpagina voor Microsoft Defender voor Office 365.
 
 ## <a name="investigations"></a>Onderzoeken
 
@@ -138,6 +138,23 @@ Op **het tabblad Bewijs** en antwoord ziet u alle ondersteunde gebeurtenissen en
 Microsoft 365 Defender onderzoekt automatisch alle door incidenten ondersteunde gebeurtenissen en verdachte entiteiten in de waarschuwingen, zodat u informatie krijgt over de belangrijke e-mailberichten, bestanden, processen, services, IP-adressen en meer. Op deze manier kunt u potentiële bedreigingen in het incident snel opsporen en blokkeren.
 
 Elk van de geanalyseerde entiteiten is gemarkeerd met een vonnis (Schadelijk, Verdacht, Schoon) en een herstelstatus. Op deze manier begrijpt u de herstelstatus van het hele incident en welke volgende stappen u kunt ondernemen.
+
+## <a name="graph-in-preview"></a>Graph (in Preview)
+
+Met het nieuwe **Graph** (in voorbeeld), kunt u het volgende zien:
+
+- De verbinding van waarschuwingen met de beïnvloede activa in uw organisatie.
+- Welke entiteiten zijn gerelateerd aan welke waarschuwingen en hoe ze deel uitmaken van het verhaal van de aanval.
+- De waarschuwingen voor het incident.
+
+Hier is een voorbeeld.
+
+:::image type="content" source="../../media/investigate-incidents/incident-graph.png" alt-text="Voorbeeld van een Graph pagina voor een incident":::
+
+De incidentgrafiek helpt u snel het volledige bereik van de aanval te begrijpen door de verschillende verdachte entiteiten die deel uitmaken van de aanval te verbinden met hun gerelateerde assets, zoals gebruikers, apparaten en postvakken. 
+
+U kunt nu begrijpen hoe de aanval zich in de afgelopen tijd via uw netwerk heeft verspreid, waar de aanval is gestart en hoe ver de aanval is gegaan.
+
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

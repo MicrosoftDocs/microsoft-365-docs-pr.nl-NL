@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: f48b6e8b43f65a6ee919095ea299bd80c81e01c9
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: aad0f00292a1a1182fc4b731e562b2e4c78d97f8
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "52162576"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259509"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Aan de slag met instellingen voor insider-risicobeheer
 
@@ -83,8 +83,8 @@ Als u het bewaken van risicoactiviteiten op apparaten wilt inschakelen en beleid
 Zorg ervoor dat de Windows 10 apparaten die u wilt rapporteren in insider risk management aan deze vereisten voldoen.
 
 1. Moet worden uitgevoerd Windows 10 x64-build 1809 of hoger en moet de [Windows 10-update (os build 17763.1075)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818) hebben geïnstalleerd vanaf 20 februari 2020.
-2. Alle apparaten moeten zijn Azure Active Directory [(AAD) of](/azure/active-directory/devices/concept-azure-ad-join)Hybride Azure AD zijn samengevoegd.
-3. Installeer microsoft Chromium Edge-browser op het eindpuntapparaat om acties voor de uploadactiviteit in de cloud te controleren. Zie De [nieuwe Microsoft Edge downloaden op basis van Chromium.](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)
+2. Het gebruikersaccount dat wordt gebruikt om u aan te melden bij Windows 10 apparaat moet een actief Azure Active Directory (AAD)-account zijn. Het Windows 10 kan [AAD,](/azure/active-directory/devices/concept-azure-ad-join)hybride AAD of Active Directory zijn of AAD zijn geregistreerd.
+3. Installeer microsoft Chromium Edge-browser op het eindpuntapparaat om acties voor de uploadactiviteit in de cloud te controleren. Zie [Nieuwe Microsoft Edge op basis van Chromium downloaden](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
 #### <a name="step-2-onboarding-devices"></a>Stap 2: Onboarding-apparaten
 <a name="OnboardStep2"> </a>
@@ -93,30 +93,30 @@ U moet apparaatcontrole en onboarding van uw eindpunten inschakelen voordat u ac
 
 Wanneer u apparaten wilt onboarden die nog niet zijn onboarded, downloadt u het juiste script en implementeert u het script zoals beschreven in de volgende stappen.
 
-Als u al apparaten hebt aan boord van [Microsoft Defender voor Eindpunt,](/windows/security/threat-protection/)worden deze al weergegeven in de lijst met beheerde apparaten. Volg [stap 3: Als u apparaten hebt](insider-risk-management-settings.md#OnboardStep3) ingebouwde bij Microsoft Defender voor Eindpunt in de volgende sectie.
+Als u al apparaten hebt die zijn toegevoegd aan [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/), worden deze al weergegeven in de lijst met beheerde apparaten. Volg [stap 3: Als u apparaten hebt](insider-risk-management-settings.md#OnboardStep3) ingebouwde bij Microsoft Defender voor Eindpunt in de volgende sectie.
 
 In dit implementatiescenario kunt u apparaten aan boord nemen die nog niet zijn onboarded en wilt u alleen activiteiten met insiderrisico's controleren op Windows 10 apparaten.
 
 1. Open het [Microsoft-compliancecentrum](https://compliance.microsoft.com).
-2. Open de pagina Instellingen voor compliancecentrum en kies **Onboard-apparaten.**
+2. Open de instellingenpagina voor het Compliancecentrum en kies **Apparaten onboarden**.
 
    > [!NOTE]
-   > Hoewel het meestal ongeveer 60 seconden duurt voordat onboarding van apparaten is ingeschakeld, kunt u maximaal 30 minuten toestaan voordat u contact op neemt met Microsoft-ondersteuning.
+   > Het duurt gewoonlijk ongeveer 60 seconden voordat onboarding voor apparaten is ingeschakeld. Wacht 30 minuten voordat u contact opneemt met Microsoft-ondersteuning.
 
-3. Kies **Apparaatbeheer om** de lijst **Apparaten te** openen. De lijst is leeg totdat u apparaten aan boord hebt.
-4. Kies **Onboarding om** het onboardingproces te starten.
+3. Kies **Apparaatbeheer** om de lijst **Apparaten** te openen. De lijst is leeg totdat u apparaten onboardt.
+4. Kies **Onboarding** om het onboardingproces te starten.
 5. Kies de manier waarop u wilt implementeren op deze meer apparaten in de lijst **met** implementatiemethodes en download **het pakket.**
-6. Volg de juiste procedures in [Onboarding-hulpprogramma's en -methoden voor Windows 10 machines.](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) Met deze koppeling gaat u naar een landingspagina waar u toegang hebt tot Procedures van Microsoft Defender voor eindpunten die overeenkomen met het implementatiepakket dat u hebt geselecteerd in stap 5:
-    - Onboard Windows 10 machines met groepsbeleid
-    - Onboard Windows machines met Microsoft Endpoint Configuration Manager
-    - Onboard Windows 10 machines met behulp van hulpprogramma's voor mobiel apparaatbeheer
-    - Onboard Windows 10 met behulp van een lokaal script
-    - Onboard non-persistent virtual desktop infrastructure (VDI) machines.
+6. Volg de juiste procedures in [Onboarding-hulpprogramma's en -methoden voor Windows 10-computers](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Via deze koppeling gaat u naar een landingspagina waar u toegang hebt tot procedures voor Microsoft Defender voor Eindpunt die overeenkomen met het installatiepakket dat u in stap 5 hebt geselecteerd:
+    - Windows 10-computers onboarden met groepsbeleid
+    - Windows-apparaten onboarden met behulp van Microsoft Endpoint Configuration Manager
+    - Windows 10-apparaten onboarden met hulpmiddelen voor Mobiel Apparaatbeheer
+    - Windows 10-apparaten onboarden met een lokaal script
+    - Niet-permanente virtuele desktopinfrastructuur (VDI)-apparaten onboarden.
 
 Wanneer dit is gedaan en het eindpunt is onboarded, moet het zichtbaar zijn in de lijst met apparaten en begint het eindpunt met het rapporteren van logboeken voor auditactiviteiten aan insiderrisicobeheer.
 
 > [!NOTE]
-> Deze ervaring is onder licentiehandhaving. Zonder de vereiste licentie zijn gegevens niet zichtbaar of toegankelijk.
+> Deze ervaring valt onder het afdwingen van licenties. Zonder de vereiste licentie zijn de gegevens niet zichtbaar of toegankelijk.
 
 #### <a name="step-3-if-you-have-devices-onboarded-into-microsoft-defender-for-endpoint"></a>Stap 3: Als u apparaten hebt aan boord van Microsoft Defender voor Eindpunt
 <a name="OnboardStep3"> </a>
@@ -124,21 +124,21 @@ Wanneer dit is gedaan en het eindpunt is onboarded, moet het zichtbaar zijn in d
 Als Microsoft Defender voor Eindpunt al is geïmplementeerd en er eindpunten zijn die rapporteren, worden al deze eindpunten weergegeven in de lijst met beheerde apparaten. U kunt nieuwe apparaten blijven gebruiken voor insiderrisicobeheer om de dekking uit te breiden met de sectie Stap [2: Onboarding-apparaten.](insider-risk-management-settings.md#OnboardStep2)
 
 1. Open het [Microsoft-compliancecentrum](https://compliance.microsoft.com).
-2. Open de pagina Met nalevingscentruminstellingen en kies **Apparaatcontrole inschakelen.**
-3. Kies **Apparaatbeheer om** de lijst **Apparaten te** openen. U ziet de lijst met apparaten die al rapporteren in Microsoft Defender voor Eindpunt.
+2. Open de instellingenpagina voor het Compliancecentrum en kies **Apparaatcontrole inschakelen**.
+3. Kies **Apparaatbeheer** om de lijst **Apparaten** te openen. U ziet de lijst met apparaten die al rapporteren in Microsoft Defender voor Eindpunt.
 4. Kies **Onboarding** als u meer apparaten wilt onboarden.
 5. Kies de manier waarop u wilt implementeren naar deze meer apparaten in de lijst **Implementatiemethode** en vervolgens **Pakket downloaden.**
-6. Volg de juiste procedures in [Onboarding-hulpprogramma's en -methoden voor Windows 10 machines.](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) Met deze koppeling gaat u naar een landingspagina waar u toegang hebt tot Procedures van Microsoft Defender voor eindpunten die overeenkomen met het implementatiepakket dat u hebt geselecteerd in stap 5:
-    - Onboard Windows 10 machines met groepsbeleid
-    - Onboard Windows machines met Microsoft Endpoint Configuration Manager
-    - Onboard Windows 10 machines met behulp van hulpprogramma's voor mobiel apparaatbeheer
-    - Onboard Windows 10 met behulp van een lokaal script
-    - Onboard non-persistent virtual desktop infrastructure (VDI) machines.
+6. Volg de juiste procedures in [Onboarding-hulpprogramma's en -methoden voor Windows 10-computers](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Via deze koppeling gaat u naar een landingspagina waar u toegang hebt tot procedures voor Microsoft Defender voor Eindpunt die overeenkomen met het installatiepakket dat u in stap 5 hebt geselecteerd:
+    - Windows 10-computers onboarden met groepsbeleid
+    - Windows-apparaten onboarden met behulp van Microsoft Endpoint Configuration Manager
+    - Windows 10-apparaten onboarden met hulpmiddelen voor Mobiel Apparaatbeheer
+    - Windows 10-apparaten onboarden met een lokaal script
+    - Niet-permanente virtuele desktopinfrastructuur (VDI)-apparaten onboarden.
 
 Wanneer dit is gedaan en het eindpunt is  onboarded, moet het zichtbaar zijn onder de tabel Apparaten en begint het eindpunt met het rapporteren van logboeken voor auditactiviteiten aan insiderrisicobeheer.
 
 > [!NOTE]
->Deze ervaring is onder licentiehandhaving. Zonder de vereiste licentie zijn gegevens niet zichtbaar of toegankelijk.
+>Deze ervaring valt onder het afdwingen van licenties. Zonder de vereiste licentie zijn de gegevens niet zichtbaar of toegankelijk.
 
 ### <a name="indicator-level-settings-preview"></a>Instellingen voor indicatorniveau (voorbeeld)
 
@@ -425,7 +425,7 @@ Als u een Power Automate wilt delen in het instellingengebied, moet u lid zijn v
 
 Volg de volgende stappen om een stroom Power Automate delen:
 
-1. Ga in [Microsoft 365 compliancecentrum](htttps://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
+1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
 2. Selecteer op **Power Automate pagina Mijn** stromen  of **Teamstromen het** tabblad Mijn stromen.
 3. Selecteer de stroom die u wilt delen en selecteer **vervolgens Delen** in het menu stroomopties.
 4. Voer op de pagina stroom delen de naam in van de gebruiker of groep die u als eigenaar voor de stroom wilt toevoegen.
@@ -439,7 +439,7 @@ Als u een Power Automate wilt bewerken in het instellingengebied, moet u lid zij
 
 Volg de volgende stappen om een stroom Power Automate bewerken:
 
-1. Ga in [Microsoft 365 compliancecentrum](htttps://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
+1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
 2. Selecteer op **Power Automate pagina stroomstromen** een stroom die u wilt bewerken en selecteer **Bewerken** in het menu Stroombesturingselement.
 3. Selecteer het **beletselteken Instellingen** als u de instelling van een stroomcomponent of beletselteken Verwijderen wilt wijzigen om  >     >   een stroomcomponent te verwijderen.
 4. Selecteer **Opslaan en** vervolgens Sluiten **om** het bewerken van de stroom te voltooien.
@@ -452,7 +452,7 @@ Als u een Power Automate wilt verwijderen in het instellingengebied, moet u lid 
 
 Volg de volgende stappen om een stroom Power Automate verwijderen:
 
-1. Ga in [Microsoft 365 compliancecentrum](htttps://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
+1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
 2. Selecteer op **Power Automate pagina stroomstromen** een stroom die u wilt verwijderen en selecteer **Verwijderen** in het menu Stroombesturingselement.
 3. Selecteer verwijderen in het  bevestigingsdialoogvenster verwijderen om de stroom te verwijderen of selecteer **Annuleren om** de verwijderingsactie te sluiten.
 
@@ -470,7 +470,7 @@ Zie Overzicht van teams en kanalen in Microsoft Teams voor meer informatie over 
 
 Het inschakelen Microsoft Teams ondersteuning voor cases is snel en eenvoudig te configureren. Als u een Microsoft Teams voor insider-risicobeheer wilt inschakelen, moet u de volgende stappen volgen:
 
-1. Ga in [Microsoft 365 compliancecentrum](htttps://compliance.microsoft.com)naar **Insider risk management** Insider risk  >  **settings**.
+1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider risk management** Insider risk  >  **settings**.
 2. Selecteer het **Microsoft Teams** tabblad.
 3. Schakel Microsoft Teams integratie in voor insiderrisicobeheer.
 4. Selecteer **Opslaan om** te configureren en af te sluiten.
@@ -485,7 +485,7 @@ Gebruikers hebben machtigingen nodig om groepen Microsoft 365 maken in uw organi
 
 Als u een team voor een zaak wilt maken, gebruikt u het besturingselement Microsoft-team maken wanneer u rechtstreeks in een bestaand geval werkt. Volg de volgende stappen om een nieuw team te maken:
 
-1. Ga in [Microsoft 365 compliancecentrum](htttps://compliance.microsoft.com)naar **Insider-risicobeheerzaken**  >   en selecteer een bestaand geval.
+1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheerzaken**  >   en selecteer een bestaand geval.
 2. Selecteer Microsoft Team maken in het actiemenu Voor **de zaak.**
 3. Voer in **het veld Teamnaam** een naam in voor het nieuwe Microsoft Teams team.
 4. Selecteer **Microsoft-team maken** en selecteer **vervolgens Sluiten.**
@@ -516,7 +516,7 @@ Analyseinzichten van scans zijn gebaseerd op dezelfde risicoactiviteitssignalen 
 Als u insiderrisicoanalyse wilt inschakelen, moet u lid zijn van de rollengroep Insider Risk Management, Insider Risk Management of Microsoft 365 Global Admin.
 Volg de volgende stappen om insider risk analytics in teschakelen:
 
-1. Ga in [Microsoft 365 compliancecentrum](htttps://compliance.microsoft.com)naar **Insider-risicobeheer.**
+1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer.**
 2. Selecteer **Scan uitvoeren** op de scan voor **insiderrisico's in uw organisatiekaart** op het tabblad Overzicht van insiderrisicobeheer.  Hiermee schakelt u het scannen van analyses voor uw organisatie in. U kunt scannen in uw organisatie ook inschakelen door te navigeren naar Insider-risico-instellingen Analytics en de gebruikersactiviteit van uw tenant scannen in te stellen om mogelijke  >   **insiderrisico's te identificeren.**
 3. Selecteer in **het detailvenster Analyse** **de optie Scan uitvoeren om** de scan voor uw organisatie te starten. Het kan tot 24 uur duren voordat inzichten beschikbaar zijn als rapporten om te worden beoordeeld.
 
@@ -546,6 +546,6 @@ Als u insiderrisicoanalyse wilt uitschakelen, moet u lid zijn van de rollengroep
 
 Volg de volgende stappen om insider risk analytics uit te schakelen:
 
-1. Ga in [Microsoft 365 compliancecentrum](htttps://compliance.microsoft.com)naar **Insider-risicobeheer.**
+1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer.**
 2. Selecteer **de pagina Insider-risico-instellingen**  >  **Analytics.**
 3. Schakel op **de pagina Analyse** de gebruikersactiviteit van uw tenant scannen uit om mogelijke **insiderrisico's te identificeren.**

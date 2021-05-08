@@ -11,17 +11,17 @@ localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: tewchen, pahuijbr, shwjha
+ms.reviewer: tewchen, pahuijbr
 ms.topic: article
 manager: dansimp
 ms.technology: mde
-ms.date: 05/05/2021
-ms.openlocfilehash: 99ed714939161347dea71f1cbd53a56c628ce0a1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/06/2021
+ms.openlocfilehash: e3ec35e777469fec3cda762f7e670490c0963f8d
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246487"
+ms.locfileid: "52259689"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender Antivirus compatibiliteit
 
@@ -31,9 +31,15 @@ ms.locfileid: "52246487"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-## <a name="overview"></a>Overzicht
+## <a name="summary"></a>Samenvatting
 
-Microsoft Defender Antivirus wordt automatisch ingeschakeld en geïnstalleerd op eindpunten en apparaten die Windows 10. Maar wat gebeurt er als er een andere antivirus-/antimalwareoplossing (niet van Microsoft) wordt gebruikt? Dit hangt af van of u [Microsoft Defender](microsoft-defender-endpoint.md) voor eindpunt gebruikt samen met uw antivirusbeveiliging.
+Microsoft Defender Antivirus wordt automatisch ingeschakeld en geïnstalleerd op eindpunten en apparaten die Windows 10. Maar wat gebeurt er als er een andere antivirus-/antimalwareoplossing (niet van Microsoft) wordt gebruikt? Dit hangt af van of u [Microsoft Defender](microsoft-defender-endpoint.md) voor eindpunt gebruikt samen met uw antivirusbeveiliging. In dit artikel wordt beschreven wat er gebeurt met antivirus-/antimalwareoplossingen wanneer eindpunten zijn onboarded bij Microsoft Defender voor Eindpunt.
+
+## <a name="why-defender-for-endpoint-matters"></a>Waarom Defender voor Eindpunt belangrijk is
+
+Overweeg om uw eindpunten te onboarden bij Defender voor Eindpunt, zelfs als u een niet-Microsoft-antivirus-/antimalware-oplossing gebruikt. In de meeste gevallen kunt u, wanneer u uw apparaten aan boord van uw apparaten bij Defender voor Eindpunt, Microsoft Defender Antivirus naast uw niet-Microsoft-antivirusoplossing gebruiken voor extra beveiliging. U kunt bijvoorbeeld EDR [in](edr-in-block-mode.md)de blokmodus gebruiken, waarmee schadelijke artefacten worden geblokkeerd en gesaneerd die mogelijk door uw primaire antivirusoplossing zijn gemist. 
+
+Dit werkt als volgende:
 
 - Als de clientapparaten van uw organisatie zijn beveiligd door een niet-Microsoft-antivirus-/antimwalware-oplossing, gaat Microsoft Defender Antivirus automatisch in de passieve modus wanneer deze apparaten zijn onboarded bij Defender for Endpoint. In dit geval vinden bedreigingsdetecties plaats, maar worden realtime beveiliging en bedreigingen niet door de Microsoft Defender Antivirus. **OPMERKING:** Dit specifieke scenario is niet van toepassing op eindpunten met Windows Server.
 
@@ -48,24 +54,24 @@ Microsoft Defender Antivirus wordt automatisch ingeschakeld en geïnstalleerd op
 
 ## <a name="antivirus-and-microsoft-defender-for-endpoint"></a>Antivirus en Microsoft Defender voor Eindpunt
 
-In de volgende tabel wordt samengevat wat er gebeurt met Microsoft Defender Antivirus wanneer antivirusproducten van derden samen of zonder Microsoft Defender voor Eindpunt worden gebruikt. 
+In de volgende tabel wordt samengevat wat er gebeurt met Microsoft Defender Antivirus wanneer niet-Microsoft antivirus-/antimalware-oplossingen samen of zonder Microsoft Defender voor Eindpunt worden gebruikt. 
 
-| Windows versie   | Antivirus/antimalware-product  | Defender voor endpoint-inschrijving | Microsoft Defender Antivirus staat     |
+| Windows versie   | Antivirus-/antimalwareoplossing  | Onboarded to <br/> Defender voor Eindpunt? | Microsoft Defender Antivirus staat     |
 |------|------|-------|-------|
 | Windows 10  | Microsoft Defender Antivirus | Ja  | Actieve modus | 
 | Windows 10  | Microsoft Defender Antivirus | Nee   | Actieve modus |
-| Windows 10  | Een product van derden dat niet wordt aangeboden of ontwikkeld door Microsoft | Ja  | Passieve modus (automatisch) |
-| Windows 10  | Een product van derden dat niet wordt aangeboden of ontwikkeld door Microsoft | Nee   | Uitgeschakelde modus (automatisch)    |
+| Windows 10  | Een niet-Microsoft-antivirus-/antimalwareoplossing | Ja  | Passieve modus (automatisch) |
+| Windows 10  | Een niet-Microsoft-antivirus-/antimalwareoplossing | Nee   | Uitgeschakelde modus (automatisch)    |
 | Windows Server, versie 1803 of hoger <p> Windows Server 2019 | Microsoft Defender Antivirus  | Ja |         Actieve modus  |
 | Windows Server, versie 1803 of hoger <p> Windows Server 2019 | Microsoft Defender Antivirus | Nee  | Actieve modus |
-| Windows Server, versie 1803 of hoger <p> Windows Server 2019 | Een product van derden dat niet wordt aangeboden of ontwikkeld door Microsoft | Ja  | Microsoft Defender Antivirus moet zijn ingesteld op passieve modus (handmatig) <sup> [[1](#fn1)]<sup>  | 
-| Windows Server, versie 1803 of hoger <p> Windows Server 2019 | Een product van derden dat niet wordt aangeboden of ontwikkeld door Microsoft | Nee  | Microsoft Defender Antivirus moet worden uitgeschakeld (handmatig) <sup> [[2](#fn2)]<sup></sup>  |
+| Windows Server, versie 1803 of hoger <p> Windows Server 2019 | Een niet-Microsoft-antivirus-/antimalwareoplossing | Ja  | Microsoft Defender Antivirus moet zijn ingesteld op passieve modus (handmatig) <sup> [[1](#fn1)]<sup>  | 
+| Windows Server, versie 1803 of hoger <p> Windows Server 2019 | Een niet-Microsoft-antivirus-/antimalwareoplossing | Nee  | Microsoft Defender Antivirus moet worden uitgeschakeld (handmatig) <sup> [[2](#fn2)]<sup></sup>  |
 | Windows Server 2016 | Microsoft Defender Antivirus | Ja | Actieve modus |
 | Windows Server 2016 | Microsoft Defender Antivirus | Nee | Actieve modus |
-| Windows Server 2016 | Een product van derden dat niet wordt aangeboden of ontwikkeld door Microsoft | Ja | Microsoft Defender Antivirus moet worden uitgeschakeld (handmatig) <sup> [[2](#fn2)]<sup> |
-| Windows Server 2016 | Een product van derden dat niet wordt aangeboden of ontwikkeld door Microsoft | Nee | Microsoft Defender Antivirus moet worden uitgeschakeld (handmatig) <sup> [[2](#fn2)]<sup> |
+| Windows Server 2016 | Een niet-Microsoft-antivirus-/antimalwareoplossing | Ja | Microsoft Defender Antivirus moet worden uitgeschakeld (handmatig) <sup> [[2](#fn2)]<sup> |
+| Windows Server 2016 | Een niet-Microsoft-antivirus-/antimalwareoplossing | Nee | Microsoft Defender Antivirus moet worden uitgeschakeld (handmatig) <sup> [[2](#fn2)]<sup> |
 
-(<a id="fn1">1</a>) Op Windows Server, versie 1803 of hoger of Windows Server 2019 voert Microsoft Defender Antivirus niet automatisch de passieve modus in wanneer u een niet-Microsoft-antivirusproduct installeert. Stel in dat geval de Microsoft Defender Antivirus passieve [modus in](microsoft-defender-antivirus-on-windows-server.md#need-to-set-microsoft-defender-antivirus-to-passive-mode) om problemen te voorkomen die worden veroorzaakt doordat meerdere antivirusproducten op een server zijn geïnstalleerd. U kunt de Microsoft Defender Antivirus passieve modus instellen met Behulp van PowerShell, Groepsbeleid of een registersleutel.
+(<a id="fn1">1</a>) Op Windows Server, versie 1803 of hoger of Windows Server 2019 voert Microsoft Defender Antivirus niet automatisch de passieve modus in wanneer u een niet-Microsoft-antivirusproduct installeert. Stel in dat geval de Microsoft Defender Antivirus passieve [modus in](microsoft-defender-antivirus-on-windows-server.md#need-to-set-microsoft-defender-antivirus-to-passive-mode) om problemen te voorkomen die worden veroorzaakt doordat meerdere antivirusproducten op een server zijn geïnstalleerd. U kunt de Microsoft Defender Antivirus passieve modus instellen met PowerShell, Groepsbeleid of een registersleutel.
 
 Als u Windows Server, versie 1803 of hoger of Windows Server 2019 gebruikt, kunt u Microsoft Defender Antivirus instellen op passieve modus door de volgende registersleutel in te stellen:
 - Pad: `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`
@@ -74,7 +80,7 @@ Als u Windows Server, versie 1803 of hoger of Windows Server 2019 gebruikt, kunt
 - Waarde: `1`
 
 > [!NOTE]
-> De `ForcePassiveMode` registersleutel wordt niet ondersteund op Windows Server 2016.
+> Passieve modus wordt niet ondersteund op Windows Server 2016. De `ForcePassiveMode` registersleutel is niet van toepassing op Windows Server 2016. 
 
 (<a id="fn2">2</a>) Als Windows Server 2016 antivirusproduct van niet-Microsoft gebruikt, kunt u Microsoft Defender Antivirus passieve modus of actieve modus niet uitvoeren. In dergelijke gevallen [kunt u de](microsoft-defender-antivirus-on-windows-server.md#are-you-using-windows-server-2016) Microsoft Defender Antivirus handmatig uitschakelen of verwijderen om problemen te voorkomen die worden veroorzaakt doordat meerdere antivirusproducten op een server zijn geïnstalleerd.
 
@@ -124,7 +130,6 @@ De tabel in deze sectie bevat een overzicht van de functionaliteit en functies d
 - Wanneer Microsoft Defender Antivirus in de passieve modus staat, kunt u nog steeds [updates](manage-updates-baselines-microsoft-defender-antivirus.md)voor Microsoft Defender Antivirus; U kunt de Microsoft Defender Antivirus echter niet verplaatsen naar de actieve modus als uw apparaten een up-to-date, niet-Microsoft-antivirusproduct hebben dat realtime bescherming biedt tegen malware. Zorg ervoor dat u de Microsoft Defender Antivirus-beveiliging (Beveiligingsintelligentieupdate, Engine en [Platform)](manage-updates-baselines-microsoft-defender-antivirus.md) bijwerkt, zelfs als Microsoft Defender Antivirus in de passieve modus wordt uitgevoerd.
 
 - Wanneer Microsoft Defender Antivirus automatisch is uitgeschakeld, kan deze automatisch opnieuw worden ingeschakeld als de bescherming die wordt geboden door een niet-Microsoft-antivirusproduct verloopt of op andere wijze stopt met het bieden van realtime bescherming tegen virussen, malware of andere bedreigingen. Automatisch opnieuw inschakelen helpt ervoor te zorgen dat antivirusbeveiliging wordt gehandhaafd op uw apparaten. U kunt ook [](limited-periodic-scanning-microsoft-defender-antivirus.md)beperkt periodiek scannen inschakelen, waarbij de Microsoft Defender Antivirus wordt gebruikt om regelmatig te controleren op bedreigingen, naast uw hoofd-antivirus-app.
-
 
 > [!WARNING]
 > Schakel de bijbehorende services die worden gebruikt door Microsoft Defender Antivirus, Microsoft Defender voor Eindpunt of de app Windows-beveiliging niet uit, stop of wijzig deze niet. Deze aanbeveling omvat *de services en processen wscsvc,* *SecurityHealthService,* *MsSense,* *Sense,* *WinDefend* of *MsMpEng.* Het handmatig wijzigen van deze services kan ernstige instabiliteit op uw apparaten veroorzaken en uw netwerk kwetsbaar maken. Het uitschakelen, stoppen of wijzigen van deze services kan ook problemen veroorzaken bij het gebruik van niet-Microsoft-antivirusoplossingen en de manier waarop de gegevens worden weergegeven in de Windows-beveiliging [app.](microsoft-defender-security-center-antivirus.md)
