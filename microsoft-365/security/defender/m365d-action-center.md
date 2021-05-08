@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: edf809c5fbc257e1dacafeed931da1a2d1471f4a
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 7853c6c535a9b4daf9f29a1125c805c29ca6f93f
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592082"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245910"
 ---
 # <a name="the-action-center"></a>Het Actiecentrum
 
@@ -42,7 +42,7 @@ Het actiecentrum biedt een 'enkel deelvenster met glas' voor taken, zoals:
 - Een auditlogboek weergeven van al goedgekeurde herstelacties; en
 - Voltooide herstelacties controleren.
 
-Uw beveiligingsteam kan effectiever en efficiënter werken, omdat het Actiecentrum een uitgebreide weergave biedt van Microsoft 365 Defender op het werk.
+Uw beveiligingsbewerkingsteam kan effectiever en efficiënter werken, omdat het Actiecentrum een uitgebreide weergave biedt van Microsoft 365 Defender op het werk.
 
 ## <a name="a-new-unified-action-center"></a>Een nieuw, geïntegreerd actiecentrum
 
@@ -51,11 +51,11 @@ We zijn blij om een nieuw, geïntegreerd actiecentrum aan te kondigen ( [https:/
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Unified Action center in Microsoft 365 Defender":::
 
 Het verbeterde Actiecentrum bevat lopende en voltooide herstelacties voor uw apparaten, e-mail & samenwerkingsinhoud en identiteiten op één locatie.
-- Als u eerder het Office 365 Security & Compliance Center () hebt gebruikt, probeert u het nieuwe, geïntegreerde Actiecentrum in het [https://protection.office.com](https://protection.office.com) Microsoft 365-beveiligingscentrum ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
-- Als u het Actiecentrum in het Microsoft Defender-beveiligingscentrum () gebruikt, probeert u het nieuwe, geïntegreerde Actiecentrum in het [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) Microsoft 365-beveiligingscentrum ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
-- Als u al gebruik hebt gemaakt van het Microsoft 365-beveiligingscentrum ( ), ziet u verschillende [https://security.microsoft.com](https://security.microsoft.com) verbeteringen in het Actiecentrum ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Als u eerder het Office 365 Security & Compliance Center () hebt gebruikt, kunt u het nieuwe, geïntegreerde Actiecentrum in het Microsoft 365 [https://protection.office.com](https://protection.office.com) [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () proberen.
+- Als u het Actiecentrum in het Microsoft Defender-beveiligingscentrum () gebruikt, kunt u het nieuwe, geïntegreerde actiecentrum in het [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) Microsoft 365 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () proberen.
+- Als u het beveiligingscentrum Microsoft 365 (), ziet u verschillende [https://security.microsoft.com](https://security.microsoft.com) verbeteringen in het Actiecentrum ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
 
-Het geïntegreerde actiecentrum brengt herstelacties samen in Defender voor Eindpunt en Defender voor Office 365. Het definieert een gemeenschappelijke taal voor alle herstelacties en biedt een geïntegreerde onderzoekservaring. Het Actiecentrum biedt uw beveiligingsbewerkingsteam een 'enkel deelvenster met glas' om herstelacties weer te geven en te beheren.  
+Het geïntegreerde Actiecentrum brengt herstelacties samen in Defender voor Eindpunt en Defender voor Office 365. Het definieert een gemeenschappelijke taal voor alle herstelacties en biedt een geïntegreerde onderzoekservaring. Het Actiecentrum biedt uw beveiligingsbewerkingsteam een 'enkel deelvenster met glas' om herstelacties weer te geven en te beheren.  
 
 U kunt het geïntegreerde actiecentrum gebruiken als u de juiste machtigingen en een of meer van de volgende abonnementen hebt:
 
@@ -87,7 +87,7 @@ U kunt gegevens aanpassen, sorteren, filteren en exporteren in het Actiecentrum.
 - Kies de kolommen die u wilt weergeven.
 - Geef op hoeveel items u wilt opnemen op elke pagina met gegevens.
 - Gebruik filters om alleen de items te bekijken die u wilt zien.
-- Selecteer **Exporteren om** resultaten te exporteren naar een CSV-bestand.
+- Selecteer **Exporteren** om resultaten te exporteren naar een .csv bestand.
 
 ## <a name="actions-tracked-in-the-action-center"></a>Bij te houden acties in het actiecentrum
 
@@ -126,11 +126,11 @@ Als u taken wilt uitvoeren, zoals het goedkeuren of weigeren van acties in behan
 
 |Herstelactie |Vereiste rollen en machtigingen |
 |--|----|
-|Microsoft Defender voor herstel van eindpunten (apparaten) |**Beveiligingsbeheerderrol** toegewezen in Azure Active Directory ( ) of [https://portal.azure.com](https://portal.azure.com) het Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- of ---<br/>**Rol actieve herstelacties** toegewezen in Microsoft Defender voor eindpunt <br/> <br/> Zie de volgende bronnen voor meer informatie: <br/>- [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Rollen maken en beheren voor op rollen gebaseerde toegangsbeheer (Microsoft Defender voor Eindpunt)](../defender-endpoint/user-roles.md)  |
-|Herstel van Microsoft Defender voor Office 365 (Office-inhoud en e-mail)  |**Beveiligingsbeheerderrol** toegewezen in Azure Active Directory ( ) of [https://portal.azure.com](https://portal.azure.com) het Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- en --- <br/>**Zoek- en purge-rol** toegewezen aan het Beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**BELANGRIJK:** Als de  rol beveiligingsbeheerder alleen is toegewezen in het Office 365-beveiligings- & compliancecentrum ( ), hebt u geen toegang tot de mogelijkheden van het Actiecentrum of [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. U moet de rol **Beveiligingsbeheerder** hebben toegewezen in Azure Active Directory of het Microsoft 365-beheercentrum. <br/><br/>Zie de volgende bronnen voor meer informatie: <br/>- [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Machtigingen in het beveiligings- & compliancecentrum](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Microsoft Defender voor herstel van eindpunten (apparaten) |**Beveiligingsbeheerderrol** toegewezen in Azure Active Directory ( ) of [https://portal.azure.com](https://portal.azure.com) het Microsoft 365 beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- of ---<br/>**Rol actieve herstelacties** toegewezen in Microsoft Defender voor eindpunt <br/> <br/> Zie de volgende bronnen voor meer informatie: <br/>- [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Rollen maken en beheren voor op rollen gebaseerde toegangsbeheer (Microsoft Defender voor Eindpunt)](../defender-endpoint/user-roles.md)  |
+|Microsoft Defender voor Office 365 herstel (Office inhoud en e-mail)  |**Beveiligingsbeheerderrol** toegewezen in Azure Active Directory ( ) of [https://portal.azure.com](https://portal.azure.com) het Microsoft 365 beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- en --- <br/>**Zoek- en purge-rol** toegewezen aan het Beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**BELANGRIJK:** Als de  rol Beveiligingsbeheerder alleen is toegewezen in het Office 365 Security & Compliance Center ( ), hebt u geen toegang tot het Actiecentrum of Microsoft 365 [https://protection.office.com](https://protection.office.com) Defender-mogelijkheden. U moet de rol **Beveiligingsbeheerder** hebben toegewezen in Azure Active Directory of het Microsoft 365 beheercentrum. <br/><br/>Zie de volgende bronnen voor meer informatie: <br/>- [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Machtigingen in het beveiligings- & compliancecentrum](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!TIP]
-> Gebruikers die de rol **Globale beheerder** hebben toegewezen in Azure Active Directory, kunnen acties in behandeling in het actiecentrum goedkeuren of weigeren. Als beste gewoonte moet uw organisatie echter het aantal personen beperken dat de rol Globale beheerder **heeft** toegewezen. We raden u **aan** de beveiligingsbeheerder,  **actieve herstelacties** en rollen zoeken en zuiveren te gebruiken die in de vorige tabel voor machtigingen van het Actiecentrum worden vermeld.
+> Gebruikers die de rol **Globale** beheerder hebben toegewezen in Azure Active Directory kunnen acties in behandeling in het actiecentrum goedkeuren of weigeren. Als beste gewoonte moet uw organisatie echter het aantal personen beperken dat de rol Globale beheerder **heeft** toegewezen. We raden u **aan** de beveiligingsbeheerder,  **actieve herstelacties** en rollen zoeken en zuiveren te gebruiken die in de vorige tabel voor machtigingen van het Actiecentrum worden vermeld.
 
 ## <a name="next-step"></a>Volgende stap 
 

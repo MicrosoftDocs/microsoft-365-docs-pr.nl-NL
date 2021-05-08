@@ -6,19 +6,20 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
+ms.topic: article
 localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.reviewer: ''
+ms.reviewer: dansimp
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 07573fd92643ce5fdf3e9140031bf5f15ae8f7aa
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 73b23427ff401f2a37c399131d6aa01330ff9de5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570337"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245298"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken evalueren
 
@@ -26,15 +27,18 @@ ms.locfileid: "51570337"
 
 
 **Van toepassing op:**
+
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
-Met de regels voor het verminderen van aanvallen kunt u voorkomen dat acties die gewoonlijk door malware worden gebruikt om apparaten of netwerken te compromitteerden. Stel regels voor het verminderen van aanvallen in voor apparaten met een van de volgende versies en versies van Windows:
+Met de regels voor het verminderen van aanvallen kunt u voorkomen dat acties die gewoonlijk door malware worden gebruikt om apparaten of netwerken te compromitteerden. Met de regels voor het verminderen van aanvallen kunt u veel van de veelgebruikte toegangspunten sluiten die door malware en ransomware worden gebruikt. 
 
-- Windows 10 Pro, [versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
-- Windows 10 Enterprise, [versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+Stel regels voor het verminderen van aanvallen in voor apparaten met een van de volgende versies en versies van Windows:
+
+- Windows 10 Pro, versie [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Enterprise, versie [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
@@ -66,7 +70,7 @@ Gebruik de volgende PowerShell-cmdlet als u alle extra regels voor het verlagen 
 
 U kunt ook configuratieserviceproviders (MDM) (Group Policy, Intune) of Mobile Device Management (MDM) gebruiken om de instelling te configureren en te implementeren. Meer informatie in het [hoofdartikel Van de surface-beperkingsregels van](attack-surface-reduction.md) Attack.
 
-## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>Gebeurtenissen voor het verminderen van aanvallen bekijken in Windows Event Viewer
+## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>Gebeurtenissen voor het verminderen van aanvallen in Windows eventviewer bekijken
 
 Als u apps wilt bekijken die zijn geblokkeerd, opent u Gebeurtenisviewer en filtert u op Gebeurtenis-id 1121 in het Microsoft-Windows-Windows Defender/Operationeel logboek. In de volgende tabel worden alle netwerkbeveiligingsgebeurtenissen vermeld.
 
@@ -85,5 +89,5 @@ Zie [Attack Surface Reduction Rules aanpassen](customize-attack-surface-reductio
 ## <a name="see-also"></a>Zie ook
 
 * [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
-* [Auditmodus gebruiken om Windows Defender te evalueren](audit-windows-defender.md)
+* [Controlemodus gebruiken om de controlemodus te Windows Defender](audit-windows-defender.md)
 * [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)

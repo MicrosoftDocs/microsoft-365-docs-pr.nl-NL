@@ -20,12 +20,12 @@ ms.custom:
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b5122984969113ec0c0533952ea3bf18bff5e5c
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 1fc811fb513935645fa596c5a9d2e3e552b50324
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592106"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245358"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -36,25 +36,7 @@ ms.locfileid: "51592106"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
- **Samenvatting:** In dit artikel wordt beschreven hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat de ontvangende e-mailsystemen uitgaande berichten vertrouwen die worden verzonden vanuit uw aangepaste domein.
-
-U dient DKIM te gebruiken naast SPF en DMARC om te voorkomen dat spoofing-oplichters berichten verzenden die er uitzien alsof deze afkomstig zijn van uw domein. Met DKIM kunt u een digitale handtekening toevoegen aan uitgaande e-mailberichten in de berichtkop. Het klinkt misschien ingewikkeld, maar dat is echt niet. Wanneer u DKIM configureert, geeft u uw domein toestemming om de domeinnaam aan een e-mailbericht te koppelen met behulp van cryptografische verificatie. Een soort handtekening van uw domein, dus. E-mailsystemen die e-mail vanaf uw domein ontvangen, kunnen deze digitale handtekening gebruiken om te bepalen of de inkomende e-mail echt is.
-
-Simpel gezegd gebruikt u een persoonlijke sleutel om de berichtkop in de uitgaande e-mail van uw domein te versleutelen. U publiceert een openbare sleutel naar de DNS-records van uw domein die vervolgens door ontvangende servers wordt gebruikt om de handtekening te decoderen. Ze gebruiken de openbare sleutel om te verifiëren dat de berichten werkelijk van u afkomstig zijn en niet afkomstig zijn van iemand die uw domein *spooft*.
-
-In Microsoft 365 wordt DKIM automatisch ingesteld voor de oorspronkelijke 'onmicrosoft.com'-domeinen. Dat betekent dat u niets hoeft te doen om DKIM in te stellen voor enige oorspronkelijke domeinnaam (bijvoorbeeld litware.onmicrosoft.com). Zie [Veelgestelde vragen over domeinen](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain) voor meer informatie over domeinen.
-
-U kunt er ook voor kiezen om niets te doen met DKIM voor uw aangepaste domein. Als u geen DKIM voor uw aangepaste domein instelt, maakt Microsoft 365 een persoonlijk en openbare sleutelpaar en wordt DKIM-ondertekening ingeschakeld. Vervolgens wordt het standaardbeleid van Microsoft 365 voor uw aangepaste domein geconfigureerd. Hoewel dit voldoende is voor de meeste klanten, moet u de DKIM voor uw aangepaste domein handmatig configureren in de volgende gevallen:
-
-- U hebt meer dan één aangepast domein in Microsoft 365
-
-- U wilt ook DMARC instellen (aanbevolen)
-
-- U wilt controle over uw persoonlijke sleutel
-
-- U wilt de CNAME-records aanpassen
-
-- U wilt DKIM-sleutels instellen voor e-mail die afkomstig is van een extern domein, bijvoorbeeld als u bulkmails via een derde verzendt.
+ In dit artikel wordt beschreven hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat de ontvangende e-mailsystemen uitgaande berichten vertrouwen die worden verzonden vanuit uw aangepaste domein.
 
 In dit artikel:
 
@@ -62,7 +44,7 @@ In dit artikel:
 
 - [Stappen om uw 1024-bits sleutels handmatig te upgraden naar 2048-bits DKIM-versleutelingssleutels](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
 
-- [Stappen die u moet uitvoeren om DKIM handmatig in te stellen](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
+- [Stappen om handmatig DKIM in te stellen](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
 
 - [Stappen om DKIM te configureren voor meer dan één aangepast domein](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
 
@@ -74,19 +56,49 @@ In dit artikel:
 
 - [Volgende stappen: nadat u DKIM hebt ingesteld voor Microsoft 365](use-dkim-to-validate-outbound-email.md#DKIMNextSteps)
 
+> [!NOTE]
+> In Microsoft 365 wordt DKIM automatisch ingesteld voor de oorspronkelijke 'onmicrosoft.com'-domeinen. Dat betekent dat u niets hoeft te doen om DKIM in te stellen voor enige oorspronkelijke domeinnaam (bijvoorbeeld litware.onmicrosoft.com). Zie [Veelgestelde vragen over domeinen](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain) voor meer informatie over domeinen.
+
+DKIM is een van de verschillende verificatiemethoden (SPF, DKIM en DMARC) die helpen voorkomen dat spoofers berichten verzenden die afkomstig lijken te zijn van uw domein.
+
+Met DKIM kunt u een digitale handtekening toevoegen aan uitgaande e-mailberichten in de berichtkop. Wanneer u DKIM configureert, geeft u uw domein toestemming om de domeinnaam aan een e-mailbericht te koppelen met behulp van cryptografische verificatie. Een soort handtekening van uw domein dus. E-mailsystemen die e-mail vanaf uw domein ontvangen, kunnen deze digitale handtekening gebruiken om te bepalen of de inkomende e-mail echt is.
+
+In de basis wordt met een persoonlijke sleutel de kop in de uitgaande e-mail van een domein versleuteld. De openbare sleutel wordt gepubliceerd naar de DNS-records van het domein die vervolgens door ontvangende servers wordt gebruikt om de handtekening te decoderen. Met DKIM-verificatie kunnen de ontvangende servers controleren of de e-mail echt afkomstig is van uw domein en niet van iemand die aan *adresvervalsing* van uw domein doet (spoofing).
+
+> [!TIP]
+>U kunt er ook voor kiezen om niets te doen met DKIM voor uw aangepaste domein. Als u geen DKIM voor uw aangepaste domein instelt, maakt Microsoft 365 een persoonlijk en openbare sleutelpaar en wordt DKIM-ondertekening ingeschakeld. Vervolgens wordt het standaardbeleid van Microsoft 365 voor uw aangepaste domein geconfigureerd.
+
+ De ingebouwde DKIM-configuratie van Microsoft 365 is voldoende voor de meeste klanten. U moet echter de DKIM voor uw aangepaste domein handmatig configureren in de volgende gevallen:
+
+- U hebt meer dan één aangepast domein in Microsoft 365
+
+- U wilt ook DMARC instellen (**aanbevolen**)
+
+- U wilt controle over uw persoonlijke sleutel
+
+- U wilt de CNAME-records aanpassen
+
+- U wilt DKIM-sleutels instellen voor e-mail die afkomstig is van een extern domein, bijvoorbeeld als u bulkmails via een derde verzendt.
+
+
 ## <a name="how-dkim-works-better-than-spf-alone-to-prevent-malicious-spoofing"></a>Hoe DKIM beter werkt dan alleen SPF om schadelijke spoofing te voorkomen
 <a name="HowDKIMWorks"> </a>
 
-Met SPF worden er gegevens aan een berichtenenvelop toegevoegd, maar met DKIM wordt een handtekening in de berichtkop daadwerkelijk versleuteld. Wanneer u een bericht doorstuurt, kunnen gedeelten van die berichtenenvelop door de doorsturende server worden verwijderd. Aangezien de digitale handtekening bij het e-mailbericht blijft, omdat deze namelijk deel uitmaakt van de e-mailberichtkop, werkt DKIM zelfs als een bericht is doorgestuurd, zoals weergegeven in het volgende voorbeeld.
+Met SPF worden er gegevens aan een berichtenenvelop toegevoegd, maar met DKIM wordt een handtekening in de berichtkop *versleuteld*. Wanneer u een bericht doorstuurt, kunnen gedeelten van die berichtenenvelop door de doorsturende server worden verwijderd. Aangezien de digitale handtekening bij het e-mailbericht blijft, omdat deze namelijk deel uitmaakt van de e-mailberichtkop, werkt DKIM zelfs als een bericht is doorgestuurd, zoals weergegeven in het volgende voorbeeld.
 
 ![Diagram met een doorgestuurde bericht waarbij de DKIM-verificatie lukt terwijl de SPF-controle mislukt](../../media/28f93b4c-97e7-4309-acc4-fd0d2e0e3377.jpg)
 
-Als u in dit voorbeeld slechts een TXT-record voor SPF had gepubliceerd voor uw domein kon de ontvangende e-mailserver uw e-mail als spam hebben gemarkeerd en een fout-positief resultaat hebben gegenereerd. Met het toevoegen van DKIM in dit scenario wordt het aantal fout-positieve spammeldingen beperkt. Omdat DKIM gebruikmaakt van de cryptografie van een openbare sleutel om te verifiëren en niet alleen van IP-adressen, wordt DKIM als een veel sterkere verificatievorm dan SPF beschouwd. Wij raden u aan om in uw implementatie SPF en DKIM te gebruiken, evenals DMARC.
+Als u in dit voorbeeld slechts een TXT-record voor SPF had gepubliceerd voor uw domein kon de ontvangende e-mailserver uw e-mail als spam hebben gemarkeerd en een fout-positief resultaat hebben gegenereerd. **Met het toevoegen van DKIM in dit scenario wordt het aantal *fout-positieve* spammeldingen beperkt.** Omdat DKIM gebruikmaakt van de cryptografie van een openbare sleutel om te verifiëren en niet alleen van IP-adressen, wordt DKIM als een veel sterkere verificatievorm dan SPF beschouwd. Wij raden u aan om in uw implementatie SPF en DKIM te gebruiken, evenals DMARC.
 
-Kortom: DKIM gebruikt een persoonlijke sleutel om een versleutelde handtekening in de berichtkoppen in te voegen. Het ondertekenende of uitgaande domein wordt in de kop ingevoegd als de waarde van het veld **d=**. Het verifiërende of ontvangende domein gebruikt vervolgens het veld **d=** om de openbare sleutel uit DNS te zoeken en het bericht te verifiëren. Als het bericht is geverifieerd, is de DKIM-controle gelukt.
+> [!TIP]
+> DKIM gebruikt een persoonlijke sleutel om een versleutelde handtekening in de berichtkoppen in te voegen. Het ondertekenende of uitgaande domein wordt in de kop ingevoegd als de waarde van het veld **d=**. Het verifiërende of ontvangende domein gebruikt vervolgens het veld **d=** om de openbare sleutel uit DNS te zoeken en het bericht te verifiëren. Als het bericht is geverifieerd, is de DKIM-controle gelukt.
+
 
 ## <a name="steps-to-manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Uw 1024-bits sleutels handmatig upgraden naar 2048-bits DKIM-versleutelingssleutels
 <a name="1024to2048DKIM"> </a>
+
+> [!NOTE]
+> In Microsoft 365 wordt DKIM automatisch ingesteld voor *onmicrosoft.com*-domeinen. Er zijn geen stappen nodig om DKIM te gebruiken voor initiële domeinnamen (zoals litware.*onmicrosoft.com*). Zie [Veelgestelde vragen over domeinen](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain) voor meer informatie over domeinen.
 
 Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt in deze instructies uitgelegd hoe je de 1024-bits sleutel upgradet naar 2048-bits in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). De onderstaande stappen zijn voor twee gebruikscases: kies de optie die het geschiktst is voor jouw configuratie.
 
@@ -117,7 +129,7 @@ Als u de tweede kiezer wilt wijzigen, kunt u kiezen uit a) de Microsoft 365-serv
 
 Zie de volgende artikelen voor gedetailleerde syntaxis- en parameterinformatie: [Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](/powershell/module/exchange/new-dkimsigningconfig) en [Get-DkimSigningConfig](/powershell/module/exchange/get-dkimsigningconfig).
 
-## <a name="steps-you-need-to-do-to-manually-set-up-dkim"></a>Stappen die u moet uitvoeren om DKIM handmatig in te stellen
+## <a name="steps-to-manually-set-up-dkim"></a>Stappen die u moet uitvoeren om DKIM handmatig in te stellen
 <a name="SetUpDKIMO365"> </a>
 
 Als u DKIM wilt configureren, voert u de volgende stappen uit:
@@ -241,7 +253,7 @@ Wacht een paar minuten voordat u deze stappen uitvoert om te bevestigen dat u de
 
 - Open het bericht en bekijk de berichtkop. De instructies voor het bekijken van berichtkop tekst kan variëren afhankelijk van uw e-mailclient. Voor instructies over het bekijken van berichtkoppen in Outlook, raadpleegt u [Internetberichtkoppen bekijken in Outlook](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c).
 
-  Het DKIM-ondertekend bericht bevat de host- en domeinnaam die u hebt gedefinieerd toen u de CNAME-gegevens publiceerde. Het bericht ziet er nu ongeveer zo uit:
+  Het DKIM-ondertekend bericht bevat de host- en domeinnaam die u hebt gedefinieerd toen u de CNAME-gegevens publiceerde. Het bericht ziet er ongeveer uit zoals dit voorbeeld:
 
   ```console
     From: Example User <example@contoso.com>

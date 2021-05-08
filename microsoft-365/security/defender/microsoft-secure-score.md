@@ -1,6 +1,6 @@
 ---
 title: Microsoft Secure Score
-description: Beschrijft Microsoft Secure Score in het Microsoft 365-beveiligingscentrum, hoe u uw beveiligingsbeleid kunt verbeteren en wat beveiligingsbeheerders kunnen verwachten.
+description: Beschrijft Microsoft Secure Score in het Microsoft 365 beveiligingscentrum, hoe u uw beveiligingsbeleid kunt verbeteren en wat beveiligingsbeheerders kunnen verwachten.
 keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, microsoft 365 security center, improvement actions
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 19b83fe7dd733bb8a0668039d4df2b692a398ad4
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 4a2c220cab15751671b9b38c3bb2fda3db12c9e1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570461"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245373"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft Secure Score is een meting van de beveiligingsstatus van een organisatie, waarbij een hoger aantal aangeeft dat er meer verbeteracties zijn uitgevoerd. Deze is te vinden https://security.microsoft.com/securescore in het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)
+Microsoft Secure Score is een meting van de beveiligingsstatus van een organisatie, waarbij een hoger aantal aangeeft dat er meer verbeteracties zijn uitgevoerd. U vindt deze in https://security.microsoft.com/securescore het Microsoft 365 [beveiligingscentrum.](overview-security-center.md)
 
-Als u de aanbevelingen voor secure score volgt, kunt u uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-beveiligingscentrum kunnen organisaties de beveiliging van hun Microsoft 365-identiteiten, apps en apparaten controleren en er aan werken.
+Als u de aanbevelingen voor secure score volgt, kunt u uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in Microsoft 365 beveiligingscentrum kunnen organisaties de beveiliging van hun Microsoft 365 identiteiten, apps en apparaten controleren en er aan werken.
 
 Secure Score helpt organisaties:  
 
@@ -44,7 +44,7 @@ Secure Score helpt organisaties:
 
 Organisaties krijgen toegang tot krachtige visualisaties van meetgegevens en trends, integratie met andere Microsoft-producten, scorevergelijking met vergelijkbare organisaties en nog veel meer. De score kan ook worden weergegeven wanneer oplossingen van derden aanbevolen acties hebben aangepakt.
 
-![Startpagina van Secure Score](../../media/secure-score/secure-score-homepage-new.png)
+![Startpagina van Secure Score](../../media/secure-score/secure-score-home-page.png)
 
 ## <a name="how-it-works"></a>Hoe het werkt
 
@@ -84,11 +84,11 @@ Momenteel zijn er aanbevelingen voor de volgende producten:
 - Cloud App Security
 - Microsoft Teams
 
-Aanbevelingen voor andere beveiligingsproducten worden binnenkort verwacht. De aanbevelingen hebben niet betrekking op alle aanvalsoppervlakken die aan elk product zijn gekoppeld, maar ze zijn wel een goede basislijn. U kunt de verbeteracties ook markeren als gedekt door een derde partij of alternatieve mitigatie.
+Aanbevelingen voor andere beveiligingsproducten zijn binnenkort beschikbaar. De aanbevelingen hebben niet betrekking op alle aanvalsoppervlakken die aan elk product zijn gekoppeld, maar ze zijn wel een goede basislijn. U kunt de verbeteracties ook markeren als gedekt door een derde partij of alternatieve mitigatie.
 
 ### <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
 
-Microsoft Secure Score heeft verbeteracties bijgewerkt ter ondersteuning van beveiligings [defaults in Azure Active Directory,](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)waarmee u uw organisatie gemakkelijker kunt beschermen met vooraf geconfigureerde beveiligingsinstellingen voor veelvoorkomende aanvallen.
+Microsoft Secure Score heeft verbeteracties bijgewerkt ter ondersteuning van beveiligingsinstellingen [in Azure Active Directory,](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)waardoor u uw organisatie gemakkelijker kunt beschermen met vooraf geconfigureerde beveiligingsinstellingen voor veelvoorkomende aanvallen.
 
 Als u beveiligings defaults in ingeschakeld, krijgt u volledige punten voor de volgende verbeteringsacties:
 
@@ -101,7 +101,7 @@ Als u beveiligings defaults in ingeschakeld, krijgt u volledige punten voor de v
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
 
-Als u toestemming wilt hebben voor toegang tot Microsoft Secure Score, moet u een van de volgende rollen in Azure Active Directory toegewezen krijgen.
+Als u toestemming wilt hebben voor toegang tot Microsoft Secure Score, moet u een van de volgende rollen in de Azure Active Directory.
 
 ### <a name="read-and-write-roles"></a>Rollen lezen en schrijven
 
@@ -122,7 +122,7 @@ Met alleen-lezen toegang kunt u de status of notities niet bewerken voor een ver
 * Servicebeheerder
 * Beveiligingslezer
 * Beveiligingsoperator
-* Algemene lezer
+* Globale lezer
 
 ## <a name="risk-awareness"></a>Risicobewustzijn
 

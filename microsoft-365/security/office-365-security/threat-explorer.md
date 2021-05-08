@@ -19,12 +19,12 @@ description: Gebruik Explorer- en realtimedetecties in het Beveiligings complian
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c6bea6cb60579263515d21e159c4032fe4281cad
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 810b5c99aa239f295fd930c1d13a6a817012b18b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52024179"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245562"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigingsverkenner en realtimedetecties
 
@@ -32,13 +32,13 @@ ms.locfileid: "52024179"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Als uw organisatie Microsoft Defender voor [Office 365](defender-for-office-365.md)heeft en u beschikt over de benodigde machtigingen, [](#required-licenses-and-permissions)beschikt u over **Explorer-** of **Realtimedetecties** (voorheen *Realtime-rapporten-* [](#new-features-in-threat-explorer-and-real-time-detections)zie wat er nieuw is !). Ga in het & Compliancecentrum naar **Bedreigingsbeheer** en kies **explorer** _of_ **realtime detecties.**
+Als uw organisatie [Microsoft Defender](defender-for-office-365.md)voor Office 365 heeft en u beschikt over de benodigde machtigingen, hebt u **Explorer** of **Realtime detecties** (voorheen *Realtime-rapporten-* zie wat er nieuw is !). [](#required-licenses-and-permissions) [](#new-features-in-threat-explorer-and-real-time-detections) Ga in het & Compliancecentrum naar **Bedreigingsbeheer** en kies **explorer** _of_ **realtime detecties.**
 
 <br>
 
 ****
 
-|Met Microsoft Defender voor Office 365 Plan 2 ziet u:|Met Microsoft Defender voor Office 365 Plan 1 ziet u:|
+|Met Microsoft Defender voor Office 365 Plan 2 ziet u:|Met Microsoft Defender voor Office 365 plan 1 ziet u:|
 |---|---|
 |![Bedreigingsverkenner](../../media/threatmgmt-explorer.png)|![Detecties in realtime](../../media/threatmgmt-realtimedetections.png)|
 |
@@ -49,9 +49,9 @@ Explorer- of realtimedetecties helpen uw beveiligingsteam om bedreigingen effici
 
 Met dit rapport kunt u het volgende doen:
 
-- [Malware zien die is gedetecteerd door beveiligingsfuncties van Microsoft 365](#see-malware-detected-in-email-by-technology)
+- [Malware zien die is gedetecteerd door Microsoft 365 beveiligingsfuncties](#see-malware-detected-in-email-by-technology)
 - [Phishing-URL weergeven en op vonnisgegevens klikken](#view-phishing-url-and-click-verdict-data)
-- [Een geautomatiseerd onderzoek- en antwoordproces starten vanuit een weergave in Explorer](#start-automated-investigation-and-response) (alleen Defender voor Office 365-abonnement 2)
+- [Een geautomatiseerd onderzoek- en antwoordproces starten vanuit een weergave in Explorer](#start-automated-investigation-and-response) (alleen Office 365 plan 2)
 - [Schadelijke e-mail onderzoeken en meer](#more-ways-to-use-explorer-and-real-time-detections)
 
 ## <a name="improvements-to-threat-hunting-experience"></a>Verbeteringen in threat hunting experience
@@ -71,7 +71,7 @@ Waarschuwings-id is beschikbaar in de URL wanneer u een afzonderlijke waarschuwi
 
 ### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>De bewaar- en zoeklimiet voor proeften tenants verlengen van 7 naar 30 dagen (Preview) voor het bewaren en zoeken van gegevens in Explorer (en realtimedetecties)
 
-Als onderdeel van deze wijziging kunt u e-mailgegevens zoeken en filteren over 30 dagen (een toename ten opzichte van de vorige 7 dagen) in Threat Explorer/Real-time detecties voor zowel Defender voor Office P1- als P2-proeften tenants.
+Als onderdeel van deze wijziging kunt u e-mailgegevens zoeken en filteren over 30 dagen (een toename ten opzichte van de afgelopen 7 dagen) in Threat Explorer/Real-time detecties voor zowel Defender voor Office P1- als P2-proeften tenants.
 Dit heeft geen invloed op productieten tenants voor zowel P1- als P2/E5-klanten, die al de mogelijkheden voor het bewaren en zoeken van 30 dagen hebben.
 
 ### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>Bijgewerkte limieten voor het exporteren van records voor Threat Explorer (Preview)
@@ -81,7 +81,7 @@ Als onderdeel van deze update wordt het aantal rijen voor e-mailrecords dat kan 
 ### <a name="tags-in-threat-explorer"></a>Tags in Threat Explorer
 
 > [!NOTE]
-> De functie gebruikerslabels is beschikbaar in *Preview,* is niet voor iedereen beschikbaar en kan worden gewijzigd. Raadpleeg de routekaart voor Microsoft 365 voor meer informatie over de releaseplanning.
+> De functie gebruikerslabels is beschikbaar in *Preview,* is niet voor iedereen beschikbaar en kan worden gewijzigd. Voor informatie over de releaseplanning raadpleegt u de Microsoft 365 routekaart.
 
 Gebruikerslabels identificeren specifieke groepen gebruikers in Microsoft Defender voor Office 365. Zie Gebruikerslabels voor meer informatie over tags, waaronder licenties en [configuratie.](user-tags.md)
 
@@ -179,23 +179,20 @@ Momenteel komen we de bezorgingslocatie boven in het e-mailraster en de e-mail f
 *Na de* bezorging van het e-mailbericht zijn aanvullende acties toegepast. Ze kunnen *ZAP,* *handmatige* herstel (actie van een beheerder zoals soft *delete),* dynamische bezorging en opwerking *bevatten* (voor een e-mail die met terugwerkende kracht als goed is gedetecteerd).
 
 > [!NOTE]
->
-> - Als onderdeel van de wijzigingen die in behandeling zijn, gaat de waarde 'Verwijderd door ZAP' die momenteel in het filter Bezorgingsactie wordt opgedoken, weg. U hebt een manier om alle e-mail te zoeken met de ZAP-poging via **Aanvullende acties.**
->
-> - Er komen nieuwe velden en waarden voor **detectietechnologieën** en **Aanvullende acties** (met name voor ZAP-scenario's). U moet uw bestaande opgeslagen query's en bijgeslagen query's evalueren om ervoor te zorgen dat ze met de nieuwe waarden werken.
+> Als onderdeel van de wijzigingen die in behandeling zijn, gaat de waarde 'Verwijderd door ZAP' die momenteel in het filter Bezorgingsactie wordt opgedoken, weg. U hebt een manier om alle e-mail te zoeken met de ZAP-poging via **Aanvullende acties.**
 
 > [!div class="mx-imgBorder"]
 > ![Extra acties in Explorer](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>Systeem overschrijven
 
-*Met systeemonderschrijven* kunt u uitzonderingen maken op de gewenste bezorgingslocatie van een bericht. U overschrijven de bezorgingslocatie die door het systeem wordt geleverd, op basis van de bedreigingen en andere detecties die zijn geïdentificeerd door de filtertack. Systeem overschrijven kan worden ingesteld via tenant- of gebruikersbeleid om het bericht te verzenden zoals wordt voorgesteld door het beleid. Bij overschrijven kunnen onbedoelde bezorging van schadelijke berichten worden vastgesteld vanwege hiaten in configuraties, zoals een te breed beleid voor veilige afzenders dat door een gebruiker is ingesteld. Deze overschrijven waarden kunnen de volgende zijn:
+*Met systeemonderschrijven* kunt u uitzonderingen maken op de gewenste bezorgingslocatie van een bericht. U overschrijven de bezorgingslocatie die door het systeem wordt geleverd, op basis van de bedreigingen en andere detecties die zijn geïdentificeerd door de filtertack. Systeem overschrijven kan worden ingesteld via tenant- of gebruikersbeleid om het bericht te verzenden zoals wordt voorgesteld door het beleid. Bij overschrijven kunnen onbedoelde bezorging van schadelijke berichten worden vastgesteld vanwege hiaten in configuraties, zoals een te breed Safe afzenderbeleid dat door een gebruiker is ingesteld. Deze overschrijven waarden kunnen de volgende zijn:
 
 - Toegestaan door gebruikersbeleid: een gebruiker maakt beleid op postvakniveau om domeinen of afzenders toe te laten.
 
 - Geblokkeerd door gebruikersbeleid: een gebruiker maakt beleid op het e-mailvakniveau om domeinen of afzenders te blokkeren.
 
-- Toegestaan door organisatiebeleid: de beveiligingsteams van de organisatie stellen beleidsregels of Exchange-regels voor e-mailstroom (ook wel transportregels genoemd) in om afzenders en domeinen toe te staan voor gebruikers in hun organisatie. Dit kan voor een set gebruikers of de hele organisatie zijn.
+- Toegestaan door organisatiebeleid: de beveiligingsteams van de organisatie stellen beleidsregels of Exchange regels voor e-mailstroom (ook wel transportregels genoemd) in om afzenders en domeinen toe te staan voor gebruikers in hun organisatie. Dit kan voor een set gebruikers of de hele organisatie zijn.
 
 - Geblokkeerd door organisatiebeleid: de beveiligingsteams van de organisatie stellen beleidsregels of e-mailstroomregels in om afzenders, domeinen, berichttalen of bron-IPs te blokkeren voor gebruikers in hun organisatie. Dit kan worden toegepast op een set gebruikers of de hele organisatie.
 
@@ -285,9 +282,9 @@ U kunt de lijst met doelgebruikers exporteren, tot een limiet van 3.000, samen m
 > [!div class="mx-imgBorder"]
 > ![Best getargete gebruikers](../../media/Top_Targeted_Users.png)
 
-### <a name="exchange-transport-rules"></a>Exchange-transportregels
+### <a name="exchange-transport-rules"></a>Exchange transportregels
 
-Als onderdeel van gegevensverrijking kunt u alle verschillende Exchange-transportregels (ETR) zien die zijn toegepast op een bericht. Deze informatie is beschikbaar in de weergave E-mailraster. Als u deze wilt weergeven, **selecteert u Kolomopties** in het raster en voegt **u exchange-transportregel toe** vanuit de kolomopties. Deze is ook zichtbaar op de flyout **Details** in de e-mail.
+Als onderdeel van gegevensverrijking kunt u alle verschillende Exchange transportregels (ETR) zien die zijn toegepast op een bericht. Deze informatie is beschikbaar in de weergave E-mailraster. Als u deze wilt weergeven, **selecteert u Kolomopties** in het raster en Exchange **Transportregel toevoegen** vanuit de kolomopties. Deze is ook zichtbaar op de flyout **Details** in de e-mail.
 
 U kunt zowel de GUID als de naam zien van de transportregels die op het bericht zijn toegepast. U kunt de berichten zoeken met de naam van de transportregel. Dit is een zoekopdracht 'Bevat', wat betekent dat u ook gedeeltelijke zoekopdrachten kunt doen.
 
@@ -296,7 +293,7 @@ U kunt zowel de GUID als de naam zien van de transportregels die op het bericht 
 >
 > - ALLEEN EXO - Preventie van gegevensverlies: alles
 > - ALLEEN EXO - O365SupportViewConfig: Alles
-> - Microsoft Azure Active Directory of EXO - Beveiligingsbeheerder: alles
+> - Microsoft Azure Active Directory of EXO - Beveiligingsbeheerder: Alles
 > - AAD of EXO - Beveiligingslezer: Alles
 > - ALLEEN EXO - Transportregels: Alles
 > - ALLEEN EXO - View-Only Configuratie: Alles
@@ -304,11 +301,11 @@ U kunt zowel de GUID als de naam zien van de transportregels die op het bericht 
 > In het e-mailraster, de flyout Details en de geëxporteerde CSV worden de ETR's weergegeven met een Naam/GUID zoals hieronder wordt weergegeven.
 >
 > > [!div class="mx-imgBorder"]
-> > ![Exchange-transportregels](../../media/ETR_Details.png)
+> > ![Exchange Transportregels](../../media/ETR_Details.png)
 
 ### <a name="inbound-connectors"></a>Binnenkomende verbindingslijnen
 
-Connectors zijn een verzameling instructies die aanpassen hoe uw e-mail van en naar uw Microsoft 365- of Office 365-organisatie loopt. Hiermee kunt u beveiligingsbeperkingen of besturingselementen toepassen. In Threat Explorer kunt u nu de verbindingslijnen weergeven die zijn gerelateerd aan een e-mail en e-mailberichten zoeken met behulp van connectornamen.
+Connectors zijn een verzameling instructies die aanpassen hoe uw e-mail van en naar uw Microsoft 365 of Office 365 organisatie loopt. Hiermee kunt u beveiligingsbeperkingen of besturingselementen toepassen. In Threat Explorer kunt u nu de verbindingslijnen weergeven die zijn gerelateerd aan een e-mail en e-mailberichten zoeken met behulp van connectornamen.
 
 Het zoeken naar verbindingslijnen is 'bevat' in de natuur, wat betekent dat gedeeltelijke trefwoordzoektermen ook moeten werken. In de hoofdrasterweergave, de flyout Details en de geëxporteerde CSV worden de verbindingslijnen weergegeven in de indeling Naam/GUID, zoals hier wordt weergegeven:
 
@@ -375,7 +372,7 @@ Hoe wordt dit gedaan? De bezorgingsstatus is nu onderverdeeld in twee kolommen:
 
 |Geleverd|Ongewenste e-mail|Geblokkeerd|Vervangen|
 |---|---|---|---|
-|E-mail is bezorgd in het Postvak IN of de map van een gebruiker en de gebruiker heeft er toegang toe.|E-mail is verzonden naar de map Ongewenste e-mail of Verwijderd van de gebruiker en de gebruiker heeft toegang tot de map.|E-mailberichten die in quarantaine zijn geplaatst, die zijn mislukt of die zijn gedropt. Deze e-mails zijn niet toegankelijk voor de gebruiker.|In e-mail zijn schadelijke bijlagen vervangen door .txt-bestanden waarin staat dat de bijlage schadelijk was.|
+|E-mail is bezorgd in het Postvak IN of de map van een gebruiker en de gebruiker heeft er toegang toe.|E-mail is verzonden naar de map Ongewenste e-mail of Verwijderd van de gebruiker en de gebruiker heeft toegang tot de map.|E-mailberichten die in quarantaine zijn geplaatst, die zijn mislukt of die zijn gedropt. Deze e-mails zijn niet toegankelijk voor de gebruiker.|E-mail heeft schadelijke bijlagen vervangen door .txt bestanden waarin staat dat de bijlage schadelijk was.|
 |
 
 Dit is wat de gebruiker wel en niet kan zien:
@@ -404,15 +401,15 @@ Dit is wat de gebruiker wel en niet kan zien:
 
 De **e-mailtijdlijn** is een nieuwe Explorer-functie die de zoekervaring voor beheerders verbetert. Er wordt minder tijd besteed aan het controleren van verschillende locaties om te proberen de gebeurtenis te begrijpen. Wanneer er meerdere gebeurtenissen plaatsvinden op of dicht bij hetzelfde tijdstip waarop een e-mailbericht binnenkomt, worden deze gebeurtenissen weergegeven in een tijdlijnweergave. Sommige gebeurtenissen die gebeuren met uw e-mail na de bezorging, worden vastgelegd in de **kolom Speciale** actie. Beheerders kunnen gegevens uit de tijdlijn combineren met de speciale actie die is ondernomen voor de postbezorging van e-mail om inzicht te krijgen in hoe hun beleid werkt, waar de e-mail uiteindelijk is gerouteerd en, in sommige gevallen, wat de uiteindelijke beoordeling was.
 
-Zie Schadelijke e-mail onderzoeken en herstellen die [is bezorgd in Office 365](investigate-malicious-email-that-was-delivered.md)voor meer informatie.
+Zie Schadelijke e-mail onderzoeken en herstellen die is bezorgd [in](investigate-malicious-email-that-was-delivered.md)Office 365.
 
 ### <a name="export-url-click-data"></a>URL exporteren klik op gegevens
 
-U kunt nu rapporten voor URL-klikken exporteren naar Microsoft Excel om hun netwerkbericht-id weer te geven en op **vonnis** te klikken, waarmee wordt uitgelegd waar uw URL op verkeer is geklikt.  Dit werkt als volgt: Volg deze ketting in Threat Management op de werkbalk Snelstarten van Office 365:
+U kunt nu rapporten exporteren voor URL-klikken  naar Microsoft Excel om hun netwerkbericht-id weer te geven en op vonnis te **klikken,** waarmee wordt uitgelegd waar uw URL op verkeer is geklikt. Dit werkt als volgt: Volg in Threat Management op de Office 365 snelstartbalk de volgende ketting:
 
 **Explorer** \> **Phish weergeven** \> **Klikken** \> **Bovenste URL's** of **URL-klikken selecteert** \> u een record om de URL-flyout te openen.
 
-Wanneer u een URL in de lijst selecteert, ziet u een nieuwe **knop Exporteren** in het fly-outvenster. Gebruik deze knop om gegevens naar een Excel-spreadsheet te verplaatsen voor eenvoudigere rapportage.
+Wanneer u een URL in de lijst selecteert, ziet u een nieuwe **knop Exporteren** in het fly-outvenster. Gebruik deze knop om gegevens te verplaatsen naar een Excel spreadsheet voor eenvoudigere rapportage.
 
 Volg dit pad om naar dezelfde locatie te gaan in het rapport Realtimedetecties:
 
@@ -426,7 +423,7 @@ Volg dit pad om naar dezelfde locatie te gaan in het rapport Realtimedetecties:
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Malware die is gedetecteerd in e-mail door technologie bekijken
 
-Stel dat u malware wilt zien gedetecteerd in e-mail gesorteerd op Microsoft 365-technologie. Gebruik hiervoor de weergave [E-> Malware](threat-explorer-views.md#email--malware) van Explorer (of Realtime detecties).
+Stel dat u malware wilt zien gedetecteerd in e-mail die is gesorteerd op Microsoft 365 technologie. Gebruik hiervoor de weergave [E-> Malware](threat-explorer-views.md#email--malware) van Explorer (of Realtime detecties).
 
 1. Kies in & Beveiligingscentrum <https://protection.office.com> () **de** optie Threat Management \> **Explorer** (of **Realtime detecties).** (In dit voorbeeld wordt Verkenner gebruikt.)
 
@@ -451,7 +448,7 @@ Het rapport wordt vernieuwd om de resultaten weer te geven die malware heeft ged
 
 ## <a name="view-phishing-url-and-click-verdict-data"></a>Phishing-URL weergeven en op vonnisgegevens klikken
 
-Stel dat u phishingpogingen via URL's in e-mail wilt zien, inclusief een lijst met URL's die zijn toegestaan, geblokkeerd en overschrijven. Als u URL's wilt identificeren waar op is geklikt, [moeten](safe-links.md) veilige koppelingen zijn geconfigureerd. Zorg ervoor dat u beleidsregels voor [veilige koppelingen](set-up-safe-links-policies.md) in te stellen voor time-of-click beveiliging en logboekregistratie van klik-vonnissen door Veilige koppelingen.
+Stel dat u phishingpogingen via URL's in e-mail wilt zien, inclusief een lijst met URL's die zijn toegestaan, geblokkeerd en overschrijven. Als u URL's wilt identificeren waar op is geklikt, [Safe koppelingen](safe-links.md) moeten worden geconfigureerd. Zorg ervoor dat u het beleid Safe [koppelingen](set-up-safe-links-policies.md) in te stellen voor time-of-click beveiliging en logboekregistratie van klik-uitspraken door Safe koppelingen.
 
 Als u phish-URL's in berichten wilt bekijken en op URL's in phish-berichten wilt klikken, gebruikt u de weergave [ **E-mail**  >  **phish**](threat-explorer-views.md#email--phish) van Explorer of realtime detecties.
 
@@ -473,7 +470,7 @@ Als u phish-URL's in berichten wilt bekijken en op URL's in phish-berichten wilt
 
    - **Top-URL's** zijn de URL's in de berichten die u hebt gefilterd en de actie voor e-mailbezorging telt voor elke URL. In de phish-e-mailweergave bevat deze lijst meestal legitieme URL's. Aanvallers bevatten een combinatie van goede en slechte URL's in hun berichten om te proberen ze bezorgd te krijgen, maar ze maken de schadelijke koppelingen interessanter. De tabel met URL's wordt gesorteerd op totaal aantal e-mail, maar deze kolom is verborgen om de weergave te vereenvoudigen.
 
-   - **De bovenste klikken** zijn de URL's met veilige koppelingen die zijn geklikt, gesorteerd op het totale aantal klikken. Deze kolom wordt ook niet weergegeven, om de weergave te vereenvoudigen. Het totaal aantal tellingen per kolom geeft aan dat het aantal veilige koppelingen klikken op vonnissen voor elke geklikte URL. In de phish-e-mailweergave zijn dit meestal verdachte of schadelijke URL's. Maar de weergave kan URL's bevatten die geen bedreigingen zijn, maar in phish-berichten staan. URL-klikken op niet-uitpakte koppelingen worden hier niet weergegeven.
+   - **De bovenste klikken** zijn de Safe url's met koppelingen die zijn geklikt, gesorteerd op het totale aantal klikken. Deze kolom wordt ook niet weergegeven, om de weergave te vereenvoudigen. Het totaal aantal per kolom geeft aan Safe aantal klikken op vonnissen voor elke geklikte URL. In de phish-e-mailweergave zijn dit meestal verdachte of schadelijke URL's. Maar de weergave kan URL's bevatten die geen bedreigingen zijn, maar in phish-berichten staan. URL-klikken op niet-uitpakte koppelingen worden hier niet weergegeven.
 
    De twee URL-tabellen bevatten de beste URL's in phishing-e-mailberichten op bezorgingsactie en locatie. In de tabellen worden URL-klikken weergegeven die ondanks een waarschuwing zijn geblokkeerd of bezocht, zodat u kunt zien welke mogelijke slechte koppelingen aan gebruikers zijn gepresenteerd en waar de gebruiker op heeft geklikt. Hier kunt u verdere analyse uitvoeren. Onder de grafiek ziet u bijvoorbeeld de bovenste URL's in e-mailberichten die zijn geblokkeerd in de omgeving van uw organisatie.
 
@@ -516,12 +513,12 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie hebben ger
    > [!div class="mx-imgBorder"]
    > ![Door de gebruiker gerapporteerde phish](../../media/EmailUserReportedReportType.png)
 
-Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die personen in uw organisatie hebben gerapporteerd als een phishingpoging. U kunt deze informatie gebruiken om verdere analyse uit te voeren en zo nodig uw anti-phishingbeleid aan te passen [in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md)
+Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die personen in uw organisatie hebben gerapporteerd als een phishingpoging. U kunt deze informatie gebruiken om verdere analyse uit te voeren en zo nodig uw [anti-phishingbeleid in Microsoft Defender](configure-atp-anti-phishing-policies.md)aan te passen voor Office 365.
 
 ## <a name="start-automated-investigation-and-response"></a>Geautomatiseerde onderzoeken en antwoorden starten
 
 > [!NOTE]
-> Geautomatiseerde onderzoeks- en antwoordmogelijkheden zijn beschikbaar in *Microsoft Defender voor Office 365 Abonnement 2* en Office *365 E5.*
+> Geautomatiseerde onderzoeks- en antwoordmogelijkheden zijn beschikbaar in *Microsoft Defender voor Office 365 Plan 2* en Office 365 *E5.*
 
 [Geautomatiseerde onderzoeken en antwoorden kunnen](automated-investigation-response-office.md) uw teamtijd en inspanning voor beveiligingsactiviteiten besparen bij het onderzoeken en verminderen van cyberaanvallen. Naast het configureren van waarschuwingen die een beveiligingss playbook kunnen activeren, kunt u een geautomatiseerd onderzoek en antwoordproces starten vanuit een weergave in Explorer. Zie Voorbeeld: Een beveiligingsbeheerder activeert een onderzoek [vanuit Verkenner voor meer informatie.](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
 
@@ -537,21 +534,21 @@ Naast de scenario's die in dit artikel worden beschreven, zijn er nog veel meer 
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 
-U moet [Microsoft Defender voor Office 365](defender-for-office-365.md) hebben om Explorer- of realtimedetecties te kunnen gebruiken.
+U moet [Microsoft Defender hebben om Office 365](defender-for-office-365.md) explorer of realtime detecties te kunnen gebruiken.
 
-- Explorer is opgenomen in Defender voor Office 365-abonnement 2.
-- Het realtimedetectierapport is opgenomen in Defender voor Office 365-abonnement 1.
-- Plan het toewijzen van licenties voor alle gebruikers die moeten worden beveiligd door Defender voor Office 365. Explorer- en realtimedetecties tonen detectiegegevens voor gelicentieerde gebruikers.
+- Explorer is opgenomen in Defender voor Office 365 Plan 2.
+- Het realtimedetectierapport is opgenomen in Defender voor Office 365 Plan 1.
+- Plan om licenties toe te wijzen voor alle gebruikers die moeten worden beveiligd door Defender voor Office 365. Explorer- en realtimedetecties tonen detectiegegevens voor gelicentieerde gebruikers.
 
 Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u over de juiste machtigingen zijn, zoals machtigingen die zijn verleend aan een beveiligingsbeheerder of beveiligingslezer.
 
 - Voor het beveiligings- & compliancecentrum moet u een van de volgende rollen hebben toegewezen:
 
   - Organisatiebeheer
-  - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory-beheercentrum ( <https://aad.portal.azure.com> )
+  - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory beheercentrum ( <https://aad.portal.azure.com> )
   - Beveiligingslezer
 
-- Voor Exchange Online moet u een van de volgende rollen hebben toegewezen in het Exchange-beheercentrum () of <https://admin.protection.outlook.com/ecp/> [Exchange Online PowerShell:](/powershell/exchange/exchange-online-powershell)
+- Voor Exchange Online moet u een van de volgende rollen hebben toegewezen in het Exchange beheercentrum () of <https://admin.protection.outlook.com/ecp/> [Exchange Online PowerShell:](/powershell/exchange/exchange-online-powershell)
 
   - Organisatiebeheer
   - View-Only Organisatiebeheer
@@ -565,10 +562,10 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>Verschillen tussen Threat Explorer en Realtime detecties
 
-- Het *realtimedetectierapport* is beschikbaar in Defender voor Office 365-abonnement 1. *Threat Explorer* is beschikbaar in Defender voor Office 365 Plan 2.
+- Het *realtimedetectierapport* is beschikbaar in Defender voor Office 365 plan 1. *Threat Explorer* is beschikbaar in Defender voor Office 365 Plan 2.
 - Met het rapport Realtimedetecties kunt u detecties in realtime bekijken. Threat Explorer doet dit ook, maar biedt ook extra details voor een bepaalde aanval.
 - Een *weergave Alle e-mail* is beschikbaar in Threat Explorer, maar niet in het rapport Realtimedetecties.
-- Meer filtermogelijkheden en beschikbare acties zijn opgenomen in Threat Explorer. Zie Microsoft Defender for [Office 365 Service Description: Feature availability across Defender for Office 365 plans (Beschikbaarheid van functies in Defender voor Office 365-abonnementen)](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)voor meer informatie.
+- Meer filtermogelijkheden en beschikbare acties zijn opgenomen in Threat Explorer. Zie Microsoft Defender for [Office 365 Service Description: Feature availability across Defender for Office 365 plans voor meer informatie.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
 
 ## <a name="other-articles"></a>Andere artikelen
 

@@ -3,7 +3,7 @@ title: Office 365-URL's en IP-adresbereiken
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/01/2021
+ms.date: 04/29/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: 'Overzicht: Office 365 vereist verbinding met internet. De volgende eindpunten moeten bereikbaar zijn voor klanten die gebruikmaken van Office 365-abonnementen, waaronder Government Community Cloud (GCC).'
 hideEdit: true
-ms.openlocfilehash: b4b256e9138f89cd9d44182a08dd22050b17f7c2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 14f4b4097e905c7d63bde472a6a39d4ba59ae184
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581104"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245754"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365-URL's en IP-adresbereiken
 
@@ -39,7 +39,7 @@ Office 365 vereist verbinding met internet. De volgende eindpunten moeten bereik
 
 ||||
 |:-----|:-----|:-----|
-|**Laatst bijgewerkt:** 03-01-2021 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Abonnement op wijzigingenlogboek](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Downloaden:** alle vereiste en optionele bestemmingen in één lijst in [JSON-indeling](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> | **Gebruik:** onze proxy-[PAC-bestanden](managing-office-365-endpoints.md#pacfiles) <br/> |
+|**Laatst bijgewerkt:** 29-04-2021 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Abonnement op wijzigingenlogboek](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Downloaden:** alle vereiste en optionele bestemmingen in één lijst in [JSON-indeling](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> | **Gebruik:** onze proxy-[PAC-bestanden](managing-office-365-endpoints.md#pacfiles) <br/> |
 
  Begin met [Het beheren van Office 365-eindpunten](managing-office-365-endpoints.md) om onze aanbevelingen voor het beheren van netwerkverbindingen met deze gegevens te begrijpen. Eindpuntgegevens worden aan het begin van elke maand bijgewerkt zoals vereist met nieuwe IP-adressen en URL's die worden gepubliceerd 30 dagen voordat ze actief worden. Dit maakt het voor klanten die nog geen geautomatiseerde updates hebben mogelijk om hun processen te voltooien voordat er een nieuwe verbinding is vereist. Eindpuntgegevens kunnen ook gedurende de maand worden bijgewerkt indien nodig om escalaties van ondersteuningen, beveiligingsincidenten of andere directe operationele vereisten aan te pakken. De gegevens die op deze pagina worden weergegeven, zijn allemaal gegenereerd op basis van de REST-webservice. Als u gebruikmaakt van een script of netwerkapparaat voor toegang tot deze gegevens, gaat u rechtstreeks naar de [Webservice](microsoft-365-ip-web-service.md).
 
@@ -66,7 +66,7 @@ De getoonde gegevenskolommen zijn:
 >
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-[Extra eindpunten die niet zijn opgenomen in de Office 365 IP-adres- en URL-webservice](https://docs.microsoft.com/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide)
+[Extra eindpunten die niet zijn opgenomen in de Office 365 IP-adres- en URL-webservice](additional-office365-ip-addresses-and-urls.md)
 
 [Office 365-eindpunten beheren](managing-office-365-endpoints.md)
 

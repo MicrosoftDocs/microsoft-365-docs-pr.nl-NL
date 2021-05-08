@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: cf41dda4ff61137d6b60b2fc735227f15418477e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3ca429ca1fea125450fdbb8d1f3a0e3a745513d8
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935591"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245694"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>Veelgestelde vragen over surface reduction attack
 
@@ -32,15 +32,15 @@ ms.locfileid: "51935591"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-## <a name="is-attack-surface-reduction-asr-part-of-windows"></a>Maakt attack surface reduction (ASR) deel uit van Windows?
+## <a name="is-attack-surface-reduction-asr-part-of-windows"></a>Is aanvalsoppervlakverkorting (ASR) onderdeel van Windows?
 
-ASR was oorspronkelijk een functie van de suite met exploit guard-functies die werden geïntroduceerd als een belangrijke update voor Microsoft Defender Antivirus, in Windows 10, versie 1709. Microsoft Defender Antivirus is het oorspronkelijke antimalwareonderdeel van Windows. De volledige ASR-functieset is echter alleen beschikbaar met een Windows Enterprise-licentie. Houd er ook rekening mee dat uitsluitingen van ASR-regels afzonderlijk worden beheerd van Microsoft Defender Antivirus-uitsluitingen.
+ASR was oorspronkelijk een functie van de suite met exploit guard-functies die werd geïntroduceerd als een belangrijke update voor Microsoft Defender Antivirus, in Windows 10, versie 1709. Microsoft Defender Antivirus is het oorspronkelijke antimalwareonderdeel van Windows. De volledige ASR-functieset is echter alleen beschikbaar met een Windows enterprise-licentie. Houd er ook rekening mee dat asr-regeluitsluitingen afzonderlijk worden beheerd van Microsoft Defender Antivirus uitsluitingen.
 
 ## <a name="do-i-need-to-have-an-enterprise-license-to-run-asr-rules"></a>Moet ik een ondernemingslicentie hebben om ASR-regels uit te voeren?
 
-De volledige set ASR-regels en -functies wordt alleen ondersteund als u een ondernemingslicentie voor Windows 10 hebt. Een beperkt aantal regels kan werken zonder een ondernemingslicentie. Als u Microsoft 365 Business hebt, stelt u Microsoft Defender Antivirus in als uw primaire beveiligingsoplossing en schakel u de regels in via PowerShell. Het gebruik van ASR zonder een ondernemingslicentie wordt niet officieel ondersteund en u kunt niet de volledige mogelijkheden van ASR gebruiken.
+De volledige set ASR-regels en -functies wordt alleen ondersteund als u een ondernemingslicentie voor Windows 10. Een beperkt aantal regels kan werken zonder een ondernemingslicentie. Als u een Microsoft 365 Business, stelt u Microsoft Defender Antivirus als uw primaire beveiligingsoplossing in en schakel u de regels in via PowerShell. Het gebruik van ASR zonder een ondernemingslicentie wordt niet officieel ondersteund en u kunt niet de volledige mogelijkheden van ASR gebruiken.
 
-Zie Windows [10 Licensing](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) voor meer informatie over Windows-licenties en de [handleiding Volumelicenties voor Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
+Zie Licenties Windows licenties voor meer [Windows 10 Windows](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) en ontvang de handleiding [Volumelicenties voor Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
 
 ## <a name="is-asr-supported-if-i-have-an-e3-license"></a>Wordt ASR ondersteund als ik een E3-licentie heb?
 
@@ -74,17 +74,15 @@ Let op de volgende items over uitsluitingen van ASR-regels (inclusief jokerteken
 - Uitsluitingen van ASR-regels zijn onafhankelijk van Av-uitsluitingen van Defender
 - Jokertekens kunnen niet worden gebruikt om een station letter te definiëren
 - Als u meerdere mappen wilt uitsluiten, gebruikt u in een pad meerdere exemplaren van \ om meerdere geneste mappen aan te geven \* (bijvoorbeeld c:\Map \* \* \Test)
-- Microsoft Endpoint Configuration Manager *biedt geen ondersteuning* voor jokertekens (* of ?)
-- Als u een bestand wilt uitsluiten dat willekeurige tekens bevat (geautomatiseerde bestandsgeneratie), kunt u het symbool '?' gebruiken (bijvoorbeeld C:\Map\fileversion?. docx)
+- Microsoft Endpoint Configuration Manager biedt *geen ondersteuning* voor jokertekens (* of ?)
+- Als u een bestand met willekeurige tekens (geautomatiseerde bestandsgeneratie) wilt uitsluiten, kunt u het symbool '?' gebruiken (bijvoorbeeld C:\Map\fileversion?.docx)
 - ASR-uitsluitingen in groepsbeleid bieden geen ondersteuning voor aanhalingstekens (de engine verwerkt inheems lange pad, spaties, enzovoort, dus u hoeft geen aanhalingstekens te gebruiken)
 - ASR-regels worden uitgevoerd onder NT AUTHORITY\SYSTEM-account, dus omgevingsvariabelen zijn beperkt tot machinevariabelen.
-
-
 
 ## <a name="how-do-i-know-what-i-need-to-exclude"></a>Hoe weet ik wat ik moet uitsluiten?
 Verschillende ASR-regels hebben verschillende beveiligingsstromen. Denk altijd na over wat de ASR-regel die u configureert, beschermt en hoe de feitelijke uitvoeringsstroom wordt uitgevoerd.
 
-Voorbeeld:  Het blokkeren van referenties van het windows-subsysteem Local Security Authority Reading directly from Local Security Authority Subsystem (LSASS) kan een beveiligingsrisico zijn, omdat het bedrijfsreferenties kan onthullen.
+Voorbeeld: Het blokkeren van referenties stelen van het **subsysteem Windows** lokale beveiligingsinstantie Lezen rechtstreeks vanuit het LSASS-proces (Local Security Authority Subsystem) kan een beveiligingsrisico zijn, omdat het bedrijfsreferenties kan onthullen.
 
 Met deze regel voorkomt u dat niet-vertrouwde processen directe toegang hebben tot LSASS-geheugen. Wanneer een proces de functie OpenProcess() probeert te gebruiken voor toegang tot LSASS, met een toegangsrecht van PROCESS_VM_READ, wordt deze toegangsrecht specifiek geblokkeerd door de regel.
 
@@ -96,24 +94,24 @@ Als u in het bovenstaande voorbeeld een uitzondering moet maken voor het proces 
 
 ## <a name="what-are-the-rules-microsoft-recommends-enabling"></a>Wat zijn de regels die Microsoft aanbeveelt in te stellen?
 
-Het is raadzaam om elke mogelijke regel in te stellen. Er zijn echter enkele gevallen waarin u een regel niet moet inschakelen. Het is bijvoorbeeld niet raadzaam om de regel Blokkeringsprocescreaties die afkomstig zijn van de opdrachtregel PSExec en WMI in te stellen, als u Microsoft Endpoint Configuration Manager (of System Center Configuration Manager - SCCM) gebruikt om uw eindpunten te beheren.
+Het is raadzaam om elke mogelijke regel in te stellen. Er zijn echter enkele gevallen waarin u een regel niet moet inschakelen. Het is bijvoorbeeld niet raadzaam om de opdrachtregel Procescreaties blokkeren van PSExec en WMI in te stellen als u Microsoft Endpoint Configuration Manager (of, System Center Configuration Manager - SCCM) gebruikt om uw eindpunten te beheren.
 
 We raden u ten zeerste aan elke regelspecifieke informatie en/of waarschuwingen te lezen, die beschikbaar zijn in onze [openbare documentatie.](/microsoft-365/security/defender-endpoint/attack-surface-reduction.md)
-verspreid over meerdere beschermingspilaren, zoals Office, Referenties, Scripts, E-mail, enzovoort. Alle ASR-regels, behalve Blokkering via WMI-gebeurtenisabonnement, worden ondersteund in Windows 1709 en hoger:
+over meerdere beschermingspilaren, zoals Office, Referenties, Scripts, E-mail, enzovoort. Alle ASR-regels, behalve blokkering via WMI-gebeurtenisabonnement, worden ondersteund op Windows 1709 en hoger:
 
 * [Uitvoerbare inhoud van e-mailclient en webmail blokkeren](attack-surface-reduction.md#block-executable-content-from-email-client-and-webmail)
-* [Alle Office-toepassingen blokkeren om onderliggende processen te maken](attack-surface-reduction.md#block-all-office-applications-from-creating-child-processes)
-* [Voorkomen dat Office-toepassingen uitvoerbare inhoud maken](attack-surface-reduction.md#block-office-applications-from-creating-executable-content)
-* [Office-toepassingen blokkeren om code in andere processen te injecteren](attack-surface-reduction.md#block-office-applications-from-injecting-code-into-other-processes)
+* [Alle toepassingen Office voor het maken van onderliggende processen blokkeren](attack-surface-reduction.md#block-all-office-applications-from-creating-child-processes)
+* [Voorkomen Office het maken van uitvoerbare inhoud](attack-surface-reduction.md#block-office-applications-from-creating-executable-content)
+* [Het Office blokkeren om code in andere processen te injecteren](attack-surface-reduction.md#block-office-applications-from-injecting-code-into-other-processes)
 * [JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten](attack-surface-reduction.md#block-javascript-or-vbscript-from-launching-downloaded-executable-content)
 * [De uitvoering van mogelijk obfuscated scripts blokkeren](attack-surface-reduction.md#block-execution-of-potentially-obfuscated-scripts)
-* [Win32 API-oproepen blokkeren vanuit Office-macro](attack-surface-reduction.md#block-win32-api-calls-from-office-macros)
+* [Win32 API-oproepen blokkeren vanuit Office macro](attack-surface-reduction.md#block-win32-api-calls-from-office-macros)
 * [Geavanceerde beveiliging tegen ransomware gebruiken](attack-surface-reduction.md#use-advanced-protection-against-ransomware)
-* [Het stelen van referenties blokkeren van het subsysteem](attack-surface-reduction.md#block-credential-stealing-from-the-windows-local-security-authority-subsystem) van de lokale beveiligingsinstantie van Windows (lsass.exe)
+* Referenties van het subsysteem van de Windows van de lokale [beveiligingsinstantie](attack-surface-reduction.md#block-credential-stealing-from-the-windows-local-security-authority-subsystem) blokkeren (lsass.exe)
 * [Procescreaties blokkeren die afkomstig zijn van PSExec- en WMI-opdrachten](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)
 * [Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd via USB](attack-surface-reduction.md#block-untrusted-and-unsigned-processes-that-run-from-usb)
 * [Het uitvoeren van uitvoerbare bestanden blokkeren, tenzij ze voldoen aan een criteria voor gebruik, leeftijd of vertrouwde lijst](attack-surface-reduction.md#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)
-* [Office-communicatietoepassingen blokkeren om onderliggende processen te maken](attack-surface-reduction.md#block-office-communication-application-from-creating-child-processes)
+* [Het Office communicatietoepassingen blokkeren om onderliggende processen te maken](attack-surface-reduction.md#block-office-communication-application-from-creating-child-processes)
 * [Adobe Reader blokkeren om onderliggende processen te maken](attack-surface-reduction.md#block-adobe-reader-from-creating-child-processes)
 * [Persistentie blokkeren via WMI-gebeurtenisabonnement](attack-surface-reduction.md#block-persistence-through-wmi-event-subscription)
 
@@ -141,7 +139,7 @@ Ja. Zie Bestanden en mappen uitsluiten van [ASR-regels](enable-attack-surface-re
 
 ## <a name="do-asr-rules-cover-all-applications-by-default"></a>Gelden ASR-regels standaard voor alle toepassingen?
 
-Dit hangt af van de regel. De meeste ASR-regels hebben betrekking op het gedrag van Microsoft Office-producten en -services, zoals Word, Excel, PowerPoint en OneNote of Outlook. Bepaalde ASR-regels, zoals Blokuitvoering van mogelijk *obfuscated scripts,* zijn algemener van omvang.
+Dit hangt af van de regel. De meeste ASR-regels hebben betrekking op het gedrag van Microsoft Office producten en services, zoals Word, Excel, PowerPoint en OneNote of Outlook. Bepaalde ASR-regels, zoals Blokuitvoering van mogelijk *obfuscated scripts,* zijn algemener van omvang.
 
 ## <a name="does-asr-support-third-party-security-solutions"></a>Ondersteunt ASR beveiligingsoplossingen van derden?
 
@@ -151,11 +149,11 @@ ASR gebruikt Microsoft Defender Antivirus om toepassingen te blokkeren. Het is n
 
 Wanneer een melding lokaal wordt geactiveerd door een ASR-regel, wordt er ook een rapport over de gebeurtenis verzonden naar de Defender for Endpoint-portal. Als u problemen hebt met het vinden van de gebeurtenis, kunt u de tijdlijn voor gebeurtenissen filteren met behulp van het zoekvak. U kunt ASR-gebeurtenissen ook bekijken door naar Ga naar **surfacebeheer** aanvallen te gaan, vanuit het pictogram **Configuratiebeheer** op de taakbalk van het beveiligingscentrum. De pagina Aanvalsoppervlakbeheer bevat een tabblad voor rapportdetecties, met een volledige lijst met ASR-regelgebeurtenissen die zijn gerapporteerd aan Defender voor Eindpunt.
 
-## <a name="i-applied-a-rule-using-gpo-now-when-i-try-to-check-the-indexing-options-for-the-rule-in-microsoft-outlook-i-get-a-message-stating-access-denied"></a>Ik heb een regel toegepast met GPO. Als ik nu de indexeringsopties voor de regel in Microsoft Outlook probeer te controleren, krijg ik een bericht met de tekst 'Toegang geweigerd'.
+## <a name="i-applied-a-rule-using-gpo-now-when-i-try-to-check-the-indexing-options-for-the-rule-in-microsoft-outlook-i-get-a-message-stating-access-denied"></a>Ik heb een regel toegepast met GPO. Wanneer ik nu de indexeringsopties voor de regel in Microsoft Outlook, krijg ik een bericht met de tekst 'Toegang geweigerd'.
 
 Open de indexeringsopties rechtstreeks vanuit Windows 10.
 
-1. Selecteer het **pictogram Zoeken** op de Windows-taakbalk.
+1. Selecteer het **pictogram** Zoeken op de Windows taakbalk.
 
 1. Voer **indexeringsopties** in het zoekvak in.
 
@@ -175,7 +173,7 @@ Een melding die door deze regel wordt gegenereerd, geeft niet noodzakelijkerwijs
 
 Omdat veel legitieme processen gedurende een normale dag een beroep doen op lsass.exe referenties, kan deze regel vooral luidruchtig zijn. Als een bekende legitieme toepassing ervoor zorgt dat deze regel een te groot aantal meldingen genereert, kunt u deze toevoegen aan de uitsluitingslijst. De meeste andere ASR-regels genereren een relatief kleiner aantal meldingen, in vergelijking met deze, omdat het inroepen van lsass.exe typt voor de normale werking van veel toepassingen.
 
-## <a name="is-it-a-good-idea-to-enable-the-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-alongside-lsa-protection"></a>Is het een goed idee om de regel, Het stelen van referenties van het *windows local security authority subsysteem (lsass.exe)* in teschakelen, naast LSA-beveiliging?
+## <a name="is-it-a-good-idea-to-enable-the-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-alongside-lsa-protection"></a>Is het een goed idee om de regel, Het stelen van referenties blokkeren van het Windows subsysteem van de lokale beveiligingsinstantie *(lsass.exe)* in te stellen, naast LSA-beveiliging?
 
 Het inschakelen van deze regel biedt geen extra beveiliging als [U ook LSA-beveiliging](https://docs.microsoft.com/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection#BKMK_HowToConfigure) hebt ingeschakeld. Zowel de regel als de LSA-beveiliging werken op vrijwel dezelfde manier, dus beide tegelijk uitvoeren is overbodig. Soms kunt u echter geen LSA-beveiliging inschakelen. In die gevallen kunt u deze regel inschakelen om vergelijkbare bescherming te bieden tegen malware die lsass.exe.
 
@@ -186,3 +184,5 @@ Het inschakelen van deze regel biedt geen extra beveiliging als [U ook LSA-bevei
 * [Regels voor het verminderen van aanvalsoppervlakken aanpassen](customize-attack-surface-reduction.md)
 * [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
 * [Compatibiliteit van Microsoft Defender met andere antivirus-/antimalware](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+
+

@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: Gebruik filtermachtigingen voor Inhoud zoeken om een eDiscovery-manager alleen te laten zoeken in een subset met postvakken en sites in uw organisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 78d36ccd602ea546099e768d7e91594a668df586
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c36263466e103c0401e51b42b5d7ec3f6e2b4f9c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "52162276"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245346"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>Machtigingen filteren voor zoeken naar inhoud configureren
 
@@ -45,7 +45,7 @@ Het filteren van zoekmachtigingen wordt ondersteund door de functie Inhoud zoeke
 
 ## <a name="requirements-to-configure-permissions-filtering"></a>Vereisten voor het configureren van machtigingenfilters
 
-- Als u de compliancebeveiligingsfilter-cmdlets wilt uitvoeren, moet u lid zijn van de rollengroep Organisatiebeheer in het beveiligings- & Compliancecentrum. Zie [Machtigingen in het Beveiligings- & compliancecentrum](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+- Als u de compliancebeveiligingsfilter-cmdlets wilt uitvoeren, moet u lid zijn van de rollengroep Organisatiebeheer in het beveiligings- & Compliancecentrum. Zie [Machtigingen in het Beveiligings- & compliancecentrum](../security/office-365-security/permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
 - U moet verbinding maken met Exchange Online en & Compliance center PowerShell om de compliancebeveiligingsfilter-cmdlets te gebruiken. Dit is nodig omdat voor deze cmdlets toegang tot postvakeigenschappen is vereist. Daarom moet u verbinding maken met Exchange Online PowerShell. Bekijk de stappen in de volgende sectie.
 
@@ -89,7 +89,7 @@ Zie het volgende voor het oplossen van problemen met PowerShell-verbindingsfoute
 
 Het **New-ComplianceSecurityFilter** wordt gebruikt om een zoekmachtigingsfilter te maken. In de volgende tabel worden de parameters voor deze cmdlet beschreven. Alle parameters zijn vereist om een compliancebeveiligingsfilter te maken.
   
-|**Parameter**|**Beschrijving**|
+| Parameter | Omschrijving |
 |:-----|:-----|
 | _Actie_ <br/> | De  _parameter_ Actie geeft aan op welk type zoekactie het filter wordt toegepast. De mogelijke acties voor zoeken naar inhoud zijn:  <br/><br/> **Exporteren:** Het filter wordt toegepast bij het exporteren van zoekresultaten.  <br/> **Voorbeeld:** Het filter wordt toegepast bij het bekijken van zoekresultaten.  <br/> **Zuiveren:** Het filter wordt toegepast bij het verwijderen van zoekresultaten.  <br/> **Zoeken:** Het filter wordt toegepast bij het uitvoeren van een zoekopdracht.  <br/> **Alles:** Het filter wordt toegepast op alle zoekacties.  <br/> |
 | _Filternaam_ <br/> |De  _parameter FilterName_ geeft de naam van het machtigingsfilter aan. Deze naam wordt gebruikt om een filter te identiteiten wanneer u de **cmdlets Get-ComplianceSecurityFilter,** **Set-ComplianceSecurityFilter** en **Remove-ComplianceSecurityFilter** gebruikt.  <br/> |
@@ -213,7 +213,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 Het **filter Set-ComplianceSecurityFilter** wordt gebruikt om een bestaand zoekmachtigingsfilter te wijzigen. De enige vereiste parameter is _FilterName._ 
   
-|**Parameter**|**Beschrijving**|
+| Parameter | Omschrijving |
 |:-----|:-----|
 | _Actie_| De  _parameter_ Actie geeft aan op welk type zoekactie het filter wordt toegepast. De mogelijke acties voor zoeken naar inhoud zijn: <br/><br/> **Exporteren:** Het filter wordt toegepast bij het exporteren van zoekresultaten.  <br/> **Voorbeeld:** Het filter wordt toegepast bij het bekijken van zoekresultaten.  <br/> **Zuiveren:** Het filter wordt toegepast bij het verwijderen van zoekresultaten.  <br/> **Zoeken:** Het filter wordt toegepast bij het uitvoeren van een zoekopdracht.  <br/> **Alles:** Het filter wordt toegepast op alle zoekacties.  <br/> |
 | _Filternaam_|De  _parameter FilterName_ geeft de naam van het machtigingsfilter aan. |
@@ -265,5 +265,8 @@ Het **Remove-ComplianceSecurityFilter** wordt gebruikt om een zoekfilter te verw
 - **Werkt het filteren van zoekmachtigingen voor inactieve postvakken?** Ja, u kunt filters voor postvak- en postvakinhoud gebruiken om te beperken wie inactieve postvakken in uw organisatie kan zoeken. Net als een normaal postvak moet een inactief postvak worden geconfigureerd met de eigenschap geadresseerde die wordt gebruikt om een machtigingsfilter te maken. Zo nodig kunt u de opdracht Postvak inactief **-InactiefMailboxOnly** gebruiken om de eigenschappen van inactieve postvakken weer te geven. Zie Inactieve postvakken maken en beheren in Office 365 voor [meer Office 365.](create-and-manage-inactive-mailboxes.md)
     
 - **Werkt het filteren van zoekmachtigingen voor openbare mappen?** Nee. Zoals eerder is uitgelegd, kunnen zoekmachtigingen niet worden gebruikt om te beperken wie in openbare mappen in Exchange. Items in openbare maplocaties kunnen bijvoorbeeld niet worden uitgesloten van de zoekresultaten door een machtigingsfilter. 
-    
+
 - **Voorkomt het dat een gebruiker alle inhoudslocaties in een bepaalde service kan doorzoeken, ook niet in inhoudslocaties in een andere service?** Nee. Zoals eerder uitgelegd, moet u een zoekmachtigingsfilter maken om expliciet te voorkomen dat gebruikers inhoudslocaties zoeken in een specifieke service (zoals voorkomen dat een gebruiker een Exchange-postvak of een andere SharePoint-site zoekt). Met andere woorden, het maken van een filter voor zoekmachtigingen waarmee een gebruiker alle SharePoint sites in de organisatie kan doorzoeken, voorkomt niet dat die gebruiker postvakken zoekt. Als u bijvoorbeeld wilt toestaan dat SharePoint alleen op sites SharePoint zoeken, moet u een filter maken waarmee wordt voorkomen dat ze in postvakken zoeken. Als u beheerders wilt toestaan Exchange alleen postvakken te zoeken, moet u een filter maken waarmee wordt voorkomen dat ze zoeken op sites.
+
+- **Tellen zoekmachtigingenfilters mee voor de tekenlimieten voor zoekquery's?** Ja. Zoekmachtigingen filters tellen mee met de tekenlimiet voor zoekquery's. Zie Limieten [in Advanced eDiscovery.](limits-ediscovery20.md)
+

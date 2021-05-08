@@ -1,5 +1,5 @@
 ---
-title: Rapport over inventarisatie van apparatuur
+title: Inventarisrapport voor apparaten
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -9,37 +9,40 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0ae2952337c2b7dd6f056f637fdcf295776ab404
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 3ebbb4359e460c0e8ddd6d353ce70057ed352212
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46613028"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245334"
 ---
-# <a name="device-inventory-report"></a>Rapport over inventarisatie van apparatuur
+# <a name="device-inventory-report"></a>Inventarisrapport voor apparaten
 
-In de weergave **apparaten** kunt u het tabblad **Alles exporteren** selecteren om een bestand met door komma's gescheiden waarden te downloaden, waaronder de volgende informatie:
+In de **weergave** Apparaten kunt u het tabblad Alles **exporteren** selecteren om een bestand met komma's te downloaden, inclusief deze informatie:
 
-- Serienummer
-- Naam van apparaat
-- Apparaat duurt voor het inchecken
+- Serieel nummer
+- Apparaatnaam
+- Apparaat Laatst inchecken
 - Beheerd door
-- Beste
+- Fabrikant
 - Model
-- BS
-- Besturingssysteemlicentie
-- Versie van besturingssysteem
+- BESTURINGSSYSTEEM
+- Os-licentie
+- Os-versie
 - Eigendom
 - Inschrijvingsdatum
-- Naam van beltoon
-- Opslag-beschikbaar in GB
-- Opslag-totaal in GB
-- Geregistreerd door gebruikers-UPN
+- Ringnaam
+- Storage - Gratis in GB
+- Storage - Totaal in GB
+- Geregistreerd door Gebruiker UPN
 - Toegewezen gebruiker
 - Status
-- Ouderdom (maanden)
+- Leeftijd (maanden)
 - Profiel
 - Aangemelde gebruikers
+- TPM-versie
+- Secure Boot Enabled
+- Type primaire schijf
+- Totaal fysiek geheugen 
 
-
-![Apparaten weergave met een lijst met apparaten en gerelateerde Details. Selectievakjes bij de bovenste selecteren filters voor activiteit, registratiestatus. Boven het vak zoeken. Tabbladen bovenaan voor het registreren van nieuwe apparaten, het vernieuwen van de weergave, het exporteren van fouten en het exporteren van de gegevens. ](../../media/mmd-devices-view.png)
+![De weergave Apparaten met een lijst met apparaten en gerelateerde details. Schakel de selectievakjes in de buurt van de bovenste selectiefilters voor activiteit en registratiestatus in. Daarboven staat een zoekvak. Tabbladen bovenaan voor het registreren van nieuwe apparaten, het vernieuwen van de weergave, het exporteren van fouten en het exporteren van de gegevens. ](../../media/mmd-devices-view.png)

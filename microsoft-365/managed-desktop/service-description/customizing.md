@@ -1,6 +1,6 @@
 ---
 title: Uitzonderingen op het serviceplan
-description: Uitzonderingen aanvragen voor het standaardserviceplan
+description: Uitzonderingen op het standaardserviceplan aanvragen
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,72 +9,72 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 97fe3fe1734908c46dcfff4acd76ce9ae5b8b1a5
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 59a2b8227eb7e410ecf8506ce288978213537edc
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841265"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245514"
 ---
 # <a name="exceptions-to-the-service-plan"></a>Uitzonderingen op het serviceplan
 
-Microsoft Managed Desktop biedt een lijst met genodigden, [Standaardinstellingen voor apparaten](device-policies.md), vereisten voor toepassingen en bepaalde [configureerbare instellingen](../working-with-managed-desktop/config-setting-overview.md), alles ontworpen om gebruikers een veilig, productief en plezierige ervaring te bieden. U kunt het beste altijd op de hoogte blijven van de service. U kunt echter wel weten dat sommige gegevens van de service mogelijk niet exact passen bij de behoeften van uw organisatie. Als u van mening bent dat u de service op een bepaalde manier moet wijzigen, moet u de volgende processen volgen om die wijzigingen aan te vragen.
+Microsoft Managed Desktop biedt een samengestelde [apparaatlijst,](device-policies.md)standaardapparaatinstellingen, toepassingsvereisten en bepaalde [configureerbare](../working-with-managed-desktop/config-setting-overview.md)instellingen, allemaal ontworpen om gebruikers een veilige, productieve en aangename ervaring te bieden. Het is het beste om altijd bij de service te blijven. We erkennen echter dat bepaalde details van de service mogelijk niet precies aan de behoeften van uw organisatie voldoen. Als u denkt dat u de service op een bepaalde manier moet wijzigen, is het belangrijk dat u de volgende processen volgt om deze wijzigingen aan te vragen.
  
-## <a name="types-of-exceptions"></a>Soorten uitzonderingen
+## <a name="types-of-exceptions"></a>Typen uitzonderingen
 
-Een uitzondering is een uitzondering op de basisconfiguratie van Microsoft beheerde bureaublad. voorbeelden van de configuratie van USB-poorten om een nieuw apparaatstuurprogramma te implementeren. We groeperen diverse uitzonderingen als volgt:
+Een uitzondering is elke toevoeging of wijziging in de Microsoft Managed Desktop basisconfiguratie; Voorbeelden variëren van configuratie van USB-poorten tot het implementeren van een nieuw apparaatt stuurprogramma. We groepeert verschillende uitzonderingen als volgt:
 
-|Type  |Beschrijving  |
+|Type  |Omschrijving  |
 |---------|---------|
-|Productiviteitssoftware     |  Voor [de gebruikers benodigde software voor de](mmd-app-requirements.md) voorgrond       |
-|Beveiligingsagenten & Vpn's     |  Software die wordt gebruikt voor het beveiligen, controleren of wijzigen van het gedrag van een apparaat of netwerk       |
-|Controle van digitale ervaring     |  Software waarmee gegevens op het apparaat van een gebruiker worden bijgehouden om hieraan te rapporteren       |
-|Hardware-of softwarestuurprogramma's     |   Stuurprogramma's, beperkingen voor de [toepassingsvereisten](mmd-app-requirements.md)      |
-|Lijnen     | Windows 10-of Microsoft 365-apps voor de Enterprise-instellingen op een beheerd apparaat        |
-|Apparaten     | Apparaten die niet voorkomen in de [lijst](device-list.md) met apparaten die door Microsoft worden beheerd        |
-|Overige     |  Helemaal niet bedekt met de andere gebieden       |
+|Productiviteitssoftware     |  Voorgrondsoftware die nodig is voor gebruikers, beperkt door de [toepassingsvereisten](mmd-app-requirements.md)       |
+|Beveiligingsagenten & VPN's     |  Software die wordt gebruikt om het gedrag van het apparaat of netwerk te beveiligen, te bewaken of te wijzigen       |
+|Monitoring van digitale ervaring     |  Software die wordt gebruikt om gegevens op het apparaat van een gebruiker bij te houden om te rapporteren aan IT       |
+|Hardware- of software-stuurprogramma's     |   Apparaat stuurprogramma's, beperkt door de [toepassingsvereisten](mmd-app-requirements.md)      |
+|Beleid     | Windows 10 of Microsoft 365-apps voor ondernemingen instellingen op een beheerd apparaat        |
+|Apparaten     | Apparaten die niet in de lijst met Microsoft Managed Desktop [staan](device-list.md)        |
+|Overige     |  Alles wat niet onder de andere gebieden valt       |
  
 ## <a name="request-an-exception"></a>Een uitzondering aanvragen
 
-Aanvragen indienen via de beheerde portal van Microsoft beheerde bureaublad door een wijzigingsaanvraag te maken. Zorg dat u de volgende informatie opneemt:
+Verzend aanvragen via de Microsoft Managed Desktop-beheerportal door een wijzigingsaanvraag te maken. Zorg ervoor dat u de volgende details op wilt nemen:
 
--   Type uitzondering: welke categorie uitzondering is dit? (Zie de vorige tabel)
--   Vereiste: wat is de specifieke zakelijke vereiste voor de uitzondering?
--   Voorstel: welke oplossing vraagt uw zakelijke oplossing?
--   Tijdlijn: hoe lang moet u deze uitzondering laten voor u doen? 
+- Uitzonderingstype: Welke uitzonderingscategorie is het? (zie de vorige tabel)
+- Vereiste: Wat is de specifieke bedrijfsvereiste voor de uitzondering?
+- Voorstel: Welke oplossing vraagt uw bedrijf?
+- Tijdlijn: Hoe lang wilt u deze uitzondering laten duren? 
 
-## <a name="how-we-assess-an-exception-request"></a>Hoe wij een aanvraag voor uitzondering beoordelen
+## <a name="how-we-assess-an-exception-request"></a>Hoe we een uitzonderingsaanvraag beoordelen
 
-Wanneer we aanvraag voor uitzonderingen bekijken, beoordelen we deze factoren in deze volgorde:
+Wanneer we uitzonderingsaanvragen bekijken, beoordelen we deze factoren in deze volgorde:
  
-1.  Sommige toepassingen en beleidsregels die door Microsoft worden beheerd op alle apparaten, zijn niet verhandeld, dus uw aanvraag mag geen gevolgen hebben. Zie de [apparaatconfiguratie](device-policies.md) voor meer informatie.
-2.  Beperkte productiviteitssoftware die nodig is om een gebruiker de taak uit te voeren, wordt waarschijnlijk goedgekeurd. 
-3.  Als we aan uw behoeften voldoen via Microsoft-technologie, wordt u waarschijnlijk geadviseerd om een uitzondering te gebruiken voor een uitzondering met een uitzondering van drie tot 12 maanden, afhankelijk van het bereik van het project.
-4.  Als we uw vereiste niet kunnen beantwoorden met behulp van Microsoft-technologie, wordt u waarschijnlijk geadviseerd om uw verzoek goed te keuren, tenzij het een van de onderstaande voorwaarden schendt.  
+1. Sommige toepassingen en beleidsregels die Microsoft Managed Desktop worden geïmplementeerd op alle apparaten, zijn niet bespreekbaar, dus uw aanvraag mag geen invloed hebben op deze toepassingen. Zie [Apparaatconfiguratie](device-policies.md) voor meer informatie.
+2. Software voor beperkte productiviteit die een gebruiker nodig heeft om zijn of haar werk te doen, wordt waarschijnlijk goedgekeurd. 
+3. Als we aan uw vereisten kunnen voldoen met behulp van Microsoft-technologie, zullen we uw aanvraag voor een uitzonderingsmigratieperiode van drie tot twaalf maanden waarschijnlijk goedkeuren (afhankelijk van het bereik van het project).
+4. Als we niet aan uw vereisten kunnen voldoen met behulp van Microsoft-technologie, zullen we uw aanvraag waarschijnlijk goedkeuren, tenzij deze in strijd is met een van de onderstaande voorwaarden.  
 
-Met deze principes zorgt u ervoor dat de beheerde bureaubladversie van Microsoft altijd aan uw behoeften voldoet terwijl u afwijkingen van onze standaardsjabloon bijhoudt. 
+Deze principes zorgen ervoor dat Microsoft Managed Desktop altijd aan uw behoeften kan voldoen terwijl u de afwijkingen van onze standaardsjabloon bij kunt houden. 
 
-## <a name="key-conditions"></a>Belangrijkste voorwaarden
+## <a name="key-conditions"></a>Belangrijke voorwaarden
 
-We bekijken uitzonderingen om te voorkomen dat ze een van deze voorwaarden schenden:
+We controleren uitzonderingen om ervoor te zorgen dat ze geen van deze voorwaarden schenden:
 
--   Een uitzondering mag de systeembeveiliging niet nadelig beïnvloeden. 
--   Het behouden van de uitzondering mag geen aanzienlijke kosten in rekening brengen voor Microsoft beheerde bureaublad activiteiten of ondersteuning.
--   Een uitzondering mag geen invloed hebben op de systeemstabiliteit, bijvoorbeeld door de kernelmodus vastloopt of blijft hangen.
--   De wijziging mag ons niet beperken de service niet te gebruiken of een conflict met de basis Microsoft beheerde bureaublad technologie.
+- Een uitzondering mag geen negatieve invloed hebben op de systeembeveiliging. 
+- Het behouden van de uitzondering mag geen aanzienlijke kosten met zich mee Microsoft Managed Desktop of ondersteuning.
+- Een uitzondering mag geen invloed hebben op de systeemstabiliteit, bijvoorbeeld door ervoor te zorgen dat de kernelmodus vast loopt of vast loopt.
+- De wijziging mag ons niet beperken om de service te gebruiken of conflicteren met de Microsoft Managed Desktop kerntechnologie.
 
-Deze voorwaarden kunnen in de toekomst veranderen. Als we deze wijzigingen aanbrengen, geven we dan een melding van 30 dagen voordat de voorwaarden van kracht worden.  Als Microsoft Managed Desktop een alternatieve manier biedt om te voldoen aan een goedgekeurde uitzondering, wordt de klant door Microsoft beheerde bureaublad gewaarschuwd dat de klant Microsoft Managed Desktop de manier biedt de uitzondering te ondersteunen 
+Deze voorwaarden kunnen in de toekomst veranderen. Als we dergelijke wijzigingen aanbrengen, geven we 30 dagen van tevoren op voordat deze voorwaarden van kracht worden.  Als Microsoft Managed Desktop een alternatieve manier biedt om te voldoen aan een goedgekeurde uitzondering, Microsoft Managed Desktop de klant op de hoogte wanneer Microsoft Managed Desktop manier moet wijzigen om de uitzondering te ondersteunen. 
 
-## <a name="revoking-approval-for-an-exception"></a>Goedkeuring voor een uitzondering intrekken
+## <a name="revoking-approval-for-an-exception"></a>Goedkeuring voor een uitzondering inroepen
 
-Nadat een gevraagde uitzondering is goedgekeurd en geïmplementeerd, is het mogelijk dat we problemen kunnen ontdekken waarbij de belangrijkste voorwaarden die niet duidelijk waren wanneer we de wijziging op de eerste plaats hebben goedgekeurd. In deze situatie moet u mogelijk de goedkeuring van de uitzondering intrekken.
+Nadat een aangevraagde uitzondering is goedgekeurd en geïmplementeerd, is het mogelijk dat we problemen kunnen ontdekken die in strijd zijn met de belangrijkste voorwaarden die niet duidelijk waren toen we de wijziging in de eerste plaats goedkeurden. In deze situatie moeten we de goedkeuring voor de uitzondering mogelijk intrekken.
  
-Als dit gebeurt, wordt u gewaarschuwd via de Microsoft Managed Desktop-beheerportal. Wanneer u de eerste keer een melding ontvangt, hebt u 90 dagen nodig voor het verwijderen van de uitzondering voordat de apparaten met uitzonderingen niet meer zijn gebonden aan de serviceovereenkomst van Microsoft beheerde bureaublad overeenkomsten. We sturen u diverse meldingen op basis van een strikte tijdlijn, maar het is mogelijk dat de tijdlijn of onze beslissingen van een uitzondering te wijzigen. Een uitzondering wordt niet *verwijderd* zonder uw toestemming, maar elk apparaat met een ingetrokken uitzondering wordt niet meer begrensd door onze serviceovereenkomst. Dit is de tijdlijn van meldingen die we u sturen.
+Als dit gebeurt, wordt u hiervan op de hoogte Microsoft Managed Desktop de beheerportal. Vanaf de eerste keer dat we u op de hoogte stellen, hebt u 90 dagen de tijd om de uitzondering te verwijderen voordat de apparaten met de uitzondering niet meer gebonden zijn aan Microsoft Managed Desktop serviceniveauovereenkomsten. We sturen u verschillende meldingen op basis van een strikte tijdlijn, maar bij een ernstig incident of een ernstige bedreiging moeten we mogelijk de tijdlijn of onze beslissingen over een uitzondering wijzigen. We verwijderen geen uitzondering *zonder* uw toestemming, maar elk apparaat met een ingetrokken uitzondering is niet langer gebonden aan onze serviceovereenkomst. Hier is de tijdlijn van meldingen die we u sturen:
 
-- **Eerste kennisgeving:** We bieden de eerste kennisgeving van onze beslissing voor het intrekken van de goedkeuring, waaronder informatie over waarom we het intrekken, de acties die u adviseert, de deadline voor deze acties en de stappen die u moet volgen als u de beslissing wilt nemen. Deze melding doet 90 dagen vooraf voordat de uitzondering moet worden verwijderd van alle apparaten. 
-- **Tweede bericht (30 dagen later):** We geven u een tweede kennisgeving, met inbegrip van de informatie in de eerste kennisgeving. 
-- **Derde kennisgeving (60 dagen na de eerste kennisgeving):** We bieden een derde kennisgeving, met inbegrip van de informatie in de eerste kennisgeving. 
-- **Laatste kennisgeving (één week vóór de deadline 90-dag):** We bieden een vierde kennisgeving, met inbegrip van de informatie in de eerste kennisgeving.
-- **90 dagen na de eerste kennisgeving:** Serviceovereenkomst voor Microsoft beheerde bureaubladservices zijn niet meer van toepassing op apparaten met een ingetrokken uitzondering. U kunt op elk gewenst moment een beslissing stellen en aanvullende informatie geven over overweging, waaronder upgrades, configuratiewijzigingen of wijziging van software. 
+- **Eerste bericht:** We geven de eerste kennisgeving van ons besluit om de goedkeuring in te trekken, inclusief informatie over waarom we deze intrekken, de acties die u moet ondernemen, de deadline voor deze acties en de stappen die u moet volgen als u in beroep wilt gaan tegen de beslissing. Deze melding vindt 90 dagen van tevoren plaats voordat de uitzondering van alle apparaten moet worden verwijderd. 
+- **Tweede kennisgeving (30 dagen later):** We geven een tweede kennisgeving, inclusief dezelfde informatie die in de eerste kennisgeving wordt verstrekt. 
+- **Derde kennisgeving (60 dagen na de eerste kennisgeving):** We geven een derde kennisgeving, inclusief dezelfde informatie die in de eerste kennisgeving wordt verstrekt. 
+- **Laatste kennisgeving (één week vóór de deadline van 90 dagen):** We geven een vierde kennisgeving, inclusief dezelfde informatie die in de eerste kennisgeving wordt verstrekt.
+- **90 dagen na de eerste kennisgeving:** Microsoft Managed Desktop overeenkomsten op serviceniveau zijn niet meer van toepassing op apparaten met de ingetrokken uitzondering. U kunt de beslissing op elk moment aandagen en aanvullende informatie ter overweging geven, zoals upgrade, configuratiewijzigingen of wijziging van software. 
 
 

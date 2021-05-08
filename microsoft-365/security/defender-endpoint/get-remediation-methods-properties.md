@@ -1,7 +1,7 @@
 ---
-title: Methoden en eigenschappen voor herstelactiviteiten
-description: De API-reactie bevat bedreigingen & herstelactiviteiten voor kwetsbaarheidsbeheer die in uw tenant zijn gemaakt. U kunt alle herstelactiviteiten, slechts één herstelactiviteit of informatie over blootgestelde apparaten voor een geselecteerde hersteltaak aanvragen.
-keywords: api's, herstel, herstel-api, get, hersteltaken,
+title: Methoden en eigenschappen van herstelactiviteiten
+description: De API-reactie bevat bedreigingen & vulnerability management herstelactiviteiten die zijn gemaakt in uw tenant. U kunt alle herstelactiviteiten, slechts één herstelactiviteit of informatie over blootgestelde apparaten voor een geselecteerde hersteltaak aanvragen.
+keywords: api's, herstel, herstel-api, get, hersteltaken, herstelmethoden, hersteleigenschappen,
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f720d638ec469523a1d567dee9c01fa0974b0090
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 4c0ecd89c45ec2c91dc37f0c9cd0bfb868c0474e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061122"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245538"
 ---
-# <a name="remediation-activity-methods-and-properties"></a>Methoden en eigenschappen voor herstelactiviteiten
+# <a name="remediation-activity-methods-and-properties"></a>Methoden en eigenschappen van herstelactiviteiten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,21 +39,21 @@ ms.locfileid: "52061122"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-De API-reactie bevat [herstelactiviteiten & beveiligingsprobleembeheer](next-gen-threat-and-vuln-mgt.md)   die zijn gemaakt in uw tenant.  
+Het API-antwoord bevat [bedreigings- & vulnerability management](next-gen-threat-and-vuln-mgt.md)   herstelactiviteiten die zijn gemaakt in uw tenant.  
 
 ## <a name="methods"></a>Methoden
 
-Methode | Gegevenstype | Beschrijving
+Methode | Gegevenstype | Omschrijving
 :---|:---|:---
-[Alle herstelactiviteiten op een lijst zetten](get-remediation-all-activities.md) | Onderzoeksverzameling | Retourneert informatie over alle herstelactiviteiten.
-[Belichte apparaten van één herstelactiviteit op de lijst](get-remediation-exposed-devices-activities.md) | Onderzoeksentiteit | Retourneert informatie over blootgestelde apparaten voor de opgegeven herstelactiviteit.
-[Eén herstelactiviteit per id](get-remediation-one-activity.md) | Onderzoeksentiteit | Retourneert gegevens voor de opgegeven herstelactiviteit.
+[Alle herstelactiviteiten weergeven](get-remediation-all-activities.md) | Onderzoeksverzameling | Retourneert informatie over alle herstelactiviteiten.
+[Weergegeven apparaten van één herstelactiviteit weergeven](get-remediation-exposed-devices-activities.md) | Onderzoeksentiteit | Retourneert informatie over blootgestelde apparaten voor de opgegeven herstelactiviteit.
+[Eén herstelactiviteit krijgen op id](get-remediation-one-activity.md) | Onderzoeksentiteit | Retourneert gegevens voor de opgegeven herstelactiviteit.
 
 Meer informatie over [herstelactiviteiten.](tvm-remediation.md)
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschaps-id | Gegevenstype | Beschrijving
+Eigenschaps-id | Gegevenstype | Omschrijving
 :---|:---|:---
 categorie | Tekenreeks | Categorie van de herstelactiviteit (software-/beveiligingsconfiguratie)
 completerEmail | Tekenreeks | Als de herstelactiviteit handmatig is voltooid door iemand, bevat deze kolom zijn of haar e-mail
@@ -86,12 +86,12 @@ vendorId | Tekenreeks | Naam van gerelateerde leverancier
 
 ## <a name="see-also"></a>Zie ook
 
-- [Eén herstelactiviteit per id](get-remediation-one-activity.md)
+- [Eén herstelactiviteit krijgen op id](get-remediation-one-activity.md)
 
-- [Alle herstelactiviteiten op een lijst zetten](get-remediation-all-activities.md)
+- [Alle herstelactiviteiten weergeven](get-remediation-all-activities.md)
 
-- [Belichte apparaten van één herstelactiviteit op de lijst](get-remediation-exposed-devices-activities.md)
+- [Weergegeven apparaten van één herstelactiviteit weergeven](get-remediation-exposed-devices-activities.md)
 
-- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Risicogebaseerd & vulnerability management](next-gen-threat-and-vuln-mgt.md)
 
 - [Beveiligingslekken in uw organisatie](tvm-weaknesses.md)

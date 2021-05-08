@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 834ce13917237dd822bdfbb7b88967dcac4bc0f8
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: dab72da02927c3fff6025eb2d0fa9ed0fdf1d0d7
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929011"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245274"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Microsoft Defender voor eindpunt configureren voor iOS-functies
 
@@ -38,9 +38,12 @@ ms.locfileid: "51929011"
 > Defender voor Eindpunt in iOS zou een VPN gebruiken om de functie Webbeveiliging te bieden. Dit is geen gewone VPN en is een lokale/self-looping VPN die geen verkeer buiten het apparaat neemt.
 
 ## <a name="conditional-access-with-defender-for-endpoint-on-ios"></a>Voorwaardelijke toegang met Defender voor Eindpunt in iOS  
-Microsoft Defender voor Eindpunt op iOS, samen met Microsoft Intune en Azure Active Directory, maakt het afdwingen van apparaat compliance en beleid voor voorwaardelijke toegang mogelijk op basis van apparaatrisiconiveaus. Defender for Endpoint is een MTD-oplossing (Mobile Threat Defense) die u kunt implementeren om gebruik te maken van deze mogelijkheid via Intune.
+Microsoft Defender voor Eindpunt op iOS, samen met Microsoft Intune en Azure Active Directory, maakt het afdwingen van apparaat compliance en beleid voor Voorwaardelijke toegang mogelijk op basis van apparaatrisicoscore. Defender for Endpoint is een MTD-oplossing (Mobile Threat Defense) die u kunt implementeren om gebruik te maken van deze mogelijkheid via Intune.
 
 Zie Defender voor Eindpunt en [Intune](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)voor meer informatie over het instellen van Voorwaardelijke toegang met Defender voor Eindpunt in iOS.
+
+> [!NOTE]
+> **Jailbreakdetectie door Microsoft Defender voor Endpoint op iOS is momenteel in preview.** Als een apparaat wordt gedetecteerd als een jailbroken door Microsoft Defender voor Eindpunt, wordt een waarschuwing met hoog risico gerapporteerd aan het Beveiligingscentrum en als Voorwaardelijke toegang is ingesteld op basis van de apparaatrisicoscore, wordt het apparaat geblokkeerd voor toegang tot bedrijfsgegevens.
 
 ## <a name="web-protection-and-vpn"></a>Webbeveiliging en VPN
 
@@ -48,9 +51,9 @@ Defender voor Eindpunt in iOS bevat standaard de functie voor webbeveiliging en 
 
 Hoewel deze standaard is ingeschakeld, zijn er mogelijk bepaalde gevallen waarvoor u VPN moet uitschakelen. U wilt bijvoorbeeld bepaalde apps uitvoeren die niet werken wanneer een VPN is geconfigureerd. In dergelijke gevallen kunt u ervoor kiezen om VPN uit te schakelen vanuit de app op het apparaat door de onderstaande stappen uit te voeren:
 
-1. Open de app Instellingen  op uw iOS-apparaat, klik of tik **op Algemeen** en vervolgens **op VPN.**
+1. Open op uw iOS-apparaat de **Instellingen** app, klik of tik **op Algemeen** en vervolgens **op VPN.**
 1. Klik of tik op de knop 'i' voor Microsoft Defender voor Eindpunt.
-1. Schakel Verbinding maken **op aanvraag uit om** VPN uit te schakelen.
+1. Schakel de optie **Verbinding maken op aanvraag uit om** VPN uit te schakelen.
 
     > [!div class="mx-imgBorder"]
     > ![VPN config connect on demand](images/ios-vpn-config.png)
@@ -68,11 +71,11 @@ Apple iOS biedt geen ondersteuning voor meerdere VPN's voor het hele apparaat om
 Om ervoor te zorgen dat bedrijfsgegevens niet worden gebruikt op iOS-apparaten met een jailbroken, raden we u aan het volgende compliancebeleid in te stellen op Intune.
 
 > [!NOTE]
-> Op dit moment biedt Microsoft Defender voor Eindpunt in iOS geen bescherming tegen scenario's met een jailbreak. Als het apparaat wordt gebruikt op een jailbroken apparaat, kunnen in specifieke scenario's gegevens die door de toepassing worden gebruikt, zoals uw bedrijfs-e-mail-id en bedrijfsprofielafbeelding (indien beschikbaar), lokaal worden getoond.
+> Op dit moment is jailbreakdetectie door Microsoft Defender voor Eindpunt op iOS in preview. U wordt aangeraden dit beleid in te stellen als een extra verdedigingslaag tegen scenario's met een jailbreak.
 
 Volg de onderstaande stappen om een compliancebeleid te maken tegen jailbroken apparaten.
 
-1. Ga [in het Microsoft Endpoint Manager-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2109431)naar Beleid voor naleving van   ->  **apparaten**  ->  **Beleid maken.** Selecteer 'iOS/iPadOS' als platform en klik op **Maken.**
+1. Ga [Microsoft Endpoint Manager beheercentrum naar](https://go.microsoft.com/fwlink/?linkid=2109431)Beleid voor naleving van **apparaten**  ->    ->  **Beleid maken.** Selecteer 'iOS/iPadOS' als platform en klik op **Maken.**
 
     > [!div class="mx-imgBorder"]
     > ![Beleid maken](images/ios-jb-policy.png)
@@ -81,7 +84,7 @@ Volg de onderstaande stappen om een compliancebeleid te maken tegen jailbroken a
 3. Klik op de pagina nalevingsinstellingen op om de sectie **Apparaattoestand** uit te vouwen en klik **op Blokkeren** voor **jailbroken apparaten.**
 
     > [!div class="mx-imgBorder"]
-    > ![Beleidsinstellingen](images/ios-jb-settings.png)
+    > ![Beleid Instellingen](images/ios-jb-settings.png)
 
 4. Selecteer in *de sectie Actie voor niet-naleving* de acties volgens uw vereisten en selecteer **Volgende.**
 
@@ -104,6 +107,6 @@ Phishingwebsites doen zich voor als betrouwbare websites om uw persoonlijke of f
 
 ## <a name="battery-consumption-issues-on-ios-when-microsoft-defender-for-endpoint-is-installed"></a>Problemen met batterijverbruik in iOS wanneer Microsoft Defender voor Eindpunt is geïnstalleerd
 
-Het batterijgebruik door een app wordt door Apple berekend op basis van een groot aantal factoren, waaronder cpu- en netwerkgebruik. Microsoft Defender voor Eindpunt gebruikt een lokale/lus-back VPN op de achtergrond om het webverkeer te controleren op schadelijke websites of verbindingen. Netwerkpakketten van een app worden door deze controle heen en daardoor wordt het batterijgebruik van Microsoft Defender voor Eindpunt onjuist berekend. Dit geeft een onjuiste indruk voor de gebruiker. Het werkelijke batterijverbruik van Microsoft Defender voor Eindpunt is lager dan wat wordt weergegeven op de pagina Batterijinstellingen op het apparaat. Dit is gebaseerd op tests die zijn uitgevoerd in de Microsoft Defender voor Eindpunt-app om het batterijverbruik te begrijpen.
+Het batterijgebruik door een app wordt door Apple berekend op basis van een groot aantal factoren, waaronder cpu- en netwerkgebruik. Microsoft Defender voor Eindpunt gebruikt een lokale/lus-back VPN op de achtergrond om het webverkeer te controleren op schadelijke websites of verbindingen. Netwerkpakketten van een app worden door deze controle heen en daardoor wordt het batterijgebruik van Microsoft Defender voor Eindpunt onjuist berekend. Dit geeft een onjuiste indruk voor de gebruiker. Het werkelijke batterijverbruik van Microsoft Defender voor Eindpunt is lager dan wat wordt weergegeven op de pagina Batterij Instellingen op het apparaat. Dit is gebaseerd op tests die zijn uitgevoerd in de Microsoft Defender voor Eindpunt-app om het batterijverbruik te begrijpen.
 
 Ook de GEBRUIKTE VPN is een lokale VPN en in tegenstelling tot traditionele VPN's wordt netwerkverkeer niet buiten het apparaat verzonden.

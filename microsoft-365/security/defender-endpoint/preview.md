@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 817ed5e33505f691b11970e3da4c956afa7dc76c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ea37ad4302eedf7d43e3ad03e94357a146c2216c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861057"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245574"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Microsoft Defender voor endpoint preview-functies
 
@@ -44,7 +44,7 @@ De Defender voor Eindpunt-service wordt voortdurend bijgewerkt met nieuwe functi
 Lees meer over nieuwe functies in de preview-release van Defender voor Eindpunt en probeer als een van de eersten toekomstige functies door de preview-ervaring in te- of uitschakelen.
 
 >[!TIP]
->Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in de feedlezer te kopiëren en te kopiëren: `https://docs.microsoft.com/api/search/rss?search=%22Microsoft+Defender+ATP+preview+features%22&locale=en-us`
+>Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in de feedlezer te kopiëren en te kopiëren: `https://docs.microsoft.com/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
 
 Zie Nieuw in Defender voor eindpunt voor meer informatie over nieuwe mogelijkheden die algemeen [beschikbaar zijn.](whats-new-in-microsoft-defender-atp.md)
 
@@ -54,7 +54,7 @@ U hebt toegang tot toekomstige functies waar u feedback over kunt geven om de al
 
 Schakel de preview-ervaringsinstelling in om een van de eersten te zijn om nieuwe functies uit te proberen.
 
-1. Selecteer in het navigatiedeelvenster **Instellingen Geavanceerde**  >  **functies**  >  **Preview-functies.**
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Geavanceerde functies**  >  **Preview-functies.**
 
 2. Schakel de instelling in tussen **Aan** en **Uit** en selecteer **Voorkeuren opslaan.**
 

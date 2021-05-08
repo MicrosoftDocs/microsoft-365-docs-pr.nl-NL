@@ -1,5 +1,5 @@
 ---
-title: Apparaatafbeeldingen
+title: Afbeeldingen van apparaten
 description: Afbeeldingsvereisten bij het bestellen van nieuwe apparaten of het hergebruiken van bestaande apparaten
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -12,26 +12,26 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 9a263cbc6bdd0d521e835f086967a6f7236c6948
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 00943eb85abbfd2d237ae5544eb69d3ec4d9f875
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166658"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245502"
 ---
-# <a name="device-images"></a>Apparaatafbeeldingen
+# <a name="device-images"></a>Afbeeldingen van apparaten
 
 
 Of u nu nieuwe [](#existing-devices) [apparaten bestelt](#new-devices) of bestaande apparaten opnieuw gebruikt, u hebt verschillende opties om ervoor te zorgen dat de afbeelding op het apparaat voldoet aan onze [apparaatvereisten.](device-requirements.md#check-hardware-requirements)
 
 ## <a name="new-devices"></a>Nieuwe apparaten
-Wanneer u een nieuw [](device-requirements.md#minimum-requirements)apparaat bij een goedgekeurde fabrikant bestelt, volgt u deze stappen om ervoor te zorgen dat apparaten worden verzenden met de juiste Microsoft Managed Desktop-afbeelding en softwareconfiguratie.
+Wanneer u een nieuw [](device-requirements.md#minimum-requirements)apparaat bij een goedgekeurde fabrikant bestelt, volgt u deze stappen om ervoor te zorgen dat ze apparaten verzenden met de juiste Microsoft Managed Desktop afbeelding en softwareconfiguratie.
 
 ### <a name="dell"></a>Dell
-Werk rechtstreeks samen met de vertegenwoordiger van Dell, die ervoor zorgt dat de door Microsoft Managed Desktop goedgekeurde afbeelding wordt toegepast op apparaten voor uw bestelling. Neem voor meer vragen over Dell-apparaten, de afbeelding en het bestelproces contact op met MMD_at_dell@dell.com.
+Werk rechtstreeks samen met de vertegenwoordiger van Dell, die ervoor zorgt dat de afbeelding die is goedgekeurd door Microsoft Managed Desktop wordt toegepast op apparaten voor uw bestelling. Neem voor meer vragen over Dell-apparaten, de afbeelding en het bestelproces contact op met MMD_at_dell@dell.com.
 
 ### <a name="hp"></a>HP 
-Wanneer u nieuwe apparaten bij HP bestelt, moet u de specifieke SKU gebruiken die wordt vermeld in de sectie Aanvullende vereisten voor elk model, zoals wordt weergegeven in [Programmaapparaten.](device-list.md#hp)
+Wanneer u nieuwe apparaten bij HP [bestelt,](https://www.microsoft.com/windowsforbusiness/view-all-devices) moet u de specifieke SKU gebruiken die wordt vermeld in de sectie Aanvullende vereisten voor elk model dat wordt gevonden op de site Met zakelijke apparaten winkelen Windows 10 Pro (filter de weergave om de Microsoft Managed Desktop-apparaten weer te geven).
 
 Als u een apparaat bestelt bij HP dat [](customizing.md) als uitzondering is goedgekeurd, maar momenteel niet wordt weergegeven op de pagina Apparaatlijst, moet u de SKU vragen om voor uw model te worden gebruikt. We werken samen met HP om u deze informatie te geven met behulp van uw uitzonderingsaanvraag. U kunt ook rechtstreeks contact opnemen met HP voor vragen over apparaten en instructies voor het bestellen van apparaten met behulp van deze adressen:
  
@@ -41,9 +41,9 @@ Als u een apparaat bestelt bij HP dat [](customizing.md) als uitzondering is goe
 - Globaal: mmd@hp.com
 
 ### <a name="lenovo"></a>Lenovo
-Wanneer u apparaten van Lenovo bestelt voor gebruik in Microsoft Managed Desktop, moet u een specifiek onderdeelnummer aangeven dat deel uitmaakt van de bestelling. Neem contact op met uw vertegenwoordiger van Lenovo of Lenovo Channel Partner en vraag hen om een *speciaal* biedmodel te maken met een systeem dat voldoet aan onze [apparaatvereisten.](device-requirements.md#minimum-requirements) Als u een vooraf geladen afbeelding wilt opnemen die compatibel is met Microsoft Managed Desktop, vraagt u de vertegenwoordiger om te verwijzen naar het nummer *SBB0Q94938* van het systeemgebouw - MMD Enablement.
+Wanneer u apparaten bij Lenovo bestelt voor gebruik in Microsoft Managed Desktop, moet u een specifiek onderdeelnummer aangeven dat deel uitmaakt van de bestelling. Neem contact op met uw vertegenwoordiger van Lenovo of Lenovo Channel Partner en vraag hen om een *speciaal* biedmodel te maken met een systeem dat voldoet aan onze [apparaatvereisten.](device-requirements.md#minimum-requirements) Als u een vooraf geladen afbeelding wilt opnemen die compatibel is met Microsoft Managed Desktop, vraagt u de verkoper om te verwijzen naar het nummer *SBB0Q94938 - MMD Enablement* van het systeemgebouw.
 
-De volgende producten zijn momenteel ingeschakeld voor Microsoft Managed Desktop-ondersteuning:
+De volgende producten zijn momenteel ingeschakeld voor Microsoft Managed Desktop ondersteuning:
 
 - L13 Gen 1
 - L13 Yoga Gen 1
@@ -60,7 +60,7 @@ De volgende producten zijn momenteel ingeschakeld voor Microsoft Managed Desktop
 
 
 ### <a name="microsoft"></a>Microsoft
-Alle Microsoft-apparaten die voldoen aan apparaatvereisten, hebben een afbeelding die werkt met Beheerd bureaublad van Microsoft. Er zijn geen andere stappen vereist.
+Alle Microsoft-apparaten die voldoen aan apparaatvereisten, hebben een afbeelding die werkt met Microsoft Managed Desktop. Er zijn geen andere stappen vereist.
 
 Als u de nieuwste afbeelding in de fabriek op een Microsoft-apparaat wilt hebben, werkt u samen met uw Surface-specialist om het Surface-proces 'Gepengeerde PO' te gebruiken.
 
@@ -68,7 +68,7 @@ Als u de nieuwste afbeelding in de fabriek op een Microsoft-apparaat wilt hebben
 
 U kunt bestaande apparaten opnieuw gebruiken zolang ze voldoen aan zowel de [apparaatvereisten](device-requirements.md#minimum-requirements) als de [softwarevereisten.](device-requirements.md#installed-software) Volg de stappen die relevant zijn voor uw fabrikant.
 
-U kunt apparaten opnieuw weergeven met een afbeelding van de fabrikant of met de 'universele afbeelding' van Microsoft Managed Desktop. Als u een geschikte fabrikantafbeelding wilt krijgen, kunt u ten minste één nieuw apparaat bestellen [van](#new-devices) het model dat u opnieuw gebruikt. Vervolgens kunt u de afbeelding van dat apparaat verkrijgen en deze toepassen op andere apparaten van exact hetzelfde model.
+U kunt apparaten opnieuw maken met een afbeelding van de fabrikant of met de Microsoft Managed Desktop 'universele afbeelding'. Als u een geschikte fabrikantafbeelding wilt krijgen, kunt u ten minste één nieuw apparaat bestellen [van](#new-devices) het model dat u opnieuw gebruikt. Vervolgens kunt u de afbeelding van dat apparaat verkrijgen en deze toepassen op andere apparaten van exact hetzelfde model.
 
 > [!NOTE]
 > U bent verantwoordelijk voor het maken, testen en implementeren van afbeeldingen. We raden u ook aan waar mogelijk de juiste afbeeldingen van de fabrikant te gebruiken in plaats van aangepaste afbeeldingen, inclusief de 'universele afbeelding'.
@@ -95,14 +95,14 @@ Met deze stappen worden alle gegevens op het apparaat verwijderd, dus voordat u 
 
 Microsoft Surface-apparaten bevatten afbeeldingen met 'bare metal recovery' [die](https://support.microsoft.com/en-us/surfacerecoveryimage) specifiek zijn voor elk model. U kunt deze afbeeldingen gebruiken om apparaten opnieuw te maken.
 
-Deze afbeeldingen maken gebruik van de Windows Recovery Environment (WinRE) en dit is een handmatig proces (niet geautomatiseerd). Volg de stappen in [Het maken en gebruiken van een USB-herstelstation voor Surface.](https://support.microsoft.com/surface/creating-and-using-a-usb-recovery-drive-for-surface-677852e2-ed34-45cb-40ef-398fc7d62c07)
+Deze afbeeldingen gebruiken de Windows Herstelomgeving (WinRE) en dit is een handmatig proces (niet geautomatiseerd). Volg de stappen in [Het maken en gebruiken van een USB-herstelstation voor Surface.](https://support.microsoft.com/surface/creating-and-using-a-usb-recovery-drive-for-surface-677852e2-ed34-45cb-40ef-398fc7d62c07)
 
 
 ### <a name="universal-image"></a>Universele afbeelding
-Microsoft Managed Desktop heeft een afbeelding gemaakt met Windows 10 Pro en Microsoft 365 Apps voor Enterprise die u kunt gebruiken met Microsoft Managed Desktop. Het is echter het beste om afbeeldingen te gebruiken die geschikt zijn voor Microsoft Managed Desktop die door de fabrikant worden geleverd, zelfs als dat een oudere Windows-versie betekent die vervolgens moet worden bijgewerkt zodra de gebruiker zich heeft aangegeven. Het gebruik van de universele afbeelding van Microsoft Managed Desktop moet een laatste optie zijn.
+Microsoft Managed Desktop heeft een afbeelding gemaakt met Windows 10 Pro en Microsoft 365-apps voor Enterprise die u kunt gebruiken met Microsoft Managed Desktop. U kunt echter het beste afbeeldingen gebruiken die geschikt zijn voor Microsoft Managed Desktop die door de fabrikant worden geleverd, zelfs als dat een oudere Windows-versie betekent die vervolgens moet worden bijgewerkt zodra de gebruiker zich aandient. Het gebruik Microsoft Managed Desktop universele afbeelding moet een laatste optie zijn.
 
-- We werken de afbeelding elke 30 tot 60 dagen bij met de meest recente updates van de maandelijkse Windows-kwaliteit en microsoft 365 Apps voor Enterprise-updates ten minste tweemaal per jaar.
-- De afbeelding bevat een herstel inrichtingspakket om ervoor te zorgen dat Microsoft 365 Apps voor Enterprise wordt hersteld na Windows-herstelscenario's.
+- We werken de afbeelding bij met Windows maandelijkse kwaliteitsupdates om de 30-60 dagen en Microsoft 365-apps voor Enterprise-updates ten minste twee keer per jaar.
+- De afbeelding bevat een herstel inrichtingspakket om ervoor te zorgen dat Microsoft 365-apps enterprise wordt hersteld na Windows herstelscenario's.
 - U kunt de afbeelding implementeren met USB-stations. Het bevat een scriptable proces voor het invoegen van stuurprogramma's (beschreven in de documentatie die bij de afbeelding is opgenomen).
 - U kunt de opgenomen scripts en mappen wijzigen voor gebruik met andere aanpassingen, zoals het toevoegen van specifieke cumulatieve updates, het kopiëren van bestanden of het uitvoeren van andere controles.
 - Stuurprogramma's en kwaliteitsupdates worden toegevoegd aan Windows tijdens de implementatie vanaf het USB-station.

@@ -1,6 +1,6 @@
 ---
 title: Geautomatiseerd onderzoek en antwoord in Microsoft 365 Defender
-description: Een overzicht krijgen van geautomatiseerde onderzoeks- en antwoordmogelijkheden, ook wel self-healing genoemd, in Microsoft 365 Defender
+description: Krijg een overzicht van geautomatiseerde onderzoeks- en antwoordmogelijkheden, ook wel self-healing genoemd, in Microsoft 365 Defender
 keywords: geautomatiseerd, onderzoek, waarschuwing, trigger, actie, herstel, zelfherstel
 search.appverid: met150
 ms.prod: m365-security
@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: be0423b0af8251347420d9e970dcfe10db0bb72b
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 356d843420856c8e7ec4f00ff0f6f0781cfed6b5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591921"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245454"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Geautomatiseerd onderzoek en antwoord in Microsoft 365 Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "51591921"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Als uw organisatie [Microsoft 365 Defender](microsoft-365-defender.md)gebruikt, ontvangt uw beveiligingsteam een waarschuwing wanneer een schadelijk of verdacht artefact wordt gedetecteerd. Gezien de schijnbaar eindeloze stroom van bedreigingen die binnenstromen, worden beveiligingsteams vaak geconfronteerd met uitdagingen bij het aanpakken van het grote aantal waarschuwingen. Gelukkig bevat Microsoft 365 Defender geautomatiseerde mogelijkheden voor onderzoek en herstel (AIR) die uw beveiligingsteam kunnen helpen om bedreigingen efficiënter en effectiever aan te pakken.
+Als uw organisatie een Microsoft 365 [Defender](microsoft-365-defender.md)gebruikt, ontvangt uw beveiligingsteam een waarschuwing wanneer er een schadelijk of verdacht artefact wordt gedetecteerd. Gezien de schijnbaar eindeloze stroom van bedreigingen die binnenstromen, worden beveiligingsteams vaak geconfronteerd met uitdagingen bij het aanpakken van het grote aantal waarschuwingen. Gelukkig bevat Microsoft 365 Defender geautomatiseerde mogelijkheden voor onderzoek en herstel (AIR) die uw beveiligingsteam kunnen helpen om bedreigingen efficiënter en effectiever aan te pakken.
 
 Dit artikel bevat een overzicht van AIR en bevat koppelingen naar de volgende stappen en aanvullende bronnen.
 
@@ -44,7 +44,7 @@ Dit artikel bevat een overzicht van AIR en bevat koppelingen naar de volgende st
 
 ## <a name="how-automated-investigation-and-self-healing-works"></a>Hoe geautomatiseerd onderzoek en zelfherstel werken
 
-Wanneer beveiligingswaarschuwingen worden geactiveerd, is het aan uw beveiligingsteam om deze waarschuwingen te bekijken en stappen te ondernemen om uw organisatie te beschermen. Het kan erg tijdrovend zijn om prioriteit te geven aan waarschuwingen en deze te onderzoeken, met name wanneer er nieuwe waarschuwingen binnen blijven komen terwijl er een onderzoek wordt gestart. Beveiligingsbewerkingsteams kunnen zich overstelpt voelen door het grote aantal bedreigingen dat ze moeten bewaken en beschermen. Geautomatiseerde onderzoeks- en antwoordmogelijkheden, met self-heling, in Microsoft 365 Defender kunnen u helpen.
+Wanneer beveiligingswaarschuwingen worden geactiveerd, is het aan uw beveiligingsteam om deze waarschuwingen te bekijken en stappen te ondernemen om uw organisatie te beschermen. Het kan erg tijdrovend zijn om prioriteit te geven aan waarschuwingen en deze te onderzoeken, met name wanneer er nieuwe waarschuwingen binnen blijven komen terwijl er een onderzoek wordt gestart. Beveiligingsbewerkingsteams kunnen zich overstelpt voelen door het grote aantal bedreigingen dat ze moeten bewaken en beschermen. Geautomatiseerde onderzoeks- en antwoordmogelijkheden, met self-heling, in Microsoft 365 Defender kan helpen.
 
 Bekijk de volgende video om te zien hoe zelfherstel werkt: <p>
 
@@ -53,11 +53,11 @@ Bekijk de volgende video om te zien hoe zelfherstel werkt: <p>
 In Microsoft 365 Defender werkt automatisch onderzoek en antwoord met self-helende mogelijkheden op uw apparaten, e-mail & inhoud en identiteiten.
  
 > [!TIP]
-> In dit artikel wordt beschreven hoe geautomatiseerd onderzoek en antwoord werken. Zie Geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren [in Microsoft 365 Defender](m365d-configure-auto-investigation-response.md)om deze mogelijkheden te configureren.
+> In dit artikel wordt beschreven hoe geautomatiseerd onderzoek en antwoord werken. Zie Geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren in Microsoft 365 [Defender om deze mogelijkheden te configureren.](m365d-configure-auto-investigation-response.md)
 
 ## <a name="your-own-virtual-analyst"></a>Uw eigen virtuele analist
 
-Stel u voor dat u een virtuele analist hebt in uw beveiligingsteam van Tier 1 of Tier 2. De virtuele analist bootst de ideale stappen na die beveiligingsbewerkingen zouden ondernemen om bedreigingen te onderzoeken en te corrigeren. De virtuele assistent kan 24x7 werken, met onbeperkte capaciteit, en een aanzienlijke belasting van onderzoeken en bedreigingssanering op zich nemen. Een dergelijke virtuele assistent kan de tijd om te reageren aanzienlijk verminderen, waardoor uw team voor beveiligingsbewerkingen vrij komt voor andere belangrijke strategische projecten. Als dit scenario klinkt als sciencefiction, is dat niet zo. Een dergelijke virtuele analist maakt deel uit van uw Microsoft 365 Defender-suite en de naam is *geautomatiseerd onderzoek en antwoord.*
+Imagine virtuele analist in uw beveiligingsteam van Tier 1 of Tier 2. De virtuele analist bootst de ideale stappen na die beveiligingsbewerkingen zouden ondernemen om bedreigingen te onderzoeken en te corrigeren. De virtuele assistent kan 24x7 werken, met onbeperkte capaciteit, en een aanzienlijke belasting van onderzoeken en bedreigingssanering op zich nemen. Een dergelijke virtuele assistent kan de tijd om te reageren aanzienlijk verminderen, waardoor uw team voor beveiligingsbewerkingen vrij komt voor andere belangrijke strategische projecten. Als dit scenario klinkt als sciencefiction, is dat niet zo. Een dergelijke virtuele analist maakt deel uit van Microsoft 365 Defender-suite en de naam is *geautomatiseerd onderzoek en antwoord.*
 
 Met geautomatiseerde onderzoeks- en antwoordmogelijkheden kan uw beveiligingsteam de capaciteit van uw organisatie voor beveiligingswaarschuwingen en incidenten aanzienlijk vergroten. Met geautomatiseerde onderzoeken en antwoorden kunt u de kosten van het omgaan met onderzoek- en herstelactiviteiten verlagen en het beste uit uw suite voor bedreigingsbeveiliging halen. Geautomatiseerde onderzoeks- en antwoordmogelijkheden helpen uw team voor beveiligingsbewerkingen door:
 
@@ -84,7 +84,7 @@ Afhankelijk van [hoe](m365d-configure-auto-investigation-response.md) geautomati
 
 Terwijl een onderzoek wordt uitgevoerd, worden eventuele andere gerelateerde waarschuwingen toegevoegd aan het onderzoek totdat het is voltooid. Als een belastende entiteit ergens anders wordt gezien, wordt het bereik van het geautomatiseerde onderzoek uitgebreid met deze entiteit en wordt het onderzoeksproces herhaald. 
 
-In Microsoft 365 Defender correleert elk geautomatiseerd onderzoek signalen in Microsoft Defender voor identiteit, Microsoft Defender voor Eindpunt en Defender voor Office 365, zoals samengevat in de volgende tabel: 
+In Microsoft 365 Defender correleert elk geautomatiseerd onderzoek signalen in Microsoft Defender voor identiteit, Microsoft Defender voor eindpunt en Defender voor Office 365, zoals samengevat in de volgende tabel: 
 
 |Entiteiten |Bedreigingsbeveiligingsservices  |
 |:---------|:---------|

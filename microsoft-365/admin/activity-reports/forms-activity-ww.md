@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-rapporten in het beheercentrum - Forms-activiteit
+title: Microsoft 365 Rapporten in het beheercentrum - Activiteit Formulieren
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -14,28 +14,27 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 ms.custom: AdminSurgePortfolio
-ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - BCS160
 - MST160
 - MET150
 - MOE150
-description: Lees hoe u een Microsoft Forms-activiteitenrapport kunt krijgen met behulp van het microsoft 365-rapportendashboard in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: f4cd021003ad9d9bca4f986a33f49e62e2df1889
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Lees hoe u een Microsoft Forms-activiteitenrapport kunt krijgen met behulp van Microsoft 365 dashboard Rapporten in het Microsoft 365 beheercentrum.
+ms.openlocfilehash: 977ee360d91df0b15e25e86d052d852f9acafe6c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579684"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52242322"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365-rapporten in het beheercentrum - Forms-activiteit
+# <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365 Rapporten in het beheercentrum - Activiteit Formulieren
 
-In het dashboard  Microsoft 365-rapporten ziet u het activiteitenoverzicht voor alle producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
+In Microsoft 365 **dashboard Rapporten** ziet u het activiteitenoverzicht voor de producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
   
 U kunt bijvoorbeeld de activiteit begrijpen van elke gebruiker die een licentie heeft om Microsoft Forms te gebruiken door te kijken naar de interactie met formulieren. Het helpt u ook om het niveau van samenwerking te begrijpen door te kijken naar het aantal formulieren dat is gemaakt en formulieren waarmee de gebruiker heeft gereageerd.
   
 > [!NOTE]
-> U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange-, SharePoint-, Teams-, Teams-, Teams-, of Skype voor Bedrijven-beheerder om rapporten te kunnen zien.  
+> U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange, SharePoint, Teams Service, Teams Communications of Skype voor Bedrijven-beheerder om rapporten te kunnen zien.  
  
 ## <a name="how-to-get-to-the-forms-activity-report"></a>Het rapport Forms-activiteiten
 
@@ -44,11 +43,11 @@ U kunt bijvoorbeeld de activiteit begrijpen van elke gebruiker die een licentie 
   
 ## <a name="interpret-the-forms-activity-report"></a>Het rapport Forms-activiteit interpreteren
 
-U kunt de activiteiten in het rapport Formulieren bekijken door het tabblad **Activiteit te** kiezen.<br/>![Microsoft 365-rapporten - Microsoft Forms-activiteitenrapport.](../../media/275fb0a1-b9d9-4233-8aaf-e7df73cc705f.png)
+U kunt de activiteiten in het rapport Formulieren bekijken door het tabblad **Activiteit te** kiezen.<br/>![Microsoft 365 rapporten - Microsoft Forms-activiteitenrapport.](../../media/275fb0a1-b9d9-4233-8aaf-e7df73cc705f.png)
 
 Selecteer **Kolommen kiezen** om kolommen toe te voegen of te verwijderen uit het rapport.  <br/> ![Rapport Formulierenactiviteit : kies kolommen](../../media/0c9b0b69-5dc7-43ea-8e2c-54407b6ce2ab.png)
 
-U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de **koppeling Exporteren te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
+U kunt de rapportgegevens ook exporteren naar een Excel .csv bestand door de **koppeling Exporteren te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
   
 |Item|Beschrijving|
 |:-----|:-----|

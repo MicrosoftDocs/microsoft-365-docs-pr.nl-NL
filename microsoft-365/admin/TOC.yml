@@ -107,16 +107,30 @@
               href: create-groups/manage-guest-access-in-groups.md
             - name: Een gebruikersnaam en e-mailadres wijzigen
               href: add-users/change-a-user-name-and-email-address.md
-            - name: Een voormalige werknemer verwijderen
-              href: add-users/remove-former-employee.md
-            - name: Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken
-              href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: Een gebruiker herstellen
               href: add-users/restore-user.md
             - name: Een sjabloon maken om gebruikers toe te voegen
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: Gebruikers upgraden naar de nieuwste apps
               href: setup/upgrade-users-to-latest-office-client.md
+        - name: Een voormalige werknemer verwijderen
+          items:
+            - name: Overzicht
+              href: add-users/remove-former-employee.md
+            - name: Stap 1. Voorkomen dat een werknemer zich kan aanmelden en toegang tot Microsoft 365-services kan blokkeren
+              href: add-users/remove-former-employee-step-1.md
+            - name: Stap 2. De inhoud van het postvak van een voormalige werknemer opslaan
+              href: add-users/remove-former-employee-step-2.md
+            - name: Stap 3. E-mail van een voormalige werknemer doorsturen naar een andere werknemer of converteren naar een gedeeld postvak
+              href: add-users/remove-former-employee-step-3.md
+            - name: Stap 4. Een andere werknemer toegang geven tot OneDrive- en Outlook-gegevens
+              href: add-users/remove-former-employee-step-4.md
+            - name: Stap 5. Het mobiele apparaat van een voormalige werknemer wissen en blokkeren
+              href: add-users/remove-former-employee-step-5.md
+            - name: Stap 6. De Microsoft 365-licentie van een voormalige werknemer verwijderen
+              href: add-users/remove-former-employee-step-6.md
+            - name: Stap 7. Het gebruikersaccount van een voormalige werknemer verwijderen
+              href: add-users/remove-former-employee-step-7.md
         - name: Groepen
           items:
             - name: Groepsoverzicht

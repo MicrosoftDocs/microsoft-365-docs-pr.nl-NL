@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 01dd5feab17c68eed1da9d66c4310c50e90032c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 7d23230ebe4321f355128d1f3268e967a35a0a89
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162958"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245646"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Meer informatie over typen gevoelige informatie
 
@@ -36,9 +36,9 @@ Gevoelige informatietypen zijn classificaties op basis van patronen. Ze detecter
 ## <a name="sensitive-information-types-are-used-in"></a>Gevoelige informatietypen worden gebruikt in
 
 - [Preventiebeleid voor gegevensverlies](dlp-learn-about-dlp.md) 
-- [Vertrouwelijkheidslabels](sensitivity-labels.md)
+- [Gevoeligheidslabels](sensitivity-labels.md)
 - [Bewaarlabels](retention.md)
-- [Intern risicobeheer](insider-risk-management.md)
+- [Insider-risicobeheer](insider-risk-management.md)
 - [Communicatiecompliance](communication-compliance.md)
 - [Beleid voor automatisch labelen](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
@@ -149,8 +149,8 @@ Als u aangepaste gevoelige informatietypen wilt maken in het beveiligings- & com
 > Microsoft 365 Information Protection ondersteunt nu in voorbeeldtalen voor dubbele bytetekensets voor:
 > - Chinees (vereenvoudigd)
 > - Chinees (traditioneel)
-> - Korean
-> - Japanese
+> - Koreaans
+> - Japans
 
 >Deze ondersteuning is beschikbaar voor gevoelige informatietypen. Zie [Informatiebeveiligingsondersteuning voor dubbele bytetekensets releasenotities (preview)](mip-dbcs-relnotes.md) voor meer informatie.
 
@@ -158,5 +158,7 @@ Als u aangepaste gevoelige informatietypen wilt maken in het beveiligings- & com
 - [Definities van entiteiten van het type Gevoelige informatie](sensitive-information-type-entity-definitions.md)
 - [Een aangepast type gevoelige informatie maken](create-a-custom-sensitive-information-type.md)
 - [Een aangepast type gevoelige informatie maken in PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
+
+Zie Informatiebeveiliging implementeren voor privacyregels voor gegevens met [](../solutions/information-protection-deploy.md) Microsoft 365 (aka.ms/m365dataprivacy).
 
 <!-- fwlink for this topic https://go.microsoft.com/fwlink/?linkid=2135644-->

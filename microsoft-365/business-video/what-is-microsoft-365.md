@@ -20,12 +20,12 @@ search.appverid:
 description: Meer informatie over de functies van Microsoft 365 Business Premium.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: f4c41e86f3a98c2af076a58e311aa14be79704e9
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 336d206b3853baa2bdde5d925113dc0887919da7
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580328"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245178"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
@@ -45,5 +45,7 @@ Wanneer je je registreert voor Microsoft 365 Business Premium, krijg je dezelfde
 | Bedrijfsgegevens beveiligen | Je persoonsgegevens worden beveiligd op persoonlijke apparaten met pincode en de functies kopiëren en opslaan worden beperkt. Je kan ook informatiebeveiliging toevoegen zodat je ervoor kan zorgen dat enkel geautoriseerde personen toegang hebben tot gevoelige informatie. |
 | Je apparaten beveiligen | Je kan je werkbestanden beveiligen op je apparaten door mobiele toegang te beperken, zoals kopiëren en plakken. Je kan ook selectief zakelijke gegevens wissen van ingeschreven mobiele apparaten als ze gestolen of verloren zijn. |
 | Aanvullende beveiligingsfuncties | De geavanceerde functies zijn beschikbaar in Microsoft 365 Business Premium voor de beveiliging van je business tegen cyber-dreigingen en de bescherming van gevoelige informatie. De mogelijkheden bevatten Office 365 Advanced Threat Protection, Beleid ter preventie van gegevensverlies (DLP), Exchange Online Archiving, Azure Information Protection en Intune. |
+
+Als u Microsoft Business Premium hebt, is de snelste manier om beveiliging in te stellen en veilig samen te werken, het volgen van de richtlijnen in deze bibliotheek: [Microsoft 365 voor kleinere bedrijven en campagnes](../campaigns/index.md). Deze richtlijnen zijn ontwikkeld in samenwerking met het Microsoft Defending Democracy-team om alle kleine zakelijke klanten te beschermen tegen cyberbedreigingen die worden uitgevoerd door geavanceerde hackers. 
 
 Zie [Microsoft 365 Business-inhoud](../business/index.yml) voor alle details.

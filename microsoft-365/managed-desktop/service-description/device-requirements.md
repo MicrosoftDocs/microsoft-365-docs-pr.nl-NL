@@ -1,6 +1,6 @@
 ---
 title: Apparaatvereisten
-description: Overzicht van de minimale hardware- en softwarevereisten voor apparaten die met Microsoft Managed Desktop kunnen werken
+description: Overzicht van de minimale hardware- en softwarevereisten voor apparaten om met apparaten te Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: baaebd185389e7ac1f2173aed092141067a5629f
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: fcd7f192ba0846e3bf3051cde927095088f32d26
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768888"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245790"
 ---
 # <a name="device-requirements"></a>Apparaatvereisten
 
-Microsoft Managed Desktop evalueert regelmatig apparaatvereisten die moeten worden opgenomen in de service. In dit artikel wordt beschreven aan welke hardware- en softwarevereisten een apparaat moet voldoen om met Microsoft Managed Desktop te kunnen werken. U kunt een lijst bekijken met specifieke [apparaten die al zijn](device-list.md) goedgekeurd voor gebruik met de service op basis van deze vereisten.
+Microsoft Managed Desktop regelmatig apparaatvereisten evalueren die moeten worden opgenomen in de service. In dit artikel wordt beschreven aan welke hardware- en softwarevereisten een apparaat moet voldoen om te kunnen werken met Microsoft Managed Desktop. U kunt een lijst bekijken met specifieke apparaten die al zijn goedgekeurd voor gebruik met de service op basis van deze vereisten. Filteren op Microsoft Managed Desktop op de [site Windows 10 Pro zakelijke apparaten](https://www.microsoft.com/windowsforbusiness/view-all-devices)
 
 > [!NOTE]
 > Deze vereisten kunnen op elk moment worden gewijzigd, maar we zullen u 30 dagen van de kennisgeving voorzien van wijzigingen in de hardwarevereisten. De vereisten die het laatst zijn gewijzigd, worden gemarkeerd met **\*** . 
@@ -29,7 +29,7 @@ Naast het controleren van apparaatspecificaties, [](../get-ready/readiness-asses
 
 ## <a name="minimum-requirements"></a>Minimumvereisten
 
-Als u zich wilt inschrijven voor Microsoft Managed Desktop, moet een apparaat aan al deze vereisten voldoen of deze overschrijden.
+Als u zich wilt Microsoft Managed Desktop, moet een apparaat aan al deze vereisten voldoen of deze overschrijden.
 
 ### <a name="manufacturer"></a>Fabrikant
 
@@ -45,8 +45,8 @@ Het apparaat moet zijn gemaakt door een van deze fabrikanten:
 
 Op het apparaat moet deze software vooraf zijn geïnstalleerd:
 
-- Windows 10 Enterprise, Pro of Pro Workstation edition
-- de 64-bits versie van Microsoft 365 Apps voor bedrijven 
+- Windows 10 Enterprise, Pro of Pro Workstation-editie
+- de 64-bits versie van Microsoft 365-apps voor ondernemingen 
 - Alle toepasselijke apparaat stuurprogramma's
 
 
@@ -59,7 +59,7 @@ Apparaten moeten de volgende mogelijkheden hebben:
 - Beveiliging op basis van virtualisatie 
 - [Met hypervisor beveiligde codeintegriteit die](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) wordt ondersteund door de BIOS
 
-Zie [Microsoft Managed Desktop-technologieën](../intro/technologies.md)voor meer informatie over deze mogelijkheden en de technologieën die hiermee verband houden.
+Zie voor meer informatie over deze mogelijkheden en de technologieën die hiermee verband houden dat de service [gebruikt, Microsoft Managed Desktop technologieën.](../intro/technologies.md)
 
 > [!NOTE]
 > ARM processors worden niet ondersteund.
@@ -70,13 +70,13 @@ Apparaten moeten voldoen aan of de volgende limieten voor opslag en geheugen ove
 - Opstartstation moet een capaciteit van ten minste 128 GB hebben.
 - Intern geheugen (RAM) moet gelijk zijn aan of groter zijn dan 8 GB.
 
-Als het apparaat na 1 juli 2020 is gemaakt, moet het ook een IR-camera, vingerafdruklezer of beide hebben om [Windows Hello te ondersteunen.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
+Als het apparaat na 1 juli 2020 is gemaakt, moet het ook een IR-camera, vingerafdruklezer of beide hebben, ter ondersteuning van [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 
 ## <a name="recommended-features"></a>Aanbevolen functies
 
 Uw gebruikers hebben een veel betere ervaring als u apparaten kiest die deze functies hebben:
 
-- Een Intel vPro-platformprocessor of een AMD Ryzen Pro-processor
+- Een Intel vPro-platformprocessor of een AMD Ryzen-Pro processor
 - Opstartstation van het type SSD met een capaciteit van ten minste 256 GB
 - Intern geheugen (RAM) van ten minste 16 GB
 - Ondersteuning voor moderne stand-by

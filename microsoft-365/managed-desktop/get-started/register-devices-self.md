@@ -11,19 +11,21 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: b2976fc643eb433039d9595bc8e9632fd8cb60ea
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 850d7e6692d3ccbfda6e15c8d5ca95301bd4d094
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893471"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245610"
 ---
 # <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
-Microsoft Managed Desktop kan werken met gloednieuwe apparaten of u kunt apparaten die u mogelijk al hebt opnieuw gebruiken (waarvoor u deze opnieuw moet weergeven). U kunt apparaten registreren met Microsoft Managed Desktop in de Microsoft Endpoint Manager-portal.
+Microsoft Managed Desktop kunt werken met gloednieuwe apparaten of u kunt apparaten die u mogelijk al hebt opnieuw gebruiken (waarvoor u ze opnieuw moet maken). U kunt apparaten registreren met Microsoft Managed Desktop in de Microsoft Endpoint Manager portal.
 
 > [!NOTE]
 > Werkt u samen met een partner om apparaten te verkrijgen? Als dat zo is, hoeft u zich geen zorgen te maken over het verkrijgen van de hardwarehashes. ze zullen dat voor u doen. Zorg ervoor dat uw partner een relatie met u heeft in het [Partnercentrum.](https://partner.microsoft.com/dashboard) Uw partner kan meer informatie krijgen bij [Help voor partnercentrum.](/partner-center/request-a-relationship-with-a-customer) Wanneer deze relatie tot stand is gebracht, registreert uw partner alleen apparaten namens u, zonder verdere actie van u. Zie Stappen voor Partners om apparaten te registreren als u de details wilt zien of als uw partner vragen [heeft.](register-devices-partner.md) Nadat de apparaten zijn geregistreerd, kunt u doorgaan met het controleren van de [afbeelding](#check-the-image) en het leveren van [de apparaten](#deliver-the-device) aan uw gebruikers.
+
+
 
 ## <a name="prepare-to-register-brand-new-devices"></a>Voorbereidingen treffen om gloednieuwe apparaten te registreren
 
@@ -32,21 +34,21 @@ Wanneer u de nieuwe apparaten hebt, volgt u de volgende stappen:
 
 1. [Verkrijg de hardwarehash voor elk apparaat.](#obtain-the-hardware-hash)
 2. [De hashgegevens samenvoegen](#merge-hash-data)
-3. [Registreer de apparaten in Microsoft Managed Desktop](#register-devices-by-using-the-admin-portal).
+3. [Registreer de apparaten in Microsoft Managed Desktop.](#register-devices-by-using-the-admin-portal)
 4. [Controleer of de afbeelding juist is.](#check-the-image)
 5. [Het apparaat leveren](#deliver-the-device)
 
 ### <a name="obtain-the-hardware-hash"></a>De hardwarehash verkrijgen
 
-Microsoft Managed Desktop identificeert elk apparaat uniek door te verwijzen naar de hardware-hash. U hebt drie opties voor het verkrijgen van deze informatie:
+Microsoft Managed Desktop elk apparaat uniek identificeert door te verwijzen naar de hardwarehash. U hebt drie opties voor het verkrijgen van deze informatie:
 
 - Vraag uw OEM-leverancier om het AutoPilot-registratiebestand, dat de hardwarehashes bevat.
-- Voer op [elk apparaat een Windows PowerShell-script uit](#powershell-script-method) en verzamel de resultaten in een bestand.
-- Start elk apparaat, maar voltooi de Installatie-ervaring van Windows niet en verzamel de [hashes op een verwisselbaar flashstation.](#flash-drive-method)
+- Voer een [Windows PowerShell script uit](#powershell-script-method) op elk apparaat en verzamel de resultaten in een bestand.
+- Start elk apparaat, maar voltooi de configuratie-Windows niet en verzamel de [hashes op een verwisselbaar flashstation.](#flash-drive-method)
 
 #### <a name="powershell-script-method"></a>PowerShell-scriptmethode
 
-U kunt het [ powershell-scriptGet-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) powershell gebruiken op de website van de PowerShell-galerie. Zie Apparaten toevoegen aan [Windows Autopilot](/mem/autopilot/add-devices#device-identification)voor meer informatie over apparaatidentificatie en hardware-hash.
+U kunt het [ powershell-scriptGet-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) powershell gebruiken op de website van de PowerShell-galerie. Zie Apparaten toevoegen aan Windows Autopilot voor meer informatie [over apparaatidentificatie en hardwarehash.](/mem/autopilot/add-devices#device-identification)
 
 1.  Open een PowerShell-prompt met beheerdersrechten.
 2.  Uitvoeren `Install-Script -Name Get-WindowsAutoPilotInfo`
@@ -79,7 +81,7 @@ U moet de gegevens in de CSV-bestanden in één bestand laten combineren om de r
 
 ### <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheerportal
 
-Selecteer [in Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **Apparaten** in het linkernavigatiedeelvenster. Zoek de sectie Microsoft Managed Desktop van het menu en selecteer **Apparaten.** Selecteer + **Registreer** apparaten in de werkruimte Beheerde bureaubladapparaten van Microsoft, waarmee u een fly-in opent om nieuwe apparaten te registreren.
+Selecteer [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)in **het** linkernavigatiedeelvenster apparaten. Zoek naar de Microsoft Managed Desktop van het menu en selecteer **Apparaten.** Selecteer in Microsoft Managed Desktop werkruimte Apparaten Selecteer **+ Registreer** apparaten, waarmee een fly-in wordt geopend om nieuwe apparaten te registreren.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
@@ -94,15 +96,15 @@ Volg deze stappen:
 3. Selecteer **Apparaten registreren.** Het systeem voegt de apparaten toe aan uw lijst met apparaten op **apparaten**, gemarkeerd als **Registratie in behandeling.** Registratie duurt meestal minder dan 10 minuten en  wanneer het apparaat is geslaagd, wordt het apparaat als Gereed voor gebruiker gebruikt, wat betekent dat het klaar is en wacht totdat een gebruiker het gaat gebruiken.
 
 > [!NOTE]
-> Als u handmatig het AAD-groepslidmaatschap van Azure Active Directory van een apparaat wijzigt, wordt het automatisch opnieuw toegewezen aan de groep voor het apparaatprofiel en verwijderd uit conflicterende groepen.
+> Als u het lidmaatschap van de Azure Active Directory (AAD) van een apparaat handmatig wijzigt, wordt het automatisch opnieuw toegewezen aan de groep voor het apparaatprofiel en verwijderd uit conflicterende groepen.
 
 U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogelijke staten die daar zijn gerapporteerd, zijn:
 
-| Status | Beschrijving |
+| Status | Omschrijving |
 |---------------|-------------|
 | Registratie in behandeling | Registratie is nog niet klaar. Controleer het later opnieuw. |
 | Registratie is mislukt | Registratie kan niet worden voltooid. Raadpleeg [Apparaatregistratie oplossen voor](#troubleshooting-device-registration) meer informatie. |
-| Klaar voor gebruiker | Registratie is geslaagd en het apparaat is nu klaar om aan de gebruiker te worden geleverd. Microsoft Managed Desktop begeleidt ze bij de eerste keer instellen, zodat u geen verdere voorbereidingen hoeft te treffen. |
+| Klaar voor gebruiker | Registratie is geslaagd en het apparaat is nu klaar om aan de gebruiker te worden geleverd. Microsoft Managed Desktop begeleidt hen bij de eerste keer instellen, zodat u geen verdere voorbereidingen hoeft te treffen. |
 | Actief | Het apparaat is geleverd aan de gebruiker en heeft zich geregistreerd bij uw tenant. Deze status geeft ook aan dat ze het apparaat regelmatig gebruiken. |
 | Inactief | Het apparaat is geleverd aan de gebruiker en heeft zich geregistreerd bij uw tenant. Ze hebben het apparaat echter onlangs (in de afgelopen 7 dagen) niet gebruikt.  | 
 
@@ -118,18 +120,18 @@ U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogel
 
 ### <a name="check-the-image"></a>De afbeelding controleren
 
-Als uw apparaat afkomstig is van een Microsoft Managed Desktop-partnerleverancier, moet de afbeelding juist zijn.
+Als uw apparaat afkomstig is van een Microsoft Managed Desktop partnerleverancier, moet de afbeelding juist zijn.
 
 U kunt de afbeelding ook zelf toepassen als u dat wilt. Als u wilt beginnen, neemt u contact op met de Microsoft-vertegenwoordiger met wie u werkt. Deze vertegenwoordiger geeft u de locatie en stappen voor het toepassen van de afbeelding.
 
 ### <a name="autopilot-group-tag"></a>Autopilot-groepslabel
 
 Wanneer u de beheerportal gebruikt om apparaten te registreren, wordt automatisch de Microsoft365Managed_Autopilot **Autopilot** Group Tag toegewezen.
-De service controleert dagelijks alle beheerde bureaubladapparaten van Microsoft en wijst de groepstag toe aan alle apparaten die deze nog niet hebben.
+De service controleert Microsoft Managed Desktop apparaten dagelijks en wijst de groepstag toe aan alle apparaten die deze nog niet hebben.
 
 ### <a name="deliver-the-device"></a>Het apparaat leveren
 
 > [!IMPORTANT]
 > Voordat u het apparaat aan uw gebruiker aflevert, [](../get-ready/prerequisites.md) moet u ervoor zorgen dat u de juiste licenties voor die gebruiker hebt verkregen en toegepast.
 
-Als alle licenties worden toegepast, kunt u uw gebruikers voorbereiden op het gebruik van apparaten [en](get-started-devices.md)vervolgens kan uw gebruiker het apparaat starten en doorgaan met de Installatie-ervaring van Windows.
+Als alle licenties worden toegepast, [](get-started-devices.md)kunt u uw gebruikers voorbereiden op het gebruik van apparaten en vervolgens kan uw gebruiker het apparaat starten en doorgaan met de Windows installatie.

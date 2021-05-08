@@ -1,6 +1,6 @@
 ---
 title: Overzicht van apparaatdetectie
-description: Meer informatie over het gebruik van eindpuntdetectie in Microsoft 365 Defender om niet-bemande apparaten in uw netwerk te vinden
+description: Meer informatie over het gebruik van eindpunten ontdekken in Microsoft 365 Defender om niet-bemande apparaten in uw netwerk te vinden
 keywords: apparaatdetectie, ontdekken, passief, proactief, netwerk, zichtbaarheid, server, werkstation, onboard, onbeheerde apparaten
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c549d5d2a7c30892a9272b4ac3e03cb8979bc1a5
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 2dee1193e9f852e66df324927bf38d37d736d251
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764985"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245946"
 ---
 # <a name="device-discovery-overview"></a>Overzicht van apparaatdetectie
 
@@ -96,10 +96,11 @@ Apparaten die zijn ontdekt, maar nog niet zijn onboarded en beveiligd door Micro
 
 ![Afbeelding van het dashboard apparaatvoorraad](images/2b62255cd3a9dd42f3219e437b956fb9.png)
 
-
+> [!TIP]
+> U kunt altijd filters toepassen om niet-beheerde apparaten uit de lijst met apparaatvoorraad uit te sluiten. U kunt ook de kolom onboardingstatus op API-query's gebruiken om niet-gebouwde apparaten te filteren. 
 
 ## <a name="vulnerability-assessment-on-discovered-devices"></a>Beoordeling van kwetsbaarheid op gevonden apparaten
-Beveiligingslekken en risico's op uw apparaten en andere ontdekte niet-bemande apparaten in het netwerk maken deel uit van de huidige TVM-stromen onder 'Beveiligingsaanbevelingen' en worden weergegeven op entiteitspagina's in de portal. Zoek naar SSH-gerelateerde beveiligingsaanbevelingen om SSH-beveiligingslekken te vinden die zijn gerelateerd aan niet-beheerde en beheerde apparaten. 
+Beveiligingslekken en risico's op uw apparaten en andere ontdekte niet-bemande apparaten in het netwerk maken deel uit van de huidige TVM-stromen onder 'Beveiligings Aanbevelingen' en worden weergegeven op entiteitspagina's in de portal. Zoek naar SSH-gerelateerde beveiligingsaanbevelingen om SSH-beveiligingslekken te vinden die zijn gerelateerd aan niet-beheerde en beheerde apparaten. 
 
 ![Afbeelding van dashboard met beveiligingsaanbevelingen](images/1156c82ffadd356ce329d1cf551e806c.png)  
 
@@ -131,8 +132,8 @@ DeviceNetworkEvents
 ```
 
 
-## <a name="changed-behaviour"></a>Gewijzigd gedrag
-In de volgende sectie vindt u de wijzigingen die u ziet in Microsoft Defender voor Eindpunt en/of Microsoft 365-beveiligingscentrum wanneer deze functie is ingeschakeld. 
+## <a name="changed-behavior"></a>Gewijzigd gedrag
+In de volgende sectie vindt u de wijzigingen die u ziet in Microsoft Defender voor Eindpunt en/of Microsoft 365 beveiligingscentrum wanneer deze functie is ingeschakeld. 
  
 1.  Apparaten die niet zijn onboarded bij Microsoft Defender to Endpoint, worden naar verwachting weergegeven in de apparaatvoorraad, geavanceerde zoekopdrachten en API-query's. Hierdoor kunnen de queryresultaten aanzienlijk groter worden. 
     1. In de tabellen 'DeviceInfo' en 'DeviceNetworkInfo' in Advanced Hunting wordt nu het apparaat gevonden. U kunt deze apparaten filteren met het kenmerk OnboardingStatus.

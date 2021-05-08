@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b3fef3479fa2d36806e6657b31f5152c54b9251f
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 1c61e69b5c8d414ab229fa8bf64eb657a6e40304
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764997"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245958"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>Veelgestelde vragen over apparaatdetectie
 
@@ -49,16 +49,20 @@ U hebt de optie om apparaatdetectie uit te schakelen via de [pagina Geavanceerde
  In deze modus kunnen eindpunten die zijn onboarded bij Microsoft Defender voor Eindpunt, actief geobserveerde apparaten in het netwerk onderzoeken om verzamelde gegevens te verrijken (met weinig netwerkverkeer). Deze modus wordt ten zeerste aanbevolen voor het maken van een betrouwbare en coherente apparaatvoorraad. Als u ervoor kiest om deze modus uit te schakelen en de basisdetectiemodus selecteert, krijgt u waarschijnlijk slechts beperkte zichtbaarheid van niet-bemande eindpunten in uw netwerk.
 
 ## <a name="can-i-control-which-devices-perform-standard-discovery"></a>Kan ik bepalen welke apparaten Standaarddetectie uitvoeren?
- U kunt de lijst met apparaten aanpassen die worden gebruikt om Standaarddetectie uit te voeren. U kunt Standaarddetectie inschakelen op alle onboarded-apparaten die deze mogelijkheid ook ondersteunen (momenteel alleen Windows 10-apparaten) of een subset of subset van uw apparaten selecteren door hun apparaatlabels op te geven. In dit geval worden alle andere apparaten geconfigureerd om alleen Basisdetectie uit te voeren. De configuratie is beschikbaar op de pagina Apparaatdetectie-instellingen.
+ U kunt de lijst met apparaten aanpassen die worden gebruikt om Standaarddetectie uit te voeren. U kunt Standaarddetectie inschakelen op alle onboarded-apparaten die deze mogelijkheid ook ondersteunen (momenteel alleen Windows 10 apparaten) of een subset of subset van uw apparaten selecteren door hun apparaatlabels op te geven. In dit geval worden alle andere apparaten geconfigureerd om alleen Basisdetectie uit te voeren. De configuratie is beschikbaar op de pagina Apparaatdetectie-instellingen.
+
+## <a name="can-i-exclude-unmanaged-devices-from-the-device-inventory-list"></a>Kan ik niet-beheerde apparaten uitsluiten uit de lijst met apparaatvoorraad?
+Ja, u kunt filters toepassen om niet-beheerde apparaten uit de lijst met apparaatvoorraad uit te sluiten. U kunt ook de kolom onboardingstatus op API-query's gebruiken om niet-gebouwde apparaten te filteren. 
+
 
 ## <a name="which-onboarded-devices-can-perform-discovery"></a>Welke onboarded-apparaten kunnen detectie uitvoeren?
- Onboarded-apparaten met Windows 10 versie 1809 of hoger kunnen detectie uitvoeren.
+ Onboarded-apparaten die op Windows 10 versie 1809 of hoger worden uitgevoerd, kunnen detectie uitvoeren.
 
 ## <a name="what-happens-if-my-onboarded-devices-is-connected-to-my-home-network-or-to-public-access-point"></a>Wat gebeurt er als mijn onboarded-apparaten zijn verbonden met mijn thuisnetwerk of met het openbare toegangspunt?
- De detectie-engine maakt onderscheid tussen netwerkgebeurtenissen die worden ontvangen in het bedrijfsnetwerk en buiten het bedrijfsnetwerk. Door netwerkaanduidingen te correleren tussen alle tenant-clients, worden gebeurtenissen gedifferentieerd tussen gebeurtenissen die zijn ontvangen van privénetwerken en bedrijfsnetwerken. Privénetwerkapparaten worden niet vermeld in de inventaris en worden niet actief onderzocht.
+ De detectie-engine maakt onderscheid tussen netwerkgebeurtenissen die worden ontvangen in het bedrijfsnetwerk en buiten het bedrijfsnetwerk. Door netwerkaanduidingen te correleren tussen alle tenant-clients, worden gebeurtenissen gedifferentieerd tussen gebeurtenissen die zijn ontvangen van privénetwerken en bedrijfsnetwerken. Als de meeste apparaten in het netwerk bijvoorbeeld melden dat ze zijn verbonden met dezelfde netwerknaam, met hetzelfde standaardgateway- en DHCP-serveradres, kan ervan worden uitgegaan dat dit netwerk waarschijnlijk een bedrijfsnetwerk is. Privénetwerkapparaten worden niet vermeld in de inventaris en worden niet actief onderzocht.
 
 ## <a name="what-protocols-are-you-capturing-and-analyzing"></a>Welke protocollen legt u vast en analyseert u?
- Standaard zijn alle onboarded-apparaten met Windows 10 versie 1809 of hoger bezig met het vastleggen en analyseren van de volgende protocollen: ARP, CDP, DHCP, DHCPv6, IP (headers), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP (headers), UDP (headers), WSD
+ Standaard worden alle onboarded-apparaten die op Windows 10 versie 1809 of hoger worden uitgevoerd, de volgende protocollen vastleggen en analyseren: ARP, CDP, DHCP, DHCPv6, IP (headers), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP (headers), UDP (headers), WSD
 
 ## <a name="which-protocols-do-you-use-for-active-probing-in-standard-discovery"></a>Welke protocollen gebruikt u voor actief onderzoek in Standaarddetectie?
  Wanneer een apparaat is geconfigureerd voor het uitvoeren van standaarddetectie, worden blootgestelde services getest met behulp van de volgende protocollen: ARP, FTP, HTTP, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL

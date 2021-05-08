@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Informatie over het configureren van bronnen voor leerinhoud voor Microsoft Viva Learning (Preview) in het Microsoft 365 beheercentrum.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1bbe65db9dee028f57849de8a5538c996c3e2a4
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: b2e6ab6306db9a5ac9d91226431e5876cc244499
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100901"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245418"
 ---
 # <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>Leerinhoudsbronnen configureren voor Microsoft Viva Learning (Preview) in het Microsoft 365 beheercentrum
 
@@ -35,7 +35,7 @@ De beheerder selecteert welke andere bronnen van leerinhoud (bijvoorbeeld ShareP
 > [!NOTE]
 >  Gebruikers melden zich aan bij niet-Microsoft en LinkedIn Learning Pro in een browser of ingesloten viewer. Voor dit geconfigureerde leren gelden de afzonderlijke licentie-, privacy- en servicevoorwaarden tussen uw organisatie en de derde partij, en niet de voorwaarden van Viva Learning (Preview). Voordat u dit type leerproces selecteert, controleert u of er een overeenkomst is gesloten voor uw organisatie en gebruikers.
 
-## <a name="assign-the-knowledge-admin-role-optional"></a>De rol van kennisbeheerder toewijzen [Optioneel]
+## <a name="assign-the-knowledge-admin-role-optional"></a>De rol van kennisbeheerder toewijzen (optioneel)
 
 U moet een globale Microsoft 365 zijn om deze taken uit te voeren.
 
@@ -78,11 +78,11 @@ Als u instellingen wilt configureren voor leerinhoudsbronnen in Viva Learning, v
 
 1.  Ga in de linkernavigatie van het Microsoft 365 beheercentrum **naar Instellingen**  >  **Organisatie-instellingen.**
 
-2.  Selecteer op **de pagina Organisatie-instellingen** op het **tabblad Services** de **optie Leer-app (Voorbeeld)**.
+2.  Selecteer op **de pagina Organisatie-instellingen** op het **tabblad Services** de optie Viva **Learning (voorbeeld)**.
 
      ![Instellingen pagina in het Microsoft 365 beheercentrum met de weergegeven Leer-app.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  Selecteer in **het deelvenster Leer-app (Preview)** de leerinhoudsbronnen die u wilt configureren voor de organisatie en selecteer **opslaan.**
+3.  Selecteer in **het deelvenster Viva Learning (Preview)** de leerinhoudsbronnen die u wilt configureren voor de organisatie en selecteer vervolgens **Opslaan.**
 
      ![Leervenster in het Microsoft 365 beheercentrum met opties voor inhoudsbronnen.](../media/learning/learning-sharepoint-configure2.png)
 

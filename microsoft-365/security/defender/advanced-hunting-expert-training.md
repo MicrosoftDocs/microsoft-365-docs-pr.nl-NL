@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: aee2d3204a5d30005c15199baa3af08f5e583a33
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 136e7cba26d55676fdf3b3b7f0f9ef967e7d7991
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935435"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245826"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Krijg deskundige training over geavanceerd jagen
 
@@ -34,28 +34,29 @@ ms.locfileid: "51935435"
 
 **Van toepassing op:**
 - Microsoft 365 Defender
+- Microsoft Defender voor Eindpunt
 
 Vergroot uw kennis van geavanceerde jacht snel met _Het bijhouden_ van de tegenpartij, een webcastreeks voor nieuwe beveiligingsanalisten en doorgevinterde bedreigingsjagers. De reeks begeleidt u door de basisbeginselen tot aan het maken van uw eigen geavanceerde query's. Begin met de eerste video over grondbeginselen of ga naar meer geavanceerde video's die passen bij uw ervaringsniveau.
 
-| Title | Beschrijving | Kijken | Query's | 
+| Title | Omschrijving | Kijken | Query's | 
 |--|--|--|--|
-| Aflevering 1: KQL-fundamentals | In deze aflevering worden de basisbeginselen van geavanceerde jacht in Microsoft 365 Defender bestrijkt. Meer informatie over beschikbare geavanceerde zoekgegevens en basis-syntaxis en operatoren van KQL. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
-| Aflevering 2: Joins | Lees verder over gegevens in geavanceerde zoekprocessen en hoe u tabellen kunt samenbrengen. Lees meer `inner` over `outer` , en `unique` `semi` joins en begrijp de nuances van de standaard `innerunique` Kusto-join. | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
-| Aflevering 3: Gegevens samenvatten, draaien en visualiseren | Nu u hebt geleerd gegevens te filteren, te manipuleren en deel te nemen, is het tijd om gegevens samen te vatten, kwantificeren, te draaien en te visualiseren. In deze aflevering worden de operator en verschillende berekeningen besproken, terwijl u aanvullende `summarize` tabellen in het schema introduceert. U leert ook gegevenssets om te zetten in grafieken waarmee u inzicht kunt verkrijgen. | [YouTube](https://youtu.be/UKnk9U1NH6Y?t=296) (48:52) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
-| Aflevering 4: Laten we op zoek gaan! KQL toepassen op het bijhouden van incidenten | In deze aflevering leert u hoe u bepaalde activiteiten van aanvallers kunt bijhouden. We gebruiken ons verbeterde begrip van Kusto en geavanceerde jacht om een aanval bij te houden. Leer de werkelijke trucs die in het veld worden gebruikt, waaronder de ABC's van cyberbeveiliging en hoe u deze kunt toepassen op incidentrespons. | [YouTube](https://youtu.be/2EUxOc_LNd8?t=291) (59:36) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl) 
+| Aflevering 1: KQL-fundamentals | In deze aflevering worden de basisbeginselen van geavanceerde Microsoft 365 Defender bestrijkt. Meer informatie over beschikbare geavanceerde zoekgegevens en basis-syntaxis en operatoren van KQL. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [Tekstbestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.txt) |
+| Aflevering 2: Joins | Lees verder over gegevens in geavanceerde zoekprocessen en hoe u tabellen kunt samenbrengen. Lees meer `inner` over `outer` , en `unique` `semi` joins en begrijp de nuances van de standaard `innerunique` Kusto-join. | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [Tekstbestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.txt) |
+| Aflevering 3: Gegevens samenvatten, draaien en visualiseren | Nu u hebt geleerd gegevens te filteren, te manipuleren en deel te nemen, is het tijd om gegevens samen te vatten, kwantificeren, te draaien en te visualiseren. In deze aflevering worden de operator en verschillende berekeningen besproken, terwijl u aanvullende `summarize` tabellen in het schema introduceert. U leert ook gegevenssets om te zetten in grafieken waarmee u inzicht kunt verkrijgen. | [YouTube](https://youtu.be/UKnk9U1NH6Y?t=296) (48:52) | [Tekstbestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.txt) |
+| Aflevering 4: Laten we op zoek gaan! KQL toepassen op het bijhouden van incidenten | In deze aflevering leert u hoe u bepaalde activiteiten van aanvallers kunt bijhouden. We gebruiken ons verbeterde begrip van Kusto en geavanceerde jacht om een aanval bij te houden. Leer de werkelijke trucs die in het veld worden gebruikt, waaronder de ABC's van cyberbeveiliging en hoe u deze kunt toepassen op incidentrespons. | [YouTube](https://youtu.be/2EUxOc_LNd8?t=291) (59:36) | [Tekstbestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.txt) 
 
 
-Krijg meer deskundige training met *L33TSP3AK:* Geavanceerde jacht in Microsoft 365 Defender , een webcastreeks voor analisten die hun technische kennis en praktische vaardigheden willen uitbreiden bij het uitvoeren van beveiligingsonderzoeken met behulp van geavanceerde jacht in Microsoft 365 Defender. 
+Krijg meer experttraining met *L33TSP3AK:* Geavanceerde jacht in Microsoft 365 Defender, een webcastreeks voor analisten die hun technische kennis en praktische vaardigheden willen uitbreiden bij het uitvoeren van beveiligingsonderzoeken met behulp van geavanceerde jacht in Microsoft 365 Defender. 
 
-| Title | Beschrijving | Kijken | Query's | 
+| Title | Omschrijving | Kijken | Query's | 
 |--|--|--|--|
-| Aflevering 1  | In deze aflevering leert u verschillende best practices voor het uitvoeren van geavanceerde zoekquery's. Een van de onderwerpen die worden besproken zijn: het optimaliseren van uw query's, het gebruik van geavanceerde zoek naar ransomware, het verwerken van JSON als een dynamisch type en het werken met externe gegevensoperatoren. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [CSL-bestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.csl)
+| Aflevering 1  | In deze aflevering leert u verschillende best practices voor het uitvoeren van geavanceerde zoekquery's. Een van de onderwerpen die worden besproken zijn: het optimaliseren van uw query's, het gebruik van geavanceerde zoek naar ransomware, het verwerken van JSON als een dynamisch type en het werken met externe gegevensoperatoren. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [Tekstbestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.txt)
 
 
 ## <a name="how-to-use-the-csl-file"></a>Het CSL-bestand gebruiken
-Voordat u een aflevering start, hebt u toegang tot het bijbehorende [CSL-bestand Kusto op GitHub](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/tree/master/Webcasts/TrackingTheAdversary) en kopieert u de inhoud ervan naar de geavanceerde queryeditor. Terwijl u een aflevering bekijkt, kunt u de gekopieerde inhoud gebruiken om de spreker te volgen en query's uit te voeren. 
+Voordat u een aflevering start, hebt u toegang tot het bijbehorende tekstbestand [op](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/tree/master/Webcasts) GitHub en kopieert u de inhoud naar de geavanceerde queryeditor. Terwijl u een aflevering bekijkt, kunt u de gekopieerde inhoud gebruiken om de spreker te volgen en query's uit te voeren. 
 
-In het volgende fragment uit een CSL-bestand ziet u een uitgebreide set richtlijnen die zijn gemarkeerd als opmerkingen met `//` .
+In het volgende fragment uit een tekstbestand met de query's ziet u een uitgebreide set richtlijnen die zijn gemarkeerd als opmerkingen met `//` .
 
 ```kusto
 // DeviceLogonEvents
@@ -68,7 +69,7 @@ In het volgende fragment uit een CSL-bestand ziet u een uitgebreide set richtlij
 // - Timestamp
 ```
 
-Hetzelfde CSL-bestand bevat query's voor en na de opmerkingen zoals hieronder wordt weergegeven. Als u een specifieke query wilt uitvoeren met [meerdere query's in](advanced-hunting-query-language.md#work-with-multiple-queries-in-the-editor)de editor, verplaatst u de cursor naar die query en selecteert u **Query uitvoeren.**   
+Hetzelfde tekstbestand bevat query's voor en na de opmerkingen zoals hieronder wordt weergegeven. Als u een specifieke query wilt uitvoeren met [meerdere query's in](advanced-hunting-query-language.md#work-with-multiple-queries-in-the-editor)de editor, verplaatst u de cursor naar die query en selecteert u **Query uitvoeren.**   
 
 ```kusto
 DeviceLogonEvents

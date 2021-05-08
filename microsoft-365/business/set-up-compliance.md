@@ -1,5 +1,5 @@
 ---
-title: Bedreigingsbeveiliging voor Microsoft 365 Business Premium verhogen
+title: Bescherming tegen bedreigingen voor Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Stel compliancefuncties in om gegevensverlies te voorkomen en om de gevoelige informatie van uw en uw klanten veilig te houden.
-ms.openlocfilehash: c0accc37d3dcda9ba75813f01a98a3233c5a8369
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 945f8a283b90b89da2fbe67a073e0807b80d198f
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579949"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245079"
 ---
 # <a name="set-up-compliance-features"></a>Compliancefuncties instellen
 
@@ -39,9 +39,9 @@ Zie [Een DLP-beleid maken op basis](../compliance/create-a-dlp-policy-from-a-tem
   
 DLP wordt geleverd met veel kant-en-klare beleidssjablonen voor veel verschillende locales. Bijvoorbeeld: Australia Financial Data, Canada Personal Information Act, U.S. Financial Data, en meer. Zie [Wat de DLP-beleidsjablonen bevatten voor](../compliance/what-the-dlp-policy-templates-include.md) een volledige lijst. Al deze sjablonen kunnen worden ingeschakeld, vergelijkbaar met het voorbeeld van de PII-sjabloon. 
   
-## <a name="set-up-email-retention-with-exchange-online-archiving"></a>E-mailretentie instellen met Archivering van Exchange Online
+## <a name="set-up-email-retention-with-exchange-online-archiving"></a>E-mailretentie instellen met Exchange Online Archiving
 
- **Exchange Online Archiving-licentiefuncties** helpen bij het handhaven van nalevings- en regelgevingsstandaarden door e-mailinhoud voor eDiscovery te behouden. Het helpt ook uw risico te beperken als er een proces is en biedt een manier om gegevens te herstellen na een beveiligingsinbreuk of wanneer u verwijderde items moet herstellen. U kunt de bewaring van rechtszaken gebruiken om alle inhoud van een gebruiker te behouden of bewaarbeleid gebruiken om aan te passen wat u wilt behouden.
+ **Exchange Online Archiving** licentiefuncties helpen bij het handhaven van nalevings- en regelgevingsstandaarden door e-mailinhoud voor eDiscovery te behouden. Het helpt ook uw risico te beperken als er een proces is en biedt een manier om gegevens te herstellen na een beveiligingsinbreuk of wanneer u verwijderde items moet herstellen. U kunt de bewaring van rechtszaken gebruiken om alle inhoud van een gebruiker te behouden of bewaarbeleid gebruiken om aan te passen wat u wilt behouden.
   
 **Procesrecht in de wacht:** U kunt alle postvakinhoud, inclusief verwijderde items, behouden door het hele postvak van een gebruiker in de wacht te zetten. 
     
@@ -49,7 +49,7 @@ Als u een postvak in de wacht wilt zetten voor rechtszaken, gaat u naar het behe
     
 1. Ga in de linkernavigatiebalk naar **Gebruikers** \> **Actieve gebruikers.**
     
-2. Selecteer een gebruiker van wie u het postvak in de wacht wilt zetten. Vouw in het gebruikersvenster **E-mailinstellingen** uit en kies naast **Meer instellingen** de optie **Exchange-eigenschappen bewerken.**
+2. Selecteer een gebruiker van wie u het postvak in de wacht wilt zetten. Vouw in het gebruikersvenster **E-mailinstellingen** uit en kies naast Meer instellingen **de** optie **Bewerken Exchange eigenschappen.**
     
 3. Kies op de postvakpagina voor de gebruiker ** postvakfuncties ** aan de linkerkant en kies vervolgens de **koppeling** Inschakelen onder **Procesvoering.**
     
@@ -61,7 +61,7 @@ Als u een postvak in de wacht wilt zetten voor rechtszaken, gaat u naar het behe
 
 Gevoeligheidslabels worden bij Azure Information Protection (AIP) Plan 1 gebruikt, en u kunt uw documenten en e-mailberichten classificeren en desgewenst beveiligen door etiketten toe te passen. Labels kunnen automatisch worden toegepast door beheerders die regels en voorwaarden definiëren, handmatig door gebruikers, of door een combinatie te gebruiken waarin gebruikers aanbevelingen krijgen.
 
-Als u Gevoeligheidslabels wilt instellen, bekijkt u video over het maken en beheren [van gevoeligheidslabels.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
+Als u Gevoeligheidslabels wilt instellen, bekijkt u video over het maken en beheren [van gevoeligheidslabels.](../business-video/create-sensitivity-labels.md)
 
 
 

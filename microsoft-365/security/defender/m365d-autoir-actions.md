@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 7106f5d2e740d2b4cacbcaeb0b9391095bbeb356
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e3e842f812c5675334cc25fa35544165129db2b4
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592022"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245886"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Acties weergeven en beheren in het actiecentrum
 
@@ -42,7 +42,7 @@ Bedreigingsbeveiligingsfuncties in Microsoft 365 Defender kunnen leiden tot bepa
 - Uw beveiligingsteam kan handmatig herstelacties uitvoeren, zoals [](advanced-hunting-overview.md) tijdens geavanceerde zoekacties of tijdens het onderzoeken van [waarschuwingen](investigate-alerts.md) of [incidenten.](investigate-incidents.md)
 
 > [!NOTE]
-> U moet de [juiste machtigingen hebben om](m365d-action-center.md#required-permissions-for-action-center-tasks) herstelacties goed te keuren of te weigeren. Zie Vereisten voor geautomatiseerd onderzoek en antwoord [in Microsoft 365 Defender](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)voor meer informatie.
+> U moet de [juiste machtigingen hebben om](m365d-action-center.md#required-permissions-for-action-center-tasks) herstelacties goed te keuren of te weigeren. Zie Vereisten voor geautomatiseerd onderzoek en antwoord in Microsoft 365 [Defender voor meer informatie.](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
 
 ## <a name="review-pending-actions-in-the-action-center"></a>Acties in behandeling bekijken in het Actiecentrum
 

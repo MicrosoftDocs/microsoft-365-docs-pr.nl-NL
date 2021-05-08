@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: ca023ea49a8d92123467be640a097a72233d3198
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: b26574c85e498209f8d0233495d3fe0e44733909
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592118"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245874"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
@@ -35,16 +35,16 @@ ms.locfileid: "51592118"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Wanneer een geautomatiseerd onderzoek wordt [](m365d-autoir.md) uitgevoerd met Microsoft 365 Defender, zijn details over dat onderzoek beschikbaar, zowel tijdens als na het geautomatiseerde onderzoeksproces. Als u de [benodigde machtigingen hebt,](m365d-action-center.md#required-permissions-for-action-center-tasks)kunt u deze details bekijken in een weergave met onderzoeksdetails. De weergave onderzoeksdetails biedt u de actuele status en de mogelijkheid om eventuele in behandeling zijnde acties goed te keuren. 
+Met Microsoft 365 Defender, wanneer [een](m365d-autoir.md) geautomatiseerd onderzoek wordt uitgevoerd, zijn details over dat onderzoek beschikbaar, zowel tijdens als na het geautomatiseerde onderzoeksproces. Als u de [benodigde machtigingen hebt,](m365d-action-center.md#required-permissions-for-action-center-tasks)kunt u deze details bekijken in een weergave met onderzoeksdetails. De weergave onderzoeksdetails biedt u de actuele status en de mogelijkheid om eventuele in behandeling zijnde acties goed te keuren. 
 
 ![Details van het onderzoek](../../media/mtp-air-investdetails.png)
 
 ## <a name="new-unified-investigation-page"></a>(NIEUW!) Geïntegreerde onderzoekspagina
 
-De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor Eindpunt en Microsoft Defender voor [Office 365.](../office-365-security/defender-for-office-365.md) Als u toegang wilt tot de geïntegreerde onderzoekspagina, selecteert u de koppeling in de gele banner die u ziet op:
-- Een onderzoekspagina in het Office 365-beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) )
-- Een onderzoekspagina in het Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
-- Elk incident of actiecentrum in het verbeterde Microsoft 365-beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) )
+De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor Eindpunt en Microsoft Defender [voor Office 365.](../office-365-security/defender-for-office-365.md) Als u toegang wilt tot de geïntegreerde onderzoekspagina, selecteert u de koppeling in de gele banner die u ziet op:
+- Een onderzoekspagina in het Office 365 Beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) )
+- Een onderzoekspagina in de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
+- Elke incident- of actiecentrumervaring in het verbeterde Microsoft 365 beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) )
 
 ## <a name="open-the-investigation-details-view"></a>De weergave onderzoeksdetails openen
 
@@ -96,12 +96,12 @@ Gebruik de weergave onderzoeksdetails om eerdere, huidige en in behandeling zijn
 In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **Onderzoek**,  **Waarschuwingen**, Apparaten , **Identiteiten**, **Belangrijke** bevindingen **,** Entiteiten , **Logboek** en Acties in behandeling , beschreven in de volgende tabel. 
 
 > [!NOTE]
-> De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender voor Office 365-abonnement 2 bevat, ziet u geen tabblad **Postvakken.**
+> De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender bevat voor Office 365 abonnement 2, ziet u geen tabblad **Postvakken.**
 
 | Tab | Omschrijving |
 |:--------|:--------|
 | **Onderzoeksgrafiek**   | Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die zijn gevonden, samen met waarschuwingen en of er nog acties moeten worden goedgekeurd.<br/>U kunt een item in de grafiek selecteren om meer details weer te geven. Als u bijvoorbeeld het pictogram **Bewijs** selecteert, gaat u naar het tabblad Bewijs, waar u gedetecteerde entiteiten en hun vonnissen kunt zien.  |
-| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office-apps, Cloud App-beveiliging en andere Microsoft 365 Defender-functies.|
+| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office apps, Cloud App Security en andere Microsoft 365 Defender-functies.|
 | **Apparaten** | Hiermee worden apparaten vermeld die zijn opgenomen in het onderzoek, samen met het herstelniveau. (Herstelniveaus komen overeen met het [automatiseringsniveau voor apparaatgroepen](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups).) |
 | **Postvakken** |Hiermee worden postvakken vermeld die worden beïnvloed door gedetecteerde bedreigingen.  |
 | **Gebruikers**  | Hiermee worden gebruikersaccounts vermeld die worden beïnvloed door gedetecteerde bedreigingen. |
