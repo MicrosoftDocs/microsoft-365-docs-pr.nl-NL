@@ -22,12 +22,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Handleiding over het toewijzen van licenties aan gebruikers.
-ms.openlocfilehash: 9fa8981949215c4cf7779a21ff7089d7534e1ef0
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: ae088ab5c26df9b782bd4433bbd0c9f2d0ed9348
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023747"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274374"
 ---
 # <a name="assign-licenses-to-users"></a>Licenties aan gebruikers toewijzen
 
@@ -41,9 +41,10 @@ U kunt licenties toewijzen aan gebruikers op de pagina **Actieve gebruikers** of
 ## <a name="before-you-begin"></a>Voordat u begint
 
 - U moet algemeen, licentie-, of gebruikersbeheerder zijn om licenties toe te wijzen. Zie [Over beheerdersrollen in Microsoft 365](../add-users/about-admin-roles.md) voor meer informatie.
-- U kunt [licenties toewijzen aan gebruikersaccounts met Office 365 PowerShell](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md).
+- U kunt [Microsoft 365-licenties toewijzen aan gebruikersaccounts met PowerShell](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md).
 - Voor groepslicenties, zie [Licenties toewijzen aan gebruikers op basis van groepslidmaatschap in Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 - Sommige services, zoals Sway, worden automatisch aan gebruikers toegewezen.Het is niet nodig deze afzonderlijk toe te wijzen.
+
 
 ## <a name="use-the-licenses-page-to-assign-licenses-to-users"></a>Gebruik de pagina Licenties om licenties aan gebruikers toe te wijzen
 
@@ -128,6 +129,10 @@ Wanneer u de pagina **Actieve gebruikers** gebruikt om licenties toe te wijzen, 
 5. Zet de wisselknop in het deelvenster **Toevoegen aan bestaande producten** op **Aan** voor de licentie die u wilt toewijzen aan de geselecteerde gebruikers.\
     De standaardinstelling is dat alle services die zijn gekoppeld aan die licenties, automatisch worden toegewezen aan de gebruikers. U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan de gebruikers geen gebruik mogen maken.
 6. Selecteer onderaan het deelvenster **Toevoegen** \> **Sluiten**.  
+
+
+> [!NOTE]
+> Als u licenties wilt toewijzen voor een groot aantal gebruikers, gebruikt u [Licenties toewijzen aan gebruikers op groepslidmaatschap in Azure Active Directory](/azure/active-directory/enterprise-users/licensing-groups-assign)
 
 ### <a name="assign-licenses-to-one-user"></a>Licenties aan een enkele gebruiker toewijzen
 

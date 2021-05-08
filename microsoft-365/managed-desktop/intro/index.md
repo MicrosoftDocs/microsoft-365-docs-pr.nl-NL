@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 36745a0aafb70e7921c19db7c28984dcca1e2a63
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: d058cfefbc31be6d355ed61e745c36af684829b4
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245526"
+ms.locfileid: "52259665"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -57,7 +57,7 @@ Uw IT-beheerders profiteren van de volgende functies:
 ## <a name="device-management"></a>Apparaatbeheer
 Microsoft Managed Desktop neemt de last op zich van het beheren van geregistreerde apparaten en de Microsoft-software die ze gebruiken.
 
-- **Hardware:** In plaats van dat uw IT-afdeling moet onderzoeken of een apparaat compatibel is met de service, zijn specifieke hardware- en softwarevereisten, hulpprogramma's en processen beschikbaar om de selectie te stroomlijnen, zodat u met vertrouwen apparaten kunt kiezen. U kunt aanbevolen apparaten vinden door te filteren op Microsoft Managed Desktop op de site van de [winkel voor zakelijke Windows 10 Pro-apparaten](https://www.microsoft.com/windowsforbusiness/view-all-devices). U kunt apparaten zelf aanschaffen (of met een partner samenwerken), of apparaten die u al heeft opnieuw gebruiken, op voorwaarde dat ze op de goedgekeurde lijst staan. Apparaten registreren is eenvoudig en duidelijk. Voordat ze worden geïmplementeerd, kunt u ook bepaalde aspecten van de apparaatervaring [aanpassen](../working-with-managed-desktop/config-setting-overview.md) voor uw gebruikers.
+- **Hardware:** In plaats van dat uw IT-afdeling moet onderzoeken of een apparaat compatibel is met de service, zijn specifieke hardware- en softwarevereisten, hulpprogramma's en processen beschikbaar om de selectie te stroomlijnen, zodat u met vertrouwen apparaten kunt kiezen. U kunt aanbevolen apparaten vinden door te filteren op Microsoft Managed Desktop op de website [voor het kopen van Windows 10-apparaten voor zakelijk gebruik](https://www.microsoft.com/windowsforbusiness/view-all-devices). U kunt apparaten zelf aanschaffen (of met een partner samenwerken) of apparaten die u al hebt opnieuw gebruiken. Apparaten registreren is eenvoudig en duidelijk. Voordat ze worden geïmplementeerd, kunt u ook bepaalde aspecten van de apparaatervaring [aanpassen](../working-with-managed-desktop/config-setting-overview.md) voor uw gebruikers.
 
 - **Updates:** Microsoft Managed Desktop stelt alle aspecten van [implementatiegroepen](../service-description/updates.md) in en beheert deze voor kwaliteits- en functie-updates van Windows 10, stuurprogramma's, firmware, antivirusdefinities en updates van Microsoft 365 Apps voor Ondernemingen. Dit omvat uitgebreide testen en verificatie van alle updates, om ervoor te zorgen dat geregistreerde apparaten altijd up-to-date zijn en om verstoringen te minimaliseren, waardoor uw IT-afdeling van die doorlopende taak wordt bevrijd.
 

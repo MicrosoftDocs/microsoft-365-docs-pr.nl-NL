@@ -5,35 +5,31 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
-search.appverid:
-- MET150
+search.appverid: MET150
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - TopSMBIssues
 - okr_smb
-- BCS160
-- MET150
-- MOE150
-- BEA160
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
 ms.date: 07/31/2020
-ms.openlocfilehash: d391d99f5d5870d964fc4c420a105f25032e3640
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: f9dc6fb9be765e6e221ddf43f703d64737870f01
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060965"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280821"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur bekijken
 
@@ -49,25 +45,39 @@ U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel u
   
 ## <a name="view-a-bill-or-invoice"></a>Een rekening of factuur bekijken
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.
-    - Als u Office 365 Germany gebruikt, gaat u naar deze pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Facturen en betalingen</a>.
-    - Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar deze <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Facturen en betalingen</a>-pagina.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Facturen en betalingen</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Facturen en betalingen</a>.
+
+::: moniker-end
+
 2. Kies in het tabblad **Facturen** een datumbereik in de vervolgkeuzelijst en kies vervolgens de bestelling die u wilt bekijken.
 3. Op de overzichtspagina ziet u de artikelen, aantal, prijs, korting en totaal voor alle artikelen in de factuur.
 4. Als u een PDF-exemplaar van de factuur wilt afdrukken of opslaan, klikt u op **PDF downloaden**.
 
-::: moniker region="o365-21vianet"
+::: moniker range="o365-21vianet"
 
 ## <a name="request-a-fapiao"></a>Een Fapiao aanvragen
 
 U kunt uw Fapiao-verzoek ongeveer drie (3) dagen nadat u heeft betaald, indienen bij ons [Fapiao-beheersysteem](https://go.microsoft.com/fwlink/p/?linkid=837465).
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>naar de pagina **Facturering** > **Facturen & Betalen**.
-
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a> naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">**Facturen en betalingen**</a>.
 2. Zoek de factuur die u wilt en selecteer vervolgens **Fapiaos downloaden**.
 
 > [!NOTE]
-
+>
 > U hebt een geregistreerd account nodig om toegang te krijgen tot het [Fapiao-beheersysteem](https://go.microsoft.com/fwlink/p/?linkid=837465). Als u nog geen account hebt ingesteld, gaat u naar [Een Fapiao aanvragen voor Office 365 beheerd door 21Vianet](../../admin/services-in-china/apply-for-a-fapiao.md).
 
 ::: moniker-end
