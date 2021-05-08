@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: e3e842f812c5675334cc25fa35544165129db2b4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f3dba2116e0f13f265937ef65fd3b69bcb1e725b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245886"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274650"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Acties weergeven en beheren in het actiecentrum
 
@@ -37,24 +37,25 @@ ms.locfileid: "52245886"
 - Microsoft 365 Defender
 
 Bedreigingsbeveiligingsfuncties in Microsoft 365 Defender kunnen leiden tot bepaalde herstelacties. Dit zijn enkele voorbeelden:
-- [Geautomatiseerde onderzoeken kunnen](m365d-autoir.md) leiden tot herstelacties die automatisch worden ondernomen of die moeten worden goedgekeurd.
+
+- [Geautomatiseerde onderzoeken kunnen](m365d-autoir.md) leiden tot herstelacties die automatisch worden ondernomen of die wachten op uw goedkeuring.
 - Antivirus-, antimalware- en andere functies voor bedreigingsbeveiliging kunnen leiden tot herstelacties, zoals het blokkeren van een bestand, URL of proces of het verzenden van een artefact naar quarantaine.
 - Uw beveiligingsteam kan handmatig herstelacties uitvoeren, zoals [](advanced-hunting-overview.md) tijdens geavanceerde zoekacties of tijdens het onderzoeken van [waarschuwingen](investigate-alerts.md) of [incidenten.](investigate-incidents.md)
 
 > [!NOTE]
-> U moet de [juiste machtigingen hebben om](m365d-action-center.md#required-permissions-for-action-center-tasks) herstelacties goed te keuren of te weigeren. Zie Vereisten voor geautomatiseerd onderzoek en antwoord in Microsoft 365 [Defender voor meer informatie.](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
+> U moet de [juiste machtigingen hebben om](m365d-action-center.md#required-permissions-for-action-center-tasks) herstelacties goed te keuren of te weigeren. Zie de vereisten voor [meer informatie.](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
 
 ## <a name="review-pending-actions-in-the-action-center"></a>Acties in behandeling bekijken in het Actiecentrum
 
 Het is belangrijk om acties in behandeling zo snel mogelijk goed te keuren (of af te wijzen), zodat uw geautomatiseerde onderzoeken tijdig kunnen worden uitgevoerd en voltooid. 
 
-![Een actie goedkeuren of weigeren](../../media/air-actioncenter-itemselected.png)
-
 1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. 
 
 2. Kies actiecentrum in het **navigatiedeelvenster.** 
 
-3. Selecteer in het Actiecentrum **op** het tabblad In behandeling een item in de lijst. Het deelvenster Flyout wordt geopend.
+3. Selecteer in het Actiecentrum **op** het tabblad In behandeling een item in de lijst. Het deelvenster Flyout wordt geopend. Hier is een voorbeeld.
+
+   ![Een actie goedkeuren of weigeren](../../media/air-actioncenter-itemselected.png)
 
 4. Bekijk de informatie in het flyoutvenster en volg een van de volgende stappen:
    - Selecteer **Onderzoekspagina openen voor** meer informatie over het onderzoek.
@@ -90,11 +91,11 @@ Als u hebt vastgesteld dat een apparaat of bestand geen bedreiging is, kunt u he
 
 1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan.
 
-2. Selecteer op **het** tabblad Geschiedenis een bestand met het bestand Actietype **Quarantaine**.
+2. Selecteer op **het** tabblad Geschiedenis een bestand met het actietype **Quarantainebestand.**
 
 3. Selecteer in het deelvenster aan de rechterkant van het scherm meer exemplaren van dit bestand toepassen op **X** en selecteer **vervolgens Ongedaan maken.**
 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [De details en resultaten van een geautomatiseerd onderzoek weergeven](m365d-autoir-results.md)
-- [Meer informatie over het verwerken van onwaar positieven/negatieven (als u er een krijgt)](m365d-autoir-report-false-positives-negatives.md)
+- [Fout-positieven of onwaar-negatieven adresseert)](m365d-autoir-report-false-positives-negatives.md)

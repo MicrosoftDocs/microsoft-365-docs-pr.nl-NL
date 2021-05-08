@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9cb0c7375b538f502cf6165f13c68fd4b2fdcc64
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fc5a64f4be1b782c423c2ae9e2222a1424be97e0
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934751"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274722"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Updates implementeren voor Microsoft Defender voor Endpoint op Linux
 
@@ -44,6 +44,10 @@ Microsoft publiceert regelmatig software-updates om de prestaties, beveiliging e
 > ```bash
 > mdatp health --field product_expiration
 > ```
+
+
+Over het algemeen beschikbare Microsoft Defender voor endpoint-mogelijkheden zijn equivalent, ongeacht het updatekanaal dat wordt gebruikt voor een implementatie (Beta (Insider), Preview (Extern), Current (Productie)).
+
 
 Als u Defender voor Eindpunt op Linux handmatig wilt bijwerken, voert u een van de volgende opdrachten uit:
 

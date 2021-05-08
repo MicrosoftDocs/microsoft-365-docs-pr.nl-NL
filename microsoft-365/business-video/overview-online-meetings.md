@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het hosten van onlinevergaderingen voor uw bedrijf.
-ms.openlocfilehash: 893a03b064b6f73711b69a61c90cd40023241c48
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 9874e22724dd04255fb6109b5fb268ac2dcd3f95
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939516"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244894"
 ---
 # <a name="host-online-meetings-for-your-business"></a>Onlinevergaderingen voor uw bedrijf organiseren
 
@@ -33,7 +33,7 @@ Wilt u een klant, klant of partner ontmoeten, maar kan niet iedereen op één pl
 
 Ze moeten de gratis [](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) versie downloaden of online deelnemen [in een browser](https://support.microsoft.com/office/1613bb53-f3fa-431e-85a9-d6a91e3468c9) om video en scherm delen te krijgen.
 
-Als u regelmatig nauw samenwerkt aan projecten met een klant, klant of partner, kunt u daarom overwegen om een [team](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7) voor uw klanten te maken, zodat u ze eenvoudig kunt uitnodigen voor vergaderingen en ook gesprekken kunt voeren, bestanden kunt delen en projecten kunt bijhouden in Microsoft Teams.
+Als u regelmatig nauw samenwerkt aan projecten met een klant, klant of partner, kunt u daarom een [team](team-with-guests.md) voor uw klanten maken en ze eenvoudig uitnodigen voor vergaderingen en ook gesprekken voeren, bestanden delen en projecten bijhouden in Microsoft Teams.
 
 Download een infographic om snel een overzicht te krijgen van het deelnemen aan of het hosten van een onlinevergadering met Microsoft Teams:
 
@@ -45,7 +45,7 @@ Download een infographic om snel een overzicht te krijgen van het deelnemen aan 
 
 Als u vergaderingen wilt plannen met uw werknemers, klanten en andere gasten, gebruikt u Microsoft Teams. Probeer het:
 
-1. Kies in Microsoft Teams in de linkernavigatie de optie **Vergaderingen**.
+1. Kies Microsoft Teams in de linkernavigatie de optie **Vergaderingen.**
 1. Kies **Een vergadering plannen.**
 1. Voer in **het vak Nieuwe vergadering** een titel **en** **locatie voor** de vergadering in.
 1. Voer een **begin-** **en eindtijd** en -datum in.
@@ -60,8 +60,8 @@ Als u vergaderingen wilt plannen met uw werknemers, klanten en andere gasten, ge
 
 Gebruik Microsoft Teams om deel te nemen aan vergaderingen met zowel werknemers in uw bedrijf als klanten buiten uw bedrijf. Probeer het:
 
-1. Kies in Microsoft Teams in de linkernavigatie de optie **Vergaderingen**.
-1. Open de vergadering die u wilt deelnemen en kies **Deelnemen aan Microsoft Teams-vergadering.**
+1. Kies Microsoft Teams in de linkernavigatie de optie **Vergaderingen.**
+1. Open de vergadering die u wilt deelnemen en kies **Deelnemen Microsoft Teams Vergadering.**
 1. Wanneer de vergadering wordt geopend, kiest u **Nu deelnemen.**
 1. Elke klant die voor uw vergadering wordt uitgenodigd, opent de vergadering in de agenda, selecteert de koppeling naar de vergadering, download de Teams-app of opent deze op het web, voert zijn of haar naam in en kiest **Deelnemen.**
 1. Wanneer u uw klant ziet verschijnen in de lobby, kiest u **Toelaten** om ze binnen te laten.
@@ -69,7 +69,7 @@ Gebruik Microsoft Teams om deel te nemen aan vergaderingen met zowel werknemers 
  
 ## <a name="3-have-an-impromptu-meeting"></a>3. Een geïmproviseerde vergadering hebben
 
-U kunt eenvoudig een chat in Microsoft Teams converteren naar een vergadering. Kies de **knop Videogesprek** :::image type="icon" source="../media/video-call-icon.png" border="false"::: of de knop **Audiogesprek** om een gesprek te :::image type="icon" source="../media/audio-call-icon.png" border="false"::: starten. U kunt ook personen aan het gesprek toevoegen als het een groepsdiscussie moet worden.
+U kunt een chat eenvoudig converteren in Microsoft Teams naar een vergadering. Kies de **knop Videogesprek** :::image type="icon" source="../media/video-call-icon.png" border="false"::: of de knop **Audiogesprek** om een gesprek te :::image type="icon" source="../media/audio-call-icon.png" border="false"::: starten. U kunt ook personen aan het gesprek toevoegen als het een groepsdiscussie moet worden.
 
 Hebt u hulp nodig? Zie [Een gesprek starten vanuit een chatgesprek in Teams.](https://support.microsoft.com/office/f5138c9d-df4c-43d8-9cf6-53400c1a7798)
 

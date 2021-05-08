@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over de hoofdcaselimieten, indexeringslimieten en zoeklimieten die van kracht zijn voor de Advanced eDiscovery oplossing in Microsoft 365.
-ms.openlocfilehash: 145d5de5027a9d6171215c0602a733ced5265657
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 335e40c6918fc33acc12082546b98f28c319c814
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "52162493"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244574"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limieten in Advanced eDiscovery
 
@@ -76,6 +76,7 @@ De limieten die in deze sectie worden beschreven, zijn gerelateerd aan het gebru
 |Het maximum aantal zoekopdrachten dat tegelijk kan worden uitgevoerd. |Geen limiet |
 |Het maximum aantal zoekopdrachten dat één gebruiker tegelijk kan starten. |10 | 
 |Maximum aantal tekens voor een zoekquery (inclusief operatoren en voorwaarden). |10.000 &nbsp; <sup>2</sup>|
+|Maximum aantal tekens voor een zoekquery voor SharePoint en OneDrive voor Bedrijven sites (inclusief operatoren en voorwaarden). |10,000<br>4.000 met Jokertekens &nbsp; <sup>2</sup>|
 |Minimum aantal alfatekens voor jokertekens voor voorvoegsel; bijvoorbeeld één **\* *_ of* \* _ set**.|3 |  
 |Maximumvarianten die worden geretourneerd wanneer u een voorvoegsel-jokerteken gebruikt om te zoeken naar een exacte woordgroep of wanneer u een voorvoegsel-jokerteken en de operator **NEAR** Boolean gebruikt. |10.000 &nbsp; <sup>3</sup>|
 |Maximum aantal items per gebruikerspostvak dat wordt weergegeven op de voorbeeldpagina voor zoekopdrachten. De nieuwste items worden weergegeven. |100|
@@ -92,7 +93,7 @@ De limieten die in deze sectie worden beschreven, zijn gerelateerd aan het gebru
 
 Microsoft verzamelt prestatiegegevens voor zoekopdrachten die worden uitgevoerd door alle organisaties. Hoewel de complexiteit van de zoekquery van invloed kan zijn op zoektijden, is het aantal gezochte postvakken de grootste factor die van invloed is op hoe lang zoekopdrachten duren. Hoewel Microsoft geen serviceovereenkomst voor zoektijden biedt, bevat de volgende tabel de gemiddelde zoektijden voor zoekopdrachten in verzamelingen op basis van het aantal postvakken dat in de zoekopdracht is opgenomen.
   
-  |**Aantal postvakken**|**Gemiddelde zoektijd**|
+  | Aantal postvakken | Gemiddelde zoektijd |
   |:-----|:-----|
   |100  <br/> |30 seconden  <br/> |
   |1,000  <br/> |45 seconden  <br/> |
@@ -115,7 +116,7 @@ De limieten die in deze sectie worden beschreven, zijn gerelateerd aan het expor
 
 | Beschrijving van limiet | Limiet |
 |:-----|:-----|
-|Maximale grootte van één export.|3 miljoen documenten of 100 GB, wat kleiner is|
+|Maximale grootte van één export.|5 miljoen documenten of 500 GB, wat kleiner is|
 |Maximum gelijktijdige export per revisieset. | 1 |
 |||
 
@@ -132,7 +133,11 @@ De limieten die in deze sectie worden beschreven, zijn gerelateerd aan het expor
 > [!NOTE]
 > <sup>1</sup> Een item dat één bestandslimiet overschrijdt, wordt weergegeven als een verwerkingsfout.
 >
-> <sup>2</sup> Bij het zoeken SharePoint en OneDrive voor Bedrijven locaties tellen de tekens in de URL's van de sites die worden gezocht mee voor deze limiet.
+> <sup>2</sup> Bij het zoeken SharePoint en OneDrive voor Bedrijven locaties tellen de tekens in de URL's van de sites die worden gezocht mee voor deze limiet. Het totale aantal tekens bestaat uit:<br>
+> - Alle tekens in de velden Gebruikers en Filters.
+> - Alle zoekmachtigingenfilters die van toepassing zijn op de gebruiker.
+> - De tekens van alle locatieeigenschappen in de zoekopdracht; Dit omvat ExchangeLocation,PublicFolderLocation,SharPointLocation,ExchangeLocationExclusion,PublicFolderLocationExclusion,SharePointLocationExclusion, OneDriveLocationExclusion.
+>   Als u bijvoorbeeld alle SharePoint sites en OneDrive-accounts in de zoekopdracht oprekent, worden zes tekens geteld, omdat het woord 'ALLES' wordt weergegeven voor zowel het veld SharePointLocation als OneDriveLocation.
 >
 > <sup>3</sup> Voor niet-zinsquery's (een trefwoordwaarde die geen dubbele aanhalingstekens gebruikt) wordt een speciale voorvoegselindex gebruikt. Dit geeft aan dat een woord voorkomt in een document, maar niet op de plaats waar het in het document voorkomt. Als u een woordgroepsquery wilt uitvoeren (een trefwoordwaarde met dubbele aanhalingstekens), moeten we de positie in het document vergelijken voor de woorden in de woordgroep. Dit betekent dat we de voorvoegselindex niet kunnen gebruiken voor woordgroepquery's. In dit geval wordt de query intern uitgebreid met alle mogelijke woorden waar het voorvoegsel naar wordt uitgebreid. bijvoorbeeld: tijd **_ kan worden uitgebreid tot \* *_*"time OR timer OR times OR timex OR timex OR timeboxed OR ..."**. De limiet van 10.000 is het maximum aantal varianten waar het woord naar kan uitbreiden, niet het aantal documenten dat overeenkomt met de query. Er is geen bovengrens voor niet-woordgroepstermen.
 >

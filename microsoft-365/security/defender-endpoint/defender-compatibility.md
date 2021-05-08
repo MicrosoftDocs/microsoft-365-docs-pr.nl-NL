@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender Antiviruscompatibiliteit met Defender voor Eindpunt
+title: Compatibiliteit met antivirusoplossingen met Defender voor Eindpunt
 description: Meer informatie over hoe Windows Defender werkt met Microsoft Defender voor Eindpunt en hoe deze werkt wanneer een antimalwareclient van derden wordt gebruikt.
 keywords: windows defender compatibility, defender, Microsoft Defender for Endpoint, defender for endpoint, antivirus, mde
 search.product: eADQiWindows 10XVcnh
@@ -15,16 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 05/06/2021
 ms.technology: mde
-ms.openlocfilehash: a8dca4a80385fabcdc64a5584474214d05be4a6c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 84c523b721596d9c467f01cf6b8a0685b2091669
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935375"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274878"
 ---
-# <a name="microsoft-defender-antivirus-compatibility-with-microsoft-defender-for-endpoint"></a>Microsoft Defender Antiviruscompatibiliteit met Microsoft Defender voor eindpunt
+# <a name="antivirus-solution-compatibility-with-microsoft-defender-for-endpoint"></a>Compatibiliteit met antivirusoplossingen met Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

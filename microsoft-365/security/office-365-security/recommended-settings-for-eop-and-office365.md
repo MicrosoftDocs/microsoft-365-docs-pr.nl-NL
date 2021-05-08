@@ -19,12 +19,12 @@ ms.collection:
 description: Wat zijn best practices voor beveiligingsinstellingen voor Exchange Online Protection (EOP) en Defender voor Office 365? Wat zijn de huidige aanbevelingen voor standaardbeveiliging? Wat moet u gebruiken als u strikter wilt zijn? En welke extra's krijgt u als u ook Defender voor Office 365 gebruikt?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8ba88f9b9ebcc34e0ea146a74c01dea8f200ee0b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3a4447d6eaeeb907eb750d2ad668fdbb9031c28b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204744"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274866"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP- en Microsoft Defender-beveiliging voor Office 365
 
@@ -57,6 +57,8 @@ Antispam, anti-malware en anti-phishing zijn EOP-functies die kunnen worden geco
 
 Zie Antispambeleid configureren [in Office 365](configure-your-spam-filter-policies.md)als u antispambeleid wilt maken en configureren.
 
+<br>
+
 ****
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
@@ -83,6 +85,8 @@ Zie Antispambeleid configureren [in Office 365](configure-your-spam-filter-polic
 Er zijn verschillende andere asf-instellingen (Advanced Spam Filter) in antispambeleid die momenteel worden afgeschaft. Meer informatie over de tijdlijnen voor de afschrijving van deze functies wordt buiten dit artikel gecommuniceerd.
 
 U wordt aangeraden deze ASF-instellingen uit te **schakelen voor** zowel **standaard-** als **strikte** niveaus. Zie [Asf-instellingen (Advanced Spam Filter) in Office 365 voor meer informatie over ASF-instellingen.](advanced-spam-filtering-asf-options.md)
+
+<br>
 
 ****
 
@@ -111,6 +115,8 @@ Zie Uitgaande [spamfilters configureren in Office 365](configure-the-outbound-sp
 
 Zie Limieten verzenden voor meer informatie over de standaardlimieten voor verzenden in [de](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)service.
 
+<br>
+
 ****
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
@@ -124,6 +130,8 @@ Zie Limieten verzenden voor meer informatie over de standaardlimieten voor verze
 ### <a name="eop-anti-malware-policy-settings"></a>EOP-beleid voor anti-malwarebeleid
 
 Zie Anti-malwarebeleid configureren [in Office 365](configure-anti-malware-policies.md)voor het maken en configureren van anti-malwarebeleid.
+
+<br>
 
 ****
 
@@ -139,6 +147,8 @@ Zie Anti-malwarebeleid configureren [in Office 365](configure-anti-malware-polic
 ### <a name="eop-default-anti-phishing-policy-settings"></a>Standaardinstellingen voor anti-phishingbeleid van EOP
 
 Zie Spoof-instellingen voor [meer informatie over deze instellingen.](set-up-anti-phishing-policies.md#spoof-settings) Zie [Anti-phishingbeleid](configure-anti-phishing-policies-eop.md)configureren in EOP om deze instellingen te configureren.
+
+<br>
 
 ****
 
@@ -171,6 +181,8 @@ EOP-klanten krijgen standaard anti-phishing zoals eerder beschreven, maar Micros
 
 Zie Instellingen voor imitatie in [anti-phishingbeleid in Microsoft Defender voor Office 365](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor meer informatie over deze instellingen. Zie [Anti-phishingbeleid configureren in Defender voor Office 365](configure-atp-anti-phishing-policies.md)om deze instellingen te configureren.
 
+<br>
+
 ****
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
@@ -194,6 +206,8 @@ Zie Instellingen voor imitatie in [anti-phishingbeleid in Microsoft Defender voo
 
 Houd er rekening mee dat dit dezelfde instellingen zijn die beschikbaar zijn in de instellingen voor [antispambeleid in EOP.](#eop-anti-spam-policy-settings)
 
+<br>
+
 ****
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
@@ -206,6 +220,8 @@ Houd er rekening mee dat dit dezelfde instellingen zijn die beschikbaar zijn in 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Geavanceerde instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365
 
 Zie Geavanceerde [phishingdrempels in anti-phishingbeleid in Microsoft Defender voor Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor meer informatie over deze instelling. Zie [Anti-phishingbeleid configureren in Defender voor Office 365](configure-atp-anti-phishing-policies.md)om deze instelling te configureren.
+
+<br>
 
 ****
 
@@ -224,6 +240,8 @@ Zie Algemene instellingen configureren voor veilige [koppelingen in Defender voo
 
 In PowerShell gebruikt u de [set-AtpPolicyForO365-cmdlet](/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
 
+<br>
+
 ****
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
@@ -241,6 +259,8 @@ In PowerShell gebruikt u de [cmdlets New-SafeLinksPolicy](/powershell/module/exc
 
 > [!NOTE]
 > Zoals eerder beschreven, is er geen standaardbeleid voor veilige koppelingen. De waarden in de kolom Standaard zijn de standaardwaarden in het nieuwe beleid voor veilige koppelingen dat u maakt.
+
+<br>
 
 ****
 
@@ -265,6 +285,8 @@ Zie Veilige bijlagen [](turn-on-mdo-for-spo-odb-and-teams.md) in microsoft 365 E
 
 In PowerShell gebruikt u de [set-AtpPolicyForO365-cmdlet](/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
 
+<br>
+
 ****
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
@@ -282,6 +304,8 @@ In PowerShell gebruikt u de [cmdlets New-SafeAttachmentPolicy](/powershell/modul
 
 > [!NOTE]
 > Zoals eerder beschreven, is er geen standaardbeleid voor veilige bijlagen. De waarden in de kolom Standaard zijn de standaardwaarden in het nieuwe beleid voor veilige bijlagen dat u maakt.
+
+<br>
 
 ****
 

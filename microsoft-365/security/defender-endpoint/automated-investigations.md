@@ -9,8 +9,8 @@ ms.technology: mde
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 ms.date: 02/02/2021
 localization_priority: Normal
 manager: dansimp
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: 5ea869d4016cc794b3046a664c1519f6b3250c67
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d4b0751938b66cc22dd59e2e7035077c5ef59ff9
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933971"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274818"
 ---
 # <a name="overview-of-automated-investigations"></a>Overzicht van geautomatiseerde onderzoeken
 
@@ -77,7 +77,7 @@ Afhankelijk van het automatiseringsniveau dat is ingesteld voor uw organisatie e
 Alle herstelacties, in behandeling of voltooid, worden bijgeplaatst in het [Actiecentrum.](auto-investigation-action-center.md) Zo nodig kan uw beveiligingsbewerkingsteam een herstelactie ongedaan maken. Zie Herstelacties controleren en goedkeuren na een geautomatiseerd onderzoek voor meer [informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-auto-investigation)
 
 > [!TIP]
-> Bekijk de nieuwe, geïntegreerde onderzoekspagina in het Microsoft 365-beveiligingscentrum. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page).
+> Bekijk de nieuwe, geïntegreerde onderzoekspagina in het Microsoft 365 beveiligingscentrum. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page).
 
 
 ## <a name="requirements-for-air"></a>Vereisten voor AIR
@@ -86,8 +86,8 @@ Uw organisatie moet Defender voor Eindpunt hebben (zie [Minimumvereisten voor Mi
 
 Op dit moment ondersteunt AIR alleen de volgende besturingssysteemversies:
 - Windows Server 2019
-- Windows 10, versie 1709 (os build 16299.1085 met [KB4493441](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)) of hoger
-- Windows 10, versie 1803 (os build 17134.704 met [KB4493464](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)) of hoger
+- Windows 10 versie 1709 (os build 16299.1085 met [KB4493441](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)) of hoger
+- Windows 10 versie 1803 (os build 17134.704 met [KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)of hoger
 - Windows 10, versie [1803](https://docs.microsoft.com/windows/release-information/status-windows-10-1809-and-windows-server-2019) of hoger
 
 ## <a name="next-steps"></a>Volgende stappen

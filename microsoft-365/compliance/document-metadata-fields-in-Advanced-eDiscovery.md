@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: In dit artikel worden de metagegevensvelden voor documenten in een revisieset in een zaak in Advanced eDiscovery in Microsoft 365.
-ms.openlocfilehash: e801f60b69c796dfcd2cb6d83cc4fbc721dc7658
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 77df40f4922718a7ed30431b0c1bd91f5c075425
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259461"
+ms.locfileid: "52244598"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Metagegevensvelden in documenten in Advanced eDiscovery
 
@@ -119,7 +119,7 @@ De volgende tabel bevat de metagegevensvelden voor documenten in een revisieset 
 |Einddatum vergadering|MeetingEndDate|Meeting_end_date|Einddatum van vergadering voor vergaderingen.|
 |Begindatum vergadering|MeetingStartDate|Meeting_start_date|Begindatum van vergadering voor vergaderingen.|
 |Type bericht|MessageKind|Message_kind|Het type bericht dat u wilt zoeken. Mogelijke waarden: contactpersonen docs email **<br /> <br /> <br /> <br /> <br /> externaldata <br /> faxes <br /> im <br /> journals <br /> meetings <br /> microsoftteams** (returns items from chats, meetings, and calls in Microsoft Teams) **<br /> notes posts <br /> <br /> rssfeeds <br /> tasks <br /> voicemail**| 
-|Moderne bovenliggende bijlage-id||ModernAttachment_ParentId|De onveranderlijke id van het bovenliggende document.|
+|ModernAttachment_ParentId||ModernAttachment_ParentId||
 |Native Extension|NativeExtension|Native_extension|Oorspronkelijke uitbreiding van het item.|
 |Oorspronkelijke bestandsnaam|NativeFileName|Native_file_name|Oorspronkelijke bestandsnaam van het item.|
 |NativeMD5||Native_MD5|MD5-hash (128-bits hashwaarde) van de bestandsstream.|
@@ -164,7 +164,6 @@ De volgende tabel bevat de metagegevensvelden voor documenten in een revisieset 
 |Title|Title|Doc_title|Titel van de metagegevens van het document.|
 |Naar|Naar|Email_to|Veld voor berichttypen. Notatie is **DisplayName \<SmtpAddress>**|
 |Uniek in e-mailset|UniqueInEmailSet||**Onwaar** als er een duplicaat van de bijlage in de e-mailset staat.|
-|Versiegroep-id||Version_Group_Id|Groepeert de verschillende versies van hetzelfde document.|
 |Is gesaneerd|WasRemediated|Was_Remediated|**Waar** als het item is gesaneerd, anders **Onwaar.**|
 |Aantal woorden|WordCount|Word_count|Het aantal woorden in het item.|
 |||||

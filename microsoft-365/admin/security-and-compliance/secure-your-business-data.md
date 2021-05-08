@@ -1,5 +1,5 @@
 ---
-title: Top 10 manieren om Microsoft 365 voor Bedrijven-abonnementen te beveiligen
+title: Top 10 manieren om uw Microsoft 365 zakelijke abonnementen te beveiligen
 f1.keywords:
 - CSH
 ms.author: sharik
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: 77213ab7f63b87ba985e6e4ca43119acc2345e2d
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c20b0d070c4c4ca28ee681e560c4a91c412241fc
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579144"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244537"
 ---
-# <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om Microsoft 365 voor Bedrijven-abonnementen te beveiligen
+# <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om uw Microsoft 365 zakelijke abonnementen te beveiligen
 
 ::: moniker range="o365-21vianet"
 
@@ -50,12 +50,14 @@ Microsoft raadt u aan om de taken uit te voeren die worden vermeld in de volgend
 |4|[Het niveau van beveiliging tegen malware in e-mail verhogen](secure-your-business-data.md#malware)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5|[Beveiligen tegen ransomware](secure-your-business-data.md#ransomware)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6|[Automatisch doorsturen voor e-mail stoppen](secure-your-business-data.md#forwarding)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|7|[Office-berichtversleuteling gebruiken](secure-your-business-data.md#encryption)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|7|[Berichtversleuteling Office gebruiken](secure-your-business-data.md#encryption)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8|[Uw e-mail beschermen tegen phishingaanvallen](secure-your-business-data.md#phishing)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|9|[Beschermen tegen schadelijke bijlagen en bestanden met veilige bijlagen](secure-your-business-data.md#atp)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|10|[Beschermen tegen phishingaanvallen met veilige koppelingen](secure-your-business-data.md#phishingatp)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|9|[Beschermen tegen schadelijke bijlagen en bestanden met Safe bijlagen](secure-your-business-data.md#atp)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|10|[Beschermen tegen phishingaanvallen met Safe koppelingen](secure-your-business-data.md#phishingatp)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 
-Controleer voordat u begint uw [Microsoft 365 Secure Score](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score) in het Microsoft 365-beveiligingscentrum. Vanuit een centraal dashboard kunt u de beveiliging van uw Microsoft 365-identiteiten, gegevens, apps, apparaten en infrastructuur bewaken en verbeteren. U krijgt punten voor het configureren van aanbevolen beveiligingsfuncties, het uitvoeren van beveiligingsgerelateerde taken (zoals het weergeven van rapporten) of het oplossen van aanbevelingen met een toepassing of software van derden. Met extra inzichten en meer zichtbaarheid in een bredere set Microsoft-producten en -services, kunt u vertrouwen hebben in de rapportage over de beveiligingstoestand van uw organisatie.
+Als u Microsoft Business Premium, kunt u de beveiliging het snelste instellen en veilig samenwerken door de richtlijnen in deze bibliotheek te volgen: Microsoft 365 voor kleinere bedrijven en [campagnes.](../../campaigns/index.md) Deze richtlijnen zijn ontwikkeld in samenwerking met het Microsoft Defending Democracy-team om alle kleine zakelijke klanten te beschermen tegen cyberdreigingen die zijn gestart door geavanceerde hackers.
+
+Controleer voordat u begint uw [Microsoft 365 Secure Score](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score) in het Microsoft 365 beveiligingscentrum. Vanuit een gecentraliseerd dashboard kunt u de beveiliging van uw identiteiten, Microsoft 365, gegevens, apps, apparaten en infrastructuur controleren en verbeteren. U krijgt punten voor het configureren van aanbevolen beveiligingsfuncties, het uitvoeren van beveiligingsgerelateerde taken (zoals het weergeven van rapporten) of het oplossen van aanbevelingen met een toepassing of software van derden. Met extra inzichten en meer zichtbaarheid in een bredere set Microsoft-producten en -services, kunt u vertrouwen hebben in de rapportage over de beveiligingstoestand van uw organisatie.
 
 ![Schermafbeelding van Microsoft Secure Score](../../media/secure-score.png)
 
@@ -64,8 +66,8 @@ Controleer voordat u begint uw [Microsoft 365 Secure Score](https://docs.microso
 
 Het gebruik van meervoudige verificatie is een van de eenvoudigste en meest effectieve manieren om de beveiliging van uw organisatie te verhogen. Het is eenvoudiger dan het klinkt: wanneer u zich aanmeldt, betekent meervoudige verificatie dat u een code van uw telefoon typt om toegang te krijgen tot Microsoft 365. Dit kan voorkomen dat hackers het overnemen als ze uw wachtwoord kennen. Meervoudige verificatie wordt ook wel verificatie in twee stappen genoemd. Personen kunnen eenvoudig verificatie in twee stappen toevoegen aan de meeste accounts, bijvoorbeeld aan hun Google- of Microsoft-accounts. U kunt als volgende verificatie [in twee stappen toevoegen aan uw persoonlijke Microsoft-account.](https://go.microsoft.com/fwlink/p/?linkid=2016403)
 
-Voor bedrijven die Microsoft 365 gebruiken, voegt u een instelling toe die vereist dat uw gebruikers zich aanmelden met meervoudige verificatie. Wanneer u deze wijziging aan gaat brengen, worden gebruikers gevraagd hun telefoon in te stellen voor tweestapsverificatie wanneer ze zich de volgende keer aanmelden.
-Zie [MFA](https://support.microsoft.com/office/e12187b8-216a-4490-9e3b-df34a06fb787) en gebruikers instellen voor een trainingsvideo over het instellen van MFA en hoe gebruikers de set-up [voltooien.](https://support.microsoft.com/office/a32541df-079c-420d-9395-9d59354f7225)
+Voor bedrijven die Microsoft 365, voegt u een instelling toe die vereist dat uw gebruikers zich aanmelden met meervoudige verificatie. Wanneer u deze wijziging aan gaat brengen, worden gebruikers gevraagd hun telefoon in te stellen voor tweestapsverificatie wanneer ze zich de volgende keer aanmelden.
+Zie [MFA](../../business-video/turn-on-mfa.md) en gebruikers instellen voor een trainingsvideo over het instellen van MFA en hoe gebruikers de set-up [voltooien.](../../business-video/set-up-mfa.md)
 
 Als u meervoudige verificatie wilt instellen, schakelt u Beveiligingsinstellingen in:
 
@@ -81,7 +83,7 @@ U kunt standaardinstellingen voor beveiliging in- of uitschakelen vanuit het dee
 4. Kies onderaan de pagina de optie **Standaardinstellingen voor beveiliging beheren**.
 5. Kies **Ja** als u de standaardinstellingen voor beveiliging wilt inschakelen of **Nee** om deze uit te schakelen en kies vervolgens **Opslaan**.
 
-Nadat u meervoudige verificatie voor uw organisatie hebt ingesteld, moeten uw gebruikers tweestapsverificatie op hun apparaten instellen. Zie Verificatie in twee stappen instellen voor [Microsoft 365](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)voor meer informatie.
+Nadat u meervoudige verificatie voor uw organisatie hebt ingesteld, moeten uw gebruikers tweestapsverificatie op hun apparaten instellen. Zie Verificatie in twee stappen [instellen voor](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)Microsoft 365.
 
 Zie Meervoudige verificatie instellen voor gebruikers voor meer informatie en volledige [aanbevelingen.](set-up-multi-factor-authentication.md)
 
@@ -96,7 +98,7 @@ Naast deze richtlijnen raadt Microsoft aan dat uw gebruikers de acties uitvoeren
 
 - Apparaten beveiligen
 
-- Beveiligingsfuncties inschakelen op Windows 10- en Mac-pc's
+- Beveiligingsfuncties inschakelen op Windows 10 en Mac-pc's
 
 Microsoft raadt gebruikers ook aan hun persoonlijke e-mailaccounts te beschermen door de acties uit te voeren die in de volgende artikelen worden aanbevolen:
 
@@ -107,7 +109,7 @@ Microsoft raadt gebruikers ook aan hun persoonlijke e-mailaccounts te beschermen
 ## <a name="3-use-dedicated-admin-accounts"></a>3: Speciale beheerdersaccounts gebruiken
 <a name="admin"> </a>
 
-De beheeraccounts die u gebruikt om uw Microsoft 365-omgeving te beheren, bevatten verhoogde bevoegdheden. Dit zijn waardevolle doelen voor hackers en cybercriminelen. Beheeraccounts alleen gebruiken voor beheer. Beheerders moeten een afzonderlijk gebruikersaccount hebben voor regelmatig, niet-administratief gebruik en hun beheeraccount alleen gebruiken wanneer dat nodig is om een taak te voltooien die is gekoppeld aan hun functie. Aanvullende aanbevelingen:
+De beheeraccounts die u gebruikt om uw Microsoft 365 beheren, bevatten verhoogde bevoegdheden. Dit zijn waardevolle doelen voor hackers en cybercriminelen. Beheeraccounts alleen gebruiken voor beheer. Beheerders moeten een afzonderlijk gebruikersaccount hebben voor regelmatig, niet-administratief gebruik en hun beheeraccount alleen gebruiken wanneer dat nodig is om een taak te voltooien die is gekoppeld aan hun functie. Aanvullende aanbevelingen:
 
 - Zorg ervoor dat beheerdersaccounts ook zijn ingesteld voor meervoudige verificatie.
 
@@ -118,7 +120,7 @@ De beheeraccounts die u gebruikt om uw Microsoft 365-omgeving te beheren, bevatt
 ## <a name="4-raise-the-level-of-protection-against-malware-in-mail"></a>4: Het beschermingsniveau tegen malware in e-mail verhogen
 <a name="malware"> </a>
 
-Uw Microsoft 365-omgeving bevat bescherming tegen malware, maar u kunt deze beveiliging verhogen door bijlagen te blokkeren met bestandstypen die vaak voor malware worden gebruikt. Als u malwarebeveiliging in e-mail wilt tegen gaan, bekijkt u een [korte trainingsvideo](https://support.microsoft.com/office/02b5783a-eea0-42e8-8856-62440718c3f0)of volgt u de volgende stappen:
+Uw Microsoft 365 bevat bescherming tegen malware, maar u kunt deze beveiliging verhogen door bijlagen te blokkeren met bestandstypen die vaak voor malware worden gebruikt. Als u malwarebeveiliging in e-mail wilt tegen gaan, bekijkt u een [korte trainingsvideo](../../business-video/anti-malware.md)of volgt u de volgende stappen:
 
 1. Ga naar <https://protection.office.com> en meld u aan met uw beheerdersaccountreferenties.
 
@@ -132,7 +134,7 @@ Uw Microsoft 365-omgeving bevat bescherming tegen malware, maar u kunt deze beve
 
 6. Selecteer **Opslaan.**
 
-Zie Bescherming tegen [malware in EOP voor meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-malware-protection)
+Zie Bescherming tegen [malware in EOP voor meer informatie.](../../security/office-365-security/anti-malware-protection.md)
 
 ## <a name="5-protect-against-ransomware"></a>5: Beschermen tegen ransomware
 <a name="ransomware"> </a>
@@ -141,11 +143,11 @@ Ransomware beperkt de toegang tot gegevens door bestanden te versleutelen of com
 
 U kunt u beschermen tegen ransomware door een of meer regels voor de e-mailstroom te maken om bestandsextensies te blokkeren die vaak voor ransomware worden gebruikt, of om gebruikers te waarschuwen die deze bijlagen per e-mail ontvangen. Een goed uitgangspunt is het maken van twee regels:
 
-- Waarschuw gebruikers voordat ze Office-bestandsbijlagen openen die macro's bevatten. Ransomware kan worden verborgen in macro's, dus we waarschuwen gebruikers om deze bestanden niet te openen van mensen die ze niet kennen.
+- Waarschuw gebruikers voordat ze Office met macro's. Ransomware kan worden verborgen in macro's, dus we waarschuwen gebruikers om deze bestanden niet te openen van mensen die ze niet kennen.
 
 - Blokkeer bestandstypen die ransomware of andere schadelijke code kunnen bevatten. We beginnen met een algemene lijst met uitvoerbare bestanden (weergegeven in de onderstaande tabel). Als uw organisatie een van deze uitvoerbare typen gebruikt en u verwacht dat deze per e-mail worden verzonden, voegt u deze toe aan de vorige regel (gebruikers waarschuwen).
 
-Als u een regel voor e-mailtransport wilt maken, bekijkt u een [korte trainingsvideo](https://support.microsoft.com/office/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)of volgt u de volgende stappen:
+Als u een regel voor e-mailtransport wilt maken, bekijkt u een [korte trainingsvideo](../../business-video/prevent-ransom-in-email.md)of volgt u de volgende stappen:
 
 1. Ga naar het [Exchange-beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2059104).
 
@@ -159,7 +161,7 @@ Als u een regel voor e-mailtransport wilt maken, bekijkt u een [korte trainingsv
 
 6. Kies **Opslaan**.
     
-| Instelling | Gebruikers waarschuwen voordat ze bijlagen van Office-bestanden openen | Bestandstypen blokkeren die ransomware of andere schadelijke code kunnen bevatten |
+| Instelling | Gebruikers waarschuwen voordat ze bijlagen van Office openen | Bestandstypen blokkeren die ransomware of andere schadelijke code kunnen bevatten |
 |:-----|:-----|:-----|
 |Naam  <br/> |Anti-ransomwareregel: gebruikers waarschuwen  <br/> |Anti-ransomwareregel: bestandstypen blokkeren  <br/> |
 |Pas deze regel toe als . . .  <br/> |Elke bijlage . . . bestandsextensie komt overeen. . .  <br/> |Elke bijlage . . . bestandsextensie komt overeen. . .  <br/> |
@@ -174,7 +176,7 @@ Zie voor meer informatie:
 
 - [Ransomware: risico's beperken](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 
-- [Uw OneDrive herstellen](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
+- [Uw OneDrive](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
 
 ## <a name="6-stop-auto-forwarding-for-email"></a>6: Automatisch doorsturen voor e-mail stoppen
 <a name="forwarding"> </a>
@@ -204,12 +206,12 @@ Een regel voor e-mailtransport maken:
 |Ga als volgt te werk ...|Blokkeer het bericht . . . het bericht weigeren en een uitleg opnemen.|
 |Berichttekst verstrekken|Het automatisch doorsturen van e-mail buiten deze organisatie wordt om beveiligingsredenen voorkomen.|
 
-## <a name="7-use-office-message-encryption"></a>7: Office-berichtversleuteling gebruiken
+## <a name="7-use-office-message-encryption"></a>7: Berichtversleuteling Office gebruiken
 <a name="encryption"> </a>
 
-Office Message Encryption is opgenomen in Microsoft 365. Deze is al ingesteld. Met Office Message Encryption kan uw organisatie versleutelde e-mailberichten verzenden en ontvangen tussen personen binnen en buiten uw organisatie. Office 365 Message Encryption werkt met Outlook.com, Yahoo!, Gmail en andere e-mailservices. Versleuteling van e-mailberichten helpt ervoor te zorgen dat alleen beoogde geadresseerden berichtinhoud kunnen bekijken.
+Office Berichtversleuteling is opgenomen in Microsoft 365. Deze is al ingesteld. Met Office Berichtversleuteling kan uw organisatie versleutelde e-mailberichten verzenden en ontvangen tussen personen binnen en buiten uw organisatie. Office 365-berichtversleuteling werkt met Outlook.com, Yahoo!, Gmail en andere e-mailservices. Versleuteling van e-mailberichten helpt ervoor te zorgen dat alleen beoogde geadresseerden berichtinhoud kunnen bekijken.
 
-Office Message Encryption biedt twee beveiligingsopties bij het verzenden van e-mail:
+Office Berichtversleuteling biedt twee beveiligingsopties bij het verzenden van e-mail:
 
 - Niet doorsturen
 
@@ -219,11 +221,11 @@ Uw organisatie heeft mogelijk extra opties geconfigureerd die een label toepasse
 
 ### <a name="to-send-protected-email"></a>Beveiligde e-mail verzenden
 
-Selecteer opties **in** het e-mailbericht in Outlook voor pc en kies **vervolgens Machtigingen.**
+Selecteer Outlook voor pc **opties** in het e-mailbericht en kies vervolgens **Machtigingen.**
 
 ![Versleuteling van e-mailberichten in Outlook](../../media/08e90a7e-a2d2-41a4-bae9-0a46b4ce639a.png)
 
-Selecteer Outlook.com in **het** e-mailbericht beveiligen. De standaardbeveiliging is **Niet doorsturen.** Als u dit wilt wijzigen in versleuteling, **selecteert u Machtigingen** \> **versleutelen wijzigen.**
+Selecteer in Outlook.com de optie **Beveiligen** in het e-mailbericht. De standaardbeveiliging is **Niet doorsturen.** Als u dit wilt wijzigen in versleuteling, **selecteert u Machtigingen** \> **versleutelen wijzigen.**
 
 ![Versleuteling van e-mailberichten in Outlook.com](../../media/329ccf50-f6b1-4fb8-b249-60b907a82b7e.png)
 
@@ -233,18 +235,18 @@ Als de geadresseerde Outlook 2013 of Outlook 2016 en een Microsoft-e-mailaccount
 
 Als de geadresseerde een andere e-mailclient of een ander e-mailaccount gebruikt, zoals Gmail of Yahoo, ziet hij of zij een koppeling waarmee hij of zij zich kan aanmelden om het e-mailbericht te lezen of een eens een wachtwoordcode aanvraagt om het bericht in een webbrowser te bekijken. Als gebruikers de e-mail niet ontvangen, moeten ze hun map Ongewenste e-mail of Ongewenste e-mail controleren.
 
-Zie Versleutelde berichten verzenden, weergeven en beantwoorden in Outlook voor pc voor [meer informatie.](https://support.microsoft.com/office/eaa43495-9bbb-4fca-922a-df90dee51980)
+Zie Versleutelde berichten [verzenden, weergeven en beantwoorden in Outlook pc voor meer informatie.](https://support.microsoft.com/office/eaa43495-9bbb-4fca-922a-df90dee51980)
 
 ## <a name="8-protect-your-email-from-phishing-attacks"></a>8. Bescherm uw e-mail tegen phishingaanvallen
 <a name="phishing"> </a>
 
-Als u een of meer aangepaste domeinen hebt geconfigureerd voor uw Microsoft 365-omgeving, kunt u gerichte anti-phishingbeveiliging configureren. Anti-phishingbeveiliging, een onderdeel van Microsoft Defender voor Office 365, kan uw organisatie helpen beschermen tegen kwaadaardige phishingaanvallen op basis van imitaties en andere phishingaanvallen. Als u een aangepast domein niet hebt geconfigureerd, hoeft u dit niet te doen.
+Als u een of meer aangepaste domeinen hebt geconfigureerd voor uw Microsoft 365 omgeving, kunt u gerichte anti-phishingbeveiliging configureren. Anti-phishingbeveiliging, een onderdeel van Microsoft Defender voor Office 365, kan uw organisatie helpen beschermen tegen kwaadaardige phishingaanvallen op basis van imitaties en andere phishingaanvallen. Als u een aangepast domein niet hebt geconfigureerd, hoeft u dit niet te doen.
 
 We raden u aan aan de slag te gaan met deze beveiliging door een beleid te maken om uw belangrijkste gebruikers en uw aangepaste domein te beschermen.
 
 ![Een anti-phishingbeleid maken in Microsoft Defender voor Office 365](../../media/security-and-compliance-center.png)
 
-Als u een anti-phishingbeleid wilt maken in Defender voor Office 365, bekijkt u een korte [trainingsvideo](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)of volgt u de volgende stappen:
+Als u een anti-phishingbeleid wilt maken in Defender Office 365, bekijkt u een korte [trainingsvideo](../../business-video/setup-anti-phishing.md)of volgt u de volgende stappen:
 
 1. Ga naar <https://protection.office.com>.
 
@@ -254,7 +256,7 @@ Als u een anti-phishingbeleid wilt maken in Defender voor Office 365, bekijkt u 
 
 4. Selecteer op de pagina Anti-phishing **+ Maken.** Er wordt een wizard gelanceerd om uw anti-phishingbeleid te definiëren.
 
-5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de onderstaande grafiek. Zie [Meer informatie over anti-phishingbeleid in opties voor Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) voor meer informatie.
+5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de onderstaande grafiek. Zie [Meer informatie over anti-phishingbeleid in Microsoft Defender Office 365 opties](../../security/office-365-security/set-up-anti-phishing-policies.md) voor meer informatie.
 
 6. Nadat u de instellingen hebt gecontroleerd, **selecteert** u Dit beleid maken of **Opslaan,** naar eigen goed.
 
@@ -263,29 +265,29 @@ Als u een anti-phishingbeleid wilt maken in Defender voor Office 365, bekijkt u 
 |Naam|Domein en meest waardevolle campagnemedewerkers|
 |Omschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
 |Gebruikers toevoegen om ze te beveiligen|Selecteer **+ Een voorwaarde toevoegen, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke personeelsleden. U kunt maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.|
-|Domeinen toevoegen om te beveiligen|Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerde is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement, als u er een hebt gedefinieerd. U kunt meer dan één domein invoeren.|
+|Domeinen toevoegen om te beveiligen|Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerde is**. Voer het aangepaste domein in dat is gekoppeld aan Microsoft 365-abonnement, als u er een hebt gedefinieerd. U kunt meer dan één domein invoeren.|
 |Acties kiezen|Als e-mail wordt verzonden door een nagebootste gebruiker: selecteer **Bericht omleiden** naar een ander e-mailadres en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld securityadmin@contoso.com. <br/> Als e-mail wordt verzonden door een nagebootsd domein: selecteer **Quarantainebericht.**|
 |Postvakintelligentie|Standaard is postvakinformatie geselecteerd wanneer u een nieuw anti-phishingbeleid maakt. Laat deze instelling **aan voor** de beste resultaten.|
 |Vertrouwde afzenders en domeinen toevoegen|Definieer in dit voorbeeld geen overschrijvingen.|
 |Toegepast op|Selecteer **Het domein van de geadresseerde is**. Selecteer **onder Een van deze** opties de optie **Kiezen**. Selecteer **+ Toevoegen.** Schakel het selectievakje naast de naam van het domein in, bijvoorbeeld contoso.com, in de lijst en selecteer **vervolgens Toevoegen.** Selecteer **Gereed**.|
 |
 
-Zie [Anti-phishingbeleid instellen in Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)voor meer informatie.
+Zie [Anti-phishingbeleid](../../security/office-365-security/configure-atp-anti-phishing-policies.md)instellen in Defender voor meer Office 365.
 
-## <a name="9-protect-against-malicious-attachments-and-files-with-safe-attachments"></a>9: Beschermen tegen schadelijke bijlagen en bestanden met veilige bijlagen
+## <a name="9-protect-against-malicious-attachments-and-files-with-safe-attachments"></a>9: Beschermen tegen schadelijke bijlagen en bestanden met Safe bijlagen
 <a name="atp"> </a>
 
-Personen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, presentaties, spreadsheets en meer. Het is niet altijd eenvoudig om te zien of een bijlage veilig of schadelijk is door alleen maar naar een e-mailbericht te kijken. Microsoft Defender voor Office 365 bevat veilige bijlagebeveiliging, maar deze beveiliging is niet standaard ingeschakeld. U wordt aangeraden een nieuwe regel te maken om deze beveiliging te gaan gebruiken. Deze beveiliging geldt voor bestanden in SharePoint, OneDrive en Microsoft Teams.
+Personen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, presentaties, spreadsheets en meer. Het is niet altijd eenvoudig om te zien of een bijlage veilig of schadelijk is door alleen maar naar een e-mailbericht te kijken. Microsoft Defender voor Office 365 bevat Safe bijlagebeveiliging, maar deze beveiliging is niet standaard ingeschakeld. U wordt aangeraden een nieuwe regel te maken om deze beveiliging te gaan gebruiken. Deze beveiliging geldt voor bestanden in SharePoint, OneDrive en Microsoft Teams.
 
-Als u een beleid voor veilige bijlagen wilt maken, bekijkt u een [korte trainingsvideo](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)of volgt u de volgende stappen:
+Als u een Safe wilt maken, bekijkt u een [korte trainingsvideo](../../business-video/safe-attachments.md)of volgt u de volgende stappen:
 
 1. Ga naar <https://protection.office.com> en meld u aan met uw beheerdersaccount.
 
 2. Selecteer in het & Beveiligingscentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer** de optie **Beleid.**
 
-3. Selecteer op de pagina Beleid **de optie Veilige bijlagen.**
+3. Selecteer op de pagina Beleid **Safe Bijlagen.**
 
-4. Pas deze beveiliging op de pagina Veilige bijlagen breed toe door het selectievakje ATP voor **SharePoint, OneDrive** en Microsoft Teams in te schakel.
+4. Pas deze Safe op de pagina Safe algemeen toe door het selectievakje ATP in **SharePoint, OneDrive** en Microsoft Teams in.
 
 5. Selecteer **+** om een nieuw beleid te maken.
 
@@ -302,12 +304,12 @@ Als u een beleid voor veilige bijlagen wilt maken, bekijkt u een [korte training
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
 |
 
-Zie [Anti-phishingbeleid instellen in Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)voor meer informatie.
+Zie [Anti-phishingbeleid](../../security/office-365-security/configure-atp-anti-phishing-policies.md)instellen in Defender voor meer Office 365.
 
-## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10: Beschermen tegen phishingaanvallen met veilige koppelingen
+## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10: Beschermen tegen phishingaanvallen met Safe Koppelingen
 <a name="phishingatp"> </a>
 
-Hackers verbergen soms schadelijke websites in koppelingen in e-mail of andere bestanden. Veilige koppelingen, onderdeel van Microsoft Defender voor Office 365, kunnen uw organisatie helpen beschermen door een time-of-click verificatie van webadressen (URL's) in e-mailberichten en Office-documenten te bieden. Beveiliging wordt gedefinieerd via beleidsregels voor veilige koppelingen.
+Hackers verbergen soms schadelijke websites in koppelingen in e-mail of andere bestanden. Safe Koppelingen, onderdeel van Microsoft Defender voor Office 365, kunnen uw organisatie helpen beschermen door een tijd-of-clickverificatie van webadressen (URL's) in e-mailberichten en Office bieden. Beveiliging wordt gedefinieerd via Safe koppelingenbeleid.
 
 U wordt aangeraden het volgende te doen:
 
@@ -315,27 +317,27 @@ U wordt aangeraden het volgende te doen:
 
 - Voeg een nieuw beleid toe dat is gericht op alle geadresseerden in uw domein.
 
-Als u naar Veilige koppelingen wilt gaan, bekijkt u een [korte trainingsvideo](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)of volgt u de volgende stappen:
+Als u koppelingen wilt Safe, bekijkt u een [korte trainingsvideo](../../business-video/safe-links.md)of volgt u de volgende stappen:
 
 1. Ga naar <https://protection.office.com> en meld u aan met uw beheerdersaccount.
 
 2. Selecteer in het & Beveiligingscentrum in het linkernavigatiedeelvenster onder **Bedreigingsbeheer** de optie **Beleid.**
 
-3. Selecteer op de pagina Beleid **de optie Veilige koppelingen**.
+3. Selecteer op de pagina Beleid **Safe Koppelingen.**
 
 Het standaardbeleid wijzigen:
 
-1. Dubbelklik op de pagina Veilige koppelingen, onder **Beleidsregels** die van toepassing zijn op de hele organisatie, op het **standaardbeleid.**
+1. Dubbelklik op Safe pagina Koppelingen onder **Beleidsregels** die van toepassing zijn op de hele organisatie op het **standaardbeleid.**
 
-2. Voer onder Instellingen die van toepassing zijn op inhoud **in Office 365** een URL in die moet worden geblokkeerd, zoals example.com _en_ selecteer **+** .
+2. Voer onder Instellingen die van toepassing zijn op inhoud in **Office 365,** een URL in die moet worden geblokkeerd, zoals example.com _en_ selecteer **+** .
 
-3. Selecteer **onder** Instellingen die van toepassing zijn op inhoud, behalve e-mail, Office **365-toepassingen,** Niet bijhouden wanneer gebruikers op veilige koppelingen klikken en Gebruikers niet door veilige koppelingen naar de oorspronkelijke URL laten **klikken.**
+3. Selecteer **Office 365** toepassingen onder Instellingen die van toepassing zijn op inhoud, behalve **e-mail,** niet bijhouden wanneer gebruikers op veilige koppelingen klikken en Gebruikers niet door veilige koppelingen naar de oorspronkelijke URL laten **klikken.**
 
 4. Kies **Opslaan**.
 
 Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
-1. Selecteer op de pagina Veilige koppelingen, onder **Beleidsregels** die van toepassing zijn op specifieke geadresseerden, **+** om een nieuw beleid te maken.
+1. Selecteer op Safe pagina met koppelingen onder Beleid dat van toepassing is op **specifieke** geadresseerden, om een nieuw beleid **+** te maken.
 
 2. Pas de instellingen toe die in de volgende tabel worden vermeld.
 
@@ -343,10 +345,10 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
-|Naam|Beleid voor veilige koppelingen voor alle geadresseerden in het domein|
+|Naam|Safe koppelingenbeleid voor alle geadresseerden in het domein|
 |Selecteer de actie voor onbekende potentieel schadelijke URL's in berichten|Selecteer **Aan - URL's worden herschreven** en gecontroleerd op een lijst met bekende schadelijke koppelingen wanneer de gebruiker op de koppeling klikt.|
 |Realtime URL-scan toepassen op verdachte koppelingen en koppelingen die naar bestanden wijzen|Schakel dit vakje in.|
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
 |
 
-Zie Veilige koppelingen [in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)voor meer informatie.
+Zie Koppelingen in Microsoft Defender voor Safe voor [meer Office 365.](../../security/office-365-security/atp-safe-links.md)

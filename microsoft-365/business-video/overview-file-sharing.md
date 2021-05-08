@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Overzicht van het delen van uw zakelijke bestanden.
-ms.openlocfilehash: a28830b9dc863c38ff45e2d6a140ab764ae66b06
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 408979728e4f834acb57f39a6eed3ac40057feba
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580520"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244906"
 ---
 # <a name="overview-of-sharing-business-files"></a>Overzicht van het delen van zakelijke bestanden
 
@@ -50,25 +50,25 @@ Meer informatie over het delen [van bestanden buiten uw organisatie](securely-sh
 Delen als onderdeel van een project? Of als onderdeel van een doorlopende relatie met een zakenpartner of leverancier? U kunt iets meer tijd inbrengen en een team instellen in Microsoft Teams en een permanente plek hebben om te delen en samen te werken. Het is eenvoudig om te werken met personen buiten uw bedrijf en u kunt zelfs afzonderlijke kanalen instellen voor extra leveranciers of partners om alles recht te houden.
 
 1. Maak het team.
-1. Upload uw bestanden.
+1. Upload bestanden.
 1. Nodig uw partners of leveranciers uit voor het team als gastgebruikers om hen toegang te geven.
 
-Meer informatie over het delen [van bestanden buiten uw organisatie met secure link](https://support.microsoft.com/office/7266f44e-3e06-4736-b9d3-0580c24bba34)s.
+Meer informatie over het delen [van bestanden buiten uw organisatie met een beveiligde koppeling.](securely-share-files-externally.md)
 
 ## <a name="share-inside-your-business"></a>Delen binnen uw bedrijf
 
-Als u werkt met bestanden die u binnen uw bedrijf deelt, is het ook een goed idee om een team in Te stellen in Microsoft Teams. Deel uw bestanden daar en iedereen in uw bedrijf kan ze gemakkelijk vinden en bewerken. U weet dat u allemaal aan dezelfde pagina werkt.
+Als u werkt met bestanden die u binnen uw bedrijf deelt, is het ook een goed idee om een team in te stellen in Microsoft Teams. Deel uw bestanden daar en iedereen in uw bedrijf kan ze gemakkelijk vinden en bewerken. U weet dat u allemaal aan dezelfde pagina werkt.
 
 1. Maak het team en nodig uw team uit.
-1. Upload uw bestanden.
+1. Upload bestanden.
 
-Meer informatie over [bedrijfsbestandsopslag](https://support.microsoft.com/office/e4d98e10-3532-4eed-85d6-92728454e32b) en [opslag van werknemersbestand.](https://support.microsoft.com/office/12dbe3e4-dbef-48f8-a90e-87f1bc607073)
+Meer informatie over [bedrijfsbestandsopslag](files-to-sharepoint.md) en [opslag van werknemersbestand.](files-to-onedrive.md)
 
 ## <a name="how-to-get-it-done"></a>Hoe u dit kunt doen
 
 Hebt u hulp nodig? Meer informatie over:
 
-- [Bijlagen verzenden en ontvangen](https://support.microsoft.com/en-us/office/sending-and-receiving-attachments-d32cd5ad-c7c5-49df-814d-4c17a5d3beb0)
-- [Bestanden en mappen delen met OneDrive](https://support.microsoft.com/en-us/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
-- [Een team voor het hele bedrijf maken](https://support.microsoft.com/en-us/office/create-an-org-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [Gasten toevoegen aan een team](https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-teams-fccb4fa6-f864-4508-bdde-256e7384a14f)
+- [Bijlagen verzenden en ontvangen](https://support.microsoft.com/office/sending-and-receiving-attachments-d32cd5ad-c7c5-49df-814d-4c17a5d3beb0)
+- [Bestanden en mappen delen met OneDrive](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
+- [Een team voor het hele bedrijf maken](org-wide-team.md)
+- [Gasten toevoegen aan een team](https://support.microsoft.com/office/add-guests-to-a-team-in-teams-fccb4fa6-f864-4508-bdde-256e7384a14f)

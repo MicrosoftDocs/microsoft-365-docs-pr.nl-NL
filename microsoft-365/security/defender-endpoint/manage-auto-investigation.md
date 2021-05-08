@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: 48674292e5a72ccc371ff4bf43dc499f19b3886d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b0c983f4ba939cee6485570af774c8a728c73944
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51058289"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274926"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>Herstelacties na een geautomatiseerd onderzoek controleren
 
@@ -61,7 +61,7 @@ Of dit nu automatisch of na goedkeuring wordt gedaan, een geautomatiseerd onderz
 
 ## <a name="review-pending-actions"></a>Acties in behandeling controleren
 
-1. Ga naar het Microsoft 365-beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft 365 beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
 2. Kies actiecentrum in het **navigatiedeelvenster.** 
 3. Bekijk de items op het tabblad **In** behandeling. 
 4. Selecteer een actie om het flyoutvenster te openen.
@@ -73,7 +73,7 @@ Of dit nu automatisch of na goedkeuring wordt gedaan, een geautomatiseerd onderz
 
 ## <a name="review-completed-actions"></a>Voltooide acties controleren
 
-1. Ga naar het Microsoft 365-beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft 365 beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
 2. Kies actiecentrum in het **navigatiedeelvenster.** 
 3. Bekijk de items op het **tabblad** Geschiedenis. 
 4. Selecteer een item om meer informatie over die herstelactie weer te geven.
@@ -120,7 +120,7 @@ In Microsoft Defender voor Eindpunt worden alle vonnissen bij gehouden in het [A
 
 - [Meer informatie over mogelijkheden voor live-antwoorden](live-response.md)
 - [Proactief op bedreigingen zoeken met geavanceerde jacht](advanced-hunting-overview.md)
-- [False positives/negatives in Microsoft Defender for Endpoint adresseert](defender-endpoint-false-positives-negatives.md)
+- [Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt](defender-endpoint-false-positives-negatives.md)
 
 ## <a name="see-also"></a>Zie ook
 

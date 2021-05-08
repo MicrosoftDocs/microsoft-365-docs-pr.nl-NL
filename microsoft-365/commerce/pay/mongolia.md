@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7cda104c9cdb283f350d2f21d5e947740fd1930d
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: c3d81ea54d6a55e44cc9f8491258cba19948fa0b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543098"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273258"
 ---
 # <a name="payment-information-for-mongolia"></a>Betalingsgegevens voor Mongolië
 
 [Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in USD en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
+Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank, London  
+**Bank:** Citibank, Londen  
 **SWIFT-code:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
-**Rekeningnummer:** 12510049  
+**Accountnummer:** 12510049  
 **Accountnaam:** MICROSOFT  

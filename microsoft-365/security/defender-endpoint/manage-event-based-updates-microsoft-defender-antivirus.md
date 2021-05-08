@@ -1,13 +1,13 @@
 ---
-title: Microsoft Defender Antivirus-updates toepassen na bepaalde gebeurtenissen
-description: Beheer hoe Microsoft Defender Antivirus beveiligingsintelligentie-updates van toepassing is na het opstarten of ontvangen van door de cloud geleverde detectierapporten.
+title: Updates Microsoft Defender Antivirus na bepaalde gebeurtenissen toepassen
+description: Beheer hoe Microsoft Defender Antivirus beveiligingsintelligentie-updates na het opstarten of ontvangen van door de cloud geleverde detectierapporten.
 keywords: updates, beveiliging, force updates, gebeurtenissen, opstarten, controleren op recentste, meldingen
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 09/17/2018
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 78a04105fce0a3a1f9f7ea3f9ee993dd53750f3f
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 624e32bfebfce02021f1dcb1dbdde9446472239a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764553"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274698"
 ---
 # <a name="manage-event-based-forced-updates"></a>Op basis van gebeurtenissen afgedwongen updates beheren
 
@@ -31,15 +32,15 @@ ms.locfileid: "51764553"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-Met Microsoft Defender Antivirus kunt u bepalen of updates wel (of niet) moeten plaatsvinden na bepaalde gebeurtenissen, zoals bij het opstarten of na het ontvangen van specifieke rapporten van de door de cloud geleverde beveiligingsservice.
+Microsoft Defender Antivirus kunt u bepalen of updates wel (of niet) moeten plaatsvinden na bepaalde gebeurtenissen, zoals bij het opstarten of na het ontvangen van specifieke rapporten van de door de cloud geleverde beveiligingsservice.
 
 ## <a name="check-for-protection-updates-before-running-a-scan"></a>Controleren op beveiligingsupdates voordat u een scan gaat uitvoeren
 
-U kunt Microsoft Endpoint Configuration Manager, Groepsbeleid, PowerShell-cmdlets en WMI gebruiken om Microsoft Defender Antivirus te dwingen beveiligingsupdates te controleren en te downloaden voordat u een geplande scan gaat uitvoeren.
+U kunt Microsoft Endpoint Configuration Manager, Groepsbeleid, PowerShell-cmdlets en WMI gebruiken om Microsoft Defender Antivirus beveiligingsupdates te controleren en downloaden voordat u een geplande scan uit te voeren.
 
 ### <a name="use-configuration-manager-to-check-for-protection-updates-before-running-a-scan"></a>Configuration Manager gebruiken om te controleren op beveiligingsupdates voordat u een scan gaat uitvoeren
 
-1. Open op uw Microsoft Endpoint Manager-console het antimalwarebeleid dat u wilt wijzigen (klik op Activa en naleving **in** het navigatiedeelvenster aan de linkerkant en vouw de structuur vervolgens uit naar Het  >    >  **antimalwarebeleid voor endpointbeveiliging** van overzicht )
+1. Open op Microsoft Endpoint Manager console het antimalwarebeleid dat u wilt wijzigen (klik **op** Activa en naleving in het navigatiedeelvenster aan de linkerkant en vouw de structuur uit naar Overzicht  >  **Endpoint Protection**  >  **Antimalware-beleid**)
 
 2. Ga naar de **sectie Geplande scans** en stel Controleren op de meest recente **beveiligingsinformatie-updates in voordat u een scan op** Ja gaat **uitvoeren.**
 
@@ -55,7 +56,7 @@ U kunt Microsoft Endpoint Configuration Manager, Groepsbeleid, PowerShell-cmdlet
 
 3. Klik **op Beleid** en vervolgens op **Beheersjablonen.**
 
-4. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus**  >  **Scan.**
+4. Vouw de boom uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Scannen.**
 
 5. Dubbelklik op **Controleren op de meest recente virus-** en spywaredefinities voordat u een geplande scan gaat uitvoeren en stel de optie in **op Ingeschakeld.**
 
@@ -69,9 +70,9 @@ Gebruik de volgende cmdlets:
 Set-MpPreference -CheckForSignaturesBeforeRunningScan
 ```
 
-Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus- en [Defender-cmdlets](/powershell/module/defender/index)te configureren en uit te voeren voor meer informatie.
+Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken voor het configureren en uitvoeren van Microsoft Defender Antivirus [defender-cmdlets](/powershell/module/defender/index)voor meer informatie.
 
-### <a name="use-windows-management-instruction-wmi-to-check-for-protection-updates-before-running-a-scan"></a>Windows Management Instruction (WMI) gebruiken om te controleren op beveiligingsupdates voordat u een scan gaat uitvoeren
+### <a name="use-windows-management-instruction-wmi-to-check-for-protection-updates-before-running-a-scan"></a>Gebruik Windows Management Instruction (WMI) om te controleren op beveiligingsupdates voordat u een scan gaat uitvoeren
 
 Gebruik de [ **methode Set** of the **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) class voor de volgende eigenschappen:
 
@@ -79,11 +80,11 @@ Gebruik de [ **methode Set** of the **MSFT_MpPreference**](/previous-versions/wi
 CheckForSignaturesBeforeRunningScan
 ```
 
-Zie Windows [Defender WMIv2 API's](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)voor meer informatie.
+Zie voor meer informatie [Windows Defender WMIv2 API's](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal).
 
 ## <a name="check-for-protection-updates-on-startup"></a>Controleren op beveiligingsupdates bij opstarten
 
-U kunt groepsbeleid gebruiken om Microsoft Defender Antivirus te dwingen beveiligingsupdates te controleren en downloaden wanneer de computer wordt gestart.
+U kunt groepsbeleid gebruiken om Microsoft Defender Antivirus beveiligingsupdates te controleren en downloaden wanneer de computer wordt gestart.
 
 1. Open op de computer groepsbeleidsbeheer de console Groepsbeleidsbeheer, [](/previous-versions/windows/desktop/gpmc/group-policy-management-console-portal)klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en klik op **Bewerken.**
 
@@ -91,7 +92,7 @@ U kunt groepsbeleid gebruiken om Microsoft Defender Antivirus te dwingen beveili
 
 3. Klik **op Beleid** en vervolgens op **Beheersjablonen.**
 
-4. Vouw de structuur uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Security Intelligence  >  **Updates**.
+4. Vouw de structuur uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Beveiligingsinformatieupdates.**
 
 5. Dubbelklik bij het opstarten op Controleren op de meest recente **virus-** en spywaredefinities en stel de optie in **op Ingeschakeld.** 
 
@@ -107,7 +108,7 @@ U kunt ook Groepsbeleid, PowerShell of WMI gebruiken om Microsoft Defender Antiv
 
 3. Klik **op Beleid** en vervolgens op **Beheersjablonen.**
 
-4. Vouw de structuur uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Security Intelligence  >  **Updates**.
+4. Vouw de structuur uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Beveiligingsinformatieupdates.**
 
 5. Dubbelklik bij **het opstarten op Beveiligingsinformatieupdate starten** en stel de optie in op **Ingeschakeld.**
 
@@ -121,9 +122,9 @@ Gebruik de volgende cmdlets:
 Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine
 ```
 
-Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus- en [Defender-cmdlets](/powershell/module/defender/index) te beheren voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus.
+Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus en [Defender-cmdlets](/powershell/module/defender/index) te beheren voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus.
 
-### <a name="use-windows-management-instruction-wmi-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Windows Management Instruction (WMI) gebruiken om updates te downloaden wanneer Microsoft Defender Antivirus niet aanwezig is
+### <a name="use-windows-management-instruction-wmi-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Gebruik Windows Management Instruction (WMI) om updates te downloaden wanneer Microsoft Defender Antivirus niet aanwezig is
 
 Gebruik de [ **methode Set** of the **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) class voor de volgende eigenschappen:
 
@@ -131,7 +132,7 @@ Gebruik de [ **methode Set** of the **MSFT_MpPreference**](/previous-versions/wi
 SignatureDisableUpdateOnStartupWithoutEngine
 ```
 
-Zie Windows [Defender WMIv2 API's](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)voor meer informatie.
+Zie voor meer informatie [Windows Defender WMIv2 API's](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal).
 
 <a id="cloud-report-updates"></a>
 
@@ -139,7 +140,7 @@ Zie Windows [Defender WMIv2 API's](/previous-versions/windows/desktop/defender/w
 
 Microsoft Defender AV kan wijzigingen aanbrengen in de beveiliging op basis van beveiliging in de cloud. Dergelijke wijzigingen kunnen optreden buiten normale of geplande beveiligingsupdates.
 
-Als u beveiliging via de cloud hebt ingeschakeld, stuurt Microsoft Defender AV bestanden die verdacht zijn naar de Windows Defender-cloud. Als de cloudservice meldt dat het bestand schadelijk is en het bestand wordt gedetecteerd in een recente beveiligingsupdate, kunt u Groepsbeleid gebruiken om Microsoft Defender AV zo te configureren dat deze beveiligingsupdate automatisch wordt ontvangen. Andere belangrijke beveiligingsupdates kunnen ook worden toegepast.
+Als u beveiliging via de cloud hebt ingeschakeld, stuurt Microsoft Defender AV bestanden die verdacht zijn naar de Windows Defender cloud. Als de cloudservice meldt dat het bestand schadelijk is en het bestand wordt gedetecteerd in een recente beveiligingsupdate, kunt u Groepsbeleid gebruiken om Microsoft Defender AV zo te configureren dat deze beveiligingsupdate automatisch wordt ontvangen. Andere belangrijke beveiligingsupdates kunnen ook worden toegepast.
 
 ### <a name="use-group-policy-to-automatically-download-recent-updates-based-on-cloud-delivered-protection"></a>Groepsbeleid gebruiken om recente updates automatisch te downloaden op basis van beveiliging in de cloud
 
@@ -149,7 +150,7 @@ Als u beveiliging via de cloud hebt ingeschakeld, stuurt Microsoft Defender AV b
 
 3. Klik **op Beleid** en vervolgens op **Beheersjablonen.**
 
-4. Vouw de structuur uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Security Intelligence  >  **Updates**.
+4. Vouw de structuur uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Beveiligingsinformatieupdates.**
 
 5. Dubbelklik op **Updates voor realtime beveiligingsinformatie toestaan** op basis van rapporten in Microsoft MAPS en stel de optie in op **Ingeschakeld.** Klik daarna op **OK**.
 
@@ -160,8 +161,8 @@ Als u beveiliging via de cloud hebt ingeschakeld, stuurt Microsoft Defender AV b
 
 ## <a name="see-also"></a>Zie ook
 
-- [Microsoft Defender Antivirus implementeren](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivirus-updates beheren en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [Implementatie van Microsoft Defender Antivirus](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Updates Microsoft Defender Antivirus en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Beheren wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md)
 - [Updates beheren voor eindpunten die verouderd zijn](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 - [Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)

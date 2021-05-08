@@ -25,14 +25,17 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Ontdek hoe je de kosten, facturering en betalingsgegevens op je factuur voor Office 365 voor bedrijven interpreteert en hoe je het inkoopordernummer wijzigt.
-ms.openlocfilehash: 56f1ba3e7cc328593873aaf06ddfe6dc82fc1a17
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: b89ca38bf5d7b1d82982668dcd98e9979f1657be
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615373"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245014"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Je rekening of factuur voor Microsoft 365 voor bedrijven bekijken
+
+> [!IMPORTANT]
+> Vanaf 26 januari 2021 worden nieuwe bankrekeningen niet meer ondersteund voor klanten in België, Frankrijk, Italië, Luxemburg, Portugal, Spanje en de Verenigde Staten. Als u een bestaande klant bent in een van deze landen, kunt u uw abonnement blijven betalen met een bestaande bankrekening en u kunt er nieuwe abonnementen aan toevoegen, maar alleen zolang de bankrekening er goed voor staat.
 
 Je ontvangt ofwel maandelijks ofwel jaarlijks (afhankelijk van de optie die je gekozen hebt bij de aankoop van je abonnement) een e-mail die aangeeft dat je nieuwe factuuroverzicht beschikbaar is in het beheercentrum. [Ontdek hoe u uw rekening of factuur kunt vinden en bekijken](view-your-bill-or-invoice.md).
   

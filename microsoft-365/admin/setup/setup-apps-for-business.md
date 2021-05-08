@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Meer informatie over het instellen van uw abonnement op Microsoft 365-apps voor bedrijven.
-ms.openlocfilehash: 56eb3eb0f28ee99aab1c50a970626c61514335cd
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 6978a5402792906ef773934e5201b3ea6671c010
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579096"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244477"
 ---
 # <a name="set-up-microsoft-365-apps-for-business"></a>Microsoft 365-apps voor bedrijven instellen
 
@@ -57,7 +57,7 @@ U kunt gebruikers toevoegen in de wizard, maar u kunt ook [gebruikers later toev
 
 2. Kies **Naar setup** om de wizard te starten.
 
-3. Op de eerste pagina ziet u de optie voor het installeren van Office-apps op uw computer. U kunt dit ook later doen.
+3. Op de eerste pagina ziet u de optie voor het installeren van Office-apps op uw computer. Dit kunt u ook later doen.
 
 3. Op de volgende pagina kunt u gebruikers toevoegen en hieraan wordt automatisch de licentie voor Microsoft-apps voor bedrijven toegewezen. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van referenties met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
 
@@ -89,7 +89,7 @@ Als u Office 365 beheerd door 21Vianet gebruikt, gaat u naar [https://portal.par
 
 2. Kies **Installeren**.
 
-Hebt u meer gedetailleerde stappen nodig of wilt u de 64-bits versie van Office installeren? Zie [Stapsgewijze installatie-instructies](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658#BKMK_InstallSteps) hieronder.
+Hebt u meer gedetailleerde stappen nodig of wilt u de 64-bits versie van Office installeren? Zie [Stapsgewijze installatie-instructies](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658#BKMK_InstallSteps).
   
 ## <a name="set-up-mobile"></a>Mobiel instellen
 
@@ -99,7 +99,7 @@ Bekijk de stappen voor uw apparaat: [Android](https://support.microsoft.com/offi
   
 ## <a name="store-files-online"></a>Bestanden online opslaan
 
-Microsoft maakt het gemakkelijk om bestanden op te slaan. Als u wilt weten welke opslaglocaties het meest geschikt zijn voor uw bedrijf, raadpleegt u [waar u bestanden kunt opslaan in Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
+Microsoft maakt het gemakkelijk om bestanden op te slaan. Als u wilt weten welke opslaglocaties het meest geschikt zijn voor uw bedrijf, raadpleegt u [waar u bestanden kunt opslaan in Office 365](../../business-video/store-files.md).
   
 Iedereen ontvangt automatisch een **OneDrive**-opslaglocatie in de cloud wanneer u Microsoft-accounts voor hen maakt. Met OneDrive kunt u met uw computer, telefoon en tablet toegang krijgen tot bestanden.  
   

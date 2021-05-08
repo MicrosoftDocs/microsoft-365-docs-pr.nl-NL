@@ -24,18 +24,18 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Microsoft 365-beveiligingscentrum en aanbevelingen voor samenwerking voor kleine bedrijven, inclusief praktijken en politieke campagnes.
-ms.openlocfilehash: 621ebe483683f68ccb9332f9c8b2802bd9b98867
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+description: Beveiligings- en samenwerkingsaanbevelingen voor Microsoft 365 Business Premium voor kleine bedrijven, praktijken en politieke campagnes.
+ms.openlocfilehash: 6c836f5abb118bb3902ecdfaa37acd759faca1fe
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100781"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245026"
 ---
 <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>Microsoft 365 voor kleine bedrijven en campagnes
 ===========================
 
-In de wereld van vandaag is het beveiligen van gegevens en communicatie een prioriteit, zeker voor medische en juridische praktijken, politieke campagnes en vele andere kleine bedrijven. Deze oplossing biedt een resem aanbevelingen die ontworpen zijn om je te helpen bij de bescherming van jezelf en je gegevens. Deze bibliotheek bevat hulp voor het instellen en gebruiken van deze aanbevelingen omgeving, ongeacht het type van je bedrijf.
+Als u Microsoft 365 Business Premium hebt, zijn de instructies in deze bibliotheek de snelste manier om uw beveiliging in te stellen en te beginnen met veilig samenwerken. In de wereld van vandaag is het beveiligen van gegevens en communicatie een prioriteit, zeker voor medische en juridische praktijken, politieke campagnes en vele andere kleine bedrijven. Deze oplossing biedt een resem aanbevelingen die ontworpen zijn om je te helpen bij de bescherming van jezelf en je gegevens. Deze bibliotheek bevat hulp voor het instellen en gebruiken van deze aanbevelingen omgeving, ongeacht het type van je bedrijf.
 
 
 ![Microsoft 365 Business Premium beschermt jouw hulpprogramma's voor productiviteit en samenwerking, bestandsopslag, e-mail, apparaten en identiteit](../media/M365-WhatIsIt-SecurityFocus.png)

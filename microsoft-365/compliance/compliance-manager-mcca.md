@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Meer informatie over het gebruik van Microsoft Compliance Configuration Analyzer om snel aan de weg te gaan met Microsoft Compliance Manager.
-ms.openlocfilehash: 2b91ac274d7270f5be9530742cf711a3918b287d
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 5d74d9980daf7f6ff7f013578cb11be83d18948e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "52162526"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244634"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>Microsoft Compliance Configuration Analyzer for Compliance Manager (preview)
 
@@ -29,7 +29,7 @@ ms.locfileid: "52162526"
 
 De Microsoft Compliance Configuration Analyzer (MCCA) is een preview-hulpprogramma waarmee u aan de slag kunt met [Microsoft Compliance Manager.](compliance-manager.md) MCCA is een op PowerShell gebaseerd hulpprogramma dat de huidige configuraties van uw organisatie op haalt en valideert op basis van Microsoft 365 aanbevolen aanbevolen procedures. Deze best practices zijn gebaseerd op een reeks besturingselementen die belangrijke voorschriften en standaarden bevatten voor gegevensbescherming en gegevensbeheer.
 
-Met MCCA kunt u snel zien welke verbeteracties in Compliance Manger van toepassing zijn op uw huidige Microsoft 365 omgeving. Elke actie die door MCCA wordt geïdentificeerd, geeft u aanbevelingen voor de implementatie, met directe koppelingen naar Compliance Manager en de toepasselijke oplossing om corrigerende actie te ondernemen.
+Met MCCA kunt u snel zien welke verbeteracties in Compliance Manager van toepassing zijn op uw huidige Microsoft 365 omgeving. Elke actie die door MCCA wordt geïdentificeerd, geeft u aanbevelingen voor de implementatie, met directe koppelingen naar Compliance Manager en de toepasselijke oplossing om corrigerende actie te ondernemen.
 
 Een extra bron voor het begrijpen van MCCA is door de [README-instructies op GitHub.](https://github.com/OfficeDev/MCCA#overview) Deze pagina bevat gedetailleerde informatie over vereisten en bevat volledige installatie-instructies. U hebt geen account nodig GitHub om toegang te krijgen tot deze pagina.
 

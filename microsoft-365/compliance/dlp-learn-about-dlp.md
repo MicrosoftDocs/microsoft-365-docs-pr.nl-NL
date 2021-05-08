@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Lees hoe u uw gevoelige informatie kunt beveiligen met Microsoft 365 beleid en hulpprogramma's voor preventie van gegevensverlies en een rondleiding kunt volgen door de DLP-levenscyclus.
-ms.openlocfilehash: 451622d15b1f422304dd498264ff2fe4a343bb6c
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 88cf913f62d28c89bce7054473eb577217de9489
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52127782"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244610"
 ---
 # <a name="learn-about-data-loss-prevention"></a>Meer informatie over preventie van gegevensverlies
 
@@ -207,8 +207,10 @@ Zie Aan de slag [met activiteitenverkenner](data-classification-activity-explore
 
 Zie voor meer informatie Microsoft 365 DLP:
 
-- [Meer informatie over Microsoft 365 preventie van gegevensverlies in eindpunten](endpoint-dlp-learn-about.md)
+- [Meer informatie over Microsoft 365 Eindpunt-DLP](endpoint-dlp-learn-about.md)
 - [Meer informatie over het standaard preventiebeleid voor gegevensverlies in Microsoft Teams (preview)](dlp-teams-default-policy.md)
-- [Meer informatie over de Microsoft 365 on-premises scanner voor preventie van gegevensverlies (voorbeeld)](dlp-on-premises-scanner-learn.md)
-- [Meer informatie over Microsoft compliance-extensie (preview)](dlp-chrome-learn-about.md)
+- [Meer informatie over de on-premises scanner voor Microsoft 365 preventie van gegevensverlies (preview)](dlp-on-premises-scanner-learn.md)
+- [Meer informatie over de Microsoft-compliance-extensie (preview)](dlp-chrome-learn-about.md)
 - [Meer informatie over het Waarschuwingen-dashboard voor preventie van gegevensverlies](dlp-alerts-dashboard-learn.md)
+
+Zie Informatiebeveiliging implementeren voor privacyregels voor gegevens met [](../solutions/information-protection-deploy.md) Microsoft 365 (aka.ms/m365dataprivacy).

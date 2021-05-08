@@ -3,8 +3,8 @@ title: Herstelacties controleren en beheren in Microsoft Defender voor Office 36
 keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
@@ -15,16 +15,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365 Plan 2.
+description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365 plan 2.
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: ce6cfd920845f5a85dbc7d7d48cfefdd6209ec3a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f0c42bef1b090412a7a6422fe029323b645e90df
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933647"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275070"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Herstelacties controleren en beheren in Office 365
 
@@ -42,7 +42,7 @@ Deze herstelacties worden alleen uitgevoerd als uw beveiligingsbewerkingsteam de
 
 ## <a name="approve-or-reject-pending-actions"></a>Acties in behandeling goedkeuren (of weigeren)
 
-1. Ga naar het Microsoft 365-beveiligingscentrum <https://security.microsoft.com> () en meld u aan.
+1. Ga naar het Microsoft 365 beveiligingscentrum ( <https://security.microsoft.com> ) en meld u aan.
 2. Selecteer actiecentrum in het **navigatiedeelvenster.**
 3. Bekijk op **het** tabblad In behandeling de lijst met acties die wachten op goedkeuring.
 4. Selecteer een item in de lijst. Het deelvenster Flyout wordt geopend. 

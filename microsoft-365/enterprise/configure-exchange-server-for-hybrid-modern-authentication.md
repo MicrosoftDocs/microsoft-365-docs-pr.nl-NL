@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over het configureren Exchange Server on-premises voor het gebruik van HMA (Hybrid Modern Authentication), met veiligere gebruikersverificatie en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9cb6d25a346ac48c9875a26f385cb733f1ff051f
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 2ae7a09387b62abc9e8c74f4a38c2fe8750bab19
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259449"
+ms.locfileid: "52244549"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>On-premises Exchange Server configureren voor het gebruik van hybride moderne verificatie
 
@@ -140,7 +140,7 @@ Als OAuth ontbreekt op een server en een van de vier virtuele directories, moet 
 Ga terug naar de on-premises Exchange Management Shell voor deze laatste opdracht. U kunt nu valideren dat uw on-premises vermelding een vermelding heeft voor de provider van de verificatieprovider van evoSTS:
 
 ```powershell
-Get-AuthServer | where {$_.Name -like "EvoSts"}
+Get-AuthServer | where {$_.Name -eq "EvoSts"}
 ```
 
 De uitvoer moet een AuthServer van de naam EvoSts laten zien en de status 'Ingeschakeld' moet Waar zijn. Als u dit niet ziet, moet u de meest recente versie van de wizard Hybride configuratie downloaden en uitvoeren.

@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Beheerders kunnen leren hoe ze selfservice-aankopen van gebruikers in hun organisatie kunnen beheren.
-ms.openlocfilehash: febf0ee470e735a454dc7a9e747de5025c7a4a51
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: 59d64c047ddf4f33c2ef3277f3139f1b7692b891
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398172"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244990"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (Beheerders)
 
@@ -43,14 +43,13 @@ U kunt ook bepalen of gebruikers in uw organisatie selfserviceaankopen kunnen do
 
 ::: moniker range="o365-germany"
 
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de **pagina Facturering** van > **uw producten.**
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de **pagina Facturering** van > **uw producten.**
-
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 ::: moniker-end
 
 2. Selecteer op **het** tabblad Producten het filterpictogram en selecteer **vervolgens Selfservice.**
@@ -59,7 +58,7 @@ U kunt ook bepalen of gebruikers in uw organisatie selfserviceaankopen kunnen do
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Bekijken wie licenties heeft voor een selfservice-aankoopabonnement
 
 > [!NOTE]
-> Als beheerder kunt u geen licenties toewijzen of ontzeggen voor een selfservice-aankoopabonnement dat is gekocht door een gebruiker in uw organisatie. U kunt [een selfservice-aankoopabonnement](#take-over-a-self-service-purchase-subscription)overnemen en vervolgens licenties toewijzen of ontzeggen.
+> Als beheerder kunt u geen licenties toewijzen of verwijderen voor een self-service aankoopabonnement dat door een gebruiker in uw organisatie is gekocht. U kunt [self-service aankoopabonnementen overnemen](#take-over-a-self-service-purchase-subscription)en vervolgens licenties toewijzen of opheffen.
 
 ::: moniker range="o365-worldwide"
 
@@ -69,12 +68,13 @@ U kunt ook bepalen of gebruikers in uw organisatie selfserviceaankopen kunnen do
 
 ::: moniker range="o365-germany"
 
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina **Factureringslicenties.** > 
+ 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenties</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina **Factureringslicenties.** > 
+ 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenties</a>.
 
 ::: moniker-end
 

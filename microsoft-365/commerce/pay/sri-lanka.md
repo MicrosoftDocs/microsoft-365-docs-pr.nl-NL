@@ -1,5 +1,5 @@
 ---
-title: Betalingsgegevens voor Sri Sri
+title: Betalingsgegevens voor Sri Lanka
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -8,26 +8,26 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 545b977d8942706073c10b0365f66d9ec0b110a6
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: cf589ec2afc2f16d24bf55d3e0de8b6763036169
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542594"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272814"
 ---
-# <a name="payment-information-for-sri-lanka"></a>Betalingsgegevens voor Sri Sri
+# <a name="payment-information-for-sri-lanka"></a>Betalingsgegevens voor Sri Lanka
 
 [Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in USD en vermeld uw factuurnummer(s) bij de overboeking van uw factuur.
+Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank, Singapore  
 **SWIFT-code:** CITISGSG  
-**Rekeningnummer:** 0-817543-138  
+**Accountnummer:** 0-817543-138  
 **Accountnaam:** MICROSOFT REGIONAL SALES CORP  

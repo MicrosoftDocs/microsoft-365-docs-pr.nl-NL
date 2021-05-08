@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Compliance Manager helpt organisaties bij het vereenvoudigen en automatiseren van risicobeoordelingen en stelt aanbevolen acties voor om risico's aan te pakken.
-ms.openlocfilehash: f938bb6b82ee7e24dd58b66597f0af7a3a00a9a2
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 7eb8e0fdea26ca24453ca7071ab1282c686d5848
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "52162528"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244393"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft Compliance Manager
 
@@ -149,8 +149,8 @@ Compliance manager is beschikbaar in de volgende talen:
 - Hebrew
 - Hungarian
 - Italian
-- Japanese
-- Korean
+- Japans
+- Koreaans
 - Noors
 - Polish
 - Portugees (Braziliaans)
@@ -165,3 +165,5 @@ Compliance manager is beschikbaar in de volgende talen:
 Lees hoe u zich kunt aanmelden, machtigingen en rollen kunt toewijzen, instellingen kunt configureren en uw dashboardweergave kunt aanpassen in Aan de slag [met Compliance Manager.](compliance-manager-setup.md)
 
 Pas Vervolgens Compliance Manager aan om u te helpen voldoen aan industriestandaarden die het belangrijkst zijn voor uw organisatie door [evaluaties in te stellen.](compliance-manager-assessments.md)
+
+Om u te helpen voldoen aan de privacyregels voor gegevens, hebben we een werkstroom ontworpen om u te begeleiden bij een end-to-endproces voor het plannen en implementeren van mogelijkheden in Microsoft 365, waaronder compliancebeheer. Zie Informatiebeveiliging [](../solutions/information-protection-deploy.md) implementeren voor privacyregels voor gegevens met Microsoft 365 (aka.ms/m365dataprivacy). 

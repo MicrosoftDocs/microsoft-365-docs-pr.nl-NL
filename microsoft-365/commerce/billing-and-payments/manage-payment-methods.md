@@ -23,14 +23,17 @@ search.appverid:
 - MET150
 description: Informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
 ms.date: 04/02/2021
-ms.openlocfilehash: 4b35b7b8e874915e5f9c792686ff0e368292c802
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: b69096bb05ada6ce7a1ee619aa78bc04639e7004
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107037"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244718"
 ---
 # <a name="manage-payment-methods"></a>Betalingsmethoden beheren
+
+> [!IMPORTANT]
+> Vanaf 26 januari 2021 worden nieuwe bankrekeningen niet meer ondersteund voor klanten in België, Frankrijk, Italië, Luxemburg, Portugal, Spanje en de Verenigde Staten. Als u een bestaande klant bent in een van deze landen, kunt u voor uw abonnement blijven betalen via uw bestaande bankrekening en kunt u nieuwe abonnementen toevoegen, mits uw bankrekening een goede status heeft.
 
 Wanneer u zakelijke producten of services van Microsoft koopt, kunt u een bestaande betalingsmethode gebruiken of een nieuwe toevoegen. U kunt een creditcard, betaalkaart of bankrekening gebruiken om te betalen voor de dingen die u koopt.
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Informatie over het selecteren en exporteren van inhoud uit een Advanced eDiscovery voor presentaties of externe beoordelingen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0752c5272d078e75e3bdbfb9cf7af7e49c78e65c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 76865ae92d3b3090ae2bba01c9b3e9e0f1f86366
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "52162570"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244357"
 ---
 # <a name="export-documents-from-a-review-set-in-advanced-ediscovery"></a>Documenten exporteren uit een revisieset in Advanced eDiscovery
 
@@ -45,78 +45,55 @@ Documenten exporteren uit een revisieset:
 
 ## <a name="export-options"></a>Exportopties
 
-Gebruik de volgende opties om de export te configureren.
+Gebruik de volgende opties om de export te configureren. Niet alle opties zijn toegestaan voor bepaalde uitvoeropties, met name het exporteren van tekstbestanden en opnieuw opgemaakte PDF-bestanden, zijn niet toegestaan bij het exporteren naar de PST-indeling.
 
-- **Exportnaam:** naam van de exportklus.
+- **Exportnaam:** naam van de exportklus. Dit wordt gebruikt om de zip-bestanden te noemen die worden gedownload.
 
 - **Beschrijving**: Veld Vrije tekst om een beschrijving toe te voegen.
 
 - **Deze documenten exporteren**
 
-  - **Alleen geselecteerde documenten:** deze optie exporteert alleen de documenten die momenteel zijn geselecteerd.
-  
-  - **Alle documenten in de revisieset:** met deze optie worden alle documenten in de revisieset geexporteert.
-
-- **Metagegevens**
-  
-  - **Bestand laden:** dit bestand bevat metagegevens voor elk bestand. Dit bestand kan meestal worden ingenomen door eDiscovery-hulpprogramma's van derden. Zie Metagegevensvelden in documenten [in](document-metadata-fields-in-Advanced-eDiscovery.md)Advanced eDiscovery.
-  
-  - **Tags:** Wanneer u deze optie hebt geselecteerd, wordt labelingsgegevens opgenomen in het laadbestand.
-
-- **Content**
-  
-  - **Oorspronkelijke bestanden:** Schakel dit selectievakje in om de oorspronkelijke bestanden van de documenten in de revisieset op te nemen. Als u ervoor kiest om native bestanden te exporteren, hebt u de volgende opties voor het exporteren van chatgesprekken.
-  
-  - **Gespreksopties**
-
-    - **Gespreksbestanden:** Deze optie exporteert gereconstrueerde chatgesprekken. Deze indeling bevat gesprekken in een formulier dat lijkt op wat gebruikers zien in de oorspronkelijke toepassing.
-
-    - **Afzonderlijke chatberichten:** met deze optie worden de oorspronkelijke gespreksbestanden opgeslagen in Microsoft 365.
-
-- **Opties**
-
-  - **Tekstbestanden:**- Deze optie bevat de uitgepakte tekstversies van oorspronkelijke bestanden in de export.
-  
-  - **Redacted natives vervangen** door geconverteerde PDF-bestanden: als er tijdens de revisie opnieuw uitgevoerde PDF-bestanden worden gegenereerd, zijn deze bestanden beschikbaar voor export. U kunt ervoor kiezen om alleen de oorspronkelijke bestanden te exporteren die opnieuw zijn uitgevoerd (door deze optie niet te selecteren) of u kunt deze optie selecteren om de PDF-bestanden te exporteren die de werkelijke redactions bevatten.
+  - Alleen geselecteerde documenten: deze optie exporteert alleen de documenten die momenteel zijn geselecteerd. Deze optie is alleen beschikbaar wanneer items zijn geselecteerd in een revisieset.
+  - Alle gefilterde documenten: met deze optie worden de documenten in een actief filter geexporteerd. Deze optie is alleen beschikbaar wanneer een filter wordt toegepast op de revisieset.
+  - Alle documenten in de revisieset: met deze optie worden alle documenten in de revisieset geexporteert.
 
 - **Uitvoeropties:** Geëxporteerde inhoud kan rechtstreeks via een webbrowser worden gedownload of kan worden verzonden naar een Azure Storage account. Met de eerste twee opties kunt u direct downloaden.
   
-  - **Losse bestanden en PST's**(e-mail wordt indien mogelijk toegevoegd aan PST's) : Bestanden worden geëxporteerd in een indeling die lijkt op de oorspronkelijke adreslijststructuur die gebruikers in hun eigen toepassingen zien.  Zie de sectie Losse bestanden en [PST-exportstructuur voor meer](#loose-files-and-pst-export-structure) informatie.
-  
-  - **Gecondenseerde** adreslijststructuur: Bestanden worden geëxporteerd en opgenomen in de download.
-  
-  - **Gecondenseerde** adreslijststructuur geëxporteerd naar uw Azure Storage account: Bestanden worden geëxporteerd naar het account Azure Storage uw organisatie. Voor deze optie moet u de URL opgeven voor de container in Azure Storage account om de bestanden naar te exporteren. U moet ook het SAS-token (Shared Access Signature) voor uw Azure Storage geven. Zie Documenten exporteren in een revisieset naar een Azure Storage [account voor meer informatie.](download-export-jobs.md)
+  - Alleen rapporten: Alleen het overzichts- en laadbestand worden gemaakt.
+  - Losse bestanden en PST's (e-mail wordt indien mogelijk toegevoegd aan PST's): Bestanden worden geëxporteerd in een indeling die lijkt op de oorspronkelijke adreslijststructuur die gebruikers in hun eigen toepassingen zien.  Zie de sectie Losse bestanden en [PST-exportstructuur voor meer](#loose-files-and-pst-export-structure) informatie.
+  - Gecondenseerde adreslijststructuur: Bestanden worden geëxporteerd en opgenomen in de download.
+  - Gecondenseerde adreslijststructuur die wordt geëxporteerd naar uw Azure Storage account: Bestanden worden geëxporteerd naar het account Azure Storage uw organisatie. Voor deze optie moet u de URL opgeven voor de container in Azure Storage account om de bestanden naar te exporteren. U moet ook het SAS-token (Shared Access Signature) voor uw Azure Storage geven. Zie Documenten exporteren in een revisieset naar een Azure Storage [account voor meer informatie.](download-export-jobs.md)
 
-In de volgende secties wordt de mapstructuur voor losse bestanden en de opties voor een verkorte adreslijststructuur beschreven.
+- **Opnemen**
+  - Tags: Wanneer u deze optie hebt geselecteerd, wordt taggegevens opgenomen in het laadbestand.
+  - Tekstbestanden: Deze optie bevat de uitgepakte tekstversies van oorspronkelijke bestanden in de export.
+  - Redacted natives vervangen door geconverteerde PDF-bestanden: Als er tijdens het controleren opnieuw uitgevoerde PDF-bestanden worden gegenereerd, zijn deze bestanden beschikbaar voor export. U kunt ervoor kiezen om alleen de oorspronkelijke bestanden te exporteren die opnieuw zijn uitgevoerd (door deze optie niet te selecteren) of u kunt deze optie selecteren om de PDF-bestanden te exporteren die de werkelijke redactions bevatten.
+
+## <a name="the-following-sections-describe-the-folder-structure-for-loose-files-and-condensed-directory-structure-options"></a>In de volgende secties wordt de mapstructuur beschreven voor losse bestanden en opties voor gecondenseerde adreslijststructuur
+
+Exporten worden verdeeld in ZIP-bestanden met een maximale grootte van niet-gecomprimeerde inhoud van 75 GB. Als de exportgrootte kleiner is dan 75 GB, bestaat de export uit een overzichtsbestand en één ZIP-bestand. Voor exporten van meer dan 75 GB aan niet-gecomprimeerde gegevens worden meerdere ZIP-bestanden gemaakt. Wanneer u deze hebt gedownload, kunnen de ZIP-bestanden op één locatie worden gecomprimeerd om de volledige export opnieuw te maken.
 
 ### <a name="loose-files-and-pst-export-structure"></a>Losse bestanden en PST-exportstructuur
 
 Als u deze exportoptie selecteert, is de geëxporteerde inhoud ingedeeld in de volgende structuur:
 
-- Hoofdmap: Deze map in benoemde ExportName.zip
-  
-  - Export_load_file.csv: Het metagegevensbestand.
-  
-  - Summary.csv: Een overzichtsbestand dat ook exportstatistieken bevat.
-  
-  - Exchange: Deze map bevat alle inhoud van Exchange in de oorspronkelijke bestandsindeling. Natives-bestanden worden vervangen door ge redacted PDF's als u de optie **Redacted Natives** vervangen door geconverteerde PDF's hebt geselecteerd.
-  
-  - SharePoint: Deze map bevat alle oorspronkelijke inhoud van SharePoint in een oorspronkelijke bestandsindeling. Natives-bestanden worden vervangen door ge redacted PDF's als u de optie **Redacted Natives** vervangen door geconverteerde PDF's hebt geselecteerd.
+- Summary.csv: Bevat een overzicht van de inhoud die is geëxporteerd uit de revisieset
+- Hoofdmap: Deze map met de naam [Exportnaam] x van z.zip en wordt herhaald voor elke ZIP-bestandspartitie.
+  - Export_load_file_x van z.csv: Het metagegevensbestand.
+  - Waarschuwingen en fouten x van z.csv: Dit bestand bevat informatie over fouten die zijn aangetroffen bij het exporteren uit de revisieset.
+  - Exchange: Deze map bevat alle inhoud uit Exchange opgeslagen in PST-bestanden. Deze optie kan niet worden opgenomen in opnieuw besleede PDF-bestanden. Als een bijlage is geselecteerd in de revisieset, wordt het bovenliggende e-mailbericht geëxporteerd met de bijlage als bijlage.
+  - SharePoint: Deze map bevat alle oorspronkelijke inhoud van SharePoint in een oorspronkelijke bestandsindeling. Deze optie kan niet worden opgenomen in opnieuw besleede PDF-bestanden.
 
 ### <a name="condensed-directory-structure"></a>Gecondenseerde adreslijststructuur
 
-- Hoofdmap: Deze map heeft de naam ExportName.zip
-  
-  - Export_load_file.csv: Het metagegevensbestand.
-  
-  - Summary.txt: Een overzichtsbestand dat ook exportstatistieken bevat.
-  
-  - NativeFiles: Deze map bevat alle oorspronkelijke bestanden die zijn geëxporteerd. Als u opnieuw uitgevoerde PDF-bestanden exporteert, worden deze niet in PST-bestanden gezet. In plaats daarvan worden ze toegevoegd aan een gescheiden map.
-  
-  - Error_files: Deze map bevat de volgende foutbestanden, als deze zijn opgenomen in de export:
-
-    - ExtractieFout: een CSV-bestand dat alle beschikbare metagegevens bevat van bestanden die niet correct zijn geëxtraheerd uit bovenliggende bestanden.
-
-    - ProcessingError: Dit bestand bevat een lijst met documenten met verwerkingsfouten. Deze inhoud is itemniveau, wat betekent dat als een bijlage een verwerkingsfout heeft veroorzaakt, het e-mailbericht met de bijlage in deze map wordt opgenomen.
-  
+- Summary.csv: Bevat een overzicht van de inhoud die is geëxporteerd uit de revisieset
+- Hoofdmap: Deze map met de naam [Exportnaam] x van z.zip en wordt herhaald voor elke ZIP-bestandspartitie.
+  - Export_load_file_x van z.csv: Het metagegevensbestand en bevat ook de locatie van elk bestand dat is opgeslagen in het ZIP-bestand.
+  - Waarschuwingen en fouten x van z.csv: Dit bestand bevat informatie over fouten die zijn aangetroffen bij het exporteren uit de revisieset.
+  - NativeFiles: Deze map bevat alle oorspronkelijke bestanden die zijn geëxporteerd. Natives-bestanden worden vervangen door ge redacted PDF's als u de optie *Redacted Natives* vervangen door geconverteerde PDF's hebt geselecteerd.
+  - Error_files: Deze map bevat bestanden met een extractie- of andere verwerkingsfout. De bestanden worden in afzonderlijke mappen geplaatst, extractiefout of ProcessingError. Deze bestanden worden weergegeven in het laadbestand.
   - Extracted_text_files: Deze map bevat alle uitgepakte tekstbestanden die tijdens de verwerking zijn gegenereerd.
+
+### <a name="condensed-directory-structure-exported-to-your-azure-storage-account"></a>Gecondenseerde adreslijststructuur geëxporteerd naar uw Azure Storage Account
+
+Deze optie gebruikt dezelfde algemene structuur als de *structuur* van de verkorte adreslijst, maar de inhoud wordt niet geritst en de gegevens worden opgeslagen in uw Azure Storage account. Deze optie wordt meestal gebruikt bij het werken met een externe eDiscovery-provider. Zie Documenten exporteren in een revisieset naar een Azure Storage account voor meer informatie over het gebruik [van deze optie.](download-export-jobs.md)

@@ -19,16 +19,23 @@ search.appverid:
 - MET150
 description: Ontdek hier hoe je je factuur of rekening voor zakelijke Microsoft-producten kunt lezen en begrijpen.
 keywords: factureringsaccounts, organisatie info, facturen
-ms.openlocfilehash: 3752254fc6068381cd6effed0be4d5b8295f8a27
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 344877a4b97f5c77dc3381aa49d7bf0f60bd628e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579756"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244706"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Inzicht in je rekening of factuur
 
 Op de factuur staan een kostenoverzicht en de betalingsinstructies vermeld. Je kunt [de online factuur bekijken](#view-your-online-invoice) in het Microsoft 365-beheercentrum. Je kunt de factuur ook in de Portable Document Format-indeling (.pdf) downloaden om deze per e-mail te verzenden.
+
+Uw factuur weergeven en afdrukken:
+
+1. Selecteer op de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a> een datumbereik voor de factuur.
+2. Als je een pdf-versie van de factuur wilt afdrukken of opslaan, kies je **Pdf-factuur bekijken** en maak je vervolgens een afdruk van het pdf-bestand.
+
+Zie [Je rekening of factuur bekijken](view-your-bill-or-invoice.md) voor meer informatie.
 
 Als je alleen een Microsoft 365-abonnement hebt, raadpleeg je [Inzicht in je rekening of factuur voor Microsoft 365 voor Bedrijven](understand-your-invoice2.md).
 
@@ -133,13 +140,6 @@ De betalingsinstructies zijn afhankelijk van je betalingswijze en worden onderaa
 
 - **Serviceperiode:** De tijdsperiode waarvoor het gebruik van de service in rekening wordt gebracht.
 - **Factureringsperiode:** De tijdsperiode sinds de laatste factuurdatum.
-
-### <a name="how-do-i-view-and-print-my-bill"></a>Hoe kan ik mijn factuur weergeven en afdrukken?
-
-1. Selecteer op de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a> een datumbereik voor de factuur.
-2. Als je een pdf-versie van de factuur wilt afdrukken of opslaan, kies je **Pdf-factuur bekijken** en maak je vervolgens een afdruk van het pdf-bestand.
-
-Zie [Je rekening of factuur bekijken](view-your-bill-or-invoice.md) voor meer informatie.
 
 ### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Waarom zie ik geen Azure-vooruitbetaling als betalingsmethode?
 

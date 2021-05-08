@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Informatie over het beheren van e-mailhandtekeningen, inclusief juridische vrijwaringen of openbaarmakingsverklaringen voor alle e-mailberichten die uw organisatie binnenkomen of verlaten.
-ms.openlocfilehash: b599ef8b6d0bb236b6111bae86c92409601e00d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e1c3df235442fdc6f569825a7137c92bfc5bb044
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914232"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244525"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Handtekeningen en vrijwaringen voor de hele organisatie maken
 
@@ -40,7 +40,7 @@ ms.locfileid: "50914232"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Een handtekening maken die van toepassing is op alle berichten
 
@@ -80,7 +80,7 @@ Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=
 6. Selecteer **onder Deze regel toepassen** de optie **[Toepassen op alle berichten]**.
     
     > [!TIP]
-    > [Meer informatie](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) over het toepassen van voorwaarden als u niet wilt dat de vrijwaring wordt toegepast op alle berichten. (Dit scoping-artikel is bedoeld voor Exchange Server, maar is ook van toepassing op Microsoft 365.) 
+    > [Meer informatie](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) over het toepassen van voorwaarden als u niet wilt dat de vrijwaring wordt toegepast op alle berichten. (Dit scoping-artikel is bedoeld Exchange Server, maar is ook van toepassing op Microsoft 365.) 
   
 7. Laat onder Ga als volgt te werk de optie **De vrijwaring toevoegen** ingeschakeld. 
     

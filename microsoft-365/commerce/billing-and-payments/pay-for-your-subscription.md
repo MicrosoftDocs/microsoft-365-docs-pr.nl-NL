@@ -21,14 +21,17 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 582ecb0f9b46d877c30aa29334b30b9209c93993
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 65454dcc71645b370d2ebfc875474151c0954a3c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576935"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245002"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Meer informatie over het betalen voor uw abonnement
+
+> [!IMPORTANT]
+> Vanaf 26 januari 2021 worden nieuwe bankrekeningen niet meer ondersteund voor klanten in België, Frankrijk, Italië, Luxemburg, Portugal, Spanje en de Verenigde Staten. Als u een bestaande klant bent in een van deze landen, kunt u voor uw abonnement blijven betalen via uw bestaande bankrekening en kunt u nieuwe abonnementen toevoegen, mits uw bankrekening een goede status heeft.
 
 U kunt een creditcard, betaalkaart of bankrekening gebruiken om te betalen voor uw abonnement. In sommige gevallen kunt u per factuur betalen via een cheque of elektronische betaling (EFT). Als u een factureringsprofiel hebt, zijn de opties iets anders. Zie voor meer informatie [Betalen voor uw abonnement met een factureringsprofiel](pay-for-subscription-billing-profile.md). Als u niet zeker weet of uw account een factureringsprofiel heeft, raadpleegt u [Factureringsprofielen begrijpen](manage-billing-profiles.md).
 
@@ -37,7 +40,7 @@ U kunt een creditcard, betaalkaart of bankrekening gebruiken om te betalen voor 
 ## <a name="before-you-begin"></a>Voordat u begint
 
 - U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-- De betalingsmethode die u tijdens het afrekenen kiest, is de betalingsmethode die wij gebruiken voor alle toekomstige factureringsperioden. U kunt dit op ieder moment wijzigen.
+- De betalingswijze die u tijdens het afrekenen kiest, is de betalingswijze die wij voor alle toekomstige factureringsperioden zullen gebruiken. U kunt deze op ieder moment wijzigen.
 
 ## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>Betalen via creditcard, betaalpas of bankrekening
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34274e260da2e8acc8088fcff6d324b6b31fc2ef
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 0e09a313b512135785050abd5aa61bb9576ce1d8
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935939"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274938"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt op Linux
 
@@ -39,16 +39,23 @@ ms.locfileid: "51935939"
 In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt op Linux kunt installeren, configureren, bijwerken en gebruiken.
 
 > [!CAUTION]
-> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt op Linux kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u na het configureren van de antivirusfunctionaliteit [](linux-preferences.md#enable--disable-passive-mode)in de passieve modus nog steeds veilig gebruik maken van Defender for Endpoint op Linux EDR-functionaliteit.
+> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt op Linux kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u nog steeds veilig profiteren van De functionaliteit van Defender voor Eindpunt op Linux EDR nadat u de antivirusfunctionaliteit hebt geconfigureerd voor gebruik in de passieve [modus.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt installeren op Linux
 
 ### <a name="prerequisites"></a>Vereisten
 
-- Toegang tot de microsoft Defender-beveiligingscentrumportal
+- Toegang tot de Microsoft Defender-beveiligingscentrum portal
 - Linux-distributie met [de systemd](https://systemd.io/) system manager
 - Beginnerservaring in Linux- en BASH-scripting
 - Beheerdersbevoegdheden op het apparaat (in geval van handmatige implementatie)
+
+> [!NOTE]
+>  Microsoft Defender voor Endpoint op Linux-agent is onafhankelijk van [OMS-agent.](/azure/azure-monitor/agents/agents-overview#log-analytics-agent) Microsoft Defender voor Eindpunt is afhankelijk van een eigen onafhankelijke telemetriepijplijn.
+> 
+> Microsoft Defender voor Eindpunt op Linux is nog niet geïntegreerd in azure-beveiligingscentrum.
+
+
 
 ### <a name="installation-instructions"></a>Installatie-instructies
 
@@ -66,6 +73,8 @@ Over het algemeen moet u de volgende stappen ondernemen:
 
 Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in Microsoft Defender voor Eindpunt op Linux.](linux-support-install.md)
 
+
+
 ### <a name="system-requirements"></a>Systeemvereisten
 
 - Ondersteunde Linux-serverdistributies en -versies:
@@ -77,14 +86,23 @@ Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in M
   - SUSE Linux Enterprise Server 12 of hoger
   - Oracle Linux 7.2 of hoger
 
+    > [!NOTE]
+    > Distributies en versies die niet expliciet worden vermeld, worden niet ondersteund (zelfs als ze zijn afgeleid van de officieel ondersteunde distributies).
+
+
 - Minimum kernel versie 3.10.0-327
+
 - De `fanotify` kerneloptie moet zijn ingeschakeld
+
   > [!CAUTION]
   > Het uitvoeren van Defender voor Eindpunt op Linux naast andere op basis van `fanotify` beveiligingsoplossingen wordt niet ondersteund. Dit kan leiden tot onvoorspelbare resultaten, waaronder het ophangen van het besturingssysteem.
 
 - Schijfruimte: 1 GB
+
 - /opt/microsoft/mdatp/sbin/wdavdaemon vereist uitvoerbare machtigingen. Zie 'Controleer of de daemon uitvoerbare machtiging heeft' in Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux voor meer [informatie.](/microsoft-365/security/defender-endpoint/linux-support-install)
+
 - Geheugen: 1 GB
+
     > [!NOTE]
     > Zorg ervoor dat u vrije schijfruimte hebt in /var.
 
@@ -117,7 +135,7 @@ Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall con
 
 In de volgende downloadbare spreadsheet vindt u de services en bijbehorende URL's waar uw netwerk verbinding mee moet kunnen maken. U moet ervoor zorgen dat er geen firewall- of netwerkfilterregels zijn die de toegang tot deze URL's weigeren. Als dat zo is, moet u mogelijk een *regel* voor toestaan speciaal voor hen maken.
 
-|**Spreadsheet met domeinenlijst**|**Beschrijving**|
+| Spreadsheet met domeinenlijst | Omschrijving |
 |:-----|:-----|
 |![Thumb image for Microsoft Defender for Endpoint URLLs spreadsheet](images/mdatp-urls.png)<br/>  | Spreadsheet met specifieke DNS-records voor servicelocaties, geografische locaties en besturingssysteem. <br><br>[Download de spreadsheet hier.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 

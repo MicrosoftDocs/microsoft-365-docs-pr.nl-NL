@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: Implementeer Microsoft Information Governance-mogelijkheden om uw gegevens te beheren voor nalevings- of wettelijke vereisten.
-ms.openlocfilehash: 6a0db63f218db72dbda9afc510cb5ef5f5e13eaa
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 304b4e57702c55242e49fae7fdf4a36e9b2f7cdb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162872"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244562"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft Information Governance in Microsoft 365
 
@@ -30,7 +30,9 @@ Gebruik Microsoft Information Governance-mogelijkheden (soms afgekort tot MIG) o
 
 ![Uw gegevens beheren: informatie- en recordbeheer](../media/information-governance-records-management.png)
 
-Wilt u uw gegevens beschermen? Zie [Microsoft Information Protection in Microsoft 365](information-protection.md).
+Wilt u uw gegevens beschermen? Raadpleeg [Microsoft Information Protection in Microsoft 365](information-protection.md).
+
+Om u te helpen voldoen aan regelgeving voor gegevensbescherming, hebben we een werkstroom ontworpen die u door een end-to-endproces helpt bij het plannen en implementeren van mogelijkheden in Microsoft 365, waaronder veilige toegang, bedreigingsbeveiliging, gegevensbeveiliging en gegevensbeheer. Raadpleeg voor meer informatie [Informatiebescherming voor regelgeving voor gegevensbescherming implementeren met Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy). 
 
 ## <a name="information-governance"></a>Informatiebeheer
 

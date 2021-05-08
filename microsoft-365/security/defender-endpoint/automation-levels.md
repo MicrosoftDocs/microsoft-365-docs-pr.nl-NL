@@ -9,8 +9,8 @@ ms.technology: mde
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 ms.date: 10/22/2020
 localization_priority: Normal
 manager: dansimp
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: 013e01e9f84cae01258afc6ba139b7b5ada5912f
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ba206002415fcd4ae968cc88563136399b78f435
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934115"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274772"
 ---
 # <a name="automation-levels-in-automated-investigation-and-remediation-capabilities"></a>Automatiseringsniveaus in geautomatiseerde onderzoeks- en herstelmogelijkheden
 
@@ -46,11 +46,11 @@ Geautomatiseerde mogelijkheden voor onderzoek en herstel (AIR) in Microsoft Defe
 
 In de volgende tabel wordt elk automatiseringsniveau en de manier beschreven waarop het werkt.
 
-|Automatiseringsniveau | Beschrijving|
+|Automatiseringsniveau | Omschrijving|
 |:---|:---|
 |**Volledig: herstel bedreigingen automatisch** <br/>(ook wel volledige automatisering *genoemd)*| Met volledige automatisering worden herstelacties automatisch uitgevoerd. Alle herstelacties die worden ondernomen, kunnen worden weergegeven in het [Actiecentrum](auto-investigation-action-center.md) op het **tabblad** Geschiedenis. Indien nodig kan een herstelactie ongedaan worden gemaakt.<br/><br/>**_Volledige automatisering wordt_* aanbevolen en is standaard geselecteerd voor tenants die zijn gemaakt op of na 16 augustus 2020 met Microsoft Defender voor Eindpunt, zonder dat er apparaatgroepen zijn gedefinieerd.*  |
 |**Semi - goedkeuring vereisen voor eventuele herstelmaatregelen** <br/>(ook wel *semi-automatisering genoemd)*| Met dit niveau van semi-automatisering is goedkeuring vereist voor *elke* herstelactie. Dergelijke acties in behandeling kunnen worden bekeken en goedgekeurd in het [Actiecentrum](auto-investigation-action-center.md)op **het tabblad** In behandeling.<br/><br/>*Dit niveau van semi-automatisering is standaard geselecteerd voor tenants die zijn gemaakt vóór 16 augustus 2020 met Microsoft Defender voor Eindpunt, zonder dat er apparaatgroepen zijn gedefinieerd.*|
-|**Semi - goedkeuring vereisen voor herstel van kernmappen** <br/>(ook een type *semi-automatisering*)  | Met dit niveau van semi-automatisering is goedkeuring vereist voor herstelacties die nodig zijn voor bestanden of uitvoerbare bestanden die zich in hoofdmappen hebben. Hoofdmappen bevatten mappen voor besturingssysteem, zoals **windows** ( `\windows\*` ).<br/><br/>Herstelacties kunnen automatisch worden uitgevoerd op bestanden of uitvoerbare bestanden die zich in andere mappen (niet-kernmappen) verplaatsen. <br/><br/>Acties in behandeling voor bestanden of uitvoerbare bestanden in kernmappen kunnen worden bekeken en goedgekeurd in het [Actiecentrum](auto-investigation-action-center.md)op **het** tabblad In behandeling. <br/><br/>Acties die zijn uitgevoerd op bestanden of uitvoerbare bestanden in andere mappen, kunnen worden weergegeven in het [Actiecentrum](auto-investigation-action-center.md)op **het** tabblad Geschiedenis. |
+|**Semi - goedkeuring vereisen voor herstel van kernmappen** <br/>(ook een type *semi-automatisering*)  | Met dit niveau van semi-automatisering is goedkeuring vereist voor herstelacties die nodig zijn voor bestanden of uitvoerbare bestanden die zich in hoofdmappen hebben. Hoofdmappen bevatten mappen van besturingssysteem, zoals de **Windows** ( `\windows\*` ).<br/><br/>Herstelacties kunnen automatisch worden uitgevoerd op bestanden of uitvoerbare bestanden die zich in andere mappen (niet-kernmappen) verplaatsen. <br/><br/>Acties in behandeling voor bestanden of uitvoerbare bestanden in kernmappen kunnen worden bekeken en goedgekeurd in het [Actiecentrum](auto-investigation-action-center.md)op **het** tabblad In behandeling. <br/><br/>Acties die zijn uitgevoerd op bestanden of uitvoerbare bestanden in andere mappen, kunnen worden weergegeven in het [Actiecentrum](auto-investigation-action-center.md)op **het** tabblad Geschiedenis. |
 |**Semi - goedkeuring vereisen voor herstel van niet-tijdelijke mappen** <br/>(ook een type *semi-automatisering*)| Met dit niveau van semi-automatisering is goedkeuring vereist voor herstelacties die nodig zijn voor bestanden of uitvoerbare bestanden die niet *in* tijdelijke mappen staan. <br/><br/>Tijdelijke mappen kunnen de volgende voorbeelden bevatten: <br/>- `\users\*\appdata\local\temp\*`<br/>- `\documents and settings\*\local settings\temp\*` <br/>- `\documents and settings\*\local settings\temporary\*`<br/>- `\windows\temp\*`<br/>- `\users\*\downloads\*`<br/>- `\program files\` <br/>- `\program files (x86)\*`<br/>- `\documents and settings\*\users\*`<br/><br/>Herstelacties kunnen automatisch worden uitgevoerd op bestanden of uitvoerbare bestanden in tijdelijke mappen. <br/><br/>Acties in behandeling voor bestanden of uitvoerbare bestanden die niet in tijdelijke mappen staan, kunnen worden bekeken en goedgekeurd in het [Actiecentrum](auto-investigation-action-center.md)op het tabblad In **behandeling.**<br/><br/>Acties die zijn uitgevoerd op bestanden of uitvoerbare bestanden in tijdelijke mappen, kunnen worden bekeken en goedgekeurd in het [Actiecentrum](auto-investigation-action-center.md)op **het** tabblad Geschiedenis.   |
 |**Geen geautomatiseerde reactie** <br/>(ook wel geen automatisering *genoemd)* | Zonder automatisering wordt automatisch onderzoek niet uitgevoerd op de apparaten van uw organisatie. Hierdoor worden er geen herstelacties ondernomen of in behandeling als gevolg van geautomatiseerd onderzoek. Andere beveiligingsfuncties voor bedreigingen, zoals beveiliging tegen mogelijk ongewenste [toepassingen,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)kunnen echter van kracht zijn, afhankelijk van hoe uw antivirusprogramma en de volgende generatie beveiligingsfuncties zijn geconfigureerd.<br/><br/>***Het is *niet raadzaam de*** optie Geen automatisering te gebruiken, omdat de beveiliging van de apparaten van uw organisatie hierdoor wordt beperkt. [Overweeg uw automatiseringsniveau in te stellen op volledige automatisering (of ten minste semi-automatisering)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups)*. |
 

@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Informatiebronnen voor Microsoft 365 Business Premium
-summary: Microsoft 365 Business Premium (voorheen Microsoft 365 Business) is een uitgebreide abonnementsservice voor bedrijven met minder dan 300 werknemers. Het integreert uw favoriete Office-productiviteitsapps en -services en hulpmiddelen voor samenwerking zoals Microsoft Teams, met geavanceerde beveiligings- en apparaatbeheerfuncties.
+summary: 'Microsoft 365 Business Premium (voorheen Microsoft 365 Business) is een uitgebreide abonnementsservice voor bedrijven met minder dan 300 werknemers. Het integreert uw favoriete Office-productiviteitsapps en -services en hulpmiddelen voor samenwerking zoals Microsoft Teams, met geavanceerde beveiligings- en apparaatbeheerfuncties.'
 brand: m365
 metadata:
   title: Informatiebronnen voor Microsoft 365 Business Premium
@@ -12,203 +12,197 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: d53a1a75439fc1922f4b3facebb483298cfe9919
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
-  ms.translationtype: HT
-  ms.contentlocale: nl-NL
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51198111"
 productDirectory:
   title: Externe werkzaamheden beveiligen met Microsoft 365 Business Premium
   items:
-  - title: Lezen
-    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Beste manieren om externe werkzaamheden te beveiligen met Microsoft 365 Business Premium.
-    url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
-  - title: Download de gratis partner kit
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Praktische richtlijnen en marktintroductiebronnen voor partners voor het beveiligen van externe werkzaamheden.
-    url: https://aka.ms/SMBSecurityKit
-  - title: Wat is er nieuw?
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Antivirusbeheer en Universal Print zijn nu beschikbaar in Microsoft 365 Business Premium.
-    url: https://aka.ms/M365BPQ1Update
-  - title: Doe mee met de webinarreeks van partners
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Versnel de bedrijfsgroei met de beheerde services met Microsoft 365 Business Premium.
-    url: https://aka.ms/acceleratewithm365bp
+    - title: Lezen
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/sign-up-blue.svg'
+      summary: Beste manieren om externe werkzaamheden te beveiligen met Microsoft 365 Business Premium.
+      url: 'https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623'
+    - title: Download de gratis partner kit
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Praktische richtlijnen en marktintroductiebronnen voor partners voor het beveiligen van externe werkzaamheden.
+      url: 'https://aka.ms/SMBSecurityKit'
+    - title: Wat is er nieuw?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      summary: Antivirusbeheer en Universal Print zijn nu beschikbaar in Microsoft 365 Business Premium.
+      url: 'https://aka.ms/M365BPQ1Update'
+    - title: Doe mee met de webinarreeks van partners
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Versnel de bedrijfsgroei met de beheerde services met Microsoft 365 Business Premium.
+      url: 'https://aka.ms/acceleratewithm365bp'
 conceptualContent:
   items:
-  - title: Wat is Microsoft 365 Business Premium?
-    links:
-    - url: microsoft-365-business-overview.md
-      itemType: overview
-      text: Overzicht
-    - url: https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
-      itemType: video
-      text: Training voor Microsoft 365 Business Premium
-    - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
-      itemType: overview
-      text: Abonnementen vergelijken
-    - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
-      itemType: reference
-      text: Servicebeschrijving
-    - url: support/microsoft-365-business-faqs.yml
-      itemType: reference
-      text: Veelgestelde vragen
-  - title: Microsoft 365 Business Premium instellen
-    links:
-    - url: set-up.md
-      itemType: how-to-guide
-      text: 1. De wizard Setup uitvoeren
-    - url: secure-win-10-pcs.md
-      itemType: how-to-guide
-      text: 2. Uw pc's beveiligen
-    - url: /MicrosoftTeams/get-started-with-teams-quick-start
-      itemType: video
-      text: 3. Teams instellen
-    - url: https://support.microsoft.com/office/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
-      itemType: get-started
-      text: 4. Office installeren
-  - title: Informatiebronnen voor partners (Engelstalig)
-    links:
-    - url: https://www.microsoft.com/microsoft-365/partners/business
-      itemType: overview
-      text: Partnerpagina
-    - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx
-      itemType: download
-      text: Pitchdeck (klantfocus)
-    - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx
-      itemType: download
-      text: Pitchdeck (partnerfocus)
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery
-      itemType: download
-      text: Technische grondbeginselen
-    - url: https://aka.ms/SMBSecurityKit
-      itemType: download
-      text: Veilig Extern Werken-pakket
-    - url: https://cct.transform.microsoft.com/
-      itemType: deploy
-      text: Klantadvies-tool
-    - url: https://vc.transform.microsoft.com/
-      itemType: learn
-      text: Waardecalculator
-  - title: Gebruikers beheren
-    links:
-    - url: ../admin/add-users/add-users.md
-      itemType: how-to-guide
-      text: Een gebruiker toevoegen
-    - url: /office365/admin/add-users/remove-former-employee
-      itemType: how-to-guide
-      text: Een gebruiker verwijderen
-    - url: /office365/admin/add-users/reset-passwords
-      itemType: how-to-guide
-      text: Het wachtwoord van een gebruiker opnieuw instellen
-    footerLink:
-      url: /office365/admin/admin-home
-      text: Meer weergeven
-  - title: Bedreigingen beheren
-    links:
-    - url: ../security/office-365-security/defender-for-office-365.md
-      itemType: overview
-      text: Advanced Threat Protection
-    - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
-      itemType: how-to-guide
-      text: Meervoudige verificatie instellen
-    - url: ./increase-threat-protection.md#protect-against-ransomware
-      itemType: how-to-guide
-      text: Beveiligen tegen ransomware
-    - url: /azure/active-directory/conditional-access/overview
-      itemType: overview
-      text: Voorwaardelijke toegang
-    footerLink:
-      url: /office365/admin/admin-home
-      text: Meer weergeven
-  - title: Gegevens beheren
-    links:
-    - url: ../compliance/data-loss-prevention-policies.md
-      itemType: overview
-      text: Preventie van gegevensverlies
-    - url: https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980
-      itemType: how-to-guide
-      text: Versleutelde e-mail verzenden
-    - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
-      itemType: how-to-guide
-      text: Bewaren van e-mail instellen
-    - url: https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9
-      itemType: video
-      text: Gevoeligheidslabels maken en gebruiken
-    footerLink:
-      url: ../compliance/index.yml
-      text: Meer weergeven
-  - title: Apparaten beheren
-    links:
-    - url: view-policies-and-devices.md
-      itemType: how-to-guide
-      text: Pc en mobiele apparaten
-    - url: remove-company-data.md
-      itemType: how-to-guide
-      text: Bedrijfsgegevens verwijderen
-    - url: reset-devices-to-factory-settings.md
-      itemType: how-to-guide
-      text: Wissen en opnieuw instellen
-    - url: /intune/index
-      itemType: overview
-      text: Intune
-    - url: manage-windows-devices.md
-      itemType: how-to-guide
-      text: Hybride Azure AD-toevoeging instellen
-    - url: access-resources.md
-      itemType: how-to-guide
-      text: Azure AD-toevoeging instellen
-    - url: /windows/deployment/windows-autopilot/windows-autopilot
-      text: Windows Autopilot
-      itemType: overview
-    footerLink:
-      url: manage-windows-devices.md
-      text: Meer weergeven
-  - title: Beveiliging bewaken
-    links:
-    - url: ../security/defender/microsoft-secure-score.md
-      itemType: how-to-guide
-      text: Secure Score
-    - url: /intune/apps/app-protection-policies-monitor
-      itemType: overview
-      text: Rapport over Intune-beleid voor app-beveiliging
-    - url: ../enterprise/view-service-health.md
-      itemType: how-to-guide
-      text: Waarschuwingen van statuscontrole
-    footerLink:
-      url: ../security/index.yml
-      text: Meer weergeven
-  - title: Ondersteuning en community
-    links:
-    - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
-      itemType: whats-new
-      text: Aankondigingen
-    - url: https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988
-      itemType: video
-      text: Help opvragen
-    - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business
-      itemType: overview
-      text: Feedback verzenden
-    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
-      itemType: overview
-      text: Technische community voor MKB-bedrijven
-  - title: Hoe kan ik...
-    links:
-    - url: sign-up.md
-      itemType: get-started
-      text: Aanmelden voor Microsoft 365 Business Premium
-    - url: migrate-to-microsoft-365-business.md
-      itemType: how-to-guide
-      text: Migreren van Microsoft 365 Business Standard
-    - url: migrate-from-e3.md
-      itemType: how-to-guide
-      text: Migreren van Office 365 E3
-    - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
-      itemType: how-to-guide
-      text: Migreren naar Microsoft 365 Enterprise E3
-    footerLink:
-      url: microsoft-365-business-overview.md
-      text: Meer weergeven
+    - title: Wat is Microsoft 365 Business Premium?
+      links:
+        - url: microsoft-365-business-overview.md
+          itemType: overview
+          text: Overzicht
+        - url: ../business-video/index.yml
+          itemType: video
+          text: Training voor Microsoft 365 Business Premium
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
+          itemType: overview
+          text: Abonnementen vergelijken
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+          itemType: reference
+          text: Servicebeschrijving
+        - url: support/microsoft-365-business-faqs.yml
+          itemType: reference
+          text: Veelgestelde vragen
+    - title: Microsoft 365 Business Premium instellen
+      links:
+        - url: set-up.md
+          itemType: how-to-guide
+          text: 1. De wizard Setup uitvoeren
+        - url: secure-win-10-pcs.md
+          itemType: how-to-guide
+          text: 2. Uw pc's beveiligen
+        - url: /MicrosoftTeams/get-started-with-teams-quick-start
+          itemType: video
+          text: 3. Teams instellen
+        - url: ../business-video/install-office.md
+          itemType: get-started
+          text: 4. Office installeren
+    - title: Informatiebronnen voor partners (Engelstalig)
+      links:
+        - url: 'https://www.microsoft.com/microsoft-365/partners/business'
+          itemType: overview
+          text: Partnerpagina
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx'
+          itemType: download
+          text: Pitchdeck (klantfocus)
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx'
+          itemType: download
+          text: Pitchdeck (partnerfocus)
+        - url: 'https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery'
+          itemType: download
+          text: Technische grondbeginselen
+        - url: 'https://aka.ms/SMBSecurityKit'
+          itemType: download
+          text: Veilig Extern Werken-pakket
+        - url: 'https://cct.transform.microsoft.com/'
+          itemType: deploy
+          text: Klantadvies-tool
+        - url: 'https://vc.transform.microsoft.com/'
+          itemType: learn
+          text: Waardecalculator
+    - title: Gebruikers beheren
+      links:
+        - url: ../admin/add-users/add-users.md
+          itemType: how-to-guide
+          text: Een gebruiker toevoegen
+        - url: /office365/admin/add-users/remove-former-employee
+          itemType: how-to-guide
+          text: Een gebruiker verwijderen
+        - url: /office365/admin/add-users/reset-passwords
+          itemType: how-to-guide
+          text: Het wachtwoord van een gebruiker opnieuw instellen
+      footerLink:
+        url: /office365/admin/admin-home
+        text: Meer weergeven
+    - title: Bedreigingen beheren
+      links:
+        - url: ../security/office-365-security/defender-for-office-365.md
+          itemType: overview
+          text: Advanced Threat Protection
+        - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
+          itemType: how-to-guide
+          text: Meervoudige verificatie instellen
+        - url: ./increase-threat-protection.md#protect-against-ransomware
+          itemType: how-to-guide
+          text: Beveiligen tegen ransomware
+        - url: /azure/active-directory/conditional-access/overview
+          itemType: overview
+          text: Voorwaardelijke toegang
+      footerLink:
+        url: /office365/admin/admin-home
+        text: Meer weergeven
+    - title: Gegevens beheren
+      links:
+        - url: ../compliance/data-loss-prevention-policies.md
+          itemType: overview
+          text: Preventie van gegevensverlies
+        - url: 'https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980'
+          itemType: how-to-guide
+          text: Versleutelde e-mail verzenden
+        - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
+          itemType: how-to-guide
+          text: Bewaren van e-mail instellen
+        - url: ../business-video/create-sensitivity-labels.md
+          itemType: video
+          text: Gevoeligheidslabels maken en gebruiken
+      footerLink:
+        url: ../compliance/index.yml
+        text: Meer weergeven
+    - title: Apparaten beheren
+      links:
+        - url: view-policies-and-devices.md
+          itemType: how-to-guide
+          text: Pc en mobiele apparaten
+        - url: remove-company-data.md
+          itemType: how-to-guide
+          text: Bedrijfsgegevens verwijderen
+        - url: reset-devices-to-factory-settings.md
+          itemType: how-to-guide
+          text: Wissen en opnieuw instellen
+        - url: /intune/index
+          itemType: overview
+          text: Intune
+        - url: manage-windows-devices.md
+          itemType: how-to-guide
+          text: Hybride Azure AD-toevoeging instellen
+        - url: access-resources.md
+          itemType: how-to-guide
+          text: Azure AD-toevoeging instellen
+        - url: /windows/deployment/windows-autopilot/windows-autopilot
+          text: Windows Autopilot
+          itemType: overview
+      footerLink:
+        url: manage-windows-devices.md
+        text: Meer weergeven
+    - title: Beveiliging bewaken
+      links:
+        - url: ../security/defender/microsoft-secure-score.md
+          itemType: how-to-guide
+          text: Secure Score
+        - url: /intune/apps/app-protection-policies-monitor
+          itemType: overview
+          text: Rapport over Intune-beleid voor app-beveiliging
+        - url: ../enterprise/view-service-health.md
+          itemType: how-to-guide
+          text: Waarschuwingen van statuscontrole
+      footerLink:
+        url: ../security/index.yml
+        text: Meer weergeven
+    - title: Ondersteuning en community
+      links:
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog'
+          itemType: whats-new
+          text: Aankondigingen
+        - url: 'https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988'
+          itemType: video
+          text: Help opvragen
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business'
+          itemType: overview
+          text: Feedback verzenden
+        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
+          itemType: overview
+          text: Technische community voor MKB-bedrijven
+    - title: Hoe kan ik...
+      links:
+        - url: sign-up.md
+          itemType: get-started
+          text: Aanmelden voor Microsoft 365 Business Premium
+        - url: migrate-to-microsoft-365-business.md
+          itemType: how-to-guide
+          text: Migreren van Microsoft 365 Business Standard
+        - url: migrate-from-e3.md
+          itemType: how-to-guide
+          text: Migreren van Office 365 E3
+        - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
+          itemType: how-to-guide
+          text: Migreren naar Microsoft 365 Enterprise E3
+      footerLink:
+        url: microsoft-365-business-overview.md
+        text: Meer weergeven

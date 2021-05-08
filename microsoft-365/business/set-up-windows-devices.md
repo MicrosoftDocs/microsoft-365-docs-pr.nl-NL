@@ -1,5 +1,5 @@
 ---
-title: Windows-apparaten instellen voor Gebruikers van Microsoft 365 Business Premium
+title: Apparaten Windows instellen voor Microsoft 365 Business Premium gebruikers
 f1.keywords:
 - CSH
 ms.author: sharik
@@ -26,21 +26,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Meer informatie over het instellen van Windows-apparaten met Windows 10 Pro voor Microsoft 365 Business Premium-gebruikers, waarbij gecentraliseerde beheer- en beveiligingsbesturingselementen worden inschakelen.
-ms.openlocfilehash: 9c9ffe5bd74d9e9877a87309757c481576ee89d2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Meer informatie over het instellen van Windows apparaten met Windows 10 Pro voor Microsoft 365 Business Premium gebruikers, zodat gecentraliseerde beheer- en beveiligingsbesturingselementen worden inschakelen.
+ms.openlocfilehash: 3e268d81ff6fb7113b7e0b0fe5d0545ff5c72b1e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578122"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244771"
 ---
-# <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Windows-apparaten instellen voor Gebruikers van Microsoft 365 Business Premium
+# <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Apparaten Windows instellen voor Microsoft 365 Business Premium gebruikers
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Vereisten voor het instellen van Windows-apparaten voor Microsoft 365 Business Premium-gebruikers
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Vereisten voor het instellen van Windows apparaten voor Microsoft 365 Business Premium gebruikers
 
-Voordat u Windows-apparaten kunt instellen voor Microsoft 365 Business Premium-gebruikers, moet u ervoor zorgen dat op alle Windows-apparaten Windows 10 Pro, versie 1703 (Makersupdate) wordt uitgevoerd. Windows 10 Pro is een vereiste voor de implementatie van Windows 10 Business, een set cloudservices en apparaatbeheermogelijkheden die een aanvulling vormen op Windows 10 Pro en die de gecentraliseerde beheer- en beveiligingsbesturingselementen van Microsoft 365 Business Premium inschakelen.
+Voordat u Windows apparaten voor Microsoft 365 Business Premium gebruikers kunt instellen, moet u ervoor zorgen dat alle Windows-apparaten Windows 10 Pro, versie 1703 (Makersupdate) uitvoeren. Windows 10 Pro is een vereiste voor het implementeren van Windows 10 Business, een set cloudservices en apparaatbeheermogelijkheden die Windows 10 Pro aanvullen en de gecentraliseerde beheer- en beveiligingsbesturingselementen van Microsoft 365 Business Premium.
   
-Als u Windows-apparaten hebt met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro, geeft uw Microsoft 365 Business Premium-abonnement u recht op een Windows 10-upgrade.
+Als u Windows apparaten hebt met Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro, geeft uw Microsoft 365 Business Premium-abonnement u recht op een upgrade Windows 10 upgrade.
   
 Volg de stappen in dit onderwerp voor meer informatie over het voor Windows-apparaten uitvoeren van een upgrade naar de Windows 10 Pro makersupdate. [Voor Windows-apparaten upgrade uitvoeren naar Windows Pro makersupdate](upgrade-to-windows-pro-creators-update.md).
   
@@ -50,11 +50,11 @@ Bekijk een korte video over het verbinden van Windows met Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10-apparaten koppelen aan Azure AD van uw organisatie
 
-Wanneer alle Windows-apparaten in uw organisatie zijn geüpgraded naar Windows 10 Pro Creators Update of al Windows 10 Pro Creators Update uitvoeren, kunt u deze apparaten toevoegen aan azure Active Directory van uw organisatie. Wanneer de apparaten zijn samengevoegd, worden ze automatisch geüpgraded naar Windows 10 Business, dat deel uitmaakt van uw Microsoft 365 Business Premium-abonnement.
+Wanneer alle Windows-apparaten in uw organisatie zijn geüpgraded naar Windows 10 Pro Creators Update of al Windows 10 Pro Creators Update worden uitgevoerd, kunt u deze apparaten deelnemen aan de Azure Active Directory van uw organisatie. Wanneer de apparaten zijn samengevoegd, worden ze automatisch geüpgraded naar Windows 10 Business, wat deel uitmaakt van uw Microsoft 365 Business Premium abonnement.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Voor een Windows 10 Pro-apparaat dat nieuw is of waarvoor pas een upgrade is uitgevoerd
 
@@ -106,17 +106,17 @@ Als u bestanden hebt geüpload naar OneDrive voor Bedrijven, kunt u deze weer te
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Controleren of het apparaat is verbonden met Azure AD
 
-Als u de synchronisatiestatus wilt controleren, selecteert u op de werk- of **schoolpagina** **van** Access in Instellingen het gebied Verbonden **met** _ _ om de knoppen Info en \<organization name\> **Loskoppelen** weer te geven.  Kies **Info** om de synchronisatiestatus te krijgen. 
+Als u de synchronisatiestatus wilt controleren, selecteert u op de **werk- of** **schoolpagina** van Access in Instellingen het gebied Verbonden met **_** _ om de knoppen Info en Loskoppelen weer te \<organization name\> **geven.**  Kies **Info** om de synchronisatiestatus te krijgen. 
   
 Kies op **de pagina Synchronisatiestatus** de optie **Synchroniseren** om het nieuwste beleid voor beheer van mobiele apparaten op de pc te krijgen.
   
-Als u het Microsoft 365 Business Premium-account wilt gaan gebruiken, gaat u naar de **knop** Start van Windows, klikt u met de rechtermuisknop op uw huidige accountafbeelding en schakelt u **vervolgens van account.** Meld u aan met het e-mailadres en wachtwoord van uw organisatie.
+Als u het Microsoft 365 Business Premium wilt gebruiken, gaat u naar Windows **startknop,** klikt u met de rechtermuisknop op uw huidige accountafbeelding en schakelt u **vervolgens van account.** Meld u aan met het e-mailadres en wachtwoord van uw organisatie.
   
 ![Click Info button to view synchronization status](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
-## <a name="verify-the-pc-is-upgraded-to-windows-10-business"></a>Controleren of de pc is bijgewerkt naar Windows 10 Business
+## <a name="verify-the-pc-is-upgraded-to-windows-10-business"></a>Controleer of de pc is bijgewerkt naar Windows 10 Business
 
-Controleer of uw Azure AD-apparaten met Windows 10 zijn geüpgraded naar Windows 10 Business als onderdeel van uw Microsoft 365 Business Premium-abonnement.
+Controleer of uw Azure AD-apparaten Windows 10 worden geüpgraded naar Windows 10 Business als onderdeel van uw Microsoft 365 Business Premium abonnement.
   
 1. Ga naar **Instellingen** \> **Systeem** \> **Info**.
     
@@ -126,8 +126,8 @@ Controleer of uw Azure AD-apparaten met Windows 10 zijn geüpgraded naar Windows
   
 ## <a name="next-steps"></a>Volgende stappen
 
-Zie Microsoft [365](set-up-mobile-devices.md)voor Bedrijven beheren als u uw mobiele apparaten wilt instellen voor het [](manage.md)instellen van uw mobiele apparaten.
+Als u uw mobiele apparaten wilt instellen, zie Mobiele apparaten instellen voor Microsoft 365 Business Premium gebruikers , Zie Beheer Microsoft 365 voor bedrijven als u apparaatbeveiligings- [of](set-up-mobile-devices.md) [app-beveiligingsbeleid wilt instellen.](manage.md)
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 Business Premium
 
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](../business-video/index.yml)

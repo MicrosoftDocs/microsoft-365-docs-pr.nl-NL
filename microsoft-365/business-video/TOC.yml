@@ -161,10 +161,10 @@
           href: create-sensitivity-labels.md
     - name: Ondersteuning
       items:
-        - name: Antwoorden en hulp zoeken
-          href: find-help-answers.md
-        - name: Help of ondersteuning krijgen
+        - name: Hulp of ondersteuning krijgen
           href: get-help-support.md
+        - name: Documenten en training zoeken
+          href: find-help-answers.md
         - name: Snelle installatie voor werknemers
           href: employee-quick-setup.md
     - name: Overstappen van Google Workspace

@@ -20,39 +20,39 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Help uw werknemers bij het instellen van Office-apps die ze krijgen met Microsoft 365 Business Premium.
-ms.openlocfilehash: 72b05435de13ef0d020be74f619a140e188f79d8
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Help uw werknemers te leren hoe u Office apps kunt instellen die ze krijgen met Microsoft 365 Business Premium.
+ms.openlocfilehash: c70100de68f9aee2df82ceb4105b517d8e6ee447
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580616"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244942"
 ---
 # <a name="employee-quick-setup"></a>Snelle installatie voor werknemers
 
-Bent u nieuw bij Microsoft 365 voor Bedrijven? :::image type="icon" source="../media/video-call-icon.png" border="false":::[Bekijk deze video voor](https://support.microsoft.com/office/d6466f0d-5d13-464a-adcb-00906ae87029) meer informatie. Ga daarna als volgt te werk.
+Bent u nieuw in Microsoft 365 voor bedrijven? :::image type="icon" source="../media/video-call-icon.png" border="false":::[Bekijk deze video voor](../business/microsoft-365-business-start.md) meer informatie. Ga daarna als volgt te werk.
 
 :::image type="content" source="../media/m365-employee-quick-setup.png" alt-text="Afbeelding met snelle stappen voor het instellen van werknemers.":::
 
-## <a name="1-sign-in-to-office"></a>1. Aanmelden bij Office
+## <a name="1-sign-in-to-office"></a>1. Meld u aan bij Office
 
 1. Ga naar [Office.com](https://office.com) en kies **Aanmelden**.
-1. Typ uw e-mail en wachtwoord voor Microsoft 365 en meld **u aan.**
+1. Typ uw Microsoft 365 e-mail en wachtwoord en meld **u aan.**
 
-## <a name="2-download-and-install-office-apps"></a>2. Office-apps downloaden en installeren
+## <a name="2-download-and-install-office-apps"></a>2. Download en installeer Office apps
 
-1. Kies **Office installeren** in de rechterbovenhoek.
+1. Kies **Office** rechtsboven installeren.
     - Ga in Chrome naar de download onderaan de pagina en kies **Openen**.
     - Kies in Microsoft Edge/IE **Opslaan** en vervolgens **Uitvoeren**.
     
         Als u wordt gevraagd om toe te staan dat de app wijzigingen doorvoert, kiest u **Ja**. Start de installatie van Office.
     - Open Op een Mac Microsoft **Office_2016_Installer.pkg**
 
-## <a name="3-open-outlook-and-add-your-account"></a>3. Outlook openen en uw account toevoegen
+## <a name="3-open-outlook-and-add-your-account"></a>3. Open Outlook en voeg uw account toe
 
 1. Open **Outlook** op uw computer. In het veld Vertel wat u wilt doen, typt u **account** en vervolgens klikt u op **Account toevoegen**.
 
-    :::image type="content" source="../media/add-outlook-account.png" alt-text="Een afbeelding waarin wordt getoond hoe u een account toevoegt aan Outlook.":::
+    :::image type="content" source="../media/add-outlook-account.png" alt-text="Een afbeelding die laat zien hoe u een account toevoegt aan Outlook.":::
 
 1. Typ uw naam, e-mailadres en wachtwoord en klik vervolgens op **Volgende**.
 
@@ -61,15 +61,15 @@ Bent u nieuw bij Microsoft 365 voor Bedrijven? :::image type="icon" source="../m
 
 ## <a name="4-save-or-copy-files-to-onedrive"></a>4. Bestanden opslaan of kopiëren naar OneDrive
 
-- Sla documenten op **in OneDrive** in het menu **Opslaan als** in Office-apps.
-    :::image type="content" source="../media/save-onedrive.png" alt-text="Laat zien wie de manier is waarop u Opslaan als in OneDrive kunt gebruiken.":::
+- Sla documenten **op** OneDrive in het menu **Opslaan als** in Office apps.
+    :::image type="content" source="../media/save-onedrive.png" alt-text="Laat zien wie de manier is waarop u Opslaan als OneDrive.":::
 
 - Of kopieer bestanden vanaf het bureaublad of vanuit Documenten naar **OneDrive**.
 
-    :::image type="content" source="../media/save-to-onedrive-from-docs.png" alt-text="Afbeelding van het opslaan in OneDrive vanuit de map Documenten.":::
+    :::image type="content" source="../media/save-to-onedrive-from-docs.png" alt-text="Afbeelding waarin wordt getoond hoe u kunt opslaan OneDrive uit de map Documenten.":::
 
     > [!TIP]
-    > U kunt ook bestanden opslaan op [sites](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) in Microsoft 365.
+    > U kunt bestanden ook opslaan op [sites](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) in Microsoft 365.
 
 ## <a name="5-share-documents"></a>5. Documenten delen
 
@@ -80,10 +80,10 @@ Bent u nieuw bij Microsoft 365 voor Bedrijven? :::image type="icon" source="../m
 1. Typ hun e-mailadres, kies voor lezen of bewerken, voeg een bericht toe en klik op **Delen**.
 1. Of kies **Koppeling voor delen ophalen** onderaan het scherm.
 
-## <a name="6-get-outlook-on-your-phone"></a>6. Outlook op uw telefoon krijgen
+## <a name="6-get-outlook-on-your-phone"></a>6. Krijg Outlook telefoon
 
-- Haal **Outlook op** uw telefoon in de App Store of Google Play Store. Open het en kies **Aan de slag en** voeg uw e-mail en wachtwoord toe.
+- Ontvang **Outlook** op uw telefoon vanuit de App Store of Google Play Store. Open het en **kies** Aan de slag en voeg uw e-mail en wachtwoord toe.
 - Of open Outlook op een iOS- of Android-apparaat en ga naar **Instellingen**.
 
     Kies **Account toevoegen** en dan **E-mailaccount toevoegen** en typ vervolgens uw e-mailadres en wachtwoord.
-- Kies op **een Windows Phone** **Instellingen**, **E-mail + accounts**, **Een account** toevoegen en vervolgens **Exchange**.
+- Kies op **Windows Phone**, kies **Instellingen**, **E-mail + accounts**, Een **account** toevoegen en vervolgens **Exchange**.

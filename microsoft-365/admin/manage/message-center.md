@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
-description: Krijg een overzicht van het Microsoft 365-berichtencentrum en de rol ervan in wijzigingsbeheer.
-ms.openlocfilehash: 52d2c0815757127ad0c4e34d077a8807f926740e
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+description: Krijg een overzicht van Microsoft 365 berichtencentrum en de rol ervan in wijzigingsbeheer.
+ms.openlocfilehash: af65db32edd56b11adede0e4e690b3f69b07180e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077153"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244417"
 ---
 # <a name="message-center"></a>Berichtencentrum
 
@@ -53,7 +53,7 @@ Berichtencentrum openen:
 
 ::: moniker-end
 
-U kunt ook de [Microsoft 365 Admin-app](https://go.microsoft.com/fwlink/p/?linkid=627216) op uw mobiele apparaat gebruiken om het Berichtencentrum te bekijken. Dit is een uitstekende manier om op de hoogte te blijven van pushmeldingen.
+U kunt ook de [app Microsoft 365 beheerder](https://go.microsoft.com/fwlink/p/?linkid=627216) op uw mobiele apparaat gebruiken om het Berichtencentrum weer te geven. Dit is een uitstekende manier om op de hoogte te blijven van pushmeldingen.
 
 Als u zich wilt afmelden bij e-mailberichten in het Berichtencentrum, gaat u naar [E-mailberichten](#unsubscribe-from-message-center-emails) in het Berichtencentrum in dit artikel.
 
@@ -62,12 +62,12 @@ Als u zich wilt afmelden bij e-mailberichten in het Berichtencentrum, gaat u naa
 
 |**Vraag**|**Antwoord**|
 |:-----|:-----|
-|Wie kan berichten in het berichtencentrum bekijken?  <br/> |De meeste gebruikers die een beheerdersrol in Microsoft 365 hebben gekregen, kunnen berichten in het berichtencentrum bekijken. [Hier is een lijst met](#admin-roles-that-dont-have-access-to-the-message-center) beheerdersrollen die geen toegang hebben tot het berichtencentrum. U kunt ook de rol van de lezer van het Berichtencentrum toewijzen aan gebruikers die berichten in het berichtencentrum moeten kunnen lezen en delen zonder dat ze andere beheerdersbevoegdheden hebben.<br/>|
-|Is dit de enige manier waarop Microsoft wijzigingen over Microsoft 365 communiceert?  <br/> |Nee, maar het berichtencentrum is de primaire manier waarop we de timing van afzonderlijke wijzigingen in Microsoft 365 communiceren. Zie [Wijzigingen in Microsoft 365](stay-on-top-of-updates.md) op de hoogte houden voor informatie over aanvullende bronnen.  <br/> |
+|Wie kan berichten in het berichtencentrum bekijken?  <br/> |De meeste gebruikers aan wie een beheerdersrol is toegewezen in Microsoft 365 berichten in het berichtencentrum kunnen bekijken. [Hier is een lijst met](#admin-roles-that-dont-have-access-to-the-message-center) beheerdersrollen die geen toegang hebben tot het berichtencentrum. U kunt ook de rol van de lezer van het Berichtencentrum toewijzen aan gebruikers die berichten in het berichtencentrum moeten kunnen lezen en delen zonder dat ze andere beheerdersbevoegdheden hebben.<br/>|
+|Is dit de enige manier waarop Microsoft wijzigingen over de Microsoft 365?  <br/> |Nee, maar het berichtencentrum is de primaire manier waarop we de timing van afzonderlijke wijzigingen in Microsoft 365. Zie [Op de hoogte blijven van Microsoft 365 wijzigingen voor](stay-on-top-of-updates.md) informatie over aanvullende bronnen.  <br/> |
 |Hoe kan ik berichten in mijn taal bekijken?  <br/> |Berichten in het berichtencentrum worden alleen in het Engels geschreven, maar u kunt bepalen of berichten standaard in het Engels worden weergegeven of automatisch worden vertaald naar de gewenste taal. U kunt ook selecteren om berichten te vertalen naar elke taal die we ondersteunen. Zie [Taalvertaling voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md) voor meer informatie.  <br/> |
-|Kan ik wijzigingen of functies bekijken voordat ze in de organisatie worden geïmplementeerd?  <br/> |Sommige wijzigingen en nieuwe functies kunnen worden bekeken door u aan te geven bij het targeted release-programma. Als u zich wilt opgeven, gaat u in het beheercentrum naar **Instellingen**  >  **Organisatieinstellingen**  >  **Organisatieprofiel**  >  **Releasevoorkeuren.** (In het beheercentrum moet u  mogelijk Alles weergeven onder aan het linkernavigatiedeelvenster selecteren om Instellingen te **zien**.) U kunt Targeted Release kiezen voor uw hele organisatie of alleen voor geselecteerde gebruikers. Zie [Standaard- of Targeted releaseopties in Microsoft 365](release-options-in-office-365.md) voor meer informatie over het programma.  <br/> |
+|Kan ik wijzigingen of functies bekijken voordat ze in de organisatie worden geïmplementeerd?  <br/> |Sommige wijzigingen en nieuwe functies kunnen worden bekeken door u aan te geven bij het targeted release-programma. Als u zich wilt opgeven, gaat u in het beheercentrum naar **Instellingen**  >  **Organisatieinstellingen**  >  **Organisatieprofiel**  >  **Releasevoorkeuren.** (In het beheercentrum moet u  mogelijk Alles weergeven onder aan het linkernavigatiedeelvenster selecteren om de Instellingen **.)** U kunt Targeted Release kiezen voor uw hele organisatie of alleen voor geselecteerde gebruikers. Zie [Standaard- of Targeted releaseopties in Microsoft 365](release-options-in-office-365.md) voor meer informatie over het programma.  <br/> |
 |Kan ik de exacte datum vinden waarop een wijziging beschikbaar is voor mijn organisatie?  <br/> |De exacte datum waarop een wijziging wordt aangebracht in uw organisatie, kunnen we u helaas niet vertellen. In ons bericht in het berichtencentrum geven we op basis van ons betrouwbaarheidsniveau zoveel mogelijk informatie over de timing van de release. We werken aan verbeteringen om dit detailniveau te verbeteren.  <br/> |
-|Zijn deze berichten specifiek voor mijn organisatie?  <br/> |We doen ons best om ervoor te zorgen dat u alleen berichten in het berichtencentrum ziet die van invloed zijn op uw organisatie. De Routekaart voor Microsoft 365 bevat alle functies die we momenteel gebruiken en uitrollen, maar niet alle functies zijn van toepassing op elke organisatie. <br/> |
+|Zijn deze berichten specifiek voor mijn organisatie?  <br/> |We doen ons best om ervoor te zorgen dat u alleen berichten in het berichtencentrum ziet die van invloed zijn op uw organisatie. De Microsoft 365 roadmap bevat alle functies die we momenteel gebruiken en uitrollen, maar niet alle functies zijn van toepassing op elke organisatie. <br/> |
 |Kan ik in plaats daarvan berichten in het berichtencentrum per e-mail ontvangen?  <br/> |Ja! U kunt selecteren of u per e-mail een wekelijks overzicht wilt ontvangen en maximaal twee andere e-mailadressen. De wekelijkse samenvatting per e-mail is standaard ingeschakeld. Als u uw wekelijkse samenvattingen niet krijgt, controleert u uw spammap. Zie de [sectie Voorkeuren](#preferences) van dit artikel voor meer informatie over het instellen van de wekelijkse samenvatting.  <br/> |
 |Hoe stop ik met het verkrijgen van de samenvatting van het berichtencentrum?  <br/> |Ga naar Het berichtencentrum in het beheercentrum en selecteer **Voorkeuren.** Schakel op **het** tabblad E-mail de optie Voor mij **e-mailmeldingen verzenden vanuit het berichtencentrum uit.**   <br/> |
 |Hoe kan ik ervoor zorgen dat gegevensbeschermingsmeldingen worden ontvangen door de juiste contactpersonen in mijn organisatie? <br/> |Als globale beheerder ontvangt u privacyberichten voor gegevens voor uw organisatie. Daarnaast kunt u de privacylezerfunctie van het Berichtencentrum toewijzen aan personen die privacyberichten over gegevens moeten zien. Andere beheerdersrollen met toegang tot het Berichtencentrum kunnen geen privacyberichten over gegevens weergeven.   <br/><br/>Zie Voorkeuren in dit artikel [voor](#preferences) meer informatie.<br/> |
@@ -75,7 +75,7 @@ Als u zich wilt afmelden bij e-mailberichten in het Berichtencentrum, gaat u naa
 
 ## <a name="filter-messages"></a>Berichten filteren
 
-In het berichtencentrum wordt een weergave weergegeven van alle actieve berichten in een tabelindeling. Standaard wordt het meest recente bericht boven aan de lijst weergegeven. U kunt **Service selecteren om** berichten te zien voor verschillende services, zoals Microsoft 365 Apps, SharePoint Online, enzovoort.   Onder **Label** kunt u **Beheerderseffect**, **Gegevensbescherming**, **Functie-update**, **Belangrijke update**, **Nieuwe** functie , **Pensioen** of **Gebruikerseffectberichten** selecteren. Onder **Berichttoestand** kunt u **Favorieten**, **Ongelezen** of **Bijgewerkte berichten** selecteren.
+In het berichtencentrum wordt een weergave weergegeven van alle actieve berichten in een tabelindeling. Standaard wordt het meest recente bericht boven aan de lijst weergegeven. U kunt **Service selecteren om** berichten te zien voor verschillende services, zoals Microsoft 365-apps, SharePoint Online, enzovoort.   Onder **Label** kunt u **Beheerderseffect**, **Gegevensbescherming**, **Functie-update**, **Belangrijke update**, **Nieuwe** functie , **Pensioen** of **Gebruikerseffectberichten** selecteren. Onder **Berichttoestand** kunt u **Favorieten**, **Ongelezen** of **Bijgewerkte berichten** selecteren.
 
 Op het tabblad Archiveren ziet u de berichten die u hebt gearchiveerd. Als u een bericht wilt archiveren, selecteert u archief in het **berichtenvenster.**
 
@@ -135,7 +135,7 @@ Belangrijke updates worden ten minste 30 dagen van tevoren gecommuniceerd wannee
   
 ### <a name="preferences"></a>Voorkeuren
 
-Als beheer is verdeeld over uw organisatie, wilt of wilt u mogelijk geen berichten over alle Microsoft 365-services zien. Elke beheerder kan:
+Als beheer is verdeeld over uw organisatie, wilt of wilt u mogelijk geen berichten over alle Microsoft 365 zien. Elke beheerder kan:
 
 - Stel voorkeuren in die bepalen welke berichten worden weergegeven in het berichtencentrum.
 - Berichten filteren
@@ -169,7 +169,7 @@ Als beheer is verdeeld over uw organisatie, wilt of wilt u mogelijk geen bericht
 
    Als u e-mailberichten over privacyberichten voor gegevens wilt ontvangen, controleert u of **E-mailberichten verzenden** voor privacyberichten voor gegevens is **aan.** Als u deze meldingen niet meer wilt ontvangen, wijzigt u de instelling in **Uit.** (Privacyberichten voor gegevens worden niet opgenomen in de wekelijkse samenvatting.)
 
-   U kunt uw primaire e-mailadres selecteren of leeg maken, maar u kunt het niet wijzigen. Als u andere e-mailadressen wilt opgeven waarop het wekelijkse e-mailoverzicht wordt verzonden, controleert u **of** Een wekelijks overzicht van mijn berichten verzenden is **aan.** Voer het e-mailadres in voor een Microsoft 365-groep of een distributielijst als meer dan twee personen de samenvattings-e-mail moeten ontvangen.
+   U kunt uw primaire e-mailadres selecteren of leeg maken, maar u kunt het niet wijzigen. Als u andere e-mailadressen wilt opgeven waarop het wekelijkse e-mailoverzicht wordt verzonden, controleert u **of** Een wekelijks overzicht van mijn berichten verzenden is **aan.** Voer het e-mailadres in voor een Microsoft 365 of een distributielijst als meer dan twee personen de samenvattings-e-mail moeten ontvangen.
 
 4. Selecteer **Opslaan om** uw wijzigingen te behouden.<br/>
 
@@ -181,7 +181,7 @@ Als beheer is verdeeld over uw organisatie, wilt of wilt u mogelijk geen bericht
 
 2. Controleer op **het** tabblad Aangepaste weergave of het selectievakje is ingeschakeld voor elke service die u wilt controleren. De selectievakjes voor de services die u wilt filteren uit de weergave Berichtencentrum uit.
 
-3. E-mailberichten verwerken is standaard ingeschakeld en worden naar uw primaire e-mailadres verzonden. Als u de wekelijkse samenvatting niet meer wilt ontvangen, moet u het **selectievakje** E-mailmeldingen verzenden vanuit het berichtencentrum op het tabblad E-mail **uit.** 
+3. E-mailberichten verwerken is standaard ingeschakeld en worden naar uw primaire e-mailadres verzonden. Als u de wekelijkse samenvatting niet meer wilt ontvangen, moet u het **selectievakje** E-mailmeldingen verzenden vanuit het berichtencentrum op het tabblad E-mail **uit.**
 
    U kunt ook maximaal twee e-mailadressen invoeren, gescheiden door een puntkomma. <br><br/>U kunt ook de e-mailberichten kiezen die u wilt ontvangen, evenals een wekelijks overzicht van de services die u selecteert.
 
@@ -194,7 +194,7 @@ Als beheer is verdeeld over uw organisatie, wilt of wilt u mogelijk geen bericht
 We gebruiken automatische vertaling om berichten automatisch weer te geven in uw gewenste taal. Lees [Taalvertaling voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md) voor meer informatie over het instellen van uw taal.
   
 > [!NOTE]
-> De wekelijkse samenvatting en alle berichten die per e-mail worden verzonden, worden in het Engels verzonden. Geadresseerden kunnen [Translator voor Outlook gebruiken om](https://support.microsoft.com/office/3d7e12ed-99d6-406e-a453-b9db0d9653fa) het bericht te lezen in de gewenste taal. 
+> De wekelijkse samenvatting en alle berichten die per e-mail worden verzonden, worden in het Engels verzonden. Geadresseerden kunnen [het](https://support.microsoft.com/office/3d7e12ed-99d6-406e-a453-b9db0d9653fa) Vertalen voor Outlook gebruiken om het bericht in hun voorkeurstaal te lezen.
 
 ## <a name="choose-columns"></a>Kolommen kiezen
 
@@ -211,7 +211,7 @@ Hier ziet u een kort overzicht van de informatie die u in elke kolom ziet.
 |Service <br/> |Pictogrammen geven de toepassing aan waarop het bericht van toepassing is.<br/> |
 |Meer opties <br/> |Met meer opties kunt u een bericht afwijzen, markeren als gelezen of ongelezen of delen met een andere beheerder. Als u een gearchiveerd bericht wilt herstellen, selecteert u het **tabblad Archiveren,** selecteert u het vinkje naast het bericht en selecteert u **Herstellen**. <br/> |
 |Tags <br/> |U kunt tags kiezen in **de** vervolgkeuzekeuzecode om berichten te filteren. De beschikbare tags zijn: **Admin impact**, **Major Update**, **Data Privacy**, Feature **Update**, **New feature**, **Retirement**, and **User impact**. <br/> |
-|Categorie  <br/> | Dit wordt niet standaard weergegeven, maar kan worden opgegeven in het **deelvenster Kolommen** kiezen. Berichten worden geïdentificeerd door een van de volgende drie categorieën: <br/><br/> Problemen voorkomen of **oplossen:** informeert u over bekende problemen die van invloed zijn op uw organisatie en vereisen mogelijk dat u actie onderneemt om onderbrekingen in de service te voorkomen. Problemen voorkomen of oplossen is anders dan service statusberichten, omdat ze u vragen om proactief te zijn om problemen te voorkomen. <br/> <br/> **Plan voor wijziging:** informeert u over wijzigingen in Microsoft 365 waarvoor u mogelijk moet handelen om onderbrekingen in de service te voorkomen. Zo informeren we u bijvoorbeeld over wijzigingen in systeemvereisten of over functies die worden verwijderd. We streven ernaar om wijzigingen waarvoor een beheerder actie moet ondernemen om ervoor te zorgen dat de service normaal blijft lopen minimaal 30 dagen op voorhand door te geven. <br/> <br/> **Op de hoogte blijven:** informeert u over nieuwe of bijgewerkte functies die we in uw organisatie in- en uitschakelen. De functies worden meestal als eerste aangekondigd in de [Routekaart voor Microsoft 365.](https://go.microsoft.com/fwlink/?linkid=2070821) <br/><br/>U kunt u ook op de hoogte brengen van gepland onderhoud in overeenstemming met onze serviceovereenkomst. Gepland onderhoud kan leiden tot een periode waarin u of uw gebruikers geen toegang hebben tot Microsoft 365, een specifieke functie of een service zoals e-mail of OneDrive voor Bedrijven.  <br/> |
+|Categorie  <br/> | Dit wordt niet standaard weergegeven, maar kan worden opgegeven in het **deelvenster Kolommen** kiezen. Berichten worden geïdentificeerd door een van de volgende drie categorieën: <br/><br/> Problemen voorkomen of **oplossen:** informeert u over bekende problemen die van invloed zijn op uw organisatie en vereisen mogelijk dat u actie onderneemt om onderbrekingen in de service te voorkomen. Problemen voorkomen of oplossen is anders dan service statusberichten, omdat ze u vragen om proactief te zijn om problemen te voorkomen. <br/> <br/> **Plannen voor wijziging:** informeert u over wijzigingen in Microsoft 365 waarvoor u mogelijk actie moet ondernemen om onderbrekingen in de service te voorkomen. Zo informeren we u bijvoorbeeld over wijzigingen in systeemvereisten of over functies die worden verwijderd. We streven ernaar om wijzigingen waarvoor een beheerder actie moet ondernemen om ervoor te zorgen dat de service normaal blijft lopen minimaal 30 dagen op voorhand door te geven. <br/> <br/> **Op de hoogte blijven:** informeert u over nieuwe of bijgewerkte functies die we in uw organisatie in- en uitschakelen. De functies worden meestal eerst aangekondigd in de [Microsoft 365 Roadmap.](https://go.microsoft.com/fwlink/?linkid=2070821) <br/><br/>U kunt u ook op de hoogte brengen van gepland onderhoud in overeenstemming met onze serviceovereenkomst. Gepland onderhoud kan resulteren in tijdsonderhoud, waarbij u of uw gebruikers geen toegang hebben tot Microsoft 365, een specifieke functie of een service zoals e-mail of OneDrive voor Bedrijven.  <br/> |
 |Actie uitvoeren op  <br/> |Deze kolom zal alleen datums bevatten als we een wijziging doorvoeren waarvoor u vóór een bepaald moment actie moet ondernemen. Aangezien we de kolom **Act by zelden** gebruiken, moet u er extra aandacht aan besteden als u hier iets ziet.  <br/> |
 |Laatst bijgewerkt  <br/> |Datum waarop het bericht is gepubliceerd of voor het laatst is bijgewerkt.  <br/> |
 |Bericht-id  <br/> |Microsoft houdt de berichten in het berichtencentrum bij met een bericht-id. U kunt naar deze id verwijzen als u feedback wilt geven of als u ondersteuning belt voor een bepaald bericht.  <br/> |
@@ -340,7 +340,6 @@ Zie [Berichtencentrum in Microsoft 365](message-center.md) voor een overzicht va
 ## <a name="unsubscribe-from-message-center-emails"></a>Afmelden bij e-mailberichten in het Berichtencentrum
 
 1. E-mailberichten verwerken is standaard ingeschakeld en worden naar uw primaire e-mailadres verzonden. Als u de wekelijkse samenvatting niet meer wilt ontvangen, **selecteert u Voorkeuren** en vervolgens **E-mail.**
-
     - Schakel het selectievakje **Wekelijkse samenvatting van** mijn berichten verzenden uit.
     - E-mailmelding voor belangrijke updates is een afzonderlijk besturingselement. Als u geen e-mailberichten wilt ontvangen over belangrijke updates, controleert u of het selectievakje E-mailberichten verzenden voor belangrijke **updates** niet is ingeschakeld.
     -   Als u wilt stoppen met het ontvangen van e-mailberichten over privacyberichten voor gegevens, controleert u of het selectievakje **E-mailberichten** verzenden voor privacyberichten voor gegevens niet is ingeschakeld.  (Privacyberichten voor gegevens worden niet opgenomen in de wekelijkse samenvatting.)
@@ -351,6 +350,6 @@ Zie [Berichtencentrum in Microsoft 365](message-center.md) voor een overzicht va
 
 [Standaard- of targeted releaseopties instellen](../manage/release-options-in-office-365.md) (artikel)
 
-[Beheren welke Office-functies worden weergegeven in Nieuw](../manage/show-hide-new-features.md) (artikel)
+[Beheren welke Office functies worden weergegeven in Nieuw](../manage/show-hide-new-features.md) (artikel)
 
 [Zakelijke abonnementen en factureringsdocumentatie](../../commerce/index.yml) (koppelingen)

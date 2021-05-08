@@ -1,5 +1,5 @@
 ---
-title: Spammeldingen voor eindgebruikers in Microsoft 365
+title: Spammeldingen van eindgebruikers in Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,15 +18,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen informatie krijgen over spammeldingen van eindgebruikers voor in quarantaine geplaatste berichten in Exchange Online Protection (EOP).
+description: Beheerders kunnen meer informatie krijgen over spammeldingen van eindgebruikers voor in quarantaine geplaatste berichten in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9cff91be399bd98eb7e6e5a2a6d91a4a8bb602ec
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3f5eafbb51cd0ff32c69fa0cff85729ef95d3d1f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204448"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274986"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Gebruikersspammeldingen gebruiken om in quarantaine geplaatste berichten vrij te geven en te rapporteren
 
@@ -56,7 +56,7 @@ Een spammelding voor eindgebruikers bevat de volgende informatie voor elk in qua
 
 - **Datum:** De datum en tijd (in UTC) dat het bericht in quarantaine is geplaatst.
 
-- **Afzender blokkeren:** Klik op deze koppeling om de afzender toe te voegen aan uw lijst met geblokkeerde afzenders. Zie Een afzender van [e-mail blokkeren voor meer informatie.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
+- **Afzender blokkeren:** Klik op deze koppeling om de afzender toe te voegen aan de lijst Geblokkeerde afzenders in uw postvak. Zie Een afzender van [e-mail blokkeren voor meer informatie.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
 
 - **Release:** Voor spamberichten (geen phishingberichten) kunt u het bericht hier vrijgeven zonder naar het Beveiligingscentrum & quarantaine te gaan.
 

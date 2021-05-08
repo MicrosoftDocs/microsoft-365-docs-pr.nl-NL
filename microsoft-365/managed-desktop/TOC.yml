@@ -48,6 +48,8 @@
           href: service-description/support.md
         - name: Activiteiten en controle
           href: service-description/operations-and-monitoring.md
+        - name: Diagnostische logboeken
+          href: service-description/diagnostic-logs.md
         - name: Toepassingsvereisten
           href: service-description/mmd-app-requirements.md
         - name: Toepassingsbeheer

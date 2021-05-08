@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lees meer over Microsoft 365 Business Premium, een abonnementsservice met Office-productiviteitsapps en geavanceerde bescherming voor uw bedrijf tegen cyberdreigingen.
-ms.openlocfilehash: d6b0ded25e0478f85e73b807789463e4d55b1bb0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578342"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244851"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Overzicht van Microsoft 365 Business Premium
 
@@ -46,7 +46,7 @@ Bekijk deze video voor een kort overzicht van Microsoft 365 Business Premium.<br
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml). 
 
 Microsoft 365 Business Premium is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](../enterprise/index.yml) voor meer informatie.
 
@@ -71,11 +71,11 @@ Microsoft 365 Business Premium helpt in elk van deze gevallen bij het beschermen
 
 Microsoft 365 Business Premium biedt **bescherming tegen bedreigingen** door:
 
-- Koppelingen in e-mailberichten en documenten in realtime scannen om onveilige websites te blokkeren (veilige koppelingen).
+- Koppelingen in e-mailberichten en documenten in realtime scannen om onveilige websites te blokkeren (Safe koppelingen).
 
-- Geavanceerde analyse van e-mailbijlagen uitvoeren in een sandbox-omgeving om nieuw ontwikkelde malware (Veilige bijlagen) te detecteren. 
+- Geavanceerde analyse van e-mailbijlagen uitvoeren in een sandbox-omgeving om nieuw ontwikkelde malware te detecteren (Safe bijlagen). 
 
-- Anti-phishingbeleid inschakelen waarin machine learning-modellen en imitatiedetectie worden gebruikt om bescherming te bieden tegen geavanceerde aanvallen (Anti-phishing in Defender voor Office 365-intelligentie). 
+- Anti-phishingbeleid inschakelen waarin machine learning-modellen en imitatiedetectie worden gebruikt om bescherming te bieden tegen geavanceerde aanvallen (Anti-phishing in Defender voor Office 365 intelligence). 
 
 - Het instellen van geavanceerde beleidsregels voor het uitschakelen van de toegang tot niet-vertrouwde locaties of het omzeilen van meervoudige factorverificatie van vertrouwde locaties zoals uw bedrijfsnetwerk (Azure MFA met vertrouwde IPs en voorwaardelijke toegang). 
 
@@ -111,6 +111,6 @@ Zie [beveiligingsfuncties van Microsoft 365 Business Premium](security-features.
 
 - Als u geen partner hebt en Microsoft 365 Business Premium wilt aanschaffen, kunt u deze [hier kopen](https://www.microsoft.com/microsoft-365/business) en volg de [aanmeldingsinstructies](sign-up.md).
 
-## <a name="see-also"></a>Zie ook
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Trainingvideo‘s voor Microsoft 365 Business Premium](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business Premium trainingsvideo's](../business-video/index.yml) (koppelingspagina)

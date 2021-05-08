@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Meer informatie over het instellen van uw abonnement op Microsoft 365 Business Basic.
-ms.openlocfilehash: 409d2fd4698452a1694d39c4ca3cc7f378d355e8
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a4636006a6819769752ef6ae61a5cb7155d5289e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580784"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244465"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Microsoft 365 Business Basic instellen
 
@@ -37,7 +37,7 @@ ms.locfileid: "51580784"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vk3W]
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="add-your-domain-to-personalize-sign-in"></a>Uw domein toevoegen om uw aanmelding te personaliseren
 
@@ -85,9 +85,9 @@ U kunt gebruikers toevoegen in de wizard, maar u kunt ook [gebruikers later toev
 
 Alle gebruikers die u toevoegt in de wizard krijgen automatisch een Microsoft 365 Business Basic-licentie toegewezen.
 
-1. Als uw Microsoft 365 Business Basic-abonnement bestaande gebruikers heeft (bijvoorbeeld als u Azure AD Connect hebt gebruikt), hebt u een optie om nu licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
+1. Als uw Microsoft 365 Business Basic-abonnement bestaande gebruikers heeft (als u bijvoorbeeld Azure AD Connect hebt gebruikt), hebt u de optie om nu licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
 
-2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van referenties met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
+2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van inloggegevens met de toegevoegde gebruikers. U kunt de inloggegevens afdrukken, per e-mail versturen of downloaden.
 
 ## <a name="connect-your-domain"></a>Uw domein verbinden
 

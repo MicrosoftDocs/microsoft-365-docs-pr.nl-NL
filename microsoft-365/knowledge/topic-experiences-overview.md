@@ -1,7 +1,7 @@
 ---
 title: Overzicht van Microsoft Viva Topics
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Overzicht van Viva Topics.
-ms.openlocfilehash: 4598c47b07287789a7a194914232799de5ca7b85
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: b37572087794055724cb9533246f83794d88fb93
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488155"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275196"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva Topics 
 
@@ -40,8 +40,12 @@ In Viva Topics wordt AI gebruikt om automatisch te zoeken naar **onderwerpen** i
 
 Wanneer een onderwerp wordt genoemd in nieuws en SharePoint-pagina's, dan wordt dit gemarkeerd. Je kunt het onderwerpoverzicht openen vanuit de markering. Open de onderwerpdetails vanaf de overzichtstitel. Het vermelde onderwerp kan automatisch worden geïdentificeerd of aan de pagina zijn toegevoegd met een directe verwijzing naar het onderwerp door de auteur van de pagina. 
 
-   ![Belangrijke kenmerken van Topics](../media/knowledge-management/saturn.png) </br> 
+   ![Belangrijke kenmerken van Topics](../media/knowledge-management/saturn.png) 
 
+
+   ![Schermafbeelding van zoeken in Word via het vak Zoeken.](../media/knowledge-management/word-search-2.png)
+
+   ![Schermafbeelding van zoeken in Word via het contextmenu Zoeken.](../media/knowledge-management/word-search-1.png)
 
 ## <a name="knowledge-indexing"></a>Kennisindexering
 
@@ -99,7 +103,7 @@ Zie [Onderwerpen beheren in het onderwerpcentrum](manage-topics.md) voor meer in
 
 ## <a name="admin-controls"></a>Beheerdersinstellingen
 
-Met beheerbesturingselementen in het Microsoft 365-beheercentrum kunt u Viva-onderwerpen beheren. Hiermee kan een globale beheerder of SharePoint-beheerder van Microsoft 365 het volgende doen:
+Met beheerbesturingselementen in Microsoft 365 beheercentrum kunt u Viva-onderwerpen beheren. Hiermee kan een globale beheerder of SharePoint-beheerder van Microsoft 365 het volgende doen:
 
 - Bepalen welke gebruikers in uw organisatie onderwerpen mogen zien op moderne SharePoint-pagina's of in zoekresultaten van SharePoint.
 - Bepalen welke SharePoint-sites worden verkend om onderwerpen te identificeren.

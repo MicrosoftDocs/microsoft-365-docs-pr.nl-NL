@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 09c2817f24aff751b214266d24929a9c1182cf4b
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 5b66858146ddb8d94cadc2d0c3ecf5bebb109c3d
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50550070"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272694"
 ---
 # <a name="payment-information-for-turkey"></a>Betalingsgegevens voor Turkije
 
 [Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in TRY en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
+Betaal alleen in TRY en verwijs naar het factuurnummer(en) voor uw overboeking van betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank A.S., Istanboel  
+**Bank:** Citibank A.S., Istanbul  
 **SWIFT-code:** CITITRIX  
-**IBAN:** TR420009200000000092407039  
-**Rekeningnummer:** 92407039  
-**Accountnaam:** Microsoft Payments  
+**IBAN:** TR4200092000000092407039  
+**Accountnummer:** 92407039  
+**Accountnaam:** Microsoft-betalingen  

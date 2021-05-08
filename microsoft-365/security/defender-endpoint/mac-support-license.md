@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e8084fab434246a5c9f12af40872ade66e6fa163
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1f8428c2995eec2dece290049eda67a3683b4c1e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934259"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244978"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Problemen met licenties oplossen voor Microsoft Defender voor Eindpunt op macOS
 
@@ -46,15 +46,14 @@ Terwijl u door Microsoft Defender voor Eindpunt [](mac-install-manually.md) op [
 
 Geen licentie gevonden
 
-Het lijkt erop dat uw organisatie geen licentie voor Microsoft 365 Enterprise-abonnement heeft.
+Het lijkt erop dat uw organisatie geen licentie heeft voor Microsoft 365 Enterprise abonnement.
 
 Neem contact op met uw beheerder voor hulp.
 
 **Oorzaak:** 
 
-U hebt het Microsoft Defender for Endpoint op macOS-pakket ('Installatiepakket downloaden') geïmplementeerd en/of geïnstalleerd, maar mogelijk hebt u het configuratiescript ("Onboarding-pakket downloaden") uitgevoerd.
+U hebt het Microsoft Defender voor Eindpunt voor macOS-pakket ('Installatiepakket downloaden') geïmplementeerd en/of geïnstalleerd, maar u hebt mogelijk het configuratiescript ("Onboarding-pakket downloaden" uitgevoerd), of u hebt geen licentie toegewezen aan de gebruiker.
 
 **Oplossing:**
 
 Volg de MicrosoftDefenderATPOnboardingMacOs.py instructies die hier worden beschreven: [Clientconfiguratie](mac-install-manually.md#client-configuration)
-

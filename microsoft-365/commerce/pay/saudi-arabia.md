@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 43e5c5534a931568bfbb444d15ae3b987980074c
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 61a6b3a82b63e44520337f51cd06141f05b013af
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542642"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272934"
 ---
 # <a name="payment-information-for-saudi-arabia"></a>Betalingsgegevens voor Saudi-Arabië
 
 [Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in EUR en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
+Betaal alleen in EUR en vermeld het factuurnummer(en) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Citibank, London  
+**Bank:** Citibank, Londen  
 **SWIFT-code/BIC:** CITIGB2L  
-**IBAN:** SORTEERcode GB31CITI18500812510049: 185008   
-**Rekeningnummer:** 12510049   
+**IBAN:** GB31CITI18500812510049 **SORT CODE:** 185008  
+**Accountnummer:** 12510049   
 **Accountnaam:** MICROSOFT

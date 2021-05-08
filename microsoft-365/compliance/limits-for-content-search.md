@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: Meer informatie over de limieten die van kracht zijn voor de functie Inhoud zoeken in het Microsoft 365 compliancecentrum, zoals het maximum aantal gelijktijdige zoekopdrachten. Deze zoeklimieten zijn ook van toepassing op zoekopdrachten die zijn gekoppeld aan Core eDiscovery-zaken.
-ms.openlocfilehash: 3ed7c97f633bc7e110ac5d4a84142abf612ec5b3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: e4cfc79d35b4dc6a22e8e7a872699d906b39a901
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "52162674"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244318"
 ---
 # <a name="limits-for-content-search"></a>Limieten voor zoeken naar inhoud 
 Er worden verschillende limieten toegepast op het zoekprogramma Inhoud in het Microsoft 365 compliancecentrum. Dit omvat zoekopdrachten  die worden uitgevoerd op de pagina Inhoud zoeken en zoekopdrachten die zijn gekoppeld aan een eDiscovery-zaak op de **pagina Core eDiscovery.** Deze limieten helpen bij het handhaven van de gezondheid en kwaliteit van services die aan organisaties worden geleverd. Er zijn ook limieten voor het indexeren van e-mailberichten in Exchange Online zoeken. U kunt de limieten voor Zoeken naar inhoud of e-mailindexering niet wijzigen, maar u moet hiervan op de hoogte zijn, zodat u rekening kunt houden met deze limieten bij het plannen, uitvoeren en oplossen van inhoudszoekingen.
@@ -45,7 +45,7 @@ In de volgende tabel worden de zoeklimieten vermeld wanneer u het zoekprogramma 
 |Het maximum aantal items per postvak in een openbare map dat wordt weergegeven op de voorbeeldpagina bij het bekijken van de zoekresultaten van inhoud.  <br/> |100  <br/> |
 |Het maximum aantal items dat wordt gevonden in alle postvakken in openbare mappen die worden weergegeven op de voorbeeldpagina bij het bekijken van de zoekresultaten van inhoud.  <br/> |200  <br/> |
 |Het maximum aantal openbare postvakken dat kan worden bekeken voor zoekresultaten. Als er meer dan 500 postvakken in openbare mappen zijn die inhoud bevatten die overeenkomt met de zoekquery, zijn alleen de bovenste 500 postvakken voor openbare mappen met de meeste zoekresultaten beschikbaar voor een voorbeeld.  <br/> |500  <br/> |
-|Het maximum aantal tekens voor de zoekquery (inclusief operatoren en voorwaarden) voor een zoekopdracht.  <br/><br/> **Opmerking:** Deze limiet wordt van kracht nadat de query is uitgebreid, wat betekent dat de query wordt uitgebreid met elk van de trefwoorden. Als een zoekquery bijvoorbeeld 15 trefwoorden en aanvullende parameters en voorwaarden heeft, wordt de query 15 keer uitgebreid, elk met de andere parameters en voorwaarden in de query. Dus hoewel het aantal tekens in de zoekquery mogelijk onder de limiet ligt, is het de uit uitgebreide query die kan bijdragen aan het overschrijden van deze limiet.  <br/> |**Postvakken:** 10.000  <br/> **Sites:** 4.000 bij het zoeken naar alle sites of 2.000 bij het zoeken naar maximaal 20 sites <sup>2</sup> <br/> |
+|Het maximum aantal tekens voor de zoekquery (inclusief operatoren en voorwaarden) voor een zoekopdracht.  <br/><br/> **Opmerking:** Deze limiet wordt van kracht nadat de query is uitgebreid en bevat tekens uit de trefwoordquery, filters voor zoekmachtigingen die zijn toegepast op de gebruiker en de URL's van alle sitelocaties. Dit betekent dat de query wordt uitgebreid met elk van de trefwoorden. Als een zoekquery bijvoorbeeld 15 trefwoorden en aanvullende parameters en voorwaarden heeft, wordt de query 15 keer uitgebreid, elk met de andere parameters en voorwaarden in de query. Dus hoewel het aantal tekens in de zoekquery mogelijk onder de limiet ligt, is het de uit uitgebreide query die kan bijdragen aan het overschrijden van deze limiet.  <br/> |**Postvakken:** 10.000  <br/> **Sites:** 4.000 bij het zoeken naar alle sites of 2.000 bij het zoeken naar maximaal 20 sites <sup>2</sup> <br/> |
 |Het maximum aantal varianten dat wordt geretourneerd wanneer u een voorvoegsel-jokerteken gebruikt om te zoeken naar een exacte woordgroep in een zoekquery of wanneer u een voorvoegsel-jokerteken en de operator **NEAR** Boolean gebruikt.  <br/> |10.000 <sup>3</sup> <br/> |
 |Het minimum aantal alfatekens voor jokertekens voor voorvoegsels; bijvoorbeeld ,  `time*`  `one*` of  `set*` .  <br/> |3  <br/> |
 |Het maximum aantal postvakken in een zoekopdracht waarin u items kunt verwijderen door een actie 'zoeken en verwijderen' uit te voeren (met de opdracht **New-ComplianceSearchAction -Purge).** Als de zoekopdracht waar u een opsperactie voor doet, meer bronpostvakken heeft dan deze limiet, mislukt de actie voor het verwijderen. Zie E-mailberichten in uw organisatie zoeken en verwijderen voor meer informatie over zoeken [en verwijderen.](search-for-and-delete-messages-in-your-organization.md)  <br/> |50,000  <br/> |
@@ -86,7 +86,7 @@ In de volgende tabel worden de limieten vermeld bij het exporteren van de result
 
 In de volgende tabel worden de indexeringslimieten beschreven die ertoe kunnen leiden dat een e-mailbericht wordt geretourneerd als een niet-geïndexeerd item of een gedeeltelijk geïndexeerd item in de resultaten van een inhoudszoekactie.
   
-| Indexeringslimiet | Maximumwaarde | Beschrijving |
+| Indexeringslimiet | Maximumwaarde | Omschrijving |
 |:-----|:-----|:-----|
 |Maximale bijlagegrootte|150 MB  <br/> |De maximale grootte van een e-mailbijlage die wordt geparseerd voor indexering. Elke bijlage die groter is dan deze limiet, wordt niet geparseerd voor indexering en het bericht met de bijlage wordt gemarkeerd als gedeeltelijk geïndexeerd.  <br/> <br/>**Opmerking:** Parseren is het proces waarbij de indexeringsservice tekst uit de bijlage haalt, overbodige tekens zoals interpunctie en spaties verwijdert en vervolgens de tekst opsplitst in woorden (in een proces dat tokenisatie wordt genoemd), die vervolgens in de index worden opgeslagen.           |
 |Maximum aantal bijlagen  <br/> |250  <br/> |Het maximum aantal bestanden dat is gekoppeld aan een e-mailbericht dat wordt geparseerd voor indexering. Als een bericht meer dan 250 bijlagen heeft, worden de eerste 250 bijlagen geparseerd en geïndexeerd en wordt het bericht gemarkeerd als gedeeltelijk geïndexeerd omdat het extra bijlagen had die niet zijn geparseerd.  <br/> |

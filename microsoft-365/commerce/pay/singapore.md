@@ -8,26 +8,26 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
-description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d6aadbd95a51eb02f9d52a3be62314cbee01ca09
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: f9f3466f11d95fde6aee74243356ebb3eb4da900
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542630"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272874"
 ---
 # <a name="payment-information-for-singapore"></a>Betalingsgegevens voor Singapore
 
 [Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
-Betaal alleen in USD en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.
+Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank, Singapore  
 **SWIFT-code:** CITISGSG  
-**Rekeningnummer:** 0-817543-138  
+**Accountnummer:** 0-817543-138  
 **Accountnaam:** MICROSOFT REGIONAL SALES CORP  

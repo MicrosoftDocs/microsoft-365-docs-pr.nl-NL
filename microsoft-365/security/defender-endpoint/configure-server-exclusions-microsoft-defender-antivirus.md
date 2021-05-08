@@ -1,28 +1,29 @@
 ---
-title: Microsoft Defender Antivirus-uitsluitingen configureren op Windows Server
+title: Uitsluitingen Microsoft Defender Antivirus configureren op Windows Server
 ms.reviewer: ''
 manager: dansimp
-description: Windows Server bevat automatische uitsluitingen, op basis van de serverrol. U kunt ook aangepaste uitsluitingen toevoegen.
+description: Windows Server bevat automatische uitsluitingen, op basis van serverrol. U kunt ook aangepaste uitsluitingen toevoegen.
 keywords: uitsluitingen, server, automatische uitsluitingen, automatisch, aangepast, scans, Microsoft Defender Antivirus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.date: 02/10/2021
-ms.openlocfilehash: 507edb980f671b2f39403cc41e540150f5e82891
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: f82da8eb0dcba39404c2b7f191e166aa78357cee
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764339"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274758"
 ---
-# <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender Antivirus-uitsluitingen configureren op Windows Server
+# <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Uitsluitingen Microsoft Defender Antivirus configureren op Windows Server
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -30,7 +31,7 @@ ms.locfileid: "51764339"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-Microsoft Defender Antivirus op Windows Server 2016 en Windows Server 2019 registreren u automatisch in bepaalde uitsluitingen, zoals gedefinieerd door uw opgegeven serverrol. Deze uitsluitingen worden niet weergegeven in de standaarduitsluitingslijsten die worden weergegeven in de [Windows Security-app.](microsoft-defender-security-center-antivirus.md)
+Microsoft Defender Antivirus op Windows Server 2016 en Windows Server 2019 wordt u automatisch ingeschreven voor bepaalde uitsluitingen, zoals gedefinieerd door uw opgegeven serverrol. Deze uitsluitingen worden niet weergegeven in de standaarduitsluitingslijsten die worden weergegeven in de [Windows-beveiliging app](microsoft-defender-security-center-antivirus.md).
 
 > [!NOTE]
 > Automatische uitsluitingen zijn alleen van toepassing op RTP-scannen (Real-time protection). Automatische uitsluitingen worden niet nagekomen tijdens een volledige/snelle of on-demand scan.
@@ -46,27 +47,27 @@ Houd rekening met de volgende belangrijke punten:
 - Aangepaste uitsluitingen hebben voorrang op automatische uitsluitingen.
 - Automatische uitsluitingen zijn alleen van toepassing op RTP-scannen (Real-time protection). Automatische uitsluitingen worden niet nagekomen tijdens een volledige/snelle of on-demand scan.
 - Aangepaste en dubbele uitsluitingen komen niet in conflict met automatische uitsluitingen.
-- Microsoft Defender Antivirus gebruikt de hulpprogramma's Voor het onderhouden en beheren van implementatieafbeeldingen (DISM) om te bepalen welke rollen op uw computer zijn geïnstalleerd.
+- Microsoft Defender Antivirus de hulpprogramma's Voor het onderhouden en beheren van implementatieafbeeldingen (DISM) gebruikt om te bepalen welke rollen op uw computer zijn geïnstalleerd.
 
 ## <a name="opt-out-of-automatic-exclusions"></a>Automatische uitsluitingen uitsluiten
 
-In Windows Server 2016 en Windows Server 2019 sluiten de vooraf gedefinieerde uitsluitingen die worden geleverd door beveiligingsinformatieupdates alleen de standaardpaden voor een rol of functie uit. Als u een rol of functie in een aangepast pad hebt geïnstalleerd of als u de set uitsluitingen handmatig wilt controleren, moet u zich afkeert van de automatische uitsluitingen die worden geleverd in beveiligingsinformatie-updates. Houd er echter rekening mee dat de uitsluitingen die automatisch worden geleverd, zijn geoptimaliseerd voor Windows Server 2016- en 2019-rollen. Zie Aanbevelingen voor het definiëren van uitsluitingen voordat u uw [uitsluitingslijsten](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) definieert.
+In Windows Server 2016 en Windows Server 2019 sluiten de vooraf gedefinieerde uitsluitingen die worden geleverd door beveiligingsinformatieupdates alleen de standaardpaden voor een rol of functie uit. Als u een rol of functie in een aangepast pad hebt geïnstalleerd of als u de set uitsluitingen handmatig wilt controleren, moet u zich afkeert van de automatische uitsluitingen die worden geleverd in beveiligingsinformatie-updates. Houd er echter rekening mee dat de uitsluitingen die automatisch worden geleverd, zijn geoptimaliseerd voor Windows Server 2016 en 2019-rollen. Zie Aanbevelingen voor het definiëren van uitsluitingen voordat u uw [uitsluitingslijsten](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) definieert.
 
 > [!WARNING]
-> Het uitsluiten van automatische uitsluitingen kan negatieve gevolgen hebben voor de prestaties of leiden tot gegevenscorruptie. De uitsluitingen die automatisch worden geleverd, zijn geoptimaliseerd voor windows server 2016- en Windows Server 2019-rollen.
+> Het uitsluiten van automatische uitsluitingen kan negatieve gevolgen hebben voor de prestaties of leiden tot gegevenscorruptie. De uitsluitingen die automatisch worden geleverd, worden geoptimaliseerd voor Windows Server 2016 en Windows Server 2019-rollen.
 
 Omdat vooraf gedefinieerde uitsluitingen alleen standaardpaden uitsluiten **,** moet u uitsluitingen handmatig toevoegen als u NTDS en SYSVOL [](configure-extension-file-exclusions-microsoft-defender-antivirus.md#configure-the-list-of-exclusions-based-on-folder-name-or-file-extension) verplaatst naar een ander station of pad dat verschilt van het oorspronkelijke pad *.*
 
 U kunt de automatische uitsluitingslijsten uitschakelen met groepsbeleid, PowerShell-cmdlets en WMI.
 
-### <a name="use-group-policy-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Groepsbeleid gebruiken om de lijst met automatische uitsluitingen uit te schakelen op Windows Server 2016 en Windows Server 2019
+### <a name="use-group-policy-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Groepsbeleid gebruiken om de lijst met automatische uitsluitingen op Windows Server 2016 en Windows Server 2019 uit te schakelen
 
 1. Open op uw computer voor groepsbeleidsbeheer de [console Groepsbeleidsbeheer](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11)). Klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en klik vervolgens op **Bewerken.**
 2. Ga in **de Editor voor groepsbeleidsbeheer** naar **Computerconfiguratie** en klik vervolgens op **Beheersjablonen.**
-3. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus**  >  **Exclusions**.
+3. Vouw de boom uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Uitsluitingen.**
 4. Dubbelklik op **Automatische uitsluitingen uitschakelen** en stel de optie in op **Ingeschakeld.** Klik daarna op **OK**. 
 
-### <a name="use-powershell-cmdlets-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-2019"></a>PowerShell-cmdlets gebruiken om de lijst met automatische uitsluitingen uit te schakelen op Windows Server 2016 en 2019
+### <a name="use-powershell-cmdlets-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-2019"></a>PowerShell-cmdlets gebruiken om de lijst met automatische uitsluitingen op Windows Server 2016 en 2019 uit te schakelen
 
 Gebruik de volgende cmdlets:
 
@@ -76,10 +77,10 @@ Set-MpPreference -DisableAutoExclusions $true
 
 Zie de volgende bronnen voor meer informatie:
 
-- [Gebruik PowerShell-cmdlets om Microsoft Defender Antivirus](use-powershell-cmdlets-microsoft-defender-antivirus.md)te configureren en uit te voeren.
-- [PowerShell gebruiken met Microsoft Defender Antivirus](/powershell/module/defender/).
+- [Gebruik PowerShell-cmdlets om deze te configureren](use-powershell-cmdlets-microsoft-defender-antivirus.md)en Microsoft Defender Antivirus.
+- [PowerShell gebruiken met Microsoft Defender Antivirus.](/powershell/module/defender/)
 
-### <a name="use-windows-management-instruction-wmi-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Windows Management Instruction (WMI) gebruiken om de lijst met automatische uitsluitingen uit te schakelen op Windows Server 2016 en Windows Server 2019
+### <a name="use-windows-management-instruction-wmi-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Gebruik Windows Management Instruction (WMI) om de lijst met automatische uitsluitingen op Windows Server 2016 en Windows Server 2019 uit te schakelen
 
 Gebruik de **methode Set** van de [MSFT_MpPreference](/previous-versions/windows/desktop/defender/msft-mppreference) voor de volgende eigenschappen:
 
@@ -96,17 +97,17 @@ De volgende secties bevatten de uitsluitingen die worden geleverd met automatisc
 
 ### <a name="default-exclusions-for-all-roles"></a>Standaarduitsluitingen voor alle rollen
 
-In deze sectie vindt u de standaarduitsluitingen voor alle rollen van Windows Server 2016 en 2019.
+In deze sectie worden de standaarduitsluitingen voor alle Windows Server 2016 en 2019 weergegeven.
 
 > [!NOTE]
 > De standaardlocaties kunnen verschillen van wat in dit artikel wordt vermeld.
 
-#### <a name="windows-tempedb-files"></a>Windows-bestanden met 'temp.edb'
+#### <a name="windows-tempedb-files"></a>Windows 'temp.edb'-bestanden
 
 - `%windir%\SoftwareDistribution\Datastore\*\tmp.edb`
 - `%ProgramData%\Microsoft\Search\Data\Applications\Windows\*\*.log`
 
-#### <a name="windows-update-files-or-automatic-update-files"></a>Windows Update-bestanden of Bestanden automatisch bijwerken
+#### <a name="windows-update-files-or-automatic-update-files"></a>Windows Bestanden bijwerken of Bestanden automatisch bijwerken
 
 - `%windir%\SoftwareDistribution\Datastore\*\Datastore.edb`
 - `%windir%\SoftwareDistribution\Datastore\*\edb.chk`
@@ -114,7 +115,7 @@ In deze sectie vindt u de standaarduitsluitingen voor alle rollen van Windows Se
 - `%windir%\SoftwareDistribution\Datastore\*\Edb\*.jrs`
 - `%windir%\SoftwareDistribution\Datastore\*\Res\*.log`
 
-#### <a name="windows-security-files"></a>Windows-beveiligingsbestanden
+#### <a name="windows-security-files"></a>Windows-beveiliging bestanden
 
 - `%windir%\Security\database\*.chk`
 - `%windir%\Security\database\*.edb`
@@ -258,9 +259,9 @@ In deze sectie vindt u de uitsluitingen van bestanden en mappen en de procesuits
 
 - `%systemroot%\System32\dns.exe`
 
-### <a name="file-and-storage-services-exclusions"></a>Uitsluitingen van bestands- en opslagservices
+### <a name="file-and-storage-services-exclusions"></a>Uitsluitingen van Storage services
 
-In deze sectie worden de bestands- en mapuitsluitingen vermeld die automatisch worden geleverd wanneer u de rol Bestands- en opslagservices installeert. De uitsluitingen hieronder bevatten geen uitsluitingen voor de rol Clustering.
+In deze sectie worden de bestands- en mapuitsluitingen vermeld die automatisch worden bezorgd wanneer u de rol Bestand en Storage Services installeert. De uitsluitingen hieronder bevatten geen uitsluitingen voor de rol Clustering.
 
 - `%SystemDrive%\ClusterStorage`
 - `%clusterserviceaccount%\Local Settings\Temp`
@@ -325,9 +326,9 @@ Sluit de volgende bestanden uit deze map en alle submappen:
 - `*.ins`
 - `Oscfilter.ini`
 
-### <a name="windows-server-update-services-exclusions"></a>Uitsluitingen van Windows Server Update Services
+### <a name="windows-server-update-services-exclusions"></a>Windows Server Update Services uitsluitingen
 
-In deze sectie worden de mapuitsluitingen vermeld die automatisch worden geleverd wanneer u de rol Windows Server Update Services (WSUS) installeert. De map WSUS wordt opgegeven in de registersleutel `HKEY_LOCAL_MACHINE\Software\Microsoft\Update Services\Server\Setup`
+In deze sectie worden de mapuitsluitingen vermeld die automatisch worden geleverd wanneer u de Windows Server Update Services (WSUS) installeert. De map WSUS wordt opgegeven in de registersleutel `HKEY_LOCAL_MACHINE\Software\Microsoft\Update Services\Server\Setup`
 
 - `%systemroot%\WSUS\WSUSContent`
 - `%systemroot%\WSUS\UpdateServicesDBFiles`
@@ -336,9 +337,9 @@ In deze sectie worden de mapuitsluitingen vermeld die automatisch worden gelever
 
 ## <a name="see-also"></a>Zie ook
 
-- [Uitsluitingen configureren en valideren voor Antivirusscans van Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+- [Uitsluitingen configureren en valideren voor Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md)
 - [Uitsluitingen configureren en valideren op basis van bestandsnaam, extensie en maplocatie](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Uitsluitingen configureren en valideren voor bestanden die zijn geopend door processen](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 - [Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen](common-exclusion-mistakes-microsoft-defender-antivirus.md)
-- [De resultaten van Microsoft Defender Antivirus scans en herstel aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
+- [De resultaten van scans en herstel van Microsoft Defender Antivirus aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

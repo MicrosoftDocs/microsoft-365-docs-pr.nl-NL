@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 8ecf39090d368427c103c7ec78e22bc13f7c339f
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: c593dfe384649b1599d5c0bab8fa6a8204d105dc
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591766"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274830"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>De details en resultaten van een geautomatiseerd onderzoek weergeven
 
@@ -37,7 +37,7 @@ Wanneer een geautomatiseerd onderzoek wordt [](automated-investigations.md) uitg
 
 ## <a name="new-unified-investigation-page"></a>(NIEUW!) Geïntegreerde onderzoekspagina
 
-De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](microsoft-defender-endpoint.md) voor Eindpunt en Microsoft Defender voor [Office 365.](/microsoft-365/security/office-365-security/office-365-atp) 
+De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](microsoft-defender-endpoint.md) voor Eindpunt en Microsoft Defender [voor Office 365.](/microsoft-365/security/office-365-security/office-365-atp) 
 
 > [!TIP]
 > Zie (NIEUW!) voor meer informatie over wat er [verandert. Geïntegreerde onderzoekspagina](/microsoft-365/security/mtp/mtp-autoir-results).
@@ -78,12 +78,12 @@ Gebruik de weergave onderzoeksdetails om eerdere, huidige en in behandeling zijn
 In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **Onderzoek**,  **Waarschuwingen**, Apparaten , **Identiteiten**, **Belangrijke** bevindingen **,** Entiteiten , **Logboek** en Acties in behandeling , beschreven in de volgende tabel. 
 
 > [!NOTE]
-> De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender voor Office 365-abonnement 2 bevat, ziet u geen tabblad **Postvakken.**
+> De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender bevat voor Office 365 abonnement 2, ziet u geen tabblad **Postvakken.**
 
 | Tab | Omschrijving |
 |:--------|:--------|
 | **Onderzoeksgrafiek**   | Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die zijn gevonden, samen met waarschuwingen en of er nog acties moeten worden goedgekeurd.<br/>U kunt een item in de grafiek selecteren om meer details weer te geven. Als u bijvoorbeeld het pictogram **Bewijs** selecteert, gaat u naar het tabblad Bewijs, waar u gedetecteerde entiteiten en hun vonnissen kunt zien.  |
-| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office-apps, Cloud App-beveiliging en andere Microsoft 365 Defender-functies.|
+| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office apps, Cloud App Security en andere Microsoft 365 Defender-functies.|
 | **Apparaten** | Hiermee worden apparaten vermeld die zijn opgenomen in het onderzoek, samen met het herstelniveau. (Herstelniveaus komen overeen met het [automatiseringsniveau voor apparaatgroepen](automation-levels.md).) |
 | **Postvakken** |Hiermee worden postvakken vermeld die worden beïnvloed door gedetecteerde bedreigingen.  |
 | **Gebruikers**  | Hiermee worden gebruikersaccounts vermeld die worden beïnvloed door gedetecteerde bedreigingen. |

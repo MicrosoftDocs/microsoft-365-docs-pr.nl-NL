@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Hebt u een oplossing voor recordbeheer nodig voor Microsoft 365 die inhoud van hoge waarde beheert voor juridische, zakelijke of wettelijke verplichtingen, maar niet zeker weet waar u moet beginnen? Lees enkele praktische richtlijnen om aan de slag te gaan.
-ms.openlocfilehash: 2ab5eaa494094dcbf0723f426fcbd644901c22bb
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: Hebt u een oplossing voor recordbeheer nodig voor Microsoft 365 die waardevolle inhoud beheert voor juridische, zakelijke of wettelijke verplichtingen, maar u weet niet waar u moet beginnen? Lees dan wat praktische richtlijnen om aan de slag te gaan.
+ms.openlocfilehash: 0382c1419654e4c1d2c809b3a9c32252fd50f554
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "52162286"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244342"
 ---
 # <a name="get-started-with-records-management"></a>Aan de slag met recordbeheer
 
 >*[Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Klaar om te beginnen met het beheren van de inhoud van hoge waarde van uw organisatie voor juridische, zakelijke of wettelijke verplichtingen door gebruik te maken van een oplossing voor recordbeheer in Microsoft 365? Gebruik de volgende richtlijnen op hoog niveau om aan de slag te gaan:
+Klaar om te beginnen met het beheren van waardevolle inhoud van uw organisatie voor juridische, zakelijke of wettelijke verplichtingen door gebruik te maken van een oplossing voor recordbeheer in Microsoft 365? Gebruik de volgende richtlijnen om aan de slag te gaan:
 
 1. **Informatie over de oplossing voor recordbeheer** en welke acties zijn toegestaan of geblokkeerd wanneer documenten en e-mailberichten worden gedeclareerd als records: [Meer informatie over recordbeheer](records-management.md). 
 
@@ -53,9 +53,9 @@ Leden van uw complianceteam die verantwoordelijk zijn voor recordbeheer hebben m
 
 Voor een alleen-lezen rol kunt u een nieuwe rollengroep maken en de rol **Recordbeheer alleen-weergeven** aan deze groep toevoegen. 
 
-Zie [Machtigingen in het Beveiligings- en compliancecentrum](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center) voor meer informatie over rolgroepen en rollen.
+Zie [Machtigingen in het Beveiligings- en compliancecentrum](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center) voor meer informatie over rolgroepen en rollen.
 
-Zie [Gebruikers toegang geven tot het Beveiligings- en compliancecentrum](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md) voor instructies om gebruikers aan rolgroepen toe te voegen en rollen toe te wijzen.
+Zie [Gebruikers toegang geven tot het Beveiligings- en compliancecentrum](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md) voor instructies om gebruikers aan rolgroepen toe te voegen en rollen toe te wijzen.
 
 Deze machtigingen zijn alleen vereist om retentielabels te maken, te configureren en toe te passen voor het declareren van records, en om de verwijdering te beheren. De persoon die deze labels configureert, heeft geen toegang tot de inhoud nodig.
 
@@ -86,6 +86,6 @@ Gebruik de volgende tabel om uw zakelijke vereisten toe te passen op scenario's 
 
 Retentielabels die worden gebruikt voor recordbeheer zijn aanwezig in de gebruikersinterface in Microsoft 365-apps. Zorg ervoor dat u richtlijnen biedt voor eindgebruikers en uw helpdesk voordat u retentielabels implementeert in uw productienetwerk.
 
-De meest effectieve documentatie voor eindgebruikers wordt aangepast en u geeft instructies voor de namen en configuraties van retentielabels die u kiest. Zie het volgende bericht voor een downloadpakket dat u kunt gebruiken om gebruikers te trainen en ingebruikname te stimuleren: [Training van eindgebruikers voor retentielabels in M365 – Hoe kunt u uw ingebruikname versnellen?](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
+Raadpleeg [Retentielabels toepassen op bestanden in SharePoint of OneDrive](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df) om gebruikers te helpen bij het toepassen van retentielabels in SharePoint en OneDrive, zoals informatie over het ontgrendelen van records voor bewerken.
 
-In de volgende sectie vindt u ook basisinstructies voor gebruikers: [Handmatig toepassen van retentielabels](create-apply-retention-labels.md#manually-apply-retention-labels).
+De meest effectieve documentatie voor eindgebruikers zijn echter aangepaste richtlijnen en instructies die u geeft voor de door u gekozen namen en configuraties van retentielabels. Zie de volgende blogpost voor een downloadpakket dat u kunt gebruiken om gebruikers te trainen en ingebruikname te stimuleren: [Training van eindgebruikers voor retentielabels in M365 - Hoe kunt u de ingebruikname versnellen?](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).

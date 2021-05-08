@@ -8,8 +8,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 ms.prod: m365-security
 ms.date: 01/29/2021
 localization_priority: Normal
@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 4476578939f2ece90c638c919c7e4d134ea2d9ec
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 036ef1c97788f310c5b906ae5f80076ca2359cdb
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204859"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275082"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Fout-positieven/negatieven rapporteren in geautomatiseerde onderzoeks- en antwoordmogelijkheden
 
@@ -37,7 +37,7 @@ ms.locfileid: "51204859"
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Als [geautomatiseerde onderzoeks- en antwoordmogelijkheden (AIR) in Office 365](automated-investigation-response-office.md) iets hebben gemist of ten onrechte zijn gedetecteerd, zijn er stappen die uw beveiligingsteam kan ondernemen om dit op te lossen. Dergelijke acties zijn onder andere:
+Als de mogelijkheden voor automatisch onderzoek en antwoord [(AIR) in](automated-investigation-response-office.md) Office 365 of iets verkeerd zijn gedetecteerd, zijn er stappen die uw team voor beveiligingsbewerkingen kan ondernemen om dit op te lossen. Dergelijke acties zijn onder andere:
 
 - [Een onwaar positief/negatief melden bij Microsoft;](#report-a-false-positivenegative-to-microsoft-for-analysis)
 - [Waarschuwingen aanpassen](#adjust-an-alert-to-prevent-false-positives-from-recurring) (indien nodig); en
@@ -47,13 +47,13 @@ Gebruik dit artikel als handleiding.
 
 ## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Een onwaar positief/negatief melden bij Microsoft voor analyse
 
-Als AIR in Microsoft Defender voor Office 365 een e-mailbericht, een e-mailbijlage, een URL in een e-mailbericht of een URL in een Office-bestand heeft gemist, kunt u verdachte spam, phish, URL's en bestanden verzenden naar Microsoft voor [Office 365-scannen.](admin-submission.md)
+Als AIR in Microsoft Defender voor Office 365 een e-mailbericht, een e-mailbijlage, een URL in een e-mailbericht of een URL in een Office-bestand heeft gemist, kunt u verdachte [spam, phish, URL's](admin-submission.md)en bestanden indienen bij Microsoft voor Office 365 scannen.
 
 U kunt ook [een bestand indienen bij Microsoft voor malwareanalyse.](https://www.microsoft.com/wdsi/filesubmission)
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Een waarschuwing aanpassen om te voorkomen dat fout-positieven terugkeren
 
-Als een waarschuwing wordt geactiveerd door legitiem gebruik of als de waarschuwing onjuist is, kunt u waarschuwingen beheren [in de cloud-app-beveiligingsportal.](/cloud-app-security/managing-alerts)
+Als een waarschuwing wordt geactiveerd door legitiem gebruik of als de waarschuwing onjuist is, kunt u waarschuwingen beheren in de [Cloud App Security portal.](/cloud-app-security/managing-alerts)
 
 Als uw organisatie naast Office 365 [Microsoft Defender](/windows/security/threat-protection) voor Eindpunt gebruikt en een bestand, IP-adres, URL of domein wordt beschouwd als malware op een apparaat, kunt u een aangepaste indicator maken met de actie Toestaan voor uw [apparaat.](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)
 
@@ -78,7 +78,7 @@ Met Threat Explorer kan uw beveiligingsteam een e-mail vinden die is beïnvloed 
 
 In het Actiecentrum kunt u herstelacties zien die zijn ondernomen en de actie mogelijk ongedaan kunnen maken.
 
-1. Ga naar het Microsoft 365-beveiligingscentrum ( <https://security.microsoft.com> ).
+1. Ga naar het Microsoft 365 beveiligingscentrum ( <https://security.microsoft.com> ).
 2. Selecteer actiecentrum in het **navigatiedeelvenster.**
 3. Selecteer het **tabblad Geschiedenis** om de lijst met voltooide acties te bekijken.
 4. Selecteer een item. Het deelvenster Flyout wordt geopend.
@@ -87,4 +87,4 @@ In het Actiecentrum kunt u herstelacties zien die zijn ondernomen en de actie mo
 ## <a name="see-also"></a>Zie ook
 
 - [Microsoft Defender voor Office 365](defender-for-office-365.md)
-- [Geautomatiseerde onderzoeken in Microsoft Defender voor Office 365](office-365-air.md)
+- [Automatische onderzoeken in Microsoft Defender voor Office 365](office-365-air.md)
