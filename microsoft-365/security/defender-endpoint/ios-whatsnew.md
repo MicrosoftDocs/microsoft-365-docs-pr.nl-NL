@@ -18,30 +18,32 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 76abde885aa16c174bb81d22e5939d47894a59bf
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 64a96256ff4bb4b77ec634195f6d89b92252142a
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934967"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301762"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a><span data-ttu-id="62e26-104">Nieuwe functies in Microsoft Defender voor Eindpunt in iOS</span><span class="sxs-lookup"><span data-stu-id="62e26-104">What's new in Microsoft Defender for Endpoint on iOS</span></span>
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a><span data-ttu-id="d7c02-104">Nieuwe functies in Microsoft Defender voor Eindpunt in iOS</span><span class="sxs-lookup"><span data-stu-id="d7c02-104">What's new in Microsoft Defender for Endpoint on iOS</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="62e26-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="62e26-105">**Applies to:**</span></span>
-- [<span data-ttu-id="62e26-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="62e26-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="62e26-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="62e26-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="d7c02-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="d7c02-105">**Applies to:**</span></span>
+- [<span data-ttu-id="d7c02-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="d7c02-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="d7c02-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d7c02-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-<span data-ttu-id="62e26-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="62e26-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="62e26-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="62e26-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+<span data-ttu-id="d7c02-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="d7c02-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="d7c02-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="d7c02-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-## <a name="1115140101"></a><span data-ttu-id="62e26-110">1.1.15140101</span><span class="sxs-lookup"><span data-stu-id="62e26-110">1.1.15140101</span></span>
+## <a name="1115140101"></a><span data-ttu-id="d7c02-110">1.1.15140101</span><span class="sxs-lookup"><span data-stu-id="d7c02-110">1.1.15140101</span></span>
 
-- <span data-ttu-id="62e26-111">De microsoft Defender ATP-productnaam is nu bijgewerkt naar Microsoft Defender voor Eindpunt in de app Store.</span><span class="sxs-lookup"><span data-stu-id="62e26-111">The Microsoft Defender ATP product name has now been updated to Microsoft Defender for Endpoint in the app store.</span></span>
-- <span data-ttu-id="62e26-112">Verbeterde aanmeldingservaring.</span><span class="sxs-lookup"><span data-stu-id="62e26-112">Improved sign-in experience.</span></span>
-- <span data-ttu-id="62e26-113">Bug fixes.</span><span class="sxs-lookup"><span data-stu-id="62e26-113">Bug fixes.</span></span>
+- <span data-ttu-id="d7c02-111">**Jailbreak Detection** is in preview.</span><span class="sxs-lookup"><span data-stu-id="d7c02-111">**Jailbreak Detection** is in preview.</span></span> <span data-ttu-id="d7c02-112">Zie Beleid voor voorwaardelijke toegang [instellen op basis van apparaatrisicosignalen voor meer informatie.](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)</span><span class="sxs-lookup"><span data-stu-id="d7c02-112">For more information, see [Setup Conditional Access Policy based on device risk signals](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios).</span></span>
+- <span data-ttu-id="d7c02-113">**Auto-setup van VPN-profiel** is in preview voor geregistreerde apparaten via Microsoft Endpoint Manager (Intune).</span><span class="sxs-lookup"><span data-stu-id="d7c02-113">**Auto-setup of VPN profile** is in preview for enrolled devices via Microsoft Endpoint Manager (Intune).</span></span> <span data-ttu-id="d7c02-114">Zie VPN-profiel automatisch instellen voor [geregistreerde iOS-apparaten](ios-install.md#auto-onboarding-of-vpn-profile-simplified-onboarding)voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="d7c02-114">For more information, see [Auto-Setup VPN profile for enrolled iOS devices](ios-install.md#auto-onboarding-of-vpn-profile-simplified-onboarding).</span></span>
+- <span data-ttu-id="d7c02-115">De Microsoft Defender ATP productnaam is nu bijgewerkt naar Microsoft Defender voor Eindpunt in de App Store.</span><span class="sxs-lookup"><span data-stu-id="d7c02-115">The Microsoft Defender ATP product name has now been updated to Microsoft Defender for Endpoint in the app store.</span></span>
+- <span data-ttu-id="d7c02-116">Verbeterde aanmeldingservaring.</span><span class="sxs-lookup"><span data-stu-id="d7c02-116">Improved sign-in experience.</span></span>
+- <span data-ttu-id="d7c02-117">Bug fixes.</span><span class="sxs-lookup"><span data-stu-id="d7c02-117">Bug fixes.</span></span>
 
-## <a name="1115010101"></a><span data-ttu-id="62e26-114">1.1.15010101</span><span class="sxs-lookup"><span data-stu-id="62e26-114">1.1.15010101</span></span>
+## <a name="1115010101"></a><span data-ttu-id="d7c02-118">1.1.15010101</span><span class="sxs-lookup"><span data-stu-id="d7c02-118">1.1.15010101</span></span>
 
-- <span data-ttu-id="62e26-115">Met deze versie kondigen we ondersteuning aan voor iPadOS/iPad-apparaten.</span><span class="sxs-lookup"><span data-stu-id="62e26-115">With this version, we are announcing support for iPadOS/iPad devices.</span></span>
-- <span data-ttu-id="62e26-116">Bug fixes.</span><span class="sxs-lookup"><span data-stu-id="62e26-116">Bug fixes.</span></span>
+- <span data-ttu-id="d7c02-119">Met deze versie kondigen we ondersteuning aan voor iPadOS/iPad apparaten.</span><span class="sxs-lookup"><span data-stu-id="d7c02-119">With this version, we are announcing support for iPadOS/iPad devices.</span></span>
+- <span data-ttu-id="d7c02-120">Bug fixes.</span><span class="sxs-lookup"><span data-stu-id="d7c02-120">Bug fixes.</span></span>
