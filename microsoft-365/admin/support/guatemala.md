@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1ae18a1e7fcba057058850be1da605760f07bba1
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 44aea2241c1ff1fdcaf5d5839970c1c90fa42e17
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547082"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296129"
 ---
-# <a name="contact-support-for-guatemala"></a>Contact opnemen met ondersteuning voor Guatemala
+# <a name="contact-support-for-guatemala"></a>Neem contact op met de ondersteuning voor Guatemala
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 1 800 300 0069
@@ -33,7 +33,7 @@ Code 5002 invoeren
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Spaans: Mon-Fri 09:00- 17:00 uur
+Spaans: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

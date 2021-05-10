@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Cocoseilanden
+title: Ondersteuningsinformatie voor Cocos-eilanden (Keeling)
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 35bd5570fce2f20e95a2793ee7ecb78230f8b3e1
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 631b39d2ba1c07a30614ce0fb52480dcbeefc245
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548090"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296345"
 ---
-# <a name="contact-support-for-cocos-keeling-islands"></a>Contact opnemen met ondersteuning voor Cocoseilanden
+# <a name="contact-support-for-cocos-keeling-islands"></a>Neem contact op met de ondersteuning voor Cocos -eilanden (Keeling)
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5148
@@ -29,10 +29,10 @@ ms.locfileid: "50548090"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 09:00- 17:00 uur
+Engels: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale gesprekskosten zijn van toepassing
+Internationale oproepkosten zijn van toepassing

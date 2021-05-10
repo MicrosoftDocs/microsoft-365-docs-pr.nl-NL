@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: referentiemateriaal voor preventie van gegevensverlies
-ms.openlocfilehash: a94dde0bba3fdfc869746f51687ed7709a96639a
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: a039b8d99bd92be0040f6207803981e8a2937c6f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162965"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296766"
 ---
 # <a name="data-loss-prevention-reference"></a>Verwijzing naar preventie van gegevensverlies
  
@@ -385,7 +385,7 @@ Wanneer u een eerder [](retention.md#retention-labels) gemaakt en gepubliceerd b
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>Een gevoeligheidslabel gebruiken als voorwaarde in een DLP-beleid
 
-Gevoeligheidslabel als voorwaarde in DLP-beleid is momenteel in preview. [Meer informatie](./dlp-sensitivity-label-as-condition.md).
+[Meer informatie over](./dlp-sensitivity-label-as-condition.md) het gebruik van gevoeligheidslabels als voorwaarde in DLP-beleid.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>Hoe deze functie zich verhoudt tot andere functies
 

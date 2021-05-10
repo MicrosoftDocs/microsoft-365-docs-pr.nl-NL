@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7da86a19364c8bb303706b048e694d720cf0518f
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 96b1a495217bfdbd84397d1f6f027c5427f82ee0
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548666"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296922"
 ---
-# <a name="contact-support-for-belgium"></a>Contact opnemen met ondersteuning voor België
+# <a name="contact-support-for-belgium"></a>Neem contact op met ondersteuning voor België
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 0800 81174
@@ -29,18 +29,18 @@ ms.locfileid: "50548666"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Nederlands: Mon-Fri 09:00- 17:00 uur
+Nederlands: Mon-Fri 9:00-17:00
 
-Frans: Mon-Fri 09:00- 17:00 uur
+Frans: Mon-Fri 9:00-17:00
 
-Engels: Mon-Fri 09:00- 17:00 uur
+Engels: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: Mon-Fri 08:00- 21:00 uur
+Frans: Mon-Fri 8:00-21:00
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Alternatief telefoonnummer: 02 200 88 84
+Alternatief Telefoon getal: 02 200 88 84
 
-Lokale gesprekskosten zijn van toepassing
+Lokale oproepkosten zijn van toepassing

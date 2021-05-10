@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bece1749f0ce3bd8b0debd5a391cbce8895644e7
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: d85110a4a92b4490717125b6148461127c0f0e49
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547850"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296309"
 ---
-# <a name="contact-support-for-costa-rica"></a>Contact opnemen met ondersteuning voor Costa Rica
+# <a name="contact-support-for-costa-rica"></a>Neem contact op met de ondersteuning voor Costa Rica
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 0800 012 1447
@@ -29,7 +29,7 @@ ms.locfileid: "50547850"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Spaans: Mon-Fri 09:00- 17:00 uur
+Spaans: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

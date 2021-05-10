@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 14a57e67655f6a9a9b57b77abf2fb7f27f0e264e
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: 4b35675ee42b0439a353efbc38e045004e47f455
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52086499"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296561"
 ---
 # <a name="contact-support-for-bangladesh"></a>Contact opnemen met ondersteuning voor Bangladesh
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 157 0011

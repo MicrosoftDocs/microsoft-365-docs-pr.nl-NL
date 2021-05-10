@@ -23,12 +23,12 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2527389634cda9912f45ecdcd3213f7d987b7bb8
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0d4c59f24f5d5979d0f63d035edd1ca668ff4314
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221869"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296693"
 ---
 # <a name="what-is-a-domain"></a>Wat is een domein?
 
@@ -42,11 +42,11 @@ Een aangepast domein zoals *rob@contoso. <span> com* met Microsoft 365 kan helpe
 
  **Een nieuw domein kopen:**
   
-Gebruik Microsoft 365 om een nieuw domein te kopen. We stellen alles in. [Meer informatie.](buy-a-domain-name.md)
+Gebruik Microsoft 365 om een nieuw domein te kopen: we stellen alles in. [Meer informatie.](buy-a-domain-name.md)
   
  **Gebruik een domein waarvan u al eigenaar bent:**
   
-Als u al eigenaar bent van een domein zoals  *you@yourcompany. <span> com*  kunt u deze toevoegen en direct aan de slag gaan met OneDrive- en Microsoft-apps. Neem enkele minuten de tijd om e-mail en Skype voor Bedrijven in te stellen. 
+Als u al eigenaar bent van een domein zoals *you@yourcompany. <span> com* kunt u deze toevoegen en direct OneDrive en Microsoft-apps gebruiken. Neem enkele minuten de tijd om e-mail en Skype voor Bedrijven in te stellen. 
   
 > [!TIP]
 > Weet u niet waar uw domein is geregistreerd? - [Hulp krijgen bij het vinden van uw domeinregistrar](find-your-domain-registrar.md)
@@ -57,6 +57,6 @@ U kunt een standaarddomein zoals  *uwbedrijf.onmicrosoft gebruiken. <span> com* 
   
 ## <a name="feeling-stuck"></a>Zit u vast?
 
-Microsoft Support bellen : [hulp bij het instellen van een domein](../contact-support-for-business-products.md)
+Microsoft Support bellen : [hulp bij het instellen van een domein](../../business-video/get-help-support.md)
   
 

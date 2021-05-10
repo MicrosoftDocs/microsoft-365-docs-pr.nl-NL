@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 280bfb29f0040708e022cc06ad40a7d8a548e9a0
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 9c094ca0970d7bd8cce077c8c89b04f0ab2aa8a1
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545510"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295685"
 ---
-# <a name="contact-support-for-nauru"></a>Contact opnemen met ondersteuning voor Nauru
+# <a name="contact-support-for-nauru"></a>Neem contact op met de ondersteuning voor Nauru
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5148
@@ -29,10 +29,10 @@ ms.locfileid: "50545510"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 09:00- 17:00 uur
+Engels: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale gesprekskosten zijn van toepassing
+Internationale oproepkosten zijn van toepassing

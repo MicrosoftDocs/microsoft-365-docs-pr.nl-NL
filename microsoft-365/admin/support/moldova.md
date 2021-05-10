@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c413c93e25f7ae16276464146beeb703e967ddc1
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 911fe3a783a1a129d6fa7e7f3a9878146737550b
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545738"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295781"
 ---
-# <a name="contact-support-for-moldova"></a>Contact opnemen met ondersteuning voor Moldavië
+# <a name="contact-support-for-moldova"></a>Neem contact op met ondersteuning voor Moldavië
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 022 20 13 34
@@ -33,10 +33,10 @@ Code 7700 invoeren
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 09:00- 17:00 uur
+Engels: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Lokale gesprekskosten zijn van toepassing
+Lokale oproepkosten zijn van toepassing

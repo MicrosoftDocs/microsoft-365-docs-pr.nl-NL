@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Faroe Islands
+title: Ondersteuningsinformatie voor de Faroe-eilanden
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da5b913615e47fd9dd1e4c8888aa07305d60a6b3
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: bdbf542b3f98aae77e5654dadd0f445382a460ce
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547442"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296237"
 ---
-# <a name="contact-support-for-faroe-islands"></a>Contact opnemen met ondersteuning voor Faroe Islands
+# <a name="contact-support-for-faroe-islands"></a>Neem contact op met de ondersteuning voor de Faroe-eilanden
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +45 38 48 70 67
@@ -29,10 +29,10 @@ ms.locfileid: "50547442"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 09:00- 17:00 uur
+Engels: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale gesprekskosten zijn van toepassing
+Internationale oproepkosten zijn van toepassing

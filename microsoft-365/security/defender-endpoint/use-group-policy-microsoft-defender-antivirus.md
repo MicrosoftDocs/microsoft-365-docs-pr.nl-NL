@@ -10,18 +10,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 04/13/2021
+ms.date: 05/07/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 8db14b016491ac10872f29f04b8166e548d6c63b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 81cba445482b1fceb8bd520f2be88d55db2a47fb
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275334"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296729"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Groepsbeleidsinstellingen gebruiken voor het configureren en beheren van Microsoft Defender Antivirus
 
@@ -33,6 +33,8 @@ ms.locfileid: "52275334"
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
 U kunt [Groepsbeleid gebruiken om](/windows/win32/srvnodes/group-policy) uw Microsoft Defender Antivirus te configureren en te beheren.
+
+## <a name="configure-microsoft-defender-antivirus-using-group-policy"></a>Microsoft Defender Antivirus configureren met groepsbeleid
 
 In het algemeen kunt u de volgende procedure gebruiken voor het configureren of wijzigen van Microsoft Defender Antivirus groepsbeleidsinstellingen:
 
@@ -48,7 +50,12 @@ In het algemeen kunt u de volgende procedure gebruiken voor het configureren of 
 
 6. [Implementeer het bijgewerkte GPO zoals u dat normaal doet.](/windows/win32/srvnodes/group-policy) 
 
-De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschikbaar zijn in Windows 10, versie 1703, en bevat koppelingen naar het juiste onderwerp in deze documentatiebibliotheek (indien van toepassing).
+## <a name="group-policy-settings-and-resources"></a>Groepsbeleidsinstellingen en -resources
+
+De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschikbaar zijn in Windows 10, versie 1703, en bevat koppelingen naar het juiste onderwerp in deze documentatiebibliotheek (indien van toepassing). 
+
+> [!TIP]
+> [Download het groepsbeleid Instellingen Reference Spreadsheet voor Windows 10 update van mei 2020 (2004).](https://www.microsoft.com/download/101451) Deze spreadsheet bevat de beleidsinstellingen voor computer- en gebruikersconfiguraties die zijn opgenomen in de beheerssjabloonbestanden die zijn geleverd met voor Windows 10 Mei 2020 Update (2004). U kunt deze beleidsinstellingen configureren wanneer u Groepsbeleidsobjecten bewerkt.
 
 | Locatie | Instelling | Artikel |
 |:---|:---|:---|
@@ -61,14 +68,14 @@ De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschi
 | Uitsluitingen | Uitsluitingen verwerken | [Uitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md) | 
 | Uitsluitingen | Automatische uitsluitingen uitschakelen | [Uitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md) |
 | KAARTEN | De functie 'Block at First Sight' configureren | [Blok op het eerste gezicht inschakelen](configure-block-at-first-sight-microsoft-defender-antivirus.md) |
-| KAARTEN | Deelnemen aan Microsoft MAPS | [Beveiliging via de cloud inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md) |
-| KAARTEN | Bestandsvoorbeelden verzenden wanneer verdere analyse is vereist | [Beveiliging via de cloud inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md) |
+| KAARTEN | Deelnemen aan Microsoft MAPS | [Cloudbeveiliging inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md) |
+| KAARTEN | Bestandsvoorbeelden verzenden wanneer verdere analyse is vereist | [Cloudbeveiliging inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | KAARTEN | Lokale instelling overschrijven voor rapportage naar Microsoft MAPS configureren | [Voorkomen of toestaan dat gebruikers beleidsinstellingen lokaal wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | MpEngine | Uitgebreide cloudcontrole configureren | [De time-outperiode voor cloudblokkering configureren](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
 | MpEngine | Beveiligingsniveau voor de cloud selecteren | [Niveau voor door cloud geleverde beveiliging opgeven](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
-| Netwerkcontrolesysteem | Aanvullende definitiesets opgeven voor netwerkverkeersinspectie | Niet meer relevant |
-| Netwerkcontrolesysteem | Definitie-uittreding in-/uit- | Niet meer relevant |
-| Netwerkcontrolesysteem | Protocolherkenning in- en uit- | Niet meer relevant |
+| Netwerkcontrolesysteem | Aanvullende definitiesets opgeven voor netwerkverkeersinspectie | [Aanvullende definitiesets opgeven voor netwerkverkeersinspectie](specify-additional-definitions-network-traffic-inspection-mdav.md) |
+| Netwerkcontrolesysteem | Definitie-uittreding in-/uit- | [Definitie-uittreding configureren](turn-on-definition-retirement.md)  |
+| Netwerkcontrolesysteem | Protocolherkenning in- en uit- | [Protocolherkenning in- en uit-](turn-on-protocol-recognition.md)  |
 | Quarantaine | Lokale instelling overschrijven configureren voor het verwijderen van items uit de map Quarantaine | [Voorkomen of toestaan dat gebruikers beleidsinstellingen lokaal wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | Quarantaine | Het verwijderen van items configureren uit de map Quarantaine | [Herstel configureren voor Microsoft Defender Antivirus scans](configure-remediation-microsoft-defender-antivirus.md) |
 | Realtime beveiliging | Lokale instelling overschrijven configureren voor het controleren van bestands- en programmaactiviteit op uw computer | [Voorkomen of toestaan dat gebruikers beleidsinstellingen lokaal wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
@@ -144,8 +151,7 @@ De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschi
 | Bedreigingen | Waarschuwingsniveaus opgeven waarop standaardactie niet moet worden ondernomen wanneer deze wordt gedetecteerd | [Herstel configureren voor Microsoft Defender Antivirus scans](configure-remediation-microsoft-defender-antivirus.md) |
 | Bedreigingen | Geef bedreigingen op waarop standaardactie niet moet worden ondernomen wanneer deze worden gedetecteerd | [Herstel configureren voor Microsoft Defender Antivirus scans](configure-remediation-microsoft-defender-antivirus.md) |
 
-
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="see-also"></a>Zie ook
 
 - [Referentieonderwerpen voor beheer- en configuratiehulpmiddelen](configuration-management-reference-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

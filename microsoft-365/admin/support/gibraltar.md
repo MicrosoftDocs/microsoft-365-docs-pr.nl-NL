@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 564974f40d7093f9685a16a390a73eb5900f16c4
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 4227965a5ce13981466f31cbb19dd3401f0769d7
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547178"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296177"
 ---
-# <a name="contact-support-for-gibraltar"></a>Contact opnemen met ondersteuning voor Gibraltar
+# <a name="contact-support-for-gibraltar"></a>Neem contact op met de ondersteuning voor Gibraltar
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5151
@@ -29,10 +29,10 @@ ms.locfileid: "50547178"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 11:00 tot 17:00 uur
+Engels: Mon-Fri 11:00-19:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale gesprekskosten zijn van toepassing
+Internationale oproepkosten zijn van toepassing
