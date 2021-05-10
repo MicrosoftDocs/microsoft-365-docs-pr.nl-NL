@@ -21,12 +21,12 @@ search.appverid: MET150
 description: Meer informatie over het upgraden van een Office 365 E4-abonnement.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f9143497ac2ee15009a3a2b3af9e76426d408d38
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 0e30ece58cfc10ea258a684f9ac6ca4dba1b8692
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280509"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297282"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>Upgraden van een Office 365 E4-abonnement
 
@@ -63,7 +63,7 @@ Als u een abonnement handmatig bijwerkt, moet u de volgende afzonderlijke proced
 3. Selecteer het **tabblad Upgrade.** Als u andere abonnementen ziet, betekent dit dat u abonnementen automatisch kunt upgraden.
 4. Als u niet automatisch kunt upgraden, ziet u een bericht waarin wordt beschreven waarom u geen upgrade kunt uitvoeren.
 
-Er zijn verschillende redenen waarom u abonnementen niet automatisch kunt upgraden. De meeste problemen zijn tijdelijke problemen, zoals serviceproblemen die u kunt oplossen. Zie Waarom kan ik geen upgrade van [abonnementen uitvoeren voor meer informatie?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) Als u hulp nodig hebt bij uw upgrade, [neem dan contact op met ondersteuning.](../../admin/contact-support-for-business-products.md)
+Er zijn verschillende redenen waarom u abonnementen niet automatisch kunt upgraden. De meeste problemen zijn tijdelijke problemen, zoals serviceproblemen die u kunt oplossen. Zie Waarom kan ik geen upgrade van [abonnementen uitvoeren voor meer informatie?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) Als u hulp nodig hebt bij uw upgrade, [neem dan contact op met ondersteuning.](../../business-video/get-help-support.md)
 
 ## <a name="will-a-credit-check-be-required"></a>Is een kredietcontrole vereist?
 

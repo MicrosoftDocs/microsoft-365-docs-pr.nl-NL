@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1890b4f9b4c71efebe833ebaee62debedbf0fb72
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 83889123067897483478aec3d881a5a7b6ec14cc
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114716"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297222"
 ---
 # <a name="step-1-triage-and-analyze-your-first-incident"></a>Stap 1. Triage en analyseer uw eerste incident
 
@@ -97,9 +97,9 @@ Het volgende is slechts één benadering van triage:
 
 Het is even belangrijk om de context rond waarschuwingen te begrijpen. Vaak is een waarschuwing geen afzonderlijke gebeurtenis. Er is een keten van processen die zijn gemaakt, opdrachten en acties die mogelijk niet tegelijkertijd zijn opgetreden. Daarom moet een analist zoeken naar de eerste en laatste activiteiten van de verdachte entiteit in apparaattijdlijns om de context van de waarschuwingen te begrijpen.
 
-Er zijn meerdere manieren om gegevens te lezen en te analyseren met Microsoft 365 Defender, maar het doel voor analisten is om zo snel mogelijk op incidenten te reageren. Hoewel Microsoft 365 Defender de mean [time to Remediate (MTTR)](https://www.microsoft.com/security/blog/2020/05/04/lessons-learned-microsoft-soc-part-3c/) aanzienlijk kan verminderen via de toonaangevende functie voor auto-herstel, zijn er altijd gevallen waarvoor handmatige analyse nodig is. 
+Er zijn meerdere manieren om gegevens te lezen en te analyseren met Microsoft 365 Defender, maar het doel voor analisten is om zo snel mogelijk op incidenten te reageren. Hoewel Microsoft 365 Defender de mean [time to Remediate (MTTR)](https://www.microsoft.com/security/blog/2020/05/04/lessons-learned-microsoft-soc-part-3c/) aanzienlijk [](m365d-autoir.md) kan verminderen via de toonaangevende functie voor geautomatiseerd onderzoek en antwoord, zijn er altijd gevallen waarvoor handmatige analyse nodig is. 
 
-Hier is een voorbeeld:
+Hier volgt een voorbeeld:
 
 1. Wanneer triageprioriteit is bepaald, begint een analist met een grondige analyse door de naam van het incident te selecteren. Op deze pagina wordt het **overzicht van incidenten weergegeven** waarin gegevens worden weergegeven op tabbladen om te helpen bij de analyse. Onder het **tabblad** Waarschuwingen wordt het type waarschuwingen weergegeven. Analisten kunnen op elke waarschuwing klikken om in te zoomen op de betreffende detectiebron. 
 
@@ -136,5 +136,5 @@ Lees hoe u [incidenten kunt verhelpen.](first-incident-remediate.md)
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten analyseren](investigate-incidents.md)
+- [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)

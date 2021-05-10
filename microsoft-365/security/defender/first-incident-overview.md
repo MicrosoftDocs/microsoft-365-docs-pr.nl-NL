@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f66c9821e5db00cc3da5718f52b8aaaeff5a431e
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 5ea847e822e094049dd8f0b941f22f3bb4f7eff4
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114627"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297174"
 ---
 # <a name="introduction-to-responding-to-your-first-incident"></a>Inleiding tot het reageren op uw eerste incident
 
@@ -58,6 +58,17 @@ Zorg ervoor dat uw organisatie en Microsoft 365 tenant voorbereid zijn [op incid
 
 ## <a name="see-also"></a>Zie ook
 
+Incident response guidance for Microsoft 365 Defender:
+
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten analyseren](investigate-incidents.md)
+- [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)
+
+Aanvullende voorbeelden van eerste incidentreacties:
+
+- [Phishing-e-mail](first-incident-path-phishing.md)
+- [Identity-base attack](first-incident-path-identity.md)
+
+[Gedetailleerde incidentrespons playbooks](https://docs.microsoft.com/security/compass/incident-response-playbooks)
+
+

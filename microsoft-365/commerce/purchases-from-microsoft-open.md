@@ -22,18 +22,18 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Meer informatie over het activeren, verlengen of toevoegen van licenties aan een abonnement Microsoft 365 voor bedrijven.
 ms.date: 10/21/2020
-ms.openlocfilehash: e0e317dc0917876c6299fe1eea5812b7bfe0cd8b
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 04df3b24693ac92875cc667aea61e0e9b35cb270
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107590"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293629"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Voer uw productcode in die u hebt gekocht bij Microsoft Open
 
 Als u een Microsoft 365 voor bedrijven hebt gekocht bij een [Microsoft Open License Program,](https://go.microsoft.com/fwlink/p/?LinkID=613298)is dit artikel voor u. Klanten met een volumelicentie die een productcode hebben aangeschaft kunnen dit onderwerp volgen om licenties voor een abonnement te activeren, verlengen of eraan toe te voegen.
   
- **Hebt u onmiddellijk hulp nodig?** [Bel Microsoft-ondersteuning.](../admin/contact-support-for-business-products.md) 
+ **Hebt u onmiddellijk hulp nodig?** [Bel Microsoft-ondersteuning.](..//business-video/get-help-support.md) 
   
  **Hebt u iets anders nodig?**
  
@@ -67,4 +67,4 @@ Partners: raadpleeg [Partners: het abonnement van een klant instellen met een pr
   
 Klanten met een volumelicentie kunnen naar [Training en bronnen van Microsoft Volume Licensing Service Center](https://go.microsoft.com/fwlink/p/?LinkId=618103) gaan voor meer informatie.
   
-Of als u met een persoon wilt praten, belt [u microsoft-ondersteuning.](../admin/contact-support-for-business-products.md)
+Of als u met een persoon wilt praten, belt [u microsoft-ondersteuning.](../business-video/get-help-support.md)

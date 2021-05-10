@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 description: Informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
 ms.date: 04/02/2021
-ms.openlocfilehash: b69096bb05ada6ce7a1ee619aa78bc04639e7004
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 82b2880eed830bd3b65cce14635c4fa10f618740
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244718"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297366"
 ---
 # <a name="manage-payment-methods"></a>Betalingsmethoden beheren
 
@@ -129,7 +129,7 @@ Als een betalingswijze is gekoppeld aan abonnementen of factureringsprofielen, v
 |**Mijn creditcard is geweigerd.** |Als u via creditcard of betaalpas betaalt, maar uw kaart wordt geweigerd, ontvangt u een e-mailbericht met de mededeling dat Microsoft de betaling niet kon verwerken. Controleer eerst nog een keer of de kaartgegevens&mdash;het nummer, de vervaldatum, de naam op de kaart en het adres, inclusief plaats en postcode&mdash; exact dezelfde zijn als op de kaart en uw afschrift. U kunt uw kaartgegevens bijwerken en de betaling onmiddellijk verzenden via de koppeling **Saldo betalen** in de sectie **Facturering** van de pagina abonnementsgegevens. Zie voor meer informatie [Wat gebeurt er als ik een openstaand saldo heb?](pay-for-your-subscription.md#what-if-i-have-an-outstanding-balance)  <br/><br/>  Neem contact op met de bank als uw creditcard alsnog wordt geweigerd. Het kan zijn dat uw kaart niet is geactiveerd. Als u onlangs een kaart met bijgewerkte vervaldatum via de post hebt ontvangen, moet u deze misschien nog activeren. U kunt ook bij uw bank navragen of uw kaart mogelijk niet is goedgekeurd voor online, internationale of terugkerende transacties.   |
 |**Ik wil een creditcard- of bankrekeningnummer bijwerken.** |U kunt het nummer van een creditcard of bankrekening niet wijzigen in een bestaande betalingsmethode. Als het nummer van uw creditcard of rekening is gewijzigd, kunt u [deze vervangen door een andere betalingsmethode](#replace-a-payment-method), waarmee alle actieve abonnementen van de betalingsmethode naar de nieuwe worden verplaatst. Vervolgens kunt u [de oude betalingsmethode verwijderen](#delete-a-payment-method-with-no-subscriptions-or-billing-profiles-attached). |
 |**Ik heb maar één creditcard of bankrekening in mijn account en die wil ik verwijderen.** |Als u maar één betalingsmethode hebt, moet u deze [vervangen door een nieuwe betalingsmethode](#replace-a-payment-method) voordat u deze kunt verwijderen. |
-|**Betalen via kaart of bankrekening.**  |U moet een betalingsmethode gebruiken die wordt uitgegeven vanuit hetzelfde land als uw tenant. Als u problemen ondervindt met het invoeren van de gegevens van uw kaart of bankrekening, kunt [contact opnemen met ondersteuning](../../admin/contact-support-for-business-products.md). |
+|**Betalen via kaart of bankrekening.**  |U moet een betalingsmethode gebruiken die wordt uitgegeven vanuit hetzelfde land als uw tenant. Als u problemen ondervindt met het invoeren van de gegevens van uw kaart of bankrekening, kunt [contact opnemen met ondersteuning](../../business-video/get-help-support.md). |
 
 ## <a name="related-content"></a>Verwante onderwerpen
 

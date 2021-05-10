@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 88001dc7126a55539213d4c560127d573a09f4bd
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 76bead8fd855e4119db6297d2ab1a3d08d64a48c
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114651"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297162"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>Uw beveiligingshouding voorbereiden op het eerste incident
 
@@ -53,7 +53,7 @@ Onderdelen van Microsoft 365 Defender kunnen schendingen van regels weergeven di
 
 Apparaatrisico is rechtstreeks van invloed op de bronnen die toegankelijk zijn voor de gebruiker van dat apparaat. De weigering van toegang tot resources op basis van bepaalde criteria is het hoofdthema van Zero Trust en Microsoft 365 Defender biedt informatie die nodig is om de criteria op vertrouwensniveau te bepalen. Zo kan Microsoft 365 Defender het softwareversieniveau van een apparaat bieden via de pagina Bedreigings- en beveiligingsprobleembeheer, terwijl beleidsregels voor voorwaardelijke toegang apparaten beperken die verouderde of kwetsbare versies hebben.
 
-Automatisering is een essentieel onderdeel van het implementeren en onderhouden van een Zero Trust-omgeving, terwijl ook het aantal waarschuwingen wordt beperkt dat mogelijk tot incidenten kan leiden. Onderdelen van Microsoft 365 Defender kunnen worden geautomatiseerd, zoals herstelacties (ook wel onderzoeken voor een incident in het Microsoft 365-beveiligingscentrum genoemd), meldingsacties en zelfs het maken van ondersteuningstickets, zoals in [ServiceNow.](https://microsoft.service-now.com/sp/)
+Automatisering is een essentieel onderdeel van het implementeren en onderhouden van een Zero Trust-omgeving, terwijl ook het aantal waarschuwingen wordt beperkt dat mogelijk tot incidenten kan leiden. Onderdelen van Microsoft 365 Defender kunnen worden geautomatiseerd, zoals herstelacties [(ook](m365d-autoir.md) wel onderzoeken voor een incident in het Microsoft 365-beveiligingscentrum genoemd), meldingsacties en zelfs het maken van ondersteuningstickets, zoals in [ServiceNow.](https://microsoft.service-now.com/sp/)
 
 ## <a name="step-2-determine-your-organizations-security-posture"></a>Stap 2. De beveiligingsstatus van uw organisatie bepalen
 
@@ -92,5 +92,5 @@ Meer informatie over het [triagen en analyseren van incidenten.](first-incident-
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten analyseren](investigate-incidents.md)
+- [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)

@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfserviceaankopen kunnen beheren.
-ms.openlocfilehash: 73b044ab9954744e89a13ccff0145f35bc1b821b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9935259f05432b964fbe138b39397f192e203eb2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920190"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297294"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
 
@@ -31,7 +31,7 @@ ms.locfileid: "50920190"
 
 ::: moniker-end
 
-Als gebruiker kunt u abonnementen op bepaalde producten kopen en licenties voor deze abonnementen toewijzen aan personen in uw team. U bent verantwoordelijk voor het betalen van eventuele selfserviceaankopen die u hebt gedaan. U kunt uw abonnementen beheren in het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
+Als gebruiker kunt u abonnementen op bepaalde producten kopen en licenties voor deze abonnementen toewijzen aan personen in uw team. U bent verantwoordelijk voor het betalen van eventuele selfserviceaankopen die u hebt gedaan. U kunt uw abonnementen beheren in het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
 
 Uw beheerder heeft een alleen-lezen weergave voor abonnementen die u koopt. Ze kunnen het product, de naam van de koper, de gekochte abonnementen, de vervaldatum, de aankoopprijs en de toegewezen gebruikers zien voor elk abonnement dat u koopt.
 
@@ -107,4 +107,4 @@ U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gek
 
 Zie Veelgestelde vragen over selfservice-aankopen voor veelgestelde vragen over [selfserviceaankopen.](self-service-purchase-faq.md)
 
-Als u vragen hebt of hulp nodig hebt bij selfserviceaankopen, [neem dan contact op met ondersteuning.](../../admin/contact-support-for-business-products.md)
+Als u vragen hebt of hulp nodig hebt bij selfserviceaankopen, [neem dan contact op met ondersteuning.](../../business-video/get-help-support.md)

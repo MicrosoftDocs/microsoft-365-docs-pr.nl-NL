@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie Microsoft 365 voor bedrijven, hoe u dit kunt instellen en hoe u de apparaten en pc's van uw gebruikers voorbereidt om ervoor te zorgen dat ze worden beschermd door gebruikers Microsoft 365 voor bedrijven.
-ms.openlocfilehash: cc54147e75a27fbb93255d6f706b4f9044c75858
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ddf6f8d12587c6fb562a599a41c190ffef32c147
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245119"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293702"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Aan de slag met Microsoft 365 voor bedrijven
 
@@ -65,7 +65,7 @@ Bekijk deze video voor een overzicht van Microsoft 365 voor bedrijven.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Een Microsoft 365 voor bedrijven instellen (beheerder)
@@ -105,7 +105,7 @@ Als u een lokale Active Directory met enkele on-premises bronnen (zoals bestands
   
 - Neem contact op met uw partner.
     
-- Als beheerder Microsoft 365 voor bedrijven hebt u toegang tot ons klantenserviceteam: Contact opnemen met ondersteuning voor **[zakelijke producten - Help voor beheerders](../admin/contact-support-for-business-products.md)**
+- Als beheerder Microsoft 365 voor bedrijven hebt u toegang tot ons klantenserviceteam: Contact opnemen met ondersteuning voor **[zakelijke producten - Help voor beheerders](../business-video/get-help-support.md)**
     
 ## <a name="related-content"></a>Verwante onderwerpen
 

@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Beheerders kunnen leren hoe ze selfservice-aankopen van gebruikers in hun organisatie kunnen beheren.
-ms.openlocfilehash: 59d64c047ddf4f33c2ef3277f3139f1b7692b891
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5378d14affd074bfad356fea4bb2adbd6ca104dd
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244990"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293569"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Selfservice-aankopen beheren (Beheerders)
 
@@ -201,4 +201,4 @@ Wanneer u ervoor kiest om een selfservice-aankoopabonnement op te zeggen, hebben
 
 Zie Veelgestelde vragen over selfservice-aankopen voor veelgestelde vragen over [selfserviceaankopen.](self-service-purchase-faq.md)
 
-Als u vragen hebt of hulp nodig hebt bij selfserviceaankopen, [neem dan contact op met ondersteuning.](../../admin/contact-support-for-business-products.md)
+Als u vragen hebt of hulp nodig hebt bij selfserviceaankopen, [neem dan contact op met ondersteuning.](../../business-video/get-help-support.md)

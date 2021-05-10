@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8123bdf610b30407e5d262296f9c3639bc21b12f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 5aeaa51e5ab8974c8ca26453534396dac14b5853
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893483"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297202"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>Microsoft Defender voor eindpunt implementeren in ringen
 
@@ -82,7 +82,7 @@ In de volgende tabel ziet u de ondersteunde eindpunten en het bijbehorende hulpp
 | Eindpunt     | Implementatiehulpmiddel                       |
 |--------------|------------------------------------------|
 | **Windows**  |  [Lokaal script (maximaal 10 apparaten)](configure-endpoints-script.md) <br> OPMERKING: Als u meer dan tien apparaten wilt implementeren in een productieomgeving, gebruikt u in plaats daarvan de methode Groepsbeleid of de andere ondersteunde hulpmiddelen die hieronder worden vermeld.<br>  [Groepsbeleid](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI-scripts](configure-endpoints-vdi.md)   |
-| **macOS**    | [Lokaal script](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md) |
+| **macOS**    | [Lokaal script](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF-Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md) |
 | **Linux Server** | [Lokaal script](linux-install-manually.md) <br> [Poppop](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [App-gebaseerde](ios-install.md)                                |
 | **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
@@ -105,25 +105,25 @@ Gebruik het volgende materiaal om de juiste Microsoft Defender voor eindpuntarch
 
 ## <a name="existing-deployments"></a>Bestaande implementaties
 
-### <a name="windows-endpoints"></a>Windows-eindpunten
-Voor Windows- en/of Windows-servers selecteert u verschillende machines die u van tevoren (vóór patchdinsdag) wilt testen met behulp van het **BEVEILIGINGSUPDATE-validatieprogramma (SUVP).**
+### <a name="windows-endpoints"></a>Windows eindpunten
+Voor Windows en/of Windows-servers selecteert u verschillende machines die u van tevoren wilt testen (vóór patchdinsdag) met behulp van het BEVEILIGINGSupdatevalidatieprogramma **(SUVP).**
 
 Zie voor meer informatie:
 - [Wat is het validatieprogramma voor beveiligingsupdates](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-is-the-security-update-validation-program/ba-p/275767)
-- [Software Update Validation Program and Microsoft Malware Protection Center Establishment - TwC Interactive Timeline Part 4](https://www.microsoft.com/security/blog/2012/03/28/software-update-validation-program-and-microsoft-malware-protection-center-establishment-twc-interactive-timeline-part-4/)
+- [Software Update Validation Program and Microsoft Centrum voor beveiliging tegen schadelijke software Establishment - TwC Interactive Timeline Part 4](https://www.microsoft.com/security/blog/2012/03/28/software-update-validation-program-and-microsoft-malware-protection-center-establishment-twc-interactive-timeline-part-4/)
 
 
-### <a name="non-windows-endpoints"></a>Niet-Windows-eindpunten
-Met macOS en Linux kunt u een paar systemen gebruiken en het kanaal InsidersFast gebruiken.
+### <a name="non-windows-endpoints"></a>Niet-Windows eindpunten
+Met macOS en Linux kunt u een paar systemen gebruiken en uitvoeren in het Beta-kanaal.
 
 >[!NOTE]
->Idealiter ten minste één beveiligingsbeheerder en één ontwikkelaar, zodat u compatibiliteits-, prestatie- en betrouwbaarheidsproblemen kunt vinden voordat de build het kanaal 'Productie' maakt.
+>Idealiter ten minste één beveiligingsbeheerder en één ontwikkelaar, zodat u compatibiliteits-, prestatie- en betrouwbaarheidsproblemen kunt vinden voordat de build in het huidige kanaal wordt gemaakt.
 
-De keuze van het kanaal bepaalt het type en de frequentie van de updates die op uw apparaat worden aangeboden. Apparaten in insiders-fast zijn de eersten die updates en nieuwe functies ontvangen, later gevolgd door insiders-slow en ten laatste door prod.
+De keuze van het kanaal bepaalt het type en de frequentie van de updates die op uw apparaat worden aangeboden. Apparaten in bètaversie zijn de eerste apparaten die updates en nieuwe functies ontvangen, later gevolgd door Preview en ten laatste door Current.
 
 ![Afbeelding van insiderringen](images/insider-rings.png)
 
-Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wilt geven, wordt u aangeraden sommige apparaten in uw bedrijf te configureren om insiders-fast of insiders-slow te gebruiken.
+Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wilt geven, wordt u aangeraden sommige apparaten in uw bedrijf te configureren voor het gebruik van bèta of preview.
 
 >[!WARNING]
 >Als u het kanaal na de eerste installatie overschakelt, moet het product opnieuw worden geïnstalleerd. Als u het productkanaal wilt wijzigen: verwijder het bestaande pakket, configureer het apparaat opnieuw om het nieuwe kanaal te gebruiken en volg de stappen in dit document om het pakket vanaf de nieuwe locatie te installeren.

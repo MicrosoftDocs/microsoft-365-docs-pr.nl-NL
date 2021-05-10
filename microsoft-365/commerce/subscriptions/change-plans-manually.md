@@ -22,12 +22,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Wijzig abonnementen handmatig door een nieuw abonnement te kopen en ervoor te zorgen dat beide abonnementen worden vermeld en actief zijn.
 ms.date: 03/17/2021
-ms.openlocfilehash: 1dc7ff8cd6b8a43db7d70ab6c17aec16a020baac
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 7361b459e61961efbb729d80dcbb55dfdad65933
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107678"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293617"
 ---
 # <a name="change-plans-manually"></a>Abonnementen handmatig wijzigen
 
@@ -74,7 +74,7 @@ Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
 - **Als u twee abonnementen hebt gekocht en deze hier niet beide worden vermeld**, zijn ze misschien gekocht voor verschillende organisaties (voor verschillende domeinen). Abonnementen kunnen niet tussen organisaties worden gedeeld.
 
-- **Als u weet dat u een extra** abonnement hebt en het hier niet wordt vermeld of niet actief is, belt u [microsoft-ondersteuning.](../../admin/contact-support-for-business-products.md)
+- **Als u weet dat u een extra** abonnement hebt en het hier niet wordt vermeld of niet actief is, belt u [microsoft-ondersteuning.](../../business-video/get-help-support.md)
 
 ### <a name="what-about-the-old-licenses"></a>Hoe zit het met de oude licenties?
 
@@ -115,4 +115,4 @@ Als u alle gebruikers uit een abonnement naar een ander abonnement hebt verplaat
 Als u slechts een paar gebruikers naar een ander abonnement hebt verplaatst, [verwijdert u de licenties](../licenses/buy-licenses.md) die u niet meer nodig hebt.
 
 ## <a name="call-support-to-help-you-change-plans"></a>Bel ondersteuning om u te helpen plannen te wijzigen
-[Microsoft-ondersteuning bellen](../../admin/contact-support-for-business-products.md)
+[Microsoft-ondersteuning bellen](../../business-video/get-help-support.md)

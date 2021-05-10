@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Meer informatie over factureringsaccounts en hoe u deze beheert.
 ms.date: 03/17/2021
-ms.openlocfilehash: 504811e8cdfb84569a4bc3cea021c3c37030fca7
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: ecac005b8b49739cb74efc4ca2fae44667f37bad
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107578"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293641"
 ---
 # <a name="manage-billing-accounts"></a>Factureringsaccounts beheren
 
@@ -56,7 +56,7 @@ De volgende tabel bevat de belangrijke termen die u ziet op de detailpagina **Fa
 | Factureringsprofielen | Een factureringsprofiel definieert eigenschappen van uw factuur, zoals wie de factuur ontvangt, hoe de factuur wordt bezorgd, betalingsvoorwaarden en een PO-nummer. Als u facturering wilt distribueren over uw organisatie, kunt u meerdere factureringsprofielen maken en het juiste factureringsprofiel identificeren op het moment van aankoop. Zie Factureringsprofielen voor meer informatie over factureringsprofielen en hoe u deze kunt gebruiken om flexibelere factureringsopties voor uw organisatie [te maken.](billing-and-payments/manage-billing-profiles.md) |
 
 > [!NOTE]
-> Als u de  naam of het adres verkocht wilt wijzigen, maar geen koppeling Bewerken ziet, moet u contact opnemen [met](../admin/contact-support-for-business-products.md) de ondersteuning om deze te wijzigen.  Voor aanvragen voor **een wijziging van de** verkoopnaam is een kredietcontrole vereist. Vul [dit formulier in](https://www.microsoft.com/download/details.aspx?id=102732)en bereid u voor om een van de volgende documenten met Microsoft te delen wanneer u contact op kunt nemen met de ondersteuning:
+> Als u de  naam of het adres verkocht wilt wijzigen, maar geen koppeling Bewerken ziet, moet u contact opnemen [met](../business-video/get-help-support.md) de ondersteuning om deze te wijzigen.  Voor aanvragen voor **een wijziging van de** verkoopnaam is een kredietcontrole vereist. Vul [dit formulier in](https://www.microsoft.com/download/details.aspx?id=102732)en bereid u voor om een van de volgende documenten met Microsoft te delen wanneer u contact op kunt nemen met de ondersteuning:
 >
 > - Door de overheid uitgegeven document of registratiebrief
 > - Afdrukken uit het register van het lokale bedrijf
@@ -78,7 +78,7 @@ U kunt anderen toegang geven tot het factureringsaccount in het Microsoft 365 vi
 > [!Note]
 > Factureringsaccountrollen zijn alleen van toepassing op factureringsaccounts en zijn niet van toepassing op andere scenario's Microsoft 365 beheercentrum.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Belastinggegevens](billing-and-payments/tax-information.md) (artikel) \
 [Factureringsprofielen begrijpen](billing-and-payments/manage-billing-profiles.md) (artikel)

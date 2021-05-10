@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: Meer informatie over de vereisten en overwegingen voor het maken van de overstap naar Microsoft 365 voor bedrijven.
-ms.openlocfilehash: ba97253beed1544d8f993a462559037a0a1a4281
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b4d2b5d500b73b62c67d3f8126b6313484e2bc78
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244501"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297030"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Uw installatie van Microsoft 365 voor bedrijven plannen
 
@@ -56,7 +56,7 @@ Met de installatiewizard kunt u de Microsoft 365-apps op uw computer installeren
   
 Als u de installatiewizard niet voltooit, kunt u op elk moment setuptaken uitvoeren vanuit [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339)  >  **Setup.** Hier kunt u e-mail en contactpersonen migreren van een andere e-mailservice, het domein van uw beheerdersaccount wijzigen, uw factureringsgegevens beheren, gebruikers toevoegen of verwijderen, wachtwoorden opnieuw instellen en andere zakelijke functies uitvoeren. Zie Verschillen tussen de installatiewizard  Microsoft 365 de pagina Setup voor meer informatie over de verschillen tussen de installatiewizard [en de pagina Setup.](o365-setup-wizard-and-setup-page.md)
 
-Als u ergens vastloopt, kunt u ons altijd bellen. [We zijn er om u te helpen.](../contact-support-for-business-products.md)
+Als u ergens vastloopt, kunt u ons altijd bellen. [We zijn er om u te helpen.](../../business-video/get-help-support.md)
   
 ## <a name="when-not-to-use-the-setup-wizard-active-directory-synchronization-and-hybrid-environments"></a>Wanneer kunt u de installatiewizard beter niet gebruiken? Active Directory-synchronisatie en hybride omgevingen
 
@@ -138,7 +138,7 @@ Zie How [to roll out Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams)voor
 - **Als u minder dan 50 werknemers hebt:**
 
   - **Vraag om hulp en wij bellen u**. Nadat u Microsoft 365 hebt gekocht, hebt u toegang tot het beheercentrum (u hoeft de installatie niet uit te voeren om het te openen). Selecteer Hulp nodig onder aan het **beheercentrum?** Beschrijf het probleem en u wordt gebeld. 
-  - **Bel [Microsoft 365 voor zakelijke ondersteuning met](../contact-support-for-business-products.md) uw vragen.** We zijn er om u te helpen. 
+  - **Bel [Microsoft 365 voor zakelijke ondersteuning met](../../business-video/get-help-support.md) uw vragen.** We zijn er om u te helpen. 
   - **U kunt overwegen een [Microsoft-partner](https://go.microsoft.com/fwlink/?linkid=391089)** in te huren. Als u weinig tijd hebt of geavanceerde vereisten hebt (zoals het verplaatsen van duizenden bestanden naar Microsoft 365 cloudopslag of het integreren met andere software), kan een ervaren partner een grote hulp zijn. 
 
 - **Als u meer dan 50 werknemers hebt**, is het [FastTrack Onboarding Center](https://go.microsoft.com/fwlink/?LinkId=517115) beschikbaar om u te helpen met de implementatie.

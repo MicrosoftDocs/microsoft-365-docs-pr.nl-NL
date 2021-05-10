@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 2fe6c5b1b0feea2163c0a2bcc871921a885abb85
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: ed597c55a646eb00d6e6d256c287b22c119f8148
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114745"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297342"
 ---
 # <a name="step-2-remediate-your-first-incident"></a>Stap 2. Herstel uw eerste incident
 
@@ -36,7 +36,7 @@ ms.locfileid: "52114745"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender biedt niet alleen detectie- en analysemogelijkheden, maar biedt ook insluiting en uitbanning van malware. Containment bevat stappen om de impact van de aanval te verminderen, terwijl het uitroeien ervoor zorgt dat alle sporen van activiteiten van de aanvaller uit het netwerk worden verwijderd.  Microsoft 365 Defender biedt verschillende herstelacties die kunnen worden geconfigureerd om automatisch te herstellen, afhankelijk van uw besturingssysteem en het type aanval.
+Microsoft 365 Defender biedt niet alleen detectie- en analysemogelijkheden, maar biedt ook insluiting en uitbanning van malware. Containment bevat stappen om de impact van de aanval te verminderen, terwijl het uitroeien ervoor zorgt dat alle sporen van activiteiten van de aanvaller uit het netwerk worden verwijderd.  Microsoft 365 Defender biedt verschillende herstelacties die kunnen worden geconfigureerd om automatisch te [herstellen,](m365d-autoir.md) afhankelijk van uw besturingssysteem en het type aanval.
 
 Microsoft 365 Defender biedt verschillende herstelacties die door analisten handmatig kunnen worden gestart. Acties zijn onderverdeeld in twee categorieën: Acties op apparaten en Acties op bestanden. Sommige acties kunnen worden gebruikt om de bedreiging onmiddellijk te stoppen, terwijl andere acties helpen bij verdere technische analyse.
 
@@ -98,5 +98,5 @@ Meer informatie over [het uitvoeren van een post-incident review van een inciden
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten analyseren](investigate-incidents.md)
+- [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)

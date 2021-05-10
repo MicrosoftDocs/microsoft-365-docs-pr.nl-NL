@@ -24,12 +24,12 @@ ms.custom:
 - PPM_jmueller
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
 ms.date: 07/31/2020
-ms.openlocfilehash: f9dc6fb9be765e6e221ddf43f703d64737870f01
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: eff193689817c1c89fff7c8ffbc5335fff64ee0f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280821"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297354"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur bekijken
 
@@ -37,7 +37,7 @@ Dit artikel is voor mensen met een Microsoft 365 voor Bedrijven-abonnement.
   
 Als u hulp nodig hebt bij de interpretatie van de kosten die worden weergegeven op uw factuur, raadpleegt u [Inzicht in uw rekening of factuur](understand-your-invoice2.md) voor een uitgebreide uitleg.
   
-**Ondervindt u een probleem met uw factuur?** [Neem contact op met ondersteuning voor zakelijke producten](../../admin/contact-support-for-business-products.md).
+**Ondervindt u een probleem met uw factuur?** [Neem contact op met ondersteuning voor zakelijke producten](../../business-video/get-help-support.md).
 
 ## <a name="before-you-begin"></a>Voordat u begint
 

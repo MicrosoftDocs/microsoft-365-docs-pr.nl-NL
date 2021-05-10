@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het sluiten van uw account met Microsoft.
 ms.date: 04/02/2021
-ms.openlocfilehash: 4fa1366186f0a37d3319208224628332d958a0ea
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 86232e3f433526cc60ef369eda03ef8d20ab08c9
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107470"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293665"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
@@ -69,7 +69,7 @@ Als uw organisatie Active Directory gebruikt die wordt gesynchroniseerd met Micr
 6. Herhaal stap 3 tot en met 5 voor elk uitgeschakeld abonnement totdat alle abonnementen worden verwijderd.
 
 > [!NOTE]
-> Als u een uitgeschakeld abonnement niet direct kunt verwijderen, [neem dan contact op met ondersteuning](../admin/contact-support-for-business-products.md).
+> Als u een uitgeschakeld abonnement niet direct kunt verwijderen, [neem dan contact op met ondersteuning](../business-video/get-help-support.md).
 
 ## <a name="step-4-disable-multi-factor-authentication"></a>Stap 4: Meervoudige verificatie uitschakelen
 

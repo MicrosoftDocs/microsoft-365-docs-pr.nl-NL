@@ -15,17 +15,18 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Gebruikers die een persoonlijk Microsoft-account hebben, kunnen Microsoft Rewards-punten verdienen in verband met hun zoekopdrachten op het werk als AAD koppelen aan Rewards-functie is ingeschakeld.
-ms.openlocfilehash: 7ae88c9fd355251c47747ef8460bab1f0b30bbaa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 92a319d5917c49f0457a560fe52212608bd26dc2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929472"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297066"
 ---
 # <a name="manage-microsoft-rewards"></a>Microsoft Rewards beheren
 
-Gebruikers met persoonlijke Microsoft-accounts kunnen [Microsoft Rewards-punten](https://www.microsoft.com/rewards) verdienen in verband met hun zoekopdrachten op het werk als de functie *Microsoft Azure Active Directory (Azure AD)* koppelen met Rewards is ingeschakeld.
+Gebruikers die een persoonlijk Microsoft-account hebben, kunnen [Microsoft Rewards-punten](https://www.microsoft.com/rewards) verdienen in verband met hun zoekopdrachten op het werk als de functie *Koppeling Microsoft Azure Active Directory (Azure AD) met Rewards* is ingeschakeld.
 
 Tenzij de gebruiker zich afkeert van deze functie, wordt zijn persoonlijke Microsoft-account gekoppeld aan zijn of haar Azure AD-account op de werkplek. Microsoft Rewards ontvangt en registreert informatie dat een zoekopdracht heeft plaatsgevonden, maar ontvangt geen informatie over de inhoud van de zoekopdracht. De inhoud van query's van uw organisatie wordt niet gedeeld met Microsoft Rewards als onderdeel van deze functie.
 

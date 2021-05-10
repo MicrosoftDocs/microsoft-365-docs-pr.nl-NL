@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 description: Lees hoe u uw proefabonnement of betaald abonnement op Microsoft 365 voor Bedrijven kunt opzeggen.
 ms.date: 04/08/2021
-ms.openlocfilehash: 15ab7ed31af24fa4cb1c83c6babc945871584375
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 329bc10adbe6c2ad0efe3609e7cb72141ae346bd
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244658"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297306"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
-*Komt in aanmerking?:* als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement op elk moment online annuleren in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties hebt toegewezen aan gebruikers, kunt u dit beperken tot minder dan 25 of [kunt u de ondersteuning bellen om uw abonnement op te zeggen](../../admin/contact-support-for-business-products.md).
+*Komt in aanmerking?:* als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement op elk moment online annuleren in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties hebt toegewezen aan gebruikers, kunt u dit beperken tot minder dan 25 of [kunt u de ondersteuning bellen om uw abonnement op te zeggen](../../business-video/get-help-support.md).
 
 *Restitutie:* een eventueel tegoed naar rato wordt aan u terugbetaald in de volgende factureringscyclus.
 

@@ -22,12 +22,12 @@ ms.custom:
 ms.reviewer: jkinma
 description: Meer informatie over het kopen en beheren van invoegtoepassingen voor uw Microsoft 365 abonnement voor bedrijven.
 ms.date: 04/02/2021
-ms.openlocfilehash: c0b5a76f8690c64723782640738ac3817bc64714
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: d60503cd7ab7be219c3ed813dd1d9aef480cd4dc
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107434"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297330"
 ---
 # <a name="buy-or-manage-add-ons"></a>Invoegtoepassingen kopen of beheren
 
@@ -71,9 +71,9 @@ U beheert een traditionele invoeging door naar het abonnement te gaan dat het be
 
 Als u een zelfstandig invoegabonnement wilt verwijderen, annuleert u het [abonnement,](subscriptions/cancel-your-subscription.md)net als elk ander abonnement. U kunt ook [Terugkerende facturering uitschakelen.](subscriptions/renew-your-subscription.md)
 
-U kunt een traditionele invoeging niet verwijderen. Als u een traditionele invoeging wilt verwijderen, [neemt u contact op met ondersteuning voor hulp.](../admin/contact-support-for-business-products.md)
+U kunt een traditionele invoeging niet verwijderen. Als u een traditionele invoeging wilt verwijderen, [neemt u contact op met ondersteuning voor hulp.](../business-video/get-help-support.md)
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Opslagruimte toevoegen voor uw abonnement](add-storage-space.md) (artikel)\
 [Abonnementslicenties kopen](licenses/buy-licenses.md) of verwijderen (artikel)\

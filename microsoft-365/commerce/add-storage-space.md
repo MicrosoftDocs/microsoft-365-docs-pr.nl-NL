@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 description: Informatie over het toevoegen en beperken van bestandsopslag in uw Microsoft 365 abonnement. Met extra bestandsopslag kunt u meer inhoud opslaan in SharePoint Online en OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 576efee4ba0e1ad8fb43b3d8475d6c3a949ee1e8
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 14f72f59493be04165f0e7b28f26b14f8ae01a08
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107386"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293677"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Opslagruimte voor uw abonnement toevoegen
 
@@ -71,14 +71,14 @@ Als u nog geen extra opslagruimte voor uw abonnement hebt gekocht, kunt u dat do
 
 ## <a name="increase-or-decrease-storage"></a>Opslagruimte vergroten of verkleinen
 
-Als u al extra bestandsopslag  hebt gekocht via de Office 365 Extra Bestandsopslag, kunt u deze stappen gebruiken om de extra opslagruimte voor uw abonnement te vergroten of te verminderen. U kunt de opslag beperken tot maar 1 gigabyte. Als u alle extra opslagruimte wilt verwijderen, [neemt u contact op met ondersteuning.](../admin/contact-support-for-business-products.md)
+Als u al extra bestandsopslag  hebt gekocht via de Office 365 Extra Bestandsopslag, kunt u deze stappen gebruiken om de extra opslagruimte voor uw abonnement te vergroten of te verminderen. U kunt de opslag beperken tot maar 1 gigabyte. Als u alle extra opslagruimte wilt verwijderen, [neemt u contact op met ondersteuning.](../business-video/get-help-support.md)
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 2. Selecteer op **het** tabblad Producten het abonnement dat de Office 365 Extra Bestandsopslag **bevat.**
 3. Selecteer op de pagina productdetails in **de** sectie Invoegtoepassingen de optie **Invoegtoepassingen beheren.**
 4. Kies in **het deelvenster Invoegtoepassingen beheren** in de lijst **Invoegtoepassingen** de **optie Office 365 Extra Bestandsopslag.**
 5. Voer in **het** tekstvak Hoeveelheid het aantal GB's opslagruimte in dat u voor het abonnement wilt gebruiken.
-6. Selecteer **Opslaan**.
+6. Kies **Opslaan**.
 
 ## <a name="is-my-plan-eligible-for-office-365-extra-file-storage"></a>Komt mijn abonnement in aanmerking voor Office 365 Extra Bestandsopslag?
 
@@ -103,7 +103,7 @@ Office 365 Extra Bestandsopslag is beschikbaar voor de volgende abonnementen:
 > [!NOTE]
 > Office 365 Extra Bestandsopslag is ook beschikbaar voor GCC, GCC High en DOD-abonnementen.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Limieten voor siteopslag](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) beheren (artikel)\
 [De standaardopslagruimte instellen voor OneDrive gebruikers](/onedrive/set-default-storage-space)(artikel)

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Download audits van derden, ontdek hoe Microsoft klantgegevens veilig houdt en weet hoe u kunt voldoen aan ISO, HIPAA, FINRA en FedRAMP wanneer u Office 365.
-ms.openlocfilehash: 6d7dafb3493aabe525c266184235a63840ce8785
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2e473ad4a17ac5c229563ee3286942e90bfc674f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161976"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297234"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>Servicecontrole in het Beveiligings- en compliancecentrum
 
@@ -95,7 +95,7 @@ Afhankelijk van uw specifieke set-up, kunnen de opties in uw weergave enkele ver
 ## <a name="get-help-with-service-assurance"></a>Hulp krijgen bij Servicecontrole
 <a name="addother"> </a>
 
-[Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders](../admin/contact-support-for-business-products.md).
+[Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders](../business-video/get-help-support.md).
   
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 <a name="addother"> </a>

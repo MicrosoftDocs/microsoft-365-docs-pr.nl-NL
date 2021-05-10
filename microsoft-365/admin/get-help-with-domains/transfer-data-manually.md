@@ -18,20 +18,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
-description: Ontdek hoe u gegevens handmatig kunt overbrengen tussen twee Microsoft 365-accounts wanneer u het abonnement of de bedrijfsnaam hebt gewijzigd of meerdere abonnementen in één account hebt gecombineerd.
-ms.openlocfilehash: b240ffbbdbfb6ed7d20a9ead9b1ee90a3af4570d
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+description: Ontdek hoe u gegevens handmatig tussen twee accounts Microsoft 365 wanneer u het abonnement of de bedrijfsnaam hebt gewijzigd of meerdere abonnementen in één account hebt gecombineerd.
+ms.openlocfilehash: f9b9185a2441c4fc47aef0d3ce28116ff4e33e6e
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023831"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297102"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Gegevens handmatig overmaken tussen twee accounts
 
-Bereid u voor om de handen uit de mouwen te steken en een stuk tijd in uw agenda te blokkeren: het overbrengen van gegevens tussen twee Microsoft 365-accounts is een handmatig, ingewikkeld en tijdrovend proces. Het betreft hier trouwens een proces dat niet wordt ondersteund. We zullen u wel op weg helpen.
+Bereid u voor op het oprollen van uw mouwen en blokkeer een stuk tijd in uw agenda: het overbrengen van gegevens tussen twee Microsoft 365-accounts is een handmatig, ingewikkeld en tijdrovend proces. Het betreft hier trouwens een proces dat niet wordt ondersteund. We zullen u wel op weg helpen.
   
 > [!CAUTION]
-> Er is een periode waarin e-mail, Skype voor Bedrijven en een openbare website die wordt gehost op Microsoft 365, niet werken. Gebruikers krijgen nieuwe gebruikersnamen en wachtwoorden, en ze moeten Outlook opnieuw instellen.
+> Er is een periode waarin e-mail, Skype voor Bedrijven en een openbare website die wordt gehost op Microsoft 365 niet werken. Gebruikers krijgen nieuwe gebruikersnamen en wachtwoorden, en ze moeten Outlook opnieuw instellen.
 
 **In de volgende gevallen mag u gegevens alleen handmatig overbrengen volgens de instructies in dit onderwerp:**
   
@@ -46,28 +46,28 @@ Bereid u voor om de handen uit de mouwen te steken en een stuk tijd in uw agenda
 
 |**Taken**|**Stappen**|
 |:-----|:-----|
-|Koop het abonnement waarop u wilt overstappen.  <br/> |Tijdens de registratie geeft u aan welke bedrijfsnaam u wilt gebruiken in de domeinnamen die standaard worden gemaakt:  *uwbedrijf*  .onmicrosoft.com,  *uwbedrijf*  -public.sharepoint.com en  *uwbedrijf*  .sharepoint.com. U moet voor  *uwbedrijf*  een andere naam gebruiken dan voor bestaande abonnementen.  <br/> > [!NOTE]>  Nadat u een abonnement hebt opgezegd, duurt het meestal minimaal een paar maanden voordat de namen van de standaarddomeinen met  *uwbedrijf*  van het opgezegde abonnement worden vrijgegeven in onze systemen. Zelfs als u van plan bent al uw gegevens uit uw oude Microsoft  365-abonnement op te slaan en dat abonnement op te zeggen, is de oude waarde van uw bedrijf niet direct beschikbaar voor gebruik in een nieuw abonnement.           |
-|Verwijder uw aangepaste domein uit uw oude Microsoft 365-abonnement.  <br/> | Volg de [vereiste stappen voorafgaand aan het verwijderen van een domein](remove-a-domain.md) om de domeinnaam te verwijderen uit de e-mailadressen van gebruikers en om DNS-records te verwijderen voor e-mail en Lync voor het aangepaste domein. Als u uw openbare website host op Microsoft 365, moet u ook de CNAME-record verwijderen die naar de website wijst.  <br/> > [!IMPORTANT]>  Nadat u de MX-record hebt verwijderd waarmee e-mail in dit aangepaste domein wordt bezorgd, hebben gebruikers geen toegang meer tot e-mail totdat u het domein hebt toegevoegd aan uw nieuwe account , de nieuwe MX-record hebt toegevoegd en gebruikers hebt ingesteld. Wanneer u de DNS-records voor Lync verwijdert, werkt Lync niet meer. Op het moment dat u de CNAME-record verwijdert die naar uw openbare website verwijst, is de site niet meer beschikbaar.           [Verwijder het domein](remove-a-domain.md) .  <br/> |
+|Koop het abonnement waarop u wilt overstappen.  <br/> |Tijdens de registratie geeft u aan welke bedrijfsnaam u wilt gebruiken in de domeinnamen die standaard worden gemaakt:  *uwbedrijf*  .onmicrosoft.com,  *uwbedrijf*  -public.sharepoint.com en  *uwbedrijf*  .sharepoint.com. U moet voor  *uwbedrijf*  een andere naam gebruiken dan voor bestaande abonnementen.  <br/> > [!NOTE]>  Nadat u een abonnement hebt opgezegd, duurt het meestal minimaal een paar maanden voordat de namen van de standaarddomeinen met  *uwbedrijf*  van het opgezegde abonnement worden vrijgegeven in onze systemen. Zelfs als u van plan bent al uw gegevens uit uw oude Microsoft 365-abonnement op te slaan en dat abonnement op te zeggen, is de oude waarde van uw bedrijf niet direct beschikbaar voor gebruik in een nieuw abonnement.            |
+|Verwijder uw aangepaste domein uit uw oude Microsoft 365 abonnement.  <br/> | Volg de [vereiste stappen voorafgaand aan het verwijderen van een domein](remove-a-domain.md) om de domeinnaam te verwijderen uit de e-mailadressen van gebruikers en om DNS-records te verwijderen voor e-mail en Lync voor het aangepaste domein. Als u uw openbare website host op Microsoft 365, moet u ook de CNAME-record verwijderen die naar de website wijst.  <br/> > [!IMPORTANT]>  Nadat u de MX-record hebt verwijderd waarmee e-mail in dit aangepaste domein wordt bezorgd, hebben gebruikers geen toegang meer tot e-mail totdat u het domein hebt toegevoegd aan uw nieuwe account , de nieuwe MX-record hebt toegevoegd en gebruikers hebt ingesteld. Wanneer u de DNS-records voor Lync verwijdert, werkt Lync niet meer. Op het moment dat u de CNAME-record verwijdert die naar uw openbare website verwijst, is de site niet meer beschikbaar.           [Verwijder het domein](remove-a-domain.md) .  <br/> |
 |Stel uw aangepaste domein in voor het nieuwe abonnement en voeg de gebruikers toe.  <br/> | Stel het nieuwe abonnement in en vergeet niet de vereiste DNS-records voor uw aangepaste domein te maken.  <br/>  Voeg de gebruikers toe, met e-mailadressen in uw aangepaste domein.  <br/> |
 |Breng gegevens van het oude abonnement over naar uw nieuwe abonnement.  <br/> | Meld u in afzonderlijke browservensters bij beide accounts aan:  <br/>  Klik met de rechtermuisknop op het browserpictogram en open twee privébrowservensters. U kunt verschillende referenties gebruiken in de twee vensters om u bij beide accounts aan te melden.  <br/> [Beheerinstellingen uitwisselen tussen abonnementen](#email) <br/> [Structuur en gegevens van teamsite overbrengen](#transfer-team-site-structure-and-data) <br/> [Een openbare website overbrengen naar een ander abonnement](#transfer-a-public-website-between-subscriptions) <br/> [Beheerinstellingen uitwisselen tussen abonnementen](#email) <br/> |
-|Annuleer het abonnement voor het abonnement met wie u klaar bent door te bellen met Microsoft Support voor Microsoft 365.  <br/> | Controleer of het nieuwe abonnement werkt en alle gegevens zijn overgebracht.  <br/>  [Neem contact op met de klantondersteuning](../contact-support-for-business-products.md) om uw oude abonnement op te zeggen.  <br/> |
+|Annuleer het abonnement voor het abonnement met wie u klaar bent door microsoft-ondersteuning te bellen voor Microsoft 365.  <br/> | Controleer of het nieuwe abonnement werkt en alle gegevens zijn overgebracht.  <br/>  [Neem contact op met de klantondersteuning](../../business-video/get-help-support.md) om uw oude abonnement op te zeggen.  <br/> |
 
 ## <a name="transfer-administrative-settings-between-subscriptions"></a>Beheerinstellingen uitwisselen tussen abonnementen
 
 Ga naar de volgende pagina's van elk account en stel het nieuwe account in op basis van de instellingen van het oude account.
   
-Als u gegevens overhevelt van Microsoft 365 naar Microsoft 365 Voor Middelgrote bedrijven of Microsoft 365 Enterprise, zijn de beheerderspagina's anders gestructureerd. Bekijk een [video: Maak kennis met Microsoft 365 Enterprise](../index.yml)en ga naar de volgende locaties om de beheerinstellingen te bekijken.
+Als u gegevens overhevelt van Microsoft 365 naar Microsoft 365 middelgrote bedrijven of Microsoft 365 Enterprise, zijn de beheerderspagina's anders gestructureerd. Bekijk een [video: Maak kennis met Microsoft 365 Enterprise](../index.yml)en ga naar de volgende locaties om de beheerinstellingen te bekijken.
   
-Voor Microsoft 365 Enterprise en Microsoft 365 Voor Middelgrote en Grote Bedrijven:
+Voor Microsoft 365 Enterprise en Microsoft 365 middelgrote bedrijven:
   
 |**Locatie**|**Doel**|
 |:-----|:-----|
 |**Beheerder** \> **Microsoft 365** \> **Service-instellingen** <br/> |Selecteer elk tabblad voor instellingen voor e-mail, sites, Lync, gebruikerssoftware, wachtwoorden, community, rechtenbeheer en mobiel.  <br/> |
 |**Beheer** \> **Exchange** <br/> | Instellingen van Exchange Online  <br/> |
 |**Beheer** \> **SharePoint** <br/> | Instellingen van SharePoint Online  <br/> |
-|**Beheerder** \> **Skype voor Bedrijven** <br/> |Extra Skype voor Bedrijven-instellingen  <br/> |
+|**Beheerder** \> **Skype voor Bedrijven** <br/> |Aanvullende Skype voor Bedrijven instellingen  <br/> |
 
-Voor Microsoft 365 Voor Kleine Bedrijven
+Voor Microsoft 365 kleine bedrijven
   
 |**Locatie**|**Doel**|
 |:-----|:-----|
@@ -75,7 +75,7 @@ Voor Microsoft 365 Voor Kleine Bedrijven
 
 ## <a name="transfer-a-public-website-between-subscriptions"></a>Een openbare website overbrengen naar een ander abonnement
 
-Als u een openbare website hebt gehost op Microsoft 365, moet u deze opslaan en opnieuw maken in uw nieuwe abonnement.
+Als er een openbare website wordt gehost op Microsoft 365, moet u deze opslaan en opnieuw maken in uw nieuwe abonnement.
   
 > [!NOTE]
 > Als uw openbare website wordt gehost bij een DNS-hostingprovider, hoeft u niets aan te passen. De overstap heeft dan geen gevolgen voor de site.
@@ -95,7 +95,7 @@ Er zijn verschillende manieren om de gegevens van een teamsite op te slaan of ov
 
 - Als u gegevens in een lijst wilt overbrengen, slaat u de [lijst op als een sjabloon](https://support.microsoft.com/office/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393) en gebruikt u de sjabloon om de lijst opnieuw te maken op de nieuwe site.
 
-- Zie Informatie over handmatige migratie van [SharePoint Online-inhoud](/sharepoint/troubleshoot/migration-tool/content-manual-migration)als u een documentbibliotheek of lijstinhoud wilt opslaan vanuit een SharePoint Online-omgeving (OneDrive voor Bedrijven of teamsites) in bestandsaandelen of op een lokale computer.
+- Zie Informatie over handmatige migratie van online-inhoud als u een documentbibliotheek SharePoint of lijstinhoud wilt opslaan vanuit een SharePoint [Online-omgeving](/sharepoint/troubleshoot/migration-tool/content-manual-migration)(OneDrive voor Bedrijven of teamsites) in bestandsaandelen of op een lokale computer.
 
 ## <a name="transfer-users-data-between-subscriptions"></a>Gegevens van gebruikers overbrengen naar een ander abonnement
 
@@ -103,10 +103,10 @@ Er zijn verschillende manieren om de gegevens van een teamsite op te slaan of ov
 
 Vraag gebruikers om [hun e-mail, contactpersonen, taken en agendagegevens](https://support.microsoft.com/office/0996ece3-57c6-49bc-977b-0d1892e2aacc) over te brengen nadat u het nieuwe abonnement hebt ingesteld. Ze kunnen hun oude e-mail raadplegen door de oorspronkelijke gebruikersnaam op te geven, zoals sue@contoso.onmicrosoft.com.
   
-### <a name="onedrive-for-business-data"></a>OneDrive voor Bedrijven-gegevens:
+### <a name="onedrive-for-business-data"></a>OneDrive Voor zakelijke gegevens:
 
-Vraag gebruikers inhoud van [OneDrive](https://support.microsoft.com/office/59b1de2b-519e-4d3a-8f45-51647cf291cd)voor Bedrijven te kopiëren/synchroniseren naar hun computer en voeg deze vervolgens weer toe aan hun nieuwe abonnement.
+Vraag gebruikers om inhoud te [kopiëren/OneDrive voor Bedrijven naar](https://support.microsoft.com/office/59b1de2b-519e-4d3a-8f45-51647cf291cd)hun computer en voeg deze vervolgens weer toe aan hun nieuwe abonnement.
 
 ### <a name="onenote"></a>OneNote 
 
-Vraag gebruikers een [back-up van OneNote te](https://support.microsoft.com/office/back-up-notes-f58b34b0-611d-435e-87fa-7942a1767af4?ui=en-us&rs=en-us&ad=us) maken en notities te herstellen van [een back-up](https://support.microsoft.com/en-us/office/restore-notes-from-a-backup-5daf9cb0-6769-4998-a5de-f044fdd0d831?ui=en-us&rs=en-us&ad=us) naar hun nieuwe abonnementen.
+Vraag gebruikers een [back-up te maken OneNote](https://support.microsoft.com/office/back-up-notes-f58b34b0-611d-435e-87fa-7942a1767af4?ui=en-us&rs=en-us&ad=us) notities te herstellen [van een back-up](https://support.microsoft.com/en-us/office/restore-notes-from-a-backup-5daf9cb0-6769-4998-a5de-f044fdd0d831?ui=en-us&rs=en-us&ad=us) naar hun nieuwe abonnementen.
