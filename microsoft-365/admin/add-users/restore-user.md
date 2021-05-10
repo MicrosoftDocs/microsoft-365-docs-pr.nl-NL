@@ -23,16 +23,16 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Meer informatie over het herstellen van verwijderde gebruikersaccounts en alle bijbehorende gegevens.
-ms.openlocfilehash: 9cdc4100f963ed450b50caa0f07a3863bc87992d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b7d98c1f49f8252ea9fdda2d863b5b77ac5bea9d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244030"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291065"
 ---
 # <a name="restore-a-user"></a>Een gebruiker herstellen
    
-Wanneer u een gebruikersaccount binnen 30 dagen na verwijderen herstelt, worden het account en alle bijbehorende gegevens hersteld. De gebruiker kan zich met hetzelfde werk- of schoolaccount aanmelden. Het postvak wordt volledig hersteld. [Neem contact met ons op](../contact-support-for-business-products.md) als u wilt weten na hoeveel dagen een specifiek gebruikersaccount niet meer kan worden hersteld.
+Wanneer u een gebruikersaccount binnen 30 dagen na verwijderen herstelt, worden het account en alle bijbehorende gegevens hersteld. De gebruiker kan zich met hetzelfde werk- of schoolaccount aanmelden. Het postvak wordt volledig hersteld. [Neem contact met ons op](../../business-video/get-help-support.md) als u wilt weten na hoeveel dagen een specifiek gebruikersaccount niet meer kan worden hersteld.
   
 Hier zijn een paar tips:
   

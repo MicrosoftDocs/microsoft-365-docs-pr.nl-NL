@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: U kunt beheercentrum gebruiken voor het instellen van uw organisatie in de cloud, het beheren van gebruikers en abonnementen. Ga aan de slag door u aan te melden bij het account met beheerdersmachtigingen.
-ms.openlocfilehash: f2b8a22019e3292c93d07161f3825dfe90629ccc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: db88904e16cf9410d3eb4e4aac161f714993150b
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241746"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52290981"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Over het Microsoft 365-beheercentrum
 
@@ -64,7 +64,7 @@ Hier vindt u de functies en instellingen die in het linkernavigatievenster van h
 |**Groepen** <br/> |Maak en beheer groepen in uw organisatie, zoals een Microsoft 365 groep, distributiegroep, beveiligingsgroep of gedeeld postvak. Lees hier hoe u groepen kunt [maken](../create-groups/create-groups.md) en [beheren](../create-groups/manage-groups.md).  <br/> |
 |**Resources** <br/> |U kunt resources, zoals een SharePoint-siteverzameling, maken en beheren. Lees hier hoe u [siteverzamelingen maakt](/sharepoint/create-site-collection).  <br/> |
 |**Facturering** <br/> |Bekijk, koop of annuleer abonnementen voor uw organisatie. Bekijk oude facturen of het aantal licenties dat aan afzonderlijke gebruikers is toegewezen. Leer hoe u [facturering beheert](../../commerce/index.yml).  <br/> |
-|**Ondersteuning** <br/> | Bekijk bestaande serviceaanvragen of maak nieuwe. Zie voor meer informatie [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voor Beheerders](../contact-support-for-business-products.md). |
+|**Ondersteuning** <br/> | Bekijk bestaande serviceaanvragen of maak nieuwe. Zie voor meer informatie [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voor Beheerders](../../business-video/get-help-support.md). |
 |**Instellingen** <br/> |Beheer algemene instellingen voor apps, zoals e-mail, sites en de Office-suite. Wijzig het beleid en de vervaldatum voor uw wachtwoord. U kunt domeinnamen, zoals contoso.com, toevoegen en bijwerken. U kunt uw organisatieprofiel en de releasevoorkeuren wijzigen. En kies of partners toegang hebben tot uw beheercentrum.  <br/> |
 |**Installatie** <br/> |Bestaande domeinen beheren, meervoudige verificatie inschakelen en beheren, beheerderstoegang beheren, postvakken van gebruikers migreren naar Office 365, functie-updates beheren en gebruikers helpen hun Office-apps te installeren. |
 |**Rapporten** <br/> |Bekijk in één oogopslag hoe uw organisatie Microsoft 365 met gedetailleerde rapporten over e-mailgebruik, Office activeringen en meer. Lees hier hoe u de nieuwe [activiteitenoverzichten](../activity-reports/activity-reports.md) gebruikt.  <br/> |

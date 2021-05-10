@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Noordelijke Marianen
+title: Ondersteuningsinformatie voor noordelijke Marianen
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d18ad29a18d2b12f756e9f4c82f0e8ee94ee3ac3
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 9b066e5e20ea1474d19d2234e9bfeca3bfddaae4
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545270"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295625"
 ---
-# <a name="contact-support-for-northern-mariana-islands"></a>Contact opnemen met ondersteuning voor Noordelijke Marianen
+# <a name="contact-support-for-northern-mariana-islands"></a>Neem contact op met de ondersteuning voor de noordelijke Marianen
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5148
@@ -29,10 +29,10 @@ ms.locfileid: "50545270"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 09:00- 17:00 uur
+Engels: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale gesprekskosten zijn van toepassing
+Internationale oproepkosten zijn van toepassing

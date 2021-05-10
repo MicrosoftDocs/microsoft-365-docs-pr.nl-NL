@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 47d066fa20abe963f7afaa3b88cecc96fa6e87fc
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: a3b6edda36d2872177d9a88f3259220dcf2e76f3
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259585"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291313"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -67,7 +67,7 @@ In de standaardwachtrij voor incidenten kunt u **Filters** selecteren om een dee
 
 In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 
-| Filternaam | Omschrijving |
+| Filternaam | Beschrijving |
 |:-------|:-----|
 | Toegewezen aan | U kunt ervoor kiezen om waarschuwingen weer te geven die aan u zijn toegewezen of waarschuwingen die door automatisering worden verwerkt. |
 | Categorieën | Kies categorieën om zich te richten op specifieke tactieken, technieken of aanvalsonderdelen. |
@@ -83,11 +83,14 @@ In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 | Status | U kunt ervoor kiezen om de lijst met weergegeven incidenten te beperken op basis van hun status om te zien welke actief of opgelost zijn. |
 |||
 
-## <a name="next-step"></a>Volgende stap
+## <a name="next-steps"></a>Volgende stappen
 
-Nadat u hebt bepaald welk incident de hoogste prioriteit vereist, selecteert u het en begint u met de [analyse.](investigate-incidents.md)
+Nadat u hebt bepaald welk incident de hoogste prioriteit vereist, selecteert u het en:
+
+- [Beheer](manage-incidents.md) de eigenschappen van het incident voor tags, toewijzing aan een beveiligingsanalist en opmerkingen.
+- Begin uw [onderzoek.](investigate-incidents.md)
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten analyseren](investigate-incidents.md)
+- [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)

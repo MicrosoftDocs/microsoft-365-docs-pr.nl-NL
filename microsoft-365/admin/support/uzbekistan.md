@@ -10,37 +10,37 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f923d10ee4e547d946f82c824c472b2dbfd71428
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 1c5cfb89da148b140840b664856f516fff144e4a
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543522"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52294993"
 ---
-# <a name="contact-support-for-uzbekistan"></a>Contact opnemen met ondersteuning voor Oezbekistan
+# <a name="contact-support-for-uzbekistan"></a>Neem contact op met de ondersteuning voor Oezbekistan
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +8 641 744 0010
 
-Na het bellen voert u
+Na het kiezen voert u
 
 877 867 5369
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Factureringsondersteuning
 
-Russisch: Mon-Fri 10:00 tot 17:00 Moskou
+Russisch: Mon-Fri 10.00-19.00 uur Moskou
 
-Engels: Mon-Fri 09:00 tot 17:00 uur Londen
+Engels: Mon-Fri 9:00-17:00 uur Londen
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Russisch: Mon-Fri 07:00 tot 20:00 Moskou
+Russisch: Mon-Fri 07:00-20:00 moskou
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale gesprekskosten zijn van toepassing
+Internationale oproepkosten zijn van toepassing
