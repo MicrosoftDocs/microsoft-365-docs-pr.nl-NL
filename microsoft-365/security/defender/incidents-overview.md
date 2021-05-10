@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e2e29015d4cb5e04510577118eb847b9b596a6c5
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 93751a8297e61a969e0049e27a847324a3d16872
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114280"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300011"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender
 
@@ -62,7 +62,7 @@ Door gerelateerde waarschuwingen in een incident te groeperen, krijgt u een uitg
 - Het bereik van de aanval, zoals het aantal apparaten, gebruikers en postvakken dat is beïnvloed. 
 - Alle gegevens die aan de aanval zijn gekoppeld.
 
-Als [dit is ingeschakeld,](m365d-enable.md)Microsoft 365 Defender waarschuwingen automatisch onderzoeken en oplossen via automatisering en kunstmatige intelligentie. U kunt ook aanvullende herstelstappen uitvoeren om de aanval op te lossen. 
+Als [dit is ingeschakeld,](m365d-enable.md)Microsoft 365 Defender [waarschuwingen](m365d-autoir.md) automatisch onderzoeken en oplossen via automatisering en kunstmatige intelligentie. U kunt ook aanvullende herstelstappen uitvoeren om de aanval op te lossen. 
 
 ## <a name="incidents-and-alerts-in-the-microsoft-365-security-center"></a>Incidenten en waarschuwingen in het Microsoft 365 beveiligingscentrum
 
@@ -94,11 +94,15 @@ De extra tabbladen voor een incident zijn:
 
 - Onderzoeken
 
-  Alle automatische onderzoeken die worden veroorzaakt door waarschuwingen bij het incident.
+  Alle automatische [onderzoeken die worden veroorzaakt](m365d-autoir.md) door waarschuwingen bij het incident.
 
 - Bewijs en antwoord
 
   Alle ondersteunde gebeurtenissen en verdachte entiteiten in de waarschuwingen in het incident.
+
+- Graph (in voorbeeld)
+
+  Een afbeelding met de verbinding van waarschuwingen met de beïnvloede activa in uw organisatie.
 
 Hier is de relatie tussen een incident en de gegevens en de tabbladen van een incident in het Microsoft 365 beveiligingscentrum.
 
@@ -115,7 +119,7 @@ Identificeer doorlopend de incidenten met de hoogste prioriteit voor analyse en 
 - [Triaging](incident-queue.md) om de incidenten met de hoogste prioriteit te bepalen door de wachtrij voor incidenten te filteren en te sorteren.
 - [U](manage-incidents.md) kunt incidenten beheren door de titel te wijzigen, deze toe te wijzen aan een analist en tags en opmerkingen toe te voegen.
 
-1. Voor elk incident start u een [aanvals- en waarschuwingsanalyse:](investigate-incidents.md)
+1. Voor elk incident start u een [aanval en een waarschuwingsonderzoek en -analyse:](investigate-incidents.md)
  
    a. Bekijk de samenvatting van het incident om te begrijpen wat het bereik en de ernst is en welke entiteiten worden beïnvloed (het **tabblad** Overzicht).
 
@@ -123,7 +127,7 @@ Identificeer doorlopend de incidenten met de hoogste prioriteit voor analyse en 
 
    c. Verzamel zo nodig informatie over beïnvloede apparaten, gebruikers en postvakken **(de** tabbladen **Apparaten,** Gebruikers en **Postvakken).**
 
-   d. Bekijk hoe Microsoft 365 meldingen automatisch heeft opgelost (het **tabblad** Onderzoeken).
+   d. Bekijk hoe Microsoft 365 meldingen [automatisch](m365d-autoir.md) heeft opgelost (het **tabblad** Onderzoeken).
    
    e. Gebruik zo nodig informatie in de gegevensset voor het incident voor meer informatie (het **tabblad Bewijs en** antwoord).
 
@@ -149,7 +153,7 @@ Hier volgen een voorbeeld van beveiligingsbewerkingen voor Microsoft 365 Defende
 Dagelijkse taken kunnen bestaan uit:
 
 - [Incidenten](manage-incidents.md) beheren
-- Acties voor [automatisch onderzoek en antwoord (AIR)](m365d-action-center.md) controleren
+- Acties voor [automatisch onderzoek en antwoord (AIR)](m365d-action-center.md) bekijken in het Actiecentrum
 - De meest recente [Threat Analytics bekijken](threat-analytics.md)
 - [Reageren op](investigate-incidents.md) incidenten
 
@@ -167,8 +171,19 @@ Dagelijkse, maandelijkse, kwartaal- en jaarlijkse taken kunnen worden gebruikt o
 
 ## <a name="next-steps"></a>Volgende stappen
 
-De incidentenwachtrij van de pagina **Incidenten** bevat de meest recente incidenten. Hier kunt u het volgende doen:
+**Als u nog niet bekend bent** met beveiligingsanalyse en incidentrespons:
 
-- Bekijk welke incidenten prioriteit [moeten krijgen op](incident-queue.md) basis van ernst en andere factoren. 
-- [Beheer incidenten,](manage-incidents.md)waaronder het wijzigen van de naam, de toewijzing, het classificeren en het toevoegen van tags en opmerkingen voor uw werkstroom voor incidentbeheer.
-- Een analyse [van](investigate-incidents.md) een incident uitvoeren.
+- Zie de [walkthrough](first-incident-overview.md) Reageren op uw eerste incident om een rondleiding te krijgen van een typisch proces van analyse, herstel en beoordeling na het incident in het Microsoft 365-beveiligingscentrum met een voorbeeld van een aanval.
+
+**Als u ervaring hebt met** beveiligingsanalyse en incidentrespons:
+
+- Ga aan de slag met de incidentenwachtrij vanaf **de** pagina Incidenten van het Microsoft 365 beveiligingscentrum. Hier kunt u het volgende doen:
+
+  - Bekijk welke incidenten prioriteit [moeten krijgen op](incident-queue.md) basis van ernst en andere factoren. 
+
+  - [Beheer incidenten,](manage-incidents.md)waaronder het wijzigen van de naam, de toewijzing, het classificeren en het toevoegen van tags en opmerkingen op basis van uw werkstroom voor incidentbeheer.
+
+  - Voer [onderzoeken van](investigate-incidents.md) incidenten uit.
+
+- Bekijk deze [playbooks voor incidentreacties](https://docs.microsoft.com/security/compass/incident-response-playbooks) voor gedetailleerde richtlijnen voor phishing- en wachtwoordincidenten en app-toestemmingsverleningsaanvallen.
+

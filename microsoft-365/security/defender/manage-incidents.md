@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5f66189979f401430353f4c15978a85276b48840
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 09c391d6b02e1273f55070283a6e11454f677114
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939752"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52299999"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Incidenten beheren in Microsoft 365 Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "51939752"
 
 Incidentbeheer is essentieel om ervoor te zorgen dat bedreigingen worden opgenomen en aangepakt.
 
-U beheert incidenten van **incidenten & waarschuwingen > incidenten** tijdens de snelle lancering van het Microsoft 365-beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com) Hier is een voorbeeld.
+U beheert incidenten van **incidenten & waarschuwingen > incidenten** tijdens de snelle start van het Microsoft 365 beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com) Hier is een voorbeeld.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Voorbeeld van de incidentwachtrij":::
 
@@ -98,8 +98,16 @@ Als het een echte waarschuwing was, moet u ook opgeven welk type bedreiging het 
 
 U kunt meerdere opmerkingen toevoegen aan een incident met **het** veld Opmerking. Elke opmerking wordt toegevoegd aan de historische gebeurtenissen van het incident. U kunt de opmerkingen en geschiedenis van een incident zien via de koppeling **Opmerkingen en geschiedenis** op de **pagina** Overzicht.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="next-steps"></a>Volgende stappen
+
+Voor nieuwe incidenten start u uw [onderzoek.](investigate-incidents.md)
+
+Ga voor incidenten in proces verder met uw [onderzoek.](investigate-incidents.md)
+
+Voer voor opgeloste incidenten een [beoordeling na het incident uit.](first-incident-post.md)
+
+## <a name="see-also"></a>Zie ook
 
 - [Overzicht van incidenten](incidents-overview.md)
 - [Prioriteit geven aan incidenten](incident-queue.md)
-- [Incidenten analyseren](investigate-incidents.md)
+- [Incidenten onderzoeken](investigate-incidents.md)

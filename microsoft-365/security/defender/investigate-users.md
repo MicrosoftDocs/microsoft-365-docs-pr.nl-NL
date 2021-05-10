@@ -1,6 +1,6 @@
 ---
-title: Gebruikers analyseren in het Microsoft 365-beveiligingscentrum
-description: Gebruikers analyseren in het Microsoft 365-beveiligingscentrum
+title: Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
+description: Gebruikers onderzoeken in het Microsoft 365 beveiligingscentrum
 keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, monitor, rapport, identiteiten, gegevens, apparaten, apps, incident, analyseren, antwoord
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 2fd9b958cdbdaf22346f8171c789f2ca9a8336d1
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: c03e4d5bd94eb6105ffab91c6dad2b74d7159dde
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957603"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300059"
 ---
-# <a name="analyze-users-in-microsoft-365-security-center"></a>Gebruikers analyseren in het Microsoft 365-beveiligingscentrum
+# <a name="investigate-users-in-microsoft-365-security-center"></a>Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,28 +34,28 @@ ms.locfileid: "51957603"
 
 - Microsoft 365 Defender
 
-Een deel van uw incidentanalyse kan gebruikersaccounts bevatten. Begin met het **tabblad Gebruikers** voor een incident van Incidenten & **waarschuwingen >** incident *>* **Gebruikers.** 
+Een deel van uw incidentonderzoek kan gebruikersaccounts zijn. Begin met het **tabblad Gebruikers** voor een incident van Incidenten & **waarschuwingen >** incident *>* **Gebruikers.** 
 
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Voorbeeld van een pagina Gebruikers voor een incident":::
 
 Als u een beknopt overzicht wilt krijgen van een gebruikersaccount voor het incident, selecteert u het vinkje naast de naam van het gebruikersaccount. Hier is een voorbeeld.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Voorbeeld van het overzichtsvenster voor gebruikersaccounts voor een incident in het Microsoft 365-beveiligingscentrum":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Voorbeeld van het overzichtsvenster voor gebruikersaccounts voor een incident in het Microsoft 365 beveiligingscentrum":::
 
 > [!NOTE]
-> Op de pagina Gebruiker ziet u een Azure Active Directory-organisatie (AD) en groepen, zodat u inzicht krijgt in de groepen en machtigingen die aan een gebruiker zijn gekoppeld.
+> Op de pagina Gebruiker ziet Azure Active Directory (AD)-organisatie en groepen, zodat u inzicht krijgt in de groepen en machtigingen die aan een gebruiker zijn gekoppeld.
 
 Op deze fly-outpagina kunt u informatie over bedreigingen van gebruikers bekijken, waaronder actuele incidenten, actieve waarschuwingen en risiconiveau, evenals blootstelling van gebruikers, accounts, apparaten en meer.
 
-Daarnaast kunt u rechtstreeks actie ondernemen in het Microsoft 365-beveiligingscentrum om een gecompromitteerde gebruiker aan te pakken, om te bevestigen dat de gebruiker is gecompromitteerd of dat hij of zij zich opnieuw moet aanmelden.
+Daarnaast kunt u rechtstreeks actie ondernemen in het Microsoft 365 beveiligingscentrum om een gecompromitteerde gebruiker aan te pakken, waarbij wordt bevestigd dat de gebruiker is gecompromitteerd of dat hij of zij zich opnieuw moet aanmelden.
 
 Hier kunt u Ga naar gebruikerspagina selecteren **om** de details van een gebruikersaccount te bekijken. Hier is een voorbeeld.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Voorbeeld van de pagina met gebruikersaccounts voor een incident in het Microsoft 365-beveiligingscentrum":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Voorbeeld van de pagina gebruikersaccount voor een incident in het Microsoft 365 beveiligingscentrum":::
 
 U kunt deze pagina ook zien door de naam van het gebruikersaccount te selecteren in de lijst op de **pagina** Gebruikers.
 
-De gebruikerspagina van het Microsoft 365-beveiligingscentrum combineert gegevens van Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit en Microsoft Cloud App Security (afhankelijk van welke licenties u hebt). 
+Op Microsoft 365 pagina van het beveiligingscentrum worden gegevens van Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit en Microsoft Cloud App Security (afhankelijk van welke licenties u hebt) gecombineerd. 
 
 Op deze pagina ziet u informatie die specifiek is voor het beveiligingsrisico van een gebruikersaccount. Dit omvat een score die helpt bij het beoordelen van risico's en recente gebeurtenissen en waarschuwingen die hebben bijgedragen aan het algehele risico van de gebruiker.
 
@@ -64,13 +64,13 @@ Op deze pagina kunt u deze extra acties uitvoeren:
 - Het gebruikersaccount markeren als gecompromitteerd
 - De gebruiker verplichten zich opnieuw aan te melden
 - Het gebruikersaccount opschorten
-- De gebruikersaccountinstellingen van Azure Active Directory (Azure AD) bekijken
+- De gebruikersaccountinstellingen Azure Active Directory (Azure AD) bekijken
 - De bestanden weergeven die eigendom zijn van het gebruikersaccount
 - Bestanden weergeven die met deze gebruiker zijn gedeeld. 
 
 Hier is een voorbeeld.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Voorbeeld van de acties op een gebruikersaccount voor een incident in het Microsoft 365-beveiligingscentrum":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Voorbeeld van de acties op een gebruikersaccount voor een incident in het Microsoft 365 beveiligingscentrum":::
 
 
 <!--
@@ -80,7 +80,11 @@ Learn more about how to investigate users and potential risk [in this Cloud App 
 
 --> 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="next-steps"></a>Volgende stappen
+
+Ga zo nodig door met uw onderzoek als dit nodig is voor incidenten in [de procedure.](investigate-incidents.md)
+
+## <a name="see-also"></a>Zie ook
 
 - [Overzicht van incidenten](incidents-overview.md)
 - [Prioriteit geven aan incidenten](incident-queue.md)

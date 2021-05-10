@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f05ffa119ca03243cba1904867054bd1dab25c46
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 4c0e3a80eb4233501a57206c761bb4285dc851a8
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545966"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298086"
 ---
-# <a name="contact-support-for-mali"></a>Contact opnemen met ondersteuning voor Mali
+# <a name="contact-support-for-mali"></a>Neem contact op met ondersteuning voor Mali
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 +1 312 843 5147
@@ -29,14 +29,14 @@ ms.locfileid: "50545966"
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Frans: Mon-Fri 08:00- 16:00 uur
+Frans: Mon-Fri 8:00-16:00
 
-Engels: Mon-Fri 08:00- 16:00 uur
+Engels: Mon-Fri 8:00-16:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: Mon-Fri 07.00 tot 20.00 uur
+Frans: Mon-Fri 07:00-20:00
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Internationale gesprekskosten zijn van toepassing
+Internationale oproepkosten zijn van toepassing

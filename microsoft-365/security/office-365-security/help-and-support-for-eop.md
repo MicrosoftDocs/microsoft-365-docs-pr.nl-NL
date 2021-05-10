@@ -13,12 +13,12 @@ ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en ondersteuning met ondersteuning.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5859adec666fc8cd957ab0b199a1bd600279288f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 85d6c23dcec77fac6a91ae353bce951c005a4b29
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204200"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298026"
 ---
 # <a name="help-and-support-for-eop"></a>Help en ondersteuning voor EOP
 
@@ -29,25 +29,25 @@ ms.locfileid: "51204200"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, helpen de technische ondersteuningsbronnen in dit artikel u om antwoorden te vinden als u problemen hebt met EOP. Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en ondersteuning met ondersteuning.
+In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, kunnen de technische ondersteuningsbronnen in dit artikel u helpen antwoorden te vinden als u problemen hebt met EOP. Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en ondersteuning met ondersteuning.
 
 ## <a name="self-support-options"></a>Opties voor zelfondersteuning
 
-Wanneer u zich hebt aanmelden, biedt het Microsoft 365-beheercentrum informatie over de status van de services van uw organisatie. In de sectie Servicestatus wordt ook de huidige status van uw services, details over onderbrekingen en storingen en geplande onderhoudstijden vermeld. Het Microsoft 365-beheercentrum biedt ook informatie over bekende problemen en verwachte oplossingen. Als u wordt beïnvloed door een gebeurtenis voor de hele service, ziet u een communicatiemelding (meestal vergezeld van een belpictogram). U wordt aangeraden items te lezen en te handelen. Zie Service health and continuity (Service health and continuity) voor meer informatie over het gebied voor [service-status.](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity) U kunt mogelijk zelf meer hulp vinden met behulp van de hulpprogramma's, forums en communitysites die hier worden vermeld.
+Wanneer u zich aanlogt, Microsoft 365 het beheercentrum informatie over de status van de services van uw organisatie. In de sectie Servicestatus wordt ook de huidige status van uw services, details over onderbrekingen en storingen en geplande onderhoudstijden vermeld. Het Microsoft 365 beheercentrum bevat ook informatie over bekende problemen en verwachte oplossingen. Als u wordt beïnvloed door een gebeurtenis voor de hele service, ziet u een communicatiemelding (meestal vergezeld van een belpictogram). U wordt aangeraden items te lezen en te handelen. Zie Service health and continuity (Service health and continuity) voor meer informatie over het gebied voor [service-status.](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity) U kunt mogelijk zelf meer hulp vinden met behulp van de hulpprogramma's, forums en communitysites die hier worden vermeld.
 
 [Productoverzicht voor Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders](../../admin/contact-support-for-business-products.md)
+[Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders](../../business-video/get-help-support.md)
 
-[Microsoft 365-community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
+[Microsoft 365 community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
-[Microsoft Support and Recovery Assistant (SaRA)](https://support.microsoft.com/office/e90bb691-c2a7-4697-a94f-88836856c72f)
+[Microsoft Ondersteunings- en herstelassistent (Ondersteunings- en herstelassistent)](https://support.microsoft.com/office/e90bb691-c2a7-4697-a94f-88836856c72f)
 
 [Probleemoplosser voor e-mailstroom](https://aka.ms/FixEmail)
 
 ## <a name="assisted-support-from-microsoft"></a>Ondersteunde ondersteuning van Microsoft
 
-U kunt hulp krijgen van Microsoft door een nieuwe serviceaanvraag te starten in het Microsoft 365-beheercentrum of door te bellen via de telefoon. Premier Support-abonnees hebben extra ondersteuningsopties.
+U kunt hulp krijgen van Microsoft door een nieuwe serviceaanvraag te starten in het Microsoft 365 beheercentrum of door te bellen via de telefoon. Premier Support-abonnees hebben extra ondersteuningsopties.
 
 ### <a name="support-for-microsoft-premier-support-subscribers"></a>Ondersteuning voor abonnees van Microsoft Premier Support
 
@@ -57,7 +57,7 @@ Zie Premier Support for Partners voor meer informatie over hoe Premier Support u
 
 ### <a name="ask-for-help-on-the-web"></a>Hulp vragen op het web
 
-1. Meld u aan bij het Microsoft 365-beheercentrum.
+1. Meld u aan bij het Microsoft 365 beheercentrum.
 
 2. Ga naar **Ondersteuning vragen** om \> **nieuwe serviceaanvraag voor** \> **klantenondersteuning**
 
@@ -65,7 +65,7 @@ Zie Premier Support for Partners voor meer informatie over hoe Premier Support u
 
 ### <a name="ask-for-help-on-the-telephone"></a>Telefonisch om hulp vragen
 
-1. Meld u aan bij het Microsoft 365-beheercentrum.
+1. Meld u aan bij het Microsoft 365 beheercentrum.
 
 2. Voor algemene productproblemen gaat u naar **Ondersteuningsvraag** voor de technische ondersteuning \>  \> **van de klantenservice.**
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 97971699ec6000ab9233c2fd739f471cdda01b2d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 47d494016161f306745ea4116c95c22bd18e1402
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933851"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300071"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support-for-us-government-customers"></a>Neem contact op met Microsoft Defender voor endpoint-ondersteuning voor klanten van de Amerikaanse overheid
 
@@ -39,12 +39,12 @@ Als u een ondersteuningscase wilt openen, moet u zich aanmelden bij uw Microsoft
 
 Omgeving | Portal-URL
 :---|:---
-GCC-M op commercial | [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com)
+GCC-M op Commercial | [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com)
 GCC-M | [https://gcc.securitycenter.microsoft.us](https://gcc.securitycenter.microsoft.us)
 GCC-H | [https://securitycenter.microsoft.us](https://securitycenter.microsoft.us)
 DoD | [https://securitycenter.microsoft.us](https://securitycenter.microsoft.us)
 
-Als u zich niet kunt aanmelden bij de portal, kunt u ook een ondersteuningscase openen met de [telefoon.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=phone&preserve-view=true)
+Als u zich niet kunt aanmelden bij de portal, kunt u ook een ondersteuningscase openen met de [telefoon.](../../business-video/get-help-support.md)
 
 ## <a name="opening-a-support-case"></a>Een ondersteuningscase openen
 Zie Contact opnemen met [Microsoft Defender voor endpoint-ondersteuning](contact-support.md)voor vereisten en instructies.

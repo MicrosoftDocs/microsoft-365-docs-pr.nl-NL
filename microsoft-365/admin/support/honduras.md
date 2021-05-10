@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Information for Salvadors
+title: Ondersteuningsinformatie voor Honduras
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -10,30 +10,30 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 62b2d6516e44b7bcd9b76e427491697046092882
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: dbc862fbab11e3fe16783bd3269cd18e9599a8bf
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546914"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298657"
 ---
-# <a name="contact-support-for-honduras"></a>Contact opnemen met ondersteuning voor Fors
+# <a name="contact-support-for-honduras"></a>Neem contact op met ondersteuning voor Honduras
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 800 0123
 
-Na het bellen voert u
+Na het kiezen voert u
 
 877 635 7034
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Spaans: Mon-Fri 09:00- 17:00 uur
+Spaans: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7ba21e08f72760654993335764df00e78abc87b2
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 8d29291c63bdc437163feecce8164089d958d71d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939716"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52299962"
 ---
 # <a name="get-incident-notifications-by-email"></a>Meldingen van incidenten per e-mail ontvangen
 
@@ -37,13 +37,13 @@ ms.locfileid: "51939716"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-U kunt Microsoft 365 Defender instellen om uw personeel via een e-mail op de hoogte te stellen van nieuwe incidenten of updates voor bestaande incidenten. U kunt ervoor kiezen om meldingen te ontvangen op basis van:
+U kunt een Microsoft 365 defender instellen om uw personeel via een e-mail op de hoogte te stellen van nieuwe incidenten of updates voor bestaande incidenten. U kunt ervoor kiezen om meldingen te ontvangen op basis van:
 
 - Incident ernst.
 - Apparaatgroep.
 - Alleen bij de eerste update per incident.
 
-De e-mailmelding bevat belangrijke details over het incident, zoals de naam van het incident, de ernst en de categorieën. U kunt ook rechtstreeks naar het incident gaan en uw analyse meteen starten. Zie Incidenten analyseren voor [meer informatie.](investigate-incidents.md)
+De e-mailmelding bevat belangrijke details over het incident, zoals de naam van het incident, de ernst en de categorieën. U kunt ook rechtstreeks naar het incident gaan en uw analyse meteen starten. Zie Incidenten [onderzoeken voor meer informatie.](investigate-incidents.md)
 
 U kunt geadresseerden toevoegen of verwijderen in de e-mailmeldingen. Nieuwe geadresseerden krijgen een melding over incidenten nadat ze zijn toegevoegd. 
 
@@ -63,7 +63,7 @@ Volg deze stappen om een nieuwe regel te maken en instellingen voor e-mailmeldin
     - **Bereik van apparaatgroep:** u kunt alle apparaatgroepen opgeven of selecteren in de lijst met apparaatgroepen in uw tenant.
     - **Alleen een melding bij eerste gebeurtenis per incident-** Selecteer of u alleen een melding wilt ontvangen bij de eerste waarschuwing die overeenkomt met uw andere selecties. Latere updates of waarschuwingen met betrekking tot het incident sturen geen extra meldingen.
     - **Naam van organisatie opnemen in het e-mailbericht:** selecteer of de naam van uw organisatie moet worden weergegeven in de e-mailmelding.
-    - **Tenantspecifieke portalkoppeling** opnemen: selecteer of u een koppeling met de tenant-id wilt toevoegen in de e-mailmelding voor toegang tot een specifieke Microsoft 365-tenant.
+    - **Tenantspecifieke portalkoppeling opnemen:** selecteer of u een koppeling met de tenant-id wilt toevoegen in de e-mailmelding voor toegang tot een specifieke Microsoft 365 tenant.
 
     :::image type="content" source="../../media/get-incident-notifications/incidents-ss-email-notification-settings.png" alt-text="Meldingsinstellingen voor meldingen van incidenten":::
 
@@ -77,4 +77,4 @@ Als u een bestaande regel wilt bewerken, selecteert u deze in de lijst met regel
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten](incidents-overview.md)
 - [Prioriteit geven aan incidenten](incident-queue.md)
-- [Incidenten analyseren](investigate-incidents.md)
+- [Incidenten onderzoeken](investigate-incidents.md)

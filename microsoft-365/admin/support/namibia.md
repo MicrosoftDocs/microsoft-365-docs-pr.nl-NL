@@ -10,18 +10,18 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cfcc66e15a21971a8baa3546fb45fd013da94ce4
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 19d37bad5fa6f189a3702fe1980bb28c89a1f0c9
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545522"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297990"
 ---
-# <a name="contact-support-for-namibia"></a>Contact opnemen met ondersteuning voor Namibië
+# <a name="contact-support-for-namibia"></a>Neem contact op met de ondersteuning voor Namibië
 
-[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Telefoonnummer
 061 292 5016
@@ -33,10 +33,10 @@ Code 7705 invoeren
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: Mon-Fri 09:00- 17:00 uur
+Engels: Mon-Fri 9:00-17:00
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
 Engels: 24 uur per dag, 7 dagen per week
 
-Lokale gesprekskosten zijn van toepassing
+Lokale oproepkosten zijn van toepassing
