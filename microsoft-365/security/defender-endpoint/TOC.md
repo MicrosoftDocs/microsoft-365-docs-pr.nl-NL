@@ -344,6 +344,8 @@
 #### [Apparaatbesturing]()
 ##### [Rapporten voor apparaatbesturing](device-control-report.md)
 ##### [USB-apparaten beheren](control-usb-devices-using-intune.md)
+##### [Verwisselbare opslagbeveiliging](device-control-removable-storage-protection.md)
+##### [Verwisselbaar toegangsbeheer voor opslag](device-control-removable-storage-access-control.md)
 
 #### [Gedragsblokkering en -insluiting]()
 ##### [Gedragsblokkering en -insluiting](behavioral-blocking-containment.md)
