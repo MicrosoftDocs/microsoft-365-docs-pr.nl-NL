@@ -10,35 +10,35 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8de63fad7741171dc628ff9064796d64dccd96da
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 55b2406147272cf1aff69e0469f1cc7e6fce9ef2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544250"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295173"
 ---
-# <a name="contact-support-for-spain"></a><span data-ttu-id="25644-103">Contact opnemen met ondersteuning voor Spanje</span><span class="sxs-lookup"><span data-stu-id="25644-103">Contact support for Spain</span></span>
+# <a name="contact-support-for-spain"></a><span data-ttu-id="313f7-103">Neem contact op met de ondersteuning voor Spanje</span><span class="sxs-lookup"><span data-stu-id="313f7-103">Contact support for Spain</span></span>
 
-<span data-ttu-id="25644-104">[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="25644-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="313f7-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="313f7-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="25644-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="25644-105">Phone number</span></span>
-<span data-ttu-id="25644-106">900 814 197</span><span class="sxs-lookup"><span data-stu-id="25644-106">900 814 197</span></span>
+## <a name="phone-number"></a><span data-ttu-id="313f7-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="313f7-105">Phone number</span></span>
+<span data-ttu-id="313f7-106">900 814 197</span><span class="sxs-lookup"><span data-stu-id="313f7-106">900 814 197</span></span>
 
-## <a name="hours"></a><span data-ttu-id="25644-107">Uren</span><span class="sxs-lookup"><span data-stu-id="25644-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="25644-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="25644-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="313f7-107">Uren</span><span class="sxs-lookup"><span data-stu-id="313f7-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="313f7-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="313f7-108">Billing Support:</span></span>
 
-<span data-ttu-id="25644-109">Spaans: Mon-Fri 09:00- 17:00 uur</span><span class="sxs-lookup"><span data-stu-id="25644-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="313f7-109">Spaans: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="313f7-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="25644-110">Engels: Mon-Fri 09:00- 17:00 uur</span><span class="sxs-lookup"><span data-stu-id="25644-110">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="313f7-110">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="313f7-110">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="25644-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="25644-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="313f7-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="313f7-111">Technical Support:</span></span>
 
-<span data-ttu-id="25644-112">Spaans: Mon-Fri 08:00- 21:00 uur</span><span class="sxs-lookup"><span data-stu-id="25644-112">Spanish: Mon-Fri 8 AM-9 PM</span></span>
+<span data-ttu-id="313f7-112">Spaans: Mon-Fri 8:00-21:00 uur</span><span class="sxs-lookup"><span data-stu-id="313f7-112">Spanish: Mon-Fri 8 AM-9 PM</span></span>
 
-<span data-ttu-id="25644-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="25644-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="313f7-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="313f7-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="25644-114">Alternatief telefoonnummer: 912 718 160</span><span class="sxs-lookup"><span data-stu-id="25644-114">Alternative Phone Number: 912 718 160</span></span>
+<span data-ttu-id="313f7-114">Alternatief Telefoon getal: 912 718 160</span><span class="sxs-lookup"><span data-stu-id="313f7-114">Alternative Phone Number: 912 718 160</span></span>
 
-<span data-ttu-id="25644-115">Lokale gesprekskosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="25644-115">Local call charges apply</span></span>
+<span data-ttu-id="313f7-115">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="313f7-115">Local call charges apply</span></span>
