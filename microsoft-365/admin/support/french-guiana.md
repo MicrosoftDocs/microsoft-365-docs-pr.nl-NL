@@ -10,33 +10,33 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 615170c8fd6bc044bca41963502392ff2f3be57e
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 788641b549119229307a179dbfebed09b2a4c0b0
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547394"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296213"
 ---
-# <a name="contact-support-for-french-guiana"></a><span data-ttu-id="c68a5-103">Contact opnemen met ondersteuning voor Frans-Guyana</span><span class="sxs-lookup"><span data-stu-id="c68a5-103">Contact support for French Guiana</span></span>
+# <a name="contact-support-for-french-guiana"></a><span data-ttu-id="910da-103">Neem contact op met ondersteuning voor Frans-Guyana</span><span class="sxs-lookup"><span data-stu-id="910da-103">Contact support for French Guiana</span></span>
 
-<span data-ttu-id="c68a5-104">[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="c68a5-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="910da-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="910da-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="c68a5-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="c68a5-105">Phone number</span></span>
-<span data-ttu-id="c68a5-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="c68a5-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="910da-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="910da-105">Phone number</span></span>
+<span data-ttu-id="910da-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="910da-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="c68a5-107">Uren</span><span class="sxs-lookup"><span data-stu-id="c68a5-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="c68a5-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="c68a5-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="910da-107">Uren</span><span class="sxs-lookup"><span data-stu-id="910da-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="910da-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="910da-108">Billing Support:</span></span>
 
-<span data-ttu-id="c68a5-109">Frans: Mon-Fri 05:00- 13:00 uur</span><span class="sxs-lookup"><span data-stu-id="c68a5-109">French: Mon-Fri 5 AM-1 PM</span></span>
+<span data-ttu-id="910da-109">Frans: Mon-Fri 05.00-13.00 uur</span><span class="sxs-lookup"><span data-stu-id="910da-109">French: Mon-Fri 5 AM-1 PM</span></span>
 
-<span data-ttu-id="c68a5-110">Engels: Mon-Fri 05:00- 13:00 uur</span><span class="sxs-lookup"><span data-stu-id="c68a5-110">English: Mon-Fri 5 AM-1 PM</span></span>
+<span data-ttu-id="910da-110">Engels: Mon-Fri 05:00-13:00</span><span class="sxs-lookup"><span data-stu-id="910da-110">English: Mon-Fri 5 AM-1 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="c68a5-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="c68a5-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="910da-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="910da-111">Technical Support:</span></span>
 
-<span data-ttu-id="c68a5-112">Frans: Mon-Fri 04:00- 17:00 uur</span><span class="sxs-lookup"><span data-stu-id="c68a5-112">French: Mon-Fri 4 AM-5 PM</span></span>
+<span data-ttu-id="910da-112">Frans: Mon-Fri 04:00-17:00</span><span class="sxs-lookup"><span data-stu-id="910da-112">French: Mon-Fri 4 AM-5 PM</span></span>
 
-<span data-ttu-id="c68a5-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="c68a5-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="910da-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="910da-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="c68a5-114">Internationale gesprekskosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="c68a5-114">International call charges apply</span></span>
+<span data-ttu-id="910da-114">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="910da-114">International call charges apply</span></span>

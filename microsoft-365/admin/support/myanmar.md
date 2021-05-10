@@ -10,29 +10,29 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cfd5d8c5e2d091d8a708c84c36175f45ba8e3392
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: a214e658c1d7fd38f1ff768c695ea006f65019bf
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545582"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295697"
 ---
-# <a name="contact-support-for-myanmar"></a><span data-ttu-id="c0701-103">Contact opnemen met ondersteuning voor Myanmar</span><span class="sxs-lookup"><span data-stu-id="c0701-103">Contact support for Myanmar</span></span>
+# <a name="contact-support-for-myanmar"></a><span data-ttu-id="a73d3-103">Neem contact op met de ondersteuning voor Myanmar</span><span class="sxs-lookup"><span data-stu-id="a73d3-103">Contact support for Myanmar</span></span>
 
-<span data-ttu-id="c0701-104">[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="c0701-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="a73d3-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a73d3-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="c0701-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="c0701-105">Phone number</span></span>
-<span data-ttu-id="c0701-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="c0701-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a73d3-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="a73d3-105">Phone number</span></span>
+<span data-ttu-id="a73d3-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="a73d3-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="c0701-107">Uren</span><span class="sxs-lookup"><span data-stu-id="c0701-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="c0701-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="c0701-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a73d3-107">Uren</span><span class="sxs-lookup"><span data-stu-id="a73d3-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a73d3-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="a73d3-108">Billing Support:</span></span>
 
-<span data-ttu-id="c0701-109">Engels: Mon-Fri 09:00- 17:00 uur</span><span class="sxs-lookup"><span data-stu-id="c0701-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="a73d3-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="a73d3-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="c0701-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="c0701-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a73d3-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="a73d3-110">Technical Support:</span></span>
 
-<span data-ttu-id="c0701-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="c0701-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a73d3-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="a73d3-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="c0701-112">Internationale gesprekskosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="c0701-112">International call charges apply</span></span>
+<span data-ttu-id="a73d3-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="a73d3-112">International call charges apply</span></span>
