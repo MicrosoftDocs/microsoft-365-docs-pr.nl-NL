@@ -119,11 +119,11 @@
               href: add-users/remove-former-employee.md
             - name: Stap 1. Voorkomen dat een werknemer zich kan aanmelden en toegang tot Microsoft 365-services kan blokkeren
               href: add-users/remove-former-employee-step-1.md
-            - name: Stap 2. De inhoud van het postvak van een voormalige werknemer opslaan
+            - name: Step 2. De inhoud van het postvak van een voormalige werknemer opslaan
               href: add-users/remove-former-employee-step-2.md
-            - name: Stap 3. E-mail van een voormalige werknemer doorsturen naar een andere werknemer of converteren naar een gedeeld postvak
+            - name: Step 3. E-mail van een voormalige werknemer doorsturen naar een andere werknemer of converteren naar een gedeeld postvak
               href: add-users/remove-former-employee-step-3.md
-            - name: Stap 4. Een andere werknemer toegang geven tot OneDrive- en Outlook-gegevens
+            - name: Step 4. Een andere werknemer toegang geven tot OneDrive- en Outlook-gegevens
               href: add-users/remove-former-employee-step-4.md
             - name: Stap 5. Het mobiele apparaat van een voormalige werknemer wissen en blokkeren
               href: add-users/remove-former-employee-step-5.md
@@ -273,8 +273,6 @@
           href: manage/manage-office-scripts-settings.md
         - name: Een partner of wederverkoper zoeken
           href: manage/find-your-partner-or-reseller.md
-        - name: Microsoft Rewards beheren
-          href: manage/manage-microsoft-rewards.md
         - name: Microsoft feedback voor uw organisatie beheren
           href: /admin/manage/manage-feedback-ms-org.md
         - name: Releaseopties instellen
@@ -422,4 +420,4 @@
     - name: Problemen oplossen
       href: /office/troubleshoot/
     - name: Contact opnemen met de ondersteuning
-      href: contact-support-for-business-products.md
+      href: ../business-video/get-help-support.md
