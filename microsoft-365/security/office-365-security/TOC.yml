@@ -38,8 +38,14 @@
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: Overzicht van Microsoft 365-beveiligingscentrum
           href: ../defender/overview-security-center.md
-        - name: Bedreigingsverkenner (en realtime detecties)
-          href: threat-explorer.md
+        - name: Bedreigingsverkenner voor Defender voor Office 365
+          items:
+            - name: Bedreigingen opsporen in Bedreigingsverkenner
+              href: threat-hunting-in-threat-explorer.md
+            - name: E-mailbeveiliging met Bedreigingsverkenner
+              href: email-security-in-microsoft-defender.md
+            - name: Bedreigingsverkenner en basisbeginselen van realtime detecties
+              href: real-time-detections.md
         - name: Entiteitspagina van e-mail
           href: mdo-email-entity-page.md
         - name: AIR-overzicht
@@ -188,6 +194,8 @@
           href: message-trace-scc.md
         - name: Berichten en bestanden rapporteren aan Microsoft
           href: report-junk-email-messages-to-microsoft.md
+        - name: De invoegtoepassingen Bericht rapporteren en Phishing rapporteren inschakelen
+          href: enable-the-report-message-add-in.md
         - name: E-mailstroomregels gebruiken om berichten met uitvoerbare bijlagen te blokkeren in standalone EOP
           href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
         - name: E-mailstroomregels gebruiken om bulk-e-mail te filteren in standalone EOP
