@@ -10,33 +10,33 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 397357f7a66ed9e8cb405088c9b61f3387f0d839
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 25bbc1b643b7b69975d2886cda8ba762fc41c165
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544982"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297846"
 ---
-# <a name="contact-support-for-portugal"></a><span data-ttu-id="68916-103">Contact opnemen met ondersteuning voor Portugal</span><span class="sxs-lookup"><span data-stu-id="68916-103">Contact support for Portugal</span></span>
+# <a name="contact-support-for-portugal"></a><span data-ttu-id="2a652-103">Neem contact op met de ondersteuning voor Portugal</span><span class="sxs-lookup"><span data-stu-id="2a652-103">Contact support for Portugal</span></span>
 
-<span data-ttu-id="68916-104">[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="68916-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="2a652-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="2a652-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="68916-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="68916-105">Phone number</span></span>
-<span data-ttu-id="68916-106">800 208 745</span><span class="sxs-lookup"><span data-stu-id="68916-106">800 208 745</span></span>
+## <a name="phone-number"></a><span data-ttu-id="2a652-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="2a652-105">Phone number</span></span>
+<span data-ttu-id="2a652-106">800 208 745</span><span class="sxs-lookup"><span data-stu-id="2a652-106">800 208 745</span></span>
 
-## <a name="hours"></a><span data-ttu-id="68916-107">Uren</span><span class="sxs-lookup"><span data-stu-id="68916-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="68916-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="68916-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="2a652-107">Uren</span><span class="sxs-lookup"><span data-stu-id="2a652-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="2a652-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="2a652-108">Billing Support:</span></span>
 
-<span data-ttu-id="68916-109">Engels: Mon-Fri 09:00- 17:00 uur</span><span class="sxs-lookup"><span data-stu-id="68916-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="2a652-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="2a652-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="68916-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="68916-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="2a652-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="2a652-110">Technical Support:</span></span>
 
-<span data-ttu-id="68916-111">Portugees: Mon-Fri 08:00- 18:00 uur</span><span class="sxs-lookup"><span data-stu-id="68916-111">Portuguese: Mon-Fri 8 AM-6 PM</span></span>
+<span data-ttu-id="2a652-111">Portugees: Mon-Fri 8:00-18:00</span><span class="sxs-lookup"><span data-stu-id="2a652-111">Portuguese: Mon-Fri 8 AM-6 PM</span></span>
 
-<span data-ttu-id="68916-112">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="68916-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="2a652-112">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="2a652-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="68916-113">Alternatief telefoonnummer: 21 366 5030</span><span class="sxs-lookup"><span data-stu-id="68916-113">Alternative Phone Number: 21 366 5030</span></span>
+<span data-ttu-id="2a652-113">Alternatief Telefoon getal: 21 366 5030</span><span class="sxs-lookup"><span data-stu-id="2a652-113">Alternative Phone Number: 21 366 5030</span></span>
 
-<span data-ttu-id="68916-114">Lokale gesprekskosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="68916-114">Local call charges apply</span></span>
+<span data-ttu-id="2a652-114">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="2a652-114">Local call charges apply</span></span>

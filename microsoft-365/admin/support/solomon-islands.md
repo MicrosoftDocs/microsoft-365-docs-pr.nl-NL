@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Salomonseilanden
+title: Ondersteuningsinformatie voor salomonseilanden
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -10,29 +10,29 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce709131b7a2e25a352a2cdafdf0bb79c98b4f3b
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 00e1bdfce00cc3a0a83bc89d5b1639764a4b2aaa
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544322"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297690"
 ---
-# <a name="contact-support-for-solomon-islands"></a><span data-ttu-id="cb267-103">Contact opnemen met ondersteuning voor Salomonseilanden</span><span class="sxs-lookup"><span data-stu-id="cb267-103">Contact support for Solomon Islands</span></span>
+# <a name="contact-support-for-solomon-islands"></a><span data-ttu-id="45357-103">Neem contact op met ondersteuning voor salomonseilanden</span><span class="sxs-lookup"><span data-stu-id="45357-103">Contact support for Solomon Islands</span></span>
 
-<span data-ttu-id="cb267-104">[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="cb267-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="45357-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="45357-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="cb267-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="cb267-105">Phone number</span></span>
-<span data-ttu-id="cb267-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="cb267-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="45357-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="45357-105">Phone number</span></span>
+<span data-ttu-id="45357-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="45357-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="cb267-107">Uren</span><span class="sxs-lookup"><span data-stu-id="cb267-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="cb267-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="cb267-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="45357-107">Uren</span><span class="sxs-lookup"><span data-stu-id="45357-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="45357-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="45357-108">Billing Support:</span></span>
 
-<span data-ttu-id="cb267-109">Engels: Mon-Fri 09:00- 17:00 uur</span><span class="sxs-lookup"><span data-stu-id="cb267-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="45357-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="45357-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="cb267-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="cb267-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="45357-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="45357-110">Technical Support:</span></span>
 
-<span data-ttu-id="cb267-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="cb267-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="45357-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="45357-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="cb267-112">Internationale gesprekskosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="cb267-112">International call charges apply</span></span>
+<span data-ttu-id="45357-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="45357-112">International call charges apply</span></span>
