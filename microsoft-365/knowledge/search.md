@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Meer informatie over hoe u kunt zoeken naar onderwerpen in Microsoft Viva.
-ms.openlocfilehash: 15b42c9d3689a73c865be53bb29f298fcbf896bd
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 54a143ea0960bf56a0d1c5224658bea404c7621e
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281040"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301714"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search gebruiken om onderwerpen te zoeken in Microsoft Viva-onderwerpen
 
@@ -36,7 +36,7 @@ Het antwoord op het onderwerp wordt weergegeven:
 
 De onderwerppagina kan worden weergegeven in de zoekresultaten, zelfs als de antwoordkaart voor het onderwerp niet wordt weergegeven.
 
-In de zoekresultaten in Word en PowerPoint wordt ook het antwoord op het onderwerp als er een wordt gevonden.
+In de zoekresultaten in Word, PowerPoint, Outlook en Excel wordt ook het antwoord op het onderwerp als er een wordt gevonden.
 
 
 ## <a name="acronyms"></a>Acroniems

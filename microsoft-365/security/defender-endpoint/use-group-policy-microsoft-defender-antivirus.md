@@ -10,18 +10,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/07/2021
+ms.date: 05/08/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 81cba445482b1fceb8bd520f2be88d55db2a47fb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 74f58959c22313806ebc95aef14e8ccb2d75326b
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296729"
+ms.locfileid: "52302098"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Groepsbeleidsinstellingen gebruiken voor het configureren en beheren van Microsoft Defender Antivirus
 
@@ -55,7 +55,7 @@ In het algemeen kunt u de volgende procedure gebruiken voor het configureren of 
 De volgende tabel in dit onderwerp bevat de groepsbeleidsinstellingen die beschikbaar zijn in Windows 10, versie 1703, en bevat koppelingen naar het juiste onderwerp in deze documentatiebibliotheek (indien van toepassing). 
 
 > [!TIP]
-> [Download het groepsbeleid Instellingen Reference Spreadsheet voor Windows 10 update van mei 2020 (2004).](https://www.microsoft.com/download/101451) Deze spreadsheet bevat de beleidsinstellingen voor computer- en gebruikersconfiguraties die zijn opgenomen in de beheerssjabloonbestanden die zijn geleverd met voor Windows 10 Mei 2020 Update (2004). U kunt deze beleidsinstellingen configureren wanneer u Groepsbeleidsobjecten bewerkt.
+> [Download het groepsbeleid Instellingen Reference Spreadsheet voor Windows 10 update van mei 2020 (2004).](https://www.microsoft.com/download/101451) Deze spreadsheet bevat de beleidsinstellingen voor computer- en gebruikersconfiguraties die zijn opgenomen in de beheerssjabloonbestanden die zijn geleverd met voor Windows 10 Mei 2020 Update (2004). U kunt het werkblad configureren wanneer u Groepsbeleidsobjecten bewerkt.
 
 | Locatie | Instelling | Artikel |
 |:---|:---|:---|

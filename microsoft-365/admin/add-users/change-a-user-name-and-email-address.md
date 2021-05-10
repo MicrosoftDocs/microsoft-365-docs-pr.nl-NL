@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: 94ed05d87fa290f2ae1059ae04c62c5d0d5e6860
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: a785ef17f0823429ad5eb216a330dc6f04dc7761
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023771"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291017"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -63,7 +63,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Gebruikersnaam/e-mailadres** de optie **Bewerken**.
 
-3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst.
+3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein kiezen voor de nieuwe e-mailalias in de vervolgkeuzelijst.
 
 4. Kies **Opslaan**.
 
@@ -75,7 +75,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Gebruikersnaam/e-mailadres** de optie **Bewerken**.
 
-3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst.
+3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein kiezen voor de nieuwe e-mailalias in de vervolgkeuzelijst.
 
 4. Kies **Opslaan**.
 
@@ -221,7 +221,7 @@ Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorg
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>'Een parameter die overeenkomt met de parameternaam EmailAddresses kan niet worden gevonden'
 
-Als het foutbericht **Een parameter die overeenkomt met de parameternaam 'EmailAddresses' kan niet worden gevonden** wordt weergegeven, betekent dit dat nog wat tijd nodig is om uw tenant of uw aangepaste domein in te stellen, als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even zodat de instellingsprocedure kan worden voltooid, en probeer het vervolgens opnieuw. Als het probleem aanhoudt, belt u de [ondersteuning](../contact-support-for-business-products.md). Zij voeren dan een volledige synchronisatie voor u uit.
+Als het foutbericht **Een parameter die overeenkomt met de parameternaam 'EmailAddresses' kan niet worden gevonden** wordt weergegeven, betekent dit dat nog wat tijd nodig is om uw tenant of uw aangepaste domein in te stellen, als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even zodat de instellingsprocedure kan worden voltooid, en probeer het vervolgens opnieuw. Als het probleem aanhoudt, belt u de [ondersteuning](../../business-video/get-help-support.md). Zij voeren dan een volledige synchronisatie voor u uit.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>'De gebruiker kan niet worden bewerkt. Controleer de gebruiker en probeer het opnieuw'
 

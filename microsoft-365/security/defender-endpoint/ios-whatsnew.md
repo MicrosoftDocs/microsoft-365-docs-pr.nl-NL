@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 76abde885aa16c174bb81d22e5939d47894a59bf
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 64a96256ff4bb4b77ec634195f6d89b92252142a
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934967"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301762"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>Nieuwe functies in Microsoft Defender voor Eindpunt in iOS
 
@@ -37,11 +37,13 @@ Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis pro
 
 ## <a name="1115140101"></a>1.1.15140101
 
-- De microsoft Defender ATP-productnaam is nu bijgewerkt naar Microsoft Defender voor Eindpunt in de app Store.
+- **Jailbreak Detection** is in preview. Zie Beleid voor voorwaardelijke toegang [instellen op basis van apparaatrisicosignalen voor meer informatie.](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)
+- **Auto-setup van VPN-profiel** is in preview voor geregistreerde apparaten via Microsoft Endpoint Manager (Intune). Zie VPN-profiel automatisch instellen voor [geregistreerde iOS-apparaten](ios-install.md#auto-onboarding-of-vpn-profile-simplified-onboarding)voor meer informatie.
+- De Microsoft Defender ATP productnaam is nu bijgewerkt naar Microsoft Defender voor Eindpunt in de App Store.
 - Verbeterde aanmeldingservaring.
 - Bug fixes.
 
 ## <a name="1115010101"></a>1.1.15010101
 
-- Met deze versie kondigen we ondersteuning aan voor iPadOS/iPad-apparaten.
+- Met deze versie kondigen we ondersteuning aan voor iPadOS/iPad apparaten.
 - Bug fixes.

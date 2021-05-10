@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 20294bf00c62e59da33b54ea0c8ee85f7b1372af
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 76ad8ac14de7b176ae12dc02272e31e790b6b410
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769020"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291029"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -80,7 +80,7 @@ Spoofberichten hebben de volgende negatieve gevolgen voor gebruikers:
 
   ![Legitiem Microsoft-wachtwoordherstelbericht](../../media/58a3154f-e83d-4f86-bcfe-ae9e8c87bd37.jpg)
 
-  Het bericht kwam echt van Microsoft, maar gebruikers zijn geconditioneerd om op te passen. Omdat het moeilijk is om het verschil te zien tussen een echt wachtwoordherstelbericht en een nepbericht, kunnen gebruikers het bericht negeren, als spam rapporteren of het bericht onnodig aan Microsoft als phishing melden.
+  Het bericht was echt van Microsoft afkomstig, maar gebruikers hebben geleerd om achterdochtig te zijn. Omdat het moeilijk is om het verschil te zien tussen een echt wachtwoordherstelbericht en een nepbericht, kunnen gebruikers het bericht negeren, als spam rapporteren of het bericht onnodig aan Microsoft als phishing melden.
 
 ## <a name="different-types-of-spoofing"></a>Verschillende typen spoofing
 
@@ -139,11 +139,11 @@ Mailinglijsten (ook wel discussielijsten genoemd) staan erom bekend dat ze probl
 
 Stel dat Gabriela Laureano (glaureano@contoso.com) geïnteresseerd is in vogels spotten en lid wordt van de mailinglijst vogelspotters@fabrikam.com. Ze stuurt het volgende bericht naar de lijst:
 
-> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br> **Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg?
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br> **Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iemand deze week het uitzicht vanop Mount Rainier bekijken?
 
 De mailinglijstserver ontvangt het bericht, wijzigt de inhoud ervan en speelt het opnieuw af voor de leden van de lijst. Het opnieuw afgespeelde bericht heeft hetzelfde Van-adres (glaureano@contoso.com), maar er wordt een label aan de onderwerpregel toegevoegd en er wordt een voettekst onder aan het bericht toegevoegd. Dit type wijziging komt veel voor in mailinglijsten en kan leiden tot fout-positieven voor spoofing.
 
-> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br> **Betreft:** [VOGELSPOTTERS] Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg? <p> Dit bericht is verzonden naar de Vogelspotters-discussielijst. U kunt zich op elk moment weer afmelden.
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br> **Betreft:** [VOGELSPOTTERS] Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iemand deze week het uitzicht vanop Mount Rainier bekijken? <p> Dit bericht is verzonden naar de Vogelspotters-discussielijst. U kunt zich op elk moment weer afmelden.
 
 Voer de volgende stappen uit, afhankelijk van of u de mailinglijst beheert, om ervoor te zorgen dat mailinglijstberichten anti-spoofingcontroles doorstaan:
 
@@ -163,7 +163,7 @@ Voer de volgende stappen uit, afhankelijk van of u de mailinglijst beheert, om e
 
   - Maak regels voor postvak IN in uw e-mailclient om berichten te verplaatsen naar het postvak IN. U kunt uw beheerders ook vragen om overrides te configureren, zoals besproken in [Spoof-intelligence gebruiken om toegestane afzenders van niet-geverifieerde e-mail te configureren](email-validation-and-authentication.md#use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email).
 
-  - U kunt met Microsoft 365 een ondersteuningsticket maken om een override voor de adressenlijst te maken om deze als legitiem te beschouwen. Raadpleeg voor meer informatie [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voor beheerders](../../admin/contact-support-for-business-products.md).
+  - U kunt met Microsoft 365 een ondersteuningsticket maken om een override voor de adressenlijst te maken om deze als legitiem te beschouwen. Raadpleeg voor meer informatie [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voor beheerders](../../business-video/get-help-support.md).
 
 Als al het andere niet lukt, kunt u het bericht als fout-positief melden aan Microsoft. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 

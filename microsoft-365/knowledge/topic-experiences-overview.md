@@ -14,22 +14,22 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Overzicht van Viva Topics.
-ms.openlocfilehash: 1d66751d55c0144149fa8325e89be404e3df19ed
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: ecd090036f35a3cfdaffe532c800244c8174183b
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281027"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302122"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva Topics 
 
-Viva Topics gebruikt Microsoft AI-technologie, Microsoft 365, Microsoft Graph, Zoeken en andere onderdelen en services om uw gebruikers kennis te brengen in Microsoft 365-apps die ze dagelijks gebruiken, te beginnen met SharePoint moderne pagina's, Microsoft Zoeken en Zoeken in Word en PowerPoint.
+Viva Topics gebruikt Microsoft AI-technologie, Microsoft 365, Microsoft Graph, Zoeken en andere onderdelen en services om uw gebruikers kennis te brengen in Microsoft 365-apps die ze dagelijks gebruiken, te beginnen met SharePoint moderne pagina's, Microsoft Zoeken en Zoeken in Word, PowerPoint, Outlook en Excel.
 
-</br>
+<br/>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LhZP]  
 
-</br>
+<br/>
 
 Met Viva Topics kun je een veelvoorkomend bedrijfsprobleem aanpakken: de informatie verstrekken aan gebruikers wanneer ze dit nodig hebben. Zo moeten nieuwe werknemers snel veel nieuwe informatie opnemen en komen ze bij het doorlezen van bedrijfsgegevens termen tegen waar ze niets van weten. Om meer te weten moet de gebruiker even stoppen waar hij of zij mee bezig is, en gaat kostbare tijd verloren met het zoeken naar informatie, zoals over wat de term is, wie in de organisatie een expert is op een bepaald gebied, en mogelijk aan de term gerelateerde sites en documenten.
 
@@ -42,7 +42,7 @@ Wanneer een onderwerp wordt genoemd in nieuws en SharePoint-pagina's, dan wordt 
 
    ![Belangrijke kenmerken van Topics](../media/knowledge-management/saturn.png) 
 
-Wanneer u Zoeken in Word of PowerPoint, via het zoekvak of door Zoeken **in** het contextmenu te selecteren, kunnen de weergegeven resultaten ook het onderwerpoverzicht weergeven.
+Wanneer u Zoeken in Word, PowerPoint, Outlook of Excel gebruikt, via het zoekvak of door Zoeken **te** selecteren in het contextmenu, kunnen de weergegeven resultaten ook de samenvatting van het onderwerp weergeven.
 
    ![Schermafbeelding van zoeken in Word via het vak Zoeken.](../media/knowledge-management/word-search-2.png)
 
@@ -71,7 +71,7 @@ Wanneer een onderwerp wordt geïdentificeerd en AI bepaalt dat het voldoende inf
 
 Je kennisbeheerders kunnen ervoor kiezen om alle SharePoint-sites in je tenant te verkennen voor onderwerpen, of om alleen bepaalde sites te selecteren.
 
-Zie [Ontdekken en bewaren van onderwerpen](./topic-experiences-discovery-curation.md)
+Zie [Onderwerpdetectie en curatie](./topic-experiences-discovery-curation.md).
 
 ## <a name="roles"></a>Rollen
 
@@ -97,7 +97,7 @@ Kennisbeheerders kunnen:
 
 - Onderwerpen bevestigen of verwijderen die zijn ontdekt in uw tenant.
 - Indien nodig nieuwe onderwerpen maken (als er bijvoorbeeld onvoldoende informatie beschikbaar is om deze via AI te vinden).
-- Bestaande onderwerppagina's bewerken.</br>
+- Bestaande onderwerppagina's bewerken.<br/>
 
 Zie [Onderwerpen beheren in het onderwerpcentrum](manage-topics.md) voor meer informatie.  
 
@@ -125,7 +125,8 @@ Gebruikers die je toegang geeft tot onderwerpen tijdens hun dagelijkse werkzaamh
 
 Daarnaast kunnen gebruikers met de juiste machtigingen items labelen, zoals een Yammer-gesprek dat relevant is voor een onderwerp, en ze toevoegen aan een specifiek onderwerp. 
 
-Zie [Ontdekken en bewaren van onderwerpen](./topic-experiences-discovery-curation.md)
+Zie [Onderwerpdetectie en curatie](./topic-experiences-discovery-curation.md).
 
-
-## <a name="see-also"></a>Zie ook
+<!--
+## See also
+-->

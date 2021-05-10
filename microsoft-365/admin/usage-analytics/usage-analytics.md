@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Krijg een overzicht van hoe uw organisatie gebruik maakt van Microsoft 365 services om te communiceren en samen te werken.
-ms.openlocfilehash: 7d267dcbbb35a03794567991fddb2e3a573d47dc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: ac54e8bbc24393b7140fbc32efd48047beca2a1c
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297390"
+ms.locfileid: "52301738"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse
 
@@ -89,6 +89,9 @@ Gebruikersactiviteitsrapporten zijn beschikbaar voor bepaalde afzonderlijke serv
 Het is niet gratis, u hebt een Power BI Pro nodig. Zie vereisten [voor het](/power-bi/service-template-apps-install-distribute#prerequisites) installeren, aanpassen en distribueren van een sjabloon-app voor meer informatie.
 
 Als u de dashboards met anderen wilt delen, raadpleegt u meer informatie op [Dashboards en rapporten delen.](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#share-dashboards-and-reports)
+### <a name="is-the-usage-summary-reports-reader-role-enough-to-view-the-usage-analytics"></a>Is de rol Gebruikersoverzichtsrapportenlezer voldoende om de gebruiksanalyse te bekijken?
+
+Met de rol Overzichtsrapporten voor gebruik biedt lezer alleen toegang tot aggregaties op tenantniveau in Microsoft 365 gebruiksanalyse.  We raden de rol Rapportenlezer of Overzichtsoverzichtslezer voor gebruik aan aan iedereen die verantwoordelijk is voor wijzigingsbeheer en acceptatie, maar niet noodzakelijkerwijs een IT-beheerder is.
 
 ### <a name="who-can-connect-to-microsoft-365-usage-analytics"></a>Wie kan verbinding maken met Microsoft 365 Gebruiksanalyse?
 

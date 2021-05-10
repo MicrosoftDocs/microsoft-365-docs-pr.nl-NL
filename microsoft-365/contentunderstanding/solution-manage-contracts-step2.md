@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het gebruik Microsoft Teams om uw contractbeheerkanaal te maken met behulp van een Microsoft 365 oplossing.
-ms.openlocfilehash: a97f6a77818fc53aa28a5924b97e3c7309d01e3a
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: d703f6f7286a6d9584e8b18d4e283174f42a95bd
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281120"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301798"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Stap 2. Gebruik Microsoft Teams om uw contractbeheerkanaal te maken
 
@@ -42,6 +42,9 @@ Nadat u de SharePoint documentbibliotheek hebt toegevoegd, kunt u alle geclassif
    ![Lijstweergave.](../media/content-understanding/list-view.png) 
 
 ## <a name="customize-your-contracts-tab-tile-view"></a>De tegelweergave op het tabblad Contracten aanpassen
+
+> [!NOTE]
+> In deze sectie wordt verwezen naar codevoorbeelden die zijn opgenomen inContractCard.js **bestand** dat is opgenomen in het **zip-bestand solutionfiles.**
 
 Hoewel Teams kunt u uw contracten weergeven in een tegelweergave, kunt u deze aanpassen om de contractgegevens weer te geven die u zichtbaar wilt maken op de contractkaart. Voor het tabblad  Contracten is het bijvoorbeeld belangrijk dat leden het bedrag van de klant, de contractant en de kosten op de contractkaart zien. Al deze velden zijn uit elk contract geëxtraheerd via SharePoint Syntex-model dat is toegepast op uw documentbibliotheek. U wilt ook de tegelkoptekstbalk kunnen wijzigen in verschillende kleuren voor elke status, zodat leden eenvoudig kunnen zien waar het contract zich in het goedkeuringsproces vindt. Alle goedgekeurde contracten hebben bijvoorbeeld een blauwe koptekstbalk.
 

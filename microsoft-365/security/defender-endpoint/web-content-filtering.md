@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c9a069deded237c5ded6bcd9f6c6a77f644e65a2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 47211e187d1f9f883745f008c6d94d04ee762e98
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689339"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302062"
 ---
 # <a name="web-content-filtering"></a>Filteren van webinhoud
 
@@ -36,7 +36,8 @@ ms.locfileid: "51689339"
 > Deze preview-versie wordt geleverd zonder serviceovereenkomst en wordt niet aanbevolen voor productiebelastingen. Bepaalde functies worden mogelijk niet ondersteund of hebben mogelijk beperkte mogelijkheden.
 > Zie De preview-functies [van Microsoft Defender voor Eindpunt voor meer informatie.](preview.md)
 
->Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+> [!TIP]
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
 Filteren van webinhoud maakt deel uit van de mogelijkheden voor [webbeveiliging](web-protection-overview.md) in Microsoft Defender voor Eindpunt. Hiermee kan uw organisatie de toegang tot websites bijhouden en reguleren op basis van hun inhoudscategorieën. Veel van deze websites, hoewel niet schadelijk, kunnen problematisch zijn vanwege nalevingsregels, bandbreedtegebruik of andere problemen.
 
@@ -47,36 +48,32 @@ Filteren van webinhoud is beschikbaar in de belangrijkste webbrowsers, met blokk
 Een overzicht van de voordelen:
 
 - Gebruikers kunnen geen toegang krijgen tot websites in geblokkeerde categorieën, ongeacht of ze on-premises of weg browsen
-- Beleid eenvoudig implementeren voor groepen gebruikers met apparaatgroepen die zijn gedefinieerd in instellingen voor toegangscontrole op basis van rollen van [Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/rbac) voor eindpunt
-- Toegang tot webrapporten op dezelfde centrale locatie, met zichtbaarheid over werkelijke blokken en webgebruik
+- Uw beveiligingsteam kan eenvoudig beleid implementeren voor groepen gebruikers die apparaatgroepen gebruiken die zijn gedefinieerd in instellingen voor [toegangscontrole](/microsoft-365/security/defender-endpoint/rbac) op basis van rollen van Microsoft Defender voor Eindpunt
+- Uw beveiligingsteam heeft toegang tot webrapporten op dezelfde centrale locatie, met zichtbaarheid over werkelijke blokken en webgebruik
 
 ## <a name="user-experience"></a>Gebruikerservaring
 
-De blokkeringservaring voor ondersteunde browsers van derden wordt geleverd door Netwerkbeveiliging, waarmee de gebruiker op systeemniveau wordt op de hoogte gesteld van een geblokkeerde verbinding. 
-
-Voor een gebruiksvriendelijkere in-browserervaring kunt u microsoft Edge gebruiken.
+De blokkeringservaring voor ondersteunde browsers van derden wordt geleverd door Netwerkbeveiliging, waarmee de gebruiker op systeemniveau wordt op de hoogte gesteld van een geblokkeerde verbinding. Voor een gebruiksvriendelijkere, in-browserervaring kunt u overwegen om de Microsoft Edge.
 
 ## <a name="prerequisites"></a>Vereisten
 
 Voordat u deze functie uit probeert, moet u de volgende vereisten hebben:
 
-- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5-beveiliging, Microsoft 365 E3 + Microsoft 365 E5-beveiligingsuitvoeging of de zelfstandige licentie voor Microsoft Defender voor Eindpunt. 
-- Toegang tot microsoft Defender-beveiligingscentrumportal
-- Apparaten met Windows 10 Jubileumupdate (versie 1607) of hoger met de nieuwste MoCAMP-update.
-
-Als SmartScreen van Windows Defender niet is ingeschakeld, neemt Netwerkbeveiliging de blokkering over. Hiervoor moet [netwerkbeveiliging op](enable-network-protection.md) het apparaat worden inschakelen. Chrome, Firefox, Brave en Opera zijn momenteel browsers van derden waarin deze functie is ingeschakeld.
+- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security of de zelfstandige licentie van Microsoft Defender voor Eindpunt. 
+- Toegang tot Microsoft Defender-beveiligingscentrum portal ( https://securitycenter.windows.com) .
+- Apparaten met Windows 10 jubileumupdate (versie 1607) of hoger met de nieuwste MoCAMP-update.
 
 ## <a name="data-handling"></a>Gegevensverwerking
 
-We volgen de regio die u hebt gekozen om te gebruiken als onderdeel van uw instellingen voor gegevensafhandeling van Microsoft Defender voor [eindpunten.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/data-storage-privacy) Uw gegevens verlaten het datacenter niet in die regio. Bovendien worden uw gegevens niet gedeeld met derden, inclusief onze gegevensproviders.
+We volgen de regio die u hebt gekozen om te gebruiken als onderdeel van uw instellingen voor gegevensafhandeling van Microsoft Defender voor [eindpunten.](data-storage-privacy.md) Uw gegevens verlaten het datacenter niet in die regio. Bovendien worden uw gegevens niet gedeeld met derden, inclusief onze gegevensproviders.
 
 ## <a name="turn-on-web-content-filtering"></a>Filteren van webinhoud inschakelen
 
-Selecteer in het linkernavigatiemenu Instellingen **> Algemene > Geavanceerde functies.** Schuif omlaag totdat u de vermelding voor filteren **van webinhoud ziet.** Schakel de wisselknop in **op Voorkeuren voor Aan** en **Opslaan.**
+Selecteer in het linkernavigatiemenu **Instellingen**  >  **Algemene**  >  **geavanceerde functies.** Schuif omlaag totdat u de vermelding voor filteren **van webinhoud ziet.** Schakel de wisselknop in **op Voorkeuren voor Aan** en **Opslaan.**
 
 ### <a name="configure-web-content-filtering-policies"></a>Filterbeleid voor webinhoud configureren
 
-Filterbeleid voor webinhoud geeft aan welke sitecategorieën worden geblokkeerd op welke apparaatgroepen. Als u het beleid wilt beheren, gaat u naar **Instellingen > regels > filteren van webinhoud.**
+Filterbeleid voor webinhoud geeft aan welke sitecategorieën worden geblokkeerd op welke apparaatgroepen. Als u het beleid wilt beheren, gaat u **naar Instellingen**  >    >  **Webinhoud filteren.**
 
 Gebruik het filter om beleid te zoeken dat bepaalde geblokkeerde categorieën bevat of die worden toegepast op specifieke apparaatgroepen.
 
@@ -84,13 +81,18 @@ Gebruik het filter om beleid te zoeken dat bepaalde geblokkeerde categorieën be
 
 Een nieuw beleid toevoegen:
 
-1. Selecteer **Beleid toevoegen** op de **filterpagina voor webinhoud** in **Instellingen.**
+1. Selecteer **Beleid toevoegen** op de **filterpagina voor** webinhoud in **Instellingen.**
+
 2. Geef een naam op.
+
 3. Selecteer de categorieën die u wilt blokkeren. Gebruik het pictogram Uitv om elke bovenliggende categorie volledig uit te vouwen en specifieke webinhoudscategorieën te selecteren.
+
 4. Geef het beleidsbereik op. Selecteer de apparaatgroepen om op te geven waar u het beleid wilt toepassen. Alleen apparaten in de geselecteerde apparaatgroepen kunnen geen toegang krijgen tot websites in de geselecteerde categorieën.
+
 5. Bekijk de samenvatting en sla het beleid op. Het kan maximaal 2 uur duren voordat de beleidsvernieuwing van toepassing is op de geselecteerde apparaten.
 
-Tip: U kunt een beleid implementeren zonder een categorie in een apparaatgroep te selecteren. Met deze actie wordt een beleid voor alleen controle uitgevoerd, om u te helpen het gedrag van gebruikers te begrijpen voordat u een blokbeleid maakt.
+> [!TIP]
+> U kunt een beleid implementeren zonder een categorie in een apparaatgroep te selecteren. Met deze actie wordt een beleid voor alleen controle uitgevoerd, om u te helpen het gedrag van gebruikers te begrijpen voordat u een blokbeleid maakt.
 
 >[!NOTE]
 >Als u een beleid verwijdert of tegelijkertijd apparaatgroepen verandert, kan dit leiden tot vertraging bij de beleidsimplementatie.
@@ -102,15 +104,17 @@ Tip: U kunt een beleid implementeren zonder een categorie in een apparaatgroep t
 
 U kunt de geblokkeerde categorie in het filteren van webinhoud overschrijven om één site toe te staan door een aangepast indicatorbeleid te maken. Het aangepaste indicatorbeleid zal het filterbeleid voor webinhoud overbodig maken wanneer dit wordt toegepast op de apparaatgroep in kwestie.
 
-1. Een aangepaste indicator maken in het Microsoft Defender-beveiligingscentrum door naar **URL**  >  **instellingenindicatoren/item**  >  **voor domein** toevoegen te  >  **gaan**
-2. Voer het domein van de site in
+1. Maak een aangepaste indicator in de Microsoft Defender-beveiligingscentrum door naar Instellingen  >    >  **URL/domeinitem**  >  **toevoegen te gaan.**
+
+2. Voer het domein van de site in.
+
 3. Stel de beleidsactie in op **Toestaan.**  
 
 ### <a name="reporting-inaccuracies"></a>Onnauwkeurigheden rapporteren
 
-Als u een domein tegenkomt dat onjuist is gecategoriseerd, kunt u onnauwkeurigheden rechtstreeks aan ons rapporteren via de pagina Rapporten van webinhoudsfilters. Deze functie is alleen beschikbaar in het nieuwe Microsoft 365-beveiligingscentrum (security.microsoft.com).
+Als u een domein tegenkomt dat onjuist is gecategoriseerd, kunt u onnauwkeurigheden rechtstreeks aan ons rapporteren via de pagina Rapporten van webinhoudsfilters. Deze functie is alleen beschikbaar in het nieuwe Microsoft 365 beveiligingscentrum (security.microsoft.com).
 
-Als u een onnauwkeurigheid wilt rapporteren, gaat u naar Rapporten > webbeveiliging > **webinhoudfilterdetails > Domeinen.** Op het tabblad Domeinen van onze rapporten voor het filteren van webinhoud ziet u een beletselteken naast elk van de domeinen. Plaats de muisaanwijzer op dit beletselteken en selecteer **Onnauwkeurigheid van rapport.**
+Als u een onnauwkeurigheid wilt rapporteren, gaat u naar Webinhoudsfilterdomeinen met  >    >    >  **webbeveiligingsrapporten.** Op het tabblad Domeinen van onze rapporten voor het filteren van webinhoud ziet u een beletselteken naast elk van de domeinen. Plaats de muisaanwijzer op dit beletselteken en selecteer **Onnauwkeurigheid van rapport.**
 
 Er wordt een deelvenster geopend waarin u de prioriteit kunt selecteren en aanvullende details kunt toevoegen, zoals de voorgestelde categorie voor hercategorisatie. Wanneer u het formulier hebt voltooid, selecteert u **Verzenden.** Ons team bekijkt de aanvraag binnen één werkdag. Als u de blokkering direct wilt opheffen, maakt u een [aangepaste indicator voor toestaan.](indicator-ip-domain.md)
 
@@ -156,11 +160,11 @@ Gebruik het tijdbereikfilter linksboven op de pagina om een periode te selectere
 
 ### <a name="limitations-and-known-issues-in-this-preview"></a>Beperkingen en bekende problemen in dit voorbeeld
 
-- Alleen Microsoft Edge wordt ondersteund als de besturingssysteemconfiguratie van uw apparaat Server is (cmd > Systeminfo > osconfiguratie). Netwerkbeveiliging wordt alleen ondersteund in de controlemodus op Serverapparaten, die verantwoordelijk is voor het beveiligen van verkeer in ondersteunde browsers van derden.
+- Alleen Microsoft Edge wordt ondersteund als de besturingssysteemconfiguratie van uw apparaat Server **(cmd**  >  **Systeminfo**  >  **OS Configuration) is.** Netwerkbeveiliging wordt alleen ondersteund in de controlemodus op Serverapparaten, die verantwoordelijk is voor het beveiligen van verkeer in ondersteunde browsers van derden.
 
-- Niet-toegewezen apparaten bevatten onjuiste gegevens in het rapport. In de rapportdetails > draait u mogelijk een rij met een leeg veld Apparaatgroep. Deze groep bevat uw niet-toegewezen apparaten voordat ze in de opgegeven groep worden gezet. Het rapport voor deze rij bevat mogelijk geen nauwkeurig aantal apparaten of toegangstellingen.
+- Niet-toegewezen apparaten bevatten onjuiste gegevens in het rapport. In de **draaipunt Apparaatgroepen** Rapportgegevens ziet u mogelijk een rij  >   met een leeg veld Apparaatgroep. Deze groep bevat uw niet-toegewezen apparaten voordat ze in de opgegeven groep worden gezet. Het rapport voor deze rij bevat mogelijk geen nauwkeurig aantal apparaten of toegangstellingen.
 
-- Rapporten voor webinhoudsfilters zijn momenteel beperkt tot het weergeven van de 5000 beste records. In het rapport 'Domeinen' wordt bijvoorbeeld alleen een maximum van de bovenste 5000 domeinen voor een bepaalde filterquery, indien van toepassing, gegeven. 
+- Rapporten voor webinhoudsfilters zijn momenteel beperkt tot het weergeven van de 5000 beste records. In het rapport Domeinen wordt bijvoorbeeld alleen een maximum van de bovenste 5000 domeinen voor een bepaalde filterquery, indien van toepassing, gegeven. 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

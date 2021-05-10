@@ -12,19 +12,18 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 290c06d95c6569b5a446a7a7410d34ff3b57055d
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: bdb49af4ac43976a1ad734e507902781d63c5670
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904068"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301786"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
 
-
-In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint-site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in het Microsoft 365-beheercentrum.
+In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in het Microsoft 365 beheercentrum.
 
 Het onderwerpcentrum heeft een standaard startpagina met het **webonderdeel** Onderwerpen waarin alle gelicentieerde gebruikers de onderwerpen kunnen zien waarmee ze een verbinding hebben. 
 
@@ -35,10 +34,10 @@ Hoewel alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, toegang h
 Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. Nadat de installatie is voltooid, kan een beheerder de URL vinden op de [pagina Onderwerpcentrumbeheer.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. Selecteer instellingen in het Microsoft 365-beheercentrum **en** selecteer **vervolgens Organisatie-instellingen.**
+1. Selecteer in Microsoft 365 beheercentrum **Instellingen** en selecteer vervolgens **Organisatie-instellingen.**
 2. Selecteer op **het tabblad** Services de optie **Onderwerpervaringen.**
 
-    ![Personen verbinden met kennis](../media/admin-org-knowledge-options-completed.png) </br>
+    ![Verbinding maken mensen kennis te laten maken](../media/admin-org-knowledge-options-completed.png) </br>
 
 3. Selecteer het **tabblad Onderwerpcentrum.** Onder **Siteadres** staat een koppeling naar uw onderwerpcentrum.
 
@@ -70,12 +69,12 @@ Wanneer een gebruiker zijn of haar verbinding met een onderwerp bevestigt, kan d
 
 ## <a name="manage-topics-page"></a>Pagina Onderwerpen beheren
 
-Als u wilt werken in de sectie **Onderwerpen** beheren van het onderwerpcentrum, moet u de vereiste machtigingen onderwerp beheren hebben die nodig zijn voor de rol van kennisbeheerder. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen achteraf worden toegevoegd door een beheerder via het Microsoft 365-beheercentrum.
+Als u wilt werken in de sectie **Onderwerpen** beheren van het onderwerpcentrum, moet u de vereiste machtigingen onderwerp beheren hebben die nodig zijn voor de rol van kennisbeheerder. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen daarna worden toegevoegd door een beheerder via het Microsoft 365 beheercentrum.
 
 Op de pagina Onderwerpen beheren worden in het onderwerpdashboard alle onderwerpen weergegeven die u hebt, die zijn geïdentificeerd op basis van de opgegeven bronlocaties. In elk onderwerp wordt de datum van het onderwerp gevonden. Een gebruiker aan wie machtigingen voor onderwerpen beheren zijn toegewezen, kan de onbevestigde onderwerpen bekijken en ervoor kiezen om:
 - Bevestig het onderwerp: Geeft gebruikers aan dat een AI-voorgesteld onderwerp is gevalideerd door een menselijke curator. 
 - Publiceer het onderwerp: Bewerk de onderwerpgegevens om de kwaliteit van het onderwerp te verbeteren dat in eerste instantie is geïdentificeerd, en belicht het onderwerp voor alle gebruikers die toegang hebben tot onderwerpen. 
-- Het onderwerp afwijzen: maakt het onderwerp onontdekt voor eindgebruikers. Het onderwerp wordt verplaatst naar het tabblad **Geweigerd** en kan zo nodig later worden bevestigd. 
+- Verwijder het onderwerp: Maakt het onderwerp onontdekt voor eindgebruikers. Het onderwerp wordt verplaatst naar het tabblad **Verwijderd** en kan zo nodig later worden bevestigd. 
 
 > [!Note] 
 > Zie [Onderwerpen beheren voor](manage-topics.md) meer informatie over onderwerpen beheren op de pagina Onderwerpen beheren.

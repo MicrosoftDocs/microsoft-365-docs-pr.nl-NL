@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Lees wat er gebeurt met uw gegevens als uw abonnement op Microsoft 365 voor Bedrijven verloopt of is uitgeschakeld of als u het abonnement opzegt.
-ms.openlocfilehash: 8f853000ebd20ab8f6625df9f773bbb182bdb7fd
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 45f331fd14abb2f851c8ff84e729b8443a60b59b
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644654"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297270"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?
 
 Als uw abonnement stopt, omdat dit verloopt of omdat u dit opzegt, doorlopen uw klantgegevens en uw toegang tot Microsoft 365-services en -toepassingen meerdere fasen voordat het abonnement volledig wordt beëindigd, of *verwijderd*. Als u zich hiervan bewust bent, kunt u uw abonnement weer op tijd activeren voordat u alles kwijt bent of, als u Microsoft 365 niet meer wilt gebruiken, een back-up maken van uw gegevens voordat deze uiteindelijk worden verwijderd.
 
-Lees deze belangrijke informatie voordat u contact opneemt met [ondersteuning van Microsoft 365](../../admin/contact-support-for-business-products.md).
+Lees deze belangrijke informatie voordat u contact opneemt met [ondersteuning van Microsoft 365](../../business-video/get-help-support.md).
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>Wat gebeurt er met gegevens wanneer een abonnement verloopt?
 
@@ -125,7 +125,7 @@ Als globale beheerder of factureringsbeheerder kunt u [uw abonnement opnieuw act
   
 Beheerders en gebruikers hebben niet langer toegang tot de services of Office-toepassingen die onderdeel waren van het abonnement. Alle klantgegevens, zoals gebruikersgegevens, documenten en e-mailberichten, worden definitief verwijderd.
   
-U kunt het abonnement nu niet meer opnieuw activeren. U hebt als globale beheerder of factureringsbeheerder nog steeds toegang tot het beheercentrum om andere abonnementen te beheren en nieuwe abonnementen te kopen wanneer uw bedrijf die nodig heeft.
+Op dit punt kunt u het abonnement niet opnieuw activeren. U hebt als globale beheerder of factureringsbeheerder nog steeds toegang tot het beheercentrum om andere abonnementen te beheren en nieuwe abonnementen te kopen wanneer uw bedrijf die nodig heeft.
   
 > [!NOTE]
 > - Als een nieuw abonnement wordt toegevoegd van hetzelfde type dat is verwijderd, worden de gegevens die aan het verwijderde abonnement zijn gekoppeld, niet hersteld.

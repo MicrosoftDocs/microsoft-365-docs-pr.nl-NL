@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b5af93e82f72bac900682b2e231453e448b267d9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 365fed8b5f7c7fc617ea068e324da541f7f1b187
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934187"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301774"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender voor Eindpunt op Mac
 
@@ -39,7 +39,7 @@ ms.locfileid: "51934187"
 In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt op Mac kunt installeren, configureren, bijwerken en gebruiken.
 
 > [!CAUTION]
-> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt op Mac kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u nog steeds veilig profiteren van de Functionaliteit van Defender voor Eindpunt op Mac EDR na het configureren van de antivirusfunctionaliteit om in de passieve modus uit te [voeren.](mac-preferences.md#enable--disable-passive-mode)
+> Het uitvoeren van andere endpointbeveiligingsproducten van derden naast Microsoft Defender voor Eindpunt op Mac kan waarschijnlijk leiden tot prestatieproblemen en onvoorspelbare bijwerkingen. Als niet-Microsoft-eindpuntbeveiliging een absolute vereiste is in uw omgeving, kunt u na het configureren van de antivirusfunctionaliteit in de passieve modus nog steeds veilig profiteren van De functionaliteit van Defender voor Eindpunt op Mac [EDR.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>Nieuwe functies in de nieuwste release
 
@@ -50,13 +50,13 @@ In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt op Mac kunt insta
 > [!TIP]
 > Als u feedback hebt die u wilt delen, verzendt u deze door Microsoft Defender voor Eindpunt op Mac te openen op uw apparaat en te navigeren naar **Help**  >  **Feedback verzenden.**
 
-Als u de nieuwste functies wilt downloaden, waaronder preview-mogelijkheden (zoals eindpuntdetectie en antwoord voor uw Mac-apparaten), configureert u uw macOS-apparaat met Microsoft Defender voor Eindpunt als een Insider-apparaat.
+Als u de nieuwste functies wilt downloaden, waaronder preview-mogelijkheden (zoals eindpuntdetectie en -respons voor uw Mac-apparaten), configureert u uw macOS-apparaat met Microsoft Defender voor Eindpunt als een Insider-apparaat.
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender voor Eindpunt installeren op Mac
 
 ### <a name="prerequisites"></a>Vereisten
 
-- Een Defender for Endpoint-abonnement en toegang tot de microsoft Defender Security Center-portal
+- Een Defender for Endpoint-abonnement en toegang tot de Microsoft Defender-beveiligingscentrum portal
 - Beginnerservaring in macOS- en BASH-scripting
 - Beheerdersbevoegdheden op het apparaat (in geval van handmatige implementatie)
 
@@ -96,12 +96,14 @@ Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall con
 Voor Microsoft Defender voor Eindpunt op Mac is een van de volgende Microsoft Volume Licensing-aanbiedingen vereist:
 
 - Microsoft 365 E5 (M365 E5)
-- Microsoft 365 E5-beveiliging
+- Microsoft 365 E5 Security
 - Microsoft 365 A5 (M365 A5)
+- Windows 10 Enterprise E5
+- Microsoft Defender voor Eindpunt
 
 > [!NOTE]
 > In aanmerking komende gebruikers met een licentie kunnen Microsoft Defender voor Eindpunt gebruiken op maximaal vijf gelijktijdige apparaten.
-> Microsoft Defender voor Eindpunt is ook beschikbaar voor aankoop bij een Cloud Solution Provider (CSP). Bij aankoop via een CSP zijn er geen aanbiedingen voor Microsoft Volume Licensing vereist.
+> Microsoft Defender voor Eindpunt is ook beschikbaar voor aankoop via een Cloud Solution Provider (CSP). Bij aankoop via een CSP zijn er geen aanbiedingen voor Microsoft Volume Licensing vereist.
 
 ### <a name="network-connections"></a>Netwerkverbindingen
 

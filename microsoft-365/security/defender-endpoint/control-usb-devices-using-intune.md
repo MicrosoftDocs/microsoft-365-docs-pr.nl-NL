@@ -12,12 +12,12 @@ ms.reviewer: dansimp
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: 4d5479336588a78599f8e8a868503257964adb3a
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: eb7043451c4d80e3eca8b0703703ac6d7a459161
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893747"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302086"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>USB-apparaten en andere verwisselbare media beheren met Microsoft Defender voor Eindpunt
 
@@ -28,10 +28,10 @@ Microsoft raadt een gelaagde benadering aan voor het beveiligen van verwisselbar
 1. [Ontdek verbonden gebeurtenissen voor randapparatuur in Microsoft Defender for Endpoint advanced hunting](#discover-plug-and-play-connected-events). Verdachte gebruiksactiviteiten identificeren of onderzoeken.
 
 2. Configureren om alleen bepaalde verwisselbare apparaten toe te staan of te blokkeren en bedreigingen te voorkomen.
-    1. [Verwisselbare apparaten toestaan](#allow-or-block-removable-devices) of blokkeren op basis van een gedetailleerde configuratie om schrijftoegang tot verwisselbare schijven te weigeren en apparaten goed te keuren of te weigeren met behulp van USB-apparaat-ID's. Flexibele beleidstoewijzing van instellingen voor apparaatinstallatie op basis van een individu of groep Azure Active Directory -gebruikers en -apparaten.
+    1. [Verwisselbare apparaten toestaan](#allow-or-block-removable-devices) of blokkeren op basis van een gedetailleerde configuratie om schrijftoegang tot verwisselbare schijven te weigeren en apparaten goed te keuren of te weigeren met behulp van USB-apparaat-ID's. Flexibele beleidstoewijzing van instellingen voor apparaatinstallatie op basis van een individu of groep Azure Active Directory (Azure AD) gebruikers en apparaten.
 
     2. [Voorkom dat bedreigingen van verwisselbare opslag](#prevent-threats-from-removable-storage) worden geïntroduceerd door verwisselbare opslagapparaten door het volgende in te stellen:  
-        - Microsoft Defender Antivirus real-time protection (RTP) om verwisselbare opslag op malware te scannen.  
+        - Microsoft Defender Antivirus realtime beveiliging (RTP) om verwisselbare opslag op malware te scannen.  
         - De USB-regel Attack Surface Reduction (ASR) om niet-vertrouwde en niet-ondertekende processen te blokkeren die vanaf USB worden uitgevoerd.  
         - DMA-beveiligingsinstellingen (Direct Memory Access) om DMA-aanvallen te beperken, zoals Kernel DMA Protection voor Thunderbolt en het blokkeren van DMA totdat een gebruiker zich meldt.  
 
@@ -40,14 +40,14 @@ Microsoft raadt een gelaagde benadering aan voor het beveiligen van verwisselbar
 4. [Reageer in realtime op](#respond-to-threats) bedreigingen van randapparatuur op basis van eigenschappen die door elke randapparatuur worden gerapporteerd.
 
 >[!Note]
->Deze risicobeperkingsmaatregelen helpen voorkomen dat malware in uw omgeving binnenkomt. Als u wilt voorkomen dat ondernemingsgegevens uw omgeving verlaten, kunt u ook preventiemaatregelen voor gegevensverlies configureren. Op Windows 10-apparaten kunt u [bijvoorbeeld BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview.md) en [Windows Information Protection](/windows/security/information-protection/create-wip-policy-using-intune-azure.md)configureren, waarmee bedrijfsgegevens worden versleuteld, zelfs als deze zijn opgeslagen op een persoonlijk apparaat, of de [CSP Storage/RemovableDiskDenyWriteAccess](/windows/client-management/mdm/policy-csp-storage#storage-removablediskdenywriteaccess) gebruiken om schrijftoegang tot verwisselbare schijven te weigeren. Daarnaast kunt u bestanden [op Windows-apparaten](/windows/security/threat-protection/windows-defender-atp/information-protection-in-windows-overview) (inclusief de opgeslagen USB-apparaten) classificeren en beveiligen met Microsoft Defender voor Eindpunt en Azure Information Protection.
+>Deze risicobeperkingsmaatregelen helpen voorkomen dat malware in uw omgeving binnenkomt. Als u wilt voorkomen dat ondernemingsgegevens uw omgeving verlaten, kunt u ook preventiemaatregelen voor gegevensverlies configureren. Op Windows 10-apparaten kunt u bijvoorbeeld [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview.md) en [Windows Information Protection](/windows/security/information-protection/create-wip-policy-using-intune-azure.md)configureren, waarmee bedrijfsgegevens worden versleuteld, zelfs als deze zijn opgeslagen op een persoonlijk apparaat, of de [CSP van Storage/VerwisselbaarDiskDenyWriteAccess gebruiken](/windows/client-management/mdm/policy-csp-storage#storage-removablediskdenywriteaccess) om schrijftoegang tot verwisselbare schijven te weigeren. Bovendien kunt u bestanden classificeren en beveiligen op Windows apparaten [(inclusief](/windows/security/threat-protection/windows-defender-atp/information-protection-in-windows-overview) hun usb-apparaten) met Behulp van Microsoft Defender voor Eindpunt en Azure Information Protection.
 
 ## <a name="discover-plug-and-play-connected-events"></a>Verbonden gebeurtenissen in- en afspelen ontdekken
 
 U kunt verbonden gebeurtenissen in Microsoft Defender for Endpoint advanced hunting bekijken om verdachte gebruiksactiviteiten te identificeren of interne onderzoeken uit te voeren.
-Zie de Microsoft Defender for [Endpoint-zoekquery's gitHub repo](https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries)voor voorbeelden van geavanceerde query's voor geavanceerde zoekquery's van Defender for Endpoint.
+Zie de microsoft Defender for Endpoint-query's voor GitHub repo voor voorbeelden van geavanceerde [zoekquery's van Defender voor eindpunten.](https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries)
 
-Voorbeeld van Power BI-rapportsjablonen zijn beschikbaar voor Microsoft Defender voor eindpunten die u kunt gebruiken voor geavanceerde zoekquery's. Met deze voorbeeldsjablonen, waaronder een voor apparaatbesturingselement, kunt u de kracht van Geavanceerd zoeken integreren in Power BI. Zie de [GitHub-opslagplaats voor PowerBI-sjablonen](https://github.com/microsoft/MDATP-PowerBI-Templates) voor meer informatie. Zie [Aangepaste rapporten maken met Power BI](/microsoft-365/security/defender-endpoint/api-power-bi) voor meer informatie over Power BI-integratie.
+Voorbeeld Power BI rapportsjablonen zijn beschikbaar voor Microsoft Defender voor eindpunten die u kunt gebruiken voor geavanceerde zoekquery's. Met deze voorbeeldsjablonen, waaronder een voor apparaatbeheer, kunt u de kracht van Geavanceerd zoeken integreren in Power BI. Zie de [GitHub opslagplaats voor PowerBI-sjablonen](https://github.com/microsoft/MDATP-PowerBI-Templates) voor meer informatie. Zie [Aangepaste rapporten maken met Power BI](/microsoft-365/security/defender-endpoint/api-power-bi) voor meer informatie over Power BI integratie.
 
 ## <a name="allow-or-block-removable-devices"></a>Verwisselbare apparaten toestaan of blokkeren
 In de volgende tabel worden de manieren beschreven waarop verwisselbare apparaten kunnen worden toegestaan of geblokkeerd op basis van een gedetailleerde configuratie.
@@ -60,7 +60,7 @@ In de volgende tabel worden de manieren beschreven waarop verwisselbare apparate
 | [Installatie van specifiek verboden randapparatuur voorkomen](#prevent-installation-of-specifically-prohibited-peripherals) | U kunt geen verboden randapparatuur installeren of gebruiken die specifieke eigenschappen in hun firmware rapporteren. |
 | [Installatie en gebruik van specifiek goedgekeurde randapparatuur toestaan met overeenkomende apparaat-exemplaar-ID's](#allow-installation-and-usage-of-specifically-approved-peripherals-with-matching-device-instance-ids) | U kunt alleen goedgekeurde randapparatuur installeren en gebruiken die overeenkomen met een van deze apparaat-exemplaar-ID's. |
 | [Installatie en gebruik van specifiek verboden randapparatuur voorkomen met overeenkomende apparaat-exemplaar-ID's](#prevent-installation-and-usage-of-specifically-prohibited-peripherals-with-matching-device-instance-ids) | U kunt geen verboden randapparatuur installeren of gebruiken die overeenkomen met een van deze apparaat-exemplaar-ID's. |
-| [Services beperken die Bluetooth gebruiken](#limit-services-that-use-bluetooth) | U kunt de services beperken die Bluetooth kunnen gebruiken. |
+| [Services beperken die gebruikmaken van Bluetooth](#limit-services-that-use-bluetooth) | U kunt de services beperken die gebruik kunnen maken van Bluetooth. |
 | [Microsoft Defender voor basislijninstellingen voor eindpunten gebruiken](#use-microsoft-defender-for-endpoint-baseline-settings) | U kunt de aanbevolen configuratie voor ATP instellen met behulp van de beveiligingslijn Defender voor eindpunt. |
 
 ### <a name="restrict-usb-drives-and-other-peripherals"></a>USB-stations en andere randapparatuur beperken
@@ -124,11 +124,11 @@ Als u de installatie van een apparaatklasse of bepaalde apparaten wilt voorkomen
 > [!Note]
 > Het beleid voor het voorkomen van apparaatinstallatie heeft voorrang op het beleid voor apparaatinstallatie toestaan.
 
-Met Het voorkomen van installatie van apparaten die overeenkomen met een van deze **apparaat-ID's** kunt u een lijst opgeven met apparaten die niet kunnen worden geïnstalleerd in Windows. 
+Met De installatie van apparaten voorkomen die overeenkomen met een van deze **apparaat-ID's** kunt u een lijst opgeven met apparaten die niet Windows kunnen worden geïnstalleerd. 
 
 Als u wilt voorkomen dat apparaten worden geïnstalleerd die overeenkomen met een van deze apparaat-ID's: 
 
-1. [Zoek apparaat-id op](#look-up-device-id) voor apparaten die u wilt voorkomen dat Windows wordt geïnstalleerd.
+1. [Zoek apparaat-id op](#look-up-device-id) voor apparaten die u wilt Windows om te voorkomen dat ze worden geïnstalleerd.
 
    ![Leverancier- of product-id op zoeken](images/lookup-vendor-product-id.png)
 
@@ -158,7 +158,7 @@ Get-WMIObject -Class Win32_DiskDrive |
 Select-Object -Property * 
 ```
 
-Met **het beleid Voorkom** installatie van apparaten met stuurprogramma's die overeenkomen met dit beleid voor apparaatconfiguratieklassen, kunt u apparaatconfiguratieklassen opgeven die niet kunnen worden geïnstalleerd in Windows. 
+Met **het beleid** Voorkom installatie van apparaten met stuurprogramma's die overeenkomen met dit beleid voor apparaatconfiguratieklassen, kunt u apparaatconfiguratieklassen opgeven die niet Windows kunnen worden geïnstalleerd. 
 
 Als u wilt voorkomen dat bepaalde klassen apparaten worden geïnstalleerd: 
 
@@ -171,9 +171,9 @@ Als u wilt voorkomen dat bepaalde klassen apparaten worden geïnstalleerd:
 
 ### <a name="block-installation-and-usage-of-removable-storage"></a>Installatie en gebruik van verwisselbare opslag blokkeren
 
-1. Meld u aan bij de [Microsoft Azure-portal.](https://portal.azure.com/)
+1. Meld u aan bij [het Microsoft Endpoint Manager beheercentrum.](https://endpoint.microsoft.com/)
 
-2. Klik **op Intune**  >  **Device configuration** Profiles  >  **Create**  >  **profile**.
+2. Klik **op**  >  **Apparaatconfiguratieprofielen Profiel**  >  **maken.**
 
     > [!div class="mx-imgBorder"]
     > ![Apparaatconfiguratieprofiel maken](images/create-device-configuration-profile.png)
@@ -224,12 +224,12 @@ Randapparatuur die niet mag worden geïnstalleerd, kunnen worden opgegeven met d
 
 U kunt de installatie van de verboden randapparatuur met overeenkomende apparaat-exemplaar-ID's voorkomen door de beleidsinstelling [DeviceInstallation/PreventInstallationOfMatchingDeviceInstanceIDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceinstanceids) te configureren.
 
-### <a name="limit-services-that-use-bluetooth"></a>Services beperken die Bluetooth gebruiken
+### <a name="limit-services-that-use-bluetooth"></a>Services beperken die gebruikmaken van Bluetooth
 
-Met Intune kunt u de services beperken die Bluetooth kunnen gebruiken via de ['Toegestane Bluetooth-services'.](/windows/client-management/mdm/policy-csp-bluetooth#servicesallowedlist-usage-guide) De standaardtoestand van de instellingen voor toegestane Bluetooth-services betekent dat alles is toegestaan.  Zodra er een service wordt toegevoegd, wordt dat de toegestane lijst. Als de klant de waarden Toetsenborden en Muizen toevoegt en de GUID's voor bestandsoverdracht niet toevoegt, moet de bestandsoverdracht worden geblokkeerd.
+Met Intune kunt u de services beperken die kunnen worden gebruikt Bluetooth de ['Bluetooth toegestane services'.](/windows/client-management/mdm/policy-csp-bluetooth#servicesallowedlist-usage-guide) De standaardtoestand van 'Bluetooth toegestane services' betekent dat alles is toegestaan.  Zodra er een service wordt toegevoegd, wordt dat de toegestane lijst. Als de klant de waarden Toetsenborden en Muizen toevoegt en de GUID's voor bestandsoverdracht niet toevoegt, moet de bestandsoverdracht worden geblokkeerd.
 
 > [!div class="mx-imgBorder"]
-> ![schermafbeelding van de pagina Bluetooth-instellingen](images/bluetooth.png)
+> ![schermafbeelding van Bluetooth pagina met instellingen](images/bluetooth.png)
 
 ### <a name="use-microsoft-defender-for-endpoint-baseline-settings"></a>Microsoft Defender voor basislijninstellingen voor eindpunten gebruiken
 
@@ -255,23 +255,23 @@ Zie de Microsoft Defender for [Endpoint-blog](https://aka.ms/devicecontrolblog)v
 
 | Besturingselement  | Beschrijving |
 |----------|-------------|
-| [Microsoft Defender Antivirus Scanning inschakelen](#enable-microsoft-defender-antivirus-scanning) | Microsoft Defender Antivirus scannen inschakelen voor realtime beveiliging of geplande scans.|
+| [Scannen Microsoft Defender Antivirus inschakelen](#enable-microsoft-defender-antivirus-scanning) | Schakel Microsoft Defender Antivirus scannen in voor realtime beveiliging of geplande scans.|
 | [Niet-vertrouwde en niet-ondertekende processen blokkeren op USB-randapparatuur](#block-untrusted-and-unsigned-processes-on-usb-peripherals) | Blokkeer USB-bestanden die niet zijn ondertekend of niet worden vertrouwd. |
 | [Beschermen tegen DMA-aanvallen (Direct Memory Access)](#protect-against-direct-memory-access-dma-attacks) | Instellingen configureren om te beschermen tegen DMA-aanvallen. |
 
 >[!NOTE]
 >Omdat een niet-geautoriseerd USB-randapparaat firmware kan hebben waarmee de USB-eigenschappen worden vervalst, wordt u aangeraden alleen specifiek goedgekeurde USB-randapparatuur toe te staan en de gebruikers die toegang hebben tot deze randapparatuur te beperken.
 
-### <a name="enable-microsoft-defender-antivirus-scanning"></a>Microsoft Defender Antivirus Scanning inschakelen
+### <a name="enable-microsoft-defender-antivirus-scanning"></a>Scannen Microsoft Defender Antivirus inschakelen
 
-Als u geautoriseerde verwisselbare opslag met Microsoft Defender Antivirus beschermt, moet u [realtime](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus) beveiliging of planningsscans inschakelen en verwisselbare stations configureren voor scans.
+Voor het beveiligen van geautoriseerde verwisselbare Microsoft Defender Antivirus is het inschakelen van [realtime](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus) beveiliging of het plannen van scans en het configureren van verwisselbare stations voor scans vereist.
 
-- Als realtimebeveiliging is ingeschakeld, worden bestanden gescand voordat ze worden toegankelijk en uitgevoerd. Het scanbereik bevat alle bestanden, ook die opgeslagen verwisselbare apparaten, zoals USB-stations. U kunt desgewenst een [PowerShell-script](/samples/browse/?redirectedfrom=TechNet-Gallery) uitvoeren om een aangepaste scan van een USB-station uit te voeren nadat deze is geïnstalleerd, zodat Microsoft Defender Antivirus alle bestanden op een verwisselbaar apparaat begint te scannen zodra het verwisselbare apparaat is aangesloten. We raden u echter aan realtime beveiliging in te stellen voor betere scanprestaties, met name voor grote opslagapparaten.
+- Als realtimebeveiliging is ingeschakeld, worden bestanden gescand voordat ze worden toegankelijk en uitgevoerd. Het scanbereik bevat alle bestanden, ook die opgeslagen verwisselbare apparaten, zoals USB-stations. U kunt desgewenst een [PowerShell-script](/samples/browse/?redirectedfrom=TechNet-Gallery) uitvoeren om een aangepaste scan van een USB-station uit te voeren nadat deze is geïnstalleerd, zodat Microsoft Defender Antivirus alle bestanden op een verwisselbaar apparaat begint te scannen zodra het verwisselbare apparaat is gekoppeld. We raden u echter aan realtime beveiliging in te stellen voor betere scanprestaties, met name voor grote opslagapparaten.
 
 - Als geplande scans worden gebruikt, moet u de instelling DisableRemovableDriveScanning (standaard ingeschakeld) uitschakelen om het verwisselbare apparaat te scannen tijdens een volledige scan. Verwisselbare apparaten worden gescand tijdens een snelle of aangepaste scan, ongeacht de instelling DisableRemovableDriveScanning.
 
 >[!NOTE]
->We raden u aan realtime monitoring in te stellen voor scannen. In Intune kunt u realtime monitoring voor Windows 10 inschakelen in **Apparaatbeperkingen**  >    >  **Configureren Microsoft Defender Antivirus**  >  **Real-time monitoring**.
+>We raden u aan realtime monitoring in te stellen voor scannen. In Intune kunt u realtime monitoring inschakelen voor Windows 10 in **Apparaatbeperkingen**  >  **Configureren**  >  **Microsoft Defender Antivirus**  >  **realtime monitoring.**
 
 <!-- Need to build out point in the preceding note. 
 -->
@@ -283,13 +283,13 @@ Om infecties te voorkomen, kan een bedrijf USB-bestanden blokkeren die niet-onde
 Bedrijven kunnen ook gebruikmaken van de auditfunctie van attack [surface reduction rules](/microsoft-365/security/defender-endpoint/attack-surface-reduction) om de activiteit te controleren van niet-vertrouwde en niet-ondertekende processen die worden uitgevoerd op een USB-randapparatuur.
 U kunt dit doen door **niet-vertrouwde** en niet-ondertekende  processen in te stellen die van USB naar respectievelijk Blokkeren of Alleen controleren worden uitgevoerd.
 Met deze regel kunnen beheerders voorkomen of controleren dat niet-ondertekende of niet-vertrouwde uitvoerbare bestanden worden uitgevoerd vanaf verwisselbare USB-stations, waaronder SD-kaarten.
-Getroffen bestandstypen zijn uitvoerbare bestanden (zoals .exe-, .dll- of .scr-bestanden) en scriptbestanden zoals powershellbestanden (.ps), VisualBasic -bestanden (.vbs) of JavaScript-bestanden (.js).
+Getroffen bestandstypen zijn uitvoerbare bestanden (zoals .exe, .dll of .scr) en scriptbestanden zoals een PowerShell(.ps), VisualBasic -bestanden (.vbs) of JavaScript-bestanden (.js).
 
 Voor deze instellingen [moet realtime-beveiliging worden inschakelen.](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus)
 
-1. Meld u aan bij [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
+1. Meld u aan bij [de Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
 
-2. Klik **op Apparaten**  >    >  **Windows-configuratiebeleid**  >  **Profiel maken**. 
+2. Klik **op Apparaten**  >  **Windows**  >  **Configuratiebeleid Profiel**  >  **maken.** 
 
     ![Apparaatconfiguratieprofiel maken](images/create-device-configuration-profile.png)
 
@@ -318,7 +318,7 @@ DMA-aanvallen kunnen leiden tot het vrijgeven van gevoelige informatie op een pc
 
    Randapparatuur die apparaatgeheugenisolatie ondersteunt, kunnen altijd verbinding maken. Randapparatuur die niet kan worden geblokkeerd, toegestaan of alleen kan worden toegestaan nadat de gebruiker zich heeft aangegeven (standaard).
 
-2. Op Windows 10-systemen die geen ondersteuning bieden voor Kernel DMA Protection, kunt u het volgende doen:
+2. Op Windows 10 systemen die geen ondersteuning bieden voor Kernel DMA Protection, kunt u het volgende doen:
 
    - [DMA blokkeren totdat een gebruiker zich aan meldt](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
    - [Alle verbindingen blokkeren via de Thunderbolt-poorten (inclusief USB-apparaten)](https://support.microsoft.com/help/2516445/blocking-the-sbp-2-driver-and-thunderbolt-controllers-to-reduce-1394-d)
@@ -333,7 +333,7 @@ U kunt aangepaste waarschuwingen en antwoordacties maken met de WDATP-connector 
 
 **Bedreiging scannen** op USB-apparaten.
 
-**De uitvoering van alle** toepassingen op de computer beperken, behalve een vooraf gedefinieerde MDATP-connector is een van de meer dan 200 vooraf gedefinieerde connectors, waaronder Outlook, Teams, Slack, enzovoort. U kunt aangepaste connectors maken.
+**De uitvoering** van alle toepassingen op de computer beperken, behalve een vooraf gedefinieerde set MDATP-connector is een van de meer dan 200 vooraf gedefinieerde connectors, waaronder Outlook, Teams, Slack, enzovoort. U kunt aangepaste connectors maken.
 - [Meer informatie over WDATP Connector Response Actions](/connectors/wdatp/)
 
 **Reactieactie aangepaste detectieregels:** Acties op machine- en bestandsniveau kunnen worden toegepast.
@@ -343,9 +343,9 @@ Zie Geavanceerde jaagupdates: [USB-gebeurtenissen, acties](https://techcommunity
 
 ## <a name="respond-to-threats"></a>Reageren op bedreigingen
 
-U kunt aangepaste waarschuwingen en automatische reactieacties maken met de aangepaste detectieregels van [Microsoft Defender voor eindpunten.](/microsoft-365/security/defender-endpoint/custom-detection-rules) Reactieacties in de aangepaste detectie omvatten zowel acties op computer- als bestandsniveau. U kunt ook waarschuwingen en automatische reactieacties maken met [PowerApps](https://powerapps.microsoft.com/) en [Flow](https://flow.microsoft.com/) met de [Microsoft Defender voor eindpuntconnector.](/connectors/wdatp/) De connector ondersteunt acties voor onderzoek, het scannen van bedreigingen en het beperken van het uitvoeren van toepassingen. Het is een van de meer dan 200 vooraf gedefinieerde connectors, waaronder Outlook, Teams, Slack en meer. U kunt ook aangepaste connectors maken. Zie [Connectors](/connectors/) voor meer informatie over verbindingslijnen.
+U kunt aangepaste waarschuwingen en automatische reactieacties maken met de aangepaste detectieregels van [Microsoft Defender voor eindpunten.](/microsoft-365/security/defender-endpoint/custom-detection-rules) Reactieacties in de aangepaste detectie omvatten zowel acties op computer- als bestandsniveau. U kunt ook waarschuwingen en automatische antwoordacties maken met [PowerApps](https://powerapps.microsoft.com/) en [Flow](https://flow.microsoft.com/) met de [Microsoft Defender voor Eindpunt-connector.](/connectors/wdatp/) De connector ondersteunt acties voor onderzoek, het scannen van bedreigingen en het beperken van het uitvoeren van toepassingen. Het is een van de meer dan 200 vooraf gedefinieerde connectors, Outlook, Teams, Slack en meer. U kunt ook aangepaste connectors maken. Zie [Connectors](/connectors/) voor meer informatie over verbindingslijnen.
  
-Als u bijvoorbeeld een van beide benaderingen gebruikt, kunt u microsoft Defender Antivirus automatisch laten uitvoeren wanneer een USB-apparaat op een computer is geïnstalleerd.
+Met een van beide benaderingen kunt u bijvoorbeeld automatisch de Microsoft Defender Antivirus uitvoeren wanneer een USB-apparaat op een computer is geïnstalleerd.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
