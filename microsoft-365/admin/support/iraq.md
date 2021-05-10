@@ -1,5 +1,5 @@
 ---
-title: Ondersteuningsinformatie voor Syrië
+title: Ondersteuningsinformatie voor Irak
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -10,39 +10,39 @@ ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 localization_priority: Normal
-description: Lees hoe u contact kunt opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 72e4da26ba2cc9a9f0be93dc8b92c6336065ab24
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 05e7b3042eeb3a40b2ed733f680591f0a4d14774
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546710"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298621"
 ---
-# <a name="contact-support-for-iraq"></a><span data-ttu-id="7cead-103">Neem contact op met ondersteuning voor Irak</span><span class="sxs-lookup"><span data-stu-id="7cead-103">Contact support for Iraq</span></span>
+# <a name="contact-support-for-iraq"></a><span data-ttu-id="49a91-103">Neem contact op met de ondersteuning voor Irak</span><span class="sxs-lookup"><span data-stu-id="49a91-103">Contact support for Iraq</span></span>
 
-<span data-ttu-id="7cead-104">[Zoek een ander land of een andere regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="7cead-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="49a91-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="49a91-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="7cead-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="7cead-105">Phone number</span></span>
-<span data-ttu-id="7cead-106">+965 2221 9876</span><span class="sxs-lookup"><span data-stu-id="7cead-106">+965 2221 9876</span></span>
+## <a name="phone-number"></a><span data-ttu-id="49a91-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="49a91-105">Phone number</span></span>
+<span data-ttu-id="49a91-106">+965 2221 9876</span><span class="sxs-lookup"><span data-stu-id="49a91-106">+965 2221 9876</span></span>
 
-<span data-ttu-id="7cead-107">Optie 2 selecteren</span><span class="sxs-lookup"><span data-stu-id="7cead-107">Select option 2</span></span>
+<span data-ttu-id="49a91-107">Optie 2 selecteren</span><span class="sxs-lookup"><span data-stu-id="49a91-107">Select option 2</span></span>
 
-<span data-ttu-id="7cead-108">Optie 9 selecteren</span><span class="sxs-lookup"><span data-stu-id="7cead-108">Select option 9</span></span>
+<span data-ttu-id="49a91-108">Optie 9 selecteren</span><span class="sxs-lookup"><span data-stu-id="49a91-108">Select option 9</span></span>
 
-<span data-ttu-id="7cead-109">Code 7701 invoeren</span><span class="sxs-lookup"><span data-stu-id="7cead-109">Enter code 7701</span></span>
+<span data-ttu-id="49a91-109">Code 7701 invoeren</span><span class="sxs-lookup"><span data-stu-id="49a91-109">Enter code 7701</span></span>
 
-## <a name="hours"></a><span data-ttu-id="7cead-110">Uren</span><span class="sxs-lookup"><span data-stu-id="7cead-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="7cead-111">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="7cead-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="49a91-110">Uren</span><span class="sxs-lookup"><span data-stu-id="49a91-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="49a91-111">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="49a91-111">Billing Support:</span></span>
 
-<span data-ttu-id="7cead-112">Arabisch: Sun-Thu 10:00-18:00 uur</span><span class="sxs-lookup"><span data-stu-id="7cead-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="49a91-112">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="49a91-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="7cead-113">Engels: Mon-Fri 10:00 tot 18:00 uur</span><span class="sxs-lookup"><span data-stu-id="7cead-113">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="49a91-113">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="49a91-113">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="7cead-114">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="7cead-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="49a91-114">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="49a91-114">Technical Support:</span></span>
 
-<span data-ttu-id="7cead-115">Arabisch: Sun-Thu 10:00-18:00 uur</span><span class="sxs-lookup"><span data-stu-id="7cead-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="49a91-115">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="49a91-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="7cead-116">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="7cead-116">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="49a91-116">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="49a91-116">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="7cead-117">Internationale gesprekskosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="7cead-117">International call charges apply</span></span>
+<span data-ttu-id="49a91-117">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="49a91-117">International call charges apply</span></span>
