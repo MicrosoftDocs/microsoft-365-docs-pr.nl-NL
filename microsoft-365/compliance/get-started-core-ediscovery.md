@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met belangrijke eDiscovery-cases in Microsoft 365
+title: Aan de slag met Core eDiscovery-cases in Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,15 +16,15 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: In dit artikel wordt beschreven hoe u aan de slag kunt met core eDiscovery in Microsoft 365. Nadat u eDiscovery-machtigingen hebt toegewezen en een zaak hebt ingesteld, kunt u leden toevoegen, eDiscovery-bezit maken en vervolgens gegevens zoeken en exporteren die relevant zijn voor uw onderzoek.
-ms.openlocfilehash: 4a814b2e0019f86e4a4fc0e26d19df4411402749
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Hier wordt beschreven hoe u aan de slag kunt met Core eDiscovery in Microsoft 365. Nadat u eDiscovery-machtigingen hebt toegewezen en een zaak hebt ingesteld, kunt u leden toevoegen, eDiscovery-bezit maken en vervolgens inhoud zoeken en exporteren die relevant is voor uw onderzoek.
+ms.openlocfilehash: 00506c2f072fff6aa30c7d96bffdc18eb5eda20b
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162061"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311014"
 ---
-# <a name="get-started-with-core-ediscovery"></a>Aan de slag met Core eDiscovery
+# <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>Aan de slag met Core eDiscovery in Microsoft 365
 
 Core eDiscovery in Microsoft 365 biedt een eenvoudig eDiscovery-hulpprogramma waarmee organisaties inhoud kunnen zoeken en exporteren in Microsoft 365 en Office 365. U kunt Core eDiscovery ook gebruiken om een eDiscovery-wachtplaats te plaatsen op inhoudslocaties, zoals Exchange-postvakken, SharePoint-sites, OneDrive-accounts en Microsoft Teams. Er is niets nodig om Core eDiscovery te implementeren, maar er zijn enkele vereisten die een IT-beheerder en eDiscovery-manager moeten uitvoeren voordat uw organisatie Core eDiscovery kan gaan gebruiken om inhoud te zoeken, te exporteren en te behouden.
 
@@ -80,9 +80,9 @@ Volg de volgende stappen om gebruikers toe te voegen aan de rollengroep eDiscove
 
 Er zijn twee subgroepen in de rollengroep eDiscovery Manager. Het verschil tussen deze subgroepen is gebaseerd op bereik.
 
-- **eDiscovery Manager:** Kan de core eDiscovery-cases bekijken en beheren die ze maken of lid zijn van. Als een andere eDiscovery Manager een zaak maakt, maar geen tweede eDiscovery Manager toevoegt als lid van die zaak, kan de tweede eDiscovery Manager de zaak niet weergeven of openen op de pagina Core eDiscovery in het compliancecentrum. Over het algemeen kunnen de meeste personen in uw organisatie worden toegevoegd aan de subgroep eDiscovery Manager.
+- **eDiscovery Manager:** kan de core eDiscovery-zaken bekijken en beheren die ze maken of waar ze lid van zijn. Als een andere eDiscovery Manager een zaak maakt, maar geen tweede eDiscovery Manager toevoegt als lid van die zaak, kan de tweede eDiscovery Manager de zaak niet weergeven of openen op de pagina Core eDiscovery in het compliancecentrum. Over het algemeen kunnen de meeste personen in uw organisatie worden toegevoegd aan de subgroep eDiscovery Manager.
 
-- **eDiscovery-beheerder:** Kan alle case managementtaken uitvoeren die een eDiscovery Manager kan uitvoeren. Bovendien kan een eDiscovery-beheerder:
+- **eDiscovery-beheerder:** kan alle casebeheertaken uitvoeren die een eDiscovery Manager kan uitvoeren. Bovendien kan een eDiscovery-beheerder:
 
   - Bekijk alle zaken die worden weergegeven op de pagina Core eDiscovery.
   
@@ -104,27 +104,27 @@ De volgende stap is het maken van een case en het gebruik van Core eDiscovery. V
 
 3. Klik op **de pagina Core eDiscovery** op **Een zaak maken.**
 
-4. Geef de **zaak op de** pagina Nieuwe hoofd zaak een naam (vereist) en typ vervolgens een optioneel hoofdnummer en een beschrijving. De naam van de zaak moet uniek zijn in uw organisatie.
+4. Geef de **zaak op de** pagina Nieuwe hoofd zaak een naam (vereist) en typ vervolgens een optionele beschrijving. De naam van de zaak moet uniek zijn in uw organisatie.
 
 5. Klik **op Opslaan** om de zaak te maken.
 
-   De nieuwe zaak wordt gemaakt en weergegeven op de pagina Core eDiscovery. Mogelijk moet u op Vernieuwen **klikken om** de nieuwe case weer te geven. 
+   De nieuwe zaak wordt gemaakt en weergegeven op de pagina Core eDiscovery. Mogelijk moet u op Vernieuwen **klikken om** de nieuwe case weer te geven.
 
 ## <a name="step-4-optional-add-members-to-a-core-ediscovery-case"></a>Stap 4 (optioneel): Leden toevoegen aan een core eDiscovery-zaak
 
-Als u een zaak maakt in stap 3 en u de enige bent die de zaak gebruikt, hoeft u deze stap niet uit te voeren. U kunt de zaak gaan gebruiken om eDiscovery-inhoudsreporten te maken, inhoud te zoeken of zoekresultaten te exporteren. Voer deze stap uit als u andere gebruikers (of rollengroep) toegang wilt geven tot de zaak.
+Als u een zaak maakt in stap 3 en u de enige bent die de zaak gebruikt, hoeft u deze stap niet uit te voeren. U kunt de case gaan gebruiken om eDiscovery-in-standen te maken, inhoud te zoeken en zoekresultaten te exporteren. Voer deze stap uit als u andere gebruikers (of rollengroep) toegang wilt geven tot de zaak.
 
 1. Klik op **de pagina Core eDiscovery** in het Microsoft 365 compliancecentrum op de naam van de zaak aan wie u leden wilt toevoegen.
 
-2. Klik op **de pagina Manage this case** flyout onder Leden **beheren** op **Toevoegen** om leden aan de zaak toe te voegen. 
+2. Selecteer op de startpagina van de **zaak het tabblad Instellingen** en selecteer vervolgens Access & **machtigingen.**
 
-    U kunt er ook voor kiezen om rollengroep toe te voegen als leden van een zaak. Klik **onder Rollengroepen beheren** op **Toevoegen.** U kunt alleen de rollengroepen waar u lid van bent, toewijzen aan een zaak. Dat komt omdat rollengroepen bepalen wie leden kan toewijzen aan een eDiscovery-zaak.
+3. Klik op **de flyout & Access-machtigingen** onder  **Leden** op Toevoegen om leden aan de zaak toe te voegen.
 
-3. Klik in de lijst met personen of rollengroepen die als leden van de zaak kunnen worden toegevoegd, op het selectievakje naast de namen van de personen (of rollengroepen) die u wilt toevoegen. Als u een grote lijst met personen hebt  die als lid kunnen worden toegevoegd, gebruikt u het vak Zoeken om te zoeken naar een specifieke persoon in de lijst.
+    U kunt er ook voor kiezen om rollengroepen toe te voegen als leden van een zaak. Klik **onder Rollengroepen** op **Toevoegen.** U kunt alleen de rollengroepen waar u lid van bent, toewijzen aan een zaak. Dat komt omdat rollengroepen bepalen wie leden kan toewijzen aan een eDiscovery-zaak.
+
+4. Klik in de lijst met personen of rollengroepen die kunnen worden toegevoegd als leden van de zaak links van de naam van de personen (of rollengroepen) die u wilt toevoegen. Als u een grote lijst met personen of rollengroepen  hebt die als lid kunnen worden toegevoegd, gebruikt u het vak Zoeken om te zoeken naar een specifieke persoon of rollengroep in de lijst.
   
-4. Nadat u de personen of rollengroepen hebt geselecteerd die u wilt toevoegen als leden van de zaak, klikt u op **Toevoegen.**
-
-5. Klik **op Opslaan** om de nieuwe lijst met caseleden op te slaan.
+5. Nadat u de personen of rollengroepen hebt geselecteerd  die u wilt toevoegen als leden van de zaak, klikt u op Opslaan om de nieuwe leden of rollengroepen op te slaan.
 
 ## <a name="explore-the-core-ediscovery-workflow"></a>De core eDiscovery-werkstroom verkennen
 
@@ -132,7 +132,7 @@ Om aan de slag te gaan met kern-eDiscovery, is hier een eenvoudige werkstroom vo
 
 ![Core eDiscovery-werkstroom](../media/CoreEdiscoveryWorkflow.png)
 
-1. **[Maak een eDiscovery-wacht.](create-ediscovery-holds.md)** De eerste stap na het maken van een zaak is het plaatsen van een wachtstand (ook wel *een eDiscovery-wachtstand* genoemd) op de inhoudslocaties van de personen die geïnteresseerd zijn in uw onderzoek. Inhoudslocaties zijn Exchange postvakken, SharePoint sites, OneDrive-accounts, evenals de postvakken en sites die zijn gekoppeld aan Microsoft Teams en Office 365 Groepen. Hoewel deze stap optioneel is, behoudt het maken van een eDiscovery-bewaarwaarde inhoud die mogelijk relevant is voor de zaak tijdens het onderzoek. Wanneer u een eDiscovery-bewaarfunctie maakt, kunt u alle inhoud behouden op specifieke inhoudslocaties of kunt u een op query gebaseerde bewaarfunctie maken om alleen de inhoud te behouden die overeenkomt met een bewaarquery. Naast het behoud van inhoud, is een andere goede reden om eDiscovery-inhoudsophoudts te maken, door snel te zoeken naar de inhoudslocaties in de wacht (in plaats van elke locatie te selecteren om te zoeken) wanneer u zoekopdrachten maakt en uit te voeren in de volgende stap. Nadat u het onderzoek hebt voltooid, kunt u de aangemaakte wacht houden.
+1. **[Maak een eDiscovery-wacht.](create-ediscovery-holds.md)** De eerste stap na het maken van een zaak is het plaatsen van een wachtstand (ook wel *een eDiscovery-wachtstand* genoemd) op de inhoudslocaties van de personen die geïnteresseerd zijn in uw onderzoek. Inhoudslocaties zijn Exchange postvakken, SharePoint sites, OneDrive-accounts en de postvakken en sites die zijn gekoppeld aan Microsoft Teams en Office 365 Groepen. Hoewel deze stap optioneel is, behoudt het maken van een eDiscovery-bewaarwaarde inhoud die mogelijk relevant is voor de zaak tijdens het onderzoek. Wanneer u een eDiscovery-bewaarfunctie maakt, kunt u alle inhoud behouden op specifieke inhoudslocaties of kunt u een op query gebaseerde bewaarfunctie maken om alleen de inhoud te behouden die overeenkomt met een bewaarquery. Naast het behoud van inhoud, is een andere goede reden om eDiscovery-inhoudsophoudts te maken, door snel te zoeken naar de inhoudslocaties in de wacht (in plaats van elke locatie te selecteren om te zoeken) wanneer u zoekopdrachten maakt en uit te voeren in de volgende stap. Nadat u het onderzoek hebt voltooid, kunt u de aangemaakte wacht houden.
 
 2. **[Zoeken naar inhoud](search-for-content-in-core-ediscovery.md)**. Nadat u eDiscovery-wachtplaatsen hebt gemaakt, gebruikt u het ingebouwde zoekprogramma om de inhoudslocaties in de wacht te zetten. U kunt ook op andere inhoudslocaties zoeken naar gegevens die relevant kunnen zijn voor de zaak. U kunt verschillende zoekopdrachten maken en uitvoeren die aan de zaak zijn gekoppeld. U gebruikt trefwoorden, eigenschappen en [](keyword-queries-and-search-conditions.md) voorwaarden om zoekquery's te maken die zoekresultaten retourneren met de gegevens die waarschijnlijk relevant zijn voor de zaak. U kunt ook:
 

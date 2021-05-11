@@ -16,16 +16,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
-description: Meer informatie over de limieten die van kracht zijn voor de functie Inhoud zoeken in het Microsoft 365 compliancecentrum, zoals het maximum aantal gelijktijdige zoekopdrachten. Deze zoeklimieten zijn ook van toepassing op zoekopdrachten die zijn gekoppeld aan Core eDiscovery-zaken.
-ms.openlocfilehash: e4cfc79d35b4dc6a22e8e7a872699d906b39a901
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Meer informatie over de limieten die van kracht zijn voor de functies Inhoud zoeken en Core eDiscovery in het Microsoft 365 compliancecentrum.
+ms.openlocfilehash: 47004473efe3407e9123fd15a7b1bf5f23e9fb23
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244318"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311410"
 ---
-# <a name="limits-for-content-search"></a>Limieten voor zoeken naar inhoud 
-Er worden verschillende limieten toegepast op het zoekprogramma Inhoud in het Microsoft 365 compliancecentrum. Dit omvat zoekopdrachten  die worden uitgevoerd op de pagina Inhoud zoeken en zoekopdrachten die zijn gekoppeld aan een eDiscovery-zaak op de **pagina Core eDiscovery.** Deze limieten helpen bij het handhaven van de gezondheid en kwaliteit van services die aan organisaties worden geleverd. Er zijn ook limieten voor het indexeren van e-mailberichten in Exchange Online zoeken. U kunt de limieten voor Zoeken naar inhoud of e-mailindexering niet wijzigen, maar u moet hiervan op de hoogte zijn, zodat u rekening kunt houden met deze limieten bij het plannen, uitvoeren en oplossen van inhoudszoekingen.
+# <a name="limits-for-ediscovery-search"></a>Limieten voor eDiscovery-zoekopdrachten 
+
+Verschillende limieten worden toegepast op eDiscovery-zoekhulpmiddelen in het Microsoft 365 compliancecentrum. Dit omvat zoekopdrachten  die worden uitgevoerd op de pagina Inhoud zoeken en zoekopdrachten die zijn gekoppeld aan een eDiscovery-zaak op de **pagina Core eDiscovery.** Deze limieten helpen bij het handhaven van de gezondheid en kwaliteit van services die aan organisaties worden geleverd. Er zijn ook limieten voor het indexeren van e-mailberichten in Exchange Online zoeken. U kunt de limieten voor eDiscovery-zoekopdrachten of e-mailindexering niet wijzigen, maar u moet hiervan op de hoogte zijn, zodat u rekening kunt houden met deze limieten bij het plannen, uitvoeren en oplossen van problemen met eDiscovery-zoekopdrachten.
+
+Zie Limieten Advanced eDiscovery in Advanced eDiscovery [](limits-ediscovery20.md)
   
 ## <a name="search-limits"></a>Zoeklimieten
 
@@ -86,7 +89,7 @@ In de volgende tabel worden de limieten vermeld bij het exporteren van de result
 
 In de volgende tabel worden de indexeringslimieten beschreven die ertoe kunnen leiden dat een e-mailbericht wordt geretourneerd als een niet-geïndexeerd item of een gedeeltelijk geïndexeerd item in de resultaten van een inhoudszoekactie.
   
-| Indexeringslimiet | Maximumwaarde | Omschrijving |
+| Indexeringslimiet | Maximumwaarde | Beschrijving |
 |:-----|:-----|:-----|
 |Maximale bijlagegrootte|150 MB  <br/> |De maximale grootte van een e-mailbijlage die wordt geparseerd voor indexering. Elke bijlage die groter is dan deze limiet, wordt niet geparseerd voor indexering en het bericht met de bijlage wordt gemarkeerd als gedeeltelijk geïndexeerd.  <br/> <br/>**Opmerking:** Parseren is het proces waarbij de indexeringsservice tekst uit de bijlage haalt, overbodige tekens zoals interpunctie en spaties verwijdert en vervolgens de tekst opsplitst in woorden (in een proces dat tokenisatie wordt genoemd), die vervolgens in de index worden opgeslagen.           |
 |Maximum aantal bijlagen  <br/> |250  <br/> |Het maximum aantal bestanden dat is gekoppeld aan een e-mailbericht dat wordt geparseerd voor indexering. Als een bericht meer dan 250 bijlagen heeft, worden de eerste 250 bijlagen geparseerd en geïndexeerd en wordt het bericht gemarkeerd als gedeeltelijk geïndexeerd omdat het extra bijlagen had die niet zijn geparseerd.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Inhoudszoekresultaten exporteren
+title: Zoekresultaten voor inhoud exporteren
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -22,22 +22,22 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: Exporteert de zoekresultaten van een inhoudszoekactie in het Microsoft 365 compliancecentrum naar een lokale computer. E-mailresultaten worden geëxporteerd als PST-bestanden. Inhoud van SharePoint en OneDrive voor Bedrijven sites worden geëxporteerd als inheems Office documenten.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3bb46966ddd8d4b2ae61091b126daea1413039ac
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: b5e900d44e59c2c37263c1162a7e631b1635cb06
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "52162723"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311964"
 ---
-# <a name="export-content-search-results"></a>Inhoudszoekresultaten exporteren
+# <a name="export-content-search-results"></a>Zoekresultaten voor inhoud exporteren
 
 Nadat een inhoudszoekactie is uitgevoerd, kunt u de zoekresultaten exporteren naar een lokale computer. Wanneer u e-mailresultaten exporteert, worden deze als PST-bestanden naar uw computer gedownload. Wanneer u inhoud exporteert van SharePoint en OneDrive voor Bedrijven sites, worden kopieën van Office documenten geëxporteerd. Er zijn andere documenten en rapporten opgenomen in de geëxporteerde zoekresultaten.
   
 Als u de resultaten van een inhoudszoekactie exporteert, worden de resultaten voorbereid en vervolgens gedownload naar een lokale computer.
   
-## <a name="before-you-export-content-search-results"></a>Voordat u inhoudszoekresultaten exporteert
+## <a name="before-you-export-search-results"></a>Voordat u zoekresultaten exporteert
 
-- Als u zoekresultaten wilt exporteren, moet u de rol Exportbeheer krijgen toegewezen in het beveiligings- & Compliancecentrum. Deze rol wordt toegewezen aan de ingebouwde rollengroep eDiscovery Manager. De functie is niet standaard toegewezen aan de rollengroep Organisatiebeheer. Zie [eDiscovery-machtigingen](assign-ediscovery-permissions.md)toewijzen voor meer informatie.
+- Als u zoekresultaten wilt exporteren, moet u de rol Exportbeheer krijgen toegewezen in & Compliancecentrum. Deze rol wordt toegewezen aan de ingebouwde rollengroep eDiscovery Manager. De functie is niet standaard toegewezen aan de rollengroep Organisatiebeheer. Zie [eDiscovery-machtigingen](assign-ediscovery-permissions.md)toewijzen voor meer informatie.
 
 - De computer die u gebruikt om de zoekresultaten te exporteren, moet voldoen aan de volgende systeemvereisten:
   
@@ -57,7 +57,7 @@ Als u de resultaten van een inhoudszoekactie exporteert, worden de resultaten vo
   > <sup>1</sup> Microsoft produceert geen extensies of invoegtoepassingen van derden voor ClickOnce toepassingen. Het exporteren van zoekresultaten met een niet-ondersteunde browser met extensies of invoegtoepassingen van derden wordt niet ondersteund.<br/>
   > <sup>2</sup> Als gevolg van recente wijzigingen in Microsoft Edge is ClickOnce standaard niet meer ingeschakeld. Zie Het [eDiscovery-exporthulpmiddel](configure-edge-to-export-search-results.md)gebruiken in Microsoft Edge voor instructies over het inschakelen van ClickOnce ondersteuning in Edge.
   
-- We raden u aan zoekresultaten te downloaden naar een lokale computer. Als u echter wilt voorkomen dat de firewall of proxy-infrastructuur van uw bedrijf problemen veroorzaakt bij het downloaden van zoekresultaten, kunt u overwegen zoekresultaten te downloaden naar een virtueel bureaublad buiten uw netwerk. Dit kan time-outs verminderen die voorkomen in Azure-gegevensverbindingen bij het exporteren van een groot aantal bestanden. Zie voor meer informatie over virtuele bureaubladen [Windows Virtual Desktop.](https://azure.microsoft.com/services/virtual-desktop) 
+- We raden u aan zoekresultaten te downloaden naar een lokale computer. Als u wilt voorkomen dat de firewall of proxy-infrastructuur van uw bedrijf problemen veroorzaakt bij het downloaden van zoekresultaten, kunt u zoekresultaten downloaden naar een virtueel bureaublad buiten uw netwerk. Dit kan time-outs verminderen die voorkomen in Azure-gegevensverbindingen bij het exporteren van een groot aantal bestanden. Zie voor meer informatie over virtuele bureaubladen [Windows Virtual Desktop.](https://azure.microsoft.com/services/virtual-desktop)
 
 - Als u de prestaties bij het downloaden van zoekresultaten wilt verbeteren, kunt u zoekopdrachten die een grote reeks resultaten retourneren, verdelen in kleinere zoekopdrachten. U kunt bijvoorbeeld datumbereiken in zoekquery's gebruiken om een kleinere reeks resultaten te retourneren die sneller kunnen worden gedownload.
   
@@ -82,55 +82,57 @@ Als u de resultaten van een inhoudszoekactie exporteert, worden de resultaten vo
     </system.net>
     ```
 
+- Als de resultaten van een zoekopdracht naar inhoud ouder zijn dan 7 dagen en u een exportklus indient, wordt er een foutbericht weergegeven waarin u wordt gevraagd de zoekopdracht opnieuw uit te voeren om de zoekresultaten bij te werken. Als dit gebeurt, annuleert u de export, heruitvoert u de zoekopdracht en start u de export opnieuw.
+
 ## <a name="step-1-prepare-search-results-for-export"></a>Stap 1: Zoekresultaten voorbereiden voor export
 
 De eerste stap is het voorbereiden van de zoekresultaten voor het exporteren. Wanneer u de resultaten voorbereidt, worden deze geüpload naar een door Microsoft verstrekte Azure Storage in de Microsoft-cloud. Inhoud van postvakken en sites wordt geüpload met een maximumsnelheid van 2 GB per uur.
   
-1. Ga naar [https://protection.office.com](https://protection.office.com).
+1. Selecteer in Microsoft 365 compliancecentrum de inhoudszoekactie waaruit u resultaten wilt exporteren.
   
-2. Meld u aan met uw werk- of schoolaccount.
+2. Klik in **het** menu Acties onder aan de flyoutpagina op **Resultaten exporteren.**
+
+   ![Optie Resultaten exporteren in het menu Acties](../media/ActionMenuExportResults.png)
+
+   De **flyoutpagina** Resultaten exporteren wordt weergegeven. De exportopties die beschikbaar zijn om inhoud te exporteren, zijn afhankelijk van of zoekresultaten zich in postvakken of sites bevinden of een combinatie van beide.
+
+3. Kies **onder Uitvoeropties** een van de volgende opties:
   
-3. Klik in het linkerdeelvenster van & Compliancecentrum op **Zoeken in** \> **inhoud.**
+   ![Uitvoeropties exporteren](../media/ExportOutputOptions.png)
+
+    - Alle items, met uitzondering van items met een niet-herkende notatie, worden versleuteld of zijn om andere redenen **niet geïndexeerd.** Deze optie exporteert alleen geïndexeerde items.
   
-4. Selecteer op **de pagina Inhoud** zoeken een zoekopdracht. 
+    - Alle items, inclusief items met een niet-herkende notatie, worden versleuteld of zijn om andere redenen **niet geïndexeerd.** Deze optie exporteert geïndexeerde en niet-geïndexeerde items.
   
-5. Klik in het detailvenster onder **Resultaten exporteren naar een computer** op Exporteren **starten.**
+    - **Alleen items met een niet-herkende notatie,** worden versleuteld of om andere redenen niet geïndexeerd. Met deze optie worden alleen niet-geïndexeerde items geexporteerd.
+
+      Zie de [sectie Meer informatie](#more-information) voor een beschrijving over hoe gedeeltelijk geïndexeerde items worden geëxporteerd. Zie Gedeeltelijk geïndexeerde items in Inhoud zoeken voor meer informatie over gedeeltelijk geïndexeerde [items.](partially-indexed-items-in-content-search.md)
+
+4. Kies **onder Exchange inhoud exporteren als** een van de volgende opties:
   
-    > [!NOTE]
-    > Als de resultaten voor een zoekopdracht ouder zijn dan 7 dagen, wordt u gevraagd de zoekresultaten bij te werken. Als dit gebeurt, annuleert u de export, klikt u **in** het detailvenster op Zoekresultaten bijwerken voor de geselecteerde zoekopdracht en start u de export opnieuw nadat de resultaten zijn bijgewerkt. 
+   ![Exchange opties](../media/ExchangeExportOptions.png)
+
+    - **Eén PST-bestand voor elk postvak:** hiermee exporteert u één PST-bestand voor elk gebruikerspostvak met zoekresultaten. Alle resultaten uit het archiefpostvak van de gebruiker worden opgenomen in hetzelfde PST-bestand. Met deze optie wordt de structuur van de postvakmap uit het bronpostvak gereproduceerd.
   
-6. Kies op **de pagina De** zoekresultaten exporteren onder **Uitvoeropties** een van de volgende opties:
+    - **Eén PST-bestand** met alle berichten: hiermee exporteert u één PST-bestand (met de naam *Exchange.pst)* dat de zoekresultaten bevat van alle bronpostvakken die in de zoekopdracht zijn opgenomen. Met deze optie wordt de structuur van de postvakmap voor elk bericht gereproduceerd.
   
-    - Alle items, met uitzondering van items met een niet-herkende notatie, worden versleuteld of zijn om andere redenen niet geïndexeerd
+    - **Eén PST-bestand** met alle berichten in één map: hiermee exporteert u zoekresultaten naar één PST-bestand waarin alle berichten zich in één map op het hoogste niveau bevinden. Met deze optie kunnen revisoren items in chronologische volgorde bekijken (items worden gesorteerd op verzonden datum) zonder dat ze in de oorspronkelijke mapstructuur voor elk item moeten navigeren.
   
-    - Alle items, inclusief items met een niet-herkende notatie, worden versleuteld of zijn om andere redenen niet geïndexeerd
+    - **Afzonderlijke berichten:** hiermee exporteert u zoekresultaten als afzonderlijke e-mailberichten met de MSG-indeling. Als u deze optie selecteert, worden de zoekresultaten per e-mail geëxporteerd naar een map in het bestandssysteem. Het mappad voor afzonderlijke berichten is hetzelfde als het pad dat wordt gebruikt als u de resultaten naar een PST-bestand exporteert.
   
-    - Alleen items met een niet-herkende notatie, worden versleuteld of om andere redenen niet geïndexeerd
+5. Configureer de volgende aanvullende opties:
+
+   ![Exchange opties](../media/OtherExportOptions.png)
+
+   1. Schakel het **selectievakje De-duplicatie inschakelen voor Exchange inhoud** in om dubbele berichten uit te sluiten.
   
-    Zie de [sectie Meer informatie](#more-information) voor een beschrijving over hoe gedeeltelijk geïndexeerde items worden geëxporteerd. Zie Gedeeltelijk geïndexeerde items in Inhoud zoeken voor meer informatie over gedeeltelijk geïndexeerde [items.](partially-indexed-items-in-content-search.md)
+      Als u deze optie selecteert, wordt slechts één kopie van een bericht geëxporteerd, zelfs als er meerdere exemplaren van hetzelfde bericht worden gevonden in de postvakken die zijn doorzocht. Het rapport Exportresultaten (een bestand met de naam Results.csv) bevat een rij voor elke kopie van een duplicaatbericht, zodat u de postvakken (of openbare mappen) kunt identificeren die een kopie van het dubbele bericht bevatten. Zie [De-duplicatie in eDiscovery-zoekresultaten](de-duplication-in-ediscovery-search-results.md)voor meer informatie over de-duplicatie en hoe dubbele items worden geïdentificeerd.
   
-7. Kies **onder Exchange inhoud exporteren als** een van de volgende opties:
+   2. Schakel het **selectievakje Versies opnemen voor SharePoint bestanden in** om alle versies van documenten SharePoint exporteren. Deze optie wordt alleen weergegeven als de inhoudsbronnen van de zoekopdracht sites SharePoint of OneDrive voor Bedrijven bevatten.
   
-    - **Eén PST-bestand voor elk postvak:** Hiermee exporteert u één PST-bestand voor elk gebruikerspostvak dat zoekresultaten bevat. Alle resultaten uit het archiefpostvak van de gebruiker worden opgenomen in hetzelfde PST-bestand. Met deze optie wordt de structuur van de postvakmap uit het bronpostvak gereproduceerd.
+   3. Selecteer de **bestanden exporteren in een gecomprimeerde map (geritst). Bevat alleen afzonderlijke berichten en SharePoint documenten om** zoekresultaten te exporteren naar gecomprimeerde mappen. Deze optie wordt alleen weergegeven wanneer u ervoor kiest om items Exchange te exporteren als afzonderlijke berichten en wanneer de zoekresultaten documenten SharePoint of OneDrive bevatten. Deze optie wordt voornamelijk gebruikt om te werken rond de limiet van 260 tekens in Windows bestandspadnamen wanneer items worden geëxporteerd. Zie de 'Bestandsnaam van geëxporteerde items' in [de sectie Meer](#more-information) informatie.
   
-    - **Eén PST-bestand met alle berichten:** Hiermee exporteert u één PST-bestand *(Exchange.pst)* dat de zoekresultaten bevat van alle bronpostvakken die in de zoekopdracht zijn opgenomen. Met deze optie wordt de structuur van de postvakmap voor elk bericht gereproduceerd.
-  
-    - **Eén PST-bestand met alle berichten in één map:** Hiermee exporteert u zoekresultaten naar één PST-bestand waarin alle berichten zich in één map op het hoogste niveau bevinden. Met deze optie kunnen revisoren items in chronologische volgorde bekijken (items worden gesorteerd op verzonden datum) zonder dat ze in de oorspronkelijke mapstructuur voor elk item moeten navigeren.
-  
-    - **Afzonderlijke berichten:** Hiermee exporteert u zoekresultaten als afzonderlijke e-mailberichten met de MSG-indeling. Als u deze optie selecteert, worden de zoekresultaten per e-mail geëxporteerd naar een map in het bestandssysteem. Het mappad voor afzonderlijke berichten is hetzelfde als het pad dat wordt gebruikt als u de resultaten exporteert naar PST-bestanden.
-  
-      > [!IMPORTANT]
-      > Als u RMS-beveiligde berichten wilt ontsleutelen wanneer ze worden geëxporteerd, moet u zoekresultaten per e-mail exporteren als afzonderlijke berichten. Versleutelde berichten blijven versleuteld als u de zoekresultaten exporteert als een PST-bestand. Zie E-mailberichten en versleutelde bestandsbijlagen in dit artikel ontsleutelen met [RMS-beveiligde e-mailberichten](#decrypting-rms-protected-email-messages-and-encrypted-file-attachments) en versleutelde bestandsbijlagen voor meer informatie.
-  
-8. Klik op **het selectievakje Duplicatie** inschakelen om dubbele berichten uit te sluiten. Deze optie wordt alleen weergegeven als de inhoudsbronnen van de zoekopdracht Exchange postvakken of openbare mappen bevatten. 
-  
-    Als u deze optie selecteert, wordt slechts één kopie van een bericht geëxporteerd, zelfs als er meerdere exemplaren van hetzelfde bericht worden gevonden in de postvakken die zijn doorzocht. Het rapport exportresultaten (Results.csv) bevat een rij voor elke kopie van een duplicaatbericht, zodat u de postvakken (of openbare mappen) kunt identificeren die een kopie van het dubbele bericht bevatten. Zie [De-duplicatie in eDiscovery-zoekresultaten](de-duplication-in-ediscovery-search-results.md)voor meer informatie over de-duplicatie en hoe dubbele items worden geïdentificeerd.
-  
-9. Klik op **het selectievakje Versies opnemen voor SharePoint documenten om** alle versies van documenten SharePoint exporteren. Deze optie wordt alleen weergegeven als de inhoudsbronnen van de zoekopdracht sites SharePoint of OneDrive voor Bedrijven bevatten. 
-  
-10. Klik op **het selectievakje Bestanden exporteren in een gecomprimeerde map (geritst)** om zoekresultaten te exporteren naar gecomprimeerde mappen. Deze optie is alleen beschikbaar wanneer u ervoor kiest om Exchange als afzonderlijke berichten te exporteren en wanneer de zoekresultaten documenten SharePoint of OneDrive bevatten. Deze optie wordt voornamelijk gebruikt om te werken rond de limiet van 260 tekens in Windows bestandspadnamen wanneer items worden geëxporteerd. Zie de 'Bestandsnaam van geëxporteerde items' in [de sectie Meer](#more-information) informatie. 
-  
-11. Klik **op Exporteren starten.** De zoekresultaten zijn voorbereid voor het downloaden, wat betekent dat ze worden geüpload naar een Azure Storage locatie in de Microsoft-cloud. Dit kan enkele minuten duren.
+6. Klik **op Exporteren** om het exportproces te starten. De zoekresultaten zijn voorbereid voor het downloaden, wat betekent dat ze worden verzameld vanaf de oorspronkelijke inhoudslocaties en vervolgens worden geüpload naar een Azure Storage locatie in de Microsoft-cloud. Dit kan enkele minuten duren.
 
 Zie de volgende sectie voor instructies voor het downloaden van de geëxporteerde zoekresultaten.
   
@@ -138,7 +140,7 @@ Zie de volgende sectie voor instructies voor het downloaden van de geëxporteerd
 
 De volgende stap is het downloaden van de zoekresultaten van de Azure Storage locatie naar uw lokale computer.
   
-1. Klik op **de pagina Inhoud** zoeken op het tabblad **Exporteren.** 
+1. Selecteer op **de pagina Inhoud** zoeken in het Microsoft 365 compliancecentrum het tabblad **Exporten**
   
    Mogelijk moet u op Vernieuwen klikken **om** de lijst met exporttaken bij te werken, zodat de exporttaken worden weergegeven die u hebt gemaakt. Exporttaken hebben dezelfde naam als de bijbehorende zoekopdracht **met _Export** toegevoegd aan de zoeknaam.
   
@@ -146,7 +148,10 @@ De volgende stap is het downloaden van de zoekresultaten van de Azure Storage lo
 
 3. Klik op de flyoutpagina onder **Exportcode** op **Kopiëren naar klembord.** U gebruikt deze sleutel in stap 6 om de zoekresultaten te downloaden.
   
-4. Klik **op Resultaten downloaden.**
+   > [!IMPORTANT]
+   > Omdat iedereen het hulpprogramma eDiscovery Export kan installeren en starten en vervolgens deze sleutel kan gebruiken om de zoekresultaten te downloaden, moet u voorzorgsmaatregelen nemen om deze sleutel te beveiligen, net zoals u wachtwoorden of andere beveiligingsgerelateerde informatie zou beveiligen.
+
+4. Klik boven aan de flyoutpagina op **Resultaten downloaden.**
 
 5. Als u wordt gevraagd het **eDiscovery-exportprogramma te installeren,** klikt u op **Installeren.**
 
@@ -226,10 +231,10 @@ Zie de sectie 'Exportlimieten' in Limieten voor inhoud zoeken voor informatie ov
 
   - **Overgeslagen items** Wanneer u zoekresultaten exporteert van SharePoint en OneDrive voor Bedrijven sites, bevat de export meestal een rapport overgeslagen items (SkippedItems.csv). De items die in dit rapport worden aangehaald, zijn meestal items die niet worden gedownload, zoals een map of een documentset. Het niet exporteren van dit type items is een ontwerp. Voor andere items die zijn overgeslagen, wordt in het veld Fouttype en Foutgegevens in het rapport Overgeslagen items de reden weergegeven waarom het item is overgeslagen en niet is gedownload met de andere zoekresultaten.
 
-  - **Logboek traceren** Bevat gedetailleerde logboekregistratiegegevens over het exportproces en kan helpen bij het ontdekken van problemen tijdens het exporteren.
+  - **Trace.log** Bevat gedetailleerde logboekregistratiegegevens over het exportproces en kan helpen bij het opsporen van problemen tijdens het exporteren. Als u een ticket opent met Microsoft Support over een probleem met betrekking tot het exporteren van zoekresultaten, wordt u mogelijk gevraagd dit tracelogboek op te geven.
   
     > [!NOTE]
-    > U kunt deze documenten gewoon exporteren zonder de werkelijke zoekresultaten te exporteren. Zie [Een inhoudszoekrapport exporteren.](export-a-content-search-report.md) 
+    > U kunt deze documenten gewoon exporteren zonder de werkelijke zoekresultaten te exporteren. Zie [Een inhoudszoekrapport exporteren.](export-a-content-search-report.md)
   
 ### <a name="exporting-partially-indexed-items"></a>Gedeeltelijk geïndexeerde items exporteren
   
@@ -271,7 +276,7 @@ Zie de sectie 'Exportlimieten' in Limieten voor inhoud zoeken voor informatie ov
   
 ### <a name="decrypting-rms-protected-email-messages-and-encrypted-file-attachments"></a>Met RMS beveiligde e-mailberichten en versleutelde bestandsbijlagen ontsleutelen
 
-Alle met rechten beveiligde (RMS-beveiligde) e-mailberichten die zijn opgenomen in de resultaten van een inhoudszoekactie, worden ontsleuteld wanneer u deze exporteert. Bovendien wordt elk bestand dat is [](encryption.md) versleuteld met een Microsoft-versleutelingstechnologie en is gekoppeld aan een e-mailbericht dat is opgenomen in de zoekresultaten, ook ontsleuteld wanneer het wordt geëxporteerd. Deze ontsleutelingsfunctie is standaard ingeschakeld voor leden van de rollengroep eDiscovery Manager. Dit komt omdat de beheerrol RMS Decrypt standaard aan deze rollengroep is toegewezen. Houd rekening met de volgende zaken bij het exporteren van versleutelde e-mailberichten en bijlagen:
+Alle met rechten beveiligde (RMS-beveiligde) e-mailberichten die zijn opgenomen in de resultaten van een inhoudszoekactie, worden ontsleuteld wanneer u ze exporteert. Bovendien wordt elk bestand dat is [](encryption.md) versleuteld met een Microsoft-versleutelingstechnologie en is gekoppeld aan een e-mailbericht dat is opgenomen in de zoekresultaten, ook ontsleuteld wanneer het wordt geëxporteerd. Deze ontsleutelingsfunctie is standaard ingeschakeld voor leden van de rollengroep eDiscovery Manager. Dit komt omdat de beheerrol RMS Decrypt standaard aan deze rollengroep is toegewezen. Houd rekening met de volgende zaken bij het exporteren van versleutelde e-mailberichten en bijlagen:
   
 - Als u rms-beveiligde berichten wilt ontsleutelen wanneer u deze exporteert, moet u de zoekresultaten exporteren als afzonderlijke berichten. Als u zoekresultaten exporteert naar een PST-bestand, blijven rms-beveiligde berichten versleuteld.
 
@@ -307,7 +312,7 @@ Alle met rechten beveiligde (RMS-beveiligde) e-mailberichten die zijn opgenomen 
   
 - Wanneer u zoekresultaten downloadt met het eDiscovery-exporthulpmiddel, is het mogelijk dat u de volgende foutmelding ontvangt: Dit is een tijdelijke fout, die meestal optreedt op de Azure Storage `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` locatie. Als u dit probleem wilt oplossen, [downloadt](#step-2-download-the-search-results)u de zoekresultaten opnieuw, waarmee het eDiscovery-exporthulpmiddel opnieuw wordt gestart.
 
-- Alle zoekresultaten en de exportrapporten worden opgenomen in een map met dezelfde naam als het zoeken naar inhoud. De e-mailberichten die zijn geëxporteerd, bevinden zich in een map **met de Exchange.** Documenten bevinden zich in een map met **de SharePoint.**
+- Alle zoekresultaten en de exportrapporten worden opgenomen in een map met dezelfde naam als de zoekopdracht Inhoud. De e-mailberichten die zijn geëxporteerd, bevinden zich in een map **met de Exchange.** Documenten bevinden zich in een map met **de SharePoint.**
 
 - De metagegevens van het bestandssysteem voor documenten op SharePoint en OneDrive voor Bedrijven sites worden bewaard wanneer documenten naar uw lokale computer worden geëxporteerd. Dit betekent dat documenteigenschappen, zoals gemaakte en laatst gewijzigde datums, niet worden gewijzigd wanneer documenten worden geëxporteerd.
 

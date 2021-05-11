@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 12f648ce476f6e29cbb6b038cc42f2e744d77104
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: dc1e8707dc0810c0986698674a64e969792b5fb8
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933299"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311230"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux
 
@@ -40,8 +40,8 @@ ms.locfileid: "51933299"
 
 Een fout in de installatie kan al dan niet leiden tot een duidelijke foutmelding door de package manager. Als u wilt controleren of de installatie is gelukt, kunt u de installatielogboeken verkrijgen en controleren met behulp van:
 
- ```bash
- sudo journalctl | grep 'microsoft-mdatp'  > installation.log
+```bash
+ sudo journalctl --no-pager | grep 'microsoft-mdatp' > installation.log
 ```
 
 ```bash
@@ -50,7 +50,7 @@ Een fout in de installatie kan al dan niet leiden tot een duidelijke foutmelding
 
 ```Output
  microsoft-mdatp-installer[102243]: postinstall end [2020-03-26 07:04:43OURCE +0000] 102216
- ```
+```
 
 Een uitvoer van de vorige opdracht met de juiste datum en tijd van de installatie duidt op succes.
 
@@ -77,6 +77,7 @@ Controleer of de mdatp-service wordt uitgevoerd:
 ```bash
 systemctl status mdatp
 ```
+
 ```Output
  ● mdatp.service - Microsoft Defender for Endpoint
    Loaded: loaded (/lib/systemd/system/mdatp.service; enabled; vendor preset: enabled)
@@ -119,7 +120,7 @@ systemctl status mdatp
     sudo cp /opt/microsoft/mdatp/conf/mdatp.service <systemd_path>
     ```
 
-    waar ```<systemd_path>``` is ```/lib/systemd/system``` voor Ubuntu- en Debian-distributies en ```/usr/lib/systemd/system``` voor Rhel, CentOS, Oracle en SLES.
+    waar `<systemd_path>` is `/lib/systemd/system` voor Ubuntu- en Debian-distributies en `/usr/lib/systemd/system` voor Rhel, CentOS, Oracle en SLES.
    Vervolgens stap 2 opnieuw.
 
 4. Als de bovenstaande stappen niet werken, controleert u of SELinux is geïnstalleerd en in de afdwingmodus. Als dat het het beste is, kunt u de modus instellen op een permissieve (bij voorkeur) of uitgeschakelde modus. U kunt dit doen door de parameter in te stellen op `SELINUX` 'permissief' of 'uitgeschakeld' in het `/etc/selinux/config` bestand, gevolgd door opnieuw opstarten. Controleer de man-pagina van selinux voor meer informatie.

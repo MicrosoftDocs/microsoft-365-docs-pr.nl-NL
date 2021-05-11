@@ -17,16 +17,28 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheerders kunnen ondersteuning voor gevoeligheidslabels inschakelen voor Word Excel en PowerPoint bestanden in SharePoint en OneDrive.
-ms.openlocfilehash: c3d4320937b441510424454197c4eb4ffa46d9fe
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f610e04a9115b7654332bcc1f479144b4d100618
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245634"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311926"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
 
 >*[Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
+
+> [!NOTE]
+> Er is een actueel probleem dat resulteert in het niet openen van gelabelde en versleutelde bestanden in webversie van Office:
+>
+> Hoewel we een probleem met betrekking tot specifieke documenteigenschappen onderzoeken, kunt u niet veel bestanden openen in webversie van Office. Voor deze bestanden kunt u deze blijven openen en bewerken in uw bureaublad- en mobiele Office apps. Of ga als volgt te werk:
+>
+> 1. Open het bestand in de Office bureaublad-app.
+> 2. Verwijder het label dat versleuteling van toepassing is.
+> 3. Sla het bestand op de oorspronkelijke locatie op (SharePoint of OneDrive) en sluit de bureaublad-app.
+> 4. Open het bestand in webversie van Office en past het oorspronkelijke label waarin versleuteling wordt toegepast opnieuw toe.
+> 
+> Bestanden die alleen worden gemaakt en bewerkt in webversie van Office worden niet beïnvloed.
 
 Schakel gevoeligheidslabels in voor Office bestanden in SharePoint en OneDrive zodat gebruikers uw gevoeligheidslabels [kunnen](sensitivity-labels.md) toepassen in webversie van Office. Wanneer deze functie is ingeschakeld,  zien gebruikers de knop Gevoeligheid op het lint, zodat ze etiketten kunnen toepassen en eventuele toegepaste labelnaam op de statusbalk kunnen zien.
 
@@ -71,14 +83,6 @@ Deze nieuwe mogelijkheden werken alleen met [gevoeligheidslabels.](sensitivity-l
 Gebruik de OneDrive-synchronisatie-app versie 19.002.0121.0008 of hoger op Windows en versie 19.002.0107.0008 of hoger op Mac. Beide versies zijn uitgebracht op 28 januari 2019 en worden momenteel voor alle ringen uitgebracht. Zie de opmerkingen over de [OneDrive release voor meer informatie.](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) Nadat u gevoeligheidslabels hebt ingeschakeld voor Office bestanden in SharePoint en OneDrive, worden gebruikers die een oudere versie van de synchronisatie-app uitvoeren, gevraagd deze bij te werken.
 
 ## <a name="limitations"></a>Beperkingen
-
-- Power Query en aangepaste invoegvoegingen met webversie van Excel: Als deze bestanden zijn versleuteld met een gevoeligheidslabel, kunnen SharePoint en OneDrive de bestanden niet verwerken, zodat gebruikers ze niet kunnen openen in webversie van Office. Voor deze bestanden kunt u een label zonder versleuteling toepassen, zodat ze kunnen worden geopend in webversie van Office of gebruikers instrueren om de bestanden te openen in hun bureaublad-apps.
-
-- Als u problemen hebt met het openen van gelabelde en versleutelde bestanden in webversie van Office, gaat u als volgt te werk:
-    1. Open het bestand in de Office bureaublad-app.
-    2. Verwijder het label dat versleuteling van toepassing is.
-    3. Sla het bestand op de oorspronkelijke locatie op (SharePoint of OneDrive) en sluit de bureaublad-app.
-    4. Open het bestand in webversie van Office en past het oorspronkelijke label waarin versleuteling wordt toegepast opnieuw toe.
 
 - SharePoint en OneDrive worden niet automatisch gevoeligheidslabels toegepast op bestaande bestanden die u al hebt versleuteld met Azure Information Protection-labels. Als u de functies wilt laten werken nadat u gevoeligheidslabels hebt ingeschakeld voor Office bestanden in SharePoint en OneDrive, kunt u de volgende taken uitvoeren:
     
@@ -173,7 +177,8 @@ Als u de nieuwe mogelijkheden wilt inschakelen, gebruikt u de cmdlet [Set-SPOTen
 
 1. Als u een werk- of schoolaccount gebruikt met globale beheerders- of SharePoint beheerdersbevoegdheden in Microsoft 365, maakt u verbinding met SharePoint. Zie Aan de slag [met SharePoint Online Management Shell voor meer informatie.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
     
-    Opmerking: Als u multi-geo Microsoft 365 hebt, gebruikt u de parameter -Url met [Verbinding maken-SPOService](/powershell/module/sharepoint-online/connect-sposervice)en geeft u de url van de SharePoint Online Administration Center-site op voor een van uw geografische locaties.
+   > [!NOTE]
+   > Als u Microsoft 365 Multi-Geo hebt, gebruikt u de parameter -Url met [Verbinding maken-SPOService](/powershell/module/sharepoint-online/connect-sposervice)en geeft u de url van de SharePoint Online Administration Center-site op voor een van uw geografische locaties.
 
 2. Voer de volgende opdracht uit en druk **op Y** om dit te bevestigen:
 

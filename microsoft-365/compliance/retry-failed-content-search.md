@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: ''
 description: Tijdens een onderzoek kunt u de knop Opnieuw proberen gebruiken om inhoudszoekingen met inhoudslocatiefouten op te lossen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3aed9c1d2d1fe3c40adb64b4854ef359f931bcb
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: fb85a882ef111aa38a73dbe155a9ad0ef57dd3de
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "52161489"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311818"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Een inhoudszoekactie opnieuw proberen om een inhoudslocatiefout op te lossen
 
@@ -60,7 +60,7 @@ Hier vindt u enkele extra oorzaken van fouten in inhoudslocatie en enkele tips o
 
 - De zoekquery haalt mogelijk te veel inhoud op uit het postvak. Probeer indien mogelijk het bereik van de zoekopdracht te beperken met behulp van trefwoorden, datumbereiken en zoekvoorwaarden.
 
-- Te veel trefwoorden of trefwoordzinnen wanneer u een zoekquery maakt met behulp van [de lijst met trefwoorden.](view-keyword-statistics-for-content-search.md#get-keyword-statistics-for-content-searches) Wanneer u een zoekquery uitvoert waarin de lijst met trefwoorden wordt gebruikt, wordt met de service in feite een afzonderlijke zoekopdracht uitgevoerd voor elke rij in de lijst met trefwoorden, zodat statistieken kunnen worden gegenereerd. Als u de lijst met trefwoorden gebruikt in zoekquery's, minimaliseert u het aantal rijen in de lijst met trefwoorden of verdeelt u het aantal trefwoorden in kleinere lijsten en maakt u een andere zoekopdracht voor elke lijst met trefwoorden.
+- Te veel trefwoorden of trefwoordzinnen wanneer u een zoekquery maakt met behulp van [de lijst met trefwoorden.](view-keyword-statistics-for-content-search.md#get-keyword-statistics-for-searches) Wanneer u een zoekquery uitvoert waarin de lijst met trefwoorden wordt gebruikt, wordt met de service in feite een afzonderlijke zoekopdracht uitgevoerd voor elke rij in de lijst met trefwoorden, zodat statistieken kunnen worden gegenereerd. Als u de lijst met trefwoorden gebruikt in zoekquery's, minimaliseert u het aantal rijen in de lijst met trefwoorden of verdeelt u het aantal trefwoorden in kleinere lijsten en maakt u een andere zoekopdracht voor elke lijst met trefwoorden.
 
   > [!NOTE]
   > Als u problemen wilt beperken die worden veroorzaakt door grote trefwoordlijsten, bent u nu beperkt tot maximaal 20 rijen in de trefwoordlijst van een zoekquery.

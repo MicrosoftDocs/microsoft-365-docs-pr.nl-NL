@@ -14,16 +14,16 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: ef5562aa6f5c7519d19452100b55dd4bc30d4126
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aaae5e6bddc48f29cc0766fe26a1976672c7dd49
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162121"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52310793"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Oudere eDiscovery-zoekopdrachten migreren naar het Microsoft 365 compliancecentrum
 
-Het Microsoft 365-compliancecentrum biedt een verbeterde ervaring voor eDiscovery-gebruik, waaronder: hogere betrouwbaarheid, betere prestaties en veel functies die zijn afgestemd op eDiscovery-werkstromen, waaronder zaken om uw inhoud per zaak te ordenen, revisiesets voor het bekijken van inhoud en analyses, om gegevens te verwijderen voor controle, zoals near-duplicate groepering, e-mailthreading, themaanalyse en voorspellende codering.
+Het Microsoft 365 compliancecentrum biedt een verbeterde ervaring voor eDiscovery-gebruik, waaronder: hogere betrouwbaarheid, betere prestaties en veel functies die zijn afgestemd op eDiscovery-werkstromen, waaronder zaken om uw inhoud per zaak te ordenen, sets controleren om inhoud en analyses te bekijken, om gegevens te verwijderen voor controle, zoals near-duplicate groepering, e-mailthreading, themaanalyse en voorspellende codering.
 
 Om klanten te helpen profiteren van de nieuwe en verbeterde functionaliteit, bevat dit artikel basishulp voor het migreren van In-Place eDiscovery-zoekopdrachten en -bezit van het Exchange-beheercentrum naar het Microsoft 365 compliancecentrum.
 
@@ -136,11 +136,11 @@ Als u wilt controleren of alles correct is ingesteld, gaat u naar het Microsoft 
 
 ![Microsoft 365 Compliancecentrum eDiscovery](../media/MigrateLegacyeDiscovery7.png)
 
-De zaak die u in stap 3 hebt gemaakt, wordt weergegeven op de **pagina Core eDiscovery.** Open de zaak en let vervolgens op de wacht die u hebt gemaakt in stap 4 in die wordt weergegeven op **het tabblad Houdt.** U kunt op de wachtpositie klikken om details weer te geven, waaronder het aantal postvakken waar de wachtpositie op is toegepast en de distributiestatus.
+De zaak die u in stap 3 hebt gemaakt, wordt weergegeven op de **pagina Core eDiscovery.** Open de zaak en let vervolgens op de wacht die u hebt gemaakt in stap 4 in die wordt weergegeven op het **tabblad** Wacht. U kunt de wacht houden selecteren om details te zien op de flyoutpagina, inclusief het aantal postvakken waar de wachtpositie op is toegepast en de distributiestatus.
 
 ![eDiscovery houdt in het Microsoft 365 compliancecentrum](../media/MigrateLegacyeDiscovery8.png)
 
-De zoekopdracht die u in stap 7 hebt gemaakt, wordt weergegeven op het tabblad Zoekopdrachten van de eDiscovery-zaak. 
+De zoekopdracht die u in stap 7 hebt gemaakt, wordt weergegeven op **het tabblad** Zoekopdrachten van de zaak.
 
 ![eDiscovery case search in the Microsoft 365 compliance center](../media/MigrateLegacyeDiscovery9.png)
 

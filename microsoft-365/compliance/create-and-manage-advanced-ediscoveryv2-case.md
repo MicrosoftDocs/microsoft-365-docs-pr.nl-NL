@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: In dit artikel wordt beschreven hoe u een aantal Advanced eDiscovery kunt maken en beheren. De eerste stap is het maken van een case en het gebruik van Advanced eDiscovery functies en functionaliteit.
-ms.openlocfilehash: d0f63bca90945c3dfe13b08fa0f1d139da8a9189
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 95e88bb071476de1ed66b3ffaa8942f0a9df89c2
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161884"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311638"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>Een Advanced eDiscovery maken en beheren
 
@@ -48,19 +48,17 @@ Volg de volgende stappen om een zaak te maken en leden toe te voegen. De gebruik
 
    De nieuwe zaak wordt gemaakt en **het Instellingen** in de nieuwe zaak wordt weergegeven.
 
-6. Klik op **de & access-machtigingen** op Instellingen **tabblad** Selecteren en klik vervolgens op **Bijwerken.** 
+6. Klik op **de & access-machtigingen** op het **Instellingen** op **Selecteren.**
 
-7. Klik **op Bijwerken**.
+7. Klik op **de pagina Manage this case** flyout onder Leden **beheren** op **Toevoegen** om leden aan de zaak toe te voegen.
 
-8. Klik op **de pagina Manage this case** flyout onder Leden **beheren** op **Toevoegen** om leden aan de zaak toe te voegen.
+8. Schakel in de lijst met personen het selectievakje in naast de namen van de personen die u aan de zaak wilt toevoegen. Zoals eerder uitgelegd, moet u ervoor zorgen dat de personen die u aan de zaak toevoegt, de juiste eDiscovery-machtigingen hebben gekregen.
 
-9. Schakel in de lijst met personen het selectievakje in naast de namen van de personen die u aan de zaak wilt toevoegen. Zoals eerder uitgelegd, moet u ervoor zorgen dat de personen die u aan de zaak toevoegt, de juiste eDiscovery-machtigingen hebben gekregen.
+9. Nadat u de personen hebt geselecteerd die u wilt toevoegen als leden van de zaak, klikt u op **Toevoegen.**
 
-10. Nadat u de personen hebt geselecteerd die u wilt toevoegen als leden van de zaak, klikt u op **Toevoegen.**
+10. Klik op **de pagina Dit geval** beheren op Opslaan **om** de nieuwe lijst met hoofdcaseleden op te slaan.
 
-11. Klik op **de pagina Dit geval** beheren op Opslaan **om** de nieuwe lijst met hoofdcaseleden op te slaan.
-
-12. Klik op **het tabblad** Start om naar de startpagina van de zaak te gaan.
+11. Klik op **het tabblad** Start om naar de startpagina van de zaak te gaan.
 
 ## <a name="manage-the-workflow"></a>De werkstroom beheren
 

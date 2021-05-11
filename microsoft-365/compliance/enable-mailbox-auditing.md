@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: Logboekregistratie voor postvakkencontrole is standaard ingeschakeld in Microsoft 365 (standaard ook wel standaardpostvakcontrole of postvakcontrole genoemd). Dit betekent dat bepaalde acties die worden uitgevoerd door postvakeigenaren, gedelegeerden en beheerders, automatisch worden aangemeld in een postvakauditlogboek, waar u kunt zoeken naar activiteiten die in het postvak worden uitgevoerd.
-ms.openlocfilehash: 4b2016b4eee68d336cc2f77f2eb6fef6f3ee2fd9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 859bd0dc633ece887fe11d57068fab4eb1395cdd
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162176"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311170"
 ---
 # <a name="manage-mailbox-auditing"></a>Postvakcontrole beheren
 
@@ -106,29 +106,29 @@ In de volgende tabel worden de postvakacties beschreven die beschikbaar zijn in 
 
 |**Postvakactie**|**Beschrijving**|**Beheerder**|**Gemachtigde**|**Eigenaar**|
 |:---------|:---------|:---------:|:---------:|:---------:|
-|**AddFolderPermissions**|**Opmerking:** Hoewel deze waarde wordt geaccepteerd als een postvakactie, is deze al opgenomen in de **actie UpdateFolderPermissions** en wordt deze niet afzonderlijk gecontroleerd. Met andere woorden, gebruik deze waarde niet.||||
+|**AddFolderPermissions(AddFolderPermissions)**|**Opmerking:** Hoewel deze waarde wordt geaccepteerd als een postvakactie, is deze al opgenomen in de **actie UpdateFolderPermissions** en wordt deze niet afzonderlijk gecontroleerd. Met andere woorden, gebruik deze waarde niet.||||
 |**Record toepassen**|Een item wordt als record gelabeld.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
-|**Kopiëren**|Een bericht is gekopieerd naar een andere map.|![Vinkje](../media/checkmark.png)|||
-|**Maken**|Er is een item gemaakt in de map Agenda, Contactpersonen, Notities of Taken in het postvak (er wordt bijvoorbeeld een nieuw vergaderverzoek gemaakt). Het maken, verzenden of ontvangen van een bericht wordt niet gecontroleerd. Ook wordt het maken van een postvakmap niet gecontroleerd.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)|
+|**Kopiëren**|Er is een bericht naar een andere map gekopieerd.|![Vinkje](../media/checkmark.png)|||
+|**Maken**|Er is een item gemaakt in de map Agenda, Contactpersonen, Notities of Taken in het postvak (er wordt bijvoorbeeld een nieuw vergaderverzoek gemaakt). Het maken, verzenden of ontvangen van een bericht wordt niet gecontroleerd. Ook het maken van een postvak wordt niet gecontroleerd.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)|
 |**Standaard**||![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|
 |**MapBind**|Er is een postvakmap toegankelijk. Deze actie wordt ook vastgelegd wanneer de beheerder of gedelegeerde het postvak opent. <br/><br/> **Opmerking:** Auditrecords voor mapbindacties die door gedelegeerden worden uitgevoerd, worden samengevoegd. Eén auditrecord wordt gegenereerd voor afzonderlijke maptoegang binnen een periode van 24 uur.|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |**HardDelete**|Er is een bericht verwijderd uit de map Herstelbare items.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
-|**MailItemsAccessed**|E-mailgegevens worden toegankelijk via e-mailprotocollen en -clients. Deze waarde is alleen beschikbaar voor gebruikers van E5- of E5-abonnementsabonnementen. Zie Geavanceerde controle instellen [voor gebruikers voor meer informatie.](advanced-audit.md#set-up-advanced-audit-for-users)|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
-|**PostvakLogin**|De gebruiker heeft zich aangemeld bij zijn of haar postvak. |||![Vinkje](../media/checkmark.png)|
+|**MailItemsAccessed**|E-mailgegevens worden toegankelijk via e-mailprotocollen en -clients. Deze waarde is alleen beschikbaar voor gebruikers van E5- of E5-abonnementsabonnementen. Zie Geavanceerd controleren instellen voor [meer informatie. ](set-up-advanced-audit.md)|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
+|**MailboxLogin**|De gebruiker heeft zich aangemeld bij zijn of haar postvak. |||![Vinkje](../media/checkmark.png)|
 |**MessageBind**|Een bericht is bekeken in het voorbeeldvenster of geopend door een beheerder. **Opmerking:** Hoewel deze waarde wordt geaccepteerd als een postvakactie, worden deze acties niet meer geregistreerd.|![Vinkje](../media/checkmark.png)|||
 |**ModifyFolderPermissions**|**Opmerking:** Hoewel deze waarde wordt geaccepteerd als een postvakactie, is deze al opgenomen in de **actie UpdateFolderPermissions** en wordt deze niet afzonderlijk gecontroleerd. Met andere woorden, gebruik deze waarde niet.||||
-|**Verplaatsen**|Een bericht is verplaatst naar een andere map.|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|
+|**Move**|Een bericht is naar een andere map verplaatst.|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|
 |**MoveToDeletedItems**|Een bericht is verwijderd en verplaatst naar de map Verwijderde items.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
 |**RecordDelete**|Een item dat als record is gelabeld, is zacht verwijderd (verplaatst naar de map Herstelbare items). Items die als records zijn gelabeld, kunnen niet permanent worden verwijderd (verwijderd uit de map Herstelbare items).|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|
 |**RemoveFolderPermissions**|**Opmerking:** Hoewel deze waarde wordt geaccepteerd als een postvakactie, is deze al opgenomen in de **actie UpdateFolderPermissions** en wordt deze niet afzonderlijk gecontroleerd. Met andere woorden, gebruik deze waarde niet.||||
-|**Verzenden**|De gebruiker verzendt een e-mailbericht, beantwoordt een e-mailbericht of stuurt een e-mailbericht door. Deze waarde is alleen beschikbaar voor gebruikers van E5- of E5-abonnementsabonnementen. Zie Geavanceerde controle instellen [voor gebruikers voor meer informatie.](advanced-audit.md#set-up-advanced-audit-for-users)|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
-|**SendAs**|Er is een bericht verzonden met de machtiging SendAs. Dit betekent dat een andere gebruiker het bericht heeft verzonden alsof het afkomstig is van de eigenaar van het postvak.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
-|**SendOnBehalf**|Er is een bericht verzonden met de machtiging SendOnBehalf. Dit betekent dat een andere gebruiker het bericht heeft verzonden namens de eigenaar van het postvak. Het bericht geeft aan de geadresseerde aan wie het bericht is verzonden namens en wie het bericht daadwerkelijk heeft verzonden.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
+|**Verzenden**|De gebruiker verzendt een e-mailbericht, beantwoordt een e-mailbericht of stuurt een e-mailbericht door. Deze waarde is alleen beschikbaar voor gebruikers van E5- of E5-abonnementsabonnementen. Zie Geavanceerde controle instellen [voor gebruikers voor meer informatie.](set-up-advanced-audit.md)|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
+|**SendAs**|Een bericht is verzonden met de machtiging Verzenden als. Dit betekent dat een andere gebruiker het bericht heeft verzonden alsof het afkomstig is van de eigenaar van het postvak.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
+|**SendOnBehalf**|Een bericht is verzonden met de machtiging Verzenden namens. Dit betekent dat een andere gebruiker het bericht heeft verzonden namens de eigenaar van het postvak. Het bericht geeft aan de geadresseerde aan wie het bericht is verzonden namens en wie het bericht daadwerkelijk heeft verzonden.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
 |**SoftDelete**|Een bericht is definitief verwijderd of verwijderd uit de map Verwijderde items. Snel verwijderde items worden verplaatst naar de map Herstelbare items.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
-|**Update**|Een bericht of de eigenschappen ervan zijn gewijzigd.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
-|**UpdateCalendarDelegation**|Er is een agendadelegatie toegewezen aan een postvak. Agendadelegering geeft iemand anders in dezelfde organisatie machtigingen om de agenda van de postvakeigenaar te beheren.|![Vinkje](../media/checkmark.png)<sup>\*</sup>||![Vinkje](../media/checkmark.png)<sup>\*</sup>|
+|**Update**|Een bericht (of de eigenschappen ervan) is (zijn) gewijzigd.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
+|**UpdateCalendarDelegation**|Er is een agendadelegatie toegewezen aan een postvak. Agendadelegering geeft iemand anders in dezelfde organisatie machtigingen voor het beheren van de agenda van de eigenaar van het postvak.|![Vinkje](../media/checkmark.png)<sup>\*</sup>||![Vinkje](../media/checkmark.png)<sup>\*</sup>|
 |**UpdateComplianceTag**|Er wordt een ander bewaarlabel toegepast op een e-mailitem (aan een item kan slechts één bewaarlabel zijn toegewezen).|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|
-|**UpdateFolderPermissions**|Er is een mapmachtiging gewijzigd. Mapmachtigingen bepalen welke gebruikers in uw organisatie toegang hebben tot mappen in een postvak en de berichten in die mappen.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
+|**UpdateFolderPermissions**|Een mapmachtiging is gewijzigd. Mapmachtigingen bepalen welke gebruikers in uw organisatie toegang hebben tot mappen in een mailbox en tot de berichten in die mappen.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
 |**UpdateInboxRules**|Er is een regel voor postvak IN toegevoegd, verwijderd of gewijzigd. Regels voor Postvak IN worden gebruikt om berichten in het Postvak IN van de gebruiker te verwerken op basis van de opgegeven voorwaarden en acties uit te voeren wanneer aan de voorwaarden van een regel wordt voldaan, zoals het verplaatsen van een bericht naar een opgegeven map of het verwijderen van een bericht.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
 
 > [!IMPORTANT]
@@ -147,10 +147,10 @@ Een beheerder met volledige toegangsmachtigingen voor een Microsoft 365 groepspo
 |**Maken**|Een agenda-item maken. Het maken, verzenden of ontvangen van een bericht wordt niet gecontroleerd.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
 |**HardDelete**|Er is een bericht verwijderd uit de map Herstelbare items.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
 |**MoveToDeletedItems**|Een bericht is verwijderd en verplaatst naar de map Verwijderde items.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
-|**SendAs**|Er is een bericht verzonden met de machtiging SendAs.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
-|**SendOnBehalf**|Er is een bericht verzonden met de machtiging SendOnBehalf. |![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
+|**SendAs**|Een bericht is verzonden met de machtiging Verzenden als.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
+|**SendOnBehalf**|Een bericht is verzonden met de machtiging Verzenden namens. |![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>||
 |**SoftDelete**|Een bericht is definitief verwijderd of verwijderd uit de map Verwijderde items. Snel verwijderde items worden verplaatst naar de map Herstelbare items.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
-|**Update**|Een bericht of de eigenschappen ervan zijn gewijzigd.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
+|**Update**|Een bericht (of de eigenschappen ervan) is (zijn) gewijzigd.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
 
 ### <a name="verify-that-default-mailbox-actions-are-being-logged-for-each-logon-type"></a>Controleren of standaardpostvakacties worden geregistreerd voor elk aanmeldingstype
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: In dit artikel wordt beschreven hoe u Core eDiscovery-zaken kunt beheren. Dit omvat het sluiten van een zaak, het opnieuw openen van een gesloten zaak en het verwijderen van een zaak.
-ms.openlocfilehash: 17b243a7207fd6927188b42e585101ff1d258b76
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.openlocfilehash: 251ca932954071cf949c45343130f122464dcf01
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "52161463"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52310878"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Een Hoofd-eDiscovery-zaak sluiten, opnieuw openen en verwijderen
 
@@ -32,7 +32,7 @@ In dit artikel wordt beschreven hoe u core-eDiscovery-zaken sluit, opnieuw opent
 
 Wanneer de juridische zaak of het onderzoek dat wordt ondersteund door een Core eDiscovery-zaak is voltooid, kunt u de zaak sluiten. Dit gebeurt er als u een zaak sluit:
   
-- Als de zaak inhoudslocaties bevat in de eDiscovery-wacht, worden deze in de wacht geplaatst. Nadat de wachtstand is uitgeschakeld, wordt een respijtperiode van 30 dagen (een zogenaamde *vertragingstermijn)* toegepast op inhoudslocaties die in de wachtstand stonden. Dit helpt voorkomen dat inhoud onmiddellijk wordt verwijderd en biedt beheerders de mogelijkheid om inhoud te zoeken en te herstellen voordat deze definitief kan worden verwijderd nadat de vertragingsperiode is verstreken. Zie Inhoudslocaties verwijderen uit een [eDiscovery-hold voor meer informatie.](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold)
+- Als de zaak een eDiscovery-inhoud bevat, worden deze uitgeschakeld. Nadat de wachtstand is uitgeschakeld, wordt een respijtperiode van 30 dagen (een zogenaamde *vertragingstermijn)* toegepast op inhoudslocaties die in de wachtstand stonden. Dit helpt voorkomen dat inhoud onmiddellijk wordt verwijderd en biedt beheerders de mogelijkheid om inhoud te zoeken en te herstellen voordat deze definitief kan worden verwijderd nadat de vertragingsperiode is verstreken. Zie Inhoudslocaties verwijderen uit een [eDiscovery-hold voor meer informatie.](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold)
 
 - Als u een zaak sluit, worden alleen de aan die zaak gekoppelde insluiten uitgeschakeld. Als andere bewaringen worden geplaatst op een inhoudslocatie (zoals een procesovergang, een bewaarbeleid of een bewaring vanuit een andere Core eDiscovery-zaak), blijven deze bewaringen behouden.
 
@@ -46,21 +46,19 @@ Een zaak sluiten:
 
 2. Klik op de naam van de zaak die u wilt sluiten.
 
-    De **pagina Manage this case** flyout wordt weergegeven.
+   ![Hoofdzaak sluiten op startpagina van zaak](../media/eDiscoveryCaseHomePage.png)
 
-3. Klik **onder Casestatus beheren** op Zaak **sluiten.**
+3. Klik op de startpagina onder **Status** op **Hoofdzaak sluiten.**
 
     Er wordt een waarschuwing weergegeven waarin wordt gezegd dat de aan de zaak gekoppelde in- en uit-standen worden uitgeschakeld.
 
 4. Klik **op Ja** om de zaak te sluiten.
 
-    De status op de **flyoutpagina Deze zaak** beheren wordt gewijzigd van **Actief in** **Sluiten.**
+    De status op de startpagina van de zaak wordt gewijzigd van **Actief in** **Sluiten.**
 
-5. Sluit de **pagina Deze zaak** beheren.
+5. Klik op **de pagina Core eDiscovery** **op** Vernieuwen om de status van de gesloten zaak bij te werken. Het kan tot 60 minuten duren voordat het sluitingsproces is voltooid.
 
-6. Klik op **de pagina Core eDiscovery** **op** Vernieuwen om de status van de gesloten zaak bij te werken. Het kan tot 60 minuten duren voordat het sluitingsproces is voltooid.
-
-    Wanneer het proces is voltooid, wordt de status van de zaak gewijzigd in **Gesloten** op de **pagina Core eDiscovery.** Klik nogmaals op de naam  van de zaak om de flyout pagina Deze zaak beheren weer te geven, die informatie bevat over wanneer de zaak is gesloten en wie de zaak heeft gesloten.
+    Wanneer het proces is voltooid, wordt de status van de zaak gewijzigd in **Gesloten** op de **pagina Core eDiscovery.**
 
 ## <a name="reopen-a-closed-case"></a>Een gesloten zaak opnieuw openen
 
@@ -70,21 +68,21 @@ Wanneer u een zaak opnieuw opent, worden eDiscovery-gegevens die waren ingesteld
 
 2. Klik op de naam van de zaak die u opnieuw wilt openen.
 
-    De **pagina Manage this case** flyout wordt weergegeven. 
+   ![Een gesloten zaak opnieuw openen](../media/eDiscoveryCaseHomePageReopen.png)
 
-3. Klik **onder Casestatus beheren** op Zaak opnieuw **openen.**
+3. Klik op de startpagina onder **Status** op **Zaak opnieuw openen.**
 
     Er wordt een waarschuwing weergegeven met de melding dat de aan de zaak gekoppelde in- en uitstal nen niet automatisch worden ingeschakeld.
 
 4. Klik **op Ja** om de zaak opnieuw te openen.
 
-    De status op de **flyoutpagina Deze zaak** beheren wordt gewijzigd van **Gesloten in** **Actief.**
+    De status op de startpagina van de hoofdpagina wordt gewijzigd van **Gesloten in** **Actief.**
 
-5. Sluit de **pagina Deze zaak** beheren. 
+5. Klik op **de pagina Core eDiscovery** **op** Vernieuwen om de status van de opnieuw geopende zaak bij te werken. Het kan tot 60 minuten duren voordat het heropeningsproces is voltooid. 
 
-6. Klik op **de pagina Core eDiscovery** **op** Vernieuwen om de status van de opnieuw geopende zaak bij te werken. Het kan tot 60 minuten duren voordat het heropeningsproces is voltooid. 
+    Wanneer het proces is voltooid, wordt de status van de zaak gewijzigd in **Actief** op de **pagina Core eDiscovery.**
 
-    Wanneer het proces is voltooid, wordt de status van de zaak gewijzigd in **Actief** op de **pagina Core eDiscovery.** 
+7. (Optioneel) Als u alle wachtposities wilt in-  of in- of uit- zetten die aan de opnieuw geopende zaak zijn gekoppeld, gaat u naar het tabblad Wacht houden, selecteert u een wachtpositie en selecteert u vervolgens het selectievakje onder **Status** op de flyoutpagina van de wachtpositie.
   
 ## <a name="delete-a-case"></a>Een zaak verwijderen
 
@@ -96,9 +94,11 @@ Een eDiscovery-hold verwijderen:
 
 1. Ga naar **het tabblad** Houdt in het geval dat u wilt verwijderen.
 
-2. Klik op de wacht die u wilt verwijderen.
+2. Selecteer de wacht die u wilt verwijderen.
 
-3. Klik op de flyoutpagina op **Wacht houden verwijderen.**
+3. Klik op de flyoutpagina op **Verwijderen.**
+
+      ![Een eDiscovery-hold verwijderen](../media/DeleteeDiscoveryHold.png)
 
 Een zaak verwijderen:
 
@@ -106,6 +106,8 @@ Een zaak verwijderen:
 
 2. Klik op de naam van de zaak die u wilt verwijderen.
 
-3. Klik **onder Hoofd zaakstatus** beheren op de flyout-pagina op **Hoofd zaak verwijderen.**
+3. Klik op de startpagina van de zaak onder **Status** op **Hoofd zaak verwijderen.**
+
+      ![Een gesloten zaak opnieuw openen](../media/eDiscoveryCaseHomePageDelete.png)
 
 Als de zaak die u probeert te verwijderen nog steeds eDiscovery bevat, ontvangt u een foutbericht. U moet alle aan de zaak gekoppelde items verwijderen en vervolgens opnieuw proberen om de zaak te verwijderen.

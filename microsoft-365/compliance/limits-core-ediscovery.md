@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: In dit artikel worden de limieten beschreven in het hoofd-eDiscovery-geval in Microsoft 365.
-ms.openlocfilehash: e18e1e6c1d9d7ecd78deaf267be72ccdc9d1ba5d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e7b1013abd9fd94748baf3b83dd04efbc3831a1d
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161764"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311422"
 ---
 # <a name="limits-in-core-ediscovery"></a>Limieten in Core eDiscovery
 
@@ -45,4 +45,4 @@ In de volgende tabel worden de limieten voor kern-eDiscovery-zaken en -gegevens 
    > - [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)
    > - [Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)
 
-Zie Limieten voor zoeken naar inhoud en Core [eDiscovery](limits-for-content-search.md)voor meer informatie over limieten voor het zoeken en exporteren van inhoud die zijn gekoppeld aan een core eDiscovery-zaak.
+Zie Limieten voor zoeken naar inhoud en Core eDiscovery voor meer informatie over limieten voor zoekopdrachten en exporten die zijn gekoppeld aan een core [eDiscovery-zaak.](limits-for-content-search.md)

@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u gedeeltelijk geïndexeerde items (ook wel niet-geïndexeerde items genoemd) kunt beheren vanuit Exchange, SharePoint en OneDrive voor Bedrijven binnen uw organisatie.
-ms.openlocfilehash: c24fb2d9b633181538d76cf35e27dae1824b311d
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 539fd2687735a5ee14be543750becca8c6c3154c
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "52162721"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311452"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>Gedeeltelijk geïndexeerde items in eDiscovery onderzoeken
 
@@ -49,9 +49,9 @@ Nadat u een eDiscovery-zoekopdracht hebt uitgevoerd, worden het totale aantal en
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>De verhouding van gedeeltelijk geïndexeerde items in uw organisatie berekenen
 
-Als u de blootstelling van uw organisatie aan gedeeltelijk geïndexeerde items wilt begrijpen, kunt u zoeken naar alle inhoud in alle postvakken (met behulp van een lege trefwoordquery). In het volgende voorbeeld vindt u 56.208 (4.830 MB) volledig geïndexeerde items en 470 (316 MB) gedeeltelijk geïndexeerde items.
+Als u de blootstelling van uw organisatie aan gedeeltelijk geïndexeerde items wilt begrijpen, kunt u zoeken naar alle inhoud in alle postvakken (met behulp van een lege trefwoordquery). In het volgende voorbeeld zijn er 1.629.904 (146,46 GB) volledig geïndexeerde items en 10.025 (10,27 GB) gedeeltelijk geïndexeerde items.
   
-![Voorbeeld van zoekstatistieken met gedeeltelijk geïndexeerde items](../media/0f6a5cf7-4c98-44a0-a0dd-5aed67124641.png)
+![Voorbeeld van zoekstatistieken met gedeeltelijk geïndexeerde items](../media/PartiallyIndexedItemsTest.png)
   
 U kunt het percentage gedeeltelijk geïndexeerde items bepalen met behulp van de volgende berekeningen.
   
@@ -59,23 +59,23 @@ U kunt het percentage gedeeltelijk geïndexeerde items bepalen met behulp van de
 
 `(Total number of partially indexed items/Total number of items) x 100`
 
-`(470/56,208) x 100 = 0.84%`
+`(10025/1629904) x 100 = 0.62%`
 
-Door de zoekresultaten uit het vorige voorbeeld te gebruiken, wordt 0,84% van alle postvakken gedeeltelijk geïndexeerd.
+Door de zoekresultaten uit het vorige voorbeeld te gebruiken, wordt 0,62% van alle postvakken gedeeltelijk geïndexeerd.
   
  **Het percentage van de grootte van gedeeltelijk geïndexeerde items in uw organisatie berekenen:**
 
 `(Size of all partially indexed items/Size of all items) x 100`
 
-`(316 MB/4830 MB) x 100 = 6.54%`
+`(10.27 GB/146.46 MB) x 100 = 7.0%`
 
-In het vorige voorbeeld is 6,54% van de totale grootte van postvakitems afkomstig van gedeeltelijk geïndexeerde items. Zoals eerder vermeld hebben de meeste organisaties minder dan 1% van de inhoud per volume en minder dan 12% van de inhoud per grootte die gedeeltelijk is geïndexeerd.
+In het vorige voorbeeld is 7% van de totale grootte van postvakitems afkomstig van gedeeltelijk geïndexeerde items. Zoals eerder vermeld hebben de meeste organisaties minder dan 1% van de inhoud per volume en minder dan 12% van de inhoud per grootte die gedeeltelijk is geïndexeerd.
 
 ## <a name="working-with-partially-indexed-items"></a>Werken met gedeeltelijk geïndexeerde items
 
 In gevallen waarin u items gedeeltelijk moet onderzoeken om te controleren of [](export-a-content-search-report.md) deze geen relevante informatie bevatten, kunt u een inhoudszoekrapport exporteren dat informatie bevat over gedeeltelijk geïndexeerde items. Wanneer u een inhoudszoekrapport exporteert, moet u een van de exportopties kiezen die gedeeltelijk geïndexeerde items bevat.
   
-![De tweede of derde optie kiezen om gedeeltelijk geïndexeerde items te exporteren](../media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
+![De tweede of derde optie kiezen om gedeeltelijk geïndexeerde items te exporteren](../media/PartiallyIndexedItemsExportOptions.png)
   
 Wanneer u eDiscovery-zoekresultaten of een zoekrapport exporteert met een van deze opties, bevat de export een rapport met de naam Niet-geïndexeerde Items.csv. Dit rapport bevat de meeste van dezelfde informatie als het ResultsLog.csv bestand. Het niet-geïndexeerde Items.csv bevat echter ook twee velden die betrekking hebben op gedeeltelijk geïndexeerde items: **Foutlabels** en **fouteigenschappen.** Deze velden bevatten informatie over de indexeringsfout voor elk gedeeltelijk geïndexeerd item. Als u de gegevens in deze twee velden gebruikt, kunt u bepalen of de indexeringsfout voor een bepaald effect heeft op uw onderzoek. Als dat zo is, kunt u een gerichte zoekopdracht uitvoeren en specifieke e-mailberichten en SharePoint- of OneDrive-documenten ophalen en exporteren, zodat u ze kunt onderzoeken om te bepalen of ze relevant zijn voor uw onderzoek. Zie Een [CSV-bestand](csv-file-for-an-id-list-content-search.md)voorbereiden voor een gerichte zoekopdracht in Office 365.
 
@@ -164,7 +164,7 @@ In de volgende stappen ziet u hoe u een PowerShell-script kunt uitvoeren dat zoe
      }
    ```
 
-2. [Verbinding maken naar Security & Compliance Center PowerShell](/powershell/exchange/exchange-online-powershell).
+2. [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/exchange-online-powershell).
 
 3. Ga in & PowerShell naar de map waar u het script hebt opgeslagen in stap 1 en voer het script uit. bijvoorbeeld:
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 60220d00ca1b612564b72103b9206e3d6d89dc60
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9c4f3da57796903fc22314574f389bcdd92ca4b3
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689447"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311986"
 ---
 # <a name="troubleshoot-siem-tool-integration-issues"></a>Problemen met de integratie van SIEM-hulpprogramma's oplossen
 
@@ -51,7 +51,7 @@ Als uw clientgeheim verloopt of als u de verstrekte kopie verkeerd hebt geplaats
 
 4. Klik **op App-registraties.** Selecteer vervolgens in de lijst met toepassingen de toepassing.
 
-5. Selecteer **de** sectie Sleutels en geef vervolgens een sleutelbeschrijving op en geef de geldigheidsduur van de sleutel op.
+5. Selecteer **Certificaten & sectie Geheimen,** Klik op Nieuwe clientgeheim, geef vervolgens een beschrijving op en geef de geldigheidsduur op.
 
 6. Klik op **Opslaan**. De sleutelwaarde wordt weergegeven.
 

@@ -1,5 +1,5 @@
 ---
-title: Uw inhoudszoekquery controleren op fouten
+title: De zoekquery controleren op fouten
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,17 +15,17 @@ search.appverid:
 - MET150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 ms.custom: seo-marvel-apr2020
-description: Lees hoe u fouten en typfouten kunt detecteren in uw trefwoordquery voor zoeken naar inhoud voordat u de zoekopdracht uitvoert.
-ms.openlocfilehash: 939ac3d227f176a0b74138107ced5dd5b7142bcd
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+description: Meer informatie over het detecteren van fouten en typfouten in uw trefwoordquery voor eDiscovery-zoekopdrachten voordat u de zoekopdracht uitvoert.
+ms.openlocfilehash: 9c041ca690df3306347cbca77df3ba9639801245
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "52162514"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311686"
 ---
-# <a name="check-your-content-search-query-for-errors"></a>Uw inhoudszoekquery controleren op fouten
+# <a name="check-your-search-query-for-errors"></a>De zoekquery controleren op fouten
   
-Hier is een lijst met de niet-ondersteunde tekens die we controleren. Niet-ondersteunde tekens worden vaak verborgen en veroorzaken meestal een zoekfout of geven onbedoelde resultaten als resultaat.
+Hier is een lijst met de niet-ondersteunde tekens die we controleren in zoekquery's voor zoeken naar inhoud en Core eDiscovery. Niet-ondersteunde tekens worden vaak verborgen en veroorzaken meestal een zoekfout of geven onbedoelde resultaten als resultaat.
   
 - **Slimme aanhalingstekens-** Slimme enkele en dubbele aanhalingstekens (ook wel gekrulde aanhalingstekens genoemd) worden niet ondersteund. Alleen rechte aanhalingstekens kunnen worden gebruikt in een zoekquery. 
 
@@ -45,4 +45,4 @@ Hier ziet u een voorbeeld van het waarschuwingsbericht dat wordt weergegeven nad
   
 ## <a name="how-to-prevent-unsupported-characters-in-your-search-queries"></a>Niet-ondersteunde tekens in uw zoekquery's voorkomen
 
-Niet-ondersteunde tekens worden meestal toegevoegd aan een query wanneer u de query of delen van de query kopieert uit andere toepassingen (zoals Microsoft Word of Microsoft Excel) en deze in het trefwoordvak op de querypagina van een inhoudszoekactie plakt. De beste manier om niet-ondersteunde tekens te voorkomen, is door de query in het vak trefwoord te typen. U kunt ook een query kopiëren vanuit Word of Excel en deze vervolgens plakken in een tekst zonder opmaak, zoals Microsoft Kladblok. Sla het tekstbestand op en selecteer **ANSI** in de **vervolgkeuzelijst** Codering. Hiermee worden alle opmaak en niet-ondersteunde tekens verwijderd. Vervolgens kunt u de query uit het tekstbestand kopiëren en plakken naar het vak trefwoordquery. 
+Niet-ondersteunde tekens worden meestal toegevoegd aan een query wanneer u de query of delen van de query kopieert uit andere toepassingen (zoals Microsoft Word of Microsoft Excel) en deze in het trefwoordvak op de querypagina van een inhoudszoekactie plakt. De beste manier om niet-ondersteunde tekens te voorkomen, is door de query in het vak trefwoord te typen. U kunt ook een query kopiëren vanuit Word of Excel en deze vervolgens plakken in een tekst zonder opmaak, zoals Microsoft Kladblok. Sla het tekstbestand op en selecteer **ANSI** in de **vervolgkeuzelijst** Codering. Hiermee worden alle opmaak en niet-ondersteunde tekens verwijderd. Vervolgens kunt u de query uit het tekstbestand kopiëren en plakken naar het vak trefwoordquery.

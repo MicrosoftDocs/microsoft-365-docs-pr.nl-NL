@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
-description: Gebruik Inhoud zoeken in het Microsoft 365 compliancecentrum om gerichte verzamelingen uit te voeren, zodat items zich in een specifiek postvak of sitemap bevinden.
-ms.openlocfilehash: ea01386b7e52c05f8116caacddd6dec7baf12272
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+description: Gebruik Inhoud zoeken in het Microsoft 365 compliancecentrum om een gerichte verzameling uit te voeren, waarin wordt gezocht naar items in een specifiek postvak of sitemap.
+ms.openlocfilehash: cf0364d39a78e1bbbc062d85ce750d190fbbda5a
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "52162722"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311894"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>Inhoud zoeken gebruiken voor gerichte verzamelingen
 
-De functie Inhoud zoeken in het Microsoft 365 compliancecentrum biedt geen directe manier in de gebruikersinterface om specifieke mappen te zoeken in Exchange postvakken of SharePoint en OneDrive voor Bedrijven sites. Het is echter mogelijk om specifieke mappen (een gerichte verzameling *genoemd)* te doorzoeken door de eigenschap Map-id op te geven voor de eigenschap e-mail of pad (DocumentLink) voor sites in de syntaxis van de werkelijke zoekquery. Het gebruik van Inhoud zoeken om een gerichte verzameling uit te voeren is handig als u zeker weet dat items die reageren op een zaak of bevoorrechte items zich bevinden in een specifiek postvak of sitemap. U kunt het script in dit artikel gebruiken om de map-id te verkrijgen voor postvakmappen of het pad (DocumentLink) voor mappen op een SharePoint en OneDrive voor Bedrijven site. Vervolgens kunt u de map-id of het pad in een zoekquery gebruiken om items in de map te retourneren.
+Het zoekprogramma Inhoud in het Microsoft 365 compliancecentrum biedt geen directe manier in de gebruikersinterface om specifieke mappen te zoeken in Exchange postvakken of SharePoint en OneDrive voor Bedrijven sites. Het is echter mogelijk om specifieke mappen (een gerichte verzameling *genoemd)* te doorzoeken door de eigenschap Map-id op te geven voor de eigenschap e-mail of pad (DocumentLink) voor sites in de syntaxis van de werkelijke zoekquery. Het gebruik van Inhoud zoeken om een gerichte verzameling uit te voeren is handig als u zeker weet dat items die reageren op een zaak of bevoorrechte items zich bevinden in een specifiek postvak of sitemap. U kunt het script in dit artikel gebruiken om de map-id te verkrijgen voor postvakmappen of het pad (DocumentLink) voor mappen op een SharePoint en OneDrive voor Bedrijven site. Vervolgens kunt u de map-id of het pad in een zoekquery gebruiken om items in de map te retourneren.
 
 > [!NOTE]
 > Als u inhoud wilt retourneren in een map op een SharePoint of OneDrive voor Bedrijven site, gebruikt het script in dit onderwerp de beheerde eigenschap DocumentLink in plaats van de eigenschap Pad. De eigenschap DocumentLink is krachtiger dan de eigenschap Pad, omdat hierdoor alle inhoud in een map wordt retourneren, terwijl sommige mediabestanden niet worden teruggeslagen met de eigenschap Pad.
@@ -37,7 +37,7 @@ De functie Inhoud zoeken in het Microsoft 365 compliancecentrum biedt geen direc
 
 - U moet lid zijn van de rollengroep eDiscovery Manager in het beveiligings- & compliancecentrum om het script uit te voeren in stap 1. Zie [eDiscovery-machtigingen](assign-ediscovery-permissions.md)toewijzen voor meer informatie.
 
-    Daarnaast moet u de rol E-mailontvangers toegewezen krijgen in uw Exchange Online organisatie. Dit is vereist voor het uitvoeren van **de cmdlet Get-MailboxFolderStatistics,** die is opgenomen in het script. Standaard wordt de rol E-mailontvangers toegewezen aan de rollengroepen Organisatiebeheer en Geadresseerdenbeheer in Exchange Online. Zie Leden van rollengroep beheren voor meer informatie over het toewijzen van machtigingen in [Exchange Online.](/exchange/manage-role-group-members-exchange-2013-help) U kunt ook een aangepaste rollengroep maken, de rol E-mailontvangers hieraan toewijzen en vervolgens de leden toevoegen die het script moeten uitvoeren in stap 1. Zie Rollengroepen [beheren voor meer informatie.](/Exchange/permissions-exo/role-groups)
+- U moet ook de rol E-mailontvangers in uw Exchange Online toegewezen. Dit is vereist voor het uitvoeren van **de cmdlet Get-MailboxFolderStatistics,** die is opgenomen in het script. Standaard wordt de rol E-mailontvangers toegewezen aan de rollengroepen Organisatiebeheer en Geadresseerdenbeheer in Exchange Online. Zie Leden van rollengroep beheren voor meer informatie over het toewijzen van machtigingen in [Exchange Online.](/exchange/manage-role-group-members-exchange-2013-help) U kunt ook een aangepaste rollengroep maken, de rol E-mailontvangers hieraan toewijzen en vervolgens de leden toevoegen die het script moeten uitvoeren in stap 1. Zie Rollengroepen [beheren voor meer informatie.](/Exchange/permissions-exo/role-groups)
 
 - Het script in dit artikel ondersteunt moderne verificatie. U kunt het script gewoon gebruiken als u een Microsoft 365 of een Microsoft 365 GCC organisatie. Als u een organisatie Office 365 Duitsland, een Microsoft 365 GCC Hoge organisatie of een Microsoft 365 DoD-organisatie bent, moet u het script bewerken om het uit te voeren. U moet de lijn bewerken en de `Connect-ExchangeOnline` *parameter ExchangeEnvironmentName* (en de juiste waarde voor uw organisatietype) gebruiken om verbinding te maken met Exchange Online PowerShell.  U moet ook de regel bewerken en de `Connect-IPPSSession` parameters *ConnectionUri* en *AzureADAuthorizationEndpointUri* (en de juiste waarden voor uw organisatietype) gebruiken om verbinding te maken met Security & Compliance Center PowerShell. Zie voor meer informatie de voorbeelden in Verbinding maken powershell Exchange Online [powershell](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-without-using-mfa) en Verbinding maken beveiligings- & [Compliance center PowerShell.](/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)
 

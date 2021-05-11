@@ -16,25 +16,25 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: U kunt een hold maken die is gekoppeld aan een Core eDiscovery-zaak om inhoud te behouden die relevant kan zijn voor een onderzoek.
-ms.openlocfilehash: 1026de3b5357c3417a00a69b4ae6890e8036c091
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+description: U kunt een hold maken die is gekoppeld aan een Core eDiscovery-zaak in Microsoft 365 om inhoud te behouden die relevant is voor een onderzoek of een juridische zaak.
+ms.openlocfilehash: 61bbe2e8d2713c2960105e2ec4eb4beffcd4306e
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "52162513"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311607"
 ---
 # <a name="create-an-ediscovery-hold"></a>Een eDiscovery-greep maken
 
-U kunt een Hoofd-eDiscovery-zaak gebruiken om bewaar bewaart inhoud te maken die mogelijk relevant is voor de zaak. U kunt de postvakken van Exchange en OneDrive voor Bedrijven accounts van personen die u in de zaak onderzoekt, in de wacht zetten. U kunt ook een wacht houden op de postvakken en sites die zijn gekoppeld aan Microsoft Teams, Office 365 Groepen en Yammer Groepen. Wanneer u inhoudslocaties in de wacht zet, blijft inhoud behouden totdat u de inhoudslocatie verwijdert of totdat u de bewaarplaats verwijdert.
+U kunt een Hoofd-eDiscovery-zaak gebruiken om bewaar bewaart inhoud te maken die mogelijk relevant is voor de zaak. U kunt de postvakken van Exchange en OneDrive voor Bedrijven accounts van personen die u in de zaak onderzoekt, in de wacht zetten. U kunt ook een wacht houden op de postvakken en sites die zijn gekoppeld aan Microsoft Teams, Office 365 Groepen en Yammer Groepen. Wanneer u inhoudslocaties in de wacht zet, blijft inhoud behouden totdat u de inhoudslocatie uit de wacht houdt of totdat u de bewaarplaats verwijdert.
 
-Nadat u een eDiscovery-greep hebt aan maken, kan het tot 24 uur duren voordat de wacht wordt in werking treedt. 
+Nadat u een eDiscovery-greep hebt aan maken, kan het tot 24 uur duren voordat de wacht wordt in werking treedt.
 
-Wanneer u een wachtruimte maakt, hebt u de volgende opties voor het bereik van de inhoud die behouden blijft op de opgegeven inhoudslocaties:
+Wanneer u een hold maakt, hebt u de volgende opties voor het bereik van de inhoud die is bewaard op de opgegeven inhoudslocaties:
   
-- U maakt een oneindige greep waarin alle inhoud op de opgegeven locaties in de wacht wordt geplaatst. U kunt ook een op query's gebaseerde wachtplaats maken waarbij alleen de inhoud op de opgegeven locaties die overeenkomt met een zoekquery, in de wacht wordt geplaatst.
+- Maak een oneindige greep waarin alle inhoud op de opgegeven locaties in de wacht wordt geplaatst. U kunt ook een op query's gebaseerde wachtplaats maken waarbij alleen de inhoud op de opgegeven locaties die overeenkomt met een zoekquery, in de wacht wordt geplaatst.
 
-- U kunt een datumbereik opgeven om alleen de inhoud te behouden die binnen dat datumbereik is verzonden, ontvangen of gemaakt. U kunt ook alle inhoud op opgegeven locaties houden, ongeacht wanneer deze is verzonden, ontvangen of gemaakt.
+- Geef een datumbereik op om alleen de inhoud te behouden die binnen dat datumbereik is verzonden, ontvangen of gemaakt. U kunt ook alle inhoud op opgegeven locaties houden, ongeacht wanneer deze is verzonden, ontvangen of gemaakt.
   
 ## <a name="how-to-create-an-ediscovery-hold"></a>Een eDiscovery-wacht houden maken
 
@@ -44,44 +44,44 @@ Ga als volgende te werk om een eDiscovery-wacht te maken die is gekoppeld aan ee
 
 2. Klik in het linkernavigatiedeelvenster van Microsoft 365 compliancecentrum op Alles weergeven **en** klik vervolgens op **eDiscovery > Core.**
 
-3. Selecteer op **de pagina Core eDiscovery** de zaak waarin u de greep wilt maken en klik vervolgens op **Hoofd zaak openen.**
+3. Klik op **de pagina Core eDiscovery** op de naam van de zaak waarin u de wacht wilt houden.
 
-4. Klik op **de startpagina** voor de zaak op het **tabblad Ingedrukt.**
+4. Klik op **de startpagina** voor de zaak op het **tabblad** Ingedrukt houden.
   
-5. Klik op **de pagina** Vasthoudt op **Maken.**
+5. Klik op **de pagina** Wacht op **Maken.**
 
 6. Geef op **de pagina Naam van** de wizard Uw wacht ingedrukt houden een naam op en voeg een optionele beschrijving toe en klik op **Volgende.** De naam van de wacht moet uniek zijn in uw organisatie.
 
-7. Kies op **de pagina** Inhoudslocaties de inhoudslocaties die u in de wacht wilt zetten. U kunt postvakken, sites en openbare mappen in de wacht zetten.
+7. Kies op **de wizard** Locaties kiezen de inhoudslocaties die u in de wacht wilt zetten. U kunt postvakken, sites en openbare mappen in de wacht zetten.
 
-    ![De inhoudslocaties kiezen die u in de wacht wilt zetten](../media/a59e4265-9151-4dbf-913f-6a4ab8db06b4.png)
+    ![De inhoudslocaties kiezen die u in de wacht wilt zetten](../media/eDiscoveryHoldLocations.png)
   
-   1. **Postvaklocaties:** klik op **Gebruikers,** groepen of teams kiezen en klik vervolgens nogmaals op **Gebruikers,** groepen of teams kiezen om de postvakken op te geven die in de wacht moeten worden geplaatst. Gebruik het zoekvak om gebruikerspostvakken en distributiegroepen te zoeken (om de postvakken van groepsleden in de wacht te zetten) om deze in de wacht te zetten. U kunt ook het bijbehorende postvak in de wacht zetten voor een Microsoft-team, Office 365 groep of Yammer groep. Schakel het selectievakje gebruiker, groep, team in, klik **op Kiezen** en klik vervolgens op **Klaar.**
+   1. **Exchange postvakken:** Stel de schakelknop in op **Aan** en klik vervolgens op **Gebruikers,** groepen of teams kiezen om op te geven welke postvakken in de wacht moeten worden gezet. Gebruik het zoekvak om gebruikerspostvakken en distributiegroepen te zoeken (om de postvakken van groepsleden in de wacht te zetten) om deze in de wacht te zetten. U kunt ook het bijbehorende postvak in de wacht zetten voor een Microsoft-team, Office 365 Groep en Yammer Groep. Zie Inhoud die is opgeslagen in postvakken voor [eDiscovery](what-is-stored-in-exo-mailbox.md)voor meer informatie over de toepassingsgegevens die worden bewaard wanneer een postvak in de wacht wordt geplaatst.
 
-   1. **Sitelocaties:** klik op **Sites kiezen** en klik nogmaals op **Sites** kiezen om de SharePoint en OneDrive accounts in de wacht te zetten. Typ de URL voor elke site die u in de wacht wilt zetten. U kunt ook de URL voor de SharePoint toevoegen voor een Microsoft-team, Office 365 groep of een Yammer Groep. Klik **op** Kiezen en klik vervolgens op **Klaar.**
+   1. **SharePoint sites:** Stel de schakelknop in op **Aan** en klik vervolgens op Sites **kiezen** om op te geven SharePoint sites en OneDrive accounts in de wacht te zetten. Typ de URL voor elke site die u in de wacht wilt zetten. U kunt ook de URL voor de SharePoint toevoegen voor een Microsoft-team, Office 365 groep of een Yammer Groep.
   
-   1. **Exchange openbare mappen.** Verplaats de wisselknop Wisselknop Besturingselement naar de positie Alles om alle openbare mappen in uw Exchange Online ![ ](../media/scc-toggle-on.png) in de wachtstand te zetten.  U kunt geen specifieke openbare mappen kiezen om in de wacht te zetten. Laat de wisselknop ingesteld op **Geen** als u openbare mappen niet in de wacht wilt zetten.
+   1. **Exchange openbare mappen:** Stel de schakelknop in op **Aan** om alle openbare mappen in uw Exchange Online in de wacht te zetten. U kunt geen specifieke openbare mappen kiezen om in de wacht te zetten. Schakel de wisselknop uit als u openbare mappen niet in de wacht wilt zetten.
 
    > [!NOTE]
-   > U moet ten minste één inhoudslocatie aan de wacht houden toevoegen. Anders wordt met de statische eDiscovery-hold-elementen laten zien dat er geen items in de wacht staan.
+   > U moet ten minste één inhoudslocatie aan de wacht houden toevoegen. Anders wordt in de eDiscovery-holdstatistieken laten zien dat er geen items in de wacht staan.
 
-8. Wanneer u klaar bent met het toevoegen van inhoudslocaties aan de wacht, klikt u op **Volgende.**
+8. Wanneer u klaar bent met het toevoegen van locaties aan de wacht, klikt u op **Volgende.**
 
-9. Als u een query met voorwaarden wilt maken, vult u het volgende in. Als u anders alle inhoud op de opgegeven inhoudslocaties wilt behouden, klikt u op **Volgende.**
+9. Als u een query wilt maken met behulp van trefwoorden of voorwaarden, moet u de volgende stappen uitvoeren. Als u alle inhoud op de opgegeven inhoudslocaties wilt behouden, klikt u op **Volgende.**
 
-    ![Een op query's gebaseerde wacht houden met voorwaarden](../media/d587b58e-d05c-4ac0-b0fe-09019e4f1063.png)
+    ![Een op query's gebaseerde wachtfunctie maken met trefwoord en voorwaarden](../media/eDiscoveryHoldQuery.png)
   
-    1. Typ in het vak onder **Trefwoorden** een zoekquery, zodat alleen de inhoud die aan de zoekcriteria voldoet, behouden blijft. U kunt trefwoorden, e-mailberichteigenschappen of documenteigenschappen opgeven, zoals bestandsnamen. U kunt ook complexere query's gebruiken die een Booleaanse operator gebruiken, zoals **EN,** **OF** of **NIET.**
+    1. Typ in het vak onder **Trefwoorden** een query om alleen de inhoud te behouden die overeenkomt met de querycriteria. U kunt trefwoorden, e-mailberichteigenschappen of site-eigenschappen opgeven, zoals bestandsnamen. U kunt ook complexere query's gebruiken die een Booleaanse operator gebruiken, zoals **EN,** **OF** of **NIET.**
 
-    1. Klik **op Voorwaarden toevoegen** om een of meer voorwaarden toe te voegen om de zoekquery voor de wacht te beperken. Elke voorwaarde voegt een component toe aan de KQL-zoekquery die wordt gemaakt en uitgevoerd wanneer u de wacht houdt. U kunt bijvoorbeeld een datumbereik opgeven, zodat e-mail- of sitedocumenten die zijn gemaakt binnen de opgegeven datum, in de wacht worden geplaatst. Een voorwaarde is logisch verbonden met de trefwoordquery (opgegeven in het vak Trefwoorden) door de **operator AND.**  Dit betekent dat items moeten voldoen aan zowel de trefwoordquery als de voorwaarde die moet worden bewaard.
+    2. Klik **op Voorwaarde toevoegen** om een of meer voorwaarden toe te voegen om de query voor de wacht te beperken. Elke voorwaarde voegt een component toe aan de KQL-zoekquery die wordt gemaakt en uitgevoerd wanneer u de wacht houdt. U kunt bijvoorbeeld een datumbereik opgeven, zodat e-mail- of sitedocumenten die zijn gemaakt binnen het opgegeven datumbereik, behouden blijven. Een voorwaarde is logisch verbonden met de trefwoordquery (opgegeven in het vak Trefwoorden) en andere voorwaarden door de **operator AND.**  Dit betekent dat items moeten voldoen aan zowel de trefwoordquery als de voorwaarde die moet worden bewaard.
 
-    Zie Trefwoordenquery's en zoekvoorwaarden voor Inhoud zoeken voor meer informatie over het maken van een zoekquery en het gebruik van [voorwaarden.](keyword-queries-and-search-conditions.md)
+    Zie Trefwoordenquery's en zoekvoorwaarden [voor eDiscovery](keyword-queries-and-search-conditions.md)voor meer informatie over het maken van een zoekquery en het gebruik van voorwaarden.
 
 10. Klik na het configureren van een query-hold op **Volgende.**
 
-11. Controleer uw instellingen (en bewerk ze zo nodig) en klik vervolgens **op Deze wacht houden maken.**
+11. Controleer uw instellingen (en bewerk ze zo nodig) en klik vervolgens op **Verzenden.**
 
-## <a name="query-based-holds-placed-on-site-documents"></a>Op query's gebaseerde op sitedocumenten geplaatste in-
+## <a name="query-based-holds-placed-on-sites"></a>Op query's gebaseerde holds geplaatst op sites
 
 Houd rekening met de volgende zaken wanneer u een eDiscovery-bewaarfunctie op basis van query's op documenten op SharePoint plaatsen:
 
@@ -93,7 +93,7 @@ Houd rekening met de volgende zaken wanneer u een eDiscovery-bewaarfunctie op ba
 
 Nadat u een eDiscovery-hold hebt gemaakt, wordt informatie over de nieuwe wacht in de flyoutpagina weergegeven voor de geselecteerde wacht. Deze informatie omvat het aantal postvakken en sites dat in de wacht staat en statistieken over de inhoud die in de wacht is geplaatst, zoals het totale aantal en de grootte van items die in de wacht zijn geplaatst en de laatste keer dat de holdstatistieken zijn berekend. Deze bewaarstatistieken helpen u bij het vaststellen van de hoeveelheid inhoud die aan de zaak is gerelateerd.
   
-![Statistieken vast houden](../media/575cfe0a-9210-4ae4-8df8-65665d66712e.png)
+![Statistieken vast houden](../media/eDiscoveryHoldStatistics.png)
   
 Houd rekening met de volgende dingen over de statistieken van eDiscovery-bewaar:
   
@@ -111,8 +111,6 @@ Houd rekening met de volgende dingen over de statistieken van eDiscovery-bewaar:
 
 Wanneer u [zoekt naar inhoud](search-for-content-in-core-ediscovery.md) in een Hoofd-eDiscovery-zaak, kunt u de zoekopdracht snel configureren om alleen te zoeken op de inhoudslocaties die zijn geplaatst in een wachtplaats die aan de zaak is gekoppeld.
 
-![Locaties in de wacht](../media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
-
 Selecteer de **optie Locaties in de wacht** om te zoeken naar alle inhoudslocaties die in de wacht zijn geplaatst. Als de zaak meerdere eDiscovery-inhoudslocaties bevat, worden de inhoudslocaties uit alle ophoudt doorzocht wanneer u deze optie selecteert. Als een inhoudslocatie in een op query's gebaseerde wachtplaats is geplaatst, worden alleen de items gezocht die overeenkomen met de wachtquery wanneer u de zoekopdracht uitvoert. Met andere woorden: alleen de inhoud die overeenkomt met zowel de criteria voor het vasthouden als het zoekcriterium, wordt geretourneerd met de zoekresultaten. Als een gebruiker bijvoorbeeld is geplaatst op basis van query's met items die vóór een bepaalde datum zijn verzonden of gemaakt, worden alleen die items doorzocht. Dit wordt gedaan door de query voor het vasthouden van de zaak en de zoekquery te verbinden door een **OPERATOR EN.**
 
 Hier zijn enkele andere dingen waar u rekening mee moet houden bij het zoeken naar locaties in de eDiscovery-wacht:
@@ -123,7 +121,7 @@ Hier zijn enkele andere dingen waar u rekening mee moet houden bij het zoeken na
 
 - Als meerdere eDiscovery-items op één locatie in een eDiscovery-zaak worden geplaatst en u selecteert om locaties in de wacht te zetten, is het maximum aantal trefwoorden voor die zoekquery 500. De zoekactie combineert namelijk alle op query's gebaseerde in- en uitbaters met behulp van de **operator OF.** Als de gecombineerde query's en de zoekquery meer dan 500 trefwoorden bevatten, wordt naar alle inhoud in het postvak gezocht, niet alleen naar de inhoud die overeenkomt met het op query gebaseerde geval.
 
-- Als een eDiscovery-wachtpositie de status In- en uitschakelen **heeft,** kunt u nog steeds zoeken op de locaties in de wacht terwijl de wachtpositie wordt ingeschakeld.
+- Als een eDiscovery-wachtpositie de status **Aan (In behandeling)** heeft, kunt u nog steeds zoeken op de locaties in de wacht terwijl de wachtpositie wordt ingeschakeld.
 
 ## <a name="preserve-content-in-microsoft-teams"></a>Inhoud behouden in Microsoft Teams
 

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Lees hoe u compliancegrenzen kunt gebruiken om logische grenzen te maken die bepalen welke gebruikersinhoudslocaties een eDiscovery-manager kan zoeken in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 80f1c6705550d21ac54a0fb4dda2b605b497adbc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8b19347ad8e1c87d5b66cb49ed2af152b4765c37
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161972"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311914"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Compliancegrenzen instellen voor eDiscovery-onderzoeken
 
@@ -110,7 +110,7 @@ Nadat de technische wijziging is aangebracht en het kenmerk is gesynchroniseerd 
   
 ## <a name="step-3-create-a-role-group-for-each-agency"></a>Stap 3: Een rollengroep maken voor elk bureau
 
-De volgende stap is het maken van de rollengroepen in het beveiligings- & compliancecentrum dat wordt uitgelijnd met uw agentschappen. U wordt aangeraden een rollengroep te maken door de ingebouwde eDiscovery-beheerdersgroep te kopiëren, de juiste leden toe te voegen en rollen te verwijderen die mogelijk niet van toepassing zijn op uw behoeften. Zie eDiscovery-machtigingen toewijzen in het Office 365 Security & Compliance Center voor meer informatie over [eDiscovery-gerelateerde rollen.](assign-ediscovery-permissions.md)
+De volgende stap is het maken van de rollengroepen in het beveiligings- & compliancecentrum dat wordt uitgelijnd met uw agentschappen. U wordt aangeraden een rollengroep te maken door de ingebouwde eDiscovery-beheerdersgroep te kopiëren, de juiste leden toe te voegen en rollen te verwijderen die mogelijk niet van toepassing zijn op uw behoeften. Zie eDiscovery-machtigingen toewijzen voor meer informatie over [eDiscovery-gerelateerde rollen.](assign-ediscovery-permissions.md)
   
 Als u de rollengroepen  wilt maken, gaat u naar de pagina Machtigingen in het beveiligings- & compliancecentrum en maakt u een rollengroep voor elk team in elk bureau dat compliancegrenzen en eDiscovery-zaken gebruikt om onderzoeken te beheren.
   
@@ -140,7 +140,7 @@ Hier is een beschrijving van elke parameter in de opdracht:
   
 - `FilterName`: Geeft de naam van het filter op. Gebruik een naam waarmee het bureau wordt beschreven of geïdentificeerd waarin het filter wordt gebruikt.
 
-- `Users`: Geeft de gebruikers of groepen op die dit filter toepassen op de acties voor Inhoud zoeken die ze uitvoeren. Voor compliancegrenzen geeft deze parameter de rollengroepen op (die u hebt gemaakt in stap 3) in het bureau waar u het filter voor maakt. Let op: dit is een parameter met meerdere waarden, zodat u een of meer rollengroepen kunt opnemen, gescheiden door komma's.
+- `Users`: Geeft de gebruikers of groepen aan die dit filter toepassen op de zoekacties die ze uitvoeren. Voor compliancegrenzen geeft deze parameter de rollengroepen op (die u hebt gemaakt in stap 3) in het bureau waar u het filter voor maakt. Let op: dit is een parameter met meerdere waarden, zodat u een of meer rollengroepen kunt opnemen, gescheiden door komma's.
 
 - `Filters`: Geeft de zoekcriteria voor het filter op. Voor de nalevingsgrenzen definieert u de volgende filters. Elke locatie is van toepassing op een inhoudslocatie. 
 
@@ -153,9 +153,9 @@ Hier is een beschrijving van elke parameter in de opdracht:
      > [!NOTE]
      > De syntaxis voor de `Filters` parameter bevat een lijst met *filters*. Een filterslijst is een filter met een postvakfilter en een sitefilter gescheiden door een komma. In het vorige voorbeeld ziet u dat een komma de Mailbox_ComplianceAttribute **en** **Site_ComplianceAttribute:** `-Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_ComplianceAttribute  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'"` . Wanneer dit filter wordt verwerkt tijdens het uitvoeren van een inhoudszoekactie, worden twee zoekmachtigingenfilters gemaakt uit de lijst met filters: één postvakfilter en één sitefilter. Een alternatief voor het gebruik van een filterslijst is het maken van twee afzonderlijke zoekmachtigingenfilters voor elk bureau: één filter voor zoekmachtigingen voor het postvakkenmerk en één filter voor de sitekenmerken. In beide gevallen zijn de resultaten hetzelfde. Het gebruik van een filterslijst of het maken van afzonderlijke zoekmachtigingenfilters is een kwestie van voorkeur.
 
-- `Action`: Geeft het type actie Compliancezoekactie op waar het filter op wordt toegepast. Het filter wordt bijvoorbeeld alleen toegepast wanneer leden van de rollengroep die in de parameter zijn  `-Action Search` `Users` gedefinieerd, een inhoudszoekactie uitvoeren. In dit geval wordt het filter niet toegepast bij het exporteren van zoekresultaten. Gebruik het filter voor nalevingsgrenzen  `-Action All` zodat het filter van toepassing is op alle zoekacties. 
+- `Action`: Geeft het type zoekactie op waar het filter op is toegepast. Het filter wordt bijvoorbeeld alleen toegepast wanneer leden van de rollengroep die in de parameter zijn  `-Action Search` `Users` gedefinieerd, een zoekopdracht uitvoeren. In dit geval wordt het filter niet toegepast bij het exporteren van zoekresultaten. Gebruik het filter voor nalevingsgrenzen  `-Action All` zodat het filter van toepassing is op alle zoekacties. 
 
-    Zie de sectie New-ComplianceSecurityFilter in [Configure permissions filtering for Content Search](permissions-filtering-for-content-search.md#new-compliancesecurityfilter)(Nieuw compliancebeveiligingsfilter) voor een lijst met de acties inhoud zoeken.
+    Zie de sectie New-ComplianceSecurityFilter in Configure permissions filtering for Content Search (Nieuw compliancebeveiligingsfilter) voor een lijst met [zoekacties.](permissions-filtering-for-content-search.md#new-compliancesecurityfilter)
 
 Hier zijn voorbeelden van de twee zoekmachtigingenfilters die worden gemaakt ter ondersteuning van het contoso-nalevingsscenario. Beide voorbeelden bevatten een lijst met door komma's gescheiden filters, waarin het postvak en de sitefilters zijn opgenomen in hetzelfde filter voor zoekmachtigingen en worden gescheiden door een komma.
   
@@ -185,13 +185,11 @@ Een zaak maken en leden toewijzen:
 
 2. Klik in de lijst met gevallen op de naam van de zaak die u hebt gemaakt.
 
-3. Klik op **de pagina Dit geval beheren** onder **Rollengroepen beheren** op Pictogram toevoegen ![ ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **toevoegen.**
+3. Voeg rollengroepen als leden toe aan de zaak. Zie een van de volgende artikelen voor instructies:
 
-    ![Een rollengroep toevoegen als lid van een eDiscovery-zaak](../media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
-  
-4. Selecteer in de lijst met rollengroepen een van de rollengroepen die u hebt gemaakt in stap 3 en klik op **Toevoegen.**
+   - [Leden toevoegen aan een core eDiscovery-zaak](get-started-core-ediscovery.md#step-4-optional-add-members-to-a-core-ediscovery-case)
 
-5. Klik **op Opslaan** in de **flyout Deze zaak beheren** om de wijziging op te slaan.
+   - [Leden toevoegen aan een Advanced eDiscovery zaak](add-or-remove-members-from-a-case-in-advanced-ediscovery.md)
 
 > [!NOTE]
 > Wanneer u een rollengroep toevoegt aan een zaak, kunt u alleen de rollengroepen toevoegen waar u lid van bent.
@@ -253,7 +251,7 @@ Houd rekening met de volgende zaken bij het zoeken en exporteren van inhoud in m
   
 - Met **de** parameter Regio worden zoekopdrachten naar postvakken Exchange bepaald. Alle datacenters worden doorzocht wanneer u postvakken zoekt. Gebruik de **parameter** Filters bij het maken of wijzigen van een zoekmachtigingsfilter als u het bereik van Exchange wilt beperken. 
 
-- Als een eDiscovery Manager moet zoeken in meerdere SharePoint-regio's, moet u een ander gebruikersaccount maken voor die eDiscovery-manager die u wilt gebruiken in het filter voor zoekmachtigingen om het gebied op te geven waar de SharePoint-sites of OneDrive-accounts zich bevinden. Zie de sectie 'Zoeken naar inhoud in een SharePoint Multi-Geo omgeving' in Inhoud zoeken voor meer informatie over het [instellen van deze instelling.](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment)
+- Als een eDiscovery Manager moet zoeken in meerdere SharePoint-regio's, moet u een ander gebruikersaccount maken voor die eDiscovery-manager die u wilt gebruiken in het filter voor zoekmachtigingen om het gebied op te geven waar de SharePoint-sites of OneDrive-accounts zich bevinden. Zie de sectie 'Zoeken naar inhoud in een SharePoint Multi-Geo omgeving' in Inhoud zoeken voor meer informatie over het [instellen van deze instelling.](content-search-reference.md#searching-for-content-in-a-sharepoint-multi-geo-environment)
 
 - Bij het zoeken naar inhoud in SharePoint en OneDrive, wordt met de **parameter** Regio gezocht naar de primaire of satellietlocatie waar eDiscovery-manager eDiscovery-onderzoeken zal uitvoeren. Als een eDiscovery-manager zoekt naar SharePoint en OneDrive sites buiten de regio die is opgegeven in het filter voor zoekmachtigingen, worden er geen zoekresultaten geretourneerd.
 
