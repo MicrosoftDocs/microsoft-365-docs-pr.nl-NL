@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: seemg, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 - commerce_signup
-- PPM_pablom
-ms.reviewer: seemg
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Meer informatie over Microsoft 365 selfservice-aanmelding en beschikbare selfserviceprogramma's zoals Microsoft Power Apps, Microsoft Flow en Dynamics 365 voor Financiën.
 ms.date: 03/17/2021
-ms.openlocfilehash: a3257cf57d3a2579a250f90811c1bd644cd0d27d
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: f3427294a94875e21a5e6b99a09056617a7dea99
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107410"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332376"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Selfservice-aanmelding gebruiken in uw organisatie
 

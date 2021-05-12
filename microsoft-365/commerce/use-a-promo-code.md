@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: drjones
+ms.reviewer: drjones, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,16 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 - commerce_purchase
-- PPM_jmueller
 search.appverid: MET150
 description: Lees hoe u een promotiecode kunt toepassen op uw Microsoft 365 om de prijs te verlagen en hoe u problemen kunt oplossen met promotiecode in geval van een fout.
 ms.date: 03/17/2021
-ms.openlocfilehash: 01cc7cd182f3e25867191c83b58016ef090c8934
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 30484915246e1d8b1389f09d71d9d67865962a7e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280401"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332916"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>Uw promotiecode gebruiken om de prijs te verlagen
 
@@ -59,7 +58,7 @@ Als er na het invoeren van een promotiecode een foutbericht wordt weergegeven, k
 - **De promotiecode is verlopen.** Campagnes gelden gedurende een beperkte periode. Promotiecodes hebben een vervaldatum. Als de vervaldatum van de promotiecode die u probeert te gebruiken is overschreden, kunt u de code niet meer gebruiken. U kunt vervallen promotiecodes niet meer invoeren of inruilen, maar u kunt het abonnement wel aanschaffen zonder promotiecode.
 - **De promotiecode die u gebruikt, is bedoeld voor een ander geografisch gebied.** Sommige promotiecodes zijn alleen geldig in een bepaald land of een bepaalde regio. Promotiecodes werken niet in een ander land of een andere regio dan het land of de regio waarvoor ze zijn gemaakt.
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een abonnement kopen via uw gratis proefabonnement](./try-or-buy-microsoft-365.md) (artikel)\  
 [Een ander abonnement kopen](./try-or-buy-microsoft-365.md) (artikel)\  

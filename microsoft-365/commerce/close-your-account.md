@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - fwlink 2133922 to Delete subscription heading
 - commerce_subscription
-- PPM_jmueller
-ms.reviewer: jkinma
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Meer informatie over het sluiten van uw account met Microsoft.
 ms.date: 04/02/2021
-ms.openlocfilehash: 86232e3f433526cc60ef369eda03ef8d20ab08c9
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 767a82088500bc24c0d4755a2dafd40742fc796c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293665"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331764"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
@@ -43,13 +41,13 @@ U moet een Globale of Factureringsbeheerder zijn om de stappen in dit artikel ui
 
 Verwijder alle gebruikers, behalve één globale beheerder. De globale beheerder voltooit de stappen om het account te sluiten. Voordat u de adreslijst aan het einde van dit proces kunt verwijderen, moet u alle andere gebruikers verwijderen.
 
-Als gebruikers on-premises worden gesynchroniseerd, schakel dan eerst synchronisatie uit en verwijder vervolgens de gebruikers in de cloudmap met behulp van de Azure-portal of Azure PowerShell cmdlets.
+Als gebruikers on-premises worden gesynchroniseerd, moet u eerst synchronisatie uitschakelen en vervolgens de gebruikers in de cloudmap verwijderen met behulp van de Azure-portal of Azure PowerShell-cmdlets.
 
 Zie Gebruikersbeheerbeheerder als u gebruikers wilt [verwijderen: Een of meer gebruikers verwijderen.](../admin/add-users/delete-a-user.md#user-management-admin-delete-one-or-more-users-from-office-365)
 
 U kunt ook de [cmdlet Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell gebruiken om gebruikers bulksgewijs te verwijderen.
 
-Als uw organisatie Active Directory gebruikt die wordt gesynchroniseerd met Microsoft Azure Active Directory (Azure AD), verwijdert u in plaats daarvan het gebruikersaccount uit Active Directory. Zie Gebruikers [bulksgewijs verwijderen in Azure Active Directory.](/azure/active-directory/users-groups-roles/users-bulk-delete)
+Als uw organisatie Active Directory gebruikt dat wordt gesynchroniseerd met Microsoft Azure Active Directory (Azure AD), verwijdert u in plaats daarvan het gebruikersaccount uit Active Directory. Zie Gebruikers [bulksgewijs verwijderen in Azure Active Directory](/azure/active-directory/users-groups-roles/users-bulk-delete)voor instructies.
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Stap 2: Alle actieve abonnementen opzeggen
 
@@ -81,7 +79,7 @@ Als uw organisatie Active Directory gebruikt die wordt gesynchroniseerd met Micr
 U kunt [PowerShell ook gebruiken om meervoudige](/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell)verificatie voor meerdere gebruikers uit te schakelen.
 
 
-## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Stap 5: Verwijder de adreslijst in Azure Active Directory
+## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Stap 5: De adreslijst verwijderen in Azure Active Directory
 
 1. Meld u aan bij <a href="https://aad.portal.azure.com/" target="_blank">het Azure AD-beheercentrum</a> met een globale beheerdersaccount.
 2. Selecteer **Azure Active Directory**.

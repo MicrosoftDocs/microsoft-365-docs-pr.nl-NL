@@ -1,5 +1,5 @@
 ---
-title: Naamservers wijzigen voor het instellen van Microsoft 365 met een domeinregistratie
+title: Naamservers wijzigen voor het instellen van Microsoft 365 domeinregistrar
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -24,25 +24,23 @@ search.appverid:
 - GEU150
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
-description: Lees hoe u uw domein kunt toevoegen en instellen in Microsoft 365, zodat uw services zoals e-mail en Skype voor bedrijven online uw eigen domeinnaam kunnen gebruiken.
-ms.openlocfilehash: 492bc5d2a5f3fd9810f045e7effda1ea20fa15ed
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+description: Meer informatie over het toevoegen en instellen van uw domein in Microsoft 365 zodat uw services zoals e-mail en Skype voor Bedrijven Online uw eigen domeinnaam gebruiken.
+ms.openlocfilehash: 1348beb09fcbc5c12d01dbf197b1cb1240decded
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688247"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332640"
 ---
-# <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Microsoft 365 met een domeinregistratie
+# <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Microsoft 365 domeinregistrar
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
-Controleer eerst [uw domein instellen (host-specifieke instructies)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) om te zien of er instructies voor uw registratieservice zijn. 
+Volg deze instructies voor het toevoegen en instellen van uw domein in Microsoft 365 zodat uw services zoals e-mail en Teams uw eigen domeinnaam gebruiken. Hiervoor verifieert u uw domein en wijzigt u de naamservers van uw domein in Microsoft 365 zodat de juiste DNS-records voor u kunnen worden ingesteld. Volg deze stappen als in de volgende instructies uw situatie wordt beschreven:
   
-Volg deze instructies voor het toevoegen en instellen van uw domein in Microsoft 365, zodat uw services zoals e-mail en teams uw eigen domeinnaam kunnen gebruiken. U kunt dit doen door uw domein te verifiëren en de naamservers van uw domein te wijzigen in Microsoft 365 zodat de juiste DNS-records voor u kunnen worden ingesteld. Voer de volgende stappen uit als u de situatie in de volgende staten opneemt:
-  
-- U hebt een eigen domein en wilt dit instellen voor gebruik met Microsoft 365.
+- U hebt uw eigen domein en wilt dit instellen voor het werken met Microsoft 365.
     
-- U wilt dat Microsoft 365 uw DNS-records voor u beheert. (Als u wilt, kunt u [uw eigen DNS-records beheren](../setup/add-domain.md).)
+- U wilt Microsoft 365 dns-records voor u beheren. (Als u wilt, kunt u [uw eigen DNS-records beheren](../setup/add-domain.md).)
     
 ## <a name="add-a-txt-or-mx-record-for-verification"></a>Een TXT- of MX-record toevoegen voor verificatie
 <a name="BKMK_verify"> </a>
@@ -55,7 +53,7 @@ Voordat u uw domein met Microsoft 365 kunt gaan gebruiken, moet worden gecontrol
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
   
-### <a name="find-the-area-on-your-dns-hosting-providers-website-where-you-can-create-a-new-record"></a>Het gebied zoeken op de website van uw DNS-hosting provider waar u een nieuwe record kunt maken
+### <a name="find-the-area-on-your-dns-hosting-providers-website-where-you-can-create-a-new-record"></a>Zoek het gebied op de website van uw DNS-hostingprovider waar u een nieuwe record kunt maken
 
 1. Meld u aan bij de website van uw DNS-hostingprovider.
     
@@ -82,7 +80,7 @@ Voer een van de volgende handelingen uit, afhankelijk van of u een TXT-record of
 |**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
 |MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* > [!NOTE]> Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit. |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
    
-### <a name="save-the-record"></a>Sla de record op
+### <a name="save-the-record"></a>De record opslaan
 
 Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Microsoft 365 en vraagt u of Microsoft 365 naar de record wil zoeken.
   
@@ -108,15 +106,15 @@ Wanneer in Microsoft 365 de juiste TXT-record is gevonden, is uw domein gecontro
 ## <a name="change-your-domains-nameserver-ns-records"></a>De naamserverrecords (NS-records) van uw domein wijzigen
 <a name="BKMK_nameservers"> </a>
 
-Wanneer de laatste stap van de wizard domeinen instellen in Microsoft 365 wordt weergeven, hebt u één resterende taak. Voor het instellen van uw domein met Microsoft 365-Services, zoals e-mail, wijzigt u de naamserver-records (of NS-records) van uw domein in de registratiefunctie, zodat deze verwijzen naar de primaire en secundaire naamservers van Microsoft 365. Omdat Microsoft 365 uw DNS host, worden de vereiste DNS-records voor uw services automatisch voor u ingesteld. U kunt de naamserverrecords zelf bijwerken door de stappen in de Help-inhoud te volgen die uw domeinregistrar op de website heeft geplaatst. Als u niet bekend bent met DNS, neemt u contact op met de ondersteuning van de domeinregistrar.
+Wanneer u bij de laatste stap van de wizard Domeinen instellen in Microsoft 365, hebt u nog één taak over. Als u uw domein wilt instellen met Microsoft 365-services, zoals e-mail, wijzigt u de naamserverrecords van uw domein (of NS) bij uw domeinregistrar om te wijzen naar de Microsoft 365 primaire en secundaire naamservers. Omdat u Microsoft 365 DNS host, worden de vereiste DNS-records voor uw services automatisch voor u ingesteld. U kunt de naamserverrecords zelf bijwerken door de stappen in de Help-inhoud te volgen die uw domeinregistrar op de website heeft geplaatst. Als u niet bekend bent met DNS, neemt u contact op met de ondersteuning van de domeinregistrar.
 
 ::: moniker range="o365-worldwide"
   
 Als u de naamservers van het domein zelf wilt wijzigen op de website van de domeinregistrar, volgt u deze stappen:
   
-1. Het gebied zoeken op de website van de domeinregistratie waarop u de naamservers voor uw domein of een gebied waarop u aangepaste naamservers kunt gebruiken, kunt wijzigen.
+1. Zoek het gebied op de website van de domeinregistrar waar u de naamservers voor uw domein of een gebied kunt wijzigen waar u aangepaste naamservers kunt gebruiken.
     
-2. Maak naamserver records, of bewerk de bestaande naamserver records zodat ze overeenkomen met de volgende waarden:
+2. Maak naamserverrecords of bewerk de bestaande naamserverrecords om aan de volgende waarden te komen:
     
 |||
 |:-----|:-----|
@@ -126,12 +124,12 @@ Als u de naamservers van het domein zelf wilt wijzigen op de website van de dome
 |Vierde naamserver  <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
    > [!TIP]
-   > Het is raadzaam om alle vier de records toe te voegen, maar als u met de registratiefunctie slechts twee wilt ondersteunen, voegt u **ns1.BDM.microsoftonline.com** en **ns2.BDM.microsoftonline.com** toe. 
+   > Het is het beste om alle vier records toe te voegen, maar als uw registrar slechts twee records ondersteunt, voegt u ns1.bdm.microsoftonline.com **en** **ns2.bdm.microsoftonline.com.** 
   
 3. Sla uw wijzigingen op.
     
 > [!CAUTION]
-> Wanneer u de naamserver records van uw domein wijzigt zodat ze verwijzen naar de Microsoft 365-naamservers, worden alle services die momenteel aan uw domein zijn gekoppeld, gewijzigd. Als u een of meer stappen van de wizard hebt overgeslagen, zoals het toevoegen van e-mailadressen, of als u uw domein gebruikt voor blogs, winkelwagentjes of andere services, zijn er extra stappen nodig. De kans bestaat namelijk dat de overgang uitvaltijd van de service tot gevolg heeft, en dat u bijvoorbeeld geen toegang meer heeft tot uw e-mail of dat uw huidige website ontoegankelijk wordt. 
+> Wanneer u de NS-records van uw domein wijzigt om te wijzen naar de Microsoft 365 naamservers, worden alle services beïnvloed die momenteel aan uw domein zijn gekoppeld. Als u een of meer stappen van de wizard hebt overgeslagen, zoals het toevoegen van e-mailadressen, of als u uw domein gebruikt voor blogs, winkelwagentjes of andere services, zijn er extra stappen nodig. De kans bestaat namelijk dat de overgang uitvaltijd van de service tot gevolg heeft, en dat u bijvoorbeeld geen toegang meer heeft tot uw e-mail of dat uw huidige website ontoegankelijk wordt. 
 
 ::: moniker-end
 
@@ -147,31 +145,54 @@ Als u de naamservers van het domein zelf wilt wijzigen op de website van de dome
 |Tweede naamserver  <br/> |ns2.dns.partner.microsoftonline.cn  <br/> |
    
    > [!TIP]
-   > U dient ten minste twee naamserver-records te gebruiken. Als er andere naamservers worden vermeld, kunt u deze verwijderen of de wijzigingen in **ns3.DNS.partner.microsoftonline.cn** en **ns4.DNS.partner.microsoftonline.cn**. 
+   > U moet ten minste twee naamserverrecords gebruiken. Als er andere naamservers worden vermeld, kunt u deze verwijderen of wijzigen in ns3.dns.partner.microsoftonline.cn **en** **ns4.dns.partner.microsoftonline.cn.** 
   
 3. Sla uw wijzigingen op.
     
 > [!CAUTION]
-> Wanneer u de naamserver records van uw domein wijzigt zodat ze verwijzen naar de Office 365 die wordt beheerd door 21Vianet naamservers, worden alle services die op dat moment zijn gekoppeld aan uw domein van invloed. Als u een of meer stappen van de wizard hebt overgeslagen, zoals het toevoegen van e-mailadressen, of als u uw domein gebruikt voor blogs, winkelwagentjes of andere services, zijn er extra stappen nodig. De kans bestaat namelijk dat de overgang uitvaltijd van de service tot gevolg heeft, en dat u bijvoorbeeld geen toegang meer heeft tot uw e-mail of dat uw huidige website ontoegankelijk wordt. 
+> Wanneer u de NS-records van uw domein wijzigt om te wijzen naar de Office 365 beheerd door 21Vianet-naamservers, worden alle services beïnvloed die momenteel aan uw domein zijn gekoppeld. Als u een of meer stappen van de wizard hebt overgeslagen, zoals het toevoegen van e-mailadressen, of als u uw domein gebruikt voor blogs, winkelwagentjes of andere services, zijn er extra stappen nodig. De kans bestaat namelijk dat de overgang uitvaltijd van de service tot gevolg heeft, en dat u bijvoorbeeld geen toegang meer heeft tot uw e-mail of dat uw huidige website ontoegankelijk wordt. 
 
 ::: moniker-end
   
 Hierna volgt een voorbeeld van extra stappen die mogelijk zijn vereist voor de hosting van e-mail en websites:
   
-- Verplaats alle e-mailadressen die uw domein gebruiken naar Microsoft 365 voordat u de naam van uw NS-records wijzigt.
+- Verplaats alle e-mailadressen die uw domein gebruiken naar Microsoft 365 voordat u uw NS-records wijzigt.
     
-- Wilt u een domein toevoegen dat momenteel wordt gebruikt met een websiteadres, bijvoorbeeld www.fourthcoffee.com? Wanneer u het domein toevoegt, kunt u de volgende stappen uitvoeren om te voorkomen dat de website gehost blijft op de site waar de site wordt gehost, zodat personen de website nog kunnen bereiken nadat u de NS-records van het domein hebt gewijzigd zodat ze verwijzen naar Microsoft 365.
+- Wilt u een domein toevoegen dat momenteel wordt gebruikt met een websiteadres, zoals www.fourthcoffee.com? U kunt onderstaande stappen ondernemen terwijl u het domein toevoegt om de website gehost te houden op de locatie waar de site nu wordt gehost, zodat personen nog steeds naar de website kunnen gaan nadat u de NS-records van het domein hebt gewijzigd om te wijzen naar Microsoft 365.
 
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
-2. Selecteer het domein op de pagina **domeinen** en kies vervolgens **DNS-records**.
+2. Selecteer een domein op de pagina **Domeinen**.
 
-3. Selecteer onder **DNS beheren** de optie **aangepaste records** en kies vervolgens **nieuwe aangepaste record**.
+3. Selecteer op de pagina domeindetails het **tabblad DNS-records.**
+ 
+4. Selecteer **Record toevoegen.**
 
-4. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
+5. Selecteer in **het deelvenster Een aangepaste DNS-record** toevoegen in de vervolgkeuzelijst **Type** de optie **A (adres).**
 
-5. Kies **Opslaan**.
+6. Typ in **het vak Hostnaam** of Alias **@** .
+
+7. Typ in **het vak IP-adres** het statische IP-adres voor de website waarop het momenteel wordt gehost. Bijvoorbeeld 172.16.140.1.
+    
+> [!IMPORTANT]
+>  Dit moet een statisch _IP-adres_ voor de website zijn, geen _dynamisch_ IP-adres. Neem contact op met de site die uw website host om te controleren of u een statisch IP-adres voor uw openbare website kunt krijgen.
+   
+8. Als u de TTL-instelling voor de record wilt wijzigen, selecteert u een nieuwe tijdsduur in de **vervolgkeuzelijst TTL.** Ga anders verder met stap 9.
+    
+9. Selecteer **Opslaan**. 
+    
+U kunt eveneens een CNAME-record maken om klanten te helpen bij het zoeken van uw website.
+  
+1.  Selecteer **Record toevoegen.**
+
+3.  Selecteer in **het deelvenster Een aangepaste DNS-record** toevoegen in de vervolgkeuzelijst **Type** de optie **CNAME (Alias).**
+4.  Typ www in het vak Hostnaam **of** **Alias.**
+5.  Typ in **het vak** Adrespunten de volledig gekwalificeerde domeinnaam (FQDN) voor uw website. U kunt bijvoorbeeld **contoso.com**.
+6.  Als u de TTL-instelling voor de record wilt wijzigen, selecteert u een nieuwe tijdsduur in de **vervolgkeuzelijst TTL.** Ga anders verder met stap 6.
+7.  Selecteer **Opslaan**.
+
+Nadat de naamserverrecords zijn bijgewerkt om naar Microsoft te wijzen, is uw domeinconfiguratie voltooid. E-mail wordt doorgeleid naar Microsoft en het verkeer naar uw websiteadres blijft naar uw huidige websitehost gaan.'
     
 > [!NOTE]
-> Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw Microsoft-e-mail en andere services allemaal ingesteld voor gebruik met uw domein. 
+> Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw e-mail en andere services van Microsoft ingesteld voor gebruik met uw domein. 
   

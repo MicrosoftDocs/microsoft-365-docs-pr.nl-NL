@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,16 +18,15 @@ ms.custom:
 - fwlink 874703
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
 search.appverid: MET150
 description: Lees hoe u uw abonnement opnieuw kunt activeren wanneer het verloopt, is uitgeschakeld of geannuleerd.
 ms.date: 04/07/2021
-ms.openlocfilehash: 80d1594890ec15fc4c2391d439ccbc16be6ae707
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 7f77a9782e9028521cbcefbdbffc49bc28db8e9c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280893"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333168"
 ---
 # <a name="reactivate-your-subscription"></a>Uw abonnement opnieuw activeren
 
@@ -62,10 +61,10 @@ U moet een globale beheerder of factureringsbeheerder zijn om een abonnement opn
 2. Zoek op **het** tabblad Producten het abonnement dat u opnieuw wilt activeren. Selecteer **Meer acties** (drie puntjes) en selecteer vervolgens Dit abonnement opnieuw **activeren**.\
     Als u dit abonnement opnieuw **activeren niet ziet,** [neem dan contact op met ondersteuning.](../../business-video/get-help-support.md)
 3. Selecteer in **het deelvenster Dit abonnement opnieuw** activeren een betalingswijze in de vervolgkeuzelijst of selecteer **Betalingswijze toevoegen.**
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Probeer of koop een abonnement Microsoft 365 voor bedrijven](../try-or-buy-microsoft-365.md) (artikel)\
+[Probeer of koop een Microsoft 365 voor Bedrijven-abonnement](../try-or-buy-microsoft-365.md) (artikel)\
 [Microsoft 365 voor bedrijven verlengen](renew-your-subscription.md) (artikel)\
 [Uw abonnement opzeggen](cancel-your-subscription.md) (artikel)

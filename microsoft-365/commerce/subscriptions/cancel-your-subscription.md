@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
-ms.reviewer: jkinma
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Lees hoe u uw proefabonnement of betaald abonnement op Microsoft 365 voor Bedrijven kunt opzeggen.
 ms.date: 04/08/2021
-ms.openlocfilehash: 329bc10adbe6c2ad0efe3609e7cb72141ae346bd
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 022981e91abc985a0540acccccd6f211b39620a4
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297306"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333312"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -126,7 +124,7 @@ Uw gebruikers hebben geen toegang meer tot hun gegevens wanneer de opzegging ing
 
 - Als u e-mail, contactpersonen, taken en agendagegevens naar een ander account wilt verplaatsen, raadpleegt u [E-mail, contactpersonen of agenda exporteren of hiervan een back-up maken naar een PST-bestand van Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 
-- Als u een documentbibliotheek of de inhoud van een lijst (zoals contactpersonen) uit een SharePoint Online-omgeving (OneDrive voor Bedrijven of teamsites) wilt opslaan in bestandsshares of op een lokale computer, raadpleegt u [Handmatige migratie van SharePoint Online-inhoud](https://docs.microsoft.com/sharepoint/troubleshoot/migration-tool/content-manual-migration).
+- Als u een documentbibliotheek of de inhoud van een lijst (zoals contactpersonen) uit een SharePoint Online-omgeving (OneDrive voor Bedrijven of teamsites) wilt opslaan in bestandsshares of op een lokale computer, raadpleegt u [Handmatige migratie van SharePoint Online-inhoud](/sharepoint/troubleshoot/migration-tool/content-manual-migration).
 
 ### <a name="uninstall-office-optional"></a>Office verwijderen (optioneel)
 

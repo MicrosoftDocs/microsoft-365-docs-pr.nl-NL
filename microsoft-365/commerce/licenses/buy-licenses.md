@@ -19,14 +19,14 @@ ms.custom:
 - manage_licenses
 - commerce_licensing
 search.appverid: MET150
-description: Meer informatie over het kopen van meer licenties of het verminderen van het aantal licenties voor uw Microsoft 365 voor bedrijven-abonnement.
+description: Meer informatie over het kopen van meer licenties of het verminderen van het aantal licenties voor uw Microsoft 365 voor Bedrijven-abonnement.
 ms.date: 04/07/2021
-ms.openlocfilehash: 6603b49ed7af8b5213141d5c2434093c3af9540a
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: a327149a780d2059cfc69068fc4b2122e549773c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327116"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331680"
 ---
 # <a name="buy-or-remove-licenses"></a>Licenties kopen of verwijderen
 
@@ -36,7 +36,7 @@ Met de volgende stappen kunt u meer licenties kopen of het aantal licenties voor
 
 - U moet een globale beheerder of factureringsbeheerder zijn om de taken uit te voeren die in dit artikel worden beschreven. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 - U kunt [gebruikers toevoegen en tegelijkertijd licenties toewijzen.](../../admin/add-users/add-users.md)
-- Als u uw abonnement Microsoft 365 voor bedrijven of Office 365 Enterprise via een externe partner hebt gekocht, moet u extra licenties kopen via die partner.
+- Als u uw Microsoft 365 voor Bedrijven- of Office 365 Enterprise-abonnement hebt gekocht via een externe partner, moet u extra licenties kopen via die partner.
 
 ## <a name="watch-buy-new-licenses"></a>Kijken: Nieuwe licenties kopen
 
@@ -84,7 +84,7 @@ In deze tabel worden de redenen  beschreven waarom **de** knoppen Licenties kope
 |---------|---------|---------|
 |Er is een kredietcontrole in behandeling. |Als een kredietcontrole in behandeling is, kunt u geen licenties kopen of verwijderen totdat de kredietcontrole is voltooid.  | Controleer later of de kredietcontrole is voltooid. Kredietcontroles duren meestal maximaal twee werkdagen.<br/>Nadat de kredietcontrole is voltooid, ziet u de knoppen Licenties **kopen** en Licenties **verwijderen.** |
 |U hebt het abonnement geactiveerd met een productcode.| Als het abonnement is gekocht en geactiveerd met een productcode van 25 tekens, ziet u het woord 'Prepaid' in de kolom Aankoopkanaal van de pagina **Uw producten.**   |Zie [Licenties toevoegen aan een abonnement dat is betaald voor het gebruik van een productcode.](add-licenses-using-product-key.md) |
-|U hebt uw abonnement gekocht via een wederverkoper.| U ziet het woord 'Wederverkoper' in de kolom **Aankoopkanaal** van **de pagina Uw producten.** | Als het abonnement is gekocht via een Cloud Solution Provider (CSP)-partner, neem dan contact op met uw CSP-partner om meer licenties te kopen.        |
+|U hebt uw abonnement gekocht via een wederverkoper.| U ziet het woord 'Wederverkoper' in de kolom **Aankoopkanaal** van **de pagina Uw producten.** | Als het abonnement is gekocht via een CSP-partner (Cloud Solution Provider), neem dan contact op met uw CSP-partner om meer licenties te kopen.        |
 |U hebt een proefabonnement. | Als u uw proefabonnementen wilt bekijken, selecteert u de filterknop en kiest u **proefabonnement.** | Koop eerst uw proefabonnement en vervolgens kunt u meer licenties kopen.|
 
 ## <a name="when-will-the-new-licenses-be-available-to-assign"></a>Wanneer zijn de nieuwe licenties beschikbaar om toe te wijzen?
@@ -108,4 +108,4 @@ Als u het aantal licenties voor uw abonnement hebt verminderd omdat iemand uw or
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Informatie over abonnementen en licenties](subscriptions-and-licenses.md) (artikel)\
-[Probeer of koop een Microsoft 365 abonnement](../try-or-buy-microsoft-365.md) (artikel)
+[Een Microsoft 365-abonnement proberen](../try-or-buy-microsoft-365.md) of kopen (artikel)

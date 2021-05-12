@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: presharm
+ms.reviewer: presharm, jmueller
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -16,17 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
 search.appverid: MET150
 description: Meer informatie over voorstellen om u te helpen bij het kopen van Microsoft-producten en -services.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: a3c91168c90b91d83a9aa116c1ff57d103b3c48c
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: c61fa53267f2fdb60e78a05cd89aa6f364cb2395
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280869"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332952"
 ---
 # <a name="understand-the-proposal-workflow"></a>De werkstroom voor voorstellen begrijpen
 
@@ -119,7 +118,7 @@ Als u het voorstel na controle wilt wijzigen, neem dan contact op met uw Microso
 
 Het voorstel bevat de volgende informatie:
 
-| Sectie | Omschrijving |
+| Sectie | Beschrijving |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Organisatienaam | De naam van de organisatie voor wie het voorstel is voorbereid. |
 | Geldig tot datum | De datum waarop de aanbieding verloopt. Als u deze vervaldatum mist, neem dan contact op met uw Microsoft-vertegenwoordiger om hen te laten weten dat u nog steeds geïnteresseerd bent in het voorstel. |
@@ -171,7 +170,7 @@ Nadat u de bestelling hebt plaatsen, ontvangt u een bevestiging met de volgende 
 
 Als u een nieuwe klant bent en Azure-producten hebt gekocht als onderdeel van het voorstel, is de volgende stap het instellen van uw nieuwe factureringsaccount. Zie Uw factureringsaccount instellen voor [een Microsoft-klantovereenkomst](/azure/cost-management-billing/manage/mca-setup-account)voor meer informatie.
 
-Als u een bestaande Azure-klant bent met een Enterprise Agreement en u voor de eerste keer een MCA ondertekent, is de volgende stap om meer te weten te komen over de wijzigingen tussen de overeenkomsten en hoe u taken kunt uitvoeren met uw nieuwe factureringsaccount. Zie Taken uitvoeren Enterprise Agreement in uw factureringsaccount voor [een Microsoft-klantovereenkomst voor](/azure/cost-management-billing/manage/mca-enterprise-operations)meer informatie.
+Als u een bestaande Azure-klant bent met een Enterprise Agreement en u voor het eerst een MCA ondertekent, is de volgende stap informatie over de wijzigingen tussen de overeenkomsten en hoe u taken kunt uitvoeren met uw nieuwe factureringsaccount. Zie Taken van de Ondernemingsovereenkomst voltooien in uw [factureringsaccount voor een Microsoft-klantovereenkomst](/azure/cost-management-billing/manage/mca-enterprise-operations)voor meer informatie.
 
 ## <a name="understand-invoicing"></a>Facturering begrijpen
 

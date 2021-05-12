@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Lees wat er gebeurt met uw gegevens als uw abonnement op Microsoft 365 voor Bedrijven verloopt of is uitgeschakeld of als u het abonnement opzegt.
 ms.date: 04/08/2021
-ms.openlocfilehash: f226514078a9f6d6bc1f4761269e2740300ef88d
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: d0821214f9a8c242306685db2ee7faf3779cecff
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326796"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333024"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?
 
@@ -50,6 +50,7 @@ In de volgende tabel ziet u wat u kunt verwachten als een betaald abonnement op 
 *Voor de meeste aanbiedingen, in de meeste landen en regio's.
   
 > [!NOTE]
+>
 > **Wat zijn 'klantgegevens'?** Klantgegevens, zoals gedefinieerd in de [voorwaarden voor Microsoft-onlineservices](https://go.microsoft.com/fwlink/p/?LinkId=613649), verwijst naar alle gegevens, inclusief alle tekst-, geluid- of afbeeldingsbestanden, die aan Microsoft worden geleverd door of namens een klant door het gebruik van de klant van de Microsoft 365-services. Meer informatie over de bescherming van klantgegevens kunt u vinden in [Aan de slag met de Microsoft Service Trust Portal](../../compliance/get-started-with-service-trust-portal.md).
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>Wat gebeurt er als ik een abonnement opzeg?
@@ -68,6 +69,7 @@ Zie [Uw abonnement opzeggen](cancel-your-subscription.md) voor meer informatie o
 > Als u uw abonnementsgegevens wilt verwijderen voordat de gebruikelijke Uitgeschakeld-periode voorbij is, kunt u [uw account sluiten](../close-your-account.md).
   
 > [!NOTE]
+>
 > Als u een abonnement expliciet verwijdert, worden de fasen Verlopen en Uitgeschakeld overgeslagen en worden de gegevens en inhoud van SharePoint Online, inclusief OneDrive, onmiddellijk verwijderd.
 
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Wat zijn mijn opties als mijn abonnement binnenkort verloopt?

@@ -14,12 +14,12 @@ search.appverid:
 description: Beheerders kunnen meer informatie krijgen over de beschikbare en voorkeursopties voor het blokkeren van binnenkomende berichten in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a9ee0a026e33bf07bb929607b8eed9078d0b6e4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: fa2a5e0c71f14838dc8446431f5ea02a535fb787
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204421"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331452"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>Geblokkeerde afzenderlijsten maken in EOP
 
@@ -70,7 +70,7 @@ Wanneer berichten zijn geblokkeerd vanwege de lijst Geblokkeerde afzenders van e
 
 ## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>Lijsten met geblokkeerde afzenders of geblokkeerde domeinlijsten gebruiken
 
-Wanneer meerdere gebruikers worden beïnvloed, is het bereik breder, dus de volgende beste optie is geblokkeerde afzenderlijsten of geblokkeerde domeinlijsten in antispambeleid. Berichten van afzenders op de lijsten worden gemarkeerd als **Spam** en de actie die u hebt geconfigureerd voor de **uitspraak** over het spamfilter, wordt op het bericht genomen. Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) voor meer informatie.
+Wanneer meerdere gebruikers worden beïnvloed, is het bereik breder, dus de volgende beste optie is geblokkeerde afzenderlijsten of geblokkeerde domeinlijsten in antispambeleid. Berichten van afzenders op de lijsten worden gemarkeerd als spam met hoog  vertrouwen **en** de actie die u hebt geconfigureerd voor de uitspraak over het hoge vertrouwensfilter wordt in het bericht opgenomen. Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) voor meer informatie.
 
 De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen.
 

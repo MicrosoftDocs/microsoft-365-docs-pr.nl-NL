@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Lees hoe u een of meer distributielijsten kunt upgraden naar Microsoft 365 groepen in Outlook en hoe u PowerShell gebruikt om meerdere distributielijsten tegelijk te upgraden.
-ms.openlocfilehash: 72a98cdfda441dc71fcc5ae21f0042dafef3aefb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8179937cafa26a2258f67baee29fcec65bd60632
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297078"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332448"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Distributielijsten upgraden naar Microsoft 365 groepen in Outlook
 
@@ -86,13 +86,13 @@ Als u een ervaren PowerShell-gebruiker bent, wilt u misschien PowerShell in plaa
 Voer de volgende opdracht uit om één DL bij te upgraden:
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>
 ```
 
 Als u bijvoorbeeld een upgrade wilt uitvoeren van een DL met SMTP-adres dl1@contoso.com, voer dan de volgende opdracht uit:
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
 ```
 
 > [!NOTE]

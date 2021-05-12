@@ -18,15 +18,15 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
 search.appverid: MET150
-ROBOTS: NOINDEX
 description: Meer informatie over het toevoegen van licenties aan of het verlengen van uw abonnement met een productcode.
+ROBOTS: NOINDEX
 ms.date: 04/07/2021
-ms.openlocfilehash: 890dcdcfdacf18d87a20ea000e2fab02d6f82192
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 7f1a1977eb5e20d09a22ef616937abdc483c431e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327140"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331740"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Licenties toevoegen aan of verlengen van een abonnement dat is betaald voor het gebruik van een productcode
 

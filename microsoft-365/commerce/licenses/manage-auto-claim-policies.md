@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.review: yinggiy, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-description: Meer informatie over het maken en beheren van beleidsregels voor automatische claimen die automatisch licenties toewijzen aan gebruikers voor bepaalde apps.
 ms.custom:
 - AdminSurgePortfolio
-- commerce
-search.appverid:
-- MET150
-ms.openlocfilehash: 001b612820bb13873ec18733d68828837fcecd78
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+- commerce_licensing
+description: Meer informatie over het maken en beheren van beleidsregels voor automatische claimen die automatisch licenties toewijzen aan gebruikers voor bepaalde apps.
+search.appverid: MET150
+ms.date: 04/06/2021
+ms.openlocfilehash: b104700905b3753466036411368951f12a7012d8
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599449"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331644"
 ---
 # <a name="manage-auto-claim-policies"></a>Auto-claimbeleid beheren
 
@@ -160,7 +161,7 @@ Als u back-upproducten hebt toegewezen aan het beleid, kunt u de volgorde wijzig
 
 U kunt regelmatig terugkeren naar het tabblad **Beleid** voor automatisch claimen om een lijst weer te geven met gebruikers die licenties hebben aangevraagd onder het beleid dat u hebt gemaakt.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Abonnementslicenties kopen](buy-licenses.md) of verwijderen (artikel)\

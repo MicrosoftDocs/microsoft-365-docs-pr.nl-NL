@@ -5,22 +5,25 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: mijeffer, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
+ms.collection: M365-subscription-management
+ms.custom:
+- AdminSurgePortfolio
+- commerce_ssp
 search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfserviceaankopen kunnen beheren.
-ms.openlocfilehash: 9935259f05432b964fbe138b39397f192e203eb2
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.date: 03/17/2021
+ms.openlocfilehash: 0f9832f69d7e89346e82e3acef0e626fc7f6c4de
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297294"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333252"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
 
@@ -31,7 +34,7 @@ ms.locfileid: "52297294"
 
 ::: moniker-end
 
-Als gebruiker kunt u abonnementen op bepaalde producten kopen en licenties voor deze abonnementen toewijzen aan personen in uw team. U bent verantwoordelijk voor het betalen van eventuele selfserviceaankopen die u hebt gedaan. U kunt uw abonnementen beheren in het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
+Als gebruiker kunt u abonnementen op bepaalde producten kopen en licenties voor deze abonnementen toewijzen aan personen in uw team. U bent verantwoordelijk voor het betalen van eventuele selfserviceaankopen die u hebt gedaan. U kunt uw abonnementen beheren in het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
 
 Uw beheerder heeft een alleen-lezen weergave voor abonnementen die u koopt. Ze kunnen het product, de naam van de koper, de gekochte abonnementen, de vervaldatum, de aankoopprijs en de toegewezen gebruikers zien voor elk abonnement dat u koopt.
 
@@ -74,7 +77,7 @@ U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gek
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 2. Zoek op het tabblad **Producten** het abonnement dat u wilt opzeggen. Selecteer **Meer acties** (drie puntjes) en selecteer **Abonnement annuleren**.
 3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback die u hebt.
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 ## <a name="manage-your-payment-details"></a>Uw betalingsgegevens beheren
 

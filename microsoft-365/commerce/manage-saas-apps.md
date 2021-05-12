@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jamitche
+ms.reviewer: jamitche, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,16 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
 search.appverid: MET150
 description: Meer informatie over het activeren en beheren van apps van derden in Microsoft 365 beheercentrum.
 ms.date: 04/15/2021
-ms.openlocfilehash: eece8154640dcdd55239511ed099abcdca39e807
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 5a486dba03fbd34fe2e409bba8ba41c1f9873141
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280521"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331620"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>App-abonnementen van derden beheren voor uw organisatie
 
@@ -103,7 +102,7 @@ Beheerders kunnen het aantal licenties wijzigen dat eigendom is van hun organisa
 2. Zoek en selecteer de app die u wilt beheren.
 3. Selecteer **Aantal licenties wijzigen.**
 
-## <a name="manage-payment-methods"></a>Betalingsmethoden beheren
+## <a name="manage-payment-methods"></a>Betalingswijzen beheren
 
 Software-as-a-service-apps hebben elk een factureringsprofiel toegewezen. Met factureringsprofielen kunt u aanpassen welke producten op uw factuur staan en hoe u uw facturen betaalt. Deze omvatten:
 

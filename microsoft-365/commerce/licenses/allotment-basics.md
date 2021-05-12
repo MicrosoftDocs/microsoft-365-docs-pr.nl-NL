@@ -11,17 +11,19 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.collection: ''
+ms.collection:
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - commerce_licensing
 description: Meer informatie over de nieuwe toewijzingsfunctie.
 ms.date: 03/17/2021
-ms.openlocfilehash: 949e06d4bf54405e0045f8c7512a04b1b5cc22c0
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 0910673ce54f3f977ed8ecbc3d6c77ac2ebad0cc
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327128"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331692"
 ---
 # <a name="allotment-basics"></a>Basisprincipes van toewijzing
 
@@ -37,13 +39,13 @@ U moet voldoen aan de licentievereisten voor [groepslicenties.](/azure/active-di
 
 U kunt toewijzingen gebruiken met elk product dat beschikbaar is voor gebruikers:
 
-- Office-suites en zelfstandige producten
+- Office suites en zelfstandige producten
 - Ondernemings- en mobiliteitsproducten
 - Dynamics 365-producten
 
 De volgende producten kunnen niet worden gebruikt met toewijzingen:
 
-- Microsoft Store-apps
+- Microsoft Store apps
 - Eeuwigdurende software of software die rechtstreeks aan een gebruiker is toegewezen als er geen licentie bij betrokken is.
 - Azure-resources
 

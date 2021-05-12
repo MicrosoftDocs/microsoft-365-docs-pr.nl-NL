@@ -19,12 +19,13 @@ ms.custom:
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: Lees hoe u licenties toevoegt aan uw Microsoft 365-abonnement dat is gekocht via de externe partner, die door Microsoft wordt herkend.
-ms.openlocfilehash: f40ca8f208d95ed150ad0fcea982347405e3d801
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.date: 04/07/2021
+ms.openlocfilehash: 0e2a3779ae7d93eaaea660209bbc86a6843b553c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327152"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331752"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>Licenties toevoegen aan een abonnement dat is gekocht via het Volume Licensing Service Center
 
