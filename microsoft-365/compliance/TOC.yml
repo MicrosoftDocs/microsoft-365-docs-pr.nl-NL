@@ -506,54 +506,54 @@
           items:
             - name: Trefwoordquery's en zoekvoorwaarden
               href: keyword-queries-and-search-conditions.md
-            - name: Trefwoordstatistieken voor zoekresultaten weergeven
+            - name: Voorbeeld van eDiscovery-zoekresultaten bekijken
+              href: preview-ediscovery-search-results.md
+            - name: Statistieken voor zoekresultaten weergeven
               href: view-keyword-statistics-for-content-search.md
             - name: Zoekresultaten exporteren
               href: export-search-results.md
             - name: Een zoekrapport exporteren
               href: export-a-content-search-report.md
-            - name: Zoekresultaten downloaden met Microsoft Edge
-              href: configure-edge-to-export-search-results.md
             - name: E-mailberichten zoeken en verwijderen
               href: search-for-and-delete-messages-in-your-organization.md
             - name: Chatgegevens voor teams zoeken voor on-premises gebruikers
               href: search-cloud-based-mailboxes-for-on-premises-users.md
-            - name: Meerdere inhoudzoekacties bulksgewijs bewerken
-              href: bulk-edit-content-searches.md
             - name: Een CSV-bestand voorbereiden voor het zoeken naar een lijst met id's
               href: csv-file-for-an-id-list-content-search.md
-            - name: De zoekquery controleren op fouten
-              href: check-your-content-search-query-for-errors.md
+            - name: Filtering van machtigingen configureren voor inhoud zoeken
+              href: permissions-filtering-for-content-search.md
             - name: Veelvoorkomende problemen met eDiscovery oplossen
               href: ediscovery-troubleshooting-common-issues.md
             - name: Een mislukte zoekactie opnieuw uitvoeren
               href: retry-failed-content-search.md
             - name: BCC-geadresseerden voor zoekacties behouden
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
-        - name: Inhoud zoeken configureren
-          items:
-            - name: Filtering van machtigingen voor inhoud zoeken configureren
-              href: permissions-filtering-for-content-search.md
-            - name: De grootte van PST-bestanden wijzigen bij het exporteren van zoekresultaten
-              href: change-the-size-of-pst-files-when-exporting-results.md
-            - name: Rapporten uitschakelen bij het exporteren van zoekresultaten
-              href: disable-reports-when-you-export-content-search-results.md
         - name: Verwijzing voor inhoud zoeken
           items:
-            - name: Limieten voor inhoud zoeken
+            - name: Zoeklimieten voor eDiscovery
               href: limits-for-content-search.md
+            - name: Inhoud die is opgeslagen in postvakken voor eDiscovery
+              href: what-is-stored-in-exo-mailbox.md
+            - name: Verschillen tussen geschatte en werkelijke zoekresultaten
+              href: differences-between-estimated-and-actual-ediscovery-search-results.md
             - name: Gedeeltelijk geïndexeerde items
               href: partially-indexed-items-in-content-search.md
             - name: Gedeeltelijk geïndexeerde items onderzoeken
               href: investigating-partially-indexed-items-in-ediscovery.md
             - name: Duplicaten verwijderen in zoekresultaten
               href: de-duplication-in-ediscovery-search-results.md
-            - name: Verschillen tussen geschatte en werkelijke zoekresultaten
-              href: differences-between-estimated-and-actual-ediscovery-search-results.md
-            - name: Inhoud die is opgeslagen in postvakken voor eDiscovery
-              href: what-is-stored-in-exo-mailbox.md
             - name: Ontsleutelen in eDiscovery-hulpprogramma's
               href: ediscovery-decryption.md
+            - name: De grootte van PST-bestanden wijzigen bij het exporteren van zoekresultaten
+              href: change-the-size-of-pst-files-when-exporting-results.md
+            - name: Rapporten uitschakelen bij het exporteren van zoekresultaten
+              href: disable-reports-when-you-export-content-search-results.md
+            - name: De zoekquery controleren op fouten
+              href: check-your-content-search-query-for-errors.md
+            - name: Zoekresultaten downloaden met Microsoft Edge
+              href: configure-edge-to-export-search-results.md
+            - name: Meerdere zoekopdrachten naar inhoud bulksgewijs bewerken
+              href: bulk-edit-content-searches.md
         - name: PowerShell-scripts voor inhoud zoeken
           items:
             - name: Inhoud zoeken gebruiken voor doelgerichte verzamelingen
@@ -578,23 +578,29 @@
           href: close-reopen-delete-core-ediscovery-cases.md
         - name: Core eDiscovery-verwijzing
           items:
+            - name: Zoeklimieten voor eDiscovery
+              href: limits-for-content-search.md
             - name: eDiscovery-machtigingen toewijzen
               href: assign-ediscovery-permissions.md
             - name: Trefwoordquery's en zoekvoorwaarden
               href: keyword-queries-and-search-conditions.md
             - name: Inhoud die is opgeslagen in postvakken voor eDiscovery
               href: what-is-stored-in-exo-mailbox.md
-            - name: Filtering van zoekmachtigingen configureren
-              href: permissions-filtering-for-content-search.md
+            - name: Voorbeeld van eDiscovery-zoekresultaten bekijken
+              href: preview-ediscovery-search-results.md
             - name: Compliancegrenzen instellen
               href: set-up-compliance-boundaries.md
+            - name: Filtering van zoekmachtigingen configureren
+              href: permissions-filtering-for-content-search.md
+            - name: Verschillen tussen geschatte en werkelijke zoekresultaten
+              href: differences-between-estimated-and-actual-ediscovery-search-results.md
+            - name: Een zoekrapport exporteren
+              href: export-a-content-search-report.md
             - name: Een script gebruiken om gebruikers toe te voegen aan een eDiscovery-bewaring
               href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
             - name: Een rapport maken over eDiscovery-bewaringen
               href: create-a-report-on-holds-in-ediscovery-cases.md
-            - name: Een zoekrapport exporteren
-              href: export-a-content-search-report.md
-            - name: Trefwoordstatistieken voor zoekresultaten weergeven
+            - name: Statistieken voor zoekresultaten weergeven
               href: view-keyword-statistics-for-content-search.md
             - name: Gelekte gegevens zoeken en opschonen
               href: data-spillage-scenariosearch-and-purge.md
@@ -786,18 +792,22 @@
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Controle- en waarschuwingsbeleid beheren
   items:
+    - name: Controleoplossingen van Microsoft 365
+      href: auditing-solutions-overview.md
     - name: Basiscontrole
       items:
+        - name: Basiscontrole instellen
+          href: set-up-basic-auditing.md
         - name: Zoeken in het auditlogboek
           href: search-the-audit-log-in-security-and-compliance.md
         - name: Een PowerShell-script gebruiken om in het auditlogboek te zoeken
           href: audit-log-search-script.md
-        - name: Zoeken in auditlogboeken in- of uitschakelen
-          href: turn-audit-log-search-on-or-off.md
         - name: Gedetailleerde eigenschappen in het auditlogboek
           href: detailed-properties-in-the-office-365-audit-log.md
         - name: 'Auditlogboekrecords exporteren, configureren en weergeven'
           href: export-view-audit-log-records.md
+        - name: Zoeken in auditlogboeken in- of uitschakelen
+          href: turn-audit-log-search-on-or-off.md
         - name: Het auditlogboek gebruiken om veelvoorkomende problemen te onderzoeken
           href: auditing-troubleshooting-scenarios.md
         - name: Controle delen gebruiken in het auditlogboek
@@ -810,16 +820,18 @@
               href: /office/office-365-management-api/office-365-management-activity-api-schema
             - name: Veelgestelde vragen over en problemen oplossen met Office 365 Management Activity API
               href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
-    - name: Postvakcontrole
-      href: enable-mailbox-auditing.md
     - name: Geavanceerde controle
       items:
         - name: Overzicht van geavanceerde controle
           href: advanced-audit.md
+        - name: Geavanceerde audit instellen
+          href: set-up-advanced-audit.md
         - name: Bewaarbeleid voor auditlogboek beheren
           href: audit-log-retention-policies.md
         - name: Geavanceerde controle gebruiken om verdachte accounts te onderzoeken
           href: mailitemsaccessed-forensics-investigations.md
+    - name: Postvakcontrole
+      href: enable-mailbox-auditing.md
     - name: Waarschuwingsbeleid
       href: alert-policies.md
 - name: Compliancerisico's beheren
