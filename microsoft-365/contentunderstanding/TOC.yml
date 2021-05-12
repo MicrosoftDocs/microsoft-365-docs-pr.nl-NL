@@ -42,6 +42,16 @@
   items:
     - name: Aan de slag met de acceptatie
       href: adoption-getstarted.md
+    - name: Contracten beheren in Microsoft 365
+      items:
+        - name: Overzicht
+          href: solution-manage-contracts-in-microsoft-365.md
+        - name: Stap 1. Gebruik SharePoint Syntex
+          href: solution-manage-contracts-step1.md
+        - name: Stap 2. Gebruik Microsoft Teams
+          href: solution-manage-contracts-step2.md
+        - name: Stap 3. Power Automate
+          href: solution-manage-contracts-step3.md
 - name: Installatie en beheer
   items:
     - name: Inhoudsbegrip instellen
