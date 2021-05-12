@@ -1,7 +1,7 @@
 ---
-title: Ondersteunde besturingssystemen en platforms voor bedreigings- en kwetsbaarheidsbeheer
+title: Ondersteunde besturingssystemenplatforms en -mogelijkheden
 description: Zorg ervoor dat u voldoet aan de vereisten van het besturingssysteem of platform voor bedreigings- en kwetsbaarheidsbeheer, zodat de activiteiten op alle apparaten correct worden verantwoord.
-keywords: threat & vulnerability management, threat and vulnerability management, operating system, platform requirements, requirements, Microsoft Defender for Endpoint-tvm supported os, Microsoft Defender for Endpoint-tvm,
+keywords: threat & vulnerability management, threat and vulnerability management, operating system, platform requirements, requirements, Microsoft Defender for Endpoint-tvm supported os, Microsoft Defender for Endpoint-tvm, supported operating systems, supported platforms, linux support, mac support
 search.appverid: met150
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 55322d238839d347882ec1d74b767c68fd2be2b3
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3c9c96c73a6d1843f2e7aa626cafac0860887a65
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935519"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327340"
 ---
-# <a name="supported-operating-systems-and-platforms---threat-and-vulnerability-management"></a>Ondersteunde besturingssystemen en platforms - bedreigings- en kwetsbaarheidsbeheer
+# <a name="supported-operating-systems-platforms-and-capabilities---for-threat-and-vulnerability-management"></a>Ondersteunde besturingssystemen, platforms en mogelijkheden - voor bedreigings- en kwetsbaarheidsbeheer
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -42,18 +42,27 @@ Voordat u begint, moet u ervoor zorgen dat u voldoet aan de volgende vereisten v
 >[!NOTE]
 >De ondersteunde systemen en platforms voor bedreigings- en kwetsbaarheidsbeheer kunnen verschillen van de [minimumvereisten voor microsoft Defender voor eindpuntenlijst.](minimum-requirements.md)
 
-Besturingssysteem | Ondersteuning voor beveiligingsbeoordeling
-:---|:---
-Windows 7 | Beveiligingslekken voor besturingssysteem
-Windows 8.1 | Beveiligingslekken voor besturingssysteem<br/>Beveiligingsproblemen met softwareproducten<br/>Configuratiebeoordeling van besturingssysteem<br/>Configuratiebeoordeling van beveiligingsbesturingselementen<br/>Beoordeling van softwareproductconfiguratie |
-Windows 10, versies 1607-1703 | Beveiligingslekken voor besturingssysteem
-Windows 10, versie 1709 of hoger |Beveiligingslekken voor besturingssysteem<br/>Beveiligingsproblemen met softwareproducten<br/>Configuratiebeoordeling van besturingssysteem<br/>Configuratiebeoordeling van beveiligingsbesturingselementen<br/>Beoordeling van softwareproductconfiguratie
-Windows Server 2008 R2 | Beveiligingslekken voor besturingssysteem<br/>Beveiligingsproblemen met softwareproducten<br/>Configuratiebeoordeling van besturingssysteem<br/>Configuratiebeoordeling van beveiligingsbesturingselementen<br/>Beoordeling van softwareproductconfiguratie
-Windows Server 2012 R2 | Beveiligingslekken voor besturingssysteem<br/>Beveiligingsproblemen met softwareproducten<br/>Configuratiebeoordeling van besturingssysteem<br/>Configuratiebeoordeling van beveiligingsbesturingselementen<br/>Beoordeling van softwareproductconfiguratie
-Windows Server 2016 | Beveiligingslekken voor besturingssysteem<br/>Beveiligingsproblemen met softwareproducten<br/>Configuratiebeoordeling van besturingssysteem<br/>Configuratiebeoordeling van beveiligingsbesturingselementen<br/>Beoordeling van softwareproductconfiguratie
-Windows Server 2019 | Beveiligingslekken voor besturingssysteem<br/>Beveiligingsproblemen met softwareproducten<br/>Configuratiebeoordeling van besturingssysteem<br/>Configuratiebeoordeling van beveiligingsbesturingselementen<br/>Beoordeling van softwareproductconfiguratie
-macOS 10.14 'Mojave' en hoger | Beveiligingslekken voor besturingssysteem<br/>Beveiligingsproblemen met softwareproducten 
-Linux | Niet ondersteund (gepland)
+## <a name="capabilities-per-supported-operating-systems-os-and-platforms"></a>Mogelijkheden per ondersteund besturingssysteem (OS) en platforms
+
+In de volgende tabel geeft 'Ja' aan dat een mogelijkheid voor bedreigings- en kwetsbaarheidsbeheer wordt ondersteund voor het besturingssysteem of platform in die rij.
+
+Ondersteund besturingssysteem of platform | Beveiligingslekken in het besturingssysteem | Beveiligingsproblemen met softwareproducten | Configuratiebeoordeling van besturingssysteem | Configuratiebeoordeling van beveiligingsbesturingselementen | Beoordeling van softwareproductconfiguratie
+:---|:---|:---|:---|:---|:---
+Windows 7 | Ja | Niet ondersteund | Niet ondersteund | Niet ondersteund | Niet ondersteund
+Windows 8.1 | Ja | Ja | Ja | Ja| Ja
+Windows 10, versies 1607-1703 | Ja  | Niet ondersteund | Niet ondersteund | Niet ondersteund | Niet ondersteund
+Windows 10, versie 1709 of hoger | Ja | Ja | Ja | Ja | Ja
+Windows Server 2008 R2 | Ja | Ja | Ja | Ja | Ja
+Windows Server 2012 R2 | Ja | Ja | Ja | Ja | Ja
+Windows Server 2016 | Ja | Ja | Ja | Ja | Ja
+Windows Server 2019 | Ja | Ja | Ja | Ja | Ja
+macOS 10.14 'Mojave' en hoger | Ja | Ja | \(Ja-voorbeeld\) | \(Ja-voorbeeld\) | \(Ja-voorbeeld\)
+Red Hat Enterprise Linux 7.2 of hoger ( \* Zie 'Belangrijk' bericht hieronder) | Ja | Ja | Ja | Ja | Ja
+CentOS 7.2 of hoger | Ja | Ja | Ja | Ja | Ja
+Ubuntu 16.04 LTS of hoger LTS | Ja | Ja | Ja | Ja | Ja
+
+>[!IMPORTANT]
+> \* Red Hat Enterprise Linux: 'De beveiligingsgegevens die worden verstrekt en weergegeven als onderdeel van uw Microsoft Defender voor Endpoint-services, worden beschikbaar gesteld in de onbewerkte vorm', 'AS IS', van Red Hat, Inc., en zijn mogelijk niet up-to-date. De gegevens die toegankelijk zijn in de Red Hat Security Data API, worden gelicentieerd onder de Creative Commons Attribution 4.0 International License. U draagt het risico bij het gebruik van deze gegevens. Microsoft en haar externe leveranciers wijst alle aansprakelijkheid voor gevolgschade en andere indirecte schade en impliciete garanties af, met inbegrip van impliciete garanties van niet-inbreuk, verkoopbaarheid en geschiktheid voor een bepaald doel. © 2020 Red Hat. Alle rechten voorbehouden. © 2020 Microsoft. Alle rechten voorbehouden.'
 
 ## <a name="related-articles"></a>Verwante artikelen
 

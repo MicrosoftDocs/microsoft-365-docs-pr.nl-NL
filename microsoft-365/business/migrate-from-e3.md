@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over het verplaatsen van uw bedrijf Microsoft 365 Business Premium van Office 365 E3.
-ms.openlocfilehash: f08b054473fdd63ec2372e81c776a1b64f89fe9d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244831"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327165"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium
 
@@ -39,25 +39,24 @@ Migreren is eenvoudig: eerst schakelt u over van licentie en blijven al uw gegev
 
 In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Office 365 E3.
 
-| Functie    | Ondersteuning in Microsoft 365 Business Premium    | Ondersteuning in Office 365 E3 | 
+| Functie    | Ondersteuning in Microsoft 365 Business Premium    | Ondersteuning in Office 365 E3 |
 |:-------|:-----|:-----|
-| **On-premises**        | | | 
-| Office apps<sup>1</sup>    | Microsoft 365-apps voor bedrijven    | Microsoft 365 Apps voor ondernemingen | 
-| **Cloudproductiviteits-apps**        | | | 
-| Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkte Exchange Online Archiving    | 100 GB opslaglimiet per postvak en onbeperkte Exchange Online Archiving | 
+| **On-premises**        | | |
+| Office apps<sup>1</sup>    | Microsoft 365-apps voor bedrijven    | Microsoft 365-apps voor ondernemingen |
+| **Cloudproductiviteits-apps**        | | |
+| Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkte Exchange Online Archiving    | 100 GB opslaglimiet per postvak en onbeperkte Exchange Online Archiving |
 | Teams    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
 | OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Onbeperkt | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| StaffHub    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| MileIQ    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | | 
-| **Bedreigingsbeveiliging**        | | | 
-| Defender voor Office 365 Abonnement 1 | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
-| **Identiteitsbeheer**        | | | 
-| Selfservice password reset for hybrid Azure Active Directory (Azure AD) accounts, Azure AD multi-factor authentication (MFA), Conditional Access, password writeback for on-premises identities|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
+| StaffHub    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) |
+| **Bedreigingsbeveiliging**        | | |
+| Defender voor Office 365 Abonnement 1 | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan |
+| **Identiteitsbeheer**        | | |
+| Selfservice password reset for hybrid Azure Active Directory (Azure AD) accounts, Azure AD multi-factor authentication (MFA), Conditional Access, password writeback for on-premises identities|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | **Apparaat- en app-beheer**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | Activering van gedeelde computer|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png)| 
-| Upgraderechten voor Windows 10 Pro van Win 7/8.1 Pro licenties|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    || 
+| Upgraderechten voor Windows 10 Pro van Win 7/8.1 Pro licenties|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    ||
 | **Gegevensbeveiliging**        | | |
 |Office 365 Preventie van gegevensverlies|    ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)|![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
 |Azure Information Protection Plan 1, BitLocker afdwingen|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
@@ -96,29 +95,28 @@ Als u iedereen in uw organisatie hebt geüpgraded naar Microsoft 365 Business Pr
 U kunt deze stappen ook voltooien op de pagina Apparaten:
   
 1. Ga in het beheercentrum in het  linkernavigatienavigatiepunt naar \> **Apparatenbeleid.**
-    
+
 2. Kies op **de pagina** Apparaatbeleid de optie **Toevoegen**.
-    
-3. Geef in **het deelvenster** Beleid toevoegen het beleid een naam op en kies vervolgens een **type beleid** in de vervolgkeuzekeuze. 
-    
+
+3. Geef in **het deelvenster** Beleid toevoegen het beleid een naam op en kies vervolgens een **type beleid** in de vervolgkeuzekeuze.
+
      U kunt toepassingsbeleid instellen voor het beveiligen van bestanden op Android- en iPhone-apparaten, evenals Windows 10, en u kunt apparaatconfiguratiebeleid instellen voor bedrijfsapparaten Windows 10 apparaten. Zie de volgende koppelingen voor meer informatie:
-    
+
   - [Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
-    
+
   - [Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md)
-    
+
   - [Apparaatbeveiligingsinstellingen instellen voor Windows 10 pc's](protection-settings-for-windows-10-pcs.md)
   
 4. Nadat u beleidsregels hebt ingesteld, kunnen u en uw werknemers apparaten instellen:
-    
+
   - Zie [Het instellen van Windows apparaten voor Microsoft 365 Business Premium gebruikers](set-up-windows-devices.md) voor stappen voor Windows apparaten. 
-    
+
   - Zie [Mobiele apparaten instellen voor Microsoft 365 Business Premium gebruikers voor](set-up-mobile-devices.md) stappen voor Android-telefoons en iPhones. 
   
 ### <a name="mailbox-size"></a>Postvakgrootte
 
 Microsoft 365 Business Premium heeft een opslaglimiet van 50 GB voor het gebruik van Exchange Online abonnement 1. Als een van uw gebruikers meer dan 50 GB postvakopslag heeft tijdens het migreren naar Microsoft 365 Business Premium, wordt u aangeraden deze gebruiker een Exchange Online-abonnement 2 toe te wijzen en het Exchange Online-abonnement 1 te verwijderen omdat het niet haalbaar is om beide toe te wijzen.
-
 
 ### <a name="threat-protection"></a>Bedreigingsbeveiliging
 

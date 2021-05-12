@@ -16,21 +16,22 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 461bc7c8d4d8d5c9bb8c905f3b160d0af226b077
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 56ab6c6c11bd2c0786c0d797e5302a1f06f9bd53
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023223"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327256"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
+
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="why-attack-surface-reduction-rules-are-important"></a>Waarom surface reduction-regels voor aanvallen belangrijk zijn
 
@@ -138,7 +139,7 @@ U kunt het Windows-gebeurtenislogboek bekijken om gebeurtenissen weer te geven d
 2. Voer de woorden, *Gebeurtenisviewer,* in het menu Start in om de Windows Event Viewer te openen.
 3. Selecteer **onder Acties** de optie Aangepaste weergave **importeren...**.
 4. Selecteer de *bestandsindelingcfa-events.xml* waar het is geëxtraheerd. U kunt ook [de XML rechtstreeks kopiëren.](event-views.md)
-5. Selecteer **OK**.
+5. Kies **OK**.
 
 U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om alleen de volgende gebeurtenissen weer te geven, die allemaal betrekking hebben op gecontroleerde maptoegang:
 
@@ -159,6 +160,7 @@ Als u de regels voor het verlagen van de aanvalsoppervlakken configureert met gr
 
 |Regelnaam|GUID|Bestand & mapuitsluitingen|Minimaal ondersteund besturingssysteem|
 |---|:---:|---|---|
+|[Misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's blokkeren](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Ondersteund|[Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)|
 |[Adobe Reader blokkeren om onderliggende processen te maken](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Ondersteund|[Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |[Alle Office-toepassingen blokkeren om onderliggende processen te maken](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Ondersteund|[Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |[Referenties van het windows-subsysteem van de lokale beveiligingsinstantie blokkeren (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Ondersteund|[Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
@@ -175,6 +177,33 @@ Als u de regels voor het verlagen van de aanvalsoppervlakken configureert met gr
 |[Win32 API-oproepen blokkeren vanuit Office-macro's](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Ondersteund|[Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |[Geavanceerde beveiliging tegen ransomware gebruiken](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Ondersteund|[Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |
+
+### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>Misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's blokkeren
+
+Met deze regel voorkomt u dat een toepassing een kwetsbaar ondertekend stuurprogramma op schijf schrijft. In-the-wild, kwetsbaar ondertekende stuurprogramma's kunnen worden gebruikt door lokale toepassingen die voldoende bevoegdheden hebben om toegang te \-  \- krijgen tot de kernel. Met kwetsbaar ondertekende stuurprogramma's kunnen aanvallers beveiligingsoplossingen uitschakelen of omzeilen, wat uiteindelijk leidt tot systeemcompromitteerdheid.
+
+Met deze regel wordt niet geblokkeerd dat een stuurprogramma dat al in het systeem bestaat, wordt geladen.
+
+Deze regel wordt ondersteund in alle versies waarin ASR wordt ondersteund. dat wil zeggen:
+
+- [Windows 10 Pro, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- [Windows 10 Enterprise, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- [Windows Server, versie 1803 (halfjaarlijks kanaal)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
+- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+Intune-naam: `Block abuse of exploited vulnerable signed drivers`
+
+GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
+
+Zie [Aangepaste procedure van Microsoft Endpoint Manager voor](enable-attack-surface-reduction.md#microsoft-endpoint-manager-custom-procedure) proceduregegevens voor aangepaste regels voor mem.
+
+U kunt deze opdracht uitvoeren in de opdrachtregel om de ASR-regel in te stellen:
+
+```powershell
+"& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
+```
+
+U kunt deze website gebruiken om een stuurprogramma [voor analyse in te dienen.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 ### <a name="block-adobe-reader-from-creating-child-processes"></a>Adobe Reader blokkeren om onderliggende processen te maken
 
@@ -237,10 +266,10 @@ GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`
 
 ### <a name="block-executable-content-from-email-client-and-webmail"></a>Uitvoerbare inhoud van e-mailclient en webmail blokkeren
 
-Met deze regel worden de volgende bestandstypen niet geopend vanuit e-mail die is geopend in de Microsoft Outlook-toepassing of Outlook.com en andere populaire webmailproviders:
+Deze regel blokkeert dat de volgende bestandstypen worden geopend vanuit e-mail die is geopend in de Microsoft Outlook-toepassing, of Outlook.com en andere populaire webmailproviders:
 
 - Uitvoerbare bestanden (zoals .exe, .dll of .scr)
-- Scriptbestanden (zoals een PowerShell .ps, Visual Basic .vbs of JavaScript .js-bestand)
+- Scriptbestanden (zoals een PowerShell .ps, Visual Basic .vbs of JavaScript-.js bestand)
 
 Deze regel is geïntroduceerd in:
 
@@ -251,7 +280,7 @@ Deze regel is geïntroduceerd in:
 
 Intune-naam: `Execution of executable content (exe, dll, ps, js, vbs, etc.) dropped from email (webmail/mail client) (no exceptions)`
 
-Naam van Microsoft Endpoint Manager: `Block executable content from email client and webmail`
+Microsoft Endpoint Manager naam:`Block executable content from email client and webmail`
 
 GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 
@@ -328,11 +357,11 @@ Naam van Configuration Manager: `Block JavaScript or VBScript from launching dow
 
 GUID: `D3E037E1-3EB8-44C8-A917-57927947596D`
 
-### <a name="block-office-applications-from-creating-executable-content"></a>Voorkomen dat Office-toepassingen uitvoerbare inhoud maken
+### <a name="block-office-applications-from-creating-executable-content"></a>Voorkomen Office het maken van uitvoerbare inhoud
 
-Met deze regel voorkomt u dat Office-apps, waaronder Word, Excel en PowerPoint, potentieel schadelijke uitvoerbare inhoud kunnen maken door te blokkeren dat schadelijke code op schijf wordt geschreven.
+Deze regel voorkomt dat Office apps, waaronder Word, Excel en PowerPoint, potentieel schadelijke uitvoerbare inhoud kunnen maken door te voorkomen dat schadelijke code op schijf wordt geschreven.
 
-Malware die Office als vector misbruikt, kan proberen office te doorbreken en schadelijke onderdelen op schijf op te slaan. Deze schadelijke onderdelen overleven een computer opnieuw opstarten en blijven op het systeem staan. Daarom wordt met deze regel een veelvoorkomende persistentietechniek gebruikt.
+Malware die misbruik maakt van Office vector kan proberen uit te breken Office schadelijke onderdelen op schijf op te slaan. Deze schadelijke onderdelen overleven een computer opnieuw opstarten en blijven op het systeem staan. Daarom wordt met deze regel een veelvoorkomende persistentietechniek gebruikt.
 
 Deze regel is geïntroduceerd in:
 
@@ -347,11 +376,11 @@ SCCM-naam: `Block Office applications from creating executable content`
 
 GUID: `3B576869-A4EC-4529-8536-B80A7769E899`
 
-### <a name="block-office-applications-from-injecting-code-into-other-processes"></a>Office-toepassingen blokkeren om code in andere processen te injecteren
+### <a name="block-office-applications-from-injecting-code-into-other-processes"></a>Het Office blokkeren om code in andere processen te injecteren
 
-Met deze regel worden pogingen voor code-injectie van Office-apps in andere processen blokkeert.
+Met deze regel worden pogingen tot codeinjectie Office apps in andere processen.
 
-Aanvallers proberen mogelijk Office-apps te gebruiken om schadelijke code te migreren naar andere processen via code-injectie, zodat de code zich kan voordoen als een schoon proces.
+Aanvallers kunnen proberen om via Office kwaadaardige code te migreren naar andere processen via code-injectie, zodat de code zich kan voordoen als een schoon proces.
 
 Er zijn geen bekende legitieme zakelijke doeleinden voor het gebruik van code-injectie.
 
@@ -370,14 +399,14 @@ Naam van Configuration Manager: `Block Office applications from injecting code i
 
 GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`
 
-### <a name="block-office-communication-application-from-creating-child-processes"></a>Office-communicatietoepassing blokkeren om onderliggende processen te maken
+### <a name="block-office-communication-application-from-creating-child-processes"></a>Blokkeren Office communicatietoepassing om onderliggende processen te maken
 
-Met deze regel voorkomt u dat Outlook onderliggende processen maakt, terwijl er nog steeds legitieme Outlook-functies worden gebruikt.
+Deze regel voorkomt dat Outlook onderliggende processen maakt, terwijl er nog steeds legitieme Outlook functies.
 
-Deze regel beschermt tegen social engineering-aanvallen en voorkomt dat misbruik van code misbruik maakt van beveiligingslekken in Outlook. Het beschermt ook tegen [Outlook-regels](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) en formulieren die aanvallers kunnen gebruiken wanneer de referenties van een gebruiker worden gecompromitteerd.
+Deze regel beschermt tegen social engineering-aanvallen en voorkomt dat misbruik van code misbruik maakt van beveiligingslekken in Outlook. Het beschermt ook tegen Outlook regels en formulieren [die aanvallers](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) kunnen gebruiken wanneer de referenties van een gebruiker worden gehackt.
 
 > [!NOTE]
-> Deze regel is alleen van toepassing Outlook.com Outlook.
+> Deze regel is alleen van Outlook en Outlook.com.
 
 Deze regel is geïntroduceerd in:
 
@@ -416,7 +445,7 @@ GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 Met deze regel worden processen die zijn gemaakt [via PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec) en [WMI,](https://docs.microsoft.com/windows/win32/wmisdk/about-wmi) niet uitgevoerd. Zowel PsExec als WMI kunnen code op afstand uitvoeren, dus bestaat het risico dat deze functionaliteit wordt misbruikt voor opdracht- en beheerdoeleinden of om een infectie over het netwerk van een organisatie te verspreiden.
 
 > [!WARNING]
-> Gebruik deze regel alleen als u uw apparaten beheert met [Intune](https://docs.microsoft.com/intune) of een andere MDM-oplossing. Deze regel is niet compatibel met beheer via [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr) omdat deze regel WMI-opdrachten blokkeert die de Configuration Manager-client gebruikt om correct te werken.
+> Gebruik deze regel alleen als u uw apparaten beheert met [Intune](https://docs.microsoft.com/intune) of een andere MDM-oplossing. Deze regel is niet compatibel met beheer [via Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr) omdat deze regel WMI-opdrachten blokkeert die de Configuration Manager-client gebruikt om correct te werken.
 
 Deze regel is geïntroduceerd in:
 
@@ -447,7 +476,7 @@ Naam van Configuration Manager: `Block untrusted and unsigned processes that run
 
 GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`
 
-### <a name="block-win32-api-calls-from-office-macros"></a>Win32 API-oproepen blokkeren vanuit Office-macro's
+### <a name="block-win32-api-calls-from-office-macros"></a>Win32 API-oproepen blokkeren Office macro's
 
 Met deze regel voorkomt u dat VBA-macro's Win32-API's bellen.
 

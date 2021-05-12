@@ -22,19 +22,21 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Verwijder de licentie uit een gedeeld postvak om het toe te wijzen aan een andere gebruiker. '
-ms.openlocfilehash: 82ec863d5c2ae550fb401e71744715a27c89d382
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 873b50b34b9887ada92cc56f7083e3b748a52035
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470617"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327220"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Een licentie uit een gedeeld postvak verwijderen
 
 Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies om een licentie uit een gedeeld postvak te verwijderen, zodat u deze aan een gebruiker kunt toewijzen of de licentie kunt retourneren, zodat u niet betaalt voor een licentie die u niet nodig hebt.
 
 > [!NOTE]
+>
 > In de volgende scenario's is een licentie vereist:
+>
 > 1. Het gedeelde postvak heeft meer dan 50 GB opslagruimte in gebruik.
 > 2. In het gedeelde postvak wordt archivering op de plaats gebruikt.
 > 3. Het gedeelde postvak wordt in de procedure geplaatst.
@@ -73,7 +75,7 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 
 3. Ga naar **de pagina Productlicenties** en stel de schakelknop in **op Uit** voor de licentie die u wilt verwijderen.
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 5. Wanneer u terugkeert naar de pagina **Actieve gebruikers,** is de status van het gedeelde postvak **niet-gelicenseerd.**
 
@@ -92,7 +94,7 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 
 3. Ga naar **de pagina Productlicenties** en stel de schakelknop in **op Uit** voor de licentie die u wilt verwijderen.
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 5. Wanneer u terugkeert naar de pagina **Actieve gebruikers,** is de status van het gedeelde postvak **niet-gelicenseerd.**
 

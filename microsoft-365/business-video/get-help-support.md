@@ -10,7 +10,6 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
@@ -20,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Lees hoe u hulp en ondersteuning voor beheerders kunt krijgen in Microsoft 365 Business Premium.
-ms.openlocfilehash: 5494b51ba59304de8dde71c9c7fa0434ec5dd0c8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
-ms.translationtype: HT
+ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244930"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327184"
 ---
 # <a name="get-support"></a>Ondersteuning krijgen
 
@@ -44,7 +43,7 @@ Begin met [het bekijken van de huidige status van uw services](../enterprise/vie
 
 Bespaar tijd door uw serviceaanvraag online in te dienen. Wij helpen u bij het zoeken naar een oplossing of verbinden u met technische ondersteuning.
 
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Als u de melding krijgt dat u geen toestemming heeft voor toegang tot deze pagina of voor het uitvoeren van deze handeling, bent u geen beheerder. [Wie heeft beheerdersrechten binnen mijn onderneming?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?#who-has-admin-permissions-in-my-business)
+1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Als u een bericht krijgt met de melding dat u geen machtiging hebt om deze pagina te openen of deze actie uit te voeren, bent u geen beheerder. (Zie Wie heeft beheerdersmachtigingen in mijn [bedrijf?](admin-center-overview.md#who-has-admin-permissions-in-my-business).)
 
 2. Selecteer de **Hulp nodig?**-knop.
 
@@ -217,7 +216,7 @@ De ondersteuningsrol van 21Vianet bestaat uit:
 
 ## <a name="feature-availability"></a>Beschikbaarheid van functies
 
-Zie [Office 365 Service Description](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet) (Serviceomschrijving van Office 365) als u de beschikbaarheid van de functies in Office 365-abonnementen wilt bekijken.
+Zie Servicebeschrijving van [Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)als u de beschikbaarheid van functies in Office 365-abonnementen wilt bekijken.
 
 ## <a name="follow-us-on-wechat"></a>Volg ons op WeChat
 

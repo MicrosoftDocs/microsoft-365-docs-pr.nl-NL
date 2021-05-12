@@ -15,18 +15,19 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: df77a3d6c1f66882600a200b83b3b2585473f42b
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: fc04db0c9fe8ee6d09efc9802ab4a747af0b3e9c
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995067"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326676"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken inschakelen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
+
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -78,7 +79,6 @@ U kunt asr-regels ook uitsluiten van triggering op basis van certificaat- en bes
 > [!IMPORTANT]
 > Het uitsluiten van bestanden of mappen kan de beveiliging die door ASR-regels wordt geboden, aanzienlijk verminderen. Uitgesloten bestanden mogen worden uitgevoerd en er wordt geen rapport of gebeurtenis opgenomen.
 > Als asr-regels bestanden detecteren die volgens u niet moeten worden gedetecteerd, moet u eerst de auditmodus gebruiken om de [regel te testen.](evaluate-attack-surface-reduction.md)
-
 
 U kunt afzonderlijke bestanden of mappen opgeven (met behulp van mappaden of volledig gekwalificeerde resourcenamen), maar u kunt niet opgeven op welke regels de uitsluitingen van toepassing zijn. Een uitsluiting wordt alleen toegepast wanneer de uitgesloten toepassing of service wordt gestart. Als u bijvoorbeeld een uitsluiting toevoegt voor een updateservice die al wordt uitgevoerd, blijft de updateservice gebeurtenissen activeren totdat de service is gestopt en opnieuw wordt gestart.
 
@@ -145,9 +145,9 @@ Voorbeeld:
 > [!WARNING]
 > Als u uw computers en apparaten beheert met Intune, Configuration Manager of een ander beheerplatform op ondernemingsniveau, overschrijft de beheersoftware eventuele conflicterende instellingen voor groepsbeleid bij het opstarten.
 
-1. Open op de computer groepsbeleidsbeheer de console Groepsbeleidsbeheer, klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en selecteer **Bewerken.** [](https://technet.microsoft.com/library/cc731212.aspx)
+1. Open op uw computer voor groepsbeleidsbeheer de [Groepsbeleidsbeheerconsole](https://technet.microsoft.com/library/cc731212.aspx), klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en selecteer **Bewerken**.
 
-2. Ga in **de Groepsbeleidseditor** naar **Computerconfiguratie** en selecteer **Beheersjablonen.**
+2. Ga in de **Groepsbeleidsbeheereditor** naar **Computerconfiguratie** en selecteer **Beheersjablonen**.
 
 3. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Microsoft Defender Exploit  >  **Guard** Attack  >  **surface reduction**.
 
@@ -167,12 +167,81 @@ Voorbeeld:
    > [!WARNING]
    > Gebruik geen aanhalingstekens omdat deze niet worden ondersteund voor de kolom **Waardenaam** of **Waarde.**
 
+## <a name="microsoft-endpoint-manager-custom-procedure"></a>Microsoft Endpoint Manager aangepaste procedure
+
+U kunt een Microsoft Endpoint Manager (MEM)-beheercentrum gebruiken om aangepaste ASR-regels te configureren.
+
+1. Open het Microsoft Endpoint Manager (MEM)-beheercentrum. Klik in **het** menu Start op **Apparaten,** selecteer **Configuratieprofiel** en klik vervolgens **op Profiel maken.**
+
+   ![Profiel maken met MEM](images/mem01-create-profile.png)
+
+2. Selecteer **in Een profiel maken** in de volgende twee vervolgkeuzelijsten de volgende opties:
+
+   - Selecteer **in Platform** de Windows 10 en **hoger**
+   - Selecteer **Sjablonen in** **profieltype**
+
+   Selecteer **Aangepast** en klik vervolgens op **Maken.**
+
+   ![PROFIELKENMERKEN VAN MEM-regels](images/mem02-profile-attributes.png)
+
+3. Het hulpprogramma Aangepaste sjabloon wordt geopend voor stap **1 Basisbeginselen.** Typ **in 1** Basisbeginselen in **Naam** een naam voor uw sjabloon en in **Beschrijving** kunt u een optionele beschrijving typen.
+
+   ![BASISKENMERKEN VAN MEM](images/mem03-1-basics.png)
+
+4. Klik op **Volgende**. Stap **2 Configuratie-instellingen** worden geopend. Klik voor OMA-URI-Instellingen op **Toevoegen.** Er worden nu twee opties weergegeven: **Toevoegen** en **exporteren.**
+
+   ![INSTELLINGEN VOOR MEM-configuratie](images/mem04-2-configuration-settings.png)
+
+5. Klik **nogmaals op** Toevoegen. De **oma-URI-Instellingen** toevoegen wordt geopend. Ga **als volgt te** werk in Rij toevoegen:
+
+   - Typ **in Naam** een naam voor de regel.
+   - Typ **in Beschrijving** een korte beschrijving.
+   - Typ **of plak in OMA-URI** de specifieke OMA-URI-koppeling voor de regel die u toevoegt.
+   - Selecteer **tekenreeks** in **gegevenstype**.
+   - Typ **of** plak in Waarde de GUID-waarde, het teken en de statuswaarde zonder \= spaties _(GUID=StateValue)._ Waar: {0 : Disable (Disable the ASR rule)}, {1 : Block (Enable the ASR rule)}, {2 : Audit (Evaluate how the ASR rule would impact your organization if enabled)}, {6 : Warn (Enable the ASR rule but allow the end-user to bypass the block)}
+
+   ![MEM OMA URI-configuratie](images/mem05-add-row-oma-uri.png)
+
+6. Klik op **Opslaan**. **Rij sluiten** toevoegen. Klik **in Aangepast** op **Volgende.** In stap **3 Bereiklabels** zijn bereiklabels optioneel. Voer een van de volgende bewerkingen uit:
+
+   - Klik **op Bereiklabels** selecteren, selecteer de bereiktag (optioneel) en klik vervolgens op **Volgende.**
+   - Of klik op **Volgende**
+
+7. Selecteer in stap **4 Toewijzingen** **,** in Opgenomen groepen - voor de groepen die u wilt toepassen op deze regel- een van de volgende opties:
+
+   - **Groepen toevoegen**
+   - **Alle gebruikers toevoegen**
+   - **Alle apparaten toevoegen**
+
+   ![MEM-opdrachten](images/mem06-4-assignments.png)
+
+8. Selecteer **in Uitgesloten groepen** alle groepen die u van deze regel wilt uitsluiten en klik vervolgens op **Volgende.**
+
+9. Ga als volgt te werk in stap **5** Toepassingsregels voor de volgende instellingen:
+
+   - Selecteer **in** Regel profiel toewijzen **als** of Profiel niet **toewijzen als**
+   - Selecteer **in Eigenschap** de eigenschap waarop u deze regel wilt toepassen
+   - Voer **in Waarde** de toepasselijke waarde of het waardebereik in
+
+   ![Regels voor mem-toepassing](images/mem07-5-applicability -rules.png)
+
+10. Klik op **Volgende**. Controleer in **stap 6 Controleren + maken** de instellingen en informatie die u hebt geselecteerd en ingevoerd en klik vervolgens op **Maken.**
+
+   ![MEM Controleren en maken](images/mem08-6-review-create.png)
+
+>[!NOTE]
+> Regels zijn actief en leven binnen enkele minuten.
+
+>[!NOTE]
+> Conflictafhandeling: Als u een apparaat twee verschillende ASR-beleidsregels toewijst, zijn regels die aan verschillende staten zijn toegewezen, er is geen conflictbeheer en is het resultaat een fout.
+> Niet-conflicterende regels leiden niet tot een fout en de regel wordt correct toegepast. Het resultaat is dat de eerste regel wordt toegepast en dat de volgende niet-conflicterende regels worden samengevoegd in het beleid.
+
 ## <a name="powershell"></a>PowerShell
 
 > [!WARNING]
 > Als u uw computers en apparaten beheert met Intune, Configuration Manager of een ander beheerplatform op ondernemingsniveau, overschrijft de beheersoftware eventuele conflicterende PowerShell-instellingen bij het opstarten. Als u wilt dat gebruikers de waarde kunnen definiëren met PowerShell, gebruikt u de optie 'Gebruiker gedefinieerd' voor de regel in het beheerplatform.
 
-1. Typ **powershell** in het menu Start, klik met de rechtermuisknop op **Windows PowerShell** en selecteer **Uitvoeren als beheerder.**
+1. Typ **powershell** in het menu Start, klik met **de rechtermuisknop Windows PowerShell** en selecteer Uitvoeren als **beheerder.**
 
 2. Typ de volgende cmdlet:
 
