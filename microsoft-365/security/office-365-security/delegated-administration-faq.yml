@@ -1,0 +1,64 @@
+### YamlMime:FAQ
+metadata:
+  title: Veelgestelde vragen over gedelegeerd beheer
+  f1.keywords:
+  - NOCSH
+  ms.author: chrisda
+  author: chrisda
+  manager: dansimp
+  ms.date: 
+  audience: ITPro
+  ms.topic: troubleshooting
+  localization_priority: Normal
+  ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
+  ms.custom:
+  - seo-marvel-apr2020
+  description: Beheerders kunnen veelgestelde vragen en antwoorden bekijken over gedelegeerde beheertaken in Microsoft 365 microsoft-partners en wederverkopers.
+  ms.technology: mdo
+  ms.prod: m365-security
+  ms.openlocfilehash: 836e52139ef2e6191bda26d6fdb92da521dff6bd
+  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 05/12/2021
+  ms.locfileid: "52333970"
+title: Veelgestelde vragen over gedelegeerd beheer
+summary: >
+  [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+
+  Dit artikel bevat veelgestelde vragen en antwoorden over gedelegeerde beheertaken in Microsoft 365 microsoft-partners en wederverkopers. Gedelegeerd beheer omvat de mogelijkheid om Exchange Online Protection (EOP)-instellingen voor andere tenants (bedrijven) te beheren.
+sections:
+- name: Genegeerd
+  questions:
+  - question: >
+      Ik ben een wederverkoper en ik moet mijn klantten tenants beheren. Hoe werkt dit?
+    answer: >
+      Als u een Microsoft-partner of wederverkoper bent en u zich hebt  aangemeld om een Microsoft-adviseur te worden, kunt u gedelegeerde beheermogelijkheden aanvragen in de Microsoft 365 organisatie van uw klant.
+
+
+      Met gedelegeerd beheer kunt u Microsoft 365 beheren (inclusief EOP-instellingen) alsof u een beheerder binnen die organisatie bent. De stappen voor het configureren van gedelegeerd beheer worden in de volgende lijst beschreven:
+
+
+      1. Meld u aan om een adviseur [Microsoft Office 365 zijn.](https://partner.microsoft.com/?cloudbenefits)
+
+
+      2. Meld u aan voor gedelegeerd beheer. Voordat u de tenant van een klant kunt beheren, moet deze u machtigen als gedelegeerde beheerder. Om hun goedkeuring te verkrijgen, stuurt [u ze eerst een aanbieding voor gedelegeerd beheer.](https://support.microsoft.com/office/26530dc0-ebba-415b-86b1-b55bc06b073e) U kunt ook gedelegeerd beheer aanbieden aan uw klant op een later tijdstip.
+
+
+      3. Maak het gedelegeerde beheerdersaccount met de stappen in Een partner voor abonnementsadviseur [toevoegen, wijzigen of verwijderen.](../../admin/misc/add-partner.md)
+
+
+      Ga [naar Partners: Bouw uw bedrijf en beheer partnerabonnement voor](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) meer informatie over het instellen van gedelegeerd beheer.
+  - question: >
+      Ik ben een klant, geen wederverkoper. Hoe kan ik gedelegeerde beheerder instellen voor mijn subtenants?
+    answer: >
+      Gedelegeerd beheer is alleen beschikbaar voor wederverkopers en partners. Er is echter een voorbeeldscript van PowerShell dat u helpt beleid toe te passen op uw subtenants (bedrijven). Zie Voorbeeldscript voor het toepassen van [EOP-instellingen op meerdere tenants voor meer informatie.](sample-script-for-applying-eop-settings-to-multiple-tenants.md)
+  - question: >
+      Kan ik voorkomen dat mijn subtenantbeheerder mijn beleid wijzigt?
+    answer: >
+      Nee. Microsoft 365 deze mogelijkheid momenteel niet heeft.
+  - question: >
+      Kan ik samengevoegde rapporten krijgen over al mijn subtenants?
+    answer: Geconsolideerde rapportage voor alle bedrijven die u beheert, is niet beschikbaar in Microsoft 365 beheercentrumrapporten. U kunt echter rapporten krijgen met Behulp van [Microsoft Graph.](/graph/overview)

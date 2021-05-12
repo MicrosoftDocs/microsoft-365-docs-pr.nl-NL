@@ -1,0 +1,154 @@
+### YamlMime:FAQ
+metadata:
+  title: Veelgestelde vragen over in quarantaine geplaatste berichten
+  f1.keywords:
+  - NOCSH
+  ms.author: chrisda
+  author: chrisda
+  manager: dansimp
+  ms.date: 
+  audience: ITPro
+  ms.topic: troubleshooting
+  localization_priority: Normal
+  search.appverid:
+  - MET150
+  ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
+  ms.collection:
+  - M365-security-compliance
+  - m365initiative-defender-office365
+  description: Beheerders kunnen veelgestelde vragen en antwoorden over berichten in quarantaine bekijken in Exchange Online Protection (EOP).
+  ms.custom: seo-marvel-apr2020
+  ms.technology: mdo
+  ms.prod: m365-security
+  ms.openlocfilehash: f146cd9eba6e333376bcfeb6e8c74b3378387b5b
+  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 05/12/2021
+  ms.locfileid: "52333963"
+title: Veelgestelde vragen over in quarantaine geplaatste berichten
+summary: >
+  [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+  **Van toepassing op**
+
+  - [Exchange Online Protection](exchange-online-protection-overview.md)
+
+  - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
+
+  - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+
+
+  Dit onderwerp bevat veelgestelde vragen en antwoorden over in quarantaine geplaatste e-mailberichten voor Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken.
+
+
+  Zie Veelgestelde vragen over antispambeveiliging voor vragen en antwoorden over bescherming tegen [spam.](anti-spam-protection-faq.yml)
+
+
+  Zie Veelgestelde vragen en antwoorden [](anti-malware-protection-faq-eop.yml)over anti-malwarebeveiliging.
+
+
+  Zie Veelgestelde vragen over bescherming tegen spoofing voor vragen en antwoorden over bescherming tegen [spoofing.](anti-spoofing-protection-faq.yml)
+sections:
+- name: Genegeerd
+  questions:
+  - question: >
+      Hoe beheer ik berichten die in quarantaine zijn geplaatst voor malware?
+    answer: >
+      Alleen beheerders kunnen berichten beheren die in quarantaine zijn geplaatst voor malware. Zie Berichten en bestanden in quarantaine beheren als beheerder voor [meer informatie.](manage-quarantined-messages-and-files.md)
+  - question: >
+      Hoe kan ik spam in quarantaine plaatsen?
+    answer: >
+      Berichten die door spamfilters als spam of bulk-e-mail zijn geclassificeerd, worden standaard bezorgd in het postvak van de gebruiker en worden verplaatst naar de map Ongewenste e-mail. Maar u kunt in plaats daarvan antispambeleid maken en configureren om spam of bulk-e-mailberichten in quarantaine te plaatsen. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+  - question: >
+      Hoe geef ik gebruikers toegang tot de quarantaine?
+    answer: >
+      Een gebruiker moet een geldig account hebben om toegang te krijgen tot zijn of haar eigen berichten in quarantaine. Zelfstandige EOP vereist dat gebruikers worden voorgesteld als e-mailgebruikers in EOP (handmatig gemaakt of gemaakt via adreslijstsynchronisatie). Zie E-mailgebruikers beheren in EOP voor meer informatie over het beheren van gebruikers in zelfstandige [EOP-omgevingen.](manage-mail-users-in-eop.md)
+  - question: >
+      Welke berichten kunnen eindgebruikers openen in quarantaine?
+    answer: >
+      Gebruikers hebben toegang tot spam, bulk-e-mail en (vanaf april 2020) phishingberichten waar ze een geadresseerde zijn. Eindgebruikers hebben geen toegang tot in quarantaine geplaatste malware, phishing  of berichten die in quarantaine zijn geplaatst vanwege de actie Het bericht verzenden naar de gehoste quarantaineactie in de regels voor e-mailstroom (ook wel transportregels genoemd). Zie Berichten in quarantaine zoeken en vrijgeven als gebruiker voor meer informatie over gebruikers die in quarantaine geplaatste berichten [openen.](find-and-release-quarantined-messages-as-a-user.md)
+  - question: >
+      Hoe lang worden berichten in quarantaine bewaard?
+    answer: >
+      U configureert hoe lang spam, phishing en bulk-e-mailberichten in quarantaine worden bewaard met behulp van antispambeleid. De standaardwaarde is 30 dagen, wat ook het maximum is. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+
+
+      Voor berichten die in quarantaine zijn geplaatst door de actie E-mailstroomregel Bezorg het bericht naar de gehoste **quarantaine**, worden de berichten 30 dagen in quarantaine gehouden. U kunt deze duur niet configureren.
+
+
+      Nadat de periode is verstreken, worden de berichten verwijderd en kunnen ze niet worden hersteld.
+  - question: >
+      Kan ik meerdere berichten in quarantaine tegelijk vrijgeven of rapporteren?
+    answer: >
+      In het & Compliancecentrum kunt u maximaal 100 berichten tegelijk selecteren en vrijgeven.
+
+
+      Beheerders kunnen de cmdlets [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) en [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage) in Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om in quarantaine geplaatste berichten bulksgewijs te zoeken en los te laten, en om onwaar positieven bulksgewijs te melden.
+  - question: >
+      Worden jokertekens ondersteund bij het zoeken naar berichten in quarantaine? Kan ik zoeken naar berichten in quarantaine voor een specifiek domein?
+    answer: >-
+      Jokertekens worden niet ondersteund in het Beveiligings- & Compliancecentrum. Wanneer u bijvoorbeeld naar een afzender zoekt, moet u het volledige e-mailadres opgeven. U kunt echter jokertekens gebruiken in Exchange Online PowerShell of zelfstandige EOP PowerShell.
+
+
+      Kopieer bijvoorbeeld de volgende PowerShell-code naar Kladblok en sla het bestand op als .ps1 op een locatie die u gemakkelijk kunt vinden (bijvoorbeeld C:\Data\QuarantineRelease.ps1).
+
+
+      Voer vervolgens, nadat u verbinding hebt [gemaakt met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) of Exchange Online Protection [PowerShell,](/powershell/exchange/connect-to-exchange-online-protection-powershell)de volgende opdracht uit om het script uit te voeren:
+
+
+      ```powershell
+
+      & C:\Data\QuarantineRelease.ps1
+
+      ```
+
+
+      Het script doet de volgende acties:
+
+
+      - Zoek niet-uitgebrachte berichten die in quarantaine zijn geplaatst als spam van alle afzenders in het fabrikam-domein. Het maximum aantal resultaten is 50.000 (50 pagina's met 1000 resultaten).
+
+      - Sla de resultaten op in een CSV-bestand.
+
+      - Laat de overeenkomende in quarantaine geplaatste berichten los voor alle oorspronkelijke geadresseerden.
+
+
+      ```powershell
+
+      $Page = 1
+
+      $List = $null
+
+
+      Do
+
+      {
+
+      Write-Host "Getting Page " $Page
+
+
+      $List = (Get-QuarantineMessage -Type Spam -PageSize 1000 -Page $Page | where {$_.Released -like "False" -and $_.SenderAddress -like "*fabrikam.com"})
+
+      Write-Host "                     " $List.count " rows in this page match"
+
+      Write-Host "                                                             Exporting list to appended CSV for logging"
+
+      $List | Export-Csv -Path "C:\Data\Quarantined Message Matches.csv" -Append -NoTypeInformation
+
+
+      Write-Host "Releasing page " $Page
+
+      $List | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+
+
+      $Page = $Page + 1
+
+
+      } Until ($Page -eq 50)
+
+      ```
+
+
+      Nadat u een bericht hebt uitgebracht, kunt u het bericht niet meer vrijgeven.
