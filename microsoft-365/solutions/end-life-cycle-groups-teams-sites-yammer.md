@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Opties voor het einde van de levenscyclus voor groepen, teams en Yammer.
-ms.openlocfilehash: 405d87c645118cf0ef318d4d68802d17da8c5673
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f1f91e64af7e16016398a7c326feec5a9b073ca9
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916128"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333780"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Opties voor het einde van de levenscyclus voor groepen, teams en Yammer
 
@@ -79,7 +79,8 @@ Teams-specifieke inhoud is voornamelijk in de vorm van gesprekken.
 
 Gesprekken in kanalen kunnen niet worden gekopieerd of verplaatst met de standaardfunctionaliteit van Microsoft Teams. Ze kunnen echter worden geëxporteerd met behulp van de Graph API.
 
-Als een bewaarbeleid wordt toegepast op Teams, blijven de gesprekken behouden en beschikbaar via eDiscovery-zoekopdrachten. (Items die in eDiscovery-zoekopdrachten worden gevonden, kunnen worden geëxporteerd, maar er is geen context of structuur van de oorspronkelijke bron over, het zijn gewoon afzonderlijke berichten.)
+Als een bewaarbeleid wordt toegepast op Teams, blijven de gesprekken behouden en beschikbaar via eDiscovery-zoekopdrachten. Met geavanceerde eDiscovery kunt u [een Teams-chatgesprek reconstrueren.](/microsoft-365/compliance/conversation-review-sets)
+
 
 ### <a name="archiving-a-team"></a>Een team archiveren
 

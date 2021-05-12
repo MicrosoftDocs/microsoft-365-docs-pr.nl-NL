@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,14 +19,13 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 ms.date: 04/02/2021
-ms.openlocfilehash: 00c1fdca0f1ba227dcd10dffb7c46b03618593e7
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 73acb6a12499953e56eda7d4274160c6e79ee440
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280857"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331980"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>Betalen voor uw abonnement met een factureringsprofiel
 
@@ -220,7 +219,7 @@ Als uw factureringsprofiel wordt gebacked door een factuur, ontvangt u een e-mai
 
 ## <a name="can-i-pay-my-invoice-online"></a>Kan ik mijn factuur online betalen?
 
-Als terugkerende facturering is uitgeschakeld voor uw factureringsprofiel, kunt u een creditcard gebruiken om uw factuur online te betalen. Als u een betaling wilt doen, gebruikt u de knop **Nu** betalen op uw factuur in het Microsoft 365 beheercentrum. Zie Uw factuur of factuur weergeven om [uw factuur te vinden.](view-your-bill-or-invoice.md)
+Als terugkerende facturering is uitgeschakeld voor uw factureringsprofiel, kunt u een creditcard gebruiken om uw factuur online te betalen. Als u een betaling wilt doen, gebruikt **u de knop Nu** betalen op uw factuur in het Microsoft 365-beheercentrum. Zie Uw factuur of factuur weergeven om [uw factuur te vinden.](view-your-bill-or-invoice.md)
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Kan ik mijn huidige betalingsmethode veranderen naar betalen per factuur?
 
@@ -230,7 +229,7 @@ Als uw factureringsprofiel wordt gebacked met een creditcard of betaalkaart, kun
 
 Als uw factureringsprofiel wordt gebacked door factuurbetalingen, kunt u de betalingswijze niet wijzigen. U kunt de knop **Nu betalen op** uw factuur gebruiken om te betalen met een creditcard of betaalkaart, of via cheque of EFT.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Betalingsmethoden beheren](manage-payment-methods.md) (artikel)\
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\

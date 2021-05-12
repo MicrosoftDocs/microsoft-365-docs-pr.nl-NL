@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3c9c96c73a6d1843f2e7aa626cafac0860887a65
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 72dc9d448a6170cbacc71d37a60bdd059ef6ec3e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327340"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333792"
 ---
 # <a name="supported-operating-systems-platforms-and-capabilities---for-threat-and-vulnerability-management"></a>Ondersteunde besturingssystemen, platforms en mogelijkheden - voor bedreigings- en kwetsbaarheidsbeheer
 
@@ -56,15 +56,15 @@ Windows Server 2008 R2 | Ja | Ja | Ja | Ja | Ja
 Windows Server 2012 R2 | Ja | Ja | Ja | Ja | Ja
 Windows Server 2016 | Ja | Ja | Ja | Ja | Ja
 Windows Server 2019 | Ja | Ja | Ja | Ja | Ja
-macOS 10.14 'Mojave' en hoger | Ja | Ja | \(Ja-voorbeeld\) | \(Ja-voorbeeld\) | \(Ja-voorbeeld\)
-Red Hat Enterprise Linux 7.2 of hoger ( \* Zie 'Belangrijk' bericht hieronder) | Ja | Ja | Ja | Ja | Ja
-CentOS 7.2 of hoger | Ja | Ja | Ja | Ja | Ja
-Ubuntu 16.04 LTS of hoger LTS | Ja | Ja | Ja | Ja | Ja
+macOS 10.14 'Mojave' en hoger | Ja | Ja | Ja (voorbeeld) | Ja (voorbeeld) | Ja (voorbeeld)
+Red Hat Enterprise Linux 7.2 of hoger **(preview) (** \* Zie 'Belangrijk' bericht hieronder) | Ja | Ja | Ja | Ja | Ja
+CentOS 7.2 of hoger **(preview)** | Ja | Ja | Ja | Ja | Ja
+Ubuntu 16.04 LTS of hoger LTS **(preview)** | Ja | Ja | Ja | Ja | Ja
 
 >[!IMPORTANT]
 > \* Red Hat Enterprise Linux: 'De beveiligingsgegevens die worden verstrekt en weergegeven als onderdeel van uw Microsoft Defender voor Endpoint-services, worden beschikbaar gesteld in de onbewerkte vorm', 'AS IS', van Red Hat, Inc., en zijn mogelijk niet up-to-date. De gegevens die toegankelijk zijn in de Red Hat Security Data API, worden gelicentieerd onder de Creative Commons Attribution 4.0 International License. U draagt het risico bij het gebruik van deze gegevens. Microsoft en haar externe leveranciers wijst alle aansprakelijkheid voor gevolgschade en andere indirecte schade en impliciete garanties af, met inbegrip van impliciete garanties van niet-inbreuk, verkoopbaarheid en geschiktheid voor een bepaald doel. © 2020 Red Hat. Alle rechten voorbehouden. © 2020 Microsoft. Alle rechten voorbehouden.'
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Vereisten & machtigingen](tvm-prerequisites.md)

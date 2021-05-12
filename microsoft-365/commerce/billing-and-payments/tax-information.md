@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: tugu
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,23 +14,22 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 search.appverid: MET150
-description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw abonnement Microsoft 365 voor bedrijven in verschillende regio's. "
+description: "Ontdek hoeveel belasting u in rekening wordt gebracht voor uw Microsoft 365 voor Bedrijven-abonnement in verschillende regio's. "
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 ms.date: 03/17/2021
-ms.openlocfilehash: fc1e2924a6b28c30841f890396d5d82ed2944bea
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 5c472615846ba6460bc829bc0157c6c6da940292
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280593"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332016"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
-Wanneer u Microsoft 365 producten en services koopt, worden de belastingen die u betaalt bepaald door een van de twee dingen: uw zakelijke adres of uw verzendadres, als dit anders is. Als uw organisatie in de Verenigde Staten is, moet u een FEIN (Federal Employer Identification Number) geven.
+Wanneer u Microsoft 365-producten en -services koopt, worden de belastingen die u betaalt bepaald door een van de twee dingen: uw zakelijke adres of uw verzendadres, als dit anders is. Als uw organisatie in de Verenigde Staten is, moet u een FEIN (Federal Employer Identification Number) geven.
 
 Bedrijven in de volgende landen kunnen hun btw-nummer of lokale equivalent verstrekken:
 
@@ -101,13 +100,13 @@ Bedrijven in de volgende landen kunnen hun btw-nummer of lokale equivalent verst
 
 ## <a name="europe-the-middle-east-and-africa-emea"></a>Europa, het Midden-Oosten en Afrika (EMEA)
 
-Wanneer u Microsoft 365 services koopt in de EMEA-regio, kan deze aankoop onderworpen zijn aan Value-Added btw.
+Wanneer u Microsoft 365-services koopt in de EMEA-regio, kan voor deze aankoop Value-Added btw worden betaald.
   
 - Als u zich in een lidstaat van de Europese Unie, Armenië, Wit-Rusland, Noorwegen, Turkije of de Verenigde Arabische Emiraten bevindt en u uw geldige lokale btw-id niet verstrekt, wordt het huidige lokale btw-tarief toegepast op basis van het factureringsland waarin uw account is ingesteld.
 
 - Als u zich in Liechtenstein, Rusland, Servië, Zuid-Afrika of Zwitserland bevindt, wordt de btw toegepast, ongeacht of u uw btw-id op geeft of niet.
 
-- Voordat we uw BTW-id kunnen valideren voor EU-klanten, moet deze beschikbaar zijn voor verificatie in het BTW-Exchange-systeem (VIES). Als uw btw-id niet kan worden geverifieerd, neem dan contact op met uw lokale belastingdienst.
+- Voordat we uw btw-id kunnen valideren voor EU-klanten, moet deze beschikbaar zijn voor verificatie in het BTW-informatieuitwisselingssysteem (VIES). Als uw btw-id niet kan worden geverifieerd, neem dan contact op met uw lokale belastingdienst.
 
 U komt mogelijk in aanmerking voor btw-nul als:
   
@@ -141,7 +140,7 @@ Als uw facturering wordt uitgevoerd door Microsoft Corporation[(zie](view-your-b
 2. Zoek op het tabblad **Producten** het abonnement dat u wilt bijwerken.
 3. Selecteer op de pagina abonnementsgegevens in de sectie **Servicegebruiksadres** de optie **Adres van servicegebruik bewerken.**
 4. Voer in **het deelvenster Servicegebruiksadres** bewerken in het vak BTW-nummer uw btw-id in, inclusief het voorvoegsel, en zonder spaties. 
-5. Kies **Opslaan**.
+5. Selecteer **Opslaan**.
 
 ## <a name="how-taxes-are-calculated"></a>Berekening van belastingen
 
@@ -169,7 +168,7 @@ Als u in aanmerking komt voor belastingvrijstelling in uw markt, start u een [se
 | Verenigde Staten | Btw-vrijstellingscertificaat |
 | Puerto Rico | Certificado de Compras Exentas |
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
   
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
 [Inzicht in uw rekening of factuur](understand-your-invoice.md) (artikel)

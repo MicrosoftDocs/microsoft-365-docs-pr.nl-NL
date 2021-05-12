@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +17,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
-ms.reviewer: tugu
-search.appverid:
-- MET150
-description: Meer informatie over het bijwerken van uw factuuradressen Microsoft 365 voor bedrijven. U kunt ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
+search.appverid: MET150
+description: Meer informatie over het bijwerken van uw factuuradressen voor Microsoft 365 voor Bedrijven. U kunt ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
 ms.date: 04/07/2021
-ms.openlocfilehash: ea212d79ef28d5d387bdb5503c267d7cd5113786
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 8bff090353c409f4364aed63e3b48a831608be2b
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107192"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332164"
 ---
 # <a name="change-your-billing-addresses"></a>Uw factuuradressen wijzigen
 
@@ -111,7 +109,7 @@ Zie Uw factuur of factuur [](view-your-bill-or-invoice.md) weergeven en Uw factu
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 
-    Als u gebruik maakt van Office 365 beheerd door 21Vianet in China, zie Uw factuur bekijken of [Fapiao's voor Office 365 beheerd door 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
+    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, zie Uw factuur bekijken of [Fapiaos voor Office 365 krijgen beheerd door 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
 
 ::: moniker-end
 

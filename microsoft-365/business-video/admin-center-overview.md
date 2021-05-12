@@ -21,14 +21,41 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 5ae72b51657cea1ce635c622e875cdf736ee1598
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 47eafbf49ac70d86b4065d3a67672c79abc16e63
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221759"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332244"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Overzicht van het Microsoft 365-beheercentrum
+
+- [Het beheercentrum in de vereenvoudigde weergave](#the-admin-center-in-simplified-view)
+- [Het beheercentrum in de dashboardweergave](#the-admin-center-in-dashboard-view)
+
+## <a name="the-admin-center-in-simplified-view"></a>Het beheercentrum in de vereenvoudigde weergave
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWD3sq?autoplay=false]
+
+Met het Microsoft 365-beheercentrum kunt u wachtwoorden opnieuw instellen, uw factuur bekijken, gebruikers toevoegen of verwijderen, en nog veel meer allemaal op één plaats.
+
+Meld u aan bij Office.com met uw werkaccount en selecteer het start startteken voor apps. 
+
+Als u toestemming hebt om toegang te krijgen tot het beheercentrum, ziet u **Beheerder** in de lijst. Selecteer het. 
+
+Bekijk boven aan het beheercentrum de belangrijkste acties voor u. Mogelijk ziet u verschillende acties, afhankelijk van wat u al hebt ingesteld, zoals het maken van nieuwe accounts, het gebruik van Teams, het instellen van e-mail en het installeren van Office-apps. 
+ 
+Onder **Uw organisatie** op het tabblad **Gebruikers** staat een lijst met personen die toegang hebben tot apps en services, nieuwe gebruikers kunnen toevoegen, wachtwoorden opnieuw kunnen instellen of het menu Meer **acties kunnen** gebruiken. Selecteer een persoon om zijn of haar gegevens en instellingen weer te geven of te bewerken.  
+
+Maak op **het tabblad Teams** een nieuw team of beheer bestaande teams. U kunt de leden van een team beheren of Meer **acties selecteren om** andere Teams-instellingen te wijzigen. 
+
+Voeg op **het tabblad** Abonnementen meer producten toe, voeg licenties toe of gebruik het **menu** Meer acties om licenties of betalingswijze te wijzigen.
+
+Blader op **het** tabblad Leren door video's en artikelen over het beheercentrum en andere Microsoft 365-functies. Als u meer geavanceerde functies van het beheercentrum wilt verkennen, opent u het navigatiemenu en vouwt u de koppen uit om meer te zien. Selecteer **Alles weergeven** om alles in het navigatiemenu te zien of gebruik de zoekbalk om snel te vinden wat u zoekt.
+
+Als u hulp nodig hebt, selecteert u **Help & ondersteuning.** Zoek naar het onderwerp waar u hulp bij nodig hebt en bekijk de aanbevolen oplossing of selecteer de headset om contact op te nemen met de ondersteuning en voer vervolgens uw vraag en contactgegevens in. 
+
+## <a name="the-admin-center-in-dashboard-view"></a>Het beheercentrum in de dashboardweergave
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL?autoplay=false]
 
@@ -59,8 +86,6 @@ Zie de andere lessen in deze cursus voor meer informatie over het beheren van fa
 De persoon die zich voor een Microsoft 365 voor Bedrijven-abonnement meldt en koopt, krijgt standaard beheerdersmachtigingen. Deze persoon kan beheerdersmachtigingen toewijzen aan andere personen om hen te helpen Microsoft 365 voor hun organisatie te beheren.
 
 Als u het bericht **'U hebt geen** machtiging voor toegang tot deze pagina of het uitvoeren van deze actie' krijgt, bent u geen beheerder.
-<br><br>    
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/3a4e19ee-1a2a-473f-8995-06de0052c169?autoplay=false]
   
 ### <a name="who-has-admin-permissions-in-my-business"></a>Wie heeft beheerdersmachtigingen in mijn bedrijf?
 <a name="bkmk_admin"> </a>
@@ -139,8 +164,8 @@ Het Microsoft 365-beheercentrum is volledig gelokaliseerd in 40 talen.
 |Hungarian | hu |
 |Indonesian  | id |
 |Italian | het |
-|Japanese | ja |
-|Korean | ko |
+|Japans | ja |
+|Koreaans | ko |
 |Lithuanian | lt |
 |Latvian | lv |
 |Dutch | nl |

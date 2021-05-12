@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: bdb49af4ac43976a1ad734e507902781d63c5670
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 2e7152530dc3221eb3ab01047416993178193732
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301786"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333816"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
 
-In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in het Microsoft 365 beheercentrum.
+In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint-site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in het Microsoft 365-beheercentrum.
 
 Het onderwerpcentrum heeft een standaard startpagina met het **webonderdeel** Onderwerpen waarin alle gelicentieerde gebruikers de onderwerpen kunnen zien waarmee ze een verbinding hebben. 
 
@@ -34,14 +34,14 @@ Hoewel alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, toegang h
 Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. Nadat de installatie is voltooid, kan een beheerder de URL vinden op de [pagina Onderwerpcentrumbeheer.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. Selecteer in Microsoft 365 beheercentrum **Instellingen** en selecteer vervolgens **Organisatie-instellingen.**
+1. Selecteer instellingen in het Microsoft 365-beheercentrum **en** selecteer **vervolgens Organisatie-instellingen.**
 2. Selecteer op **het tabblad** Services de optie **Onderwerpervaringen.**
 
-    ![Verbinding maken mensen kennis te laten maken](../media/admin-org-knowledge-options-completed.png) </br>
+    ![Personen verbinden met kennis](../media/admin-org-knowledge-options-completed.png) 
 
 3. Selecteer het **tabblad Onderwerpcentrum.** Onder **Siteadres** staat een koppeling naar uw onderwerpcentrum.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png) </br>
+    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png) 
 
 
 
@@ -58,32 +58,35 @@ Op de startpagina van het onderwerpcentrum ziet u de onderwerpen in uw organisat
 
 - Voorgestelde verbindingen: u ziet onderwerpen die worden vermeld onder **We hebben u op deze onderwerpen vermeld. Hebben we het goed gedaan?** Dit zijn onderwerpen waarin uw verbinding met het onderwerp is voorgesteld via AI. U kunt bijvoorbeeld een auteur van een gerelateerd bestand of site zijn. U wordt gevraagd te bevestigen dat u moet blijven vermeld als een verwante persoon voor het onderwerp.
 
-   ![Voorgestelde verbindingen](../media/knowledge-management/my-topics.png) </br>
+   ![Voorgestelde verbindingen](../media/knowledge-management/my-topics.png) 
  
 - Bevestigd verbindingen: dit zijn onderwerpen waarin u bent vastgemaakt aan de onderwerppagina of u een voorgestelde verbinding met het onderwerp hebt bevestigd. Onderwerpen worden verplaatst van de voorgestelde sectie naar de sectie bevestigd wanneer u een voorgestelde verbinding bevestigt.
  
-   ![Bevestigd onderwerpen](../media/knowledge-management/my-topics-confirmed.png) </br>
+   ![Bevestigd onderwerpen](../media/knowledge-management/my-topics-confirmed.png) 
 
 Wanneer een gebruiker zijn of haar verbinding met een onderwerp bevestigt, kan de gebruiker wijzigingen aan de onderwerppagina maken om de verbinding te curaçeren. Ze kunnen bijvoorbeeld meer informatie geven over hun verbinding met het onderwerp.
 
 
 ## <a name="manage-topics-page"></a>Pagina Onderwerpen beheren
 
-Als u wilt werken in de sectie **Onderwerpen** beheren van het onderwerpcentrum, moet u de vereiste machtigingen onderwerp beheren hebben die nodig zijn voor de rol van kennisbeheerder. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen daarna worden toegevoegd door een beheerder via het Microsoft 365 beheercentrum.
+Als u wilt werken aan **de pagina** Onderwerpen beheren van het onderwerpcentrum, moet u de vereiste machtigingen voor onderwerpen beheren hebben die nodig zijn voor de rol van knowledge manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen achteraf worden toegevoegd door een beheerder via het Microsoft 365-beheercentrum.
 
-Op de pagina Onderwerpen beheren worden in het onderwerpdashboard alle onderwerpen weergegeven die u hebt, die zijn geïdentificeerd op basis van de opgegeven bronlocaties. In elk onderwerp wordt de datum van het onderwerp gevonden. Een gebruiker aan wie machtigingen voor onderwerpen beheren zijn toegewezen, kan de onbevestigde onderwerpen bekijken en ervoor kiezen om:
-- Bevestig het onderwerp: Geeft gebruikers aan dat een AI-voorgesteld onderwerp is gevalideerd door een menselijke curator. 
-- Publiceer het onderwerp: Bewerk de onderwerpgegevens om de kwaliteit van het onderwerp te verbeteren dat in eerste instantie is geïdentificeerd, en belicht het onderwerp voor alle gebruikers die toegang hebben tot onderwerpen. 
+Op de **pagina Onderwerpen beheren** worden in het onderwerpdashboard alle onderwerpen weergegeven die u hebt, die zijn geïdentificeerd op basis van de opgegeven bronlocaties. In elk onderwerp wordt de datum van het onderwerp gevonden. Een gebruiker aan wie machtigingen voor onderwerpen beheren zijn toegewezen, kan de onbevestigde onderwerpen bekijken en ervoor kiezen om:
+
+- Bevestig het onderwerp: Geeft gebruikers aan dat een AI-voorgesteld onderwerp is gevalideerd door een menselijke curator.
+
+- Publiceer het onderwerp: Bewerk de onderwerpgegevens om de kwaliteit van het onderwerp te verbeteren dat in eerste instantie is geïdentificeerd, en belicht het onderwerp voor alle gebruikers die toegang hebben tot onderwerpen.
+ 
 - Verwijder het onderwerp: Maakt het onderwerp onontdekt voor eindgebruikers. Het onderwerp wordt verplaatst naar het tabblad **Verwijderd** en kan zo nodig later worden bevestigd. 
 
-> [!Note] 
-> Zie [Onderwerpen beheren voor](manage-topics.md) meer informatie over onderwerpen beheren op de pagina Onderwerpen beheren.
+Zie Onderwerpen beheren voor meer informatie over het beheren van onderwerpen op de pagina **Onderwerpen [beheren.](manage-topics.md)
 
 ## <a name="create-or-edit-a-topic"></a>Een onderwerp maken of bewerken
 
 Als u de machtiging Onderwerpen maken en bewerken hebt, kunt u het volgende doen:
 
 - [Bestaande onderwerpen bewerken:](edit-a-topic.md)U kunt wijzigingen aanbrengen in bestaande onderwerppagina's die zijn gemaakt via detectie.
+
 - [Nieuwe onderwerpen maken:](create-a-topic.md)U kunt nieuwe onderwerpen maken voor onderwerpen die niet zijn gevonden via detectie of als er onvoldoende bewijs is gevonden voor het maken van een onderwerp door AI-hulpmiddelen.
 
 

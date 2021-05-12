@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: prkalid, guyb
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,16 +16,17 @@ ms.collection:
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
+- commerce_billing
 search.appverid:
 - MET150
 description: Lees hoe u kunt beheren wie e-mailberichten voor factureringsmelding en factuurbijlagen ontvangt.
-ms.openlocfilehash: 8997a4d3ca575c60214adbedccc018e6768850cd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: d4083dc5a9d70eb8c20b4107389ec5fec65749ad
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911852"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332136"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Factureringsmeldingen en bijlagen voor facturen beheren
 
@@ -41,7 +43,7 @@ U moet een globale beheerder zijn om de stappen uit te voeren die in dit artikel
 
 E-mailberichten met factureringsmeldingen worden verzonden in de voorkeurstaal van uw organisatie. Als u de voorkeurstaal wilt wijzigen, gebruikt u de volgende stappen.
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsmeldingen.</a>
+1. Ga in Microsoft 365 beheercentrum naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsmeldingen.</a>
 2. Selecteer in **de sectie Instellingen voor** factureringsmeldingen de optie **Meldingsinstellingen bewerken.**
 3. Selecteer in **het deelvenster Instellingen voor** factureringsmeldingen onder **Voorkeurstaal** de taal die u wilt gebruiken en selecteer **opslaan.**
 
@@ -56,7 +58,7 @@ De factureringsmeldingen van uw organisatie worden verzonden naar het primaire e
 3. Selecteer in het rechterdeelvenster op het tabblad Toegewezen **beheerders** de optie **Toevoegen.**
 4. Typ in **het deelvenster** Beheerders toevoegen de weergavenaam of gebruikersnaam van de gebruiker en selecteer de gebruiker in de lijst met suggesties.
 5. Voeg meerdere gebruikers toe totdat u klaar bent.
-6. Kies **Opslaan**. De gebruiker wordt toegevoegd aan de lijst met toegewezen beheerders.
+6. Selecteer **Opslaan**. De gebruiker wordt toegevoegd aan de lijst met toegewezen beheerders.
 
 ### <a name="remove-admin-roles-by-using-the-billing-notifications-page"></a>Beheerdersrollen verwijderen met behulp van de pagina Factureringsmeldingen
 
@@ -101,7 +103,7 @@ Als u de factuurbijlage op elk moment niet meer wilt ontvangen, volgt u de boven
 
 Als u een factureringsprofiel hebt, kunnen sommige stappen die in dit artikel worden beschreven, enigszins afwijken voor sommige van uw abonnementen. In deze sectie worden deze verschillen beschreven. [Hoe weet ik of ik een factureringsprofiel heb?](manage-billing-profiles.md)
 
-### <a name="who-receives-billing-notifications"></a>Wie ontvangt factureringsmeldingen?
+### <a name="who-receives-billing-notifications"></a>Wie ontvangt u factureringsmeldingen?
 
 E-mailberichten over factureringsmeldingen worden verzonden naar de primaire en alternatieve e-mailadressen voor gebruikers die een van de volgende rollen krijgen toegewezen:
 
@@ -125,8 +127,8 @@ Als u uw facturen wilt ontvangen als bijlagen bij uw factuurmeldingen, gebruikt 
 2. Selecteer het **tabblad Factureringsprofielen** en selecteer vervolgens een factureringsprofiel in de lijst.
 3. Schakel op de pagina met **factureringsprofielgegevens** onder Facturen in e-mailbijlagen downloaden de wisselknop over op **Aan.**
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
-[Uw factuur of factuur voor Microsoft 365 voor Bedrijven](understand-your-invoice2.md) begrijpen (artikel)\
+[Uw factuur of factuur voor Microsoft 365 voor bedrijven](understand-your-invoice2.md) (artikel)\
 [Gebruikers toevoegen en tegelijkertijd licenties](../../admin/add-users/add-users.md) toewijzen (artikel)

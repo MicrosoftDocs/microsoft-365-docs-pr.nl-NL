@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1f0005ed4614a8d01d2a64e8853be99a204825c8
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: 189cb574a436a457cce312f6cb02ca1bf7863a18
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52086811"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333492"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender voor Eindpunt voor overheidsklanten in de VS
 
@@ -30,24 +30,24 @@ ms.locfileid: "52086811"
 
 Microsoft Defender for Endpoint voor klanten van de Amerikaanse overheid, ingebouwd in de Azure US Government-omgeving, gebruikt dezelfde onderliggende technologieën als Defender voor Eindpunt in Azure Commercial.
 
-Dit aanbod is beschikbaar voor klanten GCC, GCC High en DoD en is gebaseerd op dezelfde preventie, detectie, onderzoek en herstel als de commerciële versie. Er zijn echter enkele verschillen in de beschikbaarheid van mogelijkheden voor deze aanbieding.
+Dit aanbod is beschikbaar voor klanten van GCC, GCC High en DoD en is gebaseerd op dezelfde preventie, detectie, onderzoek en herstel als de commerciële versie. Er zijn echter enkele verschillen in de beschikbaarheid van mogelijkheden voor deze aanbieding.
 
 > [!NOTE]
-> Als u een klant bent GCC Defender voor Eindpunt in Commercieel gebruikt, raadpleegt u de openbare documentatiepagina's.
+> Als u een GCC-klant bent die Defender voor Eindpunt gebruikt in Commercieel, raadpleegt u de openbare documentatiepagina's.
 
 ## <a name="licensing-requirements"></a>Licentievereisten
 Klanten van Microsoft Defender voor Endpoint voor de Amerikaanse overheid hebben een van de volgende aanbiedingen voor volumelicenties van Microsoft nodig:
 
 ### <a name="desktop-licensing"></a>Bureaubladlicenties
-GCC | GCC Hoog | DoD
+GCC | GCC High | DoD
 :---|:---|:---
 Windows 10 Enterprise E5 GCC | Windows 10 Enterprise E5 voor GCC High | Windows 10 Enterprise E5 voor DOD
 | | Microsoft 365 E5 voor GCC High | Microsoft 365 G5 voor DOD
-| | Microsoft 365 G5-beveiliging voor GCC Hoog | Microsoft 365 G5-beveiliging voor dod
+| | Microsoft 365 G5-beveiliging voor GCC High | Microsoft 365 G5-beveiliging voor dod
 Microsoft Defender voor Eindpunt - GCC | Microsoft Defender voor Eindpunt voor GCC High | Microsoft Defender voor Eindpunt voor DOD
 
 ### <a name="server-licensing"></a>Serverlicenties
-GCC | GCC Hoog | DoD
+GCC | GCC High | DoD
 :---|:---|:---
 Microsoft Defender voor Endpoint Server GCC | Microsoft Defender voor Endpoint Server voor GCC High | Microsoft Defender voor Endpoint Server voor DOD
 Azure Defender voor servers | Azure Defender voor servers - Overheid | Azure Defender voor servers - Overheid
@@ -60,7 +60,7 @@ De volgende zijn de URL's van de Microsoft Defender for Endpoint-portal voor kla
 Klanttype | Portal-URL
 :---|:---
 GCC | https://gcc.securitycenter.microsoft.us
-GCC Hoog | https://securitycenter.microsoft.us
+GCC High | https://securitycenter.microsoft.us
 DoD | https://securitycenter.microsoft.us
 
 <br />
@@ -70,7 +70,7 @@ DoD | https://securitycenter.microsoft.us
 ### <a name="standalone-os-versions"></a>Zelfstandige OS-versies
 De volgende besturingssysteemversies worden ondersteund:
 
-OS-versie | GCC | GCC Hoog | DoD
+OS-versie | GCC | GCC High | DoD
 :---|:---|:---|:---
 Windows 10, versie 20H2 (met [KB4586853](https://support.microsoft.com/help/4586853)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 10, versie 2004 (met [KB4586853](https://support.microsoft.com/help/4586853)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
@@ -78,7 +78,7 @@ Windows 10, versie 1909 (met [KB4586819](https://support.microsoft.com/help/4586
 Windows 10, versie 1903 (met [KB4586819](https://support.microsoft.com/help/4586819)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 10, versie 1809 (met [KB4586839](https://support.microsoft.com/help/4586839)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 10, versie 1803 (met [KB4598245](https://support.microsoft.com/help/4598245)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Windows 10, versie 1709 | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund | ![Ja ](images/svg/check-yes.svg) met [KB4499147](https://support.microsoft.com/help/4499147)<br />Opmerking: [Afgeschaft,](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)kunt u een upgrade uitvoeren | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund
+Windows 10, versie 1709 | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund | ![Ja ](images/svg/check-yes.svg) met [KB4499147](https://support.microsoft.com/help/4499147)<br />Opmerking: [Afgeschaft,](/lifecycle/announcements/revised-end-of-service-windows-10-1709)kunt u een upgrade uitvoeren | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund
 Windows 10, versie 1703 en eerder | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund | ![Nee](images/svg/check-no.svg)<br />Opmerking: Wordt niet ondersteund
 Windows Server 2019 (met [KB4586839](https://support.microsoft.com/help/4586839)) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows Server 2016 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
@@ -88,8 +88,8 @@ Windows 8.1 Enterprise | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/chec
 Windows 8 Pro | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 7 SP1 Enterprise | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows 7 SP1 Pro | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
-Linux | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie
-macOS | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie | ![Ja](images/svg/check-yes.svg) In voorbeeld<br />Zie onderstaande notitie
+Linux | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
+macOS | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Android | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
 iOS | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg/check-no.svg) On engineering backlog
 
@@ -97,13 +97,10 @@ iOS | ![Nee](images/svg/check-no.svg) On engineering backlog | ![Nee](images/svg
 > Wanneer een patch is opgegeven, moet deze worden geïmplementeerd vóór de onboarding van het apparaat om Defender voor Eindpunt te configureren naar de juiste omgeving.
 
 > [!NOTE]
-> Probeert u Windows apparaten die ouder zijn dan Windows 10 of Windows Server 2019 aan te Windows [Microsoft Monitoring Agent?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) U moet 'Azure US Government' kiezen onder 'Azure Cloud' als u [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) de installatiewizard gebruikt [of](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)als u een opdrachtregel of een [script](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) gebruikt, de parameter 'OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE' in te stellen op 1.
-
-> [!NOTE]
-> U hebt versie 101.25.72 en hoger nodig voor Linux en versie 101.25.69 en hoger voor macOS.
+> Probeert u Windows apparaten die ouder zijn dan Windows 10 of Windows Server 2019 aan te Windows [Microsoft Monitoring Agent?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) U moet 'Azure US Government' kiezen onder 'Azure Cloud' als u [](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) de installatiewizard gebruikt [of](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)als u een opdrachtregel of een [script](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) gebruikt, de parameter 'OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE' in te stellen op 1.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>OS-versies bij het gebruik van Azure Defender voor servers
-De volgende besturingssysteemversies worden ondersteund bij het gebruik van [Azure Defender voor servers:](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
+De volgende besturingssysteemversies worden ondersteund bij het gebruik van [Azure Defender voor servers:](/azure/security-center/security-center-wdatp)
 
 OS-versie | GCC | GCC Hoog | DoD
 :---|:---|:---|:---
@@ -160,11 +157,11 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 ## <a name="feature-parity-with-commercial"></a>Functiepariteit met commercieel
 Defender for Endpoint voor klanten van de Amerikaanse overheid heeft geen volledige pariteit met het commerciële aanbod. Hoewel ons doel is om alle commerciële functies en functionaliteit te leveren aan onze klanten van de Amerikaanse overheid, zijn er nog enkele mogelijkheden die we willen markeren.
 
-Dit zijn de bekende hiaten vanaf april 2021:
+Dit zijn de bekende hiaten:
 
-Functienaam | GCC | GCC Hoog | DoD
+Functienaam | GCC | GCC High | DoD
 :---|:---|:---|:---
-Beheer en API's: Streaming API | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Beheer en API's: Streaming API | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Filteren van webinhoud | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Integraties: Azure Sentinel | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) Waarschuwingen <br /> ![Nee](images/svg/check-no.svg) Incidenten & Onbewerkte gegevens: In ontwikkeling | ![Ja](images/svg/check-yes.svg) Waarschuwingen <br /> ![Nee](images/svg/check-no.svg) Incidenten & Onbewerkte gegevens: In ontwikkeling
 Integraties: Microsoft Cloud App Security | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling

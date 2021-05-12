@@ -13,12 +13,12 @@ ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: De volgende tabel bevat een lijst met functies die beschikbaar zijn in de EOP-gehoste e-mailfilterservice (Exchange Online Protection).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ff3c889f3e4d6779b08584ba6537da36d6f2660e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b30608b858f06951a8f4c250f288a8d44bd84b08
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204257"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333828"
 ---
 # <a name="eop-features"></a>EOP-functies
 
@@ -43,7 +43,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de EOP-ge
 |Bulksgewijs filteren van e-mail|EOP gebruikt de bulkklachtsdrempel (BCL) om bulk-e-mailberichten als spam te markeren. Zie de volgende onderwerpen voor meer informatie: <p> [Wat is het verschil tussen ongewenste e-mail en bulkmail?](what-s-the-difference-between-junk-email-and-bulk-email.md) <p> [Bulkklachtsniveau (BCL) in EOP](bulk-complaint-level-values.md) <p> [Beleid tegen ongewenste e-mail configureren](configure-your-spam-filter-policies.md)|
 |Lijsten met schadelijke URL-blokkeringen|EOP gebruikt verschillende URL-blokkeringslijsten om bekende schadelijke koppelingen in berichten te detecteren.|
 |Bescherming tegen phishing|EOP bevat 750.000 domeinen van bekende spammers.|
-|Beveiliging tegen adresvervalsing (spoofing)|Zie Bescherming tegen [spoofing voor meer informatie.](anti-spoofing-protection.md)|
+|Beveiliging tegen adresvervalsing|Zie Bescherming tegen [spoofing voor meer informatie.](anti-spoofing-protection.md)|
 |**Spambeheer**||
 |Veilige afzenders en geblokkeerde afzenders configureren|Zie Lijsten met veilige [afzenders](create-safe-sender-lists-in-office-365.md) maken en Lijsten met geblokkeerde afzenders maken voor [meer informatie.](create-block-sender-lists-in-office-365.md)|
 |Aangepaste antispambeleidsregels maken|Voor meer granulariteit kunt u aangepaste antispambeleidsregels maken en deze toepassen op opgegeven gebruikers, groepen of domeinen in uw organisatie. Aangepaste beleidsregels hebben altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (dat wil zeggen de lopende volgorde) van uw aangepaste beleid wijzigen. Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) voor meer informatie.|
@@ -98,6 +98,6 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in de EOP-ge
 |Technische ondersteuning voor telefoon en web 24 uur per dag, zeven dagen per week|Zie Help en [ondersteuning voor EOP](help-and-support-for-eop.md)voor meer informatie over EOP-help- en ondersteuningsopties.|
 |**Andere functies**||
 |Een geo-redundant globaal netwerk van servers|EOP wordt uitgevoerd op een wereldwijd netwerk van datacenters die zijn ontworpen om de beste beschikbaarheid te bieden. Zie de sectie 'EOP-datacenters' in het overzicht van Exchange Online Protection voor [meer informatie.](exchange-online-protection-overview.md)|
-|Bericht in de wachtrij wanneer de on-premises server geen e-mail kan accepteren|Berichten in uitstel blijven één dag in onze wachtrijen staan. Pogingen voor het opnieuw proberen van berichten zijn gebaseerd op de fout die we krijgen van het e-mailsysteem van de geadresseerde. Gemiddeld worden berichten elke 5 minuten opnieuw verzonden. Zie veelgestelde vragen [over EOP-berichten in de wachtrij, uitgestelde en niet-verzonden berichten voor meer informatie.](eop-queued-deferred-and-bounced-messages-faq.md)|
+|Bericht in de wachtrij wanneer de on-premises server geen e-mail kan accepteren|Berichten in uitstel blijven één dag in onze wachtrijen staan. Pogingen voor het opnieuw proberen van berichten zijn gebaseerd op de fout die we krijgen van het e-mailsysteem van de geadresseerde. Gemiddeld worden berichten elke 5 minuten opnieuw verzonden. Zie veelgestelde vragen [over EOP-berichten in de wachtrij, uitgestelde en niet-verzonden berichten voor meer informatie.](eop-queued-deferred-and-bounced-messages-faq.yml)|
 |Office 365-berichtversleuteling beschikbaar als een invoegservice|Zie Versleuteling [in Office 365](../../compliance/encryption.md)voor meer informatie.|
 |

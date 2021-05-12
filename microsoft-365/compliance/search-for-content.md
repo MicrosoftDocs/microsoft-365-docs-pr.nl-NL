@@ -13,22 +13,24 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: Gebruik het hulpprogramma Inhoud zoeken eDiscovery in het beveiligings- & compliancecentrum om snel e-mail te vinden in Exchange-postvakken, documenten op SharePoint-sites en OneDrive-locaties en chatgesprekken in Skype voor Bedrijven.
-ms.openlocfilehash: a6aa416768e7910e546b39d5866f884d2d532732
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 80234a512d13deda29a61073bec62990d135f30e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162166"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333684"
 ---
 # <a name="search-for-content-using-the-content-search-tool"></a>Zoeken naar inhoud met behulp van het hulpprogramma Inhoud zoeken
 
-Gebruik het hulpprogramma Inhoud zoeken in het beveiligings- & compliancecentrum om snel e-mail te vinden in Exchange-postvakken, documenten op SharePoint-sites en OneDrive-locaties en chatgesprekken in Skype voor Bedrijven. U kunt het zoekprogramma voor inhoud gebruiken om te zoeken naar e-mail, documenten en chatgesprekken in samenwerkingshulpmiddelen zoals Microsoft Teams en Microsoft 365 Groepen.
+Gebruik het hulpprogramma Inhoud zoeken in het Beveiligings- & Compliancecentrum om snel e-mail te vinden in Exchange-postvakken, documenten op SharePoint-sites en OneDrive-locaties en chatgesprekken in Skype voor Bedrijven. U kunt het zoekprogramma voor inhoud gebruiken om te zoeken naar e-mail, documenten en chatgesprekken in samenwerkingshulpmiddelen zoals Microsoft Teams en Microsoft 365 Groepen.
   
 ## <a name="search-for-content"></a>Zoeken naar inhoud
 
 De eerste stap is het gebruik van het hulpprogramma Inhoud zoeken om inhoudslocaties te kiezen om een trefwoordquery te zoeken en te configureren om te zoeken naar specifieke items. U kunt de query ook leeg laten en alle items op de doellocaties retourneren.
   
-- [Een inhoudszoekactie](content-search.md) maken en uitvoeren 
+- [Een inhoudszoekactie](content-search.md) maken en uitvoeren
+
+- [Functieverwijzing] voor zoeken naar inhoud (content-search-reference.md)
 
 - [Zoekquery's maken en voorwaarden gebruiken om](keyword-queries-and-search-conditions.md) uw zoekopdracht te beperken 
 
@@ -36,7 +38,7 @@ De eerste stap is het gebruik van het hulpprogramma Inhoud zoeken om inhoudsloca
 
 - [Een id-lijst zoeken uitvoeren om](csv-file-for-an-id-list-content-search.md) te zoeken naar specifieke e-mailberichten 
 
-- [Zoeken in postvakken in de cloud voor](search-cloud-based-mailboxes-for-on-premises-users.md) on-premises gebruikers in Microsoft 365
+- [Zoeken in postvakken in de cloud voor ](search-cloud-based-mailboxes-for-on-premises-users.md) on-premises gebruikers in Microsoft 365
 
 - [Trefwoordstatistieken](view-keyword-statistics-for-content-search.md) weergeven voor de resultaten van een zoekopdracht en de query zo nodig verfijnen
 
@@ -78,7 +80,7 @@ Soms moet u geavanceerdere, complexere en terugkerende zoektaken voor inhoud uit
   
 - [Specifieke postvak- en sitemappen](use-content-search-for-targeted-collections.md) doorzoeken (een *targeted-verzameling genoemd) wanneer u zeker weet dat items die reageren op een zaak zich in die map bevinden
 
-- [Zoeken in het postvak OneDrive een](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) lijst met gebruikers 
+- [Zoeken in het postvak en de OneDrive-locatie](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) voor een lijst met gebruikers 
 
 - [Meerdere zoekopdrachten maken,](create-report-on-and-delete-multiple-content-searches.md) rapporteren en verwijderen om snel en efficiënt zoekgegevens te identificeren en te verwijderen 
 

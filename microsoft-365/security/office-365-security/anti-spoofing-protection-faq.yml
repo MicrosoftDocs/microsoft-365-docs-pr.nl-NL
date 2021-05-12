@@ -1,0 +1,99 @@
+### YamlMime:FAQ
+metadata:
+  title: Veelgestelde vragen over beveiliging tegen adresvervalsing
+  f1.keywords:
+  - NOCSH
+  ms.author: chrisda
+  author: chrisda
+  manager: dansimp
+  ms.date: 
+  audience: ITPro
+  ms.topic: troubleshooting
+  localization_priority: Normal
+  search.appverid:
+  - MET150
+  ms.assetid: 
+  ms.collection:
+  - M365-security-compliance
+  - m365initiative-defender-office365
+  description: Beheerders kunnen veelgestelde vragen en antwoorden over bescherming tegen spoofing bekijken in Exchange Online Protection (EOP).
+  ms.technology: mdo
+  ms.prod: m365-security
+  ms.openlocfilehash: cab4af2dd359b878cdf417a2378c05d2aa706107
+  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 05/12/2021
+  ms.locfileid: "52333959"
+title: Veelgestelde vragen over beveiliging tegen adresvervalsing
+summary: >
+  [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+  **Van toepassing op**
+
+  - [Exchange Online Protection](exchange-online-protection-overview.md)
+
+  - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
+
+  - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+
+
+  Dit artikel bevat veelgestelde vragen en antwoorden over bescherming tegen spoofing voor Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken.
+
+
+  Zie Veelgestelde vragen over antispambeveiliging voor vragen en antwoorden over bescherming tegen [spam.](anti-spam-protection-faq.yml)
+
+
+  Zie Veelgestelde vragen over anti-malwarebeveiliging voor vragen en antwoorden over [anti-malwarebeveiliging](anti-malware-protection-faq-eop.yml)
+sections:
+- name: Genegeerd
+  questions:
+  - question: >
+      Waarom heeft Microsoft ervoor gekozen om ongewenste binnenkomende e-mail te gebruiken?
+    answer: >
+      Microsoft is van mening dat het risico van het blijven toestaan van niet-verwerkte binnenkomende e-mail groter is dan het risico dat legitieme binnenkomende e-mail verloren gaat.
+  - question: >
+      Zorgt ongewenste e-mail die niet is verzonden voor inkomende e-mail, ervoor dat legitieme e-mail wordt gemarkeerd als spam?
+    answer: >
+      Toen Microsoft deze functie in 2018 inschakelen, zijn er enkele fout-positieven gebeurd (goede berichten zijn gemarkeerd als slecht). Na een tijd zijn afzenders echter aangepast aan de vereisten. Het aantal berichten dat onjuist is geïdentificeerd als vervalst, is voor de meeste e-mailpaden verwaarloosbaar geworden.
+
+
+      Microsoft zelf heeft de nieuwe vereisten voor e-mailverificatie enkele weken voor de implementatie ervan voor klanten goedgekeurd. Hoewel er aanvankelijk sprake was van verstoring, nam deze geleidelijk af.
+  - question: >
+      Is spoof intelligence beschikbaar voor Microsoft 365-klanten zonder Defender voor Office 365?
+    answer: >
+      Ja. Vanaf oktober 2018 is spoof intelligence beschikbaar voor alle organisaties met postvakken in Exchange Online en zelfstandige EOP-organisaties zonder Exchange Online-postvakken.
+  - question: >
+      Hoe kan ik spam- of niet-spamberichten terugmelden bij Microsoft?
+    answer: >
+      Zie [ Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
+  - question: >
+      Ik ben een beheerder en ik ken niet alle bronnen voor berichten in mijn e-maildomein.
+    answer: >
+      Zie [U weet niet alle bronnen voor uw e-mail.](email-validation-and-authentication.md#you-dont-know-all-sources-for-your-email)
+  - question: >
+      Wat gebeurt er als ik bescherming tegen spoofing voor mijn organisatie uitdoof?
+    answer: >
+      We raden u af om bescherming tegen spoofing uit te uitschakelen. Door de beveiliging uit te stellen, kunnen er meer phishing- en spamberichten worden bezorgd in uw organisatie. Niet alle phishing is spoofing en niet alle vervalste berichten worden gemist. Het risico is echter hoger.
+
+
+      Nu verbeterde [filtering voor connectors](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) beschikbaar is, wordt het niet meer aangeraden bescherming tegen spoofing uit te schakelen wanneer uw e-mail wordt gerouteerd via een andere service vóór EOP.
+  - question: >
+      Betekent anti-spoofingbeveiliging dat ik tegen alle phishing ben beveiligd?
+    answer: >
+      Helaas niet. Aanvallers passen zich aan om andere technieken te gebruiken (bijvoorbeeld gecompromitteerde accounts of accounts in gratis e-mailservices). Anti-phishingbeveiliging werkt echter veel beter om deze andere typen phishingmethoden te detecteren. De beveiligingslagen in EOP zijn ontworpen om samen te werken en op elkaar te bouwen.
+  - question: >
+      Blokkeren andere grote e-mailservices niet-verzonden binnenkomende e-mail?
+    answer: >
+      Bijna alle grote e-mailservices implementeren traditionele SPF-, DKIM- en DMARC-controles. Sommige services hebben andere, strengere controles, maar slechts weinigen gaan zo ver als EOP om niet-genauteerde e-mail te blokkeren en deze te behandelen als vervalste berichten. De industrie wordt echter steeds meer op de hoogte van problemen met niet-genauteerde e-mail, met name vanwege het probleem van phishing.
+  - question: >
+      Moet ik nog steeds de instelling Geavanceerd spamfilter 'SPF-record: hard fail' ('MarkAsSpamSpfRecordHardFail' inschakelen als ik anti-spoofing inschakelen?
+    answer: >
+      Nee. Deze ASF-instelling is niet meer vereist. Anti-spoofingbeveiliging is van mening dat zowel SPF hard mislukt als een veel bredere set criteria. Als u anti-adresvervalsing hebt ingeschakeld en het **SPF-record: hard fail** (_MarkAsSpamSpfRecordHardFail_) is ingeschakeld, krijgt u waarschijnlijk meer fout-positieven.
+
+
+      U wordt aangeraden deze functie uit te schakelen, omdat deze vrijwel geen extra voordeel biedt voor het opsporen van spam of phishing en in plaats daarvan voornamelijk onwaar positieven genereert. Zie [AsF-instellingen (Advanced Spam Filter) in EOP voor meer informatie.](advanced-spam-filtering-asf-options.md)
+  - question: >
+      Helpt Sender Rewriting Scheme bij het oplossen van doorgestuurde e-mail?
+    answer: SRS lost het probleem van doorgestuurde e-mail slechts gedeeltelijk op. Door SMTP **MAIL FROM** te herschrijven, kan SRS ervoor zorgen dat het doorgestuurde bericht SPF passeert op de volgende bestemming. Omdat anti-spoofing echter is  gebaseerd op het Van-adres in combinatie met het **DOMEIN MAIL FROM** of DKIM-ondertekening (of andere signalen), is het niet voldoende om te voorkomen dat door SRS doorgestuurde e-mail wordt gemarkeerd als vervalst.

@@ -303,19 +303,19 @@
     - name: Veelgestelde vragen
       items:
         - name: Veelgestelde vragen over gedelegeerd beheer
-          href: delegated-administration-faq.md
+          href: delegated-administration-faq.yml
         - name: Algemene veelgestelde vragen over EOP
-          href: eop-general-faq.md
+          href: eop-general-faq.yml
         - name: 'Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP'
-          href: eop-queued-deferred-and-bounced-messages-faq.md
+          href: eop-queued-deferred-and-bounced-messages-faq.yml
         - name: Veelgestelde vragen over beveiliging tegen malware
-          href: anti-malware-protection-faq-eop.md
+          href: anti-malware-protection-faq-eop.yml
         - name: Veelgestelde vragen over beveiliging tegen ongewenste e-mail
-          href: anti-spam-protection-faq.md
+          href: anti-spam-protection-faq.yml
         - name: Veelgestelde vragen over beveiliging tegen adresvervalsing
-          href: anti-spoofing-protection-faq.md
+          href: anti-spoofing-protection-faq.yml
         - name: Veelgestelde vragen over quarantaine
-          href: quarantine-faq.md
+          href: quarantine-faq.yml
     - name: Verwijzing
       items:
         - name: Roadmap voor beveiliging

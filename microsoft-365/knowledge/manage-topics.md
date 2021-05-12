@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 59581dce3701e622a1e2d7ed264370c9d92b3211
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 2c29cdb6823e695cb9c96a4f51ef7b1c41642ac9
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327271"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333624"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Onderwerpen beheren in het onderwerpcentrum in Microsoft Viva-onderwerpen
 
@@ -45,10 +45,6 @@ Kennismanagers helpen bij het begeleiden van gevonden onderwerpen door de versch
 - **Gepubliceerd:** Een bevestigd onderwerp dat is samengesteld: er zijn handmatige wijzigingen aangebracht om de kwaliteit te verbeteren.
 
 - **Verwijderd:** een onderwerp wordt geweigerd door een knowledge manager en is niet meer zichtbaar voor kijkers. Een onderwerp kan in elke staat worden verwijderd (voorgesteld, bevestigd of gepubliceerd). Als u een onderwerp wilt verwijderen, moet er een netto van twee negatieve stemmen zijn ontvangen van gebruikers die hebben gestemd met behulp van de feedbackmechanismen op de onderwerpkaart. Als bijvoorbeeld één gebruiker negatief heeft gestemd en één gebruiker positief heeft gestemd voor een bepaald onderwerp, moet u nog twee negatieve stemmen voor het onderwerp verwijderen. Wanneer een gepubliceerd onderwerp wordt verwijderd, moet de pagina met de samengestelde details handmatig worden verwijderd via de paginabibliotheek van het onderwerpcentrum.
-
-Op de **pagina Onderwerpen beheren** kan een kennisbeheerder zien of een onderwerp is bevestigd of verwijderd door gebruikersstemmen of door een bepaalde persoon. Voor onderwerpen die bijvoorbeeld zijn verwijderd door gebruikersstemmen, wordt de reden weergegeven in de kolom Verwijderd door als **Gebruikersstemmen** in plaats van de naam van een persoon.  
-
-   ![Schermafbeelding van de pagina Onderwerpen beheren met de lijst met verwijderde onderwerpen met gebruikersstemmen gemarkeerd.](../media/knowledge-management/removed-topics-user-votes.png) 
 
 > [!Note] 
 > Op de **pagina Onderwerpen beheren** kan elke knowledge manager alleen onderwerpen zien waar ze toegang hebben tot de onderliggende bestanden en pagina's die aan het onderwerp zijn gekoppeld. Deze machtigings trimming wordt weergegeven in de lijst met onderwerpen die worden  weergegeven op de tabbladen **Voorgesteld,** **Bevestigd,** Gepubliceerd **en** Verwijderd. Het aantal onderwerpen geeft echter de totale tellingen in de organisatie weer, ongeacht de machtigingen.
