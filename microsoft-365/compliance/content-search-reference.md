@@ -1,5 +1,5 @@
 ---
-title: Verwijzing voor inhoud zoeken
+title: Naslag functie voor Inhoud zoeken
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -20,16 +20,18 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Dit artikel bevat naslaginformatie over het eDiscovery-hulpmiddel voor Inhoud zoeken in het Microsoft 365-compliancecentrum, om u te helpen de vele details over Inhoud zoeken te leren.
-ms.openlocfilehash: c345cf00bddba30cb543ad9682a2a332607d31fe
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: f3545cc4644ca8b0a96ee37713d8fe62be7466e5
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52314281"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332892"
 ---
-# <a name="content-search-reference"></a>Verwijzing voor inhoud zoeken
+# <a name="feature-reference-for-content-search"></a>Naslag functie voor Inhoud zoeken
 
-## <a name="content-search-limits"></a>Limieten voor inhoud zoeken
+Dit artikel omschrijft functies en functionaliteit van Inhoud zoeken.
+
+## <a name="content-search-limits"></a>Limieten voor Inhoud zoeken
 
 - Zie [Limieten voor Inhoud zoeken](limits-for-content-search.md) voor een beschrijving van de limieten die gelden voor Inhoud zoeken.
   
@@ -71,6 +73,10 @@ Houd rekening met het volgende wanneer u de lijst met trefwoorden gebruikt om ee
     
 - Als u een zoekquery hebt met trefwoorden voor niet-Nederlandstalige tekens (bijvoorbeeld Chinese tekens ), kunt u op **Taal-land/regio voor query**![pictogram Taal-land/regio voor query in Inhoud zoeken](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) klikken en een cultuurcodewaarde voor taal/regio voor de zoekopdracht selecteren. De standaardtaal/-regio is neutraal. Hoe weet ik of ik de taalinstelling voor een inhoudzoekactie moet wijzigen? Als u er zeker van bent dat bepaalde inhoudslocaties de niet-Nederlandstalige tekens bevatten die u zoekt, maar de zoekopdracht geen resultaten oplevert, kan de taalinstelling de oorzaak zijn. 
   
+## <a name="partially-indexed-items"></a>Gedeeltelijk geïndexeerde items
+
+- Gedeeltelijk geïndexeerde items worden in postvakken opgenomen in de geschatte zoekresultaten. Gedeeltelijk geïndexeerde items uit SharePoint en OneDrive worden niet in de geschatte zoekresultaten opgenomen. Zie [Gedeeltelijk geïndexeerde items in eDiscovery](partially-indexed-items-in-content-search.md) voor meer informatie.
+
 ## <a name="searching-onedrive-accounts"></a>Zoeken in OneDrive-accounts
 
 - Zie [Een lijst maken van alle OneDrive-locaties in uw organisatie](/onedrive/list-onedrive-urls) voor het verzamelen van een lijst met de URL's voor de OneDrive-sites in uw organisatie. Met dit script in dit artikel maakt u een tekstbestand met een lijst met alle OneDrive-sites. Als u dit script wilt uitvoeren, moet u SharePoint Online Management Shell installeren en gebruiken. Koppel de URL voor het MySite-domein van uw organisatie aan elke OneDrive-site die u wilt doorzoeken. Dit is het domein dat de inhoud van uw OneDrive bevat; bijvoorbeeld `https://contoso-my.sharepoint.com`. Hier is een voorbeeld van een URL voor de OneDrive-site van een gebruiker: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
@@ -228,12 +234,6 @@ Als de Exchange Online-licentie (of de volledige Microsoft 365-licentie) wordt v
 - Als u de cmdlet **New-ComplianceSearch** gebruikt om een inhoudzoekactie te maken en een losgekoppeld postvak op te geven als de te doorzoeken Exchange-inhoudslocatie, retourneert de inhoudzoekopdracht geen zoekresultaten voor het losgekoppelde postvak.
 
 Als u de gegevens in een losgekoppeld postvak wilt bewaren zodat deze doorzoekbaar is, moet u een bewaring voor het postvak instellen voordat u de licentie verwijdert. Hierdoor blijven de gegevens behouden en blijft het losgekoppelde postvak doorzoekbaar totdat de bewaring wordt verwijderd. Zie [Het type bewaring vaststellen dat op een Exchange Online-postvak is ingesteld](identify-a-hold-on-an-exchange-online-mailbox.md) voor meer informatie over bewaringen.
-
-## <a name="partially-indexed-items"></a>Gedeeltelijk geïndexeerde items
-
-- Zoals eerder uitgelegd, worden gedeeltelijk geïndexeerde items in postvakken opgenomen in de geschatte zoekresultaten. Gedeeltelijk geïndexeerde items uit SharePoint en OneDrive worden niet in de geschatte zoekresultaten opgenomen.
-
-- Als een gedeeltelijk geïndexeerd item overeenkomt met de zoekquery (omdat andere bericht- of documenteigenschappen aan de zoekcriteria voldoen), wordt het niet opgenomen in het geschatte aantal niet-geïndexeerde items. Als een gedeeltelijk geïndexeerd item door de zoekcriteria wordt uitgesloten, wordt het niet opgenomen in het geschatte aantal niet-geïndexeerde items. Zie [Gedeeltelijk geïndexeerde items in Inhoud zoeken in Office 365](partially-indexed-items-in-content-search.md) voor meer informatie.
 
 ## <a name="searching-for-content-in-a-sharepoint-multi-geo-environment"></a>Zoeken naar inhoud in een SharePoint Multi-Geo-omgeving
 
