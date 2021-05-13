@@ -17,19 +17,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8e861055067a55630da458e87b7376a607dc69c4
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bd506caa041af2585778fb3ecd7a40562463b17e
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934295"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346412"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **Van toepassing op:**
+
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -38,7 +38,7 @@ ms.locfileid: "51934295"
 In dit artikel vindt u informatie over het definiëren van uitsluitingen die van toepassing zijn op scans op aanvraag, en realtime beveiliging en monitoring.
 
 > [!IMPORTANT]
-> De uitsluitingen die in dit artikel worden beschreven, zijn niet van toepassing op andere Mogelijkheden van Defender voor Endpoint voor Linux, zoals eindpuntdetectie en -antwoord (EDR). Bestanden die u uitsluit met de methoden die in dit artikel worden beschreven, kunnen nog steeds EDR-waarschuwingen en andere detecties activeren.
+> De uitsluitingen die in dit artikel worden beschreven, zijn niet van toepassing op andere Defender voor Eindpunt op Linux-mogelijkheden, waaronder eindpuntdetectie en -respons (EDR). Bestanden die u uitsluit met de methoden die in dit artikel worden beschreven, kunnen nog steeds EDR waarschuwingen en andere detecties activeren.
 
 U kunt bepaalde bestanden, mappen, processen en proces geopende bestanden uitsluiten van Defender voor Eindpunt op Linux-scans.
 
@@ -63,7 +63,7 @@ Proces | Een specifiek proces (opgegeven door het volledige pad of de bestandsna
 
 Bestands-, map- en procesuitsluitingen ondersteunen de volgende jokertekens:
 
-Jokerteken | Beschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
+Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 ---|---|---|---|---
 \* |    Komt overeen met een aantal tekens, inclusief geen tekens (houd er rekening mee dat wanneer dit jokerteken binnen een pad wordt gebruikt, dit slechts één map vervangt) | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
 ? | Komt overeen met een enkel teken | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`

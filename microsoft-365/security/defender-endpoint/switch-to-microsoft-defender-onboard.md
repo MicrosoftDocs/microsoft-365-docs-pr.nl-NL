@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 6b3b9fda0060108bd6a3c48188ff6e89261be096
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 66d24f5a479a903c8d42d509f1bbe956293c9ac3
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327244"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346338"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Overschakelen naar Microsoft Defender voor Eindpunt - Fase 3: Onboard
 
@@ -42,15 +42,21 @@ ms.locfileid: "52327244"
 **Welkom bij fase 3 van het [overstappen naar Microsoft Defender voor Eindpunt.](switch-to-microsoft-defender-migration.md#the-migration-process)** Deze migratiefase bevat de volgende stappen:
 
 1. [Onboard devices to Microsoft Defender for Endpoint](#onboard-devices-to-microsoft-defender-for-endpoint).
+
 2. [Voer een detectietest uit.](#run-a-detection-test)
+
 3. [Verwijder uw niet-Microsoft-oplossing.](#uninstall-your-non-microsoft-solution)
+
 4. [Zorg ervoor dat Microsoft Defender voor Eindpunt in de actieve modus staat.](#make-sure-microsoft-defender-for-endpoint-is-in-active-mode)
 
 ## <a name="onboard-devices-to-microsoft-defender-for-endpoint"></a>Onboarden apparaten naar Microsoft Defender voor Eindpunt
 
 1. Ga naar het Microsoft Defender-beveiligingscentrum ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ) en meld u aan.
+
 2. Kies **Instellingen**  >  **Onboarding voor**  >  **apparaatbeheer.** 
+
 3. Selecteer een besturingssysteem in de lijst Besturingssysteem selecteren om **het onboardingproces** te starten. 
+
 4. Selecteer **onder Implementatiemethode** een optie. Volg de koppelingen en aanwijzingen om de apparaten van uw organisatie aan te nemen. Hulp nodig? Zie [Onboarding-methoden](#onboarding-methods) (in dit artikel).
 
 ### <a name="onboarding-methods"></a>Onboarding-methoden
@@ -91,11 +97,12 @@ Ga hiervoor naar de site met demoscenario's voor Microsoft Defender for Endpoint
 - Netwerkbeveiliging (NP)
 
 > [!IMPORTANT]
-> Als u Windows Server 2016 gebruikt, moet u mogelijk Microsoft Defender Antivirus handmatig starten. U kunt dit doen met de PowerShell-cmdlet `mpcmdrun.exe -wdenable` op het apparaat.
+> Als u een Windows Server 2016 gebruikt, moet u de Microsoft Defender Antivirus starten. U kunt dit doen met de PowerShell-cmdlet `mpcmdrun.exe -wdenable` op het apparaat.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 **Gefeliciteerd!** U hebt de migratie [naar Microsoft Defender voor Eindpunt voltooid!](switch-to-microsoft-defender-migration.md#the-migration-process) 
 
-- [Ga naar het dashboard voor beveiligingsbewerkingen](security-operations-dashboard.md) in het Microsoft Defender-beveiligingscentrum ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
+- [Ga naar het dashboard voor beveiligingsbewerkingen](security-operations-dashboard.md) in Microsoft Defender-beveiligingscentrum ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
+
 - [Beheer Microsoft Defender voor Eindpunt, na de migratie.](manage-atp-post-migration.md)

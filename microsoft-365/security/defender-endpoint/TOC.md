@@ -211,7 +211,7 @@
 #### [Overzicht](next-gen-threat-and-vuln-mgt.md)
 #### [Aan de slag]()
 ##### [Machtigingen en vereisten](tvm-prerequisites.md)
-##### [Ondersteunde besturingssystemen en -platforms](tvm-supported-os.md)
+##### [Ondersteunde platforms en mogelijkheden van besturingssystemen](tvm-supported-os.md)
 ##### [Apparaatwaarde toewijzen](tvm-assign-device-value.md)
 #### [Uw beveiligingspositie vaststellen]()
 ##### [Dashboardinzichten](tvm-dashboard-insights.md)
@@ -445,7 +445,7 @@
 
 
 
-## Referentiematerialen
+## Verwijzing
 ### [Integratie met andere Microsoft-oplossingen configureren]()
 #### [Voorwaardelijke toegang configureren](configure-conditional-access.md)
 #### [Integratie van Microsoft Cloud App Security configureren](microsoft-cloud-app-security-config.md)

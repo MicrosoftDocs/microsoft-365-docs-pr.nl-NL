@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Meer informatie over het maken en uitvoeren van een query in een revisieset om gegevens te ordenen voor een efficiëntere controle in een Advanced eDiscovery geval.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ead897d412af2356d8b57ab8494539a5ed9a019
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: 5a03b0c863f9cc2050b18ce83ed11b8a71d1db4d
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "52161547"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345798"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Een query uitvoeren op de gegevens in een controleset
 

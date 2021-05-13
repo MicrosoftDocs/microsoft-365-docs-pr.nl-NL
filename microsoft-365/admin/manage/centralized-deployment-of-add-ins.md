@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie kunt gebruiken om Office te implementeren.
-ms.openlocfilehash: 8f73deb1059097640946fcf7dad1ca97cb2831b1
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 482f2231c0c2c9fa30e863f25f474d90a22f52fa
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296717"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464403"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt voor uw organisatie
 
@@ -155,5 +155,16 @@ Als u of uw gebruikers problemen ondervinden bij het laden van de invoegservice 
   
 |**Platform**|**Foutopsporingsgegevens**|
 |:-----|:-----|
-|Office  <br/> | Charles/Fiddler-logboeken  <br/>  Tenant-ID ( [meer informatie over hoe](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id))  <br/>  CorrelationID. Bekijk de bron van een van de office-pagina's en zoek naar de waarde Correlatie-id en stuur deze naar ondersteuning:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|Office  <br/> | Charles/Fiddler-logboeken  <br/>  Tenant-ID ( [meer informatie over hoe](/onedrive/find-your-office-365-tenant-id.md))  <br/>  CorrelationID. Bekijk de bron van een van de office-pagina's en zoek naar de waarde Correlatie-id en stuur deze naar ondersteuning:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Uitgebreide clients (Windows, Mac)  <br/> | Charles/Fiddler-logboeken  <br/>  Build numbers of the client app (preferably as a screenshot from **File/Account**)  <br/> |
+
+## <a name="related-content"></a>Verwante inhoud
+
+[Invoegvoegingen implementeren in het beheercentrum](../manage/manage-deployment-of-add-ins.md) (artikel)
+
+[Invoegvoegingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md) (artikel)
+
+[Veelgestelde vragen over gecentraliseerde](../manage/centralized-deployment-faq.md) implementatie (artikel)
+
+[Uw Microsoft 365 voor zakelijke gebruikers upgraden naar de](../setup/upgrade-users-to-latest-office-client.md) nieuwste Office client (artikel)
+ 

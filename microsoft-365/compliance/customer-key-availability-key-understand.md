@@ -3,7 +3,6 @@ title: Meer informatie over de beschikbaarheidssleutel voor de klantsleutel
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 02/05/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Meer informatie over de beschikbaarheidscode die wordt gebruikt om verloren klantsleutels te herstellen.
-ms.openlocfilehash: bbad6ace0880c142a497bcac3469c579f13c7881
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4f4dfdff0aa1c7ebe6dd1266c82c6fd290913a3e
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161878"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345092"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>Meer informatie over de beschikbaarheidssleutel voor de klantsleutel
 

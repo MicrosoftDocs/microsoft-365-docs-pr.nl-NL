@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 42b15edd933d80dd397f4681c4f0fdb035f030f2
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: 29505a6e975fdfa2283efe3391c615e40e678164
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943003"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346376"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Voorkeuren instellen voor Microsoft Defender voor Eindpunt op Linux
 
@@ -105,6 +105,7 @@ Hiermee geeft u het samenvoegbeleid voor uitsluitingen op. Het kan een combinati
 #### <a name="scan-exclusions"></a>Uitsluitingen scannen
 
 Entiteiten die zijn uitgesloten van de scan. Uitsluitingen kunnen worden opgegeven door volledige paden, extensies of bestandsnamen.
+(Uitsluitingen worden opgegeven als een matrix met items, beheerder kan zo veel elementen opgeven als nodig is, in elke volgorde.)
 
 |||
 |:---|:---|
@@ -305,7 +306,7 @@ Diagnostische gegevens worden gebruikt om Defender voor Eindpunt veilig en up-to
 Hiermee wordt bepaald of verdachte steekproeven (die waarschijnlijk bedreigingen bevatten) naar Microsoft worden verzonden. Er zijn drie niveaus voor het beheren van voorbeeldinzending:
 
 - **Geen:** er worden geen verdachte steekproeven ingediend bij Microsoft.
-- **Veilig:** alleen verdachte steekproeven die geen persoonlijk identificeerbare gegevens (PII) bevatten, worden automatisch verzonden. Dit is de standaardwaarde voor deze instelling.
+- **Safe:** alleen verdachte steekproeven die geen persoonlijke gegevens (PII) bevatten, worden automatisch verzonden. Dit is de standaardwaarde voor deze instelling.
 - **Alle**: alle verdachte steekproeven worden verzonden naar Microsoft.
 
 |||
@@ -337,7 +338,7 @@ Het volgende configuratieprofiel is:
   - **Potentieel ongewenste toepassingen (PUA)** worden geblokkeerd
   - **Archiefbommen** (bestand met een hoge compressiesnelheid) worden gecontroleerd op de productlogboeken
 - Automatische beveiligingsinformatie-updates inschakelen
-- Beveiliging via de cloud inschakelen
+- Cloudbeveiliging inschakelen
 - Automatische voorbeeldinzending op niveau `safe` inschakelen
 
 ### <a name="sample-profile"></a>Voorbeeldprofiel
@@ -387,7 +388,12 @@ Het volgende configuratieprofiel bevat vermeldingen voor alle instellingen die i
          {
             "$type":"excludedPath",
             "isDirectory":true,
-            "path":"/home"
+            "path":"/run"
+         },
+         {
+            "$type":"excludedPath",
+            "isDirectory":true,
+            "path":"/home/*/git"
          },
          {
             "$type":"excludedFileExtension",

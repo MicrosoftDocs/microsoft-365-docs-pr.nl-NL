@@ -1,6 +1,6 @@
 ---
 title: Geavanceerde zoekquery's migreren van Microsoft Defender voor Eindpunt
-description: Meer informatie over het aanpassen van uw Microsoft Defender voor eindpuntquery's, zodat u ze kunt gebruiken in Microsoft 365 Defender
+description: Meer informatie over het aanpassen van uw Microsoft Defender voor eindpuntquery's, zodat u deze kunt gebruiken in Microsoft 365 Defender
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, Microsoft Defender for Endpoint, search, query, telemetry, custom detections, schema, kusto, mapping
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 5513c4b4fd8c5e24f9ada989113abc8a10e6a864
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ba6f84f9f08d0635dab6ac65eaa697b8e0e73df7
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933443"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470686"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Geavanceerde zoekquery's migreren van Microsoft Defender voor Eindpunt
 
@@ -35,7 +35,7 @@ ms.locfileid: "51933443"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Verplaats uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt om proactief te zoeken naar bedreigingen met een bredere set gegevens. In Microsoft 365 Defender krijgt u toegang tot gegevens van andere beveiligingsoplossingen van Microsoft 365, waaronder:
+Verplaats uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt om proactief te zoeken naar bedreigingen met een bredere set gegevens. In Microsoft 365 Defender krijgt u toegang tot gegevens van andere Microsoft 365 beveiligingsoplossingen, zoals:
 
 - Microsoft Defender voor Eindpunt
 - Microsoft Defender voor Office 365
@@ -43,20 +43,19 @@ Verplaats uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt o
 - Microsoft Defender for Identity
 
 >[!NOTE]
->De meeste Klanten van Microsoft Defender voor eindpunten kunnen [Microsoft 365 Defender gebruiken zonder extra licenties.](prerequisites.md#licensing-requirements) Schakel [Microsoft 365 Defender](m365d-enable.md)in om te beginnen met het overstappen van uw geavanceerde werkstromen voor jagen vanuit Defender voor Eindpunt.
+>De meeste Klanten van Microsoft Defender voor Eindpunten kunnen [Microsoft 365 Defender gebruiken zonder extra licenties.](prerequisites.md#licensing-requirements) Als u wilt beginnen met het overstappen van uw geavanceerde werkstromen voor jagen vanuit Defender voor eindpunt, [schakelt](m365d-enable.md)u Microsoft 365 Defender in.
 
 U kunt overstappen zonder dat dit van invloed is op uw bestaande Defender voor Eindpunt-werkstromen. Opgeslagen query's blijven intact en aangepaste detectieregels blijven worden uitgevoerd en waarschuwingen worden gegenereerd. Ze zijn echter zichtbaar in Microsoft 365 Defender. 
 
-## <a name="schema-tables-in-microsoft-365-defender-only"></a>Alleen schematabellen in Microsoft 365 Defender
-Het geavanceerde zoekschema van [Microsoft 365 Defender](advanced-hunting-schema-tables.md) bevat aanvullende tabellen met gegevens uit verschillende beveiligingsoplossingen van Microsoft 365. De volgende tabellen zijn alleen beschikbaar in Microsoft 365 Defender:
+## <a name="schema-tables-in-microsoft-365-defender-only"></a>Alleen tabellen in Microsoft 365 Defender
+Het [geavanceerde Microsoft 365 Defender biedt](advanced-hunting-schema-tables.md) extra tabellen met gegevens uit verschillende Microsoft 365 beveiligingsoplossingen. De volgende tabellen zijn alleen beschikbaar in Microsoft 365 Defender:
 
-| Tabelnaam | Beschrijving |
+| Tabelnaam | Omschrijving |
 |------------|-------------|
 | [AlertEvidence](advanced-hunting-alertevidence-table.md) | Bestanden, IP-adressen, URL's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
 | [AlertInfo](advanced-hunting-alertinfo-table.md) | Waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit, inclusief ernstsinformatie en bedreigingscategorieën  |
-| [AppFileEvents](advanced-hunting-appfileevents-table.md) | Bestandsgerelateerde activiteiten in cloud-apps en -services |
 | [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) | Informatie over bestanden die zijn gekoppeld aan e-mailberichten |
-| [EmailEvents](advanced-hunting-emailevents-table.md) | E-mailgebeurtenissen van Microsoft 365, inclusief e-mailbezorging en het blokkeren van gebeurtenissen |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | Microsoft 365 e-mailgebeurtenissen, waaronder e-mailbezorging en het blokkeren van gebeurtenissen |
 | [EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) | Beveiligingsgebeurtenissen die zich voordoen na de bezorging, nadat Microsoft 365 de e-mailberichten heeft bezorgd bij het postvak van de geadresseerde |
 | [EmailUrlInfo](advanced-hunting-emailurlinfo-table.md) | Informatie over URL's in e-mailberichten |
 | [IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) | Gebeurtenissen met een on-premises domeincontroller met Active Directory (AD). Deze tabel bestrijkt een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller. |
@@ -65,7 +64,7 @@ Het geavanceerde zoekschema van [Microsoft 365 Defender](advanced-hunting-schema
 | [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md) | Query's voor Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
 
 >[!IMPORTANT]
-> Query's en aangepaste detecties die schematabellen gebruiken die alleen beschikbaar zijn in Microsoft 365 Defender, kunnen alleen worden weergegeven in Microsoft 365 Defender.
+> Query's en aangepaste detecties die schematabellen gebruiken die alleen beschikbaar zijn in Microsoft 365 Defender kunnen alleen worden weergegeven in Microsoft 365 Defender.
 
 ## <a name="map-devicealertevents-table"></a>Map DeviceAlertEvents table
 De `AlertInfo` en tabellen vervangen de tabel in het Microsoft Defender for `AlertEvidence` `DeviceAlertEvents` Endpoint-schema. Naast gegevens over apparaatwaarschuwingen bevatten deze twee tabellen gegevens over waarschuwingen voor identiteiten, apps en e-mailberichten.
@@ -89,8 +88,8 @@ Gebruik de volgende tabel om te controleren hoe `DeviceAlertEvents` kolommen wor
 | `RemoteUrl` | `AlertEvidence` tabel |
 | `RemoteIP` | `AlertEvidence` tabel |
 | `AttackTechniques` | `AlertInfo` tabel |
-| `ReportId` | Deze kolom wordt meestal gebruikt in Microsoft Defender voor Eindpunt om gerelateerde records in andere tabellen te zoeken. In Microsoft 365 Defender kunt u gerelateerde gegevens rechtstreeks uit de `AlertEvidence` tabel halen. |
-| `Table` | Deze kolom wordt meestal gebruikt in Microsoft Defender voor Eindpunt voor aanvullende gebeurtenisgegevens in andere tabellen. In Microsoft 365 Defender kunt u gerelateerde gegevens rechtstreeks uit de `AlertEvidence` tabel halen. |
+| `ReportId` | Deze kolom wordt meestal gebruikt in Microsoft Defender voor Eindpunt om gerelateerde records in andere tabellen te zoeken. In Microsoft 365 Defender kunt u gerelateerde gegevens rechtstreeks uit de tabel `AlertEvidence` halen. |
+| `Table` | Deze kolom wordt meestal gebruikt in Microsoft Defender voor Eindpunt voor aanvullende gebeurtenisgegevens in andere tabellen. In Microsoft 365 Defender kunt u gerelateerde gegevens rechtstreeks uit de tabel `AlertEvidence` halen. |
 
 ## <a name="adjust-existing-microsoft-defender-for-endpoint-queries"></a>Bestaande Microsoft Defender voor eindpuntquery's aanpassen
 Microsoft Defender voor eindpuntquery's werken zoals ze zijn, tenzij ze verwijzen naar de `DeviceAlertEvents` tabel. Als u deze query's wilt gebruiken in Microsoft 365 Defender, moet u de volgende wijzigingen toepassen:
@@ -127,13 +126,13 @@ Nadat u een Defender voor Eindpunt-regel hebt bewerkt, zodat identiteits- en e-m
 
 Waarschuwingen gegenereerd door de gemigreerde regel:
 
-- Zijn niet meer zichtbaar in de Defender for Endpoint-portal (Microsoft Defender Security Center)
-- Stop met leveren aan uw SIEM of genereer e-mailmeldingen. Als u deze wijziging wilt aanpassen, configureert u meldingen via Microsoft 365 Defender om de waarschuwingen te ontvangen. U kunt de [Microsoft 365 Defender-API gebruiken](api-incident.md) om meldingen te ontvangen voor waarschuwingen voor klantdetectie of verwante incidenten.
+- Zijn niet meer zichtbaar in de Defender for Endpoint-portal (Microsoft Defender-beveiligingscentrum)
+- Stop met leveren aan uw SIEM of genereer e-mailmeldingen. Als u deze wijziging wilt aanpassen, configureert u meldingen via Microsoft 365 Defender om de waarschuwingen te ontvangen. U kunt de Defender [MICROSOFT 365 gebruiken om](api-incident.md) meldingen te ontvangen voor waarschuwingen voor klantdetectie of gerelateerde incidenten.
 - Wordt niet onderdrukt door microsoft Defender voor endpoint-onderdrukkingsregels. Als u wilt voorkomen dat waarschuwingen worden gegenereerd voor bepaalde gebruikers, apparaten of postvakken, wijzigt u de bijbehorende query's om deze entiteiten expliciet uit te sluiten.
 
 Als u een regel op deze manier bewerkt, wordt u gevraagd om bevestiging voordat dergelijke wijzigingen worden toegepast.
 
-Nieuwe waarschuwingen die worden gegenereerd door aangepaste detectieregels in de Microsoft 365 Defender-portal, worden weergegeven op een waarschuwingspagina met de volgende informatie:
+Nieuwe waarschuwingen die worden gegenereerd door aangepaste detectieregels in Microsoft 365 Defender-portal, worden weergegeven op een waarschuwingspagina met de volgende informatie:
 
 - Waarschuwingstitel en beschrijving 
 - Beïnvloede activa
@@ -141,11 +140,12 @@ Nieuwe waarschuwingen die worden gegenereerd door aangepaste detectieregels in d
 - Queryresultaten die de waarschuwing hebben geactiveerd 
 - Informatie over de aangepaste detectieregel 
  
-![Afbeelding van nieuwe waarschuwingspagina](../../media/new-alert-page.png)
+> [!div class="mx-imgBorder"]
+> ![Afbeelding van nieuwe waarschuwingspagina](../../media/new-alert-page.png)
 
 ## <a name="write-queries-without-devicealertevents"></a>Query's schrijven zonder DeviceAlertEvents
 
-In het Microsoft 365 Defender-schema worden de tabellen en tabellen geleverd voor de diverse set informatie die bij `AlertInfo` waarschuwingen van verschillende bronnen `AlertEvidence` past. 
+In het Microsoft 365 Defender-schema worden de tabellen en tabellen verstrekt voor de diverse set informatie die bij `AlertInfo` waarschuwingen van verschillende bronnen `AlertEvidence` past. 
 
 Als u dezelfde waarschuwingsgegevens wilt ontvangen die u hebt gebruikt om uit de tabel in het Schema van Microsoft Defender voor eindpunten te komen, filtert u de tabel op en voegt u vervolgens elke unieke id toe aan de tabel, die gedetailleerde gebeurtenis- en entiteitsgegevens `DeviceAlertEvents` `AlertInfo` `ServiceSource` `AlertEvidence` bevat. 
 

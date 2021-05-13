@@ -18,22 +18,16 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c98ce17b7b71f2d05aeffe66dbb1e08f9046f463
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: da82b24b8a6bb6aa22028615bb3dd0c9d45acfa1
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933143"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345961"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Intune-implementatie voor Microsoft Defender voor Eindpunt op macOS
 
-
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
-
-> [!NOTE]
-> In deze documentatie wordt uitgelegd wat de oudere methode is voor het implementeren en configureren van Microsoft Defender voor Eindpunt op macOS-apparaten. De native ervaring is nu beschikbaar in de MEM-console. De release van de native GEBRUIKERSINTERFACE in de MEM-console biedt beheerders een veel eenvoudigere manier om de toepassing te configureren en te implementeren en deze naar macOS-apparaten te verzenden. <br> <br>
->Het blogbericht [MEM vereenvoudigt de implementatie van Microsoft Defender voor Eindpunt voor macOS](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/microsoft-endpoint-manager-simplifies-deployment-of-microsoft/ba-p/1322995) met uitleg over de nieuwe functies. Als u de app wilt configureren, gaat u naar [Instellingen voor Microsoft Defender voor Eindpunt op macOS in Microsoft InTune.](https://docs.microsoft.com/mem/intune/protect/antivirus-microsoft-defender-settings-macos) Als u de app wilt implementeren, gaat u naar Microsoft Defender voor Eindpunt toevoegen [aan macOS-apparaten met Microsoft Intune.](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos)
 
 **Van toepassing op:**
 
@@ -41,7 +35,7 @@ ms.locfileid: "51933143"
 
 In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt implementeert op macOS via Intune. Voor een geslaagde implementatie moet u alle volgende stappen voltooien:
 
-1. [Installatie- en onboarding-pakketten downloaden](#download-installation-and-onboarding-packages)
+1. [Het onboarding-pakket downloaden](#download-the-onboarding-package)
 1. [Installatie van clientapparaat](#client-device-setup)
 1. [Systeemextensies goedkeuren](#approve-system-extensions)
 1. [Systeemconfiguratieprofielen maken](#create-system-configuration-profiles)
@@ -51,52 +45,35 @@ In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt impleme
 
 Voordat u aan de slag gaat, bekijkt u de hoofdpagina van Microsoft Defender voor Eindpunt op [macOS](microsoft-defender-endpoint-mac.md) voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
 
-
 ## <a name="overview"></a>Overzicht
 
 In de volgende tabel vindt u een overzicht van de stappen die u moet ondernemen om Microsoft Defender voor Eindpunt op Macs te implementeren en te beheren via Intune. Hieronder vindt u meer gedetailleerde stappen.
 
 | Stap | Voorbeeldbestandsnamen | BundleIdentifier |
 |-|-|-|
-| [Installatie- en onboarding-pakketten downloaden](#download-installation-and-onboarding-packages) | WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml | com.microsoft.wdav.atp |
+| [Het onboarding-pakket downloaden](#download-the-onboarding-package) | WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml | com.microsoft.wdav.atp |
 | [Systeemextensie goedkeuren voor Microsoft Defender voor Eindpunt](#approve-system-extensions) | MDATP_SysExt.xml | N.v.t. |
-| [Kernel-extensie goedkeuren voor Microsoft Defender voor Eindpunt](#download-installation-and-onboarding-packages) | MDATP_KExt.xml | N.v.t. |
-| [Volledige schijftoegang verlenen aan Microsoft Defender voor Eindpunt](#create-system-configuration-profiles-step-8) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
-| [Netwerkextensiebeleid](#create-system-configuration-profiles-step-9) | MDATP_NetExt.xml | N.v.t. |
-| [Microsoft AutoUpdate configureren (MAU)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-updates#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
-| [Configuratie-instellingen voor Microsoft Defender voor eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-preferences#intune-profile-1)<br/><br/> **Opmerking:** Als u van plan bent een AV van derden voor macOS uit te voeren, stelt u dit `passiveMode` in op `true` . | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
-| [Microsoft Defender configureren voor endpoint- en MS AutoUpdate-meldingen (MAU)](#create-system-configuration-profiles-step-10) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 of com.microsoft.wdav.tray |
+| [Kernel-extensie goedkeuren voor Microsoft Defender voor Eindpunt](#download-the-onboarding-package) | MDATP_KExt.xml | N.v.t. |
+| [Volledige schijftoegang verlenen aan Microsoft Defender voor Eindpunt](#full-disk-access) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
+| [Netwerkextensiebeleid](#network-filter) | MDATP_NetExt.xml | N.v.t. |
+| [Microsoft AutoUpdate configureren (MAU)](mac-updates.md#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
+| [Configuratie-instellingen voor Microsoft Defender voor eindpunt](mac-preferences.md#intune-profile-1)<br/><br/> **Opmerking:** Als u van plan bent een AV van derden voor macOS uit te voeren, stelt u dit `passiveMode` in op `true` . | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
+| [Microsoft Defender configureren voor endpoint- en MS AutoUpdate-meldingen (MAU)](mac-updates.md) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 of com.microsoft.wdav.tray |
 
-## <a name="download-installation-and-onboarding-packages"></a>Installatie- en onboarding-pakketten downloaden
 
-Download de installatie- en onboarding-pakketten van het Microsoft Defender-beveiligingscentrum:
+## <a name="download-the-onboarding-package"></a>Het onboarding-pakket downloaden
 
-1. Ga in het Microsoft Defender-beveiligingscentrum naar **Instellingen**  >  **Apparaatbeheer**  >  **Onboarding**.
+Download de onboarding-pakketten van Microsoft Defender-beveiligingscentrum:
 
-2. Stel het besturingssysteem in op **macOS** en de implementatiemethode op **Mobile Device Management / Microsoft Intune.**
+1. Ga Microsoft Defender-beveiligingscentrum naar Instellingen   >  **Onboarding voor**  >  **apparaatbeheer.**
+
+2. Stel het besturingssysteem in **op macOS** en de implementatiemethode op **Mobile Device Management /Microsoft Intune.**
 
     ![Schermafbeelding van onboarding-instellingen](images/atp-mac-install.png)
 
-3. Selecteer **Installatiepakket downloaden.** Sla deze op _als wdav.pkg in_ een lokale adreslijst.
+3. Selecteer **Onboarding-pakket downloaden.** Sla deze op als _WindowsDefenderATPOnboardingPackage.zip_ in dezelfde adreslijst.
 
-4. Selecteer **Onboarding-pakket downloaden.** Sla deze op als _WindowsDefenderATPOnboardingPackage.zip_ in dezelfde adreslijst.
-
-5. Download **IntuneAppUtil** van [https://docs.microsoft.com/intune/lob-apps-macos](https://docs.microsoft.com/intune/lob-apps-macos) .
-
-6. Controleer in een opdrachtprompt of u de drie bestanden hebt.
-  
-
-    ```bash
-    ls -l
-    ```
-
-    ```Output
-    total 721688
-    -rw-r--r--  1 test  staff     269280 Mar 15 11:25 IntuneAppUtil
-    -rw-r--r--  1 test  staff      11821 Mar 15 09:23 WindowsDefenderATPOnboardingPackage.zip
-    -rw-r--r--  1 test  staff  354531845 Mar 13 08:57 wdav.pkg
-    ```
-7. Haal de inhoud van de ZIP-bestanden op:
+4. Haal de inhoud van het .zip op:
 
     ```bash
     unzip WindowsDefenderATPOnboardingPackage.zip
@@ -109,37 +86,161 @@ Download de installatie- en onboarding-pakketten van het Microsoft Defender-beve
       inflating: jamf/WindowsDefenderATPOnboarding.plist
     ```
 
-8. Maak Van IntuneAppUtil een uitvoerbaar:
+## <a name="create-system-configuration-profiles"></a>Systeemconfiguratieprofielen maken
 
-    ```bash
-    chmod +x IntuneAppUtil
-    ```
+De volgende stap is het maken van systeemconfiguratieprofielen die microsoft Defender voor Eindpunt nodig heeft.
+Open in [Microsoft Endpoint Manager-beheercentrum](https://endpoint.microsoft.com/)de **profielen**  >  **Apparatenconfiguratie.**
 
-9. Maak het wdav.pkg.intunemac-pakket van wdav.pkg:
+### <a name="onboarding-blob"></a>Onboarding blob
 
-    ```bash
-    ./IntuneAppUtil -c wdav.pkg -o . -i "com.microsoft.wdav" -n "1.0.0"
-    ```
-    ```Output
-    Microsoft Intune Application Utility for Mac OS X
-    Version: 1.0.0.0
-    Copyright 2018 Microsoft Corporation
+Dit profiel bevat een licentiegegevens voor Microsoft Defender voor Eindpunt, zonder dat het rapport meldt dat het niet is gelicentieerd.
 
-    Creating intunemac file for /Users/test/Downloads/wdav.pkg
-    Composing the intunemac file output
-    Output written to ./wdav.pkg.intunemac.
+1. Selecteer **Profiel maken** onder **Configuratieprofielen.**
+1. Selecteer **Platform** = **macOS**, **Profieltype** = **Sjablonen**. **Naam van sjabloon** = **Aangepast**. Klik op **Maken**.
 
-    IntuneAppUtil successfully processed "wdav.pkg",
-    to deploy refer to the product documentation.
-    ```
+    > [!div class="mx-imgBorder"]
+    > ![Aangepaste configuratieprofiel maken](images/mdatp-6-systemconfigurationprofiles-1.png)
+
+1. Kies een naam voor het profiel, bijvoorbeeld 'MDATP onboarding voor macOS'. Klik op **Volgende**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Aangepast configuratieprofiel - naam](images/mdatp-6-systemconfigurationprofiles-2.png)
+
+1. Kies een naam voor de naam van het configuratieprofiel, bijvoorbeeld 'MDATP onboarding voor macOS'.
+1. Selecteer intune/WindowsDefenderATPOnboarding.xml die u hebt geëxtraheerd uit het onboarding-pakket hierboven als configuratieprofielbestand.
+
+    > [!div class="mx-imgBorder"]
+    > ![Een configuratie importeren uit een bestand voor aangepast configuratieprofiel](images/mdatp-6-systemconfigurationprofiles.png)
+
+1. Klik op **Volgende**.
+1. Wijs apparaten toe op **het tabblad** Toewijzing. Klik op **Volgende**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Aangepast configuratieprofiel - toewijzing](images/mdatp-6-systemconfigurationprofiles-2.png)
+
+1. Controleren en **maken.**
+1. Open   >  **Apparaatconfiguratieprofielen,** u kunt uw gemaakte profiel daar zien.
+
+    > [!div class="mx-imgBorder"]
+    > ![Aangepast configuratieprofiel - klaar](images/mdatp-6-systemconfigurationprofiles-3.png)
+
+### <a name="approve-system-extensions"></a>Systeemextensies goedkeuren
+
+Dit profiel is nodig voor macOS 10.15 (Catalina) of hoger. Deze wordt genegeerd op oudere macOS.
+
+1. Selecteer **Profiel maken** onder **Configuratieprofielen.**
+1. Selecteer **Platform** = **macOS**, **Profieltype** = **Sjablonen**. **Naam van sjabloon** = **Extensies**. Klik op **Maken**.
+1. Geef op **het** tabblad Basisbeginselen een naam op voor dit nieuwe profiel.
+1. Vouw op **het tabblad Configuratie-instellingen** **systeemextensies** uit om de volgende vermeldingen toe te voegen in **de sectie Toegestane systeemextensies:**
+
+    Bundelaanduiding         | Team-id
+    --------------------------|----------------
+    com.microsoft.wdav.epsext | UBF8T346G9
+    com.microsoft.wdav.netext | UBF8T346G9
+
+    > [!div class="mx-imgBorder"]
+    > ![Systeemextensie-instellingen](images/mac-system-extension-intune2.png)
+
+1. Wijs **dit profiel op het** tabblad Opdrachten toe aan alle gebruikers & alle **apparaten.**
+1. Controleer en maak dit configuratieprofiel.
+
+### <a name="kernel-extensions"></a>Kernelextensies
+
+Dit profiel is nodig voor macOS 10.15 (Catalina) of ouder. Deze wordt genegeerd op nieuwere macOS.
+
+> [!CAUTION]
+> Apple Silicon (M1) apparaten bieden geen ondersteuning voor KEXT. De installatie van een configuratieprofiel met KEXT-beleid mislukt op deze apparaten.
+
+1. Selecteer **Profiel maken** onder **Configuratieprofielen.**
+1. Selecteer **Platform** = **macOS**, **Profieltype** = **Sjablonen**. **Naam van sjabloon** = **Extensies**. Klik op **Maken**.
+1. Geef op **het** tabblad Basisbeginselen een naam op voor dit nieuwe profiel.
+1. Vouw op **het tabblad Configuratie-instellingen** **kernelextensies uit.**
+1. Stel **Team-id in** **op UBF8T346G9** en klik op **Volgende**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Instellingen voor kernelextensie](images/mac-kernel-extension-intune2.png)
+
+1. Wijs **dit profiel op het** tabblad Opdrachten toe aan alle gebruikers & alle **apparaten.**
+1. Controleer en maak dit configuratieprofiel.
+
+### <a name="full-disk-access"></a>Volledige schijftoegang
+
+   > [!CAUTION]
+   > macOS 10.15 (Catalina) bevat nieuwe beveiligings- en privacyverbeteringen. Vanaf deze versie hebben toepassingen standaard geen toegang tot bepaalde locaties op schijf (zoals Documenten, Downloads, Bureaublad, enzovoort) zonder expliciete toestemming. Bij afwezigheid van deze toestemming kan Microsoft Defender voor Eindpunt uw apparaat niet volledig beveiligen.
+   >
+   > Dit configuratieprofiel verleent Volledige schijftoegang aan Microsoft Defender voor Eindpunt. Als u Eerder Microsoft Defender voor Eindpunt hebt geconfigureerd via Intune, raden we u aan de implementatie bij te werken met dit configuratieprofiel.
+
+Download [**fulldisk.mobileconfig vanuit**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
+
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDATP Full Disk Access' als profielnaam en **downloadde fulldisk.mobileconfig** als configuratieprofielnaam.
+
+### <a name="network-filter"></a>Netwerkfilter
+
+Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoord controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de Microsoft Defender-beveiligingscentrum portal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
+
+Download [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) vanuit [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
+
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDATP Netwerkfilter' als profielnaam en downloadde **netfilter.mobileconfig** als naam van het configuratieprofiel.
+
+### <a name="notifications"></a>Meldingen
+
+Dit profiel wordt gebruikt om microsoft Defender voor Eindpunt op macOS en Microsoft Auto Update toe te staan meldingen weer te geven in de gebruikersinterface op macOS 10.15 (Catalina) of hoger.
+
+Download [**notif.mobileconfig van**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
+
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDATP Netwerkfilter' als profielnaam en downloadde **notif.mobileconfig** als configuratieprofielnaam.
+
+### <a name="view-status"></a>Status weergeven
+
+Wanneer de wijzigingen in Intune zijn doorgevoerd naar de geregistreerde apparaten, kunt u deze weergeven onder  >  **Apparaatstatus controleren:**
+
+> [!div class="mx-imgBorder"]
+> ![Weergave van apparaatstatus in monitor](images/mdatp-7-devicestatusblade.png)
+
+## <a name="publish-application"></a>Toepassing publiceren
+
+Met deze stap kunt u Microsoft Defender voor Eindpunt implementeren op geregistreerde machines.
+
+1. Open apps Microsoft Endpoint Manager het **beheercentrum.** [](https://endpoint.microsoft.com/)
+
+    > [!div class="mx-imgBorder"]
+    > ![Klaar om toepassing te maken](images/mdatp-8-app-before.png)
+
+1. Selecteer Per platform > macOS > Toevoegen.
+1. Kies **App type** = **macOS**, klik op **Selecteren**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Toepassingstype opgeven](images/mdatp-9-app-type.png)
+
+1. Bewaar standaardwaarden en klik op **Volgende.**
+
+    > [!div class="mx-imgBorder"]
+    > ![Eigenschappen van toepassingen](images/mdatp-10-properties.png)
+
+1. Voeg opdrachten toe en klik op **Volgende.**
+
+    > [!div class="mx-imgBorder"]
+    > ![Schermafbeelding van intune-opdrachten](images/mdatp-11-assignments.png)
+
+1. Controleren en **maken.**
+1. U kunt naar **Apps**  >  **per platform**  >  **macOS gaan** om deze te bekijken in de lijst met alle toepassingen.
+
+    > [!div class="mx-imgBorder"]
+    > ![Lijst met toepassingen](images/mdatp-12-applications.png)
+
+(U vindt gedetailleerde informatie op de [pagina van De Intune voor Defender-implementatie](/mem/intune/apps/apps-advanced-threat-protection-macos).)
+
+   > [!CAUTION]
+   > U moet alle vereiste configuratieprofielen maken en deze naar alle machines pushen, zoals hierboven wordt uitgelegd.
 
 ## <a name="client-device-setup"></a>Installatie van clientapparaat
 
-U hebt geen speciale inrichting nodig voor een Mac-apparaat buiten een [standaardbedrijfsportalinstallatie.](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp)
+U hebt geen speciale inrichting nodig voor een Mac-apparaat buiten een [standaardinstallatie Bedrijfsportal installeren.](/intune-user-help/enroll-your-device-in-intune-macos-cp)
 
 1. Bevestig apparaatbeheer.
 
-   ![Schermopname apparaatbeheer bevestigen](images/mdatp-3-confirmdevicemgmt.png)
+    > [!div class="mx-imgBorder"]
+    > ![Schermopname apparaatbeheer bevestigen](images/mdatp-3-confirmdevicemgmt.png)
 
     Selecteer **Systeemvoorkeuren** openen, zoek **Managementprofiel** in de lijst en selecteer **Goedkeuren...**. Uw managementprofiel wordt weergegeven als **Geverifieerd:**
 
@@ -154,129 +255,29 @@ U hebt geen speciale inrichting nodig voor een Mac-apparaat buiten een [standaar
    > [!div class="mx-imgBorder"]
    > ![Schermopname apparaten toevoegen](images/mdatp-5-alldevices.png)
 
-## <a name="approve-system-extensions"></a>Systeemextensies goedkeuren
-
-De systeemextensies goedkeuren:
-
-1. Open in Intune   >  **Apparaatconfiguratie beheren.** Selecteer **Profielen beheren**  >  **Profiel**  >  **maken.**
-
-2. Kies een naam voor het profiel. **Platform=macOS wijzigen** in **Profieltype=Extensies**. Selecteer **Maken**.
-
-3. Geef op **het** tabblad Basisbeginselen een naam op voor dit nieuwe profiel.
-
-4. Voeg op **het tabblad Configuratie-instellingen** de volgende vermeldingen toe in **de sectie Toegestane systeemextensies:**
-
-    Bundelaanduiding         | Team-id
-    --------------------------|----------------
-    com.microsoft.wdav.epsext | UBF8T346G9
-    com.microsoft.wdav.netext | UBF8T346G9
-
-    > [!div class="mx-imgBorder"]
-    > ![Schermafbeelding van de extensie-instellingen in Configuratie-instellingen op het tabblad Basisbeginselen](images/mac-system-extension-intune2.png)
-
-5. Wijs **dit profiel op het** tabblad Opdrachten toe aan alle gebruikers & alle **apparaten.**
-
-6. Controleer en maak dit configuratieprofiel.
-
-## <a name="create-system-configuration-profiles"></a>Systeemconfiguratieprofielen maken
-
-1. Open in Intune   >  **Apparaatconfiguratie beheren.** Selecteer **Profielen beheren**  >  **Profiel**  >  **maken.**
-
-2. Kies een naam voor het profiel. **Platform=macOS wijzigen** in **Profieltype=Aangepast**. Selecteer **Configureren**.
-
-3. Open het configuratieprofiel en upload intune/kext.xml. Dit bestand is gemaakt in een van de voorgaande secties.
-
-4. Selecteer **OK**.
-
-    ![Een configuratie importeren uit een bestand voor aangepast configuratieprofiel](images/mdatp-6-systemconfigurationprofiles.png)
-
-5. Selecteer **Opdrachten**  >  **beheren.** Selecteer op **het** tabblad Opnemen de optie Toewijzen aan **alle & alle apparaten.**
-
-6. Herhaal stap 1 tot en met 5 voor meer profielen.
-
-7. Maak een ander profiel, geef het een naam en upload het intune/WindowsDefenderATPOnboarding.xml bestand.
-
-8. Download **fulldisk.mobileconfig vanuit** [onze GitHub-opslagplaats](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) en sla deze op **alstcc.xml.** Maak een ander profiel, geef het een naam en upload dit bestand naar het bestand.<a name="create-system-configuration-profiles-step-8" id = "create-system-configuration-profiles-step-8"></a>
-
-   > [!CAUTION]
-   > macOS 10.15 (Catalina) bevat nieuwe beveiligings- en privacyverbeteringen. Vanaf deze versie hebben toepassingen standaard geen toegang tot bepaalde locaties op schijf (zoals Documenten, Downloads, Bureaublad, enzovoort) zonder expliciete toestemming. Bij afwezigheid van deze toestemming kan Microsoft Defender voor Eindpunt uw apparaat niet volledig beveiligen.
-   >
-   > Dit configuratieprofiel verleent Volledige schijftoegang aan Microsoft Defender voor Eindpunt. Als u Eerder Microsoft Defender voor Eindpunt hebt geconfigureerd via Intune, raden we u aan de implementatie bij te werken met dit configuratieprofiel.
-
-9. Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren. Download **netfilter.mobileconfig** vanuit onze [GitHub-opslagplaats,](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)sla deze op als netext.xml en implementeer het met dezelfde stappen als in de vorige secties. <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
-
-10. Als u wilt toestaan dat Microsoft Defender voor Eindpunt op macOS en Microsoft Auto Update meldingen in de gebruikersinterface weergeven op macOS 10.15 (Catalina), downloadt u vanuit onze `notif.mobileconfig` [GitHub-opslagplaats](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) en importeert u deze als een aangepaste payload. <a name = "create-system-configuration-profiles-step-10" id = "create-system-configuration-profiles-step-10"></a>
-
-11. Selecteer **Opdrachten > beheren.**  Selecteer op **het** tabblad Opnemen de optie Toewijzen aan **alle & alle apparaten.**
-
-Wanneer de wijzigingen in Intune zijn doorgevoerd naar de geregistreerde apparaten, kunt u deze weergeven onder  >  **Apparaatstatus controleren:**
-
-> [!div class="mx-imgBorder"]
-> ![Weergave van apparaatstatus in monitor](images/mdatp-7-devicestatusblade.png)
-
-## <a name="publish-application"></a>Toepassing publiceren
-
-1. Open in Intune het **blade > Client-apps** beheren. Selecteer **Apps > Toevoegen.**
-
-2. Selecteer **App type=Other/Line-of-business app**.
-
-3. Selecteer **file=wdav.pkg.intunemac**. Selecteer **OK om** te uploaden.
-
-4. Selecteer **Configureren** en voeg de vereiste informatie toe.
-
-5. Gebruik **macOS High Sierra 10.14** als minimaal besturingssysteem.
-
-6. Stel *App-versie negeren in* op **Ja.** Andere instellingen kunnen willekeurige waarden zijn.
-
-    > [!CAUTION]
-    > Het *instellen van App-versie negeren* op **Geen** heeft invloed op de mogelijkheid van de toepassing om updates te ontvangen via Microsoft AutoUpdate. Zie [Updates implementeren voor Microsoft Defender voor Eindpunt op macOS](mac-updates.md) voor meer informatie over hoe het product wordt bijgewerkt.
-    >
-    > Als de versie die door Intune is geüpload lager is dan de versie op het apparaat, wordt de onderste versie geïnstalleerd, wat microsoft Defender voor Eindpunt effectief verlaagt. Dit kan leiden tot een niet-werkende toepassing. Zie [Updates implementeren voor Microsoft Defender voor Eindpunt op macOS](mac-updates.md) voor meer informatie over hoe het product wordt bijgewerkt. Als u Microsoft Defender voor Eindpunt hebt geïmplementeerd met *App-versie* negeren ingesteld op **Nee,** wijzigt u deze in **Ja.** Als Microsoft Defender voor Eindpunt nog steeds niet kan worden geïnstalleerd op een clientapparaat, verwijdert u Microsoft Defender voor Eindpunt en drukt u op het bijgewerkte beleid.
-     
-    > [!div class="mx-imgBorder"]
-    > ![Weergave van app-informatie in App-add](images/mdatp-8-intuneappinfo.png)
-
-7. Selecteer **OK** en **Toevoegen.**
-
-    > [!div class="mx-imgBorder"]
-    > ![Apparaatstatus weergegeven in het venster Meldingen](images/mdatp-9-intunepkginfo.png)
-
-8. Het kan even duren voordat u het pakket hebt geüpload. Nadat het klaar is, selecteert u het pakket in de lijst en gaat **u naar Opdrachten en** groep **Toevoegen.**
-
-    > [!div class="mx-imgBorder"]
-    > ![Schermafbeelding van client-apps](images/mdatp-10-clientapps.png)
-
-9. Het **type Toewijzing wijzigen** in **Vereist.**
-
-10. Selecteer **Opgenomen groepen.** Selecteer **Deze app verplicht maken voor alle apparaten=Ja.** Selecteer **Groep selecteren om een groep** op te nemen en toe te voegen die de gebruikers bevat die u wilt targeten. Selecteer **OK** en **Opslaan.**
-
-    > [!div class="mx-imgBorder"]
-    > ![Schermafbeelding van intune-opdrachten](images/mdatp-11-assignments.png)
-
-11. Na enige tijd wordt de toepassing gepubliceerd op alle geregistreerde apparaten. U kunt het weergeven **in** Monitor  >  **Device**, onder **Status apparaat installeren:**
-
-    > [!div class="mx-imgBorder"]
-    > ![Schermafbeelding van de status van intune-apparaat](images/mdatp-12-deviceinstall.png)
-
 ## <a name="verify-client-device-state"></a>Status van clientapparaat controleren
 
 1. Nadat de configuratieprofielen op uw apparaten zijn geïmplementeerd, opent u Systeemvoorkeurenprofielen  >   op uw Mac-apparaat.
 
-    ![Schermopname systeemvoorkeuren](images/mdatp-13-systempreferences.png)<br/>
+    > [!div class="mx-imgBorder"]
+    > ![Schermopname systeemvoorkeuren](images/mdatp-13-systempreferences.png)
+
     ![Schermopname systeemvoorkeurenprofielen](images/mdatp-14-systempreferencesprofiles.png)
 
-2. Controleer of de volgende configuratieprofielen aanwezig en geïnstalleerd zijn. Het **managementprofiel** moet het Intune-systeemprofiel zijn. _Wdav-config_ en _wdav-kext_ zijn systeemconfiguratieprofielen die zijn toegevoegd in Intune: ![ Schermafbeelding profielen](images/mdatp-15-managementprofileconfig.png)
+2. Controleer of de volgende configuratieprofielen aanwezig en geïnstalleerd zijn. Het **managementprofiel** moet het Intune-systeemprofiel zijn. _Wdav-config_ en _wdav-kext_ zijn systeemconfiguratieprofielen die zijn toegevoegd in Intune:
 
-3. U ziet ook het Microsoft Defender-pictogram in de rechterbovenhoek:
+    ![Schermafbeelding van profielen](images/mdatp-15-managementprofileconfig.png)
+
+3. U ziet ook het pictogram Microsoft Defender voor eindpunt in de rechterbovenhoek:
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft Defender-pictogram in schermafbeelding van statusbalk](images/mdatp-icon-bar.png)
+    > ![Pictogram Microsoft Defender voor eindpunt in schermafbeelding statusbalk](images/mdatp-icon-bar.png)
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-Probleem: Er is geen licentie gevonden
+Probleem: Er is geen licentie gevonden.
 
-Oplossing: Volg de bovenstaande stappen om een apparaatprofiel te maken met WindowsDefenderATPOnboarding.xml
+Oplossing: Volg de bovenstaande stappen om een apparaatprofiel te maken met WindowsDefenderATPOnboarding.xml.
 
 ## <a name="logging-installation-issues"></a>Installatieproblemen met logboekregistratie
 

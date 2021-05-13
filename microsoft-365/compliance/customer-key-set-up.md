@@ -1,9 +1,8 @@
 ---
-title: Klantsleutel instellen op toepassingsniveau
+title: Klantsleutel instellen
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 02/05/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,30 +11,30 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het instellen van klantcode voor Microsoft 365 voor Exchange Online, Skype voor Bedrijven, SharePoint Online, OneDrive voor Bedrijven en Teams bestanden.
-ms.openlocfilehash: a7a0c807b8778960d423d6b7d8afc20430ba89ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Meer informatie over het instellen van klantcode voor Microsoft 365.
+ms.openlocfilehash: e187c01a355cc9b926e892cb3326b5a527c714a4
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162090"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52344672"
 ---
-# <a name="set-up-customer-key-at-the-application-level"></a>Klantsleutel instellen op toepassingsniveau
+# <a name="set-up-customer-key"></a>Klantsleutel instellen
 
-Met De klantsleutel kunt u de versleutelingssleutels van uw organisatie bepalen en vervolgens Microsoft 365 configureren om uw gegevens in rust te versleutelen in de datacenters van Microsoft. Met andere woorden: met Klantsleutel kunnen klanten een versleutelingslaag toevoegen die aan hen toebehoort, met hun sleutels. Gegevens in rust omvatten gegevens uit Exchange Online en Skype voor Bedrijven die zijn opgeslagen in postvakken en bestanden die zijn opgeslagen in SharePoint Online en OneDrive voor Bedrijven.
+Met De klantsleutel kunt u de versleutelingssleutels van uw organisatie bepalen en vervolgens Microsoft 365 configureren om uw gegevens in rust te versleutelen in de datacenters van Microsoft. Met andere woorden: met Klantsleutel kunnen klanten een versleutelingslaag toevoegen die aan hen toebehoort, met hun sleutels.
 
-U moet Azure instellen voordat u klantcode kunt gebruiken voor Office 365. In dit artikel worden de stappen beschreven die u moet volgen om de vereiste Azure-resources te maken en te configureren en worden vervolgens de stappen beschreven voor het instellen van klantsleutel in Office 365. Nadat u azure-installatie hebt voltooid, bepaalt u welk beleid en dus welke sleutels u wilt toewijzen aan postvakken en bestanden in uw organisatie. Postvakken en bestanden waarvoor u geen beleid toewijst, gebruiken versleutelingsbeleid dat wordt beheerd en beheerd door Microsoft. Zie Serviceversleuteling met klantsleutel in Office 365 voor meer informatie over klantsleutel of voor [een algemeen overzicht.](customer-key-overview.md)
+Stel Azure in voordat u klantcode kunt gebruiken voor Office 365. In dit artikel worden de stappen beschreven die u moet volgen om de vereiste Azure-resources te maken en te configureren en worden vervolgens de stappen beschreven voor het instellen van klantsleutel in Office 365. Nadat u Azure hebt ingesteld, bepaalt u welk beleid en dus welke sleutels u wilt toewijzen om gegevens te versleutelen in verschillende Microsoft 365 werkbelastingen in uw organisatie. Zie Serviceversleuteling met klantsleutel in Office 365 voor meer informatie over klantsleutel of voor [een algemeen overzicht.](customer-key-overview.md)
   
 > [!IMPORTANT]
 > We raden u ten zeerste aan de aanbevolen procedures in dit artikel te volgen. Deze worden genoemd als **TIP** en **BELANGRIJK.** Klantsleutel geeft u controle over hoofdversleutelingssleutels waarvan het bereik net zo groot kan zijn als uw hele organisatie. Dit betekent dat fouten die zijn gemaakt met deze sleutels een grote impact kunnen hebben en kunnen leiden tot serviceonderbrekingen of onherroepelijk verlies van uw gegevens.
   
 ## <a name="before-you-set-up-customer-key"></a>Voordat u klantsleutel in stelt
 
-Voordat u aan de slag gaat, moet u ervoor zorgen dat u over de juiste licenties voor uw organisatie hebt. Gebruik een betaald, gefactureerd Azure-abonnement met een Enterprise Agreement of een cloudserviceprovider. Azure-abonnementen die zijn gekocht met abonnementen voor betalen terwijl u gaat of een creditcard gebruiken, worden niet ondersteund voor Klantcode. Vanaf 1 april 2020 wordt klantsleutel in Office 365 aangeboden in Office 365 E5, M365 E5, M365 E5 Compliance en M365 E5 Information Protection & Governance SKU's. Office 365 Advanced Compliance SKU is niet meer beschikbaar voor het aanschaffen van nieuwe licenties. Bestaande Office 365 Advanced Compliance licenties blijven worden ondersteund.
+Voordat u aan de slag gaat, moet u ervoor zorgen dat u de juiste Azure-abonnementen en -licenties voor uw organisatie hebt. Gebruik betaalde Azure-abonnementen met een Enterprise Agreement of een cloudserviceprovider. Betalingen op basis van creditcard worden niet geaccepteerd. Goedkeuren en instellen van de accountbehoeften voor facturering. Abonnementen die u hebt via Gratis, Proefabonnementen, Sponsoring, MSDN-abonnementen en abonnementen onder Oudere ondersteuning komen niet in aanmerking.
+
+Office 365 E5, Microsoft 365 E5, Microsoft 365 E5 Compliance en Microsoft 365 E5 Information Protection & Governance SKU's bieden klantsleutel. Office 365 Advanced Compliance SKU is niet meer beschikbaar voor het aanschaffen van nieuwe licenties. Bestaande Office 365 Advanced Compliance licenties blijven worden ondersteund.
 
 Als u de concepten en procedures in dit artikel wilt begrijpen, bekijkt u de [documentatie van de Azure Key Vault.](/azure/key-vault/) U kunt ook vertrouwd raken met de termen die worden gebruikt in Azure, bijvoorbeeld [Azure AD-tenant.](/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant)
-
-FastTrack wordt alleen gebruikt om de vereiste tenant- en serviceconfiguratiegegevens te verzamelen die worden gebruikt om zich te registreren voor Klantcode. De klantcodeaanbiedingen worden gepubliceerd via FastTrack, zodat het handig is voor u en onze partners om de vereiste informatie op dezelfde manier in te dienen. Met FastTrack kunt u ook eenvoudig de gegevens archiveren die u in de aanbieding opbiedt.
   
 Als u meer ondersteuning nodig hebt buiten de documentatie, neem dan contact op met Microsoft Consulting Services (MCS), Premier Field Engineering (PFE) of een Microsoft-partner voor hulp. Als u feedback wilt geven over de klantsleutel, inclusief de documentatie, stuurt u uw ideeën, suggesties en perspectieven naar customerkeyfeedback@microsoft.com.
   
@@ -49,19 +48,17 @@ U voltooit de meeste van deze taken door op afstand verbinding te maken met Azur
   
 - [Twee nieuwe Azure-abonnementen maken](#create-two-new-azure-subscriptions)
 
+- [Een aanvraag indienen om klantcode te activeren voor Office 365](#submit-a-request-to-activate-customer-key-for-office-365)
+ 
 - [Azure-abonnementen registreren om een verplichte bewaarperiode te gebruiken](#register-azure-subscriptions-to-use-a-mandatory-retention-period)
 
   Registratie kan één tot vijf werkdagen duren.
-
-- [Een aanvraag indienen om klantcode te activeren voor Office 365](#submit-a-request-to-activate-customer-key-for-office-365)
-
-Nadat u de twee nieuwe Azure-abonnementen hebt gemaakt, moet u de juiste aanvraag voor een klantcode-aanbieding indienen door een webformulier in te vullen dat wordt gehost in de Microsoft FastTrack-portal. **Het FastTrack-team biedt geen hulp bij Klantcode. Office gebruikt de FastTrack-portal** om u toe te staan het formulier in te dienen en ons te helpen de relevante aanbiedingen voor klantcode bij te houden.
 
 - [Een premium Azure Key Vault maken in elk abonnement](#create-a-premium-azure-key-vault-in-each-subscription)
 
 - [Machtigingen toewijzen aan elke sleutelkluis](#assign-permissions-to-each-key-vault)
 
-- [Soft Delete inschakelen en vervolgens bevestigen in uw sleutelkluizen](#enable-and-then-confirm-soft-delete-on-your-key-vaults)
+- [Zorg ervoor dat soft delete is ingeschakeld in uw sleutelkluizen](#make-sure-soft-delete-is-enabled-on-your-key-vaults)
 
 - [Een sleutel toevoegen aan elke sleutelkluis door een sleutel te maken of te importeren](#add-a-key-to-each-key-vault-either-by-creating-or-importing-a-key)
 
@@ -72,26 +69,10 @@ Nadat u de twee nieuwe Azure-abonnementen hebt gemaakt, moet u de juiste aanvraa
 - [Configuratie-instellingen voor Azure Key Vault valideren](#validate-azure-key-vault-configuration-settings)
 
 - [De URI verkrijgen voor elke Azure Key Vault-toets](#obtain-the-uri-for-each-azure-key-vault-key)
-
-**In Office 365:**
   
-Exchange Online en Skype voor Bedrijven:
-  
-- [Een dep (Data Encryption Policy) maken voor gebruik met Exchange Online en Skype voor Bedrijven](#create-a-data-encryption-policy-dep-for-use-with-exchange-online-and-skype-for-business)
-
-- [Een DEP toewijzen aan een postvak](#assign-a-dep-to-a-mailbox)
-
-- [Postvakversleuteling valideren](#validate-mailbox-encryption)
-
-SharePoint Online en OneDrive voor Bedrijven:
-  
-- [Een dep (Data Encryption Policy) maken voor elke SharePoint Online en OneDrive voor Bedrijven geo](#create-a-data-encryption-policy-dep-for-each-sharepoint-online-and-onedrive-for-business-geo)
-
-- [Bestandsversleuteling valideren SharePoint online- OneDrive voor Bedrijven en Teams bestanden](#validate-file-encryption)
-
 ## <a name="complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key"></a>Taken uitvoeren in Azure Key Vault en Microsoft FastTrack voor klantcode
 
-Voltooi deze taken in Azure Key Vault. U moet deze stappen voltooien, ongeacht of u klantcode wilt instellen voor Exchange Online en Skype voor Bedrijven of voor SharePoint Online-, OneDrive voor Bedrijven- en Teams-bestanden of voor alle ondersteunde services in Office 365.
+Voltooi deze taken in Azure Key Vault. U moet deze stappen voltooien voor alle DEP's die u gebruikt met klantcode.
   
 ### <a name="create-two-new-azure-subscriptions"></a>Twee nieuwe Azure-abonnementen maken
 
@@ -99,27 +80,30 @@ Klantcode vereist twee Azure-abonnementen. Microsoft raadt u aan om nieuwe Azure
   
 > [!IMPORTANT]
 > Klantsleutel vereist twee sleutels voor elk gegevensversleutelingsbeleid (DEP). Hiervoor moet u twee Azure-abonnementen maken. Als aanbevolen training raadt Microsoft aan dat u afzonderlijke leden van uw organisatie hebt om één sleutel in elk abonnement te configureren. Gebruik deze Azure-abonnementen alleen om versleutelingssleutels te beheren voor Office 365. Hiermee beschermt u uw organisatie voor het geval een van uw operatoren per ongeluk, opzettelijk of met opzet de sleutels waarvoor ze verantwoordelijk zijn, verwijdert of anderszins onjuist bemant.
->
 
 Er is geen praktische limiet voor het aantal Azure-abonnementen dat u voor uw organisatie kunt maken. Als u deze best practices volgt, wordt de impact van menselijke fouten geminimaliseerd en wordt het beheer van de resources die door Klantsleutel worden gebruikt, geminimaliseerd.
   
 ### <a name="submit-a-request-to-activate-customer-key-for-office-365"></a>Een aanvraag indienen om klantcode te activeren voor Office 365
 
-Nadat u de Azure-stappen hebt voltooid, moet u een aanbiedingsaanvraag indienen in de [Microsoft FastTrack-portal.](https://fasttrack.microsoft.com/) Nadat u een aanvraag hebt ingediend via de FastTrack-webportal, controleert Microsoft de configuratiegegevens en contactgegevens van de Azure Key Vault. De selecties die u maakt in het aanbiedingsformulier over de geautoriseerde verantwoordelijken van uw organisatie, zijn essentieel en noodzakelijk voor het voltooien van de registratie van klantsleutels. De functionarissen van uw organisatie zorgen voor de echtheid van elk verzoek om alle sleutels in te trekken en te vernietigen die worden gebruikt met een gegevensversleutelingsbeleid voor klantsleutels. U moet deze stap eenmaal doen om Klantcode te activeren voor Exchange Online en Skype voor Bedrijven-dekking en een tweede keer om Klantcode te activeren voor SharePoint Online en OneDrive voor Bedrijven.
+Nadat u de twee nieuwe Azure-abonnementen hebt gemaakt, moet u de juiste aanvraag voor een klantcode-aanbieding indienen in de [Microsoft FastTrack-portal.](https://fasttrack.microsoft.com/) De selecties die u maakt in het aanbiedingsformulier over de geautoriseerde aanduidingen binnen uw organisatie, zijn essentieel en noodzakelijk voor het voltooien van de registratie van klantsleutels. De functionarissen in de geselecteerde rollen binnen uw organisatie zorgen voor de echtheid van elk verzoek om alle sleutels in te trekken en te vernietigen die worden gebruikt met een gegevensversleutelingsbeleid voor klantsleutels. U moet deze stap eenmaal doen voor elk DEP-type klantsleutel dat u voor uw organisatie wilt gebruiken.
+
+**Het FastTrack-team biedt geen hulp bij Klantcode. Office 365 gebruikt de FastTrack-portal om u toe te staan het formulier in te dienen en ons te helpen de relevante aanbiedingen voor Klantcode bij te houden. Nadat u de FastTrack-aanvraag hebt ingediend, kunt u contact op nemen met het bijbehorende onboardingteam van de klantsleutel om het onboardingproces te starten.**
   
 Als u een aanbieding wilt indienen om klantcode te activeren, gaat u als volgende stappen te werk:
   
 1. Meld u aan bij de [Microsoft FastTrack-portal](https://fasttrack.microsoft.com/)met een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie.
 
-2. Wanneer u bent aangemeld, bladert u naar het **Dashboard.**
+2. Wanneer u bent aangemeld, selecteert u het juiste domein.
 
-3. Kies **Implementeren** op de navigatiebalk **OF selecteer** Alle implementatiebronnen **weergeven** op de informatiekaart Implementeren en bekijk de lijst met huidige aanbiedingen. 
+3. Kies voor het geselecteerde domein **Services aanvragen** op de bovenste navigatiebalk en bekijk de lijst met beschikbare aanbiedingen.
 
 4. Kies de informatiekaart voor de aanbieding die op u van toepassing is:
 
-   - **Exchange Online en Skype voor Bedrijven:** Kies de **Help voor versleutelingssleutel aanvragen voor Exchange onlineaanbieding.**
+   - **Meerdere Microsoft 365 werkbelastingen:** Kies de **Help voor versleutelingssleutel aanvragen voor Microsoft 365** aanbieding.
 
-   - **SharePoint online, OneDrive en Teams bestanden:** Kies de **Help voor versleutelingssleutel aanvragen voor Sharepoint en OneDrive** aanbieding.
+   - **Exchange Online en Skype voor Bedrijven:** Kies de **Help voor versleutelingssleutel aanvragen voor Exchange** aanbieding.
+
+   - **SharePoint online, OneDrive en Teams bestanden:** Kies de **Help voor versleutelingssleutel** aanvragen voor SharePoint en OneDrive voor Bedrijven aanbieding.
 
 5. Nadat u de aanbiedingsdetails hebt bekeken, kiest u **Doorgaan naar stap 2.**
 
@@ -140,7 +124,15 @@ Voordat u contact op neemt met Microsoft 365 team, moet u de volgende stappen ui
    Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.Resources
    ```
 
-3. Neem contact op met Microsoft om het proces te voltooien. Neem voor SharePoint en OneDrive voor Bedrijven team contact [op met spock@microsoft.com.](mailto:spock@microsoft.com) Neem Exchange Online en Skype voor Bedrijven contact [op met exock@microsoft.com.](mailto:exock@microsoft.com) Neem de volgende informatie op in uw e-mail:
+3. Neem contact op met Microsoft om het proces te voltooien.
+
+   - Voor het inschakelen van klantcode voor het toewijzen van DEP aan afzonderlijke Exchange Online postvakken, kunt u contact [opnemen met exock@microsoft.com.](mailto:exock@microsoft.com)
+
+   - Voor het inschakelen van klantcode voor het toewijzen van DEP's om SharePoint Online en OneDrive voor Bedrijven-inhoud (inclusief Teams-bestanden) voor alle tenantgebruikers te versleutelen, neem dan contact [op met spock@microsoft.com.](mailto:spock@microsoft.com)
+
+   - Neem contact op met m365-ck@service.microsoft.com voor het inschakelen van klantsleutel voor het toewijzen van DEP's voor het versleutelen van inhoud voor meerdere Microsoft 365-workloads (Exchange Online, Teams, MIP EDM) [voor alle](mailto:m365-ck@service.microsoft.com)tenantgebruikers.
+
+- Neem de volgende informatie op in uw e-mail:
 
    **Onderwerp**: Klantcode voor \<*Your tenant's fully qualified domain name*\>
 
@@ -171,19 +163,19 @@ Wanneer u een sleutelkluis maakt, moet u een SKU kiezen: standaard of Premium. M
 > [!IMPORTANT]
 > Gebruik de Premium SKU-sleutelkluizen en HSM-beveiligde sleutels voor productiegegevens en gebruik alleen standaard SKU-sleutelkluizen en -sleutels voor test- en validatiedoeleinden.
   
-Voor elke Microsoft 365 waarmee u klantsleutel gebruikt, maakt u een sleutelkluis in elk van de twee Azure-abonnementen die u hebt gemaakt. Voor alleen Exchange Online en Skype voor Bedrijven of SharePoint Online en OneDrive voor Bedrijven maakt u bijvoorbeeld slechts één paar kluizen. Als u Klantcode wilt inschakelen voor Exchange Online en SharePoint Online, maakt u twee paar sleutelkluizen.
+Voor elke Microsoft 365 waarmee u klantsleutel gebruikt, maakt u een sleutelkluis in elk van de twee Azure-abonnementen die u hebt gemaakt. Als u bijvoorbeeld klantsleutel wilt inschakelen om DEP's te gebruiken voor Exchange Online, SharePoint Online en scenario's met meerdere werkbelastingen, maakt u drie paar sleutelkluizen.
   
 Gebruik een naamgevingsconventie voor sleutelkluizen die het beoogde gebruik van de DEP weerspiegelen waarmee u de kluizen koppelt. Zie de onderstaande sectie Aanbevolen procedures voor het benoemen van aanbevelingen voor conventies.
   
-Maak een aparte, gekoppelde set kluizen voor elk gegevensversleutelingsbeleid. Voor Exchange Online wordt het bereik van een gegevensversleutelingsbeleid door u gekozen wanneer u het beleid aan postvak toewijst. Aan een postvak kan slechts één beleid zijn toegewezen en u kunt maximaal 50 beleidsregels maken. Het bereik van een SharePoint onlinebeleid bevat alle gegevens binnen een organisatie op een geografische locatie of _geografische locatie._
+Maak een aparte, gekoppelde set kluizen voor elk gegevensversleutelingsbeleid. Voor Exchange Online wordt het bereik van een gegevensversleutelingsbeleid door u gekozen wanneer u het beleid aan postvak toewijst. Aan een postvak kan slechts één beleid zijn toegewezen en u kunt maximaal 50 beleidsregels maken. Het bereik van een SharePoint onlinebeleid bevat alle gegevens binnen een organisatie op een geografische locatie of _geografische locatie._ Het bereik voor een beleid met meerdere werkbelastingen omvat alle gegevens in de ondersteunde werkbelastingen voor alle gebruikers.
 
 Het maken van sleutelkluizen vereist ook het maken van Azure-resourcegroepen, aangezien sleutelkluizen opslagcapaciteit (hoewel klein) nodig hebben en key vault logging, indien ingeschakeld, ook opgeslagen gegevens genereert. Als aanbevolen praktijk raadt Microsoft aan afzonderlijke beheerders te gebruiken om elke resourcegroep te beheren, met het beheer dat is uitgelijnd met de set beheerders die alle gerelateerde klantcodebronnen beheert.
   
 > [!IMPORTANT]
-> Als u de beschikbaarheid wilt maximaliseren, moeten uw sleutelkluizen zich in regio's in de buurt van uw Microsoft 365 service. Als uw organisatie zich bijvoorbeeld Exchange Online in Noord-Amerika, zet u uw sleutelkluizen in Noord-Amerika. Als uw Exchange Online in Europa is, zet u uw sleutelkluizen in Europa.
-> 
-> Gebruik een gemeenschappelijk voorvoegsel voor sleutelkluizen en voeg een afkorting toe van het gebruik en het bereik van de sleutelkluis en -sleutels (bijvoorbeeld voor de Contoso-SharePoint-service waar de kluizen zich in Noord-Amerika bevinden, een mogelijk paar namen is Contoso-O365SP-NA-VaultA1 en Contoso-O365SP-NA-VaultA2. Kluisnamen zijn wereldwijd unieke tekenreeksen binnen Azure, dus mogelijk moet u variaties van de gewenste namen proberen voor het geval de gewenste namen al worden geclaimd door andere Azure-klanten. Vanaf juli 2017 kunnen kluisnamen niet meer worden gewijzigd, dus het is een goede gewoonte om een schriftelijk plan voor de installatie te hebben en een tweede persoon te gebruiken om te controleren of het plan correct wordt uitgevoerd.
-> 
+> Als u de beschikbaarheid wilt maximaliseren, zet u uw sleutelkluizen in regio's dicht bij uw Microsoft 365-service Als uw Exchange Online-organisatie bijvoorbeeld in Noord-Amerika is, zet u uw sleutelkluizen in Noord-Amerika. Als uw Exchange Online in Europa is, zet u uw sleutelkluizen in Europa.
+>
+> Gebruik een gemeenschappelijk voorvoegsel voor sleutelkluizen en voeg een afkorting toe van het gebruik en het bereik van de sleutelkluis en -sleutels (bijvoorbeeld voor de Contoso-SharePoint-service waar de kluizen zich in Noord-Amerika bevinden, een mogelijk paar namen is Contoso-CK-SP-NA-VaultA1 en Contoso-CK-SP-NA-VaultA2. Kluisnamen zijn wereldwijd unieke tekenreeksen binnen Azure, dus mogelijk moet u variaties van de gewenste namen proberen voor het geval de gewenste namen al worden geclaimd door andere Azure-klanten. Vanaf juli 2017 kunnen kluisnamen niet meer worden gewijzigd, dus het is een goede gewoonte om een schriftelijk plan voor de installatie te hebben en een tweede persoon te gebruiken om te controleren of het plan correct wordt uitgevoerd.
+>
 > Maak indien mogelijk uw kluizen in niet-gekoppelde regio's. Gekoppelde Azure-regio's bieden hoge beschikbaarheid voor servicefoutdomeinen. Daarom kunnen regionale paren worden gebruikt als elkaars back-upgebied. Dit betekent dat een Azure-resource die in één regio is geplaatst, automatisch fouttolerantie krijgt via het gekoppelde gebied. Daarom betekent het kiezen van regio's voor twee kluizen die worden gebruikt in een gegevensversleutelingsbeleid waarbij de regio's zijn gekoppeld, dat er slechts twee regio's van beschikbaarheid worden gebruikt. De meeste regio's hebben slechts twee regio's, dus het is nog niet mogelijk om niet-gekoppelde regio's te selecteren. Kies indien mogelijk twee niet-gekoppelde regio's voor de twee kluizen die worden gebruikt met een gegevensversleutelingsbeleid. Dit komt ten goede aan een totaal van vier regio's met beschikbaarheid. Zie Business Continuity and Disaster Recovery (BCDR): Azure Paired Regions for a current list of regional pairs [(Business continuity and disaster recovery( BCDR): Azure Paired Regions (Business Continuity and Disaster Recovery( BCDR): Azure Paired Regions](/azure/best-practices-availability-paired-regions) (Business Continuity and Disaster Recovery) voor een huidige lijst met regionale paren.
   
 ### <a name="assign-permissions-to-each-key-vault"></a>Machtigingen toewijzen aan elke sleutelkluis
@@ -206,12 +198,14 @@ U moet drie afzonderlijke sets machtigingen definiëren voor elke sleutelkluis, 
    Bijvoorbeeld:
 
    ```powershell
-   Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
+   Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
 - **Key vault contributors** that can change permissions on the Azure Key Vault itself. U moet deze machtigingen wijzigen wanneer werknemers uw team verlaten of lid worden. In de zeldzame situatie dat de beheerders van de sleutelkluis rechtmatig toestemming nodig hebben om een sleutel te verwijderen of te herstellen, moet u ook de machtigingen wijzigen. Aan deze set sleutelkluisbijdragers moet de rol **Inzender** in uw sleutelkluis worden verleend. U kunt deze rol toewijzen met Behulp van Azure Resource Manager. Zie Toegangsbeheer Role-Based Toegangsbeheer gebruiken om toegang tot uw Azure-abonnementsbronnen te beheren voor [gedetailleerde stappen.](/azure/active-directory/role-based-access-control-configure) De beheerder die een abonnement maakt, heeft impliciet deze toegang en de mogelijkheid om andere beheerders toe te wijzen aan de rol Inzender.
 
-- Als u klantsleutel wilt gebruiken met Exchange Online en Skype voor Bedrijven, moet u Microsoft 365 toestemming geven om de sleutelkluis te gebruiken namens Exchange Online en Skype voor Bedrijven. Als u klantcode wilt gebruiken met SharePoint Online en OneDrive voor Bedrijven, moet u machtigingen toevoegen voor de Microsoft 365 om de sleutelkluis te gebruiken namens SharePoint Online en OneDrive voor Bedrijven. Als u toestemming wilt geven Microsoft 365 u de **cmdlet Set-AzKeyVaultAccessPolicy** uit met de volgende syntaxis:
+- **Machtigingen** voor Microsoft 365 voor elke sleutelkluis die u voor Klantsleutel gebruikt, moet u wrapKey geven, uitpakkenKey en machtigingen krijgen voor de bijbehorende Microsoft 365 Service Principal. 
+
+Voer de cmdlet **Set-AzKeyVaultAccessPolicy** uit met de volgende syntaxis om toestemming te geven voor Microsoft 365 service principal:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName <Office 365 appID>
@@ -219,27 +213,26 @@ U moet drie afzonderlijke sets machtigingen definiëren voor elke sleutelkluis, 
 
    Waarbij:
 
-    - *de naam van* de kluis is de naam van de sleutelkluis die u hebt gemaakt.
-
-    - Voor Exchange Online en Skype voor Bedrijven, vervangt u *Office 365 appID* door`00000002-0000-0ff1-ce00-000000000000`
-
-    - Voor SharePoint Online, OneDrive voor Bedrijven en Teams, vervangt u *Office 365 appID* door`00000003-0000-0ff1-ce00-000000000000`
+   - *de naam van* de kluis is de naam van de sleutelkluis die u hebt gemaakt.
+   - Voor Exchange Online en Skype voor Bedrijven, vervangt u *Office 365 appID* door`00000002-0000-0ff1-ce00-000000000000`
+   - Voor SharePoint Online, OneDrive voor Bedrijven en Teams, vervangt u *Office 365 appID* door`00000003-0000-0ff1-ce00-000000000000`
+   - Voor beleid met meerdere werkbelastingen (Exchange, Teams, MIP EDM) dat van toepassing is op alle tenantgebruikers, vervangt u Office 365 *appID* door`c066d759-24ae-40e7-a56f-027002b5d3e4`
 
   Voorbeeld: Machtigingen instellen voor Exchange Online en Skype voor Bedrijven:
 
    ```powershell
-   Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000002-0000-0ff1-ce00-000000000000
+   Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-EX-NA-VaultA1 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000002-0000-0ff1-ce00-000000000000
    ```
 
   Voorbeeld: Machtigingen instellen voor SharePoint Online, OneDrive voor Bedrijven en Teams bestanden:
 
    ```powershell
-   Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365SP-NA-VaultA1 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000003-0000-0ff1-ce00-000000000000
+   Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-SP-NA-VaultA1 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000003-0000-0ff1-ce00-000000000000
    ```
 
-### <a name="enable-and-then-confirm-soft-delete-on-your-key-vaults"></a>Soft Delete inschakelen en vervolgens bevestigen in uw sleutelkluizen
+### <a name="make-sure-soft-delete-is-enabled-on-your-key-vaults"></a>Zorg ervoor dat soft delete is ingeschakeld in uw sleutelkluizen
 
-Wanneer u snel uw sleutels kunt herstellen, is de kans kleiner dat u te maken krijgt met een uitgebreide servicestoring als gevolg van per ongeluk of met opzet verwijderde sleutels. U moet deze configuratie, ook wel Soft Delete genoemd, inschakelen voordat u uw sleutels kunt gebruiken met de klantsleutel. Als u Soft Delete inschakelen, kunt u sleutels of kluizen binnen 90 dagen na verwijdering herstellen zonder ze terug te moeten halen uit een back-up.
+Wanneer u snel uw sleutels kunt herstellen, is de kans kleiner dat u te maken krijgt met een uitgebreide servicestoring als gevolg van per ongeluk of met opzet verwijderde sleutels. Schakel deze configuratie in, ook wel Soft Delete genoemd, in voordat u uw sleutels kunt gebruiken met klantsleutel. Als u Soft Delete inschakelen, kunt u sleutels of kluizen binnen 90 dagen na verwijdering herstellen zonder ze terug te moeten halen uit een back-up.
   
 Als u Soft Delete wilt inschakelen in uw sleutelkluizen, gaat u als volgende stappen te werk:
   
@@ -262,7 +255,7 @@ Als u Soft Delete wilt inschakelen in uw sleutelkluizen, gaat u als volgende sta
 
 ### <a name="add-a-key-to-each-key-vault-either-by-creating-or-importing-a-key"></a>Een sleutel toevoegen aan elke sleutelkluis door een sleutel te maken of te importeren
 
-Er zijn twee manieren om sleutels toe te voegen aan een Azure Key Vault. u kunt een sleutel rechtstreeks in de Sleutelkluis maken of u kunt een sleutel importeren. Het rechtstreeks maken van een sleutel in Key Vault is de minder ingewikkelde methode, terwijl het importeren van een sleutel totale controle biedt over de manier waarop de sleutel wordt gegenereerd. Gebruik de RSA-toetsen. Azure Key Vault biedt geen ondersteuning voor het terugpakken en uitpakken met elliptische curvetoetsen.
+Er zijn twee manieren om sleutels toe te voegen aan een Azure Key Vault. u kunt een sleutel rechtstreeks in de Sleutelkluis maken of u kunt een sleutel importeren. Het maken van een sleutel rechtstreeks in Key Vault is minder ingewikkeld, maar het importeren van een sleutel biedt totale controle over de manier waarop de sleutel wordt gegenereerd. Gebruik de RSA-toetsen. Azure Key Vault biedt geen ondersteuning voor het terugpakken en uitpakken met elliptische curvetoetsen.
   
 Als u een sleutel rechtstreeks in de sleutelkluis wilt maken, kunt u de [cmdlet Add-AzKeyVaultKey](/powershell/module/az.keyvault/add-azkeyvaultkey) als volgt uitvoeren:
   
@@ -284,7 +277,7 @@ Als u de sleutel wilt beveiligen met een HSM, moet u **HSM** opgeven als de waar
 Bijvoorbeeld:
   
 ```powershell
-Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination HSM -KeyOps wrapKey,unwrapKey
+Add-AzKeyVaultKey -VaultName Contoso-CK-EX-NA-VaultA1 -Name Contoso-CK-EX-NA-VaultA1-Key001 -Destination HSM -KeyOps wrapKey,unwrapKey
 ```
 
 Als u een sleutel rechtstreeks in uw sleutelkluis wilt importeren, moet u een nCipher nShield Hardware Security Module hebben.
@@ -293,7 +286,7 @@ Sommige organisaties geven de voorkeur aan deze methode om de herkomst van hun s
   
 - De hulpprogramma's die voor import worden gebruikt, omvatten de bevestiging van nCipher dat de sleutel Exchange-toets (KEK) die wordt gebruikt om de sleutel te versleutelen die u genereert, niet kan worden geëxporteerd en wordt gegenereerd in een echte HSM die is gemaakt door nCipher.
 
-- De toolset bevat een bevestiging van nCipher dat de beveiligingswereld van Azure Key Vault ook is gegenereerd op een echte HSM die door nCipher is gemaakt. Deze bevestiging bewijst u dat Microsoft ook echte nCipher-hardware gebruikt.
+- De toolset bevat een bevestiging van nCipher dat de beveiligingswereld van Azure Key Vault ook is gegenereerd op een echte HSM die door nCipher is gemaakt. Deze bevestiging bewijst dat Microsoft ook legitieme nCipher-hardware gebruikt.
 
 Neem contact op met uw beveiligingsgroep om te bepalen of de bovenstaande bevestigingen vereist zijn. Zie HSM-beveiligde sleutels genereren en overdragen voor Azure Key Vault voor gedetailleerde stappen om een on-premises sleutel te maken en deze te importeren in uw [sleutelkluis.](/azure/key-vault/keys/hsm-protected-keys) Gebruik de Azure-instructies om een sleutel te maken in elke sleutelkluis.
   
@@ -311,7 +304,7 @@ Als  de eigenschap Herstelniveau iets anders retourneert dan een waarde van **He
   
 ### <a name="back-up-azure-key-vault"></a>Back-up maken van Azure Key Vault
 
-Direct na het maken of wijzigen van een sleutel, voert u een back-up uit en kunt u kopieën van de back-up opslaan, zowel online als offline. Offlinekopien mogen niet zijn verbonden met een netwerk, zoals in een fysieke veilige of commerciële opslaglocatie. Ten minste één kopie van de back-up moet worden opgeslagen op een locatie die toegankelijk is in geval van een ramp. De back-up blobs zijn het enige middel om sleutelmateriaal te herstellen als een Sleutelkluissleutel permanent wordt vernietigd of anderszins niet meer kan worden gebruikt. Sleutels die extern zijn in Azure Key Vault en zijn geïmporteerd in Azure Key Vault komen niet in aanmerking als back-up, omdat de metagegevens die nodig zijn voor klantcode om de sleutel te gebruiken, niet aanwezig zijn met de externe sleutel. Alleen een back-up van Azure Key Vault kan worden gebruikt voor het herstellen van bewerkingen met klantsleutel. Daarom moet u een back-up van Azure Key Vault maken nadat u een sleutel hebt geüpload of gemaakt.
+Direct na het maken of wijzigen van een sleutel, voert u een back-up uit en kunt u kopieën van de back-up opslaan, zowel online als offline. Maak geen verbinding met offlinekopieen met een netwerk. Bewaar ze in plaats daarvan op een offlinelocatie, zoals in een fysieke veilige of commerciële opslaglocatie. Ten minste één kopie van de back-up moet worden opgeslagen op een locatie die toegankelijk is als er een ramp optreedt. De back-up blobs zijn het enige middel om sleutelmateriaal te herstellen als een Sleutelkluissleutel permanent wordt vernietigd of anderszins niet meer kan worden gebruikt. Sleutels die extern zijn in Azure Key Vault en zijn geïmporteerd in Azure Key Vault komen niet in aanmerking als back-up omdat de metagegevens die nodig zijn voor klantcode om de sleutel te gebruiken, niet aanwezig zijn met de externe sleutel. Alleen een back-up van Azure Key Vault kan worden gebruikt voor het herstellen van bewerkingen met klantsleutel. Daarom moet u een back-up van Azure Key Vault maken nadat u een sleutel hebt geüpload of gemaakt.
   
 Als u een back-up wilt maken van een Azure Key Vault-sleutel, moet u de [cmdlet Backup-AzKeyVaultKey](/powershell/module/az.keyvault/backup-azkeyvaultkey) als volgt uitvoeren:
 
@@ -330,7 +323,7 @@ Het uitvoerbestand dat het resultaat is van deze cmdlet, is versleuteld en kan n
 Bijvoorbeeld:
   
 ```powershell
-Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
+Backup-AzKeyVaultKey -VaultName Contoso-CK-EX-NA-VaultA1 -Name Contoso-CK-EX-NA-VaultA1-Key001 -OutputFile Contoso-CK-EX-NA-VaultA1-Key001-Backup-20170802.backup
 ```
 
 ### <a name="validate-azure-key-vault-configuration-settings"></a>Configuratie-instellingen voor Azure Key Vault valideren
@@ -356,14 +349,14 @@ Set-AzKeyVaultAccessPolicy -VaultName <vault name> -PermissionsToKeys wrapKey,un
 Bijvoorbeeld voor Exchange Online en Skype voor Bedrijven:
   
 ```powershell
-Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 
+Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-EX-NA-VaultA1 
 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000002-0000-0ff1-ce00-000000000000
 ```
 
 Bijvoorbeeld voor SharePoint Online en OneDrive voor Bedrijven:
   
 ```powershell
-Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365SP-NA-VaultA1
+Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-SP-NA-VaultA1
 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000003-0000-0ff1-ce00-000000000000
 ```
 
@@ -373,7 +366,7 @@ Als u wilt controleren of er geen vervaldatum is ingesteld voor uw sleutels, moe
 Get-AzKeyVaultKey -VaultName <vault name>
 ```
 
-Klantcode kan geen verlopen sleutel gebruiken. Bewerkingen die worden uitgevoerd met een verlopen sleutel, mislukken en kunnen leiden tot een servicestoring. Het is ten zeerste raadzaam dat sleutels die worden gebruikt met klantcode, geen vervaldatum hebben. Een vervaldatum, eenmaal ingesteld, kan niet worden verwijderd, maar kan worden gewijzigd in een andere datum. Als een sleutel moet worden gebruikt met een vervaldatumset, wijzigt u de vervaldatum in 31-12-9999. Toetsen met een vervaldatum die is ingesteld op een andere datum dan 31-12-9999, worden niet Microsoft 365 gevalideerd.
+Klantcode kan geen verlopen sleutel gebruiken. Bewerkingen die worden uitgevoerd met een verlopen sleutel, mislukken en kunnen leiden tot een servicestoring. Het is ten zeerste raadzaam dat sleutels die worden gebruikt met klantcode, geen vervaldatum hebben. Een vervaldatum, eenmaal ingesteld, kan niet worden verwijderd, maar kan worden gewijzigd in een andere datum. Als een sleutel moet worden gebruikt met een vervaldatumset, wijzigt u de vervaldatum in 31-12-9999. Toetsen met een vervaldatum die is ingesteld op een andere datum dan 31-12-9999, worden niet door Microsoft 365 gevalideerd.
   
 Als u een vervaldatum wilt wijzigen die is ingesteld op een andere waarde dan 31-12-9999, moet u de [cmdlet Update-AzKeyVaultKey](/powershell/module/az.keyvault/update-azkeyvaultkey) als volgt uitvoeren:
   
@@ -386,7 +379,7 @@ Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date
   
 ### <a name="obtain-the-uri-for-each-azure-key-vault-key"></a>De URI verkrijgen voor elke Azure Key Vault-toets
 
-Nadat u de sleutelkluizen hebt ingesteld en uw sleutels hebt toegevoegd, kunt u de volgende opdracht uitvoeren om de URI voor de sleutel in elke sleutelkluis te krijgen. U moet deze URL's gebruiken wanneer u elke DEP later maakt en toewijst, dus sla deze gegevens op een veilige plaats op. Voer deze opdracht eenmaal uit voor elke sleutelkluis.
+Nadat u de sleutelkluizen hebt ingesteld en uw sleutels hebt toegevoegd, kunt u de volgende opdracht uitvoeren om de URI voor de sleutel in elke sleutelkluis te krijgen. U gebruikt deze URL's wanneer u elke DEP later maakt en toewijst, dus sla deze informatie op een veilige plaats op. Voer deze opdracht eenmaal uit voor elke sleutelkluis.
   
 In Azure PowerShell:
   
@@ -394,109 +387,9 @@ In Azure PowerShell:
 (Get-AzKeyVaultKey -VaultName <vault name>).Id
 ```
 
-## <a name="office-365-setting-up-customer-key-for-exchange-online-and-skype-for-business"></a>Office 365: Klantcode instellen voor Exchange Online en Skype voor Bedrijven
+## <a name="next-steps"></a>Volgende stappen
 
-Controleer voordat u begint of u de taken hebt voltooid die nodig zijn om Azure Key Vault in te stellen. Zie [Taken uitvoeren in Azure Key Vault en Microsoft FastTrack voor klantcode](#complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key) voor informatie.
-  
-Als u klantcode wilt instellen voor Exchange Online en Skype voor Bedrijven, voltooit u deze stappen door op afstand verbinding te maken met Exchange Online met Windows PowerShell.
-  
-### <a name="create-a-data-encryption-policy-dep-for-use-with-exchange-online-and-skype-for-business"></a>Een dep (Data Encryption Policy) maken voor gebruik met Exchange Online en Skype voor Bedrijven
-
-Een DEP is gekoppeld aan een set sleutels die zijn opgeslagen in Azure Key Vault. U wijst een DEP toe aan een postvak in Microsoft 365. Microsoft 365 gebruikt vervolgens de sleutels die zijn geïdentificeerd in het beleid om het postvak te versleutelen. Als u de DEP wilt maken, hebt u de URL's van de Sleutelkluis nodig die u eerder hebt verkregen. Zie [De URI verkrijgen voor elke Azure Key Vault-sleutel](#obtain-the-uri-for-each-azure-key-vault-key) voor instructies.
-  
-Vergeet niet! Wanneer u een DEP maakt, geeft u twee sleutels op in twee verschillende Azure Key Vaults. Maak deze sleutels in twee afzonderlijke Azure-regio's om te zorgen voor geo-redundantie.
-  
-Als u het DEP wilt maken, gaat u als volgt te werk:
-  
-1. Maak op uw lokale computer, met behulp van een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie, verbinding met Exchange Online [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) in een Windows PowerShell venster.
-
-2. Als u een DEP wilt maken, gebruikt u New-DataEncryptionPolicy cmdlet door de volgende opdracht te typen.
-
-   ```powershell
-   New-DataEncryptionPolicy -Name <PolicyName> -Description "Policy Description" -AzureKeyIDs <KeyVaultURI1>, <KeyVaultURI2>
-   ```
-
-   Waarbij:
-
-   - *PolicyName* is de naam die u wilt gebruiken voor het beleid. Namen kunnen geen spaties bevatten. U kunt bijvoorbeeld USA_mailboxes.
-
-   - *Beleidsbeschrijving* is een gebruiksvriendelijke beschrijving van het beleid om u te helpen onthouden waar het beleid voor is. U kunt spaties opnemen in de beschrijving. Bijvoorbeeld :'Hoofdsleutel voor postvakken in de VS en de regio's'.
-
-   - *KeyVaultURI1* is de URI voor de eerste sleutel in het beleid. Bijvoorbeeld <https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01>.
-
-   - *KeyVaultURI2* is de URI voor de tweede sleutel in het beleid. Bijvoorbeeld <https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02>. Scheid de twee URL's door een komma en een spatie.
-
-   Voorbeeld:
-  
-   ```powershell
-   New-DataEncryptionPolicy -Name USA_mailboxes -Description "Root key for mailboxes in USA and its territories" -AzureKeyIDs https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01, https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02
-   ```
-
-Zie [New-DataEncryptionPolicy voor](/powershell/module/exchange/new-data-encryptionpolicy)gedetailleerde syntaxis- en parametergegevens.
-
-### <a name="assign-a-dep-to-a-mailbox"></a>Een DEP toewijzen aan een postvak
-
-Wijs de DEP toe aan een postvak met de Set-Mailbox cmdlet. Nadat u het beleid hebt toegewezen, Microsoft 365 het postvak versleutelen met de sleutel die is geïdentificeerd in het DEP.
-  
-```powershell
-Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
-```
-
-Waarbij *MailboxIdParameter* een gebruikerspostvak aangeeft. Zie [Postvak instellen](/powershell/module/exchange/set-mailbox)voor meer Set-Mailbox cmdlet.
-
-In hybride omgevingen kunt u een DEP toewijzen aan de on-premises postvakgegevens die worden gesynchroniseerd met uw Exchange Online tenant. Als u een DEP wilt toewijzen aan deze gesynchroniseerde postvakgegevens, gebruikt u de Set-MailUser cmdlet. Zie [on-premises](/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)postvakken met Outlook voor iOS en Android met hybride moderne verificatie voor meer informatie over postvakgegevens in de hybride omgeving.
-
-```powershell
-Set-MailUser -Identity <MailUserIdParameter> -DataEncryptionPolicy <PolicyName>
-```
-
-Waar *MailUserIdParameter* een e-mailgebruiker (ook wel een gebruiker met e-mail genoemd) aangeeft. Zie [Set-MailUser](/powershell/module/exchange/set-mailuser)voor meer Set-MailUser cmdlet.
-  
-### <a name="validate-mailbox-encryption"></a>Postvakversleuteling valideren
-
-Het versleutelen van een postvak kan enige tijd duren. Voor een eerste beleidstoewijzing moet het postvak ook volledig van de ene database naar de andere worden verplaatst voordat de service het postvak kan versleutelen. U wordt aangeraden 72 uur te wachten voordat u versleuteling probeert te valideren nadat u een DEP hebt gewijzigd of de eerste keer dat u een DEP aan een postvak toewijst.
-  
-Gebruik de Get-MailboxStatistics cmdlet om te bepalen of een postvak is versleuteld.
-  
-```powershell
-Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEncrypted
-```
-
-De eigenschap IsEncrypted retourneert een waarde van waar als  het postvak is versleuteld en een waarde van onwaar als het postvak niet is versleuteld.  De tijd waarop postvak wordt verplaatst, is afhankelijk van het aantal postvakken waaraan u voor het eerst een DEP toewijst en de grootte van de postvakken. Als de postvakken niet zijn versleuteld na een week vanaf het moment dat u de DEP hebt toegewezen, neem dan contact op met Microsoft.
-
-## <a name="office-365-setting-up-customer-key-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>Office 365: Klantcode instellen voor SharePoint Online, OneDrive voor Bedrijven en Teams bestanden
-
-Controleer voordat u begint of u de taken hebt voltooid die nodig zijn om Azure Key Vault in te stellen. Zie [Taken uitvoeren in Azure Key Vault en Microsoft FastTrack voor klantcode](#complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key) voor informatie.
-  
-Als u klantcode wilt instellen voor SharePoint Online-, OneDrive voor Bedrijven- en Teams-bestanden, kunt u deze stappen voltooien door op afstand verbinding te maken met SharePoint Online met Windows PowerShell.
-  
-### <a name="create-a-data-encryption-policy-dep-for-each-sharepoint-online-and-onedrive-for-business-geo"></a>Een dep (Data Encryption Policy) maken voor elke SharePoint Online en OneDrive voor Bedrijven geo
-
-U koppelt een DEP aan een set sleutels die zijn opgeslagen in Azure Key Vault. U kunt een DEP toepassen op al uw gegevens op één geografische locatie, ook wel een geo genoemd. Als u de functie multi-geo van Office 365 gebruikt, kunt u één DEP per geo maken met de mogelijkheid om verschillende toetsen per geo te gebruiken. Als u geen multi-geo gebruikt, kunt u één DEP in uw organisatie maken voor gebruik met SharePoint Online, OneDrive voor Bedrijven en Teams bestanden. Microsoft 365 gebruikt de sleutels die zijn geïdentificeerd in de DEP om uw gegevens in die geo te versleutelen. Als u de DEP wilt maken, hebt u de URL's van de Sleutelkluis nodig die u eerder hebt verkregen. Zie [De URI verkrijgen voor elke Azure Key Vault-sleutel](#obtain-the-uri-for-each-azure-key-vault-key) voor instructies.
-  
-Vergeet niet! Wanneer u een DEP maakt, geeft u twee sleutels op in twee verschillende Azure Key Vaults. Maak deze sleutels in twee afzonderlijke Azure-regio's om te zorgen voor geo-redundantie.
-  
-Als u een DEP wilt maken, moet u op afstand verbinding maken met SharePoint Online met behulp van Windows PowerShell.
-  
-1. Gebruik op uw lokale computer een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en Verbinding maken om SharePoint [Online PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?preserve-view=true&view=sharepoint-ps)
-
-2. Voer in Microsoft Office SharePoint Online Management Shell de Register-SPODataEncryptionPolicy als volgt uit:
-
-   ```powershell
-   Register-SPODataEncryptionPolicy -Identity <adminSiteCollectionURL> -PrimaryKeyVaultName <PrimaryKeyVaultName> -PrimaryKeyName <PrimaryKeyName> -PrimaryKeyVersion <PrimaryKeyVersion> -SecondaryKeyVaultName <SecondaryKeyVaultName> -SecondaryKeyName <SecondaryKeyName> -SecondaryKeyVersion <SecondaryKeyVersion>
-   ```
-
-   Voorbeeld:
-  
-   ```powershell
-   Register-SPODataEncryptionPolicy -Identity https://contoso.sharepoint.com -PrimaryKeyVaultName 'stageRG3vault' -PrimaryKeyName 'SPKey3' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'stageRG5vault' -SecondaryKeyName 'SPKey5' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a’
-   ```
-
-   Wanneer u het DEP registreert, wordt versleuteling gestart op de gegevens in de geo. Versleuteling kan enige tijd duren. Zie [Register-SPODataEncryptionPolicy](/powershell/module/sharepoint-online/register-spodataencryptionpolicy?preserve-view=true&view=sharepoint-ps)voor meer informatie over het gebruik van deze parameter.
-
-### <a name="validate-file-encryption"></a>Bestandsversleuteling valideren
-
- Als u versleuteling van SharePoint Online-, OneDrive voor Bedrijven- en Teams-bestanden wilt valideren, maakt u verbinding met [SharePoint Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)en gebruikt u vervolgens de Get-SPODataEncryptionPolicy-cmdlet om de status van uw tenant te controleren. De _eigenschap State_ retourneert een waarde van geregistreerd als Klantsleutelversleuteling is ingeschakeld en alle bestanden op alle sites zijn versleuteld.  Als de versleuteling nog steeds wordt uitgevoerd, geeft deze cmdlet de waarde van **het registreren als resultaat.**
+Nadat u de stappen in dit artikel hebt voltooid, kunt u dep's maken en toewijzen. Zie Klantsleutel beheren [voor instructies.](customer-key-manage.md)
 
 ## <a name="related-articles"></a>Verwante artikelen
 

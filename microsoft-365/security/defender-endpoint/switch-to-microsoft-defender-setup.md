@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/10/2021
+ms.date: 05/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 1047d39c70e230e2765f82da4d687b36c4719b3e
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 2b0032ff03ac58e9ea311af9f0f74abd6092646d
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327462"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345822"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Overschakelen naar Microsoft Defender voor eindpunt - Fase 2: Setup
 
@@ -39,29 +39,40 @@ ms.locfileid: "52327462"
 ||*U bent er!* | |
 
 **Welkom bij de installatiefase van het [overstappen naar Microsoft Defender voor Eindpunt.](switch-to-microsoft-defender-migration.md#the-migration-process)** Deze fase bevat de volgende stappen:
-1. [Schakel Microsoft Defender Antivirus in en bevestig dat het in de passieve modus staat.](#enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode)
-2. [Updates voor Microsoft Defender Antivirus downloaden.](#get-updates-for-microsoft-defender-antivirus)
+
+1. [Schakel Microsoft Defender Antivirus in en bevestig dat deze in de passieve modus staat.](#enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode)
+
+2. [Updates voor Microsoft Defender Antivirus.](#get-updates-for-microsoft-defender-antivirus)
+
 3. [Voeg Microsoft Defender voor Eindpunt toe aan de uitsluitingslijst voor uw bestaande eindpuntoplossing.](#add-microsoft-defender-for-endpoint-to-the-exclusion-list-for-your-existing-solution)
+
 4. [Voeg uw bestaande oplossing toe aan de uitsluitingslijst voor Microsoft Defender Antivirus.](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus)
+
 5. [Stel uw apparaatgroepen, apparaatverzamelingen en organisatie-eenheden in.](#set-up-your-device-groups-device-collections-and-organizational-units)
+
 6. [Antimalware-beleid en realtimebeveiliging configureren.](#configure-antimalware-policies-and-real-time-protection)
 
-## <a name="enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode"></a>Microsoft Defender Antivirus inschakelen en bevestigen dat deze in de passieve modus staat
+## <a name="enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode"></a>De Microsoft Defender Antivirus inschakelen en bevestigen dat deze in de passieve modus staat
 
-In bepaalde versies van Windows, zoals Windows Server, is Microsoft Defender Antivirus mogelijk verwijderd of uitgeschakeld toen uw McAfee-oplossing werd geïnstalleerd. Wanneer u uw eindpunten wilt inschakelen bij Defender voor Eindpunt, voert Microsoft Defender Antivirus niet automatisch de passieve of uitgeschakelde modus in. Bovendien kunt u op Windows Server microsoft Defender Antivirus niet in de actieve modus hebben naast een niet-Microsoft-antivirus-/antimalware-oplossing, zoals McAfee, Symantec of andere. Zie Microsoft Defender Antivirus compatibility (Microsoft Defender [Antivirus compatibility)](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)voor meer informatie over wat er gebeurt met Defender voor endpoint- en antivirusoplossingen.
+In bepaalde versies van Windows, zoals Windows Server, zijn Microsoft Defender Antivirus mogelijk verwijderd of uitgeschakeld toen uw McAfee-oplossing werd geïnstalleerd. Wanneer u klaar bent om uw eindpunten aan te nemen bij Defender voor Eindpunt, wordt Microsoft Defender Antivirus niet automatisch de passieve of uitgeschakelde modus in. Bovendien kunt u op Windows Server geen Microsoft Defender Antivirus in de actieve modus hebben naast een niet-Microsoft-antivirus-/antimalware-oplossing, zoals McAfee, Symantec of andere. Zie voor meer informatie over wat er gebeurt met Defender voor endpoint- en antivirusoplossingen [Microsoft Defender Antivirus compatibiliteit.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 Als u ervoor wilt zorgen dat Microsoft Defender Antivirus is ingeschakeld en in de passieve modus, voltooit u de volgende taken die in dit artikel worden beschreven:
+
 - [DisableAntiSpyware instellen op onwaar op Windows Server](#set-disableantispyware-to-false-on-windows-server)
-- [Microsoft Defender Antivirus opnieuw installeren op Windows Server](#reinstall-microsoft-defender-antivirus-on-windows-server);
-- [Microsoft Defender Antivirus instellen op passieve modus op Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)
-- [Microsoft Defender Antivirus inschakelen op uw Windows-clientapparaten;](#enable-microsoft-defender-antivirus-on-your-windows-client-devices) en
+
+- [Het opnieuw installeren van Microsoft Defender Antivirus op Windows Server](#reinstall-microsoft-defender-antivirus-on-windows-server);
+
+- [Instellen Microsoft Defender Antivirus passieve modus op Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)
+
+- [Het Microsoft Defender Antivirus op uw Windows clientapparaten inschakelen;](#enable-microsoft-defender-antivirus-on-your-windows-client-devices) en
+
 - [Bevestigen dat Microsoft Defender Antivirus is ingesteld op passieve modus.](#confirm-that-microsoft-defender-antivirus-is-in-passive-mode)  
 
 ### <a name="set-disableantispyware-to-false-on-windows-server"></a>DisableAntiSpyware instellen op onwaar op Windows Server
 
-De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) is in het verleden gebruikt om Microsoft Defender Antivirus uit te schakelen en een ander antivirusproduct, zoals McAfee, te implementeren. Over het algemeen moet u deze registersleutel niet op uw Windows-apparaten en -eindpunten hebben. Als u echter wel hebt geconfigureerd, kunt u als volgende de waarde instellen `DisableAntiSpyware` op onwaar:
+De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) is in het verleden gebruikt om Microsoft Defender Antivirus uit te schakelen en een ander antivirusproduct, zoals McAfee, te implementeren. Over het algemeen moet u deze registersleutel niet op uw Windows apparaten en eindpunten hebben. Als u echter wel hebt geconfigureerd, kunt u als volgende de waarde instellen `DisableAntiSpyware` op onwaar:
 
-1. Open registereditor op uw Windows Server-apparaat.
+1. Open registereditor op Windows serverapparaat.
 
 2. Navigeer naar `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` .
 
@@ -76,7 +87,7 @@ De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unat
 > [!TIP]
 > Zie [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware)voor meer informatie over deze registersleutel.
 
-### <a name="reinstall-microsoft-defender-antivirus-on-windows-server"></a>Microsoft Defender Antivirus opnieuw installeren op Windows Server
+### <a name="reinstall-microsoft-defender-antivirus-on-windows-server"></a>Opnieuw Microsoft Defender Antivirus op Windows Server
 
 > [!NOTE]
 > De volgende procedure is alleen van toepassing op eindpunten of apparaten met de volgende versies van Windows:
@@ -84,7 +95,7 @@ De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unat
 > - Windows Server, versie 1803 (alleen-kernmodus)
 > - Windows Server 2016 (zie belangrijke informatie in [Gebruikt u Windows Server 2016?](#are-you-using-windows-server-2016))
 
-1. Open Windows PowerShell als lokale beheerder op het eindpunt of apparaat.
+1. Als een lokale beheerder op het eindpunt of apparaat, opent u Windows PowerShell.
 
 2. Voer de volgende PowerShell-cmdlets uit: <br/>   
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features` <p>
@@ -96,26 +107,26 @@ De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unat
     > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
     > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
 
-3. Gebruik de volgende PowerShell-cmdlet om te controleren of Microsoft Defender Antivirus actief is: <br/>
+3. Gebruik de volgende PowerShell-cmdlet om te controleren of Microsoft Defender Antivirus wordt uitgevoerd: <br/>
    `Get-Service -Name windefend`
 
 #### <a name="are-you-using-windows-server-2016"></a>Gebruikt u Windows Server 2016?
 
-Als u eindpunten hebt met Windows Server 2016, kunt u Microsoft Defender Antivirus niet naast een niet-Microsoft-antivirus-/antimalware-oplossing uitvoeren. Microsoft Defender Antivirus kan niet worden uitgevoerd in de passieve modus op Windows Server 2016. In dit geval moet u de niet-Microsoft-antivirus-/antimalware-oplossing verwijderen en In plaats daarvan Microsoft Defender Antivirus installeren/inschakelen. Zie Compatibiliteit van antivirusoplossingen met Defender voor Eindpunt voor [meer informatie.](microsoft-defender-antivirus-compatibility.md)
+Als u eindpunten hebt die Windows Server 2016, kunt u Microsoft Defender Antivirus naast een niet-Microsoft-antivirus-/antimalware-oplossing uitvoeren. Microsoft Defender Antivirus kan niet worden uitgevoerd in de passieve modus op Windows Server 2016. In dit geval moet u de niet-Microsoft-antivirus-/antimalware-oplossing verwijderen en in plaats daarvan Microsoft Defender Antivirus installeren/inschakelen. Zie Compatibiliteit van antivirusoplossingen met Defender voor Eindpunt voor [meer informatie.](microsoft-defender-antivirus-compatibility.md)
 
-Als u Windows Server 2016 gebruikt en problemen hebt met het inschakelen van Microsoft Defender Antivirus, gebruikt u de volgende PowerShell-cmdlet:
+Als u een Windows Server 2016 gebruikt en problemen hebt met het inschakelen van Microsoft Defender Antivirus, gebruikt u de volgende PowerShell-cmdlet:
 
 `mpcmdrun -wdenable`
 
 > [!TIP]
-> Meer hulp nodig? Zie [Microsoft Defender Antivirus op Windows Server](microsoft-defender-antivirus-on-windows-server.md).
+> Meer hulp nodig? Zie [Microsoft Defender Antivirus op Windows Server.](microsoft-defender-antivirus-on-windows-server.md)
 
-### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>Microsoft Defender Antivirus instellen op passieve modus op Windows Server
+### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>De Microsoft Defender Antivirus op passieve modus instellen op Windows Server
 
 > [!IMPORTANT]
-> U kunt Microsoft Defender Antivirus instellen op passieve modus op Windows Server, versie 1803 of hoger of Windows Server 2019. De passieve modus wordt echter niet ondersteund op Windows Server 2016. Zie Compatibiliteit met antivirusoplossingen met [Microsoft Defender voor Eindpunt voor meer informatie.](defender-compatibility.md)
+> U kunt de Microsoft Defender Antivirus passieve modus instellen op Windows Server, versie 1803 of hoger of Windows Server 2019. De passieve modus wordt echter niet ondersteund op Windows Server 2016. Zie Compatibiliteit met antivirusoplossingen met [Microsoft Defender voor Eindpunt voor meer informatie.](defender-compatibility.md)
 
-Omdat uw organisatie nog steeds uw bestaande oplossing voor eindpuntbeveiliging gebruikt, moet u Microsoft Defender Antivirus instellen op passieve modus. Op die manier kunnen uw bestaande oplossing en Microsoft Defender Antivirus naast elkaar worden uitgevoerd totdat u klaar bent met onboarding bij Microsoft Defender voor Eindpunt.
+Omdat uw organisatie nog steeds uw bestaande oplossing voor eindpuntbeveiliging gebruikt, moet u de Microsoft Defender Antivirus passieve modus instellen. Op die manier kunnen uw bestaande oplossing en Microsoft Defender Antivirus naast elkaar worden uitgevoerd totdat u klaar bent met onboarding bij Microsoft Defender voor Eindpunt.
 
 1. Registereditor openen en vervolgens naar <br/>
    `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
@@ -130,16 +141,16 @@ Omdat uw organisatie nog steeds uw bestaande oplossing voor eindpuntbeveiliging 
 >- [Object voor lokaal groepsbeleid](/windows/security/threat-protection/security-compliance-toolkit-10#what-is-the-local-group-policy-object-lgpo-tool)
 >- [Een pakket in Configuration Manager](/mem/configmgr/apps/deploy-use/packages-and-programs)
 
-### <a name="enable-microsoft-defender-antivirus-on-your-windows-client-devices"></a>Microsoft Defender Antivirus inschakelen op uw Windows-clientapparaten
+### <a name="enable-microsoft-defender-antivirus-on-your-windows-client-devices"></a>Uw Microsoft Defender Antivirus op uw Windows clientapparaten inschakelen
 
-Omdat uw organisatie een niet-Microsoft-antivirusoplossing heeft gebruikt, is Microsoft Defender Antivirus waarschijnlijk uitgeschakeld op de Windows-apparaten van uw organisatie. Bij deze stap van het migratieproces wordt Microsoft Defender Antivirus inschakelen. 
+Omdat uw organisatie een niet-Microsoft-antivirusoplossing gebruikt, is Microsoft Defender Antivirus waarschijnlijk uitgeschakeld op de Windows apparaten van uw organisatie. Bij deze stap van het migratieproces moet u Microsoft Defender Antivirus. 
 
 Als u Microsoft Defender Antivirus wilt inschakelen, raden we u aan Intune te gebruiken. U kunt echter een van de methoden in de volgende tabel gebruiken:
 
 |Methode  |Wat moet u doen?  |
 |---------|---------|
-|[Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**OPMERKING:** Intune is nu Microsoft Endpoint Manager. | 1. Ga naar het [Microsoft Endpoint Manager-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2109431) en meld u aan.<p> 2. Selecteer **Apparaten**  >  **configuratieprofielen** en selecteer vervolgens het profieltype dat u wilt configureren. Zie **Apparaatbeperkingsinstellingen** configureren [in Microsoft Intune](/intune/device-restrictions-configure)als u nog geen profieltype Apparaatbeperkingen hebt gemaakt of als u een nieuw profiel wilt maken.<p> 3. Selecteer **Eigenschappen** en selecteer **vervolgens Configuratie-instellingen: Bewerken.**<p> 4. Breid **Microsoft Defender Antivirus uit.** <p> 5. **Beveiliging via de cloud inschakelen.**<p> 6. Selecteer in **de vervolgkeuze van** Gebruikers vragen vóór voorbeeldinzending de optie **Alle voorbeelden automatisch verzenden.**<p> 7. Selecteer in **de vervolgkeuze** van Mogelijk ongewenste toepassingen detecteren de optie **Inschakelen** of **Controleren.**<p> 8. Selecteer **Controleren + opslaan** en kies vervolgens **Opslaan.**<p>**TIP**: Zie Wat [zijn Microsoft Intune-apparaatprofielen?](/intune/device-profiles)voor meer informatie over Intune-apparaatprofielen, waaronder hoe u hun instellingen kunt maken en configureren.|
-|Configuratiescherm in Windows     |Volg de richtlijnen hier: [Schakel Microsoft Defender Antivirus in.](/mem/intune/user-help/turn-on-defender-windows) <p>**OPMERKING:** In sommige versies van Windows ziet u *mogelijk Windows Defender Antivirus* in plaats van Microsoft Defender *Antivirus.*        |
+|[Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**OPMERKING:** Intune is nu Microsoft Endpoint Manager. | 1. Ga naar het [Microsoft Endpoint Manager en meld](https://go.microsoft.com/fwlink/?linkid=2109431) u aan.<p> 2. Selecteer **Apparaten**  >  **configuratieprofielen** en selecteer vervolgens het profieltype dat u wilt configureren. Als u nog geen  profieltype Apparaatbeperkingen hebt gemaakt of als u een nieuw profiel wilt maken, gaat u naar Instellingen voor apparaatbeperkingen [configureren in](/intune/device-restrictions-configure)Microsoft Intune.<p> 3. Selecteer **Eigenschappen** en selecteer **vervolgens Configuratie-instellingen: Bewerken.**<p> 4. Vouw **de Microsoft Defender Antivirus.** <p> 5. **Beveiliging via de cloud inschakelen.**<p> 6. Selecteer in **de vervolgkeuze van** Gebruikers vragen vóór voorbeeldinzending de optie **Alle voorbeelden automatisch verzenden.**<p> 7. Selecteer in **de vervolgkeuze** van Mogelijk ongewenste toepassingen detecteren de optie **Inschakelen** of **Controleren.**<p> 8. Selecteer **Controleren + opslaan** en kies vervolgens **Opslaan.**<p>**TIP**: Zie Wat zijn Microsoft Intune apparaatprofielen? voor meer informatie [over intune-apparaatprofielen,](/intune/device-profiles)waaronder hoe u hun instellingen kunt maken en configureren.|
+|Configuratiescherm in Windows     |Volg de richtlijnen hier: [Schakel de Microsoft Defender Antivirus.](/mem/intune/user-help/turn-on-defender-windows) <p>**OPMERKING:** Mogelijk ziet *u* Windows Defender Antivirus in plaats van *Microsoft Defender Antivirus* in sommige versies van Windows.        |
 |[Geavanceerd groepsbeleidsbeheer](/microsoft-desktop-optimization-pack/agpm/) <br/>of<br/>[Groepsbeleidsbeheerconsole](/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  | 1. Ga naar **Beheersjablonen voor computerconfiguratie**  >    >  **Windows onderdelen**  >  **Microsoft Defender Antivirus**. <p> 2. Zoek naar een beleid met de naam **Uitschakelen Microsoft Defender Antivirus.**<p> 3. Kies **Beleidsinstelling bewerken** en zorg ervoor dat beleid is uitgeschakeld. Met deze actie kunt u Microsoft Defender Antivirus. <p>**OPMERKING:** Mogelijk ziet *u* Windows Defender Antivirus in plaats van *Microsoft Defender Antivirus* in sommige versies van Windows. |
 
 
@@ -149,8 +160,8 @@ Microsoft Defender Antivirus kan naast uw bestaande oplossing voor eindpuntbevei
 
 |Methode  |Wat moet u doen?  |
 |---------|---------|
-|Opdrachtprompt     | 1. Open opdrachtprompt op Windows apparaat als beheerder. <p> 2. Typ `sc query windefend` en druk op Enter.<p> 3. Bekijk de resultaten om te controleren of Microsoft Defender Antivirus actief is in de passieve modus.         |
-|PowerShell     | 1. Open op Windows apparaat Windows PowerShell als beheerder.<p> 2. Voer de [cmdlet Get-MpComputerStatus](/powershell/module/defender/Get-MpComputerStatus) uit. <p> 3. Zoek in de lijst met resultaten naar **AMRunningMode: Passive Mode** of **AMRunningMode: SxS Passive Mode.**          |
+|Opdrachtprompt     | 1. Open opdrachtprompt op Windows apparaat als beheerder.<p>2. Typ `sc query windefend` en druk op Enter.<p>3. Bekijk de resultaten om te controleren of Microsoft Defender Antivirus actief is in de passieve modus.         |
+|PowerShell     | 1. Open op Windows apparaat Windows PowerShell als beheerder.<p>2. Voer de [cmdlet Get-MpComputerStatus](/powershell/module/defender/Get-MpComputerStatus) uit. <p>3. Zoek in de lijst met resultaten naar **AMRunningMode: Passive Mode** of **AMRunningMode: SxS Passive Mode.**          |
 
 > [!NOTE]
 > Mogelijk ziet u *Windows Defender Antivirus* in plaats *van Microsoft Defender Antivirus* in sommige versies van Windows.
@@ -176,17 +187,21 @@ De specifieke uitsluitingen die u moet configureren, zijn afhankelijk van de ver
 
 |BESTURINGSSYSTEEM |Uitsluitingen |
 |--|--|
-|- Windows 10, [versie 1803](/windows/release-health/status-windows-10-1803) of hoger (Zie [Windows 10 releasegegevens](/windows/release-health/release-information))<br/>- Windows 10, versie 1703 of 1709 met [KB4493441 geïnstalleerd](https://support.microsoft.com/help/4493441) <br/>- [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server, versie 1803](/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`<p>  |
-|- [Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <br/>- [Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>- [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<br/>- [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe`<br/>**OPMERKING:** Waar tijdelijke bestanden van hostcontrole 6\45 verschillende genummerde submappen kunnen zijn. <br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe` |
+|Windows 10, [versie 1803](/windows/release-health/status-windows-10-1803) of hoger (Zie [Windows 10 releasegegevens](/windows/release-health/release-information))<p>Windows 10, versie 1703 of 1709 met [KB4493441 geïnstalleerd](https://support.microsoft.com/help/4493441) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Server, versie 1803](/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`<p>  |
+|[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p>[Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<p>[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<p>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe`<p>**OPMERKING:** Waar tijdelijke bestanden van hostcontrole 6\45 verschillende genummerde submappen kunnen zijn. <p>`C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe` |
 
 ## <a name="add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus"></a>Voeg uw bestaande oplossing toe aan de lijst met uitsluitingen voor Microsoft Defender Antivirus
 
 Tijdens deze stap van het installatieproces voegt u uw bestaande oplossing toe aan de Microsoft Defender Antivirus lijst met uitsluitingen. 
 
 Wanneer u [uitsluitingen toevoegt aan Microsoft Defender Antivirus scans,](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)moet u pad- en procesuitsluitingen toevoegen. Houd rekening met de volgende punten:
+
 - Paduitsluitingen sluiten specifieke bestanden en toegang tot die bestanden uit.
+
 - Uitsluitingen van processen sluiten uit wat een proces raakt, maar sluit het proces zelf niet uit.
+
 - Als u elke uitvoerbare (.exe) als zowel een paduitsluiting als een procesuitsluiting oplijst, wordt het proces en wat het ook raakt, uitgesloten.
+
 - Vermeld uw procesuitsluitingen met hun volledige pad en niet alleen op hun naam. (De methode voor alleen-naam is minder veilig.)
 
 U kunt kiezen uit verschillende methoden om uw uitsluitingen toe te voegen aan Microsoft Defender Antivirus, zoals vermeld in de volgende tabel:
@@ -203,15 +218,17 @@ U kunt kiezen uit verschillende methoden om uw uitsluitingen toe te voegen aan M
 
 | Verzamelingstype | Wat moet u doen? |
 |--|--|
-|[Met apparaatgroepen](/microsoft-365/security/defender-endpoint/machine-groups) (voorheen machinegroepen genoemd) kan uw beveiligingsteam beveiligingsfuncties configureren, zoals geautomatiseerd onderzoek en herstel.<br/> Apparaatgroepen zijn ook handig voor het toewijzen van toegang tot deze apparaten, zodat uw team voor beveiligingsbewerkingen indien nodig herstelacties kan uitvoeren. <br/>Apparaatgroepen worden gemaakt in de Microsoft Defender-beveiligingscentrum. |1. Ga naar de Microsoft Defender-beveiligingscentrum ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ).<p>2. Kies in het navigatiedeelvenster aan de linkerkant **Instellingen**  >  **Machtigingen**  >  **Apparaatgroepen**.  <p>3. Kies **+ Apparaatgroep toevoegen.**<p>4. Geef een naam en beschrijving op voor de apparaatgroep.<p>5. Selecteer een optie in de lijst **Automatiseringsniveau.** (We raden **u aan om bedreigingen automatisch te** corrigeren .) Zie Hoe bedreigingen worden gesaneerd voor meer informatie over de verschillende [automatiseringsniveaus.](/microsoft-365/security/defender-endpoint/automated-investigations#how-threats-are-remediated)<p>6. Geef voorwaarden op voor een overeenkomende regel om te bepalen welke apparaten tot de apparaatgroep behoren. U kunt bijvoorbeeld een domein, besturingssysteemversies of zelfs apparaatlabels [gebruiken.](/microsoft-365/security/defender-endpoint/machine-tags)<p>7. Geef op **het tabblad Gebruikerstoegang** rollen op die toegang moeten hebben tot de apparaten die zijn opgenomen in de apparaatgroep. <p>8. Kies **Klaar**. |
-|[Met apparaatverzamelingen](/mem/configmgr/core/clients/manage/collections/introduction-to-collections) kan uw beveiligingsteam toepassingen beheren, nalevingsinstellingen implementeren of software-updates installeren op de apparaten in uw organisatie.<br/>Apparaatverzamelingen worden gemaakt met [Configuration Manager.](/mem/configmgr/) |Volg de stappen in [Een verzameling maken.](/mem/configmgr/core/clients/manage/collections/create-collections#bkmk_create) |
-|[Met organisatie-eenheden](/azure/active-directory-domain-services/create-ou) kunt u objecten, zoals gebruikersaccounts, serviceaccounts of computeraccounts, logisch groeperen. Vervolgens kunt u beheerders toewijzen aan specifieke organisatie-eenheden en groepsbeleid toepassen om gerichte configuratie-instellingen af te dwingen.<br/> Organisatie-eenheden worden gedefinieerd in [Azure Active Directory Domain Services.](/azure/active-directory-domain-services) | Volg de stappen in [Een organisatie-eenheid maken in een Azure Active Directory Domeinservices beheerd domein.](/azure/active-directory-domain-services/create-ou) |
+|[Met apparaatgroepen](/microsoft-365/security/defender-endpoint/machine-groups) (voorheen *machinegroepen* genoemd) kan uw beveiligingsteam beveiligingsfuncties configureren, zoals geautomatiseerd onderzoek en herstel.<p>Apparaatgroepen zijn ook handig voor het toewijzen van toegang tot deze apparaten, zodat uw team voor beveiligingsbewerkingen indien nodig herstelacties kan uitvoeren. <p>Apparaatgroepen worden gemaakt in de Microsoft Defender-beveiligingscentrum. |1. Ga naar de Microsoft Defender-beveiligingscentrum ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ).<p>2. Kies in het navigatiedeelvenster aan de linkerkant **Instellingen**  >  **Machtigingen**  >  **Apparaatgroepen**.  <p>3. Kies **+ Apparaatgroep toevoegen.**<p>4. Geef een naam en beschrijving op voor de apparaatgroep.<p>5. Selecteer een optie in de lijst **Automatiseringsniveau.** (We raden **u aan om bedreigingen automatisch te** corrigeren .) Zie Hoe bedreigingen worden gesaneerd voor meer informatie over de verschillende [automatiseringsniveaus.](/microsoft-365/security/defender-endpoint/automated-investigations#how-threats-are-remediated)<p>6. Geef voorwaarden op voor een overeenkomende regel om te bepalen welke apparaten tot de apparaatgroep behoren. U kunt bijvoorbeeld een domein, besturingssysteemversies of zelfs apparaatlabels [gebruiken.](/microsoft-365/security/defender-endpoint/machine-tags)<p>7. Geef op **het tabblad Gebruikerstoegang** rollen op die toegang moeten hebben tot de apparaten die zijn opgenomen in de apparaatgroep. <p>8. Kies **Klaar**. |
+|[Met apparaatverzamelingen](/mem/configmgr/core/clients/manage/collections/introduction-to-collections) kan uw beveiligingsteam toepassingen beheren, nalevingsinstellingen implementeren of software-updates installeren op de apparaten in uw organisatie.<p>Apparaatverzamelingen worden gemaakt met [Configuration Manager.](/mem/configmgr/) |Volg de stappen in [Een verzameling maken.](/mem/configmgr/core/clients/manage/collections/create-collections#bkmk_create) |
+|[Met organisatie-eenheden](/azure/active-directory-domain-services/create-ou) kunt u objecten, zoals gebruikersaccounts, serviceaccounts of computeraccounts, logisch groeperen. Vervolgens kunt u beheerders toewijzen aan specifieke organisatie-eenheden en groepsbeleid toepassen om gerichte configuratie-instellingen af te dwingen.<p> Organisatie-eenheden worden gedefinieerd in [Azure Active Directory Domain Services.](/azure/active-directory-domain-services) | Volg de stappen in [Een organisatie-eenheid maken in een Azure Active Directory Domeinservices beheerd domein.](/azure/active-directory-domain-services/create-ou) |
 
 ## <a name="configure-antimalware-policies-and-real-time-protection"></a>Antimalware-beleid en realtimebeveiliging configureren
 
 Configureer uw antimalwarebeleid met Behulp van Configuration Manager en uw apparaatverzameling(en).
+
 - Zie [Antimalware-beleid maken](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies)en implementeren voor Endpoint Protection in Configuration Manager.
-- Terwijl u uw antimalwarebeleid maakt en configureert, controleert u de [realtime](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) beveiligingsinstellingen en stelt u blok op het [eerste gezicht in.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
+
+- Terwijl u uw antimalwarebeleid maakt en configureert, controleert u de [realtime](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) beveiligingsinstellingen en stelt u blok op het [eerste gezicht in.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 
 > [!TIP]
 > U kunt het beleid implementeren vóór de apparaten van uw organisatie in onboarded.

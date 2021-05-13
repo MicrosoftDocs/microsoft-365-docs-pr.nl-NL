@@ -18,18 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34feeec0f8c34748678862b9aa7b20f84087eb5e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 29e9eefdf85c80b6d3c44eba01d0df57be0193a4
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934523"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346388"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Resources voor Microsoft Defender voor Eindpunt op macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
+
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -51,7 +52,7 @@ Als u een probleem kunt reproduceren, kunt u het logboekregistratieniveau verhog
 
 2. Het probleem reproduceren
 
-3. Voer `sudo mdatp diagnostic create` een back-up van de Logboeken van Microsoft Defender voor Eindpunt uit. De bestanden worden opgeslagen in een ZIP-archief. Met deze opdracht wordt ook het bestandspad naar de back-up afgedrukt nadat de bewerking is geslaagd.
+3. Voer `sudo mdatp diagnostic create` een back-up van de Logboeken van Microsoft Defender voor Eindpunt uit. De bestanden worden opgeslagen in een .zip archief. Met deze opdracht wordt ook het bestandspad naar de back-up afgedrukt nadat de bewerking is geslaagd.
 
    > [!TIP]
    > Diagnostische logboeken worden standaard opgeslagen in `/Library/Application Support/Microsoft/Defender/wdavdiag/` . Als u de adreslijst wilt wijzigen waarin diagnostische logboeken worden opgeslagen, gaat u naar de onderstaande `--path [directory]` opdracht en vervangt u deze door de `[directory]` gewenste adreslijst.
@@ -59,6 +60,7 @@ Als u een probleem kunt reproduceren, kunt u het logboekregistratieniveau verhog
    ```bash
    sudo mdatp diagnostic create
    ```
+
    ```console
    Diagnostic file created: "/Library/Application Support/Microsoft/Defender/wdavdiag/932e68a8-8f2e-4ad0-a7f2-65eb97c0de01.zip"
    ```
@@ -68,6 +70,7 @@ Als u een probleem kunt reproduceren, kunt u het logboekregistratieniveau verhog
    ```bash
    mdatp log level set --level info
    ```
+
    ```console
    Log level configured successfully
    ```
@@ -88,8 +91,7 @@ Er zijn verschillende manieren om Microsoft Defender voor Eindpunt op macOS te v
 
 ### <a name="from-the-command-line"></a>Vanuit de opdrachtregel
 
-- ```sudo rm -rf '/Applications/Microsoft Defender ATP.app'```
-- ```sudo rm -rf '/Library/Application Support/Microsoft/Defender/'```
+- ```sudo '/Library/Application Support/Microsoft/Defender/uninstall/uninstall'```
 
 ## <a name="configuring-from-the-command-line"></a>Configureren vanaf de opdrachtregel
 
@@ -117,7 +119,7 @@ Belangrijke taken, zoals het beheren van productinstellingen en het activeren va
 |Beveiliging   |Een volledige scan uitvoeren                             |`mdatp scan full`                                                                 |
 |Beveiliging   |Een lopende scan op aanvraag annuleren           |`mdatp scan cancel`                                                               |
 |Beveiliging   |Een beveiligingsintelligentie-update aanvragen     |`mdatp definitions update`                                                        |
-|EDR          |Groepslabel toevoegen aan apparaat. EDR-tags worden gebruikt voor het beheren van apparaatgroepen. Ga voor meer informatie naar https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
+|EDR          |Groepslabel toevoegen aan apparaat. EDR tags worden gebruikt voor het beheren van apparaatgroepen. Ga voor meer informatie naar https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
 |EDR          |Groepslabel van apparaat verwijderen               |`mdatp edr tag remove --tag-name [name]`                                          |
 |EDR          |Groeps-id toevoegen                               |`mdatp edr group-ids --group-id [group]`                                          |
 
@@ -158,4 +160,4 @@ Automatisch aanvullen inschakelen in zsh:
 
 ## <a name="microsoft-defender-for-endpoint-portal-information"></a>Microsoft Defender voor endpoint-portalgegevens
 
-[De EDR-mogelijkheden](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/edr-capabilities-for-macos-have-now-arrived/ba-p/1047801)voor macOS zijn nu aangekomen op de Microsoft Defender voor Eindpunt-blog en bieden gedetailleerde richtlijnen voor wat u kunt verwachten in het Microsoft Defender for Endpoint Security Center.
+EDR mogelijkheden voor [macOS](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/edr-capabilities-for-macos-have-now-arrived/ba-p/1047801)zijn nu aangekomen , op de Microsoft Defender voor Eindpunt-blog, biedt gedetailleerde richtlijnen over wat u kunt verwachten in het Microsoft Defender for Endpoint Security Center.

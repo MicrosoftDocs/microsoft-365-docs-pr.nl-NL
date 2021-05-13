@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: fc04db0c9fe8ee6d09efc9802ab4a747af0b3e9c
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: fc952ceec7d26d853e39cab0a803daace62a4767
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326676"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345883"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken inschakelen
 
@@ -36,14 +36,14 @@ ms.locfileid: "52326676"
 
 [Asr-regels (Attack Surface Reduction Rules)](attack-surface-reduction.md) helpen voorkomen dat malware vaak misbruik maakt van apparaten en netwerken.
 
-**Vereisten** U kunt regels voor het verminderen van aanvallen instellen voor apparaten met een van de volgende versies en versies van Windows:
+**Vereisten** U kunt regels voor de beperking van de surface voor aanvallen instellen voor apparaten met een van de volgende versies en versies van Windows:
 
-- Windows 10 Pro, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
-- Windows 10 Enterprise, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Pro, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Enterprise, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Hoewel voor regels voor het verminderen van aanvallen geen [Windows E5-licentie](/windows/deployment/deploy-enterprise-licenses)is vereist, krijgt u geavanceerde beheermogelijkheden als u Windows E5 hebt. Deze mogelijkheden zijn alleen beschikbaar in Windows E5, zoals monitoring, analyse en werkstromen die beschikbaar zijn in [Defender voor Eindpunt,](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)evenals rapportage- en configuratiemogelijkheden in het [Microsoft 365-beveiligingscentrum.](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true) Deze geavanceerde mogelijkheden zijn niet beschikbaar met een Windows Professional- of Windows E3-licentie. Als u echter wel over deze licenties hebt, kunt u logboeken eventviewer en Microsoft Defender Antivirus gebruiken om de gebeurtenissen van de surface reduction rule van uw aanval te bekijken.
+Hoewel voor de regels voor het verminderen van aanvallen geen [E5-licentie](/windows/deployment/deploy-enterprise-licenses)Windows vereist, krijgt u geavanceerde beheermogelijkheden als u Windows E5 hebt. Deze mogelijkheden zijn alleen beschikbaar in Windows E5, zoals monitoring, analyse en werkstromen die beschikbaar zijn in [Defender voor](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)Eindpunt, evenals rapportage- en configuratiemogelijkheden in het [Microsoft 365 beveiligingscentrum.](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true) Deze geavanceerde mogelijkheden zijn niet beschikbaar met een Windows Professional- of Windows E3-licentie. Als u echter wel over deze licenties hebt, kunt u Gebeurtenisviewer en logboeken Microsoft Defender Antivirus om de gebeurtenissen in de surface reduction rule van uw aanval te bekijken.
 
 Elke ASR-regel bevat een van de vier instellingen:
 
@@ -55,10 +55,10 @@ Elke ASR-regel bevat een van de vier instellingen:
 > [!IMPORTANT]
 > Momenteel wordt de waarschuwingsmodus niet ondersteund voor drie ASR-regels wanneer u ASR-regels configureert in Microsoft Endpoint Manager (MEM). Zie Gevallen waarin de [waarschuwingsmodus niet wordt ondersteund](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)voor meer informatie.
 
-Het wordt ten zeerste aanbevolen om ASR-regels te gebruiken met een Windows E5-licentie (of soortgelijke licentie-SKU) om te profiteren van de geavanceerde controle- en rapportagemogelijkheden die beschikbaar zijn in [Microsoft Defender voor](https://docs.microsoft.com/windows/security/threat-protection) Eindpunt (Defender voor Eindpunt). Voor andere licenties, zoals Windows Professional of E3 die geen toegang hebben tot geavanceerde monitoring- en rapportagemogelijkheden, kunt u echter uw eigen hulpprogramma's voor monitoring en rapportage ontwikkelen boven op de gebeurtenissen die op elk eindpunt worden gegenereerd wanneer ASR-regels worden geactiveerd (bijvoorbeeld Gebeurtenis doorsturen).
+Het wordt ten zeerste aanbevolen om ASR-regels te gebruiken met een Windows E5-licentie (of soortgelijke licentie-SKU) om te profiteren van de geavanceerde controle- en rapportagemogelijkheden die beschikbaar zijn in [Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection) voor Eindpunt (Defender voor Eindpunt). Voor andere licenties, zoals Windows Professional of E3 die geen toegang hebben tot geavanceerde controle- en rapportagemogelijkheden, kunt u echter uw eigen hulpprogramma's voor monitoring en rapportage ontwikkelen boven op de gebeurtenissen die op elk eindpunt worden gegenereerd wanneer ASR-regels worden geactiveerd (bijvoorbeeld Gebeurtenis doorsturen).
 
 > [!TIP]
-> Zie Windows [10 Licensing](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) voor meer informatie over Windows-licenties en de [handleiding Volumelicenties voor Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
+> Zie Licenties Windows licenties voor meer [Windows 10 Windows](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) en ontvang de handleiding [Volumelicenties voor Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
 
 U kunt regels voor het verminderen van de surface van aanvallen inschakelen met behulp van een van deze methoden:
 
@@ -68,7 +68,7 @@ U kunt regels voor het verminderen van de surface van aanvallen inschakelen met 
 - [Groepsbeleid](#group-policy)
 - [PowerShell](#powershell)
 
-Beheer op ondernemingsniveau, zoals Intune of Microsoft Endpoint Manager, wordt aanbevolen. Ondernemingsbeheer overschrijft alle conflicterende groepsbeleids- of PowerShell-instellingen bij het opstarten.
+Beheer op ondernemingsniveau, zoals Intune of Microsoft Endpoint Manager wordt aanbevolen. Ondernemingsbeheer overschrijft alle conflicterende groepsbeleids- of PowerShell-instellingen bij het opstarten.
 
 ## <a name="exclude-files-and-folders-from-asr-rules"></a>Bestanden en mappen uitsluiten van ASR-regels
 
@@ -88,9 +88,9 @@ De volgende procedures voor het inschakelen van ASR-regels bevatten instructies 
 
 ## <a name="intune"></a>Intune
 
-1. Selecteer **Apparaatconfiguratieprofielen.**  >   Kies een bestaand eindpuntbeveiligingsprofiel of maak een nieuw profiel. Als u een nieuw profiel wilt maken, **selecteert u Profiel maken** en voert u informatie voor dit profiel in. Selecteer **Voor profieltype** de optie **Eindpuntbeveiliging.** Als u een bestaand profiel hebt gekozen, **selecteert** u Eigenschappen en selecteert u **vervolgens Instellingen**.
+1. Selecteer **Apparaatconfiguratieprofielen.**  >   Kies een bestaand eindpuntbeveiligingsprofiel of maak een nieuw profiel. Als u een nieuw profiel wilt maken, **selecteert u Profiel maken** en voert u informatie voor dit profiel in. Selecteer **Voor profieltype** de optie **Eindpuntbeveiliging.** Als u een bestaand profiel hebt gekozen, **selecteert** u Eigenschappen en selecteert u **Instellingen.**
 
-2. Selecteer in **het deelvenster Endpoint** protection **de optie Windows Defender Exploit Guard** en selecteer vervolgens Attack Surface **Reduction**. Selecteer de gewenste instelling voor elke ASR-regel.
+2. Selecteer in **het deelvenster Endpoint-beveiliging** **Windows Defender Exploit Guard** en selecteer vervolgens Attack Surface **Reduction.** Selecteer de gewenste instelling voor elke ASR-regel.
 
 3. Voer **onder Attack Surface Reduction uitzonderingen** afzonderlijke bestanden en mappen in. U kunt ook Importeren **selecteren om** een CSV-bestand te importeren dat bestanden en mappen bevat om uit te sluiten van ASR-regels. Elke regel in het CSV-bestand moet als volgt worden opgemaakt:
 
@@ -128,7 +128,7 @@ Voorbeeld:
 
 ## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
 
-1. Ga in Microsoft Endpoint Configuration Manager naar **Assets and Compliance**  >  **Endpoint Protection**  >  **Windows Defender Exploit Guard**.
+1. Ga Microsoft Endpoint Configuration Manager naar Assets **and Compliance**  >  **Endpoint Protection**  >  **Windows Defender Exploit Guard**.
 
 2. Selecteer **Home**  >  **Create Exploit Guard Policy**.
 
@@ -149,7 +149,7 @@ Voorbeeld:
 
 2. Ga in de **Groepsbeleidsbeheereditor** naar **Computerconfiguratie** en selecteer **Beheersjablonen**.
 
-3. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Microsoft Defender Exploit  >  **Guard** Attack  >  **surface reduction**.
+3. Vouw de structuur uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Microsoft Defender Exploit Guard**  >  **Attack surface reduction**.
 
 4. Selecteer **Aanvalsoppervlakbeperkingsregels configureren** en selecteer **Ingeschakeld.** Vervolgens kunt u de afzonderlijke status voor elke regel instellen in de sectie Opties.
 
@@ -184,7 +184,7 @@ U kunt een Microsoft Endpoint Manager (MEM)-beheercentrum gebruiken om aangepast
 
    ![PROFIELKENMERKEN VAN MEM-regels](images/mem02-profile-attributes.png)
 
-3. Het hulpprogramma Aangepaste sjabloon wordt geopend voor stap **1 Basisbeginselen.** Typ **in 1** Basisbeginselen in **Naam** een naam voor uw sjabloon en in **Beschrijving** kunt u een optionele beschrijving typen.
+3. Het hulpprogramma Aangepaste sjabloon wordt geopend voor stap **1 Basisbeginselen.** Typ **in 1** Basisbeginselen in **Naam** een naam voor uw sjabloon en in **Beschrijving** kunt u een beschrijving typen (optioneel).
 
    ![BASISKENMERKEN VAN MEM](images/mem03-1-basics.png)
 
@@ -223,7 +223,7 @@ U kunt een Microsoft Endpoint Manager (MEM)-beheercentrum gebruiken om aangepast
    - Selecteer **in Eigenschap** de eigenschap waarop u deze regel wilt toepassen
    - Voer **in Waarde** de toepasselijke waarde of het waardebereik in
 
-   ![Regels voor mem-toepassing](images/mem07-5-applicability -rules.png)
+   ![Regels voor mem-toepassing](images/mem07-5-applicability-rules.png)
 
 10. Klik op **Volgende**. Controleer in **stap 6 Controleren + maken** de instellingen en informatie die u hebt geselecteerd en ingevoerd en klik vervolgens op **Maken.**
 
@@ -260,6 +260,12 @@ U kunt een Microsoft Endpoint Manager (MEM)-beheercentrum gebruiken om aangepast
     ```PowerShell
     Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Warn
     ```
+
+    Gebruik de volgende cmdlet om misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's in te stellen:
+
+   ```PowerShell
+   "& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
+   ```
 
     Als u ASR-regels wilt uitschakelen, gebruikt u de volgende cmdlet:
 

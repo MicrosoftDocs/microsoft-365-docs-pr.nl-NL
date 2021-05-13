@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55c22c9901f163fdf64e6148d5b2c19e51136bc1
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: a9755542b608c8ed7d3cd93bebbd764fd56b9768
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52162856"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332712"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -67,7 +67,7 @@ De weergegeven nummers zijn de minimale versies van Office-toepassingen die voor
 |[Activiteit van gebruikers in verband met labels controleren](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | Wordt geïmplementeerd: 16.0.13628+ | Ja <sup>\*</sup>                                                        |
 |[Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | Wordt geïmplementeerd: 16.45+         | Wordt geïmplementeerd: 2.47+ | Wordt geïmplementeerd: 16.0.13628+ | Wordt geïmplementeerd                                            
 |[Een vertrouwelijkheidslabel automatisch op inhoud toepassen](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Wordt geïmplementeerd: 16.44+ | Ter beoordeling | Ter beoordeling | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Ondersteuning voor cocreatie en automatisch opslaan](sensitivity-labels-coauthoring.md) voor gelabelde en versleutelde documenten | Preview: [Huidig kanaal (preview)](https://office.com/insider) | Preview: [Bèta-kanaal](https://office.com/insider) | Ter beoordeling | Ter beoordeling | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Ondersteuning voor cocreatie en automatisch opslaan](sensitivity-labels-coauthoring.md) voor gelabelde en versleutelde documenten | Preview: [Huidig kanaal (preview)](https://office.com/insider) | Preview: [Huidig kanaal (preview)](https://office.com/insider) | Ter beoordeling | Ter beoordeling | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
 **Voetnoot:**
@@ -89,7 +89,7 @@ De weergegeven nummers zijn de minimale versies van Office-toepassingen die voor
 |[Nu machtigingen toewijzen](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
 |[Gebruikers machtigingen laten toewijzen: <br /> - Niet doorsturen](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
 |[Gebruikers machtigingen laten toewijzen: <br /> - Alleen-versleutelen](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ | 4.2112.0+  | 4.2112.0+ | Ja |
-|[Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | Wordt geïmplementeerd: 4.2111+            | Wordt geïmplementeerd: 4.2111+                | Ja                |
+|[Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | Ja                |
 |[Activiteit van gebruikers in verband met labels controleren](data-classification-activity-explorer.md) | 2011+ | Ter beoordeling | Ter beoordeling           | Ter beoordeling               | Ter beoordeling |
 |[Een vertrouwelijkheidslabel automatisch op inhoud toepassen](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | Ter beoordeling           | Ter beoordeling               | Ja |
 |[Verschillende instellingen voor standaardlabels en verplicht labelen](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | Wordt geïmplementeerd in preview: [bèta-kanaal](https://office.com/insider)                      | 16.43.1108+                   | 4.2111+           | 4.2111+               | Ja |
@@ -134,7 +134,7 @@ Voor Microsoft Word 2016, Excel 2016, PowerPoint 2016 en Outlook 2016 geeft u de
 | | | 
 
 
-Implementeer deze instelling via groepsbeleid of met behulp van de [Office-cloudbeleidsservice](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
+Implementeer deze instelling via groepsbeleid of met behulp van de [Office-cloudbeleidsservice](/DeployOffice/overview-office-cloud-policy-service).
 
 > [!NOTE]
 > Als u de groepsbeleidsinstelling **De functie Vertrouwelijkheid in Office gebruiken om vertrouwelijkheidslabels toe te passen en weer te geven** gebruikt en deze instelt op **1**, zijn er situaties waarin de Azure Information Protection-client mogelijk nog steeds wordt geladen in Office-apps. Door het laden van de invoegtoepassing in elke app te blokkeren, wordt dit voorkomen.

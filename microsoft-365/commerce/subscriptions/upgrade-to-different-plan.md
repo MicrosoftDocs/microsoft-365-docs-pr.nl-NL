@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Meer informatie over het upgraden naar een ander abonnement.
 ms.date: 04/21/2021
-ms.openlocfilehash: 2cfb5c3c6c5052a813e7dd078f15b6c0c943b004
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 4882ad4296eb05faf0bb549ebf850562a7ebf780
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333099"
+ms.locfileid: "52344612"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
 
@@ -99,7 +99,7 @@ U kunt [abonnementen handmatig wijzigen of](change-plans-manually.md) ondersteun
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>U hebt twee of meer abonnementen voor hetzelfde product
 
-U kunt het tabblad **Upgrade alleen** gebruiken als alle gebruikers zich abonneren op hetzelfde abonnement. Als u bijvoorbeeld twee Microsoft 365 Business Standard-abonnementen hebt, kunt u een van deze abonnementen niet automatisch upgraden naar een ander abonnement.
+U kunt het tabblad **Upgrade alleen** gebruiken als alle gebruikers zich abonneren op hetzelfde abonnement. Als u bijvoorbeeld twee Microsoft 365 Business Standard hebt, kunt u een van deze abonnementen niet automatisch upgraden naar een ander abonnement.
 
 #### <a name="you-have-a-prepaid-plan"></a>U hebt een vooraf betaald abonnement
 
@@ -147,7 +147,7 @@ Als uw oude abonnement meerdere services bevat en als u hebt gewijzigd aan welke
   
 Als u meerdere abonnementen hebt voordat u een upgrade maakt en gebruikers licenties hebt toegewezen aan meer dan één abonnement, wordt dit toewijzingspatroon zo veel mogelijk bewaard in het nieuwe abonnement.
   
-Alle gebruikersgegevens worden bewaard tijdens de upgrade, inclusief Exchange-postvakken en SharePoint Online-documenten, lijsten en andere informatie.
+Alle gebruikersgegevens worden bewaard tijdens de upgrade, Exchange postvakken en SharePoint onlinedocumenten, lijsten en andere informatie.
   
 ### <a name="billing"></a>Facturering
 
@@ -165,4 +165,4 @@ De dag dat de upgrade van uw abonnement is voltooid, wordt de facturering van uw
 ## <a name="related-content"></a>Verwante inhoud
 
 [Abonnementen handmatig wijzigen](change-plans-manually.md) (artikel)\
-[Een back-up maken van gegevens voordat u overschakelt naar abonnementen van Microsoft 365 voor](back-up-data-before-switching-plans.md) Bedrijven (artikel)
+[Een back-up maken van gegevens voordat Microsoft 365 abonnementen voor bedrijven](back-up-data-before-switching-plans.md) (artikel)

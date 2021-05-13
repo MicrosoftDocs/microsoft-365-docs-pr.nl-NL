@@ -1,5 +1,5 @@
 ---
-title: Netwerkconnectiviteit in het Microsoft 365 beheercentrum (voorbeeld)
+title: Netwerkconnectiviteit in het Microsoft 365 beheercentrum
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -14,15 +14,15 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
-description: Overzicht van netwerkconnectiviteit in Microsoft 365 beheercentrum (voorbeeld)
-ms.openlocfilehash: 4f88b3ad5bf8f0c32059a26348a651a6024ad544
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Overzicht van netwerkconnectiviteit in het Microsoft 365 beheercentrum
+ms.openlocfilehash: 75451a73ed56dade796f6de288f7f4acfb147960
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245766"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470640"
 ---
-# <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkconnectiviteit in het Microsoft 365 beheercentrum (voorbeeld)
+# <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Netwerkconnectiviteit in het Microsoft 365 beheercentrum
 
 Het Microsoft 365-beheercentrum bevat nu statistische netwerkconnectiviteitsgegevens die zijn verzameld vanuit uw Microsoft 365 tenant en die alleen kunnen worden bekeken door beheerders in uw tenant.
 

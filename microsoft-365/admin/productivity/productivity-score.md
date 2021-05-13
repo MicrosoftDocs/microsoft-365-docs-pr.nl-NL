@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Overzicht van Microsoft productiviteitsscore.
-ms.openlocfilehash: 0eac22eadd099ebe4c7efbdf1198f6dc576dc080
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 1d5e163e6ec8a394065c09e51879582d101a75bf
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876129"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345236"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 
@@ -63,7 +63,7 @@ Je productiviteitsscore is gebaseerd op de gecombineerde scores van jouw gebruik
 - Gezondheid van Microsoft 365-apps (100 punten)
 - **Maximum totaal = 800 punten**
  
- In elke categorie kwantificeren we de kernindicatoren voor hoe je organisatie Microsoft 365 gebruikt tijdens je digitale transformatie. We bieden een 28-dagen- en 180-dagenweergave voor de kernactiviteiten. We bieden ook ondersteunende metrische gegevens die geen deel uitmaken van de scoreberekening, maar wel belangrijk zijn voor het identificeren gebruikersstatistieken en configuraties die je kan bespreken.
+In elke categorie kwantificeren we de kernindicatoren voor hoe je organisatie Microsoft 365 gebruikt tijdens je digitale transformatie. We bieden een 28-dagen- en 180-dagenweergave voor de kernactiviteiten. We bieden ook ondersteunende metrische gegevens die geen deel uitmaken van de scoreberekening, maar wel belangrijk zijn voor het identificeren gebruikersstatistieken en configuraties die je kan bespreken.
 
 ### <a name="products-included-in-productivity-score"></a>Producten die deel uitmaken van de productiviteitsscore 
 
@@ -74,7 +74,7 @@ Je score wordt dagelijks bijgewerkt en weerspiegelt de acties die gebruikers vol
 
 ## <a name="prerequisites"></a>Vereisten 
 
-Voor gebruikerservaringengegevens heb je een abonnement op Microsoft 365 voor bedrijven of op Office 365 voor ondernemingen nodig. Voor eindpuntanalysegegevens voor je tenant moet je Microsoft Intune toevoegen aan je abonnement. Met Intune beveilig je de gegevens van je organisatie door apparaten en apps te beheren. Wanneer je Intune hebt, kan je eindpuntanalyses inschakelen in de Intune-ervaring. Meer informatie over [Microsoft Intune](/mem/intune/). 
+Voor gebruikerservaringengegevens heb je een abonnement op Microsoft 365 voor bedrijven of op Office 365 voor ondernemingen nodig. Voor eindpuntanalysegegevens voor je tenant moet je Microsoft Intune toevoegen aan je abonnement. Intune beveiligt de gegevens van je organisatie door apparaten en apps te beheren. Wanneer je Intune hebt, kan je eindpuntanalyses inschakelen in de Intune-ervaring. Zie de [Microsoft Intune-documentatie](/mem/intune/) voor meer informatie over Microsoft Intune. 
 
 > [!NOTE]
 > Voor toegang tot de functies van de productiviteitsscore heb je geen licentie voor Workplace Analytics nodig.
@@ -107,7 +107,10 @@ De productiviteitsscore-startpagina toont de totale score van je organisatie, de
 
 **De score van je organisatie** wordt weergegeven als een percentage en in punten. Je kan de punten bekijken in de teller en het maximum aantal punten in de noemer.
 
-Met **Peer-benchmark** kan je jouw score vergelijken met die van organisatie zoals die van jou. De peer-benchmark voor gebruikerservaringencategorieën wordt berekend als het gemiddelde van metingen binnen een groep van gelijkaardige organisaties. De groep van organisaties bestaat uit organisaties uit jouw regio met een vergelijkbaar aantal licentiegebruikers, types licenties, branche en gebruikstermijn met Microsoft 365. 
+Met **Peer-benchmark** kan je jouw score vergelijken met die van organisatie zoals die van jou. De peer-benchmark voor gebruikerservaringencategorieën wordt berekend als het gemiddelde van metingen binnen een groep van gelijkaardige organisaties. De groep van organisaties bestaat uit organisaties uit jouw regio met een vergelijkbaar aantal licentiegebruikers, types licenties, branche en gebruikstermijn met Microsoft 365.
+
+> [!NOTE]
+> Microsoft gebruikt interne gegevens om de branche te bepalen waaraan een organisatie is toegewezen. Tenants onder een bovenliggende organisatie worden in dezelfde branche toegewezen als de bovenliggende organisatie. Organisaties kunnen branchetoewijzingen niet bekijken of wijzigen.
 
 De peer-benchmark voor eindpuntanalyses omvat doelen voor opstartprestaties voor apparaten en aanbevolen softwareconfiguratie gebaseerd op geaggregeerde mediaanwaarden in alle tenants.
 
@@ -158,8 +161,6 @@ Deel je ideeën over productiviteitsscore en je ideeën over hoe het verbeterd k
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Microsoft 365-activiteit bijhouden met behulp van rapporten](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) (artikel)
-
-[Microsoft 365 Gebruiksanalyse inschakelen](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics) (artikel)
-
-[Overzicht van het Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) (video)
+[Microsoft 365-activiteit bijhouden met behulp van rapporten](/microsoft-365/admin/activity-reports/activity-reports) (artikel)\
+[Microsoft 365-gebruiksanalyse inschakelen](/microsoft-365/admin/usage-analytics/enable-usage-analytics) (artikel)\
+[Overzicht van het Microsoft 365-beheercentrum](/microsoft-365/business-video/admin-center-overview) (video)

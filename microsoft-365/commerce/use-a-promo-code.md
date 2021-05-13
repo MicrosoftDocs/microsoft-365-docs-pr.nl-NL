@@ -17,15 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 - commerce_purchase
-search.appverid: MET150
+search.appverid: MET150 S
 description: Lees hoe u een promotiecode kunt toepassen op uw Microsoft 365 om de prijs te verlagen en hoe u problemen kunt oplossen met promotiecode in geval van een fout.
 ms.date: 03/17/2021
-ms.openlocfilehash: 30484915246e1d8b1389f09d71d9d67865962a7e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 2a75f3e31a417e505c0f91044c61270f8bad8bae
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332916"
+ms.locfileid: "52344648"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>Uw promotiecode gebruiken om de prijs te verlagen
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Gebruikers die een persoonlijk Microsoft-account hebben, kunnen Microsoft Rewards-punten verdienen in verband met hun zoekopdrachten op het werk als AAD koppelen aan Rewards-functie is ingeschakeld.
-ms.openlocfilehash: 92a319d5917c49f0457a560fe52212608bd26dc2
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8cbd88de530ec4aa566962bb74715dc9c417f296
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297066"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464340"
 ---
 # <a name="manage-microsoft-rewards"></a>Microsoft Rewards beheren
 
@@ -33,3 +33,13 @@ Tenzij de gebruiker zich afkeert van deze functie, wordt zijn persoonlijke Micro
 Voor beheerders van onderwijsorganisaties met minderjarige kinderen is een ouderlijk Microsoft-account vereist om het kind deel te laten nemen aan Microsoft Rewards. Het ouderlijk account wordt niet gekoppeld aan het organisatieaccount van de leerling/student. Zie Ouderlijke toestemming en [Microsoft-kinderaccounts](https://support.microsoft.com/account-billing/c6951746-8ee5-8461-0809-fbd755cd902e)voor meer informatie over Microsoft-accounts voor kinderen.
 
 Deze functie is niet beschikbaar voor gebruikers van de overheid. Beheerders moeten ervoor zorgen dat het compliancebeleid van hun organisatie het gebruik van persoonlijke Microsoft Rewards-accounts met zoekopdrachten op het werk mogelijk maakt.
+
+## <a name="related-content"></a>Verwante inhoud
+
+[Microsoft Search instellen](/microsoftsearch/setup-microsoft-search.md) (artikel)
+
+[Top 12 taken voor beveiligingsteams ter ondersteuning van thuis werken](../../security/top-security-tasks-for-remote-work.md) (artikel)
+
+[Nieuwe functies in Microsoft 365](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-365-95c8d81d-08ba-42c1-914f-bca4603e1426) (artikel)
+
+

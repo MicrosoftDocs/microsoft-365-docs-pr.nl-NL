@@ -1,5 +1,5 @@
 ---
-title: Naamgevingswijzigingen in het geavanceerde schema voor de microsoft 365 Defender-jacht
+title: Wijzigingen in het geavanceerde Microsoft 365 Defender
 description: Naamgevingswijzigingen bijhouden en controleren tabellen en kolommen in het geavanceerde schema voor de jacht
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, data, naming changes, rename
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eb6dfa628488239e3953d19d5e78b338e76f50a2
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: a387892dde0fbe96e4a523b2247448a3c7e374b8
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023783"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470494"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Geavanceerd schema voor de jacht - Naamgevingswijzigingen
 
@@ -78,12 +78,12 @@ Naamgevingswijzigingen worden automatisch toegepast op query's die zijn opgeslag
 
 1. In de [tabellen EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) en [EmailEvents](advanced-hunting-emailevents-table.md) zijn de kolommen vervangen `MalwareFilterVerdict` door de `PhishFilterVerdict` `ThreatTypes` kolom. De `MalwareDetectionMethod` kolommen en kolommen zijn ook vervangen door de `PhishDetectionMethod` `DetectionMethods` kolom. Met deze stroomlijning kunnen we meer informatie geven onder de nieuwe kolommen. De toewijzing vindt u hieronder.
 
-| Tabelnaam | Oorspronkelijke kolomnaam | Nieuwe kolomnaam | Reden voor wijziging
-|--|--|--|--|
-| `EmailAttachmentInfo` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | Meer detectiemethoden opnemen |
-| `EmailAttachmentInfo`  | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | Meer bedreigingstypen opnemen |
-| `EmailEvents` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | Meer detectiemethoden opnemen |
-| `EmailEvents` | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | Meer bedreigingstypen opnemen |
+    | Tabelnaam | Oorspronkelijke kolomnaam | Nieuwe kolomnaam | Reden voor wijziging
+    |--|--|--|--|
+    | `EmailAttachmentInfo` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | Meer detectiemethoden opnemen |
+    | `EmailAttachmentInfo`  | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | Meer bedreigingstypen opnemen |
+    | `EmailEvents` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | Meer detectiemethoden opnemen |
+    | `EmailEvents` | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | Meer bedreigingstypen opnemen |
 
 
 2. In de tabellen en tabellen is de kolom toegevoegd om meer informatie over de e-maildreiging `EmailAttachmentInfo` `EmailEvents` te `ThreatNames` geven. Deze kolom bevat waarden zoals Spam of Phish.
@@ -92,18 +92,20 @@ Naamgevingswijzigingen worden automatisch toegepast op query's die zijn opgeslag
 
 4. In de [tabel DeviceEvents](advanced-hunting-deviceevents-table.md) zijn verschillende ActionType-namen gewijzigd om de beschrijving van de actie beter weer te geven. Details van de wijzigingen vindt u hieronder.
 
-| Tabelnaam | Oorspronkelijke naam ActionType | Nieuwe naam ActionType | Reden voor wijziging
-|--|--|--|--|
-| `DeviceEvents` | `DlpPocPrintJob` | `FilePrinted` | Feedback van klanten |
-| `DeviceEvents` | `UsbDriveMount` | `UsbDriveMounted` | Feedback van klanten |
-| `DeviceEvents` | `UsbDriveUnmount` | `UsbDriveUnmounted` | Feedback van klanten |
-| `DeviceEvents` | `WriteProcessMemoryApiCall` | `WriteToLsassProcessMemory` | Feedback van klanten |
+    | Tabelnaam | Oorspronkelijke naam ActionType | Nieuwe naam ActionType | Reden voor wijziging
+    |--|--|--|--|
+    | `DeviceEvents` | `DlpPocPrintJob` | `FilePrinted` | Feedback van klanten |
+    | `DeviceEvents` | `UsbDriveMount` | `UsbDriveMounted` | Feedback van klanten |
+    | `DeviceEvents` | `UsbDriveUnmount` | `UsbDriveUnmounted` | Feedback van klanten |
+    | `DeviceEvents` | `WriteProcessMemoryApiCall` | `WriteToLsassProcessMemory` | Feedback van klanten |
 
 ## <a name="march-2021"></a>Maart 2021
 
 De `DeviceTvmSoftwareInventoryVulnerabilities` tabel is afgeschaft. Vervangen zijn de tabellen `DeviceTvmSoftwareInventory` `DeviceTvmSoftwareVulnerabilities` en de tabellen.
 
+## <a name="may-2021"></a>Mei 2021
 
+De `AppFileEvents` tabel is afgeschaft. De tabel bevat informatie die in de tabel staat, samen met `CloudAppEvents` `AppFileEvents` andere activiteiten in cloudservices.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

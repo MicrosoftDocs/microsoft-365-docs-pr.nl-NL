@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Meer informatie over het beheren van gratis selfservice-abonnementen voor uw organisatie.
 ms.date: 03/17/2021
-ms.openlocfilehash: b469515a649399c71ef64ba2567dfa376f21e9a7
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 9c29d36ff28e312fa3782b60f89fa755d4df9bf3
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333216"
+ms.locfileid: "52345128"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Selfservice-abonnementen beheren
 
@@ -39,7 +39,7 @@ Er is een beperkt aantal gratis selfservice-abonnementen beschikbaar voor gebrui
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>Hoe verschillen deze abonnementen van abonnementen voor selfserviceaankoop?
 
-Selfservice-abonnementen zijn gratis en zijn beschikbaar voor een grotere lijst met producten dan abonnementen voor selfserviceaankoop. Wanneer een gebruiker zich meldt voor een selfservice-aankoopabonnement, is hij of zij verantwoordelijk voor het betalen ervan. Selfservice-abonnementen zijn alleen beschikbaar voor Power Platform-producten (Power BI, Power Apps en Power Automate), Project en Visio. Zie Veelgestelde vragen over [selfservice-aankopen voor meer informatie.](self-service-purchase-faq.md)
+Selfservice-abonnementen zijn gratis en zijn beschikbaar voor een grotere lijst met producten dan abonnementen voor selfserviceaankoop. Wanneer een gebruiker zich meldt voor een selfservice-aankoopabonnement, is hij of zij verantwoordelijk voor het betalen ervan. Abonnementen voor selfserviceaankoop zijn alleen beschikbaar voor Power Platform-producten (Power BI, Power Apps en Power Automate), Project en Visio. Zie Veelgestelde vragen over [selfservice-aankopen voor meer informatie.](self-service-purchase-faq.md)
 
 ## <a name="block-users-from-signing-up"></a>Gebruikers blokkeren om zich aan te melden
 
@@ -58,4 +58,4 @@ U gebruikt de cmdlet [**Set-MsolCompanySettings**](/powershell/module/msonline/s
 
 ## <a name="i-have-a-self-service-sign-up-subscription-that-blocks-directory-deletion"></a>Ik heb een selfservice-abonnement dat adreslijstverhaling blokkeert
 
-De selfservice-aanmeldingsproducten waar afzonderlijke gebruikers zich voor kunnen registreren, maken ook een gastgebruiker voor verificatie in uw Azure AD-adreslijst. Om gegevensverlies te voorkomen, blokkeren deze selfserviceproducten adreslijstverhalingen totdat ze volledig uit de adreslijst zijn verwijderd. Ze kunnen alleen worden verwijderd door de Azure AD-beheerder. Zie Een adreslijst verwijderen in Azure Active Directory voor [meer informatie.](/azure/active-directory/users-groups-roles/directory-delete-howto)
+De selfservice-aanmeldingsproducten waar afzonderlijke gebruikers zich voor kunnen registreren, maken ook een gastgebruiker voor verificatie in uw Azure AD-adreslijst. Om gegevensverlies te voorkomen, blokkeren deze selfserviceproducten adreslijstverhalingen totdat ze volledig uit de adreslijst zijn verwijderd. Ze kunnen alleen worden verwijderd door de Azure AD-beheerder. Zie Een adreslijst [verwijderen in Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-delete-howto)

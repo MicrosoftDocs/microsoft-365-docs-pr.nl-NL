@@ -18,17 +18,16 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f13734392e4975738a0d60d38e618595b5175667
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b706cb8dbd43d545768c1c573021b5ef401e3c09
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934559"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346400"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Voorkeuren instellen voor Microsoft Defender voor Eindpunt op macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 
@@ -106,6 +105,7 @@ Geef het samenvoegbeleid op voor uitsluitingen. Dit kan een combinatie zijn van 
 #### <a name="scan-exclusions"></a>Uitsluitingen scannen
 
 Geef entiteiten op die niet mogen worden gescand. Uitsluitingen kunnen worden opgegeven door volledige paden, extensies of bestandsnamen.
+(Uitsluitingen worden opgegeven als een matrix met items, beheerder kan zo veel elementen opgeven als nodig is, in elke volgorde.)
 
 |Sectie|Waarde|
 |:---|:---|
@@ -136,6 +136,27 @@ Geef inhoud op die niet kan worden gescand via een volledig bestandspad.
 | **Gegevenstype** | Tekenreeks |
 | **Mogelijke waarden** | geldige paden |
 | **Opmerkingen** | Alleen van toepassing *als $type* *is uitgeslotenPath* |
+
+## <a name="supported-exclusion-types"></a>Ondersteunde uitsluitingstypen
+
+In de volgende tabel ziet u de uitsluitingstypen die worden ondersteund door Defender voor Eindpunt op Mac.
+
+Uitsluiting | Definitie | Voorbeelden
+---|---|---
+Bestandsextensie | Alle bestanden met de extensie, overal op het apparaat | `.test`
+Bestand | Een specifiek bestand dat is geïdentificeerd door het volledige pad | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+Map | Alle bestanden onder de opgegeven map (recursief) | `/var/log/`<br/>`/var/*/`
+Proces | Een specifiek proces (opgegeven door het volledige pad of de bestandsnaam) en alle bestanden die hiermee worden geopend | `/bin/cat`<br/>`cat`<br/>`c?t`
+
+> [!IMPORTANT]
+> De bovenstaande paden moeten harde koppelingen zijn, geen symbolische koppelingen, om te kunnen worden uitgesloten. U kunt controleren of een pad een symbolische koppeling is door te `file <path-name>` lopen.
+
+Bestands-, map- en procesuitsluitingen ondersteunen de volgende jokertekens:
+
+Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
+---|---|---|---|---
+\* |    Komt overeen met een aantal tekens, inclusief geen tekens (houd er rekening mee dat wanneer dit jokerteken binnen een pad wordt gebruikt, dit slechts één map vervangt) | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
+? | Komt overeen met een enkel teken | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
 
 ##### <a name="path-type-file--directory"></a>Padtype (bestand /adreslijst)
 
@@ -358,7 +379,7 @@ Geef op of gebruikers feedback kunnen verzenden naar Microsoft door naar `Help` 
 
 ### <a name="endpoint-detection-and-response-preferences"></a>Eindpuntdetectie- en antwoordvoorkeuren
 
-Beheer de voorkeuren van het onderdeel eindpuntdetectie en -antwoord (EDR) van Microsoft Defender voor Eindpunt in macOS.
+Beheer de voorkeuren van het eindpuntdetectie en -respons (EDR) van Microsoft Defender voor Eindpunt in macOS.
 
 |Sectie|Waarde|
 |:---|:---|
@@ -416,7 +437,7 @@ Het volgende configuratieprofiel (of, in het geval van JAMF, een eigenschappenli
   - **Potentieel ongewenste toepassingen (PUA)** worden geblokkeerd
   - **Archiefbommen** (bestand met een hoge compressiesnelheid) worden gecontroleerd op Microsoft Defender voor eindpuntlogboeken
 - Automatische beveiligingsinformatie-updates inschakelen
-- Beveiliging via de cloud inschakelen
+- Cloudbeveiliging inschakelen
 - Automatische voorbeeldinzending inschakelen
 
 ### <a name="property-list-for-jamf-configuration-profile"></a>Eigenschappenlijst voor HET CONFIGURATIEprofiel VAN JAMF
@@ -577,6 +598,14 @@ De volgende sjablonen bevatten vermeldingen voor alle instellingen die in dit do
             </dict>
             <dict>
                 <key>$type</key>
+                <string>excludedPath</string>
+                <key>isDirectory</key>
+                <true/>
+                <key>path</key>
+                <string>/Users/*/git</string>
+            </dict>
+            <dict>
+                <key>$type</key>
                 <string>excludedFileExtension</string>
                 <key>extension</key>
                 <string>pdf</string>
@@ -719,6 +748,14 @@ De volgende sjablonen bevatten vermeldingen voor alle instellingen die in dit do
                         </dict>
                         <dict>
                             <key>$type</key>
+                            <string>excludedPath</string>
+                            <key>isDirectory</key>
+                            <true/>
+                            <key>path</key>
+                            <string>/Users/*/git</string>
+                        </dict>
+                        <dict>
+                            <key>$type</key>
                             <string>excludedFileExtension</string>
                             <key>extension</key>
                             <string>pdf</string>
@@ -812,7 +849,7 @@ Nadat u het configuratieprofiel voor uw bedrijf hebt gemaakt, kunt u het impleme
 
 ### <a name="jamf-deployment"></a>JAMF-implementatie
 
-Open in de JAMF-console **De configuratieprofielen van computers,** ga naar het configuratieprofiel dat u wilt gebruiken  >  en selecteer vervolgens **Aangepaste instellingen.** Maak een item met `com.microsoft.wdav` als voorkeursdomein en upload de *.plist die* eerder is gemaakt.
+Open in de JAMF-console **De configuratieprofielen** van computers, navigeer naar het configuratieprofiel dat u wilt gebruiken en selecteer vervolgens  >   **Aangepaste Instellingen.** Maak een item met `com.microsoft.wdav` als voorkeursdomein en upload de *.plist die* eerder is gemaakt.
 
 >[!CAUTION]
 >U moet het juiste voorkeursdomein invoeren ( ); anders worden de voorkeuren niet herkend `com.microsoft.wdav` door Microsoft Defender voor Eindpunt.
@@ -829,7 +866,7 @@ Open in de JAMF-console **De configuratieprofielen van computers,** ga naar het 
 
 5. Open het configuratieprofiel en upload het `com.microsoft.wdav.xml` bestand. (Dit bestand is gemaakt in stap 3.)
 
-6. Selecteer **OK**.
+6. Kies **OK**.
 
 7. Selecteer **Opdrachten**  >  **beheren.** Selecteer op **het** tabblad Opnemen de optie Toewijzen aan **alle & alle apparaten.**
 
