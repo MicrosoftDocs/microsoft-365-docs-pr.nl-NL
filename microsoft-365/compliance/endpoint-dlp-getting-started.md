@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Stel Microsoft 365 Preventie van gegevensverlies voor eindpunten in om bestandsactiviteiten te controleren en beschermende maatregelen voor deze bestanden naar eindpunten te implementeren.
-ms.openlocfilehash: 118c2f3f87df5ac9930bebd1338157d323b1e5e1
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 8fc8bef62827a5e6125565f5d7227a88cd923dcf
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259497"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332808"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Aan de slag met Preventie van gegevensverlies voor eindpunten
 
@@ -147,7 +147,7 @@ In dit implementatiescenario onboardt u apparaten die nog niet zijn onboarded en
     - Windows-apparaten onboarden met behulp van Microsoft Endpoint Configuration Manager
     - Windows 10-apparaten onboarden met hulpmiddelen voor Mobiel Apparaatbeheer
     - Windows 10-apparaten onboarden met een lokaal script
-    - Niet-permanente virtuele desktopinfrastructuur (VDI)-apparaten onboarden.
+    - Niet-permanente virtuele desktopinfrastructuur (VDI)-apparaten onboardenin een scenario met één sessie
 
 Wanneer dit is gedaan en het eindpunt is onboarded, moet dit zichtbaar zijn in de lijst met apparaten en moet u ook auditactiviteitslogboeken rapporteren aan Activiteitenverkenner.
 

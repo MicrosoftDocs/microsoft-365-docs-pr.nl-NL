@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9755542b608c8ed7d3cd93bebbd764fd56b9768
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: cb385ec5589af115ce1a0d323e3660def42179b9
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332712"
+ms.locfileid: "52345762"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -92,7 +92,7 @@ De weergegeven nummers zijn de minimale versies van Office-toepassingen die voor
 |[Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | Ja                |
 |[Activiteit van gebruikers in verband met labels controleren](data-classification-activity-explorer.md) | 2011+ | Ter beoordeling | Ter beoordeling           | Ter beoordeling               | Ter beoordeling |
 |[Een vertrouwelijkheidslabel automatisch op inhoud toepassen](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | Ter beoordeling           | Ter beoordeling               | Ja |
-|[Verschillende instellingen voor standaardlabels en verplicht labelen](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | Wordt geïmplementeerd in preview: [bèta-kanaal](https://office.com/insider)                      | 16.43.1108+                   | 4.2111+           | 4.2111+               | Ja |
+|[Verschillende instellingen voor standaardlabels en verplicht labelen](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 2105+                      | 16.43.1108+                   | 4.2111+           | 4.2111+               | Ja |
 |
 
 **Voetnoten:**
@@ -182,7 +182,7 @@ Voor een consistentere labelervaring met zinvolle rapportage moet u de juiste la
 
 - In uitzonderingsgevallen waarin gebruikers hun eigen machtigingen moeten kunnen toewijzen, moet u labels opgeven waarmee [gebruikers hun eigen machtigingen kunnen toewijzen](encryption-sensitivity-labels.md#let-users-assign-permissions). 
 
-- In plaats van dat gebruikers de versleuteling handmatig verwijderen nadat ze een label hebben geselecteerd waarmee versleuteling wordt toegepast, geeft u een alternatief sublabel op als gebruikers een label met dezelfde classificatie maar geen versleuteling nodig hebben. Bijvoorbeeld:
+- In plaats van dat gebruikers de versleuteling handmatig verwijderen nadat ze een label hebben geselecteerd waarmee versleuteling wordt toegepast, geeft u een alternatief sublabel op als gebruikers een label met dezelfde classificatie maar geen versleuteling nodig hebben. Zoals:
     - **Vertrouwelijk/Alle werknemers**
     - **Vertrouwelijk\Iedereen (geen versleuteling)**
 
@@ -194,7 +194,7 @@ Voor een consistentere labelervaring met zinvolle rapportage moet u de juiste la
 
 Gebruikers kunnen slechts één label tegelijk toepassen op een document of e-mailbericht.
 
-Wanneer u een label op een e-mailbericht met bijlagen toepast, nemen de bijlagen het label alleen over als het label dat u op het e-mailbericht toepast, versleuteling toepast en de bijlage een Office-document is dat nog niet is versleuteld. De bijlage wordt opnieuw versleuteld, omdat het overgenomen label versleuteling toepast.
+Wanneer u een label op een e-mailbericht met bijlagen toepast, nemen de bijlagen het label alleen over als het label dat u op het e-mailbericht toepast, versleuteling toepast en de bijlage een Office-document is dat nog niet is versleuteld. Omdat het overgenomen label versleuteling toepast, wordt de bijlage opnieuw versleuteld.
 
 Een bijlage neemt de labels van het e-mailbericht niet over wanneer het label dat op het e-mailbericht is toegepast, geen versleuteling toepast of als de bijlage al is versleuteld.
 
