@@ -21,7 +21,7 @@ search.appverid:
 description: Lees hoe u hulp en ondersteuning voor beheerders kunt krijgen in Microsoft 365 Business Premium.
 ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
 ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/11/2021
 ms.locfileid: "52327184"
@@ -43,7 +43,7 @@ Begin met [het bekijken van de huidige status van uw services](../enterprise/vie
 
 Bespaar tijd door uw serviceaanvraag online in te dienen. Wij helpen u bij het zoeken naar een oplossing of verbinden u met technische ondersteuning.
 
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Als u een bericht krijgt met de melding dat u geen machtiging hebt om deze pagina te openen of deze actie uit te voeren, bent u geen beheerder. (Zie Wie heeft beheerdersmachtigingen in mijn [bedrijf?](admin-center-overview.md#who-has-admin-permissions-in-my-business).)
+1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Als u de melding krijgt dat u geen toestemming heeft voor toegang tot deze pagina of voor het uitvoeren van deze handeling, bent u geen beheerder. (Raadpleeg [Wie heeft beheerdersrechten binnen mijn onderneming?](admin-center-overview.md#who-has-admin-permissions-in-my-business) voor meer informatie.)
 
 2. Selecteer de **Hulp nodig?**-knop.
 
@@ -156,7 +156,7 @@ Urgentieniveau B/C: 09:00 - 00:00 uur (lokale tijd Beijing), 365 dagen per jaar.
 ## <a name="contact-support"></a>Contact opnemen met de ondersteuning
 
 > [!NOTE]
-> Alleen voor beheerders van organisaties met een Office 365-abonnement zijn er opties voor hulp bij ondersteuning beschikbaar. Als u Office 365 gebruikt, maar zelf geen beheerder bent, kunt u voor ondersteuning terecht in de communityfora of neemt u contact op met uw beheerder.
+> Alleen voor beheerders van organisaties met een Office 365-abonnement zijn er opties voor hulp bij ondersteuning beschikbaar. Als u Office 365 gebruikt, maar zelf geen beheerder bent, kunt u voor ondersteuning terecht in de communityforums of neemt u contact op met uw beheerder.
 
 ### <a name="open-an-online-request"></a>Een onlineaanvraag openen
 
@@ -216,7 +216,7 @@ De ondersteuningsrol van 21Vianet bestaat uit:
 
 ## <a name="feature-availability"></a>Beschikbaarheid van functies
 
-Zie Servicebeschrijving van [Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)als u de beschikbaarheid van functies in Office 365-abonnementen wilt bekijken.
+Zie de [Office 365-serviceomschrijving](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet) als u de beschikbaarheid van de functies in Office 365-abonnementen wilt bekijken.
 
 ## <a name="follow-us-on-wechat"></a>Volg ons op WeChat
 
