@@ -172,13 +172,11 @@
           href: office-365-service-encryption.md
         - name: Klantsleutel
           items:
-            - name: Klantsleutel voor Microsoft 365 op tenantniveau (openbare preview)
-              href: customer-key-tenant-level.md
-            - name: Serviceversleuteling met klantsleutel in Office 365
+            - name: Klantsleutel in Microsoft 365
               href: customer-key-overview.md
-            - name: Klantsleutel instellen voor Office 365
+            - name: Klantsleutel instellen voor Microsoft 365
               href: customer-key-set-up.md
-            - name: Klantsleutel beheren voor Office 365
+            - name: Klantsleutel beheren voor Microsoft 365
               href: customer-key-manage.md
             - name: Een klantsleutel of een beschikbaarheidssleutel rollen of draaien
               href: customer-key-availability-key-roll.md
@@ -501,9 +499,11 @@
       items:
         - name: Overzicht van inhoud zoeken
           href: search-for-content.md
-        - name: Het gebruik van inhoud zoeken
+        - name: Zoeken naar inhoud
           href: content-search.md
           items:
+            - name: Naslag functie voor Inhoud zoeken
+              href: content-search-reference.md
             - name: Trefwoordquery's en zoekvoorwaarden
               href: keyword-queries-and-search-conditions.md
             - name: Voorbeeld van eDiscovery-zoekresultaten bekijken
@@ -663,32 +663,20 @@
               href: error-remediation-when-processing-data-in-advanced-ediscovery.md
             - name: Foutherstel voor één item
               href: single-item-error-remediation.md
-        - name: Inhoud verzamelen voor een case (preview)
+        - name: Inhoud verzamelen voor een case
           items:
-            - name: Meer informatie over verzamelingen (preview)
+            - name: Meer informatie over verzamelingen
               href: collections-overview.md
-            - name: Een conceptverzameling maken (preview)
+            - name: Een conceptverzameling maken
               href: create-draft-collection.md
-            - name: Een conceptverzameling toewijzen aan een beoordelingsset (preview)
+            - name: Een conceptverzameling toewijzen aan een beoordelingsset
               href: commit-draft-collection.md
-            - name: Verzamelingsstatistieken en -rapporten(preview)
+            - name: Verzamelingsstatistieken en -rapporten
               href: collection-statistics-reports.md
             - name: Zoekquery's voor verzamelingen maken
               href: building-search-queries.md
             - name: Trefwoordquery's en zoekvoorwaarden
               href: keyword-queries-and-search-conditions.md
-        - name: Gegevens verzamelen voor een case
-          items:
-            - name: Een zoekactie maken
-              href: create-search-to-collect-data.md
-            - name: Zoekacties
-              href: building-search-queries.md
-            - name: Trefwoordquery's en zoekvoorwaarden
-              href: keyword-queries-and-search-conditions.md
-            - name: Zoekstatistieken
-              href: search-statistics-in-advanced-ediscovery.md
-            - name: Zoekresultaten toevoegen aan een controleset
-              href: add-data-to-review-set.md
         - name: Controlesets beheren
           href: managing-review-sets.md
           items:
@@ -840,6 +828,8 @@
       items:
         - name: Meer informatie over Compliancebeheer
           href: compliance-manager.md
+        - name: Wat is er nieuw in compliancebeheer
+          href: compliance-manager-whats-new.md
         - name: Snelstartgids voor Compliancebeheer
           href: compliance-manager-quickstart.md
         - name: Aan de slag met Compliancebeheer
