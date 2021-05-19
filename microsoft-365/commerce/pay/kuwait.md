@@ -1,34 +1,35 @@
 ---
 title: Betalingsgegevens voor Koeweit
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dd70fc30e9696c26b03f192ffe53e86286371b16
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: d5e9600864081b98a992be2deba73245149f2de8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273460"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536500"
 ---
-# <a name="payment-information-for-kuwait"></a><span data-ttu-id="2cdfd-103">Betalingsgegevens voor Koeweit</span><span class="sxs-lookup"><span data-stu-id="2cdfd-103">Payment information for Kuwait</span></span>
+# <a name="payment-information-for-kuwait"></a><span data-ttu-id="6f6d6-103">Betalingsgegevens voor Koeweit</span><span class="sxs-lookup"><span data-stu-id="6f6d6-103">Payment information for Kuwait</span></span>
 
-<span data-ttu-id="2cdfd-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="2cdfd-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="6f6d6-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="6f6d6-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="2cdfd-105">Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.</span><span class="sxs-lookup"><span data-stu-id="2cdfd-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="6f6d6-105">Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.</span><span class="sxs-lookup"><span data-stu-id="6f6d6-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="2cdfd-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="2cdfd-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="6f6d6-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="6f6d6-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="2cdfd-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="2cdfd-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="2cdfd-108">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="2cdfd-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="2cdfd-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="2cdfd-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="2cdfd-110">**Accountnummer:** 12510049</span><span class="sxs-lookup"><span data-stu-id="2cdfd-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="2cdfd-111">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="2cdfd-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="6f6d6-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="6f6d6-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="6f6d6-108">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="6f6d6-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="6f6d6-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="6f6d6-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="6f6d6-110">**Accountnummer:** 12510049</span><span class="sxs-lookup"><span data-stu-id="6f6d6-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="6f6d6-111">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="6f6d6-111">**Account Name:** MICROSOFT</span></span>
