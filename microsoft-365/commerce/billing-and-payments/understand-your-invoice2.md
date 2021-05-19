@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Ontdek hoe je de kosten, facturering en betalingsgegevens op je factuur voor Office 365 voor bedrijven interpreteert en hoe je het inkoopordernummer wijzigt.
 ms.date: 05/04/2021
-ms.openlocfilehash: 3b183c219e25bcef21add70e2c704a7a0f3fe354
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: febcbdee563c18b3f17ee35b98f2d68b15f456d8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331956"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535684"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Je rekening of factuur voor Microsoft 365 voor bedrijven bekijken
 
@@ -126,7 +126,14 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 1. Voer onderaan het deelvenster **Details bewerken voor** betalen via spraak in en selecteer opslaan. 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Betalen voor uw Microsoft 365 voor Bedrijven-abonnement](pay-for-your-subscription.md) (artikel)\
+[Meer informatie over het zoeken en weergeven van uw factuur of factuur](view-your-bill-or-invoice.md) (artikel)
+
+[Uw factureringsadressen wijzigen](change-your-billing-addresses.md) (artikel)
+
+[Het adres, de e-mail](../../admin/manage/change-address-contact-and-more.md) van technische contactpersonen en andere informatie van uw organisatie wijzigen (artikel)
+
+[Uw abonnement Microsoft 365 voor bedrijven](pay-for-your-subscription.md) betalen (artikel)\
+
 [Betalingsopties voor Minecraft: Education Edition](/education/windows/school-get-minecraft) (artikel)

@@ -19,12 +19,12 @@ description: Meer informatie over het zoeken en gebruiken van e-mailbeveiligings
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5d9f6d12fef8a2ef6241fbbd5e0e2a980284e9cc
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 11fe6fd76d21b2dbd7a3e651d40efaa79f675a43
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204508"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52531011"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -42,7 +42,7 @@ Er zijn diverse rapporten beschikbaar in het [beveiligings- & compliancecentrum]
 ## <a name="compromised-users-report"></a>Rapport over gecompromitteerde gebruikers
 
 > [!NOTE]
-> Dit rapport is beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken. Het is niet beschikbaar in zelfstandige EOP-organisaties (Exchange Online Protection).
+> Dit rapport is beschikbaar in Microsoft 365 organisaties met Exchange Online postvakken. Het is niet beschikbaar in zelfstandige Exchange Online Protection (EOP) organisaties.
 
 In **het rapport Gecompromitteerde** gebruikers ziet  u  het aantal gebruikersaccounts dat in de afgelopen 7 dagen is gemarkeerd als Verdacht of Beperkt. Accounts in een van deze staten zijn problematisch of zelfs gecompromitteerd. Met regelmatig gebruik kunt u het rapport gebruiken om pieken en zelfs trends te herkennen in verdachte of beperkte accounts. Zie Reageren op een gekromd e-mailaccount voor meer informatie over gecompromitteerde [gebruikers.](responding-to-a-compromised-email-account.md)
 
@@ -72,9 +72,9 @@ Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
 ## <a name="encryption-report"></a>Versleutelingsrapport
 
-Het **versleutelingsrapport** is beschikbaar in EOP (abonnementen met postvakken in Exchange Online of zelfstandige EOP zonder Exchange Online-postvakken). Het beveiligingsteam van uw organisatie kan informatie in dit rapport gebruiken om patronen te identificeren en beleidsregels proactief toe te passen of aan te passen voor gevoelige e-mailberichten. Bijvoorbeeld:
+Het **versleutelingsrapport** is beschikbaar in EOP (abonnementen met postvakken in Exchange Online zelfstandige EOP zonder Exchange Online postvakken). Het beveiligingsteam van uw organisatie kan informatie in dit rapport gebruiken om patronen te identificeren en beleidsregels proactief toe te passen of aan te passen voor gevoelige e-mailberichten. Bijvoorbeeld:
 
-- Als er een groot aantal e-mailberichten wordt versleuteld door gebruikers, kunt u een versleutelingsbeleid toevoegen om versleuteling voor bepaalde gebruiksgevallen te automatiseren. Zie Regels voor e-mailstroom definiëren om e-mailberichten te versleutelen [in Microsoft 365](../../compliance/define-mail-flow-rules-to-encrypt-email.md)voor meer informatie.
+- Als er een groot aantal e-mailberichten wordt versleuteld door gebruikers, kunt u een versleutelingsbeleid toevoegen om versleuteling voor bepaalde gebruiksgevallen te automatiseren. Zie Regels voor e-mailstroom definiëren [om e-mailberichten te](../../compliance/define-mail-flow-rules-to-encrypt-email.md)versleutelen in Microsoft 365.
 
 - Als u een aantal versleutelingssjablonen beschikbaar hebt, maar niemand deze gebruikt, kunt u onderzoeken of gebruikers functietraining nodig hebben.
 
@@ -82,7 +82,7 @@ Met de statistische weergave kunt u filteren voor de afgelopen 90 dagen, terwijl
 
 Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u **naar** \> **Rapportendashboard** en selecteert u **Versleutelingsrapport.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=EncryptionReport> .
 
-Zie E-mailversleuteling [in Microsoft 365](../../compliance/email-encryption.md)voor meer informatie over versleuteling.
+Zie E-mailversleuteling in Microsoft 365 voor [meer informatie over versleuteling.](../../compliance/email-encryption.md)
 
 ### <a name="report-view-for-the-encryption-report"></a>Rapportweergave voor het versleutelingsrapport
 
@@ -246,48 +246,64 @@ Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
 ## <a name="spoof-detections-report"></a>Rapport spoofdetecties
 
-Het **rapport Spoofdetecties** laat zien hoeveel spoofberichten zijn gedetecteerd en welke als 'goed' zijn beschouwd (spoofmail die is uitgevoerd om legitieme zakelijke redenen). Zie Bescherming tegen spoofing in EOP voor meer [informatie over spoofing.](anti-spoofing-protection.md)
+> [!NOTE]
+> Het verbeterde rapport Spoofdetecties, zoals beschreven in dit artikel, is in Preview, kan worden gewijzigd en is niet beschikbaar in alle organisaties. In de oudere versie van het rapport werden alleen **Goede e-mail en** **Als spam gesnapt.**
 
-De statistische weergave van het rapport zorgt voor 90 dagen filteren, terwijl de detailweergave slechts tien dagen filtert.
+Het **rapport Spoofdetecties** bevat informatie over berichten die zijn geblokkeerd of toegestaan vanwege spoofing. Zie Bescherming tegen spoofing in EOP voor meer [informatie over spoofing.](anti-spoofing-protection.md)
+
+Met de statistische weergave van het rapport kunt u 45 dagen filteren, terwijl de detailweergave slechts tien dagen <sup>\*</sup> filtert.
+
+<sup>\*</sup> Uiteindelijk kunt u maximaal 90 dagen filteren gebruiken.
 
 Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar  \> **Rapportendashboard** en selecteert u **Spoofdetecties.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=SpoofMailReport> .
 
 ![Widget Spoofdetecties in het dashboard Rapporten](../../media/spoof-detections-widget.png)
 
-Wanneer u de muisaanwijzer boven een dag (gegevenspunt) in de grafiek beweegt, kunt u zien hoeveel spoofberichten er zijn binnen gekomen.
+Wanneer u de muisaanwijzer boven een dag (gegevenspunt) in de grafiek beweegt, kunt u zien hoeveel vervalste berichten zijn gedetecteerd en waarom.
 
 U kunt zowel de grafiek als de detailtabel filteren door op **Filters** te klikken en een of meer van de volgende waarden te selecteren:
 
 - **Begindatum** en **einddatum**
 
-- **Goede e-mail**
+- **Result**
+  - **Pass**
+  - **Mislukken**
+  - **SoftPass**
+  - **Geen**
+  - **Overige**
 
-- **Gesnapt als spam**
+- **Spooftype:** **Intern** en **Extern**
 
 ![Rapportweergave in het rapport Spoofdetecties](../../media/spoof-detections-report-view.png)
 
 Als u op **Detailstabel weergeven klikt,** ziet u de volgende details:
 
 - **Datum**
-- **Vervalste afzender**
-- **Echte afzender**
-- **Ip-afzender**
-- **Actie**
+- **Vervalste gebruiker**
+- **Verzendende infrastructuur**
+- **Spooftype**
+- **Result**
+- **Resultaatcode**
+- **SPF**
+- **DKIM**
+- **DMARC**
 - **Aantal berichten**
 
 Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
+Zie Kopteksten voor spamberichten in Microsoft 365 voor [meer informatie over resultaatcodes voor samengestelde verificatie.](anti-spam-message-headers.md)
+
 ## <a name="threat-protection-status-report"></a>Statusrapport bedreigingsbeveiliging
 
-Het **rapport Bedreigingsbeveiligingsstatus** is beschikbaar in zowel EOP als Microsoft Defender voor Office 365. De rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie bekijken over malware die is gedetecteerd in e-mail, maar geen informatie over schadelijke bestanden die zijn gedetecteerd door veilige bijlagen voor [SharePoint, OneDrive](mdo-for-spo-odb-and-teams.md)en Microsoft Teams.
+Het **rapport Bedreigingsbeveiligingsstatus** is beschikbaar in zowel EOP als Microsoft Defender voor Office 365; De rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie bekijken over malware die is gedetecteerd in e-mail, maar geen informatie over schadelijke bestanden die zijn gedetecteerd door Safe Bijlagen voor [SharePoint, OneDrive](mdo-for-spo-odb-and-teams.md)en Microsoft Teams.
 
-Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (URL's) die zijn geblokkeerd door de anti-malware-engine, automatische [](safe-attachments.md)nul-uursre [purge (ZAP)](zero-hour-auto-purge.md)en Defender voor Office 365-functies, zoals [Veilige](safe-links.md)koppelingen, Veilige bijlagen en [Anti-phishing.](set-up-anti-phishing-policies.md) U kunt deze informatie gebruiken om trends te identificeren of om te bepalen of organisatiebeleid moet worden aangepast.
+Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (URL's) die zijn geblokkeerd door de anti-malware-engine, automatische [nul-uursre](safe-attachments.md) [purge (ZAP)](zero-hour-auto-purge.md)en Defender voor Office 365-functies, zoals [Safe Koppelingen,](safe-links.md)Safe Bijlagen en [Anti-phishing.](set-up-anti-phishing-policies.md) U kunt deze informatie gebruiken om trends te identificeren of om te bepalen of organisatiebeleid moet worden aangepast.
 
 **Opmerking:** Het is belangrijk om te begrijpen dat als een bericht naar vijf geadresseerden wordt verzonden, we het als vijf verschillende berichten tellen en niet één bericht.
 
 Als u het rapport wilt bekijken, opent u het [beveiligingscentrum & compliancecentrum,](https://protection.office.com)gaat u naar **Het** \> **dashboard Rapporten** en selecteert u **Status bedreigingsbeveiliging**. Open een van de volgende URL's om rechtstreeks naar het rapport te gaan:
 
-- Microsoft Defender voor Office 365: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
+- Microsoft Defender voor Office 365:<https://protection.office.com/reportv2?id=TPSAggregateReportATP>
 - EOP: <https://protection.office.com/reportv2?id=TPSAggregateReport>
 
 ![Statuswidget bedreigingsbeveiliging in het dashboard Rapporten](../../media/threat-protection-status-report-widget.png)
@@ -306,10 +322,10 @@ De volgende weergaven zijn beschikbaar:
 
   ![Overzichtsweergave in het rapport Status van bedreigingsbeveiliging](../../media/threat-protection-status-report-overview-view.png)
 
-- **Gegevens weergeven op: Inhoud \> Malware**<sup>1:</sup>De volgende informatie wordt weergegeven voor Microsoft Defender voor Office 365-organisaties:
+- **Gegevens weergeven op: Inhoud \> Malware**<sup>1:</sup>De volgende informatie wordt weergegeven voor Microsoft Defender voor Office 365 organisaties:
 
   - **Anti-malware-engine:** Schadelijke bestanden die zijn gedetecteerd in Sharepoint, OneDrive en Microsoft Teams door de [ingebouwde virusdetectie in Microsoft 365.](virus-detection-in-spo.md)
-  - **Bestandsdetonatie:** schadelijke bestanden die zijn gedetecteerd door [veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
+  - **Bestandsdetonatie:** schadelijke bestanden die zijn gedetecteerd door Safe Bijlagen voor [SharePoint, OneDrive en Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
 
   ![Inhoudsmalwareweergave in het rapport Status van bedreigingsbeveiliging](../../media/threat-protection-status-report-content-malware-view.png)
 
@@ -322,14 +338,14 @@ De volgende weergaven zijn beschikbaar:
   - **Domein toestaan**
   - **ZAP niet ingeschakeld**
   - **Map Ongewenste e-mail niet ingeschakeld**
-  - **Veilige afzender van gebruiker**
-  - **Veilig domein van gebruiker**
+  - **Gebruiker Safe afzender**
+  - **User Safe Domain**
 
   ![Weergave bericht overschrijven in het rapport Status van bedreigingsbeveiliging](../../media/threat-protection-status-report-message-override-view.png)
 
 - **Afbreed door: Detectietechnologie en** **Gegevens weergeven door: E-mail \> phish:** De volgende informatie wordt weergegeven:
 
-  - **ATP-gegenereerde URL-reputatie**<sup>1:</sup>Schadelijke URL-reputatie die is gegenereerd door Defender voor Office 365-detonaties in andere Microsoft 365-klanten.
+  - **ATP-gegenereerde URL-reputatie**<sup>1:</sup>Kwaadaardige URL-reputatie die is gegenereerd met Defender voor Office 365-detonaties in andere Microsoft 365 klanten.
   - **Geavanceerd phish-filter:** Phishing-signalen op basis van machine learning.
   - **Anti-spoof - DMARC-fout:** DMARC-verificatiefout op berichten.
   - **Anti-spoof - intra-org**: Afzender probeert het domein van de geadresseerde te vervalsen.
@@ -347,10 +363,10 @@ De volgende weergaven zijn beschikbaar:
 
 - **Afbreed door: Detectietechnologie en** **Gegevens weergeven door: E-mail \> malware:** De volgende informatie wordt weergegeven:
 
-  - **ATP-gegenereerde bestandsreputatie**<sup>1:</sup>Alle schadelijke bestandsreputatie die wordt gegenereerd door Defender voor Office 365-detonaties.
+  - **ATP-gegenereerde**<sup>bestandsreputatie 1:</sup>Alle schadelijke bestandsreputatie die door Defender wordt gegenereerd voor Office 365 detonaties.
   - **Anti-malware engine**<sup>1:</sup>Detectie van anti-malware-engines.
   - **Bestandstype anti-malwarebeleid:** dit zijn e-mailberichten die zijn uitgefilterd vanwege het type schadelijk bestand dat in het bericht is geïdentificeerd.
-  - **Bestandsdetonatie**<sup>1</sup>: Detectie door veilige bijlagen.
+  - **Bestandsdetonatie**<sup>1</sup>: Detectie door Safe bijlagen.
   - **Schadelijke bestandsreputatie**
   - **Malware ZAP**<sup>2</sup>
   - **Anderen**
@@ -360,7 +376,7 @@ De volgende weergaven zijn beschikbaar:
 - **Afbreed door: Type beleid** en **Gegevens weergeven op: E-mail \> Phish** of Gegevens weergeven **door: \> E-mail malware:** De volgende informatie wordt weergegeven:
 
   - **Anti-malware**
-  - **Veilige bijlagen**<sup>1</sup>
+  - **Safe Bijlagen**<sup>1</sup>
   - **Anti-phish**
   - **Antispam**
   - **E-mailstroomregel** (ook wel transportregel genoemd)
@@ -382,9 +398,9 @@ De volgende weergaven zijn beschikbaar:
 
   ![Weergave bezorgingsstatus voor phishing-e-mail in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-phishing-delivery-status-view.png)
 
-<sup>Alleen 1</sup> Defender voor Office 365
+<sup>1</sup> Defender voor Office 365 alleen
 
-<sup>2</sup> Zap (Zero Hour Auto Purge) is niet beschikbaar in zelfstandige EOP (het werkt alleen in Exchange Online-postvakken).
+<sup>2</sup> Zap (Zero Hour Auto Purge) is niet beschikbaar in zelfstandige EOP (het werkt alleen in Exchange Online postvakken).
 
 Als u op **Filters klikt,** zijn de beschikbare filters afhankelijk van de grafiek die u bekijkt:
 
@@ -499,7 +515,7 @@ Ga op een van [](https://protection.office.com)de volgende & om dit rapport weer
 ![Kies in & Beveiligingscentrum de optie Meldingsberichten van gebruiker voor \> \> bedreigingsbeheer controleren](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
 
 > [!IMPORTANT]
-> Als het rapport Door de gebruiker gerapporteerde berichten correct werkt, moet **auditregistratie** zijn ingeschakeld voor uw Office 365-omgeving. Dit wordt meestal gedaan door iemand aan wie de rol Auditlogboeken is toegewezen in Exchange Online. Zie Microsoft [365 auditlogboek zoeken in- of uitschakelen voor meer informatie.](../../compliance/turn-audit-log-search-on-or-off.md)
+> Als u wilt dat het rapport Door de gebruiker gerapporteerde berichten correct werkt, moet **auditregistratie** zijn ingeschakeld voor uw Office 365 omgeving. Dit wordt meestal gedaan door iemand die de rol Auditlogboeken heeft toegewezen in Exchange Online. Zie Het zoeken in Microsoft 365 [auditlogboek in- of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md)voor meer informatie.
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn nodig om deze rapporten weer te geven?
 
@@ -508,11 +524,11 @@ Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschrev
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
 - **Beveiligingslezer**
-- **Algemene lezer**
+- **Globale lezer**
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum biedt gebruikers de vereiste machtigingen in het Beveiligings- & _Compliancecentrum_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de vereiste machtigingen in het Beveiligings- & _Compliancecentrum_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat gebeurt er als er geen gegevens worden weergegeven in de rapporten?
 

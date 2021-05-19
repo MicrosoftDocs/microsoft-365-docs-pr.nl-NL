@@ -13,27 +13,27 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Controleren mislukt en vertraagde e-mailberichten die zijn verzonden naar of van accounts met een hoge zakelijke impact.
-ms.openlocfilehash: f67b9c6f0eaa229b650026670cf1b2adf88ab3c0
-ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
+ms.openlocfilehash: 2a58f4090244fc6d68be69cf6b3c8ab6e00874fa
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51632178"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535804"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Prioriteitsaccounts beheren en bewaken
 
-In elke Microsoft 365-organisatie zijn er mensen die essentieel zijn, zoals leidinggevenden, leidinggevenden, managers of andere gebruikers die toegang hebben tot gevoelige, eigendomsgebonden of hoge prioriteitsinformatie.
+In elke Microsoft 365 zijn er mensen die essentieel zijn, zoals leidinggevenden, leidinggevenden, managers of andere gebruikers die toegang hebben tot gevoelige, eigendomsgebonden of hoge prioriteitsinformatie.
 
 Als u uw organisatie wilt helpen deze accounts te beveiligen, kunt u nu specifieke gebruikers aanwijzen als prioriteitsaccounts en gebruikmaken van app-specifieke functies die hen extra bescherming bieden. In de toekomst ondersteunen meer apps en functies prioriteitsaccounts en om te  beginnen hebben we twee mogelijkheden aangekondigd: prioriteitsaccountbeveiliging en premium **e-mailstroomcontrole.**
 
-- **Prioriteitsaccountbeveiliging** : Microsoft Defender voor Office 365 (voorheen Geavanceerde bedreigingsbeveiliging voor Office 365) ondersteunt prioriteitsaccounts als tags die kunnen worden gebruikt in filters in waarschuwingen, rapporten en onderzoeken. Zie Gebruikerslabels [in Microsoft Defender voor Office 365 voor meer informatie.](../../security/office-365-security/user-tags.md)
+- **Prioriteitsaccountbeveiliging:** Microsoft Defender voor Office 365 (voorheen Office 365 Advanced Threat Protection) ondersteunt prioriteitsaccounts als tags die kunnen worden gebruikt in filters in waarschuwingen, rapporten en onderzoeken. Zie Gebruikerslabels [in Microsoft Defender voor](../../security/office-365-security/user-tags.md)meer Office 365.
 
   Een natuurlijke vraag is: 'Zijn niet alle gebruikers een prioriteit? Waarom worden niet alle gebruikers aangewezen als prioriteitsaccounts? Ja, alle gebruikers hebben een prioriteit, maar accountbeveiliging met prioriteit biedt de volgende extra voordelen:
 
   - **Extra heuristische functies:** Onze analyse van de e-mailstroom in de Microsoft-datacenters geeft aan dat de e-mailstroompatronen voor leidinggevenden van het bedrijf verschillen van de gemiddelde werknemer. Prioriteitsaccountbeveiliging biedt extra heuristische functies die specifiek zijn afgestemd op leidinggevenden van het bedrijf die niet ten goede komen aan een gewone werknemer.
   - **Extra zichtbaarheid in rapportage:** In feite is informatie voor alle gebruikers (of alle betrokken gebruikers) al beschikbaar in waarschuwingen, rapporten en onderzoeken. Met de tag prioriteitsaccounts als filter kunt u uw onderzoeken specifiek richten.
 
-- **Premium Mail Flow Monitoring** - Een gezonde e-mailstroom kan essentieel zijn voor bedrijfssucces en vertragingen of mislukte bezorging kunnen een negatieve invloed hebben op het bedrijf. U kunt een drempel voor mislukte of vertraagde e-mailberichten kiezen, waarschuwingen ontvangen wanneer deze drempel wordt overschreden en een rapport bekijken met e-mailproblemen voor prioriteitsaccounts. Zie E-mailproblemen voor het rapport [Prioriteitsaccounts in](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) het moderne EAC voor meer informatie.
+- **Premium Mail Flow Monitoring:** een gezonde e-mailstroom kan van essentieel belang zijn voor bedrijfssucces en vertragingen of storingen van bezorging kunnen een negatieve invloed hebben op het bedrijf. U kunt een drempel voor mislukte of vertraagde e-mailberichten kiezen, waarschuwingen ontvangen wanneer deze drempel wordt overschreden en een rapport bekijken met e-mailproblemen voor prioriteitsaccounts. Zie E-mailproblemen voor het rapport [Prioriteitsaccounts in](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) het moderne EAC voor meer informatie.
 
 Zie Beveiligingsaanbevelingen voor prioriteitsaccounts voor aanbevolen beveiligingsprocedures [voor prioriteitsaccounts.](../../security/office-365-security/security-recommendations-for-priority-accounts.md)
 
@@ -41,11 +41,11 @@ Zie Beveiligingsaanbevelingen voor prioriteitsaccounts voor aanbevolen beveiligi
 
 De **functie Accountbeveiliging prioriteit** die in dit onderwerp wordt beschreven, is alleen beschikbaar voor organisaties die aan de volgende vereisten voldoen:
 
-- Microsoft Defender voor Office 365-abonnement 2, inclusief personen met Office 365 E3, Office 365 E5, Microsoft 365 E5 of Microsoft 365 E5-beveiliging.
+- Microsoft Defender voor Office 365 abonnement 2, inclusief personen met Office 365 E3, Office 365 E5, Microsoft 365 E5 of Microsoft 365 E5 Security.
 
-De **functie Premium Mail Flow Monitoring** die in dit onderwerp wordt beschreven, is alleen beschikbaar voor organisaties die aan de volgende vereisten voldoen:
+De **functie Premium Mail Flow monitoring** die in dit onderwerp wordt beschreven, is alleen beschikbaar voor organisaties die voldoen aan de volgende vereisten:
 
-- Uw organisatie moet een licentie tellen van ten minste 10.000, van een van of een combinatie van de volgende producten: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Uw organisatie kan bijvoorbeeld 3000 Office 365 E3-licenties en 8500 Microsoft 365 E5 hebben, voor een totaal van 11.500 licenties van de in aanmerking komende producten.
+- Uw organisatie moet een licentie tellen van ten minste 10.000, van een van of een combinatie van de volgende producten: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Uw organisatie kan bijvoorbeeld 3000 Office 365 E3-licenties en 8500 Microsoft 365 E5 hebben, voor in totaal 11.500 licenties van de in aanmerking komende producten.
 - Je organisatie heeft ten minste 50 maandelijks actieve Exchange Online-gebruikers nodig.
 
 > [!NOTE]
@@ -57,7 +57,7 @@ Wanneer u prioriteitsaccountbeveiliging op een postvak gebruikt, moet u ook prio
 
 Voeg prioriteitsaccounts toe vanaf **de pagina Setup.**
 
-1. Ga naar het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Ga naar het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 2. Ga naar  >  **Organisatiekennis instellen** en kies **Weergeven** onder Uw belangrijkste **accounts controleren.**
 
@@ -73,9 +73,9 @@ U kunt ook prioriteitsaccounts toevoegen vanaf de pagina Actieve gebruikers.
 
 Voeg prioriteitsaccounts toe vanaf de pagina Actieve gebruikers.
 
-1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
-2. Ga naar **Gebruikers**  >  **Actieve gebruikers** en kies **...** boven aan de pagina. Selecteer **Prioriteitsaccounts beheren.**
+2. Ga naar **Gebruikers**  >  **Actieve gebruikers** en selecteer de drie puntjes (meer acties) boven aan de pagina. Selecteer **Prioriteitsaccounts beheren.**
 
 3. Selecteer **Accounts toevoegen** en typ op de pagina **Prioriteitsaccounts** toevoegen in het zoekveld de naam van de persoon die u wilt toevoegen aan de lijst met prioriteitsaccounts.
 
@@ -83,7 +83,7 @@ Voeg prioriteitsaccounts toe vanaf de pagina Actieve gebruikers.
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>Een gebruiker verwijderen uit de lijst met prioriteitsaccounts
 
-1. Ga naar het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Ga naar het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 2. Ga naar  >  **Organisatiekennis instellen** en kies **Weergeven** onder Uw belangrijkste **accounts controleren.**
 

@@ -24,41 +24,29 @@ search.appverid:
 - MET150
 - MOE150
 description: Volg de stappen in deze oplossing om een voormalige werknemer te verwijderen Microsoft 365 en de gegevens van uw organisatie te beveiligen.
-ms.openlocfilehash: 4b4cf59fdce81b3098ee333095daa8e1af1cd5c5
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 79baf5cbd94d555c1dff1859f5045cde3dbcfdc0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241734"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535906"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>Overzicht: Een voormalige werknemer verwijderen en gegevens beveiligen
 
 Een veelgestelde vraag is: 'Wat moet ik doen om gegevens te beveiligen en toegang te beveiligen wanneer een werknemer mijn organisatie verlaat?' In deze artikelreeks wordt uitgelegd hoe u toegang tot Microsoft 365 blokkeren, welke stappen u moet ondernemen om uw gegevens te beveiligen en hoe u andere werknemers toegang geeft tot de gegevens.
 
-Bekijk een korte video over het verwijderen van een werknemer. <br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
-
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
-
-Als u wilt voorkomen dat een werknemer zich aanlogt:
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
-2. Schakel het vakje naast de naam van de gebruiker in en selecteer vervolgens **Wachtwoord opnieuw instellen.**
-3. Voer een nieuw wachtwoord in en selecteer Vervolgens **Opnieuw instellen.** (Verzend het niet naar hen.)
-4. Selecteer de naam van de gebruiker om naar het eigenschappenvenster te gaan en selecteer op het tabblad **Account** de optie **Aanmelding starten.**
-
-> [!NOTE]
-> U moet een globale beheerder zijn om de aanmelding te starten.
-
-Binnen een uur - of nadat ze de huidige Microsoft 365 pagina waarin ze zich hebben geplaatst - worden ze gevraagd zich opnieuw aan te melden. Een toegangs token is goed voor een uur, dus de tijdlijn is afhankelijk van hoeveel tijd er nog over is op dat token en of ze buiten hun huidige webpagina navigeren.
-
-> [!IMPORTANT]
-> Hoewel we de stappen in deze oplossing hebben genummerd en u de oplossing niet hoeft te voltooien met de exacte volgorde, raden we u aan de stappen op deze manier uit te voeren.
+:::image type="content" source="../../media/delete-user-overview.png" alt-text="Schermafbeelding: Overzichtsstappen voor het verwijderen van een voormalige werknemer":::
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
 U moet een globale beheerder zijn om de stappen in deze oplossing uit te voeren.
+
+## <a name="solution-remove-a-former-employee"></a>Oplossing: Een voormalige werknemer verwijderen
+
+> [!IMPORTANT]
+> Hoewel we de stappen in deze oplossing hebben genummerd en u de oplossing niet hoeft te voltooien met de exacte volgorde, raden we u aan de stappen op deze manier uit te voeren.
+
+:::image type="content" source="../../media/delete-user-account.png" alt-text="Schermafbeelding: stappen voor het verwijderen van een voormalige werknemer uit uw organisatie":::
 
 |||
 |:-----|:-----|

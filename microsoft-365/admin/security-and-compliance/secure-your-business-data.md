@@ -22,21 +22,14 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: c20b0d070c4c4ca28ee681e560c4a91c412241fc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: dcaeb9588f50d1e12bdff5164f5f41a0beee2e47
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244537"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535876"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om uw Microsoft 365 zakelijke abonnementen te beveiligen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Als u een kleine of middelgrote organisatie bent die een van de bedrijfsplannen van Microsoft gebruikt en uw type organisatie is gericht op cybercriminelen en hackers, gebruikt u de richtlijnen in dit artikel om de beveiliging van uw organisatie te verhogen. Deze richtlijnen helpen uw organisatie bij het [](https://go.microsoft.com/fwlink/p/?linkid=2015598)bereiken van de doelstellingen die worden beschreven in het Handboek cyberbeveiligingscampagne van de Harvard Kennedy School.
 
@@ -55,9 +48,9 @@ Microsoft raadt u aan om de taken uit te voeren die worden vermeld in de volgend
 |9|[Beschermen tegen schadelijke bijlagen en bestanden met Safe bijlagen](secure-your-business-data.md#atp)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |10|[Beschermen tegen phishingaanvallen met Safe koppelingen](secure-your-business-data.md#phishingatp)||![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 
-Als u Microsoft Business Premium, kunt u de beveiliging het snelste instellen en veilig samenwerken door de richtlijnen in deze bibliotheek te volgen: Microsoft 365 voor kleinere bedrijven en [campagnes.](../../campaigns/index.md) Deze richtlijnen zijn ontwikkeld in samenwerking met het Microsoft Defending Democracy-team om alle kleine zakelijke klanten te beschermen tegen cyberdreigingen die zijn gestart door geavanceerde hackers.
+Als u Microsoft Business Premium hebt, is de snelste manier om beveiliging in te stellen en veilig samen te werken, het volgen van de richtlijnen in deze bibliotheek: [Microsoft 365 voor kleinere bedrijven en campagnes](../../campaigns/index.md). Deze richtlijnen zijn ontwikkeld in samenwerking met het Microsoft Defending Democracy-team om alle kleine zakelijke klanten te beschermen tegen cyberbedreigingen die worden uitgevoerd door geavanceerde hackers.
 
-Controleer voordat u begint uw [Microsoft 365 Secure Score](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score) in het Microsoft 365 beveiligingscentrum. Vanuit een gecentraliseerd dashboard kunt u de beveiliging van uw identiteiten, Microsoft 365, gegevens, apps, apparaten en infrastructuur controleren en verbeteren. U krijgt punten voor het configureren van aanbevolen beveiligingsfuncties, het uitvoeren van beveiligingsgerelateerde taken (zoals het weergeven van rapporten) of het oplossen van aanbevelingen met een toepassing of software van derden. Met extra inzichten en meer zichtbaarheid in een bredere set Microsoft-producten en -services, kunt u vertrouwen hebben in de rapportage over de beveiligingstoestand van uw organisatie.
+Controleer voordat u begint uw [Microsoft 365 Secure Score](../../security/defender/microsoft-secure-score.md) in het Microsoft 365 beveiligingscentrum. Vanuit een gecentraliseerd dashboard kunt u de beveiliging van uw identiteiten, Microsoft 365, gegevens, apps, apparaten en infrastructuur controleren en verbeteren. U krijgt punten voor het configureren van aanbevolen beveiligingsfuncties, het uitvoeren van beveiligingsgerelateerde taken (zoals het weergeven van rapporten) of het oplossen van aanbevelingen met een toepassing of software van derden. Met extra inzichten en meer zichtbaarheid in een bredere set Microsoft-producten en -services, kunt u vertrouwen hebben in de rapportage over de beveiligingstoestand van uw organisatie.
 
 ![Schermafbeelding van Microsoft Secure Score](../../media/secure-score.png)
 
@@ -159,7 +152,7 @@ Als u een regel voor e-mailtransport wilt maken, bekijkt u een [korte trainingsv
 
 5. Pas de instellingen in de volgende tabel toe voor elke regel. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Kies **Opslaan**.
+6. Selecteer **Opslaan**.
     
 | Instelling | Gebruikers waarschuwen voordat ze bijlagen van Office openen | Bestandstypen blokkeren die ransomware of andere schadelijke code kunnen bevatten |
 |:-----|:-----|:-----|
@@ -195,7 +188,7 @@ Een regel voor e-mailtransport maken:
 
 5. Pas de instellingen in de volgende tabel toe. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Kies **Opslaan**.
+6. Selecteer **Opslaan**.
 
 |Instelling|Automatisch doorsturen van e-mailberichten naar externe domeinen weigeren|
 |---|---|
@@ -333,7 +326,7 @@ Het standaardbeleid wijzigen:
 
 3. Selecteer **Office 365** toepassingen onder Instellingen die van toepassing zijn op inhoud, behalve **e-mail,** niet bijhouden wanneer gebruikers op veilige koppelingen klikken en Gebruikers niet door veilige koppelingen naar de oorspronkelijke URL laten **klikken.**
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
@@ -341,7 +334,7 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 2. Pas de instellingen toe die in de volgende tabel worden vermeld.
 
-3. Kies **Opslaan**.
+3. Selecteer **Opslaan**.
 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|

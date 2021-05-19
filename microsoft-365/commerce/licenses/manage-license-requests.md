@@ -18,19 +18,19 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
 search.appverid: MET150
-description: Meer informatie over het controleren en goedkeuren of weigeren van licentieaanvragen van gebruikers voor uw Microsoft 365 voor Bedrijven-abonnement.
+description: Meer informatie over het controleren en goedkeuren of weigeren van licentieaanvragen van gebruikers voor uw Microsoft 365 voor bedrijven-abonnement.
 ms.date: 08/07/2020
-ms.openlocfilehash: 06ee210b39c19c1f2c8a2041c463568e55001b6e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 6cbfd81f4f6deba642729f1fef0b826b07a99f56
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331548"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535672"
 ---
 # <a name="manage-license-requests"></a>Licentieaanvragen beheren
 
 > [!NOTE]
-> De informatie in dit artikel is alleen van toepassing op selfservice aangeschafte producten. Zie Veelgestelde vragen over [selfservice-aankopen voor meer informatie.](../subscriptions/self-service-purchase-faq.md)
+> De informatie in dit artikel is alleen van toepassing op selfservice aangeschafte producten. Zie Veelgestelde vragen over [selfservice-aankopen voor meer informatie.](../subscriptions/self-service-purchase-faq.yml)
 
 Als u selfserviceaankopen in uw organisatie uit schakelt, kunt u licentiesaanvragen gebruiken om het proces voor het aanvragen van licenties voor uw gebruikers te beheren. Wanneer een gebruiker een selfserviceaankoop probeert te doen voor een product dat u hebt geblokkeerd, kan hij of zij een aanvraag voor een licentie indienen bij u, de beheerder. Wanneer ze een aanvraag indienen, kunnen ze de namen toevoegen van andere gebruikers die ook licenties nodig hebben voor het product.
 
@@ -77,7 +77,7 @@ Wanneer u terugkeert naar de lijst **Aanvragen,** ziet u het bericht **U gebruik
 9. Sluit het rechterdeelvenster.
     Gebruikers ontvangen een e-mailbericht met de informatie dat hun aanvraag is goedgekeurd of geweigerd.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Gebruikers verplaatsen naar een ander abonnement](../subscriptions/move-users-different-subscription.md) (artikel)\

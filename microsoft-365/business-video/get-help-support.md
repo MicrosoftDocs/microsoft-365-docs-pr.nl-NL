@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lees hoe u hulp en ondersteuning voor beheerders kunt krijgen in Microsoft 365 Business Premium.
-ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
-ms.translationtype: HT
+description: U moet een beheerder voor een zakelijk abonnement zijn om hulp van beheerders of online of telefonische ondersteuning te krijgen in Microsoft 365 Business Premium.
+ms.openlocfilehash: e6308a9728731052d540cf3e872b6e153b64aae2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327184"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535708"
 ---
 # <a name="get-support"></a>Ondersteuning krijgen
 
@@ -253,3 +253,12 @@ Alleen voor beheerders van organisaties met een Office 365 Germany-abonnement zi
 U kunt ook [zoeken in de communityfora voor Microsoft 365 voor Bedrijven](https://go.microsoft.com/fwlink/p/?LinkId=518605) om oplossingen voor bekende problemen te vinden, te lezen over populaire onderwerpen of een nieuwe vraag te stellen. De communityforums worden in de gaten gehouden door getrainde Microsoft-ondersteuningsmedewerkers, die u kunnen helpen uw probleem op te lossen.
 
 ::: moniker-end
+
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Documenten en training zoeken](find-help-answers.md) (artikel)
+
+[Snelle installatie van werknemer](employee-quick-setup.md) (artikel)
+
+[Overzicht van Microsoft 365 Business Premium setup](setup-overview.md) (video)

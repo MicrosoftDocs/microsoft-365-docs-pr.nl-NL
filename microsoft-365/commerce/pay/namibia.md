@@ -1,23 +1,24 @@
 ---
 title: Betalingsgegevens voor Namibië
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bae9cf39d1a25446175304f50b29daf309af1377
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 49a78fc43616ed1e179142948bc5ca6284a3b6b8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273222"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535372"
 ---
 # <a name="payment-information-for-namibia"></a>Betalingsgegevens voor Namibië
 
@@ -31,4 +32,4 @@ Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking va
 **SWIFT-code:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Accountnummer:** 12510049  
-**Accountnaam:** MICROSOFT  
+**Accountnaam:** MICROSOFT

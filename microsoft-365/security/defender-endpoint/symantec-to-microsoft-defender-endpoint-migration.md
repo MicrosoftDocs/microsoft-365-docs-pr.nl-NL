@@ -19,15 +19,15 @@ ms.collection:
 - m365solution-symantecmigrate
 - m365solution-overview
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/14/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 3e3a30ac4d03a40157fd7ec7f06e6e2a82c685a0
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 62a916fcf89432a512ada1b85002cce401e4dd23
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327388"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530896"
 ---
 # <a name="migrate-from-symantec-to-microsoft-defender-for-endpoint"></a>Migreren van Symantec naar Microsoft Defender voor Eindpunt
 Als u van plan bent om over te schakelen van Symantec Endpoint Protection (Symantec) naar [Microsoft Defender voor](microsoft-defender-endpoint.md) Eindpunt (Microsoft Defender voor Eindpunt), bent u op de juiste plaats. Gebruik dit artikel als handleiding.
@@ -46,17 +46,17 @@ Wanneer u overschakelt van Symantec naar Microsoft Defender voor Eindpunt, volgt
 
 ![Migratiefasen : voorbereiden, instellen, aan boord](images/phase-diagrams/migration-phases.png)
 
-|Fase |Beschrijving |
+|Fase |Omschrijving |
 |--|--|
-|[Voorbereiden op uw migratie](symantec-to-microsoft-defender-atp-prepare.md) |Tijdens de **fase** Voorbereiden krijgt u Microsoft Defender voor eindpunt, plant u uw rollen en machtigingen en verleent u toegang tot de Microsoft Defender-beveiligingscentrum. U configureert ook de apparaatproxy- en internetinstellingen om communicatie in te stellen tussen de apparaten van uw organisatie en Microsoft Defender voor Eindpunt. |
-|[Microsoft Defender voor Eindpunt instellen](symantec-to-microsoft-defender-atp-setup.md) |Tijdens de **installatiefase** configureert u instellingen en uitsluitingen voor Microsoft Defender Antivirus en Endpoint Protection. U maakt ook apparaatgroepen, verzamelingen en organisatie-eenheden. Ten slotte configureert u uw antimalwarebeleid en realtime beveiligingsinstellingen.|
-|[Onboard to Microsoft Defender for Endpoint](symantec-to-microsoft-defender-atp-onboard.md) |Tijdens de **onboard-fase** kunt u uw apparaten aan boord van Microsoft Defender voor Eindpunten laten werken en controleren of deze apparaten communiceren met Microsoft Defender voor Eindpunt. Als laatste verwijdert u Symantec en zorgt u ervoor dat de beveiliging via Microsoft Defender voor Eindpunt actief is. |
+|[Voorbereiden op uw migratie](symantec-to-microsoft-defender-atp-prepare.md) |Tijdens de **fase** Voorbereiden werkt u de apparaten van uw organisatie bij, krijgt u Microsoft Defender voor Eindpunt, plant u uw rollen en machtigingen en verleent u toegang tot de Microsoft Defender-beveiligingscentrum. U configureert ook de apparaatproxy- en internetinstellingen om communicatie tussen de apparaten van uw organisatie en Defender voor Eindpunt in te stellen. |
+|[Microsoft Defender voor Eindpunt instellen](symantec-to-microsoft-defender-atp-setup.md) |Tijdens de **installatiefase** stelt u de Microsoft Defender Antivirus in en stelt u deze in op de passieve modus. U configureert ook instellingen & uitsluitingen voor Microsoft Defender Antivirus en Endpoint Protection. Vervolgens maakt u uw apparaatgroepen, verzamelingen en organisatie-eenheden. Ten slotte configureert u uw antimalwarebeleid en realtime beveiligingsinstellingen.|
+|[Onboard to Microsoft Defender for Endpoint](symantec-to-microsoft-defender-atp-onboard.md) |Tijdens de **onboard-fase** kunt u uw apparaten inschakelen bij Microsoft Defender voor Eindpunt, bevestigen dat Microsfot Defender Antivirus wordt uitgevoerd in de passieve modus en controleren of uw eindpunten communiceren met Defender voor Eindpunt. Vervolgens verwijdert u Symantec en zorgt u ervoor dat Defender voor Eindpunt correct werkt. |
 
 ## <a name="whats-included-in-microsoft-defender-for-endpoint"></a>Wat is inbegrepen in Microsoft Defender voor Eindpunt?
 
 In deze migratiehandleiding [](microsoft-defender-antivirus-in-windows-10.md) richten we ons [](overview-endpoint-detection-response.md) op de volgende generatie beveiliging en eindpuntdetectie en -respons mogelijkheden als uitgangspunt voor de overstap naar Microsoft Defender voor Eindpunt. Microsoft Defender voor Eindpunt bevat echter veel meer dan antivirus- en eindpuntbeveiliging. Microsoft Defender voor Eindpunt is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord. In de volgende tabel worden functies en mogelijkheden in Microsoft Defender voor Eindpunt samengevat. 
 
-| Functie/mogelijkheid | Beschrijving |
+| Functie/mogelijkheid | Omschrijving |
 |---|---|
 | [Bedreigings- en risicobeheer](next-gen-threat-and-vuln-mgt.md) | Bedreigingsfuncties & vulnerability management helpen bij het identificeren, beoordelen en herstellen van zwakke punten in uw eindpunten (zoals apparaten). |
 | [Kwetsbaarheid voor aanvallen verminderen](overview-attack-surface-reduction.md) | Regels voor het verminderen van aanvallen helpen de apparaten en toepassingen van uw organisatie te beschermen tegen cyberaanvallen en aanvallen. |

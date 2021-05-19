@@ -1,5 +1,5 @@
 ---
-title: Verloopbeleid voor Microsoft 365-groep
+title: Microsoft 365 groep verloopbeleid
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -15,30 +15,31 @@ ms.collection:
 - m365solution-collabgovernance
 search.appverid:
 - MET150
-description: Meer informatie over het verloopbeleid voor Microsoft 365-groepen.
-ms.openlocfilehash: fdef06918ec2c35547c084e5f431aa7bef8d6a8c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+recommendations: false
+description: Meer informatie over Microsoft 365 het verloopbeleid voor groepen.
+ms.openlocfilehash: 90807d6c178061804e64db4440af42050a1d8e77
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587621"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530848"
 ---
-# <a name="microsoft-365-group-expiration-policy"></a>Verloopbeleid voor Microsoft 365-groep
+# <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 groep verloopbeleid
 
-Met de toename van het gebruik van Microsoft 365-groepen en Microsoft Teams hebben beheerders en gebruikers een manier nodig om ongebruikte groepen en teams op te schonen. Een verloopbeleid voor Microsoft 365-groepen kan helpen inactieve groepen uit het systeem te verwijderen en dingen schoner te maken.
+Met de toename van het gebruik van Microsoft 365 groepen en Microsoft Teams hebben beheerders en gebruikers een manier nodig om ongebruikte groepen en teams op te schonen. Een Microsoft 365 het verloopbeleid voor groepen kan helpen inactieve groepen uit het systeem te verwijderen en dingen schoner te maken.
 
-Wanneer een groep verloopt, worden alle bijbehorende services (het postvak, planner, SharePoint-site, team, enzovoort) ook verwijderd.
+Wanneer een groep verloopt, worden alle bijbehorende services (het postvak, planner, SharePoint site, team, enzovoort) ook verwijderd.
 
 Wanneer een groep verloopt, is deze 'soft-deleted', wat betekent dat deze nog maximaal 30 dagen kan worden hersteld.
 
-Beheerders kunnen een verloopperiode opgeven en elke inactieve groep die het einde van die periode bereikt en niet wordt verlengd, wordt verwijderd. (Dit geldt ook voor gearchiveerde teams.) De verloopperiode begint wanneer de groep wordt gemaakt of op de datum waarop de groep voor het laatst is verlengd. Groepseigenaars ontvangen automatisch een e-mail vóór de vervaldatum, zodat ze de groep kunnen verlengen voor een ander verloopinterval. Teams-gebruikers zien permanente meldingen in Teams.
+Beheerders kunnen een verloopperiode opgeven en elke inactieve groep die het einde van die periode bereikt en niet wordt verlengd, wordt verwijderd. (Dit geldt ook voor gearchiveerde teams.) De verloopperiode begint wanneer de groep wordt gemaakt of op de datum waarop de groep voor het laatst is verlengd. Groepseigenaars ontvangen automatisch een e-mail vóór de vervaldatum, zodat ze de groep kunnen verlengen voor een ander verloopinterval. Teams gebruikers zien permanente meldingen in Teams.
 
 Groepen die actief worden gebruikt, worden automatisch verlengd. Een van de volgende acties verlengt een groep automatisch:
-- SharePoint: bestanden weergeven, bewerken, downloaden, verplaatsen, delen of uploaden. (Het weergeven van een SharePoint-pagina telt niet als een actie voor automatische verlenging.)
-- Outlook: deelnemen aan groep, groepsbericht lezen of schrijven vanuit de groep en een bericht leuk vinden (webversie van Outlook).
-- Teams : een teamkanaal bezoeken.
+- SharePoint: bestanden weergeven, bewerken, downloaden, verplaatsen, delen of uploaden. (Het weergeven van SharePoint pagina telt niet als een actie voor automatische verlenging.)
+- Outlook: voeg groep toe, lees of schrijf groepsbericht uit de groep en vind een bericht leuk (Outlook op het web).
+- Teams - een teamkanaal bezoeken.
 
-De enige Yammer-activiteit die een automatische groepsvernieuwing activeert, is het uploaden van een document naar SharePoint binnen de community.
+Houd er rekening mee dat de enige Yammer activiteit die een automatische groepsvernieuwing activeert, is het uploaden van een document naar SharePoint binnen de community.
 
 > [!IMPORTANT]
 > Wanneer u het verloopbeleid wijzigt, wordt de vervaldatum voor elke groep opnieuw berekend door de service. Het begint altijd te tellen vanaf de datum waarop de groep is gemaakt en past vervolgens het nieuwe verloopbeleid toe.
@@ -48,16 +49,16 @@ Het is belangrijk om te weten dat vervaldatum standaard is uitgeschakeld. Beheer
 > [!NOTE]
 > Voor het configureren en gebruiken van het verloopbeleid voor Microsoft 365-groepen moet u Azure AD Premium-licenties bezitten, maar niet noodzakelijk toewijzen voor de leden van alle groepen waarop het verloopbeleid wordt toegepast. Zie voor meer informatie [Aan de slag met Azure Active Directory Premium](/azure/active-directory/active-directory-get-started-premium).
 
-## <a name="who-can-configure-and-use-the-microsoft-365-groups-expiration-policy"></a>Wie kan het verloopbeleid voor Microsoft 365-groepen configureren en gebruiken?
+## <a name="who-can-configure-and-use-the-microsoft-365-groups-expiration-policy"></a>Wie kunt u het verloopbeleid voor Microsoft 365 groepen configureren en gebruiken?
 
 |Rol|Wat ze kunnen doen|
 |---------|---------|
-|Globale beheerder van Office 365 (in Azure, de beheerder van het bedrijf), gebruikerbeheerder|De instellingen voor het verloopbeleid van Microsoft 365-groepen maken, lezen, bijwerken of verwijderen.|
-|Gebruiker|Een [Microsoft](/azure/active-directory/users-groups-roles/groups-restore-deleted) 365-groep die ze bezitten, verlengen of herstellen|
+|Office 365 globale beheerder (in Azure, de beheerder van het bedrijf), Gebruikerbeheerder|De instellingen voor het verloopbeleid voor groepen maken, lezen, bijwerken Microsoft 365 verwijderen.|
+|Gebruiker|Een groep [Microsoft 365](/azure/active-directory/users-groups-roles/groups-restore-deleted) of herstellen|
 
 ## <a name="how-to-set-the-expiration-policy"></a>Het verloopbeleid instellen
 
-Zoals hierboven vermeld, is de vervaldatum standaard uitgeschakeld. Een beheerder moet het verloopbeleid inschakelen en de eigenschappen instellen die moeten worden doorgevoerd. Als u dit wilt inschakelen, gaat u naar **Verloop van Azure Active**  >  **Directory-groepen**  >  . Hier kunt u de standaardlevensduur van de groep instellen en opgeven hoe ver van tevoren de eerste en tweede verloopmeldingen naar de groepseigenaar moeten gaan.
+Zoals hierboven vermeld, is de vervaldatum standaard uitgeschakeld. Een beheerder moet het verloopbeleid inschakelen en de eigenschappen instellen die moeten worden doorgevoerd. Als u dit wilt inschakelen, gaat **u naar Azure Active Directory** Verloop van  >    >  **groepen.** Hier kunt u de standaardlevensduur van de groep instellen en opgeven hoe ver van tevoren de eerste en tweede verloopmeldingen naar de groepseigenaar moeten gaan.
 
 De levensduur van de groep wordt opgegeven in dagen en kan worden ingesteld op 180, 365 of op een aangepaste waarde die u opgeeft. De aangepaste waarde moet ten minste 30 dagen zijn.
 
@@ -65,7 +66,7 @@ Als de groep geen eigenaar heeft, gaan de verlopende e-mailberichten naar de opg
 
 U kunt het beleid instellen voor al uw groepen, alleen geselecteerde groepen (maximaal 500) of volledig uitschakelen door **Geen te selecteren.** Op dit moment kunt u niet verschillende beleidsregels voor verschillende groepen hebben.
 
-![Schermafbeelding van instellingen voor het verlopen van groepen in Azure Active Directory](../media/azure-groups-expiration-settings.png)
+![Schermafbeelding van instellingen voor het verloop van groepen in Azure Active Directory](../media/azure-groups-expiration-settings.png)
 
 ## <a name="how-expiry-works-with-the-retention-policy"></a>Hoe verlopen werkt met het bewaarbeleid
 
@@ -77,11 +78,11 @@ Groepseigenaren ontvangen alleen een melding via e-mail. Als de groep is gemaakt
 
 Dertig dagen voordat de groep verloopt, ontvangen de groepseigenaren (of de e-mailadressen die u hebt opgegeven voor groepen die geen eigenaar hebben) een e-mailbericht waarmee ze de groep eenvoudig kunnen verlengen. Als ze het niet verlengen, ontvangen ze 15 dagen voor de vervaldatum nog een verlengings-e-mail. Als ze deze nog steeds niet hebben verlengd, ontvangen ze de dag vóór de vervaldatum nog een e-mailmelding.
 
-Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na de vervaldatum herstellen. Zie voor meer informatie: [Een verwijderde Microsoft 365-groep herstellen.](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+Als om de een of andere reden geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt, kan de beheerder de groep nog steeds tot 30 dagen na de vervaldatum herstellen. Zie voor meer informatie: [Een verwijderde Microsoft 365 herstellen.](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
 
 ## <a name="archiving-group-contents"></a>Groepsinhoud archiveren
 
-Zie [Groepen, teams](end-life-cycle-groups-teams-sites-yammer.md) en Yammer archiveren voor informatie over het exporteren van informatie uit de verschillende groepenservices als u een groep hebt die u niet meer wilt gebruiken, maar u de inhoud ervan wilt behouden.
+Zie [Groepen, teams](end-life-cycle-groups-teams-sites-yammer.md) en Yammer archiveren voor informatie over het exporteren van informatie uit de verschillende groepenservices als u een groep hebt die u niet meer wilt gebruiken, maar de inhoud ervan wilt behouden.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -93,4 +94,4 @@ Zie [Groepen, teams](end-life-cycle-groups-teams-sites-yammer.md) en Yammer arch
 
 [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Verloop van Microsoft 365-groepen configureren](/azure/active-directory/active-directory-groups-lifecycle-azure-portal)
+[Verloop van Microsoft 365 groepen configureren](/azure/active-directory/active-directory-groups-lifecycle-azure-portal)

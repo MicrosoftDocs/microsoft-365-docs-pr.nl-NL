@@ -1,23 +1,24 @@
 ---
 title: Betalingsgegevens voor Nicaragua
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: afcf8009b9310dcab41f7cade641f927a883600d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f071c1aa1965649027b5237a12aef78e0774e60e
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273174"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535324"
 ---
 # <a name="payment-information-for-nicaragua"></a>Betalingsgegevens voor Nicaragua
 
@@ -31,4 +32,4 @@ Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking va
 **Vertakking:** Dallas  
 **SWIFT-code:** BOFAUS3N  
 **Accountnummer:** 4426587954  
-**Accountnaam:** Microsoft  
+**Accountnaam:** Microsoft

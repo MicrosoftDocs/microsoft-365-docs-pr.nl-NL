@@ -20,12 +20,12 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 ms.date: 03/17/2021
-ms.openlocfilehash: 67bd0734953c64f51390aac949a7da477914c7b4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: c590c2d47699c4c3cbea4b5145bea9e7c9fc79ec
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331656"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535660"
 ---
 # <a name="manage-licenses-for-devices"></a>Licenties voor apparaten beheren
 
@@ -55,5 +55,5 @@ Wanneer u licenties uit een groep opwijst, verwijdert u de licenties van alle ap
 
 1. Ga in het beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
 2. Kies op **de pagina** Licenties de Microsoft 365-apps voor **onderwijs (apparaat)** of **Microsoft 365-apps voor ondernemingen (apparaat)**.
-3. Kies op de volgende pagina een abonnement, kies **Meer acties** en kies vervolgens Licenties **niet toewijzen.**
+3. Kies op de volgende pagina een abonnement, selecteer de drie puntjes (meer acties) en kies vervolgens Licenties niet **toewijzen.**
 4. Kies in **het dialoogvenster** Licenties niet toewijzen de optie **Niet toewijzen.**

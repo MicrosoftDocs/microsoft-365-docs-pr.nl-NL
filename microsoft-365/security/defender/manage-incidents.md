@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 09c391d6b02e1273f55070283a6e11454f677114
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 725e6226a56b3aae3670cde18969afdda1ec1940
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52299999"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530836"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Incidenten beheren in Microsoft 365 Defender
 
@@ -45,12 +45,12 @@ U beheert incidenten van **incidenten & waarschuwingen > incidenten** tijdens de
 
 Dit zijn de manieren waarop u uw incidenten kunt beheren:
 
-- De naam van het incident wijzigen
-- Voeg incidentlabels toe.
-- Het incident toewijzen aan een gebruikersaccount
-- Deze oplossen 
-- De classificatie en bepaling ervan instellen
-- Opmerkingen toevoegen.
+- [De naam van het incident bewerken](#edit-the-incident-name)
+- [Incidentlabels toevoegen](#add-incident-tags)
+- [Het incident toewijzen aan een gebruikersaccount](#assign-incidents)
+- [Deze oplossen](#resolve-an-incident)
+- [De classificatie en bepaling ervan instellen](#set-the-classification-and-determination)
+- [Opmerkingen toevoegen](#add-comments)
 
 U kunt incidenten beheren vanuit het deelvenster **Incident beheren** voor een incident. Hier is een voorbeeld.
 
@@ -61,7 +61,7 @@ U kunt dit deelvenster weergeven via de koppeling **Incident beheren** op het vo
 - Deelvenster Eigenschappen van een incident in de incidentwachtrij.
 - **Overzichtspagina** van een incident.
 
-In gevallen waarin u tijdens het analyseren waarschuwingen van het ene incident naar  het andere wilt verplaatsen, kunt u dit ook doen via het tabblad Waarschuwingen, waardoor een groter of kleiner incident wordt gemaakt dat alle relevante waarschuwingen bevat.
+In gevallen waarin u waarschuwingen van het ene incident naar  het andere wilt verplaatsen, kunt u dit ook doen via het tabblad Waarschuwingen, waardoor een groter of kleiner incident wordt gemaakt met alle relevante waarschuwingen.
 
 ## <a name="edit-the-incident-name"></a>De naam van het incident bewerken
 
@@ -82,7 +82,7 @@ Wanneer u begint te typen, hebt u de optie om te selecteren in een lijst met ges
 
 Als er nog geen incident is toegewezen, kunt u Toewijzen **aan** selecteren en het gebruikersaccount opgeven. Als u dit doet, worden de eigenaar van het incident en alle waarschuwingen die aan het incident zijn gekoppeld, toegewezen.
 
-## <a name="resolve-incident"></a>Incident oplossen
+## <a name="resolve-an-incident"></a>Een incident oplossen
 
 Als het incident is opgelost, selecteert u **Incident oplossen** om de schakelknop naar rechts te verplaatsen. Het oplossen van een incident lost ook alle gekoppelde en actieve waarschuwingen met betrekking tot het incident op.
 
