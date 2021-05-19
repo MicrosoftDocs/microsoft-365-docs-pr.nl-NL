@@ -19,31 +19,31 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
-description: Meer informatie over het verwijderen van een gebruikersaccount. Bepaal wat u moet doen met de e-mail en OneDrive-inhoud van de gebruiker. En bepaal of u de productlicentie wilt behouden of niet meer wilt betalen.
-ms.openlocfilehash: d40f70534499b08073278ffc2bed2b098ae1c4da
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+description: Meer informatie over het verwijderen van een gebruikersaccount. Bepaal wat u moet doen met de e-mail van de gebruiker en OneDrive inhoud. En bepaal of u de productlicentie wilt behouden of niet meer wilt betalen.
+ms.openlocfilehash: f4b1e0b1fb591d369cc09010db86dd995d7d4896
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860735"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535972"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
-**Wilt u weten hoe u uw *eigen* Microsoft 365-gebruikersaccount verwijdert dat u op het werk of op school gebruikt? Neem contact op met de technische ondersteuning op uw werk of op de universiteit om deze stappen voor u uit te voeren.**
+**Wilt u weten  hoe u uw eigen Microsoft 365 gebruikersaccount verwijdert dat u op het werk of op school gebruikt? Neem contact op met de technische ondersteuning op uw werk of op de universiteit om deze stappen voor u uit te voeren.**
 
 ## <a name="what-you-need-to-know-about-deleting-users"></a>Wat u moet weten over het verwijderen van gebruikers
 
-- Alleen personen met globale beheerders- of gebruikersbeheermachtigingen van [Microsoft 365](about-admin-roles.md) voor het bedrijf of school kunnen gebruikersaccounts verwijderen.
+- Alleen personen met Microsoft 365 [globale beheerder](about-admin-roles.md) of gebruikersbeheermachtigingen voor het bedrijf of school kunnen gebruikersaccounts verwijderen.
 - U hebt 30 dagen de tijd om het account te [herstellen](restore-user.md). Daarna worden de gegevens van de gebruiker permanent verwijderd.
 - Als u de OneDrive-gegevens van de gebruiker wilt behouden, verplaatst u ze naar een andere locatie. U kunt de gegevens zelfs tot 30 dagen na het verwijderen van het account verplaatsen. Zie [Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken](get-access-to-and-back-up-a-former-user-s-data.md). U hoeft de SharePoint-bestanden van de gebruiker niet te verplaatsen; u hebt daar nog steeds toegang toe.
 - Als u de e-mail van de gebruiker wilt bewaren, moet u deze naar een andere locatie verplaatsen **VOORDAT** u het account verwijdert. Als u het account al hebt verwijderd, kunt u het binnen 30 dagen herstellen en vervolgens de e-mailgegevens verplaatsen. Hierna kunt u het account verwijderen. Zie [Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken](get-access-to-and-back-up-a-former-user-s-data.md).
-- Als u een Enterprise-abonnement hebt, zoals Office 365 Enterprise E3, kunt u de postvakgegevens van een verwijderd gebruikersaccount behouden door het om te zetten in een *inactief postvak.* Zie het Engelstalige artikel [Manage inactive mailboxes in Exchange Online (Inactieve postvakken beheren in Exchange Online)](../../compliance/inactive-mailboxes-in-office-365.md) voor meer informatie.
+- Als u een Enterprise-abonnement hebt zoals Office 365 Enterprise E3, kunt u de postvakgegevens van een verwijderd gebruikersaccount behouden door het om te zetten in een *inactief postvak.* Zie het Engelstalige artikel [Manage inactive mailboxes in Exchange Online (Inactieve postvakken beheren in Exchange Online)](../../compliance/inactive-mailboxes-in-office-365.md) voor meer informatie.
 
 ## <a name="global-admin-delete-a-user-stop-paying-for-their-license-and-choose-what-to-do-with-their-email-and-onedrive-content"></a>Globale beheerder: Verwijder een gebruiker, stop de betaling voor zijn licentie en kies u wilt doen met zijn e-mailadres en de OneDrive-inhoud
 
 Wanneer u een gebruiker verwijdert kunt u, als u een globale beheerder bent, ook een andere gebruiker toegang geven tot zijn e-mail, en kiezen wat u wilt doen met zijn OneDrive-inhoud.
 
-### <a name="things-to-consider"></a>Aandachtspunten
+### <a name="things-to-consider"></a>Waar u aan moet denken
 
 Denk, voordat u begint, na over wat u wilt doen met de e-mail- en OneDrive-inhoud van de gebruiker en of u de licentie wilt behouden of hier niet meer voor wilt betalen.
   
@@ -87,7 +87,7 @@ Omdat de begeleide ervaring stap voor stap uitlegt hoe u de gebruiker verwijdert
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.  
 
-2. Selecteer de namen van de gebruikers die u wilt verwijderen, selecteer **Meer opties** (**...**) en kies vervolgens **Gebruiker verwijderen**.
+2. Selecteer de namen van de gebruikers die u wilt verwijderen, selecteer de drie puntjes (meer acties) en kies **vervolgens Gebruiker verwijderen.**
 
    Hoewel u het account van de gebruiker hebt verwijderd, **betaalt u nog steeds voor de licentie**.  Zie de volgende procedure om de betaling voor de licentie stop te zetten.  U kunt de licentie ook toewijzen aan een andere gebruiker. Deze wordt niet automatisch aan iemand toegewezen.
 
@@ -127,7 +127,7 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
 
 4. Voer in **het deelvenster** Licenties verwijderen onder  **Nieuw** aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er vijf wilt verwijderen, voert u 95 in.
 
-5. Klik op **Opslaan**.
+5. Selecteer **Opslaan**.
 
 Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
 
@@ -155,7 +155,7 @@ Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te
 
 ## <a name="delete-many-users-at-the-same-time"></a>Meerdere gebruikers tegelijk verwijderen
 
-Zie de [Remove-MsolUser](https://docs.microsoft.com/powershell/module/msonline/remove-msoluser) PowerShell cmdlet.
+Zie de [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell cmdlet.
 
 ## <a name="fix-issues-with-deleting-a-user"></a>Problemen met het verwijderen van een gebruiker oplossen
 
@@ -163,11 +163,11 @@ Hier volgt een overzicht van de meestvoorkomende problemen tijdens het verwijder
   
 - **Er wordt een foutbericht weergegeven met de tekst 'Gebruiker kan niet worden verwijderd. Probeer het later opnieuw.'** Controleer of het account e-mail doorsturen heeft ingesteld of dat het is geconverteerd naar een gedeeld postvak. Beide problemen veroorzaken deze fout. Verwijder het account niet als het e-mail doorsturen heeft of als het is geconverteerd naar een gedeeld postvak.
 
-- **U beschikt niet over de juiste machtigingen om een gebruiker te verwijderen**. Alleen personen die globale [beheerders van Microsoft 365](about-admin-roles.md) of beheerders van gebruikersbeheer zijn, kunnen gebruikers verwijderen. Meestal is dit de technische ondersteuning van uw onderwijsinstelling of bedrijf.
+- **U beschikt niet over de juiste machtigingen om een gebruiker te verwijderen**. Alleen personen die globale Microsoft 365 of beheerders van gebruikersbeheer [zijn,](about-admin-roles.md) kunnen gebruikers verwijderen. Meestal is dit de technische ondersteuning van uw onderwijsinstelling of bedrijf.
 
 - **U verwijdert de gebruiker, maar zijn of haar naam staat nog steeds in het globale adresboek**. Dit gebeurt als een bedrijf gebruikmaakt van Active Directory. U moet het gebruikersaccount verwijderen uit Active Directory. Zie Een gebruikersaccount [verwijderen voor instructies.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))
 
-**Wilt u Microsoft 365 van uw computer verwijderen? Ga naar [Uw abonnement opzeggen.](../../commerce/subscriptions/cancel-your-subscription.md)**
+**Wilt u uw Microsoft 365 van uw computer verwijderen? Ga naar [Uw abonnement opzeggen.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
 ## <a name="related-articles"></a>Verwante artikelen
 

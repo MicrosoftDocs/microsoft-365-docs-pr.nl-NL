@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configureer vertrouwelijkheidslabels voor versleuteling die uw gegevens beschermen door de toegang en het gebruik te beperken.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6163e48e3e80b76506d970b77d6cd66f7a050d51
-ms.sourcegitcommit: 8c89bc1d106b4716b07a1977d57e4d9ef98aecb3
+ms.openlocfilehash: 804cfa9da39b5dc9b9dffdcd68fb196e8676f9af
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52162792"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532084"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Toegang tot inhoud beperken door versleuteling toe te passen met vertrouwelijkheidslabels
 
@@ -65,7 +65,9 @@ Wanneer u deze versleutelingsoplossing gebruikt, zorgt de functie **supergebruik
 
 4.  Selecteer een van volgende opties de pagina **Versleuteling** van de wizard:
     
-    - **Versleuteling verwijderen als het bestand is versleuteld**: zie de sectie [Wat gebeurt er met bestaande versleuteling wanneer een label wordt toegepast](#what-happens-to-existing-encryption-when-a-labels-applied) voor meer informatie over dit scenario. Het is belangrijk om te weten dat deze instelling ertoe kan leiden dat een vertrouwelijkheidslabel mogelijk niet meer kan worden toegepast wanneer een gebruiker over onvoldoende machtigingen beschikt.
+    - **Versleuteling verwijderen als het bestand is versleuteld**: deze optie wordt alleen ondersteund door de geïntegreerde labelclient van Azure Information Protection. Wanneer u deze optie selecteert en ingebouwde labeling gebruikt, wordt het label mogelijk niet weergegeven in apps of wordt het label niet weergegeven en worden er geen versleutelingswijzigingen aangebracht.
+        
+        Zie voor meer informatie over dit scenario de sectie [Wat gebeurt er met bestaande versleuteling wanneer een label wordt toegepast](#what-happens-to-existing-encryption-when-a-labels-applied). Het is belangrijk om te weten dat deze instelling ertoe kan leiden dat een vertrouwelijkheidslabel mogelijk niet meer kan worden toegepast wanneer een gebruiker over onvoldoende machtigingen beschikt.
     
     - **Versleutelingsinstellingen configureren**: hiermee schakelt u versleuteling in en worden de versleutelingsinstellingen zichtbaar:
         
@@ -85,11 +87,15 @@ Het is echter mogelijk dat de inhoud al is versleuteld. Een andere gebruiker kan
 
 In de volgende tabel wordt aangegeven wat er gebeurt met bestaande versleuteling wanneer een vertrouwelijkheidslabel op die inhoud wordt toegepast:
 
-| | Versleuteling: niet geselecteerd | Versleuteling: geconfigureerd | Versleuteling: verwijderen |
+| | Versleuteling: niet geselecteerd | Versleuteling: geconfigureerd | Versleuteling: verwijderen <sup>\*</sup> |
 |:-----|:-----|:-----|:-----|
 |**Door een gebruiker opgegeven machtigingen**|Oorspronkelijke versleuteling blijft behouden|Er wordt nieuwe labelversleuteling toegepast|Oorspronkelijke versleuteling wordt verwijderd|
 |**Beveiligingssjabloon**|Oorspronkelijke versleuteling blijft behouden|Er wordt nieuwe labelversleuteling toegepast|Oorspronkelijke versleuteling wordt verwijderd|
 |**Label met door een beheerder gedefinieerde machtigingen**|Oorspronkelijke versleuteling wordt verwijderd|Er wordt nieuwe labelversleuteling toegepast|Oorspronkelijke versleuteling wordt verwijderd|
+
+**Voetnoot:**
+
+<sup>\*</sup> Ondersteund door de geïntegreerde labelclient van Azure Information Protection.
 
 Houd er rekening mee dat wanneer de nieuwe labelversleuteling wordt toegepast of de oorspronkelijke versleuteling wordt verwijderd, dit alleen gebeurt als de gebruiker die het label toepast, een gebruiksrecht of rol heeft waarmee deze actie wordt ondersteund:
 
@@ -139,7 +145,7 @@ Wanneer een gebruiker een document of e-mailbericht opent dat is beveiligd met v
 
 Als er geen vervaldatum voor de gebruikslicentie is ingesteld, bedraagt de standaardtermijn voor een tenant dertig dagen. Voor de duur van de gebruikslicentie wordt de gebruiker niet opnieuw voor de inhoud geverifieerd of geautoriseerd. Hierdoor kan de gebruiker het beveiligde document of e-mailbericht zonder internetverbinding gedurende die periode openen. Wanneer de geldigheidsperiode van de gebruikslicentie verloopt, moet de gebruiker de volgende keer dat de hij of zij het beveiligde document of e-mailbericht opent, opnieuw worden geverifieerd en geautoriseerd.
 
-Naast een nieuwe verificatie worden de versleutelingsinstellingen en het lidmaatschap van de gebruikersgroep opnieuw beoordeeld. Dit betekent dat voor gebruikers verschillende manieren van toegang kunnen gelden voor hetzelfde document of dezelfde e-mail als de versleutelingsinstellingen of het groepslidmaatschap zijn gewijzigd vanaf het moment dat ze de inhoud voor het laatst hebben gebruikt.
+Naast de herauthenticatie, de versleutelingsinstellingen en het abonnement voor de gebruikersgroep worden opnieuw geëvalueerd. Dit betekent dat voor gebruikers verschillende manieren van toegang kunnen gelden voor hetzelfde document of dezelfde e-mail als de versleutelingsinstellingen of het groepslidmaatschap zijn gewijzigd vanaf het moment dat ze de inhoud voor het laatst hebben gebruikt.
 
 Zie [Rights Management-gebruikslicentie](/azure/information-protection/configure-usage-rights#rights-management-use-license) voor informatie over het wijzigen van de standaardinstelling van dertig dagen.
 
@@ -228,7 +234,7 @@ Zie [Dubbele sleutelcodering (DKE)](double-key-encryption.md) voor meer informat
 ## <a name="let-users-assign-permissions"></a>Gebruikers machtigingen laten toewijzen
 
 > [!IMPORTANT]
-> Niet alle labelclients ondersteunen alle opties die gebruikers in staat stellen hun eigen machtigingen toe te wijzen. Gebruik deze sectie voor meer informatie.
+> Niet alle labelclients ondersteunen alle opties die gebruikers in staat stellen hun eigen machtigingen toe te wijzen. Raadpleeg deze sectie voor meer informatie.
 
 U kunt de volgende opties gebruiken om gebruikers machtigingen te laten toewijzen wanneer ze handmatig een vertrouwelijkheidslabel op inhoud toepassen:
 
@@ -265,15 +271,15 @@ Wanneer een gebruiker in Outlook een vertrouwelijkheidslabel toewijst waarmee ma
 
 ![Vertrouwelijkheidslabel toegepast op een bericht in Outlook](../media/sensitivity-label-outlook-protection-applied.png)
 
-Wanneer een van deze opties op een e-mailbericht wordt toegepast, wordt het bericht versleuteld en moeten geadresseerden worden geverifieerd. Vervolgens hebben de geadresseerden automatisch beperkte gebruiksrechten:
+Wanneer een van deze opties op een e-mailbericht wordt toegepast, wordt het bericht versleuteld en moeten geadresseerden worden geverifieerd. De geadresseerden hebben vervolgens automatisch rechten voor beperkt gebruik:
 
 - **Niet doorsturen**: geadresseerden kunnen het e-mailbericht niet doorsturen, afdrukken of kopiëren. In de Outlook-client is bijvoorbeeld de knop Doorsturen niet beschikbaar, zijn de menuopties Opslaan als en Afdrukken niet beschikbaar en kunt u geen geadresseerden toevoegen aan of wijzigen in de vakken Aan, CC of BCC.
     
-    Zie [Optie Niet doorsturen voor e-mailberichten](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) voor meer informatie over hoe deze optie werkt.
+    Zie [Optie Niet doorsturen voor e-mailberichten](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) voor meer informatie over hoe deze optie werkt.
 
 - **Alleen-versleutelen**: geadresseerden hebben alle gebruiksrechten, behalve Opslaan als, Exporteren en Volledig beheer. Deze combinatie van gebruiksrechten betekent dat de geadresseerden geen beperkingen hebben, behalve dat ze de beveiliging niet kunnen verwijderen. Een geadresseerde kan bijvoorbeeld kopiëren uit het e-mailbericht, het bericht afdrukken en doorsturen.
     
-    Zie [Optie Alleen-versleutelen voor e-mailberichten](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) voor meer informatie over hoe deze optie werkt.
+    Zie [Optie Alleen-versleutelen voor e-mailberichten](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) voor meer informatie over hoe deze optie werkt.
 
 Niet-versleutelde Office-documenten die aan het e-mailbericht zijn bijgevoegd, nemen automatisch dezelfde beperkingen over. Voor Niet doorsturen zijn de gebruiksrechten die op deze documenten worden toegepast: Inhoud bewerken, Bewerken, Opslaan, Weergeven, Openen, Lezen en Macro's toestaan. Als de gebruiker andere gebruiksrechten voor een bijlage wil hebben of als de bijlage geen Office-document is dat deze overgenomen beveiliging ondersteunt, moet de gebruiker het bestand versleutelen voordat het aan het e-mailbericht wordt toegevoegd.
 
@@ -406,7 +412,7 @@ Als u uw gevoeligste documenten en e-mailberichten versleutelt, krijgen alleen g
 
 - Als een label waarmee versleuteling wordt toegepast, wordt toegevoegd door middel van een Office-app wanneer het document [in SharePoint wordt uitgecheckt](https://support.microsoft.com/office/check-out-check-in-or-discard-changes-to-files-in-a-library-7e2c12a9-a874-4393-9511-1378a700f6de) en de gebruiker vervolgens het uitgecheckte document negeert, blijft het document gelabeld en versleuteld.
 
-- De volgende acties voor versleutelde bestanden worden niet ondersteund in Office-apps (Windows, Mac, Android en iOS). Gebruikers zien een foutbericht waarin wordt gemeld dat er iets is misgegaan. Als alternatief kan echter van SharePoint-functionaliteit gebruik worden gemaakt:
+- De volgende acties voor versleutelde bestanden worden niet ondersteund in Office-apps (Windows, Mac, Android en iOS). Gebruikers zien een foutbericht waarin wordt gemeld dat er iets is misgegaan. SharePoint kan echter als alternatief worden gebruikt:
 
   - Bekijk eerdere versies, herstel deze en sla ze op. Als alternatief kunnen gebruikers deze acties uitvoeren met de webversie van Office wanneer u [versiebeheer voor een lijst of bibliotheek inschakelt en configureert](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
   - Wijzig de naam of locatie van bestanden. Als alternatief kunnen gebruikers in SharePoint [de naam van een bestand, map of koppeling in een documentbibliotheek wijzigen](https://support.microsoft.com/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185).

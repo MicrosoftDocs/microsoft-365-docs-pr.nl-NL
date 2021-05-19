@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Volg deze stappen om het gebruikersaccount van een voormalige werknemer te verwijderen.
-ms.openlocfilehash: 0afa9b112919d2668d7553ac5bcf08e664bc1749
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5ca428079091c4af44ef1efa9be3d7340e254995
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244193"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535936"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Stap 7 - Het gebruikersaccount van een voormalige werknemer verwijderen
 
@@ -43,7 +43,13 @@ Nadat u de gegevens van de voormalige werknemer hebt opgeslagen en beschikbaar h
 3. Selecteer onder de naam van de gebruiker de optie **Gebruiker verwijderen.** Kies de opties die u voor deze gebruiker wilt gebruiken en selecteer **vervolgens Gebruiker verwijderen.** Als u al een andere gebruiker toegang hebt gegeven tot de e-mail en OneDrive van deze gebruiker, hoeft u dit hier niet opnieuw te doen.
 
 Wanneer u een gebruiker verwijdert, wordt het account inactief gedurende ongeveer 30 dagen. Tot die tijd kunt u het account herstellen. Daarna worden de gegevens permanent verwijderd.
-  
+
+## <a name="watch-delete-a-former-employees-user-account"></a>Kijken: Het gebruikersaccount van een voormalige werknemer verwijderen
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR]
+
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+
 ## <a name="does-your-organization-use-active-directory"></a>Maakt uw organisatie gebruik van Active Directory?
 
 Als uw organisatie gebruikersaccounts synchroniseert Microsoft 365 vanuit een lokale Active Directory-omgeving, moet u deze gebruikersaccounts in uw lokale Active Directory-service verwijderen en herstellen. U kunt ze niet verwijderen of herstellen via Office 365.
@@ -81,3 +87,5 @@ De bovenstaande bewerkingen kunnen op drie plaatsen worden uitgevoerd:
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Een gebruiker herstellen](restore-user.md)
+
+[Wachtwoorden opnieuw instellen](reset-passwords.md)

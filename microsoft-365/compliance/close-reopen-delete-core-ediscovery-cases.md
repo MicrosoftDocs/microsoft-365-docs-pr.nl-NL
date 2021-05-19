@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: In dit artikel wordt beschreven hoe u Core eDiscovery-zaken kunt beheren. Dit omvat het sluiten van een zaak, het opnieuw openen van een gesloten zaak en het verwijderen van een zaak.
-ms.openlocfilehash: 251ca932954071cf949c45343130f122464dcf01
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 8a54d5c8f93d36351538bc235a6dbeaaa602c3e9
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52310878"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532444"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Een Hoofd-eDiscovery-zaak sluiten, opnieuw openen en verwijderen
 
@@ -82,7 +82,7 @@ Wanneer u een zaak opnieuw opent, worden eDiscovery-gegevens die waren ingesteld
 
     Wanneer het proces is voltooid, wordt de status van de zaak gewijzigd in **Actief** op de **pagina Core eDiscovery.**
 
-7. (Optioneel) Als u alle wachtposities wilt in-  of in- of uit- zetten die aan de opnieuw geopende zaak zijn gekoppeld, gaat u naar het tabblad Wacht houden, selecteert u een wachtpositie en selecteert u vervolgens het selectievakje onder **Status** op de flyoutpagina van de wachtpositie.
+6. (Optioneel) Als u alle wachtposities wilt in-  of in- of uit- zetten die aan de opnieuw geopende zaak zijn gekoppeld, gaat u naar het tabblad Wacht houden, selecteert u een wachtpositie en selecteert u vervolgens het selectievakje onder **Status** op de flyoutpagina van de wachtpositie.
   
 ## <a name="delete-a-case"></a>Een zaak verwijderen
 
@@ -108,6 +108,6 @@ Een zaak verwijderen:
 
 3. Klik op de startpagina van de zaak onder **Status** op **Hoofd zaak verwijderen.**
 
-      ![Een gesloten zaak opnieuw openen](../media/eDiscoveryCaseHomePageDelete.png)
+      ![Een zaak verwijderen](../media/eDiscoveryCaseHomePageDelete.png)
 
 Als de zaak die u probeert te verwijderen nog steeds eDiscovery bevat, ontvangt u een foutbericht. U moet alle aan de zaak gekoppelde items verwijderen en vervolgens opnieuw proberen om de zaak te verwijderen.

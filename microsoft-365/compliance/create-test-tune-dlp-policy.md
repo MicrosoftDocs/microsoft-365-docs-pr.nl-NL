@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: In dit artikel leert u hoe u een DLP-beleid kunt maken, testen en afstemmen op basis van uw organisatiebehoeften.
-ms.openlocfilehash: bd4857a2baefb22d789fc713a537d7e4a656718d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e252c7328c59c246f739caf4b70acd44de010e42
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "52162290"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532516"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Een DLP-beleid maken, testen en afstemmen
 
@@ -50,7 +50,7 @@ Leden van uw complianceteam die DLP-beleid gaan maken, hebben machtigingen nodig
 
 Gebruik de **functie Alleen-weergeven DLP-compliancebeheer** om een rollengroep te maken met alleen-weergeven-bevoegdheden voor het DLP-beleid en DLP-rapporten.
 
-Zie Gebruikers toegang geven tot het Office 365 [Compliance Center voor meer informatie.](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)
+Zie Gebruikers toegang geven tot het Office 365 [Compliance Center voor meer informatie.](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
   
 Deze machtigingen zijn vereist om een DLP-beleid te maken en toe te passen om beleid niet af te dwingen.
 
@@ -152,7 +152,7 @@ Wanneer u een regel binnen een DLP-beleid bewerkt, kunt u het volgende wijzigen:
 - De voorwaarden, waaronder het type en het aantal exemplaren van gevoelige gegevens die de regel activeren.
 - De acties die worden ondernomen, zoals het beperken van de toegang tot de inhoud.
 - Gebruikersmeldingen, die beleidstips zijn die worden weergegeven aan de gebruiker in hun e-mailclient of webbrowser.
-- Gebruiker overschrijven, waardoor wordt bepaald of gebruikers er toch voor kunnen kiezen om door te gaan met hun e-mail of het delen van bestanden.
+- Gebruiker overschrijven bepaalt of gebruikers er toch voor kunnen kiezen om door te gaan met hun e-mail of het delen van bestanden.
 - Incidentrapporten, om beheerders op de hoogte te stellen.
 
 ![Opties voor het bewerken van onderdelen van een regel](../media/DLP-create-test-tune-editing-options.png)
@@ -199,14 +199,12 @@ Dit rijbewijs is een goed voorbeeld om in te graven. De reden dat deze fout-posi
 
 
 Een van de opties is om het australische rijbewijsgegevenstype uit het beleid te verwijderen. Het is daar omdat het deel uitmaakt van de DLP-beleidssjabloon, maar we worden niet gedwongen deze te gebruiken. Als u alleen geïnteresseerd bent in Belastingbestandsnummers en niet in rijbewijzen, kunt u deze gewoon verwijderen. U kunt de regel bijvoorbeeld verwijderen uit de regel met een laag volume in het beleid, maar deze in de regel voor hoog volume laten staan, zodat lijsten met meerdere stuurprogramma's nog steeds worden gedetecteerd.
-
-![Optie om gevoelige informatie uit regel te verwijderen](../media/DLP-create-test-tune-delete-low-volume-rule.png)
  
-Een andere optie is om het aantal exemplaren te verhogen, zodat een laag aantal rijbewijzen alleen wordt gedetecteerd wanneer er meerdere exemplaren zijn.
+Een andere optie is het aantal exemplaren te verhogen, zodat een laag aantal rijbewijzen alleen wordt gedetecteerd wanneer er meerdere exemplaren zijn.
 
 ![Optie om het aantal exemplaren te bewerken](../media/DLP-create-test-tune-edit-instance-count.png)
 
-Naast het wijzigen van het aantal exemplaren, kunt u ook de nauwkeurigheid van de overeenkomst (of betrouwbaarheidsniveau) aanpassen. Als uw gevoelige informatietype meerdere patronen heeft, kunt u de nauwkeurigheid van de overeenkomst in de regel aanpassen, zodat de regel alleen overeenkomt met specifieke patronen. Als u bijvoorbeeld wilt helpen bij het verminderen van fout-positieven, kunt u de nauwkeurigheid van de regel zo instellen dat deze alleen overeenkomt met het patroon met het hoogste betrouwbaarheidsniveau. Begrijpen hoe betrouwbaarheidsniveau wordt berekend is een beetje lastig (en buiten het bereik van dit bericht), maar hier is een goede uitleg over hoe u betrouwbaarheidsniveau kunt gebruiken om uw regels [af te stemmen.](data-loss-prevention-policies.md#match-accuracy)
+Naast het wijzigen van het aantal exemplaren, kunt u ook de nauwkeurigheid van de overeenkomst (of betrouwbaarheidsniveau) aanpassen. Als uw gevoelige informatietype meerdere patronen heeft, kunt u de nauwkeurigheid van de overeenkomst in de regel aanpassen, zodat de regel alleen overeenkomt met specifieke patronen. Als u bijvoorbeeld wilt helpen bij het verminderen van fout-positieven, kunt u de nauwkeurigheid van de regel zo instellen dat deze alleen overeenkomt met het patroon met het hoogste betrouwbaarheidsniveau. Zie Vertrouwensniveau gebruiken om uw regels af te stemmen voor meer informatie over [betrouwbaarheidsniveaus.](data-loss-prevention-policies.md#match-accuracy)
 
 Als u nog wat geavanceerder wilt worden, kunt u elk type gevoelige informatie aanpassen. U kunt bijvoorbeeld 'Sydney [](sensitive-information-type-entity-definitions.md#australia-drivers-license-number)NSW' verwijderen uit de lijst met trefwoorden voor het australische rijbewijsnummer, om de fout-positieve fout die hierboven is geactiveerd, te verwijderen. Zie Een [ingebouwd](customize-a-built-in-sensitive-information-type.md)type gevoelige informatie aanpassen voor meer informatie over hoe u dit doet met XML en PowerShell.
 

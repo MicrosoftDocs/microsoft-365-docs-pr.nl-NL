@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfserviceaankopen kunnen beheren.
 ms.date: 03/17/2021
-ms.openlocfilehash: 0f9832f69d7e89346e82e3acef0e626fc7f6c4de
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ed6f2fc3b55756fb88dccd748fd4a4a9a34a5c81
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333252"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536080"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
 
@@ -34,7 +34,7 @@ ms.locfileid: "52333252"
 
 ::: moniker-end
 
-Als gebruiker kunt u abonnementen op bepaalde producten kopen en licenties voor deze abonnementen toewijzen aan personen in uw team. U bent verantwoordelijk voor het betalen van eventuele selfserviceaankopen die u hebt gedaan. U kunt uw abonnementen beheren in het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
+Als gebruiker kunt u abonnementen op bepaalde producten kopen en licenties voor deze abonnementen toewijzen aan personen in uw team. U bent verantwoordelijk voor het betalen van eventuele selfserviceaankopen die u hebt gedaan. U kunt uw abonnementen beheren in het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
 
 Uw beheerder heeft een alleen-lezen weergave voor abonnementen die u koopt. Ze kunnen het product, de naam van de koper, de gekochte abonnementen, de vervaldatum, de aankoopprijs en de toegewezen gebruikers zien voor elk abonnement dat u koopt.
 
@@ -75,7 +75,7 @@ U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gek
 ## <a name="cancel-a-subscription"></a>Een abonnement opzeggen
 
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Zoek op het tabblad **Producten** het abonnement dat u wilt opzeggen. Selecteer **Meer acties** (drie puntjes) en selecteer **Abonnement annuleren**.
+2. Zoek op het tabblad **Producten** het abonnement dat u wilt opzeggen. Selecteer de drie puntjes (meer acties) en selecteer vervolgens **Abonnement annuleren.**
 3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback die u hebt.
 4. Selecteer **Opslaan**.
 
@@ -108,6 +108,6 @@ U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gek
 
 ## <a name="need-help-contact-us"></a>Hulp nodig? Neem contact met ons op.
 
-Zie Veelgestelde vragen over selfservice-aankopen voor veelgestelde vragen over [selfserviceaankopen.](self-service-purchase-faq.md)
+Zie Veelgestelde vragen over selfservice-aankopen voor veelgestelde vragen over [selfserviceaankopen.](self-service-purchase-faq.yml)
 
 Als u vragen hebt of hulp nodig hebt bij selfserviceaankopen, [neem dan contact op met ondersteuning.](../../business-video/get-help-support.md)

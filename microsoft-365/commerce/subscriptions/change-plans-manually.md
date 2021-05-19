@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Wijzig abonnementen handmatig door een nieuw abonnement te kopen en ervoor te zorgen dat beide abonnementen worden vermeld en actief zijn.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 4935301c6d2a530f34d628f946032b7007e5c907
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: f5a44b7a3c01883ed42ca4ed203b63ccf77f9b72
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345176"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536104"
 ---
 # <a name="change-plans-manually"></a>Abonnementen handmatig wijzigen
 
@@ -94,7 +94,7 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
 
 2. Selecteer de cirkels naast de namen van de gebruikers voor wie u bestaande licenties wilt vervangen.
 
-3. Selecteer bovenaan Meer **opties** (**... )** en kies **vervolgens Productlicenties beheren.**
+3. Selecteer bovenaan de drie puntjes (meer acties) en kies **vervolgens Productlicenties beheren.**
 
 4. Selecteer **Bestaande toewijzingen van productlicenties vervangen** \> **Volgende**.
 

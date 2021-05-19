@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cb385ec5589af115ce1a0d323e3660def42179b9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: f280cae2364a3ad76a3a3ff91ce382fdf69eab2b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345762"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532048"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -170,7 +170,7 @@ Wanneer gebruikers in eerste instantie een label aan een document of e-mail toev
 
 - Een gebruiker past het label **Vertrouwelijk\Alle werknemers** toe op een document. Dit label wordt zodanig geconfigureerd dat versleutelingsinstellingen worden toegepast op alle gebruikers in de organisatie. Deze gebruiker configureert vervolgens handmatig de IRM-instellingen om de toegang tot een gebruiker van buiten uw organisatie te beperken. Het eindresultaat is een document met het label **Vertrouwelijk\Alle werknemers** en het is versleuteld, maar gebruikers in uw organisatie kunnen het niet openen.
 
-- Een gebruiker past het label **Vertrouwelijk/Alleen ontvangers** toe op een e-mailbericht. Dit e-mailbericht wordt zodanig geconfigureerd zodat de versleutelingsinstelling **Niet doorsturen** wordt toegepast. In de Outlook-app configureert deze gebruiker vervolgens handmatig de IRM-instellingen, zodat het e-mailbericht niet beperkt is. Het eindresultaat is dat het e-mailbericht door geadresseerden kan worden doorgestuurd, ook al bevat de e-mail het label **Vertrouwelijk/Alleen ontvangers**.
+- Een gebruiker past het label **Vertrouwelijk/Alleen ontvangers** toe op een e-mailbericht. Dit e-mailbericht wordt zodanig geconfigureerd zodat de versleutelingsinstelling **Niet doorsturen** wordt toegepast. In de Outlook-app selecteert deze gebruiker vervolgens handmatig de IRM-instelling voor Alleen versleutelen. Het eindresultaat is dat het e-mailbericht versleuteld blijft en door geadresseerden kan worden doorgestuurd, ook al bevat de e-mail het label **Vertrouwelijk/Alleen ontvangers**.
     
     Voor de webversie van Outlook geldt een uitzondering. Hier zijn de opties in het menu **Versleutelen** niet beschikbaar voor een gebruiker om te selecteren wanneer door het huidige geselecteerde label versleuteling wordt toegepast.
 
@@ -178,13 +178,23 @@ Wanneer gebruikers in eerste instantie een label aan een document of e-mail toev
 
 Als het document of e-mailbericht al een label heeft, kan een gebruiker een van deze acties uitvoeren als de inhoud nog niet is versleuteld of als de gebruiker het [gebruiksrecht](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exporteren of Volledig beheer heeft. 
 
-Voor een consistentere labelervaring met zinvolle rapportage moet u de juiste labels en richtlijnen opgeven zodat gebruikers alleen labels kunnen toepassen om documenten te beveiligen. Bijvoorbeeld:
+Voor een consistentere labelervaring met zinvolle rapportage moet u de juiste labels en richtlijnen opgeven zodat gebruikers alleen labels kunnen toepassen om documenten en e-mails te beveiligen. Bijvoorbeeld:
 
 - In uitzonderingsgevallen waarin gebruikers hun eigen machtigingen moeten kunnen toewijzen, moet u labels opgeven waarmee [gebruikers hun eigen machtigingen kunnen toewijzen](encryption-sensitivity-labels.md#let-users-assign-permissions). 
 
 - In plaats van dat gebruikers de versleuteling handmatig verwijderen nadat ze een label hebben geselecteerd waarmee versleuteling wordt toegepast, geeft u een alternatief sublabel op als gebruikers een label met dezelfde classificatie maar geen versleuteling nodig hebben. Zoals:
     - **Vertrouwelijk/Alle werknemers**
     - **Vertrouwelijk\Iedereen (geen versleuteling)**
+
+- U kunt IRM-instellingen uitschakelen om te voorkomen dat gebruikers deze selecteren:
+    - Outlook voor Windows: 
+        - Registersleutels (DWORD:00000001) *DisableDNF* en *DisableEO* van HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\DRM
+        - Zorg ervoor dat de groepsbeleidsinstelling **Standaardversleutelingsoptie configureren voor de knop Versleutelen** niet is geconfigureerd
+    - Outlook voor Mac: 
+        - Sleutels *DisableEncryptOnly* en *DisableDoNotForward* beveiligingsinstellingen beschreven in [Voorkeuren instellen voor Outlook voor Mac](/DeployOffice/mac/preferences-outlook)
+    - Webversie van Outlook: 
+        - Parameters *SimplifiedClientAccessDoNotForwardDisabled* en *SimplifiedClientAccessEncryptOnlyDisabled* gedocumenteerd voor [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration)
+        - Outlook voor iOS en Android: Deze apps bieden geen ondersteuning voor gebruikers die versleuteling toepassen zonder labels, dus u hoeft niets uit te schakelen.
 
 > [!NOTE]
 > Als gebruikers handmatig versleuteling verwijderen uit een gelabeld document dat is opgeslagen in SharePoint of OneDrive en u [vertrouwelijkheidslabels voor Office-bestanden in SharePoint en OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) hebt ingeschakeld, wordt de labelversleuteling automatisch hersteld wanneer het document de volgende keer wordt geopend of gedownload. 

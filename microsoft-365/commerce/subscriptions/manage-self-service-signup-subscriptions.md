@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Meer informatie over het beheren van gratis selfservice-abonnementen voor uw organisatie.
 ms.date: 03/17/2021
-ms.openlocfilehash: 9c29d36ff28e312fa3782b60f89fa755d4df9bf3
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 741c9e0b45f127ffc0753b34982073f90c525d5b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345128"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536068"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Selfservice-abonnementen beheren
 
@@ -39,7 +39,7 @@ Er is een beperkt aantal gratis selfservice-abonnementen beschikbaar voor gebrui
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>Hoe verschillen deze abonnementen van abonnementen voor selfserviceaankoop?
 
-Selfservice-abonnementen zijn gratis en zijn beschikbaar voor een grotere lijst met producten dan abonnementen voor selfserviceaankoop. Wanneer een gebruiker zich meldt voor een selfservice-aankoopabonnement, is hij of zij verantwoordelijk voor het betalen ervan. Abonnementen voor selfserviceaankoop zijn alleen beschikbaar voor Power Platform-producten (Power BI, Power Apps en Power Automate), Project en Visio. Zie Veelgestelde vragen over [selfservice-aankopen voor meer informatie.](self-service-purchase-faq.md)
+Selfservice-abonnementen zijn gratis en zijn beschikbaar voor een grotere lijst met producten dan abonnementen voor selfserviceaankoop. Wanneer een gebruiker zich meldt voor een selfservice-aankoopabonnement, is hij of zij verantwoordelijk voor het betalen ervan. Abonnementen voor selfserviceaankoop zijn alleen beschikbaar voor Power Platform-producten (Power BI, Power Apps en Power Automate), Project en Visio. Zie Veelgestelde vragen over [selfservice-aankopen voor meer informatie.](self-service-purchase-faq.yml)
 
 ## <a name="block-users-from-signing-up"></a>Gebruikers blokkeren om zich aan te melden
 

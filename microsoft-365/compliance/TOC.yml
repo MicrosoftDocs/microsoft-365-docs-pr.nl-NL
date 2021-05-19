@@ -782,10 +782,10 @@
   items:
     - name: Controleoplossingen van Microsoft 365
       href: auditing-solutions-overview.md
-    - name: Basiscontrole
+    - name: Eenvoudige controle
       items:
-        - name: Basiscontrole instellen
-          href: set-up-basic-auditing.md
+        - name: Eenvoudige controle instellen
+          href: set-up-basic-audit.md
         - name: Zoeken in het auditlogboek
           href: search-the-audit-log-in-security-and-compliance.md
         - name: Een PowerShell-script gebruiken om in het auditlogboek te zoeken
