@@ -1,5 +1,5 @@
 ---
-title: Toegang in Microsoft 365-groepen, Teams en SharePoint
+title: Toegang in Microsoft 365 groepen, Teams en SharePoint
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,57 +14,58 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Meer informatie over toegang in Microsoft 365-groepen, Teams en SharePoint.
-ms.openlocfilehash: 44b90e461c81875fa5ccf728c890d5eaebf7d613
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: Meer informatie over toegang in Microsoft 365 groepen, Teams en SharePoint.
+ms.openlocfilehash: 3e0485813a264fe9042e0de9596ba07e50ef72a3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922278"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538145"
 ---
-# <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Toegang in Microsoft 365-groepen, Teams en SharePoint
+# <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Toegang in Microsoft 365 groepen, Teams en SharePoint
 
 Er zijn veel besturingselementen waarmee u kunt bepalen hoe personen toegang krijgen tot resources in groepen, teams en SharePoint. Bekijk deze opties en bedenk hoe deze worden toe te schrijven aan uw zakelijke behoeften, de gevoeligheid van uw gegevens en het bereik van personen met wie uw gebruikers moeten samenwerken.
 
 De volgende tabel bevat een beknopt overzicht van de toegangsbesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
-|Categorie|Beschrijving|Verwijzing|
+|Categorie|Omschrijving|Verwijzing|
 |:-------|:----------|:--------|
 |Lidmaatschap|||
-||Ontdekking van privéteams|[Het ontdekken van privéteams beheren in Microsoft Teams](/microsoftteams/manage-discovery-of-private-teams)|
+||Ontdekking van privéteams|[Het ontdekken van privéteams in Microsoft Teams](/microsoftteams/manage-discovery-of-private-teams)|
 ||Dynamisch groepslidmaatschap op basis van regels|[Een dynamische groep maken of bijwerken in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-create-rule)|
 ||Bepalen wie bestanden, mappen en sites kan delen.|[Toegangsaanvragen instellen en beheren](https://support.microsoft.com/office/94b26e0b-2822-49d4-929a-8455698654b3)|
 |Voorwaardelijke toegang|||
 ||Meervoudige verificatie|[Azure AD Meervoudige verificatie](/azure/active-directory/authentication/concept-mfa-howitworks)|
-||Apparaattoegang bepalen op basis van groeps-, team- of sitegevoeligheid.|[Gevoeligheidslabels gebruiken om inhoud in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites te beveiligen](../compliance/sensitivity-labels-teams-groups-sites.md)|
-||Toegang tot de site beperken voor niet-bemande apparaten.|[SharePoint-toegang beheren vanaf niet-beheerbare apparaten](/sharepoint/control-access-from-unmanaged-devices)|
+||Apparaattoegang bepalen op basis van groeps-, team- of sitegevoeligheid.|[Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md)|
+||Toegang tot de site beperken voor niet-bemande apparaten.|[Toegang SharePoint beheren vanaf niet-beheerbare apparaten](/sharepoint/control-access-from-unmanaged-devices)|
 ||Sitetoegang op basis van locatie bepalen|[Toegang tot SharePoint en OneDrive-gegevens regelen op basis van netwerklocatie](/sharepoint/control-access-based-on-network-location)|
 |Gasttoegang|||
-||SharePoint-delen van opgegeven domeinen toestaan of blokkeren.|[Delen van SharePoint- en OneDrive-inhoud per domein beperken](/sharepoint/restricted-domains-sharing)|
+||Het delen van SharePoint van opgegeven domeinen toestaan of blokkeren.|[Het delen van SharePoint en OneDrive per domein beperken](/sharepoint/restricted-domains-sharing)|
 ||Team- of groepslidmaatschap van opgegeven domeinen toestaan of blokkeren.|[Uitnodigingen voor B2B-gebruikers van specifieke organisaties toestaan of blokkeren](/azure/active-directory/b2b/allow-deny-list)|
 ||Voorkomen dat u anoniem kunt delen.|[Iedereen-koppelingen uitschakelen](./share-limit-accidental-exposure.md#turn-off-anyone-links)|
 ||Beheer de machtigingen voor koppelingen voor anonieme toegang.|[Koppelingsmachtigingen instellen voor koppelingen voor iedereen](./best-practices-anonymous-sharing.md#set-link-permissions)|
 ||Beheer het verlopen van koppelingen voor anoniem delen.|[Een vervaldatum instellen voor koppelingen voor iedereen](./best-practices-anonymous-sharing.md#set-an-expiration-date-for-anyone-links)|
 ||Beheer het type koppeling voor delen dat standaard aan gebruikers wordt weergegeven.|[Het standaardkoppelingstype voor een site wijzigen](/sharepoint/change-default-sharing-link)|
 ||Beperk extern delen tot specifieke personen.|[Extern delen beperken tot opgegeven beveiligingsgroepen](./share-limit-accidental-exposure.md#limit-sharing-of-files-folders-and-sites-with-people-outside-your-organization-to-specified-security-groups)|
-||Beheer gasttoegang tot een groep, team of site op basis van informatiegevoeligheid.|[Gevoeligheidslabels gebruiken om inhoud in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites te beveiligen](../compliance/sensitivity-labels-teams-groups-sites.md)|
+||Beheer gasttoegang tot een groep, team of site op basis van informatiegevoeligheid.|[Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md)|
 ||Opties voor delen uitschakelen.|[Delen beperken in Microsoft 365](./microsoft-365-limit-sharing.md)|
 |Gebruikersbeheer|||
 ||Controleer regelmatig het team- en groepslidmaatschap.|[Wat zijn Azure AD Access-beoordelingen?](/azure/active-directory/governance/access-reviews-overview)|
 ||Beheer van toegang tot groepen en teams automatiseren.|[Wat is Azure AD-rechtbeheer?](/azure/active-directory/governance/entitlement-management-overview)|
-||Personen toestaan of blokkeren om privékanalen te maken in Teams.|[De levenscyclus van privékanalen beheren in Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management)|
+||Personen toestaan of blokkeren om privékanalen te maken in Teams.|[Beheer de levenscyclus van privékanalen in Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management)|
 
 ## <a name="membership"></a>Lidmaatschap
 
 Het lidmaatschap van teams en groepen wordt bepaald door eigenaren. Leden kunnen anderen uitnodigen, maar de uitnodigingen worden ter goedkeuring naar eigenaren verzonden. Hoewel openbare teams en groepen door iedereen in de organisatie kunnen worden ontdekt, kunt u bepalen of privéteams en groepen kunnen worden ontdekt:
 
-- [Het ontdekken van privéteams beheren in Microsoft Teams](/microsoftteams/manage-discovery-of-private-teams)
+- [Het ontdekken van privéteams in Microsoft Teams](/microsoftteams/manage-discovery-of-private-teams)
 
-U kunt het lidmaatschap van een groep of team dynamisch beheren op basis van bepaalde criteria, zoals afdeling. In dit geval kunnen leden en eigenaren geen personen uitnodigen voor het team. Dynamische groepen gebruiken metagegevens die u in Azure Active Directory definieert om te bepalen wie lid is van de groep. Zorg ervoor dat de metagegevens die u gebruikt, volledig en actueel zijn als onjuiste metagegevens, zodat gebruikers geen groepen meer hebben of onjuiste gebruikers worden toegevoegd.
+U kunt het lidmaatschap van een groep of team dynamisch beheren op basis van bepaalde criteria, zoals afdeling. In dit geval kunnen leden en eigenaren geen personen uitnodigen voor het team. Dynamische groepen gebruiken metagegevens die u in Azure Active Directory om te bepalen wie lid is van de groep. Zorg ervoor dat de metagegevens die u gebruikt, volledig en actueel zijn als onjuiste metagegevens, zodat gebruikers geen groepen meer hebben of onjuiste gebruikers worden toegevoegd.
 
 - [Een dynamische groep maken of bijwerken in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-create-rule)
 
-SharePoint-sites bieden de mogelijkheid om eigenaren, leden en bezoekers toe te voegen, afgezien van groepslidmaatschap of teamlidmaatschap. Afhankelijk van uw vereisten, wilt u mogelijk beperken wie personen kan uitnodigen voor de site. Afhankelijk van de gevoeligheid van de informatie op een bepaalde site, kunt u ook beperken wie bestanden en mappen mag delen. Deze beperkingen worden geconfigureerd door de eigenaar van het team, de groep of de site:
+SharePoint sites bieden de mogelijkheid om eigenaren, leden en bezoekers toe te voegen, afgezien van groepslidmaatschap of teamlidmaatschap. Afhankelijk van uw vereisten, wilt u mogelijk beperken wie personen kan uitnodigen voor de site. Afhankelijk van de gevoeligheid van de informatie op een bepaalde site, kunt u ook beperken wie bestanden en mappen mag delen. Deze beperkingen worden geconfigureerd door de eigenaar van het team, de groep of de site:
 
 - [Toegangsaanvragen instellen en beheren](https://support.microsoft.com/office/94b26e0b-2822-49d4-929a-8455698654b3)
 
@@ -77,7 +78,7 @@ Met Microsoft 365 kunt u meervoudige verificatie vereisen voor zowel personen bi
 
 Als u gevoelige informatie hebt in sommige groepen en teams, kunt u beleidsregels voor apparaatbeheer afdwingen op basis van het gevoeligheidslabel van een groep of team. U kunt de toegang volledig blokkeren vanaf niet-bemande apparaten of beperkte, alleen-webtoegang toestaan:
 
-- [Gevoeligheidslabels gebruiken om inhoud in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites te beveiligen](../compliance/sensitivity-labels-teams-groups-sites.md)
+- [Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md)
 
 In SharePoint kunt u de toegang tot sites beperken vanaf opgegeven netwerklocaties.
 
@@ -88,20 +89,20 @@ Aanvullende informatiebronnen:
 
 - [Een implementatie van voorwaardelijke toegang plannen](/azure/active-directory/conditional-access/plan-conditional-access)
 
-- [Overzicht van Microsoft Intune](/mem/intune/fundamentals/what-is-intune)
+- [Microsoft Intune overzicht](/mem/intune/fundamentals/what-is-intune)
 
-- [SharePoint-toegang beheren vanaf niet-beheerbare apparaten](/sharepoint/control-access-from-unmanaged-devices)
+- [Toegang SharePoint beheren vanaf niet-beheerbare apparaten](/sharepoint/control-access-from-unmanaged-devices)
 
 
 ## <a name="guest-access"></a>Gasttoegang
 
-U kunt gasten beperken op basis van het domein van hun e-mailadres. SharePoint biedt instellingen voor organisatiespecifieke en sitespecifieke domeinbeperkingen. Groepen en Teams gebruiken het domein lijsten toestaan en weigeren in Azure AD. Zorg ervoor dat u beide instellingen configureert om ongewenste delen te voorkomen en een consistente gebruikerservaring te garanderen:
+U kunt gasten beperken op basis van het domein van hun e-mailadres. SharePoint biedt instellingen voor de hele organisatie en sitespecifieke domeinbeperkingen. Groepen en Teams gebruiken het domein lijsten toestaan en weigeren in Azure AD. Zorg ervoor dat u beide instellingen configureert om ongewenste delen te voorkomen en een consistente gebruikerservaring te garanderen:
 
-- [Delen van SharePoint- en OneDrive-inhoud per domein beperken](/sharepoint/restricted-domains-sharing)
+- [Het delen van SharePoint en OneDrive per domein beperken](/sharepoint/restricted-domains-sharing)
 
 - [Uitnodigingen voor B2B-gebruikers van specifieke organisaties toestaan of blokkeren](/azure/active-directory/b2b/allow-deny-list)
 
-Microsoft 365 staat anoniem delen van bestanden en mappen toe met behulp *van Koppelingen voor iedereen* delen. *Iedereen* kan koppelingen doorsturen en iedereen met de koppeling heeft toegang tot het gedeelde item. Afhankelijk van de gevoeligheid van uw gegevens, kunt u bepalen hoe koppelingen voor iedereen worden gebruikt, zoals het volledig uitschakelen van koppelingen, het beperken van koppelingsmachtigingen tot alleen-lezen of het instellen van een verlooptijd voor deze koppelingen: 
+Microsoft 365 is het mogelijk om bestanden en mappen anoniem te delen met *behulp van Koppelingen voor* delen van iedereen. *Iedereen* kan koppelingen doorsturen en iedereen met de koppeling heeft toegang tot het gedeelde item. Afhankelijk van de gevoeligheid van uw gegevens, kunt u bepalen hoe koppelingen voor iedereen worden gebruikt, zoals het volledig uitschakelen van koppelingen, het beperken van koppelingsmachtigingen tot alleen-lezen of het instellen van een verlooptijd voor deze koppelingen: 
 
 - [Iedereen-koppelingen uitschakelen](./share-limit-accidental-exposure.md#turn-off-anyone-links)
 
@@ -119,7 +120,7 @@ Als uw organisatie gevoelige gegevens heeft die u met gasten moet delen, maar u 
 
 Groepen en Teams hebben instellingen op organisatieniveau die gasttoegang toestaan of weigeren. Hoewel u de toegang van gasten tot specifieke teams of groepen kunt beperken met [Microsoft PowerShell,](per-group-guest-access.md)raden we u aan dit te doen via een gevoeligheidslabel. Met gevoeligheidslabels kunt u gasttoegang automatisch toestaan of weigeren op basis van het toegepaste label:
 
-- [Gevoeligheidslabels gebruiken om inhoud in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites te beveiligen](../compliance/sensitivity-labels-teams-groups-sites.md)
+- [Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md)
 
 In een omgeving waarin u regelmatig gasten uitnodigt voor groepen en teams, kunt u overwegen regelmatig geplande gasttoegangsbeoordelingen in te stellen. Eigenaren kunnen worden gevraagd gasten in hun groepen en teams te controleren en de toegang goed te keuren of te weigeren.
 
@@ -131,7 +132,7 @@ Microsoft 365 biedt veel verschillende methoden voor het delen van informatie. A
 
 Aanvullende informatiebronnen:
 
-- [Veilige samenwerking instellen met Microsoft 365](./setup-secure-collaboration-with-teams.md)
+- [Veilige samenwerking met Microsoft 365 instellen](./setup-secure-collaboration-with-teams.md)
 
 - [Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers](./best-practices-anonymous-sharing.md)
 
@@ -151,15 +152,15 @@ Veel organisaties hebben een zakelijke samenwerking met andere organisaties of b
 
 - [Wat is Azure AD-rechtbeheer?](/azure/active-directory/governance/entitlement-management-overview)
 
-Met privékanalen in Teams kunnen gesprekken met een bereik en het delen van bestanden tussen een subset teamleden worden gedeeld. Afhankelijk van uw specifieke zakelijke behoeften, kunt u deze mogelijkheid toestaan of blokkeren.
+Privékanalen in Teams voor gesprekken met een bereik en het delen van bestanden tussen een subset van teamleden. Afhankelijk van uw specifieke zakelijke behoeften, kunt u deze mogelijkheid toestaan of blokkeren.
 
 - [Privékanalen in Microsoft Teams](/MicrosoftTeams/private-channels)
 
-- [De levenscyclus van privékanalen beheren in Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management)
+- [Beheer de levenscyclus van privékanalen in Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management)
 
 Aanvullende informatiebronnen:
 
-- [Azure Active Directory Identity Governance](/azure/active-directory/governance)
+- [Azure Active Directory Identiteitsbeheer](/azure/active-directory/governance)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

@@ -14,23 +14,24 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: Informatie over het voorkomen dat gasten worden toegevoegd aan een specifieke groep
-ms.openlocfilehash: 572746a666586920ad85dafddbd78997940490d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1db2055f3e546c05905dbf4c854333387112f06e
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907938"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538925"
 ---
-# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Voorkomen dat gasten worden toegevoegd aan een specifieke Microsoft 365-groep of Microsoft Teams-team
+# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Voorkomen dat gasten worden toegevoegd aan een specifieke Microsoft 365 of Microsoft Teams team
 
 Als u gasttoegang wilt toestaan tot de meeste groepen en teams, maar u een aantal plaatsen wilt hebben waar u gasttoegang wilt voorkomen, kunt u gasttoegang voor afzonderlijke groepen en teams blokkeren. (Het blokkeren van gasttoegang tot een team wordt uitgevoerd door gasttoegang tot de gekoppelde groep te blokkeren.) Hiermee voorkomt u dat nieuwe gasten worden toegevoegd, maar worden gasten die al lid zijn van de groep of het team, niet verwijderd.
 
-Als u gevoeligheidslabels in uw organisatie gebruikt, raden we u aan deze te gebruiken om gasttoegang per groep te bepalen. Gebruik gevoeligheidslabels om inhoud [in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md)te beveiligen voor informatie over hoe u dit doet. Dit is de aanbevolen methode.
+Als u gevoeligheidslabels in uw organisatie gebruikt, raden we u aan deze te gebruiken om gasttoegang per groep te bepalen. Voor informatie over hoe u dit doet, gebruikt u gevoeligheidslabels om inhoud [in Microsoft Teams, Microsoft 365 groepen](../compliance/sensitivity-labels-teams-groups-sites.md)en SharePoint beschermen. Dit is de aanbevolen methode.
 
 ## <a name="change-group-settings-using-microsoft-powershell"></a>Groepsinstellingen wijzigen met Microsoft PowerShell
 
-U kunt ook de toevoeging van nieuwe gasten aan afzonderlijke groepen voorkomen met Behulp van PowerShell. (Vergeet niet dat de gekoppelde SharePoint-site van het team afzonderlijke besturingselementen voor het [delen van](/sharepoint/change-external-sharing-site)gasten heeft .)
+U kunt ook de toevoeging van nieuwe gasten aan afzonderlijke groepen voorkomen met Behulp van PowerShell. (Vergeet niet dat de gekoppelde site van het team SharePoint heeft afzonderlijke besturingselementen voor het [delen van gasten](/sharepoint/change-external-sharing-site).)
 
 U moet de preview-versie van [Azure Active Directory PowerShell voor Graph](/powershell/azure/active-directory/install-adv2) (modulenaam **AzureADPreview)** gebruiken om de instelling voor gasttoegang op groepsniveau te wijzigen:
 
@@ -75,7 +76,7 @@ Zie Uitnodigingen toestaan of blokkeren voor [B2B-gebruikers van specifieke orga
 
 ## <a name="add-guests-to-the-global-address-list"></a>Gasten toevoegen aan de algemene adreslijst
 
-Gasten zijn standaard niet zichtbaar in de algemene adreslijst van Exchange. Gebruik de onderstaande stappen om een gast zichtbaar te maken in de algemene adreslijst.
+Gasten zijn standaard niet zichtbaar in de Exchange algemene adreslijst. Gebruik de onderstaande stappen om een gast zichtbaar te maken in de algemene adreslijst.
 
 Zoek de object-id van de gast door het volgende uit te lopen:
 
@@ -95,8 +96,8 @@ Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressLis
 
 [Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
-[Groepslidmaatschap beheren in het Microsoft 365-beheercentrum](../admin/create-groups/add-or-remove-members-from-groups.md)
+[Groepslidmaatschap beheren in het Microsoft 365 beheercentrum](../admin/create-groups/add-or-remove-members-from-groups.md)
   
-[Azure Active Directory-toegangsbeoordelingen](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
+[Azure Active Directory toegangsbeoordelingen](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 
 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser)

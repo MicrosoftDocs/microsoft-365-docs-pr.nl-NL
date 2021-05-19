@@ -19,12 +19,12 @@ ms.custom:
 description: Lees hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1d200c4cf17a3d42ddafca301fecbf18c249ac37
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 828d76b95a1e3f8d1a1851121d28603a1922f486
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245682"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538985"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
@@ -45,6 +45,13 @@ ms.locfileid: "52245682"
 In dit artikel wordt beschreven hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF-e-mailverificatie (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
 
 Met SPF kunt u uitgaande e-mail *valideren* die wordt verzonden vanaf uw aangepaste domein (daadwerkelijk afkomstig van de persoon die deze zegt te zijn). Het is een eerste stap bij het instellen van de volledige aanbevolen methoden voor e-mailverificatie van SPF, [DKIM](use-dkim-to-validate-outbound-email.md) en [DMARC](use-dmarc-to-validate-email.md).
+
+- [Vereisten](#prerequisites)
+- [Uw SPF TXT-record maken of bijwerken](#create-or-update-your-spf-txt-record)
+  - [Subdomeinen verwerken](#how-to-handle-subdomains)
+- [Wat doet SPF-e-mailverificatie eigenlijk?](#what-does-spf-email-authentication-actually-do)
+  - [Problemen met SPF oplossen](#troubleshooting-spf)
+- [Meer informatie over SPF](#more-information-about-spf)
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -118,7 +125,6 @@ Voor elk domein en subdomein is een SPF-record met jokerteken (`*.`) nodig om te
 ## <a name="troubleshooting-spf"></a>Problemen met SPF oplossen
 
 Hebt u problemen met de SPF TXT-record? Lees [Probleemoplossing: aanbevolen procedures voor SPF in Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot).
-
 
 ## <a name="what-does-spf-email-authentication-actually-do"></a>Wat doet SPF-e-mailverificatie eigenlijk?
 

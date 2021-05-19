@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/21/2020
+ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Apparaat-proxy en instellingen voor internetverbinding voor Endpoint DLP configureren.
-ms.openlocfilehash: 5da9161f2f59ef8a40ca8a7d302dc7de578dba39
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: f2a62b5c7913b6f41c414310a97ab5f072f59642
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162905"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538613"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>Apparaat-proxy en instellingen voor internetverbinding voor Endpoint DLP configureren.
 
@@ -144,9 +144,9 @@ Verwante onderwerpen • Windows 10-apparaten in onboarden • Problemen met de 
 - [Preventie van gegevensverlies voor eindpunten gebruiken](endpoint-dlp-using.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-- [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
-- [Microsoft Defender voor Eindpoint](/windows/security/threat-protection/)
-- [Hulpmiddelen en methoden voor het onboarden van Windows 10-apparaten](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Aan de slag met de activiteitenverkenner](data-classification-activity-explorer.md)
+- [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)
+- [Hulpmiddelen en methoden onboarden voor Windows 10-apparaten](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365-abonnement](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Azure AD-gekoppelde apparaten](/azure/active-directory/devices/concept-azure-ad-join)
 - [De nieuwe Microsoft Edge op basis van Chromium downloaden](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

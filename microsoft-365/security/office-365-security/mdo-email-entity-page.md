@@ -1,5 +1,5 @@
 ---
-title: De pagina E-mailentiteit van Microsoft Defender voor Office 365 (MDO)
+title: De pagina E-mailentiteit van Microsoft Defender Office 365 (MDO)
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -14,13 +14,13 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Klanten van Microsoft Defender voor Office 365 E5 en P1 en P2 kunnen nu een 360-gradenweergave krijgen van elke e-mail met e-mailentiteitspagina.
-ms.openlocfilehash: 8b531980852336679aad5f2013d63269c238e49c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+description: Klanten van Microsoft Defender Office 365 E5 en P1 en P2 kunnen nu een 360-gradenweergave krijgen van elke e-mail met e-mailentiteitspagina.
+ms.openlocfilehash: aa5d7effb66c4805f6983fa1afac19255bc996e4
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933359"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539093"
 ---
 # <a name="the-email-entity-page"></a>Entiteitspagina van e-mail
 
@@ -34,7 +34,7 @@ Beheerders van Microsoft Defender voor Office 365 (of MDO) E5 en MDO P1 en P2 he
 
 ## <a name="reach-the-email-entity-page"></a>De pagina e-mailentiteit bereiken
 
-In het bestaande Office-beveiligings- en compliancecentrum (protection.office.com) of het nieuwe Microsoft 365-beveiligingscentrum (security.microsoft.com) kunt u de pagina e-mailentiteit bekijken en gebruiken..
+In het bestaande beveiligings- & compliancecentrum (protection.office.com) of het nieuwe Microsoft 365-beveiligingscentrum (security.microsoft.com) kunt u de pagina e-mailentiteit bekijken en gebruiken..
 
 |Centreer|URL|Navigatie|
 |---|---|---|
@@ -111,12 +111,12 @@ Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of 
 
 *E-maildetails:* Details die nodig zijn voor een beter begrip van e-mail die beschikbaar is op *het tabblad* Analyse.
 
-- *Exchange Transport Rules (ETR's of Mailflow-regels)*: Deze regels worden toegepast op een bericht in de transportlaag en hebben voorrang op phish- en spam-vonnissen. Deze kunnen alleen worden gemaakt en gewijzigd in het Exchange-beheercentrum, maar als een ETR van toepassing is op een bericht, worden de ETR-naam en GUID hier weergegeven. Waardevolle informatie voor het bijhouden van doeleinden.
+- *Exchange Transportregels (ETR's of Mailflow-regels)*: Deze regels worden toegepast op een bericht in de transportlaag en hebben voorrang op phish- en spam-vonnissen. Deze kunnen alleen worden gemaakt en gewijzigd in het Exchange-beheercentrum, maar als een ETR van toepassing is op een bericht, worden de ETR-naam en GUID hier weergegeven. Waardevolle informatie voor het bijhouden van doeleinden.
 
 - *Systeem overschrijven:* Dit is een manier om uitzonderingen te maken op de bezorgingslocatie die is bedoeld voor een bericht door de bezorgingslocatie te overschrijven die door het systeem wordt gegeven (volgens de technologie voor bedreiging en detectie).
 
 - *Regel ongewenste postvak:*'Ongewenste e-mail' is verborgen Regel voor Postvak IN die standaard is ingeschakeld in elk postvak.
-  - Wanneer de regel Ongewenste e-mail is ingeschakeld in het postvak, kan Exchange Online Protection (EOP) berichten volgens bepaalde criteria naar Ongewenste e-mail verplaatsen. De verhuizing kan zijn gebaseerd op actie voor spamfiltering *Bericht verplaatsen* naar de map Ongewenste e-mail of op de lijst Geblokkeerde afzenders in het postvak. Het uitschakelen van de regel Ongewenste e-mail voorkomt dat berichten worden bezorgd in de map Ongewenste e-mail op basis van de lijst Veilige *afzenders* in het postvak.
+  - Wanneer de regel Ongewenste e-mail is ingeschakeld in het postvak, Exchange Online Protection EOP (EOP) berichten volgens bepaalde criteria naar Ongewenste e-mail verplaatsen. De verhuizing kan zijn gebaseerd op actie voor spamfiltering *Bericht verplaatsen* naar de map Ongewenste e-mail of op de lijst Geblokkeerde afzenders in het postvak. Door de regel Ongewenste e-mail uit te sluiten, wordt voorkomen dat berichten worden bezorgd in de map Ongewenste e-mail op basis van de Safe *afzenders* in het postvak.
   - Wanneer de regel voor ongewenste e-mail *is* uitgeschakeld in het postvak, kan EOP geen berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie Voor spamfiltering Bericht verplaatsen naar map Ongewenste e-mail of de veilige lijstverzameling in het postvak.
 
 - *Bulksgewijs klachtenniveau (BCL)*: het bulkklachtsniveau (BCL) van het bericht. Een hogere BCL geeft aan dat een bulkbericht waarschijnlijk meer klachten kan genereren (het natuurlijke resultaat als de e-mail waarschijnlijk spam is).
@@ -153,4 +153,4 @@ Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of 
   - Bestguesspass: Geeft aan dat er geen DMARC TXT-record voor het domein bestaat, maar als er een was geweest, zou de DMARC-controle voor het bericht zijn geslaagd.
   - Geen: Geeft aan dat er geen DMARC TXT-record bestaat voor het verzendende domein in DNS.
 
-*Samengestelde* verificatie: Dit is een waarde die door Microsoft 365 wordt gebruikt om e-mailverificatie zoals SPF, DKIM en DMARC te combineren, om te bepalen of het bericht authentiek is. Het domein *Van:* van de e-mail wordt gebruikt als basis voor evaluatie.
+*Samengestelde* verificatie: dit is een waarde die door Microsoft 365 wordt gebruikt om e-mailverificatie zoals SPF, DKIM en DMARC te combineren, om te bepalen of het bericht authentiek is. Het domein *Van:* van de e-mail wordt gebruikt als basis voor evaluatie.

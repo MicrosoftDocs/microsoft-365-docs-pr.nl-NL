@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 1921c0985128b49e3f8e11a29df8bc75cdbda829
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: dcae50150eb3b21e65e68a5cea376a0cdef31a65
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162968"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538445"
 ---
 # <a name="communication-compliance-feature-reference"></a>Verwijzing naar communicatie-compliancefunctie
 
@@ -78,7 +78,7 @@ Overweeg het volgende voorbeeld om uw migratieplanning te helpen. U hebt momente
 - Controlebeheerder
 - Case Management
 - Compliancebeheerder
-- Controle
+- Beoordelen
 
 Als u de rollen voor deze gebruikers voor de nieuwe structuur van de rollengroep wilt bijwerken en de toegangs- en beheermachtigingen voor de gebruikers wilt scheiden, kunt u drie nieuwe groepen en de bijbehorende nieuwe toewijzingen voor rollengroepen overwegen:
 
@@ -165,7 +165,7 @@ Ingebouwde, trainbare en globale classificaties scannen verzonden of ontvangen b
 - French
 - German
 - Italian
-- Japanese
+- Japans
 - Portugees
 - Spanish
 
@@ -482,7 +482,7 @@ Het **dashboard Rapporten** bevat de volgende rapportwidgets en gedetailleerde r
 In sommige gevallen moet u informatie verstrekken aan regelgevende of compliance-auditors om het toezicht op gebruikersactiviteiten en communicatie te bewijzen. Deze informatie kan een overzicht zijn van alle activiteiten die zijn gekoppeld aan een gedefinieerd organisatiebeleid of op elk moment dat een communicatiebeleid wordt gewijzigd. Communicatie compliancebeleid heeft ingebouwde auditpaden voor volledige gereedheid voor interne of externe audits. Gedetailleerde auditgeschiedenissen van elke actie die u maakt, bewerkt en verwijdert, worden vastgelegd in uw communicatiebeleid om het bewijs van toezichtprocedures te leveren.
 
 >[!Important]
->Auditing moet zijn ingeschakeld voor uw organisatie voordat communicatie compliancegebeurtenissen worden vastgelegd. Zie Het auditlogboek inschakelen als u controle [wilt inschakelen.](communication-compliance-configure.md#step-2-required-enable-the-audit-log)
+>Auditing moet zijn ingeschakeld voor uw organisatie voordat communicatie compliancegebeurtenissen worden vastgelegd. Zie Het auditlogboek inschakelen als u controle [wilt inschakelen.](communication-compliance-configure.md#step-2-required-enable-the-audit-log) Wanneer activiteiten gebeurtenissen triggeren die zijn vastgelegd in het Microsoft 365 auditlogboek, kan het tot 48 uur duren voordat deze gebeurtenissen kunnen worden bekeken in communicatie compliancebeleid.
 
 Als u activiteiten voor het bijwerken van communicatiebeleid wilt bekijken, selecteert u het **besturingselement** Beleidsupdates exporteren op de hoofdpagina voor elk beleid. U moet de  rollen globale beheerder of communicatie *compliancebeheerder* toegewezen krijgen om bijwerkactiviteiten te exporteren. Met deze actie wordt een auditbestand gegenereerd in de .csv indeling met de volgende gegevens:
 

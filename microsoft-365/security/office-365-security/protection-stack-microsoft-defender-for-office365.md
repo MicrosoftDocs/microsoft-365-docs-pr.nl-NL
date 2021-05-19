@@ -13,19 +13,19 @@ localization_priority: Normal
 description: Volg het pad van een binnenkomend bericht door de filtertack voor bedreigingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0760bd7a67f175e4af114324ccc729355ad5f593
-ms.sourcegitcommit: 4e05f19c00e172b65f637f19ca461db5b21dff4e
+ms.openlocfilehash: 01ad901f7f746d9b5d2c50632c1344701120c20f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51601374"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538685"
 ---
-# <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Stapsgewijs bedreigingsbeveiliging in Microsoft Defender voor Office 365
+# <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Stapsgewijze bedreigingsbeveiliging in Microsoft Defender voor Office 365
 
-De beveiligings- of filtertack van Microsoft Defender voor Office 365 kan worden onderverdeeld in vier fasen, zoals in dit artikel. In het algemeen gaat inkomende e-mail door al deze fasen vóór de bezorging, maar het werkelijke pad dat e-mail neemt, is afhankelijk van de Defender voor Office 365-configuratie van een organisatie.
+De Microsoft Defender voor Office 365 beveiliging of filtertack kan worden onderverdeeld in 4 fasen, zoals in dit artikel. In het algemeen gaat inkomende e-mail door al deze fasen vóór de bezorging, maar het werkelijke pad dat e-mail neemt, is afhankelijk van de Defender van een organisatie voor Office 365 configuratie.
 
 > [!TIP]
-> Blijf op de hoogte tot het einde van dit artikel voor een *geïntegreerde* afbeelding van alle 4 fasen van Defender voor Office 365-beveiliging!
+> Blijf op de hoogte tot het einde van dit artikel voor een *geïntegreerde* afbeelding van alle 4 fasen van Defender voor Office 365 beveiliging!
 
 ## <a name="phase-1---edge-protection"></a>Fase 1 - Edge Protection
 
@@ -35,7 +35,7 @@ Edge-blokken zijn ontworpen om automatisch te zijn. In het geval van onwaar posi
 
 :::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase1.png" alt-text="Fase 1 van filteren in Defender voor Office 365 is Edge Protection.":::
 
-1. **Netwerkbeperking beschermt** Office 365-infrastructuur en klanten tegen DOS-aanvallen (Denial of Service) door het aantal berichten te beperken dat door een specifieke set infrastructuur kan worden verzonden.
+1. **Netwerkbeperking beschermt Office 365** infrastructuur en klanten tegen DoS-aanvallen (Denial of Service) door het aantal berichten te beperken dat kan worden verzonden door een specifieke set infrastructuur.
 
 2. **IP-reputatie en beperking blokkeren** berichten die worden verzonden van bekende slecht verbonden IP-adressen. Als met een specifiek IP-adres veel berichten in een korte periode worden verzonden, worden deze beperkt.
 
@@ -45,7 +45,7 @@ Edge-blokken zijn ontworpen om automatisch te zijn. In het geval van onwaar posi
 
 5. **Backscatterdetectie voorkomt** dat een organisatie wordt aangevallen via ongeldige niet-bezorgingsrapporten (NDR's).
 
-6. **Verbeterde filtering voor verbindingslijnen** behoudt verificatiegegevens, zelfs wanneer het verkeer door een ander apparaat loopt voordat het Office 365 bereikt. Dit verbetert de nauwkeurigheid van het filteren van stapels, waaronder heuristische clustering, anti-spoofing en anti-phishing machine learning-modellen, zelfs in complexe of hybride routeringsscenario's.
+6. **Verbeterde filtering voor verbindingslijnen** behoudt verificatiegegevens, zelfs wanneer het verkeer door een ander apparaat loopt voordat het Office 365. Dit verbetert de nauwkeurigheid van het filteren van stapels, waaronder heuristische clustering, anti-spoofing en anti-phishing machine learning-modellen, zelfs in complexe of hybride routeringsscenario's.
 
 ## <a name="phase-2---sender-intelligence"></a>Fase 2 - Sender Intelligence
 
@@ -61,7 +61,7 @@ Functies in afzenderinformatie zijn essentieel voor het opsporen van spam, bulks
     - **Met DMARC** kunnen beheerders SPF en DKIM markeren zoals vereist in hun domein en wordt de uitlijning tussen de resultaten van deze twee technologieën afgedwongen.
     - **ARC** is niet geconfigureerd voor klanten, maar bouwt voort op DMARC om te werken met doorsturen in adressenlijsten, terwijl u een verificatieketen opneemt.
 
-3. **Spoof intelligence** is geschikt voor het filteren van personen die mogen 'spoofen' (dat wil zeggen die e-mail verzenden namens een ander account, of doorsturen voor een adressenlijst) van kwaadaardige spoofers die een organisatie- of bekend extern domein imiteren. Het scheidt legitieme 'namens' e-mail van afzenders die spoofing gebruiken om spam- en phishingberichten te verzenden. 
+3. **Spoof intelligence** is geschikt voor het filteren van personen die mogen 'spoofen' (dat wil zeggen die e-mail namens een ander account verzenden of doorsturen voor een adressenlijst) van kwaadwillende afzenders die organisatie- of bekende externe domeinen imiteren. Het scheidt legitieme 'namens' e-mail van afzenders die spoofen om spam- en phishingberichten te verzenden.
 
     **Spoofintelligentie binnen de** organisatie detecteert en blokkeert spoofpogingen vanuit een domein binnen de organisatie.
 
@@ -83,13 +83,13 @@ In deze fase begint de filtertack met het verwerken van de specifieke inhoud van
 
 :::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase3.png" alt-text="Fase 3 van filteren in MDO is Inhoudsfiltering.":::
 
-1. **Met transportregels** (ook wel e-mailstroomregels of Exchange-transportregels genoemd) kan een beheerder een groot aantal acties uitvoeren wanneer aan een even groot aantal voorwaarden voor een bericht wordt voldaan. Alle berichten die door uw organisatie stromen, worden geëvalueerd op basis van de ingeschakelde regels voor e-mailstroom/transportregels.
+1. **Met transportregels** (ook wel bekend als regels voor e-mailstroom of Exchange transportregels) kan een beheerder een groot aantal acties uitvoeren wanneer aan een even groot aantal voorwaarden voor een bericht wordt voldaan. Alle berichten die door uw organisatie stromen, worden geëvalueerd op basis van de ingeschakelde regels voor e-mailstroom/transportregels.
 
 2. **Microsoft Defender Antivirus** en twee *antivirusprogramma's* van derden worden gebruikt om alle bekende malware in bijlagen te detecteren.
 
 3. De antivirusprogramma's (AV)-engines worden ook gebruikt om  alle bijlagen waar te typen, zodat typeblokkering alle bijlagen van typen kan blokkeren die door de beheerder zijn opgegeven.
 
-4. Wanneer Microsoft Defender voor Office 365 een schadelijke bijlage detecteert, worden de hash van het bestand en een hash van de actieve inhoud toegevoegd aan de EOP-reputatie (Exchange Online Protection). **Als u de reputatie van** bijlagen blokkeert, wordt dat bestand geblokkeerd in alle Office 365- en eindpunten via MSAV-cloudgesprekken.
+4. Wanneer Microsoft Defender voor Office 365 een schadelijke bijlage detecteert, worden de hash van het bestand en een hash van de actieve inhoud toegevoegd aan de reputatie van Exchange Online Protection (EOP). **Het blokkeren van de reputatie** van bijlagen blokkeert dat bestand in Office 365 en op eindpunten, via MSAV-cloudoproepen.
 
 5. **Heuristische clustering** kan bepalen dat een bestand verdacht is op basis van bezorgings heuristische gegevens. Wanneer een verdachte bijlage wordt gevonden, wordt de hele campagne onderbroken en is het bestand sandboxed. Als het bestand schadelijk blijkt te zijn, wordt de hele campagne geblokkeerd.
 
@@ -99,7 +99,7 @@ In deze fase begint de filtertack met het verwerken van de specifieke inhoud van
 
 8. **Inhouds heuristische berichten** kunnen verdachte berichten detecteren op basis van structuur en woordfrequentie in de berichtstructuur, met behulp van machine learning-modellen.
 
-9. **Safe Attachments** sandboxes every attachment for Defender for Office 365 customers, using dynamic analysis to detect never-before seen threats.
+9. **Safe Attachments sandboxes** every attachment for Defender for Office 365 customers, using dynamic analysis to detect never-before seen threats.
 
 10. **Met gekoppelde** inhoudsdetonatie wordt elke URL die aan een bestand in een e-mailbericht wordt gekoppeld, behandeld als een bijlage, waarin het bestand asynchron wordt sandboxing op het moment van de bezorging.
 
@@ -111,21 +111,21 @@ De laatste fase vindt plaats na de bezorging van e-mail of bestanden, met e-mail
 
 :::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase4.png" alt-text="Fase 4 van filteren in Defender voor Office 365 is bescherming na aflevering.":::
 
-1. **Veilige koppelingen** is de time-of-click-beveiliging van MDO. Elke URL in elk bericht wordt omwikkeld om te wijzen naar Microsoft Safe Links-servers. Wanneer op een URL wordt geklikt, wordt deze gecontroleerd op de meest recente reputatie, voordat de gebruiker wordt omgeleid naar de doelsite. De URL is asynchrone sandboxed om de reputatie bij te werken.
+1. **Safe Koppelingen** is de time-of-click-beveiliging van MDO. Elke URL in elk bericht wordt omwikkeld om te wijzen naar Microsoft Safe Koppelingenservers. Wanneer op een URL wordt geklikt, wordt deze gecontroleerd op de meest recente reputatie, voordat de gebruiker wordt omgeleid naar de doelsite. De URL is asynchrone sandboxed om de reputatie bij te werken.
 
-2. **Phish Zero-Hour Automatisch verwijderen (ZAP)** detecteert en neutraliseert met terugwerkende kracht kwaadaardige phishingberichten die al zijn bezorgd in Exchange Online-postvakken.
+2. **Phish Zero-Hour Auto-purge (ZAP)** detecteert en neutraliseert met terugwerkende kracht kwaadaardige phishingberichten die al zijn bezorgd in Exchange Online postvakken.
 
-3. **Malware ZAP** detecteert en neutraliseert schadelijke malwareberichten die al zijn bezorgd in Exchange Online-postvakken en neutraliseert deze met terugwerkende kracht.
+3. **Malware ZAP** detecteert en neutraliseert schadelijke malwareberichten die al zijn bezorgd in Exchange Online postvakken.
 
-4. **Spam ZAP** detecteert en neutraliseert schadelijke spamberichten die al zijn bezorgd in Exchange Online-postvakken.
+4. **Spam ZAP** detecteert en neutraliseert schadelijke spamberichten die al zijn bezorgd in Exchange Online postvakken.
 
 5. **Met campagneweergaven** kunnen beheerders het grote geheel van een aanval zien, sneller en vollediger dan elk team zonder automatisering. Microsoft maakt gebruik van de enorme hoeveelheden anti-phishing-, antispam- en anti-malwaregegevens in de hele service om campagnes te identificeren. Beheerders kunnen deze vervolgens van begin tot eind onderzoeken, inclusief doelen, effecten en stromen, die ook beschikbaar zijn in een downloadbare campagne.
 
 6. **Met de invoegvoegingen** rapportbericht kunnen personen eenvoudig onwaar-positieven (goede e-mail, per ongeluk gemarkeerd als *slecht)* of onwaar negatieven (slechte e-mail die als goed is *gemarkeerd)* aan Microsoft rapporteren voor verdere analyse.
 
-7. **Veilige koppelingen voor Office-clients** bieden dezelfde time-of-clickbeveiliging voor Veilige koppelingen, inheems binnen Office-clients zoals Word, PowerPoint en Excel.
+7. Safe Koppelingen voor **Office-clients** biedt dezelfde time-of-click-beveiliging Safe Koppelingen, inheems, binnen Office-clients zoals Word, PowerPoint en Excel.
 
-8. **Beveiliging voor OneDrive, SharePoint** en Teams biedt dezelfde beveiliging tegen veilige bijlagen tegen schadelijke bestanden, inheems, binnen OneDrive, SharePoint en Microsoft Teams.
+8. Bescherming voor **OneDrive, SharePoint** en Teams biedt dezelfde Safe Bijlagen-beveiliging tegen schadelijke bestanden, inheems, binnen OneDrive, SharePoint en Microsoft Teams.
 
 9. Wanneer een URL die naar een bestand  wijst, is geselecteerd na de bezorging, wordt met gekoppelde inhoudsdetonatie een waarschuwingspagina weergegeven totdat de sandboxing van het bestand is voltooid en de URL veilig is.
 
@@ -138,6 +138,6 @@ Het uiteindelijke diagram (zoals met alle onderdelen van het diagram) kan worden
 
 ## <a name="more-information"></a>Meer informatie
 
-Moet u Microsoft Defender voor Office 365 ***nu** instellen _? Gebruik deze stapel, _now*, met deze stapsgewijs om [uw](protect-against-threats.md) organisatie te gaan beveiligen.
+Moet u Microsoft Defender op dit moment instellen voor Office 365 ***** _? Gebruik deze stapel, _now*, met deze stapsgewijs om [uw](protect-against-threats.md) organisatie te gaan beveiligen.
 
 *Speciale dank van MSFTTracyP en het docs-schrijfteam aan Giulian Garruba voor deze inhoud.*

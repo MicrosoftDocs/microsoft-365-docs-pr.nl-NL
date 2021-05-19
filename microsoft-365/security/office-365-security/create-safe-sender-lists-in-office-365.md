@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de beschikbare en voorkeursopties om binnenkomende berichten toe te staan in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e5473f8c37b4edcf6c2451cf995b430edbe09533
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: f76b34a439d2eaf2c8315d174483b0b30d3b3b0b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204416"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538757"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
@@ -33,12 +33,12 @@ ms.locfileid: "51204416"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige EOP-klant (Exchange Online Protection) zonder Exchange Online-postvakken, biedt EOP meerdere manieren om ervoor te zorgen dat gebruikers e-mail ontvangen van vertrouwde afzenders. Deze opties zijn Exchange-regels voor e-mailstroom (ook wel transportregels genoemd), Veilige afzenders van Outlook, de IP-lijst toestaan (verbindingsfiltering) en toegestane afzenderlijsten of toegestane domeinlijsten in antispambeleid. U kunt deze opties gezamenlijk zien als lijsten _met veilige afzenders._
+Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige Exchange Online Protection-klant (EOP) zonder Exchange Online-postvakken, biedt EOP meerdere manieren om ervoor te zorgen dat gebruikers e-mail ontvangen van vertrouwde afzenders. Deze opties zijn Exchange regels voor e-mailstroom (ook wel transportregels genoemd), Outlook Safe Afzenders, ip-lijst toestaan (verbindingsfiltering) en toegestane afzenderlijsten of toegestane domeinlijsten in antispambeleid. U kunt deze opties gezamenlijk zien als lijsten _met veilige afzenders._
 
 De beschikbare lijsten met veilige afzenders worden in de volgende lijst beschreven in volgorde van meest aanbevolen tot minst aanbevolen:
 
 1. Regels voor e-mailstroom
-2. Veilige afzenders van Outlook
+2. Outlook Safe afzenders
 3. Ip Allow List (verbindingsfiltering)
 4. Lijsten met toegestane afzenders of toegestane domeinlijsten (antispambeleid)
 
@@ -50,15 +50,15 @@ E-mailstroomregels bieden de meeste flexibiliteit om ervoor te zorgen dat alleen
 >
 > - Hoewel u lijsten met veilige afzenders kunt gebruiken om te helpen bij fout-positieven (goede e-mail die als slecht is gemarkeerd), moet u het gebruik van lijsten met veilige afzenders beschouwen als een tijdelijke oplossing die indien mogelijk moet worden vermeden. Het is niet raadzaam om false positives te beheren met behulp van lijsten met veilige afzenders, omdat uitzonderingen op spamfilters uw organisatie kunnen openen voor spoofing en andere aanvallen. Als u lijsten met veilige afzenders wilt gebruiken om fout-positieven te beheren, moet u op uw hoede zijn en het onderwerp Berichten en bestanden rapporteren bij [Microsoft](report-junk-email-messages-to-microsoft.md) gereed houden.
 >
-> - Als u wilt toestaan dat een domein niet-nautische e-mail verzendt (bescherming tegen spoofing omzeilen), maar antispam- en anti-malwarecontroles niet wilt omzeilen, kunt u dit toevoegen aan de lijst met veilige afzenders van [AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)
+> - Als u wilt toestaan dat een domein niet-vervalste e-mail verzendt (bescherming tegen spoofing omzeilen), maar antispam- en anti-malwarecontroles niet wilt omzeilen, kunt u het inzicht in [spoofinformatie](learn-about-spoof-intelligence.md) en de [tenantlijst Toestaan/blokkeren gebruiken.](tenant-allow-block-list.md)
 >
-> - EOP en Outlook controleren verschillende berichteigenschappen om de afzender van het bericht te bepalen. Zie de sectie Overwegingen voor [bulk-e-mail](#considerations-for-bulk-email) verder in dit artikel voor meer informatie.
+> - EOP en Outlook verschillende berichteigenschappen controleren om de afzender van het bericht te bepalen. Zie de sectie Overwegingen voor [bulk-e-mail](#considerations-for-bulk-email) verder in dit artikel voor meer informatie.
 
 U hebt daarentegen ook verschillende opties om e-mail van specifieke bronnen te blokkeren met behulp _van lijsten met geblokkeerde afzenders._ Zie [Lijsten met geblokkeerde afzenders maken in EOP](create-block-sender-lists-in-office-365.md) voor meer informatie.
 
 ## <a name="recommended-use-mail-flow-rules"></a>(Aanbevolen) Regels voor e-mailstroom gebruiken
 
-E-mailstroomregels in Exchange Online en zelfstandige EOP gebruiken voorwaarden en uitzonderingen om berichten te identificeren en acties om op te geven wat er met die berichten moet worden gedaan. Zie [E-mailstroomregels (transportregels) in Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)voor meer informatie.
+E-mailstroomregels in Exchange Online en zelfstandige EOP gebruiken voorwaarden en uitzonderingen om berichten te identificeren en acties om op te geven wat er met die berichten moet worden gedaan. Zie Regels voor [e-mailstroom (transportregels) in](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)Exchange Online.
 
 In het volgende voorbeeld wordt ervan uitgenomen dat u e-mail contoso.com spamfilters wilt overslaan. U doet dit door de volgende instellingen te configureren:
 
@@ -100,14 +100,14 @@ In het volgende voorbeeld wordt ervan uitgenomen dat u e-mail contoso.com spamfi
 
 ![Instellingen voor e-mailstroomregel in het EAC voor het omzeilen van spamfilters.](../../media/1-AllowList-SkipFilteringFromContoso.png)
 
-## <a name="use-outlook-safe-senders"></a>Veilige afzenders van Outlook gebruiken
+## <a name="use-outlook-safe-senders"></a>Afzenders Outlook Safe gebruiken
 
 > [!CAUTION]
-> Met deze methode wordt een hoog risico gemaakt dat aanvallers e-mail leveren aan het Postvak IN die anders zou worden gefilterd. De lijsten met veilige afzenders of veilige domeinen van de gebruiker voorkomen echter niet dat malware of phishingberichten met veel vertrouwen worden gefilterd.
+> Met deze methode wordt een hoog risico gemaakt dat aanvallers e-mail leveren aan het Postvak IN die anders zou worden gefilterd. De gebruikersaccounts Safe afzenders of Safe domeinen voorkomen echter niet dat malware of phishingberichten met veel vertrouwen worden gefilterd.
 
-In plaats van een organisatieinstelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst Veilige afzenders in het postvak. Zie Instellingen voor [ongewenste e-mail configureren in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md)voor instructies. Dit is in de meeste gevallen niet wenselijk omdat afzenders delen van de filtertack zullen omzeilen. Hoewel u de afzender vertrouwt, kan de afzender nog steeds worden gecompromitteerd en schadelijke inhoud verzenden. Het is het beste dat u onze filters laat doen wat nodig is om elk bericht te controleren en vervolgens de [fout-positief/negatief](report-junk-email-messages-to-microsoft.md) aan Microsoft te melden als onze filters het fout hebben gedaan. Als u de filtertack overzeilt, wordt [ZAP ook in de weg ermee geslagen.](zero-hour-auto-purge.md)
+In plaats van een organisatieinstelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst Safe afzenders in het postvak. Zie Instellingen voor [ongewenste e-mail configureren voor Exchange Online postvakken in Office 365.](configure-junk-email-settings-on-exo-mailboxes.md) Dit is in de meeste gevallen niet wenselijk omdat afzenders delen van de filtertack zullen omzeilen. Hoewel u de afzender vertrouwt, kan de afzender nog steeds worden gecompromitteerd en schadelijke inhoud verzenden. Het is het beste dat u onze filters laat doen wat nodig is om elk bericht te controleren en vervolgens de [fout-positief/negatief](report-junk-email-messages-to-microsoft.md) aan Microsoft te melden als onze filters het fout hebben gedaan. Als u de filtertack overzeilt, wordt [ZAP ook in de weg ermee geslagen.](zero-hour-auto-purge.md)
 
-Wanneer berichten spamfilters overslaan vanwege de lijst Veilige afzenders van een gebruiker, bevat het veld **X-Forefront-Antispam-Report** de waarde , wat aangeeft dat filteren op spam, spoofing en phishing is `SFV:SFE` overgeslagen.
+Wanneer berichten spamfilters overslaan vanwege de lijst met Safe-afzenders van een gebruiker, bevat het veld **X-Forefront-Antispam-Report** de waarde , wat aangeeft dat het filteren op spam, spoofing en phishing is `SFV:SFE` overgeslagen.
 
 ## <a name="use-the-ip-allow-list"></a>De lijst met IP-toegestane gegevens gebruiken
 
@@ -150,13 +150,13 @@ Stel dat Blue Yonder Airlines Margie's Travel heeft aangenomen om de e-mailrecla
 
 - Het `5321.MailFrom` adres is blueyonder.airlines@margiestravel.com.
 
-- Het `5322.From` adres is blueyonder@news.blueyonderairlines.com, wat u in Outlook ziet.
+- Het adres is blueyonder@news.blueyonderairlines.com, wat u ziet `5322.From` in Outlook.
 
-Lijsten met veilige afzenders en veilige domeinlijsten in antispambeleid in EOP controleren alleen de adressen, dit is vergelijkbaar met Veilige afzenders van Outlook die het adres `5322.From` `5322.From` gebruiken.
+Safe afzenderlijsten en veilige domeinlijsten in antispambeleid in EOP alleen de adressen controleren, is dit vergelijkbaar met Outlook Safe afzenders die het adres `5322.From` `5322.From` gebruiken.
 
 Als u wilt voorkomen dat dit bericht wordt gefilterd, kunt u de volgende stappen ondernemen:
 
-- Voeg blueyonder@news.blueyonderairlines.com (het `5322.From` adres) toe als veilige afzender van Outlook.
+- Voeg blueyonder@news.blueyonderairlines.com (het `5322.From` adres) toe als Outlook Safe afzender.
 
 - [Gebruik een e-mailstroomregel](#recommended-use-mail-flow-rules) met een voorwaarde die zoekt naar berichten uit blueyonder@news.blueyonderairlines.com (het `5322.From` adres, blueyonder.airlines@margiestravel.com (de `5321.MailFrom` ) of beide.
 

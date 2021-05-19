@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 76bead8fd855e4119db6297d2ab1a3d08d64a48c
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 4fc124bf8787d5880d78a4f5208bd66329da07a0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297162"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539033"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>Uw beveiligingshouding voorbereiden op het eerste incident
 
@@ -47,7 +47,7 @@ Microsoft 365 Defender kan helpen bij het aanpakken van verschillende aspecten v
 
 ## <a name="step-1-implement-zero-trust"></a>Stap 1. Nul vertrouwen implementeren
 
-[Zero Trust](https://docs.microsoft.com/security/zero-trust/) is een geïntegreerde beveiligingsbeschouwing en end-to-endstrategie waarin rekening wordt gehouden met de complexe aard van elke moderne omgeving, met inbegrip van het mobiele personeel en de gebruikers, apparaten, toepassingen en gegevens, waar ze zich ook bevinden. Door één deelvenster met glas te bieden om alle eindpuntdetecties op een consistente manier te beheren, kan [](https://docs.microsoft.com/security/zero-trust/#guiding-principles-of-zero-trust) Microsoft 365 Defender het uw beveiligingsteam gemakkelijker maken om de basisprincipes van Zero Trust te implementeren. 
+[Zero Trust](https://docs.microsoft.com/security/zero-trust/) is een geïntegreerde beveiligingsbeschouwing en end-to-endstrategie waarin rekening wordt gehouden met de complexe aard van elke moderne omgeving, met inbegrip van het mobiele personeel en de gebruikers, apparaten, toepassingen en gegevens, waar ze zich ook bevinden. Door één deelvenster met glas op te geven om alle detecties op een consistente manier te beheren, kan Microsoft 365 Defender het uw beveiligingsteam gemakkelijker maken om de basisprincipes van Zero Trust te implementeren. [](https://docs.microsoft.com/security/zero-trust/#guiding-principles-of-zero-trust) 
 
 Onderdelen van Microsoft 365 Defender kunnen schendingen van regels weergeven die zijn geïmplementeerd om beleid voor voorwaardelijke toegang voor Zero Trust tot stand te brengen door gegevens van Microsoft Defender voor Eindpunt (MDE) of andere mobiele beveiligingsleveranciers te integreren als informatiebron voor beleidsregels voor apparaat compliance en implementatie van beleidsregels voor voorwaardelijke toegang op apparaten. 
 
@@ -78,6 +78,8 @@ Gebruik [bedreigingsanalyse](threat-analytics.md) in het Microsoft 365 beveiligi
 - Kritieke beveiligingslekken
 - Veelvoorkomende aanvalsoppervlakken
 - Voorkomende malware
+
+Bedreigingsanalyse bekijkt ook uw configuratie en waarschuwingen om te bepalen hoe risico's u loopt en of er actieve waarschuwingen van toepassing zijn op een rapport.
 
 U kunt de aanbevelingen van een nieuwe bedreiging implementeren om uw beveiligingshouding te versterken en het oppervlak van de aanval te minimaliseren.
 

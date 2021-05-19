@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Lees hoe u uw abonnement opnieuw kunt activeren wanneer het verloopt, is uitgeschakeld of geannuleerd.
 ms.date: 04/07/2021
-ms.openlocfilehash: 902be48b32acdff5173a0dd5cc84dbd5972e1ba9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 63c65e90d01bfd2c67d1d2ecfed32a4d4ff8d27a
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345140"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538457"
 ---
 # <a name="reactivate-your-subscription"></a>Uw abonnement opnieuw activeren
 
@@ -58,12 +58,12 @@ U moet een globale beheerder of factureringsbeheerder zijn om een abonnement opn
 
 ::: moniker-end
 
-2. Zoek op **het** tabblad Producten het abonnement dat u opnieuw wilt activeren. Selecteer **Meer acties** (drie puntjes) en selecteer vervolgens Dit abonnement opnieuw **activeren**.\
+2. Zoek op **het** tabblad Producten het abonnement dat u opnieuw wilt activeren. Selecteer de drie puntjes (meer acties) en selecteer vervolgens **Dit abonnement opnieuw activeren**.\
     Als u dit abonnement opnieuw **activeren niet ziet,** [neem dan contact op met ondersteuning.](../../business-video/get-help-support.md)
 3. Selecteer in **het deelvenster Dit abonnement opnieuw** activeren een betalingswijze in de vervolgkeuzelijst of selecteer **Betalingswijze toevoegen.**
 4. Selecteer **Opslaan**.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Probeer of koop een abonnement Microsoft 365 voor bedrijven](../try-or-buy-microsoft-365.md) (artikel)\
 [Microsoft 365 voor bedrijven verlengen](renew-your-subscription.md) (artikel)\

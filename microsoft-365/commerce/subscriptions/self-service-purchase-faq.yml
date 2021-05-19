@@ -1,0 +1,134 @@
+### YamlMime:FAQ
+metadata:
+  title: Veelgestelde vragen over selfservice-aankoop
+  f1.keywords:
+  - NOCSH
+  ms.author: cmcatee
+  author: cmcatee-MSFT
+  manager: scotv
+  ms.reviewer: mijeffer, pablom
+  audience: Admin
+  ms.topic: article
+  ms.service: o365-administration
+  localization_priority: Normal
+  ms.collection: M365-subscription-management
+  ms.custom:
+  - AdminSurgePortfolio
+  - aka.ms/self-service-purchase-faq
+  - commerce_ssp
+  search.appverid:
+  - MET150
+  description: Antwoorden vinden op veelgestelde vragen over selfserviceaankopen.
+  ms.date: 09/15/2020
+  ms.openlocfilehash: 7dcf16ff51854b595f61c2797a62632a3003b7c9
+  ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 05/19/2021
+  ms.locfileid: "52539296"
+title: Veelgestelde vragen over selfservice-aankoop
+summary: >
+  Selfserviceaankoop biedt gebruikers de mogelijkheid om nieuwe technologieën uit te proberen en oplossingen te ontwikkelen die uiteindelijk hun grotere organisaties ten goede komen. Centrale inkoop- en IT-teams hebben zichtbaarheid voor alle gebruikers die selfservice-aankoopoplossingen kopen en implementeren via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het Microsoft 365 beheercentrum.</a> Beheerders kunnen selfservice-aankopen per product uitschakelen via PowerShell. Zie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](allowselfservicepurchase-powershell.md)voor meer informatie.
+
+
+  Selfserviceaankoop is beschikbaar voor Power Platform (Power BI, Power Apps en Power Automate), Project en Visio.
+
+
+  > [!NOTE]
+
+  > Selfserviceaankoop is niet beschikbaar in India of voor klanten van de overheid of onderwijs. Project en Visio zijn niet beschikbaar voor selfservice-aankopen in Brazilië en de Democratische Republiek Congo.
+sections:
+- name: Een selfservice-aankoop doen
+  questions:
+  - question: >
+      Hoe doet een klant een selfserviceaankoop?
+    answer: >
+      Klanten kunnen online een selfservice-aankoop doen via de productwebsites of via in-app aankoopprompts. Klanten wordt eerst gevraagd een e-mailadres in te voeren om ervoor te zorgen dat ze een gebruiker zijn in een bestaande Azure Active Directory (AD)-tenant. Vervolgens worden ze doorgestuurd om zich aan te melden met hun Azure AD-referenties. Na het aanmelden wordt de klant gevraagd om te selecteren hoeveel abonnementen ze willen kopen en om creditcardbetaling te geven. Wanneer de aankoop is voltooid, kunnen ze hun abonnement gaan gebruiken. De inkoper heeft toegang tot een beperkte weergave van <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het Microsoft 365</a> beheercentrum waar hij of zij licenties aan het product kan toewijzen aan andere personen in de organisatie.
+  - question: >
+      Wat zijn de betalingsopties voor selfserviceaankopen?
+    answer: >
+      Momenteel is creditcard de enige beschikbare betalingswijze. Betaling via facturering wordt niet ondersteund.
+  - question: >
+      Wie kunt u kopen via selfserviceaankoop?
+    answer: >
+      Elke gebruiker met een niet-gastgebruikersaccount in een beheerde Azure AD-tenant kan een selfserviceaankoop doen. Selfservice-inkoop is niet beschikbaar voor tenants die overheids- of onderwijsorganisaties zijn. Als dit van toepassing is op uw organisatie, is er geen extra actie vereist om de selfserviceaankoop te controleren.
+
+
+      Gebruikers in organisaties of markten die niet in aanmerking komen voor selfserviceaankoop, zien een bericht waarin ze worden gevraagd contact op te nemen met hun IT-beheerder.
+  - question: >
+      Kunnen gastgebruikers kopen via selfservice-aankoop?
+    answer: >
+      Nee, gastgebruikers kunnen een selfservice-aankoop niet voltooien in een tenant waarin ze een gast zijn.
+  - question: >
+      Kunnen gebruikers die worden gesynchroniseerd via een on-premises Active Directory kopen via selfservice-aankoop?
+    answer: >
+      Als een gebruiker een actief gebruikersaccount heeft in een in aanmerking komende Azure AD-tenant, kan deze een selfservice-aankoop uitvoeren.
+  - question: >
+      Wie kunnen selfservice-inkopers licenties toewijzen aan?
+    answer: >
+      Selfservice-inkopers kunnen alleen licenties toewijzen aan gebruikers in dezelfde Azure AD-tenant. De koper heeft toegang tot een beperkte weergave van het Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">om</a> licenties toe te wijzen. Inkopers kunnen licenties toewijzen aan producten die ze hebben gekocht via selfservice-aankoop en kunnen deze licenties alleen toewijzen aan gebruikers in dezelfde Azure AD-tenant.
+  - question: >
+      Waar ziet en beheert de selfservice-inkoper zijn aankopen?
+    answer: >
+      Selfservice-inkopers kunnen hun aankopen beheren in de beperkte weergave van <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het Microsoft 365 beheercentrum.</a> Inkopers kunnen altijd naar het  beheercentrum gaan via de tegel Beheerder in het start-programma voor apps dat is ingebouwd in alle Microsoft 365 en Dynamics online-apps. Inkopers kunnen de aankopen bekijken die ze hebben gedaan, extra abonnementen op dezelfde service kopen en licenties voor deze abonnementen toewijzen aan andere gebruikers in hun organisatie. Bovendien kunnen inkopers hun factuur bekijken en betalen, hun betalingswijze bijwerken en hun abonnement opzeggen.
+- name: Prijzen
+  questions:
+  - question: >
+      Wat zijn de prijzen voor selfserviceaankopen?
+    answer: >
+      Prijzen voor elk van de producten voor selfserviceaankoop zijn beschikbaar op de Microsoft-website. Prijzen worden ook weergegeven als onderdeel van de uitcheckervaring wanneer gebruikers een selfserviceaankoop doen. Deze prijzen kunnen afwijken van de prijzen die een organisatie betaalt bij het doen van centrale aankopen of prijzen die via een partner worden aangeboden.
+  - question: >
+      Wie is verantwoordelijk voor de betaling?
+    answer: >
+      De persoon die het abonnement koopt via selfservice-aankoop, is de persoon die wordt gefactureerd en die verantwoordelijk is voor de betaling op basis van de voorwaarden en prijzen van de aankoop.
+- name: Beheermogelijkheden
+  questions:
+  - question: >
+      Welke mogelijkheden heeft een beheerder voor selfserviceaankopen?
+    answer: >
+      Beheerders kunnen alle selfserviceaankopen in hun organisatie bekijken in <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het Microsoft 365 beheercentrum.</a> Ze kunnen het product, de naam van de inkoper, de gekochte abonnementen, de vervaldatum, de ordergeschiedenis, de aankoopprijs en de toegewezen gebruikers zien voor elke selfserviceaankoop. In het Power Platform-beheercentrum kunnen beheerders ook de capaciteit voor selfserviceaankopen bekijken. Indien vereist voor hun organisatie, kunnen beheerders selfservice-aankopen per product uitschakelen via PowerShell. Beheerders hebben hetzelfde gegevensbeheer- en toegangsbeleid voor producten die zijn gekocht via selfserviceaankoop of centraal.
+
+
+      Beheerders kunnen ook bepalen of gebruikers in hun organisatie selfserviceaankopen kunnen doen. Zie [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](allowselfservicepurchase-powershell.md)voor meer informatie.
+  - question: >
+      Hoe respecteert Microsoft gegevensbeheer en compliance door selfserviceaankoop in te stellen?
+    answer: >
+      Beheerders houden de controle over welke services en producten beschikbaar zijn in hun tenant op basis van hun vereisten voor gegevensbeheer en compliance. Alle beleidsregels voor gegevensbeheer en toegang die uw organisatie heeft ingeschakeld, zijn van toepassing op beschikbare selfservice aangeschafte services.
+  - question: >
+      Wie eigenaar van de productgegevens die zijn gemaakt van selfserviceaankopen?
+    answer: >
+      Gegevens die zijn gemaakt van producten die via selfservice worden gekocht, zijn eigendom van en worden beheerd door de organisatie.
+  - question: >
+      Hoe centraliseer ik de aankopen die worden gedaan via selfservice-aankopen?
+    answer: >
+      Beheerders kunnen bestaande licenties toewijzen of extra abonnementen kopen voor selfservice-aankoopproducten via bestaande overeenkomsten en prijzen voor gebruikers die zijn toegewezen aan selfserviceaankopen. Na het toewijzen van deze centraal aangeschafte licenties kunnen beheerders vervolgens vragen dat de inkopers hun bestaande abonnementen opzeggen.
+  - question: >
+      Waar ziet de beheerder selfserviceaankopen?
+    answer: >
+      Globale en factureringsbeheerders kunnen abonnementen zien die zijn gekocht via selfservice-aankoop in **Facturering**  >  **uw producten** in het Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum.</a> Ze kunnen de lijst met producten filteren om alleen de abonnementen weer te geven die zijn gekocht via centrale inkoop of om abonnementen op te nemen die zijn gekocht via selfserviceaankoop.
+
+
+      Beheerders kunnen het product, de naam van de koper, het gekochte abonnement, de vervaldatum, de ordergeschiedenis, de aankoopprijs en de toegewezen gebruikers zien.
+- name: Ondersteuning en training
+  questions:
+  - question: >
+      Worden it-afdelingen of partners van klanten verwacht dat ze producten ondersteunen die worden gekocht via selfserviceaankoop?
+    answer: >
+      It-afdelingen en -partners bieden naar verwachting geen ondersteuning voor producten die via selfservice worden gekocht. Microsoft biedt standaardondersteuning voor selfservice-inkopers.
+  - question: >
+      Als een selfservice-inkoper ondersteuning belt, worden dan de Premier Support-incidenten van de klant gebruikt?
+    answer: >
+      Selfservice-inkopers gebruiken de Premier Support-incidenten van een klant niet voor het ontvangen van ondersteuning voor hun selfserviceaankopen.
+  - question: >
+      Hoe wordt van gebruikers verwacht dat ze training krijgen over de producten die ze kopen via selfserviceaankoop?
+    answer: >
+      Uitgebreide training voor gebruikers wordt gegeven op de productwebsites. De producten hebben geleide leer-, documentatie-, steekproeven en sterke community's om rechtstreeks antwoorden en tips van andere gebruikers te krijgen.
+  - question: >
+      Wat gebeurt er met een selfserviceaankoop als een gebruiker de organisatie verlaat?
+    answer: >
+      Als de persoon die het selfservice-aankoopproduct oorspronkelijk heeft gekocht, de organisatie verlaat, blijven geldige gebruikers het product volledig gebruiken gedurende de duur van het abonnement. Het abonnement blijft actief totdat de koper het rechtstreeks annuleert of een beheerder annulering van het abonnement aanvraagt via klantondersteuning. Beheerders kunnen er ook voor kiezen om een centraal aangeschafte licentie toe te wijzen aan gebruikers van het geannuleerde abonnement.
+- name: Partners
+  questions:
+  - question: >
+      Wat is de rol van microsofts partners bij selfserviceaankopen?
+    answer: Partners die gedelegeerde beheerbevoegdheden hebben, kunnen selfserviceaankopen zien in het Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum,</a>net als een beheerder. Partners kunnen helpen bij het ondersteunen van een organisatie die producten die via selfservice-aankopen worden gekocht, wil centraliseren. Daarnaast kunnen partners oplossingen bieden om de mogelijkheden van een selfserviceaankoop uit te breiden.

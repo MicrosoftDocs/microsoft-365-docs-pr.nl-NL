@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ec5cfa78852d65db808c4e853f90f5639df25d6f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: c9b97c2157ba8090628af23b2ab54cf38f04d8c6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300148"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538385"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender voor Endpoint Device Control Verwisselbare Storage beveiliging
 
@@ -29,22 +29,80 @@ ms.locfileid: "52300148"
 
 Microsoft Defender voor Endpoint Device Control Verwisselbare Storage beveiliging voorkomt dat gebruiker of computer of beide niet-geautoriseerde verwisselbare opslagmedia gebruiken.
 
-**Microsoft Defender for Endpoint Removable Storage Protection**
+## <a name="protection-policies"></a>Beveiligingsbeleid
 
+### <a name="device-installation"></a>Apparaatinstallatie
 
-|Beleid  |Mogelijkheid |Beschrijving  |
-|---------|---------|---------|
-|Apparaatinstallatie    |  Installatie voorkomen met of zonder uitsluiting - Specifieke apparaten toestaan op basis van verschillende eigenschappen; Zie de sectie [Apparaateigenschappen](#device-properties) hieronder voor meer informatie.        |    Werkt op de computer: Verschillende gebruikers die zich aanmelden bij dezelfde computer, worden beperkt door hetzelfde beleid. Zie Usb-apparaten en andere [verwisselbare media beheren](control-usb-devices-using-intune.md)met Microsoft Defender voor Eindpunt voor meer informatie.     |
-|Verwisselbare opslagToegangsbesturingselement      | (1) Controleer lees- of schrijf- of uitvoertoegang tot verwisselbare opslag op basis van verschillende apparaateigenschappen, met of zonder uitzondering. Zie de sectie Apparaateigenschappen hieronder [voor](#device-properties) meer informatie. (2) Lees- of schrijf- of uitvoertoegang voorkomen met of zonder uitsluiting - Specifieke apparaten toestaan op basis van verschillende apparaateigenschappen; Zie de sectie Apparaateigenschappen hieronder [](#device-properties) voor meer informatie over de apparaateigenschappen.     |     Werkt op een computer of gebruiker of beide: Sta alleen specifieke personen toe die lees-/schrijf-/uitvoertoegang tot specifieke verwisselbare opslag op een specifieke computer uitvoeren; voor functie in Windows, zie [Verwisselbare opslagToegangsbesturingselement](device-control-removable-storage-access-control.md); zie Apparaatbesturingselement [voor macOS](mac-device-control-overview.md)voor functie in Mac.     |
-|Verwisselbare opslag van eindpunt DLP      |    Controleer of waarschuw of voorkom dat een gebruiker een item of informatie kopieert naar verwisselbare media of USB-apparaten.     |  Zie [Microsoft Endpoint DLP](/compliance/endpoint-dlp-learn-about.md)voor meer informatie.       |
-|BitLocker    |     Gegevens blokkeren die moeten worden geschreven naar verwisselbare stations die niet BitLocker beveiligd: Toegang tot verwisselbare stations blokkeren, tenzij ze zijn versleuteld op een computer die eigendom is van uw organisatie.    |   Zie voor meer informatie BitLocker - [Verwisselbaar station Instellingen.](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings#bitlocker---removable-drive-settings.md)      |
+**Mogelijkheden:** voorkom installatie met of zonder uitsluiting op basis van verschillende apparaateigenschappen.
+
+**Beschrijving**
+- Toegepast op machineniveau: hetzelfde beleid geldt voor aangemelde gebruikers.
+- Ondersteunt MEM en GPO.
+- Ondersteunde '[Apparaateigenschappen'](#device-properties)zoals vermeld.
+- Zie Usb-apparaten en andere verwisselbare media beheren met Microsoft Defender voor eindpunt voor meer informatie over [Windows.](control-usb-devices-using-intune.md)
+
+**Ondersteund platform** - Windows 10
+
+**Beschrijving**
+- Toegepast op machineniveau: hetzelfde beleid geldt voor aangemelde gebruikers
+- Zie Apparaatbesturingselement voor macOS voor specifieke informatie [over macOS.](mac-device-control-overview.md)
+ 
+**Ondersteund platform** - macOS Catalina 10.15.4+ (met systeemextensies ingeschakeld)
+
+### <a name="removable-storage-access-control"></a>Verwisselbare opslagToegangsbesturingselement
+
+**Mogelijkheden**
+- *Controle* Lees of Schrijf of Voer toegang tot verwisselbare opslag uit op basis van verschillende apparaateigenschappen, met of zonder uitsluiting.
+- *Voorkomen* Lees- of schrijf- of uitvoertoegang met of zonder uitsluiting - Specifiek apparaat toestaan op basis van verschillende apparaateigenschappen.
+
+**Beschrijving**
+- Toegepast op een computer of gebruiker of beide: sta alleen specifieke personen toe die lees-/schrijf-/uitvoertoegang tot specifieke verwisselbare opslag op een bepaalde computer uitvoeren.
+- Ondersteuning voor MEM OMA-URI en GPO.
+- Ondersteunde '[Apparaateigenschappen'](#device-properties)zoals vermeld.
+- Zie Verwisselbare Windows Access Control voor [verwisselbare opslag voor functies](device-control-removable-storage-access-control.md)in de Windows.
+
+**Ondersteund platform** - Windows 10
+
+**Beschrijving**
+- Toegepast op machineniveau: hetzelfde beleid geldt voor aangemelde gebruikers.
+- Zie Apparaatbesturingselement voor macOS voor specifieke informatie [over macOS.](mac-device-control-overview.md)
+ 
+**Ondersteund platform** - macOS Catalina 10.15.4+ (met systeemextensies ingeschakeld)
+
+### <a name="windows-portable-device-access-control"></a>Windows Portable Device Access Control
+
+**Mogelijkheden:** toegang tot lezen of schrijven weigeren tot een Windows draagbaar [apparaat,](/windows-hardware/drivers/portable/)bijvoorbeeld: Tablet, iPhone.
+
+**Beschrijving**
+- Toegepast op een computer of gebruiker of beide.
+- Ondersteuning voor MEM OMA-URI en GPO.
+
+**Ondersteund platform** - Windows 10
+
+### <a name="endpoint-dlp-removable-storage"></a>Verwisselbare opslag van eindpunt DLP
+
+**Mogelijkheden:** controleer of waarschuw of voorkom dat een gebruiker een item of informatie kopieert naar verwisselbare media of USB-apparaat.
+
+**Beschrijving** - Zie Meer informatie over het voorkomen Microsoft 365 endpoint voor meer Windows informatie over het voorkomen van [gegevensverlies.](../../compliance/endpoint-dlp-learn-about.md)
+
+**Ondersteund platform** - Windows 10
+
+### <a name="bitlocker"></a>BitLocker 
+
+**Mogelijkheden**
+- Blokkeer gegevens die moeten worden geschreven naar verwisselbare stations die niet BitLocker beveiligd.
+- Toegang tot verwisselbare stations blokkeren, tenzij ze zijn versleuteld op een computer die eigendom is van uw organisatie
+ 
+**Beschrijving** - Zie Windows - Verwisselbaar station BitLocker voor [meer Instellingen.](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings)
+
+**Ondersteund platform** - Windows 10
 
 ## <a name="device-properties"></a>Apparaateigenschappen
 
 Met Microsoft Defender for Endpoint Device Control Verwisselbare Storage Protection kunt u de verwisselbare opslagtoegang beperken op basis van de eigenschappen die in de onderstaande tabel worden beschreven:
 
 
-|Eigenschapsnaam  |Toepasselijke beleidsregels  |Van toepassing op besturingssystemen  |Beschrijving  |
+|Eigenschapsnaam  |Toepasselijke beleidsregels  |Van toepassing op besturingssystemen  |Omschrijving  |
 |---------|---------|---------|---------|
 |Apparaatklasse    |     [USB-apparaten en andere verwisselbare media beheren met Microsoft Defender voor Eindpunt](control-usb-devices-using-intune.md)     |   Windows      |  Zie apparaatconfiguratieklasse voor informatie over [apparaat-id-indelingen.](/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors) **Opmerking:** Apparaatinstallatie kan worden toegepast op alle apparaten, niet alleen op verwisselbare opslag.       |
 |Primaire id   |     Verwisselbare opslagToegangsbesturingselement    |   Windows      |      De primaire id bevat verwisselbare opslag en cd/dvd.   |
@@ -58,3 +116,4 @@ Met Microsoft Defender for Endpoint Device Control Verwisselbare Storage Protect
 ## <a name="related-topic"></a>Verwant onderwerp
 
 - [Microsoft Defender voor Endpoint Device Control Verwisselbare Storage Access Control](device-control-removable-storage-access-control.md)
+

@@ -14,13 +14,14 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 1efa72d5b8d204b6aec1cef05fe3c8afe1ca82f7
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 05/06/2021
+ms.topic: how-to
+ms.openlocfilehash: 1942531b77df1c2bd9408815d3ad54b4b7211e8b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275300"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538397"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Microsoft Defender Antivirus-scanopties configureren
 
@@ -33,7 +34,7 @@ ms.locfileid: "52275300"
 
 ## <a name="use-microsoft-intune-to-configure-scanning-options"></a>Scanopties Microsoft Intune gebruiken om scanopties te configureren
 
-Zie [Instellingen voor apparaatbeperkingen configureren in Microsoft Intune](/intune/device-restrictions-configure) en Microsoft Defender Antivirus instellingen voor apparaatbeperkingen voor Windows 10 in [Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus) voor meer informatie.
+Zie [Instellingen voor apparaatbeperkingen configureren in Microsoft Intune](/intune/device-restrictions-configure) en [Microsoft Defender Antivirus-apparaatbeperkingsinstellingen voor Windows 10 in Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus) voor meer informatie.
 
 ## <a name="use-microsoft-endpoint-manager-to-configure-scanning-options"></a>Gebruik Microsoft Endpoint Manager om scanopties te configureren
 
@@ -51,19 +52,19 @@ De instellingen voor groepsbeleid configureren die in de volgende tabel worden b
 
 4. Dubbelklik op de **beleidsinstelling** zoals aangegeven in de onderstaande tabel en stel de optie in op de gewenste configuratie. Klik **op OK** en herhaal dit voor andere instellingen.
 
-Omschrijving | Locatie en instelling | Standaardinstelling (indien niet geconfigureerd) | `Set-MpPreference`PowerShell-parameter of WMI-eigenschap voor `MSFT_MpPreference` klas
----|---|---|---
-E-mail scannen Zie [Beperkingen voor het scannen van e-mail](#ref1)| Scannen > e-mail scannen in- | Uitgeschakeld | `-DisableEmailScanning`
-[Reparse-punten scannen](/windows/win32/fileio/reparse-points) | Scannen > Het scannen van reparse-punten in- | Uitgeschakeld | Niet beschikbaar
-Netwerkstations scannen | Scannen > Volledige scan uitvoeren op netwerkstations met kaart | Uitgeschakeld | `-DisableScanningMappedNetworkDrivesForFullScan`
- Archiefbestanden scannen (zoals .zip of .rar bestanden). De [uitsluitingslijst voor extensies](configure-extension-file-exclusions-microsoft-defender-antivirus.md) heeft voorrang op deze instelling. | Archiefbestanden > scannen | Ingeschakeld | `-DisableArchiveScanning`
-Bestanden in het netwerk scannen | Netwerkbestanden > scannen | Uitgeschakeld | `-DisableScanningNetworkFiles`
-Scanpakket uitvoerbare bestanden | Scan > scanpakket uitvoerbare bestanden | Ingeschakeld | Niet beschikbaar
-Verwisselbare stations alleen scannen tijdens volledige scans | Scan > Verwisselbare stations scannen | Uitgeschakeld | `-DisableRemovableDriveScanning`
-Het niveau opgeven van submappen in een archiefmap om te scannen | Scannen > De maximale diepte opgeven voor het scannen van archiefbestanden | 0 | Niet beschikbaar
- Geef de maximale CPU-belasting (als percentage) op tijdens een scan. Opmerking: Dit is geen harde limiet, maar een richtlijn voor de scan-engine om dit maximum gemiddeld niet te overschrijden. | Scan > Het maximale percentage cpu-gebruik opgeven tijdens een scan | 50 |  `-ScanAvgCPULoadFactor`
- Geef de maximale grootte (in kilobytes) op van archiefbestanden die moeten worden gescand. De **standaardwaarde, 0,** geldt geen limiet | Scannen > De maximale grootte opgeven van archiefbestanden die moeten worden gescand | Geen limiet | Niet beschikbaar
- Lage CPU-prioriteit configureren voor geplande scans | Scan > Lage CPU-prioriteit configureren voor geplande scans | Uitgeschakeld | Niet beschikbaar
+| Omschrijving | Locatie en instelling | Standaardinstelling (indien niet geconfigureerd) | `Set-MpPreference`PowerShell-parameter of WMI-eigenschap voor `MSFT_MpPreference` klas |
+|---|---|---|---|
+| E-mail scannen Zie [Beperkingen voor het scannen van e-mail](#ref1)| Scannen > e-mail scannen in- | Uitgeschakeld | `-DisableEmailScanning` |
+|[Reparse-punten scannen](/windows/win32/fileio/reparse-points) | Scannen > Het scannen van reparse-punten in- | Uitgeschakeld | Niet beschikbaar |
+| Netwerkstations scannen | Scannen > Volledige scan uitvoeren op netwerkstations met kaart | Uitgeschakeld | `-DisableScanningMappedNetworkDrivesForFullScan`|
+ Archiefbestanden scannen (zoals .zip of .rar bestanden). De [uitsluitingslijst voor extensies](configure-extension-file-exclusions-microsoft-defender-antivirus.md) heeft voorrang op deze instelling. | Archiefbestanden > scannen | Ingeschakeld | `-DisableArchiveScanning` |
+| Bestanden in het netwerk scannen | Netwerkbestanden > scannen | Uitgeschakeld | `-DisableScanningNetworkFiles` |
+| Scanpakket uitvoerbare bestanden | Scan > scanpakket uitvoerbare bestanden | Ingeschakeld | Niet beschikbaar |
+| Verwisselbare stations alleen scannen tijdens volledige scans | Scan > Verwisselbare stations scannen | Uitgeschakeld | `-DisableRemovableDriveScanning` |
+| Het niveau opgeven van submappen in een archiefmap om te scannen | Scannen > De maximale diepte opgeven voor het scannen van archiefbestanden | 0 | Niet beschikbaar |
+| Geef de maximale CPU-belasting (als percentage) op tijdens een scan. Opmerking: Dit is geen harde limiet, maar een richtlijn voor de scan-engine om dit maximum gemiddeld niet te overschrijden. Handmatig scans uitvoeren negeert deze instelling en wordt uitgevoerd zonder CPU-limieten. | Scan > Het maximale percentage cpu-gebruik opgeven tijdens een scan | 50 |  `-ScanAvgCPULoadFactor` |
+| Geef de maximale grootte (in kilobytes) op van archiefbestanden die moeten worden gescand. De **standaardwaarde, 0,** geldt geen limiet | Scannen > De maximale grootte opgeven van archiefbestanden die moeten worden gescand | Geen limiet | Niet beschikbaar |
+| Lage CPU-prioriteit configureren voor geplande scans | Scan > Lage CPU-prioriteit configureren voor geplande scans | Uitgeschakeld | Niet beschikbaar |
  
 > [!NOTE]
 > Als realtimebeveiliging is ingeschakeld, worden bestanden gescand voordat ze worden toegankelijk en uitgevoerd. Het scanbereik bevat alle bestanden, inclusief bestanden op opgeslagen verwisselbare media, zoals USB-stations. Als het apparaat dat de scan voert realtimebeveiliging of on-access-beveiliging heeft ingeschakeld, bevat de scan ook netwerkaandelen.

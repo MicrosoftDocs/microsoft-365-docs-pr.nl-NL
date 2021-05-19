@@ -88,55 +88,55 @@
           items:
             - name: Overzicht
               href: incidents-overview.md
-            - name: Prioriteit geven aan incidenten
+            - name: Prioriteiten stellen
               href: incident-queue.md
-            - name: Incidenten beheren
+            - name: Beheren
               href: manage-incidents.md
-            - name: Incidentreactie
+            - name: Onderzoeken
               items:
-                - name: Incidenten onderzoeken
+                - name: Overzicht
                   href: investigate-incidents.md
-                - name: Waarschuwingen onderzoeken
+                - name: Waarschuwingen
                   href: investigate-alerts.md
-                - name: Gebruikers onderzoeken
+                - name: Gebruikers
                   href: investigate-users.md
-                - name: Playbooks voor incidentreacties
-                  href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
-                - name: Reageren op uw eerste incident
+            - name: Reageren op uw eerste incident
+              items:
+                - name: Inleiding
+                  href: first-incident-overview.md
+                - name: Voorbereiden
+                  href: first-incident-prepare.md
+                - name: Stap 1. Triage en analyseren
+                  href: first-incident-analyze.md
+                - name: Stap 2. Herstel
+                  href: first-incident-remediate.md
+                - name: Stap 3. Beoordelen
+                  href: first-incident-post.md
+                - name: Aanvullende voorbeelden van incidenten
                   items:
-                    - name: Inleiding
-                      href: first-incident-overview.md
-                    - name: Voorbereiden
-                      href: first-incident-prepare.md
-                    - name: Stap 1. Triage en analyseren
-                      href: first-incident-analyze.md
-                    - name: Stap 2. Herstel
-                      href: first-incident-remediate.md
-                    - name: Stap 3. Beoordelen
-                      href: first-incident-post.md
-                    - name: Aanvullende voorbeelden van incidenten
-                      items:
-                        - name: Phishing-e-mail
-                          href: first-incident-path-phishing.md
-                        - name: Identiteit
-                          href: first-incident-path-identity.md
-            - name: E-mailmeldingen krijgen
+                    - name: Phishing-e-mail
+                      href: first-incident-path-phishing.md
+                    - name: Identiteit
+                      href: first-incident-path-identity.md
+            - name: Playbooks voor incidentreacties
+              href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
+            - name: E-mailmeldingen
               href: get-incident-notifications.md
         - name: Geautomatiseerd onderzoek en reactie
           items:
-            - name: Overzicht van geautomatiseerd onderzoek en reactie
+            - name: Overzicht
               href: m365d-autoir.md
-            - name: Functies voor geautomatiseerd onderzoek en reactie configureren
+            - name: Mogelijkheden configureren
               href: m365d-configure-auto-investigation-response.md
             - name: Herstelacties
               href: m365d-remediation-actions.md
-            - name: Naar het Actiecentrum
+            - name: Het actiecentrum gebruiken
               href: m365d-action-center.md
             - name: Herstelacties weergeven en beheren
               href: m365d-autoir-actions.md
-            - name: Gegevens en resultaten van een geautomatiseerd onderzoek weergeven
+            - name: Details en resultaten weergeven
               href: m365d-autoir-results.md
-            - name: Fout-positieven/negatieven adresseert
+            - name: Onwaar positieven en negatieven adresseert
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Geavanceerd opsporen
           items:

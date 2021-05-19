@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 464a99ca67da72633879840263fe64ad8311fd4c
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: 948f4515b37f27695e1e66730134aa19114ca1cf
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952570"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538997"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -36,7 +36,7 @@ De moderne beveiligingsperimeter van uw organisatie gaat nu verder dan uw netwer
 
 Deze bepaling moet zijn gebaseerd op het gebruikersaccount van de aanmelding, het apparaat dat wordt gebruikt, de app die de gebruiker gebruikt voor toegang, de locatie waaruit de toegangsaanvraag wordt gedaan en een beoordeling van het risico van de aanvraag. Op deze manier zorgt u ervoor dat alleen goedgekeurde gebruikers en apparaten toegang hebben tot uw belangrijke bronnen.
 
-Deze reeks artikelen beschrijft een set vereistenconfiguraties voor identiteits- en apparaattoegang en een set Azure Active Directory (Azure AD) Voorwaardelijke toegang, Microsoft Intune en andere beleidsregels voor het beveiligen van toegang tot Microsoft 365 voor zakelijke cloud-apps en -services, andere SaaS-services en on-premises toepassingen die zijn gepubliceerd met Azure AD Application Proxy.
+Deze reeks artikelen beschrijft een set vereistenconfiguraties voor identiteits- en apparaattoegang en een set Azure Active Directory (Azure AD) Voorwaardelijke toegang, Microsoft Intune en ander beleid voor het beveiligen van toegang tot Microsoft 365 voor zakelijke cloud-apps en -services, andere SaaS-services en on-premises toepassingen die zijn gepubliceerd met Azure AD Application Proxy.
 
 Identiteits- en apparaattoegangsinstellingen en -beleid worden aanbevolen in drie lagen: basislijnbeveiliging, gevoelige beveiliging en beveiliging voor omgevingen met sterk gereguleerde of geclassificeerde gegevens. Deze lagen en de bijbehorende configuraties bieden een consistent beveiligingsniveau van uw gegevens, identiteiten en apparaten.
 
@@ -48,26 +48,26 @@ Deze mogelijkheden en hun aanbevelingen:
 
 Als uw organisatie unieke omgevingsvereisten of complexiteiten heeft, gebruikt u deze aanbevelingen als uitgangspunt. De meeste organisaties kunnen deze aanbevelingen echter implementeren zoals voorgeschreven.
 
-Bekijk deze video voor een kort overzicht van identiteits- en apparaattoegangsconfiguraties voor Microsoft 365 voor bedrijven.
+Bekijk deze video voor een kort overzicht van configuraties voor identiteits- en apparaattoegang voor Microsoft 365 voor bedrijven.
 
 <br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxEDQ]
 
 > [!NOTE]
-> Microsoft verkoopt ook EMS-licenties (Enterprise Mobility+ Security) voor Office 365-abonnementen. EMS E3- en EMS E5-mogelijkheden zijn gelijk aan die in Microsoft 365 E3 en Microsoft 365 E5. Zie [EMS-abonnementen](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) voor de details.
+> Microsoft verkoopt ook Enterprise Mobility + Security (EMS)-licenties voor Office 365 abonnementen. EMS E3- en EMS E5-mogelijkheden zijn gelijk aan die in Microsoft 365 E3 en Microsoft 365 E5. Zie [EMS-abonnementen](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) voor de details.
 
 ## <a name="intended-audience"></a>Beoogde doelgroep
 
-Deze aanbevelingen zijn bedoeld voor ondernemingsarchitecten en IT-professionals die bekend zijn met microsoft 365 cloudproductiviteits- en beveiligingsservices, waaronder Azure AD (identiteit), Microsoft Intune (apparaatbeheer) en Microsoft Information Protection (gegevensbescherming).
+Deze aanbevelingen zijn bedoeld voor ondernemingsarchitecten en IT-professionals die bekend zijn met Microsoft 365 cloudproductiviteits- en beveiligingsservices, waaronder Azure AD (identiteit), Microsoft Intune (apparaatbeheer) en Microsoft Information Protection (gegevensbescherming).
 
 ### <a name="customer-environment"></a>Klantomgeving
 
 Het aanbevolen beleid is van toepassing op ondernemingsorganisaties die zowel volledig in de Microsoft-cloud als voor klanten met een hybride identiteitsinfrastructuur werken. Dit is een on-premises AD DS-forest (Active Directory Domain Services) dat wordt gesynchroniseerd met een Azure AD-tenant.
 
-Veel van de geleverde aanbevelingen zijn afhankelijk van services die alleen beschikbaar zijn met Microsoft 365 E5, Microsoft 365 E3 met de E5-beveiligingsinvoeging, EMS E5- of Azure AD Premium P2-licenties.
+Veel van de geleverde aanbevelingen zijn afhankelijk van services die alleen beschikbaar zijn met Microsoft 365 E5, Microsoft 365 E3 met de E5-beveiligingsinvoeging, EMS E5- of Azure AD-Premium P2-licenties.
 
-Voor organisaties die deze licenties niet hebben, raadt Microsoft u aan op zijn minst beveiligingsinstellingen te implementeren [,](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)die zijn opgenomen in alle Microsoft 365-abonnementen.
+Voor organisaties die deze licenties niet hebben, raadt Microsoft u aan op zijn minst beveiligingsinstellingen te implementeren [,](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)die zijn opgenomen in alle Microsoft 365 abonnementen.
 
 ### <a name="caveats"></a>Voorbehouden
 
@@ -82,7 +82,7 @@ De meeste organisaties hebben specifieke vereisten met betrekking tot beveiligin
 Elke branche heeft ook een eigen set gespecialiseerde voorschriften. In plaats van een lijst met alle mogelijke beveiligingsopties of een aanbeveling per bedrijfstaksegment of functie, zijn er aanbevelingen gedaan voor drie verschillende beveiligings- en beveiligingslagen die kunnen worden toegepast op basis van de granulariteit van uw behoeften.
 
 - **Basislijnbeveiliging:** U wordt aangeraden een minimumstandaard vast te stellen voor het beveiligen van gegevens, evenals de identiteiten en apparaten die toegang hebben tot uw gegevens. U kunt deze basislijnaanbevelingen volgen om een sterke standaardbeveiliging te bieden die voldoet aan de behoeften van veel organisaties.
-- **Gevoelige beveiliging:** Sommige klanten hebben een subset met gegevens die op een hoger niveau moeten worden beveiligd, of ze vereisen mogelijk dat alle gegevens op een hoger niveau worden beveiligd. U kunt meer beveiliging toepassen op alle of specifieke gegevenssets in uw Microsoft 365-omgeving. We raden u aan identiteiten en apparaten te beveiligen die toegang hebben tot gevoelige gegevens met vergelijkbare beveiligingsniveaus.
+- **Gevoelige beveiliging:** Sommige klanten hebben een subset met gegevens die op een hoger niveau moeten worden beveiligd, of ze vereisen mogelijk dat alle gegevens op een hoger niveau worden beveiligd. U kunt meer beveiliging toepassen op alle of specifieke gegevenssets in uw Microsoft 365 omgeving. We raden u aan identiteiten en apparaten te beveiligen die toegang hebben tot gevoelige gegevens met vergelijkbare beveiligingsniveaus.
 - **Sterk geregeld:** Sommige organisaties hebben mogelijk een kleine hoeveelheid gegevens die sterk is geclassificeerd, bedrijfsgeheimen vormen of die zijn geregeld. Microsoft biedt mogelijkheden om organisaties te helpen aan deze vereisten te voldoen, waaronder extra beveiliging voor identiteiten en apparaten.
 
 ![Beveiligingskegel : alle klanten > sommige klanten > specifieke klanten. Brede toepassing voor specifieke toepassing](../../media/microsoft-365-policies-configurations/M365-idquality-threetiers.png)
@@ -91,11 +91,11 @@ In deze richtlijnen ziet u hoe u beveiliging voor identiteiten en apparaten impl
 
 Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. Als u deze richtlijnen bijvoorbeeld implementeert, moet u uw gegevens op vergelijkbare niveaus beveiligen.
 
-De **identiteits- en apparaatbeveiliging voor het Architectuurmodel van Microsoft 365** laat zien welke mogelijkheden vergelijkbaar zijn.
+De **identiteits- en apparaatbeveiliging voor Microsoft 365** architectuurmodel laat zien welke mogelijkheden vergelijkbaar zijn.
 
-[![Duimafbeelding voor identiteits- en apparaatbeveiliging voor Microsoft 365-poster](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [Weergeven als pdf-bestand](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
+[![Duimafbeelding voor identiteits- en apparaatbeveiliging voor Microsoft 365 poster](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [Weergeven als pdf-bestand](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
 
-Zie ook de oplossing [Voor gegevensbescherming implementeren](../../solutions/information-protection-deploy.md) voor privacyregels voor gegevens om gegevens te beveiligen die zijn opgeslagen in Microsoft 365.
+Zie ook de oplossing Voor [gegevensbescherming implementeren](../../solutions/information-protection-deploy.md) voor privacyregels voor gegevens om gegevens te beveiligen die zijn opgeslagen in Microsoft 365.
 
 ## <a name="security-and-productivity-trade-offs"></a>Beveiligings- en productiviteitsruilen
 
@@ -110,9 +110,9 @@ De aanbevelingen zijn gebaseerd op de volgende principes:
 
 ## <a name="services-and-concepts-for-identity-and-device-access-protection"></a>Services en concepten voor identiteits- en apparaattoegangsbeveiliging
 
-Microsoft 365 voor bedrijven is ontworpen voor grote organisaties om iedereen in staat te stellen creatief te zijn en veilig samen te werken.
+Microsoft 365 voor ondernemingen is ontworpen voor grote organisaties om iedereen in staat te stellen creatief te zijn en veilig samen te werken.
 
-In deze sectie vindt u een overzicht van de Microsoft 365-services en -mogelijkheden die belangrijk zijn voor identiteits- en apparaattoegang.
+In deze sectie vindt u een overzicht van Microsoft 365 services en mogelijkheden die belangrijk zijn voor identiteits- en apparaattoegang.
 
 ### <a name="azure-ad"></a>Azure AD
 
@@ -120,12 +120,12 @@ Azure AD biedt een volledige suite met mogelijkheden voor identiteitsbeheer. We 
 
 |Functie|Beschrijving|Licenties|
 |---|---|---|
-|[Meervoudige verificatie (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks)|Voor MFA moeten gebruikers twee verificatieformulieren opgeven, zoals een gebruikerswachtwoord plus een melding van de Microsoft Authenticator-app of een telefoongesprek. MFA verkleint het risico dat gestolen referenties kunnen worden gebruikt om toegang te krijgen tot uw omgeving. Microsoft 365 gebruikt de Azure AD Multi-Factor Authentication-service voor MFA-aanmeldingen.|Microsoft 365 E3 of E5|
+|[Meervoudige verificatie (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks)|Voor MFA moeten gebruikers twee verificatieformulieren opgeven, zoals een gebruikerswachtwoord plus een melding van de Microsoft Authenticator app of een telefoongesprek. MFA verkleint het risico dat gestolen referenties kunnen worden gebruikt om toegang te krijgen tot uw omgeving. Microsoft 365 gebruikt de Azure AD Multi-Factor Authentication-service voor MFA-aanmeldingen.|Microsoft 365 E3 of E5|
 |[Voorwaardelijke toegang](/azure/active-directory/conditional-access/overview)|Azure AD evalueert de voorwaarden van de aanmelding van de gebruiker en gebruikt beleid voor voorwaardelijke toegang om de toegestane toegang te bepalen. In deze richtlijnen ziet u bijvoorbeeld hoe u een beleid voor voorwaardelijke toegang kunt maken om apparaat compliance te vereisen voor toegang tot gevoelige gegevens. Hierdoor wordt het risico aanzienlijk verkleind dat een hacker met een eigen apparaat en gestolen referenties toegang heeft tot uw gevoelige gegevens. Het beschermt ook gevoelige gegevens op de apparaten, omdat de apparaten moeten voldoen aan specifieke vereisten voor gezondheid en beveiliging.|Microsoft 365 E3 of E5|
 |[Azure AD-groepen](/azure/active-directory/fundamentals/active-directory-manage-groups)|Beleid voor voorwaardelijke toegang, apparaatbeheer met Intune en zelfs machtigingen voor bestanden en sites in uw organisatie zijn afhankelijk van de toewijzing aan gebruikersaccounts of Azure AD-groepen. U wordt aangeraden Azure AD-groepen te maken die overeenkomen met de beveiligingsniveaus die u implementeert. Uw leidinggevenden zijn bijvoorbeeld waarschijnlijk hogere doelen voor hackers. Daarom is het zinvol om de gebruikersaccounts van deze werknemers toe te voegen aan een Azure AD-groep en deze groep toe te wijzen aan beleidsregels voor voorwaardelijke toegang en andere beleidsregels die een hoger beschermingsniveau voor toegang afdwingen.|Microsoft 365 E3 of E5|
-|[Apparaatinschrijving](/azure/active-directory/devices/overview)|U meldt een apparaat aan bij Azure AD om een identiteit voor het apparaat te maken. Deze identiteit wordt gebruikt om het apparaat te verifiëren wanneer een gebruiker zich aan meldt en om beleid voor voorwaardelijke toegang toe te passen waarvoor domeingevoegde of compatibele pc's zijn vereist. Voor deze richtlijnen gebruiken we apparaatinschrijving om automatisch domeingevoegde Windows-computers in te schrijven. Apparaatinschrijving is een vereiste voor het beheren van apparaten met Intune.|Microsoft 365 E3 of E5|
-|[Azure AD Identity Protection](/azure/active-directory/identity-protection/overview)|Hiermee kunt u mogelijke beveiligingslekken opsporen die van invloed zijn op de identiteiten van uw organisatie en het geautomatiseerde herstelbeleid configureren op laag, gemiddeld en hoog aanmeldingsrisico en gebruikersrisico. Deze richtlijnen zijn gebaseerd op deze risicoanalyse om beleidsregels voor voorwaardelijke toegang toe te passen voor meervoudige verificatie. Deze richtlijn bevat ook een beleid voor Voorwaardelijke toegang, dat vereist dat gebruikers hun wachtwoord wijzigen als er activiteit met een hoog risico wordt gedetecteerd voor hun account.|Microsoft 365 E5, Microsoft 365 E3 met de E5-beveiligingsinvoeg-, EMS E5- of Azure AD Premium P2-licenties|
-|[Self-service voor wachtwoordherstel (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)|Sta uw gebruikers toe hun wachtwoorden veilig en zonder tussenkomst van de helpdesk opnieuw in te stellen door verificatie te bieden van meerdere verificatiemethoden die de beheerder kan beheren.|Microsoft 365 E3 of E5|
+|[Apparaatinschrijving](/azure/active-directory/devices/overview)|U meldt een apparaat aan bij Azure AD om een identiteit voor het apparaat te maken. Deze identiteit wordt gebruikt om het apparaat te verifiëren wanneer een gebruiker zich aan meldt en om beleid voor voorwaardelijke toegang toe te passen waarvoor domeingevoegde of compatibele pc's zijn vereist. Voor deze richtlijnen gebruiken we apparaatinschrijving om automatisch domeingevoegde Windows registreren. Apparaatinschrijving is een vereiste voor het beheren van apparaten met Intune.|Microsoft 365 E3 of E5|
+|[Azure AD Identity Protection](/azure/active-directory/identity-protection/overview)|Hiermee kunt u mogelijke beveiligingslekken opsporen die van invloed zijn op de identiteiten van uw organisatie en het geautomatiseerde herstelbeleid configureren op laag, gemiddeld en hoog aanmeldingsrisico en gebruikersrisico. Deze richtlijnen zijn gebaseerd op deze risicoanalyse om beleidsregels voor voorwaardelijke toegang toe te passen voor meervoudige verificatie. Deze richtlijn bevat ook een beleid voor Voorwaardelijke toegang, dat vereist dat gebruikers hun wachtwoord wijzigen als er activiteit met een hoog risico wordt gedetecteerd voor hun account.|Microsoft 365 E5, Microsoft 365 E3 met de E5 Security-invoeg-, EMS E5- of Azure AD-Premium P2-licenties|
+|[Selfservice password reset (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)|Sta uw gebruikers toe hun wachtwoorden veilig en zonder tussenkomst van de helpdesk opnieuw in te stellen door verificatie te bieden van meerdere verificatiemethoden die de beheerder kan beheren.|Microsoft 365 E3 of E5|
 |[Azure AD-wachtwoordbeveiliging](/azure/active-directory/authentication/concept-password-ban-bad)|Detecteer en blokkeer bekende zwakke wachtwoorden en hun varianten en aanvullende zwakke termen die specifiek zijn voor uw organisatie. Standaardlijsten met verboden wachtwoorden worden automatisch toegepast op alle gebruikers in een Azure AD-tenant. U kunt aanvullende vermeldingen definiëren in een aangepaste lijst met geblokkeerde wachtwoorden. Als gebruikers hun wachtwoord wijzigen of opnieuw instellen, worden deze verboden wachtwoordlijsten ingeschakeld om het gebruik van sterke wachtwoorden af te dwingen.|Microsoft 365 E3 of E5|
 |
 
@@ -135,7 +135,7 @@ Hier volgen de onderdelen van identiteits- en apparaattoegang, waaronder Intune-
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 
-[Intune](/intune/introduction-intune) is de cloudservice voor mobiel apparaatbeheer van Microsoft. Deze richtlijnen raden apparaatbeheer van Windows-pc's met Intune aan en raadt configuraties voor apparaat compliancebeleid aan. Intune bepaalt of apparaten compatibel zijn en verzendt deze gegevens naar Azure AD voor gebruik bij het toepassen van beleidsregels voor Voorwaardelijke toegang.
+[Intune](/intune/introduction-intune) is de cloudservice voor mobiel apparaatbeheer van Microsoft. Deze richtlijnen adviseren apparaatbeheer van Windows pc's met Intune en raadt configuraties voor apparaat compliancebeleid aan. Intune bepaalt of apparaten compatibel zijn en verzendt deze gegevens naar Azure AD voor gebruik bij het toepassen van beleidsregels voor Voorwaardelijke toegang.
 
 #### <a name="intune-app-protection"></a>Intune-appbeveiliging
 
@@ -157,7 +157,7 @@ In deze richtlijnen ziet u hoe u een set beleidsregels implementeert om de toega
 
 ### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10- en Microsoft 365-apps voor ondernemingen
 
-Windows 10 met Microsoft 365 Apps voor bedrijven is de aanbevolen clientomgeving voor pc's. We raden Windows 10 aan omdat Azure is ontworpen om de soepelste ervaring te bieden die mogelijk is voor zowel on-premises als Azure AD. Windows 10 bevat ook geavanceerde beveiligingsmogelijkheden die kunnen worden beheerd via Intune. Microsoft 365 Apps voor bedrijven bevat de nieuwste versies van Office-toepassingen. Deze maken gebruik van moderne verificatie, die veiliger is en een vereiste is voor Voorwaardelijke toegang. Deze apps bevatten ook verbeterde beveiligings- en compliancehulpmiddelen.
+Windows 10 met Microsoft 365-apps voor ondernemingen is de aanbevolen clientomgeving voor pc's. We raden Windows 10 omdat Azure is ontworpen om de soepelste ervaring te bieden die mogelijk is voor zowel on-premises als Azure AD. Windows 10 bevat ook geavanceerde beveiligingsfuncties die kunnen worden beheerd via Intune. Microsoft 365-apps voor ondernemingen bevat de nieuwste versies van Office toepassingen. Deze maken gebruik van moderne verificatie, die veiliger is en een vereiste is voor Voorwaardelijke toegang. Deze apps bevatten ook verbeterde compliance- en beveiligingshulpmiddelen.
 
 ## <a name="applying-these-capabilities-across-the-three-tiers-of-protection"></a>Deze mogelijkheden toepassen op de drie beveiligingslagen
 
@@ -173,7 +173,7 @@ In de volgende tabel worden onze aanbevelingen voor het gebruik van deze mogelij
 
 ## <a name="device-ownership"></a>Eigendom van apparaat
 
-De bovenstaande tabel weerspiegelt de trend voor veel organisaties om een combinatie van apparaten die eigendom zijn van de organisatie te ondersteunen, evenals persoonlijke of BYOD's om mobiele productiviteit voor het hele personeel mogelijk te maken. Intune-beleid voor app-beveiliging zorgt ervoor dat e-mail wordt beveiligd tegen exfiltrating vanuit de mobiele Outlook-app en andere mobiele Office-apps, op zowel apparaten die eigendom zijn van de organisatie als BYOD's.
+De bovenstaande tabel weerspiegelt de trend voor veel organisaties om een combinatie van apparaten die eigendom zijn van de organisatie te ondersteunen, evenals persoonlijke of BYOD's om mobiele productiviteit voor het hele personeel mogelijk te maken. Intune app protection policies ensure that email is protected from exfiltrating out of the Outlook mobile app and other Office mobile apps, on both organization-owned devices and BYODs.Intune app protection policies ensure that email is protected from exfiltrating out of the Outlook mobile app and other Office mobile apps, on both organization-owned devices and BYODs.
 
 Het is raadzaam apparaten die eigendom zijn van de organisatie te beheren door Intune of domeingevoegd om extra beveiliging en controle toe te passen. Afhankelijk van de gegevensgevoeligheid kan uw organisatie ervoor kiezen om GEEN BYOD's toe te staan voor specifieke gebruikerspopulaties of specifieke apps.
 
@@ -190,11 +190,11 @@ Voordat u de configuratie voor identiteits- en apparaattoegang configureert en u
 
 Nadat u de set beleidsregels hebt bepaald voor de apps die u wilt beveiligen, rolt u het beleid stapsgewijs uit naar uw gebruikers, zodat u problemen onderweg kunt oplossen.
 
-Configureer bijvoorbeeld het beleid dat wordt gebruikt voor al uw Microsoft 365-apps voor alleen Exchange Online met de extra wijzigingen voor Exchange. Rol dit beleid uit naar uw gebruikers en werk eventuele problemen af. Voeg vervolgens Teams toe met de extra wijzigingen en rol deze uit naar uw gebruikers. Voeg vervolgens SharePoint toe met de aanvullende wijzigingen. Blijf de rest van uw apps toevoegen totdat u deze basislijnbeleid kunt configureren met alle Microsoft 365-apps.
+Configureer bijvoorbeeld het beleid dat wordt gebruikt voor al uw Microsoft 365 apps voor Exchange Online met de extra wijzigingen voor Exchange. Rol dit beleid uit naar uw gebruikers en werk eventuele problemen af. Voeg vervolgens Teams extra wijzigingen toe en rol deze uit naar uw gebruikers. Voeg vervolgens een SharePoint met de extra wijzigingen. Ga door met het toevoegen van de rest van uw apps totdat u deze basislijnbeleidsregels kunt configureren met alle Microsoft 365 apps.
 
 Op dezelfde manier maakt u voor uw gevoelige apps de set beleidsregels en voegt u één app tegelijk toe en kunt u eventuele problemen oplossen totdat ze allemaal zijn opgenomen in de beleidsset voor gevoelige apps.
 
-Microsoft raadt u aan geen beleidssets te maken die van toepassing zijn op alle apps, omdat dit kan leiden tot bepaalde onbedoelde configuraties. Beleidsregels die bijvoorbeeld alle apps blokkeren, kunnen uw beheerders uitsluiten van de Azure-portal en uitsluitingen kunnen niet worden geconfigureerd voor belangrijke eindpunten, zoals Microsoft Graph.
+Microsoft raadt u aan geen beleidssets te maken die van toepassing zijn op alle apps, omdat dit kan leiden tot bepaalde onbedoelde configuraties. Beleidsregels die bijvoorbeeld alle apps blokkeren, kunnen uw beheerders buiten de Azure-portal sluiten en uitsluitingen kunnen niet worden geconfigureerd voor belangrijke eindpunten, zoals Microsoft Graph.
 
 ## <a name="steps-to-configure-identity-and-device-access"></a>Stappen voor het configureren van identiteits- en apparaattoegang
 
@@ -203,7 +203,7 @@ Microsoft raadt u aan geen beleidssets te maken die van toepassing zijn op alle 
 1. Vereiste identiteitsfuncties en hun instellingen configureren.
 2. Configureer het algemene beleid voor identiteit en toegang tot voorwaardelijke toegang.
 3. Beleid voor voorwaardelijke toegang configureren voor gast- en externe gebruikers.
-4. Beleidsregels voor voorwaardelijke toegang configureren voor Microsoft 365-cloud-apps, zoals Microsoft Teams, Exchange Online en SharePoint- en Microsoft Cloud App-beveiligingsbeleid.
+4. Beleid voor voorwaardelijke toegang configureren Microsoft 365 cloud-apps,zoals Microsoft Teams, Exchange Online en SharePoint en Microsoft Cloud App Security beleidsregels.
 
 Nadat u identiteits- en apparaattoegang hebt geconfigureerd, bekijkt u de azure AD-functieimplementatiehandleiding voor een gefaseerd controlelijst met aanvullende functies die u moet overwegen en [Azure AD Identity Governance](/azure/active-directory/governance/) om toegang te beveiligen, te controleren en te controleren. [](/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2)
 

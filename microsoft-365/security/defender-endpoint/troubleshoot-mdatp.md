@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 81f1b4154de25f6186679adc5b1f24f78f302415
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 8aaea65c617300a16f99a9a3e3a62d94b7983198
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933755"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538349"
 ---
 # <a name="troubleshoot-service-issues"></a>Problemen met de service oplossen
 
@@ -34,14 +34,14 @@ ms.locfileid: "51933755"
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
-In deze sectie worden problemen opgelost die zich kunnen voordoen wanneer u de Microsoft Defender Advanced Threat-service gebruikt.
+In deze sectie worden problemen opgelost die zich kunnen voordoen wanneer u de Microsoft Defender voor Eindpunt-service gebruikt.
 
 ## <a name="server-error---access-is-denied-due-to-invalid-credentials"></a>Serverfout : Access wordt geweigerd vanwege ongeldige referenties
 Als u een serverfout ondervindt wanneer u toegang probeert te krijgen tot de service, moet u de cookie-instellingen van uw browser wijzigen.
 Configureer uw browser om cookies toe te staan.
 
 ## <a name="elements-or-data-missing-on-the-portal"></a>Elementen of gegevens ontbreken in de portal
-Als bepaalde elementen of gegevens ontbreken in het Microsoft Defender-beveiligingscentrum, is het mogelijk dat proxy-instellingen deze blokkeren.
+Als bepaalde elementen of gegevens ontbreken op Microsoft Defender-beveiligingscentrum is het mogelijk dat proxy-instellingen deze blokkeren.
 
 Zorg ervoor dat de proxy allowlist is `*.securitycenter.windows.com` opgenomen.
 
@@ -57,7 +57,7 @@ Zie Gebeurtenissen en fouten controleren met Behulp van [Gebeurtenisviewer](even
 
 Als onboarding-apparaten zijn voltooid, maar Microsoft Defender voor Eindpunt niet start na een herstart en fout 577 wordt weergegeven, controleert u of Windows Defender niet is uitgeschakeld door een beleid.
 
-Zie Ervoor zorgen dat [Microsoft Defender Antivirus niet is uitgeschakeld door beleid voor meer informatie.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
+Zie Ervoor zorgen dat Microsoft Defender Antivirus [niet is uitgeschakeld door beleid voor meer informatie.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 ## <a name="known-issues-with-regional-formats"></a>Bekende problemen met regionale indelingen
 

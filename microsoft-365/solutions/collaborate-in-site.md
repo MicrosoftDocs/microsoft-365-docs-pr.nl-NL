@@ -16,19 +16,20 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Meer informatie over de configuratiestappen van Microsoft 365 die nodig zijn om een SharePoint-site in te stellen voor samenwerking met gasten.
-ms.openlocfilehash: fd3cf55b3d95a5c79b9bd4d7c55855f7d73fc0d2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: Meer informatie over de Microsoft 365 configuratiestappen die nodig zijn voor het instellen van een SharePoint site voor samenwerking met gasten.
+ms.openlocfilehash: f91b9c64dbdca8ed7e3ada3315cb57f1c728f838
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904646"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539249"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Samenwerken met gasten op een site
 
-Als u met gasten moet samenwerken in documenten, gegevens en lijsten, kunt u een SharePoint-site gebruiken. Moderne SharePoint-sites zijn verbonden met Microsoft 365 Groepen en kunnen het lidmaatschap van de site beheren en extra samenwerkingshulpmiddelen bieden, zoals een gedeeld postvak en een agenda.
+Als u wilt samenwerken met gasten in documenten, gegevens en lijsten, kunt u een SharePoint gebruiken. Moderne SharePoint sites zijn verbonden met Microsoft 365 Groepen en kunnen het lidmaatschap van de site beheren en extra samenwerkingshulpmiddelen bieden, zoals een gedeeld postvak en een agenda.
 
-In dit artikel volgen we de configuratiestappen van Microsoft 365 die nodig zijn om een SharePoint-site in te stellen voor samenwerking met gasten.
+In dit artikel lopen we door de Microsoft 365 configuratiestappen die nodig zijn om een SharePoint voor samenwerking met gasten.
 
 ## <a name="video-demonstration"></a>Videodemonstratie
 
@@ -42,7 +43,7 @@ Delen in Microsoft 365 wordt op het hoogste niveau bepaald door de [B2B-instelli
 
 Controleer de B2B-instellingen voor externe samenwerking om ervoor te zorgen dat delen met gasten niet wordt geblokkeerd.
 
-![Schermafbeelding van de pagina Externe samenwerkingsinstellingen voor Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
+![Schermafbeelding van Azure Active Directory pagina Externe samenwerking Instellingen](../media/azure-ad-organizational-relationships-settings.png)
 
 Instellingen voor externe samenwerking instellen
 
@@ -59,7 +60,7 @@ Als u met gasten van meerdere organisaties werkt, wilt u mogelijk hun toegang to
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Gastinstellingen van Microsoft 365 Groepen
 
-Moderne SharePoint-sites gebruiken Microsoft 365 Groepen om sitetoegang te bepalen. De gastinstellingen voor Microsoft 365 Groepen moeten zijn ingeschakeld zodat gasttoegang op SharePoint-sites kan werken.
+Moderne SharePoint sites gebruiken Microsoft 365 Groepen om sitetoegang te bepalen. De Microsoft 365 Groepen gastinstellingen moeten zijn ingeschakeld zodat gasttoegang op SharePoint sites kan werken.
 
 ![Schermopname van gastinstellingen van Microsoft 365 Groepen in het Microsoft 365-beheercentrum](../media/office-365-groups-guest-settings.png)
 
@@ -71,9 +72,9 @@ Gastinstellingen van Microsoft 365 Groepen instellen
 4. Zorg ervoor dat de selectievakjes **Groepseigenaren toestaan personen van buiten de organisatie als gast aan Microsoft 365 Groepen toe te voegen** en **Gastgroepsleden toegang geven tot groepsinhoud** beide zijn ingeschakeld.
 5. Als u wijzigingen hebt aangebracht, klikt u op **Wijzigingen opslaan**.
 
-## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint-instellingen voor delen op organisatieniveau
+## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint instellingen voor delen op organisatieniveau
 
-Om ervoor te zorgen dat gasten toegang hebben tot SharePoint-sites, moeten de sharePoint-instellingen voor delen op organisatieniveau toestaan dat ze kunnen delen met gasten.
+Om ervoor te zorgen dat gasten toegang hebben tot SharePoint sites, moeten SharePoint instellingen voor delen op organisatieniveau toestaan dat ze kunnen delen met gasten.
 
 De instellingen op organisatieniveau bepalen de instellingen die beschikbaar zijn voor afzonderlijke sites. Site-instellingen mogen niet meer toestaan dan de instellingen op organisatieniveau.
 
@@ -85,7 +86,7 @@ Als u niet-genautisch bestand en delen van mappen wilt toestaan, kiest u **Ieder
 Instellingen voor delen op organisatieniveau van SharePoint instellen
 
 1. In het Microsoft 365-beheercentrum klikt u onder **Beheercentra** op **SharePoint**.
-2. Klik in het SharePoint-beheercentrum in het linkernavigatiedeelvenster onder **Beleid** op **Delen.**
+2. Klik in SharePoint beheercentrum in het linkernavigatiedeelvenster onder Beleid **op** **Delen.**
 3. Zorg ervoor dat extern delen voor SharePoint is ingesteld op **Iedereen** of **Nieuwe en bestaande gasten**.
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
@@ -110,7 +111,7 @@ Controleer de instellingen voor delen op siteniveau om ervoor te zorgen dat het 
 
 Houd er rekening mee dat de site niet kan worden gedeeld met niet-nautische personen **(** Iedereen instelling), maar afzonderlijke bestanden en mappen wel.
 
-U kunt ook [gevoeligheidslabels gebruiken om instellingen voor extern delen voor SharePoint-sites te beheren.](../compliance/sensitivity-labels-teams-groups-sites.md)
+U kunt ook [gevoeligheidslabels gebruiken om instellingen voor extern delen](../compliance/sensitivity-labels-teams-groups-sites.md)voor SharePoint beheren.
 
 ![Schermafbeelding van de instellingen voor extern delen van SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
@@ -123,7 +124,7 @@ Instellingen voor delen op siteniveau instellen
 
 ## <a name="invite-users"></a>Gebruikers uitnodigen
 
-Instellingen voor het delen van gasten zijn nu geconfigureerd, zodat u kunt beginnen met het toevoegen van interne gebruikers en gasten aan uw site. Sitetoegang wordt beheerd via de bijbehorende Microsoft 365-groep, dus daar worden gebruikers toegevoegd.
+Instellingen voor het delen van gasten zijn nu geconfigureerd, zodat u kunt beginnen met het toevoegen van interne gebruikers en gasten aan uw site. Sitetoegang wordt beheerd via de gekoppelde Microsoft 365 Groep, dus daar worden gebruikers toegevoegd.
 
 Interne gebruikers uitnodigen voor een groep
 1. Ga naar de site waar u gebruikers wilt toevoegen.
@@ -131,7 +132,7 @@ Interne gebruikers uitnodigen voor een groep
 3. Klik **op Leden toevoegen.**
 4. Typ de namen of e-mailadressen van de gebruikers die u wilt uitnodigen voor de site en klik vervolgens op **Opslaan.**
 
-Gasten kunnen niet worden toegevoegd vanaf de site. U moet ze toevoegen met de webversie van Outlook. Als voorwaarde voor het toevoegen en uitnodigen van gasten voor een groep, klikt u daarom op de URL van de site in de **kolom URL**  om naar de sitespecifieke pagina te gaan. Klik op deze pagina op het **startpictogram voor apps** en selecteer **Outlook.** Dit is het scherm waaruit u gasten kunt uitnodigen voor een groep, waarvoor de procedure hieronder wordt beschreven.
+Gasten kunnen niet worden toegevoegd vanaf de site. U moet ze toevoegen met Outlook op internet. Als voorwaarde voor het toevoegen en uitnodigen van gasten voor een groep, klikt u daarom op de URL van de site in de **kolom URL**  om naar de sitespecifieke pagina te gaan. Klik op deze pagina op het **startpictogram voor apps** en selecteer **Outlook.** Dit is het scherm waaruit u gasten kunt uitnodigen voor een groep, waarvoor de procedure hieronder wordt beschreven.
 
 Gasten uitnodigen voor een groep
 1. Klik **onder** Groepen op de groep waarvoor u gasten wilt uitnodigen.

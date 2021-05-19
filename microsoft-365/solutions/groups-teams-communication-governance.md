@@ -14,24 +14,25 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: Meer informatie over samenwerkingsscenario's voor communicatiebeheer.
-ms.openlocfilehash: 5386b127ead11f27dad94207383b7a5afddfde6f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6b49f0725cb300316580e972626a96b7057b5ccb
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920902"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538133"
 ---
 # <a name="communications-governance-for-collaboration-scenarios"></a>Communicatiebeheer voor samenwerkingsscenario's
 
-Microsoft 365 biedt een aantal besturingselementen om de communicatie in uw organisatie te regelen, inclusief instellingen voor berichten en vergaderingen. Bekijk deze opties en bedenk hoe deze worden toe te schrijven aan uw zakelijke behoeften, de gevoeligheid van uw gegevens en het bereik van personen met wie uw gebruikers moeten samenwerken.
+Microsoft 365 biedt een aantal besturingselementen om de communicatie in uw organisatie te beheren, inclusief instellingen voor berichten en vergaderingen. Bekijk deze opties en bedenk hoe deze worden toe te schrijven aan uw zakelijke behoeften, de gevoeligheid van uw gegevens en het bereik van personen met wie uw gebruikers moeten samenwerken.
 
 De volgende tabel bevat een beknopt overzicht van de communicatiebesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
-|Categorie|Beschrijving|Verwijzing|
+|Categorie|Omschrijving|Verwijzing|
 |:-------|:----------|:--------|
 |Berichten|||
-||Beheren wat gebruikers kunnen doen tijdens berichten in Teams.|[Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams)|
+||Beheren wat gebruikers kunnen doen tijdens het chatten in Teams.|[Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams)|
 ||Bepalen wie berichten in een kanaal kan starten en beantwoorden.|[Kanaalbeheer instellen en beheren in Microsoft Teams](/microsoftteams/manage-channel-moderation-in-teams)|
 |Vergaderingen|||
 ||Beheren wat deelnemers aan de vergadering kunnen doen.|[Vergaderingsbeleid beheren in Teams](/microsoftteams/meeting-policies-in-teams)|
@@ -45,24 +46,24 @@ U kunt bepalen welke chat- en kanaalberichtenfuncties, zoals het bewerken of ver
 
 [Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams)
 
-U kunt bepalen wie nieuwe berichten kan starten en berichten in een Teams-kanaal kan beantwoorden door kanaalbeheer te configureren.
+U kunt bepalen wie nieuwe berichten kan starten en berichten in een Teams kunnen beantwoorden door kanaalbeheer te configureren.
 
 [Kanaalbeheer instellen en beheren in Microsoft Teams](/microsoftteams/manage-channel-moderation-in-teams)
 
 ## <a name="meetings"></a>Vergaderingen
 
-U kunt de functies bepalen die beschikbaar zijn voor deelnemers aan Teams-vergaderingen, zoals planning, delen van inhoud, deelnemers en audio- en videobeleid.
+U kunt de functies bepalen die beschikbaar zijn voor Teams deelnemers aan de vergadering, zoals planning, delen van inhoud, deelnemers en audio- en videobeleid.
 
 [Vergaderingsbeleid beheren in Teams](/microsoftteams/meeting-policies-in-teams)
 
-U kunt anonieme deelnemen aan Teams-vergaderingen bepalen, zodat iedereen met een koppeling naar de vergadering kan deelnemen.
+U kunt anoniem deelnemen voor Teams vergaderingen, zodat iedereen met een koppeling naar de vergadering kan deelnemen.
 
 [Anonieme gebruikers toestaan deel te nemen aan vergaderingen](/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
 
 
 ## <a name="communication-compliance"></a>Communicatiecompliance
 
-Met communicatie compliance in Microsoft 365 kunt u de communicatie onderzoeken op aanstootgevende taal, gevoelige informatie en informatie met betrekking tot interne en regelgevende standaarden. Chatcommunicatie, postvakken en Yammer-berichten kunnen allemaal worden gecontroleerd, waardoor waarschuwingen worden gegenereerd. Met beheerhulpmiddelen kunt u snel berichten identificeren en actie ondernemen met beleidswedstrijden.
+Met communicatie compliance in Microsoft 365 kunt u de communicatie onderzoeken op aanstootgevende taal, gevoelige informatie en informatie met betrekking tot interne en regelgevende standaarden. Chatcommunicatie, postvakken en Yammer berichten kunnen allemaal worden gecontroleerd, waardoor waarschuwingen worden gegenereerd. Met beheerhulpmiddelen kunt u snel berichten identificeren en actie ondernemen met beleidswedstrijden.
 
 [Naleving van communicatie in Microsoft 365](../compliance/communication-compliance.md)
 
@@ -72,6 +73,6 @@ Met communicatie compliance in Microsoft 365 kunt u de communicatie onderzoeken 
 
 [Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
-[Microsoft Teams-instellingen voor uw organisatie beheren](/microsoftteams/enable-features-office-365)
+[Instellingen Microsoft Teams voor uw organisatie beheren](/microsoftteams/enable-features-office-365)
 
-[Yammer-gegevens compliance beheren](/yammer/manage-security-and-compliance/manage-data-compliance)
+[Naleving Yammer gegevens beheren](/yammer/manage-security-and-compliance/manage-data-compliance)

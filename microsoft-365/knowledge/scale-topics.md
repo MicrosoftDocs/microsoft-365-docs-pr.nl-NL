@@ -13,18 +13,18 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Meer informatie over best practices voor het beheren van de vele onderwerpen in uw organisatie met Behulp van Viva-onderwerpen.
-ms.openlocfilehash: 3246c7e91c315dadb6c2b14008c9a4da378409d5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: dd9fe658d4f698ac50563b5c9ea141a090f6141d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333989"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538409"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>Onderwerpen op schaal beheren in Microsoft Viva-onderwerpen
 
-Wanneer u uw SharePoint-sites of uw hele organisatie indexeert voor Viva-onderwerpen, kunnen er veel onderwerpen worden gegenereerd. Wanneer dit gebeurt en u duizenden  voorgestelde onderwerpen ziet op de pagina Onderwerpen beheren, kan het lastig zijn om te weten waar u moet beginnen. In dit artikel wordt beschreven hoe Viva Topics u helpt bij het optimaliseren van de onderwerpen en informatie die worden weergegeven aan gebruikers die informatie zoeken, zelfs in grote organisaties met grote aantallen onderwerpen.
+Wanneer u uw sites SharePoint of uw hele organisatie indexeert voor Viva-onderwerpen, kunnen er veel onderwerpen worden gegenereerd. Wanneer dit gebeurt en u duizenden  voorgestelde onderwerpen ziet op de pagina Onderwerpen beheren, kan het lastig zijn om te weten waar u moet beginnen. In dit artikel wordt beschreven hoe Viva Topics u helpt bij het optimaliseren van de onderwerpen en informatie die worden weergegeven aan gebruikers die informatie zoeken, zelfs in grote organisaties met grote aantallen onderwerpen.
 
-Eerst een herinnering aan de vier staten voor onderwerpen:
+Eerst een herinnering aan de [vier stadia voor onderwerpen:](manage-topics.md#topic-stages)
 
 - **Voorgesteld:** een onderwerp is geïdentificeerd door AI en heeft voldoende ondersteunende bronnen, verbindingen en eigenschappen. (Deze zijn gemarkeerd als een **voorgesteld onderwerp** in de gebruikersinterface.)
 
@@ -98,7 +98,7 @@ De startpagina van een onderwerpcentrum is een andere locatie waar feedback over
 
 Wanneer u brede crowdsourcing van onderwerpen toestaat, moet u rekening houden met de volgende factoren:
 
--   Gebruikers zien de optie **Bewerken** op onderwerppagina's en kunnen de pagina's in dezelfde ervaring bewerken als andere moderne SharePoint-pagina's.
+-   Gebruikers zien de optie **Bewerken** op onderwerppagina's en kunnen de pagina's in dezelfde ervaring bewerken als andere moderne SharePoint pagina's.
 
 -   Sommige **webonderdelen voorgesteld** onderwerp kunnen niet worden verwijderd. De onderwerpnaam, alternatieve namen, definitie, voorgestelde personen en voorgestelde bronnen kunnen niet worden verwijderd.
 

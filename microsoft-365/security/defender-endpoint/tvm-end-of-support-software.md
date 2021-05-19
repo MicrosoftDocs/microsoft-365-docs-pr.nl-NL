@@ -1,7 +1,7 @@
 ---
 title: Software- en softwareversies voor het einde van de ondersteuning plannen
 description: Ontdek en plan voor software- en softwareversies die niet meer worden ondersteund en geen beveiligingsupdates ontvangen.
-keywords: threat and vulnerability management, Microsoft Defender for Endpoint tvm security recommendation, cyberbeveiligingsaanbeveling, actiebare beveiligingsaanbeveling
+keywords: Threat and Vulnerability Management, Microsoft Defender voor endpoint tvm-beveiligingsaanbeveling, aanbeveling voor cyberbeveiliging, actie-aanbevelingen voor beveiliging
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,21 +18,21 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8e8fc228b8856df03b580e748bf00efc8d4333c3
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bb436cbd2d0fa453872760c1d2656585e02d1767
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934127"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538865"
 ---
-# <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Plan voor end-of-support software- en softwareversies met bedreigings- en kwetsbaarheidsbeheer
+# <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Plan voor end-of-support software- en softwareversies met Threat and Vulnerability Management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
@@ -41,9 +41,12 @@ End-of-support (EOS), ook wel bekend als end-of-life (EOL), voor software- of so
 
 Het is essentieel voor beveiligings- en IT-beheerders om samen te werken en ervoor te zorgen dat de softwarevoorraad van de organisatie is geconfigureerd voor optimale resultaten, naleving en een gezond netwerkecosysteem. Ze moeten de opties bekijken om apps te verwijderen of te vervangen die einde-of-ondersteunings- en updateversies hebben bereikt die niet meer worden ondersteund. U kunt het beste een  plan maken en implementeren vóór het einde van de ondersteuningsdatum.
 
+>[!NOTE]
+> EOS-functionaliteit is momenteel niet beschikbaar voor niet-Windows producten (Mac, Linux); deze wordt echter in de toekomst toegevoegd.
+
 ## <a name="find-software-or-software-versions-that-are-no-longer-supported"></a>Software- of softwareversies zoeken die niet meer worden ondersteund
 
-1. Ga in het menu Bedreigings- en kwetsbaarheidsbeheer naar [**Beveiligingsaanbevelingen.**](tvm-security-recommendation.md)
+1. Ga in Threat and Vulnerability Management menu naar [**Beveiligingsaanbevelingen.**](tvm-security-recommendation.md)
 2. Ga naar het **deelvenster Filters** en zoek naar de sectie Tags. Selecteer een of meer van de EOS-tagopties. Vervolgens **toepassen.**
 
     ![Schermafbeeldingen met EOS-software, EOS-versies en toekomstige EOS-versies.](images/tvm-eos-tag.png)
@@ -72,6 +75,6 @@ Nadat u hebt bepaald welke software- en softwareversies kwetsbaar zijn vanwege d
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)
 - [Software-inventaris](tvm-software-inventory.md)

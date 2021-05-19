@@ -1,5 +1,5 @@
 ---
-title: Naamgevingsbeleid voor Microsoft 365-groepen
+title: Microsoft 365 naamgevingsbeleid voor groepen
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -16,22 +16,23 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
-description: Meer informatie over het maken van een naamgevingsbeleid voor Microsoft 365-groepen.
-ms.openlocfilehash: 7fd2ea36b536924d85c7ca09b55593161a24dbe4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: Meer informatie over het maken van een naamgevingsbeleid voor Microsoft 365 groepen.
+ms.openlocfilehash: 5ab5f252e2b81470413b4efea17b131613aabc18
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921046"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538169"
 ---
-# <a name="microsoft-365-groups-naming-policy"></a>Naamgevingsbeleid voor Microsoft 365-groepen
+# <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 naamgevingsbeleid voor groepen
 
 U kunt een naamgevingsbeleid voor groepen gebruiken om een consistente naamgevingsstrategie af te dwingen voor groepen die zijn gemaakt door gebruikers in uw organisatie. Een naamgevingsbeleid kan u en uw gebruikers helpen bij het identificeren van de functie van de groep, het lidmaatschap, de geografische regio of de persoon die de groep heeft gemaakt. Het naamgevingsbeleid kan ook helpen bij het categoriseren van groepen in het adresboek. U kunt het beleid gebruiken om te blokkeren dat specifieke woorden worden gebruikt in groepsnamen en aliassen.
 
-Het naamgevingsbeleid wordt toegepast op groepen die in alle groepen werkbelastingen worden gemaakt (zoals Outlook, Microsoft Teams, SharePoint, Planner, Yammer, enzovoort). Deze wordt toegepast op zowel de groepsnaam als de groepsalias. Het wordt ook toegepast wanneer een gebruiker een groep maakt en wanneer de groepsnaam, alias, beschrijving of avatar wordt bewerkt voor een bestaande groep.
+Het naamgevingsbeleid wordt toegepast op groepen die worden gemaakt in alle groepen werkbelastingen (zoals Outlook, Microsoft Teams, SharePoint, Planner, Yammer, enzovoort). Deze wordt toegepast op zowel de groepsnaam als de groepsalias. Het wordt ook toegepast wanneer een gebruiker een groep maakt en wanneer de groepsnaam, alias, beschrijving of avatar wordt bewerkt voor een bestaande groep.
 
 > [!TIP]
-> Een naamgevingsbeleid voor Microsoft 365-groepen is alleen van toepassing op Microsoft 365-groepen. Het is niet van toepassing op distributiegroepen die zijn gemaakt in Exchange Online. Zie Een naamgevingsbeleid voor distributiegroepen maken als u een [naamgevingsbeleid voor](/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)distributiegroepen wilt maken.
+> Een Microsoft 365 groepsbeleid is alleen van toepassing op Microsoft 365 groepen. Het is niet van toepassing op distributiegroepen die zijn gemaakt in Exchange Online. Zie Een naamgevingsbeleid voor distributiegroepen maken als u een [naamgevingsbeleid voor](/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)distributiegroepen wilt maken.
 
 Het groepsnaambeleid bestaat uit de volgende functie:
 
@@ -63,7 +64,7 @@ Voorbeelden:
 - Afdeling van de gebruiker = Engineering
 - Gemaakte groepsnaam = "GRP My Group Engineering"
 
-Ondersteunde Azure Active Directory-kenmerken (Azure AD) zijn [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion] en [Title].
+Ondersteunde Azure Active Directory (Azure AD) kenmerken zijn [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion] en [Title].
 
 - Niet-ondersteunde gebruikerskenmerken worden beschouwd als vaste tekenreeksen, bijvoorbeeld [postcode].
 
@@ -80,7 +81,7 @@ Het wordt aangeraden kenmerken te gebruiken met waarden die voor alle gebruikers
   > [!NOTE]
   > Een punt (.) of een afbreekstreester (-) is overal in de groepsnaam toegestaan, behalve aan het begin of einde van de naam. Een onderstrepingsteken (_) is overal in de groepsnaam toegestaan, ook aan het begin of einde van de naam.
 
-- Als u verbonden yammer Office 365-groepen gebruikt, vermijdt u het gebruik van de volgende tekens in uw naamgevingsbeleid: @, \# , \[ , , \] \<, and \> . Als deze tekens in het naamgevingsbeleid staan, kunnen gewone Yammer-gebruikers geen groepen maken.
+- Als u Yammer Office 365 groepen gebruikt, vermijdt u het gebruik van de volgende tekens in uw naamgevingsbeleid: @, \# , \[ , , \] \<, and \> . Als deze tekens in het naamgevingsbeleid staan, kunnen Yammer gebruikers geen groepen maken.
 
 > [!Tip]
 > - Gebruik korte tekenreeksen als achtervoegsel.
@@ -120,8 +121,8 @@ Sommige beheerders zijn vrijgesteld van dit beleid, voor alle groepswerkbelastin
 
 Een naamgevingsbeleid instellen:
 
-1. Klik [in Azure Active Directory](https://aad.portal.azure.com), onder **Beheren,** op **Groepen.**
-2. Klik **onder Instellingen** op **Naamgevingsbeleid.**
+1. Klik [Azure Active Directory](https://aad.portal.azure.com)onder **Beheren** op **Groepen.**
+2. Klik **onder Instellingen** op **Naamgevingsbeleid**.
 3. Kies het **tabblad Groepnaamgevingsbeleid.**
 4. Kies **onder Huidig** beleid of u een voorvoegsel of achtervoegsel of beide wilt vereisen en schakel de juiste selectievakjes in.
 5. Kies tussen **Kenmerk** en **Tekenreeks** voor elke regel en geef vervolgens het kenmerk of de tekenreeks op.
@@ -135,4 +136,4 @@ Een naamgevingsbeleid instellen:
 
 [Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
 
-[Azure Active Directory-cmdlets voor het configureren van groepsinstellingen](/azure/active-directory/enterprise-users/groups-settings-cmdlets)
+[Azure Active Directory cmdlets voor het configureren van groepsinstellingen](/azure/active-directory/enterprise-users/groups-settings-cmdlets)

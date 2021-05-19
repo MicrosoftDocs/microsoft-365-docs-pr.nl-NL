@@ -15,17 +15,18 @@ ms.collection:
 ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
+recommendations: false
 description: Meer informatie over het maken van een B2B-extranetsite of -team met beheerde gasten van een partnerorganisatie.
-ms.openlocfilehash: f9b8d9326f302233ed85c9d168fdf6f343dc6cbf
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d76951da5d8affa1dac08cbdc68a91329ca069ed
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904754"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538241"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>Een B2B-extranet maken met beheerde gasten
 
-U kunt [Azure Active Directory Entitlement Management gebruiken](/azure/active-directory/governance/entitlement-management-overview) om een B2B-extranet te maken om samen te werken met een partnerorganisatie die Azure Active Directory gebruikt. Hierdoor kunnen gebruikers zich zelf registreren voor de extranetsite of het extranetteam en toegang krijgen via een goedkeuringswerkstroom.
+U kunt Azure Active Directory [Entitlement Management gebruiken](/azure/active-directory/governance/entitlement-management-overview) om een B2B-extranet te maken om samen te werken met een partnerorganisatie die Azure Active Directory. Hierdoor kunnen gebruikers zich zelf registreren voor de extranetsite of het extranetteam en toegang krijgen via een goedkeuringswerkstroom.
 
 Met deze methode voor het delen van resources voor samenwerking kan de partnerorganisatie helpen bij het onderhouden en goedkeuren van de gasten aan hun kant, waardoor de belasting voor uw IT-afdeling wordt verkleind en degenen die het meest vertrouwd zijn met de samenwerkingsovereenkomst, gebruikerstoegang kunnen beheren.
 
@@ -35,7 +36,7 @@ Voordat u begint, maakt u de site of het team dat u wilt delen met de partnerorg
 
 ## <a name="license-requirements"></a>Licentievereisten
 
-Voor het gebruik van deze functie is een Azure AD Premium P2-licentie vereist. 
+Voor het gebruik van deze functie is een Azure AD-Premium P2-licentie vereist. 
 
 Gespecialiseerde clouds, zoals Azure Germany en Azure China 21Vianet, zijn momenteel niet beschikbaar voor gebruik.
 
@@ -45,18 +46,18 @@ In deze video worden de procedures in dit artikel beschreven.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wKUj?autoplay=false]
 
-## <a name="connect-the-partner-organization"></a>De partnerorganisatie verbinden
+## <a name="connect-the-partner-organization"></a>Verbinding maken partnerorganisatie
 
-Als u gasten van een partnerorganisatie wilt uitnodigen, moet u het domein van de partner toevoegen als verbonden organisatie in Azure Active Directory.
+Als u gasten uit een partnerorganisatie wilt uitnodigen, moet u het domein van de partner toevoegen als verbonden organisatie in Azure Active Directory.
 
 Een verbonden organisatie toevoegen
-1. Klik [in Azure Active Directory](https://aad.portal.azure.com)op **Identiteitsbeheer.**
+1. Klik [Azure Active Directory](https://aad.portal.azure.com)op **Identiteitsbeheer**.
 2. Klik **op Verbonden organisaties.**
 4. Klik **op Verbonden organisatie toevoegen.**
 5. Typ een naam en beschrijving voor de organisatie en klik vervolgens **op Volgende: Directory + domein.**
 6. Klik **op Adreslijst + domein toevoegen.**
 7. Typ het domein voor de organisatie die u wilt verbinden en klik vervolgens op **Toevoegen.**
-8. Klik **op Verbinding** maken en klik vervolgens op **Volgende: Sponsors.**
+8. Klik **Verbinding maken** en klik vervolgens op **Volgende: Sponsors.**
 9. Voeg personen toe van uw organisatie of de organisatie die u verbindt met wie u de toegang voor gasten wilt goedkeuren.
 10. Klik op **Volgendet: Controleren + Maken**.
 11. Controleer de instellingen die u hebt gekozen en klik vervolgens op **Maken.**
@@ -68,22 +69,22 @@ Een verbonden organisatie toevoegen
 De eerste stap bij het selecteren van resources die u wilt delen met een partnerorganisatie, is het maken van een catalogus om deze te bevatten.
 
 Een catalogus maken
-1. Klik [in Azure Active Directory](https://aad.portal.azure.com)op **Identiteitsbeheer.**
+1. Klik [Azure Active Directory](https://aad.portal.azure.com)op **Identiteitsbeheer**.
 2. Klik **op Catalogi.**
 3. Klik **op Nieuwe catalogus.**
 4. Typ een naam en beschrijving voor de catalogus en zorg ervoor dat **Ingeschakeld** en Ingeschakeld voor **externe gebruikers** beide zijn ingesteld op **Ja.**
 5. Klik op **Maken**.
 
-   ![Schermafbeelding van de cataloguspagina in Azure Active Directory Identity Governance](../media/identity-governance-catalogs.png)
+   ![Schermafbeelding van de cataloguspagina in Azure Active Directory Identiteitsbeheer](../media/identity-governance-catalogs.png)
 
-Nadat de catalogus is gemaakt, voegt u de SharePoint-site of -team toe die u wilt delen met de partnerorganisatie.
+Wanneer de catalogus is gemaakt, voegt u de SharePoint site of team toe die u wilt delen met de partnerorganisatie.
 
 Resources toevoegen aan een catalogus
 1. Klik in Azure AD Identity Governance op **Catalogi** en klik vervolgens op de catalogus waar u resources wilt toevoegen.
 2. Klik **op Resources** en klik vervolgens op Resources **toevoegen.**
-3. Selecteer de teams of SharePoint-sites die u wilt opnemen in uw extranet en klik vervolgens op **Toevoegen.**
+3. Selecteer de teams of SharePoint sites die u wilt opnemen in uw extranet en klik vervolgens op **Toevoegen.**
 
-   ![Schermafbeelding van de pagina catalogusresources in Azure Active Directory Identity Governance](../media/identity-governance-catalog-resource.png)
+   ![Schermafbeelding van de pagina catalogusbronnen in Azure Active Directory Identiteitsbeheer](../media/identity-governance-catalog-resource.png)
 
 Nadat u de resources hebt gedefinieerd die u wilt delen, is de volgende stap het maken van een access-pakket, waarin het type toegang wordt gedefinieerd dat partnergebruikers worden verleend en het goedkeuringsproces voor nieuwe partnergebruikers die toegang aanvragen.
 

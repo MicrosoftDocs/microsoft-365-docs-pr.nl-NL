@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer informatie krijgen over de toepassingsorder van beveiligingen in Exchange Online Protection (EOP) en hoe de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
+description: Beheerders kunnen meer informatie krijgen over de toepassingsorde van beveiligingen in Exchange Online Protection (EOP) en hoe de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8cd2809fa69064c2058516f459eeba60683c91b9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 24d43aeb70e2cdef4bdf65fd3943cdfda9ec3862
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930375"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539009"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mailbeveiliging
 
@@ -33,7 +33,7 @@ ms.locfileid: "51930375"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, kan binnenkomende e-mail worden gemarkeerd met meerdere vormen van beveiliging. Bijvoorbeeld het ingebouwde anti-phishingbeleid in EOP dat beschikbaar is voor alle Microsoft 365-klanten en het krachtigere anti-phishingbeleid dat beschikbaar is voor Microsoft Defender voor Office 365-klanten. Berichten worden ook door meerdere detectiescans voor malware, spam, phishing, enzovoort gestuurd. Gezien al deze activiteiten kan het verwarrend zijn welk beleid wordt toegepast.
+In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, kan binnenkomende e-mail worden gemarkeerd met meerdere vormen van beveiliging. Bijvoorbeeld het ingebouwde anti-phishingbeleid in EOP dat beschikbaar is voor alle Microsoft 365-klanten en het krachtigere anti-phishingbeleid dat beschikbaar is voor Microsoft Defender voor Office 365 klanten. Berichten worden ook door meerdere detectiescans voor malware, spam, phishing, enzovoort gestuurd. Gezien al deze activiteiten kan het verwarrend zijn welk beleid wordt toegepast.
 
 In het algemeen wordt een beleid dat is toegepast op een bericht, geïdentificeerd in de **koptekst X-Forefront-Antispam-Report** in de eigenschap **CAT (Categorie).** Zie Kopteksten [van antispamberichten voor meer informatie.](anti-spam-message-headers.md)
 
@@ -50,20 +50,20 @@ Er zijn twee belangrijke factoren die bepalen welk beleid wordt toegepast op een
   |1|Malware|CAT:MALW|[Anti-malwarebeleid configureren in EOP](configure-anti-malware-policies.md)|
   |2|Phishing|CAT:PHSH|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |3|Hoogstwaarschijnlijk spam|CAT:HSPM|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
-  |4|Spoofing|CAT:SPOOF|[Spoof intelligence configureren in EOP](learn-about-spoof-intelligence.md)|
+  |4|Spoofing|CAT:SPOOF|[Inzicht in spoof intelligence in EOP](learn-about-spoof-intelligence.md)|
   |5<sup>\*</sup>|Gebruikers imitatie (beveiligde gebruikers)|UIMP|[Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)|
   |6<sup>\*</sup>|Domein-imitatie (beveiligde domeinen)|DIMP|[Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)|
   |7|Spam|CAT:SPM|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |8|Bulk|CAT:BULK|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |
 
-  <sup>\*</sup> Deze functies zijn alleen beschikbaar in anti-phishingbeleid in Microsoft Defender voor Office 365.
+  <sup>\*</sup>Deze functies zijn alleen beschikbaar in anti-phishingbeleid in Microsoft Defender voor Office 365.
 
 - De prioriteit van het **beleid:** Voor elk type beleid (antispam, anti-malware, anti-phishing, enzovoort) is er een standaardbeleid dat voor iedereen van toepassing is, maar u kunt aangepaste beleidsregels maken die van toepassing zijn op specifieke gebruikers. Elk aangepast beleid heeft een prioriteitswaarde die de volgorde bepaalt waarin het beleid wordt toegepast. Het standaardbeleid wordt altijd als laatste toegepast.
 
   Als een gebruiker is gedefinieerd in meerdere beleidsregels van hetzelfde type, wordt alleen het beleid met de hoogste prioriteit op de gebruiker toegepast. Resterende beleidsregels van dat type worden niet geëvalueerd voor de gebruiker (inclusief het standaardbeleid).
 
-Denk bijvoorbeeld aan de volgende anti-phishingbeleidsregels in Microsoft Defender voor Office 365 die van toepassing zijn op dezelfde gebruikers en een bericht dat is geïdentificeerd als gebruikersomitatie en spoofing:
+Denk bijvoorbeeld aan de volgende anti-phishingbeleidsregels in Microsoft Defender voor Office 365 die van toepassing zijn op dezelfde gebruikers **en** een bericht dat is geïdentificeerd als gebruikersomitatie en spoofing:
 
 <br>
 

@@ -14,13 +14,14 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: Opties voor het einde van de levenscyclus voor groepen, teams en Yammer.
-ms.openlocfilehash: 468f41df747b6cf12d3f6619d79cb97248eba1d1
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: fccdf838b7ebec6a1ab1fae2f709824bfbd3b6d1
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346424"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538829"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Opties voor het einde van de levenscyclus voor groepen, teams en Yammer
 
@@ -265,3 +266,7 @@ Gesprekken kunnen worden verplaatst naar een andere Yammer door elke gebruiker, 
 **Netwerkgegevens exporteren**
 
 Yammer netwerkbeheerders exporteren [netwerkgegevens](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). Als u dit doet, worden echter alle gesprekken voor het hele netwerk geëxporteerd. De resulterende export bevat de groeps-id. Het is mogelijk om gesprekken te filteren op basis van deze id.
+
+## <a name="related-topics"></a>Verwante onderwerpen
+
+[Een voormalige werknemer verwijderen en gegevens beveiligen](/microsoft-365/admin/add-users/remove-former-employee)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 93751a8297e61a969e0049e27a847324a3d16872
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: cc2fcd7410c2f3122fb3ce49a40e93bfa0767331
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300011"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539021"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender
 
@@ -135,7 +135,7 @@ Identificeer doorlopend de incidenten met de hoogste prioriteit voor analyse en 
 
 3. Herstel zoveel mogelijk van de aanval door de tenantbronnen te herstellen in de status waarin ze zich vóór het incident hebben voordeden.
 
-4. [Los](manage-incidents.md#resolve-incident) het incident op en neem de tijd om na het incident te leren:
+4. [Los](manage-incidents.md#resolve-an-incident) het incident op en neem de tijd om na het incident te leren:
 
    - Inzicht in het type van de aanval en de impact ervan.
    - Onderzoek de aanval in [Threat Analytics](threat-analytics.md) en de beveiligingsgemeenschap voor een beveiligingsaanvaltrend.
@@ -148,7 +148,7 @@ Als u nog niet bekend bent met beveiligingsanalyse, bekijkt u de inleiding tot h
 
 Hier volgen een voorbeeld van beveiligingsbewerkingen voor Microsoft 365 Defender.
 
-:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Een voorbeeld van beveiligingsbewerkingen voor Micosoft 365 Defender":::
+:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Een voorbeeld van beveiligingsbewerkingen voor Microsoft 365 Defender":::
 
 Dagelijkse taken kunnen bestaan uit:
 

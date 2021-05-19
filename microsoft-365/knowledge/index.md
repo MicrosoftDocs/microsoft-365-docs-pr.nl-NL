@@ -1,7 +1,7 @@
 ---
 title: Inleiding tot Microsoft Viva Topics
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: ''
@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Informatie over het zoeken naar bronnen voor Microsoft Viva Topics.
-ms.openlocfilehash: 31031697b7825b725c020952a6217b278aa09f02
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
-ms.translationtype: HT
+ms.openlocfilehash: 4596f703f86465e4d2d37e2744493bcaef440b7b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454121"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538913"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Inleiding tot Microsoft Viva Topics
 
@@ -29,13 +29,13 @@ ms.locfileid: "50454121"
 </br>
 
 
-Viva Topics is een Office 365-service waarmee organisaties informatie kunnen omzetten in kennis.
+Viva Topics is een Microsoft 365 waarmee organisaties informatie kunnen omzetten in kennis.
 
 De informatie op deze pagina is bedoeld om u op weg te helpen met het leren werken met en het gebruik van Viva Topics in uw organisatie.
 
 ## <a name="get-started"></a>Aan de slag
 
-De bronnen in deze sectie helpen u meer te weten te komen over wat Viva Topics is en hoe het u kan helpen.
+De bronnen in deze sectie helpen u meer te weten te komen over wat Viva-onderwerpen zijn en hoe deze u kunnen helpen.
 
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|

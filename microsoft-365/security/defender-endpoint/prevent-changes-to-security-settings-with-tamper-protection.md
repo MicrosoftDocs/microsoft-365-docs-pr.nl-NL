@@ -16,17 +16,15 @@ ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 9a2f37aa0a2a17646862a7a7e1bd8b34685e76b8
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 05/17/2021
+ms.openlocfilehash: ed9eb425d718a2dbdaa2cdb3ab1e6899c9870124
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274710"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538881"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Beveiligingsinstellingen beveiligen tegen onrechtmatig wijzigen
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 
@@ -62,14 +60,12 @@ Met de beveiliging van tamper worden Microsoft Defender Antivirus en voorkomt u 
 
 Beveiliging van tamper voorkomt niet dat u uw beveiligingsinstellingen kunt bekijken. En tamperbeveiliging heeft geen invloed op de manier waarop antivirus-apps van derden zich registreren met de Windows-beveiliging app. Als uw organisatie E5 Windows 10 Enterprise gebruiken, kunnen afzonderlijke gebruikers de instelling voor de beveiliging van tamper niet wijzigen. in die gevallen wordt de beveiliging van de tamper beheerd door uw beveiligingsteam.
 
-
-
 ### <a name="what-do-you-want-to-do"></a>Wat wilt u doen?
 
 | Als u deze taak wilt uitvoeren... | Zie deze sectie... |
 |:---|:---|
-| Beveiligingsbeveiliging voor tamper in- of uitschakelen in de Microsoft Defender-beveiligingscentrum <p>Beveiliging van manipulaties in uw tenant beheren | [Beveiliging van fraude voor uw organisatie beheren met behulp van de Microsoft Defender-beveiligingscentrum](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) |
-| Beveiligingsbeveiliging voor tamper in- of uitschakelen voor uw hele organisatie of een deel van uw organisatie met Intune <p>Beveiligingsinstellingen voor tampers in uw organisatie aanpassen | [Beveiliging van fraude voor uw organisatie beheren met Intune](#manage-tamper-protection-for-your-organization-using-intune) |
+| Beveiliging van manipulaties in uw tenant beheren <p>Gebruik de Microsoft Defender-beveiligingscentrum om de beveiliging van de tamper in of uit te schakelen | [Beveiliging van fraude voor uw organisatie beheren met behulp van de Microsoft Defender-beveiligingscentrum](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) |
+| Beveiligingsinstellingen voor tampers in uw organisatie aanpassen <p>Gebruik Intune (Microsoft Endpoint Manager) om tamperbeveiliging in of uit te schakelen. Met deze methode kunt u de beveiligingsbeveiliging voor sommige of alle gebruikers configureren. | [Beveiliging van fraude voor uw organisatie beheren met Intune](#manage-tamper-protection-for-your-organization-using-intune) |
 | Beveiligingsbeveiliging voor tamper in- of uitschakelen voor uw organisatie met Configuration Manager | [Beveiliging van fraude voor uw organisatie beheren met tenant attach met Configuration Manager, versie 2006](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006) |
 | Beveiligingsbeveiliging voor een afzonderlijk apparaat in- of uitschakelen | [Beveiliging van manipulaties beheren op een afzonderlijk apparaat](#manage-tamper-protection-on-an-individual-device) |
 | Details weergeven over pogingen tot geknoei op apparaten | [Informatie weergeven over pogingen tot geknoei](#view-information-about-tampering-attempts) |
@@ -80,29 +76,24 @@ Afhankelijk van de methode of het beheerprogramma dat u gebruikt om tamper-bevei
 
 In de volgende tabel vindt u informatie over de methoden, hulpmiddelen en afhankelijkheden.
 
-
-
-|     De manier waarop beveiliging van Tamper is ingeschakeld                                         |     Afhankelijkheid van KAARTEN (beveiliging in de cloud)    |
-|------------------------------------------------------------------------------|--------------------------------------------------------|
-|     Microsoft Intune                                                         |     Nee                                                 |
-| Microsoft Endpoint Configuration Manager + Tenant Attach                     |     Nee                                                 |
-|     Microsoft Defender for Endpoint portal (securitycenter.microsoft.com)    |     Ja                                                |
-|     Microsoft 365 Defender portal (security.microsoft.com)                   |     Ja                                                |
+| De manier waarop beveiliging van Tamper is ingeschakeld  | Afhankelijkheid van KAARTEN (beveiliging in de cloud)    |
+|:----|:----|
+| Microsoft Intune  | Nee |
+| Microsoft Endpoint Configuration Manager + Tenant Attach  |     Nee  |
+| Microsoft Defender-beveiligingscentrum ( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     Ja |
+| Microsoft 365 beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) )  |     Ja  |
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Beveiliging van fraude voor uw organisatie beheren met behulp van de Microsoft Defender-beveiligingscentrum
 
 Met de Microsoft Defender-beveiligingscentrum ( ) kunt u de beveiliging van tampers in- of uitschakelen voor uw [https://securitycenter.windows.com](https://securitycenter.windows.com) tenant. Hier zijn een paar punten waar u rekening mee moet houden:
 
-- Momenteel is de optie voor het beheren van de beveiliging van Microsoft Defender-beveiligingscentrum standaard ingeschakeld voor nieuwe implementaties. Voor bestaande implementaties is tamperbeveiliging beschikbaar op basis van een opt-in, met plannen om dit in de nabije toekomst de standaardmethode te maken. (Als u wilt kiezen, kiest u in Microsoft Defender-beveiligingscentrum de **Instellingen**  >  **Geavanceerde functies**  >  **Tamper-beveiliging**.) 
+- Momenteel is de optie voor het beheren van de beveiliging van Microsoft Defender-beveiligingscentrum standaard ingeschakeld voor nieuwe implementaties. Voor bestaande implementaties is tamperbeveiliging beschikbaar op basis van een opt-in, met plannen om in de nabije toekomst te kiezen voor de standaardmethode. (Als u wilt kiezen, kiest u in Microsoft Defender-beveiligingscentrum de **Instellingen**  >  **Geavanceerde functies**  >  **Tamper-beveiliging**.) 
 
 - Wanneer u de Microsoft Defender-beveiligingscentrum voor het beheren van de beveiliging van de tamper, hoeft u Intune of de tenant attach-methode niet te gebruiken.
 
 - Wanneer u de beveiliging van de tamper in de Microsoft Defender-beveiligingscentrum beheert, wordt de instelling breed toegepast op de tenant, wat van invloed is op al uw apparaten waarop Windows 10, Windows Server 2016 of Windows Server 2019 wordt uitgevoerd. Gebruik [Intune](#manage-tamper-protection-for-your-organization-using-intune) of Configuration Manager met tenant attach om de beveiliging van de manipulaties (zoals het hebben van beveiliging tegen geknoei op sommige apparaten, maar voor andere apparaten) te [finetunen.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - Als u een hybride omgeving hebt, hebben beveiligingsinstellingen die zijn geconfigureerd in Intune voorrang op instellingen die zijn geconfigureerd in de Microsoft Defender-beveiligingscentrum. 
-
-
-
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-defender-security-center"></a>Vereisten voor het beheren van de beveiliging van tamper in de Microsoft Defender-beveiligingscentrum
 
@@ -133,7 +124,7 @@ Met de Microsoft Defender-beveiligingscentrum ( ) kunt u de beveiliging van tamp
 
 ## <a name="manage-tamper-protection-for-your-organization-using-intune"></a>Beveiliging van fraude voor uw organisatie beheren met Intune
 
-Als u deel uitmaakt van het beveiligingsteam van uw organisatie en uw abonnement [Intune](/intune/fundamentals/what-is-intune)bevat, kunt u de beveiligingsbeveiliging voor de organisatie in- of uitschakelen in de [Microsoft Endpoint Manager-beheercentrumportal.](https://endpoint.microsoft.com) Gebruik Intune als u de beveiligingsinstellingen voor geknoeidheid wilt aanpassen. Als u bijvoorbeeld de beveiliging van manipulaties op sommige apparaten wilt inschakelen, maar niet alle apparaten, gebruikt u Intune.
+Als u deel uitmaakt van het beveiligingsteam van uw organisatie en uw abonnement [Intune](/intune/fundamentals/what-is-intune)bevat, kunt u de beveiliging van tamper in- of uitschakelen voor uw organisatie in het Microsoft Endpoint Manager-beheercentrum ( [https://endpoint.microsoft.com](https://endpoint.microsoft.com) ). Gebruik Intune als u de beveiligingsinstellingen voor geknoeidheid wilt aanpassen. Als u bijvoorbeeld de beveiliging van manipulaties op sommige apparaten wilt inschakelen, maar niet alle apparaten, gebruikt u Intune.
 
 ### <a name="requirements-for-managing-tamper-protection-in-intune"></a>Vereisten voor het beheren van beveiliging tegen geknoei in Intune
 
@@ -179,12 +170,12 @@ Als u Windows 10 OS [1709,](/windows/release-health/status-windows-10-1709) [180
 
 Als u versie [2006](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2006)van Configuration Manager gebruikt, kunt u beveiligingsinstellingen voor geknoeid beheren op Windows 10, Windows Server 2016 en Windows Server 2019 met behulp van de methode *tenant attach*. Met Tenant attach kunt u uw on-premises Configuration Manager-apparaten synchroniseren met het Microsoft Endpoint Manager-beheercentrum en vervolgens beveiligingsconfiguratiebeleid voor eindpunten leveren aan on-premises verzamelingen & apparaten.
 
-![Windows beveiligingservaring in Endpoint Manager](images/win-security- exp-policy-endpt-security.png)
+:::image type="content" source="images/win-security- exp-policy-endpt-security.png" alt-text="Windows-beveiliging ervaring in Endpoint Manager":::
 
 > [!NOTE]
 > De procedure kan worden gebruikt om de beveiliging van tamper uit te breiden naar apparaten met Windows 10 en Windows Server 2019. Controleer de vereisten en andere informatie in de bronnen die in deze procedure worden vermeld.
 
-1. Tenant attach instellen. Zie voor hulp bij deze Microsoft Endpoint Manager [tenant: Apparaatsynchronisatie en apparaatacties.](/mem/configmgr/tenant-attach/device-sync-actions)
+1. Tenant attach instellen. Zie voor meer informatie [Microsoft Endpoint Manager tenant attach: Apparaatsynchronisatie en apparaatacties.](/mem/configmgr/tenant-attach/device-sync-actions)
 
 2. Ga in [Microsoft Endpoint Manager beheercentrum](https://go.microsoft.com/fwlink/?linkid=2109431)naar **Endpoint security**  >  **Antivirus** en kies + Beleid **maken.**<br/> 
    - Selecteer in **de lijst Platform** Windows 10 en Windows Server **(ConfigMgr)**.  
@@ -219,8 +210,6 @@ Dit ziet u in de Windows-beveiliging app:
 2. Selecteer **Virusbeveiliging &**  >  **bedreigingsbeveiliging & beveiligingsinstellingen voor bedreigingen.**
 
 3. Beveiligingsbeveiliging **voor Tamper instellen** op **Aan** of **Uit.**
-
-
 
 ## <a name="view-information-about-tampering-attempts"></a>Informatie weergeven over pogingen tot geknoei
 

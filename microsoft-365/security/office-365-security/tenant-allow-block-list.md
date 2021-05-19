@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het configureren van toestaan en blokkeren in de lijst Tenant toestaan/blokkeren in de beveiligingsportal.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 103ddc9aa0858f9203582ac07a655fd7f5506cf3
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 270e38d65857de2f4d06460fb3bb77f72a165ecf
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587585"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538961"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Tenant Toestaan/Blokkeren-lijst beheren
 
@@ -33,13 +33,21 @@ ms.locfileid: "51587585"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> U kunt op dit **moment geen toegestane** items configureren in de lijst Tenant toestaan/blokkeren.
+>
+> De functies die in dit artikel worden beschreven, zijn in Preview, kunnen worden gewijzigd en zijn niet beschikbaar in alle organisaties.  Als uw organisatie niet beschikt over de spooffuncties zoals beschreven in dit artikel, bekijkt u de oudere spoofbeheerervaring bij Vervalste afzenders beheren met behulp van het spoof intelligence-beleid en het inzicht in spoof [intelligence in EOP.](walkthrough-spoof-intelligence-insight.md)
+>
+> U kunt op dit **moment geen** toegestane URL- of bestandsitems configureren in de lijst Tenant toestaan/blokkeren.
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, bent u het mogelijk niet eens met de uitspraak over EOP-filtering. Een goed bericht kan bijvoorbeeld worden gemarkeerd als slecht (een onwaar positief) of een slecht bericht kan worden toegestaan (een onwaar negatief).
+In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, kunt u het niet eens zijn met de uitspraak over EOP-filtering. Een goed bericht kan bijvoorbeeld worden gemarkeerd als slecht (een onwaar positief) of een slecht bericht kan worden toegestaan (een onwaar negatief).
 
-Met de tenantlijst Toestaan/blokkeren in het Beveiligings- & Compliancecentrum kunt u handmatig de filterinspraken van Microsoft 365 overschrijven. De lijst Tenant toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en op het moment dat de gebruiker klikt. U kunt URL's of bestanden opgeven die u altijd wilt blokkeren.
+Met de tenantlijst Toestaan/blokkeren in het Beveiligings- & Compliancecentrum kunt u handmatig de regels voor filteren Microsoft 365 overschrijven. De lijst Tenant toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en op het moment dat de gebruiker klikt. U kunt de volgende typen overschrijven opgeven:
 
-In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tenant toestaan/blokkeren in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+- URL's die u wilt blokkeren.
+- Bestanden die u wilt blokkeren.
+- Bulkmail sender domains to allow. Zie Bulk [complaint level (BCL) in EOP voor](bulk-complaint-level-values.md)meer informatie over bulkmail, het bulk-betrouwbaarheidsniveau (BCL) en bulkmailfilters door antispambeleid.
+- Vervalste afzenders om dit toe te staan of te blokkeren. Als u de uitspraak toestaan of blokkeren overschrijven in het inzicht van spoof [intelligence,](learn-about-spoof-intelligence.md)wordt de vervalste afzender een handmatige invoer toestaan of blokkeren die alleen wordt weergegeven op het tabblad **Spoof** in de lijst Toestaan/blokkeren van tenants. U kunt hier ook handmatig vermeldingen voor vervalste afzenders maken of blokkeren voordat ze worden gedetecteerd door spoofinformatie.
+
+In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tenant toestaan/blokkeren in het Beveiligings- & Compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -67,20 +75,23 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- U moet over toegewezen machtigingen beschikken in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
-  - Als u waarden wilt toevoegen en verwijderen uit de lijst Tenant toestaan/blokkeren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
-  - Voor alleen-lezen toegang tot de tenantlijst toestaan/blokkeren moet  u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
+- U moet over toegewezen machtigingen beschikken in Exchange Online voordat u de procedures in dit artikel kunt uitvoeren:
+  - **URL's, bestanden en bulksgewijs afzenders toestaan:**
+    - Als u waarden wilt toevoegen en verwijderen uit de lijst Tenant toestaan/blokkeren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
+    - Voor alleen-lezen toegang tot de tenantlijst toestaan/blokkeren moet  u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
+  - **Spoofing:** Een van de volgende combinaties:
+    - **Organisatiebeheer**
+    - **Beveiligingsbeheerder** <u>en</u> **Alleen-weergeven-configuratie** of **Alleen-weergeven organisatiebeheer**.
 
   Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
   > [!NOTE]
-  > 
+  >
   > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  >
   > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
-## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om URL-vermeldingen te maken in de lijst Tenant toestaan/blokkeren
-
-Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis van URL-vermeldingen.
+## <a name="use-the-security--compliance-center-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het Beveiligings- & compliancecentrum om URL-items voor blokkering te maken in de lijst Toestaan/blokkeren van tenant
 
 1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
@@ -88,7 +99,7 @@ Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren]
 
 3. Configureer **de volgende** instellingen in het flyout URL's blokkeren dat wordt weergegeven:
 
-   - **URL's toevoegen om te blokkeren:** Voer één URL per regel in, maximaal 20.
+   - **URL's toevoegen om te blokkeren:** Voer één URL per regel in, maximaal 20. Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis van URL-vermeldingen.
 
    - **Nooit verlopen:** Ga op een van de volgende stappen te werk:
 
@@ -102,11 +113,11 @@ Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren]
 
 4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
-## <a name="use-the-security--compliance-center-to-create-file-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om bestandsgegevens te maken in de lijst Tenant toestaan/blokkeren
+## <a name="use-the-security--compliance-center-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om blokbestandsgegevens te maken in de lijst Toestaan/blokkeren van tenants
 
 1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
-2. Selecteer op de pagina Lijst met **tenants toestaan/blokkeren** de optie **Tabblad** Bestanden en klik vervolgens op **Blokkeren.**
+2. Selecteer op de pagina Lijst met  **tenants toestaan/blokkeren** het tabblad Bestanden en klik vervolgens op **Blokkeren.**
 
 3. Configureer **de volgende instellingen in het flyout** add files to block flyout that appears:
 
@@ -124,75 +135,173 @@ Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren]
 
 4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
+## <a name="use-the-security--compliance-center-to-create-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>Gebruik het Beveiligings- & compliancecentrum om domeingegevens van bulkmails in de lijst Toestaan/blokkeren van tenants toe te staan
+
+1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
+
+2. Selecteer op de pagina Lijst met tenants **toestaan/blokkeren** het tabblad **Afzenderdomeinen voor BCL-bypass** en klik vervolgens op **Toevoegen.**
+
+3. Configureer **in het domein Afzender toevoegen voor BCL bypass** flyout dat wordt weergegeven de volgende instellingen:
+
+   - **Afzenderdomeinen toevoegen voor BCL-bypass:** Voer één brondomein in met goede bulkmail per regel, maximaal 20.
+
+   - **Nooit verlopen:** Ga op een van de volgende stappen te werk:
+
+     - Controleer of de instelling is uitgeschakeld (schakel uit) en gebruik het vak Verloopt aan om de vervaldatum voor de ![ ](../../media/scc-toggle-off.png) vermeldingen op te geven. 
+
+     of
+
+     - Verplaats de schakelknop naar rechts om de items zo te configureren dat ze nooit verlopen: ![Inschakelen](../../media/scc-toggle-on.png).
+
+4. Wanneer u klaar bent, klikt u op **Toevoegen.**
+
+## <a name="use-the-security--compliance-center-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Gebruik het Beveiligings- & compliancecentrum om vervalste afzenders toe te staan of te blokkeren in de lijst Tenant toestaan/blokkeren
+
+**Opmerkingen**:
+
+- Alleen de _combinatie_ van de vervalste _gebruiker_ en de verzendende infrastructuur zoals gedefinieerd in het domeinpaar is specifiek toegestaan of geblokkeerd voor spoofing.
+- Wanneer u een invoer toestaan of blokkeren configureert voor een domeinpaar, worden berichten van dat domeinpaar niet meer weergegeven in het inzicht van de spoof intelligence.
+- Vermeldingen voor vervalste afzenders verlopen nooit.
+
+1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
+
+2. Selecteer op de pagina Lijst met tenants **toestaan/blokkeren** het tabblad **Spoofing** en klik vervolgens op **Toevoegen.**
+
+3. Configureer **de volgende** instellingen in het fly-out Nieuwe domeinparen toevoegen dat wordt weergegeven:
+
+   - **Nieuwe domeinparen toevoegen met jokertekens:** Voer één domeinpaar per regel in, maximaal 20. Zie de syntaxis van het domeinpaar voor vervalste afzendergegevens in de sectie [Tenant Allow/Block List](#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis van vervalste afzenders.
+
+   - **Type spoof:** Selecteer een van de volgende waarden:
+     - **Intern:** De vervalste afzender is een domein dat deel uitmaken van uw organisatie (een [geaccepteerd domein).](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
+     - **Extern:** De vervalste afzender is een extern domein.
+
+   - **Actie:** Selecteer **Toestaan** of **Blokkeren.**
+
+4. Wanneer u klaar bent, klikt u op **Toevoegen.**
+
 ## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om items in de lijst Tenant toestaan/blokkeren weer te geven
 
 1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
-2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
+2. Selecteer het beste tabblad. De beschikbare kolommen zijn afhankelijk van het tabblad dat u hebt geselecteerd:
 
-Klik op de volgende kolomkoppen om in oplopende of aflopende volgorde te sorteren:
+   - **URL's**:
+     - **Waarde:** De URL.
+     - **Actie**: Het **waardeblok**.
+     - **Laatst bijgewerkte datum**
+     - **Vervaldatum**
+     - **Opmerking**
 
-- **Waarde:** De URL of de bestandshash.
-- **Laatst bijgewerkte datum**
-- **Vervaldatum**
-- **Opmerking**
+   - **Bestanden**
+     - **Waarde:** De bestandshash.
+     - **Actie**: Het **waardeblok**.
+     - **Laatst bijgewerkte datum**
+     - **Vervaldatum**
+     - **Opmerking**
 
-Klik **op Zoeken,** voer een hele of een deel van een waarde in en druk vervolgens op Enter om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u op **Zoek verwijderen Zoekpictogram** ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) verwijderen.
+   - **Afzenderdomeinen voor BCL-bypass**
+     - **Waarde:** het domein van de afzender van de bulkmail.
+     - **Laatst bijgewerkte datum**
+     - **Vervaldatum**
 
-Klik **op Filteren.** Configureer **een van** de volgende instellingen in het flyout Filter dat wordt weergegeven:
+   - **Spoofing**
+     - **Vervalste gebruiker**
+     - **Verzendende infrastructuur**
+     - **Spooftype:** De waarde **Intern** of **Extern**.
+     - **Actie:** De waarde **Blokkeren of** **Toestaan.**
 
-- **Nooit verlopen:** Uit- of ![ ](../../media/scc-toggle-off.png) uitschakelen: ![ In- of uitschakelen: In- of ](../../media/scc-toggle-on.png) uitschakelen.
+   U kunt op een kolomkoppen klikken om in oplopende of aflopende volgorde te sorteren.
 
-- **Laatst bijgewerkt:** Selecteer een begindatum **(Van),** een einddatum **(Aan)** of beide.
+   U kunt klikken op **Groep om** de resultaten te groepen. De waarden die beschikbaar zijn, zijn afhankelijk van het tabblad dat u hebt geselecteerd:
 
-- **Vervaldatum:** Selecteer een begindatum (**Van**), een einddatum (**Aan**) of beide.
+   - **URL's:** U kunt de resultaten groepen op **Actie.**
+   - **Bestanden:** U kunt de resultaten groepren op **Actie.**
+   - **Afzenderdomeinen voor BCL-bypass:** **Groep** is niet beschikbaar op dit tabblad.
+   - **Spoofing:** U kunt de resultaten groeperen op **Actie** of **Spooftype.**
 
-Wanneer u klaar bent, klikt u op **Toepassen.**
+   Klik **op Zoeken,** voer een hele of een deel van een waarde in en druk vervolgens op Enter om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u op **Zoek verwijderen Zoekpictogram** ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) verwijderen.
 
-Als u bestaande filters wilt wissen, klikt u **op Filter** en klikt u in het **fly-out** Filter dat wordt weergegeven op Filters **wissen.**
+   Klik **op Filteren** om de resultaten te filteren. De waarden die beschikbaar zijn in **de flyout Filter** die wordt weergegeven, zijn afhankelijk van het tabblad dat u hebt geselecteerd:
 
-## <a name="use-the-security--compliance-center-to-modify-block-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om blokinzendingen in de lijst Tenant toestaan/blokkeren te wijzigen
+   - **URL's**
+     - **Actie**
+     - **Nooit verlopen**
+     - **Laatst bijgewerkte datum**
+     - **Vervaldatum**
 
-U kunt de bestaande geblokkeerde URL of bestandswaarden in een item niet wijzigen. Als u deze waarden wilt wijzigen, moet u de vermelding verwijderen en opnieuw maken.
+   - **Bestanden**
+     - **Actie**
+     - **Nooit verlopen**
+     - **Laatst bijgewerkte datum**
+     - **Vervaldatum**
+
+   - **Afzenderdomeinen voor BCL-bypass**
+     - **Nooit verlopen**
+     - **Laatst bijgewerkte datum**
+     - **Vervaldatum**
+
+   - **Spoofing**
+     - **Actie**
+     - **Spooftype**
+
+   Wanneer u klaar bent, klikt u op **Toepassen.** Als u bestaande filters wilt wissen, klikt u **op Filter** en klikt u in het **fly-out** Filter dat wordt weergegeven op Filters **wissen.**
+
+## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om items in de lijst Tenant Allow/Block te wijzigen
 
 1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
-2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
+2. Selecteer het tabblad met het type vermelding dat u wilt wijzigen:
+   - **URL's**
+   - **Bestanden**
+   - **Afzenderdomeinen voor BCL-bypass**
+   - **Spoofing**
 
-3. Selecteer de blokinvoer die u wilt wijzigen en klik vervolgens op **Pictogram** ![ Bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) bewerken.
+3. Selecteer het item dat u wilt wijzigen en klik vervolgens op **Pictogram** ![ Bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) bewerken. De waarden die u kunt wijzigen in het flyout dat wordt weergegeven, zijn afhankelijk van het tabblad dat u in de vorige stap hebt geselecteerd:
 
-4. Configureer de volgende instellingen in het flyout dat wordt weergegeven:
+   - **URL's**
+     - **Nooit verlopen** en/of vervaldatum.
+     - **Optionele notitie**
 
-   - **Nooit verlopen:** Ga op een van de volgende stappen te werk:
+   - **Bestanden**
+     - **Nooit verlopen** en/of vervaldatum.
+     - **Optionele notitie**
 
-     - Controleer of de instelling is uitgeschakeld (schakelknop uit) en gebruik het vak Verloopt op om de vervaldatum voor ![ de vermelding op te ](../../media/scc-toggle-off.png) geven. 
+   - **Afzenderdomeinen voor BCL-bypass**
+     - **Nooit verlopen** en/of vervaldatum.
 
-       of
+   - **Spoofing**
+     - **Actie:** U kunt de waarde wijzigen in **Toestaan** of **Blokkeren.**
 
-     - Verplaats de schakelknop naar rechts om de vermelding zo te configureren dat deze nooit verloopt: ![Inschakelen](../../media/scc-toggle-on.png).
+4. Klik op **Opslaan** wanneer u gereed bent.
 
-   - **Optionele opmerking:** Voer beschrijvende tekst in voor de vermelding.
-
-5. Klik op **Opslaan** wanneer u gereed bent.
-
-## <a name="use-the-security--compliance-center-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om blokinzendingen uit de lijst Met tenant toestaan/blokkeren te verwijderen
+## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om items te verwijderen uit de lijst Tenant toestaan/blokkeren
 
 1. Ga in het & Compliance center naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
 
-2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
+2. Selecteer het tabblad met het type invoer dat u wilt verwijderen:
+   - **URL's**
+   - **Bestanden**
+   - **Afzenderdomeinen voor BCL-bypass**
+   - **Spoofing**
 
-3. Selecteer de blokinvoer die u wilt verwijderen en klik vervolgens op **Pictogram** ![ Verwijderen ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) verwijderen.
+3. Selecteer het item dat u wilt verwijderen en klik vervolgens op **Pictogram** ![ Verwijderen ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) verwijderen.
 
 4. Klik in het waarschuwingsvenster dat wordt weergegeven op **Verwijderen.**
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a>Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om de tenantlijst toestaan/blokkeren te configureren
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a>Gebruik Exchange Online PowerShell of zelfstandige EOP PowerShell om de lijst met tenants toestaan/blokkeren te configureren
 
-### <a name="use-powershell-to-add-block-entries-to-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokgegevens toe te voegen aan de lijst Tenant toestaan/blokkeren
+### <a name="use-powershell-to-add-block-file-or-url-entries-to-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokbestands- of URL-vermeldingen toe te voegen aan de lijst Tenant toestaan/blokkeren
 
-Gebruik de volgende syntaxis om blokgegevens toe te voegen in de lijst Tenant Allow/Block:
+Gebruik de volgende syntaxis om blokbestands- of URL-vermeldingen toe te voegen aan de lijst Tenant toestaan/blokkeren:
 
 ```powershell
-New-TenantAllowBlockListItems -ListType <Url | FileHash> -Block -Entries <String[]> [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
+New-TenantAllowBlockListItems -ListType <FileHash | Url> -Block -Entries "Value1","Value2",..."ValueN" <-ExpirationDate Date | -NoExpiration> [-Notes <String>]
+```
+
+In dit voorbeeld wordt een blokbestandsinvoer toegevoegd voor de opgegeven bestanden die nooit verlopen.
+
+```powershell
+New-TenantAllowBlockListItem -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
 In dit voorbeeld wordt een blok-URL-vermelding voor contoso.com en alle subdomeinen (bijvoorbeeld contoso.com, www.contoso.com en xyz.abc.contoso.com). Omdat we de parameters Vervaldatum of NoExpiration niet hebben gebruikt, verloopt de vermelding na 30 dagen.
@@ -201,26 +310,41 @@ In dit voorbeeld wordt een blok-URL-vermelding voor contoso.com en alle subdomei
 New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 ```
 
-In dit voorbeeld wordt een blokbestandsinvoer toegevoegd voor de opgegeven bestanden die nooit verlopen.
+Zie [New-TenantAllowBlockListItems voor](/powershell/module/exchange/new-tenantallowblocklistitems)gedetailleerde syntaxis en parametergegevens.
+
+### <a name="use-powershell-to-add-allow-bulk-mail-sender-domain-entries-to-the-tenant-allowblock-list"></a>PowerShell gebruiken om domeingegevens van bulkmail afzender toe te voegen aan de tenantlijst toestaan/blokkeren
+
+Gebruik de volgende syntaxis om domeingegevens van bulkmail afzender toe te voegen in de lijst Tenant Allow/Block:
 
 ```powershell
+New-TenantAllowBlockListItems -ListType BulkSender -Block:$false -Entries "Value1","Value2",..."ValueN" <-ExpirationDate Date | -NoExpiration> [-Notes <String>]
+```
+
+In dit voorbeeld wordt een toegestane bulkinvoer voor afzenders toegevoegd voor het opgegeven domein dat nooit verloopt.
+
+```powershell
+New-TenantAllowBlockListItem -ListType BulkSender -Block:$false -Entries contosodailydeals.com
 New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
 Zie [New-TenantAllowBlockListItems voor](/powershell/module/exchange/new-tenantallowblocklistitems)gedetailleerde syntaxis en parametergegevens.
 
-### <a name="use-powershell-to-view-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om items in de lijst Tenant toestaan/blokkeren weer te geven
+### <a name="use-powershell-to-add-allow-or-block-spoofed-sender-entries-to-the-tenant-allowblock-list"></a>PowerShell gebruiken om vervalste afzendergegevens toe te voegen of te blokkeren aan de lijst Tenant toestaan/blokkeren
 
-Gebruik de volgende syntaxis om vermeldingen in de lijst Tenant toestaan/blokkeren weer te geven:
+Gebruik de volgende syntaxis om vervalste afzendergegevens toe te voegen aan de lijst Tenant Allow/Block:
 
 ```powershell
-Get-TenantAllowBlockListItems -ListType <Url | FileHash> [-Entry <URLValue | FileHashValue>] [-Block] [-ExpirationDate <DateTime>] [-NoExpiration]
+New-TenantAllowBlockListSpoofItems -SpoofedUser <Domain | EmailAddress | *> -SendingInfrastructure <Domain | IPAddress/24> -SpoofType <External | Internal> -Action <Allow | Block>
 ```
 
-In dit voorbeeld worden alle geblokkeerde URL's als retourneert.
+Zie [New-TenantAllowBlockListSpoofItems voor](/powershell/module/exchange/new-tenantallowblocklistspoofitems)gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-view-block-file-or-url-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokbestands- of URL-items weer te geven in de lijst Tenant Allow/Block
+
+Als u blokbestands- of URL-vermeldingen wilt weergeven in de lijst Tenant toestaan/blokkeren, gebruikt u de volgende syntaxis:
 
 ```powershell
-Get-TenantAllowBlockListItems -ListType Url -Block
+Get-TenantAllowBlockListItems -ListType <FileHash | URL> [-Entry <FileHashValue | URLValue>] [<-ExpirationDate Date | -NoExpiration>]
 ```
 
 In dit voorbeeld worden gegevens voor de opgegeven waarde voor bestandshash als resultaat gegeven.
@@ -229,32 +353,118 @@ In dit voorbeeld worden gegevens voor de opgegeven waarde voor bestandshash als 
 Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
 ```
 
-Zie [Get-TenantAllowBlockListItems voor](/powershell/module/exchange/get-tenantallowblocklistitems)gedetailleerde syntaxis en parametergegevens.
-
-### <a name="use-powershell-to-modify-block-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokgegevens in de lijst Tenant toestaan/blokkeren te wijzigen
-
-U kunt de bestaande URL- of bestandswaarden in een blokinvoer niet wijzigen. Als u deze waarden wilt wijzigen, moet u de vermelding verwijderen en opnieuw maken.
-
-Gebruik de volgende syntaxis om blokgegevens in de lijst Tenant toestaan/blokkeren te wijzigen:
+In dit voorbeeld worden alle geblokkeerde URL's als retourneert.
 
 ```powershell
-Set-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN"> [-Block] [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
+Get-TenantAllowBlockListItems -ListType Url -Block
 ```
 
-In dit voorbeeld wordt de vervaldatum van de opgegeven blokinvoer gewijzigd.
+Zie [Get-TenantAllowBlockListItems voor](/powershell/module/exchange/get-tenantallowblocklistitems)gedetailleerde syntaxis en parametergegevens.
+
+### <a name="use-powershell-to-view-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om domeingegevens van bulkmail afzenders weer te geven in de lijst Tenant Allow/Block
+
+Gebruik de volgende syntaxis als u domeingegevens van bulkmail afzenders wilt weergeven in de lijst Tenant Allow/Block:
 
 ```powershell
-Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -ExpirationDate (Get-Date "5/30/2020 9:30 AM").ToUniversalTime()
+Get-TenantAllowBlockListItems -ListType BulkSender [-Entry <BulkSenderDomainValue>] [<-ExpirationDate Date | -NoExpiration>]
+```
+
+In dit voorbeeld worden alle toegestane domeinen voor bulkmail afzenders als retourneert.
+
+```powershell
+Get-TenantAllowBlockListItems -ListType BulkSender
+```
+
+In dit voorbeeld worden gegevens voor het opgegeven domein voor bulksgewijs afzenders als retourneert.
+
+```powershell
+Get-TenantAllowBlockListItems -ListType FileHash -Entry "contosodailydeals.com"
+```
+
+Zie [Get-TenantAllowBlockListItems voor](/powershell/module/exchange/get-tenantallowblocklistitems)gedetailleerde syntaxis en parametergegevens.
+
+### <a name="use-powershell-to-view-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om vervalste afzenders toe te staan of te blokkeren in de lijst Tenant toestaan/blokkeren
+
+Gebruik de volgende syntaxis om vervalste afzendergegevens weer te geven in de lijst Tenant Allow/Block:
+
+```powershell
+Get-TenantAllowBlockListSpoofItems [-Action <Allow | Block>] [-SpoofType <External | Internal>
+```
+
+Dit voorbeeld retourneert alle vervalste afzendergegevens in de lijst Tenant toestaan/blokkeren.
+
+```powershell
+Get-TenantAllowBlockListSpoofItems
+```
+
+Dit voorbeeld retourneert alle toegestane vermeldingen van vervalste afzenders die intern zijn.
+
+```powershell
+Get-TenantAllowBlockListSpoofItems -Action Allow -SpoofType Internal
+```
+
+In dit voorbeeld worden alle geblokkeerde vermeldingen van vervalste afzenders die extern zijn, als retourneert.
+
+```powershell
+Get-TenantAllowBlockListSpoofItems -Action Block -SpoofType External
+```
+
+Zie [Get-TenantAllowBlockListSpoofItems (Get-TenantAllowBlockListSpoofItems)](/powershell/module/exchange/get-tenantallowblocklistspoofitems)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-modify-block-file-and-url-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokbestands- en URL-items in de lijst Tenant allow/block te wijzigen
+
+Gebruik de volgende syntaxis om blokbestands- en URL-vermeldingen in de lijst Tenant toestaan/blokkeren te wijzigen:
+
+```powershell
+Set-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN"> [<-ExpirationDate Date | -NoExpiration>] [-Notes <String>]
+```
+
+In dit voorbeeld wordt de vervaldatum van de opgegeven blok-URL-vermelding gewijzigd.
+
+```powershell
+Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -ExpirationDate "5/30/2020"
 ```
 
 Zie [Set-TenantAllowBlockListItems (Set-TenantAllowBlockListItems)](/powershell/module/exchange/set-tenantallowblocklistitems)voor gedetailleerde syntaxis- en parametergegevens.
 
-### <a name="use-powershell-to-remove-block-entries-from-the-tenant-allowblock-list"></a>PowerShell gebruiken om blokgegevens te verwijderen uit de lijst Tenant toestaan/blokkeren
+### <a name="use-powershell-to-modify-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om domeingegevens van bulkmail afzenders toe te staan in de lijst Tenant Allow/Block
 
-Als u blokinzendingen wilt verwijderen uit de lijst Tenant toestaan/blokkeren, gebruikt u de volgende syntaxis:
+Gebruik de volgende syntaxis om domeingegevens van bulkmail afzender toe te staan in de lijst Tenant Allow/Block:
 
 ```powershell
-Remove-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN">
+Get-TenantAllowBlockListItems -ListType BulkSender -Ids <"Id1","Id2",..."IdN"> [<-ExpirationDate Date | -NoExpiration>] [-Notes <String>]
+```
+
+In dit voorbeeld wordt de vervaldatum van de opgegeven domeininvoer voor bulkmail afzenders nooit verlopen.
+
+```powershell
+Set-TenantAllowBlockListItems -ListType BulkSender -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -NoExpiration
+```
+
+Zie [Get-TenantAllowBlockListItems voor](/powershell/module/exchange/get-tenantallowblocklistitems)gedetailleerde syntaxis en parametergegevens.
+
+### <a name="use-powershell-to-modify-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>PowerShell gebruiken om vervalste afzenders toe te staan of te blokkeren in de lijst Tenant toestaan/blokkeren
+
+Gebruik de volgende syntaxis om vervalste afzendergegevens in de lijst Tenant Allow/Block te wijzigen:
+
+```powershell
+Set-TenantAllowBlockListSpoofItems -Ids <"Id1","Id2",..."IdN"> -Action <Allow | Block>
+```
+
+In dit voorbeeld wordt de vermelding van vervalste afzenders gewijzigd in toestaan om te blokkeren.
+
+```powershell
+Set-TenantAllowBlockListItems -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -Action Block
+```
+
+Zie [Set-TenantAllowBlockListSpoofItems (Set-TenantAllowBlockListSpoofItems)](/powershell/module/exchange/set-tenantallowblocklistspoofitems)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-remove-bulk-mail-sender-domain-file-and-domain-entries-from-the-tenant-allowblock-list"></a>PowerShell gebruiken om domein, bestands- en domeingegevens voor bulksgewijs verzenden van e-mail te verwijderen uit de lijst Tenant toestaan/blokkeren
+
+Gebruik de volgende syntaxis als u domeingegevens voor bulksgewijs verzenden van e-mail wilt verwijderen, bestandsgegevens wilt blokkeren en URL-items wilt blokkeren uit de lijst Tenant toestaan/blokkeren:
+
+```powershell
+Remove-TenantAllowBlockListItems -ListType <BulkSender | FileHash | Url> -Ids <"Id1","Id2",..."IdN">
 ```
 
 In dit voorbeeld wordt de opgegeven blok-URL-vermelding verwijderd uit de lijst Tenant toestaan/blokkeren.
@@ -264,6 +474,16 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 ```
 
 Zie [Remove-TenantAllowBlockListItems (Verwijderen-TenantAllowBlockListItems)](/powershell/module/exchange/remove-tenantallowblocklistitems)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-remove-allow-or-block-spoofed-sender-entries-from-the-tenant-allowblock-list"></a>PowerShell gebruiken om vervalste afzenders toe te staan of te blokkeren uit de tenantlijst toestaan/blokkeren
+
+Gebruik de volgende syntaxis als u spoofing sender items wilt verwijderen uit de tenant allow/block list:
+
+```powershell
+Remove-TenantAllowBlockListSpoofItems -Ids <"Id1","Id2",..."IdN">
+```
+
+Zie [Remove-TenantAllowBlockListSpoofItems (Verwijderen-TenantAllowBlockListSpoofItems)](/powershell/module/exchange/remove-tenantallowblocklistspoofitems)voor gedetailleerde syntaxis- en parametergegevens.
 
 ## <a name="url-syntax-for-the-tenant-allowblock-list"></a>URL-syntaxis voor de lijst Toestaan/blokkeren van tenant
 
@@ -503,3 +723,31 @@ De volgende vermeldingen zijn ongeldig:
 
   - contoso.com/\*\*
   - contoso.com/\*/\*
+
+## <a name="domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Syntaxis van domeinparen voor vervalste afzendergegevens in de lijst Tenant toestaan/blokkeren
+
+Een domeinpaar voor een vervalste afzender in de lijst Tenant toestaan/blokkeren gebruikt de volgende syntaxis: `<Spoofed user>, <Sending infrastructure>` .
+
+- **Vervalste gebruiker:** Deze waarde betreft het e-mailadres van de vervalste gebruiker die wordt weergegeven in het vak **Van** in e-mail clients. Dit adres wordt ook wel het adres `5322.From` genoemd. Geldige waarden zijn:
+  - Een afzonderlijk e-mailadres (bijvoorbeeld chris@contoso.com).
+  - Een e-maildomein (bijvoorbeeld contoso.com).
+  - Het jokerteken \* (bijvoorbeeld).
+
+- **Verzendende infrastructuur:** deze waarde geeft de bron aan van berichten van de vervalste gebruiker. Geldige waarden zijn:
+  - Het domein dat is gevonden in een REVERSE DNS lookup (PTR-record) van het IP-adres van de bron-e-mailserver (bijvoorbeeld fabrikam.com).
+  - Als het bron-IP-adres geen PTR-record heeft, wordt de verzendende infrastructuur geïdentificeerd als \<source IP\> /24 (bijvoorbeeld 192.168.100.100/24).
+
+Hier zijn enkele voorbeelden van geldige domeinparen om vervalste afzenders te identificeren:
+
+- `contoso.com, 192.168.100.100/24`
+- `chris@contoso.com, fabrikam.com`
+- `*, contoso.net`
+
+Als u een domeinpaar toevoegt, wordt  de *combinatie* van de vervalste gebruiker en de verzendende infrastructuur alleen mogelijk of blokkeert. E-mail van de vervalste gebruiker van welke bron dan ook is niet toegestaan en e-mail uit de bron van de verzendende infrastructuur wordt niet toegestaan voor vervalste gebruikers.
+
+U voegt bijvoorbeeld een toegestane vermelding toe voor het volgende domeinpaar:
+
+- **Domein:** gmail.com
+- **Infrastructuur**: tms.mx.com
+
+Alleen berichten uit dat domein *en het* verzenden van infrastructuurparen mogen spoofen. Andere afzenders die proberen te spoofen gmail.com zijn niet toegestaan. Berichten van afzenders in andere domeinen die afkomstig zijn van tms.mx.com worden gecontroleerd door spoof intelligence.

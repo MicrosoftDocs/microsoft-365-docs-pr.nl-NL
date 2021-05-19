@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1928e381e861f993d171462833b8807b69dea515
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 0b816956442408c9a61f662827f1fd45d9b6511f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470674"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538853"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Krijg deskundige training over geavanceerd jagen
 
@@ -50,7 +50,8 @@ Krijg meer experttraining met *L33TSP3AK:* Geavanceerde jacht in Microsoft 365 D
 
 | Title | Omschrijving | Kijken | Query's | 
 |--|--|--|--|
-| Aflevering 1  | In deze aflevering leert u verschillende best practices voor het uitvoeren van geavanceerde zoekquery's. Een van de onderwerpen die worden besproken zijn: het optimaliseren van uw query's, het gebruik van geavanceerde zoek naar ransomware, het verwerken van JSON als een dynamisch type en het werken met externe gegevensoperatoren. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [Tekstbestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.txt)
+| Aflevering 1  | In deze aflevering leert u verschillende best practices voor het uitvoeren van geavanceerde zoekquery's. Een van de onderwerpen die worden besproken zijn: het optimaliseren van uw query's, het gebruik van geavanceerde zoek naar ransomware, het verwerken van JSON als een dynamisch type en het werken met externe gegevensoperatoren. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [Tekstbestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.txt) |
+| Aflevering 2 | In deze aflevering leert u hoe u verdachte of ongebruikelijke aanmeldingslocaties en gegevens exfiltratie kunt onderzoeken en beantwoorden via regels voor het doorsturen van postvak IN. Sebastien Molendijk, Senior Program Manager voor Cloud Security CxE, vertelt hoe u geavanceerde jacht kunt gebruiken om incidenten in meerdere fases met Microsoft Cloud App Security onderzoeken. | [YouTube](https://www.youtube.com/watch?v=QaUxdtNfbd8) (57:07) | [Tekstbestand](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/MCAS%20-%20The%20Hunt.txt)
 
 
 ## <a name="how-to-use-the-csl-file"></a>Het CSL-bestand gebruiken

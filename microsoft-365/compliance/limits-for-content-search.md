@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: Meer informatie over de limieten die van kracht zijn voor de functies Inhoud zoeken en Core eDiscovery in het Microsoft 365 compliancecentrum.
-ms.openlocfilehash: 47004473efe3407e9123fd15a7b1bf5f23e9fb23
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 5ca6fd30b40fbfaa3b93095eee403979f541d154
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311410"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538421"
 ---
 # <a name="limits-for-ediscovery-search"></a>Limieten voor eDiscovery-zoekopdrachten 
 
@@ -47,28 +47,28 @@ In de volgende tabel worden de zoeklimieten vermeld wanneer u het zoekprogramma 
 |Het maximum aantal sites (in SharePoint en OneDrive voor Bedrijven) dat kan worden bekeken voor zoekresultaten. Als er in totaal meer dan 200 sites zijn die inhoud bevatten die overeenkomt met de zoekquery, zijn alleen de 200 beste sites met de meeste zoekresultaten beschikbaar voor een voorbeeld.  <br/> |200  <br/> |
 |Het maximum aantal items per postvak in een openbare map dat wordt weergegeven op de voorbeeldpagina bij het bekijken van de zoekresultaten van inhoud.  <br/> |100  <br/> |
 |Het maximum aantal items dat wordt gevonden in alle postvakken in openbare mappen die worden weergegeven op de voorbeeldpagina bij het bekijken van de zoekresultaten van inhoud.  <br/> |200  <br/> |
-|Het maximum aantal openbare postvakken dat kan worden bekeken voor zoekresultaten. Als er meer dan 500 postvakken in openbare mappen zijn die inhoud bevatten die overeenkomt met de zoekquery, zijn alleen de bovenste 500 postvakken voor openbare mappen met de meeste zoekresultaten beschikbaar voor een voorbeeld.  <br/> |500  <br/> |
+|Het maximum aantal postvakken in openbare mappen dat kan worden bekeken voor zoekresultaten. Als er meer dan 500 postvakken in openbare mappen zijn die inhoud bevatten die overeenkomt met de zoekquery, zijn alleen de bovenste 500 postvakken voor openbare mappen met de meeste zoekresultaten beschikbaar voor een voorbeeld.  <br/> |500  <br/> |
 |Het maximum aantal tekens voor de zoekquery (inclusief operatoren en voorwaarden) voor een zoekopdracht.  <br/><br/> **Opmerking:** Deze limiet wordt van kracht nadat de query is uitgebreid en bevat tekens uit de trefwoordquery, filters voor zoekmachtigingen die zijn toegepast op de gebruiker en de URL's van alle sitelocaties. Dit betekent dat de query wordt uitgebreid met elk van de trefwoorden. Als een zoekquery bijvoorbeeld 15 trefwoorden en aanvullende parameters en voorwaarden heeft, wordt de query 15 keer uitgebreid, elk met de andere parameters en voorwaarden in de query. Dus hoewel het aantal tekens in de zoekquery mogelijk onder de limiet ligt, is het de uit uitgebreide query die kan bijdragen aan het overschrijden van deze limiet.  <br/> |**Postvakken:** 10.000  <br/> **Sites:** 4.000 bij het zoeken naar alle sites of 2.000 bij het zoeken naar maximaal 20 sites <sup>2</sup> <br/> |
 |Het maximum aantal varianten dat wordt geretourneerd wanneer u een voorvoegsel-jokerteken gebruikt om te zoeken naar een exacte woordgroep in een zoekquery of wanneer u een voorvoegsel-jokerteken en de operator **NEAR** Boolean gebruikt.  <br/> |10.000 <sup>3</sup> <br/> |
 |Het minimum aantal alfatekens voor jokertekens voor voorvoegsels; bijvoorbeeld ,  `time*`  `one*` of  `set*` .  <br/> |3  <br/> |
-|Het maximum aantal postvakken in een zoekopdracht waarin u items kunt verwijderen door een actie 'zoeken en verwijderen' uit te voeren (met de opdracht **New-ComplianceSearchAction -Purge).** Als de zoekopdracht waar u een opsperactie voor doet, meer bronpostvakken heeft dan deze limiet, mislukt de actie voor het verwijderen. Zie E-mailberichten in uw organisatie zoeken en verwijderen voor meer informatie over zoeken [en verwijderen.](search-for-and-delete-messages-in-your-organization.md)  <br/> |50,000  <br/> |
-|Het maximum aantal locaties in een zoekopdracht waaruit u items kunt exporteren. Als de zoekopdracht die u exporteert meer locaties heeft dan deze limiet, mislukt de export. Zie Zoekresultaten voor [inhoud exporteren voor meer informatie.](export-search-results.md)  <br/> |100,000  <br/> |
+|Het maximum aantal postvakken in een zoekopdracht waarin u items kunt verwijderen door een actie 'zoeken en verwijderen' uit te voeren (met de opdracht **New-ComplianceSearchAction -Purge).** Als de zoekopdracht waar u een opsperactie voor doet, meer bronpostvakken heeft dan deze limiet, mislukt de actie voor het verwijderen. Zie E-mailberichten in uw organisatie zoeken en verwijderen voor meer informatie over zoeken [en verwijderen.](search-for-and-delete-messages-in-your-organization.md)  <br/> |50.000  <br/> |
+|Het maximum aantal locaties in een zoekopdracht waaruit u items kunt exporteren. Als de zoekopdracht die u exporteert meer locaties heeft dan deze limiet, mislukt de export. Zie Zoekresultaten voor [inhoud exporteren voor meer informatie.](export-search-results.md)  <br/> |100.000  <br/> |
 |||
 
 > [!NOTE]
 > <sup>1</sup> Hoewel u in één zoekopdracht een onbeperkt aantal postvakken kunt doorzoeken, kunt u de geëxporteerde zoekresultaten alleen downloaden uit maximaal 100.000 postvakken met behulp van het hulpprogramma voor eDiscovery-export in het Microsoft 365 compliancecentrum. <br/><br/> <sup>2</sup> Bij het zoeken SharePoint en OneDrive voor Bedrijven locaties worden de tekens in de URL's van de sites die worden gezocht, meegetelde met deze limiet. <br/><br/> <sup>3</sup> Voor niet-zinsquery's (een trefwoordwaarde die geen dubbele aanhalingstekens gebruikt) wordt een speciale voorvoegselindex gebruikt. Dit geeft aan dat een woord voorkomt in een document, maar niet op de plaats waar het in het document voorkomt. Als u een woordgroepsquery wilt uitvoeren (een trefwoordwaarde met dubbele aanhalingstekens), moeten we de positie in het document vergelijken voor de woorden in de woordgroep. Dit betekent dat we de voorvoegselindex niet kunnen gebruiken voor woordgroepquery's. In dit geval wordt de query intern uitgebreid met alle mogelijke woorden waar het voorvoegsel naar wordt uitgebreid. kan bijvoorbeeld  `"time*"` uitbreiden naar  `"time OR timer OR times OR timex OR timeboxed OR …"` . 10.000 is het maximum aantal varianten waar het woord naar kan uitbreiden, niet het aantal documenten dat overeenkomt met de query. Er is geen bovengrens voor niet-woordgroepstermen. 
   
 ## <a name="search-times"></a>Zoektijden
-Microsoft verzamelt prestatiegegevens voor zoekopdrachten die worden uitgevoerd door alle organisaties. Hoewel de complexiteit van de zoekquery van invloed kan zijn op zoektijden, is het aantal gezochte postvakken de grootste factor die van invloed is op hoe lang zoekopdrachten duren. Hoewel Microsoft geen serviceovereenkomst voor zoektijden biedt, bevat de volgende tabel de gemiddelde zoektijden voor zoekopdrachten in verzamelingen op basis van het aantal postvakken dat in de zoekopdracht is opgenomen.
+Microsoft verzamelt prestatiegegevens voor zoekopdrachten die worden uitgevoerd door alle organisaties. Hoewel de complexiteit van de zoekquery van invloed kan zijn op de zoektijd, is het aantal te doorzoeken postvakken de grootste factor die van invloed is op de zoektijd. Hoewel Microsoft geen serviceovereenkomst voor zoektijden biedt, bevat de volgende tabel de gemiddelde zoektijden voor zoekopdrachten in verzamelingen op basis van het aantal postvakken dat in de zoekopdracht is opgenomen.
 
 |Aantal postvakken|Gemiddelde zoektijd|
 |:-----|:-----|
 |100|30 seconden|
 |1,000|45 seconden|
-|10,000|4 minuten|
-|25,000|10 minuten|
-|50,000|20 minuten|
-|100,000|25 minuten|
+|10.000|4 minuten|
+|25.000|10 minuten|
+|50.000|20 minuten|
+|100.000|25 minuten|
 |||
 
 ## <a name="export-limits"></a>Exportlimieten
@@ -80,7 +80,7 @@ In de volgende tabel worden de limieten vermeld bij het exporteren van de result
 |Maximum dat een organisatie in één dag kan exporteren <br/><br/> **Opmerking:** Deze limiet wordt dagelijks om 12:00 uur UTC opnieuw ingesteld <br/> |2 TB <br/> |
 |Maximale gelijktijdige export die tegelijk binnen uw organisatie kan worden uitgevoerd <br/><br/> **Opmerking:** Het uitvoeren **van een rapport Alleen** export telt mee voor het totale aantal gelijktijdige exporten voor uw organisatie. Als drie gebruikers elk drie exporten uitvoeren, kan slechts één andere export worden uitgevoerd. Of het nu gaat om het exporteren van een rapport of zoekresultaten, er kunnen geen andere exporten worden uitgevoerd totdat een rapport is voltooid.   <br/> |10 <br/> |
 |Maximale export van één gebruiker kan op elk moment worden uitgevoerd <br/> |3 <br/> |
-|Maximum aantal postvakken voor zoekresultaten dat kan worden gedownload met behulp van het eDiscovery-exporthulpmiddel <br/>| 100,000 <br/>|
+|Maximum aantal postvakken voor zoekresultaten dat kan worden gedownload met behulp van het eDiscovery-exporthulpmiddel <br/>| 100.000 <br/>|
 |Maximale grootte van PST-bestand dat kan worden geëxporteerd <br/><br/> **Opmerking:** Als de zoekresultaten uit het postvak van een gebruiker groter zijn dan 10 GB, worden de zoekresultaten voor het postvak geëxporteerd in twee (of meer) afzonderlijke PST-bestanden. Als u ervoor kiest om alle zoekresultaten in één PST-bestand te exporteren, wordt het PST-bestand overgeslagen naar extra PST-bestanden als de totale grootte van de zoekresultaten groter is dan 10 GB. Als u deze standaardgrootte wilt wijzigen, kunt u het register Windows bewerken op de computer die u gebruikt om de zoekresultaten te exporteren. Zie [De grootte van PST-bestanden wijzigen bij het exporteren van eDiscovery-zoekresultaten.](change-the-size-of-pst-files-when-exporting-results.md) De zoekresultaten van een specifiek postvak worden niet verdeeld over meerdere PST-bestanden, tenzij de inhoud uit één postvak meer dan 10 GB is. Als u ervoor kiest om de zoekresultaten te exporteren in één PST-bestand dat alle berichten in één map bevat en de zoekresultaten groter zijn dan 10 GB, worden de items nog steeds in chronologische volgorde ingedeeld, zodat ze worden overgeslagen in extra PST-bestanden op basis van de verzonden datum.<br/> | 10 GB <br/> |
 |De snelheid waarmee zoekresultaten van postvakken en sites worden geüpload naar een door Microsoft verstrekte Azure Storage locatie. |Maximum van 2 GB per uur|
 |||
@@ -89,7 +89,7 @@ In de volgende tabel worden de limieten vermeld bij het exporteren van de result
 
 In de volgende tabel worden de indexeringslimieten beschreven die ertoe kunnen leiden dat een e-mailbericht wordt geretourneerd als een niet-geïndexeerd item of een gedeeltelijk geïndexeerd item in de resultaten van een inhoudszoekactie.
   
-| Indexeringslimiet | Maximumwaarde | Beschrijving |
+| Indexeringslimiet | Maximumwaarde | Omschrijving |
 |:-----|:-----|:-----|
 |Maximale bijlagegrootte|150 MB  <br/> |De maximale grootte van een e-mailbijlage die wordt geparseerd voor indexering. Elke bijlage die groter is dan deze limiet, wordt niet geparseerd voor indexering en het bericht met de bijlage wordt gemarkeerd als gedeeltelijk geïndexeerd.  <br/> <br/>**Opmerking:** Parseren is het proces waarbij de indexeringsservice tekst uit de bijlage haalt, overbodige tekens zoals interpunctie en spaties verwijdert en vervolgens de tekst opsplitst in woorden (in een proces dat tokenisatie wordt genoemd), die vervolgens in de index worden opgeslagen.           |
 |Maximum aantal bijlagen  <br/> |250  <br/> |Het maximum aantal bestanden dat is gekoppeld aan een e-mailbericht dat wordt geparseerd voor indexering. Als een bericht meer dan 250 bijlagen heeft, worden de eerste 250 bijlagen geparseerd en geïndexeerd en wordt het bericht gemarkeerd als gedeeltelijk geïndexeerd omdat het extra bijlagen had die niet zijn geparseerd.  <br/> |

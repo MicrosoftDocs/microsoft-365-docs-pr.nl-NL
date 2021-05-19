@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Fouten met betrekking tot wettelijke bewaarnemingen oplossen die zijn toegepast op bewaarders en niet-bewaardergegevensbronnen in Core eDiscovery.
-ms.openlocfilehash: 3bd417f2eb6bfb8de8d4b5ccaeb48e6ae1c888eb
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: b101bf92c6a304262b3886a4ce0280f427a4a847
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "52162598"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538469"
 ---
 # <a name="troubleshoot-ediscovery-hold-errors"></a>Problemen met eDiscovery-bewaring oplossen
 
@@ -33,12 +33,25 @@ Als u het aantal fouten met betrekking tot eDiscovery-bezit wilt beperken, raden
 
 - Als een distributie van een wachtpositie nog in behandeling is, met een status van een van beide of , wacht u totdat de distributie van de wachtpositie is voltooid voordat u verdere `On (Pending)` updates aan het maken `Off (Pending)` bent.
 
-- Voeg uw updates samen met een eDiscovery-hold in één bulkaanvraag in plaats van het holdbeleid herhaaldelijk bij te werken voor elke transactie. Als u bijvoorbeeld meerdere gebruikerspostvakken wilt toevoegen aan een bestaand wachtbeleid met de cmdlet [Set-CaseHoldPolicy,](/powershell/module/exchange/set-caseholdpolicy) voert u de opdracht uit (of voegt u deze toe als codeblok aan een script), zodat deze slechts eenmaal wordt uitgevoerd om meerdere gebruikers toe te voegen.
-
-  **Correct**
+- Controleer of er een wachtbeleid in behandeling is voordat u verdere updates aan het beleid kunt geven. Voer de volgende opdrachten uit of sla ze op in een PowerShell-script.
 
     ```powershell
-    Set-CaseHoldPolicy -AddExchangeLocation {$user1, $user2, $user3, $user4, $user5}
+    $status = Get-CaseHoldPolicy -Identity <policyname> 
+    if($status.DistributionStatus -ne "Pending"){
+        # policy no longer pending
+        Set-CaseHoldPolicy -Identity <policyname> -AddExchangeLocation $user1
+    }else{
+        # policy still pending
+        Write-Host "Hold policy still pending."
+    }
+   ```
+
+- Voeg uw updates samen met een eDiscovery-hold in één bulkaanvraag in plaats van het holdbeleid herhaaldelijk bij te werken voor elke transactie. Als u bijvoorbeeld meerdere gebruikerspostvakken wilt toevoegen aan een bestaand wachtbeleid met de cmdlet [Set-CaseHoldPolicy,](/powershell/module/exchange/set-caseholdpolicy) voert u de opdracht uit (of voegt u deze toe als codeblok aan een script), zodat deze slechts eenmaal wordt uitgevoerd om meerdere gebruikers toe te voegen.
+
+  **Juist**
+
+    ```powershell
+    Set-CaseHoldPolicy -Identity <policyname> -AddExchangeLocation {$user1, $user2, $user3, $user4, $user5}
     ```
 
    **Onjuist**
@@ -47,7 +60,7 @@ Als u het aantal fouten met betrekking tot eDiscovery-bezit wilt beperken, raden
     $users = {$user1, $user2, $user3, $user4, $user5}
     ForEach($user in $users)
     {
-        Set-CaseHoldPolicy -AddExchangeLocation $user
+        Set-CaseHoldPolicy -Identity <policyname> -AddExchangeLocation $user
     }
     ```
 
@@ -83,12 +96,36 @@ Als u een van de volgende foutberichten ziet bij het in de wacht zetten van behe
    Set-CaseHoldPolicy <policyname> -RetryDistribution
    ```
 
+## <a name="error-the-sharepoint-site-is-read-only-or-not-accessible"></a>Fout: de SharePoint site is alleen-lezen of niet toegankelijk
+
+Als u het volgende foutbericht ziet bij het in de wacht zetten van beheerders en gegevensbronnen, betekent dit dat de globale beheerder van uw organisatie of SharePoint [de](/sharepoint/sharepoint-admin-role) site heeft vergrendeld. Een vergrendelde site blokkeert dat eDiscovery een wacht op de site plaatst.
+
+> De SharePoint site is alleen-lezen of niet toegankelijk. Neem contact op met de sitebeheerder om de site te kunnen maken en pas dit beleid opnieuw toe.
+
+### <a name="resolution"></a>Oplossing
+
+Ontgrendel de site (of vraag een beheerder om deze te ontgrendelen) om dit probleem op te lossen. Zie Sites vergrendelen en ontgrendelen voor meer informatie over het wijzigen van de vergrendelingstoestand voor [een site.](/sharepoint/manage-lock-status)
+
+## <a name="error-the-mailbox-or-sharepoint-site-may-not-exist"></a>Fout: Het postvak of SharePoint site bestaat mogelijk niet
+
+Als u het volgende foutbericht ziet bij het in de wacht zetten van beheerders en gegevensbronnen, gebruikt u de oplossingsstappen om het probleem op te lossen.
+
+> Het postvak of SharePoint site bestaat mogelijk niet.  Als dit onjuist is, neem dan contact op met microsoft-ondersteuning.  Als u dit niet doet, verwijdert u het uit dit beleid.
+
+### <a name="resolution"></a>Oplossing
+
+- Voer het [Get-Mailbox](/powershell/module/exchange/get-mailbox) in Exchange Online PowerShell uit om te controleren of het postvak van de gebruiker in uw organisatie bestaat.
+
+- Voer de [cmdlet Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) uit in SharePoint Online PowerShell om te controleren of de site in uw organisatie bestaat.
+
+- Controleer of de SITE-URL is gewijzigd.
+
 ## <a name="more-information"></a>Meer informatie
 
-- De richtlijnen voor het bijwerken van wachtbeleid voor meerdere gebruikers in de sectie Aanbevolen procedures zijn het gevolg van het feit dat het systeem gelijktijdige updates van een hold-beleid blokkeert. Dat betekent dat wanneer een bijgewerkt hold-beleid wordt toegepast op nieuwe inhoudslocaties en het holdbeleid in behandeling is, er geen extra inhoudslocaties kunnen worden toegevoegd aan het holdbeleid. Hier zijn enkele dingen die u in gedachten moet houden om u te helpen dit probleem te beperken:
+De richtlijnen voor het bijwerken van wachtbeleid voor meerdere gebruikers in de sectie Aanbevolen procedures zijn het gevolg van het feit dat het systeem gelijktijdige updates van een hold-beleid blokkeert. Dat betekent dat wanneer een bijgewerkt hold-beleid wordt toegepast op nieuwe inhoudslocaties en het holdbeleid in behandeling is, er geen extra inhoudslocaties kunnen worden toegevoegd aan het holdbeleid. Hier zijn enkele dingen die u in gedachten moet houden om u te helpen dit probleem te beperken:
   
-  - Elke keer dat een bijgewerkte wachttijd wordt bijgewerkt, wordt deze onmiddellijk in een status in behandeling. De status in behandeling betekent dat de wachtpositie wordt toegepast op inhoudslocaties.
+- Elke keer dat een bijgewerkte wachttijd wordt bijgewerkt, wordt deze onmiddellijk in een status in behandeling. De status in behandeling betekent dat de wachtpositie wordt toegepast op inhoudslocaties.
   
-  - Als u een script hebt waarin een lus wordt uitgevoerd en locaties één voor één aan beleid worden toegevoegd (vergelijkbaar met het onjuiste voorbeeld dat wordt weergegeven in de sectie Aanbevolen procedures), wordt met de eerste inhoudslocatie (bijvoorbeeld een gebruikerspostvak) het synchronisatieproces gestart dat de status in behandeling activeert. Dat betekent dat de andere gebruikers die in volgende lusjes aan het beleid worden toegevoegd, een foutmelding geven.
+- Als u een script hebt waarin een lus wordt uitgevoerd en locaties één voor één aan beleid worden toegevoegd (vergelijkbaar met het onjuiste voorbeeld dat wordt weergegeven in de sectie Aanbevolen procedures), wordt met de eerste inhoudslocatie (bijvoorbeeld een gebruikerspostvak) het synchronisatieproces gestart dat de status in behandeling activeert. Dat betekent dat de andere gebruikers die in volgende lusjes aan het beleid worden toegevoegd, een foutmelding geven.
   
-  - Als uw organisatie een script gebruikt waarin een lus wordt uitgevoerd om de inhoudslocaties voor een hold-beleid bij te werken, moet u het script zo bijwerken dat locaties in één bulkbewerking worden bijgewerkt (zoals wordt weergegeven in het juiste voorbeeld in de sectie Aanbevolen procedures).
+- Als uw organisatie een script gebruikt waarin een lus wordt uitgevoerd om de inhoudslocaties voor een hold-beleid bij te werken, moet u het script zo bijwerken dat locaties in één bulkbewerking worden bijgewerkt (zoals wordt weergegeven in het juiste voorbeeld in de sectie Aanbevolen procedures).

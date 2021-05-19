@@ -13,12 +13,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het beheren van contracten met Microsoft 365 oplossing SharePoint Syntex, Microsoft Teams en Power Automate.
-ms.openlocfilehash: 806ea9fd048dec198a19fa79f3b60f3f3cb81018
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 057c581559aa2e5cfd6e98b379783a7d73e0bccc
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281116"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538565"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Contracten beheren met een Microsoft 365 oplossing
 
@@ -67,6 +67,10 @@ Deze richtlijn voor contractbeheeroplossing bevat vier onderdelen van Microsoft 
 4. Met Power Automate worden contracten verplaatst via het goedkeuringsproces in het Teams kanaal. Wanneer een lid een contract goedkeurt, wordt de contractstatus gewijzigd in goedkeuren, worden alle leden via een Teams-post op de hoogte gesteld en wordt er een regelitem gemaakt om aan te geven dat het contract gereed is voor uitbetaling. Dit proces kan worden uitgebreid om rechtstreeks te schrijven naar een financiële toepassing van derden voor betaling.
 
 5.  Wanneer een lid een contract weigert, wordt de status gewijzigd in geweigerd en worden alle leden op de hoogte gesteld via Teams bericht.
+
+6. Het eindresultaat van deze oplossing is een geautomatiseerd bedrijfsproces voor uw organisatie. Werknemers kunnen eenvoudig de aangepaste tegelweergave in Teams om de goedkeuringswerkstroom van uw documenten te starten en te controleren. 
+
+     ![Tabblad Contracten.](../media/content-understanding/tile-view.png)
 
 ## <a name="create-the-solution"></a>De oplossing maken
 

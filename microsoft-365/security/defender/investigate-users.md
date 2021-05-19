@@ -1,6 +1,6 @@
 ---
-title: Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
-description: Gebruikers onderzoeken in het Microsoft 365 beveiligingscentrum
+title: Gebruikers onderzoeken in Microsoft 365 Defender
+description: Gebruikers onderzoeken voor een incident in het Microsoft 365 beveiligingscentrum.
 keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, monitor, rapport, identiteiten, gegevens, apparaten, apps, incident, analyseren, antwoord
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: c03e4d5bd94eb6105ffab91c6dad2b74d7159dde
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 7084b9370a0dd83265b37ff1d152e2164fe32813
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300059"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539129"
 ---
-# <a name="investigate-users-in-microsoft-365-security-center"></a>Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
+# <a name="investigate-users-in-microsoft-365-defender"></a>Gebruikers onderzoeken in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

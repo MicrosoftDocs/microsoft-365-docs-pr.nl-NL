@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 3ca8f5234f90624c8570cbfb10e75bd0ee9380ae
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: da4b7fce66a6c51da61edd7c44216ee268c3156a
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345834"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538661"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 
@@ -139,7 +139,7 @@ U kunt het logboek met Windows bekijken om gebeurtenissen weer te geven die zijn
 2. Voer de woorden, *Gebeurtenisviewer,* in het menu Start in om de Windows Gebeurtenisviewer te openen.
 3. Selecteer **onder Acties** de optie Aangepaste weergave **importeren...**.
 4. Selecteer de *bestandsindelingcfa-events.xml* waar het is geëxtraheerd. U kunt ook [de XML rechtstreeks kopiëren.](event-views.md)
-5. Kies **OK**.
+5. Selecteer **OK**.
 
 U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om alleen de volgende gebeurtenissen weer te geven, die allemaal betrekking hebben op gecontroleerde maptoegang:
 
@@ -160,7 +160,7 @@ Als u de regels voor het verlagen van de aanvalsoppervlakken configureert met gr
 
 |Regelnaam|GUID|Bestand & mapuitsluitingen|Minimaal ondersteund besturingssysteem|
 |---|:---:|---|---|
-|[Misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's blokkeren](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Ondersteund|[Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)|
+|[Misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's blokkeren](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Ondersteund|[Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger) |
 |[Adobe Reader blokkeren om onderliggende processen te maken](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Ondersteund|[Windows 10 versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |[Alle toepassingen Office voor het maken van onderliggende processen blokkeren](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Ondersteund|[Windows 10 versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |[Referenties van het subsysteem van de Windows lokale beveiligingsinstantie blokkeren (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Ondersteund|[Windows 10 versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
@@ -184,6 +184,14 @@ Met deze regel voorkomt u dat een toepassing een kwetsbaar, ondertekend stuurpro
 
 Met deze regel wordt niet geblokkeerd dat een stuurprogramma dat al in het systeem bestaat, wordt geladen.
 
+>[!NOTE]
+>
+> Deze regel kan worden geconfigureerd met [mem oma-URI](enable-attack-surface-reduction.md#mem) voor proceduregegevens voor aangepaste regels voor MEM OMA-URI.
+>
+> Deze regel kan ook worden geconfigureerd met [PowerShell.](enable-attack-surface-reduction.md#powershell)
+>
+> U kunt deze website gebruiken om een stuurprogramma [voor analyse in te dienen.](https://www.microsoft.com/en-us/wdsi/driversubmission)
+
 Deze regel wordt ondersteund in alle versies waarin ASR wordt ondersteund. dat wil zeggen:
 
 - [Windows 10 Pro, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) of hoger
@@ -194,16 +202,6 @@ Deze regel wordt ondersteund in alle versies waarin ASR wordt ondersteund. dat w
 Intune-naam: `Block abuse of exploited vulnerable signed drivers`
 
 GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
-
-Zie [Microsoft Endpoint Manager aangepaste procedure voor](enable-attack-surface-reduction.md#microsoft-endpoint-manager-custom-procedure) informatie over aangepaste regels voor mem.
-
-U kunt deze opdracht uitvoeren in de opdrachtregel om de ASR-regel in te stellen:
-
-```powershell
-"& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
-```
-
-U kunt deze website gebruiken om een stuurprogramma [voor analyse in te dienen.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 ### <a name="block-adobe-reader-from-creating-child-processes"></a>Adobe Reader blokkeren om onderliggende processen te maken
 
