@@ -22,12 +22,12 @@ search.appverid: MET150
 description: Ontdek hier hoe je je factuur of rekening voor zakelijke Microsoft-producten kunt lezen en begrijpen.
 keywords: factureringsaccounts, organisatie info, facturen
 ms.date: 05/04/2021
-ms.openlocfilehash: dc83db458d1d91942352795c9b67578e9f1a2fc2
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d173df1eac827eb835b8544f64858c28ccf0fb75
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331933"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537305"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Inzicht in je rekening of factuur
 
@@ -143,6 +143,17 @@ De betalingsinstructies zijn afhankelijk van je betalingswijze en worden onderaa
 ### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Waarom zie ik geen Azure-vooruitbetaling als betalingsmethode?
 
 De Azure-vooruitbetaling is alleen als betaalmethode beschikbaar voor in aanmerking komende Azure-producten en -services.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Uw factuur of factuur voor Microsoft 365 voor Bedrijven](understand-your-invoice2.md) (artikel)
+
+[Microsoft Customer Agreement Azure credit balance bijhouden](/azure/billing/billing-mca-check-azure-credits-balance) (artikel)
+
+[Uw factuur voor microsoft-klantovereenkomst controleren](/azure/cost-management-billing/understand/review-customer-agreement-bill) (artikel)
+
+[Aan de slag met uw factureringsaccount voor microsoft-klantovereenkomst](/azure/billing/billing-mca-overview) (artikel)
+
 
 ## <a name="need-help-contact-support"></a>Hulp nodig? Contact opnemen met de ondersteuning
 

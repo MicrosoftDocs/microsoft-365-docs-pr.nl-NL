@@ -22,17 +22,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
-description: 'Lees hoe u een gebruiker toegang geeft tot het postvak van een andere gebruiker. Dat geeft de gebruiker het recht om e-mail te lezen en e-mails te verzenden vanuit het postvak van de andere gebruiker. '
-ms.openlocfilehash: e6b94d4e24b0ff1d5dc397ccbcfba98929a303f2
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Geef een gebruiker het recht om toegang te krijgen tot het postvak van een andere gebruiker, zodat de gebruiker e-mailberichten kan lezen en verzenden vanuit het postvak van de andere gebruiker.
+ms.openlocfilehash: 3514be02f2ef82b727edfcf86c0bd3f6b8515510
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925540"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535960"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Postvakmachtigingen toewijzen aan een andere gebruiker - Help voor beheerders
 
-Als beheerder hebt u misschien te maken met bedrijfsvereisten waardoor bepaalde gebruikers toegang krijgen tot het postvak van een andere gebruikers. Mogelijk moet u een assistent toegang geven tot het postvak van een manager om e-mail te laten verzenden of lezen, of moet u een van uw gebruikers e-mail laten verzenden namens een andere gebruiker. In dit onderwerp leest u hoe u dit kunt doen.
+Als beheerder hebt u misschien te maken met bedrijfsvereisten waardoor bepaalde gebruikers toegang tot het postvak van andere gebruikers moeten krijgen. Mogelijk moet u een assistent toegang geven tot het postvak van een manager om e-mail te laten verzenden of lezen, of moet u een van uw gebruikers e-mail laten verzenden namens een andere gebruiker. In dit onderwerp leest u hoe u dit kunt doen.
   
 Zie [Een gedeeld postvak maken](../email/create-a-shared-mailbox.md)voor informatie over het maken en beheren van gedeelde postvakken.
     
@@ -205,11 +205,11 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 ::: moniker-end
 
 
-## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Verzenden vanuit en lezen in Outlook en de webversie van Outlook voor Bedrijven
-
-
-Wilt u weten hoe u e-mail verzendt vanuit het postvak van een andere gebruiker? Raadpleeg de volgende onderwerpen:
+## <a name="related-content"></a>Verwante inhoud
   
-- [E-mail- en agenda-items van een andere gebruiker beheren](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
+[E-mail- en agenda-items van een andere gebruiker beheren](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) (artikel)
     
-- [E-mail verzenden namens een andere persoon of groep](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)
+[E-mail verzenden namens een andere persoon of groep](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) (artikel)
+
+[Een gebruikersnaam en e-mailadres wijzigen](../add-users/change-a-user-name-and-email-address.md) (video)
+

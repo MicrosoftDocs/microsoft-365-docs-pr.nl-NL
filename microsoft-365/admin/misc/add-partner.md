@@ -20,26 +20,26 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
-description: Meer informatie over het toevoegen van een partner van een abonnementsadviseur als partner van record op het moment van de aankoop van Microsoft 365, het wijzigen van de partner of het verwijderen van een partner uit een abonnement.
-ms.openlocfilehash: 913b0e14e1bc08cfd4037775aa4b72b7280c704c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Lees hoe u een partner van een abonnementsadviseur toevoegt als partner of record op het moment van Microsoft 365 aankoop, de partner wijzigt of een partner uit een abonnement verwijdert.
+ms.openlocfilehash: d45f9e3278b0a25cc5603d322c96f40eee45e6f8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579228"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537473"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Een abonnementsadviseur toevoegen, wijzigen of verwijderen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Dit artikel is van toepassing op Office 365 beheerd door 21Vianet in China. Het is voor organisaties die een 21Vianet-partner toestaan hun Office 365-abonnement voor hen te beheren.
+> Dit artikel is van toepassing Office 365 beheerd door 21Vianet in China. Het is voor organisaties die willen toestaan dat een 21Vianet-partner hun Office 365 voor hen beheert.
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-Een geautoriseerde partner van Microsoft die fungeert als uw abonnementsadviseur biedt de verkoop-, ondersteunings- en technische expertise die u nodig hebt om u te helpen een abonnement in te stellen en te onderhouden. U kunt een partner van een abonnementsadviseur toevoegen als recordpartner wanneer u Microsoft 365 of op een ander tijdstip koopt. Als u momenteel niet met een partner werkt, kunt u er ook een zoeken op de website [Microsoft Pinpoint](https://pinpoint.microsoft.com).
+Een geautoriseerde partner van Microsoft die fungeert als uw abonnementsadviseur biedt de verkoop-, ondersteunings- en technische expertise die u nodig hebt om u te helpen een abonnement in te stellen en te onderhouden. U kunt een partner van een abonnementsadviseur toevoegen als partner van record wanneer u een abonnement Microsoft 365 of op een ander tijdstip. Als u momenteel niet met een partner werkt, kunt u er ook een zoeken op de website [Microsoft Pinpoint](https://pinpoint.microsoft.com).
 
 ::: moniker-end
 
@@ -110,7 +110,7 @@ Volg de stappen op de pagina providers om te zoeken naar of om te worden gematch
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
 2. Als u meerdere abonnementen hebt, selecteert u het abonnement dat u wilt bewerken.
-3. Kies rechts onder de abonnementskosten de optie **Meer acties** Partner van > **record toevoegen.**
+3. Selecteer rechts onder de abonnementskosten de drie puntjes (meer acties) > **Partner van record toevoegen.**
 4. Typ de Microsoft-partner-id van de partner die u toevoegt, selecteer **Id controleren** en vervolgens **Verzenden**. U kunt de partner vragen om diens Microsoft-partner-id.
 5. De partner-id wordt weergegeven op de pagina **Abonnementen**.
 
@@ -123,7 +123,7 @@ Dit proces wordt gestart door uw geautoriseerde partner. De partner stuurt u een
 Deze aanbieding accepteren
   
 1. Lees de voorwaarden van de partner in het e-mailbericht.
-2. Als u de overeenkomst wilt machtigen, selecteert u de koppeling die naar een autorisatiepagina in Office 365 gaat.
+2. Als u de overeenkomst wilt machtigen, selecteert u de koppeling, die naar een autorisatiepagina in Office 365.
 3. Selecteer **onder Partnerrelaties** de optie **Ja** om de partner te machtigen uw gedelegeerde beheerder te worden en selecteer vervolgens **Volgende.**
 4. Als de aanbieding voor partnerrelatie is aangeboden met een proefabonnement of een aankoopaanbieding, maakt u uw proef- of abonnementsaccount.
 
@@ -160,7 +160,7 @@ Deze aanbieding accepteren
 
 ## <a name="view-your-partner-relationships"></a>Uw partnerrelaties bekijken
 
-- Ga in het beheercentrum naar de **pagina Relaties met**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">partners</a> instellingen. Uw partners worden vermeld op deze pagina.
+- Ga in het beheercentrum naar de **pagina Instellingen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">partnerrelaties.</a> Uw partners worden vermeld op deze pagina.
 
   Als u geen partner hebt, ziet u een bericht met de tekst 'Er is hier niets'.
   
@@ -220,4 +220,4 @@ U moet uw wederverkoper-partner vragen om deze instructies te volgen: [Een resel
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Uw Microsoft 365-partner of wederverkoper zoeken](../manage/find-your-partner-or-reseller.md)
+[Uw partner Microsoft 365 of wederverkoper zoeken](../manage/find-your-partner-or-reseller.md)

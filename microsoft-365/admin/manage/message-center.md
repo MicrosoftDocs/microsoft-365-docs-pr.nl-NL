@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Krijg een overzicht van Microsoft 365 berichtencentrum en de rol ervan in wijzigingsbeheer.
-ms.openlocfilehash: af65db32edd56b11adede0e4e690b3f69b07180e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 01e43eb6fa9502c138bfc9ab3595c47ec33ad098
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244417"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537521"
 ---
 # <a name="message-center"></a>Berichtencentrum
 
@@ -249,66 +249,21 @@ Ziet u een bericht waarvoor iemand anders actie moet ondernemen? U kunt de inhou
 
 Wilt u zorgen dat een andere beheerder op de hoogte is van een wijziging en hierop actie onderneemt? U kunt een koppeling genereren om het bericht te delen via e-mail of een chatprogramma, zodat de gebruiker rechtstreeks verbinding krijgt met dat bericht. De persoon met wie u de koppeling deelt, moet toegang hebben tot het berichtencentrum. Zie [beheerdersrollen die geen toegang hebben tot het berichtencentrum](message-center.md#admin-roles-that-dont-have-access-to-the-message-center) voor meer informatie.
 
-::: moniker range="o365-worldwide"
-
 1. Selecteer het bericht om het te openen.
 
 2. Selecteer **Koppeling kopiëren**.
 
 3. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen in het gewenste document.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Selecteer het bericht om het te openen.
-
-2. Kies **Meer** \> **Koppeling ophalen** op de actiebalk.
-
-3. Zorg dat de webpagina toegang heeft tot het klembord. Er wordt een directe koppeling gekopieerd naar het klembord.
-
-4. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Selecteer het bericht om het te openen.
-
-2. Selecteer **Koppeling kopiëren**.
-
-3. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen in het gewenste document.
-
-::: moniker-end
 
 ## <a name="read-and-unread-states"></a>Status Gelezen en Ongelezen
 
 Een ongelezen bericht in het berichtencentrum wordt vetgedrukt weergegeven. Wanneer u een bericht opent, wordt het gemarkeerd als gelezen. U kunt een bericht markeren als ongelezen.
 
-::: moniker range="o365-worldwide"
 
 - Selecteer op de hoofdpagina van het berichtencentrum het beletselteken **Meer opties** naast een bericht en selecteer vervolgens **Markeren als ongelezen**.
 
 U kunt een bericht ook openen en als ongelezen markeren in het detailvenster.
   
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Selecteer het bericht om het te openen.
-
-2. Selecteer **Meer** \> **Markeren als ongelezen**.
-
-3. Sluit het bericht.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-- Selecteer op de hoofdpagina van het berichtencentrum het beletselteken **Meer opties** naast een bericht en selecteer vervolgens **Markeren als ongelezen**.
-
-::: moniker-end
-
 ## <a name="archive-and-restore"></a>Archiveren en herstellen
 
 Als u een bericht ziet dat niet relevant voor u is of waarvoor u al actie hebt ondernomen, kunt u het bericht archiveren om het te verwijderen uit het Postvak IN. De weergave die u in het berichtencentrum ziet, is specifiek voor uw gebruikersaccount. Het archiveren en verwijderen van het bericht uit de weergave heeft dus geen gevolgen voor andere beheerders. Er zijn twee manieren om een bericht te archiveren.

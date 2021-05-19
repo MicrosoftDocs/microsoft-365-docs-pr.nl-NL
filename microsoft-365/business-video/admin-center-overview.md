@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het Microsoft 365 beheercentrum.
-ms.openlocfilehash: 7d355b5064c2a0344ac62653afcae8712dbfc73f
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 6d7fe36345ebd9234027e943d11266b7bcc2b30f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470422"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537389"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Overzicht van het Microsoft 365-beheercentrum
 
@@ -47,11 +47,11 @@ Als u toestemming hebt om toegang te krijgen tot het beheercentrum, ziet u **Beh
 
 Bekijk boven aan het beheercentrum de belangrijkste acties voor u. Mogelijk ziet u verschillende acties, afhankelijk van wat u al hebt ingesteld, zoals het maken van nieuwe accounts, het gebruik van Teams, het instellen van e-mail en het installeren van Office apps. 
  
-Onder **Uw organisatie** op het tabblad **Gebruikers** staat een lijst met personen die toegang hebben tot apps en services, nieuwe gebruikers kunnen toevoegen, wachtwoorden opnieuw kunnen instellen of het menu Meer **acties kunnen** gebruiken. Selecteer een persoon om zijn of haar gegevens en instellingen weer te geven of te bewerken.  
+Onder **Uw organisatie** op **het** tabblad Gebruikers staat een lijst met personen die toegang hebben tot apps en services, nieuwe gebruikers kunnen toevoegen, wachtwoorden opnieuw kunnen instellen of het menu drie puntjes (meer acties) kunnen gebruiken. Selecteer een persoon om zijn of haar gegevens en instellingen weer te geven of te bewerken.  
 
-Maak op **Teams** tabblad Een nieuw team of beheer bestaande teams. U kunt de leden van een team beheren of Meer **acties selecteren** om andere instellingen Teams wijzigen. 
+Maak op **Teams** tabblad Een nieuw team of beheer bestaande teams. U kunt de leden van een team beheren of de drie puntjes (meer acties) selecteren om andere instellingen Teams wijzigen. 
 
-Voeg op **het tabblad** Abonnementen meer producten toe, voeg licenties toe of gebruik het **menu** Meer acties om licenties of betalingswijze te wijzigen.
+Voeg **op het tabblad** Abonnementen meer producten toe, voeg licenties toe of gebruik het menu Drie puntjes (meer acties) om licenties of betalingswijze te wijzigen.
 
 Blader op **het** tabblad Leren door video's en artikelen over het beheercentrum en andere Microsoft 365 functies. Als u meer geavanceerde functies van het beheercentrum wilt verkennen, opent u het navigatiemenu en vouwt u de koppen uit om meer te zien. Selecteer **Alles weergeven** om alles in het navigatiemenu te zien of gebruik de zoekbalk om snel te vinden wat u zoekt.
 
@@ -67,7 +67,7 @@ Gespecialiseerde werkruimten, zoals Beveiliging of Apparaatbeheer, bieden meer g
 
 Als u naar het Microsoft 365-beheercentrum [](https://admin.microsoft.com) wilt gaan, gaat u naar admin.microsoft.com of, als u al bent aangemeld, selecteert u het startpagina voor apps en kiest u **Beheerder.**
 
-Op de startpagina kunt u kaarten maken voor taken die u vaak uitvoert. Als u een nieuwe kaart wilt toevoegen, **selecteert** u Kaart toevoegen en selecteert u vervolgens het plusteken naast de kaart die u wilt toevoegen. Wanneer u klaar bent, sluit u het venster. U kunt de kaarten opnieuw rangschiknen door de kaarten te selecteren en vervolgens naar de juiste plaats te slepen. Als u een kaart wilt verwijderen, **selecteert u Meer acties** en kiest u **vervolgens Verwijderen.**
+Op de startpagina kunt u kaarten maken voor taken die u vaak uitvoert. Als u een nieuwe kaart wilt toevoegen, **selecteert** u Kaart toevoegen en selecteert u vervolgens het plusteken naast de kaart die u wilt toevoegen. Wanneer u klaar bent, sluit u het venster. U kunt de kaarten opnieuw rangschiknen door de kaarten te selecteren en vervolgens naar de juiste plaats te slepen. Als u een kaart wilt verwijderen, selecteert u de drie puntjes (meer acties) en kiest u **Vervolgens Verwijderen.**
 
 Als u meer beheertaken wilt weergeven, vouwt u het navigatiemenu uit. U vindt geavanceerde configuratie-instellingen in de extra beheercentra onderaan.
 
@@ -167,7 +167,7 @@ Het Microsoft 365 beheercentrum is volledig gelokaliseerd in 40 talen.
 |Indonesian  | id |
 |Italian | het |
 |Japans | ja |
-|Koreaans | ko |
+|Koreaks | ko |
 |Lithuanian | lt |
 |Latvian | lv |
 |Dutch | nl |

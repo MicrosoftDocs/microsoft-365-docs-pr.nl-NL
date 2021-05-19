@@ -1,23 +1,24 @@
 ---
 title: Betalingsgegevens voor Kroatië
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7cd485e8263f96fd5c01cce50803d6fa9ded5e57
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 3b9e7c8eefe303ef350f5db6b3023b6eec904d97
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273966"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536908"
 ---
 # <a name="payment-information-for-croatia"></a>Betalingsgegevens voor Kroatië
 
@@ -32,4 +33,4 @@ Betaal alleen in EUR en vermeld het factuurnummer(en) bij de overboeking van uw 
 **IBAN:** 12207591  
 **SORT-code:** 185008  
 **Accountnummer:** 12207591  
-**Accountnaam:** MICROSOFT  
+**Accountnaam:** MICROSOFT

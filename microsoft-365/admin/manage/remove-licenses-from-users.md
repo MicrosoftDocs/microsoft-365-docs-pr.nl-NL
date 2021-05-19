@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Meer informatie over het verwijderen van licenties van gebruikersaccounts.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6f2cbf65e1d6a38a4b1ed00976d4dd473d7331e9
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 5ef28b3065703ec224e6426c4fdbfffdb5269b22
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332412"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537497"
 ---
 # <a name="unassign-licenses-from-users"></a>Licenties van gebruikers verwijderen
 
@@ -47,18 +47,19 @@ Wanneer u de pagina **Licenties** gebruikt om licenties niet toe te staan, kunt 
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Facturering** > **Licenties**.
+ 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenties</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Facturering** > **Licenties**.
+ 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenties</a>.
 
 ::: moniker-end
 
@@ -72,22 +73,22 @@ Wanneer u de pagina **Licenties** gebruikt om licenties niet toe te staan, kunt 
 Wanneer u de pagina **Actieve gebruikers gebruikt** om licenties niet toe te staan, ontsiert u productlicenties van gebruikers.
 
 ### <a name="unassign-licenses-from-one-user"></a>Licenties van één gebruiker niet toewijzen
-  
+
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Facturering** > **Actieve gebruikers**.
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Facturering** > **Actieve gebruikers**.
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
@@ -99,42 +100,42 @@ Wanneer u de pagina **Actieve gebruikers gebruikt** om licenties niet toe te sta
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Facturering** > **Actieve gebruikers**.
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Facturering** > **Actieve gebruikers**.
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 2. Selecteer de cirkels naast de namen van de gebruikers voor wie u licenties wilt ontlenen.
-3. Selecteer bovenaan **Meer opties (...)** en selecteer vervolgens **Productlicenties beheren**.
+3. Selecteer bovenaan de drie puntjes (meer acties) en selecteer **vervolgens Productlicenties beheren.**
 4. Selecteer in het deelvenster **Productlicenties beheren** **Bestaande productlicentietoewijzingen vervangen** \> **Volgende**.
 5. Schakel onder in het deelvenster **Bestaande** producten vervangen het selectievakje **Alle productlicenties** verwijderen uit de geselecteerde gebruikers in en selecteer **vervolgens Sluiten** \> **vervangen.**
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>Wat gebeurt er met de gegevens van een gebruiker wanneer u de licentie verwijdert?
 
 - Wanneer een licentie van een gebruiker wordt verwijderd, worden gegevens die aan dat account zijn gekoppeld, 30 dagen in bezit gehouden. Na de respijtperiode van 30 dagen worden de gegevens verwijderd en kunnen ze niet meer worden hersteld.
-- Bestanden die zijn opgeslagen in OneDrive voor Bedrijven, worden niet verwijderd, tenzij de gebruiker wordt verwijderd uit het Microsoft 365-beheercentrum of wordt verwijderd via Active Directory-synchronisatie. Zie [OneDrive-bewaring en -verwijdering voor meer informatie.](/onedrive/retention-and-deletion)
-- Wanneer de licentie wordt verwijderd, kan het postvak van de gebruiker niet meer worden doorzocht met behulp van een eDiscovery-hulpprogramma, zoals Zoeken naar inhoud of Geavanceerd eDiscovery. Zie 'Verbroken of niet-gelicentieerde postvakken zoeken' in Inhoud zoeken [in Microsoft 365](../../compliance/content-search.md)voor meer informatie.
-- Als u een Enterprise-abonnement hebt, zoals Office 365 Enterprise E3, kunt u met Exchange Online de postvakgegevens van een verwijderd gebruikersaccount behouden met [inactieve postvakken.](../../compliance/inactive-mailboxes-in-office-365.md) Zie Inactieve postvakken maken en beheren in Exchange Online voor [meer informatie.](../../compliance/create-and-manage-inactive-mailboxes.md)
+- Bestanden die in OneDrive voor Bedrijven zijn opgeslagen, worden niet verwijderd, tenzij de gebruiker wordt verwijderd uit het Microsoft 365-beheercentrum of wordt verwijderd via Active Directory-synchronisatie. Zie voor meer informatie [OneDrive bewaren en verwijderen.](/onedrive/retention-and-deletion)
+- Wanneer de licentie wordt verwijderd, kan het postvak van de gebruiker niet meer worden doorzocht met behulp van een eDiscovery-hulpprogramma, zoals Zoeken naar inhoud of Advanced eDiscovery. Zie 'Verbroken of niet-gelicentieerde postvakken zoeken' in Inhoud zoeken [in](../../compliance/content-search.md)Microsoft 365.
+- Als u een Enterprise-abonnement hebt, zoals Office 365 Enterprise E3, kunt u Exchange Online de postvakgegevens van een verwijderd gebruikersaccount behouden door inactieve postvakken [te gebruiken.](../../compliance/inactive-mailboxes-in-office-365.md) Zie Inactieve postvakken maken en beheren [in Exchange Online.](../../compliance/create-and-manage-inactive-mailboxes.md)
 - Zie Een voormalige werknemer verwijderen voor informatie over het blokkeren van de toegang van een gebruiker tot Microsoft 365-gegevens nadat de licentie is verwijderd en hoe u daarna toegang tot de gegevens [kunt krijgen.](../add-users/remove-former-employee.md)
-- Als u de licentie van een gebruiker verwijdert en er nog Steeds Office-apps zijn geïnstalleerd, zien ze product- en [activeringsfouten](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) zonder licentie in Office wanneer ze Office-apps gebruiken.
+- Als u de licentie van een gebruiker verwijdert en er nog steeds Office-apps zijn geïnstalleerd, zien ze product- en [activeringsfouten](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) zonder licentie in Office wanneer ze Office gebruiken.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Als u de ongebruikte licenties niet opnieuw wilt toewijzen aan [](../../commerce/licenses/buy-licenses.md) andere [gebruikers,](../../managed-desktop/get-started/assign-licenses.md)kunt u overwegen om de licenties uit uw abonnement te verwijderen, zodat u niet meer licenties betaalt dan u nodig hebt.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Licenties verwijderen uit uw abonnement](../../commerce/licenses/buy-licenses.md) (artikel)\
 [Licenties toewijzen aan gebruikers](assign-licenses-to-users.md) (artikel)\
-[Meer informatie over abonnementen en licenties in Microsoft 365 voor Bedrijven](../../commerce/licenses/subscriptions-and-licenses.md) (artikel)
+[Meer inzicht in abonnementen en licenties in Microsoft 365 voor Bedrijven](../../commerce/licenses/subscriptions-and-licenses.md) (artikel)

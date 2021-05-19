@@ -1,27 +1,28 @@
 ---
 title: Betalingsgegevens voor Indonesië
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 83a71e177a82e3b2bf6e1354bbece09b7a7c632d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ec5fdc978b8303d832509ce253f110a15b1e7caf
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273584"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536632"
 ---
 # <a name="payment-information-for-indonesia"></a>Betalingsgegevens voor Indonesië
 
-[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md) 
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
 Betaal alleen in IDR en vermeld het factuurnummer(en) bij de overboeking van uw betaling.
 
@@ -31,4 +32,4 @@ Betaal alleen in IDR en vermeld het factuurnummer(en) bij de overboeking van uw 
 **Vertakking:** Jakarta  
 **SWIFT-code:** CITIIDJX  
 **Accountnummer:** 104468055  
-**Accountnaam:** PT Microsoft Indonesia  
+**Accountnaam:** PT Microsoft Indonesia

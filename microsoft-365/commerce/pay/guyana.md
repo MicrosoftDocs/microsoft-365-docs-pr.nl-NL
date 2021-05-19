@@ -1,23 +1,24 @@
 ---
 title: Betalingsgegevens voor Guyana
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 86883dd73e0865f4ad0a544cfe7b6466d8739ea2
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f951fd2ecb1d52c4bb7985c271d6622c21a4cb24
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273666"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536704"
 ---
 # <a name="payment-information-for-guyana"></a>Betalingsgegevens voor Guyana
 
@@ -31,4 +32,4 @@ Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.
 **Vertakking** Dallas  
 **SWIFT-code:** BOFAUS3N  
 **Accountnummer:** 4426587954  
-**Accountnaam:** Microsoft  
+**Accountnaam:** Microsoft

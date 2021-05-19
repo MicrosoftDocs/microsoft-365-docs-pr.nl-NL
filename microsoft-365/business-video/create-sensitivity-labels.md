@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het maken en beheren van gevoeligheidslabels.
-ms.openlocfilehash: 997b05ba549d3dc57e1793585331dfcfae1e277b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 26697265088a2a59ac145eeff2816b816b95a149
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578937"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537377"
 ---
 # <a name="protect-documents-with-sensitivity-labels"></a>Documenten beveiligen met gevoeligheidslabels
 
@@ -50,8 +50,8 @@ Met gevoeligheidslabels kunt u inhoud die gevoelig is voor uw bedrijf classifice
 1. Schakel desgewenst preventie van **gegevensverlies van eindpunten in.** Selecteer **Volgende**.
 1. Schakel desgewenst Automatisch **labelen in.** Voeg een voorwaarde toe. Selecteer bijvoorbeeld onder **Inhoud detecteren die bevat** de optie Een voorwaarde **toevoegen.** Voer de voorwaarde in; Voeg bijvoorbeeld een voorwaarde toe dat als paspoort, sociale zekerheid of andere gevoelige informatie wordt gedetecteerd, het label wordt toegevoegd. Selecteer **Volgende**.
 1. Controleer uw instellingen en selecteer **Maken.** Uw label is gemaakt. Herhaal dit proces voor eventuele extra etiketten die u wilt gebruiken.
-1. Standaard worden labels weergegeven in Office-apps in deze volgorde: **Vertrouwelijk,** **Intern** en **Openbaar.** Als u de volgorde wilt wijzigen, selecteert u voor elk label **Meer** acties (het beletselteken) en verplaatst u het label omhoog of omlaag. Machtigingen worden meestal weergegeven van het laagste tot hoogste machtigingsniveau.
-1. Als u een sublabel aan een label wilt toevoegen, **selecteert** u Meer acties en vervolgens **Subniveau toevoegen.**
+1. Standaard worden labels weergegeven in Office apps in deze volgorde: **Vertrouwelijk,** **Intern** en **Openbaar.** Als u de volgorde wilt wijzigen, selecteert u voor elk label de drie puntjes (meer acties) en verplaatst u het label omhoog of omlaag. Machtigingen worden meestal weergegeven van het laagste tot hoogste machtigingsniveau.
+1. Als u een sublabel aan een label wilt toevoegen, selecteert u de drie puntjes (meer acties) en vervolgens **Subniveau toevoegen.**
 1. Wanneer u klaar bent, **kiest u Labels publiceren,** **Labels kiezen om te publiceren** en vervolgens **Toevoegen.** Selecteer de etiketten die u wilt publiceren en selecteer **vervolgens Toevoegen,** **Klaar** en vervolgens **Volgende.**
 1. Standaard wordt het nieuwe labelbeleid toegepast op iedereen. Als u wilt beperken op wie het beleid is toegepast, **selecteert** u Gebruikers of groepen kiezen en vervolgens **Toevoegen.** Selecteer op wie u het beleid wilt toepassen en selecteer **vervolgens Toevoegen,** **Klaar** en vervolgens **Volgende.**
 1. Als u een standaardlabel voor documenten en e-mail wilt gebruiken, selecteert u het label dat u wilt gebruiken in de vervolgkeuzelijst. Controleer de overige instellingen, pas deze zo nodig aan en selecteer **Volgende.**

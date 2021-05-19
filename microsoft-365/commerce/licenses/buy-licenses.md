@@ -19,14 +19,14 @@ ms.custom:
 - manage_licenses
 - commerce_licensing
 search.appverid: MET150
-description: Meer informatie over het kopen van meer licenties of het verminderen van het aantal licenties voor uw Microsoft 365 voor Bedrijven-abonnement.
+description: Meer informatie over het kopen van meer licenties of het verminderen van het aantal licenties voor uw Microsoft 365 voor bedrijven-abonnement.
 ms.date: 04/07/2021
-ms.openlocfilehash: a327149a780d2059cfc69068fc4b2122e549773c
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: a20e89ff28c582018c55281a85dbe115b58f9d74
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331680"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537269"
 ---
 # <a name="buy-or-remove-licenses"></a>Licenties kopen of verwijderen
 
@@ -36,7 +36,7 @@ Met de volgende stappen kunt u meer licenties kopen of het aantal licenties voor
 
 - U moet een globale beheerder of factureringsbeheerder zijn om de taken uit te voeren die in dit artikel worden beschreven. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 - U kunt [gebruikers toevoegen en tegelijkertijd licenties toewijzen.](../../admin/add-users/add-users.md)
-- Als u uw Microsoft 365 voor Bedrijven- of Office 365 Enterprise-abonnement hebt gekocht via een externe partner, moet u extra licenties kopen via die partner.
+- Als u uw abonnement Microsoft 365 voor bedrijven of Office 365 Enterprise via een externe partner hebt gekocht, moet u extra licenties kopen via die partner.
 
 ## <a name="watch-buy-new-licenses"></a>Kijken: Nieuwe licenties kopen
 
@@ -68,7 +68,7 @@ Als u licenties uit een abonnement hebt verwijderd, moet u gebruikers uit [uw or
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 ::: moniker-end
 
-2. Zoek op **het** tabblad Producten het abonnement waarvoor u licenties wilt kopen of verwijderen. Selecteer **Meer acties** (drie puntjes) en selecteer Vervolgens Licenties **kopen.** [Wat gebeurt er als ik de knoppen Licenties kopen of Licenties verwijderen niet zie?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
+2. Zoek op **het** tabblad Producten het abonnement waarvoor u licenties wilt kopen of verwijderen. Selecteer de drie puntjes (meer acties) en selecteer **Vervolgens Licenties kopen.** [Wat gebeurt er als ik de knoppen Licenties kopen of Licenties verwijderen niet zie?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
 3. Als u het aantal licenties wilt verminderen, selecteert u boven aan het deelvenster Licenties kopen de optie **Licenties verwijderen.** 
 4. Als u licenties wilt kopen of  verwijderen, voert u onder Nieuw aantal **in** het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er nog vijf wilt toevoegen, voert u 105 in. Als u er vijf wilt verwijderen, voert u 95 in.
 5. Selecteer **Opslaan**.
@@ -80,11 +80,11 @@ Als u licenties uit een abonnement hebt verwijderd, moet u gebruikers uit [uw or
 
 In deze tabel worden de redenen  beschreven waarom **de** knoppen Licenties kopen of Licenties verwijderen niet beschikbaar zijn en mogelijke oplossingen.
 
-|Reden  |Beschrijving  |Oplossing  |
+|Reden  |Omschrijving  |Oplossing  |
 |---------|---------|---------|
 |Er is een kredietcontrole in behandeling. |Als een kredietcontrole in behandeling is, kunt u geen licenties kopen of verwijderen totdat de kredietcontrole is voltooid.  | Controleer later of de kredietcontrole is voltooid. Kredietcontroles duren meestal maximaal twee werkdagen.<br/>Nadat de kredietcontrole is voltooid, ziet u de knoppen Licenties **kopen** en Licenties **verwijderen.** |
 |U hebt het abonnement geactiveerd met een productcode.| Als het abonnement is gekocht en geactiveerd met een productcode van 25 tekens, ziet u het woord 'Prepaid' in de kolom Aankoopkanaal van de pagina **Uw producten.**   |Zie [Licenties toevoegen aan een abonnement dat is betaald voor het gebruik van een productcode.](add-licenses-using-product-key.md) |
-|U hebt uw abonnement gekocht via een wederverkoper.| U ziet het woord 'Wederverkoper' in de kolom **Aankoopkanaal** van **de pagina Uw producten.** | Als het abonnement is gekocht via een CSP-partner (Cloud Solution Provider), neem dan contact op met uw CSP-partner om meer licenties te kopen.        |
+|U hebt uw abonnement gekocht via een wederverkoper.| U ziet het woord 'Wederverkoper' in de kolom **Aankoopkanaal** van **de pagina Uw producten.** | Als het abonnement is gekocht via een Cloud Solution Provider (CSP)-partner, neem dan contact op met uw CSP-partner om meer licenties te kopen.        |
 |U hebt een proefabonnement. | Als u uw proefabonnementen wilt bekijken, selecteert u de filterknop en kiest u **proefabonnement.** | Koop eerst uw proefabonnement en vervolgens kunt u meer licenties kopen.|
 
 ## <a name="when-will-the-new-licenses-be-available-to-assign"></a>Wanneer zijn de nieuwe licenties beschikbaar om toe te wijzen?
@@ -104,8 +104,8 @@ Als u meer licenties voor uw abonnement hebt gekocht, moet u deze licenties verv
 
 Als u het aantal licenties voor uw abonnement hebt verminderd omdat iemand uw organisatie heeft verlaten, wilt u mogelijk het account van die gebruiker verwijderen. Zie Een voormalige werknemer [verwijderen voor meer informatie.](../../admin/add-users/remove-former-employee.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Informatie over abonnementen en licenties](subscriptions-and-licenses.md) (artikel)\
-[Een Microsoft 365-abonnement proberen](../try-or-buy-microsoft-365.md) of kopen (artikel)
+[Probeer of koop een Microsoft 365 abonnement](../try-or-buy-microsoft-365.md) (artikel)

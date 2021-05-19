@@ -1,23 +1,24 @@
 ---
 title: Betalingsgegevens voor Guam
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bf32b11c5077c7d12e53b34c17e14932940aa9d9
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 177089e9659ee3780207a363d417909bc1e444a6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273690"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536740"
 ---
 # <a name="payment-information-for-guam"></a>Betalingsgegevens voor Guam
 
@@ -31,4 +32,4 @@ Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.
 **Vertakking** Dallas  
 **SWIFT-code:** BOFAUS3N  
 **Accountnummer:** 4426587954  
-**Accountnaam:** Microsoft  
+**Accountnaam:** Microsoft

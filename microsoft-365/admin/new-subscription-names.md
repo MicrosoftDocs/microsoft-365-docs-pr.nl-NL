@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-description: Meer informatie over de nieuwe namen van microsoft 365-abonnementen.
-ms.openlocfilehash: f9726f8860e25b800a253899b5c2f561325e5ca2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Meer informatie over de nieuwe Microsoft 365 namen van abonnementen.
+ms.openlocfilehash: 43496015eeaa680abbdf8f9ed43f83e1a072c825
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579204"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537413"
 ---
 # <a name="office-365-is-now-microsoft-365"></a>Office 365 is nu Microsoft 365
 
@@ -29,7 +29,17 @@ We hebben enkele namen van de Office 365- en Microsoft 365-abonnementen gewijzig
 - **Office 365 Business Essentials** is nu **Microsoft 365 Business Basic**
 - **Office 365 Business Premium** is nu **Microsoft 365 Business Standard**
 - **Microsoft 365 Business** is nu **Microsoft 365 Business Premium**
-- **Office 365 Business** is nu **Microsoft 365 Apps voor Bedrijven**
-- **Office 365 ProPlus** is nu **Microsoft 365 Apps voor bedrijven**
+- **Office 365 Business** is nu **Microsoft 365-apps voor bedrijven**
+- **Office 365 ProPlus** is nu **Microsoft 365-apps voor ondernemingen**
 
 [Meer informatie!](https://go.microsoft.com/fwlink/?linkid=2120533)
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Abonnementen en facturering](../commerce/index.yml) (koppelingen)
+
+[Uw factuur of factuur weergeven](../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artikel)
+
+[Betalen voor uw abonnement](../commerce/billing-and-payments/pay-for-your-subscription.md) (artikel)
+
+[Uw factureringsadressen wijzigen](../commerce/billing-and-payments/change-your-billing-addresses.md) (artikel)

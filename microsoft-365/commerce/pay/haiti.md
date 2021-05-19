@@ -1,23 +1,24 @@
 ---
 title: Betalingsgegevens voor Haïti
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4616037c86cac361aca18b9f7a57800998eb97b5
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 36c76a2aee8d2a64a741f29aed4b7740024c4f43
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273654"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536728"
 ---
 # <a name="payment-information-for-haiti"></a>Betalingsgegevens voor Haïti
 
@@ -31,4 +32,4 @@ Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.
 **Vertakking** Dallas  
 **SWIFT-code:** BOFAUS3N  
 **Accountnummer:** 4426587954  
-**Accountnaam:** Microsoft  
+**Accountnaam:** Microsoft
