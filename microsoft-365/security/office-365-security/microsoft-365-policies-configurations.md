@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 948f4515b37f27695e1e66730134aa19114ca1cf
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: aa12cc4ad885c3d4b9d1c35fba9f38747f24077d
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538997"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583189"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -93,7 +93,7 @@ Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegev
 
 De **identiteits- en apparaatbeveiliging voor Microsoft 365** architectuurmodel laat zien welke mogelijkheden vergelijkbaar zijn.
 
-[![Duimafbeelding voor identiteits- en apparaatbeveiliging voor Microsoft 365 poster](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [Weergeven als pdf-bestand](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
+[![Duimafbeelding voor identiteits- en apparaatbeveiliging voor Microsoft 365 poster](../../media/microsoft-365-policies-configurations/o365-identity-device-protection-thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [Weergeven als pdf-bestand](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
 
 Zie ook de oplossing Voor [gegevensbescherming implementeren](../../solutions/information-protection-deploy.md) voor privacyregels voor gegevens om gegevens te beveiligen die zijn opgeslagen in Microsoft 365.
 

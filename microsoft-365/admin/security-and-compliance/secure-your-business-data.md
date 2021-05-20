@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
-description: 'Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen. '
-ms.openlocfilehash: dcaeb9588f50d1e12bdff5164f5f41a0beee2e47
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
+ms.openlocfilehash: 12bdb9f12c1b0d3072a4c84c006787c26050cc8b
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535876"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582798"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om uw Microsoft 365 zakelijke abonnementen te beveiligen
 
@@ -152,7 +152,7 @@ Als u een regel voor e-mailtransport wilt maken, bekijkt u een [korte trainingsv
 
 5. Pas de instellingen in de volgende tabel toe voor elke regel. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Selecteer **Opslaan**.
+6. Kies **Opslaan**.
     
 | Instelling | Gebruikers waarschuwen voordat ze bijlagen van Office openen | Bestandstypen blokkeren die ransomware of andere schadelijke code kunnen bevatten |
 |:-----|:-----|:-----|
@@ -188,7 +188,7 @@ Een regel voor e-mailtransport maken:
 
 5. Pas de instellingen in de volgende tabel toe. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Selecteer **Opslaan**.
+6. Kies **Opslaan**.
 
 |Instelling|Automatisch doorsturen van e-mailberichten naar externe domeinen weigeren|
 |---|---|
@@ -256,7 +256,7 @@ Als u een anti-phishingbeleid wilt maken in Defender Office 365, bekijkt u een k
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Domein en meest waardevolle campagnemedewerkers|
-|Omschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
+|Beschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
 |Gebruikers toevoegen om ze te beveiligen|Selecteer **+ Een voorwaarde toevoegen, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke personeelsleden. U kunt maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.|
 |Domeinen toevoegen om te beveiligen|Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerde is**. Voer het aangepaste domein in dat is gekoppeld aan Microsoft 365-abonnement, als u er een hebt gedefinieerd. U kunt meer dan één domein invoeren.|
 |Acties kiezen|Als e-mail wordt verzonden door een nagebootste gebruiker: selecteer **Bericht omleiden** naar een ander e-mailadres en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld securityadmin@contoso.com. <br/> Als e-mail wordt verzonden door een nagebootsd domein: selecteer **Quarantainebericht.**|
@@ -291,7 +291,7 @@ Als u een Safe wilt maken, bekijkt u een [korte trainingsvideo](../../business-v
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Huidige en toekomstige e-mailberichten blokkeren met gedetecteerde malware.|
-|Omschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
+|Beschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
 |Bijlages opslaan onbekende malwarereactie|Selecteer **Blokkeren: blokkeer de huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.**|
 |Bijlage omleiden bij detectie|Omleiding inschakelen (selecteer dit vak) <br/> Voer het beheerdersaccount of een postvakinstelling in voor quarantaine. <br/> Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt (schakel dit vakje in).|
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
@@ -326,7 +326,7 @@ Het standaardbeleid wijzigen:
 
 3. Selecteer **Office 365** toepassingen onder Instellingen die van toepassing zijn op inhoud, behalve **e-mail,** niet bijhouden wanneer gebruikers op veilige koppelingen klikken en Gebruikers niet door veilige koppelingen naar de oorspronkelijke URL laten **klikken.**
 
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
 Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
@@ -334,7 +334,7 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 2. Pas de instellingen toe die in de volgende tabel worden vermeld.
 
-3. Selecteer **Opslaan**.
+3. Kies **Opslaan**.
 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
@@ -345,3 +345,11 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 |
 
 Zie Koppelingen in Microsoft Defender voor Safe voor [meer Office 365.](../../security/office-365-security/atp-safe-links.md)
+
+## <a name="related-content"></a>Verwante inhoud
+
+[Meervoudige verificatie voor Microsoft 365](multi-factor-authentication-microsoft-365.md) (artikel)
+
+[Prioriteitsaccounts beheren en controleren](../setup/priority-accounts.md) (artikel)
+
+[Microsoft 365 rapporten in het beheercentrum](../activity-reports/activity-reports.md) (video)

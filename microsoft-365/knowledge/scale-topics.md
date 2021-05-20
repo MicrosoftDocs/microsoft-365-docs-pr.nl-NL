@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Meer informatie over best practices voor het beheren van de vele onderwerpen in uw organisatie met Behulp van Viva-onderwerpen.
-ms.openlocfilehash: dd9fe658d4f698ac50563b5c9ea141a090f6141d
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: a11d6fd1a7435ce75faa749a6d66fba6c1cda457
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538409"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583062"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>Onderwerpen op schaal beheren in Microsoft Viva-onderwerpen
 
@@ -28,15 +28,17 @@ Eerst een herinnering aan de [vier stadia voor onderwerpen:](manage-topics.md#to
 
 - **Voorgesteld:** een onderwerp is geïdentificeerd door AI en heeft voldoende ondersteunende bronnen, verbindingen en eigenschappen. (Deze zijn gemarkeerd als een **voorgesteld onderwerp** in de gebruikersinterface.)
 
-- **Bevestigd:** een onderwerp dat door AI is voorgesteld, wordt gevalideerd. Onderwerpvalidatie moet worden bevestigd door een kennismanager. Als u een onderwerp wilt bevestigen, moet er een netto van twee positieve stemmen zijn ontvangen van gebruikers die hebben gestemd met behulp van het feedbackmechanisme op de onderwerpkaart. Als bijvoorbeeld één gebruiker positief heeft gestemd en één gebruiker negatief heeft gestemd voor een bepaald onderwerp, hebt u nog twee positieve stemmen nodig om het onderwerp te bevestigen.
+- **Bevestigd:** een onderwerp dat door AI is voorgesteld, moet worden gevalideerd. Onderwerpvalidatie vindt plaats wanneer een van de volgende:
+   - Een kennismanager bevestigt een onderwerp. Een knowledge manager [bevestigt een onderwerp](manage-topics.md#confirmed-topics) op de **pagina Onderwerpen** beheren. 
+   - Meerdere gebruikers bevestigen een onderwerp. Er moet een netto van twee positieve stemmen zijn ontvangen van gebruikers die hebben gestemd met behulp van het feedbackmechanisme op de onderwerpkaart. Als bijvoorbeeld één gebruiker positief heeft gestemd en één gebruiker negatief heeft gestemd voor een bepaald onderwerp, hebt u nog twee positieve stemmen nodig om het onderwerp te bevestigen.
  
-- **Gepubliceerd:** Een bevestigd onderwerp dat is samengesteld: er zijn handmatige wijzigingen aangebracht om de kwaliteit te verbeteren.
+- **Gepubliceerd:** een bevestigd onderwerp dat is samengesteld. Handmatige bewerkingen zijn aangebracht om de kwaliteit te verbeteren.
 
 - **Verwijderd:** een onderwerp wordt geweigerd door een knowledge manager en is niet meer zichtbaar voor kijkers. Een onderwerp kan in elke staat worden verwijderd (voorgesteld, bevestigd of gepubliceerd). Als u een onderwerp wilt verwijderen, moet er een netto van twee negatieve stemmen zijn ontvangen van gebruikers die hebben gestemd met behulp van de feedbackmechanismen op de onderwerpkaart. Als bijvoorbeeld één gebruiker negatief heeft gestemd en één gebruiker positief heeft gestemd voor een bepaald onderwerp, moet u nog twee negatieve stemmen voor het onderwerp verwijderen. Wanneer een gepubliceerd onderwerp wordt verwijderd, moet de pagina met de samengestelde details handmatig worden verwijderd via de paginabibliotheek van het onderwerpcentrum.
 
 ## <a name="knowledge-manager-role"></a>Rol van Knowledge Manager 
 
-Wanneer u Viva-onderwerpen configureert, voegt u een groep gebruikers  toe die machtigingen krijgen om de ervaring Onderwerpen beheren in het onderwerpcentrum te zien. Deze wordt alleen weergegeven voor deze gebruikers die de rol van primaire curatie voor de onderwerpen hebben. Ze hebben toegang tot gegevens over de onderwerpen en kunnen lijsten zien met alle onderwerpen die ze kunnen bekijken en curateren.
+Wanneer u Viva-onderwerpen configureert, voegt u een groep gebruikers  toe die machtigingen krijgen om de pagina Onderwerpen beheren in het onderwerpcentrum te zien. Deze wordt alleen weergegeven voor deze gebruikers die de rol van primaire curatie voor de onderwerpen hebben. Ze hebben toegang tot gegevens over de onderwerpen en kunnen lijsten zien met alle onderwerpen die ze kunnen bekijken en curateren.
 
 Werknemers in deze rol moeten uitgebreide machtigingen hebben om een breed scala aan onderwerpen weer te geven. Of als machtigingen zijn gesegmenteerd, wilt u mogelijk een groep gebruikers selecteren die verschillende gebieden van het bedrijf vertegenwoordigen en kunnen curaten voor hun eigen gebieden.
 

@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het gebruik SharePoint Syntex om contractbestanden te identificeren en gegevens op te halen met een Microsoft 365 oplossing.
-ms.openlocfilehash: f246dd4ed619dd9885d2c45c69d607cfa9c2483f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 67c0a072b070cd414f5079fe4fb61e7391839951
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538553"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583566"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Stap 1. Gebruik SharePoint Syntex om contractbestanden te identificeren en gegevens op te halen
 
@@ -42,7 +42,7 @@ Uw organisatie heeft een manier nodig om alle contractdocumenten te identificere
 ## <a name="steps-to-create-and-train-your-model"></a>Stappen voor het maken en trainen van uw model
 
 > [!NOTE]
-> Voor deze stappen kunt u de voorbeeldbestanden gebruiken in de [Microsoft SharePoint Syntex Samples repository.](https://github.com/pnp/syntex-samples) De voorbeelden in deze opslagplaats bevatten zowel de documentkennis van modelbestanden als de bestanden die worden gebruikt om het model te trainen.
+> Voor deze stappen kunt u de voorbeeldbestanden gebruiken in de [opslagplaats Voor oplossingsactiva voor contractenbeheer.](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management) De voorbeelden in deze opslagplaats bevatten zowel de documentkennis van modelbestanden als de bestanden die worden gebruikt om het model te trainen.
 
 ### <a name="create-a-contract-model"></a>Een contractmodel maken
 

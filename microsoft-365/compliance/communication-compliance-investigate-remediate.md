@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 7e564bfd090a778ae2cd14214c35af8cd2fc6692
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 2f9777631fe9d8b3506296f30906d5280805b4cb
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "52162572"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583413"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Waarschuwingen voor communicatiecompliance onderzoeken en oplossen
 
@@ -55,7 +55,7 @@ Zie Filters [in](communication-compliance-feature-reference.md#filters) het arti
 
 5. Selecteer het **besturingselement Filters** om de pagina **Filterdetails** te openen.
 
-6. Schakel een of meer selectievakjes in om filters voor deze waarschuwingen in te stellen. U kunt kiezen uit verschillende filters, waaronder *Datum,* *Afzender,* *Onderwerp/Titel,* *Classificaties* en meer.
+6. Schakel een of meer selectievakjes in om filters voor deze waarschuwingen in te stellen. U kunt kiezen uit diverse filters, waaronder *Datum,* *Afzender,* *Onderwerp/Titel,* *Classificaties,* *Taal* en meer.
 
 7. Als u het filter wilt opslaan dat is geselecteerd als standaardfilter, **selecteert** u Opslaan als standaard . Als u dit filter als opgeslagen filter wilt gebruiken, selecteert u **Klaar.**
 
@@ -105,7 +105,6 @@ Na het bekijken van de basisprincipes van het bericht, is het tijd om een berich
 - **Tekstweergave:** In de tekstweergave wordt een tekstweergave met alleen een regelnummer van het bericht weergegeven en worden trefwoorden in berichten en bijlagen weergegeven voor gevoelige informatietypetermen of trefwoorden die overeenkomen met het bijbehorende communicatiebeleid. Met trefwoord markeringen kunt u snel lange berichten en bijlagen scannen op het interessegebied. In sommige gevallen kan gemarkeerde tekst alleen worden weergegeven in bijlagen voor berichten die overeenkomen met beleidsvoorwaarden. Trefwoorden markeren wordt niet ondersteund voor termen die zijn geïdentificeerd door ingebouwde classificaties die aan een beleid zijn toegewezen. Ingesloten bestanden worden niet weergegeven en de regelnummering van deze weergave is handig voor het verwijzen naar relevante details tussen meerdere revisoren.
 - **Aantekeningen weergeven:** met deze weergave kunnen revisoren aantekeningen rechtstreeks toevoegen aan het bericht dat is opgeslagen in de weergave van het bericht. Als [OCR is](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) ingeschakeld voor het beleid, worden afbeeldingen met afgedrukte of handgeschreven tekst die overeenkomen met beleid voorwaardelijke, weergegeven als een onderliggend item voor het bijbehorende bericht in deze weergave en kunnen ze worden geannoteerd.
 - **Gebruikersgeschiedenis:** In de gebruikersgeschiedenisweergave worden alle andere waarschuwingen weergegeven die zijn gegenereerd door een communicatie-compliancebeleid voor de gebruiker die het bericht verstuurt.
-- **Weergave berichtdetail:** Geavanceerde weergave van metagegevens en configuratiegegevens van berichten.
 - **Patroon gedetecteerde melding:** Veel intimiderende en pestende acties in de tijd en omvatten terugkerende exemplaren van hetzelfde gedrag door een gebruiker. De *melding Patroon gedetecteerd* wordt weergegeven in de waarschuwingsdetails en trekt de aandacht voor de waarschuwing. Detectie van patronen gebeurt per beleid en evalueert het gedrag in de afgelopen 30 dagen wanneer ten minste twee berichten door een afzender naar dezelfde geadresseerde worden verzonden. Revisoren en revisoren kunnen deze melding gebruiken om herhaald gedrag te identificeren om de waarschuwing zo nodig te evalueren.
 - **Weergave Vertalen weergeven:** met deze weergave wordt de tekst van  het waarschuwingsbericht automatisch geconververd naar de taal die is geconfigureerd in de instelling Weergegeven taal in het Microsoft 365 voor elke revisor. Met de weergave Vertalen kunt u onderzoeksondersteuning voor organisaties met meertalige gebruikers breder maken en hoeft u geen extra vertaalservices meer te gebruiken buiten het controleproces voor communicatie compliance. Met Microsoft Translate-services kan de weergave Vertalen zo nodig worden in- en uitgeschakeld en wordt een breed scala aan talen ondersteund. Zie Microsoft Vertalen Talen voor een volledige lijst [met ondersteunde talen.](https://www.microsoft.com/translator/business/languages/) Talen die worden weergegeven in de *Vertalen taallijst* worden ondersteund in de weergave Vertalen.
 

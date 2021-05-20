@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 2bd719377e36cf608a0fe75078ab8bef004ad92e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 42ab124f3026cf0b7441edf44c0e6433be5f0ecd
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346326"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583665"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -42,7 +42,7 @@ In deze richtlijn wordt besproken hoe u het aanbevolen beleid implementeert in e
 
 In het volgende diagram ziet u de aanbevolen set beleidsregels. Hier ziet u op welke beveiligingslaag elk beleid van toepassing is en of het beleid van toepassing is op pc's of telefoons en tablets, of beide categorieën apparaten. Het geeft ook aan waar u dit beleid configureert.
 
-[![Algemeen beleid voor het configureren van identiteits- en apparaattoegang](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+[![Algemeen beleid voor het configureren van identiteits- en apparaattoegang](../../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
 
 Hier volgt een PDF-overzicht van één pagina met koppelingen naar het afzonderlijke beleid:
 

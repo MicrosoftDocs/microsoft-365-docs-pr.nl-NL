@@ -1,6 +1,6 @@
 ---
 title: AADSignInEventsBeta-tabel in het geavanceerde schema voor de jacht
-description: Meer informatie over informatie die is gekoppeld aan azure Active Directory-aanmeldingsgebeurtenissentabel van het geavanceerde schema voor de jacht
+description: Meer informatie over informatie die is gekoppeld aan Azure Active Directory tabel met aanmeldingsgebeurtenissen van het geavanceerde schema voor de jacht
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, file, IP address, device, machine, user, account, identity, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 93735ee3bf8d9b95ab320c2bc158d6ebfe27186c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 704752951c453a3fe872b814e7364ef1699226bf
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932605"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582978"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -34,12 +34,11 @@ ms.locfileid: "51932605"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> De tabel is momenteel in bètaversie en wordt op korte termijn aangeboden, zodat u kunt zoeken op aanmeldingsgebeurtenissen van `AADSignInEventsBeta` Azure Active Directory (AAD). Uiteindelijk worden alle aanmeldingsschemagegevens naar de tabel `IdentityLogonEvents` verplaatst.<br><br>
-> Klanten die toegang hebben tot Microsoft 365 Defender via de geïntegreerde Microsoft Defender voor Eindpunt-oplossing van Azure Defender, maar geen licenties hebben voor Microsoft Defender voor Office, Microsoft Defender voor identiteit of Microsoft Cloud App Security, kunnen dit schema niet bekijken. 
+> De tabel is momenteel in bètaversie en wordt op korte termijn aangeboden, zodat u op zoek kunt naar Azure Active Directory `AADSignInEventsBeta` (AAD) aanmeldingsgebeurtenissen. Uiteindelijk worden alle aanmeldingsschemagegevens naar de tabel `IdentityLogonEvents` verplaatst.
 
  
 
-De `AADSignInEventsBeta` tabel in het geavanceerde schema bevat informatie over interactieve en niet-interactieve aanmeldingen van Azure Active Directory. Meer informatie over aanmeldingen in [Azure Active Directory-aanmeldingsactiviteitsrapporten - preview.](/azure/active-directory/reports-monitoring/concept-all-sign-ins)
+De tabel in het geavanceerde schema bevat informatie over `AADSignInEventsBeta` Azure Active Directory interactieve en niet-interactieve aanmeldingen. Meer informatie over aanmeldingen in Azure Active Directory [aanmeldingsactiviteitsrapporten - preview.](/azure/active-directory/reports-monitoring/concept-all-sign-ins)
 
 Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)
@@ -75,7 +74,7 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `IsCompliant`                     | int       | Geeft aan of het apparaat dat de aanmelding heeft gestart compatibel is (1) of niet-compatibel (0)                                                                                       |
 | `AuthenticationProcessingDetails` | tekenreeks        | Details over de verificatieprocessor                                                                                                                                          |
 | `AuthenticationRequirement`       | tekenreeks        | Type verificatie vereist voor de aanmelding. Mogelijke waarden: multiFactorAuthentication (MFA was vereist) en singleFactorAuthentication (er was geen MFA vereist).                |
-| `TokenIssuerType`                 | int        | Geeft aan of de token-issuer Azure Active Directory (0) of Active Directory Federation Services (1) is                                                                             |
+| `TokenIssuerType`                 | int        | Hiermee wordt aangegeven of de token-Azure Active Directory (0) of Active Directory Federation Services (1)                                                                             |
 | `RiskLevelAggregated`                       | int        | Geaggregeerd risiconiveau tijdens aanmelding. Mogelijke waarden: 0 (geaggregeerd risiconiveau niet ingesteld), 1 (geen), 10 (laag), 50 (gemiddeld) of 100 (hoog).                               |
 | `RiskDetails`                      | int        | Details over de risicovolle status van de gebruiker die zich heeft aangemeld                                                                                                                            |
 | `RiskState`                       | int        | Geeft riskante gebruikerstoestand aan. Mogelijke waarden: 0 (geen), 1 (veilig bevestigd), 2 (opgelost), 3 (afgewezen), 4 (met risico) of 5 (bevestigd gecompromitteerd).                                |

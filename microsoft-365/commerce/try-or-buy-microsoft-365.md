@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
 search.appverid: MET150
-description: Meer informatie over het krijgen van een gratis proefabonnement of het kopen van een Microsoft 365 voor bedrijven.
+description: Meld u aan voor een gratis proefabonnement van 30 dagen voor Microsoft 365 Business Standard, Microsoft 365 Business Premium of Microsoft 365-apps voor bedrijven.
 ms.date: 08/07/2020
-ms.openlocfilehash: 78716d78745616530729ff2fa5cfa31202e056c8
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 20ceb683c6224e572a1c532330d45fa8fa5c8416
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344684"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583446"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Een abonnement voor Microsoft 365 voor bedrijven proberen of kopen
 
@@ -143,9 +143,9 @@ Als u al een abonnement hebt en een nieuw abonnement toevoegt, kunt u gebruikers
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) (trainingsvideo's)\
+[Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) (video)\
 [Gebruikers toevoegen en tegelijkertijd licenties](../admin/add-users/add-users.md) toewijzen (artikel)\
 [Licenties toewijzen aan gebruikers](../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Upgraden naar een ander abonnement](subscriptions/upgrade-to-different-plan.md) (artikel)\
 [Een invoegbewerking kopen of bewerken voor Microsoft 365 voor Bedrijven](buy-or-edit-an-add-on.md) (artikel)\
-[Opslagruimte toevoegen voor uw abonnement](add-storage-space.md)
+[Opslagruimte toevoegen voor uw abonnement](add-storage-space.md) (artikel)

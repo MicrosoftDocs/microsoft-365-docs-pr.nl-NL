@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 2e7152530dc3221eb3ab01047416993178193732
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 073c14f84f4858a1853da062bf87ae9e78c05cbd
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333816"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583590"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
 
-In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint-site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in het Microsoft 365-beheercentrum.
+In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in het Microsoft 365 beheercentrum.
 
 Het onderwerpcentrum heeft een standaard startpagina met het **webonderdeel** Onderwerpen waarin alle gelicentieerde gebruikers de onderwerpen kunnen zien waarmee ze een verbinding hebben. 
 
@@ -34,10 +34,10 @@ Hoewel alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, toegang h
 Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. Nadat de installatie is voltooid, kan een beheerder de URL vinden op de [pagina Onderwerpcentrumbeheer.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. Selecteer instellingen in het Microsoft 365-beheercentrum **en** selecteer **vervolgens Organisatie-instellingen.**
+1. Selecteer in Microsoft 365 beheercentrum **Instellingen** en selecteer vervolgens **Organisatie-instellingen.**
 2. Selecteer op **het tabblad** Services de optie **Onderwerpervaringen.**
 
-    ![Personen verbinden met kennis](../media/admin-org-knowledge-options-completed.png) 
+    ![Verbinding maken mensen kennis te laten maken](../media/admin-org-knowledge-options-completed.png) 
 
 3. Selecteer het **tabblad Onderwerpcentrum.** Onder **Siteadres** staat een koppeling naar uw onderwerpcentrum.
 
@@ -69,7 +69,7 @@ Wanneer een gebruiker zijn of haar verbinding met een onderwerp bevestigt, kan d
 
 ## <a name="manage-topics-page"></a>Pagina Onderwerpen beheren
 
-Als u wilt werken aan **de pagina** Onderwerpen beheren van het onderwerpcentrum, moet u de vereiste machtigingen voor onderwerpen beheren hebben die nodig zijn voor de rol van knowledge manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen achteraf worden toegevoegd door een beheerder via het Microsoft 365-beheercentrum.
+Als u wilt werken aan **de pagina** Onderwerpen beheren van het onderwerpcentrum, moet u de vereiste machtigingen voor onderwerpen beheren hebben die nodig zijn voor de rol van knowledge manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen daarna worden toegevoegd door een beheerder via het Microsoft 365 beheercentrum.
 
 Op de **pagina Onderwerpen beheren** worden in het onderwerpdashboard alle onderwerpen weergegeven die u hebt, die zijn geïdentificeerd op basis van de opgegeven bronlocaties. In elk onderwerp wordt de datum van het onderwerp gevonden. Een gebruiker aan wie machtigingen voor onderwerpen beheren zijn toegewezen, kan de onbevestigde onderwerpen bekijken en ervoor kiezen om:
 
@@ -79,7 +79,7 @@ Op de **pagina Onderwerpen beheren** worden in het onderwerpdashboard alle onder
  
 - Verwijder het onderwerp: Maakt het onderwerp onontdekt voor eindgebruikers. Het onderwerp wordt verplaatst naar het tabblad **Verwijderd** en kan zo nodig later worden bevestigd. 
 
-Zie Onderwerpen beheren voor meer informatie over het beheren van onderwerpen op de pagina **Onderwerpen [beheren.](manage-topics.md)
+Zie Onderwerpen beheren voor meer informatie over het beheren van onderwerpen op **de** pagina Onderwerpen [beheren.](manage-topics.md)
 
 ## <a name="create-or-edit-a-topic"></a>Een onderwerp maken of bewerken
 

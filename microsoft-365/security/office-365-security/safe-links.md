@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel kunnen beheerders meer informatie krijgen over Safe koppelingen in Defender voor Office 365 om hun organisatie te beschermen tegen phishing en andere aanvallen die kwaadaardige URL's gebruiken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c93ed2ec46cd0fd82ae1808ff7cfdb4a4f758117
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 573fd5b92400996fa595b5953028e20fcecec976
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246499"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583578"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Safe Koppelingen in Microsoft Defender voor Office 365
 
@@ -52,6 +52,9 @@ Safe Koppelingenbeveiliging is beschikbaar op de volgende locaties:
 - **E-mailberichten:** Safe koppelingenbeveiliging voor koppelingen in e-mailberichten wordt bepaald door Safe Koppelingenbeleid. Er is geen standaardbeleid Safe Koppelingen, dus om de beveiliging van Safe Koppelingen in e-mailberichten te krijgen, moet u een of meer Safe **Koppelingenbeleid maken.** Zie Beleidsregels voor [koppelingen instellen Safe Microsoft Defender voor](set-up-safe-links-policies.md)Office 365.
 
   Zie de sectie Safe Koppelingen voor e-mailberichten verder in dit artikel voor meer [informatie](#safe-links-settings-for-email-messages) over Safe koppelingenbeveiliging voor e-mailberichten.
+  
+  > [!NOTE]
+  > Verkoopkoppelingen werken niet in openbare mappen met e-mail.
 
 - **Microsoft Teams** (momenteel in TAP Preview): Safe Koppelingenbeveiliging voor koppelingen in Teams-gesprekken, groepschats of vanuit kanalen wordt ook bepaald door Safe Koppelingenbeleid. Er is geen standaardbeleid Safe Koppelingen, dus als u de beveiliging van Safe Koppelingen in Teams wilt krijgen, moet u een of meer Safe **Koppelingenbeleid maken.**
 
@@ -65,13 +68,13 @@ Safe Koppelingenbeveiliging is beschikbaar op de volgende locaties:
 
 Dit artikel bevat gedetailleerde beschrijvingen van de volgende typen Safe Koppelingen:
 
-- **Instellingen in Safe Koppelingenbeleid:** Deze instellingen zijn alleen van toepassing op de gebruikers die zijn opgenomen in het specifieke beleid en de instellingen kunnen verschillen tussen beleidsregels. Deze instellingen zijn:
+- **Instellingen in Safe Koppelingenbeleid:** Deze instellingen zijn alleen van toepassing op de gebruikers die zijn opgenomen in het specifieke beleid en de instellingen kunnen verschillen tussen beleidsregels. Deze instellingen omvatten:
 
   - [Safe Koppelingeninstellingen voor e-mailberichten](#safe-links-settings-for-email-messages)
   - [Safe Koppelingeninstellingen voor Microsoft Teams](#safe-links-settings-for-microsoft-teams)
   - [Lijsten met 'De volgende URL's niet opnieuw schrijven' in Safe koppelingenbeleid](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
-- **Algemene Safe Koppelingen:** deze instellingen zijn globaal geconfigureerd, niet in Safe Koppelingenbeleid. De instellingen zijn echter alleen van toepassing op gebruikers die zijn opgenomen in het actieve Safe Koppelingenbeleid. Deze instellingen zijn:
+- **Algemene Safe Koppelingen:** deze instellingen zijn globaal geconfigureerd, niet in Safe Koppelingenbeleid. De instellingen zijn echter alleen van toepassing op gebruikers die zijn opgenomen in het actieve Safe Koppelingenbeleid. Deze instellingen omvatten:
 
   - [Safe Koppelingeninstellingen voor Office 365 apps](#safe-links-settings-for-office-365-apps)
   - ['De volgende URL's blokkeren' voor Safe koppelingen](#block-the-following-urls-list-for-safe-links)
@@ -107,9 +110,7 @@ De instellingen in Safe koppelingen die van toepassing zijn op e-mailberichten, 
   - URL's die geen geldige reputatie hebben, worden asynchroon op de achtergrond tot ontploffing gebracht.
 
 - **Realtime URL-scan toepassen** op verdachte koppelingen en koppelingen die naar bestanden wijzen: Hiermee kunt u in realtime koppelingen scannen, inclusief koppelingen in e-mailberichten die naar downloadbare inhoud wijzen. De aanbevolen waarde is ingeschakeld.
-
   - **Wacht totdat URL-scannen is voltooid voordat u het bericht bezorgt:**
-
     - Ingeschakeld: Berichten die URL's bevatten, worden opgeslagen totdat het scannen is voltooid. Berichten worden alleen bezorgd nadat is bevestigd dat de URL's veilig zijn. Dit is de aanbevolen waarde.
     - Uitgeschakeld: Als URL-scannen niet kan worden voltooid, bezorgt u het bericht toch.
 
@@ -128,7 +129,6 @@ De instellingen in Safe koppelingen die van toepassing zijn op e-mailberichten, 
   Zie voor meer informatie over de aanbevolen waarden voor standaard- en strikte beleidsinstellingen voor Safe koppelingenbeleid Safe [Beleidsinstellingen voor koppelingen](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings).
 
 - **Filters voor geadresseerden:** u moet de voorwaarden en uitzonderingen voor de geadresseerde opgeven die bepalen op wie het beleid van toepassing is. U kunt deze eigenschappen gebruiken voor voorwaarden en uitzonderingen:
-
   - **De geadresseerde is**
   - **Het domein van de geadresseerde is**
   - **De geadresseerde is lid van**
@@ -138,7 +138,7 @@ De instellingen in Safe koppelingen die van toepassing zijn op e-mailberichten, 
 - **Prioriteit:** Als u meerdere beleidsregels maakt, kunt u de volgorde opgeven waarin ze worden toegepast. Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
   Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
-
+  
 ### <a name="how-safe-links-works-in-email-messages"></a>Hoe Safe koppelingen werkt in e-mailberichten
 
 Op hoog niveau werkt de beveiliging van Safe koppelingen op URL's in e-mailberichten als volgende:
@@ -259,26 +259,23 @@ Wanneer een gebruiker in een actief Safe koppelingenbeleid op een geblokkeerde k
 
 U configureert de lijst met URL's in de algemene instellingen voor Safe koppelingen. Zie De lijst ['De volgende URL's blokkeren' configureren](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)voor instructies.
 
-> [!NOTE]
-> 
-> - Zie De lijst tenant [toestaan/blokkeren](tenant-allow-block-list.md)beheren voor een werkelijk universele lijst met URL's die overal worden geblokkeerd.
-> 
-> - Limieten:
->   - Het maximum aantal vermeldingen is 500.
->   - De maximale lengte van een item is 128 tekens.
->   - Alle vermeldingen mogen niet meer dan 10.000 tekens bevatten.
-> 
-> - Voeg geen slash () toe aan het `/` einde van de URL. Gebruik bijvoorbeeld `https://www.contoso.com` , niet `https://www.contoso.com/` .
-> 
-> - Een domein-alleen-URL (bijvoorbeeld `contoso.com` of ) blokkeert elke URL die het domein `tailspintoys.com` bevat.
-> 
-> - U kunt een subdomein blokkeren zonder het volledige domein te blokkeren. Blokkeert bijvoorbeeld een URL die het subdomein bevat, maar geen URL's die het volledige domein `toys.contoso.com*` `contoso.com` bevatten.
-> 
-> - U kunt maximaal drie jokertekens `*` () per URL-vermelding opnemen.
+**Opmerkingen**:
+
+- Zie De lijst tenant [toestaan/blokkeren](tenant-allow-block-list.md)beheren voor een werkelijk universele lijst met URL's die overal worden geblokkeerd.
+- Limieten voor **de lijst Met de volgende URL's** blokkeren:
+  - Het maximum aantal vermeldingen is 500.
+  - De maximale lengte van een item is 128 tekens.
+  - Alle vermeldingen mogen niet meer dan 10.000 tekens bevatten.
+- Voeg geen slash () toe aan het `/` einde van de URL. Gebruik bijvoorbeeld `https://www.contoso.com` , niet `https://www.contoso.com/` .
+- Een domein-alleen-URL (bijvoorbeeld `contoso.com` of ) blokkeert elke URL die het domein `tailspintoys.com` bevat.
+- U kunt een subdomein blokkeren zonder het volledige domein te blokkeren. Blokkeert bijvoorbeeld een URL die het subdomein bevat, maar geen URL's die het volledige domein `toys.contoso.com*` `contoso.com` bevatten.
+- U kunt maximaal drie jokertekens `*` () per URL-vermelding opnemen.
 
 ### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>Syntaxis van invoer voor de lijst 'De volgende URL's blokkeren'
 
 Voorbeelden van de waarden die u kunt invoeren en de resultaten daarvan worden in de volgende tabel beschreven:
+
+<br>
 
 ****
 
@@ -299,24 +296,24 @@ Elk Safe koppelingenbeleid bevat de volgende **URL's** die u kunt gebruiken om U
 
 Zie Beleidsregels voor koppelingen maken Safe Koppelingen maken of [](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) Beleidsregels wijzigen Safe koppelingen als u items wilt toevoegen aan de lijst in nieuwe of bestaande Safe [koppelingenbeleid.](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)
 
-> [!NOTE]
-> 
-> - De volgende clients herkennen de lijst Niet opnieuw schrijven van de volgende **URL's** in Safe Koppelingenbeleid. Gebruikers die zijn opgenomen in de politie kunnen worden geblokkeerd voor toegang tot de URL's op basis van de resultaten van Safe Koppelingen scannen in deze clients:
-> 
->   - Microsoft Teams
->   - Office web-apps
-> 
->   Zie De lijst tenant toestaan/blokkeren beheren voor een werkelijk universele lijst met URL's die overal [zijn toegestaan.](tenant-allow-block-list.md)
-> 
-> - U kunt veelgebruikte interne URL's toevoegen aan de lijst om de gebruikerservaring te verbeteren. Als u bijvoorbeeld on-premises services hebt, zoals Skype voor Bedrijven of SharePoint, kunt u deze URL's toevoegen om ze uit te sluiten van scannen.
-> 
-> - Als u de volgende **URL's** in uw Safe-koppelingenbeleid niet opnieuw hebt geschreven, controleert u de lijsten en voegt u indien nodig jokertekens toe. Uw lijst heeft bijvoorbeeld een vermelding zoals `https://contoso.com/a` en u besluit later subpathen zoals `https://contoso.com/a/b` . In plaats van een nieuw item toe te voegen, voegt u een jokerteken toe aan de bestaande vermelding, zodat deze wordt `https://contoso.com/a/*` .
-> 
-> - U kunt maximaal drie jokertekens `*` () per URL-vermelding opnemen. Jokertekens bevatten expliciet voorvoegsels of subdomeinen. De vermelding is bijvoorbeeld niet hetzelfde als , omdat personen subdomeinen en paden in het `contoso.com` `*.contoso.com/*` opgegeven domein kunnen `*.contoso.com/*` bezoeken.
+**Opmerkingen**:
+
+- De volgende clients herkennen de lijst Niet opnieuw schrijven van de volgende **URL's** in Safe Koppelingenbeleid. Gebruikers die zijn opgenomen in de politie kunnen worden geblokkeerd voor toegang tot de URL's op basis van de resultaten van Safe Koppelingen scannen in deze clients:
+  - Microsoft Teams
+  - Office web-apps
+
+  Zie De lijst tenant toestaan/blokkeren beheren voor een werkelijk universele lijst met URL's die overal [zijn toegestaan.](tenant-allow-block-list.md)
+
+- U kunt veelgebruikte interne URL's toevoegen aan de lijst om de gebruikerservaring te verbeteren. Als u bijvoorbeeld on-premises services hebt, zoals Skype voor Bedrijven of SharePoint, kunt u deze URL's toevoegen om ze uit te sluiten van scannen.
+- Als u de volgende **URL's** in uw Safe-koppelingenbeleid niet opnieuw hebt geschreven, controleert u de lijsten en voegt u indien nodig jokertekens toe. Uw lijst heeft bijvoorbeeld een vermelding zoals `https://contoso.com/a` en u besluit later subpathen zoals `https://contoso.com/a/b` . In plaats van een nieuw item toe te voegen, voegt u een jokerteken toe aan de bestaande vermelding, zodat deze wordt `https://contoso.com/a/*` .
+- U kunt maximaal drie jokertekens `*` () per URL-vermelding opnemen. Jokertekens bevatten expliciet voorvoegsels of subdomeinen. De vermelding is bijvoorbeeld niet hetzelfde als , omdat personen subdomeinen en paden in het `contoso.com` `*.contoso.com/*` opgegeven domein kunnen `*.contoso.com/*` bezoeken.
+- Als voor een URL automatische omleiding voor HTTP naar HTTPS wordt gebruikt (bijvoorbeeld 302 omleiding voor naar) en u probeert zowel HTTP- als HTTPS-vermeldingen in te voeren voor dezelfde URL in de lijst, ziet u mogelijk dat het tweede URL-item de eerste `http://www.contoso.com` `https://www.contoso.com` URL-vermelding vervangt. Dit gedrag treedt niet op als de HTTP- en HTTPS-versies van de URL volledig van elkaar zijn gescheiden.
 
 ### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>Syntaxis van invoer voor de lijst 'De volgende URL's niet opnieuw schrijven'
 
 Voorbeelden van de waarden die u kunt invoeren en de resultaten daarvan worden in de volgende tabel beschreven:
+
+<br>
 
 ****
 

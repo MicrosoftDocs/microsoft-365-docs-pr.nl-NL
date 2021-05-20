@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Overzicht van het planningsproces voor preventie van gegevensverlies
-ms.openlocfilehash: 6a72a8bab27db4d8b11d3e0b3d7a1dac7a1f0092
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 84f1dc0426ba88f934c1d67d71f75364adeb4340
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52581587"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583350"
 ---
 # <a name="plan-for-data-loss-prevention-dlp"></a>Plan voor preventie van gegevensverlies (DLP)
 
@@ -48,7 +48,7 @@ De [informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md#learn-
 
 Wanneer dit wordt geïmplementeerd, kunnen DLP-beleidsregels worden toegepast in grote delen van uw organisatie. IT kan niet zelf een breed plan ontwikkelen zonder negatieve gevolgen. U moet de belanghebbenden identificeren die het volgende kunnen doen:
 
-- de voorschriften, wetten en industriestandaarden beschrijven aan uw organisatie
+- de regelgeving, wetten en industriestandaarden beschrijven aan uw organisatie
 - de categorieën gevoelige items die moeten worden beveiligd
 - de bedrijfsprocessen waarin ze worden gebruikt
 - het riskante gedrag dat moet worden beperkt
@@ -117,7 +117,7 @@ Documenteren hoe uw organisatie van de begintoestand naar de gewenste eindtoesta
 
 #### <a name="sensitive-item-discovery"></a>Detectie van gevoelige items
 
-Er zijn meerdere manieren om te ontdekken wat afzonderlijke gevoelige items zijn en waar ze zich bevinden. Mogelijk hebt u al gevoeligheidslabels geïmplementeerd of hebt u besloten een zeer breed DLP-beleid te implementeren op alle locaties waar alleen items worden gedetecteerd en gecontroleerd. Zie Uw gegevens [kennen voor meer informatie.](information-protection.md#know-your-data)
+Er zijn meerdere manieren om te ontdekken wat afzonderlijke gevoelige items zijn en waar ze zich bevinden. Mogelijk hebt u al gevoeligheidslabels geïmplementeerd of hebt u besloten een breed DLP-beleid te implementeren op alle locaties waar alleen items worden gedetecteerd en gecontroleerd. Zie Uw gegevens [kennen voor meer informatie.](information-protection.md#know-your-data)
 
 #### <a name="policy-planning"></a>Beleidsplanning
 
@@ -134,7 +134,7 @@ Omdat veel organisaties naar DLP komen met als doel naleving van regelgeving, is
 
 Zodra uw organisatie weet waar deze staat in termen van nalevingsvereisten voor regelgeving, hebt u enig idee van welke gevoelige items moeten worden beschermd tegen lekkage en hoe u prioriteit wilt geven aan de beleidsuitvoering om ze te beschermen. Op deze manier kunt u de meest geschikte DLP-beleidsjablonen kiezen. Microsoft 365 wordt geleverd met vooraf geconfigureerde DLP-sjablonen voor Financiële, Medische en gezondheidsinstellingen, Privacy en u kunt uw eigen DLP-sjablonen maken met de aangepaste sjabloon. Terwijl u uw werkelijke DLP-beleid ontwerpt en maakt, kunt u ook het juiste type gevoelige informatie kiezen als u het antwoord op deze vraag [weet.](sensitive-information-type-learn-about.md#learn-about-sensitive-information-types)
 
-**Voorbeeld** Als u snel wilt beginnen, kiest u de beleidssjabloon met de `U.K. Financial Data` typen , en gevoelige `Credit Card Number` `EU Debit Card Number` `SWIFT Code` informatie. 
+**Voorbeeld** Om snel aan de slag te gaan, kiest u de beleidssjabloon, die de `U.K. Financial Data` typen , en gevoelige informatie `Credit Card Number` `EU Debit Card Number` `SWIFT Code` bevat. 
 
 ##### <a name="where-are-the-sensitive-items-and-what-business-processes-are-they-involved-in"></a>Waar zijn de gevoelige items en in welke bedrijfsprocessen zijn ze betrokken?
 
@@ -148,13 +148,13 @@ De items die gevoelige informatie van uw organisatie bevatten, worden elke dag g
 - Microsoft Cloud App Security
 - On-premises opslagplaatsen
 
-**Voorbeeld** De interne auditors van uw organisatie houden een reeks creditcardnummers bij. Ze bewaren een spreadsheet van hen op een beveiligde SharePoint site. Verschillende werknemers maken kopieën en slaan ze op hun werk op OneDrive voor Bedrijven site die wordt gesynchroniseerd met hun Windows 10 apparaat. Een van hen plakt een lijst met 14 van hen in een e-mail en probeert deze te verzenden naar externe auditors voor controle. U wilt het beleid toepassen op de beveiligde SharePoint site, alle interne auditors OneDrive voor Bedrijven accounts, hun Windows 10 apparaten en Exchange e-mail.
+**Voorbeeld** De interne auditors van uw organisatie houden een reeks creditcardnummers bij. Ze bewaren een spreadsheet van hen op een beveiligde SharePoint site. Verschillende werknemers maken kopieën en slaan ze op hun werk op OneDrive voor Bedrijven site, die wordt gesynchroniseerd met hun Windows 10 apparaat. Een van hen plakt een lijst met 14 van hen in een e-mail en probeert deze te verzenden naar externe auditors voor controle. U wilt het beleid toepassen op de beveiligde SharePoint-site, alle interne auditors OneDrive voor Bedrijven accounts, hun Windows 10 apparaten en Exchange e-mail.
 
 ##### <a name="what-is-your-organizations-tolerance-for-leakage"></a>Wat is de tolerantie van uw organisaties voor lekkage?
 
 Verschillende groepen in uw organisatie hebben mogelijk verschillende weergaven over het acceptabele niveau van gevoelige itemlekken en wat niet. Het bereiken van de perfecte nullekken kan te hoge kosten met zich brengen voor het bedrijf.
 
-**Voorbeeld** De beveiligingsgroep van uw organisaties en het juridische team vinden dat er geen creditcardnummers mogen worden gedeeld met iemand buiten de organisatie en dat er geen lekkage moet worden voorkomen. Maar als onderdeel van de regelmatige controle van creditcardnummeractiviteit, moeten de interne controleurs bepaalde creditcardnummers delen met externe auditors. Als uw DLP-beleid het delen van creditcardnummers buiten de organisatie verbiedt, zijn er aanzienlijke verstoringen van het bedrijfsproces en extra kosten om de verstoring te beperken, zodat de interne auditors hun tracering kunnen voltooien. Deze extra kosten zijn onacceptabel voor de leidinggevenden. Om dit op te lossen, moet er een intern gesprek zijn om een acceptabel niveau van lekkage te bepalen. Zodra dat is besloten, kan het beleid uitzonderingen bieden voor bepaalde personen om de gegevens te delen of kan het worden toegepast in de modus Alleen controleren.
+**Voorbeeld** De beveiligingsgroep van uw organisaties en het juridische team vinden dat er geen creditcardnummers mogen worden gedeeld met iemand buiten de organisatie en dat er geen lekkage moet worden voorkomen. Maar als onderdeel van een regelmatige controle van de creditcardnummeractiviteit moeten de interne controleurs bepaalde creditcardnummers delen met externe auditors. Als uw DLP-beleid het delen van creditcardnummers buiten de organisatie verbiedt, zijn er aanzienlijke verstoringen van het bedrijfsproces en extra kosten om de verstoring te beperken, zodat de interne auditors hun tracering kunnen voltooien. Deze extra kosten zijn onacceptabel voor de leidinggevenden. Om dit op te lossen, moet er een intern gesprek zijn om een acceptabel niveau van lekkage te bepalen. Zodra dat is besloten, kan het beleid uitzonderingen bieden voor bepaalde personen om de gegevens te delen of kan het worden toegepast in de modus Alleen controleren.
 
 #### <a name="planning-for-prerequisites"></a>Planning voor vereisten
 
@@ -173,7 +173,7 @@ Als u DLP-beleid maakt met een grote potentiële impact, raden we u aan de volge
   
 1. **Start in de testmodus zonder Tips** en gebruik vervolgens de DLP-rapporten en eventuele incidentrapporten om de impact te beoordelen. U kunt DLP-rapporten gebruiken om het nummer, de locatie, het type en de ernst van beleidswedstrijden weer te geven. Op basis van de resultaten kunt u het beleid zo nodig afstemmen. In de testmodus heeft DLP-beleid geen invloed op de productiviteit van personen die in uw organisatie werken. Gebruik deze fase ook om uw werkstroom uit te testen voor het controleren en oplossen van DLP-gebeurtenissen.
     
-2. **Ga naar de testmodus** met meldingen en beleidsregels Tips zodat u gebruikers kunt leren over uw compliancebeleid en ze kunt voorbereiden op het beleid dat wordt toegepast. Het is handig om een koppeling te hebben naar een pagina met organisatiebeleid met aanvullende informatie over het beleid in de beleidstip. In dit stadium kunt u gebruikers ook vragen om fout-positieven te rapporteren, zodat u het beleid verder kunt verfijnen. Ga naar deze fase als u er vertrouwen in hebt dat de resultaten van de beleidstoepassing overeenkomen met wat de belanghebbenden voor ogen hadden. 
+2. **Ga naar de testmodus** met meldingen en beleidsregels Tips zodat u gebruikers kunt leren over uw compliancebeleid en ze kunt voorbereiden op het beleid dat wordt toegepast. Het is handig om een koppeling te hebben naar een pagina met organisatiebeleid met meer informatie over het beleid in de beleidstip. In dit stadium kunt u gebruikers ook vragen om fout-positieven te rapporteren, zodat u het beleid verder kunt verfijnen. Ga naar deze fase als u er vertrouwen in hebt dat de resultaten van de beleidstoepassing overeenkomen met wat de belanghebbenden voor ogen hadden. 
     
 3. **Start volledige handhaving van het beleid,** zodat de acties in de regels worden toegepast en de inhoud is beveiligd. Blijf de DLP-rapporten en eventuele incidentenrapporten of meldingen controleren om ervoor te zorgen dat de resultaten zijn wat u van plan bent. 
 
@@ -199,9 +199,9 @@ De regelgeving, wetten en industriestandaarden die aan uw organisatie zijn onder
 
 |Beschrijving van behoeften van klanten  | benadering  |
 |---------|---------|
-|**Contoso Bank** is in een sterk gereguleerde industrie en heeft veel verschillende typen gevoelige items op veel verschillende locaties. </br> - weet welke typen gevoelige informatie de hoogste prioriteit hebben. </br> - moet bedrijfsonderbreking minimaliseren wanneer beleid wordt uitgerold. </br> - beschikt over IT-resources en kan experts in dienst nemen om te helpen bij het plannen en implementeren van ontwerpen </br> - heeft een premier-ondersteuningscontract met Microsoft| - Neem de tijd om te begrijpen aan welke voorschriften ze moeten voldoen en hoe ze hieraan moeten voldoen. </br> -Neem de tijd om de betere samenwaarde van de Microsoft 365 informatiebeveiligingsstack te begrijpen </br> - Een gevoeligheidslabelsysteem ontwikkelen voor items met prioriteit en toepassen </br> - Eigenaren van bedrijfsprocessen betrekken </br>- Ontwerp-/codebeleid, implementeren in testmodus, gebruikers trainen </br>- herhalen|
-|**TailSpin Toys** weet niet wat ze hebben of waar het is en heeft weinig tot geen resourcediepte. Ze gebruiken Teams, ODB en Exchange uitgebreid.     |- Begin met eenvoudige beleidsregels voor de locaties met prioriteit. </br>- Controleren wat wordt geïdentificeerd </br>- Gevoeligheidslabels dienovereenkomstig toepassen </br>- Beleid verfijnen, gebruikers trainen       |
-|**Fabrikam** is een kleine startup en wil het intellectuele eigendom beschermen en moet snel gaan. Ze zijn bereid om bepaalde resources te wijden, maar kunnen het zich niet veroorloven externe experts in te huren. </br>- Gevoelige items zijn allemaal in Microsoft 365 OneDdrive voor Bedrijven/SharePoint </br>- Acceptatie van OneDrive voor Bedrijven en SharePoint is traag, werknemers/schaduw IT gebruiken DropBox en Google drive om items te delen/opslaan </br>- Werknemers waarderen de snelheid van het werk boven de discipline gegevensbescherming </br>- Klant heeft alle 18 nieuwe werknemers Windows 10 gekocht     |- Profiteer van het standaard DLP-beleid in Teams </br>- Standaard beperkte instelling gebruiken voor SharePoint items </br>- Beleid implementeren dat extern delen voorkomt </br>- Beleid implementeren voor prioriteitslocaties </br>- Beleid implementeren voor Windows 10 apparaten </br>- Uploads naar niet-OneDrive voor Bedrijven cloudopslag blokkeren      |
+|**Contoso Bank** is in een sterk gereguleerde industrie en heeft veel verschillende typen gevoelige items op veel verschillende locaties. </br> - weet welke typen gevoelige informatie de hoogste prioriteit hebben. </br> - moet bedrijfsonderbreking minimaliseren wanneer beleid wordt uitgerold. </br> - beschikt over IT-resources en kan experts in dienst nemen om te helpen bij het plannen en implementeren van ontwerpen </br> - heeft een premier-ondersteuningscontract met Microsoft| - Neem de tijd om te begrijpen aan welke voorschriften ze moeten voldoen en hoe ze hieraan moeten voldoen. </br> -Neem de tijd om de betere samenwaarde van de Microsoft 365 informatiebeveiligingsstack te begrijpen </br> - Gevoeligheidslabels ontwikkelen voor items met prioriteit en toepassen </br> - Eigenaren van bedrijfsprocessen betrekken </br>- Ontwerp-/codebeleid, implementeren in testmodus, gebruikers trainen </br>- herhalen|
+|**TailSpin Toys** weet niet wat ze hebben of waar het is en heeft weinig tot geen resourcediepte. Ze gebruiken Teams, OneDrive voor Bedrijven en Exchange uitgebreid.     |- Begin met eenvoudige beleidsregels voor de locaties met prioriteit. </br>- Controleren wat wordt geïdentificeerd </br>- Gevoeligheidslabels dienovereenkomstig toepassen </br>- Beleid verfijnen, gebruikers trainen       |
+|**Fabrikam** is een kleine startup en wil het intellectuele eigendom beschermen en moet snel gaan. Ze zijn bereid om bepaalde resources te wijden, maar kunnen het zich niet veroorloven om externe experts in te huren. </br>- Gevoelige items zijn allemaal in Microsoft 365 OneDrive voor Bedrijven/SharePoint </br>- Acceptatie van OneDrive voor Bedrijven en SharePoint is traag, werknemers/schaduw IT gebruiken DropBox en Google drive om items te delen/opslaan </br>- Werknemers waarderen de snelheid van het werk boven de discipline gegevensbescherming </br>- Klant heeft alle 18 nieuwe werknemers Windows 10 gekocht     |- Profiteer van het standaard DLP-beleid in Teams </br>- Standaard beperkte instelling gebruiken voor SharePoint items </br>- Beleid implementeren dat extern delen voorkomt </br>- Beleid implementeren voor prioriteitslocaties </br>- Beleid implementeren voor Windows 10 apparaten </br>- Uploads naar niet-OneDrive voor Bedrijven cloudopslag blokkeren      |
 
 <!--
 

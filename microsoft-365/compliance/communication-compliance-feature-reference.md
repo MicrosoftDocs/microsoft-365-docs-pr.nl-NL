@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: dcae50150eb3b21e65e68a5cea376a0cdef31a65
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3df8fbf20fd00bd584af2fd329949939433a19eb
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538445"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583482"
 ---
 # <a name="communication-compliance-feature-reference"></a>Verwijzing naar communicatie-compliancefunctie
 
@@ -141,7 +141,7 @@ Standaard wordt de voorwaarde **Richting is** weergegeven en kan deze niet worde
 - **Uitgaande e-mail:**  detecteert communicatie die is verzonden van gecontroleerde gebruikers naar externe en interne geadresseerden, inclusief andere gecontroleerde gebruikers in het beleid.
 - **Intern:** detecteert communicatie **tussen de** gecontroleerde gebruikers of groepen in het beleid.
 
-### <a name="sensitive-information-types"></a>Typen gevoelige informatie
+### <a name="sensitive-information-types"></a>Gevoelige informatietypen
 
 U hebt de optie om gevoelige informatietypen op te nemen als onderdeel van uw communicatie compliancebeleid. Gevoelige informatietypen zijn vooraf gedefinieerde of aangepaste gegevenstypen die creditcardnummers, bankrekeningnummers, paspoortnummers en meer kunnen identificeren en beveiligen. Als onderdeel van [Meer](dlp-learn-about-dlp.md)informatie over preventie van gegevensverlies kan de configuratie van gevoelige informatie patronen, teken nabijheid, betrouwbaarheidsniveaus en zelfs aangepaste gegevenstypen gebruiken om te helpen bij het identificeren en markeren van inhoud die mogelijk gevoelig is. De standaardgevoelige informatietypen zijn:
 
@@ -311,6 +311,7 @@ Met communicatie compliancefilters kunt u waarschuwingsberichten filteren en sor
 | **Grootte** | De grootte van het bericht in KB. |
 | **Onderwerp/titel** | Het berichtonderwerp of de chattitel. |
 | **Tags** | De tags die aan een bericht zijn toegewezen, *zijn twijfelachtig,* *compatibel* of *niet-compatibel.* |
+| **Taal** | De gedetecteerde taal van tekst in het bericht. Het bericht wordt geclassificeerd op basis van de taal van het grootste deel van de berichttekst. Voor een bericht dat zowel Duitse als Italiaanse tekst bevat, maar het grootste deel van de tekst Duits is, wordt het bericht geclassificeerd als Duits (DE). De volgende talen worden ondersteund: Chinees (Vereenvoudigd - ZH), Engels (EN), Frans (FR), Duits (DE), Italiaans (IT), Japans (JP), Portugees (PT) en Spaans (ES). Als u bijvoorbeeld berichten wilt filteren die zijn geclassificeerd als Duits en Italiaans, voert u 'DE,IT' (de taalcodes met twee cijfers) in het zoekvak Taalfilter in. Als u de gedetecteerde taalclassificatie voor een bericht wilt weergeven, selecteert u een bericht, selecteert u Details van het bericht weergeven en schuift u naar het veld E-maildetectedLanguage. |
 | **Geëscaleerd naar** | De gebruikersnaam van de persoon die is opgenomen als onderdeel van een escalatieactie voor berichten. |
 | **Classificaties** | De naam van ingebouwde en aangepaste classificaties die van toepassing zijn op het bericht. Enkele voorbeelden zijn *Aanstootgevende taal,* *Gerichte* *pesterijen, Grof* taalgebruik, *Bedreiging* en meer.
 

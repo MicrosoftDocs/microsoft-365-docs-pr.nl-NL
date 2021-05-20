@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 recommendations: false
 description: Informatie over het domein dat u wilt gebruiken bij het maken Microsoft 365 door e-mailadresbeleid te configureren met PowerShell.
-ms.openlocfilehash: a0142ea5f5aa088c4be79fc8699a616d9cdd9390
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4d620c3344f83f56afd05c00d78615331dd413ed
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538217"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583146"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Kies het domein dat u wilt gebruiken bij het maken van Microsoft 365 groepen
 
@@ -119,10 +119,10 @@ Er zijn nog een paar dingen die u moet weten:
     
 - Er kunnen maximaal 100 e-mailadresbeleidsregel voor een organisatie worden geconfigureerd.
     
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Planning van samenwerkingsbeheer stap voor stap](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planning van samenwerkingsbeheer stapsgewijs](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step) (artikel)
 
-[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md)
+[Uw samenwerkingsbeheerplan maken](collaboration-governance-first.md) (artikel)
 
-[Een groep Microsoft 365 maken in het beheercentrum](../admin/create-groups/create-groups.md)
+[Een groep Microsoft 365 maken in het beheercentrum](../admin/create-groups/create-groups.md) (artikel)

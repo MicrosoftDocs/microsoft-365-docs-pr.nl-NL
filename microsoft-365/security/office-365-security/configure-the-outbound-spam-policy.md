@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van uitgaand spambeleid in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2448bb7942f7694d2a6d6e9b98537a2b7ccb14d1
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ead8aa75c0218dd2c4cad96e50e37ed3ddc12815
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331668"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583182"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaande spamfilters configureren in EOP
 
@@ -78,10 +78,10 @@ Als u de effectiviteit van uitgaande spamfilters wilt vergroten, kunt u aangepas
 
   Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
-  **Opmerkingen**:
-
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
+  > [!NOTE]
+  > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  > 
+  > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Zie [EOP outbound spamfilterbeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-outbound-spam-policy-settings)voor onze aanbevolen instellingen voor uitgaand spambeleid.
 
@@ -163,7 +163,7 @@ Als u een aangepast uitgaand spambeleid maakt in het Beveiligings- & Compliancec
 
      - **Geen actie, alleen waarschuwing:** e-mailmeldingen worden verzonden.
 
-6. (Optioneel) Vouw **de sectie Automatisch doorsturen** uit om automatische doorsturen van e-mail door gebruikers naar externe afzenders te controleren. Zie Automatische externe e-mail [doorsturen in Microsoft 365](external-email-forwarding.md)voor meer informatie.
+6. (Optioneel) Vouw **de sectie Automatisch doorsturen** uit om automatische doorsturen van e-mail door gebruikers naar externe afzenders te controleren. Zie Automatische externe e-mail doorsturen [in](external-email-forwarding.md)Microsoft 365.
 
    > [!NOTE]
    >
@@ -271,7 +271,7 @@ Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden
 
 U kunt het standaardbeleid niet verwijderen.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om uitgaand spambeleid te configureren
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>Gebruik Exchange Online PowerShell of zelfstandige EOP PowerShell om uitgaand spambeleid te configureren
 
 Zoals eerder beschreven, bestaat een uitgaand spambeleid uit een uitgaand spamfilterbeleid en een regel voor uitgaand spamfilter.
 
@@ -288,16 +288,15 @@ Het maken van een uitgaand spambeleid in PowerShell is een proces in twee stappe
 1. Maak het beleid voor uitgaand spamfilter.
 2. Maak de regel voor uitgaande spamfilters die het beleid voor uitgaand spamfilter aangeeft waar de regel op van toepassing is.
 
- **Opmerkingen**:
-
-- U kunt een nieuwe regel voor uitgaand spamfilter maken en er een bestaand, niet-verbonden beleid voor uitgaand spamfilter aan toewijzen. Een regel voor uitgaand spamfilter kan niet worden gekoppeld aan meer dan één beleid voor uitgaand spamfilter.
-
-- U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor uitgaand spamfilter in PowerShell die pas beschikbaar zijn in het Beveiligings- & Compliancecentrum nadat u het beleid hebt gemaakt:
-
-  - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld op_ de `$false` cmdlet **New-HostedOutboundSpamFilterRule).**
-  - Stel de prioriteit van het beleid in tijdens het maken _(Prioriteit)_ op de _\<Number\>_ **cmdlet New-HostedOutboundSpamFilterRule).**
-
-- Een nieuw beleid voor uitgaand spamfilter dat u in PowerShell maakt, is pas zichtbaar in het Beveiligings- & Compliancecentrum als u het beleid aan een spamfilterregel toewijst.
+> [!NOTE]
+> - U kunt een nieuwe regel voor uitgaand spamfilter maken en er een bestaand, niet-verbonden beleid voor uitgaand spamfilter aan toewijzen. Een regel voor uitgaand spamfilter kan niet worden gekoppeld aan meer dan één beleid voor uitgaand spamfilter.
+> 
+> - U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor uitgaand spamfilter in PowerShell die pas beschikbaar zijn in het Beveiligings- & Compliancecentrum nadat u het beleid hebt gemaakt:
+> 
+>   - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld op_ de `$false` cmdlet **New-HostedOutboundSpamFilterRule).**
+>   - Stel de prioriteit van het beleid in tijdens het maken _(Prioriteit)_ op de _\<Number\>_ **cmdlet New-HostedOutboundSpamFilterRule).**
+> 
+> - Een nieuw beleid voor uitgaand spamfilter dat u in PowerShell maakt, is pas zichtbaar in het Beveiligings- & Compliancecentrum als u het beleid aan een spamfilterregel toewijst.
 
 #### <a name="step-1-use-powershell-to-create-an-outbound-spam-filter-policy"></a>Stap 1: PowerShell gebruiken om een beleid voor uitgaand spamfilter te maken
 
@@ -309,7 +308,7 @@ New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Com
 
 In dit voorbeeld wordt een nieuw beleid voor uitgaand spamfilter met de naam Contoso Executives gemaakt met de volgende instellingen:
 
-- De limieten voor het aantal geadresseerden zijn beperkt tot kleinere waarden die standaard worden gebruikt. Zie Limieten verzenden [voor Microsoft 365-opties](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)voor meer informatie.
+- De limieten voor het aantal geadresseerden zijn beperkt tot kleinere waarden die standaard worden gebruikt. Zie Limieten voor [Microsoft 365 verzenden voor meer informatie.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
 
 - Nadat een van de limieten is bereikt, kan de gebruiker geen berichten meer verzenden.
 

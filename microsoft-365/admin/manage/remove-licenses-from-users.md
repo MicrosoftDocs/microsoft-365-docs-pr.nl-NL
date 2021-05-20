@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Meer informatie over het verwijderen van licenties van gebruikersaccounts.
 ms.date: 07/01/2020
-ms.openlocfilehash: 5ef28b3065703ec224e6426c4fdbfffdb5269b22
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4ff6a0e5554117cd1fc2d818c04edabc9e33b2a1
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537497"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582906"
 ---
 # <a name="unassign-licenses-from-users"></a>Licenties van gebruikers verwijderen
 
@@ -117,13 +117,13 @@ Wanneer u de pagina **Actieve gebruikers gebruikt** om licenties niet toe te sta
 ::: moniker-end
 
 2. Selecteer de cirkels naast de namen van de gebruikers voor wie u licenties wilt ontlenen.
-3. Selecteer bovenaan de drie puntjes (meer acties) en selecteer **vervolgens Productlicenties beheren.**
+3. Selecteer bovenaan de drie puntjes (meer opties) en selecteer vervolgens **Productlicenties beheren**.
 4. Selecteer in het deelvenster **Productlicenties beheren** **Bestaande productlicentietoewijzingen vervangen** \> **Volgende**.
 5. Schakel onder in het deelvenster **Bestaande** producten vervangen het selectievakje **Alle productlicenties** verwijderen uit de geselecteerde gebruikers in en selecteer **vervolgens Sluiten** \> **vervangen.**
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>Wat gebeurt er met de gegevens van een gebruiker wanneer u de licentie verwijdert?
 
-- Wanneer een licentie van een gebruiker wordt verwijderd, worden gegevens die aan dat account zijn gekoppeld, 30 dagen in bezit gehouden. Na de respijtperiode van 30 dagen worden de gegevens verwijderd en kunnen ze niet meer worden hersteld.
+- Wanneer een licentie van een gebruiker wordt verwijderd, Exchange onlinegegevens die aan dat account zijn gekoppeld, 30 dagen lang worden opgehouden. Na de respijtperiode van 30 dagen worden de gegevens verwijderd en kunnen ze niet meer worden hersteld.
 - Bestanden die in OneDrive voor Bedrijven zijn opgeslagen, worden niet verwijderd, tenzij de gebruiker wordt verwijderd uit het Microsoft 365-beheercentrum of wordt verwijderd via Active Directory-synchronisatie. Zie voor meer informatie [OneDrive bewaren en verwijderen.](/onedrive/retention-and-deletion)
 - Wanneer de licentie wordt verwijderd, kan het postvak van de gebruiker niet meer worden doorzocht met behulp van een eDiscovery-hulpprogramma, zoals Zoeken naar inhoud of Advanced eDiscovery. Zie 'Verbroken of niet-gelicentieerde postvakken zoeken' in Inhoud zoeken [in](../../compliance/content-search.md)Microsoft 365.
 - Als u een Enterprise-abonnement hebt, zoals Office 365 Enterprise E3, kunt u Exchange Online de postvakgegevens van een verwijderd gebruikersaccount behouden door inactieve postvakken [te gebruiken.](../../compliance/inactive-mailboxes-in-office-365.md) Zie Inactieve postvakken maken en beheren [in Exchange Online.](../../compliance/create-and-manage-inactive-mailboxes.md)
@@ -134,7 +134,7 @@ Wanneer u de pagina **Actieve gebruikers gebruikt** om licenties niet toe te sta
 
 Als u de ongebruikte licenties niet opnieuw wilt toewijzen aan [](../../commerce/licenses/buy-licenses.md) andere [gebruikers,](../../managed-desktop/get-started/assign-licenses.md)kunt u overwegen om de licenties uit uw abonnement te verwijderen, zodat u niet meer licenties betaalt dan u nodig hebt.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Licenties verwijderen uit uw abonnement](../../commerce/licenses/buy-licenses.md) (artikel)\
 [Licenties toewijzen aan gebruikers](assign-licenses-to-users.md) (artikel)\

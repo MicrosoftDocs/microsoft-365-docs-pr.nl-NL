@@ -23,13 +23,13 @@ search.appverid:
 - BSA160
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
-description: Informatie over domeinen en de bijbehorende DNS-records om zo uw domeinen beter te beheren.
-ms.openlocfilehash: f8d8171e306a0206facec1621bf2b1a9f8085757
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Met het domeinnaamsysteem worden computerhostnamen toegestuurd aan IP-adressen en als u inzicht hebt in DNS en de basisprincipes van domeinregistrars, kunt u domeinen beter beheren.
+ms.openlocfilehash: f9982ad55652eac9faf33986bb1481e29897a48e
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915660"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582942"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -79,7 +79,7 @@ DNS-records die zijn opgeslagen bij een DNS-host voor uw domein worden gebruikt 
 |:-----|:-----|
 |A-record (adresrecord)  <br/> |Koppelt een domeinnaam aan een IP-adres.  <br/> |
 |CNAME-record (alias of canoniek)  <br/> |Leidt het ene domein om naar een ander domein in het DNS-systeem. Wanneer een naamserver een domein opzoekt en ziet dat het domein een CNAME-record heeft, vervangt de server de eerste domeinnaam door de CNAME en wordt vervolgens de nieuwe naam opgezocht.  <br/> |
-|MX-record (e-mailuitwisselaar)  <br/> |Verwijst naar de locatie waar uw e-mail naartoe moet worden gezonden. Deze record bevat ook een prioriteitsveld, zodat u e-mail naar verschillende servers kunt verzenden in een bepaalde prioriteitsvolgorde.  <br/> |
+|MX-record (e-mailuitwisselaar)  <br/> |Verwijst naar de locatie waar uw e-mail naartoe moet worden gezonden. Deze record bevat ook een prioriteitsveld, zodat u e-mail naar verschillende servers kan verzenden in een bepaalde prioriteitsvolgorde.  <br/> |
 |SPF-record (Sender Policy Framework)  <br/> |Een TXT-record die e-mailspoofing en phishing helpt voorkomen.  <br/> |
 |SRV-record (service)  <br/> |Wordt gebruikt door Skype voor Bedrijven Online en Exchange Online om de gegevensstroom tussen Microsoft-services te coördineren. De SRV-records zijn bijvoorbeeld vereist om de aanwezigheid in Outlook Web App te zien en om Skype voor Bedrijven Online, Skype of andere chatprogramma's met personen in andere bedrijven te gebruiken.  <br/> |
 |TTL (Time To Live)  <br/> |De hoeveelheid tijd die een naamserver een DNS-record bewaart voordat de server naar een bijgewerkte versie zoekt.  <br/> |
@@ -102,7 +102,7 @@ DNS-records zijn vergelijkbaar met een database met informatie over uw domein. D
   
  *Wanneer u uw e-mailadres overzet naar Microsoft 365 door de MX-record van uw domein in de volgende stap bij te werken, komt alle e-mail die naar dat domein wordt verzonden binnen in Microsoft 365.*  Als andere personen uw domein voor e-mail gebruiken, moet u voor elke persoon Microsoft 365-postvakken instellen. 
   
-Lijkt dit ingewikkeld? Dat is het soms ook, maar we begeleiden u stapsgewijs bij het instellen van het Microsoft-domein.
+Klinkt dit ingewikkeld? Dat is het soms ook, maar we begeleiden u stapsgewijs bij het instellen van het Microsoft-domein.
   
 ### <a name="dns-tells-the-internet-where-to-look-for-websites-too"></a>Via DNS wordt ook aangegeven waar op internet naar websites moet worden gezocht.
 
@@ -186,7 +186,7 @@ U kunt uw domeinnaam in Microsoft 365 gebruiken voor uw e-mailadres, het adres v
 
 ## <a name="the-dns-records-required-for-microsoft-365"></a>De benodigde DNS-records voor Microsoft 365
 
-Er zijn enkele DNS-records nodig om Microsoft 365 met uw domein te laten werken. Naast het instellen van de MX-record van uw domein, zodat e-mail naar Microsoft 365 wordt verzonden, zijn er ook records ter ondersteuning van andere taken, bijvoorbeeld om ervoor te zorgen dat Outlook automatisch verbinding kan maken met de juiste Exchange-server, voor de configuratie van chatberichten en om ongewenste e-mail te voorkomen.
+Er zijn een aantal DNS-records vereist om Microsoft 365 te laten werken met uw domein. Naast het instellen van de MX-record van uw domein, zodat e-mail naar Microsoft 365 wordt verzonden, zijn er ook records ter ondersteuning van andere taken, bijvoorbeeld om ervoor te zorgen dat Outlook automatisch verbinding kan maken met de juiste Exchange-server, voor de configuratie van chatberichten en om ongewenste e-mail te voorkomen.
   
 U kunt [zoeken naar een lijst met waarden](information-for-dns-records.md) om uw domein in te stellen. .Deze zijn opgenomen in het Microsoft 365-beheercentrum. 
   
@@ -198,3 +198,11 @@ Raadpleeg het volgende:
   
 - Weet u niet zeker waar uw domein is geregistreerd? [Hulp krijgen bij het vinden van uw domeinregistrar.](find-your-domain-registrar.md)
 - Kijk [waarom u de stappen van de wizard moet voltooien](../setup/add-domain.md) voordat u uw domein kunt gebruiken met Microsoft 365.
+
+## <a name="related-content"></a>Verwante inhoud
+
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)
+
+[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)
+
+[Domeinen beheren](index.yml) (koppelingspagina)

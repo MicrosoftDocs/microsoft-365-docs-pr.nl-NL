@@ -18,13 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
-description: Wanneer gebruikers zijn aangemeld met geldige werk- of schoolaccounts, kunnen gebruikers ondersteuningsservices in de cloud krijgen met Cortana in Microsoft 365-ervaringen die voldoen aan de beloften van Office 365 voor privacy, beveiliging en naleving op ondernemingsniveau.
-ms.openlocfilehash: dd00972f6e84f5d430ad860ea9cbf637bd7c790f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Gebruikers met geldige werk- of schoolaccounts kunnen Cortana krijgen in Microsoft 365 ervaring die voldoet aan Office 365 beveiligingsbeloften op ondernemingsniveau.
+ms.openlocfilehash: aad371fc531a03f42e1756a41405082b6b528b06
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537461"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582774"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -54,7 +54,7 @@ In overeenstemming met andere Office 365 services, zijn Cortana enterprise servi
 
 In de onderstaande tabel wordt de gegevensafhandeling voor Cortana Enterprise Services beschreven.
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 |:-----|:-----|
 |**Storage**  <br/> |Klantgegevens worden opgeslagen op Microsoft-servers in de Office 365 cloud. Uw gegevens maken deel uit van uw tenant. <br/><br/>Spraakaudio blijft niet behouden.  <br/> |
 |**Blijft in Geo**  <br/> |Klantgegevens worden opgeslagen op Microsoft-servers in de Office 365 cloud in Geo. Uw gegevens maken deel uit van uw tenant.  <br/> |
@@ -183,3 +183,12 @@ Cortana-toegang tot de gehoste microsoft-gegevens van uw organisatie uitschakele
 3. Selecteer **Wijzigingen opslaan**.
 
 Voor services die vallen onder de [Microsoft Services-overeenkomst](https://go.microsoft.com/fwlink/p/?LinkId=2109174) en [de Privacyverklaring](https://privacy.microsoft.com/privacystatement)van Microsoft, is Microsoft de gegevenscontroller. Als gegevenscontroller gebruikt Microsoft gegevens om producten en services te verbeteren in overeenstemming met de [Privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
+
+
+## <a name="related-content"></a>Verwante inhoud
+
+[Cortana voice assistance in Teams](/microsoftteams/cortana-in-teams) (article)
+
+[Cortana configureren in Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artikel)
+
+[Wat kunt u doen met Mijn e-mailberichten afspelen vanuit Cortana?](https://support.microsoft.com/help/4558256)

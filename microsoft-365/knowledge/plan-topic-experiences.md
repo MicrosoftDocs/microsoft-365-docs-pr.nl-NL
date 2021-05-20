@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het plannen van microsoft Viva-onderwerpen
-ms.openlocfilehash: d64e4b341fe96d7aa3636f58bffe3dd8f388838e
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: de7534ce58a7888ac822826ef4ef1b4934ed8cb1
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957537"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583110"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva-onderwerpen plannen
 
@@ -23,7 +23,7 @@ U hebt de controle over de manier waarop onderwerpen worden ervaren in uw organi
 
 In dit artikel gaan we in op de volgende planningsbeslissingen:
 
-- Welke SharePoint-sites u wilt crawlen naar onderwerpen
+- Welke SharePoint sites die u wilt crawlen naar onderwerpen
 - Welke onderwerpen u wilt uitsluiten van onderwerpervaringen
 - Voor welke gebruikers u onderwerpen zichtbaar wilt maken
 - Welke gebruikers u machtigingen wilt geven voor het beheren van onderwerpen in het onderwerpcentrum
@@ -32,26 +32,28 @@ In dit artikel gaan we in op de volgende planningsbeslissingen:
 
 De beveiliging en privacy van uw gegevens wordt gerespecteerd en door onderwerpervaringen krijgen gebruikers geen extra toegang tot bestanden waar ze geen rechten op hebben. We raden u aan microsoft Viva Topics beveiliging [en privacy](topic-experiences-security-privacy.md) ook te lezen als onderdeel van uw planningsproces.
 
+Lees Alexandria in Microsoft Viva Topics voor meer informatie over de AI-technologie achter [Viva-onderwerpen: van big data tot grote kennis.](https://www.microsoft.com/research/blog/alexandria-in-microsoft-viva-topics-from-big-data-to-big-knowledge)
+
 ## <a name="requirements"></a>Vereisten
 
-U moet zijn [geabonneerd](https://www.microsoft.com/microsoft-viva/topics) op Viva Topics en een globale beheerder of SharePoint-beheerder zijn om toegang te krijgen tot het Microsoft 365-beheercentrum en Onderwerpen in te stellen.
+U moet zijn [geabonneerd op Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics) en een globale beheerder of SharePoint beheerder zijn om toegang te krijgen tot het Microsoft 365 beheercentrum en Onderwerpen in te stellen.
 
 Alle gebruikers die Onderwerpen gaan gebruiken, hebben een **licentie Onderwerpervaringen** nodig. Het toewijzen van licenties valt onder [Microsoft Viva-onderwerpen instellen.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>Onderwerpdetectie
 
-De instellingen voor onderwerpdetectie geven aan welke SharePoint-sites worden gebruikt als bronnen voor onderwerpen. U kunt ervoor kiezen om alle SharePoint-sites, een specifieke lijst met sites of geen sites op te nemen. U wordt aangeraden alle sites te kiezen, zodat u met onderwerpervaringen een groot aantal goede onderwerpen voor uw gebruikers kunt ontdekken.
+De instellingen voor onderwerpdetectie geven aan SharePoint sites worden gebruikt als bronnen voor onderwerpen. U kunt ervoor kiezen om alle SharePoint sites, een specifieke lijst met sites of geen sites op te nemen. U wordt aangeraden alle sites te kiezen, zodat u met onderwerpervaringen een groot aantal goede onderwerpen voor uw gebruikers kunt ontdekken.
 
 Wanneer u Onderwerpen in stelt, kunt u kiezen uit de volgende opties:
 
-- **Alle sites:** Alle SharePoint-sites in uw organisatie. Dit geldt ook voor huidige en toekomstige sites.
+- **Alle sites:** Alle SharePoint sites in uw organisatie. Dit geldt ook voor huidige en toekomstige sites.
 - **Alle, behalve geselecteerde sites:** Alle sites, behalve de sites die u opgeeft. Sites die in de toekomst worden gemaakt, worden opgenomen als bronnen voor onderwerpdetectie. 
 - **Alleen geselecteerde sites:** Alleen de sites die u opgeeft. Sites die in de toekomst worden gemaakt, worden niet opgenomen als bronnen voor onderwerpdetectie.
-- **Geen sites:** Neem geen SharePoint-sites op.
+- **Geen sites:** neem geen sites SharePoint op.
 
-Als u Alle **kiest, behalve geselecteerde sites** of Alleen geselecteerde **sites,** kunt u een CSV-bestand uploaden met een lijst met sites. Deze opties zijn handig als u een pilot doet en u een beperkt aantal sites wilt opnemen om te starten.
+Als u Alle **kiest, behalve geselecteerde sites** of Alleen geselecteerde **sites,** kunt u een .csv met een lijst met sites uploaden. Deze opties zijn handig als u een pilot doet en u een beperkt aantal sites wilt opnemen om te starten.
 
-U kunt de CSV-sjabloon hieronder kopiëren:
+U kunt de sjabloon .csv kopiëren:
 
 ``` csv
 Site name,URL
@@ -63,7 +65,7 @@ Het is raadzaam om een proces te maken voor gebruikers of kennisbeheerders om af
 
 ### <a name="multi-geo"></a>Multi-geo
 
-Als uw organisatie [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)heeft geïmplementeerd, is het onderwerpcentrum ingericht op de centrale locatie en kunnen alleen SharePoint-sites op de centrale locatie worden gebruikt als bronnen voor onderwerpen. (Als u Alle **sites selecteert,** worden in Viva-onderwerpen alle sites op de centrale locatie gebruikt.)
+Als uw organisatie Microsoft 365 [Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)heeft geïmplementeerd, is het onderwerpcentrum ingericht op de centrale locatie en kunnen alleen SharePoint-sites op de centrale locatie worden gebruikt als bronnen voor onderwerpen. (Als u Alle **sites selecteert,** worden in Viva-onderwerpen alle sites op de centrale locatie gebruikt.)
 
 Alle verwerking en opslag van inhoud gebeurt op de centrale locatie.
 
@@ -106,9 +108,9 @@ We raden **Iedereen in mijn organisatie** aan, maar als u een pilot doet, wilt u
 
 Als beheerder kunt u bepaalde onderwerpen uitsluiten van onderwerpervaringen. Dit is handig als u wilt voorkomen dat gevoelige gegevens in onderwerpen worden weergegeven. Hoewel kennismanagers onderwerpen in het onderwerpcentrum kunnen uitsluiten, zijn onderwerpen die door de beheerder zijn uitgesloten, zelfs niet zichtbaar voor kennisbeheerders. (Kennisbeheerders kunnen ook onderwerpen in het onderwerpcentrum verwijderen na de ontdekking.)
 
-Als u onderwerpen op beheerdersniveau wilt uitsluiten, moet u deze toevoegen aan een CSV-bestand en het bestand uploaden. U kunt dit doen tijdens de installatie of later.
+Als u onderwerpen op beheerdersniveau wilt uitsluiten, moet u deze toevoegen aan een .csv en het bestand uploaden. U kunt dit doen tijdens de installatie of later.
 
-Het CSV-bestand moet de volgende parameters bevatten:
+Het .csv bestand moet de volgende parameters bevatten:
 
 - **Naam:** Typ de naam van het onderwerp dat u wilt uitsluiten. U kunt dit op twee manieren doen:
 - **MatchType-Exact/Gedeeltelijk:** Typ of de opgegeven naam *een exact* of *gedeeltelijk overeenkomend* type was.
@@ -126,7 +128,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>Beheer
 
-Wanneer u Onderwerpen instelt, als onderdeel van het installatieproces, wordt automatisch een onderwerpcentrum gemaakt. Bedenk wat u het onderwerpcentrum wilt noemen en wat u wilt dat de URL is. U kunt zowel de naam als de URL instellen als onderdeel van het installatieproces en u kunt de naam (maar geen URL) later wijzigen in het Microsoft 365-beheercentrum. U kunt maar één onderwerpcentrum hebben.
+Wanneer u Onderwerpen instelt, als onderdeel van het installatieproces, wordt automatisch een onderwerpcentrum gemaakt. Bedenk wat u het onderwerpcentrum wilt noemen en wat u wilt dat de URL is. U kunt zowel de naam als de URL instellen als onderdeel van het installatieproces en u kunt de naam (maar niet de URL) later wijzigen in het Microsoft 365 beheercentrum. U kunt maar één onderwerpcentrum hebben.
 
 ## <a name="setup-checklist"></a>Controlelijst instellen
 

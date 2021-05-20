@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/19/2021
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Informatie over het gebruik van Power Automate om uw stroom te maken om uw contracten te verwerken met behulp van een Microsoft 365 oplossing.
-ms.openlocfilehash: d9892110d6aebd3eaae6fbc21d453b7eb14d7f7e
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 54e92f36b19cefde92111cdbc960fad7715cf8b0
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281141"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583098"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>Stap 3. Gebruik Power Automate om uw stroom te maken om uw contracten te verwerken
 
@@ -36,11 +36,11 @@ In het volgende diagram ziet u de Power Automate voor de oplossing voor contract
 
 ## <a name="prepare-your-contract-for-review"></a>Uw contract voorbereiden voor controle
 
-Wanneer een contract wordt geïdentificeerd en geclassificeerd door uw SharePoint Syntex-documentkennismodel, verandert de Power Automate de status eerst in 'In review'.
+Wanneer een contract wordt geïdentificeerd en geclassificeerd door uw SharePoint Syntex-documentkennismodel, verandert de Power Automate de status eerst **in In revisie.**
 
 ![Status bijwerken.](../media/content-understanding/flow-overview.png)
 
-Nadat u het bestand hebt uitchecken, wijzigt u de statuswaarde in 'Ter controle'.
+Nadat u het bestand hebt uitchecken, wijzigt u de statuswaarde **in In revisie.**
 
 ![In revisiestatus.](../media/content-understanding/in-review.png)
 
@@ -141,7 +141,7 @@ Wanneer een contract is goedgekeurd, treden de volgende dingen op:
 
    ![Kaartstatus goedgekeurd.](../media/content-understanding/approved-contracts-tab.png)
 
-- In uw stroom wordt de status gewijzigd in 'Goedgekeurd'.
+- In uw stroom wordt de status gewijzigd in **Goedgekeurd.**
 
    ![Flow status goedgekeurd.](../media/content-understanding/status-approved.png)
 

@@ -14,48 +14,74 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: U kunt nu DLP-beleid toepassen op Microsoft Teams chats en kanalen. Lees dit artikel voor meer informatie over hoe het werkt.
-ms.openlocfilehash: 9fdce86473dcfbb7ec75b9d371b8782d4141ef57
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+description: Microsoft Teams chats en kanalen ondersteunt DLP-beleid (Data Loss Prevention).
+ms.openlocfilehash: e55bfa34b2495465f573bcede3ebda2308dbbbbc
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572463"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583386"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Preventie en preventie van gegevensverlies Microsoft Teams
 
-> [!NOTE]
-> Mogelijkheden voor preventie van gegevensverlies zijn onlangs toegevoegd aan Microsoft Teams chat- en kanaalberichten voor gebruikers met een licentie voor Office 365 E5/A5, Microsoft 365 E5/A5, Microsoft 365 Information Protection en Governance of Office 365 Advanced Compliance. Office 365 en Microsoft 365 E3 DLP-beveiliging voor SharePoint Online, OneDrive en Exchange Online. Dit geldt ook voor bestanden die worden gedeeld via Teams omdat Teams online SharePoint en OneDrive om bestanden te delen.
-Ondersteuning voor DLP-beveiliging in Teams Chat vereist E5.
-Zie voor meer informatie over licentievereisten [Microsoft 365 Tenant-Level Services Licensing Guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
-
-## <a name="overview-of-dlp-for-microsoft-teams"></a>Overzicht van DLP voor Microsoft Teams
-
-Onlangs zijn [de mogelijkheden voor preventie](dlp-learn-about-dlp.md) van gegevensverlies uitgebreid met Microsoft Teams chat- en kanaalberichten, inclusief **privékanaalberichten.** 
-
-> [!IMPORTANT]
-> DLP is momenteel alleen van toepassing op de werkelijke berichten in de chat- of kanaalthread. Activiteitsmeldingen, die een kort voorbeeld van een bericht bevatten  en worden weergegeven op basis van de meldingsinstellingen van een gebruiker, worden op dit moment niet opgenomen in Teams DLP. Alle gevoelige informatie die aanwezig is in het deel van het bericht dat in het voorbeeld wordt weergegeven, blijft zichtbaar in de melding, zelfs nadat het DLP-beleid is toegepast en gevoelige informatie het bericht zelf heeft verwijderd.
-
-Als uw organisatie DLP heeft, kunt u nu beleidsregels definiëren om te voorkomen dat personen gevoelige informatie delen in een Microsoft Teams kanaal of chatsessie. Hier zijn enkele voorbeelden van hoe deze beveiliging werkt:
+Als uw organisatie beschikt over preventie van gegevensverlies (DLP), kunt u beleidsregels definiëren om te voorkomen dat personen gevoelige informatie delen in een Microsoft Teams kanaal of chatsessie. Hier zijn enkele voorbeelden van hoe deze beveiliging werkt:
 
 - **Voorbeeld 1: Gevoelige informatie in berichten beveiligen.** Stel dat iemand gevoelige informatie probeert te delen in een Teams of kanaal met gasten (externe gebruikers). Als u een DLP-beleid hebt gedefinieerd om dit te voorkomen, worden berichten met gevoelige informatie die naar externe gebruikers worden verzonden, verwijderd. Dit gebeurt automatisch en binnen enkele seconden, afhankelijk van hoe uw DLP-beleid is geconfigureerd.
 
     > [!NOTE]
     > DLP voor Microsoft Teams blokkeert gevoelige inhoud wanneer deze wordt gedeeld met Microsoft Teams gebruikers die:<br/>- [gasttoegang](/MicrosoftTeams/guest-access) in teams en kanalen; of<br/>- [externe toegang](/MicrosoftTeams/manage-external-access) in vergaderingen en chatsessies. <p>DLP voor externe chatsessies werkt alleen als zowel de afzender als de ontvanger zich in de Teams Alleen-modus en Microsoft Teams [eigen federatie](/microsoftteams/manage-external-access). DLP voor Teams blokkeert geen berichten in [interop](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) met Skype voor Bedrijven of niet-native federatief chatsessies.
 
-- **Voorbeeld 2: Gevoelige informatie in documenten beveiligen.** Stel dat iemand een document probeert te delen met gasten in een Microsoft Teams of chat en dat het document gevoelige informatie bevat. Als u een DLP-beleid hebt gedefinieerd om dit te voorkomen, wordt het document niet geopend voor deze gebruikers. Houd er rekening mee dat in dit geval uw DLP-beleid SharePoint en OneDrive om de beveiliging te kunnen garanderen. (Dit is een voorbeeld van DLP voor SharePoint dat wordt vermeld in Microsoft Teams en daarom vereist dat gebruikers een licentie hebben voor Office 365 DLP (opgenomen in Office 365 E3), maar dat gebruikers geen licentie voor Office 365 Advanced Compliance hebben.)
+- **Voorbeeld 2: Gevoelige informatie in documenten beveiligen.** Stel dat iemand een document probeert te delen met gasten in een Microsoft Teams of chat en dat het document gevoelige informatie bevat. Als u een DLP-beleid hebt gedefinieerd om dit te voorkomen, wordt het document niet geopend voor deze gebruikers. Uw DLP-beleid moet SharePoint en OneDrive om de beveiliging te kunnen garanderen. Dit is een voorbeeld van DLP voor SharePoint dat wordt vermeld in Microsoft Teams en daarom vereist dat gebruikers een licentie hebben voor Office 365 DLP (opgenomen in Office 365 E3), maar dat gebruikers geen licentie moeten hebben voor Office 365 Advanced Compliance.)
+
+## <a name="dlp-licensing-for-microsoft-teams"></a>DLP-licenties voor Microsoft Teams
+
+[Mogelijkheden voor preventie van gegevensverlies](dlp-learn-about-dlp.md) zijn uitgebreid met Microsoft Teams chat- en kanaalberichten, inclusief **privékanaalberichten** voor:
+
+- Office 365 E5/A5
+- Microsoft 365 E5/A5
+- Microsoft 365 Informatiebeveiliging en beheer
+- Office 365 Advanced Compliance
+
+Office 365 en Microsoft 365 E3 DLP-beveiliging voor SharePoint Online, OneDrive en Exchange Online. Dit geldt ook voor bestanden die worden gedeeld via Teams omdat Teams online SharePoint en OneDrive om bestanden te delen.
+
+Ondersteuning voor DLP-beveiliging in Teams Chat vereist E5.
+
+Zie voor meer informatie over licentievereisten [Microsoft 365 Tenant-Level Services Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+
+> [!IMPORTANT]
+> DLP is alleen van toepassing op de werkelijke berichten in de chat- of kanaalthread. Activiteitsmeldingen, die een kort voorbeeld van een bericht bevatten  en worden weergegeven op basis van de meldingsinstellingen van een gebruiker, worden niet opgenomen in Teams DLP. Alle gevoelige informatie die aanwezig is in het deel van het bericht dat in het voorbeeld wordt weergegeven, blijft zichtbaar in de melding, zelfs nadat het DLP-beleid is toegepast en gevoelige informatie het bericht zelf heeft verwijderd.
+
+## <a name="scope-of-dlp-protection"></a>Bereik van DLP-beveiliging
+
+DLP-beveiliging wordt anders toegepast op Teams entiteiten.
+
+|Gebruikersaccounts/groepen/lijst  |Teams Entiteit |DLP-beveiliging beschikbaar|
+|---------|---------|---------|
+|afzonderlijke gebruikersaccounts     |1:1/n chats         |ja         |
+|     |algemene chats         |nee         |
+|     |gedeelde kanalen         |nee         |
+|     |privékanalen         |ja         |
+|beveiligingsgroepen/distributielijsten  | 1:1/n chats         |ja         |
+|     |algemene chats         |nee         |
+|     |gedeelde kanalen         |nee      |
+|     |privékanalen         |ja        |
+|Microsoft 365 groep    |1:1/n chats          |nee         |
+|     |algemene chats          |ja        |
+|     |gedeelde kanalen|ja |
+|     |privékanalen|nee| 
+
 
 ## <a name="policy-tips-help-educate-users"></a>Beleidstips helpen gebruikers op te leiden
 
-Net als bij hoe DLP werkt in [Exchange Outlook, Outlook](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)op het web, [SharePoint Online, OneDrive voor Bedrijven-sites](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)en [Office-bureaubladcl clients,](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)worden beleidstips weergegeven wanneer een actie in strijd is met een DLP-beleid. Hier is een voorbeeld van een beleidstip:
+Net zoals DLP werkt in [Exchange, Outlook, Outlook](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)op het web, [SharePoint Online, OneDrive voor Bedrijven-sites](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)en [Office-bureaubladcl clients,](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)worden beleidstips weergegeven wanneer een actie wordt triggers met een DLP-beleid. Hier is een voorbeeld van een beleidstip:
 
 ![Geblokkeerde berichtmelding in Teams](../media/dlp-teams-blockedmessage-notification.png)
 
-In dit geval heeft de afzender geprobeerd een sociaal-zekerheidsnummer te delen in een Microsoft Teams kanaal. Met **de koppeling Wat kan ik doen?** wordt een dialoogvenster geopend met opties voor de afzender om het probleem op te lossen. In dit geval kan de afzender ervoor kiezen om het beleid te overschrijven of een beheerder op de hoogte te stellen om het te controleren en op te lossen.
+Hier heeft de afzender geprobeerd een sociaal-zekerheidsnummer te delen in een Microsoft Teams kanaal. Met **de koppeling Wat kan ik doen?** wordt een dialoogvenster geopend met opties voor de afzender om het probleem op te lossen. De afzender kan ervoor kiezen om het beleid te overschrijven of een beheerder op de hoogte te stellen om het te controleren en op te lossen.
 
 ![Opties voor het oplossen van geblokkeerd bericht](../media/dlp-teams-blockedmessage-possibleactions.png)
 
-In uw organisatie kunt u ervoor kiezen om gebruikers toe te staan een DLP-beleid te overschrijven. En wanneer u uw DLP-beleid configureert, kunt u de standaardbeleidstips gebruiken of [beleidstips voor](#to-customize-policy-tips) uw organisatie aanpassen.
+In uw organisatie kunt u ervoor kiezen om gebruikers toe te staan een DLP-beleid te overschrijven. Wanneer u uw DLP-beleid configureert, kunt u de standaardbeleidstips gebruiken of [beleidstips voor](#to-customize-policy-tips) uw organisatie aanpassen.
 
 Als u teruggaat naar ons voorbeeld, waar een afzender een sociaal-zekerheidsnummer heeft gedeeld in een Teams kanaal, ziet de geadresseerde het volgende:
 
@@ -66,7 +92,7 @@ Als u teruggaat naar ons voorbeeld, waar een afzender een sociaal-zekerheidsnumm
 
 Als u deze taak wilt uitvoeren, moet u een rol toegewezen krijgen die machtigingen heeft om DLP-beleid te bewerken. Zie Machtigingen [voor meer informatie.](data-loss-prevention-policies.md#permissions)
 
-1. Ga naar het beveiligingscentrum & compliancecentrum [https://protection.office.com](https://protection.office.com) () en meld u aan.
+1. Ga naar het Compliancecentrum [https://compliance.microsoft.com](https://compliance.microsoft.com) () en meld u aan.
 
 2. Kies **Beleid voor preventie van**  >  **gegevensverlies.**
 
@@ -93,7 +119,7 @@ Sta ongeveer één uur toe dat uw wijzigingen hun weg vinden in uw datacenter en
 
 Als u deze taak wilt uitvoeren, moet u een rol toegewezen krijgen die machtigingen heeft om DLP-beleid te bewerken. Zie Machtigingen [voor meer informatie.](data-loss-prevention-policies.md#permissions)
 
-1. Ga naar het beveiligingscentrum & compliancecentrum [https://protection.office.com](https://protection.office.com) () en meld u aan.
+1. Ga naar het Compliancecentrum [https://compliance.microsoft.com](https://compliance.microsoft.com) () en meld u aan.
 
 2. Kies **Beleid voor preventie van**  >  **gegevensverlies.**
 
@@ -124,7 +150,7 @@ Sta ongeveer één uur toe dat uw wijzigingen hun weg vinden in uw datacenter en
 
 Als u deze taak wilt uitvoeren, moet u een rol toegewezen krijgen die machtigingen heeft om DLP-beleid te bewerken. Zie Machtigingen [voor meer informatie.](data-loss-prevention-policies.md#permissions)
 
-1. Ga naar het beveiligingscentrum & compliancecentrum [https://protection.office.com](https://protection.office.com) () en meld u aan.
+1. Ga naar het Compliancecentrum [https://compliance.microsoft.com](https://compliance.microsoft.com) () en meld u aan.
 
 2. Kies **Beleid voor preventie van**  >    >  **gegevensverlies + Een beleid maken.**
 
@@ -148,9 +174,9 @@ Als u deze taak wilt uitvoeren, moet u een rol toegewezen krijgen die machtiging
     > [!NOTE]
     > Als u wilt controleren of documenten met gevoelige informatie niet ongepast worden gedeeld in Teams, moet u ervoor zorgen dat **SharePoint-sites** en **OneDrive-accounts** zijn ingeschakeld, samen met **Teams chat-** en kanaalberichten.
 
-6. Ga op **het tabblad Beleidsinstellingen** naar **Het type inhoud** aanpassen dat u wilt beveiligen, bewaar de standaard eenvoudige instellingen of kies Geavanceerde instellingen gebruiken **en** kies **volgende.** Als u geavanceerde instellingen kiest, kunt u regels voor uw beleid maken of bewerken. (Zie Eenvoudige instellingen [versus](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)geavanceerde instellingen voor hulp bij dit alles.)
+6. Ga op **het tabblad Beleidsinstellingen** naar **Het type inhoud** aanpassen dat u wilt beveiligen, bewaar de standaard eenvoudige instellingen of kies Geavanceerde instellingen gebruiken **en** kies **volgende.** Als u geavanceerde instellingen kiest, kunt u regels voor uw beleid maken of bewerken. Zie Eenvoudige instellingen versus geavanceerde instellingen voor hulp [bij dit alles.](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)
 
-7.  Bekijk op **het tabblad** Beleidsinstellingen onder Wat wilt u doen als we gevoelige **informatie detecteren?** de instellingen. (Hier kunt u ervoor kiezen om [standaardbeleidstips](use-notifications-and-policy-tips.md)en e-mailmeldingen te bewaren of deze aan te passen.)
+7.  Bekijk op **het tabblad** Beleidsinstellingen onder Wat wilt u doen als we gevoelige **informatie detecteren?** de instellingen. Hier kunt u ervoor kiezen [](use-notifications-and-policy-tips.md)om standaardbeleidstips en e-mailmeldingen te bewaren of deze aan te passen.
 
     > [!div class="mx-imgBorder"]
     > ![DLP-beleidsinstellingen met tips en meldingen](../media/dlp-teams-policysettings-tipsemails.png)
@@ -205,6 +231,5 @@ DLP-beleid in actie wanneer gast probeert een document te openen in Teams met ex
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-
-[Send email notifications and show policy tips for DLP policies](use-notifications-and-policy-tips.md) (E-mailmeldingen verzenden en beleidstips tonen voor DLP-beleid)
+- [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
+- [Send email notifications and show policy tips for DLP policies](use-notifications-and-policy-tips.md) (E-mailmeldingen verzenden en beleidstips tonen voor DLP-beleid)

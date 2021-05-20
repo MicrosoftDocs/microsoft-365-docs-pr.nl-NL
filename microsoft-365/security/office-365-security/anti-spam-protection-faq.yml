@@ -20,12 +20,12 @@ metadata:
   description: Beheerders kunnen veelgestelde vragen en antwoorden over bescherming tegen spam bekijken in Exchange Online Protection (EOP).
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 430ed10d74dea909415ee0ca32d33ad8d006ae6b
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
+  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333962"
+  ms.lasthandoff: 05/20/2021
+  ms.locfileid: "52583614"
 title: Veelgestelde vragen over beveiliging tegen ongewenste e-mail
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -62,7 +62,9 @@ sections:
       Een zero-day spamvariant is een eerste generatie, voorheen onbekende variant van spam die nooit is vastgelegd of geanalyseerd, zodat onze antispamfilters nog geen informatie beschikbaar hebben om deze te detecteren. Nadat een steekproef van nul dagen spam is vastgelegd en geanalyseerd door onze spamanalisten, worden onze antispamfilters bijgewerkt om deze te detecteren en wordt het niet meer beschouwd als 'zero-day'.
 
 
-      **Opmerking:** Als u een bericht ontvangt dat een zero-day spamvariant kan zijn, kunt u het bericht naar Microsoft verzenden met behulp van een van de methoden die in Berichten en bestanden rapporteren worden beschreven bij [Microsoft.](report-junk-email-messages-to-microsoft.md)
+      > [!NOTE]
+
+      > Als u een bericht ontvangt dat een zero-day spamvariant kan zijn, kunt u het bericht naar Microsoft verzenden met behulp van een van de methoden die in Berichten en bestanden rapporteren worden beschreven bij [Microsoft.](report-junk-email-messages-to-microsoft.md)
   - question: >
       Moet ik de service zo configureren dat ik antispambeveiliging kan bieden?
     answer: >
@@ -89,7 +91,7 @@ sections:
   - question: >
       Is bulksgewijs filteren van e-mail automatisch ingeschakeld?
     answer: >
-      Ja. Zie Wat is het verschil tussen ongewenste e-mail en bulk-e-mail? voor meer informatie over [bulksgewijs e-mail.](what-s-the-difference-between-junk-email-and-bulk-email.md)
+      Ja. Zie Wat is het verschil tussen ongewenste e-mail en bulk-e-mail voor meer [informatie over bulksgewijs e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md)
   - question: >
       Biedt de service URL-filtering?
     answer: >

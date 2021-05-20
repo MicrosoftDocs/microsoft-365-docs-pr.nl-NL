@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/19/2021
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het gebruik Microsoft Teams om uw contractbeheerkanaal te maken met behulp van een Microsoft 365 oplossing.
-ms.openlocfilehash: d703f6f7286a6d9584e8b18d4e283174f42a95bd
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 20ace5d17550c8dd800368957dd940c9857bce5d
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301798"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583134"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Stap 2. Gebruik Microsoft Teams om uw contractbeheerkanaal te maken
 
@@ -44,13 +44,13 @@ Nadat u de SharePoint documentbibliotheek hebt toegevoegd, kunt u alle geclassif
 ## <a name="customize-your-contracts-tab-tile-view"></a>De tegelweergave op het tabblad Contracten aanpassen
 
 > [!NOTE]
-> In deze sectie wordt verwezen naar codevoorbeelden die zijn opgenomen inContractCard.js **bestand** dat is opgenomen in het **zip-bestand solutionfiles.**
+> In deze sectie wordt verwezen naar codevoorbeelden die zijn opgenomen in deContractTileFormatting.js[ bestand](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) dat is opgenomen in de opslagplaats Voor oplossingsactiva voor [contractenbeheer](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management).
 
 Hoewel Teams kunt u uw contracten weergeven in een tegelweergave, kunt u deze aanpassen om de contractgegevens weer te geven die u zichtbaar wilt maken op de contractkaart. Voor het tabblad  Contracten is het bijvoorbeeld belangrijk dat leden het bedrag van de klant, de contractant en de kosten op de contractkaart zien. Al deze velden zijn uit elk contract geëxtraheerd via SharePoint Syntex-model dat is toegepast op uw documentbibliotheek. U wilt ook de tegelkoptekstbalk kunnen wijzigen in verschillende kleuren voor elke status, zodat leden eenvoudig kunnen zien waar het contract zich in het goedkeuringsproces vindt. Alle goedgekeurde contracten hebben bijvoorbeeld een blauwe koptekstbalk.
 
    ![Lijstweergave.](../media/content-understanding/tile.png)
 
-Voor de aangepaste tegelweergave die u gebruikt, moet u wijzigingen aanbrengen in het JSON-bestand dat wordt gebruikt om de huidige tegelweergave op te maken. U kunt verwijzen naar het JSON-bestand dat wordt gebruikt om de kaartweergave te maken door het bestand **ContractCard.jsdownloaden.** In de volgende secties ziet u specifieke secties van de code voor functies in de contractkaarten.
+Voor de aangepaste tegelweergave die u gebruikt, moet u wijzigingen aanbrengen in het JSON-bestand dat wordt gebruikt om de huidige tegelweergave op te maken. U kunt verwijzen naar het JSON-bestand dat wordt gebruikt om de kaartweergave te maken door te kijken [naar deContractTileFormatting.jsbestand.](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) In de volgende secties ziet u specifieke secties van de code voor functies in de contractkaarten.
 
 Als u de JSON-code voor uw weergave wilt zien of wijzigen in uw Teams-kanaal, selecteert u in het kanaal Teams de vervolgkeuzelijst Weergave en selecteert u Huidige weergave opmaken.
 
@@ -58,7 +58,7 @@ Als u de JSON-code voor uw weergave wilt zien of wijzigen in uw Teams-kanaal, se
 
 ## <a name="card-size-and-shape"></a>Kaartgrootte en -vorm
 
-In **hetContractCard.jsbestand** dat u hebt gedownload in het zip-bestand van de verwijzing, bekijkt u de volgende sectie om de code te zien voor de opmaak van de grootte en vorm van de kaart.
+Bekijk in [ContractTileFormatting.jsde](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) volgende sectie de code voor de opmaak van de grootte en vorm van de kaart.
 
 ```JSON
                   {
@@ -84,7 +84,7 @@ In **hetContractCard.jsbestand** dat u hebt gedownload in het zip-bestand van de
 
 ## <a name="contract-status"></a>Contractstatus
 
-Met de volgende code kunt u de status van elke titelkaart definiëren. Elke statuswaarde (*Nieuw*, *In revisie*, Goedgekeurd en Geweigerd ) geeft voor elke status een andere kleurcode weer.   Bekijk in **ContractCard.jsbestand** dat u hebt gedownload de sectie die de status definieert.
+Met de volgende code kunt u de status van elke titelkaart definiëren. Elke statuswaarde (*Nieuw*, *In revisie*, Goedgekeurd en Geweigerd ) geeft voor elke status een andere kleurcode weer.   Bekijk in [ContractTileFormatting.jsbestand](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) de sectie die de status definieert.
 
 ```JSON
           {
@@ -109,7 +109,7 @@ Met de volgende code kunt u de status van elke titelkaart definiëren. Elke stat
 
 Op elke contractkaart worden drie velden weergegeven die zijn geëxtraheerd voor elk contract *(Client,* *Contractant* en *Kostenbedrag).* Daarnaast wilt u ook de tijd/datum weergeven waarop het bestand is geclassificeerd met het syntex-model SharePoint gebruikt om het te identificeren. 
 
-In het **ContractCard.jsbestand** dat u hebt gedownload, definiëren de volgende secties elk van deze bestanden.
+In het [ContractTileFormatting.jsbestand](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) definiëren de volgende secties elk van deze secties.
 
 ### <a name="client"></a>Client
 
