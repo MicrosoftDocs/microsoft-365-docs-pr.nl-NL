@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: Informatie over het instellen van registersleutels om moderne verificatie in te schakelen voor apparaten waar Microsoft Office 2013 is geïnstalleerd.
-ms.openlocfilehash: f803cf9a30be63e71ef3c4293d0d1ba5b2355e75
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Meer informatie over het instellen van registersleutels om moderne verificatie in te schakelen voor apparaten waarop Microsoft Office 2013 zijn geïnstalleerd.
+ms.openlocfilehash: d358cb2ffb4284a51779e5a7c1dc894052b9ebc0
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580832"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572283"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten
 
@@ -42,10 +42,10 @@ Als u moderne verificatie wilt inschakelen voor Windows-apparaten, zoals laptops
   
 |**Registersleutel**|**Type**|**Value** |
 |:-------|:------:|--------:|
-|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
+|HKCU\SOFTWARE\Microsoft\Office\15.0\Algemeen\Identiteit\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
    
-Nadat u de registersleutels hebt ingesteld, kunt u office 2013-apparaten-apps instellen op meervoudige verificatie [(MFA)](set-up-multi-factor-authentication.md) met Microsoft 365. 
+Nadat u de registersleutels hebt ingesteld, kunt u Office apps voor 2013-apparaten instellen om [multifactorauthenticatie (MFA)](set-up-multi-factor-authentication.md) met Microsoft 365 te gebruiken. 
   
 Als u momenteel bent aangemeld met een van de client-apps, moet u zich afmelden en opnieuw aanmelden om de wijziging te effectueren. Anders zijn de MRU- en roaminginstellingen niet beschikbaar tot de ADAL-identiteit is vastgesteld.
   
@@ -55,10 +55,11 @@ Als u moderne verificatie wilt uitschakelen op een apparaat, stelt u de volgende
   
 |**Registersleutel**|**Type**|**Value**|
 |:-------|:------:|--------:|
-|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL |REG_DWORD|0|
+|HKCU\SOFTWARE\Microsoft\Office\15.0\Algemeen\Identiteit\EnableADAL |REG_DWORD|0|
    
-## <a name="related-articles"></a>Verwante artikelen
-[Aanmelden bij Office 2013 met een tweede verificatiemethode](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Outlook vraagt om wachtwoord en gebruikt geen moderne verificatie om verbinding te maken met Office 365](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled)
+[Meld u aan bij Office 2013 met een tweede verificatiemethode](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (artikel)
+
+[Outlook vraagt om wachtwoord en gebruikt geen moderne verificatie om verbinding te maken met Office 365](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) (artikel)
 

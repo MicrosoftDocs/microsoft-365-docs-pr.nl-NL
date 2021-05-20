@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/21/2020
+ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Lees hoe u met de preventie van gegevensverlies in Microsoft 365 op een on-premises scanner data-at-rest kunt scannen en beschermende maatregelen kunt implementeren voor het on-premises delen van bestanden en on-premises SharePoint-mappen en -documentbibliotheken.
-ms.openlocfilehash: 0abe36af5588c1828da106779a144b6e7f37d6a8
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: e81b48560a8011e955e6508daf27e96f9fdb70fa
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162909"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538085"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Gebruik de Microsoft 365 preventie van gegevensverlies on-premises scanner (preview)
 
@@ -82,4 +82,4 @@ Als u DLP-regels wilt afdwingen voor de gescande bestanden, moet afdwingen zijn 
 - [Aan de slag met DLP-on-premises scanner (preview)](dlp-on-premises-scanner-get-started.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-- [Aan de slag met de Activiteitenverkenner](data-classification-activity-explorer.md)
+- [Aan de slag met de activiteitenverkenner](data-classification-activity-explorer.md)

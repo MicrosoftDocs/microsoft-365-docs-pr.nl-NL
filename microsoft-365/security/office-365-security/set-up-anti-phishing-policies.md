@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het anti-phishingbeleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 44472d49936f400ee16227f3f29141738ad28daa
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: d20d9c3839cf72d1e99a185186d0716d9a513c5f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571018"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537857"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
@@ -33,14 +33,14 @@ ms.locfileid: "51571018"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Beleidsregels voor het configureren van anti-phishingbeveiligingsinstellingen zijn beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken, zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken en Microsoft Defender voor Office 365-organisaties.
+Beleidsregels voor het configureren van anti-phishingbeveiligingsinstellingen zijn beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken, zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken en Microsoft Defender voor Office 365-organisaties.
 
-Anti-phishingbeleid in Microsoft Defender voor Office 365 is alleen beschikbaar in organisaties met Defender voor Office 365. Bijvoorbeeld:
+Anti-phishingbeleid in Microsoft Defender voor Office 365 zijn alleen beschikbaar in organisaties met Defender voor Office 365. Bijvoorbeeld:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 Education A5, enzovoort.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
 - [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)
-- [Microsoft Defender voor Office 365 als invoegvoegvoeging](https://products.office.com/exchange/advance-threat-protection)
+- [Microsoft Defender voor Office 365 als een invoegvoegvoeging](https://products.office.com/exchange/advance-threat-protection)
 
 De verschillen op hoog niveau tussen anti-phishingbeleid in EOP en anti-phishingbeleid in Microsoft Defender voor Office 365 worden in de volgende tabel beschreven:
 
@@ -80,66 +80,70 @@ De volgende beleidsinstellingen zijn beschikbaar in anti-phishingbeleid in EOP e
 
   - **Geadresseerde is:** Een of meer postvakken, e-mailgebruikers of e-mailcontactcontacten in uw organisatie.
   - **Ontvanger is lid van**: Een of meer groepen in uw organisatie.
-  - **Het domein van de geadresseerde is:** Een of meer van de geconfigureerde geaccepteerde domeinen in Microsoft 365.
+  - **Het domein van de** geadresseerde is: Een of meer van de geconfigureerde geaccepteerde domeinen in Microsoft 365.
 
   - **Behalve wanneer**: Uitzonderingen voor de regel. De instellingen en het gedrag zijn precies hetzelfde als de voorwaarden:
 
-    - **Geadresseerde is**
+    - **Ontvanger is**
     - **Geadresseerde is lid van**
     - **Het domein van de geadresseerde is**
 
   > [!NOTE]
-  > De **instelling Toegepast op** is vereist in aangepaste  anti-phishingbeleidsregels om de geadresseerden van het bericht te identificeren op wie het beleid van <u>toepassing is.</u> Anti-phishingbeleid in Microsoft Defender voor Office [](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 365 bevat ook imitatie-instellingen waar u <u></u> e-mailadressen van afzonderlijke afzenders of afzenderdomeinen kunt opgeven die imitatiebeveiliging ontvangen, zoals verder in dit artikel wordt beschreven.
+  > De **instelling Toegepast op** is vereist in aangepaste  anti-phishingbeleidsregels om de geadresseerden van het bericht te identificeren op wie het beleid van <u>toepassing is.</u> Anti-phishingbeleid in Microsoft Defender voor Office 365 [](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) bevat ook imitatie-instellingen waar u e-mailadressen <u></u> van afzonderlijke afzenders of afzenderdomeinen kunt opgeven die imitatiebeveiliging ontvangen, zoals verder in dit artikel wordt beschreven.
 
 ## <a name="spoof-settings"></a>Spoofinstellingen
 
-Spoofing is wanneer het Van-adres in een e-mailbericht (het afzenderadres dat wordt weergegeven in e-mail clients) niet overeenkomen met het domein van de e-mailbron. Zie Bescherming tegen spoofing [in Microsoft 365](anti-spoofing-protection.md)voor meer informatie over spoofing.
+Spoofing is wanneer het Van-adres in een e-mailbericht (het afzenderadres dat wordt weergegeven in e-mail clients) niet overeenkomen met het domein van de e-mailbron. Zie Bescherming tegen spoofing in Microsoft 365 voor [meer informatie over spoofing.](anti-spoofing-protection.md)
 
 De volgende spoofinstellingen zijn beschikbaar in anti-phishingbeleid in EOP en Microsoft Defender voor Office 365:
 
-- **Bescherming tegen spoofing:** anti-spoofingbeveiliging in- of uitschakelen. U wordt aangeraden deze ingeschakeld te laten. U gebruikt het **spoof intelligence-beleid om** specifieke vervalste interne en externe afzenders toe te staan of te blokkeren. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
+- **Spoof intelligence inschakelen?**: Schakelt spoof intelligence in of uit. U wordt aangeraden deze ingeschakeld te laten.
+
+  Wanneer spoof intelligence is  ingeschakeld, worden vervalste afzenders die automatisch zijn gedetecteerd en door spoof intelligence zijn toegestaan of geblokkeerd, in het inzicht van de spoof intelligence bekent. U kunt handmatig de spoof intelligence-uitspraak overschrijven om de gedetecteerde vervalste afzenders binnen het inzicht toe te staan of te blokkeren. Maar wanneer u dit doet, verdwijnt de vervalste afzender uit het inzicht in spoof intelligence en is deze nu alleen zichtbaar op het tabblad **Spoof** in de lijst Tenant toestaan/blokkeren. U kunt ook handmatig vermeldingen voor vervalste afzenders maken of blokkeren in de lijst Tenant toestaan/blokkeren. Zie de volgende onderwerpen voor meer informatie:
+
+  - [Inzicht in spoof intelligence in EOP](learn-about-spoof-intelligence.md)
+  - [De lijst Tenant toestaan/blokkeren beheren in EOP](tenant-allow-block-list.md)
 
   > [!NOTE]
   >
   > - Anti-spoofingbeveiliging is standaard ingeschakeld in het standaard anti-phishingbeleid en in nieuwe aangepaste anti-phishingbeleidsregels die u maakt.
   >
-  > - U hoeft de bescherming tegen spoofing niet uit te schakelen als uw MX-record niet naar Microsoft 365 gaat. u in plaats daarvan Verbeterde filtering voor verbindingslijnen inschakelen. Zie Verbeterde filtering [voor connectors in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)voor instructies.
+  > - U hoeft de bescherming tegen spoofing niet uit te schakelen als uw MX-record niet naar de Microsoft 365; u in plaats daarvan Verbeterde filtering voor verbindingslijnen inschakelen. Zie [Enhanced Filtering for Connectors in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
   >
   > - Als u bescherming tegen spoofing uit schakelt, wordt impliciete spoofing-beveiliging alleen uitgeschakeld tegen [samengestelde verificatiecontroles.](email-validation-and-authentication.md#composite-authentication) Als de afzender niet [expliciete DMARC](use-dmarc-to-validate-email.md) controleert waar het beleid is ingesteld op quarantaine of weigeren, wordt het bericht nog steeds in quarantaine geplaatst of geweigerd.
 
-  Voor berichten van geblokkeerde vervalste afzenders kunt u ook opgeven welke actie u moet ondernemen voor de berichten:
+- **Instellingen voor niet-nautische afzenders:** Zie de informatie in de volgende sectie.
 
-  - **Bericht verplaatsen naar map Ongewenste e-mail:** dit is de standaardwaarde. Het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail. In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie Instellingen voor ongewenste [e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
+- **Acties:** Voor berichten van geblokkeerde vervalste afzenders (automatisch geblokkeerd door spoof intelligence of handmatig geblokkeerd in de lijst Tenant Allow/Block), kunt u ook de actie opgeven voor de berichten:
+
+  - **Berichten verplaatsen naar de mappen ongewenste e-mail** van de geadresseerden: dit is de standaardwaarde. Het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail. In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie Instellingen voor ongewenste e-mail configureren op [Exchange Online postvakken in](configure-junk-email-settings-on-exo-mailboxes.md)Microsoft 365.
 
   - **Het bericht in quarantaine plaatsen:** hiermee wordt het bericht in quarantaine geplaatst in plaats van de beoogde geadresseerden. Zie de volgende artikelen voor informatie over quarantaine:
 
     - [Quarantaine in Microsoft 365](quarantine-email-messages.md)
-    - [Berichten en bestanden in quarantaine beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
+    - [In quarantaine geplaatste berichten en bestanden beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
     - [Berichten in quarantaine zoeken en vrijgeven als gebruiker in Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-- **Unauthenticated Sender**: Bekijk de informatie in de volgende sectie.
+### <a name="unauthenticated-sender"></a>Niet-genauteerde afzender
 
-### <a name="unauthenticated-sender"></a>Unauthenticated Sender
+Unauthenticated sender settings are part of the [Spoof settings](#spoof-settings) that are available in anti-phishing policies in EOP and Microsoft Defender for Office 365 as described in the previous section.
 
-Niet-verwerkte afzenderidentificatie maakt deel uit van de [spoofinstellingen](#spoof-settings) die beschikbaar zijn in anti-phishingbeleid in EOP en Microsoft Defender voor Office 365, zoals beschreven in de vorige sectie.
+- **Unauthenticated sender question mark (?)** symbol inschakelen? : Wanneer deze instelling is ingeschakeld, wordt er een vraagteken toegevoegd aan de foto  van de afzender in het vak Van als het bericht niet door SPF- of DKIM-controles wordt gestuurd en het bericht niet door DMARC of samengestelde verificatie wordt [uitgevoerd.](email-validation-and-authentication.md#composite-authentication) Wanneer deze instelling is uitgeschakeld, wordt het vraagteken niet toegevoegd aan de foto van de afzender.
 
-Met **de instelling Unauthenticated Sender** kunt u niet-genauteerde afzenderidentificatie in Outlook in- of uitschakelen. Met name:
+- Tag **'via' inschakelen?**: Wanneer deze instelling is ingeschakeld, wordt de via-tag (chris@contoso.com via fabrikam.com) toegevoegd aan het vak Van als het domein in het Van-adres (de afzender van het bericht die wordt weergegeven in e-mail clients) verschilt van het domein in de DKIM-handtekening of het <sup>\*</sup> **MAIL FROM-adres.** <u></u> Zie Een overzicht van de standaarden voor [e-mailberichten](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)voor meer informatie over deze adressen.
 
-- Er wordt een vraagteken (?) toegevoegd aan de foto van de afzender als  het bericht niet door SPF- of DKIM-controles wordt gecontroleerd en het bericht niet door DMARC of samengestelde verificatie [komt.](email-validation-and-authentication.md#composite-authentication) Als u de identificatie van niet-genautificeerde afzenders uit kunt uitschakelen, wordt het vraagteken niet toegevoegd aan de foto van de afzender.
-
-- De via-tag (chris@contoso.com <u>via</u> fabrikam.com) wordt toegevoegd als het domein in het Van-adres (de afzender van het bericht die wordt weergegeven in e-mail clients) verschilt van het domein in de DKIM-handtekening of het **MAIL FROM-adres.** Zie Een overzicht van de standaarden voor [e-mailberichten](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)voor meer informatie over deze adressen.
-
-  Het uitschakelen van niet-genautificeerde afzender-identificatie voorkomt niet dat de via-tag wordt toegevoegd als het domein in het Van-adres verschilt van het domein in de DKIM-handtekening of het MAIL FROM-adres.
+> [!NOTE]
+> Op dit moment is de instelling **'via' inschakelen?** niet beschikbaar in alle organisaties. Als u de instelling **'via'** niet hebt ingeschakeld,  worden het vraagteken en de via-tag beide bepaald door de instelling Niet-genautisch afzendersymbool **(?)** inschakelen in uw organisatie.
 
 Als u wilt voorkomen dat het vraagteken of via een tag wordt toegevoegd aan berichten van specifieke afzenders, hebt u de volgende opties:
 
-- Sta de afzender toe om te spoofen in het spoof intelligence-beleid. Met deze actie wordt voorkomen dat de via-tag wordt weergegeven in berichten van de afzender wanneer de identificatie van niet-genautticeerde afzender is uitgeschakeld. Zie Spoof [intelligence configureren in Microsoft 365](learn-about-spoof-intelligence.md)voor instructies.
+- Sta de vervalste afzender toe in het inzicht van [de spoof intelligence](learn-about-spoof-intelligence.md) of handmatig in de Tenant [Allow/Block List](tenant-allow-block-list.md). Als u de vervalste afzender toestaat, wordt de tag via niet weergegeven in berichten van de afzender wanneer de identificatie van niet-nautische afzenders is uitgeschakeld.
 
 - [E-mailverificatie configureren](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) voor het afzenderdomein.
   - Voor het vraagteken op de foto van de afzender zijn SPF of DKIM het belangrijkste.
   - Bevestig voor de via-tag het domein in de DKIM-handtekening of het **MAIL FROM-adres** komt overeen (of is een subdomein van) het domein in het Van-adres.
 
-Zie Verdachte berichten identificeren in Outlook.com [en de webversie van Outlook voor meer informatie.](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206)
+Zie Verdachte berichten identificeren [in Outlook.com](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206) en Outlook op internet voor meer informatie.
 
 ## <a name="exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Exclusieve instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365
 
@@ -159,7 +163,7 @@ Een nabootsend domein kan anders als legitiem worden beschouwd (geregistreerd do
 
 De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingbeleid in Microsoft Defender voor Office 365:
 
-- **Gebruikers ter bescherming:** voorkomt dat de opgegeven interne of externe e-mailadressen worden weergegeven **als afzenders van berichten.** U ontvangt bijvoorbeeld een e-mailbericht van de vice-president van uw bedrijf waarin u wordt gevraagd haar interne bedrijfsgegevens te sturen. Zou u het doen? Veel mensen sturen het antwoord zonder na te denken.
+- **Gebruikers toevoegen ter bescherming:** voorkomt dat de opgegeven interne of externe e-mailadressen worden weergegeven **als afzenders van berichten.** U ontvangt bijvoorbeeld een e-mailbericht van de vice-president van uw bedrijf waarin u wordt gevraagd haar interne bedrijfsgegevens te sturen. Zou u het doen? Veel mensen sturen het antwoord zonder na te denken.
 
   U kunt beveiligde gebruikers gebruiken om e-mailadressen van interne en externe afzenders toe te voegen om te beschermen tegen imitatie. Deze lijst met **afzenders** die zijn beveiligd tegen gebruikersomitatie verschilt van de lijst met geadresseerden waar het beleid op  van toepassing [](#policy-settings) is (alle geadresseerden voor het standaardbeleid; specifieke geadresseerden zoals geconfigureerd in de instelling Toegepast op in de sectie Beleidsinstellingen). 
 
@@ -173,7 +177,7 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingbeleid
 
   Wanneer u interne of externe e-mailadressen toevoegt aan de lijst Gebruikers om de lijst te beveiligen, worden berichten van die **afzenders** onderworpen aan imitatiebeveiligingscontroles.  Het bericht wordt gecontroleerd op imitatie als  **het** bericht wordt verzonden naar een geadresseerde op wie het beleid van toepassing is (alle geadresseerden voor het standaardbeleid; **Toegepast op** geadresseerden in aangepast beleid). Als imitatie wordt gedetecteerd in het e-mailadres van de afzender, worden de acties voor imitatiebeveiliging voor gebruikers toegepast op het bericht (wat moet ik doen met het bericht, of er veiligheidstips voor nagebootsde gebruikers moeten worden weergegeven, enzovoort).
 
-- **Domeinen ter bescherming:** voorkomt dat de opgegeven domeinen worden nagebootsd in het domein van de afzender **van het bericht.** Bijvoorbeeld alle domeinen die u bezit[(geaccepteerde](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)domeinen) of specifieke domeinen (domeinen die u bezit of partnerdomeinen). Deze lijst met afzenderdomeinen die zijn beveiligd tegen  imitatie, verschilt van de lijst met geadresseerden waar het beleid op  van toepassing is [](#policy-settings) (alle geadresseerden voor het standaardbeleid; specifieke geadresseerden zoals geconfigureerd in de instelling Toegepast op in de sectie Beleidsinstellingen). 
+- **Domeinen toevoegen om te beveiligen:** voorkomt dat de opgegeven domeinen worden nagebootsd in het domein van de afzender **van het bericht.** Bijvoorbeeld alle domeinen die u bezit[(geaccepteerde](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)domeinen) of specifieke domeinen (domeinen die u bezit of partnerdomeinen). Deze lijst met afzenderdomeinen die zijn beveiligd tegen  imitatie, verschilt van de lijst met geadresseerden waar het beleid op  van toepassing is [](#policy-settings) (alle geadresseerden voor het standaardbeleid; specifieke geadresseerden zoals geconfigureerd in de instelling Toegepast op in de sectie Beleidsinstellingen). 
 
   > [!NOTE]
   > Het maximum aantal beveiligde domeinen dat u in alle anti-phishingbeleidsregels kunt definiëren, is 50.
@@ -182,35 +186,33 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingbeleid
 
   Wanneer u domeinen toevoegt aan de lijst Domeinen om deze te beveiligen, worden berichten van **afzenders in** die domeinen onderworpen aan imitatiebeveiligingscontroles.  Het bericht wordt gecontroleerd op imitatie als  **het** bericht wordt verzonden naar een geadresseerde op wie het beleid van toepassing is (alle geadresseerden voor het standaardbeleid; **Toegepast op** geadresseerden in aangepast beleid). Als imitatie wordt gedetecteerd in het domein van de afzender, worden de imitatiebeveiligingsacties voor domeinen toegepast op het bericht (wat moet u doen met het bericht, of er veiligheidstips voor nagebootsde gebruikers worden weergegeven, enzovoort).
 
-- **Acties voor beveiligde gebruikers of** domeinen: Kies de actie voor inkomende berichten die imitatiepogingen bevatten tegen de beveiligde gebruikers en beveiligde domeinen in het beleid. U kunt verschillende acties opgeven voor imitatie van beveiligde gebruikers versus imitatie van beveiligde domeinen:
+- **Acties:** Kies de actie die u wilt uitvoeren op inkomende berichten die imitatiepogingen bevatten tegen de beveiligde gebruikers en beveiligde domeinen in het beleid. U kunt verschillende acties opgeven voor imitatie van beveiligde gebruikers versus imitatie van beveiligde domeinen:
 
   - **Geen actie toepassen**
 
   - **Bericht omleiden naar andere e-mailadressen:** hiermee wordt het bericht verzonden naar de opgegeven geadresseerden in plaats van naar de beoogde geadresseerden.
 
-  - **Bericht verplaatsen naar map Ongewenste** e-mail: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail. In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie Instellingen voor ongewenste [e-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md)voor meer informatie.
+  - **Berichten verplaatsen naar de mappen ongewenste** e-mail van de geadresseerden: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail. In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel ongewenste e-mail is ingeschakeld in het postvak (het is standaard ingeschakeld). Zie Instellingen voor ongewenste e-mail configureren op [Exchange Online postvakken in](configure-junk-email-settings-on-exo-mailboxes.md)Microsoft 365.
 
-    - **Het bericht in quarantaine plaatsen:** hiermee wordt het bericht in quarantaine geplaatst in plaats van de beoogde geadresseerden. Zie de volgende artikelen voor informatie over quarantaine:
-
+  - **Het bericht in quarantaine plaatsen:** hiermee wordt het bericht in quarantaine geplaatst in plaats van de beoogde geadresseerden. Zie de volgende artikelen voor informatie over quarantaine:
     - [Quarantaine in Microsoft 365](quarantine-email-messages.md)
-    - [Berichten en bestanden in quarantaine beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
+    - [In quarantaine geplaatste berichten en bestanden beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
     - [Berichten in quarantaine zoeken en vrijgeven als gebruiker in Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
   - **Bezorg het bericht en voeg andere** adressen toe aan de BCC-regel: Bezorg het bericht bij de beoogde geadresseerden en bezorg het bericht in stilte bij de opgegeven geadresseerden.
 
   - **Verwijder het bericht voordat het wordt bezorgd:** het hele bericht wordt geruisloos verwijderd, inclusief alle bijlagen.
 
-- **Veiligheidstips:** Hiermee worden de volgende veiligheidstips voor imitaties in- of uitgeschakeld, zodat berichten worden weergegeven die niet worden nagebootsd:
-
-  - **Imiteerde gebruikers:** het Van-adres bevat een beveiligde gebruiker.
-  - **Imitatiedomeinen:** het Van-adres bevat een beveiligd domein.
-  - **Ongebruikelijke tekens:** Het Van-adres bevat ongebruikelijke tekensets (bijvoorbeeld wiskundige symbolen en tekst of een combinatie van hoofdletters en kleine letters) in een beveiligde afzender of domein.
+- **Veiligheidstips voor imitaties in-** of uitschakelen: schakel de volgende veiligheidstips voor imitaties in of uit die berichten worden weergegeven die nabootsingscontroles niet uitvoeren:
+  - **Tip voor imiteerde gebruikers tonen:** het Van-adres bevat een beveiligde gebruiker.
+  - **Tip voor nagebootste domeinen tonen:** het Van-adres bevat een beveiligd domein.
+  - **Tip voor ongebruikelijke** tekens: Het Van-adres bevat ongebruikelijke tekensets (bijvoorbeeld wiskundige symbolen en tekst of een combinatie van hoofdletters en kleine letters) in een beveiligde afzender of domein.
 
   > [!IMPORTANT]
   >
-  > Zelfs wanneer de veiligheidstips voor nabootsing zijn uitgeschakeld, raden **we** u aan een regel voor de e-mailstroom (ook wel transportregel  genoemd) te gebruiken om een berichtkop met de naam **X-MS-Exchange-EnableFirstContactSafetyTip** toe te voegen met de waarde inschakelen voor berichten. Met een veiligheidstip worden geadresseerden op de hoogte gebracht wanneer ze voor het eerst een bericht ontvangen van de afzender of als ze niet vaak berichten van de afzender ontvangen. Deze mogelijkheid voegt een extra beveiligingslaag toe tegen mogelijke imitatieaanvallen.
+  > Zelfs wanneer de veiligheidstips voor imiteren zijn uitgeschakeld, raden **we** u aan een regel voor de e-mailstroom (ook wel transportregel genoemd)  te gebruiken om een berichtkop met de naam **X-MS-Exchange-EnableFirstContactSafetyTip** toe te voegen met waarde voor berichten. Een veiligheidstip geadresseerden op de hoogte wanneer ze voor het eerst een bericht ontvangen van de afzender of als ze niet vaak berichten van de afzender ontvangen. Deze mogelijkheid voegt een extra beveiligingslaag toe tegen mogelijke imitatieaanvallen.
   >
-  > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="De tekst van de veiligheidstip voor imitatiebeveiliging bij meerdere geadresseerden.":::
+  > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="De tekst van het veiligheidstip voor imitatiebeveiliging bij meerdere geadresseerden.":::
 
 - **Postvakintelligentie:** Hiermee schakelt u kunstmatige intelligentie (AI) in of uit die e-mailpatronen van gebruikers bepaalt met hun frequente contactpersonen. Deze instelling helpt de AI om onderscheid te maken tussen berichten van legitieme en nagebootsde afzenders.
 
@@ -222,12 +224,12 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingbeleid
 
   - **Pas geen actie toe:** houd er rekening mee dat  deze waarde hetzelfde resultaat heeft als het in- en uitschakelen van postvakinformatie, maar het uitschakelen van op postvakintelligentie gebaseerde **imitatiebeveiliging.**
   - **Bericht omleiden naar andere e-mailadressen**
-  - **Bericht verplaatsen naar map Ongewenste e-mail**
+  - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
   - **Het bericht in quarantaine plaatsen**
   - **Het bericht bezorgen en andere adressen toevoegen aan de BCC-regel**
   - **Het bericht verwijderen voordat het wordt bezorgd**
 
-- **Vertrouwde afzenders en domeinen:** Uitzonderingen op de instellingen voor imitatiebeveiliging. Berichten van de opgegeven afzenders en afzenderdomeinen worden nooit door het beleid geclassificeerd als op imitatie gebaseerde aanvallen. Met andere woorden, de actie voor beveiligde afzenders, beveiligde domeinen of postvakinformatiebeveiliging wordt niet toegepast op deze vertrouwde afzenders of afzenderdomeinen. De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen.
+- **Vertrouwde afzenders en domeinen toevoegen:** Uitzonderingen op de instellingen voor imitatiebeveiliging. Berichten van de opgegeven afzenders en afzenderdomeinen worden nooit door het beleid geclassificeerd als op imitatie gebaseerde aanvallen. Met andere woorden, de actie voor beveiligde afzenders, beveiligde domeinen of postvakinformatiebeveiliging wordt niet toegepast op deze vertrouwde afzenders of afzenderdomeinen. De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen.
 
 ### <a name="advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Geavanceerde phishingdrempels in anti-phishingbeleid in Microsoft Defender voor Office 365
 
@@ -241,4 +243,4 @@ De volgende geavanceerde phishingdrempels zijn alleen beschikbaar in anti-phishi
 
 - **4 - Meest agressief:** Berichten die worden geïdentificeerd als phishing met een lage, gemiddelde of hoge mate van vertrouwen, worden behandeld alsof ze met een zeer hoge mate van vertrouwen zijn geïdentificeerd.
 
-De kans op onwaar positieven (goede berichten die als slecht zijn gemarkeerd) neemt toe naarmate u deze instelling verhoogt. Zie [anti-phishingbeleid in Microsoft Defender voor Office 365-instellingen](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)voor informatie over de aanbevolen instellingen.
+De kans op onwaar positieven (goede berichten die als slecht zijn gemarkeerd) neemt toe naarmate u deze instelling verhoogt. Zie [anti-phishingbeleid in Microsoft Defender](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)voor meer Office 365 informatie over de aanbevolen instellingen.

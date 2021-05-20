@@ -20,12 +20,12 @@ description: Beheerders kunnen meer informatie krijgen over het verwijderen van 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 32748d717762d7af727a1583226b6d47ee7697c6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2171e2465aa40e187f8104c7c0d2675562f115ce
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204333"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537869"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365
 
@@ -81,7 +81,7 @@ Beheerders kunnen gebruikers verwijderen uit de portal met beperkte verzenders i
 
 ## <a name="verify-the-alert-settings-for-restricted-users"></a>De instellingen voor de waarschuwing voor gebruikers met beperkte toegang verifiëren
 
-In het standaard waarschuwingsbeleid genaamd **Gebruiker beperkt tot het verzenden van e-mail** worden beheerders automatisch gewaarschuwd wanneer gebruikers geblokkeerd zijn bij het verzend van e-mailberichten. U kunt deze instellingen controleren en aanvullende gebruikers toevoegen om op de hoogte te stellen. Zie voor meer informatie over waarschuwingsbeleid, [Waarschuwingsbeleid in het beveiligings- en compliancecentrum](../../compliance/alert-policies.md).
+In het standaard waarschuwingsbeleid genaamd **Gebruiker beperkt tot het verzenden van e-mail** worden beheerders automatisch gewaarschuwd wanneer gebruikers geblokkeerd zijn bij het verzend van e-mailberichten. U kunt deze instellingen controleren en aanvullende gebruikers toevoegen om op de hoogte te stellen. Zie voor meer informatie over waarschuwingsbeleid, [Waarschuwingsbeleid in Microsoft 365](../../compliance/alert-policies.md).
 
 > [!IMPORTANT]
 > Om meldingen te laten werken, moet zoeken in het auditlogboek zijn ingeschakeld. Voor meer informatie, zie [Auditlogboeken zoeken in- of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md).

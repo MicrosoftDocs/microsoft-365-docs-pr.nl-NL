@@ -13,15 +13,15 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 - MET150
-description: Beheerders kunnen leren om de redenen te identificeren waarom en hoe een phishingbericht in Microsoft 365 is verzonden en wat ze moeten doen om in de toekomst meer phishingberichten te voorkomen.
+description: Beheerders kunnen leren om de redenen te identificeren waarom en hoe een phishingbericht is binnen Microsoft 365 en wat ze moeten doen om in de toekomst meer phishingberichten te voorkomen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1772a0329825b8808352892c8d99f0d7680112f5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8d8f3f93b3fe1643467a12f90123b839addad2ed
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204472"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537845"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
 
@@ -32,31 +32,31 @@ ms.locfileid: "51204472"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Hoewel Microsoft 365 wordt geleverd met diverse anti-phishingfuncties die standaard zijn ingeschakeld, is het mogelijk dat sommige phishingberichten nog steeds in uw postvakken kunnen worden verzonden. In dit onderwerp wordt beschreven wat u kunt doen om erachter te komen waarom een phishingbericht is binnengekomen en wat u kunt doen om de anti-phishing-instellingen in uw Microsoft 365-organisatie aan te passen zonder dat dit per ongeluk erger _wordt._
+Hoewel Microsoft 365 wordt geleverd met diverse anti-phishingfuncties die standaard zijn ingeschakeld, is het mogelijk dat sommige phishingberichten nog steeds in uw postvakken kunnen worden verzonden. In dit onderwerp wordt beschreven wat u kunt doen om te ontdekken waarom een phishingbericht is doorgekomen en wat u kunt doen om de anti-phishing-instellingen in uw Microsoft 365-organisatie aan te passen zonder dat u het per ongeluk erger _kunt maken._
 
 ## <a name="first-things-first-deal-with-any-compromised-accounts-and-make-sure-you-block-any-more-phishing-messages-from-getting-through"></a>First things first: deal with any compromised accounts and make sure you block any more phishing messages from getting through
 
-Als het account van een geadresseerde is gecompromitteerd als gevolg van het phishingbericht, volgt u de stappen in Reageren op een [gekromd e-mailaccount in Microsoft 365.](responding-to-a-compromised-email-account.md)
+Als het account van een geadresseerde is gecompromitteerd als gevolg van het phishingbericht, volgt u de stappen in Reageren op een gekromd [e-mailaccount in Microsoft 365.](responding-to-a-compromised-email-account.md)
 
-Als uw abonnement Microsoft Defender voor Office 365 bevat, kunt u [Office 365 Threat Intelligence](office-365-ti.md) gebruiken om andere gebruikers te identificeren die ook het phishingbericht hebben ontvangen. U hebt extra opties om phishingberichten te blokkeren:
+Als uw abonnement Microsoft Defender voor Office 365 bevat, kunt u Office 365 [Threat Intelligence](office-365-ti.md) gebruiken om andere gebruikers te identificeren die ook het phishingbericht hebben ontvangen. U hebt extra opties om phishingberichten te blokkeren:
 
-- [Veilige koppelingen in Microsoft Defender voor Office 365](set-up-safe-links-policies.md)
+- [Safe Koppelingen in Microsoft Defender voor Office 365](set-up-safe-links-policies.md)
 
-- [Veilige bijlagen in Microsoft Defender voor Office 365](set-up-safe-attachments-policies.md)
+- [Safe Bijlagen in Microsoft Defender voor Office 365](set-up-safe-attachments-policies.md)
 
-- [Anti-phishingbeleid in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md). Houd er rekening mee dat u de drempelwaarden voor **geavanceerde phishing** in het beleid tijdelijk kunt verhogen van Standaard naar **Agressief,** **Agressiever** of **Meest agressief.** 
+- [Anti-phishingbeleid in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md) Houd er rekening mee dat u de drempelwaarden voor **geavanceerde phishing** in het beleid tijdelijk kunt verhogen van Standaard naar **Agressief,** **Agressiever** of **Meest agressief.** 
 
-Controleer of deze Defender voor Office 365-functies zijn ingeschakeld.
+Controleer of deze Defender voor Office 365 functies zijn ingeschakeld.
 
 ## <a name="report-the-phishing-message-to-microsoft"></a>Het phishingbericht melden bij Microsoft
 
-Het rapporteren van phishingberichten is handig bij het afstemmen van de filters die worden gebruikt om alle klanten in Microsoft 365 te beschermen. Zie Berichten en bestanden [rapporteren aan Microsoft voor instructies.](report-junk-email-messages-to-microsoft.md)
+Het rapporteren van phishingberichten is handig bij het afstemmen van de filters die worden gebruikt om alle klanten in Microsoft 365. Zie Berichten en bestanden [rapporteren aan Microsoft voor instructies.](report-junk-email-messages-to-microsoft.md)
 
 ## <a name="inspect-the-message-headers"></a>De berichtkoppen controleren
 
 U kunt de kopteksten van het phishingbericht bekijken om te zien of u zelf iets kunt doen om te voorkomen dat er meer phishingberichten worden verzonden. Met andere woorden, als u de berichtenkoppen onderzoekt, kunt u de instellingen in uw organisatie identificeren die verantwoordelijk zijn voor het toestaan van de phishingberichten in.
 
-In het bijzonder moet u het **veld X-Forefront-Antispam-Report** in de berichtkoppen controleren op aanwijzingen voor overgeslagen filtering op spam of phishing in de waarde SpamFiltering (SFV). Berichten die het filteren overslaan, hebben een vermelding van , wat betekent dat een van uw instellingen dit bericht heeft toegestaan door de spam- of phishing-berichten te overschrijven die door de `SCL:-1` service zijn bepaald. Zie Kopteksten tegen [spam in Microsoft 365](anti-spam-message-headers.md)voor meer informatie over het verkrijgen van berichtkoppen en de volledige lijst met alle beschikbare kopteksten voor antispam- en phishingberichten.
+In het bijzonder moet u het **veld X-Forefront-Antispam-Report** in de berichtkoppen controleren op aanwijzingen voor overgeslagen filtering op spam of phishing in de waarde SpamFiltering (SFV). Berichten die het filteren overslaan, hebben een vermelding van , wat betekent dat een van uw instellingen dit bericht heeft toegestaan door de spam- of phishing-berichten te overschrijven die door de `SCL:-1` service zijn bepaald. Zie Kopteksten tegen spam in Microsoft 365 voor meer informatie over het verkrijgen van berichtkoppen en de volledige lijst met alle beschikbare kopteksten voor antispam- en [anti-phishingberichten.](anti-spam-message-headers.md)
 
 ## <a name="best-practices-to-stay-protected"></a>Best practices om beschermd te blijven
 
@@ -64,19 +64,19 @@ In het bijzonder moet u het **veld X-Forefront-Antispam-Report** in de berichtko
 
 - Voor berichten die per ongeluk in quarantaine worden geplaatst of voor berichten die zijn toegestaan, raden we u aan te zoeken naar deze berichten in Threat Explorer en [realtime detecties.](threat-explorer.md) U kunt zoeken op afzender, geadresseerde of bericht-id. Nadat u het bericht hebt gevonden, gaat u naar details door op het onderwerp te klikken. Kijk voor een bericht in quarantaine wat de 'detectietechnologie' was, zodat u de juiste methode kunt gebruiken om deze te overschrijven. Kijk voor een toegestaan bericht welk beleid het bericht heeft toegestaan.
 
-- Vervalste e-mail wordt gemarkeerd als phishing in Defender voor Office 365. Soms is spoof goedaardig en soms willen gebruikers het niet in quarantaine plaatsen. Als u de impact voor gebruikers wilt minimaliseren, controleert u regelmatig het [rapport Spoof intelligence.](learn-about-spoof-intelligence.md) Nadat u de benodigde overschrijvingen hebt gecontroleerd en aangebracht,  kunt u erop vertrouwen dat u [spoofinformatie](set-up-anti-phishing-policies.md#spoof-settings) configureert op Verdachte berichten in quarantaine plaatsen in plaats van ze af te leveren bij de map Ongewenste e-mail van de gebruiker.
+- E-mail van vervalste afzenders (het Van-adres van het bericht komt niet overeen met de bron van het bericht) wordt geclassificeerd als phishing in Defender voor Office 365. Soms is spoofing goedaardig en willen gebruikers soms niet dat berichten van specifieke vervalste afzender in quarantaine worden geplaatst. Als u de gevolgen voor gebruikers wilt minimaliseren, controleert u regelmatig het inzicht in [spoofinformatie,](learn-about-spoof-intelligence.md)het tabblad **Spoof** in de [lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)en het [rapport Spoofdetecties.](view-email-security-reports.md#spoof-detections-report) Nadat u toegestane en geblokkeerde vervalste afzenders hebt gecontroleerd en de benodigde overschrijven hebt aangebracht, kunt u erop vertrouwen dat u spoofinformatie [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings) configureert in **Verdachte** berichten in quarantaine plaatsen in plaats van deze af te leveren in de map Ongewenste e-mail van de gebruiker.
 
-- U kunt de bovenstaande stap voor imitatie (domein of gebruiker) herhalen. Het rapport Imitatie vindt u onder **Threat Management** \> **Dashboard** \> **Insights**.
+- U kunt de bovenstaande stap voor imitatie (domein of gebruiker) herhalen in Microsoft Defender voor Office 365. Het rapport Imitatie vindt u onder **Threat Management** \> **Dashboard** \> **Insights**.
 
 - Bekijk het rapport [Bedreigingsbeveiligingsstatus regelmatig.](view-reports-for-mdo.md#threat-protection-status-report)
 
 - Sommige klanten staan per ongeluk phishingberichten toe door hun eigen domeinen in de lijst Afzender toestaan of Domein toestaan in antispambeleid. Hoewel met deze configuratie enkele legitieme berichten kunnen worden verzonden, kunnen er ook schadelijke berichten worden verzonden die normaal gesproken worden geblokkeerd door de spam- en/of phishingfilters. In plaats van het domein toe te staan, moet u het onderliggende probleem corrigeren.
 
-  De beste manier om te gaan met legitieme berichten die worden geblokkeerd door Microsoft 365 (false positives) waarbij afzenders in uw domein betrokken  zijn, is door de SPF-, DKIM- en DMARC-records in DNS volledig en volledig te configureren voor al uw e-maildomeinen:
+  De beste manier om te gaan met legitieme berichten die worden geblokkeerd door Microsoft 365 (false positives) waarbij afzenders in uw domein betrokken zijn,  is door de SPF-, DKIM- en DMARC-records in DNS volledig en volledig te configureren voor al uw e-maildomeinen:
 
   - Controleer of uw SPF-record alle _e-mailbronnen_ voor afzenders in uw domein identificeert (vergeet geen services van derden!).
 
-  - Gebruik hard fail (alle) om ervoor te zorgen dat niet-geautoriseerde afzenders worden geweigerd door e-mailsystemen die zijn \- geconfigureerd om dit te doen. U kunt [spoofinformatie gebruiken](learn-about-spoof-intelligence.md) om afzenders te identificeren die uw domein gebruiken, zodat u geautoriseerde afzenders van derden kunt opnemen in uw SPF-record.
+  - Gebruik hard fail (alle) om ervoor te zorgen dat niet-geautoriseerde afzenders worden geweigerd door e-mailsystemen die zijn \- geconfigureerd om dit te doen. U kunt het inzicht in [spoof intelligence](learn-about-spoof-intelligence.md) gebruiken om afzenders te identificeren die uw domein gebruiken, zodat u geautoriseerde afzenders van derden kunt opnemen in uw SPF-record.
 
   Zie voor configuratie-instructies:
 
@@ -86,7 +86,7 @@ In het bijzonder moet u het **veld X-Forefront-Antispam-Report** in de berichtko
 
   - [DMARC gebruiken om e-mail te valideren](use-dmarc-to-validate-email.md)
 
-- Waar mogelijk wordt u aangeraden e-mail voor uw domein rechtstreeks naar Microsoft 365 te verzenden. Met andere woorden, wijs de MX-record van uw Microsoft 365-domein aan op Microsoft 365. Exchange Online Protection (EOP) kan de beste beveiliging bieden voor uw cloudgebruikers wanneer hun e-mail rechtstreeks wordt bezorgd bij Microsoft 365. Als u een e-mailhygiënesysteem van derden moet gebruiken voor EOP, gebruikt u Verbeterde filtering voor verbindingslijnen. Zie Verbeterde filtering [voor connectors in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)voor instructies.
+- Waar mogelijk raden we u aan om e-mail voor uw domein rechtstreeks aan uw Microsoft 365. Met andere woorden, wijs de MX-record van Microsoft 365 domein aan op Microsoft 365. Exchange Online Protection (EOP) kan de beste beveiliging bieden voor uw cloudgebruikers wanneer hun e-mail rechtstreeks wordt bezorgd bij Microsoft 365. Als u een e-mailhygiënesysteem van derden moet gebruiken voor EOP, gebruikt u Verbeterde filtering voor verbindingslijnen. Zie [Enhanced Filtering for Connectors in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
 - Gebruikers moeten de [invoegapp Rapportbericht of de invoeging](enable-the-report-message-add-in.md) [Phishing](enable-the-report-phish-add-in.md) melden gebruiken om berichten te rapporteren aan Microsoft, waarmee ze ons systeem kunnen trainen. Beheerders moeten ook profiteren van de mogelijkheden [voor het indienen van](admin-submission.md) beheerders.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f280cae2364a3ad76a3a3ff91ce382fdf69eab2b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bca8efa15bdfe2f4b7c8c90e7a4706f40b19f85d
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532048"
+ms.locfileid: "52572607"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -46,7 +46,7 @@ Nieuwe versies van Office-apps worden op verschillende tijdstippen beschikbaar g
 > [!NOTE]
 > De namen van de updatekanalen voor Office-apps zijn onlangs gewijzigd. Monthly-kanaal is nu bijvoorbeeld Huidig kanaal en Office Insider is nu bèta-kanaal. Zie [Wijzigingen aan updatekanalen voor Microsoft 365-apps](/deployoffice/update-channels-changes) voor meer informatie.
 
-Office voor iOS en Office voor Android: vertrouwelijkheidslabels zijn ingebouwd in de [Office-app](https://www.microsoft.com/nl-NL/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/).
+Office voor iOS en Office voor Android: vertrouwelijkheidslabels zijn ingebouwd in de [Office-app](https://www.microsoft.com/en-us/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/).
 
 Er zijn extra functies beschikbaar wanneer u de geïntegreerde labelclient van Azure Information Protection installeert, die alleen op Windows-computers wordt uitgevoerd. Zie [De labelclients voor Windows-computers vergelijken](/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers) voor deze details.
 
@@ -56,7 +56,7 @@ De weergegeven nummers zijn de minimale versies van Office-toepassingen die voor
 
 |Functie                                                                                                        |Windows |Mac |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
-|[Label handmatig toepassen, wijzigen of verwijderen](https://support.microsoft.com/nl-NL/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Label handmatig toepassen, wijzigen of verwijderen](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Een standaardlabel toepassen](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md)                                                        |
 |[Een geldige reden vereisen om een label te wijzigen](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Help-koppeling naar een aangepaste Help-pagina opgeven](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -80,7 +80,7 @@ De weergegeven nummers zijn de minimale versies van Office-toepassingen die voor
 
 |Functie                                                                                                        |Outlook voor Windows |Outlook voor Mac |Outlook voor iOS |Outlook voor Android |Webversie van Outlook |
 |------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
-|[Label handmatig toepassen, wijzigen of verwijderen](https://support.microsoft.com/nl-NL/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
+|[Label handmatig toepassen, wijzigen of verwijderen](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
 |[Een standaardlabel toepassen](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
 |[Een geldige reden vereisen om een label te wijzigen](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
 |[Help-koppeling naar een aangepaste Help-pagina opgeven](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
@@ -194,7 +194,7 @@ Voor een consistentere labelervaring met zinvolle rapportage moet u de juiste la
         - Sleutels *DisableEncryptOnly* en *DisableDoNotForward* beveiligingsinstellingen beschreven in [Voorkeuren instellen voor Outlook voor Mac](/DeployOffice/mac/preferences-outlook)
     - Webversie van Outlook: 
         - Parameters *SimplifiedClientAccessDoNotForwardDisabled* en *SimplifiedClientAccessEncryptOnlyDisabled* gedocumenteerd voor [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration)
-        - Outlook voor iOS en Android: Deze apps bieden geen ondersteuning voor gebruikers die versleuteling toepassen zonder labels, dus u hoeft niets uit te schakelen.
+    - Outlook voor iOS en Android: Deze apps bieden geen ondersteuning voor gebruikers die versleuteling toepassen zonder labels, dus u hoeft niets uit te schakelen.
 
 > [!NOTE]
 > Als gebruikers handmatig versleuteling verwijderen uit een gelabeld document dat is opgeslagen in SharePoint of OneDrive en u [vertrouwelijkheidslabels voor Office-bestanden in SharePoint en OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) hebt ingeschakeld, wordt de labelversleuteling automatisch hersteld wanneer het document de volgende keer wordt geopend of gedownload. 
@@ -438,8 +438,8 @@ Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel=""}
 
 ## <a name="end-user-documentation"></a>Documentatie voor eindgebruikers
 
-- [Vertrouwelijkheidslabels toepassen op uw documenten en e-mail in Office](https://support.microsoft.com/nl-NL/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-    - [Bekende problemen met vertrouwelijkheidslabels in Office](https://support.microsoft.com/nl-NL/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- [Vertrouwelijkheidslabels toepassen op uw documenten en e-mail in Office](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+    - [Bekende problemen met vertrouwelijkheidslabels in Office](https://support.microsoft.com/en-us/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 - [Vertrouwelijkheidslabels automatisch toepassen op of aanbevelen voor uw bestanden en e-mailberichten in Office](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [Bekende problemen met het automatisch toepassen of aanbevelen van vertrouwelijkheidslabels](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)

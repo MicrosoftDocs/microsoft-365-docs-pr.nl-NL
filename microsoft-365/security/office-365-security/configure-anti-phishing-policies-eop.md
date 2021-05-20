@@ -12,15 +12,15 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe ze het anti-phishingbeleid kunnen maken, wijzigen en verwijderen dat beschikbaar is in EOP-organisaties (Exchange Online Protection) met of zonder Exchange Online-postvakken.
+description: Beheerders kunnen leren hoe ze het anti-phishingbeleid kunnen maken, wijzigen en verwijderen dat beschikbaar is in Exchange Online Protection (EOP) organisaties met of zonder Exchange Online postvakken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c277558bad32e1926030483d202b70ae3c910315
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: bc3c15d2a652e9acd3407ecb91fc99b7ef295c7e
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204496"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537917"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Antiphishingbeleid configureren in EOP
 
@@ -29,13 +29,13 @@ ms.locfileid: "51204496"
 **Van toepassing op**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken is er een standaard anti-phishingbeleid dat een beperkt aantal anti-spoofing-functies bevat die standaard zijn ingeschakeld. Zie Spoofinstellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.
+In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection(EOP) organisaties zonder Exchange Online-postvakken is er een standaard anti-phishingbeleid dat een beperkt aantal anti-spoofing-functies bevat die standaard zijn ingeschakeld. Zie Spoofinstellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.
 
 Beheerders kunnen het standaard anti-phishingbeleid weergeven, bewerken en configureren (maar niet verwijderen). Voor meer granulariteit kunt u ook aangepaste anti-phishingbeleidsregels maken die van toepassing zijn op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
 Organisaties met Exchange Online-postvakken kunnen anti-phishingbeleid configureren in het Beveiligings- & compliancecentrum of in Exchange Online PowerShell. Zelfstandige EOP-organisaties kunnen alleen gebruikmaken van het Beveiligings- & Compliancecentrum.
 
-Zie Anti-phishingbeleid configureren in Microsoft Defender voor Office 365 voor informatie over het maken en wijzigen van het meer geavanceerde anti-phishingbeleid in Microsoft Defender voor [Office 365.](configure-atp-anti-phishing-policies.md)
+Zie Anti-phishingbeleid configureren in Microsoft Defender voor Office 365 voor meer informatie over het maken en wijzigen van het meer geavanceerde [anti-phishingbeleid](configure-atp-anti-phishing-policies.md)in Microsoft Office 365 Defender voor Office 365 die beschikbaar zijn in Defender voor Office 365.
 
 De basiselementen van een anti-phishingbeleid zijn:
 
@@ -48,7 +48,7 @@ Het verschil tussen deze twee elementen is niet duidelijk wanneer u anti-phishin
 - Wanneer u een anti-phishingbeleid wijzigt, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld en geadresseerdefilters de anti-phish-regel. Alle andere instellingen wijzigen het bijbehorende anti-phish-beleid.
 - Wanneer u een anti-phishingbeleid verwijdert, worden de anti-phish-regel en het bijbehorende anti-phish-beleid verwijderd.
 
-In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie Exchange Online PowerShell gebruiken om [anti-phishingbeleid](#use-exchange-online-powershell-to-configure-anti-phishing-policies) te configureren verderop in dit artikel voor meer informatie.
+In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie Gebruik Exchange Online PowerShell voor het configureren van [anti-phishingbeleid](#use-exchange-online-powershell-to-configure-anti-phishing-policies) verderop in dit artikel voor meer informatie.
 
 Elke organisatie heeft een ingebouwd anti-phishingbeleid met de naam Office365 AntiPhish Default met de volgende eigenschappen:
 
@@ -75,10 +75,10 @@ Als u de effectiviteit van anti-phishingbeveiliging wilt vergroten, kunt u aange
   **Opmerkingen**:
 
   - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  - De **rollengroep Alleen-weergeven in** [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de <sup>\*</sup> functie.
+  - De **rollengroep Alleen-weergeven voor** organisatiebeheer in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezen toegang tot de <sup>\*</sup> functie.
   - <sup>\*</sup> In het & compliancecentrum kunnen gebruikers met alleen-lezen toegang de instellingen van aangepast anti-phishingbeleid bekijken. Alleen-lezen gebruikers kunnen de instellingen niet zien in het standaard anti-phishingbeleid.
 
-- Als u anti-phishingbeleid wilt maken en wijzigen in zelfstandige EOP, moet u iets doen dat _hydratatie_ vereist voor uw tenant. In het Exchange-beheercentrum (EAC) kunt u  bijvoorbeeld naar het tabblad Machtigingen  gaan, een bestaande rollengroep selecteren, op Pictogram Bewerken bewerken klikken en een rol verwijderen (die u uiteindelijk opnieuw ![ ](../../media/ITPro-EAC-EditIcon.png) toevoegt). Als uw tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **Organisatie-instellingen** bijwerken met een voortgangsbalk die moet worden voltooid. Zie de cmdlet [Enable-OrganizationCustomization](/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in zelfstandige EOP PowerShell of in het Beveiligings- & Compliancecentrum) voor meer informatie over hydratatie.
+- Als u anti-phishingbeleid wilt maken en wijzigen in zelfstandige EOP, moet u iets doen dat _hydratatie_ vereist voor uw tenant. In het Exchange-beheercentrum (EAC) kunt u bijvoorbeeld  naar het tabblad Machtigingen gaan, een bestaande rollengroep selecteren, op pictogram Bewerken klikken en een rol verwijderen (die u uiteindelijk weer  ![ ](../../media/ITPro-EAC-EditIcon.png) toevoegt). Als uw tenant nooit is gehydrateerd, krijgt u een dialoogvenster met **de naam** Organisatie bijwerken Instellingen met een voortgangsbalk die moet worden voltooid. Zie de cmdlet [Enable-OrganizationCustomization](/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in zelfstandige EOP PowerShell of in het Beveiligings- & Compliancecentrum) voor meer informatie over hydratatie.
 
 - Zie Standaardinstellingen voor anti-phishingbeleid voor EOP voor onze aanbevolen instellingen voor [anti-phishingbeleid.](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)
 
@@ -159,18 +159,20 @@ Gebruik de volgende procedures om anti-phishingbeleid te wijzigen: een nieuw bel
 
    Wanneer u klaar bent, klikt u op **Opslaan** op een pagina.
 
-5. **Spoof:** Klik op **Bewerken** om spoofinformatie in of uit te schakelen, identiteitsgegevens van niet-nautische afzenders in Outlook in of uit te schakelen en de actie te configureren die van toepassing is op berichten van geblokkeerde vervalste afzenders. Zie Spoofinstellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.
+5. **Spoof:** Klik op **Bewerken** om spoofinformatie in of uit te schakelen, unauthenticated sender identification in Outlook in of uit te schakelen en de actie te configureren die van toepassing is op berichten van geblokkeerde vervalste afzenders. Zie Spoofinstellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie over deze instellingen.
 
    Houd er rekening mee dat deze instellingen ook beschikbaar zijn in anti-phishingbeleid in Defender voor Office 365.
 
-   - **Instellingen voor spoofingfilter:** De standaardwaarde is **Aan** en u wordt aangeraden deze aan te laten staan. Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit.** Zie Spoof [intelligence configureren in EOP voor meer informatie.](learn-about-spoof-intelligence.md)
+   - **Filterinstellingen voor spoofing:** gebruik de instelling **Spoof intelligence inschakelen?** om spoofinformatie in of uit te schakelen. De standaardwaarde is **Aan** en we raden u aan deze aan te laten staan. Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit-** ![ of ](../../media/scc-toggle-off.png) uitschakelen.
 
      > [!NOTE]
-     > U hoeft de bescherming tegen spoofing niet uit te schakelen als uw MX-record niet naar Microsoft 365 gaat. u in plaats daarvan Verbeterde filtering voor verbindingslijnen inschakelen. Zie Verbeterde filtering [voor connectors in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)voor instructies.
+     > U hoeft de bescherming tegen spoofing niet uit te schakelen als uw MX-record niet naar de Microsoft 365; u in plaats daarvan Verbeterde filtering voor verbindingslijnen inschakelen. Zie [Enhanced Filtering for Connectors in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-   - **Functie Unauthenticated Sender inschakelen:** De standaardwaarde is **Aan.** Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit.**
+   - **Instellingen voor niet-nautische afzenders:** U kunt de volgende instellingen configureren:
+     - **Unauthenticated sender question mark (?)** symbol inschakelen? : Met deze instellingen wordt het vraagteken toegevoegd aan de foto van de  afzender in het vak Van in Outlook als het bericht niet door SPF- of DKIM-controles komt en het bericht niet door DMARC of samengestelde verificatie [komt.](email-validation-and-authentication.md#composite-authentication) De standaardwaarde is **Aan**. Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit-** ![ of ](../../media/scc-toggle-off.png) uitschakelen.
+     - **Tag 'via' inschakelen?**: met deze instelling wordt een via-tag (chris@contoso.com via fabrikam.com) toegevoegd die verschilt van het domein in de DKIM-handtekening of het **ADRES MAIL FROM.** De standaardwaarde is **Aan**. Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit-** ![ of ](../../media/scc-toggle-off.png) uitschakelen.
 
-   - **Acties:** Geef de actie op die moet worden ondernomen voor berichten die niet worden vervalst:
+   - **Acties:** Geef de actie op voor berichten van geblokkeerde vervalste afzenders:
 
      **Als e-mail wordt verzonden door iemand die uw** domein niet mag vervalsen:
 
@@ -181,9 +183,9 @@ Gebruik de volgende procedures om anti-phishingbeleid te wijzigen: een nieuw bel
 
      - U kunt in elke **sectie op Bewerken** klikken om terug te gaan naar de relevante pagina.
      - U kunt de volgende instellingen  rechtstreeks **op** deze pagina in- of uitschakelen:
-
-       - **Antispoofingbeveiliging inschakelen**
-       - **Functie Unauthenticated Sender inschakelen**
+       - **Instellingen voor spooffilters**
+       - **Instellingen voor niet-genauteerde afzender**
+       - **Acties**
 
    Wanneer u klaar bent, klikt u op **Opslaan** op een pagina.
 
@@ -197,11 +199,7 @@ Het standaard anti-phishingbeleid heet Office365 AntiPhish Default en wordt niet
 
 2. Klik op **de pagina Anti-phishing** op **Standaardbeleid.**
 
-3. De **pagina Uw beleid bewerken Office365 AntiPhish Default** wordt weergegeven. De volgende secties zijn beschikbaar, die identieke instellingen bevatten voor wanneer u [een aangepast beleid wijzigt.](#use-the-security--compliance-center-to-modify-anti-phishing-policies)
-
-   - **Imitatie**
-   - **Spoof**
-   - **Geavanceerde instellingen**
+3. De **pagina Uw beleid bewerken Office365 AntiPhish Default** wordt weergegeven. Alleen de **sectie Spoof** is beschikbaar, die identieke instellingen bevat voor wanneer u een aangepast [beleid wijzigt.](#use-the-security--compliance-center-to-modify-anti-phishing-policies)
 
    De volgende instellingen zijn niet beschikbaar wanneer u het standaardbeleid wijzigt:
 
@@ -217,9 +215,9 @@ Het standaard anti-phishingbeleid heet Office365 AntiPhish Default en wordt niet
 
 2. Let op de waarde in de **kolom Status:**
 
-   - Schuif de schakelknop naar **Uit om** het beleid uit te schakelen.
+   - Schuif de schakelknop naar  ![ Uit-schakelknop uit ](../../media/scc-toggle-off.png) om het beleid uit te schakelen.
 
-   - Schuif de schakelknop naar **Aan om** het beleid in te schakelen.
+   - Schuif de schakelknop naar  ![ Aan-aan om ](../../media/scc-toggle-on.png) het beleid in te schakelen.
 
 U kunt het standaard anti-phishingbeleid niet uitschakelen.
 
@@ -235,7 +233,7 @@ Aangepaste anti-phishingbeleidsregels worden weergegeven in de volgorde waarin z
 
 Als u de prioriteit van  een beleid wilt wijzigen, klikt u op Prioriteit verhogen  of Prioriteit verlagen **in** de eigenschappen van het beleid (u kunt het prioriteitsnummer niet rechtstreeks wijzigen in het Beveiligings- & Compliancecentrum). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
 
-1. Ga in het & Compliance center naar **Threat management** \> **Policy** \> **ATP anti-phishing.**
+1. Ga in het & Compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**.
 
 2. Selecteer het beleid dat u wilt wijzigen. Als deze optie al is geselecteerd, deselecteert u de selectie en selecteert u deze opnieuw.
 
@@ -273,7 +271,7 @@ Als u de prioriteit van  een beleid wilt wijzigen, klikt u op Prioriteit verhoge
 
 U kunt het standaardbeleid niet verwijderen.
 
-## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Exchange Online PowerShell gebruiken om anti-phishingbeleid te configureren
+## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Gebruik Exchange Online PowerShell om anti-phishingbeleid te configureren
 
 Zoals eerder beschreven, bestaat een anti-phishingbeleid uit een anti-phish-beleid en een anti-phish-regel.
 
@@ -309,7 +307,7 @@ Het maken van een anti-phishingbeleid in PowerShell is een proces in twee stappe
 Als u een anti-phish-beleid wilt maken, gebruikt u de volgende syntaxis:
 
 ```PowerShell
-New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-EnableSpoofIntelligence <$true | $false>] [-AuthenticationFailAction <MoveToJmf | Quarantine>] [-EnableUnauthenticatedSender <$true | $false>]
+New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-EnableSpoofIntelligence <$true | $false>] [-AuthenticationFailAction <MoveToJmf | Quarantine>] [-EnableUnauthenticatedSender <$true | $false>] [-EnableViaTag <$true | $false>]
 ```
 
 In dit voorbeeld wordt een anti-phish-beleid met de naam Onderzoek quarantaine gemaakt met de volgende instellingen:
@@ -511,14 +509,14 @@ Zie [Remove-AntiPhishRule (Verwijderen-AntiPhishRule)](/powershell/module/exchan
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
-Ga als volgt te werk om te controleren of u anti-phishingbeleid hebt geconfigureerd in Microsoft Defender voor Office 365:
+Als u wilt controleren of u anti-phishingbeleid hebt geconfigureerd in Microsoft Defender voor Office 365, gaat u als volgt te werk:
 
 - Ga in het & Compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**. Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Ga als volgt te werk om meer details weer te geven:
 
   - Selecteer het beleid in de lijst en bekijk de details in de flyout.
   - Klik **op Standaardbeleid** en bekijk de details in de flyout.
 
-- Vervang in Exchange Online PowerShell de naam van het beleid of de regel, voer de volgende opdracht uit en \<Name\> controleer de instellingen:
+- Vervang Exchange Online PowerShell door de naam van het beleid of de regel, voer de volgende opdracht uit en \<Name\> controleer de instellingen:
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>"

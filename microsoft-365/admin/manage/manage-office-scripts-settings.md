@@ -15,23 +15,23 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
-description: Informatie over het beheren van de instellingen voor Office-scripts voor gebruikers in uw organisatie.
-ms.openlocfilehash: 75d0a9d9e98652fc11eab7e8a7d6c826be031f6e
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+description: Meer informatie over het beheren van Office scriptsinstellingen voor gebruikers in uw organisatie.
+ms.openlocfilehash: e0cb52c4a8f48ff2310c83ffce61e08a0236ed59
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058421"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572307"
 ---
 # <a name="manage-office-scripts-settings"></a>Instellingen voor Office-scripts beheren
 
-Met Office-scripts kunnen gebruikers taken automatiseren door het opnemen, bewerken en uitvoeren van scripts in de webapp van Excel. Office-scripts werken met Power Automate en gebruikers voeren scripts uit op werkmappen met behulp van de connector van Excel Online (Bedrijven). Microsoft 365-beheerders kunnen de instellingen voor Office Scripts beheren vanuit het Microsoft 365-beheercentrum.
+[met Office Scripts](/office/dev/scripts)kunnen gebruikers taken automatiseren door scripts op te nemen, te bewerken en uit te voeren in Excel op het web. Office Scripts werken met Power Automate en gebruikers voeren scripts uit op werkmappen met behulp van de connector Excel Online (Business). Microsoft 365 beheerders kunnen Office scripts beheren vanuit het Microsoft 365-beheercentrum.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-- Als u de instellingen voor Office-scripts wilt beheren, moet u een globale beheerder zijn. Zie Informatie over [beheerdersrollen.](../add-users/about-admin-roles.md)
+- Als u Office scripts wilt beheren, moet u een globale beheerder zijn. Zie [Beheerdersrollen voor](../add-users/about-admin-roles.md)meer informatie.
 
-- Controleer of gebruikers in uw organisatie een geldige licentie hebben voor een commerciële of EDU-abonnement van Microsoft 365 of Office 365 met toegang tot Office-desktop-apps, zoals een van de volgende abonnementen:
+- Zorg ervoor dat gebruikers in uw organisatie een geldige licentie hebben voor een Microsoft 365 of Office 365 commercieel of EDU-abonnement dat toegang bevat tot Office bureaublad-apps, zoals een van de volgende abonnementen:
 
     - Microsoft 365 Business Standard
     - Microsoft 365-apps voor bedrijven
@@ -41,68 +41,68 @@ Met Office-scripts kunnen gebruikers taken automatiseren door het opnemen, bewer
     - Office 365 A3
     - Office 365 A5
 
-## <a name="manage-availability-of-office-scripts-and-sharing-of-scripts"></a>De beschikbaarheid van Office-scripts en het delen van scripts beheren
+## <a name="manage-availability-of-office-scripts-and-sharing-of-scripts"></a>De beschikbaarheid van Office scripts beheren en scripts delen
 
-1. Ga in het Microsoft 365-beheercentrum naar het tabblad Instellingen  \> **organisatie-instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Services.</a>
+1. Ga in het Microsoft 365-beheercentrum naar het tabblad **Instellingen** \> **Organisatie-instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Services.</a>
 
-2. Selecteer **Office-scripts.**
+2. Selecteer **Office scripts**.
 
-3. Office-scripts is standaard ingeschakeld en iedereen in uw organisatie heeft toegang tot de functie en kan deze gebruiken en scripts delen. Als u Office-scripts voor uw organisatie wilt uitschakelen, schakel het selectievakje Gebruikers hun taken laten automatiseren **in de web-web-excel** uit.
+3. Office Scripts zijn standaard ingeschakeld en iedereen in uw organisatie heeft toegang tot en kan de functie gebruiken en scripts delen. Als u Office scripts voor uw organisatie wilt uitschakelen, schakelt u het selectievakje **Gebruikers hun taken automatiseren in webversie van Excel** uit.
 
-4. Als u eerder Office-scripts hebt uitgeschakeld voor uw organisatie en u deze functie weer wilt in- of uitschakelen, selecteert u Gebruikers hun taken laten automatiseren **in de webwinkel** van Excel en geeft u op wie de functie kan openen en gebruiken:
+4. Als u eerder Office scripts voor uw organisatie hebt uitgeschakeld en u deze weer wilt inschakelen, selecteert u **Gebruikers hun taken laten automatiseren in webversie van Excel** en geeft u vervolgens op wie toegang heeft tot de functie en deze kan gebruiken:
 
-    - Als u alle gebruikers in uw organisatie toegang wilt geven tot Office-scripts en deze wilt gebruiken, laat u **Iedereen** (de standaardinstelling) geselecteerd.
+    - Als u wilt dat alle gebruikers in uw organisatie toegang hebben tot en Office scripts gebruiken, laat u **Iedereen** (de standaardinstelling) geselecteerd.
 
-    - Als u wilt dat alleen leden van een bepaalde groep Office-scripts kunnen openen en gebruiken, selecteert u Specifieke groep en voert u de naam of e-mailalias van de groep in om deze toe te voegen aan de lijst toestaan. U mag slechts één groep toevoegen aan de toegestane lijst en dit moet een van de volgende typen zijn:
-        - Microsoft 365-groep
+    - Als u alleen leden van een specifieke groep toegang wilt geven tot en Office scripts wilt gebruiken, selecteert u **Specifieke groep** en voert u vervolgens de naam of e-mailalias van de groep in om deze toe te voegen aan de lijst met toegestane groepen. U kunt slechts één groep toevoegen aan de lijst met toegestane groepen en dit moet een van de volgende typen zijn:
+        - Microsoft 365 groep
         - Distributiegroep
         - Beveiligingsgroep
         - Beveiligingsgroep met e-mail
     
-        Zie Groepen vergelijken voor meer informatie over de [verschillende typen groepen.](../create-groups/compare-groups.md)
+        Zie Groepen vergelijken voor meer informatie over de verschillende typen [groepen.](../create-groups/compare-groups.md)
 
-5. Als u wilt dat gebruikers met toegang tot Office-scripts hun scripts kunnen delen met anderen in uw organisatie, selecteert u Toestaan dat gebruikers met toegang tot **Office-scripts** hun scripts delen met anderen in de organisatie. Scripts delen buiten een organisatie is niet toegestaan.
+5. Als u gebruikers met toegang tot Office scripts hun scripts wilt laten delen met anderen in uw organisatie, selecteert u **Gebruikers met toegang tot Office scripts hun scripts delen met anderen in de organisatie**. Het delen van scripts buiten een organisatie is niet toegestaan.
  
     > [!NOTE]
-    > Als u het delen van scripts later uit schakelen voor uw organisatie, kunnen gebruikers nog steeds eerder gedeelde scripts uitvoeren.
+    > Als u later het delen van scripts voor uw organisatie uitschakelt, kunnen gebruikers nog steeds eerder gedeelde scripts uitvoeren.
  
-6. Opgeven welke gebruikers met toegang tot Office-scripts hun scripts kunnen delen:
+6. Geef op welke gebruikers met toegang tot Office scripts hun scripts kunnen delen:
     
-    - Als u wilt dat alle gebruikers met toegang tot Office-scripts hun scripts kunnen delen, laat u **Iedereen** (de standaardinstelling) geselecteerd.
+    - Als u wilt dat alle gebruikers met toegang tot Office scripts hun scripts kunnen delen, laat u **Iedereen** (de standaardinstelling) geselecteerd.
 
-    - Als u wilt dat alleen leden van een specifieke groep die toegang hebben tot Office-scripts hun scripts kunnen delen, selecteert u Groep Specifiek en voert u de naam of e-mailalias van de groep in om deze toe te voegen aan de lijst Toestaan. U mag slechts één groep toevoegen aan de toegestane lijst en dit moet een van de volgende typen zijn:
-        - Microsoft 365-groep
+    - Als u alleen leden van een specifieke groep met toegang tot Office scripts wilt toestaan hun scripts te delen, selecteert u **Specifieke groep** en voert u vervolgens de naam of e-mailalias van de groep in om deze toe te voegen aan de lijst met toegestane scripts. U kunt slechts één groep toevoegen aan de lijst met toegestane groepen en dit moet een van de volgende typen zijn:
+        - Microsoft 365 groep
         - Distributiegroep
         - Beveiligingsgroep
         - Beveiligingsgroep met e-mail
     
-        Zie Groepen vergelijken voor meer informatie over de [verschillende typen groepen.](../create-groups/compare-groups.md)
+        Zie Groepen vergelijken voor meer informatie over de verschillende typen [groepen.](../create-groups/compare-groups.md)
 
-7. Als u wilt dat gebruikers hun Office-scripts kunnen uitvoeren in Power Automate-stromen, selecteert u Toestaan dat gebruikers met toegang tot Office-scripts hun scripts uitvoeren **met Power Automate.** Hierdoor kunnen gebruikers stroomstappen toevoegen met de [scriptoptie](/connectors/excelonlinebusiness) Uitvoeren van de Excel **Online-connector** (Business).
+7. Als u wilt dat gebruikers hun Office scripts binnen Power Automate stromen kunnen uitvoeren, selecteert u **Gebruikers met toegang tot Office scripts hun scripts laten uitvoeren met Power Automate**. Hierdoor kunnen gebruikers stroomstappen toevoegen met de **scriptoptie** [Excel Online (Business) Connector.](/connectors/excelonlinebusiness)
 
-    - Als u wilt dat alle gebruikers met toegang tot Office-scripts hun scripts kunnen gebruiken in stromen, laat u **Iedereen** (de standaardinstelling) geselecteerd.
+    - Als u wilt dat alle gebruikers met toegang tot Office scripts hun scripts in stromen kunnen gebruiken, laat u **Iedereen** (de standaardinstelling) geselecteerd.
 
-    - Als u wilt dat alleen leden van een specifieke groep met toegang tot Office-scripts hun scripts kunnen gebruiken in stromen, selecteert u Groep Specifiek en voert u de naam of e-mailalias van de groep in om deze toe te voegen aan de lijst Toestaan. U mag slechts één groep toevoegen aan de toegestane lijst en dit moet een van de volgende typen zijn:
-        - Microsoft 365-groep
+    - Als u alleen leden van een specifieke groep met toegang tot Office scripts wilt toestaan hun scripts in stromen te gebruiken, selecteert u **Specifieke groep** en voert u vervolgens de naam of e-mailalias van de groep in om deze toe te voegen aan de lijst met toegestane scripts. U kunt slechts één groep toevoegen aan de lijst met toegestane groepen en dit moet een van de volgende typen zijn:
+        - Microsoft 365 groep
         - Distributiegroep
         - Beveiligingsgroep
         - Beveiligingsgroep met e-mail
 
-        Zie Groepen vergelijken voor meer informatie over de [verschillende typen groepen.](../create-groups/compare-groups.md)
+        Zie Groepen vergelijken voor meer informatie over de verschillende typen [groepen.](../create-groups/compare-groups.md)
 
-    - Zie Office-scripts uitvoeren met Power Automate voor meer informatie over het gebruik van [Office-scripts met Power Automate,](/office/dev/scripts/develop/power-automate-integration)waaronder hoe uw beleid voor preventie van gegevensverlies kan worden beïnvloed.
+    - Zie Office scripts uitvoeren met Power Automate voor meer informatie over het gebruik [van Office scripts met Power Automate.](/office/dev/scripts/develop/power-automate-integration)
 
-8. Klik op **Opslaan**.
+8. Selecteer **Opslaan**.
 
-    Het kan tot 48 uur duren voordat wijzigingen in de instellingen voor Office-scripts zijn doorgevoerd.
+    Het kan tot 48 uur duren voordat wijzigingen in Office scripts-instellingen van kracht worden.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Omdat Office Scripts werkt met Power Automate, raden we u aan uw bestaande beleid voor preventie van gegevensverlies (DLP)-beleid te controleren om ervoor te zorgen dat de gegevens van uw organisatie beveiligd blijven wanneer gebruikers Office-scripts gebruiken. Zie het beleid voor preventie van [gegevensverlies (DLP-beleid) voor meer informatie.](/power-automate/prevent-data-loss)
+Omdat Office Scripts met Power Automate werkt, raden we u aan uw bestaande DLP-beleid (Data Loss Prevention) te bekijken om ervoor te zorgen dat de gegevens van uw organisatie beschermd blijven terwijl gebruikers Office scripts gebruiken. Zie beleid voor [het voorkomen van gegevensverlies (DLP)](/power-automate/prevent-data-loss)voor meer informatie.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Technische documentatie van Office Scripts](/office/dev/scripts/) (koppelingspagina)\
-[Inleiding tot Office-scripts in Excel](https://support.microsoft.com/office/9fbe283d-adb8-4f13-a75b-a81c6baf163a) (artikel)\
-[Office-scripts delen in excel voor het web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b) (artikel)\
-[Office-scripts opnemen, bewerken en maken in de webonderdeel Excel](/office/dev/scripts/tutorials/excel-tutorial) (artikel)
+[Office Scripts technische documentatie](/office/dev/scripts/) (linkpagina)\
+[Inleiding tot Office scripts in Excel](https://support.microsoft.com/office/9fbe283d-adb8-4f13-a75b-a81c6baf163a) (artikel)\
+[Office scripts delen in Excel voor het web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b) (artikel)\
+[Office scripts opnemen, bewerken en maken in webversie van Excel](/office/dev/scripts/tutorials/excel-tutorial) (artikel)

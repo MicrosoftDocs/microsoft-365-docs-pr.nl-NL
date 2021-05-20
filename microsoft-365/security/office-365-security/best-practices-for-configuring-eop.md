@@ -12,19 +12,19 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor zelfstandige Exchange Online Protection (EOP) om uzelf in te stellen voor succes en veelvoorkomende configuratiefouten te voorkomen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 94586d409d6d8b53ba68c22b6b4f62d2b72266db
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 266da2d8fe6b8ede79e703e49e48d17fccdd2928
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599471"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537953"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Best practices voor het configureren van zelfstandige EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige Exchange Online Protection](exchange-online-protection-overview.md)
+-  [Exchange Online Protection zelfstandige](exchange-online-protection-overview.md)
 
 Volg deze aanbevolen aanbevelingen voor zelfstandige Exchange Online Protection (EOP) om uzelf in te stellen voor succes en veelvoorkomende configuratiefouten te voorkomen. In dit onderwerp wordt ervan uitgenomen dat u het installatieproces al hebt voltooid. Zie Uw [EOP-service instellen](set-up-your-eop-service.md)als u de EOP-installatie nog niet hebt voltooid.
 
@@ -34,11 +34,11 @@ U wordt aangeraden een testdomein, subdomein of laag volumedomein te gebruiken o
 
 ## <a name="synchronize-recipients"></a>Geadresseerden synchroniseren
 
-Als uw organisatie bestaande gebruikersaccounts heeft in een on-premises Active Directory-omgeving, kunt u deze accounts synchroniseren met Azure Active Directory in de cloud. Het is raadzaam adreslijstsynchronisatie te gebruiken. Zie E-mailgebruikers beheren [in EOP](manage-mail-users-in-eop.md)voor meer informatie over de voordelen van het gebruik van adreslijstsynchronisatie en de stappen voor het instellen ervan.
+Als uw organisatie bestaande gebruikersaccounts heeft in een on-premises Active Directory-omgeving, kunt u deze accounts synchroniseren Azure Active Directory in de cloud. Het is raadzaam adreslijstsynchronisatie te gebruiken. Zie E-mailgebruikers beheren [in EOP](manage-mail-users-in-eop.md)voor meer informatie over de voordelen van het gebruik van adreslijstsynchronisatie en de stappen voor het instellen ervan.
 
 ## <a name="recommended-settings"></a>Aanbevolen instellingen
 
-We stellen beveiligingsbeheerders in staat hun beveiligingsinstellingen aan te passen aan de behoeften van hun organisatie. Hoewel er over het algemeen twee beveiligingsniveaus zijn in EOP en Microsoft Defender voor Office 365 die we aanbevelen: Standaard en Strikt. Deze instellingen worden weergegeven in de aanbevolen [instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging.](recommended-settings-for-eop-and-office365.md)
+We stellen beveiligingsbeheerders in staat hun beveiligingsinstellingen aan te passen aan de behoeften van hun organisatie. Hoewel er in de regel twee beveiligingsniveaus zijn in EOP en Microsoft Defender voor Office 365 die we aanbevelen: Standaard en Strikt. Deze instellingen worden weergegeven in de aanbevolen [instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging.](recommended-settings-for-eop-and-office365.md)
 
 ### <a name="miscellaneousnon-policy-settings"></a>Diverse/niet-beleidsinstellingen
 
@@ -59,17 +59,17 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 |Unified Auditing moet zijn ingeschakeld|Ja|Ja||
 |[IMAP-connectiviteit met postvak](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
 |[POP-connectiviteit met postvak](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Uitgeschakeld|Uitgeschakeld||
-|Geverifieerde SMTP-inzending|Uitgeschakeld|Uitgeschakeld|Geverifieerde SMTP-clientinzending (ook wel SMTP-clientinzending of SMTP AUTH genoemd) is vereist voor POP3- en IMAP4-clients en -toepassingen en -apparaten die e-mail genereren en verzenden. <p> Zie [Geverifieerde SMTP-inzending](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)voor klanten in Exchange Online in- of uitschakelen voor instructies voor het globaal of selectief inschakelen en uitschakelen van SMTP AUTH.|
-|EWS-connectiviteit met postvak|Uitgeschakeld|Uitgeschakeld|Outlook gebruikt Exchange Web Services voor gratis/bezet, out-of-office-instellingen en het delen van agenda's. Als u EWS niet globaal kunt uitschakelen, hebt u de volgende opties: <ul><li>Gebruik [verificatiebeleid om](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) te voorkomen dat EWS basisverificatie gebruikt als uw clients moderne verificatie (moderne auth) ondersteunen.</li><li>Gebruik [clienttoegangsregels om](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) EWS te beperken tot specifieke gebruikers of bron-IP-adressen.</li><li>Beheer EWS-toegang tot specifieke toepassingen globaal of per gebruiker. Zie Toegang tot [EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)voor instructies.</li></ul> <p> In [de invoegvoegapp](enable-the-report-message-add-in.md) Rapportbericht en de [phishing-invoegapp](enable-the-report-phish-add-in.md) Rapport wordt STANDAARD REST gebruikt in ondersteunde omgevingen, maar wordt teruggeplaatst naar EWS als REST niet beschikbaar is. De ondersteunde omgevingen die REST gebruiken zijn:<ul><li>Exchange Online</li><li>Exchange 2019 of Exchange 2016</li><li>Huidige Outlook voor Windows via een Microsoft 365-abonnement of een een-time aankoop van Outlook 2019.</li><li>Huidige Outlook voor Mac via een Microsoft 365-abonnement of een een-time aankoop van Outlook voor Mac 2016 of hoger.</li><li>Outlook voor iOS en Android</li><li>De webversie van Outlook</li></ul>|
+|Geverifieerde SMTP-inzending|Uitgeschakeld|Uitgeschakeld|Geverifieerde SMTP-clientinzending (ook wel SMTP-clientinzending of SMTP AUTH genoemd) is vereist voor POP3- en IMAP4-clients en -toepassingen en -apparaten die e-mail genereren en verzenden. <p> Zie Geverifieerde SMTP-inzending voor klanten in- of uitschakelen voor instructies om SMTP AUTH globaal of [selectief in](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)te schakelen in Exchange Online.|
+|EWS-connectiviteit met postvak|Uitgeschakeld|Uitgeschakeld|Outlook gebruikt Exchange Web Services voor gratis/bezet, out-of-office-instellingen en het delen van agenda's. Als u EWS niet globaal kunt uitschakelen, hebt u de volgende opties: <ul><li>Gebruik [verificatiebeleid om](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) te voorkomen dat EWS basisverificatie gebruikt als uw clients moderne verificatie (moderne auth) ondersteunen.</li><li>Gebruik [clienttoegangsregels om](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) EWS te beperken tot specifieke gebruikers of bron-IP-adressen.</li><li>Beheer EWS-toegang tot specifieke toepassingen globaal of per gebruiker. Zie Toegang tot [EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)</li></ul> <p> In [de invoegvoegapp](enable-the-report-message-add-in.md) Rapportbericht en de [phishing-invoegapp](enable-the-report-phish-add-in.md) Rapport wordt STANDAARD REST gebruikt in ondersteunde omgevingen, maar wordt teruggeplaatst naar EWS als REST niet beschikbaar is. De ondersteunde omgevingen die REST gebruiken zijn:<ul><li>Exchange Online</li><li>Exchange 2019 of Exchange 2016</li><li>Huidige Outlook voor Windows van een Microsoft 365 abonnement of een een-Outlook 2019.</li><li>Huidige Outlook voor Mac van een Microsoft 365 of een een keer kopen Outlook voor Mac 2016 of hoger.</li><li>Outlook voor iOS en Android</li><li>Webversie van Outlook</li></ul>|
 |[PowerShell-connectiviteit](/powershell/exchange/disable-access-to-exchange-online-powershell)|Uitgeschakeld|Uitgeschakeld|Beschikbaar voor postvakgebruikers of e-mailgebruikers (gebruikersobjecten die worden geretourneerd door de [cmdlet Get-User).](/powershell/module/exchange/get-user)|
-|Spoof [intelligence gebruiken om](learn-about-spoof-intelligence.md) afzenders toe te voegen aan uw lijst met toegestane gegevens|Ja|Ja||
+|Gebruik het [inzicht in spoof intelligence en](learn-about-spoof-intelligence.md) de lijst Tenant [Allow/Block om](tenant-allow-block-list.md)afzenders toe te voegen aan uw lijst met toegestane gegevens|Ja|Ja||
 |[Directory-based Edge Blocking (DBEB)](/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Ingeschakeld|Ingeschakeld|Domeintype = Gezaghebbend|
 |[Meervoudige verificatie instellen voor alle beheerdersaccounts](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)|Ingeschakeld|Ingeschakeld||
 |
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-U kunt algemene problemen en trends oplossen met behulp van de rapporten in het beheercentrum. Zoek specifieke gegevens over een bericht met behulp van het hulpmiddel Bericht traceren. Meer informatie over rapportage bij [Reporting and message trace in Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Meer informatie over het hulpprogramma bericht traceren bij [Bericht traceren in het & Compliancecentrum](message-trace-scc.md).
+U kunt algemene problemen en trends oplossen met behulp van de rapporten in het beheercentrum. Zoek specifieke gegevens over een bericht met behulp van het hulpmiddel Bericht traceren. Meer informatie over rapporteren bij [Rapportage en bericht traceren in Exchange Online Protection.](reporting-and-message-trace-in-exchange-online-protection.md) Meer informatie over het hulpprogramma bericht traceren bij [Bericht traceren in het & Compliancecentrum](message-trace-scc.md).
 
 ## <a name="report-false-positives-and-false-negatives-to-microsoft"></a>Fout-positieven en onwaar negatieven rapporteren aan Microsoft
 
@@ -83,4 +83,4 @@ Wanneer u een nieuwe regel implementeert voor de productie, selecteert u eerst e
 
 Wanneer u nieuwe regels implementeert, kunt u overwegen om de extra actie van **Incidentrapport** genereren toe te voegen om de regel in actie te controleren.
 
-In hybride omgevingen waarin uw organisatie zowel on-premises Exchange als Exchange Online omvat, moet u rekening houden met de voorwaarden die u gebruikt in regels voor e-mailstroom. Als u wilt dat de regels van toepassing zijn op de hele organisatie, moet u voorwaarden gebruiken die beschikbaar zijn in zowel on-premises Exchange als in Exchange Online. Hoewel de meeste voorwaarden beschikbaar zijn in beide omgevingen, zijn er enkele die alleen beschikbaar zijn in de ene of de andere omgeving. Zie [E-mailstroomregels (transportregels) in Exchange Online voor meer informatie.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
+In hybride omgevingen waarin uw organisatie zowel on-premises Exchange als Exchange Online, moet u rekening houden met de voorwaarden die u gebruikt in regels voor e-mailstroom. Als u wilt dat de regels van toepassing zijn op de hele organisatie, moet u voorwaarden gebruiken die beschikbaar zijn in zowel on-premises Exchange als in Exchange Online. Hoewel de meeste voorwaarden beschikbaar zijn in beide omgevingen, zijn er enkele die alleen beschikbaar zijn in de ene of de andere omgeving. Meer informatie over [E-mailstroomregels (transportregels) in Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)

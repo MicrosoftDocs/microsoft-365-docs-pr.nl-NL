@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 'Verwijder de licentie uit een gedeeld postvak om het toe te wijzen aan een andere gebruiker. '
-ms.openlocfilehash: 2d0e6e6b1d6222bea80265bf6cc008e21ac3239c
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d552cfb77ff0ab2853939c6cb25fd4737f8c17d3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332652"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537581"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Een licentie uit een gedeeld postvak verwijderen
 
@@ -47,6 +47,20 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
+
    > [!NOTE]
    > U moet de licentie verwijderen van de pagina Actieve gebruikers. U kunt de licentie niet verwijderen van de pagina Gedeeld postvak, omdat licenties gebruikersinstellingen zijn.
   
@@ -59,46 +73,6 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 5. Wanneer u terugkeert naar de pagina **Actieve gebruikers,** is de status van het gedeelde postvak **niet-gelicenseerd.**
 
 6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement.](../../commerce/licenses/buy-licenses.md)
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
- 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
-
-    > [!NOTE]
-    > U moet de licentie verwijderen van de pagina Actieve gebruikers. U kunt de licentie niet verwijderen van de pagina Gedeeld postvak, omdat licenties gebruikersinstellingen zijn.
-
-2. Selecteer het gedeelde postvak en selecteer **vervolgens Bewerken** naast **Productlicenties.**
-
-3. Ga naar **de pagina Productlicenties** en stel de schakelknop in **op Uit** voor de licentie die u wilt verwijderen.
-
-4. Selecteer **Opslaan**.
-
-5. Wanneer u terugkeert naar de pagina **Actieve gebruikers,** is de status van het gedeelde postvak **niet-gelicenseerd.**
-
-6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement.](../../commerce/licenses/buy-licenses.md)
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
- 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
-
-    > [!NOTE]
-    > U moet de licentie verwijderen van de pagina Actieve gebruikers. U kunt de licentie niet verwijderen van de pagina Gedeeld postvak, omdat licenties gebruikersinstellingen zijn.
-
-2. Selecteer het gedeelde postvak en selecteer **vervolgens Bewerken** naast **Productlicenties.**
-
-3. Ga naar **de pagina Productlicenties** en stel de schakelknop in **op Uit** voor de licentie die u wilt verwijderen.
-
-4. Selecteer **Opslaan**.
-
-5. Wanneer u terugkeert naar de pagina **Actieve gebruikers,** is de status van het gedeelde postvak **niet-gelicenseerd.**
-
-6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement.](../../commerce/licenses/buy-licenses.md)
-
-::: moniker-end
 
 ## <a name="related-articles"></a>Verwante artikelen
 

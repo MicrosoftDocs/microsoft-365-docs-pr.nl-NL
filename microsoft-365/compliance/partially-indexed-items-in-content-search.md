@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: Meer informatie over niet-geïndexeerde items in Exchange en SharePoint die u kunt opnemen in een eDiscovery-zoekopdracht die u in het Microsoft 365 compliancecentrum.
-ms.openlocfilehash: 40995aa403686caadd5e35b6fa9c6ca20ee017ee
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: e1730959cd3177fe1f7bce1f0315c871b5a57598
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "52162718"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537653"
 ---
 # <a name="partially-indexed-items-in-ediscovery"></a>Gedeeltelijk geïndexeerde items in eDiscovery
 
@@ -77,7 +77,7 @@ Mogelijk moet uw organisatie aanvullende analyses op gedeeltelijk geïndexeerde 
   
 Houd rekening met de volgende gegevens over gedeeltelijk geïndexeerde items:
   
-- Wanneer u een eDiscovery-zoekopdracht uitvoert, worden het totale aantal en de grootte van gedeeltelijk geïndexeerde Exchange-items (geretourneerd door de zoekquery) weergegeven in de zoekstatistieken op de flyoutpagina en aangeduid als niet-geïndexeerde **items.** Statistieken over gedeeltelijk geïndexeerde items die op de flyoutpagina worden weergegeven, bevatten geen gedeeltelijk geïndexeerde items in SharePoint of OneDrive.
+- Wanneer u een eDiscovery-zoekopdracht uitvoert, worden het totale aantal en de grootte van gedeeltelijk geïndexeerde Exchange-items (geretourneerd door de zoekquery) weergegeven in de zoekstatistieken op de flyoutpagina en aangeduid als niet-geïndexeerde **items.** Statistieken over gedeeltelijk geïndexeerde items die op de flyoutpagina worden weergegeven, bevatten geen gedeeltelijk geïndexeerde items in SharePoint sites of OneDrive accounts.
 
 - Als de zoekopdracht waaruit u resultaten exporteert een zoekopdracht was naar specifieke inhoudslocaties of alle inhoudslocaties in uw organisatie, worden alleen de niet-geïndexeerde items van inhoudslocaties die items bevatten die voldoen aan de zoekcriteria, geëxporteerd. Met andere woorden: als er geen zoekresultaten worden gevonden in een postvak of site, worden niet-geïndexeerde items in dat postvak of de site niet geëxporteerd. De reden hiervoor is dat het exporteren van gedeeltelijk geïndexeerde items vanuit een groot aantal locaties in de organisatie de kans op exportfouten kan vergroten en de tijd kan vergroten om de zoekresultaten te exporteren en te downloaden.
 
@@ -87,22 +87,16 @@ Houd rekening met de volgende gegevens over gedeeltelijk geïndexeerde items:
 
 - Gedeeltelijk geïndexeerde items kunnen niet worden bekeken. U moet de zoekresultaten exporteren om gedeeltelijk geïndexeerde items weer te geven die door de zoekopdracht zijn geretourneerd.
 
-Wanneer u zoekresultaten exporteert en gedeeltelijk geïndexeerde items in de export opneemt, worden gedeeltelijk geïndexeerde items uit SharePoint-items geëxporteerd naar een map met de naam **Niet-bewerkbaar.** Wanneer u gedeeltelijk geïndexeerde Exchange-items exporteert, worden ze anders geëxporteerd, afhankelijk van of de gedeeltelijk geïndexeerde items overeenkomen met de zoekquery en de configuratie van de exportinstellingen. 
+   Wanneer u zoekresultaten exporteert en gedeeltelijk geïndexeerde items in de export opneemt, worden gedeeltelijk geïndexeerde items uit SharePoint-items geëxporteerd naar een map met de naam **Niet-bewerkbaar.** Wanneer u gedeeltelijk geïndexeerde Exchange-items exporteert, worden ze anders geëxporteerd, afhankelijk van of de gedeeltelijk geïndexeerde items overeenkomen met de zoekquery en de configuratie van de exportinstellingen. 
 
-In de volgende tabel ziet u het exportgedrag van geïndexeerde en gedeeltelijk geïndexeerde items en of elke items zijn opgenomen voor de verschillende exportconfiguratie-instellingen.
+- In de volgende tabel ziet u het exportgedrag van geïndexeerde en gedeeltelijk geïndexeerde items en of elke items zijn opgenomen voor de verschillende exportconfiguratie-instellingen.
 
-|**Configuratie exporteren**|**Geïndexeerde items die overeenkomen met de zoekquery**|**Gedeeltelijk geïndexeerde items die overeenkomen met de zoekquery**|**Gedeeltelijk geïndexeerde items die niet overeenkomen met zoekquery**|
-|:-----|:-----|:-----|:-----|
-|Alleen geïndexeerde items exporteren  <br/> |Geëxporteerd<br/> |Geëxporteerd (inbegrepen bij de geïndexeerde items die worden geëxporteerd)<br/>  |Niet geëxporteerd <br/>|
-|Alleen gedeeltelijk geïndexeerde items exporteren  <br/> |Niet geëxporteerd  <br/> |Geëxporteerd (als gedeeltelijk geïndexeerde items)<br/> |Geëxporteerd (als gedeeltelijk geïndexeerde items)|
-|Geïndexeerde en gedeeltelijk geïndexeerde items exporteren  <br/> |Geëxporteerd<br/> |Geëxporteerd (inbegrepen bij de geïndexeerde items die worden geëxporteerd)<br/>  |Geëxporteerd (als gedeeltelijk geïndexeerde items)<br/>|
-||||
-
-## <a name="partially-indexed-items-excluded-from-the-search-results"></a>Gedeeltelijk geïndexeerde items die zijn uitgesloten van de zoekresultaten
-
-Als een item gedeeltelijk is geïndexeerd, maar niet voldoet aan de zoekquerycriteria, wordt het item niet opgenomen als een gedeeltelijk geïndexeerd item in de zoekresultaten. Met andere woorden, het item is uitgesloten van de zoekresultaten. Als u ervoor kiest om gedeeltelijk geïndexeerde items op te nemen wanneer u de resultaten van een zoekopdracht exporteert, worden gedeeltelijk geïndexeerde items die zijn uitgesloten van de zoekresultaten, niet geëxporteerd.
-  
-Een uitzondering op deze regel is wanneer u een op query gebaseerde wachtpositie maakt die is gekoppeld aan een eDiscovery-zaak. Als u een op query gebaseerde eDiscovery-wachtstand maakt, worden alle gedeeltelijk geïndexeerde items in de wachtstand geplaatst. Dit geldt ook voor gedeeltelijk geïndexeerde items die niet overeenkomen met de zoekquerycriteria. Zie Een eDiscovery-hold maken voor meer informatie over het maken van op query's gebaseerde [eDiscovery-inhoud.](create-ediscovery-holds.md)
+  |**Configuratie exporteren**|**Geïndexeerde items die overeenkomen met de zoekquery**|**Gedeeltelijk geïndexeerde items die overeenkomen met de zoekquery**|**Gedeeltelijk geïndexeerde items die niet overeenkomen met zoekquery**|
+  |:-----|:-----|:-----|:-----|
+  |Alleen geïndexeerde items exporteren  <br/> |Geëxporteerd<br/> |Geëxporteerd (inbegrepen bij de geïndexeerde items die worden geëxporteerd)<br/>  |Niet geëxporteerd <br/>|
+  |Alleen gedeeltelijk geïndexeerde items exporteren  <br/> |Niet geëxporteerd  <br/> |Geëxporteerd (als gedeeltelijk geïndexeerde items)<br/> |Geëxporteerd (als gedeeltelijk geïndexeerde items)|
+  |Geïndexeerde en gedeeltelijk geïndexeerde items exporteren  <br/> |Geëxporteerd<br/> |Geëxporteerd (inbegrepen bij de geïndexeerde items die worden geëxporteerd)<br/>  |Geëxporteerd (als gedeeltelijk geïndexeerde items)<br/>|
+  ||||
   
 ## <a name="indexing-limits-for-messages"></a>Indexeringslimieten voor berichten
 
@@ -122,12 +116,13 @@ Zie Zoeklimieten voor SharePoint Online voor een lijst met indexeringslimieten v
 |Maximumnotatietokens  <br/> |2 miljoen  <br/> |Wanneer een e-mailbericht wordt geïndexeerd, wordt elk woord geannoteerd met verschillende verwerkingsinstructies die aangeven hoe dat woord moet worden geïndexeerd. Elke set verwerkingsinstructies wordt een aantekeningen token genoemd. Als u de kwaliteit van de service in Office 365 wilt behouden, is er een limiet van 2 miljoen aantekeningentokens voor een e-mailbericht.  <br/> |
 |Maximale lichaamsgrootte in index  <br/> |67 miljoen tekens  <br/> |Het totale aantal tekens in de hoofdbeslag van een e-mailbericht en alle bijlagen. Wanneer een e-mailbericht wordt geïndexeerd, wordt alle tekst in de hoofdtekst van het bericht en in alle bijlagen samenvoegd tot één tekenreeks. De maximale grootte van deze tekenreeks die wordt geïndexeerd, is 67 miljoen tekens.  <br/> |
 |Maximale unieke tokens in de body  <br/> |1 miljoen  <br/> |Zoals eerder is uitgelegd, zijn tokens het resultaat van het extraheren van tekst uit inhoud, het verwijderen van interpunctie en spaties en het vervolgens verdelen in woorden (tokens genoemd) die zijn opgeslagen in de index. De woordgroep bevat  `"cat, mouse, bird, dog, dog"` bijvoorbeeld 5 tokens. Maar slechts 4 daarvan zijn unieke tokens. Er is een limiet van 1 miljoen unieke tokens per e-mailbericht, waardoor de index niet te groot wordt met willekeurige tokens.  <br/> |
+||||
 
 ## <a name="more-information-about-partially-indexed-items"></a>Meer informatie over gedeeltelijk geïndexeerde items
 
 - Zoals eerder vermeld, omdat de eigenschappen van berichten en documenten en de metagegevens worden geïndexeerd, kan een trefwoordzoek resultaten opleveren als dat trefwoord wordt weergegeven in de geïndexeerde metagegevens. Hetzelfde trefwoord kan echter niet hetzelfde item retourneren als het trefwoord alleen wordt weergegeven in de inhoud van een item met een niet-ondersteund bestandstype. In dit geval wordt het item geretourneerd als een gedeeltelijk geïndexeerd item.
 
-- Als een gedeeltelijk geïndexeerd item in de zoekresultaten wordt opgenomen omdat het voldoet aan de zoekquerycriteria (en niet is uitgesloten), wordt het niet opgenomen als een gedeeltelijk geïndexeerd item in de geschatte zoekstatistieken. Bovendien wordt deze niet opgenomen in gedeeltelijk geïndexeerde items wanneer u zoekresultaten exporteert.
+- Als een gedeeltelijk geïndexeerd item in de zoekresultaten wordt opgenomen omdat het voldoet aan de zoekquerycriteria, wordt het niet opgenomen als een gedeeltelijk geïndexeerd item in de geschatte zoekstatistieken. Bovendien wordt deze niet opgenomen in gedeeltelijk geïndexeerde items wanneer u zoekresultaten exporteert.
 
 - Hoewel een bestandstype wordt ondersteund voor indexering en geïndexeerd, kunnen er indexerings- of zoekfouten zijn die ervoor zorgen dat een bestand wordt geretourneerd als een gedeeltelijk geïndexeerd item. Het zoeken naar een zeer groot Excel bestand kan bijvoorbeeld gedeeltelijk succesvol zijn (omdat de eerste 4 MB worden geïndexeerd), maar mislukt omdat de bestandsgroottelimiet wordt overschreden. In dit geval is het mogelijk dat hetzelfde bestand wordt geretourneerd met de zoekresultaten en als een gedeeltelijk geïndexeerd item.
 
@@ -136,6 +131,8 @@ Zie Zoeklimieten voor SharePoint Online voor een lijst met indexeringslimieten v
 - E-mailberichten die zijn versleuteld met S/MIME, worden gedeeltelijk geïndexeerd. Dit geldt ook voor versleutelde berichten met of zonder bestandsbijlagen.
 
 - E-mailberichten die Azure Rights Management worden geïndexeerd en worden opgenomen in de zoekresultaten als ze overeenkomen met de zoekquery. Met rechten beveiligde e-mailberichten worden ontsleuteld en kunnen worden bekeken en geëxporteerd. Voor deze functionaliteit moet u de rol RMS Decrypt toegewezen krijgen, die standaard is toegewezen aan de rollengroep eDiscover Manager.
+
+- Als u een op query gebaseerde wachtstand maakt die is gekoppeld aan een eDiscovery-zaak, worden alle gedeeltelijk geïndexeerde items in de wachtstand geplaatst. Dit geldt ook voor gedeeltelijk geïndexeerde items die niet overeenkomen met de zoekquerycriteria voor de wachtstand. Zie Een eDiscovery-hold maken voor meer informatie over het maken van op query's gebaseerde [eDiscovery-inhoud.](create-ediscovery-holds.md)
 
 ## <a name="see-also"></a>Zie ook
 

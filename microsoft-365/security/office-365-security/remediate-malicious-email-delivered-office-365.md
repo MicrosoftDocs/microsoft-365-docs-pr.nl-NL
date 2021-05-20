@@ -1,5 +1,5 @@
 ---
-title: Schadelijke e-mail herstellen die is bezorgd in Office 365
+title: Herstel schadelijke e-mail die is bezorgd in Office 365
 author: msfttracyp
 ms.author: tracyp
 manager: dansimp
@@ -15,24 +15,24 @@ appliesto:
 - Microsoft 365 Defender
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 202ebc8b79368c8d41fd3727b67359ddcb8a08fa
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: a59b24cd29ab8bf3b9b08c7818813a7ab89f7ce2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204721"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537881"
 ---
-# <a name="remediate-malicious-email-delivered-in-office-365"></a>Schadelijke e-mail herstellen die is bezorgd in Office 365
+# <a name="remediate-malicious-email-delivered-in-office-365"></a>Herstel schadelijke e-mail die is bezorgd in Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 
-Herstel betekent een voorgeschreven actie ondernemen tegen een bedreiging. Schadelijke e-mail die naar uw organisatie wordt verzonden, kan worden opgeruimd door het systeem, via zap (Zero Hour Auto Purge) of door beveiligingsteams door middel van herstelacties zoals verplaatsen naar *Postvak IN,* naar ongewenste e-mail *gaan,* naar verwijderde *items* gaan, soft *delete* of *hard delete.* Met Microsoft Defender voor Office 365 P2/E5 kunnen beveiligingsteams bedreigingen in e-mail- en samenwerkingsfunctionaliteit corrigeren via handmatig en geautomatiseerd onderzoek.
+Herstel betekent een voorgeschreven actie ondernemen tegen een bedreiging. Schadelijke e-mail die naar uw organisatie wordt verzonden, kan worden opgeruimd door het systeem, via zap (Zero Hour Auto Purge) of door beveiligingsteams door middel van herstelacties zoals verplaatsen naar *Postvak IN,* naar ongewenste e-mail *gaan,* naar verwijderde *items* gaan, soft *delete* of *hard delete.* Met Microsoft Defender Office 365 P2/E5 kunnen beveiligingsteams bedreigingen in e-mail- en samenwerkingsfunctionaliteit corrigeren via handmatig en geautomatiseerd onderzoek.
 
 > [!NOTE]
-> Als u schadelijke e-mail wilt herstellen, hebben beveiligingsteams de zoek- en *zuiverrol* nodig die aan hen is toegewezen. Roltoewijzing wordt uitgevoerd via machtigingen in het beveiligings- en compliancecentrum.
+> Als u schadelijke e-mail wilt herstellen, hebben beveiligingsteams de zoek- en *zuiverrol* nodig die aan hen is toegewezen. Roltoewijzing wordt uitgevoerd [via machtigingen in het Beveiligings- & Compliancecentrum.](permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="what-you-need-to-know-before-you-begin"></a>Wat u moet weten voordat u begint
 
@@ -43,7 +43,7 @@ Beheerders kunnen vereiste actie ondernemen voor e-mailberichten, maar  als ze d
 *Handmatig zoeken* vindt plaats wanneer beveiligingsteams bedreigingen handmatig identificeren met behulp van de zoek- en filtermogelijkheden in Threat Explorer. Handmatige e-mailsanering kan worden geactiveerd via een e-mailweergave *(Malware,* *Phish* of *Alle* e-mail) nadat u een set e-mailberichten hebt gevonden die moeten worden gesaneerd.
 
 > [!div class="mx-imgBorder"]
-> [![Handmatig zoeken in Office 365 Threat Explorer op datum.](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
+> [![Handmatig opzoeken in Office 365 Threat Explorer op datum.](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
 
 Beveiligingsteams kunnen Threat Explorer op verschillende manieren gebruiken om e-mailberichten te selecteren:
 
@@ -81,7 +81,7 @@ Open een herstelitem om details ervan weer te geven, zoals de naam, de aanmaakda
   - **Actie:** E-mailberichten in de volgende cloudpostvaklocaties kunnen worden gebruikt en verplaatst:
     - Postvak IN
     - Ongewenste e-mail
-    - Verwijderde map
+    - Map verwijderd
     - Map met soft-deleted
 
       > [!NOTE]
@@ -104,7 +104,7 @@ Open een herstelitem om details ervan weer te geven, zoals de naam, de aanmaakda
   > [!NOTE]
   > Voor de beste resultaten moet herstel worden uitgevoerd in batches van 50.000 of minder.
 
-  Alleen herstelbare e-mailberichten worden tijdens het herstel gebruikt. Niet-herstelbare e-mailberichten kunnen niet worden gesaneerd door het Office 365-e-mailsysteem, omdat ze niet worden opgeslagen in cloudpostvakken.
+  Alleen herstelbare e-mailberichten worden tijdens het herstel gebruikt. Niet-herstelbare e-mailberichten kunnen niet worden opgelost door het Office 365 e-mailsysteem, omdat ze niet worden opgeslagen in cloudpostvakken.
 
   Beheerders kunnen indien nodig acties uitvoeren op e-mailberichten in quarantaine, maar deze e-mailberichten verlopen buiten quarantaine als ze niet handmatig worden verwijderd. E-mailberichten die in quarantaine zijn geplaatst vanwege schadelijke inhoud, zijn niet toegankelijk voor gebruikers, dus beveiligingspersoneel hoeft geen actie te ondernemen om bedreigingen in quarantaine te verwijderen. Als de e-mailberichten on-premises of extern zijn, kan er contact met de gebruiker worden opgenomen om de verdachte e-mail aan te pakken. Of de beheerders kunnen afzonderlijke e-mailserver-/beveiligingshulpmiddelen gebruiken om ze te verwijderen. Deze e-mailberichten kunnen worden geïdentificeerd door de bezorgingslocatie *= extern on-prem-filter* toe te passen in Threat Explorer. Voor mislukte of verwijderde e-mail of e-mail die niet toegankelijk is voor gebruikers, is er geen e-mail die u kunt beperken, omdat deze e-mailberichten het postvak niet bereiken.
 

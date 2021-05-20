@@ -1,5 +1,5 @@
 ---
-title: Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365-beheercentrum
+title: Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365 beheercentrum
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -20,27 +20,27 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Informatie over het maken, bewerken of verwijderen van een beveiligingsgroep.
-ms.openlocfilehash: 03e391727f9a61b1fc8e819e92d5a119017c38e0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 8f76b5fa803ea43e53e89cf6479eb7572a2857c2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579336"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537593"
 ---
-# <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365-beheercentrum
+# <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365 beheercentrum
 
-Op de pagina Microsoft 365 **Groepen** kunt u groepen gebruikersaccounts maken die u kunt gebruiken om dezelfde machtigingen toe te wijzen in SharePoint Online en CRM Online. Een beheerder kan bijvoorbeeld een beveiligingsgroep maken om een bepaalde groep personen toegang te verlenen tot een SharePoint-site. Alleen globale beheerders en beheerders van gebruikersbeheer hebben machtigingen voor het maken, bewerken of verwijderen van beveiligingsgroepen. Zie Beheerdersrollen toewijzen voor meer informatie over [beheerdersrollen.](../add-users/assign-admin-roles.md) 
+Op de Microsoft 365 **groepen** kunt u groepen gebruikersaccounts maken die u kunt gebruiken om dezelfde machtigingen toe te wijzen in SharePoint Online en CRM Online. Een beheerder kan bijvoorbeeld een beveiligingsgroep maken om een bepaalde groep personen toegang te verlenen tot een SharePoint site. Alleen globale beheerders en beheerders van gebruikersbeheer hebben machtigingen voor het maken, bewerken of verwijderen van beveiligingsgroepen. Zie Beheerdersrollen toewijzen voor meer informatie over [beheerdersrollen.](../add-users/assign-admin-roles.md) 
   
 Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchange-online-and-sharepoint-online) die u kunt gebruiken om e-mail te verzenden of machtigingen toe te wijzen aan een groep gebruikers, en [Groepen in Exchange Online en SharePoint Online](#groups-in-exchange-online-and-sharepoint-online) waarmee u gebruikers rechten en toegang kunt geven tot sites en siteverzamelingen. 
   
 > [!IMPORTANT]
->  Bent u van plan sitepostvakken te gebruiken? Alle gebruikers die zijn toegevoegd aan een SharePoint-site via een beveiligingsgroep in plaats van individueel, kunnen het sitepostvak alleen gebruiken vanuit SharePoint. Deze gebruikers hebben geen toegang tot het sitepostvak vanuit Outlook. Zie Microsoft [365 Groepen gebruiken](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b)in plaats van Teampostvakken voor meer informatie. 
+>  Bent u van plan sitepostvakken te gebruiken? Alle gebruikers die zijn toegevoegd aan een SharePoint-site via een beveiligingsgroep in plaats van individueel, kunnen het sitepostvak alleen gebruiken vanuit SharePoint. Deze gebruikers hebben geen toegang tot het sitepostvak vanuit Outlook. Zie Groepen gebruiken Microsoft 365 in plaats van [teampostvakken](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b)voor meer informatie. 
   
 ## <a name="manage-security-groups-in-the-admin-center"></a>Beveiligingsgroepen beheren in het beheercentrum
 
 ### <a name="add-a-security-group"></a>Een beveiligingsgroep toevoegen
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a>
+1. Ga in Microsoft 365 beheercentrum naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a>
   
 2. Selecteer op **de** pagina Groepen de optie **Een groep toevoegen.**
     
@@ -49,8 +49,6 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
 4. Volg de stappen om het maken van de groep te voltooien. 
  
 ### <a name="add-members-to-a-security-group"></a>Leden toevoegen aan een beveiligingsgroep
-
-::: moniker range="o365-worldwide"
     
 1. Selecteer de naam van de beveiligingsgroep op **de** pagina Groepen en selecteer op **het** tabblad Leden de optie Alle leden weergeven **en leden beheren.** 
     
@@ -58,65 +56,13 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
     
     Als u leden wilt verwijderen, selecteert u de X naast de naam. 
   
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Selecteer de naam van de beveiligingsgroep op de pagina **Groepen** en selecteer **vervolgens Bewerken** naast **Leden.** 
-    
-2. Selecteer in het groepsdeelvenster Leden **toevoegen** en kies de persoon in de lijst  of typ de naam van de persoon die u wilt toevoegen in het vak Zoeken en selecteer **vervolgens Opslaan.**
-    
-    Als u leden wilt verwijderen, selecteert u de X naast de naam. 
-  
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-
-1. Selecteer de naam van de beveiligingsgroep op de pagina **Groepen** en selecteer **vervolgens Bewerken** naast **Leden.** 
-    
-2. Selecteer in het groepsdeelvenster Leden **toevoegen** en kies de persoon in de lijst  of typ de naam van de persoon die u wilt toevoegen in het vak Zoeken en selecteer **vervolgens Opslaan.**
-    
-    Als u leden wilt verwijderen, selecteert u de X naast de naam.
-
-::: moniker-end
-
 ### <a name="edit-a-security-group"></a>Een beveiligingsgroep bewerken
-
-::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum  naar de pagina \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepen groepen.</a>
   
 2. Selecteer op **de** pagina Groepen de naam van de groep. 
     
 3. Selecteer in het instellingenvenster **het** tabblad Algemeen of het tabblad **Leden** om groepsdetails of leden te bewerken.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">het beheercentrum</a>naar de pagina  \> **Groepen groepen.**  
-  
-2. Selecteer op **de** pagina Groepen de naam van de groep. 
-    
-3. Selecteer bewerken naast het tabblad Naam  of  Leden in het deelvenster Beveiligingsgroep om groepsdetails of leden te bewerken. 
-    
-4. Nadat u wijzigingen hebt  aangebracht, selecteert u \> **Sluiten opslaan.**
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">het beheercentrum</a>naar de pagina  \> **Groepen groepen.**
-  
-2. Selecteer op **de** pagina Groepen de naam van de groep. 
-    
-3. Selecteer bewerken naast het tabblad Naam  of  Leden in het deelvenster Beveiligingsgroep om groepsdetails of leden te bewerken. 
-    
-4. Nadat u wijzigingen hebt  aangebracht, selecteert u > **Sluiten opslaan.**
-
-::: moniker-end
-
 
 ### <a name="delete-a-security-group"></a>Een beveiligingsgroep verwijderen
 
@@ -130,7 +76,7 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
     
 ## <a name="groups-in-exchange-online-and-sharepoint-online"></a>Groepen in Exchange Online en SharePoint Online
 
-Als u groepen gebruikers wilt maken, zodat u tegelijkertijd e-mail naar hen kunt verzenden, kunt  u dat doen in het Exchange-beheercentrum door naar \>  \> **Exchange-geadresseerdengroepen** voor beheerders te \> **gaan.** Selecteer vervolgens **Nieuw** ![ toevoegen en selecteer het type groep dat u wilt ](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png) maken: 
+Als u groepen gebruikers wilt maken zodat u tegelijkertijd e-mail naar hen kunt verzenden, kunt u dat doen in het Exchange-beheercentrum door naar **Beheerders** Exchange Groepen geadresseerden te \>  \>  \> **gaan.** Selecteer vervolgens **Nieuw** ![ toevoegen en selecteer het type groep dat u wilt ](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png) maken: 
   
 - **Distributiegroep**: deze groep wordt gebruikt om berichten te verzenden naar een groep gebruikers. Het wordt ook wel een *distributiegroep met e-mail* of een *distributielijst genoemd.* Zie Distributiegroepen beheren voor [meer informatie.](/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
     
@@ -138,11 +84,11 @@ Als u groepen gebruikers wilt maken, zodat u tegelijkertijd e-mail naar hen kunt
     
 - **Dynamische distributiegroep**: dit is een type distributiegroep waarbij de lijst met geadresseerden telkens opnieuw berekend wanneer u een bericht verzendt op basis van filters en voorwaarden die u opgeeft. Zie Dynamische distributiegroepen beheren voor [meer informatie.](/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups)
     
-Nadat u distributiegroepen en beveiligingsgroepen met e-mail hebt gemaakt in het Exchange-beheercentrum, worden hun namen en gebruikerslijsten weergegeven op de **pagina Beveiligingsgroepen.** U kunt deze groepen op beide locaties verwijderen, maar u kunt ze alleen bewerken in het Exchange-beheercentrum. Dynamische distributiegroepen worden niet weergegeven op de pagina **Beveiligingsgroepen.** 
+Nadat u distributiegroepen en beveiligingsgroepen met e-mail hebt gemaakt in het Exchange beheercentrum, worden hun namen en gebruikerslijsten weergegeven op de pagina **Beveiligingsgroepen.** U kunt deze groepen op beide locaties verwijderen, maar u kunt ze alleen bewerken in het Exchange-beheercentrum. Dynamische distributiegroepen worden niet weergegeven op de pagina **Beveiligingsgroepen.** 
   
- SharePoint-groepen worden automatisch gemaakt wanneer u een siteverzameling maakt. De standaardgroepen gebruiken de standaardmachtigingsniveaus in SharePoint (soms ook wel SharePoint-rollen genaamd) om gebruikers rechten en toegang te verlenen. Zie Standaard [SharePoint-groepen in SharePoint Online](/sharepoint/default-sharepoint-groups)voor meer informatie.
+ SharePoint-groepen worden automatisch gemaakt wanneer u een siteverzameling maakt. De standaardgroepen gebruiken de standaardmachtigingsniveaus in SharePoint (soms ook wel SharePoint-rollen genaamd) om gebruikers rechten en toegang te verlenen. Zie Standaardgroepen in [SharePoint online SharePoint voor meer informatie.](/sharepoint/default-sharepoint-groups)
   
-## <a name="how-is-a-security-group-different-from-security-groups-i-create-in-sharepoint"></a>Hoe verschilt een beveiligingsgroep van beveiligingsgroepen die ik in SharePoint maak?
+## <a name="how-is-a-security-group-different-from-security-groups-i-create-in-sharepoint"></a>Hoe verschilt een beveiligingsgroep van beveiligingsgroepen die ik maak in SharePoint?
 
 Beveiligingsgroepen kunnen worden gebruikt met SharePoint, Exchange, MDM, Windows en meer. Een beveiligingsgroep die u in SharePoint maakt, wordt alleen erkend door die SharePoint-siteverzameling.
   
@@ -152,4 +98,4 @@ Nee, dit is slechts een extra manier waarop u de beveiliging voor uw organisatie
   
 ## <a name="can-i-send-email-to-a-security-group"></a>Kan ik e-mail verzenden naar een beveiligingsgroep?
 
-Ja. Maar als u groepen wilt gebruiken voor e-mail en samenwerking, raden we u aan in plaats daarvan een [Microsoft 365-groep te](../create-groups/create-groups.md) maken. 
+Ja. Maar als u groepen wilt gebruiken voor e-mail en samenwerking, raden we u aan in plaats daarvan een Microsoft 365 [maken.](../create-groups/create-groups.md) 

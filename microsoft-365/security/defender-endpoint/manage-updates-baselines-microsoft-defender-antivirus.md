@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/10/2021
-ms.openlocfilehash: 5b599e9d5a5c3d098033af1f1df96ee9f26025ee
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.date: 05/13/2021
+ms.openlocfilehash: 17a76b39b51293de82cf9b3e5f0e323ec3d28844
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52312010"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538037"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Updates Microsoft Defender Antivirus en basislijnen toepassen
 
@@ -83,11 +83,11 @@ Al onze updates bevatten
 - integratieverbeteringen (Cloud, Microsoft 365 Defender).
 <br/>
 <details>
-<summary> April-2021 (Platform: 4.18.2104.9 | Engine: 1.1.18100.5)</summary>
+<summary> April-2021 (Platform: 4.18.2104.14 | Engine: 1.1.18100.5)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.337.2.0**  
 &ensp;Uitgebracht: **1 april 2021**  
-&ensp;Platform: **4.18.2104.9**  
+&ensp;Platform: **4.18.2104.14**  
 &ensp;Motor: **1.1.18100.5**  
 &ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
     
@@ -594,7 +594,7 @@ Zie Microsoft Defender update voor Windows [installatieafbeeldingen](https://sup
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-| Artikel | Beschrijving  |
+| Artikel | Omschrijving  |
 |:---|:---|
 |[Microsoft Defender-update voor Windows installatieafbeeldingen van besturingssysteem](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | Controleer antimalware-updatepakketten voor installatieafbeeldingen van uw besturingssysteem (WIM- en VHD-bestanden). Ontvang Microsoft Defender Antivirus updates voor Windows 10 (Enterprise, Pro en Home editions), Windows Server 2019 en Windows Server 2016 installatieafbeeldingen.  |
 |[Beheren hoe beveiligingsupdates worden gedownload en toegepast](manage-protection-updates-microsoft-defender-antivirus.md) | Beveiligingsupdates kunnen via veel bronnen worden geleverd. |

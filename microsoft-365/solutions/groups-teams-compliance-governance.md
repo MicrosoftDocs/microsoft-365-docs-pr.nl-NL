@@ -14,13 +14,14 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: Meer informatie over complianceopties voor Microsoft 365 groepen, Teams en SharePoint samenwerking.
-ms.openlocfilehash: a9a94f0c1886ac5b60292f5f4d4b9b9d6d84380c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 236b977b22066830e1b36bc87676fd5fa2c9d3f5
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241674"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538121"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Complianceopties voor Microsoft 365 groepen, Teams en SharePoint samenwerking
 
@@ -28,14 +29,14 @@ Microsoft 365 biedt een volledige reeks hulpprogramma's om naleving te behouden 
 
 De volgende tabel bevat een beknopt overzicht van de nalevingsbesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
-|Categorie|Omschrijving|Referentiematerialen|
+|Categorie|Omschrijving|Verwijzing|
 |:-------|:----------|:--------|
 |Bewaargegevens|||
 ||Groepen e-mail en SharePoint behouden|[Meer informatie over bewaarbeleid voor SharePoint en OneDrive](../compliance/retention-policies-sharepoint.md)|
 ||Chat en berichten behouden|[Meer informatie over bewaarbeleid voor Microsoft Teams](../compliance/retention-policies-teams.md)|
 |Informatieclassificatie|||
-||Groepen en teams classificeren|[Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 groepen en SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md)|
-||Gevoelige inhoud automatisch classificeren|[Een vertrouwelijkheidslabel automatisch toepassen op inhoud](../compliance/apply-sensitivity-label-automatically.md)|
+||Groepen en teams classificeren|[Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md)|
+||Gevoelige inhoud automatisch classificeren|[Een vertrouwelijkheidslabel automatisch op inhoud toepassen](../compliance/apply-sensitivity-label-automatically.md)|
 ||Gevoelige inhoud versleutelen|[Toegang tot inhoud beperken door versleuteling toe te passen met vertrouwelijkheidslabels](../compliance/encryption-sensitivity-labels.md)|
 |Gegevensbescherming|||
 ||Voorkomen dat gevoelige informatie verloren gaat|[Meer informatie over preventie van gegevensverlies](../compliance/dlp-learn-about-dlp.md)|
@@ -74,11 +75,11 @@ Aanvullende informatiebronnen:
 
 U kunt gevoeligheidslabels gebruiken voor gasttoegang, groeps- en team privacy en toegang via niet-beheerde apparaten voor groepen en teams. Door het label toe te passen, worden deze instellingen automatisch geconfigureerd volgens de labelinstellingen.
 
-- [Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 groepen en SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md)
+- [Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites](../compliance/sensitivity-labels-teams-groups-sites.md)
 
 U kunt Microsoft 365 configureren om gevoeligheidslabels automatisch toe te passen op bestanden en e-mailberichten op basis van de criteria die u opgeeft, inclusief het detecteren van gevoelige informatietypen of patronen die overeenkomen met trainbare classificaties.
 
-- [Een vertrouwelijkheidslabel automatisch toepassen op inhoud](../compliance/apply-sensitivity-label-automatically.md)
+- [Een vertrouwelijkheidslabel automatisch op inhoud toepassen](../compliance/apply-sensitivity-label-automatically.md)
 
 U kunt gevoeligheidslabels gebruiken om bestanden te versleutelen, zodat alleen personen met machtigingen ze kunnen ontsleutelen en lezen.
 

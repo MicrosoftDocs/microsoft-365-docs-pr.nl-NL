@@ -19,24 +19,24 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Lees hoe u uw abonnement opnieuw kunt activeren wanneer het verloopt, is uitgeschakeld of geannuleerd.
+description: Beheerders kunnen een abonnement opnieuw activeren wanneer het verloopt, is uitgeschakeld of geannuleerd, of als u halverwege een abonnementsperiode hebt opgezegd.
 ms.date: 04/07/2021
-ms.openlocfilehash: 63c65e90d01bfd2c67d1d2ecfed32a4d4ff8d27a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ad408648253b3805d66b0e7b51ad90107f4eab95
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538457"
+ms.locfileid: "52572511"
 ---
 # <a name="reactivate-your-subscription"></a>Uw abonnement opnieuw activeren
 
-U kunt uw abonnement opnieuw activeren in het beheercentrum als: het abonnement is verlopen, is uitgeschakeld door Microsoft of als u het abonnement midden in een abonnementsperiode hebt geannuleerd.
+U kunt uw abonnement opnieuw activeren in het beheercentrum als: het abonnement is verlopen, is uitgeschakeld door Microsoft of als u het midden in een abonnementsperiode hebt opgezegd.
   
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder of factureringsbeheerder zijn om een abonnement opnieuw te activeren. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale of factureringsbeheerder zijn om een abonnement opnieuw te activeren. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-**Bent u geen beheerder?** Neem contact op met uw beheer om uw abonnement opnieuw te activeren.
+**Bent u geen beheerder?** Neem contact op met uw administratie om uw abonnement opnieuw te activeren.
 
 ## <a name="reactivate-a-subscription"></a>Een abonnement opnieuw activeren
 
@@ -58,13 +58,13 @@ U moet een globale beheerder of factureringsbeheerder zijn om een abonnement opn
 
 ::: moniker-end
 
-2. Zoek op **het** tabblad Producten het abonnement dat u opnieuw wilt activeren. Selecteer de drie puntjes (meer acties) en selecteer vervolgens **Dit abonnement opnieuw activeren**.\
-    Als u dit abonnement opnieuw **activeren niet ziet,** [neem dan contact op met ondersteuning.](../../business-video/get-help-support.md)
-3. Selecteer in **het deelvenster Dit abonnement opnieuw** activeren een betalingswijze in de vervolgkeuzelijst of selecteer **Betalingswijze toevoegen.**
-4. Selecteer **Opslaan**.
+2. Zoek op het tabblad **Producten** het abonnement dat u opnieuw wilt activeren. Selecteer de drie stippen (meer acties) en selecteer **vervolgens Dit abonnement opnieuw activeren**.\
+    Als u dit abonnement niet **opnieuw kunt activeren, neemt u** contact op met [ondersteuning](../../business-video/get-help-support.md).
+3. Selecteer **in** het deelvenster Dit abonnement opnieuw activeren een betalingsmethode in de vervolgkeuzelijst of selecteer **Betalingsmethode toevoegen**.
+4. Kies **Opslaan**.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Probeer of koop een abonnement Microsoft 365 voor bedrijven](../try-or-buy-microsoft-365.md) (artikel)\
+[Probeer of koop een Microsoft 365 voor bedrijven abonnement](../try-or-buy-microsoft-365.md) (artikel)\
 [Microsoft 365 voor bedrijven verlengen](renew-your-subscription.md) (artikel)\
 [Uw abonnement opzeggen](cancel-your-subscription.md) (artikel)

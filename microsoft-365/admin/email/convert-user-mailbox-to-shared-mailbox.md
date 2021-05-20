@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
-description: 'Informatie over het converteren van een privépostvak naar een gedeeld postvak dat toegankelijk is voor meerdere gebruikers. '
-ms.openlocfilehash: d5b33731908d2d555a8dd12d5d7fbbd462bd83ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 'Informatie over het converteren van een privépostvak naar een gedeeld postvak dat door meerdere personen kan worden gebruikt in plaats van door slechts één persoon. '
+ms.openlocfilehash: 73e2bad40037e1343f4e08c07ca6b26df16b1a30
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915864"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537617"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Het postvak van een gebruiker converteren naar een gedeeld postvak
 
@@ -41,7 +41,7 @@ Wanneer u het postvak van een gebruiker converteert naar een gedeeld postvak, bl
 
 - De regels zijn intact nadat het postvak is geconverteerd naar een gedeeld postvak.
 
-## <a name="use-the-exchange-admin-center-to-convert-a-mailbox"></a>Het Exchange-beheercentrum gebruiken om een postvak te converteren
+## <a name="use-the-exchange-admin-center-to-convert-a-mailbox"></a>Het beheercentrum Exchange een postvak converteren
  
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>.
 
@@ -57,7 +57,7 @@ Wanneer u het postvak van een gebruiker converteert naar een gedeeld postvak, bl
 Zie Over gedeelde postvakken en Een [](about-shared-mailboxes.md) gedeeld postvak maken voor alles wat u moet weten over [gedeelde postvakken.](create-a-shared-mailbox.md)
 
 > [!NOTE]
-> Voor gedeelde postvakken is geen aparte licentie vereist. Als u echter In-Place Archive wilt inschakelen of een licentie voor een In-Place-opslag of een geschil in een gedeeld postvak wilt inschakelen, moet u een Exchange Online Plan 1 met Exchange Online Archiving- of Exchange Online Plan 2-licentie aan het postvak toewijzen.
+> Voor gedeelde postvakken is geen aparte licentie vereist. Als u echter In-Place Archive wilt inschakelen of een In-Place Hold of Een Geschil in de wacht wilt zetten op een gedeeld postvak, moet u een Exchange Online Plan 1 met Exchange Online Archiving- of Exchange Online Plan 2-licentie aan het postvak toewijzen.
 
 
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>Het postvak van een verwijderde gebruiker converteren
@@ -66,7 +66,7 @@ Stel dat u een gebruikersaccount hebt verwijderd en nu het oude postvak van dat 
 
 1. [Het account van de gebruiker herstellen.](../add-users/restore-user.md)
 
-2. Zorg ervoor dat er een Microsoft 365-licentie aan is toegewezen.
+2. Zorg ervoor dat Microsoft 365 licentie is toegewezen.
 
 3. Het wachtwoord van de gebruiker opnieuw instellen.
     
@@ -93,23 +93,23 @@ Stel dat u een gebruikersaccount hebt verwijderd en nu het oude postvak van dat 
 
 ## <a name="convert-a-users-mailbox-in-a-hybrid-environment"></a>Het postvak van een gebruiker converteren in een hybride omgeving
 
-Zie voor meer informatie over het converteren van een gebruikerspostvak naar een gedeeld postvak in een hybride Exchange-omgeving:
+Zie voor meer informatie over het converteren van een gebruikerspostvak naar een gedeeld postvak in Exchange hybride omgeving:
 
- - [Cmdlets voor het maken of wijzigen van een extern gedeeld postvak in een on-premises Exchange-omgeving](https://support.microsoft.com/office/cmdlets-to-create-or-modify-a-remote-shared-mailbox-in-an-on-premises-exchange-environment-9e83fb59-c001-729c-a4c0-b2964c154b49)
- - [Gedeelde postvakken worden onverwacht geconverteerd naar gebruikerspostvakken nadat adreslijstsynchronisatie is uitgevoerd in een hybride Exchange-implementatie](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes)
+ - [Cmdlets voor het maken of wijzigen van een extern gedeeld postvak in een on-premises Exchange omgeving](https://support.microsoft.com/office/cmdlets-to-create-or-modify-a-remote-shared-mailbox-in-an-on-premises-exchange-environment-9e83fb59-c001-729c-a4c0-b2964c154b49)
+ - [Gedeelde postvakken worden onverwacht geconverteerd naar gebruikerspostvakken nadat adreslijstsynchronisatie is uitgevoerd in een Exchange hybride implementatie](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes)
  
 
 > [!NOTE]
 > Als u lid bent van de rollengroep Organisatiebeheer of Geadresseerdenbeheer, kunt u de Exchange Management Shell gebruiken om een gebruikerspostvak te wijzigen in een gedeeld postvak on-premises. Bijvoorbeeld `Set-Mailbox -Identity mailbox1@contoso.com -Type Shared`.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Meer over gedeelde postvakken](about-shared-mailboxes.md)
+[Gedeelde postvakken](about-shared-mailboxes.md) (artikel)
 
-[Een gedeeld postvak maken](create-a-shared-mailbox.md)
+[Een gedeeld postvak maken](create-a-shared-mailbox.md) (artikel)
 
-[Een gedeeld postvak configureren](configure-a-shared-mailbox.md)
+[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)
 
-[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md)
+[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)
 
-[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md)
+[Problemen met gedeelde postvakken oplossen](resolve-issues-with-shared-mailboxes.md) (artikel)

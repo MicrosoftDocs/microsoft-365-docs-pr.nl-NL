@@ -18,12 +18,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het gebruik van de configuratieanalyse om beveiligingsbeleid te zoeken en op te lossen dat zich onder het standaardbeveiligingsbeleid en het vooraf ingestelde beveiligingsbeleid voor strikte beveiliging kunt vinden en oplossen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 65fd67c93711dc847a25be485b4b016af55e4a31
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: fd0cf4f3194a7a8eec39f2d0c447dca2dae5948b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203996"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537929"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Configuratieanalyse voor beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
@@ -38,13 +38,13 @@ Configuratieanalyse in het Beveiligings- & Compliancecentrum biedt een centrale 
 
 De volgende typen beleid worden geanalyseerd door de configuratieanalyse:
 
-- **EOP-beleid (Exchange Online Protection)**: Dit geldt ook voor Microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder Exchange Online-postvakken:
+- **Exchange Online Protection (EOP)-beleid**: Dit geldt Microsoft 365 organisaties met Exchange Online postvakken en zelfstandige EOP-organisaties zonder Exchange Online postvakken:
 
   - [Antispambeleid.](configure-your-spam-filter-policies.md)
   - [Anti-malwarebeleid.](configure-anti-malware-policies.md)
-  - [EOP Anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings).
+  - [EOP-anti-phishingbeleid.](set-up-anti-phishing-policies.md#spoof-settings)
 
-- **Microsoft Defender voor Office 365-beleid:** Dit geldt ook voor organisaties met Microsoft 365 E5- of Defender voor Office 365-invoegabonnementen:
+- **Microsoft Defender voor Office 365** beleid: Dit geldt ook voor organisaties met Microsoft 365 E5 of Defender voor Office 365-invoegabonnementen:
 
   - Anti-phishingbeleid in Microsoft Defender voor Office 365, waaronder:
 
@@ -52,11 +52,11 @@ De volgende typen beleid worden geanalyseerd door de configuratieanalyse:
     - [Instellingen voor imitatie](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
     - [Geavanceerde phishingdrempels](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
-  - [Beleid voor veilige koppelingen](set-up-safe-links-policies.md).
+  - [Safe koppelingenbeleid](set-up-safe-links-policies.md).
 
-  - [Beleid voor veilige bijlagen.](set-up-safe-attachments-policies.md)
+  - [Safe bijlagenbeleid](set-up-safe-attachments-policies.md).
 
-De **waarden standaard** en **strikt** beleid die als basislijnen worden gebruikt, worden beschreven in aanbevolen instellingen voor EOP- en Microsoft Defender voor Office [365-beveiliging.](recommended-settings-for-eop-and-office365.md)
+De **waarden standaard** en **strikt** beleid die als basislijnen worden gebruikt, worden beschreven in aanbevolen instellingen voor EOP en Microsoft Defender voor [Office 365 beveiliging.](recommended-settings-for-eop-and-office365.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -92,15 +92,15 @@ De configuratieanalyse heeft twee hoofdtabbladen:
 
 Standaard wordt het tabblad geopend in de vergelijking met het standaardbeveiligingsprofiel. U kunt overschakelen naar de vergelijking van het beveiligingsprofiel Strikt door op Strikte aanbevelingen **weergeven te klikken.** Als u wilt teruggaan, **selecteert u Standaardaanbevelingen weergeven.**
 
-![Weergave Instellingen en aanbevelingen in de configuratieanalyse](../../media/configuration-analyzer-settings-and-recommendations-view.png)
+![Instellingen en aanbevelingen weergeven in de configuratieanalyse](../../media/configuration-analyzer-settings-and-recommendations-view.png)
 
 Standaard bevat de kolom **Beleidsgroep/instellingsnaam** een samengevouwen weergave van de verschillende typen beveiligingsbeleid en het aantal instellingen dat moet worden verbeterd (indien van beide). De typen beleidsregels zijn:
 
 - **Antispam**
 - **Anti-phishing**
 - **Anti-malware**
-- **ATP Safe Attachments** (als uw abonnement Microsoft Defender voor Office 365 bevat)
-- **ATP Safe Links** (als uw abonnement Microsoft Defender voor Office 365 bevat)
+- **ATP Safe bijlagen** (als uw abonnement Microsoft Defender voor Office 365)
+- **ATP Safe Koppelingen** (als uw abonnement Microsoft Defender voor Office 365)
 
 In de standaardweergave wordt alles samengevouwen. Naast elk beleid ziet u een overzicht van de vergelijkingsresultaten van uw beleid (dat u kunt wijzigen) en de instellingen in het bijbehorende beleid voor de standaard- of strikte beveiligingsprofielen (die u niet kunt wijzigen). U ziet de volgende informatie voor het beveiligingsprofiel dat u vergelijkt met:
 
@@ -124,7 +124,7 @@ Als de vergelijking geen aanbevelingen voor verbetering (groen) heeft, laat het 
 
 - **Laatst gewijzigd:** de datum waarop het beleid voor het laatst is gewijzigd.
 
-- **Aanbevelingen:** De waarde van de instelling in het beveiligingsprofiel Standaard of Strikt. Als u de waarde van de instelling in uw beleid wilt wijzigen op de aanbevolen waarde in het beveiligingsprofiel, klikt u op **Goedkeuren.** Als de wijziging is gelukt, ziet u het bericht: **Aanbevelingen zijn goedgekeurd.** Klik **op** Vernieuwen om het beperkte aantal aanbevelingen weer te geven en de specifieke rij met instellingen/beleid uit de resultaten te verwijderen.
+- **Aanbevelingen:** De waarde van de instelling in het beveiligingsprofiel Standaard of Strikt. Als u de waarde van de instelling in uw beleid wilt wijzigen op de aanbevolen waarde in het beveiligingsprofiel, klikt u op **Goedkeuren.** Als de wijziging is gelukt, ziet u het bericht: **Aanbevelingen is goedgekeurd.** Klik **op** Vernieuwen om het beperkte aantal aanbevelingen weer te geven en de specifieke rij met instellingen/beleid uit de resultaten te verwijderen.
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>Tabblad Configuratiedriftanalyse en -geschiedenis in de configuratieanalyse
 
@@ -141,6 +141,6 @@ Klik op **Filter** om de resultaten te filteren. In het **flyout** Filters dat w
 - **Begintijd** **en eindtijd** (datum)
 - **Standaardbeveiliging** of **Strikte beveiliging**
 
-Als u de resultaten wilt exporteren naar een CSV-bestand, klikt u op **Exporteren.**
+Als u de resultaten wilt exporteren naar een .csv bestand, klikt u op **Exporteren.**
 
 ![Configuratiedriftanalyse en geschiedenisweergave in configuratieanalyse](../../media/configuration-analyzer-configuration-drift-analysis-view.png)

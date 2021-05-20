@@ -16,13 +16,14 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
+recommendations: false
 description: Lees meer over de Microsoft 365-configuratiestappen die nodig zijn om een team in te stellen voor samenwerking aan taken, gesprekken en documentatie met gasten in Teams.
-ms.openlocfilehash: 4e734af198563d0bc4599b4476b3823384989212
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c17732705c1d88ff70e56f5d26d9e268e3ff7c19
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904658"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539261"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Samenwerken met gasten in een team
 
@@ -61,7 +62,7 @@ Als u met gasten van meerdere organisaties werkt, wilt u mogelijk hun toegang to
 
 Teams heeft een hoofdoptie voor het in- en uitschakelen van gasttoegang en diverse instellingen die beschikbaar om te bepalen wat gasten in een team kunnen doen. De hoofdoptie, **Gasttoegang toestaan in Teams**, moet **aan** zijn voor gasttoegang in Teams.
 
-Controleer of gasttoegang is ingeschakeld in Teams en pas de instellingen voor gasten aan op basis van de behoeften van uw bedrijf. Houd er rekening mee dat deze instellingen van invloed zijn op alle teams.
+Controleer of gasttoegang is ingeschakeld in Teams en pas de instellingen voor gasten aan op basis van de behoeften van uw bedrijf. Houd er rekening mee dat deze instellingen invloed hebben op alle teams.
 
 ![Schermafbeelding van wisselknop Gasttoegang in Teams](../media/teams-guest-access-toggle-on.png)
 
@@ -146,7 +147,7 @@ Een team maken
 5. Typ een naam en beschrijving voor het team en klik vervolgens op **Maken**.
 6. Klik op **Overslaan**.
 
-We nodigen gebruikers later uit. Vervolgens is het belangrijk dat u de instellingen voor delen op siteniveau controleert voor de SharePoint-site die is gekoppeld aan het team.
+Vervolgens is het belangrijk dat u de instellingen voor delen op siteniveau controleert voor de SharePoint-site die is gekoppeld aan het team.
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voor het delen op siteniveau in SharePoint
 

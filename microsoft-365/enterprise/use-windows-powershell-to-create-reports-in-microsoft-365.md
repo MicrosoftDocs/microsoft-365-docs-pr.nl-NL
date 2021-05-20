@@ -15,49 +15,49 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
-description: 'Overzicht: Gebruik PowerShell voor Microsoft 365 om rapporten te maken die u niet kunt maken in het Microsoft 365-beheercentrum.'
-ms.openlocfilehash: dc183ae8a315bf788befc85474d0647802ac91ee
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+description: 'Samenvatting: Gebruik PowerShell voor Microsoft 365 om rapporten te maken die u niet kunt maken in het Microsoft 365-beheercentrum.'
+ms.openlocfilehash: 9e3b90dcdd32f80125175ad2e15a852db51e17f8
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222777"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572739"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>PowerShell gebruiken om rapporten te maken voor Microsoft 365
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Er zijn veel verschillende rapporten beschikbaar in het Microsoft 365-beheercentrum. Maar deze rapporten bevatten maar zo veel informatie en soms hebt u meer nodig. Op dat moment hebt u PowerShell voor Microsoft 365 nodig.
+Er zijn veel verschillende rapporten beschikbaar in het Microsoft 365-beheercentrum. Maar deze rapporten bieden slechts zoveel informatie en soms heb je meer nodig. Dat is wanneer u PowerShell nodig hebt voor Microsoft 365.
   
-In deze artikelen wordt beschreven hoe u PowerShell voor Microsoft 365 gebruikt om informatie te verkrijgen van uw Microsoft 365-tenant:
+In deze artikelen wordt beschreven hoe u PowerShell voor Microsoft 365 gebruikt om informatie op te halen van uw tenant Microsoft 365:
   
 - Aan de slag met rapportage met PowerShell voor Microsoft 365:
     
-  - [Waarom u PowerShell voor Microsoft 365 moet gebruiken](./why-you-need-to-use-microsoft-365-powershell.md)
+  - [Waarom u PowerShell moet gebruiken voor Microsoft 365](./why-you-need-to-use-microsoft-365-powershell.md)
     
     
-- Rapporten voor gebruikersaccounts en -licenties:
+- Rapporten voor gebruikersaccounts en licenties:
     
-  - [Microsoft 365-licenties en -services weergeven met PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md)
+  - [Microsoft 365 licenties en services weergeven met PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md)
     
-  - [Microsoft 365-gebruikers met een licentie en gebruikers zonder licentie weergeven met PowerShell](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
+  - [Gebruikers met Microsoft 365 licentie en zonder licentie weergeven met PowerShell](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
     
-  - [Microsoft 365-accountlicentie- en servicedetails weergeven met PowerShell](view-account-license-and-service-details-with-microsoft-365-powershell.md)
+  - [Microsoft 365 accountlicentie- en servicegegevens weergeven met PowerShell](view-account-license-and-service-details-with-microsoft-365-powershell.md)
     
-  - [Microsoft 365-gebruikersaccounts weergeven met PowerShell](view-user-accounts-with-microsoft-365-powershell.md)
+  - [Microsoft 365 gebruikersaccounts weergeven met PowerShell](view-user-accounts-with-microsoft-365-powershell.md)
     
 - Rapporten voor SharePoint Online:
     
   - [Aan de slag met SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
     
-  - [Get-SPOSiteGroup : hiermee worden alle groepen op een opgegeven siteverzameling geplaatst](/powershell/module/sharepoint-online/get-spositegroup)
+  - [Get-SPOSiteGroup - Haalt alle groepen op een opgegeven siteverzameling op](/powershell/module/sharepoint-online/get-spositegroup)
     
 - Rapporten voor Exchange Online:
     
-  - [Exchange Online PowerShell gebruiken om postvak weer te geven](/exchange/recipients-in-exchange-online/manage-user-mailboxes/use-powershell-to-display-mailbox-information)
+  - [PowerShell Exchange Online gebruiken om postvak weer te geven](/exchange/recipients-in-exchange-online/manage-user-mailboxes/use-powershell-to-display-mailbox-information)
     
     
-## <a name="related-articlesl"></a>Verwante articlesl
+## <a name="related-articles"></a>Verwante artikelen
 
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   

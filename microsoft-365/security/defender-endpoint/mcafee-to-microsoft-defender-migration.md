@@ -20,14 +20,14 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 03/03/2021
+ms.date: 05/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 3d26e2c134f5f9794f7acd41e49c27bd9f331153
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 5bbcf885ec160204916507aee60398aee35e470b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932641"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538049"
 ---
 # <a name="migrate-from-mcafee-to-microsoft-defender-for-endpoint"></a>Migreren van McAfee naar Microsoft Defender voor Eindpunt
 
@@ -35,7 +35,7 @@ ms.locfileid: "51932641"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Als u van Plan bent om over te schakelen van McAfee Endpoint Security (McAfee) naar [Microsoft Defender voor](https://docs.microsoft.com/windows/security/threat-protection) Eindpunt (Microsoft Defender voor Eindpunt), bent u op de juiste plaats. Gebruik dit artikel als handleiding.
+Als u van Plan bent om over te schakelen van McAfee Endpoint Security (McAfee) naar [Microsoft Defender voor](microsoft-defender-endpoint.md) Eindpunt (Microsoft Defender voor Eindpunt), bent u op de juiste plaats. Gebruik dit artikel als handleiding.
 
 
 :::image type="content" source="images/mcafee-mde-migration.png" alt-text="Overzicht van migreren van McAfee naar Defender voor Eindpunt":::
@@ -48,28 +48,28 @@ Wanneer u overschakelt van McAfee naar Microsoft Defender voor Eindpunt, volgt u
 
 ![Migratiefasen : setup aan boord voorbereiden](images/phase-diagrams/migration-phases.png)
 
-|Fase |Beschrijving |
+|Fase |Omschrijving |
 |--|--|
-|[Voorbereiden op uw migratie](mcafee-to-microsoft-defender-prepare.md) |Tijdens de [**fase**](mcafee-to-microsoft-defender-prepare.md) Voorbereiden werkt u de apparaten van uw organisatie bij, krijgt u Microsoft Defender voor Eindpunt, plant u uw rollen en machtigingen en verleent u toegang tot het Microsoft Defender-beveiligingscentrum. U configureert ook de apparaatproxy- en internetinstellingen om communicatie in te stellen tussen de apparaten van uw organisatie en Microsoft Defender voor Eindpunt. |
-|[Microsoft Defender voor Eindpunt instellen](mcafee-to-microsoft-defender-setup.md) |Tijdens [](mcafee-to-microsoft-defender-setup.md) de installatiefase schakelt u Microsoft Defender Antivirus in en controleert u of deze in de passieve modus staat en configureert u instellingen & uitsluitingen voor Microsoft Defender Antivirus, Microsoft Defender voor Eindpunt en McAfee. U maakt ook apparaatgroepen, verzamelingen en organisatie-eenheden. Ten slotte configureert u uw antimalwarebeleid en realtime beveiligingsinstellingen.|
-|[Onboard to Microsoft Defender for Endpoint](mcafee-to-microsoft-defender-onboard.md) |Tijdens de [**onboard-fase**](mcafee-to-microsoft-defender-onboard.md) kunt u uw apparaten aan boord van Microsoft Defender voor Eindpunten laten werken en controleren of deze apparaten communiceren met Microsoft Defender voor Eindpunt. Als laatste verwijdert u McAfee en zorgt u ervoor dat de beveiliging via Microsoft Defender Antivirus & Microsoft Defender voor Eindpunt actief is. |
+|[Voorbereiden op uw migratie](mcafee-to-microsoft-defender-prepare.md) |Tijdens de [**fase**](mcafee-to-microsoft-defender-prepare.md) Voorbereiden werkt u de apparaten van uw organisatie bij, krijgt u Microsoft Defender voor Eindpunt, plant u uw rollen en machtigingen en verleent u toegang tot de Microsoft Defender-beveiligingscentrum. U configureert ook de apparaatproxy- en internetinstellingen om communicatie in te stellen tussen de apparaten van uw organisatie en Microsoft Defender voor Eindpunt. |
+|[Microsoft Defender voor Eindpunt instellen](mcafee-to-microsoft-defender-setup.md) |Tijdens de [**installatiefase**](mcafee-to-microsoft-defender-setup.md) stelt u de Microsoft Defender Antivirus in en stelt u deze in op de passieve modus. U configureert ook instellingen & uitsluitingen voor Microsoft Defender Antivirus en uw bestaande oplossing voor eindpuntbeveiliging. Vervolgens maakt u uw apparaatgroepen, verzamelingen en organisatie-eenheden. Ten slotte configureert u uw antimalwarebeleid en realtime beveiligingsinstellingen.|
+|[Onboard to Microsoft Defender for Endpoint](mcafee-to-microsoft-defender-onboard.md) |Tijdens de [**onboard-fase**](mcafee-to-microsoft-defender-onboard.md) kunt u uw apparaten inschakelen bij Microsoft Defender voor Eindpunt, bevestigen dat Microsoft Defender Antivirus in de passieve modus wordt uitgevoerd en controleren of uw eindpunten communiceren met Defender voor Eindpunt. Vervolgens verwijdert u McAfee en controleert u of Defender voor Eindpunt correct werkt. |
 
 ## <a name="whats-included-in-microsoft-defender-for-endpoint"></a>Wat is inbegrepen in Microsoft Defender voor Eindpunt?
 
-In deze migratiehandleiding [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) richten we ons [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) op de volgende generatie beveiligings- en eindpuntdetectie- en antwoordmogelijkheden als uitgangspunt voor de overstap naar Microsoft Defender voor Eindpunt. Microsoft Defender voor Eindpunt bevat echter veel meer dan antivirus- en eindpuntbeveiliging. Microsoft Defender voor Eindpunt is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord. In de volgende tabel worden functies en mogelijkheden in Microsoft Defender voor Eindpunt samengevat. 
+In deze migratiehandleiding [](microsoft-defender-antivirus-in-windows-10.md) richten we ons [](overview-endpoint-detection-response.md) op de volgende generatie beveiliging en eindpuntdetectie en -respons mogelijkheden als uitgangspunt voor de overstap naar Microsoft Defender voor Eindpunt. Microsoft Defender voor Eindpunt bevat echter veel meer dan antivirus- en eindpuntbeveiliging. Microsoft Defender voor Eindpunt is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord. In de volgende tabel worden functies en mogelijkheden in Microsoft Defender voor Eindpunt samengevat. 
 
-| Functie/mogelijkheid | Beschrijving |
+| Functie/mogelijkheid | Omschrijving |
 |---|---|
-| [Bedreigings- en risicobeheer](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | Met & mogelijkheden voor beveiligingsprobleembeheer kunt u zwakke punten in uw eindpunten (zoals apparaten) identificeren, beoordelen en herstellen. |
-| [Kwetsbaarheid voor aanvallen verminderen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction) | Regels voor het verminderen van aanvallen helpen de apparaten en toepassingen van uw organisatie te beschermen tegen cyberaanvallen en aanvallen. |
-| [Beveiliging van de volgende generatie](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) | Beveiliging van de volgende generatie omvat Microsoft Defender Antivirus om bedreigingen en malware te blokkeren. |
-| [Detectie van en reactie op eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) | Eindpuntdetectie- en antwoordmogelijkheden detecteren, onderzoeken en reageren op inbraakpogingen en actieve inbreuken.  |
+| [Bedreigings- en risicobeheer](next-gen-threat-and-vuln-mgt.md) | Bedreigingsfuncties & vulnerability management helpen bij het identificeren, beoordelen en herstellen van zwakke punten in uw eindpunten (zoals apparaten). |
+| [Kwetsbaarheid voor aanvallen verminderen](overview-attack-surface-reduction.md) | Regels voor het verminderen van aanvallen helpen de apparaten en toepassingen van uw organisatie te beschermen tegen cyberaanvallen en aanvallen. |
+| [Beveiliging van de volgende generatie](microsoft-defender-antivirus-in-windows-10.md) | Beveiliging van de volgende generatie bevat Microsoft Defender Antivirus om bedreigingen en malware te blokkeren. |
+| [Detectie van en reactie op eindpunt](overview-endpoint-detection-response.md) | Eindpuntdetectie- en antwoordmogelijkheden detecteren, onderzoeken en reageren op inbraakpogingen en actieve inbreuken.  |
 | [Geavanceerd opsporen](advanced-hunting-overview.md) | Met geavanceerde zoekmogelijkheden kan uw beveiligingsteam indicatoren en entiteiten van bekende of potentiële bedreigingen vinden. |
-| [Gedragsblokkering en -insluiting](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | Mogelijkheden voor het blokkeren en inperken van gedrag helpen bij het identificeren en stoppen van bedreigingen, op basis van hun gedrag en procesbomen, zelfs wanneer de bedreiging is gestart met de uitvoering. |
-| [Geautomatiseerd onderzoek en herstel](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations) | Geautomatiseerde onderzoeks- en antwoordmogelijkheden onderzoeken waarschuwingen en nemen onmiddellijk herstelmaatregelen om inbreuken op te lossen. |
-| [Threat hunting service](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts) (Microsoft Threat Experts) | Bedreigingsjachtservices bieden beveiligingsteams controle en analyse op expertniveau, en om ervoor te zorgen dat kritieke bedreigingen niet worden gemist. |
+| [Gedragsblokkering en -insluiting](behavioral-blocking-containment.md) | Mogelijkheden voor het blokkeren en inperken van gedrag helpen bij het identificeren en stoppen van bedreigingen, op basis van hun gedrag en procesbomen, zelfs wanneer de bedreiging is gestart met de uitvoering. |
+| [Geautomatiseerd onderzoek en herstel](automated-investigations.md) | Geautomatiseerde onderzoeks- en antwoordmogelijkheden onderzoeken waarschuwingen en nemen onmiddellijk herstelmaatregelen om inbreuken op te lossen. |
+| [Threat hunting service](microsoft-threat-experts.md) (Microsoft Threat Experts) | Bedreigingsjachtservices bieden beveiligingsteams controle en analyse op expertniveau, en om ervoor te zorgen dat kritieke bedreigingen niet worden gemist. |
 
-**Wilt u meer informatie? Zie [Microsoft Defender voor Eindpunt](https://docs.microsoft.com/windows/security/threat-protection).**
+**Wilt u meer informatie? Zie [Microsoft Defender voor Eindpunt](microsoft-defender-endpoint.md).**
 
 ## <a name="next-step"></a>Volgende stap
 
