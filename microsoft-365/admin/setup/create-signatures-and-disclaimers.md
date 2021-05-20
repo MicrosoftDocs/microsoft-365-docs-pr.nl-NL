@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
-description: Informatie over het beheren van e-mailhandtekeningen, inclusief juridische vrijwaringen of openbaarmakingsverklaringen voor alle e-mailberichten die uw organisatie binnenkomen of verlaten.
-ms.openlocfilehash: e1c3df235442fdc6f569825a7137c92bfc5bb044
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Beheer e-mailhandtekeningen, inclusief juridische vrijwaringen of openbaarmakingsverklaringen voor alle e-mailberichten die uw organisatie binnenkomen of verlaten.
+ms.openlocfilehash: 05cfeeb01231e7f99d2a96fc37581b4c9a23f5aa
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244525"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582750"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Handtekeningen en vrijwaringen voor de hele organisatie maken
 
@@ -115,4 +115,13 @@ Gebruik een hulpprogramma van derden om deze en andere mogelijkheden te verkrijg
   
 ## <a name="more-resources"></a>Meer informatie
 
-- Zie Bericht disclaimers voor de hele [organisatie, handtekeningen, voetteksten](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) of kopteksten in Exchange Online voor informatie over het gebruik van PowerShell.
+Zie Bericht [disclaimers, handtekeningen, voetteksten](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers)of kopteksten voor de hele organisatie in Exchange Online.
+
+## <a name="related-content"></a>Verwante inhoud
+
+[E-mail en contactpersonen](migrate-email-and-contacts-admin.md) migreren naar Microsoft 365 (video)
+
+[Gebruikers-e-mailinstellingen](../email/office-365-user-email-settings.md) (artikel)
+
+[Overzicht van het Microsoft 365-beheercentrum](../../business-video/admin-center-overview.md) (video)
+

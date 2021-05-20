@@ -20,13 +20,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Nadat u een gedeeld postvak hebt gemaakt, wilt u enkele instellingen configureren voor de gebruikers, zoals het doorsturen van e-mail en automatische antwoorden. Later wilt u mogelijk andere instellingen wijzigen, zoals de naam van het postvak of de leden.
-ms.openlocfilehash: 01d5aaa686e1d64c9ea7d89913d8208f779dcfd1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Maak een gedeeld postvak en configureer sommige instellingen voor de gebruikers, zoals het doorsturen van e-mail en automatische antwoorden.
+ms.openlocfilehash: ab23353f07a24f06d43172e8087819dd915ab720
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52243970"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582666"
 ---
 # <a name="configure-shared-mailbox-settings"></a>Gedeeld postvakinstellingen configureren
 
@@ -107,7 +107,7 @@ Zie Een proces in de wacht houden voor meer informatie over het in de wacht [hou
 
 2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **leden** \> **bewerken.**
 
-3. Voer een van de volgende bewerkingen uit:
+3. Voer een van de volgende handelingen uit:
    - Als u leden wilt toevoegen, **selecteert** u Leden toevoegen, zoekt of selecteert u een lid dat u wilt toevoegen en selecteert u **Vervolgens Opslaan.**
    - Als u leden wilt verwijderen, gebruikt u het vak Zoeken om zo nodig naar het lid te zoeken, selecteert u de **X** naast de naam van het lid en selecteert u **Vervolgens Opslaan.** 
 
@@ -121,7 +121,7 @@ Zie Een proces in de wacht houden voor meer informatie over het in de wacht [hou
 
 3. Selecteer **Bewerken** naast de machtiging die u wilt wijzigen voor een lid. 
 
-4. Voer een van de volgende bewerkingen uit:
+4. Voer een van de volgende handelingen uit:
    - Als u die machtiging wilt geven aan een extra lid, selecteert u **Machtigingen** toevoegen, zoekt of selecteert u een lid dat u wilt toevoegen en selecteert u **Vervolgens Opslaan**.
    - Als u de machtiging van een lid wilt verwijderen, gebruikt u het vak Zoeken om zo nodig naar het lid te zoeken, selecteert u de **X** naast de naam van het lid en selecteert u **Vervolgens Opslaan**. 
 
@@ -142,14 +142,14 @@ Als u ervoor kiest het gedeelde postvak niet weer te geven in de algemene adresl
 > [!NOTE]
 > Als u een gedeeld postvak verbergt in de adreslijst, kunnen nieuwe leden van het gedeelde postvak het verborgen postvak niet toevoegen aan hun Outlook-profiel totdat het gedeelde postvak opnieuw wordt weergegeven in de adreslijst. 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Gedeelde postvakken](about-shared-mailboxes.md) (artikel)
+[Info over gedeelde postvakken](about-shared-mailboxes.md) (artikel)
 
 [Een gedeeld postvak maken](create-a-shared-mailbox.md) (artikel)
 
-[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)
+[Het postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)
 
-[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)
+[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md) (artikel)
 
-[Problemen met gedeelde postvakken oplossen](resolve-issues-with-shared-mailboxes.md) (artikel)
+[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)
