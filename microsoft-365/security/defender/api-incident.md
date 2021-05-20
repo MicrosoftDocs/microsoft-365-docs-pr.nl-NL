@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Api's voor Defender-incidenten en het type incidentbron
+title: Microsoft 365 Api's voor Defender-incidenten en het type incidentresource
 description: Meer informatie over de methoden en eigenschappen van het resourcetype Incident in Microsoft 365 Defender
 keywords: incident, incidenten, api
 search.product: eADQiWindows 10XVcnh
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572583"
 ---
-# <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>Microsoft 365 Api voor Defender-incidenten en het type incidentbron
+# <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>Microsoft 365 Defender-incidenten-API en het type incidentresource
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,50 +38,50 @@ ms.locfileid: "52572583"
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
 
-Een [incident](incidents-overview.md) is een verzameling gerelateerde waarschuwingen die een aanval helpen beschrijven. Gebeurtenissen van verschillende entiteiten in uw organisatie worden automatisch geaggregeerd door Microsoft 365 Defender. U kunt de incidenten-API gebruiken om programmatisch toegang te krijgen tot de incidenten en gerelateerde waarschuwingen van uw organisatie.
+Een [incident](incidents-overview.md) is een verzameling gerelateerde waarschuwingen die helpen bij het beschrijven van een aanval. Gebeurtenissen uit verschillende entiteiten in uw organisatie worden automatisch samengevoegd door Microsoft 365 Defender. U kunt de API voor incidenten gebruiken om programmaatically toegang te krijgen tot de incidenten en gerelateerde waarschuwingen van uw organisatie.
 
-## <a name="quotas-and-resource-allocation"></a>Quota en toewijzing van middelen
+## <a name="quotas-and-resource-allocation"></a>Quota en resourcetoewijzing
 
-U kunt maximaal 50 gesprekken per minuut of 1500 oproepen per uur aanvragen. Elke methode heeft ook zijn eigen quota. Zie het betreffende artikel voor de methode die u wilt gebruiken voor meer informatie over methodespecifieke quota.
+U kunt maximaal 50 oproepen per minuut of 1500 oproepen per uur aanvragen. Elke methode heeft ook een eigen quotum. Zie het betreffende artikel voor de methode die u wilt gebruiken voor meer informatie over methodespecifieke quota.
 
-Een `429` HTTP-antwoordcode geeft aan dat u een quotum hebt bereikt, hetzij op aantal verzonden aanvragen, hetzij op toegewezen looptijd. De hoofdtekst van de reactie bevat de tijd totdat het quotum dat u hebt bereikt, opnieuw wordt ingesteld.
+Een HTTP-antwoordcode geeft aan dat u een quotum hebt bereikt, hetzij op het aantal verzonden aanvragen, hetzij door de toegewezen `429` gebruikstijd. De reactie body bevat de tijd totdat het quotum dat u hebt bereikt, opnieuw wordt ingesteld.
 
 ## <a name="permissions"></a>Machtigingen
 
-De incidenten-API vereist verschillende soorten machtigingen voor elk van de methoden. Zie het artikel van de betreffende methode voor meer informatie over vereiste machtigingen.
+Voor de API voor incidenten zijn verschillende soorten machtigingen voor elk van de methoden vereist. Zie het artikel van de betreffende methode voor meer informatie over vereiste machtigingen.
 
 ## <a name="methods"></a>Methoden
 
-Methode | Retourtype | Omschrijving
+Methode | Retourtype | Beschrijving
 -|-|-
-[Lijst met incidenten](api-list-incidents.md) | [Lijst met incidenten](api-incident.md) | Krijg een lijst met incidenten.
-[Incident bijwerken](api-update-incidents.md) | [incident](api-incident.md) | Een specifiek incident bijwerken.
+[Lijst met incidenten](api-list-incidents.md) | [Lijst met incidenten](api-incident.md) | Een lijst met incidenten.
+[Incident bijwerken](api-update-incidents.md) | [Incident](api-incident.md) | Een specifiek incident bijwerken.
 
-## <a name="request-body-response-and-examples"></a>Hoofdtekst, antwoord en voorbeelden aanvragen
+## <a name="request-body-response-and-examples"></a>Body, antwoord en voorbeelden aanvragen
 
-Raadpleeg de betreffende methodeartikelen voor meer informatie over het maken van een aanvraag of het parseren van een antwoord, en voor praktische voorbeelden.
+Raadpleeg de betreffende methodeartikelen voor meer informatie over het maken van een aanvraag of het parseren van een antwoord en voor praktische voorbeelden.
 
-## <a name="common-properties"></a>Gemeenschappelijke eigenschappen
+## <a name="common-properties"></a>Veelgebruikte eigenschappen
 
-Eigenschap | Type | Omschrijving
+Eigenschap | Type | Beschrijving
 -|-|-
-incidentId | lang | Unieke ID voor incidenten.
-omleidingIncidentId | nullable lang | De incident-ID waaraan het huidige incident is samengevoegd.
-incidentNaam | snaar | De naam van het incident.
-gemaaktTijd | DatumTimeOffset | De datum en tijd (in UTC) waarop het incident is gemaakt.
-laatsteUpdateTime | DatumTimeOffset | De datum en tijd (in UTC) van het incident zijn voor het laatst bijgewerkt.
-toegewezenTo | snaar | Eigenaar van het incident.
-strengheid | Enum | Ernst van het incident. Mogelijke waarden zijn: ```UnSpecified``` , , , , en ```Informational``` ```Low``` ```Medium``` ```High``` .
-status | Enum | Hiermee geeft u de huidige status van het incident op. Mogelijke waarden zijn: ```Active``` ```Resolved``` , , en ```Redirected``` .
+incidentId | lang | Unieke id voor incidenten.
+redirectIncidentId | nullable long | De incident-id waarbij het huidige incident is samengevoegd.
+incidentName | tekenreeks | De naam van het incident.
+createdTime | DateTimeOffset | De datum en tijd (in UTC) het incident is gemaakt.
+lastUpdateTime | DateTimeOffset | De datum en tijd (in UTC) het incident is voor het laatst bijgewerkt.
+toegewezenTo | tekenreeks | Eigenaar van het incident.
+ernst | Enum | Ernst van het incident. Mogelijke waarden zijn: ```UnSpecified``` , , , en ```Informational``` ```Low``` ```Medium``` ```High``` .
+status | Enum | Hiermee geeft u de huidige status van het incident op. Mogelijke waarden zijn: ```Active``` ```Resolved``` , en ```Redirected``` .
 classificatie | Enum | Specificatie van het incident. Mogelijke waarden zijn: ```Unknown``` ```FalsePositive``` , , ```TruePositive``` .
-vastberadenheid | Enum | Hiermee geeft u de bepaling van het incident op. Mogelijke waarden zijn: ```NotAvailable``` , , , , , ```Apt``` ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` ```Other``` .
-Tags | tekenreekslijst | Lijst met incidenttags.
-Opmerkingen | Lijst met incidentopmerkingen | Incident Opmerkingsobject bevat: commentaartekenreeks, createdBy-tekenreeks en createTime-datumtijd.
-Waarschuwingen | Waarschuwingslijst | Lijst met gerelateerde waarschuwingen. Zie voorbeelden bij [API-documentatie voor lijstincidenten.](api-list-incidents.md)
+bepaling | Enum | Hiermee geeft u de bepaling van het incident op. Mogelijke waarden zijn: ```NotAvailable``` , , , , , , ```Apt``` ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` . ```Other```
+tags | lijst met tekenreeksen | Lijst met incidentlabels.
+opmerkingen | Lijst met opmerkingen over incidenten | Incident Comment object contains: comment string, createdBy string, and createTime date time.
+waarschuwingen | Lijst met waarschuwingen | Lijst met gerelateerde waarschuwingen. Zie voorbeelden van [API-documentatie lijstincidenten.](api-list-incidents.md)
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Microsoft 365 Defender API's overzicht](api-overview.md)
-- [Overzicht incidenten](incidents-overview.md)
-- [Api voor lijstincidenten](api-list-incidents.md)
-- [Api voor incident bijwerken](api-update-incidents.md)
+- [Microsoft 365 Overzicht van DEFENDER-API's](api-overview.md)
+- [Overzicht van incidenten](incidents-overview.md)
+- [Lijstincidenten API](api-list-incidents.md)
+- [Api voor incidenten bijwerken](api-update-incidents.md)

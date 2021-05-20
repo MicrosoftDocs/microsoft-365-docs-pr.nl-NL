@@ -1,6 +1,6 @@
 ---
-title: Api voor incident bijwerken
-description: Meer informatie over het bijwerken van incidenten met Microsoft 365 Defender API
+title: Api voor incidenten bijwerken
+description: Informatie over het bijwerken van incidenten met Microsoft 365 Defender API
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52571779"
 ---
-# <a name="update-incident-api"></a>Api voor incident bijwerken
+# <a name="update-incident-api"></a>Api voor incidenten bijwerken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,26 +40,26 @@ ms.locfileid: "52571779"
 
 ## <a name="api-description"></a>API-beschrijving
 
-Hiermee worden de eigenschappen van het bestaande incident bijgewerkt. Updatable eigenschappen zijn: ```status``` , , , , , en ```determination``` ```classification``` ```assignedTo``` ```tags``` ```comments``` .
+De eigenschappen van bestaande incidenten worden bijgewerkt. Updatable properties are: ```status``` , , , , , , and ```determination``` ```classification``` ```assignedTo``` ```tags``` ```comments``` .
 
-### <a name="quotas-resource-allocation-and-other-constraints"></a>Quota, toewijzing van middelen en andere beperkingen
+### <a name="quotas-resource-allocation-and-other-constraints"></a>Quota, resourcetoewijzing en andere beperkingen
 
-1. U kunt maximaal 50 gesprekken per minuut of 1500 gesprekken per uur voeren voordat u de beperkingsdrempel bereikt.
-2. U kunt de eigenschap alleen instellen `determination` als deze is ingesteld op `classification` TruePositive.
+1. U kunt maximaal 50 oproepen per minuut of 1500 oproepen per uur voeren voordat u de beperkingsdrempel bereikt.
+2. U kunt de `determination` eigenschap alleen instellen als deze is ingesteld op `classification` TruePositive.
 
-Als uw aanvraag wordt beperkt, wordt er een `429` antwoordcode geretourneerd. De instantie van de reactie geeft het tijdstip aan waarop u kunt beginnen met het voeren van nieuwe oproepen.
+Als uw aanvraag wordt beperkt, wordt er een `429` antwoordcode retourneerd. De antwoord body geeft het tijdstip aan waarop u kunt beginnen met het starten van nieuwe oproepen.
 
 ## <a name="permissions"></a>Machtigingen
 
-Een van de volgende machtigingen is vereist om deze API aan te roepen. Zie Toegang tot [de API's van Microsoft 365 Defender](api-access.md)voor meer informatie, waaronder het kiezen van machtigingen.
+Een van de volgende machtigingen is vereist om deze API te bellen. Zie [Access the Microsoft 365 Defender API's (Access the Microsoft 365 Defender API's ) voor meer informatie,](api-access.md)inclusief het kiezen van machtigingen.
 
-Machtigingstype | Machtiging | Naam van machtigingsweergave
+Machtigingstype | Machtiging | Weergavenaam machtiging
 -|-|-
-Toepassing | Incident.ReadWrite.All | Lees en schrijf alle incidenten
-Gedelegeerd (werk- of schoolaccount) | Incident.ReadWrite | Lees en schrijf incidenten
+Toepassing | Incident.ReadWrite.All | Alle incidenten lezen en schrijven
+Gedelegeerd (werk- of schoolaccount) | Incident.ReadWrite | Incidenten lezen en schrijven
 
 > [!NOTE]
-> Wanneer u een token verkrijgt met behulp van gebruikers referenties, moet de gebruiker toestemming hebben om het incident in de portal bij te werken.
+> Bij het verkrijgen van een token met gebruikersreferenties moet de gebruiker toestemming hebben om het incident in de portal bij te werken.
 
 ## <a name="http-request"></a>HTTP-aanvraag
 
@@ -67,41 +67,41 @@ Gedelegeerd (werk- of schoolaccount) | Incident.ReadWrite | Lees en schrijf inci
 PATCH /api/incidents/{id}
 ```
 
-## <a name="request-headers"></a>Headers aanvragen
+## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 -|-|-
-machtiging | Tekenreeks | Aan toonder {token}. **Vereist**.
+Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
 
-## <a name="request-body"></a>Instantie aanvragen
+## <a name="request-body"></a>Body aanvragen
 
-Geef in de hoofdtekst van de aanvraag de waarden op voor de velden die moeten worden bijgewerkt. Bestaande eigenschappen die niet zijn opgenomen in de hoofdtekst van de aanvraag, behouden hun waarden, tenzij ze opnieuw moeten worden berekend vanwege wijzigingen in gerelateerde waarden. Voor de beste prestaties moet u bestaande waarden weglaten die niet zijn gewijzigd.
+In de aanvraagt u de waarden voor de velden die moeten worden bijgewerkt. Bestaande eigenschappen die niet in de aanvraag worden opgenomen, behouden hun waarden, tenzij ze opnieuw moeten worden berekend vanwege wijzigingen in gerelateerde waarden. Voor de beste prestaties moet u bestaande waarden weglaten die niet zijn gewijzigd.
 
-Eigenschap | Type | Omschrijving
+Eigenschap | Type | Beschrijving
 -|-|-
-status | Enum | Hiermee geeft u de huidige status van het incident op. Mogelijke waarden zijn: ```Active``` ```Resolved``` , , en ```Redirected``` .
-toegewezenTo | snaar | Eigenaar van het incident.
+status | Enum | Hiermee geeft u de huidige status van het incident op. Mogelijke waarden zijn: ```Active``` ```Resolved``` , en ```Redirected``` .
+toegewezenTo | tekenreeks | Eigenaar van het incident.
 classificatie | Enum | Specificatie van het incident. Mogelijke waarden zijn: ```Unknown``` ```FalsePositive``` , , ```TruePositive``` .
-vastberadenheid | Enum | Hiermee geeft u de bepaling van het incident op. Mogelijke waarden zijn: ```NotAvailable``` , , , , , ```Apt``` ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` ```Other``` .
-Tags | tekenreekslijst | Lijst met incidenttags.
-commentaar | snaar | Commentaar dat aan het incident moet worden toegevoegd.
+bepaling | Enum | Hiermee geeft u de bepaling van het incident op. Mogelijke waarden zijn: ```NotAvailable``` , , , , , , ```Apt``` ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` . ```Other```
+tags | lijst met tekenreeksen | Lijst met incidentlabels.
+opmerking | tekenreeks | Opmerking die moet worden toegevoegd aan het incident.
 
-## <a name="response"></a>antwoord
+## <a name="response"></a>Antwoord
 
-Als dit is gelukt, retourneert deze methode `200 OK` . De antwoordtekst bevat de incidententiteit met bijgewerkte eigenschappen. Als er geen incident met de opgegeven ID is gevonden, retourneert de methode `404 Not Found` .
+Als dit is gelukt, retourneert deze methode `200 OK` . De antwoordinstantie bevat de entiteit incident met bijgewerkte eigenschappen. Als er geen incident met de opgegeven id is gevonden, retourneert de methode `404 Not Found` .
 
 ## <a name="example"></a>Voorbeeld
 
-**verzoek**
+**Aanvraag**
 
-Hier is een voorbeeld van het verzoek.
+Hier is een voorbeeld van de aanvraag.
 
 ```HTTP
  PATCH https://api.security.microsoft.com/api/incidents/{id}
 ```
 
-**antwoord**
+**Antwoord**
 
 ```json
 {
@@ -127,9 +127,9 @@ Hier is een voorbeeld van het verzoek.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Toegang tot de API's van Microsoft 365 Defender](api-access.md)
-- [Meer informatie over API-limieten en licenties](api-terms.md)
+- [Toegang tot Microsoft 365 Defender-API's](api-access.md)
+- [Meer informatie over API-limieten en -licenties](api-terms.md)
 - [Foutcodes begrijpen](api-error-codes.md)
 - [API's voor incidenten](api-incident.md)
 - [Lijst met incidenten](api-list-incidents.md)
-- [Overzicht incidenten](incidents-overview.md)
+- [Overzicht van incidenten](incidents-overview.md)

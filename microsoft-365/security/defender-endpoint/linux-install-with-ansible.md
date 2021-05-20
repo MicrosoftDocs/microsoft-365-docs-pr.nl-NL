@@ -1,8 +1,8 @@
 ---
-title: Microsoft Defender voor endpoint implementeren op Linux met Ansible
+title: Microsoft Defender voor eindpunt implementeren op Linux met Ansible
 ms.reviewer: ''
-description: In dit artikel wordt beschreven hoe u Microsoft Defender voor Endpoint op Linux implementeert met Behulp van Ansible.
-keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installatie, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+description: Hier wordt beschreven hoe u Microsoft Defender voor Eindpunt op Linux implementeert met Ansible.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, pop, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,7 +25,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572727"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Microsoft Defender voor endpoint implementeren op Linux met Ansible
+# <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Microsoft Defender voor eindpunt implementeren op Linux met Ansible
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,28 +34,28 @@ ms.locfileid: "52572727"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wil je Defender for Endpoint ervaren? [Meld je aan voor een gratis proefperiode.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-In dit artikel wordt beschreven hoe u Defender for Endpoint implementeert op Linux met Behulp van Ansible. Een succesvolle implementatie vereist de voltooiing van alle volgende taken:
+In dit artikel wordt beschreven hoe u Defender voor Eindpunt op Linux implementeert met Ansible. Voor een geslaagde implementatie moeten alle volgende taken zijn voltooid:
 
-- [Download het onboarding pakket](#download-the-onboarding-package)
+- [Het onboarding-pakket downloaden](#download-the-onboarding-package)
 - [Ansible YAML-bestanden maken](#create-ansible-yaml-files)
 - [Implementatie](#deployment)
 - [Verwijzingen](#references)
 
 ## <a name="prerequisites-and-system-requirements"></a>Vereisten en systeemvereisten
 
-Voordat u aan de slag gaat, raadpleegt u [de hoofdpagina van Defender for Endpoint op Linux](microsoft-defender-endpoint-linux.md) voor een beschrijving van de vereisten en systeemvereisten voor de huidige softwareversie.
+Voordat u aan de slag gaat, bekijkt u de [hoofdpagina](microsoft-defender-endpoint-linux.md) van Defender voor Eindpunt op Linux voor een beschrijving van vereisten en systeemvereisten voor de huidige softwareversie.
 
-Bovendien moet u voor Ansible-implementatie bekend zijn met Ansible-beheertaken, Ansible hebben geconfigureerd en weten hoe u draaiboeken en taken implementeert. Ansible heeft veel manieren om dezelfde taak te voltooien. In deze instructies wordt uitgegaan van de beschikbaarheid van ondersteunde Ansible-modules, zoals *apt* en *unarchive* om het pakket te helpen implementeren. Uw organisatie kan een andere werkstroom gebruiken. Raadpleeg de [Documentatie van Ansible](https://docs.ansible.com/) voor meer informatie.
+Bovendien moet u voor Ansible-implementatie bekend zijn met Ansible-beheertaken, Ansible configureren en weten hoe u playbooks en taken implementeert. Ansible heeft veel manieren om dezelfde taak uit te voeren. In deze instructies wordt ervan uitgenomen dat ondersteunde Ansible-modules beschikbaar zijn, zoals *apt* en *unarchive om* het pakket te implementeren. Uw organisatie kan een andere werkstroom gebruiken. Raadpleeg de [Ansible-documentatie](https://docs.ansible.com/) voor meer informatie.
 
-- Ansible moet op ten minste één computer worden geïnstalleerd (Ansible noemt dit het besturingsknooppunt).
-- SSH moet worden geconfigureerd voor een beheerdersaccount tussen het besturingsknooppunt en alle beheerde knooppunten (apparaten waarop Defender for Endpoint is geïnstalleerd) en het wordt aanbevolen om te worden geconfigureerd met verificatie met openbare sleutels.
-- De volgende software moet op alle beheerde knooppunten worden geïnstalleerd:
+- Ansible moet op ten minste één computer zijn geïnstalleerd (Ansible noemt dit het besturingselement knooppunt).
+- SSH moet zijn geconfigureerd voor een beheerdersaccount tussen het knooppunt van het besturingselement en alle beheerde knooppunten (apparaten waar Defender voor Eindpunt op is geïnstalleerd) en het wordt aanbevolen om te worden geconfigureerd met verificatie met openbare sleutel.
+- De volgende software moet zijn geïnstalleerd op alle beheerde knooppunten:
   - krul
   - python-apt
 
-- Alle beheerde knooppunten moeten in de volgende indeling in het of relevante bestand worden `/etc/ansible/hosts` vermeld:
+- Alle beheerde knooppunten moeten worden weergegeven in de volgende indeling in het `/etc/ansible/hosts` of relevante bestand:
 
     ```bash
     [servers]
@@ -63,23 +63,23 @@ Bovendien moet u voor Ansible-implementatie bekend zijn met Ansible-beheertaken,
     host2 ansible_ssh_host=51.143.50.51
     ```
 
-- Ping-test:
+- Pingtest:
 
     ```bash
     ansible -m ping all
     ```
 
-## <a name="download-the-onboarding-package"></a>Download het onboarding pakket
+## <a name="download-the-onboarding-package"></a>Het onboarding-pakket downloaden
 
-Download het onboarding pakket van Microsoft Defender-beveiligingscentrum:
+Download het onboarding-pakket van Microsoft Defender-beveiligingscentrum:
 
-1. Ga in Microsoft Defender-beveiligingscentrum naar **Instellingen > Device Management > Onboarding**.
-2. Selecteer **Linux Server** in het eerste vervolgkeuzemenu als besturingssysteem. Selecteer in het tweede vervolgkeuzemenu **de gewenste Linux-configuratiebeheertool** als implementatiemethode.
-3. Selecteer **Onboardingpakket downloaden**. Sla het bestand op als WindowsDefenderATPOnboardingPackage.zip.
+1. Ga Microsoft Defender-beveiligingscentrum naar Instellingen > **Device Management > Onboarding.**
+2. Selecteer in de eerste vervolgkeuzelijst **Linux Server** als besturingssysteem. Selecteer in de tweede vervolgkeuzelijst **Uw voorkeursprogramma** voor configuratiebeheer voor Linux als implementatiemethode.
+3. Selecteer **Onboarding-pakket downloaden.** Sla het bestand op als WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Microsoft Defender-beveiligingscentrum screenshot](images/atp-portal-onboarding-linux-2.png)
+    ![Microsoft Defender-beveiligingscentrum schermafbeelding](images/atp-portal-onboarding-linux-2.png)
 
-4. Controleer in een opdrachtprompt of u het bestand hebt. De inhoud van het archief extraheren:
+4. Controleer in een opdrachtprompt of u het bestand hebt. Haal de inhoud van het archief op:
 
     ```bash
     ls -l
@@ -98,9 +98,9 @@ Download het onboarding pakket van Microsoft Defender-beveiligingscentrum:
 
 ## <a name="create-ansible-yaml-files"></a>Ansible YAML-bestanden maken
 
-Maak een subtaak of rolbestanden die bijdragen aan een draaiboek of taak.
+Maak een subtaak of rolbestanden die bijdragen aan een speelboek of taak.
 
-- Maak de onboarding taak, `onboarding_setup.yml` :
+- Maak de onboarding-taak: `onboarding_setup.yml`
 
     ```bash
     - name: Create MDATP directories
@@ -127,23 +127,23 @@ Maak een subtaak of rolbestanden die bijdragen aan een draaiboek of taak.
       when: not mdatp_onboard.stat.exists
     ```
 
-- Voeg de Defender for Endpoint-opslagplaats en -sleutel `add_apt_repo.yml` toe:
+- Voeg de defender voor eindpuntopslagplaats en de sleutel `add_apt_repo.yml` toe:
 
-    Defender for Endpoint op Linux kan worden geïmplementeerd vanaf een van de volgende kanalen (hieronder aangeduid als *[kanaal]*): *insiders-fast*, *insiders-slow* of *prod*. Elk van deze kanalen komt overeen met een Linux-softwareopslagplaats.
+    Defender for Endpoint on Linux kan worden geïmplementeerd vanuit een van de volgende kanalen (hieronder aangeduid als *[kanaal]*): *insiders-fast*, *insiders-slow*, of *prod*. Elk van deze kanalen komt overeen met een Linux-softwareopslagplaats.
 
-    De keuze van het kanaal bepaalt het type en de frequentie van updates die aan uw apparaat worden aangeboden. Apparaten in *insiders-fast* zijn de eerste die updates en nieuwe functies ontvangen, later gevolgd door *insiders-slow* en ten slotte door *prod*.
+    De keuze van het kanaal bepaalt het type en de frequentie van de updates die op uw apparaat worden aangeboden. Apparaten in *insiders-fast* zijn de eersten die updates en nieuwe functies ontvangen, later gevolgd door *insiders-slow* en ten laatste *door prod*.
 
-    Als u een voorbeeld van nieuwe functies wilt bekijken en vroege feedback wilt geven, wordt u aangeraden sommige apparaten in uw onderneming te configureren om *insiders-fast* of *insiders-slow* te gebruiken.
+    Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wilt geven, wordt u aangeraden sommige apparaten in uw bedrijf te configureren om *insiders-fast* of *insiders-slow te gebruiken.*
 
     > [!WARNING]
-    > Als u na de eerste installatie van kanaal wisselt, moet het product opnieuw worden geïnstalleerd. Als u het productkanaal wilt wijzigen: verwijder het bestaande pakket, configureer uw apparaat opnieuw om het nieuwe kanaal te gebruiken en volg de stappen in dit document om het pakket vanaf de nieuwe locatie te installeren.
+    > Als u het kanaal na de eerste installatie overschakelt, moet het product opnieuw worden geïnstalleerd. Als u het productkanaal wilt wijzigen: verwijder het bestaande pakket, configureer het apparaat opnieuw om het nieuwe kanaal te gebruiken en volg de stappen in dit document om het pakket vanaf de nieuwe locatie te installeren.
 
-    Noteer uw distributie en versie en identificeer de dichtstbijzijnde vermelding hiervoor onder `https://packages.microsoft.com/config/` .
+    Noteer uw distributie en versie en identificeer de dichtstbijzijnde vermelding voor de versie onder `https://packages.microsoft.com/config/` .
 
-    Vervang in de volgende opdrachten *[distro]* en *[versie]* door de informatie die u hebt geïdentificeerd.
+    Vervang *[distro]* en *[versie]* in de volgende opdrachten door de gegevens die u hebt geïdentificeerd.
 
     > [!NOTE]
-    > Vervang *[distro] door "rhel"* in het geval van Oracle Linux.
+    > In het geval van Oracle Linux vervangt *u [distro] door* "rhel".
 
   ```bash
   - name: Add Microsoft APT key
@@ -177,9 +177,9 @@ Maak een subtaak of rolbestanden die bijdragen aan een draaiboek of taak.
     when: ansible_os_family == "RedHat"
   ```
 
-- Maak de Ansible installeren en verwijderen YAML bestanden.
+- Maak de Ansible-installatie en verwijder YAML-bestanden.
 
-    - Gebruik voor apt-gebaseerde distributies het volgende YAML-bestand:
+    - Voor apt-gebaseerde distributies gebruikt u het volgende YAML-bestand:
 
         ```bash
         cat install_mdatp.yml
@@ -208,7 +208,7 @@ Maak een subtaak of rolbestanden die bijdragen aan een draaiboek of taak.
                 state: absent
         ```
 
-    - Gebruik voor dnf-gebaseerde distributies het volgende YAML-bestand:
+    - Voor dnf-gebaseerde distributies gebruikt u het volgende YAML-bestand:
 
         ```bash
         cat install_mdatp_dnf.yml
@@ -239,16 +239,16 @@ Maak een subtaak of rolbestanden die bijdragen aan een draaiboek of taak.
 
 ## <a name="deployment"></a>Implementatie
 
-Voer nu de takenbestanden uit onder `/etc/ansible/playbooks/` of relevante map.
+Voer nu de takenbestanden uit onder `/etc/ansible/playbooks/` of relevante adreslijst.
 
-- installatie:
+- Installatie:
 
     ```bash
     ansible-playbook /etc/ansible/playbooks/install_mdatp.yml -i /etc/ansible/hosts
     ```
 
 > [!IMPORTANT]
-> Wanneer het product voor de eerste keer wordt gestart, worden de nieuwste antimalwaredefinities gedownload. Afhankelijk van uw internetverbinding kan dit enkele minuten duren.
+> Wanneer het product voor het eerst wordt gestart, worden de meest recente antimalwaredefinities gedownload. Afhankelijk van uw internetverbinding kan dit enkele minuten duren.
 
 - Validatie/configuratie:
 
@@ -267,11 +267,11 @@ Voer nu de takenbestanden uit onder `/etc/ansible/playbooks/` of relevante map.
 
 ## <a name="log-installation-issues"></a>Problemen met de installatie van logboeken
 
-Zie [Installatieproblemen logboek](linux-resources.md#log-installation-issues) voor meer informatie over het vinden van het automatisch gegenereerde logboek dat door het installatieprogramma wordt gemaakt wanneer er een fout optreedt.
+Zie [Installatieproblemen in logboeken](linux-resources.md#log-installation-issues) voor meer informatie over het vinden van het automatisch gegenereerde logboek dat door het installatieprogramma wordt gemaakt wanneer er een fout optreedt.
 
-## <a name="operating-system-upgrades"></a>Upgrades van het besturingssysteem
+## <a name="operating-system-upgrades"></a>Upgrades van besturingssysteem
 
-Wanneer u uw besturingssysteem upgradet naar een nieuwe hoofdversie, moet u eerst Defender for Endpoint op Linux verwijderen, de upgrade installeren en ten slotte Defender for Endpoint op Linux opnieuw configureren op uw apparaat.
+Wanneer u uw besturingssysteem upgradet naar een nieuwe hoofdversie, moet u Eerst Defender voor Eindpunt op Linux verwijderen, de upgrade installeren en defender voor eindpunt opnieuw configureren op Linux op uw apparaat.
 
 ## <a name="references"></a>Verwijzingen
 

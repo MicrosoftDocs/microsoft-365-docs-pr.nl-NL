@@ -1,6 +1,6 @@
 ---
-title: Onderwerp tijdelijke aanduiding om de map in het hoofd te maken die moet worden verwijderd
-description: Onderwerp tijdelijke aanduiding om de map in het hoofd te maken die moet worden verwijderd
+title: Onderwerp tijdelijke aanduiding om de map te maken in het te verwijderen hoofdmap
+description: Onderwerp tijdelijke aanduiding om de map te maken in het te verwijderen hoofdmap
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -29,5 +29,5 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572814"
 ---
-# <a name="placeholder-topic-to-create-the-folder-in-master-to-be-deleted"></a>Onderwerp tijdelijke aanduiding om de map in het hoofd te maken die moet worden verwijderd
+# <a name="placeholder-topic-to-create-the-folder-in-master-to-be-deleted"></a>Onderwerp tijdelijke aanduiding om de map te maken in het te verwijderen hoofdmap
 

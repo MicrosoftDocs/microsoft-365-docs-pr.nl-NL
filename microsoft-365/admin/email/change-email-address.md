@@ -44,19 +44,19 @@ Uw eerste e-mailadres in Microsoft 365 bevat .onmicrosoft.com, zoals tom@fourthc
 
 ::: moniker range="o365-germany"
 
-Uw eerste e-mailadres in Office 365 Duitsland bevat .onmicrosoft.de, zoals tom@fourthcoffee.onmicrosoft.de. U kunt het wijzigen in een vriendelijker adres zoals tom@fourthcoffee.de. Je hebt je eigen domeinnaam nodig, zoals fourthcoffee.de eerst. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
+Uw eerste e-mailadres in Office 365 Duitsland bevat .onmicrosoft.de, zoals tom@fourthcoffee.onmicrosoft.de. U kunt het adres wijzigen in een vriendelijker adres, zoals tom@fourthcoffee.de. U hebt uw eigen domeinnaam nodig, zoals fourthcoffee.de eerst. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Uw eerste e-mailadres in Office 365 beheerd door 21Vianet bevat partner.onmschina.cn, zoals tom@fourthcoffee.partner.onmschina.cn. U kunt het wijzigen in een vriendelijker adres zoals tom@fourthcoffee.cn. Je hebt je eigen domeinnaam nodig, zoals fourthcoffee.cn eerst. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
+Uw eerste e-mailadres in Office 365 beheerd door 21Vianet bevat partner.onmschina.cn, zoals tom@fourthcoffee.partner.onmschina.cn. U kunt het adres wijzigen in een vriendelijker adres, zoals tom@fourthcoffee.cn. U hebt uw eigen domeinnaam nodig, zoals fourthcoffee.cn eerst. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
-Wanneer u de e-mail van uw domein wijzigt om naar Microsoft 365 te komen, door de MX-record van uw domein tijdens de installatie bij te werken, begint ALLE e-mail die naar dat domein wordt verzonden, naar Microsoft 365 te komen. Zorg ervoor dat u gebruikers hebt toegevoegd en postvakken hebt gemaakt in Microsoft 365 voor iedereen die e-mail op uw domein heeft voordat u de MX-record wijzigt. Wilt u e-mail voor iedereen in uw domein niet naar Microsoft 365 verplaatsen? U kunt stappen ondernemen om [Microsoft 365 te besturen met slechts een paar e-mailadressen.](../misc/pilot-microsoft-365-from-my-custom-domain.md)
+Wanneer u de e-mail van uw domein wijzigt om naar Microsoft 365 te komen door de MX-record van uw domein bij te werken tijdens de installatie, wordt alle e-mail die naar dat domein wordt verzonden, Microsoft 365. Zorg ervoor dat u gebruikers hebt toegevoegd en postvakken hebt gemaakt in Microsoft 365 voor iedereen die e-mail in uw domein heeft voordat u de MX-record wijzigt. Wilt u niet dat e-mail voor iedereen in uw domein wordt verplaatst naar Microsoft 365? In plaats daarvan kunt u stappen Microsoft 365 [met slechts een paar e-mailadressen.](../misc/pilot-microsoft-365-from-my-custom-domain.md)
   
-## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken met behulp van het Microsoft 365-beheercentrum
+## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken met Microsoft 365 beheercentrum
 
 U moet een globaal beheerdersaccount hebben om deze stappen uit te voeren. 
 
@@ -78,7 +78,7 @@ U moet een globaal beheerdersaccount hebben om deze stappen uit te voeren.
 
 ::: moniker-end 
 
-2. Ga naar de pagina  >  **Domeinen** instellen. 
+2. Ga naar de **pagina**  >  **Domeinen** instellen. 
 
 3. Op de pagina **Domeinen** selecteert u **Domein toevoegen**.
     
@@ -87,8 +87,8 @@ U moet een globaal beheerdersaccount hebben om deze stappen uit te voeren.
 U wordt begeleid om alles correct in te stellen met uw domein in Microsoft 365.
 
 > [!NOTE]
-> Als u geen Exchange licentie gebruikt, kunt u het domein niet gebruiken om e-mails van de tenant Microsoft 365 te verzenden of te ontvangen.
+> Als u geen licentie voor Exchange gebruikt, kunt u het domein niet gebruiken om e-mailberichten te verzenden of te ontvangen van de Microsoft 365 tenant.
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een aangepast domein kopen met Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artikel)

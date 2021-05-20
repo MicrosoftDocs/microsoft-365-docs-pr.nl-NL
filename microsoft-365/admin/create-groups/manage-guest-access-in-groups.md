@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
-description: Meer informatie over het toevoegen van gasten aan een Microsoft 365 groep, het weergeven van gast gebruikers en het gebruik van PowerShell om de toegang van gasten te beheren.
+description: Lees hoe u gasten kunt toevoegen aan een Microsoft 365 groep, gastgebruikers kunt bekijken en PowerShell kunt gebruiken om gasttoegang te bepalen.
 ms.openlocfilehash: c52f0094e724040b71d5d72cded049fed57e3969
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -28,51 +28,51 @@ ms.locfileid: "52571935"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gasttoegang beheren in Microsoft 365 groepen
 
-Gasttoegang voor Microsoft 365 groepen is standaard ingeschakeld voor uw organisatie. Beheerders kunnen bepalen of gasten toegang moeten krijgen tot groepen voor hun hele organisatie of voor afzonderlijke groepen.
+Standaard is gasttoegang voor Microsoft 365 groepen ingeschakeld voor uw organisatie. Beheerders kunnen bepalen of gasttoegang tot groepen moet worden toegestaan voor hun hele organisatie of voor afzonderlijke groepen.
 
-Wanneer deze is ingeschakeld, kunnen groepsleden gastgebruikers uitnodigen voor een Microsoft 365 groep via Outlook op internet. Uitnodigingen worden ter goedkeuring naar de groepseigenaar gestuurd.
+Wanneer deze is ingeschakeld, kunnen groepsleden gastgebruikers uitnodigen voor een Microsoft 365 groep via Outlook web. Uitnodigingen worden ter goedkeuring naar de groepseigenaar verzonden.
 
-Na goedkeuring wordt de gastgebruiker toegevoegd aan de map en de groep.
+Wanneer deze is goedgekeurd, wordt de gastgebruiker toegevoegd aan de adreslijst en de groep.
 
 > [!Note]
-> Yammer Enterprise netwerken die zich in de native modus of de [EU Geo](/yammer/manage-security-and-compliance/manage-data-compliance) bevinden, ondersteunen geen netwerkgasten.
-> Microsoft 365 Verbonden Yammer groepen bieden momenteel geen ondersteuning voor gasttoegang, maar u kunt wel niet-verbonden, externe groepen maken in uw Yammer netwerk. Zie [Externe groepen maken en beheren in Yammer](/yammer/work-with-external-users/create-and-manage-external-groups) voor instructies.
+> Yammer Enterprise netwerken die zich in de autochtone modus of de [EU-geo](/yammer/manage-security-and-compliance/manage-data-compliance) hebben, bieden geen ondersteuning voor netwerkgasten.
+> Microsoft 365 Verbonden Yammer groepen bieden momenteel geen ondersteuning voor gasttoegang, maar u kunt niet-verbonden, externe groepen maken in uw Yammer netwerk. Zie [Externe groepen maken en beheren in Yammer](/yammer/work-with-external-users/create-and-manage-external-groups) voor instructies.
 
-Gasttoegang in groepen wordt vaak gebruikt als onderdeel van een breder scenario met SharePoint of Teams. Deze services hebben hun eigen instellingen voor het delen van gasten. Zie voor volledige instructies voor het instellen van het delen van gasten tussen groepen, SharePoint en Teams:
+Gasttoegang in groepen wordt vaak gebruikt als onderdeel van een breder scenario met SharePoint of Teams. Deze services hebben hun eigen instellingen voor het delen van gasten. Zie voor volledige instructies voor het instellen van het delen van gasten in groepen, SharePoint en Teams:
 
 - [Samenwerken met gasten op een site](../../solutions/collaborate-in-site.md)
 - [Samenwerken met gasten in een team](../../solutions/collaborate-as-team.md)
 
 ## <a name="manage-groups-guest-access"></a>Gasttoegang voor groepen beheren
 
-Als u gasttoegang in groepen wilt in- of uitschakelen, kunt u dit doen in het Microsoft 365-beheercentrum.
+Als u gasttoegang in groepen wilt in- of uitschakelen, kunt u dit doen in het Microsoft 365 beheercentrum.
 
-1. Ga in het beheercentrum naar **Alle** \> **Instellingen** \> **organisatie-instellingen** weergeven en selecteer op het tabblad **Services** **Microsoft 365 groepen**.
+1. Ga in het beheercentrum naar **Alle** organisatie-instellingen Instellingen en selecteer op het tabblad \>  \>  **Services** **Microsoft 365 groepen.**
   
-2. Kies **op** de pagina Microsoft 365 Groepen of u mensen buiten uw organisatie toegang wilt geven tot groepsresources of dat groepseigenaren mensen buiten uw organisatie aan groepen willen toevoegen.
+2. Kies op **Microsoft 365** pagina Groepen of u personen buiten uw organisatie toegang wilt geven tot groepsbronnen of dat groepseigenaren personen buiten uw organisatie aan groepen willen toevoegen.
 
-## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>Gasten toevoegen aan een Microsoft 365 groep vanuit het beheercentrum
+## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>Gasten toevoegen aan een Microsoft 365 vanuit het beheercentrum
 
-Als de gast al in uw map bestaat, kunt u deze toevoegen aan uw groepen vanuit het Microsoft 365-beheercentrum. (Groepen met een dynamisch lidmaatschap moeten [worden beheerd in Azure Active Directory](/azure/active-directory/enterprise-users/groups-create-rule).)
+Als de gast al aanwezig is in uw adreslijst, kunt u deze toevoegen aan uw groepen vanuit het Microsoft 365 beheercentrum. (Groepen met dynamisch lidmaatschap moeten worden [beheerd in](/azure/active-directory/enterprise-users/groups-create-rule)Azure Active Directory .)
   
-1. Ga in het beheercentrum naar de pagina **Groepen**  >  **groepen.**
+1. Ga in het beheercentrum naar de pagina  >  **Groepen groepen.**
   
-2. Klik op de groep waaraan u de gast wilt toevoegen en selecteer **Alle leden weergeven en beheren** op het tabblad **Leden.** 
+2. Klik op de groep aan wie u de gast wilt toevoegen en selecteer Alle leden weergeven en **beheren** op **het tabblad** Leden. 
   
 4. Selecteer **Leden toevoegen** en kies de naam van de gast die u wilt toevoegen.
     
-5. Selecteer **Opslaan**.
+5. Kies **Opslaan**.
 
-Als u een gast rechtstreeks aan de directory wilt toevoegen, kunt u [Azure Active Directory B2B-samenwerkings gebruikers toevoegen in de Azure Portal](/azure/active-directory/b2b/add-users-administrator).
+Als u een gast rechtstreeks aan de adreslijst wilt toevoegen, kunt u Azure Active Directory [B2B-samenwerkingsgebruikers toevoegen in de Azure-portal.](/azure/active-directory/b2b/add-users-administrator)
 
-Als u de gegevens van een gast wilt bewerken, kunt u [de profielgegevens](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)van een gebruiker toevoegen of bijwerken met behulp van Azure Active Directory .
+Als u de gegevens van een gast wilt bewerken, kunt u de profielgegevens van een gebruiker toevoegen of bijwerken met behulp [van Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Gastgebruikers uit een specifieke groep blokkeren](../../solutions/per-group-guest-access.md) (artikel)
+[Gastgebruikers blokkeren uit een specifieke groep](../../solutions/per-group-guest-access.md) (artikel)
 
-[Groepslidmaatschap beheren in het Microsoft 365-beheercentrum](add-or-remove-members-from-groups.md) (artikel)
+[Groepslidmaatschap beheren in het Microsoft 365 beheercentrum](add-or-remove-members-from-groups.md) (artikel)
   
-[Azure Active Directory toegang tot beoordelingen](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (artikel)
+[Azure Active Directory toegang tot reviews](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (artikel)
 
 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser) (artikel)

@@ -1,7 +1,7 @@
 ---
-title: Configureren hoe gebruikers kunnen communiceren met Microsoft Defender Antivirus
-description: Configureer hoe eindgebruikers omgaan met Microsoft Defender Antivirus, welke meldingen ze zien en of ze instellingen kunnen overschrijven.
-keywords: eindpunt, gebruiker, interactie, meldingen, ui-vergrendelingsmodus, hoofdloze modus, interface verbergen
+title: Configureren hoe gebruikers kunnen werken met Microsoft Defender Antivirus
+description: Configureer hoe eindgebruikers werken met Microsoft Defender Antivirus, welke meldingen ze zien en of ze de instellingen kunnen overschrijven.
+keywords: eindpunt, gebruiker, interactie, meldingen, modus ui lockdown, headless mode, hide interface
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -22,7 +22,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52571815"
 ---
-# <a name="configure-end-user-interaction-with-microsoft-defender-antivirus"></a>Interactie van eindgebruikers met Microsoft Defender Antivirus configureren
+# <a name="configure-end-user-interaction-with-microsoft-defender-antivirus"></a>Interactie tussen eindgebruikers configureren met Microsoft Defender Antivirus
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -31,12 +31,12 @@ ms.locfileid: "52571815"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-U kunt configureren hoe gebruikers van de eindpunten in uw netwerk kunnen communiceren met Microsoft Defender Antivirus. U kunt configureren of gebruikers de Microsoft Defender Antivirus interface zien, welke meldingen ze zien en of ze wereldwijd geïmplementeerde groepsbeleidsinstellingen lokaal kunnen overschrijven.
+U kunt configureren hoe gebruikers van de eindpunten in uw netwerk kunnen werken met Microsoft Defender Antivirus. U kunt configureren of gebruikers de Microsoft Defender Antivirus, welke meldingen ze zien en of ze lokaal globaal geïmplementeerde groepsbeleidsinstellingen kunnen overschrijven.
 
-Gebruik de volgende artikelen om de interactie van eindgebruikers met Microsoft Defender Antivirus
+Gebruik de volgende artikelen om interactie tussen eindgebruikers met Microsoft Defender Antivirus
 
-- **[Meldingen configureren die op eindpunten worden weergegeven](configure-notifications-microsoft-defender-antivirus.md)** Configureer en pas meldingen aan, inclusief tekst voor meldingen en meldingen over opnieuw opstarten die nodig zijn voor herstel.
+- **[Meldingen configureren die worden weergegeven op eindpunten](configure-notifications-microsoft-defender-antivirus.md)** Meldingen configureren en aanpassen, inclusief tekst voor meldingen, en meldingen over reboots die nodig zijn voor herstel.
 
-- **[Voorkomen dat gebruikers de Microsoft Defender Antivirus gebruikersinterface zien of ermee communiceren](prevent-end-user-interaction-microsoft-defender-antivirus.md)** Verberg de **Virus & bedreiging bescherming** gebruikersinterface voor eindgebruikers.
+- **[Voorkomen dat gebruikers de](prevent-end-user-interaction-microsoft-defender-antivirus.md)** gebruikersinterface van de Microsoft Defender Antivirus zien of gebruiken Verberg de **gebruikersinterface & virusbeveiliging** voor eindgebruikers.
 
-- **[Voorkomen dat gebruikers beleidsinstellingen lokaal wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md)** Voorkomen (of toestaan) dat gebruikers beleidsinstellingen op hun afzonderlijke eindpunten overschrijven.
+- **[Voorkomen dat gebruikers beleidsinstellingen lokaal wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md)** Voorkomen (of toestaan) dat gebruikers beleidsinstellingen voor hun afzonderlijke eindpunten overschrijven.

@@ -19,17 +19,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
-description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: 3133e468ef99114b1c89e16fbd0f4b5170af30d0
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken en elk diagram onderzoeken voor meer inzicht.
+ms.openlocfilehash: 917a44f4b6f7458c50ac193b95c7751c66c9e7cd
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759808"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530968"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
-U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft.
+U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft.
   
 Er zijn overzichten beschikbaar voor de afgelopen 7 dagen, 30 dagen, 90 dagen en 180 dagen. Er zijn niet direct gegevens voor alle rapportageperioden beschikbaar. De rapporten komen beschikbaar na 48 uur.
   
@@ -63,7 +63,7 @@ Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
 
 Personen met de volgende machtigingen:
   
-- Globale beheerders: we raden aan slechts een beperkt aantal personen in uw bedrijf deze rol te geven. Dit verlaagt het risico voor uw bedrijf.
+- Globale beheerders: we raden aan slechts een beperkt aantal personen in uw bedrijf deze rol te geven. Het vermindert het risico voor uw bedrijf.
     
 - Exchange-beheerders
     
@@ -199,6 +199,10 @@ Wanneer u het account van een gebruiker sluit, worden de gebruiksgegevens van di
   
 Als u echter een bepaalde dag selecteert (bijvoorbeeld nummer 3), wordt in het rapport vanaf de huidige datum tot 28 dagen daarna het gebruik van de gebruiker voor die dag weergegeven in de tabel Gebruikersgegevens (zie nummer 2).
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Rapporten in het beveiligings- &amp; compliancecentrum](../../compliance/reports-in-security-and-compliance.md)
+[Rapporten in het Beveiligings- &amp; compliancecentrum](../../compliance/reports-in-security-and-compliance.md) (artikel)
+
+[Microsoft 365-gebruiksanalyse inschakelen](../usage-analytics/usage-analytics.md) (artikel)
+
+[Rapporten in Microsoft 365-gebruiksanalyse naar voorkeur aanpassen](../usage-analytics/customize-reports.md) (artikel)

@@ -1,7 +1,7 @@
 ---
-title: IdentityLogonEvents-tabel in het geavanceerde jachtschema
-description: Meer informatie over verificatiegebeurtenissen die zijn vastgelegd door Active Directory in de tabel IdentityLogonEvents van het geavanceerde jachtschema
-keywords: geavanceerde jacht, bedreigingsjacht, jacht op cyberdreigingen, Microsoft 365 Defender, microsoft 365, m365, zoeken, query, telemetrie, schemaverwijzing, kusto, tabel, kolom, gegevenstype, beschrijving, IdentityLogonEvents, Azure AD, Active Directory, Microsoft Defender for Identity, identiteiten
+title: Tabel IdentityLogonEvents in het geavanceerde schema voor de jacht
+description: Meer informatie over verificatiegebeurtenissen die zijn geregistreerd door Active Directory in de tabel IdentityLogonEvents van het geavanceerde schema voor de jacht
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, IdentityLogonEvents, Azure AD, Active Directory, Microsoft Defender for Identity, identits
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,44 +35,44 @@ ms.locfileid: "52572751"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De `IdentityLogonEvents` tabel in het geavanceerde [jachtschema](advanced-hunting-overview.md) bevat informatie over verificatieactiviteiten die zijn uitgevoerd via uw on-premises Active Directory die is vastgelegd door Microsoft Defender voor identiteits- en verificatieactiviteiten met betrekking tot onlineservices van Microsoft die zijn vastgelegd door Microsoft Cloud App Security. Gebruik deze verwijzing om query's te maken die informatie uit deze tabel retourneren.
+De tabel in het geavanceerde schema bevat informatie over verificatieactiviteiten die zijn gemaakt via uw on-premises Active Directory die is vastgelegd door Microsoft Defender voor identiteits- en verificatieactiviteiten met betrekking tot Microsoft onlineservices die zijn vastgelegd door `IdentityLogonEvents` Microsoft Cloud App Security. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Gebruik de ingebouwde schemaverwijzing die beschikbaar is in het beveiligingscentrum voor gedetailleerde informatie over de gebeurtenistypen `ActionType` (waarden) die door een tabel worden ondersteund.
+> Voor gedetailleerde informatie over de gebeurtenissentypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing die beschikbaar is in het beveiligingscentrum.
 
 >[!NOTE]
->Deze tabel bevat Azure Active Directory (Azure AD) aanmeldingsactiviteiten die worden bijgehouden door Cloud App Security, met name interactieve aanmeldingen en verificatieactiviteiten met ActiveSync en andere verouderde protocollen. Niet-interactieve aanmeldingen die niet beschikbaar zijn in deze tabel, kunnen worden weer geven in het Azure AD-controlelogboek. [Meer informatie over het verbinden van Cloud App Security met Microsoft 365](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
+>Deze tabel bevat Azure Active Directory (Azure AD) aanmeldingsactiviteiten die worden bijgespoord door Cloud App Security, met name interactieve aanmeldingen en verificatieactiviteiten met ActiveSync en andere oudere protocollen. Niet-interactieve aanmeldingen die niet beschikbaar zijn in deze tabel, kunnen worden bekeken in het Auditlogboek van Azure AD. [Meer informatie over het verbinden van Cloud App Security met Microsoft 365](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
 
-Zie [de geavanceerde jachtreferentie](advanced-hunting-schema-tables.md)voor informatie over andere tabellen in het geavanceerde jachtschema.
+Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
-| Kolomnaam | Gegevenstype | Omschrijving |
+| Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
-| `ActionType` | snaar | Type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [in-portal schema referentie](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor meer informatie |
-| `Application` | snaar | Toepassing die de opgenomen actie heeft uitgevoerd |
-| `LogonType` | snaar | Type aanmeldingssessie, met name:<br><br> - **Interactief** - Gebruiker communiceert fysiek met de machine met behulp van het lokale toetsenbord en scherm<br><br> - **Rdp-aanmeldingen (Remote Interactive)** - De gebruiker communiceert op afstand met de machine via Extern bureaublad, Terminal Services, Hulp op afstand of andere RDP-clients<br><br> - **Netwerk** - Sessie gestart wanneer de machine wordt geopend met PsExec of wanneer gedeelde bronnen op de computer, zoals printers en gedeelde mappen, worden geopend<br><br> - **Batch** - Sessie gestart door geplande taken<br><br> - **Service** - Sessie geïnitieerd door services wanneer deze worden gestart |
-| `Protocol` | snaar | Netwerkprotocol gebruikt |
-| `FailureReason` | snaar | Informatie die uitlegt waarom de geregistreerde actie is mislukt |
-| `AccountName` | snaar | Gebruikersnaam van het account |
-| `AccountDomain` | snaar | Domein van het account |
-| `AccountUpn` | snaar | Gebruikersnaam (UPN) van het account |
-| `AccountSid` | snaar | Beveiligingsidentificatiecode (SID) van het account |
-| `AccountObjectId` | snaar | Unieke id voor het account in Azure AD |
-| `AccountDisplayName` | snaar | Naam van de accountgebruiker die in het adresboek wordt weergegeven. Meestal een combinatie van een bepaalde of voornaam, een middelste initiatie en een achternaam of achternaam. |
-| `DeviceName` | snaar | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat |
-| `DeviceType` | snaar | Type apparaat |
-| `OSPlatform` | snaar | Platform van het besturingssysteem dat op de machine draait. Dit duidt op specifieke besturingssystemen, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
-| `IPAddress` | snaar | IP-adres toegewezen aan het eindpunt en gebruikt tijdens gerelateerde netwerkcommunicatie |
-| `Port` | snaar | TCP-poort die wordt gebruikt tijdens communicatie |
-| `DestinationDeviceName` | snaar | Naam van het apparaat waarop de servertoepassing wordt uitgevoerd waarmee de opgenomen actie is verwerkt |
-| `DestinationIPAddress` | snaar | IP-adres van het apparaat waarop de servertoepassing wordt uitgevoerd die de opgenomen actie heeft verwerkt |
-| `DestinationPort` | snaar | Bestemmingshaven van gerelateerde netwerkcommunicatie |
-| `TargetDeviceName` | snaar | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat waarop de geregistreerde actie is toegepast |
-| `TargetAccountDisplayName` | snaar | Naam weergeven van de rekening waarop de geregistreerde actie is toegepast |
-| `Location` | snaar | Plaats, land of andere geografische locatie die aan het evenement is gekoppeld |
-| `Isp` | snaar | Internetprovider (ISP) gekoppeld aan het IP-adres van het eindpunt |
+| `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
+| `ActionType` | tekenreeks | Type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [in-portal schemaverwijzing voor](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) meer informatie |
+| `Application` | tekenreeks | Toepassing die de opgenomen actie heeft uitgevoerd |
+| `LogonType` | tekenreeks | Type aanmeldingssessie, met name:<br><br> - **Interactief:** gebruiker werkt fysiek met de computer met behulp van het lokale toetsenbord en scherm<br><br> - **RDP-aanmeldingen (Remote Interactive)** - Gebruiker werkt op afstand met de computer met behulp van Extern bureaublad, Terminal Services, Hulp op afstand of andere RDP-clients<br><br> - **Netwerk:** sessie gestart wanneer de computer wordt gebruikt met PsExec of wanneer gedeelde resources op de computer, zoals printers en gedeelde mappen, worden gebruikt<br><br> - **Batch** : sessie die is gestart door geplande taken<br><br> - **Service** - Sessie gestart door services terwijl deze beginnen |
+| `Protocol` | tekenreeks | Netwerkprotocol gebruikt |
+| `FailureReason` | tekenreeks | Informatie waarin wordt uitgelegd waarom de opgenomen actie is mislukt |
+| `AccountName` | tekenreeks | Gebruikersnaam van het account |
+| `AccountDomain` | tekenreeks | Domein van het account |
+| `AccountUpn` | tekenreeks | Gebruikersnaam (UPN) van het account |
+| `AccountSid` | tekenreeks | Beveiligings-id (SID) van het account |
+| `AccountObjectId` | tekenreeks | Unieke id voor het account in Azure AD |
+| `AccountDisplayName` | tekenreeks | Naam van de accountgebruiker die wordt weergegeven in het adresboek. Meestal een combinatie van een bepaalde of voornaam, een middelste initiatie en een achternaam of achternaam. |
+| `DeviceName` | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat |
+| `DeviceType` | tekenreeks | Type apparaat |
+| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
+| `IPAddress` | tekenreeks | IP-adres toegewezen aan het eindpunt en gebruikt tijdens gerelateerde netwerkcommunicatie |
+| `Port` | tekenreeks | TCP-poort die tijdens communicatie wordt gebruikt |
+| `DestinationDeviceName` | tekenreeks | Naam van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
+| `DestinationIPAddress` | tekenreeks | IP-adres van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
+| `DestinationPort` | tekenreeks | Doelpoort van gerelateerde netwerkcommunicatie |
+| `TargetDeviceName` | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat waar de opgenomen actie op is toegepast |
+| `TargetAccountDisplayName` | tekenreeks | Weergavenaam van het account waar de opgenomen actie op is toegepast |
+| `Location` | tekenreeks | Plaats, land of andere geografische locatie die is gekoppeld aan de gebeurtenis |
+| `Isp` | tekenreeks | Internetprovider die is gekoppeld aan het IP-adres van het eindpunt |
 | `ReportId` | lang | Unieke id voor de gebeurtenis |
-| `AdditionalFields` | snaar | Aanvullende informatie over de entiteit of gebeurtenis |
+| `AdditionalFields` | tekenreeks | Aanvullende informatie over de entiteit of gebeurtenis |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
