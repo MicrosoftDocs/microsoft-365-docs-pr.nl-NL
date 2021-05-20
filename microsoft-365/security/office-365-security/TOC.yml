@@ -38,6 +38,14 @@
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: Overzicht van Microsoft 365-beveiligingscentrum
           href: ../defender/overview-security-center.md
+        - name: Bedreigingsverkenner voor Defender voor Office 365
+          items:
+            - name: Bedreigingen opsporen in Bedreigingsverkenner
+              href: threat-hunting-in-threat-explorer.md
+            - name: E-mailbeveiliging met Bedreigingsverkenner
+              href: email-security-in-microsoft-defender.md
+            - name: Bedreigingsverkenner en basisbeginselen van realtime detecties
+              href: real-time-detections.md
         - name: Entiteitspagina van e-mail
           href: mdo-email-entity-page.md
         - name: AIR-overzicht
@@ -192,14 +200,6 @@
           href: zero-hour-auto-purge.md
     - name: Detecteren
       items:
-        - name: Bedreigingsverkenner voor Defender voor Office 365
-          items:
-            - name: Bedreigingen opsporen in Bedreigingsverkenner
-              href: threat-hunting-in-threat-explorer.md
-            - name: E-mailbeveiliging met Bedreigingsverkenner
-              href: email-security-in-microsoft-defender.md
-            - name: Bedreigingsverkenner en basisbeginselen van realtime detecties
-              href: real-time-detections.md
         - name: Bedreigingsoverzichten gebruiken
           href: threat-trackers.md
         - name: Waarschuwingen weergeven
