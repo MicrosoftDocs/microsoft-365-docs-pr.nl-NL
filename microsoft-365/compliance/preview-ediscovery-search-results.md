@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Bekijk een voorbeeld van de resultaten die worden geretourneerd door een inhoudszoekactie of een basiszoekactie in eDiscovery in het Microsoft 365-compliancecentrum.
-ms.openlocfilehash: ebe4aa0d5f08ab97376cfde63eb59351fccd1911
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: a89c8c9ed2500b4e2a859c75be3da177203d1406
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52314275"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538584"
 ---
 # <a name="preview-ediscovery-search-results"></a>Voorbeeld van eDiscovery-zoekresultaten bekijken
 
@@ -39,9 +39,25 @@ Een voorbeeld bekijken van de resultaten die door een zoekopdracht worden gereto
 
 3. Klik onderaan de flyoutpagina op **Voorbeeld controleren**.
 
+   ![Klik op Voorbeeld bekijken op de flyoutpagina om de resultaten te bekijken](../media/PreviewSearchResults1.png)
+
    Er wordt een pagina weergegeven met daarin een voorbeeld van de zoekresultaten.
 
 4. Selecteer een item om de inhoud ervan weer te geven in het leesvenster.
+
+   ![Voorbeelden van items weergeven in het leesvenster.](../media/PreviewSearchResults2.png)
+
+   In de vorige schermopname ziet u dat trefwoorden uit de zoekquery zijn gemarkeerd wanneer u een voorbeeld van items bekijkt.
+
+## <a name="how-the-search-result-samples-are-selected"></a>Hoe de voorbeelden van zoekresultaten worden geselecteerd
+
+Er kunnen maximaal 1000 willekeurig geselecteerde items als voorbeeld worden weergegeven. Items die beschikbaar zijn om als voorbeeld te worden weergegeven, moeten niet alleen willekeurig worden geselecteerd, maar moeten ook voldoen aan de volgende criteria:
+
+- Er kan maximaal 100 items uit één inhoudslocatie (een postvak of een site) als voorbeeld worden bekeken. Dit betekent dat er mogelijk minder dan 1000 items beschikbaar zijn om als voorbeeld te worden bekeken. Als u bijvoorbeeld in vier postvakken zoekt en u 1500 geschatte items als gevolg hebt, zijn er slechts 400 beschikbaar om als voorbeeld te worden bekeken, omdat er slechts 100 items uit elk postvak als voorbeeld kunnen worden bekeken.
+
+- Voor postvakitems zijn alleen e-mailberichten beschikbaar om als voorbeeld te worden bekeken. Van items zoals taken, agenda-items en contactpersonen kan geen voorbeeld worden weergegeven.
+
+- Voor site-items zijn alleen documenten beschikbaar om als voorbeeld worden bekeken. Er kan geen voorbeeld worden weergegeven van items zoals mappen, lijsten of lijstbijlagen.
 
 ## <a name="file-types-supported-when-previewing-search-results"></a>Ondersteunde bestandstypen bij het bekijken van zoekresultaten
 

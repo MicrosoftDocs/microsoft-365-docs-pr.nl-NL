@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
-description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. Zo kan de servicebeheerder bijvoorbeeld supporttickets openen via het Beheercentrum.
-ms.openlocfilehash: d220ee918f70a56ba27bdad9d7d0f45025fad451
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+description: Beheerdersrollen zoals de Servicebeheerder worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het beheercentrum.
+ms.openlocfilehash: 7ba8b6fd483901fde31a9bceca189797b4f2e16d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759406"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536008"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -43,7 +43,7 @@ Zoekt u een volledige lijst met uitgebreide beschrijvingen van Intune-rollen die
 
 Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over het toewijzen van rollen in het Microsoft 365-beheercentrum.
 
-### <a name="watch-what-is-an-admin"></a>Bekijk: Wat is een beheerder?
+## <a name="watch-what-is-an-admin"></a>Bekijk: Wat is een beheerder?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0]
 
@@ -70,7 +70,7 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 |Factureringsbeheerder     |   Wijs de beheerdersrol Facturering toe aan gebruikers die aankopen doen, abonnementen en serviceaanvragen beheren en de servicestatus controleren. <br><br> Factureringsbeheerders kunnen ook:<br> - Alle aspecten van facturering beheren <br> - Ondersteuningstickets maken en beheren in de Azure-portal <br>  |
 |Exchange-beheerder     |   Wijs de Exchange-beheerdersrol toe aan gebruikers die de e-mailpostvakken, Microsoft 365-groepen en Exchange Online van uw gebruikers moeten kunnen bekijken en beheren. <br><br> Exchange-beheerders kunnen ook het volgende doen:<br> - Verwijderde items herstellen in het postvak van een gebruiker <br> Gedelegeerden instellen voor 'Verzenden als' en 'Verzenden namens'. <br>  |
 |Algemene beheerder     |   Wijs de Globale beheerdersrol toe aan gebruikers die wereldwijde toegang nodig hebben tot de meeste beheerfuncties en -gegevens via Microsoft online services. <br><br> Te veel gebruikers globale toegang geven is een beveiligingsrisico, we raden u dan ook aan om 2 tot 4 globale beheerders te hebben. <br><br> Alleen globale beheerders kunnen het volgende doen:<br> - Wachtwoorden voor alle gebruikers opnieuw instellen <br> - Domeinen toevoegen en beheren <br> <br> **Opmerking:** de persoon die zich heeft geregistreerd voor Microsoft Online Services, wordt automatisch een globale beheerder. |
-|Algemene lezer    |   Wijs de rol van algemene lezer toe aan gebruikers die beheerdersfuncties en -instellingen moeten bekijken in beheercentra die de globale beheerder kan zien. De beheerder van de algemene lezers kan geen instellingen bewerken.   |
+|Algemene lezer    |   Wijs de rol van globale lezer toe aan gebruikers die beheerdersfuncties en -instellingen moeten bekijken in beheercentra die de globale beheerder kan zien. De globale beheerder kan deze instellingen niet bewerken.   |
 |Groepsbeheerder     |   Wijs de groepsbeheerdersrol toe aan gebruikers die alle groepsinstellingen in alle beheercentra moeten beheren, inclusief het Microsoft 365-Beheercentrum en de Azure Active Directory-Portal. <br><br> Groepsbeheerders kunnen het volgende doen:<br> - Microsoft 365-groepen maken, bewerken, verwijderen en herstellen <br> - Beleid voor het maken, verlopen en benoemen van groepen maken en bijwerken <br> - Azure Active Directory-beveiligingsgroepen maken, bewerken, verwijderen en herstellen| 
 |Helpdesk-beheerder     |   Wijs de beheerdersrol Helpdesk toe aan gebruikers die de volgende taken moeten uitvoeren:<br> - Wachtwoorden opnieuw instellen <br> - Gebruikers dwingen zich af te melden <br> - Serviceaanvragen beheren <br> - De servicestatus bewaken <br> <br> **Opmerking**: de Helpdesk-beheerder kan alleen niet-beheerders helpen en gebruikers die deze rollen hebben toegewezen: Directory-lezer, Gast-invite, Helpdesk-beheerder, Berichtencentrum-lezer en Rapportlezer.      |
 |Licentiebeheerder    |   Wijs de beheerdersrol Licenties toe aan gebruikers die licenties van gebruikers moeten toewijzen en verwijderen en hun gebruikslocatie moeten bewerken. <br/><br/> Licentiebeheerders kunnen ook: <br> - Licentietoewijzingen voor groepslicenties opnieuw verwerken <br> - Productlicenties toewijzen aan groepen voor groepslicenties  |
@@ -93,12 +93,12 @@ Een partner kan deze rollen toewijzen:
 
 Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](../misc/add-partner.md)voor instructies.
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Beheerdersrollen toewijzen](assign-admin-roles.md)
+[Beheerdersrollen toewijzen](assign-admin-roles.md) (artikel)
 
-[Informatie over Azure AD-rollen in het Microsoft 365-beheercentrum](azure-ad-roles-in-the-mac.md)
+[Informatie over Azure AD-rollen in het Microsoft 365-beheercentrum](azure-ad-roles-in-the-mac.md) (artikel)
 
-[Exchange Online-beheerdersrol](about-exchange-online-admin-role.md)
+[Exchange Online-beheerdersrol](about-exchange-online-admin-role.md) (artikel)
   
-[Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md)
+[Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md) (artikel)

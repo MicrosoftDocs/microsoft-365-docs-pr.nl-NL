@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Maak gedeelde postvakken zodat meerdere personen binnen uw bedrijf de verantwoordelijkheid kunnen delen voor het lezen en beantwoorden van e-mails die naar hetzelfde adres zijn gestuurd.
-ms.openlocfilehash: 004473b329b14be9287f249b1d640c3b0803412a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 808b98b45c3d6f5ba3cd9847ba2aa843ff53d106
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915876"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537605"
 ---
 # <a name="create-a-shared-mailbox"></a>Een gedeeld postvak maken 
 
@@ -38,7 +38,7 @@ ms.locfileid: "50915876"
 
 Het is eenvoudig om gedeelde postvakken te maken zodat een groep e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres zoals info@contoso.com. Wanneer een persoon in de groep een bericht beantwoordt dat naar het gedeelde postvak is verzonden, lijkt het e-mailbericht afkomstig te zijn van het gedeelde postvak, niet van de afzonderlijke gebruiker.
 
-Gedeelde postvakken hebben een gedeelde agenda. Veel kleine bedrijven vinden de gedeelde agenda handig omdat iedereen hier zijn afspraken kan invoeren. Als u bijvoorbeeld drie mensen hebt die klantbezoeken doen, kunnen zij allemaal de gedeelde agenda gebruiken om hun afspraken in te voeren. Dit is een handige manier om iedereen op de hoogte te houden van waar mensen zich bevinden.
+In gedeelde postvakken is een gedeelde agenda opgenomen. Veel kleine bedrijven vinden de gedeelde agenda handig omdat iedereen hier zijn afspraken kan invoeren. Als u bijvoorbeeld drie mensen hebt die klantbezoeken doen, kunnen zij allemaal de gedeelde agenda gebruiken om hun afspraken in te voeren. Dit is een handige manier om iedereen op de hoogte te houden van waar mensen zich bevinden.
 
 Lees eerst [Meer informatie over gedeelde postvakken](about-shared-mailboxes.md) voordat u een gedeeld postvak maakt.
 
@@ -198,14 +198,14 @@ Wanneer u een gedeeld postvak maakt, maakt u automatisch een gedeelde agenda. We
 
 3. Een lid van het gedeelde postvak kan afspraken in de agenda aanmaken, weergeven en beheren, net zoals ze dat doen voor persoonlijke afspraken. Iedereen die lid is van het gedeelde postvak kan de wijzigingen zien in de gedeelde agenda.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Meer over gedeelde postvakken](about-shared-mailboxes.md)
+[Info over gedeelde postvakken](about-shared-mailboxes.md) (artikel)
 
-[Een gedeeld postvak configureren](configure-a-shared-mailbox.md)
+[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)
 
-[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md)
+[Het postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)
 
-[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md)
+[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md) (artikel)
 
-[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md)
+[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)

@@ -1,5 +1,5 @@
 ---
-title: DMARC gebruiken om e-mail te valideren
+title: DMARC gebruiken om e-mail te valideren, configuratiestappen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -7,6 +7,7 @@ author: MSFTTracyP
 manager: dansimp
 audience: ITPro
 ms.topic: article
+ms.date: 05/10/2021
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -17,12 +18,12 @@ ms.collection:
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ec17ebadb40f2032e36cc6d4d74db445897c40b4
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9beada6e0fb61e503392b0bd379f02bd1c025464
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204457"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538673"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
@@ -91,15 +92,15 @@ _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=
 
 Microsoft zendt DMARC-rapporten naar [Agari](https://agari.com), een derde. Agari verzamelt en analyseert DMARC-rapporten. Ga naar de [MISA-catalogus](https://www.microsoft.com/misapartnercatalog) om meer externe leveranciers te bekijken die DMARC-rapportage bieden voor Microsoft 365.
 
-## <a name="implement-dmarc-for-inbound-mail"></a>DMARC implementeren voor inkomende e-mail
+## <a name="set-up-dmarc-for-inbound-mail"></a>DMARC instellen voor inkomende e-mail
 
 U hoeft niets te doen om DMARC in te stellen voor e-mail die u ontvangt in Microsoft 365. Wij hebben overal al voor gezorgd. Zie [Hoe Microsoft 365 omgaat met inkomende e-mail waarvan de DMARC-controle mislukt](#how-microsoft-365-handles-inbound-email-that-fails-dmarc) als u wilt weten wat er gebeurt met e-mail die niet door onze DMARC-controle komt.
 
-## <a name="implement-dmarc-for-outbound-mail-from-microsoft-365"></a>DMARC implementeren voor uitgaande e-mail vanuit Microsoft 365
+## <a name="set-up-dmarc-for-outbound-mail-from-microsoft-365"></a>DMARC instellen voor uitgaande e-mail vanuit Microsoft 365
 
 Als u Microsoft 365 gebruikt, maar geen aangepast domein, dat wil zeggen dat u onmicrosoft.com gebruikt, hoeft u niets anders te doen om DMARC voor uw organisatie te configureren of te implementeren. SPF is al voor u ingesteld en Microsoft 365 genereert automatisch een DKIM-handtekening voor uw uitgaande e-mail. Zie [Standaardgedrag voor DKIM en Microsoft 365](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior) voor meer informatie over deze handtekening.
 
- Als u een aangepast domein hebt of als u on-premises Exchange-servers gebruikt naast Microsoft 365, moet u handmatig DMARC implementeren voor uw uitgaande e-mail. Het implementeren van DMARC voor uw aangepaste domein bestaat uit de volgende stappen:
+ Als u een aangepast domein hebt of als u on-premises Exchange-servers gebruikt naast Microsoft 365, moet u handmatig DMARC implementeren voor uw uitgaande e-mail. Het implementeren van DMARC voor uw aangepast domein bevat de volgende stappen:
 
 - [Stap 1: geldige bronnen van e-mail identificeren voor uw domein](#step-1-identify-valid-sources-of-mail-for-your-domain)
 
@@ -179,6 +180,15 @@ Voorbeelden:
 
 Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken. Zie [DNS-records voor Microsoft 365 maken wanneer u uw DNS-records beheert](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) voor instructies over het toevoegen van het DMARC TXT-record aan uw DNS-records voor Microsoft 365.
 
+## <a name="dmarc-mail-public-preview-feature"></a>DMARC Mail (functie Openbare preview)
+> [!CAUTION]
+> E-mailberichten worden mogelijk niet dagelijks verzonden en het rapport zelf kan tijdens de openbare preview worden gewijzigd.  U kunt e-mailberichten met een samengevoegd DMARC-rapport verwachten van de consumentenaccounts (zoals accounts voor hotmail.com, outlook.com of live.com).
+
+In dit voorbeeld wordt de TXT-record DMARC **_dmarc.microsoft.com.   3600 IN TXT "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"** ziet u het *rua* adres, in dit geval, verwerkt door het externe bedrijf Agari. Dit adres wordt gebruikt voor het verzenden van 'statistische feedback' voor analyse, en dat wordt gebruikt om een rapport te genereren.
+
+> [!TIP]
+> Ga naar de [MISA-catalogus](https://www.microsoft.com/misapartnercatalog) om meer externe leveranciers te bekijken die DMARC-rapportage bieden voor Microsoft 365. Zie ['Domain-based Message Authentication, Reporting, and Conformance (DMARC)' van IETF.org](https://datatracker.ietf.org/doc/html/rfc7489) voor meer informatie over 'rua' adressen van DMARC.
+
 ## <a name="best-practices-for-implementing-dmarc-in-microsoft-365"></a>Aanbevolen procedures voor implementatie van DMARC in Microsoft 365
 
 U kunt DMARC geleidelijk implementeren zonder gevolgen voor de rest van uw e-mailstroom. Maak en implementeer een planning die de deze stappen volgt. Voer elk van deze stappen eerst uit met een subdomein, dan andere subdomeinen en ten slotte met het hoofddomein in uw organisatie voordat u doorgaat met de volgende stap.
@@ -221,9 +231,9 @@ Microsoft 365 is zo geconfigureerd, omdat van bepaalde legitieme e-mail de DMARC
 
 - Gebruikers voegen veilige afzenders afzonderlijk toe in hun e-mailclient.
 
-- Beheerders kunnen de [Spoof Intelligence](learn-about-spoof-intelligence.md) bijwerken om de adresvervalsing toe te staan.
+- Beheerders kunnen gebruikmaken van [Inzicht in adresvervalsingsanalyse](learn-about-spoof-intelligence.md) of de [Lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md) om berichten van de vervalste afzender toe te staan.
 
-- Beheerders maken een Exchange-e-mailstroom (ook wel transportregel genoemd) voor alle gebruikers die berichten van die bepaalde afzenders toestaan.
+- Beheerders maken een Exchange-e-mailstroomregel (ook wel transportregel genoemd) voor alle gebruikers die berichten van die bepaalde afzenders toestaan.
 
 Zie [Lijsten met veilige afzenders maken](create-safe-sender-lists-in-office-365.md) voor meer informatie.
 

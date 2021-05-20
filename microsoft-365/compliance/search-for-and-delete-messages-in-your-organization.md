@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Gebruik de functie Zoeken en verwijderen in het beveiligings- en compliancecentrum om een e-mailbericht te zoeken en te verwijderen uit alle postvakken in uw organisatie.
-ms.openlocfilehash: b7bb1008120df8efefc983d526d90e8397b3a89e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 629b236be3f857da47674cda9350d8b89e6f3445
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162100"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537641"
 ---
 # <a name="search-for-and-delete-email-messages"></a>E-mailberichten zoeken en verwijderen
 
@@ -41,7 +41,10 @@ U kunt de functie Zoeken en verwijderen gebruiken om een e-mailbericht te zoeken
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-- Om inhoud te zoeken, moet u lid zijn van de rollengroep **eDiscovery-beheerder** of aan de beheerdersrol **Compliance zoeken** zijn toegewezen. Om berichten te verwijderen, moet u lid zijn van de rollengroep **Organisatiebeheer** of aan de rol **Zoeken en opschonen** zijn toegewezen. Zie [eDiscovery-machtigingen toewijzen in het beveiligings- en compliancecentrum](assign-ediscovery-permissions.md) voor informatie over het toevoegen van gebruikers aan een rollengroep.
+- Om Inhoud zoeken te maken en uit te voeren, moet u lid zijn van de rollengroep **eDiscovery-manager** of aan de rol **Compliance zoeken** in Beveiligings- en compliancecentrum zijn toegewezen. Om berichten te verwijderen, moet u lid zijn van de rollengroep **Organisatiebeheer** of aan de rol **Zoeken en opschonen** in het Beveiligings- en compliancecentrum zijn toegewezen. Zie [eDiscovery-machtigingen toewijzen in het Beveiligings- en compliancecentrum](assign-ediscovery-permissions.md) voor informatie over het toevoegen van gebruikers aan een rollengroep.
+
+  > [!NOTE]
+  > De rollengroep **Organisatiebeheer** bestaat zowel in Exchange Online als in het Beveiligings- en compliancecentrum. Dit zijn afzonderlijke rollengroepen die verschillende machtigingen geven. Als lid van **Organisatiebeheer** in Exchange Online worden de vereiste machtigingen voor het verwijderen van e-mailberichten niet verleend. Als u niet de rol **Zoeken en opschonen** toegewezen hebt gekregen in Beveiligings- en compliancecentrum (rechtstreeks of via een rollengroep zoals **Organisatiebeheer**), wordt u in stap 3 een fout weergegeven wanneer u de cmdlet **New-ComplianceSearchAction** uitvoert met het bericht 'Er kan geen parameter worden gevonden die overeenkomt met de parameternaam 'Opschonen'.
 
 - U moet PowerShell voor het beveiligings- en compliancecentrum gebruiken om berichten te verwijderen. Zie [stap 2](#step-2-connect-to-security--compliance-center-powershell) voor instructies over het maken van verbinding.
 
@@ -70,7 +73,7 @@ De eerste stap bestaat uit het maken en uitvoeren van een inhoudszoekactie om he
 
 ### <a name="tips-for-finding-messages-to-remove"></a>Tips voor het zoeken naar berichten die u wilt verwijderen
 
-Het doel van de zoekopdracht is om de resultaten van de zoekopdracht te beperken tot alleen het bericht of de berichten die u wilt verwijderen. Hier volgen enkele tips:
+Het doel van de zoekopdracht is om de resultaten van de zoekopdracht te beperken tot alleen het bericht of de berichten die u wilt verwijderen. Hier zijn enkele tips:
 
 - Gebruik de eigenschap **Onderwerp** in de zoekquery als u de exacte tekst of woordgroep kent die in de onderwerpregel van het bericht wordt gebruikt.
 

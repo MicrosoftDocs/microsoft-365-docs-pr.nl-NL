@@ -19,12 +19,12 @@ search.appverid:
 description: Meer informatie over drie hulpprogramma's die u kunt gebruiken om te controleren op lekkage van persoonlijke gegevens.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b51bc5d5d3cbfa8951392f88edc6e178778206df
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0976c0d1c0c8d3ebb25ebf423f1d9df2f71fc852
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204123"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538277"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Controleer op lekken van persoonlijke gegevens
 
@@ -87,7 +87,7 @@ Er zijn oplossingen beschikbaar die zich via de Microsoft Management Activity AP
 
 Meer informatie over het waarschuwingsbeleid en het doorzoeken van het auditlogboek:
 
-- [Waarschuwingsbeleid in de beveiligings- en compliancecentra van Microsoft 365](../../compliance/alert-policies.md)
+- [Waarschuwingsbeleid in Microsoft 365](../../compliance/alert-policies.md)
 
 - [Zoeken in het auditlogboek naar gebruikers- en beheerdersactiviteit in Office 365](../../compliance/search-the-audit-log-in-security-and-compliance.md) (Inleiding)
 

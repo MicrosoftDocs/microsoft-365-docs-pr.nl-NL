@@ -19,14 +19,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Informatie over het beheren van uw betalingsmethoden in het Microsoft 365-beheercentrum.
+description: Wanneer u zakelijke producten of services van Microsoft koopt, kunt u een bestaande betalingswijze gebruiken of een nieuwe toevoegen in het Microsoft 365-beheercentrum.
 ms.date: 04/02/2021
-ms.openlocfilehash: b6fe62a70d478a98eb13a17fafb4320afc6b5952
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: bda7eca29b92cdf131c6d3f5a6069ea2be77f6fa
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332004"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537317"
 ---
 # <a name="manage-payment-methods"></a>Betalingsmethoden beheren
 
@@ -87,7 +87,7 @@ U kunt de betalingsmethode wijzigen die voor één abonnement wordt gebruikt.
 
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 2. Zoek in het tabblad **Producten** het abonnement waarvoor u wilt betalen met de alternatieve betalingsmethode.
-3. Selecteer **Meer acties** (drie puntjes) en selecteer **Betalingsmethode vervangen**.
+3. Selecteer de drie puntjes (meer acties) en selecteer **Betalingswijze vervangen**.
 4. Kies in het deelvenster **Betalingsmethode vervangen** in de vervolgkeuzelijst een alternatieve betalingsmethode of kies voor het toevoegen van een betalingsmethode.
 5. Als u een betalingsmethode toevoegt, voert u de kaart- of rekeninggegevens in en selecteert u **Opslaan**.
 6. Controleer of de geselecteerde betalingsmethode juist is en selecteer **Vervangen**.

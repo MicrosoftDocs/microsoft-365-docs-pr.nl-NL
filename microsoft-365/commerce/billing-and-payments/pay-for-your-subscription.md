@@ -14,19 +14,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 search.appverid: MET150
-description: Informatie over de betalingsopties die beschikbaar zijn om te betalen voor uw Microsoft 365 voor Bedrijven-abonnement.
+description: Gebruik een creditcard, betaalkaart of bankrekening om te betalen voor uw abonnement op Microsoft 365 voor Bedrijven, of in sommige gevallen kunt u betalen per factuur.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce_billing
 ms.date: 05/04/2021
-ms.openlocfilehash: 282e8106e75a94b3c9693a2aba9bfa2edf72f6ed
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: eb1e8ed9e932b09a82dc8529f933a1926868319d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331968"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535696"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Meer informatie over het betalen voor uw abonnement
 

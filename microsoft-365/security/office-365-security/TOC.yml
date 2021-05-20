@@ -38,14 +38,6 @@
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: Overzicht van Microsoft 365-beveiligingscentrum
           href: ../defender/overview-security-center.md
-        - name: Bedreigingsverkenner voor Defender voor Office 365
-          items:
-            - name: Bedreigingen opsporen in Bedreigingsverkenner
-              href: threat-hunting-in-threat-explorer.md
-            - name: E-mailbeveiliging met Bedreigingsverkenner
-              href: email-security-in-microsoft-defender.md
-            - name: Bedreigingsverkenner en basisbeginselen van realtime detecties
-              href: real-time-detections.md
         - name: Entiteitspagina van e-mail
           href: mdo-email-entity-page.md
         - name: AIR-overzicht
@@ -118,8 +110,6 @@
           href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Filteren van uitgaande spam configureren
           href: configure-the-outbound-spam-policy.md
-        - name: Spoofberichten configureren
-          href: learn-about-spoof-intelligence.md
         - name: Lijsten met geblokkeerde afzenders maken
           href: Create-block-sender-lists-in-office-365.md
         - name: Lijsten met veilige afzenders maken
@@ -150,10 +140,6 @@
           href: support-for-anonymous-inbound-email-messages-over-ipv6.md
         - name: 'Application Guard voor Office installeren '
           href: install-app-guard.md
-        - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
-          href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-        - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
-          href: create-team-sites-in-a-political-campaign-dev-test-environment.md
     - name: Migreren
       items:
         - name: 'Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort'
@@ -206,6 +192,14 @@
           href: zero-hour-auto-purge.md
     - name: Detecteren
       items:
+        - name: Bedreigingsverkenner voor Defender voor Office 365
+          items:
+            - name: Bedreigingen opsporen in Bedreigingsverkenner
+              href: threat-hunting-in-threat-explorer.md
+            - name: E-mailbeveiliging met Bedreigingsverkenner
+              href: email-security-in-microsoft-defender.md
+            - name: Bedreigingsverkenner en basisbeginselen van realtime detecties
+              href: real-time-detections.md
         - name: Bedreigingsoverzichten gebruiken
           href: threat-trackers.md
         - name: Waarschuwingen weergeven
@@ -226,13 +220,13 @@
           href: campaigns.md
         - name: Schadelijke e-mail onderzoeken
           href: investigate-malicious-email-that-was-delivered.md
-        - name: Bekijk Defender voor Office 365-rapporten in het Beveiligings- en compliancecentrum
-          href: view-reports-for-mdo.md
         - name: Details en resultaten van een geautomatiseerd onderzoek weergeven
           href: air-view-investigation-results.md
-        - name: E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
+        - name: Defender voor Office 365-rapporten weergeven
+          href: view-reports-for-mdo.md
+        - name: Beveiligingsrapporten voor e-mail weergeven
           href: view-email-security-reports.md
-        - name: E-mailstroominzichten in het Beveiligings- en compliancecentrum bekijken
+        - name: E-mailstroomrapporten weergeven
           href: view-mail-flow-reports.md
         - name: Het auditlogboek van de beheerder bekijken in standalone EOP
           href: view-the-admin-audit-log-eop.md
@@ -240,6 +234,8 @@
           href: reporting-and-message-trace-in-exchange-online-protection.md
         - name: Inzicht in automatisch doorgestuurde berichten
           href: mfi-auto-forwarded-messages-report.md
+        - name: Inzicht in imitatie
+          href: impersonation-insight.md
         - name: E-mailstroomkaart
           href: mfi-mail-flow-map-report.md
         - name: Berichten handmatig aan Microsoft verzenden
@@ -256,6 +252,8 @@
           href: mfi-outbound-and-inbound-mail-flow.md
         - name: Inzicht in en rapport over SMTP-verificatieclients
           href: mfi-smtp-auth-clients-report.md
+        - name: Inzicht in adresvervalsingsanalyse
+          href: learn-about-spoof-intelligence.md
         - name: Malware en niet-malware aan Microsoft verzenden
           href: submitting-malware-and-non-malware-to-microsoft-for-analysis.md
         - name: Inzicht in e-mailstroomstatus van hoofddomein
@@ -266,8 +264,6 @@
           href: use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
         - name: Inzicht in wachtrijen
           href: mfi-queue-alerts-and-queues.md
-        - name: Stapsgewijze instructies voor inzicht in adresvervalsingsanalyses
-          href: walkthrough-spoof-intelligence-insight.md
     - name: Beantwoorden
       items:
         - name: Gehackte gebruikersaccounts snel detecteren en adresseren

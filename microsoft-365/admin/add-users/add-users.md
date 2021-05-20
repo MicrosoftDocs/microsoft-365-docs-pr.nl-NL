@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Informatie over het tegelijkertijd toevoegen van gebruikers en het toewijzen van licenties aan Microsoft 365.
+description: De personen in uw team hebben elk een gebruikersaccount nodig voordat ze zich kunnen aanmelden en toegang hebben tot Microsoft 365 voor Bedrijven. Informatie over het toevoegen van gebruikers en het toewijzen van licenties.
 ms.date: 07/01/2020
-ms.openlocfilehash: 3efa32d21a21ed12041f5731296c1b033374712f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 390576f46bed57929471b16848f9e1fd7e95304d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274386"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535996"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Tegelijkertijd gebruikers toevoegen en licenties toewijzen
 

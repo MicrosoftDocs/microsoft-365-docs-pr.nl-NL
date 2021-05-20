@@ -22,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
-description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: a785ef17f0823429ad5eb216a330dc6f04dc7761
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: 'Lees hoe een Microsoft 365-globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen wanneer hun naam wijzigt. '
+ms.openlocfilehash: 2614e0ae53e5ff1cf08ded384e7470cc5967e682
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291017"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535984"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -251,8 +251,10 @@ Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.co
   
 Zie [De naam van een gebruikersaccount wijzigen](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10)) voor meer informatie over hoe u een gebruikersnaam kunt wijzigen in Active Directory in Windows Server 2003 en eerdere versies.
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Beheerders: het wachtwoord opnieuw instellen voor een of meer gebruikers](reset-passwords.md)
+[Beheerders: het wachtwoord opnieuw instellen voor een of meer gebruikers](reset-passwords.md) (artikel)
   
-[Ander e-mailadres voor een gebruiker toevoegen](../email/add-another-email-alias-for-a-user.md)
+[Ander e-mailadres voor een gebruiker toevoegen](../email/add-another-email-alias-for-a-user.md) (artikel)
+
+[Een gedeeld postvak maken](../email/create-a-shared-mailbox.md) (artikel)

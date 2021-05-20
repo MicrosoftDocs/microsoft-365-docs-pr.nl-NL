@@ -1,7 +1,7 @@
 ---
 title: Kennismaken met Microsoft SharePoint Syntex
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: ssquires, toresing
 audience: admin
@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Informatie over het zoeken naar bronnen voor Microsoft SharePoint Syntex.
-ms.openlocfilehash: 4282da5ca1027eaf041241e90011ead8f2942985
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 350dd1a526b56525f0aca7a167841e3a77833533
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905726"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538073"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Kennismaken met Microsoft SharePoint Syntex
 
-Microsoft SharePoint Syntex is een Office 365-service waarmee organisaties het volgende kunnen doen:
+Microsoft SharePoint Syntex is een Microsoft 365-service waarmee organisaties het volgende kunnen doen:
 
 - Geavanceerde AI- en computeronderwijs gebruiken om de menselijke beleving te versterken
 - Inhoudsverwerking automatiseren

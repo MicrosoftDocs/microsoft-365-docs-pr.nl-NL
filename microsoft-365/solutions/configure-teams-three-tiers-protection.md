@@ -20,13 +20,14 @@ ms.custom:
 - Ent_Architecture
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
+recommendations: false
 description: Meer informatie over hoe u Teams configureert voor een betere beveiliging bij het delen van bestanden met behulp van drie niveaus bescherming, waarbij beveiliging en eenvoudige samenwerking met elkaar in evenwicht zijn.
-ms.openlocfilehash: 37d59d968d3a8e83a5b42fcce4c0400940314a41
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ab2dd4cbf2b9cfc7b285f049eeaa876371574202
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916212"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539213"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 
@@ -87,7 +88,7 @@ Met de resulterende machtigingen kunnen:
 
 Teameigenaren en -leden kunnen standaard de site zelf delen met personen buiten het team zonder ze toe te hoeven voegen aan het team. We raden dit af aangezien dit het gebruikersbeheer moeilijker maakt en ertoe kan leiden dat personen die geen lid zijn van het team toegang hebben tot teambestanden zonder dat teameigenaren dit doorhebben. Om dit te voorkomen, raden we u aan om vanaf het beveiligingsniveau op de basislijn alleen eigenaren toestemming te geven om de site rechtstreeks te delen.
 
-Hoewel teams geen machtiging voor alleen-lezen hebben, heeft de SharePoint-site dit wel. Als er aandeelhouders of partnergroepen zijn die teambestanden moeten kunnen bekijken, maar deze niet mogen bewerken, kunt u overwegen hen rechtstreeks aan de SharePoint-site toe te voegen met de machtiging Lezen.
+Hoewel teams geen optie voor alleen-lezen-toestemming hebben, heeft de SharePoint-site dit wel. Als er aandeelhouders of partnergroepen zijn die teambestanden moeten kunnen bekijken, maar deze niet mogen bewerken, kunt u overwegen hen rechtstreeks aan de SharePoint-site toe te voegen met de machtiging Lezen.
 
 ## <a name="sharing-files-and-folders"></a>Bestanden en mappen delen
 
@@ -99,7 +100,7 @@ Als u wilt samenwerken met personen buiten uw organisatie, raden we u aan [Share
 
 Delen met gasten is in Teams standaard uitgeschakeld, maar delen voor Office 365-groepen (waar het teamlidmaatschap wordt opgeslagen) en SharePoint is ingeschakeld. Wij schakelen delen in Teams in op de basislijnlaag en u kunt de functie indien nodig voor de gevoelige en zeer gevoelige lagen uitschakelen met behulp van een gevoeligheidslabel.
 
-Het gevoeligheidslabel is alleen van invloed op het delen met gasten voor het team. Instellingen voor het delen met gasten op de gekoppelde SharePoint-site worden afzonderlijk beheerd en we laten u twee instellingen doorvoeren voor zowel de gevoelige als de zeer gevoelige lagen.
+Het vertrouwelijkheidslabel beïnvloedt alleen het delen met gasten voor het team. Instellingen voor het delen met gasten op de gekoppelde SharePoint-site worden afzonderlijk beheerd en we laten u twee instellingen doorvoeren voor zowel de gevoelige als de zeer gevoelige lagen.
 
 In de zeer gevoelige laag configureren we het gevoeligheidslabel zo dat het de bestanden waarop het wordt toegepast versleutelt. Als u uw gasten toegang wilt geven tot deze bestanden, moet u ze machtigingen geven wanneer u het label aanmaakt.
 

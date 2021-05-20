@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Lees hoe u uw proefabonnement of betaald abonnement op Microsoft 365 voor Bedrijven kunt opzeggen.
+description: Als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement annuleren in het beheercentrum.
 ms.date: 04/08/2021
-ms.openlocfilehash: 022981e91abc985a0540acccccd6f211b39620a4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 583433e2c2cc939724f772c1cd699cc5763cb21c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333312"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536116"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -46,7 +46,7 @@ Als u uw eigen domeinnaam hebt toegevoegd om te gebruiken met uw abonnement, moe
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Kies het abonnement dat u wilt annuleren. Selecteer **Meer acties** (drie puntjes) en selecteer **Abonnement annuleren**.
+2. Kies het abonnement dat u wilt annuleren. Selecteer de drie puntjes (meer acties) en selecteer **Abonnement annuleren**.
 3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback.
 4. Kies **Opslaan**.
 
@@ -69,7 +69,7 @@ Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft bepe
 ::: moniker-end
 
 2. Selecteer het tabblad **Producten**.
-3. Kies het abonnement dat u wilt annuleren. Selecteer **Meer acties** (drie puntjes) en selecteer **Abonnement annuleren**.
+3. Kies het abonnement dat u wilt annuleren. Selecteer de drie puntjes (meer acties) en selecteer **Abonnement annuleren**.
 4. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback.
 5. Kies **Opslaan**.
 

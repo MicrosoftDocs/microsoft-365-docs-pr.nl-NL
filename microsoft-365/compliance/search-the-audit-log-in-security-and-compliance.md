@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Ga naar het Microsoft 365-compliancecentrum om het geïntegreerde auditlogboek te zoeken zodat u activiteiten van gebruikers en beheerders kunt bekijken in uw organisatie. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f61a67b29dec114d222dfc7b25e44c163859ba41
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: dfda69e5695d2097de5bfae48b580e23799edf87
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "52162272"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536044"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Zoek in het auditlogboek in het compliancecentrum
 
@@ -112,7 +112,7 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
 
 - Als u via programmacode gegevens uit het auditlogboek wilt downloaden, raden we aan de Office 365 Management Activity-API te gebruiken in plaats van een PowerShell-script. De Office 365 Management Activity-API is een REST-webservice waarvan u gebruik kunt maken om voor uw organisatie oplossingen te ontwikkelen voor activiteiten, beveiliging en nalevingscontrole. Zie [Office 365 Management Activity-API-referentie](/office/office-365-management-api/office-365-management-activity-api-reference) voor meer informatie.
 
-- Het kan 30 minuten tot 24 uur duren nadat een gebeurtenis heeft plaatsgevonden voordat het bijbehorende controlelogboekrecord wordt geretourneerd in de resultaten van een zoekopdracht in het controlelogboek. In de volgende tabel ziet u de wachttijden voor de verschillende services in Office 365.
+- Het kan 30 minuten tot 24 uur duren nadat een gebeurtenis heeft plaatsgevonden voordat het bijbehorende auditlogboekrecord wordt geretourneerd in de resultaten van een zoekopdracht in het auditlogboek. De volgende tabel toont de tijd die nodig is voor de verschillende services in Office 365.
 
   |Microsoft 365-service of -functie|30 minuten|24 uur|
   |:-----|:-----:|:-----:|
@@ -173,7 +173,7 @@ Hier is het proces voor het zoeken in het auditlogboek in Office 365.
 
 4. Configureer de volgende zoekcriteria: 
 
-   1. **Activiteiten**: klik op de vervolgkeuzelijst om activiteiten weer te geven die u kunt zoeken. Activiteiten van gebruikers en beheerders staan gerangschikt in groepen met gerelateerde activiteiten. U kunt specifieke activiteiten selecteren of u kunt op de naam van de activiteitengroep klikken om alle activiteiten in de groep te selecteren. U kunt ook op een geselecteerde activiteit klikken om de selectie te wissen. Als u de zoekopdracht hebt uitgevoerd, worden alleen de vermeldingen in het auditlogboek voor de geselecteerde activiteiten weergegeven. Als u **Resultaten tonen voor alle activiteiten** selecteert, worden de resultaten weergegeven voor alle activiteiten die zijn uitgevoerd door de geselecteerde gebruiker of groep gebruikers.
+   1. **Activiteiten**: klik op de vervolgkeuzelijst om activiteiten weer te geven die u kunt zoeken. Activiteiten van gebruikers en beheerders staan gerangschikt in groepen met gerelateerde activiteiten. U kunt specifieke activiteiten selecteren of u kunt op de naam van de activiteitengroep klikken om alle activiteiten in de groep te selecteren. U kunt ook op een geselecteerde activiteit klikken om de selectie te wissen. Als u de zoekopdracht hebt uitgevoerd, worden alleen de vermeldingen in het auditlogboek voor de geselecteerde activiteiten weergegeven. Als u **Resultaten tonen voor alle activiteiten** selecteert, worden de resultaten weergegeven voor alle activiteiten die zijn uitgevoerd door de geselecteerde gebruiker of groep gebruikers.
 
       Er worden meer dan honderd activiteiten van gebruikers en beheerders in het auditlogboek vastgelegd. Klik op het tabblad **Gecontroleerde activiteiten** bij het onderwerp van dit artikel om de beschrijvingen van elke activiteit in elk van de verschillende services te zien.
 
@@ -441,7 +441,7 @@ In de volgende tabel worden de activiteiten in bestanden en pagina's in SharePoi
 |Beschrijvende naam|Bewerking|Beschrijving|
 |:-----|:-----|:-----|
 |Bestand geopend|FileAccessed|Gebruiker of systeemaccount opent een bestand.|
-|(geen)|FileAccessedExtended|Dit is gerelateerd aan de activiteit 'Bestand geopend' (FileAccessed). Een FileAccessedExtended-gebeurtenis wordt geregistreerd wanneer dezelfde persoon gedurende een langere periode (tot 3 uur) voortdurend een bestand opent. <br/><br/> Het doel van het registreren van FileAccessedExtended-gebeurtenissen is het aantal FileAccessed-gebeurtenissen te reduceren dat wordt geregistreerd wanneer een bestand voortdurend wordt geopend. Zo wordt u minder belast door meerdere FileAccessed-records voor wat in feite dezelfde gebruikersactiviteit is, en kunt u zich concentreren op de eerste (en belangrijkere) FileAccessed-gebeurtenis.|
+|(geen)|FileAccessedExtended|Dit is gerelateerd aan de activiteit "Geopend bestand" (FileAccessed). Een FileAccessedExtended-gebeurtenis wordt geregistreerd wanneer dezelfde persoon gedurende een langere periode (tot 3 uur) voortdurend een bestand opent. <br/><br/> Het doel van het registreren van FileAccessedExtended-gebeurtenissen is het aantal FileAccessed-gebeurtenissen te reduceren dat wordt geregistreerd wanneer een bestand voortdurend wordt geopend. Zo wordt u minder belast door meerdere FileAccessed-records voor wat in feite dezelfde gebruikersactiviteit is, en kunt u zich concentreren op de eerste (en belangrijkere) FileAccessed-gebeurtenis.|
 |Bewaarlabel voor een bestand gewijzigd|ComplianceSettingChanged|Er is een bewaarlabel toegepast op of verwijderd uit een document. Deze gebeurtenis wordt geactiveerd wanneer een bewaarlabel handmatig of automatisch wordt toegepast op een bericht.|
 |Recordstatus gewijzigd in vergrendeld|LockRecord|De recordstatus van een bewaarlabel waarin een document wordt aangeduid als een record, is vergrendeld. Dit betekent dat het document niet kan worden gewijzigd of verwijderd. Alleen gebruikers die ten minste de inzendermachtiging voor een site hebben toegewezen, kunnen de recordstatus van een document wijzigen.|
 |Recordstatus gewijzigd in ontgrendeld|UnlockRecord|De recordstatus van een bewaarlabel waarin een document wordt aangeduid als een record, is ontgrendeld. Dit betekent dat het document kan worden gewijzigd of verwijderd. Alleen gebruikers die ten minste de inzendermachtiging voor een site hebben toegewezen, kunnen de recordstatus van een document wijzigen.|
@@ -452,15 +452,15 @@ In de volgende tabel worden de activiteiten in bestanden en pagina's in SharePoi
 |Bestand verwijderd uit de prullenbak|FileDeletedFirstStageRecycleBin|Gebruiker verwijdert een bestand uit de prullenbak van een site.|
 |Bestand verwijderd uit een prullenbak tweede stadium|FileDeletedSecondStageRecycleBin|Gebruiker verwijdert een bestand uit de prullenbak tweede stadium van een site.|
 |Verwijderd bestand gemarkeerd als record|RecordDelete|Een document of e-mailbericht dat als record is gemarkeerd, is verwijderd. Een item wordt beschouwd als een record wanneer een bewaarlabel waarin items als een record worden aangeduid, wordt toegepast op inhoud.|
-|Gedetecteerde niet-overeenkomende documentgevoeligheid|DocumentSensitivityMismatchDetected|Gebruiker uploadt een document naar een site die is beveiligd met een gevoeligheidslabel en het document heeft een label voor gevoeligheid met een hogere prioriteit dan het gevoeligheidslabel dat op de site is toegepast. Een document met het label Vertrouwelijk wordt bijvoorbeeld geüpload naar een site met het label Algemeen. <br/><br/> Deze gebeurtenis wordt niet geactiveerd als het document een gevoeligheidslabel met een lagere prioriteit heeft dan het gevoeligheidslabel dat op de site is toegepast. Een document met het label Algemeen wordt bijvoorbeeld geüpload naar een site met het label Vertrouwelijk. Zie voor meer informatie over prioriteit van gevoeligheidslabels [Labelprioriteit (volgorde is van belang)](sensitivity-labels.md#label-priority-order-matters).|
+|Gedetecteerde niet-overeenkomende documentgevoeligheid|DocumentSensitivityMismatchDetected|Gebruiker uploadt een document naar een site die is beveiligd met een vertrouwelijkheidslabel en het document heeft een vertrouwelijkheidslabel met een hogere prioriteit dan het vertrouwelijkheidslabel dat op de site is toegepast.<br/><br/> Deze gebeurtenis wordt niet geactiveerd als het document een gevoeligheidslabel met een lagere prioriteit heeft dan het gevoeligheidslabel dat op de site is toegepast. Een document met het label Algemeen wordt bijvoorbeeld geüpload naar een site met het label Vertrouwelijk. Zie voor meer informatie over prioriteit van gevoeligheidslabels [Labelprioriteit (volgorde is van belang)](sensitivity-labels.md#label-priority-order-matters).|
 |Schadelijke software vastgesteld in bestand|FileMalwareDetected|Met de anti-virusen engine van SharePoint wordt malware in een bestand gedetecteerd.|
-|Uitchecken van bestand genegeerd|FileCheckOutDiscarded|Gebruiker negeert een uitgecheckt bestand (of maakt het uitchecken ongedaan). Dat betekent dat eventuele aangebrachte wijzigingen bij het uitchecken aan het bestand worden tenietgedaan en niet opgeslagen in de versie van het document in de documentbibliotheek.|
-|Gedownloade bestand|FileDownloaded|Gebruiker downloadt een document van een site.|
+|Uitchecken van bestand genegeerd|FileCheckOutDiscarded|De gebruiker doet een uitgecheckt bestand teniet (of maakt dit ongedaan). Dat betekent dat eventuele aangebrachte wijzigingen bij het uitchecken aan het bestand worden tenietgedaan en niet opgeslagen in de versie van het document in de documentbibliotheek.|
+|Bestand gedownload|FileDownloaded|Gebruiker downloadt een document van een site.|
 |Bestand gewijzigd|FileModified|Gebruiker of systeemaccount wijzigt de inhoud of de eigenschappen van een document op een site.|
-|(geen)|FileModifiedExtended|Dit is gerelateerd aan de activiteit 'Bestand gewijzigd' (FileModified). Een FileModifiedExtended-gebeurtenis wordt geregistreerd wanneer dezelfde persoon gedurende een langere periode (tot 3 uur) voortdurend een bestand wijzigt. <br/><br/> Het doel van het registreren van FileModifiedExtended-gebeurtenissen is het aantal FileModified-gebeurtenissen te reduceren dat wordt geregistreerd wanneer een bestand voortdurend wordt gewijzigd. Zo wordt u minder belast door meerdere FileModified-records voor wat in feite dezelfde gebruikersactiviteit is, en kunt u zich concentreren op de eerste (en belangrijkere) FileModified-gebeurtenis.|
+|(geen)|FileModifiedExtended|Dit is gerelateerd aan de activiteit "Gewijzigd bestand" (FileModified).Een FileModifiedExtended-gebeurtenis wordt geregistreerd wanneer dezelfde persoon gedurende een langere periode (tot 3 uur) voortdurend een bestand wijzigt. <br/><br/> Het doel van het registreren van FileModifiedExtended-gebeurtenissen is het aantal FileModified-gebeurtenissen te reduceren dat wordt geregistreerd wanneer een bestand voortdurend wordt gewijzigd. Zo wordt u minder belast door meerdere FileModified-records voor wat in feite dezelfde gebruikersactiviteit is, en kunt u zich concentreren op de eerste (en belangrijkere) FileModified-gebeurtenis.|
 |Bestand verplaatst|FileMoved|Gebruiker verplaatst een document vanaf de huidige locatie op een site naar een nieuwe locatie.|
 |(geen)|FilePreviewed|Gebruiker bekijkt voorbeelden van bestanden op een SharePoint- of OneDrive voor Bedrijven-site. Deze gebeurtenissen vinden meestal plaats bij grote hoeveelheden op basis van één activiteit, zoals het weergeven van een afbeeldingengalerie.|
-|Uitgevoerde zoekquery|SearchQueryPerformed|Gebruiker of systeemaccount voert een zoekopdracht uit in SharePoint of OneDrive voor Bedrijven. Enkele veelvoorkomende scenario's waarin een serviceaccount een zoekopdracht uitvoert, zijn onder meer het toepassen van een eDiscovery-bewaarplicht en bewaarbeleid op sites en OneDrive-accounts, en het automatisch toepassen van bewaar- of gevoeligheidslabels op site-inhoud.|
+|Uitgevoerde zoekquery|SearchQueryPerformed|Gebruiker of systeemaccount voert een zoekopdracht uit in SharePoint of OneDrive voor Bedrijven. Enkele veelvoorkomende scenario's waarin een serviceaccount een zoekopdracht uitvoert, zijn onder meer het toepassen van een eDiscovery-bewaarplicht en bewaarbeleid op sites en OneDrive-accounts, en het automatisch toepassen van bewaar- of vertrouwelijkheidslabels op site-inhoud.|
 |Alle secundaire versies van een bestand gerecycled|FileVersionsAllMinorsRecycled|Gebruiker verwijdert alle secundaire versies uit de versiegeschiedenis van een bestand. De verwijderde versies worden verplaatst naar de prullenbak van de site.|
 |Alle versies van bestand gerecycled|FileVersionsAllRecycled|Gebruiker verwijdert alle versies uit de versiegeschiedenis van een bestand. De verwijderde versies worden verplaatst naar de prullenbak van de site.|
 |Gerecyclede versie van bestand|FileVersionRecycled|Gebruiker verwijdert een versies uit de versiegeschiedenis van een bestand. De verwijderde versie wordt verplaatst naar de prullenbak van de site.|
@@ -468,7 +468,7 @@ In de volgende tabel worden de activiteiten in bestanden en pagina's in SharePoi
 |Bestand teruggezet|FileRestored|Gebruiker zet een document terug vanuit de Prullenbak van een site. |
 |Bestand geüpload|FileUploaded|Gebruiker uploadt een document naar een map op een site. |
 |Pagina bekeken|PageViewed|Gebruiker bekijkt een pagina op een site. Het gaat hierbij niet om bestanden die zich in een documentbibliotheek bevinden en via een webbrowser zijn bekeken.|
-|(geen)|PageViewedExtended|Dit is gerelateerd aan de activiteit 'Pagina bekeken' (PageViewed). Een PageViewedExtended-gebeurtenis wordt geregistreerd wanneer dezelfde persoon gedurende een langere periode (tot 3 uur) voortdurend een webpagina bekijkt. <br/><br/> Het doel van het registreren van PageViewedExtended-gebeurtenissen is het aantal PageViewed-gebeurtenissen te reduceren dat wordt geregistreerd wanneer een pagina voortdurend wordt bekeken. Zo wordt u minder belast door meerdere PageViewed-records voor wat in feite dezelfde gebruikersactiviteit is, en kunt u zich concentreren op de eerste (en belangrijkere) PageViewed-gebeurtenis.|
+|(geen)|PageViewedExtended|Dit is gerelateerd aan de activiteit "Bekeken pagina" (PageViewed).Een PageViewedExtended-gebeurtenis wordt geregistreerd wanneer dezelfde persoon gedurende een langere periode (tot 3 uur) voortdurend een webpagina bekijkt. <br/><br/> Het doel van het registreren van PageViewedExtended-gebeurtenissen is het aantal PageViewed-gebeurtenissen te reduceren dat wordt geregistreerd wanneer een pagina voortdurend wordt bekeken. Zo wordt u minder belast door meerdere PageViewed-records voor wat in feite dezelfde gebruikersactiviteit is, en kunt u zich concentreren op de eerste (en belangrijkere) PageViewed-gebeurtenis.|
 |Gesignaleerd door klant weergeven|ClientViewSignaled|De client van een gebruiker (zoals een website of mobiele app) geeft aan dat de aangegeven pagina is bekeken door de gebruiker. Deze activiteit wordt vaak geregistreerd na een PagePrefetched-gebeurtenis voor een pagina. <br/><br/>**OPMERKING**: omdat ClientViewSignaled-gebeurtenissen worden gesignaleerd door de client en niet door de server, is het mogelijk dat de gebeurtenis niet wordt geregistreerd door de server en daarom mogelijk niet in het auditlogboek verschijnt. Het is ook mogelijk dat gegevens in de controlerecord niet betrouwbaar zijn. Omdat de identiteit van de gebruiker echter wordt gevalideerd door het token dat wordt gebruikt om het signaal te maken, is de identiteit van de gebruiker in de bijbehorende auditrecord correct. |
 |(geen)|PagePrefetched|De client van een gebruiker (zoals een website of mobiele app) heeft de aangegeven pagina opgevraagd om de prestaties te helpen verbeteren als de gebruiker ernaar bladert. Deze gebeurtenis wordt geregistreerd om aan te geven dat de pagina-inhoud is weergegeven aan de client van de gebruiker. Deze gebeurtenis is geen definitieve indicatie dat de gebruiker de pagina heeft bezocht. <br/><br/> Wanneer de pagina-inhoud wordt weergegeven door de client (op verzoek van de gebruiker), moet een ClientViewSignaled-gebeurtenis worden gegenereerd. Niet alle clients ondersteunen het aangeven van vooraf ophalen, en daarom kunnen sommige vooraf opgehaalde activiteiten in plaats daarvan worden geregistreerd als PageViewed-gebeurtenissen.|
 ||||
@@ -477,7 +477,7 @@ In de volgende tabel worden de activiteiten in bestanden en pagina's in SharePoi
 
 **Kunnen niet-gebruikersactiviteiten FilePreviewed-auditrecords activeren die een user-agent zoals 'OneDriveMpc-Transform_Thumbnail' bevatten?**
 
-We zijn niet op de hoogte van scenario's waarbij acties van niet-gebruikers gebeurtenissen zoals deze genereren. Gebruikersacties zoals het openen van een gebruikersprofielkaart (door op hun naam of e-mailadres te klikken in een bericht in de webversie van Outlook) zouden soortgelijke gebeurtenissen genereren.
+Wij zijn niet op de hoogte van scenario's waarbij niet-gebruikersacties gebeurtenissen als deze genereren. Gebruikersacties zoals het openen van een gebruikersprofielkaart (door op hun naam of e-mailadres te klikken in een bericht in de webversie van Outlook) zouden soortgelijke gebeurtenissen genereren.
 
 **Worden oproepen naar de OneDriveMpc-Transform_Thumbnail altijd opzettelijk getriggerd door de gebruiker?**
 
@@ -503,7 +503,7 @@ Hier zijn een paar andere scenario's waarin app@sharepoint in een auditrecord ka
 
 - Microsoft Teams. Net als bij Microsoft 365 Groepen worden auditrecords gegenereerd voor het maken van een siteverzameling, het bijwerken van lijsten en het toevoegen van leden aan een SharePoint-groep wanneer een team wordt gemaakt.
 
-- Nalevingsfuncties. Wanneer een beheerder nalevingsfuncties implementeert, zoals bewaarbeleid, eDiscovery-bewaringen en het automatisch toepassen van gevoeligheidslabels.
+- Nalevingsfuncties. Wanneer een beheerder nalevingsfuncties implementeert, zoals bewaarbeleid, eDiscovery-bewaringen en het automatisch toepassen van vertrouwelijkheidslabels.
 
 In deze en andere scenario's zult u ook opmerken dat meerdere auditrecords met app@sharepoint als de opgegeven gebruiker binnen een kort tijdsbestek zijn gemaakt, vaak binnen een paar seconden na elkaar. Dit geeft ook aan dat ze waarschijnlijk zijn geactiveerd door dezelfde door de gebruiker gestarte taak. De velden ApplicationDisplayName en EventData in de auditrecord kunnen u ook helpen bij het identificeren van het scenario of de toepassing die de gebeurtenis heeft veroorzaakt.
 
@@ -532,7 +532,7 @@ In de volgende tabel worden de activiteiten beschreven die betrekking hebben op 
 |:-----|:-----|:-----|
 |Lijst gemaakt|ListCreated|Een gebruiker heeft een SharePoint-lijst gemaakt.|
 |Kolom Lijst gemaakt|ListColumnCreated|Een gebruiker heeft een SharePoint-lijstkolom gemaakt. Een lijstkolom is een kolom die is gekoppeld aan een of meer SharePoint-lijsten.|
-|Lijstinhoudstype gemaakt|ListContentTypeCreated|Een gebruiker heeft een lijstinhoudstype gemaakt. Een lijstinhoudstype is een inhoudstype dat is gekoppeld aan een of meer SharePoint-lijsten.|
+|Lijstinhoudstype gemaakt|ListContentTypeCreated|Een gebruiker heeft een lijstinhoudstype aangemaakt. Een lijstinhoudstype is een inhoudstype dat is gekoppeld aan een of meer SharePoint-lijsten.|
 |Gemaakt lijstitem|ListItemCreated|Een gebruiker heeft een item gemaakt in een bestaande SharePoint-lijst.|
 |Sitekolom gemaakt|SiteColumnCreated|Een gebruiker heeft een SharePoint-sitekolom gemaakt. Een sitekolom is een kolom die niet aan een lijst is gekoppeld. Een sitekolom is ook een metagegevensstructuur die kan worden gebruikt door elke lijst op een bepaald web.|
 |Site-inhoudstype gemaakt|Site-inhoudstype gemaakt|Een gebruiker heeft een site-inhoudstype gemaakt. Een site-inhoudstype is een inhoudstype dat is gekoppeld aan de bovenliggende site.|
@@ -575,7 +575,7 @@ In de volgende tabel worden de activiteiten in SharePoint Online en OneDrive voo
 |Aanvraag voor toegang geweigerd |AccessRequestDenied|Aanvraag voor toegang tot een site, map of document is geweigerd.|
 |In hele bedrijf deelbare koppeling verwijderd|CompanyLinkRemoved|Gebruiker heeft een in het hele bedrijf deelbare koppeling verwijderd. De koppeling kan niet meer worden gebruikt voor toegang tot de bron.|
 |Anonieme koppeling verwijderd|AnonymousLinkRemoved|Gebruiker heeft een anonieme koppeling naar een bron verwijderd. De koppeling kan niet meer worden gebruikt voor toegang tot de bron.|
-|Gedeeld bestand, gedeelde map of gedeelde site|SharingSet|Gebruiker (lid of gast) heeft een bestand, map of site in SharePoint of OneDrive voor Bedrijven gedeeld met een gebruiker in de adreslijst van de organisatie. De waarde in de kolom **Detail** van deze activiteit geeft de naam aan van de gebruiker waarmee de bron is gedeeld en of deze gebruiker een lid of een gast is. <br/><br/> Deze activiteit gaat vaak gepaard met een tweede gebeurtenis, die beschrijft hoe de gebruiker toegang tot de bron is verleend. Bijvoorbeeld als u de gebruiker toevoegt aan een groep die toegang heeft tot de bron.|
+|Gedeeld bestand, gedeelde map of gedeelde site|SharingSet|Gebruiker (lid of gast) heeft een bestand, map of site in SharePoint of OneDrive voor Bedrijven gedeeld met een gebruiker in de adreslijst van de organisatie. De waarde in de kolom **Detail** van deze activiteit geeft de naam aan van de gebruiker waarmee de bron is gedeeld en of deze gebruiker een lid of een gast is. <br/><br/> Deze activiteit gaat vaak gepaard met een tweede gebeurtenis, die beschrijft hoe de gebruiker toegang tot de bron is verleend, bijvoorbeeld dat de gebruiker is toegevoegd aan een groep die toegang tot de bron heeft.|
 |Aanvraag voor toegang bijgewerkt|AccessRequestUpdated|Een aanvraag voor toegang tot een item is bijgewerkt.|
 |Anonieme koppeling bijgewerkt |AnonymousLinkUpdated|Gebruiker heeft een anonieme koppeling naar een bron bijgewerkt. Het bijgewerkte veld wordt bij het exporteren van de zoekresultaten opgenomen in de eigenschap EventData.|
 |Uitnodiging voor delen bijgewerkt|SharingInvitationUpdated|Een externe uitnodiging voor delen is bijgewerkt.|
@@ -673,21 +673,21 @@ De volgende tabel bevat de activiteiten die kunnen worden geregistreerd door aud
 |Beschrijvende naam|Bewerking|Omschrijving|
 |:-----|:-----|:-----|
 |Toegang tot postvakitems|MailItemsAccessed|Berichten zijn gelezen of toegankelijk in het postvak. Controlerecords voor deze activiteit worden op twee manieren geactiveerd: wanneer een e-mailclient (zoals Outlook) een afhankelijke bewerking uitvoert op berichten of wanneer e-mailprotocollen (zoals Exchange ActiveSync of IMAP) items in een e-mailmap synchroniseren. Deze activiteit wordt alleen geregistreerd voor gebruikers met een licentie voor Office 365 of Microsoft 365 E5. Het analyseren van controlerecords voor deze activiteit is handig bij het onderzoeken van een gehackt e-mailaccount. Zie voor meer informatie de sectie 'Toegang tot belangrijke gebeurtenissen voor onderzoeken' in [Geavanceerde audit](advanced-audit.md#access-to-crucial-events-for-investigations). |
-|Postvakmachtigingen voor gedelegeerde toegevoegd|AddMailboxPermissions|De beheerder heeft de postvakmachtiging FullAccess aan een gebruiker toegewezen (ook wel gedelegeerde genoemd) voor toegang tot het postvak van een andere persoon. Met de machtiging FullAccess kan de gedelegeerde het postvak van een andere persoon openen en de inhoud ervan lezen en beheren.|
+|Postvakmachtigingen voor gedelegeerde toegevoegd|Add-MailboxPermission|De beheerder heeft de postvakmachtiging FullAccess aan een gebruiker toegewezen (ook wel gedelegeerde genoemd) voor toegang tot het postvak van een andere persoon. Met de machtiging FullAccess kan de gedelegeerde het postvak van een andere persoon openen en de inhoud ervan lezen en beheren.|
 |Gebruiker met gemachtigdentoegang tot agendamap toegevoegd of verwijderd|UpdateCalendarDelegation|Een gebruiker is toegevoegd of verwijderd als gedelegeerde aan de agenda van het postvak van een andere gebruiker. Agendadelegering geeft iemand anders in dezelfde organisatie machtigingen voor het beheren van de agenda van de eigenaar van het postvak.|
-|Machtigingen voor map toegevoegd|AddFolderPermissions(AddFolderPermissions)|Er is een mapmachtiging toegevoegd. Mapmachtigingen bepalen welke gebruikers in uw organisatie toegang hebben tot mappen in een mailbox en tot de berichten in die mappen.|
+|Machtigingen voor map toegevoegd|AddFolderPermissions(AddFolderPermissions)|Een mapmachtiging werd toegevoegd. Mapmachtigingen bepalen welke gebruikers in uw organisatie toegang hebben tot mappen in een mailbox en tot de berichten in die mappen.|
 |Berichten naar een andere map gekopieerd|Kopiëren|Er is een bericht naar een andere map gekopieerd.|
 |Gemaakt postvakitem|Maken|Er is een item gemaakt in de map Agenda, Contactpersonen, Notities of Taken van het postvak. Er wordt bijvoorbeeld een nieuw vergaderverzoek gemaakt. Het maken, verzenden of ontvangen van een bericht wordt niet gecontroleerd. Ook het maken van een postvak wordt niet gecontroleerd.|
 |Nieuwe regel voor Postvak IN gemaakt in Outlook Web App|New-InboxRule|Een eigenaar van een postvak of een andere gebruiker met toegang tot het postvak heeft een regel voor Postvak IN gemaakt in de Outlook Web App.|
 |Berichten verwijderd uit de map Verwijderde items|SoftDelete|Een bericht is definitief verwijderd of verwijderd uit de map Verwijderde items. Deze items worden verplaatst naar de map Herstelbare items. Berichten worden ook verplaatst naar de map Herstelbare items als een gebruiker de map selecteert en op **Shift+Delete** drukt.|
-|Gelabeld bericht als record|ApplyRecordLabel|Een bericht is als record geclassificeerd. Dit gebeurt wanneer een bewaarlabel dat inhoud classificeert als een record, handmatig of automatisch wordt toegepast op een bericht.|
+|Gelabeld bericht als record|ApplyRecordLabel|Een bericht werd geclassificeerd als vertrouwelijk. Dit gebeurt wanneer een bewaarlabel dat inhoud classificeert als een record, handmatig of automatisch wordt toegepast op een bericht.|
 |Berichten naar een andere map verplaatst|Move|Een bericht is naar een andere map verplaatst.|
 |Berichten verplaatst naar map Verwijderde Items|MoveToDeletedItems|Een bericht is verwijderd en verplaatst naar de map Verwijderde items.|
 |Mapmachtiging gewijzigd|UpdateFolderPermissions|Een mapmachtiging is gewijzigd. Met mapmachtigingen bepaalt u welke gebruikers in uw organisatie toegang hebben tot postvakmappen en de berichten die erin staan.|
 |Gewijzigde regel voor Postvak IN vanuit Outlook Web App|Set-InboxRule|Een eigenaar van een postvak of een andere gebruiker met toegang tot het postvak heeft een regel voor Postvak IN gemaakt in de Outlook Web App.|
 |Bericht is definitief uit het postvak verwijderd|HardDelete|Een bericht is verwijderd uit de map Herstelbare items (definitief verwijderd uit het postvak)|
 |Postvakmachtigingen voor gedelegeerde verwijderd|Remove-MailboxPermission|Een beheerder heeft de machtiging FullAccess (die was toegewezen aan een gedelegeerde) verwijderd uit het postvak van een persoon. Nadat de machtiging FullAccess is verwijderd, kan de gedelegeerde het postvak van de andere persoon niet meer openen. De gedelegeerde heeft dan geen toegang meer tot de inhoud ervan.|
-|Machtigingen uit map verwijderd|RemoveFolderPermissions|Er is een mapmachtiging verwijderd. Mapmachtigingen bepalen welke gebruikers in uw organisatie toegang hebben tot mappen in een mailbox en tot de berichten in die mappen.|
+|Machtigingen uit map verwijderd|RemoveFolderPermissions|Een mapmachtiging werd verwijderd. Mapmachtigingen bepalen welke gebruikers in uw organisatie toegang hebben tot mappen in een mailbox en tot de berichten in die mappen.|
 |Verzonden bericht|Verzenden|Er is een bericht verzonden, beantwoord of doorgestuurd. Deze activiteit wordt alleen geregistreerd voor gebruikers met een licentie voor Office 365 of Microsoft 365 E5. Zie voor meer informatie de sectie 'Toegang tot belangrijke gebeurtenissen voor onderzoeken' in [Geavanceerde audit](advanced-audit.md#access-to-crucial-events-for-investigations).|
 |Bericht verzonden met machtiging Verzenden als |SendAs|Een bericht is verzonden met de machtiging Verzenden als. Dit betekent dat een andere gebruiker het bericht heeft verzonden zodat het lijkt alsof het afkomstig is van de eigenaar van het postvak.|
 |Bericht verzonden met machtiging Verzenden namens|SendOnBehalf|Een bericht is verzonden met de machtiging Verzenden namens. Dit betekent dat een andere gebruiker het bericht heeft verzonden namens de eigenaar van het postvak. Het bericht maakt de geadresseerde duidelijk namens wie het bericht is verzonden en wie het bericht feitelijk heeft verzonden.|
@@ -777,7 +777,7 @@ De volgende tabel geeft een overzicht van de Azure AD-directory en domeingerelat
 |Er is een partner aan de directory toegevoegd|Partner aan de directory toevoegen.|Er is een partner (gedelegeerde beheerder) aan de uw organisatie toegevoegd.|
 |Domein uit bedrijf verwijderd|Domein uit bedrijf verwijderen.|Er is een domein verwijderd uit uw organisatie.|
 |Er is een parner uit de directory verwijderd|Partner uit bedrijf verwijderen.|Er is een partner (gedelegeerde beheerder) uit uw organisatie verwijderd.|
-|Bedrijfsgegevens instellen|Bedrijfsgegevens instellen.|De bedrijfsgegevens voor de uw organisatie zijn bijgewerkt. Dit omvat e-mailadressen voor abonnementsgerelateerde e-mailberichten verzonden door Microsoft 365 en technische meldingen over Microsoft 365-services.|
+|Bedrijfsgegevens instellen|Bedrijfsgegevens instellen.|De bedrijfsgegevens voor uw organisatie werden bijgewerkt. Dit omvat e-mailadressen voor abonnementsgerelateerde e-mailberichten verzonden door Microsoft 365 en technische meldingen over Microsoft 365-services.|
 |Domeinverificatie instellen|Domeinverificatie instellen.|De instelling voor de domeinverificatie voor uw organisatie is gewijzigd.|
 |Federatie-instellingen voor een domein zijn bijgewerkt|Federatie-instellingen voor een domein instellen.|De instellingen voor de federatie (extern delen) voor uw organisatie zijn gewijzigd.|
 |Wachtwoordbeleid instellen|Wachtwoordbeleid instellen.|De beperkingen voor de lengte en tekens voor gebruikerswachtwoorden in uw organisatie zijn gewijzigd.|
@@ -789,7 +789,7 @@ De volgende tabel geeft een overzicht van de Azure AD-directory en domeingerelat
 
 ### <a name="ediscovery-activities"></a>eDiscovery-activiteiten
 
-Activiteiten in verband met Inhoud zoeken en eDiscovery die worden uitgevoerd in het beveiligings- en compliancecentrum of door de bijbehorende PowerShell-cmdlets uit te voeren, worden geregistreerd in het auditlogboek. Het betreft de volgende activiteiten:
+Activiteiten in verband met Inhoud zoeken en eDiscovery die worden uitgevoerd in het beveiligings- en compliancecentrum of door de bijbehorende PowerShell-cmdlets uit te voeren, worden geregistreerd in het auditlogboek. Dit omvat de volgende activiteiten:
 
 - Het maken en beheren van eDiscovery-aanvragen
 
@@ -900,7 +900,7 @@ De volgende tabel geeft een overzicht van de activiteiten in de inhoudsverkenner
 
 ### <a name="quarantine-activities"></a>Activiteiten in quarantaine
 
-De volgende tabel bevat de quarantaineactiviteiten die u kunt zoeken in het auditlogboek. Zie voor meer informatie over quarantaine [Berichten in quarantaine plaatsen in Office 365](../security/defender-365-security/quarantine-email-messages.md).
+De volgende tabel bevat de quarantaineactiviteiten die u kunt zoeken in het auditlogboek. Zie voor meer informatie over quarantaine [Berichten in quarantaine plaatsen in Office 365](../security/office-365-security/quarantine-email-messages.md).
 
 |Beschrijvende naam|Bewerking|Omschrijving|
 |:-----|:-----|:-----|
@@ -926,7 +926,7 @@ Zoals hieronder wordt vermeld in de beschrijvingen, bevatten sommige bewerkingen
 |Formulier gemaakt|CreateForm|De eigenaar van het formulier maakt een nieuw formulier.|
 |Formulier bewerkt|EditForm|De eigenaar van het formulier bewerkt een formulier, zoals een vraag maken, verwijderen of bewerken. De eigenschap *EditOperation:string* geeft de naam van de bewerking aan. Mogelijke waarden zijn:<br/>- CreateQuestion<br/>- CreateQuestionChoice <br/>- DeleteQuestion <br/>- DeleteQuestionChoice <br/>- DeleteFormImage <br/>- DeleteQuestionImage <br/>- UpdateQuestion <br/>- UpdateQuestionChoice <br/>- UploadFormImage/Bing/Onedrive <br/>- UploadQuestionImage <br/>- ChangeTheme <br><br>FormImage bevat elke plaats in Formulieren waar gebruikers een afbeelding kunnen uploaden, bijvoorbeeld in een query of als achtergrondthema.|
 |Verplaatst formulier|MoveForm|De eigenaar van het formulier verplaatst een formulier. <br><br>Eigenschap DestinationUserId:string geeft de gebruikers-id aan van de persoon die het formulier heeft verplaatst. Eigenschap NewFormId:string is de nieuwe id voor het zojuist gekopieerde formulier.|
-|Verwijderd formulier|DeleteForm|De eigenaar van het formulier verwijdert een formulier. Dit geldt ook voor SoftDelete (verwijderoptie en formulier verplaatst naar Prullenbak) en HardDelete (Prullenbak wordt geleegd).|
+|Verwijderd formulier|DeleteForm|De formuliereigenaar verwijdert een formulier. Dit geldt ook voor SoftDelete (verwijderoptie en formulier verplaatst naar Prullenbak) en HardDelete (Prullenbak wordt geleegd).|
 |Bekeken formulier (ontwerptijd)|ViewForm|Formuliereigenaar opent een bestaand formulier om te bewerken.|
 |Voorbeeld van formulier bekeken|PreviewForm|De eigenaar van het formulier bekijkt een voorbeeld van een formulier met de functie Voorbeeld.|
 |Geëxporteerd formulier|ExportForm|Formuliereigenaar exporteert resultaten naar Excel. <br><br>Eigenschap ExporterenOpmaak:string geeft aan of het Excel-bestand een Download of Online is.|
@@ -994,12 +994,12 @@ De volgende tabel bevat gebeurtenissen die het gevolg zijn van labelactiviteiten
 | Optie voor het bewaren van labels voor bewaarbeleid ingeschakeld<br/> |SetRestrictiveRetentionUI |De beheerder heeft de cmdlet [Set-RegulatoryComplianceUI](/powershell/module/exchange/set-regulatorycomplianceui) uitgevoerd, zodat een beheerder vervolgens de UI-configuratieoptie voor een bewaarlabel kan selecteren om inhoud als een record van regelgeving te markeren.|
 | Bijgewerkte instellingen voor een bewaarbeleid | SetRetentionComplianceRule | De beheerder heeft de instellingen voor het bewaren van een bestaand bewaarbeleid gewijzigd. Bewaarinstellingen omvatten de periode waarin items worden bewaard en wat er met items gebeurt wanneer de bewaarperiode is verstreken (zoals items verwijderen, items bewaren of bewaren en vervolgens verwijderen). Deze activiteit komt ook overeen met het uitvoeren van de cmdlet [Set-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule). |
 | Bewaarlabel bijgewerkt |SetComplianceTag  | Beheerder heeft een bestaand bewaarlabel bijgewerkt.|
-| Bewaarbeleid bijgewerkt |SetRetentionCompliancePolicy |Beheerder heeft een bestaand bewaarbeleid bijgewerkt. Updates die deze gebeurtenis activeren, zijn onder andere het toevoegen of uitsluiten van inhoudslocaties waar het bewaarbeleid op wordt toegepast.|
+| Bewaarbeleid bijgewerkt |SetRetentionCompliancePolicy |Beheerder werkt een bestaand bewaarbeleid bij. Updates die deze gebeurtenis activeren, zijn onder andere het toevoegen of uitsluiten van inhoudslocaties waar het bewaarbeleid op wordt toegepast.|
 ||||
 
 ### <a name="briefing-email-activities"></a>Briefing-e-mailactiviteiten
 
-De volgende tabel geeft een overzicht van de activiteiten in Briefing-e-mail die zijn vastgelegd in het Office 365-controlelogboek. Zie voor meer informatie over Briefing-e-mail:
+De volgende tabel geeft een overzicht van de activiteiten in Briefing-e-mail die zijn vastgelegd in het Office 365-controlelogboek. Voor meer informatie over Briefing-e-mail, zie:
 
 - [Overzicht van Briefing-e-mail](/Briefing/be-overview)
 

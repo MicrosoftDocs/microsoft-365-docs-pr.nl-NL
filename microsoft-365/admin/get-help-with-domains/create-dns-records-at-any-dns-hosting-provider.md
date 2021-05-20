@@ -16,16 +16,16 @@ ms.collection:
 - Adm_O365_Setup
 search.appverid:
 - MET150
-description: Lees hier hoe u uw domein kunt verifiëren en DNS-records kunt maken bij een DNS-hostingprovider voor Microsoft 365.
+description: U kunt een domein bij een DNS-hostingprovider verbinden met Microsoft 365 door uw domein te verifiëren en de DNS-records in het account van uw registrar bij te werken.
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 06a5e7d081a16cd8d5aae28268b3aaf737981a43
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: facdd460bd3197e39dd6d4d9f4a5450dc972bf03
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051040"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537557"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS-records toevoegen om het domein te verbinden
 
@@ -129,7 +129,7 @@ Voor het valideren van uw SPF-record, gebruikt u een van deze [SPF-validatiehulp
 
 SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Microsoft 365 configureren. 
 
-Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](../../security/defender-365-security/use-dkim-to-validate-outbound-email.md) en [DMARC gebruiken om e-mail te valideren in Microsoft 365](../../security/defender-365-security/use-dmarc-to-validate-email.md).
+Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Microsoft 365](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) en [DMARC gebruiken om e-mail te valideren in Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
 
 ### <a name="add-srv-records-for-communications-services-teams-skype-for-business"></a>SRV-records toevoegen voor communicatieservices (Teams, Skype voor Bedrijven)
 
@@ -166,3 +166,11 @@ Als u deze waarden wilt toevoegen, moet u één enkele tekenreeks aanmaken, waar
 
 - Voorbeeld 1: `100 1 443 sipdir.online.lync.com.`
 - Voorbeeld 2: `100 1 443 sipdir.online.lync.com`
+
+## <a name="related-content"></a>Verwante inhoud
+
+[Naamservers wijzigen voor het instellen van Microsoft 365 bij een domeinregistrar](change-nameservers-at-any-domain-registrar.md) (artikel)
+
+[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)
+
+[Domeinen beheren](index.yml) (koppelingspagina)

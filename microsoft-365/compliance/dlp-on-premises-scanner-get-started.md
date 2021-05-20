@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/21/2020
+ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Stel Microsoft 365 preventie van gegevensverlies on-premises scanner
-ms.openlocfilehash: 242956a3c6469756481fb823340e715a210562af
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: deae5dfa803b002174583ae67412af9fc028fcb9
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162911"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538097"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Aan de slag met de preventie van gegevensverlies on-premises scanner (preview)
 
@@ -55,7 +55,7 @@ Gegevens van DL -on-premises scanners kunnen worden weergegeven in [Activity Exp
 
 ### <a name="dlp-on-premises-scanner-prerequisites"></a>Vereisten van on-premises DLP-scanner
 
-- De AIP-scanner (Azure Information Protection) implementeert de DLP-beleidsaanpassing en het afdwingen van beleid. De scanner is geïnstalleerd als onderdeel van de AIP-client, zodat uw installatie moet voldoen aan alle vereisten voor AIP, de AIP-client en de geïntegreerde labelingsscanner AIP.
+- De AIP-scanner (Azure Information Protection) implementeert overeenkomsten met het DLP-beleid en beleidshandhaving. De scanner is geïnstalleerd als onderdeel van de AIP-client, zodat uw installatie moet voldoen aan alle vereisten voor AIP, de AIP-client en de geïntegreerde labelingsscanner AIP.
 - Implementeer de AIP-client en -scanner. [Installeer de geïntegreerde AIP-labelingclient](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) en [], en raadpleeg [Configureren en installeren van de geïntegreerde labelscanner van Azure Information Protection](/azure/information-protection/deploy-aip-scanner-configure-install) voor meer informatie.
 - Er moet ten minste één label en beleid in de tenant zijn gepubliceerd, zelfs als alle detectieregels alleen zijn gebaseerd op vertrouwelijke informatietypen.
 
@@ -66,7 +66,7 @@ Gegevens van DL -on-premises scanners kunnen worden weergegeven in [Activity Exp
     1. Configuratie van netwerkdetectietaken is een optionele stap. U kunt dit overslaan en specifieke opslagplaatsen definiëren die moeten worden gescand in uw inhoudsscan.
     2. U moet een inhoudsscantaak maken en de opslagplaatsen opgeven die als host dienen voor de bestanden die door de DLP-engine moeten worden geëvalueerd.
     3. Schakel DLP-regels in voor de gemaakte inhoudsscan of stel de optie **Afdwingen** in op **Uit**, tenzij u rechtstreeks wilt doorgaan naar de fase van het afdwingen van DLP.
-3. Controleer of de taak voor de inhoudsscan aan het juiste cluster is toegewezen. Als u nog steeds geen inhoudsscan hebt gemaakt, maakt u een nieuwe taak en wijst u deze toe aan het cluster met de scannerknooppunten die de openbare preview-versie uitvoeren.
+3. Controleer of uw inhoudsscantaak aan het juiste cluster is toegewezen. Als u nog steeds geen inhoudsscan hebt gemaakt, maakt u een nieuwe taak en wijst u deze toe aan het cluster met de scannerknooppunten die de openbare preview-versie uitvoeren.
 
 4. Maak verbinding met de [Azure Information Protection-extensie in het Azure-portaal](https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/scannerProfilesBlade) en voeg uw opslagplaatsen toe aan de inhoudsscantaak die de scan gaat uitvoeren.
 

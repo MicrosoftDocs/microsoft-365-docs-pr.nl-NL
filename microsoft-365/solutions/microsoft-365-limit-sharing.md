@@ -18,13 +18,14 @@ search.appverid:
 f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
+recommendations: false
 description: Leer meer over de mogelijkheden om delen in Microsoft 365 te beperken of uit te schakelen.
-ms.openlocfilehash: 46cef1aac6d3387366a5e8ce9f9c1129f6c83e61
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f237df883bb401342a3a5c93432beeb5028cfce6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920202"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539189"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Delen beperken in Microsoft 365
 
@@ -211,7 +212,7 @@ Gebruikers die toegang hebben tot bestanden en mappen in Microsoft 365, kunnen b
 
 Voorwaardelijke toegang in Azure Active Directory biedt opties om delen met personen te beperken of te voorkomen op basis van de netwerklocatie, de status van het apparaat, het risico voor aanmelding en andere factoren. Zie [Wat is voorwaardelijke toegang?](/azure/active-directory/conditional-access/overview)
 
-SharePoint biedt rechtstreekse integratie met voorwaardelijke toegang tot Azure Active Directory voor zowel niet-beheerde apparaten als netwerklocaties. Zie de volgende referenties voor details:
+SharePoint biedt rechtstreekse integratie met voorwaardelijke toegang van Azure Active Directory voor zowel niet-beheerde apparaten als netwerklocaties. Zie de volgende verwijzingen voor details:
 
 - [Toegang beheren vanaf niet-beheerde apparaten](/sharepoint/control-access-from-unmanaged-devices)
 - [Toegang tot SharePoint en OneDrive-gegevens regelen op basis van netwerklocatie](/sharepoint/control-access-based-on-network-location)

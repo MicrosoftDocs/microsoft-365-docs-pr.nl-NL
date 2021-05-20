@@ -17,13 +17,14 @@ ms.collection:
 - m365solution-securecollab
 ms.custom:
 - Ent_Solutions
+recommendations: false
 description: Informatie over het implementeren van teams met bescherming voor zeer vertrouwelijke gegevens.
-ms.openlocfilehash: fdc3c1ab2c780289b7405623779b8af89da8ba17
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d83c10df50d02f47a6d70ee80b2ddbf89fff37d0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916284"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538193"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 
@@ -33,7 +34,7 @@ Voor deze beveiligingslaag kunt je een vertrouwelijkheidslabel maken dat door uw
 
 De zeer gevoelige laag biedt de volgende extra bescherming bovenop de basislaag:
 
-- Een gevoeligheidslabel voor het team waarmee je het delen van gasten kunt in- of uitschakelen en de toegang tot SharePoint-inhoud beperkt voor onbeheerde apparaten. Dit label kan ook worden gebruikt om bestanden te classificeren en te versleutelen.
+- Een vertrouwelijkheidslabel voor het team waarmee je het delen van gasten kunt in- of uitschakelen en de toegang tot SharePoint-inhoud beperkt voor onbeheerde apparaten. Dit label kan ook worden gebruikt om bestanden te classificeren en versleutelen.
 - Een meer beperkend standaardkoppelingstype voor delen
 - Alleen teameigenaren kunnen privé-kanalen maken.
 - Toegangsaanvragen voor de gekoppelde SharePoint-site zijn uitgeschakeld.

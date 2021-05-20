@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Wanneer u een vertrouwelijkheidslabel maakt, kunt u automatisch een label toewijzen aan bestanden en e-mailberichten of gebruikers vragen om het label te selecteren dat u aanbeveelt.
-ms.openlocfilehash: f5281255db48b61e7cf21a1ac8d6b5bdd18ebc20
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d7559e5fa75db1fb23592dec1a3a5f35bad603df
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332976"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538532"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Een vertrouwelijkheidslabel automatisch toepassen op inhoud
 
@@ -52,14 +52,14 @@ Er zijn twee verschillende methoden voor het automatisch toepassen van een vertr
 
 - **Labelen aan servicezijde wanneer inhoud al is opgeslagen (in SharePoint of OneDrive) of per e-mail is verzonden (verwerkt door Exchange Online)**: gebruik een beleid voor automatisch labelen. 
     
-    Soms wordt deze methode ook wel automatisch labelen voor data-at-rest genoemd (documenten in SharePoint en OneDrive) of data-in-transit (e-mail die wordt verzonden of ontvangen door Exchange). Bij Exchange omvat het geen e-mailberichten-at-rest (mailboxen).
+    Soms wordt deze methode ook wel automatisch labelen voor data-at-rest genoemd (documenten in SharePoint en OneDrive) of data-in-transit (e-mail die wordt verzonden of ontvangen door Exchange). Voor Exchange bevat dit niet e-mail-at-rest (postvakken).
     
     Het labelen wordt door de service zelf toegepast en niet door de toepassingen. U hoeft zich dus geen zorgen te maken over welke apps en welke versie gebruikers hebben. Hierdoor is deze functionaliteit direct beschikbaar binnen uw gehele organisatie en geschikt om op schaal te labelen. Beleid voor automatisch labelen ondersteunt geen aanbevolen labels, omdat de gebruiker geen interactie heeft met het labelproces. In plaats daarvan voert de beheerder het beleid in de simulatiemodus uit, om ervoor te zorgen dat de inhoud juist wordt gelabeld voordat het label werkelijk wordt toegepast.
     
     Zie [Beleidsregels configureren voor automatisch labelen voor SharePoint, OneDrive en Exchange](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) op deze pagina voor configuratie-instructies.
     
     Specifiek voor automatisch labelen voor SharePoint en OneDrive:
-    - Office-bestanden voor Word, PowerPoint en Excel worden ondersteund. De Open XML-indeling wordt ondersteund (zoals .docx en .xlsx), maar niet de Microsoft Office 97-2003-indeling (zoals .doc en .xls).
+    - Office-bestanden voor Word, PowerPoint en Excel worden ondersteund. Open XML-indeling wordt ondersteund (zoals .docx en .xlsx), maar niet de Microsoft Office 97-2003-indeling (zoals .doc en .xls).
         - Deze bestanden kunnen automatisch at rest worden gelabeld voor of nadat de beleidsregels voor automatisch labelen worden gemaakt. Bestanden kunnen niet automatisch worden gelabeld als ze deel uitmaken van een geopende sessie (het bestand is geopend).
     - Maximaal 25.000 automatisch gelabelde bestanden in uw tenant per dag.
     - Maximaal tien beleidsregels voor automatisch labelen per tenant, elk voorzien voor maximaal tien sites (SharePoint of OneDrive).
@@ -67,9 +67,9 @@ Er zijn twee verschillende methoden voor het automatisch toepassen van een vertr
     - Wanneer het label versleuteling toepast, is [Rights Management-uitgever en -eigenaar](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) het account waaronder het bestand het laatst is gewijzigd.
 
     Specifiek voor automatisch labelen voor Exchange:
-    - In tegenstelling tot handmatig labelen of automatisch labelen met Office-apps, worden zowel PDF-bijlagen als Office-bijlagen (Word-, Excel- en PowerPoint-bestanden) ook gescand op de voorwaarden die u opgeeft in uw beleid voor automatisch labelen. Als er een overeenkomst is, wordt het e-mailbericht gelabeld, maar niet de bijlage.
+    - In tegenstelling tot handmatig labelen of automatisch labelen met Office-apps, worden zowel PDF-bijlagen als Office-bijlagen (Word-, Excel- en PowerPoint-bestanden) ook gescand op de voorwaarden die u opgeeft in uw beleid voor automatisch labelen. Als er een overeenkomst is, wordt de e-mail gelabeld, maar niet de bijlage.
         - Als voor PDF-bestanden versleuteling wordt toegepast op het label, worden deze bestanden versleuteld wanneer uw tenant is [ingeschakeld voor PDF-bijlagen](ome-faq.yml#are-pdf-file-attachments-supported-).
-        - Voor deze Office-bestanden wordt de Open XML-indeling ondersteund (zoals .docx en .xlsx), maar niet de Microsoft Office 97-2003-indeling (zoals .doc en .xls). Als op het label versleuteling wordt toegepast, worden deze bestanden versleuteld.
+        - Voor deze Office-bestanden wordt de Open XML-indeling ondersteund (zoals .docx en .xlsx), maar niet de Microsoft Office 97-2003-indeling (zoals .doc en .xls). Als het label versleuteling toepast, worden deze bestanden versleuteld.
     - Als u beschikt over regels voor de Exchange-e-mailstroom of beleidsregels voor preventie van gegevensverlies (DLP) waarmee IRM-versleuteling wordt toegepast: wanneer inhoud door deze regels of beleidsregels en een beleid voor automatisch labelen wordt geïdentificeerd, wordt het label toegepast. Als dit label versleuteling toepast, worden de IRM-instellingen van de regels voor de Exchange-e-mailstroom of de DLP-beleidsregels genegeerd. Als dit label echter geen versleuteling toepast, worden de IRM-instellingen van de regels voor de e-mailstroom of de DLP-beleidsregels ook toegepast.
     - E-mail met IRM-versleuteling zonder label wordt vervangen door een label met versleutelingsinstellingen wanneer er een overeenkomst is door gebruik te maken van automatisch labelen.
     - Binnenkomende e-mail wordt gelabeld wanneer er een overeenkomst is met de voorwaarden voor automatisch labelen:
@@ -133,7 +133,7 @@ Wanneer u de optie **Typen gevoelige informatie** selecteert, ziet u dezelfde li
 
 Net zoals wanneer u DLP-beleid configureert, kunt u vervolgens de voorwaarde verfijnen door het aantal exemplaren en de nauwkeurigheid van de overeenstemming te wijzigen. Bijvoorbeeld:
 
-![Opties voor de nauwkeurigheid van de overeenstemming en het aantal exemplaren](../media/sensitivity-labels-instance-count-match-accuracy.png)
+![Opties voor de nauwkeurigheid van de overeenstemming en het aantal exemplaren](../media/sit-confidence-level.png)
 
 U vindt meer informatie over deze configuratieopties in de DLP-documentatie: [Regels afstemmen om ze eenvoudiger of moeilijker overeen te laten komen](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
 
@@ -171,13 +171,13 @@ Als u wilt, kunt u uw gebruikers aanraden het label toe te passen. Met deze opti
 
 ![Optie voor het aanbevelen van een vertrouwelijkheidslabel aan gebruikers](../media/Sensitivity-labels-Recommended-label-option.png)
 
-Hier ziet u een voorbeeld van een aanwijzing van de geïntegreerde Azure Information Protection-labelclient wanneer u een voorwaarde configureert om een label toe te passen als een aanbevolen actie, met een aangepaste beleidstip. U kunt kiezen welke tekst wordt weergegeven in de beleidstip.
+Hier ziet u een voorbeeld van een prompt van de geïntegreerde Azure Information Protection-labelclient wanneer u een voorwaarde configureert om een label toe te passen als een aanbevolen actie, met een aangepaste beleidstip. U kunt kiezen wat voor tekst wordt weergegeven in de beleidstip.
 
 ![Aanwijzing om een aanbevolen label toe te passen](../media/Sensitivity-label-Prompt-for-required-label.png)
 
 ### <a name="when-automatic-or-recommended-labels-are-applied"></a>Wanneer automatische of aanbevolen labels worden toegepast
 
-De implementatie van automatisch en aanbevolen labelen in Office-apps is afhankelijk van of u gebruikmaakt van labeling die in Office is ingebouwd of van de geïntegreerde Azure Information Protection-labelclient. In beide gevallen geldt echter:
+De implementatie van automatisch en aanbevolen labelen in Office-apps is afhankelijk van of u gebruikmaakt van labeling die in Office is ingebouwd of van de geïntegreerde Azure Information Protection-labelclient. Echter, in beide gevallen:
 
 - U kunt automatisch labelen niet gebruiken voor documenten en e-mailberichten die eerder handmatig zijn gelabeld of die eerder automatisch met een hogere vertrouwelijkheid zijn gelabeld. Vergeet niet dat u slechts één vertrouwelijkheidslabel kunt toepassen op een document of e-mailbericht (naast één retentielabel).
 

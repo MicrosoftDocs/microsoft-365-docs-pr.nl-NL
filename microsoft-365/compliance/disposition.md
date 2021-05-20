@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Controleer en beheer het verwijderen van inhoud, ongeacht of u een verwijderingsbeoordeling of items gemarkeerd als record gebruikt, worden automatisch verwijderd volgens de instellingen die u hebt geconfigureerd.
-ms.openlocfilehash: 13310eca369949e2b66163907be4268120aa0ed0
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: dd03c429bf1b12a4c733c2e6800d0b71ca7a691f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344931"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532163"
 ---
 # <a name="disposition-of-content"></a>Verwijdering van inhoud
 
@@ -53,16 +53,24 @@ Verder geldt:
 
 - Als u de inhoud van items wilt bekijken tijdens het verwijderen, voegt u gebruikers toe aan de rollengroep: **Content Explorer Content Viewer**. Als gebruikers niet over de machtigingen van deze rollengroepen hebben, kunnen ze nog steeds een actie voor verwijderingsbeoordeling selecteren om de verwijderingsbeoordeling te voltooien. Ze moeten dit wel kunnen doen zonder de inhoud van het item uit het mini-preview-paneel te bekijken vanuit het compliancecentrum.
 
-- In preview: standaard ziet elke persoon die toegang heeft tot de pagina **Verwijdering** alleen items waarvoor ze zijn toegewezen om te beoordelen. Ga naar **de instellingen voor recordbeheer** > **Algemeen** > **Recordbeheer** om een beveiligingsgroep met e-mail te selecteren en in te schakelen die de beheerdersaccounts bevat, als u als beheerder voor recordbeheer alle items wilt zien die zijn toegewezen aan alle gebruikers en alle bewaarlabels die zijn geconfigureerd voor verwijderingsbeoordeling.
+- In preview: standaard ziet elke persoon die toegang heeft tot de pagina **Verwijdering** alleen items waarvoor ze zijn toegewezen om te beoordelen. Om een recordbeheerder alle items te laten zien die zijn toegewezen aan alle gebruikers, en alle retentielabels die zijn geconfigureerd voor verwijderingsbeoordeling: Navigeer naar **instellingen Recordbeheer** > **Algemeen** > **Beveiligingsgroep voor recordbeheerder** om een beveiligingsgroep voor e-mail te selecteren en vervolgens in te schakelen die de beheerdersaccounts bevat.
     
     Microsoft 365-groepen en beveiligingsgroepen die geen e-mail hebben, zullen deze functie niet ondersteunen en worden niet weergegeven in de lijst om deze te selecteren. Als u een nieuwe beveiligingsgroep met e-mail wilt maken, gebruikt u de koppeling naar het Microsoft 365-beheercentrum om de nieuwe groep te maken. 
     
     > [!IMPORTANT]
-    > U kunt deze machtiging niet uitschakelen of de groep vervangen die u in het compliancecentrum hebt ingeschakeld. U kunt echter een andere beveiligingsgroep met e-mail inschakelen via cmdlet [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage).
-    > 
-    > Bijvoorbeeld:`Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionreviewers@contosoi.com`
+    > Nadat u de groep hebt ingeschakeld, kunt u deze niet wijzigen in het compliancecentrum. Zie de volgende sectie voor het inschakelen van een andere groep met behulp van PowerShell.
 
-- In het voorbeeld: de **Instellingen voor recordbeheer** zijn alleen zichtbaar voor beheerders van recordbeheer. 
+- In preview: de **Instellingen voor recordbeheer** zijn alleen zichtbaar voor recordbeheerders. 
+
+#### <a name="enabling-another-security-group-for-disposition"></a>Een andere beveiligingsgroep voor verwijdering inschakelen
+
+Nadat u een beveiligingsgroep hebt ingeschakeld voor verwijdering in de **Instellingen voor recordbeheer** in het Microsoft 365-compliancecentrum, kunt u deze machtiging uitschakelen voor de groep of de geselecteerde groep vervangen in het compliancecentrum. U kunt echter een andere beveiligingsgroep met e-mail inschakelen via cmdlet [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage).
+
+Bijvoorbeeld: 
+
+```PowerShell
+Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionreviewers@contosoi.com
+````
 
 ### <a name="enable-auditing"></a>De controlefunctie inschakelen
 
@@ -70,7 +78,7 @@ Zorg ervoor dat de controle minimaal één dag vóór de eerste verdingsactie is
 
 ## <a name="disposition-reviews"></a>Verwijderingsbeoordelingen
 
-Wanneer het einde van de bewaarperiode voor inhoud is bereikt, zijn er verschillende redenen om die inhoud te controleren en te controleren of deze definitief kan worden verwijderd ('verwijderd'). In plaats van de inhoud te verwijderen, moet u bijvoorbeeld het volgende doen:
+Wanneer het einde van de retentieperiode voor inhoud is bereikt, zijn er verschillende redenen om die inhoud te bekijken en te controleren of deze definitief kan worden verwijderd ('verwijderd'). Bijvoorbeeld, in plaats van de inhoud te verwijderen, moet u misschien:
   
 - Schort het verwijderen van relevante inhoud op in geval van juridische procedures of een audit.
 
@@ -127,7 +135,7 @@ Voor de revisoren geeft u een gebruiker of beveiligingsgroep met e-mail op. Micr
 
 Als u meer dan één persoon nodig hebt om een item aan het einde van de bewaarperiode te controleren, selecteert u opnieuw **Een fase toevoegen** en herhaalt u het configuratieproces voor het aantal fasen dat u nodig hebt, met een maximum van vijf fasen. 
 
-Binnen elke afzonderlijke fase van de verwijdering zijn alle gebruikers die u voor die fase opgeeft gemachtigd om de volgende actie uit te voeren voor het item aan het einde van de bewaarperiode. Deze gebruikers kunnen ook andere gebruikers toevoegen aan hun fase voor de verwijderingsbeoordeling.
+Binnen elke afzonderlijke fase van de verwijdering zijn alle gebruikers die u voor die fase opgeeft gemachtigd om de volgende actie uit te voeren voor het item aan het einde van de bewaarperiode. Deze gebruikers kunnen ook andere gebruikers toevoegen aan hun fase van de verwijderingsbeoordeling.
 
 > [!NOTE]
 > Bestaande bewaarlabels die zijn geconfigureerd voor een verwijderingsbeoordeling, kunnen worden geüpgraded naar beoordeling met meerdere fasen door het label te configureren. Selecteer in de wizard **Een fase toevoegen** of bewerk de bestaande revisoren of voeg nieuwe revisoren toe.
@@ -142,13 +150,17 @@ Nadat u de revisoren hebt opgegeven, moet u ze de machtiging voor **Verwijdering
 
 ### <a name="how-to-customize-email-messages-for-disposition-review"></a>E-mailberichten aanpassen voor verwijderingsbeoordeling
 
+Voorbeeld van een standaard-e-mailmelding die naar een revisor is verzonden:
+
+![Voorbeeld van e-mailmelding met standaardtekst wanneer een item gereed is voor een verwijderingsbeoordeling](../media/disposition-review-email.png)
+
 In het voorbeeld kunt u ook de e-mailberichten aanpassen die voor de eerste melding naar revisoren worden verzonden en vervolgens herinneringen ontvangen.
 
 Selecteer op een van de verwijderingspagina's in het compliancecentrum de **Instellingen voor recordbeheer**:  
 
 ![Instellingen voor recordbeheer](../media/record-management-settings.png)
 
-Selecteer vervolgens het tabblad **E-mailsjablonen** en geef op of u alleen de standaard-e-mailsjablonen wilt gebruiken of uw eigen tekst wilt toevoegen aan de standaardsjabloon. Uw aangepaste tekst wordt toegevoegd aan de e-mailinstructies na de informatie over het bewaarlabel en vóór de instructies voor de volgende stappen.
+Selecteer vervolgens het tabblad **Verwijderingsmeldingen** en geef op of u alleen het standaard-e-mailbericht wilt gebruiken of uw eigen tekst wilt toevoegen aan het standaardbericht. Uw aangepaste tekst wordt toegevoegd aan de e-mailinstructies na de informatie over het bewaarlabel en vóór de instructies voor de volgende stappen.
 
 Tekst voor alle talen kan worden toegevoegd, maar opmaak en afbeeldingen worden momenteel niet ondersteund. URL's en e-mailadressen kunnen als tekst worden ingevoerd en, afhankelijk van de e-mailclient, weergave als hyperlinks of niet-opgemaakte tekst weergeven in de aangepaste e-mail.
 
@@ -162,7 +174,7 @@ Selecteer **Opslaan** om de wijzigingen op te slaan.
 
 ### <a name="viewing-and-disposing-of-content"></a>Inhoud weergeven en verwijderen
 
-Wanneer een revisor per e-mail wordt gewaarschuwd dat de inhoud kan worden bekeken, gaat deze naar het tabblad **Verwijdering** in **Recordbeheer** in het Microsoft 365-compliancecentrum. De revisoren kunnen zien hoeveel items voor elk bewaarlabel wachten op verwijdering door te kijken naar het **Type** dat zegt **Verwijdering in behandeling**. Vervolgens selecteren ze een bewaarlabel en **Openen in nieuw venster** om alle inhoud met dat label weer te geven:
+Wanneer een revisor per e-mail wordt gewaarschuwd dat de inhoud kan worden bekeken, kan hij/zij klikken op een koppeling in de e-mail die rechtstreeks leidt naar de pagina **Verwijdering** in **Recordbeheer** in het Microsoft 365-compliancecentrum. De revisoren kunnen zien hoeveel items voor elk retentielabel wachten op verwijdering door te kijken naar het **Type** dat zegt **Verwijdering in behandeling**. Vervolgens selecteren ze een bewaarlabel en **Openen in nieuw venster** om alle inhoud met dat label weer te geven:
 
 ![Openen in nieuw venster voor revisie van positie](../media/open-in-new-window.png)
 

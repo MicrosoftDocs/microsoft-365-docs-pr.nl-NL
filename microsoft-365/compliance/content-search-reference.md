@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Dit artikel bevat naslaginformatie over het eDiscovery-hulpmiddel voor Inhoud zoeken in het Microsoft 365-compliancecentrum, om je te helpen de vele details over Inhoud zoeken beter te leren kennen.
-ms.openlocfilehash: f3545cc4644ca8b0a96ee37713d8fe62be7466e5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 14660b4cfcd09f5346fa8d0d901880d0a6c774c2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332892"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538481"
 ---
 # <a name="feature-reference-for-content-search"></a>Functienaslag voor Inhoud zoeken
 
@@ -33,19 +33,7 @@ Dit artikel beschrijft functies en functionaliteit van Inhoud zoeken.
 
 ## <a name="content-search-limits"></a>Limieten voor Inhoud zoeken
 
-- Zie [Limieten voor Inhoud zoeken](limits-for-content-search.md) voor een beschrijving van de limieten die gelden voor Inhoud zoeken.
-  
-- Microsoft verzamelt prestatiegegevens voor zoekopdrachten naar inhoud die worden uitgevoerd door alle organisaties in de service. Hoewel de complexiteit van de zoekquery van invloed kan zijn op de zoektijd, is het aantal te doorzoeken postvakken de grootste factor die van invloed is op de zoektijd. Hoewel Microsoft geen serviceovereenkomst voor zoektijden biedt, bevat de volgende tabel de gemiddelde zoektijden voor een inhoudzoekactie op basis van het aantal postvakken in de zoekopdracht.
-  
-  |**Aantal postvakken**|**Gemiddelde zoektijd**|
-  |:-----|:-----|
-  |100  <br/> |30 seconden  <br/> |
-  |1000  <br/> |45 seconden  <br/> |
-  |10.000  <br/> |4 minuten  <br/> |
-  |25.000  <br/> |10 minuten  <br/> |
-  |50.000  <br/> |20 minuten  <br/> |
-  |100.000  <br/> |25 minuten  <br/> |
-  |||
+Zie [Limieten voor Inhoud zoeken](limits-for-content-search.md) voor een beschrijving van de limieten die gelden voor Inhoud zoeken.
   
 ## <a name="building-a-search-query"></a>Een zoekquery maken
 
@@ -71,7 +59,7 @@ Houd rekening met het volgende wanneer u de lijst met trefwoorden gebruikt om ee
   
 - Wanneer u een inhoudszoekopdracht uitvoert, controleert Microsoft 365 automatisch uw zoekopdracht op niet-ondersteunde tekens en op Booleaanse operatoren die mogelijk niet in hoofdletters zijn geschreven. Niet-ondersteunde tekens zijn vaak verborgen en veroorzaken gewoonlijk een zoekfout of geven onbedoelde resultaten. Zie [De query van Inhoud zoeken op fouten controleren](check-your-content-search-query-for-errors.md) voor meer informatie over de niet-ondersteunde tekens die worden gecontroleerd.
     
-- Als u een zoekquery hebt met trefwoorden voor niet-Nederlandstalige tekens (bijvoorbeeld Chinese tekens ), kunt u op **Taal-land/regio voor query**![pictogram Taal-land/regio voor query in Inhoud zoeken](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) klikken en een cultuurcodewaarde voor taal/regio voor de zoekopdracht selecteren. De standaardtaal/-regio is neutraal. Hoe weet ik of ik de taalinstelling voor een inhoudzoekactie moet wijzigen? Als je er zeker van bent dat bepaalde inhoudslocaties de niet-Nederlandse tekens bevatten die je zoekt, maar de zoekopdracht geen resultaten oplevert, kan de taalinstelling de oorzaak zijn. 
+- Als u een zoekquery hebt met trefwoorden voor niet-Nederlandstalige tekens (bijvoorbeeld Chinese tekens ), kunt u op **Taal-land/regio voor query**![pictogram Taal-land/regio voor query in Inhoud zoeken](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) klikken en een cultuurcodewaarde voor taal/regio voor de zoekopdracht selecteren. De standaardtaal/-regio is neutraal. Hoe weet ik of ik de taalinstelling voor een inhoudzoekactie moet wijzigen? Als je er zeker van bent dat bepaalde inhoudslocaties de niet-Nederlandse tekens bevatten die je zoekt, maar de zoekopdracht geen resultaten oplevert, kan de taalinstelling de oorzaak zijn.
   
 ## <a name="partially-indexed-items"></a>Gedeeltelijk geïndexeerde items
 

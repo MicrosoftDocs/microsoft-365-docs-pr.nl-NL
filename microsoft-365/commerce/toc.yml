@@ -68,7 +68,7 @@
       href: billing-and-payments/psd2.md
 - name: Factureringsaccounts
   items:
-    - name: Factureringsaccounts beheren
+    - name: Meer inzicht in het factureringsaccount
       href: manage-billing-accounts.md
     - name: Een tenant koppelen aan uw factureringsaccount
       href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business

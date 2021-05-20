@@ -19,12 +19,12 @@ localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over hoe EOP e-mailverificatie (SPF, DKIM en DMARC) gebruikt om adresvervalsing, phishing en spam te helpen voorkomen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 633494717ad7cf68319a2332f435fd8b56fc8aeb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4815924714845b641819021ea793baa465cfc812
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204389"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538289"
 ---
 # <a name="email-authentication-in-eop"></a>E-mailverificatie in EOP
 
@@ -39,9 +39,7 @@ ms.locfileid: "51204389"
 E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In alle Microsoft 365-organisaties maakt EOP gebruik van deze standaarden om binnenkomende e-mail te verifiëren:
 
 - [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
-
 - [DKIM](use-dkim-to-validate-outbound-email.md)
-
 - [DMARC](use-dmarc-to-validate-email.md)
 
 E-mailverificatie verifieert dat e-mailberichten van een afzender (bijvoorbeeld laura@contoso.com) legitiem zijn en afkomstig zijn van verwachte bronnen voor dat e-maildomein (bijvoorbeeld contoso.com).
@@ -58,7 +56,7 @@ Slechts 9% van de domeinen van bedrijven in de Fortune 500 hanteerde in maart 20
 
 ![DMARC-beleid van Fortune 500-bedrijven](../../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
 
-Het aantal kleine en middelgrote bedrijven die een sterk e-mail verificatiebeleid publiceren, is kleiner. En het nummer is nog kleiner voor e-mail domeinen buiten Noord-Amerika en West-Europa.
+Het aandeel kleine tot middelgrote bedrijven die een sterk e-mailverificatiebeleid hanteren is klein en nog kleiner voor e-maildomeinen buiten Noord-Amerika en West-Europa.
 
 Het ontbreken van een sterk beleid voor e-mailverificatie is een groot probleem. Hoewel organisaties niet kunnen zien hoe e-mailverificatie werkt, zijn hackers volledig op de hoogte en kunnen ze hiervan profiteren van. Vanwege phishing en de beperkte acceptatie van een sterk e-mailverificatiebeleid, gebruikt Microsoft *impliciete e-mailverificatie* om inkomende e-mail te controleren.
 
@@ -89,7 +87,7 @@ Alleen vertrouwen op records voor e-mailverificatie om te bepalen of een inkomen
 
 Samengestelde verificatie kan deze beperkingen verhelpen door berichten door te geven die anders niet door de e-mailverificatie zouden komen.
 
-Voor de eenvoud zijn de volgende voorbeelden gericht op resultaten van e-mailverificatie. Andere intelligentiefactoren in de back-end kunnen berichten die e-mailverificatie doorstaan identificeren als vervalst, of berichten die e-mailverificatie niet doorstaan identificeren als legitiem.
+Om het eenvoudig te houden, concentreren de volgende voorbeelden zich op e-mailverificatieresultaten. Andere intelligentiefactoren in de back-end kunnen berichten die e-mailverificatie doorstaan identificeren als vervalst, of berichten die e-mailverificatie niet doorstaan identificeren als legitiem.
 
 Het domein fabrikam.com heeft bijvoorbeeld geen SPF-, DKIM- of DMARC-records. Berichten van afzenders van het fabrikam.com-domein kunnen samengestelde verificatie niet doorstaan (noteer de `compauth`waarde en reden):
 
@@ -102,7 +100,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Als fabrikam.com een SPF-record zonder DKIM configureert, kan het bericht samengestelde verificatie doorgeven. Het domein waaraan SPF-controles zijn doorgegeven, wordt uitgelijnd met het domein in het Van-adres:
+Als fabrikam.com een SP configureert zonder een DKIM-record, kan het bericht samengestelde verificatie doorstaan, omdat het domein dat de SPF heeft doorgegeven, overeenkomt met het domein in het Van-adres:
 
 ```text
 Authentication-Results: spf=pass (sender IP is 10.2.3.4)
@@ -113,7 +111,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Als fabrikam.com een DKIM-record zonder SPF-record configureert, kan het bericht samengestelde verificatie doorgeven. Het domein in het DKIM-handtekening wordt uitgelijnd met het domein in het Van-adres:
+Als fabrikam.com een DKIM zonder een SPF-record configureert, kan het bericht samengestelde verificatie doorstaan, omdat het domein in de DKIM-handtekening overeenkomt met het domein in het Van-adres:
 
 ```text
 Authentication-Results: spf=none (sender IP is 10.2.3.4)
@@ -146,9 +144,7 @@ In Microsoft 365 wordt bijgehouden wie niet-geverifieerde e-mail naar uw organis
 U kunt deze methode gebruiken om spoofing binnen organisaties en spoofing tussen domeinen op te lossen in gevallen waarbij u eigenaar bent van of interactie heeft met meerdere tenants. Het helpt ook adresvervalsing tussen domeinen op te lossen wanneer u naar andere klanten binnen Microsoft 365 verzendt of naar derden die worden gehost door andere providers.
 
 - [SPF-records configureren](set-up-spf-in-office-365-to-help-prevent-spoofing.md) voor uw domeinen.
-
 - [DKIM-records configureren](use-dkim-to-validate-outbound-email.md) voor uw primaire domeinen.
-
 - [U kunt overwegen om DMARC-records in te stellen](use-dmarc-to-validate-email.md) voor uw domein om te bepalen wie uw legitieme afzenders zijn.
 
 Microsoft biedt geen gedetailleerde implementatierichtlijnen voor SPF-, DKIM-en DMARC-records. Er is echter veel informatie online beschikbaar. Er zijn ook andere bedrijven die uw organisatie kunnen helpen bij het opzetten van e-mailverificatierecords.
@@ -167,17 +163,11 @@ Microsoft 365 behandelt inkomende e-mail van uw bedrijfsinfrastructuur als gever
 
 Als u eenmaal bent begonnen met een SPF-terugvalbeleid van `?all`, kunt u geleidelijk meer e-mailbronnen voor uw berichten ontdekken en opnemen en vervolgens uw SPF-record bijwerken met een strikter beleid.
 
-### <a name="use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email"></a>Spoof Intelligence gebruiken om toegestane afzenders van niet-geverifieerde e-mail te configureren
+### <a name="configure-permitted-senders-of-unauthenticated-email"></a>Toegestane afzenders van niet-geverifieerde e-mail configureren
 
-U kunt [Spoof Intelligence](learn-about-spoof-intelligence.md) ook gebruiken om afzenders toe te staan niet-geverifieerde berichten naar uw organisatie te verzenden.
+U kunt [Adresvervalsingsanalyse](learn-about-spoof-intelligence.md) en de [Lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md) ook gebruiken om afzenders toe te staan niet-geverifieerde berichten naar uw organisatie te verzenden.
 
 Voor externe domeinen is de vervalste gebruiker het domein in het Van-adres, terwijl de verzendende infrastructuur het bron-IP-adres is (onderverdeeld in 24 CIDR-bereiken) of het organisatiedomein van het omgekeerde DNS(PTR)-record.
-
-In de onderstaande schermafbeelding is het bron-IP-adres mogelijk 131.107.18.4 met het PTR-record outbound.mail.protection.outlook.com. Dit wordt weergegeven als outlook.com voor de verzendende infrastructuur.
-
-Om deze afzender toe te staan niet-geverifieerde e-mail te verzenden, wijzigt u **Nee** in **Ja**.
-
-![Anti-adresvervalsing instellen voor toegestane afzenders](../../media/d4334921-d820-4334-8217-788279701e94.jpg)
 
 ### <a name="create-an-allow-entry-for-the-senderrecipient-pair"></a>Een vermelding met toestemming maken voor het afzender/geadresseerde-paar
 
@@ -189,7 +179,7 @@ Vanwege het probleem van spam en phishing raadt Microsoft e-mailverificatie aan 
 
 - Zelfs als ze in het verleden geen e-mailverificatierecords hoefden te publiceren, zouden ze dit wel moeten doen als ze e-mail naar Microsoft sturen.
 
-- U moet SPF instellen om de verzend-IP-adressen van het domein te publiceren en DKIM (indien beschikbaar) instellen om berichten digitaal te ondertekenen. Ze moeten ook overwegen om DMARC-records in te stellen.
+- U moet SPF instellen om de verzend-IP-adressen van het domein te publiceren en DKIM (indien beschikbaar) instellen om berichten digitaal te ondertekenen. Zij moeten ook overwegen DMARC-records in te stellen.
 
 - Als ze bulkmailers gebruiken om namens hen e-mail te verzenden, controleer dan of het domein in het Van-adres (als het van hen is) overeenkomt met het domein dat SPF of DMARC doorgeeft.
 

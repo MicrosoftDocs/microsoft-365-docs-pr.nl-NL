@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik vertrouwelijkheidslabels om inhoud te beveiligen in SharePoint- en Microsoft Teams-sites en Microsoft 365 Groepen.
-ms.openlocfilehash: 4914a5911ffb493eded46631d7682c1e48cf1426
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ef4559a278ce83f429790efcd20517b5c8545cb3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "52162672"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52531040"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites
 
@@ -34,9 +34,10 @@ Naast het gebruik van [vertrouwelijkheidslabels](sensitivity-labels.md) om docum
 - Externe gebruikerstoegang
 - Extern delen vanaf SharePoint-sites
 - Toegang vanaf niet-beheerde apparaten
+- Verificatiecontexten (in preview)
 
 > [!IMPORTANT]
-> De instelling **Toegang vanaf niet-beheerde apparaten** werkt samen met de SharePoint-functie om [toegang te beheren vanaf niet-beheerde apparaten](/sharepoint/control-access-from-unmanaged-devices). U moet deze afhankelijke SharePoint-functie configureren om een vertrouwelijkheidslabel te gebruiken waarin deze instelling is geconfigureerd. Aanvullende informatie kunt u vinden in de instructies die volgen.
+> De instellingen voor niet-beheerde apparaten en verificatiecontexten werken in combinatie met voorwaardelijke toegang van Azure Active Directory. U moet deze afhankelijke functie configureren als u een vertrouwelijkheidslabel wilt gebruiken voor deze instellingen. Aanvullende informatie kunt u vinden in de instructies die volgen.
 
 Wanneer u dit vertrouwelijkheidslabel toepast op een ondersteunde container past het label automatisch de classificatie en geconfigureerde beveiligingsinstellingen toe op de site of groep.
 
@@ -47,15 +48,17 @@ Inhoud in deze containers neemt echter de labels niet over voor de classificatie
 
 ## <a name="using-sensitivity-labels-for-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Vertrouwelijkheidslabels gebruiken voor Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites
 
-Voordat u vertrouwelijkheidslabels inschakelt voor containers en vertrouwelijkheidheidslabels configureert voor de nieuwe instellingen konden gebruikers vertrouwelijkheidslabels in hun apps zien en toepassen. Vanuit Word bijvoorbeeld:
+Voordat u vertrouwelijkheidslabels inschakelt voor containers en vertrouwelijkheidslabels configureert voor de nieuwe instellingen konden gebruikers vertrouwelijkheidslabels in hun apps zien en toepassen. Bijvoorbeeld, vanuit Word:
 
-![Een vertrouwelijkheidslabel weergegeven in de bureaublad-app van Word](../media/sensitivity-label-word.png)
+![Een vertrouwelijkheidslabel weergegeven in de desktop-app van Word](../media/sensitivity-label-word.png)
 
-Nadat u vertrouwelijkheidslabels inschakelt en configureert voor containers kunnen gebruikers bovendien vertrouwelijkheidslabels zien en toepassen op Microsoft-teamsites, Microsoft 365 Groepen en SharePoint-sites. Bijvoorbeeld wanneer u een nieuwe teamsite maakt in SharePoint:
+Nadat u vertrouwelijkheidslabels inschakelt en configureert voor containers kunnen gebruikers bovendien vertrouwelijkheidslabels zien en toepassen op Microsoft-teamsites, Microsoft 365 Groepen en SharePoint-sites. Bijvoorbeeld, wanneer u een nieuwe teamsite maakt vanuit SharePoint:
 
 ![Een vertrouwelijkheidslabel bij het maken van een teamsite in SharePoint](../media/sensitivity-labels-new-team-site.png)
 
 ## <a name="how-to-enable-sensitivity-labels-for-containers-and-synchronize-labels"></a>Vertrouwelijkheidslabels voor containers inschakelen en labels synchroniseren
+
+Als u de vertrouwelijkheidslabels voor containers nog niet hebt ingeschakeld, volgt u de volgende reeks stappen als eenmalige procedure:
 
 1. Volg de instructies in de Azure AD-documentatie om ondersteuning van vertrouwelijkheidslabels in te schakelen, omdat deze functie gebruikmaakt van Azure AD-functionaliteit: [Vertrouwelijkheidslabels toewijzen aan Microsoft 365 Groepen in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
@@ -71,7 +74,7 @@ Nadat u vertrouwelijkheidslabels inschakelt en configureert voor containers kunn
 
 ## <a name="how-to-configure-groups-and-site-settings"></a>Groep- en site-instellingen configureren
 
-Als u vertrouwelijkheidslabels inschakelt voor containers, betekent dat dat u nu beveiligingsinstellingen kunt configureren voor groepen en sites in de wizard vertrouwelijkheidslabels. Totdat u deze ondersteuning inschakelt, zijn de instellingen wel zichtbaar in de wizard, maar kunt u ze niet configureren.
+Als u vertrouwelijkheidslabels inschakelt voor containers, zoals beschreven in de vorige sectie, betekent dit dat u nu beveiligingsinstellingen kunt configureren voor groepen en sites in de wizard vertrouwelijkheidslabels. Totdat vertrouwelijkheidslabels zijn ingeschakeld voor containers, zijn de instellingen zichtbaar in de wizard, maar u kunt ze niet configureren.
 
 1. Volg de algemene instructies om [een vertrouwelijkheidslabel te maken of te bewerken](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) en zorg ervoor dat u **Groepen en sites** selecteert voor het bereik van het label: 
     
@@ -84,7 +87,7 @@ Als u vertrouwelijkheidslabels inschakelt voor containers, betekent dat dat u nu
 2. Selecteer vervolgens op de pagina **Beveiligingsinstellingen definiëren voor groepen en sites** een of beide beschikbare opties:
     
     - **Instellingen voor privacy en externegebruikerstoegang** om de instellingen **Privacy** en **Externegebruikerstoegang** te configureren. 
-    - **Apparaattoegang en instellingen voor extern delen** om de instelling **Extern delen beheren vanuit SharePoint-sites met label** en **Toegang vanaf onbeheerde apparaten** te configureren.
+    - **Instellingen voor extern delen en voorwaardelijke toegang** voor het configureren van **Extern delen beheren vanuit gelabelde SharePoint-sites** en **Gebruik voorwaardelijke toegang van Azure AD om gelabelde SharePoint-sites te beveiligen** instelling.
 
 3. Als u **Instellingen voor privacy en externegebruikerstoegang** hebt geselecteerd, kunt u nu de volgende instellingen configureren:
     
@@ -98,13 +101,25 @@ Als u vertrouwelijkheidslabels inschakelt voor containers, betekent dat dat u nu
     
     - **Externegebruikerstoegang**: bepaalt of de groepseigenaar [gasten aan de groep kan toevoegen](/office365/admin/create-groups/manage-guest-access-in-groups).
 
-4. Als u **Apparaattoegang en instellingen voor extern delen** hebt geselecteerd, kunt u de volgende instellingen configureren:
+4. Als u **Instellingen voor extern delen van apparaat en apparaattoegang** hebt geselecteerd, kunt u de volgende instellingen configureren:
     
     - **Extern delen van gelabelde SharePoint-sites beheren**: selecteer deze optie om vervolgens te kiezen voor extern delen voor iedereen, nieuwe en bestaande gasten, bestaande gasten of alleen personen in uw organisatie. Zie de SharePoint-documentatie [Extern delen in- of uitschakelen voor een site](/sharepoint/change-external-sharing-site) voor meer informatie over deze configuratie en instellingen.
     
-    - **Toegang vanaf onbeheerde apparaten**: deze optie maakt gebruik van de SharePoint-functie die voorwaardelijke toegang van Azure AD gebruikt om toegang tot SharePoint en OneDrive-inhoud vanaf onbeheerde apparaten te blokkeren of te beperken. Zie [Toegang vanaf onbeheerde apparaten beheren](/sharepoint/control-access-from-unmanaged-devices) van de SharePoint-documentatie voor meer informatie. De optie die u voor deze labelinstelling opgeeft, is hetzelfde als het uitvoeren van een PowerShell-opdracht voor een site, zoals beschreven in stappen 3 - 5 van het gedeelte [Toegang blokkeren of beperken tot een specifieke SharePoint-site of OneDrive](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) van de SharePoint-instructies.
-        
-        Zie [Meer informatie over de afhankelijkheden voor de optie onbeheerde apparaten](#more-information-about-the-dependencies-for-the-unmanaged-devices-option) aan het einde van dit gedeelte voor meer informatie.
+    - **Voorwaardelijke toegang van Azure AD gebruiken om gelabelde SharePoint-sites te beveiligen**: Selecteer deze optie alleen als uw organisatie [Voorwaardelijke toegang van Azure Active Directory](/azure/active-directory/conditional-access/overview)heeft geconfigureerd en gebruikt. Wijzig vervolgens een van de volgende instellingen:
+    
+        - **Bepaal of gebruikers toegang hebben tot SharePoint-sites vanaf onbeheerde apparaten**: Deze optie maakt gebruik van de SharePoint-functie die Voorwaardelijke toegang van Azure AD gebruikt om de toegang tot SharePoint- en OneDrive-inhoud vanaf onbeheerde apparaten te blokkeren of te beperken. Zie [Toegang vanaf onbeheerde apparaten beheren](/sharepoint/control-access-from-unmanaged-devices) van de SharePoint-documentatie voor meer informatie. De optie die u voor deze labelinstelling opgeeft, is hetzelfde als het uitvoeren van een PowerShell-opdracht voor een site, zoals beschreven in stappen 3 - 5 van het gedeelte [Toegang blokkeren of beperken tot een specifieke SharePoint-site of OneDrive](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) van de SharePoint-instructies.
+            
+            Zie [Meer informatie over de afhankelijkheden voor de optie onbeheerde apparaten](#more-information-about-the-dependencies-for-the-unmanaged-devices-option) aan het einde van deze sectie voor meer informatie.
+            
+        - **Kies een bestaande verificatiecontext**: met deze optie, die nog als voorbeeld actief is, kunt u striktere toegangsvoorwaarden afdwingen wanneer gebruikers SharePoint-sites waarop dit label is toegepast, openen. Deze voorwaarden worden afgedwongen wanneer u een bestaande verificatiecontext selecteert die is gemaakt en gepubliceerd voor de implementatie van voorwaardelijke toegang van uw organisatie. Als gebruikers niet voldoen aan de geconfigureerde voorwaarden of als ze apps gebruiken die geen verificatiecontexten ondersteunen, wordt de toegang geweigerd.
+            
+            Zie [Meer informatie over de afhankelijkheden voor de optie verificatiecontext](#more-information-about-the-dependencies-for-the-authentication-context-option) aan het einde van deze sectie voor meer informatie.
+            
+            Voorbeelden voor deze labelconfiguratie:
+            
+             - U kiest een verificatiecontext die is geconfigureerd om [meervoudige verificatie (MFA)](/azure/active-directory/conditional-access/untrusted-networks)te configureren. Dit label wordt vervolgens toegepast op een SharePoint-site die zeer vertrouwelijke items bevat. Daardoor krijgen gebruikers van een niet-vertrouwd netwerk die toegang proberen te krijgen tot een document op deze site, de MFA-prompt te zien die ze moeten voltooien voordat ze toegang krijgen tot het document.
+             
+             - U kiest een verificatiecontext die is geconfigureerd voor [beleidsregels voor gebruiksvoorwaarden (Tou)](/azure/active-directory/conditional-access/terms-of-use). Dit label wordt vervolgens toegepast op een SharePoint-site die items bevat waarvoor om juridische of nalevingsredenen gebruiksvoorwaarden moeten worden geaccepteerd. Daardoor krijgen gebruikers die toegang proberen te krijgen tot een document op deze site, een document met de gebruiksvoorwaarden te zien die ze moeten accepteren voordat ze toegang krijgen tot het originele document.
 
 > [!IMPORTANT]
 > Alleen deze site- en groepsinstellingen worden van kracht wanneer u het label toepast op een team, groep of site. Als het [bereik van het label](sensitivity-labels.md#label-scopes) bestanden en e-mailberichten omvat, worden andere labelinstellingen, zoals versleuteling en inhoudsmarkering, niet toegepast op de inhoud binnen het team, de groep of de site.
@@ -118,6 +133,43 @@ Als u het beleid voor afhankelijke voorwaardelijke toegang voor SharePoint, zoal
 Als uw tenant bijvoorbeeld is geconfigureerd voor **Beperkte toegang via internet toegestaan**, zal de labelinstelling die volledige toegang toestaat geen effect hebben, omdat die minder beperkend is. Kies voor deze instelling op tenantniveau de labelinstelling die toegang blokkeert (verder beperkend) of de labelinstelling voor beperkte toegang (hetzelfde als de tenantinstelling).
 
 Omdat u de SharePoint-instellingen afzonderlijk van de labelconfiguratie kunt configureren, kunt u in de wizard voor vertrouwelijkheidslabels niet controleren of de afhankelijkheden goed zijn ingesteld. Deze afhankelijkheden kunnen worden geconfigureerd nadat het label is gemaakt en gepubliceerd en zelfs nadat het label is toegepast. Als het label echter al bestaat, wordt de labelinstelling pas van kracht nadat de gebruiker de volgende keer wordt geverifieerd.
+
+##### <a name="more-information-about-the-dependencies-for-the-authentication-context-option"></a>Meer informatie over de optie afhankelijkheden voor de optie verificatiecontext
+
+Als u wilt weergeven in de vervolgkeuzelijst voor selectie, moeten verificatiecontexten worden gemaakt, geconfigureerd en gepubliceerd als onderdeel van uw configuratie van Voorwaardelijke toegang van Azure Active Directory. Zie de sectie [Verificatiecontexten configureren](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts) in de documentatie Voorwaardelijke toegang van Azure AD voor meer informatie en instructies.
+
+Niet alle apps ondersteunen verificatiecontexten. Als een gebruiker met een niet-ondersteunde app verbinding maakt met de site die is geconfigureerd voor een verificatiecontext, zien ze een bericht dat de toegang is geweigerd of wordt hem of haar gevraagd om te worden geverifieerd, maar geweigerd. De apps die momenteel verificatiecontexten ondersteunen:
+
+- De webversie van Office, met de webversie van Outlook
+
+- Microsoft Planner
+
+- Microsoft 365-apps voor Word, Excel en PowerPoint; minimale versies:
+    - Windows: 2103
+    - macOS: 16.45.1202
+    - iOS: 2.48.303
+    - Android: 16.0.13924.10000
+
+- Microsoft 365-apps voor Outlook; minimale versies:
+    - Windows: 2103
+    - macOS: 16.45.1202
+    - iOS: 4.2109.0
+    - Android: 4.2025.1
+
+- Synchronisatie-app voor OneDrive, minimale versies:
+    - Windows: 21.002
+    - macOS: 21.002
+    - iOS; Wordt geïmplementeerd in 12.30
+    - Android: nog niet ondersteund
+
+Bekende problemen in deze preview:
+
+- De synchronisatie-app voor OneDrive wordt alleen ondersteund voor OneDrive en niet voor andere sites.
+
+- De volgende functies en apps zijn mogelijk niet compatibel met verificatiecontexten. We raden u daarom aan te controleren of deze blijven werken nadat een gebruiker met succes toegang heeft tot een site via een verificatiecontext:
+    
+    - Werkstromen die PowerApps of Power Automate gebruiken
+    - Apps van derden
 
 ## <a name="sensitivity-label-management"></a>Beheer van vertrouwelijkheidslabels
 
@@ -144,13 +196,13 @@ U kunt het beste de site- en groepsinstellingen voor een vertrouwelijkheidslabel
 
 Als de wijzigingen ook de instelling **Toegang van externe gebruikers** inhouden:
 
-- is de nieuwe instelling van toepassing op nieuwe gebruikers maar niet op bestaande gebruikers. Als deze instelling bijvoorbeeld eerder was geselecteerd en gastgebruikers hierdoor toegang hebben gekregen tot de site, hebben deze gastgebruikers nog steeds toegang tot de site nadat deze instelling is verwijderd uit de labelconfiguratie.
+- De nieuwe instelling geldt voor nieuwe gebruikers, maar niet voor bestaande gebruikers. Als deze instelling bijvoorbeeld eerder was geselecteerd en gastgebruikers hierdoor toegang hebben gekregen tot de site, hebben deze gastgebruikers nog steeds toegang tot de site nadat deze instelling is verwijderd uit de labelconfiguratie.
 
 - De privacyinstellingen voor de groepseigenschappen hiddenMembership en roleEnabled worden niet bijgewerkt.
 
 ### <a name="deleting-published-labels-that-are-configured-for-sites-and-groups"></a>Gepubliceerde labels verwijderen dier zijn geconfigureerd voor sites en groepen
 
-Als u een vertrouwelijkheidslabel verwijdert waarvan de site- en groepsinstellingen zijn ingeschakeld en het label is inbegrepen in een of meerdere labelbeleidsregels, kan deze actie resulteren in fouten bij het maken van nieuwe teams, groepen en sites. Om deze situatie te voorkomen, gebruikt u de volgende richtlijnen:
+Als u een vertrouwelijkheidslabel verwijdert waarvan de site- en groepsinstellingen zijn ingeschakeld en het label is inbegrepen in een of meerdere labelbeleidsregels, kan deze actie resulteren in fouten bij het maken van nieuwe teams, groepen en sites. Om deze situatie te vermijden, gebruik de volgende instructies:
 
 1. Verwijder het vertrouwelijkheidslabel uit alle labelbeleidsregels waarin dat label is opgenomen.
 
@@ -239,7 +291,7 @@ Zorg ervoor dat u versie 16.0.19418.12000 of hoger hebt van de SharePoint Online
    $sites = Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like 'documents"
    ```
 
-5. Voer de volgende opdracht uit om het label toe te passen op deze sites. Aan de hand van onze voorbeelden:
+5. Voer de volgende opdracht uit om het label toe te passen op deze sites. Gebruik onze voorbeelden:
 
    ```powershell
    $sites | ForEach-Object {Set-SPOTenant $_.url -SensitivityLabel $Id}
@@ -317,7 +369,7 @@ Om uw oude classificaties te converteren naar vertrouwelijkheidslabels gaat u op
 
 Voer vervolgens de volgende handelingen uit:
 
-1. Gebruik PowerShell om de vertrouwelijkheidslabels toe te passen op bestaande Microsoft 365-groepen en SharePoint-sites door naamtoewijzing te gebruiken. Zie het volgende gedeelte voor instructies.
+1. Gebruik PowerShell om de vertrouwelijkheidslabels toe te passen op bestaande Microsoft 365-groepen en SharePoint-sites door naamtoewijzing te gebruiken. Zie de volgende sectie voor instructies.
 
 2. Verwijder de oude classificaties van de bestaande groepen en sites.
 
