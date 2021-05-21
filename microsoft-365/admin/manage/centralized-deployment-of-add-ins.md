@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie kunt gebruiken om Office te implementeren.
-ms.openlocfilehash: 482f2231c0c2c9fa30e863f25f474d90a22f52fa
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: e5d3337cdf1bbb0dc18ee6940ab8bd289d2e5f65
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464403"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593919"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt voor uw organisatie
 
@@ -43,7 +43,7 @@ Gecentraliseerde implementatie ondersteunt drie bureaubladplatforms Windows, Mac
 
 Het kan maximaal 24 uur duren voordat een invoegtoepassing aan alle gebruikers wordt weergegeven.
   
-## <a name="requirements"></a>Vereisten
+## <a name="before-you-begin"></a>Voordat u begint
 
 Gecentraliseerde implementatie van invoegvoegingen vereist dat de gebruikers Microsoft 365 Enterprise SKU's gebruiken: E3/E5/F3 of Zakelijke SKU's: Business Basic, Business Standard, Business Premium (en zijn aangemeld bij Office met hun organisatie-id) en hebben Exchange Online en actieve Exchange Online-postvakken. Uw abonnementsmap moet zijn opgenomen of federatief zijn Azure Active Directory.
 U kunt hieronder specifieke vereisten voor Office en Exchange of de compatibiliteitscontrole voor gecentraliseerde implementatie [gebruiken.](#centralized-deployment-compatibility-checker)

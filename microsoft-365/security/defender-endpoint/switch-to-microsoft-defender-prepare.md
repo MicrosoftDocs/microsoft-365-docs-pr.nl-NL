@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 6d3f1e2b0986fe12f0bf318b53100ca31f1ed700
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 92dfc279344b003ab651110375982b0f065dfb0d
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538373"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594167"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>Overschakelen naar Microsoft Defender voor Eindpunt - Fase 1: Voorbereiden
 
@@ -43,11 +43,8 @@ ms.locfileid: "52538373"
 Deze migratiefase bevat de volgende stappen:
 
 1. [Updates downloaden en implementeren op de apparaten van uw organisatie](#get-and-deploy-updates-across-your-organizations-devices)
-
 2. [Krijg Defender voor eindpunt](#get-microsoft-defender-for-endpoint).
-
 3. [Toegang verlenen tot de Microsoft Defender-beveiligingscentrum.](#grant-access-to-the-microsoft-defender-security-center)
-
 4. [Instellingen voor apparaatproxy en internetverbinding configureren.](#configure-device-proxy-and-internet-connectivity-settings)
 
 ## <a name="get-and-deploy-updates-across-your-organizations-devices"></a>Updates downloaden en implementeren op de apparaten van uw organisatie
@@ -84,14 +81,14 @@ Nu u de apparaten van uw organisatie hebt bijgewerkt, is de volgende stap om Def
 
 4. Als eindpunten (zoals apparaten) in uw organisatie een proxy gebruiken om toegang te krijgen tot internet, zie [Defender for Endpoint setup: Network configuration](production-deployment.md#network-configuration).
  
-Op dit moment bent u klaar om toegang te verlenen aan uw beveiligingsbeheerders en beveiligingsbeheerders die de Microsoft Defender-beveiligingscentrum ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
+Op dit moment bent u klaar om toegang te verlenen aan uw beveiligingsbeheerders en beveiligingsbeheerders die de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). 
 
 > [!NOTE]
-> De Microsoft Defender-beveiligingscentrum wordt soms de Defender for Endpoint-portal genoemd en kan worden geopend op [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) . 
+> De Microsoft Defender-beveiligingscentrum wordt soms de Defender for Endpoint-portal genoemd en kan worden geopend op [https://securitycenter.windows.com](https://securitycenter.windows.com) . 
 
 ## <a name="grant-access-to-the-microsoft-defender-security-center"></a>Toegang verlenen tot de Microsoft Defender-beveiligingscentrum
 
-De Microsoft Defender-beveiligingscentrum ( ) is de plaats waar u functies en mogelijkheden van Defender voor eindpunten kunt openen [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) en configureren. Zie Overzicht van de [Microsoft Defender-beveiligingscentrum.](use.md)
+De Microsoft Defender-beveiligingscentrum ( ) is de plaats waar u functies en mogelijkheden van Defender voor eindpunten kunt openen [https://securitycenter.windows.com](https://securitycenter.windows.com) en configureren. Zie Overzicht van de [Microsoft Defender-beveiligingscentrum.](use.md)
 
 Machtigingen voor de Microsoft Defender-beveiligingscentrum kunnen worden verleend met basismachtigingen of op rollen gebaseerd toegangsbeheer (RBAC). We raden u aan RBAC te gebruiken, zodat u meer gedetailleerde controle hebt over machtigingen.
 
@@ -102,9 +99,7 @@ Machtigingen voor de Microsoft Defender-beveiligingscentrum kunnen worden verlee
     Als uw organisatie een andere methode dan Intune nodig heeft, kiest u een van de volgende opties:
 
     - [Configuration Manager](/mem/configmgr/core/servers/deploy/configure/configure-role-based-administration)
-
     - [Geavanceerd groepsbeleidsbeheer](/microsoft-desktop-optimization-pack/agpm)
-
     - [Windows Beheercentrum](/windows-server/manage/windows-admin-center/overview)
 
 3. Toegang verlenen tot de Microsoft Defender-beveiligingscentrum. (Hulp nodig? Zie [Portaltoegang beheren met RBAC](rbac.md)).
@@ -113,14 +108,14 @@ Machtigingen voor de Microsoft Defender-beveiligingscentrum kunnen worden verlee
 
 Als u de communicatie tussen uw apparaten en Defender voor Eindpunt wilt inschakelen, configureert u proxy- en internetinstellingen. De volgende tabel bevat koppelingen naar bronnen die u kunt gebruiken om uw proxy- en internetinstellingen voor verschillende besturingssystemen en mogelijkheden te configureren:
 
-|Mogelijkheden  | Besturingssysteem | Resources |
-|--|--|--|
-|[Eindpuntdetectie en -antwoord](overview-endpoint-detection-response.md) (EDR) |[Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Server 1803 of hoger](/windows-server/get-started/whats-new-in-windows-server-1803)  |[Instellingen voor computerproxy en internetverbinding configureren](configure-proxy-internet.md) |
-|EDR |[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<p>[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[Instellingen voor proxy- en internetverbinding configureren](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings) |
-|EDR  |macOS: <p>11.3.1 (Big Sur)<p>10,15 (Catalina)<p>10,14 (Mojave)   |[Defender voor Eindpunt op macOS: Netwerkverbindingen](microsoft-defender-endpoint-mac.md#network-connections)  |
-|[Microsoft Defender Antivirus](microsoft-defender-antivirus-in-windows-10.md) |[Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Server 1803 of hoger](/windows-server/get-started/whats-new-in-windows-server-1803) <p>[Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) |[Netwerkverbindingen van Microsoft Defender Antivirus configureren en valideren](configure-network-connections-microsoft-defender-antivirus.md)<br/> |
-|Antivirus |macOS: <p>11.3.1 (Big Sur)<p>10,15 (Catalina)<p>10,14 (Mojave) |[Defender voor Eindpunt op macOS: Netwerkverbindingen](microsoft-defender-endpoint-mac.md#network-connections) |
-|Antivirus |Linux: <p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS of hoger LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 |[Defender voor Eindpunt op Linux: Netwerkverbindingen](microsoft-defender-endpoint-linux.md#network-connections) |
+| Mogelijkheden  | Besturingssysteem | Resources |
+|:--|:--|:--|
+| [Eindpuntdetectie en -antwoord](overview-endpoint-detection-response.md) (EDR) | [Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Server 1803 of hoger](/windows-server/get-started/whats-new-in-windows-server-1803)  | [Instellingen voor computerproxy en internetverbinding configureren](configure-proxy-internet.md) |
+| EDR | [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<p>[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[Instellingen voor proxy- en internetverbinding configureren](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings) |
+| EDR  | macOS:<p>11.3.1 (Big Sur)<p>10,15 (Catalina)<p>10,14 (Mojave)   | [Defender voor Eindpunt op macOS: Netwerkverbindingen](microsoft-defender-endpoint-mac.md#network-connections)  |
+| [Microsoft Defender Antivirus](microsoft-defender-antivirus-in-windows-10.md) | [Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows Server 1803 of hoger](/windows-server/get-started/whats-new-in-windows-server-1803) <p>[Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) | [Netwerkverbindingen van Microsoft Defender Antivirus configureren en valideren](configure-network-connections-microsoft-defender-antivirus.md)<br/> |
+| Antivirus | macOS:<p>11.3.1 (Big Sur)<p>10,15 (Catalina)<p>10,14 (Mojave) | [Defender voor Eindpunt op macOS: Netwerkverbindingen](microsoft-defender-endpoint-mac.md#network-connections) |
+| Antivirus | Linux: <p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS of hoger LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | [Defender voor Eindpunt op Linux: Netwerkverbindingen](microsoft-defender-endpoint-linux.md#network-connections) |
 
 ## <a name="next-step"></a>Volgende stap
 

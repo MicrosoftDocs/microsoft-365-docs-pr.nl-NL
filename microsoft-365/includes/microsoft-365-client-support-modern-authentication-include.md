@@ -5,7 +5,7 @@
 |AZURE ACTIVE DIRECTORY-BEHEERDER|N.v.t.|N.v.t.|N.v.t.|✔|N.v.t.|
 |AZURE-BEHEERDER|N.v.t.|N.v.t.|N.v.t.|N.v.t.|N.v.t.|
 |BEDRIJFSPORTAL|✔|✔|✔|N.v.t.|✔|
-|CORTANA|✔|✔|N.v.t.|N.v.t.|✔|
+|CORTANA|N.v.t.|N.v.t.|N.v.t.|N.v.t.|✔|
 |DELVE|✔|✔|N.v.t.|N.v.t.|N.v.t.|
 |EXCEL|✔|✔|✔|✔|✔|
 |EXCHANGE-BEHEERDER|N.v.t.|N.v.t.|N.v.t.|✔|N.v.t.|

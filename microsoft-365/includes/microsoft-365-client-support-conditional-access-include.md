@@ -22,7 +22,7 @@
 |POWER APPS|Gepland|Gepland|N.v.t.|N.v.t.|Gepland|
 |POWER AUTOMATE|Gepland|Gepland|N.v.t.|N.v.t.|N.v.t.|
 |POWER BI|Gepland|Gepland|N.v.t.|Gepland|Gepland|
-|POWERPOINT|✔|Gepland|Gepland|Gepland|Gepland|
+|POWERPOINT|✔|Gepland|Gepland|Gepland|N.v.t.|
 |PROJECT|N.v.t.|N.v.t.|N.v.t.|Gepland|N.v.t.|
 |PUBLISHER|N.v.t.|N.v.t.|N.v.t.|✔|N.v.t.|
 |SHAREPOINT-BEHEERDER|N.v.t.|N.v.t.|N.v.t.|Gepland|N.v.t.|
@@ -30,10 +30,10 @@
 |PLAKNOTITIES|N.v.t.|N.v.t.|N.v.t.|N.v.t.|Gepland|
 |STREAM|Gepland|Gepland|N.v.t.|N.v.t.|N.v.t.|
 |SWAY|N.v.t.|N.v.t.|N.v.t.|N.v.t.|Gepland|
-|TEAMS|✔|✔|✔|Gepland|N.v.t.|
+|TEAMS|✔|✔|✔|✔|N.v.t.|
 |TO-DO|Gepland|Gepland|Gepland|N.v.t.|Gepland|
 |VISIO|N.v.t.|✔|N.v.t.|Gepland|N.v.t.|
 |WHITEBOARD|✔|Gepland|N.v.t.|N.v.t.|Gepland|
-|WORD|✔|Gepland|Gepland|Gepland|✔|
+|WORD|✔|Gepland|Gepland|Gepland|N.v.t.|
 |WORKPLACE ANALYTICS|N.v.t.|N.v.t.|N.v.t.|N.v.t.|N.v.t.|
 |YAMMER|Gepland|Gepland|Gepland|Gepland|N.v.t.|

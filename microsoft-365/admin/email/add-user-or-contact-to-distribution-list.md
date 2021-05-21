@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
-description: Informatie over het toevoegen van een Microsoft 365 of contactpersoon aan een distributiegroep. U kunt bijvoorbeeld een werknemer, partner of leverancier toevoegen aan uw e-maildistributiegroep.
-ms.openlocfilehash: f4ca52b02ce3b403fb318a9e092f883e8492d003
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Lees hoe u een gebruiker Microsoft 365 of contactpersoon, zoals een werknemer, partner of leverancier, toevoegt aan een e-maildistributiegroep.
+ms.openlocfilehash: 69dea710554b344de4bc221b17d5d8f929b964a5
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52243958"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593487"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Een gebruiker of contactpersoon toevoegen aan een distributiegroep
 
-Als beheerder van een organisatie moet u mogelijk een van uw gebruikers of contactpersonen toevoegen aan een distributiegroep (zie [Distributiegroepen maken in Microsoft 365](../setup/create-distribution-lists.md).) U kunt bijvoorbeeld werknemers of externe partners of leveranciers toevoegen aan een e-maildistributiegroep.
+Als beheerder van een organisatie moet u mogelijk een van uw gebruikers of contactpersonen toevoegen aan een distributiegroep (zie [Distributiegroepen maken in Microsoft 365).](../setup/create-distribution-lists.md) U kunt bijvoorbeeld werknemers of externe partners of leveranciers toevoegen aan een e-maildistributiegroep.
   
 ## <a name="add-a-user-or-contact-to-a-distribution-group"></a>Een gebruiker of contactpersoon toevoegen aan een distributiegroep
 
@@ -44,9 +44,18 @@ Als beheerder van een organisatie moet u mogelijk een van uw gebruikers of conta
     ![Leden toevoegen aan distributiegroep](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
 5. Selecteer **Opslaan** en vervolgens **Sluiten.**
+
+## <a name="watch-add-a-user-to-a-distribution-list"></a>Kijken: Een gebruiker toevoegen aan een distributielijst
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ed4e6095-9a6a-4d3d-999d-698c39bb7ec8?autoplay=false]
   
-Meer informatie over het verzenden van e-mail als een [distributiegroep in Microsoft 365.](../manage/send-email-as-distribution-list.md)
-  
+## <a name="next-steps"></a>Volgende stappen
+
+Informatie over [het verzenden van e-mail als een distributiegroep in Microsoft 365.](../manage/send-email-as-distribution-list.md)
+
+## <a name="related-content"></a>Verwante inhoud
+
+[Onbelangrijke e-mail beheren voor uw organisatie](configure-clutter.md) (artikel)
+
+[Een gedeeld postvak maken](create-a-shared-mailbox.md) (artikel)
 

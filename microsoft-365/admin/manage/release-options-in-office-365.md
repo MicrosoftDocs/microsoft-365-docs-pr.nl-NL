@@ -21,18 +21,18 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
-description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functiesupdates in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: d3692f2e1cca58fec81f2ad492b9232d5576f99b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functiesupdates in het Microsoft 365 beheercentrum.
+ms.openlocfilehash: 5060e2dc99355d89928ec91c96b7d25e2016c7c4
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579252"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593943"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>De opties Standaard of Targeted Release instellen
 
 > [!IMPORTANT]
-> De microsoft 365-updates die in dit artikel worden beschreven, zijn van toepassing op Microsoft 365, SharePoint Online en Exchange Online. Deze releaseopties zijn doelgerichte manieren om wijzigingen in Microsoft 365 vrij te geven, maar kunnen niet altijd of voor alle updates worden gegarandeerd. Ze zijn niet van toepassing op Microsoft 365-apps, Skype voor Bedrijven, Microsoft Teams en gerelateerde services. Zie Overzicht van updatekanalen voor Microsoft 365-apps voor informatie over releaseopties voor [Microsoft 365-apps.](/deployoffice/overview-update-channels)
+> De Microsoft 365 in dit artikel beschreven updates zijn van toepassing op Microsoft 365, SharePoint Online en Exchange Online. Deze releaseopties zijn doelgerichte manieren om wijzigingen in Microsoft 365 vrij te geven, maar kunnen niet altijd of voor alle updates worden gegarandeerd. Ze zijn niet van toepassing op Microsoft 365-apps, Skype voor Bedrijven, Microsoft Teams en gerelateerde services. Zie Overzicht van updatekanalen voor Microsoft 365-apps voor meer informatie over [releaseopties voor Microsoft 365-apps.](/deployoffice/overview-update-channels)
 
 Met Microsoft 365 ontvangt u nieuwe productupdates en -functies zodra deze beschikbaar komen in plaats van om de paar jaar dure updates uit te voeren. U kunt beheren hoe uw organisatie deze updates ontvangt. U kunt u bijvoorbeeld registreren voor een vroege release, zodat uw organisatie updates als eerste ontvangt. U kunt bepaalde personen aanwijzen die als enigen de updates ontvangen. Of u blijft het standaardreleaseschema volgen en ontvangt de updates later. In dit artikel worden de verschillende releaseopties beschreven en wordt uitgelegd hoe u deze voor uw organisatie kunt gebruiken.
 
@@ -42,10 +42,10 @@ Een nieuwe release wordt eerst getest en gevalideerd door het functieteam, vervo
   
 ![Releasevalidatieringen voor Microsoft 365](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
-Voor belangrijke updates krijgen klanten in eerste instantie een melding via de [Routekaart voor Microsoft 365.](https://products.office.com/business/office-365-roadmap) Naarmate een update dichter bij de uitrol komt, wordt deze gecommuniceerd via uw [Microsoft 365-berichtencentrum.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
+Voor belangrijke updates worden klanten in eerste instantie op de hoogte gesteld door [de Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). Naarmate een update dichter bij de uitrol komt, wordt deze gecommuniceerd via [uw Microsoft 365 Berichtencentrum.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
 
 > [!NOTE]
-> U hebt een Microsoft 365- of Azure AD-account nodig om toegang te krijgen tot uw Berichtencentrum via [het beheercentrum.](/office365/admin/admin-overview/about-the-admin-center) Gebruikers van een Microsoft 365 Home-abonnement hebben geen beheercentrum.
+> U hebt een Microsoft 365 of Azure AD-account nodig om toegang te krijgen tot uw Berichtencentrum via [het beheercentrum.](/office365/admin/admin-overview/about-the-admin-center) Microsoft 365 gebruikers van een thuisplan hebben geen beheercentrum.
 
 
 ## <a name="standard-release"></a>Standard Release
@@ -74,7 +74,7 @@ Als u [de releaseoptie in](#set-up-the-release-option-in-the-admin-center) het b
   
 ## <a name="benefits-of-targeted-release"></a>Voordelen van Targeted Release
 
-Met een gerichte release kunnen beheerders, wijzigingsmanagers of andere verantwoordelijken voor Microsoft 365-updates zich voorbereiden op de komende wijzigingen door ze te laten:
+Met een gerichte release kunnen beheerders, wijzigingsmanagers of andere verantwoordelijken Microsoft 365 updates voorbereiden op de komende wijzigingen door ze te laten:
   
 - Nieuwe updates testen en valideren voordat deze worden uitgebracht voor alle gebruikers in de organisatie.
     
@@ -88,12 +88,12 @@ Met een gerichte release kunnen beheerders, wijzigingsmanagers of andere verantw
     
 ## <a name="set-up-the-release-option-in-the-admin-center"></a>De releaseoptie instellen in het beheercentrum
 
-U kunt de manier wijzigen waarop uw organisatie Microsoft 365-updates ontvangt door deze stappen uit te voeren. U moet een globale beheerder zijn in Microsoft 365 om u aan te kunnen.
+U kunt de manier wijzigen waarop uw organisatie updates Microsoft 365 ontvangen door deze stappen uit te voeren. U moet een globale beheerder zijn in Microsoft 365 om u aan te kunnen.
   
 > [!IMPORTANT]
 > Het kan tot 24 uur duren voordat de onderstaande wijzigingen van kracht worden in Microsoft 365. Als u zich afmeldt nadat u het programma hebt ingeschakeld, hebben uw gebruikers mogelijk geen toegang meer tot functies waarvan de geplande release nog niet beschikbaar is. 
   
-1. Ga in het beheercentrum naar **instellingen** organisatieinstelling en kies onder het tabblad  >  Organisatieprofiel de optie **Releasevoorkeuren.** 
+1. Ga in het beheercentrum naar de **Instellingen** organisatieinstelling en kies onder het profieltabblad Organisatie de optie  >    **Releasevoorkeuren.**
 
 5. Als u gerichte release wilt uitschakelen, selecteert u **Standaardversie** en **selecteert u Vervolgens Wijzigingen opslaan.** 
     
@@ -101,16 +101,14 @@ U kunt de manier wijzigen waarop uw organisatie Microsoft 365-updates ontvangt d
     
 7. Als u gerichte release wilt inschakelen voor sommige personen in uw organisatie, **selecteert** u Targeted release voor geselecteerde gebruikers en selecteert u **Vervolgens Wijzigingen opslaan.** 
     
-8. Kies **Gebruikers selecteren** om gebruikers één voor één toe te voegen of Gebruikers uploaden **om** ze bulksgewijs toe te voegen.
+8. Kies **Gebruikers selecteren** om gebruikers één voor één toe te voegen of kies Upload **gebruikers** om ze bulksgewijs toe te voegen.
     
 9. Wanneer u klaar bent met het toevoegen van gebruikers, selecteert u **Wijzigingen opslaan.**
-
-
   
-## <a name="learn-more"></a>Meer informatie
+## <a name="next-steps"></a>Volgende stappen
 
-Ontdek hoe u [berichten beheert](/office365/admin/manage/message-center) in uw [Microsoft 365-berichtencentrum](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) om meldingen te krijgen over toekomstige Updates en releases van Microsoft 365.
+Ontdek hoe u [berichten beheert](/office365/admin/manage/message-center) in uw [Microsoft 365 berichtencentrum](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) om meldingen te krijgen over toekomstige Microsoft 365 updates en releases.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Office Insider](https://insider.office.com/join/windows)
+[Deelnemen aan Office Insider-programma](https://insider.office.com/join/windows) (artikel)

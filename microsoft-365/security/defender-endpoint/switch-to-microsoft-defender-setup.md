@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: e8abf10bd036b5e6e76d08e86ab4963629d2f994
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2ea8cc323220024406a49eda8d6a7c0b42ca71a4
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537989"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594047"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Overschakelen naar Microsoft Defender voor eindpunt - Fase 2: Setup
 
@@ -41,35 +41,31 @@ ms.locfileid: "52537989"
 **Welkom bij de installatiefase van het [overstappen naar Defender voor Eindpunt.](switch-to-microsoft-defender-migration.md#the-migration-process)** Deze fase bevat de volgende stappen:
 
 1. [U kunt de Microsoft Defender Antivirus eindpunten opnieuw installeren/inschakelen.](#reinstallenable-microsoft-defender-antivirus-on-your-endpoints)
-
 2. [Configure Defender for Endpoint](#configure-defender-for-endpoint).
-
 3. [Voeg Defender voor Eindpunt toe aan de lijst met uitsluitingen voor uw bestaande oplossing.](#add-microsoft-defender-for-endpoint-to-the-exclusion-list-for-your-existing-solution)
-
 4. [Voeg uw bestaande oplossing toe aan de uitsluitingslijst voor Microsoft Defender Antivirus.](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus)
-
 5. [Stel uw apparaatgroepen, apparaatverzamelingen en organisatie-eenheden in.](#set-up-your-device-groups-device-collections-and-organizational-units)
-
 6. [Antimalware-beleid en realtimebeveiliging configureren.](#configure-antimalware-policies-and-real-time-protection)
 
 
 ## <a name="reinstallenable-microsoft-defender-antivirus-on-your-endpoints"></a>Uw eindpunten opnieuw Microsoft Defender Antivirus of inschakelen
 
-In bepaalde versies van Windows is Microsoft Defender Antivirus waarschijnlijk verwijderd of uitgeschakeld wanneer uw niet-Microsoft-antivirus-/antimalware-oplossing is geïnstalleerd. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](microsoft-defender-antivirus-compatibility.md)
+In bepaalde versies van Windows is Microsoft Defender Antivirus waarschijnlijk verwijderd of uitgeschakeld wanneer uw niet-Microsoft-antivirus-/antimalware-oplossing is geïnstalleerd. Tenzij en totdat apparaten zijn onboarded bij Defender for Endpoint, worden Microsoft Defender Antivirus niet uitgevoerd in de actieve modus naast een niet-Microsoft-antivirusoplossing. Zie voor meer informatie [Microsoft Defender Antivirus compatibiliteit.](microsoft-defender-antivirus-compatibility.md)
 
-Wanneer Windows-clients een niet-Microsoft-antivirus-/antimalware-oplossing is geïnstalleerd, wordt Microsoft Defender Antivirus automatisch uitgeschakeld totdat deze apparaten zijn onboarded bij Defender voor Eindpunt. Wanneer de client-eindpunten zijn onboarded bij Defender voor Eindpunt, Microsoft Defender Antivirus in passieve modus totdat de niet-Microsoft-antivirusoplossing is verwijderd. Microsoft Defender Antivirus moet nog steeds worden geïnstalleerd, maar is waarschijnlijk uitgeschakeld op dit punt van het migratieproces. Tenzij Microsoft Defender Antivirus is verwijderd, hoeft u geen actie te ondernemen voor uw Windows clients.
+Nu u van plan bent om over te schakelen naar Defender voor Eindpunt, moet u mogelijk bepaalde stappen ondernemen om deze opnieuw te installeren of in te Microsoft Defender Antivirus. 
 
-Op Windows servers, wanneer een niet-Microsoft antivirus/antimalware is geïnstalleerd, wordt Microsoft Defender Antivirus handmatig uitgeschakeld (indien niet verwijderd). De volgende taken helpen ervoor te zorgen dat Microsoft Defender Antivirus is geïnstalleerd en ingesteld op passieve modus op Windows Server.
 
-- [DisableAntiSpyware instellen op onwaar op Windows Server](#set-disableantispyware-to-false-on-windows-server) (alleen indien nodig)
+| Eindpunttype  | Wat moet u doen?  |
+|---------|---------|
+| Windows clients (zoals eindpunten met Windows 10)     | Over het algemeen hoeft u geen actie te ondernemen voor Windows clients (tenzij Microsoft Defender Antivirus is verwijderd). Dit is de reden waarom: <p>Microsoft Defender Antivirus moet nog steeds worden geïnstalleerd, maar is waarschijnlijk uitgeschakeld op dit punt van het migratieproces.<p> Wanneer een niet-Microsoft antivirus-/antimalware-oplossing is geïnstalleerd en de clients nog niet zijn onboarded bij Defender for Endpoint, wordt Microsoft Defender Antivirus automatisch uitgeschakeld. <p>Later, wanneer de client-eindpunten zijn onboarded bij Defender voor Eindpunt, als deze eindpunten een niet-Microsoft-antivirusoplossing uitvoeren, gaat Microsoft Defender Antivirus in passieve modus. <p>Als de niet-Microsoft-antivirusoplossing is verwijderd, Microsoft Defender Antivirus automatisch in de actieve modus.  |
+|Windows servers     | Op Windows Server moet u de Microsoft Defender Antivirus opnieuw installeren en handmatig instellen op passieve modus. Dit is de reden waarom: <p>Op Windows servers, wanneer een niet-Microsoft antivirus/antimalware is geïnstalleerd, kunnen Microsoft Defender Antivirus niet naast de niet-Microsoft-antivirusoplossing worden uitgevoerd. In die gevallen is Microsoft Defender Antivirus uitgeschakeld of handmatig verwijderd. <p>Als u de Microsoft Defender Antivirus server opnieuw wilt installeren Windows inschakelen, voert u de volgende taksen uit: <p>- [DisableAntiSpyware instellen op onwaar op Windows Server](#set-disableantispyware-to-false-on-windows-server) (alleen indien nodig)<br/>- [Opnieuw Microsoft Defender Antivirus op Windows Server](#reinstall-microsoft-defender-antivirus-on-windows-server)<br/>- [De Microsoft Defender Antivirus op passieve modus instellen op Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)       |
 
-- [Opnieuw Microsoft Defender Antivirus op Windows Server](#reinstall-microsoft-defender-antivirus-on-windows-server) 
 
-- [De Microsoft Defender Antivirus op passieve modus instellen op Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)
+Zie voor meer informatie over Microsoft Defender Antivirus staten met een niet-Microsoft-antivirusbeveiliging Microsoft Defender Antivirus [compatibiliteit.](microsoft-defender-antivirus-compatibility.md)
 
 ### <a name="set-disableantispyware-to-false-on-windows-server"></a>DisableAntiSpyware instellen op onwaar op Windows Server
 
-De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) is in het verleden gebruikt om Microsoft Defender Antivirus uit te schakelen en een ander antivirusproduct te implementeren, zoals McAfee, Symantec of andere. Over het algemeen moet u deze registersleutel niet op uw Windows apparaten en eindpunten hebben. Als u echter wel hebt geconfigureerd, kunt u als volgende de waarde instellen `DisableAntiSpyware` op onwaar:
+De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) is in het verleden gebruikt om Microsoft Defender Antivirus uit te schakelen en een ander antivirusproduct te implementeren, zoals McAfee, Symantec of andere. **Over het algemeen moet u deze registersleutel** niet op uw Windows apparaten en eindpunten hebben; Als u echter wel *hebt* geconfigureerd, kunt u als volgende de waarde instellen `DisableAntiSpyware` op onwaar:
 
 1. Open registereditor op Windows serverapparaat.
 
@@ -100,11 +96,11 @@ De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unat
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features` <p>
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender` <br/>
  
-    > [!NOTE]
-    > Wanneer u de opdracht DISM gebruikt in een taakreeks met PS, is het volgende pad naar cmd.exe vereist.
-    > Voorbeeld:<br/>
-    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
-    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
+   > [!NOTE]
+   > Wanneer u de opdracht DISM gebruikt in een taakreeks met PS, is het volgende pad naar cmd.exe vereist.
+   > Voorbeeld:<br/>
+   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
+   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
 
 3. Gebruik de volgende PowerShell-cmdlet om te controleren of Microsoft Defender Antivirus wordt uitgevoerd: <br/>
    `Get-Service -Name windefend`
@@ -127,11 +123,14 @@ De [registersleutel DisableAntiSpyware](/windows-hardware/customize/desktop/unat
 
 Als u eindpunten hebt die Windows Server 2016, kunt u Microsoft Defender Antivirus naast een niet-Microsoft-antivirus-/antimalware-oplossing uitvoeren. Microsoft Defender Antivirus kan niet worden uitgevoerd in de passieve modus op Windows Server 2016. In dit geval moet u de niet-Microsoft-antivirus-/antimalware-oplossing verwijderen en in plaats daarvan Microsoft Defender Antivirus installeren/inschakelen. Zie Compatibiliteit van antivirusoplossingen met Defender voor Eindpunt voor [meer informatie.](microsoft-defender-antivirus-compatibility.md)
 
-Als u een Windows Server 2016 gebruikt en problemen hebt met het inschakelen van Microsoft Defender Antivirus, gebruikt u de volgende PowerShell-cmdlet:
+Als u een Windows Server 2016 gebruikt en problemen hebt met het inschakelen van Microsoft Defender Antivirus, gaat u als volgt te werk:
 
-`mpcmdrun -wdenable`
+1. Open PowerShell op het apparaat als beheerder.
 
-Zie voor meer informatie [Microsoft Defender Antivirus op Windows Server.](microsoft-defender-antivirus-on-windows-server.md)
+2. Typ de volgende PowerShell-cmdlet: `mpcmdrun -wdenable`
+
+> [!TIP]
+> Zie voor meer informatie [Microsoft Defender Antivirus op Windows Server.](microsoft-defender-antivirus-on-windows-server.md)
 
 ## <a name="configure-defender-for-endpoint"></a>Defender configureren voor eindpunt
 
@@ -171,14 +170,13 @@ Tijdens deze stap van het installatieproces voegt u uw bestaande oplossing toe a
 
 ### <a name="keep-the-following-points-about-exclusions-in-mind"></a>Houd rekening met de volgende punten over uitsluitingen
 
-Wanneer u [uitsluitingen toevoegt aan Microsoft Defender Antivirus scans,](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)moet u pad- en procesuitsluitingen toevoegen. Houd rekening met de volgende punten:
+Wanneer u [uitsluitingen toevoegt aan Microsoft Defender Antivirus scans,](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)moet u pad- en procesuitsluitingen toevoegen. 
+
+Houd rekening met de volgende punten:
 
 - *Paduitsluitingen sluiten* specifieke bestanden en toegang tot die bestanden uit.
-
 - *Uitsluitingen van processen* sluiten uit wat een proces raakt, maar sluit het proces zelf niet uit.
-
 - Vermeld uw procesuitsluitingen met hun volledige pad en niet alleen op hun naam. (De methode voor alleen-naam is minder veilig.)
-
 - Als u elke uitvoerbare (.exe) als zowel een paduitsluiting als een procesuitsluiting oplijst, wordt het proces en wat het ook raakt, uitgesloten.
 
 
@@ -197,7 +195,6 @@ Apparaatgroepen, apparaatverzamelingen en organisatie-eenheden stellen uw beveil
 Configureer uw antimalwarebeleid met Behulp van Configuration Manager en uw apparaatverzameling(en).
 
 - Zie [Antimalware-beleid maken](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies)en implementeren voor Endpoint Protection in Configuration Manager.
-
 - Terwijl u uw antimalwarebeleid maakt en configureert, controleert u de [realtime](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) beveiligingsinstellingen en stelt u blok op het [eerste gezicht in.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 
 > [!TIP]

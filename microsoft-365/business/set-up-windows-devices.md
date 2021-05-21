@@ -26,17 +26,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Meer informatie over het instellen van Windows apparaten met Windows 10 Pro voor Microsoft 365 Business Premium gebruikers, zodat gecentraliseerde beheer- en beveiligingsbesturingselementen worden inschakelen.
-ms.openlocfilehash: 3e268d81ff6fb7113b7e0b0fe5d0545ff5c72b1e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Stel Windows apparaten in met Windows 10 Pro voor Microsoft 365 Business Premium gebruikers, zodat gecentraliseerde beheer- en beveiligingsbesturingselementen worden inschakelen.
+ms.openlocfilehash: 3d32a033a1a1c89d7d4d557cea6a28e24543ab2c
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244771"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594016"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Apparaten Windows instellen voor Microsoft 365 Business Premium gebruikers
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Vereisten voor het instellen van Windows apparaten voor Microsoft 365 Business Premium gebruikers
+## <a name="before-you-begin"></a>Voordat u begint
 
 Voordat u Windows apparaten voor Microsoft 365 Business Premium gebruikers kunt instellen, moet u ervoor zorgen dat alle Windows-apparaten Windows 10 Pro, versie 1703 (Makersupdate) uitvoeren. Windows 10 Pro is een vereiste voor het implementeren van Windows 10 Business, een set cloudservices en apparaatbeheermogelijkheden die Windows 10 Pro aanvullen en de gecentraliseerde beheer- en beveiligingsbesturingselementen van Microsoft 365 Business Premium.
   
@@ -128,6 +128,6 @@ Controleer of uw Azure AD-apparaten Windows 10 worden geüpgraded naar Windows 1
 
 Als u uw mobiele apparaten wilt instellen, zie Mobiele apparaten instellen voor Microsoft 365 Business Premium gebruikers , Zie Beheer Microsoft 365 voor bedrijven als u apparaatbeveiligings- [of](set-up-mobile-devices.md) [app-beveiligingsbeleid wilt instellen.](manage.md)
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Voor meer informatie over het instellen en gebruiken van Microsoft 365 Business Premium
+## <a name="related-content"></a>Verwante inhoud
 
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](../business-video/index.yml)
+[Microsoft 365 voor zakelijke trainingsvideo's](../business-video/index.yml) (koppelingspagina)

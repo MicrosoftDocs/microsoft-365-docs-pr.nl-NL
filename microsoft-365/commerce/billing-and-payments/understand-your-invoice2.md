@@ -19,14 +19,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Ontdek hoe je de kosten, facturering en betalingsgegevens op je factuur voor Office 365 voor bedrijven interpreteert en hoe je het inkoopordernummer wijzigt.
+description: Interpreteer kosten, facturerings- en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur of factuur en hoe u een aankoopordernummer wijzigt.
 ms.date: 05/04/2021
-ms.openlocfilehash: febcbdee563c18b3f17ee35b98f2d68b15f456d8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: aa898f570fb17f2d9e2ebba769e285cb9d507c31
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535684"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593523"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Je rekening of factuur voor Microsoft 365 voor bedrijven bekijken
 
@@ -126,7 +126,7 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 1. Voer onderaan het deelvenster **Details bewerken voor** betalen via spraak in en selecteer opslaan. 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Meer informatie over het zoeken en weergeven van uw factuur of factuur](view-your-bill-or-invoice.md) (artikel)
 
@@ -134,6 +134,6 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 [Het adres, de e-mail](../../admin/manage/change-address-contact-and-more.md) van technische contactpersonen en andere informatie van uw organisatie wijzigen (artikel)
 
-[Uw abonnement Microsoft 365 voor bedrijven](pay-for-your-subscription.md) betalen (artikel)\
+[Uw abonnement Microsoft 365 voor bedrijven](pay-for-your-subscription.md) betalen (artikel)
 
 [Betalingsopties voor Minecraft: Education Edition](/education/windows/school-get-minecraft) (artikel)

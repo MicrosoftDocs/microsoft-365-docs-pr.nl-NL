@@ -33,7 +33,7 @@
 |PLAKNOTITIES|N.v.t.|N.v.t.|N.v.t.|N.v.t.|✔|
 |STREAM|✔|✔|N.v.t.|N.v.t.|N.v.t.|
 |SWAY|N.v.t.|N.v.t.|N.v.t.|N.v.t.|✔|
-|TEAMS|✔|✔|✔|Gepland|N.v.t.|
+|TEAMS|✔|✔|✔|✔|N.v.t.|
 |TO-DO|✔|✔|✔|N.v.t.|✔|
 |VISIO|N.v.t.|✔|N.v.t.|✔|N.v.t.|
 |WHITEBOARD|✔|Gepland|N.v.t.|N.v.t.|✔|

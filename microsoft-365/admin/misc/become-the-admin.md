@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
-description: Informatie over het verifiëren van uw e-mail- en domeineigenschap om een niet-beherende tenant over te nemen in Microsoft 365
-ms.openlocfilehash: 72278fd0e373848a79f9823e186b19bc1cb47770
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Lees hoe u uw e-mail- en domeineigenschap verifieert om een niet-beherende tenant over te nemen die is gemaakt door een selfservicegebruiker die zich in uw Microsoft 365.
+ms.openlocfilehash: c37bf153edf39f53b5c10f020b0cbb8d630eb4a6
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914844"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593931"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Een interne beheerdersovername uitvoeren
 
@@ -39,9 +39,9 @@ Als u een beheerder bent en een niet-beheerde tenant wilt overnemen die is gemaa
 ## <a name="step-1-verify-your-email-address"></a>Stap 1: Uw e-mailadres verifiëren
 
 > [!NOTE]
-> Als selfservice is ingeschakeld in uw tenant, kunnen gebruikers zich zelf abonneren op gratis services, zoals Power BI. In deze stappen wordt ervan uitgenomen dat een selfservicegebruikerabonnement de niet-beheerde tenant heeft gemaakt die u als beheerder wilt overnemen. In de eerste stap maakt u een gebruikerscontext in de niet-beheerde tenant en gebruikt u Power BI om het overnamepad van de beheerder te illustreren.
+> Als selfservice is ingeschakeld in uw tenant, kunnen gebruikers zich zelf abonneren op gratis services, Power BI services. In deze stappen wordt ervan uitgenomen dat een selfservicegebruikerabonnement de niet-beheerde tenant heeft gemaakt die u als beheerder wilt overnemen. In de eerste stap maakt u een gebruikerscontext in de niet-beheerde tenant, met behulp van Power BI om het overnamepad van de beheerder te illustreren.
 
-1. Als u zich wilt registreren voor Power BI, gaat u naar de [Power BI-site](https://powerbi.com) en **selecteert** u Gratis proefabonnement starten (in het vak Delen  >   met Power BI Pro). 
+1. Als u zich wilt registreren Power BI, gaat u naar de Power BI [site](https://powerbi.com) en **selecteert** u Gratis proefabonnement starten (in Delen  >   met Power BI Pro vak). 
 
 2. Meld u aan met een gebruikersaccount dat de domeinnaam van uw organisatie gebruikt (zoals `powerbiadmin@contoso.com` ). Als uw account al in gebruik is, meld u dan aan met uw huidige wachtwoord.
 
@@ -66,12 +66,12 @@ Als u een beheerder bent en een niet-beheerde tenant wilt overnemen die is gemaa
 > [!NOTE]
 > Het overnemen van de schaduw tenant heeft geen invloed op bestaande informatie of services. Als gebruikers in het domein zich echter hebben aangemeld voor services waarvoor een licentie is vereist, wordt u gevraagd om licenties voor hen te kopen als onderdeel van het overnemen van de beheerdersrol. U kunt licenties kopen of verwijderen zodra het installatieproces voor beheerders is voltooid.
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-YouTube: [3 stappen voor het overnemen van it-beheerders voor Power BI en Microsoft 365](https://www.youtube.com/watch?v=xt5EsrQBZZk)
+YouTube: [3 stappen voor het overnemen](https://www.youtube.com/watch?v=xt5EsrQBZZk) van IT-beheerders voor Power BI en Microsoft 365 (video)
 
-[Overname van beheerders in Azure AD](/azure/active-directory/users-groups-roles/domains-admin-takeover)
+[Overname van beheerders in Azure AD](/azure/active-directory/users-groups-roles/domains-admin-takeover) (artikel)
 
-[Selfservice-aanmelding gebruiken in uw organisatie](self-service-sign-up.md)
+[Selfservice-aanmelding gebruiken in uw organisatie](self-service-sign-up.md) (artikel)
   
-[Meer informatie over de rol van power bi-servicebeheerder](/power-bi/service-admin-role)
+[De rol Power BI servicebeheerder](/power-bi/service-admin-role) (artikel)

@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Meer informatie over het bijwerken van uw factuuradressen voor Microsoft 365 voor Bedrijven. U kunt ook het e-mailadres bijwerken dat wordt gebruikt om factureringsmeldingen te ontvangen.
+description: Meer informatie over het bijwerken van uw factuuradressen of het e-mailadres dat wordt gebruikt voor het ontvangen van factureringsmeldingen voor Microsoft 365 voor bedrijven.
 ms.date: 04/07/2021
-ms.openlocfilehash: 8bff090353c409f4364aed63e3b48a831608be2b
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 77ccb7b7ff9927736c1adaadfd2dea6b64a084f0
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332164"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594107"
 ---
 # <a name="change-your-billing-addresses"></a>Uw factuuradressen wijzigen
 
@@ -109,7 +109,7 @@ Zie Uw factuur of factuur [](view-your-bill-or-invoice.md) weergeven en Uw factu
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
 
-    Als u Office 365 gebruikt dat wordt beheerd door 21Vianet in China, zie Uw factuur bekijken of [Fapiaos voor Office 365 krijgen beheerd door 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
+    Als u gebruik maakt van Office 365 beheerd door 21Vianet in China, zie Uw factuur bekijken of [Fapiao's voor Office 365 beheerd door 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
 
 ::: moniker-end
 
@@ -161,7 +161,7 @@ U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheer
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Uw factuur of factuur weergeven](view-your-bill-or-invoice.md)\
-[Uw factuur of factuur begrijpen](understand-your-invoice2.md)\
-[Betalen voor uw abonnement](pay-for-your-subscription.md)\
-[Abonnementen en facturering - Help voor beheerders](../index.yml)
+[Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
+[Uw factuur of factuur begrijpen](understand-your-invoice2.md) (artikel)\
+[Betalen voor uw abonnement](pay-for-your-subscription.md) (artikel)\
+[Abonnementen en facturering - Help voor beheerders (koppelingspagina)](../index.yml)

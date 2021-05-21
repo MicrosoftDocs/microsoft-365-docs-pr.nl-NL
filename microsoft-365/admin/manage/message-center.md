@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
-description: Krijg een overzicht van Microsoft 365 berichtencentrum en de rol ervan in wijzigingsbeheer.
-ms.openlocfilehash: 01e43eb6fa9502c138bfc9ab3595c47ec33ad098
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Krijg een overzicht van Microsoft 365 berichtencentrum en de rol ervan bij het bijhouden van nieuwe en gewijzigde functies en andere belangrijke aankondigingen.
+ms.openlocfilehash: edef3bb5a9016cf6f65f307fcd7c706bf4424d2f
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537521"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593955"
 ---
 # <a name="message-center"></a>Berichtencentrum
 
@@ -301,7 +301,7 @@ Zie [Berichtencentrum in Microsoft 365](message-center.md) voor een overzicht va
 
 2. Selecteer **Opslaan om** uw wijzigingen te behouden.<br/>
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Standaard- of targeted releaseopties instellen](../manage/release-options-in-office-365.md) (artikel)
 

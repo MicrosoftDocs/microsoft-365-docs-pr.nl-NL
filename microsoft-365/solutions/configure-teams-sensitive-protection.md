@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Informatie over het implementeren van teams met bescherming voor vertrouwelijke gegevens.
-ms.openlocfilehash: 16b60230c18f4a4f5e10b4bd421fd1bf02b39779
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: a775727882dd71a168f4049d2af6a9feb20f944c
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538181"
+ms.locfileid: "52572715"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Teams met bescherming voor vertrouwelijke gegevens configureren
 
@@ -105,7 +105,7 @@ U kunt ook [teambeleid](/MicrosoftTeams/teams-policies) gebruiken om te bepalen 
 
 Telkens wanneer u een nieuw team met het gevoelige label maakt, moet u twee stappen uitvoeren in SharePoint:
 
-- Werk de instellingen voor het delen met gasten voor de site in het SharePoint-beheercentrum bij zodat deze overeenkomen met wat u hebt gekozen toen u het label maakte, en werk de standaardkoppeling voor delen bij naar *specifieke personen*.
+- Werk de instellingen voor het delen van gasten voor de site in het SharePoint-beheercentrum bij om de standaardkoppeling voor delen bij te werken naar *Specifieke personen*.
 - Werk de instellingen voor het delen van sites op de site zelf bij om te voorkomen dat leden de site delen.
 
 ### <a name="site-guest-sharing-settings"></a>Standaardinstellingen voor het delen van een site met een gast
