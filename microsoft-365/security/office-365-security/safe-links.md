@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel kunnen beheerders meer informatie krijgen over Safe koppelingen in Defender voor Office 365 om hun organisatie te beschermen tegen phishing en andere aanvallen die kwaadaardige URL's gebruiken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 573fd5b92400996fa595b5953028e20fcecec976
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 407f04685e41269c0e8436d3b68db7d755fce129
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583578"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593567"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Safe Koppelingen in Microsoft Defender voor Office 365
 
@@ -54,7 +54,7 @@ Safe Koppelingenbeveiliging is beschikbaar op de volgende locaties:
   Zie de sectie Safe Koppelingen voor e-mailberichten verder in dit artikel voor meer [informatie](#safe-links-settings-for-email-messages) over Safe koppelingenbeveiliging voor e-mailberichten.
   
   > [!NOTE]
-  > Verkoopkoppelingen werken niet in openbare mappen met e-mail.
+  > Safe Koppelingen werken niet in openbare mappen met e-mail.
 
 - **Microsoft Teams** (momenteel in TAP Preview): Safe Koppelingenbeveiliging voor koppelingen in Teams-gesprekken, groepschats of vanuit kanalen wordt ook bepaald door Safe Koppelingenbeleid. Er is geen standaardbeleid Safe Koppelingen, dus als u de beveiliging van Safe Koppelingen in Teams wilt krijgen, moet u een of meer Safe **Koppelingenbeleid maken.**
 

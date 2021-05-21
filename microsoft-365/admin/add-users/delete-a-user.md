@@ -19,19 +19,19 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
-description: Meer informatie over het verwijderen van een gebruikersaccount. Bepaal wat u moet doen met de e-mail van de gebruiker en OneDrive inhoud. En bepaal of u de productlicentie wilt behouden of niet meer wilt betalen.
-ms.openlocfilehash: f4b1e0b1fb591d369cc09010db86dd995d7d4896
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Lees hoe u een gebruikersaccount verwijdert en wat u moet doen met de e-mail en OneDrive van de gebruiker en of u de productlicentie wilt behouden.
+ms.openlocfilehash: c30edb598f659337778ec956737934da5fedad18
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535972"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593403"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
 **Wilt u weten  hoe u uw eigen Microsoft 365 gebruikersaccount verwijdert dat u op het werk of op school gebruikt? Neem contact op met de technische ondersteuning op uw werk of op de universiteit om deze stappen voor u uit te voeren.**
 
-## <a name="what-you-need-to-know-about-deleting-users"></a>Wat u moet weten over het verwijderen van gebruikers
+## <a name="before-you-begin"></a>Voordat u begint
 
 - Alleen personen met Microsoft 365 [globale beheerder](about-admin-roles.md) of gebruikersbeheermachtigingen voor het bedrijf of school kunnen gebruikersaccounts verwijderen.
 - U hebt 30 dagen de tijd om het account te [herstellen](restore-user.md). Daarna worden de gegevens van de gebruiker permanent verwijderd.
@@ -127,7 +127,7 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
 
 4. Voer in **het deelvenster** Licenties verwijderen onder  **Nieuw** aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er vijf wilt verwijderen, voert u 95 in.
 
-5. Selecteer **Opslaan**.
+5. Kies **Opslaan**.
 
 Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
 
@@ -169,14 +169,14 @@ Hier volgt een overzicht van de meestvoorkomende problemen tijdens het verwijder
 
 **Wilt u uw Microsoft 365 van uw computer verwijderen? Ga naar [Uw abonnement opzeggen.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Een gebruiker herstellen](restore-user.md)
+[Een gebruiker herstellen](restore-user.md) (artikel)
   
-[Een postvak definitief verwijderen](/exchange/permanently-delete-a-mailbox-exchange-2013-help)
+[Een postvak definitief verwijderen](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (artikel)
 
-[Een voormalige werknemer verwijderen uit Office 365](remove-former-employee.md)
+[Een voormalige werknemer verwijderen uit Office 365](remove-former-employee.md) (artikel)
 
-[Een nieuwe werknemer toevoegen aan Office 365](add-new-employee.md)
+[Een nieuwe werknemer toevoegen aan Office 365](add-new-employee.md) (artikel)
 
-[Een gebruikersaccount verwijderen](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)): volg deze instructies als uw bedrijf gebruikmaakt van **Active Directory** die wordt gesynchroniseerd met Azure AD. Dat kan niet via Office 365.
+[Een gebruikersaccount verwijderen](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)): volg deze instructies als uw bedrijf gebruikmaakt van **Active Directory** die wordt gesynchroniseerd met Azure AD. Dat kan niet via Office 365. (artikel)

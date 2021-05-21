@@ -1,5 +1,5 @@
 ---
-title: Leden toevoegen of verwijderen uit Microsoft 365-groepen
+title: Leden toevoegen aan of verwijderen uit Microsoft 365 groepen
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -17,17 +17,17 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
-description: Meer informatie over het toevoegen van een lid aan een groep, het verwijderen van leden uit de groep en het beheren van de status van groepseigenaar in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 997145b85d2990d5bf7184f5e97a0a8d1c86dae9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Meer informatie over het toevoegen van een lid aan een groep, het verwijderen van leden uit de groep en het beheren van de status van groepseigenaar in het Microsoft 365 beheercentrum.
+ms.openlocfilehash: 3ab3ebe21caa2d9d3dfa381dd3b68c9d2512cb79
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907914"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593379"
 ---
-# <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Leden toevoegen of verwijderen uit Microsoft 365-groepen met behulp van het beheercentrum
+# <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Leden toevoegen of verwijderen uit Microsoft 365 groepen met behulp van het beheercentrum
 
-In Microsoft 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf toe aan groepen die ze willen deelnemen of worden ze uitgenodigd door groepseigenaren. Als groepseigenschap verandert of als u bepaalt dat een lid moet worden toegevoegd of verwijderd, kunt u als beheerder deze wijziging ook aanbrengen. Alleen een globale beheerder, Exchange-beheerder, groepenbeheerder of gebruikersbeheerder kan deze wijzigingen aanbrengen. [Wat is een Microsoft 365-groep?](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+In Microsoft 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf toe aan groepen die ze willen deelnemen of worden ze uitgenodigd door groepseigenaars. Als groepseigenschap verandert of als u bepaalt dat een lid moet worden toegevoegd of verwijderd, kunt u als beheerder deze wijziging ook aanbrengen. Alleen een globale beheerder, Exchange beheerder, beheerder van groepen of gebruikersbeheerder kan deze wijzigingen aanbrengen. [Wat is een Microsoft 365 groep?](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 > [!TIP]
 > Als u geen beheerder bent, kunt u [leden toevoegen of verwijderen met behulp van Outlook](https://support.microsoft.com/office/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de).
@@ -109,14 +109,14 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
 
 - [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-## <a name="articles-about-managing-groups"></a>Artikelen over het beheren van groepen
+## <a name="related-content"></a>Verwante inhoud
 
-- [Distributielijsten upgraden naar Microsoft 365-groepen in Outlook](../manage/upgrade-distribution-lists.md)
+[Distributielijsten upgraden naar Microsoft 365 groepen in Outlook](../manage/upgrade-distribution-lists.md) (artikel)
 
-- [Waarom u uw distributielijsten moet upgraden naar groepen in Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+[Waarom u een upgrade voor uw distributielijsten moet uitvoeren naar groepen in Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (artikel)
 
-- [Gasttoegang beheren in Microsoft 365-groepen](manage-guest-access-in-groups.md)
+[Gasttoegang beheren in Microsoft 365 groepen](manage-guest-access-in-groups.md) (artikel)
 
-- [Microsoft 365-groepen beheren met PowerShell:](../../enterprise/manage-microsoft-365-groups-with-powershell.md)in dit artikel wordt u kennis gemaakt met belangrijke cmdlets en worden voorbeelden gegeven
+[Beheer Microsoft 365 groepen met PowerShell:](../../enterprise/manage-microsoft-365-groups-with-powershell.md)in dit artikel wordt u kennis laten maken met belangrijke cmdlets en worden voorbeelden gegeven (artikel)
 
-- [Naamgevingsbeleid voor Microsoft 365-groepen](../../solutions/groups-naming-policy.md)
+[Microsoft 365 naamgevingsbeleid voor groepen](../../solutions/groups-naming-policy.md) (artikel)

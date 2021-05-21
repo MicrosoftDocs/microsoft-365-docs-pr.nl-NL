@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 42ab124f3026cf0b7441edf44c0e6433be5f0ecd
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: e7148e666b7d96d6de328089fccc4bb444b9f502
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583665"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594003"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -63,9 +63,9 @@ Om u de tijd te geven om deze taken uit te voeren, raden we u aan het basislijnb
 ||[App-gegevensbescherming (Application Protection Policies) toepassen](#apply-app-data-protection-policies)|Eén Intune App Protection-beleid per platform (Windows, iOS/iPadOS, Android).|Microsoft 365 E3 of E5|
 ||[Goedgekeurde apps en app-beveiliging vereisen](#require-approved-apps-and-app-protection)|Dwingt mobiele app-beveiliging af voor telefoons en tablets met iOS, iPadOS of Android.|Microsoft 365 E3 of E5|
 ||[Beleidsregels voor apparaat compliance definiëren](#define-device-compliance-policies)|Eén beleid voor elk platform.|Microsoft 365 E3 of E5|
-||[Eis conforme pc’s](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune-beheer van pc's afdwingt met Windows of MacOS.|Microsoft 365 E3 of E5|
+||[Eis conforme pc’s](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune-beheer van pc's afdwingt met Windows of macOS.|Microsoft 365 E3 of E5|
 |**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog is*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 of Microsoft 365 E3 met de E5-beveiligings-invoeging|
-||[Compatibele pc's *en mobiele* apparaten vereisen](#require-compliant-pcs-and-mobile-devices)|Intune-beheer wordt afgedwongen voor zowel pc's (Windows of MacOS) als telefoons of tablets (iOS, iPadOS of Android).|Microsoft 365 E3 of E5|
+||[Compatibele pc's *en mobiele* apparaten vereisen](#require-compliant-pcs-and-mobile-devices)|Intune-beheer wordt afgedwongen voor zowel pc's (Windows of macOS) als telefoons of tablets (iOS, iPadOS of Android).|Microsoft 365 E3 of E5|
 |**Sterk gereglementeerd**|[*Altijd* MFA vereisen](#assigning-policies-to-groups-and-users)||Microsoft 365 E3 of E5|
 |
 
