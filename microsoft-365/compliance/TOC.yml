@@ -245,6 +245,10 @@
               href: dlp-chrome-learn-about.md
             - name: Meer informatie over het Waarschuwingen-dashboard voor preventie van gegevensverlies
               href: dlp-alerts-dashboard-learn.md
+        - name: Plan voor DLP
+          items:
+            - name: Plan voor preventie van gegevensverlies
+              href: dlp-overview-plan-for-dlp.md
         - name: Aan de slag met DLP
           items:
             - name: Aan de slag met het standaard DLP-beleid
