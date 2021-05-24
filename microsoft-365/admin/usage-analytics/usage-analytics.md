@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Krijg een overzicht van hoe uw organisatie gebruik maakt van Microsoft 365 services om te communiceren en samen te werken.
-ms.openlocfilehash: f641e2b99e2d61881eb86506a1770f4401cb98bc
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: db61ed4d4c087b76895d08e43f6b1a2c00ed8172
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572331"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635388"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse
 
@@ -211,10 +211,8 @@ Als een partner gedelegeerde beheerdersrechten heeft, kan hij of zij namens de k
 
 Ja, zie [De verzamelde gegevens anoniem maken.](enable-usage-analytics.md#make-the-collected-data-anonymous)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Microsoft 365 Gebruiksanalyse inschakelen](enable-usage-analytics.md) (artikel)
-
-[Navigeren en de rapporten gebruiken in Microsoft 365 gebruiksanalyse](navigate-and-utilize-reports.md) (artikel)
-
+[Microsoft 365-gebruiksanalyse inschakelen](enable-usage-analytics.md) (artikel)\
+[Navigeer en gebruik de rapporten in Microsoft 365 gebruiksanalyse](navigate-and-utilize-reports.md) (artikel)\
 [Gebruiksrapporten bekijken in Microsoft 365](../../business-video/act-on-report.md) (video)

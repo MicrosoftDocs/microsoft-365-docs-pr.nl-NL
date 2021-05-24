@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Informatie over het wijzigen van het standaardthema voor de bovenkant van de navigatiebalk in Microsoft 365 en aanpassen aan uw bedrijfslogo of -kleur.
-ms.openlocfilehash: b2177eebc31f34f7067c8464724623e4bf7d4870
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 5f6536d575ef055cda7a97a0860315c491100a1d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593827"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635924"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het thema Microsoft 365 uw organisatie aanpassen
 
@@ -74,7 +74,7 @@ U kunt maximaal vier extra groepsthema's maken.
 
 2. Onder **Groepen** kunt u maximaal 5 Microsoft 365 groepen selecteren die het groepsthema kunnen zien, in plaats van het standaardthema te gebruiken. U kunt ook voorkomen dat gebruikers hun thema overschrijven en de weergavenaam van de gebruiker weergeven.
 
-3. Kies **Opslaan**.
+3. Selecteer **Opslaan**.
 
 :::image type="content" source="../../media/default-theme-general-users.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor een groep gebruikers in uw organisatie":::
 
@@ -154,8 +154,7 @@ De aanbevolen contrastverhouding tussen tekst, pictogram of knopkleur en achterg
 
 Elk thema wordt weergegeven in de bovenste navigatiebalk voor iedereen in de organisatie als onderdeel van de Microsoft 365 suitekoptekst.  
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Aangepaste tegels toevoegen aan de pagina Mijn apps en het start start-programma](../manage/customize-the-app-launcher.md) voor apps (artikel)
-
+[Aangepaste tegels toevoegen aan de pagina Mijn apps en het start start-programma](../manage/customize-the-app-launcher.md) voor apps (artikel)\
 [Overzicht van Microsoft 365 groepen voor beheerders](../create-groups/office-365-groups.md) (artikel)

@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: Wijzig uw e-mailadres in een vriendelijk e-mailadres zoals tom@fourthcoffee.com door een domeinnaam te kopen en toe te voegen aan Microsoft 365.
-ms.openlocfilehash: d5e70856c9200cd7e5df0eded25b6ff460e5d1fe
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 1a248cb67bab5d0467cad35dc5be8023b8013a12
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572091"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635520"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken
 
@@ -89,6 +89,8 @@ U wordt begeleid om alles correct in te stellen met uw domein in Microsoft 365.
 > [!NOTE]
 > Als u geen licentie voor Exchange gebruikt, kunt u het domein niet gebruiken om e-mailberichten te verzenden of te ontvangen van de Microsoft 365 tenant.
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Een aangepast domein kopen met Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artikel)
+[Een aangepast domein kopen met Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artikel)\
+[Domeinen beheren](../get-help-with-domains/index.yml) (koppelingspagina)\
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)

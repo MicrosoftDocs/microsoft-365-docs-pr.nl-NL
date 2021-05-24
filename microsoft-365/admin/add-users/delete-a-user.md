@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Lees hoe u een gebruikersaccount verwijdert en wat u moet doen met de e-mail en OneDrive van de gebruiker en of u de productlicentie wilt behouden.
-ms.openlocfilehash: c30edb598f659337778ec956737934da5fedad18
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ff10d3289eae87f84685c22b81db03798ca9d7eb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593403"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634206"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
@@ -127,7 +127,7 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
 
 4. Voer in **het deelvenster** Licenties verwijderen onder  **Nieuw** aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er vijf wilt verwijderen, voert u 95 in.
 
-5. Kies **Opslaan**.
+5. Selecteer **Opslaan**.
 
 Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
 
@@ -169,14 +169,10 @@ Hier volgt een overzicht van de meestvoorkomende problemen tijdens het verwijder
 
 **Wilt u uw Microsoft 365 van uw computer verwijderen? Ga naar [Uw abonnement opzeggen.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Een gebruiker herstellen](restore-user.md) (artikel)
-  
-[Een postvak definitief verwijderen](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (artikel)
-
-[Een voormalige werknemer verwijderen uit Office 365](remove-former-employee.md) (artikel)
-
-[Een nieuwe werknemer toevoegen aan Office 365](add-new-employee.md) (artikel)
-
+[Een gebruiker herstellen](restore-user.md) (artikel)\
+[Een postvak permanent verwijderen](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (artikel)\
+[Een voormalige werknemer verwijderen uit Office 365](remove-former-employee.md) (artikel)\
+[Een nieuwe werknemer toevoegen aan Office 365](add-new-employee.md) (artikel)\
 [Een gebruikersaccount verwijderen](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)): volg deze instructies als uw bedrijf gebruikmaakt van **Active Directory** die wordt gesynchroniseerd met Azure AD. Dat kan niet via Office 365. (artikel)

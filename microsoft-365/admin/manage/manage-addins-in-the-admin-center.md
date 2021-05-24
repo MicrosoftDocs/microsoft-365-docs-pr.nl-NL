@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Meer informatie over het gebruik van gecentraliseerde invoegvoegingen voor het implementeren van invoegingen voor gebruikers en groepen in uw organisatie.
-ms.openlocfilehash: c103cfc4e3e7b404ea4d31d81bc30d7990a922dc
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: d678755b28daea1578ce2a5d2e387492cf32d368
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593967"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636056"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Invoegtoepassingen beheren in het beheercentrum
 
@@ -155,14 +155,10 @@ Als de geïmplementeerde invoegtoepassing geen ondersteuning biedt voor opdracht
   
 2. Selecteer **Beheer beheerd** in het linkernavigatienavigatienavigatiecentrum. 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Invoegvoegingen implementeren in het beheercentrum](./manage-deployment-of-add-ins.md) (artikel)
-
-Meer informatie over het maken en Office [invoegvoegingen](/office/dev/add-ins/overview/office-add-ins) (artikel)
-  
-[Centralized Deployment PowerShell-cmdlets gebruiken om](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) invoegvoegingen te beheren (artikel)
-  
-[Probleem oplossen: Gebruiker ziet geen invoegvoegingen](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (artikel)
-
+[Invoegvoegingen implementeren in het beheercentrum](./manage-deployment-of-add-ins.md) (artikel)\
+Meer informatie over het maken en Office [invoegvoegingen](/office/dev/add-ins/overview/office-add-ins) (artikel)\
+[Gecentraliseerde PowerShell-cmdlets voor](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) implementatie gebruiken om invoegvoegingen te beheren (artikel)\
+[Probleem oplossen: Gebruiker ziet invoegvoegingen niet](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (artikel)\
 [Minderjarigen en het verkrijgen van invoegvoegingen uit de Microsoft Store](./minors-and-acquiring-addins-from-the-store.md) (artikel)

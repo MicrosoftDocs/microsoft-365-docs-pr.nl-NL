@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Gebruikers met geldige werk- of schoolaccounts kunnen Cortana krijgen in Microsoft 365 ervaring die voldoet aan Office 365 beveiligingsbeloften op ondernemingsniveau.
-ms.openlocfilehash: aad371fc531a03f42e1756a41405082b6b528b06
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f626ba0d0295655dcdb3d4df2b332dcf05f1a6b5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582774"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635796"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -185,10 +185,8 @@ Cortana-toegang tot de gehoste microsoft-gegevens van uw organisatie uitschakele
 Voor services die vallen onder de [Microsoft Services-overeenkomst](https://go.microsoft.com/fwlink/p/?LinkId=2109174) en [de Privacyverklaring](https://privacy.microsoft.com/privacystatement)van Microsoft, is Microsoft de gegevenscontroller. Als gegevenscontroller gebruikt Microsoft gegevens om producten en services te verbeteren in overeenstemming met de [Privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Cortana voice assistance in Teams](/microsoftteams/cortana-in-teams) (article)
-
-[Cortana configureren in Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artikel)
-
+[Cortana voice assistance in Teams](/microsoftteams/cortana-in-teams) (article)\
+[Cortana configureren in Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artikel)\
 [Wat kunt u doen met Mijn e-mailberichten afspelen vanuit Cortana?](https://support.microsoft.com/help/4558256)

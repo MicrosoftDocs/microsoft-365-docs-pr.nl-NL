@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Lees hoe u gasten kunt toevoegen aan een Microsoft 365 groep, gastgebruikers kunt bekijken en PowerShell kunt gebruiken om gasttoegang te bepalen.
-ms.openlocfilehash: c52f0094e724040b71d5d72cded049fed57e3969
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 00a6353f02ae7f3675961c3ee2ee31e3715652f2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571935"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635760"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gasttoegang beheren in Microsoft 365 groepen
 
@@ -61,18 +61,15 @@ Als de gast al aanwezig is in uw adreslijst, kunt u deze toevoegen aan uw groepe
   
 4. Selecteer **Leden toevoegen** en kies de naam van de gast die u wilt toevoegen.
     
-5. Kies **Opslaan**.
+5. Selecteer **Opslaan**.
 
 Als u een gast rechtstreeks aan de adreslijst wilt toevoegen, kunt u Azure Active Directory [B2B-samenwerkingsgebruikers toevoegen in de Azure-portal.](/azure/active-directory/b2b/add-users-administrator)
 
 Als u de gegevens van een gast wilt bewerken, kunt u de profielgegevens van een gebruiker toevoegen of bijwerken met behulp [van Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Gastgebruikers blokkeren uit een specifieke groep](../../solutions/per-group-guest-access.md) (artikel)
-
-[Groepslidmaatschap beheren in het Microsoft 365 beheercentrum](add-or-remove-members-from-groups.md) (artikel)
-  
-[Azure Active Directory toegang tot reviews](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (artikel)
-
+[Gastgebruikers blokkeren uit een specifieke groep](../../solutions/per-group-guest-access.md) (artikel)\
+[Groepslidmaatschap beheren in het Microsoft 365 -beheercentrum](add-or-remove-members-from-groups.md) (artikel)\
+[Azure Active Directory toegang tot reviews](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (artikel)\
 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser) (artikel)

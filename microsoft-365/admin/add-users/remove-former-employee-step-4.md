@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Volg de stappen in dit artikel om een andere werknemer toegang te geven tot de OneDrive en Outlook werknemers.
-ms.openlocfilehash: cb5c27cbc7f1c184af8f0d1ad32b822660e93791
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 55bc2c3d8530e5cb7702f99a77b3918bfb7c0dee
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582690"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634254"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>Stap 4: een andere werknemer toegang geven tot OneDrive en Outlook gegevens
 
@@ -161,10 +161,8 @@ Als u toegang wilt geven tot de e-mailberichten, agenda, taken en contactpersone
 > [!TIP]
 > Als u slechts een paar items uit een Outlook gegevensbestand (.pst) wilt importeren of herstellen, kunt u het Outlook gegevensbestand openen. Sleep vervolgens in het navigatiedeelvenster de items van Outlook mappen met gegevensbestand naar uw bestaande Outlook mappen. 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Beheerders toevoegen en verwijderen op een OneDrive account](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (artikel)
-
-[Een verwijderde OneDrive](/onedrive/restore-deleted-onedrive) herstellen (artikel)
-  
+[Beheerders toevoegen en verwijderen op een OneDrive account](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (artikel)\
+[Een verwijderde OneDrive](/onedrive/restore-deleted-onedrive) (artikel)\ herstellen
 [OneDrive bewaren en verwijderen](/onedrive/retention-and-deletion) (artikel)

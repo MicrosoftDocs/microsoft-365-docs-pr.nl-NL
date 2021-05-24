@@ -24,24 +24,26 @@ search.appverid:
 - BCS160
 - MET150
 description: Lees hoe u in Microsoft 365 enkele stappen lokale active-directory-apparaten Windows 10 kunt beveiligen.
-ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593888"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636081"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Schakel domeingevoegde Windows 10 apparaten in om te worden beheerd door Microsoft 365 Business Premium
 
 Als uw organisatie on-premises Windows Server Active Directory gebruikt, kunt u Microsoft 365 Business Premium instellen om uw Windows 10-apparaten te beveiligen, met behoud van toegang tot on-premises resources waarvoor lokale verificatie vereist is.
 Als u deze beveiliging wilt instellen, kunt u verbonden **hybride Azure AD-apparaten implementeren.** Deze apparaten zijn verbonden met zowel uw on-premises Active Directory als uw Azure Active Directory.
 
+## <a name="watch-configure-hybrid-azure-active-directory-join"></a>Kijken: Hybride Azure Active Directory configureren
+
 In deze video worden de stappen beschreven voor het instellen van dit scenario voor het meest voorkomende scenario, dat ook wordt beschreven in de stappen die volgen.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
+## <a name="before-you-begin"></a>Voordat u begint
 
-## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Voordat u aan de slag gaat, moet u de volgende stappen volgen:
 - Gebruikers synchroniseren met Azure AD met Azure AD Verbinding maken.
 - Voltooi Azure AD Verbinding maken organisatie-eenheid (OU) synchroniseren.
 - Zorg ervoor dat alle domeingebruikers die u synchroniseert licenties hebben om Microsoft 365 Business Premium.
@@ -117,10 +119,8 @@ Als u het beleid Automatische MDM-inschrijving inschakelen niet ziet met **stand
 
 Op dit moment kunt u het beleid Automatische **MDM-registratie** inschakelen zien met de standaardreferenties van Azure AD.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Domeingebruikers synchroniseren met Microsoft 365](manage-domain-users.md) (artikel)
-
-[Een groep maken in het beheercentrum](../admin/create-groups/create-groups.md) (artikel)
-
+[Domeingebruikers synchroniseren met Microsoft 365](manage-domain-users.md) (artikel)\
+[Een groep maken in het beheercentrum](../admin/create-groups/create-groups.md) (artikel)\
 [Zelfstudie: Hybride Azure Active Directory voor beheerde domeinen configureren](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) (artikel)

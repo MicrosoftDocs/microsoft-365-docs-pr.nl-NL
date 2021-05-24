@@ -20,22 +20,22 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het Microsoft 365 beheercentrum.
-ms.openlocfilehash: 6d7fe36345ebd9234027e943d11266b7bcc2b30f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Gebruik een vereenvoudigde weergave in Microsoft 365 voor het beheren van algemene taken of dashboardweergave voor complexere instellingen en taken.
+ms.openlocfilehash: bca3aa7bb071d9334f7a5162a78db89690421f1a
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537389"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635888"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Overzicht van het Microsoft 365-beheercentrum
 
-- [Het beheercentrum in de vereenvoudigde weergave](#the-admin-center-in-simplified-view)
-- [Het beheercentrum in de dashboardweergave](#the-admin-center-in-dashboard-view)
+- [Het beheercentrum in de vereenvoudigde weergave](#watch-the-admin-center-in-simplified-view)
+- [Het beheercentrum in de dashboardweergave](#watch-the-admin-center-in-dashboard-view)
 
 Het Microsoft 365 beheercentrum heeft twee weergaven: met een vereenvoudigde weergave kunnen kleinere organisaties hun meest voorkomende taken beheren. Dashboardweergave bevat complexere instellingen en taken. U kunt ertussen schakelen via een knop boven aan het beheercentrum.
 
-## <a name="the-admin-center-in-simplified-view"></a>Het beheercentrum in de vereenvoudigde weergave
+## <a name="watch-the-admin-center-in-simplified-view"></a>Kijken: Het beheercentrum in de vereenvoudigde weergave
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWD3sq?autoplay=false]
 
@@ -57,7 +57,7 @@ Blader op **het** tabblad Leren door video's en artikelen over het beheercentrum
 
 Als u hulp nodig hebt, selecteert u **Help & ondersteuning.** Zoek naar het onderwerp waar u hulp bij nodig hebt en bekijk de aanbevolen oplossing of selecteer de headset om contact op te nemen met de ondersteuning en voer vervolgens uw vraag en contactgegevens in. 
 
-## <a name="the-admin-center-in-dashboard-view"></a>Het beheercentrum in de dashboardweergave
+## <a name="watch-the-admin-center-in-dashboard-view"></a>Kijken: Het beheercentrum in de dashboardweergave
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL?autoplay=false]
 
@@ -188,4 +188,10 @@ Het Microsoft 365 beheercentrum is volledig gelokaliseerd in 40 talen.
 |Vietnamese | vi |
 |Chinese Simplified | zh-hans |
 |Chinese Traditional | zh-hant |
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Wat is een Microsoft 365 beheerder?](what-is-admin.md) (video)\
+[Een beheerder toevoegen](add-admin.md) (video)\
+[Het thema Microsoft 365 uw organisatie aanpassen](../admin/setup/customize-your-organization-theme.md) (artikel)
   

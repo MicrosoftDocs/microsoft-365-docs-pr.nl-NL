@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Leer hoe u groepen maakt en Microsoft 365, groepsleden toevoegt en verwijdert en hoe de groep werkt aan te passen.
-ms.openlocfilehash: b3fb637867229489a3e3abe93373cc46fbce365f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b8cbd194825ef114fa8e4ce999355248a61e7830
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241722"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635580"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Een groep maken in het Microsoft 365 beheercentrum
   
@@ -80,14 +80,12 @@ Een lid kan een e-mailgesprek verwijderen uit het Postvak IN van groep als deze 
   
 Wanneer een e-mailbericht uit het groepspostvak wordt verwijderd, wordt deze niet verwijderd uit de persoonlijke postvakken van de groepsleden.
 
-## <a name="next-step-manage-your-group"></a>Volgende stap: uw groep beheren
+## <a name="next-steps"></a>Volgende stappen
 
 Nadat u een nieuwe groep hebt ingesteld en leden hebt toegevoegd, kunt u de groep verder configureren, zoals het bewerken van de groepsnaam of beschrijving, het wijzigen van eigenaren of leden, en opgeven of externe afzenders een e-mail naar de groep kunnen sturen en of ze kopieën van groepsgesprekken naar leden kunnen verzenden. Zie [Een groep Microsoft 365 beheren](manage-groups.md) voor informatie.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Gasttoegang tot groepen Microsoft 365 beheren](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) (artikel)
-
-[Kies het domein dat u wilt gebruiken bij het maken Microsoft 365 groepen](../../solutions/choose-domain-to-create-groups.md) (artikel)
-
+[Gasttoegang tot groepen Microsoft 365 beheren](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) (artikel)\
+[Kies het domein dat u wilt gebruiken bij het maken Microsoft 365 groepen](../../solutions/choose-domain-to-create-groups.md) (artikel)\
 [Distributielijsten upgraden naar Microsoft 365 groepen](../manage/upgrade-distribution-lists.md) (artikel)

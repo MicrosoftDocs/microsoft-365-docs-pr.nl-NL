@@ -20,22 +20,22 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Meer informatie over het verzamelen van gegevens voor uw tenant met de Microsoft 365 de sjabloon-app Gebruiksanalyse in Power BI.
-ms.openlocfilehash: 329878365aa07da4615a849ad04cde7f75a07872
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 01923887b4af143d1490e14d59a6174700e6ae93
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593367"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635412"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse inschakelen
 
 Microsoft 365 gebruiksanalyse is nog niet beschikbaar voor Microsoft 365 Amerikaanse overheidsgemeenschap.
   
-## <a name="steps-to-enable-microsoft-365-usage-analytics"></a>Stappen voor het inschakelen van Microsoft 365 Gebruiksanalyse
+## <a name="before-you-begin"></a>Voordat u begint
 
 Als u wilt beginnen met Microsoft 365 gebruiksanalyse, moet u eerst de gegevens beschikbaar maken in het Microsoft 365-beheercentrum en vervolgens de sjabloon-app starten in Power BI.
   
-### <a name="get-power-bi"></a>Power BI downloaden
+## <a name="get-power-bi"></a>Power BI downloaden
 
 Als u nog geen Power BI hebt, kunt u [zich registreren voor Power BI Pro.](https://go.microsoft.com/fwlink/p/?linkid=845347) Selecteer **Gratis proberen** om u aan te melden voor een proefabonnement of Nu kopen **om** uw Power BI Pro.
   
@@ -47,7 +47,7 @@ U kunt ook **Products** uitvouwen om een versie van Power BI te kopen.
 
 Als u uw gegevens wilt delen, hebben zowel u als de personen met wie u de gegevens deelt, een Power BI Pro-licentie nodig of moet de inhoud zich in een werkruimte in een [Power BI premium-service.](/power-bi/service-premium-what-is) 
   
-### <a name="enable-the-template-app"></a>De sjabloon-app inschakelen
+## <a name="enable-the-template-app"></a>De sjabloon-app inschakelen
 
 Als u de sjabloon-app wilt inschakelen, moet u een globale **beheerder zijn.**
   
@@ -61,7 +61,7 @@ Zie [beheerdersrollen voor](../add-users/about-admin-roles.md) meer informatie.
   
 Het proces voor het verzamelen van gegevens wordt in twee tot 48 uur voltooid, afhankelijk van de grootte van uw tenant. De knop **Ga naar Power BI** zal ingeschakeld zijn (niet langer grijs) als het verzamelen van gegevens is voltooid. 
     
-### <a name="start-the-template-app"></a>De sjabloon-app starten
+## <a name="start-the-template-app"></a>De sjabloon-app starten
 
 Als u de sjabloon-app wilt starten, moet u een globale **beheerder,** **rapportlezer,** Exchange **beheerder,** Skype voor Bedrijven **beheerder** of SharePoint beheerder **zijn.** 
   
@@ -97,10 +97,8 @@ Alleen hoofdbeheerders kunnen de gegevens die worden verzameld voor alle rapport
   
 3. Selecteer **Wijzigingen opslaan**.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Over gebruiksanalyse](usage-analytics.md) (artikel)
-
-[De nieuwste versie van gebruiksanalyse bekijken](get-the-latest-version-of-usage-analytics.md) (artikel)
-
+[Over gebruiksanalyse](usage-analytics.md) (artikel)\
+[De nieuwste versie van gebruiksanalyse](get-the-latest-version-of-usage-analytics.md) (artikel)\
 [Navigeren en de rapporten gebruiken in Microsoft 365 gebruiksanalyse](navigate-and-utilize-reports.md) (artikel)

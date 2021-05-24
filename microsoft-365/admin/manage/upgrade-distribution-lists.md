@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Lees hoe u een of meer distributielijsten kunt upgraden naar Microsoft 365 groepen in Outlook en hoe u PowerShell gebruikt om meerdere distributielijsten tegelijk te upgraden.
-ms.openlocfilehash: 8179937cafa26a2258f67baee29fcec65bd60632
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 7e1fc4e971a22ec785662f684a4f9e08970c808a
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332448"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636008"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Distributielijsten upgraden naar Microsoft 365 groepen in Outlook
 
@@ -190,3 +190,9 @@ Er zijn enkele gevallen waarin DL wel in aanmerking komt, maar niet kan worden b
 ### <a name="what-happens-to-the-dl-if-the-upgrade-from-eac-fails"></a>Wat gebeurt er met de distributielijst als de upgrade vanuit het Exchange-beheercentrum mislukt?
 
 De upgrade vindt alleen plaats als de oproep naar de server wordt verzonden. Als de upgrade mislukt, worden de distributielijsten niet gewijzigd. Ze blijven op dezelfde manier werken.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Groepen vergelijken](../create-groups/compare-groups.md) (artikel)\
+[Uitleg over Microsoft 365 groepen aan uw gebruikers](../create-groups/explain-groups-knowledge-worker.md) (artikel)\
+[Leden toevoegen of verwijderen uit Microsoft 365 groepen met behulp van het beheercentrum](../create-groups/add-or-remove-members-from-groups.md)

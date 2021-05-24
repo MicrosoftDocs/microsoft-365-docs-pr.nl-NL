@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2dee1193e9f852e66df324927bf38d37d736d251
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ed4e0c477bd2a8840e920b337f05c8730965bcff
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245946"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636240"
 ---
 # <a name="device-discovery-overview"></a>Overzicht van apparaatdetectie
 
@@ -62,7 +62,7 @@ Er zijn twee detectiemodi:
 
 
 > [!IMPORTANT]
-> Discovery is ingesteld op basismodus. U kunt ervoor kiezen om deze configuratie te behouden via de pagina Instellingen. Standaarddetectie is de standaardmodus voor alle preview-klanten vanaf 10 mei 2021, tenzij deze zijn gewijzigd via de pagina Instellingen vóór deze datum.
+> Discovery is ingesteld op basismodus. U kunt ervoor kiezen om deze configuratie te behouden via de pagina Instellingen. Standaarddetectie is vanaf 19 juli 2021 de standaardmodus voor alle klanten, tenzij deze is gewijzigd via de pagina Instellingen vóór deze datum.
 
 ### <a name="basic-discovery"></a>Basisdetectie 
 

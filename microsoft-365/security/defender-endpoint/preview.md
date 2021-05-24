@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea37ad4302eedf7d43e3ad03e94357a146c2216c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4612fbb2005145feae7bbcf9309c1ec9559a5a0d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245574"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636068"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Microsoft Defender voor endpoint preview-functies
 
@@ -65,7 +65,7 @@ De volgende functies zijn opgenomen in de preview-release:
 - [Apparaatdetectie](device-discovery.md) <br> Helpt u bij het vinden van niet-beheerbare apparaten die zijn verbonden met uw bedrijfsnetwerk zonder dat u extra apparaten of lastige proceswijzigingen nodig hebt. Met onboarded-apparaten kunt u onaangemande apparaten in uw netwerk vinden en beveiligingslekken en risico's beoordelen. U kunt vervolgens ontdekte apparaten aan boord nemen om de risico's te beperken die verbonden zijn aan het hebben van niet-gebouwde eindpunten in uw netwerk.
 
    > [!IMPORTANT]
-   > Standaarddetectie is de standaardmodus voor alle preview-klanten vanaf 10 mei 2021. U kunt ervoor kiezen om de basismodus te behouden via de pagina Instellingen. 
+   > Standaarddetectie is de standaardmodus voor alle klanten vanaf 19 juli 2021. U kunt ervoor kiezen om de basismodus te behouden via de pagina Instellingen. 
 
 
 - [Filteren op webinhoud](web-content-filtering.md) <br> Filteren van webinhoud maakt deel uit van de mogelijkheden voor webbeveiliging in Microsoft Defender voor Eindpunt. Hiermee kan uw organisatie de toegang tot websites bijhouden en reguleren op basis van hun inhoudscategorieën. Veel van deze websites, hoewel niet schadelijk, kunnen problematisch zijn vanwege nalevingsregels, bandbreedtegebruik of andere problemen.

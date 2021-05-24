@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 60b9577c2a42ef080fa6a734e0207225bf197cab
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: eed486120673abc513490f4892069ee8fd9bba21
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624267"
+ms.locfileid: "52636156"
 ---
 # <a name="get-started-with-communication-compliance"></a>Aan de slag met communicatiecompliance
 
@@ -128,7 +128,7 @@ Gebruik de volgende grafiek om groepen in uw organisatie te configureren voor co
 
 | **Beleidslid** | **Ondersteunde groepen** | **Niet-ondersteunde groepen** |
 |:-----|:-----|:-----|
-|Gecontroleerde gebruikers <br> Niet-gecontroleerde gebruikers | Distributiegroepen <br> Microsoft 365 Groepen | Dynamische distributiegroepen <br> Geneste distributiegroepen <br> Beveiligingsgroepen met e-mail <br> Microsoft 365 groepen met dynamisch lidmaatschap |
+|Gecontroleerde gebruikers <br> Uitgesloten gebruikers | Distributiegroepen <br> Microsoft 365 Groepen | Dynamische distributiegroepen <br> Geneste distributiegroepen <br> Beveiligingsgroepen met e-mail <br> Microsoft 365 groepen met dynamisch lidmaatschap |
 | Revisoren | Geen | Distributiegroepen <br> Dynamische distributiegroepen <br> Geneste distributiegroepen <br> Beveiligingsgroepen met e-mail |
   
 Wanneer u een distributiegroep toewijst in het beleid, worden alle e-mailberichten en Teams van elke gebruiker in de distributiegroep bewaakt. Wanneer u een Microsoft 365 groep in het beleid toewijst, worden alle e-mailberichten en Teams-chats die naar die groep zijn verzonden, bewaakt door het beleid, niet de afzonderlijke e-mailberichten en chats die door elk groepslid zijn ontvangen.

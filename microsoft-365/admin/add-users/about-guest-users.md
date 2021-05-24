@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het maken van een team met gasten in het Microsoft 365 beheercentrum en hoe u als gast deel kunt nemen aan een team.
-ms.openlocfilehash: c05a8d7e10b40c22bb041ce88748eb3dd919d83d
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: b458aaba464121e2e408013d4c8f32cd8a6852c5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593863"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634182"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Gastgebruikers in Microsoft 365 beheercentrum
 
@@ -62,7 +62,7 @@ Zie [Gasten bulksgewijs toevoegen](/azure/active-directory/b2b/tutorial-bulk-inv
 
 Zie Een gastgebruiker en bronnen verwijderen als u gebruikers in de Azure AD-portal [wilt verwijderen.](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Gasttoegang beheren in Microsoft 365 groepen](../create-groups/manage-guest-access-in-groups.md) (artikel)\
-[Voorkomen dat gasten worden toegevoegd aan een specifieke Microsoft 365 of Microsoft Teams team](../../solutions/per-group-guest-access.md)
+[Voorkomen dat gasten worden toegevoegd aan een specifieke groep Microsoft 365 of Microsoft Teams team](../../solutions/per-group-guest-access.md) (artikel)

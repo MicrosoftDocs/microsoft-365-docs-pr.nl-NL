@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Stel Basismobiliteit en beveiliging in om de mobiele apparaten van uw gebruikers te beveiligen en te beheren door acties uit te voeren, zoals een apparaat op afstand wissen.
-ms.openlocfilehash: 830baa79838818501101c0c4f2d3163f57d47611
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 02ba28deca6286456af5f87841a741262c1a135d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593415"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634290"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>Basic Mobility en Security instellen
 
@@ -127,8 +127,7 @@ Nadat u een beleid voor beheer van mobiele apparaten hebt gemaakt en geïmplemen
 
 Gebruikers met Android- of iOS-apparaten moeten de app Bedrijfsportal installeren als onderdeel van het registratieproces.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Mogelijkheden van basismobiliteit en beveiliging](capabilities.md) (artikel)
-
+[Mogelijkheden van basismobiliteit en beveiliging](capabilities.md) (artikel)\
 [Apparaatbeveiligingsbeleid maken in Basismobiliteit en Beveiliging](create-device-security-policies.md) (artikel)

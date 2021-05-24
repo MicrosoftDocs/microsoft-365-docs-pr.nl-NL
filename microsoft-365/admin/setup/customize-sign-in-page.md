@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Pas de Microsoft 365 aanmeldingspagina aan met de Azure Active Directory. U kunt een afbeelding, een logo en tekst toevoegen aan de aanmeldingspagina.
-ms.openlocfilehash: dba75d5178f3c4a879ae2cdc9694697df45f6b8b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 6c873409a06d824c7b63f5ea02e178e22337a345
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624439"
+ms.locfileid: "52635936"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>Uw huisstijl toevoegen aan de pagina Aanmelden
 
@@ -49,6 +49,8 @@ De volgende afbeelding toont welke onderdelen van de aanmeldingspagina in Azure 
     
 Naast de aanmeldingspagina kunt u ook de toegangspagina in Azure aanpassen
   
+## <a name="next-steps"></a>Volgende stappen
+
 Bent u klaar om huisstijlelementen toe te voegen? Bekijk dan de aanpassingsmogelijkheden in de inhoudsset voor Azure: [Huisstijlelementen toevoegen aan de aanmeldings- en toegangspagina's](/azure/active-directory/fundamentals/customize-branding).
 
 ## <a name="related-content"></a>Verwante onderwerpen

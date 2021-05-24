@@ -28,12 +28,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: Leer hoe u contactpersonen, agenda's en e-mailberichten importeert vanuit Gmail of een andere e-mailprovider en deze migreert naar Microsoft 365.
-ms.openlocfilehash: 56075c19e15621755a1500d37513430842ac99e8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 9f775135e739c91a0fb48a060136728f901159f5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297042"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635912"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>E-mail en contactpersonen migreren naar Microsoft 365
 
@@ -52,6 +52,8 @@ Volg deze stappen om e-mail, contactpersonen en agenda van Gmail te importeren o
 - [Contactpersonen importeren in Outlook](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
 - [Google Agenda importeren](https://support.microsoft.com/office/098ed60c-936b-41fb-83d6-7e3786437330)
+
+## <a name="watch-import-calendars"></a>Kijken: Agenda's importeren
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
@@ -90,3 +92,9 @@ Hebt u meer gedetailleerde stappen nodig? Zie [Een account toevoegen.](https://s
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>Meerdere postvakken: beheerders kunnen e-mail, contactpersonen en agenda's bulksgewijs importeren in Microsoft 365
 
 Afhankelijk van uw bron-e-mailsysteem kunt u kiezen uit verschillende bulkmigratiemethoden. Lees [Manieren om meerdere e-mailaccounts te migreren naar Microsoft 365](/Exchange/mailbox-migration/mailbox-migration) om te bepalen welke methode voor u werkt.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Uw installatie van Microsoft 365 voor bedrijven](plan-your-setup.md) (artikel)\
+[Installeer Office toepassingen](install-applications.md) (koppelingspagina)\
+[Overzicht van het Microsoft 365-beheercentrum](../../business-video/admin-center-overview.md) (video)

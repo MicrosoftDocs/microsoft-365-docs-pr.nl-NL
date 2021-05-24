@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Krijg een overzicht van Microsoft 365 berichtencentrum en de rol ervan bij het bijhouden van nieuwe en gewijzigde functies en andere belangrijke aankondigingen.
-ms.openlocfilehash: edef3bb5a9016cf6f65f307fcd7c706bf4424d2f
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 51cdf1924b3aaa507a6b41f903a6aea5d81d68f1
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593955"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636044"
 ---
 # <a name="message-center"></a>Berichtencentrum
 
@@ -301,10 +301,8 @@ Zie [Berichtencentrum in Microsoft 365](message-center.md) voor een overzicht va
 
 2. Selecteer **Opslaan om** uw wijzigingen te behouden.<br/>
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Standaard- of targeted releaseopties instellen](../manage/release-options-in-office-365.md) (artikel)
-
-[Beheren welke Office functies worden weergegeven in Nieuw](../manage/show-hide-new-features.md) (artikel)
-
-[Zakelijke abonnementen en factureringsdocumentatie](../../commerce/index.yml) (koppelingen)
+[De opties Standaard of Targeted Release](../manage/release-options-in-office-365.md) (artikel)\ instellen
+[Beheren welke Office functies worden weergegeven in Nieuw](../manage/show-hide-new-features.md) (artikel)\
+[Zakelijke abonnementen en factureringsdocumentatie (koppelingspagina)](../../commerce/index.yml)

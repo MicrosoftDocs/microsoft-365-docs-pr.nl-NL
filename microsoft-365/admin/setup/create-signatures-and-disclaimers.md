@@ -25,18 +25,18 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Beheer e-mailhandtekeningen, inclusief juridische vrijwaringen of openbaarmakingsverklaringen voor alle e-mailberichten die uw organisatie binnenkomen of verlaten.
-ms.openlocfilehash: 05cfeeb01231e7f99d2a96fc37581b4c9a23f5aa
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f72d522c7dc592a7f719d716e22ecf726d00a6de
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582750"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635652"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Handtekeningen en vrijwaringen voor de hele organisatie maken
 
  U kunt e-mailhandtekeningen beheren door een e-mailhandtekening, wettelijke vrijwaring of openbaarmakingsverklaring toe te voegen aan de e-mailberichten die uw organisatie binnenkomen of verlaten. U kunt dit toepassen op alle binnenkomende en uitgaande berichten zoals hieronder wordt weergegeven. Of u kunt dit toepassen op bepaalde berichten, zoals berichten met specifieke woorden of tekstpatronen.
 
- Bekijk een korte video over het maken van een e-mailhandtekening voor het hele bedrijf. <br><br>
+## <a name="watch-create-a-company-wide-email-signature"></a>Kijken: Een e-mailhandtekening voor het hele bedrijf maken
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
@@ -117,11 +117,9 @@ Gebruik een hulpprogramma van derden om deze en andere mogelijkheden te verkrijg
 
 Zie Bericht [disclaimers, handtekeningen, voetteksten](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers)of kopteksten voor de hele organisatie in Exchange Online.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[E-mail en contactpersonen](migrate-email-and-contacts-admin.md) migreren naar Microsoft 365 (video)
-
-[Gebruikers-e-mailinstellingen](../email/office-365-user-email-settings.md) (artikel)
-
+[E-mail en contactpersonen](migrate-email-and-contacts-admin.md) migreren naar Microsoft 365 (video)\
+[Gebruikers-e-mailinstellingen](../email/office-365-user-email-settings.md) (artikel)\
 [Overzicht van het Microsoft 365-beheercentrum](../../business-video/admin-center-overview.md) (video)
 

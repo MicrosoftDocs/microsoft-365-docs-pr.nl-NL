@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Meld u aan bij uw Microsoft 365 beheerdersaccount om bepaalde afzonderlijke gebruikerswachtwoorden zo in te stellen dat ze nooit verlopen met behulp van Windows PowerShell.
-ms.openlocfilehash: 0747e0bfe8a7389db554d5d6a7f685605e013306
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 12c717d8d625b0135f185b1af131db00e9762c73
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571923"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635556"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt
 
@@ -128,6 +128,6 @@ Voer een van de volgende opdrachten uit:
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md) (artikel)
-
-[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)
+[Gebruikers hun eigen wachtwoorden opnieuw laten instellen](../add-users/let-users-reset-passwords.md) (artikel)\
+[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)\
+[Het wachtwoordverloopbeleid voor uw organisatie instellen](../manage/set-password-expiration-policy.md) (artikel)

@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gedeelde postvakken worden gebruikt wanneer meerdere personen toegang nodig hebben tot hetzelfde postvak. Lees wat u moet weten voordat u een gedeeld postvak maakt.
-ms.openlocfilehash: 156ba100cb2c51d1e54a2ee82c45db20845931f9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 601636f03bee93224025d286b7a74fa0f24782fb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535852"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635532"
 ---
 # <a name="about-shared-mailboxes"></a>Meer over gedeelde postvakken
 
@@ -67,12 +67,8 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enke
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Een gedeeld postvak maken](create-a-shared-mailbox.md) (artikel)
-
-[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)
-
-[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)
-
-[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)
-
-[Problemen met gedeelde postvakken oplossen](resolve-issues-with-shared-mailboxes.md) (artikel)
+[Een gedeeld postvak](create-a-shared-mailbox.md) maken (artikel)\
+[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)\
+[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)\
+[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)\
+[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)

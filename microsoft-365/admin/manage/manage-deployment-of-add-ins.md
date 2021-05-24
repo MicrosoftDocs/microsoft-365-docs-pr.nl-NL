@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Informatie over het implementeren van invoegvoegingen voor gebruikers en groepen in uw organisatie met gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: 2d3b90a75f38a2c1146c0b0e5470c80b0af2c63f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 8cc4f29cd2593d9651edaf87791f46dabdcc30b2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572271"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636020"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Invoegtoepassingen implementeren in het beheercentrum
 
@@ -129,14 +129,9 @@ Updates voor invoegtoepassingen worden als volgt uitgevoerd:
 
 - **Office Store-invoegtoepassing:** Als een beheerder een invoegtoepassing in de Office Store heeft geselecteerd (als een invoegtoepassing in de Office Store wordt bijgewerkt), wordt de invoegtoepassing later bijgewerkt in Gecentraliseerde implementatie. De volgende keer dat de betreffende Office-toepassingen worden gestart, wordt de invoegtoepassing bijgewerkt. De webtoepassing kan elk moment worden gewijzigd.
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Invoegvoegingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md) (artikel)
-
-[Uw eerste Word-taakvenster maken (artikel)](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)
-
-[Minderjarigen en het verkrijgen van invoegvoegingen in de store](minors-and-acquiring-addins-from-the-store.md) (artikel)
-  
-[Centralized Deployment PowerShell-cmdlets gebruiken om](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) invoegvoegingen te beheren (artikel)
-  
+[Invoegvoegingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md) (artikel)\
+[Uw eerste Word-taakvenster maken (artikel\](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)
+[Minors and acquire add-ins from the store](minors-and-acquiring-addins-from-the-store.md) (article)\ [Use Centralized Deployment PowerShell cmdlets to manage add-ins](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) (article)\  
 [Probleem oplossen: Gebruiker ziet geen invoegvoegingen](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (artikel)

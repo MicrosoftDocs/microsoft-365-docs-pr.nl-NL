@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: Voeg bestandsopslag toe aan uw Microsoft 365 abonnement. Met extra bestandsopslag kunt u meer inhoud opslaan in SharePoint Online en OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: b573205c7053aba0339d1f32deb2996ef80f8754
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 14b688e850f62a06c39e4a315d871202e57d70d6
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572319"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635856"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Opslagruimte voor uw abonnement toevoegen
 
@@ -38,7 +38,7 @@ Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te ra
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder of SharePoint zijn om de taken in dit artikel uit te voeren. Zie[Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder of SharePoint zijn om de taken in dit artikel uit te voeren. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="view-available-storage"></a>Beschikbare opslag weergeven
 
@@ -76,7 +76,7 @@ Als u al extra bestandsopslag  hebt gekocht via de Office 365 Extra Bestandsopsl
 3. Selecteer op de pagina productdetails in **de** sectie Invoegtoepassingen de optie **Invoegtoepassingen beheren.**
 4. Kies in **het deelvenster Invoegtoepassingen beheren** in de lijst **Invoegtoepassingen** de **optie Office 365 Extra Bestandsopslag.**
 5. Voer in **het** tekstvak Hoeveelheid het aantal GB's opslagruimte in dat u voor het abonnement wilt gebruiken.
-6. Kies **Opslaan**.
+6. Selecteer **Opslaan**.
 
 ## <a name="is-my-plan-eligible-for-office-365-extra-file-storage"></a>Komt mijn abonnement in aanmerking voor Office 365 Extra Bestandsopslag?
 
@@ -101,7 +101,7 @@ Office 365 Extra Bestandsopslag is beschikbaar voor de volgende abonnementen:
 > [!NOTE]
 > Office 365 Extra Bestandsopslag is ook beschikbaar voor GCC, GCC High en DOD-abonnementen.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Limieten voor siteopslag](/sharepoint/manage-site-collection-storage-limits) beheren (artikel)\
-[De standaardopslagruimte instellen voor OneDrive gebruikers](/onedrive/set-default-storage-space)(artikel)
+[De standaardopslagruimte instellen voor OneDrive gebruikers](/onedrive/set-default-storage-space) (artikel)

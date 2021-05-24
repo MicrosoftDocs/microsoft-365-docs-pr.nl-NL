@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Meer informatie over het verwijderen van een oud domein Microsoft 365 en gebruikers en groepen naar een ander domein verplaatsen of uw abonnement opzeggen.
-ms.openlocfilehash: 089f0378109dd2a5abdf922694390bfdc943693a
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a8e636059a84a2086844a8ff139d240268ee5b19
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582930"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635700"
 ---
 # <a name="remove-a-domain"></a>Een domein verwijderen
   
@@ -218,10 +218,8 @@ Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. 
   
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)
-
-[Overschakelen naar een ander Microsoft 365 voor bedrijven -abonnement](../../commerce/subscriptions/switch-to-a-different-plan.md) (artikel)
-
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)\
+[Overschakelen naar een ander Microsoft 365 voor bedrijven-abonnement](../../commerce/subscriptions/switch-to-a-different-plan.md) (artikel)\
 [Uw abonnement opzeggen](../../commerce/subscriptions/cancel-your-subscription.md) (artikel)

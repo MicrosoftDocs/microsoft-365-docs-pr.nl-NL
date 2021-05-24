@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Meld u aan met uw Microsoft 365-beheerdersaccount om wachtwoorden opnieuw in te stellen voor gebruikers in Microsoft 365 voor bedrijven-abonnement.
-ms.openlocfilehash: 8d4666eb70b1d5349f71c906f05510a8a54ded74
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 0cec6c7874b51c76fca60c6c237395c940c47bbe
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571971"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635568"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
@@ -122,12 +122,8 @@ Kijk eens naar dit artikel: [Ik weet de gebruikersnaam of het wachtwoord niet me
   
 ## <a name="related-content"></a>Verwante onderwerpen
   
-[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md) (artikel)
-
-[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)
-
-[Het wachtwoord van een individuele gebruiker zo instellen dat het nooit verloopt](set-password-to-never-expire.md) (artikel)
-
-[Het wachtwoordverloopbeleid voor uw organisatie instellen](../manage/set-password-expiration-policy.md) (artikel)
-
+[Gebruikers hun eigen wachtwoorden opnieuw laten instellen](../add-users/let-users-reset-passwords.md) (artikel)\
+[Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)\
+[Het wachtwoord van een afzonderlijke gebruiker instellen op nooit verlopen](set-password-to-never-expire.md) (artikel)\
+[Het wachtwoordverloopbeleid voor uw organisatie](../manage/set-password-expiration-policy.md) instellen (artikel)\
 [Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingspagina)

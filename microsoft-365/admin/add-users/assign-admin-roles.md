@@ -27,22 +27,22 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Lees hoe u beheerdersrollen kunt toewijzen aan een gebruiker of meerdere gebruikers in uw bedrijf, zodat ze specifieke taken kunnen uitvoeren in het beheercentrum.
-ms.openlocfilehash: f23a30cfd1be53982572d745d476558c3be615e6
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 8a9da12a8ebc01a02e4362f09ccaa9e92c21b7e9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571863"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634170"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
 Als u de persoon bent die uw Microsoft Business-abonnement heeft gekocht, bent u de globale beheerder. Dit betekent dat u onbeperkte controle hebt over de producten in uw abonnementen en dat u toegang hebt tot de meeste gegevens.
 
-Zie[Over beheerdersrollen](about-admin-roles.md) voor meer informatie.
+Raadpleeg [Over beheerdersrollen](about-admin-roles.md) voor meer informatie.
 
 Wanneer u nieuwe gebruikers toevoegt, als u ze geen beheerdersrol toewijst, zijn ze in de gebruikersrol en hebben ze geen beheerdersbevoegdheden aan een van de Microsoft-beheercentra.  Maar als u hulp nodig hebt om dingen voor elkaar te krijgen, kunt u een beheerdersrol toewijzen aan een gebruiker. Als u bijvoorbeeld iemand nodig hebt om wachtwoorden opnieuw in te stellen, moet u deze persoon niet de rol van globale beheerder toewijzen, maar de rol van wachtwoordbeheerder toewijzen. Te veel globale beheerders, met onbeperkte toegang tot uw gegevens en onlinezaken, is een beveiligingsrisico.
 
-## <a name="watch-add-an-adminbrbr"></a>Kijken: Een beheerder toevoegen.<br><br>
+## <a name="watch-add-an-adminbrbr"></a>Kijken: Een beheerder toevoegen<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
@@ -119,12 +119,9 @@ U kunt beheerdersrolmachtigingen op twee verschillende manieren controleren:
 
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Informatie Microsoft 365 beheerdersrollen](about-admin-roles.md) (artikel)
-
-[Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) (artikel)
-
-[Rollen toewijzen aan gebruikersaccounts met PowerShell](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) (artikel)
-
+[Over Microsoft 365 beheerdersrollen](about-admin-roles.md) (artikel)\
+[Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) (artikel)\
+[Rollen toewijzen aan gebruikersaccounts met PowerShell](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) (artikel)\
 [Partnerrelaties machtigen of verwijderen](../misc/add-partner.md) (artikel)

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie kunt gebruiken om Office te implementeren.
-ms.openlocfilehash: e5d3337cdf1bbb0dc18ee6940ab8bd289d2e5f65
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 25fe217a41274b6a239e4ee482ee105238465999
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593919"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635448"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt voor uw organisatie
 
@@ -158,13 +158,10 @@ Als u of uw gebruikers problemen ondervinden bij het laden van de invoegservice 
 |Office  <br/> | Charles/Fiddler-logboeken  <br/>  Tenant-ID ( [meer informatie over hoe](/onedrive/find-your-office-365-tenant-id.md))  <br/>  CorrelationID. Bekijk de bron van een van de office-pagina's en zoek naar de waarde Correlatie-id en stuur deze naar ondersteuning:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Uitgebreide clients (Windows, Mac)  <br/> | Charles/Fiddler-logboeken  <br/>  Build numbers of the client app (preferably as a screenshot from **File/Account**)  <br/> |
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Invoegvoegingen implementeren in het beheercentrum](../manage/manage-deployment-of-add-ins.md) (artikel)
-
-[Invoegvoegingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md) (artikel)
-
-[Veelgestelde vragen over gecentraliseerde](../manage/centralized-deployment-faq.md) implementatie (artikel)
-
+[Invoegvoegingen implementeren in het beheercentrum](../manage/manage-deployment-of-add-ins.md) (artikel)\
+[Invoegvoegingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md) (artikel)\
+[Veelgestelde vragen over gecentraliseerde](../manage/centralized-deployment-faq.md) implementatie (artikel)\
 [Uw Microsoft 365 voor zakelijke gebruikers upgraden naar de](../setup/upgrade-users-to-latest-office-client.md) nieuwste Office client (artikel)
  

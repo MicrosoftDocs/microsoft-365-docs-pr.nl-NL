@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Informatie over het gebruik Windows AutoPilot om nieuwe Windows 10 voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik door werknemers.
-ms.openlocfilehash: cc5495f42214b222a70b281a713be782b1bf5c4f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: e178e7df220e89605502d9ed400265bcd963e57e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623668"
+ms.locfileid: "52636101"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 
@@ -45,8 +45,6 @@ Apparaten moeten aan deze vereisten voldoen:
 - Nieuwe apparaten die nog niet zijn Windows-out-of-box-ervaring
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>De installatiehandleiding gebruiken om apparaten en profielen te maken
-
-[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
 Als u nog geen apparaatgroepen of -profielen hebt gemaakt, kunt u het beste aan de slag met de stapsgewijse handleiding. U kunt ook [apparaten toevoegen en](create-and-edit-autopilot-devices.md) er [profielen](create-and-edit-autopilot-profiles.md) aan toewijzen zonder de handleiding te gebruiken. 
   

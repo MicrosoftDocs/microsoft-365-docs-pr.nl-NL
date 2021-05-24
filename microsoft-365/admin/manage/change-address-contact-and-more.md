@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Wijzigingen aanbrengen in uw organisatieprofiel, zoals organisatienaam, adres, telefoon, technische contactpersoon en e-mail.
 ms.date: 03/30/2021
-ms.openlocfilehash: 9fc985f640f1544bf30ea1a6ccdd5c1ca19aa81f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 2646d2d83c72caa8a56f6658f005812f087101cb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572127"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635400"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Het adres en de technische contactpersoon van uw organisatie en meer wijzigen
   
@@ -79,10 +79,8 @@ Zie Uw contactvoorkeuren wijzigen of [Uw](change-contact-preferences.md) weergav
   
 U kunt uw e-mailhandtekening wijzigen in Outlook Web App. Zie [E-mailinstellingen](https://support.microsoft.com/office/30c69a79-efc6-42d2-b740-4bf1c1f8a01c) voor meer informatie.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[E-mail verzenden vanaf een ander adres](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (artikel)
-
-[Een gebruikersnaam en e-mailadres wijzigen](../add-users/change-a-user-name-and-email-address.md) (artikel)
-
+[E-mail verzenden vanaf een ander adres](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (artikel)\
+[Een gebruikersnaam en e-mailadres wijzigen](../add-users/change-a-user-name-and-email-address.md) (artikel)\
 [Doorsturen van e‑mail configureren in Microsoft 365](../email/configure-email-forwarding.md) (artikel)

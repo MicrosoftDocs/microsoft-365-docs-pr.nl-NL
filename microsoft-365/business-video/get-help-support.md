@@ -19,14 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: U moet een beheerder voor een zakelijk abonnement zijn om hulp van beheerders of online of telefonische ondersteuning te krijgen in Microsoft 365 Business Premium.
-ms.openlocfilehash: e6308a9728731052d540cf3e872b6e153b64aae2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e1250d5c291832e5a337f34e49ce0b7cf68fb08d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535708"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635900"
 ---
 # <a name="get-support"></a>Ondersteuning krijgen
+
+## <a name="watch-get-help-or-support"></a>Kijken: Hulp of ondersteuning krijgen 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 
@@ -257,8 +259,6 @@ U kunt ook [zoeken in de communityfora voor Microsoft 365 voor Bedrijven](https:
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Documenten en training zoeken](find-help-answers.md) (artikel)
-
-[Snelle installatie van werknemer](employee-quick-setup.md) (artikel)
-
+[Documenten en training zoeken](find-help-answers.md) (artikel)\
+[Snelle installatie van werknemer](employee-quick-setup.md) (artikel)\
 [Overzicht van Microsoft 365 Business Premium setup](setup-overview.md) (video)

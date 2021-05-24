@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: Verzamel de waarden/gegevens die u nodig hebt om DNS-records te maken om uw domein te verbinden met uw Microsoft 365 abonnement.
-ms.openlocfilehash: c8ff30c27e67c8a29b7122ea80a6a33f0594b1b9
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: e65d53269f5fb8625b12c4eb22f78516818045be
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582954"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635724"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>De gegevens verzamelen die u nodig hebt om DNS-records te maken
 
@@ -98,10 +98,8 @@ ms.locfileid: "52582954"
     
 5. Volg de stappen voor het maken van de records bij uw DNS-host.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)
-
-[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)
-
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)\
+[Problemen zoeken en oplossen na het toevoegen van uw domein of DNS-records](find-and-fix-issues.md) (artikel)\
 [Domeinen beheren](index.yml) (koppelingspagina)

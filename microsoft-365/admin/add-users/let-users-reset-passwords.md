@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Lees hoe u een beleid kunt instellen waarmee gebruikers hun eigen wachtwoorden opnieuw kunnen instellen met behulp van het hulpprogramma voor het opnieuw instellen van selfservicewachtwoorden.
-ms.openlocfilehash: 2c79d5611ab2db00f4de5f227b0ec2f411955558
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 81fbe1949b8d5e4a601411703d86165f95cc7b7f
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571851"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634266"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -72,10 +72,8 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
   
 7. Wanneer uw gebruikers zich aanmelden, wordt hen gevraagd om aanvullende contactgegevens in te voeren, zodat ze hun wachtwoord in de toekomst opnieuw kunnen instellen.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Het wachtwoordverloopbeleid voor uw organisatie instellen](../manage/set-password-expiration-policy.md) (artikel)
-
-[Het wachtwoord van een individuele gebruiker zo instellen dat het nooit verloopt](set-password-to-never-expire.md) (artikel)
-
+[Het wachtwoordverloopbeleid voor uw organisatie](../manage/set-password-expiration-policy.md) instellen (artikel)\
+[Het wachtwoord van een afzonderlijke gebruiker instellen op nooit verlopen](set-password-to-never-expire.md) (artikel)\
 [Microsoft 365 Business trainingsvideo's](../../business-video/index.yml) (koppelingspagina)

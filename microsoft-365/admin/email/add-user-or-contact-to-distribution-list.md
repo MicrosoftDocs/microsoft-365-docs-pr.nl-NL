@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: Lees hoe u een gebruiker Microsoft 365 of contactpersoon, zoals een werknemer, partner of leverancier, toevoegt aan een e-maildistributiegroep.
-ms.openlocfilehash: 69dea710554b344de4bc221b17d5d8f929b964a5
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: c512e1da805fca5e46d7978620f34b825d0289a0
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593487"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635544"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Een gebruiker of contactpersoon toevoegen aan een distributiegroep
 
@@ -53,9 +53,8 @@ Als beheerder van een organisatie moet u mogelijk een van uw gebruikers of conta
 
 Informatie over [het verzenden van e-mail als een distributiegroep in Microsoft 365.](../manage/send-email-as-distribution-list.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Onbelangrijke e-mail beheren voor uw organisatie](configure-clutter.md) (artikel)
-
+[Onbelangrijke e-mail beheren voor uw](configure-clutter.md) organisatie (artikel)\
 [Een gedeeld postvak maken](create-a-shared-mailbox.md) (artikel)
 

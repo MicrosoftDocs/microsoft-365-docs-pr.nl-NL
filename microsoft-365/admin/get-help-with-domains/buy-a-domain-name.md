@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Meer informatie over het kopen van een domeinnaam in Microsoft 365.
-ms.openlocfilehash: 53c71796c09f08d1f50c58704b8dd95c1a241518
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3d5a5568a0e75a06f0880d82ea8e4a1a8d003689
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537569"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635460"
 ---
 # <a name="buy-a-domain-name"></a>Een domeinnaam kopen
 
@@ -119,8 +119,6 @@ Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meld u zich aan 
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Een domein toevoegen aan Microsoft 365](../setup/add-domain.md) (artikel)
-
-[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)
-
+[Een domein toevoegen aan Microsoft 365](../setup/add-domain.md) (artikel)\
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)\
 [DNS-records bijwerken om uw website bij uw huidige hostingprovider te houden](../dns/update-dns-records-to-retain-current-hosting-provider.md) (artikel)

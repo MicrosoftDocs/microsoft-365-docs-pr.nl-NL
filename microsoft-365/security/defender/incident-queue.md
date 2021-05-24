@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: dba96a43f976353251b5530233667933088f6f29
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: df2d2660267c38dccf5ef09fa4955615d3a78141
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594083"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636264"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -88,9 +88,9 @@ In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 Nadat u hebt bepaald welk incident de hoogste prioriteit vereist, selecteert u het en:
 
 - [Beheer](manage-incidents.md) de eigenschappen van het incident voor tags, toewijzing, onmiddellijke oplossing voor fout-positieve incidenten en opmerkingen.
-- Begin uw [onderzoek.](investigate-incidents.md)
+- Begin uw [onderzoeken.](investigate-incidents.md)
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten](incidents-overview.md)
-- [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)
+- [Incidenten onderzoeken](investigate-incidents.md)

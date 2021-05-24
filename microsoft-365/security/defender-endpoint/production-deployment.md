@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7abf1c9e4115c928ae581da3789270fd8ed036d3
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 6b49565c45c1f38d0d2ce71b097af079782ba4de
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476308"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636192"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>Microsoft Defender instellen voor endpoint-implementatie
 
@@ -52,13 +52,13 @@ In dit implementatiescenario wordt u begeleid door de stappen op:
 
 
 >[!NOTE]
->Dit scenario heeft alleen betrekking op het gebruik van Microsoft Endpoint Configuration Manager om u te begeleiden bij een normale implementatie. Defender voor Eindpunt ondersteunt het gebruik van andere onboarding-hulpprogramma's, maar deze scenario's worden niet in de implementatiehandleiding bestrijken. Zie Onboard devices to Microsoft Defender for Endpoint (Onboard [devices to Microsoft Defender for Endpoint) voor meer informatie.](onboard-configure.md)
+>Om u te begeleiden bij een normale implementatie, wordt in dit scenario alleen het gebruik van Microsoft Endpoint Configuration Manager. Defender voor Eindpunt ondersteunt het gebruik van andere onboarding-hulpprogramma's, maar deze scenario's worden niet in de implementatiehandleiding bestrijken. Zie Onboard devices to Microsoft Defender for Endpoint (Onboard [devices to Microsoft Defender for Endpoint) voor meer informatie.](onboard-configure.md)
 
 ## <a name="check-license-state"></a>Licentiestaat controleren
 
-Controleren op de licentiestaat en of deze correct is ingericht, kan via het beheercentrum of via de **Microsoft Azure-portal.**
+Controleren op de licentiestaat en of deze goed is ingericht, kan via het beheercentrum of via de **Microsoft Azure portal.**
 
-1. Als u uw licenties wilt bekijken, gaat u naar de **Microsoft Azure-portal** en gaat u naar de sectie Licentie van [de Microsoft Azure-portal.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products)
+1. Als u uw licenties wilt bekijken, gaat u naar de **Microsoft Azure portal** en gaat u naar de [Microsoft Azure portallicentiesectie.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products)
 
    ![Afbeelding van de pagina Azure Licensing](images/atp-licensing-azure-portal.png)
 
@@ -82,41 +82,14 @@ Als u toegang wilt krijgen tot welke licenties aan uw bedrijf zijn ingericht en 
 
 
 ## <a name="tenant-configuration"></a>Tenantconfiguratie
+Onboarding naar Microsoft Defender voor Endpoint is eenvoudig. Selecteer in het navigatiemenu een item onder de sectie Eindpunten of een Microsoft 365 Defender-functie zoals Incidenten, Jagen, Actiecentrum of Bedreigingsanalyse om het onboardingproces te starten.
 
-Wanneer u het Microsoft Defender-beveiligingscentrum voor het eerst gebruikt, wordt u door een wizard begeleid door enkele eerste stappen. Aan het einde van de installatiewizard wordt een speciaal cloud-exemplaar van Defender voor Eindpunt gemaakt. De eenvoudigste methode is om deze stappen uit te voeren vanaf een Windows 10-clientapparaat.
-
-1. Navigeer vanuit een webbrowser naar <https://securitycenter.windows.com> .
-
-    ![Afbeelding van Uw machtigingen instellen voor Microsoft Defender voor Eindpunt](images/atp-setup-permissions-wdatp-portal.png)
-
-2. Als u een proefabonnement hebt, gaat u naar de koppeling ( <https://signup.microsoft.com/Signup?OfferId=6033e4b5-c320-4008-a936-909c2825d83c&dl=WIN_DEF_ATP&pc=xxxxxxx-xxxxxx-xxx-x> )
-
-    Zodra de autorisatiestap is voltooid, wordt het **welkomstscherm** weergegeven.
-3. Ga door de autorisatiestappen.
-
-    ![Afbeelding van welkomstscherm voor het instellen van portal](images/welcome1.png)
-
-4. Voorkeuren instellen.
-
-   **Locatie voor gegevensopslag:** het is belangrijk om dit correct in te stellen. Bepaal waar de klant hoofdzakelijk gehost wil worden: VS, EU of Verenigd Koninkrijk. U kunt de locatie na deze set niet wijzigen en Microsoft zal de gegevens niet overbrengen vanuit de opgegeven geolocatie. 
-
-    **Gegevensretentie:** de standaardwaarde is zes maanden.
-
-    **Preview-functies inschakelen:** de standaardinstelling is ingeschakeld en kan later worden gewijzigd.
-
-    ![Afbeelding van geografische locatie in de set-up](images/setup-preferences.png)
-
-5. Selecteer **Volgende**.
-
-     ![Afbeelding van de uiteindelijke voorkeursset](images/setup-preferences2.png)
-
-6. Selecteer **Doorgaan**.
-
+Navigeer vanuit een webbrowser naar het [Microsoft 365 Beveiligingscentrum.](https://security.microsoft.com)
 
 ## <a name="network-configuration"></a>Netwerkconfiguratie
 Als de organisatie de eindpunten niet nodig heeft om een proxy te gebruiken voor toegang tot internet, slaat u deze sectie over.
 
-Voor de Microsoft Defender voor eindpunten-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender voor Eindpunt-service. De ingesloten Microsoft Defender voor Eindpunt-sensor wordt uitgevoerd in de systeemcontext met behulp van het LocalSystem-account. De sensor gebruikt Microsoft Windows HTTP Services (WinHTTP) om communicatie met de Microsoft Defender for Endpoint-cloudservice in te stellen. De configuratie-instelling WinHTTP is onafhankelijk van de instellingen voor Windows Internet (WinINet) voor internetbrowsingsproxy en kan alleen een proxyserver vinden met behulp van de volgende detectiemethoden:
+Voor de Microsoft Defender for Endpoint-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender for Endpoint-service. De ingesloten Microsoft Defender voor Eindpunt-sensor wordt uitgevoerd in de systeemcontext met behulp van het LocalSystem-account. De sensor gebruikt Microsoft Windows HTTP Services (WinHTTP) om communicatie met de Microsoft Defender for Endpoint-cloudservice in te stellen. De configuratie-instelling WinHTTP is onafhankelijk van de instellingen Windows Internet (WinINet) voor internetbrowsingsproxy en kan alleen een proxyserver vinden met behulp van de volgende detectiemethoden:
 
 **Autodiscovery-methoden:**
 
@@ -126,33 +99,33 @@ Voor de Microsoft Defender voor eindpunten-sensor moet Microsoft Windows HTTP (W
 
 Als een transparante proxy of WPAD is geïmplementeerd in de netwerktopologie, is er geen speciale configuratie-instellingen nodig. Zie de sectie [URL's](production-deployment.md#proxy-service-urls) proxyservice in dit document voor de lijst URL's voor URL's toestaan of op Apparaatproxy- en internetverbindingsinstellingen [configureren](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)voor meer informatie over url-uitsluitingen van Microsoft Defender voor eindpunten in de proxy.
 
-**Handmatige statische proxyconfiguratie:**
+**Hnadmatige statische proxyconfiguratie**
 
 -   Configuratie op basis van register
 
 -   WinHTTP geconfigureerd met de opdracht Netsh <br> Alleen geschikt voor desktops in een stabiele topologie (bijvoorbeeld: een bureaublad in een bedrijfsnetwerk achter dezelfde proxy)
 
-### <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>De proxyserver handmatig configureren met behulp van een statische proxy op basis van het register
+### <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>De proxyserver handmatig configureren met een statische proxy op basis van het register
 
-Configureer een statische proxy op basis van het register zodat alleen de Sensor voor Eindpunten van Microsoft Defender diagnostische gegevens kan rapporteren en kan communiceren met Microsoft Defender voor endpoint-services als een computer geen verbinding mag maken met internet. De statische proxy kan worden geconfigureerd via Groepsbeleid (GP). Het groepsbeleid vindt u onder:
+Configureer een statische proxy op basis van het register zodat alleen de Sensor voor Eindpunten van Microsoft Defender diagnostische gegevens kan rapporteren en kan communiceren met Microsoft Defender voor endpoint-services als een computer geen verbinding mag maken met internet. De statische proxy kan worden geconfigureerd via Group Policy (GP). U vindt het groepsbeleid onder:
 
- - Beheersjablonen \> Windows Components Data Collection and Preview Builds Configure \> \> Authenticated Proxy usage for the Connected User Experience and Telemetry Service
+ - Beheersjablonen \> Windows \> Onderdelengegevensverzameling en Preview-builds \> Configureren geverifieerd proxygebruik voor de verbonden gebruikerservaring en telemetrieservice
      - Stel deze in **op Ingeschakeld en** selecteer Geverifieerd **proxygebruik uitschakelen**
 
-1. Open de console Groepsbeleidsbeheer.
+1. Open de Console Groepsbeleidsbeheer.
 2. Maak een beleid of bewerk een bestaand beleid op basis van de organisatiepraktijken.
-3. Bewerk het groepsbeleid en ga naar **Beheersjablonen \> Windows Components Data Collection and Preview Builds Configure \> \> Authenticated Proxy usage for the Connected User Experience and Telemetry Service**. 
+3. Bewerk het groepsbeleid en navigeer naar beheersjablonen Windows Onderdelengegevensverzameling en **\> \> Preview-versies Configure Authenticated Proxy usage for \> the Connected User Experience and Telemetry Service**. 
     ![Afbeelding van groepsbeleidsconfiguratie](images/atp-gpo-proxy1.png)
 
-4. Selecteer **Ingeschakeld.**
+4. Selecteer **Ingeschakeld**.
 5. Selecteer **Geverifieerd proxygebruik uitschakelen.**
    
-6. **Navigeer naar beheersjablonen \> Windows Components Data Collection en Preview Builds Configure connected user experiences and \> \> telemetry**.
+6. Ga naar **beheersjablonen Windows \> Onderdelengegevensverzameling en \> Preview-builds Configureren verbonden \> gebruikerservaringen en telemetrie.**
     ![Afbeelding van configuratie-instelling groepsbeleid](images/atp-gpo-proxy2.png)
-7. Selecteer **Ingeschakeld.**
+7. Selecteer **Ingeschakeld**.
 8. Voer de **naam van de proxyserver in.**
 
-Met het beleid worden twee `TelemetryProxyServer` registerwaarden REG_SZ en `DisableEnterpriseAuthProxy` REG_DWORD onder de `HKLM\Software\Policies\Microsoft\Windows\DataCollection` registersleutel.
+Met het beleid worden twee registerwaarden `TelemetryProxyServer` als REG_SZ ingesteld en wordt `DisableEnterpriseAuthProxy` als REG_DWORD ingesteld onder de registersleutel `HKLM\Software\Policies\Microsoft\Windows\DataCollection`.
 
 De registerwaarde `TelemetryProxyServer` heeft de volgende tekenreeksindeling:
 
@@ -172,13 +145,13 @@ Gebruik netsh om een statische proxy voor het hele systeem te configureren.
 > - Dit is van invloed op alle toepassingen, inclusief Windows-services die WinHTTP met standaardproxy gebruiken.</br>
 > - Laptops die de topologie wijzigen (bijvoorbeeld van kantoor naar thuis) werken niet goed met netsh. Gebruik de statische proxyconfiguratie op basis van het register.
 
-1. Open een verhoogde opdrachtregel:
+1. Open een opdrachtpromptregel met verhoogde bevoegdheid:
 
-    1. Ga naar **Start** en typ **cmd.**
+    1. Go to **Start** and type **cmd**.
 
-    1. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+    1. Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
 
-2. Voer de volgende opdracht in en druk op **Enter:**
+2. Voer de volgende opdracht in en druk op **Enter**:
 
    ```PowerShell
    netsh winhttp set proxy <proxy>:<port>
@@ -189,10 +162,10 @@ Gebruik netsh om een statische proxy voor het hele systeem te configureren.
 
 ###  <a name="proxy-configuration-for-down-level-devices"></a>Proxyconfiguratie voor apparaten met een laag niveau
 
-Down-Level apparaten zijn Windows 7 SP1 en Windows 8.1-werkstations, evenals Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 en versies van Windows Server 2016 vóór Windows Server CB 1803. Deze besturingssystemen hebben de proxy geconfigureerd als onderdeel van de Microsoft Management Agent voor het verwerken van communicatie van het eindpunt naar Azure. Raadpleeg de Microsoft Management Agent Fast Deployment Guide voor informatie over de configuratie van een proxy op deze apparaten.
+Down-Level apparaten zijn Windows 7 SP1- en Windows 8.1-werkstations en Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 en versies van Windows Server 2016 vóór Windows Server CB 1803. Deze besturingssystemen hebben de proxy geconfigureerd als onderdeel van de Microsoft Management Agent voor het verwerken van communicatie van het eindpunt naar Azure. Raadpleeg de Microsoft Management Agent Fast Deployment Guide voor informatie over de configuratie van een proxy op deze apparaten.
 
 ### <a name="proxy-service-urls"></a>URL's voor proxyservice
-URL's die v20 bevatten, zijn alleen nodig als u Windows 10, versie 1803 of hoger hebt. Is bijvoorbeeld alleen ```us-v20.events.data.microsoft.com``` nodig als het apparaat zich op Windows 10, versie 1803 of hoger heeft geïnstalleerd.
+URL's die v20 bevatten, zijn alleen nodig als u Windows 10, versie 1803 of hoger hebt. Is bijvoorbeeld alleen ```us-v20.events.data.microsoft.com``` nodig als het apparaat zich op Windows 10, versie 1803 of hoger.
  
 
 Als een proxy of firewall anoniem verkeer blokkeert, aangezien microsoft Defender voor eindpunten-sensor verbinding maakt vanuit de systeemcontext, moet u ervoor zorgen dat anoniem verkeer is toegestaan in de vermelde URL's.

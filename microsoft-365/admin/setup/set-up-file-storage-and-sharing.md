@@ -29,18 +29,18 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Meer informatie over het gebruik OneDrive en een teamsite voor Microsoft 365 en Microsoft 365 delen van bestanden.
-ms.openlocfilehash: 9e739b1f90296167fc47bdd5f19bacd73c43f9e2
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: f94ff8a60b1b4691b36ec2e1bd04088d96b1af8c
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572175"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635640"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Bestandsopslag en -delen instellen in Microsoft 365
 
 Een van de beste manieren om bestandsopslag en -delen voor uw bedrijf in te stellen, is door samen OneDrive en een teamsite te gebruiken. Dit is ideaal voor een klein bedrijf met een klein aantal medewerkers.
 
-Bekijk een korte video over het opslaan van bestanden in de Microsoft 365 cloud.<br><br>
+## <a name="watch-where-to-store-files-in-office-365"></a>Bekijk: Waar kunt u bestanden opslaan in Office 365
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
@@ -205,10 +205,8 @@ U kunt opslag van derden inschakelen voor uw gebruikers in Microsoft 365 zodat z
 
   - [Een Office instellen op Windows Phone met Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Opslagruimte toevoegen voor uw abonnement](../../commerce/add-storage-space.md) (artikel)
-
-[Bestanden en mappen delen met Microsoft 365 Business](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) (video)
-
+[Opslagruimte toevoegen voor uw abonnement](../../commerce/add-storage-space.md) (artikel)\
+[Bestanden en mappen delen met Microsoft 365 Business](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) (video)\
 [Uw teamsite aanpassen voor bestandsopslag en delen](customize-team-site.md) (artikel)

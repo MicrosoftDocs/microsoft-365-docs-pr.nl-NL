@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Een verwijderde groep blijft 30 dagen behouden en u kunt de groep nog steeds herstellen. Na 30 dagen worden de groep en de inhoud ervan definitief verwijderd.
-ms.openlocfilehash: 285796ec45b1e6d77d46d7a0c39706f566bb8cf6
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 2c20c2bd3ce91331e7160132047dbf3ecd79c4b8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582678"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635736"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>Een verwijderde Microsoft 365 herstellen
 
@@ -81,12 +81,9 @@ Als u een globale beheerder of een groepsbeheerder bent, kunt u een verwijderde 
 
 Ga naar [de Microsoft Tech Community om](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) vragen te posten en deel te nemen aan gesprekken over Microsoft 365 groepen. 
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Groepen Microsoft 365 beheren met PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (artikel)
-  
-[Groepen verwijderen met de Remove-UnifiedGroup cmdlet](/powershell/module/exchange/remove-unifiedgroup) (artikel)
-  
-[Uw teamsite-instellingen met een groep beheren](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) (artikel)
-  
+[Groepen Microsoft 365 beheren met PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (artikel)\
+[Groepen verwijderen met de Remove-UnifiedGroup cmdlet](/powershell/module/exchange/remove-unifiedgroup) (artikel)\
+[Uw teamsite-instellingen met een groep beheren](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) (artikel)\
 [Een groep verwijderen in Outlook](https://support.microsoft.com/office/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f) (artikel)

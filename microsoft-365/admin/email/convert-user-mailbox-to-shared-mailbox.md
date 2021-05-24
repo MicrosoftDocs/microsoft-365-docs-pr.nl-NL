@@ -20,16 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Informatie over het converteren van een privépostvak naar een gedeeld postvak dat door meerdere personen kan worden gebruikt in plaats van door slechts één persoon. '
-ms.openlocfilehash: 73e2bad40037e1343f4e08c07ca6b26df16b1a30
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0beb85e5a69b72bcd244cd654c399e91ded06ba7
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537617"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635472"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Het postvak van een gebruiker converteren naar een gedeeld postvak
 
 Wanneer u het postvak van een gebruiker converteert naar een gedeeld postvak, blijven alle bestaande e-mailberichten en de agenda behouden. Het is nu alleen een gedeeld postvak waartoe meerdere personen toegang hebben in plaats van één persoon. Op een later tijdstip kunt u een gedeeld postvak weer converteren naar een (privé)postvak van een gebruiker.
+
+## <a name="before-you-begin"></a>Voordat u begint
 
 **Hier vindt u enkele belangrijke dingen die u moet weten:**
 
@@ -59,7 +61,6 @@ Zie Over gedeelde postvakken en Een [](about-shared-mailboxes.md) gedeeld postva
 > [!NOTE]
 > Voor gedeelde postvakken is geen aparte licentie vereist. Als u echter In-Place Archive wilt inschakelen of een In-Place Hold of Een Geschil in de wacht wilt zetten op een gedeeld postvak, moet u een Exchange Online Plan 1 met Exchange Online Archiving- of Exchange Online Plan 2-licentie aan het postvak toewijzen.
 
-
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>Het postvak van een verwijderde gebruiker converteren
 
 Stel dat u een gebruikersaccount hebt verwijderd en nu het oude postvak van dat account wilt converteren naar een gedeeld postvak. Hier leest u wat u kunt doen:
@@ -77,7 +78,6 @@ Stel dat u een gebruikersaccount hebt verwijderd en nu het oude postvak van dat 
 6. Nadat dat is gebeurd, kunt u de licentie verwijderen uit het postvak van de gebruiker. Verwijder het oude postvak van de gebruiker niet. Het gedeelde postvak moet blijven bestaan als anker.
     
 7. Voeg leden toe aan het gedeeld postvak.
-
 
 ## <a name="convert-a-shared-mailbox-back-to-a-users-private-mailbox"></a>Een gedeeld postvak converteren naar het (privé)postvak van een gebruiker
 
@@ -104,12 +104,8 @@ Zie voor meer informatie over het converteren van een gebruikerspostvak naar een
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Gedeelde postvakken](about-shared-mailboxes.md) (artikel)
-
-[Een gedeeld postvak maken](create-a-shared-mailbox.md) (artikel)
-
-[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)
-
-[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)
-
-[Problemen met gedeelde postvakken oplossen](resolve-issues-with-shared-mailboxes.md) (artikel)
+[Over gedeelde postvakken](about-shared-mailboxes.md) (artikel)\
+[Een gedeeld postvak](create-a-shared-mailbox.md) maken (artikel)\
+[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)\
+[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)\
+[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)

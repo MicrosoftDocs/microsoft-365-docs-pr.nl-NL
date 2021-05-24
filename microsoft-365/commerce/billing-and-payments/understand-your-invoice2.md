@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Interpreteer kosten, facturerings- en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur of factuur en hoe u een aankoopordernummer wijzigt.
 ms.date: 05/04/2021
-ms.openlocfilehash: aa898f570fb17f2d9e2ebba769e285cb9d507c31
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 63d532ddfb86eb80a1cdeb6001fff683c5999146
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593523"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635832"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Je rekening of factuur voor Microsoft 365 voor bedrijven bekijken
 
@@ -126,14 +126,10 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 1. Voer onderaan het deelvenster **Details bewerken voor** betalen via spraak in en selecteer opslaan. 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Meer informatie over het zoeken en weergeven van uw factuur of factuur](view-your-bill-or-invoice.md) (artikel)
-
-[Uw factureringsadressen wijzigen](change-your-billing-addresses.md) (artikel)
-
-[Het adres, de e-mail](../../admin/manage/change-address-contact-and-more.md) van technische contactpersonen en andere informatie van uw organisatie wijzigen (artikel)
-
-[Uw abonnement Microsoft 365 voor bedrijven](pay-for-your-subscription.md) betalen (artikel)
-
+[Meer informatie over het zoeken en bekijken van uw factuur of factuur](view-your-bill-or-invoice.md) (artikel)\
+[Uw factureringsadressen](change-your-billing-addresses.md) wijzigen (artikel)\
+[Het adres, de e-mail](../../admin/manage/change-address-contact-and-more.md) van technische contactpersonen en andere informatie van uw organisatie wijzigen (artikel)\
+[Uw abonnement Microsoft 365 voor bedrijven](pay-for-your-subscription.md) betalen (artikel)\
 [Betalingsopties voor Minecraft: Education Edition](/education/windows/school-get-minecraft) (artikel)

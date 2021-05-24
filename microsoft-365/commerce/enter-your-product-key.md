@@ -21,12 +21,12 @@ ms.custom:
 - commerce_purchase
 description: Als u een Microsoft 365 Business Standard in een winkel hebt gekocht, leert u hoe u de productcode kunt inwisselen en uw abonnement kunt activeren.
 ms.date: 11/13/2020
-ms.openlocfilehash: bc2b07b5a98c13a919596bdbf85a21bdc6c8d2bf
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: e075a9d06b45f823540a3a99a1943caa9d116954
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593391"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636120"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Voer uw productcode voor Microsoft 365 Business Standard
 
@@ -57,20 +57,16 @@ Als u een Microsoft 365 Business Standard bij een winkel hebt gekocht, kunt u in
 
 Als u de vervaldatum wilt verlengen of een licentie wilt toevoegen aan uw Microsoft 365 Business Standard abonnement, gebruikt u een nieuwe en ongebruikte sleutel voor hetzelfde Microsoft 365 abonnement. Het invoeren van Microsoft 365 productcode werkt niet omdat een sleutel die al is ingewisseld, niet opnieuw kan worden gebruikt. Zie [Licenties toevoegen aan of verlengen van een abonnement dat is betaald voor het gebruik van een productcode.](licenses/add-licenses-using-product-key.md)
 
-## <a name="whats-next"></a>En nu?
+## <a name="next-steps"></a>Volgende stappen
 
 Als u nieuw bent in Microsoft 365 voor bedrijven, leert u hoe [u](../admin/setup/setup.md)een Microsoft 365.
-  
-## <a name="still-having-trouble-with-product-keys"></a>Hebt u nog steeds problemen met productcodes?
 
 Bekijk deze lijst met veelvoorkomende fouten en oplossingen: [Problemen met uw Microsoft 365 productcode voor bedrijven?](product-key-errors-and-solutions.md)
   
 U kunt ook [Microsoft Ondersteuning bellen](../business-video/get-help-support.md).
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Upgraden naar een ander abonnement](./subscriptions/upgrade-to-different-plan.md) (artikel)
-
-[Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](./subscriptions/what-if-my-subscription-expires.md) (artikel)
-
+[Upgraden naar een ander abonnement](./subscriptions/upgrade-to-different-plan.md) (artikel)\
+[Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](./subscriptions/what-if-my-subscription-expires.md) (artikel)\
 [Meer inzicht in abonnementen en licenties in Microsoft 365 voor Bedrijven](./licenses/subscriptions-and-licenses.md) (artikel)

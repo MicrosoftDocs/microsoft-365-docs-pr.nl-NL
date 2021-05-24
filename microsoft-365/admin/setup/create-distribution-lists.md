@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Maak distributiegroepen of lijsten in het Microsoft 365 beheercentrum, zodat u e-mailberichten naar een groep kunt verzenden zonder de naam van elke geadresseerde te typen.
-ms.openlocfilehash: 7c04ca3e17959afd4138a6ddf9d9cbcd6c4dbafb
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 845aa04e5e26beb14fca0fa3bc08c0599077b152
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572247"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635664"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Distributiegroepen maken in het Microsoft 365 beheercentrum
   
@@ -74,10 +74,8 @@ Bekijk hoe u groep gebruikt in Outlook 2016 en Outlook op het web in Groepen [co
   
 Bekijk Problemen [met distributiegroepen](/office365/troubleshoot/groups/distribution-list-issues) voor hulp bij problemen met distributielijst. 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Gebruikers-e-mailinstellingen](../email/office-365-user-email-settings.md) (artikel)
-
-[Een beveiligingsgroep maken, bewerken](../email/create-edit-or-delete-a-security-group.md) of verwijderen in het Microsoft 365 beheercentrum (artikel)
-
+[Gebruikers-e-mailinstellingen](../email/office-365-user-email-settings.md) (artikel)\
+[Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365](../email/create-edit-or-delete-a-security-group.md) (artikel)\
 [Een gedeeld postvak maken](../email/create-a-shared-mailbox.md) (artikel)

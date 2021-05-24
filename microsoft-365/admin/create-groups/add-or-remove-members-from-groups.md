@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Meer informatie over het toevoegen van een lid aan een groep, het verwijderen van leden uit de groep en het beheren van de status van groepseigenaar in het Microsoft 365 beheercentrum.
-ms.openlocfilehash: 3ab3ebe21caa2d9d3dfa381dd3b68c9d2512cb79
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: b5b0a398a5ebb47a5f27066f1daea1a822adbff2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593379"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635604"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Leden toevoegen of verwijderen uit Microsoft 365 groepen met behulp van het beheercentrum
 
@@ -42,7 +42,7 @@ In Microsoft 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf
 
 4. Zoek of selecteer de naam van het lid dat u wilt toevoegen.
 
-5. Kies **Opslaan**.
+5. Selecteer **Opslaan**.
 
 ## <a name="add-a-group-to-a-member-in-the-admin-center"></a>Een groep toevoegen aan een lid in het beheercentrum
 
@@ -54,7 +54,7 @@ In Microsoft 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf
 
 4. Zoek of selecteer de naam van de groep die u wilt toevoegen.
 
-5. Kies **Opslaan**.
+5. Selecteer **Opslaan**.
 
 ## <a name="remove-a-member-from-a-group-in-the-admin-center"></a>Een lid verwijderen uit een groep in het beheercentrum
 
@@ -101,7 +101,7 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
 
 5. Kies **Opslaan**.
 
-## <a name="more-on-managing-membership"></a>Meer informatie over het beheren van het lidmaatschap
+## <a name="next-steps"></a>Volgende stappen
 
 - [Groepen beheren in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal): zie de sectie Hoe kan ik het lidmaatschap van een groep dynamisch beheren?
 
@@ -109,14 +109,10 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
 
 - [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Distributielijsten upgraden naar Microsoft 365 groepen in Outlook](../manage/upgrade-distribution-lists.md) (artikel)
-
-[Waarom u een upgrade voor uw distributielijsten moet uitvoeren naar groepen in Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (artikel)
-
-[Gasttoegang beheren in Microsoft 365 groepen](manage-guest-access-in-groups.md) (artikel)
-
-[Beheer Microsoft 365 groepen met PowerShell:](../../enterprise/manage-microsoft-365-groups-with-powershell.md)in dit artikel wordt u kennis laten maken met belangrijke cmdlets en worden voorbeelden gegeven (artikel)
-
+[Distributielijsten upgraden naar Microsoft 365 groepen in Outlook](../manage/upgrade-distribution-lists.md) (artikel)\
+[Waarom moet u uw distributielijsten upgraden](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) naar groepen in Outlook (artikel)\
+[Gasttoegang beheren in Microsoft 365 groepen](manage-guest-access-in-groups.md) (artikel)\
+[Beheer Microsoft 365 groepen met PowerShell:](../../enterprise/manage-microsoft-365-groups-with-powershell.md)in dit artikel wordt u kennis laten maken met belangrijke cmdlets en worden voorbeelden (artikel)\
 [Microsoft 365 naamgevingsbeleid voor groepen](../../solutions/groups-naming-policy.md) (artikel)

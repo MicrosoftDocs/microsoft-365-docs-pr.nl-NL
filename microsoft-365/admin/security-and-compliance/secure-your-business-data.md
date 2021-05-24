@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
-ms.openlocfilehash: 12bdb9f12c1b0d3072a4c84c006787c26050cc8b
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: b274bb6bcdf71641ff8b196921a501bae9cbba28
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582798"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635960"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om uw Microsoft 365 zakelijke abonnementen te beveiligen
 
@@ -152,7 +152,7 @@ Als u een regel voor e-mailtransport wilt maken, bekijkt u een [korte trainingsv
 
 5. Pas de instellingen in de volgende tabel toe voor elke regel. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Kies **Opslaan**.
+6. Selecteer **Opslaan**.
     
 | Instelling | Gebruikers waarschuwen voordat ze bijlagen van Office openen | Bestandstypen blokkeren die ransomware of andere schadelijke code kunnen bevatten |
 |:-----|:-----|:-----|
@@ -188,7 +188,7 @@ Een regel voor e-mailtransport maken:
 
 5. Pas de instellingen in de volgende tabel toe. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Kies **Opslaan**.
+6. Selecteer **Opslaan**.
 
 |Instelling|Automatisch doorsturen van e-mailberichten naar externe domeinen weigeren|
 |---|---|
@@ -326,7 +326,7 @@ Het standaardbeleid wijzigen:
 
 3. Selecteer **Office 365** toepassingen onder Instellingen die van toepassing zijn op inhoud, behalve **e-mail,** niet bijhouden wanneer gebruikers op veilige koppelingen klikken en Gebruikers niet door veilige koppelingen naar de oorspronkelijke URL laten **klikken.**
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
@@ -334,7 +334,7 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 2. Pas de instellingen toe die in de volgende tabel worden vermeld.
 
-3. Kies **Opslaan**.
+3. Selecteer **Opslaan**.
 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
@@ -346,10 +346,8 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 Zie Koppelingen in Microsoft Defender voor Safe voor [meer Office 365.](../../security/office-365-security/atp-safe-links.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Meervoudige verificatie voor Microsoft 365](multi-factor-authentication-microsoft-365.md) (artikel)
-
-[Prioriteitsaccounts beheren en controleren](../setup/priority-accounts.md) (artikel)
-
+[Meervoudige verificatie voor Microsoft 365](multi-factor-authentication-microsoft-365.md) (artikel)\
+[Prioriteitsaccounts beheren](../setup/priority-accounts.md) en controleren (artikel)\
 [Microsoft 365 rapporten in het beheercentrum](../activity-reports/activity-reports.md) (video)
