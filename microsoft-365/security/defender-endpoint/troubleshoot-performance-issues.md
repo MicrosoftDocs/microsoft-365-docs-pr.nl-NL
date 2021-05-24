@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 71c2391361c645d26cdaddff0bff86796da50391
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 1a969b6430914eb2dd667a906dc071d3cd49be8b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995079"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625327"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>Problemen met prestaties met betrekking tot realtimebeveiliging oplossen
 
@@ -33,7 +33,7 @@ ms.locfileid: "51995079"
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2146631)
  
-Als uw systeem een hoog CPU-gebruik of prestatieproblemen heeft met betrekking tot de realtimebeveiligingsservice in Microsoft Defender voor Eindpunt, kunt u een ticket indienen bij Microsoft-ondersteuning. Volg de stappen in [Diagnostische gegevens van Microsoft Defender Antivirus verzamelen.](collect-diagnostic-data.md)
+Als uw systeem een hoog CPU-gebruik of prestatieproblemen heeft met betrekking tot de realtimebeveiligingsservice in Microsoft Defender voor Eindpunt, kunt u een ticket indienen bij Microsoft-ondersteuning. Volg de stappen in [Het verzamelen Microsoft Defender Antivirus diagnostische gegevens](collect-diagnostic-data.md).
 
 Als beheerder kunt u deze problemen ook zelf oplossen. 
 
@@ -67,9 +67,9 @@ In **MPLog-xxxxxxxx-xxxxxx.log** vindt u de geschatte prestatie-impactinformatie
 | MaxTimeFile | Het pad van het bestand dat door dit proces is gebruikt waarvoor de langste scan van de `MaxTime` duur is opgenomen |
 | EstimatedImpact | Het percentage tijd dat is besteed aan scans voor bestanden die door dit proces zijn gebruikt buiten de periode waarin dit proces scanactiviteit heeft ervaren |
 
-Als de prestatie-impact groot is, kunt u het proces toevoegen aan de uitsluitingen voor pad/proces door de stappen in Uitsluitingen configureren en valideren voor [Microsoft Defender Antivirusscans te volgen.](collect-diagnostic-data.md)
+Als de prestatie-impact groot is, kunt u proberen het proces toe te voegen aan de uitsluitingen van pad/proces door de stappen in Uitsluitingen configureren en valideren voor Microsoft Defender Antivirus [scans.](collect-diagnostic-data.md)
 
-Als het probleem niet is opgelost met de vorige [](#capture-process-logs-using-process-monitor) stap, kunt u meer informatie verzamelen via de procesmonitor of de [Windows Performance Recorder](#capture-performance-logs-using-windows-performance-recorder) in de volgende secties.
+Als het probleem niet is opgelost met de vorige [](#capture-process-logs-using-process-monitor) stap, kunt u meer informatie verzamelen via de procesmonitor of de Windows [performancerecorder](#capture-performance-logs-using-windows-performance-recorder) in de volgende secties.
      
 ## <a name="capture-process-logs-using-process-monitor"></a>Proceslogboeken vastleggen met behulp van procesmonitor
 
@@ -81,13 +81,13 @@ Procesmonitor (ProcMon) is een geavanceerd monitoringprogramma waarmee realtime-
     1. Klik met de **rechtermuisknopProcessMonitor.zip** en selecteer **Eigenschappen.**
     1. Zoek onder *het* tabblad Algemeen naar *Beveiliging.*
     1. Het selectievakje naast **Blokkering opheffen in.**
-    1. Selecteer **Toepassen.**
+    1. Selecteer **Toepassen**.
     
     ![MOTW verwijderen](images/procmon-motw.png) 
 
 3. Los het bestand op zodat `C:\temp` het mappad wordt `C:\temp\ProcessMonitor` . 
 
-4. Kopieer **ProcMon.exe**  naar de Windows-client of Windows-server die u probleemoplossing aan het oplossen bent.  
+4. Kopieer **ProcMon.exe** naar de Windows client of Windows server die u probleemoplossing aan het oplossen bent.  
 
 5. Voordat u ProcMon gaat uitvoeren, moet u ervoor zorgen dat alle andere toepassingen die niet gerelateerd zijn aan het probleem met het hoge CPU-gebruik, zijn gesloten. Als u dit doet, wordt het aantal te controleren processen geminimaliseerd.
 
@@ -122,7 +122,7 @@ Procesmonitor (ProcMon) is een geavanceerd monitoringprogramma waarmee realtime-
         > 
         >![Procmon minimaliseren](images/procmon-minimize.png)
     
-7. Nadat u een van de procedures in stap 6 hebt gevolgd, ziet u de volgende optie om filters in te stellen. Selecteer **OK**. U kunt de resultaten altijd filteren nadat de opname is voltooid.
+7. Nadat u een van de procedures in stap 6 hebt gevolgd, ziet u de volgende optie om filters in te stellen. Selecteer **OK**. U kunt de resultaten altijd filteren nadat de opname is voltooid.
  
     ![Procesnaam filteren is Systeem uitsluiten](images/procmon-filter-options.png) 
 
@@ -152,9 +152,9 @@ Procesmonitor (ProcMon) is een geavanceerd monitoringprogramma waarmee realtime-
 
 ## <a name="capture-performance-logs-using-windows-performance-recorder"></a>Prestatielogboeken vastleggen met Windows Performance Recorder
 
-U kunt Windows Performance Recorder (WPR) gebruiken om aanvullende informatie in uw inzending bij Microsoft-ondersteuning op te nemen. WPR is een krachtig opnamehulpmiddel waarmee Event Tracing voor Windows-opnamen wordt gemaakt. 
+U kunt Windows Performance Recorder (WPR) gebruiken om aanvullende informatie in uw inzending bij Microsoft-ondersteuning op te nemen. WPR is een krachtig opnamehulpmiddel waarmee Event Tracing wordt gemaakt voor Windows opnamen. 
 
-WPR maakt deel uit van de Windows Assessment and Deployment Kit (Windows ADK) en kan worden gedownload van De [Windows ADK downloaden](/windows-hardware/get-started/adk-install)en installeren. U kunt deze ook downloaden als onderdeel van de Windows 10 Software Development Kit bij [Windows 10 SDK.](https://developer.microsoft.com/windows/downloads/windows-10-sdk/)
+WPR maakt deel uit van Windows Assessment and Deployment Kit (Windows ADK) en kan worden gedownload van Download en installeer de Windows [ADK.](/windows-hardware/get-started/adk-install) U kunt deze ook downloaden als onderdeel van de Windows 10 Software Development Kit [op Windows 10 SDK.](https://developer.microsoft.com/windows/downloads/windows-10-sdk/)
 
 U kunt de wpr-gebruikersinterface gebruiken door de stappen in Prestatielogboeken vastleggen te volgen [met behulp van de WPR-gebruikersinterface.](#capture-performance-logs-using-the-wpr-ui) 
 
@@ -178,20 +178,20 @@ U kunt ook het opdrachtregelprogramma *wpr.exegebruiken,* dat beschikbaar is in 
 
     ![UAC](images/wpt-yes.png)
 
-4. Download vervolgens het [analyseprofiel van Microsoft Defender voor eindpunten](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp) en sla het op `WD.wprp` in een map zoals `C:\temp` . 
+4. Download vervolgens het [analyseprofiel van Microsoft Defender voor eindpunten](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp) en sla het op `MDAV.wprp` in een map zoals `C:\temp` . 
      
 5. Selecteer meer opties in het dialoogvenster WPR.
 
     ![Meer opties selecteren](images/wpr-03.png)
 
-6. Selecteer **Profielen toevoegen...** en blader naar het pad van het `WD.wprp` bestand.
+6. Selecteer **Profielen toevoegen...** en blader naar het pad van het `MDAV.wprp` bestand.
 
 7. Daarna ziet u een nieuw profiel dat is ingesteld onder Aangepaste *afmetingen* met de naam *Microsoft Defender voor eindpuntanalyse* eronder.
 
     ![in-file](images/wpr-infile.png)
 
     >[!WARNING]
-    >Als uw Windows Server 64 GB RAM-geheugen of meer heeft, gebruikt u de aangepaste maat `Microsoft Defender for Endpoint analysis for large servers` in plaats van `Microsoft Defender for Endpoint analysis` . Anders kan uw systeem een grote hoeveelheid niet-pagina's poolgeheugen of buffers verbruiken, wat kan leiden tot systeeminstabiliteit. U kunt kiezen welke profielen u wilt toevoegen door Resourceanalyse **uit te breiden.** Dit aangepaste profiel biedt de benodigde context voor een uitgebreide prestatieanalyse.
+    >Als uw Windows Server 64 GB RAM of meer heeft, gebruikt u de aangepaste maat in `Microsoft Defender for Endpoint analysis for large servers` plaats van `Microsoft Defender for Endpoint analysis` . Anders kan uw systeem een grote hoeveelheid niet-pagina's poolgeheugen of buffers verbruiken, wat kan leiden tot systeeminstabiliteit. U kunt kiezen welke profielen u wilt toevoegen door Resourceanalyse **uit te breiden.** Dit aangepaste profiel biedt de benodigde context voor een uitgebreide prestatieanalyse.
  
 8. De aangepaste meting van Microsoft Defender voor eindpunt verbose analyseprofiel gebruiken in de WPR-gebruikersinterface:
 
@@ -247,20 +247,20 @@ U kunt ook het opdrachtregelprogramma *wpr.exegebruiken,* dat beschikbaar is in 
 
 Het opdrachtregelprogramma *wpr.exe* maakt deel uit van het besturingssysteem dat begint met Windows 8. Een WPR-trace verzamelen met behulp van de opdrachtregelfunctie wpr.exe:
 
-1. Microsoft **[Defender voor endpoint-analyseprofiel](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** downloaden voor prestatiesporen naar een bestand met de naam `WD.wprp` in een lokale adreslijst, zoals `C:\traces` .
+1. Microsoft **[Defender voor endpoint-analyseprofiel](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** downloaden voor prestatiesporen naar een bestand met de naam `MDAV.wprp` in een lokale adreslijst, zoals `C:\traces` .
 
-3. Klik met de rechtermuisknop op **het startmenupictogram** en selecteer **Windows PowerShell (beheerder)** of Opdrachtprompt **(beheerder)** om een opdrachtpromptvenster voor beheerders te openen.
+3. Klik met de rechtermuisknop op **het pictogram Startmenu** en selecteer **Windows PowerShell (beheerder)** of Opdrachtprompt **(beheerder)** om een opdrachtpromptvenster voor beheerders te openen.
 
 4. Wanneer het dialoogvenster Gebruikersaccountbeheer wordt weergegeven, selecteert u **Ja.**
 
 5. Voer bij de verhoogde prompt de volgende opdracht uit om een Prestatiespoor van Microsoft Defender voor eindpunt te starten:
 
     ```console
-    wpr.exe -start C:\traces\WD.wprp!WD.Verbose -filemode
+    wpr.exe -start C:\traces\MDAV.wprp!WD.Verbose -filemode
     ```
     
     >[!WARNING]
-    >Als uw Windows Server 64 GB of RAM-geheugen of meer heeft, gebruikt u profielen en in plaats van `WDForLargeServers.Light` `WDForLargeServers.Verbose` profielen en , `WD.Light` `WD.Verbose` respectievelijk. Anders kan uw systeem een grote hoeveelheid niet-pagina's poolgeheugen of buffers verbruiken, wat kan leiden tot systeeminstabiliteit.
+    >Als uw Windows server 64 GB of RAM of meer heeft, gebruikt u profielen en in plaats van profielen `WDForLargeServers.Light` `WDForLargeServers.Verbose` en , `WD.Light` `WD.Verbose` respectievelijk. Anders kan uw systeem een grote hoeveelheid niet-pagina's poolgeheugen of buffers verbruiken, wat kan leiden tot systeeminstabiliteit.
 
 6. Reproduceer het probleem.
 
@@ -279,5 +279,5 @@ Het opdrachtregelprogramma *wpr.exe* maakt deel uit van het besturingssysteem da
 
 ## <a name="see-also"></a>Zie ook
 
-- [Diagnostische gegevens van Microsoft Defender Antivirus verzamelen](collect-diagnostic-data.md)
-- [Uitsluitingen configureren en valideren voor Antivirusscans van Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+- [Diagnostische Microsoft Defender Antivirus verzamelen](collect-diagnostic-data.md)
+- [Uitsluitingen configureren en valideren voor Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md)

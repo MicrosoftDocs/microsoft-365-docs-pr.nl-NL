@@ -21,21 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
-description: Pas de aanmeldingspagina van Microsoft 365 aan met de Azure Active Directory. U kunt een afbeelding, een logo en tekst toevoegen aan de aanmeldingspagina.
-ms.openlocfilehash: 9947d57e4bf35ef0a3409db58f2c663959c2dd49
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Pas de Microsoft 365 aanmeldingspagina aan met de Azure Active Directory. U kunt een afbeelding, een logo en tekst toevoegen aan de aanmeldingspagina.
+ms.openlocfilehash: dba75d5178f3c4a879ae2cdc9694697df45f6b8b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579120"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624439"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>Uw huisstijl toevoegen aan de pagina Aanmelden
 
- U kunt nu het Ad-abonnement (Azure Active Directory) dat is opgenomen in uw Microsoft 365-abonnement gebruiken om de aanmeldingspagina aan te passen die uw gebruikers zien. 
+ U kunt nu het Azure Active Directory (AD)-abonnement dat is opgenomen in uw Microsoft 365-abonnement gebruiken om de aanmeldingspagina aan te passen die uw gebruikers zien. 
   
 ## <a name="add-company-branding-to-your-sign-in-page-and-access-panel-pages"></a>Huisstijlelementen toevoegen aan de aanmeldings- en toegangspagina's
 
-Als u een betaald abonnement hebt op Microsoft 365 voor Bedrijven, Microsoft Dynamics CRM Online, Enterprise Mobility Suite of andere Microsoft-services, hebt u een gratis abonnement op Azure Active Directory. U kunt Azure Active Directory gebruiken om gebruikers- en groepsaccounts te maken en beheren en om huisstijlelementen aan uw pagina's toe te voegen. Als u het abonnement wilt activeren en de beheerportal voor Microsoft Azure openen, moet u een eenmalig registratieproces doorlopen. Daarna kunt u Azure Active Directory openen via de Microsoft-service die ervan gebruikmaakt. Zie Uw gratis [Azure Active Directory-abonnement](../../compliance/use-your-free-azure-ad-subscription-in-office-365.md)registreren voor instructies over het registreren van uw Microsoft 365-abonnement en zie De adreslijst voor uw [Microsoft 365-abonnement beheren in Azure](/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) voor instructies voor algemeen beheer. 
+Als u een betaald abonnement hebt op Microsoft 365 voor bedrijven, Microsoft Dynamics CRM Online, Enterprise Mobility Suite of andere Microsoft-services, hebt u een gratis abonnement op Azure Active Directory. U kunt Azure Active Directory gebruiken om gebruikers- en groepsaccounts te maken en beheren en om huisstijlelementen aan uw pagina's toe te voegen. Als u het abonnement wilt activeren en de beheerportal voor Microsoft Azure openen, moet u een eenmalig registratieproces doorlopen. Daarna kunt u Azure Active Directory openen via de Microsoft-service die ervan gebruikmaakt. Zie Uw gratis Azure Active Directory-abonnement registreren voor instructies over het registreren van uw [Microsoft 365-abonnement](../../compliance/use-your-free-azure-ad-subscription-in-office-365.md)en zie De adreslijst voor uw [Microsoft 365-abonnement beheren in Azure](/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) voor instructies voor algemeen beheer. 
   
 De volgende afbeelding toont welke onderdelen van de aanmeldingspagina in Azure kunnen worden gewijzigd.
   
@@ -50,3 +50,9 @@ De volgende afbeelding toont welke onderdelen van de aanmeldingspagina in Azure 
 Naast de aanmeldingspagina kunt u ook de toegangspagina in Azure aanpassen
   
 Bent u klaar om huisstijlelementen toe te voegen? Bekijk dan de aanpassingsmogelijkheden in de inhoudsset voor Azure: [Huisstijlelementen toevoegen aan de aanmeldings- en toegangspagina's](/azure/active-directory/fundamentals/customize-branding).
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Het thema Microsoft 365 uw organisatie](customize-your-organization-theme.md) aanpassen (artikel)\
+[Verschil tussen de installatiewizard en de pagina Setup](o365-setup-wizard-and-setup-page.md) (artikel)\
+[Mobiele apparaten instellen voor Microsoft 365 voor zakelijke gebruikers](../../business/set-up-mobile-devices.md) (video)

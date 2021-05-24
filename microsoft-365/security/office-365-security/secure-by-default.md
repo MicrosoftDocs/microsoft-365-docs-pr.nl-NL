@@ -17,12 +17,12 @@ ms.collection:
 description: Meer informatie over de standaardinstelling voor beveiliging in Exchange Online Protection (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 957ca3b563d4f1466dd537c3ae974a4fd61aa6f2
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 2d5cdc8f8faa9c2d5772fd1572134ea49cdd77da
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346314"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624047"
 ---
 # <a name="secure-by-default-in-office-365"></a>Standaard beveiligd in Office 365
 
@@ -77,7 +77,7 @@ Anders gezegd: als beveiligingsservice handelen we namens u om te voorkomen dat 
 > [!NOTE]
 > In juli 2021 wordt beveiliging standaard uitgebreid tot Exchange regels voor e-mailstroom (ook wel transportregels genoemd). Als u e-mailstroomregels gebruikt om phishingsimulaties van derden of ongefilterde bezorging toe te staan [](configure-advanced-delivery.md) aan postvakken voor beveiligingsbewerkingen, moet u deze regels uiteindelijk verwijderen en overschakelen naar het geavanceerde bezorgingsbeleid wanneer de functie voor u _beschikbaar is._
 
-De enige overschrijven die phishing met veel vertrouwen toestaat om filteren te omzeilen, zijn regels voor e-mailstroom. Zie E-mailstroomregels gebruiken om de SCL in berichten in te stellen als u regels voor e-mailstroom wilt gebruiken om filteren [te omzeilen.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
+De enige overschrijven die phishing met veel vertrouwen toestaat om filteren te omzeilen, zijn regels voor e-mailstroom. Zie E-mailstroomregels gebruiken om de SCL in berichten in te stellen als u regels voor e-mailstroom wilt gebruiken om filteren [te omzeilen.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)
 
 U moet in de volgende scenario's alleen overschrijven gebruiken:
 

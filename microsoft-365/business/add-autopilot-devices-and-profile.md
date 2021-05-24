@@ -24,17 +24,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Lees hoe u Windows AutoPilot gebruikt om nieuwe Windows 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik door werknemers.
-ms.openlocfilehash: cd8777e6ae2e395506d2bf308c99309de1e24805
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Informatie over het gebruik Windows AutoPilot om nieuwe Windows 10 voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik door werknemers.
+ms.openlocfilehash: cc5495f42214b222a70b281a713be782b1bf5c4f
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578522"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623668"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 
-U kunt Windows AutoPilot gebruiken om nieuwe **Windows** 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik wanneer u ze aan uw werknemers geeft.
+U kunt Windows AutoPilot gebruiken  om nieuwe Windows 10 voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik wanneer u ze aan uw werknemers geeft.
   
 ## <a name="device-requirements"></a>Apparaatvereisten
 
@@ -42,7 +42,7 @@ Apparaten moeten aan deze vereisten voldoen:
   
 - Windows 10, versie 1703 of hoger
     
-- Nieuwe apparaten die niet out-of-box-ervaring met Windows hebben gehad
+- Nieuwe apparaten die nog niet zijn Windows-out-of-box-ervaring
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>De installatiehandleiding gebruiken om apparaten en profielen te maken
 
@@ -60,7 +60,7 @@ Als u nog geen apparaatgroepen of -profielen hebt gemaakt, kunt u het beste aan 
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. Blader op **de pagina Csv-bestand uploaden met lijst met apparaten** naar een locatie waar u de voorbereidingen hebt getroffen. CSV-bestand en vervolgens **Volgende** \> **openen.** Het bestand moet drie kopteksten hebben:
+3. Blader op **Upload .csv pagina met lijst** met apparaten naar een locatie waar u het .CSV hebt en vervolgens **Volgende** \> **openen.** Het bestand moet drie kopteksten hebben:
     
     - Kolom A: Serienummer van apparaat
     
@@ -73,7 +73,7 @@ Als u nog geen apparaatgroepen of -profielen hebt gemaakt, kunt u het beste aan 
     Zie [Device list CSV-file](../admin/misc/device-list.md) (CSV-bestand met lijst met apparaten) voor meer informatie. U kunt ook een voorbeeldbestand downloaden op de pagina **CSV-bestand met lijst met apparaten uploaden**. 
     
 > [!NOTE]
-> In dit script wordt WMI gebruikt om eigenschappen op te halen die een klant nodig heeft om een apparaat te registreren bij Windows Autopilot. Houd er rekening mee dat het normaal is dat het resulterende CSV-bestand geen PKID-waarde (Windows Product ID) verzamelt, omdat dit niet nodig is om een apparaat te registreren en PKID null is in de uitvoer-CSV is helemaal prima. Alleen het serienummer en de hardwarehash worden ingevuld.
+> In dit script wordt WMI gebruikt om eigenschappen op te halen die nodig zijn voor een klant om een apparaat te registreren met Windows Autopilot. Houd er rekening mee dat het normaal is dat het resulterende CSV-bestand geen PKID-waarde (Windows Product ID) verzamelt, aangezien dit niet nodig is om een apparaat te registreren en PKID null is in de uitvoer-CSV is prima. Alleen het serienummer en de hardwarehash worden ingevuld.
     
 4. Op de **pagina Een profiel** toewijzen kunt u een bestaand profiel kiezen of een nieuw profiel maken. Als u er nog geen hebt, wordt u gevraagd er een te maken. 
     
@@ -85,7 +85,7 @@ Als u nog geen apparaatgroepen of -profielen hebt gemaakt, kunt u het beste aan 
     
     - Maak een aanmeldervaring met de huisstijl van uw bedrijf.
     
-    - Verbind uw apparaten met Azure Active Directory-accounts en schrijf ze automatisch in om te worden beheerd door Microsoft 365 Business Premium.
+    - Verbinding maken uw apparaten Azure Active Directory accounts en schrijf ze automatisch in om te worden beheerd door Microsoft 365 Business Premium.
     
     Zie Over [AutoPilot-profielinstellingen voor meer informatie.](autopilot-profile-settings.md) 
     
@@ -94,3 +94,8 @@ Als u nog geen apparaatgroepen of -profielen hebt gemaakt, kunt u het beste aan 
     Kies **Volgende**.
     
 6. **U bent klaar, geeft** aan dat het profiel dat u hebt gemaakt (of gekozen) wordt toegepast op de apparaatgroep die u hebt gemaakt door de lijst met apparaten te uploaden. De instellingen zijn van kracht wanneer de gebruikers van het apparaat zich volgende aanmelden. Kies **Sluiten**.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Instellingen voor AutoPilot-profiel](autopilot-profile-settings.md) (artikel)\
+[Opties voor het beveiligen van uw apparaten en app-gegevens](../admin/devices/choose-device-security.md) (artikel)

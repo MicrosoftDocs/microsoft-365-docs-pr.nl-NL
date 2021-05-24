@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
-description: Lees hoe u een partner van een abonnementsadviseur toevoegt als partner of record op het moment van Microsoft 365 aankoop, de partner wijzigt of een partner uit een abonnement verwijdert.
-ms.openlocfilehash: d45f9e3278b0a25cc5603d322c96f40eee45e6f8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Voeg een recordpartner toe op het moment Microsoft 365, wijzig de partner of verwijder een partner uit een abonnement.
+ms.openlocfilehash: e21c324bc84e360b80deae2abeec610e73834819
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537473"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624523"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Een abonnementsadviseur toevoegen, wijzigen of verwijderen
 
@@ -42,6 +42,8 @@ ms.locfileid: "52537473"
 Een geautoriseerde partner van Microsoft die fungeert als uw abonnementsadviseur biedt de verkoop-, ondersteunings- en technische expertise die u nodig hebt om u te helpen een abonnement in te stellen en te onderhouden. U kunt een partner van een abonnementsadviseur toevoegen als partner van record wanneer u een abonnement Microsoft 365 of op een ander tijdstip. Als u momenteel niet met een partner werkt, kunt u er ook een zoeken op de website [Microsoft Pinpoint](https://pinpoint.microsoft.com).
 
 ::: moniker-end
+
+## <a name="before-you-begin"></a>Voordat u begint
 
 ::: moniker range="o365-worldwide"
 
@@ -218,6 +220,7 @@ U moet uw wederverkoper-partner vragen om deze instructies te volgen: [Een resel
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Uw partner Microsoft 365 of wederverkoper zoeken](../manage/find-your-partner-or-reseller.md)
+[Zoek uw Microsoft 365 partner of wederverkoper](../manage/find-your-partner-or-reseller.md) (artikel)\
+[Uw installatie van Microsoft 365 voor bedrijven](../setup/plan-your-setup.md) plannen (artikel)

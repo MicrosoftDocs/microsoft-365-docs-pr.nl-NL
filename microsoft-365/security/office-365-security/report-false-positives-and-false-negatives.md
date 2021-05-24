@@ -13,12 +13,12 @@ ms.collection:
 description: Informatie over het rapporteren van onwaar positieven en onwaar negatieven in Outlook met de functie Rapportbericht.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e848595035501f5da7b6099efd2700ebac6f17e3
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6f8c4fc327bfd467cdd1d0043c454e222e84125c
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291161"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625111"
 ---
 # <a name="report-false-positives-and-false-negatives-in-outlook"></a>Fout-positieven en fout-negatieven rapporteren in Outlook
 
@@ -55,7 +55,7 @@ In Microsoft 365 organisaties met postvakken in Exchange Online of on-premises p
 Voor berichten in het Postvak IN of een andere e-mailmap, behalve Ongewenste e-mail, gebruikt u de volgende methode om spam- en phishingberichten te melden:
 
 1. Klik op **de** drie puntjes Meer acties in de rechterbovenhoek van het geselecteerde bericht, klik in de vervolgkeuzelijst op Bericht rapporteren en selecteer **vervolgens Ongewenste** e-mail of **Phishing.** 
-  
+
    > [!div class="mx-imgBorder"]
    > ![Rapportbericht - Meer acties](../../media/report-message-more-actions.png)
 
@@ -67,10 +67,10 @@ Voor berichten in het Postvak IN of een andere e-mailmap, behalve Ongewenste e-m
    - Verplaatst naar de map Ongewenste e-mail als deze is gerapporteerd als spam.
 
    - Verwijderd als dit is gerapporteerd als phishing.
-   
+
 ### <a name="report-messages-that-are-not-junk"></a>Berichten rapporteren die geen ongewenste e-mail zijn
 
-1. Klik op **de** drie puntjes Meer acties in de rechterbovenhoek van het geselecteerde bericht, klik in de vervolgkeuzelijst op Bericht rapporteren en klik vervolgens op **Geen ongewenste e-mail.**   
+1. Klik op **de** drie puntjes Meer acties in de rechterbovenhoek van het geselecteerde bericht, klik in de vervolgkeuzelijst op Bericht rapporteren en klik vervolgens op **Geen ongewenste e-mail.** 
 
    > [!div class="mx-imgBorder"]
    > ![Rapportbericht - Meer acties](../../media/report-message-more-actions.png)
@@ -86,4 +86,4 @@ Als u berichten wilt bekijken die gebruikers rapporteren aan Microsoft, hebt u d
 
 - Gebruik de portal Beheerdersinzendingen. Zie Gebruikersinzendingen [weergeven bij Microsoft voor meer informatie.](admin-submission.md#view-user-submissions-to-microsoft)
 
-- Maak een regel voor de e-mailstroom (ook wel transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels voor [e-mailstroom gebruiken voor](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)instructies om te zien wat uw gebruikers rapporteren aan Microsoft.
+- Maak een regel voor de e-mailstroom (ook wel transportregel genoemd) om kopieën van gerapporteerde berichten te verzenden. Zie Regels voor [e-mailstroom gebruiken voor](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft)instructies om te zien wat gebruikers rapporteren aan Microsoft.

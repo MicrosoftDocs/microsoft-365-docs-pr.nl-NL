@@ -12,15 +12,15 @@ localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel vindt u informatie over rapporten en hulpprogramma's voor probleemoplossing die beschikbaar zijn voor EOP-beheerders (Microsoft Exchange Online Protection).
+description: In dit artikel vindt u informatie over rapporten en hulpprogramma's voor probleemoplossing die beschikbaar zijn Microsoft Exchange Online EOP-beheerders (Protection).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d5e5493925a17725bfb9d6698b3f94050960ccc7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ae55ded9d907754161813c9f7bfa7eeb14c558a8
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204328"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625027"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rapportage en bericht traceren in EOP
 
@@ -31,11 +31,11 @@ ms.locfileid: "51204328"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, biedt EOP veel verschillende rapporten die u kunnen helpen bij het bepalen van de algehele status en status van uw organisatie. Er zijn ook hulpprogramma's waarmee u specifieke gebeurtenissen kunt oplossen (zoals een bericht dat niet bij de beoogde geadresseerden binnenkomt) en controlerapporten om te voldoen aan de nalevingsvereisten.
+In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, biedt EOP veel verschillende rapporten die u kunnen helpen bij het bepalen van de algehele status en status van uw organisatie. Er zijn ook hulpprogramma's waarmee u specifieke gebeurtenissen kunt oplossen (zoals een bericht dat niet bij de beoogde geadresseerden binnenkomt) en controlerapporten om te voldoen aan de nalevingsvereisten.
 
 ## <a name="usage-reports"></a>Gebruiksrapporten
 
-**Activiteit in Microsoft 365-groepen:** Informatie weergeven over het aantal Microsoft 365-groepen dat wordt gemaakt en gebruikt.
+**Microsoft 365 groepsactiviteiten:** Informatie weergeven over het aantal Microsoft 365 groepen dat wordt gemaakt en gebruikt.
 
 **E-mailactiviteit:** Informatie weergeven over het aantal verzonden, ontvangen en gelezen berichten in uw hele organisatie en door specifieke gebruikers.
 
@@ -45,27 +45,27 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 
 Zie de volgende bronnen voor meer informatie:
 
-- [Microsoft 365-rapporten in het beheercentrum - Microsoft 365-groepen](../../admin/activity-reports/office-365-groups.md)
+- [Microsoft 365 Rapporten in het beheercentrum - Microsoft 365 groepen](../../admin/activity-reports/office-365-groups.md)
 
-- [Microsoft 365-rapporten in het beheercentrum - E-mailactiviteit](../../admin/activity-reports/email-activity.md)
+- [Microsoft 365 Rapporten in het beheercentrum - E-mailactiviteit](../../admin/activity-reports/email-activity.md)
 
-- [Microsoft 365-rapporten in het beheercentrum - Gebruik van e-mailapps](../../admin/activity-reports/email-apps-usage.md)
+- [Microsoft 365 Rapporten in het beheercentrum - Gebruik van e-mailapps](../../admin/activity-reports/email-apps-usage.md)
 
-- [Microsoft 365-rapporten in het beheercentrum - Postvakgebruik](../../admin/activity-reports/mailbox-usage.md)
+- [Microsoft 365 Rapporten in het beheercentrum - Postvakgebruik](../../admin/activity-reports/mailbox-usage.md)
 
-## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Beveiligings- & compliancerapporten in het Microsoft 365-beheercentrum
+## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Beveiligings- & compliancerapporten in het Microsoft 365 beheercentrum
 
 Deze uitgebreide rapporten bieden een interactieve rapportage-ervaring voor EOP-beheerders, met overzichtsgegevens en de mogelijkheid om in te zoomen voor meer informatie.
 
-**Defender voor Office 365:** Informatie weergeven over veilige koppelingen en veilige bijlagen die deel uitmaken van Microsoft Defender voor Office 365.
+**Defender voor Office 365:** Informatie weergeven over Safe koppelingen en Safe bijlagen die deel uitmaken van Microsoft Defender voor Office 365.
 
 **EOP:** Informatie weergeven over malwaredetecties, vervalste e-mail, spamdetecties en e-mailstroom van en naar uw organisatie.
 
 [Rapporten weergeven voor Defender voor Office 365](view-reports-for-mdo.md)
 
-## <a name="custom-reports-using-microsoft-graph"></a>Aangepaste rapporten met Microsoft Graph
+## <a name="custom-reports-using-microsoft-graph"></a>Aangepaste rapporten met Microsoft-Graph
 
-Maak programmatisch rapporten die beschikbaar zijn in het beheercentrum met Microsoft Graph. Zie Overzicht van [Microsoft Graph](/graph/overview) en Werken met Office [365-gebruiksrapporten in Microsoft Graph voor meer informatie.](/graph/api/resources/report)
+Maak programmatisch rapporten die beschikbaar zijn in het beheercentrum met Behulp van Microsoft Graph. Zie Overzicht van [Microsoft-Graph](/graph/overview) en Werken met Office 365 [gebruiksrapporten in Microsoft Graph.](/graph/api/resources/report)
 
 ## <a name="message-trace"></a>Bericht traceren
 
@@ -77,7 +77,7 @@ Zie [Bericht traceren in het Beveiligings- & compliancecentrum](message-trace-sc
 
 ## <a name="audit-logging"></a>Auditregistratie
 
-Houdt specifieke wijzigingen bij die door beheerders in uw organisatie zijn aangebracht. Met deze rapporten kunt u configuratieproblemen oplossen of de oorzaak van beveiligings- of complianceproblemen vinden. Zie [Controlerapporten in EOP](auditing-reports-in-eop.md).
+Houdt specifieke wijzigingen bij die door beheerders in uw organisatie zijn aangebracht. Met deze rapporten kunt u configuratieproblemen oplossen of de oorzaak van beveiligings- of complianceproblemen vinden. Zie [Controlerapporten in Exchange Online.](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)
 
 ## <a name="reporting-and-message-trace-data-availability-and-latency"></a>Beschikbaarheid en latentie van gegevens rapporteren en berichten traceren
 

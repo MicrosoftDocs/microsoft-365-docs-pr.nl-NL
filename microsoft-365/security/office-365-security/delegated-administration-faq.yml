@@ -16,12 +16,12 @@ metadata:
   description: Beheerders kunnen veelgestelde vragen en antwoorden bekijken over gedelegeerde beheertaken in Microsoft 365 microsoft-partners en wederverkopers.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 836e52139ef2e6191bda26d6fdb92da521dff6bd
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: b62c1d53d4b2a482aeb91cea147ed9feaa4027c4
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333970"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52624086"
 title: Veelgestelde vragen over gedelegeerd beheer
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -54,7 +54,7 @@ sections:
   - question: >
       Ik ben een klant, geen wederverkoper. Hoe kan ik gedelegeerde beheerder instellen voor mijn subtenants?
     answer: >
-      Gedelegeerd beheer is alleen beschikbaar voor wederverkopers en partners. Er is echter een voorbeeldscript van PowerShell dat u helpt beleid toe te passen op uw subtenants (bedrijven). Zie Voorbeeldscript voor het toepassen van [EOP-instellingen op meerdere tenants voor meer informatie.](sample-script-for-applying-eop-settings-to-multiple-tenants.md)
+      Gedelegeerd beheer is alleen beschikbaar voor wederverkopers en partners. Er is echter een voorbeeldscript van PowerShell dat u helpt beleid toe te passen op uw subtenants (bedrijven). Zie Voorbeeldscript voor het toepassen van [EOP-instellingen op meerdere tenants voor meer informatie.](/exchange/standalone-eop/sample-script-standalone-eop-settings-to-multiple-tenants)
   - question: >
       Kan ik voorkomen dat mijn subtenantbeheerder mijn beleid wijzigt?
     answer: >

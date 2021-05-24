@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: aad0f00292a1a1182fc4b731e562b2e4c78d97f8
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 7592b92b74173e77e7937151ba88c23163363fde
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259509"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624691"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Aan de slag met instellingen voor insider-risicobeheer
 
@@ -60,7 +60,7 @@ Waarschuwingen worden geactiveerd door beleid wanneer gebruikers activiteiten ui
 Beleidsindicatoren worden gesegmenteerd in de volgende gebieden. U kunt de indicatoren kiezen om de limieten voor indicatorgebeurtenissen voor elk indicatorniveau te activeren en aan te passen bij het maken van een insiderrisicobeleid:
 
 - **Office indicatoren:** dit zijn beleidsindicatoren voor SharePoint sites, Microsoft Teams en e-mailberichten.
-- **Apparaatindicatoren:** dit zijn beleidsindicatoren voor activiteiten, zoals het delen van bestanden via het netwerk of met apparaten. Indicatoren zijn activiteiten Microsoft Office bestanden, .csv bestanden (door komma's gescheiden waarden) en .pdf bestanden (portable document format). Als u **Apparaatindicatoren** selecteert, wordt activiteit alleen verwerkt voor apparaten met Windows 10 build 1809 of hoger en moet u eerst apparaten aan boord van het compliancecentrum. Zie de volgende sectie Apparaatindicatoren en [onboard-apparaten](insider-risk-management-settings.md#OnboardDevices) inschakelen in dit artikel voor meer informatie over het configureren van apparaten voor integratie met insiderrisico's.
+- **Apparaatindicatoren:** dit zijn beleidsindicatoren voor activiteiten, zoals het delen van bestanden via het netwerk of met apparaten. Indicatoren zijn activiteiten met betrekking tot alle bestandstypen, met uitzondering van uitvoerbare (.exe) en dynamische koppelingsbibliotheek (.dll) bestandsactiviteit. Als u **Apparaatindicatoren** selecteert, wordt activiteit alleen verwerkt voor apparaten met Windows 10 build 1809 of hoger en moet u eerst apparaten aan boord van het compliancecentrum. Zie de volgende sectie Apparaatindicatoren en [onboard-apparaten](insider-risk-management-settings.md#OnboardDevices) inschakelen in dit artikel voor meer informatie over het configureren van apparaten voor integratie met insiderrisico's.
 - Indicator voor beveiligingsbeleidsovertreding **(voorbeeld)**: Dit zijn indicatoren van Microsoft Defender voor Eindpunt die betrekking hebben op niet-goedgekeurde of schadelijke softwareinstallatie of het omzeilen van beveiligingsbesturingselementen. Als u waarschuwingen wilt ontvangen in insider risk management, moet u een actieve Defender for Endpoint-licentie en integratie van insiderrisico's hebben ingeschakeld. Zie Geavanceerde functies configureren in Microsoft Defender voor Eindpunt voor meer informatie over het configureren van Defender voor Eindpunt voor integratie met [insiderrisicobeheer.](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center)
 - **Indicatoren voor fysieke toegang (voorbeeld)**: Dit zijn beleidsindicatoren voor fysieke toegang tot gevoelige activa. Poging tot toegang tot een beperkt gebied in uw fysieke systeemlogboeken kan bijvoorbeeld worden gedeeld met beleidsregels voor insiderrisicobeheer. Als u dit type waarschuwingen wilt ontvangen in insider risk management, moet u fysieke activa met prioriteit hebben ingeschakeld in insider risk management en de [physical badging data connector](import-physical-badging-data.md) geconfigureerd. Zie de sectie Fysieke toegang prioriteit [in](#priority-physical-assets-preview) dit artikel voor meer informatie over het configureren van fysieke toegang.
 - **Microsoft Cloud App Security indicatoren (voorbeeld)**: Dit zijn beleidsindicatoren van gedeelde waarschuwingen van Cloud App Security. Automatisch ingeschakelde afwijkingsdetectie in Cloud App Security wordt onmiddellijk gestart met het detecteren en verzamelen van resultaten, met als doel een groot aantal gedragsproblemen tussen uw gebruikers en de machines en apparaten die met uw netwerk zijn verbonden. Als u deze activiteiten wilt opnemen in waarschuwingen voor insiderrisicobeheer, selecteert u een of meer indicatoren in deze sectie. Zie Gedragsanalyse en [anomalydetectie](/cloud-app-security/anomaly-detection-policy)voor meer informatie over Cloud App Security analyse en afwijkingsdetectie.
@@ -253,7 +253,7 @@ De volgende velden en waarden worden geëxporteerd voor waarschuwingen voor insi
 
 De volgende velden en waarden worden geëxporteerd voor waarschuwingen voor insiderrisicobeheer voor het algemene schema [Office 365 Management Activity API](/office/office-365-management-api/office-365-management-activity-api-schema#common-schema).
 
-- UserId
+- UserID
 - Id
 - RecordType
 - CreationTime

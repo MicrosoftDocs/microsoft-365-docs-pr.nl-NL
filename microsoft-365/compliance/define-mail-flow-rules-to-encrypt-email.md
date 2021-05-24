@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren om regels voor e-mailstroom (transportregels) te maken om berichten te versleutelen en te ontsleutelen met Office 365-berichtversleuteling.
-ms.openlocfilehash: 63b1b0ba3b13f5beecd049a8ef81d6355855626f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4dfa019de99a65df7696c1ca58d777bf8a506c37
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "52162287"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623867"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>Regels voor e-mailstroom definiëren om e-mailberichten te versleutelen
 
@@ -116,7 +116,7 @@ U kunt versleuteling verwijderen die toegankelijk is voor uw organisatie. Dit be
 
 7. Selecteer **in Ga als volgt** te werk en selecteer De **berichtbeveiliging** wijzigen \> **Office 365-berichtversleuteling en rechtenbescherming**.
 
-8. Kies **Opslaan**.
+8. Selecteer **Opslaan**.
 
 ## <a name="create-mail-flow-rules-for-office-365-message-encryption-without-the-new-capabilities"></a>E-mailstroomregels maken voor Office 365-berichtversleuteling zonder de nieuwe mogelijkheden
 
@@ -131,5 +131,3 @@ Als u uw organisatie nog niet hebt verplaatst naar de nieuwe OME-mogelijkheden, 
 [Huisstijl toevoegen aan versleutelde berichten](add-your-organization-brand-to-encrypted-messages.md)
 
 [Regels voor e-mailstroom (transportregels) in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
-
-[Regels voor e-mailstroom (transportregels) in Exchange Online Protection](../security/defender-365-security/mail-flow-rules-transport-rules-0.md)

@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 2c29cdb6823e695cb9c96a4f51ef7b1c41642ac9
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ba8f27c90f9c84729a10f461e85b2e1441b49549
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333624"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625399"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Onderwerpen beheren in het onderwerpcentrum in Microsoft Viva-onderwerpen
 
@@ -40,11 +40,21 @@ Kennismanagers helpen bij het begeleiden van gevonden onderwerpen door de versch
 
 - **Voorgesteld:** een onderwerp is geïdentificeerd door AI en heeft voldoende ondersteunende bronnen, verbindingen en eigenschappen. (Deze zijn gemarkeerd als een **voorgesteld onderwerp** in de gebruikersinterface.)
 
-- **Bevestigd:** een onderwerp dat door AI is voorgesteld, wordt gevalideerd. Onderwerpvalidatie moet worden bevestigd door een kennismanager. Als u een onderwerp wilt bevestigen, moet er een netto van twee positieve stemmen zijn ontvangen van gebruikers die hebben gestemd met behulp van het feedbackmechanisme op de onderwerpkaart. Als bijvoorbeeld één gebruiker positief heeft gestemd en één gebruiker negatief heeft gestemd voor een bepaald onderwerp, hebt u nog twee positieve stemmen nodig om het onderwerp te bevestigen.
- 
-- **Gepubliceerd:** Een bevestigd onderwerp dat is samengesteld: er zijn handmatige wijzigingen aangebracht om de kwaliteit te verbeteren.
+- **Bevestigd:** een onderwerp dat is ontdekt door AI en is gevalideerd. Onderwerpvalidatie vindt plaats wanneer een van de volgende:
 
-- **Verwijderd:** een onderwerp wordt geweigerd door een knowledge manager en is niet meer zichtbaar voor kijkers. Een onderwerp kan in elke staat worden verwijderd (voorgesteld, bevestigd of gepubliceerd). Als u een onderwerp wilt verwijderen, moet er een netto van twee negatieve stemmen zijn ontvangen van gebruikers die hebben gestemd met behulp van de feedbackmechanismen op de onderwerpkaart. Als bijvoorbeeld één gebruiker negatief heeft gestemd en één gebruiker positief heeft gestemd voor een bepaald onderwerp, moet u nog twee negatieve stemmen voor het onderwerp verwijderen. Wanneer een gepubliceerd onderwerp wordt verwijderd, moet de pagina met de samengestelde details handmatig worden verwijderd via de paginabibliotheek van het onderwerpcentrum.
+   - Een kennismanager bevestigt een onderwerp. Een knowledge manager [bevestigt een onderwerp](manage-topics.md#confirmed-topics) op de **pagina Onderwerpen** beheren.
+
+   - Meerdere gebruikers bevestigen een onderwerp. Er moet een netto van twee positieve stemmen zijn ontvangen van gebruikers die hebben gestemd met behulp van het feedbackmechanisme op de onderwerpkaart. Als bijvoorbeeld één gebruiker positief heeft gestemd en één gebruiker negatief heeft gestemd voor een bepaald onderwerp, hebt u nog twee positieve stemmen nodig om het onderwerp te bevestigen.
+ 
+- **Gepubliceerd:** een onderwerp dat is samengesteld. Handmatige bewerkingen zijn aangebracht om de kwaliteit te verbeteren, of het is gemaakt door een gebruiker.
+
+- **Verwijderd:** een onderwerp dat is geweigerd en niet meer zichtbaar is voor kijkers. Een onderwerp kan in elke staat worden verwijderd (voorgesteld, bevestigd of gepubliceerd). Onderwerpverwijdering vindt plaats wanneer u:
+
+   - Een knowledge manager verwijdert een onderwerp. Een knowledge manager verwijdert een onderwerp op de **pagina Onderwerpen** beheren.
+
+   - Meerdere gebruikers brengen negatieve stemmen uit met behulp van het feedbackmechanisme op de onderwerpkaart. Als u een onderwerp wilt verwijderen, moet er een netto van twee negatieve stemmen van gebruikers zijn. Als bijvoorbeeld één gebruiker negatief heeft gestemd en één gebruiker positief heeft gestemd voor een bepaald onderwerp, moet u nog twee negatieve stemmen voor het onderwerp verwijderen.
+
+  Wanneer een gepubliceerd onderwerp wordt verwijderd, moet de pagina met de samengestelde details handmatig worden verwijderd via de paginabibliotheek van het onderwerpcentrum.
 
 > [!Note] 
 > Op de **pagina Onderwerpen beheren** kan elke knowledge manager alleen onderwerpen zien waar ze toegang hebben tot de onderliggende bestanden en pagina's die aan het onderwerp zijn gekoppeld. Deze machtigings trimming wordt weergegeven in de lijst met onderwerpen die worden  weergegeven op de tabbladen **Voorgesteld,** **Bevestigd,** Gepubliceerd **en** Verwijderd. Het aantal onderwerpen geeft echter de totale tellingen in de organisatie weer, ongeacht de machtigingen.
@@ -54,15 +64,15 @@ Kennismanagers helpen bij het begeleiden van gevonden onderwerpen door de versch
 Als u onderwerpen in het onderwerpcentrum wilt beheren, moet u het volgende doen:
 - Een licentie voor Viva-onderwerpen hebben.
 
-- De machtiging [**Wie kan onderwerpen beheren.**](./topic-experiences-user-permissions.md) Kennisbeheerders kunnen gebruikers deze machtiging geven in de instellingen voor onderwerpmachtigingen van Viva Topics. 
+- De machtiging [**Wie onderwerpen beheren.**](./topic-experiences-user-permissions.md) Kennisbeheerders kunnen gebruikers deze machtiging geven in de instellingen voor onderwerpmachtigingen van Viva Topics. 
 
-U kunt de pagina  Onderwerpen beheren niet weergeven in het onderwerpcentrum, tenzij u de machtiging **Wie kan onderwerpen** beheren hebt.
+U kunt de pagina  Onderwerpen beheren niet weergeven in het onderwerpcentrum, tenzij u de machtiging **Wie onderwerpen kunt** beheren.
 
 In het onderwerpcentrum kan een kennisbeheerder onderwerpen bekijken die zijn geïdentificeerd op de bronlocaties die u hebt opgegeven en deze kunnen bevestigen of verwijderen. Een knowledge manager kan ook nieuwe onderwerppagina's maken en publiceren als deze niet zijn gevonden in onderwerpdetectie, of bestaande pagina's bewerken als ze moeten worden bijgewerkt.
 
 ## <a name="review-suggested-topics"></a>Voorgestelde onderwerpen bekijken
 
-Op de **pagina Onderwerpen beheren** worden onderwerpen weergegeven die zijn gevonden in de opgegeven SharePoint-bronlocaties op het tabblad Voorgesteld.  Indien nodig kan een kennismanager onbevestigde onderwerpen bekijken en ervoor kiezen om deze te bevestigen of te verwijderen.
+Op de **pagina Onderwerpen** beheren worden onderwerpen weergegeven die zijn gevonden in de opgegeven SharePoint bronlocaties op het tabblad **Voorgesteld.** Indien nodig kan een kennismanager onbevestigde onderwerpen bekijken en ervoor kiezen om deze te bevestigen of te verwijderen.
 
    ![Voorgestelde onderwerpen](../media/knowledge-management/quality-score.png) 
 
@@ -86,7 +96,7 @@ Een voorgesteld onderwerp bekijken:
 
 Aan elk onderwerp dat wordt weergegeven op de pagina **Voorgestelde** onderwerpen is een kwaliteitsscore toegewezen. De kwaliteitsscore is een weerspiegeling van de hoeveelheid informatie die de gemiddelde gebruiker ziet voor de informatie over het onderwerp, rekening houdend met het feit dat elke gebruiker meer of minder informatie kan zien vanwege de machtigingen die ze wel of niet hebben over de informatie in een onderwerp. 
 
-De kwaliteitsscore kan helpen inzicht te geven in de onderwerpen met de meeste informatie en kan handig zijn voor het vinden van onderwerpen die mogelijk handmatig moeten worden bewerkt. Een onderwerp met een lagere kwaliteitsscore kan bijvoorbeeld het resultaat zijn van sommige gebruikers die geen SharePoint-machtigingen hebben voor relevante bestanden of sites die AI in het onderwerp heeft opgenomen. Een inzender kan het onderwerp vervolgens bewerken om de informatie op te nemen (indien van toepassing), die vervolgens kan worden bekeken voor alle gebruikers die het onderwerp kunnen bekijken.
+De kwaliteitsscore kan helpen inzicht te geven in de onderwerpen met de meeste informatie en kan handig zijn voor het vinden van onderwerpen die mogelijk handmatig moeten worden bewerkt. Een onderwerp met een lagere kwaliteitsscore kan bijvoorbeeld het resultaat zijn van sommige gebruikers die geen SharePoint machtigingen hebben voor relevante bestanden of sites die ai in het onderwerp heeft opgenomen. Een inzender kan het onderwerp vervolgens bewerken om de informatie op te nemen (indien van toepassing), die vervolgens kan worden bekeken voor alle gebruikers die het onderwerp kunnen bekijken.
 
 ### <a name="impressions"></a>Weergaven
 
@@ -94,7 +104,7 @@ In **de** kolom Weergaven wordt het aantal keren weergegeven dat een onderwerp i
 
 ## <a name="confirmed-topics"></a>Bevestigd onderwerpen
 
-Op  de pagina Onderwerpen beheren worden onderwerpen die zijn gevonden in uw opgegeven SharePoint-bronlocaties en die zijn bevestigd door een knowledge manager of 'crowdsourced' die door een netto  twee of meer personen is bevestigd (waarbij negatieve gebruikersstemmen worden gebalanceerd tegen positieve gebruikersstemmen) via het feedbackmechanisme voor de kaart, weergegeven op het tabblad Bevestigd. Indien nodig kan een gebruiker met machtigingen voor het beheren van onderwerpen bevestigd onderwerpen bekijken en ervoor kiezen deze te weigeren.
+Op  de pagina Onderwerpen beheren worden onderwerpen die zijn gevonden in de opgegeven SharePoint-bronlocaties en die zijn bevestigd door een knowledge manager of 'crowdsourced' die door een netto twee of  meer personen is bevestigd (waarbij negatieve gebruikersstemmen worden gebalanceerd op positieve gebruikersstemmen) via het feedbackmechanisme voor de kaart, weergegeven op het tabblad Bevestigd. Indien nodig kan een gebruiker met machtigingen voor het beheren van onderwerpen bevestigd onderwerpen bekijken en ervoor kiezen deze te weigeren.
 
 Een bevestigd onderwerp controleren:
 

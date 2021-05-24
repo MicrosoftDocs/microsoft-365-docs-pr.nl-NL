@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Lees hoe u problemen kunt oplossen bij het instellen van een aangepast domein door ervoor te zorgen dat de DNS-records correct zijn ingesteld.
-ms.openlocfilehash: 5959cae02b87cf481fc06edd941a6da284b71736
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 70beb877251c333766a0963316287796eb81d595
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537545"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623963"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd
 
@@ -103,5 +103,6 @@ Als u DNS-problemen hebt opgelost en nog steeds problemen ondervindt, probeer da
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Problemen oplossen: Controlegegevens over geverifieerde domeinwijziging](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
+[Probleem oplossen: Controlegegevens over geverifieerde domeinwijziging](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain) (artikel)\
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)
 

@@ -20,12 +20,12 @@ ms.collection:
 description: Beheerders kunnen meer informatie over de functie Safe bijlagen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ab3fd89c02186dfbdb6c9a3d754a4902d8b945f8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: cc5fabf7b0bb4a649aeb7c4e09155037fc09e9f9
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246378"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625003"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Safe Bijlagen in Microsoft Defender voor Office 365
 
@@ -124,7 +124,7 @@ Er zijn scenario's waarin Dynamische bezorging bijlagen in berichten niet kan ve
 - Verwijderde berichten.
 - De zoekmap voor het postvak van de gebruiker heeft een fouttoestand.
 - Exchange Online organisaties waar Exclaimer is ingeschakeld. Zie [KB4014438](https://support.microsoft.com/help/4014438)om dit probleem op te lossen.
-- [S/MIME)](s-mime-for-message-signing-and-encryption.md) versleutelde berichten.
+- [S/MIME)](/exchange/security-and-compliance/smime-exo/smime-exo) versleutelde berichten.
 - U hebt de actie Dynamische bezorging geconfigureerd in een Safe-bijlagebeleid, maar de geadresseerde biedt geen ondersteuning voor Dynamische bezorging (de geadresseerde is bijvoorbeeld een postvak in een on-premises Exchange organisatie). Safe [Koppelingen in Microsoft Defender](set-up-safe-links-policies.md) voor Office 365 kunnen echter Office bestandsbijlagen met URL's scannen (afhankelijk van hoe de algemene instellingen voor [Safe-koppelingen](configure-global-settings-for-safe-links.md) zijn geconfigureerd).
 
 ## <a name="submitting-files-for-malware-analysis"></a>Bestanden indienen voor malwareanalyse

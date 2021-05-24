@@ -26,22 +26,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Informatie over het verwijderen van bedrijfsgegevens van apparaten die worden beheerd via beveiligingsbeleid en windows 10-apparaten opnieuw instellen op de fabrieksinstellingen.
-ms.openlocfilehash: fdd92e797774a47455d6b4163dfe399bf74d41f3
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Informatie over het verwijderen van bedrijfsgegevens van apparaten die worden beheerd via beveiligingsbeleid en het opnieuw instellen Windows 10 apparaten naar de fabrieksinstellingen.
+ms.openlocfilehash: 0b757172ed337e9b2b68b4fcbdf5b102a8c76710
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580149"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624280"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Beveiligde apparaten beheren met Microsoft 365 Business Premium
 
-Nadat een gebruiker zijn of haar apparaat met uw organisatie heeft verbonden door zich aan te melden met zijn of haar werkaccount op het apparaat of met Office-apps op het apparaat, kunt u het apparaat beveiligen met het beleid dat u hebt ingesteld. Verbonden apparaten worden weergegeven op de **pagina** Apparaten. Als een apparaat verloren gaat of wordt gestolen, kunt u het vanaf deze pagina beheren om bedrijfsgegevens te verwijderen. U kunt windows 10-apparaten ook opnieuw instellen op de fabrieksinstellingen om eventuele aangepaste instellingen te wissen. 
+Nadat een gebruiker zijn of haar apparaat met uw organisatie heeft verbonden door zich aan te melden met zijn of haar werkaccount op het apparaat of met Office-apps op het apparaat, kunt u het apparaat beveiligen met het beleid dat u hebt ingesteld. Verbonden apparaten worden weergegeven op de **pagina** Apparaten. Als een apparaat verloren gaat of wordt gestolen, kunt u het vanaf deze pagina beheren om bedrijfsgegevens te verwijderen. U kunt de Windows 10 ook opnieuw instellen op de fabrieksinstellingen om eventuele aangepaste instellingen uit te wissen. 
 
-Zie deze artikelen voor meer informatie over de taken die u kunt gebruiken om apparaten te beheren: 
+## <a name="related-content"></a>Verwante onderwerpen
   
-[Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md)
-  
-[Fabrieksinstellingen terugzetten voor Windows 10-apparaten](reset-devices-to-factory-settings.md)
-
-[Een beheerd apparaat toevoegen](./app-protection-settings-for-android-and-ios.md)
+[Bedrijfsgegevens van apparaten verwijderen](remove-company-data.md) (artikel)\
+[Apparaten Windows 10 fabrieksinstellingen](reset-devices-to-factory-settings.md) opnieuw instellen (artikel)\
+[Een beheerd apparaat toevoegen](./app-protection-settings-for-android-and-ios.md) (artikel)

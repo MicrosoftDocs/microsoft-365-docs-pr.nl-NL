@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
-description: Meer informatie over het herstellen van verwijderde gebruikersaccounts en alle bijbehorende gegevens.
-ms.openlocfilehash: b7d98c1f49f8252ea9fdda2d863b5b77ac5bea9d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: Binnen 30 dagen na het verwijderen van een gebruikersaccount kunt u het account en alle gegevens herstellen en kan de gebruiker zich aanmelden met hetzelfde account.
+ms.openlocfilehash: 83852136ee22ab3f63d8ada6a5a7290883c392e5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291065"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623819"
 ---
 # <a name="restore-a-user"></a>Een gebruiker herstellen
    
@@ -91,6 +91,8 @@ Hiervoor moet [u beheerdersmachtigingen](about-admin-roles.md) Microsoft 365.
     
 4. Controleer het resultaat en selecteer vervolgens **Sluiten**.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Een gebruiker verwijderen](delete-a-user.md)
+[Een gebruiker verwijderen](delete-a-user.md) (artikel)\
+[Beheerdersrollen toewijzen](assign-admin-roles.md) (video)\
+[Licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md) (artikel)

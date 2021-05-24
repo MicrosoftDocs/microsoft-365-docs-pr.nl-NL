@@ -14,12 +14,12 @@ search.appverid:
 description: Beheerders kunnen meer informatie krijgen over de beschikbare en voorkeursopties voor het blokkeren van binnenkomende berichten in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fa2a5e0c71f14838dc8446431f5ea02a535fb787
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: c844378a19ba7995cbd616f615e8a84994f9bf26
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331452"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624077"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>Geblokkeerde afzenderlijsten maken in EOP
 
@@ -30,11 +30,11 @@ ms.locfileid: "52331452"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, biedt EOP meerdere manieren om e-mail van ongewenste afzenders te blokkeren. Deze opties zijn: Geblokkeerde afzenders van Outlook, lijsten met geblokkeerde afzenders of geblokkeerde domeinlijsten in antispambeleid, Exchange-regels voor e-mailstroom (ook wel transportregels genoemd) en de IP-bloklijst (verbindingsfiltering). U kunt deze opties gezamenlijk zien als _geblokkeerde afzenderlijsten._
+In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, biedt EOP meerdere manieren om e-mail van ongewenste afzenders te blokkeren. Deze opties zijn Outlook Geblokkeerde afzenders, geblokkeerde afzenderlijsten of geblokkeerde domeinlijsten in antispambeleid, Exchange regels voor e-mailstroom (ook wel transportregels genoemd) en de IP-blokkeringslijst (verbindingsfiltering). U kunt deze opties gezamenlijk zien als _geblokkeerde afzenderlijsten._
 
-De beste methode om afzenders te blokkeren, is afhankelijk van het effectbereik. Voor één gebruiker kan outlook geblokkeerde afzenders de juiste oplossing zijn. Voor veel gebruikers is een van de andere opties geschikter. De volgende opties worden gerangschikt op impactbereik en breedte. De lijst gaat van smal naar breed, maar *leest de details voor* volledige aanbevelingen.
+De beste methode om afzenders te blokkeren, is afhankelijk van het effectbereik. Voor één gebruiker kan de juiste oplossing worden Outlook Geblokkeerde afzenders. Voor veel gebruikers is een van de andere opties geschikter. De volgende opties worden gerangschikt op impactbereik en breedte. De lijst gaat van smal naar breed, maar *leest de details voor* volledige aanbevelingen.
 
-1. Geblokkeerde afzenders in Outlook (de lijst Geblokkeerde afzenders die in elk postvak is opgeslagen)
+1. Outlook Geblokkeerde afzenders (de lijst geblokkeerde afzenders die in elk postvak is opgeslagen)
 
 2. Lijsten met geblokkeerde afzenders of geblokkeerde domeinlijsten (antispambeleid)
 
@@ -57,11 +57,11 @@ Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en beri
 
 Vaak zijn de `5321.MailFrom` adressen en adressen hetzelfde `5322.From` (communicatie tussen personen). Wanneer e-mail echter namens iemand anders wordt verzonden, kunnen de adressen anders zijn.
 
-Lijsten met geblokkeerde afzenders en geblokkeerde domeinlijsten in antispambeleid in EOP controleren zowel de adressen `5321.MailFrom` als de `5322.From` adressen. In Outlook Blocked Senders wordt alleen het adres `5322.From` gebruikt.
+Lijsten met geblokkeerde afzenders en geblokkeerde domeinlijsten in antispambeleid in EOP controleren zowel de adressen `5321.MailFrom` als de `5322.From` adressen. Outlook Geblokkeerde afzenders gebruiken alleen het `5322.From` adres.
 
-## <a name="use-outlook-blocked-senders"></a>Geblokkeerde afzenders van Outlook gebruiken
+## <a name="use-outlook-blocked-senders"></a>Geblokkeerde Outlook gebruiken
 
-Wanneer slechts een klein aantal gebruikers ongewenste e-mail heeft ontvangen, kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst Geblokkeerde afzenders in het postvak. Zie Instellingen voor ongewenste [e-mail configureren in Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md)voor instructies.
+Wanneer slechts een klein aantal gebruikers ongewenste e-mail heeft ontvangen, kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst Geblokkeerde afzenders in het postvak. Zie Instellingen voor ongewenste [e-mail configureren op Exchange Online postvakken voor instructies.](configure-junk-email-settings-on-exo-mailboxes.md)
 
 Wanneer berichten zijn geblokkeerd vanwege de lijst Geblokkeerde afzenders van een gebruiker, bevat het **veld X-Forefront-Antispam-Report** de waarde `SFV:BLK` .
 
@@ -78,7 +78,7 @@ De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen.
 
 Als u berichten wilt blokkeren die naar specifieke gebruikers of in de hele organisatie worden verzonden, kunt u e-mailstroomregels gebruiken. E-mailstroomregels zijn flexibeler dan lijsten met afzenders of geblokkeerde afzenderdomeinlijsten, omdat ze ook kunnen zoeken naar trefwoorden of andere eigenschappen in de ongewenste berichten.
 
-Ongeacht de voorwaarden of uitzonderingen die u gebruikt om de berichten te identificeren, configureert u de actie om het betrouwbaarheidsniveau voor spam (SCL) van het bericht in te stellen op 9, waarmee het bericht wordt gemarkeerd als spam met hoog **vertrouwen.** Zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen voor meer informatie.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
+Ongeacht de voorwaarden of uitzonderingen die u gebruikt om de berichten te identificeren, configureert u de actie om het betrouwbaarheidsniveau voor spam (SCL) van het bericht in te stellen op 9, waarmee het bericht wordt gemarkeerd als spam met hoog **vertrouwen.** Zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen voor meer informatie.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)
 
 > [!IMPORTANT]
 > Het is eenvoudig om regels  te maken die te agressief zijn, dus het is belangrijk dat u alleen de berichten identificeert die u wilt blokkeren met behulp van zeer specifieke criteria. Zorg er ook voor dat u controle op de regel inschakelen en de resultaten van de regel test om ervoor te zorgen dat alles werkt zoals verwacht.

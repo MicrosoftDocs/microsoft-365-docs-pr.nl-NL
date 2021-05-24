@@ -19,12 +19,12 @@ ms.collection:
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Defender voor Office 365 beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbeveiliging? Wat moet u gebruiken als u strikter wilt zijn? En welke extra's krijgt u als u Ook Defender gebruikt voor Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a2f65db0934c585210827299d46737040df8efb
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 04668932747462d2636b466d87c2655d97569657
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537893"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624071"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging
 
@@ -155,7 +155,7 @@ Zie Spoof-instellingen voor [meer informatie over deze instellingen.](set-up-ant
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Bescherming tegen spoofing inschakelen** <p> _EnableSpoofIntelligence_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
-|**Unauthenticated Sender inschakelen** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Hiermee wordt een vraagteken (?) toegevoegd aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie Spoofinstellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md)voor meer informatie.|
+|**Unauthenticated Sender inschakelen** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Hiermee wordt een vraagteken (?) toegevoegd aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Instellingen voor adresvervalsing in anti-phishingbeleid](set-up-anti-phishing-policies.md) voor meer informatie.|
 |**Als e-mail wordt verzonden door iemand die uw domein niet mag vervalsen** <p> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|Deze instelling is van toepassing op vervalste afzenders die automatisch zijn geblokkeerd, zoals wordt weergegeven in het inzicht in spoof [intelligence](learn-about-spoof-intelligence.md) of handmatig is geblokkeerd in de [lijst Tenant Allow/Block](tenant-allow-block-list.md).|
 |
 
@@ -213,7 +213,7 @@ Houd er rekening mee dat dit dezelfde instellingen zijn die beschikbaar zijn in 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|---|---|---|---|
 |**Bescherming tegen spoofing inschakelen** <p> _EnableSpoofIntelligence_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
-|**Unauthenticated Sender inschakelen** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Hiermee wordt een vraagteken (?) toegevoegd aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie Spoofinstellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md)voor meer informatie.|
+|**Unauthenticated Sender inschakelen** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Hiermee wordt een vraagteken (?) toegevoegd aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Instellingen voor adresvervalsing in anti-phishingbeleid](set-up-anti-phishing-policies.md) voor meer informatie.|
 |**Als e-mail wordt verzonden door iemand die uw domein niet mag vervalsen** <p> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|Deze instelling is van toepassing op vervalste afzenders die automatisch zijn geblokkeerd, zoals wordt weergegeven in het inzicht in spoof [intelligence](learn-about-spoof-intelligence.md) of handmatig is geblokkeerd in de [lijst Tenant Allow/Block](tenant-allow-block-list.md).|
 |
 
@@ -322,6 +322,6 @@ In PowerShell gebruikt u de [cmdlets New-SafeAttachmentPolicy](/powershell/modul
 
 - Beheerders en gebruikers kunnen fout-positieven (goede e-mail die als slecht is gemarkeerd) en onwaar negatieven (slechte e-mail toegestaan) bij Microsoft indienen voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-- Gebruik deze koppelingen voor informatie over het instellen **van** uw [EOP-service](set-up-your-eop-service.md)en **het** configureren van [Microsoft Defender voor Office 365.](defender-for-office-365.md) Vergeet niet de nuttige aanwijzingen in 'Beschermen[tegen bedreigingen in](protect-against-threats.md)Office 365'.
+- Gebruik deze koppelingen voor informatie over het instellen **van** uw [EOP-service](/exchange/standalone-eop/set-up-your-eop-service)en **het** configureren van [Microsoft Defender voor Office 365.](defender-for-office-365.md) Vergeet niet de nuttige aanwijzingen in 'Beschermen[tegen bedreigingen in](protect-against-threats.md)Office 365'.
 
 - **Beveiligingslijnlijnen** voor Windows vindt u hier: Waar vind ik de beveiligingslijnlijnen? voor opties voor GPO/on-premises en Gebruik beveiligingslijnlijnen om Windows 10-apparaten te configureren [in Intune](/intune/protect/security-baselines) voor op Intune gebaseerde beveiliging. [](/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) Ten slotte is er een vergelijking beschikbaar tussen microsoft Defender voor eindpunten en Microsoft Intune-beveiligingslijnlijnen in Microsoft Defender voor eindpunt vergelijken met de [Windows Intune-beveiligingslijnlijnen.](/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)

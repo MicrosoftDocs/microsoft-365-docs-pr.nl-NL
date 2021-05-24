@@ -19,14 +19,14 @@ ms.custom:
 - manage_licenses
 - commerce_licensing
 search.appverid: MET150
-description: Meer informatie over het verwijderen van licenties van gebruikersaccounts.
+description: De methode die u gebruikt om productlicenties te ontlenen, is afhankelijk van of u licenties van specifieke gebruikers of van een bepaald product opteert.
 ms.date: 07/01/2020
-ms.openlocfilehash: 4ff6a0e5554117cd1fc2d818c04edabc9e33b2a1
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f7624432590a5731b57c45c25e7e7dc458a5b8f5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582906"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623587"
 ---
 # <a name="unassign-licenses-from-users"></a>Licenties van gebruikers verwijderen
 
@@ -134,7 +134,7 @@ Wanneer u de pagina **Actieve gebruikers gebruikt** om licenties niet toe te sta
 
 Als u de ongebruikte licenties niet opnieuw wilt toewijzen aan [](../../commerce/licenses/buy-licenses.md) andere [gebruikers,](../../managed-desktop/get-started/assign-licenses.md)kunt u overwegen om de licenties uit uw abonnement te verwijderen, zodat u niet meer licenties betaalt dan u nodig hebt.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Licenties verwijderen uit uw abonnement](../../commerce/licenses/buy-licenses.md) (artikel)\
 [Licenties toewijzen aan gebruikers](assign-licenses-to-users.md) (artikel)\

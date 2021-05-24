@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a3711018034bcabdde10c21b3c968c3e813d0565
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6f2b9a1365a27bb7397aea51dcd5bc9e2631afe2
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245253"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624703"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor eindpunt implementeren in iOS
 
@@ -35,13 +35,13 @@ ms.locfileid: "52245253"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt implementeert op iOS op Intune-bedrijfsportal geregistreerde apparaten. Zie [IOS/iPadOS-apparaten registreren in Intune](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll)voor meer informatie over intune-apparaatinschrijvingen.
+In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt implementeert op iOS op Intune-bedrijfsportal geregistreerde apparaten. Zie [IOS/iPadOS-apparaten registreren in Intune](/mem/intune/enrollment/ios-enroll)voor meer informatie over intune-apparaatinschrijvingen.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
 - Zorg ervoor dat u toegang hebt tot [het Beheercentrum voor Microsoft Endpoint Manager.](https://go.microsoft.com/fwlink/?linkid=2109431)
 
-- Zorg ervoor dat iOS-registratie is gedaan voor uw gebruikers. Gebruikers moeten een Defender voor Eindpunt-licentie hebben toegewezen om Defender voor Eindpunt in iOS te kunnen gebruiken. Raadpleeg [Licenties toewijzen aan gebruikers voor](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) instructies over het toewijzen van licenties.
+- Zorg ervoor dat iOS-registratie is gedaan voor uw gebruikers. Gebruikers moeten een Defender voor Eindpunt-licentie hebben toegewezen om Defender voor Eindpunt in iOS te kunnen gebruiken. Raadpleeg [Licenties toewijzen aan gebruikers voor](/azure/active-directory/users-groups-roles/licensing-groups-assign) instructies over het toewijzen van licenties.
 
 > [!NOTE]
 > Microsoft Defender voor Eindpunt op iOS is nu beschikbaar in de [Apple App Store.](https://aka.ms/mdatpiosappstore)
@@ -83,7 +83,7 @@ Deploy Defender for Endpoint on iOS via Intune-bedrijfsportal.
 
 Beheerders kunnen de automatische installatie van VPN-profiel configureren. Hiermee wordt het VPN-profiel van Defender voor Eindpunt automatisch ingesteld zonder dat de gebruiker dit hoeft te doen tijdens onboarding. Houd er rekening mee dat VPN wordt gebruikt om de functie Webbeveiliging te bieden. Dit is geen gewone VPN en is een lokale/self-looping VPN die geen verkeer buiten het apparaat neemt.
 
-1. Ga [in het Microsoft Endpoint Manager-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2109431)naar   ->  **Apparatenconfiguratieprofielen**  ->  **Maak**  ->  **iOS Store-app** en klik op **Selecteren.**
+1. Ga [in het Microsoft Endpoint Manager-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2109431)naar Profiel maken van   ->    ->  **apparatenconfiguratieprofielen.**
 1. Kies **Platform** als **iOS/iPadOS** en **Profieltype** als **VPN.** Klik op **Maken**.
 1. Typ een naam voor het profiel en klik op **Volgende.**
 1. Selecteer **Aangepaste VPN** voor verbindingstype en voer in de sectie Base **VPN** het volgende in:
@@ -148,7 +148,7 @@ Met Intune kunt u de Defender voor iOS-app configureren via een beleid voor app-
 
 1. Klik **op Volgende** om de pagina **Bereiklabels te** openen. Bereiklabels zijn optioneel. Klik **op Volgende om** door te gaan.
 
-1. Selecteer op **de pagina** Opdrachten de groepen die dit profiel ontvangen. Voor dit scenario is het de beste manier om alle apparaten **te targeten.** Zie Gebruikers- en apparaatprofielen toewijzen voor meer informatie over het toewijzen [van profielen.](https://docs.microsoft.com/mem/intune/configuration/device-profile-assign)
+1. Selecteer op **de pagina** Opdrachten de groepen die dit profiel ontvangen. Voor dit scenario is het de beste manier om alle apparaten **te targeten.** Zie Gebruikers- en apparaatprofielen toewijzen voor meer informatie over het toewijzen [van profielen.](/mem/intune/configuration/device-profile-assign)
 
    Bij het implementeren naar gebruikersgroepen moet een gebruiker zich aanmelden bij een apparaat voordat het beleid van toepassing is.
 

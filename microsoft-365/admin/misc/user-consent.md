@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
-description: Meer informatie over toestemming van gebruikers voor apps en hoe u deze in kunt stellen om apps van derden toegang te geven tot microsoft 365-informatie van gebruikers.
-ms.openlocfilehash: 1f6f08161d6dd85964f07ec4d48f9f2cc23a1ead
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Meer informatie over toestemming van gebruikers voor apps en hoe u deze in kunt stellen om apps van derden toegang te geven tot de Microsoft 365 gebruikersgegevens.
+ms.openlocfilehash: b8f65b50e50b0e0b4d978388463bbd380ca60d4e
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914556"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624499"
 ---
 # <a name="managing-user-consent-to-apps-in-microsoft-365"></a>Gebruikers toestemming voor apps beheren in Microsoft 365
 
-Met deze instelling bepaalt u of gebruikers die toestemming kunnen geven voor apps die OpenID Connect en OAuth 2.0 gebruiken voor aanmelding en verzoeken om toegang tot gegevens. Een app kan worden gemaakt vanuit uw eigen organisatie, of deze kan afkomstig zijn van een andere Office 365-organisatie of een externe organisatie.
+Met deze instelling bepaalt u of gebruikers die toestemming kunnen geven voor apps die OpenID-Verbinding maken en OAuth 2.0 gebruiken voor aanmelding en aanvragen voor toegang tot gegevens. Een app kan worden gemaakt vanuit uw eigen organisatie, of deze kan afkomstig zijn van een andere Office 365 of een externe organisatie.
 
 Als u deze instelling int, vragen deze apps gebruikers om toestemming voor toegang tot de gegevens van uw organisatie en kunnen gebruikers kiezen of ze deze mogen toestaan. Als u deze instelling uit schakelen, moeten beheerders toestemming geven voor deze apps voordat gebruikers deze kunnen gebruiken. In dit geval kunt u overwegen een toestemmingswerkstroom voor beheerders in te stellen in de Azure-portal, zodat gebruikers een aanvraag voor goedkeuring van beheerders kunnen verzenden om een geblokkeerde app te gebruiken.
 
@@ -40,13 +40,12 @@ Een gebruiker kan alleen toegang geven voor apps waarvan ze de eigenaar zijn en 
 
 U kunt als eerste de toestemming van gebruikers voor apps in- of uitschakelen.
 
-1. Ga in het beheercentrum naar de pagina **Instellingen** \> **organisatie-instellingen**  >  [Services](https://go.microsoft.com/fwlink/p/?linkid=2053743) en selecteer **vervolgens Gebruikers toestemming voor apps.**
+1. Ga in het beheercentrum naar de **pagina Instellingen** Instellingen \> **voor Organisaties**  >  [Services](https://go.microsoft.com/fwlink/p/?linkid=2053743) en selecteer vervolgens Gebruikers **toestemming voor apps.**
 
 2. Selecteer op **de pagina Gebruikers toestemming voor apps** de optie om toestemming van gebruikers in of uit te schakelen.
 
-## <a name="more-info"></a>Meer informatie
+## <a name="related-content"></a>Verwante onderwerpen 
 <a name="__toc379982114"> </a>
 
-Lees De toestemmingswerkstroom voor beheerders [configureren](/azure/active-directory/manage-apps/configure-admin-consent-workflow)voor meer informatie over het configureren van uw toestemmingsinstellingen in Azure Active Directory.
-
-Lees Toestemming voor toepassingen beheren en toestemmingsaanvragen evalueren voor meer informatie over het beheren van toestemming van gebruikers [voor](/azure/active-directory/manage-apps/manage-consent-requests)apps.
+[De werkstroom voor beheerdersmachtiging](/azure/active-directory/manage-apps/configure-admin-consent-workflow) configureren (artikel)\
+[Toestemming voor toepassingen beheren en toestemmingsaanvragen evalueren](/azure/active-directory/manage-apps/manage-consent-requests) (artikel)

@@ -20,32 +20,32 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze Attack Simulator kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 637e84281b85e8c859207ae81342a3c6ab3d00be
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 73ad3501ed9818261c9fbec6ba12b4dc884da84f
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204213"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624823"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Attack Simulator in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Van toepassing op** [Microsoft Defender voor Office 365-abonnement 2](defender-for-office-365.md)
+**Van toepassing op** [Microsoft Defender voor Office 365 abonnement 2](defender-for-office-365.md)
 
-Als uw organisatie Microsoft Defender voor Office 365 Plan 2 heeft, met mogelijkheden voor bedreigingsonderzoek en [antwoord,](office-365-ti.md)kunt u Attack Simulator gebruiken in het Beveiligings- & Compliancecentrum om realistische aanvalsscenario's in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen bij het identificeren en vinden van kwetsbare gebruikers voordat een echte aanval van invloed is op uw bottom line. Lees dit artikel voor meer informatie.
+Als uw organisatie Beschikt over Microsoft Defender voor Office 365 Plan 2, dat mogelijkheden voor bedreigingsonderzoek en antwoord [bevat,](office-365-ti.md)kunt u Attack Simulator gebruiken in het Beveiligings- & Compliancecentrum om realistische aanvalsscenario's in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen bij het identificeren en vinden van kwetsbare gebruikers voordat een echte aanval van invloed is op uw bottom line. Lees dit artikel voor meer informatie.
 
 > [!NOTE]
 >
-> Attack Simulator, zoals beschreven in dit artikel, is nu alleen-lezen en is vervangen door **attack-simulatietraining** in het e-mail-&-samenwerkings knooppunt in het [Microsoft 365-beveiligingscentrum.](https://security.microsoft.com)  Zie Aan de slag [met de trainingstraining Aanvalssimulatie voor meer informatie.](attack-simulation-training-get-started.md)
+> Attack Simulator zoals beschreven in dit artikel is nu alleen-lezen en is vervangen door **attack-simulatietraining** in het e-mail- **&-samenwerkings** knooppunt in het Microsoft 365 [beveiligingscentrum.](https://security.microsoft.com) Zie Aan de slag [met de trainingstraining Aanvalssimulatie voor meer informatie.](attack-simulation-training-get-started.md)
 >
 > De mogelijkheid om nieuwe simulaties te starten vanuit deze versie van Attack Simulator is uitgeschakeld. Vanaf 24 januari 2021 hebt u echter nog steeds toegang tot rapporten voor maximaal 90 dagen.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Ga naar <https://protection.office.com/> om het Beveiligings- en compliancecentrum te openen. Attack simulator is beschikbaar op **Threat management** \> **Attack simulator**. Ga rechtstreeks naar de aanvalssimulator, open <https://protection.office.com/attacksimulator> .
+- Ga naar <https://protection.office.com/> om het Beveiligings- en compliancecentrum te openen. Attack simulator is beschikbaar op **Threat management** \> **Attack simulator**. Als u direct naar de aanvalssimulator wilt gaan, opent <https://protection.office.com/attacksimulator> u .
 
-- Zie Microsoft [Defender voor Office 365-servicebeschrijving](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van Attack Simulator in verschillende Microsoft 365-abonnementen.
+- Zie Microsoft Defender voor Office 365 servicebeschrijving voor meer informatie over de beschikbaarheid van Attack Simulator Microsoft 365 [verschillende abonnementen.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
 - U moet lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
@@ -55,7 +55,7 @@ Als uw organisatie Microsoft Defender voor Office 365 Plan 2 heeft, met mogelijk
 
 - Phishingcampagnes verzamelen en verwerken gebeurtenissen voor 30 dagen. Historische campagnegegevens zijn beschikbaar tot 90 dagen nadat u de campagne hebt gestart.
 
-- Aanvalssimulatie en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365-services. Zie Microsoft [365-gegevenslocaties](../../enterprise/o365-data-locations.md)voor meer informatie.
+- Aanvalssimulatie en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365 services. Zie voor meer informatie [Microsoft 365 gegevenslocaties.](../../enterprise/o365-data-locations.md)
 
 - Er zijn geen bijbehorende PowerShell-cmdlets voor Attack Simulator.
 
@@ -73,7 +73,7 @@ In Attack Simulator zijn twee verschillende typen phishingcampagnes beschikbaar:
 
   - Een aangepaste pagina (URL) die u opgeeft.
 
-- **Phishing van de speer (bijlage)**: De aanval probeert de geadresseerden te overtuigen om een .docx- of .pdf-bijlage in het bericht te openen. De bijlage bevat dezelfde inhoud van de standaardkoppeling phishing, maar de eerste zin begint met " , u ziet dit bericht als een recent e-mailbericht \<Display Name\> dat u hebt geopend...".
+- **Phishing via e-mail (bijlage)**: De aanval probeert de geadresseerden ervan te overtuigen om een bijlage .docx of .pdf in het bericht te openen. De bijlage bevat dezelfde inhoud van de standaardkoppeling phishing, maar de eerste zin begint met " , u ziet dit bericht als een recent e-mailbericht \<Display Name\> dat u hebt geopend...".
 
 > [!NOTE]
 > Momenteel verlopen phishingcampagnes in Attack Simulator niet.
@@ -170,7 +170,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
 4. Ga in **de stap Doel geadresseerden** op een van de volgende stappen te werk:
 
-   - Klik **op Adresboek** om de geadresseerden (gebruikers of groepen) voor de campagne te selecteren. Elke geadresseerde moet een Exchange Online-postvak hebben. Als u op **Filteren en** **Toepassen klikt** zonder een zoekcriteria in te voeren, worden alle geadresseerden geretourneerd en toegevoegd aan de campagne.
+   - Klik **op Adresboek** om de geadresseerden (gebruikers of groepen) voor de campagne te selecteren. Elke geadresseerde moet een postvak Exchange Online hebben. Als u op **Filteren en** **Toepassen klikt** zonder een zoekcriteria in te voeren, worden alle geadresseerden geretourneerd en toegevoegd aan de campagne.
 
    - Klik **op Importeren** en vervolgens **bestand** importeren om een door komma's gescheiden waarde (CSV) of een door regel gescheiden bestand met e-mailadressen te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
 
@@ -207,9 +207,9 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
      >
      > - U moet een URL selecteren. Voor **phishingcampagnes (bijlage)** kunt u de koppeling in de volgende stap uit de hoofdbeslag van het bericht verwijderen (anders bevat het bericht zowel een **koppeling** als een bijlage).
 
-   - **Type bijlage:** deze instelling is alleen beschikbaar in **campagnes met Phishing-e-mail (Bijlage).** Klik op de vervolgkeuzekeuze en selecteer **. DOCX** of **. PDF** uit de lijst.
+   - **Type bijlage:** deze instelling is alleen beschikbaar in **campagnes met Phishing-e-mail (Bijlage).** Klik op de vervolgkeuzelijst en selecteer **.DOCX** of **.PDF** in de lijst.
 
-   - **Naam van bijlage:** deze instelling is alleen beschikbaar in **Campagnes voor Phishing van de e-mail (Bijlage).** Voer een bestandsnaam in voor de .docx- of PDF-bijlage.
+   - **Naam van bijlage:** deze instelling is alleen beschikbaar in **Campagnes voor Phishing van de e-mail (Bijlage).** Voer een bestandsnaam in voor de .docx of .pdf bijlage.
 
    - **Aangepaste landingspagina-URL:** Voer een optionele landingspagina in waarin gebruikers worden meegenomen als ze op de phishingkoppeling klikken en hun referenties invoeren. Deze koppeling vervangt de standaard landingspagina. Als u bijvoorbeeld training voor interne bewustmaking hebt, kunt u deze URL hier opgeven.
 
@@ -265,7 +265,7 @@ In Attack Simulator zijn er twee verschillende typen wachtwoord aanvalscampagnes
 
 4. Ga in **de stap Doelgebruikers** op een van de volgende stappen te werk:
 
-   - Klik **op Adresboek** om de geadresseerden (gebruikers of groepen) voor de campagne te selecteren. Elke geadresseerde moet een Exchange Online-postvak hebben. Als u op **Filteren en** **Toepassen klikt** zonder een zoekcriteria in te voeren, worden alle geadresseerden geretourneerd en toegevoegd aan de campagne.
+   - Klik **op Adresboek** om de geadresseerden (gebruikers of groepen) voor de campagne te selecteren. Elke geadresseerde moet een postvak Exchange Online hebben. Als u op **Filteren en** **Toepassen klikt** zonder een zoekcriteria in te voeren, worden alle geadresseerden geretourneerd en toegevoegd aan de campagne.
 
    - Klik **op Importeren** en vervolgens **bestand** importeren om een door komma's gescheiden waarde (CSV) of een door regel gescheiden bestand met e-mailadressen te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
 
@@ -277,7 +277,7 @@ In Attack Simulator zijn er twee verschillende typen wachtwoord aanvalscampagnes
 
      - **Wachtwoorden handmatig invoeren:** Typ in het vak Druk op **Enter** om een wachtwoord toe te voegen een wachtwoord en druk vervolgens op Enter. Herhaal deze stap zo vaak als nodig is.
 
-     - **Wachtwoorden uploaden uit een woordenlijstbestand:** Klik op **Uploaden** om een bestaand tekstbestand te importeren dat één wachtwoord op elke regel en een lege laatste regel bevat. Het tekstbestand moet 10 MB of kleiner zijn en mag niet meer dan 30000 wachtwoorden bevatten.
+     - **Upload wachtwoorden uit** een woordenlijstbestand: Klik **op** Upload om een bestaand tekstbestand te importeren dat één wachtwoord op elke regel en een lege laatste regel bevat. Het tekstbestand moet 10 MB of kleiner zijn en mag niet meer dan 30000 wachtwoorden bevatten.
 
    - **Wachtwoordinfarct**: Voer in **Het wachtwoord(en)** dat u wilt gebruiken in het aanvalsvak één wachtwoord in.
 
@@ -335,7 +335,7 @@ De volgende informatie is beschikbaar op de **pagina Details van de aanval** voo
 
   - Het IP-adres van de client.
 
-  - Details over de versie van Windows en de webbrowser van de gebruiker.
+  - Details over de versie van de gebruiker van Windows en webbrowser.
 
   U kunt op **Exporteren klikken** om de resultaten naar een CSV-bestand te exporteren.
 

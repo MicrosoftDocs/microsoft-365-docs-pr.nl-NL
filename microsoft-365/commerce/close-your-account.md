@@ -18,14 +18,14 @@ ms.custom:
 - fwlink 2133922 to Delete subscription heading
 - commerce_subscription
 search.appverid: MET150
-description: Meer informatie over het sluiten van uw account met Microsoft.
+description: Wanneer u uw account met Microsoft sluit, worden alle gegevens over uw account verwijderd, inclusief licenties, gebruikers en gebruikersgegevens.
 ms.date: 04/02/2021
-ms.openlocfilehash: ed73c191063a328490945c54dc2f5101c88f17e8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b212911707b5d6a967ab833a5a06bc76f5ceeb3b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537293"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624323"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
@@ -52,7 +52,7 @@ Als uw organisatie Active Directory gebruikt die wordt gesynchroniseerd met Micr
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Stap 2: Alle actieve abonnementen opzeggen
 
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Zoek op **het** tabblad Producten naar een actief abonnement. Selecteer de drie puntjes (meer acties) en selecteer vervolgens **Abonnement annuleren.**
+2. Zoek op **het** tabblad Producten naar een actief abonnement. Selecteer de drie puntjes (meer acties) en selecteer **Abonnement annuleren**.
 3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback.
 4. Kies **Opslaan**.
 5. Herhaal stap 1 tot en met 4 om alle actieve abonnementen te annuleren.
@@ -88,3 +88,9 @@ U kunt [PowerShell ook gebruiken om meervoudige](/azure/active-directory/authent
 5. Als uw organisatie een of meer controles mislukt, ziet u een koppeling naar meer informatie over het doorgeven van de controles. Nadat u alle controles hebt uitgevoerd, **selecteert u Verwijderen om** het proces te voltooien.
 
 Nadat u deze laatste stap hebt voltooid, wordt uw account bij Microsoft gesloten en verwijderd.
+
+## <a name="related-content"></a>Verwante onderwerpen 
+
+[Uw factuur of factuur voor Microsoft 365 voor bedrijven](./billing-and-payments/understand-your-invoice2.md) (artikel)\
+[Uw abonnement opzeggen](./subscriptions/cancel-your-subscription.md) (artikel)
+

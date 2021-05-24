@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 726af48f61a279ec29ce771b9be97f75cfa74f62
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 4762942ee7340eead0f1e025de7ace61aa00cfca
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296585"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624299"
 ---
 # <a name="contact-support-for-azerbaijan"></a>Neem contact op met de ondersteuning voor Azerbeidzjan
 
@@ -26,9 +26,9 @@ ms.locfileid: "52296585"
 ## <a name="phone-number"></a>Telefoonnummer
 01 24 37 35 55
 
-Optie 9 selecteren
+Druk op 2 voor bedrijven
 
-Code 7706 invoeren
+Druk op 1 voor Microsoft 365
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:

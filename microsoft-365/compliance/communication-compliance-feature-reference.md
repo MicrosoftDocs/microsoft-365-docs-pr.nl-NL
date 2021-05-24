@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3df8fbf20fd00bd584af2fd329949939433a19eb
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 87f5e414a13d966ba2fbb30d84d7d4adae7a1d13
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583482"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624347"
 ---
 # <a name="communication-compliance-feature-reference"></a>Verwijzing naar communicatie-compliancefunctie
 
@@ -141,7 +141,7 @@ Standaard wordt de voorwaarde **Richting is** weergegeven en kan deze niet worde
 - **Uitgaande e-mail:**  detecteert communicatie die is verzonden van gecontroleerde gebruikers naar externe en interne geadresseerden, inclusief andere gecontroleerde gebruikers in het beleid.
 - **Intern:** detecteert communicatie **tussen de** gecontroleerde gebruikers of groepen in het beleid.
 
-### <a name="sensitive-information-types"></a>Gevoelige informatietypen
+### <a name="sensitive-information-types"></a>Typen gevoelige informatie
 
 U hebt de optie om gevoelige informatietypen op te nemen als onderdeel van uw communicatie compliancebeleid. Gevoelige informatietypen zijn vooraf gedefinieerde of aangepaste gegevenstypen die creditcardnummers, bankrekeningnummers, paspoortnummers en meer kunnen identificeren en beveiligen. Als onderdeel van [Meer](dlp-learn-about-dlp.md)informatie over preventie van gegevensverlies kan de configuratie van gevoelige informatie patronen, teken nabijheid, betrouwbaarheidsniveaus en zelfs aangepaste gegevenstypen gebruiken om te helpen bij het identificeren en markeren van inhoud die mogelijk gevoelig is. De standaardgevoelige informatietypen zijn:
 
@@ -187,9 +187,9 @@ De ingebouwde, trainbare en globale classificaties bieden geen volledige lijst m
 
 Zie Aan de slag met trainbare classificaties voor informatie over Microsoft 365 [klassificatoren.](classifier-get-started-with.md)
 
-### <a name="optical-character-recognition-ocr-preview"></a>OcR (Optical Character Recognition) (preview)
+### <a name="optical-character-recognition-ocr"></a>OcR (Optical Character Recognition)
 
-Configureer ingebouwd of aangepast compliancebeleid voor communicatie om afgedrukte of handgeschreven tekst te scannen en te identificeren op basis van afbeeldingen die mogelijk ongepast zijn in uw organisatie. Geïntegreerde Ondersteuning voor Azure Cognitive Services en optisch scannen voor het identificeren van tekst in afbeeldingen helpen analisten en onderzoeker bij het opsporen en uitvoeren van gevallen waarin ongepast gedrag kan worden gemist in communicatie die hoofdzakelijk niet-tekstueel is.
+Configureer ingebouwd of aangepast compliancebeleid voor communicatie om afgedrukte of handgeschreven tekst te scannen en te identificeren op basis van afbeeldingen die mogelijk ongepast zijn in uw organisatie. Geïntegreerde [Ondersteuning voor Azure Cognitive Services](/azure/cognitive-services/computer-vision/overview-ocr) en optisch scannen voor het identificeren van tekst in afbeeldingen helpen analisten en onderzoeker bij het opsporen en uitvoeren van gevallen waarin ongepast gedrag kan worden gemist in communicatie die hoofdzakelijk niet-tekstueel is.
 
 U kunt OCR (Optical Character Recognition) inschakelen in nieuw beleid vanuit sjablonen, aangepast beleid of bestaande beleidsregels bijwerken om de ondersteuning voor het verwerken van ingesloten afbeeldingen en bijlagen uit te breiden. Wanneer dit is ingeschakeld in een beleid dat is gemaakt op basis van een beleidssjabloon, wordt automatisch scannen ondersteund voor ingesloten of bijgevoegde afbeeldingen in e-mail en Microsoft Teams chatberichten. Voor aangepast beleid moeten een of meer voorwaardelijke instellingen die zijn gekoppeld aan trefwoorden, ingebouwde classificaties of gevoelige informatietypen, worden geconfigureerd in het beleid om de selectie van OCR-scannen in te stellen.
 
@@ -477,6 +477,17 @@ Het **dashboard Rapporten** bevat de volgende rapportwidgets en gedetailleerde r
     - Case gemaakt
 
     Gebruik de *optie Exporteren* om een bestand .csv met de rapportdetails te maken.
+
+- **Type gevoelige informatie per locatie** gedetailleerd rapport (voorbeeld): Informatie controleren en exporteren over de detectie van gevoelige informatietypen en de bijbehorende bronnen in communicatie compliancebeleid. Bevat het totale totaal en de specifieke uitsplitsing van exemplaren van het type gevoelige informatie in de bronnen die zijn geconfigureerd in uw organisatie. Voorbeelden zijn:
+
+    - **E-mail:** gevoelige informatietypen die zijn gedetecteerd in Exchange e-mailberichten.
+    - **Teams:** Gevoelige informatietypen die zijn gedetecteerd in Microsoft Teams kanalen en chatberichten.
+    - **Skype voor Bedrijven:** gevoelige informatietypen die zijn gedetecteerd in Skype voor zakelijke communicatie.
+    - **Yammer:** gevoelige informatietypen die zijn gedetecteerd in Yammer postvak IN, berichten, chats en antwoorden.
+    - **Bronnen van derden:** gevoelige informatietypen die zijn gedetecteerd voor activiteiten die zijn gekoppeld aan verbindingslijnen van derden die zijn geconfigureerd in uw organisatie. Als u de uitsplitsing van bronnen van derden voor een specifiek type gevoelige informatie in het rapport wilt bekijken, beweegt u de muisaanwijzer boven de waarde voor het gevoelige informatietype in de bronkolom van derden.
+    - **Overige**: Gevoelige informatietypen die worden gebruikt voor interne systeemverwerking. Het selecteren of deselecteren van deze bron voor het rapport heeft geen invloed op waarden.
+
+    Gebruik de *optie Exporteren* om een bestand .csv met de rapportdetails te maken. De waarden voor elke bron van derden worden weergegeven in afzonderlijke kolommen in het .csv bestand.
 
 ## <a name="audit"></a>Controle
 

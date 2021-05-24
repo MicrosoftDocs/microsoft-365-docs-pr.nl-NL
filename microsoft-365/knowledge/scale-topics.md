@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Meer informatie over best practices voor het beheren van de vele onderwerpen in uw organisatie met Behulp van Viva-onderwerpen.
-ms.openlocfilehash: d5cdae62cdec9193d354e7585364bd842a514a26
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 613c4ed85a62efd22ba104c810420a2d0af015c5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593875"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624835"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>Onderwerpen op schaal beheren in Microsoft Viva-onderwerpen
 
@@ -28,15 +28,16 @@ Eerst een herinnering aan de [vier stadia voor onderwerpen:](manage-topics.md#to
 
 - **Voorgesteld:** een onderwerp is geïdentificeerd door AI en heeft voldoende ondersteunende bronnen, verbindingen en eigenschappen. (Deze zijn gemarkeerd als een **voorgesteld onderwerp** in de gebruikersinterface.)
 
-- **Bevestigd:** een onderwerp dat door AI is voorgesteld, moet worden gevalideerd. Onderwerpvalidatie vindt plaats wanneer een van de volgende:
+- **Bevestigd:** een onderwerp dat is ontdekt door AI en is gevalideerd. Onderwerpvalidatie vindt plaats wanneer een van de volgende:
 
    - Een kennismanager bevestigt een onderwerp. Een knowledge manager [bevestigt een onderwerp](manage-topics.md#confirmed-topics) op de **pagina Onderwerpen** beheren.
 
    - Meerdere gebruikers bevestigen een onderwerp. Er moet een netto van twee positieve stemmen zijn ontvangen van gebruikers die hebben gestemd met behulp van het feedbackmechanisme op de onderwerpkaart. Als bijvoorbeeld één gebruiker positief heeft gestemd en één gebruiker negatief heeft gestemd voor een bepaald onderwerp, hebt u nog twee positieve stemmen nodig om het onderwerp te bevestigen.
  
-- **Gepubliceerd:** een bevestigd onderwerp dat is samengesteld. Handmatige bewerkingen zijn aangebracht om de kwaliteit te verbeteren.
+- **Gepubliceerd:** een onderwerp dat is samengesteld. Handmatige bewerkingen zijn aangebracht om de kwaliteit te verbeteren, of het is gemaakt door een gebruiker.
 
 - **Verwijderd:** een onderwerp dat is geweigerd en niet meer zichtbaar is voor kijkers. Een onderwerp kan in elke staat worden verwijderd (voorgesteld, bevestigd of gepubliceerd). Onderwerpverwijdering vindt plaats wanneer u:
+
    - Een knowledge manager verwijdert een onderwerp. Een knowledge manager verwijdert een onderwerp op de **pagina Onderwerpen** beheren.
 
    - Meerdere gebruikers brengen negatieve stemmen uit met behulp van het feedbackmechanisme op de onderwerpkaart. Als u een onderwerp wilt verwijderen, moet er een netto van twee negatieve stemmen van gebruikers zijn. Als bijvoorbeeld één gebruiker negatief heeft gestemd en één gebruiker positief heeft gestemd voor een bepaald onderwerp, moet u nog twee negatieve stemmen voor het onderwerp verwijderen.

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Informatie over het maken, bewerken of verwijderen van een beveiligingsgroep.
-ms.openlocfilehash: 8f76b5fa803ea43e53e89cf6479eb7572a2857c2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7887a6371287ebef3a91cc1a37f2ed696df1948d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537593"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623999"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365 beheercentrum
 
@@ -99,3 +99,9 @@ Nee, dit is slechts een extra manier waarop u de beveiliging voor uw organisatie
 ## <a name="can-i-send-email-to-a-security-group"></a>Kan ik e-mail verzenden naar een beveiligingsgroep?
 
 Ja. Maar als u groepen wilt gebruiken voor e-mail en samenwerking, raden we u aan in plaats daarvan een Microsoft 365 [maken.](../create-groups/create-groups.md) 
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Een groep maken in het Microsoft 365 beheercentrum](../create-groups/create-groups.md) (artikel)\
+[Uitleg over Microsoft 365 groepen aan uw gebruikers](../create-groups/explain-groups-knowledge-worker.md) (artikel)\
+[Een groep beheren in het Microsoft 365 beheercentrum](../create-groups/manage-groups.md) (artikel)

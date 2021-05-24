@@ -17,12 +17,12 @@ ms.custom: ''
 description: Beheerders kunnen leren hoe ze het beleid voor geavanceerde bezorging in Exchange Online Protection (EOP) kunnen gebruiken om berichten te identificeren die niet moeten worden gefilterd in specifieke ondersteunde scenario's (phishingsimulaties van derden en berichten die worden bezorgd in postvakken van beveiligingsbewerkingen (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8bebc094b56a20a43f92d1acf8d374110de43d71
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 0e4e230fdca7fe29fc1c7a1bc68085454ba883b9
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594119"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624787"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>De bezorging van phishingsimulaties van derden configureren voor gebruikers en ongefilterde berichten in SecOps-postvakken
 
@@ -107,6 +107,6 @@ Naast de twee scenario's waar het geavanceerde bezorgingsbeleid u bij kan helpen
 
 - **Filters van derden:** Als de MX-record  van uw domein niet naar Office 365 (berichten worden eerst ergens anders gerouteerd), is beveiliging standaard niet [](secure-by-default.md) *beschikbaar.*
 
-  Als u microsoft-filtering wilt omzeilen voor berichten die al zijn geëvalueerd door filtering van derden, gebruikt u regels voor e-mailstroom (ook wel transportregels genoemd), zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
+  Als u microsoft-filtering wilt omzeilen voor berichten die al zijn geëvalueerd door filtering van derden, gebruikt u regels voor e-mailstroom (ook wel transportregels genoemd), zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl.md)
 
 - **False positives under review**: U wilt mogelijk bepaalde berichten die nog steeds door Microsoft worden geanalyseerd [via](admin-submission.md) beheerdersinzendingen tijdelijk toestaan om bekende goede berichten te melden die ten onrechte als slecht worden gemarkeerd voor Microsoft (false positives). Net als bij alle overschrijvingen wordt het ten zeerste **_aangeraden_** om deze vergoedingen tijdelijk af te geven.

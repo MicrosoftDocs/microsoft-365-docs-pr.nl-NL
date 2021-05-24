@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
-description: 'Maak snelle koppelingen naar uw e-mail, documenten, apps, SharePoint sites, externe sites en andere bronnen door aangepaste tegels toe te voegen aan het start programma voor apps. '
-ms.openlocfilehash: 598cfeb75fc811c87519c4479fa8fcab450466c3
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Maak snelle koppelingen naar uw e-mail, documenten, apps, SharePoint sites, externe sites en andere bronnen door aangepaste tegels toe te voegen aan het start programma voor apps.
+ms.openlocfilehash: 47f871d66f180225e877a521ef159fc745960507
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327208"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623771"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Aangepaste tegels toevoegen aan het startprogramma voor apps
 
@@ -79,6 +79,12 @@ U kunt aan het startprogramma voor apps uw eigen aangepaste tegels toevoegen die
     
 Als u een aangepaste tegel wilt verwijderen, **selecteert** u in het venster Aangepaste tegels de tegel en **selecteert u Tegel**  >  **verwijderen.** 
   
-## <a name="whats-next"></a>En nu?
+## <a name="next-steps"></a>Volgende stappen
 
 Naast het toevoegen van tegels aan het startbalk voor apps, kunt u ook tegels voor het startvenster voor apps toevoegen aan de navigatiebalk[(meer informatie).](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985) Als u het uiterlijk van uw Microsoft 365 wilt aanpassen aan het merk van uw organisatie, zie Het thema Microsoft 365 [aanpassen.](../setup/customize-your-organization-theme.md)
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Apps vastmaken aan het start- en start-programma](pin-apps-to-app-launcher.md) voor apps van uw gebruikers (artikel)\
+[Upgrade uw Microsoft 365 voor zakelijke gebruikers naar de](../setup/upgrade-users-to-latest-office-client.md) nieuwste Office client (artikel)\
+[Invoegvoegingen beheren in het beheercentrum](../manage/manage-addins-in-the-admin-center.md) (artikel)

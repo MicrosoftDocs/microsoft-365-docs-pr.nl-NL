@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c536987035743f9a640d427375efaedfce21fbb8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 455959c8b11a3cfaf293052d2c23251771ac7456
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296549"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623575"
 ---
 # <a name="contact-support-for-belarus"></a>Neem contact op met de ondersteuning voor Wit-Rusland
 
@@ -26,9 +26,9 @@ ms.locfileid: "52296549"
 ## <a name="phone-number"></a>Telefoonnummer
 8 820 0071 0003
 
-Optie 9 selecteren
+Druk op 2 voor bedrijven
 
-Code 7707 invoeren
+Druk op 1 voor Microsoft 365
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:

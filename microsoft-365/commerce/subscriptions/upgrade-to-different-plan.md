@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Meer informatie over het upgraden naar een ander abonnement.
+description: De eenvoudigste manier om een upgrade uit te voeren is met het tabblad Upgrade in het beheercentrum. Het tabblad Upgrade wordt echter niet altijd ondersteund.
 ms.date: 04/21/2021
-ms.openlocfilehash: 4882ad4296eb05faf0bb549ebf850562a7ebf780
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: da0b0a826087ea7e963dde85f9b4612acf0eaf99
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344612"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624311"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Upgraden naar een ander abonnement
 
@@ -162,7 +162,7 @@ De dag dat de upgrade van uw abonnement is voltooid, wordt de facturering van uw
 
 [Microsoft-ondersteuning bellen](../../business-video/get-help-support.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Abonnementen handmatig wijzigen](change-plans-manually.md) (artikel)\
 [Een back-up maken van gegevens voordat Microsoft 365 abonnementen voor bedrijven](back-up-data-before-switching-plans.md) (artikel)

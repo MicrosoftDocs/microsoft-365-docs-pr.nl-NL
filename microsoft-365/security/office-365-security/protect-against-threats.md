@@ -20,12 +20,12 @@ description: Beheerders kunnen informatie krijgen over bedreigingsbeveiliging in
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3381ce66433f1f4e32f0251c45601e3cb84865b6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 438200f3f8a6a846d49bc397d6a4b0a0a33cad40
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538721"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624619"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -277,7 +277,7 @@ Naast het configureren van beveiliging tegen malware, schadelijke URL's en besta
 
 - Spamacties zijn ingesteld op **Bericht verplaatsen naar map Ongewenste e-mail** in [antispambeleid.](anti-spam-protection.md)
 
-- Gebruikers hebben hun standaardinstellingen voor ongewenste [e-mail behouden](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)en hebben de beveiliging van ongewenste e-mail niet uitgeschakeld.
+- Gebruikers hebben hun standaardinstellingen voor ongewenste [e-mail behouden](configure-junk-email-settings-on-exo-mailboxes.md)en hebben de beveiliging van ongewenste e-mail niet uitgeschakeld.
 
 Zie [Zero-hour Auto Purge - bescherming tegen spam en malware](zero-hour-auto-purge.md)voor meer informatie.
 

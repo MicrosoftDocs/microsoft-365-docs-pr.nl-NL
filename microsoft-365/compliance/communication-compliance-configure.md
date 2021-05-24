@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3e84c3266dd802fb6cab12db0c20773838b4e2a9
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: 60b9577c2a42ef080fa6a734e0207225bf197cab
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52162775"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624267"
 ---
 # <a name="get-started-with-communication-compliance"></a>Aan de slag met communicatiecompliance
 
@@ -202,7 +202,7 @@ Zie voor meer informatie over het configureren Yammer in de autochtone modus:
     - Kies een veld met beperkte voorwaarden, meestal een gevoelige informatietype of trefwoordwoordenlijst die u wilt toepassen op het beleid.
 
     >[!NOTE]
-    >Als u [OCR (Optical Character Recognition)](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) wilt inschakelen om ingesloten of bijgevoegde afbeeldingen in berichten te scannen op afgedrukte of handgeschreven tekst die aan de beleidsvoorwaarden voldoen, selecteert u Beleidsvoorwaarden en percentage aanpassen en selecteert u Afgedrukte of  >   **handgeschreven** tekst uit afbeeldingen extraheren voor evaluatie.
+    >Als u [OCR (Optical Character Recognition)](communication-compliance-feature-reference.md#optical-character-recognition-ocr) wilt inschakelen om ingesloten of bijgevoegde afbeeldingen in berichten te scannen op afgedrukte of handgeschreven tekst die aan de beleidsvoorwaarden voldoen, selecteert u Beleidsvoorwaarden en percentage aanpassen en selecteert u Afgedrukte of  >   **handgeschreven** tekst uit afbeeldingen extraheren voor evaluatie.
 
     Als u ervoor kiest om de wizard Beleid te gebruiken om een aangepast beleid te maken, gaat u als volgende te werk:
 
@@ -222,7 +222,7 @@ Zie voor meer informatie over het configureren Yammer in de autochtone modus:
 
     - Kies of u classificaties wilt inschakelen. Classificaties kunnen ongepaste taal en afbeeldingen detecteren die zijn verzonden of ontvangen in de berichttekst van e-mailberichten of andere typen tekst. U kunt de volgende ingebouwde classificaties kiezen: *Bedreiging,* Godslastering, Gerichte *pesterijen,* Afbeeldingen voor *volwassenen,* Ijzige *afbeeldingen* en *Gory-afbeeldingen.*
 
-    - Schakel [OCR (Optical Character Recognition)](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) in om ingesloten of bijgevoegde afbeeldingen in berichten te scannen op afgedrukte of handgeschreven tekst die aan de beleidsvoorwaarden voldoen. Voor aangepast beleid moeten een of meer voorwaardelijke instellingen die zijn gekoppeld aan tekst, trefwoorden, classificaties of gevoelige informatietypen, zijn geconfigureerd in het beleid om het scannen van optische tekens te kunnen selecteren.
+    - Schakel [OCR (Optical Character Recognition)](communication-compliance-feature-reference.md#optical-character-recognition-ocr) in om ingesloten of bijgevoegde afbeeldingen in berichten te scannen op afgedrukte of handgeschreven tekst die aan de beleidsvoorwaarden voldoen. Voor aangepast beleid moeten een of meer voorwaardelijke instellingen die zijn gekoppeld aan tekst, trefwoorden, classificaties of gevoelige informatietypen, zijn geconfigureerd in het beleid om het scannen van optische tekens te kunnen selecteren.
 
     - Definieer het percentage te controleren communicatie.
 
@@ -246,7 +246,7 @@ U kunt er ook voor kiezen om anonimisatie in te stellen voor weergegeven gebruik
 
 4. Als u anonimisatie wilt inschakelen, selecteert u **Anonieme versies van gebruikersnamen tonen.**
 
-5. Kies **Opslaan**.
+5. Selecteer **Opslaan**.
 
 6. Ga naar het **tabblad Kennisgevingssjablonen** en selecteer **vervolgens Aankondigingssjabloon maken.**
 

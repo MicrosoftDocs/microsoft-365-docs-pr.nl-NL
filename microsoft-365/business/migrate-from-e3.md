@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Meer informatie over het verplaatsen van uw bedrijf Microsoft 365 Business Premium van Office 365 E3.
-ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Als u een Office 365 E3-abonnement hebt maar niet meer dan 300 werknemers hebt, kunt u overstappen op Microsoft 365 Business Premium.
+ms.openlocfilehash: d139d07c946ff3efed3db3a73eb5e1a4ae66c190
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327165"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623600"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium
 
@@ -122,6 +122,15 @@ Microsoft 365 Business Premium heeft een opslaglimiet van 50 GB voor het gebruik
 
 Na de migratie naar Microsoft 365 Business Premium, hebt u Defender voor Office 365. Zie [Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md) voor een overzicht. Zie Het instellen van [Safe Koppelingen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)instellen, Safe [Bijlagen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)instellen en [Anti-phishing instellen in Defender](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)voor Office 365.
 
-### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
+### <a name="sensitivity-labels"></a>Gevoeligheidslabels
 
 Zie Overzicht van gevoeligheidslabels en het maken en beheren van [gevoeligheidslabels](../business-video/create-sensitivity-labels.md) video als u gevoeligheidslabels wilt gebruiken. [](../compliance/sensitivity-labels.md)
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Abonnementen handmatig wijzigen](../commerce/subscriptions/change-plans-manually.md) (artikel)\
+[Upgrade Windows naar Windows 10 Pro](upgrade-to-windows-pro-creators-update.md) (video)\
+[Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md) (artikel)\
+[Instellingen voor toepassingsbeveiliging instellen of bewerken voor Windows 10 apparaten](protection-settings-for-windows-10-devices.md) (artikel)\
+[]
+

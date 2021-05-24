@@ -20,12 +20,12 @@ metadata:
   description: Beheerders kunnen veelgestelde vragen en antwoorden over bescherming tegen spam bekijken in Exchange Online Protection (EOP).
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
-  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+  ms.openlocfilehash: b15e7409c275810a9d5e70d1376a9c3accd07ab9
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/20/2021
-  ms.locfileid: "52583614"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52624907"
 title: Veelgestelde vragen over beveiliging tegen ongewenste e-mail
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -55,7 +55,15 @@ sections:
   questions:
   - question: >
       Wat gebeurt er standaard met een door spam gedetecteerd bericht?
-    answer: "**Voor binnenkomende berichten:** De meeste spam wordt verwijderd via verbindingsfilters, die is gebaseerd op het IP-adres van de bron-e-mailserver. Antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) controleert en classificeert berichten als spam, bulk of phishing. Berichten die zijn geclassificeerd als spam of bulksgewijs worden standaard bezorgd in de map Ongewenste e-mail van de geadresseerde, terwijl berichten die als phishing zijn geclassificeerd, in quarantaine worden geplaatst. U kunt het standaard antispambeleid wijzigen (van toepassing op alle geadresseerden) of u kunt aangepaste antispambeleidsregels maken met striktere instellingen voor specifieke groepen gebruikers (u kunt bijvoorbeeld spam in quarantaine plaatsen die naar leidinggevenden wordt verzonden). Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) en Aanbevolen [antispambeleidsinstellingen configureren voor meer informatie.](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)\n\n> [!IMPORTANT]\n> In hybride implementaties waarin EOP on-premises postvakken beschermt, moet u twee Exchange-regels voor e-mailstroom configureren (ook wel transportregels genoemd) in uw on-premises Exchange-organisatie om de EOP-spamfilterkoppen te detecteren die aan berichten worden toegevoegd. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. \n\n **Voor uitgaande berichten:** Het bericht wordt gerouteerd via de groep met een hoog risico of wordt geretourneerd aan de afzender in een rapport over niet-bezorging (ook wel een NDR- of bouncebericht genoemd). [](high-risk-delivery-pool-for-outbound-messages.md) Zie Besturingselementen voor uitgaande spam voor meer informatie over uitgaande [spambeveiliging.](outbound-spam-controls.md)\n"
+    answer: >
+      **Voor binnenkomende berichten:** De meeste spam wordt verwijderd via verbindingsfilters, die is gebaseerd op het IP-adres van de bron-e-mailserver. Antispambeleid (ook wel spamfilterbeleid of inhoudsfilterbeleid genoemd) controleert en classificeert berichten als spam, bulk of phishing. Berichten die zijn geclassificeerd als spam of bulksgewijs worden standaard bezorgd in de map Ongewenste e-mail van de geadresseerde, terwijl berichten die als phishing zijn geclassificeerd, in quarantaine worden geplaatst. U kunt het standaard antispambeleid wijzigen (van toepassing op alle geadresseerden) of u kunt aangepaste antispambeleidsregels maken met striktere instellingen voor specifieke groepen gebruikers (u kunt bijvoorbeeld spam in quarantaine plaatsen die naar leidinggevenden wordt verzonden). Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) en Aanbevolen [antispambeleidsinstellingen configureren voor meer informatie.](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)
+
+
+      > [!IMPORTANT]
+
+      > In hybride implementaties waarin EOP on-premises Exchange-postvakken beschermt, moet u twee Exchange-regels voor e-mailstroom (ook wel transportregels genoemd) configureren in uw on-premises Exchange-organisatie om de EOP-spamfilterkoppen te detecteren die aan berichten worden toegevoegd. Zie [EOP configureren voor spam](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)in de map Ongewenste e-mail in hybride omgevingen voor meer informatie.
+
+       **Voor uitgaande berichten:** Het bericht wordt gerouteerd via de groep met een hoog risico of wordt geretourneerd aan de afzender in een rapport over niet-bezorging (ook wel een NDR- of bouncebericht genoemd). [](high-risk-delivery-pool-for-outbound-messages.md) Zie Besturingselementen voor uitgaande spam voor meer informatie over uitgaande [spambeveiliging.](outbound-spam-controls.md)
   - question: >
       Wat is een zero-day spamvariant en hoe wordt dit verwerkt door de service?
     answer: >

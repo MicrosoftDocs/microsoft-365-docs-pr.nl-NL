@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a23f27478d01092705a47d49884f200478348182
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 852e87ee76d9692b789ca217720ac3efb08f31a8
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583710"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624607"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor gebruikersinzendingen
 
@@ -39,22 +39,18 @@ In Microsoft 365 organisaties met Exchange Online postvakken kunt u een postvak 
 
 - [De invoeging Phishing melden](enable-the-report-phish-add-in.md)
 
-- [Ingebouwde rapportage in Outlook op internet](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (voorheen bekend als Outlook Web App)
+- [Rapportagehulpprogramma's van derden](#third-party-reporting-tools)
 
-- [Ingebouwde rapportage in Outlook voor iOS en Android](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)
+Als u door de gebruiker gerapporteerde berichten naar een aangepast postvak bezorgt in plaats van rechtstreeks bij Microsoft, kunnen uw beheerders berichten selectief en handmatig rapporteren aan Microsoft met [beheerdersinzending.](admin-submission.md)
 
   > [!NOTE]
   > Als rapportage is uitgeschakeld [in Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)op internet, wordt deze instelling overgenomen door gebruikersinzendingen in te stellen en kunnen gebruikers berichten opnieuw rapporteren in Outlook op internet.
-
-U kunt ook hulpprogramma's voor berichtrapportage van derden configureren om berichten door te sturen naar het postvak dat u opgeeft.
-
-Als u door de gebruiker gerapporteerde berichten naar een aangepast postvak bezorgt in plaats van rechtstreeks bij Microsoft, kunnen uw beheerders berichten selectief en handmatig rapporteren aan Microsoft met [beheerdersinzending.](admin-submission.md)
 
 ## <a name="custom-mailbox-prerequisites"></a>Vereisten voor aangepaste postvakken
 
 Gebruik de volgende artikelen om de vereiste vereisten te configureren, zodat door de gebruiker gerapporteerde berichten naar uw aangepaste postvak gaan:
 
-- Sla spamfilters in het aangepaste postvak over door een exchange mail flow-regel te maken om het betrouwbaarheidsniveau voor spam in te stellen. Zie [De EAC gebruiken om een e-mailstroomregel](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) te maken die de SCL van een bericht in stelt om de SCL in te stellen op **Spamfilters omzeilen.**
+- Sla spamfilters in het aangepaste postvak over door een exchange mail flow-regel te maken om het betrouwbaarheidsniveau voor spam in te stellen. Zie [De EAC gebruiken om een e-mailstroomregel](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) te maken die de SCL van een bericht in stelt om de SCL in te stellen op **Spamfilters omzeilen.**
 
 - Schakel het scannen van bijlagen voor malware in het aangepaste postvak uit. Gebruik Het beleid Safe Bijlagen [instellen in Defender](set-up-safe-attachments-policies.md) voor Office 365 om een Safe-bijlagebeleid  te maken met de instelling Uit voor Safe Bijlagen onbekende **malwarereactie.**
 
@@ -141,9 +137,17 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
 
        Wanneer u klaar bent, klikt u op **Bevestigen.**
 
+## <a name="third-party-reporting-tools"></a>Rapportagehulpprogramma's van derden
+
+U kunt hulpprogramma's voor berichtrapportage van derden configureren om gerapporteerde berichten naar het aangepaste postvak te verzenden. De enige vereiste is dat het oorspronkelijke bericht is opgenomen als een bijlage in het bericht dat naar het aangepaste postvak wordt verzonden (niet alleen het oorspronkelijke bericht doorsturen naar het aangepaste postvak).
+
+De vereisten voor berichtopmaak worden beschreven in de volgende sectie.
+
 ## <a name="message-submission-format"></a>Berichtinzendingsindeling
 
-Berichten die naar aangepaste postvakken worden verzonden, moeten een specifieke e-mailindeling voor inzending volgen. Het onderwerp (enveloptitel) van de inzending moet in deze indeling zijn:
+Als u de oorspronkelijke bijgevoegde berichten correct wilt identificeren, hebben berichten die naar het aangepaste postvak worden verzonden, specifieke opmaak nodig. Als de berichten deze indeling niet gebruiken, worden de oorspronkelijke bijgevoegde berichten altijd geïdentificeerd als phishing-inzendingen.
+
+Voor een correcte identificatie van de oorspronkelijke bijgevoegde berichten moeten berichten die naar het aangepaste postvak worden verzonden, de volgende syntaxis gebruiken voor het onderwerp (enveloptitel):
 
 `SafetyAPIAction|NetworkMessageId|SenderIp|FromAddress|(Message Subject)`
 
@@ -153,7 +157,7 @@ waarbij SafetyAPIAction een van de volgende gehele getallen is:
 - 2: Geen ongewenste e-mail
 - 3: Phishing
 
-In het volgende voorbeeld:
+In dit voorbeeld worden de volgende waarden gebruikt:
 
 - Het bericht wordt gerapporteerd als phishing.
 - De netwerkbericht-id is 49871234-6dc6-43e8-abcd-08d797f20abe.

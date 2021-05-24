@@ -30,14 +30,16 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Ontdek de installatiestappen voor Microsoft 365 Business Premium, waaronder het toevoegen van een domein en gebruikers, het instellen van beveiligingsbeleid en meer.
-ms.openlocfilehash: 37607b483686fc12ac6253ae9f693ec86c073c4e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245039"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624384"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Een Microsoft 365 Business Premium instellen in de installatiewizard
+
+## <a name="watch-overview-of-microsoft-365-setup"></a>Bekijk: Overzicht van Microsoft 365 setup
 
 Bekijk deze video voor een overzicht van Microsoft 365 Business Premium installatie.<br><br>
 
@@ -62,7 +64,7 @@ Wanneer u Microsoft 365 Business Premium, kunt u een domein gebruiken dat u bezi
 4. Voer in de stap **Domein toevoegen** de domeinnaam in die u wilt gebruiken (zoals contoso.com).
 
     > [!IMPORTANT]
-    > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Ga in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
+    > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Go in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
 
     ![Schermafbeelding van de pagina Uw aanmelding aan uw persoonlijke voorkeur personaliseren.](../media/adddomain.png)
 
@@ -85,7 +87,7 @@ Alle gebruikers die u in de wizard toevoegt, krijgen automatisch een licentie Mi
 
 1. Als uw Microsoft 365 Business Premium bestaande gebruikers heeft (bijvoorbeeld als u Azure AD-Verbinding maken gebruikt), krijgt u nu een optie om licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
 
-2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van referenties met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
+2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van inloggegevens met de toegevoegde gebruikers. U kunt de inloggegevens afdrukken, per e-mail versturen of downloaden.
 
 ### <a name="connect-your-domain"></a>Uw domein verbinden
 
@@ -97,7 +99,7 @@ Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinre
 1. Meestal wordt uw registrar automatisch gedetecteerd met de wizard Setup, en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Als dit niet het geval is, [wijzigt u naamservers](../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md)voor het instellen van Microsoft 365 domeinregistrar. 
 
     - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), kiest u **Records toevoegen voor mij**. Accepteer alle standaardinstellingen op de pagina **Uw online services kiezen**, kies **Volgende** en kies **Autoriseren** op de pagina van uw DNS-host.
-    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisprincipes van domeinen](/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
+    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [Basisinformatie over domeinen](/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
 
         ![Pagina Records activeren.](../media/activaterecords.png)
 
@@ -131,6 +133,6 @@ Als u Office op mobiele iOS- of Android-apparaten wilt installeren, zie Mobiele 
 
 U kunt de Office ook afzonderlijk installeren. Zie [installatie Office op een pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) voor instructies.
 
-## <a name="see-also"></a>Zie ook
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](../business-video/index.yml)
+[Microsoft 365 voor zakelijke trainingsvideo's](../business-video/index.yml) (koppelingspagina)
