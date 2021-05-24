@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Informatie over het implementeren van teams met bescherming voor vertrouwelijke gegevens.
-ms.openlocfilehash: a775727882dd71a168f4049d2af6a9feb20f944c
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 0590e63aa0feb5b699eca98c0056604fe09b77f5
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572715"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583650"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Teams met bescherming voor vertrouwelijke gegevens configureren
 
@@ -108,28 +108,18 @@ Telkens wanneer u een nieuw team met het gevoelige label maakt, moet u twee stap
 - Werk de instellingen voor het delen van gasten voor de site in het SharePoint-beheercentrum bij om de standaardkoppeling voor delen bij te werken naar *Specifieke personen*.
 - Werk de instellingen voor het delen van sites op de site zelf bij om te voorkomen dat leden de site delen.
 
-### <a name="site-guest-sharing-settings"></a>Standaardinstellingen voor het delen van een site met een gast
+### <a name="site-default-sharing-link-settings"></a>Standaardinstellingen voor site delen
 
-De instelling voor het delen met gasten die u hebt gekozen toen u het label maakte (die alleen van invloed is op het teamlidmaatschap), moet als volgt overeenkomen met de instellingen voor het delen met gasten voor de bijbehorende SharePoint-site:
+Standaardinstellingen voor site delen bijwerken
 
-|Labelinstelling|Instelling voor een SharePoint-site|
-|:------------|:----------------------|
-|**Laat Office 365-groepseigenaren mensen buiten de organisatie toevoegen aan de groep** geselecteerd|**Nieuwe en bestaande gasten** (standaard voor nieuwe teams)|
-|**Laat Office 365-groepseigenaren mensen buiten de organisatie toevoegen aan de groep** niet geselecteerd|**Alleen personen binnen uw organisatie**|
-
-Site-instellingen bijwerken
 1. Open het [SharePoint-beheercentrum](https://admin.microsoft.com/sharepoint).
 2. Klik onder **Sites** op **Actieve sites**.
 3. Klik op de site die is gekoppeld aan het team.
 4. Klik op het tabblad **Beleid** onder **Extern delen** op **Bewerken**.
-5. Als u de functie delen met gasten hebt toegestaan tijdens het maken van het gevoelige label, moet u ervoor zorgen dat **nieuwe en bestaande gasten** is geselecteerd. Als u delen niet hebt toegestaan toen u het label maakte, kiest u **Alleen mensen in uw organisatie**.
-6. Schakel onder Standaard koppelingstype voor delen het selectievakje **hetzelfde als instelling op organisatieniveau** uit en selecteer **specifieke personen (alleen de personen die door de gebruiker worden opgegeven)**.
-7. Klik op **Opslaan**.
+5. Schakel onder Standaard koppelingstype voor delen het selectievakje **hetzelfde als instelling op organisatieniveau** uit en selecteer **specifieke personen (alleen de personen die door de gebruiker worden opgegeven)**.
+6. Klik op **Opslaan**.
 
-Als u dit wilt scripten als onderdeel van het proces voor het maken van een team, kunt u [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) gebruiken met de volgende parameters:
-
-- `-SharingCapability Disabled` om delen met gasten uit te schakelen (deze is standaard ingeschakeld)
-- `-DefaultSharingLinkType Internal` om de standaard koppeling voor delen te wijzigen in *specifieke personen*
+Als u dit wilt scripten als onderdeel van het proces voor het maken van een team, kunt u [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) gebruiken met de `-DefaultSharingLinkType Direct` parameter om de standaardlink voor delen te wijzigen in *Specifieke personen*.
 
 #### <a name="private-channels"></a>Privékanalen
 

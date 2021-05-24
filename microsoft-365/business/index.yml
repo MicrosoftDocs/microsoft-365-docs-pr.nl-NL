@@ -16,7 +16,7 @@ productDirectory:
   title: Externe werkzaamheden beveiligen met Microsoft 365 Business Premium
   items:
     - title: Volgen
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/sign-up-blue.svg'
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
       summary: De vijf belangrijkste voordelen van Microsoft 365 Business Premium.
       url: 'https://aka.ms/M365BPvideo'
     - title: Download de gratis partner kit

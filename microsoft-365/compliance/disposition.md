@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Controleer en beheer het verwijderen van inhoud, ongeacht of u een verwijderingsbeoordeling of items gemarkeerd als record gebruikt, worden automatisch verwijderd volgens de instellingen die u hebt geconfigureerd.
-ms.openlocfilehash: 3c5d178b4eab267759506dcd86d66fb2bf4d93ee
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 99ab789b99385af9ad2677995606d21ece54705c
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583470"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594071"
 ---
 # <a name="disposition-of-content"></a>Verwijdering van inhoud
 
@@ -30,7 +30,7 @@ ms.locfileid: "52583470"
 Gebruik de pagina **Verwijdering** van **Recordbeheer** in het Microsoft 365-compliancecentrum om verwijderingscontroles te beheren en metagegevens weer te geven van [records](records-management.md#records) die automatisch zijn verwijderd aan het einde van de bewaarperiode.
 
 > [!NOTE]
-> Wordt uitgevoerd in preview: **verwijderingsbeoordeling met meerdere fasen**
+> In preview: **verwijderingsbeoordeling met meerdere fasen**
 > 
 > Een beheerder kan nu maximaal vijf opeenvolgende fasen voor verwijderingsbeoordeling toevoegen aan een bewaarlabel en revisoren kunnen andere gebruikers toevoegen aan de fase voor de verwijderingsbeoordeling. U kunt ook de e-mailmeldingen en herinneringen aanpassen. De volgende secties bevatten meer informatie over de wijzigingen in deze preview.
 >

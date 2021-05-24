@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over meervoudige verificatie in Microsoft 365.
-ms.openlocfilehash: 080251efa7d7d3bda6ad89e95960e43dd38d076d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: MFA (Multi-Factor Authentication) gebruikt zowel een wachtwoord, dat sterk moet zijn, als een extra verificatiemethode.
+ms.openlocfilehash: 84d26d0a9908e51ce734e71961d4643a2df3471b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050664"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623687"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Meervoudige verificatie instellen voor Microsoft 365
 
@@ -127,7 +127,7 @@ Zie dit [overzicht van voorwaardelijke toegang](/azure/active-directory/conditio
 
 ### <a name="azure-ad-identity-protection"></a>Azure AD-identiteitsbescherming
 
-Met Azure AD-identiteitsbescherming kunt u een aanvullend beleid voor voorwaardelijke toegang maken om [MFA te vereisen wanneer het aanmeldingsrisico gemiddeld of hoog is](../../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk).
+Met Azure AD-identiteitsbescherming kunt u een aanvullend beleid voor voorwaardelijke toegang maken om [MFA te vereisen wanneer het aanmeldingsrisico gemiddeld of hoog is](../../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk).
 
 U kunt Azure AD-identiteitsbescherming en beleid voor voorwaardelijke toegang op basis van risico gebruiken met:
 
@@ -174,8 +174,7 @@ In het Microsoft 365-beheercentrum kunt u MFA-instellingen per gebruiker en serv
 
 [MFA instellen voor Microsoft 365](set-up-multi-factor-authentication.md)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Video: Meervoudige verificatie inschakelen](../../business-video/turn-on-mfa.md)
-
-[Video: Meervoudige verificatie inschakelen voor uw telefoon](../../business-video/set-up-mfa.md)
+[Meervoudige verificatie](../../business-video/turn-on-mfa.md) (video)\ inschakelen
+[Video: Meervoudige verificatie inschakelen voor uw telefoon](../../business-video/set-up-mfa.md) (video)

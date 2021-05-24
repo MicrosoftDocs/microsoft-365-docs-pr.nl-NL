@@ -18,13 +18,13 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
-description: Overzicht van Microsoft productiviteitsscore.
-ms.openlocfilehash: 1d5e163e6ec8a394065c09e51879582d101a75bf
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+description: Ontdek hoe Microsoft Productiviteitsscore metingen van ervaringen van mensen en technologie weergeeft en vergelijkt met organisaties van vergelijkbare grootte.
+ms.openlocfilehash: ded8b3ee6cbe6df308a4e7388107ea394debe020
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345236"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593839"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 
@@ -44,35 +44,9 @@ We bieden metrische gegevens, inzichten en aanbevelingen in twee gedeelten:
 
 - **Technologie-ervaringen:** Je organisatie is afhankelijk van betrouwbare en goed functionerende technologie, alsook efficiënt gebruik van Microsoft 365. [Eindpuntanalyse](https://aka.ms/endpointanalytics) helpt je begrijpen hoe de prestatie en gezondheidsproblemen van jouw hardware en software een impact hebben op gebruikersproductiviteit. Microsoft 365-apps health toont aan of apparaten in je organisatie de aanbevolen kanalen gebruiken voor Microsoft 365-apps.
 
+## <a name="before-you-begin"></a>Voordat u begint
+
 Zie [Wat zijn Eindpuntanalyses](/mem/analytics/overview) voor een overzicht en informatie over vereisten. Voor meer informatie over Microsoft 365 netwerkverbindingsinzichten, lees [overzicht netwerkverbinding](../../enterprise/microsoft-365-networking-overview.md).
-  
-
-## <a name="how-the-score-is-calculated"></a>Berekening van de score
-
-Je productiviteitsscore is gebaseerd op de gecombineerde scores van jouw gebruikers- en technologie-ervaringencategorieën. Elke categorie wordt evenredig gemeten, met een totaal van 100 punten. De hoogst mogelijke productiviteitsscore is 800.
-
-### <a name="score-categories"></a>Scorecategorieën 
-
-- Communicatie (100 punten)
-- Vergaderingen (100 punten)
-- Samenwerking aan inhoud (100 punten)
-- Teamwork (100 punten)
-- Mobiliteit (100 punten)
-- Eindpuntanalyses (100 punten)
-- Netwerkverbinding (100 punten)
-- Gezondheid van Microsoft 365-apps (100 punten)
-- **Maximum totaal = 800 punten**
- 
-In elke categorie kwantificeren we de kernindicatoren voor hoe je organisatie Microsoft 365 gebruikt tijdens je digitale transformatie. We bieden een 28-dagen- en 180-dagenweergave voor de kernactiviteiten. We bieden ook ondersteunende metrische gegevens die geen deel uitmaken van de scoreberekening, maar wel belangrijk zijn voor het identificeren gebruikersstatistieken en configuraties die je kan bespreken.
-
-### <a name="products-included-in-productivity-score"></a>Producten die deel uitmaken van de productiviteitsscore 
-
-De productiviteitsscore bevat gegevens van Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer en Skype.
-
-Je score wordt dagelijks bijgewerkt en weerspiegelt de acties die gebruikers voltooid hebben binnen de laatste 28 dagen (inclusief de huidige dag).
-
-
-## <a name="prerequisites"></a>Vereisten 
 
 Voor gebruikerservaringengegevens heb je een abonnement op Microsoft 365 voor bedrijven of op Office 365 voor ondernemingen nodig. Voor eindpuntanalysegegevens voor je tenant moet je Microsoft Intune toevoegen aan je abonnement. Intune beveiligt de gegevens van je organisatie door apparaten en apps te beheren. Wanneer je Intune hebt, kan je eindpuntanalyses inschakelen in de Intune-ervaring. Zie de [Microsoft Intune-documentatie](/mem/intune/) voor meer informatie over Microsoft Intune. 
 
@@ -98,6 +72,30 @@ Het op rollen gebaseerde model voor toegangsbeheer voor Productiviteitsscore hel
 Microsoft zet zich in voor de bescherming van de individuele privacy. Dit [Privacydocument](privacy.md) verklaart de controle die we je bieden als IT-beheerder van je organisatie zodat we kunnen garanderen dat je acties kan uitvoeren op basis van de informatie zonder afbreuk te doen aan het vertrouwen dat je in Microsoft plaatst.
 
 Je hebt toegang tot de ervaring vanuit Microsoft 365 startpagina voor beheerders onder **Rapporten** > **Productiviteitsscore**.
+  
+## <a name="how-the-score-is-calculated"></a>Berekening van de score
+
+Je productiviteitsscore is gebaseerd op de gecombineerde scores van jouw gebruikers- en technologie-ervaringencategorieën. Elke categorie wordt evenredig gemeten, met een totaal van 100 punten. De hoogst mogelijke productiviteitsscore is 800.
+
+### <a name="score-categories"></a>Scorecategorieën 
+
+- Communicatie (100 punten)
+- Vergaderingen (100 punten)
+- Samenwerking aan inhoud (100 punten)
+- Teamwork (100 punten)
+- Mobiliteit (100 punten)
+- Eindpuntanalyses (100 punten)
+- Netwerkverbinding (100 punten)
+- Gezondheid van Microsoft 365-apps (100 punten)
+- **Maximum totaal = 800 punten**
+ 
+In elke categorie kwantificeren we de kernindicatoren voor hoe je organisatie Microsoft 365 gebruikt tijdens je digitale transformatie. We bieden een 28-dagen- en 180-dagenweergave voor de kernactiviteiten. We bieden ook ondersteunende metrische gegevens die geen deel uitmaken van de scoreberekening, maar wel belangrijk zijn voor het identificeren gebruikersstatistieken en configuraties die je kan bespreken.
+
+### <a name="products-included-in-productivity-score"></a>Producten die deel uitmaken van de productiviteitsscore 
+
+De productiviteitsscore bevat gegevens van Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer en Skype.
+
+Je score wordt dagelijks bijgewerkt en weerspiegelt de acties die gebruikers voltooid hebben binnen de laatste 28 dagen (inclusief de huidige dag).
 
 ## <a name="interpreting-your-organizations-productivity-score"></a>De productiviteitsscore van je organisatie interpreteren 
 
@@ -161,6 +159,6 @@ Deel je ideeën over productiviteitsscore en je ideeën over hoe het verbeterd k
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Microsoft 365-activiteit bijhouden met behulp van rapporten](/microsoft-365/admin/activity-reports/activity-reports) (artikel)\
-[Microsoft 365-gebruiksanalyse inschakelen](/microsoft-365/admin/usage-analytics/enable-usage-analytics) (artikel)\
-[Overzicht van het Microsoft 365-beheercentrum](/microsoft-365/business-video/admin-center-overview) (video)
+[Microsoft 365-activiteit bijhouden met behulp van rapporten](../../admin/activity-reports/activity-reports.md) (artikel)\
+[Microsoft 365-gebruiksanalyse inschakelen](../../admin/usage-analytics/enable-usage-analytics.md) (artikel)\
+[Overzicht van het Microsoft 365-beheercentrum](../../business-video/admin-center-overview.md) (video)

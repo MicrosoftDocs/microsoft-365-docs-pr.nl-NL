@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Lees hoe u uw Microsoft 365 kunt verlengen door terugkerende facturering uit of in te schakelen.
+description: Lees hoe u de meeste abonnementen van Microsoft 365 voor Bedrijven kunt verlengen door terugkerende facturering uit of in te schakelen.
 ms.date: 05/04/2021
-ms.openlocfilehash: 7421bb59a26d3c88114ebd9145dcbfe3916e7472
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 43dd467d83375f74c7650262c40021ba631e3c72
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344636"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594035"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven verlengen
 
@@ -77,7 +77,7 @@ Als u vooraf voor uw abonnement hebt betaald met een productcode, verloopt uw ab
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Je abonnement opnieuw activeren](reactivate-your-subscription.md) (artikel)\
+[Uw abonnement opnieuw activeren](reactivate-your-subscription.md) (artikel)\
 [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement afloopt?](what-if-my-subscription-expires.md) (artikel)\
 [Je productcode invoeren](../enter-your-product-key.md) (artikel)\
 [De proefversie van Microsoft 365 voor bedrijven kopen](../try-or-buy-microsoft-365.md) (artikel)

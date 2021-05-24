@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Meer informatie over het contact opnemen met ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 58cd84899c2fcf0d16c54f939da40be0ac5703cb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 7df4e9f2a9827289ab0bd85c9696e03aac9e3bb3
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295985"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623631"
 ---
 # <a name="contact-support-for-kenya"></a>Contact opnemen met ondersteuning voor Kenia
 
@@ -26,9 +26,9 @@ ms.locfileid: "52295985"
 ## <a name="phone-number"></a>Telefoonnummer
 020 286 8800
 
-Optie 9 selecteren
+Druk op 2 voor bedrijven
 
-Code 7704 invoeren
+Druk op 1 voor Microsoft 365
 
 ## <a name="hours"></a>Uren
 ### <a name="billing-support"></a>Ondersteuning bij facturering:

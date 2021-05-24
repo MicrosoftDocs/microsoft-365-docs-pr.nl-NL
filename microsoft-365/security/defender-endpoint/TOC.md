@@ -27,6 +27,11 @@
 #### [Ondersteunde apparaten onboarden](onboard-configure.md)
 
 ## [Migratiehandleidingen](migration-guides.md)
+### [Overschakelen van niet-Microsoft-eindpuntbeveiliging naar Defender voor Eindpunt]()
+#### [Overzicht van migratie](switch-to-microsoft-defender-migration.md)
+#### [Fase 1: Voorbereiden](switch-to-microsoft-defender-prepare.md)
+#### [Fase 2: Instellen](switch-to-microsoft-defender-setup.md)
+#### [Fase 3: Onboarden](switch-to-microsoft-defender-onboard.md)
 ### [Overstappen van McAfee naar Microsoft Defender voor Eindpunt]()
 #### [Overzicht van migratie](mcafee-to-microsoft-defender-migration.md)
 #### [Fase 1: Voorbereiden](mcafee-to-microsoft-defender-prepare.md) 
@@ -37,11 +42,6 @@
 #### [Fase 1: Voorbereiden](symantec-to-microsoft-defender-atp-prepare.md)
 #### [Fase 2: Instellen](symantec-to-microsoft-defender-atp-setup.md)
 #### [Fase 3: Onboarden](symantec-to-microsoft-defender-atp-onboard.md)
-### [Overstappen van uw niet-Microsoft-eindpuntbeveiligingsoplossing naar Microsoft Defender voor Eindpunt]()
-#### [Overzicht van migratie](switch-to-microsoft-defender-migration.md)
-#### [Fase 1: Voorbereiden](switch-to-microsoft-defender-prepare.md)
-#### [Fase 2: Instellen](switch-to-microsoft-defender-setup.md)
-#### [Fase 3: Onboarden](switch-to-microsoft-defender-onboard.md)
 ### [Microsoft Defender voor Eindpunt beheren na migratie]()
 #### [Overzicht van beheer van Microsoft Defender voor Eindpunt](manage-atp-post-migration.md)
 #### [Intune (aanbevolen)](manage-atp-post-migration-intune.md)
@@ -112,11 +112,11 @@
 
 
 #### [Microsoft Defender voor Eindpunt op iOS]()
-##### [Overzicht van Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md)
+##### [Overzicht van Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md)
 ##### [Wat is er nieuw](ios-whatsnew.md)
  
 ##### [Implementeren]()
-###### [Microsoft Defender voor Eindpunt op iOS implementeren via Intune](ios-install.md)
+###### [Microsoft Defender voor Eindpunt op iOS implementeren via Intune](ios-install.md)
  
 ##### [Configureren]()
 ###### [iOS-functies configureren](ios-configure-features.md)
@@ -128,7 +128,7 @@
  
  
 #### [Microsoft Defender voor Eindpunt op Linux]()
-##### [Overzicht van Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md)
+##### [Overzicht van Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md)
 ##### [Wat is er nieuw](linux-whatsnew.md)
 ##### [Implementeren]()
 ###### [Handmatige implementatie](linux-install-manually.md)
@@ -142,7 +142,7 @@
 ###### [Statische proxyconfiguratie](linux-static-proxy-configuration.md)
 ###### [Voorkeuren instellen](linux-preferences.md)
 ###### [Mogelijk ongewenste toepassingen detecteren en blokkeren](linux-pua.md)
-###### [Scans plannen met Microsoft Defender voor Eindpunt op Linux](linux-schedule-scan-atp.md)
+###### [Scans plannen met Microsoft Defender voor Eindpunt op Linux](linux-schedule-scan-atp.md)
 ###### [Een update van Microsoft Defender voor Eindpunt (Linux) plannen](linux-update-MDE-Linux.md)
 ###### [Defender voor eindpunt implementeren op Linux met Chef](linux-deploy-defender-for-endpoint-with-chef.md)
  
@@ -157,16 +157,16 @@
 ##### [Resources](linux-resources.md)
  
 #### [Microsoft Defender voor Eindpunt op Android]()
-##### [Overzicht van Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md)
+##### [Overzicht van Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md)
  
 ##### [Implementeren]()
-###### [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
+###### [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
  
 ##### [Configureren]()
-###### [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
+###### [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
  
 ##### [Privacy]()
-###### [Microsoft Defender voor Eindpunt op Android - Privacyinformatie](android-privacy.md)
+###### [Microsoft Defender voor Eindpunt op Android - Privacyinformatie](android-privacy.md)
  
 ##### [Problemen oplossen]()
 ###### [Problemen oplossen](android-support-signin.md)
@@ -596,7 +596,7 @@
 ##### [Meer informatie over verschillende manieren om detecties op te halen](configure-siem.md)
 ##### [SIEM-integratie inschakelen](enable-siem-integration.md)
 ##### [Micro Focus ArcSight configureren om detecties op te halen](configure-arcsight.md)
-##### [Detectievelden voor Microsoft Defender voor Eindpunt](api-portal-mapping.md)
+##### [Detectievelden voor Microsoft Defender voor Eindpunt](api-portal-mapping.md)
 ##### [Detecties ophalen met SIEM REST API](pull-alerts-using-rest-api.md)
 ##### [Waarschuwingen ophalen van de klant-tenant](fetch-alerts-mssp.md)
 ##### [Problemen met de integratie van SIEM-hulpprogramma's oplossen](troubleshoot-siem.md)
@@ -624,21 +624,21 @@
 ### [Scenario's voor partnerintegratie]()
 #### [Mogelijkheden voor technische partners](partner-integration.md)
 #### [Mogelijkheid MSSP (Managed Security Service Provider)](mssp-support.md)
-#### [Een Microsoft Defender voor Eindpunt-partner worden](get-started-partner-integration.md)
+#### [Een Microsoft Defender voor Eindpunt-partner worden](get-started-partner-integration.md)
 
 ### [Integraties]()
-#### [Microsoft Defender for Eindpunt-integraties](threat-protection-integration.md)
+#### [Microsoft Defender for Eindpunt-integraties](threat-protection-integration.md)
 #### [Gebruikers, gegevens en apparaten beveiligen met voorwaardelijke toegang](conditional-access.md)
 #### [Overzicht van integratie van Microsoft Cloud App Security](microsoft-cloud-app-security-integration.md)
 
 ### [Overzicht van informatiebeveiliging in Windows]()
 #### [Windows-integratie](information-protection-in-windows-overview.md)
 
-### [Toegang tot het Microsoft Defender voor Eindpunt Community Center](community.md)
+### [Toegang tot het Microsoft Defender voor Eindpunt Community Center](community.md)
 
 ### [Nuttige bronnen](helpful-resources.md)
 
-### [Problemen met Microsoft Defender voor Eindpunt oplossen]()
+### [Problemen met Microsoft Defender voor Eindpunt oplossen]()
 #### [Problemen met de sensorstatus oplossen]()
 ##### [Sensorstatus controleren](check-sensor-status.md)
 ##### [Problemen onjuiste sensoren oplossen](fix-unhealthy-sensors.md)
@@ -646,7 +646,7 @@
 ##### [Onjuist geconfigureerde apparaten](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [Sensorgebeurtenissen en -fouten op computers bekijken met Gebeurtenisviewer](event-error-codes.md)
   
-#### [Problemen met Microsoft Defender voor Eindpunt-service oplossen]()
+#### [Problemen met Microsoft Defender voor Eindpunt-service oplossen]()
 ##### [Problemen met de service oplossen](troubleshoot-mdatp.md)
 ##### [Servicestatus controleren](service-status.md)
 ##### [Contact opnemen met de ondersteuning van Microsoft Defender voor Eindpunt](contact-support.md)
