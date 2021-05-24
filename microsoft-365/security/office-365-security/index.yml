@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Microsoft Defender voor Office 365-documentatie
+title: Microsoft Defender voor Office 365 documentatie
 summary: Meer informatie over de krachtige beveiligingsoplossingen in Defender voor Office 365 om uw e-mail- en samenwerkingshulpmiddelen beter te beveiligen.
 metadata:
-  title: Beveiligingsdocumentatie van Microsoft Defender voor Office 365
+  title: Microsoft Defender voor Office 365 beveiligingsdocumentatie
   description: Meer informatie over de krachtige beveiligingsoplossingen in Defender voor Office 365 om uw e-mail- en samenwerkingshulpmiddelen beter te beveiligen.
   services: office-365-security-compliance
   ms.service: O365-seccomp
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 04/13/2021
   localization_priority: Priority
-  ms.openlocfilehash: a646d52b903a1ab16d2f552b456793492462c44b
-  ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+  ms.openlocfilehash: b379b42ae3c01c8359003407f3fb58834a8c074e
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 04/14/2021
-  ms.locfileid: "51760258"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52623563"
 landingContent:
 - title: Defender voor Office 365 & Exchange Online Protection
   linkLists:
@@ -26,7 +26,7 @@ landingContent:
     links:
     - text: Overzicht van Office 365-beveiliging
       url: overview.md
-    - text: Instellen met vooraf ingesteld beveiligingsbeleid in EOP en Defender voor Office 365
+    - text: Instellen met Vooraf ingesteld beveiligingsbeleid in EOP en Defender voor Office 365
       url: preset-security-policies.md
 - title: Aan de slag met Defender voor Office 365
   linkLists:
@@ -56,19 +56,19 @@ landingContent:
       url: use-dkim-to-validate-outbound-email.md
     - text: DMARC gebruiken om e-mail te valideren
       url: use-dmarc-to-validate-email.md
-- title: Exchange Online Protection instellen
+- title: Een Exchange Online Protection
   linkLists:
   - linkListType: overview
     links:
     - text: Overzicht Exchange Online Protection
       url: exchange-online-protection-overview.md
-    - text: Aanbevolen instellingen voor EOP- en Microsoft Defender voor Office 365-beveiliging voor het instellen
+    - text: Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 voor het instellen
       url: recommended-settings-for-eop-and-office365.md
 - title: Voorkomen
   linkLists:
   - linkListType: overview
     links:
-    - text: Uw Microsoft 365-tenant configureren voor meer beveiliging
+    - text: Uw Microsoft 365 configureren voor meer beveiliging
       url: tenant-wide-setup-for-increased-security.md
     - text: Configuratieanalyse in EOP en Defender voor Office 365
       url: configuration-analyzer-for-security-policies.md
@@ -78,8 +78,8 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: E-mailstroomregels (transportregels) in standalone EOP
-      url: mail-flow-rules-transport-rules-0.md
+    - text: Regels voor e-mailstroom (transportregels) in Exchange Online
+      url: /exchange/security-and-compliance/mail-flow-rules/mail-flow-rules
     - text: Bedreigingstrackers
       url: threat-trackers.md
     - text: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
@@ -92,7 +92,7 @@ landingContent:
       url: threat-explorer-views.md
     - text: Campagneweergaven in Microsoft Defender voor Office 365
       url: campaigns.md
-    - text: Schadelijke e-mail onderzoeken die is bezorgd in Office 365
+    - text: Onderzoek naar schadelijke e-mail die is bezorgd in Office 365
       url: investigate-malicious-email-that-was-delivered.md
     - text: Defender voor Office 365-rapporten weergeven
       url: view-reports-for-mdo.md
@@ -102,17 +102,17 @@ landingContent:
     links:
     - text: Rapportage en bericht traceren in EOP
       url: reporting-and-message-trace-in-exchange-online-protection.md
-    - text: Het auditlogboek van de beheerder bekijken in standalone EOP
-      url: view-the-admin-audit-log-eop.md
+    - text: Het auditlogboek van de beheerder weergeven
+      url: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
 - title: Beantwoorden
   linkLists:
   - linkListType: overview
     links:
-    - text: Schadelijke e-mail herstellen die is bezorgd in Office 365
+    - text: Herstel schadelijke e-mail die is bezorgd in Office 365
       url: remediate-malicious-email-delivered-office-365.md
     - text: Reageren op een gekromd e-mailaccount
       url: responding-to-a-compromised-email-account.md
-    - text: Outlook-regels en aangepaste formuliereninjecties herstellen
+    - text: Herstel de Outlook en aanvallen op aangepaste formuliereninjecties
       url: detect-and-remediate-outlook-rules-forms-attack.md
     - text: False Positives/False Negatives verzenden
       url: admin-submission.md
@@ -122,7 +122,7 @@ landingContent:
     links:
     - text: How Automated Investigation and Response (AIR) works in Defender for Office 365
       url: automated-investigation-response-office.md
-    - text: Aan de slag met AIR in Defender voor Office 365
+    - text: Aan de slag air in Defender voor Office 365
       url: office-365-air.md
     - text: Gecompromitteerde gebruikersaccounts met AIR adres
       url: address-compromised-users-quickly.md
