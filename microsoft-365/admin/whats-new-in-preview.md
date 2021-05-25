@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-beheercentrum: meer informatie over de functies 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: b75c6be901dfe2bcfe9a0d8fad8fbb56eecd34d6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 964689c431b45671a92dda62ccf8a083291213a3
+ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535744"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639547"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365 beheercentrum
 
@@ -49,6 +49,24 @@ En als u wilt weten wat er nieuw is met andere Microsoft-cloudservices:
 - [Nieuwe functies in het SharePoint beheercentrum](/sharepoint/what-s-new-in-admin-center)
 - [Office updates](/OfficeUpdates/)
 - [De status van Windows release controleren](/windows/deployment/update/check-release-health)
+
+## <a name="may-2021"></a>Mei 2021
+
+### <a name="admin-mobile-app"></a>Mobiele app voor beheerders
+
+### <a name="keep-track-of-support-ticket-updates-using-the-admin-mobile-app"></a>Ondersteuningsticketupdates bijhouden met de mobiele app Beheerder
+
+Voor alle serviceaanvragen die in uw tenant zijn gemaakt, kunt u nu de ticketstatus bijhouden, ticketgegevens bekijken en aanvullende informatie verstrekken/aanvragen door notities toe te voegen & bijlagen. 
+
+:::image type="content" source="../media/whats-new-track-support-tickets.png" alt-text="Schermafbeelding: Ondersteuningsticketupdates bijhouden":::
+
+### <a name="stay-on-top-of-all-the-major-updates-to-the-app-and-your-microsoft-365-subscription"></a>Blijf op de hoogte van alle belangrijke updates voor de app en uw Microsoft 365 abonnement 
+
+- Blijf op de hoogte van alle belangrijke updates voor uw Microsoft 365 via pushmeldingen van het Berichtencentrum (nu standaard ingeschakeld). 
+
+- Houd de nieuwste functies bij die beschikbaar zijn in de app met **behulp van de** sectie Nieuw. Ga naar **Instellingen**  >  **Wat is er nieuw?**
+
+:::image type="content" source="../media/whats-new-updates.png" alt-text="Schermafbeelding: Belangrijke updates en functies bijhouden":::
 
 ## <a name="april-2021"></a>April 2021
 
