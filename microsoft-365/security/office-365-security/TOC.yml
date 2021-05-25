@@ -22,18 +22,10 @@
               href: exchange-online-protection-overview.md
             - name: EOP-functies
               href: eop-features.md
-            - name: Machtigingen in standalone EOP
-              href: feature-permissions-in-eop.md
-            - name: Exchange-beheercentrum in standalone EOP
-              href: exchange-admin-center-in-exchange-online-protection-eop.md
-            - name: Ontvangers beheren in standalone EOP
-              href: manage-recipients-in-eop.md
             - name: E-mailstroom in EOP
               href: mail-flow-in-eop.md
             - name: Quarantaine
               href: quarantine-email-messages.md
-            - name: Controlerapporten in standalone EOP
-              href: auditing-reports-in-eop.md
         - name: 'Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams'
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: Overzicht van Microsoft 365-beveiligingscentrum
@@ -72,18 +64,6 @@
           href: microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
     - name: Implementeren
       items:
-        - name: Exchange Online Protection
-          items:
-            - name: Antiphishingbeleid configureren in EOP
-              href: configure-anti-phishing-policies-eop.md
-            - name: Standalone EOP configureren om spam te bezorgen in de map Ongewenste e-mail
-              href: ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
-            - name: Groepen beheren in standalone EOP
-              href: manage-groups-in-eop.md
-            - name: E-mailgebruikers beheren in standalone EOP
-              href: manage-mail-users-in-eop.md
-            - name: Je EOP-service instellen
-              href: set-up-your-eop-service.md
         - name: Beveiligen tegen bedreigingen
           href: protect-against-threats.md
         - name: Defender voor Office 365 integreren met Defender voor Eindpunt
@@ -98,16 +78,20 @@
           href: secure-by-default.md
         - name: Anti-phishingbeleid configureren in Defender voor Office 365
           href: configure-mdo-anti-phishing-policies.md
+        - name: Antiphishingbeleid configureren in EOP
+          href: configure-anti-phishing-policies-eop.md
         - name: Beleid tegen malware configureren
           href: configure-anti-malware-policies.md
         - name: Beleid tegen ongewenste e-mail configureren
           href: configure-your-spam-filter-policies.md
+        - name: EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail
+          href: /exchange/standalone-eop/configure-eop-spam-protection-hybrid
+        - name: Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
+          href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Filteren van verbinding configureren
           href: configure-the-connection-filter-policy.md
         - name: Algemene instellingen voor veilige koppelingen in Defender voor Office 365 configureren
           href: configure-global-settings-for-safe-links.md
-        - name: Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
-          href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Filteren van uitgaande spam configureren
           href: configure-the-outbound-spam-policy.md
         - name: Lijsten met geblokkeerde afzenders maken
@@ -116,7 +100,7 @@
           href: Create-safe-sender-lists-in-office-365.md
         - name: E-mailverificatie
           href: email-validation-and-authentication.md
-        - name: Gebruikers toegang tot het beveiligingscentrum geven
+        - name: Gebruikers toegang geven tot het Beveiligings- en compliancecentrum
           href: grant-access-to-the-security-and-compliance-center.md
         - name: Veilige documenten in Defender voor Office 365
           href: safe-docs.md
@@ -168,10 +152,6 @@
           href: configure-advanced-delivery.md
         - name: Aanbevolen instellingen voor het configureren van EOP en Defender voor Office 365-beveiliging
           href: recommended-settings-for-eop-and-office365.md
-        - name: Aanbevolen procedures voor het configureren van EOP
-          href: best-practices-for-configuring-eop.md
-        - name: On-premises postvakken in China beveiligen met standalone EOP
-          href: protect-on-premises-mailboxes-with-exchange-online-protection.md
         - name: AIR integreren met een aangepaste oplossing of een oplossing van derden
           href: air-custom-reporting.md
         - name: 'Geavanceerde spamfilterinstellingen (Advanced Spam Filter, ASF)'
@@ -184,12 +164,12 @@
           href: report-junk-email-messages-to-microsoft.md
         - name: De invoegtoepassingen Bericht rapporteren en Phishing rapporteren inschakelen
           href: enable-the-report-message-add-in.md
-        - name: E-mailstroomregels gebruiken om berichten met uitvoerbare bijlagen te blokkeren in standalone EOP
-          href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
-        - name: E-mailstroomregels gebruiken om bulk-e-mail te filteren in standalone EOP
-          href: use-transport-rules-to-configure-bulk-email-filtering.md
+        - name: E-mailstroomregels gebruiken om berichten met uitvoerbare bijlagen te blokkeren
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-block-executable-attachments
+        - name: E-mailstroomregels gebruiken om bulk-e-mail te filteren
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-filter-bulk-mail
         - name: Regels voor e-mailstroom gebruiken om de SCL in te stellen in berichten
-          href: use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl
         - name: Zero-Hour Auto Purge - beveiliging tegen ongewenste e-mail en malware
           href: zero-hour-auto-purge.md
     - name: Detecteren
@@ -210,10 +190,10 @@
           href: reports-and-insights-in-security-and-compliance.md
         - name: Fout-positieven en fout-negatieven rapporteren in Outlook
           href: report-false-positives-and-false-negatives.md
-        - name: E-mailstroomregels (transportregels) in standalone EOP
-          href: mail-flow-rules-transport-rules-0.md
-        - name: Een rapport over groepen met beheerdersrollen uitvoeren in standalone EOP
-          href: run-an-administrator-role-group-report-in-eop-eop.md
+        - name: E-mailstroomregels (transportregels)
+          href: /exchange/security-and-compliance/mail-flow-rules/mail-flow-rules
+        - name: Een rapport over groepen met beheerdersrollen uitvoeren
+          href: /exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes
     - name: Onderzoeken
       items:
         - name: Weergaven van Bedreigingsverkenner
@@ -230,8 +210,8 @@
           href: view-email-security-reports.md
         - name: E-mailstroomrapporten weergeven
           href: view-mail-flow-reports.md
-        - name: Het auditlogboek van de beheerder bekijken in standalone EOP
-          href: view-the-admin-audit-log-eop.md
+        - name: Het auditlogboek van de beheerder bekijken
+          href: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
         - name: Rapportage en berichttracering in standalone EOP
           href: reporting-and-message-trace-in-exchange-online-protection.md
         - name: Inzicht in automatisch doorgestuurde berichten
@@ -262,8 +242,8 @@
           href: mfi-domain-mail-flow-status-insight.md
         - name: Indienen als beheerder gebruiken
           href: admin-submission.md
-        - name: Regels voor e-mailstromen gebruiken om te zien wat je gebruikers melden bij Microsoft
-          href: use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
+        - name: Regels voor e-mailstromen gebruiken om te zien wat gebruikers melden bij Microsoft
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft
         - name: Inzicht in wachtrijen
           href: mfi-queue-alerts-and-queues.md
     - name: Beantwoorden
@@ -346,8 +326,6 @@
           href: reference-policies-practices-and-guidelines.md
         - name: Veiligheidstips in e-mailberichten
           href: safety-tips-in-office-365.md
-        - name: Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants
-          href: sample-script-for-applying-eop-settings-to-multiple-tenants.md
         - name: E-mail verzenden naar Office 365
           href: sending-mail-to-office-365.md
         - name: Services voor niet-klanten
@@ -360,27 +338,10 @@
           href: virus-detection-in-spo.md
         - name: Wat is het verschil tussen ongewenste e-mail en bulkmail?
           href: what-s-the-difference-between-junk-email-and-bulk-email.md
-        - name: S/MIME
-          href: s-mime-for-message-signing-and-encryption.md
-          items:
-            - name: S/MIME voor het ondertekenen en versleutelen van berichten
-              href: s-mime-for-message-signing-and-encryption.md
-            - name: S/MIME-instellingen voor de webversie van Outlook configureren
-              href: configure-s-mime-settings-for-outlook-web-app.md
-            - name: Met S/MIME ondertekende en versleutelde e-mail verzenden en ontvangen
-              href: send-and-receive-s-mime-signed-and-encrypted-email.md
-            - name: Gebruikerscertificaten synchroniseren met Microsoft 365 voor S/MIME
-              href: sync-user-certificates-to-office-365-for-s-mime.md
-            - name: Verzameling van virtuele certificaten instellen om S/MIME te valideren
-              href: set-up-virtual-certificate-collection-to-validate-s-mime.md
-            - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
-              href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-            - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
-              href: create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
-              href: move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
-            - name: Rollengroepen beheren in standalone EOP
-              href: manage-admin-role-group-permissions-in-eop.md
+        - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
+          href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+        - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
+          href: create-team-sites-in-a-political-campaign-dev-test-environment.md
     - name: Microsoft 365 Defender
       href: ../defender/index.yml
     - name: Microsoft Defender voor Eindpunt
