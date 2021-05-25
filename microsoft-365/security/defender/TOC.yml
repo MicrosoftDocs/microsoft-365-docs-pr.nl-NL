@@ -93,13 +93,11 @@
             - name: Beheren
               href: manage-incidents.md
             - name: Onderzoeken
-              items:
-                - name: Overzicht
-                  href: investigate-incidents.md
-                - name: Waarschuwingen
-                  href: investigate-alerts.md
-                - name: Gebruikers
-                  href: investigate-users.md
+              href: investigate-incidents.md
+            - name: Waarschuwingen voor incidenten
+              href: investigate-alerts.md
+            - name: Incidentgebruikers
+              href: investigate-users.md
             - name: Reageren op uw eerste incident
               items:
                 - name: Inleiding
