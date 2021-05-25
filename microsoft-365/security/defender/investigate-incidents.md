@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7abc99a14ec538afea8cdbd4d8f3b4940bcccd9f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 865aa9dc34a91be251d6f7772da5cc686f9641a4
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300083"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651309"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender onderzoeken
 
@@ -86,7 +86,19 @@ Hier is een voorbeeld.
 
 :::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="Voorbeeld van een pagina Waarschuwingen voor een incident":::
 
-Standaard worden de waarschuwingen chronologisch geordend, zodat u kunt zien hoe het incident zich in de tijd heeft afgespeeld. Als u elke waarschuwing selecteert, gaat u naar de hoofdpagina van de waarschuwing, waar u een grondige analyse van die waarschuwing kunt uitvoeren. 
+Standaard worden de waarschuwingen chronologisch geordend, zodat u kunt zien hoe het incident zich in de tijd heeft afgespeeld. Wanneer u een waarschuwing selecteert binnen een incident, Microsoft 365 Defender de waarschuwingsgegevens die specifiek zijn voor de context van het algemene incident. 
+
+U kunt de gebeurtenissen van de waarschuwing zien, welke andere geactiveerde waarschuwingen de huidige waarschuwing hebben veroorzaakt, en alle betrokken entiteiten en activiteiten die betrokken zijn bij de aanval, waaronder bestanden, gebruikers en postvakken.
+
+Hier is een voorbeeld.
+
+:::image type="content" source="../../media/investigate-incidents/incident-alert-example.png" alt-text="Voorbeeld van een waarschuwingsgegevenspagina binnen een incident":::
+
+Deze pagina met incidentenmelding bestaat uit de volgende secties:
+
+- Waarschuwingsverhaal, met een overzicht van wat er is gebeurd
+- Gerelateerde gebeurtenissen en waarschuwingen
+- Overzichtsdetails
 
 Lees hoe u de waarschuwingswachtrij en waarschuwingspagina's kunt gebruiken in [waarschuwingen onderzoeken.](investigate-alerts.md)
 
@@ -112,6 +124,9 @@ Het **tabblad** Gebruikers bevat alle gebruikers die zijn geïdentificeerd als o
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Voorbeeld van een pagina Gebruikers voor een incident":::
 
 U kunt het vinkje selecteren voor een gebruiker om details van de bedreiging, blootstelling en contactgegevens van het gebruikersaccount te bekijken. Selecteer de gebruikersnaam om meer details van het gebruikersaccount te zien.
+
+Meer informatie over het weergeven van aanvullende gebruikersgegevens en het beheren van de gebruikers van een incident in [het onderzoeken van gebruikers.](investigate-users.md)
+
 
 ## <a name="mailboxes"></a>Postvakken
 

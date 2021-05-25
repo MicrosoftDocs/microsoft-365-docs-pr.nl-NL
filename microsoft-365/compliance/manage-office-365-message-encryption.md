@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Wanneer u klaar bent met het instellen van Office 365-berichtversleuteling (OME), leert u hoe u uw implementatie op verschillende manieren kunt aanpassen.
-ms.openlocfilehash: 06e9d22d51c05fe9f7bc4c1a014607feafbf2dba
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a2b3dde44ea541deb41eeb9d55d5ed745fa6c719
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161882"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52650982"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365-berichtversleuteling beheren
 
@@ -62,12 +62,12 @@ Als de geadresseerde van een bericht dat door OME is versleuteld, geen Outlook g
   
 ### <a name="to-manage-whether-ome-generates-one-time-pass-codes"></a>Beheren of OME een eentijdspascodes genereert
   
-1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Voer de Set-OMEConfiguration cmdlet uit met de OTPEnabled-parameter:
 
    ```powershell
-   Set-OMEConfiguration -Identity <"OMEConfigurationIdParameter "> -OTPEnabled <$true|$false>
+   Set-OMEConfiguration -Identity <"OMEConfigurationIdParameter"> -OTPEnabled <$true|$false>
    ```
 
    Als u bijvoorbeeld een een-time passcodes wilt uitschakelen:
@@ -88,7 +88,7 @@ Als beheerder kunt u beheren of u deze knop wilt weergeven voor eindgebruikers.
   
 ### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>Beheren of de knop Versleutelen wordt weergegeven in Outlook web
   
-1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Voer de Set-IRMConfiguration cmdlet uit met de parameter -SimplifiedClientAccessEnabled:
 
@@ -118,7 +118,7 @@ Zie Versleutelde berichten weergeven op uw iPhone of iPad voor meer informatie e
   
 ### <a name="to-manage-whether-ios-mail-app-users-can-view-messages-protected-by-office-365-message-encryption"></a>Beheren of gebruikers van de iOS-e-mailapp berichten kunnen bekijken die zijn beveiligd met Office 365-berichtversleuteling
   
-1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Voer de Set-ActiveSyncOrganizations cmdlet uit met de parameter AllowRMSSupportForUnenlightenedApps:
 
@@ -155,7 +155,7 @@ Zie Versleutelen-alleen-optie voor e-mailberichten voor meer Microsoft 365 voor 
   
 ### <a name="to-manage-whether-email-attachments-are-decrypted-on-download-from-a-web-browser"></a>Beheren of e-mailbijlagen worden ontsleuteld bij downloaden vanuit een webbrowser
   
-1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Voer de Set-IRMConfiguration cmdlet uit met de parameter DecryptAttachmentForEncryptOnly:
 
@@ -181,7 +181,7 @@ U kunt aangepaste huisstijlsjablonen gebruiken om geadresseerden te dwingen een 
 
 ### <a name="use-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email"></a>Een aangepaste sjabloon gebruiken om alle externe geadresseerden te dwingen de OME-portal te gebruiken en voor versleutelde e-mail
 
-1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie en start een Windows PowerShell en maak verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Voer de New-TransportRule cmdlet uit:
 
@@ -219,7 +219,7 @@ We hopen dat het er niet bij komt, maar als het nodig is, is het uitschakelen va
   
 ### <a name="to-disable-the-new-capabilities-for-ome"></a>De nieuwe mogelijkheden voor OME uitschakelen
   
-1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Als u de  knop Versleutelen hebt ingeschakeld in Outlook web, schakelt u deze uit door de Set-IRMConfiguration-cmdlet met de parameter SimplifiedClientAccessEnabled uit te schakelen. Anders slaat u deze stap over.
 

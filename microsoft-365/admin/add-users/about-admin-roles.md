@@ -22,16 +22,16 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen zoals de Servicebeheerder worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het beheercentrum.
-ms.openlocfilehash: 7ba8b6fd483901fde31a9bceca189797b4f2e16d
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3163b7a4037a923122d2da170ac5ea9e8c2d0185
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536008"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634194"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
-Je abonnement op Microsoft 365 of Office 365 wordt geleverd met een set beheerdersrollen die je kunt toewijzen aan gebruikers in jouw organisatie via het Microsoft 365-beheercentrum. Elke beheerdersrol wordt toegewezen aan algemene bedrijfsfuncties en machtigt personen in uw organisatie om specifieke taken uit te voeren in de beheercentra.
+Het Microsoft 365- of Office 365-abonnement wordt geleverd met een set beheerdersrollen die u kunt toewijzen aan gebruikers in uw organisatie met behulp van het Microsoft 365-beheercentrum. Elke beheerdersrol wordt toegewezen aan algemene bedrijfsfuncties en machtigt personen in uw organisatie om specifieke taken in de beheercentra uit te voeren.
 
 In het Microsoft 365-beheercentrum kunt u Azure AD- en Microsoft Intune-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal en het Intune-beheercentrum.
 
@@ -83,7 +83,7 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Gedelegeerd beheer voor Microsoft-partners
 
-Als u met een Microsoft-partner werkt, kunt u aan uw partner beheerdersrollen toewijzen. Zij kunnen op hun beurt gebruikers in uw bedrijf, of hun bedrijf, beheerdersrollen toewijzen. U wilt misschien dat ze dit doen, bijvoorbeeld als ze uw online organisatie voor u opzetten en beheren.
+Als u met een Microsoft-partner werkt, kunt u aan uw partner beheerdersrollen toewijzen. Deze kan op zijn beurt gebruikers in uw bedrijf, of zijn bedrijf, beheerdersrollen toewijzen. Soms wilt u dat uw partner dit doet, bijvoorbeeld als deze uw online organisatie voor u instelt en beheert.
   
 Een partner kan deze rollen toewijzen: 
   
@@ -95,10 +95,6 @@ Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner a
   
 ## <a name="related-content"></a>Verwante inhoud
 
-[Beheerdersrollen toewijzen](assign-admin-roles.md) (artikel)
-
-[Informatie over Azure AD-rollen in het Microsoft 365-beheercentrum](azure-ad-roles-in-the-mac.md) (artikel)
-
-[Exchange Online-beheerdersrol](about-exchange-online-admin-role.md) (artikel)
-  
-[Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md) (artikel)
+[Beheerdersrollen toewijzen](assign-admin-roles.md) (artikel)\
+[Informatie over Azure AD-rollen in het Microsoft 365-beheercentrum](azure-ad-roles-in-the-mac.md) (artikel)\
+[Exchange Online-beheerdersrol](about-exchange-online-admin-role.md) (artikel)\ [Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md) (artikel)

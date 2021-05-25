@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de asf-instellingen (Advanced Spam Filter) die beschikbaar zijn in antispambeleid in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5ade36086d1503b89b506730b98ac7965845e86b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3639b12c0003c958681671fce6bb2b857b3931b8
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204787"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651198"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Geavanceerde instellingen voor spamfilter (ASF) in EOP
 
@@ -38,7 +38,7 @@ ms.locfileid: "51204787"
 > [!NOTE]
 > ASF-instellingen die momenteel beschikbaar zijn in antispambeleid, worden afgeschaft. U wordt aangeraden deze instellingen niet te gebruiken in antispambeleid. De functionaliteit van deze ASF-instellingen wordt opgenomen in andere onderdelen van de filtertack. Zie [EOP-instellingen voor antispambeleid](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)voor meer informatie.
 
-In alle Microsoft 365-organisaties kunnen beheerders met de instellingen voor geavanceerd spamfilter (ASF) in antispambeleid in EOP berichten markeren als spam op basis van specifieke berichteigenschappen. ASF richt zich specifiek op deze eigenschappen omdat ze vaak worden gevonden in spam. Afhankelijk van de eigenschap wordt het bericht door ASF-detecties gemarkeerd als **Spam** of **Spam met hoog vertrouwen.**
+In alle Microsoft 365 organisaties kunnen beheerders met de asf-instellingen (Advanced Spam Filter) in antispambeleid in EOP berichten markeren als spam op basis van specifieke berichteigenschappen. ASF richt zich specifiek op deze eigenschappen omdat ze vaak worden gevonden in spam. Afhankelijk van de eigenschap wordt het bericht door ASF-detecties gemarkeerd als **Spam** of **Spam met hoog vertrouwen.**
 
 > [!NOTE]
 > Het inschakelen van een of meer van de ASF-instellingen is een agressieve manier om spam te filteren. U kunt berichten die door ASF zijn gefilterd, niet als onwaar-positieven rapporteren. U kunt berichten identificeren die door ASF zijn gefilterd door:
@@ -49,7 +49,7 @@ In alle Microsoft 365-organisaties kunnen beheerders met de instellingen voor ge
 >
 > - De specifieke `X-CustomSpam:` X-headervelden die worden toegevoegd aan berichten, zoals beschreven in dit artikel.
 
-In de volgende secties worden de ASF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in het beveiligings- & compliancecentrum en in Exchange Online PowerShell of zelfstandige EOP PowerShell[(New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](/powershell/module/exchange/set-hostedcontentfilterpolicy) Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+In de volgende secties worden de ASF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in het Beveiligings- & Compliancecentrum en in Exchange Online PowerShell Exchange Online zelfstandige EOP PowerShell[(New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](/powershell/module/exchange/set-hostedcontentfilterpolicy) Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="enable-disable-or-test-asf-settings"></a>ASF-instellingen inschakelen, uitschakelen of testen
 
@@ -81,6 +81,8 @@ Voor elke ASF-instelling zijn de volgende opties beschikbaar in antispambeleid:
 
 Met de volgende ASF-instellingen wordt het betrouwbaarheidsniveau voor spam (SCL) van gedetecteerde berichten ingesteld op 5 of 6, wat overeenkomt met de uitspraak over het spamfilter en de bijbehorende actie in antispambeleid. 
 
+<br>
+
 ****
 
 |Antispambeleidsinstelling|Beschrijving|X-header toegevoegd|
@@ -94,6 +96,8 @@ Met de volgende ASF-instellingen wordt het betrouwbaarheidsniveau voor spam (SCL
 ## <a name="mark-as-spam-settings"></a>Markeren als spam-instellingen
 
 Met de volgende ASF-instellingen wordt de SCL van gedetecteerde  berichten ingesteld op 9, wat overeenkomt met de uitspraak over het hoge betrouwbaarheidsfilter en de bijbehorende actie in antispambeleid.
+
+<br>
 
 ****
 
@@ -109,5 +113,5 @@ Met de volgende ASF-instellingen wordt de SCL van gedetecteerde  berichten inges
 |**Lijst met gevoelige woorden toepassen** <p> *MarkAsSpamSensitiveWordList*|Microsoft behoudt een dynamische, maar niet-bewerkbare lijst met woorden die zijn gekoppeld aan mogelijk aanstootgevende berichten. <p> Berichten die woorden uit de lijst met gevoelige woorden in het onderwerp of de bericht body bevatten, worden gemarkeerd als spam met veel vertrouwen.|`X-CustomSpam: Sensitive word in subject/body`|
 |**SPF-record: hard fail** <p> *MarkAsSpamSpfRecordHardFail*|Berichten die worden verzonden vanaf een IP-adres dat niet is opgegeven in de SPF Sender Policy Framework -record (SPF) in DNS voor het bron-e-maildomein, worden gemarkeerd als spam met hoge betrouwbaarheid. <p> Testmodus is niet beschikbaar voor deze instelling.|`X-CustomSpam: SPF Record Fail`|
 |**Id-filter voor voorwaardelijke afzender: harde fout** <p> *MarkAsSpamFromAddressAuthFail*|Berichten die moeilijk mislukken bij een voorwaardelijke afzender-idcontrole, worden gemarkeerd als spam. <p> Met deze instelling wordt een SPF-controle gecombineerd met een afzender-idcontrole om u te beschermen tegen berichtkoppen met vervalste afzenders. <p> Testmodus is niet beschikbaar voor deze instelling.|`X-CustomSpam: SPF From Record Fail`|
-|**NDR-backscatter** <p> *MarkAsSpamNdrBackscatter*|*Backscatter* is nutteloos niet-bezorgingsrapporten (ook wel NDR's of niet-bezorgde berichten genoemd) die worden veroorzaakt door vervalste afzenders in e-mailberichten. Zie [Backscatter-berichten en EOP voor meer informatie.](backscatter-messages-and-eop.md) <p> U hoeft deze instelling niet in de volgende omgevingen te configureren, omdat legitieme NDR's worden geleverd en backscatter is gemarkeerd als spam: <ul><li>Microsoft 365-organisaties met Exchange Online-postvakken.</li><li>On-premises e-mailorganisaties waar u *uitgaande* e-mail routeert via EOP.</li></ul> <p> In zelfstandige EOP-omgevingen die binnenkomende e-mail beveiligen voor on-premises postvakken, heeft het in- of uitschakelen van deze instelling het volgende resultaat: <ul><li> **Op**: Legitieme NR's worden bezorgd en backscatter is gemarkeerd als spam.</li><li>**Uit:** Legitieme NR's en backscatter worden door normale spamfilters gefilterd. De meest legitieme NR's worden bezorgd bij de oorspronkelijke afzender van het bericht. Sommige, maar niet alle, backscatter worden gemarkeerd als spam met hoge betrouwbaarheid. Backscatter kan per definitie alleen worden bezorgd bij de vervalste afzender, niet bij de oorspronkelijke afzender.</li></ul> <p> Testmodus is niet beschikbaar voor deze instelling.|`X-CustomSpam: Backscatter NDR`|
+|**NDR-backscatter** <p> *MarkAsSpamNdrBackscatter*|*Backscatter* is nutteloos niet-bezorgingsrapporten (ook wel NDR's of niet-bezorgde berichten genoemd) die worden veroorzaakt door vervalste afzenders in e-mailberichten. Zie [Backscatter-berichten en EOP voor meer informatie.](backscatter-messages-and-eop.md) <p> U hoeft deze instelling niet in de volgende omgevingen te configureren, omdat legitieme NDR's worden geleverd en backscatter is gemarkeerd als spam: <ul><li>Microsoft 365 organisaties met Exchange Online postvakken.</li><li>On-premises e-mailorganisaties waar u *uitgaande* e-mail routeert via EOP.</li></ul> <p> In zelfstandige EOP-omgevingen die binnenkomende e-mail beveiligen voor on-premises postvakken, heeft het in- of uitschakelen van deze instelling het volgende resultaat: <ul><li> **Op**: Legitieme NR's worden bezorgd en backscatter is gemarkeerd als spam.</li><li>**Uit:** Legitieme NR's en backscatter worden door normale spamfilters gefilterd. De meest legitieme NR's worden bezorgd bij de oorspronkelijke afzender van het bericht. Sommige, maar niet alle, backscatter worden gemarkeerd als spam met hoge betrouwbaarheid. Backscatter kan per definitie alleen worden bezorgd bij de vervalste afzender, niet bij de oorspronkelijke afzender.</li></ul> <p> Testmodus is niet beschikbaar voor deze instelling.|`X-CustomSpam: Backscatter NDR`|
 |

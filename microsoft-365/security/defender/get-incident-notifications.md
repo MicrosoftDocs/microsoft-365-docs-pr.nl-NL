@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8d29291c63bdc437163feecce8164089d958d71d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 2e47b35646a1cd6e1075d80f9ed0550e8e1e819f
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52299962"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651390"
 ---
 # <a name="get-incident-notifications-by-email"></a>Meldingen van incidenten per e-mail ontvangen
 
@@ -72,7 +72,7 @@ Volg deze stappen om een nieuwe regel te maken en instellingen voor e-mailmeldin
 
 Als u een bestaande regel wilt bewerken, selecteert u deze in de lijst met regels. Selecteer regel bewerken in het  deelvenster met de regelnaam en wijzig de regels op de pagina's Basisbeginselen, Instellingen voor meldingen **en** **Geadresseerden.**
 
-Als u een bestaande regel wilt bewerken, selecteert u deze in de lijst met regels. Selecteer verwijderen in het deelvenster met de **regelnaam.**
+Als u een regel wilt verwijderen, selecteert u deze in de lijst met regels. Selecteer verwijderen in het deelvenster met de **regelnaam.**
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten](incidents-overview.md)

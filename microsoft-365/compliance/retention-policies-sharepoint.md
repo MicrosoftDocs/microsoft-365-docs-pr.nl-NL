@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Meer informatie over hoe retentie werkt voor SharePoint en OneDrive.
-ms.openlocfilehash: 448f3e8e2ab827527b02263fea2b07de4b345dc1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 90e94f4ff94b65860890ab65b451107d1d02963f
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161981"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625243"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Meer informatie over retentie voor SharePoint en OneDrive
 
@@ -72,14 +72,12 @@ Als u deze inhoud wilt behouden wanneer een gebruiker probeert deze te wijzigen 
   
 Vervolgens schoont een timeropdracht de opslagbibliotheek periodiek op. Voor inhoud die langer dan 30 dagen in de opslagbibliotheek staat, vergelijkt deze taak de inhoud met alle query's die worden gebruikt door de retentie-instellingen voor die inhoud. Inhoud die ouder is dan de geconfigureerde bewaarperiode, wordt vervolgens verwijderd uit de opslagbibliotheek en de oorspronkelijke locatie als deze nog steeds bestaat. Deze timertaak wordt elke zeven dagen uitgevoerd. Dit betekent dat inhoud samen met de minimale 30 dagen tot 37 dagen in de opslagbibliotheek kan staan voordat deze wordt verwijderd.
 
-Terwijl bestanden in de opslagbibliotheek worden bewaard, kunnen beheerders de SharePoint-site of het OneDrive-account van de inhoud niet verwijderen.
-
 Dit gedrag voor het kopiëren van bestanden naar de opslagbibliotheek geldt voor inhoud die aanwezig is wanneer de bewaarinstellingen worden toegepast. Voor bewaarbeleid wordt bovendien alle nieuwe inhoud die is gemaakt of toegevoegd aan de site nadat deze in het beleid is opgenomen, bewaard in de opslagbibliotheek. Nieuwe inhoud wordt echter niet gekopieerd naar de opslagbibliotheek wanneer deze voor het eerst wordt bewerkt, alleen wanneer deze wordt verwijderd. Als u alle versies van een bestand wilt behouden, moet u [versiebeheer](#how-retention-works-with-document-versions) inschakelen.
   
 Gebruikers zien een foutbericht als ze een bibliotheek, lijst, map of site proberen te verwijderen waarvoor retentie geldt. Ze kunnen een map verwijderen als ze eerst bestanden in de map verplaatsen of verwijderen waarvoor retentie geldt.
 
 > [!NOTE]
-> Omdat de opslagbibliotheek alleen wordt gemaakt wanneer deze nodig is, en niet wanneer u een bewaarbeleid of bewaarlabel toepast, moet u eerst een item bewerken of verwijderen dat moet worden bewaard om de werking hiervan te zien. Blader vervolgens naar de opslagbibliotheek om de bewaarde kopie te bekijken.
+> Omdat de opslagbibliotheek alleen wordt gemaakt wanneer deze nodig is, en niet wanneer u een bewaarbeleid of bewaarlabel toepast, moet u eerst een item bewerken of verwijderen dat moet worden bewaard om de werking hiervan te zien. Ga vervolgens naar de opslagbibliotheek om het bewaarde kopie te bekijken.
   
 Nadat instellingen voor bewaren zijn toegewezen aan inhoud in een OneDrive-account of op een SharePoint-site, zijn de paden die voor de inhoud worden gebruikt ervan afhankelijk of de retentie-instellingen zijn bedoeld om te bewaren en verwijderen, of alleen te bewaren of alleen te verwijderen.
 
@@ -120,7 +118,7 @@ Wanneer voor een document met versies bewaarinstellingen zijn ingesteld om die i
 
 - Als de bewaarperiode is gebaseerd op het moment waarop de inhoud is gemaakt, heeft elke versie dezelfde vervaldatum als het oorspronkelijke document. Het oorspronkelijke document en de versies ervan verlopen allemaal tegelijk.
 
-- Als de bewaarperiode is gebaseerd op het tijdstip waarop de inhoud voor het laatst is gewijzigd, heeft elke versie een eigen vervaldatum op basis van het tijdstip waarop het oorspronkelijke document is gewijzigd om die versie te maken. Het oorspronkelijke document en de versies ervan verlopen onafhankelijk van elkaar.
+- Als de bewaarperiode is gebaseerd op het tijdstip waarop de inhoud voor het laatst is gewijzigd, heeft elke versie een eigen vervaldatum op basis van het tijdstip waarop het oorspronkelijke document is gewijzigd om die versie te maken. Het originele document en de versies verlopen onafhankelijk van elkaar.
 
 > [!NOTE]
 > De behouden versies van deze SharePoint- en OneDrive-documenten kunnen niet worden doorzocht met eDiscovery-hulpprogramma's.

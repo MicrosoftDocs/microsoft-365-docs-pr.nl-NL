@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 40d86f9f3a4896bbe788f0a9894a7e08efe3a690
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 2a4b122b3ef3a1ddaf61d8f9373bec3e721db177
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301726"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651378"
 ---
 # <a name="redirecting-accounts-from-microsoft-defender-for-office-365-to-the-microsoft-365-security-center"></a>Accounts omleiden van Microsoft Defender voor Office 365 naar het Microsoft 365 beveiligingscentrum
 
@@ -64,13 +64,13 @@ Als u wilt beginnen met het routeren van accounts naar Microsoft 365 beveiliging
 > Nadat omleiding is ingeschakeld, worden accounts in actieve sessies terwijl deze instelling is toegepast, niet uit hun sessie weggestuurd en worden ze alleen doorgestuurd naar het Microsoft 365-beveiligingscentrum nadat ze hun huidige sessie hebben afgesloten en zich opnieuw hebben aangemeld.
 
 ## <a name="can-i-go-back-to-using-the-former-portal"></a>Kan ik teruggaan naar het gebruik van de voormalige portal?
-Als iets niet werkt voor u of als er iets is dat u niet kunt voltooien via de portal van het Microsoft 365-beveiligingscentrum, willen we dit horen met de feedbackoptie voor de portal. Als u problemen hebt ondervonden met omleiding, raden we u aan rechtstreeks contact op te nemen met uw PM-vriend via een privévoorbeeld of ons dit te laten weten via het formulier Feedback indienen.
+Als iets niet werkt voor u of als er iets is dat u niet kunt voltooien via de portal van het Microsoft 365-beveiligingscentrum, willen we dit horen met de feedbackoptie voor de portal. Als u problemen hebt ondervonden met omleiding, laat het ons dan weten.
 
 Terugkeren naar de voormalige portal:
 
 1. [Meld u aan](https://security.microsoft.com/) bij het Microsoft 365 beveiligingscentrum als globale beheerder of gebruik en account met machtigingen voor beveiligingsbeheerders in Azure Active Directory.
 
-2. **Navigeer naar Instellingen** algemene portal  >  **omleiding van**  >    >  **eindpunten**.  
+2. Navigeer **naar Instellingen**  >  **e-mail & portal**  >  **omleiding van de portal voor samenwerking.**   
 
 3. Schakel de instelling Automatische omleiding in op **Uit.**
 

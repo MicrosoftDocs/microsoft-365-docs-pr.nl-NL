@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
-description: 'Leer hoe u postvak IN met prioriteit configureert voor alle of specifieke gebruikers binnen uw organisatie. '
-ms.openlocfilehash: 62a38f911e4e1b878af6489f096f17644e070978
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+description: Als u verantwoordelijk bent voor het configureren van e-mailinstellingen voor iedereen in een bedrijf, wordt in dit artikel uitgelegd hoe u Postvak IN met focus configureert voor gebruikers.
+ms.openlocfilehash: ddd0886988072139a199bfc3f6e8adbbf25ad58b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644510"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623699"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Postvak IN met prioriteit configureren voor iedereen in uw organisatie
 
@@ -206,5 +206,10 @@ Er zijn twee cmdlets voor het beheren van Postvak IN met prioriteit. Wanneer u G
   
 ### <a name="can-i-run-a-script-to-see-who-has-turned-on-focused-inbox"></a>Kan ik een script uitvoeren om te zien wie Postvak IN met prioriteit heeft ingeschakeld?
 
-Nee, en dat is zo ontworpen. Postvak IN met prioriteit kan alleen aan de clientzijde worden ingeschakeld, dus via de cmdlet weet u alleen of het postvak van de gebruiker in aanmerking komt voor deze functie. Het is mogelijk de functie gelijktijdig in sommige clients in te schakelen en in andere uit te schakelen, bijvoorbeeld ingeschakeld in Outlook-app en Outlook Mobile, maar uitgeschakeld in de webversie van Outlook.
+Nee, en dat is standaard. Postvak IN met prioriteit kan alleen aan de clientzijde worden ingeschakeld, dus via de cmdlet weet u alleen of het postvak van de gebruiker in aanmerking komt voor deze functie. Het is mogelijk de functie gelijktijdig in sommige clients in te schakelen en in andere uit te schakelen, bijvoorbeeld ingeschakeld in Outlook-app en Outlook Mobile, maar uitgeschakeld in de webversie van Outlook.
 
+## <a name="related-content"></a>Verwante inhoud
+
+[Onbelangrijke e-mail configureren voor uw organisatie](../email/configure-clutter.md) (artikel)\
+[Gedeeld postvakinstellingen configureren](../email/configure-a-shared-mailbox.md) (artikel)\
+[Handtekeningen en disclaimers maken](create-signatures-and-disclaimers.md) (video)

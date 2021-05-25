@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: ba8f27c90f9c84729a10f461e85b2e1441b49549
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f2429b0ffdd4a238bc9322ae9199eebbbfd407b5
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625399"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651153"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Onderwerpen beheren in het onderwerpcentrum in Microsoft Viva-onderwerpen
 
@@ -119,3 +119,11 @@ Houd er rekening mee dat u er nog steeds voor kunt kiezen om een bevestigd onder
 Gepubliceerde onderwerpen zijn bewerkt, zodat specifieke informatie altijd wordt weergegeven voor iedereen die de pagina tegenkomt. Handmatig gemaakte onderwerpen worden hier ook weergegeven.
 
    ![Onderwerpen beheren](../media/knowledge-management/manage-topics-new.png)
+
+## <a name="topic-count-dashboard"></a>Dashboard onderwerptelling
+
+In deze grafiek in de dashboardweergave ziet u het aantal onderwerpen in het onderwerpcentrum Viva-onderwerpen. De grafiek toont het aantal onderwerpen per levenscyclusfase van het onderwerp en laat ook zien hoe het aantal onderwerpen in de tijd is trending. Kennisbeheerders kunnen visueel controleren hoe snel nieuwe onderwerpen worden ontdekt door AI en hoe snel onderwerpen worden bevestigd of gepubliceerd door de knowledge manager of gebruikersacties.
+
+Kennisbeheerders zien mogelijk een ander aantal onderwerpen in de  lijst met onderwerpen op de pagina Onderwerpen beheren dan in het dashboard. Dit komt omdat een kennisbeheerder mogelijk niet toegang heeft tot alle onderwerpen. Het aantal dat wordt weergegeven in de dashboardweergave wordt genomen voordat u machtigingen bijsnijdt. 
+
+   ![Schermafbeelding van het dashboard voor het aantal onderwerpen](../media/knowledge-management/topic-count-dashboard.png)

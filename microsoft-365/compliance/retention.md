@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid en retentielabels die u helpen te behouden wat u nodig hebt en wat u niet verwijdert.
-ms.openlocfilehash: 2695d34e29492a88da86c2511ce32e4036031e9d
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: ba17a94fa4ae0d12405cc7e38d7d74e90fa7ad02
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572655"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625219"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Meer informatie over bewaarbeleid en retentielabels
 
@@ -368,7 +368,7 @@ U kunt Behoudvergrendeling toepassen nadat het bewaarbeleid of retentielabelbele
 
 Als u uw bewaarbeleid niet vergrendelt, kunt u uw beleid op elk moment verwijderen, waardoor de eerder toegepaste bewaarinstellingen worden uitgeschakeld. U kunt het beleid ook behouden, maar een SharePoint-site of een OneDrive-account verwijderen of de locatiestatus wijzigen en uitschakelen.
  
-Wanneer u een van deze acties uitvoert, blijft inhoud van SharePoint of OneDrive die op grond van het beleid moet worden bewaard nog 30 dagen bewaard om onbedoeld gegevensverlies te voorkomen. Tijdens deze respijtperiode van 30 dagen kunt u de site niet verwijderen. Verwijderde bestanden blijven behouden (bestanden worden nog steeds toegevoegd aan de behoudbibliotheek), maar de timer die de bewaringsbibliotheek regelmatig opschoont, wordt voor deze bestanden opgeschort, zodat u ze indien nodig kunt terugzetten.
+Wanneer u een van deze acties uitvoert, blijft inhoud van SharePoint of OneDrive die op grond van het beleid moet worden bewaard nog 30 dagen bewaard om onbedoeld gegevensverlies te voorkomen. Tijdens deze respijtperiode van 30 dagen blijven verwijderde bestanden behouden (bestanden worden nog steeds toegevoegd aan de behoudbibliotheek), maar de timer die de bewaringsbibliotheek regelmatig opschoont, wordt voor deze bestanden opgeschort, zodat u ze indien nodig kunt terugzetten.
 
 Zie [Hoe retentie werkt voor SharePoint en OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive) voor meer informatie over de opslagbibliotheek.
 

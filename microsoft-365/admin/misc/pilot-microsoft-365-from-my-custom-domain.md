@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het testen van e-mailfunctionaliteit vanaf mijn aangepast domein in een Microsoft 365-postvak met slechts twee testaccounts.
-ms.openlocfilehash: bdcf86474a7f2edb458075e884c20e56d231df6d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b2017da30aba3b48b51de26b7907167dc5dd3e6e
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197837"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623643"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>Testfase van Microsoft 365 uitvoeren vanaf mijn aangepaste domein
 
@@ -60,7 +60,7 @@ Volg deze stappen om een Microsoft 365-testfase in te stellen:
 
 3. Selecteer de services die u met uw domein wilt testen, zoals e-mail en chatberichten.
 
-5. Volg de stapsgewijze instructies op de pagina **Domein verifiëren** en selecteer **Verifiëren**.
+4. Volg de stapsgewijze instructies op de pagina **Domein verifiëren** en selecteer **Verifiëren**.
 
     Het doorvoeren van DNS-wijzigingen kan enkele minuten tot 72 uur duren.
 
@@ -70,7 +70,7 @@ Volg deze stappen om een Microsoft 365-testfase in te stellen:
 
 1. In het Exchange-beheercentrum selecteert u in de sectie **E-mailstroom** de optie **Geaccepteerde domeinen** en selecteert u vervolgens het domein dat u wilt wijzigen.
 
-2. Dubbelklik op het venster om het te openen en selecteer **Interne relay**. 
+2. Dubbelklik op het venster om het te openen en selecteer **Interne relay**.
 
 3. Selecteer **Opslaan**.
 
@@ -85,7 +85,7 @@ Microsoft 365 maakt gebruik van Exchange Online Protection (EOP) voor beschermin
 
 1. In het navigatiedeelvenster van het Exchange-beheercentrum selecteert u **Beveiliging** en vervolgens **Verbindingsfilter**.
 
-2. In de **IP-acceptatielijst** selecteert u **+** en voegt u het IP-adres van de e-mailserver van uw huidige e-mailprovider toe. 
+2. In de **IP-acceptatielijst** selecteert u **+** en voegt u het IP-adres van de e-mailserver van uw huidige e-mailprovider toe.
 
 ### <a name="step-5-create-user-accounts-and-set-the-primary-reply-to-address"></a>Stap 5: gebruikersaccounts maken en het primaire antwoordadres instellen
 
@@ -97,9 +97,9 @@ Microsoft 365 maakt gebruik van Exchange Online Protection (EOP) voor beschermin
 
     Als u wilt dat het e-mailadres van een gebruiker ongewijzigd blijft, moet het veld **Gebruikersnaam** overeenkomen met het huidige e-mailadres van de gebruiker.
 
-3. Kies de juiste licentie, klik op **Volgende** en klik vervolgens op **Toevoegen voltooien**. 
+3. Kies de juiste licentie, klik op **Volgende** en klik vervolgens op **Toevoegen voltooien**.
 
-4. Selecteer naast **Gebruikersnaam** de naam van het aangepaste domein in de vervolgkeuzelijst. 
+4. Selecteer naast **Gebruikersnaam** de naam van het aangepaste domein in de vervolgkeuzelijst.
 
 5. Selecteer **Maken** > **Sluiten**.
 
@@ -115,7 +115,7 @@ Hier moet u twee stappen voor volgen:
 
 Controleer of u de volgende taken hebt uitgevoerd in Microsoft 365 of Office 365:
 
-1. Voor het instellen van connectors moet u machtigingen toewijzen voordat u aan de slag kunt. Als u wilt controleren welke machtigingen u nodig hebt, raadpleegt u het item Microsoft 365 en Office 365-connectors in bij [Functiemachtigingen in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/feature-permissions-in-eop).
+1. Voor het instellen van connectors moet u machtigingen toewijzen voordat u aan de slag kunt. Als u wilt controleren welke machtigingen u nodig hebt, raadpleegt u het item Microsoft 365 en Office 365-connectors in bij [Functiemachtigingen in Exchange Online](/exchange/permissions-exo/feature-permissions).
 
 2. Als u wilt dat EOP of Exchange Online e-mailberichten van uw e-mailservers naar Internet doorstuurt, doet u het volgende:
 

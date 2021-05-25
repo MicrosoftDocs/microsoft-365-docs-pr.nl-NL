@@ -22,12 +22,12 @@ description: Gebruik vertrouwelijkheidslabels van Microsoft Information Protecti
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bd3cc0a71fab9f2ceb6d3219a371bb4d5c030744
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 171f449a8b73ff42113358d50dbe8bde909f5d4d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297246"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625183"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Meer informatie over vertrouwelijkheidslabels
 
@@ -96,7 +96,7 @@ Er kan één vertrouwelijkheidslabel worden toegepast op elk item dat vertrouwel
 
 ## <a name="what-sensitivity-labels-can-do"></a>Wat vertrouwelijkheidslabels kunnen doen
 
-Nadat een vertrouwelijkheidslabel is toegepast op een e-mail of document worden alle geconfigureerde beveiligingsinstellingen voor dat label afgedwongen op de inhoud. U kunt een vertrouwelijkheidslabel configureren voor het:
+Nadat een vertrouwelijkheidslabel is toegepast op een e-mail of document worden alle geconfigureerde beveiligingsinstellingen voor dat label afgedwongen op de inhoud. U kunt een vertrouwelijkheidslabel configureren om:
 
 - **Versleutelen** van e-mailberichten en documenten om te voorkomen dat onbevoegden toegang hebben tot deze gegevens. U kunt er daarnaast voor kiezen welke gebruikers of groep machtigingen hebben om welke acties uit te voeren voor hoelang. U kunt er bijvoorbeeld voor kiezen om alle gebruikers in uw organisatie een document te laten bewerken, terwijl een specifieke groep in een andere organisatie dit alleen mag bekijken. In plaats van door de beheerder gedefinieerde machtigingen kunt u uw gebruikers machtigingen laten toewijzen aan de inhoud wanneer zij een label toepassen. 
     
@@ -192,7 +192,7 @@ Wanneer u labelbeleid configureert, kunt u:
 
 - **Eis dat gebruikers een label toepassen** met één optie voor e-mail en documenten en een andere voor containers. Deze opties, ook wel verplicht labelen genoemd, zorgen ervoor dat er een label moet worden toegepast voordat gebruikers documenten kunnen opslaan en e-mailberichten verzenden en nieuwe groepen of sites maken.
     
-    Aan documenten en e-mailberichten kan door een gebruiker handmatig een label worden toegewezen, automatisch als gevolg van een voorwaarde die u hebt geconfigureerd of standaard worden toegewezen (de hiervoor beschreven optie standaardlabel). Een voorbeeldprompt die wordt weergegeven in Outlook wanneer een gebruiker een label moet toewijzen:
+    Aan documenten en e-mailberichten kan door een gebruiker handmatig een label worden toegewezen, automatisch als gevolg van een voorwaarde die u hebt geconfigureerd of standaard worden toegewezen (de hiervoor beschreven optie standaardlabel). Een voorbeeldprompt die in Outlook wordt weergegeven wanneer een gebruiker een label moet toewijzen:
 
     ![Prompt in Outlook waarin de gebruiker wordt gevraagd een verplicht label toe te passen](../media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
     
@@ -209,7 +209,7 @@ Wanneer u labelbeleid configureert, kunt u:
 
 Nadat u labelbeleid hebt gemaakt dat nieuwe vertrouwelijkheidslabels toewijst aan gebruikers en groepen, beginnen gebruikers die labels te zien in hun Office-apps. Het duurt maximaal 24 uur totdat de laatste wijzigingen binnen uw organisatie zijn gerepliceerd.
 
-Er is geen limiet voor het aantal vertrouwelijkheidslabels dat u kunt maken en publiceren, met één uitzondering: als het label versleuteling toepast, kunt u maximaal 500 labels maken. Probeer echter het aantal labels tot een minimum te beperken om de overhead voor beheerders en de complexiteit voor uw gebruikers te verminderen. De praktijk heeft uitgewezen dat de effectiviteit aanzienlijk afneemt als gebruikers meer dan vijf hoofdlabels of meer dan vijf sublabels per hoofdlabel hebben.
+Er is geen limiet voor het aantal vertrouwelijkheidslabels dat u kunt maken en publiceren, met één uitzondering: als het label versleuteling toepast die de gebruikers en machtigingen specificeert, wordt er een maximum van 500 labels ondersteund met deze configuratie. Probeer echter het aantal labels tot een minimum te beperken om de overhead voor beheerders en de complexiteit voor uw gebruikers te verminderen. De praktijk heeft uitgewezen dat de effectiviteit aanzienlijk afneemt als gebruikers meer dan vijf hoofdlabels of meer dan vijf sublabels per hoofdlabel hebben.
 
 ### <a name="label-policy-priority-order-matters"></a>Labelbeleidprioriteit (volgorde is van belang)
 
@@ -253,7 +253,7 @@ Zie [Kies uw Windows-labeloplossing](/azure/information-protection/rms-client/us
 > [!NOTE]
 > Labelbeheer voor Azure Information Protection-labels in Azure Portal is **31 maart 2021** afgeschaft. Vind meer informatie in de officiële [afschaffingsmelding](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
-Wanneer uw tenant zich nog niet op het [geïntegreerde labelplatform](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform) bevindt, moet u eerst geïntegreerde labeling activeren voordat u vertrouwelijkheidslabels kunt gebruiken. Zie [Azure Information Protection-labels migreren naar geïntegreerde vertrouwelijkheidslabels](/azure/information-protection/configure-policy-migrate-labels) voor instructies. 
+Wanneer uw tenant zich nog niet op het [geïntegreerde labelplatform](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform) bevindt, moet u eerst geïntegreerde labeling activeren voordat u vertrouwelijkheidslabels kunt gebruiken. Zie [Azure Information Protection-labels migreren naar geïntegreerde vertrouwelijkheidslabels](/azure/information-protection/configure-policy-migrate-labels) voor instructies. 
 
 ## <a name="sensitivity-labels-and-the-microsoft-information-protection-sdk"></a>Vertrouwelijkheidslabels en de Microsoft Information Protection SDK
 

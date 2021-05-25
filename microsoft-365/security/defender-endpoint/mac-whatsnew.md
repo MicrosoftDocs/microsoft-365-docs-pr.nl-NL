@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a1e07ac2e2e544605f04e9090177004db64d2f04
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: d01e1d847a8932d95e645a89eff15cf0793491e5
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994995"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651270"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Nieuwe functies in Microsoft Defender voor Eindpunt op Mac
 
@@ -37,6 +37,14 @@ ms.locfileid: "51994995"
 
 > [!IMPORTANT]
 > Voor macOS 11 (Big Sur) vereist Microsoft Defender voor Eindpunt extra configuratieprofielen. Als u een bestaande klant bent die upgradet van eerdere versies van macOS, moet u de extra configuratieprofielen implementeren die op [deze pagina worden vermeld.](mac-sysext-policies.md)
+
+## <a name="1012964-20121042129640"></a>101.29.64 (20.121042.12964.0)
+
+- Vanaf deze versie worden bedreigingen die zijn gedetecteerd tijdens on-demand antivirusscans die worden geactiveerd via de opdrachtregelclient, automatisch verwijderd. Bedreigingen die zijn gedetecteerd tijdens scans die via de gebruikersinterface worden geactiveerd, vereisen nog steeds handmatige actie.
+- `mdatp diagnostic real-time-protection-statistics` ondersteunt nu twee extra schakelopties:
+  - `--sort`: sorteert de uitvoer aflopend op het totale aantal gescande bestanden
+  - `--top N`: geeft de hoogste N-resultaten weer (werkt alleen als `--sort` deze ook is opgegeven)
+- Prestatieverbeteringen (met name voor wanneer ERWD wordt gebruikt) & oplossingen
 
 ## <a name="1012750-20121022127500"></a>101.27.50 (20.121022.12750.0)
 
@@ -114,7 +122,7 @@ ms.locfileid: "51994995"
 
 ## <a name="1010723"></a>101.07.23
 
-- Nieuwe velden toegevoegd aan de uitvoer van voor het controleren van de status van de `mdatp --health` passieve modus en de EDR-groeps-id
+- Nieuwe velden toegevoegd aan de uitvoer van voor het controleren van de status van de passieve modus en `mdatp --health` de EDR groep-id
 
   > [!NOTE]
   > `mdatp --health` wordt vervangen door `mdatp health` in een toekomstige productupdate.
@@ -178,9 +186,9 @@ ms.locfileid: "51994995"
 ## <a name="1008691"></a>100.86.91
 
 > [!CAUTION]
-> Als u de meest volledige beveiliging wilt garanderen voor uw macOS-apparaten en in overeenstemming met apple die de levering van macOS-beveiligingsupdates stopt voor besturingssysteemversies ouder dan [huidige – 2], worden MDATP voor Mac-implementatie en updates niet meer ondersteund op macOS Sierra [10.12]. MDATP voor Mac-updates en -verbeteringen worden geleverd aan apparaten met versies Catalina [10.15], Mojave [10.14] en High Sierra [10.13]. 
+> Als u de meest volledige beveiliging wilt garanderen voor uw macOS-apparaten en in overeenstemming met apple die de levering van macOS-beveiligingsupdates stopt voor besturingssysteemversies ouder dan [huidige – 2], worden MDATP voor Mac-implementatie en -updates niet meer ondersteund op macOS Sierra [10.12]. MDATP updates en verbeteringen voor Mac worden geleverd op apparaten met versies Catalina [10.15], Mojave [10.14] en High Sierra [10.13]. 
 >
-> Als MDATP voor Mac al is geïmplementeerd op uw Sierra [10.12]-apparaten, kunt u een upgrade uitvoeren naar de nieuwste macOS-versie om het risico op verlies van beveiliging te voorkomen.
+> Als u al MDATP voor Mac hebt geïmplementeerd op uw Sierra [10.12]-apparaten, kunt u een upgrade uitvoeren naar de nieuwste macOS-versie om het risico op verlies van beveiliging te voorkomen.
 
 - Prestatieverbeteringen & oplossingen voor fouten
 
@@ -231,6 +239,6 @@ ms.locfileid: "51994995"
   > Het mechanisme voor het verlenen van deze toestemming is afhankelijk van de manier waarop u Microsoft Defender voor Eindpunt hebt geïmplementeerd:
   >
   > - Zie de bijgewerkte instructies in het onderwerp Handmatige implementatie voor [handmatige](mac-install-manually.md#how-to-allow-full-disk-access) implementatie.
-  > - Zie de bijgewerkte instructies in de op [JAMF gebaseerde](mac-install-with-jamf.md) implementatie- en [Microsoft Intune-implementatieonderwerpen](mac-install-with-intune.md#create-system-configuration-profiles) voor beheerde implementaties.
+  > - Zie de bijgewerkte instructies in de op [JAMF gebaseerde](mac-install-with-jamf.md) implementatie- en Microsoft Intune [implementatieonderwerpen](mac-install-with-intune.md#create-system-configuration-profiles) voor beheerde implementaties.
 
 - Prestatieverbeteringen & oplossingen voor fouten

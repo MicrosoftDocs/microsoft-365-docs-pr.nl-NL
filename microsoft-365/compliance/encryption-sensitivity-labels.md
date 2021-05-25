@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configureer vertrouwelijkheidslabels voor versleuteling die uw gegevens beschermen door de toegang en het gebruik te beperken.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 804cfa9da39b5dc9b9dffdcd68fb196e8676f9af
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: f6fff2bc595e9317ef037929a8a6828935b15bbf
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532084"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624679"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Toegang tot inhoud beperken door versleuteling toe te passen met vertrouwelijkheidslabels
 
@@ -427,6 +427,10 @@ Voordat u versleuteling kunt gebruiken, moet u mogelijk enkele configuratietaken
 - Beveiliging activeren vanuit Azure Information Protection
     
     Als u met vertrouwelijkheidslabels versleuteling wilt toepassen, moet de beveiligingsservice (Azure Rights Management) van Azure Information Protection voor uw tenant worden geactiveerd. In nieuwere tenants is dit de standaardinstelling, maar mogelijk moet u de service handmatig activeren. Zie [Beveiligingsservice activeren vanuit Azure Information Protection](/azure/information-protection/activate-service) voor meer informatie.
+
+- Controleren op netwerkvereisten
+    
+    Mogelijk moet u enkele wijzigingen aanbrengen op uw netwerkapparaten, zoals firewalls. Zie voor meer informatie [Firewalls en netwerkinfrastructuur](/azure/information-protection/requirements#firewalls-and-network-infrastructure) in de documentatie van Azure Information Protection.
 
 - Exchange voor Azure Information Protection configureren
     

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Maak gedeelde postvakken zodat meerdere personen binnen uw bedrijf de verantwoordelijkheid kunnen delen voor het lezen en beantwoorden van e-mails die naar hetzelfde adres zijn gestuurd.
-ms.openlocfilehash: 808b98b45c3d6f5ba3cd9847ba2aa843ff53d106
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e628d72482ed7ff32a204eaf9503fdd9a271844a
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537605"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635496"
 ---
 # <a name="create-a-shared-mailbox"></a>Een gedeeld postvak maken 
 
@@ -190,7 +190,7 @@ U kunt op twee manieren toegang krijgen tot een gedeeld postvak op een mobiel ap
 
 ## <a name="use-the-shared-calendar"></a>De gedeelde agenda gebruiken
 
-Wanneer u een gedeeld postvak maakt, maakt u automatisch een gedeelde agenda. We gebruiken liever de agenda van het gedeelde Postvak dan een SharePoint-agenda voor het bijhouden van afspraken en waar personen zijn. Een gedeelde agenda is geïntegreerd met Outlook en is veel eenvoudiger te gebruiken dan een SharePoint-agenda.
+We gebruiken liever de agenda van het gedeelde Postvak dan een SharePoint-agenda voor het bijhouden van afspraken en waar personen zijn. Een gedeelde agenda is geïntegreerd met Outlook, u ontvangt herinneringen en de gedeelde agenda is veel eenvoudiger te maken en te gebruiken dan een SharePoint-agenda.
 
 1. In de Outlook-app gaat u naar de agendaweergave en selecteert u het gedeelde postvak.
 
@@ -200,12 +200,8 @@ Wanneer u een gedeeld postvak maakt, maakt u automatisch een gedeelde agenda. We
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Info over gedeelde postvakken](about-shared-mailboxes.md) (artikel)
-
-[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)
-
-[Het postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)
-
-[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md) (artikel)
-
+[Info over gedeelde postvakken](about-shared-mailboxes.md) (artikel)\
+[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)\
+[Het postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)\
+[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md) (artikel)\
 [Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)

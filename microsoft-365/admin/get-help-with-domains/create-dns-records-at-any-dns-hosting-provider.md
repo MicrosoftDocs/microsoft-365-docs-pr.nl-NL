@@ -20,12 +20,12 @@ description: U kunt een domein bij een DNS-hostingprovider verbinden met Microso
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: facdd460bd3197e39dd6d4d9f4a5450dc972bf03
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 62b6793dd97e146b703c82e0ba23f4d7414025b6
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537557"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623975"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS-records toevoegen om het domein te verbinden
 
@@ -169,8 +169,6 @@ Als u deze waarden wilt toevoegen, moet u één enkele tekenreeks aanmaken, waar
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Naamservers wijzigen voor het instellen van Microsoft 365 bij een domeinregistrar](change-nameservers-at-any-domain-registrar.md) (artikel)
-
-[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)
-
+[Naamservers wijzigen voor het instellen van Microsoft 365 bij een domeinregistrar](change-nameservers-at-any-domain-registrar.md) (artikel)\
+[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)\
 [Domeinen beheren](index.yml) (koppelingspagina)

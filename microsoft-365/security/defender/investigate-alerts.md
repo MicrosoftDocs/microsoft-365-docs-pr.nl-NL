@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b9bbe058042a49586e8515fde85371b1487e8d25
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6a34269c414f59d40c9160d5728159ed9cddf976
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297126"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651345"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Waarschuwingen onderzoeken in Microsoft 365 Defender
 
@@ -72,14 +72,12 @@ U kunt ook de actie **De hoofdwaarschuwingspagina openen** selecteren in **het d
 
 Een waarschuwingspagina bestaat uit deze secties: 
 
-- Waarschuwingsverhaal
-- Acties die zijn ondernomen (inclusief beïnvloede activa)
-- Gerelateerde gebeurtenissen
+- Waarschuwingsverhaal, de reeks gebeurtenissen en waarschuwingen met betrekking tot deze waarschuwing in chronologische volgorde
 - Overzichtsdetails
 
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Voorbeeld van de detailspagina van een waarschuwing in het Microsoft 365 beveiligingscentrum":::
 
-Op een waarschuwingspagina kunt u de beletsels **(...)** naast een entiteit selecteren om beschikbare acties weer te geven, zoals het openen van de specifieke activapagina of het uitvoeren van specifieke herstelstappen.
+Op een waarschuwingspagina kunt u de drie puntjes **(...)** naast een entiteit selecteren om beschikbare acties te bekijken, zoals het openen van de waarschuwingspagina of het koppelen van de waarschuwing aan een ander incident.
 
 ### <a name="analyze-affected-assets"></a>Beïnvloede activa analyseren
 

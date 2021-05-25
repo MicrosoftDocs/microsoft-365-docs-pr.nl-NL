@@ -12,17 +12,19 @@ ms.collection: m365solution-managecontracts
 search.appverid: ''
 localization_priority: None
 ROBOTS: ''
-description: Meer informatie over het beheren van contracten met Microsoft 365 oplossing SharePoint Syntex, Microsoft Teams en Power Automate.
-ms.openlocfilehash: 18866425cb331b01525dd488a6688608a3d1e559
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Meer informatie over het beheren van contracten Microsoft 365 een SharePoint syntex, SharePoint lijsten, Microsoft Teams en Power Automate.
+ms.openlocfilehash: 219ab13eb5787bef566ede0c5dc856da29d96837
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636216"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651282"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Contracten beheren met een Microsoft 365 oplossing
 
 In dit artikel wordt beschreven hoe u een oplossing voor contractbeheer voor uw organisatie kunt maken met SharePoint Syntex en onderdelen van Microsoft 365. Het biedt u een kader om u te helpen bij het plannen en maken van een oplossing die past bij uw unieke zakelijke behoeften. Zelfs als deze oplossing niet past bij uw bedrijfsbehoeften als geheel, kunnen delen ervan worden overgenomen in uw planning om een aangepaste oplossing voor contractbeheer te maken.
+
+*Deze inhoudsset documenteert een Microsoft 365 oplossing die is ontwikkeld door Thomas Molbach met het Modern Work Solution Strategy Team bij Microsoft.*
 
 ## <a name="identify-the-business-problem"></a>Het zakelijke probleem identificeren
 

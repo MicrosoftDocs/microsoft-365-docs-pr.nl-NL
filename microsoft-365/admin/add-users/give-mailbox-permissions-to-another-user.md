@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: Geef een gebruiker het recht om toegang te krijgen tot het postvak van een andere gebruiker, zodat de gebruiker e-mailberichten kan lezen en verzenden vanuit het postvak van de andere gebruiker.
-ms.openlocfilehash: 3514be02f2ef82b727edfcf86c0bd3f6b8515510
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0e5f7b154fa37ae9775e7208574b2a5395e7c239
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535960"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634278"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Postvakmachtigingen toewijzen aan een andere gebruiker - Help voor beheerders
 
@@ -207,9 +207,7 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 ## <a name="related-content"></a>Verwante inhoud
   
-[E-mail- en agenda-items van een andere gebruiker beheren](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) (artikel)
-    
-[E-mail verzenden namens een andere persoon of groep](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) (artikel)
-
+[E-mail- en agenda-items van een andere gebruiker beheren](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) (artikel)\   
+[E-mail verzenden namens een andere persoon of groep](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) (artikel)\
 [Een gebruikersnaam en e-mailadres wijzigen](../add-users/change-a-user-name-and-email-address.md) (video)
 

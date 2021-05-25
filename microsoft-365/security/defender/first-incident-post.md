@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 44f583d32de166fe3d68a182406eb3a2ee814084
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6b5311a2923d7b299ba4f70ef3c2e8d91809e7c8
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297150"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651366"
 ---
 # <a name="step-3-perform-a-post-incident-review-of-your-first-incident"></a>Stap 3. Een beoordeling na het incident uitvoeren van uw eerste incident
 
@@ -36,7 +36,7 @@ ms.locfileid: "52297150"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-National Institute of Standards and Technology (NIST) raadt aan dat wanneer alle stappen zijn ondernomen om de aanval te herstellen, organisaties het incident moeten bekijken om hier van te leren en de beveiligingshouding of -processen te leren en verbeteren. Het beoordelen van de verschillende aspecten van incidentafhandeling wordt belangrijk bij de voorbereiding op het volgende incident.
+National Institute of Standards and Technology (NIST) raadt aan dat wanneer alle stappen zijn ondernomen om de aanval te herstellen, organisaties het incident moeten controleren om hier van te leren en de beveiligingshouding of processen te verbeteren. Het beoordelen van de verschillende aspecten van incidentafhandeling wordt belangrijk bij de voorbereiding op het volgende incident.
 
 Microsoft 365 Defender kan u helpen bij het uitvoeren van post-incidentactiviteiten door een organisatie waarschuwingen te geven die zijn afgestemd op [MITRE ATT&CK Framework.](https://attack.mitre.org/) Alle Microsoft Defender-oplossingen labelen aanvallen in overeenstemming met een ATT-&CK-tactiek of -techniek. 
 

@@ -23,13 +23,13 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: Meer informatie over het instellen van uw abonnement op Microsoft 365 Business Standard.
-ms.openlocfilehash: ce45b4869000892b5640730e765dbfc9c21386ed
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Wanneer je Microsoft 365 Business Standard aanschaft, heb je de mogelijkheid om een domein te gebruiken dat je bezit of een domein te kopen tijdens de registratie.
+ms.openlocfilehash: cee91edaab09506dca90cf5ed64ee9bc669c98cf
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244453"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624415"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard installeren
 
@@ -50,7 +50,7 @@ Wanneer u Microsoft 365 Business Standard aanschaft, hebt u de mogelijkheid om e
 4. Voer in de stap **Domein toevoegen** de domeinnaam in die u wilt gebruiken (zoals contoso.com).
 
     > [!IMPORTANT]
-    > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Ga in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
+    > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Go in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
 
     
 4. Volg de stappen in de wizard om [DNS-records te maken bij een DNS-hostingprovider voor Office 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarmee wordt geverifieerd of u eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
@@ -69,7 +69,7 @@ Alle gebruikers die u toevoegt in de wizard krijgen automatisch een Microsoft 36
 
 1. Als uw Microsoft 365 Business Standard-abonnement bestaande gebruikers heeft (bijvoorbeeld als u Azure AD Connect hebt gebruikt), hebt u een optie om nu licenties aan hen toe te wijzen. Wijs nu licenties aan hen toe.
 
-2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van referenties met de nieuwe gebruikers die u hebt toegevoegd. U kunt deze afdrukken, hun een e-mail sturen of deze downloaden.
+2. Nadat u de gebruikers hebt toegevoegd, krijgt u ook een optie voor het delen van inloggegevens met de toegevoegde gebruikers. U kunt de inloggegevens afdrukken, per e-mail versturen of downloaden.
 
 ## <a name="connect-your-domain"></a>Uw domein verbinden
 
@@ -81,7 +81,7 @@ Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinre
 1. Meestal wordt uw registrar automatisch gedetecteerd met de wizard Setup, en wordt een koppeling weergegeven naar stapsgewijze instructies voor het bijwerken van uw NS-records op de website van de registrar. Zo niet, gaat u naar[Naamservers wijzigen voor het instellen van Office 365 bij een domeinregistrar](../get-help-with-domains/change-nameservers-at-any-domain-registrar.md). 
 
     - Als u bestaande DNS-records hebt, bijvoorbeeld een bestaande website, maar uw DNS-host is ingeschakeld voor [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), kiest u **Records toevoegen voor mij**. Accepteer alle standaardinstellingen op de pagina **Uw online services kiezen**, kies **Volgende** en kies **Autoriseren** op de pagina van uw DNS-host.
-    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [basisprincipes van domeinen](/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
+    - Als u bestaande DNS-records hebt met andere DNS-hosts (niet ingeschakeld voor domeinverbinding), kunt u uw eigen DNS-records beheren om ervoor te zorgen dat de bestaande services verbonden blijven. Zie [Basisinformatie over domeinen](/office365/admin/get-help-with-domains/dns-basics) voor meer informatie.
 
 2. Volg de stappen in de wizard en e-mail en andere services worden voor u ingesteld.
 
@@ -139,4 +139,7 @@ Microsoft 365 bevat geen openbare website voor uw bedrijf. Als u er toch een wil
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb]
 
-Meer informatie vindt u op [Een openbare website gebruiken](../../business-video/create-web-site.md).
+## <a name="related-content"></a>Verwante inhoud
+
+[Een website maken](../../business-video/create-web-site.md) (video)\
+[Microsoft 365 voor uw bedrijf](../../business-video/index.yml) (koppelingspagina)

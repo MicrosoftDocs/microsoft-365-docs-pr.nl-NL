@@ -20,12 +20,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het Microsoft 365 complianceoplossingen met behulp van gegevensconnectoren van derden en MICROSOFT-Graph API's.
-ms.openlocfilehash: 676c0ba41e517dd0c3692fec29a1d4034641b634
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1fed5ac72c7dbfa4b1be370ec03678e1beecdcd2
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162062"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651054"
 ---
 # <a name="microsoft-365-compliance-extensibility"></a>Microsoft 365 compatibiliteits extensibility
 
@@ -94,3 +94,8 @@ Zie voor de licentievereisten voor Advanced eDiscovery en de API de sectie 'eDis
 Enterprise Information Archiving (EIA) voor Microsoft Teams is een belangrijk scenario voor onze klanten, omdat ze hierdoor kunnen oplossen voor wettelijke vereisten. Naast onze ingebouwde mogelijkheden voor het archiveren van inhoud in Microsoft Teams, kunnen klanten en partners nu Teams EXPORT-API's gebruiken om op te lossen voor aangepaste toepassings- en integratiescenario's. De Teams EXPORT API's ondersteunen bulkexport (maximaal 200 aanvragen per seconde/per app/per tenant) van Teams berichten en berichtbijlagen. Verwijderde berichten zijn ook toegankelijk via de API tot 30 dagen nadat ze zijn verwijderd. Zie Inhoud exporteren met de Microsoft Teams API's exporteren voor meer informatie over deze Teams [api's](/microsoftteams/export-teams-content)exporteren en hoe u ze kunt gebruiken in uw toepassingen.
 
 Zie voor de licentievereisten voor het gebruik van de Teams API's exporteren Microsoft 365 richtlijnen voor beveiligings- [& naleving.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+
+### <a name="microsoft-graph-connector-apis-preview"></a>Microsoft Graph Connector API's (preview)
+
+Met [Microsoft Graph connectors](/microsoftsearch/connectors-overview)kunnen organisaties gegevens van derden indexeren, zodat deze worden weergegeven in de zoekresultaten van Microsoft. Met deze functie worden de typen inhoudsbronnen uitgebreid die kunnen worden gezocht in uw Microsoft 365 productiviteits-apps en het bredere Microsoft-ecosysteem. De gegevens van derden kunnen on-premises of in openbare of privéwolken worden gehost. Vanaf Advanced eDiscovery kunnen we ontwikkelaarsvoorbeelden van ingebouwde nalevingswaarde van Microsoft 365 verbonden apps inschakelen. Hierdoor kunnen apps worden geïntegreerd in het Microsoft 365 om gebruikers in staat te stellen naadloze nalevingservaringen te bieden. Zie Verbindingen maken, bijwerken en verwijderen in de Microsoft-Graph voor meer informatie over het opnemen van Microsoft Graph Connector-API's in de weergave [apps.](/graph/search-index-manage-connections)
+

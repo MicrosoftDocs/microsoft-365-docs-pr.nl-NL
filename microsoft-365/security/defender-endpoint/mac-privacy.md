@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2897766570c6ef8979a7944a687ba024e55b3ce
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2884ffc695abc1c6b4b5be9bbd7c9ad37ad05439
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934547"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651294"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>Privacy voor Microsoft Defender voor Eindpunt op macOS
 
@@ -133,7 +133,8 @@ De volgende velden worden verzameld:
 | cloud_service.service_uri                           | URI gebruikt om te communiceren met de cloud. |
 | cloud_service.diagnostic_level                      | Diagnostisch niveau van het apparaat (vereist, optioneel). |
 | cloud_service.automatic_sample_submission           | Of automatische voorbeeldinzending is ingeschakeld of niet. |
-| edr.early_preview                                   | Of het apparaat EDR early preview-functies moet uitvoeren. |
+| cloud_service.automatic_definition_update_enabled   | Of automatische definitie-update is ingeschakeld of niet. |
+| edr.early_preview                                   | Of het apparaat moet worden uitgevoerd EDR de eerste preview-functies. |
 | edr.group_id                                        | Groepsaanduiding die wordt gebruikt door het detectie- en antwoordonderdeel. |
 | edr.tags                                            | Door de gebruiker gedefinieerde tags. |
 | functies. \[ optionele functienaam\]                  | Lijst met voorbeeldfuncties, samen met of deze zijn ingeschakeld of niet. |
@@ -165,7 +166,7 @@ De volgende velden worden verzameld:
 | ------------------------------ | ----------- |
 | v1_crash_count                 | Aantal keren dat V1-motorproces elk uur is vastgelopen op clientmachine  |
 | v2_crash_count                 | Aantal keren dat V2-motorproces elk uur is vastgelopen op clientmachine  |
-| EDR_crash_count                | Aantal keren dat EDR-proces elk uur is vastgelopen op clientapparaat        |
+| EDR_crash_count                | Aantal keren dat EDR proces elk uur is vastgelopen op de clientmachine        |
 
 **Statistieken over kernelextensie**
 
@@ -219,6 +220,7 @@ De volgende velden worden verzameld:
 | antivirus_engine.scan_cache_maximum                | Grootte van de productcache. |
 | antivirus_engine.maximum_scan_threads              | Maximum aantal threads dat wordt gebruikt voor scannen. |
 | antivirus_engine.threat_restoration_exclusion_time | Time-out voordat een bestand dat uit de quarantaine is hersteld, opnieuw kan worden gedetecteerd. |
+| antivirus_engine.threat_type_settings              | Configuratie voor de manier waarop verschillende bedreigingstypen door het product worden verwerkt. |
 | filesystem_scanner.full_scan_directory             | Volledige scanmap. |
 | filesystem_scanner.quick_scan_directories          | Lijst met directories die in quick scan worden gebruikt. |
 | edr.latency_mode                                   | De latentiemodus die wordt gebruikt door het detectie- en antwoordonderdeel. |

@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Met het domeinnaamsysteem worden computerhostnamen toegestuurd aan IP-adressen en als u inzicht hebt in DNS en de basisprincipes van domeinregistrars, kunt u domeinen beter beheren.
-ms.openlocfilehash: f9982ad55652eac9faf33986bb1481e29897a48e
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 19fc444c056bbf3e1ea1f601d20a9b9cbd75bec8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582942"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635424"
 ---
 # <a name="dns-basics"></a>DNS-basisprincipes
 
@@ -38,6 +38,8 @@ ms.locfileid: "52582942"
 ::: moniker range="o365-worldwide"
 
 Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van domeinregistrars en databases. Het DNS (Domain Name System) biedt een koppeling tussen door mensen leesbare computerhostnamen en de IP-adressen die door netwerkapparatuur worden gebruikt. Als u de basisprincipes van DNS en domeinregistrars begrijpt, kunt u domeinen beter beheren.
+
+## <a name="watch-domains--dns-an-overview"></a>Bekijken: Domeinen & DNS: een overzicht
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -46,6 +48,8 @@ Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van do
 ::: moniker range="o365-germany"
 
 Domeinnamen, zoals contoso.com, worden beheerd met een wereldwijd systeem van domeinregistrars en databases. Het DNS (Domain Name System) biedt een koppeling tussen door mensen leesbare computerhostnamen en de IP-adressen die door netwerkapparatuur worden gebruikt. Als u de basisprincipes van DNS en domeinregistrars begrijpt, kunt u domeinen beter beheren.
+
+## <a name="watch-domains--dns-an-overview"></a>Bekijken: Domeinen & DNS: een overzicht
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -192,7 +196,7 @@ U kunt [zoeken naar een lijst met waarden](information-for-dns-records.md) om uw
   
 Als u een implementatie plant, wilt u mogelijk een lijst bekijken met alle vereiste DNS-records voor Microsoft 365, de functie ervan en voorbeeldwaarden. Bekijk [Externe DNS-records voor Microsoft 365](../../enterprise/external-domain-name-system-records.md).
   
-## <a name="how-can-i-learn-more"></a>Waar vind ik meer informatie?
+## <a name="next-steps"></a>Volgende stappen
 
 Raadpleeg het volgende: 
   
@@ -201,8 +205,6 @@ Raadpleeg het volgende:
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)
-
-[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)
-
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)\
+[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)\
 [Domeinen beheren](index.yml) (koppelingspagina)

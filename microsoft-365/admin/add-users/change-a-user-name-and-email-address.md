@@ -23,18 +23,18 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een Microsoft 365-globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen wanneer hun naam wijzigt. '
-ms.openlocfilehash: 2614e0ae53e5ff1cf08ded384e7470cc5967e682
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1aa3fd3b67333937e64aab825e64533ccb09eea9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535984"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634218"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
 Het kan voorkomen dat u iemands e-mailadres en weergavenaam moet wijzigen, bijvoorbeeld als deze persoon gaat trouwen en een andere achternaam krijgt.
 
-Bekijk een korte video over het wijzigen van het e-mailadres van een gebruiker. <br><br>
+## <a name="watch-change-a-users-name-or-email-address"></a>Bekijken: De naam of het e-mailadres van een gebruiker wijzigen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
 
@@ -253,8 +253,6 @@ Zie [De naam van een gebruikersaccount wijzigen](/previous-versions/windows/it-p
   
 ## <a name="related-content"></a>Verwante inhoud
 
-[Beheerders: het wachtwoord opnieuw instellen voor een of meer gebruikers](reset-passwords.md) (artikel)
-  
-[Ander e-mailadres voor een gebruiker toevoegen](../email/add-another-email-alias-for-a-user.md) (artikel)
-
+[Beheerders: het wachtwoord opnieuw instellen voor een of meer gebruikers](reset-passwords.md) (artikel)\
+[Ander e-mailadres voor een gebruiker toevoegen](../email/add-another-email-alias-for-a-user.md) (artikel)\
 [Een gedeeld postvak maken](../email/create-a-shared-mailbox.md) (artikel)

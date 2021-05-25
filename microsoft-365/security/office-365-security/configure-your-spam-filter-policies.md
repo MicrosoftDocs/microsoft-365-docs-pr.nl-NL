@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5cd6a1a2ce1ca6c6ce3741674945a1e2a43694b7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1241e6ebb838938f82fce5dc08ea93a3038f4ace
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204428"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624231"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -125,7 +125,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
      > <sup>1</sup> In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel Ongewenste e-mail is ingeschakeld voor het postvak (standaard is die regel ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
      >
-     > In standalone EOP-omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [Standalone EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) voor meer informatie. 
+     > In hybride omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](/exchange/standalone-eop/configure-eop-spam-protection-hybrid) voor meer informatie. 
      >
      > <sup>2</sup> U kunt deze waarde gebruiken als voorwaarde in e-mailstroomregels om het bericht te filteren of om te leiden.
 
@@ -185,7 +185,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
    - **Domein toelaten**: klik op **Bewerken**. In het deelvenster **Lijst met toegestane domeinen** dat wordt weergegeven:
 
-      a. Voert u het domein in. U kunt meerdere domeinen opgeven, gescheiden door puntkomma’s (;).
+      a. Voer het domein in. U kunt meerdere domeinen opgeven, gescheiden door puntkomma’s (;).
 
       b. Klikt u op ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) om de domeinen toe te voegen.
 
@@ -639,7 +639,7 @@ Zie [Remove-HostedContentFilterRule](/powershell/module/exchange/remove-hostedco
 ### <a name="send-a-gtube-message-to-test-your-spam-policy-settings"></a>Een GTUBE-bericht zenden om de instellingen van uw spambeleid te testen
 
 > [!NOTE]
-> Deze stappen werken alleen als het e-mailbedrijf waarvandaan u het GTUBE-bericht stuurt, niet scant op uitgaande spam. Als het bedrijf dat wel doet, kan het testbericht niet worden verzonden.
+> Deze stappen werken alleen als het e-mailbedrijf waarvandaan u het GTUBE-bericht stuurt, niet scant op uitgaande spam. Als dit wel het geval is, kan het testbericht niet worden verzonden.
 
 GTUBE (Generic Test for Unsolicited Bulk Email) is een tekenreeks die u opneemt in een testbericht om de antispaminstellingen van uw bedrijf te verifiëren. Een GTUBE-bericht is vergelijkbaar met het EICAR-tekstbestand (European Institute for Computer Antivirus Research) voor het testen van malware-instellingen.
 

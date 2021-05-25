@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: 60ebff4f564e7046a54cb707781acc0151aa8ad9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b209477e2fa205ebb6b298b7fa9f37c21e2b3d7e
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538109"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625427"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -38,7 +38,7 @@ Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door 
 > [!NOTE]
 > Deze instellingen zijn alleen van invloed op SharePoint wanneer [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (Voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) is geconfigureerd. In de onderstaande tabel wordt ervan uitgegaan dat dit is geconfigureerd.
 
-### <a name="organizational-relationships-settings"></a>Instellingen voor organisatierelaties
+### <a name="external-collaboration-settings"></a>Instellingen voor externe samenwerking
 
 **Navigatie:** [Azure Active Directory-beheercentrum](https://aad.portal.azure.com) > Azure Active Directory-> Externe identiteiten> Externe collaboratie-instellingen
 
@@ -46,11 +46,9 @@ Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door 
 
 | Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
-|Machtigingen voor gastgebruikers zijn beperkt|Ja|Deze instelling heeft invloed op de directorytaken die een gast kan uitvoeren.|
-|Beheerders en gebruikers in de rol van gastuitnodiger kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen beheerders gasten uitnodigen via Microsoft Azure AD en via het deelopties van Microsoft 365, zoals Teams en SharePoint. Wanneer ingesteld op **Nee** is dat niet mogelijk.|
-|Leden kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Gebruikers toestaan nieuwe gasten aan de organisatie toe te voegen** in Beveiliging & privacy van Microsoft 365.|
-|Gasten kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen gasten in de Directory andere gasten uitnodigen om samen te werken aan Microsoft Azure AD-resources en aan bestanden en mappen in SharePoint en OneDrive. Wanneer ingesteld op **Nee** is dat niet mogelijk. <br><br>Merk op dat **Externe gebruikers toestaan om gebruikersaccounts te zoeken in de adreslijst door exacte e-mail adressen te typen** in het SharePoint Online-beheercentrum moet zijn ingeschakeld voordat gasten bestanden en mappen met andere gasten kunnen delen.|
-|Eenmalige e-mailwachtwoordcode voor gasten inschakelen (voorbeeld)|Nee|Wanneer ingesteld op **Ja** kunnen gasten zonder een MSA of een werk- of schoolaccount [verifiëren met Azure AD middels een eenmalige wachtwoordcode](/azure/active-directory/b2b/one-time-passcode); wanneer ingesteld op **Nee** moeten gebruikers een Microsoft-account maken om te verifiëren. Deze instelling moet zijn ingesteld op **Ja** om [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) te laten werken.|
+|Gastgebruikerstoegang|Gastgebruikers hebben beperkte toegang tot eigenschappen en lidmaatschappen van adreslijstobjecten|Bepaalt de [machtigingen die gasten hebben in Azure Active Directory](/azure/active-directory/fundamentals/users-default-permissions).|
+|Instellingen voor uitnodigingen voor gasten|Iedereen in de organisatie kan gastgebruikers uitnodigen, inclusief gasten en niet-beheerders|Bepaalt of gasten, leden en beheerders gasten kunnen uitnodigen voor de organisatie.<br><br> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint.|
+|Selfservice-aanmelding voor gasten inschakelen via gebruikersstromen|Nee|Bepaalt of u gebruikersstromen kunt maken waarmee iemand zich kan registreren voor een app die u hebt gemaakt en een nieuw gastaccount kan maken.|
 |Samenwerkingsbeperkingen|Uitnodigingen verzenden naar ieder domein toestaan|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint. U kunt domeinen nauwkeuriger toestaan of blokkeren door domeinfilters in SharePoint of Teams te gebruiken.|
 
 Deze instellingen hebben invloed op de manier waarop gebruikers worden uitgenodigd voor de directory. Ze hebben geen invloed op het delen met gasten die al aanwezig zijn in de directory.
