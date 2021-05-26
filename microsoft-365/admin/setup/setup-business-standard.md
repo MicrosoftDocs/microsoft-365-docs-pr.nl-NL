@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Wanneer je Microsoft 365 Business Standard aanschaft, heb je de mogelijkheid om een domein te gebruiken dat je bezit of een domein te kopen tijdens de registratie.
-ms.openlocfilehash: cee91edaab09506dca90cf5ed64ee9bc669c98cf
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: ca9cc359aaabfc16a5d0c57a75362c7826dea0db
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624415"
+ms.locfileid: "52635628"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard installeren
 
@@ -103,6 +103,8 @@ Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinre
 
 3. Voer uw Microsoft-e-mailadres in en selecteer **Verbinden**.
 
+## <a name="watch-set-up-outlook-for-email"></a>Bekijk: Outlook voor e-mail instellen
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/9fe86884-8a83-42cc-bca9-61a12e6dad31?autoplay=false]
   
 Meer informatie vindt u op [Outlook instellen voor e-mail](https://support.microsoft.com/office/f5bf0cd1-e1f3-4b0d-a022-ecab17efe86f).
@@ -123,6 +125,8 @@ Als u Outlook met een ander e-mailaccount hebt gebruikt, kunt u de e-mail, agend
 
     Selecteer deze keer **Importeren uit een ander programma of bestand** en volg de stappen om het back-upbestand dat u hebt gemaakt tijdens het exporteren van uw oude e-mails te importeren.
 
+## <a name="watch-import-and-redirect-email"></a>Bekijk: E-mail importeren en omleiden
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/40f7df36-9e24-44e5-8791-e9ed0dd8fd21?autoplay=false]
   
 Meer informatie vindt u op [E-mails in Outlook importeren](https://support.microsoft.com/office/6a3771d4-4c1d-4a25-92a6-0b8e476335de).
@@ -136,6 +140,8 @@ Microsoft 365 bevat geen openbare website voor uw bedrijf. Als u er toch een wil
 1. Ga in het beheercentrum naar **Resources** en kies vervolgens **Openbare website**.
 
 2. Kies **Meer informatie** onder een van de opties en registreer u vervolgens bij een websitepartner. Gebruik daarna de hulpmiddelen van deze partner om uw website te configureren en ontwerpen.
+
+## <a name="watch-create-your-business-website"></a>Video: Een zakelijke website maken
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb]
 

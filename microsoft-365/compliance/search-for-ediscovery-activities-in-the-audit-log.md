@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Lees welke gebeurtenissen worden geregistreerd wanneer gebruikers die eDiscovery-machtigingen hebben toegewezen, inhoud zoeken, Core eDiscovery en Advanced eDiscovery uitvoeren in het Microsoft 365 compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce0dcc50c13ad705cb36f065639a4e971d032f22
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: 8b1f3f235f3411e2f637e4e32104c6179643757d
+ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653497"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52657691"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Zoeken naar eDiscovery-activiteiten in het auditlogboek
 
@@ -112,7 +112,7 @@ In de volgende tabel worden de activiteiten Inhoud zoeken en Core eDiscovery bes
 |De export van inhoud zoeken gestart  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |Een gebruiker heeft de resultaten van een inhoudszoekactie geëxporteerd.  <br/> |
 |Exportrapport gestart  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |Een gebruiker heeft een inhoudszoekrapport geëxporteerd.  <br/> |
 |Inhoud zoeken gestopt  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |Een gebruiker heeft een inhoudszoekactie gestopt.  <br/> |
-|(geen)|CaseViewed|Get-ComplianceCase|Een gebruiker heeft de lijst met cases bekeken op de **pagina Core eDiscovery** in het compliancecentrum of door de cmdlet Get-ComplianceCase uitvoeren.|
+|(geen)|CaseViewed|Get-ComplianceCase|Een gebruiker heeft de lijst met cases bekeken op de **pagina Core eDiscovery** of de **Advanced eDiscovery** in het compliancecentrum of door de Get-ComplianceCase uitvoeren.|
 |(geen)|SearchViewed|Get-ComplianceSearch|Een gebruiker heeft de lijst bekeken op inhoudszoekingen (weergegeven op het tabblad Zoekopdrachten) in het compliancecentrum of door de cmdlet uit te lopen.  Deze activiteit wordt ook geregistreerd wanneer een gebruiker de lijst met inhoudszoekingen bekijkt  die zijn gekoppeld aan een eDiscovery-zaak (door in een geval op het tabblad Zoekopdrachten te klikken) of door de opdracht **Get-ComplianceSearch -Case** uit te voeren.|
 |(geen)|ViewedSearchExported|Get-ComplianceSearchAction -Exporteren|Een gebruiker heeft de lijst met exporttaken voor  inhoud zoeken (weergegeven op het tabblad Export) bekeken in het compliancecentrum of door de cmdlet uit te voeren. Deze activiteit wordt ook geregistreerd wanneer een gebruiker de lijst met exporttaken in  een eDiscovery-zaak bekijkt (weergegeven op het tabblad Exporten in een zaak) of door de opdracht **Get-ComplianceSearchAction -Case -Export** uit te voeren.|
 |(geen)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|Een gebruiker bekijkt de resultaten van een inhoudszoekactie in het compliancecentrum of door de cmdlet uit te lopen.|

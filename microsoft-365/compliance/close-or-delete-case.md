@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Lees wat er gebeurt wanneer een onderzoek of juridische zaak die wordt ondersteund door een Advanced eDiscovery zaak wordt gesloten of verwijderd.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ffdd93351325be0c4b5d6d8cdfb78e55b710c0be
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: 7b11faa2ccdb44fca916b2f602d5120adadf1739
+ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "52161465"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52657637"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>Een Advanced eDiscovery sluiten of verwijderen
 
@@ -46,7 +46,9 @@ Een zaak sluiten:
 
 2. Klik op **Instellingen** tabblad Onder **Hoofdgegevens** op **Selecteren.**
 
-3. Klik **op Zaak sluiten**.
+3. Klik onder aan de **flyoutpagina Hoofdgegevens** op (**...**) **Meer opties** en klik vervolgens op **Zaak sluiten.**
+
+   ![Optie in het menu Meer opties om een Advanced eDiscovery sluiten](..\Media\CloseAdvancedeDiscoveryCase.png)
 
    Het kan tot 60 minuten duren voordat het sluitingsproces is voltooid.
 
@@ -60,7 +62,9 @@ Een gesloten zaak opnieuw openen:
 
 2. Klik op **Instellingen** tabblad Onder **Hoofdgegevens** op **Selecteren.**
 
-3. Klik **op Zaak opnieuw openen**.
+3. Klik onder aan de **flyoutpagina Hoofdgegevens** op (**...**) **Meer opties** en klik vervolgens op **Zaak opnieuw openen.**
+
+   ![Optie in het menu Meer opties om een nieuwe Advanced eDiscovery openen](..\Media\ReopenAdvancedeDiscoveryCase.png)
 
    Het kan tot 60 minuten duren voordat het heropeningsproces is voltooid.
 
@@ -87,4 +91,6 @@ Een zaak verwijderen:
 
 2. Klik op **Instellingen** tabblad Onder **Hoofdgegevens** op **Selecteren.**
 
-3. Klik **op Case verwijderen.**
+3. Klik onder aan de **flyoutpagina Hoofdgegevens** op (**...**) **Meer opties** en klik vervolgens op **Case verwijderen.**
+
+   ![Optie in het menu Meer opties om een Advanced eDiscovery verwijderen](..\Media\DeleteAdvancedeDiscoveryCase.png)
