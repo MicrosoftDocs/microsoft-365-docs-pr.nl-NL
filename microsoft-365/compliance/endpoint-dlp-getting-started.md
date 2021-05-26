@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Stel Microsoft 365 Preventie van gegevensverlies voor eindpunten in om bestandsactiviteiten te controleren en beschermende maatregelen voor deze bestanden naar eindpunten te implementeren.
-ms.openlocfilehash: 8fc8bef62827a5e6125565f5d7227a88cd923dcf
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: a6c0ec6f1248fdeecd8616b7eda000b7608d452d
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332808"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651006"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Aan de slag met Preventie van gegevensverlies voor eindpunten
 
@@ -40,8 +40,8 @@ Voordat u aan de slag gaat met DLP voor eindpunten, moet u uw [abonnement op Mic
 
 - Microsoft 365 E5
 - Microsoft 365 A5 (EDU)
-- Microsoft 365 E5 compliance
-- Microsoft 365 A5 compliance
+- Microsoft 365 E5 Compliance
+- Microsoft 365 A5 Compliance
 - Microsoft 365 E5 Information Protection en governance
 - Microsoft 365 A5 Information Protection en governance
 
@@ -74,10 +74,10 @@ Als u een aangepast account wilt gebruiken om Apparaatcontrole in te schakelen o
 Gegevens uit DLP voor eindpunten kunnen worden weergegeven in [Activiteitenverkenner](data-classification-activity-explorer.md). Er zijn vier rollen die machtigingen verlenen aan Activiteitenverkenner. Het account dat u gebruikt voor het openen van de gegevens, moet lid zijn van een van deze rollen.
 
 - Bedrijfsbeheerder
-- Compliancebeheerder
+- Beheerder voor naleving
 - Beveiligingsbeheerder
-- Beheerder van compliancegegevens
-- Globale lezer
+- Gegevensbeheerder voor naleving
+- Algemene lezer
 - Beveiligingslezer
 - Rapportenlezer
 
@@ -102,7 +102,11 @@ Zorg ervoor dat de Windows 10-apparaten die u van plan bent in DLP voor eindpunt
     - Voor Windows 10 2004 - KB4568831, KB4577063
     - Voor apparaten met Office 2016 (en geen andere Office-versie) - KB4577063 
 
-4. Alle apparaten moeten [Azure Active Directory-gekoppeld zijn (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join), AD-gekoppeld, Hybride Azure AD-gekoppeld of AAD-geregistreerd zijn.
+4. Alle apparaten moeten tot een van de volgende behoren:
+- [Azure Active Directory (Azure AD)-gekoppeld](/azure/active-directory/devices/concept-azure-ad-join)
+- AD-gekoppeld
+- [Hybride Azure AD-gekoppeld](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
+- [AAD-geregistreerd](/azure/active-directory/user-help/user-help-register-device-on-network)
 
 5. Installeer de browser Microsoft Chromium Edge op het eindpuntapparaat om beleidsacties af te dwingen voor het uploaden naar cloudactiviteit. Zie [Nieuwe Microsoft Edge op basis van Chromium downloaden](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
@@ -203,7 +207,7 @@ Wanneer dit is gedaan en het eindpunt is onboarded, moet dit zichtbaar zijn in d
 ## <a name="next-steps"></a>Volgende stappen
 Nu u onboarded-apparaten hebt en de activiteitsgegevens kunt bekijken in Activiteitenverkenner, kunt u verder gaan met de volgende stap, waarin u DLP-beleid maakt voor het beveiligen van uw gevoelige items.
 
-- [Preventie van gegevensverlies voor eindpunten gebruiken](endpoint-dlp-using.md)
+- [Preventie van gegevensverlies van eindpunten gebruiken](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>Zie ook
 
@@ -211,7 +215,7 @@ Nu u onboarded-apparaten hebt en de activiteitsgegevens kunt bekijken in Activit
 - [Preventie van gegevensverlies voor eindpunten gebruiken](endpoint-dlp-using.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-- [Aan de slag met de activiteitenverkenner](data-classification-activity-explorer.md)
+- [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
 - [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)
 - [Hulpmiddelen en methoden onboarden voor Windows 10-apparaten](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365-abonnement](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)

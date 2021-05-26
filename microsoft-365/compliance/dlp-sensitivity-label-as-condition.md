@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: meer informatie over de services en itemtypen waarvoor u gevoeligheidslabels kunt gebruiken als voorwaarden in DLP-beleid
-ms.openlocfilehash: 19bd80de225f703b5c280163e94826498fa097bd
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: b33e6704a3311740c1e386f77f1c751382ee6958
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "52162686"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651090"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>Vertrouwelijkheidslabels gebruiken als voorwaarden in DLP-beleid
 
@@ -54,7 +54,7 @@ U kunt gevoeligheidslabels gebruiken als voorwaarden op deze items en in deze sc
 |Service  |Itemtype  |Beschikbaar voor beleidstip  |Afdwingbaar  |
 |---------|---------|---------|---------|
 |Exchange    |e-mailbericht         |ja         |ja         |
-|Exchange    |e-mailbijlage         |nee *         |ja *         |
+|Exchange    |e-mailbijlage         |nee         |ja *         |
 |SharePoint Online     |items in SharePoint Online         |ja         |ja         |
 |OneDrive voor Bedrijven     |items         |ja         |ja         |
 |Teams     |Teams en kanaalberichten         |niet van toepassing         |niet van toepassing         |
@@ -62,7 +62,7 @@ U kunt gevoeligheidslabels gebruiken als voorwaarden op deze items en in deze sc
 |Windows 10-apparaten     |items         |ja         |ja         |
 |MCAS (preview-versie) |items         |ja         |ja         |
 
-\* Tijdens het verzenden worden DLP-detectie en afdwinging van gevoeligheidslabels in e-mailberichten en bijlagen ondersteund. DLP-beleidstips van e-mailbijlagen met gevoeligheidslabels worden niet ondersteund.
+\* DLP-detectie van e-mailbijlagen die als vertrouwelijk zijn gemarkeerd, wordt alleen ondersteund voor Office-bestandstypen.
 
 \** Bijlagen die via een privéchat of kanalen in Teams worden verzonden, worden automatisch geüpload naar OneDrive voor Bedrijven en SharePoint. Dus als SharePoint Online of OneDrive voor Bedrijven als locaties zijn opgenomen in uw DLP-beleid, worden gelabelde bijlagen die worden verzonden in Teams automatisch opgenomen in het bereik van deze voorwaarde. Teams als locatie hoeft niet te zijn geselecteerd in het DLP-beleid.
 
