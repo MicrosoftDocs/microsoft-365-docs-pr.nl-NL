@@ -1,6 +1,6 @@
 ---
 title: Wat komt er met Microsoft Secure Score?
-description: Beschrijft welke nieuwe wijzigingen er komen in Microsoft Secure Score in het Microsoft 365-beveiligingscentrum.
+description: Hier wordt beschreven welke nieuwe wijzigingen er komen in Microsoft Secure Score in het Microsoft 365 beveiligingscentrum.
 keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, microsoft 365 security center, improvement actions
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,30 +18,32 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: d23ec690194f87046e6c5f2ab859201bbf2dede9
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 8880f045202fd1c4374e9cec3076144f81eb68d2
+ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569801"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52657715"
 ---
-# <a name="whats-coming-to-microsoft-secure-score"></a><span data-ttu-id="fa6b6-104">Wat komt er met Microsoft Secure Score?</span><span class="sxs-lookup"><span data-stu-id="fa6b6-104">What's coming to Microsoft Secure Score</span></span>
+# <a name="whats-coming-to-microsoft-secure-score"></a><span data-ttu-id="4a3af-104">Wat komt er met Microsoft Secure Score?</span><span class="sxs-lookup"><span data-stu-id="4a3af-104">What's coming to Microsoft Secure Score</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="fa6b6-105">Microsoft Secure Score is te vinden https://security.microsoft.com/securescore in het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)</span><span class="sxs-lookup"><span data-stu-id="fa6b6-105">Microsoft Secure Score can be found at https://security.microsoft.com/securescore in the [Microsoft 365 security center](overview-security-center.md).</span></span>
+<span data-ttu-id="4a3af-105">Microsoft Secure Score is te vinden https://security.microsoft.com/securescore in het [Microsoft 365 beveiligingscentrum.](overview-security-center.md)</span><span class="sxs-lookup"><span data-stu-id="4a3af-105">Microsoft Secure Score can be found at https://security.microsoft.com/securescore in the [Microsoft 365 security center](overview-security-center.md).</span></span>
 
-## <a name="proposed-changes"></a><span data-ttu-id="fa6b6-106">Voorgestelde wijzigingen</span><span class="sxs-lookup"><span data-stu-id="fa6b6-106">Proposed changes</span></span>
+## <a name="proposed-changes"></a><span data-ttu-id="4a3af-106">Voorgestelde wijzigingen</span><span class="sxs-lookup"><span data-stu-id="4a3af-106">Proposed changes</span></span>
 
-<span data-ttu-id="fa6b6-107">We brengen in de nabije toekomst enkele wijzigingen aan om [van Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwoordiger van uw beveiligingsbeleid te maken en de bruikbaarheid te verbeteren.</span><span class="sxs-lookup"><span data-stu-id="fa6b6-107">We're making some changes in the near future to make [Microsoft Secure Score](microsoft-secure-score.md) a better representative of your security posture and improve usability.</span></span> <span data-ttu-id="fa6b6-108">Uw score en de maximaal mogelijke score kunnen worden gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="fa6b6-108">Your score and the maximum possible score may change.</span></span>
+<span data-ttu-id="4a3af-107">We brengen in de nabije toekomst enkele wijzigingen aan om [van Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwoordiger van uw beveiligingsbeleid te maken en de bruikbaarheid te verbeteren.</span><span class="sxs-lookup"><span data-stu-id="4a3af-107">We're making some changes in the near future to make [Microsoft Secure Score](microsoft-secure-score.md) a better representative of your security posture and improve usability.</span></span> <span data-ttu-id="4a3af-108">Uw score en de maximaal mogelijke score kunnen worden gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="4a3af-108">Your score and the maximum possible score may change.</span></span>
 
-### <a name="no-planned-changes"></a><span data-ttu-id="fa6b6-109">Geen geplande wijzigingen</span><span class="sxs-lookup"><span data-stu-id="fa6b6-109">No Planned Changes</span></span>
+### <a name="june-2021"></a><span data-ttu-id="4a3af-109">Juni 2021</span><span class="sxs-lookup"><span data-stu-id="4a3af-109">June 2021</span></span>
 
-<span data-ttu-id="fa6b6-110">Er zijn op dit moment geen geplande wijzigingen.</span><span class="sxs-lookup"><span data-stu-id="fa6b6-110">There are no planned changes at this time.</span></span>
+#### <a name="remove-improvement-action-related-to-microsoft-cloud-app-security"></a><span data-ttu-id="4a3af-110">Actie voor verbetering verwijderen met betrekking tot Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="4a3af-110">Remove improvement action related to Microsoft Cloud App Security</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="fa6b6-111">Verwante informatiebronnen</span><span class="sxs-lookup"><span data-stu-id="fa6b6-111">Related resources</span></span>
+- <span data-ttu-id="4a3af-111">Gebruik Cloud App Security om afwijkende gedragingen te detecteren</span><span class="sxs-lookup"><span data-stu-id="4a3af-111">Use Cloud App Security to detect anomalous behavior</span></span>
 
-- [<span data-ttu-id="fa6b6-112">Overzicht van Microsoft Secure Score</span><span class="sxs-lookup"><span data-stu-id="fa6b6-112">Microsoft Secure Score overview</span></span>](microsoft-secure-score.md)
-- [<span data-ttu-id="fa6b6-113">Uw beveiligingspositie vaststellen</span><span class="sxs-lookup"><span data-stu-id="fa6b6-113">Assess your security posture</span></span>](microsoft-secure-score-improvement-actions.md)
-- [<span data-ttu-id="fa6b6-114">Uw Microsoft Secure Score-geschiedenis bijhouden en doelstellingen behalen</span><span class="sxs-lookup"><span data-stu-id="fa6b6-114">Track your Microsoft Secure Score history and meet goals</span></span>](microsoft-secure-score-history-metrics-trends.md)
-- [<span data-ttu-id="fa6b6-115">Nieuwe functies</span><span class="sxs-lookup"><span data-stu-id="fa6b6-115">What's new</span></span>](microsoft-secure-score-whats-new.md)
+## <a name="related-resources"></a><span data-ttu-id="4a3af-112">Verwante informatiebronnen</span><span class="sxs-lookup"><span data-stu-id="4a3af-112">Related resources</span></span>
+
+- [<span data-ttu-id="4a3af-113">Overzicht van Microsoft Secure Score</span><span class="sxs-lookup"><span data-stu-id="4a3af-113">Microsoft Secure Score overview</span></span>](microsoft-secure-score.md)
+- [<span data-ttu-id="4a3af-114">Uw beveiligingspositie vaststellen</span><span class="sxs-lookup"><span data-stu-id="4a3af-114">Assess your security posture</span></span>](microsoft-secure-score-improvement-actions.md)
+- [<span data-ttu-id="4a3af-115">Uw Microsoft Secure Score-geschiedenis bijhouden en doelstellingen behalen</span><span class="sxs-lookup"><span data-stu-id="4a3af-115">Track your Microsoft Secure Score history and meet goals</span></span>](microsoft-secure-score-history-metrics-trends.md)
+- [<span data-ttu-id="4a3af-116">Nieuwe functies</span><span class="sxs-lookup"><span data-stu-id="4a3af-116">What's new</span></span>](microsoft-secure-score-whats-new.md)
