@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: Begrijp waarom geschatte en werkelijke zoekresultaten kunnen variëren in zoekopdrachten die worden uitgevoerd met eDiscovery-hulpprogramma's in Office 365.
-ms.openlocfilehash: d530b083b2353b66ee5d4fd4bb72b175aef28be8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 17a4c2eea9833afa2112fa8ab918dcda074eeb36
+ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532111"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52653509"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>Verschillen tussen geschatte en werkelijke eDiscovery-zoekresultaten
 
@@ -81,7 +81,7 @@ Hier zijn enkele redenen voor deze verschillen:
 
 - **De-duplicatie van Exchange items tijdens het exporteren**. Voor Exchange items vermindert de-duplicatie het aantal items dat wordt geëxporteerd. U hebt de optie om de zoekresultaten te de-dupliceren wanneer u ze exporteert. Voor Exchange betekent dit dat slechts één exemplaar van een bericht wordt geëxporteerd, ook al kan dat bericht in meerdere postvakken worden gevonden. De geschatte zoekresultaten bevatten elk exemplaar van een bericht. Als u dus kiest voor de optie duplicatie bij het exporteren van zoekresultaten, kan het werkelijke aantal geëxporteerde items aanzienlijk lager zijn dan het geschatte aantal items.
 
-    Als u de optie duplicatie kiest, moet u er ook rekening mee houden dat alle Exchange-items worden geëxporteerd in één PST-bestand en dat de mapstructuur uit de bronpostvakken niet behouden blijft. Het geëxporteerde PST-bestand bevat alleen de e-mailitems. Een rapport met zoekresultaten bevat echter een vermelding voor elk geëxporteerd bericht waarin het bronpostvak wordt aangegeven waar het bericht zich bevindt. Hiermee kunt u alle postvakken identificeren die een duplicaatbericht bevatten. Als u de-duplicatie niet inschakelen, wordt een afzonderlijk PST-bestand geëxporteerd voor elk postvak dat in de zoekopdracht is opgenomen.
+Het rapport zoekresultaten (Results.csv bestand) bevat een vermelding voor elk duplicaatbericht en identificeert het bronpostvak waar zich een duplicaatbericht bevindt. Hiermee kunt u alle postvakken identificeren die een duplicaatbericht bevatten.
 
 > [!NOTE]
 > Als u de optie Items opnemen die zijn versleuteld of die een **niet-herkende** notatie hebben niet selecteert wanneer u zoekresultaten exporteert of alleen de rapporten downloadt, worden de indexfoutrapporten gedownload, maar hebben ze geen vermeldingen. Dit betekent niet dat er geen indexeringsfouten zijn. Dit betekent alleen dat niet-geïndexeerde items niet zijn opgenomen in de export.

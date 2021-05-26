@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Gebruik eDiscovery- en zoekhulpmiddelen om een incident met gegevensmortage in uw organisatie te beheren en te beantwoorden.
-ms.openlocfilehash: da473fcdf553176d3c6d4dfa2a4c4b17b2bcce03
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4305dbdb2fb59e4275852c88f8b74f6c4128a5cb
+ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "52162288"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52653521"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery-oplossingsreeks: scenario voor gegevensoverloop - Zoeken en verwijderen
 
@@ -56,7 +56,7 @@ Ga als volgende te werk om een incident met gegevensmortage te beheren:
     
 - Als u een zaak wilt maken, moet u lid zijn van de rollengroep eDiscovery Manager of lid zijn van een aangepaste rollengroep die de rol Case Management heeft toegewezen. Als u geen lid bent, vraagt u een beheerder Microsoft 365 u toe te voegen aan de [rollengroep eDiscovery Manager.](assign-ediscovery-permissions.md)
     
-- Als u een inhoudszoekactie wilt maken en uitvoeren, moet u lid zijn van de rollengroep eDiscovery Manager of moet u de rol Compliance Search-beheer toegewezen krijgen. Als u berichten wilt verwijderen, moet u lid zijn van de rollengroep Organisatiebeheer of moet u de functie Zoeken en wissen beheren toegewezen krijgen. Zie eDiscovery-machtigingen toewijzen in het beveiligings- & compliancecentrum voor informatie over het toevoegen van gebruikers [aan een rollengroep.](./assign-ediscovery-permissions.md)
+- Om inhoud te zoeken, moet u lid zijn van de rollengroep eDiscovery-beheerder of aan de beheerdersrol Compliance zoeken zijn toegewezen. Om berichten te verwijderen, moet u lid zijn van de rollengroep Organisatiebeheer of aan de rol Zoeken en opschonen zijn toegewezen. Zie [eDiscovery-machtigingen toewijzen in het Beveiligings- en compliancecentrum](./assign-ediscovery-permissions.md) voor informatie over het toevoegen van gebruikers aan een rollengroep.
     
 - Als u in stap 8 in het auditlogboek eDiscovery-activiteiten wilt zoeken, moet auditing zijn ingeschakeld voor uw organisatie. U kunt zoeken naar activiteiten die in de afgelopen 90 dagen zijn uitgevoerd. Voor meer informatie over het inschakelen en [](#auditing-the-data-spillage-investigation-process) gebruiken van auditing, gaat u naar de sectie Controle van het onderzoeksproces voor gegevensmortage in stap 8. 
     
@@ -89,7 +89,7 @@ Als u meer dan 1.000 postvakken of meer dan 100 e-mailberichten per postvak wilt
 
 Als aan een bewaarder of eindgebruiker een Office 365 E5-licentie is toegewezen, kunt u maximaal 10.000 zoekresultaten tegelijk bekijken met Advanced eDiscovery. Als er meer dan 10.000 e-mailberichten moeten worden beoordeeld, kunt u de zoekquery delen op datumbereik en elk resultaat afzonderlijk controleren terwijl de zoekresultaten worden gesorteerd op datum. In Advanced eDiscovery kunt u zoekresultaten taggen met de functie **Label** als functie in het voorbeeldvenster en het zoekresultaat filteren op de tag die u hebt gelabeld. Dit is handig als u samenwerkt met een secundaire revisor. Met behulp van extra analysehulpmiddelen in Advanced eDiscovery, zoals optische tekenherkenning, e-mailthreading en voorspellende codering, kunt u snel duizenden berichten verwerken en controleren en deze taggen voor verder onderzoek. Zie [Snelle installatie voor Advanced eDiscovery.](./get-started-with-advanced-ediscovery.md)
 
-Wanneer u een e-mailbericht met gemorste gegevens vindt, controleert u de geadresseerden van het bericht om te bepalen of het extern is gedeeld. Als u een bericht verder wilt traceren, kunt u afzendergegevens en datumbereik verzamelen, zodat u de berichten traceerlogboeken kunt gebruiken, die worden beschreven in [stap 5.](#step-5-use-message-trace-log-to-check-how-spilled-data-was-shared)
+Wanneer u een e-mailbericht met gemorste gegevens vindt, controleert u de geadresseerden van het bericht om te bepalen of het extern is gedeeld. Als u een bericht verder wilt traceren, kunt u afzendergegevens en datumbereiken verzamelen, zodat u de logboeken voor berichtsporen kunt gebruiken. Dit proces wordt beschreven in [stap 5.](#step-5-use-message-trace-log-to-check-how-spilled-data-was-shared)
 
 Nadat u de zoekresultaten hebt geverifieerd, kunt u uw bevindingen met anderen delen voor een secundaire controle. Personen die u in stap 1 aan de zaak hebt toegewezen, kunnen de inhoud van de zaak bekijken in zowel eDiscovery als Advanced eDiscovery en het goedkeuren van case-bevindingen. U kunt ook een rapport genereren zonder de werkelijke inhoud te exporteren. U kunt ditzelfde rapport ook gebruiken als een bewijs van verwijdering, dat wordt beschreven in [stap 8.](#step-8-verify-provide-a-proof-of-deletion-and-audit)
   
@@ -105,7 +105,7 @@ Nadat u de zoekresultaten hebt geverifieerd, kunt u uw bevindingen met anderen d
     
 3. Selecteer Alle items, inclusief items met een **niet-herkende notatie,** zijn versleuteld of zijn om andere redenen niet geïndexeerd en klik vervolgens op **Rapport genereren.**
 
-4. Klik in het eDiscovery-geval op **Exporteren om** de lijst met exporttaken weer te geven. Mogelijk moet u op Vernieuwen klikken **om** de lijst bij te werken om de exportklus weer te geven die u zojuist hebt gemaakt.
+4. Klik in het eDiscovery-geval op **Exporteren om** de lijst met exporttaken weer te geven. Mogelijk moet u op Vernieuwen klikken **om** de lijst bij te werken om de exportklus weer te geven die u hebt gemaakt.
 
 5. Klik op de exportklus en klik vervolgens **op Rapport** downloaden op de flyoutpagina.
  
@@ -117,11 +117,11 @@ Zie Een inhoudszoekrapport exporteren voor meer informatie over het exporteren [
     
 ## <a name="step-5-use-message-trace-log-to-check-how-spilled-data-was-shared"></a>Stap 5: Berichten traceren gebruiken om te controleren hoe gemorste gegevens zijn gedeeld
 
-Als u verder wilt onderzoeken of e-mail met gemorste gegevens is gedeeld, kunt u desgewenst de berichten traceren met de afzendergegevens en de datumbereikgegevens die u hebt verzameld in stap 4. Houd er rekening mee dat de bewaarperiode voor berichtspoor 30 dagen is voor realtimegegevens en 90 dagen voor historische gegevens.
+Als u verder wilt onderzoeken of e-mail met gemorste gegevens is gedeeld, kunt u desgewenst de berichten traceren met de afzendergegevens en de datumbereikgegevens die u hebt verzameld in stap 4. De bewaarperiode voor berichtspoor is 30 dagen voor realtimegegevens en 90 dagen voor historische gegevens.
   
 U kunt Bericht traceren gebruiken in het beveiligings- en compliancecentrum of de bijbehorende cmdlets gebruiken in Exchange Online PowerShell. Het is belangrijk om te weten dat berichttracing geen volledige garanties biedt voor de volledigheid van de geretourneerde gegevens. Zie voor meer informatie over het gebruik van Bericht traceren: 
   
-- [Bericht traceren in het beveiligings- & compliancecentrum](../security/defender-365-security/message-trace-scc.md)
+- [Bericht traceren in het beveiligings- & compliancecentrum](../security/office-365-security/message-trace-scc.md)
     
 - [Nieuwe berichten traceren in & compliancecentrum](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
     
@@ -172,16 +172,22 @@ Zorg ervoor dat u het postvak terugdraait naar eerdere configuraties nadat u heb
 
 ## <a name="step-7-permanently-delete-the-spilled-data"></a>Stap 7: De gemorste gegevens definitief verwijderen
 
-Met behulp van de postvaklocaties die u hebt verzameld en voorbereid in stap 6 en de zoekquery die is gemaakt en verfijnd in stap 3 om e-mailberichten te zoeken die de gemorste gegevens bevatten, kunt u de gemorste gegevens nu definitief verwijderen.  Als u berichten wilt verwijderen, moet u, zoals eerder is uitgelegd, lid zijn van de rollengroep Organisatiebeheer of de functie Zoeken en verwijderen krijgen toegewezen. Zie eDiscovery-machtigingen toewijzen in het beveiligings- & compliancecentrum voor informatie over het toevoegen van gebruikers [aan een rollengroep.](./assign-ediscovery-permissions.md)
+Met behulp van de postvaklocaties die u hebt verzameld en voorbereid in stap 6 en de zoekquery die is gemaakt en verfijnd in stap 3 om e-mailberichten te zoeken die de gemorste gegevens bevatten, kunt u de gemorste gegevens nu definitief verwijderen.  Als u berichten wilt verwijderen, moet u, zoals eerder is uitgelegd, lid zijn van de rollengroep Organisatiebeheer of de functie Zoeken en verwijderen krijgen toegewezen. Zie [eDiscovery-machtigingen toewijzen in het Beveiligings- en compliancecentrum](./assign-ediscovery-permissions.md) voor informatie over het toevoegen van gebruikers aan een rollengroep.
 
-Zie stap 2 & 3 in E-mailberichten zoeken en verwijderen om de gemorste berichten [te verwijderen](./search-for-and-delete-messages-in-your-organization.md)
+Zie E-mailberichten zoeken en verwijderen om de gemorste berichten [te verwijderen.](search-for-and-delete-messages-in-your-organization.md)
+
+Houd rekening met de volgende limieten bij het verwijderen van gemorste gegevens:
+
+- Het maximum aantal postvakken in een zoekopdracht dat u kunt gebruiken om items te verwijderen door een zoek- en verwijderactie uit te voeren, is 50.000. Als met de zoekopdracht die u in stap 3 maakt, meer dan 50.000 postvakken worden doorzocht, mislukt de actie voor het verwijderen. Er kan meestal worden gezocht naar meer dan 50.000 postvakken in één zoekopdracht wanneer u de zoekopdracht zo configureert dat alle postvakken in uw organisatie worden gebruikt. Deze beperking geldt ook wanneer minder dan 50.000 postvakken items bevatten die overeenkomen met de zoekopdracht.
+
+- U kunt per keer maximaal 10 items per postvak verwijderen. Omdat de mogelijkheid om berichten te zoeken en te verwijderen is bedoeld als een hulpprogramma voor incidentele reactie, zorgt deze limiet ervoor dat berichten snel uit postvakken worden verwijderd. Deze functie is niet bedoeld om postvakken van gebruikers op te schonen.
 
 > [!IMPORTANT]
-> E-mailitems in een revisieset in een Advanced eDiscovery kunnen niet worden verwijderd via de procedures in dit artikel. Dit komt omdat items in een revisieset kopieën zijn van items in de liveservice die worden gekopieerd en opgeslagen op een Azure Storage locatie. Dit betekent dat ze niet worden geretourneerd door een inhoudszoekactie die u maakt in stap 3. Als u items in een revisieset wilt verwijderen, moet u de Advanced eDiscovery met de revisieset verwijderen. Zie Een Advanced eDiscovery sluiten of [verwijderen voor meer informatie.](close-or-delete-case.md)
+> E-mailitems in een revisieset in een Advanced eDiscovery-zaak kunnen niet worden verwijderd met behulp van de procedures in dit artikel. Dit komt omdat items in een revisieset kopieën zijn van items in de liveservice die worden gekopieerd en opgeslagen op een Azure Storage locatie. Dit betekent dat ze niet worden geretourneerd door een inhoudszoekactie die u maakt in stap 3. Als u items in een revisieset wilt verwijderen, moet u de Advanced eDiscovery-zaak met de revisieset verwijderen. Zie [Advanced eDiscovery-zaak sluiten of verwijderen](close-or-delete-case.md) voor meer informatie.
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>Stap 8: Verifiëren, een bewijs van verwijdering en controle leveren
 
-De laatste stap in de werkstroom voor het beheren van een incident met gegevensoverloop is om te controleren of de gemorste gegevens permanent uit het postvak zijn verwijderd door naar de eDiscovery-zaak te gaan en dezelfde zoekquery opnieuw uit te voeren die is gebruikt om die gegevens te verwijderen om te bevestigen dat er geen resultaten worden geretourneerd. Nadat u hebt bevestigd dat de gemorste gegevens definitief zijn verwijderd, kunt u een rapport exporteren en dit (samen met het oorspronkelijke rapport) opnemen als een bewijs van verwijdering. Vervolgens kunt u [de zaak sluiten,](close-reopen-delete-core-ediscovery-cases.md) zodat u deze opnieuw kunt openen als u er in de toekomst naar hebt verwezen. Daarnaast kunt u postvakken ook terugdraaien naar de vorige status, de zoekquery verwijderen die wordt gebruikt om de gemorste gegevens te vinden en te zoeken naar controlerecords van taken die zijn uitgevoerd bij het beheren van het incident met gegevensmortage.
+De laatste stap in de werkstroom voor het beheren van een incident met gegevensoverloop is om te controleren of de gemorste gegevens definitief uit het postvak zijn verwijderd door naar de eDiscovery-zaak te gaan en dezelfde zoekquery opnieuw uit te voeren die is gebruikt om die gegevens te verwijderen om te bevestigen dat er geen resultaten worden geretourneerd. Nadat u hebt bevestigd dat de gemorste gegevens definitief zijn verwijderd, kunt u een rapport exporteren en dit (samen met het oorspronkelijke rapport) opnemen als een bewijs van verwijdering. Vervolgens kunt u [de zaak sluiten,](close-reopen-delete-core-ediscovery-cases.md) zodat u deze opnieuw kunt openen als u er in de toekomst naar moet verwijzen. Daarnaast kunt u postvakken ook terugdraaien naar de vorige status, de zoekquery verwijderen die wordt gebruikt om de gemorste gegevens te vinden en te zoeken naar controlerecords van taken die zijn uitgevoerd bij het beheren van het incident met gegevensmortage.
   
 ### <a name="reverting-the-mailboxes-to-their-previous-state"></a>De postvakken terugdraaien naar de vorige status
 
@@ -192,11 +198,11 @@ Als u de configuratie van een postvak in stap 6 hebt gewijzigd om de postvakken 
 Als de trefwoorden in de zoekquery die u in stap 3 hebt gemaakt en gebruikt, enkele van alle werkelijke gemorste gegevens bevatten, moet u de zoekquery verwijderen om verdere gegevensmortage te voorkomen.
   
 1. Open het eDiscovery-geval in het beveiligings-  en compliancecentrum, ga naar de pagina Zoeken en selecteer de juiste inhoudszoekactie.
-    
+
 2. Klik op de flyoutpagina op **Verwijderen.**
 
     ![Selecteer de zoekopdracht en klik vervolgens op Verwijderen op de flyoutpagina](../media/O365-eDiscoverySolutions-DataSpillage-DeleteSearch.png)
-    
+
 ### <a name="auditing-the-data-spillage-investigation-process"></a>Controle van het onderzoek naar gegevensmortage
 
 U kunt in het auditlogboek zoeken naar de eDiscovery-activiteiten die tijdens het onderzoek zijn uitgevoerd. U kunt ook zoeken in het auditlogboek om de auditrecords te retourneren voor de opdracht **New-ComplianceSearchAction -Purge** die u in stap 7 hebt uitgevoerd om de gemorste gegevens te verwijderen. Zie voor meer informatie:

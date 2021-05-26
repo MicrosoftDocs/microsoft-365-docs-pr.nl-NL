@@ -22,18 +22,18 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: Exporteert de zoekresultaten van een inhoudszoekactie in het Microsoft 365 compliancecentrum naar een lokale computer. E-mailresultaten worden geëxporteerd als PST-bestanden. Inhoud van SharePoint en OneDrive voor Bedrijven sites worden geëxporteerd als inheems Office documenten.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ec09706fecbe703fa2ab38cad5f8f8304484f44
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b39bb52457599090f2898da222c71a3a56889290
+ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536056"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52653533"
 ---
 # <a name="export-content-search-results"></a>Zoekresultaten voor inhoud exporteren
 
 Nadat een inhoudszoekactie is uitgevoerd, kunt u de zoekresultaten exporteren naar een lokale computer. Wanneer u e-mailresultaten exporteert, worden deze als PST-bestanden naar uw computer gedownload. Wanneer u inhoud exporteert van SharePoint en OneDrive voor Bedrijven sites, worden kopieën van Office documenten geëxporteerd. Er zijn andere documenten en rapporten opgenomen in de geëxporteerde zoekresultaten.
   
-Als u de resultaten van een inhoudszoekactie exporteert, worden de resultaten voorbereid en vervolgens gedownload naar een lokale computer.
+Als u de resultaten van een inhoudszoekactie exporteert, worden de resultaten voorbereid en vervolgens gedownload naar een lokale computer. Deze stappen voor het exporteren van zoekresultaten zijn ook van toepassing op het exporteren van de resultaten van een zoekopdracht die is gekoppeld aan Core eDiscovery-zaken.
   
 ## <a name="before-you-export-search-results"></a>Voordat u zoekresultaten exporteert
 
@@ -57,6 +57,8 @@ Als u de resultaten van een inhoudszoekactie exporteert, worden de resultaten vo
   > <sup>1</sup> Microsoft produceert geen extensies of invoegtoepassingen van derden voor ClickOnce toepassingen. Het exporteren van zoekresultaten met een niet-ondersteunde browser met extensies of invoegtoepassingen van derden wordt niet ondersteund.<br/>
   > <sup>2</sup> Als gevolg van recente wijzigingen in Microsoft Edge is ClickOnce standaard niet meer ingeschakeld. Zie Het [eDiscovery-exporthulpmiddel](configure-edge-to-export-search-results.md)gebruiken in Microsoft Edge voor instructies over het inschakelen van ClickOnce ondersteuning in Edge.
   
+- Het eDiscovery-exporthulpmiddel dat u in stap 2 gebruikt om zoekresultaten te downloaden, biedt geen ondersteuning voor automatisering (met behulp van een script of het uitvoeren van cmdlets). We raden u ten zeerste aan het voorbereidingsproces in stap 1 of het downloadproces in stap 2 niet te automatiseren. Als u een van deze processen automatiseert, biedt Microsoft Ondersteuning geen hulp als u problemen tegen komt.
+
 - We raden u aan zoekresultaten te downloaden naar een lokale computer. Als u wilt voorkomen dat de firewall of proxy-infrastructuur van uw bedrijf problemen veroorzaakt bij het downloaden van zoekresultaten, kunt u zoekresultaten downloaden naar een virtueel bureaublad buiten uw netwerk. Dit kan time-outs verminderen die voorkomen in Azure-gegevensverbindingen bij het exporteren van een groot aantal bestanden. Zie voor meer informatie over virtuele bureaubladen [Windows Virtual Desktop.](https://azure.microsoft.com/services/virtual-desktop)
 
 - Als u de prestaties bij het downloaden van zoekresultaten wilt verbeteren, kunt u zoekopdrachten die een grote reeks resultaten retourneren, verdelen in kleinere zoekopdrachten. U kunt bijvoorbeeld datumbereiken in zoekquery's gebruiken om een kleinere reeks resultaten te retourneren die sneller kunnen worden gedownload.
@@ -82,7 +84,7 @@ Als u de resultaten van een inhoudszoekactie exporteert, worden de resultaten vo
     </system.net>
     ```
 
-- Als de resultaten van een zoekopdracht naar inhoud ouder zijn dan 7 dagen en u een exportklus indient, wordt er een foutbericht weergegeven waarin u wordt gevraagd de zoekopdracht opnieuw uit te voeren om de zoekresultaten bij te werken. Als dit gebeurt, annuleert u de export, heruitvoert u de zoekopdracht en start u de export opnieuw.
+- Als de resultaten van een zoekopdracht ouder zijn dan 7 dagen en u een exportfunctie indient, wordt er een foutbericht weergegeven waarin u wordt gevraagd de zoekopdracht opnieuw uit te voeren om de zoekresultaten bij te werken. Als dit gebeurt, annuleert u de export, heruitvoert u de zoekopdracht en start u de export opnieuw.
 
 ## <a name="step-1-prepare-search-results-for-export"></a>Stap 1: Zoekresultaten voorbereiden voor export
 
@@ -169,7 +171,7 @@ De volgende stap is het downloaden van de zoekresultaten van de Azure Storage lo
       >- Schakel het scannen van virussen uit voor de map waar u het zoekresultaat naar downloadt.<br/>
       >- Download zoekresultaten naar verschillende mappen voor gelijktijdige downloadtaken.
 
-6. Klik **op Start** om de zoekresultaten naar uw computer te downloaden.
+7. Klik **op Start** om de zoekresultaten naar uw computer te downloaden.
   
     Het **eDiscovery-exporthulpmiddel** geeft statusgegevens weer over het exportproces, inclusief een schatting van het aantal (en de grootte) van de resterende items die moeten worden gedownload. Wanneer het exportproces is voltooid, hebt u toegang tot de bestanden op de locatie waar ze zijn gedownload.
 
