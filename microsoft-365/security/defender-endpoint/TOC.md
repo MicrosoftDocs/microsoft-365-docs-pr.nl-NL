@@ -122,7 +122,7 @@
 ###### [iOS-functies configureren](ios-configure-features.md)
 
 ##### [Problemen oplossen]()
-###### [Problemen oplossen](ios-troubleshoot.md)
+###### [Veelgestelde vragen en Problemen oplossen](ios-troubleshoot.md)
 
 ##### [Privacy](ios-privacy.md)
  
@@ -481,6 +481,12 @@
 ####### [Gegevens over IP's met betrekking tot waarschuwingen ophalen](get-alert-related-ip-info.md)
 ####### [Apparaatgegevens met betrekking tot waarschuwingen ophalen](get-alert-related-machine-info.md)
 ####### [Gebruikersgegevens met betrekking tot waarschuwingen ophalen](get-alert-related-user-info.md)
+
+###### [Beoordelen van kwetsbaarheden en configuraties beveiligen]()
+####### [Beoordelingsmethoden en eigenschappen exporteren](get-assessmnt-1methods-properties.md)
+####### [Beveiligde configuratiebeoordeling exporteren](get-assessmnt-secure-cfg.md)
+####### [Software-inventarisbeoordeling exporteren](get-assessmnt-software-inventory.md)
+####### [Software-kwetsbaarhedenbeoordeling exporteren](get-assessmnt-software-vulnerabilities.md)
 
 ###### [Geautomatiseerd onderzoek]()
 ####### [Onderzoeksmethoden en -eigenschappen](investigation.md)
