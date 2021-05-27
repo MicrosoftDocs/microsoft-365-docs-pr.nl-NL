@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over de verschillende manieren om goede en slechte berichten en bestanden te rapporteren aan Microsoft voor analyse.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d7534d5d88fe19fba39ac1ebef16c72cac25cae7
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 7b062c9529364e9fe26133fd1c039affcb8b7011
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625039"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689071"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Berichten en bestanden rapporteren aan Microsoft
 
@@ -39,13 +39,13 @@ In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige 
 
 ****
 
-|Methode|Beschrijving|
+|Methode|Omschrijving|
 |---|---|
 |[Beheerdersinzending gebruiken om verdachte spam, phish, URL's en bestanden naar Microsoft te verzenden](admin-submission.md)|De aanbevolen rapportagemethode voor beheerders in organisaties met Exchange Online postvakken (niet beschikbaar in zelfstandige EOP).|
 |[Het rapportbericht of de phishing-invoegvoegingen rapporteren inschakelen](enable-the-report-message-add-in.md)|Werkt met Outlook en Outlook op het web (voorheen bekend als Outlook Web App). <p> Afhankelijk van uw abonnement zijn berichten die gebruikers met de invoegvoegingen hebben gerapporteerd, beschikbaar in de portal Admin [Submissions,](admin-submission.md) [Automated investigation and response (AIR),](air-view-investigation-results.md)the [User-reported messages report](view-email-security-reports.md#user-reported-messages-report), and Threat [Explorer](threat-explorer-views.md#email--submissions). <p> U kunt gerapporteerde berichten zo configureren dat ze worden gekopieerd of omgeleid naar een postvak dat u opgeeft. Zie Beleidsregels voor [gebruikersinzendingen voor meer informatie.](user-submission.md)
-|[Fout-positieven en onwaar-negatieven rapporteren aan Outlook](report-false-positives-and-false-negatives.md)|Verzend fout-positieven (goede e-mail die is geblokkeerd of verzonden naar de map Ongewenste e-mail) en onwaar negatieven (ongewenste e-mail of phish die in het Postvak IN is bezorgd) naar Exchange Online Protection (EOP) met de functie Rapportbericht.|
+|[Fout-positieven en fout-negatieven rapporteren in Outlook](report-false-positives-and-false-negatives.md)|Verzend fout-positieven (goede e-mail die is geblokkeerd of verzonden naar de map Ongewenste e-mail) en onwaar negatieven (ongewenste e-mail of phish die in het Postvak IN is bezorgd) naar Exchange Online Protection (EOP) met de functie Rapportbericht.|
 |[Berichten handmatig indienen bij Microsoft voor analyse](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Handmatig bijgevoegde berichten verzenden naar specifieke Microsoft-e-mailadressen voor spam, geen spam en phishing.|
-|[E-mailstroomregels gebruiken om te zien wat gebruikers rapporteren aan Microsoft](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft)|Meer informatie over het maken van een regel voor e-mailstroom (ook wel transportregel genoemd) die u op de melding stelt wanneer gebruikers berichten rapporteren aan Microsoft voor analyse.|
+|[Regels voor e-mailstromen gebruiken om te zien wat gebruikers melden bij Microsoft](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft)|Meer informatie over het maken van een regel voor e-mailstroom (ook wel transportregel genoemd) die u op de melding stelt wanneer gebruikers berichten rapporteren aan Microsoft voor analyse.|
 |[Malware en niet-malware indienen bij Microsoft voor analyse](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Gebruik de Microsoft-beveiligingsinformatie site om bijlagen en andere bestanden in te dienen.|
 |
 

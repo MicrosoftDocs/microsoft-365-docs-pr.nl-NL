@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Lees hoe u een gebruikersaccount verwijdert en wat u moet doen met de e-mail en OneDrive van de gebruiker en of u de productlicentie wilt behouden.
-ms.openlocfilehash: ff10d3289eae87f84685c22b81db03798ca9d7eb
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 43a57a69ce0d810af2b029f49c15d32d75a4dc33
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634206"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683137"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
@@ -87,19 +87,11 @@ Omdat de begeleide ervaring stap voor stap uitlegt hoe u de gebruiker verwijdert
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.  
 
-2. Selecteer de namen van de gebruikers die u wilt verwijderen, selecteer de drie puntjes (meer acties) en kies **vervolgens Gebruiker verwijderen.**
-
-   Hoewel u het account van de gebruiker hebt verwijderd, **betaalt u nog steeds voor de licentie**.  Zie de volgende procedure om de betaling voor de licentie stop te zetten.  U kunt de licentie ook toewijzen aan een andere gebruiker. Deze wordt niet automatisch aan iemand toegewezen.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
-
-2. Selecteer de namen van de gebruikers die u wilt verwijderen en kies **Gebruikers verwijderen** in het deelvenster **Bulkacties**.
-
-   Hoewel u het account van de gebruiker hebt verwijderd, **betaalt u nog steeds voor de licentie**.  Zie de volgende procedure om de betaling voor de licentie stop te zetten.  U kunt de licentie ook toewijzen aan een andere gebruiker. Deze wordt niet automatisch aan iemand toegewezen.
 
 ::: moniker-end
 
@@ -107,11 +99,11 @@ Omdat de begeleide ervaring stap voor stap uitlegt hoe u de gebruiker verwijdert
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer de namen van de gebruikers die u wilt verwijderen en kies **Gebruikers verwijderen** in het deelvenster **Bulkacties**.
+::: moniker-end
+
+2. Selecteer de namen van de gebruikers die u wilt verwijderen, selecteer de drie puntjes (meer acties) en kies **vervolgens Gebruiker verwijderen.**
 
    Hoewel u het account van de gebruiker hebt verwijderd, **betaalt u nog steeds voor de licentie**.  Zie de volgende procedure om de betaling voor de licentie stop te zetten.  U kunt de licentie ook toewijzen aan een andere gebruiker. Deze wordt niet automatisch aan iemand toegewezen.
-
-::: moniker-end
 
 ### <a name="stop-paying-for-the-license"></a>Stoppen met betalen voor de licentie
 
@@ -119,7 +111,19 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
   
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>. Als u deze optie niet ziet, dan bent u geen globale beheerder of factureringsbeheerder en kunt u deze stap niet uitvoeren.
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
+::: moniker-end
 
 2. Selecteer op **het** tabblad Producten het abonnement waar u licenties voor wilt verwijderen.
 
@@ -127,31 +131,9 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
 
 4. Voer in **het deelvenster** Licenties verwijderen onder  **Nieuw** aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er vijf wilt verwijderen, voert u 95 in.
 
-5. Selecteer **Opslaan**.
+5. Kies **Opslaan**.
 
 Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>. Als u deze optie niet ziet, dan bent u geen globale beheerder of factureringsbeheerder en kunt u deze stap niet uitvoeren.
-
-2. Selecteer het abonnement (als u er meer dan een hebt) en kies vervolgens **Licenties toevoegen/verwijderen** om de licentie te verwijderen, zodat u pas betaalt wanneer u een andere medewerker aanneemt.  
-
-   Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>. Als u deze optie niet ziet, dan bent u geen globale beheerder of factureringsbeheerder en kunt u deze stap niet uitvoeren.
-
-2. Selecteer het abonnement (als u er meer dan een hebt) en kies vervolgens **Licenties toevoegen/verwijderen** om de licentie te verwijderen, zodat u pas betaalt wanneer u een andere medewerker aanneemt.  
-
-   Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
-
-::: moniker-end
 
 ## <a name="delete-many-users-at-the-same-time"></a>Meerdere gebruikers tegelijk verwijderen
 
@@ -169,7 +151,7 @@ Hier volgt een overzicht van de meestvoorkomende problemen tijdens het verwijder
 
 **Wilt u uw Microsoft 365 van uw computer verwijderen? Ga naar [Uw abonnement opzeggen.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een gebruiker herstellen](restore-user.md) (artikel)\
 [Een postvak permanent verwijderen](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (artikel)\

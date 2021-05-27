@@ -19,12 +19,12 @@ ms.collection:
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Defender voor Office 365 beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbeveiliging? Wat moet u gebruiken als u strikter wilt zijn? En welke extra's krijgt u als u Ook Defender gebruikt voor Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04668932747462d2636b466d87c2655d97569657
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 10fac8cb7241faa652bbcb4726610abef741e70c
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624071"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683269"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging
 
@@ -137,11 +137,11 @@ Zie [Anti-malwarebeleid](configure-anti-malware-policies.md)configureren in Offi
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**Wilt u geadresseerden op de hoogte stellen als hun berichten in quarantaine zijn geplaatst?** <p> _Actie_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Als malware wordt gedetecteerd in een e-mailbijlage, wordt het bericht in quarantaine geplaatst en kan het alleen worden uitgebracht door een beheerder.|
-|**Filter algemene bijlagetypen** <p> _EnableFileFilter_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van bestandstype, ongeacht de inhoud van de bijlage.|
-|**Malware Zero-hour Auto Purge** <p> _ZapEnabled_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
-|**Interne afzenders op de** hoogte stellen van het niet-bezorgde bericht <p> _EnableInternalSenderNotifications_|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`||
-|**Externe afzenders op de** hoogte stellen van het niet-bezorgde bericht <p> _ExternalSenderNotifications inschakelen_|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`||
+|**Geadresseerden op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _Actie_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Als malware wordt gedetecteerd in een e-mailbijlage, wordt het bericht in quarantaine geplaatst en kan het alleen worden uitgebracht door een beheerder.|
+|**Het algemene bijlagefilter inschakelen** <p> _EnableFileFilter_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van bestandstype, ongeacht de inhoud van de bijlage.|
+|**Automatische purge van nul uur inschakelen voor malware** <p> _ZapEnabled_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
+|**Interne afzenders op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _EnableInternalSenderNotifications_|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`||
+|**Externe afzenders op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _ExternalSenderNotifications inschakelen_|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`||
 |
 
 ### <a name="eop-default-anti-phishing-policy-settings"></a>Standaardinstellingen voor anti-phishingbeleid van EOP
@@ -316,7 +316,7 @@ In PowerShell gebruikt u de [cmdlets New-SafeAttachmentPolicy](/powershell/modul
 |**Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt.** <p> _ActionOnError_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
 |
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - Zoekt u best practices voor Exchange regels voor **e-mailstroom (ook** wel transportregels genoemd)? Zie [Best practices for configuring mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices).
 

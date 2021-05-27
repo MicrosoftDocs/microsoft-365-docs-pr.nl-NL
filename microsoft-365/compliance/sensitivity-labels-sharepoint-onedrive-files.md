@@ -17,28 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheerders kunnen ondersteuning voor gevoeligheidslabels inschakelen voor Word Excel en PowerPoint bestanden in SharePoint en OneDrive.
-ms.openlocfilehash: 656c8c12194119aa83d9b6b6897a7c43fede08df
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 16186bd1e5c4cd2ca5b1ccd81c24ec81bfd33597
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326580"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684025"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
 
 >*[Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
-
-> [!NOTE]
-> Er is een actueel probleem dat ervoor zorgt dat sommige gelabelde en versleutelde bestanden niet worden geopend in webversie van Office:
->
-> Hoewel we een probleem met betrekking tot specifieke documenteigenschappen onderzoeken, kunt u niet veel bestanden openen in webversie van Office. Voor deze bestanden kunt u deze blijven openen en bewerken in uw bureaublad- en mobiele Office apps. Of ga als volgt te werk:
->
-> 1. Open het bestand in de Office bureaublad-app.
-> 2. Verwijder het label dat versleuteling van toepassing is.
-> 3. Sla het bestand op de oorspronkelijke locatie op (SharePoint of OneDrive) en sluit de bureaublad-app.
-> 4. Open het bestand in webversie van Office en past het oorspronkelijke label waarin versleuteling wordt toegepast opnieuw toe.
-> 
-> Bestanden die alleen worden gelabeld in webversie van Office worden niet beïnvloed.
 
 Schakel gevoeligheidslabels in voor Office bestanden in SharePoint en OneDrive zodat gebruikers uw gevoeligheidslabels [kunnen](sensitivity-labels.md) toepassen in webversie van Office. Wanneer deze functie is ingeschakeld,  zien gebruikers de knop Gevoeligheid op het lint, zodat ze etiketten kunnen toepassen en eventuele toegepaste labelnaam op de statusbalk kunnen zien.
 
@@ -78,21 +66,25 @@ Als u momenteel documenten in SharePoint beschermt met behulp van SharePoint Inf
 
 ## <a name="requirements"></a>Vereisten
 
-Deze nieuwe mogelijkheden werken alleen met [gevoeligheidslabels.](sensitivity-labels.md) Als u momenteel Azure Information Protection-labels hebt, moet u deze eerst migreren naar gevoeligheidslabels, zodat u deze functies kunt inschakelen voor nieuwe bestanden die u uploadt. Zie Labels voor Azure Information Protection migreren naar geïntegreerde [gevoeligheidslabels](/azure/information-protection/configure-policy-migrate-labels)voor instructies.
+Deze nieuwe mogelijkheden werken alleen met [gevoeligheidslabels.](sensitivity-labels.md) Als u momenteel Azure Information Protection-labels hebt, moet u deze eerst migreren naar gevoeligheidslabels, zodat u deze functies kunt inschakelen voor nieuwe bestanden die u uploadt. Zie [Azure Information Protection-labels migreren naar geïntegreerde vertrouwelijkheidslabels](/azure/information-protection/configure-policy-migrate-labels) voor instructies.
 
 Gebruik de OneDrive-synchronisatie-app versie 19.002.0121.0008 of hoger op Windows en versie 19.002.0107.0008 of hoger op Mac. Beide versies zijn uitgebracht op 28 januari 2019 en worden momenteel voor alle ringen uitgebracht. Zie de opmerkingen over de [OneDrive release voor meer informatie.](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) Nadat u gevoeligheidslabels hebt ingeschakeld voor Office bestanden in SharePoint en OneDrive, worden gebruikers die een oudere versie van de synchronisatie-app uitvoeren, gevraagd deze bij te werken.
 
 ## <a name="limitations"></a>Beperkingen
 
+- SharePoint en OneDrive kunnen bepaalde bestanden die zijn gelabeld en versleuteld vanuit Office-bureaublad-apps, niet verwerken wanneer deze bestanden PowerQuery-gegevens bevatten, gegevens die zijn opgeslagen door aangepaste invoegtoepassing of aangepaste XML-onderdelen, zoals Eigenschappen voor voorpagina's, inhoudstypeschema's, aangepast documentinformatiepaneel en Aangepaste XSN. Deze beperking geldt ook voor bestanden waarop een [document-id](https://support.microsoft.com/office/enable-and-configure-unique-document-ids-ea7fee86-bd6f-4cc8-9365-8086e794c984) is toegevoegd wanneer ze worden geüpload.
+    
+    Voor deze bestanden kunt u een label zonder versleuteling toepassen, zodat ze later in webversie van Office kunnen worden geopend, of gebruikers instrueren de bestanden te openen in hun bureaublad-apps. Bestanden die alleen zijn gelabeld en versleuteld in webversie van Office worden niet beïnvloed.
+
 - SharePoint en OneDrive worden niet automatisch gevoeligheidslabels toegepast op bestaande bestanden die u al hebt versleuteld met Azure Information Protection-labels. Als u de functies wilt laten werken nadat u gevoeligheidslabels hebt ingeschakeld voor Office bestanden in SharePoint en OneDrive, kunt u de volgende taken uitvoeren:
     
-    1. Zorg ervoor dat u de [Azure Information Protection-labels](/azure/information-protection/configure-policy-migrate-labels) hebt gemigreerd naar gevoeligheidslabels en deze hebt gepubliceerd vanuit het Microsoft 365 compliancecentrum of het equivalente beheercentrum voor labeling. [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)
-    2. Download de bestanden en upload ze vervolgens naar SharePoint.
+    1. Zorg ervoor dat u [de Azure Information Protection-labels](/azure/information-protection/configure-policy-migrate-labels) hebt gemigreerd naar gevoeligheidslabels en deze hebt gepubliceerd [vanuit](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) het Microsoft 365 compliancecentrum.
+    2. Download de gelabelde bestanden en upload ze vervolgens naar de oorspronkelijke locatie in SharePoint of OneDrive.
 
 - SharePoint en OneDrive kunnen versleutelde bestanden niet verwerken wanneer het label waarop de versleuteling is toegepast, een van de volgende configuraties voor [versleuteling heeft:](encryption-sensitivity-labels.md#configure-encryption-settings)
-    - **Gebruikers machtigingen laten** toewijzen wanneer ze het label toepassen en het selectievakje **In Word, PowerPoint** en Excel gebruikers vragen om machtigingen op te geven is geselecteerd. Deze instelling wordt soms 'door de gebruiker gedefinieerde machtigingen' genoemd.
-    - **Gebruikerstoegang tot inhoud verloopt op** een andere waarde dan **Nooit.**
-    - **Dubbele sleutelversleuteling** is geselecteerd.
+    - **Gebruikers machtigingen laten toewijzen wanneer ze het label toepassen** en het selectievakje **Vraag in Word, PowerPoint en Excel gebruikers om machtigingen op te geven** is geselecteerd. Deze instelling wordt soms 'door de gebruiker gedefinieerde machtigingen' genoemd.
+    - **Gebruikerstoegang tot inhoud verloopt** wordt ingesteld op een andere waarde dan **Nooit**.
+    - **Dubbele sleutelcodering** is geselecteerd.
     
     Voor etiketten met een van deze versleutelingsconfiguraties worden de etiketten niet weergegeven voor gebruikers in webversie van Office. Bovendien kunnen de nieuwe mogelijkheden niet worden gebruikt met documenten met een label die al deze versleutelingsinstellingen hebben. Deze documenten worden bijvoorbeeld niet geretourneerd in zoekresultaten, zelfs niet als ze worden bijgewerkt.
 
@@ -134,40 +126,40 @@ Deze optie is de eenvoudigste manier om gevoeligheidslabels in te SharePoint en 
 
 1. Meld u aan bij [het Microsoft 365 compliancecentrum](https://compliance.microsoft.com/) als globale beheerder en ga naar **Solutions**  >  **Information Protection**
     
-    Als u deze optie niet direct ziet, selecteert u eerst **Alles tonen.** 
+    Als u deze optie niet meteen ziet, selecteert u eerst **Alles weergeven**. 
 
 2. Als u een bericht ziet waarin u de mogelijkheid ziet om inhoud te verwerken in Office onlinebestanden, selecteert u **Nu in- en uit:**
     
-    ![Knop Nu inschakelen om gevoeligheidslabels in te stellen voor Office Online](../media/sensitivity-labels-turn-on-banner.png)
+    ![Knop Nu inschakelen om gevoeligheidslabels in te Office Online](../media/sensitivity-labels-turn-on-banner.png)
     
     De opdracht wordt onmiddellijk uitgevoerd en wanneer de pagina de volgende keer wordt vernieuwd, ziet u het bericht of de knop niet meer.
 
 > [!NOTE]
-> Als u Microsoft 365 Multi-Geo hebt, moet u PowerShell gebruiken om deze mogelijkheden in te stellen voor al uw geografische locaties. Zie de volgende sectie voor meer informatie.
+> Als u meerdere Microsoft 365 hebt, moet u PowerShell gebruiken om deze mogelijkheden in te stellen voor al uw geografische locaties. Zie de volgende sectie voor meer informatie.
 
 ### <a name="use-powershell-to-enable-support-for-sensitivity-labels"></a>PowerShell gebruiken om ondersteuning voor gevoeligheidslabels in te stellen
 
-Als alternatief voor het gebruik van het compliancecentrum kunt u ondersteuning voor gevoeligheidslabels inschakelen met de [cmdlet Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) van SharePoint Online PowerShell. 
+Als alternatief voor het gebruik van het compliancecentrum kunt u ondersteuning voor gevoeligheidslabels inschakelen met de cmdlet [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) van SharePoint Online PowerShell. 
 
-Als u Microsoft 365 Multi-Geo hebt, moet u PowerShell gebruiken om deze ondersteuning in te stellen voor al uw geografische locaties.
+Als u meerdere Microsoft 365 hebt, moet u PowerShell gebruiken om deze ondersteuning in te stellen voor al uw geografische locaties.
 
-#### <a name="prepare-the-sharepoint-online-management-shell"></a>SharePoint Online Management Shell voorbereiden
+#### <a name="prepare-the-sharepoint-online-management-shell"></a>De online SharePoint Online Management Shell voorbereiden
 
-Voordat u de opdracht PowerShell uit te voeren om gevoeligheidslabels voor Office-bestanden in SharePoint en OneDrive in te stellen, controleert u of u SharePoint Online Management Shell versie 16.0.19418.12000 of hoger gebruikt. Als u al de nieuwste versie hebt, kunt u naar de [volgende procedure](#run-the-powershell-command-to-enable-support-for-sensitivity-labels) gaan om de PowerShell-opdracht uit te voeren.
+Voordat u de PowerShell-opdracht uit te voeren om gevoeligheidslabels in te stellen voor Office-bestanden in SharePoint en OneDrive, controleert u of u SharePoint Online Management Shell versie 16.0.19418.12000 of hoger gebruikt. Als u al de nieuwste versie hebt, kunt u naar de [volgende procedure](#run-the-powershell-command-to-enable-support-for-sensitivity-labels) gaan om de PowerShell-opdracht uit te voeren.
 
-1. Als u een eerdere versie van de SharePoint Online Management Shell hebt geïnstalleerd vanuit de PowerShell-galerie, kunt u de module bijwerken door de volgende cmdlet uit te werken.
+1. Als u een vorige versie van de SharePoint Online Management Shell hebt geïnstalleerd vanuit de PowerShell-galerie, kunt u de module bijwerken door de volgende cmdlet uit te werken.
 
     ```PowerShell
     Update-Module -Name Microsoft.Online.SharePoint.PowerShell
     ```
 
-2. Als u een eerdere versie van de SharePoint Online Management Shell hebt geïnstalleerd vanuit  het Microsoft Downloadcentrum, kunt u ook naar Programma's toevoegen of verwijderen gaan en de SharePoint Online Management Shell verwijderen.
+2. Als u een eerdere versie van de SharePoint Online Management Shell hebt geïnstalleerd vanuit het  Microsoft Downloadcentrum, kunt u ook naar Programma's toevoegen of verwijderen gaan en de SharePoint Online Management Shell verwijderen.
 
-3. Ga in een webbrowser naar de pagina Downloadcentrum en [download de nieuwste SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
+3. Ga in een webbrowser naar de pagina Downloadcentrum en download de nieuwste [SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
 
 4. Selecteer uw taal en klik vervolgens op **Downloaden.**
 
-5. Kies tussen het x64- en x86-.msi bestand. Download het x64-bestand als u de 64-bits versie van Windows of het x86-bestand gebruikt als u de 32-bits versie gebruikt. Zie Welke versie van het [Windows-besturingssysteem](https://support.microsoft.com/help/13443/windows-which-operating-system) gebruik ik? als u het niet weet.
+5. Kies tussen het x64- en x86-.msi bestand. Download het x64-bestand als u de 64-bits versie van Windows of het x86-bestand gebruikt als u de 32-bits versie gebruikt. Als u het niet weet, zie [Welke versie van Windows besturingssysteem gebruik ik?](https://support.microsoft.com/help/13443/windows-which-operating-system)
 
 6. Nadat u het bestand hebt gedownload, voer u het bestand uit en volgt u de stappen in de wizard Setup.
 
@@ -175,9 +167,9 @@ Voordat u de opdracht PowerShell uit te voeren om gevoeligheidslabels voor Offic
 
 Als u de nieuwe mogelijkheden wilt inschakelen, gebruikt u de cmdlet [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) met de *parameter EnableAIPIntegration:*
 
-1. Maak verbinding met SharePoint met een werk- of schoolaccount met globale beheerders- of SharePoint-beheerdersbevoegdheden in Microsoft 365. Zie Aan de slag [met SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)voor meer informatie.
+1. Als u een werk- of schoolaccount gebruikt met globale beheerders- of SharePoint beheerdersbevoegdheden in Microsoft 365, maakt u verbinding met SharePoint. Zie Aan de slag [met SharePoint Online Management Shell voor meer informatie.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
     
-    Opmerking: Als u Microsoft 365 Multi-Geo hebt, gebruikt u de parameter -Url met [Connect-SPOService](/powershell/module/sharepoint-online/connect-sposervice)en geeft u de URL van de SharePoint Online Administration Center-site op voor een van uw geografische locaties.
+    Opmerking: Als u multi-geo Microsoft 365 hebt, gebruikt u de parameter -Url met [Verbinding maken-SPOService](/powershell/module/sharepoint-online/connect-sposervice)en geeft u de url van de SharePoint Online Administration Center-site op voor een van uw geografische locaties.
 
 2. Voer de volgende opdracht uit en druk **op Y** om dit te bevestigen:
 
@@ -188,35 +180,35 @@ Als u de nieuwe mogelijkheden wilt inschakelen, gebruikt u de cmdlet [Set-SPOTen
 
 ## <a name="publishing-and-changing-sensitivity-labels"></a>Gevoeligheidslabels publiceren en wijzigen
 
-Wanneer u gevoeligheidslabels gebruikt met SharePoint en OneDrive, moet u rekening houden met replicatietijd wanneer u nieuwe gevoeligheidslabels publiceert of bestaande gevoeligheidslabels bij werk. Dit is vooral belangrijk voor nieuwe etiketten die versleuteling toepassen.
+Wanneer u gevoeligheidslabels gebruikt met SharePoint en OneDrive, moet u replicatietijd toestaan wanneer u nieuwe gevoeligheidslabels publiceert of bestaande gevoeligheidslabels bij werk. Dit is vooral belangrijk voor nieuwe etiketten die versleuteling toepassen.
 
-Bijvoorbeeld: U maakt en publiceert een nieuw gevoeligheidslabel waarmee versleuteling wordt toegepast en het wordt heel snel weergegeven in de bureaublad-app van een gebruiker. De gebruiker past dit label toe op een document en uploadt het vervolgens naar SharePoint of OneDrive. Als de labelreplicatie nog niet is voltooid voor de service, worden de nieuwe mogelijkheden niet toegepast op dat document tijdens het uploaden. Hierdoor wordt het document niet geretourneerd in zoekopdrachten of eDiscovery en kan het document niet worden geopend in Office voor het web.  
+Bijvoorbeeld: U maakt en publiceert een nieuw gevoeligheidslabel waarmee versleuteling wordt toegepast en het wordt heel snel weergegeven in de bureaublad-app van een gebruiker. De gebruiker past dit label toe op een document en uploadt het vervolgens naar SharePoint of OneDrive. Als de labelreplicatie nog niet is voltooid voor de service, worden de nieuwe mogelijkheden niet toegepast op dat document tijdens het uploaden. Hierdoor wordt het document niet geretourneerd in zoekopdrachten of eDiscovery en kan het document niet worden geopend in webversie van Office.  
 
 De volgende wijzigingen worden binnen een uur gerepliceerd: Nieuwe en verwijderde gevoeligheidslabels en beleidsinstellingen voor gevoeligheidslabels waarin wordt vermeld welke labels in het beleid staan.
 
 De volgende wijzigingen worden binnen 24 uur gerepliceerd: Wijzigingen in gevoeligheidslabelinstellingen voor bestaande etiketten.
 
-Omdat de replicatievertraging slechts één uur is voor nieuwe gevoeligheidslabels, is het onwaarschijnlijk dat het scenario in het voorbeeld wordt uitgevoerd. Maar als vrijwaring raden we aan om eerst nieuwe etiketten te publiceren voor slechts een paar testgebruikers, een uur te wachten en vervolgens het gedrag van etiketten in SharePoint en OneDrive te controleren. Als laatste stap maakt u het label beschikbaar voor meer gebruikers door meer gebruikers toe te voegen aan het bestaande labelbeleid of het label toe te voegen aan een bestaand labelbeleid voor uw standaardgebruikers. Op het moment dat uw standaardgebruikers het label zien, is het al gesynchroniseerd met SharePoint en OneDrive.
+Omdat de replicatievertraging slechts één uur is voor nieuwe gevoeligheidslabels, is het onwaarschijnlijk dat het scenario in het voorbeeld wordt uitgevoerd. Maar als vrijwaring raden we aan om eerst nieuwe etiketten te publiceren voor slechts een paar testgebruikers, een uur te wachten en vervolgens het gedrag van etiketten op SharePoint en OneDrive. Als laatste stap maakt u het label beschikbaar voor meer gebruikers door meer gebruikers toe te voegen aan het bestaande labelbeleid of het label toe te voegen aan een bestaand labelbeleid voor uw standaardgebruikers. Op het moment dat uw standaardgebruikers het label zien, is het al gesynchroniseerd met SharePoint en OneDrive.
 
-## <a name="sharepoint-information-rights-management-irm-and-sensitivity-labels"></a>SharePoint Information Rights Management (IRM) en gevoeligheidslabels
+## <a name="sharepoint-information-rights-management-irm-and-sensitivity-labels"></a>SharePoint IRM (Information Rights Management) en gevoeligheidslabels
 
-[SharePoint Information Rights Management (IRM)](set-up-irm-in-sp-admin-center.md) is een oudere technologie om bestanden op lijst- en bibliotheekniveau te beveiligen door versleuteling en beperkingen toe te passen wanneer bestanden worden gedownload. Deze oudere beveiligingstechnologie is ontworpen om te voorkomen dat onbevoegde gebruikers het bestand openen terwijl het zich buiten SharePoint.
+[SharePoint Information Rights Management (IRM)](set-up-irm-in-sp-admin-center.md) is een oudere technologie om bestanden op lijst- en bibliotheekniveau te beveiligen door versleuteling en beperkingen toe te passen wanneer bestanden worden gedownload. Deze oudere beveiligingstechnologie is ontworpen om te voorkomen dat onbevoegde gebruikers het bestand openen terwijl het buiten de SharePoint.
 
 Ter vergelijking: gevoeligheidslabels bieden naast versleuteling ook de beveiligingsinstellingen van visuele markeringen (kopteksten, voetteksten, watermerken). De versleutelingsinstellingen [](/azure/information-protection/configure-usage-rights) ondersteunen het volledige bereik van gebruiksrechten om te beperken wat gebruikers met de inhoud kunnen doen en dezelfde gevoeligheidslabels worden ondersteund voor [veel scenario's.](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels) Als u dezelfde beveiligingsmethode gebruikt met consistente instellingen voor werkbelastingen en apps, resulteert dit in een consistente beveiligingsstrategie.
 
 U kunt echter beide beveiligingsoplossingen samen gebruiken en het gedrag is als volgt: 
 
-- Als u een bestand uploadt met een gevoeligheidslabel dat versleuteling van toepassing is, kan SharePoint de inhoud van deze bestanden niet verwerken, zodat coauthoring, eDiscovery, DLP en zoekopdrachten niet worden ondersteund voor deze bestanden.
+- Als u een bestand uploadt met een gevoeligheidslabel dat versleuteling van toepassing is, kunnen SharePoint de inhoud van deze bestanden niet verwerken, zodat coauthoring, eDiscovery, DLP en zoeken niet worden ondersteund voor deze bestanden.
 
-- Als u een bestand labelt met office voor het web, worden versleutelingsinstellingen van het label afgedwongen. Voor deze bestanden worden coauthoring, eDiscovery, DLP en zoeken ondersteund.
+- Als u een bestand labelt met webversie van Office, worden versleutelingsinstellingen van het label afgedwongen. Voor deze bestanden worden coauthoring, eDiscovery, DLP en zoeken ondersteund.
 
-- Als u een bestand downloadt dat is gelabeld met office voor het web, blijft het label behouden en worden versleutelingsinstellingen van het label afgedwongen in plaats van de IRM-beperkingsinstellingen.
+- Als u een bestand downloadt dat is gelabeld met webversie van Office, blijft het label behouden en worden versleutelingsinstellingen van het label afgedwongen in plaats van de instellingen voor IRM-beperkingen.
 
-- Als u een Office- of PDF-bestand downloadt dat niet is versleuteld met een gevoeligheidslabel, worden IRM-instellingen toegepast.
+- Als u een bestand Office pdf-bestand dat niet is versleuteld met een gevoeligheidslabel, worden IRM-instellingen toegepast.
 
 - Als u een van de extra IRM-bibliotheekinstellingen hebt ingeschakeld, waaronder voorkomen dat gebruikers documenten uploaden die geen ondersteuning bieden voor IRM, worden deze instellingen afgedwongen.
 
-Met dit gedrag kunt u er zeker van zijn dat alle Office- en PDF-bestanden zijn beveiligd tegen onbevoegde toegang als ze worden gedownload, zelfs als ze niet zijn gelabeld. Gelabelde bestanden die worden geüpload, profiteren echter niet van de nieuwe mogelijkheden.
+Met dit gedrag kunt u er zeker van zijn dat alle Office en PDF-bestanden zijn beveiligd tegen onbevoegde toegang als ze worden gedownload, zelfs als ze niet zijn gelabeld. Gelabelde bestanden die worden geüpload, profiteren echter niet van de nieuwe mogelijkheden.
 
 
 ## <a name="search-for-documents-by-sensitivity-label"></a>Documenten zoeken op gevoeligheidslabel
@@ -229,9 +221,9 @@ Als u bijvoorbeeld wilt zoeken naar alle documenten die zijn gelabeld als 'Vertr
 
 Gebruik de [cmdlet Get-Label](/powershell/module/exchange/get-label) om de GUID's voor uw gevoeligheidslabels op te halen:    
 
-1. Maak eerst [verbinding met Office 365 Security & Compliance Center PowerShell.](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 
+1. Maak eerst [verbinding met Office 365 Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
    
-    In een PowerShell-sessie die u als beheerder runt, kunt u zich bijvoorbeeld aanmelden met een globaal beheerdersaccount.    
+    Meld u bijvoorbeeld in een PowerShell-sessie die u uitvoert als beheerder aan met een globalebeheerdersaccount.    
 
 2. Voer vervolgens de volgende opdracht uit:  
 
@@ -239,13 +231,13 @@ Gebruik de [cmdlet Get-Label](/powershell/module/exchange/get-label) om de GUID'
     Get-Label |ft Name, Guid    
     ``` 
 
-Zie Het zoekschema beheren in SharePoint voor meer informatie over het gebruik van [beheerde eigenschappen.](/sharepoint/manage-search-schema)
+Zie Het zoekschema beheren in SharePoint voor meer informatie over het gebruik [van beheerde eigenschappen.](/sharepoint/manage-search-schema)
 
 ## <a name="remove-encryption-for-a-labeled-document"></a>Versleuteling voor een document met label verwijderen
 
-Er kunnen zeldzame gevallen zijn dat een SharePoint-beheerder versleuteling moet verwijderen uit een document dat is opgeslagen in SharePoint. Elke gebruiker die het [rights management-gebruiksrecht](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) van Export of Volledig beheer heeft toegewezen voor dat document, kan versleuteling verwijderen die is toegepast door de Azure Rights Management-service van Azure Information Protection. Gebruikers met een van deze gebruiksrechten kunnen bijvoorbeeld een label vervangen dat versleuteling door een label zonder versleuteling van toepassing is. Een supergebruiker kan [het bestand](/azure/information-protection/configure-super-users) ook downloaden en een lokale kopie opslaan zonder de versleuteling.
+Er kunnen zeldzame gevallen zijn dat een beheerder SharePoint versleuteling moet verwijderen uit een document dat is opgeslagen in SharePoint. Elke gebruiker met het [rights management-gebruiksrecht](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) van Exporteren of Volledig beheer dat aan hen is toegewezen voor dat document, kan versleuteling verwijderen die is toegepast door de Azure Rights Management-service van Azure Information Protection. Gebruikers met een van deze gebruiksrechten kunnen bijvoorbeeld een label vervangen dat versleuteling door een label zonder versleuteling van toepassing is. Een supergebruiker kan [het bestand](/azure/information-protection/configure-super-users) ook downloaden en een lokale kopie opslaan zonder de versleuteling.
 
-Als alternatief kan een globale beheerder of [SharePoint-beheerder](/sharepoint/sharepoint-admin-role) de [cmdlet Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) uitvoeren, waardoor zowel het gevoeligheidslabel als de versleuteling worden verwijderd. Deze cmdlet wordt uitgevoerd, zelfs als de beheerder geen toegangsmachtigingen voor de site of het bestand heeft of als de Azure Rights Management-service niet beschikbaar is. 
+Als alternatief kan een globale beheerder [of SharePoint-beheerder](/sharepoint/sharepoint-admin-role) de [cmdlet Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) uitvoeren, waardoor zowel het gevoeligheidslabel als de versleuteling worden verwijderd. Deze cmdlet wordt uitgevoerd, zelfs als de beheerder geen toegangsmachtigingen voor de site of het bestand heeft of als de Azure Rights Management service niet beschikbaar is. 
 
 Bijvoorbeeld:
 
@@ -263,18 +255,18 @@ De uitvullingstekst wordt toegevoegd aan de [auditgebeurtenis](search-the-audit-
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>Gevoeligheidslabels uitschakelen voor SharePoint en OneDrive (opt-out)
 
-Als u deze nieuwe mogelijkheden uit schakelt, blijven bestanden die u hebt geüpload nadat u gevoeligheidslabels voor SharePoint en OneDrive hebt ingeschakeld, beveiligd door het label, omdat de labelinstellingen nog steeds worden afgedwongen. Wanneer u gevoeligheidslabels op nieuwe bestanden toe te passen nadat u deze nieuwe mogelijkheden hebt uitgeschakeld, werken full-text search, eDiscovery en coauthoring niet meer.
+Als u deze nieuwe mogelijkheden uit schakelt, blijven bestanden die u hebt geüpload nadat u gevoeligheidslabels voor SharePoint en OneDrive hebt ingeschakeld, beveiligd door het label omdat de labelinstellingen nog steeds worden afgedwongen. Wanneer u gevoeligheidslabels op nieuwe bestanden toe te passen nadat u deze nieuwe mogelijkheden hebt uitgeschakeld, werken full-text search, eDiscovery en coauthoring niet meer.
 
-Als u deze nieuwe mogelijkheden wilt uitschakelen, moet u PowerShell gebruiken. Met behulp van de SharePoint Online Management Shell en de cmdlet [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) geeft u dezelfde *EnableAIPIntegration-parameter* op als beschreven in de sectie [PowerShell](#use-powershell-to-enable-support-for-sensitivity-labels) gebruiken om ondersteuning voor gevoeligheidslabels in te stellen. Maar stel deze keer de parameterwaarde in op onwaar en druk **op Y** om het volgende te bevestigen:
+Als u deze nieuwe mogelijkheden wilt uitschakelen, moet u PowerShell gebruiken. Met de SharePoint Online Management Shell en de cmdlet [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) geeft u dezelfde *Parameter EnableAIPIntegration* op als beschreven in de sectie [PowerShell](#use-powershell-to-enable-support-for-sensitivity-labels) gebruiken om ondersteuning voor gevoeligheidslabels in te stellen. Maar stel deze keer de parameterwaarde in op onwaar en druk **op Y** om het volgende te bevestigen:
 
 ```PowerShell
 Set-SPOTenant -EnableAIPIntegration $false
 ```
 
-Als u Microsoft 365 Multi-Geo hebt, moet u deze opdracht uitvoeren voor elk van uw geografische locaties.
+Als u meerdere Microsoft 365 hebt, moet u deze opdracht uitvoeren voor elk van uw geografische locaties.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Nadat u gevoeligheidslabels hebt ingeschakeld voor Office-bestanden in SharePoint en OneDrive, kunt u overwegen deze bestanden automatisch te labelen met behulp van beleidsregels voor automatisch labelen. Zie Een gevoeligheidslabel automatisch toepassen op inhoud voor [meer informatie.](apply-sensitivity-label-automatically.md)
+Nadat u gevoeligheidslabels hebt ingeschakeld voor Office bestanden in SharePoint en OneDrive, kunt u overwegen deze bestanden automatisch te labelen met behulp van beleidsregels voor automatisch labelen. Zie Een gevoeligheidslabel automatisch toepassen op inhoud voor [meer informatie.](apply-sensitivity-label-automatically.md)
 
-Wilt u uw gelabelde en versleutelde documenten delen met personen buiten uw organisatie?  Zie [Versleutelde documenten delen met externe gebruikers.](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users)
+Wilt u uw gelabelde en versleutelde documenten delen met personen buiten uw organisatie?  Zie [Versleutelde documenten delen met externe gebruikers](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users).

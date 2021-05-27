@@ -798,7 +798,7 @@
           href: detailed-properties-in-the-office-365-audit-log.md
         - name: 'Auditlogboekrecords exporteren, configureren en weergeven'
           href: export-view-audit-log-records.md
-        - name: Zoeken in auditlogboeken in- of uitschakelen
+        - name: Mobiele meldingen in- of uitschakelen
           href: turn-audit-log-search-on-or-off.md
         - name: Het auditlogboek gebruiken om veelvoorkomende problemen te onderzoeken
           href: auditing-troubleshooting-scenarios.md

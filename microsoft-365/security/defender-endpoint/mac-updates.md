@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 886195de38856306d69932446eae34212fe4bb0d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e08781455888595d57bd8a9e6f792796ea1853cd
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934499"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684205"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Updates voor Microsoft Defender voor Eindpunt implementeren in macOS
 
@@ -48,7 +48,7 @@ Als u besluit updates te implementeren met behulp van uw softwaredistributieprog
 
 ## <a name="use-msupdate"></a>Msupdate gebruiken
 
-MAU bevat een opdrachtregelhulpmiddel, *msupdate* genoemd, dat is ontworpen voor IT-beheerders, zodat ze nauwkeuriger kunnen bepalen wanneer updates worden toegepast. Instructies voor het gebruik van dit hulpprogramma vindt u in [Office voor Mac bijwerken met msupdate.](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)
+MAU bevat een opdrachtregelhulpmiddel, *msupdate* genoemd, dat is ontworpen voor IT-beheerders, zodat ze nauwkeuriger kunnen bepalen wanneer updates worden toegepast. Instructies voor het gebruik van dit hulpprogramma vindt u in [Update Office voor Mac met msupdate.](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)
 
 In MAU is de toepassingsaanduiding voor Microsoft Defender voor Eindpunt op macOS *WDAV00.* Als u de nieuwste updates voor Microsoft Defender voor Eindpunt voor macOS wilt downloaden en installeren, voert u de volgende opdracht uit vanuit een terminalvenster:
 
@@ -130,7 +130,7 @@ Wijzig of lokale gebruikers kunnen klikken op de optie Controleren op updates in
 
 ### <a name="disable-insider-checkbox"></a>Selectievakje Insider uitschakelen
 
-Ingesteld op waar om het 'Deelnemen aan het Office Insider-programma' te maken... selectievakje niet beschikbaar / grijs voor gebruikers.
+Instellen op waar om het 'Join the Office Insider Program... selectievakje niet beschikbaar / grijs voor gebruikers.
 
 |Sectie|Waarde|
 |:--|:--|
@@ -155,10 +155,17 @@ Instellen op onwaar om minimale heartbeatgegevens te verzenden, geen toepassings
 ## <a name="example-configuration-profile"></a>Voorbeeld van configuratieprofiel
 
 Het volgende configuratieprofiel wordt gebruikt om:
-- Het apparaat in het bètakanaal plaatsen
+- Het apparaat in het productiekanaal plaatsen
 - Updates automatisch downloaden en installeren
 - De knop Controleren op updates inschakelen in de gebruikersinterface
 - Gebruikers op het apparaat toestaan zich aan te melden bij de Insider-kanalen
+
+
+>[!WARNING]
+>De onderstaande configuratie is een voorbeeldconfiguratie en mag niet worden gebruikt in de productie zonder de instellingen goed te controleren en configuraties op maat te maken.
+
+>[!TIP]
+>Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wilt geven, wordt u aangeraden bepaalde apparaten in uw bedrijf te configureren op `Beta` of `Preview` .
 
 ### <a name="jamf"></a>JAMF
 
@@ -168,7 +175,7 @@ Het volgende configuratieprofiel wordt gebruikt om:
 <plist version="1.0">
 <dict>
     <key>ChannelName</key>
-    <string>Beta</string>
+    <string>Production</string>
     <key>HowToCheck</key>
     <string>AutomaticDownload</string>
     <key>EnableCheckForUpdatesButton</key>
@@ -228,7 +235,7 @@ Het volgende configuratieprofiel wordt gebruikt om:
             <key>PayloadEnabled</key>
             <true/>
             <key>ChannelName</key>
-            <string>Beta</string>
+            <string>Production</string>
             <key>HowToCheck</key>
             <string>AutomaticDownload</string>
             <key>EnableCheckForUpdatesButton</key>

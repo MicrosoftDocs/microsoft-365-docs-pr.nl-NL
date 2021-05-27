@@ -20,18 +20,18 @@ ms.custom:
 - commerce_billing
 monikerRange: o365-worldwide
 ms.date: 05/03/2021
-ms.openlocfilehash: 4866bcd07cb4a54088d230166f9b04f8258d7185
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: b34fd0fd2e35d71e6b35cde250be822201aa719a
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331788"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689023"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-india-customers"></a>Een tegoed aanvragen voor bronbelasting voor uw account (India-klanten)
 
-Klanten in India ontvangen Web Direct -facturen (Azure en Microsoft 365) gefactureerd door Microsoft Regional Sales Pte Ltd. Singapore (MRS) en betalen over de grenzen naar Singapore om de factuur te vereffenen. Als u belastingen hebt ingehouden bij het afstoten van de betaling, wordt in dit artikel uitgelegd hoe u een krediet voor de bronbelasting (WT) in uw account bij MRS kunt claimen.
+Klanten in India ontvangen Web Direct-facturen (Azure en Microsoft 365) gefactureerd door Microsoft Regional Sales Pte Ltd. Singapore (MRS) en betalen over de grenzen naar Singapore om de factuur te vereffenen. Als u belastingen hebt ingehouden bij het afstoten van de betaling, wordt in dit artikel uitgelegd hoe u een krediet voor de bronbelasting (WT) in uw account bij MRS kunt claimen.
 
-## <a name="for-invoice-pay-customers-who-pay-by-check-and-wire"></a>Voor klanten met factuur betalen die per cheque en overboeking betalen
+## <a name="for-invoice-pay-customers-who-pay-by-check-or-wire"></a>Voor klanten met factuur betalen die per cheque of overboeking betalen
 
 Als u belasting hebt ingehouden bij het afwikkelen van de betaling aan MRS en de ingehouden belasting hebt gedeponeerd bij de afdeling Inkomstenbelasting, moet u een WHT-verzoek indienen om het ingehouden belastingbedrag op uw account te vereffenen.
 
@@ -44,7 +44,7 @@ Verzend de WHT-aanvraag door een ticket te openen met Microsoft-ondersteuning.
 
 ## <a name="for-customers-who-pay-by-credit-card"></a>Voor klanten die per creditcard betalen
 
-Als uw betalingswijze een creditcard is en u een volledige betaling hebt gedaan aan MRS en WHT hebt betaald aan de afdeling Inbelasting, moet u een WHT-aanvraag indienen om de terugbetaling van het belastingbedrag te claimen.
+Als uw betalingswijze een creditcard is en u een volledige betaling hebt gedaan aan MRS, en ook WHT hebt betaald aan de afdeling Inbelasting, moet u een wht-aanvraag indienen om de terugbetaling van het belastingbedrag te claimen.
 
 Uw WHT-aanvraag moet de volgende items bevatten:
 
@@ -68,11 +68,11 @@ In de volgende tabel ziet u de einddatums en tijdlijnen voor het indienen van di
 >
 > - Klanten kunnen na het betalen van de factuur alleen een verzoek tot terugbetaling van het wht-bedrag indienen.
 > - Het factuurbedrag op het formulier Bronbelastingtegoed moet overeenkomen met het factuurbedrag dat is aangegeven in het TDS-certificaat. Als het factuurbedrag tussen de twee formulieren verschilt, moet u de reden voor het verschil opgeven in het formulier Bronbelastingtegoed. Deze informatie wordt gecontroleerd door het beoordelingsteam, dat indien nodig vragen kan stellen.
-> - TDS-certificaatbestanden moeten een van de volgende bestandsindelingen hebben: alleen .PDF of Afbeelding (. JPEG, .PNG en .GIF). Daarnaast mogen bestandsnamen geen spaties of speciale tekens bevatten. Bestandsgrootte mag niet groter zijn dan 1 MB.
+> - TDS-certificaatbestanden moeten een van de volgende bestandsindelingen hebben: alleen .PDF of Afbeelding (. JPEG, .PNG of .GIF). Daarnaast mogen bestandsnamen geen spaties of speciale tekens bevatten. Bestandsgrootte mag niet groter zijn dan 1 MB.
 
 Nadat u de aanvraag hebt ingediend, gaat deze naar het goedkeuringsproces waar het is goedgekeurd voor voltooiing of wordt teruggestuurd naar u voor correctie.
 
-Als er een probleem is met uw aanvraag, moet het beoordelingsteam mogelijk correcties toepassen op het inhoudsbedrag of de vervanging van het TDS-certificaat. U moet de aanvraag opnieuw indienen voordat deze wordt goedgekeurd. Het beoordelingsteam keurt de aanvraag goed of vraagt om meer wijzigingen.
+Als er een probleem is met uw aanvraag, moet het beoordelingsteam mogelijk correcties toepassen op het inhoudsbedrag of de vervanging van het TDS-certificaat. U moet de aanvraag opnieuw indienen voordat deze kan worden goedgekeurd. Het beoordelingsteam keurt de aanvraag goed of vraagt om meer wijzigingen.
 
 ## <a name="approved-requests"></a>Goedgekeurde aanvragen
 

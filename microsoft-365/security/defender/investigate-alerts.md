@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6a34269c414f59d40c9160d5728159ed9cddf976
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 4957c92cb95464213cce4a81ded07de166468c73
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651345"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689011"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Waarschuwingen onderzoeken in Microsoft 365 Defender
 
@@ -78,6 +78,23 @@ Een waarschuwingspagina bestaat uit deze secties:
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Voorbeeld van de detailspagina van een waarschuwing in het Microsoft 365 beveiligingscentrum":::
 
 Op een waarschuwingspagina kunt u de drie puntjes **(...)** naast een entiteit selecteren om beschikbare acties te bekijken, zoals het openen van de waarschuwingspagina of het koppelen van de waarschuwing aan een ander incident.
+
+### <a name="alert-sources"></a>Waarschuwingsbronnen
+Microsoft 365 Defender-waarschuwingen kunnen afkomstig zijn van oplossingen zoals Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365 en Microsoft Cloud App Security. U ziet mogelijk waarschuwingen met voorbereide tekens in de waarschuwing. De volgende tabel bevat richtlijnen om inzicht te krijgen in de toewijzing van waarschuwingsbronnen op basis van het voorbereide teken op de waarschuwing.
+
+> [!NOTE]
+> - De voorbereide GUID's zijn alleen specifiek voor geïntegreerde ervaringen, zoals unified alerts queue, unified alerts page, unified investigation en unified incident.<br>
+> - Het voorbereide teken wijzigt de GUID van de waarschuwing niet. De enige wijziging in de GUID is het voorbereide onderdeel.<br>
+
+
+Waarschuwingsbron | Voorbereidend teken 
+:---|:---
+Microsoft Defender voor Office 365 | `fa{GUID}` <br> Voorbeeld: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Defender voor Eindpunt | `da` of `ed` voor aangepaste detectiewaarschuwingen <br> 
+Microsoft Defender for Identity | `aa{GUID}` <br> Voorbeeld: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Cloud App Security |`ca{GUID}` <br> Voorbeeld: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+
+
 
 ### <a name="analyze-affected-assets"></a>Beïnvloede activa analyseren
 

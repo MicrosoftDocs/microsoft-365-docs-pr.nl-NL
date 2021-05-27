@@ -13,12 +13,12 @@ localization_priority: Normal
 description: Volg het pad van een binnenkomend bericht door de filtertack voor bedreigingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01ad901f7f746d9b5d2c50632c1344701120c20f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e892ebe04887527cf57e4ea44f67c4aaa775b228
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538685"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683293"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Stapsgewijze bedreigingsbeveiliging in Microsoft Defender voor Office 365
 
@@ -111,13 +111,13 @@ De laatste fase vindt plaats na de bezorging van e-mail of bestanden, met e-mail
 
 :::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase4.png" alt-text="Fase 4 van filteren in Defender voor Office 365 is bescherming na aflevering.":::
 
-1. **Safe Koppelingen** is de time-of-click-beveiliging van MDO. Elke URL in elk bericht wordt omwikkeld om te wijzen naar Microsoft Safe Koppelingenservers. Wanneer op een URL wordt geklikt, wordt deze gecontroleerd op de meest recente reputatie, voordat de gebruiker wordt omgeleid naar de doelsite. De URL is asynchrone sandboxed om de reputatie bij te werken.
+1. **Safe Koppelingen** is Defender voor Office 365 de time-of-click-beveiliging van de Office 365. Elke URL in elk bericht wordt omwikkeld om te wijzen naar Microsoft Safe Koppelingenservers. Wanneer op een URL wordt geklikt, wordt deze gecontroleerd op de meest recente reputatie, voordat de gebruiker wordt omgeleid naar de doelsite. De URL is asynchrone sandboxed om de reputatie bij te werken.
 
-2. **Phish Zero-Hour Auto-purge (ZAP)** detecteert en neutraliseert met terugwerkende kracht kwaadaardige phishingberichten die al zijn bezorgd in Exchange Online postvakken.
+2. **Zero-Hour Auto-purge (ZAP)** voor phishing detecteert en neutraliseert met terugwerkende kracht kwaadaardige phishingberichten die al zijn bezorgd in Exchange Online postvakken.
 
-3. **Malware ZAP** detecteert en neutraliseert schadelijke malwareberichten die al zijn bezorgd in Exchange Online postvakken.
+3. **ZAP voor malware** detecteert en neutraliseert schadelijke malwareberichten die al zijn bezorgd in Exchange Online postvakken.
 
-4. **Spam ZAP** detecteert en neutraliseert schadelijke spamberichten die al zijn bezorgd in Exchange Online postvakken.
+4. **ZAP voor phishing** detecteert en neutraliseert schadelijke spamberichten die al zijn bezorgd in Exchange Online postvakken.
 
 5. **Met campagneweergaven** kunnen beheerders het grote geheel van een aanval zien, sneller en vollediger dan elk team zonder automatisering. Microsoft maakt gebruik van de enorme hoeveelheden anti-phishing-, antispam- en anti-malwaregegevens in de hele service om campagnes te identificeren. Beheerders kunnen deze vervolgens van begin tot eind onderzoeken, inclusief doelen, effecten en stromen, die ook beschikbaar zijn in een downloadbare campagne.
 
@@ -128,7 +128,6 @@ De laatste fase vindt plaats na de bezorging van e-mail of bestanden, met e-mail
 8. Bescherming voor **OneDrive, SharePoint** en Teams biedt dezelfde Safe Bijlagen-beveiliging tegen schadelijke bestanden, inheems, binnen OneDrive, SharePoint en Microsoft Teams.
 
 9. Wanneer een URL die naar een bestand  wijst, is geselecteerd na de bezorging, wordt met gekoppelde inhoudsdetonatie een waarschuwingspagina weergegeven totdat de sandboxing van het bestand is voltooid en de URL veilig is.
-
 
 ## <a name="the-filtering-stack-diagram"></a>Het filtertackdiagram
 

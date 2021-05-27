@@ -20,12 +20,12 @@ ms.custom:
 description: In dit onderwerp vindt u de aanbevolen configuratie voor instellingen voor tenants die van invloed zijn op de beveiliging van uw Microsoft 365 omgeving.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 686768d05e37a4e103640c2973fd30abaa25630b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8a449d9647ae5a8b892967116f28aa6203a5e815
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538937"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684169"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365 configureren voor meer beveiliging
 
@@ -46,12 +46,14 @@ Office 365 Secure Score analyseert de beveiliging van uw organisatie op basis va
 
 Het Microsoft 365 beveiligingscentrum bevat mogelijkheden die uw omgeving beschermen. Het bevat ook rapporten en dashboards die u kunt gebruiken om te controleren en actie te ondernemen. Sommige gebieden zijn standaardbeleidsconfiguraties. Sommige gebieden bevatten geen standaardbeleid of regels. Ga naar dit beleid onder bedreigingsbeheer om de instellingen voor bedreigingsbeheer af te stemmen voor een veiligere omgeving.
 
+<br>
+
 ****
 
 |Gebied|Bevat een standaardbeleid|Aanbeveling|
 |---|---|---|
 |**Anti-phishing**|Ja|<ul><li>Imitatiebeveiliging: als u Defender voor Office 365 en een aangepast domein hebt, configureert u de instellingen voor imitatiebeveiliging in het standaard anti-phishingbeleid om de e-mailaccounts van uw meest waardevolle gebruikers, zoals uw CEO, te beveiligen en uw domein te beschermen. Meer informatie: [Instellingen voor imitatie in anti-phishingbeleid](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) en inzicht in [imitatie](impersonation-insight.md)</li><li>Spoof intelligence: controleer afzenders die uw domein spoofen. Deze afzenders blokkeren of toestaan. Meer informatie: [Inzicht in spoofinformatie in EOP](learn-about-spoof-intelligence.md) en [De lijst tenant toestaan/blokkeren beheren.](tenant-allow-block-list.md)</li></ul>|
-|**Anti-Malware Engine**|Ja| Het standaardbeleid bewerken: <ul><li>Filter voor veelgebruikte bijlagetypen: Selecteer Aan</li></ul> <p> U kunt ook aangepaste malwarefilterbeleidsregels maken en deze toepassen op opgegeven gebruikers, groepen of domeinen in uw organisatie. <p> Meer informatie: <ul><li>[Beveiliging tegen malware](anti-malware-protection.md)</li><li>[Beleid tegen malware configureren](configure-anti-malware-policies.md)</li></ul>|
+|**Anti-Malware Engine**|Ja|Het standaardbeleid bewerken: <ul><li>Selecteer **Het algemene bijlagefilter inschakelen**</li></ul> <p> U kunt ook aangepaste malwarefilterbeleidsregels maken en deze toepassen op opgegeven gebruikers, groepen of domeinen in uw organisatie. <p> Meer informatie: <ul><li>[Beveiliging tegen malware](anti-malware-protection.md)</li><li>[Beleid tegen malware configureren](configure-anti-malware-policies.md)</li></ul>|
 |**Safe Bijlagen in Microsoft Defender voor Office 365**|Nee|Klik op de hoofdpagina Safe bijlagen op **Algemene** instellingen en schakel deze instelling in: <ul><li>**Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams**</li></ul> <p> Maak een Safe bijlagenbeleid met deze instellingen: <ul><li> **Blokkeren:** Selecteer **Blokkeren als** de onbekende malwarerespons.</li><li>**Omleiding inschakelen:** Schakel dit selectievakje in en voer een e-mailadres in, zoals een beheerder of quarantaineaccount.</li><li>**Pas de bovenstaande selectie toe als er malware wordt gescand op** bijlagen of als er een fout optreedt: Selectievakje.</li><li>**_Toegepast op_*: **Het domein van de geadresseerde is** uw domein \> selecteren.</li></ul> <p> Meer informatie: [Safe bijlagen voor SharePoint, OneDrive en Microsoft Teams](mdo-for-spo-odb-and-teams.md) en Het beleid Safe Bijlagen [instellen](set-up-safe-attachments-policies.md)|
 |**Safe Koppelingen in Microsoft Defender voor Office 365**|Ja|Klik op de hoofdpagina voor Safe op **Algemene instellingen:** <ul><li>**Gebruik Safe Koppelingen in: Office 365 toepassingen**: Controleer of deze instelling is ingeschakeld.</li><li>**Houd niet bij wanneer gebruikers op koppelingen Safe:** Schakel deze instelling uit om klikken van gebruikers bij te houden.</li></ul> <p> Maak een Safe koppelingenbeleid met deze instellingen: <ul><li>**Selecteer de actie voor onbekende potentieel schadelijke URL's in berichten:** Controleer of deze instelling is **aan.**</li><li>Selecteer de actie voor onbekende of potentieel schadelijke **URL's binnen Microsoft Teams**: Controleer of deze instelling is **aan.**</li><li>**Realtime URL-scan toepassen op verdachte koppelingen en koppelingen** die naar bestanden wijzen: Schakel dit selectievakje in.</li><li>**Wacht totdat URL-scannen is voltooid voordat u het bericht bezorgt:** Selectievakje.</li><li>**Koppelingen Safe toepassen op e-mailberichten die binnen de** organisatie zijn verzonden: Schakel dit selectievakje in</li><li>**Gebruikers mogen niet doorklikken naar de oorspronkelijke URL:** Selectievakje.</li><li>**Toegepast op:** **Het domein van de geadresseerde is** uw domein \> selecteren.</li></ul> <p> Meer informatie: [Beleidsregels Safe koppelingen instellen.](set-up-safe-links-policies.md)|
 |**Antispam (e-mailfiltering)**|Ja| Waar moet u op letten: Te veel spam: Kies de aangepaste instellingen en bewerk het standaardbeleid voor spamfilters. Meer informatie: [Microsoft 365 Bescherming tegen ongewenste e-mail](anti-spam-protection.md).|
@@ -64,6 +66,8 @@ Het Microsoft 365 beveiligingscentrum bevat mogelijkheden die uw omgeving besche
 ## <a name="view-dashboards-and-reports-in-the-security--compliance-center"></a>Dashboards en rapporten weergeven in het beveiligings- & compliancecentrum
 
 Ga naar deze rapporten en dashboards voor meer informatie over de status van uw omgeving. De gegevens in deze rapporten worden uitgebreid naarmate uw organisatie gebruikmaakt van Office 365 services. Wees op dit moment vertrouwd met wat u kunt controleren en actie kunt ondernemen. Zie Rapporten in het beveiligings- & [compliancecentrum voor meer informatie.](../../compliance/reports-in-security-and-compliance.md)
+
+<br>
 
 ****
 
@@ -80,6 +84,8 @@ Ga naar deze rapporten en dashboards voor meer informatie over de status van uw 
 
 Veel van de besturingselementen voor beveiliging en beveiliging in het Exchange beheercentrum zijn ook opgenomen in het beveiligingscentrum. U hoeft deze niet op beide plaatsen te configureren. Hier zijn een paar extra instellingen die worden aanbevolen.
 
+<br>
+
 ****
 
 |Gebied|Bevat een standaardbeleid|Aanbeveling|
@@ -95,6 +101,8 @@ Microsoft-aanbevelingen voor het configureren SharePoint teamsites op een hoger 
 SharePoint teamsites die zijn geconfigureerd op basislijnniveau, kunnen bestanden delen met externe gebruikers via anonieme toegangskoppelingen. Deze methode wordt aanbevolen in plaats van bestanden per e-mail te verzenden.
 
 Als u de doelstellingen voor basislijnbeveiliging wilt ondersteunen, configureert u beleid voor delen in de tenant, zoals hier wordt aanbevolen. Instellingen voor delen voor afzonderlijke sites kunnen beperkender zijn dan dit beleid voor de hele tenant, maar niet meer permissief.
+
+<br>
 
 ****
 
@@ -138,9 +146,7 @@ Omdat deze oplossing het EMS E5-abonnement aanbeveelt, raden we u aan om te begi
 Meer informatie:
 
 - [Cloud App Security implementeren](/cloud-app-security/getting-started-with-cloud-app-security)
-
 - [Meer informatie over Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
-
 - [Wat is Cloud App Security?](/cloud-app-security/what-is-cloud-app-security)
 
 ![Cloud App Security-dashboard](../../media/1fb2aa65-54b8-4746-9f5e-c187d339e9f5.png)

@@ -18,21 +18,14 @@ search.appverid:
 - MET150
 description: Gebruikers kunnen leren hoe ze hun selfserviceaankopen kunnen beheren.
 ms.date: 03/17/2021
-ms.openlocfilehash: ed6f2fc3b55756fb88dccd748fd4a4a9a34a5c81
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: fb8431bce82893d8ca2903caf96968dd3b0ef359
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536080"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683665"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Als gebruiker kunt u abonnementen op bepaalde producten kopen en licenties voor deze abonnementen toewijzen aan personen in uw team. U bent verantwoordelijk voor het betalen van eventuele selfserviceaankopen die u hebt gedaan. U kunt uw abonnementen beheren in het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
 
@@ -42,12 +35,42 @@ Uw beheerder heeft een alleen-lezen weergave voor abonnementen die u koopt. Ze k
 
 U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gekocht.
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
+::: moniker-end
 2. Selecteer op **het** tabblad Producten het filterpictogram en selecteer **vervolgens Selfservice.**
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Meer of minder licenties kopen
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
+::: moniker-end
 2. Selecteer op **het** tabblad Producten het abonnement waar u meer of minder licenties voor wilt kopen.
 3. Kies **Licenties kopen of** Licenties **verwijderen.**
 4. Voer in het rechterdeelvenster in het vak Totaal aantal licenties het totale aantal licenties in dat u wilt gebruiken voor dit abonnement en kies **opslaan.**  Als u bijvoorbeeld 100 licenties hebt en u er nog 5 wilt toevoegen, voert u 105 in.
@@ -56,7 +79,23 @@ U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gek
 
 ### <a name="to-assign-licenses"></a>Licenties toewijzen
 
-1. Ga in het beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
+:: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenties</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenties</a>.
+
+::: moniker-end
 2. Kies het abonnement voor wie u licenties wilt toewijzen.
 3. Kies **Licenties toewijzen.**
 4. Begin in het deelvenster **Licenties toewijzen aan gebruikers** met het typen van een naam en kies de naam in de resultaten om deze aan de lijst toe te voegen. U kunt maximaal 20 gebruikers tegelijk toevoegen.
@@ -66,7 +105,23 @@ U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gek
 
 ### <a name="to-unassign-licenses"></a>Licenties niet toewijzen
 
-1. Ga in het beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
+:: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenties</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenties</a>.
+
+::: moniker-end
 2. Kies het product voor wie u licenties wilt ontlenen.
 3. Kies de gebruikers van wie u licenties wilt ontlenen.
 4. Kies **Licenties niet toewijzen.**
@@ -74,10 +129,25 @@ U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gek
 
 ## <a name="cancel-a-subscription"></a>Een abonnement opzeggen
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Zoek op het tabblad **Producten** het abonnement dat u wilt opzeggen. Selecteer de drie puntjes (meer acties) en selecteer vervolgens **Abonnement annuleren.**
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Mijn producten</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Mijn producten</a>.
+::: moniker-end
+2. Zoek op het tabblad **Producten** het abonnement dat u wilt opzeggen. Selecteer de drie puntjes (meer acties) en selecteer **Abonnement annuleren**.
 3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback die u hebt.
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
 ## <a name="manage-your-payment-details"></a>Uw betalingsgegevens beheren
 

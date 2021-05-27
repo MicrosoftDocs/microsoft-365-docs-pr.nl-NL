@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 656aa26d80db73bfc52511f9dd94e58e771f3ac6
-ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
+ms.openlocfilehash: f7a620ad56496b1a26e193a18fa93f4d217431df
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52073827"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684145"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>Ondersteunde API's voor Microsoft Defender voor Eindpunt
 
@@ -45,7 +45,7 @@ ms.locfileid: "52073827"
 >
 > De huidige versie is **V1.0**.
 >
-> Als u een specifieke versie wilt gebruiken, gebruikt u deze indeling: `https://api.securitycenter.microsoft.com/api/{Version}` . Bijvoorbeeld: `https://api.securitycenter.microsoft.com/api/v1.0/alerts`
+> Als u een specifieke versie wilt gebruiken, gebruikt u deze indeling: `https://api.securitycenter.microsoft.com/api/{Version}` . Bijvoorbeeld:`https://api.securitycenter.microsoft.com/api/v1.0/alerts`
 >
 > Als u geen versie opgeeft (bijvoorbeeld) gaat u `https://api.securitycenter.microsoft.com/api/alerts` naar de nieuwste versie.
 
@@ -57,10 +57,11 @@ Meer informatie over de afzonderlijke ondersteunde entiteiten waar u API-oproepe
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Beschrijving
+Onderwerp | Omschrijving
 :---|:---
 [Geavanceerd opsporen](run-advanced-query-api.md) | Query's uitvoeren vanuit API.
 [Waarschuwingsmethoden en -eigenschappen](alerts.md) | Voer API-oproepen uit, \- zoals waarschuwingen ontvangen, waarschuwing maken, waarschuwing bijwerken en meer.
+[Beoordelingsmethoden en -eigenschappen per apparaat exporteren](get-assessmnt-1methods-properties.md) | Voer API-oproepen uit, zoals \- een veilige configuratiebeoordeling exporteren, beoordeling van de softwarevoorraad exporteren en evaluatie van beveiligingsproblemen met software exporteren.
 [Methoden en eigenschappen voor geautomatiseerd onderzoek](investigation.md) | Voer API-oproepen uit, \- zoals ophalen van onderzoek.
 [Waarschuwingen met betrekking tot domeinen ophalen](get-domain-related-alerts.md) | Voer API-oproepen uit, \- zoals domeingerelateerde apparaten, domeinstatistieken en meer.
 [Bestandsmethoden en -eigenschappen](files.md) | Voer API-oproepen uit, \- zoals bestandsgegevens, bestandsgerelateerde waarschuwingen, bestandsgerelateerde apparaten en bestandsstatistieken.
@@ -69,6 +70,7 @@ Onderwerp | Beschrijving
 [Computermethoden en -eigenschappen](machine.md) | Voer API-oproepen uit, zoals apparaten op te halen, apparaten op te vragen via id, informatie over \- aangemelde gebruikers, tags bewerken en meer.
 [Actiemethoden en -eigenschappen van computer](machineaction.md) | Voer API-oproep uit, \- zoals Isolatie, Anti-virusscan uitvoeren en meer.
 [Aanbevelingsmethoden en -eigenschappen](recommendation.md) | Voer API-oproepen uit, \- zoals een aanbeveling per id.
+[Methoden en eigenschappen van herstelactiviteiten](get-remediation-methods-properties.md) | Voer API-oproep uit, zoals alle hersteltaken, de hersteltaak voor blootgestelde apparaten krijgen en één \- hersteltaak per id krijgen.
 [Scoringsmethoden en -eigenschappen](score.md) | Voer API-oproepen uit, \- zoals blootstellingsscore krijgen of apparaatveilige score krijgen.
 [Softwaremethoden en -eigenschappen](software.md) | Voer API-oproepen uit, \- zoals lijstproblemen met software.
 [Gebruikersmethoden](user.md) | Voer API-oproepen uit, \- zoals waarschuwingen voor gebruikers en apparaten die aan de gebruiker zijn gerelateerd.

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 69345a0db42ec838dc0758cdb0e93a49a8ba6cfd
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: f3fd597181d73c1768057ea7740ab111e5af2068
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259401"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689155"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Microsoft 365 Vereisten voor Defender
 
@@ -73,6 +73,18 @@ Momenteel is Microsoft 365 Defender *niet beschikbaar* voor:
 - US Government Community Cloud High (GCC High)
 - Amerikaanse ministerie van Defensie
 - Alle Amerikaanse overheidsinstellingen met commerciële licenties
+
+
+Op dit moment is de Microsoft Defender voor Office 365 integratie in de geïntegreerde Microsoft 365 Defender-functies niet beschikbaar voor klanten in de volgende Office 365 datacenterlocaties:
+
+- Brazilië 
+- Duitsland 
+- Noorwegen 
+- Singapore 
+- Zuid-Afrika
+- Zwitserland 
+- Verenigde Arabische Emiraten 
+
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Microsoft 365 Overzicht van Defender](microsoft-365-defender.md)

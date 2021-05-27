@@ -20,12 +20,12 @@ description: Beheerders kunnen informatie krijgen over bedreigingsbeveiliging in
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 438200f3f8a6a846d49bc397d6a4b0a0a33cad40
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 12b519d45df005471e3d87cfdb24f87edddbf6f3
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624619"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683329"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -78,27 +78,26 @@ Als u Defender wilt configureren Office 365 beleidsregels, moet u een passende r
 
 Zie Machtigingen in het Beveiligings- & [compliancecentrum voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
 
-## <a name="before-you-begin-turn-on-audit-logging-for-reporting-and-investigation"></a>Voordat u begint, schakelt u Auditregistratie in voor rapportage en onderzoek
+### <a name="turn-on-audit-logging-for-reporting-and-investigation"></a>Auditlogregistratie inschakelen voor rapportage en onderzoek
 
-Begin de auditregistratie eerder. U moet controleren om on te zijn **voor** bepaalde stappen die volgen. Auditregistratie is beschikbaar in abonnementen met [Exchange Online.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) Als u gegevens wilt weergeven in bedreigingsbeveiligingsrapporten, zoals het beveiligingsdashboard, [](security-dashboard.md)e-mailbeveiligingsrapporten [en](view-email-security-reports.md) [Verkenner,](threat-explorer.md)moet auditregistratie zijn *aan.* Zie Zoeken in auditlogboek in- [of uitschakelen voor meer informatie.](../../compliance/turn-audit-log-search-on-or-off.md)
+- Begin de auditregistratie eerder. U moet controleren om aan te zijn **voor** een aantal van de volgende stappen. Auditregistratie is beschikbaar in abonnementen met [Exchange Online.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) Als u gegevens wilt weergeven in bedreigingsbeveiligingsrapporten, zoals het beveiligingsdashboard, [](security-dashboard.md)e-mailbeveiligingsrapporten [en](view-email-security-reports.md) [Verkenner,](threat-explorer.md)moet auditregistratie zijn *aan.* Zie Zoeken in auditlogboek in- [of uitschakelen voor meer informatie.](../../compliance/turn-audit-log-search-on-or-off.md)
 
 ## <a name="part-1---anti-malware-protection"></a>Deel 1 - Anti-malwarebeveiliging
 
-[Anti-malwarebeveiliging](anti-malware-protection.md) is beschikbaar in abonnementen met [EOP.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+Zie [EOP anti-malwarebeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-anti-malware-policy-settings)voor meer informatie over de aanbevolen instellingen voor anti-malware.
 
-1. Kies in [& Beveiligingscentrum](https://protection.office.com)de optie **Bedreigingsbeheerbeleid** \>  \> **Anti-malware.**
+1. Openen <https://security.microsoft.com/antimalwarev2> .
 
-2. Dubbelklik op het **standaardbeleid** en kies vervolgens **instellingen.**
+2. Selecteer het standaardbeleid door op de naam van het beleid te klikken.
 
-3. Geef de volgende instellingen op:
+3. Klik in het flyout met beleidsdetails dat wordt geopend op **Beveiligingsinstellingen bewerken** en configureer de volgende instellingen:
+   - Selecteer **Het filter algemene bijlagen inschakelen om** het algemene bijlagefilter in te stellen. Klik **op Bestandstypen aanpassen** om meer bestandstypen toe te voegen.
+   - Controleer of **Automatisch verwijderen van nul uur inschakelen voor malware** is geselecteerd.
+   - Controleer of geen van de instellingen in de sectie **Melding** is geselecteerd.
 
-    - Houd in **de sectie Reactie** op malwaredetectie de standaardinstelling **Nee.**
+   Wanneer u klaar bent, klikt u op **Opslaan**
 
-    - Kies in **de sectie Gemeenschappelijke bijlagetypenfilter** de optie **Aan**.
-
-4. Klik op **Opslaan**.
-
-Zie Anti-malwarebeleid configureren voor meer informatie over [anti-malwarebeleidsopties.](configure-anti-malware-policies.md)
+Zie Anti-malwarebeleid configureren in EOP voor gedetailleerde instructies voor het configureren van [anti-malwarebeleid.](configure-anti-malware-policies.md)
 
 ## <a name="part-2---anti-phishing-protection"></a>Deel 2 - Bescherming tegen phishing
 

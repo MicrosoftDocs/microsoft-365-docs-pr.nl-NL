@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een Microsoft 365-globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen wanneer hun naam wijzigt. '
-ms.openlocfilehash: 1aa3fd3b67333937e64aab825e64533ccb09eea9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 4f65bade32b2998f395c3b4eab7a1d2a2e5f3f33
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634218"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683113"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -47,25 +47,12 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 ::: moniker range="o365-worldwide"
  
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
-    
-2. Selecteer de naam van de gebruiker en selecteer vervolgens op het tabblad **Account** de optie **Gebruikersnaam beheren**.
-    
-3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kiest u het domein voor de nieuwe e-mailalias in de vervolgkeuzelijst. 
 
-4. Selecteer **Wijzigingen opslaan**.
-
-   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
-
-2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Gebruikersnaam/e-mailadres** de optie **Bewerken**.
-
-3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein kiezen voor de nieuwe e-mailalias in de vervolgkeuzelijst.
-
-4. Kies **Opslaan**.
 
 ::: moniker-end
 
@@ -73,13 +60,13 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
 
-2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Gebruikersnaam/e-mailadres** de optie **Bewerken**.
-
-3. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein kiezen voor de nieuwe e-mailalias in de vervolgkeuzelijst.
-
-4. Kies **Opslaan**.
-
 ::: moniker-end
+
+1. Selecteer de naam van de gebruiker en selecteer vervolgens op het tabblad **Account** de optie **Gebruikersnaam beheren**.
+    
+1. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kiest u het domein voor de nieuwe e-mailalias in de vervolgkeuzelijst. 
+
+1. Selecteer **Wijzigingen opslaan**.
 
 > [!IMPORTANT]
 > Als u een foutbericht krijgt, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
@@ -89,6 +76,20 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>. 
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.  
+
+::: moniker-end
     
 2. Selecteer de naam van de gebruiker en selecteer vervolgens op het tabblad **Account** de optie **E-mailaliassen beheren**.
 
@@ -113,34 +114,17 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
   
    - Als ook het wachtwoord is gewijzigd, worden ze gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
   
+## <a name="change-a-users-display-name"></a>De weergavenaam van een gebruiker wijzigen
+
+::: moniker range="o365-worldwide"
+
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
-
-2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Gebruikersnaam/e-mailadres** de optie **Bewerken**.
-
-3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
-    
-   > [!IMPORTANT]
-   > U ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
-   > 
-   > U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
-  
-4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
-    
-5. Geef de gebruikers de volgende gegevens:
- 
-   - Het kan even duren voordat deze wijziging van kracht wordt.
-  
-   - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
-    
-   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
-
-   - Als ze OneDrive gebruiken, moet u laten weten dat de URL naar deze locatie is gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
-  
-   - Als ook het wachtwoord is gewijzigd, moet u gebruikers laten weten dat ze worden gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>. 
 
 ::: moniker-end
 
@@ -148,36 +132,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
 
-2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Gebruikersnaam/e-mailadres** de optie **Bewerken**.
-
-3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
-    
-   > [!IMPORTANT]
-   > U ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
-   >  
-   > U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
-  
-4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
-    
-5. Geef de gebruikers de volgende gegevens:
- 
-   - Het kan even duren voordat deze wijziging van kracht wordt.
-  
-   - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
-    
-   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
-
-   - Als ze OneDrive gebruiken, moet u laten weten dat de URL naar deze locatie is gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
-  
-   - Als ook het wachtwoord is gewijzigd, moet u gebruikers laten weten dat ze worden gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
-
 ::: moniker-end
-  
-## <a name="change-a-users-display-name"></a>De weergavenaam van een gebruiker wijzigen
-
-::: moniker range="o365-worldwide"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
 2. Selecteer de naam van de gebruiker en selecteer vervolgens op het tabblad **Account** de optie **Contactgegevens beheren**.
 
@@ -186,37 +141,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
    Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
 Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
-
-2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Contactgegevens** de optie **Bewerken**.
-
-3. Typ in het vak **Weergavenaam** een nieuwe naam voor de persoon en selecteer vervolgens **Opslaan**.
-
-   Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
-
-Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam. Zorg er dus voor dat ze op de hoogte zijn van de wijziging.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
-
-2. Selecteer de gebruiker. Selecteer in het flyoutdeelvenster naast **Contactgegevens** de optie **Bewerken**.
-
-3. Typ in het vak **Weergavenaam** een nieuwe naam voor de persoon en selecteer vervolgens **Opslaan**.
-
-   Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
-
-Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam. Zorg er dus voor dat ze op de hoogte zijn van de wijziging.
-
-::: moniker-end
-
+ 
 ## <a name="resolve-error-messages"></a>Foutberichten oplossen
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>'Een parameter die overeenkomt met de parameternaam EmailAddresses kan niet worden gevonden'

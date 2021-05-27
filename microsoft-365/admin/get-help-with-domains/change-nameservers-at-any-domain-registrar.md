@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Meer informatie over het toevoegen en instellen van uw domein in Microsoft 365 zodat uw services zoals e-mail en Skype voor Bedrijven Online uw eigen domeinnaam gebruiken.
-ms.openlocfilehash: c6394b505e025c565713aae753879601f5a6aecf
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 7f1ade6cb3013126fb011fe9232b3b4c2e9a82d4
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635436"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683125"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Microsoft 365 domeinregistrar
 
@@ -43,7 +43,6 @@ Volg deze instructies voor het toevoegen en instellen van uw domein in Microsoft
 - U wilt Microsoft 365 dns-records voor u beheren. (Als u wilt, kunt u [uw eigen DNS-records beheren](../setup/add-domain.md).)
     
 ## <a name="add-a-txt-or-mx-record-for-verification"></a>Een TXT- of MX-record toevoegen voor verificatie
-<a name="BKMK_verify"> </a>
 
 > [!NOTE]
 > U hoeft standaard slechts een van deze records te maken. De voorkeur gaat uit naar het recordtype TXT, maar deze wordt niet door alle DNS-hostingproviders ondersteund. In dat geval kunt u in plaats hiervan een MX-record maken. 
@@ -94,17 +93,13 @@ Wanneer in Microsoft 365 de juiste TXT-record is gevonden, is uw domein gecontro
   
 3. Kies **Start setup** op de pagina **Setup**.
  
-    
   
 4. Kies **Verifiëren** op de pagina **Domein verifiëren**.
-    
-    
   
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>De naamserverrecords (NS-records) van uw domein wijzigen
-<a name="BKMK_nameservers"> </a>
 
 Wanneer u bij de laatste stap van de wizard Domeinen instellen in Microsoft 365, hebt u nog één taak over. Als u uw domein wilt instellen met Microsoft 365-services, zoals e-mail, wijzigt u de naamserverrecords van uw domein (of NS) bij uw domeinregistrar om te wijzen naar de Microsoft 365 primaire en secundaire naamservers. Omdat u Microsoft 365 DNS host, worden de vereiste DNS-records voor uw services automatisch voor u ingesteld. U kunt de naamserverrecords zelf bijwerken door de stappen in de Help-inhoud te volgen die uw domeinregistrar op de website heeft geplaatst. Als u niet bekend bent met DNS, neemt u contact op met de ondersteuning van de domeinregistrar.
 
@@ -189,15 +184,15 @@ U kunt eveneens een CNAME-record maken om klanten te helpen bij het zoeken van u
 4.  Typ www in het vak Hostnaam **of** **Alias.**
 5.  Typ in **het vak** Adrespunten de volledig gekwalificeerde domeinnaam (FQDN) voor uw website. U kunt bijvoorbeeld **contoso.com**.
 6.  Als u de TTL-instelling voor de record wilt wijzigen, selecteert u een nieuwe tijdsduur in de **vervolgkeuzelijst TTL.** Ga anders verder met stap 6.
-7.  Selecteer **Opslaan**.
+7.  Kies **Opslaan**.
 
 Nadat de naamserverrecords zijn bijgewerkt om naar Microsoft te wijzen, is uw domeinconfiguratie voltooid. E-mail wordt doorgeleid naar Microsoft en het verkeer naar uw websiteadres blijft naar uw huidige websitehost gaan.'
     
 > [!NOTE]
 > Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw e-mail en andere services van Microsoft ingesteld voor gebruik met uw domein. 
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [DNS-records toevoegen om uw domein te verbinden](create-dns-records-at-any-dns-hosting-provider.md) (artikel)\
-[Problemen zoeken en oplossen na het toevoegen van uw domein of DNS-records](find-and-fix-issues.md) (artikel)\
+[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)\
 [Domeinen beheren](index.yml) (koppelingspagina)

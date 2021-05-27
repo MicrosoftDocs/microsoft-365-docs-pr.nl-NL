@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f97947c2c9f02720facae4f0c3c29ff702416261
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 99a07b1517058b0e5ab241aaae9c6899e2994432
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023127"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689107"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -42,7 +42,7 @@ De tabel in het geavanceerde schema voor de jacht bevat informatie over apparate
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
-| Kolomnaam | Gegevenstype | Beschrijving |
+| Kolomnaam | Gegevenstype | Omschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
 | `DeviceId` | tekenreeks | Unieke id voor de machine in de service |
@@ -52,14 +52,24 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `OSArchitecture` | tekenreeks | Architectuur van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7 |
 | `OSBuild` | tekenreeks | Build-versie van het besturingssysteem dat op de computer wordt uitgevoerd |
-| `IsAzureADJoined` | booleaanse | Booleaanse indicator van de vraag of de computer is verbonden met de Azure Active Directory |
+| `IsAzureADJoined` | booleaanse | Booleaanse indicator van de vraag of de machine is verbonden met de Azure Active Directory |
 | `AadObjectId` | tekenreeks | Unieke id voor het apparaat in Azure AD |
 | `LoggedOnUsers` | tekenreeks | Lijst met alle gebruikers die zijn aangemeld op de computer op het moment van de gebeurtenis in de JSON-matrixindeling |
 | `RegistryDeviceTag` | tekenreeks | Machinetag toegevoegd via het register |
 | `OSVersion` | tekenreeks | Versie van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `MachineGroup` | tekenreeks | Machinegroep van de machine. Deze groep wordt gebruikt door op rollen gebaseerd toegangsbeheer om de toegang tot de computer te bepalen |
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp |
+| `OnboardingStatus` | tekenreeks | Geeft aan of het apparaat al dan niet is onboarded bij Microsoft Defender For Endpoint of dat het apparaat niet wordt ondersteund |
 |`AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
+|`DeviceCategory` | tekenreeks | Bredere classificatie die bepaalde apparaattypen groept onder de volgende categorieën: Eindpunt, Netwerkapparaat, IoT, Onbekend |
+|`DeviceType` | tekenreeks | Type apparaat op basis van doel en functionaliteit, zoals netwerkapparaat, werkstation, server, mobiel, gameconsole of printer |
+|`DeviceSubType` | tekenreeks | Extra modifier voor bepaalde typen apparaten, bijvoorbeeld een mobiel apparaat kan een tablet of smartphone zijn |
+|`Model` | tekenreeks | Modelnaam of nummer van het product van de leverancier of fabrikant |
+|`Vendor` | tekenreeks | Naam van de leverancier of fabrikant van het product |
+|`OSDistribution` | tekenreeks | Distributie van het besturingssysteemplatform, zoals Ubuntu of RedHat voor Linux-platforms |
+|`OSVersionInfo` | tekenreeks | Aanvullende informatie over de besturingssysteemversie, zoals de populaire naam, codenaam of versienummer |
+|`MergedDeviceIds` | tekenreeks | Vorige apparaat-ID's die aan hetzelfde apparaat zijn toegewezen |
+|`MergedToDeviceId` | tekenreeks | De meest recente apparaat-id die is toegewezen aan een apparaat |
 
 De `DeviceInfo` tabel bevat apparaatgegevens op basis van hartslagen, die periodieke rapporten of signalen van een apparaat zijn. Om de vijftien minuten verzendt het apparaat een gedeeltelijke hartslag die vaak wisselende kenmerken bevat, zoals `LoggedOnUsers` . Eenmaal per dag wordt een volledige hartslag verzonden met de kenmerken van het apparaat.
 

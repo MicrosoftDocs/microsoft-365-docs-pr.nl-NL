@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Meer informatie over het bijwerken van uw factuuradressen of het e-mailadres dat wordt gebruikt voor het ontvangen van factureringsmeldingen voor Microsoft 365 voor bedrijven.
 ms.date: 04/07/2021
-ms.openlocfilehash: 77ccb7b7ff9927736c1adaadfd2dea6b64a084f0
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: afc23134f85995a5e8d7db0fb956635ceb6ea629
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594107"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683605"
 ---
 # <a name="change-your-billing-addresses"></a>Uw factuuradressen wijzigen
 
@@ -45,7 +45,7 @@ Zie Uw factuur of factuur [](view-your-bill-or-invoice.md) weergeven en Uw factu
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Factureringsaccounts.</a>
+1. Ga in het beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">**Factureringsaccounts.**</a>
 
 ::: moniker-end
 

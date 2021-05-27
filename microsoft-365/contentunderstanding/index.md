@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Informatie over het zoeken naar bronnen voor Microsoft SharePoint Syntex.
-ms.openlocfilehash: 350dd1a526b56525f0aca7a167841e3a77833533
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0daad53e1f6a84f0399c3bfcfb48b92db547f64b
+ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538073"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52657619"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Kennismaken met Microsoft SharePoint Syntex
 
@@ -55,7 +55,8 @@ Meer informatie over het gebruik en de implementatie van SharePoint-Syntex in je
 
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
-|Meer informatie het gebruik van SharePoint-Syntex plannen. |[Ingebruikname van SharePoint Syntex: aan de slag](./adoption-getstarted.md)<br><br>|  
+|Meer informatie over het gebruik van SharePoint-Syntex plannen |[Ingebruikname van SharePoint Syntex: aan de slag](./adoption-getstarted.md)| 
+|Meer informatie over het gebruik van SharePoint Syntex om documentprocessen te automatiseren |[Beheer contracten met een gebruik van een Microsoft 365 oplossing](./solution-manage-contracts-in-microsoft-365.md)| 
 
 ## <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex installeren
 

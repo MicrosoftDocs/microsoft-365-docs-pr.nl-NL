@@ -7,61 +7,74 @@ audience: Admin
 ms.topic: article
 ms.service: bookings
 localization_priority: Normal
-ms.assetid: 298c529b-407b-4a2b-b2c5-6e77a9d1f07f
-description: Met deze pagina kunt u uw personeelslijst maken en gegevens van personeelsleden beheren, zoals de naam, het telefoonnummer en het e-mailadres.
-ms.openlocfilehash: 11d62cc34522de21e63b8bdf6e7e15729ac73dc1
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+description: Gebruik deze pagina om uw personeelslijst te maken en om de gegevens van personeelsleden te beheren, zoals naam, telefoonnummer en e-mailadres.
+ms.openlocfilehash: 7fd19e3281b3dc075b5f72ca0471f5c66f93752d
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399191"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683317"
 ---
 # <a name="add-staff-to-bookings"></a>Medewerkers toevoegen aan Bookings
 
-De pagina personeel in Bookings is de plek waar u uw personeelslijst maakt en gegevens van personeelsleden zoals naam, telefoonnummer en e-mailadres beheert. U kunt hier ook de werktijden voor elk personeelslid instellen.
+Op de pagina Personeel in Bookings maakt u uw personeelslijst en beheert u de gegevens van personeelsleden, zoals naam, telefoonnummer en e-mailadres. U kunt hier ook werkuren instellen voor elk personeelslid.
 
-## <a name="add-staff"></a>Medewerkers toevoegen
+## <a name="before-you-begin"></a>Voordat u begint
 
-Hoewel Bookings een functie is van Microsoft 365, hoeven niet al uw personeelsleden een Microsoft 365-account te hebben. Alle personeelsleden moeten een geldig e-mailadres hebben, zodat ze Bookings kunnen ontvangen en wijzigingen kunnen plannen.
+Hoewel Bookings een functie van Microsoft 365 is, zijn niet alle personeelsleden verplicht een account Microsoft 365 hebben. Alle personeelsleden moeten een geldig e-mailadres hebben, zodat ze boekingen kunnen ontvangen en wijzigingen kunnen plannen.
 
-Bekijk deze video of volg de onderstaande stappen om uw medewerkers toe te voegen.
+## <a name="watch-add-your-staff-in-microsoft-bookings"></a>Kijken: Uw personeel toevoegen in Microsoft Bookings
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWuVka]
 
-1. Ga naar de [pagina personeel beheren](https://outlook.office.com/bookings/staff) en selecteer **medewerkers toevoegen** .
+## <a name="steps"></a>Stappen
 
-2. Selecteer de knop **personeel toevoegen** .
+1. Ga naar de [pagina Personeel beheren en](https://outlook.office.com/bookings/staff) selecteer Personeel **toevoegen**
 
-3. Wanneer u personeel toevoegt binnen uw organisatie, typt u de naam in het veld **personen toevoegen** en selecteert u de namen wanneer ze worden weergegeven in het vervolgkeuzemenu. De overige velden worden automatisch ingevuld.
+2. Selecteer de **knop Personeel toevoegen.**
 
-    Wanneer een personeelslid is toegevoegd, kunt u de naam bewerken die wordt weergegeven in alle berichten van een Booking door de **x** naast de naam te selecteren en het veld **personen toevoegen** te bewerken. Dit kan handig zijn als personeelsleden een bepaalde titel of naam voor klanten willen weergeven, zoals het weergeven van Adele Vance als ' Dr. Vance, MD '.
+3. Wanneer u personeel toevoegt vanuit uw  organisatie, typt u de naam in het veld Personen toevoegen en selecteert u deze wanneer deze worden weergegeven in de vervolgkeuzelijst. De andere velden worden automatisch ingevuld.
 
-4. Als u personeel van buiten uw organisatie wilt toevoegen, voert u de e-mail en andere gegevens handmatig in.
+    Wanneer een personeelslid is toegevoegd, kunt u de naam bewerken die wordt weergegeven in alle Bookings-communicatie door de **x** naast hun naam te selecteren en het veld Personen toevoegen **te** bewerken. Dit kan handig zijn als u wilt dat personeelsleden een specifieke titel of naam laten zien voor klanten, zoals het weergeven van Adele Vance als 'Dr. Vance, MD'.
+
+4. Als u personeel van buiten uw organisatie wilt toevoegen, vult u handmatig hun e-mail en andere informatie in.
 
     > [!NOTE]
-    > Medewerkers van buiten uw Tenant kunnen geen beschikbaarheidsinfo delen met bookings.
+    > Personeel van buiten uw tenant kan geen gratis/bezet informatie delen met Bookings.
 
-5. Selecteer voor elk personeelslid een rol: beheerder, Viewer of gast.
-    - **Beheerders** kunnen alle instellingen bewerken, personeel toevoegen en verwijderen, en reserveringen maken, bewerken of verwijderen.
-    - **Gebruikers** kunnen alle bookings in de agenda zien, maar ze kunnen ze niet wijzigen of verwijderen. Ze hebben alleen-lezen toegang tot instellingen.
-    - **Gasten** kunnen worden toegewezen aan Bookings, maar ze kunnen het Boekings postvak niet openen.
+5. Selecteer voor elk personeelslid een rol: Beheerder, Viewer of Gast.
+    - **Beheerders kunnen** alle instellingen bewerken, personeel toevoegen en verwijderen en boekingen maken, bewerken of verwijderen.
+    - **Gebruikers** kunnen alle boekingen in de agenda zien, maar ze kunnen ze niet wijzigen of verwijderen. Ze hebben alleen-lezen toegang tot instellingen.
+    - **Gasten** kunnen worden toegewezen aan boekingen, maar ze kunnen het postvak van de reservering niet openen.
 
-6. Selecteer **alle medewerkers via E-mail informeren wanneer een reservering is gemaakt of gewijzigd** voor het inschakelen van personeels berichten. Hieronder ziet u een voorbeeld van een e-mailbericht:
+6. Selecteer **Alle personeelsleden per e-mail** op de hoogte stellen wanneer een reservering die aan hen is toegewezen, wordt gemaakt of gewijzigd om e-mailberichten van personeelsleden in te stellen. Hieronder volgt een voorbeeld van een e-mailbericht:
 
-    :::image type="content" source="media/bookings-notify-all-email.jpg" alt-text="Een e-mail melding via Bookings":::
+    :::image type="content" source="media/bookings-notify-all-email.jpg" alt-text="Een meldingsbericht van Bookings":::
 
-7. **Gebeurtenissen selecteren in Office 365 de beschikbaarheid van invloed heeft op de beschikbaarheid** van de beschikbaarheidsinfo voor de agenda's van personeelsleden tot impact op de beschikbaarheid van Bookings Services via bookings.
+7. Selecteer **Gebeurtenissen in Office 365 agenda** die van invloed zijn op de beschikbaarheid als u wilt dat de beschikbaarheid van boekingsservices via Bookings wordt beïnvloed door de beschikbaarheid van de agenda's van personeelsleden.
 
-    Als een personeelslid bijvoorbeeld een teamvergadering heeft of een persoonlijke afspraak die is gepland voor 3pm op een woensdag, geeft Bookings een dergelijk personeelslid weer als niet beschikbaar voor boeking in die tijdsperiode. Die tijd wordt weergegeven als bezet of voorlopig in de weergave Agenda van de boekings agenda, zoals in het onderstaande voorbeeld wordt weergegeven.
+    Als een personeelslid bijvoorbeeld een teamvergadering of een persoonlijke afspraak heeft gepland voor 15.00 uur op een woensdag, wordt in Bookings het personeelslid als niet beschikbaar om in dat tijdsvak te worden geboekt, laten zien. Deze tijd wordt weergegeven als bezet of voorlopig in de weergave Bookings-agenda, zoals wordt weergegeven in het onderstaande voorbeeld.
 
-    :::image type="content" source="media/bookings-busy-tentative-view.jpg" alt-text="Een e-mail melding via Bookings":::
+    :::image type="content" source="media/bookings-busy-tentative-view.jpg" alt-text="Een weergave van een Bookings-agenda":::
 
 > [!IMPORTANT]
-> We raden u ten zeerste aan deze instelling te verlaten (deze instelling is standaard ingeschakeld) om te voorkomen dat u geen dubbele boeken hoeft te maken en de beschikbaarheid van personeelsleden te optimaliseren.
+> We raden u ten zeerste aan deze instelling aan te laten staan (deze is standaard ingeschakeld) om dubbele boekingen te voorkomen en om de beschikbaarheid van uw personeelsleden te optimaliseren.
 
-8. Selecteer **kantooruren gebruiken** om alle bookable-tijden in te stellen voor uw personeelsleden, zodat deze alleen binnen de kantooruren zijn die u hebt ingesteld in de sectie **kantooruren** op de pagina Bedrijfsgegevens.
+8. Selecteer **Openingstijden gebruiken** om alle boekbare tijden in te stellen voor uw  personeelsleden om alleen binnen de werkuren te zijn die u hebt ingesteld in de sectie Werkuren op de pagina Bedrijfsgegevens.
 
-    Als u dit selectievakje uitschakelt, kunnen medewerkers aangepaste uren opgeven die verder gelden wanneer ze kunnen worden geboekt. Dit is handig voor scenario's waarbij een personeelslid alleen mag bestaan op de site af en toe op de site, of dat ze hun ochtends voor één type afspraken en hun middag voor andere typen.
+    Door de selectie van dit vak te deselecteren, kunnen personeelsleden aangepaste uren krijgen die verder beperken wanneer ze kunnen worden geboekt. Dit is handig voor scenario's waarin een personeelslid alleen op dinsdag en woensdag ter plekke is, of wanneer hij of zij zijn of haar ochtenden wijden voor een type afspraken en hun middagen voor andere typen.
 
     > [!NOTE]
-    > Alleen de eerste 31 medewerkers die u aan de pagina personeel toevoegt, worden weergegeven wanneer u medewerkers aan een service toewijst.
+    > Alleen de eerste 31 personeelsleden die u aan uw personeelspagina toevoegt, worden weergegeven wanneer u personeelsleden aan een service toewijst.
+
+## <a name="next-steps"></a>Volgende stappen
+
+Nadat u personeelsleden hebt toevoegen, kunt u [bedrijfssluitingen](schedule-closures-time-off-vacation.md) en -vrijtijd plannen en [uw planningsbeleid instellen.](set-scheduling-policies.md)
+
+## <a name="related-content"></a>Verwante inhoud
+
+[Microsoft Bookings](bookings-overview.md)
+
+[Bedrijfssluiting, verlof en vakantiedagen plannen](schedule-closures-time-off-vacation.md)
+
+[Uw planningsbeleid instellen](set-scheduling-policies.md)

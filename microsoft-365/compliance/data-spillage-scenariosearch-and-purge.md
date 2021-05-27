@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Gebruik eDiscovery- en zoekhulpmiddelen om een incident met gegevensmortage in uw organisatie te beheren en te beantwoorden.
-ms.openlocfilehash: 4305dbdb2fb59e4275852c88f8b74f6c4128a5cb
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: f92887018a7ab1cec35526c2a36cce4b0889172e
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653521"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683773"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery-oplossingsreeks: scenario voor gegevensoverloop - Zoeken en verwijderen
 
@@ -52,7 +52,7 @@ Ga als volgende te werk om een incident met gegevensmortage te beheren:
 
 - Wanneer een postvak in bewaring staat, blijft een verwijderd bericht in de map Herstelbare items staan totdat de bewaarperiode verloopt of de bewaring wordt vrijgegeven. [In stap 6](#step-6-prepare-the-mailboxes) wordt beschreven hoe u de wacht in de postvakken verwijdert. Neem contact op met uw recordsbeheer of juridische afdelingen voordat u de wacht houdt. Uw organisatie heeft mogelijk een beleid dat bepaalt of een postvak in de wacht staat of dat een incident met gegevensmortage prioriteit heeft. 
     
-- Als u wilt bepalen welke gebruikerspostvakken een data spillage-onderzoeker kan zoeken en beheren wie toegang heeft tot de zaak, kunt u compliancegrenzen instellen en een aangepaste rollengroep maken, die wordt beschreven in [stap 1.](#optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries) Hiervoor moet u lid zijn van de rollengroep Organisatiebeheer of de rol voor rollenbeheer krijgen toegewezen. Als u of de beheerder in uw organisatie al compliancegrenzen heeft ingesteld, kunt u stap 1 overslaan.
+- Als u wilt bepalen welke gebruikerspostvakken een data spillage-onderzoeker kan zoeken en beheren wie toegang heeft tot de zaak, kunt u compliancegrenzen instellen en een aangepaste rollengroep maken, die wordt beschreven in [stap 1.](#optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries) Hiervoor moet u lid zijn van de rollengroep Organisatiebeheer of de rol voor rollenbeheer krijgen toegewezen. Als u of een beheerder in uw organisatie al compliancegrenzen heeft ingesteld, kunt u stap 1 overslaan.
     
 - Als u een zaak wilt maken, moet u lid zijn van de rollengroep eDiscovery Manager of lid zijn van een aangepaste rollengroep die de rol Case Management heeft toegewezen. Als u geen lid bent, vraagt u een beheerder Microsoft 365 u toe te voegen aan de [rollengroep eDiscovery Manager.](assign-ediscovery-permissions.md)
     
@@ -64,7 +64,7 @@ Ga als volgende te werk om een incident met gegevensmortage te beheren:
 
 Afhankelijk van uw organisatiepraktijk, moet u bepalen wie toegang heeft tot de eDiscovery-zaak die wordt gebruikt om een incident met gegevensoverloop te onderzoeken en compliancegrenzen in te stellen. De eenvoudigste manier om dit te doen, is door onderzoekers toe te voegen als lid van een bestaande rollengroep in het beveiligings- & compliancecentrum en vervolgens de rollengroep toe te voegen als lid van de eDiscovery-zaak. Zie eDiscovery-machtigingen toewijzen voor informatie over de ingebouwde eDiscovery-rollengroepen en over het toevoegen van leden aan een [eDiscovery-zaak.](assign-ediscovery-permissions.md)
   
-U kunt ook een nieuwe rollengroep maken die is afgestemd op de behoeften van uw organisatie. U wilt bijvoorbeeld dat een groep gegevensmortageonderzoekers in de organisatie toegang krijgt tot en samenwerkt aan alle gevallen van gegevensmortage. U kunt dit doen door een rollengroep 'Data Spillage Investigator' te maken, de juiste rollen toe te wijzen (Exporteren, RMS Decrypt, Controleren, Preview, Compliance search en Case Management), de gegevensmortageonderzoekers toe te voegen aan de rollengroep en vervolgens de rollengroep toe te voegen als lid van het eDiscovery-geval voor gegevensoverloop. Zie [Nalevingsgrenzen instellen voor eDiscovery-onderzoeken in](tagging-and-assessment-in-advanced-ediscovery.md) Office 365 voor gedetailleerde instructies over hoe u dit doet. 
+U kunt ook een nieuwe rollengroep maken die is afgestemd op de behoeften van uw organisatie. U wilt bijvoorbeeld dat een groep gegevensmortageonderzoekers in de organisatie toegang krijgt tot en samenwerkt aan alle gevallen van gegevensmortage. U kunt dit doen door een rollengroep 'Data Spillage Investigator' te maken, de juiste rollen toe te wijzen (Exporteren, RMS Decrypt, Controleren, Preview, Compliance search en Case Management), de gegevensmortageonderzoekers toe te voegen aan de rollengroep en vervolgens de rollengroep toe te voegen als lid van het eDiscovery-geval voor gegevensoverloop. Zie [Nalevingsgrenzen instellen voor eDiscovery-onderzoeken in](set-up-compliance-boundaries.md) Office 365 voor gedetailleerde instructies over hoe u dit doet. 
   
 ## <a name="step-2-create-an-ediscovery-case"></a>Stap 2: een eDiscovery-zaak maken
 
@@ -123,7 +123,7 @@ U kunt Bericht traceren gebruiken in het beveiligings- en compliancecentrum of d
   
 - [Bericht traceren in het beveiligings- & compliancecentrum](../security/office-365-security/message-trace-scc.md)
     
-- [Nieuwe berichten traceren in & compliancecentrum](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
+- [Nieuwe berichten traceren in & compliancecentrum](https://techcommunity.microsoft.com/t5/exchange-team-blog/new-message-trace-in-office-365-security-038-compliance-center/ba-p/607893)
     
 ## <a name="step-6-prepare-the-mailboxes"></a>Stap 6: De postvakken voorbereiden
 

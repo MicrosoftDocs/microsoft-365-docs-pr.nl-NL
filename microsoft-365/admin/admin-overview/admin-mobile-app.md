@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gebruik de Microsoft 365 app Beheerder en leer hoe u uw onlineorganisatie kunt beheren vanaf uw telefoon of tablet.
-ms.openlocfilehash: 2f6b27b409dd456a88a17a9825fae3ec24d787a4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f8834aca0835a209a4df32a934eca736c5f7808f
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244018"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683233"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Over de mobiele Microsoft 365 beheerder
 
@@ -50,6 +50,10 @@ Als u een beheerder bent en verantwoordelijk bent voor meer dan één Microsoft 
   
 > [!IMPORTANT]
 > Als u problemen hebt met de mobiele app Beheerder op iOS of Android, stuur ons dan een e-mail [feedback365@microsoft.com](mailto:feedback365@microsoft.com) ons dit te laten weten.
+
+## <a name="before-you-begin"></a>Voordat u begint
+
+U moet een beheerder zijn in een Microsoft 365 organisatie om de mobiele app voor beheerders te kunnen gebruiken.
   
 ## <a name="download-the-admin-mobile-app"></a>Download de mobiele app voor beheerders
 
@@ -115,7 +119,11 @@ Ga in het linkernavigatiemenu naar **Instellingen**  >  **Meldingen.** U kunt hi
 ### <a name="what-do-i-do-if-my-question-isnt-answered"></a>Wat moet ik doen als mijn vraag niet wordt beantwoord?
 
 [E-feedback365@microsoft.com](mailto:feedback365@microsoft.com) om een probleem met de app te melden. U kunt ook onderaan dit artikel feedback geven.
-  
-## <a name="related-content"></a>Verwante onderwerpen 
 
-[Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingspagina)
+## <a name="next-steps"></a>Volgende stappen
+
+Nadat u de mobiele beheerder hebt gedownload, kunt u gebruikers toevoegen om aan de slag te gaan.
+  
+## <a name="related-content"></a>Verwante inhoud
+
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](../../business-video/index.yml)

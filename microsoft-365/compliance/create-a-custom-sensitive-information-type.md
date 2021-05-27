@@ -9,20 +9,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Informatie over het maken, wijzigen, verwijderen en testen van aangepaste typen gevoelige informatie voor DLP in de grafische gebruikersinterface in het Beveiligings- en compliancecentrum.
+description: Informatie over het maken, wijzigen, verwijderen en testen van aangepaste gevoelige informatietypen voor DLP in het Beveiligings- & Compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36238d14d3d6a1f84b0fdcae62635922f62b58d3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
-ms.translationtype: HT
+ms.openlocfilehash: 911d2dc3a4adeb79e2b41f3a450bbc446feee916
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161886"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683835"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Aan de slag met aangepaste typen vertrouwelijke informatie
 
@@ -61,10 +61,10 @@ Gebruik deze procedure om een nieuw type gevoelige informatie te maken dat u vol
 2. Vul waarden in voor **Naam** en **Beschrijving** in en kies **Volgende**.
 3. Kies **Patroon maken**. U kunt meerdere patronen maken, elk met verschillende elementen en betrouwbaarheidsniveaus, terwijl u het nieuwe type gevoelige informatie definieert.
 4. Kies het standaard betrouwbaarheidsniveau voor het patroon. De waarden zijn **Lage betrouwbaarheid**, **Gemiddelde betrouwbaarheid** en **Hoge betrouwbaarheid**.
-5. Kies en definieer **Primaire element**. Het primaire element kan een **Reguliere expressie** met een optionele validator, een **Lijst met trefwoorden**, een **Trefwoordenlijst** of een van de vooraf geconfigureerde **Functies**. Zie [Doel van de DLP-functies](what-the-dlp-functions-look-for.md) voor meer informatie over DLP-functies.
+5. Kies en definieer **Primaire element**. Het primaire element kan een **Reguliere expressie** met een optionele validator, een **Lijst met trefwoorden**, een **Trefwoordenlijst** of een van de vooraf geconfigureerde **Functies**. Zie [Doel van de DLP-functies](what-the-dlp-functions-look-for.md) voor meer informatie over DLP-functies. Zie Meer informatie over validators voor reguliere expressies voor meer informatie over de datum en de checksum [validators.](#more-information-on-regular-expression-validators)
 6. Vul een waarde in voor **Nabijheid van tekens**.
-7. (Optioneel) Voeg zo nodig ondersteunende elementen toe. Het primaire element kan een Reguliere expressie met een optionele validator, een Lijst met trefwoorden, een Trefwoordenlijst of een van de vooraf geconfigureerde Functies. 
-8.  (Optioneel) Voeg alle [**aanvullende controles toe die**](#more-information-on-additional-checks) worden weergegeven in de lijst met beschikbare controles.
+7. (Optioneel) Voeg zo nodig ondersteunende elementen toe. Het primaire element kan een Reguliere expressie met een optionele validator, een Lijst met trefwoorden, een Trefwoordenlijst of een van de vooraf geconfigureerde Functies. Ondersteunende elementen kunnen een eigen karakter **naderingsconfiguratie** hebben. 
+8. (Optioneel) Voeg alle [**aanvullende controles toe die**](#more-information-on-additional-checks) worden weergegeven in de lijst met beschikbare controles.
 9. Kies **Maken**.
 10. Kies **Volgende**.
 11. Kies de **aanbevolen betrouwbaarheidsniveau** dit type gevoelige informatie.
@@ -122,6 +122,47 @@ Gebruik deze procedure om een nieuw type gevoelige informatie te maken dat is ge
 U kunt ook aangepaste typen gevoelige informatie maken met behulp van powershell- en exacte gegevensmatchingsfuncties. Zie voor meer informatie over deze methoden:
 - [Een aangepast type gevoelige informatie maken in het Beveiligings- en compliancecentrum PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [Aangepast type gevoelige informatie voor DLP maken met exacte gegevensovereenkomsten (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+
+## <a name="more-information-on-regular-expression-validators"></a>Meer informatie over reguliere expressie-validators
+
+### <a name="checksum-validator"></a>Checksum-validator
+
+Als u een checksum wilt uitvoeren op een cijfer in een normale expressie, kunt u de *checksum validator gebruiken.* Stel dat u een SIT moet maken voor een licentienummer met acht cijfers, waarbij het laatste cijfer een checksumcijfer is dat wordt gevalideerd met een mod 9-berekening. U hebt het algoritme checksum als dit ingesteld:
+ 
+Som = cijfer 1 * 1 + cijfer 2 * 2 + cijfer 3 * 3 * 3 + cijfer 4 * gewicht 4 + cijfer 5 * 5 * 5 + cijfer 6 * gewicht 6 + cijfer 7 * gewicht 7 + cijfer 8 * gewicht 8 Mod waarde = Som % 9 Als Mod-waarde == cijfer 8 Accountnummer geldig is Als Mod-waarde != cijfer 8 Accountnummer ongeldig is
+
+1. Definieer het primaire element met deze normale expressie:
+
+`\d{8}`
+
+2. Voeg vervolgens de checksum-validator toe.
+3. Voeg de gewogen waarden toe die zijn gescheiden door komma's, de positie van het controlecijfer en de waarde Mod. Zie Modulo-bewerking voor meer informatie over de bewerking [Modulo.](https://en.wikipedia.org/wiki/Modulo_operation)
+
+> [!NOTE]
+> Als het controlecijfer geen deel uitmaakt van de checksumberekening, gebruikt u 0 als het gewicht voor het controlecijfer. In het bovenstaande geval is 8 bijvoorbeeld gelijk aan 0 als het controlecijfer niet moet worden gebruikt voor het berekenen van het controlecijfer.  Modulo_operation).
+
+![schermafbeelding van geconfigureerde checksum validator](../media/checksum-validator.png)
+
+### <a name="date-validator"></a>Datum validator
+
+Als een datumwaarde die is ingesloten in normale expressie, deel uitmaakt van een nieuw patroon dat u maakt, kunt u de *datum-validator* gebruiken om te testen of deze voldoet aan uw criteria. Stel dat u een SIT wilt maken voor een werknemeridentificatienummer met negen cijfers. De eerste zes cijfers zijn de datum van inhuur in DDMMYY-indeling en de laatste drie zijn willekeurig gegenereerde getallen. Controleer of de eerste zes cijfers de juiste notatie hebben. 
+
+1. Definieer het primaire element met deze normale expressie:
+
+`\d{9}`
+
+2. Voeg vervolgens de datum-validator toe.
+3. Selecteer de datumnotatie en de begin verschuiving. Aangezien de datumreeks de eerste zes cijfers is, is de verschuiving `0` .
+
+![schermafbeelding van de geconfigureerde datum-validator](../media/date-validator.png)
+
+### <a name="functional-processors-as-validators"></a>Functionele processors als validators
+
+U kunt functieprocessors gebruiken voor een aantal van de meest gebruikte ST's als validators. Op deze manier kunt u uw eigen reguliere expressie definiëren en ervoor zorgen dat ze de extra controles door de SIT kunnen uitvoeren. Zo zorgt Func_India_Aadhar ervoor dat de aangepaste reguliere expressie die door u is gedefinieerd, de validatielogica doorstaat die vereist is voor De Indiase Aadhar-kaart. Zie Wat [de DLP-functies zoeken](what-the-dlp-functions-look-for.md#what-the-dlp-functions-look-for)voor meer informatie over DLP-functies die als validators kunnen worden gebruikt. 
+
+### <a name="luhn-check-validator"></a>Validator van Luhn-controle
+
+U kunt de Luhn-controle-validator gebruiken als u een aangepast type gevoelige informatie hebt dat een normale expressie bevat die door het [Luhn-algoritme moet worden gebruikt.](https://en.wikipedia.org/wiki/Luhn_algorithm)
 
 ## <a name="more-information-on-additional-checks"></a>Meer informatie over extra controles
 

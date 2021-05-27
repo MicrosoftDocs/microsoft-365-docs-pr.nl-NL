@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 852e87ee76d9692b789ca217720ac3efb08f31a8
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 906048609ce70c761bb014961e02c86f912cd638
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624607"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683497"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor gebruikersinzendingen
 
@@ -66,7 +66,7 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Gebruikersinzendingen wilt** gaan, gebruikt u <https://protection.office.com/userSubmissionsReportMessage> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Gebruikersinzendingen wilt** gaan, gebruikt u <https://protection.office.com/userSubmissionsReportMessage> .
 
 - Als u de configuratie voor gebruikersinzendingen wilt wijzigen, moet u lid zijn van een van de volgende rollengroepen:
 
@@ -141,7 +141,7 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
 
 U kunt hulpprogramma's voor berichtrapportage van derden configureren om gerapporteerde berichten naar het aangepaste postvak te verzenden. De enige vereiste is dat het oorspronkelijke bericht is opgenomen als een bijlage in het bericht dat naar het aangepaste postvak wordt verzonden (niet alleen het oorspronkelijke bericht doorsturen naar het aangepaste postvak).
 
-De vereisten voor berichtopmaak worden beschreven in de volgende sectie.
+De vereisten voor berichtopmaak worden beschreven in de volgende sectie. De opmaak is optioneel, maar als de opmaak niet de voorgeschreven notatie volgt, worden de rapporten altijd als phish verzonden.
 
 ## <a name="message-submission-format"></a>Berichtinzendingsindeling
 

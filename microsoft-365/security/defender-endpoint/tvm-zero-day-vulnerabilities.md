@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2c746a74899a34827e089f4c9c2f6ecc396bb69c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ec8dd97a563edc487008d028a7cdc9f6ef3d17c1
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538769"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689083"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>Eventuele zero-day-beveiligingslekken beperken - Threat and Vulnerability Management
 
@@ -46,7 +46,7 @@ Bedreigingen vulnerability management worden alleen zero-day-beveiligingslekken 
 Wanneer een zero-day-kwetsbaarheid is gevonden, wordt informatie over het probleem overgebracht via de volgende ervaringen in de Microsoft Defender-beveiligingscentrum.
 
 >[!NOTE]
-> 0-daagse mogelijkheden zijn momenteel niet beschikbaar voor niet-Windows producten (Mac, Linux); deze wordt echter in de toekomst toegevoegd.
+> Beveiligingsprobleem van 0 dagen is momenteel alleen beschikbaar voor Windows producten.
 
 ### <a name="threat-and-vulnerability-management-dashboard"></a>Bedreiging en vulnerability management dashboard
 
@@ -108,7 +108,7 @@ Wanneer er een patch wordt uitgebracht voor de zero-day, wordt de aanbeveling ge
 
 ![Aanbeveling voor 'Update Microsoft Windows 10' met een nieuw patchlabel.](images/tvm-zero-day-patch.jpg)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Dashboard](tvm-dashboard-insights.md)

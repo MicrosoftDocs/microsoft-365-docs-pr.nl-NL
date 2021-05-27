@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bb436cbd2d0fa453872760c1d2656585e02d1767
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1800cfdabd402321c49b737eff7f9d67639eb300
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538865"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52688999"
 ---
 # <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Plan voor end-of-support software- en softwareversies met Threat and Vulnerability Management
 
@@ -42,7 +42,7 @@ End-of-support (EOS), ook wel bekend als end-of-life (EOL), voor software- of so
 Het is essentieel voor beveiligings- en IT-beheerders om samen te werken en ervoor te zorgen dat de softwarevoorraad van de organisatie is geconfigureerd voor optimale resultaten, naleving en een gezond netwerkecosysteem. Ze moeten de opties bekijken om apps te verwijderen of te vervangen die einde-of-ondersteunings- en updateversies hebben bereikt die niet meer worden ondersteund. U kunt het beste een  plan maken en implementeren vóór het einde van de ondersteuningsdatum.
 
 >[!NOTE]
-> EOS-functionaliteit is momenteel niet beschikbaar voor niet-Windows producten (Mac, Linux); deze wordt echter in de toekomst toegevoegd.
+> End-of-support is momenteel alleen beschikbaar voor Windows producten.
 
 ## <a name="find-software-or-software-versions-that-are-no-longer-supported"></a>Software- of softwareversies zoeken die niet meer worden ondersteund
 

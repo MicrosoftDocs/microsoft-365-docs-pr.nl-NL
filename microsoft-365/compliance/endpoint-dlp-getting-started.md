@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Stel Microsoft 365 Preventie van gegevensverlies voor eindpunten in om bestandsactiviteiten te controleren en beschermende maatregelen voor deze bestanden naar eindpunten te implementeren.
-ms.openlocfilehash: a6c0ec6f1248fdeecd8616b7eda000b7608d452d
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 34355a25283207929a12a7bc504b929fbf3041a0
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651006"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683653"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Aan de slag met Preventie van gegevensverlies voor eindpunten
 
@@ -104,7 +104,6 @@ Zorg ervoor dat de Windows 10-apparaten die u van plan bent in DLP voor eindpunt
 
 4. Alle apparaten moeten tot een van de volgende behoren:
 - [Azure Active Directory (Azure AD)-gekoppeld](/azure/active-directory/devices/concept-azure-ad-join)
-- AD-gekoppeld
 - [Hybride Azure AD-gekoppeld](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
 - [AAD-geregistreerd](/azure/active-directory/user-help/user-help-register-device-on-network)
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: In dit artikel wordt beschreven hoe u Core eDiscovery-zaken kunt beheren. Dit omvat het sluiten van een zaak, het opnieuw openen van een gesloten zaak en het verwijderen van een zaak.
-ms.openlocfilehash: 8a54d5c8f93d36351538bc235a6dbeaaa602c3e9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: d729c91d4e81ad12d0b4b16574aa4edad8e239a3
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532444"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684097"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Een Hoofd-eDiscovery-zaak sluiten, opnieuw openen en verwijderen
 
@@ -92,7 +92,7 @@ Voordat u een zaak kunt verwijderen (of deze nu  actief of gesloten is), moet u 
 
 Een eDiscovery-hold verwijderen:
 
-1. Ga naar **het tabblad** Houdt in het geval dat u wilt verwijderen.
+1. Ga naar het **tabblad Houdt** in het geval dat u wilt verwijderen.
 
 2. Selecteer de wacht die u wilt verwijderen.
 
