@@ -19,12 +19,12 @@ ms.collection:
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Defender voor Office 365 beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbeveiliging? Wat moet u gebruiken als u strikter wilt zijn? En welke extra's krijgt u als u Ook Defender gebruikt voor Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 10fac8cb7241faa652bbcb4726610abef741e70c
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: b6661c31d0cc05a1bdfd51de986af1e7b22c9d70
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683269"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696524"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging
 
@@ -44,7 +44,7 @@ Zie Vooraf ingestelde beveiligingsbeleidsregels [in EOP](preset-security-policie
 > [!NOTE]
 > De regel ongewenste e-mail moet zijn ingeschakeld in postvakken om te kunnen filteren op de juiste manier. Deze functie is standaard ingeschakeld, maar u moet controleren of filteren niet werkt. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
-In dit artikel worden de standaardinstellingen beschreven, en ook de aanbevolen standaard- en strikte instellingen om uw gebruikers te beschermen.
+In dit artikel worden de standaardinstellingen beschreven, en ook de aanbevolen standaard- en strikte instellingen om uw gebruikers te beschermen. De tabellen bevatten de instellingen in het Microsoft 365-beveiligingscentrum en PowerShell (Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell voor organisaties zonder Exchange Online postvakken).
 
 > [!TIP]
 > De Office 365 Advanced Threat Protection Recommended Configuration Analyzer (ORCA) module voor PowerShell kan u (beheerders) helpen de huidige waarden van deze instellingen te vinden. De **get-ORCAReport-cmdlet** genereert met name een beoordeling van antispam, anti-phishing en andere instellingen voor berichthygiëne. U kunt de ORCA-module downloaden op <https://www.powershellgallery.com/packages/ORCA/> .
@@ -65,26 +65,26 @@ Zie [Antispambeleid](configure-your-spam-filter-policies.md)configureren in Offi
 |---|:---:|:---:|:---:|---|
 |**Actie voor spamdetectie** <p> _SpamActie_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`||
 |**Actie voor het opsporen van spam** met veel vertrouwen <p> _HighConfidenceSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`||
-|**Actie voor het opsporen van phishing-e-mail** <p> _PhishSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`||
-|**Actie voor het opsporen van phishing-e-mail** met veel vertrouwen <p> _HighConfidencePhishAction_|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`||
-|**Actie voor bulksgewijs opsporen van e-mail** <p> _BulkSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`||
-|Drempelwaarde voor bulksgewijs e-mail <p> _BulkThreshold_|7|6|4|Zie Bulk [complaint level (BCL) in](bulk-complaint-level-values.md)Office 365 .|
-|Bewaarperiode voor quarantaine <p> _QuarantineRetentionPeriod_|15 dagen|30 dagen|30 dagen||
-|**Veiligheids- Tips** <p> _InlineSafetyTipsEnabled_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
+|**Phishingdetectieactie** <p> _PhishSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`||
+|**Phishingdetectieactie met** hoog vertrouwen <p> _HighConfidencePhishAction_|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`||
+|**Bulkdetectieactie** <p> _BulkSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`||
+|**Drempelwaarde voor bulksgewijs e-mail** <p> _BulkThreshold_|7|6|4|Zie Bulk [complaint level (BCL) in](bulk-complaint-level-values.md)Office 365 .|
+|_MarkAsSpamBulkMail_|Aan|Aan|Aan|Deze instelling is alleen beschikbaar in PowerShell.|
+|**Spam in quarantaine bewaren voor deze dagen** <p> _QuarantineRetentionPeriod_|15 dagen|30 dagen|30 dagen||
+|**Tips voor spamveiligheid inschakelen** <p> _InlineSafetyTipsEnabled_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
 |Toegestane afzenders <p> _AllowedSenders_|Geen|Geen|Geen||
-|Toegestane afzenderdomeinen <p> _AllowedSenderDomains_|Geen|Geen|Geen|Het toevoegen van domeinen aan de lijst met toegestane afzenders is een heel slecht idee. Aanvallers kunnen u e-mail sturen die anders zou worden gefilterd. <p> Gebruik [](learn-about-spoof-intelligence.md) het inzicht in spoof intelligence en de [tenantlijst toestaan/blokkeren](tenant-allow-block-list.md) in het beveiligings- & compliancecentrum om alle afzenders te controleren die e-mailadressen van afzenders spoofen in de e-maildomeinen van uw organisatie of e-mailadressen van afzenders voor spoofing in externe domeinen.|
+|Toegestane afzenderdomeinen <p> _AllowedSenderDomains_|Geen|Geen|Geen|Het toevoegen van domeinen aan de lijst met toegestane afzenders is een heel slecht idee. Aanvallers kunnen u e-mail sturen die anders zou worden gefilterd. <p> Gebruik het inzicht in spoof [intelligence](learn-about-spoof-intelligence.md) en de [Tenant Allow/Block List](tenant-allow-block-list.md) om alle afzenders te controleren die e-mailadressen van afzenders spoofen in de e-maildomeinen van uw organisatie of e-mailadressen van afzenders voor spoofing in externe domeinen.|
 |Geblokkeerde afzenders <p> _Geblokkeerde senders_|Geen|Geen|Geen||
 |Geblokkeerde afzenderdomeinen <p> _BlockedSenderDomains_|Geen|Geen|Geen||
 |**Spammeldingen voor eindgebruikers inschakelen** <p> _EnableEndUserSpamNotifications_|Uitgeschakeld <p> `$false`|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`||
 |**Spammeldingen voor eindgebruikers elke (dagen) verzenden** <p> _EndUserSpamNotificationFrequency_|3 dagen|3 dagen|3 dagen||
-|**Spam ZAP** <p> _SpamZapEnabled_|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`||
-|**Phish ZAP** <p> _PhishZapEnabled_|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`||
-|_MarkAsSpamBulkMail_|Aan|Aan|Aan|Deze instelling is alleen beschikbaar in PowerShell.|
+|Automatische purge (ZAP) voor phishingberichten inschakelen <p> _PhishZapEnabled_|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`||
+|ZAP inschakelen voor spambericht <p> _SpamZapEnabled_|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`||
 |
 
-Er zijn verschillende andere asf-instellingen (Advanced Spam Filter) in antispambeleid die momenteel worden afgeschaft. Meer informatie over de tijdlijnen voor de afschrijving van deze functies wordt buiten dit artikel gecommuniceerd.
+Er zijn veel geavanceerde instellingen voor spamfilter (ASF) in antispambeleid die momenteel worden afgeschaft. Meer informatie over de tijdlijnen voor de afschrijving van deze functies wordt buiten dit artikel gecommuniceerd.
 
-U wordt aangeraden deze ASF-instellingen uit te **schakelen voor** zowel **standaard-** als **strikte** niveaus. Zie Asf-instellingen (Advanced Spam Filter) in Office 365 voor [meer informatie over ASF-instellingen.](advanced-spam-filtering-asf-options.md)
+Het is raadzaam om de volgende ASF-instellingen uit te **laten voor** zowel **standaard-** als **strikte** niveaus. Zie Asf-instellingen (Advanced Spam Filter) in Office 365 voor [meer informatie over ASF-instellingen.](advanced-spam-filtering-asf-options.md)
 
 <br>
 

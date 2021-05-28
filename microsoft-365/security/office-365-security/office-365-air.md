@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c9cd9ef649ec60fc8d880ae525469980a00f69b2
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 7632efb2014af9f55e9cad700bceeeabe555fb8b
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274998"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696572"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Automated investigation and response (AIR) in Microsoft Defender for Office 365
 
@@ -78,9 +78,9 @@ Tijdens en na elk geautomatiseerd onderzoek kan uw beveiligingsteam:
 Air-mogelijkheden zijn opgenomen in [Microsoft Defender voor Office 365](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2), mits uw beleid en waarschuwingen zijn geconfigureerd. Hebt u hulp nodig? Volg de richtlijnen in [Beschermen tegen bedreigingen om](protect-against-threats.md) de volgende beveiligingsinstellingen in te stellen of te configureren:
 
 - [Auditregistratie](../../compliance/turn-audit-log-search-on-or-off.md) (moet zijn ingeschakeld)
-- [Antimalware-beleid](protect-against-threats.md#part-1---anti-malware-protection)
-- [Antiphishing protection](protect-against-threats.md#part-2---anti-phishing-protection)
-- [Antispambeveiliging](protect-against-threats.md#part-3---anti-spam-protection)
+- [Anti-malwarebeleid](protect-against-threats.md#part-1---anti-malware-protection-in-eop)
+- [Bescherming tegen phishing](protect-against-threats.md#part-2---anti-phishing-protection)
+- [Beveiliging tegen ongewenste e-mail](protect-against-threats.md#part-3---anti-spam-protection-in-eop)
 - [Safe Koppelingen en Safe bijlagen](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
 - [Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
 - [Auto purge van nul uur voor e-mail](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)

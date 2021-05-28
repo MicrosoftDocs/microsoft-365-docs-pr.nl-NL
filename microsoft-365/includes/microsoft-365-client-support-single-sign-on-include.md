@@ -13,7 +13,7 @@
 |OFFICE.COM|N.v.t.|N.v.t.|N.v.t.|N.v.t.|✔|
 |ONEDRIVE|✔|✔|Gepland|✔|✔|
 |ONENOTE|✔|✔|✔|Gepland|✔|
-|OUTLOOK|✔|✔|Gepland|✔|✔|
+|OUTLOOK|✔|✔|✔|✔|✔|
 |PLANNER|✔|✔|N.v.t.|N.v.t.|N.v.t.|
 |POWER APPS|✔|✔|N.v.t.|N.v.t.|Gepland|
 |POWER AUTOMATE|✔|✔|N.v.t.|N.v.t.|N.v.t.|

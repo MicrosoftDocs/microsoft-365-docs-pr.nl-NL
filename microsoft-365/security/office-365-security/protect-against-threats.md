@@ -20,12 +20,12 @@ description: Beheerders kunnen informatie krijgen over bedreigingsbeveiliging in
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12b519d45df005471e3d87cfdb24f87edddbf6f3
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 77b76a56c34a005b0e0742f207e2824359ae8cac
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683329"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696548"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -50,6 +50,8 @@ Bedreigingsbeveiligingsfuncties zijn opgenomen in *alle* Microsoft- of Office 36
 > [!TIP]
 > Buiten de aanwijzingen voor het in-  en uit- of in- en uit-/uit- stappen start u anti-malware, anti-phishing en antispam, die zijn gemarkeerd als onderdeel van Office 365 Exchange Online Protection **(EOP).** Dit kan vreemd lijken in een Defender voor Office 365 artikel, totdat u eraan herinnert (**Defender voor** Office 365 ) EOP bevat en verder bouwt.
 
+<br>
+
 ****
 
 |Beveiligingstype|Abonnementsvereiste|
@@ -67,6 +69,8 @@ Bedreigingsbeveiligingsfuncties zijn opgenomen in *alle* Microsoft- of Office 36
 
 Als u Defender wilt configureren Office 365 beleidsregels, moet u een passende rol krijgen toegewezen in het [beveiligings- & compliancecentrum.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) Bekijk de onderstaande tabel voor rollen die deze acties kunnen uitvoeren.
 
+<br>
+
 ****
 
 |Rol of rollengroep|Waar kunt u meer informatie?|
@@ -82,20 +86,22 @@ Zie Machtigingen in het Beveiligings- & [compliancecentrum voor meer informatie.
 
 - Begin de auditregistratie eerder. U moet controleren om aan te zijn **voor** een aantal van de volgende stappen. Auditregistratie is beschikbaar in abonnementen met [Exchange Online.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) Als u gegevens wilt weergeven in bedreigingsbeveiligingsrapporten, zoals het beveiligingsdashboard, [](security-dashboard.md)e-mailbeveiligingsrapporten [en](view-email-security-reports.md) [Verkenner,](threat-explorer.md)moet auditregistratie zijn *aan.* Zie Zoeken in auditlogboek in- [of uitschakelen voor meer informatie.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-## <a name="part-1---anti-malware-protection"></a>Deel 1 - Anti-malwarebeveiliging
+## <a name="part-1---anti-malware-protection-in-eop"></a>Deel 1 - Bescherming tegen malware in EOP
 
 Zie [EOP anti-malwarebeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-anti-malware-policy-settings)voor meer informatie over de aanbevolen instellingen voor anti-malware.
 
 1. Openen <https://security.microsoft.com/antimalwarev2> .
 
-2. Selecteer het standaardbeleid door op de naam van het beleid te klikken.
+2. Selecteer op **de pagina Anti-malware** het beleid Met de naam **Standaardbeleid** door op de naam te klikken.
 
 3. Klik in het flyout met beleidsdetails dat wordt geopend op **Beveiligingsinstellingen bewerken** en configureer de volgende instellingen:
    - Selecteer **Het filter algemene bijlagen inschakelen om** het algemene bijlagefilter in te stellen. Klik **op Bestandstypen aanpassen** om meer bestandstypen toe te voegen.
    - Controleer of **Automatisch verwijderen van nul uur inschakelen voor malware** is geselecteerd.
    - Controleer of geen van de instellingen in de sectie **Melding** is geselecteerd.
 
-   Wanneer u klaar bent, klikt u op **Opslaan**
+   Klik op **Opslaan** wanneer u gereed bent.
+
+4. Klik terug op de flyout beleidsdetails op **Sluiten.**
 
 Zie Anti-malwarebeleid configureren in EOP voor gedetailleerde instructies voor het configureren van [anti-malwarebeleid.](configure-anti-malware-policies.md)
 
@@ -135,23 +141,23 @@ In de volgende procedure wordt beschreven hoe u een anti-phishingbeleid configur
 
 Zie [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor meer informatie over uw anti-phishingbeleidsopties voor Office 365.
 
-## <a name="part-3---anti-spam-protection"></a>Deel 3 - Bescherming tegen spam
+## <a name="part-3---anti-spam-protection-in-eop"></a>Deel 3 - Bescherming tegen spam in EOP
 
-[Antispambeveiliging](anti-spam-protection.md) is beschikbaar in abonnementen met [EOP.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+Zie [EOP antispambeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)voor meer informatie over de aanbevolen instellingen voor antispam.
 
-1. Kies in [& Beveiligingscentrum](https://protection.office.com)de optie **Bedreigingsbeheerbeleid** \>  \> **antispam.**
+1. Openen <https://security.microsoft.com/antispam> .
 
-2. Schakel **aangepaste** instellingen in op het tabblad Aangepast.
+2. Selecteer op **de pagina Antispambeleid** het beleid **antispambeleid in de** lijst door op de naam te klikken.
 
-3. Standaardbeleid **voor spamfilters** uitvV,klik op **Beleid bewerken** en geef de volgende instellingen op:
+3. Klik in het flyout met beleidsdetails dat wordt weergegeven op **Drempelwaarde** en eigenschappen voor spam bewerken in de sectie Bulk **e-mail & spameigenschappen.**
 
-   - Stel in **de sectie Spam-** en bulkacties de drempelwaarde in op een waarde van 5 of 6.
+4. Stel in **de flyout** voor spam en  eigenschappen die worden weergegeven, de drempelwaarde voor bulksgewijs e-mail in op 5 (Strikt) of 6 (standaard). Wanneer u klaar bent, klikt u op **Opslaan**
 
-   - Bekijk **(en/of** bewerk) in de sectie Lijsten toestaan uw toegestane afzenders en domeinen.
+5. Ga terug naar de flyout beleidsdetails en ga naar de sectie Toegestane en geblokkeerde **afzenders** en domeinen en bekijk of bewerk uw toegestane afzenders en toegestane domeinen.
 
-4. Klik op **Opslaan**.
+6. Klik op **Sluiten** wanneer u gereed bent.
 
-Zie Antispambeleid configureren in EOP voor meer informatie over uw [antispambeleidsopties.](configure-your-spam-filter-policies.md)
+Zie Antispambeleid configureren in EOP voor gedetailleerde instructies voor het configureren van [antispambeleid.](configure-your-spam-filter-policies.md)
 
 ## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>Deel 4 - Bescherming tegen schadelijke URL's en bestanden (Safe Koppelingen en Safe bijlagen in Defender voor Office 365)
 
