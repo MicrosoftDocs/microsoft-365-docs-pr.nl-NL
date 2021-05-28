@@ -18,84 +18,87 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b1d64ceb7b0027546e84a9c42c8d2ffed188c03b
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934283"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694471"
 ---
-# <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a><span data-ttu-id="65386-104">Privacygegevens - Microsoft Defender voor Eindpunt op iOS</span><span class="sxs-lookup"><span data-stu-id="65386-104">Privacy information - Microsoft Defender for Endpoint on iOS</span></span>
+# <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a><span data-ttu-id="d2e6f-104">Privacygegevens - Microsoft Defender voor Eindpunt op iOS</span><span class="sxs-lookup"><span data-stu-id="d2e6f-104">Privacy information - Microsoft Defender for Endpoint on iOS</span></span>
 
-<span data-ttu-id="65386-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="65386-105">**Applies to:**</span></span>
-- [<span data-ttu-id="65386-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="65386-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="65386-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="65386-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="d2e6f-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="d2e6f-105">**Applies to:**</span></span>
+- [<span data-ttu-id="d2e6f-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="d2e6f-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="d2e6f-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d2e6f-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="65386-108">Wilt u Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="65386-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="65386-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="65386-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> <span data-ttu-id="d2e6f-108">Wilt u Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="d2e6f-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="d2e6f-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 > [!NOTE]
-> <span data-ttu-id="65386-110">Defender voor Endpoint in iOS gebruikt een VPN om de webbeveiligingsfunctie te bieden.</span><span class="sxs-lookup"><span data-stu-id="65386-110">Defender for Endpoint on iOS uses a VPN to provide the Web Protection feature.</span></span> <span data-ttu-id="65386-111">Dit is geen gewone VPN en is een lokale of self-looping VPN die geen verkeer buiten het apparaat neemt.</span><span class="sxs-lookup"><span data-stu-id="65386-111">This is not a regular VPN and is a local or self-looping VPN that does not take traffic outside the device.</span></span> <span data-ttu-id="65386-112">**Microsoft of uw organisatie ziet uw browseactiviteit niet.**</span><span class="sxs-lookup"><span data-stu-id="65386-112">**Microsoft or your organization, does not see your browsing activity.**</span></span>
+> <span data-ttu-id="d2e6f-110">Defender voor Endpoint in iOS gebruikt een VPN om de webbeveiligingsfunctie te bieden.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-110">Defender for Endpoint on iOS uses a VPN to provide the Web Protection feature.</span></span> <span data-ttu-id="d2e6f-111">Dit is geen gewone VPN en is een lokale of self-looping VPN die geen verkeer buiten het apparaat neemt.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-111">This is not a regular VPN and is a local or self-looping VPN that does not take traffic outside the device.</span></span> <span data-ttu-id="d2e6f-112">**Microsoft of uw organisatie ziet uw browseactiviteit niet.**</span><span class="sxs-lookup"><span data-stu-id="d2e6f-112">**Microsoft or your organization, does not see your browsing activity.**</span></span>
 
-<span data-ttu-id="65386-113">Defender voor Eindpunt in iOS verzamelt gegevens van uw geconfigureerde iOS-apparaten en slaat deze op in dezelfde tenant waar u Defender voor Eindpunt hebt.</span><span class="sxs-lookup"><span data-stu-id="65386-113">Defender for Endpoint on iOS collects information from your configured iOS devices and stores it in the same tenant where you have Defender for Endpoint.</span></span> <span data-ttu-id="65386-114">De gegevens worden verzameld om Defender for Endpoint op iOS veilig, up-to-date te houden, te presteren zoals verwacht en om de service te ondersteunen.</span><span class="sxs-lookup"><span data-stu-id="65386-114">The information is collected to help keep Defender for Endpoint on iOS secure, up-to-date, performing as expected, and to support the service.</span></span>
+<span data-ttu-id="d2e6f-113">Defender voor Eindpunt in iOS verzamelt gegevens van uw geconfigureerde iOS-apparaten en slaat deze op in dezelfde tenant waar u Defender voor Eindpunt hebt.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-113">Defender for Endpoint on iOS collects information from your configured iOS devices and stores it in the same tenant where you have Defender for Endpoint.</span></span> <span data-ttu-id="d2e6f-114">De gegevens worden verzameld om Defender for Endpoint op iOS veilig, up-to-date te houden, te presteren zoals verwacht en om de service te ondersteunen.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-114">The information is collected to help keep Defender for Endpoint on iOS secure, up-to-date, performing as expected, and to support the service.</span></span>
 
-<span data-ttu-id="65386-115">Zie Microsoft Defender for [Endpoint data storage and privacy (Microsoft Defender for Endpoint data storage and privacy) voor meer informatie over gegevensopslag.](data-storage-privacy.md)</span><span class="sxs-lookup"><span data-stu-id="65386-115">For more information about data storage, see [Microsoft Defender for Endpoint data storage and privacy](data-storage-privacy.md).</span></span>
+<span data-ttu-id="d2e6f-115">Zie Microsoft Defender for [Endpoint data storage and privacy (Microsoft Defender for Endpoint data storage and privacy) voor meer informatie over gegevensopslag.](data-storage-privacy.md)</span><span class="sxs-lookup"><span data-stu-id="d2e6f-115">For more information about data storage, see [Microsoft Defender for Endpoint data storage and privacy](data-storage-privacy.md).</span></span>
 
-## <a name="required-data"></a><span data-ttu-id="65386-116">Vereiste gegevens</span><span class="sxs-lookup"><span data-stu-id="65386-116">Required data</span></span> 
 
-<span data-ttu-id="65386-117">Vereiste gegevens bestaan uit gegevens die nodig zijn om Defender voor Eindpunt op iOS te laten werken zoals verwacht.</span><span class="sxs-lookup"><span data-stu-id="65386-117">Required data consists of data that is necessary to make Defender for Endpoint on iOS work as expected.</span></span> <span data-ttu-id="65386-118">Deze gegevens zijn essentieel voor de werking van de service en kunnen gegevens bevatten die betrekking hebben op de eindgebruiker, de organisatie, het apparaat en apps.</span><span class="sxs-lookup"><span data-stu-id="65386-118">This data is essential to the operation of the service and can include data related to the end user, organization, device, and apps.</span></span> 
+<span data-ttu-id="d2e6f-116">Zie Microsoft Defender voor Eindpunt en uw privacy op mobiele android- en iOS-apparaten voor meer informatie over de meest voorkomende privacyvragen over Microsoft Defender voor eindpunten op mobiele android- en [iOS-apparaten.](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-and-your-privacy-on-android-and-ios-mobile-devices-4109bc54-8ec5-4433-9c33-d359b75ac22a)</span><span class="sxs-lookup"><span data-stu-id="d2e6f-116">For more information on most common privacy questions about Microsoft Defender for Endpoint on Android and iOS mobile devices, see [Microsoft Defender for Endpoint and your privacy on Android and iOS mobile devices](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-and-your-privacy-on-android-and-ios-mobile-devices-4109bc54-8ec5-4433-9c33-d359b75ac22a).</span></span>
 
-<span data-ttu-id="65386-119">Hier is een lijst met de typen gegevens die worden verzameld:</span><span class="sxs-lookup"><span data-stu-id="65386-119">Here is a list of the types of data being collected:</span></span> 
+## <a name="required-data"></a><span data-ttu-id="d2e6f-117">Vereiste gegevens</span><span class="sxs-lookup"><span data-stu-id="d2e6f-117">Required data</span></span> 
 
-### <a name="web-page-or-network-information"></a><span data-ttu-id="65386-120">Webpagina- of netwerkgegevens</span><span class="sxs-lookup"><span data-stu-id="65386-120">Web page or Network information</span></span> 
+<span data-ttu-id="d2e6f-118">Vereiste gegevens bestaan uit gegevens die nodig zijn om Defender voor Eindpunt op iOS te laten werken zoals verwacht.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-118">Required data consists of data that is necessary to make Defender for Endpoint on iOS work as expected.</span></span> <span data-ttu-id="d2e6f-119">Deze gegevens zijn essentieel voor de werking van de service en kunnen gegevens bevatten die betrekking hebben op de eindgebruiker, de organisatie, het apparaat en apps.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-119">This data is essential to the operation of the service and can include data related to the end user, organization, device, and apps.</span></span> 
 
-- <span data-ttu-id="65386-121">Domeinnaam van de website alleen wanneer een schadelijke verbinding of webpagina wordt gedetecteerd.</span><span class="sxs-lookup"><span data-stu-id="65386-121">Domain name of the website only when a malicious connection or web page is detected.</span></span> 
+<span data-ttu-id="d2e6f-120">Hier is een lijst met de typen gegevens die worden verzameld:</span><span class="sxs-lookup"><span data-stu-id="d2e6f-120">Here is a list of the types of data being collected:</span></span> 
 
-### <a name="device-and-account-information"></a><span data-ttu-id="65386-122">Apparaat- en accountgegevens</span><span class="sxs-lookup"><span data-stu-id="65386-122">Device and account information</span></span> 
+### <a name="web-page-or-network-information"></a><span data-ttu-id="d2e6f-121">Webpagina- of netwerkgegevens</span><span class="sxs-lookup"><span data-stu-id="d2e6f-121">Web page or Network information</span></span> 
 
-- <span data-ttu-id="65386-123">Apparaatgegevens, zoals datum &, iOS-versie, CPU-informatie en apparaataanduiding, waarbij apparaataanduiding een van de volgende opties is:</span><span class="sxs-lookup"><span data-stu-id="65386-123">Device information such as date & time, iOS version, CPU info, and Device identifier, where Device identifier is one of the following:</span></span> 
+- <span data-ttu-id="d2e6f-122">Domeinnaam van de website alleen wanneer een schadelijke verbinding of webpagina wordt gedetecteerd.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-122">Domain name of the website only when a malicious connection or web page is detected.</span></span> 
 
-    - <span data-ttu-id="65386-124">Wi-Fi mac-adres van adapter</span><span class="sxs-lookup"><span data-stu-id="65386-124">Wi-Fi adapter MAC address</span></span> 
+### <a name="device-and-account-information"></a><span data-ttu-id="d2e6f-123">Apparaat- en accountgegevens</span><span class="sxs-lookup"><span data-stu-id="d2e6f-123">Device and account information</span></span> 
 
-    - <span data-ttu-id="65386-125">Willekeurig gegenereerde, wereldwijd unieke id (GUID)</span><span class="sxs-lookup"><span data-stu-id="65386-125">Randomly generated globally unique identifier (GUID)</span></span> 
+- <span data-ttu-id="d2e6f-124">Apparaatgegevens, zoals datum &, iOS-versie, CPU-informatie en apparaataanduiding, waarbij apparaataanduiding een van de volgende opties is:</span><span class="sxs-lookup"><span data-stu-id="d2e6f-124">Device information such as date & time, iOS version, CPU info, and Device identifier, where Device identifier is one of the following:</span></span> 
 
-- <span data-ttu-id="65386-126">Tenant-, apparaat- en gebruikersgegevens</span><span class="sxs-lookup"><span data-stu-id="65386-126">Tenant, Device, and User information</span></span> 
+    - <span data-ttu-id="d2e6f-125">Wi-Fi mac-adres van adapter</span><span class="sxs-lookup"><span data-stu-id="d2e6f-125">Wi-Fi adapter MAC address</span></span> 
 
-    - <span data-ttu-id="65386-127">Azure Active Directory (AD) Device ID en Azure User ID : hiermee wordt het apparaat uniek geïdentificeerd, respectievelijk Gebruiker bij Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="65386-127">Azure Active Directory (AD) Device ID and Azure User ID - Uniquely identifies the device, User respectively at Azure Active directory.</span></span> 
+    - <span data-ttu-id="d2e6f-126">Willekeurig gegenereerde, wereldwijd unieke id (GUID)</span><span class="sxs-lookup"><span data-stu-id="d2e6f-126">Randomly generated globally unique identifier (GUID)</span></span> 
 
-    - <span data-ttu-id="65386-128">Azure tenant-id - GUID die uw organisatie identificeert in Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="65386-128">Azure tenant ID - GUID that identifies your organization within Azure Active Directory.</span></span> 
+- <span data-ttu-id="d2e6f-127">Tenant-, apparaat- en gebruikersgegevens</span><span class="sxs-lookup"><span data-stu-id="d2e6f-127">Tenant, Device, and User information</span></span> 
 
-    - <span data-ttu-id="65386-129">Microsoft Defender for Endpoint org ID - Unieke id die is gekoppeld aan de onderneming waar het apparaat deel van uitmaken.</span><span class="sxs-lookup"><span data-stu-id="65386-129">Microsoft Defender for Endpoint org ID - Unique identifier associated with the enterprise that the device belongs to.</span></span> <span data-ttu-id="65386-130">Hiermee kan Microsoft vaststellen of er problemen zijn die van invloed zijn op een selecte set ondernemingen en het aantal ondernemingen dat is beïnvloed.</span><span class="sxs-lookup"><span data-stu-id="65386-130">Allows Microsoft to identify if there are issues affecting a select set of enterprises and the number of enterprises impacted.</span></span> 
+    - <span data-ttu-id="d2e6f-128">Azure Active Directory (AD) Apparaat-id en Azure-gebruikers-id : hiermee wordt het apparaat uniek geïdentificeerd, respectievelijk Gebruiker bij Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-128">Azure Active Directory (AD) Device ID and Azure User ID - Uniquely identifies the device, User respectively at Azure Active directory.</span></span> 
 
-    - <span data-ttu-id="65386-131">Gebruikersnaam : e-mail-id van de gebruiker.</span><span class="sxs-lookup"><span data-stu-id="65386-131">User Principal Name - Email ID of the user.</span></span> 
+    - <span data-ttu-id="d2e6f-129">Azure tenant-id - GUID die uw organisatie binnen uw Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-129">Azure tenant ID - GUID that identifies your organization within Azure Active Directory.</span></span> 
 
-### <a name="product-and-service-usage-data"></a><span data-ttu-id="65386-132">Gegevens over product- en servicegebruik</span><span class="sxs-lookup"><span data-stu-id="65386-132">Product and service usage data</span></span> 
+    - <span data-ttu-id="d2e6f-130">Microsoft Defender for Endpoint org ID - Unieke id die is gekoppeld aan de onderneming waar het apparaat deel van uitmaken.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-130">Microsoft Defender for Endpoint org ID - Unique identifier associated with the enterprise that the device belongs to.</span></span> <span data-ttu-id="d2e6f-131">Hiermee kan Microsoft vaststellen of er problemen zijn die van invloed zijn op een selecte set ondernemingen en het aantal ondernemingen dat is beïnvloed.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-131">Allows Microsoft to identify if there are issues affecting a select set of enterprises and the number of enterprises impacted.</span></span> 
 
-<span data-ttu-id="65386-133">De volgende gegevens worden alleen verzameld voor de Microsoft Defender for Endpoint-app die op het apparaat is geïnstalleerd.</span><span class="sxs-lookup"><span data-stu-id="65386-133">The following information is collected only for Microsoft Defender for Endpoint app installed on the device.</span></span> 
+    - <span data-ttu-id="d2e6f-132">Gebruikersnaam : e-mail-id van de gebruiker.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-132">User Principal Name - Email ID of the user.</span></span> 
 
-- <span data-ttu-id="65386-134">App-pakketgegevens, waaronder de status van de naam, versie en app-upgrade.</span><span class="sxs-lookup"><span data-stu-id="65386-134">App package info, including name, version, and app upgrade status.</span></span> 
+### <a name="product-and-service-usage-data"></a><span data-ttu-id="d2e6f-133">Gegevens over product- en servicegebruik</span><span class="sxs-lookup"><span data-stu-id="d2e6f-133">Product and service usage data</span></span> 
 
-- <span data-ttu-id="65386-135">Acties in de app.</span><span class="sxs-lookup"><span data-stu-id="65386-135">Actions done in the app.</span></span> 
+<span data-ttu-id="d2e6f-134">De volgende gegevens worden alleen verzameld voor de Microsoft Defender for Endpoint-app die op het apparaat is geïnstalleerd.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-134">The following information is collected only for Microsoft Defender for Endpoint app installed on the device.</span></span> 
 
-- <span data-ttu-id="65386-136">Crashrapportlogboeken die zijn gegenereerd door iOS.</span><span class="sxs-lookup"><span data-stu-id="65386-136">Crash report logs generated by iOS.</span></span> 
+- <span data-ttu-id="d2e6f-135">App-pakketgegevens, waaronder de status van de naam, versie en app-upgrade.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-135">App package info, including name, version, and app upgrade status.</span></span> 
 
-- <span data-ttu-id="65386-137">Geheugengebruiksgegevens.</span><span class="sxs-lookup"><span data-stu-id="65386-137">Memory usage data.</span></span> 
+- <span data-ttu-id="d2e6f-136">Acties in de app.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-136">Actions done in the app.</span></span> 
 
-## <a name="optional-data"></a><span data-ttu-id="65386-138">Optionele gegevens</span><span class="sxs-lookup"><span data-stu-id="65386-138">Optional Data</span></span> 
+- <span data-ttu-id="d2e6f-137">Crashrapportlogboeken die zijn gegenereerd door iOS.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-137">Crash report logs generated by iOS.</span></span> 
 
-<span data-ttu-id="65386-139">Optionele gegevens omvatten diagnostische gegevens en feedbackgegevens van de client.</span><span class="sxs-lookup"><span data-stu-id="65386-139">Optional data includes diagnostic data and feedback data from the client.</span></span> <span data-ttu-id="65386-140">Optionele diagnostische gegevens: aanvullende gegevens voor het maken van productverbeteringen en het verstrekken van uitgebreide informatie voor het detecteren, diagnosticeren en oplossen van problemen.</span><span class="sxs-lookup"><span data-stu-id="65386-140">Optional diagnostic data is additional data that helps us make product improvements and provides enhanced information to help us detect, diagnose, and fix issues.</span></span> <span data-ttu-id="65386-141">Deze gegevens zijn alleen voor diagnostische doeleinden en zijn niet vereist voor de service zelf.</span><span class="sxs-lookup"><span data-stu-id="65386-141">This data is only for diagnostic purposes and is not required for the service itself.</span></span> 
+- <span data-ttu-id="d2e6f-138">Geheugengebruiksgegevens.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-138">Memory usage data.</span></span> 
 
-<span data-ttu-id="65386-142">Optionele diagnostische gegevens omvatten:</span><span class="sxs-lookup"><span data-stu-id="65386-142">Optional diagnostic data includes:</span></span> 
+## <a name="optional-data"></a><span data-ttu-id="d2e6f-139">Optionele gegevens</span><span class="sxs-lookup"><span data-stu-id="d2e6f-139">Optional Data</span></span> 
 
-- <span data-ttu-id="65386-143">App-, CPU- en netwerkgebruik voor Defender voor Eindpunt.</span><span class="sxs-lookup"><span data-stu-id="65386-143">App, CPU, and network usage for Defender for Endpoint.</span></span> 
+<span data-ttu-id="d2e6f-140">Optionele gegevens omvatten diagnostische gegevens en feedbackgegevens van de client.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-140">Optional data includes diagnostic data and feedback data from the client.</span></span> <span data-ttu-id="d2e6f-141">Optionele diagnostische gegevens: aanvullende gegevens voor het maken van productverbeteringen en het verstrekken van uitgebreide informatie voor het detecteren, diagnosticeren en oplossen van problemen.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-141">Optional diagnostic data is additional data that helps us make product improvements and provides enhanced information to help us detect, diagnose, and fix issues.</span></span> <span data-ttu-id="d2e6f-142">Deze gegevens zijn alleen voor diagnostische doeleinden en zijn niet vereist voor de service zelf.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-142">This data is only for diagnostic purposes and is not required for the service itself.</span></span> 
 
-- <span data-ttu-id="65386-144">Functies die zijn geconfigureerd door de beheerder van Defender voor Eindpunt.</span><span class="sxs-lookup"><span data-stu-id="65386-144">Features configured by the admin for Defender for Endpoint.</span></span> 
+<span data-ttu-id="d2e6f-143">Optionele diagnostische gegevens omvatten:</span><span class="sxs-lookup"><span data-stu-id="d2e6f-143">Optional diagnostic data includes:</span></span> 
 
-<span data-ttu-id="65386-145">Feedbackgegevens worden verzameld via feedback in de app die door de gebruiker wordt verstrekt.</span><span class="sxs-lookup"><span data-stu-id="65386-145">Feedback Data is collected through in-app feedback provided by the user.</span></span> 
+- <span data-ttu-id="d2e6f-144">App-, CPU- en netwerkgebruik voor Defender voor Eindpunt.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-144">App, CPU, and network usage for Defender for Endpoint.</span></span> 
 
-- <span data-ttu-id="65386-146">Het e-mailadres van de gebruiker als hij of zij ervoor kiest het te verstrekken.</span><span class="sxs-lookup"><span data-stu-id="65386-146">The user's email address, if they choose to provide it.</span></span>
+- <span data-ttu-id="d2e6f-145">Functies die zijn geconfigureerd door de beheerder van Defender voor Eindpunt.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-145">Features configured by the admin for Defender for Endpoint.</span></span> 
 
-- <span data-ttu-id="65386-147">Feedbacktype (lach, frons, idee) en eventuele feedback van de gebruiker.</span><span class="sxs-lookup"><span data-stu-id="65386-147">Feedback type (smile, frown, idea) and any feedback comments submitted by the user.</span></span> 
+<span data-ttu-id="d2e6f-146">Feedbackgegevens worden verzameld via feedback in de app die door de gebruiker wordt verstrekt.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-146">Feedback Data is collected through in-app feedback provided by the user.</span></span> 
 
-<span data-ttu-id="65386-148">Zie Meer informatie over [Privacy voor meer informatie.](https://aka.ms/mdatpiosprivacystatement)</span><span class="sxs-lookup"><span data-stu-id="65386-148">For more information, see [More on Privacy](https://aka.ms/mdatpiosprivacystatement).</span></span>
+- <span data-ttu-id="d2e6f-147">Het e-mailadres van de gebruiker als hij of zij ervoor kiest het te verstrekken.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-147">The user's email address, if they choose to provide it.</span></span>
+
+- <span data-ttu-id="d2e6f-148">Feedbacktype (lach, frons, idee) en eventuele feedback van de gebruiker.</span><span class="sxs-lookup"><span data-stu-id="d2e6f-148">Feedback type (smile, frown, idea) and any feedback comments submitted by the user.</span></span> 
+
+<span data-ttu-id="d2e6f-149">Zie Meer informatie over [Privacy voor meer informatie.](https://aka.ms/mdatpiosprivacystatement)</span><span class="sxs-lookup"><span data-stu-id="d2e6f-149">For more information, see [More on Privacy](https://aka.ms/mdatpiosprivacystatement).</span></span>
 
 
