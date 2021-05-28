@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: Meer informatie over hoe u Teams configureert voor een betere beveiliging bij het delen van bestanden met behulp van drie niveaus bescherming, waarbij beveiliging en eenvoudige samenwerking met elkaar in evenwicht zijn.
-ms.openlocfilehash: ab2dd4cbf2b9cfc7b285f049eeaa876371574202
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 34351b202575302e2929db48d7807b91e4308905
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539213"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683401"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 
@@ -117,6 +117,14 @@ Zie de volgende verwijzingen om een veilige en productieve omgeving voor het del
 Voor de gevoelige en zeer gevoelige lagen beperken we toegang tot SharePoint-inhoud met gevoeligheidslabels. Met voorwaardelijke toegang van Azure AD kunt u op verschillende manieren vaststellen hoe gebruikers toegang hebben tot Microsoft 365, met inbegrip van beperkingen op basis van locatie, risico, apparaatcompatibiliteit en andere factoren. We raden u aan om [Wat is voorwaardelijke toegang?](/azure/active-directory/conditional-access/overview) te lezen en na te denken over welke aanvullende beleidsregels mogelijk geschikt zijn voor uw organisatie.
 
 Houd er rekening mee dat gasten vaak geen apparaten hebben die door uw organisatie worden beheerd. Als u gasten in een van de lagen toestaat, dient u te overwegen wat voor apparaat ze gebruiken voor toegang tot teams en sites, zodat u uw beleid voor onbeheerde apparaten op basis daarvan in kunt stellen.
+
+### <a name="control-device-access-across-microsoft-365"></a>Apparaattoegang in Microsoft 365 bepalen
+
+De instelling voor niet-beherende apparaten in gevoeligheidslabels is alleen van invloed op SharePoint-toegang. Als u de controle over niet-beheerde apparaten wilt uitbreiden buiten SharePoint, kunt u in plaats daarvan [Een beleid voor voorwaardelijke toegang van Azure Active Directory maken voor alle apps en services in uw organisatie](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device). Als u dit beleid specifiek wilt configureren voor [Microsoft 365-services](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365), selecteert u de cloud-app **Office 365** onder **Cloud-apps of -acties**.
+
+![Schermafbeelding van de Office 365-cloud-app in een beleid voor voorwaardelijke toegang van Azure Active Directory](https://docs.microsoft.com/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
+
+Als u een beleid gebruikt dat van invloed is op alle Microsoft 365-services, kan dit leiden tot betere beveiliging en een betere gebruikerservaring. Als u bijvoorbeeld de toegang tot niet-beheerde apparaten in SharePoint blokkeert, hebben gebruikers met een niet-beheerd apparaat toegang tot de chatfunctie in een team, maar hebben ze geen toegang meer wanneer ze toegang proberen te krijgen tot het tabblad **Bestanden** . Met de Office 365-cloud-app kunt u problemen met [serviceafhankelijkheden](/azure/active-directory/conditional-access/service-dependencies) vermijden.
 
 ## <a name="next-step"></a>Volgende stap
 

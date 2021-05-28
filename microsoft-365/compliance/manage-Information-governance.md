@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: Implementeer Microsoft Information Governance-mogelijkheden om uw gegevens te beheren voor nalevings- of wettelijke vereisten.
-ms.openlocfilehash: 304b4e57702c55242e49fae7fdf4a36e9b2f7cdb
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a62b1a20aa07c8b5d147fd24e3867c4d4c50174e
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244562"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683533"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft Information Governance in Microsoft 365
 
@@ -52,3 +52,7 @@ Hoogwaardige inhoud beheren voor juridische, zakelijke of wettelijke verplichtin
 |Mogelijkheid|Welke problemen worden ermee opgelost?|Aan de slag|
 |:------|:------------|---------------------|:----------------------------|
 |[Recordbeheer](records-management.md)| Eén oplossing voor e-mail en documenten die bewaarschema's en vereisten opneemt in een bestandsplan dat de volledige levenscyclus van uw inhoud ondersteunt met declaratie, bewaring en verwijdering van records <br /><br />Voorbeeldscenario: [Verwijdering van records](disposition.md#disposition-of-records)|[Aan de slag met recordbeheer](get-started-with-records-management.md) |
+
+## <a name="licensing-requirements"></a>Licentievereisten
+
+Licentievereisten voor Microsoft-informatiebeheer zijn afhankelijk van de scenario's en functies die u gebruikt, in plaats van licentievereisten in te stellen voor elke functie die op deze pagina wordt vermeld. Als u meer wilt weten over uw licentievereisten en -opties, bekijkt u de secties [Informatiebeheer](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) en [Recordbeheer](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management) in de Microsoft 365-licentiedocumentatie en downloadt u het bijbehorende PDF- of Excel-bestand.

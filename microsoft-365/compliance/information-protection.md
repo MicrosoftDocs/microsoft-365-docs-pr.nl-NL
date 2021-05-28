@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: Implementeert Microsoft Information Protection (MIP) om gevoelige informatie te beveiligen waar deze zich ook bevindt of naartoe reist.
-ms.openlocfilehash: a68f8dee00117af1fa4d7be5f459ed5c850a5100
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 2de9b1e4a3901477df883287a1ee350885de5513
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332748"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683689"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection in Microsoft 365
 
@@ -41,9 +41,6 @@ Voor meer informatie over het beheer van uw gegevens, gaat u naar [Microsoft Inf
 
 > [!NOTE]
 > Zie [Uw inhoud automatisch labelen in Azure Purview](/azure/purview/create-sensitivity-label) voor informatie over het automatisch classificeren en toepassen van een label in Azure Purview, momenteel in preview.
-> 
-> Lees de volgende blogberichten voor release-aankondigingen voor Azure Purview: [Microsoft Information Protection en Microsoft Azure Purview: Better Together](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-microsoft-azure-purview/ba-p/1957481) en [Azure Purview op Spring Ignite 2021](https://techcommunity.microsoft.com/t5/azure-purview/azure-purview-at-spring-ignite-2021/ba-p/2175919).
-
 
 Gebruik de volgende mogelijkheden om inzicht te krijgen in uw gegevensomgeving en belangrijke gegevens te identificeren in uw hybride omgeving:
  
@@ -83,3 +80,7 @@ Gebruik de volgende mogelijkheden om te voorkomen dat vertrouwelijke informatie 
 |[Microsoft-compliance-uitbreiding (preview)](dlp-chrome-learn-about.md) | Breidt DLP-mogelijkheden uit naar de Chrome-browser | [Aan de slag met Microsoft compliance-uitbreiding (preview)](dlp-chrome-get-started.md)|
 |[Microsoft 365 preventie van gegevensverlies on-premises scanner (preview)](dlp-on-premises-scanner-learn.md)|Breidt het DLP-toezicht op bestandsactiviteiten en beschermende maatregelen voor die bestanden uit tot on-premises gedeelde bestanden en SharePoint-mappen en documentbibliotheken.|[Aan de slag met de Microsoft 365-preventie van gegevensverlies on-premises scanner (preview)](dlp-on-premises-scanner-get-started.md)|
 |[Vertrouwelijke informatie in chat- en kanaalberichten in Microsoft Teams beveiligen](dlp-microsoft-teams.md) | Breidt een deel van de DLP-functionaliteit uit naar de chat- en kanaalberichten in Teams | [Meer informatie over het standaard preventiebeleid voor gegevensverlies in Microsoft Teams (preview)](dlp-teams-default-policy.md)|
+
+## <a name="licensing-requirements"></a>Licentievereisten
+
+Licentievereisten voor MIP zijn afhankelijk van de scenario's en functies die u gebruikt, in plaats van licentievereisten in te stellen voor elke functie die op deze pagina wordt vermeld. Als u meer wilt weten over uw licentievereisten en -opties, bekijkt u de secties [Informatiebeheer](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) in de Microsoft 365-licentiedocumentatie en downloadt u het bijbehorende PDF- of Excel-bestand.

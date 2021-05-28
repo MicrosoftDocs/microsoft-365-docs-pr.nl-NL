@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 2f9fd4e035152a127f9f1c254f4c489a6ca4c976
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 7589003505aafb480872b14a09c383cfbe0dff40
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994699"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683547"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -31,7 +31,7 @@ Houd rekening met het volgende voordat u begint:
 
 U kunt de instellingen wijzigen na de eerste installatie in het Microsoft 365-beheercentrum.
 
-Voordat u met het instellen begint, moet u plannen wat de beste manier is om inhoudsbegrip te configureren voor uw omgeving. Zo moet u bijvoorbeeld de volgende beslissingen nemen:
+Plan voor het instellen de beste manier om inzicht in inhoud in uw omgeving in te stellen en te configureren. U moet bijvoorbeeld de volgende beslissingen nemen:
 
 - De SharePoint-sites waarvoor u de formulierverwerking wilt inschakelen; alle sites, enkele sites of specifieke sites
 - De naam en beheerders van het inhoudscentrum
@@ -42,6 +42,8 @@ Voordat u met het instellen begint, moet u plannen wat de beste manier is om inh
 > Je moet beschikken over de machtigingen van een globale beheerder of SharePoint-beheerder om toegang te krijgen tot het Microsoft 365-beheercentrum en SharePoint Syntex in te stellen.
 
 Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de geselecteerde instellingen en de beheerinstellingen voor inhoudsbegrip in het Microsoft 365-beheercentrum.
+
+Als u van plan bent een aanpaste Power Platform-omgeving te gebruiken, [moet u de *AI Builder voor Project Cortex*-app in deze omgeving](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view) installeren en [AI Builder-credits toewijzen](/power-platform/admin/capacity-add-on) voordat u formulierverwerkingsmodellen kunt maken.
 
 ### <a name="licensing"></a>Licentieverlening
 
@@ -67,9 +69,9 @@ Ga naar het [Power platform-beheercentrum](https://admin.powerplatform.microsoft
 
 1. Selecteer **Instellingen** in het Microsoft 365-beheercentrum en bekijk het gedeelte **Bestanden en inhoud**.
 
-2. Selecteer onder **Bestanden en inhoud** de optie **Inhoudsbegrip automatiseren**.<br/>
+2. Selecteer onder **Bestanden en inhoud** de optie **Inhoudsbegrip automatiseren**. Uw huidige beschikbaarheid van AI Builder-credit weergegeven in de sectie **In één oogopslag**.<br/>
 
-3. Klik op de pagina **Inhoudsbegrip automatiseren** op **Aan de slag** om het installatieproces te doorlopen.<br/>
+3. Klik op de pagina **Inhoudsbegrip automatiseren** op **Aan de slag** om het installatieproces te doorlopen. <br/>
 
     > [!div class="mx-imgBorder"]
     > ![Installatie starten](../media/content-understanding/admin-content-understanding-get-started.png)</br>
@@ -93,7 +95,7 @@ Ga naar het [Power platform-beheercentrum](https://admin.powerplatform.microsoft
 
     Voor de **Power Platform-omgeving** kunt u het volgende selecteren:
     - **Gebruik de standaardomgeving** om uw Power Platform-standaardomgeving te gebruiken.
-    - **Gebruik een aangepaste omgeving** om een aangepaste omgeving te gebruiken. Kies de omgeving die u wilt gebruiken uit de lijst. U moet de *AI Builder voor Project Cortex*-app in deze omgeving installeren en er AI Builder-credits aan toewijzen voordat u formulierverwerkingsmodellen kunt maken.
+    - **Gebruik een aangepaste omgeving** om een aangepaste omgeving te gebruiken. Kies de omgeving die u wilt gebruiken uit de lijst. ([Zie de vereisten voor een aangepaste omgeving](/microsoft-365/contentunderstanding/set-up-content-understanding#requirements)).
 
     Klik op **Volgende**.
 
