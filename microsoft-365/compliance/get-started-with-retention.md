@@ -18,19 +18,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Bent u klaar voor het implementeren van bewaarbeleid en bewaarlabels om de gegevens van uw organisatie te bepalen, maar weet u niet zeker waar u moet beginnen? Lees enkele praktische richtlijnen om aan de slag te gaan.
-ms.openlocfilehash: b39f6246fc9265319e0d4e5b053db6dfddc0d43a
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Bent u klaar voor het implementeren van bewaarbeleid en bewaarlabels om de gegevens van uw organisatie te bepalen, maar weet u niet zeker waar u moet beginnen? Lees wat praktische tips om aan de slag te gaan.
+ms.openlocfilehash: bd3ed5e354ee80831cb1af073b6da6f277418b51
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244586"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689035"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Aan de slag met bewaarbeleid en retentielabels
 
 >*[Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Bent u klaar om de gegevens van uw organisatie te gaan beheren door de inhoud die u nodig hebt te behouden en de inhoud die u niet hebt te verwijderen? Gebruik de volgende richtlijnen om aan de slag te gaan:
+Bent u klaar om de gegevens van uw organisatie te gaan beheren door de inhoud die u nodig hebt te behouden en de inhoud die u niet hebt te verwijderen? Gebruik de volgende tips om aan de slag te gaan:
 
 1. **Lees hoe bewaarbeleid** in Microsoft 365 werkt en bepaal vervolgens of u gebruik moet maken van bewaarbeleid of bewaarlabels, of een combinatie: [Meer informatie over bewaren](retention.md)
 
@@ -88,4 +88,4 @@ De meeste bewaarbeleidsregels werken op de achtergrond zonder tussenkomst van de
 
 Aangezien retentielabels een visuele aanwezigheid hebben in uw  Microsoft 365-apps, zorg ervoor dat u richtlijnen biedt voor eindgebruikers en uw helpdesk voordat u retentielabels implementeert in uw productienetwerk. Om gebruikers te helpen bij het toepassen van retentielabels in SharePoint en OneDrive, raadpleeg [Retentielabels toepassen op bestanden in SharePoint of OneDrive](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df). 
 
-De meest effectieve documentatie voor eindgebruikers zijn echter aangepaste richtlijnen en instructies die u geeft voor de door u gekozen namen en configuraties van retentielabels. Zie de volgende blogpost voor een downloadpakket dat u kunt gebruiken om gebruikers te trainen en ingebruikname te stimuleren: [Training van eindgebruikers voor retentielabels in M365 - Hoe kunt u de ingebruikname versnellen?](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
+De meest effectieve documentatie voor eindgebruikers zijn echter aangepaste richtlijnen en instructies die u geeft voor de door u gekozen namen en configuraties van retentielabels. Bekijk de volgende pagina en downloads die u kunt gebruiken voor het trainen van gebruikers: [Eindgebruikerstraining voor Retentielabels](https://microsoft.github.io/ComplianceCxE/enduser/retention/).

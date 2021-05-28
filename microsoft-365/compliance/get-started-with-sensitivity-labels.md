@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Bent u klaar voor het implementeren van gevoeligheidslabels om de gegevens van uw organisatie te beschermen, maar weet u niet zeker waar u moet beginnen? Lees enkele praktische richtlijnen om u op weg te helpen met labelen.
-ms.openlocfilehash: 2e757f7f07dbb911a8d89890b1f1cce80d7247b5
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: c87289fc7017e75db3b8a5b84a8af3a42dc16a10
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302110"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689119"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Aan de slag met vertrouwelijkheidslabels
 
@@ -102,7 +102,7 @@ De meest effectieve documentatie voor eindgebruikers bestaat uit aangepaste bege
 - Voor ingebouwde labeling: menuoptie **Meer informatie**.
 - Voor de geïntegreerde Azure Information Protection-labelclient: menuoptie **Help en Feedback** > koppeling **Meer informatie** in het dialoogvenster Microsoft Azure Information Protection.
 
-Zie de volgende blogpost voor een downloadpakket dat u kunt gebruiken om gebruikers te trainen en ingebruikname te stimuleren om u te helpen uw aangepaste documentatie op te stellen: [Training van eindgebruikers voor vertrouwelijkheidslabels in M365 - Hoe kunt u de ingebruikname versnellen?](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-sensitivity-labels-in-m365-how-to/ba-p/1750880). 
+Bekijk, om u te helpen bij het bieden van aangepaste documentatie, de volgende pagina en downloads die u kunt gebruiken voor het trainen van gebruikers: [Eindgebruikerstraining voor Retentielabels](https://microsoft.github.io/ComplianceCxE/enduser/sensitivity/). 
 
 U kunt ook de volgende bronnen gebruiken voor basisinstructies:
 

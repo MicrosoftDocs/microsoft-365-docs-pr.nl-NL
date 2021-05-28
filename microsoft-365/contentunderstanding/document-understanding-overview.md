@@ -1,8 +1,9 @@
 ---
 title: Overzicht van documentbegrip
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Bekijk een overzicht van documentbegrip in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 73e217e458fb9e1ccad8b64ffc81a6c9522a04f4
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7e5818a929fa0f4554a7ee4ece460b4fe0d691aa
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222753"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683821"
 ---
 # <a name="document-understanding-overview"></a>Overzicht van documentbegrip
 
@@ -48,16 +49,40 @@ U kunt voorbeeldbestanden gebruiken om de classificaties en extractoren in uw mo
 
 Nadat u uw model hebt gepubliceerd, gebruikt u het inhoudscentrum om het toe te passen op een SharePoint-documentbibliotheek waartoe u toegang hebt.  
 
-### <a name="file-limitations"></a>Bestandbeperkingen
+## <a name="file-limitations"></a>Bestandbeperkingen
 
 Documentbegripmodellen gebruiken Optical Character Recognition- (OCR) technologie om pdf-bestanden, afbeeldingen en tiff-bestanden te scannen wanneer je een model traint met voorbeeldbestanden en wanneer je het model uitvoert op bestanden in een documentbibliotheek.
 
 Let op de volgende verschillen in Microsoft Office tekstgebaseerde bestanden en OCR-gescande bestanden (pdf, afbeelding of tiff):
 
-- Office-bestanden: We kappen af op 64k karakters (in training en wanneer uitgevoerd op bestanden in een documentbibliotheek).
+- Office-bestanden: Afgekapt op 64000 karakters (in training en wanneer uitgevoerd op bestanden in een documentbibliotheek).
+
 - OCR-gescande bestanden: Er is een limiet van 20 pagina's.  
 
-#### <a name="supported-file-types"></a>Ondersteunde bestandstypen
+### <a name="requirements"></a>Vereisten
+
+OCR verwerking werkt het beste met documenten die aan de volgende vereisten voldoen:
+
+- JPG, PNG of PDF-formaat (tekst of scan) PDF's met tekst zijn beter, omdat er geen fouten zijn met leestekenextractie en locatie.
+
+- Als u PDF's met een wachtwoord vergrendeld zijn moet u de vergrendeling verwijderen voordat u ze inlevert.
+
+- De gecombineerde bestandsgrootte van de documenten die gebruikt worden voor training per collectie mogen niet groter zijn dan 50 MB en PDF-documenten mogen niet meer dan 500 pagina's hebben.
+
+- Voor afbeeldingen moeten de afmetingen tussen 50 x 50 en 10000 x 10000 pixels zijn.
+   > [!NOTE]
+   > Afbeeldingen die erg breed zijn of aparte afmetingen hebben (bijvoorbeeld bouwtekeningen) kunnen afgekapt worden in het OCR-proces en minder nauwkeurig worden.
+ 
+- Afmetingen voor PDF-bestanden moeten maximaal 17 x 17 inches zijn, en overeen komen met juridische of A3 papierformaten of kleiner.
+
+- Scans moeten afbeeldingen van hoge kwaliteit zijn wanneer gescand vanaf papieren documenten.
+
+- Moeten gebruik maken van het Latijnse alfabet (Engelse karakters).
+
+> [!NOTE]
+> AI Builder ondersteunt momenteel de volgende types formuliergevens niet:<br>- Selectievakken of radioknoppen<br>- Handtekeningen <br>- Herstelbare PDF's
+
+### <a name="supported-file-types"></a>Ondersteunde bestandstypen
 
 Documentbegripmodellen ondersteunen de volgende typen:
 
