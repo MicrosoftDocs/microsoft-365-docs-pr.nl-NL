@@ -66,6 +66,8 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: Informatie over Payment Services Directive 2 en Strong Customer Authentication
       href: billing-and-payments/psd2.md
+    - name: Een tegoed aanvragen voor bronbelasting voor uw account
+      href: billing-and-payments/withholding-tax-credit-global.md
 - name: Factureringsaccounts
   items:
     - name: Meer inzicht in het factureringsaccount

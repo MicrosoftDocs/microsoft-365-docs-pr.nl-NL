@@ -42,6 +42,8 @@
   items:
     - name: Aan de slag met de acceptatie
       href: adoption-getstarted.md
+    - name: Scenario's en use-cases
+      href: adoption-scenarios.md
     - name: Contracten beheren in Microsoft 365
       items:
         - name: Overzicht
@@ -54,7 +56,7 @@
           href: solution-manage-contracts-step3.md
 - name: Installatie en beheer
   items:
-    - name: Inhoudsbegrip instellen
+    - name: SharePoint Syntex instellen
       href: set-up-content-understanding.md
 - name: Inhoudsservices
   items:
